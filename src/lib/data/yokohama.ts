@@ -15,6 +15,7 @@ const municipality = {
   slug: 'yokohama',
   prefecture: '神奈川県',
   maxBasePoints: 9, // ランクA = 9点
+  scoringMethod: 'min' as const, // 低い方のランクが世帯ランク
 } as const;
 
 // ---------------------------------------------------------------------------

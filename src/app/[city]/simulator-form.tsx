@@ -183,6 +183,8 @@ export function SimulatorForm({ data }: { data: MunicipalityData }) {
     });
   };
 
+  const isMinScoring = data.municipality.scoringMethod === "min";
+
   // ひとり親判定（保護者2ステップの冒頭で聞く）
   const isSingleParent =
     answers["adj_single_parent"] === "adj_single_parent_yes" ||
@@ -232,8 +234,8 @@ export function SimulatorForm({ data }: { data: MunicipalityData }) {
   // Compute result
   const result = useMemo(() => {
     if (step !== "result") return null;
-    return calculateScore(data.questions, answers);
-  }, [step, data.questions, answers]);
+    return calculateScore(data.questions, answers, data.municipality.scoringMethod);
+  }, [step, data.questions, answers, data.municipality.scoringMethod]);
 
   const canProceed = useMemo(() => {
     if (step === "parent1") {
@@ -370,17 +372,40 @@ export function SimulatorForm({ data }: { data: MunicipalityData }) {
 
           <Card>
             <CardHeader>
-              <CardTitle className="text-base">点数のうちわけ</CardTitle>
+              <CardTitle className="text-base">
+                {isMinScoring ? "ランクのうちわけ" : "点数のうちわけ"}
+              </CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
-              <div className="flex justify-between items-center">
-                <span>保護者1の点数</span>
-                <Badge variant="secondary">{result.parent1Base}点</Badge>
-              </div>
-              <div className="flex justify-between items-center">
-                <span>保護者2の点数</span>
-                <Badge variant="secondary">{result.parent2Base}点</Badge>
-              </div>
+              {isMinScoring ? (
+                <>
+                  <div className="flex justify-between items-center">
+                    <span>保護者1のランク</span>
+                    <Badge variant="secondary">ランク値 {result.parent1Base}</Badge>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span>保護者2のランク</span>
+                    <Badge variant="secondary">ランク値 {result.parent2Base}</Badge>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span>世帯ランク（低い方を採用）</span>
+                    <Badge variant="default">
+                      ランク値 {Math.min(result.parent1Base, result.parent2Base)}
+                    </Badge>
+                  </div>
+                </>
+              ) : (
+                <>
+                  <div className="flex justify-between items-center">
+                    <span>保護者1の点数</span>
+                    <Badge variant="secondary">{result.parent1Base}点</Badge>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span>保護者2の点数</span>
+                    <Badge variant="secondary">{result.parent2Base}点</Badge>
+                  </div>
+                </>
+              )}
               <div className="flex justify-between items-center">
                 <span>家庭の状況による加減点</span>
                 <Badge

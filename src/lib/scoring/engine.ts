@@ -1,8 +1,9 @@
-import type { Question, SimulationResult } from "../types";
+import type { Question, SimulationResult, ScoringMethod } from "../types";
 
 export function calculateScore(
   questions: Question[],
-  answers: Record<string, string>
+  answers: Record<string, string>,
+  scoringMethod: ScoringMethod = "sum"
 ): SimulationResult {
   let parent1Base = 0;
   let parent2Base = 0;
@@ -37,11 +38,17 @@ export function calculateScore(
     }
   }
 
+  // 横浜市等のランク制: 低い方のランクが世帯ランク
+  const baseScore =
+    scoringMethod === "min"
+      ? Math.min(parent1Base, parent2Base)
+      : parent1Base + parent2Base;
+
   return {
     parent1Base,
     parent2Base,
     adjustment,
-    total: parent1Base + parent2Base + adjustment,
+    total: baseScore + adjustment,
     breakdown,
   };
 }

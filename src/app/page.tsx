@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { getAllMunicipalities } from "@/lib/data";
 import {
   Card,
@@ -25,17 +24,19 @@ export default function Home() {
 
       <div className="grid gap-4 sm:grid-cols-2">
         {municipalities.map((m) => (
-          <Link key={m.slug} href={`https://${m.slug}.hoikaten.com`}>
+          <a key={m.slug} href={`https://${m.slug}.hoikaten.com`}>
             <Card className="hover:border-primary/50 hover:shadow-md transition-all cursor-pointer">
               <CardHeader>
                 <CardDescription>{m.prefecture}</CardDescription>
                 <CardTitle className="text-xl">{m.name}</CardTitle>
                 <CardDescription>
-                  最大{m.maxBasePoints}点
+                  {m.scoringMethod === "min"
+                    ? `ランクA〜I + 調整指数`
+                    : `最大${m.maxBasePoints}点`}
                 </CardDescription>
               </CardHeader>
             </Card>
-          </Link>
+          </a>
         ))}
 
         <Card className="border-dashed opacity-60">

@@ -21,7 +21,9 @@ export default async function CityPage({
           かんたんな質問に答えるだけで、入園点数の目安がわかります
         </p>
         <p className="text-xs text-muted-foreground mt-1">
-          保護者1・保護者2の合計で最大{data.municipality.maxBasePoints}点
+          {data.municipality.scoringMethod === "min"
+            ? "保護者の低い方のランク＋調整指数で判定されます"
+            : `保護者1・保護者2の合計で最大${data.municipality.maxBasePoints}点`}
         </p>
       </div>
       <SimulatorForm data={data} />
