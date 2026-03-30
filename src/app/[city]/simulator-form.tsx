@@ -97,73 +97,65 @@ function QuestionField({
   );
 }
 
-function getScoreEvaluation(total: number): {
+type ScoreEvaluation = {
   label: string;
   color: string;
   description: string;
   tip: string;
-} {
-  if (total >= 110) {
-    return {
-      label: "かなり有利",
-      color: "text-green-600",
-      description:
-        "世田谷区でもトップクラスの点数です。多くの園で入園が期待できます。",
-      tip: "希望する園の過去のボーダーラインも確認しておくと、より安心です。",
-    };
-  }
-  if (total >= 106) {
-    return {
-      label: "有利だけど油断は禁物",
-      color: "text-emerald-600",
-      description:
-        "フルタイム共働き＋複数の加点がある状態です。多くの園でチャンスがありますが、人気園では106点以上でも競争になることがあります。",
-      tip: "人気園に絞りすぎず、複数の園を希望に入れておくのが安心です。",
-    };
-  }
-  if (total >= 105) {
-    return {
-      label: "最激戦ゾーン",
-      color: "text-blue-600",
-      description:
-        "世田谷区で最も多い点数帯です。入園児童の約40%がこの層にいるため、同点の中での競争になります。同点の場合は、小規模保育の卒園児→基本指数が高い世帯→所得が低い世帯の順に優先されます。",
-      tip: "加点をもう1つ積めないか確認しましょう（認可外利用+6点、きょうだい加点+5点など）。園の選び方も重要です。",
-    };
-  }
-  if (total >= 100) {
-    return {
-      label: "加点なしでは厳しい",
-      color: "text-yellow-600",
-      description:
-        "両親フルタイムの基本ラインですが、世田谷区ではほとんどの家庭が育休明け加点（+5）などを持っているため、100点では入園は厳しい状況です。",
-      tip: "育休明け加点（+5）、認可外利用（+5〜6）、きょうだい加点（+5）など、使える加点がないかもう一度チェックしてみましょう。",
-    };
-  }
-  if (total >= 80) {
-    return {
-      label: "認可園は非常に厳しい",
-      color: "text-orange-600",
-      description:
-        "パートタイムや時短勤務の方に多い点数帯です。世田谷区の認可園はほぼフルタイム＋加点ありの家庭で埋まるため、この点数での入園は非常に難しいのが現実です。",
-      tip: "小規模保育や新設園も視野に入れましょう。認可外保育施設に預けると加点（+5〜6）がつくので、翌年度のステップアップも検討してみてください。",
-    };
-  }
-  if (total >= 60) {
-    return {
-      label: "認可園はかなり厳しい",
-      color: "text-red-500",
-      description:
-        "求職中やパートタイム勤務の方に多い点数帯です。世田谷区の認可園への入園は現実的に難しい状況です。",
-      tip: "認可外保育施設や一時保育の利用を並行して検討するのがおすすめです。認可外に預けると加点がつくので、次年度の入園に向けた準備にもなります。",
-    };
-  }
-  return {
-    label: "認可園は極めて難しい",
-    color: "text-red-600",
-    description:
-      "この点数では認可園への入園は極めて難しい状況です。",
-    tip: "まずは認可外保育施設やファミリーサポートなど、別の預け先を検討しましょう。就労状況が変われば点数も変わるので、定期的にシミュレーションし直してみてください。",
-  };
+  notes?: string[];
+};
+
+function getScoreEvaluation(slug: string, total: number): ScoreEvaluation {
+  if (slug === "setagaya") return getSetagayaEvaluation(total);
+  if (slug === "yokohama") return getYokohamaEvaluation(total);
+  if (slug === "osaka") return getOsakaEvaluation(total);
+  return getGenericEvaluation(total);
+}
+
+function getSetagayaEvaluation(total: number): ScoreEvaluation {
+  const notes = [
+    "※ 世田谷区では入園児童の約40%がフルタイム共働き＋育休明け加点の105点です",
+    "※ 同点の場合の優先順位：小規模保育等の卒園児 → 基本指数が高い世帯 → 所得が低い世帯 → 認可外利用期間が長い世帯 → 区内居住期間が長い世帯 → 保育理由の類型",
+  ];
+  if (total >= 110) return { label: "かなり有利", color: "text-green-600", description: "世田谷区でもトップクラスの点数です。多くの園で入園が期待できます。", tip: "希望する園の過去のボーダーラインも確認しておくと、より安心です。", notes };
+  if (total >= 106) return { label: "有利だけど油断は禁物", color: "text-emerald-600", description: "フルタイム共働き＋複数の加点がある状態です。多くの園でチャンスがありますが、人気園では106点以上でも競争になることがあります。", tip: "人気園に絞りすぎず、複数の園を希望に入れておくのが安心です。", notes };
+  if (total >= 105) return { label: "最激戦ゾーン", color: "text-blue-600", description: "世田谷区で最も多い点数帯です。入園児童の約40%がこの層にいるため、同点の中での競争になります。", tip: "加点をもう1つ積めないか確認しましょう（認可外利用+6点、きょうだい加点+5点など）。園の選び方も重要です。", notes };
+  if (total >= 100) return { label: "加点なしでは厳しい", color: "text-yellow-600", description: "両親フルタイムの基本ラインですが、世田谷区ではほとんどの家庭が育休明け加点（+5）などを持っているため、100点では入園は厳しい状況です。", tip: "育休明け加点（+5）、認可外利用（+5〜6）、きょうだい加点（+5）など、使える加点がないかもう一度チェックしてみましょう。", notes };
+  if (total >= 80) return { label: "認可園は非常に厳しい", color: "text-orange-600", description: "パートタイムや時短勤務の方に多い点数帯です。世田谷区の認可園はほぼフルタイム＋加点ありの家庭で埋まるため、この点数での入園は非常に難しいのが現実です。", tip: "小規模保育や新設園も視野に入れましょう。認可外保育施設に預けると加点（+5〜6）がつくので、翌年度のステップアップも検討してみてください。", notes };
+  if (total >= 60) return { label: "認可園はかなり厳しい", color: "text-red-500", description: "求職中やパートタイム勤務の方に多い点数帯です。世田谷区の認可園への入園は現実的に難しい状況です。", tip: "認可外保育施設や一時保育の利用を並行して検討するのがおすすめです。認可外に預けると加点がつくので、次年度の入園に向けた準備にもなります。", notes };
+  return { label: "認可園は極めて難しい", color: "text-red-600", description: "この点数では認可園への入園は極めて難しい状況です。", tip: "まずは認可外保育施設やファミリーサポートなど、別の預け先を検討しましょう。就労状況が変われば点数も変わるので、定期的にシミュレーションし直してみてください。", notes };
+}
+
+function getYokohamaEvaluation(total: number): ScoreEvaluation {
+  // 横浜市: ランクA(9点)+調整指数。ランクAの共働き=9点+調整
+  const notes = [
+    "※ 横浜市はランク制（A〜I）で選考されます。この点数はランクを数値化した目安です",
+    "※ 同ランクの場合の優先順位：調整指数 → 養育児童数 → 所得の低い世帯",
+  ];
+  if (total >= 14) return { label: "かなり有利", color: "text-green-600", description: "ランクA＋複数の加点がある状態です。多くの園で入園が期待できます。", tip: "希望する園の過去の内定ラインも確認しておくと安心です。", notes };
+  if (total >= 12) return { label: "有利", color: "text-emerald-600", description: "ランクA＋加点がある状態です。多くの園でチャンスがあります。", tip: "人気園では同ランク内での競争になります。複数の園を希望に入れておきましょう。", notes };
+  if (total >= 9) return { label: "標準的（ランクA相当）", color: "text-blue-600", description: "両親フルタイムの基本ラインです。横浜市ではランクAの家庭が多いため、加点の有無が勝負を分けます。", tip: "横浜保育室・小規模保育の卒園児加点（+5）、きょうだい加点（+4）、認可外利用（+3）など、使える加点がないか確認しましょう。", notes };
+  if (total >= 7) return { label: "やや不利", color: "text-yellow-600", description: "ランクB〜C相当です。ランクAの家庭が優先されるため、人気園への入園は難しい状況です。", tip: "フルタイムへの切り替えが可能か検討するか、比較的空きのある園を探しましょう。", notes };
+  if (total >= 4) return { label: "認可園は厳しい", color: "text-orange-600", description: "パートタイムや求職中の方に多いランクです。認可園への入園は難しい状況です。", tip: "横浜保育室や認可外保育施設も並行して検討しましょう。認可外利用で加点がつく場合もあります。", notes };
+  return { label: "認可園は極めて難しい", color: "text-red-600", description: "このランクでは認可園への入園は極めて難しい状況です。", tip: "まずは横浜保育室や認可外保育施設など別の預け先を検討しましょう。", notes };
+}
+
+function getOsakaEvaluation(total: number): ScoreEvaluation {
+  // 大阪市: 父母各100点、合計最大200点+調整
+  const notes = [
+    "※ 大阪市では両親フルタイムで200点が基本ラインです",
+    "※ 同点の場合は保育の必要性の事由（就労 > 疾病 > 障害 > 介護...）で優先されます",
+  ];
+  if (total >= 210) return { label: "かなり有利", color: "text-green-600", description: "フルタイム共働き＋複数の加点がある高得点です。多くの園で入園が期待できます。", tip: "希望する園の過去のボーダーラインも確認しておくと安心です。", notes };
+  if (total >= 207) return { label: "有利", color: "text-emerald-600", description: "フルタイム共働き＋加点ありの状態です。多くの園でチャンスがあります。", tip: "人気園では同点の中での競争になることがあります。複数の園を希望に入れましょう。", notes };
+  if (total >= 200) return { label: "標準的（フルタイム共働き相当）", color: "text-blue-600", description: "両親フルタイムの基本ラインです。加点がないと人気園では厳しい場合があります。", tip: "育休復帰加点（+7）、認可外利用（+5）、きょうだい加点（+3）など使える加点がないか確認しましょう。", notes };
+  if (total >= 160) return { label: "やや厳しめ", color: "text-yellow-600", description: "パートタイムや時短勤務の方に多い点数帯です。人気園は難しい場合がありますが、園によってはチャンスがあります。", tip: "小規模保育や新設園も視野に入れましょう。認可外保育施設を利用すると加点がつく場合もあります。", notes };
+  if (total >= 120) return { label: "認可園は厳しい", color: "text-orange-600", description: "求職中や短時間勤務の方に多い点数帯です。認可園への入園は難しい状況です。", tip: "認可外保育施設や一時保育も並行して検討するのがおすすめです。", notes };
+  return { label: "認可園は極めて難しい", color: "text-red-600", description: "この点数では認可園への入園は極めて難しい状況です。", tip: "まずは認可外保育施設やファミリーサポートなど別の預け先を検討しましょう。", notes };
+}
+
+function getGenericEvaluation(total: number): ScoreEvaluation {
+  return { label: "結果", color: "text-primary", description: `合計${total}点です。くわしくはお住まいの自治体にご確認ください。`, tip: "自治体の窓口で、この点数で入園できそうか相談してみましょう。" };
 }
 
 export function SimulatorForm({ data }: { data: MunicipalityData }) {
@@ -180,7 +172,7 @@ export function SimulatorForm({ data }: { data: MunicipalityData }) {
       if (questionId === "parent1_reason" || questionId === "parent2_reason") {
         const prefix = questionId.replace("_reason", "");
         const detailKeys = [
-          "employment", "illness", "disability", "care",
+          "employment", "offer", "illness", "disability", "care",
           "childbirth", "education", "jobseeking",
         ];
         for (const key of detailKeys) {
@@ -192,7 +184,9 @@ export function SimulatorForm({ data }: { data: MunicipalityData }) {
   };
 
   // ひとり親判定（保護者2ステップの冒頭で聞く）
-  const isSingleParent = answers["adj_single_parent"] === "adj_single_parent_yes";
+  const isSingleParent =
+    answers["adj_single_parent"] === "adj_single_parent_yes" ||
+    answers["adj_single_parent"] === "adj_single_parent_relative";
 
   // Filter questions for current step
   const visibleQuestions = useMemo(() => {
@@ -346,7 +340,7 @@ export function SimulatorForm({ data }: { data: MunicipalityData }) {
           </Card>
 
           {(() => {
-            const evaluation = getScoreEvaluation(result.total);
+            const evaluation = getScoreEvaluation(data.municipality.slug, result.total);
             return (
               <Card>
                 <CardHeader className="pb-2">
@@ -362,10 +356,13 @@ export function SimulatorForm({ data }: { data: MunicipalityData }) {
                       {evaluation.tip}
                     </p>
                   </div>
-                  <div className="text-xs text-muted-foreground space-y-1 pt-1">
-                    <p>※ 世田谷区では入園児童の約40%がフルタイム共働き＋育休明け加点の105点です</p>
-                    <p>※ 同点の場合の優先順位：小規模保育等の卒園児 → 基本指数が高い世帯 → 所得が低い世帯 → 認可外利用期間が長い世帯 → 区内居住期間が長い世帯 → 保育理由の類型</p>
-                  </div>
+                  {evaluation.notes && (
+                    <div className="text-xs text-muted-foreground space-y-1 pt-1">
+                      {evaluation.notes.map((note, i) => (
+                        <p key={i}>{note}</p>
+                      ))}
+                    </div>
+                  )}
                 </CardContent>
               </Card>
             );
