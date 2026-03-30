@@ -16,6 +16,15 @@ export const metadata: Metadata = {
   title: "保育園の点数、何点とれる？｜hoikaten",
   description:
     "かんたんな質問に答えるだけで、保育園に入るための点数がわかります。まずはお住まいの地域を選んでください。",
+  metadataBase: new URL("https://hoikaten.com"),
+  openGraph: {
+    type: "website",
+    locale: "ja_JP",
+    siteName: "hoikaten - 保育園 点数シミュレーター",
+  },
+  twitter: {
+    card: "summary_large_image",
+  },
 };
 
 export default function RootLayout({
@@ -29,6 +38,23 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-background text-foreground">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebApplication",
+              name: "hoikaten - 保育園 点数シミュレーター",
+              url: "https://hoikaten.com",
+              description:
+                "かんたんな質問に答えるだけで、保育園に入るための点数がわかります。",
+              applicationCategory: "UtilityApplication",
+              operatingSystem: "Any",
+              offers: { "@type": "Offer", price: "0", priceCurrency: "JPY" },
+              inLanguage: "ja",
+            }),
+          }}
+        />
         <header className="border-b bg-white">
           <div className="mx-auto max-w-3xl px-4 py-4">
             <h1 className="text-lg font-bold">
