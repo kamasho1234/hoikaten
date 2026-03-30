@@ -109,6 +109,8 @@ function getScoreEvaluation(slug: string, total: number): ScoreEvaluation {
   if (slug === "setagaya") return getSetagayaEvaluation(total);
   if (slug === "yokohama") return getYokohamaEvaluation(total);
   if (slug === "osaka") return getOsakaEvaluation(total);
+  if (slug === "kawasaki") return getKawasakiEvaluation(total);
+  if (slug === "nagoya") return getNagoyaEvaluation(total);
   return getGenericEvaluation(total);
 }
 
@@ -152,6 +154,35 @@ function getOsakaEvaluation(total: number): ScoreEvaluation {
   if (total >= 160) return { label: "やや厳しめ", color: "text-yellow-600", description: "パートタイムや時短勤務の方に多い点数帯です。人気園は難しい場合がありますが、園によってはチャンスがあります。", tip: "小規模保育や新設園も視野に入れましょう。認可外保育施設を利用すると加点がつく場合もあります。", notes };
   if (total >= 120) return { label: "認可園は厳しい", color: "text-orange-600", description: "求職中や短時間勤務の方に多い点数帯です。認可園への入園は難しい状況です。", tip: "認可外保育施設や一時保育も並行して検討するのがおすすめです。", notes };
   return { label: "認可園は極めて難しい", color: "text-red-600", description: "この点数では認可園への入園は極めて難しい状況です。", tip: "まずは認可外保育施設やファミリーサポートなど別の預け先を検討しましょう。", notes };
+}
+
+function getKawasakiEvaluation(total: number): ScoreEvaluation {
+  // 川崎市: ランクA(8点)+調整指数。フルタイム共働き+就労実績1年以上(+4)+育休明け(+2)=A-6が標準
+  const notes = [
+    "※ 川崎市はランク制（A〜H）で選考されます。この点数はランクを数値化した目安です",
+    "※ 同ランク・同指数の場合は、養育する子ども3人以上の世帯 → 所得が低い世帯 の順で優先されます",
+  ];
+  if (total >= 15) return { label: "かなり有利", color: "text-green-600", description: "ランクA＋きょうだい加点などがある高得点です。多くの園で入園が期待できます。", tip: "希望する園の過去のボーダーも確認しておくと安心です。", notes };
+  if (total >= 12) return { label: "有利", color: "text-emerald-600", description: "ランクA＋複数の加点がある状態です。多くの園でチャンスがあります。", tip: "中原区・高津区など激戦区では、この点数帯でも競争になることがあります。", notes };
+  if (total >= 10) return { label: "標準的（A-6前後）", color: "text-blue-600", description: "フルタイム共働き＋就労実績＋育休明け（A-6）の標準ラインです。川崎市ではこの層が最も多く、加点の有無が勝負を分けます。", tip: "認可外利用（+2）やきょうだい加点（+7）など使える加点がないか確認しましょう。", notes };
+  if (total >= 8) return { label: "加点なしでは厳しい", color: "text-yellow-600", description: "ランクAだが加点が少ない状態です。人気園への入園は厳しい場合があります。", tip: "就労実績の加点（1年以上で+2/人）や育休明け加点（+2）を確認しましょう。", notes };
+  if (total >= 5) return { label: "認可園は厳しい", color: "text-orange-600", description: "ランクB〜D相当です。ランクAの家庭が優先されるため、認可園への入園は難しい状況です。", tip: "フルタイムへの切り替えが可能か検討するか、比較的空きのある園を探しましょう。", notes };
+  return { label: "認可園は極めて難しい", color: "text-red-600", description: "このランクでは認可園への入園は極めて難しい状況です。", tip: "認可外保育施設や企業主導型保育など別の預け先を検討しましょう。", notes };
+}
+
+function getNagoyaEvaluation(total: number): ScoreEvaluation {
+  // 名古屋市: ランクA(9点)+調整指数。人気園ボーダーはA7〜A10
+  const notes = [
+    "※ 名古屋市はランク制（A〜I）で選考されます。この点数はランクを数値化した目安です",
+    "※ 同ランク・同指数の場合は所得が低い世帯が優先されます",
+    "※ ランクアップ制度（ひとり親で最大3ランクアップ等）は本シミュレーターに反映されていません。くわしくは名古屋市にご確認ください",
+  ];
+  if (total >= 17) return { label: "かなり有利", color: "text-green-600", description: "ランクA＋きょうだい加点など高い加点がある状態です。多くの園で入園が期待できます。", tip: "希望する園の過去のボーダーも確認しておくと安心です。", notes };
+  if (total >= 14) return { label: "有利", color: "text-emerald-600", description: "ランクA＋複数の加点がある状態です。人気園でもチャンスがあります。", tip: "第1希望の園で+2の加点がつくことも考慮に入れましょう。", notes };
+  if (total >= 12) return { label: "標準的（ランクA＋加点あり）", color: "text-blue-600", description: "フルタイム共働き＋加点ありの層です。名古屋市では人気園のボーダーがA7〜A10程度のため、加点の積み上げが重要です。", tip: "きょうだい同一施設（+5）、認可外利用（+3）、育休復帰（+3）など使える加点を確認しましょう。", notes };
+  if (total >= 9) return { label: "加点なしでは厳しい", color: "text-yellow-600", description: "ランクAだが加点がない状態です。人気園では厳しく、不人気園でもボーダーぎりぎりです。", tip: "認可外保育施設に預けると+3の加点がつきます。きょうだい加点や育休復帰加点も確認しましょう。", notes };
+  if (total >= 6) return { label: "認可園は厳しい", color: "text-orange-600", description: "ランクB〜D相当です。ランクAの家庭が優先されるため、認可園への入園は難しい状況です。", tip: "フルタイムへの切り替えや、比較的空きのある園を探しましょう。", notes };
+  return { label: "認可園は極めて難しい", color: "text-red-600", description: "このランクでは認可園への入園は極めて難しい状況です。", tip: "認可外保育施設や企業主導型保育など別の預け先を検討しましょう。", notes };
 }
 
 function getGenericEvaluation(total: number): ScoreEvaluation {

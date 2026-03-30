@@ -39,9 +39,15 @@ export function calculateScore(
   }
 
   // 横浜市等のランク制: 低い方のランクが世帯ランク
+  // ひとり親の場合（parent2未回答=0）は parent1Base をそのまま使用
+  const hasParent2 = questions.some(
+    (q) => q.category === "parent2_base" && answers[q.id] !== undefined
+  );
   const baseScore =
     scoringMethod === "min"
-      ? Math.min(parent1Base, parent2Base)
+      ? hasParent2
+        ? Math.min(parent1Base, parent2Base)
+        : parent1Base
       : parent1Base + parent2Base;
 
   return {
