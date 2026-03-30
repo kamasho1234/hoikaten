@@ -29,8 +29,8 @@ const employmentOptions = (prefix: string) => [
 /** 就労内定 */
 const employmentOfferOptions = (prefix: string) => [
   { label: 'あてはまらない', value: `${prefix}_offer_none`, points: 0 },
-  { label: '週40時間以上相当の内定', value: `${prefix}_offer_90`, points: 90 },
-  { label: '月48時間以上の内定', value: `${prefix}_offer_80`, points: 80 },
+  { label: '週40時間以上相当の内定', value: `${prefix}_offer_80`, points: 80 },
+  { label: '月48時間以上の内定', value: `${prefix}_offer_60`, points: 60 },
 ];
 
 /** 疾病 */
@@ -203,22 +203,25 @@ const adjustmentQuestions: Question[] = [
   {
     id: 'adj_unlicensed_nursery',
     category: 'adjustment',
-    label: '認可外の保育施設に月64時間以上預けていますか？',
-    helpText: '月ぎめで預けている場合です',
+    label: '認可外の保育施設に週3日以上、お金を払って預けていますか？',
+    helpText: '月ぎめで預けている場合です。期間によって加点が変わります',
     inputType: 'radio',
     options: [
       { label: 'いいえ', value: 'adj_unlicensed_nursery_no', points: 0 },
-      { label: 'はい', value: 'adj_unlicensed_nursery_yes', points: 5 },
+      { label: 'はい（6ヶ月未満）', value: 'adj_unlicensed_nursery_5', points: 5 },
+      { label: 'はい（6ヶ月以上）', value: 'adj_unlicensed_nursery_7', points: 7 },
     ],
   },
   {
     id: 'adj_sibling',
     category: 'adjustment',
-    label: 'きょうだいが認可保育園に通っていますか？',
+    label: 'きょうだいの保育園の状況は？',
+    helpText: '在園中のきょうだいがいて同じ園を希望する場合は加点が大きくなります',
     inputType: 'radio',
     options: [
-      { label: 'いいえ', value: 'adj_sibling_no', points: 0 },
-      { label: 'はい', value: 'adj_sibling_yes', points: 3 },
+      { label: 'あてはまらない', value: 'adj_sibling_no', points: 0 },
+      { label: 'きょうだいが在園中で、同じ園を希望する', value: 'adj_sibling_same', points: 7 },
+      { label: 'きょうだいと同時に申し込む（双子など）', value: 'adj_sibling_simultaneous', points: 3 },
     ],
   },
   {
@@ -229,6 +232,17 @@ const adjustmentQuestions: Question[] = [
     options: [
       { label: 'いいえ', value: 'adj_welfare_no', points: 0 },
       { label: 'はい', value: 'adj_welfare_yes', points: 5 },
+    ],
+  },
+  {
+    id: 'adj_grandparent_nearby',
+    category: 'adjustment',
+    label: '65歳未満の祖父母がおおむね1km圏内に住んでいますか？',
+    helpText: '近くに住んでいて子どもの面倒を見られる場合は減点になります',
+    inputType: 'radio',
+    options: [
+      { label: 'いいえ', value: 'adj_grandparent_nearby_no', points: 0 },
+      { label: 'はい', value: 'adj_grandparent_nearby_yes', points: -3 },
     ],
   },
 ];

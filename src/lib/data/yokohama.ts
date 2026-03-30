@@ -24,10 +24,11 @@ const municipality = {
 /** 就労 */
 const employmentOptions = (prefix: string) => [
   { label: 'あてはまらない', value: `${prefix}_employment_none`, points: 0 },
-  { label: '月20日以上かつ週40時間以上（ランクA）', value: `${prefix}_employment_9`, points: 9 },
-  { label: '月20日以上かつ週35時間以上40時間未満（ランクB）', value: `${prefix}_employment_8`, points: 8 },
-  { label: '月16日以上かつ週24時間以上（ランクC）', value: `${prefix}_employment_7`, points: 7 },
-  { label: '月12日以上かつ週16時間以上（ランクD）', value: `${prefix}_employment_6`, points: 6 },
+  { label: '月20日以上かつ月160時間以上（ランクA）', value: `${prefix}_employment_9`, points: 9 },
+  { label: '月20日以上かつ月140時間以上160時間未満（ランクB）', value: `${prefix}_employment_8`, points: 8 },
+  { label: '月16日以上かつ月96時間以上（ランクC）', value: `${prefix}_employment_7`, points: 7 },
+  { label: '月16日以上かつ月64時間以上96時間未満（ランクD）', value: `${prefix}_employment_6`, points: 6 },
+  { label: '月12日以上かつ月64時間以上（ランクE）', value: `${prefix}_employment_5`, points: 5 },
   { label: '月64時間以上の就労（上記以外）（ランクF）', value: `${prefix}_employment_4`, points: 4 },
 ];
 
@@ -41,7 +42,7 @@ const illnessOptions = (prefix: string) => [
 /** 障害 */
 const disabilityOptions = (prefix: string) => [
   { label: 'あてはまらない', value: `${prefix}_disability_none`, points: 0 },
-  { label: '身体障害者手帳を持っている（ランクA相当）', value: `${prefix}_disability_9`, points: 9 },
+  { label: '障害者手帳を持っている（身体・精神・療育）（ランクA相当）', value: `${prefix}_disability_9`, points: 9 },
 ];
 
 /** 介護 */
@@ -221,6 +222,17 @@ const adjustmentQuestions: Question[] = [
     options: [
       { label: 'いいえ', value: 'adj_night_shift_no', points: 0 },
       { label: 'はい', value: 'adj_night_shift_yes', points: 1 },
+    ],
+  },
+  {
+    id: 'adj_grandparent_cohabit',
+    category: 'adjustment',
+    label: '65歳未満の同居親族に子どもの面倒を見られる方がいますか？',
+    helpText: '同居の祖父母などが保育可能な場合は減点になります',
+    inputType: 'radio',
+    options: [
+      { label: 'いいえ', value: 'adj_grandparent_cohabit_no', points: 0 },
+      { label: 'はい', value: 'adj_grandparent_cohabit_yes', points: -1 },
     ],
   },
 ];

@@ -130,7 +130,7 @@ function getYokohamaEvaluation(total: number): ScoreEvaluation {
   // 横浜市: ランクA(9点)+調整指数。ランクAの共働き=9点+調整
   const notes = [
     "※ 横浜市はランク制（A〜I）で選考されます。この点数はランクを数値化した目安です",
-    "※ 同ランクの場合の優先順位：調整指数 → 養育児童数 → 所得の低い世帯",
+    "※ 同ランクの場合の優先順位：調整指数 → 類型間の優先順位（疾病・障害 > 就労 > 介護...）→ 養育児童数 → 所得の低い世帯",
   ];
   if (total >= 14) return { label: "かなり有利", color: "text-green-600", description: "ランクA＋複数の加点がある状態です。多くの園で入園が期待できます。", tip: "希望する園の過去の内定ラインも確認しておくと安心です。", notes };
   if (total >= 12) return { label: "有利", color: "text-emerald-600", description: "ランクA＋加点がある状態です。多くの園でチャンスがあります。", tip: "人気園では同ランク内での競争になります。複数の園を希望に入れておきましょう。", notes };
@@ -144,7 +144,7 @@ function getOsakaEvaluation(total: number): ScoreEvaluation {
   // 大阪市: 父母各100点、合計最大200点+調整
   const notes = [
     "※ 大阪市では両親フルタイムで200点が基本ラインです",
-    "※ 同点の場合は保育の必要性の事由（就労 > 疾病 > 障害 > 介護...）で優先されます",
+    "※ 同点の場合の優先順位：災害 → 就労（親族外雇用）→ 就労（親族雇用）→ 就労内定 → ひとり親等の求職 → 疾病 → 障害 → 介護 → 就学 → 出産 → 求職",
   ];
   if (total >= 210) return { label: "かなり有利", color: "text-green-600", description: "フルタイム共働き＋複数の加点がある高得点です。多くの園で入園が期待できます。", tip: "希望する園の過去のボーダーラインも確認しておくと安心です。", notes };
   if (total >= 207) return { label: "有利", color: "text-emerald-600", description: "フルタイム共働き＋加点ありの状態です。多くの園でチャンスがあります。", tip: "人気園では同点の中での競争になることがあります。複数の園を希望に入れましょう。", notes };
