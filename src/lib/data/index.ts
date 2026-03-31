@@ -4,6 +4,7 @@ import { yokohamaData } from './yokohama';
 import { osakaData } from './osaka';
 import { kawasakiData } from './kawasaki';
 import { nagoyaData } from './nagoya';
+import { saitamaData } from './saitama';
 
 const municipalityMap: Record<string, MunicipalityData> = {
   [setagayaData.municipality.slug]: setagayaData,
@@ -11,6 +12,7 @@ const municipalityMap: Record<string, MunicipalityData> = {
   [osakaData.municipality.slug]: osakaData,
   [kawasakiData.municipality.slug]: kawasakiData,
   [nagoyaData.municipality.slug]: nagoyaData,
+  [saitamaData.municipality.slug]: saitamaData,
 };
 
 export function getMunicipalityData(slug: string): MunicipalityData | undefined {
@@ -21,4 +23,4 @@ export function getAllMunicipalities() {
   return Object.values(municipalityMap).map((d) => d.municipality);
 }
 
-export { setagayaData, yokohamaData, osakaData, kawasakiData, nagoyaData };
+export { setagayaData, yokohamaData, osakaData, kawasakiData, nagoyaData, saitamaData };

@@ -111,6 +111,7 @@ function getScoreEvaluation(slug: string, total: number): ScoreEvaluation {
   if (slug === "osaka") return getOsakaEvaluation(total);
   if (slug === "kawasaki") return getKawasakiEvaluation(total);
   if (slug === "nagoya") return getNagoyaEvaluation(total);
+  if (slug === "saitama") return getSaitamaEvaluation(total);
   return getGenericEvaluation(total);
 }
 
@@ -183,6 +184,21 @@ function getNagoyaEvaluation(total: number): ScoreEvaluation {
   if (total >= 9) return { label: "加点なしでは厳しい", color: "text-yellow-600", description: "ランクAだが加点がない状態です。人気園では厳しく、不人気園でもボーダーぎりぎりです。", tip: "認可外保育施設に預けると+3の加点がつきます。きょうだい加点や育休復帰加点も確認しましょう。", notes };
   if (total >= 6) return { label: "認可園は厳しい", color: "text-orange-600", description: "ランクB〜D相当です。ランクAの家庭が優先されるため、認可園への入園は難しい状況です。", tip: "フルタイムへの切り替えや、比較的空きのある園を探しましょう。", notes };
   return { label: "認可園は極めて難しい", color: "text-red-600", description: "このランクでは認可園への入園は極めて難しい状況です。", tip: "認可外保育施設や企業主導型保育など別の預け先を検討しましょう。", notes };
+}
+
+function getSaitamaEvaluation(total: number): ScoreEvaluation {
+  // さいたま市: 父母各最大26点+調整。フルタイム共働き＋育休＋祖父母別居=62点が標準
+  const notes = [
+    "※ さいたま市ではフルタイム共働き＋育休中＋祖父母別居で62点が標準ラインです",
+    "※ 同点の場合の優先順位：ひとり親 → 災害 → 疾病・障害 → 出産 → 看護・介護 → 就労 → 育休中 → 就学 → 求職 → 所得の低い順",
+    "※ ひとり親の場合、配偶者は「不存在」として60点が加算されます（公式基準に準拠）",
+  ];
+  if (total >= 67) return { label: "かなり有利", color: "text-green-600", description: "フルタイム共働き＋複数の加点がある高得点です。多くの園で入園が期待できます。", tip: "希望する園の過去のボーダーも確認しておくと安心です。", notes };
+  if (total >= 64) return { label: "有利", color: "text-emerald-600", description: "フルタイム共働き＋加点ありの状態です。多くの園でチャンスがあります。", tip: "人気園（浦和区・南区・大宮区）では同点の競争になることもあります。", notes };
+  if (total >= 62) return { label: "標準的（フルタイム共働き相当）", color: "text-blue-600", description: "フルタイム共働き＋育休中＋祖父母別居の標準ラインです。さいたま市では62点がボーダーになることが多いです。", tip: "認可外利用（+7）やきょうだい加点（+3）など使える加点がないか確認しましょう。", notes };
+  if (total >= 52) return { label: "加点なしでは厳しい", color: "text-yellow-600", description: "フルタイム共働きだが調整指数が足りない状態です。人気園では厳しい場合があります。", tip: "保育状況の加点（育休中+6、認可外利用+7）や祖父母別居の加点を確認しましょう。", notes };
+  if (total >= 36) return { label: "認可園は厳しい", color: "text-orange-600", description: "パートタイムや求職中の方に多い点数帯です。認可園への入園は難しい状況です。", tip: "認可外保育施設や小規模保育も並行して検討しましょう。", notes };
+  return { label: "認可園は極めて難しい", color: "text-red-600", description: "この点数では認可園への入園は極めて難しい状況です。", tip: "認可外保育施設やファミリーサポートなど別の預け先を検討しましょう。", notes };
 }
 
 function getGenericEvaluation(total: number): ScoreEvaluation {
@@ -263,8 +279,8 @@ export function SimulatorForm({ data }: { data: MunicipalityData }) {
       if (questionId === "parent1_reason" || questionId === "parent2_reason") {
         const prefix = questionId.replace("_reason", "");
         const detailKeys = [
-          "employment", "offer", "illness", "disability", "care",
-          "childbirth", "education", "jobseeking",
+          "employment", "employment_prospect", "offer", "illness",
+          "disability", "care", "childbirth", "education", "jobseeking",
         ];
         for (const key of detailKeys) {
           delete next[`${prefix}_${key}`];
