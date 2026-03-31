@@ -1,6 +1,13 @@
 import { notFound } from "next/navigation";
 import { getMunicipalityData } from "@/lib/data";
+import { getArticlesByCity } from "@/lib/articles";
 import { SimulatorForm } from "./simulator-form";
+import {
+  Card,
+  CardHeader,
+  CardTitle,
+  CardDescription,
+} from "@/components/ui/card";
 
 export default async function CityPage({
   params,
@@ -57,6 +64,42 @@ export default async function CityPage({
           </a>
         </div>
       </div>
+
+      {(() => {
+        const articles = getArticlesByCity(city);
+        if (articles.length === 0) return null;
+        return (
+          <div className="mt-10">
+            <h3 className="text-lg font-bold mb-4">
+              {data.municipality.name}の保活に役立つ記事
+            </h3>
+            <div className="space-y-3">
+              {articles.slice(0, 5).map((article) => (
+                <a key={article.slug} href={`/${city}/articles/${article.slug}`}>
+                  <Card className="hover:border-primary/50 hover:shadow-sm transition-all cursor-pointer">
+                    <CardHeader className="py-3">
+                      <CardTitle className="text-sm">{article.title}</CardTitle>
+                      <CardDescription className="text-xs">
+                        {article.description}
+                      </CardDescription>
+                    </CardHeader>
+                  </Card>
+                </a>
+              ))}
+            </div>
+            {articles.length > 5 && (
+              <div className="mt-3 text-center">
+                <a
+                  href={`/${city}/articles`}
+                  className="text-sm text-primary hover:underline"
+                >
+                  すべての記事を見る（{articles.length}件）
+                </a>
+              </div>
+            )}
+          </div>
+        );
+      })()}
     </div>
   );
 }

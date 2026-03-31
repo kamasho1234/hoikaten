@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
+// 記事データの登録（副作用import）
+import "@/lib/articles/setagaya";
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],

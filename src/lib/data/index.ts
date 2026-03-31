@@ -11,6 +11,8 @@ import { fukuokaData } from './fukuoka';
 import { hiroshimaData } from './hiroshima';
 import { sendaiData } from './sendai';
 import { kyotoData } from './kyoto';
+import { kitakyushuData } from './kitakyushu';
+import { hamamatsuData } from './hamamatsu';
 
 const municipalityMap: Record<string, MunicipalityData> = {
   [setagayaData.municipality.slug]: setagayaData,
@@ -25,6 +27,8 @@ const municipalityMap: Record<string, MunicipalityData> = {
   [hiroshimaData.municipality.slug]: hiroshimaData,
   [sendaiData.municipality.slug]: sendaiData,
   [kyotoData.municipality.slug]: kyotoData,
+  [kitakyushuData.municipality.slug]: kitakyushuData,
+  [hamamatsuData.municipality.slug]: hamamatsuData,
 };
 
 export function getMunicipalityData(slug: string): MunicipalityData | undefined {
@@ -35,4 +39,4 @@ export function getAllMunicipalities() {
   return Object.values(municipalityMap).map((d) => d.municipality);
 }
 
-export { setagayaData, yokohamaData, osakaData, kawasakiData, nagoyaData, saitamaData, sapporoData, kobeData, fukuokaData, hiroshimaData, sendaiData, kyotoData };
+export { setagayaData, yokohamaData, osakaData, kawasakiData, nagoyaData, saitamaData, sapporoData, kobeData, fukuokaData, hiroshimaData, sendaiData, kyotoData, kitakyushuData, hamamatsuData };

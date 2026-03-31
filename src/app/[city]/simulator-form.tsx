@@ -118,6 +118,8 @@ function getScoreEvaluation(slug: string, total: number): ScoreEvaluation {
   if (slug === "hiroshima") return getHiroshimaEvaluation(total);
   if (slug === "sendai") return getSendaiEvaluation(total);
   if (slug === "kyoto") return getKyotoEvaluation(total);
+  if (slug === "kitakyushu") return getKitakyushuEvaluation(total);
+  if (slug === "hamamatsu") return getHamamatsuEvaluation(total);
   return getGenericEvaluation(total);
 }
 
@@ -289,6 +291,34 @@ function getKyotoEvaluation(total: number): ScoreEvaluation {
   if (total >= 40) return { label: "標準的（フルタイム共働き）", color: "text-blue-600", description: "フルタイム共働きの基本ラインです。人気園では加点がないと厳しい場合があります。", tip: "きょうだい加点（+15）や育休復帰加点（+1〜2）を確認しましょう。", notes };
   if (total >= 25) return { label: "やや厳しめ", color: "text-yellow-600", description: "パートタイムや時短勤務の方に多い点数帯です。", tip: "フルタイムへの切り替えが可能か検討しましょう。", notes };
   if (total >= 10) return { label: "認可園は厳しい", color: "text-orange-600", description: "認可園への入園は難しい状況です。", tip: "認可外保育施設も並行して検討しましょう。", notes };
+  return { label: "認可園は極めて難しい", color: "text-red-600", description: "この点数では認可園への入園は極めて難しい状況です。", tip: "認可外保育施設やファミリーサポートなど別の預け先を検討しましょう。", notes };
+}
+
+function getKitakyushuEvaluation(total: number): ScoreEvaluation {
+  // 北九州市: 合算方式、父母各220点。フルタイム共働き=440点が基本
+  const notes = [
+    "※ 北九州市ではフルタイム共働き440点が基本ラインです",
+    "※ 就労は月120時間以上（220点）と未満（130点）の2段階とシンプルです",
+  ];
+  if (total >= 610) return { label: "かなり有利", color: "text-green-600", description: "フルタイム共働き＋きょうだい加点などがある高得点です。多くの園で入園が期待できます。", tip: "希望する園の申込状況も確認しておくと安心です。", notes };
+  if (total >= 480) return { label: "有利", color: "text-emerald-600", description: "フルタイム共働き＋加点ありの状態です。チャンスがあります。", tip: "きょうだい加点（+170）や育休復帰加点が重要です。", notes };
+  if (total >= 440) return { label: "標準的（フルタイム共働き）", color: "text-blue-600", description: "フルタイム共働きの基本ラインです。人気園では加点がないと厳しい場合があります。", tip: "きょうだい加点（+170）や育休復帰（+140〜170）を確認しましょう。", notes };
+  if (total >= 260) return { label: "やや厳しめ", color: "text-yellow-600", description: "パートタイム（月120時間未満）の方に多い点数帯です。", tip: "月120時間以上の就労で220点に上がります。", notes };
+  if (total >= 60) return { label: "認可園は厳しい", color: "text-orange-600", description: "認可園への入園は難しい状況です。", tip: "認可外保育施設も並行して検討しましょう。", notes };
+  return { label: "認可園は極めて難しい", color: "text-red-600", description: "この点数では認可園への入園は極めて難しい状況です。", tip: "認可外保育施設やファミリーサポートなど別の預け先を検討しましょう。", notes };
+}
+
+function getHamamatsuEvaluation(total: number): ScoreEvaluation {
+  // 浜松市: min方式、父母各20点。フルタイム=20点+就労日数3=23点が標準
+  const notes = [
+    "※ 浜松市では保護者の低い方の基準点が採用されます。フルタイム（月150時間以上）で20点+就労日数加点が基本です",
+    "※ 同点の場合の優先順位：基準点が高い → 事由の優先順位 → ひとり親 → 子どもの数 → 市民税が低い順",
+  ];
+  if (total >= 28) return { label: "かなり有利", color: "text-green-600", description: "フルタイム＋複数の加点がある高得点です。多くの園で入園が期待できます。", tip: "希望する園の申込状況も確認しておくと安心です。", notes };
+  if (total >= 26) return { label: "有利", color: "text-emerald-600", description: "フルタイム＋育休復帰加点ありの状態です。チャンスがあります。", tip: "認可外利用（+2）やひとり親加点も確認しましょう。", notes };
+  if (total >= 23) return { label: "標準的（フルタイム＋就労日数加点）", color: "text-blue-600", description: "フルタイム共働き＋就労日数加点の標準ラインです。加点の積み上げが重要です。", tip: "育休復帰（+3）や認可外利用（+2）など使える加点を確認しましょう。", notes };
+  if (total >= 20) return { label: "加点なしでは厳しめ", color: "text-yellow-600", description: "フルタイムだが就労日数加点がない状態です。", tip: "月20日以上の就労で+3の加点がつきます。", notes };
+  if (total >= 12) return { label: "認可園は厳しい", color: "text-orange-600", description: "認可園への入園は難しい状況です。", tip: "認可外保育施設も並行して検討しましょう。", notes };
   return { label: "認可園は極めて難しい", color: "text-red-600", description: "この点数では認可園への入園は極めて難しい状況です。", tip: "認可外保育施設やファミリーサポートなど別の預け先を検討しましょう。", notes };
 }
 
