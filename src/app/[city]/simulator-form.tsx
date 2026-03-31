@@ -112,6 +112,8 @@ function getScoreEvaluation(slug: string, total: number): ScoreEvaluation {
   if (slug === "kawasaki") return getKawasakiEvaluation(total);
   if (slug === "nagoya") return getNagoyaEvaluation(total);
   if (slug === "saitama") return getSaitamaEvaluation(total);
+  if (slug === "sapporo") return getSapporoEvaluation(total);
+  if (slug === "kobe") return getKobeEvaluation(total);
   return getGenericEvaluation(total);
 }
 
@@ -198,6 +200,35 @@ function getSaitamaEvaluation(total: number): ScoreEvaluation {
   if (total >= 62) return { label: "標準的（フルタイム共働き相当）", color: "text-blue-600", description: "フルタイム共働き＋育休中＋祖父母別居の標準ラインです。さいたま市では62点がボーダーになることが多いです。", tip: "認可外利用（+7）やきょうだい加点（+3）など使える加点がないか確認しましょう。", notes };
   if (total >= 52) return { label: "加点なしでは厳しい", color: "text-yellow-600", description: "フルタイム共働きだが調整指数が足りない状態です。人気園では厳しい場合があります。", tip: "保育状況の加点（育休中+6、認可外利用+7）や祖父母別居の加点を確認しましょう。", notes };
   if (total >= 36) return { label: "認可園は厳しい", color: "text-orange-600", description: "パートタイムや求職中の方に多い点数帯です。認可園への入園は難しい状況です。", tip: "認可外保育施設や小規模保育も並行して検討しましょう。", notes };
+  return { label: "認可園は極めて難しい", color: "text-red-600", description: "この点数では認可園への入園は極めて難しい状況です。", tip: "認可外保育施設やファミリーサポートなど別の預け先を検討しましょう。", notes };
+}
+
+function getSapporoEvaluation(total: number): ScoreEvaluation {
+  // 札幌市: 父母各100点+調整。フルタイム200点+育休明け40=240点が標準
+  const notes = [
+    "※ 札幌市ではフルタイム共働き200点が基本ライン。育休明け（+40）やきょうだい在園（+80）の加点が重要です",
+    "※ 同点の場合の優先順位：きょうだい同園在園 → きょうだい他園在園 → 所得割額が低い → ひとり親・障害者同居 → 多子世帯 → 核家族",
+  ];
+  if (total >= 300) return { label: "かなり有利", color: "text-green-600", description: "フルタイム共働き＋きょうだい在園＋育休明けの高得点です。多くの園で入園が期待できます。", tip: "希望する園の過去の申込状況も確認しておくと安心です。", notes };
+  if (total >= 280) return { label: "有利", color: "text-emerald-600", description: "フルタイム共働き＋きょうだい在園の状態です。多くの園でチャンスがあります。", tip: "人気園（中央区・豊平区）では同点の競争になることもあります。", notes };
+  if (total >= 240) return { label: "標準的（フルタイム＋育休明け）", color: "text-blue-600", description: "フルタイム共働き＋育休明けの標準ラインです。加点の有無が勝負を分けます。", tip: "きょうだい加点（+80）や認可外利用の実績があると有利です。", notes };
+  if (total >= 200) return { label: "加点なしでは厳しめ", color: "text-yellow-600", description: "フルタイム共働きの基本ラインですが、加点がないと人気園では厳しい場合があります。", tip: "育休明け加点（+40）が使えないか確認しましょう。", notes };
+  if (total >= 140) return { label: "認可園は厳しい", color: "text-orange-600", description: "パートタイムや時短勤務の方に多い点数帯です。認可園への入園は難しい状況です。", tip: "認可外保育施設も並行して検討しましょう。", notes };
+  return { label: "認可園は極めて難しい", color: "text-red-600", description: "この点数では認可園への入園は極めて難しい状況です。", tip: "認可外保育施設やファミリーサポートなど別の預け先を検討しましょう。", notes };
+}
+
+function getKobeEvaluation(total: number): ScoreEvaluation {
+  // 神戸市: 父母各100点+調整。フルタイム200点が基本
+  const notes = [
+    "※ 神戸市ではフルタイム共働き200点が基本ラインです",
+    "※ 「育休延長も許容できる」を選ぶと-90点の大きな減点になります",
+    "※ 同点の場合の優先順位：基本点数が高い → 希望順位 → きょうだい数 → 市民税が低い",
+  ];
+  if (total >= 215) return { label: "かなり有利", color: "text-green-600", description: "フルタイム共働き＋きょうだい加点などがある高得点です。多くの園で入園が期待できます。", tip: "希望する園の申込状況を確認しておくと安心です。", notes };
+  if (total >= 208) return { label: "有利", color: "text-emerald-600", description: "フルタイム共働き＋加点ありの状態です。多くの園でチャンスがあります。", tip: "きょうだいが在園中の園を第一希望にすると+15の大きな加点がつきます。", notes };
+  if (total >= 200) return { label: "標準的（フルタイム共働き）", color: "text-blue-600", description: "フルタイム共働きの基本ラインです。人気園では加点がないと厳しい場合があります。", tip: "認可外利用（+5）やきょうだい加点を確認しましょう。", notes };
+  if (total >= 160) return { label: "やや厳しめ", color: "text-yellow-600", description: "パートタイムや時短勤務の方に多い点数帯です。園によってはチャンスがあります。", tip: "不人気園や小規模保育も視野に入れましょう。", notes };
+  if (total >= 110) return { label: "認可園は厳しい", color: "text-orange-600", description: "認可園への入園は難しい状況です。", tip: "認可外保育施設も並行して検討しましょう。育休延長許容（-90）を選んでいないか確認してください。", notes };
   return { label: "認可園は極めて難しい", color: "text-red-600", description: "この点数では認可園への入園は極めて難しい状況です。", tip: "認可外保育施設やファミリーサポートなど別の預け先を検討しましょう。", notes };
 }
 
