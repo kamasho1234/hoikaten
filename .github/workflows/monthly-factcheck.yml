@@ -1,0 +1,104 @@
+name: 月次ファクトチェック
+
+on:
+  schedule:
+    # 毎月1日 午前9時（JST）= UTC 0時
+    - cron: '0 0 1 * *'
+  workflow_dispatch: # 手動実行も可能
+
+jobs:
+  factcheck:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 自治体データの一覧を取得
+        id: cities
+        run: |
+          # データファイルから自治体一覧を抽出
+          cities=$(grep -oP "slug: '[^']+'" src/lib/data/*.ts | grep -oP "'[^']+'" | tr -d "'")
+          echo "cities<<EOF" >> $GITHUB_OUTPUT
+          echo "$cities" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+          echo "count=$(echo "$cities" | wc -l)" >> $GITHUB_OUTPUT
+
+      - name: 各自治体の公式ページにアクセスチェック
+        id: check
+        run: |
+          echo "# 月次ファクトチェックレポート" > report.md
+          echo "" >> report.md
+          echo "実行日時: $(TZ=Asia/Tokyo date '+%Y年%m月%d日 %H:%M')" >> report.md
+          echo "" >> report.md
+
+          # 各自治体の公式情報ページURL
+          declare -A urls
+          urls[setagaya]="https://www.city.setagaya.lg.jp/01044/1554.html"
+          urls[yokohama]="https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/kijun.html"
+          urls[osaka]="https://www.city.osaka.lg.jp/kodomo/page/0000632847.html"
+          urls[kawasaki]="https://www.city.kawasaki.jp/450/page/0000178480.html"
+          urls[nagoya]="https://kodomokosodate.city.nagoya.jp/firstuse/usage_adjustment/index.html"
+          urls[saitama]="https://www.city.saitama.lg.jp/003/001/015/001/p003019.html"
+
+          declare -A names
+          names[setagaya]="世田谷区"
+          names[yokohama]="横浜市"
+          names[osaka]="大阪市"
+          names[kawasaki]="川崎市"
+          names[nagoya]="名古屋市"
+          names[saitama]="さいたま市"
+
+          has_issue=false
+
+          echo "## 公式ページアクセスチェック" >> report.md
+          echo "" >> report.md
+
+          for city in setagaya yokohama osaka kawasaki nagoya saitama; do
+            url="${urls[$city]}"
+            name="${names[$city]}"
+            status=$(curl -s -o /dev/null -w "%{http_code}" --max-time 10 "$url" 2>/dev/null || echo "error")
+
+            if [ "$status" = "200" ]; then
+              echo "- [x] $name ($status) - $url" >> report.md
+            else
+              echo "- [ ] **$name ($status)** - $url ⚠️ アクセスエラー（URLが変更された可能性）" >> report.md
+              has_issue=true
+            fi
+          done
+
+          echo "" >> report.md
+          echo "## 確認が必要な項目" >> report.md
+          echo "" >> report.md
+          echo "以下を手動で確認してください：" >> report.md
+          echo "" >> report.md
+          echo "1. 各自治体の令和8年度（2026年度）の利用調整基準に更新がないか" >> report.md
+          echo "2. 点数・ランクの変更がないか" >> report.md
+          echo "3. 調整指数（加点・減点）の追加・廃止がないか" >> report.md
+          echo "4. 同点時の優先順位ルールの変更がないか" >> report.md
+          echo "" >> report.md
+          echo "### 自治体別チェックリスト" >> report.md
+          echo "" >> report.md
+          for city in setagaya yokohama osaka kawasaki nagoya saitama; do
+            name="${names[$city]}"
+            echo "- [ ] $name: 基本指数に変更がないか確認" >> report.md
+            echo "- [ ] $name: 調整指数に変更がないか確認" >> report.md
+          done
+
+          echo "" >> report.md
+          echo "---" >> report.md
+          echo "*このIssueは GitHub Actions の月次バッチにより自動作成されました*" >> report.md
+
+          if [ "$has_issue" = true ]; then
+            echo "has_issue=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_issue=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Issueを作成
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: "📋 月次ファクトチェック - $(date '+%Y年%m月')"
+          content-filepath: report.md
+          labels: factcheck,monthly
