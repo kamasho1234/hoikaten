@@ -114,6 +114,10 @@ function getScoreEvaluation(slug: string, total: number): ScoreEvaluation {
   if (slug === "saitama") return getSaitamaEvaluation(total);
   if (slug === "sapporo") return getSapporoEvaluation(total);
   if (slug === "kobe") return getKobeEvaluation(total);
+  if (slug === "fukuoka") return getFukuokaEvaluation(total);
+  if (slug === "hiroshima") return getHiroshimaEvaluation(total);
+  if (slug === "sendai") return getSendaiEvaluation(total);
+  if (slug === "kyoto") return getKyotoEvaluation(total);
   return getGenericEvaluation(total);
 }
 
@@ -229,6 +233,62 @@ function getKobeEvaluation(total: number): ScoreEvaluation {
   if (total >= 200) return { label: "標準的（フルタイム共働き）", color: "text-blue-600", description: "フルタイム共働きの基本ラインです。人気園では加点がないと厳しい場合があります。", tip: "認可外利用（+5）やきょうだい加点を確認しましょう。", notes };
   if (total >= 160) return { label: "やや厳しめ", color: "text-yellow-600", description: "パートタイムや時短勤務の方に多い点数帯です。園によってはチャンスがあります。", tip: "不人気園や小規模保育も視野に入れましょう。", notes };
   if (total >= 110) return { label: "認可園は厳しい", color: "text-orange-600", description: "認可園への入園は難しい状況です。", tip: "認可外保育施設も並行して検討しましょう。育休延長許容（-90）を選んでいないか確認してください。", notes };
+  return { label: "認可園は極めて難しい", color: "text-red-600", description: "この点数では認可園への入園は極めて難しい状況です。", tip: "認可外保育施設やファミリーサポートなど別の預け先を検討しましょう。", notes };
+}
+
+function getFukuokaEvaluation(total: number): ScoreEvaluation {
+  // 福岡市: min方式、フルタイム=150点+調整
+  const notes = [
+    "※ 福岡市では保護者の低い方の基本点数が採用されます。フルタイム共働きで150点が基本ラインです",
+    "※ 同点の場合の優先順位：希望順位 → 事由の優先順位 → 未就学児の数 → 所得低い順",
+  ];
+  if (total >= 220) return { label: "かなり有利", color: "text-green-600", description: "フルタイム＋きょうだい加点などがある高得点です。多くの園で入園が期待できます。", tip: "希望する園の申込状況も確認しておくと安心です。", notes };
+  if (total >= 165) return { label: "有利", color: "text-emerald-600", description: "フルタイム＋育休明けやきょうだい加点がある状態です。チャンスがあります。", tip: "人気園では同点の競争になることもあります。", notes };
+  if (total >= 150) return { label: "標準的（フルタイム共働き）", color: "text-blue-600", description: "フルタイム共働きの基本ラインです。人気園では加点がないと厳しい場合があります。", tip: "きょうだい加点（+70）や育休明け（+15）など使える加点を確認しましょう。", notes };
+  if (total >= 100) return { label: "やや厳しめ", color: "text-yellow-600", description: "パートタイムや時短勤務の方に多い点数帯です。", tip: "フルタイムへの切り替えが可能か検討しましょう。", notes };
+  if (total >= 50) return { label: "認可園は厳しい", color: "text-orange-600", description: "認可園への入園は難しい状況です。", tip: "認可外保育施設も並行して検討しましょう。", notes };
+  return { label: "認可園は極めて難しい", color: "text-red-600", description: "この点数では認可園への入園は極めて難しい状況です。", tip: "認可外保育施設やファミリーサポートなど別の預け先を検討しましょう。", notes };
+}
+
+function getHiroshimaEvaluation(total: number): ScoreEvaluation {
+  // 広島市: ランク制min方式、A=8+調整
+  const notes = [
+    "※ 広島市はランク制（S〜X）で選考されます。この点数はランクを数値化した目安です",
+    "※ 同ランク・同指数の場合は、きょうだい在園 → 生活保護 → 非課税世帯 → 所得低い順で優先されます",
+  ];
+  if (total >= 15) return { label: "かなり有利", color: "text-green-600", description: "ランクA＋複数の加点がある状態です。多くの園で入園が期待できます。", tip: "希望する園の申込状況も確認しておくと安心です。", notes };
+  if (total >= 11) return { label: "有利", color: "text-emerald-600", description: "ランクA＋加点ありの状態です。チャンスがあります。", tip: "きょうだい加点（+4）や育休明け（+3）が重要です。", notes };
+  if (total >= 8) return { label: "標準的（ランクA）", color: "text-blue-600", description: "フルタイム共働きの基本ラインです。加点があるかどうかが勝負を分けます。", tip: "育休明け加点（+3）やきょうだい加点（+4）を確認しましょう。", notes };
+  if (total >= 6) return { label: "やや不利", color: "text-yellow-600", description: "ランクB〜C相当です。ランクAの家庭が優先されます。", tip: "フルタイムへの切り替えが可能か検討しましょう。", notes };
+  if (total >= 3) return { label: "認可園は厳しい", color: "text-orange-600", description: "認可園への入園は難しい状況です。", tip: "認可外保育施設も並行して検討しましょう。", notes };
+  return { label: "認可園は極めて難しい", color: "text-red-600", description: "この点数では認可園への入園は極めて難しい状況です。", tip: "認可外保育施設やファミリーサポートなど別の預け先を検討しましょう。", notes };
+}
+
+function getSendaiEvaluation(total: number): ScoreEvaluation {
+  // 仙台市: 父母各10点+調整。フルタイム共働き=20点が基本
+  const notes = [
+    "※ 仙台市ではフルタイム共働き20点が基本ラインです",
+    "※ 同点の場合の優先順位：きょうだい在園 → 基準指数が高い → 低所得世帯 → 認可外利用 → 所得低い順",
+  ];
+  if (total >= 26) return { label: "かなり有利", color: "text-green-600", description: "フルタイム共働き＋複数の加点がある高得点です。多くの園で入園が期待できます。", tip: "希望する園の申込状況も確認しておくと安心です。", notes };
+  if (total >= 23) return { label: "有利", color: "text-emerald-600", description: "フルタイム共働き＋加点ありの状態です。多くの園でチャンスがあります。", tip: "きょうだい加点（+3）やひとり親加点（+3）が重要です。", notes };
+  if (total >= 20) return { label: "標準的（フルタイム共働き）", color: "text-blue-600", description: "フルタイム共働きの基本ラインです。加点があるかどうかが勝負を分けます。", tip: "きょうだい利用中（+3）や生活保護/非課税（+2）など使える加点を確認しましょう。", notes };
+  if (total >= 14) return { label: "やや厳しめ", color: "text-yellow-600", description: "パートタイムや時短勤務の方に多い点数帯です。園によってはチャンスがあります。", tip: "不人気園や小規模保育も視野に入れましょう。", notes };
+  if (total >= 8) return { label: "認可園は厳しい", color: "text-orange-600", description: "認可園への入園は難しい状況です。", tip: "認可外保育施設も並行して検討しましょう。", notes };
+  return { label: "認可園は極めて難しい", color: "text-red-600", description: "この点数では認可園への入園は極めて難しい状況です。", tip: "認可外保育施設やファミリーサポートなど別の預け先を検討しましょう。", notes };
+}
+
+function getKyotoEvaluation(total: number): ScoreEvaluation {
+  // 京都市: min方式、父母各40点+調整。フルタイム=40点が基本
+  const notes = [
+    "※ 京都市では保護者の低い方の点数が採用されます。フルタイム（週40時間以上）で40点が基本ラインです",
+    "※ きょうだい加点（+15）が非常に大きく、当落を大きく左右します",
+  ];
+  if (total >= 55) return { label: "かなり有利", color: "text-green-600", description: "フルタイム＋きょうだい加点などがある高得点です。多くの園で入園が期待できます。", tip: "希望する園の申込状況も確認しておくと安心です。", notes };
+  if (total >= 45) return { label: "有利", color: "text-emerald-600", description: "フルタイム＋加点ありの状態です。多くの園でチャンスがあります。", tip: "人気園では同点の競争になることもあります。", notes };
+  if (total >= 40) return { label: "標準的（フルタイム共働き）", color: "text-blue-600", description: "フルタイム共働きの基本ラインです。人気園では加点がないと厳しい場合があります。", tip: "きょうだい加点（+15）や育休復帰加点（+1〜2）を確認しましょう。", notes };
+  if (total >= 25) return { label: "やや厳しめ", color: "text-yellow-600", description: "パートタイムや時短勤務の方に多い点数帯です。", tip: "フルタイムへの切り替えが可能か検討しましょう。", notes };
+  if (total >= 10) return { label: "認可園は厳しい", color: "text-orange-600", description: "認可園への入園は難しい状況です。", tip: "認可外保育施設も並行して検討しましょう。", notes };
   return { label: "認可園は極めて難しい", color: "text-red-600", description: "この点数では認可園への入園は極めて難しい状況です。", tip: "認可外保育施設やファミリーサポートなど別の預け先を検討しましょう。", notes };
 }
 
