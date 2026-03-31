@@ -96,9 +96,13 @@ jobs:
             echo "has_issue=false" >> $GITHUB_OUTPUT
           fi
 
+      - name: 日付を取得
+        id: date
+        run: echo "ym=$(TZ=Asia/Tokyo date '+%Y年%m月')" >> $GITHUB_OUTPUT
+
       - name: Issueを作成
         uses: peter-evans/create-issue-from-file@v5
         with:
-          title: "📋 月次ファクトチェック - $(date '+%Y年%m月')"
+          title: "📋 月次ファクトチェック - ${{ steps.date.outputs.ym }}"
           content-filepath: report.md
           labels: factcheck,monthly
