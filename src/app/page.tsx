@@ -144,16 +144,6 @@ export default function Home() {
                       この点数はあくまで目安です。くわしくは世田谷区の窓口で確認してくださいね。
                     </p>
                   </div>
-
-                  {/* SNSシェア */}
-                  <div className="text-center pt-1">
-                    <p className="text-[8px] text-muted-foreground mb-1.5">結果をシェアする</p>
-                    <div className="flex justify-center gap-2">
-                      <div className="px-3 py-1 rounded bg-gray-800 text-white text-[8px] font-medium">X</div>
-                      <div className="px-3 py-1 rounded bg-[#06C755] text-white text-[8px] font-medium">LINE</div>
-                      <div className="px-3 py-1 rounded bg-gray-100 text-gray-600 text-[8px] font-medium border">コピー</div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
