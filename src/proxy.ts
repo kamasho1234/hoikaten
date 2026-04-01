@@ -6,19 +6,25 @@ export function proxy(request: NextRequest) {
   const url = request.nextUrl.clone();
   const citySlug = resolveCitySlug(host, url);
 
-  // サブドメインがない場合（hoikaten.com / localhost）→ そのまま通す
   if (!citySlug) {
+    return NextResponse.next();
+  }
+
+  // パスが既にcitySlugで始まっている場合はリライト不要
+  // (ページ内リンクが /setagaya/articles のような絶対パスの場合)
+  if (url.pathname.startsWith(`/${citySlug}`)) {
     return NextResponse.next();
   }
 
   // サブドメインがある場合 → /[city]/... にリライト
   // setagaya.hoikaten.com/ → /setagaya
   // setagaya.hoikaten.com/articles → /setagaya/articles
-  // setagaya.hoikaten.com/articles/xxx → /setagaya/articles/xxx
   url.pathname = `/${citySlug}${url.pathname}`;
   return NextResponse.rewrite(url);
 }
 
 export const config = {
-  matcher: ["/((?!_next/static|_next/image|favicon.ico|opengraph-image|robots.txt|sitemap.xml).*)"],
+  matcher: [
+    "/((?!_next/static|_next/image|favicon.ico|opengraph-image|robots.txt|sitemap.xml).*)",
+  ],
 };
