@@ -42,8 +42,11 @@ export default async function ArticlesPage({
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-8">
-      <div className="text-center mb-10">
-        <h2 className="text-2xl font-bold mb-2">
+      <div className="hero-pattern rounded-2xl py-8 px-4 text-center mb-10 -mx-4 sm:mx-0">
+        <h2
+          className="text-2xl font-bold mb-2"
+          style={{ fontFamily: "var(--font-heading)" }}
+        >
           {data.municipality.name}の保活お役立ち記事
         </h2>
         <p className="text-muted-foreground">
@@ -57,11 +60,11 @@ export default async function ArticlesPage({
         <div className="space-y-4">
           {articles.map((article) => (
             <a key={article.slug} href={`/${city}/articles/${article.slug}`} className="block group">
-              <div className="flex gap-4 items-start p-4 rounded-xl border hover:border-primary/30 hover:shadow-md hover:-translate-y-0.5 transition-all bg-white">
+              <div className="flex gap-4 items-start p-4 rounded-xl border border-border/60 hover:border-primary/30 hover:shadow-md hover:-translate-y-0.5 transition-all bg-card">
                 <img
                   src={article.image}
                   alt={article.title}
-                  className="w-24 h-24 sm:w-32 sm:h-20 rounded-lg object-cover flex-shrink-0"
+                  className="w-24 h-24 sm:w-32 sm:h-20 rounded-xl object-cover flex-shrink-0"
                 />
                 <div className="flex-1 min-w-0">
                   <span className={`inline-block text-[10px] font-medium px-2 py-0.5 rounded-full border mb-2 ${categoryColorMap[article.categoryColor]}`}>
@@ -83,7 +86,7 @@ export default async function ArticlesPage({
       <div className="mt-10 text-center">
         <a
           href={`/${city}`}
-          className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full bg-primary text-primary-foreground text-sm font-medium hover:bg-primary/90 transition-colors"
+          className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full btn-primary-warm text-primary-foreground text-sm font-medium"
         >
           点数シミュレーターに戻る
         </a>

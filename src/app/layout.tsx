@@ -1,18 +1,22 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Noto_Sans_JP, Zen_Maru_Gothic } from "next/font/google";
 import "./globals.css";
 
 // 記事データの登録（副作用import）
 import "@/lib/articles/setagaya";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const notoSansJP = Noto_Sans_JP({
+  variable: "--font-sans",
   subsets: ["latin"],
+  weight: ["400", "500", "700"],
+  display: "swap",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const zenMaru = Zen_Maru_Gothic({
+  variable: "--font-heading",
   subsets: ["latin"],
+  weight: ["500", "700"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -38,7 +42,7 @@ export default function RootLayout({
   return (
     <html
       lang="ja"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${notoSansJP.variable} ${zenMaru.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-background text-foreground">
         <script
@@ -58,20 +62,48 @@ export default function RootLayout({
             }),
           }}
         />
-        <header className="border-b bg-white">
-          <div className="mx-auto max-w-3xl px-4 py-4">
-            <h1 className="text-lg font-bold">
-              <a href="/">保育園 点数シミュレーター</a>
-            </h1>
+        <header className="border-b border-primary/10 bg-white/80 backdrop-blur-sm sticky top-0 z-50">
+          <div className="mx-auto max-w-3xl px-4 py-3 flex items-center justify-between">
+            <a href="/" className="flex items-center gap-2.5 group">
+              <span className="flex items-center justify-center w-9 h-9 rounded-xl bg-primary/10 group-hover:bg-primary/15 transition-colors">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" className="text-primary">
+                  <path d="M3 21V9l9-7 9 7v12a1 1 0 01-1 1h-5v-7H9v7H4a1 1 0 01-1-1z" fill="currentColor" opacity="0.2"/>
+                  <path d="M3 21V9l9-7 9 7v12a1 1 0 01-1 1h-5v-7H9v7H4a1 1 0 01-1-1z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </span>
+              <div className="flex flex-col">
+                <span className="text-lg font-bold logo-text" style={{ fontFamily: "var(--font-heading)" }}>
+                  hoikaten
+                </span>
+                <span className="text-[10px] text-muted-foreground -mt-0.5 tracking-wide">
+                  保育園 点数シミュレーター
+                </span>
+              </div>
+            </a>
+            <nav className="flex items-center gap-1">
+              <a
+                href="/"
+                className="text-sm text-muted-foreground hover:text-primary px-3 py-1.5 rounded-lg hover:bg-primary/5 transition-colors"
+              >
+                地域をえらぶ
+              </a>
+            </nav>
           </div>
         </header>
         <main className="flex-1">{children}</main>
-        <footer className="border-t bg-muted/50 py-6">
-          <div className="mx-auto max-w-3xl px-4 text-center text-xs text-muted-foreground space-y-1">
-            <p>
-              ※ ここで出る点数はあくまで目安です。正確な点数はお住まいの自治体にご確認ください。
+        <footer className="border-t border-primary/10 bg-secondary/50 py-8">
+          <div className="mx-auto max-w-3xl px-4 text-center space-y-3">
+            <p className="font-bold logo-text text-base" style={{ fontFamily: "var(--font-heading)" }}>
+              hoikaten
             </p>
-            <p>&copy; 2026 hoikaten.com</p>
+            <p className="text-xs text-muted-foreground leading-relaxed max-w-md mx-auto">
+              ここで出る点数はあくまで目安です。正確な点数はお住まいの自治体にご確認ください。
+            </p>
+            <div className="flex justify-center gap-4 text-xs text-muted-foreground">
+              <a href="/" className="hover:text-primary transition-colors">地域一覧</a>
+              <span className="text-border">|</span>
+              <span>&copy; 2026 hoikaten.com</span>
+            </div>
           </div>
         </footer>
       </body>

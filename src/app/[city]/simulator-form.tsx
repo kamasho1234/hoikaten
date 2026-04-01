@@ -512,13 +512,26 @@ export function SimulatorForm({ data }: { data: MunicipalityData }) {
   return (
     <div className="space-y-6">
       {/* Progress */}
-      <div className="space-y-2">
+      <div className="space-y-3">
         <div className="flex justify-between text-sm text-muted-foreground">
           {STEPS.map((s, i) => (
             <span
               key={s.key}
-              className={i <= stepIndex ? "text-primary font-medium" : ""}
+              className={
+                i <= stepIndex
+                  ? "text-primary font-medium"
+                  : "text-muted-foreground/60"
+              }
             >
+              <span className={`inline-flex items-center justify-center w-5 h-5 rounded-full text-xs mr-1 ${
+                i < stepIndex
+                  ? "bg-primary text-primary-foreground"
+                  : i === stepIndex
+                  ? "bg-primary/15 text-primary border border-primary/30"
+                  : "bg-muted text-muted-foreground/50"
+              }`}>
+                {i < stepIndex ? "\u2713" : i + 1}
+              </span>
               {s.label}
             </span>
           ))}
@@ -552,9 +565,9 @@ export function SimulatorForm({ data }: { data: MunicipalityData }) {
       {/* Result */}
       {step === "result" && result && (
         <div className="space-y-4">
-          <Card className="border-primary">
+          <Card className="border-primary/40 bg-gradient-to-b from-primary/5 to-transparent">
             <CardHeader className="text-center pb-2">
-              <CardTitle className="text-lg">あなたのご家庭の点数は...</CardTitle>
+              <CardTitle className="text-lg" style={{ fontFamily: "var(--font-heading)" }}>あなたのご家庭の点数は...</CardTitle>
             </CardHeader>
             <CardContent className="text-center">
               <p className="text-5xl font-bold text-primary">
@@ -700,7 +713,11 @@ export function SimulatorForm({ data }: { data: MunicipalityData }) {
           <div />
         )}
         {step !== "result" && (
-          <Button onClick={goNext} disabled={!canProceed}>
+          <Button
+            onClick={goNext}
+            disabled={!canProceed}
+            className={step === "adjustment" ? "btn-primary-warm px-8" : ""}
+          >
             {step === "adjustment" ? "結果を見る" : "次へ"}
           </Button>
         )}

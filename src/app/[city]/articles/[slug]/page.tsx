@@ -91,7 +91,7 @@ export default async function ArticlePage({
           <span className={`inline-block text-xs font-medium px-3 py-1 rounded-full border mb-3 ${labelColor}`}>
             {article.category}
           </span>
-          <h1 className="text-xl sm:text-2xl font-bold text-white leading-relaxed">
+          <h1 className="text-xl sm:text-2xl font-bold text-white leading-relaxed drop-shadow-sm" style={{ fontFamily: "var(--font-heading)" }}>
             {article.title}
           </h1>
         </div>
@@ -142,8 +142,8 @@ export default async function ArticlePage({
       </article>
 
       {/* CTA */}
-      <div className="mt-10 bg-gradient-to-r from-primary/10 to-primary/5 rounded-2xl p-8 text-center">
-        <p className="font-bold text-lg mb-2">
+      <div className="mt-10 hero-pattern rounded-2xl p-8 text-center border border-primary/10">
+        <p className="font-bold text-lg mb-2" style={{ fontFamily: "var(--font-heading)" }}>
           {data.municipality.name}の入園点数をチェック
         </p>
         <p className="text-sm text-muted-foreground mb-5">
@@ -151,7 +151,7 @@ export default async function ArticlePage({
         </p>
         <a
           href={`/${city}`}
-          className="inline-flex items-center gap-2 px-8 py-3 rounded-full bg-primary text-primary-foreground text-sm font-medium hover:bg-primary/90 transition-colors shadow-sm"
+          className="inline-flex items-center gap-2 px-8 py-3 rounded-full btn-primary-warm text-primary-foreground text-sm font-medium"
         >
           点数シミュレーターを試す
         </a>
