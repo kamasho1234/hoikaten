@@ -5,6 +5,7 @@ import {
   CardTitle,
   CardDescription,
 } from "@/components/ui/card";
+import { CitySearch } from "@/components/city-search";
 
 export default function Home() {
   const municipalities = getAllMunicipalities();
@@ -23,11 +24,18 @@ export default function Home() {
           >
             うちは何点とれる？
           </h2>
-          <p className="text-muted-foreground leading-relaxed max-w-md mx-auto">
+          <p className="text-muted-foreground leading-relaxed max-w-md mx-auto mb-6">
             お住まいの地域を選んで、かんたんな質問に答えるだけ。
             <br />
             保育園に入るための<span className="text-primary font-medium">点数の目安</span>がすぐわかります。
           </p>
+          <CitySearch
+            municipalities={municipalities.map((m) => ({
+              name: m.name,
+              slug: m.slug,
+              prefecture: m.prefecture,
+            }))}
+          />
         </div>
       </div>
 

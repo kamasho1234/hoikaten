@@ -5,6 +5,9 @@ import "./globals.css";
 // 記事データの登録（副作用import）
 import "@/lib/articles/setagaya";
 
+import { getAllMunicipalities } from "@/lib/data";
+import { HeaderNav } from "@/components/header-nav";
+
 const notoSansJP = Noto_Sans_JP({
   variable: "--font-sans",
   subsets: ["latin"],
@@ -64,7 +67,7 @@ export default function RootLayout({
         />
         <header className="border-b border-primary/10 bg-white/80 backdrop-blur-sm sticky top-0 z-50">
           <div className="mx-auto max-w-3xl px-4 py-3 flex items-center justify-between">
-            <a href="/" className="flex items-center gap-2.5 group">
+            <a href="https://hoikaten.com" className="flex items-center gap-2.5 group">
               <span className="flex items-center justify-center w-9 h-9 rounded-xl bg-primary/10 group-hover:bg-primary/15 transition-colors">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" className="text-primary">
                   <path d="M3 21V9l9-7 9 7v12a1 1 0 01-1 1h-5v-7H9v7H4a1 1 0 01-1-1z" fill="currentColor" opacity="0.2"/>
@@ -81,12 +84,13 @@ export default function RootLayout({
               </div>
             </a>
             <nav className="flex items-center gap-1">
-              <a
-                href="/"
-                className="text-sm text-muted-foreground hover:text-primary px-3 py-1.5 rounded-lg hover:bg-primary/5 transition-colors"
-              >
-                地域をえらぶ
-              </a>
+              <HeaderNav
+                municipalities={getAllMunicipalities().map((m) => ({
+                  name: m.name,
+                  slug: m.slug,
+                  prefecture: m.prefecture,
+                }))}
+              />
             </nav>
           </div>
         </header>
