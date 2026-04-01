@@ -4,6 +4,9 @@ import "./globals.css";
 
 // 記事データの登録（副作用import）
 import "@/lib/articles/setagaya";
+import "@/lib/articles/yokohama";
+import "@/lib/articles/osaka";
+import "@/lib/articles/kawasaki";
 
 import { getAllMunicipalities } from "@/lib/data";
 import { HeaderNav } from "@/components/header-nav";
