@@ -75,15 +75,19 @@ export default async function CityPage({
             </h3>
             <div className="space-y-3">
               {articles.slice(0, 5).map((article) => (
-                <a key={article.slug} href={`/${city}/articles/${article.slug}`}>
-                  <Card className="hover:border-primary/50 hover:shadow-sm transition-all cursor-pointer">
-                    <CardHeader className="py-3">
-                      <CardTitle className="text-sm">{article.title}</CardTitle>
-                      <CardDescription className="text-xs">
-                        {article.description}
-                      </CardDescription>
-                    </CardHeader>
-                  </Card>
+                <a key={article.slug} href={`/${city}/articles/${article.slug}`} className="block group">
+                  <div className="flex gap-3 items-center p-3 rounded-lg border hover:border-primary/30 hover:shadow-sm transition-all">
+                    <img
+                      src={article.image}
+                      alt={article.title}
+                      className="w-16 h-12 rounded-md object-cover flex-shrink-0"
+                    />
+                    <div className="flex-1 min-w-0">
+                      <p className="text-sm font-medium leading-snug group-hover:text-primary transition-colors line-clamp-2">
+                        {article.title}
+                      </p>
+                    </div>
+                  </div>
                 </a>
               ))}
             </div>

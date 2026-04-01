@@ -8,9 +8,10 @@ const articles: Article[] = [
     title: "世田谷区の保活、いつから始める？スケジュール完全ガイド",
     description:
       "世田谷区の認可保育園の申込時期・選考の流れ・内定通知時期をわかりやすく解説。令和8年度4月入園のスケジュールを中心にまとめました。",
-    emoji: "📅",
+    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
     category: "保活の基本",
-    content: `<h2>📅 令和8年度（2026年度）4月入園のスケジュール</h2>
+    categoryColor: "green",
+    content: `<h2>令和8年度（2026年度）4月入園のスケジュール</h2>
 <p>世田谷区の4月入園は、<strong>一次選考</strong>と<strong>二次選考</strong>の2回に分かれています。早めにスケジュールを把握して動き出すのが保活成功のカギです。</p>
 
 <h3>一次選考</h3>
@@ -30,10 +31,11 @@ const articles: Article[] = [
 </table>
 
 <div class="point-box">
-<p>💡 一次で不承諾だった方は自動的に二次選考の対象になります。再申込は不要です。</p>
+<p><strong>ポイント</strong></p>
+<p>一次で不承諾だった方は自動的に二次選考の対象になります。再申込は不要です。</p>
 </div>
 
-<h2>🗓️ いつから動き始めるべき？</h2>
+<h2>いつから動き始めるべき？</h2>
 <p>理想的なスケジュールはこのようなイメージです。</p>
 
 <div class="step">
@@ -66,10 +68,11 @@ const articles: Article[] = [
 </div>
 
 <div class="info-box">
-<p>📌 申込方法は窓口・郵送・電子申請の3つ。窓口と郵送はお住まいの地域の総合支所子ども家庭支援課で受付けています。</p>
+<p><strong>公式情報</strong></p>
+<p>申込方法は窓口・郵送・電子申請の3つ。窓口と郵送はお住まいの地域の総合支所子ども家庭支援課で受付けています。</p>
 </div>
 
-<h2>📝 途中入園（5月〜3月）の申込</h2>
+<h2>途中入園（5月〜3月）の申込</h2>
 <p>各月の申込締切日は、入園希望月の<span class="highlight">前月10日</span>です。ただし締切日が土日祝の場合や、12月・1月・4月入園は異なりますので注意してください。</p>
 <p>詳しくは<a href="https://www.city.setagaya.lg.jp/01044/1551.html" target="_blank" rel="noopener">世田谷区公式サイト「申込みから入園までの流れ」</a>をご確認ください。</p>`,
     publishedAt: "2026-03-28",
@@ -80,38 +83,43 @@ const articles: Article[] = [
     title: "世田谷区の保活でよくある失敗と対策5選",
     description:
       "世田谷区の保活で初めてのママがやりがちな失敗パターンと、その対策をわかりやすくまとめました。",
-    emoji: "🚫",
+    image: "https://images.unsplash.com/photo-1476703993599-0035a21b17a9?w=800&h=400&fit=crop",
     category: "保活の基本",
-    content: `<h2>😱 失敗1：情報収集のスタートが遅い</h2>
+    categoryColor: "green",
+    content: `<h2>失敗1：情報収集のスタートが遅い</h2>
 <p>「まだ先のこと」と思っているうちに、見学の予約が埋まってしまうケースは多いです。世田谷区の4月入園の申込は<span class="highlight">9月</span>から始まります。</p>
 
 <div class="point-box">
-<p>💡 遅くとも6月には情報収集を始めましょう。見学予約が殺到する前に動くのが鉄則です。</p>
+<p><strong>ポイント</strong></p>
+<p>遅くとも6月には情報収集を始めましょう。見学予約が殺到する前に動くのが鉄則です。</p>
 </div>
 
-<h2>📝 失敗2：希望園を少なく書く</h2>
+<h2>失敗2：希望園を少なく書く</h2>
 <p>世田谷区では希望園を複数記入できます。「この園だけ」と1〜2園しか書かないと、不承諾のリスクが高まります。</p>
 <p>通える範囲の園はできるだけ多く書くのが鉄則です。</p>
 
-<h2>🔢 失敗3：自分の点数を把握していない</h2>
+<h2>失敗3：自分の点数を把握していない</h2>
 <p>世田谷区の入園選考では「利用基準指数＋調整基準指数」の合計で選考されます。入園児童の約<span class="highlight">40%</span>が<span class="highlight">105点</span>で入園しているのが実態です。</p>
 
 <div class="warn-box">
-<p>⚠️ 世田谷区では選考前に指数を教えてもらうことはできません。「保育のごあんない」の指数表で自分で計算する必要があります。</p>
+<p><strong>注意</strong></p>
+<p>世田谷区では選考前に指数を教えてもらうことはできません。「保育のごあんない」の指数表で自分で計算する必要があります。</p>
 </div>
 
-<h2>➕ 失敗4：加点の取りこぼし</h2>
+<h2>失敗4：加点の取りこぼし</h2>
 <p>認可外保育施設の利用実績で<span class="highlight">+5〜6点</span>の加点が得られることを知らず、加点なしで勝負してしまうケースも。調整指数の項目は全<span class="highlight">20項目</span>あるので、漏れなくチェックしましょう。</p>
 
-<h2>📄 失敗5：書類の不備で受理されない</h2>
+<h2>失敗5：書類の不備で受理されない</h2>
 <p>就労証明書の記入漏れや、指定様式以外の書類を提出してしまうミスも起こりがちです。</p>
 
 <div class="point-box">
-<p>💡 世田谷区の公式サイトにあるチェックリストを使って、提出前にダブルチェックしてください。</p>
+<p><strong>ポイント</strong></p>
+<p>世田谷区の公式サイトにあるチェックリストを使って、提出前にダブルチェックしてください。</p>
 </div>
 
 <div class="info-box">
-<p>📌 選考の仕組みは<a href="https://www.city.setagaya.lg.jp/01044/1554.html" target="_blank" rel="noopener">世田谷区公式サイト「選考方法について」</a>で確認できます。</p>
+<p><strong>公式情報</strong></p>
+<p>選考の仕組みは<a href="https://www.city.setagaya.lg.jp/01044/1554.html" target="_blank" rel="noopener">世田谷区公式サイト「選考方法について」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-03-28",
   },
@@ -121,16 +129,18 @@ const articles: Article[] = [
     title: "世田谷区の入園点数のしくみ　基本指数と調整指数をやさしく解説",
     description:
       "世田谷区の保育園入園選考で使われる「利用基準指数」と「調整基準指数」の仕組みを、初めての方にもわかるように解説します。",
-    emoji: "🔢",
+    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
     category: "選考のしくみ",
-    content: `<h2>🤔 点数ってなに？</h2>
+    categoryColor: "blue",
+    content: `<h2>点数ってなに？</h2>
 <p>世田谷区の保育園入園は「先着順」ではなく「点数（指数）」の高い順に内定が決まります。正式には「選考指数」と呼びます。</p>
 
 <div class="point-box">
-<p>💡 選考指数 ＝ 利用基準指数（父＋母）＋ 調整基準指数</p>
+<p><strong>ポイント</strong></p>
+<p>選考指数 ＝ 利用基準指数（父＋母）＋ 調整基準指数</p>
 </div>
 
-<h2>📊 利用基準指数とは？</h2>
+<h2>利用基準指数とは？</h2>
 <p>父母それぞれの「保育が必要な理由」を点数化したものです。1人あたり最大<span class="highlight">50点</span>で、父母合計の最大は<span class="highlight">100点</span>。</p>
 <p>最も多い「就労」の場合、週5日以上・週40時間以上で満点の50点になります。</p>
 
@@ -142,7 +152,7 @@ const articles: Article[] = [
 <tr><td>週3日以上・週24時間以上</td><td>36</td></tr>
 </table>
 
-<h2>➕ 調整基準指数とは？</h2>
+<h2>調整基準指数とは？</h2>
 <p>世帯の特別な事情に応じて加減される点数です。加算は<span class="highlight">20項目</span>、減算は<span class="highlight">3項目</span>あり、+20点〜-20点の幅があります。</p>
 
 <p>代表的なものは以下の通りです。</p>
@@ -153,14 +163,16 @@ const articles: Article[] = [
 <li>兄弟姉妹が在園中の園を希望：<span class="highlight">+2点</span></li>
 </ul>
 
-<h2>🧮 まずは自分の点数を計算してみよう</h2>
+<h2>まずは自分の点数を計算してみよう</h2>
 
 <div class="warn-box">
-<p>⚠️ 世田谷区では選考前に指数を教えてもらうことはできません。「保育のごあんない」の指数表を見ながら自分で計算する必要があります。</p>
+<p><strong>注意</strong></p>
+<p>世田谷区では選考前に指数を教えてもらうことはできません。「保育のごあんない」の指数表を見ながら自分で計算する必要があります。</p>
 </div>
 
 <div class="info-box">
-<p>📌 指数表は<a href="https://www.city.setagaya.lg.jp/01044/1554.html" target="_blank" rel="noopener">世田谷区公式サイト「選考方法について」</a>で確認できます。</p>
+<p><strong>公式情報</strong></p>
+<p>指数表は<a href="https://www.city.setagaya.lg.jp/01044/1554.html" target="_blank" rel="noopener">世田谷区公式サイト「選考方法について」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-03-28",
   },
@@ -170,9 +182,10 @@ const articles: Article[] = [
     title: "世田谷区で点数を1点でも上げる方法　加点のチェックリスト",
     description:
       "世田谷区の入園選考で調整指数の加点を最大限に活用する方法を、チェックリスト形式で解説します。",
-    emoji: "✅",
+    image: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=400&fit=crop",
     category: "点数アップ",
-    content: `<h2>📋 加点の取りこぼしをなくそう</h2>
+    categoryColor: "amber",
+    content: `<h2>加点の取りこぼしをなくそう</h2>
 <p>世田谷区の入園選考は激戦です。<span class="highlight">1点</span>の差が明暗を分けることもあるため、使える加点は漏れなく活用しましょう。</p>
 
 <h3>加点チェックリスト</h3>
@@ -188,22 +201,25 @@ const articles: Article[] = [
 </table>
 
 <div class="warn-box">
-<p>⚠️ 育休中の認可外利用は「就労のため」ではないので加点対象外です。</p>
+<p><strong>注意</strong></p>
+<p>育休中の認可外利用は「就労のため」ではないので加点対象外です。</p>
 </div>
 
-<h2>📈 フルタイム＋育休明けが最多パターン</h2>
+<h2>フルタイム＋育休明けが最多パターン</h2>
 <p>父母ともにフルタイム勤務（<span class="highlight">100点</span>）＋育休明け加点（<span class="highlight">+5点</span>）＝<span class="highlight">105点</span>が、現在の世田谷区で最も多い入園パターンです。</p>
 <p>入園児童の約<span class="highlight">40%</span>がこの105点で入園しています。</p>
 
 <div class="point-box">
-<p>💡 100点（フルタイム共働き・加点なし）では厳しい状況です。認可外保育施設を活用して加点を得る戦略が有効です。</p>
+<p><strong>ポイント</strong></p>
+<p>100点（フルタイム共働き・加点なし）では厳しい状況です。認可外保育施設を活用して加点を得る戦略が有効です。</p>
 </div>
 
-<h2>⚡ 減点に注意！</h2>
+<h2>減点に注意！</h2>
 <p>調整指数には減点項目もあります（<span class="highlight">3項目</span>）。たとえば、入園内定を辞退したことがある場合は減点の対象になることがあります。該当しないか事前に確認しましょう。</p>
 
 <div class="info-box">
-<p>📌 全項目の詳細は<a href="https://www.city.setagaya.lg.jp/01044/1554.html" target="_blank" rel="noopener">世田谷区公式サイト「選考方法について」</a>でご確認ください。</p>
+<p><strong>公式情報</strong></p>
+<p>全項目の詳細は<a href="https://www.city.setagaya.lg.jp/01044/1554.html" target="_blank" rel="noopener">世田谷区公式サイト「選考方法について」</a>でご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
   },
@@ -213,17 +229,19 @@ const articles: Article[] = [
     title: "105点が4割！世田谷区の入園競争の実態",
     description:
       "世田谷区の保育園入園選考における選考指数の分布データをもとに、入園競争の実態を解説します。",
-    emoji: "📊",
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=400&fit=crop",
     category: "選考のしくみ",
-    content: `<h2>📊 入園児童の約40%が105点</h2>
+    categoryColor: "blue",
+    content: `<h2>入園児童の約40%が105点</h2>
 <p>世田谷区が公開している「4月入園児童の選考指数分布」によると、令和7年4月の入園児童のうち、選考指数<span class="highlight">105点</span>の児童が全地域で約<span class="highlight">40%</span>を占めています。</p>
 <p>105点とは、父母ともにフルタイム勤務（50点×2＝100点）に、育休明け加点（+5点）を加えた点数です。</p>
 
 <div class="point-box">
-<p>💡 育児休業の取得率が上昇していることが、105点の割合が高くなっている背景にあります。</p>
+<p><strong>ポイント</strong></p>
+<p>育児休業の取得率が上昇していることが、105点の割合が高くなっている背景にあります。</p>
 </div>
 
-<h2>📈 指数分布のイメージ</h2>
+<h2>指数分布のイメージ</h2>
 <table>
 <tr><th>選考指数</th><th>割合の目安</th><th>内訳</th></tr>
 <tr><td>106点以上</td><td>少数</td><td>加点を複数持つ世帯</td></tr>
@@ -233,19 +251,21 @@ const articles: Article[] = [
 <tr><td>74点以下</td><td>少数</td><td>短時間勤務等</td></tr>
 </table>
 
-<h2>🤔 100点では厳しいの？</h2>
+<h2>100点では厳しいの？</h2>
 <p>入園児童の約<span class="highlight">90%</span>が選考指数100点以上です。100点（フルタイム共働き・加点なし）でも入園できるケースはありますが、人気園では105点でも入れないことがあります。</p>
 
 <div class="point-box">
-<p>💡 現実的な対策：認可外保育施設に有償で預けて加点（<span class="highlight">+5〜6点</span>）を得る方法が、多くの家庭で活用されています。</p>
+<p><strong>ポイント</strong></p>
+<p>現実的な対策：認可外保育施設に有償で預けて加点（<span class="highlight">+5〜6点</span>）を得る方法が、多くの家庭で活用されています。</p>
 </div>
 
-<h2>🗺️ 地域による差はある？</h2>
+<h2>地域による差はある？</h2>
 <p>5つの地域（世田谷・北沢・玉川・砧・烏山）で指数分布に大きな差はありませんが、園ごとの倍率には差があります。</p>
 <p>人気園に集中せず、通える範囲の園を幅広く希望に入れることが大切です。</p>
 
 <div class="info-box">
-<p>📌 最新の指数分布データは<a href="https://www.city.setagaya.lg.jp/02243/1624.html" target="_blank" rel="noopener">世田谷区公式サイト「保育の統計資料」</a>で公開されています。</p>
+<p><strong>公式情報</strong></p>
+<p>最新の指数分布データは<a href="https://www.city.setagaya.lg.jp/02243/1624.html" target="_blank" rel="noopener">世田谷区公式サイト「保育の統計資料」</a>で公開されています。</p>
 </div>`,
     publishedAt: "2026-03-28",
   },
@@ -255,9 +275,10 @@ const articles: Article[] = [
     title: "世田谷区で同点になったらどうなる？優先順位を詳しく解説",
     description:
       "世田谷区の保育園入園選考で同じ点数になった場合の6段階の優先順位を、わかりやすく解説します。",
-    emoji: "⚖️",
+    image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&h=400&fit=crop",
     category: "選考のしくみ",
-    content: `<h2>🤔 同点のとき、どうやって決まるの？</h2>
+    categoryColor: "blue",
+    content: `<h2>同点のとき、どうやって決まるの？</h2>
 <p>世田谷区の入園選考では、選考指数が同じ場合に<span class="highlight">6段階</span>の優先順位で判定されます。105点の世帯が約40%を占める世田谷区では、この優先順位がとても重要です。</p>
 
 <div class="step">
@@ -309,11 +330,13 @@ const articles: Article[] = [
 </div>
 
 <div class="point-box">
-<p>💡 同点勝負になったとき、「所得が低い」「居住期間が長い」が優先されるのは世田谷区ならではのポイントです。</p>
+<p><strong>ポイント</strong></p>
+<p>同点勝負になったとき、「所得が低い」「居住期間が長い」が優先されるのは世田谷区ならではのポイントです。</p>
 </div>
 
 <div class="info-box">
-<p>📌 詳細は<a href="https://www.city.setagaya.lg.jp/01044/1554.html" target="_blank" rel="noopener">世田谷区公式サイト「選考方法について」</a>をご確認ください。</p>
+<p><strong>公式情報</strong></p>
+<p>詳細は<a href="https://www.city.setagaya.lg.jp/01044/1554.html" target="_blank" rel="noopener">世田谷区公式サイト「選考方法について」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
   },
@@ -323,9 +346,10 @@ const articles: Article[] = [
     title: "世田谷区で保育園に落ちたときの5つの選択肢",
     description:
       "世田谷区の認可保育園の選考で不承諾だった場合に検討すべき5つの選択肢を、具体的に紹介します。",
-    emoji: "🔄",
+    image: "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=800&h=400&fit=crop",
     category: "入れなかったら",
-    content: `<h2>😤 落ちても慌てないで！5つの道があります</h2>
+    categoryColor: "rose",
+    content: `<h2>落ちても慌てないで！5つの道があります</h2>
 <p>世田谷区の一次選考で不承諾だった場合、まず深呼吸。次にできることを一つずつ確認しましょう。</p>
 
 <div class="step">
@@ -369,11 +393,13 @@ const articles: Article[] = [
 </div>
 
 <div class="point-box">
-<p>💡 入園担当窓口（TEL：03-5432-1200）に電話すれば、自分の指数や希望園での順位を教えてもらえます。次の作戦を立てる材料にしましょう。</p>
+<p><strong>ポイント</strong></p>
+<p>入園担当窓口（TEL：03-5432-1200）に電話すれば、自分の指数や希望園での順位を教えてもらえます。次の作戦を立てる材料にしましょう。</p>
 </div>
 
 <div class="info-box">
-<p>📌 詳しくは<a href="https://www.city.setagaya.lg.jp/01044/1555.html" target="_blank" rel="noopener">世田谷区公式サイト「入園できなかった場合は」</a>をご確認ください。</p>
+<p><strong>公式情報</strong></p>
+<p>詳しくは<a href="https://www.city.setagaya.lg.jp/01044/1555.html" target="_blank" rel="noopener">世田谷区公式サイト「入園できなかった場合は」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
   },
@@ -383,9 +409,10 @@ const articles: Article[] = [
     title: "育休明けの保活、世田谷区で気をつけること",
     description:
       "育休中に始める世田谷区の保活で、復職条件や申込時の注意点をまとめました。",
-    emoji: "👶",
+    image: "https://images.unsplash.com/photo-1492725764893-90b379c2b6e7?w=800&h=400&fit=crop",
     category: "育休・復職",
-    content: `<h2>📋 育休明けの復職条件</h2>
+    categoryColor: "purple",
+    content: `<h2>育休明けの復職条件</h2>
 <p>世田谷区では、育休明けで保育園に入園する場合、以下の<span class="highlight">2つの条件</span>を満たす必要があります。</p>
 <ul>
 <li>育休を認めた勤務先に復帰すること</li>
@@ -393,27 +420,30 @@ const articles: Article[] = [
 </ul>
 
 <div class="point-box">
-<p>💡 4月入園の場合、4月30日までに復職すればOK。慣らし保育の期間を考慮して、4月中旬〜下旬に復職日を設定する方が多いです。</p>
+<p><strong>ポイント</strong></p>
+<p>4月入園の場合、4月30日までに復職すればOK。慣らし保育の期間を考慮して、4月中旬〜下旬に復職日を設定する方が多いです。</p>
 </div>
 
 <h3>申込時に必要な書類</h3>
 <p>育休中に申し込む場合は、育休期間が記載された「就労証明書」を提出します。復職後の勤務日数・時間が記載されている必要があります。</p>
 
-<h2>➕ 育休明け加点（+5点）を活用</h2>
+<h2>育休明け加点（+5点）を活用</h2>
 <p>申込児の育休明け復職予定の場合、調整指数として<span class="highlight">+5点</span>が加算されます。これが世田谷区で最も多い入園パターン（<span class="highlight">105点</span>）の構成要素です。</p>
 
 <div class="warn-box">
-<p>⚠️ 育休中に認可外保育施設に預けても、「就労のため」ではないので認可外利用加点（+5〜6点）は得られません。</p>
+<p><strong>注意</strong></p>
+<p>育休中に認可外保育施設に預けても、「就労のため」ではないので認可外利用加点（+5〜6点）は得られません。</p>
 </div>
 
-<h2>📄 復職証明書の提出を忘れずに</h2>
+<h2>復職証明書の提出を忘れずに</h2>
 <p>入園後、復職したことを証明する「復職証明書」を世田谷区に提出する必要があります。提出期限を過ぎると退園になる場合があるため、必ず早めに手続きしましょう。</p>
 
-<h2>🔀 転職したい場合は？</h2>
+<h2>転職したい場合は？</h2>
 <p>育休明けは「育休を認めた勤務先への復帰」が条件です。入園後すぐの転職は、退園の対象になる可能性があるため注意が必要です。</p>
 
 <div class="info-box">
-<p>📌 詳しくは<a href="https://www.city.setagaya.lg.jp/01044/1557.html" target="_blank" rel="noopener">世田谷区公式サイト「育児休業中・育児短時間勤務等取得中（予定）の方へ」</a>をご確認ください。</p>
+<p><strong>公式情報</strong></p>
+<p>詳しくは<a href="https://www.city.setagaya.lg.jp/01044/1557.html" target="_blank" rel="noopener">世田谷区公式サイト「育児休業中・育児短時間勤務等取得中（予定）の方へ」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
   },
@@ -423,12 +453,13 @@ const articles: Article[] = [
     title: "時短勤務と保育園　世田谷区の点数への影響は？",
     description:
       "世田谷区の保育園入園選考で、時短勤務が利用基準指数にどう影響するかを解説します。",
-    emoji: "⏰",
+    image: "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800&h=400&fit=crop",
     category: "点数アップ",
-    content: `<h2>🤔 時短勤務だと点数は下がる？</h2>
+    categoryColor: "amber",
+    content: `<h2>時短勤務だと点数は下がる？</h2>
 <p>結論から言うと、世田谷区では時短勤務でも入園選考の点数は<strong>基本的に下がりません</strong>。ただし条件があります。</p>
 
-<h2>📏 世田谷区のルール</h2>
+<h2>世田谷区のルール</h2>
 <p>育児時間・育児短時間勤務制度等を取得して勤務時間が短くなる場合のルールは以下の通りです。</p>
 
 <table>
@@ -438,21 +469,23 @@ const articles: Article[] = [
 </table>
 
 <div class="point-box">
-<p>💡 時短勤務で1日の労働時間が6時間になっても、契約上のフルタイムが8時間ならば8時間で計算されます。ただし、週4日に減らす場合は4日で計算されます。</p>
+<p><strong>ポイント</strong></p>
+<p>時短勤務で1日の労働時間が6時間になっても、契約上のフルタイムが8時間ならば8時間で計算されます。ただし、週4日に減らす場合は4日で計算されます。</p>
 </div>
 
-<h2>📊 具体的にどうなる？</h2>
+<h2>具体的にどうなる？</h2>
 <table>
 <tr><th>勤務形態</th><th>利用基準指数</th></tr>
 <tr><td>フルタイム（週5日・40時間以上）を時短で6時間に</td><td><span class="highlight">50点</span>（フルタイムで計算）</td></tr>
 <tr><td>フルタイムを時短にし、さらに週4日に変更</td><td><span class="highlight">44点</span>（日数は短縮後で計算）</td></tr>
 </table>
 
-<h2>🏫 入園後の時短勤務はOK？</h2>
+<h2>入園後の時短勤務はOK？</h2>
 <p>入園後に時短勤務に切り替えることは問題ありません。ただし、月<span class="highlight">48時間</span>以上の勤務を維持する必要があります。</p>
 
 <div class="warn-box">
-<p>⚠️ 勤務時間が月48時間を下回ると「就労」として認められなくなるため注意してください。</p>
+<p><strong>注意</strong></p>
+<p>勤務時間が月48時間を下回ると「就労」として認められなくなるため注意してください。</p>
 </div>
 
 <h3>就労時間の計算ルール</h3>
@@ -463,7 +496,8 @@ const articles: Article[] = [
 </ul>
 
 <div class="info-box">
-<p>📌 詳しくは<a href="https://www.city.setagaya.lg.jp/01044/18373.html" target="_blank" rel="noopener">世田谷区公式サイト「指数についてのよくある質問」</a>をご確認ください。</p>
+<p><strong>公式情報</strong></p>
+<p>詳しくは<a href="https://www.city.setagaya.lg.jp/01044/18373.html" target="_blank" rel="noopener">世田谷区公式サイト「指数についてのよくある質問」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
   },
@@ -473,9 +507,10 @@ const articles: Article[] = [
     title: "2026年度入園に向けて！世田谷区の保活で変わったポイント",
     description:
       "2026年度（令和8年度）の世田谷区の保育園入園に向けて、最近変わった制度や新しい支援策をまとめます。",
-    emoji: "🆕",
+    image: "https://images.unsplash.com/photo-1504711434969-e33886168d6c?w=800&h=400&fit=crop",
     category: "保活の基本",
-    content: `<h2>🔄 2025〜2026年で何が変わった？</h2>
+    categoryColor: "green",
+    content: `<h2>2025〜2026年で何が変わった？</h2>
 <p>世田谷区の保活を取り巻く環境は年々変化しています。2026年度入園を目指す方が知っておくべき変更点をまとめました。</p>
 
 <div class="step">
@@ -511,10 +546,11 @@ const articles: Article[] = [
 </div>
 
 <div class="point-box">
-<p>💡 保育料の無償化と補助金の拡充により、経済的なハードルは大幅に下がりました。</p>
+<p><strong>ポイント</strong></p>
+<p>保育料の無償化と補助金の拡充により、経済的なハードルは大幅に下がりました。</p>
 </div>
 
-<h2>📅 2026年度入園のスケジュール</h2>
+<h2>2026年度入園のスケジュール</h2>
 <table>
 <tr><th>選考</th><th>申込期間</th><th>結果通知</th></tr>
 <tr><td>一次</td><td>令和7年9月1日〜11月10日</td><td>令和8年1月下旬</td></tr>
@@ -522,11 +558,13 @@ const articles: Article[] = [
 </table>
 
 <div class="warn-box">
-<p>⚠️ 保育人材不足による待機児童の再増加には注意が必要です。制度が充実しても定員が増えなければ競争は続きます。</p>
+<p><strong>注意</strong></p>
+<p>保育人材不足による待機児童の再増加には注意が必要です。制度が充実しても定員が増えなければ競争は続きます。</p>
 </div>
 
 <div class="info-box">
-<p>📌 最新情報は<a href="https://www.city.setagaya.lg.jp/01044/1561.html" target="_blank" rel="noopener">世田谷区公式サイト「令和8年4月入園について」</a>をご確認ください。</p>
+<p><strong>公式情報</strong></p>
+<p>最新情報は<a href="https://www.city.setagaya.lg.jp/01044/1561.html" target="_blank" rel="noopener">世田谷区公式サイト「令和8年4月入園について」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
   },
