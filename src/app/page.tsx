@@ -1,5 +1,4 @@
 import { getAllMunicipalities } from "@/lib/data";
-import { CitySearch } from "@/components/city-search";
 
 export default function Home() {
   const municipalities = getAllMunicipalities();
@@ -17,21 +16,20 @@ export default function Home() {
             <br className="sm:hidden" />
             保育園に入れる？
           </h2>
-          <p className="text-muted-foreground text-sm mb-5">
-            地域をえらんで
+          <p className="text-muted-foreground text-sm mb-6">
             <span className="text-primary font-medium">5つの質問</span>
-            に答えるだけ。
-            <br className="hidden sm:block" />
-            30秒で入園点数と「有利か厳しいか」の評価がわかります。
+            に答えるだけで、30秒で入園点数と評価がわかります。
           </p>
-          <CitySearch
-            municipalities={municipalities.map((m) => ({
-              name: m.name,
-              slug: m.slug,
-              prefecture: m.prefecture,
-            }))}
-          />
-          <p className="text-[11px] text-muted-foreground mt-2.5">
+          <a
+            href="/select"
+            className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full btn-primary-warm text-primary-foreground font-medium text-base shadow-lg"
+          >
+            今すぐ調べる
+            <svg viewBox="0 0 24 24" className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </a>
+          <p className="text-[11px] text-muted-foreground mt-3">
             無料・登録不要・令和7〜8年度の公式基準で計算
           </p>
         </div>
@@ -46,7 +44,7 @@ export default function Home() {
           </p>
         </div>
 
-        {/* 結果プレビュー: 実際の出力と整合 */}
+        {/* 結果プレビュー */}
         <p
           className="text-center text-base font-bold mb-6"
           style={{ fontFamily: "var(--font-heading)" }}
@@ -54,8 +52,7 @@ export default function Home() {
           こんな情報がすぐわかります
         </p>
 
-        <div className="max-w-sm mx-auto mb-12">
-          {/* 実際の結果画面を忠実に再現 */}
+        <div className="max-w-sm mx-auto mb-10">
           <div className="space-y-3">
             {/* 合計点数カード */}
             <div className="bg-card border-2 border-primary/30 rounded-xl shadow-md p-5 text-center">
@@ -161,22 +158,15 @@ export default function Home() {
 
         {/* 最終CTA */}
         <div className="text-center pb-2">
-          <p
-            className="text-base font-bold mb-1.5"
-            style={{ fontFamily: "var(--font-heading)" }}
+          <a
+            href="/select"
+            className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full btn-primary-warm text-primary-foreground font-medium text-base"
           >
-            保活の第一歩は、点数を知ること
-          </p>
-          <p className="text-xs text-muted-foreground mb-4">
-            地域をえらんで、30秒で今の点数をチェック
-          </p>
-          <CitySearch
-            municipalities={municipalities.map((m) => ({
-              name: m.name,
-              slug: m.slug,
-              prefecture: m.prefecture,
-            }))}
-          />
+            今すぐ調べる
+            <svg viewBox="0 0 24 24" className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </a>
         </div>
       </div>
     </div>
