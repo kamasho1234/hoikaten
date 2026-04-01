@@ -52,82 +52,80 @@ export default function Home() {
           こんな情報がすぐわかります
         </p>
 
-        <div className="max-w-sm mx-auto mb-10">
-          <div className="space-y-3">
-            {/* 合計点数カード */}
-            <div className="bg-card border-2 border-primary/30 rounded-xl shadow-md p-5 text-center">
-              <p className="text-xs text-muted-foreground mb-1">
-                あなたのご家庭の点数は...
-              </p>
-              <p
-                className="text-5xl font-bold text-primary leading-none"
-                style={{ fontFamily: "var(--font-heading)" }}
-              >
-                105
-                <span className="text-sm font-normal text-muted-foreground ml-1">
-                  点
-                </span>
-              </p>
-              <p className="text-[11px] text-muted-foreground mt-1">
-                （世田谷区の基準での目安）
-              </p>
-            </div>
+        {/* スマホモック */}
+        <div className="max-w-[280px] mx-auto mb-10">
+          <div className="relative">
+            {/* スマホフレーム */}
+            <div className="border-[6px] border-gray-800 rounded-[2.5rem] bg-gray-800 shadow-2xl">
+              {/* ノッチ */}
+              <div className="flex justify-center pt-2 pb-1">
+                <div className="w-20 h-5 bg-gray-900 rounded-full" />
+              </div>
+              {/* 画面 */}
+              <div className="bg-background rounded-b-[2rem] overflow-hidden">
+                {/* ステータスバー風 */}
+                <div className="flex justify-between items-center px-5 py-1.5 text-[9px] text-muted-foreground">
+                  <span>9:41</span>
+                  <span>hoikaten.com</span>
+                  <span>100%</span>
+                </div>
 
-            {/* 評価＋アドバイスカード */}
-            <div className="bg-card border border-border/60 rounded-xl p-4">
-              <p className="text-blue-600 font-bold text-sm mb-1.5">
-                最激戦ゾーン
-              </p>
-              <p className="text-sm text-foreground/80 leading-relaxed mb-3">
-                世田谷区で最も多い点数帯です。入園児童の約40%がこの層にいるため、同点の中での競争になります。
-              </p>
-              <div className="bg-muted/40 rounded-lg p-3 mb-3">
-                <p className="text-sm">
-                  <span className="font-medium">ワンポイント：</span>
-                  加点をもう1つ積めないか確認しましょう（認可外利用+6点、きょうだい加点+5点など）。園の選び方も重要です。
-                </p>
-              </div>
-              <div className="space-y-0.5 text-[11px] text-muted-foreground">
-                <p>※ 入園児童の約40%がフルタイム共働き＋育休明け加点の105点</p>
-                <p>※ 同点の場合は、小規模保育卒園児 → 基本指数 → 所得の低い世帯の順で優先</p>
+                {/* 結果画面コンテンツ */}
+                <div className="px-4 pb-5 space-y-2.5">
+                  {/* 合計点数 */}
+                  <div className="bg-card border-2 border-primary/30 rounded-lg p-3 text-center">
+                    <p className="text-[9px] text-muted-foreground mb-0.5">あなたのご家庭の点数は...</p>
+                    <p
+                      className="text-3xl font-bold text-primary leading-none"
+                      style={{ fontFamily: "var(--font-heading)" }}
+                    >
+                      105
+                      <span className="text-[10px] font-normal text-muted-foreground ml-0.5">点</span>
+                    </p>
+                    <p className="text-[8px] text-muted-foreground mt-0.5">（世田谷区の基準での目安）</p>
+                  </div>
+
+                  {/* 評価 */}
+                  <div className="bg-card border border-border/60 rounded-lg p-2.5">
+                    <p className="text-blue-600 font-bold text-[10px] mb-1">最激戦ゾーン</p>
+                    <p className="text-[9px] text-foreground/80 leading-relaxed mb-1.5">
+                      世田谷区で最も多い点数帯です。入園児童の約40%がこの層にいるため、同点の中での競争になります。
+                    </p>
+                    <div className="bg-muted/40 rounded p-1.5">
+                      <p className="text-[9px]">
+                        <span className="font-medium">ワンポイント：</span>
+                        認可外利用+6点、きょうだい加点+5点など、加点の余地がないか確認を。
+                      </p>
+                    </div>
+                  </div>
+
+                  {/* うちわけ */}
+                  <div className="bg-card border border-border/60 rounded-lg p-2.5">
+                    <p className="text-[10px] font-bold mb-1.5">点数のうちわけ</p>
+                    <div className="space-y-1 text-[9px]">
+                      <div className="flex justify-between">
+                        <span className="text-muted-foreground">保護者1</span>
+                        <span className="font-medium">50点</span>
+                      </div>
+                      <div className="flex justify-between">
+                        <span className="text-muted-foreground">保護者2</span>
+                        <span className="font-medium">50点</span>
+                      </div>
+                      <div className="flex justify-between">
+                        <span className="text-muted-foreground">育休明け加点</span>
+                        <span className="font-medium text-primary">+5点</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-
-            {/* うちわけカード */}
-            <div className="bg-card border border-border/60 rounded-xl p-4">
-              <p className="text-sm font-bold mb-3">点数のうちわけ</p>
-              <div className="space-y-2 text-sm">
-                <div className="flex justify-between items-center">
-                  <span className="text-muted-foreground">保護者1の点数</span>
-                  <span className="bg-secondary px-2 py-0.5 rounded text-xs font-medium">50点</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-muted-foreground">保護者2の点数</span>
-                  <span className="bg-secondary px-2 py-0.5 rounded text-xs font-medium">50点</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-muted-foreground">家庭の状況による加点</span>
-                  <span className="bg-secondary px-2 py-0.5 rounded text-xs font-medium text-primary">+5点</span>
-                </div>
-                <div className="border-t border-border/40 pt-2">
-                  <p className="text-xs text-muted-foreground font-medium mb-1">くわしい内訳</p>
-                  <div className="flex justify-between text-xs">
-                    <span className="text-muted-foreground">保護者1：週5日以上かつ週40時間以上</span>
-                    <span>50点</span>
-                  </div>
-                  <div className="flex justify-between text-xs">
-                    <span className="text-muted-foreground">保護者2：週5日以上かつ週40時間以上</span>
-                    <span>50点</span>
-                  </div>
-                  <div className="flex justify-between text-xs">
-                    <span className="text-muted-foreground">育休・産休から復帰する予定</span>
-                    <span className="text-primary">+5点</span>
-                  </div>
-                </div>
-              </div>
+            {/* ホームインジケーター */}
+            <div className="flex justify-center mt-1">
+              <div className="w-24 h-1 bg-gray-600 rounded-full" />
             </div>
           </div>
-          <p className="text-center text-[10px] text-muted-foreground mt-2">
+          <p className="text-center text-[10px] text-muted-foreground mt-3">
             ※ 世田谷区・フルタイム共働き＋育休明けの場合の例
           </p>
         </div>
