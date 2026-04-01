@@ -71,7 +71,7 @@ export default function Home() {
                 </div>
 
                 {/* 結果画面コンテンツ */}
-                <div className="px-4 pb-5 space-y-2.5">
+                <div className="px-3.5 pb-5 space-y-2">
                   {/* 合計点数 */}
                   <div className="bg-card border-2 border-primary/30 rounded-lg p-3 text-center">
                     <p className="text-[9px] text-muted-foreground mb-0.5">あなたのご家庭の点数は...</p>
@@ -91,11 +91,15 @@ export default function Home() {
                     <p className="text-[9px] text-foreground/80 leading-relaxed mb-1.5">
                       世田谷区で最も多い点数帯です。入園児童の約40%がこの層にいるため、同点の中での競争になります。
                     </p>
-                    <div className="bg-muted/40 rounded p-1.5">
+                    <div className="bg-muted/40 rounded p-1.5 mb-1.5">
                       <p className="text-[9px]">
                         <span className="font-medium">ワンポイント：</span>
                         認可外利用+6点、きょうだい加点+5点など、加点の余地がないか確認を。
                       </p>
+                    </div>
+                    <div className="space-y-0.5 text-[8px] text-muted-foreground">
+                      <p>※ 入園児童の約40%が105点</p>
+                      <p>※ 同点時: 小規模卒園児 → 基本指数 → 所得低い順</p>
                     </div>
                   </div>
 
@@ -104,17 +108,50 @@ export default function Home() {
                     <p className="text-[10px] font-bold mb-1.5">点数のうちわけ</p>
                     <div className="space-y-1 text-[9px]">
                       <div className="flex justify-between">
-                        <span className="text-muted-foreground">保護者1</span>
-                        <span className="font-medium">50点</span>
+                        <span className="text-muted-foreground">保護者1の点数</span>
+                        <span className="bg-secondary px-1.5 py-0.5 rounded text-[8px] font-medium">50点</span>
                       </div>
                       <div className="flex justify-between">
-                        <span className="text-muted-foreground">保護者2</span>
-                        <span className="font-medium">50点</span>
+                        <span className="text-muted-foreground">保護者2の点数</span>
+                        <span className="bg-secondary px-1.5 py-0.5 rounded text-[8px] font-medium">50点</span>
                       </div>
                       <div className="flex justify-between">
-                        <span className="text-muted-foreground">育休明け加点</span>
-                        <span className="font-medium text-primary">+5点</span>
+                        <span className="text-muted-foreground">家庭の状況による加点</span>
+                        <span className="bg-secondary px-1.5 py-0.5 rounded text-[8px] font-medium text-primary">+5点</span>
                       </div>
+                      <div className="border-t border-border/40 pt-1.5 mt-1">
+                        <p className="text-[8px] text-muted-foreground font-medium mb-1">くわしい内訳</p>
+                        <div className="flex justify-between text-[8px]">
+                          <span className="text-muted-foreground">保護者1：週5日・週40時間以上</span>
+                          <span>50点</span>
+                        </div>
+                        <div className="flex justify-between text-[8px]">
+                          <span className="text-muted-foreground">保護者2：週5日・週40時間以上</span>
+                          <span>50点</span>
+                        </div>
+                        <div className="flex justify-between text-[8px]">
+                          <span className="text-muted-foreground">育休明けで復帰予定</span>
+                          <span className="text-primary">+5点</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* 注意ボックス */}
+                  <div className="bg-amber-50 border border-amber-200 rounded-lg p-2">
+                    <p className="text-[8px] font-medium text-amber-800 mb-0.5">ここだけ注意！</p>
+                    <p className="text-[8px] text-amber-700 leading-relaxed">
+                      この点数はあくまで目安です。くわしくは世田谷区の窓口で確認してくださいね。
+                    </p>
+                  </div>
+
+                  {/* SNSシェア */}
+                  <div className="text-center pt-1">
+                    <p className="text-[8px] text-muted-foreground mb-1.5">結果をシェアする</p>
+                    <div className="flex justify-center gap-2">
+                      <div className="px-3 py-1 rounded bg-gray-800 text-white text-[8px] font-medium">X</div>
+                      <div className="px-3 py-1 rounded bg-[#06C755] text-white text-[8px] font-medium">LINE</div>
+                      <div className="px-3 py-1 rounded bg-gray-100 text-gray-600 text-[8px] font-medium border">コピー</div>
                     </div>
                   </div>
                 </div>
