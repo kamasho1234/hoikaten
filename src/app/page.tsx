@@ -1,7 +1,9 @@
 import { getAllMunicipalities } from "@/lib/data";
+import { getAllArticles } from "@/lib/articles";
 
 export default function Home() {
   const municipalities = getAllMunicipalities();
+  const articles = getAllArticles();
 
   return (
     <div>
@@ -182,7 +184,7 @@ export default function Home() {
         </p>
 
         {/* 最終CTA */}
-        <div className="text-center pb-2">
+        <div className="text-center mb-12">
           <a
             href="/select"
             className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full btn-primary-warm text-primary-foreground font-medium text-base"
@@ -193,6 +195,49 @@ export default function Home() {
             </svg>
           </a>
         </div>
+
+        {/* 記事一覧 */}
+        {articles.length > 0 && (
+          <div className="border-t border-border/40 pt-10">
+            <p
+              className="text-base font-bold mb-6"
+              style={{ fontFamily: "var(--font-heading)" }}
+            >
+              保活お役立ち記事
+            </p>
+            <div className="space-y-3">
+              {articles.map((article) => {
+                const muni = municipalities.find((m) => m.slug === article.citySlug);
+                return (
+                  <a
+                    key={`${article.citySlug}-${article.slug}`}
+                    href={`/${article.citySlug}/articles/${article.slug}`}
+                    className="block group"
+                  >
+                    <div className="flex gap-3 items-center p-3 rounded-xl border border-border/60 hover:border-primary/30 hover:shadow-sm transition-all bg-card">
+                      <img
+                        src={article.image}
+                        alt={article.title}
+                        className="w-16 h-12 rounded-lg object-cover flex-shrink-0"
+                      />
+                      <div className="flex-1 min-w-0">
+                        <div className="flex items-center gap-2 mb-0.5">
+                          {muni && (
+                            <span className="text-[10px] text-muted-foreground">{muni.name}</span>
+                          )}
+                          <span className="text-[10px] text-primary">{article.category}</span>
+                        </div>
+                        <p className="text-sm font-medium leading-snug group-hover:text-primary transition-colors line-clamp-1">
+                          {article.title}
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                );
+              })}
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );
