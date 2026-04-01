@@ -11,16 +11,14 @@ export function proxy(request: NextRequest) {
     return NextResponse.next();
   }
 
-  // サブドメインがある場合 → /[city] にリライト
-  // setagaya.hoikaten.com/ → /setagaya として処理
-  if (url.pathname === "/") {
-    url.pathname = `/${citySlug}`;
-    return NextResponse.rewrite(url);
-  }
-
-  return NextResponse.next();
+  // サブドメインがある場合 → /[city]/... にリライト
+  // setagaya.hoikaten.com/ → /setagaya
+  // setagaya.hoikaten.com/articles → /setagaya/articles
+  // setagaya.hoikaten.com/articles/xxx → /setagaya/articles/xxx
+  url.pathname = `/${citySlug}${url.pathname}`;
+  return NextResponse.rewrite(url);
 }
 
 export const config = {
-  matcher: ["/"],
+  matcher: ["/((?!_next/static|_next/image|favicon.ico|opengraph-image|robots.txt|sitemap.xml).*)"],
 };
