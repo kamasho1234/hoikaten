@@ -7,6 +7,9 @@ import "@/lib/articles/setagaya";
 import "@/lib/articles/yokohama";
 import "@/lib/articles/osaka";
 import "@/lib/articles/kawasaki";
+import "@/lib/articles/nagoya";
+import "@/lib/articles/saitama";
+import "@/lib/articles/sapporo";
 
 import { getAllMunicipalities } from "@/lib/data";
 import { HeaderNav } from "@/components/header-nav";
