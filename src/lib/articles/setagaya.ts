@@ -507,7 +507,7 @@ const articles: Article[] = [
     title: "2026年度入園に向けて！世田谷区の保活で変わったポイント",
     description:
       "2026年度（令和8年度）の世田谷区の保育園入園に向けて、最近変わった制度や新しい支援策をまとめます。",
-    image: "https://images.unsplash.com/photo-1504711434969-e33886168d6c?w=800&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&h=400&fit=crop",
     category: "保活の基本",
     categoryColor: "green",
     content: `<h2>2025〜2026年で何が変わった？</h2>
