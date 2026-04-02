@@ -14,6 +14,9 @@ import "@/lib/articles/sendai";
 import "@/lib/articles/fukuoka";
 import "@/lib/articles/hiroshima";
 import "@/lib/articles/kobe";
+import "@/lib/articles/kyoto";
+import "@/lib/articles/kitakyushu";
+import "@/lib/articles/hamamatsu";
 
 import { getAllMunicipalities } from "@/lib/data";
 import { HeaderNav } from "@/components/header-nav";
