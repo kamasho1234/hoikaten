@@ -42,6 +42,16 @@ import { kotoData } from './koto';
 import { okayamaData } from './okayama';
 import { kumamotoData } from './kumamoto';
 import { shizuokaData } from './shizuoka';
+import { machidaData } from './machida';
+import { fujisawaData } from './fujisawa';
+import { kashiwaData } from './kashiwa';
+import { toyonakaData } from './toyonaka';
+import { yokosukaData } from './yokosuka';
+import { kagoshimaData } from './kagoshima';
+import { utsunomiyaData } from './utsunomiya';
+import { higashiosakaData } from './higashiosaka';
+import { nishinomiyaData } from './nishinomiya';
+import { amagasakiData } from './amagasaki';
 
 const municipalityMap: Record<string, MunicipalityData> = {
   [setagayaData.municipality.slug]: setagayaData,
@@ -87,6 +97,16 @@ const municipalityMap: Record<string, MunicipalityData> = {
   [okayamaData.municipality.slug]: okayamaData,
   [kumamotoData.municipality.slug]: kumamotoData,
   [shizuokaData.municipality.slug]: shizuokaData,
+  [machidaData.municipality.slug]: machidaData,
+  [fujisawaData.municipality.slug]: fujisawaData,
+  [kashiwaData.municipality.slug]: kashiwaData,
+  [toyonakaData.municipality.slug]: toyonakaData,
+  [yokosukaData.municipality.slug]: yokosukaData,
+  [kagoshimaData.municipality.slug]: kagoshimaData,
+  [utsunomiyaData.municipality.slug]: utsunomiyaData,
+  [higashiosakaData.municipality.slug]: higashiosakaData,
+  [nishinomiyaData.municipality.slug]: nishinomiyaData,
+  [amagasakiData.municipality.slug]: amagasakiData,
 };
 
 export function getMunicipalityData(slug: string): MunicipalityData | undefined {
@@ -97,4 +117,4 @@ export function getAllMunicipalities() {
   return Object.values(municipalityMap).map((d) => d.municipality);
 }
 
-export { setagayaData, yokohamaData, osakaData, kawasakiData, nagoyaData, saitamaData, sapporoData, kobeData, fukuokaData, hiroshimaData, sendaiData, kyotoData, kitakyushuData, hamamatsuData, chibaData, adachiData, suginamiData, itabashiData, nerimaData, otaData, edogawaData, sakaiData, niigataData, sagamiharaData, nakanoData, toshimaData, kitaData, arakawaData, shinagawaData, meguroData, shibuyaData, shinjukuData, bunkyoData, taitoData, sumidaData, katsushikaData, minatoData, chuoData, chiyodaData, kotoData, okayamaData, kumamotoData, shizuokaData };
+export { setagayaData, yokohamaData, osakaData, kawasakiData, nagoyaData, saitamaData, sapporoData, kobeData, fukuokaData, hiroshimaData, sendaiData, kyotoData, kitakyushuData, hamamatsuData, chibaData, adachiData, suginamiData, itabashiData, nerimaData, otaData, edogawaData, sakaiData, niigataData, sagamiharaData, nakanoData, toshimaData, kitaData, arakawaData, shinagawaData, meguroData, shibuyaData, shinjukuData, bunkyoData, taitoData, sumidaData, katsushikaData, minatoData, chuoData, chiyodaData, kotoData, okayamaData, kumamotoData, shizuokaData, machidaData, fujisawaData, kashiwaData, toyonakaData, yokosukaData, kagoshimaData, utsunomiyaData, higashiosakaData, nishinomiyaData, amagasakiData };

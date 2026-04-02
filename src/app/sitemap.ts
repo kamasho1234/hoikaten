@@ -45,6 +45,21 @@ import "@/lib/articles/koto";
 import "@/lib/articles/okayama";
 import "@/lib/articles/kumamoto";
 import "@/lib/articles/shizuoka";
+import "@/lib/articles/machida";
+import "@/lib/articles/fujisawa";
+import "@/lib/articles/kashiwa";
+import "@/lib/articles/toyonaka";
+import "@/lib/articles/yokosuka";
+import "@/lib/articles/funabashi";
+import "@/lib/articles/hachioji";
+import "@/lib/articles/kawaguchi";
+import "@/lib/articles/himeji";
+import "@/lib/articles/matsuyama";
+import "@/lib/articles/kagoshima";
+import "@/lib/articles/utsunomiya";
+import "@/lib/articles/higashiosaka";
+import "@/lib/articles/nishinomiya";
+import "@/lib/articles/amagasaki";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const municipalities = getAllMunicipalities();

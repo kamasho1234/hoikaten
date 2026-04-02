@@ -135,6 +135,11 @@ function getScoreEvaluation(slug: string, total: number): ScoreEvaluation {
   if (slug === "kita") return getKitaEvaluation(total);
   if (slug === "arakawa") return getArakawaEvaluation(total);
   if (slug === "shinagawa") return getShinagawaEvaluation(total);
+  if (slug === "funabashi") return getFunabashiEvaluation(total);
+  if (slug === "hachioji") return getHachiojiEvaluation(total);
+  if (slug === "kawaguchi") return getKawaguchiEvaluation(total);
+  if (slug === "himeji") return getHimejiEvaluation(total);
+  if (slug === "matsuyama") return getMatsuyamaEvaluation(total);
   return getGenericEvaluation(total);
 }
 
@@ -548,6 +553,76 @@ function getShinagawaEvaluation(total: number): ScoreEvaluation {
   if (total >= 42) return { label: "標準的（フルタイム＋加点あり）", color: "text-blue-600", description: "フルタイム共働き＋加点ありの層です。加点の有無が勝負を分けます。", tip: "きょうだい在園（+3）、認可外利用（+2）など使える加点を確認しましょう。", notes };
   if (total >= 40) return { label: "加点なしでは厳しめ", color: "text-yellow-600", description: "フルタイム共働きの基本ラインですが、加点がないと人気園では厳しい場合があります。", tip: "認可外保育施設やベビーシッターに預けると+2の加点がつきます。", notes };
   if (total >= 26) return { label: "認可園は厳しい", color: "text-orange-600", description: "パートタイムや時短勤務の方に多い点数帯です。認可園への入園は難しい状況です。", tip: "認可外保育施設や品川区の150円ベビーシッター制度も検討しましょう。", notes };
+  return { label: "認可園は極めて難しい", color: "text-red-600", description: "この点数では認可園への入園は極めて難しい状況です。", tip: "認可外保育施設やファミリーサポートなど別の預け先を検討しましょう。", notes };
+}
+
+function getFunabashiEvaluation(total: number): ScoreEvaluation {
+  // 船橋市: 合算方式、父母各10点。フルタイム共働き=20点+調整点が基本
+  const notes = [
+    "※ 船橋市ではフルタイム共働き（月160時間以上）20点が基本ラインです",
+    "※ 同点の場合の優先順位：基本点が高い → ひとり親 → きょうだい在園 → 所得が低い世帯",
+  ];
+  if (total >= 24) return { label: "かなり有利", color: "text-green-600", description: "フルタイム共働き＋複数の加点がある高得点です。多くの園で入園が期待できます。", tip: "希望する園の過去のボーダーも確認しておくと安心です。", notes };
+  if (total >= 22) return { label: "有利", color: "text-emerald-600", description: "フルタイム共働き＋加点ありの状態です。多くの園でチャンスがあります。", tip: "人気エリア（船橋駅・津田沼駅周辺）では同点の競争になることもあります。", notes };
+  if (total >= 20) return { label: "標準的（フルタイム共働き）", color: "text-blue-600", description: "フルタイム共働きの基本ラインです。人気園では加点がないと厳しい場合があります。", tip: "きょうだい加点（+1）、認可外利用（+1）、育休復帰（+1）など使える加点を確認しましょう。", notes };
+  if (total >= 16) return { label: "やや厳しめ", color: "text-yellow-600", description: "パートタイムや時短勤務の方に多い点数帯です。園によってはチャンスがあります。", tip: "不人気園や小規模保育も視野に入れましょう。", notes };
+  if (total >= 10) return { label: "認可園は厳しい", color: "text-orange-600", description: "認可園への入園は難しい状況です。", tip: "認可外保育施設も並行して検討しましょう。", notes };
+  return { label: "認可園は極めて難しい", color: "text-red-600", description: "この点数では認可園への入園は極めて難しい状況です。", tip: "認可外保育施設やファミリーサポートなど別の預け先を検討しましょう。", notes };
+}
+
+function getHachiojiEvaluation(total: number): ScoreEvaluation {
+  // 八王子市: 合算方式、父母各10点。フルタイム共働き=20点+調整
+  const notes = [
+    "※ 八王子市ではフルタイム共働き（週40時間以上）20点が基本ラインです",
+    "※ 同点の場合の優先順位：保育の必要性が高い → きょうだい在園 → 所得が低い世帯",
+  ];
+  if (total >= 24) return { label: "かなり有利", color: "text-green-600", description: "フルタイム共働き＋複数の加点がある高得点です。多くの園で入園が期待できます。", tip: "希望する園の過去のボーダーも確認しておくと安心です。", notes };
+  if (total >= 22) return { label: "有利", color: "text-emerald-600", description: "フルタイム共働き＋小規模保育卒園やひとり親加点がある状態です。多くの園でチャンスがあります。", tip: "南大沢・八王子駅周辺の人気園では同点の競争になることもあります。", notes };
+  if (total >= 20) return { label: "標準的（フルタイム共働き）", color: "text-blue-600", description: "フルタイム共働きの基本ラインです。加点があるかどうかが勝負を分けます。", tip: "きょうだい加点（+1）、認可外利用（+1）、小規模保育卒園（+2）など使える加点を確認しましょう。", notes };
+  if (total >= 16) return { label: "やや厳しめ", color: "text-yellow-600", description: "パートタイムや時短勤務の方に多い点数帯です。園によってはチャンスがあります。", tip: "八王子市は広いので、駅から離れた園は比較的入りやすい傾向があります。", notes };
+  if (total >= 10) return { label: "認可園は厳しい", color: "text-orange-600", description: "認可園への入園は難しい状況です。", tip: "認可外保育施設も並行して検討しましょう。", notes };
+  return { label: "認可園は極めて難しい", color: "text-red-600", description: "この点数では認可園への入園は極めて難しい状況です。", tip: "認可外保育施設やファミリーサポートなど別の預け先を検討しましょう。", notes };
+}
+
+function getKawaguchiEvaluation(total: number): ScoreEvaluation {
+  // 川口市: 合算方式、父母各20点。フルタイム共働き=40点+調整
+  const notes = [
+    "※ 川口市ではフルタイム共働き（月160時間以上）40点が基本ラインです",
+    "※ 同点の場合の優先順位：ひとり親 → きょうだい在園 → 子どもの数 → 所得が低い世帯",
+  ];
+  if (total >= 44) return { label: "かなり有利", color: "text-green-600", description: "フルタイム共働き＋複数の加点がある高得点です。多くの園で入園が期待できます。", tip: "希望する園の過去のボーダーも確認しておくと安心です。", notes };
+  if (total >= 42) return { label: "有利", color: "text-emerald-600", description: "フルタイム共働き＋加点ありの状態です。多くの園でチャンスがあります。", tip: "川口駅・西川口駅周辺の人気園では同点の競争になることもあります。", notes };
+  if (total >= 40) return { label: "標準的（フルタイム共働き）", color: "text-blue-600", description: "フルタイム共働きの基本ラインです。人気園では加点がないと厳しい場合があります。", tip: "きょうだい在園（+1）、育休復帰（+1）、同居の子ども（+1）など使える加点を確認しましょう。", notes };
+  if (total >= 32) return { label: "やや厳しめ", color: "text-yellow-600", description: "パートタイムや時短勤務の方に多い点数帯です。園によってはチャンスがあります。", tip: "不人気園や小規模保育も視野に入れましょう。", notes };
+  if (total >= 16) return { label: "認可園は厳しい", color: "text-orange-600", description: "認可園への入園は難しい状況です。", tip: "認可外保育施設も並行して検討しましょう。", notes };
+  return { label: "認可園は極めて難しい", color: "text-red-600", description: "この点数では認可園への入園は極めて難しい状況です。", tip: "認可外保育施設やファミリーサポートなど別の預け先を検討しましょう。", notes };
+}
+
+function getHimejiEvaluation(total: number): ScoreEvaluation {
+  // 姫路市: 合算方式、父母各10点。フルタイム共働き=20点+調整
+  const notes = [
+    "※ 姫路市ではフルタイム共働き（月160時間以上）20点が基本ラインです",
+    "※ 同点の場合の優先順位：保育の必要性が高い → きょうだい在園 → ひとり親 → 所得が低い世帯",
+  ];
+  if (total >= 26) return { label: "かなり有利", color: "text-green-600", description: "フルタイム共働き＋複数の加点がある高得点です。多くの園で入園が期待できます。", tip: "希望する園の過去のボーダーも確認しておくと安心です。", notes };
+  if (total >= 23) return { label: "有利", color: "text-emerald-600", description: "フルタイム共働き＋加点ありの状態です。多くの園でチャンスがあります。", tip: "姫路駅周辺の人気園では同点の競争になることもあります。", notes };
+  if (total >= 20) return { label: "標準的（フルタイム共働き）", color: "text-blue-600", description: "フルタイム共働きの基本ラインです。人気園では加点がないと厳しい場合があります。", tip: "小規模保育卒園（+3）、ひとり親（+3）、認可外利用（+2）、きょうだい在園（+2）など使える加点を確認しましょう。", notes };
+  if (total >= 14) return { label: "やや厳しめ", color: "text-yellow-600", description: "パートタイムや時短勤務の方に多い点数帯です。園によってはチャンスがあります。", tip: "不人気園や小規模保育も視野に入れましょう。", notes };
+  if (total >= 8) return { label: "認可園は厳しい", color: "text-orange-600", description: "認可園への入園は難しい状況です。", tip: "認可外保育施設も並行して検討しましょう。", notes };
+  return { label: "認可園は極めて難しい", color: "text-red-600", description: "この点数では認可園への入園は極めて難しい状況です。", tip: "認可外保育施設やファミリーサポートなど別の預け先を検討しましょう。", notes };
+}
+
+function getMatsuyamaEvaluation(total: number): ScoreEvaluation {
+  // 松山市: 合算方式、父母各10点。フルタイム共働き=20点+調整
+  const notes = [
+    "※ 松山市ではフルタイム共働き（月160時間以上）20点が基本ラインです",
+    "※ 同点の場合の優先順位：保育の必要性が高い → きょうだい在園 → ひとり親 → 所得が低い世帯",
+  ];
+  if (total >= 26) return { label: "かなり有利", color: "text-green-600", description: "フルタイム共働き＋複数の加点がある高得点です。多くの園で入園が期待できます。", tip: "希望する園の過去のボーダーも確認しておくと安心です。", notes };
+  if (total >= 23) return { label: "有利", color: "text-emerald-600", description: "フルタイム共働き＋加点ありの状態です。多くの園でチャンスがあります。", tip: "松山市駅周辺の人気園では同点の競争になることもあります。", notes };
+  if (total >= 20) return { label: "標準的（フルタイム共働き）", color: "text-blue-600", description: "フルタイム共働きの基本ラインです。人気園では加点がないと厳しい場合があります。", tip: "小規模保育卒園（+3）、ひとり親（+3）、認可外利用（+2）、きょうだい在園（+2）など使える加点を確認しましょう。", notes };
+  if (total >= 14) return { label: "やや厳しめ", color: "text-yellow-600", description: "パートタイムや時短勤務の方に多い点数帯です。園によってはチャンスがあります。", tip: "不人気園や小規模保育も視野に入れましょう。", notes };
+  if (total >= 8) return { label: "認可園は厳しい", color: "text-orange-600", description: "認可園への入園は難しい状況です。", tip: "認可外保育施設も並行して検討しましょう。", notes };
   return { label: "認可園は極めて難しい", color: "text-red-600", description: "この点数では認可園への入園は極めて難しい状況です。", tip: "認可外保育施設やファミリーサポートなど別の預け先を検討しましょう。", notes };
 }
 
