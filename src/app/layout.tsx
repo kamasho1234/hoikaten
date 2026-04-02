@@ -58,9 +58,9 @@ const zenMaru = Zen_Maru_Gothic({
 });
 
 export const metadata: Metadata = {
-  title: "保育園の点数、何点とれる？｜hoikaten",
+  title: "保育園 点数シミュレーター｜入園点数を無料で自動計算【hoikaten】",
   description:
-    "かんたんな質問に答えるだけで、保育園に入るための点数がわかります。まずはお住まいの地域を選んでください。",
+    "保育園の入園点数を無料でシミュレーション（シュミレーション）。お住まいの地域を選んで5つの質問に答えるだけで、点数の目安と「有利か厳しいか」の評価がわかります。東京23区・政令指定都市など43自治体対応。",
   metadataBase: new URL("https://hoikaten.com"),
   openGraph: {
     type: "website",

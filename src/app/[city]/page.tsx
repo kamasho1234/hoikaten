@@ -21,14 +21,14 @@ export default async function CityPage({
   return (
     <div className="mx-auto max-w-3xl px-4 py-8">
       <div className="hero-pattern rounded-2xl py-8 px-4 text-center mb-8 -mx-4 sm:mx-0">
-        <h2
+        <h1
           className="text-2xl font-bold mb-2"
           style={{ fontFamily: "var(--font-heading)" }}
         >
-          {data.municipality.name}の保育園、何点とれる？
-        </h2>
+          {data.municipality.name}の保育園 入園点数シミュレーター
+        </h1>
         <p className="text-muted-foreground">
-          かんたんな質問に答えるだけで、入園点数の目安がわかります
+          何点とれる？ かんたんな質問に答えるだけで、入園点数の目安がわかります
         </p>
         <p className="text-xs text-muted-foreground mt-1.5">
           {data.municipality.scoringMethod === "min"

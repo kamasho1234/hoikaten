@@ -14,8 +14,8 @@ export async function generateMetadata({
   const data = getMunicipalityData(city);
   if (!data) return {};
   return {
-    title: `${data.municipality.name}の保育園、何点とれる？｜hoikaten`,
-    description: `${data.municipality.name}で保活中の方へ。かんたんな質問に答えるだけで入園点数の目安がわかります。`,
+    title: `${data.municipality.name}の保育園 点数シミュレーター｜入園点数を無料で自動計算【hoikaten】`,
+    description: `${data.municipality.name}の保育園入園点数を無料でシミュレーション。基本指数・調整指数を自動計算し、「有利」「厳しい」の評価とアドバイスも。令和7〜8年度の公式基準に対応。`,
   };
 }
 

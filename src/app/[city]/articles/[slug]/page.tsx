@@ -67,8 +67,27 @@ export default async function ArticlePage({
   const otherArticles = allArticles.filter((a) => a.slug !== slug).slice(0, 3);
   const labelColor = categoryColorMap[article.categoryColor];
 
+  const articleJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: article.title,
+    description: article.description,
+    datePublished: article.publishedAt,
+    author: { "@type": "Organization", name: "hoikaten" },
+    publisher: { "@type": "Organization", name: "hoikaten" },
+    image: article.image,
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `https://${city}.hoikaten.com/${city}/articles/${slug}`,
+    },
+  };
+
   return (
     <div className="mx-auto max-w-3xl px-4 py-8">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
       {/* パンくず */}
       <nav className="text-sm text-muted-foreground mb-6 flex items-center gap-2 flex-wrap">
         <a href="/" className="hover:underline hover:text-primary">ホーム</a>

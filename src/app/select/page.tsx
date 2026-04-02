@@ -1,5 +1,12 @@
+import type { Metadata } from "next";
 import { getAllMunicipalities } from "@/lib/data";
 import { CitySearch } from "@/components/city-search";
+
+export const metadata: Metadata = {
+  title: "地域を選択｜保育園 点数シミュレーター【hoikaten】",
+  description:
+    "お住まいの地域を選んで保育園の入園点数をシミュレーション。東京23区・政令指定都市など43自治体に対応。",
+};
 
 export default function SelectPage() {
   const municipalities = getAllMunicipalities();
