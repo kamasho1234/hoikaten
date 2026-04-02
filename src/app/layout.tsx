@@ -10,6 +10,10 @@ import "@/lib/articles/kawasaki";
 import "@/lib/articles/nagoya";
 import "@/lib/articles/saitama";
 import "@/lib/articles/sapporo";
+import "@/lib/articles/sendai";
+import "@/lib/articles/fukuoka";
+import "@/lib/articles/hiroshima";
+import "@/lib/articles/kobe";
 
 import { getAllMunicipalities } from "@/lib/data";
 import { HeaderNav } from "@/components/header-nav";
