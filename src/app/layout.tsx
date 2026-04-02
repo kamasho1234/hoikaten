@@ -17,6 +17,15 @@ import "@/lib/articles/kobe";
 import "@/lib/articles/kyoto";
 import "@/lib/articles/kitakyushu";
 import "@/lib/articles/hamamatsu";
+import "@/lib/articles/sakai";
+import "@/lib/articles/niigata";
+import "@/lib/articles/sagamihara";
+import "@/lib/articles/nerima";
+import "@/lib/articles/ota";
+import "@/lib/articles/edogawa";
+import "@/lib/articles/adachi";
+import "@/lib/articles/suginami";
+import "@/lib/articles/itabashi";
 
 import { getAllMunicipalities } from "@/lib/data";
 import { HeaderNav } from "@/components/header-nav";

@@ -14,6 +14,15 @@ import { kyotoData } from './kyoto';
 import { kitakyushuData } from './kitakyushu';
 import { hamamatsuData } from './hamamatsu';
 import { chibaData } from './chiba';
+import { adachiData } from './adachi';
+import { suginamiData } from './suginami';
+import { itabashiData } from './itabashi';
+import { nerimaData } from './nerima';
+import { otaData } from './ota';
+import { edogawaData } from './edogawa';
+import { sakaiData } from './sakai';
+import { niigataData } from './niigata';
+import { sagamiharaData } from './sagamihara';
 
 const municipalityMap: Record<string, MunicipalityData> = {
   [setagayaData.municipality.slug]: setagayaData,
@@ -31,6 +40,15 @@ const municipalityMap: Record<string, MunicipalityData> = {
   [kitakyushuData.municipality.slug]: kitakyushuData,
   [hamamatsuData.municipality.slug]: hamamatsuData,
   [chibaData.municipality.slug]: chibaData,
+  [adachiData.municipality.slug]: adachiData,
+  [suginamiData.municipality.slug]: suginamiData,
+  [itabashiData.municipality.slug]: itabashiData,
+  [nerimaData.municipality.slug]: nerimaData,
+  [otaData.municipality.slug]: otaData,
+  [edogawaData.municipality.slug]: edogawaData,
+  [sakaiData.municipality.slug]: sakaiData,
+  [niigataData.municipality.slug]: niigataData,
+  [sagamiharaData.municipality.slug]: sagamiharaData,
 };
 
 export function getMunicipalityData(slug: string): MunicipalityData | undefined {
@@ -41,4 +59,4 @@ export function getAllMunicipalities() {
   return Object.values(municipalityMap).map((d) => d.municipality);
 }
 
-export { setagayaData, yokohamaData, osakaData, kawasakiData, nagoyaData, saitamaData, sapporoData, kobeData, fukuokaData, hiroshimaData, sendaiData, kyotoData, kitakyushuData, hamamatsuData, chibaData };
+export { setagayaData, yokohamaData, osakaData, kawasakiData, nagoyaData, saitamaData, sapporoData, kobeData, fukuokaData, hiroshimaData, sendaiData, kyotoData, kitakyushuData, hamamatsuData, chibaData, adachiData, suginamiData, itabashiData, nerimaData, otaData, edogawaData, sakaiData, niigataData, sagamiharaData };
