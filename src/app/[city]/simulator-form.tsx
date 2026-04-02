@@ -130,6 +130,11 @@ function getScoreEvaluation(slug: string, total: number): ScoreEvaluation {
   if (slug === "sakai") return getSakaiEvaluation(total);
   if (slug === "niigata") return getNiigataEvaluation(total);
   if (slug === "sagamihara") return getSagamiharaEvaluation(total);
+  if (slug === "nakano") return getNakanoEvaluation(total);
+  if (slug === "toshima") return getToshimaEvaluation(total);
+  if (slug === "kita") return getKitaEvaluation(total);
+  if (slug === "arakawa") return getArakawaEvaluation(total);
+  if (slug === "shinagawa") return getShinagawaEvaluation(total);
   return getGenericEvaluation(total);
 }
 
@@ -472,6 +477,77 @@ function getItabashiEvaluation(total: number): ScoreEvaluation {
   if (total >= 62) return { label: "標準的（フルタイム＋加点あり）", color: "text-blue-600", description: "フルタイム共働き＋加点ありの層です。加点の有無が勝負を分けます。", tip: "認可外利用（+2）やきょうだい加点（+3）など使える加点を確認しましょう。", notes };
   if (total >= 60) return { label: "加点なしでは厳しめ", color: "text-yellow-600", description: "フルタイム共働きの基本ラインですが、加点がないと人気園では厳しい場合があります。", tip: "認可外利用（+2）や育休明け（+2）の加点を確認しましょう。", notes };
   if (total >= 40) return { label: "認可園は厳しい", color: "text-orange-600", description: "パートタイムや時短勤務の方に多い点数帯です。認可園への入園は難しい状況です。", tip: "認可外保育施設や小規模保育も並行して検討しましょう。", notes };
+  return { label: "認可園は極めて難しい", color: "text-red-600", description: "この点数では認可園への入園は極めて難しい状況です。", tip: "認可外保育施設やファミリーサポートなど別の預け先を検討しましょう。", notes };
+}
+
+function getNakanoEvaluation(total: number): ScoreEvaluation {
+  // 中野区: 父母各20点、合計最大40点+調整。フルタイム共働き40点+育休2+認可外2=44点が標準
+  const notes = [
+    "※ 中野区ではフルタイム共働き40点が基本ラインです。育休明け（+2）＋認可外利用（+2）の44点が標準的な入園ラインです",
+    "※ 同点の場合の優先順位：ひとり親 → 在園きょうだいあり → 基本指数が高い → 区内在住期間が長い → 所得が低い世帯",
+  ];
+  if (total >= 47) return { label: "かなり有利", color: "text-green-600", description: "フルタイム共働き＋複数の加点がある高得点です。多くの園で入園が期待できます。", tip: "希望する園の過去のボーダーラインも確認しておくと安心です。", notes };
+  if (total >= 44) return { label: "有利", color: "text-emerald-600", description: "フルタイム共働き＋育休明け＋認可外利用の標準的な高得点です。多くの園でチャンスがあります。", tip: "人気園（中野坂上・中野駅周辺）では同点の競争になることもあります。", notes };
+  if (total >= 42) return { label: "標準的（フルタイム＋加点あり）", color: "text-blue-600", description: "フルタイム共働き＋加点ありの状態です。加点の積み上げが重要です。", tip: "認可外利用（+2）や育休明け（+2）、きょうだい加点（+2）など使える加点を確認しましょう。", notes };
+  if (total >= 40) return { label: "加点なしでは厳しめ", color: "text-yellow-600", description: "フルタイム共働きの基本ラインですが、加点がないと人気園では厳しい場合があります。", tip: "認可外保育施設に預けると+2の加点がつきます。育休明け加点（+2）も確認しましょう。", notes };
+  if (total >= 26) return { label: "認可園は厳しい", color: "text-orange-600", description: "パートタイムや時短勤務の方に多い点数帯です。認可園への入園は難しい状況です。", tip: "認可外保育施設や小規模保育も並行して検討しましょう。", notes };
+  return { label: "認可園は極めて難しい", color: "text-red-600", description: "この点数では認可園への入園は極めて難しい状況です。", tip: "認可外保育施設やファミリーサポートなど別の預け先を検討しましょう。", notes };
+}
+
+function getToshimaEvaluation(total: number): ScoreEvaluation {
+  // 豊島区: 父母各20点、合計最大40点+調整。フルタイム共働き40点+育休2+認可外2=44点が標準
+  const notes = [
+    "※ 豊島区ではフルタイム共働き40点が基本ラインです。ひとり親世帯は+8の大きな加点があります",
+    "※ 同点の場合の優先順位：ひとり親 → 生活保護 → きょうだい在園 → 基本指数が高い → 所得が低い世帯",
+  ];
+  if (total >= 47) return { label: "かなり有利", color: "text-green-600", description: "フルタイム共働き＋複数の加点がある高得点です。多くの園で入園が期待できます。", tip: "希望する園の過去の内定指数も確認しておくと安心です。", notes };
+  if (total >= 44) return { label: "有利", color: "text-emerald-600", description: "フルタイム共働き＋加点ありの状態です。多くの園でチャンスがあります。", tip: "池袋周辺など人気エリアでは同点の競争になることもあります。", notes };
+  if (total >= 42) return { label: "標準的（フルタイム＋加点あり）", color: "text-blue-600", description: "フルタイム共働き＋加点ありの層です。加点の有無が勝負を分けます。", tip: "認可外利用（+2）やきょうだい加点（+3）、育休明け（+2）など使える加点を確認しましょう。", notes };
+  if (total >= 40) return { label: "加点なしでは厳しめ", color: "text-yellow-600", description: "フルタイム共働きの基本ラインですが、加点がないと人気園では厳しい場合があります。", tip: "認可外保育施設に預けると+2の加点がつきます。きょうだい加点（+3）も大きいです。", notes };
+  if (total >= 26) return { label: "認可園は厳しい", color: "text-orange-600", description: "パートタイムや時短勤務の方に多い点数帯です。認可園への入園は難しい状況です。", tip: "認可外保育施設や小規模保育も並行して検討しましょう。", notes };
+  return { label: "認可園は極めて難しい", color: "text-red-600", description: "この点数では認可園への入園は極めて難しい状況です。", tip: "認可外保育施設やファミリーサポートなど別の預け先を検討しましょう。", notes };
+}
+
+function getKitaEvaluation(total: number): ScoreEvaluation {
+  // 北区: 父母各10点、合計最大20点+調整。フルタイム共働き20点が基本
+  const notes = [
+    "※ 北区ではフルタイム共働き20点が基本ラインです。調整指数の項目が少ないのが特徴です",
+    "※ 同点の場合の優先順位：ひとり親 → 生活保護 → 保護者の障害 → きょうだい多子世帯 → 所得が低い世帯",
+  ];
+  if (total >= 25) return { label: "かなり有利", color: "text-green-600", description: "フルタイム共働き＋複数の加点がある高得点です。多くの園で入園が期待できます。", tip: "希望する園の過去の最低保育指数も確認しておくと安心です。", notes };
+  if (total >= 22) return { label: "有利", color: "text-emerald-600", description: "フルタイム共働き＋加点ありの状態です。多くの園でチャンスがあります。", tip: "赤羽・王子エリアなど人気園では同点の競争になることもあります。", notes };
+  if (total >= 20) return { label: "標準的（フルタイム共働き相当）", color: "text-blue-600", description: "両親フルタイムの基本ラインです。北区は調整指数の項目が少ないため、同点の優先順位が重要です。", tip: "きょうだい加点（+2）や保育士加点（+3）など使える加点がないか確認しましょう。", notes };
+  if (total >= 16) return { label: "やや厳しめ", color: "text-yellow-600", description: "パートタイムや時短勤務の方に多い点数帯です。園によってはチャンスがあります。", tip: "フルタイムへの切り替えが可能か検討するか、比較的空きのある園を探しましょう。", notes };
+  if (total >= 8) return { label: "認可園は厳しい", color: "text-orange-600", description: "認可園への入園は難しい状況です。", tip: "認可外保育施設も並行して検討しましょう。", notes };
+  return { label: "認可園は極めて難しい", color: "text-red-600", description: "この点数では認可園への入園は極めて難しい状況です。", tip: "認可外保育施設やファミリーサポートなど別の預け先を検討しましょう。", notes };
+}
+
+function getArakawaEvaluation(total: number): ScoreEvaluation {
+  // 荒川区: 父母各20点、合計最大40点+調整。フルタイム共働き40点+育休2+認可外2=44点が標準
+  const notes = [
+    "※ 荒川区ではフルタイム共働き40点が基本ラインです。ひとり親世帯は保護者指数に+20が加算されます",
+    "※ 同点の場合の優先順位：基本指数が高い → ひとり親 → きょうだい在園 → 所得が低い世帯 → 区内在住期間",
+  ];
+  if (total >= 47) return { label: "かなり有利", color: "text-green-600", description: "フルタイム共働き＋複数の加点がある高得点です。多くの園で入園が期待できます。", tip: "希望する園の過去のボーダーも確認しておくと安心です。", notes };
+  if (total >= 44) return { label: "有利", color: "text-emerald-600", description: "フルタイム共働き＋育休明け＋認可外利用の標準的な高得点です。多くの園でチャンスがあります。", tip: "日暮里・町屋エリアなど人気園では同点の競争になることもあります。", notes };
+  if (total >= 42) return { label: "標準的（フルタイム＋加点あり）", color: "text-blue-600", description: "フルタイム共働き＋加点ありの層です。加点の有無が勝負を分けます。", tip: "認可外利用（+2）や育休明け（+2）、きょうだい加点（+2）など使える加点を確認しましょう。", notes };
+  if (total >= 40) return { label: "加点なしでは厳しめ", color: "text-yellow-600", description: "フルタイム共働きの基本ラインですが、加点がないと人気園では厳しい場合があります。", tip: "認可外保育施設に預けると+2の加点がつきます。きょうだい加点（+2）も確認しましょう。", notes };
+  if (total >= 26) return { label: "認可園は厳しい", color: "text-orange-600", description: "パートタイムや時短勤務の方に多い点数帯です。認可園への入園は難しい状況です。", tip: "認可外保育施設や小規模保育も並行して検討しましょう。", notes };
+  return { label: "認可園は極めて難しい", color: "text-red-600", description: "この点数では認可園への入園は極めて難しい状況です。", tip: "認可外保育施設やファミリーサポートなど別の預け先を検討しましょう。", notes };
+}
+
+function getShinagawaEvaluation(total: number): ScoreEvaluation {
+  // 品川区: 父母各20点、合計最大40点+調整。フルタイム共働き40点が基本
+  const notes = [
+    "※ 品川区ではフルタイム共働き40点が基本ラインです。きょうだい在園（+3）が大きな加点です",
+    "※ 同点の場合の優先順位：ひとり親 → 生活保護 → きょうだい在園 → 基本指数が高い → 所得が低い世帯",
+    "※ 品川区独自の「150円ベビーシッター制度」もあわせて活用しましょう",
+  ];
+  if (total >= 47) return { label: "かなり有利", color: "text-green-600", description: "フルタイム共働き＋複数の加点がある高得点です。多くの園で入園が期待できます。", tip: "希望する園の過去の最下指数も確認しておくと安心です。", notes };
+  if (total >= 44) return { label: "有利", color: "text-emerald-600", description: "フルタイム共働き＋きょうだい在園＋認可外利用の状態です。多くの園でチャンスがあります。", tip: "大井町・武蔵小山エリアなど人気園では同点の競争になることもあります。", notes };
+  if (total >= 42) return { label: "標準的（フルタイム＋加点あり）", color: "text-blue-600", description: "フルタイム共働き＋加点ありの層です。加点の有無が勝負を分けます。", tip: "きょうだい在園（+3）、認可外利用（+2）など使える加点を確認しましょう。", notes };
+  if (total >= 40) return { label: "加点なしでは厳しめ", color: "text-yellow-600", description: "フルタイム共働きの基本ラインですが、加点がないと人気園では厳しい場合があります。", tip: "認可外保育施設やベビーシッターに預けると+2の加点がつきます。", notes };
+  if (total >= 26) return { label: "認可園は厳しい", color: "text-orange-600", description: "パートタイムや時短勤務の方に多い点数帯です。認可園への入園は難しい状況です。", tip: "認可外保育施設や品川区の150円ベビーシッター制度も検討しましょう。", notes };
   return { label: "認可園は極めて難しい", color: "text-red-600", description: "この点数では認可園への入園は極めて難しい状況です。", tip: "認可外保育施設やファミリーサポートなど別の預け先を検討しましょう。", notes };
 }
 

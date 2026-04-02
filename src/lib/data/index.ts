@@ -23,6 +23,25 @@ import { edogawaData } from './edogawa';
 import { sakaiData } from './sakai';
 import { niigataData } from './niigata';
 import { sagamiharaData } from './sagamihara';
+import { nakanoData } from './nakano';
+import { toshimaData } from './toshima';
+import { kitaData } from './kita';
+import { arakawaData } from './arakawa';
+import { shinagawaData } from './shinagawa';
+import { meguroData } from './meguro';
+import { shibuyaData } from './shibuya';
+import { shinjukuData } from './shinjuku';
+import { bunkyoData } from './bunkyo';
+import { taitoData } from './taito';
+import { sumidaData } from './sumida';
+import { katsushikaData } from './katsushika';
+import { minatoData } from './minato';
+import { chuoData } from './chuo';
+import { chiyodaData } from './chiyoda';
+import { kotoData } from './koto';
+import { okayamaData } from './okayama';
+import { kumamotoData } from './kumamoto';
+import { shizuokaData } from './shizuoka';
 
 const municipalityMap: Record<string, MunicipalityData> = {
   [setagayaData.municipality.slug]: setagayaData,
@@ -49,6 +68,25 @@ const municipalityMap: Record<string, MunicipalityData> = {
   [sakaiData.municipality.slug]: sakaiData,
   [niigataData.municipality.slug]: niigataData,
   [sagamiharaData.municipality.slug]: sagamiharaData,
+  [nakanoData.municipality.slug]: nakanoData,
+  [toshimaData.municipality.slug]: toshimaData,
+  [kitaData.municipality.slug]: kitaData,
+  [arakawaData.municipality.slug]: arakawaData,
+  [shinagawaData.municipality.slug]: shinagawaData,
+  [meguroData.municipality.slug]: meguroData,
+  [shibuyaData.municipality.slug]: shibuyaData,
+  [shinjukuData.municipality.slug]: shinjukuData,
+  [bunkyoData.municipality.slug]: bunkyoData,
+  [taitoData.municipality.slug]: taitoData,
+  [sumidaData.municipality.slug]: sumidaData,
+  [katsushikaData.municipality.slug]: katsushikaData,
+  [minatoData.municipality.slug]: minatoData,
+  [chuoData.municipality.slug]: chuoData,
+  [chiyodaData.municipality.slug]: chiyodaData,
+  [kotoData.municipality.slug]: kotoData,
+  [okayamaData.municipality.slug]: okayamaData,
+  [kumamotoData.municipality.slug]: kumamotoData,
+  [shizuokaData.municipality.slug]: shizuokaData,
 };
 
 export function getMunicipalityData(slug: string): MunicipalityData | undefined {
@@ -59,4 +97,4 @@ export function getAllMunicipalities() {
   return Object.values(municipalityMap).map((d) => d.municipality);
 }
 
-export { setagayaData, yokohamaData, osakaData, kawasakiData, nagoyaData, saitamaData, sapporoData, kobeData, fukuokaData, hiroshimaData, sendaiData, kyotoData, kitakyushuData, hamamatsuData, chibaData, adachiData, suginamiData, itabashiData, nerimaData, otaData, edogawaData, sakaiData, niigataData, sagamiharaData };
+export { setagayaData, yokohamaData, osakaData, kawasakiData, nagoyaData, saitamaData, sapporoData, kobeData, fukuokaData, hiroshimaData, sendaiData, kyotoData, kitakyushuData, hamamatsuData, chibaData, adachiData, suginamiData, itabashiData, nerimaData, otaData, edogawaData, sakaiData, niigataData, sagamiharaData, nakanoData, toshimaData, kitaData, arakawaData, shinagawaData, meguroData, shibuyaData, shinjukuData, bunkyoData, taitoData, sumidaData, katsushikaData, minatoData, chuoData, chiyodaData, kotoData, okayamaData, kumamotoData, shizuokaData };
