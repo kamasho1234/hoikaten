@@ -64,6 +64,7 @@ const articles: Article[] = [
 <h2>途中入園（5月〜3月）の申込</h2>
 <p>途中入園の申込は随時受け付けています。空き状況は大阪市の公式サイトで毎月更新されますので、こまめにチェックしましょう。</p>`,
     publishedAt: "2026-03-28",
+    popularity: 55,
   },
   {
     slug: "ward-characteristics",
@@ -109,6 +110,7 @@ const articles: Article[] = [
 <p>申込状況は<a href="https://www.city.osaka.lg.jp/kodomo/page/0000659771.html" target="_blank" rel="noopener">大阪市公式サイト「保育施設等利用申込み状況の公表」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 60,
   },
 
   // ===== 点数・選考 (4) =====
@@ -151,6 +153,7 @@ const articles: Article[] = [
 <p>利用調整基準の詳細は<a href="https://www.city.osaka.lg.jp/kodomo/page/0000656530.html" target="_blank" rel="noopener">大阪市公式サイト「保育施設・保育事業利用の案内」</a>に掲載されています。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 65,
   },
   {
     slug: "score-up-tips",
@@ -196,6 +199,7 @@ const articles: Article[] = [
 <p>利用調整基準は<a href="https://www.city.osaka.lg.jp/kodomo/page/0000656530.html" target="_blank" rel="noopener">大阪市公式サイト</a>で公開されています。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 100,
   },
   {
     slug: "200-point-wall",
@@ -234,6 +238,7 @@ const articles: Article[] = [
 <p>点数が同じ場合の優先順位の詳細は、利用の案内に記載されています。当サイトの「同点時の優先順位」記事もあわせてご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 95,
   },
   {
     slug: "tiebreaker-rules",
@@ -281,6 +286,7 @@ const articles: Article[] = [
 <p>利用調整基準は<a href="https://www.city.osaka.lg.jp/kodomo/page/0000656530.html" target="_blank" rel="noopener">大阪市公式サイト「保育施設・保育事業利用の案内」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 85,
   },
 
   // ===== 認可外 (2) =====
@@ -333,6 +339,7 @@ const articles: Article[] = [
 <h2>同点時にも有利</h2>
 <p>認可外に預けて就労している場合、同点時の優先順位でも「親族以外に保育を委託して就労」として有利に扱われます。加点と優先順位の両面でメリットがあります。</p>`,
     publishedAt: "2026-03-28",
+    popularity: 75,
   },
   {
     slug: "rejected-options",
@@ -372,6 +379,7 @@ const articles: Article[] = [
 <p>空き情報は<a href="https://www.city.osaka.lg.jp/kodomo/page/0000293428.html" target="_blank" rel="noopener">大阪市公式サイト「保育施設等の空き情報」</a>で毎月更新されます。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 80,
   },
 
   // ===== 育休・復職 (1) =====
@@ -413,6 +421,7 @@ const articles: Article[] = [
 <h2>時短勤務と保育時間の関係</h2>
 <p>保育の「標準時間」（最大11時間）と「短時間」（最大8時間）の区分は、就労時間によって変わります。月120時間以上の就労で標準時間の認定を受けられます。</p>`,
     publishedAt: "2026-03-28",
+    popularity: 90,
   },
 
   // ===== 最新情報 (1) =====
@@ -460,6 +469,7 @@ const articles: Article[] = [
 <p>最新の制度変更は<a href="https://www.city.osaka.lg.jp/kodomo/page/0000634370.html" target="_blank" rel="noopener">大阪市公式サイト「0〜2歳児保育無償化に向けた取組」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 70,
   },
 ];
 

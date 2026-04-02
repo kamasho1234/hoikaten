@@ -70,6 +70,7 @@ const articles: Article[] = [
 <h2>途中入園（5月〜3月）の申込</h2>
 <p>途中入園の申込締切は、入園希望月の<span class="highlight">前月10日頃</span>です。詳しくは<a href="https://www.city.kitakyushu.lg.jp/contents/12100069.html" target="_blank" rel="noopener">北九州市公式サイト「保育所等の利用のごあんない」</a>をご確認ください。</p>`,
     publishedAt: "2026-03-28",
+    popularity: 55,
   },
   // ===== 選考のしくみ (2) =====
   {
@@ -122,6 +123,7 @@ const articles: Article[] = [
 <p>最新の利用調整基準表は<a href="https://www.city.kitakyushu.lg.jp/contents/12100069.html" target="_blank" rel="noopener">北九州市公式サイト「保育所等の利用のごあんない」</a>でご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 65,
   },
   // ===== 点数アップ (3) =====
   {
@@ -169,6 +171,7 @@ const articles: Article[] = [
 <p>全項目の詳細は<a href="https://www.city.kitakyushu.lg.jp/contents/12100069.html" target="_blank" rel="noopener">北九州市公式サイト「保育所等の利用のごあんない」</a>でご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 100,
   },
   // ===== 同点時の優先順位 (4) =====
   {
@@ -229,6 +232,7 @@ const articles: Article[] = [
 <p>詳細は<a href="https://www.city.kitakyushu.lg.jp/contents/12100069.html" target="_blank" rel="noopener">北九州市公式サイト「保育所等の利用のごあんない」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 85,
   },
   // ===== 時短勤務と点数 (5) =====
   {
@@ -282,6 +286,7 @@ const articles: Article[] = [
 <p>就労証明書の様式は<a href="https://www.city.kitakyushu.lg.jp/ko-katei/12100082.html" target="_blank" rel="noopener">北九州市公式サイト</a>からダウンロードできます。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 90,
   },
   // ===== 落ちたときの選択肢 (6) =====
   {
@@ -347,6 +352,7 @@ const articles: Article[] = [
 <p>受入可能児童数は<a href="https://www.city.kitakyushu.lg.jp/contents/12100143.html" target="_blank" rel="noopener">北九州市公式サイト</a>で公開されています。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 80,
   },
   // ===== 認可外で加点を得る方法 (7) =====
   {
@@ -395,6 +401,7 @@ const articles: Article[] = [
 <p>北九州市内の保育施設一覧は<a href="https://www.city.kitakyushu.lg.jp/contents/12100074.html" target="_blank" rel="noopener">北九州市公式サイト「保育所等一覧」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 75,
   },
   // ===== 来年度の変更点 (8) =====
   {
@@ -437,6 +444,7 @@ const articles: Article[] = [
 <p>最新情報は<a href="https://www.city.kitakyushu.lg.jp/contents/12100069.html" target="_blank" rel="noopener">北九州市公式サイト「保育所等の利用のごあんない」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 70,
   },
   // ===== 人気エリアと入りやすい地域 (9) =====
   {
@@ -482,6 +490,7 @@ const articles: Article[] = [
 <p>各園の受入可能児童数は<a href="https://www.city.kitakyushu.lg.jp/contents/12100143.html" target="_blank" rel="noopener">北九州市公式サイト</a>で公開されています。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 60,
   },
   // ===== 入園競争の実態/ボーダーライン (10) =====
   {
@@ -528,6 +537,7 @@ const articles: Article[] = [
 <p>利用調整基準の詳細は<a href="https://www.city.kitakyushu.lg.jp/contents/12100069.html" target="_blank" rel="noopener">北九州市公式サイト「保育所等の利用のごあんない」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 95,
   },
 ];
 

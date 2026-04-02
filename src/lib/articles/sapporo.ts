@@ -48,6 +48,7 @@ const articles: Article[] = [
 <p>最新の利用調整基準表は<a href="https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/835.html" target="_blank" rel="noopener">札幌市子育てサイト</a>でPDFが公開されています。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 100,
   },
 
   // 2. 入園点数のしくみ
@@ -103,6 +104,7 @@ const articles: Article[] = [
 <p>利用調整基準表の全項目は<a href="https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/835.html" target="_blank" rel="noopener">札幌市子育てサイト「認可保育所等への入所手続きについて」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 65,
   },
 
   // 3. 時短勤務と点数
@@ -152,6 +154,7 @@ const articles: Article[] = [
 <p>利用調整基準表は<a href="https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/835.html" target="_blank" rel="noopener">札幌市子育てサイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 90,
   },
 
   // 4. 二次募集
@@ -208,6 +211,7 @@ const articles: Article[] = [
 <p>受入予定数・申込数は<a href="https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/7656.html" target="_blank" rel="noopener">札幌市子育てサイト「受入予定数・申込数について」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 80,
   },
 
   // 5. 来年度の変更点
@@ -257,6 +261,7 @@ const articles: Article[] = [
 <p>最新の入所案内は<a href="https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/8935.html" target="_blank" rel="noopener">札幌市子育てサイト「令和8年4月1日から保育所・認定こども園の利用を希望される方へ」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 70,
   },
 
   // 6. 同点時の優先順位
@@ -305,6 +310,7 @@ const articles: Article[] = [
 <p>利用調整基準表の全文は<a href="https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/835.html" target="_blank" rel="noopener">札幌市子育てサイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 85,
   },
 
   // 7. 認可外で加点を得る
@@ -353,6 +359,7 @@ const articles: Article[] = [
 <p>認可外保育施設の情報は<a href="https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninnkagai/842.html" target="_blank" rel="noopener">札幌市子育てサイト「認可外保育施設について」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 75,
   },
 
   // 8. 落ちたときの選択肢
@@ -407,6 +414,7 @@ const articles: Article[] = [
 <p>入所手続きの詳細は<a href="https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/835.html" target="_blank" rel="noopener">札幌市子育てサイト</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 80,
   },
 
   // 9. 入園競争の実態（フルタイム200点＋育休40点）
@@ -458,6 +466,7 @@ const articles: Article[] = [
 <p>同点時の優先順位は<a href="https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/835.html" target="_blank" rel="noopener">札幌市の利用調整基準表（別表3）</a>に記載されています。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 95,
   },
 
   // 10. 保活スケジュール
@@ -531,6 +540,7 @@ const articles: Article[] = [
 <p>申込方法の詳細は<a href="https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/835.html" target="_blank" rel="noopener">札幌市子育てサイト「認可保育所等への入所手続きについて」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 55,
   },
 ];
 

@@ -1,9 +1,9 @@
 import { getAllMunicipalities } from "@/lib/data";
-import { getAllArticles } from "@/lib/articles";
+import { getTopArticles } from "@/lib/articles";
 
 export default function Home() {
   const municipalities = getAllMunicipalities();
-  const articles = getAllArticles();
+  const articles = getTopArticles(10);
 
   return (
     <div>
@@ -203,7 +203,7 @@ export default function Home() {
               className="text-base font-bold mb-6"
               style={{ fontFamily: "var(--font-heading)" }}
             >
-              保活お役立ち記事
+              よく読まれている記事
             </p>
             <div className="space-y-3">
               {articles.map((article) => {

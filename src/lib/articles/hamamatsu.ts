@@ -74,6 +74,7 @@ const articles: Article[] = [
 <p>詳しくは<a href="https://www.hamamatsu-pippi.net/contents/7769.html" target="_blank" rel="noopener">浜松市子育て情報サイト「ぴっぴ」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 55,
   },
   // ===== 選考のしくみ (2) =====
   {
@@ -129,6 +130,7 @@ const articles: Article[] = [
 <p>最新の利用調整基準表は<a href="https://www.hamamatsu-pippi.net/contents/7772.html" target="_blank" rel="noopener">浜松市子育て情報サイト「ぴっぴ」</a>でご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 65,
   },
   // ===== 点数アップ (3) =====
   {
@@ -177,6 +179,7 @@ const articles: Article[] = [
 <p>全項目の詳細は<a href="https://www.hamamatsu-pippi.net/contents/7772.html" target="_blank" rel="noopener">浜松市子育て情報サイト「ぴっぴ」</a>でご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 100,
   },
   // ===== 同点時の優先順位 (4) =====
   {
@@ -237,6 +240,7 @@ const articles: Article[] = [
 <p>優先段階の詳細は<a href="https://www.hamamatsu-pippi.net/contents/7772.html" target="_blank" rel="noopener">浜松市子育て情報サイト「ぴっぴ」</a>の利用調整基準表でご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 85,
   },
   // ===== 時短勤務と点数 (5) =====
   {
@@ -294,6 +298,7 @@ const articles: Article[] = [
 <p>利用調整基準表は<a href="https://www.hamamatsu-pippi.net/contents/7772.html" target="_blank" rel="noopener">浜松市子育て情報サイト「ぴっぴ」</a>でご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 90,
   },
   // ===== 落ちたときの選択肢 (6) =====
   {
@@ -359,6 +364,7 @@ const articles: Article[] = [
 <p>途中入園の申込方法は<a href="https://www.hamamatsu-pippi.net/contents/7770.html" target="_blank" rel="noopener">浜松市子育て情報サイト「ぴっぴ」</a>でご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 80,
   },
   // ===== 認可外で加点を得る方法 (7) =====
   {
@@ -407,6 +413,7 @@ const articles: Article[] = [
 <p>利用調整基準の詳細は<a href="https://www.hamamatsu-pippi.net/contents/7772.html" target="_blank" rel="noopener">浜松市子育て情報サイト「ぴっぴ」</a>でご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 75,
   },
   // ===== 来年度の変更点 (8) =====
   {
@@ -449,6 +456,7 @@ const articles: Article[] = [
 <p>最新情報は<a href="https://www.hamamatsu-pippi.net/contents/7769.html" target="_blank" rel="noopener">浜松市子育て情報サイト「ぴっぴ」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 70,
   },
   // ===== 人気エリアと入りやすい地域 (9) =====
   {
@@ -494,6 +502,7 @@ const articles: Article[] = [
 <p>各園の空き状況は<a href="https://www.hamamatsu-pippi.net/shiritai/yoho/nintei/hoikuen-search/" target="_blank" rel="noopener">浜松市子育て情報サイト「ぴっぴ」の募集人数検索</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 60,
   },
   // ===== 入園競争の実態/ボーダーライン (10) =====
   {
@@ -546,6 +555,7 @@ const articles: Article[] = [
 <p>利用調整基準の詳細は<a href="https://www.hamamatsu-pippi.net/contents/7772.html" target="_blank" rel="noopener">浜松市子育て情報サイト「ぴっぴ」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 95,
   },
 ];
 

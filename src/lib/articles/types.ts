@@ -5,7 +5,8 @@ export interface Article {
   description: string;
   category: string;
   categoryColor: "green" | "blue" | "amber" | "rose" | "purple" | "teal";
-  image: string; // Unsplash画像URL
+  image: string;
   content: string;
   publishedAt: string;
+  popularity?: number; // レビュースコア（高いほど人気）
 }

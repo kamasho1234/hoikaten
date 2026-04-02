@@ -58,6 +58,7 @@ const articles: Article[] = [
 <p>利用調整基準表の全項目は<a href="https://kodomo.city.fukuoka.lg.jp/wp-content/uploads/2025/09/d202ed28904cd28e882f6ee0ec68dba8.pdf" target="_blank" rel="noopener">福岡市保育施設等利用調整基準表（PDF）</a>でご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 65,
   },
   {
     slug: "score-up-checklist",
@@ -105,6 +106,7 @@ const articles: Article[] = [
 <p>利用調整基準表の全項目は<a href="https://kodomo.city.fukuoka.lg.jp/wp-content/uploads/2025/09/d202ed28904cd28e882f6ee0ec68dba8.pdf" target="_blank" rel="noopener">福岡市保育施設等利用調整基準表（PDF）</a>でご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 100,
   },
   {
     slug: "150-point-line",
@@ -154,6 +156,7 @@ const articles: Article[] = [
 <p>空き状況は<a href="https://kodomo-hoiku.city.fukuoka.lg.jp/search/" target="_blank" rel="noopener">ふくおか保育所案内板（空きマップ）</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 95,
   },
   {
     slug: "tiebreaker-rules",
@@ -212,6 +215,7 @@ const articles: Article[] = [
 <p>利用調整の詳細は<a href="https://www.city.fukuoka.lg.jp/kodomo-mirai/hoiku/child/Index_R7.html" target="_blank" rel="noopener">福岡市公式サイト「保育施設等利用のご案内」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 85,
   },
 
   // ===== 落ちたとき・認可外 (2) =====
@@ -264,6 +268,7 @@ const articles: Article[] = [
 <p>認可外保育施設の一覧は<a href="https://www.city.fukuoka.lg.jp/kodomo/shisetsu/hoikusyo/hoikusyo_list.htm" target="_blank" rel="noopener">福岡市公式サイト「認可外保育施設一覧」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 75,
   },
   {
     slug: "ninkagai-guide",
@@ -307,6 +312,7 @@ const articles: Article[] = [
 <p>認可外保育施設の一覧は<a href="https://www.city.fukuoka.lg.jp/kodomo/shisetsu/hoikusyo/hoikusyo_list.htm" target="_blank" rel="noopener">福岡市公式サイト「認可外保育施設一覧」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 50,
   },
 
   // ===== 育休・復職 (1) =====
@@ -357,6 +363,7 @@ const articles: Article[] = [
 <p>基本点数表の詳細は<a href="https://kodomo.city.fukuoka.lg.jp/wp-content/uploads/2025/09/d202ed28904cd28e882f6ee0ec68dba8.pdf" target="_blank" rel="noopener">福岡市保育施設等利用調整基準表（PDF）</a>でご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 90,
   },
 
   // ===== 保育園選び (1) =====
@@ -402,6 +409,7 @@ const articles: Article[] = [
 <p>空き状況は<a href="https://kodomo-hoiku.city.fukuoka.lg.jp/search/" target="_blank" rel="noopener">ふくおか保育所案内板（空きマップ）</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 60,
   },
 
   // ===== 最新情報 (1) =====
@@ -446,6 +454,7 @@ const articles: Article[] = [
 <p>令和8年度の最新情報は<a href="https://kodomo.city.fukuoka.lg.jp/en/info/18258/" target="_blank" rel="noopener">福岡市「保育施設等利用のご案内（令和8年度）」</a>をご確認ください。利用調整基準表は<a href="https://kodomo.city.fukuoka.lg.jp/wp-content/uploads/2025/09/d202ed28904cd28e882f6ee0ec68dba8.pdf" target="_blank" rel="noopener">こちら（PDF）</a>からダウンロードできます。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 70,
   },
 
   // ===== 保活の基本 (1) =====
@@ -517,6 +526,7 @@ const articles: Article[] = [
 <p>最新の申込スケジュールは<a href="https://www.city.fukuoka.lg.jp/kodomo-mirai/hoiku/child/Index_R7.html" target="_blank" rel="noopener">福岡市公式サイト「保育施設等利用のご案内」</a>でご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 55,
   },
 ];
 

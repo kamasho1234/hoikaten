@@ -76,6 +76,7 @@ const articles: Article[] = [
 <p>各月の申込締切日は、入園希望月の<span class="highlight">前月10日</span>です。ただし締切日が土日祝の場合や、12月・1月・4月入園は異なりますので注意してください。</p>
 <p>詳しくは<a href="https://www.city.setagaya.lg.jp/01044/1551.html" target="_blank" rel="noopener">世田谷区公式サイト「申込みから入園までの流れ」</a>をご確認ください。</p>`,
     publishedAt: "2026-03-28",
+    popularity: 55,
   },
   {
     slug: "hokatsu-mistakes",
@@ -122,6 +123,7 @@ const articles: Article[] = [
 <p>選考の仕組みは<a href="https://www.city.setagaya.lg.jp/01044/1554.html" target="_blank" rel="noopener">世田谷区公式サイト「選考方法について」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 50,
   },
   {
     slug: "scoring-system-guide",
@@ -175,6 +177,7 @@ const articles: Article[] = [
 <p>指数表は<a href="https://www.city.setagaya.lg.jp/01044/1554.html" target="_blank" rel="noopener">世田谷区公式サイト「選考方法について」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 65,
   },
   {
     slug: "score-up-checklist",
@@ -222,6 +225,7 @@ const articles: Article[] = [
 <p>全項目の詳細は<a href="https://www.city.setagaya.lg.jp/01044/1554.html" target="_blank" rel="noopener">世田谷区公式サイト「選考方法について」</a>でご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 100,
   },
   {
     slug: "competition-reality",
@@ -268,6 +272,7 @@ const articles: Article[] = [
 <p>最新の指数分布データは<a href="https://www.city.setagaya.lg.jp/02243/1624.html" target="_blank" rel="noopener">世田谷区公式サイト「保育の統計資料」</a>で公開されています。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 95,
   },
   {
     slug: "same-score-priority",
@@ -339,6 +344,7 @@ const articles: Article[] = [
 <p>詳細は<a href="https://www.city.setagaya.lg.jp/01044/1554.html" target="_blank" rel="noopener">世田谷区公式サイト「選考方法について」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 85,
   },
   {
     slug: "ochita-sentakushi",
@@ -402,6 +408,7 @@ const articles: Article[] = [
 <p>詳しくは<a href="https://www.city.setagaya.lg.jp/01044/1555.html" target="_blank" rel="noopener">世田谷区公式サイト「入園できなかった場合は」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 80,
   },
   {
     slug: "ikukyuake-hokatsu",
@@ -446,6 +453,7 @@ const articles: Article[] = [
 <p>詳しくは<a href="https://www.city.setagaya.lg.jp/01044/1557.html" target="_blank" rel="noopener">世田谷区公式サイト「育児休業中・育児短時間勤務等取得中（予定）の方へ」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 50,
   },
   {
     slug: "jitan-kinmu-score",
@@ -500,6 +508,7 @@ const articles: Article[] = [
 <p>詳しくは<a href="https://www.city.setagaya.lg.jp/01044/18373.html" target="_blank" rel="noopener">世田谷区公式サイト「指数についてのよくある質問」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 90,
   },
   {
     slug: "2026-hokatsu-changes",
@@ -567,6 +576,7 @@ const articles: Article[] = [
 <p>最新情報は<a href="https://www.city.setagaya.lg.jp/01044/1561.html" target="_blank" rel="noopener">世田谷区公式サイト「令和8年4月入園について」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 70,
   },
 ];
 

@@ -44,6 +44,7 @@ const articles: Article[] = [
 <p>各区の利用調整結果（内定指数など）は<a href="https://www.city.kawasaki.jp/450/page/0000030624.html" target="_blank" rel="noopener">川崎市公式サイト「認可保育所等の受入可能数及び利用調整結果」</a>で公開されています。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 60,
   },
 
   // ========== 点数・選考 (5) ==========
@@ -100,6 +101,7 @@ const articles: Article[] = [
 <p>ランク表の詳細は<a href="https://www.city.kawasaki.jp/templates/faq/450/0000012748.html" target="_blank" rel="noopener">川崎市公式サイト「認可保育所の入所選考の方法」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 65,
   },
   {
     slug: "a-minus-6-wall",
@@ -152,6 +154,7 @@ const articles: Article[] = [
 <p>最も現実的な加点対策は「認可外施設の利用」です。育休中に認可外に預けて復職し、認可保育園の4月入園を目指すパターンが増えています。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 95,
   },
   {
     slug: "chosei-shisu-checklist",
@@ -213,6 +216,7 @@ const articles: Article[] = [
 <p>調整指数表の全項目は、各区で配布される「利用案内」、または<a href="https://www.city.kawasaki.jp/450/page/0000153863.html" target="_blank" rel="noopener">川崎市公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 100,
   },
   {
     slug: "tie-breaking-rules",
@@ -266,6 +270,7 @@ const articles: Article[] = [
 <p>利用調整の仕組みは<a href="https://www.city.kawasaki.jp/templates/faq/450/0000012748.html" target="_blank" rel="noopener">川崎市公式サイト「入所選考の方法」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 85,
   },
   {
     slug: "niji-boshu",
@@ -313,6 +318,7 @@ const articles: Article[] = [
 <p>利用調整結果は<a href="https://www.city.kawasaki.jp/450/page/0000030624.html" target="_blank" rel="noopener">川崎市公式サイト「認可保育所等の受入可能数及び利用調整結果」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 80,
   },
 
   // ========== 認可外 (2) ==========
@@ -376,6 +382,7 @@ const articles: Article[] = [
 <li>職場の理解と協力が不可欠</li>
 </ul>`,
     publishedAt: "2026-03-28",
+    popularity: 75,
   },
   {
     slug: "ochita-sentakushi",
@@ -420,6 +427,7 @@ const articles: Article[] = [
 <p>認可外施設の空き情報は<a href="https://www.city.kawasaki.jp/450/page/0000031247.html" target="_blank" rel="noopener">川崎市公式サイト</a>で随時更新されています。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 80,
   },
 
   // ========== 育休・復職 (1) ==========
@@ -469,6 +477,7 @@ const articles: Article[] = [
 <h2>入園後に時短にする場合</h2>
 <p>入園の申込時点ではフルタイムで申請し、入園後に時短勤務に変更することは可能です。ただし変更届の提出が必要で、次回の利用調整に影響する可能性があります。</p>`,
     publishedAt: "2026-03-28",
+    popularity: 90,
   },
 
   // ========== 最新情報 (1) ==========
@@ -523,6 +532,7 @@ const articles: Article[] = [
 <p>最新の利用案内は<a href="https://www.city.kawasaki.jp/450/page/0000153863.html" target="_blank" rel="noopener">川崎市公式サイト「保育所等の申込み手続き」</a>で公開されます。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 70,
   },
 ];
 

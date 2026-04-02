@@ -56,6 +56,7 @@ const articles: Article[] = [
 <p>申込方法の詳細は<a href="https://www.city.kobe.lg.jp/a65174/kosodate/shien/shinseido/riyomoshikomi/shinsehoho.html" target="_blank" rel="noopener">神戸市公式サイト「教育・保育給付認定の申請・利用申込」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 55,
   },
 
   // ========== 点数・選考 ==========
@@ -108,6 +109,7 @@ const articles: Article[] = [
 <p>調整点数には加点だけでなく減点もあります。特に「育休延長許容」の<span class="highlight">-90点</span>は非常に大きいため、申込書の記入には十分注意してください。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 65,
   },
   {
     slug: "adjustment-points-detail",
@@ -148,6 +150,7 @@ const articles: Article[] = [
 <p>加点を漏れなく確認するために、申込前に神戸市の<a href="https://www.city.kobe.lg.jp/documents/57502/2024_riyoutyouseikijun.pdf" target="_blank" rel="noopener">利用調整基準表（PDF）</a>を一度通して読むことをおすすめします。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 100,
   },
   {
     slug: "fulltime-200-line",
@@ -181,6 +184,7 @@ const articles: Article[] = [
 <p>申込状況は第一希望の数のみを集計したものです。第二希望以降で入れるケースもあるため、あくまで目安として活用してください。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 95,
   },
   {
     slug: "jitan-kinmu-scoring",
@@ -221,6 +225,7 @@ const articles: Article[] = [
 <p>申込時点の勤務予定で基本点数が決まります。「入園が決まったら時短をやめてフルタイムに戻す」としても、申込時の就労証明書がフルタイムでなければ100点にはなりません。勤務先との調整が重要です。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 90,
   },
   {
     slug: "ochita-toki-sentakushi",
@@ -264,6 +269,7 @@ const articles: Article[] = [
 <p>保留になっても諦めないことが大切です。2次選考・途中入園で入園できるケースは少なくありません。認可外を利用しながら次年度に備えるのも有効な戦略です。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 80,
   },
 
   // ========== 認可外 ==========
@@ -303,6 +309,7 @@ const articles: Article[] = [
 <p>認可外の利用開始時期や契約形態によっては加点対象にならない場合があります。不明な点は区役所に事前に確認してください。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 75,
   },
 
   // ========== 最新情報 ==========
@@ -342,6 +349,7 @@ const articles: Article[] = [
 <p>制度改正の詳細は<a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000160564_00040.html" target="_blank" rel="noopener">厚生労働省「育児休業給付金の支給対象期間延長手続き」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 50,
   },
 
   // ========== 保育園選び ==========
@@ -384,6 +392,7 @@ const articles: Article[] = [
 <p>自宅近くだけでなく、通勤経路上や隣の区の園も候補に入れると選択肢が広がります。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 60,
   },
 
   // ========== 育休・復職 ==========
@@ -420,6 +429,7 @@ const articles: Article[] = [
 <p>申込書の記入欄を慎重に確認し、不明点があれば区役所に相談してください。意図しない減点を避けることが大切です。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 50,
   },
 ];
 

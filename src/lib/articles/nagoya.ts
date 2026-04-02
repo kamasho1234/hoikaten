@@ -68,6 +68,7 @@ const articles: Article[] = [
 <p>利用調整基準表は<a href="https://kodomokosodate.city.nagoya.jp/firstuse/usage_adjustment/index.html" target="_blank" rel="noopener">「ここなご」利用調整ページ</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 100,
   },
 
   // 2. ランク制のしくみ
@@ -125,6 +126,7 @@ const articles: Article[] = [
 <p>ランクの詳細は<a href="https://kodomokosodate.city.nagoya.jp/firstuse/usage_adjustment/index.html" target="_blank" rel="noopener">名古屋市「ここなご」利用調整ページ</a>で確認できます。シミュレーション機能で自分のランクを事前に確認しましょう。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 65,
   },
 
   // 3. A7〜A10ボーダーの実態
@@ -179,6 +181,7 @@ const articles: Article[] = [
 <p>ボーダーラインはあくまで前年度の実績です。年度ごとに申込者数が変動するため、絶対的な基準ではありません。希望園は多めに書くことが重要です。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 95,
   },
 
   // 4. 時短勤務と点数
@@ -232,6 +235,7 @@ const articles: Article[] = [
 <p>ランクの判定はお住まいの区の区役所民生子ども課で確認できます。「ここなご」の<a href="https://kodomokosodate.city.nagoya.jp/firstuse/usage_adjustment/usage_adjustment_simulation_r07.html" target="_blank" rel="noopener">利用調整基準シミュレーション</a>もご活用ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 90,
   },
 
   // 5. 二次募集
@@ -283,6 +287,7 @@ const articles: Article[] = [
 <p>追加受付の詳細はお住まいの区の区役所民生子ども課にお問い合わせいただくか、<a href="https://kodomokosodate.city.nagoya.jp/firstuse/flow.html" target="_blank" rel="noopener">「ここなご」申込方法ページ</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 80,
   },
 
   // 6. 同点時の優先順位
@@ -349,6 +354,7 @@ const articles: Article[] = [
 <p>同ランク・同指数の詳細な優先基準は<a href="https://kodomokosodate.city.nagoya.jp/firstuse/usage_adjustment/index.html" target="_blank" rel="noopener">名古屋市「ここなご」利用調整ページ</a>の利用調整基準表（PDF）で確認できます。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 85,
   },
 
   // 7. 来年度の変更点
@@ -403,6 +409,7 @@ const articles: Article[] = [
 <p>令和8年度の詳細は<a href="https://kodomokosodate.city.nagoya.jp/firstuse/flow.html" target="_blank" rel="noopener">「ここなご」申込方法ページ</a>でご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 70,
   },
 
   // 8. 認可外で加点を得る
@@ -459,6 +466,7 @@ const articles: Article[] = [
 <p>届出施設一覧は<a href="https://www.city.nagoya.jp/kodomo/kosodate/1009115/1009125/1009132/1034079.html" target="_blank" rel="noopener">名古屋市公式サイト「認可外保育施設の一覧」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 75,
   },
 
   // 9. 落ちたときの選択肢
@@ -513,6 +521,7 @@ const articles: Article[] = [
 <p>途中入園の詳細はお住まいの区の区役所民生子ども課にお問い合わせください。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 80,
   },
 
   // 10. 保活スケジュール
@@ -582,6 +591,7 @@ const articles: Article[] = [
 <p>申込書類のダウンロードや詳細は<a href="https://kodomokosodate.city.nagoya.jp/firstuse/flow.html" target="_blank" rel="noopener">名古屋市「ここなご」申込方法ページ</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 55,
   },
 ];
 

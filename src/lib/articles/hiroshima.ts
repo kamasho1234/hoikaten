@@ -62,6 +62,7 @@ const articles: Article[] = [
 <p>詳しくは<a href="https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025852/1003487.html" target="_blank" rel="noopener">広島市公式サイト「保育園等の入園について」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 55,
   },
 
   // ===== 選考のしくみ (3) =====
@@ -108,6 +109,7 @@ const articles: Article[] = [
 <p>ランク表の詳細は<a href="https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025852/1003487.html" target="_blank" rel="noopener">広島市公式サイト「保育園等のごあんない」</a>に掲載されています。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 65,
   },
   {
     slug: "score-up-checklist",
@@ -148,6 +150,7 @@ const articles: Article[] = [
 <p>調整指数の詳細は<a href="https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025852/1003487.html" target="_blank" rel="noopener">広島市公式サイト「保育園等のごあんない」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 100,
   },
   {
     slug: "selection-process",
@@ -206,6 +209,7 @@ const articles: Article[] = [
 <p>利用調整の詳細は<a href="https://www.city.hiroshima.lg.jp/_res/projects/default_project/_page_/001/003/487/198848.pdf" target="_blank" rel="noopener">広島市「利用調整の考え方」（PDF）</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 85,
   },
 
   // ===== 育休・復職 (2) =====
@@ -253,6 +257,7 @@ const articles: Article[] = [
 <p>就労証明書の様式は<a href="https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025852/1003487.html" target="_blank" rel="noopener">広島市公式サイト</a>からダウンロードできます。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 90,
   },
   {
     slug: "ikukyu-enchou-risk",
@@ -295,6 +300,7 @@ const articles: Article[] = [
 <p>育休関連の手続きは<a href="https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025852/1003487.html" target="_blank" rel="noopener">広島市公式サイト「保育園等の入園について」</a>をご確認ください。育休延長の制度変更については<a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000160564_00040.html" target="_blank" rel="noopener">厚生労働省の公式ページ</a>もご参照ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 50,
   },
 
   // ===== 認可外 (2) =====
@@ -335,6 +341,7 @@ const articles: Article[] = [
 <p>空き状況は<a href="https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025847/1023646.html" target="_blank" rel="noopener">広島市公式サイト「保育園等の空き状況」</a>で確認できます。認可外保育施設の一覧は<a href="https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025848/1023596.html" target="_blank" rel="noopener">広島市公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 80,
   },
   {
     slug: "ninkagai-katen",
@@ -387,6 +394,7 @@ const articles: Article[] = [
 <p>広島市の認可外保育施設一覧は<a href="https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025848/1023596.html" target="_blank" rel="noopener">広島市公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 75,
   },
 
   // ===== 保育園選び (1) =====
@@ -431,6 +439,7 @@ const articles: Article[] = [
 <p>最新の空き状況は<a href="https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025847/1023646.html" target="_blank" rel="noopener">広島市公式サイト「保育園等の空き状況」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 60,
   },
 
   // ===== 最新情報 (1) =====
@@ -473,6 +482,7 @@ const articles: Article[] = [
 <p>最新の入園案内は<a href="https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025852/1003487.html" target="_blank" rel="noopener">広島市公式サイト「保育園等の入園について」</a>をご確認ください。電子申請は<a href="https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025852/1035830.html" target="_blank" rel="noopener">電子申請のご案内</a>をご覧ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 70,
   },
 ];
 

@@ -73,6 +73,7 @@ const articles: Article[] = [
 <p>詳しくは<a href="https://www.city.sendai.jp/nintechosa/kurashi/kenkotofukushi/kosodate/hoikujo/annai/hoikushisetsu.html" target="_blank" rel="noopener">仙台市公式サイト「保育施設等の利用を希望されるみなさまへ」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 55,
   },
 
   // ===== 点数・選考 (4) =====
@@ -128,6 +129,7 @@ const articles: Article[] = [
 <p>指数の詳細は<a href="https://www.city.sendai.jp/nintechosa/kurashi/kenkotofukushi/kosodate/hoikujo/annai/documents/r8riyouannnai.pdf" target="_blank" rel="noopener">仙台市「令和8年度保育施設等利用案内」（PDF）</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 65,
   },
   {
     slug: "border-line",
@@ -173,6 +175,7 @@ const articles: Article[] = [
 <p>各施設の入所状況は<a href="https://www.city.sendai.jp/nintechosa/kurashi/kenkotofukushi/kosodate/hoikujo/nyusho/ichiran/index.html" target="_blank" rel="noopener">仙台市公式サイト「保育施設等入所状況一覧」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 95,
   },
   {
     slug: "katen-up-strategy",
@@ -220,6 +223,7 @@ const articles: Article[] = [
 <p>調整指数の全項目は<a href="https://www.city.sendai.jp/nintechosa/kurashi/kenkotofukushi/kosodate/hoikujo/annai/documents/r8riyouannnai.pdf" target="_blank" rel="noopener">仙台市「令和8年度保育施設等利用案内」（PDF）</a>に記載されています。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 100,
   },
   {
     slug: "douten-tiebreak",
@@ -277,6 +281,7 @@ const articles: Article[] = [
 <p>利用調整の方法は<a href="https://www.city.sendai.jp/nintechosa/kurashi/kenkotofukushi/kosodate/hoikujo/annai/documents/r8riyouannnai.pdf" target="_blank" rel="noopener">仙台市「令和8年度保育施設等利用案内」（PDF）</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 85,
   },
 
   // ===== 育休・復職 (1) =====
@@ -327,6 +332,7 @@ const articles: Article[] = [
 <p>基準指数表の詳細は<a href="https://www.city.sendai.jp/nintechosa/kurashi/kenkotofukushi/kosodate/hoikujo/annai/documents/r8riyouannnai.pdf" target="_blank" rel="noopener">仙台市「令和8年度保育施設等利用案内」（PDF）</a>でご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 90,
   },
 
   // ===== 保育園選び (1) =====
@@ -368,6 +374,7 @@ const articles: Article[] = [
 <p>各施設の入所状況は<a href="https://www.city.sendai.jp/nintechosa/kurashi/kenkotofukushi/kosodate/hoikujo/nyusho/ichiran/index.html" target="_blank" rel="noopener">仙台市公式サイト「保育施設等入所状況一覧」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 60,
   },
 
   // ===== 認可外 (2) =====
@@ -414,6 +421,7 @@ const articles: Article[] = [
 <p>市内の保育施設の空き状況は<a href="https://www.city.sendai.jp/nintechosa/kurashi/kenkotofukushi/kosodate/hoikujo/nyusho/ichiran/index.html" target="_blank" rel="noopener">仙台市公式サイト「保育施設等入所状況一覧」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 80,
   },
   {
     slug: "ninkagai-katen",
@@ -465,6 +473,7 @@ const articles: Article[] = [
 <p>地域型保育事業の一覧は<a href="https://www.city.sendai.jp/nintechosa/kurashi/kenkotofukushi/kosodate/hoikujo/annai/hoikushisetsu.html" target="_blank" rel="noopener">仙台市公式サイト</a>で確認できます。認可外保育施設の一覧は<a href="https://www.city.sendai.jp/kodomo-shido/kurashi/kenkotofukushi/kosodate/hoikujo/ninkagai/hoikushisetsu/ichiran.html" target="_blank" rel="noopener">仙台市公式サイト「認可外保育施設一覧」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 75,
   },
 
   // ===== 最新情報 (1) =====
@@ -511,6 +520,7 @@ const articles: Article[] = [
 <p>最新の利用案内は<a href="https://www.city.sendai.jp/nintechosa/kurashi/kenkotofukushi/kosodate/hoikujo/annai/documents/r8riyouannnai.pdf" target="_blank" rel="noopener">仙台市「令和8年度保育施設等利用案内」（PDF）</a>をご確認ください。育休延長の手続きについては<a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000160564_00040.html" target="_blank" rel="noopener">厚生労働省の公式ページ</a>もご参照ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 70,
   },
 ];
 

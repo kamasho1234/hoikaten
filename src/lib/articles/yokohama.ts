@@ -73,6 +73,7 @@ const articles: Article[] = [
 <h2>途中入園（5月〜3月）の申込</h2>
 <p>毎月の申請締切日は、入園希望月の<span class="highlight">前月10日前後</span>です。詳しい日程は各区のこども家庭支援課にお問い合わせください。</p>`,
     publishedAt: "2026-03-28",
+    popularity: 55,
   },
   {
     slug: "area-guide",
@@ -118,6 +119,7 @@ const articles: Article[] = [
 <p>横浜市全体の入園決定率は約8割ですが、区やエリアによって大きく異なります。自分が通えるエリアの状況を早めに把握しましょう。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 60,
   },
 
   // ========== 点数・選考 ==========
@@ -167,6 +169,7 @@ const articles: Article[] = [
 <p>フルタイム共働き世帯の多くはランクAになります。激戦区ではランクAどうしの競争になるため、調整指数が合否を分けることが多いです。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 65,
   },
   {
     slug: "rank-a-conditions",
@@ -215,6 +218,7 @@ const articles: Article[] = [
 <p>激戦区ではランクAでも入園できないケースがあります。その場合は調整指数が重要になりますので、加点項目を漏れなく確認しましょう。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 100,
   },
   {
     slug: "chosei-shisu-checklist",
@@ -261,6 +265,7 @@ const articles: Article[] = [
 <h2>減点（マイナス）もある</h2>
 <p>横浜市の調整指数にはマイナスの項目もあります。例えば、過去に内定を辞退した場合は減点となることがあります。やむを得ない事情がある場合は区役所に相談しましょう。</p>`,
     publishedAt: "2026-03-28",
+    popularity: 100,
   },
   {
     slug: "douten-priority",
@@ -331,6 +336,7 @@ const articles: Article[] = [
 <li>小規模保育事業も検討する</li>
 </ul>`,
     publishedAt: "2026-03-28",
+    popularity: 85,
   },
 
   // ========== お金 ==========
@@ -384,6 +390,7 @@ const articles: Article[] = [
 <h2>保育料の切り替え時期</h2>
 <p>毎年9月に新しい市民税額で保育料が再計算されます。4〜8月は前年度の市民税額、9〜3月は当年度の市民税額が適用されます。</p>`,
     publishedAt: "2026-03-28",
+    popularity: 50,
   },
 
   // ========== 認可外 ==========
@@ -442,6 +449,7 @@ const articles: Article[] = [
 <p>育休延長を目的とした保育所申込は制度の趣旨に反します。入所の意思がある場合に申し込みましょう。</p>
 </div>`,
     publishedAt: "2026-03-28",
+    popularity: 80,
   },
 
   // ========== 育休・復職 ==========
@@ -495,6 +503,7 @@ const articles: Article[] = [
 <h2>入園後に時短に切り替える場合</h2>
 <p>入園後に勤務条件が変わった場合は変更届の提出が必要です。ただし、入園後にランクが下がっても、すでに在園しているため退園になることは原則ありません。</p>`,
     publishedAt: "2026-03-28",
+    popularity: 90,
   },
 
   // ========== 最新情報 ==========
@@ -552,6 +561,7 @@ const articles: Article[] = [
 <li>横浜市の広報よこはま</li>
 </ul>`,
     publishedAt: "2026-03-28",
+    popularity: 70,
   },
 ];
 
