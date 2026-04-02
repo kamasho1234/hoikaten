@@ -120,6 +120,7 @@ function getScoreEvaluation(slug: string, total: number): ScoreEvaluation {
   if (slug === "kyoto") return getKyotoEvaluation(total);
   if (slug === "kitakyushu") return getKitakyushuEvaluation(total);
   if (slug === "hamamatsu") return getHamamatsuEvaluation(total);
+  if (slug === "chiba") return getChibaEvaluation(total);
   return getGenericEvaluation(total);
 }
 
@@ -319,6 +320,19 @@ function getHamamatsuEvaluation(total: number): ScoreEvaluation {
   if (total >= 23) return { label: "標準的（フルタイム＋就労日数加点）", color: "text-blue-600", description: "フルタイム共働き＋就労日数加点の標準ラインです。加点の積み上げが重要です。", tip: "育休復帰（+3）や認可外利用（+2）など使える加点を確認しましょう。", notes };
   if (total >= 20) return { label: "加点なしでは厳しめ", color: "text-yellow-600", description: "フルタイムだが就労日数加点がない状態です。", tip: "月20日以上の就労で+3の加点がつきます。", notes };
   if (total >= 12) return { label: "認可園は厳しい", color: "text-orange-600", description: "認可園への入園は難しい状況です。", tip: "認可外保育施設も並行して検討しましょう。", notes };
+  return { label: "認可園は極めて難しい", color: "text-red-600", description: "この点数では認可園への入園は極めて難しい状況です。", tip: "認可外保育施設やファミリーサポートなど別の預け先を検討しましょう。", notes };
+}
+
+function getChibaEvaluation(total: number): ScoreEvaluation {
+  // 千葉市: 合算、父母各最大22点(就労)。フルタイム+週5日+育休明け=49点が標準
+  const notes = [
+    "※ 千葉市ではフルタイム共働き＋週5日勤務＋育休明けで49点が標準ラインです",
+    "※ 同点の場合：ひとり親・単身赴任 → 基準点合計 → 同居保育可能者なし → 子どもの数 → 就労時間 → 勤務地距離の順",
+  ];
+  if (total >= 55) return { label: "かなり有利", color: "text-green-600", description: "フルタイム共働き＋きょうだい加点などがある高得点です。多くの園で入園が期待できます。", tip: "希望する園の過去のボーダーも確認しておくと安心です。", notes };
+  if (total >= 49) return { label: "標準的（フルタイム＋育休明け）", color: "text-blue-600", description: "フルタイム共働き＋週5日勤務＋育休明けの標準ラインです。人気園では加点の積み上げが重要です。", tip: "きょうだい加点（+6）や認可外利用（+4）など使える加点を確認しましょう。", notes };
+  if (total >= 44) return { label: "加点なしでは厳しめ", color: "text-yellow-600", description: "フルタイム共働きの基本ラインですが、育休明けや認可外利用の加点がないと人気園は厳しい場合があります。", tip: "認可外利用（+4）や育休明け（+3）の加点を確認しましょう。", notes };
+  if (total >= 30) return { label: "認可園は厳しい", color: "text-orange-600", description: "パートタイムや求職中の方に多い点数帯です。認可園への入園は難しい状況です。", tip: "認可外保育施設も並行して検討しましょう。", notes };
   return { label: "認可園は極めて難しい", color: "text-red-600", description: "この点数では認可園への入園は極めて難しい状況です。", tip: "認可外保育施設やファミリーサポートなど別の預け先を検討しましょう。", notes };
 }
 
