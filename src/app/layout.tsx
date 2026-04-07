@@ -156,6 +156,14 @@ import "@/lib/articles/kasugai";
 import "@/lib/articles/anjo";
 import "@/lib/articles/kariya";
 import "@/lib/articles/toyokawa";
+import "@/lib/articles/omuta";
+import "@/lib/articles/kasuga";
+import "@/lib/articles/tomakomai";
+import "@/lib/articles/obihiro";
+import "@/lib/articles/kushiro";
+import "@/lib/articles/ebetsu";
+import "@/lib/articles/uji";
+import "@/lib/articles/higashihiroshima";
 
 import { getAllMunicipalities } from "@/lib/data";
 import { HeaderNav } from "@/components/header-nav";
