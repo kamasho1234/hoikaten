@@ -517,6 +517,617 @@ const articles: Article[] = [
     publishedAt: "2026-03-28",
     popularity: 70,
   },
+  // =========================================================================
+  // 11. 園えらび：保育園見学ガイド
+  // =========================================================================
+  {
+    slug: "nursery-visit-guide",
+    citySlug: "saitama",
+    title: "さいたま市の保育園見学ガイド　チェックリストと質問例",
+    description:
+      "さいたま市で保育園見学をする際の予約方法・見るべきポイント・先生への質問例をまとめました。園えらびで後悔しないために。",
+    image:
+      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
+    category: "園えらび",
+    categoryColor: "purple",
+    content: `<h2>保育園見学はいつから始める？</h2>
+<p>さいたま市の4月入園申込は10月中旬開始です。見学は<span class="highlight">6月〜9月</span>に集中して行うのがおすすめ。人気園は見学枠が埋まりやすいため、早めの予約が大切です。</p>
+
+<h2>見学の予約方法</h2>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content">
+<strong>電話で予約</strong>
+<p>園に直接電話して見学希望日を伝えます。「見学したい」と言えばOKです。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content">
+<strong>見学日は平日午前が基本</strong>
+<p>子どもたちの活動を見られる10時〜11時がベスト。園庭遊びや給食前の様子を確認できます。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">3</div>
+<div class="step-content">
+<strong>複数園を比較する</strong>
+<p>最低3園は見学しましょう。さいたま市は10区あり園の数も多いため、区をまたいだ比較もおすすめです。</p>
+</div>
+</div>
+
+<h2>見学時のチェックリスト</h2>
+<table>
+<tr><th>項目</th><th>チェックポイント</th></tr>
+<tr><td>安全面</td><td>柵・施錠・プール監視体制</td></tr>
+<tr><td>衛生面</td><td>トイレ・おむつ交換台・手洗い場の清潔さ</td></tr>
+<tr><td>保育士の様子</td><td>子どもへの声かけが穏やかか、笑顔があるか</td></tr>
+<tr><td>園庭</td><td>広さ・遊具の種類。園庭なしなら散歩先の公園を確認</td></tr>
+<tr><td>給食</td><td>自園調理か外注か、アレルギー対応の有無</td></tr>
+<tr><td>持ち物</td><td>布おむつか紙おむつか、布団持参の有無</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>浦和区・南区・大宮区の人気園は見学予約が集中します。妊娠中から動き始めると安心です。</p>
+</div>
+
+<h2>先生に聞くべき質問</h2>
+<ul>
+<li>慣らし保育の期間はどのくらいですか？</li>
+<li>発熱時のお迎え基準は何度ですか？</li>
+<li>延長保育は何時まで対応していますか？</li>
+<li>保護者参加の行事はどのくらいありますか？</li>
+</ul>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>さいたま市の保育園一覧は<a href="https://www.city.saitama.lg.jp/003/001/015/001/p003019.html" target="_blank" rel="noopener">さいたま市子ども未来局の公式サイト</a>で確認できます。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 45,
+  },
+  // =========================================================================
+  // 12. データ分析：0歳vs1歳
+  // =========================================================================
+  {
+    slug: "zero-vs-one-year",
+    citySlug: "saitama",
+    title: "さいたま市、0歳入園と1歳入園を数字で比較分析",
+    description:
+      "さいたま市の0歳児クラスと1歳児クラスの受入枠・競争率・育休給付金への影響をデータで比較します。",
+    image:
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop",
+    category: "データ分析",
+    categoryColor: "teal",
+    content: `<h2>0歳入園と1歳入園の数字を比較</h2>
+<p>さいたま市では1歳児クラスの競争が最も激しくなっています。既存記事「0歳入園と1歳入園どちらが有利？」をさらに深掘りし、区別のデータを分析します。</p>
+
+<h2>区別の入りやすさ比較</h2>
+<table>
+<tr><th>区</th><th>0歳児クラス</th><th>1歳児クラス</th></tr>
+<tr><td>浦和区</td><td>やや厳しい</td><td>最激戦</td></tr>
+<tr><td>南区</td><td>やや厳しい</td><td>最激戦</td></tr>
+<tr><td>大宮区</td><td>標準</td><td>激戦</td></tr>
+<tr><td>中央区</td><td>比較的入りやすい</td><td>やや厳しい</td></tr>
+<tr><td>見沼区</td><td>入りやすい</td><td>標準</td></tr>
+<tr><td>岩槻区</td><td>入りやすい</td><td>比較的入りやすい</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>0歳児クラスは定員枠がまるごと新規募集になるため、1歳児クラス（持ち上がりで枠が減る）より入りやすい傾向が全区共通です。</p>
+</div>
+
+<h2>育休給付金への影響</h2>
+<table>
+<tr><th>項目</th><th>0歳4月入園</th><th>1歳4月入園</th></tr>
+<tr><td>育休期間の目安</td><td>産後約6〜10か月</td><td>約1年〜1年半</td></tr>
+<tr><td>給付金の差額</td><td colspan="2">月額約15〜20万円 x 差分月数</td></tr>
+<tr><td>認可外加点</td><td>使いにくい（月齢が低い）</td><td>活用可能（+7点）</td></tr>
+</table>
+
+<h2>データから見る最適戦略</h2>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content">
+<strong>激戦区（浦和・南・大宮）なら0歳4月を最優先</strong>
+<p>1歳児クラスは62点でも不承諾のリスクがあります。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content">
+<strong>それ以外の区なら1歳4月でも十分可能</strong>
+<p>見沼区・岩槻区・桜区などは1歳児クラスでも空きが出やすい傾向です。</p>
+</div>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>各園の年齢別空き状況は<a href="https://www.city.saitama.lg.jp/003/001/015/001/p003019.html" target="_blank" rel="noopener">さいたま市公式サイト</a>で確認できます。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 65,
+  },
+  // =========================================================================
+  // 13. 制度を知る：ひとり親ガイド
+  // =========================================================================
+  {
+    slug: "single-parent-guide",
+    citySlug: "saitama",
+    title: "さいたま市のひとり親家庭向け保活ガイド　優先制度と支援策",
+    description:
+      "さいたま市でひとり親世帯が保育園入園で優遇される仕組みと、利用できる支援制度をまとめました。",
+    image:
+      "https://images.unsplash.com/photo-1531983412531-1f49a365ffed?w=800&h=400&fit=crop",
+    category: "制度を知る",
+    categoryColor: "rose",
+    content: `<h2>ひとり親世帯は入園選考で優先される</h2>
+<p>さいたま市の入園選考では、ひとり親世帯に対して調整指数で<strong>加点</strong>があります。また同点の場合はひとり親世帯が優先されるルールになっています。</p>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>ひとり親の加点を受けるには、申込時に「ひとり親であること」を証明する書類（児童扶養手当証書のコピー・戸籍謄本など）を提出する必要があります。</p>
+</div>
+
+<h2>利用できる支援制度</h2>
+<table>
+<tr><th>制度</th><th>内容</th></tr>
+<tr><td>保育料の軽減</td><td>市民税非課税世帯は保育料無料。課税世帯も階層に応じて軽減</td></tr>
+<tr><td>児童扶養手当</td><td>月額最大45,500円（令和7年度）。所得に応じて支給</td></tr>
+<tr><td>ひとり親家庭等医療費助成</td><td>医療費の自己負担が軽減される</td></tr>
+<tr><td>母子父子寡婦福祉資金</td><td>就学・就職・転宅等の資金貸付制度</td></tr>
+<tr><td>JR通勤定期の割引</td><td>児童扶養手当受給世帯は3割引</td></tr>
+</table>
+
+<h2>申込時の注意点</h2>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content">
+<strong>証明書類を早めに準備</strong>
+<p>児童扶養手当証書・戸籍謄本など、ひとり親であることを証明する書類が必要です。発行に時間がかかる場合があるため、余裕をもって準備しましょう。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content">
+<strong>就労証明書はフルタイムで</strong>
+<p>基本指数は就労時間で決まります。可能であればフルタイム（月160時間以上）の就労証明書を提出しましょう。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">3</div>
+<div class="step-content">
+<strong>各区支援課で相談</strong>
+<p>ひとり親世帯向けの加点や優先措置について、お住まいの区の支援課で個別に相談できます。</p>
+</div>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>ひとり親家庭向けの支援制度は<a href="https://www.city.saitama.lg.jp/003/001/015/" target="_blank" rel="noopener">さいたま市子ども未来局</a>のサイトで確認できます。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 50,
+  },
+  // =========================================================================
+  // 14. 保活の基本：育休タイミング
+  // =========================================================================
+  {
+    slug: "ikukyu-timing",
+    citySlug: "saitama",
+    title: "さいたま市で育休中に保活、復帰タイミングはいつがベスト？",
+    description:
+      "さいたま市で育休中に保活をする際の復帰タイミングと点数への影響を解説。育休延長のリスクも合わせてお伝えします。",
+    image:
+      "https://images.unsplash.com/photo-1493894473891-10fc1e5dbd22?w=800&h=400&fit=crop",
+    category: "保活の基本",
+    categoryColor: "green",
+    content: `<h2>育休中の申込と復帰タイミング</h2>
+<p>さいたま市では育休中に保育園を申し込む方が多数います。育休中の申込では調整指数で<strong>+6点</strong>が加算されます。</p>
+
+<h2>復帰タイミングの選択肢</h2>
+<table>
+<tr><th>パターン</th><th>メリット</th><th>デメリット</th></tr>
+<tr><td>0歳4月で復帰</td><td>入園しやすい。キャリアへの影響が小さい</td><td>育休給付金が短い。体力的に大変</td></tr>
+<tr><td>1歳4月で復帰</td><td>育休を1年取れる。給付金フル受給</td><td>1歳児クラスは最激戦</td></tr>
+<tr><td>認可外経由で1歳4月</td><td>+7点の加点（育休+6より1点高い）</td><td>認可外の費用負担あり</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>さいたま市では入園月の翌月15日までに復職することが条件です。4月入園なら5月15日までに復帰する必要があります。</p>
+</div>
+
+<h2>育休延長の注意点</h2>
+<p>1歳で入園できなかった場合、育休を延長できます。しかし令和7年度から全国的に<strong>育休延長の審査が厳格化</strong>されています。</p>
+
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content">
+<strong>「落選狙い」は危険</strong>
+<p>わざと競争率の高い園だけ希望して不承諾通知を得る手法は、制度改正で通用しにくくなっています。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content">
+<strong>入園意思の確認が強化</strong>
+<p>自治体が「本当に入園する意思があるか」を確認するケースが増えています。さいたま市でも慎重に対応しましょう。</p>
+</div>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>復職期限等の詳細は<a href="https://www.city.saitama.lg.jp/003/001/015/001/p100639.html" target="_blank" rel="noopener">さいたま市「保育施設利用の申込みについて」</a>をご確認ください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 55,
+  },
+  // =========================================================================
+  // 15. 園えらび：認可外選び
+  // =========================================================================
+  {
+    slug: "ninkagai-selection",
+    citySlug: "saitama",
+    title: "さいたま市の認可外保育施設の選び方ガイド",
+    description:
+      "さいたま市で認可外保育施設を検討する方向けに、施設の種類・費用の目安・選ぶ際のチェックポイントを解説します。",
+    image:
+      "https://images.unsplash.com/photo-1576495199011-eb94736d05d6?w=800&h=400&fit=crop",
+    category: "園えらび",
+    categoryColor: "purple",
+    content: `<h2>さいたま市の認可外保育施設とは</h2>
+<p>認可外保育施設は、認可保育所の基準を満たしていないものの、さいたま市に届出をして運営されている保育施設です。認可園に入れなかった場合の受け皿として、また<strong>認可園申込時の加点（+7点）</strong>を得るために利用されることがあります。</p>
+
+<h2>認可外施設の種類</h2>
+<table>
+<tr><th>種類</th><th>特徴</th></tr>
+<tr><td>企業主導型保育</td><td>企業が設置。従業員枠と地域枠がある</td></tr>
+<tr><td>認可外保育室</td><td>小規模で家庭的な雰囲気。0〜2歳が多い</td></tr>
+<tr><td>ベビーホテル</td><td>夜間・休日対応。一時利用も可能</td></tr>
+<tr><td>院内保育所</td><td>病院等の職員向け。地域枠があれば利用可能</td></tr>
+</table>
+
+<h2>費用の目安</h2>
+<p>さいたま市内の認可外保育施設の保育料は<span class="highlight">月額5万〜10万円</span>程度が一般的です。入園金が別途2万〜5万円かかる施設もあります。</p>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>0〜2歳の非課税世帯は月額42,000円まで、3〜5歳は月額37,000円まで無償化の対象になる場合があります。認可外でも届出施設であれば対象です。</p>
+</div>
+
+<h2>選ぶ際のチェックリスト</h2>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content">
+<strong>さいたま市への届出があるか</strong>
+<p>届出施設一覧はさいたま市子ども未来局の公式サイトで確認できます。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content">
+<strong>立入調査の結果を確認</strong>
+<p>さいたま市は年1回、認可外施設への立入調査を実施しています。結果は公開されています。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">3</div>
+<div class="step-content">
+<strong>保育士の配置と資格</strong>
+<p>有資格者の割合が高いほど安心です。見学時に聞いてみましょう。</p>
+</div>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>認可外施設一覧は<a href="https://www.city.saitama.lg.jp/003/001/015/" target="_blank" rel="noopener">さいたま市子ども未来局</a>のサイトで確認できます。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 40,
+  },
+  // =========================================================================
+  // 16. 制度を知る：双子の保活
+  // =========================================================================
+  {
+    slug: "futago-hokatsu",
+    citySlug: "saitama",
+    title: "さいたま市で双子・多胎児の保活、知っておきたい制度と戦略",
+    description:
+      "さいたま市で双子や三つ子を保育園に入れる際の加点制度や同時入園の配慮措置、多胎児ならではの注意点を解説します。",
+    image:
+      "https://images.unsplash.com/photo-1609220136736-443140cffec6?w=800&h=400&fit=crop",
+    category: "制度を知る",
+    categoryColor: "rose",
+    content: `<h2>双子・多胎児の保活は2倍の大変さ</h2>
+<p>双子や三つ子の場合、「2人とも同じ園に入れたい」という希望が強い一方で、空き枠が2名以上ある園は限られます。さいたま市の制度を正しく理解して戦略を立てましょう。</p>
+
+<h2>さいたま市の多胎児向け配慮</h2>
+<table>
+<tr><th>項目</th><th>内容</th></tr>
+<tr><td>きょうだい同一園希望</td><td>同じ園を希望する場合、+3点の加点</td></tr>
+<tr><td>同時申込</td><td>双子を同時に申し込む場合、同一園への入園が配慮される</td></tr>
+<tr><td>保育料の軽減</td><td>同時在園の場合、2人目は半額、3人目以降は無料</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>双子は2人とも新規入園のため、きょうだい在園の加点（+2点）は使えません。ただし同一園希望の+3点は利用可能です。必ず同じ園を第1希望に書きましょう。</p>
+</div>
+
+<h2>双子の保活を成功させるコツ</h2>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content">
+<strong>定員の大きい園を中心に希望</strong>
+<p>2名以上の空きが出やすい大規模園を優先的に希望園に入れましょう。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content">
+<strong>0歳4月入園を検討</strong>
+<p>0歳児クラスは定員枠が大きいため、2名同時に入園できる可能性が高まります。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">3</div>
+<div class="step-content">
+<strong>「別々の園でもOK」の覚悟も</strong>
+<p>同じ園に入れなかった場合の送迎ルートをシミュレーションしておきましょう。</p>
+</div>
+</div>
+
+<h2>保育料の軽減は大きなメリット</h2>
+<p>双子が同時に在園する場合、2人目の保育料は半額になります。月額3万円の保育料なら年間で<span class="highlight">約18万円</span>の軽減効果があります。</p>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>多胎児への配慮措置については、各区の支援課窓口で直接お問い合わせください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 35,
+  },
+  // =========================================================================
+  // 17. 保活の基本：先輩ママインタビュー
+  // =========================================================================
+  {
+    slug: "hoiku-mama-interview",
+    citySlug: "saitama",
+    title: "さいたま市の保活体験談　先輩ママに聞く成功と失敗のリアル",
+    description:
+      "さいたま市で保活を経験した先輩ママの声を集めました。成功パターンと失敗パターンから学ぶ保活のリアルをお伝えします。",
+    image:
+      "https://images.unsplash.com/photo-1491013516836-7db643ee125a?w=800&h=400&fit=crop",
+    category: "保活の基本",
+    categoryColor: "green",
+    content: `<h2>先輩ママの保活体験を紹介</h2>
+<p>さいたま市で実際に保活を経験した先輩ママの声をもとに、成功パターンと失敗パターンをまとめました。（個人が特定されないよう内容を一部編集しています）</p>
+
+<h2>成功パターン</h2>
+<h3>Aさん（南区・1歳4月入園・69点）</h3>
+<div class="point-box">
+<p><strong>認可外経由で+7点を確保</strong></p>
+<p>南区は最激戦と聞き、生後6か月で認可外に入園。復職して認可外加点+7を得て69点に。第3希望の園に内定。「費用はかかったけど、認可外での経験も子どもにとって良かった」と振り返ります。</p>
+</div>
+
+<h3>Bさん（見沼区・1歳4月入園・62点）</h3>
+<div class="point-box">
+<p><strong>激戦区を避けて62点で内定</strong></p>
+<p>実家に近い見沼区を選んだことで、62点（フルタイム共働き＋育休+6）で第1希望に内定。「区によって全然違うと実感しました」。</p>
+</div>
+
+<h2>失敗パターン</h2>
+<h3>Cさん（浦和区・1歳4月入園・62点）</h3>
+<div class="info-box">
+<p><strong>62点で浦和区は不承諾</strong></p>
+<p>フルタイム共働き＋育休+6の62点で浦和区の人気園5つに申込。一次で全滅。二次で空きが出た園に入れたものの、自宅から遠く毎日の送迎が大変だったそうです。</p>
+</div>
+
+<h3>Dさん（大宮区・1歳4月入園・62点）</h3>
+<div class="info-box">
+<p><strong>希望園を3つしか書かず保留に</strong></p>
+<p>「この園以外は考えられない」と希望を3園に絞った結果、一次で保留。「もっと多く書いておけばよかった」と後悔しています。</p>
+</div>
+
+<h2>体験談から学ぶポイント</h2>
+<ul>
+<li>激戦区（浦和・南・大宮）は62点では足りない可能性がある</li>
+<li>希望園はできるだけ多く書く（最低5園以上）</li>
+<li>区選びも戦略のひとつ。隣接区の園も視野に入れる</li>
+<li>認可外経由の加点は費用と効果を計算して判断する</li>
+</ul>`,
+    publishedAt: "2026-04-07",
+    popularity: 60,
+  },
+  // =========================================================================
+  // 18. データ分析：待機児童データ
+  // =========================================================================
+  {
+    slug: "waiting-child-data",
+    citySlug: "saitama",
+    title: "さいたま市の待機児童データ分析　区別の実態を読み解く",
+    description:
+      "さいたま市10区の待機児童・保留児童の実態をデータで分析。区ごとの入りやすさの違いを解説します。",
+    image:
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=400&fit=crop",
+    category: "データ分析",
+    categoryColor: "teal",
+    content: `<h2>さいたま市の待機児童は減少傾向</h2>
+<p>さいたま市の待機児童数は年々減少しています。しかし「希望する園に入れなかった」保留児童は依然として一定数存在します。</p>
+
+<h2>区別の不承諾率（令和7年度一次）</h2>
+<table>
+<tr><th>区</th><th>不承諾率</th><th>傾向</th></tr>
+<tr><td>南区</td><td>約26%</td><td>市内最高。武蔵浦和・南浦和が特に厳しい</td></tr>
+<tr><td>浦和区</td><td>約24%</td><td>再開発で需要増加中</td></tr>
+<tr><td>大宮区</td><td>約24%</td><td>改善傾向だが1歳は厳しい</td></tr>
+<tr><td>中央区</td><td>約18%</td><td>さいたま新都心周辺で需要あり</td></tr>
+<tr><td>北区</td><td>約15%</td><td>宮原周辺でやや混む</td></tr>
+<tr><td>見沼区</td><td>約12%</td><td>比較的入りやすい</td></tr>
+<tr><td>桜区</td><td>約10%</td><td>入りやすい</td></tr>
+<tr><td>緑区</td><td>約14%</td><td>浦和美園で需要増</td></tr>
+<tr><td>西区</td><td>約8%</td><td>最も入りやすい</td></tr>
+<tr><td>岩槻区</td><td>約9%</td><td>入りやすい</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>不承諾率が10%未満の区なら、62点で十分に入園できる可能性が高いです。激戦区でも認可外加点（+7）を使えば安全圏に入れます。</p>
+</div>
+
+<h2>年齢別の傾向</h2>
+<p>全区共通で<span class="highlight">1歳児クラス</span>の競争が最も激しくなっています。0歳児クラスは比較的空きがあり、3歳以上は幼稚園への流出もあって入りやすくなります。</p>
+
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content">
+<strong>データの見方</strong>
+<p>不承諾率は「申込者数に対する不承諾者数の割合」です。人気園だけに申し込んだ人も含まれるため、希望園を増やせば実際の入園確率は上がります。</p>
+</div>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>最新の利用調整結果は<a href="https://www.city.saitama.lg.jp/003/001/015/001/p100639.html" target="_blank" rel="noopener">さいたま市公式サイト</a>で公開されています。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 55,
+  },
+  // =========================================================================
+  // 19. 園えらび：小規模保育ガイド
+  // =========================================================================
+  {
+    slug: "small-nursery-guide",
+    citySlug: "saitama",
+    title: "さいたま市の小規模保育をもっと知る　連携園と3歳の壁",
+    description:
+      "さいたま市の小規模保育事業について、連携園の仕組み・3歳の壁への具体的な対策・選ぶ際の注意点を深掘り解説します。",
+    image:
+      "https://images.unsplash.com/photo-1577896852618-01da1dd79f7e?w=800&h=400&fit=crop",
+    category: "園えらび",
+    categoryColor: "purple",
+    content: `<h2>小規模保育の「その先」を考える</h2>
+<p>さいたま市の小規模保育事業は0〜2歳児対象です。入園のしやすさがメリットですが、3歳以降の行き先を事前に確認しておくことが重要です。</p>
+
+<h2>連携園の仕組み</h2>
+<p>さいたま市では多くの小規模保育事業所に<strong>連携先の認可保育所</strong>が設定されています。卒園時に連携先の園に優先的に入園できる枠があります。</p>
+
+<table>
+<tr><th>項目</th><th>内容</th></tr>
+<tr><td>連携園の数</td><td>1園〜複数園が設定されている</td></tr>
+<tr><td>優先枠</td><td>連携先の3歳児クラスに優先入園枠がある</td></tr>
+<tr><td>注意点</td><td>連携園の定員に空きがない場合もある</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>入園前に「連携先はどこか」「過去に連携先に入れなかったケースはあるか」を園に直接聞いておきましょう。</p>
+</div>
+
+<h2>3歳の壁を乗り越える選択肢</h2>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content">
+<strong>連携先の認可園に進む</strong>
+<p>最もスムーズな方法。連携園が希望に合うか入園前に見学しておくのがおすすめです。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content">
+<strong>認定こども園の保育所部分へ</strong>
+<p>幼稚園から移行した認定こども園は3歳からの受入枠が大きい場合があります。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">3</div>
+<div class="step-content">
+<strong>きょうだい加点を活用</strong>
+<p>小規模保育に在園中でも、きょうだいの認可園申込時に+2〜3点の加点が付きます。</p>
+</div>
+</div>
+
+<h2>小規模保育の注意点</h2>
+<ul>
+<li>園庭がない施設が多い。近くに公園があるか確認</li>
+<li>給食は自園調理か外部搬入か</li>
+<li>保育士の配置基準（有資格者の割合）</li>
+</ul>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>小規模保育の施設一覧と連携園情報は<a href="https://www.city.saitama.lg.jp/003/001/015/001/p003019.html" target="_blank" rel="noopener">さいたま市公式サイト</a>で確認できます。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 50,
+  },
+  // =========================================================================
+  // 20. 点数アップ：2人目の保活
+  // =========================================================================
+  {
+    slug: "secondchild-hokatsu",
+    citySlug: "saitama",
+    title: "さいたま市で2人目の保活、きょうだい加点を最大活用する方法",
+    description:
+      "さいたま市の保育園入園でのきょうだい加点（+2〜3点）を最大限に活かすための戦略と注意点を解説します。",
+    image:
+      "https://images.unsplash.com/photo-1471286174890-9c112ffca5b4?w=800&h=400&fit=crop",
+    category: "点数アップ",
+    categoryColor: "amber",
+    content: `<h2>2人目の保活はきょうだい加点が武器</h2>
+<p>さいたま市では、上の子が認可保育園に在園中の場合に<strong>きょうだい加点</strong>が付きます。62点のボーダーラインを超える大きな武器になります。</p>
+
+<h2>きょうだい加点の仕組み</h2>
+<table>
+<tr><th>条件</th><th>加点</th></tr>
+<tr><td>きょうだいが在園中＋同一園を第1希望</td><td>+3点</td></tr>
+<tr><td>きょうだいが在園中（別の園を希望）</td><td>+2点</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>フルタイム共働き52点＋育休+6＋祖父母別居+4＋きょうだい同一園+3＝<strong>65点</strong>。激戦区でもかなり有利になります。</p>
+</div>
+
+<h2>きょうだい加点を最大活用する戦略</h2>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content">
+<strong>上の子と同じ園を第1希望に</strong>
+<p>同一園希望で+3点。別の園を希望すると+2点に下がります。1点の差が大きい激戦区では、同じ園を第1希望にしましょう。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content">
+<strong>上の子が卒園する前に申し込む</strong>
+<p>上の子が卒園するときょうだい加点がなくなります。年齢差3歳以上の場合は特に注意が必要です。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">3</div>
+<div class="step-content">
+<strong>保育料の軽減も活用</strong>
+<p>同時在園の場合、2人目は保育料が半額になります。3人目以降は無料です。</p>
+</div>
+</div>
+
+<h2>注意点：上の子が小規模保育の場合</h2>
+<p>上の子が小規模保育に通っている場合、2歳児クラスで卒園するため、年齢差によってはきょうだい加点が使えなくなります。</p>
+
+<h2>認可外加点との併用</h2>
+<p>きょうだい加点（+2〜3）と認可外加点（+7）は併用可能です。両方を使えば62点＋7＋3＝<span class="highlight">72点</span>も理論上は可能です。</p>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>きょうだい加点の詳細は<a href="https://www.city.saitama.lg.jp/003/001/015/001/p100639.html" target="_blank" rel="noopener">さいたま市の利用調整基準表</a>で確認できます。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 55,
+  },
 ];
 
 registerArticles(articles);

@@ -539,6 +539,576 @@ const articles: Article[] = [
     publishedAt: "2026-03-28",
     popularity: 95,
   },
+  // ===== 園えらび (11) =====
+  {
+    slug: "nursery-visit-guide",
+    citySlug: "kyoto",
+    title: "京都市の保育園見学ガイド　チェックリストと質問例",
+    description:
+      "京都市で保育園見学をする際の予約方法・見るべきポイント・先生への質問例をまとめました。園えらびに迷う方必見です。",
+    image:
+      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
+    category: "園えらび",
+    categoryColor: "purple",
+    content: `<h2>保育園見学はいつから始める？</h2>
+<p>京都市の4月入園申込は10月開始です。見学は<span class="highlight">6月〜9月</span>に集中して行うのがおすすめ。人気園は見学枠が埋まりやすいため、早めの予約が大切です。</p>
+
+<h2>見学の予約方法</h2>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content">
+<strong>電話で予約</strong>
+<p>園に直接電話して見学希望日を伝えます。「見学したい」と言えばOKです。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content">
+<strong>見学日は平日午前が基本</strong>
+<p>子どもたちの活動を見られる10時〜11時がベスト。園庭遊びや給食前の様子を確認できます。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">3</div>
+<div class="step-content">
+<strong>複数園を比較する</strong>
+<p>最低3園は見学しましょう。比較することで「自分が大事にしたいこと」が見えてきます。</p>
+</div>
+</div>
+
+<h2>見学時のチェックリスト</h2>
+<table>
+<tr><th>項目</th><th>チェックポイント</th></tr>
+<tr><td>安全面</td><td>柵・施錠・プール監視体制</td></tr>
+<tr><td>衛生面</td><td>トイレ・おむつ交換台・手洗い場の清潔さ</td></tr>
+<tr><td>保育士の様子</td><td>子どもへの声かけが穏やかか、笑顔があるか</td></tr>
+<tr><td>園庭</td><td>広さ・遊具の種類。園庭なしなら散歩先の公園を確認</td></tr>
+<tr><td>給食</td><td>自園調理か外注か、アレルギー対応の有無</td></tr>
+<tr><td>持ち物</td><td>布おむつか紙おむつか、布団持参の有無</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>京都市は11区あり園の雰囲気も多様です。口コミだけでなく、自分の目で確かめることが後悔しない園えらびにつながります。</p>
+</div>
+
+<h2>先生に聞くべき質問</h2>
+<ul>
+<li>慣らし保育の期間はどのくらいですか？</li>
+<li>発熱時のお迎え基準は何度ですか？</li>
+<li>延長保育は何時まで対応していますか？</li>
+<li>保護者参加の行事はどのくらいありますか？</li>
+</ul>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>京都市の保育園一覧は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000227761.html" target="_blank" rel="noopener">こども若者はぐくみ局の公式サイト</a>で確認できます。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 45,
+  },
+  // ===== データ分析 (12) =====
+  {
+    slug: "zero-vs-one-year",
+    citySlug: "kyoto",
+    title: "京都市、0歳入園と1歳入園を数字で比較",
+    description:
+      "京都市の保育園に0歳で入るか1歳で入るか迷っている方へ。受入枠・競争率・育休給付金への影響をデータで比較します。",
+    image:
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop",
+    category: "データ分析",
+    categoryColor: "teal",
+    content: `<h2>0歳入園と1歳入園、どちらが有利？</h2>
+<p>京都市でも全国と同様に<strong>1歳児クラス</strong>の競争が最も激しくなっています。0歳入園と1歳入園をデータで比較してみましょう。</p>
+
+<h2>受入枠の違い</h2>
+<table>
+<tr><th></th><th>0歳児クラス</th><th>1歳児クラス</th></tr>
+<tr><td>定員の目安</td><td>6〜9名</td><td>新規枠は数名（持ち上がりが多い）</td></tr>
+<tr><td>競争率</td><td>比較的入りやすい</td><td>最も厳しい</td></tr>
+<tr><td>対象生年月日</td><td>令和7年4月2日〜令和8年4月1日生</td><td>令和6年4月2日〜令和7年4月1日生</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>京都市のmin方式では0歳入園でも1歳入園でも点数の計算方法は同じです。ただし0歳の方が枠が多く、競争率が低い傾向にあります。</p>
+</div>
+
+<h2>育休給付金への影響</h2>
+<table>
+<tr><th>項目</th><th>0歳4月入園</th><th>1歳4月入園</th></tr>
+<tr><td>育休期間</td><td>産後約6〜10か月</td><td>約1年〜1年半</td></tr>
+<tr><td>給付金受給期間</td><td>短くなる</td><td>フル受給可能</td></tr>
+<tr><td>給付金の差額目安</td><td colspan="2">月額約15〜20万円 x 差分月数</td></tr>
+</table>
+
+<h2>右京区・西京区の1歳児は特に注意</h2>
+<p>京都市の激戦区である右京区・西京区では、1歳児クラスの受入枠がほぼ埋まるケースがあります。42点でも入れない園が出てくるため、0歳入園を検討する価値があります。</p>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>各園の年齢別受入枠は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000227761.html" target="_blank" rel="noopener">京都市の受入枠一覧</a>で確認できます。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 65,
+  },
+  // ===== 制度を知る (13) =====
+  {
+    slug: "single-parent-guide",
+    citySlug: "kyoto",
+    title: "京都市のひとり親家庭向け保活ガイド　優先制度と支援策",
+    description:
+      "京都市でひとり親世帯が保育園入園で優遇される仕組みと、利用できる支援制度をまとめました。",
+    image:
+      "https://images.unsplash.com/photo-1531983412531-1f49a365ffed?w=800&h=400&fit=crop",
+    category: "制度を知る",
+    categoryColor: "rose",
+    content: `<h2>ひとり親世帯は入園選考で優先される</h2>
+<p>京都市の入園選考では、ひとり親世帯に対して<strong>加点</strong>があります。min方式の基本点数に加点が上乗せされるため、同点の場合に有利になります。</p>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>ひとり親世帯の加点は京都市の利用調整基準に明記されています。申込時に「ひとり親であること」を証明する書類（児童扶養手当証書のコピーなど）を提出しましょう。</p>
+</div>
+
+<h2>利用できる支援制度</h2>
+<table>
+<tr><th>制度</th><th>内容</th></tr>
+<tr><td>保育料の軽減</td><td>市民税非課税世帯は保育料無料。課税世帯も軽減あり</td></tr>
+<tr><td>児童扶養手当</td><td>月額最大45,500円（令和7年度）</td></tr>
+<tr><td>ひとり親家庭医療費助成</td><td>医療費の自己負担が軽減</td></tr>
+<tr><td>母子父子寡婦福祉資金</td><td>就学・就職・転宅等の資金貸付</td></tr>
+</table>
+
+<h2>申込時の注意点</h2>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content">
+<strong>証明書類を早めに準備</strong>
+<p>児童扶養手当証書・戸籍謄本など、ひとり親であることを証明する書類が必要です。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content">
+<strong>就労証明書の確認</strong>
+<p>就労時間が基本点数に直結します。パート・アルバイトでも就労証明書は必要です。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">3</div>
+<div class="step-content">
+<strong>窓口で相談する</strong>
+<p>各区のこども若者はぐくみ室で個別に相談できます。加点の対象になるか事前に確認しましょう。</p>
+</div>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>ひとり親家庭向けの支援制度は<a href="https://www.city.kyoto.lg.jp/hagukumi/" target="_blank" rel="noopener">京都市こども若者はぐくみ局</a>のサイトで確認できます。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 50,
+  },
+  // ===== 保活の基本 (14) =====
+  {
+    slug: "ikukyu-timing",
+    citySlug: "kyoto",
+    title: "京都市で育休中に保活、復帰タイミングはいつがベスト？",
+    description:
+      "京都市で育休中に保活をする際の復帰タイミングと点数への影響を解説。育休延長のリスクも合わせてお伝えします。",
+    image:
+      "https://images.unsplash.com/photo-1493894473891-10fc1e5dbd22?w=800&h=400&fit=crop",
+    category: "保活の基本",
+    categoryColor: "green",
+    content: `<h2>育休からの復帰タイミングが点数に影響する</h2>
+<p>京都市のmin方式では、育休中に申し込むと<strong>育休復帰加点（+2点）</strong>が付きます。フルタイム共働きなら40点＋2点＝42点がボーダーラインです。</p>
+
+<h2>復帰タイミングの選択肢</h2>
+<table>
+<tr><th>パターン</th><th>メリット</th><th>デメリット</th></tr>
+<tr><td>0歳4月で復帰</td><td>入園しやすい、早期復帰でキャリア維持</td><td>育休給付金が短い、体力的に大変</td></tr>
+<tr><td>1歳4月で復帰</td><td>育休を1年取れる、給付金フル受給</td><td>1歳児クラスは激戦</td></tr>
+<tr><td>1歳途中で復帰</td><td>育休延長が不要</td><td>途中入園は枠が少ない</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>京都市では入園月の翌月末までに復職することが条件です。4月入園なら5月末までに復帰する必要があります。</p>
+</div>
+
+<h2>育休延長の注意点</h2>
+<p>1歳で入園できなかった場合、育休を延長できます。しかし令和7年度から全国的に<strong>育休延長の審査が厳格化</strong>されています。</p>
+
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content">
+<strong>「落選狙い」は危険</strong>
+<p>わざと競争率の高い園だけ希望して不承諾通知を得る手法は、制度改正で通用しにくくなっています。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content">
+<strong>入園意思の確認が強化</strong>
+<p>自治体が「本当に入園する意思があるか」を確認するケースが増えています。</p>
+</div>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>育休延長に関する最新の運用は<a href="https://www.city.kyoto.lg.jp/hagukumi/" target="_blank" rel="noopener">京都市こども若者はぐくみ局</a>に確認してください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 55,
+  },
+  // ===== 園えらび (15) =====
+  {
+    slug: "ninkagai-selection",
+    citySlug: "kyoto",
+    title: "京都市の認可外保育施設の選び方ガイド",
+    description:
+      "京都市で認可外保育施設を検討する方向けに、施設の種類・費用の目安・選ぶ際のチェックポイントを解説します。",
+    image:
+      "https://images.unsplash.com/photo-1576495199011-eb94736d05d6?w=800&h=400&fit=crop",
+    category: "園えらび",
+    categoryColor: "purple",
+    content: `<h2>京都市の認可外保育施設とは</h2>
+<p>認可外保育施設は、認可保育所の基準を満たしていないものの、京都市に届出をして運営されている保育施設です。認可園に入れなかった場合の受け皿として、また認可園申込時の加点を得るために利用されることがあります。</p>
+
+<h2>認可外施設の種類</h2>
+<table>
+<tr><th>種類</th><th>特徴</th></tr>
+<tr><td>企業主導型保育</td><td>企業が設置。従業員枠と地域枠がある</td></tr>
+<tr><td>認可外保育室</td><td>小規模で家庭的な雰囲気。0〜2歳が多い</td></tr>
+<tr><td>ベビーホテル</td><td>夜間・休日対応。一時利用も可能</td></tr>
+<tr><td>院内保育所</td><td>病院等の職員向け。地域枠があれば利用可能</td></tr>
+</table>
+
+<h2>費用の目安</h2>
+<p>京都市内の認可外保育施設の保育料は<span class="highlight">月額5万〜10万円</span>程度が一般的です。入園金が別途かかる施設もあります。</p>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>0〜2歳の非課税世帯は月額42,000円まで、3〜5歳は月額37,000円まで無償化の対象になる場合があります。</p>
+</div>
+
+<h2>選ぶ際のチェックリスト</h2>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content">
+<strong>京都市への届出があるか</strong>
+<p>届出施設一覧はこども若者はぐくみ局の公式サイトで公開されています。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content">
+<strong>立入調査の結果を確認</strong>
+<p>京都市は年1回、認可外施設への立入調査を実施しています。改善指導の有無を確認しましょう。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">3</div>
+<div class="step-content">
+<strong>保育士の配置人数</strong>
+<p>有資格者の割合が高いほど安心です。見学時に聞いてみましょう。</p>
+</div>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>届出施設一覧は<a href="https://www.city.kyoto.lg.jp/hagukumi/" target="_blank" rel="noopener">京都市こども若者はぐくみ局</a>のサイトで確認できます。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 40,
+  },
+  // ===== 制度を知る (16) =====
+  {
+    slug: "futago-hokatsu",
+    citySlug: "kyoto",
+    title: "京都市で双子・多胎児の保活、知っておきたい優遇制度",
+    description:
+      "京都市で双子や三つ子を保育園に入れる際の加点制度や同時入園の優先措置、多胎児ならではの注意点を解説します。",
+    image:
+      "https://images.unsplash.com/photo-1609220136736-443140cffec6?w=800&h=400&fit=crop",
+    category: "制度を知る",
+    categoryColor: "rose",
+    content: `<h2>双子・多胎児の保活は特有の大変さがある</h2>
+<p>双子や三つ子の場合、1人分の保活の大変さが2倍・3倍になります。「2人とも同じ園に入れたい」という希望が強い一方で、空き枠が2名以上ある園は限られます。</p>
+
+<h2>京都市の多胎児向け優遇措置</h2>
+<table>
+<tr><th>項目</th><th>内容</th></tr>
+<tr><td>きょうだい同時申込</td><td>同時に申し込む場合、同一園への入園が優先的に配慮される</td></tr>
+<tr><td>きょうだい加点</td><td>すでに上の子が在園中なら+15点</td></tr>
+<tr><td>保育料の軽減</td><td>同時在園の場合、2人目は半額、3人目以降は無料</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>双子の場合は2人とも新規入園のため、きょうだい在園の加点（+15点）は使えません。ただし「同時入園希望」として配慮される場合があります。窓口で必ず相談しましょう。</p>
+</div>
+
+<h2>双子の保活を成功させるコツ</h2>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content">
+<strong>希望園は定員の大きい園を中心に</strong>
+<p>2名以上の空きが出やすい大規模園を優先的に希望園に入れましょう。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content">
+<strong>「別々の園でもOK」という覚悟も</strong>
+<p>同じ園に入れなかった場合の送迎ルートをシミュレーションしておきましょう。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">3</div>
+<div class="step-content">
+<strong>0歳4月入園を検討</strong>
+<p>1歳児クラスより0歳児クラスの方が枠が多く、2名同時入園の可能性が高まります。</p>
+</div>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>多胎児への配慮措置については、各区のこども若者はぐくみ室に直接お問い合わせください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 35,
+  },
+  // ===== 保活の基本 (17) =====
+  {
+    slug: "hoiku-mama-interview",
+    citySlug: "kyoto",
+    title: "京都市の保活体験談　先輩ママに聞く成功と失敗のリアル",
+    description:
+      "京都市で保活を経験した先輩ママの声を集めました。成功パターンと失敗パターンから学ぶ、リアルな保活事情をお伝えします。",
+    image:
+      "https://images.unsplash.com/photo-1491013516836-7db643ee125a?w=800&h=400&fit=crop",
+    category: "保活の基本",
+    categoryColor: "green",
+    content: `<h2>先輩ママの保活体験を紹介</h2>
+<p>京都市で実際に保活を経験した先輩ママの声をもとに、成功パターンと失敗パターンをまとめました。（個人が特定されないよう内容を一部編集しています）</p>
+
+<h2>成功パターン</h2>
+<h3>Aさん（右京区・1歳4月入園）</h3>
+<div class="point-box">
+<p><strong>42点で人気園に内定</strong></p>
+<p>フルタイム共働き＋育休復帰の42点で、第2希望の園に内定。「第1希望だけでなく、通える範囲の園を8園書いたのが良かった」と振り返ります。見学で雰囲気を確認した園だけを書いたので、どこに決まっても安心でした。</p>
+</div>
+
+<h3>Bさん（伏見区・0歳4月入園）</h3>
+<div class="point-box">
+<p><strong>0歳入園で余裕をもって入園</strong></p>
+<p>1歳は厳しいと聞き、0歳4月で申込。第1希望の園に内定。「育休が短くなるのは寂しかったけど、希望の園に入れて結果的に良かった」とのこと。</p>
+</div>
+
+<h2>失敗パターン</h2>
+<h3>Cさん（中京区・1歳4月入園）</h3>
+<div class="info-box">
+<p><strong>希望園を3つしか書かず保留に</strong></p>
+<p>「この3園以外は考えられない」と希望を絞った結果、一次で保留に。二次で希望を追加して入園できたものの、慣らし保育の期間が短くなって大変だったそうです。</p>
+</div>
+
+<h3>Dさん（左京区・1歳4月入園）</h3>
+<div class="info-box">
+<p><strong>時短勤務で点数が下がってしまった</strong></p>
+<p>就労証明書に時短勤務（週30時間）の時間を記載したところ、min方式で30点に。42点のボーダーに届かず、希望園すべて保留でした。「フルタイムの契約で出せばよかった」と悔やんでいます。</p>
+</div>
+
+<h2>体験談から学ぶポイント</h2>
+<ul>
+<li>希望園はできるだけ多く書く（最低5園以上推奨）</li>
+<li>就労証明書の記載内容は点数に直結するので慎重に</li>
+<li>見学は妊娠中から始めると余裕がある</li>
+<li>激戦区なら0歳入園も選択肢に入れる</li>
+</ul>`,
+    publishedAt: "2026-04-07",
+    popularity: 60,
+  },
+  // ===== データ分析 (18) =====
+  {
+    slug: "waiting-child-data",
+    citySlug: "kyoto",
+    title: "京都市の待機児童データ分析　数字の裏側を読み解く",
+    description:
+      "京都市は待機児童ゼロを維持していますが、隠れ待機児童は約400人。統計の読み方と実態を解説します。",
+    image:
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=400&fit=crop",
+    category: "データ分析",
+    categoryColor: "teal",
+    content: `<h2>京都市は待機児童ゼロ、でも油断禁物</h2>
+<p>京都市は<span class="highlight">9年以上連続</span>で待機児童ゼロを達成しています。しかしこの数字には注意が必要です。</p>
+
+<h2>「待機児童」と「保留児童」の違い</h2>
+<table>
+<tr><th>区分</th><th>定義</th><th>京都市の人数</th></tr>
+<tr><td>待機児童</td><td>国の定義に基づく。特定園のみ希望・育休中などは除外</td><td>0人</td></tr>
+<tr><td>保留児童（隠れ待機）</td><td>希望する園に入れずに待っている実数</td><td>約400人</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>「待機児童ゼロ＝誰でも入れる」ではありません。特に人気エリアの1歳児クラスは、保留になるケースが一定数あります。</p>
+</div>
+
+<h2>区別の保留児童の傾向</h2>
+<table>
+<tr><th>区</th><th>傾向</th></tr>
+<tr><td>右京区</td><td>ファミリー層が多く保留が出やすい</td></tr>
+<tr><td>西京区</td><td>洛西ニュータウン周辺で需要が高い</td></tr>
+<tr><td>中京区</td><td>都心部で小規模園も満員になりやすい</td></tr>
+<tr><td>伏見区・山科区</td><td>園の数が多く比較的余裕がある</td></tr>
+</table>
+
+<h2>データを保活に活かすには</h2>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content">
+<strong>各園の受入枠と申込数を比較</strong>
+<p>京都市公式サイトで公開されている受入枠データを見て、倍率の低い園を探しましょう。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content">
+<strong>年齢別に空き状況をチェック</strong>
+<p>0歳は空きがあっても1歳は満員ということがよくあります。年齢ごとにチェックしましょう。</p>
+</div>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>最新の受入枠・空き情報は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000227761.html" target="_blank" rel="noopener">京都市公式サイト</a>で公開されています。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 55,
+  },
+  // ===== 園えらび (19) =====
+  {
+    slug: "small-nursery-guide",
+    citySlug: "kyoto",
+    title: "京都市の小規模保育事業とは？メリットと3歳の壁対策",
+    description:
+      "京都市の小規模保育事業の特徴・メリット・デメリットと、卒園後の3歳の壁への対策を解説します。",
+    image:
+      "https://images.unsplash.com/photo-1577896852618-01da1dd79f7e?w=800&h=400&fit=crop",
+    category: "園えらび",
+    categoryColor: "purple",
+    content: `<h2>小規模保育事業とは</h2>
+<p>小規模保育事業は<strong>0〜2歳児</strong>を対象とした定員6〜19名の保育施設です。京都市内には多数の小規模保育事業所があり、認可保育所と同じ利用調整で入園します。</p>
+
+<h2>小規模保育のメリット</h2>
+<table>
+<tr><th>メリット</th><th>内容</th></tr>
+<tr><td>少人数保育</td><td>保育士の目が行き届きやすい</td></tr>
+<tr><td>入りやすい</td><td>認可園より空きがある場合が多い</td></tr>
+<tr><td>アットホーム</td><td>家庭的な雰囲気で初めての集団生活に馴染みやすい</td></tr>
+<tr><td>駅近が多い</td><td>ビルのテナント等に設置され、通勤途中に預けやすい</td></tr>
+</table>
+
+<h2>「3歳の壁」とは？</h2>
+<p>小規模保育は2歳児クラスまでのため、3歳になると転園が必要です。これを「3歳の壁」と呼びます。</p>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>京都市では小規模保育の卒園児に対して、連携先の認可保育所が設定されている場合があります。入園前に連携先を確認しておくと安心です。</p>
+</div>
+
+<h2>3歳の壁を乗り越えるには</h2>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content">
+<strong>連携先の園を確認</strong>
+<p>入園前に「卒園後の連携先はどこか」を園に確認しましょう。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content">
+<strong>幼稚園（認定こども園）も選択肢に</strong>
+<p>3歳以降は認定こども園の保育所部分に移ることも可能です。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">3</div>
+<div class="step-content">
+<strong>きょうだい加点を活用</strong>
+<p>小規模保育に在園中の子がいると、きょうだいの認可園申込時に加点が付く場合があります。</p>
+</div>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>小規模保育の施設一覧は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000227761.html" target="_blank" rel="noopener">京都市公式サイト</a>で確認できます。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 50,
+  },
+  // ===== 点数アップ (20) =====
+  {
+    slug: "secondchild-hokatsu",
+    citySlug: "kyoto",
+    title: "京都市で2人目の保活、きょうだい加点+15を最大活用する方法",
+    description:
+      "京都市の保育園入園で強力なきょうだい加点+15点を最大限に活かすための戦略と注意点を解説します。",
+    image:
+      "https://images.unsplash.com/photo-1471286174890-9c112ffca5b4?w=800&h=400&fit=crop",
+    category: "点数アップ",
+    categoryColor: "amber",
+    content: `<h2>きょうだい加点は京都市最強の加点</h2>
+<p>京都市のきょうだい加点は<span class="highlight">+15点</span>。min方式の基本点数に上乗せされるため、2人目の保活は圧倒的に有利です。</p>
+
+<h2>きょうだい加点の条件</h2>
+<table>
+<tr><th>条件</th><th>内容</th></tr>
+<tr><td>対象</td><td>上の子が認可保育所・認定こども園・小規模保育に在園中</td></tr>
+<tr><td>加点</td><td>+15点</td></tr>
+<tr><td>希望園の条件</td><td>上の子が在園している園を希望に含めること</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>フルタイム共働き40点＋育休復帰2点＋きょうだい加点15点＝<strong>57点</strong>。この点数であれば、ほぼ確実に希望園に入園できます。</p>
+</div>
+
+<h2>きょうだい加点を最大活用する戦略</h2>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content">
+<strong>上の子と同じ園を第1希望に</strong>
+<p>きょうだい加点の条件である「在園中の園を希望」を必ず満たしましょう。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content">
+<strong>上の子が卒園する前に申し込む</strong>
+<p>上の子が卒園してしまうときょうだい加点がなくなります。年齢差に注意しましょう。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">3</div>
+<div class="step-content">
+<strong>保育料の軽減も確認</strong>
+<p>同時在園の場合、2人目は保育料が半額になります（3人目以降は無料）。</p>
+</div>
+</div>
+
+<h2>注意点：上の子が小規模保育の場合</h2>
+<p>上の子が小規模保育に通っている場合、2歳児クラスで卒園するため、下の子の保活時にはきょうだい加点がなくなる可能性があります。年齢差とタイミングを計算しておきましょう。</p>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>きょうだい加点の詳細は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000227761.html" target="_blank" rel="noopener">京都市の利用調整基準</a>で確認できます。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 55,
+  },
 ];
 
 registerArticles(articles);
