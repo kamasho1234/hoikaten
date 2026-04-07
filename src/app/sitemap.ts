@@ -106,6 +106,7 @@ import "@/lib/articles/kurume";
 import "@/lib/articles/miyazaki";
 import "@/lib/articles/kodaira";
 import "@/lib/articles/higashimurayama";
+import "@/lib/articles/chiba";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const municipalities = getAllMunicipalities();

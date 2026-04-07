@@ -164,6 +164,7 @@ import "@/lib/articles/kushiro";
 import "@/lib/articles/ebetsu";
 import "@/lib/articles/uji";
 import "@/lib/articles/higashihiroshima";
+import "@/lib/articles/chiba";
 
 import { getAllMunicipalities } from "@/lib/data";
 import { HeaderNav } from "@/components/header-nav";
