@@ -148,6 +148,14 @@ import "@/lib/articles/nagareyama";
 import "@/lib/articles/urayasu";
 import "@/lib/articles/narashino";
 import "@/lib/articles/noda";
+import "@/lib/articles/kakogawa";
+import "@/lib/articles/takarazuka";
+import "@/lib/articles/itami";
+import "@/lib/articles/kawanishi";
+import "@/lib/articles/kasugai";
+import "@/lib/articles/anjo";
+import "@/lib/articles/kariya";
+import "@/lib/articles/toyokawa";
 
 import { getAllMunicipalities } from "@/lib/data";
 import { HeaderNav } from "@/components/header-nav";
