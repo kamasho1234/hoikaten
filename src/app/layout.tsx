@@ -140,6 +140,14 @@ import "@/lib/articles/kofu";
 import "@/lib/articles/matsumoto";
 import "@/lib/articles/yokkaichi";
 import "@/lib/articles/kusatsu";
+import "@/lib/articles/ichikawa";
+import "@/lib/articles/matsudo";
+import "@/lib/articles/ichihara";
+import "@/lib/articles/yachiyo";
+import "@/lib/articles/nagareyama";
+import "@/lib/articles/urayasu";
+import "@/lib/articles/narashino";
+import "@/lib/articles/noda";
 
 import { getAllMunicipalities } from "@/lib/data";
 import { HeaderNav } from "@/components/header-nav";
