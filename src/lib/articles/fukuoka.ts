@@ -1056,6 +1056,1309 @@ const articles: Article[] = [
     publishedAt: "2026-04-07",
     popularity: 55,
   },
+
+  // ===== 就労形態 (3) =====
+  {
+    slug: "self-employed-score",
+    citySlug: "fukuoka",
+    title: "福岡市で自営業・フリーランスの保活｜点数の出し方と必要書類",
+    description:
+      "福岡市で自営業やフリーランスが保育園に申し込む際の点数の決まり方や必要書類を解説します。",
+    image:
+      "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=800&h=400&fit=crop",
+    category: "点数・選考",
+    categoryColor: "blue",
+    content: `<h2>自営業・フリーランスの基本点数</h2>
+<p>福岡市では、自営業やフリーランスの方も会社員と同じ基準で基本点数が算出されます。<span class="highlight">月の就労時間</span>が判定基準です。</p>
+
+<table>
+<tr><th>月の就労時間</th><th>基本点数</th></tr>
+<tr><td>160時間以上</td><td>150</td></tr>
+<tr><td>140時間以上160時間未満</td><td>140</td></tr>
+<tr><td>120時間以上140時間未満</td><td>130</td></tr>
+<tr><td>100時間以上120時間未満</td><td>110</td></tr>
+<tr><td>64時間以上100時間未満</td><td>70〜90</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>自営業の方は「就労証明書」の代わりに「自営業申告書」を提出します。就労時間を客観的に証明できる資料（確定申告書の控え、開業届の写し等）を添付すると審査がスムーズです。</p>
+</div>
+
+<h2>必要書類</h2>
+<ul>
+<li>自営業申告書（福岡市所定の様式）</li>
+<li>開業届の写し、または確定申告書（第一表）の控え</li>
+<li>業務内容がわかる資料（名刺、ホームページのコピーなど）</li>
+</ul>
+
+<h2>注意点</h2>
+<p>開業届を出してすぐに「就労中」として認められるわけではありません。実際に稼働していることを示す実績が求められます。開業したばかりの場合は、区役所の子育て支援課に事前相談しましょう。</p>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>申請に必要な書類一覧は<a href="https://www.city.fukuoka.lg.jp/kodomo-mirai/hoiku/child/Index_R7.html" target="_blank" rel="noopener">福岡市「保育施設等利用のご案内」</a>でご確認ください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 45,
+  },
+  {
+    slug: "naishoku-score",
+    citySlug: "fukuoka",
+    title: "福岡市で内職・在宅ワークの場合の点数｜居宅外就労との違い",
+    description:
+      "福岡市で内職や在宅ワークをしている場合の入園点数の扱いと、居宅外就労との違いを解説します。",
+    image:
+      "https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?w=800&h=400&fit=crop",
+    category: "点数・選考",
+    categoryColor: "blue",
+    content: `<h2>在宅ワークと居宅外就労の点数差</h2>
+<p>福岡市の利用調整では、就労場所が<strong>居宅外</strong>か<strong>居宅内</strong>かで基本点数の扱いが変わる場合があります。</p>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>福岡市では居宅内就労（在宅ワーク）でも、就労時間が同じであれば基本点数は居宅外就労と同じ点数が適用されます。ただし、調整点数で差がつく場合があるため、最新の利用調整基準表で確認してください。</p>
+</div>
+
+<h2>在宅ワーク（居宅内就労）の証明方法</h2>
+<ul>
+<li>雇用契約がある場合：就労証明書に「在宅勤務」と記載してもらう</li>
+<li>フリーランスの場合：自営業申告書＋業務委託契約書など</li>
+<li>内職の場合：内職証明書または委託元からの証明</li>
+</ul>
+
+<h2>在宅ワークで注意すべき点</h2>
+<p>在宅ワークの場合、「自宅にいるなら保育は不要では？」と思われがちですが、福岡市では在宅勤務でも保育の必要性は認められています。就労時間の実態を正確に申告することが大切です。</p>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>就労証明書の記入方法については、お住まいの区役所子育て支援課にお問い合わせください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 35,
+  },
+
+  // ===== 保活の基本 (5) =====
+  {
+    slug: "kyushoku-hokatsu",
+    citySlug: "fukuoka",
+    title: "福岡市で求職中の保活｜点数は低い？入園を成功させるコツ",
+    description:
+      "福岡市で求職活動中に保育園に申し込む場合の点数や、入園を成功させるための戦略を解説します。",
+    image:
+      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=400&fit=crop",
+    category: "保活の基本",
+    categoryColor: "green",
+    content: `<h2>求職中の基本点数</h2>
+<p>福岡市では、求職活動中も保育の必要性が認められますが、基本点数は就労中と比べて低く設定されています。</p>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>求職活動の基本点数は<span class="highlight">50点</span>前後です。フルタイム就労の150点と比べると大きな差があるため、4月の一斉入所で人気園に内定するのは難しいのが実情です。</p>
+</div>
+
+<h2>求職中でも入園を成功させる戦略</h2>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content"><strong>不人気園・小規模保育を狙う</strong><p>定員割れしている園や、駅から遠い園は求職中の点数でも入園できる可能性があります。</p></div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content"><strong>途中入園を狙う</strong><p>4月以降の途中入園は競争が緩やかになることがあります。毎月の空き状況をチェックしましょう。</p></div>
+</div>
+<div class="step">
+<div class="step-num">3</div>
+<div class="step-content"><strong>認可外保育施設を利用して就職活動</strong><p>認可外施設に一時的に預けて就労実績を作り、次の4月入所に備える方法もあります。</p></div>
+</div>
+
+<h2>入園後の注意点</h2>
+<p>求職中で入園した場合、入園後<strong>90日以内</strong>に就労を開始する必要があります。期限内に就労を開始できない場合は退園となる可能性があるため注意してください。詳しくはお住まいの区役所にご確認ください。</p>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>求職活動中の申込みについては<a href="https://www.city.fukuoka.lg.jp/kodomo-mirai/hoiku/child/Index_R7.html" target="_blank" rel="noopener">福岡市「保育施設等利用のご案内」</a>でご確認ください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 40,
+  },
+  {
+    slug: "tenshoku-timing",
+    citySlug: "fukuoka",
+    title: "福岡市で転職と保活を両立する方法｜点数への影響と注意点",
+    description:
+      "福岡市で保活中や入園後に転職する場合の点数への影響、必要な手続きを解説します。",
+    image:
+      "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&h=400&fit=crop",
+    category: "保活の基本",
+    categoryColor: "green",
+    content: `<h2>転職が点数に与える影響</h2>
+<p>保活中に転職すると、就労状況が変わるため基本点数に影響する場合があります。</p>
+
+<h3>転職前後で注意すべき点</h3>
+<ul>
+<li><strong>就労時間が減る場合</strong>：基本点数が下がる可能性あり</li>
+<li><strong>就労時間が増える場合</strong>：基本点数が上がる可能性あり</li>
+<li><strong>転職活動中の空白期間</strong>：「求職中」扱いとなり、点数が大幅に下がるリスクあり</li>
+</ul>
+
+<div class="warn-box">
+<p><strong>注意</strong></p>
+<p>入園申込後〜入園までの間に転職する場合、新しい就労証明書の提出が必要です。提出が遅れると内定取消になる場合もあります。</p>
+</div>
+
+<h2>ベストな転職タイミング</h2>
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>保活への影響を最小限にするなら、<span class="highlight">入園が確定した後（4月以降）に転職する</span>のが安全です。就労証明書は入園時点の勤務先で発行してもらい、入園後に転職するのが理想です。</p>
+</div>
+
+<h2>入園後の転職手続き</h2>
+<p>入園後に転職した場合は、速やかに新しい就労証明書を区役所に提出する必要があります。就労時間が月64時間を下回ると保育の必要性が認められなくなる可能性があるため、転職先の勤務条件に注意してください。</p>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>入園後の変更届については、お住まいの区役所子育て支援課にお問い合わせください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 35,
+  },
+  {
+    slug: "age2-nyuen",
+    citySlug: "fukuoka",
+    title: "福岡市の2歳児入園｜小規模保育卒園後の受け皿と点数",
+    description:
+      "福岡市で2歳児クラスから入園する方法と、小規模保育卒園後の連携施設・卒園加点について解説します。",
+    image:
+      "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+    category: "保活の基本",
+    categoryColor: "green",
+    content: `<h2>2歳児クラスの入園状況</h2>
+<p>福岡市の2歳児クラスは、0・1歳からの持ち上がりで枠が埋まっていることが多く、新規入園は狭き門です。ただし、小規模保育事業の卒園児には<span class="highlight">卒園加点</span>が設けられています。</p>
+
+<h2>小規模保育の卒園加点</h2>
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>小規模保育事業（0〜2歳）を卒園する児童が3歳児クラス（年少）に申し込む場合、調整点数で加点があります。連携施設への申込みではさらに優先されます。詳しくはお住まいの区役所にご確認ください。</p>
+</div>
+
+<h2>2歳児入園の戦略</h2>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content"><strong>小規模保育を経由する</strong><p>0〜1歳で小規模保育に入園し、卒園加点を活用して3歳児クラスで認可園に転園する「2段階方式」が有効です。</p></div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content"><strong>連携施設を確認する</strong><p>小規模保育事業には「連携施設」が設定されていることがあります。連携施設への転園は優先的に調整されます。</p></div>
+</div>
+<div class="step">
+<div class="step-num">3</div>
+<div class="step-content"><strong>認定こども園も視野に</strong><p>認定こども園の2号認定枠（3歳以上）は定員が比較的多く、小規模保育卒園後の受け皿として有力です。</p></div>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>小規模保育の連携施設一覧は<a href="https://www.city.fukuoka.lg.jp/kodomo-mirai/hoiku/child/Index_R7.html" target="_blank" rel="noopener">福岡市「保育施設等利用のご案内」</a>に掲載されています。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 40,
+  },
+  {
+    slug: "age3-ikou",
+    citySlug: "fukuoka",
+    title: "福岡市の3歳の壁｜小規模保育からの転園を成功させるには",
+    description:
+      "福岡市で小規模保育を卒園した後、3歳児クラスへの転園を成功させるための準備と戦略を解説します。",
+    image:
+      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
+    category: "保活の基本",
+    categoryColor: "green",
+    content: `<h2>「3歳の壁」とは</h2>
+<p>小規模保育事業は0〜2歳児が対象のため、3歳になると卒園し、新たな預け先を探す必要があります。これが<span class="highlight">「3歳の壁」</span>と呼ばれる問題です。</p>
+
+<h2>福岡市の3歳の壁対策</h2>
+<p>福岡市では小規模保育の卒園児に対していくつかの支援策を設けています。</p>
+<ul>
+<li><strong>連携施設制度</strong>：小規模保育事業に連携施設（認可園等）が設定されており、卒園児は優先的に受け入れられます</li>
+<li><strong>卒園加点</strong>：連携施設以外への申込みでも、利用調整で加点があります</li>
+<li><strong>認定こども園の活用</strong>：3歳児以上の定員が多い認定こども園も受け皿として機能しています</li>
+</ul>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>小規模保育に入園する段階で、連携施設がどの園に設定されているかを必ず確認しましょう。連携施設がない、または希望に合わない場合は、卒園加点を活用した他園への申込みを早めに計画してください。</p>
+</div>
+
+<h2>3歳の壁を乗り越えるスケジュール</h2>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content"><strong>入園前（0〜1歳）</strong><p>小規模保育を選ぶ際に連携施設を確認する</p></div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content"><strong>2歳児クラス在園中（秋頃）</strong><p>翌年度4月入所の申込みで連携施設・希望園を記入する</p></div>
+</div>
+<div class="step">
+<div class="step-num">3</div>
+<div class="step-content"><strong>結果発表後</strong><p>内定が出なかった場合は二次募集に申込み、並行して認可外も検討する</p></div>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>連携施設の情報は各小規模保育事業所、または<a href="https://www.city.fukuoka.lg.jp/kodomo-mirai/hoiku/child/Index_R7.html" target="_blank" rel="noopener">福岡市「保育施設等利用のご案内」</a>でご確認ください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 40,
+  },
+  {
+    slug: "nyuyoji-age0",
+    citySlug: "fukuoka",
+    title: "福岡市の0歳児入園｜生後何か月から？メリットとデメリット",
+    description:
+      "福岡市で0歳児クラスに入園するための条件や、0歳入園のメリット・デメリットを解説します。",
+    image:
+      "https://images.unsplash.com/photo-1519689680058-324335c77eba?w=800&h=400&fit=crop",
+    category: "保活の基本",
+    categoryColor: "green",
+    content: `<h2>0歳児入園の条件</h2>
+<p>福岡市の認可保育園では、<span class="highlight">生後57日（生後2か月）</span>から受入れ可能な園があります。ただし、園によって受入開始月齢が異なるため、必ず希望する園の受入月齢を確認してください。</p>
+
+<h2>0歳児入園のメリット</h2>
+<ul>
+<li><strong>定員枠が多い</strong>：0歳児クラスは全員が新規入園のため、定員＝募集枠です</li>
+<li><strong>1歳より競争が緩やか</strong>：1歳児クラスは持ち上がりがあるため募集枠が少なく、0歳の方が入りやすい傾向があります</li>
+<li><strong>育休復帰の加点が使える</strong>：育休明けの復職予定として+15点の加点が得られます</li>
+</ul>
+
+<h2>0歳児入園のデメリット</h2>
+<ul>
+<li><strong>育休を短縮する必要がある</strong>：4月入園の場合、生後数か月で預けることになります</li>
+<li><strong>体調を崩しやすい</strong>：集団生活で感染症にかかりやすく、慣らし保育にも時間がかかります</li>
+<li><strong>持ち物の準備が多い</strong>：ミルク・離乳食対応など、0歳児特有の準備が必要です</li>
+</ul>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>福岡市では0歳児クラスの定員は園によって6〜15名程度と幅があります。定員が多い園を選ぶと入園の可能性が高まります。</p>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>各園の受入月齢・定員は<a href="https://www.city.fukuoka.lg.jp/kodomo-mirai/hoiku/child/Index_R7.html" target="_blank" rel="noopener">福岡市「保育施設等利用のご案内」</a>でご確認ください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 45,
+  },
+
+  // ===== 園えらび (3) =====
+  {
+    slug: "nintei-kodomoen",
+    citySlug: "fukuoka",
+    title: "福岡市の認定こども園ガイド｜保育園との違いと選び方",
+    description:
+      "福岡市の認定こども園の特徴、保育園・幼稚園との違い、入園手続きの流れを解説します。",
+    image:
+      "https://images.unsplash.com/photo-1576495169037-3867b0cb0d46?w=800&h=400&fit=crop",
+    category: "園えらび",
+    categoryColor: "purple",
+    content: `<h2>認定こども園とは</h2>
+<p>認定こども園は、<strong>保育園と幼稚園の機能を一体化</strong>した施設です。保育を必要とする子ども（2号・3号認定）も、教育を希望する子ども（1号認定）も同じ施設で過ごせます。</p>
+
+<h2>保育園との違い</h2>
+<table>
+<tr><th>項目</th><th>認可保育園</th><th>認定こども園</th></tr>
+<tr><td>対象年齢</td><td>0〜5歳</td><td>0〜5歳</td></tr>
+<tr><td>利用できる認定</td><td>2号・3号のみ</td><td>1号・2号・3号</td></tr>
+<tr><td>教育カリキュラム</td><td>園による</td><td>幼稚園教育要領に基づく教育あり</td></tr>
+<tr><td>保護者の就労要件</td><td>必要</td><td>1号認定は不要</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>福岡市内の認定こども園は年々増加しています。2号・3号認定（保育を必要とする子ども）の入園は、認可保育園と同じ利用調整の対象です。認定こども園だから入りやすい・入りにくいということはありません。</p>
+</div>
+
+<h2>認定こども園のメリット</h2>
+<ul>
+<li>就労状況が変わっても退園不要（2号→1号に変更可能な園もある）</li>
+<li>教育的なカリキュラムが充実している園が多い</li>
+<li>3歳以上の定員が多く、小規模保育卒園後の受け皿として有力</li>
+</ul>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>福岡市内の認定こども園の一覧は<a href="https://www.city.fukuoka.lg.jp/kodomo-mirai/hoiku/child/Index_R7.html" target="_blank" rel="noopener">福岡市「保育施設等利用のご案内」</a>に掲載されています。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 35,
+  },
+  {
+    slug: "kigyou-shudogata",
+    citySlug: "fukuoka",
+    title: "福岡市の企業主導型保育園｜認可外だけど使えるメリットとは",
+    description:
+      "福岡市の企業主導型保育園の特徴、認可保育園との違い、保活における活用法を解説します。",
+    image:
+      "https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?w=800&h=400&fit=crop",
+    category: "園えらび",
+    categoryColor: "purple",
+    content: `<h2>企業主導型保育園とは</h2>
+<p>企業主導型保育園は、企業が従業員の子どもを預けるために設置した保育施設です。<span class="highlight">認可外</span>ですが、国から運営費の助成を受けているため、認可保育園並みの保育料で利用できることが多いです。</p>
+
+<h2>企業主導型保育園のメリット</h2>
+<ul>
+<li><strong>利用調整なし</strong>：園との直接契約のため、点数に関係なく入園できる</li>
+<li><strong>保育料が安い</strong>：国の助成があり、認可外の一般的な保育施設より低額</li>
+<li><strong>柔軟な受入れ</strong>：企業の従業員枠と地域枠があり、地域枠なら誰でも申し込める</li>
+</ul>
+
+<h2>注意点</h2>
+<ul>
+<li>地域枠には定員の上限（定員の50%以内）がある</li>
+<li>園によって保育の質にばらつきがある</li>
+<li>無償化の対象になるには保育の必要性の認定（施設等利用給付認定）が必要</li>
+</ul>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>認可保育園の選考に落ちた場合の「つなぎ」として企業主導型保育園を利用し、翌年度に認可保育園への転園を目指す保護者も多いです。福岡市内にも多数の企業主導型保育園があるので、選択肢として覚えておきましょう。</p>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>企業主導型保育園の検索は<a href="https://www.kigyounaihoiku.jp/" target="_blank" rel="noopener">企業主導型保育事業ポータルサイト</a>で行えます。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 30,
+  },
+  {
+    slug: "yakan-hoiku",
+    citySlug: "fukuoka",
+    title: "福岡市の夜間保育・延長保育ガイド｜対応園と利用条件",
+    description:
+      "福岡市で夜間保育や延長保育を利用する方法、対応している園の探し方を解説します。",
+    image:
+      "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&h=400&fit=crop",
+    category: "園えらび",
+    categoryColor: "purple",
+    content: `<h2>夜間保育とは</h2>
+<p>夜間保育は、おおむね<strong>午後6時以降</strong>も保育を行う施設です。夜勤やシフト勤務の保護者にとって重要な選択肢です。</p>
+
+<h2>延長保育について</h2>
+<p>福岡市の多くの認可保育園では延長保育を実施しています。通常の保育時間（標準時間認定で最大11時間）を超えて預ける場合に利用できます。</p>
+
+<table>
+<tr><th>認定区分</th><th>保育時間</th><th>延長保育</th></tr>
+<tr><td>保育標準時間</td><td>最大11時間</td><td>11時間を超える部分が延長保育</td></tr>
+<tr><td>保育短時間</td><td>最大8時間</td><td>8時間を超える部分が延長保育</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>延長保育の利用料は園によって異なります。月額制の園と、日額制の園があるので、見学時に確認しましょう。</p>
+</div>
+
+<h2>夜間保育園の探し方</h2>
+<p>福岡市内の夜間保育対応園は限られています。お住まいの区役所子育て支援課に問い合わせるか、福岡市の保育施設一覧で「夜間保育」の対応状況を確認してください。</p>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>延長保育・夜間保育の実施状況は<a href="https://www.city.fukuoka.lg.jp/kodomo-mirai/hoiku/child/Index_R7.html" target="_blank" rel="noopener">福岡市「保育施設等利用のご案内」</a>でご確認ください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 25,
+  },
+
+  // ===== 制度を知る (5) =====
+  {
+    slug: "mushoka-seido",
+    citySlug: "fukuoka",
+    title: "福岡市の保育料無償化｜対象範囲と手続きをわかりやすく解説",
+    description:
+      "福岡市の幼児教育・保育の無償化制度について、対象年齢や施設、手続き方法を解説します。",
+    image:
+      "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=400&fit=crop",
+    category: "制度を知る",
+    categoryColor: "rose",
+    content: `<h2>保育料無償化とは</h2>
+<p>2019年10月から始まった幼児教育・保育の無償化により、一定の条件を満たす子どもの保育料が無料になりました。</p>
+
+<h2>無償化の対象</h2>
+<table>
+<tr><th>対象</th><th>無償化の内容</th></tr>
+<tr><td>3〜5歳児クラス（全世帯）</td><td>認可保育園・認定こども園・幼稚園の保育料が無料</td></tr>
+<tr><td>0〜2歳児クラス（住民税非課税世帯）</td><td>認可保育園の保育料が無料</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>福岡市の独自制度として、<span class="highlight">第2子以降の保育料は年齢・所得制限なく無償</span>です（認可・認可外ともに対象）。これは全国的にも手厚い制度です。</p>
+</div>
+
+<h2>無償化の対象外</h2>
+<p>以下の費用は無償化の対象外です。</p>
+<ul>
+<li>給食費（主食費・副食費）</li>
+<li>延長保育料</li>
+<li>通園バス代</li>
+<li>行事費、教材費など</li>
+</ul>
+
+<h2>認可外保育施設の無償化</h2>
+<p>認可外保育施設を利用する場合、「施設等利用給付認定（新2号・新3号）」を受ければ、月額37,000円（3〜5歳児）または42,000円（0〜2歳住民税非課税世帯）を上限に無償化されます。</p>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>無償化の手続きについては<a href="https://www.city.fukuoka.lg.jp/kodomo-mirai/hoiku/child/Index_R7.html" target="_blank" rel="noopener">福岡市「保育施設等利用のご案内」</a>をご確認ください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 50,
+  },
+  {
+    slug: "shokuhi-jippi",
+    citySlug: "fukuoka",
+    title: "福岡市の保育園の給食費｜実費負担の目安と免除条件",
+    description:
+      "福岡市の保育園で実費負担となる給食費（主食費・副食費）の金額の目安と免除条件を解説します。",
+    image:
+      "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&h=400&fit=crop",
+    category: "制度を知る",
+    categoryColor: "rose",
+    content: `<h2>給食費は実費負担</h2>
+<p>保育料が無償化された3〜5歳児クラスでも、<span class="highlight">給食費（主食費＋副食費）は実費負担</span>です。園によって金額は異なりますが、月額4,500〜7,000円程度が目安です。</p>
+
+<h2>主食費と副食費の内訳</h2>
+<table>
+<tr><th>項目</th><th>内容</th><th>月額目安</th></tr>
+<tr><td>主食費</td><td>ごはん・パンなどの主食</td><td>1,000〜2,000円程度</td></tr>
+<tr><td>副食費</td><td>おかず・おやつ</td><td>3,500〜5,000円程度</td></tr>
+</table>
+
+<h2>副食費の免除条件</h2>
+<p>以下の条件に該当する場合、副食費が免除されます。</p>
+<ul>
+<li>年収360万円未満相当世帯の子ども</li>
+<li>第3子以降の子ども（一定の条件あり）</li>
+</ul>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>副食費の免除対象かどうかは市町村民税の所得割額で判定されます。該当するかわからない場合は、お住まいの区役所にご確認ください。</p>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>給食費の取扱いについては、各保育園に直接お問い合わせいただくか、<a href="https://www.city.fukuoka.lg.jp/kodomo-mirai/hoiku/child/Index_R7.html" target="_blank" rel="noopener">福岡市「保育施設等利用のご案内」</a>をご確認ください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 30,
+  },
+  {
+    slug: "hoikuryo-keisan",
+    citySlug: "fukuoka",
+    title: "福岡市の保育料の計算方法｜所得別の目安と確認手順",
+    description:
+      "福岡市の認可保育園の保育料がどのように決まるかを解説。所得階層別の保育料の目安と確認方法をまとめました。",
+    image:
+      "https://images.unsplash.com/photo-1554224155-8d04cb21cd6e?w=800&h=400&fit=crop",
+    category: "制度を知る",
+    categoryColor: "rose",
+    content: `<h2>保育料の決まり方</h2>
+<p>福岡市の認可保育園の保育料は、<span class="highlight">世帯の市町村民税の所得割額</span>に基づいて決定されます。</p>
+
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content"><strong>市町村民税の所得割額を確認</strong><p>毎年6月頃に届く「市民税・県民税の決定通知書」で確認できます。</p></div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content"><strong>保育料表で階層を確認</strong><p>福岡市が公開する保育料表に所得割額の階層と保育料が記載されています。</p></div>
+</div>
+<div class="step">
+<div class="step-num">3</div>
+<div class="step-content"><strong>子どもの年齢で保育料が変わる</strong><p>3歳未満児は3歳以上児より保育料が高く設定されています（ただし3歳以上は無償化）。</p></div>
+</div>
+
+<h2>保育料の目安</h2>
+<p>福岡市の0〜2歳児クラスの保育料は、住民税非課税世帯で0円、最高階層で月額55,000円程度です。ただし、福岡市独自の制度として<span class="highlight">第2子以降は保育料が無償</span>です。</p>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>保育料は毎年9月に切り替わります（4〜8月は前年度分、9〜3月は当年度分の税額で算定）。年度途中で保育料が変わることがあるので注意してください。</p>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>保育料の階層表は<a href="https://www.city.fukuoka.lg.jp/kodomo-mirai/hoiku/child/Index_R7.html" target="_blank" rel="noopener">福岡市「保育施設等利用のご案内」</a>に掲載されています。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 45,
+  },
+  {
+    slug: "zeikin-koujo",
+    citySlug: "fukuoka",
+    title: "福岡市の保育料に影響する税額控除｜ふるさと納税・住宅ローン控除",
+    description:
+      "福岡市の保育料算定に影響する税額控除の仕組みと、ふるさと納税や住宅ローン控除が保育料に与える効果を解説します。",
+    image:
+      "https://images.unsplash.com/photo-1554224154-22dec7ec8818?w=800&h=400&fit=crop",
+    category: "制度を知る",
+    categoryColor: "rose",
+    content: `<h2>保育料の算定基準</h2>
+<p>福岡市の保育料は<strong>市町村民税の所得割額</strong>で決まります。この所得割額に影響する税額控除を活用することで、保育料が下がる場合があります。</p>
+
+<h2>保育料に影響する主な控除</h2>
+<table>
+<tr><th>控除の種類</th><th>保育料への影響</th></tr>
+<tr><td>住宅ローン控除（住民税分）</td><td>所得割額が減るため保育料が下がる場合あり</td></tr>
+<tr><td>ふるさと納税</td><td>住民税の税額控除で所得割額が減る場合あり</td></tr>
+<tr><td>医療費控除</td><td>所得控除で課税所得が減るため影響あり</td></tr>
+<tr><td>iDeCo（個人型確定拠出年金）</td><td>所得控除で課税所得が減るため影響あり</td></tr>
+</table>
+
+<div class="warn-box">
+<p><strong>注意</strong></p>
+<p>ふるさと納税の保育料への影響は自治体によって計算方法が異なります。福岡市の具体的な取扱いについてはお住まいの区役所にご確認ください。一般的に、ふるさと納税による住民税の税額控除分は保育料算定の所得割額に反映されない場合があります。</p>
+</div>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>住宅ローン控除は比較的確実に保育料を下げる効果があります。住宅購入と保活のタイミングが重なる方は、税額控除の効果を含めて試算してみましょう。</p>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>保育料の算定方法の詳細はお住まいの区役所子育て支援課にお問い合わせください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 30,
+  },
+  {
+    slug: "shurou-shoumeisho",
+    citySlug: "fukuoka",
+    title: "福岡市の就労証明書の書き方｜記入例と注意点まとめ",
+    description:
+      "福岡市の保育園入園申込みに必要な就労証明書の書き方、よくある記入ミスと対策を解説します。",
+    image:
+      "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&h=400&fit=crop",
+    category: "制度を知る",
+    categoryColor: "rose",
+    content: `<h2>就労証明書とは</h2>
+<p>就労証明書は、保護者が「保育を必要とする事由」を証明するための書類です。<span class="highlight">勤務先に記入・証明してもらう</span>必要があります。</p>
+
+<h2>就労証明書の主な記入項目</h2>
+<ul>
+<li>勤務先の名称・所在地・連絡先</li>
+<li>雇用形態（正社員・パート・派遣等）</li>
+<li>就労日数・就労時間（月の勤務時間が基本点数に直結）</li>
+<li>就労開始日</li>
+<li>育児休業の取得状況・復職予定日</li>
+</ul>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>就労証明書の「月の就労時間」が基本点数を決定します。<span class="highlight">160時間以上で最高の150点</span>です。残業時間は含まれないため、契約上の就労時間を正確に記入してもらいましょう。</p>
+</div>
+
+<h2>よくある記入ミスと対策</h2>
+<table>
+<tr><th>ミスの内容</th><th>影響</th><th>対策</th></tr>
+<tr><td>月の就労時間の計算間違い</td><td>基本点数が変わる</td><td>1週間の就労時間×4.3週で計算</td></tr>
+<tr><td>復職予定日の未記入</td><td>育休復職の加点が得られない</td><td>復職予定日を必ず記入</td></tr>
+<tr><td>勤務先の押印漏れ</td><td>書類不備で受付不可</td><td>提出前に押印を確認</td></tr>
+</table>
+
+<h2>提出期限に余裕を持とう</h2>
+<p>就労証明書は勤務先に依頼してから受け取るまで1〜2週間かかることがあります。申込期限の1か月前には依頼しましょう。</p>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>就労証明書の様式は<a href="https://www.city.fukuoka.lg.jp/kodomo-mirai/hoiku/child/Index_R7.html" target="_blank" rel="noopener">福岡市「保育施設等利用のご案内」</a>からダウンロードできます。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 40,
+  },
+
+  // ===== 申込・手続き (5) =====
+  {
+    slug: "shinsei-shorui-list",
+    citySlug: "fukuoka",
+    title: "福岡市の保育園申込み｜必要書類チェックリスト",
+    description:
+      "福岡市の保育園入園申込みに必要な書類を一覧にまとめました。書類不備を防ぐためのチェックリストです。",
+    image:
+      "https://images.unsplash.com/photo-1568667256549-094345857637?w=800&h=400&fit=crop",
+    category: "保活の基本",
+    categoryColor: "green",
+    content: `<h2>申込みに必要な書類</h2>
+<p>福岡市の保育園入園申込みには以下の書類が必要です。世帯の状況によって追加書類が必要になる場合があります。</p>
+
+<h3>全員が提出する書類</h3>
+<ul>
+<li>保育施設等利用申込書（教育・保育給付認定申請書兼）</li>
+<li>就労証明書（父母それぞれ）</li>
+<li>マイナンバーがわかる書類</li>
+<li>本人確認書類</li>
+</ul>
+
+<h3>該当する場合のみ追加で必要な書類</h3>
+<table>
+<tr><th>状況</th><th>追加書類</th></tr>
+<tr><td>自営業・フリーランス</td><td>自営業申告書、開業届の写し等</td></tr>
+<tr><td>求職中</td><td>求職活動申告書</td></tr>
+<tr><td>ひとり親世帯</td><td>ひとり親であることを証明する書類</td></tr>
+<tr><td>障がいのある子ども</td><td>障害者手帳の写し等</td></tr>
+<tr><td>育休中</td><td>育児休業取得確認書</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>書類不備があると受付が遅れ、選考に影響する場合があります。提出前に区役所の窓口で事前確認することをおすすめします。</p>
+</div>
+
+<div class="warn-box">
+<p><strong>注意</strong></p>
+<p>必要書類は年度によって変更される場合があります。必ず最新の利用案内で確認してください。</p>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>最新の必要書類一覧は<a href="https://www.city.fukuoka.lg.jp/kodomo-mirai/hoiku/child/Index_R7.html" target="_blank" rel="noopener">福岡市「保育施設等利用のご案内」</a>でご確認ください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 50,
+  },
+  {
+    slug: "niji-shinsei-flow",
+    citySlug: "fukuoka",
+    title: "福岡市の二次募集・追加募集の流れ｜一次で落ちても諦めない",
+    description:
+      "福岡市の保育園二次募集・追加募集のスケジュール、申込方法、内定の可能性について解説します。",
+    image:
+      "https://images.unsplash.com/photo-1506784365847-bbad939e9335?w=800&h=400&fit=crop",
+    category: "保活の基本",
+    categoryColor: "green",
+    content: `<h2>二次募集とは</h2>
+<p>一次利用調整で定員に達しなかった園や、内定辞退で空きが出た園について行われる追加の募集です。</p>
+
+<h2>二次募集のスケジュール（目安）</h2>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content"><strong>1月下旬〜2月上旬</strong><p>一次利用調整の結果通知</p></div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content"><strong>2月中旬</strong><p>二次募集の空き状況が公開される</p></div>
+</div>
+<div class="step">
+<div class="step-num">3</div>
+<div class="step-content"><strong>2月下旬</strong><p>二次募集の申込期限</p></div>
+</div>
+<div class="step">
+<div class="step-num">4</div>
+<div class="step-content"><strong>3月上旬</strong><p>二次利用調整の結果通知</p></div>
+</div>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>二次募集は一次で不人気だった園が中心ですが、内定辞退で人気園に空きが出ることもあります。二次募集の空き状況は必ず確認しましょう。</p>
+</div>
+
+<h2>一次で落ちた場合の対応</h2>
+<ul>
+<li>二次募集に申込む（希望園の変更可能）</li>
+<li>認可外保育施設に申込む</li>
+<li>企業主導型保育園を検討する</li>
+<li>育休の延長を検討する</li>
+</ul>
+
+<div class="warn-box">
+<p><strong>注意</strong></p>
+<p>上記のスケジュールは目安です。正確な日程は年度によって異なりますので、最新の案内で確認してください。</p>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>二次募集の情報は<a href="https://www.city.fukuoka.lg.jp/kodomo-mirai/hoiku/child/Index_R7.html" target="_blank" rel="noopener">福岡市「保育施設等利用のご案内」</a>で公開されます。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 45,
+  },
+  {
+    slug: "tenkyo-hokatsu",
+    citySlug: "fukuoka",
+    title: "福岡市に転居予定の方の保活｜市外からの申込み手続き",
+    description:
+      "福岡市に引越し予定の方が保育園に申し込む方法、広域利用の手続き、転居のベストタイミングを解説します。",
+    image:
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=400&fit=crop",
+    category: "保活の基本",
+    categoryColor: "green",
+    content: `<h2>市外からの申込み方法</h2>
+<p>福岡市外に住んでいて、福岡市内の保育園に入園を希望する場合は<strong>「広域利用」</strong>の手続きが必要です。</p>
+
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content"><strong>現住所の自治体に相談</strong><p>まず、現在お住まいの自治体の保育課で福岡市への広域利用申込みについて相談します。</p></div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content"><strong>現住所の自治体経由で申込み</strong><p>申込書は現住所の自治体に提出し、自治体間で書類のやりとりが行われます。</p></div>
+</div>
+<div class="step">
+<div class="step-num">3</div>
+<div class="step-content"><strong>転居の確約が必要</strong><p>入園月までに福岡市に転入することを証明する書類（売買契約書、賃貸契約書等）の提出が必要です。</p></div>
+</div>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>広域利用の申込締切は福岡市の通常の締切よりも早い場合があります。転居が決まったら早めに動きましょう。</p>
+</div>
+
+<h2>転居のベストタイミング</h2>
+<p>4月入園を目指すなら、<span class="highlight">申込期限（10〜11月頃）までに転居先の契約を済ませておく</span>のが理想です。転居後に改めて福岡市内から直接申し込むこともできますが、スケジュールがタイトになります。</p>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>広域利用の手続きについては、お住まいの自治体の保育課および福岡市のこども未来局にお問い合わせください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 30,
+  },
+  {
+    slug: "kyoiku-hoiku-chigai",
+    citySlug: "fukuoka",
+    title: "福岡市の1号・2号・3号認定の違い｜保育認定の基礎知識",
+    description:
+      "福岡市の保育園入園に必要な「保育認定」（1号・2号・3号）の違いと、認定の受け方を解説します。",
+    image:
+      "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&h=400&fit=crop",
+    category: "制度を知る",
+    categoryColor: "rose",
+    content: `<h2>保育認定（支給認定）とは</h2>
+<p>保育園や幼稚園を利用するには、市から<strong>「支給認定」</strong>を受ける必要があります。認定区分は以下の3つです。</p>
+
+<table>
+<tr><th>認定区分</th><th>対象年齢</th><th>利用できる施設</th><th>保育の必要性</th></tr>
+<tr><td>1号認定</td><td>3〜5歳</td><td>幼稚園・認定こども園（教育部分）</td><td>不要</td></tr>
+<tr><td>2号認定</td><td>3〜5歳</td><td>保育園・認定こども園（保育部分）</td><td>必要</td></tr>
+<tr><td>3号認定</td><td>0〜2歳</td><td>保育園・認定こども園・小規模保育等</td><td>必要</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>認可保育園に入園するには<span class="highlight">2号または3号認定</span>が必要です。「保育の必要性」とは、就労・妊娠出産・疾病・介護・求職活動などの事由を指します。</p>
+</div>
+
+<h2>認定の申請方法</h2>
+<p>保育園の入園申込みと同時に、支給認定の申請を行います。別途手続きは不要で、入園申込書が認定申請を兼ねています。</p>
+
+<h2>保育標準時間と保育短時間</h2>
+<p>2号・3号認定の場合、さらに「保育標準時間」と「保育短時間」に分かれます。</p>
+<table>
+<tr><th>区分</th><th>月の就労時間</th><th>利用可能時間</th></tr>
+<tr><td>保育標準時間</td><td>120時間以上</td><td>最大11時間</td></tr>
+<tr><td>保育短時間</td><td>64時間以上120時間未満</td><td>最大8時間</td></tr>
+</table>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>支給認定の詳細は<a href="https://www.city.fukuoka.lg.jp/kodomo-mirai/hoiku/child/Index_R7.html" target="_blank" rel="noopener">福岡市「保育施設等利用のご案内」</a>でご確認ください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 40,
+  },
+  {
+    slug: "hokatsu-calendar",
+    citySlug: "fukuoka",
+    title: "福岡市の保活カレンダー｜申込みから入園までのスケジュール",
+    description:
+      "福岡市の保育園入園に向けた年間スケジュールを月別にまとめました。いつ何をすべきかが一目でわかります。",
+    image:
+      "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=800&h=400&fit=crop",
+    category: "保活の基本",
+    categoryColor: "green",
+    content: `<h2>保活カレンダー（4月入園の場合）</h2>
+<p>福岡市で翌年4月の入園を目指す場合のスケジュールです。</p>
+
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content"><strong>4〜6月：情報収集</strong><p>保育施設の種類・申込みの流れを把握する。前年度の利用調整結果（内定点数）を確認する。</p></div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content"><strong>7〜9月：園見学</strong><p>希望する園の見学を予約・実施する。9月頃に翌年度の利用案内が公開される。</p></div>
+</div>
+<div class="step">
+<div class="step-num">3</div>
+<div class="step-content"><strong>10〜11月：申込み</strong><p>一次利用調整の申込期間。就労証明書などの書類を準備して区役所に提出する。</p></div>
+</div>
+<div class="step">
+<div class="step-num">4</div>
+<div class="step-content"><strong>1月下旬〜2月：結果通知</strong><p>一次利用調整の結果が届く。不承諾の場合は二次募集に備える。</p></div>
+</div>
+<div class="step">
+<div class="step-num">5</div>
+<div class="step-content"><strong>2〜3月：入園準備</strong><p>内定園の説明会に参加、必要な持ち物を準備する。</p></div>
+</div>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>園見学は夏場に集中しがちです。人気園は見学予約が取りにくくなるため、<span class="highlight">7月上旬までに電話予約</span>を始めると安心です。</p>
+</div>
+
+<div class="warn-box">
+<p><strong>注意</strong></p>
+<p>上記スケジュールは目安です。正確な日程は年度ごとに異なりますので、福岡市の最新の案内で確認してください。</p>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>最新の申込みスケジュールは<a href="https://www.city.fukuoka.lg.jp/kodomo-mirai/hoiku/child/Index_R7.html" target="_blank" rel="noopener">福岡市「保育施設等利用のご案内」</a>でご確認ください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 55,
+  },
+
+  // ===== データ分析 (3) =====
+  {
+    slug: "souba-tensuu",
+    citySlug: "fukuoka",
+    title: "福岡市の入園ボーダー点数｜区・年齢別の内定相場まとめ",
+    description:
+      "福岡市の保育園入園に必要なボーダーライン（内定最低点数）を区別・年齢別に解説します。",
+    image:
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop",
+    category: "データ分析",
+    categoryColor: "teal",
+    content: `<h2>入園ボーダー点数とは</h2>
+<p>入園ボーダー点数とは、各園で内定が出た世帯のうち<strong>最も低い利用調整点数</strong>のことです。この点数を知ることで、自分の世帯が入園できそうかの目安がわかります。</p>
+
+<h2>区別の傾向</h2>
+<table>
+<tr><th>区</th><th>競争の激しさ</th><th>ボーダーの傾向</th></tr>
+<tr><td>中央区・博多区</td><td>激戦</td><td>フルタイム共働き（150点）＋加点が必要な園が多い</td></tr>
+<tr><td>早良区・南区</td><td>やや激戦</td><td>150点前後で勝負になる園が中心</td></tr>
+<tr><td>東区・西区・城南区</td><td>標準〜やや緩やか</td><td>エリアにより差が大きい</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>同じ区内でも園によってボーダーは大きく異なります。駅近の人気園は加点がないと厳しく、駅から離れた園では150点以下でも入園できるケースがあります。</p>
+</div>
+
+<h2>年齢別の傾向</h2>
+<ul>
+<li><strong>0歳児</strong>：募集枠が多く、比較的入りやすい</li>
+<li><strong>1歳児</strong>：最も激戦。持ち上がりで枠が減るため、加点がないと厳しい</li>
+<li><strong>2歳児</strong>：1歳からの持ち上がりでほぼ枠なし。途中入園狙いか小規模保育を検討</li>
+<li><strong>3歳児</strong>：小規模保育卒園児の受け皿として一定の枠あり</li>
+</ul>
+
+<div class="warn-box">
+<p><strong>注意</strong></p>
+<p>ボーダー点数は年度・園によって変動します。過去のデータはあくまで参考値として捉え、最新の情報はお住まいの区役所にお問い合わせください。</p>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>過去の利用調整結果は区役所の窓口で確認できる場合があります。詳しくはお住まいの区役所子育て支援課にお問い合わせください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 50,
+  },
+  {
+    slug: "ku-betsu-bairitsu",
+    citySlug: "fukuoka",
+    title: "福岡市7区の保育園倍率比較｜入りやすい区はどこ？",
+    description:
+      "福岡市の7区（東区・博多区・中央区・南区・城南区・早良区・西区）の保育園入園倍率の傾向を解説します。",
+    image:
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=400&fit=crop",
+    category: "データ分析",
+    categoryColor: "teal",
+    content: `<h2>福岡市7区の保育園事情</h2>
+<p>福岡市は約<strong>160万人</strong>の人口を抱え、7つの区で構成されています。区によって待機児童数や入園のしやすさには差があります。</p>
+
+<h2>区別の傾向</h2>
+
+<h3>中央区：市内最激戦エリア</h3>
+<p>天神・赤坂・大濠エリアを擁する中央区は、マンション開発と都心回帰の影響で子育て世帯が急増しています。<span class="highlight">フルタイム共働き（150点）でも加点なしでは厳しい園が多い</span>です。</p>
+
+<h3>博多区：駅周辺は激戦</h3>
+<p>博多駅・祇園エリアはオフィス街に近く共働き世帯の需要が高いです。一方、板付・那珂エリアなど住宅街は比較的落ち着いています。</p>
+
+<h3>早良区：百道エリアが人気</h3>
+<p>百道浜・西新エリアは子育て世帯に人気で競争が激しめです。内陸部に行くと緩やかになる傾向があります。</p>
+
+<h3>南区・城南区：住宅街エリア</h3>
+<p>大橋・高宮エリア（南区）、七隈・別府エリア（城南区）は住宅街で一定の需要があります。園によって差が大きいです。</p>
+
+<h3>東区・西区：比較的入りやすい</h3>
+<p>市の東西に位置するこの2区は、園の数も多く、比較的入りやすい傾向があります。特に郊外エリアは競争が穏やかです。</p>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>福岡市では区を越えた申込みが可能です。通勤経路に近い隣の区の園も候補に入れることで、選択肢が広がります。</p>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>各園の定員・空き状況は<a href="https://www.city.fukuoka.lg.jp/kodomo-mirai/hoiku/child/Index_R7.html" target="_blank" rel="noopener">福岡市「保育施設等利用のご案内」</a>や区役所の窓口でご確認ください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 50,
+  },
+  {
+    slug: "ikukyu-enchou-risk",
+    citySlug: "fukuoka",
+    title: "福岡市で育休延長のリスクと対策｜不承諾通知書の注意点",
+    description:
+      "福岡市で育休延長を検討する場合のリスク、不承諾通知書の取得方法、制度変更の影響を解説します。",
+    image:
+      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
+    category: "育休・復職",
+    categoryColor: "teal",
+    content: `<h2>育休延長のしくみ</h2>
+<p>育児休業は原則1歳まで（最大2歳まで延長可能）です。延長するには<span class="highlight">「保育園に入れなかった」ことを証明する不承諾通知書</span>が必要です。</p>
+
+<h2>育休延長の手順</h2>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content"><strong>保育園に申込む</strong><p>育休が切れる月（1歳の誕生日の属する月）に保育園の入園申込みを行います。</p></div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content"><strong>不承諾通知書を受け取る</strong><p>入園できなかった場合、福岡市から「保留通知書（不承諾通知書）」が届きます。</p></div>
+</div>
+<div class="step">
+<div class="step-num">3</div>
+<div class="step-content"><strong>勤務先に提出</strong><p>不承諾通知書を勤務先に提出して育休延長の手続きを行います。</p></div>
+</div>
+
+<div class="warn-box">
+<p><strong>注意</strong></p>
+<p>2025年4月から育休延長の審査が厳格化されました。「本当に保育園に入れなかった」ことが要件であり、意図的に入園を回避していると判断された場合は延長が認められない場合があります。詳しくはハローワークや勤務先にご確認ください。</p>
+</div>
+
+<h2>育休延長のリスク</h2>
+<ul>
+<li>延長期間中に希望の園に空きが出る保証はない</li>
+<li>1歳児クラスは0歳児より競争が激しい</li>
+<li>育休給付金は延長中も支給されるが、給付率が下がる場合がある</li>
+</ul>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>育休延長を「意図的に」行うよりも、0歳4月入園で確実に入園する方がトータルで有利なケースが多いです。お住まいの区のボーダー点数を確認し、入園可能性を見極めましょう。</p>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>不承諾通知書の発行についてはお住まいの区役所子育て支援課にお問い合わせください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 40,
+  },
+  {
+    slug: "fukushoku-junbi",
+    citySlug: "fukuoka",
+    title: "福岡市での復職準備｜入園決定後にやるべきことリスト",
+    description:
+      "福岡市で保育園の内定が出た後、復職までに準備すべきことをチェックリスト形式でまとめました。",
+    image:
+      "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=400&fit=crop",
+    category: "育休・復職",
+    categoryColor: "teal",
+    content: `<h2>入園決定後のやることリスト</h2>
+
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content"><strong>勤務先に復職の連絡</strong><p>内定通知が届いたら速やかに勤務先に連絡し、復職日を調整します。</p></div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content"><strong>入園説明会に参加</strong><p>園から案内される説明会に参加し、持ち物や慣らし保育のスケジュールを確認します。</p></div>
+</div>
+<div class="step">
+<div class="step-num">3</div>
+<div class="step-content"><strong>慣らし保育の期間を確認</strong><p>慣らし保育は1〜2週間が一般的です。この期間は復職前に済ませるのが理想です。</p></div>
+</div>
+<div class="step">
+<div class="step-num">4</div>
+<div class="step-content"><strong>持ち物の準備</strong><p>布団カバー・着替え・食事用エプロンなど、園指定の持ち物を準備します。</p></div>
+</div>
+<div class="step">
+<div class="step-num">5</div>
+<div class="step-content"><strong>病児保育・ファミサポの登録</strong><p>子どもの体調不良に備えて、病児保育やファミリー・サポート・センターに事前登録しておきましょう。</p></div>
+</div>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>慣らし保育中は短時間保育のため、フルタイムで働けません。<span class="highlight">復職日は慣らし保育終了後</span>に設定するのがベストです。慣らし保育の期間は園や子どもの様子によって前後します。</p>
+</div>
+
+<h2>復職後に必要な届出</h2>
+<ul>
+<li>就労証明書の提出（復職後の勤務条件を反映したもの）</li>
+<li>保育の必要性の変更届（就労時間が変わった場合）</li>
+</ul>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>入園後の手続きについてはお住まいの区役所子育て支援課にお問い合わせください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 35,
+  },
+  {
+    slug: "sannin-me-hokatsu",
+    citySlug: "fukuoka",
+    title: "福岡市で3人目の保活｜多子世帯の加点と保育料の優遇",
+    description:
+      "福岡市で3人目以降の子どもの保活における加点制度、保育料の優遇措置を解説します。",
+    image:
+      "https://images.unsplash.com/photo-1609220136736-443140cffec6?w=800&h=400&fit=crop",
+    category: "点数アップ",
+    categoryColor: "amber",
+    content: `<h2>3人目以降の保活の有利な点</h2>
+<p>福岡市では多子世帯に対して、入園選考と保育料の両面で優遇措置があります。</p>
+
+<h2>利用調整での優遇</h2>
+<ul>
+<li>多子世帯に対する調整点数の加点がある場合があります</li>
+<li>きょうだいが同一施設を利用中の場合は+70点（2人目と同様）</li>
+<li>同点で並んだ場合、子どもの数が多い世帯が優先される</li>
+</ul>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>3人目の保活で最も強力なのは<span class="highlight">きょうだい同一施設の加点（+70点）</span>です。上の子2人が同じ園に通っている場合、3人目も同じ園を希望すれば+70点が加算されます。</p>
+</div>
+
+<h2>保育料の優遇</h2>
+<p>福岡市では独自制度として第2子以降の保育料が無償です。3人目はもちろん無償の対象です。</p>
+
+<h2>副食費（おかず代）の免除</h2>
+<p>3歳以上児クラスの副食費について、第3子以降は免除対象となる場合があります。免除の条件はお住まいの区役所にご確認ください。</p>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>多子世帯の優遇措置については<a href="https://www.city.fukuoka.lg.jp/kodomo-mirai/hoiku/child/Index_R7.html" target="_blank" rel="noopener">福岡市「保育施設等利用のご案内」</a>でご確認ください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 30,
+  },
+  {
+    slug: "tanshin-funin",
+    citySlug: "fukuoka",
+    title: "福岡市で単身赴任世帯の保活｜加点と注意すべきポイント",
+    description:
+      "福岡市で単身赴任中の世帯が保育園に申し込む場合の加点、必要書類、注意点を解説します。",
+    image:
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=400&fit=crop",
+    category: "点数・選考",
+    categoryColor: "blue",
+    content: `<h2>単身赴任世帯の調整点数</h2>
+<p>福岡市では、配偶者が単身赴任で別居している場合、調整点数として<span class="highlight">+15点</span>が加算されます。</p>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>単身赴任の加点を受けるには、実際に別居していることを証明する書類が必要です。会社からの辞令書や赴任先の住民票の写しなどを準備しましょう。</p>
+</div>
+
+<h2>必要書類</h2>
+<ul>
+<li>勤務先からの転勤辞令書の写し</li>
+<li>赴任先の住民票または居住を証明する書類</li>
+<li>就労証明書（単身赴任中の配偶者分も必要）</li>
+</ul>
+
+<h2>注意点</h2>
+<ul>
+<li>単身赴任先が福岡市外でも、福岡市に住んでいる保護者が申込者になります</li>
+<li>基本点数は「低い方の保護者」で算定されるため、単身赴任中の配偶者も就労証明書が必要です</li>
+<li>単身赴任が解消された場合は、速やかに届出が必要です</li>
+</ul>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>単身赴任の加点条件については<a href="https://kodomo.city.fukuoka.lg.jp/wp-content/uploads/2025/09/d202ed28904cd28e882f6ee0ec68dba8.pdf" target="_blank" rel="noopener">福岡市保育施設等利用調整基準表（PDF）</a>でご確認ください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 25,
+  },
+  {
+    slug: "sofu-sobo-doukyo",
+    citySlug: "fukuoka",
+    title: "福岡市で祖父母同居は不利？｜点数への影響と対策",
+    description:
+      "福岡市で祖父母と同居している場合の入園選考への影響と、減点を避けるための対策を解説します。",
+    image:
+      "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&h=400&fit=crop",
+    category: "点数・選考",
+    categoryColor: "blue",
+    content: `<h2>祖父母同居は入園選考に影響する？</h2>
+<p>福岡市では、祖父母が同居していることが直接的な減点要因になるわけではありません。ただし、利用調整で同点の場合の判定において、<span class="highlight">保育できる親族の有無</span>が考慮される可能性があります。</p>
+
+<h2>祖父母同居のケース別対応</h2>
+<table>
+<tr><th>祖父母の状況</th><th>保活への影響</th></tr>
+<tr><td>65歳以上で就労していない</td><td>「保育可能な同居親族あり」と判定される可能性あり</td></tr>
+<tr><td>就労中（月64時間以上）</td><td>保育できないため影響は限定的</td></tr>
+<tr><td>疾病・障がいがある</td><td>保育できないため影響なし（診断書等を添付）</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>祖父母が就労中や健康上の理由で保育ができない場合は、その状況を証明する書類を添付しましょう。就労証明書や診断書が有効です。</p>
+</div>
+
+<h2>同居と近居の違い</h2>
+<p>「同居」と「近居（近くに住んでいるが別世帯）」では扱いが異なります。近居の場合は基本的に選考への影響はありません。同居の定義は住民票上の同一世帯かどうかで判断されます。</p>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>同居親族の取扱いについて不明な点はお住まいの区役所子育て支援課にご相談ください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 30,
+  },
+  {
+    slug: "fushoninchi-taiou",
+    citySlug: "fukuoka",
+    title: "福岡市で保育園に落ちた場合の対処法｜不承諾後にやるべきこと",
+    description:
+      "福岡市で保育園の不承諾通知を受け取った後にできること、次のステップを解説します。",
+    image:
+      "https://images.unsplash.com/photo-1494599948593-3dafe8338d71?w=800&h=400&fit=crop",
+    category: "保活の基本",
+    categoryColor: "green",
+    content: `<h2>不承諾通知を受け取ったら</h2>
+<p>保育園に落ちてしまっても、まだ打てる手はあります。落ち着いて以下のステップを確認しましょう。</p>
+
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content"><strong>二次募集に申込む</strong><p>一次で定員に達しなかった園や辞退で空いた園の二次募集があります。希望園の変更も可能です。</p></div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content"><strong>認可外保育施設を探す</strong><p>認証保育所、企業主導型保育園、認可外保育施設を平行して探しましょう。</p></div>
+</div>
+<div class="step">
+<div class="step-num">3</div>
+<div class="step-content"><strong>育休延長の手続き</strong><p>不承諾通知書を勤務先に提出し、育休の延長手続きを行います。</p></div>
+</div>
+<div class="step">
+<div class="step-num">4</div>
+<div class="step-content"><strong>途中入園を待つ</strong><p>4月以降も毎月の空き枠に対して利用調整が行われます。申込みは有効なので、空きが出れば案内が届きます。</p></div>
+</div>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>不承諾になった理由（点数が足りなかったのか、希望園が少なかったのか等）を区役所に確認しましょう。次回の申込みに向けた改善点が見つかります。</p>
+</div>
+
+<h2>途中入園の可能性</h2>
+<p>4月以降も転居や退園で空きが出ることがあります。特に<span class="highlight">5月・10月</span>は引越しシーズンで空きが出やすい傾向があります。</p>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>毎月の空き状況は区役所の窓口で確認できます。二次募集の案内は<a href="https://www.city.fukuoka.lg.jp/kodomo-mirai/hoiku/child/Index_R7.html" target="_blank" rel="noopener">福岡市「保育施設等利用のご案内」</a>でご確認ください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 45,
+  },
+  {
+    slug: "taiki-jidou-taisaku",
+    citySlug: "fukuoka",
+    title: "福岡市の待機児童の現状と対策｜最新データで読み解く",
+    description:
+      "福岡市の待機児童数の推移と、市が進めている待機児童対策の最新情報をまとめました。",
+    image:
+      "https://images.unsplash.com/photo-1529390079861-591de354faf5?w=800&h=400&fit=crop",
+    category: "データ分析",
+    categoryColor: "teal",
+    content: `<h2>福岡市の待機児童の推移</h2>
+<p>福岡市は政令指定都市の中でも子育て世帯の転入が多く、保育需要が高い自治体です。近年は保育施設の整備が進み、待機児童数は減少傾向にあります。</p>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>国の定義する「待機児童」は減少していますが、希望する園に入れない<span class="highlight">「隠れ待機児童」（特定園のみ希望、育休延長中など）</span>は依然として相当数存在します。</p>
+</div>
+
+<h2>福岡市の待機児童対策</h2>
+<ul>
+<li><strong>保育施設の新規整備</strong>：認可保育園・小規模保育事業所の新設を進めている</li>
+<li><strong>保育士確保策</strong>：保育士の処遇改善、家賃補助、就職支援</li>
+<li><strong>第2子以降の保育料無償化</strong>：子育てしやすい環境づくり</li>
+<li><strong>企業主導型保育の推進</strong>：企業と連携した保育の受け皿拡大</li>
+</ul>
+
+<h2>待機児童が多いエリア</h2>
+<p>一般的に中央区・博多区・早良区（百道エリア）は需要が高く、待機児童が発生しやすい傾向があります。ただし、最新の状況は毎年変動するため、直近のデータを確認してください。</p>
+
+<div class="warn-box">
+<p><strong>注意</strong></p>
+<p>待機児童の集計方法は自治体によって異なります。福岡市が公表するデータの定義を確認した上で、他の自治体と比較してください。</p>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>最新の待機児童数は<a href="https://www.city.fukuoka.lg.jp/kodomo-mirai/hoiku/child/Index_R7.html" target="_blank" rel="noopener">福岡市こども未来局</a>のホームページで公開されています。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 40,
+  },
+  {
+    slug: "tennen-moshikomi",
+    citySlug: "fukuoka",
+    title: "福岡市の転園申込み｜手続きの流れと成功のコツ",
+    description:
+      "福岡市で保育園を転園したい場合の申込み方法、転園が認められる条件、成功のためのポイントを解説します。",
+    image:
+      "https://images.unsplash.com/photo-1473649085228-583485e6e4d7?w=800&h=400&fit=crop",
+    category: "保活の基本",
+    categoryColor: "green",
+    content: `<h2>転園の申込み方法</h2>
+<p>福岡市では、現在認可保育園に通っている子どもが別の園に移る「転園」も、通常の入園申込みと同じ手続きで行います。</p>
+
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content"><strong>区役所で転園申込書を入手</strong><p>お住まいの区役所子育て支援課で転園の申込用紙をもらいます。</p></div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content"><strong>必要書類を提出</strong><p>転園申込書、就労証明書（更新が必要な場合）を提出します。</p></div>
+</div>
+<div class="step">
+<div class="step-num">3</div>
+<div class="step-content"><strong>利用調整を待つ</strong><p>新規入園の申込者と同じ利用調整の対象になります。</p></div>
+</div>
+
+<div class="warn-box">
+<p><strong>注意</strong></p>
+<p>転園は新規入園と同じ利用調整で選考されるため、人気園への転園は簡単ではありません。転園が不承諾になっても、現在の園の在園資格は失われません。</p>
+</div>
+
+<h2>転園を成功させるコツ</h2>
+<ul>
+<li><strong>4月の一斉入所を狙う</strong>：卒園や退園で空きが出やすい4月が最もチャンス</li>
+<li><strong>複数の園を希望に入れる</strong>：希望園が1つだけだと転園の可能性が低くなる</li>
+<li><strong>きょうだいの在園を活用</strong>：上の子が通っている園を希望すればきょうだい加点が使える</li>
+</ul>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>転園の理由が「引越し」の場合は、転居先の近くの園を希望する合理的な理由があるため、区役所に相談すると良いでしょう。</p>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>転園の手続きについてはお住まいの区役所子育て支援課にお問い合わせください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 30,
+  },
 ];
 
 registerArticles(articles);

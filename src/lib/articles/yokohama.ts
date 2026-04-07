@@ -1304,6 +1304,1733 @@ const articles: Article[] = [
     publishedAt: "2026-04-07",
     popularity: 55,
   },
+
+  // ========== 就労形態別 ==========
+  {
+    slug: "self-employed-score",
+    citySlug: "yokohama",
+    title: "横浜市で自営業・フリーランスの保育園入園　点数の計算方法",
+    description:
+      "横浜市で自営業やフリーランスとして働く場合の保育園の利用調整ランク・調整指数の考え方を解説します。",
+    image:
+      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=400&fit=crop",
+    category: "点数を知る",
+    categoryColor: "blue",
+    content: `<h2>自営業・フリーランスでも保育園に入れる？</h2>
+<p>横浜市では、自営業やフリーランスも会社員と同じように保育園の利用申請ができます。就労時間に応じてランクが決まるため、十分な就労実態があれば<strong>ランクA</strong>を取得することも可能です。</p>
+
+<h2>ランクの決まり方</h2>
+<p>横浜市のランクは就労時間で決まります。自営業・フリーランスも同様です。</p>
+<table>
+<tr><th>月の就労時間</th><th>ランク</th></tr>
+<tr><td>月20日以上かつ1日8時間以上</td><td>A</td></tr>
+<tr><td>月16日以上かつ1日8時間以上</td><td>B</td></tr>
+<tr><td>月16日以上かつ1日6時間以上</td><td>C</td></tr>
+<tr><td>月16日以上かつ1日4時間以上</td><td>D</td></tr>
+<tr><td>月12日以上かつ1日4時間以上</td><td>E</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>自営業の場合、就労時間は自己申告になりますが、確定申告書や開業届、業務委託契約書などの客観的な資料の提出が求められます。虚偽の申告は入園取り消しの対象になるため、正確に記載しましょう。</p>
+</div>
+
+<h2>必要な提出書類</h2>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content">
+<strong>就労証明書（自営業用）</strong>
+<p>自分で記入する様式です。業務内容、就労場所、就労時間を具体的に記載します。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content">
+<strong>開業届の写し</strong>
+<p>税務署に提出した「個人事業の開業届出書」の控えが求められます。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">3</div>
+<div class="step-content">
+<strong>確定申告書の写し</strong>
+<p>直近の確定申告書の控えを提出します。開業直後で確定申告がまだの場合は、業務委託契約書や受注実績の資料で代替できる場合があります。</p>
+</div>
+</div>
+
+<h2>自営業で気をつけるべき点</h2>
+<ul>
+<li><strong>居宅内労働と居宅外労働</strong>：横浜市では、居宅内で就労する場合も居宅外と同等に評価されます。ただし、就労実態の確認がより厳しくなる傾向があります</li>
+<li><strong>収入の有無</strong>：開業したばかりで収入が少なくても、就労時間が基準を満たしていれば申請可能です</li>
+<li><strong>就労開始時期</strong>：保育の必要性の認定を受けるには、申請時点で就労していることが原則です</li>
+</ul>
+
+<div class="info-box">
+<p><strong>確認事項</strong></p>
+<p>自営業の就労証明に必要な書類は状況によって異なります。詳しくはお住まいの区役所こども家庭支援課にご相談ください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 50,
+  },
+  {
+    slug: "naishoku-score",
+    citySlug: "yokohama",
+    title: "横浜市で内職の場合の保育園入園　点数と注意点",
+    description:
+      "横浜市で内職をしている場合の保育園利用調整ランクと申請時の注意点を解説します。",
+    image:
+      "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=400&fit=crop",
+    category: "点数を知る",
+    categoryColor: "blue",
+    content: `<h2>内職でも保育園に申し込める？</h2>
+<p>横浜市では、内職（居宅内労働）も就労として認められ、保育園の利用申請が可能です。ただし、就労時間によってランクが変わるため、短時間の内職では<strong>ランクが低くなる</strong>傾向があります。</p>
+
+<h2>内職の場合のランク</h2>
+<p>内職は「居宅内労働」に分類されます。横浜市ではランクの判定基準は居宅外・居宅内で区別されていませんが、就労時間の実態が重要です。</p>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>月16日以上・1日4時間以上の就労実態があればランクD以上を取得できます。就労時間が短い場合はランクE以下となり、認可保育園への入園は難しくなります。</p>
+</div>
+
+<h2>内職で必要な書類</h2>
+<ul>
+<li><strong>就労証明書</strong>：業務内容、就労場所（自宅）、就労時間を記載</li>
+<li><strong>業務委託契約書や発注書</strong>：就労実態を証明する客観的資料</li>
+<li><strong>報酬の振込記録</strong>：通帳のコピーなど、報酬を受け取っている証拠</li>
+</ul>
+
+<h2>注意点</h2>
+<div class="info-box">
+<p><strong>就労時間の証明が難しい場合</strong></p>
+<p>内職は就労時間の客観的な証明が難しいケースがあります。発注元に就労証明書への記載を依頼できる場合は、依頼しておくと審査がスムーズです。自分で記入する場合は、業務の具体的な内容とスケジュールを詳しく記載しましょう。</p>
+</div>
+
+<p>内職の就労時間が短い場合は、横浜保育室や認可外保育施設の利用も並行して検討することをおすすめします。</p>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>内職から自営業として開業届を出すことで、就労形態が「自営業」扱いになります。就労時間が十分であれば、ランクが上がる可能性があります。区役所に相談してみましょう。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 40,
+  },
+  {
+    slug: "kyushoku-hokatsu",
+    citySlug: "yokohama",
+    title: "横浜市で求職中でも保活を進めるコツ",
+    description:
+      "横浜市では求職中でも保育園の利用申請が可能です。求職活動中のランクや入園後の注意点を解説します。",
+    image:
+      "https://images.unsplash.com/photo-1507679799987-c73b4b84c853?w=800&h=400&fit=crop",
+    category: "保活の基本",
+    categoryColor: "green",
+    content: `<h2>求職中でも保育園に申し込める</h2>
+<p>横浜市では「求職活動」も保育の必要性の事由として認められています。ただし、就労中の方と比べるとランクは低くなります。</p>
+
+<h2>求職中のランク</h2>
+<table>
+<tr><th>状況</th><th>ランク</th></tr>
+<tr><td>就労中（フルタイム）</td><td>A〜B</td></tr>
+<tr><td>就労中（パートタイム）</td><td>C〜E</td></tr>
+<tr><td>求職活動中</td><td>H</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>求職活動中はランクHとなるため、4月入園の一次申請で認可保育園に内定するのは難しい状況です。しかし、二次申請や年度途中の空き枠で入園できる可能性はあります。</p>
+</div>
+
+<h2>求職中の保活で実践すべきこと</h2>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content">
+<strong>認可外保育施設の活用</strong>
+<p>横浜保育室や認可外保育施設に先に預けて就職活動を本格化し、就労開始後に認可園への転園を目指す方法が有効です。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content">
+<strong>一時保育の活用</strong>
+<p>横浜市には一時保育を実施している園があります。面接や職業訓練の際に活用しましょう。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">3</div>
+<div class="step-content">
+<strong>入園後の就労開始期限に注意</strong>
+<p>求職活動を理由に入園した場合、入園後90日以内に就労を開始する必要があります。期限内に就労開始しないと退園になる可能性があります。</p>
+</div>
+</div>
+
+<div class="info-box">
+<p><strong>注意事項</strong></p>
+<p>求職中のランクや入園後の就労開始期限は変更される場合があります。最新の情報はお住まいの区役所にご確認ください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 45,
+  },
+  {
+    slug: "tenshoku-timing",
+    citySlug: "yokohama",
+    title: "横浜市で転職と保活を両立するタイミング戦略",
+    description:
+      "保活中に転職を考えている場合の影響やベストなタイミング、注意すべきポイントを解説します。",
+    image:
+      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=400&fit=crop",
+    category: "保活の基本",
+    categoryColor: "green",
+    content: `<h2>転職すると保活に影響がある？</h2>
+<p>横浜市の利用調整では、就労証明書に記載された就労時間・日数をもとにランクが決まります。転職のタイミングによっては、ランクや調整指数に影響が出る可能性があります。</p>
+
+<h2>転職のタイミング別リスク</h2>
+<h3>申請前に転職した場合</h3>
+<p>新しい勤務先の就労証明書を提出します。勤続年数はリセットされますが、横浜市では勤続年数による加点はないため、<strong>就労時間が同等であればランクに影響はありません</strong>。</p>
+
+<h3>申請後〜入園前に転職した場合</h3>
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>入園の内定後に転職した場合、新しい勤務先の就労証明書を再提出する必要があります。就労時間が大きく減った場合はランクが下がり、内定が取り消される可能性があります。</p>
+</div>
+
+<h3>入園後に転職した場合</h3>
+<p>入園後に転職した場合も、新しい就労証明書の提出が必要です。転職に伴い一時的に無職期間がある場合は、求職活動期間として扱われます。求職期間が長引くと退園になるリスクがあるため注意が必要です。</p>
+
+<h2>転職と保活を両立するベストタイミング</h2>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content">
+<strong>入園が決まってから転職する</strong>
+<p>もっともリスクが低いのは、入園してしばらく経ってから転職する方法です。在園中の転職であれば、新しい勤務先の就労時間が基準を満たしていれば問題ありません。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content">
+<strong>申請の基準日より前に転職を完了させる</strong>
+<p>一次申請の基準日（例: 令和7年9月30日）より前に転職を完了させ、新しい勤務先の就労証明書を提出する方法も有効です。</p>
+</div>
+</div>
+
+<div class="info-box">
+<p><strong>確認事項</strong></p>
+<p>転職に伴う就労証明書の再提出の時期や手続きは、区役所こども家庭支援課に事前に相談しておくと安心です。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 40,
+  },
+
+  // ========== 年齢・クラス別 ==========
+  {
+    slug: "age2-nyuen",
+    citySlug: "yokohama",
+    title: "横浜市の2歳児クラス入園事情　空きと競争率の傾向",
+    description:
+      "横浜市で2歳児クラスの入園を目指す場合のポイント。0・1歳児との比較や空き状況の傾向を解説します。",
+    image:
+      "https://images.unsplash.com/photo-1587654780014-53a43f697b97?w=800&h=400&fit=crop",
+    category: "データ分析",
+    categoryColor: "teal",
+    content: `<h2>2歳児クラスの定員と空き状況</h2>
+<p>横浜市の認可保育園では、2歳児クラスの定員は0・1歳児クラスからの持ち上がり分を差し引いた<strong>「新規受入枠」</strong>が実際に申し込める枠数になります。</p>
+
+<h3>2歳児クラスの特徴</h3>
+<table>
+<tr><th>項目</th><th>0歳児</th><th>1歳児</th><th>2歳児</th></tr>
+<tr><td>新規枠の傾向</td><td>多い</td><td>少ない</td><td>さらに少ない</td></tr>
+<tr><td>競争率の傾向</td><td>やや高い</td><td>最も高い</td><td>高い</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>2歳児クラスは1歳児クラスからの持ち上がりで定員が埋まりやすく、新規受入枠が非常に少ない園もあります。一方、小規模保育事業所は2歳児まで受け入れるため、2歳児クラスでも比較的入りやすい傾向にあります。</p>
+</div>
+
+<h2>2歳児入園を成功させる戦略</h2>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content">
+<strong>小規模保育事業所を候補に入れる</strong>
+<p>0〜2歳児専門の小規模保育は2歳児の新規枠がある場合があります。卒園後は加点を活用して3歳から認可園を目指せます。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content">
+<strong>新設園を狙う</strong>
+<p>新設園は全学年が新規受入のため、2歳児クラスでも定員分がすべて新規枠になります。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">3</div>
+<div class="step-content">
+<strong>希望園の数を多めに書く</strong>
+<p>2歳児は園によって新規枠に差があるため、希望園を多く記入して可能性を広げましょう。</p>
+</div>
+</div>
+
+<div class="info-box">
+<p><strong>確認方法</strong></p>
+<p>各園の2歳児クラスの空き状況は、横浜市のWebサイト「保育所等の空き状況」で毎月更新されています。区役所でも確認できます。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 50,
+  },
+  {
+    slug: "age3-ikou",
+    citySlug: "yokohama",
+    title: "横浜市の3歳の壁　幼稚園・認定こども園への移行ガイド",
+    description:
+      "小規模保育の卒園後に直面する3歳の壁。横浜市での幼稚園・認定こども園への移行について解説します。",
+    image:
+      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
+    category: "制度を知る",
+    categoryColor: "rose",
+    content: `<h2>3歳の壁とは</h2>
+<p>小規模保育事業所や家庭的保育は0〜2歳児が対象のため、3歳児クラスからは別の施設に移る必要があります。この移行の難しさを<strong>「3歳の壁」</strong>と呼びます。</p>
+
+<h2>横浜市では3歳の壁は比較的低い</h2>
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>横浜市では小規模保育事業所等の卒園児に対して<strong>調整指数+5</strong>の加点があります。この加点により、3歳児クラスから認可保育園に入園できる可能性は高いです。</p>
+</div>
+
+<h2>3歳以降の選択肢</h2>
+<h3>1. 認可保育園</h3>
+<p>卒園児加点を活用して認可保育園に申し込む方法です。3歳児クラスは幼稚園へ移る子の分、新規枠が出やすい園もあります。</p>
+
+<h3>2. 認定こども園</h3>
+<p>保育と教育を一体的に行う施設です。2号認定（保育必要）で入園すれば、保育園と同じ時間帯で預けられます。</p>
+
+<h3>3. 幼稚園（預かり保育あり）</h3>
+<p>幼稚園の中には、通常の教育時間に加えて預かり保育を実施している園があります。就労中でも利用可能で、無償化の対象にもなります。</p>
+
+<h3>4. 連携施設への優先入園</h3>
+<p>小規模保育事業所の中には連携施設が設定されている園があり、卒園児が優先的に入園できる仕組みがあります。入園時に連携施設の有無を確認しておきましょう。</p>
+
+<div class="info-box">
+<p><strong>幼稚園の預かり保育と無償化</strong></p>
+<p>幼稚園の預かり保育は、保育の必要性の認定（新2号認定）を受けると、月額11,300円まで無償化の対象になります。ただし、預かり保育の実施時間は園によって異なるため、勤務時間をカバーできるか事前に確認が必要です。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 45,
+  },
+  {
+    slug: "nyuyoji-age0",
+    citySlug: "yokohama",
+    title: "横浜市の0歳児入園　準備と生後月齢の壁",
+    description:
+      "横浜市で0歳児クラスからの入園を目指す場合の準備、生後何か月から申し込めるかを解説します。",
+    image:
+      "https://images.unsplash.com/photo-1519689680058-324335c77eba?w=800&h=400&fit=crop",
+    category: "保活の基本",
+    categoryColor: "green",
+    content: `<h2>0歳児入園のメリット</h2>
+<ul>
+<li><strong>枠が比較的多い</strong>：0歳児クラスは全員が新規入園のため、新規受入枠が最も多い</li>
+<li><strong>1歳児よりも入りやすい傾向</strong>：1歳児クラスは0歳からの持ち上がりがあるため、新規枠が少ない</li>
+<li><strong>早めの復職で育休給付金の心配が不要</strong>：入園と同時に復職すれば給付金の問題がない</li>
+</ul>
+
+<h2>生後月齢の壁</h2>
+<p>横浜市の認可保育園では、園ごとに受入可能な月齢が異なります。</p>
+<table>
+<tr><th>受入月齢</th><th>目安</th></tr>
+<tr><td>生後57日〜</td><td>産休明けから対応する園（少数）</td></tr>
+<tr><td>生後4か月〜</td><td>一部の園</td></tr>
+<tr><td>生後6か月〜</td><td>多くの園</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>4月1日時点で受入月齢を満たしている必要があります。例えば「生後6か月から」の園に4月入園する場合、10月1日以前に生まれている必要があります。出産予定日から逆算して、入園可能な園を調べましょう。</p>
+</div>
+
+<h2>0歳児入園のスケジュール</h2>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content">
+<strong>妊娠中〜産前：情報収集と見学</strong>
+<p>妊娠中から保育園の見学を始めておくと余裕を持って準備できます。産後は体力的にも大変なため、可能であれば産前に見学を済ませましょう。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content">
+<strong>産後：書類準備と申請</strong>
+<p>出産後に就労証明書などの書類を揃え、一次申請の締切に間に合うように提出します。</p>
+</div>
+</div>
+
+<h2>0歳入園か1歳入園か</h2>
+<div class="info-box">
+<p><strong>判断のポイント</strong></p>
+<p>0歳児入園は枠が多く入りやすい反面、育休を短く切り上げる必要があります。1歳児入園は育休を長く取れますが競争率が高くなります。お子さんの生まれ月や家庭の状況に合わせて判断しましょう。横浜市では0歳の4月入園がもっとも枠が多い時期です。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 55,
+  },
+
+  // ========== 施設の種類 ==========
+  {
+    slug: "nintei-kodomoen",
+    citySlug: "yokohama",
+    title: "横浜市の認定こども園　仕組みと選び方ガイド",
+    description:
+      "保育園と幼稚園の機能を併せ持つ認定こども園。横浜市での種類や入園方法、選び方を解説します。",
+    image:
+      "https://images.unsplash.com/photo-1544776193-352d25ca82cd?w=800&h=400&fit=crop",
+    category: "園えらび",
+    categoryColor: "purple",
+    content: `<h2>認定こども園とは</h2>
+<p>認定こども園は、幼稚園と保育園の機能を一体化させた施設です。保育を必要とする子ども（2号・3号認定）も、教育のみを希望する子ども（1号認定）も通うことができます。</p>
+
+<h2>認定こども園の種類</h2>
+<table>
+<tr><th>種類</th><th>特徴</th></tr>
+<tr><td>幼保連携型</td><td>幼稚園と保育園の両方の機能を持つ。横浜市で最も多い</td></tr>
+<tr><td>幼稚園型</td><td>幼稚園に保育機能を付加した施設</td></tr>
+<tr><td>保育所型</td><td>保育園に幼稚園機能を付加した施設</td></tr>
+</table>
+
+<h2>認定こども園の入園方法</h2>
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>2号・3号認定（保育必要）で入園する場合は、認可保育園と同様に区役所を通じた利用調整の対象です。1号認定（教育のみ）の場合は、園に直接申し込みます。</p>
+</div>
+
+<h3>保育利用（2号・3号認定）の場合</h3>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content">
+<strong>区役所に申請</strong>
+<p>認可保育園と同じ申請書類で、認定こども園も希望園として記入できます。利用調整のランク・調整指数も認可保育園と同じ基準です。</p>
+</div>
+</div>
+
+<h3>教育利用（1号認定）の場合</h3>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content">
+<strong>園に直接申し込み</strong>
+<p>入園の募集時期や選考方法は園によって異なります。先着順や抽選の場合があるため、早めに園に確認しましょう。</p>
+</div>
+</div>
+
+<h2>認定こども園のメリット</h2>
+<ul>
+<li><strong>保護者の就労状況が変わっても通い続けられる</strong>：退職して1号認定に切り替えても同じ園に通える</li>
+<li><strong>教育的なプログラムがある</strong>：幼稚園の教育課程を取り入れている園が多い</li>
+<li><strong>保育時間が長い</strong>：2号認定なら保育園と同等の保育時間が利用できる</li>
+</ul>
+
+<div class="info-box">
+<p><strong>確認事項</strong></p>
+<p>認定こども園によって教育方針や保育時間、費用が異なります。見学時に1号と2号の子どもの活動内容に違いがあるかも確認しておきましょう。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 50,
+  },
+  {
+    slug: "kigyou-shudogata",
+    citySlug: "yokohama",
+    title: "横浜市の企業主導型保育園とは　特徴と利用方法",
+    description:
+      "企業主導型保育園の仕組み、認可保育園との違い、横浜市での利用方法と注意点を解説します。",
+    image:
+      "https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?w=800&h=400&fit=crop",
+    category: "園えらび",
+    categoryColor: "purple",
+    content: `<h2>企業主導型保育園とは</h2>
+<p>企業主導型保育事業は、企業が従業員の子どもを預けるために設置する保育施設です。内閣府が所管する事業で、認可外保育施設に分類されますが、<strong>認可保育園と同等の運営基準</strong>が設けられています。</p>
+
+<h2>認可保育園との違い</h2>
+<table>
+<tr><th>項目</th><th>認可保育園</th><th>企業主導型</th></tr>
+<tr><td>申込先</td><td>区役所</td><td>園に直接</td></tr>
+<tr><td>利用調整</td><td>あり（ランク方式）</td><td>なし</td></tr>
+<tr><td>保育料</td><td>世帯収入で決定</td><td>園が設定（上限あり）</td></tr>
+<tr><td>対象</td><td>地域の子ども</td><td>従業員枠＋地域枠</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>企業主導型保育園には「従業員枠」と「地域枠」があります。従業員枠は提携企業に勤めている保護者が利用でき、地域枠は企業と関係なく誰でも申し込めます。地域枠は定員の50%以内と定められています。</p>
+</div>
+
+<h2>メリットとデメリット</h2>
+<h3>メリット</h3>
+<ul>
+<li>利用調整がないため、<strong>ランクに関係なく入園できる</strong></li>
+<li>認可保育園の選考結果を待たずに申し込める</li>
+<li>勤務先の近くにある場合、通勤と送迎の負担が減る</li>
+</ul>
+
+<h3>デメリット</h3>
+<ul>
+<li>園によって質にばらつきがある</li>
+<li>経営状況によって突然閉園するリスクがある</li>
+<li>無償化の対象にはなるが、手続きが異なる場合がある</li>
+</ul>
+
+<div class="info-box">
+<p><strong>確認事項</strong></p>
+<p>企業主導型保育園を検討する場合は、必ず見学を行い、保育の質や運営状況を確認しましょう。内閣府の「企業主導型保育事業ポータル」で施設一覧を確認できます。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 35,
+  },
+  {
+    slug: "yakan-hoiku",
+    citySlug: "yokohama",
+    title: "横浜市の夜間保育・休日保育の探し方",
+    description:
+      "夜勤や休日勤務がある場合に利用できる横浜市の夜間保育・休日保育の種類と探し方を解説します。",
+    image:
+      "https://images.unsplash.com/photo-1489710437720-ebb67ec84dd2?w=800&h=400&fit=crop",
+    category: "園えらび",
+    categoryColor: "purple",
+    content: `<h2>横浜市の夜間保育</h2>
+<p>横浜市には夜間保育を行う認可保育園があります。夜間保育園は通常の保育時間（11時間）を夜間にスライドさせた施設で、おおむね<strong>午前11時頃から午後10時頃</strong>までの保育を行います。</p>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>横浜市内の夜間保育園の数は限られています。夜間保育を必要とする場合は、早めに区役所に相談して利用可能な園を確認しましょう。</p>
+</div>
+
+<h2>休日保育</h2>
+<p>横浜市では、日曜・祝日に保育を行う<strong>休日保育</strong>を実施している園があります。</p>
+
+<h3>利用条件</h3>
+<ul>
+<li>認可保育園等に在園していること</li>
+<li>日曜・祝日に就労していること</li>
+<li>事前に登録が必要</li>
+</ul>
+
+<h3>休日保育の利用方法</h3>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content">
+<strong>実施園の確認</strong>
+<p>区役所や横浜市のWebサイトで休日保育を実施している園を確認します。実施園は各区に複数あるとは限りません。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content">
+<strong>事前登録</strong>
+<p>利用を希望する休日保育実施園に事前登録を行います。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">3</div>
+<div class="step-content">
+<strong>利用予約</strong>
+<p>利用したい日の前に予約を入れます。定員があるため、早めの予約が必要です。</p>
+</div>
+</div>
+
+<h2>延長保育</h2>
+<p>通常の保育時間を超えて預ける場合は延長保育が利用できます。横浜市の多くの認可保育園では<strong>朝7時から夜8時頃まで</strong>の保育を行っています。延長保育は別途料金がかかります。</p>
+
+<div class="info-box">
+<p><strong>確認事項</strong></p>
+<p>夜間保育・休日保育の実施園や利用条件は変更される場合があります。最新情報はお住まいの区役所こども家庭支援課にお問い合わせください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 30,
+  },
+
+  // ========== 費用・制度 ==========
+  {
+    slug: "mushoka-seido",
+    citySlug: "yokohama",
+    title: "横浜市の幼児教育・保育無償化　対象と条件まとめ",
+    description:
+      "令和元年10月から始まった幼児教育・保育の無償化制度。横浜市での対象施設や条件を詳しく解説します。",
+    image:
+      "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=400&fit=crop",
+    category: "制度を知る",
+    categoryColor: "rose",
+    content: `<h2>幼児教育・保育の無償化とは</h2>
+<p>2019年10月から、3〜5歳のすべての子どもと、住民税非課税世帯の0〜2歳の子どもの保育料が無償化されました。横浜市でも国の制度に基づき実施されています。</p>
+
+<h2>対象と無償化の範囲</h2>
+<table>
+<tr><th>施設・サービス</th><th>3〜5歳</th><th>0〜2歳（非課税世帯）</th></tr>
+<tr><td>認可保育園</td><td>無料</td><td>無料</td></tr>
+<tr><td>認定こども園</td><td>無料</td><td>無料</td></tr>
+<tr><td>幼稚園（新制度）</td><td>無料</td><td>-</td></tr>
+<tr><td>幼稚園（未移行）</td><td>月25,700円まで</td><td>-</td></tr>
+<tr><td>認可外保育施設</td><td>月37,000円まで</td><td>月42,000円まで</td></tr>
+<tr><td>横浜保育室</td><td>月37,000円まで</td><td>月42,000円まで</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>無償化されるのは「保育料」の部分です。給食費（食材料費）、通園バス代、行事費、制服代などの実費は無償化の対象外で、別途負担が必要です。</p>
+</div>
+
+<h2>無償化の対象になるための手続き</h2>
+<h3>認可保育園・認定こども園（2号・3号）の場合</h3>
+<p>入園時に保育の必要性の認定を受けていれば、特別な手続きは不要です。</p>
+
+<h3>幼稚園の預かり保育を利用する場合</h3>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content">
+<strong>新2号認定の申請</strong>
+<p>預かり保育の無償化を受けるには「施設等利用給付認定（新2号認定）」の申請が必要です。就労証明書などを添えて区役所に申請します。</p>
+</div>
+</div>
+
+<h3>認可外保育施設を利用する場合</h3>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content">
+<strong>施設等利用給付認定の申請</strong>
+<p>認可外保育施設の無償化を受けるには認定が必要です。認定を受けた上で、利用料を支払い、後から償還払いで補助を受ける形になります。</p>
+</div>
+</div>
+
+<div class="info-box">
+<p><strong>横浜市独自の上乗せ補助</strong></p>
+<p>横浜市では、認可外保育施設や横浜保育室の利用者に対する独自の補助制度がある場合があります。詳しくはお住まいの区役所にご確認ください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 55,
+  },
+  {
+    slug: "shokuhi-jippi",
+    citySlug: "yokohama",
+    title: "横浜市の保育園の給食費・おやつ代　実費負担の内訳",
+    description:
+      "無償化後も実費負担となる給食費やおやつ代。横浜市の認可保育園での費用目安を解説します。",
+    image:
+      "https://images.unsplash.com/photo-1606787366850-de6330128bfc?w=800&h=400&fit=crop",
+    category: "制度を知る",
+    categoryColor: "rose",
+    content: `<h2>給食費は無償化の対象外</h2>
+<p>保育料は無償化されましたが、3〜5歳児の<strong>給食費（食材料費）は実費負担</strong>です。0〜2歳児は保育料に給食費が含まれているため、別途の徴収はありません。</p>
+
+<h2>給食費の内訳</h2>
+<table>
+<tr><th>区分</th><th>内容</th><th>目安</th></tr>
+<tr><td>主食費</td><td>ごはん・パン・麺など</td><td>月3,000円前後</td></tr>
+<tr><td>副食費</td><td>おかず・おやつ・牛乳など</td><td>月4,500円前後</td></tr>
+<tr><td>合計</td><td>-</td><td>月7,500円前後</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>給食費の金額は園によって異なります。上記はあくまで目安です。入園前の説明会で正確な金額を確認しましょう。</p>
+</div>
+
+<h2>副食費が免除になるケース</h2>
+<p>以下の場合、副食費が免除されます。</p>
+<ul>
+<li><strong>年収360万円未満相当の世帯</strong></li>
+<li><strong>第3子以降の子ども</strong>（小学校就学前の子どもの中でカウント）</li>
+</ul>
+
+<h2>その他の実費負担</h2>
+<p>園によっては以下の費用も実費で徴収されることがあります。</p>
+<ul>
+<li>制服・体操服代</li>
+<li>教材費</li>
+<li>行事費</li>
+<li>布団リース代</li>
+<li>延長保育料</li>
+</ul>
+
+<div class="info-box">
+<p><strong>確認事項</strong></p>
+<p>実費負担の項目や金額は園によって大きく異なります。見学時や入園前説明会で必ず確認してください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 35,
+  },
+  {
+    slug: "hoikuryo-keisan",
+    citySlug: "yokohama",
+    title: "横浜市の保育料の計算方法　世帯年収別の目安",
+    description:
+      "横浜市の保育料はどのように決まるのか。市民税額に基づく計算方法と世帯年収別の目安を解説します。",
+    image:
+      "https://images.unsplash.com/photo-1554224154-26032ffc0d07?w=800&h=400&fit=crop",
+    category: "制度を知る",
+    categoryColor: "rose",
+    content: `<h2>保育料の決まり方</h2>
+<p>横浜市の認可保育園の保育料は、<strong>世帯の市民税所得割額</strong>に基づいて決まります。毎年6月頃に届く住民税の通知書で確認できます。</p>
+
+<h2>保育料に影響する要素</h2>
+<table>
+<tr><th>要素</th><th>影響</th></tr>
+<tr><td>世帯の市民税所得割額</td><td>所得割額が高いほど保育料が高い</td></tr>
+<tr><td>子どもの年齢</td><td>3歳以上は無償化で保育料0円</td></tr>
+<tr><td>きょうだいの有無</td><td>第2子は半額、第3子以降は無料</td></tr>
+<tr><td>保育の必要量</td><td>標準時間（11時間）と短時間（8時間）で異なる</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>保育料が実質的にかかるのは0〜2歳児です。3歳以上は無償化により保育料は0円ですが、給食費等の実費は別途必要です。</p>
+</div>
+
+<h2>0〜2歳児の保育料の目安</h2>
+<p>横浜市の保育料は階層制で、市民税所得割額によって30以上の階層に分かれています。以下は目安です。</p>
+<table>
+<tr><th>世帯年収の目安</th><th>月額保育料の目安（標準時間）</th></tr>
+<tr><td>非課税世帯</td><td>0円</td></tr>
+<tr><td>約300万円</td><td>約10,000〜15,000円</td></tr>
+<tr><td>約500万円</td><td>約25,000〜35,000円</td></tr>
+<tr><td>約700万円</td><td>約40,000〜50,000円</td></tr>
+<tr><td>約1,000万円以上</td><td>約60,000〜69,800円</td></tr>
+</table>
+
+<div class="info-box">
+<p><strong>注意</strong></p>
+<p>上記の金額はあくまで概算の目安です。正確な保育料は市民税所得割額で決まるため、お住まいの区役所で確認するか、横浜市のWebサイトの保育料表をご参照ください。共働き世帯は夫婦の所得割額を合算して判定されます。</p>
+</div>
+
+<h2>保育料が切り替わるタイミング</h2>
+<p>保育料は毎年9月に見直されます。4月〜8月は前年度の住民税額、9月〜翌3月は当年度の住民税額で計算されます。年度途中で保育料が変わることがあるため注意しましょう。</p>`,
+    publishedAt: "2026-04-07",
+    popularity: 50,
+  },
+  {
+    slug: "zeikin-koujo",
+    citySlug: "yokohama",
+    title: "保育に関連する税金控除まとめ　横浜市の保護者向け",
+    description:
+      "保育料は所得控除の対象になる？認可外保育施設のベビーシッター利用は？保育に関連する税金の控除を整理します。",
+    image:
+      "https://images.unsplash.com/photo-1554224155-1696413565d3?w=800&h=400&fit=crop",
+    category: "制度を知る",
+    categoryColor: "rose",
+    content: `<h2>認可保育園の保育料は所得控除の対象？</h2>
+<p>残念ながら、認可保育園の保育料は<strong>所得税の所得控除の対象にはなりません</strong>。医療費控除のような保育料控除という制度は現在の税制にはありません。</p>
+
+<h2>利用できる可能性のある控除・制度</h2>
+
+<h3>1. ベビーシッター利用の所得控除</h3>
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>認可外保育施設やベビーシッターの利用料は、勤務先の福利厚生として「企業主導型ベビーシッター利用者支援事業」の割引券を利用できる場合があります。これは所得控除ではなく割引ですが、実質的な負担軽減になります。</p>
+</div>
+
+<h3>2. 医療費控除</h3>
+<p>保育料自体は対象外ですが、子どもの医療費は医療費控除の対象です。横浜市では小児医療費助成制度があり、0歳〜中学3年生までの医療費の自己負担が軽減されます。</p>
+
+<h3>3. 扶養控除</h3>
+<p>16歳未満の子どもは扶養控除の対象外ですが、住民税の非課税判定には16歳未満の扶養親族の数が影響します。保育料は住民税額で決まるため、間接的に関連します。</p>
+
+<h2>保育料を下げるためにできること</h2>
+<ul>
+<li><strong>iDeCo（個人型確定拠出年金）への加入</strong>：掛金が全額所得控除となり、住民税が下がる→保育料も下がる可能性がある</li>
+<li><strong>ふるさと納税</strong>：住民税の税額控除になりますが、保育料の算定では「所得割額」を使うため、ふるさと納税では保育料は下がりません</li>
+<li><strong>医療費控除・生命保険料控除の申告</strong>：所得控除により住民税の所得割額が減り、保育料が下がる可能性がある</li>
+</ul>
+
+<div class="info-box">
+<p><strong>注意</strong></p>
+<p>税制や控除の仕組みは変更される場合があります。個別の状況に応じた判断は、税務署や税理士にご相談ください。ふるさと納税で保育料が下がるという誤解が多いですが、横浜市を含む多くの自治体では保育料の算定に影響しません。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 30,
+  },
+
+  // ========== 申請・手続き ==========
+  {
+    slug: "shurou-shoumeisho",
+    citySlug: "yokohama",
+    title: "横浜市の就労証明書の書き方と注意点",
+    description:
+      "保育園の申請で最も重要な書類「就労証明書」。横浜市での書き方のポイントや間違いやすい点を解説します。",
+    image:
+      "https://images.unsplash.com/photo-1450101499163-c8848e968838?w=800&h=400&fit=crop",
+    category: "保活の基本",
+    categoryColor: "green",
+    content: `<h2>就労証明書とは</h2>
+<p>就労証明書は、保護者の就労状況を証明する書類です。保育園の利用申請で<strong>最も重要な書類</strong>であり、この内容に基づいてランクが決まります。</p>
+
+<h2>誰が記入するのか</h2>
+<table>
+<tr><th>就労形態</th><th>記入者</th></tr>
+<tr><td>会社員・パート</td><td>勤務先の担当者（人事・総務など）</td></tr>
+<tr><td>自営業</td><td>本人（客観的資料を添付）</td></tr>
+<tr><td>内職</td><td>本人または発注元</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>会社員の場合は勤務先に依頼する必要があるため、<strong>申請締切の1か月前</strong>には依頼しましょう。繁忙期や大企業では作成に時間がかかることがあります。</p>
+</div>
+
+<h2>記入のポイント</h2>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content">
+<strong>就労時間は正確に</strong>
+<p>ランクは就労日数×就労時間で決まります。残業時間を含めず、<strong>契約上の所定労働時間</strong>を記入します。実態と異なる記載は不正とみなされる可能性があります。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content">
+<strong>育休中の場合</strong>
+<p>育休中でも復職予定の就労時間を記載します。「現在育児休業中」「復職予定日：〇年〇月〇日」の記載が必要です。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">3</div>
+<div class="step-content">
+<strong>横浜市の様式を使用する</strong>
+<p>横浜市指定の様式を使う必要があります。横浜市のWebサイトからダウンロードできます。他の自治体の様式では受け付けられません。</p>
+</div>
+</div>
+
+<h2>よくある間違い</h2>
+<ul>
+<li><strong>押印漏れ</strong>：勤務先の社印や担当者印が必要（電子申請の場合は異なる）</li>
+<li><strong>就労開始日の未記入</strong>：いつから勤務しているかの記載が必要</li>
+<li><strong>復職予定日の未記入</strong>：育休中の場合は必須</li>
+<li><strong>古い様式の使用</strong>：毎年様式が更新される可能性があるため、最新版を使う</li>
+</ul>
+
+<div class="info-box">
+<p><strong>確認事項</strong></p>
+<p>就労証明書の様式は横浜市のWebサイトからダウンロードできます。記入方法に迷った場合は、区役所こども家庭支援課に相談しましょう。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 60,
+  },
+  {
+    slug: "shinsei-shorui-list",
+    citySlug: "yokohama",
+    title: "横浜市の保育園申請に必要な書類一覧",
+    description:
+      "横浜市の認可保育園の申請に必要な書類を一覧にまとめました。漏れなく準備して申請に備えましょう。",
+    image:
+      "https://images.unsplash.com/photo-1568667256549-094345857637?w=800&h=400&fit=crop",
+    category: "保活の基本",
+    categoryColor: "green",
+    content: `<h2>全員が提出する書類</h2>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content">
+<strong>保育所等利用申請書（支給認定申請書兼）</strong>
+<p>基本情報、希望園、保育の必要性の事由を記入する書類です。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content">
+<strong>保育の必要性を証明する書類</strong>
+<p>就労証明書、診断書、介護の状況を示す書類など、保育が必要な理由を証明します。父母それぞれの分が必要です。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">3</div>
+<div class="step-content">
+<strong>マイナンバー確認書類</strong>
+<p>個人番号カード、通知カード、マイナンバーが記載された住民票のいずれか。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">4</div>
+<div class="step-content">
+<strong>本人確認書類</strong>
+<p>運転免許証、パスポート、マイナンバーカードなど。</p>
+</div>
+</div>
+
+<h2>該当する場合に提出する書類</h2>
+<table>
+<tr><th>状況</th><th>必要書類</th></tr>
+<tr><td>ひとり親世帯</td><td>ひとり親を証明する書類（児童扶養手当証書、戸籍謄本など）</td></tr>
+<tr><td>障害のある方がいる世帯</td><td>障害者手帳の写し</td></tr>
+<tr><td>生活保護世帯</td><td>生活保護受給証明書</td></tr>
+<tr><td>転入予定</td><td>転入に関する誓約書、不動産契約書の写し等</td></tr>
+<tr><td>育児休業中</td><td>育児休業取得証明書（就労証明書に記載があれば不要な場合あり）</td></tr>
+<tr><td>求職中</td><td>求職活動に関する申告書</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>書類の不備があると受付できない場合があります。提出前にチェックリストで確認しましょう。横浜市の「保育所等利用案内」に必要書類のチェックリストが掲載されています。</p>
+</div>
+
+<div class="info-box">
+<p><strong>オンライン申請の場合</strong></p>
+<p>横浜市はオンライン申請に対応しています。オンラインの場合は就労証明書などの書類を画像でアップロードする形式です。ただし、原本の提出を求められる場合もあるため、原本は手元に保管しておきましょう。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 55,
+  },
+  {
+    slug: "niji-shinsei",
+    citySlug: "yokohama",
+    title: "横浜市の二次申請・追加申請の流れと対策",
+    description:
+      "一次で不承諾だった場合の二次申請、追加申請の手続きと内定を取るためのポイントを解説します。",
+    image:
+      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
+    category: "保活の基本",
+    categoryColor: "green",
+    content: `<h2>二次申請とは</h2>
+<p>横浜市の4月入園は一次申請と二次申請の2回のチャンスがあります。一次で不承諾（保留）だった場合でも、二次申請で内定を得られる可能性があります。</p>
+
+<h2>二次申請のスケジュール</h2>
+<table>
+<tr><th>項目</th><th>目安</th></tr>
+<tr><td>二次申請開始</td><td>1月上旬</td></tr>
+<tr><td>二次申請締切</td><td>2月上旬</td></tr>
+<tr><td>結果通知</td><td>3月上旬</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>二次申請では一次で辞退が出た園や、まだ定員に達していない園が対象になります。一次よりも選べる園は少なくなりますが、新設園が二次から募集を開始する場合もあります。</p>
+</div>
+
+<h2>二次申請で内定を取るために</h2>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content">
+<strong>希望園を見直す</strong>
+<p>一次の結果発表後に空き状況が公表されます。空きのある園を確認し、希望園を追加・変更しましょう。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content">
+<strong>希望園数を増やす</strong>
+<p>二次では選択肢が限られるため、通える範囲をやや広げて希望園を増やすことが有効です。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">3</div>
+<div class="step-content">
+<strong>加点の変更がないか確認</strong>
+<p>一次の基準日以降に状況が変わった場合（例：認可外保育施設に預け始めた等）、調整指数が変わる可能性があります。</p>
+</div>
+</div>
+
+<h2>二次でも不承諾の場合</h2>
+<p>二次申請でも内定が出なかった場合は、以下の方法があります。</p>
+<ul>
+<li><strong>5月以降の途中入園を申請</strong>：毎月の利用調整で空きが出れば入園できる</li>
+<li><strong>認可外保育施設を利用</strong>：横浜保育室や認可外保育施設に一旦入園し、認可園の空きを待つ</li>
+<li><strong>育休延長</strong>：不承諾通知を勤務先に提出して育休を延長する</li>
+</ul>
+
+<div class="info-box">
+<p><strong>確認事項</strong></p>
+<p>二次申請の具体的な日程は年度によって異なります。横浜市のWebサイトや区役所で最新のスケジュールを確認してください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 45,
+  },
+  {
+    slug: "tenkyo-hokatsu",
+    citySlug: "yokohama",
+    title: "横浜市への引っ越し・転居を伴う保活ガイド",
+    description:
+      "横浜市に転入予定の場合の保活の進め方、申請手続き、必要書類について解説します。",
+    image:
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=400&fit=crop",
+    category: "保活の基本",
+    categoryColor: "green",
+    content: `<h2>横浜市への転入と保活</h2>
+<p>横浜市に転入予定の場合でも、認可保育園の利用申請が可能です。ただし、転入前の申請にはいくつかの条件と注意点があります。</p>
+
+<h2>転入前に申請する場合</h2>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content">
+<strong>転入先の住所を確定させる</strong>
+<p>賃貸契約書や不動産売買契約書など、転入先が確定していることを証明する書類が必要です。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content">
+<strong>転入先の区役所に申請</strong>
+<p>転入予定の区の区役所こども家庭支援課に申請します。住民票がまだ横浜市にない場合でも、転入に関する誓約書を提出すれば申請できます。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">3</div>
+<div class="step-content">
+<strong>入園月までに転入を完了する</strong>
+<p>入園日までに横浜市に住民登録を完了する必要があります。転入が完了しない場合、内定が取り消されます。</p>
+</div>
+</div>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>転入前の申請でもランクや調整指数の計算方法は同じです。ただし、横浜市在住者と同じ条件で競争する形になるため、転入を理由とした優遇はありません。</p>
+</div>
+
+<h2>横浜市内の区をまたぐ転居</h2>
+<p>横浜市内で別の区に引っ越す場合は以下の手続きが必要です。</p>
+<ul>
+<li><strong>転居先の区に変更届を提出</strong>：希望園の変更がある場合は申請内容の変更手続きが必要</li>
+<li><strong>在園中の転居</strong>：現在の園に通い続けることもできますが、転居先の近くの園に転園申請を出すことも可能</li>
+</ul>
+
+<div class="info-box">
+<p><strong>他の自治体からの転入で必要な書類</strong></p>
+<p>横浜市外からの転入の場合、住民税の課税証明書が必要になることがあります（保育料の算定のため）。転出元の自治体で取得しておきましょう。詳しくは転入先の区役所にご確認ください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 40,
+  },
+
+  // ========== 保活戦略 ==========
+  {
+    slug: "kyoiku-hoiku-chigai",
+    citySlug: "yokohama",
+    title: "教育と保育の違いを整理　横浜市の園選びに活かす",
+    description:
+      "保育園・幼稚園・認定こども園で異なる「教育」と「保育」の考え方。横浜市での園選びの参考に。",
+    image:
+      "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&h=400&fit=crop",
+    category: "園えらび",
+    categoryColor: "purple",
+    content: `<h2>保育と教育の制度上の違い</h2>
+<table>
+<tr><th>項目</th><th>保育園</th><th>幼稚園</th><th>認定こども園</th></tr>
+<tr><td>根拠法</td><td>児童福祉法</td><td>学校教育法</td><td>認定こども園法</td></tr>
+<tr><td>所管</td><td>こども家庭庁</td><td>文部科学省</td><td>こども家庭庁</td></tr>
+<tr><td>対象年齢</td><td>0〜5歳</td><td>3〜5歳</td><td>0〜5歳</td></tr>
+<tr><td>利用時間</td><td>原則11時間</td><td>原則4時間</td><td>認定区分による</td></tr>
+<tr><td>入園方法</td><td>区役所で利用調整</td><td>園に直接</td><td>認定区分による</td></tr>
+</table>
+
+<h2>実際の園での過ごし方</h2>
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>近年は保育園でも教育的な活動を取り入れる園が増えており、幼稚園でも預かり保育を充実させている園が増えています。制度上の区分だけでなく、<strong>各園の方針や実際のプログラム</strong>を見学で確認することが大切です。</p>
+</div>
+
+<h3>保育園の特徴</h3>
+<ul>
+<li>長時間の保育を前提とした生活リズムが整っている</li>
+<li>0歳からの一貫した保育が受けられる</li>
+<li>給食が提供される（横浜市の認可園は原則自園調理）</li>
+</ul>
+
+<h3>幼稚園の特徴</h3>
+<ul>
+<li>教育課程に基づいた活動（音楽、体操、英語など）が充実している園がある</li>
+<li>夏休み・冬休みなどの長期休暇がある（預かり保育で対応する園もある）</li>
+<li>弁当持参の園と給食の園がある</li>
+</ul>
+
+<h2>横浜市での園選びのポイント</h2>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content">
+<strong>勤務時間との兼ね合い</strong>
+<p>フルタイム勤務の場合は保育園や認定こども園（2号認定）が現実的です。短時間勤務や在宅勤務なら幼稚園＋預かり保育も選択肢に入ります。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content">
+<strong>教育内容の重視度</strong>
+<p>特定の教育プログラムを重視する場合は、保育園でも独自のカリキュラムを持つ園や、認定こども園を検討しましょう。</p>
+</div>
+</div>
+
+<div class="info-box">
+<p><strong>確認事項</strong></p>
+<p>横浜市には約900か所の認可保育園、多数の幼稚園・認定こども園があります。それぞれの園の方針は大きく異なるため、必ず見学をしてお子さんに合った園を選びましょう。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 40,
+  },
+  {
+    slug: "hokatsu-calendar",
+    citySlug: "yokohama",
+    title: "横浜市の保活カレンダー　月別やることリスト",
+    description:
+      "横浜市で4月入園を目指す場合の保活スケジュールを月別に整理。いつ何をすべきかが一目でわかります。",
+    image:
+      "https://images.unsplash.com/photo-1506784365847-bbad939e9335?w=800&h=400&fit=crop",
+    category: "保活の基本",
+    categoryColor: "green",
+    content: `<h2>4月入園を目指す保活カレンダー</h2>
+<p>横浜市の4月入園に向けたスケジュールを月別にまとめました。前年度の春から動き始めるのが理想です。</p>
+
+<h3>4月〜5月：情報収集スタート</h3>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content">
+<strong>保育園の種類を理解する</strong>
+<p>認可保育園、小規模保育、認定こども園、横浜保育室など、施設の種類と違いを把握しましょう。</p>
+</div>
+</div>
+
+<h3>6月〜8月：保育園見学</h3>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content">
+<strong>見学の予約と実施</strong>
+<p>気になる園に電話して見学を予約します。1日1〜2園のペースで、少なくとも5〜10園は見学しておきたいところです。夏場は比較的予約が取りやすい傾向です。</p>
+</div>
+</div>
+
+<h3>9月：書類準備</h3>
+<div class="step">
+<div class="step-num">3</div>
+<div class="step-content">
+<strong>就労証明書の依頼</strong>
+<p>勤務先に就労証明書の作成を依頼します。横浜市の指定様式をダウンロードして渡しましょう。</p>
+</div>
+</div>
+
+<h3>10月：利用案内入手・申請準備</h3>
+<div class="step">
+<div class="step-num">4</div>
+<div class="step-content">
+<strong>保育所等利用案内の入手</strong>
+<p>区役所やWebサイトで最新の利用案内を入手し、申請書類を準備します。希望園の記入順を決めましょう。</p>
+</div>
+</div>
+
+<h3>10月〜11月：一次申請</h3>
+<div class="step">
+<div class="step-num">5</div>
+<div class="step-content">
+<strong>申請書の提出</strong>
+<p>オンライン・郵送・窓口のいずれかで申請します。締切日に余裕を持って提出しましょう。</p>
+</div>
+</div>
+
+<h3>1月：結果通知</h3>
+<div class="step">
+<div class="step-num">6</div>
+<div class="step-content">
+<strong>一次の結果確認</strong>
+<p>1月下旬に結果が届きます。内定の場合は園の説明会に参加。不承諾の場合は二次申請の準備を。</p>
+</div>
+</div>
+
+<h3>1月〜2月：二次申請（不承諾の場合）</h3>
+<div class="step">
+<div class="step-num">7</div>
+<div class="step-content">
+<strong>二次申請の手続き</strong>
+<p>空き状況を確認して希望園を見直し、二次申請を提出します。</p>
+</div>
+</div>
+
+<h3>3月：入園準備</h3>
+<div class="step">
+<div class="step-num">8</div>
+<div class="step-content">
+<strong>入園に向けた準備</strong>
+<p>持ち物の準備、慣らし保育のスケジュール確認、勤務先との復職日の調整を行います。</p>
+</div>
+</div>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>このスケジュールは4月入園の場合です。途中入園の場合は希望月の前月10日前後が申請締切の目安です。最新の日程は区役所に確認してください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 65,
+  },
+  {
+    slug: "souba-tensuu",
+    citySlug: "yokohama",
+    title: "横浜市の保育園内定ラインの相場感　ランクと調整指数の目安",
+    description:
+      "横浜市の認可保育園に入園するには、どのランク・調整指数が必要か。内定ラインの傾向を解説します。",
+    image:
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop",
+    category: "データ分析",
+    categoryColor: "teal",
+    content: `<h2>横浜市の利用調整の仕組み</h2>
+<p>横浜市の認可保育園の利用調整は、まず<strong>ランク（A〜I）</strong>で優先順位を決め、同ランク内では<strong>調整指数</strong>の高い順に入園が決まります。</p>
+
+<h2>ランクの目安</h2>
+<table>
+<tr><th>ランク</th><th>主な対象</th></tr>
+<tr><td>A</td><td>両親ともにフルタイム勤務（月20日以上・1日8時間以上）</td></tr>
+<tr><td>B</td><td>両親ともに週4日以上・1日8時間以上の就労</td></tr>
+<tr><td>C</td><td>両親ともに週4日以上・1日6時間以上の就労</td></tr>
+<tr><td>D〜E</td><td>短時間就労の組み合わせ</td></tr>
+<tr><td>F〜I</td><td>求職中、短時間就労など</td></tr>
+</table>
+
+<h2>内定ラインの傾向</h2>
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>横浜市の人気エリア・人気園の0〜1歳児クラスでは、<strong>ランクAかつ調整指数の加点あり</strong>が内定ラインの目安です。ランクBでも調整指数が高ければ内定するケースはありますが、ランクC以下では認可保育園への4月一次入園は難しい傾向にあります。</p>
+</div>
+
+<h2>調整指数で差がつくケース</h2>
+<p>ランクAが多い園では、調整指数で順位が決まります。主な加点項目は以下の通りです。</p>
+<table>
+<tr><th>項目</th><th>調整指数</th></tr>
+<tr><td>きょうだいが在園中の施設を希望</td><td>+4</td></tr>
+<tr><td>小規模保育等の卒園児</td><td>+5</td></tr>
+<tr><td>横浜保育室等からの転園</td><td>+5</td></tr>
+<tr><td>ひとり親世帯</td><td>+6</td></tr>
+<tr><td>認可外保育施設に有償で月極め利用中</td><td>+2</td></tr>
+</table>
+
+<h2>相場感をつかむ方法</h2>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content">
+<strong>区役所への相談</strong>
+<p>区役所の窓口で「この園の昨年の内定ラインはどの程度でしたか」と聞くと、傾向を教えてもらえることがあります。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content">
+<strong>空き状況データの確認</strong>
+<p>横浜市が公表する保育所等の空き状況データから、どの園が人気かを推測できます。</p>
+</div>
+</div>
+
+<div class="info-box">
+<p><strong>注意</strong></p>
+<p>内定ラインは年度・園・年齢クラスによって異なります。あくまで傾向として参考にしてください。調整指数の項目や点数は変更される場合があるため、最新の利用案内で確認してください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 60,
+  },
+  {
+    slug: "ku-betsu-bairitsu",
+    citySlug: "yokohama",
+    title: "横浜市の区別入園倍率データと傾向分析",
+    description:
+      "横浜市18区の保育園の入りやすさの傾向を、保留児童数や定員の状況から分析します。",
+    image:
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=400&fit=crop",
+    category: "データ分析",
+    categoryColor: "teal",
+    content: `<h2>横浜市の保育の状況</h2>
+<p>横浜市は人口約375万人の政令指定都市で、18の行政区があります。認可保育園等は約900か所あり、全国でもトップクラスの保育施設数を誇りますが、エリアによって入りやすさに大きな差があります。</p>
+
+<h2>保留児童が多い傾向の区</h2>
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>横浜市は「待機児童」の定義とは別に「保留児童」の数を公表しています。保留児童には、特定の園のみを希望している方や、育休延長中の方なども含まれます。保留児童が多い区は、それだけ需要が高いエリアです。</p>
+</div>
+
+<h3>競争率が高い傾向のエリア</h3>
+<table>
+<tr><th>区</th><th>特徴</th></tr>
+<tr><td>港北区</td><td>市内最大の人口。日吉・綱島エリアが特に激戦</td></tr>
+<tr><td>都筑区</td><td>センター北・センター南の人気が高い</td></tr>
+<tr><td>青葉区</td><td>たまプラーザ・あざみ野エリアはファミリー層に人気</td></tr>
+<tr><td>鶴見区</td><td>再開発で人口が増加傾向</td></tr>
+<tr><td>戸塚区</td><td>人口が多くファミリー世帯が増加</td></tr>
+</table>
+
+<h3>比較的入りやすい傾向のエリア</h3>
+<table>
+<tr><th>区</th><th>特徴</th></tr>
+<tr><td>金沢区</td><td>定員に余裕がある園が比較的多い</td></tr>
+<tr><td>栄区</td><td>市内でも人口が少なく競争率は低め</td></tr>
+<tr><td>泉区</td><td>駅から離れたエリアでは空きがある場合も</td></tr>
+</table>
+
+<h2>データの確認方法</h2>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content">
+<strong>横浜市の公表データ</strong>
+<p>横浜市は毎年4月時点の待機児童数・保留児童数を区別に公表しています。「横浜市 保留児童数」で検索すると最新データを確認できます。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content">
+<strong>空き状況の毎月更新</strong>
+<p>横浜市のWebサイトでは各園の空き状況が毎月更新されます。気になるエリアの空き状況を定期的にチェックしましょう。</p>
+</div>
+</div>
+
+<div class="info-box">
+<p><strong>注意</strong></p>
+<p>入園の難易度は年度や年齢クラスによって変動します。上記の傾向はあくまで参考です。最新の状況は区役所にお問い合わせください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 55,
+  },
+
+  // ========== 育休・復帰 ==========
+  {
+    slug: "ikukyu-enchou-risk",
+    citySlug: "yokohama",
+    title: "育休延長のリスクと給付金への影響　横浜市の保活視点",
+    description:
+      "育休を延長する場合の育児休業給付金への影響や、保活との関係について横浜市の制度を踏まえて解説します。",
+    image:
+      "https://images.unsplash.com/photo-1531983412531-1f49a365ffed?w=800&h=400&fit=crop",
+    category: "制度を知る",
+    categoryColor: "rose",
+    content: `<h2>育休延長の仕組み</h2>
+<p>育児休業は原則として子どもが1歳になるまでですが、保育園に入れなかった場合は<strong>最長2歳まで</strong>延長できます。</p>
+
+<h3>延長の条件</h3>
+<ul>
+<li>子どもが1歳になる時点で保育園に入れないこと</li>
+<li>保育園に申し込んだが不承諾（保留）であることの証明が必要</li>
+<li>1歳6か月時点でさらに入園できない場合は2歳まで再延長可能</li>
+</ul>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>育休延長には横浜市から発行される<strong>不承諾通知（保留通知）</strong>が必要です。意図的に特定の1園のみを希望して不承諾を得る「落選狙い」は、制度改正により審査が厳格化される傾向にあります。</p>
+</div>
+
+<h2>育児休業給付金への影響</h2>
+<table>
+<tr><th>期間</th><th>給付率</th></tr>
+<tr><td>育休開始〜180日目</td><td>賃金の67%</td></tr>
+<tr><td>181日目〜</td><td>賃金の50%</td></tr>
+<tr><td>延長期間（1歳〜2歳）</td><td>賃金の50%</td></tr>
+</table>
+
+<p>育休を延長しても給付金は受け取れますが、181日目以降は<strong>50%に下がったまま</strong>です。延長期間が長くなるほど収入減の影響が大きくなります。</p>
+
+<h2>育休延長と保活のバランス</h2>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content">
+<strong>0歳4月入園を狙う</strong>
+<p>もっとも入園しやすい0歳4月に申し込む方法です。育休は短くなりますが、入園の確実性が高まります。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content">
+<strong>1歳4月入園を目指す</strong>
+<p>1歳まで育休を取り、1歳の4月入園を目指す方法です。競争率は高くなりますが、育休を長く取れます。認可外保育施設を活用して加点を得る戦略も検討しましょう。</p>
+</div>
+</div>
+
+<div class="info-box">
+<p><strong>確認事項</strong></p>
+<p>育児休業給付金の支給条件や金額は雇用保険の制度に基づきます。最新の情報はハローワークや勤務先の人事担当にご確認ください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 50,
+  },
+  {
+    slug: "fukushoku-junbi",
+    citySlug: "yokohama",
+    title: "保育園入園後の復職準備リスト　横浜市の保護者向け",
+    description:
+      "保育園の入園が決まったら復職に向けて準備すべきことをリストにまとめました。慣らし保育のスケジュールも解説します。",
+    image:
+      "https://images.unsplash.com/photo-1573497620053-ea5300f94f21?w=800&h=400&fit=crop",
+    category: "保活の基本",
+    categoryColor: "green",
+    content: `<h2>入園が決まってからやること</h2>
+
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content">
+<strong>勤務先に復職日を連絡（入園決定後すぐ）</strong>
+<p>入園日と慣らし保育の期間を伝え、復職日を確定させます。慣らし保育中はフルタイムで預けられないため、復職日は慣らし保育終了後に設定するのが一般的です。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content">
+<strong>入園前説明会に参加（2月〜3月頃）</strong>
+<p>園から入園前説明会の案内が届きます。持ち物、送迎のルール、慣らし保育のスケジュールなどの説明を受けます。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">3</div>
+<div class="step-content">
+<strong>持ち物の準備</strong>
+<p>園によって指定される持ち物が異なります。以下は一般的な例です。</p>
+<ul>
+<li>着替え（上下各3〜4組）</li>
+<li>おむつ（記名が必要な園もある）</li>
+<li>お昼寝用の布団やシーツ</li>
+<li>食事用エプロン・口拭きタオル</li>
+<li>通園バッグ</li>
+</ul>
+</div>
+</div>
+<div class="step">
+<div class="step-num">4</div>
+<div class="step-content">
+<strong>かかりつけ医を決める</strong>
+<p>保育園に通い始めると体調を崩すことが増えます。小児科のかかりつけ医を決めておきましょう。病児保育の登録も早めに済ませると安心です。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">5</div>
+<div class="step-content">
+<strong>病児保育・ファミリーサポートの登録</strong>
+<p>子どもが体調不良で保育園に通えないときの預け先を確保しておきます。横浜市には病児保育を実施する施設があり、事前登録が必要です。</p>
+</div>
+</div>
+
+<h2>慣らし保育について</h2>
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>慣らし保育は一般的に<strong>1〜2週間</strong>かけて行います。初日は1〜2時間から始まり、徐々に預ける時間を延ばしていきます。お子さんの様子によって期間が延びる場合もあるため、復職日には余裕を持たせましょう。</p>
+</div>
+
+<div class="info-box">
+<p><strong>確認事項</strong></p>
+<p>持ち物のルールや慣らし保育の進め方は園によって異なります。入園前説明会で詳しく確認してください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 45,
+  },
+
+  // ========== 家族構成別 ==========
+  {
+    slug: "sannin-me-hokatsu",
+    citySlug: "yokohama",
+    title: "横浜市で3人目以降の保活　多子軽減と加点のポイント",
+    description:
+      "3人目以降の保活で活用できる横浜市の多子軽減制度やきょうだい加点について解説します。",
+    image:
+      "https://images.unsplash.com/photo-1475503572774-15a45e5d60b9?w=800&h=400&fit=crop",
+    category: "点数アップ",
+    categoryColor: "amber",
+    content: `<h2>3人目以降の保活は有利？</h2>
+<p>横浜市では3人目以降の保活には、保育料の多子軽減ときょうだい加点という2つのメリットがあります。</p>
+
+<h2>保育料の多子軽減</h2>
+<table>
+<tr><th>子どもの区分</th><th>0〜2歳児の保育料</th></tr>
+<tr><td>第1子</td><td>通常の保育料</td></tr>
+<tr><td>第2子</td><td>半額</td></tr>
+<tr><td>第3子以降</td><td>無料</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>多子軽減のカウントは、保育園・幼稚園・認定こども園等に通っている就学前の子どもが対象です。ただし、年収360万円未満相当の世帯は、上の子の年齢に関わらず多子軽減が適用されます。</p>
+</div>
+
+<h2>きょうだい加点の活用</h2>
+<p>上の子が在園中の施設と同じ施設を希望すると<strong>調整指数+4</strong>の加点があります。3人目の場合、上の子2人が別々の園にいるケースもあるため、どの園を第一希望にするか戦略が重要です。</p>
+
+<h2>3人目以降の保活戦略</h2>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content">
+<strong>上の子と同じ園を第一希望に</strong>
+<p>きょうだい加点（+4）を活用して、上の子と同じ園を希望しましょう。送迎の負担軽減にもなります。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content">
+<strong>上の子2人が別園の場合</strong>
+<p>どちらかの園を第一希望にしてきょうだい加点を得つつ、もう一方の園も希望に入れておきましょう。</p>
+</div>
+</div>
+
+<div class="info-box">
+<p><strong>確認事項</strong></p>
+<p>多子軽減の対象範囲やきょうだい加点の条件は変更される場合があります。最新情報は横浜市の利用案内やお住まいの区役所で確認してください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 40,
+  },
+  {
+    slug: "tanshin-funin",
+    citySlug: "yokohama",
+    title: "横浜市で単身赴任世帯の保活　加点と申請のポイント",
+    description:
+      "配偶者が単身赴任中の場合の保活。横浜市での利用調整上の取り扱いと加点について解説します。",
+    image:
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=400&fit=crop",
+    category: "点数アップ",
+    categoryColor: "amber",
+    content: `<h2>単身赴任世帯の保活</h2>
+<p>配偶者が単身赴任で不在の場合、日常的に一人で育児をしている状態になります。横浜市の利用調整では、このような状況に対して一定の配慮がなされる場合があります。</p>
+
+<h2>利用調整での取り扱い</h2>
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>横浜市では、単身赴任により配偶者が保育に当たれない場合、<strong>保育の必要性の事由</strong>として認められます。ランクの判定は、単身赴任中の配偶者の就労状況も考慮されます。</p>
+</div>
+
+<h2>必要な書類</h2>
+<ul>
+<li><strong>就労証明書</strong>：両親分が必要。単身赴任中の配偶者分も提出する</li>
+<li><strong>単身赴任の証明</strong>：辞令の写し、赴任先の住民票など</li>
+<li><strong>申告書</strong>：家庭の状況を記載する書類で、単身赴任の状況を記入</li>
+</ul>
+
+<h2>実質的にひとり親に近い状態でも</h2>
+<p>単身赴任はひとり親世帯とは異なるため、ひとり親加点（+6）は適用されません。ただし、以下の点で配慮される可能性があります。</p>
+<ul>
+<li><strong>同居の祖父母がいない場合</strong>：実質的に一人で保育をしている状況が考慮される</li>
+<li><strong>送迎の困難さ</strong>：園の選定にあたって通園距離や送迎の事情を区役所に伝えておくとよい</li>
+</ul>
+
+<div class="info-box">
+<p><strong>確認事項</strong></p>
+<p>単身赴任の具体的な取り扱いや調整指数への反映は、状況によって異なります。事前に区役所こども家庭支援課に相談して、自分の世帯の状況を正確に伝えましょう。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 35,
+  },
+  {
+    slug: "sofu-sobo-doukyo",
+    citySlug: "yokohama",
+    title: "横浜市で祖父母同居の場合の保活　減点と対策",
+    description:
+      "祖父母と同居している場合、保育園の利用調整で不利になる？横浜市での取り扱いと対策を解説します。",
+    image:
+      "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=800&h=400&fit=crop",
+    category: "点数アップ",
+    categoryColor: "amber",
+    content: `<h2>祖父母同居は保活に不利？</h2>
+<p>かつては祖父母と同居していると「保育に当たれる人がいる」とみなされて不利になるケースがありました。横浜市の現在の制度では、<strong>同居の祖父母の状況</strong>によって取り扱いが異なります。</p>
+
+<h2>横浜市での取り扱い</h2>
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>横浜市では、同居の65歳未満の祖父母が就労しておらず、保育に当たれる状態にある場合、<strong>調整指数がマイナスになる</strong>可能性があります。ただし、祖父母が就労中・病気・介護中などで保育に当たれない場合は、減点の対象にはなりません。</p>
+</div>
+
+<h2>減点されるケース・されないケース</h2>
+<table>
+<tr><th>祖父母の状況</th><th>減点の有無</th></tr>
+<tr><td>65歳未満で無職・健康</td><td>減点される可能性あり</td></tr>
+<tr><td>65歳以上</td><td>減点されない</td></tr>
+<tr><td>就労中（パート含む）</td><td>減点されない</td></tr>
+<tr><td>病気・障害がある</td><td>減点されない</td></tr>
+<tr><td>他の親族の介護をしている</td><td>減点されない</td></tr>
+</table>
+
+<h2>対策</h2>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content">
+<strong>祖父母の状況を正確に申告する</strong>
+<p>祖父母が就労中や通院中であれば、その証明書類を添付しましょう。就労証明書や診断書が有効です。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content">
+<strong>世帯分離を検討する</strong>
+<p>同一住所でも世帯を分離している場合の取り扱いは区役所に確認してください。住民票上の世帯構成が判断基準になります。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">3</div>
+<div class="step-content">
+<strong>区役所に事前相談する</strong>
+<p>祖父母の状況を具体的に伝え、減点の対象になるかどうかを事前に確認しておきましょう。</p>
+</div>
+</div>
+
+<div class="info-box">
+<p><strong>注意</strong></p>
+<p>祖父母同居に関する調整指数の取り扱いは年度によって変更される可能性があります。最新の利用案内を確認し、不明点は区役所に相談してください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 45,
+  },
+
+  // ========== トラブル対策 ==========
+  {
+    slug: "fushoninchi-taiou",
+    citySlug: "yokohama",
+    title: "横浜市で不承諾通知が届いたら　次にやるべきこと",
+    description:
+      "保育園の不承諾通知（保留通知）が届いた場合にやるべきことを順番に解説します。",
+    image:
+      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
+    category: "保活の基本",
+    categoryColor: "green",
+    content: `<h2>不承諾通知を受け取ったら</h2>
+<p>横浜市では、認可保育園の利用調整で入園できなかった場合に<strong>「保留通知」</strong>が届きます。ショックですが、まだできることはあります。落ち着いて次のステップに進みましょう。</p>
+
+<h2>すぐにやるべきこと</h2>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content">
+<strong>二次申請の準備（一次で不承諾の場合）</strong>
+<p>一次で不承諾の場合は、二次申請に備えて空き状況を確認し、希望園の追加・変更を検討しましょう。二次申請の締切は2月上旬頃です。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content">
+<strong>育休延長の手続き</strong>
+<p>保留通知は育休延長の証明書になります。勤務先に提出して育休延長の手続きを行いましょう。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">3</div>
+<div class="step-content">
+<strong>認可外保育施設の検討</strong>
+<p>横浜保育室や認可外保育施設への入園を並行して検討します。認可外に預けながら認可園の空きを待つ方法は有効な戦略です。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">4</div>
+<div class="step-content">
+<strong>途中入園の申請を続ける</strong>
+<p>4月以降も毎月の利用調整があります。申請を継続しておけば、空きが出た際に入園できる可能性があります。</p>
+</div>
+</div>
+
+<h2>不承諾の理由を確認する</h2>
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>区役所に問い合わせると、自分のランクや調整指数がどの程度の順位だったかの傾向を教えてもらえることがあります。次の申請に向けてランクアップや調整指数の加点が可能かどうかを確認しましょう。</p>
+</div>
+
+<h2>翌年度に向けて</h2>
+<ul>
+<li><strong>認可外保育施設に預ける</strong>：有償で月極め利用すると認可園申請時に調整指数+2の加点が得られる</li>
+<li><strong>希望園の見直し</strong>：人気園だけでなく、空きが出やすい園も希望に入れる</li>
+<li><strong>就労時間の見直し</strong>：ランクを上げられる場合は就労時間の増加を検討する</li>
+</ul>
+
+<div class="info-box">
+<p><strong>確認事項</strong></p>
+<p>途中入園の申請締切は毎月変わります。詳しいスケジュールは区役所にお問い合わせください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 55,
+  },
+  {
+    slug: "taiki-jidou-taisaku",
+    citySlug: "yokohama",
+    title: "横浜市で待機中にできる具体的な行動リスト",
+    description:
+      "保育園の空きを待っている間にできること。次の利用調整に向けた準備と日常の預け先を整理します。",
+    image:
+      "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
+    category: "保活の基本",
+    categoryColor: "green",
+    content: `<h2>待機中でもできることはたくさんある</h2>
+<p>保育園に入れず待機中の期間は不安が大きいですが、次のチャンスに向けてできる準備があります。</p>
+
+<h2>預け先の確保</h2>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content">
+<strong>横浜保育室の利用</strong>
+<p>横浜市独自の制度である横浜保育室は、認可外でありながら市の基準を満たした施設です。認可園の空きを待つ間の預け先として利用でき、認可園申請時に加点も得られます。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content">
+<strong>一時保育の活用</strong>
+<p>定期的に利用できる一時保育を実施している園があります。仕事や求職活動の際に活用しましょう。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">3</div>
+<div class="step-content">
+<strong>ファミリーサポートの登録</strong>
+<p>横浜市のファミリー・サポート・センターに登録すると、地域の提供会員に子どもを預けることができます。急な用事の際にも役立ちます。</p>
+</div>
+</div>
+
+<h2>次の利用調整に向けた準備</h2>
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>認可外保育施設に有償で月極め利用していると、次回の認可園申請時に<strong>調整指数+2</strong>の加点が得られます。待機中の預け先を確保しつつ、加点も得られる一石二鳥の方法です。</p>
+</div>
+
+<h2>待機中にやっておくべきこと</h2>
+<ul>
+<li><strong>毎月の途中入園申請を継続する</strong>：申請を出し続けないと利用調整の対象になりません</li>
+<li><strong>空き状況を定期的にチェックする</strong>：横浜市のWebサイトで毎月更新される空き状況を確認</li>
+<li><strong>新設園の情報を追う</strong>：年度途中でも新設園がオープンする場合があります</li>
+<li><strong>希望園の追加・変更を検討する</strong>：通える範囲を広げることで入園の可能性が高まる</li>
+</ul>
+
+<div class="info-box">
+<p><strong>確認事項</strong></p>
+<p>横浜保育室の空き状況やファミリーサポートの登録方法は、区役所こども家庭支援課やよこはまファミリー・サポート・センターにお問い合わせください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 50,
+  },
+  {
+    slug: "tennen-moshikomi",
+    citySlug: "yokohama",
+    title: "横浜市の転園申請の手続きと注意点",
+    description:
+      "現在の保育園から別の園への転園を希望する場合の横浜市の申請手続き、転園の優先度について解説します。",
+    image:
+      "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=800&h=400&fit=crop",
+    category: "保活の基本",
+    categoryColor: "green",
+    content: `<h2>転園申請とは</h2>
+<p>すでに認可保育園に通っているが、別の認可保育園に移りたい場合に行う手続きです。引っ越しやきょうだいとの同園希望など、さまざまな理由で転園を検討するケースがあります。</p>
+
+<h2>転園の申請方法</h2>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content">
+<strong>区役所に転園申請書を提出</strong>
+<p>新規の入園申請と同じ書類に加え、転園を希望する理由を記入します。就労証明書等も最新のものを用意します。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content">
+<strong>毎月の利用調整で審査</strong>
+<p>転園申請は新規入園と同じ利用調整の中で審査されます。転園だからといって優先されるわけではありません。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">3</div>
+<div class="step-content">
+<strong>転園先が決まったら退園手続き</strong>
+<p>転園先の入園日に合わせて、現在の園を退園する手続きを行います。</p>
+</div>
+</div>
+
+<h2>転園申請の注意点</h2>
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>転園申請は新規入園の方と同じ基準で審査されます。在園中であることによる優遇はないため、希望園の競争率が高い場合は長期間待つ覚悟が必要です。ただし、<strong>きょうだいが在園する園への転園</strong>の場合はきょうだい加点（+4）が適用されます。</p>
+</div>
+
+<h2>転園を検討すべきケース</h2>
+<ul>
+<li><strong>引っ越しで通園が困難になった場合</strong>：転居先の近くの園に申請する</li>
+<li><strong>きょうだいが別々の園に通っている場合</strong>：同一園を希望して送迎の負担を軽減する</li>
+<li><strong>園の方針が合わない場合</strong>：慎重に検討し、区役所にも相談する</li>
+</ul>
+
+<h2>転園申請中も現在の園に通える</h2>
+<p>転園申請を出しても、転園先が決まるまでは現在の園に通い続けることができます。転園先が見つからない場合でも退園にはなりません。</p>
+
+<div class="info-box">
+<p><strong>確認事項</strong></p>
+<p>転園申請の手続きや必要書類は、お住まいの区役所こども家庭支援課にご確認ください。4月入園のタイミングで転園を希望する場合は、通常の一次申請と同じスケジュールで申請が必要です。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 35,
+  },
 ];
 
 registerArticles(articles);

@@ -1128,6 +1128,1015 @@ const articles: Article[] = [
     publishedAt: "2026-04-07",
     popularity: 55,
   },
+
+  // ========== 追加記事 2026-04-07 ==========
+  {
+    slug: "self-employed-score",
+    citySlug: "saitama",
+    title: "さいたま市で自営業・フリーランスが保育園に入るための点数戦略",
+    description: "さいたま市で自営業やフリーランスの方が保育園入園選考で不利にならないための仕組みと対策を解説します。",
+    image: "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&h=400&fit=crop",
+    category: "点数・選考",
+    categoryColor: "blue",
+    content: `<h2>自営業・フリーランスの基本指数</h2>
+<p>さいたま市では自営業・フリーランスも会社員と同じ基本指数表が適用されます。月の就労日数と時間が基準を満たせば<span class="highlight">最大26点</span>を取得できます。</p>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>自営業の場合、「就労状況申告書」と「開業届の写し」または「確定申告書の写し」の提出が必要です。</p>
+</div>
+
+<h2>点数を最大化するコツ</h2>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content"><strong>就労時間の記録を残す</strong><p>月20日以上・週40時間以上の就労実態を証明できるようにしましょう。</p></div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content"><strong>開業届を出しておく</strong><p>税務署への開業届は就労証明の基本です。</p></div>
+</div>
+<div class="step">
+<div class="step-num">3</div>
+<div class="step-content"><strong>確定申告書を用意する</strong><p>事業実態の証明になります。</p></div>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>必要書類の詳細は<a href="https://www.city.saitama.lg.jp/003/001/015/001/p100639.html" target="_blank" rel="noopener">さいたま市公式サイト</a>でご確認ください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 40,
+  },
+  {
+    slug: "naishoku-score",
+    citySlug: "saitama",
+    title: "さいたま市で内職・在宅ワークの場合の保育園入園点数",
+    description: "さいたま市で内職や在宅ワークをしている場合の点数の扱いと注意点を解説します。",
+    image: "https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?w=800&h=400&fit=crop",
+    category: "点数・選考",
+    categoryColor: "blue",
+    content: `<h2>在宅ワーク・内職の点数</h2>
+<p>さいたま市では在宅ワークも居宅外労働と<strong>同じ基本指数表</strong>が適用されます。</p>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>在宅ワークだからといって点数が下がることはありません。ただし就労実態の証明が重要です。</p>
+</div>
+
+<h2>必要な証明書類</h2>
+<table>
+<tr><th>働き方</th><th>必要書類</th></tr>
+<tr><td>業務委託・フリーランス</td><td>就労状況申告書＋開業届＋契約書等</td></tr>
+<tr><td>内職</td><td>就労状況申告書＋内職証明書</td></tr>
+<tr><td>在宅勤務（会社員）</td><td>就労証明書（在宅勤務の旨を記載）</td></tr>
+</table>
+
+<h2>注意点</h2>
+<ul>
+<li>就労時間は実働時間で申告してください</li>
+<li>就労実態と申告内容に相違がある場合、利用取消の可能性があります</li>
+</ul>
+
+<div class="info-box">
+<p><strong>注意</strong></p>
+<p>不明点は各区役所支援課にお問い合わせください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 35,
+  },
+  {
+    slug: "kyushoku-hokatsu",
+    citySlug: "saitama",
+    title: "さいたま市で求職中に保育園に申し込む方法と点数",
+    description: "さいたま市で求職活動中でも保育園に申し込めます。求職中の点数と就労開始期限を解説します。",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=400&fit=crop",
+    category: "点数・選考",
+    categoryColor: "blue",
+    content: `<h2>求職中でも申し込める</h2>
+<p>さいたま市では「求職活動中」も保育を必要とする事由として認可保育園に申し込めます。</p>
+
+<h2>求職中の基本指数</h2>
+<p>求職活動中の基本指数はフルタイム就労（26点）より大きく下がります。62点ボーダーの園では厳しい状況です。</p>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>求職中の場合、入園後<strong>90日以内</strong>に就労を開始する必要があります。</p>
+</div>
+
+<h2>点数を上げる方法</h2>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content"><strong>先に就職先を決める</strong><p>内定があれば就労同等の点数が適用されます。</p></div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content"><strong>認可外に預けて就労開始</strong><p>認可外利用＋就労で加点が得られます。</p></div>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>詳細は<a href="https://www.city.saitama.lg.jp/003/001/015/001/p100639.html" target="_blank" rel="noopener">さいたま市公式サイト</a>でご確認ください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 40,
+  },
+  {
+    slug: "tenshoku-timing",
+    citySlug: "saitama",
+    title: "さいたま市で転職するタイミングと保育園への影響",
+    description: "転職がさいたま市の保育園入園選考や在園継続に与える影響を解説します。",
+    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=400&fit=crop",
+    category: "保活の基本",
+    categoryColor: "green",
+    content: `<h2>転職が入園選考に与える影響</h2>
+<p>入園申込時の就労証明書は現在の勤務先のものが必要です。</p>
+
+<h2>入園後に転職する場合</h2>
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>入園後の転職は可能ですが、新しい就労証明書を速やかに区役所支援課に提出してください。退職から再就職まで<strong>90日以内</strong>に就労開始が必要です。</p>
+</div>
+
+<h2>注意点</h2>
+<ul>
+<li>就労時間が大幅に減ると保育の必要性が認められなくなる可能性があります</li>
+<li>申込後〜入園前の転職は新しい就労証明書を速やかに提出してください</li>
+</ul>
+
+<div class="info-box">
+<p><strong>注意</strong></p>
+<p>詳細は各区役所支援課にご相談ください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 35,
+  },
+  {
+    slug: "age2-nyuen",
+    citySlug: "saitama",
+    title: "さいたま市で2歳児クラスから入園するメリットと注意点",
+    description: "さいたま市で2歳児クラスから保育園に入るメリットと競争率の傾向を解説します。",
+    image: "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+    category: "年齢別対策",
+    categoryColor: "amber",
+    content: `<h2>2歳児クラスの特徴</h2>
+<p>2歳児クラスは4月1日時点で2歳の子どもが対象です。</p>
+
+<h2>メリット</h2>
+<ul>
+<li>1歳児クラスに比べて競争率が低い園がある</li>
+<li>小規模保育からの転園組がいるため枠が増える園もある</li>
+</ul>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>2歳児クラスは持ち上がりが多く新規募集枠が少ない園もあります。さいたま市公式サイトで各園の募集予定数を確認しましょう。</p>
+</div>
+
+<h2>小規模保育からの連携枠</h2>
+<p>さいたま市でも小規模保育の卒園児に連携先への優先枠が設けられている場合があります。</p>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>各園の募集数は<a href="https://www.city.saitama.lg.jp/003/001/015/001/p100639.html" target="_blank" rel="noopener">さいたま市公式サイト</a>で確認できます。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 35,
+  },
+  {
+    slug: "age3-ikou",
+    citySlug: "saitama",
+    title: "さいたま市で3歳児クラスへの移行・転園ガイド",
+    description: "小規模保育からの3歳児クラスへの移行について、さいたま市の連携施設制度を解説します。",
+    image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
+    category: "年齢別対策",
+    categoryColor: "amber",
+    content: `<h2>3歳児クラスへの移行</h2>
+<p>小規模保育事業は原則0〜2歳が対象。3歳で卒園するため認可保育園等への移行が必要です。</p>
+
+<h2>連携施設の優先枠</h2>
+<p>さいたま市では小規模保育事業所ごとに連携施設が設定されている場合があります。</p>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>連携施設がない小規模保育もあります。入園前に連携先を確認しておきましょう。</p>
+</div>
+
+<h2>幼稚園の預かり保育も選択肢</h2>
+<p>3歳からは幼稚園の預かり保育（新2号認定）も利用可能です。さいたま市内には預かり保育が充実した幼稚園もあります。</p>
+
+<div class="info-box">
+<p><strong>注意</strong></p>
+<p>連携施設の情報は年度ごとに変わる場合があります。最新情報は子ども未来局にお問い合わせください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 30,
+  },
+  {
+    slug: "nyuyoji-age0",
+    citySlug: "saitama",
+    title: "さいたま市の0歳児クラス入園ガイド",
+    description: "さいたま市で0歳児クラスに入園する場合の月齢要件と注意点をまとめました。",
+    image: "https://images.unsplash.com/photo-1544126592-807ade215a0b?w=800&h=400&fit=crop",
+    category: "年齢別対策",
+    categoryColor: "amber",
+    content: `<h2>0歳児クラスの受入月齢</h2>
+<p>さいたま市の認可保育園では多くの園が<span class="highlight">生後57日（産休明け）</span>から受入可能です。</p>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>4月入園の場合、4月1日時点の月齢が受入条件を満たしている必要があります。</p>
+</div>
+
+<h2>0歳児クラスのメリット・デメリット</h2>
+<ul>
+<li>メリット：1歳児クラスより競争率が低い傾向</li>
+<li>デメリット：育休を短縮する必要がある</li>
+</ul>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>各園の受入月齢は<a href="https://www.city.saitama.lg.jp/003/001/015/001/p100639.html" target="_blank" rel="noopener">さいたま市の保育施設一覧</a>で確認できます。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 40,
+  },
+  {
+    slug: "nintei-kodomoen",
+    citySlug: "saitama",
+    title: "さいたま市の認定こども園ガイド　保育園との違い",
+    description: "さいたま市の認定こども園の特徴と保育園との違いを解説します。",
+    image: "https://images.unsplash.com/photo-1576495199011-eb94736d05d6?w=800&h=400&fit=crop",
+    category: "施設の種類",
+    categoryColor: "purple",
+    content: `<h2>認定こども園とは</h2>
+<p>保育園と幼稚園の機能を併せ持つ施設です。さいたま市内にも複数の認定こども園があります。</p>
+
+<h2>保育園との主な違い</h2>
+<table>
+<tr><th>項目</th><th>認可保育園</th><th>認定こども園</th></tr>
+<tr><td>対象年齢</td><td>0〜5歳</td><td>0〜5歳</td></tr>
+<tr><td>保護者の就労要件</td><td>必要</td><td>保育利用は必要、教育利用は不要</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>保育利用の入園申込は認可保育園と同じく区役所を通じて行います。選考基準も同じです。</p>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>一覧は<a href="https://www.city.saitama.lg.jp/003/001/015/001/p100639.html" target="_blank" rel="noopener">さいたま市公式サイト</a>でご確認ください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 35,
+  },
+  {
+    slug: "kigyou-shudogata",
+    citySlug: "saitama",
+    title: "さいたま市の企業主導型保育園とは？認可との違い",
+    description: "さいたま市にある企業主導型保育園の仕組みと活用法を解説します。",
+    image: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=800&h=400&fit=crop",
+    category: "施設の種類",
+    categoryColor: "purple",
+    content: `<h2>企業主導型保育園とは</h2>
+<p>企業が従業員のために設置する保育施設です。認可外ですが国から助成を受けています。</p>
+
+<h2>認可保育園との違い</h2>
+<table>
+<tr><th>項目</th><th>認可保育園</th><th>企業主導型</th></tr>
+<tr><td>申込先</td><td>区役所支援課</td><td>施設に直接</td></tr>
+<tr><td>選考方法</td><td>指数制</td><td>施設が決定</td></tr>
+<tr><td>入園時期</td><td>主に4月</td><td>随時可能な場合が多い</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>「地域枠」があれば企業の従業員でなくても利用可能です。62点に届かない場合の選択肢として有効です。</p>
+</div>
+
+<div class="info-box">
+<p><strong>注意</strong></p>
+<p>企業主導型は認可外です。見学時に保育の質を確認しましょう。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 30,
+  },
+  {
+    slug: "yakan-hoiku",
+    citySlug: "saitama",
+    title: "さいたま市の延長保育・夜間保育ガイド",
+    description: "さいたま市で延長保育や夜間保育を利用する方法と料金について解説します。",
+    image: "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800&h=400&fit=crop",
+    category: "施設の種類",
+    categoryColor: "purple",
+    content: `<h2>延長保育とは</h2>
+<p>さいたま市の認可保育園では通常の保育時間を超えて利用できる延長保育があります。</p>
+
+<h2>延長保育の料金目安</h2>
+<table>
+<tr><th>区分</th><th>料金の目安</th></tr>
+<tr><td>延長保育（1時間）</td><td>月額2,000〜4,000円程度</td></tr>
+<tr><td>延長保育（2時間）</td><td>月額4,000〜6,000円程度</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>料金や実施時間は園ごとに異なります。入園前に希望園に確認しましょう。</p>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>延長保育の実施園は<a href="https://www.city.saitama.lg.jp/003/001/015/001/p100639.html" target="_blank" rel="noopener">さいたま市公式サイト</a>で確認できます。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 30,
+  },
+  {
+    slug: "mushoka-seido",
+    citySlug: "saitama",
+    title: "さいたま市の幼児教育・保育無償化制度まとめ",
+    description: "さいたま市における無償化制度の対象範囲と手続きを解説します。",
+    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=400&fit=crop",
+    category: "お金・制度",
+    categoryColor: "rose",
+    content: `<h2>無償化の対象</h2>
+<table>
+<tr><th>対象</th><th>無償化の内容</th></tr>
+<tr><td>3〜5歳児（認可保育園）</td><td>保育料が無料</td></tr>
+<tr><td>0〜2歳児（非課税世帯）</td><td>保育料が無料</td></tr>
+<tr><td>認可外（3〜5歳）</td><td>月額37,000円まで無償</td></tr>
+<tr><td>認可外（0〜2歳、非課税世帯）</td><td>月額42,000円まで無償</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>無償化は「保育料」のみ。給食費・教材費等の実費は別途必要です。</p>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>詳細は<a href="https://www.city.saitama.lg.jp/003/001/015/001/p100639.html" target="_blank" rel="noopener">さいたま市公式サイト</a>をご確認ください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 45,
+  },
+  {
+    slug: "shokuhi-jippi",
+    citySlug: "saitama",
+    title: "さいたま市の保育園の給食費・実費負担はいくら？",
+    description: "さいたま市の認可保育園で必要な給食費やその他の実費を解説します。",
+    image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&h=400&fit=crop",
+    category: "お金・制度",
+    categoryColor: "rose",
+    content: `<h2>給食費の目安</h2>
+<table>
+<tr><th>年齢</th><th>主食費</th><th>副食費</th></tr>
+<tr><td>0〜2歳児</td><td colspan="2">保育料に含まれる</td></tr>
+<tr><td>3〜5歳児</td><td>月額約1,000〜3,000円</td><td>月額約4,500円</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>年収360万円未満相当の世帯や第3子以降は副食費が免除されます。</p>
+</div>
+
+<h2>その他の実費</h2>
+<ul>
+<li>教材費：月額数百円〜数千円</li>
+<li>行事費：実費</li>
+</ul>
+
+<div class="info-box">
+<p><strong>注意</strong></p>
+<p>金額は園によって異なります。各園にお問い合わせください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 35,
+  },
+  {
+    slug: "hoikuryo-keisan",
+    citySlug: "saitama",
+    title: "さいたま市の保育料の計算方法と目安",
+    description: "さいたま市の保育料がどのように計算されるか、目安金額とともに解説します。",
+    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=400&fit=crop",
+    category: "お金・制度",
+    categoryColor: "rose",
+    content: `<h2>保育料の計算の仕組み</h2>
+<p>さいたま市の保育料は世帯の<strong>市民税所得割額</strong>（父母合算）で決定されます。</p>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>3〜5歳児は無償化で0円。以下は0〜2歳児に適用されます。</p>
+</div>
+
+<h2>保育料の目安（0〜2歳児）</h2>
+<table>
+<tr><th>市民税所得割額</th><th>月額保育料の目安</th></tr>
+<tr><td>非課税世帯</td><td>0円</td></tr>
+<tr><td>〜約57,700円未満</td><td>約6,000〜15,000円</td></tr>
+<tr><td>〜約169,000円未満</td><td>約20,000〜40,000円</td></tr>
+<tr><td>169,000円以上</td><td>約45,000〜58,000円</td></tr>
+</table>
+
+<h2>多子世帯の軽減</h2>
+<ul>
+<li>同時在園の2人目：半額</li>
+<li>同時在園の3人目以降：無料</li>
+</ul>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>正確な保育料表は<a href="https://www.city.saitama.lg.jp/003/001/015/001/p100639.html" target="_blank" rel="noopener">さいたま市公式サイト</a>でご確認ください。上記は目安です。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 40,
+  },
+  {
+    slug: "zeikin-koujo",
+    citySlug: "saitama",
+    title: "保育料と税金の関係　さいたま市で控除を活用する方法",
+    description: "さいたま市の保育料は市民税額で決まります。控除を活用して保育料を下げる方法を解説します。",
+    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=400&fit=crop",
+    category: "お金・制度",
+    categoryColor: "rose",
+    content: `<h2>保育料と市民税の関係</h2>
+<p>さいたま市の保育料は「市民税所得割額」で決まります。</p>
+
+<h2>活用できる主な控除</h2>
+<table>
+<tr><th>控除の種類</th><th>効果</th></tr>
+<tr><td>医療費控除</td><td>年間10万円超の医療費で申告可能</td></tr>
+<tr><td>iDeCo</td><td>掛金が全額所得控除</td></tr>
+<tr><td>生命保険料控除</td><td>確定申告で追加可能</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>ふるさと納税は保育料計算の「所得割額」には影響しないことが一般的です。iDeCoや医療費控除が効果的です。</p>
+</div>
+
+<div class="info-box">
+<p><strong>注意</strong></p>
+<p>控除の適用は個別に異なります。税務署や区役所にご相談ください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 30,
+  },
+  {
+    slug: "shurou-shoumeisho",
+    citySlug: "saitama",
+    title: "さいたま市の就労証明書の書き方と注意点",
+    description: "さいたま市の保育園申込に必要な就労証明書の記入ポイントを解説します。",
+    image: "https://images.unsplash.com/photo-1568667256549-094345857637?w=800&h=400&fit=crop",
+    category: "保活の基本",
+    categoryColor: "green",
+    content: `<h2>就労証明書とは</h2>
+<p>保護者の就労状況を証明する書類です。勤務先に作成を依頼します。</p>
+
+<h2>記入のポイント</h2>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content"><strong>さいたま市指定の様式を使う</strong><p>市公式サイトからダウンロードできます。</p></div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content"><strong>復職後の勤務予定を正確に記入</strong><p>勤務時間・日数が基本指数に直結します。</p></div>
+</div>
+<div class="step">
+<div class="step-num">3</div>
+<div class="step-content"><strong>証明者の押印</strong><p>会社の代表者印または人事担当者印が必要です。</p></div>
+</div>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>就労証明書は申込日から遡って<strong>3か月以内</strong>に作成されたものが有効です。</p>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>様式は<a href="https://www.city.saitama.lg.jp/003/001/015/001/p100639.html" target="_blank" rel="noopener">さいたま市公式サイト</a>からダウンロードできます。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 45,
+  },
+  {
+    slug: "shinsei-shorui-list",
+    citySlug: "saitama",
+    title: "さいたま市の保育園申込に必要な書類チェックリスト",
+    description: "さいたま市の保育園入園申込に必要な書類をチェックリスト形式でまとめました。",
+    image: "https://images.unsplash.com/photo-1568667256549-094345857637?w=800&h=400&fit=crop",
+    category: "保活の基本",
+    categoryColor: "green",
+    content: `<h2>全員必須の書類</h2>
+<ul>
+<li>教育・保育給付認定申請書兼利用申込書</li>
+<li>就労証明書等（父母それぞれ）</li>
+<li>マイナンバー確認書類</li>
+</ul>
+
+<h2>該当者のみ必要な書類</h2>
+<table>
+<tr><th>状況</th><th>追加書類</th></tr>
+<tr><td>ひとり親</td><td>児童扶養手当証書の写し等</td></tr>
+<tr><td>自営業</td><td>開業届・確定申告書の写し</td></tr>
+<tr><td>育休中</td><td>育休期間のわかる書類</td></tr>
+<tr><td>認可外利用中</td><td>在園証明書</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>書類の不備は選考に不利になります。提出前に区役所支援課で確認しましょう。</p>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>詳細は<a href="https://www.city.saitama.lg.jp/003/001/015/001/p100639.html" target="_blank" rel="noopener">さいたま市「保育施設利用のてびき」</a>をご確認ください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 40,
+  },
+  {
+    slug: "niji-shinsei-flow",
+    citySlug: "saitama",
+    title: "さいたま市の保育園2次利用調整の流れと対策",
+    description: "さいたま市の1次で不承諾になった場合の2次利用調整の流れを解説します。",
+    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
+    category: "保活の基本",
+    categoryColor: "green",
+    content: `<h2>2次利用調整とは</h2>
+<p>1次で定員に達しなかった園について2次調整が行われます。</p>
+
+<h2>2次の流れ</h2>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content"><strong>1次結果通知を確認</strong><p>1月下旬〜2月上旬に届きます。</p></div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content"><strong>希望変更届の提出</strong><p>2月中旬が締切です。</p></div>
+</div>
+<div class="step">
+<div class="step-num">3</div>
+<div class="step-content"><strong>2次結果通知</strong><p>3月中旬に届きます。</p></div>
+</div>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>2次で空きのある園は限られます。通える範囲で幅広く希望を出しましょう。</p>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>2次の詳細は1次結果通知に同封される案内をご確認ください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 40,
+  },
+  {
+    slug: "tenkyo-hokatsu",
+    citySlug: "saitama",
+    title: "さいたま市への転居を伴う保活ガイド",
+    description: "他の自治体からさいたま市へ転居予定の場合の保育園申込方法を解説します。",
+    image: "https://images.unsplash.com/photo-1516156008625-3a9d6067fab5?w=800&h=400&fit=crop",
+    category: "保活の基本",
+    categoryColor: "green",
+    content: `<h2>市外からの転入と保活</h2>
+<p>さいたま市への転入予定がある場合、転入前でも保育園の申込が可能です。</p>
+
+<h2>申込の流れ</h2>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content"><strong>転入先の区役所支援課に相談</strong><p>電話で事前相談しましょう。</p></div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content"><strong>必要書類の準備</strong><p>転入を証明する書類が追加で必要です。</p></div>
+</div>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>入園月の前月末までにさいたま市に住民票を移す必要があります。</p>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>詳細は転入予定の区役所支援課にお問い合わせください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 30,
+  },
+  {
+    slug: "kyoiku-hoiku-chigai",
+    citySlug: "saitama",
+    title: "さいたま市の保育園と幼稚園の違い",
+    description: "さいたま市の保育園と幼稚園の違いを比較します。",
+    image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
+    category: "施設の種類",
+    categoryColor: "purple",
+    content: `<h2>保育園と幼稚園の基本的な違い</h2>
+<table>
+<tr><th>項目</th><th>保育園</th><th>幼稚園</th></tr>
+<tr><td>対象年齢</td><td>0〜5歳</td><td>3〜5歳</td></tr>
+<tr><td>利用時間</td><td>最大11時間</td><td>4〜5時間＋預かり保育</td></tr>
+<tr><td>保護者の要件</td><td>就労等が必要</td><td>不要</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>共働きで長時間預ける必要がある場合は保育園、教育重視なら幼稚園が一般的です。認定こども園なら両方の機能を備えています。</p>
+</div>
+
+<h2>幼稚園の預かり保育（新2号認定）</h2>
+<p>月額11,300円まで無償化の対象です。さいたま市内にも預かり保育が充実した幼稚園があります。</p>
+
+<div class="info-box">
+<p><strong>注意</strong></p>
+<p>預かり保育の実施時間は園によって異なります。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 35,
+  },
+  {
+    slug: "hokatsu-calendar",
+    citySlug: "saitama",
+    title: "さいたま市の保活カレンダー　月別やることリスト",
+    description: "さいたま市で4月入園を目指す方のための月別保活カレンダーです。",
+    image: "https://images.unsplash.com/photo-1506784365847-bbad939e9335?w=800&h=400&fit=crop",
+    category: "保活の基本",
+    categoryColor: "green",
+    content: `<h2>保活カレンダー（4月入園の場合）</h2>
+<table>
+<tr><th>時期</th><th>やること</th></tr>
+<tr><td>4〜6月</td><td>情報収集開始。前年度の「てびき」を参考に</td></tr>
+<tr><td>6〜9月</td><td>保育園見学</td></tr>
+<tr><td>10月初旬</td><td>「てびき」配布。就労証明書を依頼</td></tr>
+<tr><td>10月中旬〜下旬</td><td>申込提出（電子申請・郵送・窓口）</td></tr>
+<tr><td>1月下旬</td><td>1次結果通知</td></tr>
+<tr><td>2月</td><td>2次の希望変更届提出</td></tr>
+<tr><td>3月</td><td>2次結果通知・入園準備</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>さいたま市の申込期間は10月中旬〜下旬と短めです。書類は早めに準備しましょう。</p>
+</div>
+
+<div class="info-box">
+<p><strong>注意</strong></p>
+<p>日程は年度によって変わります。最新情報はさいたま市公式サイトでご確認ください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 45,
+  },
+  {
+    slug: "souba-tensuu",
+    citySlug: "saitama",
+    title: "さいたま市の保育園入園に必要な点数の相場と目安",
+    description: "さいたま市の保育園入園に必要な点数の目安をエリア別に解説します。",
+    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
+    category: "点数・選考",
+    categoryColor: "blue",
+    content: `<h2>入園に必要な点数の目安</h2>
+<p>さいたま市の認可保育園入園のボーダーラインは<span class="highlight">62点（父母ともフルタイム）</span>が一つの目安です。</p>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>62点は共働きフルタイムの基本点です。浦和区・南区・大宮区などの激戦区では62点＋加点がないと厳しい園もあります。</p>
+</div>
+
+<h2>エリア別の傾向</h2>
+<table>
+<tr><th>エリア</th><th>競争率の傾向</th></tr>
+<tr><td>浦和区</td><td>最も激戦。1歳児は特に厳しい</td></tr>
+<tr><td>南区</td><td>武蔵浦和周辺は激戦</td></tr>
+<tr><td>大宮区</td><td>駅周辺は競争率が高い</td></tr>
+<tr><td>北区・西区</td><td>比較的入りやすい園がある</td></tr>
+<tr><td>岩槻区</td><td>比較的入りやすい傾向</td></tr>
+</table>
+
+<div class="info-box">
+<p><strong>注意</strong></p>
+<p>上記は一般的な傾向です。最新情報は区役所支援課でご確認ください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 45,
+  },
+  {
+    slug: "ku-betsu-bairitsu",
+    citySlug: "saitama",
+    title: "さいたま市の区別・保育園入園倍率の傾向",
+    description: "さいたま市10区の保育園入園の競争率の傾向を紹介します。",
+    image: "https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?w=800&h=400&fit=crop",
+    category: "エリア情報",
+    categoryColor: "teal",
+    content: `<h2>さいたま市10区の入園傾向</h2>
+<table>
+<tr><th>区</th><th>傾向</th></tr>
+<tr><td>西区</td><td>比較的入りやすい</td></tr>
+<tr><td>北区</td><td>宮原周辺はやや競争率高め</td></tr>
+<tr><td>大宮区</td><td>駅周辺は激戦</td></tr>
+<tr><td>見沼区</td><td>比較的入りやすい傾向</td></tr>
+<tr><td>中央区</td><td>与野周辺は競争率高め</td></tr>
+<tr><td>桜区</td><td>比較的入りやすい</td></tr>
+<tr><td>浦和区</td><td>最も激戦のエリア</td></tr>
+<tr><td>南区</td><td>武蔵浦和周辺は激戦</td></tr>
+<tr><td>緑区</td><td>エリアにより差がある</td></tr>
+<tr><td>岩槻区</td><td>比較的入りやすい傾向</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>区をまたいだ申込も可能です。隣の区の園も検討しましょう。</p>
+</div>
+
+<div class="info-box">
+<p><strong>注意</strong></p>
+<p>上記は一般的な傾向です。最新の情報は各区役所にお問い合わせください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 40,
+  },
+  {
+    slug: "ikukyu-enchou-risk-detail",
+    citySlug: "saitama",
+    title: "さいたま市で育休延長する場合のリスクと保活への影響",
+    description: "さいたま市で育休を延長する場合の保活への影響と注意点を解説します。",
+    image: "https://images.unsplash.com/photo-1531983412531-1f49a365ffed?w=800&h=400&fit=crop",
+    category: "育休・復職",
+    categoryColor: "purple",
+    content: `<h2>育休延長と不承諾通知</h2>
+<p>育休延長には保育園の「不承諾通知」が必要です。</p>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>2025年4月以降、育休延長目的での保育園申込についてハローワークの確認が厳格化されています。</p>
+</div>
+
+<h2>育休延長のリスク</h2>
+<ul>
+<li>1歳児クラスは最も激戦で延長後はさらに厳しくなる</li>
+<li>さいたま市の62点ボーダーでは加点がないと入園困難</li>
+</ul>
+
+<h2>対策</h2>
+<ul>
+<li>入園可能な園があれば入園する方が安全</li>
+<li>認可外保育施設も検討する</li>
+</ul>
+
+<div class="info-box">
+<p><strong>注意</strong></p>
+<p>最新の情報はハローワークおよび勤務先にご確認ください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 40,
+  },
+  {
+    slug: "fukushoku-junbi",
+    citySlug: "saitama",
+    title: "さいたま市で保育園入園後の復職準備チェックリスト",
+    description: "さいたま市で保育園内定後から復職までにやることを解説します。",
+    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=400&fit=crop",
+    category: "育休・復職",
+    categoryColor: "purple",
+    content: `<h2>復職までのチェックリスト</h2>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content"><strong>勤務先に復職日を連絡</strong><p>慣らし保育期間を考慮しましょう。</p></div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content"><strong>入園説明会に出席</strong><p>持ち物や生活の流れを確認します。</p></div>
+</div>
+<div class="step">
+<div class="step-num">3</div>
+<div class="step-content"><strong>入園準備品の購入</strong><p>園のリストに従って準備します。</p></div>
+</div>
+<div class="step">
+<div class="step-num">4</div>
+<div class="step-content"><strong>病児保育・ファミサポの登録</strong><p>バックアッププランを用意しましょう。</p></div>
+</div>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>慣らし保育（1〜2週間）中は仕事を休む必要があります。有給の残日数を確認しましょう。</p>
+</div>
+
+<div class="info-box">
+<p><strong>注意</strong></p>
+<p>準備品は園によって異なります。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 35,
+  },
+  {
+    slug: "sannin-me-hokatsu",
+    citySlug: "saitama",
+    title: "さいたま市で3人目の保活　多子世帯の優遇制度",
+    description: "さいたま市で3人目以降の保活における優遇制度と戦略を解説します。",
+    image: "https://images.unsplash.com/photo-1475503572774-15a45e5d60b9?w=800&h=400&fit=crop",
+    category: "保活の基本",
+    categoryColor: "green",
+    content: `<h2>保育料の軽減</h2>
+<table>
+<tr><th>子ども</th><th>保育料</th></tr>
+<tr><td>1人目</td><td>通常額</td></tr>
+<tr><td>同時在園の2人目</td><td>半額</td></tr>
+<tr><td>同時在園の3人目以降</td><td>無料</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>0〜2歳児の3人目以降は保育料が無料です。さいたま市ではきょうだい加点（+2〜3点）もあるので活用しましょう。</p>
+</div>
+
+<h2>3人目保活のコツ</h2>
+<ul>
+<li>上の子と同じ園を第一希望にしてきょうだい加点を最大化</li>
+<li>送迎動線を考えて園を選ぶ</li>
+</ul>
+
+<div class="info-box">
+<p><strong>注意</strong></p>
+<p>制度は年度によって変更される場合があります。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 30,
+  },
+  {
+    slug: "tanshin-funin",
+    citySlug: "saitama",
+    title: "さいたま市で単身赴任中の場合の保育園申込",
+    description: "配偶者が単身赴任中の場合のさいたま市での保育園申込と点数を解説します。",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=400&fit=crop",
+    category: "点数・選考",
+    categoryColor: "blue",
+    content: `<h2>単身赴任中の保育園申込</h2>
+<p>配偶者が単身赴任で別居していても申込は可能です。</p>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>単身赴任であっても「ひとり親世帯」の加点は適用されません。離婚・死別等の場合に限られます。</p>
+</div>
+
+<h2>必要な追加書類</h2>
+<ul>
+<li>配偶者の就労証明書</li>
+<li>単身赴任であることがわかる書類</li>
+</ul>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>詳しくは区役所支援課にお問い合わせください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 25,
+  },
+  {
+    slug: "sofu-sobo-doukyo",
+    citySlug: "saitama",
+    title: "さいたま市で祖父母と同居している場合の保育園入園への影響",
+    description: "祖父母と同居している場合のさいたま市の保育園入園選考への影響を解説します。",
+    image: "https://images.unsplash.com/photo-1475503572774-15a45e5d60b9?w=800&h=400&fit=crop",
+    category: "点数・選考",
+    categoryColor: "blue",
+    content: `<h2>祖父母同居と保育の必要性</h2>
+<p>さいたま市では祖父母と同居していることだけで保育の必要性が否定されることはありません。</p>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>同居の祖父母が65歳未満で無職の場合、調整指数で減点される可能性があります。</p>
+</div>
+
+<h2>対策</h2>
+<ul>
+<li>祖父母が就労している場合は就労証明書を提出</li>
+<li>祖父母が病気等の場合はその証明書を提出</li>
+<li>65歳以上は減点対象外が一般的</li>
+</ul>
+
+<div class="info-box">
+<p><strong>注意</strong></p>
+<p>条件は年度によって変わります。区役所にお問い合わせください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 30,
+  },
+  {
+    slug: "fushoninchi-taiou",
+    citySlug: "saitama",
+    title: "さいたま市で保育園に落ちた場合の対応策まとめ",
+    description: "さいたま市の1次で不承諾になった場合の対応策を解説します。",
+    image: "https://images.unsplash.com/photo-1494883759339-0b042055a4ee?w=800&h=400&fit=crop",
+    category: "保活の基本",
+    categoryColor: "green",
+    content: `<h2>不承諾になったら</h2>
+<p>1次で不承諾でも選択肢はあります。</p>
+
+<h2>対応策</h2>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content"><strong>2次利用調整で希望変更</strong><p>空きのある園を追加しましょう。</p></div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content"><strong>認可外保育施設を探す</strong><p>企業主導型等を検討しましょう。</p></div>
+</div>
+<div class="step">
+<div class="step-num">3</div>
+<div class="step-content"><strong>育休延長を検討</strong><p>不承諾通知で育休延長が可能です。</p></div>
+</div>
+<div class="step">
+<div class="step-num">4</div>
+<div class="step-content"><strong>途中入園を待つ</strong><p>毎月空きが出る可能性があります。</p></div>
+</div>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>不承諾通知は大切に保管してください。</p>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>2次の詳細は1次結果通知に同封される案内をご確認ください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 45,
+  },
+  {
+    slug: "taiki-jidou-taisaku",
+    citySlug: "saitama",
+    title: "さいたま市の待機児童の現状と対策（2026年版）",
+    description: "さいたま市の待機児童の傾向と対策について解説します。",
+    image: "https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?w=800&h=400&fit=crop",
+    category: "エリア情報",
+    categoryColor: "teal",
+    content: `<h2>さいたま市の待機児童の状況</h2>
+<p>さいたま市は首都圏の中でも保育需要が高い自治体です。待機児童数は減少傾向ですが、浦和区・南区を中心に入園が厳しいエリアがあります。</p>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>特に浦和区・南区・大宮区の1歳児クラスは62点でも入れない園があります。加点の確保が重要です。</p>
+</div>
+
+<h2>市の対策</h2>
+<ul>
+<li>保育施設の新設・定員増</li>
+<li>保育士の処遇改善</li>
+<li>小規模保育の拡充</li>
+</ul>
+
+<h2>保護者側の対策</h2>
+<ul>
+<li>希望園を幅広く記入する</li>
+<li>隣の区の園も検討する</li>
+<li>認可外加点（+7点）を活用する</li>
+</ul>
+
+<div class="info-box">
+<p><strong>注意</strong></p>
+<p>最新データは子ども未来局の公式サイトでご確認ください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 40,
+  },
+  {
+    slug: "tennen-moshikomi",
+    citySlug: "saitama",
+    title: "さいたま市の保育園への転園申込の方法",
+    description: "さいたま市で保育園の転園を希望する場合の手続きを解説します。",
+    image: "https://images.unsplash.com/photo-1516156008625-3a9d6067fab5?w=800&h=400&fit=crop",
+    category: "保活の基本",
+    categoryColor: "green",
+    content: `<h2>転園申込とは</h2>
+<p>現在通っている保育園から別の園に移りたい場合の手続きです。</p>
+
+<h2>流れ</h2>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content"><strong>区役所支援課に相談</strong><p>転園希望を伝えます。</p></div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content"><strong>申込書類の提出</strong><p>新規入園と同じ書類が必要です。</p></div>
+</div>
+<div class="step">
+<div class="step-num">3</div>
+<div class="step-content"><strong>利用調整</strong><p>新規と同じ基準で選考されます。</p></div>
+</div>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>転園が決まらなくても今の園に通い続けられます。</p>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>手続きの詳細は区役所支援課にお問い合わせください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 30,
+  },
 ];
 
 registerArticles(articles);

@@ -1148,6 +1148,1600 @@ const articles: Article[] = [
     publishedAt: "2026-04-07",
     popularity: 55,
   },
+
+  // 21. 自営業・フリーランスの点数
+  {
+    slug: "self-employed-score",
+    citySlug: "sapporo",
+    title: "自営業・フリーランスの保活　札幌市での点数と必要書類",
+    description:
+      "札幌市で自営業やフリーランスとして保育園に申し込む場合の点数の付き方と、必要な証明書類を解説します。",
+    image:
+      "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&h=400&fit=crop",
+    category: "点数・選考",
+    categoryColor: "blue",
+    content: `<h2>自営業・フリーランスでも点数は同じ？</h2>
+<p>札幌市の利用調整基準では、会社員と自営業・フリーランスで基本点数の計算方法は<strong>同じ</strong>です。月の稼動日数と労働時間で点数が決まります。</p>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>自営業でも月20日以上・150時間以上の就労なら基本点数は<span class="highlight">100点</span>。会社員と同じ最高点です。</p>
+</div>
+
+<h3>自営業の基本点数の目安</h3>
+<table>
+<tr><th>稼動日数</th><th>月労働時間</th><th>基本点数</th></tr>
+<tr><td>20日以上</td><td>150時間以上</td><td>100点</td></tr>
+<tr><td>20日以上</td><td>120〜150時間未満</td><td>90点</td></tr>
+<tr><td>16日以上</td><td>120〜150時間未満</td><td>80点</td></tr>
+<tr><td>16日未満</td><td>64〜120時間未満</td><td>70点</td></tr>
+</table>
+
+<h2>必要な書類</h2>
+<p>会社員は「就労証明書」を勤務先に記入してもらいますが、自営業・フリーランスは<strong>自分で就労状況を証明</strong>する必要があります。</p>
+
+<div class="step">
+<h3>ステップ1：就労証明書の自己記入</h3>
+<p>札幌市の就労証明書は自営業者自身が記入できます。稼動日数・労働時間を正確に記入してください。</p>
+</div>
+
+<div class="step">
+<h3>ステップ2：裏付け書類の準備</h3>
+<p>以下のいずれかを添付します。</p>
+<ul>
+<li>開業届の写し（税務署の受付印付き）</li>
+<li>確定申告書の写し（直近のもの）</li>
+<li>営業許可証の写し</li>
+<li>取引先との契約書の写し</li>
+</ul>
+</div>
+
+<div class="warn-box">
+<p><strong>注意</strong></p>
+<p>開業届を出していない場合や、収入がまだ少ない場合は「求職活動中」扱いになり、基本点数が大幅に低くなる可能性があります。保活前に開業届を提出しておくことを強くおすすめします。</p>
+</div>
+
+<h2>自営業特有の注意点</h2>
+<ul>
+<li><strong>居宅内労働と居宅外労働</strong>：札幌市の基準表では「居宅外労働」と「居宅内労働」で同じ点数ですが、在宅勤務の場合は実際の労働時間が問われやすい傾向があります</li>
+<li><strong>開業直後の場合</strong>：実績がまだ少ない場合でも、事業計画書や契約書で就労予定を示せることが重要です</li>
+<li><strong>育休制度がない</strong>：自営業には育休制度がないため、育休明け加点（+40点）は原則適用されません</li>
+</ul>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>就労証明書の様式は<a href="https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/835.html" target="_blank" rel="noopener">札幌市子育てサイト</a>からダウンロードできます。不明点はお住まいの区の保健センターへご相談ください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 70,
+  },
+
+  // 22. 内職・在宅ワークの点数
+  {
+    slug: "naishoku-score",
+    citySlug: "sapporo",
+    title: "内職・在宅ワークで保育園に入れる？札幌市の点数と条件",
+    description:
+      "札幌市で内職や在宅ワークをしている場合の保育園入園の点数と、申請時の注意点を解説します。",
+    image:
+      "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&h=400&fit=crop",
+    category: "点数・選考",
+    categoryColor: "blue",
+    content: `<h2>内職・在宅ワークでも保育園に入れる</h2>
+<p>札幌市では内職や在宅ワークでも「就労」として保育の必要性が認められます。基本点数は月の<strong>稼動日数と労働時間</strong>で決まるため、労働時間が多ければ会社員と同等の点数が得られます。</p>
+
+<h3>在宅ワークの点数例</h3>
+<table>
+<tr><th>働き方</th><th>稼動日数</th><th>月労働時間</th><th>基本点数</th></tr>
+<tr><td>フルタイム在宅ワーク</td><td>20日以上</td><td>150時間以上</td><td>100点</td></tr>
+<tr><td>パートタイム在宅ワーク</td><td>16日以上</td><td>80〜120時間</td><td>75点</td></tr>
+<tr><td>内職（短時間）</td><td>16日未満</td><td>64〜120時間</td><td>70点</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>在宅ワークでも月150時間以上・20日以上稼動なら<span class="highlight">100点</span>。外勤との点数差はありません。ただし労働時間の証明が重要です。</p>
+</div>
+
+<h2>申請時に必要なもの</h2>
+<ul>
+<li>就労証明書（自己記入の場合は開業届や確定申告書の写しを添付）</li>
+<li>業務委託契約書や取引先からの発注書など、就労実態を裏付ける書類</li>
+<li>クラウドソーシングの場合は、プラットフォームの取引履歴画面のスクリーンショットも有効</li>
+</ul>
+
+<h2>注意点</h2>
+<ul>
+<li><strong>労働時間の客観的証明</strong>：在宅ワークは勤務実態の確認が難しいため、タイムカードアプリの記録など客観的な証拠があると安心です</li>
+<li><strong>収入の有無</strong>：収入がゼロの場合、就労ではなく「求職活動中」と判断される可能性があります</li>
+<li><strong>保育の必要性</strong>：在宅＝子どもの面倒を見られる、と見なされるわけではありません。就労時間中は保育が必要であることを明確にしましょう</li>
+</ul>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>在宅ワークの取り扱いについて不明な点は、お住まいの区の保健センターにご確認ください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 55,
+  },
+
+  // 23. 求職中の保活
+  {
+    slug: "kyushoku-hokatsu",
+    citySlug: "sapporo",
+    title: "求職中でも保育園に入れる？札幌市の求職活動中の点数と注意点",
+    description:
+      "札幌市で求職活動中に保育園を申し込む場合の点数や入園後の条件を解説します。",
+    image:
+      "https://images.unsplash.com/photo-1507679799987-c73b1c7e2b64?w=800&h=400&fit=crop",
+    category: "点数・選考",
+    categoryColor: "blue",
+    content: `<h2>求職活動中の基本点数</h2>
+<p>札幌市では求職活動中でも「保育の必要性」が認められ、保育園の申し込みが可能です。ただし基本点数は就労中よりも低くなります。</p>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>求職活動中の基本点数は<span class="highlight">50点</span>です。フルタイム就労の100点と比べると大きな差があるため、人気園への入園は難しい傾向があります。</p>
+</div>
+
+<h2>求職中で入園するための戦略</h2>
+<ul>
+<li><strong>定員に余裕のある園を狙う</strong>：各区の空き状況は札幌市の公式サイトで公開されています</li>
+<li><strong>小規模保育事業所を検討</strong>：0〜2歳対象の小規模保育は比較的空きがある場合があります</li>
+<li><strong>4月入園の2次調整を活用</strong>：1次で定員割れした園があれば、求職中の点数でも入園の可能性があります</li>
+<li><strong>年度途中の申込</strong>：年度途中は空きが出にくいですが、3歳以上のクラスは枠が増えるため可能性があります</li>
+</ul>
+
+<h2>入園後の就労期限</h2>
+<p>求職活動中で入園した場合、入園後<strong>90日以内</strong>に就労を開始する必要があります。期限内に就労が確認できない場合は退園となる可能性があります。</p>
+
+<div class="step">
+<h3>ステップ1：入園決定</h3>
+<p>求職活動中として入園が決まります。</p>
+</div>
+
+<div class="step">
+<h3>ステップ2：就職活動</h3>
+<p>入園後すぐに就職活動を本格化させましょう。</p>
+</div>
+
+<div class="step">
+<h3>ステップ3：就労証明書の提出</h3>
+<p>就労先が決まったら、速やかに就労証明書を区の保健センターに提出します。</p>
+</div>
+
+<div class="warn-box">
+<p><strong>注意</strong></p>
+<p>求職活動中の保育認定は期限付きです。期限内に就労を開始できない場合は保育の必要性が認められなくなります。必ず期限を確認してください。</p>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>求職活動中の保育認定については、お住まいの区の保健センターにお問い合わせください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 55,
+  },
+
+  // 24. 転職と保活のタイミング
+  {
+    slug: "tenshoku-timing",
+    citySlug: "sapporo",
+    title: "転職と保活を両立するには？札幌市での最適なタイミング",
+    description:
+      "札幌市で転職を考えている場合の保活への影響と、最適なタイミングを解説します。",
+    image:
+      "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&h=400&fit=crop",
+    category: "保活の基本",
+    categoryColor: "green",
+    content: `<h2>転職すると点数に影響する？</h2>
+<p>札幌市の基本点数は「就労の状態」で決まるため、転職自体は点数に直接影響しません。ただし、転職のタイミングによっては<strong>一時的に求職活動中</strong>の扱いになり、点数が下がるリスクがあります。</p>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>転職するなら、入園申込の<strong>就労証明書の提出前</strong>に新しい勤務先を確定させるのがベストです。就労証明書は新しい勤務先に記入してもらいましょう。</p>
+</div>
+
+<h2>転職タイミング別のリスク</h2>
+<table>
+<tr><th>タイミング</th><th>リスク</th><th>対策</th></tr>
+<tr><td>申込前に転職完了</td><td>低い</td><td>新勤務先の就労証明書を提出すればOK</td></tr>
+<tr><td>申込後〜選考前に転職</td><td>中程度</td><td>就労証明書の再提出が必要。区の保健センターに連絡</td></tr>
+<tr><td>入園決定後に転職</td><td>低い</td><td>新しい就労証明書を提出すれば継続利用可能</td></tr>
+<tr><td>空白期間あり（無職期間）</td><td>高い</td><td>求職活動中扱いで点数50点に低下</td></tr>
+</table>
+
+<h2>入園後の転職について</h2>
+<p>入園後に転職する場合は、新しい勤務先の就労証明書を速やかに区の保健センターに提出してください。転職による空白期間が長い場合は退園になる可能性があります。</p>
+
+<ul>
+<li>退職から再就職まで<strong>1か月以内</strong>が目安</li>
+<li>退職の際は事前に区の保健センターに相談するのが安心</li>
+<li>転職で勤務時間が大幅に減る場合は、保育認定区分の変更が必要になることもあります</li>
+</ul>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>入園後の変更届出については、お住まいの区の保健センターにお問い合わせください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 50,
+  },
+
+  // 25. 2歳からの入園
+  {
+    slug: "age2-nyuen",
+    citySlug: "sapporo",
+    title: "2歳からの保育園入園　札幌市の空き状況と入りやすさ",
+    description:
+      "札幌市で2歳から保育園に入園する場合の空き状況の傾向と、入園しやすい園の探し方を解説します。",
+    image:
+      "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+    category: "年齢別",
+    categoryColor: "purple",
+    content: `<h2>2歳入園の特徴</h2>
+<p>札幌市では0歳・1歳で入園した子どもがそのまま持ち上がるため、2歳クラスの新規受入枠は<strong>非常に少ない</strong>傾向があります。</p>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>2歳クラスの新規枠は「退園・転園で空いた枠」のみ。多くの園で新規受入数は0〜数名程度です。</p>
+</div>
+
+<h2>2歳入園を目指す戦略</h2>
+<ul>
+<li><strong>小規模保育事業所からの転園</strong>：0〜2歳対象の小規模保育を卒園する子の受け皿として、連携園には優先枠がある場合があります</li>
+<li><strong>新設園を狙う</strong>：新設園は全クラスが空きのため、2歳クラスにも枠があります</li>
+<li><strong>認定こども園の教育部分から保育部分への切り替え</strong>：3歳以降の受入枠が多い認定こども園を視野に入れましょう</li>
+<li><strong>希望園を多く書く</strong>：2歳入園は枠が少ないため、通える範囲の園をできるだけ多く記入</li>
+</ul>
+
+<h2>2歳入園の注意点</h2>
+<ul>
+<li>小規模保育事業所は2歳までのため、3歳で再度「保活」が必要になります</li>
+<li>認可外保育施設に通っている場合は、調整指数の加点対象にはなりません</li>
+<li>2歳入園がどうしても難しい場合は、3歳の「幼児教育・保育の無償化」開始タイミングを見据えた計画も検討しましょう</li>
+</ul>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>各園の空き状況は<a href="https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/835.html" target="_blank" rel="noopener">札幌市子育てサイト</a>で確認できます。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 45,
+  },
+
+  // 26. 3歳以降の移行
+  {
+    slug: "age3-ikou",
+    citySlug: "sapporo",
+    title: "3歳の壁を乗り越える　札幌市での小規模保育卒園後の選択肢",
+    description:
+      "札幌市で小規模保育事業所を卒園した後の3歳児の進路と、連携施設の仕組みを解説します。",
+    image:
+      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
+    category: "年齢別",
+    categoryColor: "purple",
+    content: `<h2>小規模保育卒園後の「3歳の壁」とは</h2>
+<p>小規模保育事業所（0〜2歳対象）を卒園すると、3歳からは新たな保育施設に移る必要があります。これがいわゆる「3歳の壁」です。</p>
+
+<h2>札幌市の連携施設の仕組み</h2>
+<p>札幌市では小規模保育事業所に<strong>連携施設</strong>を設定しており、卒園児が優先的に入園できる仕組みがあります。</p>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>連携施設が設定されている小規模保育を選んでおくと、3歳以降の保活がスムーズになります。入園前に連携施設を確認しましょう。</p>
+</div>
+
+<h2>3歳以降の選択肢</h2>
+<table>
+<tr><th>進路</th><th>特徴</th></tr>
+<tr><td>連携施設への優先入園</td><td>小規模保育の連携先に優先的に入れる</td></tr>
+<tr><td>認可保育所への申込</td><td>通常の利用調整で申込。3歳クラスは受入枠が多い園も</td></tr>
+<tr><td>認定こども園（保育部分）</td><td>3歳から定員が大幅に増える園が多い</td></tr>
+<tr><td>幼稚園（預かり保育あり）</td><td>無償化の対象。預かり保育で夕方まで利用可能</td></tr>
+</table>
+
+<h2>3歳入園は意外と入りやすい</h2>
+<p>3歳クラスは幼稚園への移行などで空きが出やすく、また認定こども園では3歳から定員が大幅に増えるため、0〜2歳と比べて<strong>入りやすい</strong>傾向があります。</p>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>小規模保育事業所と連携施設の一覧は、各区の保健センターまたは<a href="https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/835.html" target="_blank" rel="noopener">札幌市子育てサイト</a>で確認できます。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 50,
+  },
+
+  // 27. 0歳児入園
+  {
+    slug: "nyuyoji-age0",
+    citySlug: "sapporo",
+    title: "0歳児入園のメリット・デメリット　札幌市の受入月齢と注意点",
+    description:
+      "札幌市で0歳児クラスに入園する場合の受入月齢、メリット・デメリット、準備すべきことを解説します。",
+    image:
+      "https://images.unsplash.com/photo-1544126592-807ade215a0b?w=800&h=400&fit=crop",
+    category: "年齢別",
+    categoryColor: "purple",
+    content: `<h2>0歳入園の受入月齢</h2>
+<p>札幌市の認可保育所では、園によって受入開始月齢が異なります。一般的には<strong>生後57日（産休明け）</strong>から、または<strong>生後5か月</strong>や<strong>生後6か月</strong>からの受入が多いです。</p>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>4月入園を目指す場合、4月1日時点での月齢が受入開始月齢を満たしている必要があります。希望園の受入開始月齢を必ず事前に確認してください。</p>
+</div>
+
+<h2>0歳入園のメリット</h2>
+<ul>
+<li><strong>入りやすい</strong>：0歳クラスは全員が新規入園のため、1歳以降より枠が多い</li>
+<li><strong>1歳の激戦を回避</strong>：1歳クラスは育休明けの申込が集中し、最も競争が激しい年齢</li>
+<li><strong>育休明け加点が使える</strong>：産休明け・育休明けの調整指数+40点が加算</li>
+<li><strong>持ち上がり</strong>：一度入園すれば、原則としてそのまま卒園まで在園できる</li>
+</ul>
+
+<h2>0歳入園のデメリット</h2>
+<ul>
+<li><strong>育児休業を短縮</strong>：特に秋〜冬生まれの場合、育休を大幅に短縮して復職する必要がある</li>
+<li><strong>体調面の不安</strong>：月齢が低いほど体調を崩しやすく、入園直後は呼び出しが多い</li>
+<li><strong>保育料がかかる</strong>：0〜2歳は保育料が発生（ただし第2子以降は札幌市の制度で無償）</li>
+</ul>
+
+<h2>0歳入園に必要な準備</h2>
+<ul>
+<li>希望園の受入開始月齢の確認</li>
+<li>勤務先への復職時期の相談</li>
+<li>就労証明書の準備（復職予定の内容で記入）</li>
+<li>園見学（妊娠中からの見学がおすすめ）</li>
+</ul>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>各園の受入開始月齢は<a href="https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/835.html" target="_blank" rel="noopener">札幌市子育てサイト</a>の認可保育所一覧で確認できます。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 60,
+  },
+
+  // 28. 認定こども園
+  {
+    slug: "nintei-kodomoen",
+    citySlug: "sapporo",
+    title: "認定こども園とは？札幌市での保育所との違いと選び方",
+    description:
+      "札幌市の認定こども園の特徴、保育所との違い、入園手続きの違いを解説します。",
+    image:
+      "https://images.unsplash.com/photo-1564429238961-bf8e8eb0fd47?w=800&h=400&fit=crop",
+    category: "園の種類",
+    categoryColor: "amber",
+    content: `<h2>認定こども園とは</h2>
+<p>認定こども園は、<strong>幼稚園と保育所の機能を併せ持つ</strong>施設です。教育と保育を一体的に提供し、保護者の就労状況が変わっても通い続けられるメリットがあります。</p>
+
+<h2>札幌市の認定こども園の種類</h2>
+<table>
+<tr><th>類型</th><th>特徴</th></tr>
+<tr><td>幼保連携型</td><td>幼稚園機能と保育所機能を一体的に運営。最も一般的</td></tr>
+<tr><td>幼稚園型</td><td>幼稚園がベースで保育所機能を追加</td></tr>
+<tr><td>保育所型</td><td>保育所がベースで幼稚園機能を追加</td></tr>
+</table>
+
+<h2>保育所との違い</h2>
+<table>
+<tr><th></th><th>認可保育所</th><th>認定こども園（保育部分）</th></tr>
+<tr><td>対象年齢</td><td>0〜5歳</td><td>0〜5歳</td></tr>
+<tr><td>利用時間</td><td>保育標準時間（最大11時間）</td><td>保育標準時間（最大11時間）</td></tr>
+<tr><td>教育カリキュラム</td><td>園による</td><td>幼稚園教育要領に基づく教育あり</td></tr>
+<tr><td>3歳以降の定員</td><td>持ち上がりが中心</td><td>教育部分から大幅に定員増</td></tr>
+<tr><td>申込方法</td><td>区の保健センター経由</td><td>区の保健センター経由（保育部分）</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>認定こども園の<strong>保育部分</strong>（2号・3号認定）は認可保育所と同じ利用調整で入園が決まります。点数の計算方法も同じです。<strong>教育部分</strong>（1号認定）は園に直接申込です。</p>
+</div>
+
+<h2>認定こども園を選ぶメリット</h2>
+<ul>
+<li>退職しても教育部分（1号認定）に切り替えて通い続けられる</li>
+<li>3歳クラスから定員が大幅に増えるため、入りやすい場合がある</li>
+<li>教育内容が充実している園が多い</li>
+</ul>
+
+<h2>注意点</h2>
+<ul>
+<li>きょうだいが教育部分（1号認定）で在園している場合、保育部分の加点は+80点ではなく<span class="highlight">+60点</span></li>
+<li>園によって保育時間や行事の方針が異なるため、見学で確認を</li>
+</ul>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>札幌市の認定こども園一覧は<a href="https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/835.html" target="_blank" rel="noopener">札幌市子育てサイト</a>で確認できます。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 55,
+  },
+
+  // 29. 企業主導型保育事業
+  {
+    slug: "kigyou-shudogata",
+    citySlug: "sapporo",
+    title: "企業主導型保育事業とは？札幌市での利用方法と認可保育所との違い",
+    description:
+      "札幌市にある企業主導型保育事業の特徴、利用方法、認可保育所との違いとメリット・デメリットを解説します。",
+    image:
+      "https://images.unsplash.com/photo-1497215842964-222b430dc094?w=800&h=400&fit=crop",
+    category: "園の種類",
+    categoryColor: "amber",
+    content: `<h2>企業主導型保育事業とは</h2>
+<p>企業主導型保育事業は、企業が従業員の子どもの保育のために設置する施設です。<strong>認可外保育施設</strong>ですが、国から運営費の補助を受けており、保育料は認可保育所と同水準です。</p>
+
+<h2>認可保育所との主な違い</h2>
+<table>
+<tr><th></th><th>認可保育所</th><th>企業主導型</th></tr>
+<tr><td>申込先</td><td>区の保健センター</td><td>施設に直接</td></tr>
+<tr><td>選考方法</td><td>利用調整（点数順）</td><td>施設が独自に選考</td></tr>
+<tr><td>保育料</td><td>所得に応じた額</td><td>施設が設定（認可並みが多い）</td></tr>
+<tr><td>利用枠</td><td>-</td><td>従業員枠・地域枠</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>企業主導型保育には「従業員枠」と「地域枠」があります。設置企業の従業員でなくても<strong>地域枠</strong>で利用できる施設があります。</p>
+</div>
+
+<h2>メリット</h2>
+<ul>
+<li><strong>利用調整なしで申込可能</strong>：点数に関係なく、直接施設に申し込める</li>
+<li><strong>認可保育所の併願先</strong>：認可の結果を待ちながら確保できる</li>
+<li><strong>保育料が認可並み</strong>：国の補助があるため、一般の認可外より低額</li>
+</ul>
+
+<h2>デメリット・注意点</h2>
+<ul>
+<li>認可保育所の利用調整で加点対象にならない場合がある</li>
+<li>施設によって保育の質にばらつきがある</li>
+<li>突然の閉園リスクがゼロではない</li>
+</ul>
+
+<div class="warn-box">
+<p><strong>注意</strong></p>
+<p>企業主導型保育を選ぶ際は、自治体の指導監査を受けているか、保育士の配置基準を満たしているかを確認してください。</p>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>企業主導型保育事業の全国の施設検索は<a href="https://www.kigyounaihoiku.jp/" target="_blank" rel="noopener">企業主導型保育事業ポータル</a>で確認できます。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 40,
+  },
+
+  // 30. 夜間保育
+  {
+    slug: "yakan-hoiku",
+    citySlug: "sapporo",
+    title: "夜間保育・延長保育を利用するには？札幌市の対応状況",
+    description:
+      "札幌市で夜間保育や延長保育を利用する方法、対応園、費用について解説します。",
+    image:
+      "https://images.unsplash.com/photo-1507537297725-24a1c029d3ca?w=800&h=400&fit=crop",
+    category: "園の種類",
+    categoryColor: "amber",
+    content: `<h2>札幌市の延長保育</h2>
+<p>札幌市の認可保育所では、<strong>保育標準時間認定</strong>（最大11時間）を超える利用が必要な場合に<strong>延長保育</strong>を利用できます。</p>
+
+<h3>延長保育の概要</h3>
+<table>
+<tr><th>項目</th><th>内容</th></tr>
+<tr><td>利用条件</td><td>就労等で保育標準時間を超える保育が必要な場合</td></tr>
+<tr><td>延長時間</td><td>園の開所時間により異なる（18時〜19時、または18時〜20時が一般的）</td></tr>
+<tr><td>費用</td><td>園により異なる。月額制または日額制</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>延長保育の有無・時間帯は園によって異なります。シフト勤務や残業が多い方は、入園前に延長保育の体制を確認しておきましょう。</p>
+</div>
+
+<h2>夜間保育について</h2>
+<p>札幌市には認可の<strong>夜間保育所</strong>があります。夜間勤務（医療従事者、飲食業、サービス業など）の保護者を対象に、夜間帯の保育を提供しています。</p>
+
+<h2>利用する場合の手続き</h2>
+<ul>
+<li>延長保育は入園先の園に直接申し込みます</li>
+<li>夜間保育所は通常の認可保育所と同じく、区の保健センター経由で申し込みます</li>
+<li>就労証明書に夜間の勤務時間が記載されていることが必要です</li>
+</ul>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>延長保育・夜間保育の実施園は<a href="https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/835.html" target="_blank" rel="noopener">札幌市子育てサイト</a>で確認できます。各園の開所時間もこちらに掲載されています。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 35,
+  },
+
+  // 31. 無償化制度
+  {
+    slug: "mushoka-seido",
+    citySlug: "sapporo",
+    title: "保育料無償化の対象は？札幌市独自の第2子以降無償化も解説",
+    description:
+      "国の幼児教育・保育無償化と札幌市独自の第2子以降無償化制度の対象・条件・手続きを解説します。",
+    image:
+      "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=400&fit=crop",
+    category: "費用・制度",
+    categoryColor: "rose",
+    content: `<h2>保育料無償化の全体像</h2>
+<p>保育料の無償化には、<strong>国の制度</strong>と<strong>札幌市独自の制度</strong>の2つがあります。</p>
+
+<h3>国の制度（2019年10月〜）</h3>
+<table>
+<tr><th>対象</th><th>内容</th></tr>
+<tr><td>3〜5歳児</td><td>認可保育所・認定こども園の保育料が<span class="highlight">全額無償</span></td></tr>
+<tr><td>0〜2歳児（住民税非課税世帯）</td><td>認可保育所・認定こども園の保育料が無償</td></tr>
+<tr><td>認可外保育施設</td><td>3〜5歳児は月額37,000円まで、0〜2歳児（非課税世帯）は月額42,000円まで補助</td></tr>
+</table>
+
+<h3>札幌市独自の制度（2024年4月〜）</h3>
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>札幌市では<strong>第2子以降の0〜2歳児の保育料が所得制限なしで無償</strong>です。上の子の年齢に関係なく、生計を同一にする子のうち第2子以降であれば対象になります。</p>
+</div>
+
+<h2>無償化の対象外になるもの</h2>
+<p>保育料は無償になっても、以下の費用は<strong>自己負担</strong>です。</p>
+<ul>
+<li>給食費（3〜5歳児の副食費：月額4,500円程度が目安）</li>
+<li>教材費・行事費</li>
+<li>延長保育料</li>
+<li>通園バス代（該当する園の場合）</li>
+</ul>
+
+<h2>手続きは必要？</h2>
+<p>認可保育所・認定こども園に通う場合、無償化のための特別な手続きは不要です。入園手続きの中で自動的に適用されます。</p>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>札幌市の保育料や無償化制度の詳細は<a href="https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/hoikuryo/index.html" target="_blank" rel="noopener">札幌市子育てサイト「保育料について」</a>で確認できます。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 65,
+  },
+
+  // 32. 給食費（食費）の実費
+  {
+    slug: "shokuhi-jippi",
+    citySlug: "sapporo",
+    title: "保育園の給食費はいくら？札幌市の実費負担を解説",
+    description:
+      "札幌市の認可保育所・認定こども園の給食費（副食費）の金額と免除制度を解説します。",
+    image:
+      "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&h=400&fit=crop",
+    category: "費用・制度",
+    categoryColor: "rose",
+    content: `<h2>3〜5歳児の給食費</h2>
+<p>3〜5歳児は保育料が無償化されていますが、<strong>給食費（食材料費）</strong>は保護者の実費負担です。</p>
+
+<h3>給食費の内訳</h3>
+<table>
+<tr><th>費目</th><th>内容</th><th>金額目安</th></tr>
+<tr><td>主食費</td><td>ご飯・パン等</td><td>月額1,000〜3,000円程度（園による）</td></tr>
+<tr><td>副食費</td><td>おかず・おやつ等</td><td>月額4,500円程度</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>0〜2歳児の給食費は<strong>保育料に含まれている</strong>ため、別途の負担はありません。保育料が無償（第2子以降など）の場合は、給食費も含めて無償です。</p>
+</div>
+
+<h2>副食費の免除制度</h2>
+<p>以下の世帯は副食費が免除されます。</p>
+<ul>
+<li>年収360万円未満相当の世帯</li>
+<li>第3子以降の子ども（小学校就学前の子で数えて）</li>
+</ul>
+
+<h2>園によって異なる費用</h2>
+<p>給食費の正確な金額は園ごとに異なります。入園前の説明会や園見学で確認することをおすすめします。その他、以下の費用も園によって異なります。</p>
+<ul>
+<li>教材費</li>
+<li>行事費</li>
+<li>帽子・制服代</li>
+<li>布団リース代</li>
+</ul>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>副食費の免除制度については<a href="https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/hoikuryo/index.html" target="_blank" rel="noopener">札幌市子育てサイト「保育料について」</a>で確認できます。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 45,
+  },
+
+  // 33. 保育料の計算方法
+  {
+    slug: "hoikuryo-keisan",
+    citySlug: "sapporo",
+    title: "札幌市の保育料はいくら？計算方法と階層区分を解説",
+    description:
+      "札幌市の認可保育所の保育料の計算方法、所得に応じた階層区分、減免制度を解説します。",
+    image:
+      "https://images.unsplash.com/photo-1554224154-22dec7ec8818?w=800&h=400&fit=crop",
+    category: "費用・制度",
+    categoryColor: "rose",
+    content: `<h2>保育料の決まり方</h2>
+<p>札幌市の認可保育所の保育料は、<strong>世帯の市民税所得割額</strong>に基づいて決まります。前年度の市民税を基に階層が決定されます。</p>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>3〜5歳児は<strong>全員無償</strong>（国の制度）。0〜2歳児は所得に応じた保育料ですが、<strong>第2子以降は札幌市の制度で無償</strong>です。</p>
+</div>
+
+<h2>0〜2歳児（第1子）の保育料の目安</h2>
+<p>保育料は市民税の所得割額で決まります。以下は札幌市の階層区分の一部です。</p>
+<table>
+<tr><th>階層</th><th>市民税所得割額</th><th>保育標準時間</th></tr>
+<tr><td>B（非課税）</td><td>0円</td><td>0円</td></tr>
+<tr><td>C1</td><td>〜48,600円未満</td><td>9,000円</td></tr>
+<tr><td>C2</td><td>48,600円〜97,000円未満</td><td>16,500円</td></tr>
+<tr><td>D1</td><td>97,000円〜169,000円未満</td><td>27,000円</td></tr>
+<tr><td>D2</td><td>169,000円〜301,000円未満</td><td>41,500円</td></tr>
+<tr><td>D3</td><td>301,000円〜397,000円未満</td><td>55,500円</td></tr>
+<tr><td>D4</td><td>397,000円以上</td><td>61,000円</td></tr>
+</table>
+
+<div class="warn-box">
+<p><strong>注意</strong></p>
+<p>上記の金額は目安です。正確な保育料は年度や認定区分（標準時間・短時間）によって異なります。最新の保育料表は札幌市の公式サイトで確認してください。</p>
+</div>
+
+<h2>保育料の切り替え時期</h2>
+<ul>
+<li><strong>4月〜8月</strong>：前年度の市民税所得割額で計算</li>
+<li><strong>9月〜3月</strong>：当年度の市民税所得割額で計算</li>
+</ul>
+<p>9月に保育料が変わることがあるため注意してください。</p>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>最新の保育料表は<a href="https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/hoikuryo/index.html" target="_blank" rel="noopener">札幌市子育てサイト「保育料について」</a>で確認できます。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 60,
+  },
+
+  // 34. 税金控除
+  {
+    slug: "zeikin-koujo",
+    citySlug: "sapporo",
+    title: "保育料と税金の関係　確定申告・年末調整で使える控除",
+    description:
+      "保育料の負担を軽くするために知っておきたい税金の控除制度と、保育料への影響を解説します。",
+    image:
+      "https://images.unsplash.com/photo-1554224155-8d04cb21cd6e?w=800&h=400&fit=crop",
+    category: "費用・制度",
+    categoryColor: "rose",
+    content: `<h2>保育料は税金で決まる</h2>
+<p>札幌市の認可保育所の保育料は<strong>市民税の所得割額</strong>で決まります。つまり、税金の控除を活用して所得割額を下げれば、保育料も下がる可能性があります。</p>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>保育料に影響する「市民税所得割額」は、各種控除を差し引いた後の金額で計算されます。使える控除は漏れなく申告しましょう。</p>
+</div>
+
+<h2>保育料に影響する主な控除</h2>
+<table>
+<tr><th>控除の種類</th><th>概要</th><th>手続き</th></tr>
+<tr><td>医療費控除</td><td>年間医療費が10万円超の場合</td><td>確定申告</td></tr>
+<tr><td>iDeCo（個人型確定拠出年金）</td><td>掛金が全額所得控除</td><td>年末調整 or 確定申告</td></tr>
+<tr><td>ふるさと納税</td><td>寄附金控除</td><td>確定申告 or ワンストップ特例</td></tr>
+<tr><td>住宅ローン控除</td><td>税額控除（所得割額から直接引かれる）</td><td>確定申告（初年度）</td></tr>
+<tr><td>生命保険料控除</td><td>保険料に応じた所得控除</td><td>年末調整</td></tr>
+</table>
+
+<h2>注意点</h2>
+<ul>
+<li><strong>ふるさと納税</strong>は住民税の税額控除のため、所得割額が下がり保育料に影響する場合がありますが、効果は限定的です</li>
+<li><strong>住宅ローン控除</strong>は所得税から引ききれない分が住民税から控除されるため、保育料に影響する可能性があります</li>
+<li>控除の効果は世帯の所得状況によって異なります。保育料の階層の境目付近にいる場合に効果が大きくなります</li>
+</ul>
+
+<div class="warn-box">
+<p><strong>注意</strong></p>
+<p>保育料は0〜2歳の第1子のみに発生します。3〜5歳児は無償、第2子以降は札幌市の制度で無償のため、すべての世帯に関係するわけではありません。</p>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>保育料の階層区分と市民税所得割額の関係は<a href="https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/hoikuryo/index.html" target="_blank" rel="noopener">札幌市子育てサイト「保育料について」</a>で確認できます。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 45,
+  },
+
+  // 35. 就労証明書
+  {
+    slug: "shurou-shoumeisho",
+    citySlug: "sapporo",
+    title: "就労証明書の書き方ガイド　札幌市の保育園申込に必要な記載項目",
+    description:
+      "札幌市の保育園入園に必要な就労証明書の記入方法、注意点、よくある間違いを解説します。",
+    image:
+      "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&h=400&fit=crop",
+    category: "申請・手続き",
+    categoryColor: "teal",
+    content: `<h2>就労証明書とは</h2>
+<p>保育園の入園申込に必須の書類です。保護者の就労状況を勤務先が証明するもので、この内容をもとに<strong>基本点数</strong>が算出されます。</p>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>就労証明書の記載内容で点数が決まります。勤務先に正確に記入してもらうことが最も重要です。</p>
+</div>
+
+<h2>主な記載項目</h2>
+<table>
+<tr><th>項目</th><th>記載内容</th><th>点数への影響</th></tr>
+<tr><td>雇用形態</td><td>正社員・パート・派遣等</td><td>直接の影響なし（労働時間で判定）</td></tr>
+<tr><td>勤務日数</td><td>月の稼動日数</td><td>基本点数に直接影響</td></tr>
+<tr><td>勤務時間</td><td>月の総労働時間</td><td>基本点数に直接影響</td></tr>
+<tr><td>勤務先所在地</td><td>勤務先の住所</td><td>通勤時間の確認用</td></tr>
+<tr><td>就労開始日</td><td>入社日・就労開始日</td><td>継続就労の確認</td></tr>
+</table>
+
+<h2>よくある間違い・注意点</h2>
+<ul>
+<li><strong>育休中の場合</strong>：「現在の勤務状況」は育休中と記載し、「復職予定日」を必ず記入</li>
+<li><strong>シフト制の場合</strong>：最低勤務日数・時間ではなく、通常のシフトでの見込みを記入</li>
+<li><strong>残業時間</strong>：残業は月の労働時間に含めないのが一般的。就業規則上の所定労働時間で記入</li>
+<li><strong>勤務先の押印</strong>：事業主の記入欄には代表者名と押印（または電子署名）が必要</li>
+</ul>
+
+<div class="step">
+<h3>ステップ1：様式のダウンロード</h3>
+<p>札幌市指定の就労証明書をダウンロードします。</p>
+</div>
+
+<div class="step">
+<h3>ステップ2：勤務先に依頼</h3>
+<p>人事部門に記入を依頼します。余裕をもって1か月前には依頼しましょう。</p>
+</div>
+
+<div class="step">
+<h3>ステップ3：内容の確認</h3>
+<p>受け取ったら、稼動日数と月労働時間が実態と合っているか必ず確認してください。</p>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>就労証明書の様式は<a href="https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/835.html" target="_blank" rel="noopener">札幌市子育てサイト</a>からダウンロードできます。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 65,
+  },
+
+  // 36. 申請書類一覧
+  {
+    slug: "shinsei-shorui-list",
+    citySlug: "sapporo",
+    title: "札幌市の保育園申込に必要な書類一覧　チェックリスト付き",
+    description:
+      "札幌市で認可保育所に申し込む際に必要な書類を、チェックリスト形式で解説します。",
+    image:
+      "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=400&fit=crop",
+    category: "申請・手続き",
+    categoryColor: "teal",
+    content: `<h2>必要書類チェックリスト</h2>
+<p>札幌市の認可保育所等への入園申込に必要な書類です。お住まいの区の保健センターに提出します。</p>
+
+<h3>全員が必要な書類</h3>
+<table>
+<tr><th>書類名</th><th>入手先</th><th>備考</th></tr>
+<tr><td>教育・保育給付認定申請書</td><td>区の保健センターまたは公式サイト</td><td>子ども1人につき1枚</td></tr>
+<tr><td>利用申込書</td><td>区の保健センターまたは公式サイト</td><td>希望園の順位を記入</td></tr>
+<tr><td>就労証明書（父・母 各1通）</td><td>勤務先に記入依頼</td><td>直近のもの</td></tr>
+</table>
+
+<h3>該当する方のみ必要な書類</h3>
+<table>
+<tr><th>該当状況</th><th>必要書類</th></tr>
+<tr><td>ひとり親家庭</td><td>児童扶養手当証書の写し、または戸籍謄本</td></tr>
+<tr><td>障がい者がいる世帯</td><td>障害者手帳の写し</td></tr>
+<tr><td>自営業・フリーランス</td><td>開業届の写し、確定申告書の写し等</td></tr>
+<tr><td>求職活動中</td><td>求職活動申立書</td></tr>
+<tr><td>妊娠・出産</td><td>母子健康手帳の写し</td></tr>
+<tr><td>介護・看護</td><td>診断書、介護保険被保険者証の写し等</td></tr>
+<tr><td>在学中</td><td>在学証明書、時間割表</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>書類の不備は選考に影響する可能性があります。締切の1週間前には書類を揃え、内容を確認してから提出しましょう。</p>
+</div>
+
+<div class="step">
+<h3>ステップ1：書類の入手</h3>
+<p>区の保健センター窓口または札幌市子育てサイトから様式をダウンロードします。</p>
+</div>
+
+<div class="step">
+<h3>ステップ2：就労証明書の依頼</h3>
+<p>勤務先に記入を依頼します。父母それぞれの分が必要です。1か月前には依頼を。</p>
+</div>
+
+<div class="step">
+<h3>ステップ3：その他書類の準備</h3>
+<p>該当する加点書類（ひとり親証明等）を準備します。</p>
+</div>
+
+<div class="step">
+<h3>ステップ4：提出</h3>
+<p>お住まいの区の保健センターに提出します。郵送も可能な場合がありますが、窓口提出が確実です。</p>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>最新の必要書類は<a href="https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/835.html" target="_blank" rel="noopener">札幌市子育てサイト「認可保育所等への入所手続きについて」</a>で確認できます。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 70,
+  },
+
+  // 37. 二次申請の流れ
+  {
+    slug: "niji-shinsei-flow",
+    citySlug: "sapporo",
+    title: "二次調整の申請手続きを解説　札幌市で1次不承諾後にやること",
+    description:
+      "札幌市で1次調整の結果が不承諾だった場合の二次調整の申請手続き、希望園変更の方法を解説します。",
+    image:
+      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=400&fit=crop",
+    category: "申請・手続き",
+    categoryColor: "teal",
+    content: `<h2>1次不承諾後の流れ</h2>
+<p>1次調整で不承諾になった場合、自動的に2次調整の対象になります。ただし、希望園の変更や追加をする場合は手続きが必要です。</p>
+
+<div class="step">
+<h3>ステップ1：結果通知の確認</h3>
+<p>1次調整の結果通知を確認します。不承諾の場合、2次調整の案内が同封されています。</p>
+</div>
+
+<div class="step">
+<h3>ステップ2：空き状況の確認</h3>
+<p>1次調整後の空き状況を札幌市公式サイトで確認します。受入可能数が残っている園を探しましょう。</p>
+</div>
+
+<div class="step">
+<h3>ステップ3：希望園の変更・追加</h3>
+<p>希望園を変更・追加する場合は、変更届を区の保健センターに提出します。2次調整の締切日までに提出が必要です。</p>
+</div>
+
+<div class="step">
+<h3>ステップ4：結果通知</h3>
+<p>2次調整の結果は3月上旬に通知されます。</p>
+</div>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>2次調整では、1次で辞退が出た園や定員割れした園に空きがあります。特に新設園や駅から遠い園は2次で枠が残っていることが多いです。</p>
+</div>
+
+<h2>2次でも不承諾の場合</h2>
+<ul>
+<li><strong>年度途中の空き待ち</strong>：申込を取り下げなければ、年度途中で空きが出た際に案内が来ます</li>
+<li><strong>認可外保育施設の検討</strong>：企業主導型保育や認可外保育施設も選択肢に</li>
+<li><strong>育休延長</strong>：不承諾通知は育休延長の手続きに使えます</li>
+</ul>
+
+<div class="warn-box">
+<p><strong>注意</strong></p>
+<p>育休延長を目的として、あえて入れない園だけを希望する「特定の保育所等のみの利用申込」の場合、不承諾通知が育休延長の要件を満たさない場合があります。詳細はハローワークにご確認ください。</p>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>2次調整の日程と手続きは<a href="https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/835.html" target="_blank" rel="noopener">札幌市子育てサイト</a>で確認できます。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 50,
+  },
+
+  // 38. 転居と保活
+  {
+    slug: "tenkyo-hokatsu",
+    citySlug: "sapporo",
+    title: "転居先で保育園に入るには？札幌市への転入・市内転居の手続き",
+    description:
+      "札幌市への転入や市内での転居に伴う保育園の手続き、広域利用の仕組みを解説します。",
+    image:
+      "https://images.unsplash.com/photo-1516156008625-3a9d6067fab5?w=800&h=400&fit=crop",
+    category: "申請・手続き",
+    categoryColor: "teal",
+    content: `<h2>札幌市への転入の場合</h2>
+<p>他の市区町村から札幌市に転入する場合、転入前でも保育園の申込が可能です。</p>
+
+<div class="step">
+<h3>ステップ1：申込</h3>
+<p>転入予定であることを伝え、現在お住まいの市区町村を通じて札幌市に申込書類を提出します（広域利用申請）。</p>
+</div>
+
+<div class="step">
+<h3>ステップ2：転入届の提出</h3>
+<p>入園月の前月末までに札幌市に転入届を提出することが条件です。</p>
+</div>
+
+<div class="step">
+<h3>ステップ3：入園</h3>
+<p>利用調整の結果、内定が出れば入園できます。</p>
+</div>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>4月入園の場合、申込締切日までに書類を提出する必要があります。転居時期が確定したら、早めに札幌市の保健センターに相談しましょう。</p>
+</div>
+
+<h2>札幌市内での転居の場合</h2>
+<p>市内で区をまたいで転居する場合でも、通っている保育園を<strong>継続利用</strong>できます。通園が可能であれば転園の必要はありません。</p>
+<ul>
+<li>転居後の住所変更届を区の保健センターに提出</li>
+<li>転園を希望する場合は、転入先の区で転園申込</li>
+</ul>
+
+<h2>札幌市から転出する場合</h2>
+<p>他の市区町村に転出する場合は、札幌市の保育園は退園となります。転出先での保育園申込は、転出先の自治体の手続きに従ってください。</p>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>転入・転居に伴う手続きは、お住まいの区（または転入予定の区）の保健センターにお問い合わせください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 45,
+  },
+
+  // 39. 教育と保育の違い
+  {
+    slug: "kyoiku-hoiku-chigai",
+    citySlug: "sapporo",
+    title: "1号認定と2号認定の違い　札幌市の教育認定と保育認定",
+    description:
+      "札幌市の保育園・幼稚園・認定こども園における認定区分（1号・2号・3号）の違いを解説します。",
+    image:
+      "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&h=400&fit=crop",
+    category: "園の種類",
+    categoryColor: "amber",
+    content: `<h2>認定区分とは</h2>
+<p>保育園や幼稚園を利用するには、お住まいの市区町村から<strong>認定</strong>を受ける必要があります。認定区分は3種類あります。</p>
+
+<h3>認定区分の一覧</h3>
+<table>
+<tr><th>認定区分</th><th>年齢</th><th>保育の必要性</th><th>利用できる施設</th></tr>
+<tr><td>1号認定（教育認定）</td><td>3〜5歳</td><td>不要</td><td>幼稚園、認定こども園（教育部分）</td></tr>
+<tr><td>2号認定（保育認定）</td><td>3〜5歳</td><td>必要</td><td>保育所、認定こども園（保育部分）</td></tr>
+<tr><td>3号認定（保育認定）</td><td>0〜2歳</td><td>必要</td><td>保育所、認定こども園、小規模保育等</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>「保育の必要性」とは、就労・妊娠出産・疾病・介護・求職活動などの事由があることです。共働き世帯は2号または3号認定になります。</p>
+</div>
+
+<h2>保育時間の違い</h2>
+<table>
+<tr><th></th><th>1号認定</th><th>2号・3号認定（標準時間）</th><th>2号・3号認定（短時間）</th></tr>
+<tr><td>利用時間</td><td>教育標準時間（4時間程度）</td><td>最大11時間</td><td>最大8時間</td></tr>
+<tr><td>預かり保育</td><td>利用可能（別料金）</td><td>-</td><td>-</td></tr>
+</table>
+
+<h2>認定の手続き</h2>
+<ul>
+<li><strong>2号・3号認定</strong>：保育園の入園申込と同時に、区の保健センターで認定申請</li>
+<li><strong>1号認定</strong>：幼稚園・認定こども園に直接申込。認定は園を通じて手続き</li>
+</ul>
+
+<h2>認定区分の変更</h2>
+<p>就労状況の変化（退職・就職など）に応じて、認定区分を変更することができます。例えば、退職して2号認定から1号認定に変更し、認定こども園の教育部分に切り替えることも可能です。</p>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>認定区分の詳細は<a href="https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/835.html" target="_blank" rel="noopener">札幌市子育てサイト</a>で確認できます。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 50,
+  },
+
+  // 40. 保活カレンダー
+  {
+    slug: "hokatsu-calendar",
+    citySlug: "sapporo",
+    title: "札幌市の保活カレンダー　4月入園に向けた月別スケジュール",
+    description:
+      "札幌市で4月入園を目指す場合の保活スケジュールを月別にまとめました。",
+    image:
+      "https://images.unsplash.com/photo-1506784365847-bbad939e9335?w=800&h=400&fit=crop",
+    category: "保活の基本",
+    categoryColor: "green",
+    content: `<h2>保活はいつから始める？</h2>
+<p>札幌市の4月入園の場合、<strong>前年の春〜夏</strong>から保活を始めるのが理想的です。以下は典型的なスケジュールです。</p>
+
+<h3>月別スケジュール（4月入園の場合）</h3>
+<table>
+<tr><th>時期</th><th>やること</th></tr>
+<tr><td>4月〜6月</td><td>情報収集開始。前年度の空き状況や倍率を確認</td></tr>
+<tr><td>7月〜8月</td><td>園見学。複数の園を見学し、候補をリストアップ</td></tr>
+<tr><td>9月〜10月</td><td>申込書類の入手・準備。就労証明書を勤務先に依頼</td></tr>
+<tr><td>11月</td><td><span class="highlight">1次調整の申込締切</span>（11月下旬頃）</td></tr>
+<tr><td>12月〜1月</td><td>1次調整の選考期間</td></tr>
+<tr><td>1月下旬</td><td><span class="highlight">1次調整の結果通知</span></td></tr>
+<tr><td>1月下旬〜2月</td><td>不承諾の場合、2次調整の希望園変更</td></tr>
+<tr><td>3月上旬</td><td><span class="highlight">2次調整の結果通知</span></td></tr>
+<tr><td>3月中旬〜</td><td>入園準備（健康診断・面談・持ち物準備）</td></tr>
+<tr><td>4月</td><td>入園・慣らし保育開始</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>園見学は夏がベストシーズン。秋以降は見学の予約が取りにくくなります。早めに動きましょう。</p>
+</div>
+
+<h2>年度途中の入園を目指す場合</h2>
+<p>4月以外の月でも、空きがあれば入園可能です。毎月の空き状況は札幌市の公式サイトで更新されます。申込は随時受け付けています。</p>
+
+<div class="warn-box">
+<p><strong>注意</strong></p>
+<p>上記の日程は目安です。年度によって異なる場合がありますので、必ず最新の日程を札幌市公式サイトで確認してください。</p>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>最新の申込スケジュールは<a href="https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/835.html" target="_blank" rel="noopener">札幌市子育てサイト</a>で確認できます。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 75,
+  },
+
+  // 41. 相場点数
+  {
+    slug: "souba-tensuu",
+    citySlug: "sapporo",
+    title: "何点あれば入れる？札幌市の保育園入園に必要な点数の目安",
+    description:
+      "札幌市の保育園入園に必要な点数の目安を、区や年齢クラス別の傾向とともに解説します。",
+    image:
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=400&fit=crop",
+    category: "点数・選考",
+    categoryColor: "blue",
+    content: `<h2>入園に必要な点数の目安</h2>
+<p>札幌市は入園のボーダーライン点数を公式には公開していませんが、一般的な傾向として以下の目安があります。</p>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>フルタイム共働き（200点）＋育休明け加点（+40点）＝<span class="highlight">240点が標準的なライン</span>です。人気園では240点でも入れない場合があります。</p>
+</div>
+
+<h3>点数パターン別の入園見込み</h3>
+<table>
+<tr><th>合計点数</th><th>世帯の例</th><th>入園見込み</th></tr>
+<tr><td>300点</td><td>フルタイム共働き＋育休明け＋きょうだい在園</td><td>ほぼ確実</td></tr>
+<tr><td>240点</td><td>フルタイム共働き＋育休明け</td><td>多くの園で入園可能</td></tr>
+<tr><td>200〜230点</td><td>フルタイム＋パートタイム</td><td>園・年齢による</td></tr>
+<tr><td>200点未満</td><td>パートタイム同士、求職中含む</td><td>人気園は厳しい</td></tr>
+</table>
+
+<h2>区による傾向の違い</h2>
+<p>札幌市は10区ありますが、区や地域によって保育園の競争率は異なります。</p>
+<ul>
+<li><strong>中央区・北区</strong>：人口が多く、特に駅周辺の園は競争率が高い傾向</li>
+<li><strong>白石区・豊平区</strong>：子育て世帯が多く、1歳クラスは激戦</li>
+<li><strong>手稲区・清田区・南区</strong>：郊外エリアは比較的入りやすい園もある</li>
+</ul>
+
+<h2>同点の場合はどうなる？</h2>
+<p>同じ点数の場合は<strong>別表3（優先順位）</strong>で判断されます。主な優先項目は以下の通りです。</p>
+<ul>
+<li>ひとり親世帯</li>
+<li>きょうだいが同一の保育所等に入所中</li>
+<li>保育料の滞納がないこと</li>
+<li>その他、世帯の状況に応じた総合的な判断</li>
+</ul>
+
+<div class="warn-box">
+<p><strong>注意</strong></p>
+<p>上記の目安は一般的な傾向であり、年度や園によって大きく異なります。公式のボーダーラインは公開されていないため、参考程度にしてください。</p>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>各園の受入予定数や申込状況は<a href="https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/835.html" target="_blank" rel="noopener">札幌市子育てサイト</a>で公開されています。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 80,
+  },
+
+  // 42. 区別の倍率
+  {
+    slug: "ku-betsu-bairitsu",
+    citySlug: "sapporo",
+    title: "札幌市10区の保育園倍率傾向　入りやすい区はどこ？",
+    description:
+      "札幌市の10区それぞれの保育園入園の競争率の傾向と、区ごとの特徴を解説します。",
+    image:
+      "https://images.unsplash.com/photo-1524661135-423995f22d0b?w=800&h=400&fit=crop",
+    category: "点数・選考",
+    categoryColor: "blue",
+    content: `<h2>札幌市10区の保育園事情</h2>
+<p>札幌市は<strong>中央区・北区・東区・白石区・厚別区・豊平区・清田区・南区・西区・手稲区</strong>の10区からなります。区によって保育園の数、子どもの人口、競争率が異なります。</p>
+
+<h3>区別の傾向（一般的な目安）</h3>
+<table>
+<tr><th>区</th><th>競争率の傾向</th><th>特徴</th></tr>
+<tr><td>中央区</td><td>高め</td><td>人口密集。マンション増加で子育て世帯が多い</td></tr>
+<tr><td>北区</td><td>高め</td><td>市内最多人口。地域差が大きい</td></tr>
+<tr><td>東区</td><td>中程度</td><td>住宅地が多い。園の数も比較的多い</td></tr>
+<tr><td>白石区</td><td>中〜高め</td><td>交通利便性が高く子育て世帯に人気</td></tr>
+<tr><td>厚別区</td><td>中程度</td><td>新さっぽろ周辺は需要が高い</td></tr>
+<tr><td>豊平区</td><td>中程度</td><td>地下鉄沿線は競争率が高い傾向</td></tr>
+<tr><td>清田区</td><td>やや低め</td><td>郊外住宅地。車通勤なら選択肢が広がる</td></tr>
+<tr><td>南区</td><td>低め</td><td>面積は広いが人口密度は低い</td></tr>
+<tr><td>西区</td><td>中程度</td><td>地下鉄沿線は人気。琴似周辺は競争率高め</td></tr>
+<tr><td>手稲区</td><td>やや低め</td><td>JR沿線は需要あり。郊外は比較的入りやすい</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>札幌市は区をまたいだ申込が可能です。自宅から通える範囲で、隣の区の園も候補に入れると選択肢が広がります。</p>
+</div>
+
+<h2>倍率を確認する方法</h2>
+<p>札幌市は各園の受入予定数と申込数を公式サイトで公開しています。これを確認することで、実際の倍率の傾向がわかります。</p>
+
+<h2>注意点</h2>
+<ul>
+<li>上記の傾向はあくまで一般的な目安です。年度や園によって大きく異なります</li>
+<li>新設園がオープンすると、その年は周辺の園の倍率が下がることがあります</li>
+<li>駅から離れた園は倍率が低い傾向がありますが、車での送迎が必要になる場合があります</li>
+</ul>
+
+<div class="warn-box">
+<p><strong>注意</strong></p>
+<p>上記の競争率の傾向は一般的な目安であり、実際の倍率は年度・園・年齢クラスによって異なります。最新の情報は札幌市の公式データで確認してください。</p>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>各園の受入予定数・申込状況は<a href="https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/835.html" target="_blank" rel="noopener">札幌市子育てサイト</a>で公開されています。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 70,
+  },
+
+  // 43. 育休延長のリスク
+  {
+    slug: "ikukyu-enchou-risk",
+    citySlug: "sapporo",
+    title: "育休延長で保活に不利になる？札幌市での影響と注意点",
+    description:
+      "育児休業を延長した場合の保活への影響、不承諾通知の取得、育休延長制度の改正予定を解説します。",
+    image:
+      "https://images.unsplash.com/photo-1493894473891-10fc1e5dbd22?w=800&h=400&fit=crop",
+    category: "保活の基本",
+    categoryColor: "green",
+    content: `<h2>育休延長の仕組み</h2>
+<p>育児休業は原則として子どもが<strong>1歳になるまで</strong>ですが、保育園に入れない場合は<strong>1歳6か月まで</strong>、さらに入れない場合は<strong>2歳まで</strong>延長できます。</p>
+
+<h2>延長に必要な「不承諾通知」</h2>
+<p>育休延長にはハローワークに<strong>保育園の不承諾通知</strong>（利用保留通知書）を提出する必要があります。札幌市で申込をして不承諾になれば、この通知書が発行されます。</p>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>育休延長のための不承諾通知は、子どもの誕生日の前日時点で保育園の利用保留になっていることが必要です。申込のタイミングに注意してください。</p>
+</div>
+
+<h2>育休延長で点数はどうなる？</h2>
+<p>育休延長自体は基本点数に影響しません。ただし、以下の点に注意が必要です。</p>
+<ul>
+<li><strong>育休明け加点</strong>（+40点）は、復職予定で申し込んだ場合に加算されます</li>
+<li>育休を延長しても、次回の4月入園で復職予定なら育休明け加点は付きます</li>
+<li>ただし、育休延長を繰り返す場合、復職の意思が問われる場合があります</li>
+</ul>
+
+<h2>育休延長制度の今後</h2>
+<p>育児休業給付金の延長申請については、制度の見直しが議論されています。今後、申請手続きや要件が変わる可能性があります。</p>
+
+<div class="warn-box">
+<p><strong>注意</strong></p>
+<p>育休延長のための保育園申込について、入所意思のない申込（特定の園のみ申込むなど）に対するチェックが強化される方向にあります。最新の情報はハローワークと勤務先にご確認ください。</p>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>育児休業給付金の延長手続きについては<a href="https://www.hellowork.mhlw.go.jp/" target="_blank" rel="noopener">ハローワーク</a>にお問い合わせください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 60,
+  },
+
+  // 44. 復職準備
+  {
+    slug: "fukushoku-junbi",
+    citySlug: "sapporo",
+    title: "入園が決まったら始める復職準備　慣らし保育と職場復帰のコツ",
+    description:
+      "札幌市の保育園入園決定後に必要な復職準備、慣らし保育の期間、職場復帰のスケジュールを解説します。",
+    image:
+      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
+    category: "保活の基本",
+    categoryColor: "green",
+    content: `<h2>入園決定後の流れ</h2>
+<p>入園が決まったら、復職に向けた準備を始めましょう。4月入園の場合、3月中に入園準備と復職の段取りを進めます。</p>
+
+<div class="step">
+<h3>ステップ1：入園前面談・健康診断</h3>
+<p>入園先の園で面談と健康診断があります。日程は園から通知されます。</p>
+</div>
+
+<div class="step">
+<h3>ステップ2：勤務先への復職連絡</h3>
+<p>入園が決まったら、勤務先に復職日を連絡します。慣らし保育の期間を考慮した復職日を相談しましょう。</p>
+</div>
+
+<div class="step">
+<h3>ステップ3：慣らし保育</h3>
+<p>4月の最初の1〜2週間は慣らし保育です。最初は数時間から始め、徐々に保育時間を延ばしていきます。</p>
+</div>
+
+<div class="step">
+<h3>ステップ4：復職</h3>
+<p>慣らし保育終了後に本格復職します。多くの方は4月中旬〜下旬に復職しています。</p>
+</div>
+
+<h2>慣らし保育の期間</h2>
+<table>
+<tr><th>期間</th><th>保育時間の目安</th></tr>
+<tr><td>1〜2日目</td><td>1〜2時間</td></tr>
+<tr><td>3〜4日目</td><td>午前中まで（給食あり）</td></tr>
+<tr><td>5日目〜1週間</td><td>午後のおやつまで</td></tr>
+<tr><td>2週目〜</td><td>通常保育時間</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>慣らし保育の期間は園やお子さんの様子によって異なります。最低でも<span class="highlight">2週間</span>は見ておきましょう。勤務先にはその分の有給休暇や復職日の調整を相談してください。</p>
+</div>
+
+<h2>復職前にやっておくこと</h2>
+<ul>
+<li>病児保育・病後児保育の登録（急な発熱時の預け先を確保）</li>
+<li>ファミリーサポートの登録（送迎の補助が必要な場合）</li>
+<li>かかりつけ小児科の確認</li>
+<li>保育園の持ち物準備（名前付けなど）</li>
+</ul>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>札幌市の病児保育・ファミリーサポートは<a href="https://kosodate.city.sapporo.jp/" target="_blank" rel="noopener">札幌市子育てサイト</a>で確認できます。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 55,
+  },
+
+  // 45. 3人目の保活
+  {
+    slug: "sannin-me-hokatsu",
+    citySlug: "sapporo",
+    title: "3人目の保活ガイド　札幌市の多子世帯向け加点と保育料",
+    description:
+      "札幌市で3人目以降の子どもの保活に関する加点制度、保育料、入園戦略を解説します。",
+    image:
+      "https://images.unsplash.com/photo-1609220136736-443140cffec6?w=800&h=400&fit=crop",
+    category: "保活の基本",
+    categoryColor: "green",
+    content: `<h2>3人目の加点はどうなる？</h2>
+<p>札幌市の利用調整基準では、子どもの人数による直接的な加点はありません。ただし、<strong>きょうだい在園加点</strong>が大きなアドバンテージになります。</p>
+
+<h3>想定される加点</h3>
+<table>
+<tr><th>状況</th><th>調整指数</th></tr>
+<tr><td>上の子2人が同じ認可保育所に在園＋育休明け</td><td>+100点（育休明け＋きょうだい在園の一括加算）</td></tr>
+<tr><td>上の子が在園＋きょうだい同時入所</td><td>きょうだい在園+80点 ※同時入所+30点との重複不可</td></tr>
+</table>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>3人目の場合、フルタイム共働き200点＋育休明け＋きょうだい在園+100点＝<span class="highlight">300点</span>。これはほぼ最高水準の点数で、入園はかなり有利です。</p>
+</div>
+
+<h2>3人目の保育料</h2>
+<p>札幌市では第2子以降の保育料が所得制限なしで無償化されています。3人目はもちろん<strong>保育料無料</strong>です。</p>
+
+<h3>費用の比較</h3>
+<table>
+<tr><th></th><th>第1子</th><th>第2子</th><th>第3子</th></tr>
+<tr><td>0〜2歳保育料</td><td>所得に応じた額</td><td>無料</td><td>無料</td></tr>
+<tr><td>3〜5歳保育料</td><td>無料（国の制度）</td><td>無料</td><td>無料</td></tr>
+<tr><td>副食費</td><td>月4,500円程度</td><td>月4,500円程度</td><td>免除の場合あり</td></tr>
+</table>
+
+<h2>3人を同じ園に入れるコツ</h2>
+<ul>
+<li>上の子2人と同じ園を第1希望にする</li>
+<li>育休明け加点を確実に取る</li>
+<li>3人目の年齢クラスの受入枠を事前に確認</li>
+<li>送迎の動線を考慮し、別の園になっても対応できる計画を立てておく</li>
+</ul>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>多子世帯向けの保育料や制度は<a href="https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/hoikuryo/index.html" target="_blank" rel="noopener">札幌市子育てサイト「保育料について」</a>で確認できます。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 45,
+  },
+
+  // 46. 単身赴任
+  {
+    slug: "tanshin-funin",
+    citySlug: "sapporo",
+    title: "単身赴任中の保活　札幌市での点数計算と必要書類",
+    description:
+      "配偶者が単身赴任中の場合の札幌市での保活、点数の計算方法、必要な書類を解説します。",
+    image:
+      "https://images.unsplash.com/photo-1507679799987-c73b1c7e2b64?w=800&h=400&fit=crop",
+    category: "点数・選考",
+    categoryColor: "blue",
+    content: `<h2>単身赴任中の点数計算</h2>
+<p>配偶者が単身赴任中の場合でも、基本点数は<strong>父母それぞれ</strong>の就労状況で計算されます。単身赴任であること自体による加点や減点はありません。</p>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>単身赴任でも両親とも就労していれば、フルタイム共働きの200点がベースになります。単身赴任の配偶者も就労証明書の提出が必要です。</p>
+</div>
+
+<h2>必要書類</h2>
+<ul>
+<li><strong>就労証明書</strong>：単身赴任先の勤務先に記入してもらう</li>
+<li><strong>住民票</strong>：世帯の状況を確認するため</li>
+<li>勤務先が遠方の場合、就労証明書の郵送でのやり取りに時間がかかるため、早めに依頼を</li>
+</ul>
+
+<h2>送迎の現実的な問題</h2>
+<p>単身赴任で片方の親がワンオペ育児になる場合、保育園選びでは以下の点が特に重要です。</p>
+<ul>
+<li><strong>自宅からの距離</strong>：毎日の送迎を1人で行うため、近い園が理想的</li>
+<li><strong>延長保育の有無</strong>：急な残業に対応できるか</li>
+<li><strong>病児保育の確保</strong>：子どもの急な体調不良時の預け先</li>
+<li><strong>ファミリーサポート</strong>：送迎補助が必要な場合の登録</li>
+</ul>
+
+<h2>祖父母のサポートがある場合</h2>
+<p>同居の祖父母がいる場合は、祖父母の状況も利用調整に影響する可能性があります。ただし、同居の祖父母が65歳以上や就労中であれば、保育の必要性には影響しないのが一般的です。</p>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>世帯構成に関する質問は、お住まいの区の保健センターにお問い合わせください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 35,
+  },
+
+  // 47. 祖父母同居
+  {
+    slug: "sofu-sobo-doukyo",
+    citySlug: "sapporo",
+    title: "祖父母と同居していると不利？札幌市の保活への影響",
+    description:
+      "祖父母と同居している場合の札幌市の保活への影響と、同居・近居の定義について解説します。",
+    image:
+      "https://images.unsplash.com/photo-1516627145497-ae6968895b74?w=800&h=400&fit=crop",
+    category: "点数・選考",
+    categoryColor: "blue",
+    content: `<h2>祖父母同居は不利になる？</h2>
+<p>結論から言うと、札幌市では祖父母の同居・近居だけを理由に<strong>基本点数が減点されることはありません</strong>。基本点数はあくまで父母の就労状況で決まります。</p>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>札幌市の利用調整基準では、祖父母の存在は基本点数や調整指数に直接影響しません。ただし、同点時の優先順位判断で考慮される可能性はあります。</p>
+</div>
+
+<h2>祖父母に関する注意点</h2>
+<ul>
+<li><strong>同居の祖父母が無職・健康の場合</strong>：札幌市では祖父母の状況で減点されることは基本的にありませんが、自治体によって異なるルールがあるため、区の保健センターに確認すると安心です</li>
+<li><strong>祖父母が保育できる場合</strong>：基本点数には影響しませんが、保育の必要性自体が問われる可能性はゼロではありません</li>
+<li><strong>65歳以上の祖父母</strong>：高齢の祖父母については、保育の担い手とは見なされないのが一般的です</li>
+</ul>
+
+<h2>祖父母同居のメリット</h2>
+<p>保活では不利にはなりませんが、実際の子育てでは大きなメリットがあります。</p>
+<ul>
+<li>子どもの急な発熱時のお迎え対応</li>
+<li>保育園の送迎補助</li>
+<li>慣らし保育期間中のサポート</li>
+</ul>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>世帯構成と保育の必要性の関係について詳しくは、お住まいの区の保健センターにお問い合わせください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 40,
+  },
+
+  // 48. 不承認時の対応
+  {
+    slug: "fushoninchi-taiou",
+    citySlug: "sapporo",
+    title: "保育園に落ちたらどうする？札幌市での不承諾後の5つの選択肢",
+    description:
+      "札幌市の保育園入園で不承諾になった場合の対応方法と、利用できる代替手段を解説します。",
+    image:
+      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=400&fit=crop",
+    category: "保活の基本",
+    categoryColor: "green",
+    content: `<h2>不承諾通知を受け取ったら</h2>
+<p>1次調整で不承諾になっても、まだ選択肢はあります。落ち着いて次のアクションを考えましょう。</p>
+
+<h2>5つの選択肢</h2>
+
+<div class="step">
+<h3>選択肢1：2次調整に申し込む</h3>
+<p>1次で不承諾の方は自動的に2次調整の対象になります。希望園の変更・追加が可能です。1次で定員割れした園を狙いましょう。</p>
+</div>
+
+<div class="step">
+<h3>選択肢2：認可外保育施設を利用する</h3>
+<p>企業主導型保育、認可外保育園など、利用調整なしで申し込める施設があります。4月入園に間に合う施設を探しましょう。</p>
+</div>
+
+<div class="step">
+<h3>選択肢3：育休を延長する</h3>
+<p>不承諾通知をハローワークに提出すれば、育児休業給付金の延長が可能です。次の4月入園を目指します。</p>
+</div>
+
+<div class="step">
+<h3>選択肢4：年度途中の入園を待つ</h3>
+<p>申込を取り下げなければ、年度途中で空きが出た際に案内が来ます。転勤・引っ越しなどで退園者が出るタイミング（9月〜10月頃）にチャンスがあります。</p>
+</div>
+
+<div class="step">
+<h3>選択肢5：幼稚園の預かり保育を利用する</h3>
+<p>3歳以上なら、幼稚園の預かり保育も選択肢です。無償化の対象で、預かり保育料の補助もあります。</p>
+</div>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>不承諾は「今回入れなかった」だけであり、保育の必要性が否定されたわけではありません。次の申込に向けて、加点の確認や希望園の見直しを行いましょう。</p>
+</div>
+
+<h2>次回の申込に向けて</h2>
+<ul>
+<li>今回の点数を確認し、加点の漏れがないか見直す</li>
+<li>希望園の範囲を広げる（隣の区も含めて検討）</li>
+<li>小規模保育事業所も候補に入れる</li>
+<li>認可外に通いながら認可の空き待ちをする二段構えも有効</li>
+</ul>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>年度途中の空き状況は<a href="https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/835.html" target="_blank" rel="noopener">札幌市子育てサイト</a>で毎月更新されています。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 65,
+  },
+
+  // 49. 待機児童対策
+  {
+    slug: "taiki-jidou-taisaku",
+    citySlug: "sapporo",
+    title: "札幌市の待機児童の現状と対策　最新データで見る保活事情",
+    description:
+      "札幌市の待機児童数の推移、市の対策、保護者が知っておくべき最新情報を解説します。",
+    image:
+      "https://images.unsplash.com/photo-1560807707-8cc77767d783?w=800&h=400&fit=crop",
+    category: "保活の基本",
+    categoryColor: "green",
+    content: `<h2>札幌市の待機児童の現状</h2>
+<p>札幌市は待機児童の解消に取り組んでおり、国の定義による待機児童数は近年大幅に減少しています。ただし、希望する園に入れない「隠れ待機児童」（利用保留児童）は一定数存在します。</p>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>「待機児童ゼロ」でも、希望する園に入れるとは限りません。利用保留児童（特定の園のみ希望等で入れなかった児童）の数にも注目してください。</p>
+</div>
+
+<h2>札幌市の主な対策</h2>
+<table>
+<tr><th>対策</th><th>内容</th></tr>
+<tr><td>保育定員の拡大</td><td>認可保育所・認定こども園の新設、定員増</td></tr>
+<tr><td>小規模保育の推進</td><td>0〜2歳を対象とした小規模保育事業所の整備</td></tr>
+<tr><td>保育士確保</td><td>保育士の処遇改善、就職支援</td></tr>
+<tr><td>第2子以降の保育料無償化</td><td>2024年4月から所得制限なしで無償化</td></tr>
+</table>
+
+<h2>保護者ができること</h2>
+<ul>
+<li><strong>早めの情報収集</strong>：前年度の申込状況を確認し、競争率の低い園も候補に</li>
+<li><strong>希望園を増やす</strong>：通える範囲の園をできるだけ多く書く</li>
+<li><strong>加点を最大限活用</strong>：使える調整指数は漏れなく申請</li>
+<li><strong>複数の選択肢を準備</strong>：認可外保育施設や幼稚園の預かり保育も並行して検討</li>
+</ul>
+
+<h2>年齢別の入りやすさ</h2>
+<ul>
+<li><strong>0歳</strong>：全員新規枠のため、枠数は多い。ただし園によっては受入月齢に制限</li>
+<li><strong>1歳</strong>：育休明けが集中し<span class="highlight">最も競争が激しい</span>年齢</li>
+<li><strong>2歳</strong>：持ち上がりが多く新規枠は少ない</li>
+<li><strong>3歳以上</strong>：認定こども園の定員増や幼稚園の選択肢もあり、比較的入りやすい</li>
+</ul>
+
+<div class="warn-box">
+<p><strong>注意</strong></p>
+<p>待機児童数や利用保留児童数は年度によって変動します。最新のデータは札幌市の公式発表で確認してください。</p>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>札幌市の待機児童に関する最新情報は<a href="https://www.city.sapporo.jp/kodomo/kosodate/index.html" target="_blank" rel="noopener">札幌市子ども未来局</a>の公式ページで確認できます。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 55,
+  },
+
+  // 50. 転園申込
+  {
+    slug: "tennen-moshikomi",
+    citySlug: "sapporo",
+    title: "転園の申し込み方法　札幌市で別の保育園に移りたい場合",
+    description:
+      "札幌市で現在通っている保育園から別の園に転園する方法、手続き、注意点を解説します。",
+    image:
+      "https://images.unsplash.com/photo-1516156008625-3a9d6067fab5?w=800&h=400&fit=crop",
+    category: "申請・手続き",
+    categoryColor: "teal",
+    content: `<h2>転園の仕組み</h2>
+<p>現在認可保育所に通っている場合でも、別の園への転園を申し込むことができます。転園も通常の利用調整と同じく<strong>点数順</strong>で選考されます。</p>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>転園申込は新規入園と同じ利用調整で選考されます。現在在園中であることによる加点はないため、人気園への転園は簡単ではありません。</p>
+</div>
+
+<h2>転園の手続き</h2>
+
+<div class="step">
+<h3>ステップ1：転園希望の申込</h3>
+<p>区の保健センターに転園の利用申込書を提出します。希望園と希望月を記入します。</p>
+</div>
+
+<div class="step">
+<h3>ステップ2：利用調整</h3>
+<p>新規入園の申込と合わせて利用調整が行われます。空きが出た場合に点数順で内定が決まります。</p>
+</div>
+
+<div class="step">
+<h3>ステップ3：内定・転園</h3>
+<p>内定が出たら、現在の園を退園し、新しい園に入園します。</p>
+</div>
+
+<h2>転園の注意点</h2>
+<ul>
+<li><strong>転園が決まるまで現在の園に在園できる</strong>：転園申込をしても、決まるまでは今の園を退園する必要はありません</li>
+<li><strong>4月入園が最もチャンスが大きい</strong>：年度途中は空きが少ないため、4月の利用調整に合わせて申し込むのがおすすめ</li>
+<li><strong>きょうだいがいる場合</strong>：上の子と同じ園に転園を希望する場合、きょうだい在園加点（+80点）が付きます</li>
+<li><strong>慣らし保育が再度必要</strong>：新しい園でも慣らし保育が必要になる場合があります</li>
+</ul>
+
+<h2>転園を検討するケース</h2>
+<ul>
+<li>引っ越しで通園が困難になった</li>
+<li>きょうだいと別々の園に通っており、同じ園にしたい</li>
+<li>小規模保育を卒園し、3歳からの園を探している</li>
+<li>園の方針や環境が合わない</li>
+</ul>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>転園の手続きについては、お住まいの区の保健センターにお問い合わせください。</p>
+</div>`,
+    publishedAt: "2026-04-07",
+    popularity: 40,
+  },
 ];
 
 registerArticles(articles);
