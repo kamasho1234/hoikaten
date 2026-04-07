@@ -10,35 +10,29 @@ import "@/lib/articles/kawasaki";
 import "@/lib/articles/nagoya";
 import "@/lib/articles/saitama";
 import "@/lib/articles/sapporo";
-import "@/lib/articles/kobe";
+import "@/lib/articles/sendai";
 import "@/lib/articles/fukuoka";
 import "@/lib/articles/hiroshima";
-import "@/lib/articles/sendai";
+import "@/lib/articles/kobe";
 import "@/lib/articles/kyoto";
 import "@/lib/articles/kitakyushu";
 import "@/lib/articles/hamamatsu";
-import "@/lib/articles/adachi";
-import "@/lib/articles/suginami";
-import "@/lib/articles/itabashi";
-import "@/lib/articles/nerima";
-import "@/lib/articles/ota";
-import "@/lib/articles/edogawa";
 import "@/lib/articles/sakai";
 import "@/lib/articles/niigata";
 import "@/lib/articles/sagamihara";
+import "@/lib/articles/nerima";
+import "@/lib/articles/ota";
+import "@/lib/articles/edogawa";
+import "@/lib/articles/adachi";
+import "@/lib/articles/suginami";
+import "@/lib/articles/itabashi";
 import "@/lib/articles/nakano";
 import "@/lib/articles/toshima";
 import "@/lib/articles/kita";
 import "@/lib/articles/arakawa";
 import "@/lib/articles/shinagawa";
-import "@/lib/articles/meguro";
-import "@/lib/articles/shibuya";
-import "@/lib/articles/shinjuku";
 import "@/lib/articles/bunkyo";
 import "@/lib/articles/taito";
-import "@/lib/articles/sumida";
-import "@/lib/articles/katsushika";
-import "@/lib/articles/minato";
 import "@/lib/articles/chuo";
 import "@/lib/articles/chiyoda";
 import "@/lib/articles/koto";
@@ -104,8 +98,72 @@ import "@/lib/articles/sasebo";
 import "@/lib/articles/tottori";
 import "@/lib/articles/kurume";
 import "@/lib/articles/miyazaki";
+import "@/lib/articles/ome";
+import "@/lib/articles/koganei";
+import "@/lib/articles/kokubunji";
+import "@/lib/articles/tama";
 import "@/lib/articles/kodaira";
 import "@/lib/articles/higashimurayama";
+import "@/lib/articles/nishitokyo";
+import "@/lib/articles/mitaka";
+import "@/lib/articles/hino";
+import "@/lib/articles/musashino";
+import "@/lib/articles/hiratsuka";
+import "@/lib/articles/chigasaki";
+import "@/lib/articles/yamato";
+import "@/lib/articles/atsugi";
+import "@/lib/articles/odawara";
+import "@/lib/articles/kamakura";
+import "@/lib/articles/hadano";
+import "@/lib/articles/ebina";
+import "@/lib/articles/tokorozawa";
+import "@/lib/articles/soka";
+import "@/lib/articles/kasukabe";
+import "@/lib/articles/ageo";
+import "@/lib/articles/kumagaya";
+import "@/lib/articles/niiza";
+import "@/lib/articles/sayama";
+import "@/lib/articles/misato";
+import "@/lib/articles/ibaraki";
+import "@/lib/articles/yao";
+import "@/lib/articles/neyagawa";
+import "@/lib/articles/kishiwada";
+import "@/lib/articles/moriguchi";
+import "@/lib/articles/minoh";
+import "@/lib/articles/kadoma";
+import "@/lib/articles/ikeda";
+import "@/lib/articles/tokushima";
+import "@/lib/articles/yamaguchi";
+import "@/lib/articles/saga";
+import "@/lib/articles/tsu";
+import "@/lib/articles/kofu";
+import "@/lib/articles/matsumoto";
+import "@/lib/articles/yokkaichi";
+import "@/lib/articles/kusatsu";
+import "@/lib/articles/ichikawa";
+import "@/lib/articles/matsudo";
+import "@/lib/articles/ichihara";
+import "@/lib/articles/yachiyo";
+import "@/lib/articles/nagareyama";
+import "@/lib/articles/urayasu";
+import "@/lib/articles/narashino";
+import "@/lib/articles/noda";
+import "@/lib/articles/kakogawa";
+import "@/lib/articles/takarazuka";
+import "@/lib/articles/itami";
+import "@/lib/articles/kawanishi";
+import "@/lib/articles/kasugai";
+import "@/lib/articles/anjo";
+import "@/lib/articles/kariya";
+import "@/lib/articles/toyokawa";
+import "@/lib/articles/omuta";
+import "@/lib/articles/kasuga";
+import "@/lib/articles/tomakomai";
+import "@/lib/articles/obihiro";
+import "@/lib/articles/kushiro";
+import "@/lib/articles/ebetsu";
+import "@/lib/articles/uji";
+import "@/lib/articles/higashihiroshima";
 import "@/lib/articles/chiba";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -114,14 +172,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://hoikaten.com";
 
   const cityPages = municipalities.map((m) => ({
-    url: `https://${m.slug}.hoikaten.com`,
+    url: `${baseUrl}/${m.slug}`,
     lastModified: new Date(),
     changeFrequency: "monthly" as const,
     priority: 0.9,
   }));
 
+  const articleListPages = municipalities.map((m) => ({
+    url: `${baseUrl}/${m.slug}/articles`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
   const articlePages = articles.map((a) => ({
-    url: `https://${a.citySlug}.hoikaten.com/${a.citySlug}/articles/${a.slug}`,
+    url: `${baseUrl}/${a.citySlug}/articles/${a.slug}`,
     lastModified: new Date(a.publishedAt),
     changeFrequency: "monthly" as const,
     priority: 0.7,
@@ -141,6 +206,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     ...cityPages,
+    ...articleListPages,
     ...articlePages,
   ];
 }
