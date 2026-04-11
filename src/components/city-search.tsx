@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
+import { kanaMap } from "@/lib/kana-map";
 
 interface Municipality {
   name: string;
@@ -27,16 +28,21 @@ export function CitySearch({
     return () => document.removeEventListener("mousedown", handleClick);
   }, []);
 
-  const filtered = query.trim()
-    ? municipalities.filter(
-        (m) =>
-          m.name.includes(query) ||
-          m.prefecture.includes(query) ||
-          m.slug.includes(query.toLowerCase())
-      )
+  const q = query.trim();
+
+  const filtered = q.length > 0
+    ? municipalities.filter((m) => {
+        const reading = kanaMap[m.name] ?? "";
+        return (
+          m.name.includes(q) ||
+          m.prefecture.includes(q) ||
+          m.slug.includes(q.toLowerCase()) ||
+          reading.includes(q)
+        );
+      })
     : [];
 
-  const showResults = focused && query.trim().length > 0;
+  const showResults = focused && q.length > 0;
 
   return (
     <div className="relative w-full max-w-md mx-auto" ref={ref}>
@@ -56,13 +62,13 @@ export function CitySearch({
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           onFocus={() => setFocused(true)}
-          placeholder="市区町村名で検索（例: 世田谷区）"
+          placeholder="市区町村名で検索（例: せたがや）"
           className="w-full pl-11 pr-4 py-3 rounded-xl border border-border/60 bg-card text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary/50 transition-all"
         />
       </div>
 
       {showResults && (
-        <div className="absolute top-full mt-2 w-full bg-card border border-border/60 rounded-xl shadow-lg z-50 overflow-hidden">
+        <div className="absolute top-full mt-2 w-full bg-card border border-border/60 rounded-xl shadow-lg z-50 overflow-hidden max-h-72 overflow-y-auto">
           {filtered.length === 0 ? (
             <div className="p-4 text-sm text-muted-foreground text-center">
               該当する自治体が見つかりません

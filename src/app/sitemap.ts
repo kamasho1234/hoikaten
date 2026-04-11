@@ -166,10 +166,27 @@ import "@/lib/articles/uji";
 import "@/lib/articles/higashihiroshima";
 import "@/lib/articles/chiba";
 
+const prefectureSlugs = [
+  "hokkaido", "aomori", "iwate", "miyagi", "akita", "yamagata", "fukushima",
+  "ibaraki", "tochigi", "gunma", "saitama", "chiba", "tokyo", "kanagawa",
+  "niigata", "toyama", "ishikawa", "fukui", "yamanashi", "nagano",
+  "gifu", "shizuoka", "aichi", "mie", "shiga", "kyoto", "osaka", "hyogo",
+  "nara", "wakayama", "tottori", "shimane", "okayama", "hiroshima", "yamaguchi",
+  "tokushima", "kagawa", "ehime", "kochi", "fukuoka", "saga", "nagasaki",
+  "kumamoto", "oita", "miyazaki", "kagoshima", "okinawa",
+];
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const municipalities = getAllMunicipalities();
   const articles = getAllArticles();
   const baseUrl = "https://hoikaten.com";
+
+  const prefecturePages = prefectureSlugs.map((slug) => ({
+    url: `${baseUrl}/prefecture/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
+  }));
 
   const cityPages = municipalities.map((m) => ({
     url: `${baseUrl}/${m.slug}`,
@@ -205,6 +222,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly" as const,
       priority: 0.8,
     },
+    ...prefecturePages,
     ...cityPages,
     ...articleListPages,
     ...articlePages,

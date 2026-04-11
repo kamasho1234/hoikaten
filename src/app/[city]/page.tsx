@@ -1,5 +1,6 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { getMunicipalityData } from "@/lib/data";
+import { getMunicipalityData, getAllMunicipalities } from "@/lib/data";
 import { getArticlesByCity } from "@/lib/articles";
 import { SimulatorForm } from "./simulator-form";
 import {
@@ -8,6 +9,26 @@ import {
   CardTitle,
   CardDescription,
 } from "@/components/ui/card";
+
+export function generateStaticParams() {
+  return getAllMunicipalities().map((m) => ({ city: m.slug }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ city: string }>;
+}): Promise<Metadata> {
+  const { city } = await params;
+  const data = getMunicipalityData(city);
+  if (!data) return {};
+
+  const name = data.municipality.name;
+  return {
+    title: `${name}の保育園 入園点数シミュレーター｜無料で自動計算【hoikaten】`,
+    description: `${name}の保育園入園点数を無料でシミュレーション。かんたんな質問に答えるだけで点数の目安と評価がわかります。令和7〜8年度の公式基準で計算。`,
+  };
+}
 
 export default async function CityPage({
   params,
