@@ -1,5 +1,6 @@
 import { getAllMunicipalities } from "@/lib/data";
 import { getTopArticles } from "@/lib/articles";
+import { RandomAd } from "@/components/random-ad";
 
 export default function Home() {
   const municipalities = getAllMunicipalities();
@@ -159,30 +160,6 @@ export default function Home() {
           </p>
         </div>
 
-        {/* 対応地域 */}
-        <div className="text-center mb-3">
-          <p
-            className="text-sm font-bold"
-            style={{ fontFamily: "var(--font-heading)" }}
-          >
-            対応地域
-          </p>
-        </div>
-        <div className="flex flex-wrap justify-center gap-2 mb-2">
-          {municipalities.map((m) => (
-            <a
-              key={m.slug}
-              href={`https://${m.slug}.hoikaten.com`}
-              className="px-3 py-1.5 text-sm rounded-full border border-border/60 bg-card hover:border-primary/40 hover:text-primary hover:shadow-sm transition-all"
-            >
-              {m.name}
-            </a>
-          ))}
-        </div>
-        <p className="text-center text-[11px] text-muted-foreground mb-10">
-          続々追加中
-        </p>
-
         {/* 最終CTA */}
         <div className="text-center mb-12">
           <a
@@ -195,6 +172,8 @@ export default function Home() {
             </svg>
           </a>
         </div>
+
+        <RandomAd />
 
         {/* 記事一覧 */}
         {articles.length > 0 && (

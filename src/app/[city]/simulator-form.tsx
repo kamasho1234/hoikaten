@@ -17,6 +17,7 @@ import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
+import { RandomAd } from "@/components/random-ad";
 
 type Step = "parent1" | "parent2" | "adjustment" | "result";
 
@@ -866,6 +867,8 @@ export function SimulatorForm({ data }: { data: MunicipalityData }) {
         </Card>
       )}
 
+      <RandomAd />
+
       {/* Result */}
       {step === "result" && result && (
         <div className="space-y-4">
@@ -990,6 +993,8 @@ export function SimulatorForm({ data }: { data: MunicipalityData }) {
               くわしくは{data.municipality.name}の窓口で確認してくださいね。
             </p>
           </div>
+
+          <RandomAd />
 
           {/* SNS共有 */}
           <ShareButtons

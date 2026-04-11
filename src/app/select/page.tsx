@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { getAllMunicipalities } from "@/lib/data";
 import { CitySearch } from "@/components/city-search";
+import { RandomAd } from "@/components/random-ad";
 
 export const metadata: Metadata = {
   title: "地域を選択｜保育園 点数シミュレーター【hoikaten】",
@@ -54,6 +55,8 @@ export default function SelectPage() {
       <p className="text-center text-[11px] text-muted-foreground mt-3">
         続々追加中
       </p>
+
+      <RandomAd />
     </div>
   );
 }

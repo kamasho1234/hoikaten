@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "nodejs";
-export const size = { width: 32, height: 32 };
+export const size = { width: 48, height: 48 };
 export const contentType = "image/png";
 
 export default function Icon() {
@@ -15,12 +15,12 @@ export default function Icon() {
           alignItems: "center",
           justifyContent: "center",
           background: "linear-gradient(135deg, #E8614D 0%, #D4483A 100%)",
-          borderRadius: "6px",
+          borderRadius: "8px",
         }}
       >
         <svg
-          width="22"
-          height="22"
+          width="30"
+          height="30"
           viewBox="0 0 24 24"
           fill="none"
         >
