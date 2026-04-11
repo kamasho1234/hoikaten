@@ -3,6 +3,7 @@ import { Noto_Sans_JP, Zen_Maru_Gothic } from "next/font/google";
 import "./globals.css";
 
 // 記事データの登録（副作用import）
+import "@/lib/articles/general";
 import "@/lib/articles/setagaya";
 import "@/lib/articles/yokohama";
 import "@/lib/articles/osaka";

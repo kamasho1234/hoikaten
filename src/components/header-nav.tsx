@@ -50,24 +50,31 @@ export function HeaderNav({
   );
 
   return (
-    <div className="relative" ref={ref}>
-      <button
-        onClick={() => setOpen(!open)}
-        className="text-sm text-muted-foreground hover:text-primary px-3 py-1.5 rounded-lg hover:bg-primary/5 transition-colors flex items-center gap-1"
+    <div className="flex items-center gap-3">
+      <a
+        href="/articles"
+        className="text-sm text-muted-foreground hover:text-primary px-3 py-1.5 rounded-lg hover:bg-primary/5 transition-colors"
       >
-        地域をえらぶ
-        <svg
-          width="12"
-          height="12"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2"
-          className={`transition-transform ${open ? "rotate-180" : ""}`}
+        保活コラム
+      </a>
+      <div className="relative" ref={ref}>
+        <button
+          onClick={() => setOpen(!open)}
+          className="text-sm text-muted-foreground hover:text-primary px-3 py-1.5 rounded-lg hover:bg-primary/5 transition-colors flex items-center gap-1"
         >
-          <path d="M6 9l6 6 6-6" />
-        </svg>
-      </button>
+          地域をえらぶ
+          <svg
+            width="12"
+            height="12"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            className={`transition-transform ${open ? "rotate-180" : ""}`}
+          >
+            <path d="M6 9l6 6 6-6" />
+          </svg>
+        </button>
 
       {open && (
         <div className="absolute right-0 top-full mt-2 w-72 bg-card border border-border/60 rounded-xl shadow-lg z-50 max-h-[70vh] overflow-y-auto">
@@ -95,6 +102,7 @@ export function HeaderNav({
           </div>
         </div>
       )}
+      </div>
     </div>
   );
 }

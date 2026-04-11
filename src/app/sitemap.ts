@@ -3,6 +3,7 @@ import { getAllMunicipalities } from "@/lib/data";
 import { getAllArticles } from "@/lib/articles";
 
 // 記事データの登録（sitemapはlayout.tsxとは別に実行されるため直接import）
+import "@/lib/articles/general";
 import "@/lib/articles/setagaya";
 import "@/lib/articles/yokohama";
 import "@/lib/articles/osaka";
@@ -209,6 +210,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
+  const generalArticles = articles.filter((a) => a.citySlug === "general");
+  const generalArticlePages = generalArticles.map((a) => ({
+    url: `${baseUrl}/articles/${a.slug}`,
+    lastModified: new Date(a.publishedAt),
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
   return [
     {
       url: baseUrl,
@@ -222,9 +231,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly" as const,
       priority: 0.8,
     },
+    {
+      url: `${baseUrl}/articles`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    },
     ...prefecturePages,
     ...cityPages,
     ...articleListPages,
     ...articlePages,
+    ...generalArticlePages,
   ];
 }
