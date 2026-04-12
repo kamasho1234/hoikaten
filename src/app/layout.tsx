@@ -166,6 +166,9 @@ import "@/lib/articles/ebetsu";
 import "@/lib/articles/uji";
 import "@/lib/articles/higashihiroshima";
 import "@/lib/articles/chiba";
+import "@/lib/articles/chofu";
+import "@/lib/articles/fuchu";
+import "@/lib/articles/tachikawa";
 
 import { getAllMunicipalities } from "@/lib/data";
 import { HeaderNav } from "@/components/header-nav";
@@ -187,7 +190,7 @@ const zenMaru = Zen_Maru_Gothic({
 export const metadata: Metadata = {
   title: "保育園 点数シミュレーター｜入園点数を無料で自動計算【hoikaten】",
   description:
-    "保育園の入園点数を無料でシミュレーション（シュミレーション）。お住まいの地域を選んで5つの質問に答えるだけで、点数の目安と「有利か厳しいか」の評価がわかります。東京23区・政令指定都市など168自治体対応。",
+    "保育園の入園点数を無料でシミュレーション（シュミレーション）。お住まいの地域を選んで5つの質問に答えるだけで、点数の目安と「有利か厳しいか」の評価がわかります。東京23区・政令指定都市など176自治体対応。",
   metadataBase: new URL("https://hoikaten.com"),
   openGraph: {
     type: "website",
