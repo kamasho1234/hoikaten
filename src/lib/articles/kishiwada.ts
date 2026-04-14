@@ -70,7 +70,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.kishiwada.osaka.jp/soshiki/36/" target="_blank" rel="noopener">岸和田市公式サイト「子育て応援部」</a>をご確認ください。</p>
+<p>詳しくは<a href="https://www.city.kishiwada.lg.jp/page/35-hoikusyogaiyou.html" target="_blank" rel="noopener">岸和田市公式サイト「子育て応援部」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 55,
@@ -126,7 +126,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新の基準は<a href="https://www.city.kishiwada.osaka.jp/soshiki/36/" target="_blank" rel="noopener">岸和田市子育て応援部</a>をご確認ください。</p>
+<p>最新の基準は<a href="https://www.city.kishiwada.lg.jp/page/35-hoikusyogaiyou.html" target="_blank" rel="noopener">岸和田市子育て応援部</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 90,
@@ -167,7 +167,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.kishiwada.osaka.jp/soshiki/36/" target="_blank" rel="noopener">岸和田市子育て応援部</a>をご確認ください。</p>
+<p>詳しくは<a href="https://www.city.kishiwada.lg.jp/page/35-hoikusyogaiyou.html" target="_blank" rel="noopener">岸和田市子育て応援部</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 80,
@@ -276,7 +276,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>岸和田市の小規模保育事業所一覧は<a href="https://www.city.kishiwada.osaka.jp/soshiki/36/" target="_blank" rel="noopener">岸和田市子育て応援部</a>をご確認ください。</p>
+<p>岸和田市の小規模保育事業所一覧は<a href="https://www.city.kishiwada.lg.jp/page/35-hoikusyogaiyou.html" target="_blank" rel="noopener">岸和田市子育て応援部</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 60,
@@ -336,7 +336,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.kishiwada.osaka.jp/soshiki/36/" target="_blank" rel="noopener">岸和田市子育て応援部</a>をご確認ください。</p>
+<p>詳しくは<a href="https://www.city.kishiwada.lg.jp/page/35-hoikusyogaiyou.html" target="_blank" rel="noopener">岸和田市子育て応援部</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 70,
@@ -472,7 +472,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新の必要書類は<a href="https://www.city.kishiwada.osaka.jp/soshiki/36/" target="_blank" rel="noopener">岸和田市子育て応援部</a>をご確認ください。</p>
+<p>最新の必要書類は<a href="https://www.city.kishiwada.lg.jp/page/35-hoikusyogaiyou.html" target="_blank" rel="noopener">岸和田市子育て応援部</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 45,

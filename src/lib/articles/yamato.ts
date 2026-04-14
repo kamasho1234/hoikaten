@@ -51,7 +51,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/hoiku/index.html" target="_blank" rel="noopener">大和市こども部ほいく課</a>をご確認ください。</p>
+<p>詳しくは<a href="https://www.city.yamato.lg.jp/section/ehon_no_machi/purpose/O/O_menu.html" target="_blank" rel="noopener">大和市こども部ほいく課</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 55,
@@ -101,7 +101,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>全項目は<a href="https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/hoiku/index.html" target="_blank" rel="noopener">大和市こども部ほいく課</a>で確認できます。</p>
+<p>全項目は<a href="https://www.city.yamato.lg.jp/section/ehon_no_machi/purpose/O/O_menu.html" target="_blank" rel="noopener">大和市こども部ほいく課</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 65,
@@ -218,7 +218,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>認可外保育施設の一覧は<a href="https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/hoiku/index.html" target="_blank" rel="noopener">大和市こども部ほいく課</a>で確認できます。</p>
+<p>認可外保育施設の一覧は<a href="https://www.city.yamato.lg.jp/section/ehon_no_machi/purpose/O/O_menu.html" target="_blank" rel="noopener">大和市こども部ほいく課</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 40,
@@ -249,7 +249,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>対象施設については<a href="https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/hoiku/index.html" target="_blank" rel="noopener">大和市こども部ほいく課</a>にお問い合わせください。</p>
+<p>対象施設については<a href="https://www.city.yamato.lg.jp/section/ehon_no_machi/purpose/O/O_menu.html" target="_blank" rel="noopener">大和市こども部ほいく課</a>にお問い合わせください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 55,
@@ -281,7 +281,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新の情報は<a href="https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/hoiku/index.html" target="_blank" rel="noopener">大和市こども部ほいく課</a>で確認できます。</p>
+<p>最新の情報は<a href="https://www.city.yamato.lg.jp/section/ehon_no_machi/purpose/O/O_menu.html" target="_blank" rel="noopener">大和市こども部ほいく課</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 35,

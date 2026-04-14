@@ -528,7 +528,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>ひとり親家庭向けの支援については<a href="https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/hitorioya/index.html" target="_blank" rel="noopener">新潟市公式サイト「ひとり親家庭への支援」</a>をご確認ください。</p>
+<p>ひとり親家庭向けの支援については<a href="https://www.city.niigata.lg.jp/kosodate/ninshin/shien/hitorioya/index.html" target="_blank" rel="noopener">新潟市公式サイト「ひとり親家庭への支援」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 60,
@@ -1191,7 +1191,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/musyouka.html" target="_blank" rel="noopener">新潟市公式サイト「幼児教育・保育の無償化」</a>をご確認ください。</p>
+<p>詳しくは<a href="https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/ninnkahoikushisetsu/hoikuitiran.html" target="_blank" rel="noopener">新潟市公式サイト「幼児教育・保育の無償化」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 55,

@@ -283,7 +283,7 @@ const articles: Article[] = [
 <p>なお、認可外に月ぎめで預けた実績があると、翌年度の認可園申請で調整指数<span class="highlight">+2点</span>の加点がつきます。</p>
 
 <h2>選択肢3：毎月の空き状況を確認する</h2>
-<p>4月以降も毎月の入所受付が行われています。転勤などで空きが出ることがあるため、<a href="https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ninka/1053441/1053443.html" target="_blank" rel="noopener">板橋区の空き状況一覧</a>を定期的に確認しましょう。</p>
+<p>4月以降も毎月の入所受付が行われています。転勤などで空きが出ることがあるため、<a href="https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ninka/1058692/index.html" target="_blank" rel="noopener">板橋区の空き状況一覧</a>を定期的に確認しましょう。</p>
 
 <h2>選択肢4：育休を延長する</h2>
 <p>不承諾通知は育休延長の根拠書類になります。会社に相談して育休を延長し、翌年度に再チャレンジする方法もあります。</p>

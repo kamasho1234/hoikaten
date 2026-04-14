@@ -61,7 +61,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新情報は<a href="https://www.city.takarazuka.hyogo.jp/kosodate/hoikuen/" target="_blank" rel="noopener">宝塚市公式サイト「保育所（園）」</a>をご確認ください。</p>
+<p>最新情報は<a href="https://www.city.takarazuka.hyogo.jp/kyoiku/gakkoshisetsu/1000105/index.html" target="_blank" rel="noopener">宝塚市公式サイト「保育所（園）」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 55,
@@ -116,7 +116,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳細な点数表は<a href="https://www.city.takarazuka.hyogo.jp/kosodate/hoikuen/" target="_blank" rel="noopener">宝塚市公式サイト</a>でダウンロードできる利用調整基準表をご確認ください。</p>
+<p>詳細な点数表は<a href="https://www.city.takarazuka.hyogo.jp/kyoiku/gakkoshisetsu/1000105/index.html" target="_blank" rel="noopener">宝塚市公式サイト</a>でダウンロードできる利用調整基準表をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 58,
@@ -202,7 +202,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>利用調整基準の詳細は<a href="https://www.city.takarazuka.hyogo.jp/kosodate/hoikuen/" target="_blank" rel="noopener">宝塚市公式サイト</a>をご確認ください。</p>
+<p>利用調整基準の詳細は<a href="https://www.city.takarazuka.hyogo.jp/kyoiku/gakkoshisetsu/1000105/index.html" target="_blank" rel="noopener">宝塚市公式サイト</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 100,
@@ -287,7 +287,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>認可外保育施設の一覧は<a href="https://www.city.takarazuka.hyogo.jp/kosodate/hoikuen/" target="_blank" rel="noopener">宝塚市公式サイト</a>でご確認ください。</p>
+<p>認可外保育施設の一覧は<a href="https://www.city.takarazuka.hyogo.jp/kyoiku/gakkoshisetsu/1000105/index.html" target="_blank" rel="noopener">宝塚市公式サイト</a>でご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 75,
@@ -492,7 +492,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>空き状況や途中入園の手続きは<a href="https://www.city.takarazuka.hyogo.jp/kosodate/hoikuen/" target="_blank" rel="noopener">宝塚市公式サイト</a>をご確認ください。</p>
+<p>空き状況や途中入園の手続きは<a href="https://www.city.takarazuka.hyogo.jp/kyoiku/gakkoshisetsu/1000105/index.html" target="_blank" rel="noopener">宝塚市公式サイト</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 50,

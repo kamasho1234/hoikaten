@@ -51,7 +51,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.ome.tokyo.jp/soshiki/19/48596.html" target="_blank" rel="noopener">青梅市公式サイト 保育園入園案内</a>をご確認ください。</p>
+<p>詳しくは<a href="https://www.city.ome.tokyo.jp/soshiki/33/44.html" target="_blank" rel="noopener">青梅市公式サイト 保育園入園案内</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 60,
@@ -98,7 +98,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>全項目は<a href="https://www.city.ome.tokyo.jp/soshiki/19/48596.html" target="_blank" rel="noopener">青梅市公式サイト 保育園入園案内</a>で確認できます。</p>
+<p>全項目は<a href="https://www.city.ome.tokyo.jp/soshiki/33/44.html" target="_blank" rel="noopener">青梅市公式サイト 保育園入園案内</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 55,
@@ -229,7 +229,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>二次募集の情報は<a href="https://www.city.ome.tokyo.jp/soshiki/19/48596.html" target="_blank" rel="noopener">青梅市公式サイト</a>で随時更新されます。</p>
+<p>二次募集の情報は<a href="https://www.city.ome.tokyo.jp/soshiki/33/44.html" target="_blank" rel="noopener">青梅市公式サイト</a>で随時更新されます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 35,
@@ -263,7 +263,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>認可外保育施設の一覧は<a href="https://www.city.ome.tokyo.jp/soshiki/19/48596.html" target="_blank" rel="noopener">青梅市公式サイト</a>で確認できます。</p>
+<p>認可外保育施設の一覧は<a href="https://www.city.ome.tokyo.jp/soshiki/33/44.html" target="_blank" rel="noopener">青梅市公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 40,
@@ -299,7 +299,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>保育園の一覧と空き状況は<a href="https://www.city.ome.tokyo.jp/soshiki/19/48596.html" target="_blank" rel="noopener">青梅市公式サイト</a>で確認できます。</p>
+<p>保育園の一覧と空き状況は<a href="https://www.city.ome.tokyo.jp/soshiki/33/44.html" target="_blank" rel="noopener">青梅市公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 45,
@@ -334,7 +334,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新の募集状況は<a href="https://www.city.ome.tokyo.jp/soshiki/19/48596.html" target="_blank" rel="noopener">青梅市公式サイト</a>で確認できます。</p>
+<p>最新の募集状況は<a href="https://www.city.ome.tokyo.jp/soshiki/33/44.html" target="_blank" rel="noopener">青梅市公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 50,
@@ -368,7 +368,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新の保育園情報は<a href="https://www.city.ome.tokyo.jp/soshiki/19/48596.html" target="_blank" rel="noopener">青梅市公式サイト 保育園入園案内</a>で確認できます。</p>
+<p>最新の保育園情報は<a href="https://www.city.ome.tokyo.jp/soshiki/33/44.html" target="_blank" rel="noopener">青梅市公式サイト 保育園入園案内</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 30,

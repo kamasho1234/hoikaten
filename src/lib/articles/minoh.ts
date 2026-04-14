@@ -51,7 +51,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.minoh.lg.jp/kodomo/hoiku/index.html" target="_blank" rel="noopener">箕面市公式サイト</a>をご確認ください。</p>
+<p>詳しくは<a href="https://www.city.minoh.lg.jp/infancy/hoikusho/itirann.html" target="_blank" rel="noopener">箕面市公式サイト</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 55,
@@ -105,7 +105,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>全項目は<a href="https://www.city.minoh.lg.jp/kodomo/hoiku/index.html" target="_blank" rel="noopener">箕面市公式サイト「保育施設等の利用申込」</a>の利用調整基準表で確認できます。</p>
+<p>全項目は<a href="https://www.city.minoh.lg.jp/infancy/hoikusho/itirann.html" target="_blank" rel="noopener">箕面市公式サイト「保育施設等の利用申込」</a>の利用調整基準表で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 60,
@@ -192,7 +192,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>保育施設の一覧と空き状況は<a href="https://www.city.minoh.lg.jp/kodomo/hoiku/index.html" target="_blank" rel="noopener">箕面市公式サイト</a>で確認できます。</p>
+<p>保育施設の一覧と空き状況は<a href="https://www.city.minoh.lg.jp/infancy/hoikusho/itirann.html" target="_blank" rel="noopener">箕面市公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 52,
@@ -273,7 +273,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>育児休業加点の詳細は<a href="https://www.city.minoh.lg.jp/kodomo/hoiku/index.html" target="_blank" rel="noopener">箕面市公式サイト</a>の申込案内をご確認ください。</p>
+<p>育児休業加点の詳細は<a href="https://www.city.minoh.lg.jp/infancy/hoikusho/itirann.html" target="_blank" rel="noopener">箕面市公式サイト</a>の申込案内をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 50,
@@ -349,7 +349,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>保育料の詳細は<a href="https://www.city.minoh.lg.jp/kodomo/hoiku/index.html" target="_blank" rel="noopener">箕面市公式サイト</a>をご確認ください。</p>
+<p>保育料の詳細は<a href="https://www.city.minoh.lg.jp/infancy/hoikusho/itirann.html" target="_blank" rel="noopener">箕面市公式サイト</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 38,
@@ -403,7 +403,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新の空き状況は<a href="https://www.city.minoh.lg.jp/kodomo/hoiku/index.html" target="_blank" rel="noopener">箕面市公式サイト</a>で確認できます。</p>
+<p>最新の空き状況は<a href="https://www.city.minoh.lg.jp/infancy/hoikusho/itirann.html" target="_blank" rel="noopener">箕面市公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 46,
@@ -443,7 +443,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>箕面市の保育施設一覧は<a href="https://www.city.minoh.lg.jp/kodomo/hoiku/index.html" target="_blank" rel="noopener">箕面市公式サイト</a>に掲載されています。</p>
+<p>箕面市の保育施設一覧は<a href="https://www.city.minoh.lg.jp/infancy/hoikusho/itirann.html" target="_blank" rel="noopener">箕面市公式サイト</a>に掲載されています。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 40,

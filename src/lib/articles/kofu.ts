@@ -50,7 +50,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新情報は<a href="https://www.city.kofu.yamanashi.jp/kosodate/" target="_blank" rel="noopener">甲府市公式サイト 子育て・教育</a>をご確認ください。</p>
+<p>最新情報は<a href="https://www.city.kofu.yamanashi.jp/shisetsu/hoiku/index.html" target="_blank" rel="noopener">甲府市公式サイト 子育て・教育</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 55,
@@ -108,7 +108,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳細な指数表は<a href="https://www.city.kofu.yamanashi.jp/kosodate/" target="_blank" rel="noopener">甲府市公式サイト 子育て・教育</a>からダウンロードできます。</p>
+<p>詳細な指数表は<a href="https://www.city.kofu.yamanashi.jp/shisetsu/hoiku/index.html" target="_blank" rel="noopener">甲府市公式サイト 子育て・教育</a>からダウンロードできます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 60,
@@ -150,7 +150,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>甲府市の入園選考の詳細は<a href="https://www.city.kofu.yamanashi.jp/kosodate/" target="_blank" rel="noopener">甲府市公式サイト 子育て・教育</a>をご確認ください。</p>
+<p>甲府市の入園選考の詳細は<a href="https://www.city.kofu.yamanashi.jp/shisetsu/hoiku/index.html" target="_blank" rel="noopener">甲府市公式サイト 子育て・教育</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 50,
@@ -195,7 +195,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>甲府市内の保育施設一覧は<a href="https://www.city.kofu.yamanashi.jp/kosodate/" target="_blank" rel="noopener">甲府市公式サイト 子育て・教育</a>で確認できます。</p>
+<p>甲府市内の保育施設一覧は<a href="https://www.city.kofu.yamanashi.jp/shisetsu/hoiku/index.html" target="_blank" rel="noopener">甲府市公式サイト 子育て・教育</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 45,
@@ -248,7 +248,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>甲府市内の保育施設一覧は<a href="https://www.city.kofu.yamanashi.jp/kosodate/" target="_blank" rel="noopener">甲府市公式サイト 子育て・教育</a>で確認できます。</p>
+<p>甲府市内の保育施設一覧は<a href="https://www.city.kofu.yamanashi.jp/shisetsu/hoiku/index.html" target="_blank" rel="noopener">甲府市公式サイト 子育て・教育</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 40,
@@ -334,7 +334,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>甲府市内の保育施設一覧は<a href="https://www.city.kofu.yamanashi.jp/kosodate/" target="_blank" rel="noopener">甲府市公式サイト 子育て・教育</a>で確認できます。</p>
+<p>甲府市内の保育施設一覧は<a href="https://www.city.kofu.yamanashi.jp/shisetsu/hoiku/index.html" target="_blank" rel="noopener">甲府市公式サイト 子育て・教育</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 35,
@@ -372,7 +372,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>甲府市の保育料や多子軽減制度の詳細は<a href="https://www.city.kofu.yamanashi.jp/kosodate/" target="_blank" rel="noopener">甲府市公式サイト 子育て・教育</a>をご確認ください。</p>
+<p>甲府市の保育料や多子軽減制度の詳細は<a href="https://www.city.kofu.yamanashi.jp/shisetsu/hoiku/index.html" target="_blank" rel="noopener">甲府市公式サイト 子育て・教育</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 45,
@@ -412,7 +412,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>保育料の詳細は<a href="https://www.city.kofu.yamanashi.jp/kosodate/" target="_blank" rel="noopener">甲府市公式サイト 子育て・教育</a>をご確認ください。保育料徴収額基準表が掲載されています。</p>
+<p>保育料の詳細は<a href="https://www.city.kofu.yamanashi.jp/shisetsu/hoiku/index.html" target="_blank" rel="noopener">甲府市公式サイト 子育て・教育</a>をご確認ください。保育料徴収額基準表が掲載されています。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 40,
@@ -457,7 +457,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>甲府市の保育施設の空き状況は<a href="https://www.city.kofu.yamanashi.jp/kosodate/" target="_blank" rel="noopener">甲府市公式サイト 子育て・教育</a>で確認できます。</p>
+<p>甲府市の保育施設の空き状況は<a href="https://www.city.kofu.yamanashi.jp/shisetsu/hoiku/index.html" target="_blank" rel="noopener">甲府市公式サイト 子育て・教育</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 30,

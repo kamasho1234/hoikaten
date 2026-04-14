@@ -51,7 +51,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.hiratsuka.kanagawa.jp/kosodate/page-c_02806.html" target="_blank" rel="noopener">平塚市こども家庭課</a>をご確認ください。</p>
+<p>詳しくは<a href="https://www.city.hiratsuka.kanagawa.jp/kodomo/page82_00017.html" target="_blank" rel="noopener">平塚市こども家庭課</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 60,
@@ -101,7 +101,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>全項目は<a href="https://www.city.hiratsuka.kanagawa.jp/kosodate/page-c_02806.html" target="_blank" rel="noopener">平塚市こども家庭課</a>で確認できます。</p>
+<p>全項目は<a href="https://www.city.hiratsuka.kanagawa.jp/kodomo/page82_00017.html" target="_blank" rel="noopener">平塚市こども家庭課</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 70,
@@ -138,7 +138,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.hiratsuka.kanagawa.jp/kosodate/page-c_02806.html" target="_blank" rel="noopener">平塚市こども家庭課</a>をご確認ください。</p>
+<p>詳しくは<a href="https://www.city.hiratsuka.kanagawa.jp/kodomo/page82_00017.html" target="_blank" rel="noopener">平塚市こども家庭課</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 55,
@@ -216,7 +216,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>書類の様式は<a href="https://www.city.hiratsuka.kanagawa.jp/kosodate/page-c_02806.html" target="_blank" rel="noopener">平塚市こども家庭課</a>のページからダウンロードできます。</p>
+<p>書類の様式は<a href="https://www.city.hiratsuka.kanagawa.jp/kodomo/page82_00017.html" target="_blank" rel="noopener">平塚市こども家庭課</a>のページからダウンロードできます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 50,
@@ -252,7 +252,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>施設の一覧は<a href="https://www.city.hiratsuka.kanagawa.jp/kosodate/page-c_02806.html" target="_blank" rel="noopener">平塚市こども家庭課</a>で確認できます。</p>
+<p>施設の一覧は<a href="https://www.city.hiratsuka.kanagawa.jp/kodomo/page82_00017.html" target="_blank" rel="noopener">平塚市こども家庭課</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 45,
@@ -370,7 +370,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>ひとり親支援については<a href="https://www.city.hiratsuka.kanagawa.jp/kosodate/page-c_02806.html" target="_blank" rel="noopener">平塚市こども家庭課</a>にご相談ください。</p>
+<p>ひとり親支援については<a href="https://www.city.hiratsuka.kanagawa.jp/kodomo/page82_00017.html" target="_blank" rel="noopener">平塚市こども家庭課</a>にご相談ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 40,
@@ -407,7 +407,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新の待機児童数・空き状況は<a href="https://www.city.hiratsuka.kanagawa.jp/kosodate/page-c_02806.html" target="_blank" rel="noopener">平塚市こども家庭課</a>で確認できます。</p>
+<p>最新の待機児童数・空き状況は<a href="https://www.city.hiratsuka.kanagawa.jp/kodomo/page82_00017.html" target="_blank" rel="noopener">平塚市こども家庭課</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 50,

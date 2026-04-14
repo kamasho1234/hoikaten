@@ -51,7 +51,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.ebina.kanagawa.jp/kosodate/hoiku/" target="_blank" rel="noopener">海老名市保育・幼稚園課</a>をご確認ください。</p>
+<p>詳しくは<a href="https://www.city.ebina.kanagawa.jp/guide/kosodate/hoikuen/index.html" target="_blank" rel="noopener">海老名市保育・幼稚園課</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 55,
@@ -101,7 +101,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>全項目は<a href="https://www.city.ebina.kanagawa.jp/kosodate/hoiku/" target="_blank" rel="noopener">海老名市保育・幼稚園課</a>で確認できます。</p>
+<p>全項目は<a href="https://www.city.ebina.kanagawa.jp/guide/kosodate/hoikuen/index.html" target="_blank" rel="noopener">海老名市保育・幼稚園課</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 65,
@@ -229,7 +229,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>二次募集や途中入園の情報は<a href="https://www.city.ebina.kanagawa.jp/kosodate/hoiku/" target="_blank" rel="noopener">海老名市保育・幼稚園課</a>で確認できます。</p>
+<p>二次募集や途中入園の情報は<a href="https://www.city.ebina.kanagawa.jp/guide/kosodate/hoikuen/index.html" target="_blank" rel="noopener">海老名市保育・幼稚園課</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 40,
@@ -289,7 +289,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新の情報は<a href="https://www.city.ebina.kanagawa.jp/kosodate/hoiku/" target="_blank" rel="noopener">海老名市保育・幼稚園課</a>で確認できます。</p>
+<p>最新の情報は<a href="https://www.city.ebina.kanagawa.jp/guide/kosodate/hoikuen/index.html" target="_blank" rel="noopener">海老名市保育・幼稚園課</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 35,

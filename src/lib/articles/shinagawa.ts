@@ -35,7 +35,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/20240726155841.html" target="_blank" rel="noopener">品川区公式サイト「保育園のご案内」</a>をご確認ください。</p>
+<p>詳しくは<a href="https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/index.html" target="_blank" rel="noopener">品川区公式サイト「保育園のご案内」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
     popularity: 100,
@@ -104,7 +104,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/20240726155841.html" target="_blank" rel="noopener">品川区公式サイト「保育園のご案内」</a>をご確認ください。</p>
+<p>詳しくは<a href="https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/index.html" target="_blank" rel="noopener">品川区公式サイト「保育園のご案内」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
     popularity: 90,
@@ -168,7 +168,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/20240726155841.html" target="_blank" rel="noopener">品川区公式サイト「保育園のご案内」</a>をご確認ください。</p>
+<p>詳しくは<a href="https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/index.html" target="_blank" rel="noopener">品川区公式サイト「保育園のご案内」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
     popularity: 85,
@@ -232,7 +232,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/20240726155841.html" target="_blank" rel="noopener">品川区公式サイト「保育園のご案内」</a>をご確認ください。</p>
+<p>詳しくは<a href="https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/index.html" target="_blank" rel="noopener">品川区公式サイト「保育園のご案内」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
     popularity: 80,
@@ -270,7 +270,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/20240726155841.html" target="_blank" rel="noopener">品川区公式サイト「保育園のご案内」</a>をご確認ください。</p>
+<p>詳しくは<a href="https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/index.html" target="_blank" rel="noopener">品川区公式サイト「保育園のご案内」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
     popularity: 75,
@@ -317,7 +317,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新情報は<a href="https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/20240726155841.html" target="_blank" rel="noopener">品川区公式サイト「保育園のご案内」</a>をご確認ください。</p>
+<p>最新情報は<a href="https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/index.html" target="_blank" rel="noopener">品川区公式サイト「保育園のご案内」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
     popularity: 70,
@@ -361,7 +361,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>指数表は<a href="https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/20240726155841.html" target="_blank" rel="noopener">品川区公式サイト「保育園のご案内」</a>で確認できます。</p>
+<p>指数表は<a href="https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/index.html" target="_blank" rel="noopener">品川区公式サイト「保育園のご案内」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-03-28",
     popularity: 65,
@@ -451,7 +451,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新スケジュールは<a href="https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/20240726155841.html" target="_blank" rel="noopener">品川区公式サイト「保育園のご案内」</a>をご確認ください。</p>
+<p>最新スケジュールは<a href="https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/index.html" target="_blank" rel="noopener">品川区公式サイト「保育園のご案内」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
     popularity: 55,

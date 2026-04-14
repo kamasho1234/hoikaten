@@ -574,7 +574,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>ひとり親支援の詳細は<a href="https://www.city.kobe.lg.jp/a65174/kosodate/shien/hitorioya/index.html" target="_blank" rel="noopener">神戸市「ひとり親家庭への支援」</a>をご確認ください。</p>
+<p>ひとり親支援の詳細は<a href="https://www.city.kobe.lg.jp/a65174/kosodate/shien/shinseido/riyomoshikomi/shinsehoho.html" target="_blank" rel="noopener">神戸市「ひとり親家庭への支援」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 50,
@@ -719,7 +719,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新の待機児童数は<a href="https://www.city.kobe.lg.jp/a65174/kosodate/shien/shinseido/taikijido.html" target="_blank" rel="noopener">神戸市「待機児童の状況」</a>で公開されています。</p>
+<p>最新の待機児童数は<a href="https://www.city.kobe.lg.jp/a36812/kosodate/shien/oen/taiki0.html" target="_blank" rel="noopener">神戸市「待機児童の状況」</a>で公開されています。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 55,
@@ -876,7 +876,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>保育料の詳細は<a href="https://www.city.kobe.lg.jp/a65174/kosodate/shien/shinseido/hoikuryo.html" target="_blank" rel="noopener">神戸市「保育料について」</a>をご確認ください。</p>
+<p>保育料の詳細は<a href="https://www.city.kobe.lg.jp/a65174/kosodate/shien/shinseido/riyomoshikomi/riyoshafutangaku.html" target="_blank" rel="noopener">神戸市「保育料について」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 45,
@@ -1358,7 +1358,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>無償化制度の詳細は<a href="https://www.city.kobe.lg.jp/a65174/kosodate/shien/shinseido/mushoka/index.html" target="_blank" rel="noopener">神戸市「幼児教育・保育の無償化」</a>をご確認ください。</p>
+<p>無償化制度の詳細は<a href="https://www.city.kobe.lg.jp/z/kodomokatekyoku/kosodateshien/mushouka.html" target="_blank" rel="noopener">神戸市「幼児教育・保育の無償化」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 45,
@@ -1436,7 +1436,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>正確な保育料表は<a href="https://www.city.kobe.lg.jp/a65174/kosodate/shien/shinseido/hoikuryo.html" target="_blank" rel="noopener">神戸市「保育料について」</a>をご確認ください。上記はあくまで目安であり、正確な金額は年度により変動します。</p>
+<p>正確な保育料表は<a href="https://www.city.kobe.lg.jp/a65174/kosodate/shien/shinseido/riyomoshikomi/riyoshafutangaku.html" target="_blank" rel="noopener">神戸市「保育料について」</a>をご確認ください。上記はあくまで目安であり、正確な金額は年度により変動します。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 40,

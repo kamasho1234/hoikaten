@@ -544,7 +544,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>ひとり親家庭向けの支援については<a href="https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kosodate/1019483/index.html" target="_blank" rel="noopener">相模原市公式サイト「ひとり親家庭への支援」</a>をご確認ください。</p>
+<p>ひとり親家庭向けの支援については<a href="https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kosodate/1026606/hoikuen/index.html" target="_blank" rel="noopener">相模原市公式サイト「ひとり親家庭への支援」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 60,
@@ -1212,7 +1212,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kosodate/1026606/hoikuen/1021422.html" target="_blank" rel="noopener">相模原市公式サイト「幼児教育・保育の無償化」</a>をご確認ください。</p>
+<p>詳しくは<a href="https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kosodate/1026606/hoikuen/1006704.html" target="_blank" rel="noopener">相模原市公式サイト「幼児教育・保育の無償化」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 55,

@@ -39,7 +39,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新のスケジュールは<a href="https://www.city.anjo.aichi.jp/kurasu/kosodate/hoikuen/" target="_blank" rel="noopener">安城市 保育園等入園案内ページ</a>で確認できます。問い合わせ先は子育て健康部保育課です。</p>
+<p>最新のスケジュールは<a href="https://www.city.anjo.aichi.jp/shisei/shisetsu/hoiku/index.html" target="_blank" rel="noopener">安城市 保育園等入園案内ページ</a>で確認できます。問い合わせ先は子育て健康部保育課です。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 55,
@@ -187,7 +187,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>施設の一覧は<a href="https://www.city.anjo.aichi.jp/kurasu/kosodate/hoikuen/" target="_blank" rel="noopener">安城市 保育園等ページ</a>で確認できます。問い合わせ先は子育て健康部保育課です。</p>
+<p>施設の一覧は<a href="https://www.city.anjo.aichi.jp/shisei/shisetsu/hoiku/index.html" target="_blank" rel="noopener">安城市 保育園等ページ</a>で確認できます。問い合わせ先は子育て健康部保育課です。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 40,
@@ -275,7 +275,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.anjo.aichi.jp/kurasu/kosodate/hoikuen/" target="_blank" rel="noopener">安城市の保育園入園案内ページ</a>をご確認ください。問い合わせ先は子育て健康部保育課です。</p>
+<p>詳しくは<a href="https://www.city.anjo.aichi.jp/shisei/shisetsu/hoiku/index.html" target="_blank" rel="noopener">安城市の保育園入園案内ページ</a>をご確認ください。問い合わせ先は子育て健康部保育課です。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 40,
@@ -459,7 +459,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>保育料の詳細な階層区分表は<a href="https://www.city.anjo.aichi.jp/kurasu/kosodate/hoikuen/" target="_blank" rel="noopener">安城市の保育園ページ</a>で確認できます。問い合わせ先は子育て健康部保育課です。</p>
+<p>保育料の詳細な階層区分表は<a href="https://www.city.anjo.aichi.jp/shisei/shisetsu/hoiku/index.html" target="_blank" rel="noopener">安城市の保育園ページ</a>で確認できます。問い合わせ先は子育て健康部保育課です。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 50,

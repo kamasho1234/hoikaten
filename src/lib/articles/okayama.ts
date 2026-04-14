@@ -51,7 +51,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.okayama.jp/kurashi/category/7-5-1-0-0-0-0-0-0-0.html" target="_blank" rel="noopener">岡山市公式サイト</a>をご確認ください。</p>
+<p>詳しくは<a href="https://www.city.okayama.jp/kurashi/0000012549.html" target="_blank" rel="noopener">岡山市公式サイト</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
     popularity: 55,
@@ -98,7 +98,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>全項目は<a href="https://www.city.okayama.jp/kurashi/category/7-5-1-0-0-0-0-0-0-0.html" target="_blank" rel="noopener">岡山市公式サイト</a>で確認できます。</p>
+<p>全項目は<a href="https://www.city.okayama.jp/kurashi/0000012549.html" target="_blank" rel="noopener">岡山市公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-03-28",
     popularity: 65,
@@ -247,7 +247,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>空き状況は<a href="https://www.city.okayama.jp/kurashi/category/7-5-1-0-0-0-0-0-0-0.html" target="_blank" rel="noopener">岡山市公式サイト</a>で確認できます。</p>
+<p>空き状況は<a href="https://www.city.okayama.jp/kurashi/0000012549.html" target="_blank" rel="noopener">岡山市公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-03-28",
     popularity: 80,
@@ -323,7 +323,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新情報は<a href="https://www.city.okayama.jp/kurashi/category/7-5-1-0-0-0-0-0-0-0.html" target="_blank" rel="noopener">岡山市公式サイト</a>で確認できます。</p>
+<p>最新情報は<a href="https://www.city.okayama.jp/kurashi/0000012549.html" target="_blank" rel="noopener">岡山市公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-03-28",
     popularity: 70,
@@ -440,7 +440,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>園の一覧は<a href="https://www.city.okayama.jp/kurashi/category/7-5-1-0-0-0-0-0-0-0.html" target="_blank" rel="noopener">岡山市公式サイト</a>で確認できます。</p>
+<p>園の一覧は<a href="https://www.city.okayama.jp/kurashi/0000012549.html" target="_blank" rel="noopener">岡山市公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 50,
@@ -516,7 +516,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>支援制度の詳細は<a href="https://www.city.okayama.jp/kurashi/category/7-5-1-0-0-0-0-0-0-0.html" target="_blank" rel="noopener">岡山市公式サイト</a>をご確認ください。</p>
+<p>支援制度の詳細は<a href="https://www.city.okayama.jp/kurashi/0000012549.html" target="_blank" rel="noopener">岡山市公式サイト</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 47,
@@ -692,7 +692,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新の待機児童数は<a href="https://www.city.okayama.jp/kurashi/category/7-5-1-0-0-0-0-0-0-0.html" target="_blank" rel="noopener">岡山市公式サイト</a>や厚生労働省の公表資料で確認できます。</p>
+<p>最新の待機児童数は<a href="https://www.city.okayama.jp/kurashi/0000012549.html" target="_blank" rel="noopener">岡山市公式サイト</a>や厚生労働省の公表資料で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 42,
@@ -961,7 +961,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>認定こども園の情報は<a href="https://www.city.okayama.jp/kurashi/category/7-5-1-0-0-0-0-0-0-0.html" target="_blank" rel="noopener">岡山市公式サイト</a>で確認できます。</p>
+<p>認定こども園の情報は<a href="https://www.city.okayama.jp/kurashi/0000012549.html" target="_blank" rel="noopener">岡山市公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 34,
@@ -1097,7 +1097,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>延長保育の実施園は<a href="https://www.city.okayama.jp/kurashi/category/7-5-1-0-0-0-0-0-0-0.html" target="_blank" rel="noopener">岡山市公式サイト</a>で確認できます。</p>
+<p>延長保育の実施園は<a href="https://www.city.okayama.jp/kurashi/0000012549.html" target="_blank" rel="noopener">岡山市公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 30,
@@ -1133,7 +1133,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>無償化の詳細は<a href="https://www.city.okayama.jp/kurashi/category/7-5-1-0-0-0-0-0-0-0.html" target="_blank" rel="noopener">岡山市公式サイト</a>でご確認ください。</p>
+<p>無償化の詳細は<a href="https://www.city.okayama.jp/kurashi/0000012549.html" target="_blank" rel="noopener">岡山市公式サイト</a>でご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 29,
@@ -1205,7 +1205,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>保育料の一覧表は<a href="https://www.city.okayama.jp/kurashi/category/7-5-1-0-0-0-0-0-0-0.html" target="_blank" rel="noopener">岡山市公式サイト</a>で確認できます。</p>
+<p>保育料の一覧表は<a href="https://www.city.okayama.jp/kurashi/0000012549.html" target="_blank" rel="noopener">岡山市公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 27,
@@ -1315,7 +1315,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>書類のダウンロードは<a href="https://www.city.okayama.jp/kurashi/category/7-5-1-0-0-0-0-0-0-0.html" target="_blank" rel="noopener">岡山市公式サイト</a>からできます。</p>
+<p>書類のダウンロードは<a href="https://www.city.okayama.jp/kurashi/0000012549.html" target="_blank" rel="noopener">岡山市公式サイト</a>からできます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 24,
@@ -1626,7 +1626,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>多子世帯の減免制度は<a href="https://www.city.okayama.jp/kurashi/category/7-5-1-0-0-0-0-0-0-0.html" target="_blank" rel="noopener">岡山市公式サイト</a>で確認できます。</p>
+<p>多子世帯の減免制度は<a href="https://www.city.okayama.jp/kurashi/0000012549.html" target="_blank" rel="noopener">岡山市公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 15,
@@ -1768,7 +1768,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>岡山市の保育施策は<a href="https://www.city.okayama.jp/kurashi/category/7-5-1-0-0-0-0-0-0-0.html" target="_blank" rel="noopener">岡山市公式サイト</a>で確認できます。</p>
+<p>岡山市の保育施策は<a href="https://www.city.okayama.jp/kurashi/0000012549.html" target="_blank" rel="noopener">岡山市公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 11,
@@ -1806,7 +1806,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>空き状況は<a href="https://www.city.okayama.jp/kurashi/category/7-5-1-0-0-0-0-0-0-0.html" target="_blank" rel="noopener">岡山市公式サイト</a>で毎月更新されています。</p>
+<p>空き状況は<a href="https://www.city.okayama.jp/kurashi/0000012549.html" target="_blank" rel="noopener">岡山市公式サイト</a>で毎月更新されています。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 10,

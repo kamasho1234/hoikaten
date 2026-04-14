@@ -51,7 +51,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.atsugi.kanagawa.jp/soshiki/kodomoikuseika/hoiku/" target="_blank" rel="noopener">厚木市こども未来部保育課</a>をご確認ください。</p>
+<p>詳しくは<a href="https://www.city.atsugi.kanagawa.jp/shiminbenri/kosodatekyoiku/kosodate/hoiku/" target="_blank" rel="noopener">厚木市こども未来部保育課</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 55,
@@ -101,7 +101,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>全項目は<a href="https://www.city.atsugi.kanagawa.jp/soshiki/kodomoikuseika/hoiku/" target="_blank" rel="noopener">厚木市こども未来部保育課</a>で確認できます。</p>
+<p>全項目は<a href="https://www.city.atsugi.kanagawa.jp/shiminbenri/kosodatekyoiku/kosodate/hoiku/" target="_blank" rel="noopener">厚木市こども未来部保育課</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 65,
@@ -219,7 +219,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>二次募集や途中入園の情報は<a href="https://www.city.atsugi.kanagawa.jp/soshiki/kodomoikuseika/hoiku/" target="_blank" rel="noopener">厚木市こども未来部保育課</a>で確認できます。</p>
+<p>二次募集や途中入園の情報は<a href="https://www.city.atsugi.kanagawa.jp/shiminbenri/kosodatekyoiku/kosodate/hoiku/" target="_blank" rel="noopener">厚木市こども未来部保育課</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 40,
@@ -253,7 +253,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>認可外保育施設の一覧は<a href="https://www.city.atsugi.kanagawa.jp/soshiki/kodomoikuseika/hoiku/" target="_blank" rel="noopener">厚木市こども未来部保育課</a>で確認できます。</p>
+<p>認可外保育施設の一覧は<a href="https://www.city.atsugi.kanagawa.jp/shiminbenri/kosodatekyoiku/kosodate/hoiku/" target="_blank" rel="noopener">厚木市こども未来部保育課</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 55,
@@ -285,7 +285,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新の情報は<a href="https://www.city.atsugi.kanagawa.jp/soshiki/kodomoikuseika/hoiku/" target="_blank" rel="noopener">厚木市こども未来部保育課</a>で確認できます。</p>
+<p>最新の情報は<a href="https://www.city.atsugi.kanagawa.jp/shiminbenri/kosodatekyoiku/kosodate/hoiku/" target="_blank" rel="noopener">厚木市こども未来部保育課</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 35,

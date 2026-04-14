@@ -407,7 +407,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>2次選考や途中入所については<a href="https://www.city.takatsuki.osaka.jp/soshiki/44/82269.html" target="_blank" rel="noopener">高槻市公式サイト</a>をご確認ください。</p>
+<p>2次選考や途中入所については<a href="https://www.city.takatsuki.osaka.jp/life/2/24/" target="_blank" rel="noopener">高槻市公式サイト</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-04",
     popularity: 52,

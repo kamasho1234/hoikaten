@@ -107,7 +107,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>指数表は<a href="https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/nyuuen/moushikomi/kijyun.html" target="_blank" rel="noopener">練馬区公式サイト「保育実施基準表等」</a>で確認できます。</p>
+<p>指数表は<a href="https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/nyuuen/moushikomi/" target="_blank" rel="noopener">練馬区公式サイト「保育実施基準表等」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-03-28",
     popularity: 65,
@@ -145,7 +145,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>全項目の詳細は<a href="https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/nyuuen/moushikomi/kijyun.html" target="_blank" rel="noopener">練馬区公式サイト「保育実施基準表等」</a>でご確認ください。</p>
+<p>全項目の詳細は<a href="https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/nyuuen/moushikomi/" target="_blank" rel="noopener">練馬区公式サイト「保育実施基準表等」</a>でご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
     popularity: 100,
@@ -214,7 +214,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳細は<a href="https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/nyuuen/moushikomi/kijyun.html" target="_blank" rel="noopener">練馬区公式サイト「保育実施基準表等」</a>をご確認ください。</p>
+<p>詳細は<a href="https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/nyuuen/moushikomi/" target="_blank" rel="noopener">練馬区公式サイト「保育実施基準表等」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
     popularity: 85,
@@ -383,7 +383,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/nyuuen/moushikomi/kijyun.html" target="_blank" rel="noopener">練馬区公式サイト「保育実施基準表等」</a>をご確認ください。</p>
+<p>詳しくは<a href="https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/nyuuen/moushikomi/" target="_blank" rel="noopener">練馬区公式サイト「保育実施基準表等」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
     popularity: 90,
@@ -458,7 +458,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>必要書類は<a href="https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/nyuuen/moushikomi/chuui-jikou.html" target="_blank" rel="noopener">練馬区公式サイト「申込み時の注意事項」</a>でご確認ください。</p>
+<p>必要書類は<a href="https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/nyuuen/moushikomi/" target="_blank" rel="noopener">練馬区公式サイト「申込み時の注意事項」</a>でご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
     popularity: 50,

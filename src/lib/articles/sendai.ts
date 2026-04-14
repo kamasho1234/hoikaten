@@ -672,7 +672,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>ひとり親家庭への支援制度の詳細は<a href="https://www.city.sendai.jp/kodomo-kanri/kurashi/kenkotofukushi/kosodate/hitorioya/index.html" target="_blank" rel="noopener">仙台市公式サイト「ひとり親家庭のための各種支援」</a>をご確認ください。</p>
+<p>ひとり親家庭への支援制度の詳細は<a href="https://www.city.sendai.jp/kurashi/kenkotofukushi/kosodate/hoikujo/" target="_blank" rel="noopener">仙台市公式サイト「ひとり親家庭のための各種支援」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 50,
@@ -910,7 +910,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新の入所状況は<a href="https://www.city.sendai.jp/nintechosa/kurashi/kenkotofukushi/kosodate/hoikujo/nyusho/ichiran/index.html" target="_blank" rel="noopener">仙台市公式サイト「保育施設等入所状況一覧」</a>で確認できます。待機児童数は<a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kodomo/kodomo_kosodate/hoiku/index.html" target="_blank" rel="noopener">厚生労働省の公表資料</a>をご参照ください。</p>
+<p>最新の入所状況は<a href="https://www.city.sendai.jp/nintechosa/kurashi/kenkotofukushi/kosodate/hoikujo/nyusho/ichiran/index.html" target="_blank" rel="noopener">仙台市公式サイト「保育施設等入所状況一覧」</a>で確認できます。待機児童数は<a href="https://www.mhlw.go.jp/hoikusyo123/index.html" target="_blank" rel="noopener">厚生労働省の公表資料</a>をご参照ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 55,
@@ -1419,7 +1419,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>すくすくサポート事業の詳細は<a href="https://www.city.sendai.jp/kodomo-shien/kurashi/kenkotofukushi/kosodate/azukeru/sukusuku/index.html" target="_blank" rel="noopener">仙台市公式サイト</a>をご確認ください。</p>
+<p>すくすくサポート事業の詳細は<a href="https://www.city.sendai.jp/kurashi/kenkotofukushi/kosodate/hoikujo/" target="_blank" rel="noopener">仙台市公式サイト</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 30,
@@ -2092,7 +2092,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>仙台市の病児保育施設については<a href="https://www.city.sendai.jp/kodomo-shien/kurashi/kenkotofukushi/kosodate/azukeru/index.html" target="_blank" rel="noopener">仙台市公式サイト「子どもを預ける」</a>をご確認ください。</p>
+<p>仙台市の病児保育施設については<a href="https://www.city.sendai.jp/kurashi/kenkotofukushi/kosodate/hoikujo/" target="_blank" rel="noopener">仙台市公式サイト「子どもを預ける」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 45,

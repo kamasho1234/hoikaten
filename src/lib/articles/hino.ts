@@ -53,7 +53,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.hino.lg.jp/kosodate/hoiku/index.html" target="_blank" rel="noopener">日野市公式サイト 保育園</a>をご確認ください。</p>
+<p>詳しくは<a href="https://www.city.hino.lg.jp/kosodate/hoikuen/nyuen/index.html" target="_blank" rel="noopener">日野市公式サイト 保育園</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 60,
@@ -107,7 +107,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>全項目は<a href="https://www.city.hino.lg.jp/kosodate/hoiku/index.html" target="_blank" rel="noopener">日野市公式サイト</a>の「保育所入所のご案内」で確認できます。</p>
+<p>全項目は<a href="https://www.city.hino.lg.jp/kosodate/hoikuen/nyuen/index.html" target="_blank" rel="noopener">日野市公式サイト</a>の「保育所入所のご案内」で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 70,
@@ -240,7 +240,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>申込書類は<a href="https://www.city.hino.lg.jp/kosodate/hoiku/index.html" target="_blank" rel="noopener">日野市公式サイト</a>からダウンロードできます。</p>
+<p>申込書類は<a href="https://www.city.hino.lg.jp/kosodate/hoikuen/nyuen/index.html" target="_blank" rel="noopener">日野市公式サイト</a>からダウンロードできます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 50,
@@ -279,7 +279,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>日野市内の保育施設一覧は<a href="https://www.city.hino.lg.jp/kosodate/hoiku/index.html" target="_blank" rel="noopener">日野市公式サイト</a>で確認できます。</p>
+<p>日野市内の保育施設一覧は<a href="https://www.city.hino.lg.jp/kosodate/hoikuen/nyuen/index.html" target="_blank" rel="noopener">日野市公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 45,
@@ -318,7 +318,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>各園の空き状況は<a href="https://www.city.hino.lg.jp/kosodate/hoiku/index.html" target="_blank" rel="noopener">日野市公式サイト</a>で確認できます。</p>
+<p>各園の空き状況は<a href="https://www.city.hino.lg.jp/kosodate/hoikuen/nyuen/index.html" target="_blank" rel="noopener">日野市公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 60,
@@ -458,7 +458,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新の待機児童・空き状況は<a href="https://www.city.hino.lg.jp/kosodate/hoiku/index.html" target="_blank" rel="noopener">日野市公式サイト</a>で確認できます。</p>
+<p>最新の待機児童・空き状況は<a href="https://www.city.hino.lg.jp/kosodate/hoikuen/nyuen/index.html" target="_blank" rel="noopener">日野市公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 50,

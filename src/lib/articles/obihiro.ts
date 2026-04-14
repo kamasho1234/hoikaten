@@ -50,7 +50,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新情報は<a href="https://www.city.obihiro.hokkaido.jp/kosodate/hoikuen/" target="_blank" rel="noopener">帯広市公式サイト「保育所・認定こども園等」</a>をご確認ください。</p>
+<p>最新情報は<a href="https://www.city.obihiro.hokkaido.jp/kyoiku/kosodate/hoiku/1010107.html" target="_blank" rel="noopener">帯広市公式サイト「保育所・認定こども園等」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 55,
@@ -99,7 +99,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳細な利用調整基準は<a href="https://www.city.obihiro.hokkaido.jp/kosodate/hoikuen/" target="_blank" rel="noopener">帯広市こども未来部子育て支援課</a>にお問い合わせください。</p>
+<p>詳細な利用調整基準は<a href="https://www.city.obihiro.hokkaido.jp/kyoiku/kosodate/hoiku/1010107.html" target="_blank" rel="noopener">帯広市こども未来部子育て支援課</a>にお問い合わせください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 60,
@@ -192,7 +192,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>帯広市内の保育施設一覧は<a href="https://www.city.obihiro.hokkaido.jp/kosodate/hoikuen/" target="_blank" rel="noopener">帯広市公式サイト「保育所・認定こども園等」</a>で確認できます。</p>
+<p>帯広市内の保育施設一覧は<a href="https://www.city.obihiro.hokkaido.jp/kyoiku/kosodate/hoiku/1010107.html" target="_blank" rel="noopener">帯広市公式サイト「保育所・認定こども園等」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 45,
@@ -330,7 +330,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>帯広市内の保育施設一覧は<a href="https://www.city.obihiro.hokkaido.jp/kosodate/hoikuen/" target="_blank" rel="noopener">帯広市公式サイト「保育所・認定こども園等」</a>で確認できます。</p>
+<p>帯広市内の保育施設一覧は<a href="https://www.city.obihiro.hokkaido.jp/kyoiku/kosodate/hoiku/1010107.html" target="_blank" rel="noopener">帯広市公式サイト「保育所・認定こども園等」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 40,
@@ -415,7 +415,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>保育料の詳細は<a href="https://www.city.obihiro.hokkaido.jp/kosodate/hoikuen/" target="_blank" rel="noopener">帯広市公式サイト「保育所・認定こども園等」</a>をご確認ください。</p>
+<p>保育料の詳細は<a href="https://www.city.obihiro.hokkaido.jp/kyoiku/kosodate/hoiku/1010107.html" target="_blank" rel="noopener">帯広市公式サイト「保育所・認定こども園等」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 45,
@@ -460,7 +460,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>途中入園の空き状況は<a href="https://www.city.obihiro.hokkaido.jp/kosodate/hoikuen/" target="_blank" rel="noopener">帯広市公式サイト「保育所・認定こども園等」</a>で確認できます。</p>
+<p>途中入園の空き状況は<a href="https://www.city.obihiro.hokkaido.jp/kyoiku/kosodate/hoiku/1010107.html" target="_blank" rel="noopener">帯広市公式サイト「保育所・認定こども園等」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 40,

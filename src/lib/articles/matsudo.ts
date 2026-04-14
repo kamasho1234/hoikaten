@@ -51,7 +51,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/hoiku/hoikuen/" target="_blank" rel="noopener">松戸市公式サイト</a>をご確認ください。</p>
+<p>詳しくは<a href="https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/index.html" target="_blank" rel="noopener">松戸市公式サイト</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 55,
@@ -103,7 +103,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>全項目は<a href="https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/hoiku/hoikuen/" target="_blank" rel="noopener">松戸市公式サイト</a>で確認できます。</p>
+<p>全項目は<a href="https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/index.html" target="_blank" rel="noopener">松戸市公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 65,
@@ -257,7 +257,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>空き状況は<a href="https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/hoiku/hoikuen/" target="_blank" rel="noopener">松戸市公式サイト</a>で確認できます。</p>
+<p>空き状況は<a href="https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/index.html" target="_blank" rel="noopener">松戸市公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 80,
@@ -329,7 +329,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新情報は<a href="https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/hoiku/hoikuen/" target="_blank" rel="noopener">松戸市公式サイト</a>で確認できます。</p>
+<p>最新情報は<a href="https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/index.html" target="_blank" rel="noopener">松戸市公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 70,

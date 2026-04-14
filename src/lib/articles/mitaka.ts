@@ -58,7 +58,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.mitaka.lg.jp/c_categories/c_00700/c_00703/c_00704/" target="_blank" rel="noopener">三鷹市公式サイト 保育園入園案内</a>をご確認ください。</p>
+<p>詳しくは<a href="https://www.city.mitaka.lg.jp/c_categories/index03003001.htmlc_00704/" target="_blank" rel="noopener">三鷹市公式サイト 保育園入園案内</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 60,
@@ -106,7 +106,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>全項目は<a href="https://www.city.mitaka.lg.jp/c_categories/c_00700/c_00703/c_00704/" target="_blank" rel="noopener">三鷹市公式サイト 保育園入園案内</a>で確認できます。</p>
+<p>全項目は<a href="https://www.city.mitaka.lg.jp/c_categories/index03003001.htmlc_00704/" target="_blank" rel="noopener">三鷹市公式サイト 保育園入園案内</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 70,
@@ -240,7 +240,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>書類の様式は<a href="https://www.city.mitaka.lg.jp/c_categories/c_00700/c_00703/c_00704/" target="_blank" rel="noopener">三鷹市公式サイト</a>からダウンロードできます。</p>
+<p>書類の様式は<a href="https://www.city.mitaka.lg.jp/c_categories/index03003001.htmlc_00704/" target="_blank" rel="noopener">三鷹市公式サイト</a>からダウンロードできます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 50,
@@ -276,7 +276,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>施設の一覧は<a href="https://www.city.mitaka.lg.jp/c_categories/c_00700/c_00703/" target="_blank" rel="noopener">三鷹市公式サイト 保育施設一覧</a>で確認できます。</p>
+<p>施設の一覧は<a href="https://www.city.mitaka.lg.jp/c_categories/index03003001.html" target="_blank" rel="noopener">三鷹市公式サイト 保育施設一覧</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 45,
@@ -452,7 +452,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新の待機児童数や保育園整備情報は<a href="https://www.city.mitaka.lg.jp/c_categories/c_00700/c_00703/" target="_blank" rel="noopener">三鷹市公式サイト</a>で確認できます。</p>
+<p>最新の待機児童数や保育園整備情報は<a href="https://www.city.mitaka.lg.jp/c_categories/index03003001.html" target="_blank" rel="noopener">三鷹市公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 50,

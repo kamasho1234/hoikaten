@@ -51,7 +51,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.neyagawa.osaka.jp/organization_list/kodomo/kodomowomamoru/hoikusho/index.html" target="_blank" rel="noopener">寝屋川市公式サイト</a>をご確認ください。</p>
+<p>詳しくは<a href="https://www.city.neyagawa.osaka.jp/organization_list/kodomo/hoikuka/index.html" target="_blank" rel="noopener">寝屋川市公式サイト</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 55,
@@ -102,7 +102,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>全項目は<a href="https://www.city.neyagawa.osaka.jp/organization_list/kodomo/kodomowomamoru/hoikusho/index.html" target="_blank" rel="noopener">寝屋川市公式サイト「保育施設等の利用案内」</a>で確認できます。</p>
+<p>全項目は<a href="https://www.city.neyagawa.osaka.jp/organization_list/kodomo/hoikuka/index.html" target="_blank" rel="noopener">寝屋川市公式サイト「保育施設等の利用案内」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 60,
@@ -171,7 +171,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.neyagawa.osaka.jp/organization_list/kodomo/kodomowomamoru/hoikusho/index.html" target="_blank" rel="noopener">寝屋川市 保育施設の案内</a>をご確認ください。</p>
+<p>詳しくは<a href="https://www.city.neyagawa.osaka.jp/organization_list/kodomo/hoikuka/index.html" target="_blank" rel="noopener">寝屋川市 保育施設の案内</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 45,
@@ -286,7 +286,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>連携施設の一覧は<a href="https://www.city.neyagawa.osaka.jp/organization_list/kodomo/kodomowomamoru/hoikusho/index.html" target="_blank" rel="noopener">寝屋川市「保育施設等の利用案内」</a>に掲載されています。</p>
+<p>連携施設の一覧は<a href="https://www.city.neyagawa.osaka.jp/organization_list/kodomo/hoikuka/index.html" target="_blank" rel="noopener">寝屋川市「保育施設等の利用案内」</a>に掲載されています。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 40,
@@ -360,7 +360,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>保育料の詳細は<a href="https://www.city.neyagawa.osaka.jp/organization_list/kodomo/kodomowomamoru/hoikusho/index.html" target="_blank" rel="noopener">寝屋川市「保育施設等の利用案内」</a>の利用者負担額のページをご確認ください。</p>
+<p>保育料の詳細は<a href="https://www.city.neyagawa.osaka.jp/organization_list/kodomo/hoikuka/index.html" target="_blank" rel="noopener">寝屋川市「保育施設等の利用案内」</a>の利用者負担額のページをご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 38,
@@ -407,7 +407,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>2次選考や途中入所については<a href="https://www.city.neyagawa.osaka.jp/organization_list/kodomo/kodomowomamoru/hoikusho/index.html" target="_blank" rel="noopener">寝屋川市公式サイト</a>をご確認ください。</p>
+<p>2次選考や途中入所については<a href="https://www.city.neyagawa.osaka.jp/organization_list/kodomo/hoikuka/index.html" target="_blank" rel="noopener">寝屋川市公式サイト</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 52,

@@ -884,7 +884,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>ひとり親家庭の支援制度は<a href="https://www.city.kawasaki.jp/450/page/0000039498.html" target="_blank" rel="noopener">川崎市公式サイト「ひとり親家庭への支援」</a>で確認できます。</p>
+<p>ひとり親家庭の支援制度は<a href="https://www.city.kawasaki.jp/kodomo/category/267-2-9-0-0-0-0-0-0-0.html" target="_blank" rel="noopener">川崎市公式サイト「ひとり親家庭への支援」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 50,

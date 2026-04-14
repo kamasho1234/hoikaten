@@ -50,7 +50,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新情報は<a href="https://www.city.ebetsu.hokkaido.jp/site/kosodate/hoiku-riyou.html" target="_blank" rel="noopener">江別市公式サイト「保育所等の利用手続について」</a>をご確認ください。</p>
+<p>最新情報は<a href="https://www.city.ebetsu.hokkaido.jp/soshiki/hoikuka/2145.html" target="_blank" rel="noopener">江別市公式サイト「保育所等の利用手続について」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 55,
@@ -101,7 +101,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳細な利用調整基準は<a href="https://www.city.ebetsu.hokkaido.jp/site/kosodate/hoiku-riyou.html" target="_blank" rel="noopener">江別市公式サイト「保育所等の利用手続について」</a>からご確認ください。</p>
+<p>詳細な利用調整基準は<a href="https://www.city.ebetsu.hokkaido.jp/soshiki/hoikuka/2145.html" target="_blank" rel="noopener">江別市公式サイト「保育所等の利用手続について」</a>からご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 60,
@@ -150,7 +150,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>利用調整基準の詳細は<a href="https://www.city.ebetsu.hokkaido.jp/site/kosodate/hoiku-riyou.html" target="_blank" rel="noopener">江別市公式サイト</a>をご確認ください。</p>
+<p>利用調整基準の詳細は<a href="https://www.city.ebetsu.hokkaido.jp/soshiki/hoikuka/2145.html" target="_blank" rel="noopener">江別市公式サイト</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 55,
@@ -197,7 +197,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>江別市内の保育施設一覧は<a href="https://www.city.ebetsu.hokkaido.jp/site/kosodate/hoiku-riyou.html" target="_blank" rel="noopener">江別市公式サイト「保育所等の利用手続について」</a>で確認できます。</p>
+<p>江別市内の保育施設一覧は<a href="https://www.city.ebetsu.hokkaido.jp/soshiki/hoikuka/2145.html" target="_blank" rel="noopener">江別市公式サイト「保育所等の利用手続について」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 45,
@@ -335,7 +335,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>江別市内の保育施設一覧は<a href="https://www.city.ebetsu.hokkaido.jp/site/kosodate/hoiku-riyou.html" target="_blank" rel="noopener">江別市公式サイト「保育所等の利用手続について」</a>で確認できます。</p>
+<p>江別市内の保育施設一覧は<a href="https://www.city.ebetsu.hokkaido.jp/soshiki/hoikuka/2145.html" target="_blank" rel="noopener">江別市公式サイト「保育所等の利用手続について」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 40,
@@ -372,7 +372,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新の利用調整基準は<a href="https://www.city.ebetsu.hokkaido.jp/site/kosodate/hoiku-riyou.html" target="_blank" rel="noopener">江別市公式サイト「保育所等の利用手続について」</a>をご確認ください。</p>
+<p>最新の利用調整基準は<a href="https://www.city.ebetsu.hokkaido.jp/soshiki/hoikuka/2145.html" target="_blank" rel="noopener">江別市公式サイト「保育所等の利用手続について」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 50,
@@ -416,7 +416,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>保育料の詳細は<a href="https://www.city.ebetsu.hokkaido.jp/site/kosodate/hoiku-riyou.html" target="_blank" rel="noopener">江別市公式サイト「保育所等の利用手続について」</a>をご確認ください。</p>
+<p>保育料の詳細は<a href="https://www.city.ebetsu.hokkaido.jp/soshiki/hoikuka/2145.html" target="_blank" rel="noopener">江別市公式サイト「保育所等の利用手続について」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 45,
@@ -461,7 +461,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新の空き状況は<a href="https://www.city.ebetsu.hokkaido.jp/site/kosodate/hoiku-riyou.html" target="_blank" rel="noopener">江別市公式サイト「保育所等の利用手続について」</a>で確認できます。</p>
+<p>最新の空き状況は<a href="https://www.city.ebetsu.hokkaido.jp/soshiki/hoikuka/2145.html" target="_blank" rel="noopener">江別市公式サイト「保育所等の利用手続について」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 40,

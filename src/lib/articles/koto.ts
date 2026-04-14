@@ -51,7 +51,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/index.html" target="_blank" rel="noopener">江東区公式サイト</a>をご確認ください。</p>
+<p>詳しくは<a href="https://www.city.koto.lg.jp/kodomo/hoiku/index.html" target="_blank" rel="noopener">江東区公式サイト</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
     popularity: 55,
@@ -101,7 +101,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>全項目は<a href="https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/index.html" target="_blank" rel="noopener">江東区公式サイト「入園のしおり」</a>で確認できます。</p>
+<p>全項目は<a href="https://www.city.koto.lg.jp/kodomo/hoiku/index.html" target="_blank" rel="noopener">江東区公式サイト「入園のしおり」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-03-28",
     popularity: 65,
@@ -251,7 +251,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>空き状況は<a href="https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/index.html" target="_blank" rel="noopener">江東区公式サイト</a>で確認できます。</p>
+<p>空き状況は<a href="https://www.city.koto.lg.jp/kodomo/hoiku/index.html" target="_blank" rel="noopener">江東区公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-03-28",
     popularity: 80,
@@ -342,7 +342,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新情報は<a href="https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/index.html" target="_blank" rel="noopener">江東区公式サイト</a>で確認できます。</p>
+<p>最新情報は<a href="https://www.city.koto.lg.jp/kodomo/hoiku/index.html" target="_blank" rel="noopener">江東区公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-03-28",
     popularity: 70,

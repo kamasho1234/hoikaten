@@ -714,7 +714,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>ひとり親家庭向けの支援制度は<a href="https://kosodate.city.sapporo.jp/mokuteki/teate/hitorioya/index.html" target="_blank" rel="noopener">札幌市子育てサイト「ひとり親家庭への支援」</a>で確認できます。</p>
+<p>ひとり親家庭向けの支援制度は<a href="https://kosodate.city.sapporo.jp/" target="_blank" rel="noopener">札幌市子育てサイト「ひとり親家庭への支援」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 50,
@@ -1143,7 +1143,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>きょうだい加点の詳細は<a href="https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/835.html" target="_blank" rel="noopener">札幌市子育てサイト「認可保育所等への入所手続きについて」</a>で確認できます。第2子以降の保育料無償化については<a href="https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/hoikuryo/index.html" target="_blank" rel="noopener">保育料のページ</a>をご覧ください。</p>
+<p>きょうだい加点の詳細は<a href="https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/835.html" target="_blank" rel="noopener">札幌市子育てサイト「認可保育所等への入所手続きについて」</a>で確認できます。第2子以降の保育料無償化については<a href="https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoikuryou/gaiyou.html" target="_blank" rel="noopener">保育料のページ</a>をご覧ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 55,
@@ -1702,7 +1702,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>札幌市の保育料や無償化制度の詳細は<a href="https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/hoikuryo/index.html" target="_blank" rel="noopener">札幌市子育てサイト「保育料について」</a>で確認できます。</p>
+<p>札幌市の保育料や無償化制度の詳細は<a href="https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoikuryou/gaiyou.html" target="_blank" rel="noopener">札幌市子育てサイト「保育料について」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 65,
@@ -1752,7 +1752,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>副食費の免除制度については<a href="https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/hoikuryo/index.html" target="_blank" rel="noopener">札幌市子育てサイト「保育料について」</a>で確認できます。</p>
+<p>副食費の免除制度については<a href="https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoikuryou/gaiyou.html" target="_blank" rel="noopener">札幌市子育てサイト「保育料について」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 45,
@@ -1804,7 +1804,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新の保育料表は<a href="https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/hoikuryo/index.html" target="_blank" rel="noopener">札幌市子育てサイト「保育料について」</a>で確認できます。</p>
+<p>最新の保育料表は<a href="https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoikuryou/gaiyou.html" target="_blank" rel="noopener">札幌市子育てサイト「保育料について」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 60,
@@ -1853,7 +1853,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>保育料の階層区分と市民税所得割額の関係は<a href="https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/hoikuryo/index.html" target="_blank" rel="noopener">札幌市子育てサイト「保育料について」</a>で確認できます。</p>
+<p>保育料の階層区分と市民税所得割額の関係は<a href="https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoikuryou/gaiyou.html" target="_blank" rel="noopener">札幌市子育てサイト「保育料について」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 45,
@@ -2470,7 +2470,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>多子世帯向けの保育料や制度は<a href="https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/hoikuryo/index.html" target="_blank" rel="noopener">札幌市子育てサイト「保育料について」</a>で確認できます。</p>
+<p>多子世帯向けの保育料や制度は<a href="https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoikuryou/gaiyou.html" target="_blank" rel="noopener">札幌市子育てサイト「保育料について」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 45,
@@ -2677,7 +2677,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>札幌市の待機児童に関する最新情報は<a href="https://www.city.sapporo.jp/kodomo/kosodate/index.html" target="_blank" rel="noopener">札幌市子ども未来局</a>の公式ページで確認できます。</p>
+<p>札幌市の待機児童に関する最新情報は<a href="https://kosodate.city.sapporo.jp/" target="_blank" rel="noopener">札幌市子ども未来局</a>の公式ページで確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 55,

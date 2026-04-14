@@ -49,7 +49,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新の申込方法は<a href="https://www.city.miyazaki.miyazaki.jp/education/nursery/297861.html" target="_blank" rel="noopener">宮崎市公式サイト「認可保育施設利用申込みのご案内」</a>をご確認ください。</p>
+<p>最新の申込方法は<a href="https://www.city.miyazaki.miyazaki.jp/education/nursery/" target="_blank" rel="noopener">宮崎市公式サイト「認可保育施設利用申込みのご案内」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-05",
     popularity: 55,
@@ -104,7 +104,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳細な点数表は<a href="https://www.city.miyazaki.miyazaki.jp/education/nursery/223527.html" target="_blank" rel="noopener">宮崎市公式サイト「保育所等利用調整基準について」</a>で公開されている利用調整基準表PDFに掲載されています。</p>
+<p>詳細な点数表は<a href="https://www.city.miyazaki.miyazaki.jp/education/nursery/" target="_blank" rel="noopener">宮崎市公式サイト「保育所等利用調整基準について」</a>で公開されている利用調整基準表PDFに掲載されています。</p>
 </div>`,
     publishedAt: "2026-04-05",
     popularity: 60,
@@ -249,7 +249,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳細は<a href="https://www.city.miyazaki.miyazaki.jp/education/nursery/223527.html" target="_blank" rel="noopener">宮崎市公式サイト「保育所等利用調整基準について」</a>をご確認ください。</p>
+<p>詳細は<a href="https://www.city.miyazaki.miyazaki.jp/education/nursery/" target="_blank" rel="noopener">宮崎市公式サイト「保育所等利用調整基準について」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-05",
     popularity: 45,
@@ -318,7 +318,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新の空き状況は<a href="https://city.miyazaki.miyazaki.jp/education/nursery/113114.html" target="_blank" rel="noopener">宮崎市公式サイト「認可保育所・認定こども園等の空き状況について」</a>をご確認ください。</p>
+<p>最新の空き状況は<a href="https://www.city.miyazaki.miyazaki.jp/education/nursery/" target="_blank" rel="noopener">宮崎市公式サイト「認可保育所・認定こども園等の空き状況について」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-05",
     popularity: 40,

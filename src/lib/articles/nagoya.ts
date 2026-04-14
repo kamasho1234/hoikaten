@@ -795,7 +795,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>ひとり親世帯の支援制度については<a href="https://www.city.nagoya.jp/kodomoseishonen/page/0000006029.html" target="_blank" rel="noopener">名古屋市子ども青少年局のひとり親支援ページ</a>をご確認ください。</p>
+<p>ひとり親世帯の支援制度については<a href="https://www.city.nagoya.jp/kodomo/kosodate/1009115/1009125/1009270/1034086.htmlpage/0000006029.html" target="_blank" rel="noopener">名古屋市子ども青少年局のひとり親支援ページ</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 50,
@@ -922,7 +922,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>名古屋市内の認可外保育施設一覧と立入調査結果は<a href="https://www.city.nagoya.jp/kodomoseishonen/page/0000010244.html" target="_blank" rel="noopener">名古屋市子ども青少年局のページ</a>で確認できます。</p>
+<p>名古屋市内の認可外保育施設一覧と立入調査結果は<a href="https://www.city.nagoya.jp/kodomo/kosodate/1009115/1009125/1009270/1034086.html" target="_blank" rel="noopener">名古屋市子ども青少年局のページ</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 40,
@@ -979,7 +979,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>多胎児家庭支援の詳細は<a href="https://www.city.nagoya.jp/kodomoseishonen/page/0000127036.html" target="_blank" rel="noopener">名古屋市子ども青少年局の多胎児支援ページ</a>をご確認ください。</p>
+<p>多胎児家庭支援の詳細は<a href="https://www.city.nagoya.jp/kodomo/kosodate/1009115/1009125/1009270/1034086.htmlpage/0000127036.html" target="_blank" rel="noopener">名古屋市子ども青少年局の多胎児支援ページ</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 35,
@@ -1105,7 +1105,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新の待機児童数は<a href="https://www.city.nagoya.jp/kodomoseishonen/page/0000051906.html" target="_blank" rel="noopener">名古屋市子ども青少年局のページ</a>で公表されています。</p>
+<p>最新の待機児童数は<a href="https://www.city.nagoya.jp/kodomo/kosodate/1009115/1009125/1009270/1034086.htmlpage/0000051906.html" target="_blank" rel="noopener">名古屋市子ども青少年局のページ</a>で公表されています。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 55,
@@ -1796,7 +1796,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>無償化制度の詳細は<a href="https://www.city.nagoya.jp/kodomoseishonen/page/0000120287.html" target="_blank" rel="noopener">名古屋市子ども青少年局の無償化ページ</a>をご確認ください。</p>
+<p>無償化制度の詳細は<a href="https://www.city.nagoya.jp/kodomo/kosodate/1009115/1009125/1009270/1034086.html" target="_blank" rel="noopener">名古屋市子ども青少年局の無償化ページ</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 50,
@@ -1841,7 +1841,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>給食費の詳細は各園に直接お問い合わせいただくか、<a href="https://www.city.nagoya.jp/kodomoseishonen/" target="_blank" rel="noopener">名古屋市子ども青少年局</a>にご確認ください。</p>
+<p>給食費の詳細は各園に直接お問い合わせいただくか、<a href="https://www.city.nagoya.jp/kodomo/kosodate/1009115/1009125/1009270/1034086.html" target="_blank" rel="noopener">名古屋市子ども青少年局</a>にご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 30,
@@ -1896,7 +1896,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>保育料の詳細な基準額表は<a href="https://www.city.nagoya.jp/kodomoseishonen/page/0000011591.html" target="_blank" rel="noopener">名古屋市の保育料ページ</a>でご確認ください。</p>
+<p>保育料の詳細な基準額表は<a href="https://www.city.nagoya.jp/kodomo/kosodate/1009115/1009125/1009270/1034086.html" target="_blank" rel="noopener">名古屋市の保育料ページ</a>でご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 45,
@@ -2549,7 +2549,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>多子世帯の保育料軽減については<a href="https://www.city.nagoya.jp/kodomoseishonen/page/0000011591.html" target="_blank" rel="noopener">名古屋市の保育料ページ</a>をご確認ください。</p>
+<p>多子世帯の保育料軽減については<a href="https://www.city.nagoya.jp/kodomo/kosodate/1009115/1009125/1009270/1034086.html" target="_blank" rel="noopener">名古屋市の保育料ページ</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 30,
@@ -2757,7 +2757,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>名古屋市の待機児童数や保育施設の整備状況は<a href="https://www.city.nagoya.jp/kodomoseishonen/" target="_blank" rel="noopener">名古屋市子ども青少年局</a>のサイトで公表されています。</p>
+<p>名古屋市の待機児童数や保育施設の整備状況は<a href="https://www.city.nagoya.jp/kodomo/kosodate/1009115/1009125/1009270/1034086.html" target="_blank" rel="noopener">名古屋市子ども青少年局</a>のサイトで公表されています。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 35,

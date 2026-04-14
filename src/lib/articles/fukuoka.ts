@@ -839,7 +839,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>ひとり親家庭への支援制度は<a href="https://www.city.fukuoka.lg.jp/kodomo-mirai/hitorioya/child/hitorioya_top.html" target="_blank" rel="noopener">福岡市公式サイト「ひとり親家庭への支援」</a>で確認できます。</p>
+<p>ひとり親家庭への支援制度は<a href="https://hitorioyanavi.city.fukuoka.lg.jp/" target="_blank" rel="noopener">福岡市公式サイト「ひとり親家庭への支援」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 50,

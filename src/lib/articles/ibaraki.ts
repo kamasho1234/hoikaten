@@ -49,7 +49,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新情報は<a href="https://www.city.ibaraki.osaka.jp/kikou/kodomo/hoiku/" target="_blank" rel="noopener">茨木市公式サイト「保育施設等の利用」</a>をご確認ください。</p>
+<p>最新情報は<a href="https://www.city.ibaraki.osaka.jp/kikou/kodomoikusei/jigyou/menu/hoikushokankei/index.html" target="_blank" rel="noopener">茨木市公式サイト「保育施設等の利用」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 55,
@@ -101,7 +101,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳細な利用調整基準表は<a href="https://www.city.ibaraki.osaka.jp/kikou/kodomo/hoiku/" target="_blank" rel="noopener">茨木市公式サイト</a>からダウンロードできます。</p>
+<p>詳細な利用調整基準表は<a href="https://www.city.ibaraki.osaka.jp/kikou/kodomoikusei/jigyou/menu/hoikushokankei/index.html" target="_blank" rel="noopener">茨木市公式サイト</a>からダウンロードできます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 65,
@@ -199,7 +199,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>受入れ状況は<a href="https://www.city.ibaraki.osaka.jp/kikou/kodomo/hoiku/" target="_blank" rel="noopener">茨木市公式サイト「保育施設等の利用」</a>で確認できます。</p>
+<p>受入れ状況は<a href="https://www.city.ibaraki.osaka.jp/kikou/kodomoikusei/jigyou/menu/hoikushokankei/index.html" target="_blank" rel="noopener">茨木市公式サイト「保育施設等の利用」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 80,

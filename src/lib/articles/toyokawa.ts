@@ -39,7 +39,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新のスケジュールは<a href="https://www.city.toyokawa.lg.jp/kosodate/hoikuen/" target="_blank" rel="noopener">豊川市 子ども健康部保育課のページ</a>で確認できます。</p>
+<p>最新のスケジュールは<a href="https://www.city.toyokawa.lg.jp/kosodate/gakkohoikuichiran/hoikushoichiran.html" target="_blank" rel="noopener">豊川市 子ども健康部保育課のページ</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 55,
@@ -255,7 +255,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.toyokawa.lg.jp/kosodate/hoikuen/" target="_blank" rel="noopener">豊川市 子ども健康部保育課のページ</a>をご確認ください。</p>
+<p>詳しくは<a href="https://www.city.toyokawa.lg.jp/kosodate/gakkohoikuichiran/hoikushoichiran.html" target="_blank" rel="noopener">豊川市 子ども健康部保育課のページ</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 40,
@@ -436,7 +436,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>保育料の詳細は<a href="https://www.city.toyokawa.lg.jp/kosodate/hoikuen/" target="_blank" rel="noopener">豊川市 子ども健康部保育課のページ</a>で確認できます。</p>
+<p>保育料の詳細は<a href="https://www.city.toyokawa.lg.jp/kosodate/gakkohoikuichiran/hoikushoichiran.html" target="_blank" rel="noopener">豊川市 子ども健康部保育課のページ</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 50,

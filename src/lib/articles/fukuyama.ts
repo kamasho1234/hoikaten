@@ -69,7 +69,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>利用調整の基準（要旨）は<a href="https://www.city.fukuyama.hiroshima.jp/uploaded/life/392097_2407184_misc.pdf" target="_blank" rel="noopener">福山市公式サイト（PDF）</a>でご確認ください。</p>
+<p>利用調整の基準（要旨）は<a href="https://www.city.fukuyama.hiroshima.jp/soshiki/hoikushisetsu/275318.html" target="_blank" rel="noopener">福山市公式サイト（PDF）</a>でご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-05",
     popularity: 60,
@@ -113,7 +113,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>利用調整の基準は<a href="https://www.city.fukuyama.hiroshima.jp/uploaded/life/392097_2407184_misc.pdf" target="_blank" rel="noopener">福山市「利用調整の基準（要旨）」（PDF）</a>でご確認ください。</p>
+<p>利用調整の基準は<a href="https://www.city.fukuyama.hiroshima.jp/soshiki/hoikushisetsu/275318.html" target="_blank" rel="noopener">福山市「利用調整の基準（要旨）」（PDF）</a>でご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-05",
     popularity: 55,
@@ -161,7 +161,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳細は<a href="https://www.city.fukuyama.hiroshima.jp/uploaded/life/392097_2407184_misc.pdf" target="_blank" rel="noopener">福山市「利用調整の基準（要旨）」（PDF）</a>をご確認ください。</p>
+<p>詳細は<a href="https://www.city.fukuyama.hiroshima.jp/soshiki/hoikushisetsu/275318.html" target="_blank" rel="noopener">福山市「利用調整の基準（要旨）」（PDF）</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-05",
     popularity: 50,

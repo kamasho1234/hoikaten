@@ -107,7 +107,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>申込状況は<a href="https://www.city.osaka.lg.jp/kodomo/page/0000659771.html" target="_blank" rel="noopener">大阪市公式サイト「保育施設等利用申込み状況の公表」</a>で確認できます。</p>
+<p>申込状況は<a href="https://www.city.osaka.lg.jp/kodomo/page/0000605326.html" target="_blank" rel="noopener">大阪市公式サイト「保育施設等利用申込み状況の公表」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-03-28",
     popularity: 60,
@@ -576,7 +576,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>認可外保育施設の一覧と立入調査結果は<a href="https://www.city.osaka.lg.jp/kodomo/page/0000369157.html" target="_blank" rel="noopener">大阪市公式サイト</a>で公開されています。</p>
+<p>認可外保育施設の一覧と立入調査結果は<a href="https://www.city.osaka.lg.jp/kurashi/category/3002-3-5-1-0-0-0-0-0-0.html" target="_blank" rel="noopener">大阪市公式サイト</a>で公開されています。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 40,
@@ -699,7 +699,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>年齢別の募集人数は<a href="https://www.city.osaka.lg.jp/kodomo/page/0000659771.html" target="_blank" rel="noopener">大阪市公式サイト「保育施設等利用申込み状況の公表」</a>で確認できます。</p>
+<p>年齢別の募集人数は<a href="https://www.city.osaka.lg.jp/kodomo/page/0000605326.html" target="_blank" rel="noopener">大阪市公式サイト「保育施設等利用申込み状況の公表」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 65,
@@ -750,7 +750,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>待機児童数・保留児童数のデータは<a href="https://www.city.osaka.lg.jp/kodomo/page/0000447885.html" target="_blank" rel="noopener">大阪市公式サイト「保育を取り巻く現状」</a>で公開されています。</p>
+<p>待機児童数・保留児童数のデータは<a href="https://www.city.osaka.lg.jp/kurashi/category/3002-3-5-1-0-0-0-0-0-0.html" target="_blank" rel="noopener">大阪市公式サイト「保育を取り巻く現状」</a>で公開されています。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 55,
@@ -807,7 +807,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>ひとり親家庭向けの支援制度は<a href="https://www.city.osaka.lg.jp/kodomo/page/0000369692.html" target="_blank" rel="noopener">大阪市公式サイト「ひとり親家庭等の支援」</a>で確認できます。</p>
+<p>ひとり親家庭向けの支援制度は<a href="https://www.city.osaka.lg.jp/kodomo/page/0000452094.html" target="_blank" rel="noopener">大阪市公式サイト「ひとり親家庭等の支援」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 50,
@@ -983,7 +983,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>申込状況や空き情報は<a href="https://www.city.osaka.lg.jp/kodomo/page/0000659771.html" target="_blank" rel="noopener">大阪市公式サイト</a>で公開されています。</p>
+<p>申込状況や空き情報は<a href="https://www.city.osaka.lg.jp/kodomo/page/0000605326.html" target="_blank" rel="noopener">大阪市公式サイト</a>で公開されています。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 60,
@@ -2017,7 +2017,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>確認を</strong></p>
-<p>施設ごとの申込状況は<a href="https://www.city.osaka.lg.jp/kodomo/page/0000659771.html" target="_blank" rel="noopener">大阪市公式サイト</a>で公表されています。</p>
+<p>施設ごとの申込状況は<a href="https://www.city.osaka.lg.jp/kodomo/page/0000605326.html" target="_blank" rel="noopener">大阪市公式サイト</a>で公表されています。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 60,
@@ -2060,7 +2060,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>確認を</strong></p>
-<p>上記はあくまで一般的な傾向です。最新の申込状況は<a href="https://www.city.osaka.lg.jp/kodomo/page/0000659771.html" target="_blank" rel="noopener">大阪市公式サイト</a>で公表される施設ごとのデータをご確認ください。</p>
+<p>上記はあくまで一般的な傾向です。最新の申込状況は<a href="https://www.city.osaka.lg.jp/kodomo/page/0000605326.html" target="_blank" rel="noopener">大阪市公式サイト</a>で公表される施設ごとのデータをご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 55,

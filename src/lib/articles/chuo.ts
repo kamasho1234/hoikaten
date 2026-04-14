@@ -51,7 +51,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.chuo.lg.jp/a0036/kosodate/hoiku/ninka/index.html" target="_blank" rel="noopener">中央区公式サイト「保育園入園のご案内」</a>をご確認ください。</p>
+<p>詳しくは<a href="https://www.city.chuo.lg.jp/kosodate/kosodate/hoikuen/hoiku/ninkahoiku/index.html" target="_blank" rel="noopener">中央区公式サイト「保育園入園のご案内」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
     popularity: 55,
@@ -100,7 +100,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>全項目は<a href="https://www.city.chuo.lg.jp/a0036/kosodate/hoiku/ninka/index.html" target="_blank" rel="noopener">中央区公式サイト「保育園のごあんない」</a>で確認できます。</p>
+<p>全項目は<a href="https://www.city.chuo.lg.jp/kosodate/kosodate/hoikuen/hoiku/ninkahoiku/index.html" target="_blank" rel="noopener">中央区公式サイト「保育園のごあんない」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-03-28",
     popularity: 65,
@@ -250,7 +250,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>空き状況は<a href="https://www.city.chuo.lg.jp/a0036/kosodate/hoiku/ninka/index.html" target="_blank" rel="noopener">中央区公式サイト</a>で確認できます。</p>
+<p>空き状況は<a href="https://www.city.chuo.lg.jp/kosodate/kosodate/hoikuen/hoiku/ninkahoiku/index.html" target="_blank" rel="noopener">中央区公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-03-28",
     popularity: 80,
@@ -322,7 +322,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新情報は<a href="https://www.city.chuo.lg.jp/a0036/kosodate/hoiku/ninka/index.html" target="_blank" rel="noopener">中央区公式サイト</a>で確認できます。</p>
+<p>最新情報は<a href="https://www.city.chuo.lg.jp/kosodate/kosodate/hoikuen/hoiku/ninkahoiku/index.html" target="_blank" rel="noopener">中央区公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-03-28",
     popularity: 70,

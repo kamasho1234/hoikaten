@@ -50,7 +50,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新情報は<a href="https://www.city.kushiro.lg.jp/kosodate/hoiku/index.html" target="_blank" rel="noopener">釧路市公式サイト「保育所等の利用について」</a>をご確認ください。</p>
+<p>最新情報は<a href="https://www.city.kushiro.lg.jp/kosodatekyouiku/kosodate/1008292/1005300/1005308/index.html" target="_blank" rel="noopener">釧路市公式サイト「保育所等の利用について」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 55,
@@ -104,7 +104,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳細な利用調整基準表は<a href="https://www.city.kushiro.lg.jp/kosodate/hoiku/index.html" target="_blank" rel="noopener">釧路市公式サイト「保育所等の利用について」</a>で確認できます。</p>
+<p>詳細な利用調整基準表は<a href="https://www.city.kushiro.lg.jp/kosodatekyouiku/kosodate/1008292/1005300/1005308/index.html" target="_blank" rel="noopener">釧路市公式サイト「保育所等の利用について」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 60,
@@ -191,7 +191,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>釧路市内の保育施設一覧は<a href="https://www.city.kushiro.lg.jp/kosodate/hoiku/index.html" target="_blank" rel="noopener">釧路市公式サイト「保育所等の利用について」</a>で確認できます。</p>
+<p>釧路市内の保育施設一覧は<a href="https://www.city.kushiro.lg.jp/kosodatekyouiku/kosodate/1008292/1005300/1005308/index.html" target="_blank" rel="noopener">釧路市公式サイト「保育所等の利用について」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 45,
@@ -333,7 +333,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>釧路市内の保育施設一覧は<a href="https://www.city.kushiro.lg.jp/kosodate/hoiku/index.html" target="_blank" rel="noopener">釧路市公式サイト「保育所等の利用について」</a>で確認できます。</p>
+<p>釧路市内の保育施設一覧は<a href="https://www.city.kushiro.lg.jp/kosodatekyouiku/kosodate/1008292/1005300/1005308/index.html" target="_blank" rel="noopener">釧路市公式サイト「保育所等の利用について」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 40,
@@ -412,7 +412,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>保育料の詳細は<a href="https://www.city.kushiro.lg.jp/kosodate/hoiku/index.html" target="_blank" rel="noopener">釧路市公式サイト「保育所等の利用について」</a>をご確認ください。</p>
+<p>保育料の詳細は<a href="https://www.city.kushiro.lg.jp/kosodatekyouiku/kosodate/1008292/1005300/1005308/index.html" target="_blank" rel="noopener">釧路市公式サイト「保育所等の利用について」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 45,
@@ -457,7 +457,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>空き状況は<a href="https://www.city.kushiro.lg.jp/kosodate/hoiku/index.html" target="_blank" rel="noopener">釧路市公式サイト「保育所等の利用について」</a>で確認できます。</p>
+<p>空き状況は<a href="https://www.city.kushiro.lg.jp/kosodatekyouiku/kosodate/1008292/1005300/1005308/index.html" target="_blank" rel="noopener">釧路市公式サイト「保育所等の利用について」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 40,

@@ -51,7 +51,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.kadoma.osaka.jp/kosodate/hoikuen/" target="_blank" rel="noopener">門真市公式サイト 保育所（園）等の利用</a>をご確認ください。</p>
+<p>詳しくは<a href="https://www.city.kadoma.osaka.jp/sukusuku/kakuka/hoikuyotien/1/6219.html" target="_blank" rel="noopener">門真市公式サイト 保育所（園）等の利用</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 55,
@@ -101,7 +101,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>全項目は<a href="https://www.city.kadoma.osaka.jp/kosodate/hoikuen/" target="_blank" rel="noopener">門真市公式サイト 保育施設等の利用申込みの手引き</a>の利用調整基準表で確認できます。</p>
+<p>全項目は<a href="https://www.city.kadoma.osaka.jp/sukusuku/kakuka/hoikuyotien/1/6219.html" target="_blank" rel="noopener">門真市公式サイト 保育施設等の利用申込みの手引き</a>の利用調整基準表で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 60,
@@ -175,7 +175,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.kadoma.osaka.jp/kosodate/hoikuen/" target="_blank" rel="noopener">門真市 保育所（園）等の利用</a>をご確認ください。</p>
+<p>詳しくは<a href="https://www.city.kadoma.osaka.jp/sukusuku/kakuka/hoikuyotien/1/6219.html" target="_blank" rel="noopener">門真市 保育所（園）等の利用</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 45,
@@ -290,7 +290,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>施設一覧は<a href="https://www.city.kadoma.osaka.jp/kosodate/hoikuen/" target="_blank" rel="noopener">門真市 保育所（園）一覧</a>をご確認ください。</p>
+<p>施設一覧は<a href="https://www.city.kadoma.osaka.jp/sukusuku/kakuka/hoikuyotien/1/6219.html" target="_blank" rel="noopener">門真市 保育所（園）一覧</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 40,
@@ -364,7 +364,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>保育料の詳細は<a href="https://www.city.kadoma.osaka.jp/kosodate/hoikuen/" target="_blank" rel="noopener">門真市 保育施設等の利用申込みの手引き</a>の利用者負担額のページをご確認ください。</p>
+<p>保育料の詳細は<a href="https://www.city.kadoma.osaka.jp/sukusuku/kakuka/hoikuyotien/1/6219.html" target="_blank" rel="noopener">門真市 保育施設等の利用申込みの手引き</a>の利用者負担額のページをご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 38,
@@ -411,7 +411,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>途中入所や空き状況については<a href="https://www.city.kadoma.osaka.jp/kosodate/hoikuen/" target="_blank" rel="noopener">門真市 保育所（園）等の利用</a>をご確認ください。</p>
+<p>途中入所や空き状況については<a href="https://www.city.kadoma.osaka.jp/sukusuku/kakuka/hoikuyotien/1/6219.html" target="_blank" rel="noopener">門真市 保育所（園）等の利用</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 52,

@@ -51,7 +51,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.higashimurayama.tokyo.jp/kosodate/hoikuen/" target="_blank" rel="noopener">東村山市公式サイト 保育園入園案内</a>をご確認ください。</p>
+<p>詳しくは<a href="https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/index.htmlkyouikuhoikushisetsu/hoikujyo/index.html" target="_blank" rel="noopener">東村山市公式サイト 保育園入園案内</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 60,
@@ -98,7 +98,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>全項目は<a href="https://www.city.higashimurayama.tokyo.jp/kosodate/hoikuen/" target="_blank" rel="noopener">東村山市公式サイト 保育園入園案内</a>で確認できます。</p>
+<p>全項目は<a href="https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/index.htmlkyouikuhoikushisetsu/hoikujyo/index.html" target="_blank" rel="noopener">東村山市公式サイト 保育園入園案内</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 55,
@@ -138,7 +138,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>就労証明書の様式は<a href="https://www.city.higashimurayama.tokyo.jp/kosodate/hoikuen/" target="_blank" rel="noopener">東村山市公式サイト</a>からダウンロードできます。</p>
+<p>就労証明書の様式は<a href="https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/index.htmlkyouikuhoikushisetsu/hoikujyo/index.html" target="_blank" rel="noopener">東村山市公式サイト</a>からダウンロードできます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 50,
@@ -181,7 +181,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>調整指数の全項目は<a href="https://www.city.higashimurayama.tokyo.jp/kosodate/hoikuen/" target="_blank" rel="noopener">東村山市公式サイト 入園案内</a>で確認できます。</p>
+<p>調整指数の全項目は<a href="https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/index.htmlkyouikuhoikushisetsu/hoikujyo/index.html" target="_blank" rel="noopener">東村山市公式サイト 入園案内</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 50,
@@ -237,7 +237,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>申請書類の様式は<a href="https://www.city.higashimurayama.tokyo.jp/kosodate/hoikuen/" target="_blank" rel="noopener">東村山市公式サイト</a>からダウンロードできます。</p>
+<p>申請書類の様式は<a href="https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/index.htmlkyouikuhoikushisetsu/hoikujyo/index.html" target="_blank" rel="noopener">東村山市公式サイト</a>からダウンロードできます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 45,
@@ -273,7 +273,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>保育施設一覧は<a href="https://www.city.higashimurayama.tokyo.jp/kosodate/hoikuen/" target="_blank" rel="noopener">東村山市公式サイト</a>で確認できます。</p>
+<p>保育施設一覧は<a href="https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/index.htmlkyouikuhoikushisetsu/hoikujyo/index.html" target="_blank" rel="noopener">東村山市公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 40,
@@ -309,7 +309,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>各園の募集数は<a href="https://www.city.higashimurayama.tokyo.jp/kosodate/hoikuen/" target="_blank" rel="noopener">東村山市公式サイト</a>で公開されています。</p>
+<p>各園の募集数は<a href="https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/index.htmlkyouikuhoikushisetsu/hoikujyo/index.html" target="_blank" rel="noopener">東村山市公式サイト</a>で公開されています。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 45,
@@ -348,7 +348,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>各園の空き状況は<a href="https://www.city.higashimurayama.tokyo.jp/kosodate/hoikuen/" target="_blank" rel="noopener">東村山市公式サイト</a>で確認できます。</p>
+<p>各園の空き状況は<a href="https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/index.htmlkyouikuhoikushisetsu/hoikujyo/index.html" target="_blank" rel="noopener">東村山市公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 55,
@@ -387,7 +387,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>ひとり親支援の詳細は<a href="https://www.city.higashimurayama.tokyo.jp/kosodate/" target="_blank" rel="noopener">東村山市公式サイト 子育て支援</a>をご確認ください。</p>
+<p>ひとり親支援の詳細は<a href="https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/index.html" target="_blank" rel="noopener">東村山市公式サイト 子育て支援</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 40,
@@ -424,7 +424,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新の保育園情報は<a href="https://www.city.higashimurayama.tokyo.jp/kosodate/hoikuen/" target="_blank" rel="noopener">東村山市公式サイト</a>で確認できます。</p>
+<p>最新の保育園情報は<a href="https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/index.htmlkyouikuhoikushisetsu/hoikujyo/index.html" target="_blank" rel="noopener">東村山市公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 35,

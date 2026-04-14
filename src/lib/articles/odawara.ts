@@ -51,7 +51,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.odawara.kanagawa.jp/field/welfare/nursesc/" target="_blank" rel="noopener">小田原市子ども青少年部保育課</a>をご確認ください。</p>
+<p>詳しくは<a href="https://www.city.odawara.kanagawa.jp/field/edu-ch/kosodate/nursery/nursery/" target="_blank" rel="noopener">小田原市子ども青少年部保育課</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 55,
@@ -101,7 +101,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>全項目は<a href="https://www.city.odawara.kanagawa.jp/field/welfare/nursesc/" target="_blank" rel="noopener">小田原市子ども青少年部保育課</a>で確認できます。</p>
+<p>全項目は<a href="https://www.city.odawara.kanagawa.jp/field/edu-ch/kosodate/nursery/nursery/" target="_blank" rel="noopener">小田原市子ども青少年部保育課</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 65,
@@ -218,7 +218,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>二次募集や途中入園の空き状況は<a href="https://www.city.odawara.kanagawa.jp/field/welfare/nursesc/" target="_blank" rel="noopener">小田原市子ども青少年部保育課</a>で確認できます。</p>
+<p>二次募集や途中入園の空き状況は<a href="https://www.city.odawara.kanagawa.jp/field/edu-ch/kosodate/nursery/nursery/" target="_blank" rel="noopener">小田原市子ども青少年部保育課</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 40,
@@ -278,7 +278,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新の情報は<a href="https://www.city.odawara.kanagawa.jp/field/welfare/nursesc/" target="_blank" rel="noopener">小田原市子ども青少年部保育課</a>で確認できます。</p>
+<p>最新の情報は<a href="https://www.city.odawara.kanagawa.jp/field/edu-ch/kosodate/nursery/nursery/" target="_blank" rel="noopener">小田原市子ども青少年部保育課</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 35,

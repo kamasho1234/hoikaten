@@ -54,7 +54,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.niiza.lg.jp/soshiki/38/hoikusho-nyuusho.html" target="_blank" rel="noopener">新座市こども未来部保育課</a>をご確認ください。</p>
+<p>詳しくは<a href="https://www.city.niiza.lg.jp/soshiki/93/" target="_blank" rel="noopener">新座市こども未来部保育課</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 55,
@@ -111,7 +111,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>正確な基準表は<a href="https://www.city.niiza.lg.jp/soshiki/38/hoikusho-nyuusho.html" target="_blank" rel="noopener">新座市こども未来部保育課</a>に掲載の利用調整基準表をご確認ください。</p>
+<p>正確な基準表は<a href="https://www.city.niiza.lg.jp/soshiki/93/" target="_blank" rel="noopener">新座市こども未来部保育課</a>に掲載の利用調整基準表をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 65,
@@ -306,7 +306,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>就労証明書の書式は<a href="https://www.city.niiza.lg.jp/soshiki/38/hoikusho-nyuusho.html" target="_blank" rel="noopener">新座市こども未来部保育課</a>のページからダウンロードできます。</p>
+<p>就労証明書の書式は<a href="https://www.city.niiza.lg.jp/soshiki/93/" target="_blank" rel="noopener">新座市こども未来部保育課</a>のページからダウンロードできます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 90,
@@ -354,7 +354,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>小規模保育の施設一覧は<a href="https://www.city.niiza.lg.jp/soshiki/38/hoikusho-nyuusho.html" target="_blank" rel="noopener">新座市こども未来部保育課</a>で確認できます。</p>
+<p>小規模保育の施設一覧は<a href="https://www.city.niiza.lg.jp/soshiki/93/" target="_blank" rel="noopener">新座市こども未来部保育課</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 50,
@@ -398,7 +398,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>各園の空き状況は<a href="https://www.city.niiza.lg.jp/soshiki/38/hoikusho-nyuusho.html" target="_blank" rel="noopener">新座市こども未来部保育課</a>で確認できます。</p>
+<p>各園の空き状況は<a href="https://www.city.niiza.lg.jp/soshiki/93/" target="_blank" rel="noopener">新座市こども未来部保育課</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 50,
@@ -457,7 +457,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>新座市内の認可外保育施設の一覧は<a href="https://www.city.niiza.lg.jp/soshiki/38/hoikusho-nyuusho.html" target="_blank" rel="noopener">新座市こども未来部保育課</a>で確認できます。</p>
+<p>新座市内の認可外保育施設の一覧は<a href="https://www.city.niiza.lg.jp/soshiki/93/" target="_blank" rel="noopener">新座市こども未来部保育課</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 75,
@@ -499,7 +499,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新の利用調整結果は<a href="https://www.city.niiza.lg.jp/soshiki/38/hoikusho-nyuusho.html" target="_blank" rel="noopener">新座市こども未来部保育課</a>で公開されています。</p>
+<p>最新の利用調整結果は<a href="https://www.city.niiza.lg.jp/soshiki/93/" target="_blank" rel="noopener">新座市こども未来部保育課</a>で公開されています。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 70,

@@ -42,7 +42,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>保育施設の一覧は<a href="https://www.city.chiba.jp/kodomomirai/kodomomirai/unei/hoikusho-ichiran.html" target="_blank" rel="noopener">千葉市公式サイト</a>で確認できます。</p>
+<p>保育施設の一覧は<a href="https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/akizyoukyou.html" target="_blank" rel="noopener">千葉市公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 70,
@@ -80,7 +80,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>各園の受入月齢は<a href="https://www.city.chiba.jp/kodomomirai/kodomomirai/unei/hoikusho-ichiran.html" target="_blank" rel="noopener">千葉市公式サイトの保育施設一覧</a>で確認できます。</p>
+<p>各園の受入月齢は<a href="https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/akizyoukyou.html" target="_blank" rel="noopener">千葉市公式サイトの保育施設一覧</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 72,
@@ -117,7 +117,7 @@ const articles: Article[] = [
 
 <div class="warn-box">
 <p><strong>注意</strong></p>
-<p>児童扶養手当の金額は毎年度改定されます。最新額は<a href="https://www.city.chiba.jp/kodomomirai/kodomomirai/index.html" target="_blank" rel="noopener">千葉市こども未来局の公式サイト</a>でご確認ください。</p>
+<p>児童扶養手当の金額は毎年度改定されます。最新額は<a href="https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/h28goannnai.html" target="_blank" rel="noopener">千葉市こども未来局の公式サイト</a>でご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 65,
@@ -149,7 +149,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>復帰に関する手続きの詳細は<a href="https://www.city.chiba.jp/kodomomirai/kodomomirai/unei/hoikusho-nyuusho.html" target="_blank" rel="noopener">千葉市「保育所等の利用について」</a>をご確認ください。</p>
+<p>復帰に関する手続きの詳細は<a href="https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/4nyusyoannnai.html" target="_blank" rel="noopener">千葉市「保育所等の利用について」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 68,
@@ -306,7 +306,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新の待機児童数は<a href="https://www.city.chiba.jp/kodomomirai/kodomomirai/unei/hoikusho-nyuusho.html" target="_blank" rel="noopener">千葉市公式サイト</a>で確認できます。</p>
+<p>最新の待機児童数は<a href="https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/4nyusyoannnai.html" target="_blank" rel="noopener">千葉市公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 75,
@@ -343,7 +343,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>小規模保育事業所の一覧・連携施設は<a href="https://www.city.chiba.jp/kodomomirai/kodomomirai/unei/hoikusho-ichiran.html" target="_blank" rel="noopener">千葉市公式サイト</a>で確認できます。</p>
+<p>小規模保育事業所の一覧・連携施設は<a href="https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/akizyoukyou.html" target="_blank" rel="noopener">千葉市公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 58,
@@ -375,7 +375,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>きょうだい加点の詳細は<a href="https://www.city.chiba.jp/kodomomirai/kodomomirai/unei/hoikusho-nyuusho.html" target="_blank" rel="noopener">千葉市「保育所等の利用について」</a>をご確認ください。</p>
+<p>きょうだい加点の詳細は<a href="https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/4nyusyoannnai.html" target="_blank" rel="noopener">千葉市「保育所等の利用について」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 73,
@@ -549,7 +549,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>空き状況は<a href="https://www.city.chiba.jp/kodomomirai/kodomomirai/unei/hoikusho-nyuusho.html" target="_blank" rel="noopener">千葉市公式サイト</a>で確認できます。</p>
+<p>空き状況は<a href="https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/4nyusyoannnai.html" target="_blank" rel="noopener">千葉市公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 53,
@@ -586,7 +586,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>無償化の詳細は<a href="https://www.city.chiba.jp/kodomomirai/kodomomirai/unei/mushouka.html" target="_blank" rel="noopener">千葉市公式サイト</a>で確認できます。</p>
+<p>無償化の詳細は<a href="https://www.city.chiba.jp/kodomomirai/yojikyoiku/shien/musyouka-index.html" target="_blank" rel="noopener">千葉市公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 55,
@@ -621,7 +621,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>各園の受入月齢は<a href="https://www.city.chiba.jp/kodomomirai/kodomomirai/unei/hoikusho-ichiran.html" target="_blank" rel="noopener">千葉市公式サイトの保育施設一覧</a>で確認できます。</p>
+<p>各園の受入月齢は<a href="https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/akizyoukyou.html" target="_blank" rel="noopener">千葉市公式サイトの保育施設一覧</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 57,
@@ -659,7 +659,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>認定こども園の一覧は<a href="https://www.city.chiba.jp/kodomomirai/kodomomirai/unei/hoikusho-ichiran.html" target="_blank" rel="noopener">千葉市公式サイト</a>で確認できます。</p>
+<p>認定こども園の一覧は<a href="https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/akizyoukyou.html" target="_blank" rel="noopener">千葉市公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 60,
@@ -739,7 +739,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>延長保育の実施園は<a href="https://www.city.chiba.jp/kodomomirai/kodomomirai/unei/hoikusho-ichiran.html" target="_blank" rel="noopener">千葉市公式サイト</a>で確認できます。</p>
+<p>延長保育の実施園は<a href="https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/akizyoukyou.html" target="_blank" rel="noopener">千葉市公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 45,
@@ -779,7 +779,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>無償化の詳細は<a href="https://www.city.chiba.jp/kodomomirai/kodomomirai/unei/mushouka.html" target="_blank" rel="noopener">千葉市公式サイト</a>で確認できます。</p>
+<p>無償化の詳細は<a href="https://www.city.chiba.jp/kodomomirai/yojikyoiku/shien/musyouka-index.html" target="_blank" rel="noopener">千葉市公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 70,
@@ -834,7 +834,7 @@ const articles: Article[] = [
 
 <div class="warn-box">
 <p><strong>注意</strong></p>
-<p>保育料の具体的な金額は毎年度改定される場合があります。最新の保育料表は<a href="https://www.city.chiba.jp/kodomomirai/kodomomirai/unei/hoikuryo.html" target="_blank" rel="noopener">千葉市公式サイト</a>でご確認ください。</p>
+<p>保育料の具体的な金額は毎年度改定される場合があります。最新の保育料表は<a href="https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/musyouka-index.html" target="_blank" rel="noopener">千葉市公式サイト</a>でご確認ください。</p>
 </div>
 
 <h2>多子軽減制度</h2>
@@ -923,7 +923,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>就労証明書の様式は<a href="https://www.city.chiba.jp/kodomomirai/kodomomirai/unei/hoikusho-nyuusho.html" target="_blank" rel="noopener">千葉市公式サイト</a>からダウンロードできます。</p>
+<p>就労証明書の様式は<a href="https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/4nyusyoannnai.html" target="_blank" rel="noopener">千葉市公式サイト</a>からダウンロードできます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 63,
@@ -966,7 +966,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>申請書類の様式は<a href="https://www.city.chiba.jp/kodomomirai/kodomomirai/unei/hoikusho-nyuusho.html" target="_blank" rel="noopener">千葉市公式サイト</a>からダウンロードできます。</p>
+<p>申請書類の様式は<a href="https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/4nyusyoannnai.html" target="_blank" rel="noopener">千葉市公式サイト</a>からダウンロードできます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 68,
@@ -1112,7 +1112,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>申込スケジュールの詳細は<a href="https://www.city.chiba.jp/kodomomirai/kodomomirai/unei/hoikusho-nyuusho.html" target="_blank" rel="noopener">千葉市「保育所等の利用について」</a>をご確認ください。</p>
+<p>申込スケジュールの詳細は<a href="https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/4nyusyoannnai.html" target="_blank" rel="noopener">千葉市「保育所等の利用について」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 72,
@@ -1151,7 +1151,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>利用調整基準の詳細は<a href="https://www.city.chiba.jp/kodomomirai/kodomomirai/unei/hoikusho-nyuusho.html" target="_blank" rel="noopener">千葉市「保育所等の利用について」</a>をご確認ください。</p>
+<p>利用調整基準の詳細は<a href="https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/4nyusyoannnai.html" target="_blank" rel="noopener">千葉市「保育所等の利用について」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 78,
@@ -1432,7 +1432,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>千葉市の子育て支援施策の詳細は<a href="https://www.city.chiba.jp/kodomomirai/kodomomirai/index.html" target="_blank" rel="noopener">千葉市こども未来局</a>のページで確認できます。</p>
+<p>千葉市の子育て支援施策の詳細は<a href="https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/h28goannnai.html" target="_blank" rel="noopener">千葉市こども未来局</a>のページで確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 55,
