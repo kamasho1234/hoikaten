@@ -166,6 +166,21 @@ import "@/lib/articles/ebetsu";
 import "@/lib/articles/uji";
 import "@/lib/articles/higashihiroshima";
 import "@/lib/articles/chiba";
+import "@/lib/articles/chofu";
+import "@/lib/articles/fuchu";
+import "@/lib/articles/tachikawa";
+import "@/lib/articles/nagaoka";
+import "@/lib/articles/izumi";
+import "@/lib/articles/iruma";
+import "@/lib/articles/toda";
+import "@/lib/articles/asaka";
+import "@/lib/articles/zama";
+import "@/lib/articles/daito";
+import "@/lib/articles/matsubara";
+import "@/lib/articles/imabari";
+import "@/lib/articles/suzuka";
+import "@/lib/articles/joetsu";
+import "@/lib/articles/hikone";
 
 const prefectureSlugs = [
   "hokkaido", "aomori", "iwate", "miyagi", "akita", "yamagata", "fukushima",

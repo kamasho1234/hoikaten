@@ -179,6 +179,10 @@ import "@/lib/articles/asaka";
 import "@/lib/articles/zama";
 import "@/lib/articles/daito";
 import "@/lib/articles/matsubara";
+import "@/lib/articles/imabari";
+import "@/lib/articles/suzuka";
+import "@/lib/articles/joetsu";
+import "@/lib/articles/hikone";
 
 import { getAllMunicipalities } from "@/lib/data";
 import { HeaderNav } from "@/components/header-nav";
