@@ -186,6 +186,8 @@ import "@/lib/articles/hikone";
 import "@/lib/articles/tsukuba";
 import "@/lib/articles/numazu";
 import "@/lib/articles/takaoka";
+import "@/lib/articles/ogaki";
+import "@/lib/articles/itoshima";
 
 import { getAllMunicipalities } from "@/lib/data";
 import { HeaderNav } from "@/components/header-nav";
