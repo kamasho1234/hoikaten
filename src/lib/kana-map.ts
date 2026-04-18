@@ -187,4 +187,5 @@ export const kanaMap: Record<string, string> = {
   "彦根市": "ひこねし",
   "つくば市": "つくばし",
   "沼津市": "ぬまづし",
+  "高岡市": "たかおかし",
 };
