@@ -183,6 +183,8 @@ import "@/lib/articles/imabari";
 import "@/lib/articles/suzuka";
 import "@/lib/articles/joetsu";
 import "@/lib/articles/hikone";
+import "@/lib/articles/tsukuba";
+import "@/lib/articles/numazu";
 
 import { getAllMunicipalities } from "@/lib/data";
 import { HeaderNav } from "@/components/header-nav";
