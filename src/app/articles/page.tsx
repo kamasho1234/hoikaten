@@ -4,6 +4,9 @@ import { RandomAd } from "@/components/random-ad";
 export const metadata = {
   title: "保活コラム｜保育園 点数シミュレーター【hoikaten】",
   description: "保育園選び・点数アップ・入園準備に役立つコラム記事をまとめました。",
+  alternates: {
+    canonical: "https://hoikaten.com/articles",
+  },
 };
 
 const categoryColorMap = {

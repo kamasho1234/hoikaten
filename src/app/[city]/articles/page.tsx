@@ -17,6 +17,9 @@ export async function generateMetadata({
   return {
     title: `${data.municipality.name}の保育園・子育て情報｜hoikaten`,
     description: `${data.municipality.name}で保活中の方に役立つ記事まとめ。`,
+    alternates: {
+      canonical: `https://hoikaten.com/${city}/articles`,
+    },
   };
 }
 

@@ -32,6 +32,9 @@ export async function generateMetadata({
   return {
     title: `${article.title}｜${data?.municipality.name ?? city}｜hoikaten`,
     description: article.description,
+    alternates: {
+      canonical: `https://hoikaten.com/${city}/articles/${slug}`,
+    },
   };
 }
 
@@ -78,7 +81,7 @@ export default async function ArticlePage({
     image: article.image,
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://${city}.hoikaten.com/${city}/articles/${slug}`,
+      "@id": `https://hoikaten.com/${city}/articles/${slug}`,
     },
   };
 
@@ -183,7 +186,7 @@ export default async function ArticlePage({
         </p>
         <div className="flex justify-center gap-3">
           <a
-            href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(article.title)}&url=${encodeURIComponent(`https://${city}.hoikaten.com/${city}/articles/${slug}`)}`}
+            href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(article.title)}&url=${encodeURIComponent(`https://hoikaten.com/${city}/articles/${slug}`)}`}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-black text-white text-sm font-medium hover:bg-gray-800 transition-colors"
@@ -194,7 +197,7 @@ export default async function ArticlePage({
             X
           </a>
           <a
-            href={`https://social-plugins.line.me/lineit/share?url=${encodeURIComponent(`https://${city}.hoikaten.com/${city}/articles/${slug}`)}&text=${encodeURIComponent(article.title)}`}
+            href={`https://social-plugins.line.me/lineit/share?url=${encodeURIComponent(`https://hoikaten.com/${city}/articles/${slug}`)}&text=${encodeURIComponent(article.title)}`}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-[#06C755] text-white text-sm font-medium hover:bg-[#05b04c] transition-colors"

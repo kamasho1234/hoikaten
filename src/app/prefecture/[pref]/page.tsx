@@ -82,6 +82,9 @@ export async function generateMetadata({
   return {
     title: `${prefName}の保育園 入園点数シミュレーター一覧｜hoikaten`,
     description: `${prefName}で対応している保育園入園点数シミュレーターの一覧。${cityNames}${suffix}${municipalities.length}自治体に対応。`,
+    alternates: {
+      canonical: `https://hoikaten.com/prefecture/${pref}`,
+    },
   };
 }
 

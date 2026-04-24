@@ -27,6 +27,9 @@ export async function generateMetadata({
   return {
     title: `${name}の保育園 入園点数シミュレーター｜無料で自動計算【hoikaten】`,
     description: `${name}の保育園入園点数を無料でシミュレーション。かんたんな質問に答えるだけで点数の目安と評価がわかります。令和7〜8年度の公式基準で計算。`,
+    alternates: {
+      canonical: `https://hoikaten.com/${city}`,
+    },
   };
 }
 
@@ -65,7 +68,7 @@ export default async function CityPage({
         </p>
         <div className="flex justify-center gap-3">
           <a
-            href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(`${data.municipality.name}の保育園入園点数シミュレーター、かんたんに点数がわかって便利！`)}&url=${encodeURIComponent(`https://${data.municipality.slug}.hoikaten.com`)}`}
+            href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(`${data.municipality.name}の保育園入園点数シミュレーター、かんたんに点数がわかって便利！`)}&url=${encodeURIComponent(`https://hoikaten.com/${data.municipality.slug}`)}`}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-black text-white text-sm font-medium hover:bg-gray-800 transition-colors"
@@ -76,7 +79,7 @@ export default async function CityPage({
             X
           </a>
           <a
-            href={`https://social-plugins.line.me/lineit/share?url=${encodeURIComponent(`https://${data.municipality.slug}.hoikaten.com`)}&text=${encodeURIComponent(`${data.municipality.name}の保育園入園点数シミュレーター`)}`}
+            href={`https://social-plugins.line.me/lineit/share?url=${encodeURIComponent(`https://hoikaten.com/${data.municipality.slug}`)}&text=${encodeURIComponent(`${data.municipality.name}の保育園入園点数シミュレーター`)}`}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-[#06C755] text-white text-sm font-medium hover:bg-[#05b04c] transition-colors"

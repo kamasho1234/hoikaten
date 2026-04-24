@@ -223,12 +223,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  const articlePages = articles.map((a) => ({
-    url: `${baseUrl}/${a.citySlug}/articles/${a.slug}`,
-    lastModified: new Date(a.publishedAt),
-    changeFrequency: "monthly" as const,
-    priority: 0.7,
-  }));
+  const articlePages = articles
+    .filter((a) => a.citySlug !== "general")
+    .map((a) => ({
+      url: `${baseUrl}/${a.citySlug}/articles/${a.slug}`,
+      lastModified: new Date(a.publishedAt),
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    }));
 
   const generalArticles = articles.filter((a) => a.citySlug === "general");
   const generalArticlePages = generalArticles.map((a) => ({
