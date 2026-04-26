@@ -188,6 +188,14 @@ import "@/lib/articles/numazu";
 import "@/lib/articles/takaoka";
 import "@/lib/articles/ogaki";
 import "@/lib/articles/itoshima";
+import "@/lib/articles/akishima";
+import "@/lib/articles/higashikurume";
+import "@/lib/articles/kunitachi";
+import "@/lib/articles/komae";
+import "@/lib/articles/inagi";
+import "@/lib/articles/fujimi";
+import "@/lib/articles/abiko";
+import "@/lib/articles/isehara";
 
 import { getAllMunicipalities } from "@/lib/data";
 import { HeaderNav } from "@/components/header-nav";
