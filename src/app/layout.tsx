@@ -220,6 +220,14 @@ import "@/lib/articles/habikino";
 import "@/lib/articles/chikushino";
 import "@/lib/articles/sakura";
 import "@/lib/articles/nisshin";
+import "@/lib/articles/onojo";
+import "@/lib/articles/dazaifu";
+import "@/lib/articles/nagaokakyo";
+import "@/lib/articles/kashihara";
+import "@/lib/articles/ikoma";
+import "@/lib/articles/mobara";
+import "@/lib/articles/okegawa";
+import "@/lib/articles/katano";
 
 import { getAllMunicipalities } from "@/lib/data";
 import { HeaderNav } from "@/components/header-nav";

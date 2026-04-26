@@ -218,6 +218,14 @@ import "@/lib/articles/habikino";
 import "@/lib/articles/chikushino";
 import "@/lib/articles/sakura";
 import "@/lib/articles/nisshin";
+import "@/lib/articles/onojo";
+import "@/lib/articles/dazaifu";
+import "@/lib/articles/nagaokakyo";
+import "@/lib/articles/kashihara";
+import "@/lib/articles/ikoma";
+import "@/lib/articles/mobara";
+import "@/lib/articles/okegawa";
+import "@/lib/articles/katano";
 
 const prefectureSlugs = [
   "hokkaido", "aomori", "iwate", "miyagi", "akita", "yamagata", "fukushima",
