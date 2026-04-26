@@ -44,7 +44,7 @@ async function main() {
   const urls = await fetchSitemapUrls();
   console.log(`対象URL数: ${urls.length}`);
 
-  const BATCH_SIZE = 10000;
+  const BATCH_SIZE = 500;
   let submitted = 0;
 
   for (let i = 0; i < urls.length; i += BATCH_SIZE) {
@@ -55,6 +55,12 @@ async function main() {
 
     if (status !== 200 && status !== 202) {
       console.error(`送信エラー: ステータス ${status}`);
+      break;
+    }
+
+    // レートリミット対策
+    if (i + BATCH_SIZE < urls.length) {
+      await new Promise((r) => setTimeout(r, 1000));
     }
   }
 

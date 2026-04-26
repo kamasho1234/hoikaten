@@ -59,6 +59,8 @@ import "@/lib/articles/toyota";
 import "@/lib/articles/kawagoe";
 import "@/lib/articles/kanazawa";
 import "@/lib/articles/takatsuki";
+import "@/lib/articles/kazo";
+import "@/lib/articles/kuki";
 import "@/lib/articles/koshigaya";
 import "@/lib/articles/nara";
 import "@/lib/articles/nagasaki";
@@ -210,6 +212,12 @@ import "@/lib/articles/gyoda";
 import "@/lib/articles/higashimatsuyama";
 import "@/lib/articles/shiki";
 import "@/lib/articles/yotsukaido";
+import "@/lib/articles/obu";
+import "@/lib/articles/tondabayashi";
+import "@/lib/articles/habikino";
+import "@/lib/articles/chikushino";
+import "@/lib/articles/sakura";
+import "@/lib/articles/nisshin";
 
 const prefectureSlugs = [
   "hokkaido", "aomori", "iwate", "miyagi", "akita", "yamagata", "fukushima",
