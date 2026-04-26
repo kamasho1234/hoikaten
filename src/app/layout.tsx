@@ -204,6 +204,14 @@ import "@/lib/articles/kisarazu";
 import "@/lib/articles/inzai";
 import "@/lib/articles/kamagaya";
 import "@/lib/articles/ayase";
+import "@/lib/articles/kiyose";
+import "@/lib/articles/higashiyamato";
+import "@/lib/articles/musashimurayama";
+import "@/lib/articles/sakado";
+import "@/lib/articles/gyoda";
+import "@/lib/articles/higashimatsuyama";
+import "@/lib/articles/shiki";
+import "@/lib/articles/yotsukaido";
 
 import { getAllMunicipalities } from "@/lib/data";
 import { HeaderNav } from "@/components/header-nav";
