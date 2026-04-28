@@ -226,6 +226,26 @@ import "@/lib/articles/ikoma";
 import "@/lib/articles/mobara";
 import "@/lib/articles/okegawa";
 import "@/lib/articles/katano";
+import "@/lib/articles/isesaki";
+import "@/lib/articles/ota-gunma";
+import "@/lib/articles/kiryu";
+import "@/lib/articles/hitachi";
+import "@/lib/articles/hitachinaka";
+import "@/lib/articles/koga";
+import "@/lib/articles/toride";
+import "@/lib/articles/moriya";
+import "@/lib/articles/hirosaki";
+import "@/lib/articles/ishinomaki";
+import "@/lib/articles/oyama";
+import "@/lib/articles/ashikaga";
+import "@/lib/articles/tochigi-city";
+import "@/lib/articles/nasushiobara";
+import "@/lib/articles/sano";
+import "@/lib/articles/moka";
+import "@/lib/articles/tsuruoka";
+import "@/lib/articles/sakata";
+import "@/lib/articles/iizuka";
+import "@/lib/articles/munakata";
 
 const prefectureSlugs = [
   "hokkaido", "aomori", "iwate", "miyagi", "akita", "yamagata", "fukushima",

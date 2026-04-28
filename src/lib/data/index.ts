@@ -229,6 +229,26 @@ import { ikomaData } from './ikoma';
 import { mobaraData } from './mobara';
 import { okegawaData } from './okegawa';
 import { katanoData } from './katano';
+import { isesakiData } from './isesaki';
+import { otaGunmaData } from './ota-gunma';
+import { kiryuData } from './kiryu';
+import { hitachiData } from './hitachi';
+import { hitachinakaData } from './hitachinaka';
+import { kogaData } from './koga';
+import { torideData } from './toride';
+import { moriyaData } from './moriya';
+import { hirosakiData } from './hirosaki';
+import { ishinomakiData } from './ishinomaki';
+import { oyamaData } from './oyama';
+import { ashikagaData } from './ashikaga';
+import { tochigiCityData } from './tochigi-city';
+import { nasushiobaraData } from './nasushiobara';
+import { sanoData } from './sano';
+import { mokaData } from './moka';
+import { tsuruokaData } from './tsuruoka';
+import { sakataData } from './sakata';
+import { iizukaData } from './iizuka';
+import { munakataData } from './munakata';
 
 const municipalityMap: Record<string, MunicipalityData> = {
   [setagayaData.municipality.slug]: setagayaData,
@@ -461,6 +481,26 @@ const municipalityMap: Record<string, MunicipalityData> = {
   [mobaraData.municipality.slug]: mobaraData,
   [okegawaData.municipality.slug]: okegawaData,
   [katanoData.municipality.slug]: katanoData,
+  [isesakiData.municipality.slug]: isesakiData,
+  [otaGunmaData.municipality.slug]: otaGunmaData,
+  [kiryuData.municipality.slug]: kiryuData,
+  [hitachiData.municipality.slug]: hitachiData,
+  [hitachinakaData.municipality.slug]: hitachinakaData,
+  [kogaData.municipality.slug]: kogaData,
+  [torideData.municipality.slug]: torideData,
+  [moriyaData.municipality.slug]: moriyaData,
+  [hirosakiData.municipality.slug]: hirosakiData,
+  [ishinomakiData.municipality.slug]: ishinomakiData,
+  [oyamaData.municipality.slug]: oyamaData,
+  [ashikagaData.municipality.slug]: ashikagaData,
+  [tochigiCityData.municipality.slug]: tochigiCityData,
+  [nasushiobaraData.municipality.slug]: nasushiobaraData,
+  [sanoData.municipality.slug]: sanoData,
+  [mokaData.municipality.slug]: mokaData,
+  [tsuruokaData.municipality.slug]: tsuruokaData,
+  [sakataData.municipality.slug]: sakataData,
+  [iizukaData.municipality.slug]: iizukaData,
+  [munakataData.municipality.slug]: munakataData,
 };
 
 export function getMunicipalityData(slug: string): MunicipalityData | undefined {
