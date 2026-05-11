@@ -260,6 +260,14 @@ import "@/lib/articles/uruma";
 import "@/lib/articles/niihama";
 import "@/lib/articles/tomigusuku";
 import "@/lib/articles/ishigaki";
+import "@/lib/articles/izumo";
+import "@/lib/articles/nishio";
+import "@/lib/articles/iwata";
+import "@/lib/articles/miyakonojo";
+import "@/lib/articles/ube";
+import "@/lib/articles/matsusaka";
+import "@/lib/articles/ueda";
+import "@/lib/articles/komaki";
 
 import { getAllMunicipalities } from "@/lib/data";
 import { HeaderNav } from "@/components/header-nav";
