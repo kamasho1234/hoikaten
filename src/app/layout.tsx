@@ -268,6 +268,16 @@ import "@/lib/articles/ube";
 import "@/lib/articles/matsusaka";
 import "@/lib/articles/ueda";
 import "@/lib/articles/komaki";
+import "@/lib/articles/fujieda";
+import "@/lib/articles/kuwana";
+import "@/lib/articles/yaizu";
+import "@/lib/articles/inazawa";
+import "@/lib/articles/isahaya";
+import "@/lib/articles/shunan";
+import "@/lib/articles/seto";
+import "@/lib/articles/fujinomiya";
+import "@/lib/articles/onomichi";
+import "@/lib/articles/osaki";
 
 import { getAllMunicipalities } from "@/lib/data";
 import { HeaderNav } from "@/components/header-nav";
