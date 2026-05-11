@@ -278,6 +278,16 @@ import "@/lib/articles/seto";
 import "@/lib/articles/fujinomiya";
 import "@/lib/articles/onomichi";
 import "@/lib/articles/osaki";
+import "@/lib/articles/kakamigahara";
+import "@/lib/articles/yonago";
+import "@/lib/articles/okinawa";
+import "@/lib/articles/tsuchiura";
+import "@/lib/articles/iwakuni";
+import "@/lib/articles/kirishima";
+import "@/lib/articles/yatsushiro";
+import "@/lib/articles/ise";
+import "@/lib/articles/handa";
+import "@/lib/articles/kakegawa";
 
 import { getAllMunicipalities } from "@/lib/data";
 import { HeaderNav } from "@/components/header-nav";
