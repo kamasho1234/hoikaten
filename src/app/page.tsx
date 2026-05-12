@@ -1,6 +1,16 @@
+import type { Metadata } from "next";
 import { getAllMunicipalities } from "@/lib/data";
 import { getTopArticles } from "@/lib/articles";
 import { RandomAd } from "@/components/random-ad";
+
+export const metadata: Metadata = {
+  title: "保育園の入園点数を無料計算【261自治体対応シミュレーター】hoikaten",
+  description:
+    "保育園の入園点数（指数）を30秒で計算。フルタイム・時短・育休中・ひとり親など家庭の状況を入力するだけ。さいたま市・横浜市・川崎市・名古屋市など261自治体対応。無料・登録不要。",
+  alternates: {
+    canonical: "https://hoikaten.com",
+  },
+};
 
 export default function Home() {
   const municipalities = getAllMunicipalities();

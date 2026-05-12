@@ -1191,9 +1191,9 @@ const articles: Article[] = [
   {
     slug: "hoikuryo-keisan",
     citySlug: "shizuoka",
-    title: "静岡市の保育料の計算方法　所得と保育料の関係",
+    title: "静岡市の保育料計算【令和8年度版】所得段階別の金額早見表",
     description:
-      "静岡市の認可保育園の保育料がどのように決まるかを解説します。",
+      "静岡市の認可保育園の保育料を所得・子ども数別に詳しく解説。年収別の金額早見表、無償化（3歳〜）の対象条件、ひとり親減免・副食費の全制度をわかりやすくまとめました。令和8年度対応。",
     image: "https://images.unsplash.com/photo-1554224154-26032ffc0d07?w=800&h=400&fit=crop",
     category: "保活の基本",
     categoryColor: "green",

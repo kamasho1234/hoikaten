@@ -1438,8 +1438,8 @@ const articles: Article[] = [
   {
     slug: "hoikuryo-keisan",
     citySlug: "hiroshima",
-    title: "広島市の保育料の計算方法と目安",
-    description: "広島市の保育料がどのように計算されるか、目安金額とともに解説します。",
+    title: "広島市の保育料計算【令和8年度版】年収別の金額シミュレーション",
+    description: "広島市の認可保育園の保育料（利用者負担額）を年収別に詳しく解説。3歳未満・3歳以上の計算方法、無償化の対象確認、副食費・第2子以降の減額制度まで。令和8年度対応。",
     image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=400&fit=crop",
     category: "お金・制度",
     categoryColor: "rose",

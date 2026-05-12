@@ -29,8 +29,10 @@ export async function generateMetadata({
   const article = getArticle(city, slug);
   if (!article) return {};
   const data = getMunicipalityData(city);
+  const cityName = data?.municipality.name ?? city;
+  const titleSuffix = article.title.includes(cityName) ? "｜hoikaten" : `｜${cityName}｜hoikaten`;
   return {
-    title: `${article.title}｜${data?.municipality.name ?? city}｜hoikaten`,
+    title: `${article.title}${titleSuffix}`,
     description: article.description,
     alternates: {
       canonical: `https://hoikaten.com/${city}/articles/${slug}`,
