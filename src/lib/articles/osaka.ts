@@ -1678,9 +1678,9 @@ const articles: Article[] = [
   {
     slug: "shurou-shoumeisho",
     citySlug: "osaka",
-    title: "大阪市の就労証明書の書き方ガイド｜会社に依頼するポイント",
+    title: "大阪市の就労証明書 記入例【令和8年度版】点数への影響と注意点",
     description:
-      "大阪市の保育園申込に必要な就労証明書の書き方、会社への依頼方法、よくあるミスと対策を解説します。",
+      "大阪市の保育園申込みに必要な就労証明書の記入例を徹底解説。基本点数を左右する月就労日数・時間の正しい書き方、よくある記入ミスTop5と対策、会社への依頼手順まで網羅。令和8年度対応。",
     image:
       "https://images.unsplash.com/photo-1450101499163-c8848e66ad76?w=800&h=400&fit=crop",
     category: "保活の基本",

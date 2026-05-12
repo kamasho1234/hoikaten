@@ -1950,9 +1950,9 @@ const articles: Article[] = [
   {
     slug: "shurou-shoumeisho",
     citySlug: "nagoya",
-    title: "名古屋市の就労証明書の書き方ガイド　記入例と注意点",
+    title: "名古屋市の就労証明書 記入例【令和8年度版】ランク別の書き方と注意点",
     description:
-      "名古屋市の保育園申込に必要な就労証明書の書き方を、記入例と注意点つきで解説します。",
+      "名古屋市の保育園申込みに必要な就労証明書の記入例を徹底解説。ランクA〜Fの判定基準（週40時間以上でランクA）、就労時間・日数の正しい書き方、よくある記入ミスと対策。令和8年度対応。",
     image:
       "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&h=400&fit=crop",
     category: "保活の基本",

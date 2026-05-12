@@ -578,6 +578,91 @@ const articles: Article[] = [
     publishedAt: "2026-03-28",
     popularity: 70,
   },
+  {
+    slug: "shurou-shoumeisho",
+    citySlug: "setagaya",
+    title: "世田谷区の就労証明書 記入例【令和8年度版】点数別の書き方と注意点",
+    description:
+      "世田谷区の保育園申込みに必要な就労証明書の記入例を徹底解説。基本指数を決める週就労時間・日数の正しい書き方（週40時間以上で50点）、よくある記入ミスTop5と対策チェックリスト。令和8年度申込対応。",
+    image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&h=400&fit=crop",
+    category: "保活の基本",
+    categoryColor: "green",
+    content: `<h2>就労証明書とは</h2>
+<p>就労証明書は、保護者が「保育を必要とする事由（就労）」を証明するための書類です。勤務先に記入・証明してもらい、区役所に提出します。<strong>基本指数を決める最重要書類</strong>のため、記入内容が点数に直結します。</p>
+
+<h2>世田谷区の指数と就労時間の関係</h2>
+<p>世田谷区は東京都方式の指数制（各保護者最大50点）を採用しています。就労証明書に記載された就労時間・日数によって以下の指数が付与されます。</p>
+<table>
+<tr><th>就労条件</th><th>基本指数</th></tr>
+<tr><td>週5日以上かつ週40時間以上</td><td>50点</td></tr>
+<tr><td>週4日以上かつ週35時間以上</td><td>40点</td></tr>
+<tr><td>週4日以上かつ週30時間以上</td><td>35点</td></tr>
+<tr><td>週3日以上かつ週25時間以上</td><td>30点</td></tr>
+<tr><td>週3日以上かつ週20時間以上</td><td>25点</td></tr>
+<tr><td>週3日以上かつ週16時間以上</td><td>20点</td></tr>
+<tr><td>月48時間以上（上記以外）</td><td>15点</td></tr>
+</table>
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>フルタイム共働きの場合、両親合計100点が基本ラインです。週40時間以上の就労なら50点、時短勤務で週35時間以上なら40点になります。<span class="highlight">証明書の就労時間欄が点数を決定します。</span></p>
+</div>
+
+<h2>就労証明書の主な記入項目</h2>
+<ul>
+<li>勤務先の名称・所在地・電話番号</li>
+<li>雇用形態（正社員・パート・派遣など）</li>
+<li><strong>1週間の就労日数</strong>（指数判定に直結）</li>
+<li><strong>1週間の就労時間</strong>（指数判定に直結）</li>
+<li>雇用開始日・雇用期間</li>
+<li>所在地・業種</li>
+</ul>
+<div class="point-box">
+<p><strong>重要</strong></p>
+<p>「1週間の就労時間」欄には<span class="highlight">所定労働時間（契約上の時間）</span>を記入します。残業時間は含みません。時短勤務中の方は時短後の実際の勤務時間を記入してもらいましょう。</p>
+</div>
+
+<h2>よくある記入ミス Top5</h2>
+<table>
+<tr><th>ミスの内容</th><th>対策</th></tr>
+<tr><td>残業込みの時間を書いてしまう</td><td>所定労働時間のみ記入するよう会社に伝える</td></tr>
+<tr><td>育休前の勤務時間を書く</td><td>復職後の（時短）勤務時間を記入してもらう</td></tr>
+<tr><td>会社の記入漏れ（印鑑・日付など）</td><td>提出前に全項目チェック</td></tr>
+<tr><td>在宅勤務なのに「居宅外」と記載</td><td>テレワーク・在宅の場合も居宅外就労に該当することを担当者に説明</td></tr>
+<tr><td>提出期限ギリギリに依頼</td><td>申込期限の1か月前には会社に依頼する</td></tr>
+</table>
+
+<h2>会社への依頼タイミング</h2>
+<p>就労証明書は会社の人事部門に依頼してから受け取るまで<strong>2〜3週間かかる</strong>ことがあります。世田谷区の一次申込は9月〜11月上旬ですので、<span class="highlight">8月中には依頼</span>しましょう。</p>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content"><strong>8月上旬：会社に依頼</strong><p>就労証明書の様式を世田谷区HPからダウンロードして人事部門に渡す。</p></div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content"><strong>8月中〜下旬：受け取り・確認</strong><p>受け取り後は就労日数・時間が正確かすぐに確認。ミスがあれば再依頼。</p></div>
+</div>
+<div class="step">
+<div class="step-num">3</div>
+<div class="step-content"><strong>9〜11月：申込時に提出</strong><p>一次利用調整（9月〜11月10日）に合わせて提出。</p></div>
+</div>
+
+<h2>自営業・フリーランスの場合</h2>
+<p>自営業・フリーランスの場合は「就労証明書」ではなく<strong>自営業等申告書</strong>を提出します。確定申告書の控えや業務委託契約書など、就労実態を証明する書類の添付が必要です。</p>
+
+<h2>育休中の方へ</h2>
+<p>育児休業中の方は、育休前（または復職後予定）の就労条件を記載した証明書を提出します。産休・育休中でも入園申込は可能で、「育休中の方は入園月から復職」という条件で申込できます。</p>
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>復職後に時短勤務を予定している方は、<span class="highlight">時短勤務後の就労時間</span>で証明書を作成してもらいましょう。週35時間以上確保できれば40点が維持できます。</p>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>就労証明書の様式・記入例は<a href="https://www.city.setagaya.lg.jp/01044/1561.html" target="_blank" rel="noopener">世田谷区公式サイト「令和8年4月入園について」</a>からダウンロードできます。</p>
+</div>`,
+    publishedAt: "2026-05-13",
+    popularity: 55,
+  },
 ];
 
 registerArticles(articles);

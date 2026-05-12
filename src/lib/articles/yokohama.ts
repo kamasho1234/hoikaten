@@ -2046,9 +2046,9 @@ const articles: Article[] = [
   {
     slug: "shurou-shoumeisho",
     citySlug: "yokohama",
-    title: "横浜市の就労証明書の書き方と注意点",
+    title: "横浜市の就労証明書 記入例【令和8年度版】ランク別の書き方と注意点",
     description:
-      "保育園の申請で最も重要な書類「就労証明書」。横浜市での書き方のポイントや間違いやすい点を解説します。",
+      "横浜市の保育園申込みに必要な就労証明書の記入例を徹底解説。ランクA〜Fの判定基準、月就労時間・日数の正しい書き方、よくある記入ミスと対策チェックリスト。令和8年度申込対応。",
     image:
       "https://images.unsplash.com/photo-1450101499163-c8848e968838?w=800&h=400&fit=crop",
     category: "保活の基本",

@@ -1585,8 +1585,8 @@ const articles: Article[] = [
   {
     slug: "shurou-shoumeisho",
     citySlug: "saitama",
-    title: "さいたま市の就労証明書の書き方と注意点",
-    description: "さいたま市の保育園申込に必要な就労証明書の記入ポイントを解説します。",
+    title: "さいたま市の就労証明書 記入例【令和8年度版】点数別の書き方と注意点",
+    description: "さいたま市の保育園申込みに必要な就労証明書の記入例を徹底解説。月160時間以上で最高点26点、就労時間帯別の点数早見表、よくある記入ミスTop5と対策チェックリスト。令和8年度申込対応。",
     image: "https://images.unsplash.com/photo-1568667256549-094345857637?w=800&h=400&fit=crop",
     category: "保活の基本",
     categoryColor: "green",
