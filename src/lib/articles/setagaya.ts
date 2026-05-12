@@ -724,6 +724,54 @@ const articles: Article[] = [
     publishedAt: "2026-05-13",
     popularity: 55,
   },
+  {
+    slug: "shokuhi-jippi",
+    citySlug: "setagaya",
+    title: "世田谷区の保育園の給食費（副食費）はいくら？【令和8年度版】免除条件と金額",
+    description:
+      "世田谷区の保育園の給食費（副食費）は月いくら？所得・子ども数による副食費免除の条件と申請方法、保育料無償化の範囲と実費負担の全額をわかりやすく解説。令和8年度対応。",
+    image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&h=400&fit=crop",
+    category: "お金・制度",
+    categoryColor: "amber",
+    content: `<h2>世田谷区の保育園の給食費（副食費）とは</h2>
+<p>2019年10月から3〜5歳児の保育料が無償化されましたが、<strong>給食の食材費（副食費）は引き続き実費負担</strong>となります。世田谷区の認可保育園では主食費・副食費が毎月かかります。</p>
+
+<h2>副食費の目安金額</h2>
+<table>
+<tr><th>年齢</th><th>主食費（めやす）</th><th>副食費（めやす）</th><th>合計</th></tr>
+<tr><td>0〜2歳</td><td>保育料に含む</td><td>保育料に含む</td><td>保育料に含む</td></tr>
+<tr><td>3〜5歳（無償化対象）</td><td>約1,500〜2,000円</td><td>約3,000〜4,500円</td><td>約4,500〜6,500円</td></tr>
+</table>
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>副食費は施設によって金額が異なります。入園前に各保育園に確認しましょう。世田谷区の公定価格外の副食費は月<span class="highlight">4,500円前後</span>が相場です。</p>
+</div>
+
+<h2>副食費が免除される条件</h2>
+<p>以下の世帯は副食費の免除または減額が受けられます。</p>
+<table>
+<tr><th>条件</th><th>内容</th></tr>
+<tr><td>年収360万円未満相当（低所得世帯）</td><td>副食費全額免除</td></tr>
+<tr><td>第3子以降</td><td>副食費全額免除</td></tr>
+<tr><td>生活保護受給世帯</td><td>全額免除</td></tr>
+</table>
+
+<h2>主食費について</h2>
+<p>3歳以上で無償化対象のお子さんでも、主食（ご飯・パン）代は別途実費負担の場合があります。ただし施設によっては主食を提供しないところもあります。</p>
+
+<h2>その他の実費負担</h2>
+<ul>
+<li>行事費（遠足・お遊戯会など）</li>
+<li>教材費・文具費</li>
+<li>おむつ処理費（施設によって異なる）</li>
+</ul>
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>副食費の詳細・免除申請は<a href="https://www.city.setagaya.lg.jp/01044/1561.html" target="_blank" rel="noopener">世田谷区公式サイト「令和8年4月入園について」</a>でご確認ください。</p>
+</div>`,
+    publishedAt: "2026-05-13",
+    popularity: 48,
+  },
 ];
 
 registerArticles(articles);

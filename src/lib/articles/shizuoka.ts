@@ -1154,9 +1154,9 @@ const articles: Article[] = [
   {
     slug: "shokuhi-jippi",
     citySlug: "shizuoka",
-    title: "静岡市の保育園の給食費・食材費の実費徴収",
+    title: "静岡市の保育園の給食費（副食費）はいくら？【令和8年度版】免除条件と金額",
     description:
-      "静岡市の保育園で実費徴収される給食費（副食費・主食費）の目安と免除条件を解説します。",
+      "静岡市の保育園の給食費（副食費）は月いくら？所得・子ども数による副食費免除の条件と申請方法、保育料無償化の範囲と実費負担の全額をわかりやすく解説。令和8年度対応。",
     image: "https://images.unsplash.com/photo-1606787366850-de6330128bfc?w=800&h=400&fit=crop",
     category: "保活の基本",
     categoryColor: "green",

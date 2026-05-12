@@ -1366,8 +1366,8 @@ const articles: Article[] = [
   {
     slug: "shokuhi-jippi",
     citySlug: "kobe",
-    title: "神戸市の保育園の給食費・実費負担はいくら？",
-    description: "神戸市の認可保育園で必要な給食費やその他の実費負担について、目安金額とともに解説します。",
+    title: "神戸市の保育園の給食費（副食費）はいくら？【令和8年度版】免除条件と金額",
+    description: "神戸市の保育園の給食費（副食費）は月いくら？所得・子ども数による副食費免除の条件と申請方法、保育料無償化の範囲と実費負担の全額をわかりやすく解説。令和8年度対応。",
     image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&h=400&fit=crop",
     category: "お金・制度",
     categoryColor: "rose",

@@ -521,6 +521,50 @@ const articles: Article[] = [
     publishedAt: "2026-05-13",
     popularity: 42,
   },
+  {
+    slug: "shokuhi-jippi",
+    citySlug: "hino",
+    title: "日野市の保育園の給食費（副食費）はいくら？【令和8年度版】免除条件と金額",
+    description:
+      "日野市の保育園の給食費（副食費）は月いくら？所得・子ども数による副食費免除の条件と申請方法、保育料無償化の範囲と実費負担の全額をわかりやすく解説。令和8年度対応。",
+    image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&h=400&fit=crop",
+    category: "お金・制度",
+    categoryColor: "amber",
+    content: `<h2>日野市の保育園の給食費（副食費）とは</h2>
+<p>3〜5歳児の保育料は無償化されていますが、<strong>給食の食材費（副食費）は引き続き実費負担</strong>となります。日野市の認可保育園では主食費・副食費が毎月かかります。</p>
+
+<h2>副食費の目安金額</h2>
+<table>
+<tr><th>年齢</th><th>副食費（めやす）</th></tr>
+<tr><td>0〜2歳</td><td>保育料に含む</td></tr>
+<tr><td>3〜5歳（無償化対象）</td><td>約3,000〜4,500円/月</td></tr>
+</table>
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>副食費は施設によって異なります。入園前に各保育施設に確認しましょう。</p>
+</div>
+
+<h2>副食費が免除される条件</h2>
+<table>
+<tr><th>条件</th><th>内容</th></tr>
+<tr><td>年収360万円未満相当（低所得世帯）</td><td>副食費全額免除</td></tr>
+<tr><td>第3子以降</td><td>副食費全額免除</td></tr>
+<tr><td>生活保護受給世帯</td><td>全額免除</td></tr>
+</table>
+
+<h2>その他の実費負担</h2>
+<ul>
+<li>行事費（遠足・お遊戯会など）</li>
+<li>教材費・文具費</li>
+<li>おむつ処理費（施設によって異なる）</li>
+</ul>
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>副食費の詳細は<a href="https://www.city.hino.lg.jp/kodomo/hoiku/" target="_blank" rel="noopener">日野市公式サイト「保育園・認定こども園」</a>でご確認ください。</p>
+</div>`,
+    publishedAt: "2026-05-13",
+    popularity: 40,
+  },
 ];
 
 registerArticles(articles);

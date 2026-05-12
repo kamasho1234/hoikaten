@@ -510,6 +510,55 @@ const articles: Article[] = [
     publishedAt: "2026-05-13",
     popularity: 42,
   },
+  {
+    slug: "shokuhi-jippi",
+    citySlug: "tama",
+    title: "多摩市の保育園の給食費（副食費）はいくら？【令和8年度版】免除条件と金額",
+    description:
+      "多摩市の保育園の給食費（副食費）は月いくら？所得・子ども数による副食費免除の条件と申請方法、保育料無償化の範囲と実費負担の全額をわかりやすく解説。令和8年度対応。",
+    image: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=800&h=400&fit=crop",
+    category: "お金・制度",
+    categoryColor: "amber",
+    content: `<h2>多摩市の副食費とは？</h2>
+<p>2019年10月の幼児教育・保育無償化により、<strong>3歳以上の保育料は無料</strong>になりました。ただし、給食の<strong>副食費（おかず代）は実費負担</strong>が残ります。多摩市では副食費として月額4,500円程度が別途かかります。</p>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>3歳以上でも副食費は無償化の対象外です。ただし、低所得世帯・第3子以降は免除制度があります。</p>
+</div>
+
+<h2>副食費の月額目安</h2>
+<table>
+<tr><th>年齢</th><th>副食費（月額目安）</th></tr>
+<tr><td>3〜5歳児</td><td>約4,500円</td></tr>
+<tr><td>0〜2歳児</td><td>保育料に含む（副食費別途なし）</td></tr>
+</table>
+<p class="text-xs text-muted-foreground">※金額は目安です。詳細は多摩市公式サイトでご確認ください。</p>
+
+<h2>副食費が免除される条件</h2>
+<table>
+<tr><th>免除条件</th><th>内容</th></tr>
+<tr><td>年収360万円未満相当の世帯</td><td>市民税所得割額が一定以下の世帯は副食費が免除</td></tr>
+<tr><td>第3子以降の子ども</td><td>小学3年生以下のきょうだいが2人以上いる場合、3人目以降は免除</td></tr>
+<tr><td>生活保護世帯</td><td>副食費の負担なし</td></tr>
+</table>
+
+<h2>保育料無償化の対象範囲</h2>
+<ul>
+<li>無償化対象：<strong>保育料（基本利用料）</strong>のみ — 3歳〜5歳</li>
+<li>実費負担が残るもの：副食費（おかず代）・主食費（ご飯代）・行事費・通園バス代など</li>
+</ul>
+
+<h2>副食費の支払い方法</h2>
+<p>副食費は園から直接請求されます。毎月口座引き落としまたは現金納付が一般的です。免除に該当する場合は入園時や毎年6月ごろに申請手続きが必要です。多摩市子ども政策課に確認してください。</p>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>最新の副食費・実費負担の詳細は<a href="https://www.city.tama.lg.jp/kosodate/kosodate/hoiku/" target="_blank" rel="noopener">多摩市公式サイト「保育園・認定こども園」</a>からご確認ください。</p>
+</div>`,
+    publishedAt: "2026-05-13",
+    popularity: 40,
+  },
 ];
 
 registerArticles(articles);
