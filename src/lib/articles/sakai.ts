@@ -1462,9 +1462,9 @@ const articles: Article[] = [
   {
     slug: "shurou-shoumeisho",
     citySlug: "sakai",
-    title: "堺市の就労証明書の書き方　勤務先への依頼のコツ",
+    title: "堺市の就労証明書 記入例【令和8年度版】書き方と注意点まとめ",
     description:
-      "堺市の保育園申込に必要な就労証明書の入手方法、記入のポイント、勤務先への依頼のコツを解説します。",
+      "堺市の保育園申込みに必要な就労証明書の記入例を徹底解説。月間就労時間・日数の正しい書き方、よくある記入ミスTop5と対策チェックリスト、様式ダウンロード先まで網羅。令和8年度申込対応。",
     image:
       "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
     category: "手続き",

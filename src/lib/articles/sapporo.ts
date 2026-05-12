@@ -1762,9 +1762,9 @@ const articles: Article[] = [
   {
     slug: "hoikuryo-keisan",
     citySlug: "sapporo",
-    title: "札幌市の保育料はいくら？計算方法と階層区分を解説",
+    title: "札幌市の保育料計算【令和8年度版】年収別シミュレーション・早見表",
     description:
-      "札幌市の認可保育所の保育料の計算方法、所得に応じた階層区分、減免制度を解説します。",
+      "札幌市の認可保育園の保育料を年収・子ども数別に詳しく解説。市民税所得割額に基づく階層区分早見表、無償化（3歳〜）の対象確認、副食費・第2子以降の減免制度まで。令和8年度対応。",
     image:
       "https://images.unsplash.com/photo-1554224154-22dec7ec8818?w=800&h=400&fit=crop",
     category: "費用・制度",
@@ -1863,9 +1863,9 @@ const articles: Article[] = [
   {
     slug: "shurou-shoumeisho",
     citySlug: "sapporo",
-    title: "就労証明書の書き方ガイド　札幌市の保育園申込に必要な記載項目",
+    title: "札幌市の就労証明書 記入例【令和8年度版】書き方と注意点まとめ",
     description:
-      "札幌市の保育園入園に必要な就労証明書の記入方法、注意点、よくある間違いを解説します。",
+      "札幌市の保育園申込みに必要な就労証明書の記入例を徹底解説。月間就労時間・日数の正しい書き方、よくある記入ミスTop5と対策チェックリスト、様式ダウンロード先まで網羅。令和8年度申込対応。",
     image:
       "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&h=400&fit=crop",
     category: "申請・手続き",

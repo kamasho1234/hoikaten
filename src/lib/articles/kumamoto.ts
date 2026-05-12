@@ -1250,9 +1250,9 @@ const articles: Article[] = [
   {
     slug: "shurou-shoumeisho",
     citySlug: "kumamoto",
-    title: "熊本市の就労証明書の書き方と注意点",
+    title: "熊本市の就労証明書 記入例【令和8年度版】書き方と注意点まとめ",
     description:
-      "熊本市の保育園申込で必要な就労証明書の記入方法と勤務先への依頼のコツを解説します。",
+      "熊本市の保育園申込みに必要な就労証明書の記入例を徹底解説。月間就労時間・日数の正しい書き方、よくある記入ミスTop5と対策チェックリスト、様式ダウンロード先まで網羅。令和8年度申込対応。",
     image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&h=400&fit=crop",
     category: "保活の基本",
     categoryColor: "green",

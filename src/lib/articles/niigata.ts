@@ -1308,9 +1308,9 @@ const articles: Article[] = [
   {
     slug: "shurou-shoumeisho",
     citySlug: "niigata",
-    title: "新潟市の就労証明書の書き方ガイド　記入例と注意点",
+    title: "新潟市の就労証明書 記入例【令和8年度版】書き方と注意点まとめ",
     description:
-      "新潟市の保育園申込に必要な就労証明書の書き方を、記入例と注意点を交えて解説します。",
+      "新潟市の保育園申込みに必要な就労証明書の記入例を徹底解説。月間就労時間・日数の正しい書き方、よくある記入ミスTop5と対策チェックリスト、様式ダウンロード先まで網羅。令和8年度申込対応。",
     image:
       "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=400&fit=crop",
     category: "手続き",

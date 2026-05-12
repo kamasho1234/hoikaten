@@ -1254,9 +1254,9 @@ const articles: Article[] = [
   {
     slug: "hoikuryo-keisan",
     citySlug: "sagamihara",
-    title: "相模原市の保育料の計算方法　所得別の目安額と軽減制度",
+    title: "相模原市の保育料計算【令和8年度版】年収別シミュレーション・早見表",
     description:
-      "相模原市の保育料の計算方法と所得階層別の目安額、多子世帯の軽減制度を解説します。",
+      "相模原市の認可保育園の保育料を年収・子ども数別に詳しく解説。市民税所得割額に基づく階層区分早見表、無償化（3歳〜）の対象確認、副食費・第2子以降の減免制度まで。令和8年度対応。",
     image:
       "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=400&fit=crop",
     category: "お金・制度",
@@ -1329,9 +1329,9 @@ const articles: Article[] = [
   {
     slug: "shurou-shoumeisho",
     citySlug: "sagamihara",
-    title: "相模原市の就労証明書の書き方ガイド　記入例と注意点",
+    title: "相模原市の就労証明書 記入例【令和8年度版】書き方と注意点まとめ",
     description:
-      "相模原市の保育園申込に必要な就労証明書の書き方を、記入例と注意点を交えて解説します。",
+      "相模原市の保育園申込みに必要な就労証明書の記入例を徹底解説。月間就労時間・日数の正しい書き方、よくある記入ミスTop5と対策チェックリスト、様式ダウンロード先まで網羅。令和8年度申込対応。",
     image:
       "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=400&fit=crop",
     category: "手続き",

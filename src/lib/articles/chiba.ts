@@ -819,9 +819,9 @@ const articles: Article[] = [
   {
     slug: "hoikuryo-keisan",
     citySlug: "chiba",
-    title: "千葉市の保育料の計算方法　0〜2歳児の保育料はいくら？",
+    title: "千葉市の保育料計算【令和8年度版】年収別シミュレーション・早見表",
     description:
-      "千葉市の0〜2歳児の保育料の計算方法・所得階層別の目安金額・多子軽減制度を解説します。",
+      "千葉市の認可保育園の保育料を年収・子ども数別に詳しく解説。市民税所得割額に基づく階層区分早見表、無償化（3歳〜）の対象確認、副食費・第2子以降の減免制度まで。令和8年度対応。",
     image:
       "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=400&fit=crop",
     category: "お金・制度",
@@ -890,9 +890,9 @@ const articles: Article[] = [
   {
     slug: "shurou-shoumeisho",
     citySlug: "chiba",
-    title: "千葉市の就労証明書の書き方ガイド　記入例と注意点",
+    title: "千葉市の就労証明書 記入例【令和8年度版】書き方と注意点まとめ",
     description:
-      "千葉市の保育園申込に必要な就労証明書の記入例・よくある間違い・提出期限を解説します。",
+      "千葉市の保育園申込みに必要な就労証明書の記入例を徹底解説。月間就労時間・日数の正しい書き方、よくある記入ミスTop5と対策チェックリスト、様式ダウンロード先まで網羅。令和8年度申込対応。",
     image:
       "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
     category: "書類・手続き",

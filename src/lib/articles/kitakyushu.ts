@@ -1441,9 +1441,9 @@ const articles: Article[] = [
   {
     slug: "shurou-shoumeisho",
     citySlug: "kitakyushu",
-    title: "北九州市の就労証明書の書き方ガイド　記入例と注意点",
+    title: "北九州市の就労証明書 記入例【令和8年度版】書き方と注意点まとめ",
     description:
-      "北九州市の保育園申込に必要な就労証明書の記入例・よくある間違い・提出期限を解説します。",
+      "北九州市の保育園申込みに必要な就労証明書の記入例を徹底解説。月間就労時間・日数の正しい書き方、よくある記入ミスTop5と対策チェックリスト、様式ダウンロード先まで網羅。令和8年度申込対応。",
     image:
       "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
     category: "書類・手続き",
