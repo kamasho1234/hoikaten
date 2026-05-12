@@ -1555,9 +1555,9 @@ const articles: Article[] = [
   {
     slug: "hoikuryo-keisan",
     citySlug: "fukuoka",
-    title: "福岡市の保育料の計算方法｜所得別の目安と確認手順",
+    title: "福岡市の保育料計算【令和8年度版】年収別シミュレーション・早見表",
     description:
-      "福岡市の認可保育園の保育料がどのように決まるかを解説。所得階層別の保育料の目安と確認方法をまとめました。",
+      "福岡市の認可保育園の保育料を年収・子ども数別に詳しく解説。市民税所得割額に基づく階層区分早見表、無償化（3歳〜）の対象確認、副食費・第2子以降の減免制度まで網羅。令和8年度対応。",
     image:
       "https://images.unsplash.com/photo-1554224155-8d04cb21cd6e?w=800&h=400&fit=crop",
     category: "制度を知る",

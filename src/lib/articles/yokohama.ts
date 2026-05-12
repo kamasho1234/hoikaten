@@ -1955,9 +1955,9 @@ const articles: Article[] = [
   {
     slug: "hoikuryo-keisan",
     citySlug: "yokohama",
-    title: "横浜市の保育料の計算方法　世帯年収別の目安",
+    title: "横浜市の保育料計算【令和8年度版】年収別シミュレーション・早見表",
     description:
-      "横浜市の保育料はどのように決まるのか。市民税額に基づく計算方法と世帯年収別の目安を解説します。",
+      "横浜市の認可保育園の保育料を年収・子ども数別に詳しく解説。市民税額に基づく階層区分早見表、無償化（3歳〜）の対象確認、副食費・第2子以降の減免制度まで網羅。令和8年度対応。",
     image:
       "https://images.unsplash.com/photo-1554224154-26032ffc0d07?w=800&h=400&fit=crop",
     category: "制度を知る",

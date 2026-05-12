@@ -1404,8 +1404,8 @@ const articles: Article[] = [
   {
     slug: "hoikuryo-keisan",
     citySlug: "kobe",
-    title: "神戸市の保育料の計算方法　所得別の目安表つき",
-    description: "神戸市の保育料がどのように計算されるか、市民税所得割額に基づく階層区分と目安金額を解説します。",
+    title: "神戸市の保育料計算【令和8年度版】年収別シミュレーション・早見表",
+    description: "神戸市の認可保育園の保育料を年収・子ども数別に詳しく解説。市民税所得割額に基づく階層区分早見表、無償化（3歳〜）の対象確認、副食費・第2子以降の減免制度まで。令和8年度対応。",
     image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=400&fit=crop",
     category: "お金・制度",
     categoryColor: "rose",

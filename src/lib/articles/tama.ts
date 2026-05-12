@@ -452,6 +452,64 @@ const articles: Article[] = [
     publishedAt: "2026-04-07",
     popularity: 50,
   },
+  {
+    slug: "hoikuryo-keisan",
+    citySlug: "tama",
+    title: "多摩市の保育料計算【令和8年度版】年収別シミュレーション・早見表",
+    description:
+      "多摩市の認可保育園の保育料を年収・子ども数別に詳しく解説。市民税所得割額に基づく階層区分早見表、無償化（3歳〜）の対象確認、副食費・第2子以降の減免制度まで。令和8年度対応。",
+    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=400&fit=crop",
+    category: "お金・制度",
+    categoryColor: "amber",
+    content: `<h2>多摩市の保育料はどうやって決まる？</h2>
+<p>多摩市の認可保育園の保育料（利用者負担額）は、<strong>世帯の市区町村民税所得割額</strong>によって決まります。東京都の基準に基づき階層区分が設定されており、所得が高いほど保育料も高くなる応能負担方式です。</p>
+
+<h2>年齢ごとの基本ルール</h2>
+<table>
+<tr><th>年齢</th><th>保育料</th><th>注意点</th></tr>
+<tr><td>0〜2歳児</td><td>有料（階層区分による）</td><td>世帯の所得割額で決定</td></tr>
+<tr><td>3〜5歳児</td><td>無償（月額上限あり）</td><td>幼児教育・保育の無償化対象</td></tr>
+</table>
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>3歳以上は保育料が無償化されますが、<span class="highlight">副食費（給食の食材費）は別途負担</span>が必要です。低所得世帯や第3子以降は免除される場合があります。</p>
+</div>
+
+<h2>保育料の階層区分（0〜2歳の目安）</h2>
+<table>
+<tr><th>市民税所得割額（世帯合計）</th><th>保育料目安（月額・0歳）</th></tr>
+<tr><td>非課税世帯</td><td>無料</td></tr>
+<tr><td>〜約5万円</td><td>6,000〜9,000円</td></tr>
+<tr><td>〜約10万円</td><td>12,000〜19,000円</td></tr>
+<tr><td>〜約20万円</td><td>25,000〜38,000円</td></tr>
+<tr><td>〜約30万円</td><td>42,000〜52,000円</td></tr>
+<tr><td>30万円超</td><td>58,000〜77,000円</td></tr>
+</table>
+<p class="text-xs text-muted-foreground">※上記は目安です。詳細は多摩市の公式保育料表をご確認ください。</p>
+
+<h2>多子世帯・ひとり親世帯の軽減</h2>
+<ul>
+<li><strong>第2子</strong>：同一世帯で保育所等を利用中の場合、半額</li>
+<li><strong>第3子以降</strong>：無料</li>
+<li><strong>ひとり親世帯・生活保護世帯</strong>：最低階層として算定（大幅減額）</li>
+</ul>
+
+<h2>副食費について（3歳以上）</h2>
+<p>3歳以上は保育料が無償化されますが、副食費（おかず代）は月額4,500円程度の実費負担があります。以下の場合は免除されます。</p>
+<ul>
+<li>年収360万円未満相当の世帯</li>
+<li>第3子以降の子ども</li>
+</ul>
+
+<h2>保育料の確認方法</h2>
+<p>毎年6月ごろ、前年度の市民税額が確定した後に保育料が決定・通知されます。入園前の目安は多摩市子ども政策課にお問い合わせください。</p>
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>最新の保育料表は<a href="https://www.city.tama.lg.jp/kosodate/kosodate/hoiku/" target="_blank" rel="noopener">多摩市公式サイト「保育園・認定こども園」</a>からご確認ください。</p>
+</div>`,
+    publishedAt: "2026-05-13",
+    popularity: 42,
+  },
 ];
 
 registerArticles(articles);

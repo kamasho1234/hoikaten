@@ -1590,9 +1590,9 @@ const articles: Article[] = [
   {
     slug: "hoikuryo-keisan",
     citySlug: "osaka",
-    title: "大阪市の保育料の計算方法｜世帯年収別の目安",
+    title: "大阪市の保育料計算【令和8年度版】年収別シミュレーション・早見表",
     description:
-      "大阪市の認可保育園の保育料がどのように計算されるか、所得階層別の金額の目安を解説します。",
+      "大阪市の認可保育園の保育料を年収・子ども数別に詳しく解説。所得階層別の金額早見表、無償化（3歳〜）の対象確認、副食費・第2子以降の減免制度まで網羅。令和8年度対応。",
     image:
       "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=400&fit=crop",
     category: "制度を知る",
