@@ -106,7 +106,7 @@ export const roundtableArticles: Article[] = [
     description: "きょうだい同園、認可外活用、全滅経験まで。都内で第2子以降の保活に挑んだ3人のママが、リアルな経験を語ります。",
     category: "座談会",
     categoryColor: "purple",
-    image: "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     content: `<h2>第1子と第2子では保活が全く違う理由</h2>
 
 <p>第1子の保活は大変だったけど、第2子は「楽になる」と思っていませんか。実は、第2子以降の保活には独特の課題があります。きょうだい同園のメリット、認可外活用、そして予想外の全滅経験まで。都内で第2子以降の保活に挑戦した3人のママに、本音を語ってもらいました。</p>

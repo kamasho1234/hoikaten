@@ -211,7 +211,7 @@ const articles: Article[] = [
     description:
       "郡山市にある認可保育所・認定こども園・小規模保育事業所など、保育施設の種類と特徴をわかりやすく解説します。",
     image:
-      "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "園の選び方",
     categoryColor: "purple",
     content: `<h2>郡山市の保育施設の種類</h2>

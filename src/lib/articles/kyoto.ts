@@ -357,7 +357,7 @@ const articles: Article[] = [
     description:
       "京都市の保育園入園選考で認可外保育施設の利用実績がどう活きるのか、具体的な活用法を解説します。",
     image:
-      "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "点数アップ",
     categoryColor: "amber",
     content: `<h2>京都市では認可外利用が同点時の優先順位に影響</h2>
@@ -1265,7 +1265,7 @@ const articles: Article[] = [
     citySlug: "kyoto",
     title: "京都市で2歳児クラスから入園するメリットと注意点",
     description: "京都市で2歳児クラスから保育園に入るメリット・デメリットと競争率の傾向を解説します。",
-    image: "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "年齢別対策",
     categoryColor: "amber",
     content: `<h2>2歳児クラスの特徴</h2>

@@ -364,7 +364,7 @@ const articles: Article[] = [
     description:
       "高崎市の保育園入園選考で認可外保育施設の利用による加点を得る方法と注意点を解説します。",
     image:
-      "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "点数アップ",
     categoryColor: "amber",
     content: `<h2>認可外利用で+1点の加点</h2>

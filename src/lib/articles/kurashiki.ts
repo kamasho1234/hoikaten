@@ -255,7 +255,7 @@ const articles: Article[] = [
     title: "倉敷市の保育士加点で+3点を得る方法",
     description:
       "倉敷市では保育士が市内の保育園で勤務する場合、最大+3点の調整指数が得られます。その条件を解説します。",
-    image: "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "点数アップ",
     categoryColor: "amber",
     content: `<h2>保育士加点で最大+3点</h2>

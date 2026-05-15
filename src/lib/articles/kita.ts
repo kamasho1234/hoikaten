@@ -236,7 +236,7 @@ const articles: Article[] = [
     title: "北区の保育士加点とは？保育士として働く保護者の優遇制度",
     description:
       "北区独自の保育士加点制度について解説します。",
-    image: "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "点数アップ",
     categoryColor: "amber",
     content: `<h2>保育士加点で+3点</h2>

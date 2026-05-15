@@ -356,7 +356,7 @@ const articles: Article[] = [
     description:
       "福井市で保育教諭・保育士として働く保護者が受けられる入園加点制度について解説します。",
     image:
-      "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "点数・選考",
     categoryColor: "blue",
     content: `<h2>保育教諭・保育士への優遇加点</h2>

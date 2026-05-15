@@ -160,7 +160,7 @@ const articles: Article[] = [
     category: "園選び",
     categoryColor: "amber",
     image:
-      "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     content: `<h2>一宮市の認可保育施設</h2>
 <p>一宮市には市立保育園、私立保育園、認定こども園、地域型保育事業所（小規模保育等）があります。2025年4月時点で利用者数は約7,900人を超え、待機児童数は0人を達成しています。</p>
 

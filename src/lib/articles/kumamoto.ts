@@ -261,7 +261,7 @@ const articles: Article[] = [
     title: "熊本市で認可外保育施設の利用で加点を得る方法",
     description:
       "熊本市では認可外保育施設に月ぎめで預けると+5点の加点が得られます。その条件と活用法を解説します。",
-    image: "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "点数アップ",
     categoryColor: "amber",
     content: `<h2>認可外利用で+5点の加点</h2>

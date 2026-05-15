@@ -1229,7 +1229,7 @@ const articles: Article[] = [
     description:
       "福岡市で2歳児クラスから入園する方法と、小規模保育卒園後の連携施設・卒園加点について解説します。",
     image:
-      "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "保活の基本",
     categoryColor: "green",
     content: `<h2>2歳児クラスの入園状況</h2>

@@ -103,7 +103,7 @@ const articles: Article[] = [
     citySlug: "kitakami",
     title: "北上市の認可外保育施設ガイド　認可園との違いは？",
     description: "北上市で認可園に入れなかった場合の選択肢として、認可外保育施設について解説します。",
-    image: "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "認可外保育",
     categoryColor: "teal",
     content: `<h2>認可外保育施設とは？</h2><p>認可外保育施設は、認可基準を満たしていないものの、自治体に届出をして運営している保育施設です。北上市には複数の認可外施設があります。</p><h2>認可園との違い</h2><table><tr><th>項目</th><th>認可</th><th>認可外</th></tr><tr><td>保育料</td><td>所得に応じて決定</td><td>施設が設定</td></tr><tr><td>翌年の入園加点</td><td>-</td><td>なし</td></tr><tr><td>施設数</td><td>約24か所</td><td>複数</td></tr></table><div class="point-box"><p>北上市では認可外施設を利用しても、次年度の加点対象にはなりません。</p></div>`,

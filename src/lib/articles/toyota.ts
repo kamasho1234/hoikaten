@@ -161,7 +161,7 @@ const articles: Article[] = [
     category: "園選び",
     categoryColor: "amber",
     image:
-      "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     content: `<h2>認可保育園とは</h2>
 <p>豊田市には公立こども園が6園、公立保育園が58園あり、これらが認可施設にあたります。ほかに私立の認定こども園や小規模保育事業所もあります。</p>
 

@@ -8,7 +8,7 @@ export const interviewArticles1: Article[] = [
     description: "フルタイム共働きで育休復帰予定の加点を活用し、激戦区・世田谷区レベルの0歳4月入園を実現。保育園10園見学、希望園の書き方、スケジュール管理のコツを紹介。",
     category: "インタビュー",
     categoryColor: "rose",
-    image: "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     content: `<h2>激戦区を0歳4月で突破｜フルタイム共働きの保活戦略</h2>
 <p>東京都世田谷区で0歳4月入園を目指し、激戦区での保活を成功させた田中さおりさん（32歳）。フルタイム共働きという強みを活かしながら、加点制度を徹底的に理解し、戦略的に保活を進めました。妊娠中から計画を立てた保活の全容をお聞きしました。</p>
 

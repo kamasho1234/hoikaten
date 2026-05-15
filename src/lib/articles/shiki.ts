@@ -430,7 +430,7 @@ const articles: Article[] = [
     description:
       "志木市で認可園に入れなかった場合の選択肢として、認可外保育施設について解説します。",
     image:
-      "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "認可外保育",
     categoryColor: "teal",
     content: `<h2>認可外保育施設とは？</h2>

@@ -118,7 +118,7 @@ const articles: Article[] = [
     title: "川越市の認可保育園vs認可外、どっちがいい？",
     description:
       "川越市の認可保育園と認可外保育施設の違いを比較。保育料・入りやすさ・特徴を整理して選び方のヒントをお伝えします。",
-    image: "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "園えらび",
     categoryColor: "amber",
     content: `<h2>認可と認可外の基本的な違い</h2>

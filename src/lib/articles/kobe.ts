@@ -733,7 +733,7 @@ const articles: Article[] = [
     description:
       "神戸市の小規模保育事業所の特徴、メリット・デメリット、そして2歳で卒園後の「3歳の壁」への対策を解説します。",
     image:
-      "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "園えらび",
     categoryColor: "purple",
     content: `<h2>小規模保育事業所とは</h2>
@@ -1105,7 +1105,7 @@ const articles: Article[] = [
     citySlug: "kobe",
     title: "神戸市で2歳児クラスから入園するメリットと注意点",
     description: "神戸市で2歳児クラス（4月1日時点で2歳）から保育園に入るメリット・デメリットと、競争率の傾向を解説します。",
-    image: "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "年齢別対策",
     categoryColor: "amber",
     content: `<h2>2歳児クラスの特徴</h2>

@@ -10,7 +10,7 @@ const articles: Article[] = [
     description:
       "千葉市で保育園見学をする際に確認すべきポイント・質問リスト・見学時期のコツをまとめました。",
     image:
-      "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "保活の実践",
     categoryColor: "green",
     content: `<h2>見学の予約方法</h2>
@@ -319,7 +319,7 @@ const articles: Article[] = [
     description:
       "千葉市の小規模保育事業所（定員6〜19名）の特徴・メリット・卒園後の連携施設について解説します。",
     image:
-      "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "施設の種類",
     categoryColor: "amber",
     content: `<h2>小規模保育事業所とは</h2>
@@ -672,7 +672,7 @@ const articles: Article[] = [
     description:
       "千葉市の企業主導型保育所の仕組み・地域枠の利用方法・認可園との違いを解説します。",
     image:
-      "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "施設の種類",
     categoryColor: "amber",
     content: `<h2>企業主導型保育所とは</h2>

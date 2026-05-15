@@ -248,7 +248,7 @@ const articles: Article[] = [
     title: "東村山市の保育施設の種類　認可・認証・小規模の違い",
     description:
       "東村山市にある保育施設の種類と特徴を解説します。認可保育園・認証保育所・小規模保育の違いを知りましょう。",
-    image: "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "保育園選び",
     categoryColor: "teal",
     content: `<h2>東村山市の保育施設の種類</h2>

@@ -228,7 +228,7 @@ const articles: Article[] = [
     title: "茅ヶ崎市で認可外保育施設の加点を取る方法",
     description:
       "茅ヶ崎市で認可外保育施設の利用による加点を得る方法を解説します。",
-    image: "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "点数アップ",
     categoryColor: "amber",
     content: `<h2>認可外保育施設加点とは</h2>

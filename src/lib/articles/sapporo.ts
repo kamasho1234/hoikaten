@@ -785,7 +785,7 @@ const articles: Article[] = [
     description:
       "札幌市で認可外保育施設を選ぶ際に確認すべき安全基準、料金の目安、施設の種類を解説します。",
     image:
-      "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "園えらび",
     categoryColor: "purple",
     content: `<h2>認可外保育施設とは？</h2>
@@ -1376,7 +1376,7 @@ const articles: Article[] = [
     description:
       "札幌市で2歳から保育園に入園する場合の空き状況の傾向と、入園しやすい園の探し方を解説します。",
     image:
-      "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "年齢別",
     categoryColor: "purple",
     content: `<h2>2歳入園の特徴</h2>

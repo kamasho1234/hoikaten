@@ -362,7 +362,7 @@ const articles: Article[] = [
     description:
       "北九州市の保育園入園選考で認可外保育施設の利用がどう活きるのか、具体的な活用法を解説します。",
     image:
-      "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "点数アップ",
     categoryColor: "amber",
     content: `<h2>北九州市での認可外利用の位置づけ</h2>
@@ -547,7 +547,7 @@ const articles: Article[] = [
     description:
       "北九州市で保育園見学をする際に確認すべきポイント・質問リスト・見学時期のコツをまとめました。",
     image:
-      "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "保活の実践",
     categoryColor: "green",
     content: `<h2>見学の予約方法</h2>
@@ -863,7 +863,7 @@ const articles: Article[] = [
     description:
       "北九州市の小規模保育事業所（定員6〜19名）の特徴・メリット・卒園後の連携施設について解説します。",
     image:
-      "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "施設の種類",
     categoryColor: "amber",
     content: `<h2>小規模保育事業所とは</h2>
@@ -1223,7 +1223,7 @@ const articles: Article[] = [
     description:
       "北九州市の企業主導型保育所の仕組み・地域枠の利用方法・認可園との違いを解説します。",
     image:
-      "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "施設の種類",
     categoryColor: "amber",
     content: `<h2>企業主導型保育所とは</h2>

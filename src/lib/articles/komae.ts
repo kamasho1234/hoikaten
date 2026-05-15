@@ -367,7 +367,7 @@ const articles: Article[] = [
     title: "狛江市で認可外保育と加点　認証保育所の活用法",
     description:
       "狛江市では認可外保育施設の利用で加点が得られます。その活用方法を解説します。",
-    image: "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "点数アップ",
     categoryColor: "amber",
     content: `<h2>認証保育所等の利用による加点</h2>

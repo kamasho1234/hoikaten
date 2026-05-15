@@ -457,7 +457,7 @@ const articles: Article[] = [
     description:
       "堺市の保育園を見学する際にチェックすべき10のポイントを紹介。見学の予約方法や持ち物、質問例もまとめました。",
     image:
-      "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "保活の基本",
     categoryColor: "green",
     content: `<h2>保育園見学はいつ行くべき？</h2>

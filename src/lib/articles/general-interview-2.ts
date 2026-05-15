@@ -53,7 +53,7 @@ export const interviewArticles2: Article[] = [
     description: "夫の転勤で引っ越す30代ママが直面する「転入予定の保育園申込」。申請ルールの違い、提出書類、事前準備について、実体験をもとに解説します。",
     category: "インタビュー",
     categoryColor: "rose",
-    image: "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     content: `<h2>プロフィール</h2>
 <p><strong>渡辺かなこさん（34歳）</strong>｜首都圏在住（引っ越し予定）｜会社員（年度途中転勤）｜第二子1歳、第三子保育園入園予定</p>
 

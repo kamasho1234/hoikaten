@@ -1275,7 +1275,7 @@ const articles: Article[] = [
     citySlug: "saitama",
     title: "さいたま市で2歳児クラスから入園するメリットと注意点",
     description: "さいたま市で2歳児クラスから保育園に入るメリットと競争率の傾向を解説します。",
-    image: "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "年齢別対策",
     categoryColor: "amber",
     content: `<h2>2歳児クラスの特徴</h2>

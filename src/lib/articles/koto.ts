@@ -262,7 +262,7 @@ const articles: Article[] = [
     title: "江東区で認可外保育施設の利用で加点を得る方法",
     description:
       "江東区では認証保育所等に月16日以上預けると加点が得られます。その条件と活用法を解説します。",
-    image: "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "点数アップ",
     categoryColor: "amber",
     content: `<h2>認可外利用で+2〜3点</h2>

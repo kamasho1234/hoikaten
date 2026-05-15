@@ -342,7 +342,7 @@ const articles: Article[] = [
     description:
       "宇治市の保育園入園選考で認可外保育施設の利用実績がどう活きるのか、具体的な活用法を解説します。",
     image:
-      "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "点数アップ",
     categoryColor: "amber",
     content: `<h2>宇治市では認可外利用が同点時の優先順位に影響</h2>

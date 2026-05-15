@@ -261,7 +261,7 @@ const articles: Article[] = [
     title: "立川市で認証保育所の利用で加点を得る方法",
     description:
       "立川市では認証保育所等の月ぎめ利用で+2点の加点が得られます。その条件を解説します。",
-    image: "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "点数アップ",
     categoryColor: "amber",
     content: `<h2>認証保育所等の利用による加点</h2>

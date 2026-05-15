@@ -259,7 +259,7 @@ const articles: Article[] = [
     title: "川口市で認可外保育施設を活用する方法",
     description:
       "川口市で認可外保育施設を利用して保活を有利に進める方法を解説します。",
-    image: "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "点数アップ",
     categoryColor: "amber",
     content: `<h2>認可外利用と就労実績</h2>

@@ -306,7 +306,7 @@ const articles: Article[] = [
     description:
       "板橋区で認可外保育施設の利用実績による加点を得る方法と、認証保育所の仕組みを解説します。",
     image:
-      "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "点数アップ",
     categoryColor: "amber",
     content: `<h2>認可外利用で調整指数+2点</h2>

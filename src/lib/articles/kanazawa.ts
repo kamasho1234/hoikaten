@@ -174,7 +174,7 @@ const articles: Article[] = [
     title: "金沢市の認可保育園vs認可外、どっちがいい？違いを比較",
     description:
       "金沢市で保活をするなら認可と認可外どちらを選ぶべき？費用・保育内容・入りやすさの違いをわかりやすく比較します。",
-    image: "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "園選び",
     categoryColor: "purple",
     content: `<h2>認可保育園と認可外保育施設の違い</h2>

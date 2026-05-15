@@ -287,7 +287,7 @@ const articles: Article[] = [
     title: "西東京市の保育施設の種類と選び方ガイド",
     description:
       "西東京市にある保育施設の種類（認可・認証・小規模など）と選び方のポイントを解説します。",
-    image: "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "園えらび",
     categoryColor: "purple",
     content: `<h2>西東京市の保育施設の種類</h2>

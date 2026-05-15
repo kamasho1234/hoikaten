@@ -245,7 +245,7 @@ const articles: Article[] = [
     title: "中野区で認可外保育施設を活用して加点を得る方法",
     description:
       "中野区で認可外保育施設の利用実績による加点の条件と注意点をまとめました。",
-    image: "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "点数アップ",
     categoryColor: "amber",
     content: `<h2>認可外利用で+2点の加点</h2>

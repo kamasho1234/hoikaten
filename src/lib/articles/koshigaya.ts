@@ -171,7 +171,7 @@ const articles: Article[] = [
     description:
       "越谷市の認可保育園と認可外保育施設の違いを徹底比較。保育料・保育内容・入りやすさなど、選び方のポイントを解説します。",
     image:
-      "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "施設えらび",
     categoryColor: "purple",
     content: `<h2>認可保育園と認可外の違い</h2>

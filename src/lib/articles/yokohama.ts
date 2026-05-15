@@ -572,7 +572,7 @@ const articles: Article[] = [
     description:
       "横浜市で保育園見学に行くときに確認すべきポイントと質問リストをまとめました。約900か所ある認可保育園から我が子に合う園を選ぶコツを解説します。",
     image:
-      "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "園えらび",
     categoryColor: "purple",
     content: `<h2>保育園見学はなぜ大切？</h2>

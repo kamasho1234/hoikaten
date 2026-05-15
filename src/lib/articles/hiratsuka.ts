@@ -294,7 +294,7 @@ const articles: Article[] = [
     title: "平塚市の共働き世帯が入園するための戦略",
     description:
       "平塚市でフルタイム共働き世帯が保育園に入園するための点数戦略を解説します。",
-    image: "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "点数アップ",
     categoryColor: "amber",
     content: `<h2>フルタイム共働きの基本点数</h2>

@@ -602,7 +602,7 @@ const articles: Article[] = [
     description:
       "名古屋市で保育園見学をする際に確認すべきポイントと質問リストをまとめました。園えらびで後悔しないための完全ガイドです。",
     image:
-      "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "園えらび",
     categoryColor: "purple",
     content: `<h2>見学前の準備</h2>
@@ -1504,7 +1504,7 @@ const articles: Article[] = [
     description:
       "名古屋市で小規模保育事業所から3歳児クラスへスムーズに移行するための連携施設制度と加点を解説します。",
     image:
-      "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "制度を知る",
     categoryColor: "rose",
     content: `<h2>小規模保育の「3歳の壁」</h2>

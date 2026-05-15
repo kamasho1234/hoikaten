@@ -261,7 +261,7 @@ const articles: Article[] = [
     title: "中央区で認可外保育施設を活用して加点を得る方法",
     description:
       "中央区の入園選考で認可外保育施設の利用がどう加点されるか、家庭的保育事業の活用法もあわせて解説します。",
-    image: "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "点数アップ",
     categoryColor: "amber",
     content: `<h2>認可外利用で+2点</h2>

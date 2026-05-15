@@ -149,7 +149,7 @@ const articles: Article[] = [
     citySlug: "minato",
     title: "港区の認可外保育施設ガイド",
     description: "港区の認可外保育施設について解説します。",
-    image: "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "認可外保育",
     categoryColor: "teal",
     content: `<h2>認可外保育施設とは？</h2>

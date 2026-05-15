@@ -374,7 +374,7 @@ const articles: Article[] = [
     description:
       "浜松市の保育園入園選考で認可外保育施設の利用による+2点の加点を得る方法を解説します。",
     image:
-      "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "点数アップ",
     categoryColor: "amber",
     content: `<h2>認可外利用で+2点の加点</h2>
@@ -567,7 +567,7 @@ const articles: Article[] = [
     description:
       "浜松市の保育園を見学する際にチェックすべき10のポイントを紹介。見学の予約方法や持ち物、質問例もまとめました。",
     image:
-      "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "保活の基本",
     categoryColor: "green",
     content: `<h2>保育園見学はいつ行くべき？</h2>

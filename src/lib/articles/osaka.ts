@@ -480,7 +480,7 @@ const articles: Article[] = [
     description:
       "大阪市で保育園見学をする際に確認すべきポイントと、先生に聞いておきたい質問リストをまとめました。見学の予約方法や時期も解説します。",
     image:
-      "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "園えらび",
     categoryColor: "purple",
     content: `<h2>保育園見学はなぜ必要？</h2>
@@ -1240,7 +1240,7 @@ const articles: Article[] = [
     description:
       "大阪市の2歳児クラスへの入園を狙う場合の特徴、倍率の傾向、保活戦略を解説します。",
     image:
-      "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "データ分析",
     categoryColor: "teal",
     content: `<h2>2歳児クラスの入園状況</h2>

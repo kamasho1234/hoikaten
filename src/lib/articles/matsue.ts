@@ -259,7 +259,7 @@ const articles: Article[] = [
     title: "松江市で保育士が保育園に子どもを入れるとき　加点の条件",
     description:
       "松江市では保育士として市内保育所等に勤務する保護者に加点があります。その条件を解説します。",
-    image: "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "点数アップ",
     categoryColor: "amber",
     content: `<h2>保育士加点のしくみ</h2>

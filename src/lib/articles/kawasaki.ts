@@ -543,7 +543,7 @@ const articles: Article[] = [
     description:
       "川崎市で保育園見学をする際にチェックすべきポイントと、先生に聞いておきたい質問リストをまとめました。園えらびの第一歩を解説します。",
     image:
-      "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "園えらび",
     categoryColor: "purple",
     content: `<h2>保育園見学はいつから始める？</h2>
@@ -1307,7 +1307,7 @@ const articles: Article[] = [
     description:
       "川崎市で2歳児クラスから入園する方法と、小規模保育卒園後の連携施設・加点について解説します。",
     image:
-      "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "保活の基本",
     categoryColor: "green",
     content: `<h2>2歳児クラスの入園状況</h2>

@@ -155,7 +155,7 @@ export const guideArticles: Article[] = [
       "保育園入園選考の鍵となる『点数』。基本指数と調整指数の計算方法、同点の場合の優先順位、min方式の違いまで、複雑な仕組みをわかりやすく説明します。",
     category: "保活ガイド",
     categoryColor: "blue",
-    image: "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     content: `<h2>保育園入園の選考方法</h2>
 <p>保育園の入園は、書類のみでの選考です。面接試験や親の資産状況調査はありません。代わりに、申込時点での「指数」（点数）が最も重要な要素になります。</p>
 

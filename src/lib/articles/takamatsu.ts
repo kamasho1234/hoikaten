@@ -258,7 +258,7 @@ const articles: Article[] = [
     title: "高松市の「低い方採用」ルールとは？基準点数の決まり方",
     description:
       "高松市独自の「父母の低い方の基準点数を採用」するルールを詳しく解説します。",
-    image: "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "選考のしくみ",
     categoryColor: "blue",
     content: `<h2>高松市の基準点数は「低い方」を採用</h2>

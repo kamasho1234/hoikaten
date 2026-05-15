@@ -252,7 +252,7 @@ const articles: Article[] = [
     citySlug: "fujimi",
     title: "富士見市の育休明けのタイミング　復帰予定で加点を得る方法",
     description: "富士見市では育児休業から入園月に復帰する場合に加点が得られます。タイミングのコツを解説します。",
-    image: "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "点数アップ",
     categoryColor: "amber",
     content: `<h2>育休復帰予定の加点</h2>

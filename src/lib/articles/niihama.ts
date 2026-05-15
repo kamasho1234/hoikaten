@@ -103,7 +103,7 @@ const articles: Article[] = [
     citySlug: "niihama",
     title: "新居浜市の認可外保育施設ガイド　認可園との違いは？",
     description: "新居浜市で認可園に入れなかった場合の選択肢として、認可外保育施設について解説します。",
-    image: "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "認可外保育",
     categoryColor: "teal",
     content: `<h2>認可外保育施設とは？</h2><p>認可外保育施設は、認可基準を満たしていないものの、自治体に届出をして運営している保育施設です。新居浜市には企業内保育所なども存在します。</p><h2>認可園との違い</h2><table><tr><th>項目</th><th>認可</th><th>認可外</th></tr><tr><td>保育料</td><td>所得に応じて決定</td><td>施設が設定</td></tr><tr><td>選考</td><td>指数方式</td><td>施設独自</td></tr><tr><td>施設数</td><td>約30か所</td><td>複数</td></tr></table><div class="point-box"><p>住友系企業の従業員向け事業所内保育所もあります。勤務先に確認してみましょう。</p></div>`,

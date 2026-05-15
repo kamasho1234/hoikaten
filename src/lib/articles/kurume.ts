@@ -316,7 +316,7 @@ const articles: Article[] = [
     description:
       "久留米市にある認可保育所・認定こども園・小規模保育施設・事業所内保育施設の違いをわかりやすく解説します。",
     image:
-      "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "エリア・園選び",
     categoryColor: "purple",
     content: `<h2>久留米市にある保育施設の種類</h2>

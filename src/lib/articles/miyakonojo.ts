@@ -103,7 +103,7 @@ const articles: Article[] = [
     citySlug: "miyakonojo",
     title: "都城市の認可外保育施設ガイド　卒園で+8点の仕組みとは",
     description: "都城市で認可保育所に入れなかった場合の選択肢として、認可外保育施設と翌年の大きな加点について解説します。",
-    image: "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "認可外保育",
     categoryColor: "teal",
     content: `<h2>認可外保育施設とは？</h2><p>認可外保育施設は、認可基準を満たしていないものの、自治体に届出をして運営している保育施設です。都城市内にも複数存在します。</p><h2>都城市の認可外加点が大きい理由</h2><p>都城市では、認可外保育施設に月ぎめで預けて卒園した上で新規申込みする場合、+8点という大きな調整指数の加点があります。これは基本指数の差をほぼ埋めるほどの効果があります。</p><table><tr><th>項目</th><th>認可</th><th>認可外（月ぎめ）</th></tr><tr><td>保育料</td><td>所得に応じて決定</td><td>施設が設定</td></tr><tr><td>翌年の調整指数</td><td>-</td><td>+8点の加点</td></tr></table>`,

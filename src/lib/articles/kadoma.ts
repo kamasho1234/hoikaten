@@ -147,7 +147,7 @@ const articles: Article[] = [
     title: "門真市の認可保育園vs認可外　どっちがいい？違いを比較",
     description:
       "門真市の認可保育園と認可外保育施設の違い、メリット・デメリットを比較解説します。",
-    image: "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "保活の基本",
     categoryColor: "green",
     content: `<h2>認可保育園と認可外の違い</h2>

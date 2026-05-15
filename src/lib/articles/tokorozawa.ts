@@ -229,7 +229,7 @@ const articles: Article[] = [
     description:
       "所沢市にある認可保育園・小規模保育・認定こども園・認可外保育施設の違いを比較。わが家に合った園の選び方を解説します。",
     image:
-      "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "園えらび",
     categoryColor: "purple",
     content: `<h2>所沢市の保育施設の種類</h2>
