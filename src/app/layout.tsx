@@ -298,6 +298,16 @@ import "@/lib/articles/sanda";
 import "@/lib/articles/nagahama";
 import "@/lib/articles/ichinoseki";
 import "@/lib/articles/iida";
+import "@/lib/articles/wako";
+import "@/lib/articles/yashio";
+import "@/lib/articles/warabi";
+import "@/lib/articles/konan";
+import "@/lib/articles/kitanagoya";
+import "@/lib/articles/izumisano";
+import "@/lib/articles/tsuyama";
+import "@/lib/articles/oshu";
+import "@/lib/articles/kitami";
+import "@/lib/articles/iga";
 
 import { getAllMunicipalities } from "@/lib/data";
 import { HeaderNav } from "@/components/header-nav";
