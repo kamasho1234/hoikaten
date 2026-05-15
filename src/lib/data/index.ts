@@ -304,6 +304,16 @@ import { tsuyamaData } from './tsuyama';
 import { oshuData } from './oshu';
 import { kitamiData } from './kitami';
 import { igaData } from './iga';
+import { omuraData } from './omura';
+import { kanoyaData } from './kanoya';
+import { satsumasendaiData } from './satsumasendai';
+import { ashiyaData } from './ashiya';
+import { mikiData } from './miki';
+import { nakatsuData } from './nakatsu';
+import { kashiwaraData } from './kashiwara';
+import { shijonawateData } from './shijonawate';
+import { tagajoData } from './tagajo';
+import { tomiyaData } from './tomiya';
 import { kawachinaganoData } from './kawachinagano';
 import { akirunoData } from './akiruno';
 import { settsuData } from './settsu';
@@ -631,6 +641,16 @@ const municipalityMap: Record<string, MunicipalityData> = {
   [izumiotsuData.municipality.slug]: izumiotsuData,
   [fussaData.municipality.slug]: fussaData,
   [hamuraData.municipality.slug]: hamuraData,
+  [omuraData.municipality.slug]: omuraData,
+  [kanoyaData.municipality.slug]: kanoyaData,
+  [satsumasendaiData.municipality.slug]: satsumasendaiData,
+  [ashiyaData.municipality.slug]: ashiyaData,
+  [mikiData.municipality.slug]: mikiData,
+  [nakatsuData.municipality.slug]: nakatsuData,
+  [kashiwaraData.municipality.slug]: kashiwaraData,
+  [shijonawateData.municipality.slug]: shijonawateData,
+  [tagajoData.municipality.slug]: tagajoData,
+  [tomiyaData.municipality.slug]: tomiyaData,
 };
 
 export function getMunicipalityData(slug: string): MunicipalityData | undefined {
@@ -648,4 +668,5 @@ export { kakamigaharaData, yonagoData, okinawaData, tsuchiuraData, iwakuniData, 
 export { sandaData, nagahamaData, ichinosekiData, iidaData, mishimaData, hofuData, beppuData, nobeokaData, hakusanData, otaruData };
 export { wakoData, yashioData, warabiData, konanData, kitanagoyaData, izumisanoData, tsuyamaData, oshuData, kitamiData, igaData };
 export { kawachinaganoData, akirunoData, settsuData, yamatokooriyamaData, natoriData, owariasahiData, yoshikawaData, izumiotsuData, fussaData, hamuraData };
+export { omuraData, kanoyaData, satsumasendaiData, ashiyaData, mikiData, nakatsuData, kashiwaraData, shijonawateData, tagajoData, tomiyaData };
 export { setagayaData, yokohamaData, osakaData, kawasakiData, nagoyaData, saitamaData, sapporoData, kobeData, fukuokaData, hiroshimaData, sendaiData, kyotoData, kitakyushuData, hamamatsuData, chibaData, adachiData, suginamiData, itabashiData, nerimaData, otaData, edogawaData, sakaiData, niigataData, sagamiharaData, nakanoData, toshimaData, kitaData, arakawaData, shinagawaData, meguroData, shibuyaData, shinjukuData, bunkyoData, taitoData, sumidaData, katsushikaData, minatoData, chuoData, chiyodaData, kotoData, okayamaData, kumamotoData, shizuokaData, machidaData, fujisawaData, kashiwaData, toyonakaData, yokosukaData, kagoshimaData, utsunomiyaData, higashiosakaData, nishinomiyaData, amagasakiData, toyotaData, kawagoeData, kanazawaData, takatsukiData, koshigayaData, naraData, nagasakiData, oitaData, nahaData, akashiData, suitaData, okazakiData, ichinomiyaData, hirakataData, otsuData, asahikawaData, hakodateData, mitoData, maebashiData, takasakiData, aomoriData, moriokaData, akitaData, yamagataData, fukushimaData, koriyamaData, iwakiData, toyamaData, fukuiData, naganoData, gifuData, toyohashiData, wakayamaData, kurashikiData, fukuyamaData, kureData, shimonosekiData, matsueData, takamatsuData, kochiData, saseboData, tottoriData, kurumeData, miyazakiData, omeData, koganeiData, kokubunjiData, tamaData, kodairaData, higashimurayamaData, nishitokyoData, mitakaData, hinoData, musashinoData, hiratsukaData, chigasakiData, yamatoData, atsugiData, odawaraData, kamakuraData, hadanoData, ebinaData, tokorozawaData, sokaData, kasukabeData, ageoData, kumagayaData, niizaData, sayamaData, misatoData, ibarakiData, yaoData, neyagawaData, kishiwadaData, moriguchiData, minohData, kadomaData, ikedaData, tokushimaData, yamaguchiData, sagaData, tsuData, kofuData, matsumotoData, yokkaichiData, kusatsuData, ichikawaData, matsudoData, ichiharaData, yachiyoData, nagareyamaData, urayasuData, narashinoData, nodaData, kakogawaData, takarazukaData, itamiData, kawanishiData, kasugaiData, anjoData, kariyaData, toyokawaData, omutaData, kasugaData, tomakomaiData, obihiroData, kushiroData, ebetsuData, ujiData, higashihiroshimaData, chofuData, fuchuData, funabashiData, hachiojiData, himejiData, kawaguchiData, matsuyamaData, tachikawaData, nagaokaData, fujiData, hachinoheData, izumiData, irumaData, todaData, asakaData, zamaData, daitoData, matsubaraData, habikinoData, chikushinoData, kukiData, kazoData };

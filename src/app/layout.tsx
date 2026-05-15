@@ -318,6 +318,16 @@ import "@/lib/articles/yoshikawa";
 import "@/lib/articles/izumiotsu";
 import "@/lib/articles/fussa";
 import "@/lib/articles/hamura";
+import "@/lib/articles/omura";
+import "@/lib/articles/kanoya";
+import "@/lib/articles/satsumasendai";
+import "@/lib/articles/ashiya";
+import "@/lib/articles/miki";
+import "@/lib/articles/nakatsu";
+import "@/lib/articles/kashiwara";
+import "@/lib/articles/shijonawate";
+import "@/lib/articles/tagajo";
+import "@/lib/articles/tomiya";
 
 import { getAllMunicipalities } from "@/lib/data";
 import { HeaderNav } from "@/components/header-nav";
