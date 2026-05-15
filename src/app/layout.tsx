@@ -288,6 +288,16 @@ import "@/lib/articles/yatsushiro";
 import "@/lib/articles/ise";
 import "@/lib/articles/handa";
 import "@/lib/articles/kakegawa";
+import "@/lib/articles/mishima";
+import "@/lib/articles/hofu";
+import "@/lib/articles/beppu";
+import "@/lib/articles/nobeoka";
+import "@/lib/articles/hakusan";
+import "@/lib/articles/otaru";
+import "@/lib/articles/sanda";
+import "@/lib/articles/nagahama";
+import "@/lib/articles/ichinoseki";
+import "@/lib/articles/iida";
 
 import { getAllMunicipalities } from "@/lib/data";
 import { HeaderNav } from "@/components/header-nav";
