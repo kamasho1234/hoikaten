@@ -328,6 +328,16 @@ import "@/lib/articles/kashiwara";
 import "@/lib/articles/shijonawate";
 import "@/lib/articles/tagajo";
 import "@/lib/articles/tomiya";
+import "@/lib/articles/hatsukaichi";
+import "@/lib/articles/mihara";
+import "@/lib/articles/toyoake";
+import "@/lib/articles/osakasayama";
+import "@/lib/articles/eniwa";
+import "@/lib/articles/kitahiroshima";
+import "@/lib/articles/hita";
+import "@/lib/articles/sanyoonoda";
+import "@/lib/articles/sennan";
+import "@/lib/articles/itoman";
 
 import { getAllMunicipalities } from "@/lib/data";
 import { HeaderNav } from "@/components/header-nav";
