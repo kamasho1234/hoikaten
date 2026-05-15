@@ -308,6 +308,16 @@ import "@/lib/articles/tsuyama";
 import "@/lib/articles/oshu";
 import "@/lib/articles/kitami";
 import "@/lib/articles/iga";
+import "@/lib/articles/kawachinagano";
+import "@/lib/articles/akiruno";
+import "@/lib/articles/settsu";
+import "@/lib/articles/yamatokooriyama";
+import "@/lib/articles/natori";
+import "@/lib/articles/owariasahi";
+import "@/lib/articles/yoshikawa";
+import "@/lib/articles/izumiotsu";
+import "@/lib/articles/fussa";
+import "@/lib/articles/hamura";
 
 import { getAllMunicipalities } from "@/lib/data";
 import { HeaderNav } from "@/components/header-nav";
