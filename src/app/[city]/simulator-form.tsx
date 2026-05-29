@@ -1,11 +1,10 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect, useCallback } from "react";
 import type { MunicipalityData, Question } from "@/lib/types";
 import { calculateScore } from "@/lib/scoring/engine";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Label } from "@/components/ui/label";
-import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
@@ -43,26 +42,32 @@ function QuestionField({
 }) {
   return (
     <div className="space-y-3">
-      <Label>{question.label}</Label>
+      <Label className="text-base font-semibold">{question.label}</Label>
       {question.helpText && (
         <p className="text-xs text-muted-foreground">{question.helpText}</p>
       )}
-      <RadioGroup value={value ?? ""} onValueChange={onChange}>
+      <div className="space-y-2">
         {question.options.map((opt) => (
-          <div key={opt.value} className="flex items-center gap-3">
-            <RadioGroupItem value={opt.value} id={opt.value} />
-            <Label htmlFor={opt.value} className="font-normal cursor-pointer">
-              {opt.label}
-              {opt.points !== 0 && (
-                <span className="ml-2 text-xs text-muted-foreground">
-                  ({opt.points > 0 ? "+" : ""}
-                  {opt.points}点)
-                </span>
-              )}
-            </Label>
-          </div>
+          <button
+            key={opt.value}
+            type="button"
+            onClick={() => onChange(opt.value)}
+            className={`w-full text-left p-4 rounded-xl border-2 transition-all active:scale-[0.98] ${
+              value === opt.value
+                ? "border-primary bg-primary/5 shadow-sm"
+                : "border-border hover:border-primary/30"
+            }`}
+          >
+            <span className="font-medium">{opt.label}</span>
+            {opt.points !== 0 && (
+              <span className="ml-2 text-sm text-muted-foreground">
+                ({opt.points > 0 ? "+" : ""}
+                {opt.points}点)
+              </span>
+            )}
+          </button>
         ))}
-      </RadioGroup>
+      </div>
     </div>
   );
 }
@@ -664,14 +669,15 @@ export function SimulatorForm({ data }: { data: MunicipalityData }) {
   const [step, setStep] = useState<Step>("parent1");
   const [showAdPopup, setShowAdPopup] = useState(false);
   const [answers, setAnswers] = useState<Record<string, string>>({});
+  const [questionIndex, setQuestionIndex] = useState(0);
+  const [pendingAdvance, setPendingAdvance] = useState(false);
 
   const stepIndex = STEPS.findIndex((s) => s.key === step);
   const progress = ((stepIndex + 1) / STEPS.length) * 100;
 
-  const setAnswer = (questionId: string, value: string) => {
+  const setAnswer = useCallback((questionId: string, value: string) => {
     setAnswers((prev) => {
       const next = { ...prev, [questionId]: value };
-      // 理由を変更したら、そのparentの古い詳細回答をクリア
       if (questionId === "parent1_reason" || questionId === "parent2_reason") {
         const prefix = questionId.replace("_reason", "");
         const detailKeys = [
@@ -684,7 +690,8 @@ export function SimulatorForm({ data }: { data: MunicipalityData }) {
       }
       return next;
     });
-  };
+    setPendingAdvance(true);
+  }, []);
 
   const isMinScoring = data.municipality.scoringMethod === "min";
 
@@ -740,52 +747,60 @@ export function SimulatorForm({ data }: { data: MunicipalityData }) {
     return calculateScore(data.questions, answers, data.municipality.scoringMethod);
   }, [step, data.questions, answers, data.municipality.scoringMethod]);
 
-  const canProceed = useMemo(() => {
-    if (step === "parent1") {
-      const reason = getReasonFromAnswers(answers, "parent1");
-      if (!reason) return false;
-      return answers[`parent1_${reason}`] !== undefined;
-    }
-    if (step === "parent2") {
-      // ひとり親質問が未回答
-      if (!answers["adj_single_parent"]) return false;
-      // ひとり親→スキップ可能
-      if (isSingleParent) return true;
-      // 通常の保護者2入力
-      const reason = getReasonFromAnswers(answers, "parent2");
-      if (!reason) return false;
-      return answers[`parent2_${reason}`] !== undefined;
-    }
-    if (step === "adjustment") return true;
-    return false;
-  }, [step, answers]);
+  const safeQuestionIndex = Math.min(questionIndex, Math.max(0, visibleQuestions.length - 1));
+  const currentQuestion = visibleQuestions[safeQuestionIndex];
 
-  const goNext = () => {
-    if (step === "parent2" && isSingleParent) {
-      // ひとり親の場合、保護者2の詳細をスキップして調整指数へ
-      setStep("adjustment");
-      return;
-    }
-    const idx = STEPS.findIndex((s) => s.key === step);
-    if (idx < STEPS.length - 1) {
-      const nextStep = STEPS[idx + 1].key;
-      if (nextStep === "result") setShowAdPopup(true);
-      setStep(nextStep);
-    }
-  };
+  // 選択後の自動進行
+  useEffect(() => {
+    if (!pendingAdvance) return;
+
+    const timer = setTimeout(() => {
+      setPendingAdvance(false);
+
+      if (safeQuestionIndex < visibleQuestions.length - 1) {
+        setQuestionIndex(safeQuestionIndex + 1);
+      } else {
+        // ステップ内の最後の質問 → 次のステップへ
+        if (step === "parent2" && isSingleParent) {
+          setStep("adjustment");
+          setQuestionIndex(0);
+          return;
+        }
+        const idx = STEPS.findIndex((s) => s.key === step);
+        if (idx < STEPS.length - 1) {
+          const nextStep = STEPS[idx + 1].key;
+          if (nextStep === "result") setShowAdPopup(true);
+          setStep(nextStep);
+          setQuestionIndex(0);
+        }
+      }
+    }, 400);
+
+    return () => clearTimeout(timer);
+  }, [pendingAdvance, safeQuestionIndex, visibleQuestions.length, step, isSingleParent]);
 
   const goPrev = () => {
+    if (safeQuestionIndex > 0) {
+      setQuestionIndex(safeQuestionIndex - 1);
+      return;
+    }
+    // ステップの最初の質問 → 前のステップの最後の質問へ
     if (step === "adjustment" && isSingleParent) {
-      setStep("parent2"); // ひとり親質問がある保護者2ステップへ戻る
+      setStep("parent2");
+      setQuestionIndex(0);
       return;
     }
     const idx = STEPS.findIndex((s) => s.key === step);
-    if (idx > 0) setStep(STEPS[idx - 1].key);
+    if (idx > 0) {
+      setStep(STEPS[idx - 1].key);
+      setQuestionIndex(999); // clampされる
+    }
   };
 
   const reset = () => {
     setAnswers({});
     setStep("parent1");
+    setQuestionIndex(0);
   };
 
   return (
@@ -819,39 +834,28 @@ export function SimulatorForm({ data }: { data: MunicipalityData }) {
       </div>
 
       {/* Questions */}
-      {step !== "result" && (
-        <Card>
-          <CardHeader>
-            <CardTitle>
-              {step === "adjustment"
-                ? "ご家庭の状況を教えてください"
-                : `${STEPS[stepIndex].label}について`}
-            </CardTitle>
-          </CardHeader>
-          <CardContent className="space-y-6">
-            {visibleQuestions.map((q) => (
+      {step !== "result" && currentQuestion && (
+        <Card className="min-h-[calc(100dvh-10rem)]">
+          <CardContent className="flex flex-col justify-between min-h-[calc(100dvh-12rem)] pt-6">
+            <div>
+              <p className="text-xs text-muted-foreground mb-4">
+                {step === "adjustment"
+                  ? "ご家庭の状況を教えてください"
+                  : `${STEPS[stepIndex].label}について`}
+              </p>
               <QuestionField
-                key={q.id}
-                question={q}
-                value={answers[q.id]}
-                onChange={(val) => setAnswer(q.id, val)}
+                key={currentQuestion.id}
+                question={currentQuestion}
+                value={answers[currentQuestion.id]}
+                onChange={(val) => setAnswer(currentQuestion.id, val)}
               />
-            ))}
-            <div className="flex justify-between pt-6">
-              {step !== "parent1" ? (
+            </div>
+            <div className="pt-6">
+              {(step !== "parent1" || safeQuestionIndex > 0) && (
                 <Button variant="outline" onClick={goPrev}>
                   戻る
                 </Button>
-              ) : (
-                <div />
               )}
-              <Button
-                onClick={goNext}
-                disabled={!canProceed}
-                className={step === "adjustment" ? "btn-primary-warm px-8" : ""}
-              >
-                {step === "adjustment" ? "結果を見る" : "次へ"}
-              </Button>
             </div>
           </CardContent>
         </Card>
