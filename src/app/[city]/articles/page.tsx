@@ -65,7 +65,7 @@ export default async function ArticlesPage({
             <a key={article.slug} href={`/${city}/articles/${article.slug}`} className="block group">
               <div className="flex gap-4 items-start p-4 rounded-xl border border-border/60 hover:border-primary/30 hover:shadow-md hover:-translate-y-0.5 transition-all bg-card">
                 <img
-                  src={article.image}
+                  src={`/${city}/articles/${article.slug}/hero`}
                   alt={article.title}
                   className="w-24 h-24 sm:w-32 sm:h-20 rounded-xl object-cover flex-shrink-0"
                 />

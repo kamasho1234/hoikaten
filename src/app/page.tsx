@@ -205,7 +205,7 @@ export default function Home() {
                   >
                     <div className="flex gap-3 items-center p-3 rounded-xl border border-border/60 hover:border-primary/30 hover:shadow-sm transition-all bg-card">
                       <img
-                        src={article.image}
+                        src={`/${article.citySlug}/articles/${article.slug}/hero`}
                         alt={article.title}
                         className="w-16 h-12 rounded-lg object-cover flex-shrink-0"
                       />

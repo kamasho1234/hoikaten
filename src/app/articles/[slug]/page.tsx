@@ -70,7 +70,7 @@ export default async function ArticlePage({
     datePublished: article.publishedAt,
     author: { "@type": "Organization", name: "hoikaten" },
     publisher: { "@type": "Organization", name: "hoikaten" },
-    image: article.image,
+    image: `https://hoikaten.com/articles/${slug}/hero`,
     mainEntityOfPage: {
       "@type": "WebPage",
       "@id": `https://hoikaten.com/articles/${slug}`,
@@ -93,7 +93,7 @@ export default async function ArticlePage({
       {/* ヒーロー画像 */}
       <div className="relative rounded-2xl overflow-hidden mb-8">
         <img
-          src={article.image}
+          src={`/articles/${slug}/hero`}
           alt={article.title}
           className="w-full h-48 sm:h-64 object-cover"
           loading="eager"
@@ -197,7 +197,7 @@ export default async function ArticlePage({
                 <Card className={`hover:shadow-sm hover:-translate-y-0.5 transition-all cursor-pointer border-l-4 ${categoryBorderMap[a.categoryColor]}`}>
                   <CardHeader className="py-4 flex flex-row items-start gap-4">
                     <img
-                      src={a.image}
+                      src={`/articles/${a.slug}/hero`}
                       alt={a.title}
                       className="w-20 h-14 rounded-lg object-cover flex-shrink-0 hidden sm:block"
                     />
