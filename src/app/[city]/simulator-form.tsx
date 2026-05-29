@@ -6,18 +6,12 @@ import { calculateScore } from "@/lib/scoring/engine";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Label } from "@/components/ui/label";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
+
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
-import { RandomAd } from "@/components/random-ad";
+import { FullScreenAd } from "@/components/fullscreen-ad";
 
 type Step = "parent1" | "parent2" | "adjustment" | "result";
 
@@ -47,31 +41,6 @@ function QuestionField({
   value: string | undefined;
   onChange: (val: string) => void;
 }) {
-  if (question.inputType === "select") {
-    return (
-      <div className="space-y-2">
-        <Label>{question.label}</Label>
-        {question.helpText && (
-          <p className="text-xs text-muted-foreground">{question.helpText}</p>
-        )}
-        <Select value={value ?? ""} onValueChange={(val) => { if (val) onChange(val); }}>
-          <SelectTrigger className="w-full">
-            {value
-              ? question.options.find((o) => o.value === value)?.label
-              : "選択してください"}
-          </SelectTrigger>
-          <SelectContent>
-            {question.options.map((opt) => (
-              <SelectItem key={opt.value} value={opt.value}>
-                {opt.label}
-              </SelectItem>
-            ))}
-          </SelectContent>
-        </Select>
-      </div>
-    );
-  }
-
   return (
     <div className="space-y-3">
       <Label>{question.label}</Label>
@@ -693,6 +662,7 @@ function ShareButtons({
 
 export function SimulatorForm({ data }: { data: MunicipalityData }) {
   const [step, setStep] = useState<Step>("parent1");
+  const [showAdPopup, setShowAdPopup] = useState(false);
   const [answers, setAnswers] = useState<Record<string, string>>({});
 
   const stepIndex = STEPS.findIndex((s) => s.key === step);
@@ -797,7 +767,11 @@ export function SimulatorForm({ data }: { data: MunicipalityData }) {
       return;
     }
     const idx = STEPS.findIndex((s) => s.key === step);
-    if (idx < STEPS.length - 1) setStep(STEPS[idx + 1].key);
+    if (idx < STEPS.length - 1) {
+      const nextStep = STEPS[idx + 1].key;
+      if (nextStep === "result") setShowAdPopup(true);
+      setStep(nextStep);
+    }
   };
 
   const goPrev = () => {
@@ -863,11 +837,27 @@ export function SimulatorForm({ data }: { data: MunicipalityData }) {
                 onChange={(val) => setAnswer(q.id, val)}
               />
             ))}
+            <div className="flex justify-between pt-6">
+              {step !== "parent1" ? (
+                <Button variant="outline" onClick={goPrev}>
+                  戻る
+                </Button>
+              ) : (
+                <div />
+              )}
+              <Button
+                onClick={goNext}
+                disabled={!canProceed}
+                className={step === "adjustment" ? "btn-primary-warm px-8" : ""}
+              >
+                {step === "adjustment" ? "結果を見る" : "次へ"}
+              </Button>
+            </div>
           </CardContent>
         </Card>
       )}
 
-      <RandomAd />
+      <FullScreenAd isOpen={showAdPopup} onClose={() => setShowAdPopup(false)} />
 
       {/* Result */}
       {step === "result" && result && (
@@ -994,8 +984,6 @@ export function SimulatorForm({ data }: { data: MunicipalityData }) {
             </p>
           </div>
 
-          <RandomAd />
-
           {/* SNS共有 */}
           <ShareButtons
             municipalityName={data.municipality.name}
@@ -1005,32 +993,19 @@ export function SimulatorForm({ data }: { data: MunicipalityData }) {
         </div>
       )}
 
-      {/* Navigation */}
-      <div className="flex justify-between">
-        {step !== "parent1" ? (
+      {/* Navigation (result only) */}
+      {step === "result" && (
+        <div className="flex justify-between">
           <div className="flex gap-2">
-            {step === "result" && (
-              <Button variant="outline" onClick={reset}>
-                最初からやり直す
-              </Button>
-            )}
+            <Button variant="outline" onClick={reset}>
+              最初からやり直す
+            </Button>
             <Button variant="outline" onClick={goPrev}>
               戻る
             </Button>
           </div>
-        ) : (
-          <div />
-        )}
-        {step !== "result" && (
-          <Button
-            onClick={goNext}
-            disabled={!canProceed}
-            className={step === "adjustment" ? "btn-primary-warm px-8" : ""}
-          >
-            {step === "adjustment" ? "結果を見る" : "次へ"}
-          </Button>
-        )}
-      </div>
+        </div>
+      )}
     </div>
   );
 }
