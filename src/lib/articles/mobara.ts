@@ -1,438 +1,430 @@
 import type { Article } from "./types";
 import { registerArticles } from "./index";
 
-const articles: Article[] = [
+const mobaraArticles: Article[] = [
   {
-    slug: "hokatsu-schedule",
+    slug: "mobara-guide",
     citySlug: "mobara",
-    title: "茂原市の保活スケジュール　申込から内定までの流れ",
+    title: "茂原市の保活ガイド｜10点制の基準指数と入園の基本",
     description:
-      "茂原市の認可保育園の申込時期・選考の流れをまとめました。令和8年度4月入園の動き方を解説します。",
-    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
+      "茂原市の保育園入園選考で使われる利用調整基準を解説。父母各最大10点の合計方式と居宅外・居宅内就労の違いをまとめました。",
+    image:
+      "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&h=400&fit=crop",
     category: "保活の基本",
     categoryColor: "green",
-    content: `<h2>茂原市の4月入園スケジュール</h2>
-<p>茂原市の認可保育園は毎年秋に翌年度4月入園の一次申込を受付けます。基準点数・調整点数を理解して準備を進めましょう。</p>
+    content: `<h2>茂原市の保育園入園制度</h2>
+<p>茂原市の保育園入園選考は<span class="highlight">基準指数の合計方式</span>を採用しています。父母それぞれの基準指数（各最大10点）を合計し、調整指数を加えて世帯の選考点を決定します。</p>
 
-<h3>保活の全体スケジュール</h3>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content">
-<strong>4月〜6月：情報収集</strong>
-<p>茂原市のホームページで保育園の一覧や前年度のボーダー（最低点数一覧）を確認します。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content">
-<strong>7月〜9月：保育園見学</strong>
-<p>茂原市内の保育園を見学して、通勤経路との相性を確認しましょう。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content">
-<strong>9月〜10月：書類準備</strong>
-<p>月あたり就労時間は正確に記載してもらいましょう。点数に直結します。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content">
-<strong>11月：申込書類の提出</strong>
-<p>4月一次の申込期限は例年11月中旬です。期限厳守で提出しましょう。</p>
-</div>
-</div>
+<h3>点数の構成</h3>
+<p>茂原市では父母各最大<strong>10点</strong>、合計で最大20点の基準指数に調整指数を加えて選考が行われます。ひとり親世帯には基本指数として+10点の加算があります。</p>
+
+<h3>基準指数の主な区分</h3>
+<ul>
+<li>居宅外就労：最高9点（1日8時間以上・月20日以上）</li>
+<li>居宅内就労（自営等）：最高8点（1日8時間以上・月20日以上）</li>
+<li>疾病（入院）：10点</li>
+<li>障害（1・2級）：9点</li>
+<li>災害復旧：10点</li>
+<li>出産前後：9点</li>
+<li>求職活動：1点</li>
+</ul>
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
-<p>茂原市の基準点数は父母各最大20点（合計40点満点）です。月の就労時間で判定される制度です。</p>
+<p>茂原市は居宅外就労と居宅内就労で最高点が1点異なります（9点 vs 8点）。自営業やテレワークの場合は居宅内就労として1点低い評価になる点に注意が必要です。</p>
 </div>
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.mobara.chiba.jp/0000008414.html" target="_blank" rel="noopener">茂原市公式サイト 令和8年度の保育所等入所受付について</a>をご確認ください。</p>
+<p>詳細は<a href="https://www.city.mobara.chiba.jp/" target="_blank" rel="noopener">茂原市公式サイト</a>の保育施設入園手続きページをご確認ください。</p>
 </div>`,
-    publishedAt: "2026-04-26",
-    popularity: 55,
+    publishedAt: "2026-06-09",
   },
   {
-    slug: "scoring-system-guide",
+    slug: "mobara-employment",
     citySlug: "mobara",
-    title: "茂原市の入園点数のしくみ　基準点数と調整点数を解説",
+    title: "茂原市の就労点数を徹底解説｜居宅外9点・居宅内8点の区分",
     description:
-      "茂原市の保育園入園選考で使われる基準点数と調整点数のしくみをわかりやすく解説します。",
-    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
+      "茂原市の保育園入園選考における就労の基準指数を詳しく解説。居宅外就労と居宅内就労の違い、日数・時間別の点数を紹介します。",
+    image:
+      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=400&fit=crop",
+    category: "就労",
     categoryColor: "blue",
-    content: `<h2>茂原市の選考点数とは</h2>
-<p>茂原市の認可保育園は「基準点数（父＋母）＋ 調整点数」の合計で選考されます。</p>
+    content: `<h2>茂原市の就労点数</h2>
+<p>茂原市では就労状況を<span class="highlight">居宅外就労</span>と<span class="highlight">居宅内就労</span>に分け、それぞれ日数と時間で評価します。</p>
+
+<h3>居宅外就労の基準指数</h3>
+<table>
+<thead><tr><th>勤務条件</th><th>基準指数</th></tr></thead>
+<tbody>
+<tr><td>1日8時間以上・月20日以上</td><td>9点</td></tr>
+<tr><td>1日6時間以上・月20日以上 or 1日8時間以上・月15日以上</td><td>8点</td></tr>
+<tr><td>1日4時間以上・月20日以上 or 1日6時間以上・月15日以上</td><td>7点</td></tr>
+<tr><td>1日4時間以上・月15日以上 or 1日8時間以上・月12日以上</td><td>6点</td></tr>
+<tr><td>1日6時間以上・月12日以上 or 月64時間以上</td><td>5点</td></tr>
+</tbody>
+</table>
+
+<h3>居宅内就労の基準指数</h3>
+<p>居宅内就労（自営業・テレワーク等）は、同じ勤務条件で居宅外就労より<strong>1点低い</strong>評価になります。</p>
+<table>
+<thead><tr><th>勤務条件</th><th>基準指数</th></tr></thead>
+<tbody>
+<tr><td>1日8時間以上・月20日以上</td><td>8点</td></tr>
+<tr><td>1日6時間以上・月20日以上 or 1日8時間以上・月15日以上</td><td>7点</td></tr>
+<tr><td>1日4時間以上・月20日以上 or 1日6時間以上・月15日以上</td><td>6点</td></tr>
+<tr><td>1日4時間以上・月15日以上 or 1日8時間以上・月12日以上</td><td>5点</td></tr>
+<tr><td>1日6時間以上・月12日以上 or 月64時間以上</td><td>4点</td></tr>
+</tbody>
+</table>
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
-<p>総合点数 ＝ 基準点数（父＋母）＋ 調整点数</p>
+<p>茂原市は日数と時間の組み合わせで細かく点数が分かれています。パートタイムの場合は日数と1日の勤務時間の両方が重要です。</p>
 </div>
-
-<h2>基準点数（父母各最大20点、合計40点）</h2>
-<p>就労の場合、月160時間以上の就労で満点の<span class="highlight">20点</span>です。</p>
-
-<table>
-<tr><th>月の就労時間</th><th>点数</th></tr>
-<tr><td>月160時間以上</td><td>20</td></tr>
-<tr><td>月140時間以上160時間未満</td><td>18</td></tr>
-<tr><td>月120時間以上140時間未満</td><td>16</td></tr>
-<tr><td>月100時間以上120時間未満</td><td>14</td></tr>
-<tr><td>月80時間以上100時間未満</td><td>12</td></tr>
-<tr><td>月64時間以上80時間未満</td><td>10</td></tr>
-<tr><td>月48時間以上64時間未満</td><td>8</td></tr>
-</table>
-
-<h2>調整点数の代表例</h2>
-<ul>
-<li>ひとり親世帯：<span class="highlight">+2点</span></li>
-<li>認可外保育施設に月ぎめ利用中：<span class="highlight">+2点</span></li>
-<li>生活保護世帯：<span class="highlight">+2点</span></li>
-<li>きょうだいが在園中：<span class="highlight">+1点</span></li>
-<li>育休復帰予定：<span class="highlight">+1点</span></li>
-<li>多子世帯（3人以上）：<span class="highlight">+1点</span></li>
-</ul>
 
 <div class="info-box">
-<p><strong>同点の場合の判定</strong></p>
-<p>総合点数が同じ場合は基準点数の高い者が優先されます。さらに基準点数も同じ場合は所得の低い者から承諾されます。</p>
+<p><strong>公式情報</strong></p>
+<p>詳細は<a href="https://www.city.mobara.chiba.jp/" target="_blank" rel="noopener">茂原市公式サイト</a>をご確認ください。</p>
 </div>`,
-    publishedAt: "2026-04-26",
-    popularity: 60,
+    publishedAt: "2026-06-09",
   },
   {
-    slug: "score-up-tips",
+    slug: "mobara-adjustment",
     citySlug: "mobara",
-    title: "茂原市で入園点数を上げるコツ　調整点数チェックリスト",
+    title: "茂原市の調整指数一覧｜ひとり親+10・保育士+5の加点を解説",
     description:
-      "茂原市の保育園入園選考で調整点数の加点を最大限に活用する方法を解説します。",
-    image: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=400&fit=crop",
-    category: "点数アップ",
-    categoryColor: "amber",
-    content: `<h2>基準点数40点は出発点</h2>
-<p>茂原市ではフルタイム共働き世帯は基準点数<span class="highlight">40点</span>で横並びです。差がつくのは調整点数の加点です。</p>
+      "茂原市の保育園入園選考における調整指数を完全解説。ひとり親世帯+10点、保育士+5点、きょうだい加点や減点項目もまとめました。",
+    image:
+      "https://images.unsplash.com/photo-1591035897819-f4bdf739f446?w=800&h=400&fit=crop",
+    category: "加点・調整",
+    categoryColor: "purple",
+    content: `<h2>茂原市の調整指数</h2>
+<p>茂原市は基準指数に加えて<span class="highlight">調整指数</span>を加減算します。ひとり親世帯への+10点加算が最も大きな加点項目です。</p>
 
-<h2>加点チェックリスト</h2>
+<h3>加点となる調整指数</h3>
 <table>
-<tr><th>項目</th><th>点数</th><th>条件</th></tr>
-<tr><td>ひとり親世帯</td><td>+2点</td><td>母子・父子家庭の場合</td></tr>
-<tr><td>認可外保育施設利用</td><td>+2点</td><td>認可外に月ぎめで利用中</td></tr>
-<tr><td>生活保護</td><td>+2点</td><td>生活保護を受けている場合</td></tr>
-<tr><td>きょうだい在園</td><td>+1点</td><td>認可保育園にきょうだいが在園中</td></tr>
-<tr><td>きょうだい同時申込</td><td>+1点</td><td>きょうだいと同時に申し込む場合</td></tr>
-<tr><td>育休復帰予定</td><td>+1点</td><td>入園月に職場復帰する場合</td></tr>
-<tr><td>多子世帯</td><td>+1点</td><td>きょうだいが3人以上</td></tr>
+<thead><tr><th>項目</th><th>調整指数</th></tr></thead>
+<tbody>
+<tr><td>ひとり親世帯</td><td>+10点</td></tr>
+<tr><td>保育士資格（市内保育施設勤務）</td><td>+5点</td></tr>
+<tr><td>母子・父子世帯（同居親族なし）</td><td>+3点</td></tr>
+<tr><td>生活保護世帯</td><td>+2点</td></tr>
+<tr><td>産後休暇・育休明け復帰</td><td>+2点</td></tr>
+<tr><td>きょうだいが認可保育施設に在園中</td><td>+2点</td></tr>
+<tr><td>母子・父子世帯（65歳未満同居あり）</td><td>+1点</td></tr>
+<tr><td>きょうだいと同時申込</td><td>+1点</td></tr>
+</tbody>
+</table>
+
+<h3>減点となる調整指数</h3>
+<table>
+<thead><tr><th>項目</th><th>調整指数</th></tr></thead>
+<tbody>
+<tr><td>65歳未満の同居親族が保育可能</td><td>-2点</td></tr>
+<tr><td>市外からの申込</td><td>-6点</td></tr>
+</tbody>
 </table>
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
-<p>茂原市は入所決定者の最低点数一覧を公開しています。園ごとのボーダーを確認して、自分の点数で入園できそうな園を探しましょう。</p>
+<p>茂原市のひとり親加点+10点は、基準指数の最高点（居宅外就労9点）を上回ります。ひとり親世帯はフルタイム就労で9+10=19点となり、二人親フルタイム世帯（9+9=18点）を超える点数になります。</p>
 </div>
 
-<div class="warn-box">
-<p><strong>注意</strong></p>
-<p>就労証明書の月あたり就労時間は正確に記載してください。実態と異なる記載は入園取消しの対象です。</p>
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>詳細は<a href="https://www.city.mobara.chiba.jp/" target="_blank" rel="noopener">茂原市公式サイト</a>をご確認ください。</p>
 </div>`,
-    publishedAt: "2026-04-26",
-    popularity: 55,
+    publishedAt: "2026-06-09",
   },
   {
-    slug: "tiebreaker-rules",
+    slug: "mobara-single-parent",
     citySlug: "mobara",
-    title: "茂原市で同点になったらどうなる？優先順位を解説",
+    title: "茂原市のひとり親世帯優遇｜基本+10点と母子父子+3点の二重加点",
     description:
-      "茂原市の保育園入園選考で同点だった場合の優先順位の判定方法を解説します。",
-    image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
+      "茂原市のひとり親世帯向け加点を解説。基本加算+10点に加え、母子・父子世帯+3点の調整指数で最大+13点の加点があります。",
+    image:
+      "https://images.unsplash.com/photo-1476703993599-0035a21b17a9?w=800&h=400&fit=crop",
+    category: "ひとり親",
+    categoryColor: "rose",
+    content: `<h2>茂原市のひとり親世帯向け加点</h2>
+<p>茂原市ではひとり親世帯に対して<span class="highlight">最大+13点の加点</span>があります。基本加算+10点と母子・父子世帯加点+3点の二重加点制度です。</p>
+
+<h3>ひとり親世帯の加点内訳</h3>
+<table>
+<thead><tr><th>項目</th><th>点数</th></tr></thead>
+<tbody>
+<tr><td>ひとり親世帯（基本加算）</td><td>+10点</td></tr>
+<tr><td>母子・父子世帯（同居親族なし）</td><td>+3点</td></tr>
+<tr><td>母子・父子世帯（65歳未満同居あり）</td><td>+1点</td></tr>
+</tbody>
+</table>
+
+<h3>ひとり親世帯の計算例</h3>
+<p>ひとり親でフルタイム就労（同居親族なし）の場合：</p>
+<ul>
+<li>基準指数：9点（居宅外就労最高）</li>
+<li>ひとり親加算：+10点</li>
+<li>母子・父子世帯（同居親族なし）：+3点</li>
+<li>合計：<strong>22点</strong></li>
+</ul>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>ひとり親加算+10点は「基本指数」に含まれるため、調整指数の母子・父子加点と重複して適用されます。同居親族がいない場合は合計+13点の大きな加点となります。</p>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>詳細は<a href="https://www.city.mobara.chiba.jp/" target="_blank" rel="noopener">茂原市公式サイト</a>をご確認ください。</p>
+</div>`,
+    publishedAt: "2026-06-09",
+  },
+  {
+    slug: "mobara-sibling",
+    citySlug: "mobara",
+    title: "茂原市のきょうだい加点｜在園中+2・同時申込+1の活用法",
+    description:
+      "茂原市の保育園入園でのきょうだい加点を解説。きょうだいが既に在園中なら+2点、同時申込で+1点の調整指数が加算されます。",
+    image:
+      "https://images.unsplash.com/photo-1471286174890-9c112ffca5b4?w=800&h=400&fit=crop",
+    category: "きょうだい",
+    categoryColor: "amber",
+    content: `<h2>茂原市のきょうだい加点制度</h2>
+<p>茂原市では、きょうだいが保育施設を利用している場合に<span class="highlight">調整指数の加点</span>があります。</p>
+
+<h3>きょうだい関連の調整指数</h3>
+<table>
+<thead><tr><th>状況</th><th>調整指数</th></tr></thead>
+<tbody>
+<tr><td>きょうだいが認可保育施設に在園中</td><td>+2点</td></tr>
+<tr><td>きょうだいと同時入所申込</td><td>+1点</td></tr>
+</tbody>
+</table>
+
+<h3>具体的なシミュレーション</h3>
+<p>両親ともフルタイム居宅外就労＋きょうだい在園中の場合：</p>
+<ul>
+<li>基準指数：9＋9＝18点</li>
+<li>きょうだい加点：+2点</li>
+<li>合計：<strong>20点</strong></li>
+</ul>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>茂原市の10点制では+2点のきょうだい加点も大きな影響を持ちます。上の子が認可施設に通っている場合は必ず申告しましょう。</p>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>詳細は<a href="https://www.city.mobara.chiba.jp/" target="_blank" rel="noopener">茂原市公式サイト</a>をご確認ください。</p>
+</div>`,
+    publishedAt: "2026-06-09",
+  },
+  {
+    slug: "mobara-nursery-worker",
+    citySlug: "mobara",
+    title: "茂原市の保育士加点｜市内施設勤務で+5点の優遇制度",
+    description:
+      "茂原市で保育士資格を持ち市内の保育施設で勤務する世帯への+5点の調整指数加点を解説します。",
+    image:
+      "https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&h=400&fit=crop",
+    category: "保育士優遇",
+    categoryColor: "green",
+    content: `<h2>茂原市の保育士加点制度</h2>
+<p>茂原市では、保育士資格を持ち市内の保育施設で就労する世帯に<span class="highlight">+5点の調整指数</span>が加算されます。</p>
+
+<h3>保育士加点の条件</h3>
+<ul>
+<li>保育士資格を保有していること</li>
+<li>茂原市内の保育施設で就労していること</li>
+</ul>
+
+<h3>保育士世帯の計算例</h3>
+<p>片方が市内保育施設でフルタイム勤務、もう片方も別職種フルタイムの場合：</p>
+<ul>
+<li>基準指数：9＋9＝18点</li>
+<li>保育士加点：+5点</li>
+<li>合計：<strong>23点</strong></li>
+</ul>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>茂原市の10点制度では+5点の保育士加点は非常に大きな優遇です。基準指数の最高点9点の半分以上の加点が得られるため、保育士世帯は入園選考で大きく有利になります。</p>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>詳細は<a href="https://www.city.mobara.chiba.jp/" target="_blank" rel="noopener">茂原市公式サイト</a>をご確認ください。</p>
+</div>`,
+    publishedAt: "2026-06-09",
+  },
+  {
+    slug: "mobara-deduction",
+    citySlug: "mobara",
+    title: "茂原市の減点項目｜同居親族-2・市外申込-6の影響",
+    description:
+      "茂原市の保育園入園選考で減点となる項目を解説。65歳未満の同居親族がいると-2点、市外からの申込は-6点と大きな影響があります。",
+    image:
+      "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&h=400&fit=crop",
+    category: "減点・注意",
+    categoryColor: "rose",
+    content: `<h2>茂原市の減点項目</h2>
+<p>茂原市には2つの<span class="highlight">減点項目</span>があります。特に市外からの申込は-6点と影響が非常に大きいです。</p>
+
+<h3>減点の詳細</h3>
+<table>
+<thead><tr><th>項目</th><th>調整指数</th></tr></thead>
+<tbody>
+<tr><td>65歳未満の同居親族が児童を保育できる</td><td>-2点</td></tr>
+<tr><td>市外からの申込</td><td>-6点</td></tr>
+</tbody>
+</table>
+
+<h3>同居親族の減点</h3>
+<p>祖父母など65歳未満の親族が同居し、児童の保育が可能と判断される場合に-2点の減点があります。</p>
+
+<h3>市外申込の減点</h3>
+<p>市外在住で茂原市の保育施設に申込む場合、-6点の大きな減点があります。両親フルタイム（18点）でも12点まで下がります。</p>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>市外からの-6点減点は非常に大きいです。茂原市への転入を予定している場合は、転入届を先に提出してから申込むことで減点を回避できる可能性があります。窓口にご相談ください。</p>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>詳細は<a href="https://www.city.mobara.chiba.jp/" target="_blank" rel="noopener">茂原市公式サイト</a>をご確認ください。</p>
+</div>`,
+    publishedAt: "2026-06-09",
+  },
+  {
+    slug: "mobara-schedule",
+    citySlug: "mobara",
+    title: "茂原市の保育園申込スケジュール｜申請時期と入園までの流れ",
+    description:
+      "茂原市の保育園入園申込みの時期や手順を解説。4月一斉入所と途中入所のスケジュールをまとめました。",
+    image:
+      "https://images.unsplash.com/photo-1506784365847-bbad939e9335?w=800&h=400&fit=crop",
+    category: "スケジュール",
     categoryColor: "blue",
-    content: `<h2>同点時の判定方法</h2>
-<p>茂原市の入園選考で総合点数が同点になった場合、さらに優先順位で判定されます。</p>
+    content: `<h2>茂原市の保育園申込スケジュール</h2>
+<p>茂原市の保育園入園には<span class="highlight">4月一斉入所</span>と<span class="highlight">途中入所</span>の2つの申込時期があります。</p>
 
-<h2>同点時に優先される順序</h2>
-<ol>
-<li>基準点数の高い者</li>
-<li>所得の低い者</li>
-<li>その他、児童福祉の観点から配慮が必要な世帯</li>
-</ol>
-
-<h3>児童福祉の観点から配慮される世帯</h3>
+<h3>4月一斉入所の目安</h3>
 <ul>
-<li>ひとり親世帯</li>
-<li>きょうだいが同じ園に在園中</li>
-<li>認可外保育施設に在所中</li>
-<li>生活保護世帯</li>
-<li>多子世帯（3人以上のきょうだい）</li>
+<li>申込受付：前年11月頃</li>
+<li>利用調整（選考）：12月〜1月</li>
+<li>結果通知：2月頃</li>
+<li>入園：4月1日</li>
+</ul>
+
+<h3>途中入所</h3>
+<ul>
+<li>申込：入所希望月の前月15日頃まで</li>
+<li>空き状況により利用調整</li>
+</ul>
+
+<h3>必要書類</h3>
+<ul>
+<li>保育施設利用申込書</li>
+<li>就労証明書（就労の場合）</li>
+<li>診断書等（疾病・障害の場合）</li>
+<li>その他該当する証明書類</li>
 </ul>
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
-<p>茂原市の40点制では、フルタイム共働きで40点が基本ラインです。調整点数の1点が当落を分けることがあります。</p>
+<p>茂原市は千葉県南部の中心都市で、保育施設の数は限られています。希望する園に入るためには早めの申込みと複数園の希望が重要です。</p>
 </div>
 
-<div class="warn-box">
-<p><strong>注意</strong></p>
-<p>優先順位は年度によって変更される場合があります。最新の「入園のご案内」で必ず確認しましょう。</p>
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>最新のスケジュールは<a href="https://www.city.mobara.chiba.jp/" target="_blank" rel="noopener">茂原市公式サイト</a>でご確認ください。</p>
 </div>`,
-    publishedAt: "2026-04-26",
-    popularity: 45,
+    publishedAt: "2026-06-09",
   },
   {
-    slug: "part-time-work-score",
+    slug: "mobara-parental-leave",
     citySlug: "mobara",
-    title: "茂原市で時短勤務だと点数はどう変わる？",
+    title: "茂原市の育休明け加点と育児休業中の点数｜復帰計画のポイント",
     description:
-      "茂原市の保育園入園選考で時短勤務の場合の基準点数への影響を解説します。",
-    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=400&fit=crop",
-    category: "点数アップ",
-    categoryColor: "amber",
-    content: `<h2>茂原市は月の就労時間で判定</h2>
-<p>茂原市の基準点数は月の就労時間で決まります。時短勤務の影響を確認しましょう。</p>
+      "茂原市の育児休業関連の点数を解説。育休中は基準指数2点ですが、育休明け復帰で+2点の調整指数が加算されます。",
+    image:
+      "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?w=800&h=400&fit=crop",
+    category: "育休復帰",
+    categoryColor: "rose",
+    content: `<h2>茂原市の育児休業と保活</h2>
+<p>茂原市では育児休業中の基準指数と、育休明け復帰時の調整指数が別々に設定されています。</p>
 
+<h3>育児休業中の基準指数</h3>
+<p>育児休業中（復帰予定あり）：<strong>2点</strong></p>
+<p>フルタイム就労の9点と比べると低い点数ですが、復帰後は就労の基準指数が適用されます。</p>
+
+<h3>育休明け復帰の調整指数</h3>
+<p>産後休暇・育児休業明けで復帰する場合：<strong>+2点</strong></p>
+
+<h3>計算例</h3>
+<p>育休明け復帰（居宅外フルタイム）＋配偶者フルタイムの場合：</p>
+<ul>
+<li>基準指数：9＋9＝18点</li>
+<li>育休明け加点：+2点</li>
+<li>合計：<strong>20点</strong></li>
+</ul>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>育休中に申込む場合は基準指数が2点と低くなります。入所希望月に合わせた復帰計画を立て、育休明け加点+2点を活用するのがポイントです。</p>
+</div>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>詳細は<a href="https://www.city.mobara.chiba.jp/" target="_blank" rel="noopener">茂原市公式サイト</a>をご確認ください。</p>
+</div>`,
+    publishedAt: "2026-06-09",
+  },
+  {
+    slug: "mobara-comparison",
+    citySlug: "mobara",
+    title: "茂原市と千葉県内の他市を比較｜点数制度の違いと特徴",
+    description:
+      "茂原市の保育園点数制度を千葉市・市原市・木更津市など千葉県内の他の自治体と比較。10点制と居宅外・内の区分が特徴です。",
+    image:
+      "https://images.unsplash.com/photo-1543286386-713bdd548da4?w=800&h=400&fit=crop",
+    category: "比較",
+    categoryColor: "teal",
+    content: `<h2>茂原市と千葉県内他市の比較</h2>
+<p>茂原市の点数制度を<span class="highlight">千葉県内の他の自治体</span>と比較してみましょう。</p>
+
+<h3>基準指数の比較</h3>
 <table>
-<tr><th>月の就労時間</th><th>基準点数</th></tr>
-<tr><td>月160時間以上</td><td>20点</td></tr>
-<tr><td>月140時間以上160時間未満</td><td>18点</td></tr>
-<tr><td>月120時間以上140時間未満</td><td>16点</td></tr>
-<tr><td>月100時間以上120時間未満</td><td>14点</td></tr>
-<tr><td>月80時間以上100時間未満</td><td>12点</td></tr>
-<tr><td>月64時間以上80時間未満</td><td>10点</td></tr>
-<tr><td>月48時間以上64時間未満</td><td>8点</td></tr>
+<thead><tr><th>自治体</th><th>方式</th><th>最大点（1人分）</th><th>フルタイム点数</th></tr></thead>
+<tbody>
+<tr><td>茂原市</td><td>合計</td><td>10点</td><td>9点（居宅外8h+/20日+）</td></tr>
+<tr><td>千葉市</td><td>合計</td><td>20点</td><td>20点（週5日×8h+）</td></tr>
+<tr><td>市原市</td><td>合計</td><td>16点</td><td>16点（週5日+×8h+）</td></tr>
+<tr><td>木更津市</td><td>合計</td><td>10点</td><td>10点</td></tr>
+</tbody>
 </table>
 
-<div class="warn-box">
-<p><strong>注意</strong></p>
-<p>1日6時間×週5日＝月約120時間の時短勤務の場合、基準点数は<span class="highlight">16点</span>です。フルタイムの20点と比べて4点下がります。</p>
-</div>
-
-<h2>月160時間の壁</h2>
-<p>満点の20点を得るには月160時間以上が必要です。1日8時間×月20日＝160時間がちょうど満点ラインです。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>復職後のフルタイム勤務条件を就労証明書に記載してもらえるか、勤務先に確認しましょう。育休中でも復職後の勤務条件で点数が判定されます。</p>
-</div>`,
-    publishedAt: "2026-04-26",
-    popularity: 50,
-  },
-  {
-    slug: "single-parent-score",
-    citySlug: "mobara",
-    title: "茂原市でひとり親の場合　加点と支援制度を解説",
-    description:
-      "茂原市の保育園入園選考でひとり親世帯が受ける加点と、利用できる支援制度をまとめました。",
-    image: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=800&h=400&fit=crop",
-    category: "点数アップ",
-    categoryColor: "amber",
-    content: `<h2>ひとり親世帯の加点</h2>
-<p>茂原市の入園選考で、ひとり親世帯は調整点数で<span class="highlight">+2点</span>の加点が得られます。</p>
-
-<h3>加点の対象</h3>
+<h3>特徴的な違い</h3>
 <ul>
-<li>母子家庭（父親が不在）</li>
-<li>父子家庭（母親が不在）</li>
+<li>茂原市は居宅外と居宅内で最高点が1点異なる</li>
+<li>ひとり親加算+10点が基本指数に含まれる</li>
+<li>市外申込の-6点減点が大きい</li>
 </ul>
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
-<p>ひとり親は基準点数が同じ場合の同点調整でも優先される傾向があります。必ず申込書類でひとり親であることを記載しましょう。</p>
+<p>千葉県内でも自治体ごとに点数制度は大きく異なります。茂原市は10点制でシンプルですが、居宅外・内の区分やひとり親加算の仕組みに特徴があります。転居を検討する場合は制度全体を比較しましょう。</p>
 </div>
 
-<h2>ひとり親が利用できる支援制度</h2>
-<p>茂原市ではひとり親世帯向けの様々な支援制度があります。保育園入園時の相談窓口で詳しく説明を受けられます。</p>
-
-<h3>保育料の軽減</h3>
-<p>市町村民税非課税世帯のひとり親は、保育料が軽減される場合があります。</p>
-
-<h3>児童扶養手当</h3>
-<p>18歳未満の子どもを育てるひとり親に対して、児童扶養手当が支給されます。</p>
-
-<div class="warn-box">
-<p><strong>注意</strong></p>
-<p>加点を受けるには、戸籍謄本や児童扶養手当受給証などの書類提出が必要な場合があります。事前に茂原市に確認しましょう。</p>
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>各自治体の最新情報は公式サイトでご確認ください。</p>
 </div>`,
-    publishedAt: "2026-04-26",
-    popularity: 48,
-  },
-  {
-    slug: "parental-leave-timing",
-    citySlug: "mobara",
-    title: "茂原市の育休明けのタイミング　入園点数への影響",
-    description:
-      "茂原市の保育園入園選考で育休明けの復帰タイミングが点数に与える影響を解説します。",
-    image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>育休復帰予定で加点</h2>
-<p>茂原市の入園選考では、育児休業を取得して入園月に復帰する場合、調整点数で<span class="highlight">+1点</span>の加点が得られます。</p>
-
-<h3>加点の条件</h3>
-<ul>
-<li>育児休業中である</li>
-<li>入園月に職場復帰予定である</li>
-<li>就労証明書などで証明できる</li>
-</ul>
-
-<h2>育休中の点数判定</h2>
-<p>育児休業中の保護者の基準点数は、復職後の勤務条件で判定されます。フルタイム復帰予定であれば、育休中でも20点が認定されます。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>就労証明書には「復帰予定日」と「復帰後の勤務時間」を正確に記載してもらいましょう。これが点数認定に直結します。</p>
-</div>
-
-<h2>入園月の選択の重要性</h2>
-<p>育休明けに合わせて入園月を選ぶことで、確実に加点が得られます。</p>
-
-<table>
-<tr><th>パターン</th><th>基準点数</th><th>調整点数</th><th>加点</th></tr>
-<tr><td>育休中・復帰予定</td><td>20点（復帰後）</td><td>+1点</td><td>あり</td></tr>
-<tr><td>育休中・復帰予定なし</td><td>0点</td><td>0点</td><td>なし</td></tr>
-<tr><td>既に復帰</td><td>20点</td><td>0点</td><td>なし</td></tr>
-</table>
-
-<div class="warn-box">
-<p><strong>注意</strong></p>
-<p>入園月の前月までに復帰してしまうと、加点の対象にならない場合があります。申込時に必ず確認しましょう。</p>
-</div>`,
-    publishedAt: "2026-04-26",
-    popularity: 52,
-  },
-  {
-    slug: "nursery-wait-time",
-    citySlug: "mobara",
-    title: "茂原市の待機児童の現状　入園の難易度を解説",
-    description:
-      "茂原市の認可保育園の待機児童数や競争率から、入園の難易度を分析します。",
-    image: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>茂原市の待機児童状況</h2>
-<p>茂原市の認可保育園の需要と供給のバランスを把握することが、保活戦略の第一歩です。</p>
-
-<h3>保育園の競争率</h3>
-<p>茂原市内の保育園は地域によって競争率が異なります。駅前や商業施設近くの人気園は倍率が高い傾向にあります。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>前年度の「入所決定者の最低点数一覧」を確認することで、自分の点数で合格できそうな園を見つけることができます。</p>
-</div>
-
-<h2>茂原市内の園の特徴</h2>
-<ul>
-<li>駅前の認可保育園：競争率高、倍率2倍以上</li>
-<li>駅から少し離れた園：競争率中程度、倍率1.5倍</li>
-<li>郊外の園：比較的入りやすい傾向</li>
-</ul>
-
-<h3>0歳児クラスと1歳児クラスの難易度</h3>
-<p>0歳児は定員が少ないため、最もボーダーが高くなる傾向があります。1歳児は0歳児よりは入りやすいですが、2歳児以上と比べるとやや難しい傾向があります。</p>
-
-<div class="warn-box">
-<p><strong>注意</strong></p>
-<p>待機児童数は毎年変動します。必ず最新の茂原市公式情報で確認しましょう。</p>
-</div>`,
-    publishedAt: "2026-04-26",
-    popularity: 42,
-  },
-  {
-    slug: "application-checklist",
-    citySlug: "mobara",
-    title: "茂原市の申込書類チェックリスト　書き漏れを防ぐ",
-    description:
-      "茂原市の保育園申込に必要な書類と、記入時の注意点をまとめたチェックリストです。",
-    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>申込書類チェックリスト</h2>
-<p>申込期限の前に書類不備を防ぐため、チェックリストを確認しましょう。</p>
-
-<h3>提出が必須の書類</h3>
-<ul>
-<li>保育園入園申込書（指定様式）</li>
-<li>家庭状況調査票</li>
-<li>就労証明書（就労している場合）</li>
-<li>保険証の写し</li>
-<li>印鑑</li>
-</ul>
-
-<h3>就労証明書の記入ポイント</h3>
-<ul>
-<li>月の就労時間を正確に記載する</li>
-<li>通勤時間は含めない</li>
-<li>残業時間も含めた実働時間で計算する</li>
-<li>勤務先の押印を忘れずに</li>
-</ul>
-
-<h3>その他の加点に関連する提出書類</h3>
-<table>
-<tr><th>加点項目</th><th>必要な書類</th></tr>
-<tr><td>ひとり親</td><td>戸籍謄本（コピー）、児童扶養手当受給証</td></tr>
-<tr><td>生活保護</td><td>生活保護受給証明書</td></tr>
-<tr><td>認可外保育施設利用中</td><td>施設からの在園証明書</td></tr>
-<tr><td>身体障害者手帳</td><td>手帳のコピー</td></tr>
-</table>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>書類は期限までに余裕を持って提出しましょう。郵送の場合は消印有効日を確認してください。</p>
-</div>
-
-<div class="warn-box">
-<p><strong>注意</strong></p>
-<p>書類に記載漏れがあると点数が認定されない場合があります。申込む前に茂原市役所に確認することをお勧めします。</p>
-</div>`,
-    publishedAt: "2026-04-26",
-    popularity: 50,
-  },
-  {
-    slug: "unlicensed-nursery",
-    citySlug: "mobara",
-    title: "茂原市で認可外保育施設を利用する場合の加点",
-    description:
-      "茂原市の保育園入園選考で認可外保育施設の利用が与える影響と加点制度を解説します。",
-    image: "https://images.unsplash.com/photo-1503454537688-e47a8b0b5a20?w=800&h=400&fit=crop",
-    category: "点数アップ",
-    categoryColor: "amber",
-    content: `<h2>認可外保育施設の利用で加点</h2>
-<p>茂原市の入園選考では、認可外保育施設に月ぎめで預けている場合、調整点数で<span class="highlight">+2点</span>の加点が得られます。</p>
-
-<h3>加点の対象となる施設</h3>
-<ul>
-<li>認可外保育施設</li>
-<li>ベビーシッター（月ぎめで利用）</li>
-<li>認定家庭保育室</li>
-<li>その他の認可外保育事業</li>
-</ul>
-
-<h3>加点の条件</h3>
-<ul>
-<li>月ぎめで利用している</li>
-<li>実績が確認できる書類がある</li>
-<li>継続的に利用している</li>
-</ul>
-
-<h2>認可外と認可保育園の組み合わせ戦略</h2>
-<p>不承諾となった場合のリスク対策として、認可外保育施設を先に利用することで、翌年度申込時に加点が得られます。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>認可外に1年利用した場合、翌年度申込時の調整点数で+2点の加点が得られるため、入園実現の確度が上がります。</p>
-</div>
-
-<h3>必要な証明書</h3>
-<p>加点を受けるには、施設からの「利用証明書」や「在園証明書」が必要です。申込時に施設に発行を依頼しておきましょう。</p>
-
-<div class="warn-box">
-<p><strong>注意</strong></p>
-<p>認可外施設の利用実績がないと加点が認定されません。領収書などの証拠書類を保管しておきましょう。</p>
-</div>`,
-    publishedAt: "2026-04-26",
-    popularity: 45,
+    publishedAt: "2026-06-09",
   },
 ];
 
-registerArticles(articles);
+registerArticles(mobaraArticles);

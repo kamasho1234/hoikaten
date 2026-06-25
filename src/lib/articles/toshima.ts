@@ -2,561 +2,511 @@ import type { Article } from "./types";
 import { registerArticles } from "./index";
 
 const articles: Article[] = [
-  {
-    slug: "score-up-checklist",
-    citySlug: "toshima",
-    title: "豊島区で加点を最大限に活用する方法　調整指数チェックリスト",
-    description:
-      "豊島区の保育園入園選考で調整指数の加点を最大限に活用するためのチェックリストです。",
-    image: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=400&fit=crop",
-    category: "点数アップ",
-    categoryColor: "amber",
-    content: `<h2>加点の取りこぼしをなくそう</h2>
-<p>豊島区の入園選考では<span class="highlight">1点の差</span>が合否を分けることがあります。使える加点は漏れなく活用しましょう。</p>
-
-<h3>主な加点項目</h3>
-<table>
-<tr><th>加点項目</th><th>点数</th><th>条件</th></tr>
-<tr><td>ひとり親世帯</td><td>+8点</td><td>ひとり親またはこれに準ずる世帯</td></tr>
-<tr><td>きょうだい在園</td><td>+3点</td><td>認可保育施設にきょうだいが在園中</td></tr>
-<tr><td>生活保護世帯</td><td>+3点</td><td>生活保護受給中</td></tr>
-<tr><td>認可外保育施設の利用</td><td>+2点</td><td>月48時間以上有償で預けている場合</td></tr>
-<tr><td>育休明け復職予定</td><td>+2点</td><td>入園月中に復職する場合</td></tr>
-<tr><td>豊島区民</td><td>+1点</td><td>申込締切日時点で豊島区に住民登録</td></tr>
-</table>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>豊島区はひとり親世帯への加点が<span class="highlight">+8点</span>と非常に大きいのが特徴です。きょうだい加点（+3）も活用しましょう。</p>
-</div>
-
-<h2>減点に注意</h2>
-<p>居宅内自営で保育に欠ける程度が低い場合は<span class="highlight">-1点</span>の減点があります。また就労実績が3ヶ月未満の場合も減点対象です。</p>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.toshima.lg.jp/260/kosodate/kosodate/hoikuen/nyuen/016786.html" target="_blank" rel="noopener">豊島区公式サイト「保育所入所基準指数表」</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-03-28",
-    popularity: 100,
-  },
-  {
-    slug: "competition-reality",
-    citySlug: "toshima",
-    title: "豊島区の保育園、入りやすさの実態と競争の現状",
-    description:
-      "豊島区の認可保育園の入園競争の実態をデータで解説します。",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
-    categoryColor: "blue",
-    content: `<h2>豊島区の入園競争の現状</h2>
-<p>豊島区は待機児童対策に力を入れており、保育施設の数は増加しています。しかし、池袋周辺を中心に依然として競争が激しいエリアがあります。</p>
-
-<h2>年齢別の傾向</h2>
-<table>
-<tr><th>年齢</th><th>競争状況</th></tr>
-<tr><td>0歳児</td><td>比較的入りやすい</td></tr>
-<tr><td>1歳児</td><td>最も競争が激しい</td></tr>
-<tr><td>2歳児</td><td>やや厳しい</td></tr>
-<tr><td>3歳児以上</td><td>比較的入りやすい</td></tr>
-</table>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>豊島区の令和7年4月入園の内定指数を見ると、多くの園で40〜44点が内定ラインとなっています。加点なしの40点では入れない園が増えています。</p>
-</div>
-
-<h2>内定指数を確認しよう</h2>
-<p>豊島区は園別の内定指数（最低点）を公開しています。希望する園の過去の内定指数を確認し、自分の点数と比較することが大切です。</p>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>内定指数は<a href="https://www.city.toshima.lg.jp/260/kosodate/kosodate/hoikuen/nyuen/2007161135.html" target="_blank" rel="noopener">豊島区公式サイト「入園内定指数」</a>で確認できます。</p>
-</div>`,
-    publishedAt: "2026-03-28",
-    popularity: 95,
-  },
-  {
-    slug: "jitan-kinmu-score",
-    citySlug: "toshima",
-    title: "時短勤務と保育園　豊島区の点数への影響は？",
-    description:
-      "豊島区の保育園入園選考で時短勤務が基本指数にどう影響するかを解説します。",
-    image: "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800&h=400&fit=crop",
-    category: "点数アップ",
-    categoryColor: "amber",
-    content: `<h2>時短勤務だと点数は下がる？</h2>
-<p>豊島区では、育児短時間勤務制度等を利用して勤務時間が短くなる場合、<strong>短縮前の所定労働時間</strong>で基本指数が算定されます。</p>
-
-<table>
-<tr><th>勤務形態</th><th>基本指数</th></tr>
-<tr><td>フルタイム（月160時間以上）を時短で120時間に</td><td><span class="highlight">20点</span>（フルタイムで計算）</td></tr>
-<tr><td>勤務日数が月16日に減った場合</td><td><span class="highlight">17点</span>（日数は短縮後で計算）</td></tr>
-</table>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>時短で1日の労働時間が減っても、契約上の所定労働時間で計算されます。ただし勤務日数が減る場合は減った日数で計算されます。</p>
-</div>
-
-<h2>入園後の時短勤務</h2>
-<p>入園後に時短勤務に切り替えることは問題ありません。月<span class="highlight">48時間</span>以上の勤務を維持してください。</p>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.toshima.lg.jp/260/kosodate/kosodate/hoikuen/nyuen/016786.html" target="_blank" rel="noopener">豊島区公式サイト「保育所入所基準指数表」</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-03-28",
-    popularity: 90,
-  },
-  {
-    slug: "same-score-priority",
-    citySlug: "toshima",
-    title: "豊島区で同点になったらどうなる？優先順位を詳しく解説",
-    description:
-      "豊島区の保育園入園選考で同じ点数になった場合の優先順位を解説します。",
-    image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
-    categoryColor: "blue",
-    content: `<h2>同点のとき、どうやって決まるの？</h2>
-<p>豊島区の入園選考では、指数が同じ場合に以下の優先順位で判定されます。</p>
-
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content">
-<strong>ひとり親世帯</strong>
-<p>ひとり親世帯が最優先で判定されます。</p>
-</div>
-</div>
-
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content">
-<strong>生活保護受給世帯</strong>
-<p>生活保護を受けている世帯が優先されます。</p>
-</div>
-</div>
-
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content">
-<strong>きょうだいが在園中</strong>
-<p>希望園にきょうだいが在園している世帯が優先されます。</p>
-</div>
-</div>
-
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content">
-<strong>基本指数が高い世帯</strong>
-<p>調整指数を除いた基本点数が高い世帯が優先されます。</p>
-</div>
-</div>
-
-<div class="step">
-<div class="step-num">5</div>
-<div class="step-content">
-<strong>所得が低い世帯</strong>
-<p>住民税の所得割額が低い世帯が優先されます。</p>
-</div>
-</div>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>同点勝負になったとき、「基本指数が高い」つまり調整指数ではなく就労実績での点数が高い方が有利です。</p>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.toshima.lg.jp/260/kosodate/kosodate/hoikuen/nyuen/016786.html" target="_blank" rel="noopener">豊島区公式サイト「保育所入所基準指数表」</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-03-28",
-    popularity: 85,
-  },
-  {
-    slug: "ochita-sentakushi",
-    citySlug: "toshima",
-    title: "豊島区で保育園に落ちたときの選択肢",
-    description:
-      "豊島区の認可保育園に入れなかった場合に検討すべき選択肢を紹介します。",
-    image: "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=800&h=400&fit=crop",
-    category: "入れなかったら",
-    categoryColor: "rose",
-    content: `<h2>落ちても次の手はある</h2>
-<p>豊島区の一次選考で不承諾になった場合の選択肢を確認しましょう。</p>
-
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content">
-<strong>二次選考を待つ</strong>
-<p>一次で不承諾だった方は二次選考の対象になります。希望園の変更も可能です。</p>
-</div>
-</div>
-
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content">
-<strong>認証保育所・認可外施設に申し込む</strong>
-<p>豊島区内の認証保育所に直接申し込めます。利用実績があると翌年度に加点（+2）が得られます。</p>
-</div>
-</div>
-
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content">
-<strong>小規模保育事業を利用する</strong>
-<p>0〜2歳児向けの小規模保育事業もあります。3歳児以降の連携園が設定されている施設もあります。</p>
-</div>
-</div>
-
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content">
-<strong>居宅訪問型保育事業を利用する</strong>
-<p>豊島区では居宅訪問型保育事業も実施しています。自宅での保育が可能です。</p>
-</div>
-</div>
-
-<div class="step">
-<div class="step-num">5</div>
-<div class="step-content">
-<strong>幼稚園の預かり保育（3歳以上）</strong>
-<p>3歳以上なら幼稚園の預かり保育も選択肢です。</p>
-</div>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.toshima.lg.jp/260/kosodate/kosodate/hoikuen/nyuen/1809261402.html" target="_blank" rel="noopener">豊島区公式サイト「欠員状況・入所基準指数」</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-03-28",
-    popularity: 80,
-  },
-  {
-    slug: "ninkagai-katen",
-    citySlug: "toshima",
-    title: "豊島区で認可外保育施設を活用して加点を得る方法",
-    description:
-      "豊島区で認可外保育施設の利用実績による加点の条件と注意点をまとめました。",
-    image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
-    category: "点数アップ",
-    categoryColor: "amber",
-    content: `<h2>認可外利用で+2点の加点</h2>
-<p>豊島区では、認可外保育施設に月ぎめで子どもを預けている場合、調整指数として<span class="highlight">+2点</span>が加算されます。</p>
-
-<h3>加点の条件</h3>
-<ul>
-<li>認証保育所や認可外保育施設に月48時間以上預けていること</li>
-<li>就労等の理由で有償で預けていること</li>
-</ul>
-
-<div class="warn-box">
-<p><strong>注意</strong></p>
-<p>育休中に認可外に預けても加点対象にならない場合があります。区に確認しましょう。</p>
-</div>
-
-<h2>認可外の費用と補助</h2>
-<p>豊島区では認証保育所等の保育料に対する補助金制度があります。東京都の補助とあわせて活用しましょう。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>認可外利用の加点（+2）は40点のフルタイム共働きに加算されます。42点と40点の差は大きいので、検討する価値があります。</p>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.toshima.lg.jp/260/kosodate/kosodate/hoikuen/nyuen/016786.html" target="_blank" rel="noopener">豊島区公式サイト「保育所入所基準指数表」</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-03-28",
-    popularity: 75,
-  },
-  {
-    slug: "2026-hokatsu-changes",
-    citySlug: "toshima",
-    title: "2026年度入園に向けて！豊島区の保活で変わったポイント",
-    description:
-      "2026年度の豊島区保育園入園に向けて、最近の制度変更をまとめます。",
-    image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>2025〜2026年で何が変わった？</h2>
-
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content">
-<strong>保育料の無償化拡大（2025年9月〜）</strong>
-<p>東京都の第1子保育料無償化制度により、認可保育施設の保育料が全年齢で無償化されました。</p>
-</div>
-</div>
-
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content">
-<strong>認可外保育施設の補助金拡充</strong>
-<p>認証保育所への補助金上限額が引き上げられました。</p>
-</div>
-</div>
-
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content">
-<strong>豊島区民加点の継続</strong>
-<p>申込締切日時点で豊島区民であれば+1点の加点が引き続き適用されます。</p>
-</div>
-</div>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>保育料無償化で経済的ハードルは下がりましたが、1歳児クラスの競争は引き続き激しい状況です。</p>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>最新情報は<a href="https://www.city.toshima.lg.jp/260/kosodate/kosodate/hoikuen/nyuen/016786.html" target="_blank" rel="noopener">豊島区公式サイト</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-03-28",
-    popularity: 70,
-  },
-  {
-    slug: "scoring-system-guide",
-    citySlug: "toshima",
-    title: "豊島区の入園点数のしくみ　基本指数と調整指数をやさしく解説",
-    description:
-      "豊島区の保育園入園選考で使われる基本指数と調整指数の仕組みを解説します。",
-    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
-    categoryColor: "blue",
-    content: `<h2>点数ってなに？</h2>
-<p>豊島区の保育園入園は「指数」の高い順に内定が決まります。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>世帯の合計指数 ＝ 基本指数（父）＋ 基本指数（母）＋ 調整指数</p>
-</div>
-
-<h2>基本指数とは？</h2>
-<p>父母それぞれの「保育が必要な理由」を点数化したものです。1人あたり最大<span class="highlight">20点</span>、父母合計で最大<span class="highlight">40点</span>です。</p>
-
-<table>
-<tr><th>就労状況</th><th>指数</th></tr>
-<tr><td>月20日以上・月160時間以上</td><td>20</td></tr>
-<tr><td>月20日以上・月140時間以上</td><td>18</td></tr>
-<tr><td>月20日以上・月120時間以上</td><td>16</td></tr>
-<tr><td>月16日以上・月140時間以上</td><td>17</td></tr>
-</table>
-
-<h2>調整指数とは？</h2>
-<p>世帯の特別な事情に応じて加減される点数です。</p>
-<ul>
-<li>ひとり親世帯：<span class="highlight">+8点</span></li>
-<li>きょうだい在園：<span class="highlight">+3点</span></li>
-<li>認可外利用：<span class="highlight">+2点</span></li>
-<li>育休明け復職：<span class="highlight">+2点</span></li>
-</ul>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>指数表は<a href="https://www.city.toshima.lg.jp/260/kosodate/kosodate/hoikuen/nyuen/016786.html" target="_blank" rel="noopener">豊島区公式サイト「保育所入所基準指数表」</a>で確認できます。</p>
-</div>`,
-    publishedAt: "2026-03-28",
-    popularity: 65,
-  },
-  {
-    slug: "area-guide",
-    citySlug: "toshima",
-    title: "豊島区のエリア別保育園事情　入りやすいエリアは？",
-    description:
-      "豊島区内のエリアごとの保育園入園状況の違いを解説します。",
-    image: "https://images.unsplash.com/photo-1524413840807-0c3cb6fa808d?w=800&h=400&fit=crop",
-    category: "エリア情報",
-    categoryColor: "teal",
-    content: `<h2>エリアによって入りやすさが違う</h2>
-<p>豊島区はコンパクトな区ですが、エリアによって保育園の競争状況は異なります。</p>
-
-<table>
-<tr><th>エリア</th><th>競争度</th><th>特徴</th></tr>
-<tr><td>池袋駅周辺</td><td>激戦</td><td>マンション開発が進み子育て世帯が急増</td></tr>
-<tr><td>大塚・巣鴨</td><td>やや激戦</td><td>住宅街で人気だが比較的園数がある</td></tr>
-<tr><td>目白・雑司が谷</td><td>標準</td><td>文教地区で落ち着いたエリア</td></tr>
-<tr><td>東池袋・南長崎</td><td>やや入りやすい</td><td>新設園もあり選択肢が広がる</td></tr>
-</table>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>池袋駅周辺のタワーマンションエリアは特に競争が激しいです。少し離れたエリアも候補に入れましょう。</p>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>園ごとの欠員状況は<a href="https://www.city.toshima.lg.jp/260/kosodate/kosodate/hoikuen/nyuen/1809261402.html" target="_blank" rel="noopener">豊島区公式サイト「欠員状況」</a>で確認できます。</p>
-</div>`,
-    publishedAt: "2026-03-28",
-    popularity: 60,
-  },
+  // ===== 保活スケジュール (1) =====
   {
     slug: "hokatsu-schedule",
     citySlug: "toshima",
     title: "豊島区の保活スケジュール　令和8年度4月入園の流れ",
     description:
-      "豊島区の認可保育園の申込時期・選考の流れ・結果通知の時期を解説します。",
-    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
+      "豊島区の認可保育園の申込時期・選考の流れ・結果通知の時期をわかりやすく解説。令和8年度4月入園のスケジュールを中心にまとめました。",
+    image:
+      "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
     category: "保活の基本",
     categoryColor: "green",
-    content: `<h2>令和8年度4月入園のスケジュール</h2>
-<p>豊島区の4月入園は<strong>一次選考</strong>と<strong>二次選考</strong>の2回に分かれています。</p>
+    content: `<h2>令和8年度（2026年度）4月入園のスケジュール</h2>
+<p>豊島区の4月入園は<strong>一次利用調整</strong>と<strong>二次利用調整</strong>の2回に分かれています。</p>
 
-<h3>一次選考</h3>
+<h3>一次利用調整</h3>
 <table>
 <tr><th>項目</th><th>日程</th></tr>
-<tr><td>申込受付期間</td><td>令和7年11月上旬〜12月上旬</td></tr>
-<tr><td>結果通知</td><td>令和8年1月下旬</td></tr>
+<tr><td>申込受付期間</td><td>令和7年10月中旬〜11月中旬</td></tr>
+<tr><td>結果通知</td><td>令和8年1月下旬（全員に郵送）</td></tr>
 </table>
 
-<h3>二次選考</h3>
+<h3>二次利用調整</h3>
 <table>
 <tr><th>項目</th><th>日程</th></tr>
 <tr><td>申込受付期間</td><td>令和8年1月下旬〜2月中旬</td></tr>
-<tr><td>結果通知</td><td>令和8年2月下旬〜3月上旬</td></tr>
+<tr><td>結果通知</td><td>令和8年3月上旬</td></tr>
 </table>
 
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>一次で不承諾だった方は自動的に二次の対象になります。再申込は不要ですが、希望園の変更は可能です。保育課へのお問い合わせは03-3981-2140です。</p>
+</div>
+
 <h2>いつから動き始めるべき？</h2>
+
 <div class="step">
 <div class="step-num">1</div>
 <div class="step-content">
-<strong>4月〜6月：情報収集</strong>
-<p>豊島区の「保育施設利用のご案内」を入手しましょう。</p>
+<strong>4月〜5月：情報収集スタート</strong>
+<p>豊島区の保育園の種類やエリアを調べましょう。池袋・要町・東池袋エリアなど利便性の高いエリアが人気です。</p>
 </div>
 </div>
-
 <div class="step">
 <div class="step-num">2</div>
 <div class="step-content">
-<strong>6月〜10月：保育園見学</strong>
-<p>見学のベストシーズンです。人気園は早めに予約を。</p>
+<strong>6月〜9月：保育園見学</strong>
+<p>気になる園に電話して予約。見学のベストシーズンです。</p>
 </div>
 </div>
-
 <div class="step">
 <div class="step-num">3</div>
 <div class="step-content">
-<strong>10月〜12月：書類準備・提出</strong>
-<p>就労証明書などを揃えて提出します。</p>
+<strong>9月〜10月：「保育施設利用のご案内」を入手</strong>
+<p>区が発行する保活ガイドブック。申込方法や点数の仕組みが詳しく書いています。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">4</div>
+<div class="step-content">
+<strong>10月〜11月：申込書類の準備・提出</strong>
+<p>就労証明書などの書類を揃えて提出します。</p>
 </div>
 </div>
 
+<h2>途中入園（5月〜3月）の申込</h2>
+<p>各月の申込締切日は、入園希望月の<span class="highlight">前月15日頃</span>です。ただし締切日が土日祝の場合は変更されます。</p>
+<p>詳しくは<a href="https://www.city.toshima.lg.jp/260/kosodate/kosodate/hoikuen/nyuen/016786.html" target="_blank" rel="noopener">豊島区公式サイト「申込みから入所までの流れ」</a>をご確認ください。</p>`,
+    publishedAt: "2026-06-08",
+    popularity: 60,
+  },
+  // ===== 点数の仕組み (2) =====
+  {
+    slug: "tensuu-shikumi",
+    citySlug: "toshima",
+    title: "豊島区の保育園点数はどう決まる？基本指数と調整指数の仕組み",
+    description:
+      "豊島区の認可保育園入園に必要な「点数」の仕組みをわかりやすく解説。基本指数40点（両親合計）のsum方式と、加点される調整指数を説明します。",
+    image:
+      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
+    category: "点数の仕組み",
+    categoryColor: "blue",
+    content: `<h2>豊島区の点数計算の基本</h2>
+<p>豊島区の保育園入園選考は、<strong>基本指数</strong>と<strong>調整指数</strong>の合計で決まります。</p>
+
+<div class="formula">選考指数 = 基本指数（父親） + 基本指数（母親） + 調整指数</div>
+
+<h3>基本指数とは</h3>
+<p>豊島区は<strong>sum方式</strong>を採用しています。保護者各自が月20日以上・月160時間以上の就労要件を満たす場合、各自20点が加算されます（最大40点）。</p>
+
+<h3>就労の基本指数</h3>
+<table>
+<tr><th>勤務状況</th><th>点数</th></tr>
+<tr><td>月20日以上かつ月160時間以上</td><td>20点</td></tr>
+<tr><td>月20日以上かつ月120時間以上160時間未満</td><td>18点</td></tr>
+<tr><td>月15日以上20日未満かつ月120時間以上</td><td>16点</td></tr>
+<tr><td>月10日以上15日未満かつ月80時間以上</td><td>12点</td></tr>
+<tr><td>月10日以上かつ月80時間未満</td><td>8点</td></tr>
+</table>
+
 <div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>最新スケジュールは<a href="https://www.city.toshima.lg.jp/260/kosodate/kosodate/hoikuen/nyuen/016786.html" target="_blank" rel="noopener">豊島区公式サイト</a>をご確認ください。</p>
+<p><strong>豊島区の特徴</strong></p>
+<p>豊島区はsum方式を採用しており、両親がそれぞれ20点の要件を満たした場合、合計40点となります。この点が各区で異なるため、他区の情報と混同しないよう注意が必要です。</p>
+</div>
+
+<h3>調整指数とは</h3>
+<p>家庭の状況に応じて加算される点数です。</p>
+<table>
+<tr><th>項目</th><th>点数</th></tr>
+<tr><td>ひとり親世帯</td><td>+8</td></tr>
+<tr><td>生活保護・非課税世帯</td><td>+8</td></tr>
+<tr><td>再入園（3歳以上の転園等）</td><td>+6</td></tr>
+<tr><td>きょうだい同園・別園希望</td><td>+2</td></tr>
+<tr><td>育休からの復帰</td><td>+1</td></tr>
+</table>
+
+<h3>その他の事由</h3>
+<table>
+<tr><th>事由</th><th>点数</th></tr>
+<tr><td>出産予定がある場合</td><td>14点</td></tr>
+<tr><td>求職中</td><td>6点</td></tr>
+</table>
+
+<p>詳しくは<a href="https://www.city.toshima.lg.jp/260/kosodate/kosodate/hoikuen/nyuen/016786.html" target="_blank" rel="noopener">豊島区公式サイト</a>をご確認ください。</p>`,
+    publishedAt: "2026-06-08",
+    popularity: 80,
+  },
+  // ===== 保育園の種類 (3) =====
+  {
+    slug: "hoikuen-shurui",
+    citySlug: "toshima",
+    title: "豊島区の保育園の種類を解説　認可・認証・小規模の違い",
+    description:
+      "豊島区で利用できる保育施設の種類を解説。認可保育園・認証保育所・小規模保育・家庭的保育事業の違いや特徴を比較します。",
+    image:
+      "https://images.unsplash.com/photo-1587654780541-7f3b5e1e2e1e?w=800&h=400&fit=crop",
+    category: "保活の基本",
+    categoryColor: "green",
+    content: `<h2>豊島区の保育施設の種類</h2>
+<p>豊島区には複数の種類の保育施設があります。それぞれの特徴を理解して、家庭に合った施設を選びましょう。</p>
+
+<h3>認可保育園</h3>
+<p>国が定めた基準を満たし、都道府県知事の認可を受けた保育施設です。区が利用調整（選考）を行います。</p>
+<ul>
+<li>保育料は世帯の住民税額に応じて決定</li>
+<li>0歳〜5歳（施設により異なる）</li>
+<li>区立・私立がある</li>
+<li>3歳以上は保育料無償化対象</li>
+</ul>
+
+<h3>認証保育所</h3>
+<p>東京都独自の制度で、都が定めた基準を満たした保育施設です。</p>
+<ul>
+<li>保育料は施設が設定（上限あり）</li>
+<li>豊島区では認可外保育施設保育料助成制度あり</li>
+<li>認可保育園に入れなかった場合の選択肢として活用</li>
+</ul>
+
+<h3>小規模保育事業</h3>
+<p>0〜2歳児を対象に、定員6〜19名の少人数で保育を行う施設です。</p>
+<ul>
+<li>認可保育園と同じ利用調整を経て入園</li>
+<li>3歳以降の行き先（連携施設）の確認が重要</li>
+<li>定員が少ないため入りやすい傾向</li>
+</ul>
+
+<h3>家庭的保育事業（保育ママ）</h3>
+<p>家庭的保育者の自宅などで、0〜2歳の子どもを5名以下の少人数で保育します。</p>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>豊島区は小規模保育や家庭的保育の整備を進めています。3歳以降の転園を見据えたうえで、複数の選択肢を検討しましょう。</p>
 </div>`,
-    publishedAt: "2026-03-28",
+    publishedAt: "2026-06-08",
     popularity: 55,
   },
+  // ===== 加点テクニック (4) =====
   {
-    slug: "hoikuryo-keisan",
+    slug: "katen-technique",
     citySlug: "toshima",
-    title: "豊島区の保育料計算【令和8年度版】年収別シミュレーション・早見表",
+    title: "豊島区の保活で加点を増やす方法　調整指数の攻略ポイント",
     description:
-      "豊島区の認可保育園の保育料を年収・子ども数別に詳しく解説。区民税所得割額に基づく階層区分早見表、無償化（3歳〜）の対象確認、副食費・第2子以降の減免制度まで。令和8年度対応。",
-    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=400&fit=crop",
-    category: "お金・制度",
-    categoryColor: "amber",
-    content: `<h2>豊島区の保育料はどうやって決まる？</h2>
-<p>豊島区の認可保育園の保育料（利用者負担額）は、<strong>世帯の区民税所得割額</strong>によって決まります。東京都の基準に基づき階層区分が設定されており、所得が高いほど保育料も高くなる応能負担方式です。</p>
+      "豊島区の保育園入園選考で有利になる加点方法を解説。ひとり親加点や育休復帰加点など、豊島区固有の加点テクニックを紹介します。",
+    image:
+      "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=400&fit=crop",
+    category: "点数の仕組み",
+    categoryColor: "blue",
+    content: `<h2>加点を増やす具体的な方法</h2>
+<p>基本指数が同点の家庭が多いため、<strong>調整指数</strong>の差が当落を分けます。豊島区で合法的に加点を増やす方法を解説します。</p>
 
-<h2>年齢ごとの基本ルール</h2>
-<table>
-<tr><th>年齢</th><th>保育料</th><th>注意点</th></tr>
-<tr><td>0〜2歳児</td><td>有料（階層区分による）</td><td>世帯の所得割額で決定</td></tr>
-<tr><td>3〜5歳児</td><td>無償（月額上限あり）</td><td>幼児教育・保育の無償化対象</td></tr>
-</table>
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>3歳以上は保育料が無償化されますが、<span class="highlight">副食費（給食の食材費）は別途負担</span>が必要です。低所得世帯や第3子以降は免除される場合があります。</p>
+<h3>1. 出産予定のある場合（14点）</h3>
+<p>出産予定がある場合、<strong>14点</strong>が加算されます。これは豊島区では最も大きな加点となります。妊娠中から申込する場合は必ず申告しましょう。</p>
+
+<div class="info-box">
+<p><strong>注意</strong></p>
+<p>出産予定日を証明する診断書の提出が必要です。申込時に間に合うよう医療機関に早めに相談してください。</p>
 </div>
 
-<h2>保育料の階層区分（0〜2歳の目安）</h2>
-<table>
-<tr><th>区民税所得割額（世帯合計）</th><th>保育料目安（月額・0歳）</th></tr>
-<tr><td>非課税世帯</td><td>無料</td></tr>
-<tr><td>〜約5万円</td><td>6,000〜9,000円</td></tr>
-<tr><td>〜約10万円</td><td>12,000〜19,000円</td></tr>
-<tr><td>〜約20万円</td><td>25,000〜38,000円</td></tr>
-<tr><td>〜約30万円</td><td>42,000〜52,000円</td></tr>
-<tr><td>30万円超</td><td>58,000〜77,000円</td></tr>
-</table>
-<p class="text-xs text-muted-foreground">※上記は目安です。詳細は豊島区の公式保育料表をご確認ください。</p>
+<h3>2. ひとり親世帯（+8点）</h3>
+<p>ひとり親世帯に該当する場合、<strong>+8点</strong>が加算されます。これは調整指数の中で最も大きな加点です。児童扶養手当証書など、ひとり親であることを証明する書類の提出が必要です。</p>
 
-<h2>多子世帯・ひとり親世帯の軽減</h2>
-<ul>
-<li><strong>第2子</strong>：同一世帯で保育所等を利用中の場合、半額</li>
-<li><strong>第3子以降</strong>：無料</li>
-<li><strong>ひとり親世帯・生活保護世帯</strong>：最低階層として算定（大幅減額）</li>
-</ul>
+<h3>3. 生活保護・非課税世帯（+8点）</h3>
+<p>生活保護を受給している世帯または市区町村民税が非課税の世帯に該当する場合、<strong>+8点</strong>が加算されます。</p>
 
-<h2>副食費について（3歳以上）</h2>
-<p>3歳以上は保育料が無償化されますが、副食費（おかず代）は月額4,500円程度の実費負担があります。以下の場合は免除されます。</p>
-<ul>
-<li>年収360万円未満相当の世帯</li>
-<li>第3子以降の子ども</li>
-</ul>
+<h3>4. 再入園（+6点）</h3>
+<p>3歳以上で転園を希望する場合や、認可保育園を退園して再度入園を希望する場合に<strong>+6点</strong>が加算されます。きょうだい分園の場合にも適用される可能性があります。</p>
 
-<h2>保育料の確認方法</h2>
-<p>毎年6月ごろ、前年度の区民税額が確定した後に保育料が決定・通知されます。入園前に目安を知りたい場合は豊島区担当課にお問い合わせください。</p>
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>最新の保育料表は豊島区公式サイトからご確認ください。</p>
+<h3>5. きょうだい加点（+2点）</h3>
+<p>きょうだいが<strong>複数の認可保育施設に分かれて在園</strong>しており、同園を希望する場合に<strong>+2点</strong>が加算されます。</p>
+
+<h3>6. 育休からの復帰（+1点）</h3>
+<p>育休から復帰する場合、<strong>+1点</strong>が加算されます。育休中であることを証明する書類が必要です。</p>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>豊島区では出産予定がある場合の加点（14点）が非常に大きいため、妊娠中からの保活が有利です。また、ひとり親加点と生活保護加点の両方に該当する場合は、より有利な条件を選択できることが多いです。</p>
 </div>`,
-    publishedAt: "2026-05-13",
-    popularity: 42,
+    publishedAt: "2026-06-08",
+    popularity: 75,
   },
+  // ===== 必要書類 (5) =====
   {
-    slug: "shokuhi-jippi",
+    slug: "hitsuyou-shorui",
     citySlug: "toshima",
-    title: "豊島区の保育園の給食費（副食費）はいくら？【令和8年度版】免除条件と金額",
+    title: "豊島区の保育園申込に必要な書類一覧と準備のコツ",
     description:
-      "豊島区の保育園の給食費（副食費）は月いくら？所得・子ども数による副食費免除の条件と申請方法、保育料無償化の範囲と実費負担の全額をわかりやすく解説。令和8年度対応。",
-    image: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=800&h=400&fit=crop",
-    category: "お金・制度",
+      "豊島区の認可保育園に申し込むときに必要な書類を一覧で紹介。就労証明書の書き方や注意点もあわせて解説します。",
+    image:
+      "https://images.unsplash.com/photo-1568667256549-094345857637?w=800&h=400&fit=crop",
+    category: "申込の準備",
     categoryColor: "amber",
-    content: `<h2>豊島区の副食費とは？</h2>
-<p>2019年10月の幼児教育・保育無償化により、<strong>3歳以上の保育料は無料</strong>になりました。ただし、給食の<strong>副食費（おかず代）は実費負担</strong>が残ります。豊島区では副食費として月額4,500円程度が別途かかります。</p>
+    content: `<h2>申込に必要な書類</h2>
+<p>豊島区の認可保育園への申込には、以下の書類が必要です。</p>
 
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>3歳以上でも副食費は無償化の対象外です。ただし、低所得世帯・第3子以降は免除制度があります。</p>
-</div>
-
-<h2>副食費の月額目安</h2>
-<table>
-<tr><th>年齢</th><th>副食費（月額目安）</th></tr>
-<tr><td>3〜5歳児</td><td>約4,500円</td></tr>
-<tr><td>0〜2歳児</td><td>保育料に含む（副食費別途なし）</td></tr>
-</table>
-<p class="text-xs text-muted-foreground">※金額は目安です。詳細は豊島区公式サイトでご確認ください。</p>
-
-<h2>副食費が免除される条件</h2>
-<table>
-<tr><th>免除条件</th><th>内容</th></tr>
-<tr><td>年収360万円未満相当の世帯</td><td>区民税所得割額が一定以下の世帯は副食費が免除</td></tr>
-<tr><td>第3子以降の子ども</td><td>小学3年生以下のきょうだいが2人以上いる場合、3人目以降は免除</td></tr>
-<tr><td>生活保護世帯</td><td>副食費の負担なし</td></tr>
-</table>
-
-<h2>保育料無償化の対象範囲</h2>
+<h3>全員が提出する書類</h3>
 <ul>
-<li>無償化対象：<strong>保育料（基本利用料）</strong>のみ — 3歳〜5歳</li>
-<li>実費負担が残るもの：副食費（おかず代）・主食費（ご飯代）・行事費・通園バス代など</li>
+<li>保育施設利用申込書</li>
+<li>保育を必要とすることを証明する書類（保護者それぞれ1通）</li>
+<li>マイナンバー関連書類</li>
 </ul>
 
-<h2>副食費の支払い方法</h2>
-<p>副食費は園から直接請求されます。毎月口座引き落としまたは現金納付が一般的です。免除に該当する場合は入園時や毎年6月ごろに申請手続きが必要です。豊島区担当課に確認してください。</p>
+<h3>就労している場合</h3>
+<ul>
+<li><strong>就労証明書</strong>（勤務先に記入してもらう）</li>
+<li>自営業の場合は就労状況申告書と確定申告書の写し</li>
+<li>月20日以上・月160時間以上の勤務実績がわかる書類</li>
+</ul>
+
+<h3>その他、該当する場合に必要な書類</h3>
+<ul>
+<li>診断書（疾病・障害・妊娠の場合）</li>
+<li>在学証明書（就学の場合）</li>
+<li>児童扶養手当証書の写し（ひとり親の場合）</li>
+<li>生活保護受給証明書（生活保護の場合）</li>
+<li>母子手帳の写し（出産予定の場合）</li>
+</ul>
+
+<div class="point-box">
+<p><strong>就労証明書のコツ</strong></p>
+<p>勤務先への依頼は早めに。繁忙期は2週間以上かかることもあります。豊島区の様式は区のホームページからダウンロードできます。月160時間以上の勤務が確認できる資料を一緒に提出するとスムーズです。</p>
+</div>
+
+<p>様式のダウンロードは<a href="https://www.city.toshima.lg.jp/260/kosodate/kosodate/hoikuen/nyuen/016786.html" target="_blank" rel="noopener">豊島区公式サイト</a>からどうぞ。</p>`,
+    publishedAt: "2026-06-08",
+    popularity: 65,
+  },
+  // ===== 保育料 (6) =====
+  {
+    slug: "hoikuryo",
+    citySlug: "toshima",
+    title: "豊島区の保育料はいくら？世帯年収別の目安と無償化の条件",
+    description:
+      "豊島区の認可保育園の保育料を世帯年収別にわかりやすく解説。3歳以上の無償化や、多子世帯の軽減制度についても説明します。",
+    image:
+      "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=400&fit=crop",
+    category: "お金のこと",
+    categoryColor: "amber",
+    content: `<h2>保育料の決まり方</h2>
+<p>豊島区の認可保育園の保育料は、<strong>世帯の住民税額</strong>と<strong>子どもの年齢</strong>に応じて決まります。</p>
+
+<h3>保育料の目安</h3>
+<table>
+<tr><th>世帯年収の目安</th><th>0〜2歳児クラス（月額）</th></tr>
+<tr><td>〜約260万円</td><td>0〜5,000円</td></tr>
+<tr><td>約260万〜約470万円</td><td>10,000〜20,000円</td></tr>
+<tr><td>約470万〜約640万円</td><td>20,000〜35,000円</td></tr>
+<tr><td>約640万〜約930万円</td><td>35,000〜55,000円</td></tr>
+<tr><td>約930万円〜</td><td>55,000〜77,000円</td></tr>
+</table>
+
+<h3>3歳以上は無償化</h3>
+<p>3〜5歳児クラスの保育料は、幼児教育・保育の無償化により<strong>無料</strong>です。ただし、給食費（副食費）は別途かかります。</p>
+
+<h3>多子世帯の軽減</h3>
+<p>きょうだいが保育施設を利用している場合、2人目は半額、3人目以降は無料になる軽減制度があります。</p>
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新の副食費・実費負担の詳細は豊島区公式サイトからご確認ください。</p>
+<p>詳しい保育料の算定方法は、豊島区の「保育施設利用のご案内」に掲載されています。03-3981-2140までお問い合わせください。</p>
 </div>`,
-    publishedAt: "2026-05-13",
-    popularity: 40,
+    publishedAt: "2026-06-08",
+    popularity: 70,
+  },
+  // ===== ボーダーラインと倍率 (7) =====
+  {
+    slug: "border-line",
+    citySlug: "toshima",
+    title: "豊島区の保育園ボーダーラインと倍率　入園難易度を解説",
+    description:
+      "豊島区の保育園の入園難易度を倍率・ボーダーラインで解説。池袋エリアなど人気地域と入りやすい園の選び方を紹介します。",
+    image:
+      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&h=400&fit=crop",
+    category: "エリア情報",
+    categoryColor: "purple",
+    content: `<h2>豊島区の保育園事情</h2>
+<p>豊島区は山手線内の利便性の高いエリアのため、保育園の入園競争率は比較的高めです。ただし、地域によって差があります。</p>
+
+<h3>競争率が高い傾向のエリア</h3>
+<ul>
+<li><strong>池袋エリア</strong>：駅近の利便性が高く、人気の園が集中</li>
+<li><strong>要町エリア</strong>：新興住宅地で子育て世帯が多い</li>
+<li><strong>東池袋エリア</strong>：商業施設が充実し、アクセスが良好</li>
+</ul>
+
+<h3>比較的入りやすい傾向のエリア</h3>
+<ul>
+<li><strong>大塚・北大塚エリア</strong>：駅から距離がある分、競争率が低め</li>
+<li><strong>巣鴨・駒込エリア</strong>：隣接区との境界付近で選択肢が広い</li>
+<li><strong>南長崎・椎名町エリア</strong>：新設園の開園により改善傾向</li>
+</ul>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>豊島区では年度ごとに入園難易度が変わります。複数の園に申込し、エリアの選択肢を広げることが有効です。小規模保育や認証保育所の活用も検討しましょう。</p>
+</div>
+
+<p>最新の利用調整実施状況は<a href="https://www.city.toshima.lg.jp/260/kosodate/kosodate/hoikuen/nyuen/016786.html" target="_blank" rel="noopener">豊島区公式サイト</a>で確認できます。</p>`,
+    publishedAt: "2026-06-08",
+    popularity: 68,
+  },
+  // ===== 認可外保育施設の活用 (8) =====
+  {
+    slug: "ninkaigai-nursery",
+    citySlug: "toshima",
+    title: "豊島区の認可外保育施設活用ガイド　認証保育所との使い分け",
+    description:
+      "豊島区の認可外保育施設（認証保育所・ベビーホテルなど）の選び方と、認可保育園の待機中の活用方法を解説。保育料助成制度も紹介します。",
+    image:
+      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
+    category: "保活の基本",
+    categoryColor: "green",
+    content: `<h2>認可外保育施設とは</h2>
+<p>認可外保育施設には、認証保育所・ベビーホテル・事業所内保育施設などがあります。認可保育園に入園するまでの間、または認可保育園以外の選択肢として活用できます。</p>
+
+<h3>豊島区の認証保育所</h3>
+<p>東京都が定めた基準を満たした保育施設です。豊島区には複数の認証保育所があり、24時間対応の施設も多いのが特徴です。</p>
+<ul>
+<li>保育料は施設が設定（月額目安：50,000〜80,000円）</li>
+<li>豊島区では認可外保育施設保育料助成制度あり</li>
+<li>3歳以降も利用可能な施設が多い</li>
+</ul>
+
+<h3>豊島区の保育料助成制度</h3>
+<p>豊島区では、認可外保育施設を利用する家庭に対して、保育料の一部を助成しています。</p>
+<ul>
+<li>月額上限5,000〜10,000円程度（世帯の所得により異なる）</li>
+<li>生活保護世帯や低所得世帯は助成額が多い</li>
+<li>申請手続きが必要です</li>
+</ul>
+
+<h3>認可外保育施設の選び方</h3>
+<ol>
+<li><strong>施設の安全性</strong>：定期的な指導検査を受けているか確認</li>
+<li><strong>スタッフの質</strong>：保育士資格の保有率を確認</li>
+<li><strong>保育内容</strong>：教育方針や日々の活動内容を確認</li>
+<li><strong>営業時間</strong>：送迎時間に対応しているか確認</li>
+</ol>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>認可外保育施設の利用は、認可保育園の申込時に加点される可能性があります。認可保育園に入園する意志がある場合でも、保育料助成制度を活用して認可外保育施設を利用することは有効な戦略です。</p>
+</div>`,
+    publishedAt: "2026-06-08",
+    popularity: 50,
+  },
+  // ===== 妊娠中からの保活 (9) =====
+  {
+    slug: "ninshin-hokatsu",
+    citySlug: "toshima",
+    title: "豊島区の妊娠中からの保活　出産予定の加点と事前準備",
+    description:
+      "豊島区では妊娠中の申込で14点の出産予定加点が得られます。妊娠中から始める保活の流れと準備をわかりやすく解説。",
+    image:
+      "https://images.unsplash.com/photo-1519689680058-324335c77eba?w=800&h=400&fit=crop",
+    category: "年齢別ガイド",
+    categoryColor: "rose",
+    content: `<h2>豊島区の出産予定加点（14点）</h2>
+<p>豊島区では、<strong>出産予定がある場合に14点</strong>が加算されます。これは調整指数の中で最も大きな加点であり、妊娠中からの申込は入園に非常に有利です。</p>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>両親がフルタイム勤務の場合の基本指数は40点ですが、出産予定がある場合は追加で14点が加算されるため、合計54点となります。これは非常に競争力がある点数です。</p>
+</div>
+
+<h3>妊娠中の申込に必要な書類</h3>
+<ul>
+<li>保育施設利用申込書（出産予定欄に記入）</li>
+<li><strong>母子手帳の写し</strong>（妊娠週数が確認できるページ）</li>
+<li>医師の診断書（出産予定日の記載があるもの）</li>
+<li>就労証明書（勤務している場合）</li>
+</ul>
+
+<h3>妊娠中からの保活スケジュール</h3>
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-content">
+<strong>妊娠5〜6ヶ月：情報収集開始</strong>
+<p>豊島区の保育園情報を集め、希望エリアを絞ります。体が楽な時期に見学の予約をしましょう。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-content">
+<strong>妊娠7〜8ヶ月：保育園見学</strong>
+<p>複数の園を見学し、ニーズに合った園を選びます。安定期の終わりごろまでに見学を済ませます。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">3</div>
+<div class="step-content">
+<strong>妊娠8〜9ヶ月：申込書類の準備</strong>
+<p>医師の診断書や母子手帳のコピーを用意します。就労証明書も早めに勤務先に依頼しましょう。</p>
+</div>
+</div>
+<div class="step">
+<div class="step-num">4</div>
+<div class="step-content">
+<strong>出産予定月の前月：申込</strong>
+<p>10月中旬〜11月中旬の一次申込に間に合うよう、早めに書類を提出します。</p>
+</div>
+</div>
+
+<h3>出産予定の加点を受けるための注意点</h3>
+<ul>
+<li>医師の診断書は<strong>出産予定日の記載が必須</strong>です</li>
+<li>出産予定日から生まれた日に変わったら、速やかに区に報告してください</li>
+<li>出産後の入園時期の変更相談にも応じてくれます</li>
+</ul>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>詳しくは豊島区保育課（03-3981-2140）にお問い合わせください。</p>
+</div>`,
+    publishedAt: "2026-06-08",
+    popularity: 72,
+  },
+  // ===== よくある質問 (10) =====
+  {
+    slug: "faq",
+    citySlug: "toshima",
+    title: "豊島区の保活Q&A　よくある質問と回答",
+    description:
+      "豊島区の保活に関するよくある質問をまとめました。点数・書類・スケジュール・加点など、申込前に確認しておきたい疑問を解決します。",
+    image:
+      "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=800&h=400&fit=crop",
+    category: "よくある質問",
+    categoryColor: "blue",
+    content: `<h2>豊島区の保活Q&A</h2>
+
+<h3>Q. 点数はいくらあれば入園できますか？</h3>
+<p>A. 園によって異なります。人気の園は50点以上必要な場合もありますが、小規模保育施設なら40点程度で入園できることもあります。複数の園に申込することをおすすめします。</p>
+
+<h3>Q. 基本指数のsum方式とは何ですか？</h3>
+<p>A. 豊島区では、父親と母親の基本指数を足し合わせる「sum方式」を採用しています。他区では「max方式」（高い方のみを算出）を採用しているため、注意が必要です。両親がそれぞれ20点なら合計40点となります。</p>
+
+<h3>Q. 月160時間の勤務時間はどうやって計算しますか？</h3>
+<p>A. 月ごとの勤務時間を計算します。正社員であれば月160時間（週40時間×4週間）を超えることはほぼ確実です。パート・アルバイトの場合は、給与明細や勤務表で正確に計算してください。</p>
+
+<h3>Q. 育休中に申込できますか？</h3>
+<p>A. 育休中の申込は基本指数が低くなるため、あまりおすすめしません。ただし、出産予定がある場合や、育休からの復帰が見込まれる場合は相談してみてください。</p>
+
+<h3>Q. 自営業の場合の点数はどうなりますか？</h3>
+<p>A. 自営業の場合は、直近の確定申告書から平均月収を算出し、月160時間以上に相当する働きがあるかを判断します。就労状況申告書を提出し、個別に相談してください。</p>
+
+<h3>Q. ひとり親加点は8点ですか？</h3>
+<p>A. はい、豊島区ではひとり親世帯に+8点が加算されます。児童扶養手当証書などで証明する必要があります。</p>
+
+<h3>Q. 認可外保育施設の加点は得られますか？</h3>
+<p>A. 豊島区では、認可外保育施設の利用による調整指数の加点は設定されていないことが多いです。ただし、助成制度を活用することで、経済的な負担を軽減できます。</p>
+
+<h3>Q. 0歳児入園は難しいですか？</h3>
+<p>A. 0歳児クラスの定員は少なく、競争率が高い傾向です。ただし、出産予定加点や両親フルタイムの場合は入園の可能性が高まります。</p>
+
+<h3>Q. 途中入園は入りやすいですか？</h3>
+<p>A. 4月入園よりは入りやすい傾向がありますが、定員に空きがある園が限られています。複数の園に申込し、早めに動くことをおすすめします。</p>
+
+<h3>Q. 申込時に園の選択順位は重要ですか？</h3>
+<p>A. 非常に重要です。第1志望・第2志望の順で選考が進まず、指数に基づいて優先順位が決まります。複数の園を戦略的に選びましょう。</p>
+
+<div class="info-box">
+<p><strong>さらに詳しく知りたい方は</strong></p>
+<p>豊島区保育課：03-3981-2140（平日9時〜17時）</p>
+<p>公式サイト：<a href="https://www.city.toshima.lg.jp/260/kosodate/kosodate/hoikuen/nyuen/016786.html" target="_blank" rel="noopener">https://www.city.toshima.lg.jp/260/kosodate/kosodate/hoikuen/nyuen/016786.html</a></p>
+</div>`,
+    publishedAt: "2026-06-08",
+    popularity: 78,
   },
 ];
 

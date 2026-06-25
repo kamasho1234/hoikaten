@@ -1,14 +1,12 @@
 import type { MunicipalityData, Question } from '../types';
 
 // ---------------------------------------------------------------------------
-// 三田市 保育園入園 基本指数・調整指数データ
-// 出典：三田市保育振興課「三田市保育所等の利用調整に関する基準（令和7年4月入所～）」参考
+// 三田市 保育園入園 利用調整基準データ
+// 出典: 三田市「令和8年度 保育所等の利用調整に関する基準」
+// https://www.city.sanda.lg.jp/material/files/group/25/23_R8_riyoutyoseihyou.pdf
 // ---------------------------------------------------------------------------
-//
-// 三田市の選考指数は以下のように算出されます。
-//   基本指数 ＝ 父の基本指数 ＋ 母の基本指数
-//   選考指数 ＝ 基本指数 ± 調整指数
-// 父母各最大20点、合計40点満点です。
+// 三田市は「基準指数（父母それぞれ最大20点）＋ 調整指数」の加算方式。
+// ひとり親世帯は基準指数に+20点を加算。
 // ---------------------------------------------------------------------------
 
 const municipality = {
@@ -16,77 +14,66 @@ const municipality = {
   name: '三田市',
   slug: 'sanda',
   prefecture: '兵庫県',
-  maxBasePoints: 40, // 父母各20点の合計
+  maxBasePoints: 40,
 } as const;
-
-// ---------------------------------------------------------------------------
-// 就労
-// ---------------------------------------------------------------------------
 
 const employmentOptions = (prefix: string) => [
   { label: 'あてはまらない', value: `${prefix}_employment_none`, points: 0 },
-  { label: '月160時間以上（フルタイム）', value: `${prefix}_employment_20`, points: 20 },
-  { label: '月140時間以上160時間未満', value: `${prefix}_employment_18`, points: 18 },
-  { label: '月120時間以上140時間未満', value: `${prefix}_employment_16`, points: 16 },
-  { label: '月100時間以上120時間未満', value: `${prefix}_employment_14`, points: 14 },
-  { label: '月80時間以上100時間未満', value: `${prefix}_employment_12`, points: 12 },
-  { label: '月64時間以上80時間未満', value: `${prefix}_employment_10`, points: 10 },
+  { label: '月20日以上、1日8時間以上', value: `${prefix}_employment_20`, points: 20 },
+  { label: '月20日以上、1日6時間以上8時間未満', value: `${prefix}_employment_18`, points: 18 },
+  { label: '月20日以上、1日4時間以上6時間未満', value: `${prefix}_employment_16`, points: 16 },
+  { label: '月16日以上、1日8時間以上', value: `${prefix}_employment_18`, points: 18 },
+  { label: '月16日以上、1日6時間以上8時間未満', value: `${prefix}_employment_16`, points: 16 },
+  { label: '月16日以上、1日4時間以上6時間未満', value: `${prefix}_employment_14`, points: 14 },
+  { label: '上記に該当しないが、月64時間以上働いている', value: `${prefix}_employment_10`, points: 10 },
 ];
-
-// ---------------------------------------------------------------------------
-// 疾病
-// ---------------------------------------------------------------------------
-
-const illnessOptions = (prefix: string) => [
-  { label: 'あてはまらない', value: `${prefix}_illness_none`, points: 0 },
-  { label: '入院・安静を要する（重度）', value: `${prefix}_illness_20`, points: 20 },
-  { label: '居宅内療養（中度）', value: `${prefix}_illness_16`, points: 16 },
-  { label: '通院加療中（軽度）', value: `${prefix}_illness_12`, points: 12 },
-];
-
-// ---------------------------------------------------------------------------
-// 心身障害
-// ---------------------------------------------------------------------------
-
-const disabilityOptions = (prefix: string) => [
-  { label: 'あてはまらない', value: `${prefix}_disability_none`, points: 0 },
-  { label: '重度（身体1-2級 / 精神1級 / 療育A）', value: `${prefix}_disability_20`, points: 20 },
-  { label: '中度（身体3-4級 / 精神2級 / 療育B1）', value: `${prefix}_disability_16`, points: 16 },
-  { label: '軽度（身体5-6級 / 精神3級 / 療育B2）', value: `${prefix}_disability_12`, points: 12 },
-];
-
-// ---------------------------------------------------------------------------
-// 介護・看護
-// ---------------------------------------------------------------------------
-
-const careOptions = (prefix: string) => [
-  { label: 'あてはまらない', value: `${prefix}_care_none`, points: 0 },
-  { label: '常時介護（重度・月160時間以上）', value: `${prefix}_care_20`, points: 20 },
-  { label: '介護（中度・月120時間以上）', value: `${prefix}_care_16`, points: 16 },
-  { label: '介護（軽度・月64時間以上）', value: `${prefix}_care_12`, points: 12 },
-];
-
-// ---------------------------------------------------------------------------
-// 出産
-// ---------------------------------------------------------------------------
-
-const childbirthOptions = (prefix: string) => [
-  { label: 'あてはまらない', value: `${prefix}_childbirth_none`, points: 0 },
-  { label: '妊娠・産前産後', value: `${prefix}_childbirth_16`, points: 16 },
-];
-
-// ---------------------------------------------------------------------------
-// 求職活動
-// ---------------------------------------------------------------------------
 
 const jobSeekingOptions = (prefix: string) => [
   { label: 'あてはまらない', value: `${prefix}_jobseeking_none`, points: 0 },
-  { label: '求職活動中', value: `${prefix}_jobseeking_6`, points: 6 },
+  { label: '求職活動中（月20日以上）', value: `${prefix}_jobseeking_4`, points: 4 },
+  { label: '求職活動中（月16日以上）', value: `${prefix}_jobseeking_4`, points: 4 },
+  { label: '定期的に求職活動をしていると認められる', value: `${prefix}_jobseeking_7`, points: 7 },
+  { label: '求職中（上記以外）', value: `${prefix}_jobseeking_2`, points: 2 },
 ];
 
-// ---------------------------------------------------------------------------
-// 保護者ごとの質問を生成するヘルパー
-// ---------------------------------------------------------------------------
+const pregnancyOptions = (prefix: string) => [
+  { label: 'あてはまらない', value: `${prefix}_pregnancy_none`, points: 0 },
+  { label: '出産予定日前後8週間の期間', value: `${prefix}_pregnancy_14`, points: 14 },
+];
+
+const educationOptions = (prefix: string) => [
+  { label: 'あてはまらない', value: `${prefix}_education_none`, points: 0 },
+  { label: '月120時間以上就学', value: `${prefix}_education_14`, points: 14 },
+  { label: '月64時間以上就学', value: `${prefix}_education_10`, points: 10 },
+];
+
+const illnessOptions = (prefix: string) => [
+  { label: 'あてはまらない', value: `${prefix}_illness_none`, points: 0 },
+  { label: '3か月以上入院または入院相当の自宅療養', value: `${prefix}_illness_20`, points: 20 },
+  { label: '1か月以上入院または入院相当の自宅療養', value: `${prefix}_illness_17`, points: 17 },
+  { label: '通院加療を行い、常に安静を要する', value: `${prefix}_illness_13`, points: 13 },
+  { label: '病気などにより保育に支障がある（上記以外）', value: `${prefix}_illness_10`, points: 10 },
+];
+
+const disabilityOptions = (prefix: string) => [
+  { label: 'あてはまらない', value: `${prefix}_disability_none`, points: 0 },
+  { label: '身体障害1-2級 / 精神1級 / 療育A（常時困難）', value: `${prefix}_disability_20`, points: 20 },
+  { label: '身体障害3-4級 / 精神2級 / 療育B1（著しく困難）', value: `${prefix}_disability_18`, points: 18 },
+  { label: '身体障害5-6級 / 精神3級 / 療育B2（困難）', value: `${prefix}_disability_16`, points: 16 },
+];
+
+const careOptions = (prefix: string) => [
+  { label: 'あてはまらない', value: `${prefix}_care_none`, points: 0 },
+  { label: '身体障害1-2級等の介護（常時困難）', value: `${prefix}_care_20`, points: 20 },
+  { label: '身体障害3-4級等の介護（著しく困難）', value: `${prefix}_care_18`, points: 18 },
+  { label: '身体障害5-6級等の介護（困難）', value: `${prefix}_care_16`, points: 16 },
+  { label: '入院付き添いなど（支障がある）', value: `${prefix}_care_12`, points: 12 },
+];
+
+const disasterOptions = (prefix: string) => [
+  { label: 'あてはまらない', value: `${prefix}_disaster_none`, points: 0 },
+  { label: '災害復旧に当たっている', value: `${prefix}_disaster_20`, points: 20 },
+];
 
 function buildParentQuestions(parentNum: 1 | 2): Question[] {
   const prefix = `parent${parentNum}`;
@@ -97,15 +84,16 @@ function buildParentQuestions(parentNum: 1 | 2): Question[] {
     id: `${prefix}_reason`,
     category,
     label: `${parentLabel}：保育が必要な理由`,
-    helpText: '三田市では父母それぞれの基本指数の合計で選考されます。いちばん近いものをひとつ選んでください。',
+    helpText: '三田市では父母それぞれの基準指数（各最大20点）を合算して選考されます。ひとり親世帯は基準指数に20点を加算します',
     inputType: 'select',
     options: [
       { label: '仕事をしている', value: `${prefix}_reason_employment`, points: 0 },
-      { label: '病気の治療中', value: `${prefix}_reason_illness`, points: 0 },
-      { label: '障害がある', value: `${prefix}_reason_disability`, points: 0 },
+      { label: '求職活動中', value: `${prefix}_reason_jobseeking`, points: 0 },
+      { label: '妊娠・出産', value: `${prefix}_reason_pregnancy`, points: 0 },
+      { label: '就学中', value: `${prefix}_reason_education`, points: 0 },
+      { label: '病気・障害', value: `${prefix}_reason_illness`, points: 0 },
       { label: '介護・看護', value: `${prefix}_reason_care`, points: 0 },
-      { label: '出産の前後', value: `${prefix}_reason_childbirth`, points: 0 },
-      { label: '仕事を探している', value: `${prefix}_reason_jobseeking`, points: 0 },
+      { label: '災害復旧', value: `${prefix}_reason_disaster`, points: 0 },
     ],
   };
 
@@ -113,10 +101,30 @@ function buildParentQuestions(parentNum: 1 | 2): Question[] {
     {
       id: `${prefix}_employment`,
       category,
-      label: `${parentLabel}の就労時間（月あたり）は？`,
-      helpText: '雇用・自営業などすべての就労形態が対象です',
+      label: `${parentLabel}の就労時間は？`,
       inputType: 'radio',
       options: employmentOptions(prefix),
+    },
+    {
+      id: `${prefix}_jobseeking`,
+      category,
+      label: `${parentLabel}の求職活動は？`,
+      inputType: 'radio',
+      options: jobSeekingOptions(prefix),
+    },
+    {
+      id: `${prefix}_pregnancy`,
+      category,
+      label: `${parentLabel}の出産予定は？`,
+      inputType: 'radio',
+      options: pregnancyOptions(prefix),
+    },
+    {
+      id: `${prefix}_education`,
+      category,
+      label: `${parentLabel}の就学時間は？`,
+      inputType: 'radio',
+      options: educationOptions(prefix),
     },
     {
       id: `${prefix}_illness`,
@@ -135,137 +143,105 @@ function buildParentQuestions(parentNum: 1 | 2): Question[] {
     {
       id: `${prefix}_care`,
       category,
-      label: `${parentLabel}の介護・看護の状況は？`,
-      helpText: '対象となる親族の要介護度と月あたりの時間を選んでください',
+      label: `${parentLabel}の介護の状況は？`,
       inputType: 'radio',
       options: careOptions(prefix),
     },
     {
-      id: `${prefix}_childbirth`,
+      id: `${prefix}_disaster`,
       category,
-      label: `${parentLabel}の出産の状況は？`,
+      label: `${parentLabel}は災害復旧に当たっていますか？`,
       inputType: 'radio',
-      options: childbirthOptions(prefix),
-    },
-    {
-      id: `${prefix}_jobseeking`,
-      category,
-      label: `${parentLabel}は求職活動をしていますか？`,
-      inputType: 'radio',
-      options: jobSeekingOptions(prefix),
+      options: disasterOptions(prefix),
     },
   ];
 
   return [reasonQuestion, ...detailQuestions];
 }
 
-// ---------------------------------------------------------------------------
-// 調整指数の質問
-// ---------------------------------------------------------------------------
-
 const adjustmentQuestions: Question[] = [
   {
     id: 'adj_single_parent',
     category: 'adjustment',
     label: 'ひとり親世帯ですか？',
-    helpText: 'ひとり親世帯の場合、調整指数として+5点が加算されます',
     inputType: 'radio',
     options: [
       { label: 'いいえ', value: 'adj_single_parent_no', points: 0 },
-      { label: 'はい（+5）', value: 'adj_single_parent_yes', points: 5 },
-    ],
-  },
-  {
-    id: 'adj_sibling_enrolled',
-    category: 'adjustment',
-    label: 'きょうだいが希望する保育施設に在園していますか？',
-    helpText: '希望する保育施設にきょうだいが在園している場合に加点されます',
-    inputType: 'radio',
-    options: [
-      { label: 'あてはまらない', value: 'adj_sibling_enrolled_no', points: 0 },
-      { label: 'はい（+3）', value: 'adj_sibling_enrolled_yes', points: 3 },
-    ],
-  },
-  {
-    id: 'adj_sibling_simultaneous',
-    category: 'adjustment',
-    label: 'きょうだいと同時に入所を希望しますか？',
-    inputType: 'radio',
-    options: [
-      { label: 'あてはまらない', value: 'adj_sibling_simultaneous_no', points: 0 },
-      { label: 'はい（+2）', value: 'adj_sibling_simultaneous_yes', points: 2 },
-    ],
-  },
-  {
-    id: 'adj_unlicensed_nursery',
-    category: 'adjustment',
-    label: '認可外保育施設を利用していますか？',
-    helpText: '認可外保育施設に預けて就労している場合に加点されます',
-    inputType: 'radio',
-    options: [
-      { label: 'いいえ', value: 'adj_unlicensed_nursery_no', points: 0 },
-      { label: 'はい（+3）', value: 'adj_unlicensed_nursery_yes', points: 3 },
-    ],
-  },
-  {
-    id: 'adj_parental_leave',
-    category: 'adjustment',
-    label: '育児休業からの復帰予定ですか？',
-    helpText: '入所に伴い育児休業から復帰する場合に加点されます',
-    inputType: 'radio',
-    options: [
-      { label: 'いいえ', value: 'adj_parental_leave_no', points: 0 },
-      { label: 'はい（+2）', value: 'adj_parental_leave_yes', points: 2 },
+      { label: 'はい（+7）', value: 'adj_single_parent_yes', points: 7 },
     ],
   },
   {
     id: 'adj_welfare',
     category: 'adjustment',
-    label: '生活保護受給世帯ですか？',
+    label: '生活保護または中国残留邦人支援給付受給世帯ですか？',
     inputType: 'radio',
     options: [
       { label: 'いいえ', value: 'adj_welfare_no', points: 0 },
-      { label: 'はい（+3）', value: 'adj_welfare_yes', points: 3 },
+      { label: 'はい（+2）', value: 'adj_welfare_yes', points: 2 },
     ],
   },
   {
-    id: 'adj_outside_city',
+    id: 'adj_siblings_in_facility',
     category: 'adjustment',
-    label: '三田市外にお住まいですか？',
-    helpText: '市外からの申込の場合は減点となります',
+    label: 'きょうだいが保育所等に在園していますか？',
     inputType: 'radio',
     options: [
-      { label: 'いいえ（市内在住）', value: 'adj_outside_city_no', points: 0 },
-      { label: 'はい（-10）', value: 'adj_outside_city_yes', points: -10 },
+      { label: 'いいえ', value: 'adj_siblings_in_facility_no', points: 0 },
+      { label: 'はい（+4）', value: 'adj_siblings_in_facility_yes', points: 4 },
     ],
   },
   {
-    id: 'adj_grandparent_nearby',
+    id: 'adj_simultaneous_application',
     category: 'adjustment',
-    label: '65歳未満の祖父母等と同居していますか？',
-    helpText: '保育可能な同居親族がいる場合は減点となります',
+    label: '同時に2人以上の申込みをしていますか？',
     inputType: 'radio',
     options: [
-      { label: 'いいえ', value: 'adj_grandparent_nearby_no', points: 0 },
-      { label: 'はい（-3）', value: 'adj_grandparent_nearby_yes', points: -3 },
+      { label: 'いいえ', value: 'adj_simultaneous_application_no', points: 0 },
+      { label: 'はい（+2）', value: 'adj_simultaneous_application_yes', points: 2 },
     ],
   },
   {
-    id: 'adj_transfer',
+    id: 'adj_multiples',
     category: 'adjustment',
-    label: '在園中の保育施設からの転園希望ですか？',
-    helpText: '現在通っている認可保育施設から別の認可保育施設への転園を希望する場合',
+    label: '多胎児が同時に申込みをしていますか？',
     inputType: 'radio',
     options: [
-      { label: 'いいえ', value: 'adj_transfer_no', points: 0 },
-      { label: 'はい（-5）', value: 'adj_transfer_yes', points: -5 },
+      { label: 'いいえ', value: 'adj_multiples_no', points: 0 },
+      { label: 'はい（+4）', value: 'adj_multiples_yes', points: 4 },
+    ],
+  },
+  {
+    id: 'adj_residence',
+    category: 'adjustment',
+    label: '三田市内に在住していますか？',
+    inputType: 'radio',
+    options: [
+      { label: 'はい', value: 'adj_residence_yes', points: 0 },
+      { label: '転入予定だが住所未定（-5）', value: 'adj_residence_undefined', points: -5 },
+      { label: 'いいえ（-20）', value: 'adj_residence_no', points: -20 },
+    ],
+  },
+  {
+    id: 'adj_nursery_fee_delinquent',
+    category: 'adjustment',
+    label: '保育料を滞納していますか？',
+    inputType: 'radio',
+    options: [
+      { label: 'いいえ', value: 'adj_fee_delinquent_no', points: 0 },
+      { label: 'はい（-5）', value: 'adj_fee_delinquent_yes', points: -5 },
+    ],
+  },
+  {
+    id: 'adj_parental_leave_extension',
+    category: 'adjustment',
+    label: '育児休業延長を希望していますか？',
+    inputType: 'radio',
+    options: [
+      { label: 'いいえ', value: 'adj_parental_leave_extension_no', points: 0 },
+      { label: 'はい（-20）', value: 'adj_parental_leave_extension_yes', points: -20 },
     ],
   },
 ];
-
-// ---------------------------------------------------------------------------
-// エクスポート
-// ---------------------------------------------------------------------------
 
 export const sandaData: MunicipalityData = {
   municipality,

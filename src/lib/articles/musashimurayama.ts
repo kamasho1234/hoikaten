@@ -1,390 +1,338 @@
 import type { Article } from "./types";
 import { registerArticles } from "./index";
 
-const articles: Article[] = [
+const musashimurayamaArticles: Article[] = [
   {
-    slug: "hokatsu-schedule",
+    slug: "musashimurayama-guide",
     citySlug: "musashimurayama",
-    title: "武蔵村山市の保活スケジュール　申込から内定までの流れ",
+    title: "武蔵村山市の保活ガイド｜50点制と保育従事者加点の特徴",
     description:
-      "武蔵村山市の認可保育園の申込時期・選考の流れをまとめました。令和8年度4月入園の動き方を解説します。",
-    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
+      "武蔵村山市の保育園入園選考で使われる基準指数システムを解説。合計方式（父最大50点＋母最大50点＋調整指数）の仕組みと保育従事者+15の特徴をまとめました。",
+    image:
+      "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&h=400&fit=crop",
     category: "保活の基本",
     categoryColor: "green",
-    content: `<h2>武蔵村山市の4月入園スケジュール</h2>
-<p>武蔵村山市の認可保育園は毎年秋に翌年度4月入園の一次申込を受付けます。東京都の基準指数に基づき選考されます。</p>
+    content: `<h2>武蔵村山市の保育園入園制度</h2>
+<p>武蔵村山市の保育園入園選考は<span class="highlight">基準指数の合計方式</span>を採用しています。父母それぞれの基準指数を合計し、調整指数を加算して世帯の選考点を決定します。</p>
 
-<h3>保活の全体スケジュール</h3>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content">
-<strong>4月～6月：情報収集</strong>
-<p>武蔵村山市のホームページで保育園の一覧や前年度のボーダーを確認します。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content">
-<strong>7月～9月：保育園見学</strong>
-<p>武蔵村山市内の保育園を見学して、通勤経路との相性を確認しましょう。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content">
-<strong>9月～10月：書類準備</strong>
-<p>就労証明書の月あたり就労時間は正確に記載してもらいましょう。指数に直結します。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content">
-<strong>11月：申込書類の提出</strong>
-<p>4月一次の申込期限は例年11月中旬です。期限厳守で提出しましょう。</p>
-</div>
-</div>
+<h3>点数の構成</h3>
+<p>父母各最大<strong>50点</strong>、合計で最大100点の基準指数に調整指数を加えて選考されます。</p>
+
+<h3>武蔵村山市の特徴</h3>
+<ul>
+<li>就労は週5日×1日8時間以上で最大50点</li>
+<li>保育従事者として就労する場合の加点が<strong>+15</strong>と全国でもトップクラス</li>
+<li>連携施設への進学で+20の大きな加点</li>
+</ul>
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
-<p>武蔵村山市は基準指数で父母各最大20点（合計40点満点）です。月の就労時間で判定される制度です。</p>
+<p>武蔵村山市は保育従事者への加点が+15と非常に手厚いのが特徴です。保育士資格を持って保育施設で働いている方には有利な制度設計です。</p>
 </div>
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.musashimurayama.lg.jp/kosodate/azukeru/1012423/1013117.html" target="_blank" rel="noopener">武蔵村山市 保育所等入所のご案内</a>をご確認ください。</p>
+<p>詳細は<a href="https://www.city.musashimurayama.lg.jp/" target="_blank" rel="noopener">武蔵村山市公式サイト</a>の保育所等利用調整ページをご確認ください。</p>
 </div>`,
-    publishedAt: "2026-04-26",
-    popularity: 50,
+    publishedAt: "2026-06-09",
+    popularity: 75,
   },
+
   {
-    slug: "scoring-system-guide",
+    slug: "musashimurayama-scoring-system",
     citySlug: "musashimurayama",
-    title: "武蔵村山市の入園点数のしくみ　基準指数と調整指数を解説",
+    title: "武蔵村山市の基準指数システム徹底解説｜就労5段階評価",
     description:
-      "武蔵村山市の保育園入園選考で使われる基準指数と調整指数のしくみをわかりやすく解説します。参考値です。",
-    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
+      "武蔵村山市の保育園入園で使われる基準指数システムを解説。週5日の就労時間別5段階評価、疾病・障害等の点数を詳しくまとめました。",
+    image:
+      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
+    category: "点数・選考",
     categoryColor: "blue",
-    content: `<h2>武蔵村山市の選考指数とは</h2>
-<p>武蔵村山市の認可保育園は「基準指数（父＋母）＋ 調整指数」の合計で選考されます。参考値として、東京都の基準をお伝えします。</p>
+    content: `<h2>基準指数の計算方法</h2>
+<p><strong>選考指数 = 父の基準指数 + 母の基準指数 + 調整指数</strong></p>
 
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>利用調整指数 ＝ 基準指数（父＋母）＋ 調整指数</p>
-</div>
-
-<h2>基準指数（父母各最大20点、合計40点）</h2>
-<p>就労の場合、月160時間以上の就労で満点の<span class="highlight">20点</span>です。</p>
-
+<h3>就労の基準指数（5段階）</h3>
 <table>
-<tr><th>月の就労時間</th><th>指数</th></tr>
-<tr><td>月160時間以上</td><td>20</td></tr>
-<tr><td>月140時間以上160時間未満</td><td>18</td></tr>
-<tr><td>月120時間以上140時間未満</td><td>16</td></tr>
-<tr><td>月100時間以上120時間未満</td><td>14</td></tr>
-<tr><td>月80時間以上100時間未満</td><td>12</td></tr>
-<tr><td>月64時間以上80時間未満</td><td>10</td></tr>
-<tr><td>月48時間以上64時間未満</td><td>8</td></tr>
+<tr><th>就労状況</th><th>基準指数</th></tr>
+<tr><td>週5日以上・1日8時間以上</td><td>50点</td></tr>
+<tr><td>週5日以上・1日7時間以上8時間未満</td><td>45点</td></tr>
+<tr><td>週5日以上・1日6時間以上7時間未満</td><td>40点</td></tr>
+<tr><td>週5日以上・1日4時間以上6時間未満</td><td>35点</td></tr>
+<tr><td>その他月48時間以上就労</td><td>15点</td></tr>
 </table>
 
-<h2>調整指数の代表例（参考値）</h2>
-<ul>
-<li>地域型保育施設卒園に伴う転所：<span class="highlight">+3点</span></li>
-<li>ひとり親世帯：<span class="highlight">+2点</span></li>
-<li>認証保育所等に月ぎめ利用中：<span class="highlight">+2点</span></li>
-<li>生活保護世帯：<span class="highlight">+2点</span></li>
-<li>きょうだいが在園中：<span class="highlight">+1点</span></li>
-<li>育休復帰予定：<span class="highlight">+1点</span></li>
-<li>多子世帯（3人以上）：<span class="highlight">+1点</span></li>
-</ul>
+<h3>その他の基準指数</h3>
+<table>
+<tr><th>区分</th><th>基準指数</th></tr>
+<tr><td>常時病臥・1か月以上入院</td><td>50点</td></tr>
+<tr><td>障害1・2級</td><td>50点</td></tr>
+<tr><td>障害3・4級</td><td>35点</td></tr>
+<tr><td>要介護3〜5の方の介護</td><td>50点</td></tr>
+<tr><td>通院付添の介護（週5日以上）</td><td>40点</td></tr>
+<tr><td>妊娠・出産</td><td>35点</td></tr>
+<tr><td>就学（月48h以上）</td><td>35点</td></tr>
+<tr><td>災害復旧</td><td>50点</td></tr>
+<tr><td>求職（就労内定あり）</td><td>10点</td></tr>
+<tr><td>求職（日中外出して活動）</td><td>5点</td></tr>
+</table>
 
 <div class="warn-box">
 <p><strong>注意</strong></p>
-<p>この情報は参考値です。正確な基準は、武蔵村山市の「保育所等入所のしおり」で必ず確認してください。</p>
+<p>武蔵村山市は求職活動の点数が10点・5点と低めです。求職中の場合は内定をもらってから申し込むと点数が上がります。</p>
+</div>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>就労は週5日以上が基本条件です。週4日以下の場合は「その他月48時間以上」の15点となり、大きく点数が下がります。週5日以上の勤務形態を確保することが重要です。</p>
 </div>`,
-    publishedAt: "2026-04-26",
+    publishedAt: "2026-06-09",
+    popularity: 85,
+  },
+
+  {
+    slug: "musashimurayama-adjustment-items",
+    citySlug: "musashimurayama",
+    title: "武蔵村山市の調整指数一覧｜保育従事者+15が最大の加点",
+    description:
+      "武蔵村山市の保育園選考で使われる調整指数を一覧でまとめました。保育従事者+15、ひとり親+10、きょうだい加点など全項目を確認できます。",
+    image:
+      "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&h=400&fit=crop",
+    category: "点数・選考",
+    categoryColor: "blue",
+    content: `<h2>調整指数の一覧</h2>
+<table>
+<tr><th>項目</th><th>加点</th></tr>
+<tr><td>保育従事者として就労</td><td>+15</td></tr>
+<tr><td>ひとり親世帯</td><td>+10</td></tr>
+<tr><td>失業で速やかな就労が必要</td><td>+10</td></tr>
+<tr><td>育児休業後の復職予定</td><td>+5</td></tr>
+<tr><td>同時申込3人以上（多胎児+5）</td><td>+4</td></tr>
+<tr><td>同時申込2人（多胎児+4）</td><td>+3</td></tr>
+<tr><td>地域型保育事業在園</td><td>+3</td></tr>
+<tr><td>きょうだい同園在園</td><td>+2</td></tr>
+<tr><td>連携施設への進学</td><td>+20</td></tr>
+<tr><td>同居保護者が無職・求職中</td><td>-5</td></tr>
+<tr><td>育児休業延長希望</td><td>-100</td></tr>
+</table>
+
+<h3>保育従事者加点+15の活用</h3>
+<p>武蔵村山市最大の特徴は<strong>保育従事者として就労する場合の+15加点</strong>です。保育士・保育教諭として保育施設で勤務している方は、フルタイム勤務（50+50=100）に+15が加算され、115点になります。</p>
+
+<h3>育児休業延長希望で-100</h3>
+<p>育児休業の延長を目的とした申し込みの場合は-100点となり、事実上不承諾となります。実際に入園する意思がある場合に申し込みましょう。</p>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>保育士資格を持っている方は武蔵村山市での保活が非常に有利です。他の自治体では保育従事者加点は+2〜3点程度のところが多い中、+15は破格の優遇措置です。</p>
+</div>`,
+    publishedAt: "2026-06-09",
+    popularity: 88,
+  },
+
+  {
+    slug: "musashimurayama-employment-points",
+    citySlug: "musashimurayama",
+    title: "武蔵村山市の就労点数計算｜週5日勤務で最大50点",
+    description:
+      "武蔵村山市の保育園入園で就労による基準指数を解説。週5日以上の勤務時間別5段階と、週4日以下の場合の扱いをまとめました。",
+    image:
+      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
+    category: "点数・選考",
+    categoryColor: "blue",
+    content: `<h2>就労の基準指数</h2>
+<p>武蔵村山市では週の勤務日数と1日の就労時間で基準指数が決まります。</p>
+
+<h3>週5日以上勤務の場合</h3>
+<table>
+<tr><th>1日の就労時間</th><th>基準指数</th></tr>
+<tr><td>8時間以上</td><td>50点</td></tr>
+<tr><td>7時間以上8時間未満</td><td>45点</td></tr>
+<tr><td>6時間以上7時間未満</td><td>40点</td></tr>
+<tr><td>4時間以上6時間未満</td><td>35点</td></tr>
+</table>
+
+<h3>週4日以下・その他の場合</h3>
+<p>月48時間以上就労であれば<strong>15点</strong>が付与されます。週5日未満でも月48時間以上であれば対象になります。</p>
+
+<h2>両親フルタイムの場合</h2>
+<p>50 + 50 = <strong>100点</strong>。ここに調整指数が加算されます。</p>
+
+<h2>注意点</h2>
+<p>武蔵村山市は「週5日以上」が高得点の条件です。週4日の場合は15点となり、35点以上の差がつきます。</p>
+
+<div class="warn-box">
+<p><strong>注意</strong></p>
+<p>週4日勤務（月128時間程度）でも「週5日以上」の条件を満たさないと15点になります。可能であれば週5日の勤務形態を確保しましょう。</p>
+</div>`,
+    publishedAt: "2026-06-09",
+    popularity: 80,
+  },
+
+  {
+    slug: "musashimurayama-schedule-timeline",
+    citySlug: "musashimurayama",
+    title: "武蔵村山市の保育園入園スケジュール｜申込から入園まで",
+    description:
+      "武蔵村山市の保育園入園の流れをスケジュール形式で解説。一次申込から入園までのタイムラインをまとめました。",
+    image:
+      "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=800&h=400&fit=crop",
+    category: "保活の基本",
+    categoryColor: "green",
+    content: `<h2>武蔵村山市の入園スケジュール</h2>
+
+<h3>4月入園の場合</h3>
+<table>
+<tr><th>時期</th><th>手続き内容</th></tr>
+<tr><td>9月下旬</td><td>入所案内の配布開始</td></tr>
+<tr><td>10月中旬〜11月上旬</td><td>一次申込期間</td></tr>
+<tr><td>1月下旬</td><td>選考結果通知</td></tr>
+<tr><td>3月</td><td>入所前面接・健康診断</td></tr>
+<tr><td>4月1日</td><td>入園</td></tr>
+</table>
+
+<h2>必要書類</h2>
+<ul>
+<li>入所申込書</li>
+<li>就労証明書（両親分）</li>
+<li>保育が必要な事由の証明書類</li>
+<li>調整指数に該当する証明書類</li>
+</ul>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>最新のスケジュールは<a href="https://www.city.musashimurayama.lg.jp/" target="_blank" rel="noopener">武蔵村山市公式サイト</a>で確認してください。</p>
+</div>`,
+    publishedAt: "2026-06-09",
+    popularity: 72,
+  },
+
+  {
+    slug: "musashimurayama-strategy-tips",
+    citySlug: "musashimurayama",
+    title: "武蔵村山市の保活攻略法｜保育士資格が最強の武器に",
+    description:
+      "武蔵村山市で保育園入園を成功させるための戦略。保育従事者加点+15の活用方法、週5日勤務の確保、園選びのコツをまとめました。",
+    image:
+      "https://images.unsplash.com/photo-1473649085228-583485e6e4d7?w=800&h=400&fit=crop",
+    category: "保活のコツ",
+    categoryColor: "amber",
+    content: `<h2>武蔵村山市の保活戦略</h2>
+
+<h3>戦略1：保育従事者加点を活用</h3>
+<p>保育士資格を持ち保育施設で勤務している場合、<strong>+15の加点</strong>が得られます。これは全国でもトップクラスの優遇措置です。</p>
+
+<h3>戦略2：週5日勤務を確保</h3>
+<p>週5日以上の勤務で35〜50点が得られますが、週4日以下だと15点に急落します。可能であれば週5日の勤務形態を確保しましょう。</p>
+
+<h3>戦略3：地域型保育からの進学</h3>
+<p>地域型保育事業（小規模保育等）から連携施設への進学は+20加点されます。まず小規模保育に入園し、その後連携施設へ進学するルートも有効です。</p>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>保育従事者でない場合も、両親フルタイム（100点）+ ひとり親（+10）や育休復帰（+5）を組み合わせることで高い点数を確保できます。</p>
+</div>`,
+    publishedAt: "2026-06-09",
+    popularity: 78,
+  },
+
+  {
+    slug: "musashimurayama-nearby-comparison",
+    citySlug: "musashimurayama",
+    title: "武蔵村山市と周辺自治体の保活比較｜東大和市・瑞穂町との違い",
+    description:
+      "武蔵村山市と周辺自治体の保活事情を比較。東大和市、瑞穂町との点数制の違いと入園難易度をまとめました。",
+    image:
+      "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&h=400&fit=crop",
+    category: "保活のコツ",
+    categoryColor: "amber",
+    content: `<h2>武蔵村山市周辺の保活比較</h2>
+<p>武蔵村山市は東京都の北西部に位置し、東大和市と隣接しています。</p>
+
+<h3>武蔵村山市の特徴</h3>
+<ul>
+<li>保育従事者加点+15が全国トップクラス</li>
+<li>就労は週5日以上が高得点の条件</li>
+<li>自然豊かで保育環境が良好</li>
+</ul>
+
+<h3>東大和市との比較</h3>
+<p>東大和市は同じく片親最大50点ですが、就労の判定が月間時間数（7段階）で、武蔵村山市は日×時間（5段階）と異なります。東大和市は育休復帰+10が大きく、武蔵村山市は保育従事者+15が大きいという違いがあります。</p>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>武蔵村山市は鉄道駅がない唯一の東京都市部自治体です。そのため保育園の競争率は比較的穏やかで、入園しやすい傾向にあります。</p>
+</div>`,
+    publishedAt: "2026-06-09",
+    popularity: 68,
+  },
+
+  {
+    slug: "musashimurayama-faq",
+    citySlug: "musashimurayama",
+    title: "武蔵村山市の保活Q&A｜よくある質問と回答",
+    description:
+      "武蔵村山市の保育園入園に関するよくある質問をまとめました。点数計算、調整指数、申し込み手続きについての疑問を解決します。",
+    image:
+      "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&h=400&fit=crop",
+    category: "よくある質問",
+    categoryColor: "rose",
+    content: `<h2>点数計算に関する質問</h2>
+
+<h3>Q：週4日のフルタイム勤務です。何点になりますか？</h3>
+<p><strong>A:</strong> 週4日の場合は「その他月48時間以上就労」の15点となります。週5日以上が高得点の条件ですので、可能であれば勤務日数を増やすことを検討してください。</p>
+
+<h3>Q：保育士として働いています。加点はありますか？</h3>
+<p><strong>A:</strong> はい、保育従事者として就労する場合は+15の調整指数が加算されます。これは全国でもトップクラスの優遇措置です。</p>
+
+<h3>Q：育児休業の延長を希望した場合はどうなりますか？</h3>
+<p><strong>A:</strong> 育児休業延長目的の申し込みは-100点となり、事実上不承諾になります。実際に入園する意思がある場合に申し込んでください。</p>
+
+<h2>調整指数に関する質問</h2>
+
+<h3>Q：地域型保育事業からの進学で加点はありますか？</h3>
+<p><strong>A:</strong> 連携施設への進学は+20の加点があります。地域型保育事業在園中の場合は+3です。</p>
+
+<h3>Q：同居の祖父母が無職の場合、減点されますか？</h3>
+<p><strong>A:</strong> 同居保護者（父母）が無職・求職中の場合は-5の減点があります。祖父母についてはケースによりますので市役所にご確認ください。</p>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>その他の質問は、武蔵村山市子ども育成課保育・幼稚園係（042-565-1111 内線184）にお問い合わせください。</p>
+</div>`,
+    publishedAt: "2026-06-09",
+    popularity: 92,
+  },
+
+  {
+    slug: "musashimurayama-trends-2026",
+    citySlug: "musashimurayama",
+    title: "武蔵村山市の保活トレンド2026｜最新動向と変化",
+    description:
+      "武蔵村山市の保活事情の最新トレンド。保育施設の整備状況、入園難易度の変化など2026年の保活事情をまとめました。",
+    image:
+      "https://images.unsplash.com/photo-1473649085228-583485e6e4d7?w=800&h=400&fit=crop",
+    category: "保活のコツ",
+    categoryColor: "amber",
+    content: `<h2>2026年の武蔵村山市保活事情</h2>
+<p>武蔵村山市は都心から離れた立地で保育園の競争率は比較的穏やかです。</p>
+
+<h3>入園のポイント</h3>
+<ul>
+<li>両親フルタイム勤務であれば100点を確保可能</li>
+<li>保育士資格がある場合は+15で115点</li>
+<li>地域型保育からの進学ルートも有効</li>
+</ul>
+
+<h3>今後の見通し</h3>
+<p>武蔵村山市は人口が緩やかに減少しており、保育需要も落ち着く傾向にあります。ただし一部の人気園は引き続き競争率が高いため、複数園の希望が重要です。</p>
+
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>最新の情報は<a href="https://www.city.musashimurayama.lg.jp/" target="_blank" rel="noopener">武蔵村山市公式サイト</a>で確認してください。</p>
+</div>`,
+    publishedAt: "2026-06-09",
     popularity: 55,
-  },
-  {
-    slug: "score-up-tips",
-    citySlug: "musashimurayama",
-    title: "武蔵村山市で入園点数を上げるコツ　加点チェックリスト",
-    description:
-      "武蔵村山市の保育園入園選考で調整指数の加点を最大限に活用する方法を解説します。参考値です。",
-    image: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=400&fit=crop",
-    category: "点数アップ",
-    categoryColor: "amber",
-    content: `<h2>基準指数40点は出発点</h2>
-<p>武蔵村山市ではフルタイム共働き世帯は基準指数<span class="highlight">40点</span>で横並びです。差がつくのは調整指数の加点です。参考値をご紹介します。</p>
-
-<h2>加点チェックリスト（参考値）</h2>
-<table>
-<tr><th>項目</th><th>点数</th><th>条件</th></tr>
-<tr><td>地域型保育施設卒園</td><td>+3点</td><td>小規模保育等の卒園に伴う転所</td></tr>
-<tr><td>ひとり親世帯</td><td>+2点</td><td>母子・父子家庭の場合</td></tr>
-<tr><td>認証保育所等利用</td><td>+2点</td><td>認証保育所・認可外に月ぎめで利用中</td></tr>
-<tr><td>生活保護</td><td>+2点</td><td>生活保護を受けている場合</td></tr>
-<tr><td>きょうだい在園</td><td>+1点</td><td>認可保育園にきょうだいが在園中</td></tr>
-<tr><td>育休復帰予定</td><td>+1点</td><td>入園月に職場復帰する場合</td></tr>
-<tr><td>多子世帯</td><td>+1点</td><td>きょうだいが3人以上</td></tr>
-</table>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>武蔵村山市は入所決定者の最低指数一覧を公開しています。園ごとのボーダーを確認して、自分の点数で入園できそうな園を探しましょう。</p>
-</div>
-
-<div class="warn-box">
-<p><strong>注意</strong></p>
-<p>この情報は参考値です。就労証明書の月あたり就労時間は正確に記載してください。実態と異なる記載は入園取消しの対象です。</p>
-</div>`,
-    publishedAt: "2026-04-26",
-    popularity: 50,
-  },
-  {
-    slug: "tiebreaker-rules",
-    citySlug: "musashimurayama",
-    title: "武蔵村山市で同点になったらどうなる？優先順位を解説",
-    description:
-      "武蔵村山市の保育園入園選考で同点だった場合の優先順位の判定方法を解説します。参考値です。",
-    image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
-    categoryColor: "blue",
-    content: `<h2>同点時の判定方法</h2>
-<p>武蔵村山市の入園選考で利用調整指数が同点になった場合、さらに優先順位で判定されます。参考値をご紹介します。</p>
-
-<h2>同点時に考慮される要素（参考値）</h2>
-<ul>
-<li>虐待・ＤＶ等、児童福祉の観点から配慮が必要な世帯</li>
-<li>両親不存在の世帯</li>
-<li>ひとり親世帯</li>
-<li>きょうだいが同じ園に在園中</li>
-<li>認証保育所等に在所中</li>
-<li>きょうだいが別々の保育施設を利用中（転所希望）</li>
-<li>多子世帯（3人以上のきょうだい）</li>
-<li>保護者の一方が遠隔地に単身赴任中</li>
-<li>所得が低い世帯</li>
-</ul>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>40点制では、フルタイム共働きで40点が基本ラインです。調整指数の1点が当落を分けることがあります。</p>
-</div>
-
-<div class="warn-box">
-<p><strong>注意</strong></p>
-<p>優先順位は年度によって変更される場合があります。この情報は参考値です。最新の「保育所等入所のしおり」で必ず確認してください。</p>
-</div>`,
-    publishedAt: "2026-04-26",
-    popularity: 45,
-  },
-  {
-    slug: "part-time-work-score",
-    citySlug: "musashimurayama",
-    title: "武蔵村山市で時短勤務だと点数はどう変わる？",
-    description:
-      "武蔵村山市の保育園入園選考で時短勤務の場合の基準指数への影響を解説します。参考値です。",
-    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=400&fit=crop",
-    category: "点数アップ",
-    categoryColor: "amber",
-    content: `<h2>武蔵村山市は月の就労時間で判定</h2>
-<p>武蔵村山市の基準指数は月の就労時間で決まります。時短勤務の影響を確認しましょう。参考値です。</p>
-
-<table>
-<tr><th>月の就労時間</th><th>基準指数</th></tr>
-<tr><td>月160時間以上</td><td>20点</td></tr>
-<tr><td>月140時間以上160時間未満</td><td>18点</td></tr>
-<tr><td>月120時間以上140時間未満</td><td>16点</td></tr>
-<tr><td>月100時間以上120時間未満</td><td>14点</td></tr>
-<tr><td>月80時間以上100時間未満</td><td>12点</td></tr>
-<tr><td>月64時間以上80時間未満</td><td>10点</td></tr>
-<tr><td>月48時間以上64時間未満</td><td>8点</td></tr>
-</table>
-
-<div class="warn-box">
-<p><strong>注意</strong></p>
-<p>1日6時間×週5日＝月約120時間の時短勤務の場合、基準指数は<span class="highlight">16点</span>です。フルタイムの20点と比べて4点下がります。</p>
-</div>
-
-<h2>月160時間の壁</h2>
-<p>満点の20点を得るには月160時間以上が必要です。1日8時間×月20日＝160時間がちょうど満点ラインです。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>復職後のフルタイム勤務条件を就労証明書に記載してもらえるか、勤務先に確認しましょう。育休中でも復職後の勤務条件で指数が判定されます。</p>
-</div>`,
-    publishedAt: "2026-04-26",
-    popularity: 48,
-  },
-  {
-    slug: "single-parent-score",
-    citySlug: "musashimurayama",
-    title: "武蔵村山市でひとり親の場合　加点と支援制度",
-    description:
-      "武蔵村山市の保育園入園選考でひとり親世帯が受ける加点と支援内容を解説します。参考値です。",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=400&fit=crop",
-    category: "点数アップ",
-    categoryColor: "amber",
-    content: `<h2>ひとり親家庭の加点</h2>
-<p>武蔵村山市の保育園入園選考では、ひとり親世帯は調整指数で<span class="highlight">+2点</span>の加点が得られます。参考値です。</p>
-
-<h2>必要な書類</h2>
-<ul>
-<li>戸籍謄本（または抄本）</li>
-<li>母子手帳の親の欄写し</li>
-<li>養育費に関する公正証書（ある場合）</li>
-</ul>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>ひとり親で就労中の場合、基準指数に加えて調整指数で加点が得られます。月160時間以上の就労で基準指数20点＋調整指数2点＝22点となります。</p>
-</div>
-
-<h2>東京都のひとり親支援制度</h2>
-<p>武蔵村山市が属する東京都では、ひとり親世帯向けの保育料軽減制度があります。詳細は市の福祉事務所に問い合わせてください。</p>
-
-<div class="warn-box">
-<p><strong>注意</strong></p>
-<p>この情報は参考値です。正確な加点額は、武蔵村山市の公式案内で必ず確認してください。</p>
-</div>`,
-    publishedAt: "2026-04-26",
-    popularity: 52,
-  },
-  {
-    slug: "parental-leave-timing",
-    citySlug: "musashimurayama",
-    title: "武蔵村山市の育児休業と入園タイミング　復帰予定者の加点",
-    description:
-      "武蔵村山市で育児休業から復帰する場合の入園タイミングと加点を解説します。参考値です。",
-    image: "https://images.unsplash.com/photo-1516627145497-ae6968895b2f?w=800&h=400&fit=crop",
-    category: "点数アップ",
-    categoryColor: "amber",
-    content: `<h2>育休復帰者の加点</h2>
-<p>武蔵村山市では育児休業から入園月に復帰する予定の場合、調整指数で<span class="highlight">+1点</span>の加点が得られます。参考値です。</p>
-
-<h2>復帰予定者の就労証明書</h2>
-<p>育児休業中でも、復職後の勤務条件を就労証明書に記載することが重要です。月160時間以上の勤務予定であれば、基準指数は20点となります。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>育休から復帰する場合、入園月が確定してから書類を提出するタイミングが重要です。復帰予定月に合わせて申込みましょう。</p>
-</div>
-
-<h2>育児休業延長の仕組み</h2>
-<p>保育園に不承諾となった場合、育児休業を延長できます（最長2歳まで）。翌年度の申込みに向けて準備を進めましょう。</p>
-
-<div class="warn-box">
-<p><strong>注意</strong></p>
-<p>この情報は参考値です。復帰時期の確認書等が必要です。勤務先に確認の上、書類を準備してください。</p>
-</div>`,
-    publishedAt: "2026-04-26",
-    popularity: 48,
-  },
-  {
-    slug: "nursery-wait-time",
-    citySlug: "musashimurayama",
-    title: "武蔵村山市の保育園入園待ちの現状　待機児童について",
-    description:
-      "武蔵村山市の保育園入園の待機児童状況と年度別の動向を解説します。参考値です。",
-    image: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>武蔵村山市の待機児童状況</h2>
-<p>武蔵村山市の待機児童数は、東京都内でも比較的少ない水準にあります。ただし、年齢クラスと地域によって差があります。</p>
-
-<h2>園ごとの競争差</h2>
-<p>駅周辺の人気園は競争が激しいですが、市の北部や周辺地域の園には比較的空きがある場合もあります。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>武蔵村山市は保育園の定員を段階的に増やしており、入園しやすい環境を整備中です。複数の園をリストアップして申込みましょう。</p>
-</div>
-
-<h2>途中入園の可能性</h2>
-<p>4月入園で不承諾になった場合でも、年度途中に空きが出た場合の利用調整で入園できる可能性があります。</p>
-
-<div class="warn-box">
-<p><strong>注意</strong></p>
-<p>この情報は参考値です。最新の待機児童数は武蔵村山市の公式発表で確認してください。</p>
-</div>`,
-    publishedAt: "2026-04-26",
-    popularity: 45,
-  },
-  {
-    slug: "application-checklist",
-    citySlug: "musashimurayama",
-    title: "武蔵村山市の保育園申込　書類チェックリスト",
-    description:
-      "武蔵村山市の認可保育園申込に必要な書類をリストアップしました。漏れなく準備するためのチェックリストです。",
-    image: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>申込に必要な書類</h2>
-<p>武蔵村山市の認可保育園申込に必要な書類をまとめました。チェックリストとしてご活用ください。</p>
-
-<h2>基本書類チェックリスト</h2>
-<ul>
-<li>保育施設入園申込書</li>
-<li>保育が必要であることの認定に係る申立書</li>
-<li>就労証明書（就業中の場合）</li>
-<li>母子健康手帳の表紙及び出生届が記載された部分の写し</li>
-<li>世帯全員の住民票謄本</li>
-</ul>
-
-<h2>状況別の追加書類</h2>
-<ul>
-<li>ひとり親世帯：戸籍謄本（または抄本）</li>
-<li>疾病・介護中：医師の診断書または介護状況の書類</li>
-<li>障害のある方：障害者手帳のコピー</li>
-<li>生活保護世帯：福祉事務所の証明書</li>
-</ul>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>就労証明書は月あたりの就労時間を正確に記載します。指数に直結するため、勤務先とよく相談して作成しましょう。</p>
-</div>
-
-<div class="warn-box">
-<p><strong>注意</strong></p>
-<p>書類の不備は選考に影響します。提出前に武蔵村山市の案内で最新の書類リストを確認してください。</p>
-</div>`,
-    publishedAt: "2026-04-26",
-    popularity: 48,
-  },
-  {
-    slug: "unlicensed-nursery",
-    citySlug: "musashimurayama",
-    title: "武蔵村山市で認証保育所を活用する方法　加点のコツ",
-    description:
-      "武蔵村山市では認証保育所や認可外保育施設の月ぎめ利用で加点が得られます。その活用法を解説します。",
-    image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
-    category: "点数アップ",
-    categoryColor: "amber",
-    content: `<h2>認証保育所等の利用による加点</h2>
-<p>武蔵村山市では認証保育所等に月ぎめで預けている場合、調整指数で<span class="highlight">+2点</span>の加点が得られます。参考値です。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>月ぎめの契約が条件です。40点制の武蔵村山市では調整指数の2点は大きなアドバンテージです。</p>
-</div>
-
-<h2>対象となる施設</h2>
-<ul>
-<li>東京都認証保育所</li>
-<li>認可外保育施設</li>
-<li>企業主導型保育施設</li>
-</ul>
-
-<h2>地域型保育施設卒園なら+3点</h2>
-<p>地域型保育施設（小規模保育等）の卒園に伴う転所の場合は<span class="highlight">+3点</span>の加点があります。認証保育所利用（+2点）よりも大きな加点です。</p>
-
-<div class="warn-box">
-<p><strong>注意</strong></p>
-<p>この情報は参考値です。保育受託証明書が必要な場合があります。利用している施設に発行を依頼してください。</p>
-</div>`,
-    publishedAt: "2026-04-26",
-    popularity: 46,
   },
 ];
 
-registerArticles(articles);
+registerArticles(musashimurayamaArticles);
