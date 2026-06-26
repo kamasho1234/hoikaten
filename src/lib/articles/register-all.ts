@@ -372,3 +372,4 @@ import "./goka";
 import "./yokote";
 import "./misato-miyagi";
 import "./sosa";
+import "./murakami";
