@@ -370,3 +370,4 @@ import "./kushiro-cho";
 import "./saijo";
 import "./goka";
 import "./yokote";
+import "./misato-miyagi";
