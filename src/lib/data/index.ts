@@ -380,6 +380,7 @@ import { misatomiyagiData } from './misato-miyagi';
 import { sosaData } from './sosa';
 import { murakamiData } from './murakami';
 import { mannoData } from './manno';
+import { tamanaData } from './tamana';
 
 const municipalityMap: Record<string, MunicipalityData> = {
   [setagayaData.municipality.slug]: setagayaData,
@@ -763,6 +764,7 @@ const municipalityMap: Record<string, MunicipalityData> = {
   [sosaData.municipality.slug]: sosaData,
   [murakamiData.municipality.slug]: murakamiData,
   [mannoData.municipality.slug]: mannoData,
+  [tamanaData.municipality.slug]: tamanaData,
 };
 
 export function getMunicipalityData(slug: string): MunicipalityData | undefined {
@@ -812,7 +814,7 @@ export { otakeData };
 export { minamikyushuData };
 export { utoData, katsuyamaData, shiroiData, yamanashiData };
 export { fukuroiData, tendoData, kamisuData, shimotsukeData, tomisatoData, hokotaData, inagiData };
-export { yukiData, sodegauraData, kushiroChoData, gokaData, handaData, yokoteData, misatomiyagiData, sosaData, murakamiData, mannoData };
+export { yukiData, sodegauraData, kushiroChoData, gokaData, handaData, yokoteData, misatomiyagiData, sosaData, murakamiData, mannoData, tamanaData };
 export { kashiwaData, matsudoData, yamaguchiData };
 export { takamatsuData, sagaData };
 export { odawaraData, kamakuraData };

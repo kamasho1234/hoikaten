@@ -374,3 +374,4 @@ import "./misato-miyagi";
 import "./sosa";
 import "./murakami";
 import "./manno";
+import "./tamana";
