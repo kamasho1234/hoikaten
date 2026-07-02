@@ -1,471 +1,234 @@
-import type { Article } from "./types";
+﻿import type { Article } from "./types";
 import { registerArticles } from "./index";
 
-const articles: Article[] = [
-  // ===== 保活の基本 (1) =====
+const yotsukaidoArticles: Article[] = [
   {
-    slug: "hokatsu-schedule",
+    slug: "yotsukaido-guide",
     citySlug: "yotsukaido",
-    title: "四街道市の保活スケジュール　令和8年度4月入園の流れ",
+    title: "四街道市の保育所点数（利用調整基準）完全ガイド｜月間就労時間・調整点数を解説",
     description:
-      "四街道市の認可保育園の申込時期・選考の流れ・結果通知の時期をわかりやすく解説。令和8年度4月入園のスケジュールを中心にまとめました。",
+      "千葉県四街道市の保育所利用調整は父母合算（sum方式）。就労は月間時間で判定し月160時間以上で最大30点。虐待・DV対応+100点、ひとり親+40点など調整点数も詳しく解説します。",
     image:
-      "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&h=400&fit=crop",
     category: "保活の基本",
     categoryColor: "green",
-    content: `<h2>令和8年度（2026年度）4月入園のスケジュール</h2>
-<p>四街道市の4月入園は<strong>一次利用調整</strong>と<strong>二次利用調整</strong>の2回に分かれています。申込先は四街道市健康こども部保育課です。</p>
+    content: `<h2>四街道市の保育所利用調整制度</h2>
+<p>千葉県四街道市の保育所利用調整は<span class="highlight">sum方式（父母合算）</span>を採用しています。父・母それぞれの基準点数を合算し、調整点数を加えた合計点で優先順位を決定します。</p>
 
-<h3>一次利用調整</h3>
-<table>
-<tr><th>項目</th><th>日程</th></tr>
-<tr><td>申込受付期間</td><td>令和8年2月2日～2月13日</td></tr>
-<tr><td>結果通知</td><td>令和8年3月中旬</td></tr>
-</table>
+<h3>四街道市の利用調整の特徴</h3>
+<p>四街道市では就労を<strong>月間の総労働時間</strong>で評価します。月64時間以上の就労が基準点数の対象となり、月160時間以上（フルタイム相当）で最大30点が取得できます。</p>
 
-<h3>二次利用調整</h3>
-<table>
-<tr><th>項目</th><th>日程</th></tr>
-<tr><td>申込受付期間</td><td>令和8年3月下旬～4月上旬（予定）</td></tr>
-<tr><td>結果通知</td><td>令和8年4月中旬（予定）</td></tr>
-</table>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>一次で不承諾だった方は自動的に二次の対象になります。希望園の変更も可能です。</p>
-</div>
-
-<h2>いつから動き始めるべき？</h2>
-
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content">
-<strong>4月～5月：情報収集スタート</strong>
-<p>四街道市の認可保育園は約20か所。エリアや園の特徴を調べましょう。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content">
-<strong>6月～12月：保育園見学</strong>
-<p>気になる園に電話して見学予約。早めの動きで選択肢を増やせます。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content">
-<strong>1月：申込案内の入手</strong>
-<p>四街道市が発行する「保育所等利用のしおり」を入手しましょう。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content">
-<strong>2月：申込書類の準備・提出</strong>
-<p>就労証明書などの書類を揃えて保育課へ提出します。</p>
-</div>
-</div>
-
-<h2>途中入園（5月～3月）の申込</h2>
-<p>各月の申込締切日は、入園希望月の<span class="highlight">前月10日頃</span>です。詳しくは四街道市の公式サイトをご確認ください。</p>`,
-    publishedAt: "2026-04-26",
-    popularity: 50,
-  },
-  // ===== 選考のしくみ =====
-  {
-    slug: "scoring-system-guide",
-    citySlug: "yotsukaido",
-    title: "四街道市の入園点数のしくみ　基本指数と調整指数をやさしく解説",
-    description:
-      "四街道市の保育園入園選考で使われる基本指数と調整指数の仕組みを、初めての方にもわかるように解説します。",
-    image:
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
-    categoryColor: "blue",
-    content: `<h2>点数ってなに？</h2>
-<p>四街道市の保育園入園は「先着順」ではなく「点数（指数）」の高い順に内定が決まります。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>選考指数 = 基本指数（父）+ 基本指数（母）+ 調整指数</p>
-</div>
-
-<h2>基本指数とは？</h2>
-<p>父母それぞれの「保育が必要な理由」を点数化したものです。1人あたり最大<span class="highlight">20点</span>で、父母合計の最大は<span class="highlight">40点</span>。</p>
-<p>最も多い「就労」の場合、月160時間以上で満点の20点になります。</p>
-
-<table>
-<tr><th>就労状況</th><th>指数</th></tr>
-<tr><td>月160時間以上</td><td>20</td></tr>
-<tr><td>月140時間以上160時間未満</td><td>18</td></tr>
-<tr><td>月120時間以上140時間未満</td><td>16</td></tr>
-<tr><td>月100時間以上120時間未満</td><td>14</td></tr>
-<tr><td>月80時間以上100時間未満</td><td>12</td></tr>
-</table>
-
-<h2>調整指数とは？</h2>
-<p>世帯の特別な事情に応じて加減される点数です。加算項目と減算項目があります。</p>
-
-<h3>主な加算項目</h3>
+<h3>利用調整の基本的な流れ</h3>
 <ul>
-<li>ひとり親世帯（就労中）：<span class="highlight">+5点</span></li>
-<li>きょうだいが在園中：<span class="highlight">+3点</span></li>
-<li>認可外保育施設の利用実績：<span class="highlight">+3点</span></li>
-<li>生活保護世帯：<span class="highlight">+3点</span></li>
-<li>育休明け復職予定：<span class="highlight">+2点</span></li>
-<li>きょうだい同時申込：<span class="highlight">+2点</span></li>
+<li>父・母それぞれの保育が必要な事由を確認し、基準点数を算定</li>
+<li>父・母の基準点数を合算（sum方式）</li>
+<li>調整点数（加点・減点）を加算</li>
+<li>合計点数が高い世帯から順に内定</li>
 </ul>
 
-<h3>主な減算項目</h3>
-<ul>
-<li>市外からの申込：<span class="highlight">-10点</span></li>
-<li>認可園からの転園希望：<span class="highlight">-5点</span></li>
-<li>同居祖父母が保育可能：<span class="highlight">-3点</span></li>
-</ul>`,
-    publishedAt: "2026-04-26",
-    popularity: 60,
-  },
-  // ===== 点数アップ =====
-  {
-    slug: "part-time-work-score",
-    citySlug: "yotsukaido",
-    title: "四街道市で点数を1点でも上げる方法　加点のチェックリスト",
-    description:
-      "四街道市の入園選考で調整指数の加点を最大限に活用する方法を、チェックリスト形式で解説します。",
-    image:
-      "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=400&fit=crop",
-    category: "点数アップ",
-    categoryColor: "amber",
-    content: `<h2>加点の取りこぼしをなくそう</h2>
-<p>四街道市の入園選考では<span class="highlight">1点</span>の差が明暗を分けることも。使える加点は漏れなく活用しましょう。</p>
-
-<h3>加点チェックリスト</h3>
-
-<ul>
-<li>ひとり親で就労中 → <span class="highlight">+5点</span></li>
-<li>きょうだいが希望施設に在園中 → <span class="highlight">+3点</span></li>
-<li>認可外保育施設に月ぎめで預けている → <span class="highlight">+3点</span></li>
-<li>生活保護を受給中 → <span class="highlight">+3点</span></li>
-<li>きょうだいを同時に申込 → <span class="highlight">+2点</span></li>
-<li>育休・産休から入園月に復帰予定 → <span class="highlight">+2点</span></li>
-</ul>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>認可外保育施設に預けながら翌年の4月入園を申し込むと、+3点の加点がつきます。0歳児クラスで認可外に預け、1歳児クラスで認可園を狙うのは四街道市でも有効な戦略です。</p>
-</div>
+<h3>基準点数の主な区分</h3>
+<table>
+<thead><tr><th>事由</th><th>最高点</th></tr></thead>
+<tbody>
+<tr><td>就労（月160時間以上）</td><td>30点</td></tr>
+<tr><td>出産（産前8週〜産後8週）</td><td>30点</td></tr>
+<tr><td>長期入院（1ヶ月以上）または常時病臥</td><td>35点</td></tr>
+<tr><td>重度介護・在宅介護（要介護認定者）</td><td>30点</td></tr>
+<tr><td>身体障害者手帳1・2級等</td><td>30点</td></tr>
+<tr><td>災害復旧</td><td>35点</td></tr>
+<tr><td>就学・職業訓練（月160時間以上）</td><td>30点</td></tr>
+<tr><td>育児休業中</td><td>16点</td></tr>
+</tbody>
+</table>
 
 <div class="info-box">
-<p><strong>注意すべき減点項目</strong></p>
-<p>四街道市外からの申込は-10点、認可園からの転園は-5点、同居祖父母が保育可能な場合は-3点の減点があります。特に市外からの申込は大幅な減点となるため要注意です。</p>
+<p><strong>公式情報</strong></p>
+<p>詳細は<a href="https://www1.g-reiki.net/yotsukaido/reiki_honbun/g029RG00000860.html" target="_blank" rel="noopener">四街道市保育所等における保育に関する規則</a>をご確認ください。</p>
 </div>`,
-    publishedAt: "2026-04-26",
-    popularity: 55,
+    publishedAt: "2026-06-29",
   },
-  // ===== スコア戦略 =====
   {
-    slug: "score-up-tips",
+    slug: "yotsukaido-employment",
     citySlug: "yotsukaido",
-    title: "四街道市の保育園入園　スコア別の対策と戦略",
+    title: "四街道市の保育所点数｜就労・就学の基準点数一覧（月間時間別）",
     description:
-      "四街道市の保育園入園で自分のスコアを把握し、必要な対策を実行するための戦略をまとめました。",
-    image:
-      "https://images.unsplash.com/photo-1588072432836-e10032774350?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
-    categoryColor: "blue",
-    content: `<h2>まずは自分のスコアを把握しよう</h2>
-<p>四街道市の保育園入園では、自分たちの指数が平均的なレベルにあるのか、高いのか、それとも低いのかを知ることが重要です。</p>
-
-<h2>スコア別対策</h2>
-
-<h3>基本指数が40点に満たない場合</h3>
-<p>夫婦ともにフルタイム勤務でない場合、基本指数の上限に達していない可能性があります。この場合、調整指数での加点がより重要になります。</p>
-
-<ul>
-<li>認可外保育施設の利用実績をつける（+3点）</li>
-<li>複数園申込で同点時有利を活かす</li>
-<li>育休復帰タイミングを工夫（+2点）</li>
-</ul>
-
-<h3>基本指数が40点でも入園難しい場合</h3>
-<p>フルタイム共働きでも不承諾になることがあります。この場合、調整指数での加点が不可欠です。</p>
-
-<ul>
-<li>全ての使える加点を活用する</li>
-<li>認可外実績を申込時期に間に合わせる</li>
-<li>複数のきょうだい加点を組み合わせる</li>
-<li>ひとり親世帯なら同点時優先が有利</li>
-</ul>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>四街道市では加点が1点の差で合否が決まることも珍しくありません。使える制度は漏れなく活用しましょう。</p>
-</div>
-
-<div class="info-box">
-<p><strong>情報</strong></p>
-<p>四街道市保育課では、入園申込前にスコア計算のお手伝いをしてくれることがあります。不安な場合はご相談ください。</p>
-</div>`,
-    publishedAt: "2026-04-26",
-    popularity: 58,
-  },
-  // ===== 同点対策 =====
-  {
-    slug: "tiebreaker-rules",
-    citySlug: "yotsukaido",
-    title: "四街道市で同点になったらどうなる？　優先順位のしくみ",
-    description:
-      "四街道市の保育園入園選考で同点になった場合の優先順位と、事前にできる対策を解説します。",
+      "四街道市の就労・就学による基準点数を解説します。月160時間以上で30点、月140〜160時間未満で28点、月64時間未満は求職活動扱い（5〜10点）。求職活動・内職の取り扱いも説明。",
     image:
       "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
+    category: "就労",
     categoryColor: "blue",
-    content: `<h2>同点の場合の優先順位</h2>
-<p>四街道市では選考指数が同点の場合、以下の順番で優先されます。</p>
+    content: `<h2>四街道市の就労・就学基準点数</h2>
+<p>四街道市の就労は<strong>月間の総労働時間</strong>で基準点数が決まります。月64時間未満の就労は「求職活動」として扱われます。</p>
 
-<ol>
-<li>ひとり親世帯</li>
-<li>希望する保育施設にきょうだいが在園している世帯</li>
-<li>基本指数が高い世帯（調整指数による加点が少ない = 就労状況が安定）</li>
-<li>四街道市の居住期間が長い世帯</li>
-<li>所得が低い世帯</li>
-</ol>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>きょうだいが在園中の園を希望に入れると、指数+3点だけでなく同点時の優先順位でも有利になります。</p>
-</div>
-
-<h2>対策のポイント</h2>
-<ul>
-<li>加点を1つでも積み上げて同点を避ける</li>
-<li>きょうだいが在園中の園を第1希望にする</li>
-<li>ボーダーラインが低い園も希望に入れる</li>
-</ul>
-
-<div class="info-box">
-<p><strong>情報</strong></p>
-<p>四街道市では過去の入園最低指数を公開していることがあります。保育課の窓口で確認してみましょう。</p>
-</div>`,
-    publishedAt: "2026-04-26",
-    popularity: 48,
-  },
-  // ===== ひとり親 =====
-  {
-    slug: "single-parent-score",
-    citySlug: "yotsukaido",
-    title: "四街道市のひとり親向け保活　加点ルールと有利な申込ポイント",
-    description:
-      "四街道市でひとり親世帯が受けられる加点制度と、入園のコツをまとめました。",
-    image:
-      "https://images.unsplash.com/photo-1608748543803-ba4f8c70ae0b?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>ひとり親世帯の加点制度</h2>
-<p>四街道市では、母子家庭・父子家庭で就労中または就労が内定している場合、<span class="highlight">+5点</span>の加点がつきます。</p>
-
-<h2>加点を受けるための条件</h2>
-<ul>
-<li>母子家庭または父子家庭であること</li>
-<li>就労中、または入園月までに就労が確定していること</li>
-<li>児童扶養手当の受給状況は関係ありません</li>
-</ul>
-
-<h2>ひとり親世帯の有利な点</h2>
-
-<h3>加点だけでなく同点時も有利</h3>
-<p>四街道市では選考指数が同点の場合、ひとり親世帯が最優先されます。+5点だけでなく、同点時の優先順位でも大きなアドバンテージがあります。</p>
-
-<h3>結婚・再婚時の手続きに注意</h3>
-<p>再婚予定がある場合は、申込前に済ませるか申込後に済ませるかで判断が変わります。詳しくは保育課にご相談ください。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>ひとり親世帯は点数的に有利な立場です。複数の園を希望に入れることで、入園成功率を高められます。</p>
-</div>
-
-<div class="info-box">
-<p><strong>相談窓口</strong></p>
-<p>四街道市健康こども部保育課（043-421-2238）では、ひとり親向けの保活相談も受け付けています。疑問や不安なことはお気軽にご相談ください。</p>
-</div>`,
-    publishedAt: "2026-04-26",
-    popularity: 45,
-  },
-  // ===== 育休からの復帰 =====
-  {
-    slug: "parental-leave-timing",
-    citySlug: "yotsukaido",
-    title: "四街道市の育休明けタイミング戦略　加点を活かした保活プラン",
-    description:
-      "育休から復帰する時期を工夫して、四街道市の保育園入園を有利にする方法を解説します。",
-    image:
-      "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&h=400&fit=crop",
-    category: "点数アップ",
-    categoryColor: "amber",
-    content: `<h2>育休明け復帰で+2点の加点</h2>
-<p>四街道市では、入園月に育休・産休から復帰する予定がある場合、<span class="highlight">+2点</span>の加点がつきます。</p>
-
-<h2>加点を活かすための条件</h2>
-<ul>
-<li>入園月中に職場復帰すること</li>
-<li>育休中であることと復帰予定を証明する書類が必要です</li>
-<li>復帰日が確定していることが条件です</li>
-</ul>
-
-<h2>育休復帰のタイミング戦略</h2>
-
-<h3>4月入園を狙う場合</h3>
-<p>4月中に職場復帰予定なら+2点の加点が得られます。0歳児での入園と同時に復帰するなら、+2点は大きな武器になります。</p>
-
-<h3>他の加点との組み合わせ</h3>
-<p>育休明け復帰と同時に、きょうだい同時申込（+2点）や認可外利用実績（+3点）と組み合わせることで、合計で大幅な加点が可能です。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>0歳児での入園を考えている方は、育休タイミングを工夫することで確実に加点を獲得できます。</p>
-</div>
-
-<div class="info-box">
-<p><strong>注意</strong></p>
-<p>加点を申請する際は、育休中であること・復帰予定日が確定していることを証明する書類（会社からの書面等）が必要です。事前に確認しておきましょう。</p>
-</div>`,
-    publishedAt: "2026-04-26",
-    popularity: 52,
-  },
-  // ===== 待機児童 =====
-  {
-    slug: "nursery-wait-time",
-    citySlug: "yotsukaido",
-    title: "四街道市の待機児童事情　入園難易度と穴場園の見つけ方",
-    description:
-      "四街道市の待機児童数と、入園しやすい園・激戦園の特徴をまとめました。",
-    image:
-      "https://images.unsplash.com/photo-1569058242253-92a9c755a0ec?w=800&h=400&fit=crop",
-    category: "エリア情報",
-    categoryColor: "purple",
-    content: `<h2>四街道市の保育園事情</h2>
-<p>四街道市は千葉県北中部に位置する人口約9.2万人の市です。JR総武線四街道駅を中心に市街地が広がっており、京葉道路や北総線など交通網も充実しています。認可保育園は約20か所あります。</p>
-
-<h2>待機児童状況</h2>
-<p>四街道市の待機児童数は比較的抑制されている傾向にあります。ただし、駅周辺や人気園への申し込みは競争が高いため注意が必要です。</p>
-
-<h2>入園難易度の傾向</h2>
-
-<h3>入りやすい時期</h3>
-<ul>
-<li>4月以外の途中入園（5月～3月）は空きが出やすい</li>
-<li>2歳児以上の就園を希望する場合、0歳児よりも比較的入りやすい傾向</li>
-</ul>
-
-<h3>激戦園の特徴</h3>
-<ul>
-<li>四街道駅直近の園</li>
-<li>大規模な定員数を持つ人気園</li>
-<li>人気の私立園</li>
-</ul>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>複数の園を希望に入れることが鉄則です。第1希望の園が激戦園なら、第2希望以降に入りやすい園も組み込んでリスク回避しましょう。</p>
-</div>
-
-<div class="info-box">
-<p><strong>最新情報の確認</strong></p>
-<p>四街道市保育課のホームページで、最新の入園最低指数や空き状況が公開されています。申込前に必ず確認しましょう。</p>
-</div>`,
-    publishedAt: "2026-04-26",
-    popularity: 42,
-  },
-  // ===== 申込チェックリスト =====
-  {
-    slug: "application-checklist",
-    citySlug: "yotsukaido",
-    title: "四街道市の保育園申込　直前確認チェックリスト",
-    description:
-      "四街道市の申込で提出する書類と、チェックすべき項目を一覧にまとめました。",
-    image:
-      "https://images.unsplash.com/photo-1588072432836-e10032774350?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>申込前のチェックリスト</h2>
-<p>四街道市の保育園申込は書類の不備で受理されない場合があります。申込前に必ず確認しましょう。</p>
-
-<h3>提出書類のチェック</h3>
-<ul>
-<li>保育施設利用申込書（指定様式）</li>
-<li>児童の状況票（指定様式）</li>
-<li>家庭の状況票（指定様式）</li>
-<li>勤務（就労）証明書（指定様式）- 両親分</li>
-<li>マイナンバーカードまたは通知カードの写し</li>
-<li>世帯全員の住民票</li>
-<li>世帯全員の所得・納税証明書</li>
-</ul>
-
-<h3>申込書記入時のチェック</h3>
-<ul>
-<li>記入漏れ、空欄がないか</li>
-<li>押印忘れ（署名でも可の場合も確認）</li>
-<li>希望する園の名前・施設番号は正確か</li>
-<li>申込者と世帯主の関係は正確か</li>
-<li>特別な事情がある場合は記入欄に記載</li>
-</ul>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>就労証明書は勤務先の押印が必須です。会社の手続きに時間がかかるため、申込締切の1ヶ月前には取得を依頼しましょう。</p>
-</div>
-
-<div class="info-box">
-<p><strong>不安な場合は事前確認</strong></p>
-<p>四街道市保育課（043-421-2238）では、申込前の書類事前確認を行っています。不備で不承諾になるのを避けるため、ぜひ活用しましょう。</p>
-</div>`,
-    publishedAt: "2026-04-26",
-    popularity: 48,
-  },
-  // ===== 認可外保育施設 =====
-  {
-    slug: "unlicensed-nursery",
-    citySlug: "yotsukaido",
-    title: "四街道市の認可外保育施設ガイド　認可園との違いは？",
-    description:
-      "四街道市で認可園に入れなかった場合の選択肢として、認可外保育施設について解説します。",
-    image:
-      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
-    category: "認可外保育",
-    categoryColor: "teal",
-    content: `<h2>認可外保育施設とは？</h2>
-<p>認可外保育施設は、認可基準を満たしていないものの、自治体に届出をして運営している保育施設です。四街道市内にも複数の認可外保育施設があります。</p>
-
-<h2>認可園との違い</h2>
+<h3>就労（雇用・自営業）の基準点数</h3>
 <table>
-<tr><th>項目</th><th>認可</th><th>認可外</th></tr>
-<tr><td>保育料</td><td>所得に応じて決定</td><td>施設が設定</td></tr>
-<tr><td>申込先</td><td>四街道市保育課</td><td>施設に直接</td></tr>
-<tr><td>入園選考</td><td>指数による利用調整</td><td>施設独自の基準</td></tr>
-<tr><td>翌年の入園加点</td><td>-</td><td>+3点</td></tr>
+<thead><tr><th>月間就労時間</th><th>基準点数</th></tr></thead>
+<tbody>
+<tr><td>月160時間以上</td><td>30点</td></tr>
+<tr><td>月140〜160時間未満</td><td>28点</td></tr>
+<tr><td>月120〜140時間未満</td><td>26点</td></tr>
+<tr><td>月100〜120時間未満</td><td>24点</td></tr>
+<tr><td>月80〜100時間未満</td><td>22点</td></tr>
+<tr><td>月64〜80時間未満</td><td>20点</td></tr>
+<tr><td>月64時間未満（内職・短時間就労含む）</td><td>10点（求職活動扱い）</td></tr>
+<tr><td>求職活動のみ（就労なし）</td><td>5点</td></tr>
+</tbody>
+</table>
+
+<h3>就学・職業訓練の基準点数</h3>
+<table>
+<thead><tr><th>月間就学時間</th><th>基準点数</th></tr></thead>
+<tbody>
+<tr><td>月160時間以上</td><td>30点</td></tr>
+<tr><td>月140〜160時間未満</td><td>28点</td></tr>
+<tr><td>月120〜140時間未満</td><td>26点</td></tr>
+<tr><td>月100〜120時間未満</td><td>24点</td></tr>
+<tr><td>月80〜100時間未満</td><td>22点</td></tr>
+<tr><td>月64〜80時間未満</td><td>20点</td></tr>
+<tr><td>就学予定</td><td>15点</td></tr>
+</tbody>
+</table>
+
+<h3>育児休業中</h3>
+<p>育児休業取得中の場合は<strong>16点</strong>が基準点数となります。産前産後休業明け・育休明けに職場復帰予定の場合は、調整点数でさらに加算されます。</p>
+
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>四街道市はsum方式（父母合算）のため、両親それぞれの就労時間が高いほど有利です。両親とも月160時間以上就労の場合、基準点数合計60点となります。</p>
+</div>`,
+    publishedAt: "2026-06-29",
+  },
+  {
+    slug: "yotsukaido-other-reasons",
+    citySlug: "yotsukaido",
+    title: "四街道市の保育所点数｜疾病・障害・出産・介護・災害復旧の基準点数一覧",
+    description:
+      "四街道市の就労以外の保育必要理由（疾病・障害・出産・介護・災害復旧）の基準点数を解説します。長期入院・災害復旧は35点、重度介護・身体障害1-2級・出産は30点。",
+    image:
+      "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=400&fit=crop",
+    category: "疾病・障害・その他",
+    categoryColor: "rose",
+    content: `<h2>四街道市の就労以外の基準点数</h2>
+
+<h3>傷病・障害による基準点数</h3>
+<table>
+<thead><tr><th>状況</th><th>基準点数</th></tr></thead>
+<tbody>
+<tr><td>長期入院（1ヶ月以上）または常時病臥</td><td>35点</td></tr>
+<tr><td>身体障害者手帳1・2級等（最重度）</td><td>30点</td></tr>
+<tr><td>身体障害者手帳3級等（中度）</td><td>25点</td></tr>
+<tr><td>週1回以上の通院加療</td><td>20点</td></tr>
+<tr><td>その他保育困難な疾病等</td><td>10点</td></tr>
+</tbody>
+</table>
+
+<h3>介護・看護による基準点数</h3>
+<table>
+<thead><tr><th>状況</th><th>基準点数</th></tr></thead>
+<tbody>
+<tr><td>重度障害者介護または要介護認定者の在宅介護</td><td>30点</td></tr>
+<tr><td>入院患者の付添看護</td><td>25点</td></tr>
+<tr><td>その他の介護・看護</td><td>10点</td></tr>
+</tbody>
+</table>
+
+<h3>その他の基準点数</h3>
+<table>
+<thead><tr><th>事由</th><th>基準点数</th></tr></thead>
+<tbody>
+<tr><td>出産（産前8週〜産後8週）</td><td>30点</td></tr>
+<tr><td>災害復旧（居宅の復旧作業）</td><td>35点</td></tr>
+</tbody>
+</table>`,
+    publishedAt: "2026-06-29",
+  },
+  {
+    slug: "yotsukaido-adjustment",
+    citySlug: "yotsukaido",
+    title: "四街道市の保育所点数｜調整点数（加点・減点）一覧",
+    description:
+      "四街道市の保育利用調整における調整点数を解説します。虐待・DV+100点・ひとり親+40点・小規模卒所+40点・保育士就労+40点・別居中+30点、保育料6ヶ月滞納-30点など。",
+    image:
+      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
+    category: "調整指数",
+    categoryColor: "amber",
+    content: `<h2>四街道市の調整点数（加点・減点）一覧</h2>
+
+<h3>加点項目</h3>
+<table>
+<thead><tr><th>状況</th><th>加点</th></tr></thead>
+<tbody>
+<tr><td>児童虐待・DVの危険性がある</td><td>+100点</td></tr>
+<tr><td>ひとり親家庭</td><td>+40点</td></tr>
+<tr><td>小規模保育等を卒所（修了）後の入所希望</td><td>+40点</td></tr>
+<tr><td>父または母が保育士資格を有し市内保育施設に就労</td><td>+40点</td></tr>
+<tr><td>離婚調停中等で別居</td><td>+30点</td></tr>
+<tr><td>生計中心者が失業中で求職活動中</td><td>+30点</td></tr>
+<tr><td>生活保護受給世帯</td><td>+20点</td></tr>
+<tr><td>義務教育修了前の子どもが3人以上</td><td>+10点</td></tr>
+<tr><td>退所から1年以内に育休明けで職場復帰予定</td><td>+8点</td></tr>
+<tr><td>産休・育休明けに職場復帰予定（上記以外）</td><td>+4点</td></tr>
+<tr><td>認可外保育施設を現在利用中</td><td>+4点</td></tr>
+<tr><td>入所希望児童が障害児</td><td>+3点</td></tr>
+<tr><td>兄弟姉妹が在籍している施設への同一施設入所希望</td><td>+2点</td></tr>
+<tr><td>兄弟姉妹を同時に申込</td><td>+2点</td></tr>
+<tr><td>配偶者が単身赴任中</td><td>+2点</td></tr>
+<tr><td>週5日以上就労している保護者（人数×1点）</td><td>+1〜2点</td></tr>
+</tbody>
+</table>
+
+<h3>減点項目</h3>
+<table>
+<thead><tr><th>状況</th><th>減点</th></tr></thead>
+<tbody>
+<tr><td>保育料を6ヶ月以上滞納</td><td>-30点</td></tr>
+<tr><td>市外の保育所等（広域入所）希望</td><td>-20点</td></tr>
+<tr><td>65歳未満の同居祖父母等が無職・専業主婦（1人につき）</td><td>-5点</td></tr>
+</tbody>
 </table>
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
-<p>認可外に預けながら翌年度の認可園を再申請すると、加点（+3点）がつくため入りやすくなります。認可園に入れなかった場合の有効な戦略です。</p>
-</div>
+<p>四街道市は調整点数のスケールが大きいのが特徴です。虐待・DV対応は+100点と最優先で扱われます。ひとり親・小規模保育卒所・保育士就労はいずれも+40点の大きな加算があります。</p>
+</div>`,
+    publishedAt: "2026-06-29",
+  },
+  {
+    slug: "yotsukaido-hokatsu-tips",
+    citySlug: "yotsukaido",
+    title: "四街道市の保活で点数を上げるコツ｜月間労働時間と調整点数の活用",
+    description:
+      "四街道市の保育所入所を有利にするポイントを解説します。sum方式なので両親とも月160時間以上就労で合計60点。ひとり親+40点、小規模保育卒所+40点など大型加算の活用法を紹介します。",
+    image:
+      "https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?w=800&h=400&fit=crop",
+    category: "保活のコツ",
+    categoryColor: "green",
+    content: `<h2>四街道市の保活で点数を上げるコツ</h2>
 
-<h2>認可外を選ぶときのチェックポイント</h2>
-<ul>
-<li>自治体への届出が済んでいるか</li>
-<li>保育料と追加料金の内訳</li>
-<li>保育士の配置人数</li>
-<li>施設の安全対策</li>
-<li>無償化の対象施設か（月上限額あり）</li>
-</ul>
+<h3>1. sum方式を意識する — 両親の就労時間を最大化</h3>
+<p>四街道市はsum方式（父母合算）のため、<strong>両親それぞれの就労時間を高める</strong>ことが有効です。両親とも月160時間以上就労であれば基準点数の合計は60点になります。</p>
+
+<h3>2. 月160時間（フルタイム）で最高30点</h3>
+<p>月160時間は週5日・1日8時間の勤務に相当します。月140〜160時間（28点）・月120〜140時間（26点）と、20時間ごとに2点ずつ変わります。勤務時間帯の記録を正確に申告することが重要です。</p>
+
+<h3>3. 保育料の未納に注意する</h3>
+<p>保育料を6ヶ月以上滞納している場合、-30点という大きな減点になります。滞納がある場合は市の窓口に早めに相談してください。</p>
+
+<h3>4. 小規模保育からの進級を有利に使う</h3>
+<p>小規模保育・家庭的保育等を修了（卒所）後に認可保育所への入所を希望する場合、+40点の大きな加算があります。0〜2歳時に小規模保育を利用していた場合は積極的に申告しましょう。</p>
+
+<h3>5. 育休明けの加算を確認する</h3>
+<p>産休・育休明けに復帰予定の場合は+4点、一度退所して1年以内の育休明け復帰の場合は+8点が加算されます。復帰予定日を証明できる書類を準備しておきましょう。</p>
+
+<h3>6. 祖父母の就労状況を確認する</h3>
+<p>65歳未満の同居祖父母が就労していない場合、1人につき-5点の減点になります。祖父母が就労中であれば問題ありませんが、専業主婦（夫）の場合は減点を考慮した点数計算が必要です。</p>
 
 <div class="info-box">
-<p><strong>無償化について</strong></p>
-<p>認可外保育施設も幼児教育・保育無償化の対象です。月上限額がありますが、上手に活用すれば負担を減らせます。</p>
+<p><strong>申込・相談窓口</strong></p>
+<p>詳細は四街道市の子育て・保育担当窓口にお問い合わせください。詳細は<a href="https://www1.g-reiki.net/yotsukaido/reiki_honbun/g029RG00000860.html" target="_blank" rel="noopener">四街道市保育所等における保育に関する規則</a>をご参照ください。</p>
 </div>`,
-    publishedAt: "2026-04-26",
-    popularity: 44,
+    publishedAt: "2026-06-29",
   },
 ];
 
-registerArticles(articles);
+registerArticles(yotsukaidoArticles);

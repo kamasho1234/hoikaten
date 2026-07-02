@@ -2,16 +2,255 @@ import type { Article } from "./types";
 import { registerArticles } from "./index";
 
 const articles: Article[] = [
-  { slug: "hokatsu-schedule", citySlug: "koga", title: "古河市の保活スケジュール　令和8年度4月入園の流れ", description: "古河市の保育園申込時期・選考の流れをわかりやすく解説します。", image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop", category: "保活の基本", categoryColor: "green", content: `<h2>令和8年度4月入園のスケジュール</h2><p>古河市の4月入園は<strong>一次</strong>と<strong>二次利用調整</strong>に分かれています。申込先は古河市子ども家庭課です。</p><h3>一次利用調整</h3><table><tr><th>項目</th><th>日程</th></tr><tr><td>申込受付</td><td>令和7年11月上旬〜12月上旬</td></tr><tr><td>結果通知</td><td>令和8年1月下旬</td></tr></table>`, publishedAt: "2026-04-29", popularity: 49 },
-  { slug: "hokatsu-mistakes", citySlug: "koga", title: "古河市の保活でよくある失敗と対策5選", description: "初めてのママがやりがちな失敗パターンと対策をまとめました。", image: "https://images.unsplash.com/photo-1476703993599-0035a21b17a9?w=800&h=400&fit=crop", category: "保活の基本", categoryColor: "green", content: `<h2>失敗1：スタートが遅い</h2><p>古河市は人口約14万人。11月からの申込に向けて6月には情報収集を始めましょう。</p><h2>失敗2：希望園が少ない</h2><p>複数園を希望に入れることが重要です。</p><h2>失敗3：点数を把握していない</h2><p>基本指数40点がフルタイム共働きの標準です。</p>`, publishedAt: "2026-04-29", popularity: 47 },
-  { slug: "scoring-system-guide", citySlug: "koga", title: "古河市の入園点数のしくみ　基本指数と調整指数", description: "点数の仕組みを初めての方にもわかるように解説します。", image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop", category: "選考のしくみ", categoryColor: "blue", content: `<h2>選考指数の仕組み</h2><p>選考指数 ＝ 基本指数（父）＋ 基本指数（母）＋ 調整指数</p><h2>基本指数</h2><p>就労時間で判定。月160時間以上で満点20点。父母合計最大40点。</p><h2>調整指数</h2><ul><li>ひとり親：+5点</li><li>きょうだい在園中：+5点</li><li>認可外利用：+2点</li><li>生活保護：+3点</li></ul>`, publishedAt: "2026-04-29", popularity: 55 },
-  { slug: "score-up-checklist", citySlug: "koga", title: "古河市で点数を上げる方法　加点チェックリスト", description: "調整指数の加点を最大限に活用する方法を解説します。", image: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=400&fit=crop", category: "点数アップ", categoryColor: "amber", content: `<h2>加点チェックリスト</h2><ul><li>ひとり親で就労中 → +5点</li><li>きょうだい在園中 → +5点</li><li>認可外利用 → +2点</li><li>生活保護 → +3点</li><li>きょうだい同時申込 → +3点</li><li>育休明け復職 → +2点</li></ul><p>1点の差が内定を分けることもあります。</p>`, publishedAt: "2026-04-29", popularity: 51 },
-  { slug: "area-guide", citySlug: "koga", title: "古河市の保育園マップ　エリアごとの入りやすさ", description: "古河市内のエリアごとの競争率や特徴をまとめました。", image: "https://images.unsplash.com/photo-1569058242253-92a9c755a0ec?w=800&h=400&fit=crop", category: "エリア情報", categoryColor: "purple", content: `<h2>古河市の保育園事情</h2><p>茨城県西部の人口約14万人の市。古河駅周辺がメインエリアです。認可保育園は約26か所。</p><h3>競争率が高いエリア</h3><ul><li><strong>古河駅周辺</strong>：駅近の園は人気集中</li><li><strong>中心市街地</strong>：ファミリー層が多い</li></ul><h3>入りやすいエリア</h3><ul><li><strong>郊外エリア</strong>：比較的空きあり</li></ul>`, publishedAt: "2026-04-29", popularity: 44 },
-  { slug: "ninkagai-guide", citySlug: "koga", title: "古河市の認可外保育施設ガイド　認可園との違い", description: "認可園に入れなかった場合の選択肢について解説します。", image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop", category: "認可外保育", categoryColor: "teal", content: `<h2>認可外保育施設とは？</h2><p>自治体に届出をして運営している保育施設です。古河市内にも複数あります。</p><h3>認可園との比較</h3><table><tr><th>項目</th><th>認可</th><th>認可外</th></tr><tr><td>保育料</td><td>所得応じて決定</td><td>施設が設定</td></tr><tr><td>翌年加点</td><td>-</td><td>+2点</td></tr></table><p>認可外に預けながら翌年申請する戦略も有効です。</p>`, publishedAt: "2026-04-29", popularity: 41 },
-  { slug: "tiebreaker-guide", citySlug: "koga", title: "古河市で同点になったら　優先順位のしくみ", description: "同点になった場合の優先順位と対策を解説します。", image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=400&fit=crop", category: "選考のしくみ", categoryColor: "blue", content: `<h2>同点の優先順位</h2><ol><li>ひとり親世帯</li><li>きょうだい在園中</li><li>基本指数が高い</li><li>市の居住期間が長い</li><li>所得が低い</li></ol><p>加点を積み上げて同点を避けることが重要です。</p>`, publishedAt: "2026-04-29", popularity: 46 },
-  { slug: "small-nursery", citySlug: "koga", title: "古河市の小規模保育　メリット・デメリット", description: "小規模保育事業の特徴や卒園後の進路について解説します。", image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop", category: "保活の基本", categoryColor: "green", content: `<h2>小規模保育とは？</h2><p>定員6〜19人の少人数施設。0〜2歳児が対象。3歳以降は転園が必要です。</p><h2>メリット</h2><ul><li>少人数でアットホーム</li><li>認可園より入りやすい</li><li>卒園時に優先枠あり</li></ul><h2>デメリット</h2><ul><li>3歳で転園必須</li><li>園庭がない場合が多い</li></ul>`, publishedAt: "2026-04-29", popularity: 37 },
-  { slug: "nursery-fees", citySlug: "koga", title: "古河市の保育料はいくら？　世帯年収別の目安", description: "認可保育園の保育料を世帯年収別に紹介します。", image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=400&fit=crop", category: "お金の話", categoryColor: "rose", content: `<h2>保育料の仕組み</h2><p>世帯の住民税額と子どもの年齢で決まります。</p><h2>3歳以上は無償化</h2><p>3歳児クラス以上は保育料無料です。給食費は別途必要。</p><h3>世帯年収別の目安（0〜2歳）</h3><table><tr><th>年収目安</th><th>月額</th></tr><tr><td>〜300万</td><td>0〜6,000円</td></tr><tr><td>300〜500万</td><td>10,000〜25,000円</td></tr></table>`, publishedAt: "2026-04-29", popularity: 42 },
-  { slug: "nursery-visit-guide", citySlug: "koga", title: "古河市の保育園見学ガイド　チェックポイント", description: "見学で確認すべきポイントと質問リストをまとめました。", image: "https://images.unsplash.com/photo-1544776193-352d25ca82cd?w=800&h=400&fit=crop", category: "保活の基本", categoryColor: "green", content: `<h2>見学のベストシーズン</h2><p>6月〜9月が最適。10月以降は申込直前で混み合います。</p><h2>チェックポイント</h2><ul><li>園児たちの雰囲気</li><li>保育士の対応</li><li>園舎の状態</li><li>給食とアレルギー対応</li><li>持ち物と送迎動線</li></ul><h2>質問リスト</h2><ul><li>延長保育の時間と料金</li><li>慣らし保育の期間</li><li>発熱時のお迎え</li><li>行事への参加</li></ul>`, publishedAt: "2026-04-29", popularity: 38 },
+  {
+    slug: "koga-hoikujo-nyusho-guide",
+    citySlug: "koga",
+    title: "古河市の保育所入所ガイド｜利用調整の選考基準をわかりやすく解説",
+    description: "古河市の保育所入所申込手続きと、入所選考に使われる基準指数（sum方式・最高100点）の計算方法をわかりやすく解説します。",
+    category: "入所ガイド",
+    categoryColor: "blue",
+    publishedAt: "2026-06-26",
+    popularity: 70,
+    content: `
+<h2>古河市の保育所入所申込の流れ</h2>
+<p>古河市では、保育所・認定こども園・家庭的保育事業への入所申込を毎年秋ごろに翌年4月入所分の一斉受付を行います。申込先は古河市子育て支援課です。</p>
+<p>希望者が定員を超えた場合は、「古河市特定教育・保育等の利用に関する条例施行規則」の別表第1（実施基準指数表）・別表第2（調整指数表）に基づいて各世帯を点数化し、点数の高い家庭から優先的に選考します。</p>
+
+<h2>古河市の選考方式（sum方式・各最高100点）</h2>
+<p>古河市では父と母それぞれの「基準指数」を算出した上で合算し、世帯の総合指数とします（sum方式）。各親の基準指数の最高は100点（月20日以上・月160時間以上の居宅外就労）です。</p>
+<ul>
+  <li><strong>世帯点数 = 保護者1の基準指数 + 保護者2の基準指数 + 調整指数</strong></li>
+  <li>規則の備考2には「選考に当たっては保護者の実施基準指数と調整指数との合計を基本とし総合的に審査し、決定する」と明記されています</li>
+  <li>両親がフルタイム就労（月20日以上・月160時間以上）の場合は合計200点が基準指数の上限です</li>
+</ul>
+
+<h2>就労の基準指数（月20日以上の場合）</h2>
+<p>1ヶ月に20日以上勤務する場合の基準指数です。</p>
+<table>
+  <thead>
+    <tr><th>月間就労時間</th><th>指数</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>月160時間以上（フルタイム）</td><td>100点</td></tr>
+    <tr><td>月140時間以上160時間未満</td><td>90点</td></tr>
+    <tr><td>月120時間以上140時間未満</td><td>80点</td></tr>
+    <tr><td>月100時間以上120時間未満</td><td>70点</td></tr>
+    <tr><td>月80時間以上100時間未満</td><td>60点</td></tr>
+    <tr><td>上記以外の就労</td><td>30点</td></tr>
+  </tbody>
+</table>
+
+<h2>就労の基準指数（月16日以上20日未満の場合）</h2>
+<p>1ヶ月の勤務日数が16日以上20日未満の場合は、別の指数体系が適用されます。</p>
+<table>
+  <thead>
+    <tr><th>月間就労時間</th><th>指数</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>月128時間以上</td><td>80点</td></tr>
+    <tr><td>月112時間以上128時間未満</td><td>70点</td></tr>
+    <tr><td>月96時間以上112時間未満</td><td>60点</td></tr>
+    <tr><td>月80時間以上96時間未満</td><td>50点</td></tr>
+    <tr><td>月64時間以上80時間未満</td><td>40点</td></tr>
+    <tr><td>上記以外の就労</td><td>30点</td></tr>
+  </tbody>
+</table>
+
+<h2>内職の基準指数</h2>
+<table>
+  <thead>
+    <tr><th>内職の状況</th><th>指数</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>週4日以上（月64時間以上）</td><td>35点</td></tr>
+    <tr><td>その他の内職</td><td>20点</td></tr>
+  </tbody>
+</table>
+
+<h2>就労以外の主な基準指数</h2>
+<ul>
+  <li><strong>出産（産前8週・産後8週）</strong>：50点</li>
+  <li><strong>疾病（入院・寝たきり）または障がい（1〜2級）</strong>：100点</li>
+  <li><strong>疾病（その他）または障がい（3級以上）</strong>：80点</li>
+  <li><strong>介護・看護（要介護4〜5相当）</strong>：100点</li>
+  <li><strong>介護・看護（要介護2〜3相当）</strong>：80点</li>
+  <li><strong>介護・看護（その他）</strong>：40点</li>
+  <li><strong>求職活動中</strong>：15点</li>
+</ul>
+`,
+  },
+  {
+    slug: "koga-hoikujo-chosei-index",
+    citySlug: "koga",
+    title: "古河市の保育選考｜調整指数（加減算）の全項目まとめ",
+    description: "古河市の保育所入所選考で使われる調整指数について、ひとり親+20点・保育士資格者+30点・兄弟継続+20点など全項目を解説します。",
+    category: "調整指数",
+    categoryColor: "amber",
+    publishedAt: "2026-06-26",
+    popularity: 62,
+    content: `
+<h2>調整指数とは</h2>
+<p>調整指数は、父母の基準指数の合計に対して加算・減算される指数です。古河市では保育士資格者への+30点という大きな加点があるほか、ひとり親や育児休業後の復職にも大きな加点が設けられています。</p>
+
+<h2>加算となる調整指数</h2>
+<table>
+  <thead>
+    <tr><th>項目</th><th>加算点</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>新規に同一世帯2人以上の子どもが同時入所申請</td><td>+5点</td></tr>
+    <tr><td>きょうだいが継続して同じ施設に入所中</td><td>+20点</td></tr>
+    <tr><td>ひとり親家庭（死亡・離別・未婚等）</td><td>+20点</td></tr>
+    <tr><td>生活保護世帯</td><td>+10点</td></tr>
+    <tr><td>保育士資格を有し保育施設等に在職または就職予定</td><td>+30点</td></tr>
+    <tr><td>育児休業後の復職による再入所申請</td><td>+20点</td></tr>
+    <tr><td>施設閉所等による施設変更</td><td>+43点</td></tr>
+    <tr><td>認可外保育施設から認可施設への変更</td><td>+23点</td></tr>
+    <tr><td>地域型保育事業の卒園</td><td>+43点</td></tr>
+    <tr><td>ハローワーク求職登録中（求職活動）</td><td>+1点</td></tr>
+  </tbody>
+</table>
+
+<h2>減算となる調整指数</h2>
+<table>
+  <thead>
+    <tr><th>項目</th><th>減算点</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>就職内定状態（未就労）</td><td>-5点</td></tr>
+    <tr><td>同居の祖父母（65歳未満）1人につき</td><td>-5点</td></tr>
+    <tr><td>一般的な施設変更（保護者の都合）</td><td>-5点</td></tr>
+    <tr><td>入所辞退後の再申請</td><td>-20点</td></tr>
+  </tbody>
+</table>
+
+<h2>注意点</h2>
+<ul>
+  <li><strong>保育士資格+30点</strong>は非常に大きな加点です。基準指数の最高（両親合計200点）に対して+30点ですが、選考では大きな差になります</li>
+  <li><strong>施設閉所等+43点</strong>・<strong>地域型保育卒園+43点</strong>は最優先事項として設けられた大きな加点です</li>
+  <li><strong>育児休業後の復職+20点</strong>と<strong>兄弟継続+20点</strong>は同点の場合は高い方のみが加算されます</li>
+  <li>祖父母が同居している場合は65歳未満1人につき-5点となります。2人同居で-10点になります</li>
+</ul>
+`,
+  },
+  {
+    slug: "koga-hoikujo-keisan-example",
+    citySlug: "koga",
+    title: "古河市の保育選考指数の計算例｜sum方式・100点スケールの実例",
+    description: "古河市の保育所入所選考はsum方式（父母の基準指数を合算）で100点スケールです。共働き・ひとり親・パートタイムなど具体的なケースで計算してみましょう。",
+    category: "計算例",
+    categoryColor: "green",
+    publishedAt: "2026-06-26",
+    popularity: 75,
+    content: `
+<h2>古河市の計算方式</h2>
+<p><strong>世帯点数 = 保護者1の基準指数 + 保護者2の基準指数 + 調整指数</strong></p>
+<p>各親の最高指数は100点（月20日以上・月160時間以上の居宅外就労）です。</p>
+
+<h2>計算例1：共働きフルタイム（月20日以上・月160時間以上）</h2>
+<ul>
+  <li>父の基準指数：100点（月20日以上・月160時間以上）</li>
+  <li>母の基準指数：100点（月20日以上・月160時間以上）</li>
+  <li>調整指数：なし（0点）</li>
+  <li><strong>合計：200点</strong></li>
+</ul>
+
+<h2>計算例2：父フルタイム・母パートタイム（月20日以上・月120時間）</h2>
+<ul>
+  <li>父の基準指数：100点（月20日以上・月160時間以上）</li>
+  <li>母の基準指数：80点（月20日以上・月120〜140時間未満）</li>
+  <li>調整指数：なし（0点）</li>
+  <li><strong>合計：180点</strong></li>
+</ul>
+
+<h2>計算例3：父フルタイム（月20日以上）・母パートタイム（月16〜20日・月100時間）</h2>
+<ul>
+  <li>父の基準指数：100点（月20日以上・月160時間以上）</li>
+  <li>母の基準指数：60点（月16〜20日・月96〜112時間未満）</li>
+  <li>調整指数：なし（0点）</li>
+  <li><strong>合計：160点</strong></li>
+</ul>
+
+<h2>計算例4：ひとり親・フルタイム就労</h2>
+<ul>
+  <li>母の基準指数：100点（月20日以上・月160時間以上）</li>
+  <li>父の基準指数：0点（不在）</li>
+  <li>調整指数：ひとり親+20点</li>
+  <li><strong>合計：120点</strong></li>
+</ul>
+
+<h2>計算例5：共働き・保育士資格あり</h2>
+<ul>
+  <li>父の基準指数：100点（月20日以上・月160時間以上）</li>
+  <li>母の基準指数：100点（月20日以上・月160時間以上）</li>
+  <li>調整指数：保育士資格・在職+30点</li>
+  <li><strong>合計：230点</strong></li>
+</ul>
+
+<h2>計算例6：父フルタイム・母育児休業中（兄弟継続入所）</h2>
+<ul>
+  <li>父の基準指数：100点（月20日以上・月160時間以上）</li>
+  <li>母の基準指数：0点（育児休業中）</li>
+  <li>調整指数：きょうだい継続入所+20点</li>
+  <li><strong>合計：120点</strong></li>
+</ul>
+
+<h2>計算例7：共働き・同居祖父母（65歳未満）2人</h2>
+<ul>
+  <li>父の基準指数：100点（月20日以上・月160時間以上）</li>
+  <li>母の基準指数：90点（月20日以上・月140〜160時間未満）</li>
+  <li>調整指数：同居祖父母2人×-5点 = -10点</li>
+  <li><strong>合計：180点</strong></li>
+</ul>
+`,
+  },
+  {
+    slug: "koga-hoikujo-tips",
+    citySlug: "koga",
+    title: "古河市の保活アドバイス｜100点スケールsum方式での選考ポイント",
+    description: "古河市の保育所はsum方式（父母の基準指数を合算）・100点スケールの選考です。就労日数の区分・保育士加点+30点・育児休業後加点+20点など特徴的な制度を解説します。",
+    category: "保活アドバイス",
+    categoryColor: "teal",
+    publishedAt: "2026-06-26",
+    popularity: 58,
+    content: `
+<h2>古河市の選考を理解する</h2>
+<p>古河市の入所選考では父と母の基準指数を<strong>合算</strong>します（sum方式）。各親の最高指数は100点（月20日以上・月160時間以上の就労）で、両親ともフルタイムなら合計200点が上限です。</p>
+
+<h2>就労日数による2段階の指数体系</h2>
+<p>古河市の大きな特徴として、就労日数によって指数体系が異なります。</p>
+<ul>
+  <li><strong>月20日以上勤務</strong>：月160時間以上=100点〜月80時間以上=60点</li>
+  <li><strong>月16日以上20日未満の勤務</strong>：月128時間以上=80点〜月64時間以上=40点</li>
+</ul>
+<p>同じ月100時間働いていても、月20日以上なら70点、月16〜20日なら60点以下になるケースがあります。就労形態を確認して正確に申告することが重要です。</p>
+
+<h2>保育士資格者への特例加点+30点</h2>
+<p>保育士資格を有し、保育施設等に在職または就職予定の保護者には調整指数で+30点が加算されます。これは選考において非常に大きなアドバンテージになります。</p>
+
+<h2>育児休業後の復職は+20点の大きな加点</h2>
+<p>育児休業を終えて職場復帰するための再入所申請には+20点の加点があります。育児休業中は入所が難しい場合でも、復職のタイミングで有利に選考される仕組みです。</p>
+
+<h2>ひとり親家庭への配慮</h2>
+<p>ひとり親家庭（死亡・離別・未婚等）には+20点の調整指数が設けられています。基準指数が1人分（最高100点）であっても、+20点の加算で選考で優位に立てます。</p>
+
+<h2>同居祖父母がいる場合の注意点</h2>
+<p>65歳未満の祖父母と同居している場合、1人につき-5点が減算されます。祖父母が2人いれば-10点です。保育が必要な実態があれば、正確に申告しつつ就労時間を増やすことで対応できます。</p>
+
+<h2>地域型保育事業（小規模保育等）から認可保育所への移行</h2>
+<p>地域型保育事業（小規模保育・家庭的保育等）を卒園した場合、+43点という非常に大きな加点があります。小規模保育卒園後は優先的に認可保育所へ入所できる仕組みです。</p>
+
+<h2>申込時期の目安</h2>
+<ul>
+  <li><strong>10〜11月頃</strong>：翌年4月入所の一斉申込受付（詳細は市にご確認ください）</li>
+  <li><strong>12〜1月頃</strong>：選考・結果通知</li>
+  <li><strong>4月</strong>：入所開始</li>
+</ul>
+
+<h2>問い合わせ先</h2>
+<p>古河市子育て支援課にご相談ください。詳細な選考基準は「古河市特定教育・保育等の利用に関する条例施行規則」別表第1・第2で確認できます。</p>
+`,
+  },
 ];
 
 registerArticles(articles);
