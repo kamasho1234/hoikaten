@@ -50,8 +50,9 @@ function buildParentQuestions(parentNum: 1 | 2): Question[] {
     inputType: 'select',
     options: [
       { label: '仕事をしている / 就労予定', value: `${prefix}_reason_employment`, points: 0 },
+      // 公式の基本点数表（別表第1）に保護者の「障害」区分は存在しないため
+      // reason選択肢から除外（児童の障がい+2点は調整点数表側で実装済み）
       { label: '疾病・療養中', value: `${prefix}_reason_illness`, points: 0 },
-      { label: '障がいがある', value: `${prefix}_reason_disability`, points: 0 },
       { label: '家族の介護・看護', value: `${prefix}_reason_care`, points: 0 },
       { label: '妊娠・出産', value: `${prefix}_reason_childbirth`, points: 0 },
       { label: '就学（学校に通っている）', value: `${prefix}_reason_education`, points: 0 },
@@ -64,7 +65,7 @@ function buildParentQuestions(parentNum: 1 | 2): Question[] {
 
   const detailQuestions: Question[] = [
     {
-      id: `${prefix}_emp_base`,
+      id: `${prefix}_employment`,
       category,
       label: `${parentLabel}の就労形態は？`,
       helpText: '就労している場合、就労形態を選んでください。選んだ後、就労時間も回答してください',
@@ -77,6 +78,7 @@ function buildParentQuestions(parentNum: 1 | 2): Question[] {
       label: `${parentLabel}の月の就労時間は？`,
       helpText: '就労している場合のみ選択してください（就労していない場合は「月48時間未満」を選択）',
       inputType: 'radio',
+      showFor: ['employment'],
       options: workHoursOptions(prefix, 'emp_hours'),
     },
     {
@@ -85,6 +87,7 @@ function buildParentQuestions(parentNum: 1 | 2): Question[] {
       label: `${parentLabel}：育児休業明けによる申込ですか？`,
       helpText: '育休から復職して就労する場合のみ対象',
       inputType: 'radio',
+      showFor: ['employment'],
       options: [
         { label: 'いいえ', value: `${prefix}_parental_leave_no`, points: 0 },
         { label: 'はい（育児休業明け）', value: `${prefix}_parental_leave_yes`, points: 2 },
@@ -107,13 +110,13 @@ function buildParentQuestions(parentNum: 1 | 2): Question[] {
       ],
     },
     {
-      id: `${prefix}_care_base`,
+      id: `${prefix}_care`,
       category,
       label: `${parentLabel}：家族の介護・看護をしていますか？`,
       inputType: 'radio',
       options: [
-        { label: 'いいえ', value: `${prefix}_care_base_no`, points: 0 },
-        { label: 'はい（介護・看護中）', value: `${prefix}_care_base_yes`, points: 10 },
+        { label: 'いいえ', value: `${prefix}_care_no`, points: 0 },
+        { label: 'はい（介護・看護中）', value: `${prefix}_care_yes`, points: 10 },
       ],
     },
     {
@@ -122,6 +125,7 @@ function buildParentQuestions(parentNum: 1 | 2): Question[] {
       label: `${parentLabel}の介護・看護の1日の時間は？`,
       helpText: '介護・看護をしている場合のみ選択してください',
       inputType: 'radio',
+      showFor: ['care'],
       options: [
         { label: 'あてはまらない / 介護なし', value: `${prefix}_care_h0`, points: 0 },
         { label: '1日4時間未満', value: `${prefix}_care_h1`, points: 1 },
@@ -141,13 +145,13 @@ function buildParentQuestions(parentNum: 1 | 2): Question[] {
       ],
     },
     {
-      id: `${prefix}_edu_base`,
+      id: `${prefix}_education`,
       category,
       label: `${parentLabel}：学校等に通っていますか？`,
       inputType: 'radio',
       options: [
-        { label: 'いいえ', value: `${prefix}_edu_base_no`, points: 0 },
-        { label: 'はい（就学中）', value: `${prefix}_edu_base_yes`, points: 9 },
+        { label: 'いいえ', value: `${prefix}_education_no`, points: 0 },
+        { label: 'はい（就学中）', value: `${prefix}_education_yes`, points: 9 },
       ],
     },
     {
@@ -156,6 +160,7 @@ function buildParentQuestions(parentNum: 1 | 2): Question[] {
       label: `${parentLabel}の月の就学時間は？`,
       helpText: '就学している場合のみ選択してください',
       inputType: 'radio',
+      showFor: ['education'],
       options: workHoursOptions(prefix, 'edu_hours'),
     },
     {

@@ -95,7 +95,7 @@ function buildParentQuestions(parentNum: 1 | 2): Question[] {
 
   const detailQuestions: Question[] = [
     {
-      id: `${prefix}_ext_employment`,
+      id: `${prefix}_ext`,
       category,
       label: `${parentLabel}の居宅外就労の状況は？`,
       helpText: '月間就労日数と1日の就労時間で選択してください（テレワーク含む）',
@@ -103,7 +103,7 @@ function buildParentQuestions(parentNum: 1 | 2): Question[] {
       options: externalEmploymentOptions(prefix),
     },
     {
-      id: `${prefix}_home_employment`,
+      id: `${prefix}_home`,
       category,
       label: `${parentLabel}の居宅内就労（自営・農業等）の状況は？`,
       helpText: '月間就労日数と1日の就労時間で選択してください',

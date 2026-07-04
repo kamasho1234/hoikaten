@@ -154,7 +154,8 @@ function buildParentQuestions(parentNum: 1 | 2): Question[] {
       { label: '行方不明・拘禁等', value: `${prefix}_reason_absent`, points: 0 },
       { label: 'DV（配偶者からの暴力）', value: `${prefix}_reason_dv`, points: 0 },
       { label: '育児休業中', value: `${prefix}_reason_childcare_leave`, points: 0 },
-      { label: '仕事を探している', value: `${prefix}_reason_jobseeking`, points: 0 },
+      // 基準指数表の就労区分「求職中」9点を適用（詳細質問なしで直接加点）
+      { label: '仕事を探している', value: `${prefix}_reason_jobseeking`, points: 9 },
     ],
   };
 

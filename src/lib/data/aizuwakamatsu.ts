@@ -106,6 +106,7 @@ function buildParentQuestions(parentNum: 1 | 2): Question[] {
       { label: '災害復旧中', value: `${prefix}_reason_disaster`, points: 0 },
       { label: '仕事を探している', value: `${prefix}_reason_jobseeking`, points: 0 },
       { label: '就学中', value: `${prefix}_reason_education`, points: 0 },
+      { label: '児童虐待・配偶者からの暴力', value: `${prefix}_reason_abuse`, points: 0 },
       { label: 'その他', value: `${prefix}_reason_other`, points: 0 },
     ],
   };

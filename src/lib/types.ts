@@ -28,6 +28,9 @@ export interface Question {
   helpText?: string;
   inputType: InputType;
   options: QuestionOption[];
+  // id が `${prefix}_${reason}` に一致する質問に加えて、
+  // ここに挙げた reason サフィックス選択時にもこの質問を表示する
+  showFor?: string[];
 }
 
 export interface MunicipalityData {

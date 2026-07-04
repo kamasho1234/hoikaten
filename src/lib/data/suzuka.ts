@@ -54,8 +54,8 @@ function buildParentQuestions(parentNum: 1 | 2): Question[] {
       helpText: 'いちばん近いものをひとつ選んでください',
       inputType: 'select',
       options: [
-        { label: '屋宅外で就労している（通勤・育休復帰含む）', value: `${prefix}_reason_outer`, points: 0 },
-        { label: '屋宅内で就労している（在宅・育休復帰含む）', value: `${prefix}_reason_inner`, points: 0 },
+        { label: '屋宅外で就労している（通勤・育休復帰含む）', value: `${prefix}_reason_outer_employment`, points: 0 },
+        { label: '屋宅内で就労している（在宅・育休復帰含む）', value: `${prefix}_reason_inner_employment`, points: 0 },
         { label: '内職', value: `${prefix}_reason_piecework`, points: 0 },
         { label: '出産', value: `${prefix}_reason_childbirth`, points: 0 },
         { label: '疾病', value: `${prefix}_reason_illness`, points: 0 },

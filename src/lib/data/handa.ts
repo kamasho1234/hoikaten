@@ -44,7 +44,7 @@ function buildParentQuestions(parentNum: 1 | 2): Question[] {
 
   const detailQuestions: Question[] = [
     {
-      id: `${prefix}_ext_employment`,
+      id: `${prefix}_ext`,
       category,
       label: `${parentLabel}の居宅外就労の月間就労時間は？`,
       helpText: '外勤・居宅外自営が対象',
@@ -59,7 +59,7 @@ function buildParentQuestions(parentNum: 1 | 2): Question[] {
       ],
     },
     {
-      id: `${prefix}_home_employment`,
+      id: `${prefix}_home`,
       category,
       label: `${parentLabel}の居宅内就労の月間就労時間は？`,
       helpText: '農業・内動・居宅内自営が対象',

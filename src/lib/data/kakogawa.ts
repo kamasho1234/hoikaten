@@ -20,13 +20,13 @@ const municipality = {
 const employmentOptions = (prefix: string) => [
   { label: 'あてはまらない', value: `${prefix}_employment_none`, points: 0 },
   { label: '月170時間以上', value: `${prefix}_employment_11`, points: 11 },
-  { label: '月160時間以上170時間未満', value: `${prefix}_employment_11`, points: 11 },
+  { label: '月160時間以上170時間未満', value: `${prefix}_employment_11b`, points: 11 },
   { label: '月140時間以上160時間未満', value: `${prefix}_employment_8`, points: 8 },
   { label: '月128時間以上140時間未満', value: `${prefix}_employment_5`, points: 5 },
   { label: '月112時間以上128時間未満', value: `${prefix}_employment_2`, points: 2 },
   { label: '月96時間以上112時間未満', value: `${prefix}_employment_1`, points: 1 },
-  { label: '月64時間以上96時間未満', value: `${prefix}_employment_1`, points: 1 },
-  { label: '月48時間以上64時間未満', value: `${prefix}_employment_1`, points: 1 },
+  { label: '月64時間以上96時間未満', value: `${prefix}_employment_1b`, points: 1 },
+  { label: '月48時間以上64時間未満', value: `${prefix}_employment_1c`, points: 1 },
   { label: '月48時間未満', value: `${prefix}_employment_0`, points: 0 },
 ];
 

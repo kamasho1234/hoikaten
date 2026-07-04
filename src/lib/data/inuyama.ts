@@ -49,7 +49,7 @@ const careOptions = (prefix: string) => [
   { label: 'あてはまらない', value: `${prefix}_care_none`, points: 0 },
   { label: '病院等付き添い', value: `${prefix}_care_7`, points: 7 },
   { label: '要介護3～5、身体障害者手帳1・2級等', value: `${prefix}_care_10`, points: 10 },
-  { label: '要介護1・2、身体障害者手帳3級以下', value: `${prefix}_care_7`, points: 7 },
+  { label: '要介護1・2、身体障害者手帳3級以下', value: `${prefix}_care_7b`, points: 7 },
 ];
 
 const jobSeekingOptions = (prefix: string) => [
@@ -71,9 +71,11 @@ function buildParentQuestions(parentNum: 1 | 2): Question[] {
     options: [
       { label: '仕事をしている', value: `${prefix}_reason_employment`, points: 0 },
       { label: '出産の前後', value: `${prefix}_reason_childbirth`, points: 0 },
-      { label: '病気・障害', value: `${prefix}_reason_illness`, points: 0 },
+      { label: '病気の治療中', value: `${prefix}_reason_illness`, points: 0 },
+      { label: '障害がある', value: `${prefix}_reason_disability`, points: 0 },
       { label: '介護・看護', value: `${prefix}_reason_care`, points: 0 },
-      { label: '災害復旧', value: `${prefix}_reason_disaster`, points: 0 },
+      // 基本指数表 区分5「災害復旧」=10点（公式PDFで確認、詳細質問なしで直接加点）
+      { label: '災害復旧', value: `${prefix}_reason_disaster`, points: 10 },
       { label: '仕事を探している', value: `${prefix}_reason_jobseeking`, points: 0 },
     ],
   };

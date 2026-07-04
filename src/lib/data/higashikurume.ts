@@ -30,7 +30,7 @@ const employmentOptions = (prefix: string) => [
   { label: 'パートタイム勤務（月120時間以上160時間未満）', value: `${prefix}_employment_40`, points: 40 },
   { label: 'パートタイム勤務（月80時間以上120時間未満）', value: `${prefix}_employment_30`, points: 30 },
   { label: 'パートタイム勤務（月60時間以上80時間未満）', value: `${prefix}_employment_20`, points: 20 },
-  { label: '自営業・農業', value: `${prefix}_employment_40`, points: 40 },
+  { label: '自営業・農業', value: `${prefix}_employment_self_40`, points: 40 },
 ];
 
 /** 疾病 */

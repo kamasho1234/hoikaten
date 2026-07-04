@@ -140,6 +140,7 @@ function buildParentQuestions(parentNum: 1 | 2): Question[] {
     options: [
       { label: '仕事をしている', value: `${prefix}_reason_employment`, points: 0 },
       { label: '自営業(協力者)', value: `${prefix}_reason_selfemployed`, points: 0 },
+      { label: '内職をしている', value: `${prefix}_reason_piecework`, points: 0 },
       { label: '病気の治療中', value: `${prefix}_reason_illness`, points: 0 },
       { label: '障害がある', value: `${prefix}_reason_disability`, points: 0 },
       { label: '介護・看護', value: `${prefix}_reason_care`, points: 0 },

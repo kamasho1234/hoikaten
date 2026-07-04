@@ -77,7 +77,7 @@ function buildParentQuestions(parentNum: 1 | 2): Question[] {
 
   const detailQuestions: Question[] = [
     {
-      id: `${prefix}_ext_employment`,
+      id: `${prefix}_ext`,
       category,
       label: `${parentLabel}の居宅外就労の状況は？`,
       helpText: '就労日数と1日の就労時間の組み合わせで選択',
@@ -85,10 +85,20 @@ function buildParentQuestions(parentNum: 1 | 2): Question[] {
       options: externalEmploymentOptions(prefix),
     },
     {
-      id: `${prefix}_home_employment`,
+      id: `${prefix}_home`,
       category,
       label: `${parentLabel}の居宅内就労・介護・就学の状況は？`,
       helpText: '自営・農業・内職・介護・看護・就学・職業訓練が対象',
+      inputType: 'radio',
+      // 介護・看護は居宅内就労の区分に準じて評価（この質問を共用）
+      showFor: ['care'],
+      options: homeEmploymentOptions(prefix),
+    },
+    {
+      id: `${prefix}_study`,
+      category,
+      label: `${parentLabel}の就学・職業訓練の状況は？`,
+      helpText: '居宅内就労に準ずるとして評価',
       inputType: 'radio',
       options: homeEmploymentOptions(prefix),
     },

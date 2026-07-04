@@ -17,20 +17,36 @@ const municipality = {
   maxBasePoints: 20,
 } as const;
 
-const employmentGridOptions = (prefix: string) => [
-  { label: 'あてはまらない', value: `${prefix}_emp_none`, points: 0 },
-  { label: '週5日/月20日以上・1日8時間以上（10点）', value: `${prefix}_emp_10a`, points: 10 },
-  { label: '週5日/月20日以上・1日7〜8時間未満（9点）', value: `${prefix}_emp_9`, points: 9 },
-  { label: '週5日/月20日以上・1日6〜7時間未満（8点）', value: `${prefix}_emp_8a`, points: 8 },
-  { label: '週5日/月20日以上・1日4〜6時間未満（7点）', value: `${prefix}_emp_7a`, points: 7 },
-  { label: '週4日/月16日以上・1日8時間以上（8点）', value: `${prefix}_emp_8b`, points: 8 },
-  { label: '週4日/月16日以上・1日7〜8時間未満（7点）', value: `${prefix}_emp_7b`, points: 7 },
-  { label: '週4日/月16日以上・1日6〜7時間未満（6点）', value: `${prefix}_emp_6b`, points: 6 },
-  { label: '週4日/月16日以上・1日4〜6時間未満（5点）', value: `${prefix}_emp_5b`, points: 5 },
-  { label: '週3日/月12日以上・1日8時間以上（6点）', value: `${prefix}_emp_6c`, points: 6 },
-  { label: '週3日/月12日以上・1日7〜8時間未満（5点）', value: `${prefix}_emp_5c`, points: 5 },
-  { label: '週3日/月12日以上・1日6〜7時間未満（4点）', value: `${prefix}_emp_4c`, points: 4 },
-  { label: '週3日/月12日以上・1日4〜6時間未満（3点）', value: `${prefix}_emp_3c`, points: 3 },
+const extEmploymentGridOptions = (prefix: string) => [
+  { label: 'あてはまらない', value: `${prefix}_ext_none`, points: 0 },
+  { label: '週5日/月20日以上・1日8時間以上（10点）', value: `${prefix}_ext_10a`, points: 10 },
+  { label: '週5日/月20日以上・1日7〜8時間未満（9点）', value: `${prefix}_ext_9`, points: 9 },
+  { label: '週5日/月20日以上・1日6〜7時間未満（8点）', value: `${prefix}_ext_8a`, points: 8 },
+  { label: '週5日/月20日以上・1日4〜6時間未満（7点）', value: `${prefix}_ext_7a`, points: 7 },
+  { label: '週4日/月16日以上・1日8時間以上（8点）', value: `${prefix}_ext_8b`, points: 8 },
+  { label: '週4日/月16日以上・1日7〜8時間未満（7点）', value: `${prefix}_ext_7b`, points: 7 },
+  { label: '週4日/月16日以上・1日6〜7時間未満（6点）', value: `${prefix}_ext_6b`, points: 6 },
+  { label: '週4日/月16日以上・1日4〜6時間未満（5点）', value: `${prefix}_ext_5b`, points: 5 },
+  { label: '週3日/月12日以上・1日8時間以上（6点）', value: `${prefix}_ext_6c`, points: 6 },
+  { label: '週3日/月12日以上・1日7〜8時間未満（5点）', value: `${prefix}_ext_5c`, points: 5 },
+  { label: '週3日/月12日以上・1日6〜7時間未満（4点）', value: `${prefix}_ext_4c`, points: 4 },
+  { label: '週3日/月12日以上・1日4〜6時間未満（3点）', value: `${prefix}_ext_3c`, points: 3 },
+];
+
+const homeEmploymentGridOptions = (prefix: string) => [
+  { label: 'あてはまらない', value: `${prefix}_home_none`, points: 0 },
+  { label: '週5日/月20日以上・1日8時間以上（10点）', value: `${prefix}_home_10a`, points: 10 },
+  { label: '週5日/月20日以上・1日7〜8時間未満（9点）', value: `${prefix}_home_9`, points: 9 },
+  { label: '週5日/月20日以上・1日6〜7時間未満（8点）', value: `${prefix}_home_8a`, points: 8 },
+  { label: '週5日/月20日以上・1日4〜6時間未満（7点）', value: `${prefix}_home_7a`, points: 7 },
+  { label: '週4日/月16日以上・1日8時間以上（8点）', value: `${prefix}_home_8b`, points: 8 },
+  { label: '週4日/月16日以上・1日7〜8時間未満（7点）', value: `${prefix}_home_7b`, points: 7 },
+  { label: '週4日/月16日以上・1日6〜7時間未満（6点）', value: `${prefix}_home_6b`, points: 6 },
+  { label: '週4日/月16日以上・1日4〜6時間未満（5点）', value: `${prefix}_home_5b`, points: 5 },
+  { label: '週3日/月12日以上・1日8時間以上（6点）', value: `${prefix}_home_6c`, points: 6 },
+  { label: '週3日/月12日以上・1日7〜8時間未満（5点）', value: `${prefix}_home_5c`, points: 5 },
+  { label: '週3日/月12日以上・1日6〜7時間未満（4点）', value: `${prefix}_home_4c`, points: 4 },
+  { label: '週3日/月12日以上・1日4〜6時間未満（3点）', value: `${prefix}_home_3c`, points: 3 },
 ];
 
 const illnessOptions = (prefix: string) => [
@@ -81,12 +97,20 @@ function buildParentQuestions(parentNum: 1 | 2): Question[] {
 
   const detailQuestions: Question[] = [
     {
-      id: `${prefix}_employment`,
+      id: `${prefix}_ext`,
       category,
-      label: `${parentLabel}の就労の状況は？`,
-      helpText: '就労日数と1日の就労時間の組み合わせで選択（居宅外・居宅内自営共通）',
+      label: `${parentLabel}の居宅外就労の状況は？`,
+      helpText: '就労日数と1日の就労時間の組み合わせで選択',
       inputType: 'radio',
-      options: employmentGridOptions(prefix),
+      options: extEmploymentGridOptions(prefix),
+    },
+    {
+      id: `${prefix}_home`,
+      category,
+      label: `${parentLabel}の居宅内就労（自営・農業等）の状況は？`,
+      helpText: '就労日数と1日の就労時間の組み合わせで選択',
+      inputType: 'radio',
+      options: homeEmploymentGridOptions(prefix),
     },
     {
       id: `${prefix}_illness`,

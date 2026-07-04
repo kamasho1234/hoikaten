@@ -184,6 +184,7 @@ function buildParentQuestions(
       label: `${parentLabel}：雇用開始日（入学日）から3か月以上経過していますか？`,
       helpText: '就労・就学の場合のみ対象です（証明日時点で判定）',
       inputType: 'radio',
+      showFor: ['employment', 'education'],
       options: [
         { label: '対象外・該当しない', value: `${prefix}_work_experience_none`, points: 0 },
         { label: 'はい（3か月以上経過）', value: `${prefix}_work_experience_yes`, points: 4 },

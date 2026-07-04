@@ -96,8 +96,8 @@ function buildParentQuestions(parentNum: 1 | 2): Question[] {
     helpText: '伊勢原市では父母それぞれの点数を合算します（各最大20点、合計40点）。複数事由は高い方を採用',
     inputType: 'select',
     options: [
-      { label: '居宅外で仕事をしている', value: `${prefix}_reason_outside`, points: 0 },
-      { label: '自宅で仕事をしている（居宅内就労）', value: `${prefix}_reason_home`, points: 0 },
+      { label: '居宅外で仕事をしている', value: `${prefix}_reason_outside_employment`, points: 0 },
+      { label: '自宅で仕事をしている（居宅内就労）', value: `${prefix}_reason_home_employment`, points: 0 },
       { label: '内職をしている', value: `${prefix}_reason_naishoku`, points: 0 },
       { label: '病気・けがの治療中', value: `${prefix}_reason_illness`, points: 0 },
       { label: '障害がある', value: `${prefix}_reason_disability`, points: 0 },

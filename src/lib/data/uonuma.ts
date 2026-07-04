@@ -93,7 +93,7 @@ function buildParentQuestions(parentNum: 1 | 2): Question[] {
       ],
     },
     {
-      id: `${prefix}_ext_work`,
+      id: `${prefix}_ext`,
       category,
       label: `${parentLabel}の居宅外就労の状況は？`,
       helpText: '就労頻度と1日の就労時間の組み合わせで選択してください',
@@ -101,7 +101,7 @@ function buildParentQuestions(parentNum: 1 | 2): Question[] {
       options: extWorkOptions(prefix),
     },
     {
-      id: `${prefix}_home_work`,
+      id: `${prefix}_home`,
       category,
       label: `${parentLabel}の居宅内就労の状況は？`,
       helpText: '就労頻度と1日の就労時間の組み合わせで選択してください',

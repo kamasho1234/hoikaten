@@ -679,13 +679,12 @@ export function SimulatorForm({ data }: { data: MunicipalityData }) {
     setAnswers((prev) => {
       const next = { ...prev, [questionId]: value };
       if (questionId === "parent1_reason" || questionId === "parent2_reason") {
+        // 理由を変えたら、その保護者の詳細質問の回答をすべてクリアする
         const prefix = questionId.replace("_reason", "");
-        const detailKeys = [
-          "employment", "employment_prospect", "offer", "illness",
-          "disability", "care", "childbirth", "education", "jobseeking",
-        ];
-        for (const key of detailKeys) {
-          delete next[`${prefix}_${key}`];
+        for (const key of Object.keys(next)) {
+          if (key.startsWith(`${prefix}_`) && key !== questionId) {
+            delete next[key];
+          }
         }
       }
       return next;
@@ -706,10 +705,15 @@ export function SimulatorForm({ data }: { data: MunicipalityData }) {
 
     if (step === "parent1") {
       const parent1Qs = allQ.filter((q) => q.category === "parent1_base");
+      // reason質問を持たない自治体は base 質問をすべて順番に表示する
+      if (!parent1Qs.some((q) => q.id === "parent1_reason")) return parent1Qs;
       const reason = getReasonFromAnswers(answers, "parent1");
       if (!reason) return parent1Qs.filter((q) => q.id === "parent1_reason");
       return parent1Qs.filter(
-        (q) => q.id === "parent1_reason" || q.id === `parent1_${reason}`
+        (q) =>
+          q.id === "parent1_reason" ||
+          q.id === `parent1_${reason}` ||
+          q.showFor?.includes(reason)
       );
     }
 
@@ -724,10 +728,15 @@ export function SimulatorForm({ data }: { data: MunicipalityData }) {
       }
       // ひとり親「いいえ」の場合は通常の保護者2質問
       const parent2Qs = allQ.filter((q) => q.category === "parent2_base");
+      // reason質問を持たない自治体は base 質問をすべて順番に表示する
+      if (!parent2Qs.some((q) => q.id === "parent2_reason")) return parent2Qs;
       const reason = getReasonFromAnswers(answers, "parent2");
       if (!reason) return parent2Qs.filter((q) => q.id === "parent2_reason");
       return parent2Qs.filter(
-        (q) => q.id === "parent2_reason" || q.id === `parent2_${reason}`
+        (q) =>
+          q.id === "parent2_reason" ||
+          q.id === `parent2_${reason}` ||
+          q.showFor?.includes(reason)
       );
     }
 

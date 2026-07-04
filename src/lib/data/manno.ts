@@ -134,21 +134,21 @@ function buildParentQuestions(parentNum: 1 | 2): Question[] {
       options: pieceworkOptions(prefix),
     },
     {
-      id: `${prefix}_illness`,
+      id: `${prefix}_ill`,
       category,
       label: `${parentLabel}の疾病の状況は？`,
       inputType: 'radio',
       options: illnessOptions(prefix),
     },
     {
-      id: `${prefix}_disability`,
+      id: `${prefix}_dis`,
       category,
       label: `${parentLabel}の障害の等級は？`,
       inputType: 'radio',
       options: disabilityOptions(prefix),
     },
     {
-      id: `${prefix}_care_outside`,
+      id: `${prefix}_care_out`,
       category,
       label: `${parentLabel}の居宅外での介護・看護の状況は？`,
       helpText: '家族に付き添い外出しての介護・看護が必要な場合',
@@ -156,7 +156,7 @@ function buildParentQuestions(parentNum: 1 | 2): Question[] {
       options: careOutsideOptions(prefix),
     },
     {
-      id: `${prefix}_care_inside`,
+      id: `${prefix}_care_in`,
       category,
       label: `${parentLabel}の居宅内での介護・看護の状況は？`,
       helpText: '自宅での常時介護が必要な家族がいる場合',

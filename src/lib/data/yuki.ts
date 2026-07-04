@@ -79,14 +79,19 @@ function buildParentQuestions(parentNum: 1 | 2): Question[] {
     helpText: '最も該当するものをひとつ選んでください',
     inputType: 'select',
     options: [
-      { label: '働いている', value: `${prefix}_reason_employment`, points: 0 },
+      { label: '働いている（月20日以上）', value: `${prefix}_reason_employment_full`, points: 0 },
+      { label: '働いている（月16日以上）', value: `${prefix}_reason_employment_weekly4`, points: 0 },
+      { label: '働いている（月12日以下）', value: `${prefix}_reason_employment_weekly3`, points: 0 },
+      { label: '働いている（内職）', value: `${prefix}_reason_employment_inside`, points: 0 },
       { label: '出産予定日前後各8週間（70点）', value: `${prefix}_reason_childbirth`, points: 70 },
       { label: '病気・けが', value: `${prefix}_reason_illness`, points: 0 },
       { label: '障害', value: `${prefix}_reason_disability`, points: 0 },
       { label: '家族の介護・看護', value: `${prefix}_reason_care`, points: 0 },
       { label: '災害復旧（100点）', value: `${prefix}_reason_disaster`, points: 100 },
       { label: '求職中（30点）', value: `${prefix}_reason_jobseeking`, points: 30 },
-      { label: '就学（働いているに準用）', value: `${prefix}_reason_study`, points: 0 },
+      { label: '就学（月20日以上）', value: `${prefix}_reason_study_full`, points: 0 },
+      { label: '就学（月16日以上）', value: `${prefix}_reason_study_weekly4`, points: 0 },
+      { label: '就学（月12日以下）', value: `${prefix}_reason_study_weekly3`, points: 0 },
       { label: '技能習得（100点）', value: `${prefix}_reason_skill_acquisition`, points: 100 },
       { label: '児童虐待（100点）', value: `${prefix}_reason_child_abuse`, points: 100 },
       { label: 'DV（100点）', value: `${prefix}_reason_dv`, points: 100 },
@@ -95,20 +100,6 @@ function buildParentQuestions(parentNum: 1 | 2): Question[] {
   };
 
   const detailQuestions: Question[] = [
-    {
-      id: `${prefix}_employment_type`,
-      category,
-      label: `${parentLabel}の就労形態は？`,
-      helpText: '対象者がいない場合は「あてはまらない」を選択',
-      inputType: 'radio',
-      options: [
-        { label: 'あてはまらない', value: `${prefix}_employment_type_none`, points: 0 },
-        { label: '月20日以上（週5日以上）居宅外就労', value: `${prefix}_employment_type_full`, points: 0 },
-        { label: '月16日以上（週4日以上）居宅外就労', value: `${prefix}_employment_type_weekly4`, points: 0 },
-        { label: '月12日以下（週3日以下）居宅外就労', value: `${prefix}_employment_type_weekly3`, points: 0 },
-        { label: '内職', value: `${prefix}_employment_type_inside`, points: 0 },
-      ],
-    },
     {
       id: `${prefix}_employment_full`,
       category,
@@ -161,6 +152,39 @@ function buildParentQuestions(parentNum: 1 | 2): Question[] {
       label: `${parentLabel}の介護・看護の状況は？`,
       inputType: 'radio',
       options: careOptions(prefix),
+    },
+    {
+      id: `${prefix}_study_full`,
+      category,
+      label: `${parentLabel}の月間就学時間は？（月20日以上）`,
+      helpText: '月160時間以上 または 日8時間以上を基準とします',
+      inputType: 'radio',
+      options: employmentFull(prefix).map(opt => ({
+        ...opt,
+        value: opt.value.replace('employment_', 'study_'),
+      })),
+    },
+    {
+      id: `${prefix}_study_weekly4`,
+      category,
+      label: `${parentLabel}の月間就学時間は？（月16日以上）`,
+      helpText: '月128時間以上 または 日8時間以上を基準とします',
+      inputType: 'radio',
+      options: employmentWeekly4(prefix).map(opt => ({
+        ...opt,
+        value: opt.value.replace('employment_', 'study_'),
+      })),
+    },
+    {
+      id: `${prefix}_study_weekly3`,
+      category,
+      label: `${parentLabel}の月間就学時間は？（月12日以下）`,
+      helpText: '月48時間以上 または 日4時間以上を基準とします',
+      inputType: 'radio',
+      options: employmentWeekly3OrLess(prefix).map(opt => ({
+        ...opt,
+        value: opt.value.replace('employment_', 'study_'),
+      })),
     },
   ];
 

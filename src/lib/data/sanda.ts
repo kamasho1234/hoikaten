@@ -22,8 +22,8 @@ const employmentOptions = (prefix: string) => [
   { label: '月20日以上、1日8時間以上', value: `${prefix}_employment_20`, points: 20 },
   { label: '月20日以上、1日6時間以上8時間未満', value: `${prefix}_employment_18`, points: 18 },
   { label: '月20日以上、1日4時間以上6時間未満', value: `${prefix}_employment_16`, points: 16 },
-  { label: '月16日以上、1日8時間以上', value: `${prefix}_employment_18`, points: 18 },
-  { label: '月16日以上、1日6時間以上8時間未満', value: `${prefix}_employment_16`, points: 16 },
+  { label: '月16日以上、1日8時間以上', value: `${prefix}_employment_18b`, points: 18 },
+  { label: '月16日以上、1日6時間以上8時間未満', value: `${prefix}_employment_16b`, points: 16 },
   { label: '月16日以上、1日4時間以上6時間未満', value: `${prefix}_employment_14`, points: 14 },
   { label: '上記に該当しないが、月64時間以上働いている', value: `${prefix}_employment_10`, points: 10 },
 ];
@@ -31,7 +31,7 @@ const employmentOptions = (prefix: string) => [
 const jobSeekingOptions = (prefix: string) => [
   { label: 'あてはまらない', value: `${prefix}_jobseeking_none`, points: 0 },
   { label: '求職活動中（月20日以上）', value: `${prefix}_jobseeking_4`, points: 4 },
-  { label: '求職活動中（月16日以上）', value: `${prefix}_jobseeking_4`, points: 4 },
+  { label: '求職活動中（月16日以上）', value: `${prefix}_jobseeking_4b`, points: 4 },
   { label: '定期的に求職活動をしていると認められる', value: `${prefix}_jobseeking_7`, points: 7 },
   { label: '求職中（上記以外）', value: `${prefix}_jobseeking_2`, points: 2 },
 ];
@@ -91,7 +91,8 @@ function buildParentQuestions(parentNum: 1 | 2): Question[] {
       { label: '求職活動中', value: `${prefix}_reason_jobseeking`, points: 0 },
       { label: '妊娠・出産', value: `${prefix}_reason_pregnancy`, points: 0 },
       { label: '就学中', value: `${prefix}_reason_education`, points: 0 },
-      { label: '病気・障害', value: `${prefix}_reason_illness`, points: 0 },
+      { label: '病気の治療中', value: `${prefix}_reason_illness`, points: 0 },
+      { label: '障害がある', value: `${prefix}_reason_disability`, points: 0 },
       { label: '介護・看護', value: `${prefix}_reason_care`, points: 0 },
       { label: '災害復旧', value: `${prefix}_reason_disaster`, points: 0 },
     ],

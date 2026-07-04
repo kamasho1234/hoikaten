@@ -92,8 +92,7 @@ function buildParentQuestions(parentNum: 1 | 2): Question[] {
     helpText: '鎌ケ谷市では父母それぞれの基準指数（各最大20点）を合算して選考されます。複数の理由に該当する場合は、最も高い指数が適用されます',
     inputType: 'select',
     options: [
-      { label: '仕事をしている', value: `${prefix}_reason_employment`, points: 0 },
-      { label: 'パート・アルバイトで働いている', value: `${prefix}_reason_employment`, points: 0 },
+      { label: '仕事をしている（パート・アルバイト含む）', value: `${prefix}_reason_employment`, points: 0 },
       { label: '出産の前後', value: `${prefix}_reason_childbirth`, points: 0 },
       { label: '仕事を探している', value: `${prefix}_reason_jobseeking`, points: 0 },
       { label: '病気の治療中', value: `${prefix}_reason_illness`, points: 0 },

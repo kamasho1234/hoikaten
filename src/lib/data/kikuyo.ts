@@ -96,6 +96,23 @@ function makeParentQuestions(p: 'parent1' | 'parent2'): Question[] {
         { label: '心身障がい児の看護・介護（役所が点数決定・最高10点）（6点目安）', value: `${p}_care_6`, points: 6 },
       ],
     },
+    {
+      id: `${p}_study`,
+      category: `${p}_base` as const,
+      label: `保護者${pNum}の就学状況（1日・週あたりの時間）`,
+      helpText: '就学している場合に選択してください（就労時間に準じて評価）',
+      inputType: 'radio',
+      options: [
+        { label: 'あてはまらない', value: `${p}_study_none`, points: 0 },
+        { label: '1日7.5時間以上・週5日以上（月150時間以上）（10点）', value: `${p}_study_10`, points: 10 },
+        { label: '1日6時間以上・週5日以上（月120時間以上）（9点）', value: `${p}_study_9`, points: 9 },
+        { label: '1日6時間以上・週4日以上（月96時間以上）（8点）', value: `${p}_study_8`, points: 8 },
+        { label: '1日5時間以上・週4日以上（月80時間以上）（7点）', value: `${p}_study_7`, points: 7 },
+        { label: '1日4時間以上・週3日以上（月52時間以上）（6点）', value: `${p}_study_6`, points: 6 },
+        { label: '上記に満たない就学（一時保育で対応困難）（4点）', value: `${p}_study_4`, points: 4 },
+        { label: '上記に満たない就学（一時保育で対応可能）（0点）', value: `${p}_study_0`, points: 0 },
+      ],
+    },
   ];
 }
 

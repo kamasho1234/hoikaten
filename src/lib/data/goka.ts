@@ -95,14 +95,14 @@ function buildParentQuestions(parentNum: 1 | 2): Question[] {
 
   const detailQuestions: Question[] = [
     {
-      id: `${prefix}_ext_employment`,
+      id: `${prefix}_ext`,
       category,
       label: `${parentLabel}の居宅外労働の時間は？`,
       inputType: 'radio',
       options: extEmploymentOptions(prefix),
     },
     {
-      id: `${prefix}_home_employment`,
+      id: `${prefix}_home`,
       category,
       label: `${parentLabel}の居宅内労働の時間は？`,
       inputType: 'radio',

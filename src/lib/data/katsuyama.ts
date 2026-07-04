@@ -81,7 +81,7 @@ function buildParentQuestions(parentNum: 1 | 2): Question[] {
     helpText: '最も該当するものをひとつ選んでください',
     inputType: 'select',
     options: [
-      { label: '家庭外で働いている', value: `${prefix}_reason_outside`, points: 0 },
+      { label: '家庭外で働いている', value: `${prefix}_reason_outside_employment`, points: 0 },
       { label: '家庭内で自営（中心者）', value: `${prefix}_reason_inside_main`, points: 0 },
       { label: '家庭内で自営（協力者）', value: `${prefix}_reason_inside_sub`, points: 0 },
       { label: '内職', value: `${prefix}_reason_piecework`, points: 0 },

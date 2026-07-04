@@ -87,8 +87,7 @@ function buildParentQuestions(parentNum: 1 | 2): Question[] {
     helpText: '労働時間には通勤時間・休憩時間を含めて算定されます',
     inputType: 'select',
     options: [
-      { label: '仕事をしている（外勤・自営業）', value: `${prefix}_reason_employment`, points: 0 },
-      { label: '仕事をしている（内職）', value: `${prefix}_reason_employment_home`, points: 0 },
+      { label: '仕事をしている（外勤・自営業・内職）', value: `${prefix}_reason_employment`, points: 0 },
       { label: '病気の治療中', value: `${prefix}_reason_illness`, points: 0 },
       { label: '障害がある', value: `${prefix}_reason_disability`, points: 0 },
       { label: '家族の看護・介護', value: `${prefix}_reason_care`, points: 0 },
