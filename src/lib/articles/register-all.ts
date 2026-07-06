@@ -418,3 +418,6 @@ import "./nankoku";
 import "./kikuyo";
 import "./katagami";
 import "./kami";
+import "./minami-alps";
+import "./kamogawa";
+import "./tougane";
