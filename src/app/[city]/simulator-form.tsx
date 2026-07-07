@@ -693,6 +693,7 @@ export function SimulatorForm({ data }: { data: MunicipalityData }) {
   }, []);
 
   const isMinScoring = data.municipality.scoringMethod === "min";
+  const isAvgScoring = data.municipality.scoringMethod === "avg";
 
   // ひとり親判定（保護者2ステップの冒頭で聞く）
   const isSingleParent =
@@ -955,6 +956,14 @@ export function SimulatorForm({ data }: { data: MunicipalityData }) {
                     <span>保護者2の点数</span>
                     <Badge variant="secondary">{result.parent2Base}点</Badge>
                   </div>
+                  {isAvgScoring && (
+                    <div className="flex justify-between items-center">
+                      <span>世帯点数（父母の平均）</span>
+                      <Badge variant="default">
+                        {result.total - result.adjustment}点
+                      </Badge>
+                    </div>
+                  )}
                 </>
               )}
               <div className="flex justify-between items-center">

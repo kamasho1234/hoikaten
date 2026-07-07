@@ -421,3 +421,6 @@ import "./kami";
 import "./minami-alps";
 import "./kamogawa";
 import "./tougane";
+import "./iwakura";
+import "./fuchu-hiroshima";
+import "./hayama";

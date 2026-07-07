@@ -1,6 +1,6 @@
 // 保育園入園点数シミュレーター 型定義
 
-export type ScoringMethod = "sum" | "min";
+export type ScoringMethod = "sum" | "min" | "avg";
 
 export interface Municipality {
   id: string;
@@ -8,7 +8,7 @@ export interface Municipality {
   slug: string;
   prefecture: string;
   maxBasePoints: number;
-  scoringMethod?: ScoringMethod; // "sum"(加算・デフォルト) | "min"(低い方を採用)
+  scoringMethod?: ScoringMethod; // "sum"(加算・デフォルト) | "min"(低い方を採用) | "avg"(父母の平均)
 }
 
 export interface QuestionOption {

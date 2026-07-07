@@ -43,12 +43,17 @@ export function calculateScore(
   const hasParent2 = questions.some(
     (q) => q.category === "parent2_base" && answers[q.id] !== undefined
   );
+  // 岩倉市等の平均方式: 父母の指数の平均が世帯指数（保護者1人なら本人の指数）
   const baseScore =
     scoringMethod === "min"
       ? hasParent2
         ? Math.min(parent1Base, parent2Base)
         : parent1Base
-      : parent1Base + parent2Base;
+      : scoringMethod === "avg"
+        ? hasParent2
+          ? (parent1Base + parent2Base) / 2
+          : parent1Base
+        : parent1Base + parent2Base;
 
   return {
     parent1Base,
