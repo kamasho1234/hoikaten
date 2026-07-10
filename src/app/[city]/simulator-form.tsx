@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo, useEffect, useCallback } from "react";
+import { useState, useMemo, useEffect, useCallback, useRef } from "react";
 import type { MunicipalityData, Question } from "@/lib/types";
 import { calculateScore } from "@/lib/scoring/engine";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -763,6 +763,28 @@ export function SimulatorForm({ data }: { data: MunicipalityData }) {
   const safeQuestionIndex = Math.min(questionIndex, Math.max(0, visibleQuestions.length - 1));
   const currentQuestion = visibleQuestions[safeQuestionIndex];
 
+  // 質問カードへのスクロール制御（質問が切り替わるたびに質問文が見えるようにする）
+  const questionCardRef = useRef<HTMLDivElement>(null);
+  const didMountRef = useRef(false);
+  useEffect(() => {
+    // 初回マウント時（ページ表示直後）はスクロールしない
+    if (!didMountRef.current) {
+      didMountRef.current = true;
+      return;
+    }
+    if (step === "result") return;
+    // 自動進行のアニメーション(400ms)完了後に、sticky ヘッダー分のオフセットを確保して
+    // 質問文の先頭が見える位置までスクロールする
+    const timer = setTimeout(() => {
+      const el = questionCardRef.current;
+      if (!el) return;
+      const HEADER_OFFSET = 72; // sticky ヘッダー高さ + 余白
+      const y = el.getBoundingClientRect().top + window.scrollY - HEADER_OFFSET;
+      window.scrollTo({ top: Math.max(0, y), behavior: "smooth" });
+    }, 420);
+    return () => clearTimeout(timer);
+  }, [step, safeQuestionIndex]);
+
   // 選択後の自動進行
   useEffect(() => {
     if (!pendingAdvance) return;
@@ -848,7 +870,7 @@ export function SimulatorForm({ data }: { data: MunicipalityData }) {
 
       {/* Questions */}
       {step !== "result" && currentQuestion && (
-        <Card>
+        <Card ref={questionCardRef}>
           <CardContent className="flex flex-col pt-6">
             <div>
               <p className="text-xs text-muted-foreground mb-4">
