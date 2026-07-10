@@ -848,8 +848,8 @@ export function SimulatorForm({ data }: { data: MunicipalityData }) {
 
       {/* Questions */}
       {step !== "result" && currentQuestion && (
-        <Card className="min-h-[calc(100dvh-10rem)]">
-          <CardContent className="flex flex-col justify-between min-h-[calc(100dvh-12rem)] pt-6">
+        <Card>
+          <CardContent className="flex flex-col pt-6">
             <div>
               <p className="text-xs text-muted-foreground mb-4">
                 {step === "adjustment"
