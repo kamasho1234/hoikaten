@@ -863,7 +863,7 @@ export function SimulatorForm({ data }: { data: MunicipalityData }) {
                 onChange={(val) => setAnswer(currentQuestion.id, val)}
               />
             </div>
-            <div className="pt-6">
+            <div className="pt-2">
               {(step !== "parent1" || safeQuestionIndex > 0) && (
                 <Button variant="outline" onClick={goPrev}>
                   戻る
