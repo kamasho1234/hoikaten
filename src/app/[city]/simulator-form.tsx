@@ -11,6 +11,7 @@ import { Progress } from "@/components/ui/progress";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { FullScreenAd } from "@/components/fullscreen-ad";
+import { RandomTextAd } from "@/components/random-text-ad";
 
 type Step = "parent1" | "parent2" | "adjustment" | "result";
 
@@ -621,6 +622,8 @@ function ShareButtons({
 
   return (
     <div className="space-y-3">
+      {/* シェア直上のテキスト広告 */}
+      <RandomTextAd />
       <p className="text-sm font-medium text-center text-muted-foreground">
         結果をシェアする
       </p>

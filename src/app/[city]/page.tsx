@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { getMunicipalityData, getAllMunicipalities } from "@/lib/data";
 import { getArticlesByCity } from "@/lib/articles";
 import { SimulatorForm } from "./simulator-form";
+import { RandomTextAd } from "@/components/random-text-ad";
 import {
   Card,
   CardHeader,
@@ -61,6 +62,9 @@ export default async function CityPage({
         </p>
       </div>
       <SimulatorForm data={data} />
+
+      {/* シェア直上のテキスト広告 */}
+      <RandomTextAd />
 
       <div className="mt-10 space-y-3">
         <p className="text-sm font-medium text-center text-muted-foreground">
