@@ -17,7 +17,7 @@ const notoSansJP = Noto_Sans_JP({
 const zenMaru = Zen_Maru_Gothic({
   variable: "--font-heading",
   subsets: ["latin"],
-  weight: ["500", "700"],
+  weight: ["700"],
   display: "swap",
 });
 
