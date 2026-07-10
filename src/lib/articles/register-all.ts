@@ -424,3 +424,5 @@ import "./tougane";
 import "./iwakura";
 import "./fuchu-hiroshima";
 import "./hayama";
+import "./yatomi";
+import "./aisai";

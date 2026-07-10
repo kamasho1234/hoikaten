@@ -427,6 +427,8 @@ import { touganeData } from './tougane';
 import { iwakuraData } from './iwakura';
 import { fuchuHiroshimaData } from './fuchu-hiroshima';
 import { hayamaData } from './hayama';
+import { yatomiData } from './yatomi';
+import { aisaiData } from './aisai';
 
 const municipalityMap: Record<string, MunicipalityData> = {
   [setagayaData.municipality.slug]: setagayaData,
@@ -857,6 +859,8 @@ const municipalityMap: Record<string, MunicipalityData> = {
   [iwakuraData.municipality.slug]: iwakuraData,
   [fuchuHiroshimaData.municipality.slug]: fuchuHiroshimaData,
   [hayamaData.municipality.slug]: hayamaData,
+  [yatomiData.municipality.slug]: yatomiData,
+  [aisaiData.municipality.slug]: aisaiData,
 };
 
 export function getMunicipalityData(slug: string): MunicipalityData | undefined {
@@ -908,6 +912,7 @@ export { utoData, katsuyamaData, shiroiData, yamanashiData };
 export { fukuroiData, tendoData, kamisuData, shimotsukeData, tomisatoData, hokotaData, inagiData };
 export { yukiData, sodegauraData, kushiroChoData, gokaData, handaData, yokoteData, misatomiyagiData, sosaData, murakamiData, mannoData, tamanaData, ukiData, kagaminoData, oganoData, toyoyamaData, kumiyamaData, yahabaData, setouchiData, kogaData, kuroishiData, minokamoData, kutchanData, shooData, chikuseiData, kawamataData, yachimataData, koshuData, shiroishiData, masakiData, ibarakiMachiData, mizuhoData, rifuData, tonoData, fukutsuData, hashimaData, kanegasakiData, namegatadata, tokigawaData, kawajimaData, kanraData };
 export { minamiAlpsData, kamogawaData, touganeData, iwakuraData, fuchuHiroshimaData, hayamaData };
+export { yatomiData, aisaiData };
 export { kashiwaData, matsudoData, yamaguchiData };
 export { takamatsuData, sagaData };
 export { odawaraData, kamakuraData };
