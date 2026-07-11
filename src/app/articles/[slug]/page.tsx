@@ -9,6 +9,7 @@ import {
 import { RandomAd } from "@/components/random-ad";
 import { RandomTextAd } from "@/components/random-text-ad";
 import { ArticleBody } from "@/components/article-body";
+import { breadcrumbList } from "@/lib/jsonld";
 
 export function generateStaticParams() {
   const articles = getArticlesByCity("general");
@@ -79,11 +80,21 @@ export default async function ArticlePage({
     },
   };
 
+  const breadcrumbJsonLd = breadcrumbList([
+    { name: "ホーム", path: "/" },
+    { name: "保活コラム", path: "/articles" },
+    { name: article.title, path: `/articles/${slug}` },
+  ]);
+
   return (
     <div className="mx-auto max-w-3xl px-4 py-8">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
       {/* パンくず */}
       <nav className="text-sm text-muted-foreground mb-6 flex items-center gap-2 flex-wrap">

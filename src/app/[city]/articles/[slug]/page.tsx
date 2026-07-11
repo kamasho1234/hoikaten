@@ -3,6 +3,7 @@ import { getMunicipalityData, getAllMunicipalities } from "@/lib/data";
 import { getArticle, getArticlesByCity } from "@/lib/articles";
 import { RandomTextAd } from "@/components/random-text-ad";
 import { ArticleBody } from "@/components/article-body";
+import { breadcrumbList } from "@/lib/jsonld";
 import {
   Card,
   CardHeader,
@@ -89,11 +90,22 @@ export default async function ArticlePage({
     },
   };
 
+  const breadcrumbJsonLd = breadcrumbList([
+    { name: "ホーム", path: "/" },
+    { name: data.municipality.name, path: `/${city}` },
+    { name: "記事一覧", path: `/${city}/articles` },
+    { name: article.title, path: `/${city}/articles/${slug}` },
+  ]);
+
   return (
     <div className="mx-auto max-w-3xl px-4 py-8">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
       {/* パンくず */}
       <nav className="text-sm text-muted-foreground mb-6 flex items-center gap-2 flex-wrap">

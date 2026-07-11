@@ -4,6 +4,8 @@ import { getMunicipalityData, getAllMunicipalities } from "@/lib/data";
 import { getArticlesByCity } from "@/lib/articles";
 import { SimulatorForm } from "./simulator-form";
 import { RandomTextAd } from "@/components/random-text-ad";
+import { breadcrumbList, faqPage, buildCityFaq } from "@/lib/jsonld";
+import { prefectureNameToSlug } from "@/lib/prefecture";
 import {
   Card,
   CardHeader,
@@ -43,8 +45,45 @@ export default async function CityPage({
   const data = getMunicipalityData(city);
   if (!data) notFound();
 
+  const prefName = data.municipality.prefecture;
+  const prefSlug = prefectureNameToSlug(prefName);
+  const faqItems = buildCityFaq(data);
+
+  const breadcrumbJsonLd = breadcrumbList([
+    { name: "ホーム", path: "/" },
+    ...(prefSlug
+      ? [{ name: prefName, path: `/prefecture/${prefSlug}` }]
+      : []),
+    { name: data.municipality.name, path: `/${city}` },
+  ]);
+  const faqJsonLd = faqPage(faqItems);
+
   return (
     <div className="mx-auto max-w-3xl px-4 py-8">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
+
+      {/* パンくず */}
+      <nav className="text-sm text-muted-foreground mb-6 flex items-center gap-2 flex-wrap">
+        <a href="/" className="hover:underline hover:text-primary">ホーム</a>
+        <span>/</span>
+        {prefSlug && (
+          <>
+            <a href={`/prefecture/${prefSlug}`} className="hover:underline hover:text-primary">
+              {prefName}
+            </a>
+            <span>/</span>
+          </>
+        )}
+        <span>{data.municipality.name}</span>
+      </nav>
+
       <div className="hero-pattern rounded-2xl py-8 px-4 text-center mb-8 -mx-4 sm:mx-0">
         <h1
           className="text-2xl font-bold mb-2"
@@ -138,6 +177,35 @@ export default async function CityPage({
           </div>
         );
       })()}
+
+      {/* よくある質問（FAQPage構造化データと対応） */}
+      <div className="mt-12">
+        <h2
+          className="text-lg font-bold mb-4"
+          style={{ fontFamily: "var(--font-heading)" }}
+        >
+          {data.municipality.name}の保育園点数に関するよくある質問
+        </h2>
+        <div className="space-y-3">
+          {faqItems.map((faq, i) => (
+            <details
+              key={i}
+              className="group rounded-xl border border-border/60 bg-card p-4"
+            >
+              <summary className="cursor-pointer list-none font-medium text-sm flex items-start gap-2">
+                <span className="text-primary flex-shrink-0">Q.</span>
+                <span className="flex-1">{faq.question}</span>
+                <span className="text-muted-foreground text-xs mt-0.5 group-open:rotate-180 transition-transform flex-shrink-0">
+                  ▼
+                </span>
+              </summary>
+              <p className="mt-3 text-sm text-muted-foreground leading-relaxed pl-6">
+                {faq.answer}
+              </p>
+            </details>
+          ))}
+        </div>
+      </div>
     </div>
   );
 }
