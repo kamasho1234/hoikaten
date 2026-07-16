@@ -426,3 +426,5 @@ import "./fuchu-hiroshima";
 import "./hayama";
 import "./yatomi";
 import "./aisai";
+import "./ito";
+import "./shimizu";
