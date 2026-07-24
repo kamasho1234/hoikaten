@@ -431,3 +431,5 @@ import "./shimizu";
 import "./shiraoka";
 import "./kitamoto";
 import "./futtsu";
+import "./honjo";
+import "./minano";
