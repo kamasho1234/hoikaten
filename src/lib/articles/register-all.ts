@@ -434,3 +434,4 @@ import "./futtsu";
 import "./honjo";
 import "./minano";
 import "./tsurugashima";
+import "./hasuda";
