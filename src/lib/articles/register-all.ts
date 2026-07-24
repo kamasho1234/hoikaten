@@ -435,3 +435,4 @@ import "./honjo";
 import "./minano";
 import "./tsurugashima";
 import "./hasuda";
+import "./miyoshi-saitama";
