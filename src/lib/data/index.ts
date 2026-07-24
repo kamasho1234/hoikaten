@@ -9,6 +9,7 @@ import { minanoData } from './minano';
 import { tsurugashimaData } from './tsurugashima';
 import { hasudaData } from './hasuda';
 import { miyoshiSaitamaData } from './miyoshi-saitama';
+import { aichiMiyoshiData } from './aichi-miyoshi';
 import { setagayaData } from './setagaya';
 import { yokohamaData } from './yokohama';
 import { osakaData } from './osaka';
@@ -881,6 +882,7 @@ const municipalityMap: Record<string, MunicipalityData> = {
   [tsurugashimaData.municipality.slug]: tsurugashimaData,
   [hasudaData.municipality.slug]: hasudaData,
   [miyoshiSaitamaData.municipality.slug]: miyoshiSaitamaData,
+  [aichiMiyoshiData.municipality.slug]: aichiMiyoshiData,
 };
 
 export function getMunicipalityData(slug: string): MunicipalityData | undefined {
@@ -939,6 +941,7 @@ export { honjoData, minanoData };
 export { tsurugashimaData };
 export { hasudaData };
 export { miyoshiSaitamaData };
+export { aichiMiyoshiData };
 export { kashiwaData, matsudoData, yamaguchiData };
 export { takamatsuData, sagaData };
 export { odawaraData, kamakuraData };
