@@ -90,6 +90,27 @@ export default async function PrefecturePage({
         </p>
       </div>
 
+      {/* 点数比較ページへの導線（2自治体以上のとき） */}
+      {municipalitiesWithArticleCount.length >= 2 && (
+        <a
+          href={`/compare/${pref}`}
+          className="flex items-center justify-between gap-2 p-4 rounded-xl border border-primary/30 bg-primary/5 hover:bg-primary/10 transition-colors mb-6 group"
+        >
+          <span className="text-sm font-medium">
+            {prefName}の自治体を採点方式・最高点数で比較する
+          </span>
+          <svg
+            viewBox="0 0 24 24"
+            className="w-5 h-5 text-primary flex-shrink-0 group-hover:translate-x-0.5 transition-transform"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+          >
+            <path d="M5 12h14M12 5l7 7-7 7" />
+          </svg>
+        </a>
+      )}
+
       {/* 自治体カード一覧 */}
       {municipalitiesWithArticleCount.length === 0 ? (
         <div className="text-center py-12">
