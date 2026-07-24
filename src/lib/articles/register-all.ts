@@ -428,3 +428,6 @@ import "./yatomi";
 import "./aisai";
 import "./ito";
 import "./shimizu";
+import "./shiraoka";
+import "./kitamoto";
+import "./futtsu";
