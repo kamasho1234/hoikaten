@@ -45,7 +45,7 @@ const careOptions = (prefix: string) => [
   { label: 'あてはまらない', value: `${prefix}_care_none`, points: 0 },
   { label: '月140時間以上の介護・看護', value: `${prefix}_care_100`, points: 100 },
   { label: '月120時間以上140時間未満', value: `${prefix}_care_90`, points: 90 },
-  { label: '��80時間以上120時間未満', value: `${prefix}_care_70`, points: 70 },
+  { label: '月80時間以上120時間未満', value: `${prefix}_care_70`, points: 70 },
   { label: '月64時間以上80時間未満', value: `${prefix}_care_60`, points: 60 },
 ];
 

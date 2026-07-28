@@ -1,7 +1,7 @@
 import type { MunicipalityData, Question } from '../types';
 
 // ---------------------------------------------------------------------------
-// 枚方市 保育園入園 ���用調整基準データ
+// 枚方市 保育園入園 利用調整基準データ
 // 出典: 枚方市「令和8年度 保育所（園）等利用の手引き（募集要項）」
 // https://www.city.hirakata.osaka.jp/vod/0000033514.html
 // ---------------------------------------------------------------------------
@@ -219,7 +219,7 @@ const adjustmentQuestions: Question[] = [
   {
     id: 'adj_single_assignment',
     category: 'adjustment',
-    label: '��身赴任中ですか？',
+    label: '単身赴任中ですか？',
     helpText: '保護者が単身赴任している場合に加点されます',
     inputType: 'radio',
     options: [
