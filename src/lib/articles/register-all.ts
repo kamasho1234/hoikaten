@@ -437,3 +437,4 @@ import "./tsurugashima";
 import "./hasuda";
 import "./miyoshi-saitama";
 import "./aichi-miyoshi";
+import "./nakagawa";
