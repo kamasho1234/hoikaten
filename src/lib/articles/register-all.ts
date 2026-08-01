@@ -438,3 +438,6 @@ import "./hasuda";
 import "./miyoshi-saitama";
 import "./aichi-miyoshi";
 import "./nakagawa";
+import "./kimitsu";
+import "./nonoichi";
+import "./ogori";

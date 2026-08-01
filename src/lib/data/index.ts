@@ -12,6 +12,12 @@ import { miyoshiSaitamaData } from './miyoshi-saitama';
 import { aichiMiyoshiData } from './aichi-miyoshi';
 import { nakagawaData } from './nakagawa';
 import { ayaseData } from './ayase';
+import { kimitsuData } from './kimitsu';
+import { nonoichiData } from './nonoichi';
+import { kyotanabeData } from './kyotanabe';
+import { kizugawaData } from './kizugawa';
+import { moriyamaData } from './moriyama';
+import { ogoriData } from './ogori';
 import { setagayaData } from './setagaya';
 import { yokohamaData } from './yokohama';
 import { osakaData } from './osaka';
@@ -887,6 +893,12 @@ const municipalityMap: Record<string, MunicipalityData> = {
   [aichiMiyoshiData.municipality.slug]: aichiMiyoshiData,
   [nakagawaData.municipality.slug]: nakagawaData,
   [ayaseData.municipality.slug]: ayaseData,
+  [kimitsuData.municipality.slug]: kimitsuData,
+  [nonoichiData.municipality.slug]: nonoichiData,
+  [kyotanabeData.municipality.slug]: kyotanabeData,
+  [kizugawaData.municipality.slug]: kizugawaData,
+  [moriyamaData.municipality.slug]: moriyamaData,
+  [ogoriData.municipality.slug]: ogoriData,
 };
 
 export function getMunicipalityData(slug: string): MunicipalityData | undefined {
@@ -948,6 +960,12 @@ export { miyoshiSaitamaData };
 export { aichiMiyoshiData };
 export { nakagawaData };
 export { ayaseData };
+export { kimitsuData };
+export { nonoichiData };
+export { kyotanabeData };
+export { kizugawaData };
+export { moriyamaData };
+export { ogoriData };
 export { kashiwaData, matsudoData, yamaguchiData };
 export { takamatsuData, sagaData };
 export { odawaraData, kamakuraData };
