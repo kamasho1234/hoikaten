@@ -330,6 +330,86 @@ const cases: Case[] = [
     answers: { p1_hitsuyo: 'p1_disaster', p2_hitsuyo: 'p2_dv' },
     expect: 300,
   },
+  // --- 御代田町（min / 最高20）---
+  {
+    name: '御代田: 保護者1が外勤180h(20) 保護者2が外勤120h(18) → min=18（公式の例示と一致）',
+    slug: 'miyota',
+    answers: { p1_situation: 'p1_out_180', p2_situation: 'p2_out_120' },
+    expect: 18,
+  },
+  {
+    name: '御代田: 上記 + きょうだい同時通園+10 + 多胎児+8 = 36',
+    slug: 'miyota',
+    answers: {
+      p1_situation: 'p1_out_180', p2_situation: 'p2_out_120',
+      adj_kyodai: 'adj_kyodai_doji', adj_tataiji: 'adj_tataiji_yes',
+    },
+    expect: 36,
+  },
+  {
+    name: '御代田: ひとり親(保護者2未回答/外勤180h=20) +10 = 30',
+    slug: 'miyota',
+    answers: { p1_situation: 'p1_out_180', adj_hitorioya: 'adj_hitorioya_yes' },
+    expect: 30,
+  },
+  {
+    name: '御代田: 内勤64h(14)と外勤180h(20) → min=14',
+    slug: 'miyota',
+    answers: { p1_situation: 'p1_in_64', p2_situation: 'p2_out_180' },
+    expect: 14,
+  },
+  {
+    name: '御代田: 滞納6月分以上-10 と 書類不備-10 = 18-20 = -2',
+    slug: 'miyota',
+    answers: {
+      p1_situation: 'p1_out_180', p2_situation: 'p2_out_120',
+      adj_nofu: 'adj_nofu_tainou_over6', adj_shorui: 'adj_shorui_yes',
+    },
+    expect: -2,
+  },
+  // --- 日置市（sum / 最高20）---
+  {
+    name: '日置: 父が居宅外160h(10) + 母が居宅外120h(9) = 19',
+    slug: 'hioki',
+    answers: { p1_situation: 'p1_out_emp_160', p2_situation: 'p2_out_emp_120' },
+    expect: 19,
+  },
+  {
+    name: '日置: 父160h(10) + 母のみ妊娠出産(10) = 20（最高基準点）',
+    slug: 'hioki',
+    answers: { p1_situation: 'p1_out_emp_160', p2_situation: 'p2_birth' },
+    expect: 20,
+  },
+  {
+    name: '日置: ひとり親(保護者2未回答/居宅外160h=10) + 世帯形態ひとり親+12 = 22',
+    slug: 'hioki',
+    answers: { p1_situation: 'p1_out_emp_160', adj_setai: 'adj_setai_hitorioya' },
+    expect: 22,
+  },
+  {
+    name: '日置: 19 + きょうだい同施設+10 + 小学生兄弟2人以上+2 = 31',
+    slug: 'hioki',
+    answers: {
+      p1_situation: 'p1_out_emp_160', p2_situation: 'p2_out_emp_120',
+      adj_kyodai_zaien: 'adj_kyodai_zaien_same', adj_kyodai_shogakusei: 'adj_kyodai_shogakusei_2',
+    },
+    expect: 31,
+  },
+  {
+    name: '日置: 市外在住で事由なし-20 を含む = 19-20 = -1',
+    slug: 'hioki',
+    answers: {
+      p1_situation: 'p1_out_emp_160', p2_situation: 'p2_out_emp_120',
+      adj_shigai: 'adj_shigai_riyu_nashi',
+    },
+    expect: -1,
+  },
+  {
+    name: '日置: 父が内職48h(5) + 母が居宅内自営160h(9) = 14',
+    slug: 'hioki',
+    answers: { p1_situation: 'p1_in_hojo_48', p2_situation: 'p2_in_emp_160' },
+    expect: 14,
+  },
 ];
 
 let ng = 0;

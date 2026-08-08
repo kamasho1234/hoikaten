@@ -442,3 +442,5 @@ import "./kimitsu";
 import "./nonoichi";
 import "./ogori";
 import "./yanagawa";
+import "./miyota";
+import "./hioki";
