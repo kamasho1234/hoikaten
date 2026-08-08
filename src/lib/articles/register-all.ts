@@ -441,3 +441,4 @@ import "./nakagawa";
 import "./kimitsu";
 import "./nonoichi";
 import "./ogori";
+import "./yanagawa";

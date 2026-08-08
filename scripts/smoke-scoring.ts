@@ -223,6 +223,113 @@ const cases: Case[] = [
     answers: { p1_situation: 'p1_nai_64', p2_situation: 'p2_out_160' },
     expect: 8,
   },
+  // --- 豊見城市（sum / 最高200）---
+  {
+    name: '豊見城: 父160h以上(20) + 母120h以上(16) = 36',
+    slug: 'tomigusuku',
+    answers: { p1_situation: 'p1_work_160', p2_situation: 'p2_work_120' },
+    expect: 36,
+  },
+  {
+    name: '豊見城: 上記 + 母が採用予定-1 = 35',
+    slug: 'tomigusuku',
+    answers: {
+      p1_situation: 'p1_work_160', p2_situation: 'p2_work_120',
+      p2_naitei: 'p2_naitei_yes',
+    },
+    expect: 35,
+  },
+  {
+    name: '豊見城: ひとり親(保護者2未回答/就労20) +12 = 32',
+    slug: 'tomigusuku',
+    answers: { p1_situation: 'p1_work_160', adj_hitorioya: 'adj_hitorioya_yes' },
+    expect: 32,
+  },
+  {
+    name: '豊見城: ひとり親かつ65歳未満同居人あり(+12-3=+9) 就労20 = 29',
+    slug: 'tomigusuku',
+    answers: { p1_situation: 'p1_work_160', adj_hitorioya: 'adj_hitorioya_yes_dokyo' },
+    expect: 29,
+  },
+  {
+    name: '豊見城: 母のみ妊娠出産(20) 父160h(20) + 保育士市内+15 = 55',
+    slug: 'tomigusuku',
+    answers: {
+      p1_situation: 'p1_work_160', p2_situation: 'p2_birth',
+      adj_hoikushi: 'adj_hoikushi_shinai',
+    },
+    expect: 55,
+  },
+  {
+    name: '豊見城: 父母とも社会的養護100+100 = 200（最高基本指数）',
+    slug: 'tomigusuku',
+    answers: { p1_situation: 'p1_abuse', p2_situation: 'p2_dv' },
+    expect: 200,
+  },
+  {
+    name: '豊見城: 育休延長許容-150 と 未納-15 を含む = 36-165 = -129',
+    slug: 'tomigusuku',
+    answers: {
+      p1_situation: 'p1_work_160', p2_situation: 'p2_work_120',
+      adj_ikukyu_encho: 'adj_ikukyu_encho_yes', adj_minou: 'adj_minou_yes',
+    },
+    expect: -129,
+  },
+  // --- 柳川市（min / 最高300）---
+  {
+    name: '柳川: 保護者1が120h以上(80) 保護者2が60-120h(50) → min=50',
+    slug: 'yanagawa',
+    answers: { p1_hitsuyo: 'p1_work_120', p2_hitsuyo: 'p2_work_60' },
+    expect: 50,
+  },
+  {
+    name: '柳川: 上記 + ひとり親+35 + 兄弟同時利用+30 = 115',
+    slug: 'yanagawa',
+    answers: {
+      p1_hitsuyo: 'p1_work_120', p2_hitsuyo: 'p2_work_60',
+      adj_hitorioya: 'adj_hitorioya_yes', adj_kyodai: 'adj_kyodai_yes',
+    },
+    expect: 115,
+  },
+  {
+    name: '柳川: 保育士加点は該当保護者のみ（p1に+300しても低い方はp2の50）',
+    slug: 'yanagawa',
+    answers: {
+      p1_hitsuyo: 'p1_work_120', p1_hoikushi: 'p1_hoikushi_yes',
+      p2_hitsuyo: 'p2_work_60',
+    },
+    expect: 50,
+  },
+  {
+    name: '柳川: 父母とも保育士(+300)なら min=(80+300)と(50+300)の低い方=350',
+    slug: 'yanagawa',
+    answers: {
+      p1_hitsuyo: 'p1_work_120', p1_hoikushi: 'p1_hoikushi_yes',
+      p2_hitsuyo: 'p2_work_60', p2_hoikushi: 'p2_hoikushi_yes',
+    },
+    expect: 350,
+  },
+  {
+    name: '柳川: ひとり親(保護者2未回答/120h以上80) +35 = 115',
+    slug: 'yanagawa',
+    answers: { p1_hitsuyo: 'p1_work_120', adj_hitorioya: 'adj_hitorioya_yes' },
+    expect: 115,
+  },
+  {
+    name: '柳川: 広域入所-75 を含む 80/80 → 80-75 = 5',
+    slug: 'yanagawa',
+    answers: {
+      p1_hitsuyo: 'p1_work_120', p2_hitsuyo: 'p2_work_120',
+      adj_koiki: 'adj_koiki_yes',
+    },
+    expect: 5,
+  },
+  {
+    name: '柳川: 災害復旧300 と 虐待DV300 → min=300（最高基本指数）',
+    slug: 'yanagawa',
+    answers: { p1_hitsuyo: 'p1_disaster', p2_hitsuyo: 'p2_dv' },
+    expect: 300,
+  },
 ];
 
 let ng = 0;

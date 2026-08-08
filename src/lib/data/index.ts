@@ -18,6 +18,8 @@ import { kyotanabeData } from './kyotanabe';
 import { kizugawaData } from './kizugawa';
 import { moriyamaData } from './moriyama';
 import { ogoriData } from './ogori';
+import { tomigusukuData } from './tomigusuku';
+import { yanagawaData } from './yanagawa';
 import { setagayaData } from './setagaya';
 import { yokohamaData } from './yokohama';
 import { osakaData } from './osaka';
@@ -899,6 +901,8 @@ const municipalityMap: Record<string, MunicipalityData> = {
   [kizugawaData.municipality.slug]: kizugawaData,
   [moriyamaData.municipality.slug]: moriyamaData,
   [ogoriData.municipality.slug]: ogoriData,
+  [tomigusukuData.municipality.slug]: tomigusukuData,
+  [yanagawaData.municipality.slug]: yanagawaData,
 };
 
 export function getMunicipalityData(slug: string): MunicipalityData | undefined {
@@ -966,6 +970,7 @@ export { kyotanabeData };
 export { kizugawaData };
 export { moriyamaData };
 export { ogoriData };
+export { tomigusukuData, yanagawaData };
 export { kashiwaData, matsudoData, yamaguchiData };
 export { takamatsuData, sagaData };
 export { odawaraData, kamakuraData };
