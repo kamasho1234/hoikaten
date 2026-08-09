@@ -9,6 +9,10 @@ export interface Municipality {
   prefecture: string;
   maxBasePoints: number;
   scoringMethod?: ScoringMethod; // "sum"(加算・デフォルト) | "min"(低い方を採用) | "avg"(父母の平均)
+  // 原典が世帯の基準指数に上限を定めている自治体で指定する
+  // （例: 須恵町「父母それぞれの指数を合算し、世帯の指数を決定する。なお、基準指数の上限は150とする」）
+  // 調整指数の加減算は、この上限適用後の基準指数に対して行われる
+  baseCap?: number;
 }
 
 export interface QuestionOption {

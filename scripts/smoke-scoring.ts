@@ -511,13 +511,59 @@ const cases: Case[] = [
     },
     expect: 15,
   },
+  // --- 須恵町（sum / 上限150）---
+  {
+    name: '須恵: 父が居宅外被雇用160h(150) + 母が居宅内64h(80) → 合算230だが上限150が適用され150',
+    slug: 'sue',
+    answers: { p1_situation: 'p1_out1_160', p2_situation: 'p2_in1_64' },
+    expect: 150,
+  },
+  {
+    name: '須恵: 父が採用見込み64h(70) + 母が求職中(就労先未定10) = 80（上限150未満なのでそのまま）',
+    slug: 'sue',
+    answers: { p1_situation: 'p1_out3_64', p2_situation: 'p2_seek_other' },
+    expect: 80,
+  },
+  {
+    name: '須恵: 保育士加算は保護者ごと（父200・母115＝合算315）だが上限150が適用され150',
+    slug: 'sue',
+    answers: {
+      p1_situation: 'p1_out1_160', p1_hoikushi: 'p1_hoikushi_120',
+      p2_situation: 'p2_in1_64', p2_hoikushi: 'p2_hoikushi_64',
+    },
+    expect: 150,
+  },
+  {
+    name: '須恵: ひとり親(保護者2未回答/居宅外被雇用160h=150・上限内) + 同居者なしひとり親+75 = 225',
+    slug: 'sue',
+    answers: { p1_situation: 'p1_out1_160', adj_hitorioya: 'adj_hitorioya_keizoku' },
+    expect: 225,
+  },
+  {
+    name: '須恵: 上限適用後の基準指数150 + 生計中心者の失業+100 + きょうだい入園済+30 = 280',
+    slug: 'sue',
+    answers: {
+      p1_situation: 'p1_out1_160', p2_situation: 'p2_in1_64',
+      adj_shitsugyo: 'adj_shitsugyo_yes', adj_kyodai: 'adj_kyodai_nyuen',
+    },
+    expect: 280,
+  },
+  {
+    name: '須恵: 上限適用後の基準指数150 から 復職予定日が2か月以上先-150 と 同居祖父母-10 = -10',
+    slug: 'sue',
+    answers: {
+      p1_situation: 'p1_out1_160', p2_situation: 'p2_in1_64',
+      adj_fukushoku_saki: 'adj_fukushoku_saki_yes', adj_sofubo: 'adj_sofubo_yes',
+    },
+    expect: -10,
+  },
 ];
 
 let ng = 0;
 for (const c of cases) {
   const data = getMunicipalityData(c.slug);
   if (!data) { console.log(`NG (データ未登録): ${c.name}`); ng++; continue; }
-  const r = calculateScore(data.questions, c.answers, data.municipality.scoringMethod);
+  const r = calculateScore(data.questions, c.answers, data.municipality.scoringMethod, data.municipality.baseCap);
   const ok = r.total === c.expect;
   if (!ok) ng++;
   console.log(`${ok ? 'OK ' : 'NG '} ${c.name} => total=${r.total} (p1=${r.parent1Base} p2=${r.parent2Base} adj=${r.adjustment}) 期待=${c.expect}`);

@@ -757,7 +757,7 @@ export function SimulatorForm({ data }: { data: MunicipalityData }) {
   // Compute result
   const result = useMemo(() => {
     if (step !== "result") return null;
-    return calculateScore(data.questions, answers, data.municipality.scoringMethod);
+    return calculateScore(data.questions, answers, data.municipality.scoringMethod, data.municipality.baseCap);
   }, [step, data.questions, answers, data.municipality.scoringMethod]);
 
   const safeQuestionIndex = Math.min(questionIndex, Math.max(0, visibleQuestions.length - 1));

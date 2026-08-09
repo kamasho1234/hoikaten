@@ -3,7 +3,8 @@ import type { Question, SimulationResult, ScoringMethod } from "../types";
 export function calculateScore(
   questions: Question[],
   answers: Record<string, string>,
-  scoringMethod: ScoringMethod = "sum"
+  scoringMethod: ScoringMethod = "sum",
+  baseCap?: number
 ): SimulationResult {
   let parent1Base = 0;
   let parent2Base = 0;
@@ -55,11 +56,15 @@ export function calculateScore(
           : parent1Base
         : parent1Base + parent2Base;
 
+  // 須恵町等: 原典が世帯の基準指数に上限を定めている場合、調整指数の加減算前に上限を適用する
+  const cappedBaseScore =
+    baseCap !== undefined ? Math.min(baseScore, baseCap) : baseScore;
+
   return {
     parent1Base,
     parent2Base,
     adjustment,
-    total: baseScore + adjustment,
+    total: cappedBaseScore + adjustment,
     breakdown,
   };
 }
