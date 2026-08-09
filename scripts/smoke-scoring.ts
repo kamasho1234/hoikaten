@@ -465,6 +465,52 @@ const cases: Case[] = [
     },
     expect: 20,
   },
+  // --- 小野市（sum / 最高20）---
+  {
+    name: '小野: 父母とも家庭外労働(中心者)1日8h以上(10+10) = 20（最高基準指数）',
+    slug: 'ono',
+    answers: { p1_situation: 'p1_out_c_8', p2_situation: 'p2_out_c_8' },
+    expect: 20,
+  },
+  {
+    name: '小野: 父が家庭外中心者8h(10) + 母が家庭内協力者5h未満(2) = 12',
+    slug: 'ono',
+    answers: { p1_situation: 'p1_out_c_8', p2_situation: 'p2_in_k_u5' },
+    expect: 12,
+  },
+  {
+    name: '小野: 就労日数の減点は保護者ごと（父が月16日未満-3、母が月18日未満-1）= 20-4 = 16',
+    slug: 'ono',
+    answers: {
+      p1_situation: 'p1_out_c_8', p1_shurou_nissu: 'p1_nissu_12',
+      p2_situation: 'p2_out_c_8', p2_shurou_nissu: 'p2_nissu_18',
+    },
+    expect: 16,
+  },
+  {
+    name: '小野: ひとり親(保護者2未回答/家庭外中心者8h=10) +3 = 13',
+    slug: 'ono',
+    answers: { p1_situation: 'p1_out_c_8', adj_hitorioya: 'adj_hitorioya_yes' },
+    expect: 13,
+  },
+  {
+    name: '小野: 20 + 市内保育士+8 + きょうだい在園+5 = 33',
+    slug: 'ono',
+    answers: {
+      p1_situation: 'p1_out_c_8', p2_situation: 'p2_out_c_8',
+      adj_hoikushi: 'adj_hoikushi_shinai', adj_kyodai: 'adj_kyodai_zaien',
+    },
+    expect: 33,
+  },
+  {
+    name: '小野: 同居祖父母-3 と 書類未提出-2 を含む 20-5 = 15',
+    slug: 'ono',
+    answers: {
+      p1_situation: 'p1_out_c_8', p2_situation: 'p2_out_c_8',
+      adj_sofubo: 'adj_sofubo_yes', adj_shorui: 'adj_shorui_nashi',
+    },
+    expect: 15,
+  },
 ];
 
 let ng = 0;

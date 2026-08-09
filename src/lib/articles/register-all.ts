@@ -445,3 +445,4 @@ import "./yanagawa";
 import "./miyota";
 import "./hioki";
 import "./muko";
+import "./ono";
