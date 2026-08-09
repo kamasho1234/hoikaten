@@ -557,6 +557,52 @@ const cases: Case[] = [
     },
     expect: -10,
   },
+  // --- 八女市（sum / 最高200）---
+  {
+    name: '八女: 父母とも就労160h以上(100+100) = 200（最高基本点数）',
+    slug: 'yame',
+    answers: { p1_situation: 'p1_work_160', p2_situation: 'p2_work_160' },
+    expect: 200,
+  },
+  {
+    name: '八女: 父が就労120h(84) + 母が家内労働90h(70) = 154',
+    slug: 'yame',
+    answers: { p1_situation: 'p1_work_120', p2_situation: 'p2_kanai_90' },
+    expect: 154,
+  },
+  {
+    name: '八女: ひとり親(保護者2未回答/就労160h=100) + 基本100+調整100 = 300',
+    slug: 'yame',
+    answers: { p1_situation: 'p1_work_160', adj_setai: 'adj_setai_hitorioya' },
+    expect: 300,
+  },
+  {
+    name: '八女: 200 + 市内保育士+100 + きょうだい利用中+30 = 330',
+    slug: 'yame',
+    answers: {
+      p1_situation: 'p1_work_160', p2_situation: 'p2_work_160',
+      adj_hoikushi: 'adj_hoikushi_shinai', adj_kyodai: 'adj_kyodai_riyou',
+    },
+    expect: 330,
+  },
+  {
+    name: '八女: 世帯の状況は区分内で1つのみ（生活保護100を選ぶとひとり親200は加算されない）',
+    slug: 'yame',
+    answers: {
+      p1_situation: 'p1_work_160', p2_situation: 'p2_work_160',
+      adj_setai: 'adj_setai_hogo',
+    },
+    expect: 300,
+  },
+  {
+    name: '八女: 母のみ妊娠出産(80) + 父就労160h(100) + 単身赴任+10 = 190',
+    slug: 'yame',
+    answers: {
+      p1_situation: 'p1_work_160', p2_situation: 'p2_birth',
+      adj_tanshin: 'adj_tanshin_yes',
+    },
+    expect: 190,
+  },
 ];
 
 let ng = 0;
