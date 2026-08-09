@@ -449,3 +449,4 @@ import "./ono";
 import "./sue";
 import "./yame";
 import "./ichikikushikino";
+import "./yamaga";

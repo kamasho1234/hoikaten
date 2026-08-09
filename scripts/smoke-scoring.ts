@@ -655,6 +655,58 @@ const cases: Case[] = [
     answers: { p2_situation: 'p2_ikukyu' },
     expect: 10,
   },
+  // --- 山鹿市（sum / 最高40）---
+  {
+    name: '山鹿: 父母とも外勤160h以上(10+10) = 20',
+    slug: 'yamaga',
+    answers: { p1_situation: 'p1_work_160', p2_situation: 'p2_work_160' },
+    expect: 20,
+  },
+  {
+    name: '山鹿: 父が外勤64h(6) + 母が内職(月収不明5) = 11',
+    slug: 'yamaga',
+    answers: { p1_situation: 'p1_work_64', p2_situation: 'p2_naishoku_fumei' },
+    expect: 11,
+  },
+  {
+    name: '山鹿: 自営の資料未提出は保護者ごとの減算（父-4）20-4 = 16',
+    slug: 'yamaga',
+    answers: {
+      p1_situation: 'p1_work_160', p1_jiei_shorui: 'p1_jiei_shorui_nashi',
+      p2_situation: 'p2_work_160',
+    },
+    expect: 16,
+  },
+  {
+    name: '山鹿: ひとり親(保護者2未回答/外勤160h=10) +15 = 25',
+    slug: 'yamaga',
+    answers: { p1_situation: 'p1_work_160', adj_hitorioya: 'adj_hitorioya_yes' },
+    expect: 25,
+  },
+  {
+    name: '山鹿: 20 + 市内保育士+15 + 3歳未満児施設卒園+12 = 47',
+    slug: 'yamaga',
+    answers: {
+      p1_situation: 'p1_work_160', p2_situation: 'p2_work_160',
+      adj_hoikushi: 'adj_hoikushi_yes', adj_sotsuen: 'adj_sotsuen_yes',
+    },
+    expect: 47,
+  },
+  {
+    name: '山鹿: 滞納-5 と 市内転園-3 = 20-8 = 12',
+    slug: 'yamaga',
+    answers: {
+      p1_situation: 'p1_work_160', p2_situation: 'p2_work_160',
+      adj_tainou: 'adj_tainou_yes', adj_tenen: 'adj_tenen_yes',
+    },
+    expect: 12,
+  },
+  {
+    name: '山鹿: 母のみの妊娠出産(8)が母側に存在する',
+    slug: 'yamaga',
+    answers: { p2_situation: 'p2_birth' },
+    expect: 8,
+  },
 ];
 
 let ng = 0;
