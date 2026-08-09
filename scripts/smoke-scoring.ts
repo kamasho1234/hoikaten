@@ -410,6 +410,61 @@ const cases: Case[] = [
     answers: { p1_situation: 'p1_in_hojo_48', p2_situation: 'p2_in_emp_160' },
     expect: 14,
   },
+  // --- 向日市（sum / 最高80）---
+  {
+    name: '向日: 父母とも居宅外週40h以上(40+40) = 80（原典※7の「基本指数の合計が80点」と一致）',
+    slug: 'muko',
+    answers: { p1_situation: 'p1_out_40', p2_situation: 'p2_out_40' },
+    expect: 80,
+  },
+  {
+    name: '向日: 父が居宅内週40h(36)+個人事業主+4 と 母が居宅外週40h(40) = 80（※7の但し書きと一致）',
+    slug: 'muko',
+    answers: {
+      p1_situation: 'p1_in_40', p1_kojin_jigyonushi: 'p1_kojin_yes',
+      p2_situation: 'p2_out_40',
+    },
+    expect: 80,
+  },
+  {
+    name: '向日: 父40 + 母のみ妊娠出産(30) = 70',
+    slug: 'muko',
+    answers: { p1_situation: 'p1_out_40', p2_situation: 'p2_birth' },
+    expect: 70,
+  },
+  {
+    name: '向日: ひとり親(保護者2未回答/居宅外週40h=40) +50 = 90',
+    slug: 'muko',
+    answers: { p1_situation: 'p1_out_40', adj_hitorioya: 'adj_hitorioya_yes' },
+    expect: 90,
+  },
+  {
+    name: '向日: 70 + 保育士市内+10 + きょうだい在園+6 = 86',
+    slug: 'muko',
+    answers: {
+      p1_situation: 'p1_out_40', p2_situation: 'p2_out_30',
+      adj_hoikushi: 'adj_hoikushi_shinai', adj_kyodai: 'adj_kyodai_zaien',
+    },
+    expect: 86,
+  },
+  {
+    name: '向日: 保護者ごとの加減算（父が内定-5、母が週30h以上+2）= 40-5+30+2 = 67',
+    slug: 'muko',
+    answers: {
+      p1_situation: 'p1_out_40', p1_shurou_jokyo: 'p1_shurou_naitei',
+      p2_situation: 'p2_out_30', p2_shurou_jikan: 'p2_shurou_jikan_30ijo',
+    },
+    expect: 67,
+  },
+  {
+    name: '向日: 滞納-50 を含む 70-50 = 20',
+    slug: 'muko',
+    answers: {
+      p1_situation: 'p1_out_40', p2_situation: 'p2_out_30',
+      adj_tainou: 'adj_tainou_yes',
+    },
+    expect: 20,
+  },
 ];
 
 let ng = 0;
