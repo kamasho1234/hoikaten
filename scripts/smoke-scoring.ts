@@ -603,6 +603,58 @@ const cases: Case[] = [
     },
     expect: 190,
   },
+  // --- いちき串木野市（sum / 最高20）---
+  {
+    name: 'いちき串木野: 公式の計算例（父A1=10 + 母C1=8 + 児童手帳所持3）= 21',
+    slug: 'ichikikushikino',
+    answers: {
+      p1_situation: 'p1_A1', p2_situation: 'p2_C1',
+      adj_jido_techo: 'adj_jido_techo_yes',
+    },
+    expect: 21,
+  },
+  {
+    name: 'いちき串木野: 父母とも居宅外A1(10+10) = 20（最高基準指数）',
+    slug: 'ichikikushikino',
+    answers: { p1_situation: 'p1_A1', p2_situation: 'p2_A1' },
+    expect: 20,
+  },
+  {
+    name: 'いちき串木野: 父が内職O2(3) + 母が居宅内自営専従者K3(4) = 7',
+    slug: 'ichikikushikino',
+    answers: { p1_situation: 'p1_O2', p2_situation: 'p2_K3' },
+    expect: 7,
+  },
+  {
+    name: 'いちき串木野: ひとり親(保護者2未回答/A1=10) +15 = 25',
+    slug: 'ichikikushikino',
+    answers: { p1_situation: 'p1_A1', adj_hitorioya: 'adj_hitorioya_yes' },
+    expect: 25,
+  },
+  {
+    name: 'いちき串木野: 産前産後ときょうだいは併用可(+5)、育休とは排他 20+5 = 25',
+    slug: 'ichikikushikino',
+    answers: {
+      p1_situation: 'p1_A1', p2_situation: 'p2_A1',
+      adj_sankyu_kyodai: 'adj_sankyu_kyodai_both',
+    },
+    expect: 25,
+  },
+  {
+    name: 'いちき串木野: 市外在住かつ勤務地市外-20 と 同居祖父母-5 = 20-25 = -5',
+    slug: 'ichikikushikino',
+    answers: {
+      p1_situation: 'p1_A1', p2_situation: 'p2_A1',
+      adj_koiki: 'adj_koiki_shigai', adj_sofubo: 'adj_sofubo_yes',
+    },
+    expect: -5,
+  },
+  {
+    name: 'いちき串木野: 母のみの育児休業(10)が母側に存在する',
+    slug: 'ichikikushikino',
+    answers: { p2_situation: 'p2_ikukyu' },
+    expect: 10,
+  },
 ];
 
 let ng = 0;

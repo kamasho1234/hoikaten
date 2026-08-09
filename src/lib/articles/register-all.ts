@@ -448,3 +448,4 @@ import "./muko";
 import "./ono";
 import "./sue";
 import "./yame";
+import "./ichikikushikino";
