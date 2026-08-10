@@ -117,4 +117,30 @@ console.log(`  「平均」の自治体（${avgList.length}件）: ` + avgList.m
 const tanshin = collect((t) => /単身赴任/.test(t), 'max', (p) => p > 0);
 report('単身赴任による加点', tanshin, 'max', 8);
 
+// 7) 転園の減点／加点（引越し記事）
+const tenenGen = collect((t) => /転園/.test(t), 'min', (p) => p < 0);
+report('転園希望による減点', tenenGen, 'min', 10);
+const tenenKa = collect((t) => /転園|移行/.test(t), 'max', (p) => p > 0);
+report('転園・移行による加点', tenenKa, 'max', 8);
+
+// 8) 広域入所・管外委託
+const koiki = collect((t) => /広域(入所|利用)|管外/.test(t), 'min', () => true);
+report('広域入所・管外委託の項目', koiki, 'min', 8);
+
+// 9) きょうだい加点（同一施設の在園・同時申込）
+const kyodai = collect(
+  (t) => /(きょうだい|兄弟姉妹|兄弟|兄・姉)/.test(t),
+  'max',
+  (p) => p > 0
+);
+report('きょうだいに関する加点', kyodai, 'max', 6);
+
+// 10) 小規模保育・地域型保育の卒園加点
+const shokibo = collect(
+  (t) => /(小規模|地域型|家庭的保育|事業所内).{0,16}(卒園|卒)/.test(t),
+  'max',
+  (p) => p > 0
+);
+report('小規模保育・地域型保育の卒園加点', shokibo, 'max', 6);
+
 console.log(`\n※ 母数はいずれも本サイト収録の${all.length}自治体。全国1,741市区町村の悉皆調査ではない。`);

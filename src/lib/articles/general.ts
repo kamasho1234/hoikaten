@@ -6,6 +6,7 @@ import { guideArticles } from "./general-guide";
 import { columnArticles1 } from "./general-column-1";
 import { columnArticles2 } from "./general-column-2";
 import { dataArticles } from "./general-data";
+import { moveArticles } from "./general-move";
 
 registerArticles([
   ...interviewArticles1,
@@ -15,4 +16,5 @@ registerArticles([
   ...columnArticles1,
   ...columnArticles2,
   ...dataArticles,
+  ...moveArticles,
 ]);
