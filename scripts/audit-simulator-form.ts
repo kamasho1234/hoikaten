@@ -40,6 +40,56 @@ function visibleParentQuestions(
   );
 }
 
+/** simulator-form.tsx の parent2 ステップの visibleQuestions を丸ごと再現（ひとり親質問を含む） */
+function visibleParent2Step(all: Question[], answers: Record<string, string>): Question[] {
+  const sp = all.find((q) => q.id === 'adj_single_parent');
+  const spAnswer = answers['adj_single_parent'];
+  const answered = spAnswer !== undefined;
+  const isSingle = (() => {
+    if (!sp || spAnswer === undefined) return false;
+    const opt = sp.options.find((o) => o.value === spAnswer);
+    return !!opt && opt.points > 0;
+  })();
+  if (sp && (!answered || isSingle)) return [sp];
+  const withSp = (qs: Question[]) => (sp ? [sp, ...qs] : qs);
+  const reason = answers['parent2_reason']
+    ? answers['parent2_reason'].replace('parent2_reason_', '')
+    : null;
+  return withSp(visibleParentQuestions(all, 'parent2', reason));
+}
+
+/**
+ * 保護者2ステップのフォーム遷移をシミュレートする。
+ * 「ひとり親ではない」と答えたのに保護者2の設問が1問も聞かれないまま
+ * 次のステップへ進んでしまうケース（＝保護者2が0点で確定する）を検出するためのもの。
+ */
+function simulateParent2Step(all: Question[]): { askedParent2: number; ended: string } {
+  const answers: Record<string, string> = {};
+  let index = 0;
+  let askedParent2 = 0;
+  for (let guard = 0; guard < 100; guard++) {
+    const list = visibleParent2Step(all, answers);
+    if (list.length === 0) return { askedParent2, ended: 'empty' };
+    const safeIndex = Math.min(index, Math.max(0, list.length - 1));
+    const q = list[safeIndex];
+    if (!q) return { askedParent2, ended: 'no-question' };
+    if (q.category === 'parent2_base') askedParent2++;
+    // ひとり親質問には「いいえ」（0点）を、それ以外は点数のある選択肢を選ぶ
+    const opt =
+      q.id === 'adj_single_parent'
+        ? q.options.find((o) => o.points === 0)
+        : q.options.find((o) => o.points !== 0) ?? q.options[0];
+    if (!opt) return { askedParent2, ended: 'no-option' };
+    answers[q.id] = opt.value;
+    // simulator-form.tsx の自動進行判定を再現
+    const after = visibleParent2Step(all, answers);
+    const idxAfter = Math.min(index, Math.max(0, after.length - 1));
+    if (idxAfter < after.length - 1) index = idxAfter + 1;
+    else return { askedParent2, ended: 'next-step' };
+  }
+  return { askedParent2, ended: 'loop' };
+}
+
 /**
  * 「選んでも必ず0点になる選択肢」の既知例外。
  * いずれも原典を確認したうえで 0 点が正しい、または点数が公開されていないもの。
@@ -132,14 +182,26 @@ for (const m of all) {
     if (vis.length === 0) add('ステップ開始時に質問が0件', `${s.key} ステップで画面が空になる`);
   }
 
-  // 6) 同一質問内での value 重複（同じ値が2つあると選択が壊れる）
+  // 6) 保護者2ステップの遷移シミュレーション
+  //    「ひとり親ではない」と答えたのに保護者2の設問が1問も聞かれずに次へ進んでしまう不具合の検出
+  if (p2.length > 0) {
+    const sim = simulateParent2Step(qs);
+    if (sim.askedParent2 === 0) {
+      add(
+        '保護者2の設問が1問も聞かれない',
+        `ひとり親「いいえ」と回答しても保護者2の質問に到達しない（終了理由: ${sim.ended}）`
+      );
+    }
+  }
+
+  // 7) 同一質問内での value 重複（同じ値が2つあると選択が壊れる）
   for (const q of qs) {
     const vals = q.options.map((o) => o.value);
     const dup = vals.filter((v, i) => vals.indexOf(v) !== i);
     if (dup.length) add('選択肢のvalue重複', `${q.id}: [${[...new Set(dup)].join(', ')}]`);
   }
 
-  // 7) 質問IDの重複（回答が混線する）
+  // 8) 質問IDの重複（回答が混線する）
   const ids = qs.map((q) => q.id);
   const dupId = ids.filter((v, i) => ids.indexOf(v) !== i);
   if (dupId.length) add('質問IDの重複', `[${[...new Set(dupId)].join(', ')}]`);

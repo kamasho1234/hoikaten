@@ -750,21 +750,33 @@ export function SimulatorForm({ data }: { data: MunicipalityData }) {
       // まずひとり親かどうかを聞き、ひとり親なら保護者2の設問は尋ねない
       // （min方式で min(保護者1, 0) = 0 になってしまうのを防ぐため、engine 側も
       //   「保護者2の回答が1つもない」ことでひとり親を判定している）
+      //
+      // 重要: ひとり親質問は「答えたら消える」のではなく、常にこのステップの先頭質問として
+      // リストに残し続ける。以前は答えた瞬間にリストから外していたため、
+      //   [ひとり親質問](1問) → 「いいえ」を選択 → [parent2_reason](1問)
+      // とリストが入れ替わり、自動進行の判定 `index < length - 1` が 0 < 0 = false となって
+      // 「ステップ内の最後の質問を終えた」と誤判定され、保護者2が丸ごと飛ばされていた。
       if (singleParentQuestion) {
-        if (!hasAnsweredSingleParent) return [singleParentQuestion];
-        if (isSingleParent) return [singleParentQuestion];
+        // 未回答のあいだ、およびひとり親の場合はこの1問だけ
+        if (!hasAnsweredSingleParent || isSingleParent) return [singleParentQuestion];
       }
-      // ひとり親でない場合は通常の保護者2質問
+      // ひとり親でない場合は「ひとり親質問 + 保護者2の質問」を通しで表示する
       const parent2Qs = allQ.filter((q) => q.category === "parent2_base");
+      const withSingleParent = (qs: Question[]) =>
+        singleParentQuestion ? [singleParentQuestion, ...qs] : qs;
       // reason質問を持たない自治体は base 質問をすべて順番に表示する
-      if (!parent2Qs.some((q) => q.id === "parent2_reason")) return parent2Qs;
+      if (!parent2Qs.some((q) => q.id === "parent2_reason")) return withSingleParent(parent2Qs);
       const reason = getReasonFromAnswers(answers, "parent2");
-      if (!reason) return parent2Qs.filter((q) => q.id === "parent2_reason");
-      return parent2Qs.filter(
-        (q) =>
-          q.id === "parent2_reason" ||
-          q.id === `parent2_${reason}` ||
-          q.showFor?.includes(reason)
+      if (!reason) {
+        return withSingleParent(parent2Qs.filter((q) => q.id === "parent2_reason"));
+      }
+      return withSingleParent(
+        parent2Qs.filter(
+          (q) =>
+            q.id === "parent2_reason" ||
+            q.id === `parent2_${reason}` ||
+            q.showFor?.includes(reason)
+        )
       );
     }
 
