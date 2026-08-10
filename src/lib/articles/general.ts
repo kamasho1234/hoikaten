@@ -5,6 +5,7 @@ import { roundtableArticles } from "./general-roundtable";
 import { guideArticles } from "./general-guide";
 import { columnArticles1 } from "./general-column-1";
 import { columnArticles2 } from "./general-column-2";
+import { dataArticles } from "./general-data";
 
 registerArticles([
   ...interviewArticles1,
@@ -13,4 +14,5 @@ registerArticles([
   ...guideArticles,
   ...columnArticles1,
   ...columnArticles2,
+  ...dataArticles,
 ]);
