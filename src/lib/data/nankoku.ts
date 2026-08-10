@@ -25,7 +25,6 @@ function makeParentQuestions(p: 'parent1' | 'parent2'): Question[] {
       label: `保護者${pNum}の保育を必要とする主な事由`,
       inputType: 'select',
       options: [
-        { label: '選択してください', value: `${p}_reason_none`, points: 0 },
         { label: '就労（居宅外・中心者 / 居宅外・協力者 / 居宅内 / 内職）', value: `${p}_reason_work`, points: 0 },
         { label: '出産（産前産後8週以内）（60点）', value: `${p}_reason_birth_60`, points: 60 },
         { label: '出産（産前産後6ヶ月以内・8週除く）（15点）', value: `${p}_reason_birth_15`, points: 15 },

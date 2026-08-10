@@ -70,7 +70,6 @@ const parent1Questions: Question[] = [
     helpText: 'さぬき市では複数の事由に該当する場合、最も点数が高くなる事由が採用されます。父または母のうち保育が必要な度合いが高い方の状況をお選びください',
     inputType: 'select',
     options: [
-      { label: '選択してください', value: 'parent1_reason_none', points: 0 },
       { label: '居宅外就労・自営業（居宅外）代表者（区分1）', value: 'parent1_reason_ext1', points: 0 },
       { label: '居宅外就労・自営業（居宅外）代表者以外（区分2）', value: 'parent1_reason_ext2', points: 0 },
       { label: '居宅内自営業（区分3）', value: 'parent1_reason_home', points: 0 },

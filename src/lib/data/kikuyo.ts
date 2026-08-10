@@ -27,7 +27,6 @@ function makeParentQuestions(p: 'parent1' | 'parent2'): Question[] {
       label: `保護者${pNum}の保育を必要とする主な事由`,
       inputType: 'select',
       options: [
-        { label: '選択してください', value: `${p}_reason_none`, points: 0 },
         { label: '就労（雇用・自営業）', value: `${p}_reason_work`, points: 0 },
         { label: '内職', value: `${p}_reason_piecework`, points: 0 },
         { label: '就労先未定（求職活動）（2点）', value: `${p}_reason_jobseeking`, points: 2 },

@@ -64,6 +64,8 @@ export function calculateScore(
     parent1Base,
     parent2Base,
     adjustment,
+    householdBase: cappedBaseScore,
+    hasParent2,
     total: cappedBaseScore + adjustment,
     breakdown,
   };

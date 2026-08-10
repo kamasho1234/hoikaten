@@ -15,12 +15,24 @@ import { RandomTextAd } from "@/components/random-text-ad";
 
 type Step = "parent1" | "parent2" | "adjustment" | "result";
 
-const STEPS: { key: Step; label: string }[] = [
-  { key: "parent1", label: "保護者1" },
-  { key: "parent2", label: "保護者2" },
-  { key: "adjustment", label: "家庭の状況" },
+const ALL_STEPS: { key: Step; label: string; category?: Question["category"] }[] = [
+  { key: "parent1", label: "保護者1", category: "parent1_base" },
+  { key: "parent2", label: "保護者2", category: "parent2_base" },
+  { key: "adjustment", label: "家庭の状況", category: "adjustment" },
   { key: "result", label: "結果" },
 ];
+
+/**
+ * その自治体で実際に質問があるステップだけを返す。
+ * 自治体によっては保護者2の設問がない（さぬき市＝原典が「父母の高い方」を採る方式）、
+ * 調整指数がない（南アルプス市・野々市市＝原典に調整項目がない）ことがあり、
+ * 固定のステップ構成にすると質問が1問も出ないまま画面が止まってしまうため。
+ */
+function buildSteps(questions: Question[]) {
+  return ALL_STEPS.filter(
+    (s) => !s.category || questions.some((q) => q.category === s.category)
+  );
+}
 
 function getReasonFromAnswers(
   answers: Record<string, string>,
@@ -675,7 +687,8 @@ export function SimulatorForm({ data }: { data: MunicipalityData }) {
   const [questionIndex, setQuestionIndex] = useState(0);
   const [pendingAdvance, setPendingAdvance] = useState(false);
 
-  const stepIndex = STEPS.findIndex((s) => s.key === step);
+  const STEPS = useMemo(() => buildSteps(data.questions), [data.questions]);
+  const stepIndex = Math.max(0, STEPS.findIndex((s) => s.key === step));
   const progress = ((stepIndex + 1) / STEPS.length) * 100;
 
   const setAnswer = useCallback((questionId: string, value: string) => {
@@ -695,13 +708,25 @@ export function SimulatorForm({ data }: { data: MunicipalityData }) {
     setPendingAdvance(true);
   }, []);
 
+  // 保護者2のステップ自体が存在するか（さぬき市のように保護者1のみ入力する自治体がある）
+  const hasParent2Step = useMemo(() => STEPS.some((s) => s.key === "parent2"), [STEPS]);
   const isMinScoring = data.municipality.scoringMethod === "min";
   const isAvgScoring = data.municipality.scoringMethod === "avg";
 
   // ひとり親判定（保護者2ステップの冒頭で聞く）
-  const isSingleParent =
-    answers["adj_single_parent"] === "adj_single_parent_yes" ||
-    answers["adj_single_parent"] === "adj_single_parent_relative";
+  // 選択肢の value 名は自治体ごとにばらつきがあるため（adj_sp_no / adj_single_no /
+  // adj_single_parent_none など）、value 文字列ではなく「加点のある選択肢が選ばれたか」で判定する。
+  const singleParentQuestion = useMemo(
+    () => data.questions.find((q) => q.id === "adj_single_parent"),
+    [data.questions]
+  );
+  const singleParentAnswer = answers["adj_single_parent"];
+  const hasAnsweredSingleParent = singleParentAnswer !== undefined;
+  const isSingleParent = useMemo(() => {
+    if (!singleParentQuestion || singleParentAnswer === undefined) return false;
+    const opt = singleParentQuestion.options.find((o) => o.value === singleParentAnswer);
+    return !!opt && opt.points > 0;
+  }, [singleParentQuestion, singleParentAnswer]);
 
   // Filter questions for current step
   const visibleQuestions = useMemo(() => {
@@ -722,15 +747,14 @@ export function SimulatorForm({ data }: { data: MunicipalityData }) {
     }
 
     if (step === "parent2") {
-      // まずひとり親かどうかを聞く
-      const singleParentQ = allQ.find((q) => q.id === "adj_single_parent");
-      if (singleParentQ && answers["adj_single_parent"] !== "adj_single_parent_no") {
-        // ひとり親未回答 or 「はい」の場合、ひとり親質問だけ表示
-        if (!answers["adj_single_parent"] || isSingleParent) {
-          return singleParentQ ? [singleParentQ] : [];
-        }
+      // まずひとり親かどうかを聞き、ひとり親なら保護者2の設問は尋ねない
+      // （min方式で min(保護者1, 0) = 0 になってしまうのを防ぐため、engine 側も
+      //   「保護者2の回答が1つもない」ことでひとり親を判定している）
+      if (singleParentQuestion) {
+        if (!hasAnsweredSingleParent) return [singleParentQuestion];
+        if (isSingleParent) return [singleParentQuestion];
       }
-      // ひとり親「いいえ」の場合は通常の保護者2質問
+      // ひとり親でない場合は通常の保護者2質問
       const parent2Qs = allQ.filter((q) => q.category === "parent2_base");
       // reason質問を持たない自治体は base 質問をすべて順番に表示する
       if (!parent2Qs.some((q) => q.id === "parent2_reason")) return parent2Qs;
@@ -746,13 +770,25 @@ export function SimulatorForm({ data }: { data: MunicipalityData }) {
 
     if (step === "adjustment") {
       // ひとり親質問は保護者2ステップで回答済みなので除外
+      // ただし保護者2ステップが存在しない自治体では、ここで聞かないと一度も尋ねられなくなる
+      const hasParent2Step = STEPS.some((s) => s.key === "parent2");
       return allQ.filter(
-        (q) => q.category === "adjustment" && q.id !== "adj_single_parent"
+        (q) =>
+          q.category === "adjustment" &&
+          (hasParent2Step ? q.id !== "adj_single_parent" : true)
       );
     }
 
     return [];
-  }, [data.questions, step, answers]);
+  }, [
+    data.questions,
+    step,
+    answers,
+    STEPS,
+    singleParentQuestion,
+    hasAnsweredSingleParent,
+    isSingleParent,
+  ]);
 
   // Compute result
   const result = useMemo(() => {
@@ -785,6 +821,21 @@ export function SimulatorForm({ data }: { data: MunicipalityData }) {
     return () => clearTimeout(timer);
   }, [step, safeQuestionIndex]);
 
+  // 表示する質問が1問もないステップに来たら、自動的に次のステップへ進める。
+  // STEPS 側で空ステップは除外しているが、回答内容によって 0 件になる場合の安全網として残す
+  // （ここがないと質問カードごと消えて画面が空のまま操作不能になる）
+  useEffect(() => {
+    if (step === "result") return;
+    if (visibleQuestions.length > 0) return;
+    const idx = STEPS.findIndex((s) => s.key === step);
+    if (idx >= 0 && idx < STEPS.length - 1) {
+      const nextStep = STEPS[idx + 1].key;
+      if (nextStep === "result") setShowAdPopup(true);
+      setStep(nextStep);
+      setQuestionIndex(0);
+    }
+  }, [step, visibleQuestions.length, STEPS]);
+
   // 選択後の自動進行
   useEffect(() => {
     if (!pendingAdvance) return;
@@ -796,13 +847,8 @@ export function SimulatorForm({ data }: { data: MunicipalityData }) {
         setQuestionIndex(safeQuestionIndex + 1);
       } else {
         // ステップ内の最後の質問 → 次のステップへ
-        if (step === "parent2" && isSingleParent) {
-          setStep("adjustment");
-          setQuestionIndex(0);
-          return;
-        }
         const idx = STEPS.findIndex((s) => s.key === step);
-        if (idx < STEPS.length - 1) {
+        if (idx >= 0 && idx < STEPS.length - 1) {
           const nextStep = STEPS[idx + 1].key;
           if (nextStep === "result") setShowAdPopup(true);
           setStep(nextStep);
@@ -812,7 +858,7 @@ export function SimulatorForm({ data }: { data: MunicipalityData }) {
     }, 400);
 
     return () => clearTimeout(timer);
-  }, [pendingAdvance, safeQuestionIndex, visibleQuestions.length, step, isSingleParent]);
+  }, [pendingAdvance, safeQuestionIndex, visibleQuestions.length, step, STEPS]);
 
   const goPrev = () => {
     if (safeQuestionIndex > 0) {
@@ -820,11 +866,6 @@ export function SimulatorForm({ data }: { data: MunicipalityData }) {
       return;
     }
     // ステップの最初の質問 → 前のステップの最後の質問へ
-    if (step === "adjustment" && isSingleParent) {
-      setStep("parent2");
-      setQuestionIndex(0);
-      return;
-    }
     const idx = STEPS.findIndex((s) => s.key === step);
     if (idx > 0) {
       setStep(STEPS[idx - 1].key);
@@ -960,15 +1001,19 @@ export function SimulatorForm({ data }: { data: MunicipalityData }) {
                     <span>保護者1のランク</span>
                     <Badge variant="secondary">ランク値 {result.parent1Base}</Badge>
                   </div>
+                  {result.hasParent2 && (
+                    <div className="flex justify-between items-center">
+                      <span>保護者2のランク</span>
+                      <Badge variant="secondary">ランク値 {result.parent2Base}</Badge>
+                    </div>
+                  )}
                   <div className="flex justify-between items-center">
-                    <span>保護者2のランク</span>
-                    <Badge variant="secondary">ランク値 {result.parent2Base}</Badge>
-                  </div>
-                  <div className="flex justify-between items-center">
-                    <span>世帯ランク（低い方を採用）</span>
-                    <Badge variant="default">
-                      ランク値 {Math.min(result.parent1Base, result.parent2Base)}
-                    </Badge>
+                    <span>
+                      {result.hasParent2
+                        ? "世帯ランク（低い方を採用）"
+                        : "世帯ランク（ひとり親のため保護者1の値）"}
+                    </span>
+                    <Badge variant="default">ランク値 {result.householdBase}</Badge>
                   </div>
                 </>
               ) : (
@@ -977,16 +1022,26 @@ export function SimulatorForm({ data }: { data: MunicipalityData }) {
                     <span>保護者1の点数</span>
                     <Badge variant="secondary">{result.parent1Base}点</Badge>
                   </div>
-                  <div className="flex justify-between items-center">
-                    <span>保護者2の点数</span>
-                    <Badge variant="secondary">{result.parent2Base}点</Badge>
-                  </div>
+                  {hasParent2Step && result.hasParent2 && (
+                    <div className="flex justify-between items-center">
+                      <span>保護者2の点数</span>
+                      <Badge variant="secondary">{result.parent2Base}点</Badge>
+                    </div>
+                  )}
                   {isAvgScoring && (
                     <div className="flex justify-between items-center">
-                      <span>世帯点数（父母の平均）</span>
-                      <Badge variant="default">
-                        {result.total - result.adjustment}点
-                      </Badge>
+                      <span>
+                        {result.hasParent2
+                          ? "世帯点数（父母の平均）"
+                          : "世帯点数（ひとり親のため保護者1の点数）"}
+                      </span>
+                      <Badge variant="default">{result.householdBase}点</Badge>
+                    </div>
+                  )}
+                  {!isAvgScoring && data.municipality.baseCap !== undefined && (
+                    <div className="flex justify-between items-center">
+                      <span>世帯の基準点（上限{data.municipality.baseCap}点を適用）</span>
+                      <Badge variant="default">{result.householdBase}点</Badge>
                     </div>
                   )}
                 </>

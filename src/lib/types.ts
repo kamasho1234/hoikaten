@@ -46,6 +46,12 @@ export interface SimulationResult {
   parent1Base: number;
   parent2Base: number;
   adjustment: number;
+  // 採点方式（sum/min/avg）と baseCap を適用したあとの、世帯としての基準点。
+  // 画面表示は必ずこの値を使う（Math.min 等を画面側で再計算すると、
+  // ひとり親（保護者2未回答）や baseCap 適用時に計算結果と表示が食い違うため）
+  householdBase: number;
+  // 保護者2の回答が1つでもあるか（ひとり親判定に使用）
+  hasParent2: boolean;
   total: number;
   breakdown: {
     questionId: string;

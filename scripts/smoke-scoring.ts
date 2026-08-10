@@ -1,7 +1,14 @@
 import { getMunicipalityData } from '../src/lib/data/index';
 import { calculateScore } from '../src/lib/scoring/engine';
 
-type Case = { name: string; slug: string; answers: Record<string, string>; expect: number };
+type Case = {
+  name: string;
+  slug: string;
+  answers: Record<string, string>;
+  expect: number;
+  // 画面表示に使う「世帯の基準点」（採点方式とbaseCapを適用した値）も検証したい場合に指定する
+  expectHouseholdBase?: number;
+};
 
 const cases: Case[] = [
   // --- 君津市（sum / 最高60）---
@@ -707,6 +714,44 @@ const cases: Case[] = [
     answers: { p2_situation: 'p2_birth' },
     expect: 8,
   },
+  // --- 表示用「世帯の基準点」(householdBase) の回帰テスト ---
+  // 画面はこの値をそのまま表示する。Math.min 等を画面側で再計算していた頃は
+  // ひとり親（保護者2未回答）で min(保護者1, 0)=0 と誤表示されていた
+  {
+    name: '[表示]御代田(min): ひとり親は保護者1の値がそのまま世帯基準点になる',
+    slug: 'miyota',
+    answers: { p1_situation: 'p1_out_180' },
+    expect: 20,
+    expectHouseholdBase: 20,
+  },
+  {
+    name: '[表示]御代田(min): 父母ありなら低い方が世帯基準点',
+    slug: 'miyota',
+    answers: { p1_situation: 'p1_out_180', p2_situation: 'p2_out_120' },
+    expect: 18,
+    expectHouseholdBase: 18,
+  },
+  {
+    name: '[表示]須恵(baseCap150): 合算230でも世帯基準点は上限150',
+    slug: 'sue',
+    answers: { p1_situation: 'p1_out1_160', p2_situation: 'p2_in1_64' },
+    expect: 150,
+    expectHouseholdBase: 150,
+  },
+  {
+    name: '[表示]岩倉(avg): 父10・母8 → 平均9が世帯基準点',
+    slug: 'iwakura',
+    answers: { p1_situation: 'p1_out_now_8h20d', p2_situation: 'p2_out_now_68h15d' },
+    expect: 9,
+    expectHouseholdBase: 9,
+  },
+  {
+    name: '[表示]さぬき(保護者2ステップなし): 保護者1のみで合算される',
+    slug: 'sanuki',
+    answers: { parent1_reason: 'parent1_reason_ext1', parent1_ext1: 'parent1_ext1_10a' },
+    expect: 10,
+    expectHouseholdBase: 10,
+  },
 ];
 
 let ng = 0;
@@ -714,9 +759,15 @@ for (const c of cases) {
   const data = getMunicipalityData(c.slug);
   if (!data) { console.log(`NG (データ未登録): ${c.name}`); ng++; continue; }
   const r = calculateScore(data.questions, c.answers, data.municipality.scoringMethod, data.municipality.baseCap);
-  const ok = r.total === c.expect;
+  const okTotal = r.total === c.expect;
+  const okBase = c.expectHouseholdBase === undefined || r.householdBase === c.expectHouseholdBase;
+  const ok = okTotal && okBase;
   if (!ok) ng++;
-  console.log(`${ok ? 'OK ' : 'NG '} ${c.name} => total=${r.total} (p1=${r.parent1Base} p2=${r.parent2Base} adj=${r.adjustment}) 期待=${c.expect}`);
+  const baseNote =
+    c.expectHouseholdBase === undefined
+      ? ''
+      : ` / 世帯基準点=${r.householdBase} 期待=${c.expectHouseholdBase}`;
+  console.log(`${ok ? 'OK ' : 'NG '} ${c.name} => total=${r.total} (p1=${r.parent1Base} p2=${r.parent2Base} adj=${r.adjustment})${baseNote} 期待=${c.expect}`);
 }
 console.log(ng === 0 ? `\n全${cases.length}件合格` : `\n${ng}件失敗 / ${cases.length}件`);
 process.exit(ng === 0 ? 0 : 1);
