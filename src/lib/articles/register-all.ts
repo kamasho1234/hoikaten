@@ -450,3 +450,4 @@ import "./sue";
 import "./yame";
 import "./ichikikushikino";
 import "./yamaga";
+import "./tsunan";

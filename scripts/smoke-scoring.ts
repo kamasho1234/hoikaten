@@ -752,6 +752,60 @@ const cases: Case[] = [
     expect: 10,
     expectHouseholdBase: 10,
   },
+  // --- 津南町（sum / 最高20）---
+  {
+    name: '津南: 父母とも週5日以上7h以上(10+10) = 20（最高基準指数）',
+    slug: 'tsunan',
+    answers: { p1_situation: 'p1_w5_7', p2_situation: 'p2_w5_7' },
+    expect: 20,
+    expectHouseholdBase: 20,
+  },
+  {
+    name: '津南: 父が週4日6h(8) + 母が週3日5h(6) = 14',
+    slug: 'tsunan',
+    answers: { p1_situation: 'p1_w4_6', p2_situation: 'p2_w3_5' },
+    expect: 14,
+  },
+  {
+    name: '津南: ひとり親(保護者2未回答/週5日7h=10) +5 = 15',
+    slug: 'tsunan',
+    answers: { p1_situation: 'p1_w5_7', adj_single_parent: 'adj_single_parent_yes' },
+    expect: 15,
+  },
+  {
+    name: '津南: 「祖父母と同居していない」は加点(+2)。20+2+5(保育士) = 27',
+    slug: 'tsunan',
+    answers: {
+      p1_situation: 'p1_w5_7', p2_situation: 'p2_w5_7',
+      adj_sofubo: 'adj_sofubo_bekkyo', adj_hoikushi: 'adj_hoikushi_yes',
+    },
+    expect: 27,
+  },
+  {
+    name: '津南: 調整指数は重複加算（生保5+失業5+3子目2）20+12 = 32',
+    slug: 'tsunan',
+    answers: {
+      p1_situation: 'p1_w5_7', p2_situation: 'p2_w5_7',
+      adj_seikatsuhogo: 'adj_seikatsuhogo_yes', adj_shitsugyo: 'adj_shitsugyo_yes',
+      adj_tashi: 'adj_tashi_yes',
+    },
+    expect: 32,
+  },
+  {
+    name: '津南: 滞納-5 を含む 20-5 = 15',
+    slug: 'tsunan',
+    answers: {
+      p1_situation: 'p1_w5_7', p2_situation: 'p2_w5_7',
+      adj_tainou: 'adj_tainou_yes',
+    },
+    expect: 15,
+  },
+  {
+    name: '津南: 母のみの妊娠・出産(10)が母側に存在する',
+    slug: 'tsunan',
+    answers: { p2_situation: 'p2_birth' },
+    expect: 10,
+  },
 ];
 
 let ng = 0;
