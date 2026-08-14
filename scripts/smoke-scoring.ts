@@ -806,6 +806,122 @@ const cases: Case[] = [
     answers: { p2_situation: 'p2_birth' },
     expect: 10,
   },
+  // --- 直方市（sum / 最高40。調整点数は「一番高い1つ」のみ）---
+  {
+    name: '直方: 父母とも居宅外就労150h以上(20+20) = 40（最高基準点数）',
+    slug: 'nogata',
+    answers: { parent1_base: 'p1_out_150', parent2_base: 'p2_out_150' },
+    expect: 40,
+    expectHouseholdBase: 40,
+  },
+  {
+    name: '直方: 父が居宅外120h(19) + 母が内職90h(16) = 35',
+    slug: 'nogata',
+    answers: { parent1_base: 'p1_out_120', parent2_base: 'p2_naishoku_90' },
+    expect: 35,
+  },
+  {
+    name: '直方: ひとり親(保護者2未回答/居宅外150h=20) +20(基準点数への加点) +6(調整) = 46',
+    slug: 'nogata',
+    answers: {
+      parent1_base: 'p1_out_150',
+      adj_single_parent: 'adj_single_parent_yes',
+      adj_chosei: 'adj_chosei_single_parent',
+    },
+    expect: 46,
+  },
+  {
+    name: '直方: 40 + 調整「生計維持者の失業」10 = 50（調整は最高1つのみ）',
+    slug: 'nogata',
+    answers: {
+      parent1_base: 'p1_out_150',
+      parent2_base: 'p2_out_150',
+      adj_chosei: 'adj_chosei_shitsugyo',
+    },
+    expect: 50,
+  },
+  // --- 相馬市（sum / 最高30。調整点数は重複加算）---
+  {
+    name: '相馬: 父母とも保育士等7h以上(15+15) = 30（最高基準点数）',
+    slug: 'soma',
+    answers: { parent1_base: 'p1_hoiku_7', parent2_base: 'p2_hoiku_7' },
+    expect: 30,
+    expectHouseholdBase: 30,
+  },
+  {
+    name: '相馬: 父が被用者 月20日7h(10) + 母が被用者 月16日5h(7) = 17',
+    slug: 'soma',
+    answers: { parent1_base: 'p1_emp20_7', parent2_base: 'p2_emp16_5' },
+    expect: 17,
+  },
+  {
+    name: '相馬: ひとり親(保護者2未回答/被用者10) + 不存在調整15 = 25',
+    slug: 'soma',
+    answers: { parent1_base: 'p1_emp20_7', adj_single_parent: 'adj_single_parent_hitorioya' },
+    expect: 25,
+  },
+  {
+    name: '相馬: 20 + 生活保護5 + 失業4 = 29（調整は重複加算）',
+    slug: 'soma',
+    answers: {
+      parent1_base: 'p1_emp20_7',
+      parent2_base: 'p2_emp20_7',
+      adj_seikatsuhogo: 'adj_seikatsuhogo_yes',
+      adj_shitsugyo: 'adj_shitsugyo_yes',
+    },
+    expect: 29,
+  },
+  {
+    name: '相馬: 滞納6か月分以上12か月分未満(-4) を含む 20-4 = 16',
+    slug: 'soma',
+    answers: {
+      parent1_base: 'p1_emp20_7',
+      parent2_base: 'p2_emp20_7',
+      adj_tainou: 'adj_tainou_6',
+    },
+    expect: 16,
+  },
+  // --- 新富町（sum / 最高20。調整指数は重複加算）---
+  {
+    name: '新富: 父母とも月平均120時間以上(10+10) = 20（最高基本指数）',
+    slug: 'shintomi',
+    answers: { parent1_base: 'p1_work_120', parent2_base: 'p2_work_120' },
+    expect: 20,
+    expectHouseholdBase: 20,
+  },
+  {
+    name: '新富: ひとり親(保護者2未回答/120h以上=10) +20 = 30',
+    slug: 'shintomi',
+    answers: { parent1_base: 'p1_work_120', adj_single_parent: 'adj_single_parent_yes' },
+    expect: 30,
+  },
+  {
+    name: '新富: 母のみの妊娠・出生(10)が母側に存在する',
+    slug: 'shintomi',
+    answers: { parent2_base: 'p2_shussan' },
+    expect: 10,
+  },
+  {
+    name: '新富: 20 + きょうだい同一施設10 + 育休復職10 = 40（調整は重複加算）',
+    slug: 'shintomi',
+    answers: {
+      parent1_base: 'p1_work_120',
+      parent2_base: 'p2_work_120',
+      adj_kyodai: 'adj_kyodai_yes',
+      adj_fukushoku: 'adj_fukushoku_yes',
+    },
+    expect: 40,
+  },
+  {
+    name: '新富: 同居祖父母(60歳以上を除く)が保育可能 -10。20-10 = 10',
+    slug: 'shintomi',
+    answers: {
+      parent1_base: 'p1_work_120',
+      parent2_base: 'p2_work_120',
+      adj_sofubo: 'adj_sofubo_yes',
+    },
+    expect: 10,
+  },
 ];
 
 let ng = 0;

@@ -451,3 +451,6 @@ import "./yame";
 import "./ichikikushikino";
 import "./yamaga";
 import "./tsunan";
+import "./nogata";
+import "./soma";
+import "./shintomi";
