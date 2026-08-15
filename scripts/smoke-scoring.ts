@@ -964,6 +964,130 @@ const cases: Case[] = [
     expect: 80,
     expectHouseholdBase: 80,
   },
+  // --- 国立市（sum / 最高200）---
+  {
+    name: '国立: 父外勤週5日40h(90) + 母外勤週4日22h(60) = 150',
+    slug: 'kunitachi',
+    answers: { p1_situation: 'p1_work_5_40', p2_situation: 'p2_work_4_22' },
+    expect: 150,
+    expectHouseholdBase: 150,
+  },
+  {
+    name: '国立: 自営(居宅内)は外勤より2点低い。父88 + 母90 = 178',
+    slug: 'kunitachi',
+    answers: { p1_situation: 'p1_self_in_5_40', p2_situation: 'p2_work_5_40' },
+    expect: 178,
+  },
+  {
+    name: '国立: ひとり親(同居人なし)90 + 80 = 170。保護者2は未回答',
+    slug: 'kunitachi',
+    answers: { p1_situation: 'p1_work_5_40', adj_single_parent: 'adj_single_parent_alone' },
+    expect: 170,
+    expectHouseholdBase: 90,
+  },
+  {
+    name: '国立: 祖父母(65歳未満・健康で不就労)-10 と 自営書類未提出-6。180-16 = 164',
+    slug: 'kunitachi',
+    answers: {
+      p1_situation: 'p1_work_5_40', p2_situation: 'p2_work_5_40',
+      adj_sofubo: 'adj_sofubo_yes', adj_jiei_shorui: 'adj_jiei_shorui_none_submit',
+    },
+    expect: 164,
+  },
+  {
+    name: '国立: 医療的ケア+30 と 卒園+40 と きょうだい3人以上+13 は併算。180+83 = 263',
+    slug: 'kunitachi',
+    answers: {
+      p1_situation: 'p1_work_5_40', p2_situation: 'p2_work_5_40',
+      adj_ko_shogai: 'adj_ko_shogai_iryo', adj_sotsuen: 'adj_sotsuen_yes',
+      adj_kyodai_moushikomi: 'adj_kyodai_3',
+    },
+    expect: 263,
+  },
+  // --- 西尾市（avg / 最高15）---
+  {
+    name: '西尾: 父月155h(15) 母月60h(4) → 平均9.5（合計19ではない）',
+    slug: 'nishio',
+    answers: { p1_situation: 'p1_work_155', p2_situation: 'p2_work_60' },
+    expect: 9.5,
+    expectHouseholdBase: 9.5,
+  },
+  {
+    name: '西尾: 個人調整は平均する前に父母それぞれへ加算。父15+2=17 母11+2=13 → 平均15',
+    slug: 'nishio',
+    answers: {
+      p1_situation: 'p1_work_155', p1_adj_hoikushi: 'p1_adj_hoikushi_in',
+      p2_situation: 'p2_work_120', p2_adj_hoikushi: 'p2_adj_hoikushi_in',
+    },
+    expect: 15,
+    expectHouseholdBase: 15,
+  },
+  {
+    name: '西尾: 世帯調整は平均のあとに加算。平均11 + ひとり親(祖父母同居なし)+3 = 14',
+    slug: 'nishio',
+    answers: {
+      p1_situation: 'p1_work_120', p2_situation: 'p2_work_120',
+      adj_single_parent: 'adj_single_parent_alone',
+    },
+    expect: 14,
+    expectHouseholdBase: 11,
+  },
+  {
+    name: '西尾: ひとり親(保護者2未回答)は本人の指数のみ。15 + 滞納-10 = 5',
+    slug: 'nishio',
+    answers: { p1_situation: 'p1_work_155', adj_tainou: 'adj_tainou_yes' },
+    expect: 5,
+    expectHouseholdBase: 15,
+  },
+  {
+    name: '西尾: 就労先を確認できない-5 は父母それぞれ。父15-5=10 母15-5=10 → 平均10',
+    slug: 'nishio',
+    answers: {
+      p1_situation: 'p1_work_155', p1_adj_mikakutei: 'p1_adj_mikakutei_yes',
+      p2_situation: 'p2_work_155', p2_adj_mikakutei: 'p2_adj_mikakutei_yes',
+    },
+    expect: 10,
+    expectHouseholdBase: 10,
+  },
+  // --- 狛江市（sum / 最高50）---
+  {
+    name: '狛江: 父週5日40h(20) + 母週4日30h(14) = 34',
+    slug: 'komae',
+    answers: { p1_situation: 'p1_work_5_40', p2_situation: 'p2_work_4_30' },
+    expect: 34,
+    expectHouseholdBase: 34,
+  },
+  {
+    name: '狛江: 個人調整は父母それぞれに効く。父20+4=24 母20+4=24 = 48',
+    slug: 'komae',
+    answers: {
+      p1_situation: 'p1_work_5_40', p1_adj_shippei: 'p1_adj_shippei_techo',
+      p2_situation: 'p2_work_5_40', p2_adj_shippei: 'p2_adj_shippei_techo',
+    },
+    expect: 48,
+  },
+  {
+    name: '狛江: 介護21は労働20より高い。父居宅外介護21 + 母20 = 41',
+    slug: 'komae',
+    answers: { p1_situation: 'p1_care_out_5', p2_situation: 'p2_work_5_40' },
+    expect: 41,
+  },
+  {
+    name: '狛江: ひとり親(保育を行える同居親族なし・生活保護)+20。不存在25+20 = 45',
+    slug: 'komae',
+    answers: { p1_situation: 'p1_absent', adj_single_parent: 'adj_single_parent_hogo' },
+    expect: 45,
+    expectHouseholdBase: 25,
+  },
+  {
+    name: '狛江: 保育士かつきょうだい同園(14+21)+6 と 滞納-5。40+6-5 = 41',
+    slug: 'komae',
+    answers: {
+      p1_situation: 'p1_work_5_40', p2_situation: 'p2_work_5_40',
+      adj_takuji_kyodai: 'adj_takuji_kyodai_14_21', adj_tainou: 'adj_tainou_yes',
+    },
+    expect: 41,
+  },
 ];
 
 let ng = 0;
