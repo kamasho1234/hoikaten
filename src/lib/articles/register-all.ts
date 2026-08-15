@@ -268,7 +268,6 @@ import "./niihama";
 import "./tomigusuku";
 import "./ishigaki";
 import "./izumo";
-import "./nishio";
 import "./iwata";
 import "./miyakonojo";
 import "./ube";

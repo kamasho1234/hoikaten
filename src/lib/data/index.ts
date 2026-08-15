@@ -32,6 +32,7 @@ import { tsunanData } from './tsunan';
 import { nogataData } from './nogata';
 import { somaData } from './soma';
 import { shintomiData } from './shintomi';
+import { shunanData } from './shunan';
 import { setagayaData } from './setagaya';
 import { yokohamaData } from './yokohama';
 import { osakaData } from './osaka';
@@ -927,6 +928,7 @@ const municipalityMap: Record<string, MunicipalityData> = {
   [nogataData.municipality.slug]: nogataData,
   [somaData.municipality.slug]: somaData,
   [shintomiData.municipality.slug]: shintomiData,
+  [shunanData.municipality.slug]: shunanData,
 };
 
 export function getMunicipalityData(slug: string): MunicipalityData | undefined {
@@ -997,7 +999,7 @@ export { ogoriData };
 export { tomigusukuData, yanagawaData };
 export { miyotaData, hiokiData };
 export { mukoData, onoData, sueData, yameData, ichikikushikinoData, yamagaData, tsunanData };
-export { nogataData, somaData, shintomiData };
+export { nogataData, somaData, shintomiData, shunanData };
 export { kashiwaData, matsudoData, yamaguchiData };
 export { takamatsuData, sagaData };
 export { odawaraData, kamakuraData };

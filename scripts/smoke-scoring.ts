@@ -922,6 +922,48 @@ const cases: Case[] = [
     },
     expect: 10,
   },
+  // --- 周南市（min / 最高100）---
+  {
+    name: '周南: 父月160h以上100 母月80h以上60 → min=60（合計160ではない）',
+    slug: 'shunan',
+    answers: { p1_situation: 'p1_work_160', p2_situation: 'p2_work_80' },
+    expect: 60,
+    expectHouseholdBase: 60,
+  },
+  {
+    name: '周南: 父母とも月160h以上 → min=100。きょうだい+100 = 200',
+    slug: 'shunan',
+    answers: {
+      p1_situation: 'p1_work_160', p2_situation: 'p2_work_160',
+      adj_kyodai: 'adj_kyodai_yes',
+    },
+    expect: 200,
+    expectHouseholdBase: 100,
+  },
+  {
+    name: '周南: ひとり親(保護者2未回答)は本人の点数のみ。100 + ひとり親100 = 200',
+    slug: 'shunan',
+    answers: { p1_situation: 'p1_work_160', adj_single_parent: 'adj_single_parent_yes' },
+    expect: 200,
+    expectHouseholdBase: 100,
+  },
+  {
+    name: '周南: 求職活動中10 と 育休明け+50 = 60',
+    slug: 'shunan',
+    answers: {
+      p1_situation: 'p1_work_160', p2_situation: 'p2_seek',
+      adj_ikukyu_ake: 'adj_ikukyu_ake_yes',
+    },
+    expect: 60,
+    expectHouseholdBase: 10,
+  },
+  {
+    name: '周南: 介護・看護と在学は労働の点数に準ずる。父介護160h=100 母在学120h=80 → min=80',
+    slug: 'shunan',
+    answers: { p1_situation: 'p1_care_160', p2_situation: 'p2_school_120' },
+    expect: 80,
+    expectHouseholdBase: 80,
+  },
 ];
 
 let ng = 0;
