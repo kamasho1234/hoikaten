@@ -1,0 +1,181 @@
+[
+ {
+  "id": "川崎区／ランゲージ・ハウスFujisaki保育園",
+  "name": "ランゲージ・ハウスFujisaki保育園",
+  "url": "https://www.ilh-jp.com/fujisaki",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "幸区／エンジェルナーサリー鹿島田園",
+  "name": "エンジェルナーサリー鹿島田園",
+  "url": "https://angelnursery-kashimada2.com/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "川崎区／保育園川崎ベアーズ",
+  "name": "保育園川崎ベアーズ",
+  "url": "https://sfg21.com/kawasaki/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "幸区／夢見ヶ崎えほんの森保育園",
+  "name": "夢見ヶ崎えほんの森保育園",
+  "url": "https://www.miraikeikaku.jp/yumemi",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "幸区／保育所アネックス",
+  "name": "保育所アネックス",
+  "url": "http://anex-anex.com/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "川崎区／あすいく保育園",
+  "name": "あすいく保育園",
+  "url": "https://www.heartful-k.org/facility/asuiku/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "川崎区／ゆめいく日進町保育園",
+  "name": "ゆめいく日進町保育園",
+  "url": null,
+  "type": "corp",
+  "verdict": "unreachable",
+  "error": "HTTP 404",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "麻生区／カスタッチこどもclub",
+  "name": "カスタッチこどもclub",
+  "url": "https://www.castouch.jp/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "麻生区／はじめの一歩保育園",
+  "name": "はじめの一歩保育園",
+  "url": "https://www.hajimenoippo-hoikuen.net/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "麻生区／ルミエール幼稚園",
+  "name": "ルミエール幼稚園",
+  "url": "https://lumiere-youchien.net/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "麻生区／ちよがおか幼稚園",
+  "name": "ちよがおか幼稚園",
+  "url": "https://chiyogaoka0233.nanreigakuen.com/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "麻生区／こうりんじ幼稚園",
+  "name": "こうりんじ幼稚園",
+  "url": "https://kourinji1089.nanreigakuen.com/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "麻生区／それいゆ保育園",
+  "name": "それいゆ保育園",
+  "url": "https://kantokodomo.misasakai.or.jp/soleil/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "多摩区／ミアヘルサ保育園ひびき登戸",
+  "name": "ミアヘルサ保育園ひびき登戸",
+  "url": null,
+  "type": "corp",
+  "verdict": "unverified",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "多摩区／KFJ多摩なのはな保育園",
+  "name": "KFJ多摩なのはな保育園",
+  "url": "https://www.kfjtama.or.jp/nanohana-summary.html",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "多摩区／星の子くるみ保育園",
+  "name": "星の子くるみ保育園",
+  "url": "https://kouseikan-f.org/kurumi/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "多摩区／丸山幼稚園",
+  "name": "丸山幼稚園",
+  "url": "https://www.maruyama-kids.com/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "多摩区／星の子愛児園",
+  "name": "星の子愛児園",
+  "url": "https://kouseikan-f.org/hoshinoko/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "多摩区／中野島フレンズ保育園",
+  "name": "中野島フレンズ保育園",
+  "url": "https://shafuku-doujinkai.or.jp/facility/nursery-school/nakanoshima-friends",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "麻生区／ぶれすと白鳥ほいくえん",
+  "name": "ぶれすと白鳥ほいくえん",
+  "url": "https://hoikuen.brest.co.jp/shiratori/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ }
+]
