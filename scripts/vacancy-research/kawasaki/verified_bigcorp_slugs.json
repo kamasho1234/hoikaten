@@ -1,0 +1,182 @@
+[
+ {
+  "id": "中原区／アスク今井南保育園",
+  "name": "アスク今井南保育園",
+  "url": "https://list.nihonhoiku.co.jp/nursery/detail/imaiminami/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(法人サイトのURLパターンからスラッグを推定し、実アクセスで施設名・電話番号を照合)"
+ },
+ {
+  "id": "中原区／アスク新丸子保育園",
+  "name": "アスク新丸子保育園",
+  "url": "https://list.nihonhoiku.co.jp/nursery/detail/shinmaruko/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(法人サイトのURLパターンからスラッグを推定し、実アクセスで施設名・電話番号を照合)"
+ },
+ {
+  "id": "中原区／アスク平間保育園",
+  "name": "アスク平間保育園",
+  "url": "https://list.nihonhoiku.co.jp/nursery/detail/hirama/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(法人サイトのURLパターンからスラッグを推定し、実アクセスで施設名・電話番号を照合)"
+ },
+ {
+  "id": "中原区／アスクバイリンガル保育園向河原",
+  "name": "アスクバイリンガル保育園向河原",
+  "url": "https://list.nihonhoiku.co.jp/nursery/detail/mukaigawara/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(法人サイトのURLパターンからスラッグを推定し、実アクセスで施設名・電話番号を照合)"
+ },
+ {
+  "id": "高津区／アスクスポーツ保育園かじがや",
+  "name": "アスクスポーツ保育園かじがや",
+  "url": "https://list.nihonhoiku.co.jp/nursery/detail/kajigaya/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(法人サイトのURLパターンからスラッグを推定し、実アクセスで施設名・電話番号を照合)"
+ },
+ {
+  "id": "高津区／アスク武蔵新城保育園",
+  "name": "アスク武蔵新城保育園",
+  "url": "https://list.nihonhoiku.co.jp/nursery/detail/musashishinjyo/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(法人サイトのURLパターンからスラッグを推定し、実アクセスで施設名・電話番号を照合)"
+ },
+ {
+  "id": "多摩区／アスク宿河原保育園",
+  "name": "アスク宿河原保育園",
+  "url": "https://list.nihonhoiku.co.jp/nursery/detail/shukugawara/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(法人サイトのURLパターンからスラッグを推定し、実アクセスで施設名・電話番号を照合)"
+ },
+ {
+  "id": "多摩区／アスク生田保育園",
+  "name": "アスク生田保育園",
+  "url": "https://list.nihonhoiku.co.jp/nursery/detail/ikuta/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(法人サイトのURLパターンからスラッグを推定し、実アクセスで施設名・電話番号を照合)"
+ },
+ {
+  "id": "麻生区／アスク柿生保育園",
+  "name": "アスク柿生保育園",
+  "url": "https://list.nihonhoiku.co.jp/nursery/detail/kakio/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(法人サイトのURLパターンからスラッグを推定し、実アクセスで施設名・電話番号を照合)"
+ },
+ {
+  "id": "麻生区／アスク新百合ヶ丘保育園",
+  "name": "アスク新百合ヶ丘保育園",
+  "url": "https://list.nihonhoiku.co.jp/nursery/detail/shinyurigaoka/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(法人サイトのURLパターンからスラッグを推定し、実アクセスで施設名・電話番号を照合)"
+ },
+ {
+  "id": "中原区／スターチャイルド≪新丸子ナーサリー≫",
+  "name": "スターチャイルド≪新丸子ナーサリー≫",
+  "url": "https://www.starchild.jp/nursery/shinmaruko/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(法人サイトのURLパターンからスラッグを推定し、実アクセスで施設名・電話番号を照合)"
+ },
+ {
+  "id": "高津区／スターチャイルド≪梶ヶ谷ナーサリー≫",
+  "name": "スターチャイルド≪梶ヶ谷ナーサリー≫",
+  "url": "https://www.starchild.jp/nursery/kajigaya/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(法人サイトのURLパターンからスラッグを推定し、実アクセスで施設名・電話番号を照合)"
+ },
+ {
+  "id": "多摩区／スターチャイルド≪登戸ナーサリー≫",
+  "name": "スターチャイルド≪登戸ナーサリー≫",
+  "url": "https://www.starchild.jp/nursery/noborito",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(法人サイトのURLパターンからスラッグを推定し、実アクセスで施設名・電話番号を照合)"
+ },
+ {
+  "id": "多摩区／アスク向ヶ丘遊園北保育園",
+  "name": "アスク向ヶ丘遊園北保育園",
+  "url": "https://list.nihonhoiku.co.jp/nursery/detail/yuenkita/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(法人サイトのURLパターンからスラッグを推定し、実アクセスで施設名・電話番号を照合)"
+ },
+ {
+  "id": "中原区／アスク下小田中保育園",
+  "name": "アスク下小田中保育園",
+  "url": "https://list.nihonhoiku.co.jp/nursery/detail/shimokodanaka/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(法人サイトのURLパターンからスラッグを推定し、実アクセスで施設名・電話番号を照合)"
+ },
+ {
+  "id": "多摩区／アスク向ヶ丘遊園南保育園",
+  "name": "アスク向ヶ丘遊園南保育園",
+  "url": "https://list.nihonhoiku.co.jp/nursery/detail/yuenminami/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(法人サイトのURLパターンからスラッグを推定し、実アクセスで施設名・電話番号を照合)"
+ },
+ {
+  "id": "中原区／アスクバイリンガル保育園上小田中",
+  "name": "アスクバイリンガル保育園上小田中",
+  "url": "https://list.nihonhoiku.co.jp/nursery/detail/kamikodanaka/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(法人サイトのURLパターンからスラッグを推定し、実アクセスで施設名・電話番号を照合)"
+ },
+ {
+  "id": "多摩区／クレアナーサリー向ヶ丘遊園",
+  "name": "クレアナーサリー向ヶ丘遊園",
+  "url": "https://www.alpha-co.com/nursery/nursery-school/mukogaoka",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(法人サイトのURLパターンからスラッグを推定し、実アクセスで施設名・電話番号を照合)"
+ },
+ {
+  "id": "麻生区／クレアナーサリー新百合ヶ丘",
+  "name": "クレアナーサリー新百合ヶ丘",
+  "url": "https://www.alpha-co.com/nursery/nursery-school/yurigaoka",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(法人サイトのURLパターンからスラッグを推定し、実アクセスで施設名・電話番号を照合)"
+ },
+ {
+  "id": "高津区／ベビーチャイルドランド梶ヶ谷園",
+  "name": "ベビーチャイルドランド梶ヶ谷園",
+  "url": "https://b-c-land.co.jp/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "tel",
+  "query": "(法人サイトのURLパターンからスラッグを推定し、実アクセスで施設名・電話番号を照合)"
+ }
+]
