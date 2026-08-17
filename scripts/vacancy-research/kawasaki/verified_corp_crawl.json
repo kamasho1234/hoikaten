@@ -1,0 +1,434 @@
+[
+ {
+  "id": "多摩区／龍厳寺保育園",
+  "name": "龍厳寺保育園",
+  "url": "https://daijikai.jp/hoikuen/ryugenji/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(法人サイトを横断クロールし、ページtitleの施設名一致と本文の電話番号照合で確認)"
+ },
+ {
+  "id": "中原区／たんぽぽのはら保育園",
+  "name": "たんぽぽのはら保育園",
+  "url": "https://daijikai.jp/hoikuen/tanpoponohara/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(法人サイトを横断クロールし、ページtitleの施設名一致と本文の電話番号照合で確認)"
+ },
+ {
+  "id": "中原区／すみよしのはら保育園",
+  "name": "すみよしのはら保育園",
+  "url": "https://daijikai.jp/hoikuen/sumiyoshinohara/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(法人サイトを横断クロールし、ページtitleの施設名一致と本文の電話番号照合で確認)"
+ },
+ {
+  "id": "多摩区／くじこのはら保育園",
+  "name": "くじこのはら保育園",
+  "url": "https://daijikai.jp/hoikuen/kujikonohara/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(法人サイトを横断クロールし、ページtitleの施設名一致と本文の電話番号照合で確認)"
+ },
+ {
+  "id": "多摩区／中野島のはら保育園",
+  "name": "中野島のはら保育園",
+  "url": "https://daijikai.jp/hoikuen/nakanosimanohara/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(法人サイトを横断クロールし、ページtitleの施設名一致と本文の電話番号照合で確認)"
+ },
+ {
+  "id": "多摩区／ぶどうの実登戸園",
+  "name": "ぶどうの実登戸園",
+  "url": "https://budou-ki.co.jp/noborito/index.html",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(法人サイトを横断クロールし、ページtitleの施設名一致と本文の電話番号照合で確認)"
+ },
+ {
+  "id": "中原区／ぶどうの実平間園",
+  "name": "ぶどうの実平間園",
+  "url": "https://budou-ki.co.jp/hirama/index.html",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(法人サイトを横断クロールし、ページtitleの施設名一致と本文の電話番号照合で確認)"
+ },
+ {
+  "id": "高津区／溝口ピノキオ保育園",
+  "name": "溝口ピノキオ保育園",
+  "url": "https://seido-kai.com/base/mizonokuchi-pinokio/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(法人サイトを横断クロールし、ページtitleの施設名一致と本文の電話番号照合で確認)"
+ },
+ {
+  "id": "多摩区／登戸ピノキオ保育園",
+  "name": "登戸ピノキオ保育園",
+  "url": "https://seido-kai.com/base/noborito-pinokio/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(法人サイトを横断クロールし、ページtitleの施設名一致と本文の電話番号照合で確認)"
+ },
+ {
+  "id": "幸区／ひよし保育園",
+  "name": "ひよし保育園",
+  "url": "https://hoiku.shopro.co.jp/hoiku/about/nursery/hiyoshi.html",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(法人サイトを横断クロールし、ページtitleの施設名一致と本文の電話番号照合で確認)"
+ },
+ {
+  "id": "中原区／小学館アカデミーしんまるこ保育園",
+  "name": "小学館アカデミーしんまるこ保育園",
+  "url": "https://hoiku.shopro.co.jp/hoiku/about/nursery/shinmaruko.html",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(法人サイトを横断クロールし、ページtitleの施設名一致と本文の電話番号照合で確認)"
+ },
+ {
+  "id": "中原区／まるこ保育園",
+  "name": "まるこ保育園",
+  "url": "https://hoiku.shopro.co.jp/hoiku/about/nursery/shinmaruko.html",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(法人サイトを横断クロールし、ページtitleの施設名一致と本文の電話番号照合で確認)"
+ },
+ {
+  "id": "麻生区／小学館アカデミー新ゆり山手保育園",
+  "name": "小学館アカデミー新ゆり山手保育園",
+  "url": "https://hoiku.shopro.co.jp/hoiku/about/nursery/shinyuriyamate.html",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(法人サイトを横断クロールし、ページtitleの施設名一致と本文の電話番号照合で確認)"
+ },
+ {
+  "id": "高津区／小学館アカデミーむさししんじょう第2保育園",
+  "name": "小学館アカデミーむさししんじょう第2保育園",
+  "url": "https://hoiku.shopro.co.jp/hoiku/about/nursery/musashishinjou2.html",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(法人サイトを横断クロールし、ページtitleの施設名一致と本文の電話番号照合で確認)"
+ },
+ {
+  "id": "多摩区／小学館アカデミー西いくた保育園",
+  "name": "小学館アカデミー西いくた保育園",
+  "url": "https://hoiku.shopro.co.jp/hoiku/about/nursery/nishiikuta.html",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(法人サイトを横断クロールし、ページtitleの施設名一致と本文の電話番号照合で確認)"
+ },
+ {
+  "id": "中原区／小学館アカデミーむさししんじょう保育園",
+  "name": "小学館アカデミーむさししんじょう保育園",
+  "url": "https://hoiku.shopro.co.jp/hoiku/about/nursery/musashishinjou.html",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(法人サイトを横断クロールし、ページtitleの施設名一致と本文の電話番号照合で確認)"
+ },
+ {
+  "id": "麻生区／AIAINURSERY新百合ヶ丘",
+  "name": "AIAINURSERY新百合ヶ丘",
+  "url": "https://nursery.aiai-cc.co.jp/facility/shin_yurigaoka/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(法人サイトを横断クロールし、ページtitleの施設名一致と本文の電話番号照合で確認)"
+ },
+ {
+  "id": "多摩区／AIAINURSERY向ヶ丘遊園",
+  "name": "AIAINURSERY向ヶ丘遊園",
+  "url": "https://nursery.aiai-cc.co.jp/facility/mukougaokayuen/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(法人サイトを横断クロールし、ページtitleの施設名一致と本文の電話番号照合で確認)"
+ },
+ {
+  "id": "中原区／わらべうた武蔵小杉保育園",
+  "name": "わらべうた武蔵小杉保育園",
+  "url": "https://www.kidslife-nursery.com/facility/kanagawa/kawasaki/musashikosugi/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(法人サイトを横断クロールし、ページtitleの施設名一致と本文の電話番号照合で確認)"
+ },
+ {
+  "id": "中原区／第２武蔵小杉コスモス保育園",
+  "name": "第２武蔵小杉コスモス保育園",
+  "url": "https://c-g.jp/nursery/012.html",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(法人サイトを横断クロールし、ページtitleの施設名一致と本文の電話番号照合で確認)"
+ },
+ {
+  "id": "高津区／うめのき保育園",
+  "name": "うめのき保育園",
+  "url": "https://c-g.jp/nursery/024.html",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(法人サイトを横断クロールし、ページtitleの施設名一致と本文の電話番号照合で確認)"
+ },
+ {
+  "id": "麻生区／すぎのこ保育園",
+  "name": "すぎのこ保育園",
+  "url": "https://suginoko.or.jp/recruit/suginoko/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(法人サイトを横断クロールし、ページtitleの施設名一致と本文の電話番号照合で確認)"
+ },
+ {
+  "id": "高津区／西高津くさはな保育園",
+  "name": "西高津くさはな保育園",
+  "url": "https://kotobukikai.ed.jp/2022/03/09/【西高津くさはな保育園】-正規保育士募集/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(法人サイトを横断クロールし、ページtitleの施設名一致と本文の電話番号照合で確認)"
+ },
+ {
+  "id": "多摩区／ひばり保育園",
+  "name": "ひばり保育園",
+  "url": "https://www.hibari-ns.ed.jp/pages/121/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(法人サイトを横断クロールし、ページtitleの施設名一致と本文の電話番号照合で確認)"
+ },
+ {
+  "id": "多摩区／こひばり保育園",
+  "name": "こひばり保育園",
+  "url": "https://www.hibari-ns.ed.jp/pages/123/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(法人サイトを横断クロールし、ページtitleの施設名一致と本文の電話番号照合で確認)"
+ },
+ {
+  "id": "多摩区／ひばりっこくらぶ保育園",
+  "name": "ひばりっこくらぶ保育園",
+  "url": "https://www.hibari-ns.ed.jp/pages/122/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(法人サイトを横断クロールし、ページtitleの施設名一致と本文の電話番号照合で確認)"
+ },
+ {
+  "id": "多摩区／登戸ルミナス保育園",
+  "name": "登戸ルミナス保育園",
+  "url": "https://www.yoikode.com/noborito/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(法人サイトを横断クロールし、ページtitleの施設名一致と本文の電話番号照合で確認)"
+ },
+ {
+  "id": "多摩区／生田ルミナス保育園",
+  "name": "生田ルミナス保育園",
+  "url": "https://www.yoikode.com/ikuta/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(法人サイトを横断クロールし、ページtitleの施設名一致と本文の電話番号照合で確認)"
+ },
+ {
+  "id": "麻生区／五月台ルミナス保育園",
+  "name": "五月台ルミナス保育園",
+  "url": "https://www.yoikode.com/satsukidai/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(法人サイトを横断クロールし、ページtitleの施設名一致と本文の電話番号照合で確認)"
+ },
+ {
+  "id": "麻生区／柿生ルミナス保育園",
+  "name": "柿生ルミナス保育園",
+  "url": "https://www.yoikode.com/kakio/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(法人サイトを横断クロールし、ページtitleの施設名一致と本文の電話番号照合で確認)"
+ },
+ {
+  "id": "麻生区／百合丘ルミナス保育園",
+  "name": "百合丘ルミナス保育園",
+  "url": "https://www.yoikode.com/yurigaoka",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(法人サイトを横断クロールし、ページtitleの施設名一致と本文の電話番号照合で確認)"
+ },
+ {
+  "id": "多摩区／すみれいろ保育園",
+  "name": "すみれいろ保育園",
+  "url": "http://khm-hoiku.com/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(法人サイトを横断クロールし、ページtitleの施設名一致と本文の電話番号照合で確認)"
+ },
+ {
+  "id": "多摩区／宿河原すみれの花保育園",
+  "name": "宿河原すみれの花保育園",
+  "url": "http://khm-hoiku.com/sumirenohanahoiku/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(法人サイトを横断クロールし、ページtitleの施設名一致と本文の電話番号照合で確認)"
+ },
+ {
+  "id": "多摩区／保育園アリス宿河原",
+  "name": "保育園アリス宿河原",
+  "url": "https://swc-alice.jp/alice_shukugawara/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(法人サイトを横断クロールし、ページtitleの施設名一致と本文の電話番号照合で確認)"
+ },
+ {
+  "id": "多摩区／うぃず向ヶ丘遊園保育園",
+  "name": "うぃず向ヶ丘遊園保育園",
+  "url": "https://www.mom.ed.jp/hoikuen/k_mukougaokayuuen.html",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "多摩区／うぃず稲田堤保育園",
+  "name": "うぃず稲田堤保育園",
+  "url": "https://www.mom.ed.jp/hoikuen/k_inadatudumi.html",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "多摩区／第２くまのこ園",
+  "name": "第２くまのこ園",
+  "url": null,
+  "type": "city",
+  "verdict": "unreachable",
+  "error": "HTTP 404",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "多摩区／宿河原もりのこ保育園",
+  "name": "宿河原もりのこ保育園",
+  "url": null,
+  "type": "city",
+  "verdict": "unreachable",
+  "error": "HTTP 404",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "多摩区／のぼりっこ保育園",
+  "name": "のぼりっこ保育園",
+  "url": "https://kodomonomori.co.jp/nb/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "多摩区／「こころの花」ほいくえん登戸駅前",
+  "name": "「こころの花」ほいくえん登戸駅前",
+  "url": "https://cocoro-hana.jp/noborito.php",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "多摩区／うぃず宿河原保育園",
+  "name": "うぃず宿河原保育園",
+  "url": "https://www.mom.ed.jp/hoikuen/k_shukugawara.html",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "多摩区／ウィズブック保育園中野島",
+  "name": "ウィズブック保育園中野島",
+  "url": "https://wb-hoikuen.jp/tokyo/nakanoshima",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "多摩区／Gaｋｋenほいくえん登戸",
+  "name": "Gaｋｋenほいくえん登戸",
+  "url": "https://nursery.cocofump.co.jp/nursery/noborito/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "多摩区／三田かしのみ保育園",
+  "name": "三田かしのみ保育園",
+  "url": "http://www.mitakashinomi.jp/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "多摩区／登戸ゆりのき保育園",
+  "name": "登戸ゆりのき保育園",
+  "url": "https://seiwa-noboyuri.jp/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "多摩区／中野島幼稚園",
+  "name": "中野島幼稚園",
+  "url": "https://www.nakanoshimayouchien.com/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "多摩区／ハグミー・ナーサリー",
+  "name": "ハグミー・ナーサリー",
+  "url": "https://hugme-nursery.com/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "多摩区／モンテッソーリ子どもの家はるるん保育園",
+  "name": "モンテッソーリ子どもの家はるるん保育園",
+  "url": "https://www.kids-harurun.com/harurun/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ }
+]
