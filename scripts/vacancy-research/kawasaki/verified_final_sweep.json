@@ -303,5 +303,66 @@
   "verdict": "verified",
   "by": "name",
   "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "幸区／保育園アレッタ",
+  "name": "保育園アレッタ",
+  "url": null,
+  "type": "corp",
+  "verdict": "unverified",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "幸区／保育園フェリチッタ",
+  "name": "保育園フェリチッタ",
+  "url": null,
+  "type": "corp",
+  "verdict": "unverified",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "高津区／緑の杜保育園",
+  "name": "緑の杜保育園",
+  "url": "https://minpokyo.or.jp/midorinomori/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "高津区／わかばの杜保育園",
+  "name": "わかばの杜保育園",
+  "url": "https://minpokyo.or.jp/wakabanomori/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "中原区／すこやか小杉保育園",
+  "name": "すこやか小杉保育園",
+  "url": "https://shoei-fukushikai.jp/kosugi",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "中原区／しらゆり中原保育園",
+  "name": "しらゆり中原保育園",
+  "url": "https://r.goope.jp/shirayuri-naka/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "中原区／まめの木保育園",
+  "name": "まめの木保育園",
+  "url": "https://kfj.or.jp/%e3%81%be%e3%82%81%e3%81%ae%e6%9c%a8%e4%bf%9d%e8%82%b2%e5%9c%92%e3%80%80%e5%85%a5%e5%9c%92%e6%a1%88%e5%86%85-2/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
  }
 ]
