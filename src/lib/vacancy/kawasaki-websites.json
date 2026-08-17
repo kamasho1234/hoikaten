@@ -1,8 +1,12 @@
 {
  "municipalitySlug": "kawasaki",
  "note": "各施設の公式サイト。Web検索で特定し、URLへ実アクセスして施設名または電話番号の一致を確認したものだけを載せている。",
- "facilityCount": 263,
+ "facilityCount": 295,
  "sites": {
+  "宮前区／AIAINURSERY宮前平": {
+   "url": "https://nursery.aiai-cc.co.jp/facility/miyamaedaira/",
+   "type": "corp"
+  },
   "宮前区／アスクさぎぬま保育園": {
    "url": "https://list.nihonhoiku.co.jp/nursery/detail/saginuma/",
    "type": "corp"
@@ -19,9 +23,33 @@
    "url": "https://daijikai.jp/hoikuen/inukurakonohara/",
    "type": "corp"
   },
+  "宮前区／ヴィラまなびの森保育園宮崎台": {
+   "url": "https://kodomonomori.co.jp/vm/",
+   "type": "own"
+  },
   "宮前区／かわさき犬蔵保育園": {
    "url": "https://www.kidslife-nursery.com/facility/kanagawa/kawasaki/kawasakiinukura/",
    "type": "corp"
+  },
+  "宮前区／くぬぎ保育園": {
+   "url": "https://kakinomi.com/kunugi/",
+   "type": "corp"
+  },
+  "宮前区／グリーンフォレスト神木保育園": {
+   "url": "https://www.chitosek.or.jp/preschools/gf-shiboku",
+   "type": "corp"
+  },
+  "宮前区／クレアナーサリー宮前平": {
+   "url": "https://www.alpha-co.com/nursery/nursery-school/miyamaedaira",
+   "type": "corp"
+  },
+  "宮前区／こどものいえもも保育園": {
+   "url": "https://suginoko.or.jp/momo/",
+   "type": "own"
+  },
+  "宮前区／さぎ沼なごみ保育園": {
+   "url": "https://nagomi-ns.ed.jp/saginuma",
+   "type": "own"
   },
   "宮前区／サンライズ宮前平保育室": {
    "url": "https://hoikukai-baby.com/sunrise-miyamaedaira/",
@@ -31,12 +59,24 @@
    "url": "https://www.skipdoremi.com/",
    "type": "own"
   },
+  "宮前区／すきっぷドレミ園分園": {
+   "url": "https://www.skipdoremi.com/",
+   "type": "own"
+  },
   "宮前区／すきっぷ保育園": {
    "url": "https://www.skiphoiku.com/",
    "type": "own"
   },
+  "宮前区／スターチャイルド≪宮前平ナーサリー≫": {
+   "url": "https://www.starchild.jp/nursery/miyamaedaira/",
+   "type": "corp"
+  },
   "宮前区／せみなーれ幼保園": {
    "url": "https://hoikukai-baby.com/miyamaedaira/7064/",
+   "type": "corp"
+  },
+  "宮前区／たいら虹保育園": {
+   "url": "https://childcare.hinode.or.jp/facility/taira/",
    "type": "corp"
   },
   "宮前区／たつのこのはら保育園": {
@@ -49,6 +89,10 @@
   },
   "宮前区／ティンクル上野川保育園": {
    "url": "http://www.seisa.or.jp/nschool/kaminogawa.html",
+   "type": "own"
+  },
+  "宮前区／ドリームキッズさぎぬまナーサリー": {
+   "url": "https://www.dreamsumire.com/",
    "type": "own"
   },
   "宮前区／ナーサリールームベリーベアー宮崎台": {
@@ -83,6 +127,10 @@
    "url": "https://www.happykids-saginuma.net/index.html",
    "type": "own"
   },
+  "宮前区／ぱぷりか保育園宮前平": {
+   "url": "https://papurika-hoiku.com/about/",
+   "type": "own"
+  },
   "宮前区／ピュアリー宮前平保育園": {
    "url": "https://www.purely-hoiku.jp/cont3/main.html",
    "type": "corp"
@@ -99,6 +147,14 @@
    "url": "https://budou-ki.co.jp/saginuma2/",
    "type": "own"
   },
+  "宮前区／まなびの森ヴィラ宮前平もりのこ保育園": {
+   "url": "https://kodomonomori.co.jp/my/",
+   "type": "own"
+  },
+  "宮前区／まなびの森保育園宮崎台": {
+   "url": "https://kodomonomori.co.jp/md/",
+   "type": "own"
+  },
   "宮前区／まなびの森保育園宮前平": {
    "url": "https://kodomonomori.co.jp/tc/",
    "type": "own"
@@ -106,6 +162,26 @@
   "宮前区／まなびの森保育園鷺沼": {
    "url": "https://kodomonomori.co.jp/nu/",
    "type": "own"
+  },
+  "宮前区／まなびの森保育園馬絹": {
+   "url": "https://kodomonomori.co.jp/um/",
+   "type": "own"
+  },
+  "宮前区／みなみすがお保育園": {
+   "url": "https://satori-hoikuen.com/ty-minamisugao/",
+   "type": "corp"
+  },
+  "宮前区／みやまえの杜保育園": {
+   "url": "https://minpokyo.or.jp/miyamaenomori/",
+   "type": "corp"
+  },
+  "宮前区／メロディ宮崎台園": {
+   "url": "https://nursery.child-land.co.jp/facilities/melody-miyazakidai/",
+   "type": "corp"
+  },
+  "宮前区／ゆぃまぁる保育園東有馬": {
+   "url": "http://www.ahagon.net/yuimaaru.php",
+   "type": "corp"
   },
   "宮前区／わらべうた宮崎台保育園": {
    "url": "https://www.kidslife-nursery.com/facility/kanagawa/kawasaki/miyazakidai/",
@@ -115,13 +191,41 @@
    "url": "https://www.kidslife-nursery.com/facility/kanagawa/kawasaki/saginuma/",
    "type": "corp"
   },
+  "宮前区／可愛保育園": {
+   "url": "https://www.kaai-baby.com/",
+   "type": "own"
+  },
+  "宮前区／宮崎台コスモス保育園": {
+   "url": "https://c-g.jp/nursery/015.html",
+   "type": "corp"
+  },
+  "宮前区／宮崎台幼稚園": {
+   "url": "https://www.miyazakidai.ed.jp/",
+   "type": "own"
+  },
   "宮前区／宮前空翠保育園": {
    "url": "https://kouseikan-f.org/kusui/",
+   "type": "own"
+  },
+  "宮前区／宮前幼稚園（宮前おひさまこども園と統合）": {
+   "url": "https://www.miyamae-net.com/",
+   "type": "own"
+  },
+  "宮前区／京進のほいくえんＨＯＰＰＡ宮崎台園": {
+   "url": "https://keceg.jp/school/hoppa-miyazakidai/",
+   "type": "corp"
+  },
+  "宮前区／健爽学園ゆりかご幼稚園": {
+   "url": "https://kensou-yurikago.com/",
    "type": "own"
   },
   "宮前区／向丘はなみずき保育園": {
    "url": "https://mukaigaoka-hanamizuki.com/",
    "type": "own"
+  },
+  "宮前区／鷺沼ピノキオ保育園": {
+   "url": "https://seido-kai.com/base/sakginuma/",
+   "type": "corp"
   },
   "宮前区／小学館アカデミーさぎぬま保育園": {
    "url": "https://hoiku.shopro.co.jp/hoiku/about/nursery/saginuma.html",
@@ -135,9 +239,17 @@
    "url": "https://www.city.kawasaki.jp/450/page/0000031275.html",
    "type": "city"
   },
+  "宮前区／西有馬おひさま保育園": {
+   "url": "https://kotobukikai.ed.jp/nursery/nishiarima/",
+   "type": "corp"
+  },
   "宮前区／中有馬保育園": {
    "url": "https://www.city.kawasaki.jp/450/page/0000031296.html",
    "type": "city"
+  },
+  "宮前区／潮見台みどり幼稚園": {
+   "url": "https://www.midoriyouchien.com/",
+   "type": "own"
   },
   "宮前区／土橋保育園": {
    "url": "https://www.city.kawasaki.jp/450/page/0000031310.html",
@@ -146,6 +258,14 @@
   "宮前区／土橋宝翠保育園": {
    "url": "https://kouseikan-f.org/hosui/",
    "type": "own"
+  },
+  "宮前区／保育園SCOPS宮崎台園": {
+   "url": "https://scops.jp/facility-cp/scops-%e5%ae%ae%e5%b4%8e%e5%8f%b0/",
+   "type": "corp"
+  },
+  "宮前区／保育園SCOPS公園前": {
+   "url": "https://scops.jp/childcare/institution/",
+   "type": "corp"
   },
   "宮前区／明日葉保育園宮崎台園": {
    "url": "https://www.ashita-ba.jp/hoiku/miyazakidai/",
@@ -159,8 +279,16 @@
    "url": "http://www.seisa.or.jp/nschool/nogawaminami.html",
    "type": "own"
   },
+  "宮前区／有馬の杜コスモス保育園": {
+   "url": "https://www.sanjyukai.com/cosmos/",
+   "type": "own"
+  },
   "宮前区／有馬川はなみずき保育園": {
    "url": "https://arimagawa-hanamizuki.com/",
+   "type": "own"
+  },
+  "宮前区／有馬白百合幼稚園": {
+   "url": "https://www.arimashirayuri.com/",
    "type": "own"
   },
   "幸区／Nest鹿島田保育園": {

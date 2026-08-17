@@ -1,0 +1,308 @@
+[
+ {
+  "id": "宮前区／有馬の杜コスモス保育園",
+  "name": "有馬の杜コスモス保育園",
+  "url": "https://www.sanjyukai.com/cosmos/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／宮崎台コスモス保育園",
+  "name": "宮崎台コスモス保育園",
+  "url": "https://c-g.jp/nursery/015.html",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／まなびの森ヴィラ宮前平もりのこ保育園",
+  "name": "まなびの森ヴィラ宮前平もりのこ保育園",
+  "url": "https://kodomonomori.co.jp/my/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／ヴィラまなびの森保育園宮崎台",
+  "name": "ヴィラまなびの森保育園宮崎台",
+  "url": "https://kodomonomori.co.jp/vm/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／まなびの森保育園馬絹",
+  "name": "まなびの森保育園馬絹",
+  "url": "https://kodomonomori.co.jp/um/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／まなびの森保育園宮崎台",
+  "name": "まなびの森保育園宮崎台",
+  "url": "https://kodomonomori.co.jp/md/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／ドリームキッズさぎぬまナーサリー",
+  "name": "ドリームキッズさぎぬまナーサリー",
+  "url": "https://www.dreamsumire.com/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／西有馬おひさま保育園",
+  "name": "西有馬おひさま保育園",
+  "url": "https://kotobukikai.ed.jp/nursery/nishiarima/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／保育園SCOPS宮崎台園",
+  "name": "保育園SCOPS宮崎台園",
+  "url": "https://scops.jp/facility-cp/scops-%e5%ae%ae%e5%b4%8e%e5%8f%b0/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／保育園SCOPS公園前",
+  "name": "保育園SCOPS公園前",
+  "url": "https://scops.jp/childcare/institution/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／クレアナーサリー宮前平",
+  "name": "クレアナーサリー宮前平",
+  "url": "https://www.alpha-co.com/nursery/nursery-school/miyamaedaira",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／AIAINURSERY宮前平",
+  "name": "AIAINURSERY宮前平",
+  "url": "https://nursery.aiai-cc.co.jp/facility/miyamaedaira/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／スターチャイルド≪宮前平ナーサリー≫",
+  "name": "スターチャイルド≪宮前平ナーサリー≫",
+  "url": "https://www.starchild.jp/nursery/miyamaedaira/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／たけの子保育園",
+  "name": "たけの子保育園",
+  "url": null,
+  "type": "city",
+  "verdict": "unreachable",
+  "error": "HTTP 404",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／さぎ沼なごみ保育園",
+  "name": "さぎ沼なごみ保育園",
+  "url": "https://nagomi-ns.ed.jp/saginuma",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／潮見台みどり幼稚園",
+  "name": "潮見台みどり幼稚園",
+  "url": "https://www.midoriyouchien.com/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／すきっぷドレミ園分園",
+  "name": "すきっぷドレミ園分園",
+  "url": "https://www.skipdoremi.com/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／京進のほいくえんＨＯＰＰＡ宮崎台園",
+  "name": "京進のほいくえんＨＯＰＰＡ宮崎台園",
+  "url": "https://keceg.jp/school/hoppa-miyazakidai/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／鷺沼ピノキオ保育園",
+  "name": "鷺沼ピノキオ保育園",
+  "url": "https://seido-kai.com/base/sakginuma/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／有馬白百合幼稚園",
+  "name": "有馬白百合幼稚園",
+  "url": "https://www.arimashirayuri.com/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／宮崎台幼稚園",
+  "name": "宮崎台幼稚園",
+  "url": "https://www.miyazakidai.ed.jp/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／健爽学園ゆりかご幼稚園",
+  "name": "健爽学園ゆりかご幼稚園",
+  "url": "https://kensou-yurikago.com/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／もものか保育園",
+  "name": "もものか保育園",
+  "url": null,
+  "type": "city",
+  "verdict": "unreachable",
+  "error": "HTTP 404",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／グリーンフォレスト神木保育園",
+  "name": "グリーンフォレスト神木保育園",
+  "url": "https://www.chitosek.or.jp/preschools/gf-shiboku",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／こどものいえもも保育園",
+  "name": "こどものいえもも保育園",
+  "url": "https://suginoko.or.jp/momo/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／宮前幼稚園（宮前おひさまこども園と統合）",
+  "name": "宮前幼稚園（宮前おひさまこども園と統合）",
+  "url": "https://www.miyamae-net.com/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／たいら虹保育園",
+  "name": "たいら虹保育園",
+  "url": "https://childcare.hinode.or.jp/facility/taira/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／可愛保育園",
+  "name": "可愛保育園",
+  "url": "https://www.kaai-baby.com/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／ぱぷりか保育園宮前平",
+  "name": "ぱぷりか保育園宮前平",
+  "url": "https://papurika-hoiku.com/about/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／みやまえの杜保育園",
+  "name": "みやまえの杜保育園",
+  "url": "https://minpokyo.or.jp/miyamaenomori/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／みなみすがお保育園",
+  "name": "みなみすがお保育園",
+  "url": "https://satori-hoikuen.com/ty-minamisugao/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／メロディ宮崎台園",
+  "name": "メロディ宮崎台園",
+  "url": "https://nursery.child-land.co.jp/facilities/melody-miyazakidai/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／ゆぃまぁる保育園東有馬",
+  "name": "ゆぃまぁる保育園東有馬",
+  "url": "http://www.ahagon.net/yuimaaru.php",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／くぬぎ保育園",
+  "name": "くぬぎ保育園",
+  "url": "https://kakinomi.com/kunugi/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ }
+]
