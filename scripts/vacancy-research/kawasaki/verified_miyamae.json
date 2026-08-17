@@ -1,0 +1,425 @@
+[
+ {
+  "id": "宮前区／にじいろ保育園宮前平",
+  "name": "にじいろ保育園宮前平",
+  "url": null,
+  "type": "corp",
+  "verdict": "unreachable",
+  "error": "ENOTFOUND",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／にじいろ保育園犬蔵",
+  "name": "にじいろ保育園犬蔵",
+  "url": null,
+  "type": "corp",
+  "verdict": "unreachable",
+  "error": "ENOTFOUND",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／にじいろ保育園有馬",
+  "name": "にじいろ保育園有馬",
+  "url": null,
+  "type": "corp",
+  "verdict": "unreachable",
+  "error": "ENOTFOUND",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／アスク宮崎台保育園",
+  "name": "アスク宮崎台保育園",
+  "url": "https://list.nihonhoiku.co.jp/nursery/detail/miyazakidai/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／アスク宮前平保育園",
+  "name": "アスク宮前平保育園",
+  "url": "https://list.nihonhoiku.co.jp/nursery/detail/miyamaedaira/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／アスクさぎぬま保育園",
+  "name": "アスクさぎぬま保育園",
+  "url": "https://list.nihonhoiku.co.jp/nursery/detail/saginuma/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／まなびの森保育園鷺沼",
+  "name": "まなびの森保育園鷺沼",
+  "url": "https://kodomonomori.co.jp/nu/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／まなびの森保育園宮前平",
+  "name": "まなびの森保育園宮前平",
+  "url": "https://kodomonomori.co.jp/tc/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／ティンクルくぬぎ坂保育園",
+  "name": "ティンクルくぬぎ坂保育園",
+  "url": "http://www.seisa.or.jp/nschool/kunugi.html",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／ティンクル上野川保育園",
+  "name": "ティンクル上野川保育園",
+  "url": "http://www.seisa.or.jp/nschool/kaminogawa.html",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／野川南台保育園",
+  "name": "野川南台保育園",
+  "url": null,
+  "type": "city",
+  "verdict": "unreachable",
+  "error": "HTTP 404",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／すきっぷドレミ園",
+  "name": "すきっぷドレミ園",
+  "url": "https://www.skipdoremi.com/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／わらべうた宮崎台保育園",
+  "name": "わらべうた宮崎台保育園",
+  "url": "https://www.kidslife-nursery.com/facility/kanagawa/kawasaki/miyazakidai/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／かわさき犬蔵保育園",
+  "name": "かわさき犬蔵保育園",
+  "url": "https://www.kidslife-nursery.com/facility/kanagawa/kawasaki/kawasakiinukura/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／わらべうた鷺沼保育園",
+  "name": "わらべうた鷺沼保育園",
+  "url": "https://www.kidslife-nursery.com/facility/kanagawa/kawasaki/saginuma/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／すきっぷ保育園",
+  "name": "すきっぷ保育園",
+  "url": "https://www.skiphoiku.com/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／向丘はなみずき保育園",
+  "name": "向丘はなみずき保育園",
+  "url": "https://mukaigaoka-hanamizuki.com/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／小学館アカデミーみやまえだいら保育園",
+  "name": "小学館アカデミーみやまえだいら保育園",
+  "url": "https://hoiku.shopro.co.jp/hoiku/about/nursery/miyamaedaira.html",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／小学館アカデミーさぎぬま保育園",
+  "name": "小学館アカデミーさぎぬま保育園",
+  "url": "https://hoiku.shopro.co.jp/hoiku/about/nursery/saginuma.html",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／有馬川はなみずき保育園",
+  "name": "有馬川はなみずき保育園",
+  "url": "https://arimagawa-hanamizuki.com/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／ナーサリールームベリーベアー鷺沼",
+  "name": "ナーサリールームベリーベアー鷺沼",
+  "url": "https://ness-corpo.co.jp/nursery/saginuma/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／ナーサリールームベリーベアー鷺沼Annex",
+  "name": "ナーサリールームベリーベアー鷺沼Annex",
+  "url": "https://ness-corpo.co.jp/nursery/saginuma_annex/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／ナーサリールームベリーベアー宮崎台",
+  "name": "ナーサリールームベリーベアー宮崎台",
+  "url": "https://ness-corpo.co.jp/nursery/miyazakidai/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／ぶどうの実第２さぎぬま園",
+  "name": "ぶどうの実第２さぎぬま園",
+  "url": "https://budou-ki.co.jp/saginuma2/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／ぶどうの実鷺沼園",
+  "name": "ぶどうの実鷺沼園",
+  "url": "https://budou-ki.co.jp/saginuma/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／ピュアリー鷺沼保育園",
+  "name": "ピュアリー鷺沼保育園",
+  "url": "https://www.purely-hoiku.jp/cont3/main.html",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／ピュアリー宮前平保育園",
+  "name": "ピュアリー宮前平保育園",
+  "url": "https://www.purely-hoiku.jp/cont3/main.html",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／明日葉保育園鷺沼園",
+  "name": "明日葉保育園鷺沼園",
+  "url": "https://www.ashita-ba.jp/hoiku/saginuma/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／明日葉保育園宮崎台園",
+  "name": "明日葉保育園宮崎台園",
+  "url": "https://www.ashita-ba.jp/hoiku/miyazakidai/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／ハッピーキッズ・ちびっこ園",
+  "name": "ハッピーキッズ・ちびっこ園",
+  "url": "https://www.happykids-saginuma.net/index.html",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／ハッピーキッズ・プチ園",
+  "name": "ハッピーキッズ・プチ園",
+  "url": "https://www.happykids-saginuma.net/index.html",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／いぬくらこのはら保育園",
+  "name": "いぬくらこのはら保育園",
+  "url": "https://daijikai.jp/hoikuen/inukurakonohara/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／宮前空翠保育園",
+  "name": "宮前空翠保育園",
+  "url": "https://kouseikan-f.org/kusui/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／土橋宝翠保育園",
+  "name": "土橋宝翠保育園",
+  "url": "https://kouseikan-f.org/hosui/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／たつのこのはら保育園",
+  "name": "たつのこのはら保育園",
+  "url": "https://daijikai.jp/hoikuen/tatsunokohara/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "幸区／にじいろ保育園鹿島田駅前（旧にじいろ保育園鹿島田）",
+  "name": "にじいろ保育園鹿島田駅前（旧にじいろ保育園鹿島田）",
+  "url": "https://www.nijiiro-hoikuen.jp/category/kanagawa/kawasaki/nijiiro-76-2/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "中原区／にじいろ保育園南平間",
+  "name": "にじいろ保育園南平間",
+  "url": "https://www.nijiiro-hoikuen.jp/category/kanagawa/kawasaki/nijiiro-12/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "中原区／にじいろ保育園上新城",
+  "name": "にじいろ保育園上新城",
+  "url": "https://www.nijiiro-hoikuen.jp/category/kanagawa/kawasaki/nijiiro-188/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "中原区／にじいろ保育園武蔵中原",
+  "name": "にじいろ保育園武蔵中原",
+  "url": "https://www.nijiiro-hoikuen.jp/category/kanagawa/kawasaki/nijiiro-82/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "中原区／にじいろ保育園新丸子",
+  "name": "にじいろ保育園新丸子",
+  "url": "https://www.nijiiro-hoikuen.jp/kanagawa/kawasaki/nijiiro-154/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "高津区／にじいろ保育園二子新地",
+  "name": "にじいろ保育園二子新地",
+  "url": "https://www.nijiiro-hoikuen.jp/category/kanagawa/kawasaki/nijiiro-52/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／にじいろ保育園宮前平",
+  "name": "にじいろ保育園宮前平",
+  "url": "https://www.nijiiro-hoikuen.jp/category/kanagawa/kawasaki/nijiiro-75/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／にじいろ保育園有馬",
+  "name": "にじいろ保育園有馬",
+  "url": "https://www.nijiiro-hoikuen.jp/category/kanagawa/kawasaki/nijiiro-187/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "多摩区／にじいろ保育園登戸",
+  "name": "にじいろ保育園登戸",
+  "url": "https://www.nijiiro-hoikuen.jp/category/kanagawa/kawasaki/nijiiro-19/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／にじいろ保育園犬蔵",
+  "name": "にじいろ保育園犬蔵",
+  "url": "https://www.nijiiro-hoikuen.jp/category/kanagawa/kawasaki/nijiiro-51/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "多摩区／にじいろ保育園稲田堤",
+  "name": "にじいろ保育園稲田堤",
+  "url": "https://www.nijiiro-hoikuen.jp/category/kanagawa/kawasaki/nijiiro-93/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／野川南台保育園",
+  "name": "野川南台保育園",
+  "url": "http://www.seisa.or.jp/nschool/nogawaminami.html",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ }
+]

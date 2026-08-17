@@ -1,0 +1,39 @@
+Municipality Data Files Created
+================================
+Date: 2026-06-04
+
+Three new municipality data files have been created for hoikaten.com:
+
+1. src/lib/data/noda.ts (野田市 - Noda City, Chiba)
+   - Max Base Points: 20 (10 per parent)
+   - Employment Tiers: 8 (including job seeking)
+   - Adjustments: 8 criteria
+   - Source: https://www.city.noda.chiba.jp/kurashi/kosodate/hoiku/1011759.html
+
+2. src/lib/data/sakura.ts (佐倉市 - Sakura City, Chiba)
+   - Max Base Points: 20 (10 per parent)
+   - Employment Tiers: 8 (including employment prospects)
+   - Adjustments: 8 criteria
+   - Source: https://www.city.sakura.lg.jp/soshiki/kodomohoikuka/7/5538.html
+
+3. src/lib/data/kisarazu.ts (木更津市 - Kisarazu City, Chiba)
+   - Max Base Points: 20 (10 per parent)
+   - Employment Tiers: 8 (including job seeking)
+   - Adjustments: 8 criteria
+   - Source: https://www.city.kisarazu.lg.jp/soshiki/kenkokodomo/kodomohoiku/1/2329.html
+
+All files follow the pattern guide requirements:
+- Export names: nodaData, sakuraData, kisarazuData
+- "as const" declarations used
+- Options start with "あてはまらない"
+- 5-8 employment tiers (all have 8)
+- 8+ adjustment criteria (all have 8)
+- All point values based on official municipal criteria
+- Official URLs included in file headers
+
+Scoring Method: Sum-type (父母基準点数の合計方式)
+- Father and mother base points are summed
+- Adjustment points are added/subtracted based on family circumstances
+- Each municipality has identical structure for consistency
+
+All files are ready for integration into the hoikaten.com database.
