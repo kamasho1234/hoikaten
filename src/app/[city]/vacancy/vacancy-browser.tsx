@@ -2,11 +2,13 @@
 
 import { useMemo, useState } from "react";
 import type { VacancyFacility } from "@/lib/vacancy";
-import { AGE_COUNT, AGE_LABELS, valueAt } from "@/lib/vacancy";
+import { AGE_COUNT, AGE_LABELS, facilityVacancy, valueAt } from "@/lib/vacancy";
 
-const ALL_WARDS = -1;
+const ALL = -1;
 const INITIAL_LIMIT = 50;
 const LIMIT_STEP = 50;
+/** categories に載らない施設（自治体が種類を公表していないもの）を選ぶための値 */
+const UNCLASSIFIED = -2;
 
 type SortKey = "vacancy" | "waiting" | "name";
 
@@ -24,11 +26,11 @@ const labelClass = "block text-xs font-medium text-muted-foreground mb-1.5";
 
 const num = (n: number) => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 
-/** リンク先が園そのものか、運営法人か、市のページかを利用者に伝える */
+/** リンク先が園そのものか、運営法人か、自治体のページかを利用者に伝える */
 const SITE_LABELS: Record<NonNullable<VacancyFacility["site"]>["type"], string> = {
   facility: "公式サイト",
   corp: "運営法人のサイト",
-  city: "横浜市のページ",
+  city: "自治体のページ",
 };
 
 function ExternalLinkIcon() {
@@ -53,16 +55,39 @@ function ExternalLinkIcon() {
 export function VacancyBrowser({
   facilities,
   wards,
+  categories,
+  hasWaiting,
+  hasEnrolled,
 }: {
   facilities: VacancyFacility[];
   wards: string[];
+  categories: string[];
+  hasWaiting: boolean;
+  hasEnrolled: boolean;
 }) {
-  const [ward, setWard] = useState<number>(ALL_WARDS);
+  const [ward, setWard] = useState<number>(ALL);
+  const [category, setCategory] = useState<number>(ALL);
   const [age, setAge] = useState<number | null>(null);
   const [onlyVacant, setOnlyVacant] = useState(false);
   const [query, setQuery] = useState("");
   const [sort, setSort] = useState<SortKey>("vacancy");
   const [limit, setLimit] = useState(INITIAL_LIMIT);
+
+  const hasWards = wards.length > 0;
+  const hasCategories = categories.length > 0;
+  // 自治体が種類を公表していない施設があるときだけ「種類の記載なし」を選べるようにする
+  const hasUnclassified = useMemo(
+    () => hasCategories && facilities.some((f) => f.c === null || f.c === undefined),
+    [hasCategories, facilities]
+  );
+
+  const sortKeys = useMemo(
+    () =>
+      (Object.keys(SORT_LABELS) as SortKey[]).filter(
+        (k) => k !== "waiting" || hasWaiting
+      ),
+    [hasWaiting]
+  );
 
   // 条件を変えたら表示件数を先頭に戻す
   const resetLimit = () => setLimit(INITIAL_LIMIT);
@@ -70,9 +95,13 @@ export function VacancyBrowser({
   const filtered = useMemo(() => {
     const q = query.trim();
     const list = facilities.filter((f) => {
-      if (ward !== ALL_WARDS && f.w !== ward) return false;
+      if (ward !== ALL && f.w !== ward) return false;
+      if (category !== ALL) {
+        const c = f.c ?? null;
+        if (category === UNCLASSIFIED ? c !== null : c !== category) return false;
+      }
       if (q && !f.name.includes(q)) return false;
-      if (onlyVacant && (valueAt(f.vacancy, age) ?? 0) <= 0) return false;
+      if (onlyVacant && (facilityVacancy(f, age) ?? 0) <= 0) return false;
       return true;
     });
 
@@ -83,20 +112,20 @@ export function VacancyBrowser({
       sorted.sort(
         (a, b) =>
           (valueAt(a.waiting, age) ?? 0) - (valueAt(b.waiting, age) ?? 0) ||
-          (valueAt(b.vacancy, age) ?? 0) - (valueAt(a.vacancy, age) ?? 0)
+          (facilityVacancy(b, age) ?? 0) - (facilityVacancy(a, age) ?? 0)
       );
     } else {
       sorted.sort(
         (a, b) =>
-          (valueAt(b.vacancy, age) ?? 0) - (valueAt(a.vacancy, age) ?? 0) ||
+          (facilityVacancy(b, age) ?? 0) - (facilityVacancy(a, age) ?? 0) ||
           (valueAt(a.waiting, age) ?? 0) - (valueAt(b.waiting, age) ?? 0)
       );
     }
     return sorted;
-  }, [facilities, ward, age, onlyVacant, query, sort]);
+  }, [facilities, ward, category, age, onlyVacant, query, sort]);
 
   const vacantCount = useMemo(
-    () => filtered.filter((f) => (valueAt(f.vacancy, age) ?? 0) > 0).length,
+    () => filtered.filter((f) => (facilityVacancy(f, age) ?? 0) > 0).length,
     [filtered, age]
   );
 
@@ -107,27 +136,56 @@ export function VacancyBrowser({
       {/* 絞り込み */}
       <div className="rounded-2xl border border-border/60 bg-card p-4 space-y-4">
         <div className="grid grid-cols-2 gap-3">
-          <div>
-            <label htmlFor="vacancy-ward" className={labelClass}>
-              区
-            </label>
-            <select
-              id="vacancy-ward"
-              className={selectClass}
-              value={ward}
-              onChange={(e) => {
-                setWard(Number(e.target.value));
-                resetLimit();
-              }}
-            >
-              <option value={ALL_WARDS}>すべての区</option>
-              {wards.map((w, i) => (
-                <option key={w} value={i}>
-                  {w}
-                </option>
-              ))}
-            </select>
-          </div>
+          {hasWards && (
+            <div>
+              <label htmlFor="vacancy-ward" className={labelClass}>
+                区
+              </label>
+              <select
+                id="vacancy-ward"
+                className={selectClass}
+                value={ward}
+                onChange={(e) => {
+                  setWard(Number(e.target.value));
+                  resetLimit();
+                }}
+              >
+                <option value={ALL}>すべての区</option>
+                {wards.map((w, i) => (
+                  <option key={w} value={i}>
+                    {w}
+                  </option>
+                ))}
+              </select>
+            </div>
+          )}
+
+          {hasCategories && (
+            <div>
+              <label htmlFor="vacancy-category" className={labelClass}>
+                施設の種類
+              </label>
+              <select
+                id="vacancy-category"
+                className={selectClass}
+                value={category}
+                onChange={(e) => {
+                  setCategory(Number(e.target.value));
+                  resetLimit();
+                }}
+              >
+                <option value={ALL}>すべての種類</option>
+                {categories.map((c, i) => (
+                  <option key={c} value={i}>
+                    {c}
+                  </option>
+                ))}
+                {hasUnclassified && (
+                  <option value={UNCLASSIFIED}>種類の記載なし</option>
+                )}
+              </select>
+            </div>
+          )}
 
           <div>
             <label htmlFor="vacancy-age" className={labelClass}>
@@ -194,7 +252,7 @@ export function VacancyBrowser({
               resetLimit();
             }}
           >
-            {(Object.keys(SORT_LABELS) as SortKey[]).map((key) => (
+            {sortKeys.map((key) => (
               <option key={key} value={key}>
                 {SORT_LABELS[key]}
               </option>
@@ -215,13 +273,24 @@ export function VacancyBrowser({
       {visible.length === 0 ? (
         <div className="rounded-2xl border border-border/60 bg-card p-8 text-center">
           <p className="text-sm text-muted-foreground">
-            条件に合う施設がありませんでした。区や年齢の条件をゆるめてみてください。
+            条件に合う施設がありませんでした。
+            {hasWards ? "区や年齢" : "年齢や施設の種類"}の条件をゆるめてみてください。
           </p>
         </div>
       ) : (
         <div className="space-y-2.5">
           {visible.map((f) => (
-            <FacilityCard key={f.id} facility={f} ward={wards[f.w]} age={age} />
+            <FacilityCard
+              key={f.id}
+              facility={f}
+              ward={f.w !== null && f.w !== undefined ? wards[f.w] : undefined}
+              category={
+                f.c !== null && f.c !== undefined ? categories[f.c] : undefined
+              }
+              age={age}
+              hasWaiting={hasWaiting}
+              hasEnrolled={hasEnrolled}
+            />
           ))}
         </div>
       )}
@@ -244,16 +313,24 @@ export function VacancyBrowser({
 function FacilityCard({
   facility,
   ward,
+  category,
   age,
+  hasWaiting,
+  hasEnrolled,
 }: {
   facility: VacancyFacility;
-  ward: string;
+  ward?: string;
+  category?: string;
   age: number | null;
+  hasWaiting: boolean;
+  hasEnrolled: boolean;
 }) {
-  const vacancy = valueAt(facility.vacancy, age);
+  const vacancy = facilityVacancy(facility, age);
   const waiting = valueAt(facility.waiting, age);
   const enrolled = valueAt(facility.enrolled, age);
   const hasVacancy = (vacancy ?? 0) > 0;
+  // 年齢別に分かれていない施設（家庭福祉員など）は年齢別の内訳を出せない
+  const ageBreakdown = facility.vacancy.some((v) => v !== null);
 
   return (
     <div
@@ -277,9 +354,16 @@ function FacilityCard({
             <p className="font-bold text-sm leading-snug">{facility.name}</p>
           )}
           <div className="mt-1.5 flex flex-wrap items-center gap-1.5">
-            <span className="inline-block text-xs px-2 py-0.5 rounded-full bg-muted text-muted-foreground">
-              {ward}
-            </span>
+            {ward && (
+              <span className="inline-block text-xs px-2 py-0.5 rounded-full bg-muted text-muted-foreground">
+                {ward}
+              </span>
+            )}
+            {category && (
+              <span className="inline-block text-xs px-2 py-0.5 rounded-full bg-muted text-muted-foreground">
+                {category}
+              </span>
+            )}
             {facility.site && (
               <span className="inline-block text-xs px-2 py-0.5 rounded-full bg-muted text-muted-foreground">
                 {SITE_LABELS[facility.site.type]}
@@ -299,14 +383,16 @@ function FacilityCard({
           >
             {vacancy === null ? "—" : vacancy}
           </p>
-          <p className="text-xs text-muted-foreground tabular-nums">
-            入所待ち {waiting === null ? "—" : `${waiting}人`}
-          </p>
+          {hasWaiting && (
+            <p className="text-xs text-muted-foreground tabular-nums">
+              入所待ち {waiting === null ? "—" : `${waiting}人`}
+            </p>
+          )}
         </div>
       </div>
 
       {/* 年齢別の内訳（すべての年齢を選んでいるときだけ出す） */}
-      {age === null ? (
+      {age === null && ageBreakdown ? (
         <div className="mt-3 grid grid-cols-6 gap-1.5">
           {Array.from({ length: AGE_COUNT }, (_, i) => {
             const v = facility.vacancy[i];
@@ -323,7 +409,9 @@ function FacilityCard({
                 title={
                   v === null
                     ? `${AGE_LABELS[i]}: クラスなし`
-                    : `${AGE_LABELS[i]}: 空き${v} / 入所待ち${facility.waiting[i] ?? 0}人`
+                    : hasWaiting
+                      ? `${AGE_LABELS[i]}: 空き${v} / 入所待ち${facility.waiting?.[i] ?? 0}人`
+                      : `${AGE_LABELS[i]}: 空き${v}`
                 }
               >
                 <p className="text-[10px] text-muted-foreground leading-none">
@@ -340,11 +428,15 @@ function FacilityCard({
             );
           })}
         </div>
-      ) : (
+      ) : age === null && facility.vacancyTotal !== undefined ? (
+        <p className="mt-2.5 text-xs text-muted-foreground">
+          この施設は0〜2歳をまとめて{facility.vacancyTotal}枠として公表されているため、年齢別の内訳はありません。
+        </p>
+      ) : hasEnrolled ? (
         <p className="mt-2.5 text-xs text-muted-foreground tabular-nums">
           在籍 {enrolled === null ? "クラスなし" : `${enrolled}人`}
         </p>
-      )}
+      ) : null}
     </div>
   );
 }

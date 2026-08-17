@@ -10,6 +10,15 @@
     "waiting": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/info/nyusho-jokyo.files/202608-machi.csv",
     "enrolled": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/info/nyusho-jokyo.files/202608-jidou.csv"
   },
+  "metrics": [
+    "vacancy",
+    "waiting",
+    "enrolled"
+  ],
+  "notes": [
+    "横浜市の注記のとおり、掲載されている人数はシステムで機械的に抽出されているため、実際の人数と異なる場合があります。"
+  ],
+  "waitingCaveat": "入所待ち人数は横浜市の定義で「園ごとの申請数」です。1人が複数園を希望すると希望した各園に計上されるため、実際に入園を待っている人数や競争倍率とは一致しません。申込がどれだけ集中しているかの目安としてご覧ください。",
   "wards": [
     "鶴見区",
     "神奈川区",
@@ -30,6 +39,7 @@
     "戸塚区",
     "瀬谷区"
   ],
+  "categories": [],
   "facilities": [
     {"id":"1410051018778","name":"横浜市馬場保育園","w":0,"vacancy":[null,0,0,0,0,0],"waiting":[null,5,0,0,0,0],"enrolled":[null,6,9,14,15,14]},
     {"id":"1410051020006","name":"横浜市鶴見保育園","w":0,"vacancy":[2,1,0,6,2,10],"waiting":[0,1,0,0,0,0],"enrolled":[4,7,12,14,22,15]},

@@ -1,7 +1,9 @@
 name: 保育所空き状況の更新
 
-# 横浜市は毎月1日時点のデータを公開するが、実際の掲載は数日ずれる（令和8年8月分は8月3日公開）。
-# そのため日次で公式ページを見に行き、データの時点が変わったときだけ更新する。
+# 公開のタイミングは自治体ごとにずれる。
+# 横浜市は毎月1日時点のデータだが掲載は数日遅れる（令和8年8月分は8月3日公開）。
+# 目黒区は月2回（1日ごろと20日ごろ）BODIKにCSVを登録する。
+# そのため日次で見に行き、データの時点が変わったときだけ更新する。
 # 取り込みスクリプトは想定と違う構造を検知すると exit 1 するため、
 # 失敗した場合は既存のJSONがそのまま残る（壊れたデータを公開しない）。
 
@@ -27,11 +29,26 @@ jobs:
       - name: 依存をインストール
         run: npm ci
 
-      - name: 公式CSVを取り込む
+      # 自治体ごとに独立したステップにする。
+      # ひとつの自治体が公式側の都合で落ちても他の自治体の更新は取り込みたいので
+      # continue-on-error で続行し、最後にまとめて失敗を報告する。
+      # 取り込みスクリプトは書き込み前に exit するため、失敗した自治体のJSONは変更されない。
+      - name: 横浜市を取り込む
+        id: yokohama
+        continue-on-error: true
         run: npm run vacancy:fetch
 
+      - name: 目黒区を取り込む
+        id: meguro
+        continue-on-error: true
+        run: npm run vacancy:fetch:meguro
+
+      # ここから下は失敗したらコミットしない（壊れたデータを公開しないため）
       - name: 型チェック
         run: npx tsc --noEmit
+
+      - name: データの整合性を検証
+        run: npm run vacancy:verify
 
       - name: 変更があればコミットする
         run: |
@@ -39,9 +56,25 @@ jobs:
             echo "データの時点に変更がないため、コミットは行いません。"
             exit 0
           fi
-          ASOF=$(node -p "require('./src/lib/vacancy/yokohama.json').asOf")
+          MSG="保育所空き状況を更新:"
+          for f in $(git status --porcelain src/lib/vacancy | awk '{print $2}'); do
+            case "$f" in
+              *yokohama.json) MSG="$MSG 横浜市（$(node -p "require('./src/lib/vacancy/yokohama.json').asOf")時点）" ;;
+              *meguro.json) MSG="$MSG 目黒区（$(node -p "require('./src/lib/vacancy/meguro.json').asOf")時点）" ;;
+            esac
+          done
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add src/lib/vacancy
-          git commit -m "保育所空き状況を更新: 横浜市（${ASOF}時点）"
+          git commit -m "$MSG"
           git push
+
+      # 取り込みに失敗した自治体があれば、更新自体は済ませたうえで失敗として通知する
+      - name: 取り込みの結果を判定する
+        if: steps.yokohama.outcome == 'failure' || steps.meguro.outcome == 'failure'
+        run: |
+          echo "取り込みに失敗した自治体があります:"
+          echo "  横浜市: ${{ steps.yokohama.outcome }}"
+          echo "  目黒区: ${{ steps.meguro.outcome }}"
+          echo "公式サイトの構造が変わっていないか確認してください。"
+          exit 1

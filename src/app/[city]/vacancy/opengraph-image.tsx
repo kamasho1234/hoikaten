@@ -72,7 +72,9 @@ export default async function Image({
                 color: "#0f172a",
               }}
             >
-              {num(total.facilityCount)}施設の空き枠を区・年齢でさがす
+              {num(total.facilityCount)}施設の空き枠を
+              {vacancy && vacancy.wards.length > 0 ? "区・年齢" : "年齢・種類"}
+              でさがす
             </div>
           )}
           {vacancy && (

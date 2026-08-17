@@ -118,9 +118,14 @@ export default async function CityPage({
                 {formatJapaneseDate(vacancy.asOf)}時点）
               </p>
               <p className="text-xs text-muted-foreground leading-relaxed">
-                {data.municipality.name}が公開する市内
+                {data.municipality.name}が公開する
                 {vacancy.facilities.length.toLocaleString("ja-JP")}
-                施設の受入可能数・入所待ち人数を、区と年齢でしぼり込んでさがせます。
+                施設の
+                {vacancy.metrics.includes("waiting")
+                  ? "受入可能数・入所待ち人数"
+                  : "空き枠"}
+                を、{vacancy.wards.length > 0 ? "区と年齢" : "年齢と施設の種類"}
+                でしぼり込んでさがせます。
               </p>
             </a>
           </div>

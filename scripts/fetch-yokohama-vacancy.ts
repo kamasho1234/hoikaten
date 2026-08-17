@@ -320,7 +320,15 @@ async function main() {
       waiting: waiting.url,
       enrolled: enrolled.url,
     },
+    // 横浜市は3つとも公開している数少ない自治体。UIはこれを見て表示を出し分ける
+    metrics: ["vacancy", "waiting", "enrolled"],
+    notes: [
+      "横浜市の注記のとおり、掲載されている人数はシステムで機械的に抽出されているため、実際の人数と異なる場合があります。",
+    ],
+    waitingCaveat:
+      "入所待ち人数は横浜市の定義で「園ごとの申請数」です。1人が複数園を希望すると希望した各園に計上されるため、実際に入園を待っている人数や競争倍率とは一致しません。申込がどれだけ集中しているかの目安としてご覧ください。",
     wards,
+    categories: [],
     facilities,
   };
 

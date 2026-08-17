@@ -1,19 +1,31 @@
 // 保育所等の空き状況データのレジストリと集計ヘルパー
 //
-// データは scripts/fetch-yokohama-vacancy.ts が公式CSVから生成する。
+// データは scripts/fetch-{slug}-vacancy.ts が公式データから生成する。
 // 自治体を増やすときは JSON を生成して registry に1行足すだけでよい。
+//
+// 自治体によって公開されている指標が違う（横浜市は入所待ちまであるが目黒区は空き数だけ）。
+// 集計ヘルパーは metrics を見て、持っていない指標には null を返す。
 
 import type {
   AgeSummary,
   AgeValues,
   FacilityWebsite,
+  GroupSummary,
   VacancyDataset,
-  WardSummary,
+  VacancyMetric,
 } from "./types";
 import yokohamaVacancy from "./yokohama.json";
 import yokohamaWebsites from "./yokohama-websites.json";
+import meguroVacancy from "./meguro.json";
 
-export type { AgeSummary, AgeValues, FacilityWebsite, VacancyDataset, WardSummary };
+export type {
+  AgeSummary,
+  AgeValues,
+  FacilityWebsite,
+  GroupSummary,
+  VacancyDataset,
+  VacancyMetric,
+};
 export type { VacancyFacility } from "./types";
 
 /** 0歳児〜5歳児 */
@@ -29,7 +41,7 @@ export const AGE_LABELS = [
 
 /**
  * 公式サイトのURLは空き状況とは別ファイルで持つ。
- * 空き状況JSONは fetch-yokohama-vacancy.ts が毎月まるごと上書きするため、
+ * 空き状況JSONは取り込みスクリプトが毎回まるごと上書きするため、
  * 同じファイルに混ぜると自動更新のたびに消えてしまう。
  * ここで施設番号をキーに結合してから配る。
  */
@@ -51,6 +63,7 @@ const registry: Record<string, VacancyDataset> = {
     yokohamaVacancy as unknown as VacancyDataset,
     yokohamaWebsites.sites
   ),
+  meguro: meguroVacancy as unknown as VacancyDataset,
 };
 
 export function getVacancyData(slug: string): VacancyDataset | undefined {
@@ -65,6 +78,10 @@ export function getVacancySlugs(): string[] {
   return Object.keys(registry);
 }
 
+export function hasMetric(data: VacancyDataset, metric: VacancyMetric): boolean {
+  return data.metrics.includes(metric);
+}
+
 /**
  * 空き1枠あたりの申込数（入所待ち人数 ÷ 受入可能数）。
  *
@@ -72,15 +89,17 @@ export function getVacancySlugs(): string[] {
  * 希望した各園に計上される。したがってこの値は実際の競争倍率ではなく、
  * 「申込がどれだけ集中しているか」の目安である。UI・記事でもそのように説明すること。
  *
- * 受入可能数が0のときは割り算が成立しないため null を返す。
+ * 受入可能数が0のとき、または入所待ちを公開していない自治体では null を返す。
  */
-export function calcRatio(waiting: number, vacancy: number): number | null {
+export function calcRatio(waiting: number | null, vacancy: number): number | null {
+  if (waiting === null) return null;
   if (vacancy <= 0) return null;
   return waiting / vacancy;
 }
 
 /** クラスなし(null)を除いた合計。全クラスなしなら null */
-export function sumAges(values: AgeValues): number | null {
+export function sumAges(values: AgeValues | undefined): number | null {
+  if (!values) return null;
   let sum = 0;
   let hasValue = false;
   for (const v of values) {
@@ -95,13 +114,33 @@ export function sumAges(values: AgeValues): number | null {
  * 年齢を指定すればその年齢の値、null を渡せば全年齢の合計を返す。
  * クラスなしの場合は null。
  */
-export function valueAt(values: AgeValues, age: number | null): number | null {
+export function valueAt(
+  values: AgeValues | undefined,
+  age: number | null
+): number | null {
+  if (!values) return null;
   if (age === null) return sumAges(values);
   return values[age] ?? null;
 }
 
+/**
+ * その施設の空き数。年齢別に分かれていない施設（目黒区の家庭福祉員）は、
+ * 全年齢を見るときだけ合計値を返し、年齢を指定されたときは null を返す。
+ */
+export function facilityVacancy(
+  f: { vacancy: AgeValues; vacancyTotal?: number },
+  age: number | null
+): number | null {
+  const v = valueAt(f.vacancy, age);
+  if (v !== null) return v;
+  if (age === null && f.vacancyTotal !== undefined) return f.vacancyTotal;
+  return null;
+}
+
 /** 市全体の年齢別サマリー */
 export function summarizeByAge(data: VacancyDataset): AgeSummary[] {
+  const hasWaiting = hasMetric(data, "waiting");
+  const hasEnrolled = hasMetric(data, "enrolled");
   return Array.from({ length: AGE_COUNT }, (_, age) => {
     let vacancy = 0;
     let waiting = 0;
@@ -109,16 +148,51 @@ export function summarizeByAge(data: VacancyDataset): AgeSummary[] {
     let facilitiesWithVacancy = 0;
     for (const f of data.facilities) {
       vacancy += f.vacancy[age] ?? 0;
-      waiting += f.waiting[age] ?? 0;
-      enrolled += f.enrolled[age] ?? 0;
+      waiting += f.waiting?.[age] ?? 0;
+      enrolled += f.enrolled?.[age] ?? 0;
       if ((f.vacancy[age] ?? 0) > 0) facilitiesWithVacancy++;
     }
     return {
       age,
       vacancy,
-      waiting,
-      enrolled,
-      ratio: calcRatio(waiting, vacancy),
+      waiting: hasWaiting ? waiting : null,
+      enrolled: hasEnrolled ? enrolled : null,
+      ratio: hasWaiting ? calcRatio(waiting, vacancy) : null,
+      facilitiesWithVacancy,
+    };
+  });
+}
+
+/**
+ * 施設をグループごとに集計する共通処理。
+ * groupOf が null を返した施設は、どのグループにも入れない。
+ */
+function summarizeBy(
+  data: VacancyDataset,
+  names: string[],
+  groupOf: (f: VacancyDataset["facilities"][number]) => number | null | undefined,
+  age: number | null
+): GroupSummary[] {
+  const hasWaiting = hasMetric(data, "waiting");
+  return names.map((name, index) => {
+    let facilityCount = 0;
+    let vacancy = 0;
+    let waiting = 0;
+    let facilitiesWithVacancy = 0;
+    for (const f of data.facilities) {
+      if (groupOf(f) !== index) continue;
+      facilityCount++;
+      const v = facilityVacancy(f, age) ?? 0;
+      vacancy += v;
+      waiting += valueAt(f.waiting, age) ?? 0;
+      if (v > 0) facilitiesWithVacancy++;
+    }
+    return {
+      name,
+      facilityCount,
+      vacancy,
+      waiting: hasWaiting ? waiting : null,
+      ratio: hasWaiting ? calcRatio(waiting, vacancy) : null,
       facilitiesWithVacancy,
     };
   });
@@ -126,48 +200,42 @@ export function summarizeByAge(data: VacancyDataset): AgeSummary[] {
 
 /**
  * 区別サマリー。age を指定するとその年齢だけで集計する。
- * 並びは公式CSVの区の出現順（行政区の順）をそのまま使う。
+ * 並びは公式データの区の出現順（行政区の順）をそのまま使う。
  */
 export function summarizeByWard(
   data: VacancyDataset,
   age: number | null = null
-): WardSummary[] {
-  return data.wards.map((ward, wardIndex) => {
-    let facilityCount = 0;
-    let vacancy = 0;
-    let waiting = 0;
-    let facilitiesWithVacancy = 0;
-    for (const f of data.facilities) {
-      if (f.w !== wardIndex) continue;
-      facilityCount++;
-      vacancy += valueAt(f.vacancy, age) ?? 0;
-      waiting += valueAt(f.waiting, age) ?? 0;
-      if ((valueAt(f.vacancy, age) ?? 0) > 0) facilitiesWithVacancy++;
-    }
-    return {
-      ward,
-      facilityCount,
-      vacancy,
-      waiting,
-      ratio: calcRatio(waiting, vacancy),
-      facilitiesWithVacancy,
-    };
-  });
+): GroupSummary[] {
+  return summarizeBy(data, data.wards, (f) => f.w, age);
+}
+
+/** 施設類型別サマリー。類型を公開していない自治体では空配列 */
+export function summarizeByCategory(
+  data: VacancyDataset,
+  age: number | null = null
+): GroupSummary[] {
+  return summarizeBy(data, data.categories ?? [], (f) => f.c, age);
 }
 
 /** 市全体の合計（全年齢） */
 export function totalSummary(data: VacancyDataset) {
+  const hasWaiting = hasMetric(data, "waiting");
   const byAge = summarizeByAge(data);
-  const vacancy = byAge.reduce((acc, a) => acc + a.vacancy, 0);
-  const waiting = byAge.reduce((acc, a) => acc + a.waiting, 0);
+  // 年齢別に分かれていない施設（家庭福祉員など）の分を足す
+  const mergedOnly = data.facilities.reduce(
+    (acc, f) => acc + (sumAges(f.vacancy) === null ? (f.vacancyTotal ?? 0) : 0),
+    0
+  );
+  const vacancy = byAge.reduce((acc, a) => acc + a.vacancy, 0) + mergedOnly;
+  const waiting = byAge.reduce((acc, a) => acc + (a.waiting ?? 0), 0);
   const facilitiesWithVacancy = data.facilities.filter(
-    (f) => (sumAges(f.vacancy) ?? 0) > 0
+    (f) => (facilityVacancy(f, null) ?? 0) > 0
   ).length;
   return {
     facilityCount: data.facilities.length,
     vacancy,
-    waiting,
-    ratio: calcRatio(waiting, vacancy),
+    waiting: hasWaiting ? waiting : null,
+    ratio: hasWaiting ? calcRatio(waiting, vacancy) : null,
     facilitiesWithVacancy,
   };
 }

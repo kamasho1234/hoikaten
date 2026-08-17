@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "vacancy:fetch": "tsx scripts/fetch-yokohama-vacancy.ts"
+    "vacancy:fetch": "tsx scripts/fetch-yokohama-vacancy.ts",
+    "vacancy:fetch:meguro": "tsx scripts/fetch-meguro-vacancy.ts",
+    "vacancy:verify": "tsx scripts/verify-vacancy.ts"
   },
   "dependencies": {
     "@base-ui/react": "^1.3.0",
