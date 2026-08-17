@@ -1,8 +1,276 @@
 {
  "municipalitySlug": "kawasaki",
  "note": "各施設の公式サイト。Web検索で特定し、URLへ実アクセスして施設名または電話番号の一致を確認したものだけを載せている。",
- "facilityCount": 53,
+ "facilityCount": 174,
  "sites": {
+  "宮前区／サンライズ宮前平保育室": {
+   "url": "https://hoikukai-baby.com/sunrise-miyamaedaira/",
+   "type": "corp"
+  },
+  "宮前区／せみなーれ幼保園": {
+   "url": "https://hoikukai-baby.com/miyamaedaira/7064/",
+   "type": "corp"
+  },
+  "宮前区／菅生保育園": {
+   "url": "https://www.city.kawasaki.jp/450/page/0000031275.html",
+   "type": "city"
+  },
+  "宮前区／中有馬保育園": {
+   "url": "https://www.city.kawasaki.jp/450/page/0000031296.html",
+   "type": "city"
+  },
+  "宮前区／土橋保育園": {
+   "url": "https://www.city.kawasaki.jp/450/page/0000031310.html",
+   "type": "city"
+  },
+  "幸区／Nest鹿島田保育園": {
+   "url": "https://kids-home.jp/nest-kashimada/",
+   "type": "corp"
+  },
+  "幸区／SPACEKID保育園": {
+   "url": "https://www.kid-g.com/guide/index/5",
+   "type": "corp"
+  },
+  "幸区／あいみー南加瀬保育園": {
+   "url": "https://aime.ed.jp/school/minamikase/",
+   "type": "corp"
+  },
+  "幸区／アスク川崎西口保育園": {
+   "url": "https://en.list.nihonhoiku.co.jp/nursery/detail/kawasakinishi/",
+   "type": "corp"
+  },
+  "幸区／かしまだ保育園": {
+   "url": "https://www.city.kawasaki.jp/saiwai/page/0000174278.html",
+   "type": "city"
+  },
+  "幸区／かわさき大宮町保育園": {
+   "url": "https://www.kidslife-nursery.com/facility/kanagawa/kawasaki/kawasakiomiyacho/",
+   "type": "corp"
+  },
+  "幸区／かわの風保育園": {
+   "url": "https://www.city.kawasaki.jp/saiwai/page/0000174232.html",
+   "type": "city"
+  },
+  "幸区／キッズガーデン川崎幸町": {
+   "url": "https://www.kidsgarden.co.jp/facility/kawasakisaiwai/",
+   "type": "corp"
+  },
+  "幸区／キッズガーデン川崎幸町小規模園": {
+   "url": "https://www.kidsgarden.co.jp/facility/kawasakisaiwai-shokibo/",
+   "type": "corp"
+  },
+  "幸区／キディ古市場保育園": {
+   "url": "https://www.shinkoufukushikai.com/hoiku/215/",
+   "type": "corp"
+  },
+  "幸区／ゲートタワーローズ保育園": {
+   "url": "https://shafuku-doujinkai.or.jp/facility/nursery-school/gatetower-rose",
+   "type": "corp"
+  },
+  "幸区／さいわい保育園": {
+   "url": "https://www.city.kawasaki.jp/saiwai/page/0000174230.html",
+   "type": "city"
+  },
+  "幸区／チャイルドタイム鹿島田エンゼルホーム": {
+   "url": "https://www.childtime.co.jp/childtime/kashimada/",
+   "type": "facility"
+  },
+  "幸区／ドリームマーチ保育園": {
+   "url": "https://dreammarch.jp/",
+   "type": "facility"
+  },
+  "幸区／どりーむ保育園": {
+   "url": "https://www.city.kawasaki.jp/saiwai/page/0000154674.html",
+   "type": "city"
+  },
+  "幸区／にじいろ保育園新川崎": {
+   "url": "https://www.like-kd.co.jp/establishment/nijiiro/HPshinkawasaki",
+   "type": "corp"
+  },
+  "幸区／にじいろ保育園塚越": {
+   "url": "https://www.city.kawasaki.jp/saiwai/page/0000154676.html",
+   "type": "city"
+  },
+  "幸区／にじいろ保育園北加瀬": {
+   "url": "https://www.like-kd.co.jp/establishment/nijiiro/HPkitakase",
+   "type": "corp"
+  },
+  "幸区／ねむの樹北加瀬保育園": {
+   "url": "https://www.nemunoki-y.or.jp/kitakase",
+   "type": "corp"
+  },
+  "幸区／ぶれあ保育園・川崎南幸町": {
+   "url": "https://www.city.kawasaki.jp/saiwai/page/0000174275.html",
+   "type": "city"
+  },
+  "幸区／プレシャススターズ保育園小倉園": {
+   "url": "https://precious-ogura.com/",
+   "type": "facility"
+  },
+  "幸区／マジオたんぽぽ保育園下平間": {
+   "url": "https://www.m-bloomkids.co.jp/shimohirama",
+   "type": "corp"
+  },
+  "幸区／まなびの森保育園川崎": {
+   "url": "https://kodomonomori.co.jp/la/",
+   "type": "corp"
+  },
+  "幸区／まなびの森保育園矢向": {
+   "url": "https://kodomonomori.co.jp/yk/",
+   "type": "corp"
+  },
+  "幸区／マミー保育園新川崎": {
+   "url": "https://mommy-int.co.jp/nursery/shinkawasaki/",
+   "type": "corp"
+  },
+  "幸区／ミアヘルサ保育園ひびき鹿島田": {
+   "url": "https://www.merhalsa.jp/hoikuen/nursery/kashimada/",
+   "type": "corp"
+  },
+  "幸区／ミアヘルサ保育園ひびき南加瀬": {
+   "url": "https://www.city.kawasaki.jp/saiwai/page/0000154679.html",
+   "type": "city"
+  },
+  "幸区／ミアヘルサ保育園ひびき夢見ヶ崎": {
+   "url": "https://www.merhalsa.jp/hoikuen/nursery/yumemigasaki/",
+   "type": "corp"
+  },
+  "幸区／みなみかせ保育園": {
+   "url": "https://kanagawa-swc.com/minamikase/",
+   "type": "corp"
+  },
+  "幸区／みなみがわら保育園": {
+   "url": "https://www.primekids.or.jp/minamigawara/",
+   "type": "corp"
+  },
+  "幸区／らいらっくみゆき保育園": {
+   "url": "https://www.city.kawasaki.jp/saiwai/page/0000174226.html",
+   "type": "city"
+  },
+  "幸区／らいらっく幸保育園": {
+   "url": "https://www.lilacnursery.jp/",
+   "type": "corp"
+  },
+  "幸区／らいらっく山吹保育園": {
+   "url": "https://www.lilacnursery.jp/",
+   "type": "corp"
+  },
+  "幸区／わらべうた幸町保育園": {
+   "url": "https://www.kidslife-nursery.com/facility/kanagawa/kawasaki/saiwai/",
+   "type": "corp"
+  },
+  "幸区／河原町保育園": {
+   "url": "https://www.city.kawasaki.jp/450/page/0000031733.html",
+   "type": "city"
+  },
+  "幸区／京進のほいくえんＨＯＰＰＡ南河原": {
+   "url": "https://keceg.jp/school/hoppa-minamigawara/",
+   "type": "corp"
+  },
+  "幸区／幸いづみ保育園": {
+   "url": "https://kantokodomo.misasakai.or.jp/saiwaiizumi/guide/",
+   "type": "corp"
+  },
+  "幸区／幸ぷらむ保育園": {
+   "url": "https://hoikuayumi.com/",
+   "type": "facility"
+  },
+  "幸区／女躰神社こども園": {
+   "url": "https://itoujyuku.com/",
+   "type": "facility"
+  },
+  "幸区／小学館アカデミーしんかわさき保育園": {
+   "url": "https://hoiku.shopro.co.jp/hoiku/about/nursery/shinkawasaki.html",
+   "type": "corp"
+  },
+  "幸区／小学館アカデミー南さいわい町保育園": {
+   "url": "https://hoiku.shopro.co.jp/hoiku/shisetsu/minamisaiwai/",
+   "type": "corp"
+  },
+  "幸区／小向さくら保育園": {
+   "url": "https://shafuku-doujinkai.or.jp/facility/nursery-school/komukai-sakura",
+   "type": "corp"
+  },
+  "幸区／尚徳福祉会おぐら保育園": {
+   "url": "https://sfg21.com/ogura/",
+   "type": "corp"
+  },
+  "幸区／尻手すきっぷ保育園": {
+   "url": "https://www.skip-hoikuen.com/shitte/",
+   "type": "facility"
+  },
+  "幸区／新川崎・学びの保育園": {
+   "url": "https://shinkawasaki.manabien.net/",
+   "type": "facility"
+  },
+  "幸区／新川崎えほんの森保育園": {
+   "url": "https://www.miraikeikaku.jp/kawasaki",
+   "type": "corp"
+  },
+  "幸区／第２ひまわりほいくえん": {
+   "url": "https://2nd-himawari.com/",
+   "type": "facility"
+  },
+  "幸区／保育Roomことり": {
+   "url": "https://hoiku-kotori.love/",
+   "type": "facility"
+  },
+  "幸区／保育園HIKARIE": {
+   "url": "https://hikarie-kawasaki.jp/",
+   "type": "facility"
+  },
+  "幸区／保育園リエッタ": {
+   "url": "https://www.liettanursery.com/",
+   "type": "facility"
+  },
+  "幸区／保育室あゆみ": {
+   "url": "https://hoikuayumi.com/",
+   "type": "facility"
+  },
+  "幸区／保育室さくらんぼ": {
+   "url": "https://kawasakishi-kateitekihoiku.com/kawasaki/saiwaiku/sakuranbo",
+   "type": "corp"
+  },
+  "幸区／保育所ひまわり２": {
+   "url": "https://hoiku-himawari.com/",
+   "type": "facility"
+  },
+  "幸区／夢見ヶ崎保育園": {
+   "url": "https://www.city.kawasaki.jp/450/page/0000031732.html",
+   "type": "city"
+  },
+  "幸区／優祥会かしまだえきまえ保育園": {
+   "url": "https://www.city.kawasaki.jp/saiwai/page/0000155008.html",
+   "type": "city"
+  },
+  "幸区／和ごころ小倉第二保育園": {
+   "url": "https://www.city.kawasaki.jp/saiwai/page/0000154709.html",
+   "type": "city"
+  },
+  "高津区／サンライズ上作延保育室": {
+   "url": "https://hoikukai-baby.com/sunrise-kamisakunobe/",
+   "type": "corp"
+  },
+  "高津区／ベネッセ津田山保育園": {
+   "url": "https://hoiku.benesse-style-care.co.jp/facilities/area_kanagawa/kawasaki/h-tsudayama/column/2026/",
+   "type": "corp"
+  },
+  "高津区／ベネッセ武蔵新城保育園": {
+   "url": "https://hoiku.benesse-style-care.co.jp/facilities/area_kanagawa/kawasaki/h-musashishinjo/column/2023/",
+   "type": "corp"
+  },
+  "高津区／蟹ヶ谷保育園": {
+   "url": "https://www.city.kawasaki.jp/450/page/0000030562.html",
+   "type": "city"
+  },
+  "高津区／梶ヶ谷保育園": {
+   "url": "https://www.city.kawasaki.jp/450/page/0000030774.html",
+   "type": "city"
+  },
+  "高津区／津田山保育園": {
+   "url": "https://hoikukai-baby.com/kamisakunobe/6399/",
+   "type": "corp"
+  },
   "川崎区／Gakkenほいくえん川崎大師": {
    "url": "https://nursery.cocofump.co.jp/nursery/kawasakidaishi/",
    "type": "corp"
@@ -207,6 +475,10 @@
    "url": "https://www.city.kawasaki.jp/kawasaki/page/0000122460.html",
    "type": "city"
   },
+  "川崎区／藤崎保育園": {
+   "url": "https://www.city.kawasaki.jp/450/page/0000031573.html",
+   "type": "city"
+  },
   "川崎区／福音幼稚園": {
    "url": "https://www.fukuinyouchien.com/",
    "type": "facility"
@@ -214,6 +486,218 @@
   "川崎区／野の花保育園": {
    "url": "https://mukunoki.main.jp/category/nonohana/",
    "type": "corp"
+  },
+  "多摩区／サンライズ向ヶ丘遊園保育室": {
+   "url": "https://hoikukai-baby.com/sunrise-mukougaokayuen/",
+   "type": "corp"
+  },
+  "多摩区／菅保育園": {
+   "url": "https://www.city.kawasaki.jp/450/page/0000031428.html",
+   "type": "city"
+  },
+  "多摩区／生田保育園": {
+   "url": "https://www.city.kawasaki.jp/450/page/0000031410.html",
+   "type": "city"
+  },
+  "多摩区／土渕保育園": {
+   "url": "https://www.city.kawasaki.jp/450/page/0000031534.html",
+   "type": "city"
+  },
+  "中原区／ChaChaChildrenImai": {
+   "url": "https://chacha.or.jp/nursery_school/imai/",
+   "type": "corp"
+  },
+  "中原区／ChaChaChildrenMusashikosugi": {
+   "url": "https://chacha.or.jp/nursery_school/musashikosugi/",
+   "type": "corp"
+  },
+  "中原区／ChaChaChildrenNakamachi": {
+   "url": "https://chacha.or.jp/nursery_school/nakamachi/",
+   "type": "corp"
+  },
+  "中原区／アイン武蔵小杉保育園": {
+   "url": "https://www.ein-group.com/facility/musashikosugi/",
+   "type": "corp"
+  },
+  "中原区／アスク元住吉南保育園": {
+   "url": "https://list.nihonhoiku.co.jp/nursery/detail/motosumiyoshiminami/",
+   "type": "corp"
+  },
+  "中原区／アスク元住吉保育園": {
+   "url": "https://list.nihonhoiku.co.jp/nursery/detail/motosumiyoshi/",
+   "type": "corp"
+  },
+  "中原区／アスク武蔵小杉保育園": {
+   "url": "https://list.nihonhoiku.co.jp/nursery/detail/musashikosugi/",
+   "type": "corp"
+  },
+  "中原区／エクセレント西宮内保育園": {
+   "url": "https://www.heartfukushi.or.jp/nishimiyauchi/",
+   "type": "corp"
+  },
+  "中原区／エクセレント武蔵新城保育園": {
+   "url": "https://www.heartfukushi.or.jp/musashishinjo/",
+   "type": "corp"
+  },
+  "中原区／グローバルキッズ武蔵小杉園": {
+   "url": "https://www.gkids.co.jp/facilities/nursery_067.html",
+   "type": "corp"
+  },
+  "中原区／サンライズ新丸子保育室": {
+   "url": "https://hoikukai-baby.com/sunrise-shinmaruko/",
+   "type": "corp"
+  },
+  "中原区／サンライズ武蔵新城保育室": {
+   "url": "https://hoikukai-baby.com/sunrise-musashishinjyo/",
+   "type": "corp"
+  },
+  "中原区／しらゆり宮内保育園": {
+   "url": "https://miyauchi-shirayuri.org/",
+   "type": "facility"
+  },
+  "中原区／しらゆり今井保育園": {
+   "url": "https://r.goope.jp/shirayuri-imai/",
+   "type": "facility"
+  },
+  "中原区／しらゆり新城保育園": {
+   "url": "http://shinjyo-shirayuri.org/",
+   "type": "facility"
+  },
+  "中原区／すみれ保育園": {
+   "url": "http://tamafukushikai.com/",
+   "type": "corp"
+  },
+  "中原区／そらいろ今井西保育園": {
+   "url": "https://hoikukai-baby.com/sorairo-imainishi/",
+   "type": "corp"
+  },
+  "中原区／そらいろ武蔵小杉": {
+   "url": "https://hoikukai-baby.com/sorairo-musashikosugi/",
+   "type": "corp"
+  },
+  "中原区／にじいろ保育園下新城": {
+   "url": "https://www.like-kd.co.jp/establishment/nijiiro/HPshimoshinjo",
+   "type": "corp"
+  },
+  "中原区／にじいろ保育園武蔵小杉": {
+   "url": "https://www.like-kd.co.jp/establishment/nijiiro/HPmusashikosugi",
+   "type": "corp"
+  },
+  "中原区／ぶれあ保育園・武蔵中原": {
+   "url": "https://kidsblea.jp/musashi/",
+   "type": "corp"
+  },
+  "中原区／ぶれあ保育園・武蔵中原第二": {
+   "url": "https://kidsblea.jp/musashi-daini/about/",
+   "type": "corp"
+  },
+  "中原区／ベネッセ元住吉保育園": {
+   "url": "https://hoiku.benesse-style-care.co.jp/facilities/area_kanagawa/kawasaki/h-motosumiyoshi/",
+   "type": "corp"
+  },
+  "中原区／ベネッセ市ノ坪保育園": {
+   "url": "https://hoiku.benesse-style-care.co.jp/facilities/area_kanagawa/kawasaki/h-ichinotsubo/column/2025/",
+   "type": "corp"
+  },
+  "中原区／ベネッセ武蔵小杉第二保育園": {
+   "url": "https://hoiku.benesse-style-care.co.jp/facilities/area_kanagawa/kawasaki/h-musashikosugidaini/",
+   "type": "corp"
+  },
+  "中原区／ベネッセ武蔵小杉保育園": {
+   "url": "https://hoiku.benesse-style-care.co.jp/facilities/area_kanagawa/kawasaki/h-musashikosugi/",
+   "type": "corp"
+  },
+  "中原区／ポピンズナーサリースクール武蔵小杉": {
+   "url": "https://www.poppins.co.jp/educare/room-search/musashi-kosugi/",
+   "type": "corp"
+  },
+  "中原区／ポポラー川崎武蔵小杉園": {
+   "url": "https://popolarhoiku.com/area/kawasaki_musashikosugi/",
+   "type": "corp"
+  },
+  "中原区／まなびの森保育園武蔵中原": {
+   "url": "https://kodomonomori.co.jp/mn/",
+   "type": "corp"
+  },
+  "中原区／ミアヘルサ保育園ひびき元住吉": {
+   "url": "https://www.merhalsa.jp/hoikuen/nursery/motosumiyoshi/",
+   "type": "corp"
+  },
+  "中原区／みらいく木月園": {
+   "url": "https://www.miraiku-h.co.jp/nursery/kizuki/",
+   "type": "corp"
+  },
+  "中原区／レイモンド元住吉保育園": {
+   "url": "https://hoiku.lemonkai.or.jp/facilities/leimond-motosumiyoshi-hoikuen/",
+   "type": "corp"
+  },
+  "中原区／レイモンド中原保育園": {
+   "url": "https://hoiku.lemonkai.or.jp/facilities/leimond-nakahara-hoikuen/",
+   "type": "corp"
+  },
+  "中原区／わおわお元住吉保育園": {
+   "url": "https://www.waowao.or.jp/nursery/nursery06.html",
+   "type": "corp"
+  },
+  "中原区／下小田中保育園": {
+   "url": "https://www.city.kawasaki.jp/450/page/0000031235.html",
+   "type": "city"
+  },
+  "中原区／小学館アカデミーかりやど保育園": {
+   "url": "https://hoiku.shopro.co.jp/hoiku/about/nursery/kariyado.html",
+   "type": "corp"
+  },
+  "中原区／新日本保育園": {
+   "url": "https://sn-g.jp/snhoiku/",
+   "type": "facility"
+  },
+  "中原区／多摩保育園": {
+   "url": "http://tamafukushikai.com/",
+   "type": "corp"
+  },
+  "中原区／中丸子保育園": {
+   "url": "https://www.city.kawasaki.jp/450/page/0000031267.html",
+   "type": "city"
+  },
+  "中原区／中原保育園": {
+   "url": "https://www.city.kawasaki.jp/450/page/0000031250.html",
+   "type": "city"
+  },
+  "中原区／武蔵小杉コスモス保育園": {
+   "url": "https://c-g.jp/nursery/009.html",
+   "type": "corp"
+  },
+  "中原区／武蔵小杉雲母保育園": {
+   "url": "https://www.kirara-hoikuen.com/about/hoikuen/musashikosugi/",
+   "type": "corp"
+  },
+  "中原区／明日葉保育園元住吉園": {
+   "url": "https://www.ashita-ba.jp/hoiku/motosumiyoshi/",
+   "type": "corp"
+  },
+  "中原区／木月ほほえみ保育園": {
+   "url": "https://www.kizukihoikuen.jp/kizukihohoemi-shisetsu/",
+   "type": "corp"
+  },
+  "中原区／木月保育園": {
+   "url": "https://www.kizukihoikuen.jp/",
+   "type": "facility"
+  },
+  "麻生区／高石保育園": {
+   "url": "https://www.city.kawasaki.jp/450/page/0000031586.html",
+   "type": "city"
+  },
+  "麻生区／小さき花保育室": {
+   "url": "https://www.city.kawasaki.jp/450/page/0000100836.html",
+   "type": "city"
+  },
+  "麻生区／上麻生保育園": {
+   "url": "https://www.city.kawasaki.jp/450/page/0000031581.html",
+   "type": "city"
+  },
+  "麻生区／白山保育園": {
+   "url": "https://www.city.kawasaki.jp/450/page/0000031608.html",
+   "type": "city"
   }
  }
 }
