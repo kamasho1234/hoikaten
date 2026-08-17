@@ -1,7 +1,7 @@
 /**
  * 施設の公式サイトURLを src/lib/vacancy/{slug}-websites.json に書き出す
  *
- * 実行: npx tsx scripts/build-vacancy-websites.ts <検証済みJSONのディレクトリ>
+ * 実行: npx tsx scripts/build-vacancy-websites.ts <自治体slug> <検証済みJSONのディレクトリ...>
  *
  * ## なぜ空き状況JSONと分けるか
  * 空き状況（yokohama.json）は fetch-yokohama-vacancy.ts が毎月まるごと上書きする。
@@ -26,15 +26,6 @@ interface VerifiedRecord {
   finalUrl?: string;
 }
 
-const MUNICIPALITY_SLUG = "yokohama";
-const OUT_PATH = path.join(
-  process.cwd(),
-  "src",
-  "lib",
-  "vacancy",
-  `${MUNICIPALITY_SLUG}-websites.json`
-);
-
 function fail(message: string): never {
   console.error(`\n[中断] ${message}`);
   process.exit(1);
@@ -46,8 +37,18 @@ function normalizeName(s: string): string {
 }
 
 function main() {
+  const [MUNICIPALITY_SLUG, ...dirs] = process.argv.slice(2);
+  if (!MUNICIPALITY_SLUG) {
+    fail("自治体slugと検証済みJSONのディレクトリを引数で指定してください（例: kawasaki ./research）。");
+  }
+  const OUT_PATH = path.join(
+    process.cwd(),
+    "src",
+    "lib",
+    "vacancy",
+    `${MUNICIPALITY_SLUG}-websites.json`
+  );
   // 複数のディレクトリを受け取る（初回調査分と追加調査分を合わせて取り込む）
-  const dirs = process.argv.slice(2);
   if (dirs.length === 0) fail("検証済みJSONのディレクトリを引数で指定してください。");
   for (const d of dirs) if (!fs.existsSync(d)) fail(`ディレクトリがありません: ${d}`);
 

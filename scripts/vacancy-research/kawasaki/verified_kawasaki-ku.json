@@ -1,0 +1,549 @@
+[
+ {
+  "id": "",
+  "name": "京急キッズランド京急川崎保育園",
+  "url": "https://www.keikyu-kids.com/nursery/keikyukawasaki.html",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "川崎協立幼稚園",
+  "url": "https://kawasaki-kyouritsu.jp/",
+  "type": "facility",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "西大島ルーテル保育園",
+  "url": "https://ikusosu.jp/nishioshima",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "保育園川崎ベアーズ",
+  "url": null,
+  "type": "city",
+  "verdict": "unreachable",
+  "error": "HTTP 404",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "川崎おおぞら保育園",
+  "url": "https://marehoikuen.com/facilities/kawasaki_oozora.html",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "アスク川崎東口保育園",
+  "url": "https://en.list.nihonhoiku.co.jp/nursery/detail/kawasakihigashi/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "メリーポピンズアトレ川崎ルーム",
+  "url": null,
+  "type": "corp",
+  "verdict": "unverified",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "聖クララ幼稚園",
+  "url": "https://www.stclara.info/",
+  "type": "facility",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "東おおしま保育園",
+  "url": "https://www.majima-fukushikai.jp/facility/higashiooshimaps",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "福音幼稚園",
+  "url": "https://www.fukuinyouchien.com/",
+  "type": "facility",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "京町いづみ保育園",
+  "url": "https://kantokodomo.misasakai.or.jp/kyomachiizumi/guide/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "城南ルミナ保育園川崎",
+  "url": "https://rumina-hoikuen.com/kawasaki/",
+  "type": "facility",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "ゆめいく日進町保育園",
+  "url": null,
+  "type": "city",
+  "verdict": "unreachable",
+  "error": "HTTP 404",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "キディ鈴木町・川崎保育園",
+  "url": "https://www.shinkoufukushikai.com/hoiku/213/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "あすいく保育園",
+  "url": null,
+  "type": "city",
+  "verdict": "unreachable",
+  "error": "HTTP 404",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "京進のほいくえんＨＯＰＰＡ大島五丁目",
+  "url": "https://keceg.jp/school/hoppa-oshima/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "ルピナス保育園",
+  "url": "https://lupinus.kawamoto-cl.or.jp/",
+  "type": "facility",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "境町パイナップル保育園",
+  "url": "https://shafuku-doujinkai.or.jp/facility/nursery-school/sakaicho-pineapple",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "京急キッズランド港町駅前保育園",
+  "url": "https://www.keikyu-kids.com/nursery/minatocho.html",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "ランゲージ・ハウスNakajima",
+  "url": "https://www.ilh-jp.com/nakajima",
+  "type": "facility",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "若草保育園京町",
+  "url": "https://wakabadai.ed.jp/nursery_wakakusa/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "川崎みどり保育園",
+  "url": "https://www.centerjp.com/kawasaki/",
+  "type": "facility",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "新町しほかぜ保育園",
+  "url": "https://kotobukikai.ed.jp/nursery/shincho/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "レイモンド川崎保育園",
+  "url": "https://hoiku.lemonkai.or.jp/facilities/leimond-kawasaki-hoikuen/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "川崎コスモス保育園",
+  "url": "https://c-g.jp/nursery/022.html",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "さくらっこ保育園",
+  "url": "http://www.seikyu-sha.com/sakurakko/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "川崎国際保育園",
+  "url": "https://kawasakikokusai.ed.jp/",
+  "type": "facility",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "なかじま保育園",
+  "url": "https://www.majima-fukushikai.jp/facility/nakajimaps",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "藤崎保育園",
+  "url": null,
+  "type": "city",
+  "verdict": "unreachable",
+  "error": "HTTP 404",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "かんのん町保育園",
+  "url": "http://kanagawa-swc.com/kannon/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "ゆりかご幼稚園",
+  "url": "https://yurikagoyouchien.ed.jp/",
+  "type": "facility",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "アスク東門前保育園",
+  "url": "https://list.nihonhoiku.co.jp/nursery/detail/higashimonzen/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "マジオたんぽぽ保育園観音",
+  "url": "https://www.m-bloomkids.co.jp/kannon",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "スクルドエンジェル保育園川崎園",
+  "url": "https://kawasaki.skuld-angel.com/",
+  "type": "facility",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "大師駅前ひよこ保育園",
+  "url": "https://www.hiyoko145.jp/",
+  "type": "facility",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "サンライズ渡田保育室",
+  "url": "https://hoikukai-baby.com/sunrise-watarida/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "中瀬新生保育園",
+  "url": null,
+  "type": "facility",
+  "verdict": "unreachable",
+  "error": "ENOTFOUND",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "大師保育園",
+  "url": "http://www.zai-roudoufukushi-kanagawa.or.jp/daishi-hoiku/",
+  "type": "facility",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "だるま国際ころころ園",
+  "url": "https://www.daruma-kids.com/",
+  "type": "facility",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "出来野ルーテル保育園",
+  "url": "https://ikusosu.jp/dekino",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "Nest川崎大師保育園",
+  "url": "https://kids-home.jp/nest-kawasakidaishi/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "川崎ふたば幼稚園",
+  "url": "https://futaba.ed.jp/",
+  "type": "facility",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "Gakkenほいくえん川崎大師",
+  "url": "https://nursery.cocofump.co.jp/nursery/kawasakidaishi/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "ミルキーホーム川崎園",
+  "url": "https://www.ssss.co.jp/school-list/milkyhome-kawasakien-15/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "だいしの里保育園",
+  "url": "https://www.majima-fukushikai.jp/facility/daiships",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "ひより保育室",
+  "url": "https://kawasakishi-kateitekihoiku.com/kawasaki/kawasakiku/hiyori",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "小田さくら保育園",
+  "url": null,
+  "type": "city",
+  "verdict": "unreachable",
+  "error": "HTTP 404",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "江川幼稚園",
+  "url": "https://www.egawa.ac.jp/",
+  "type": "facility",
+  "verdict": "verified",
+  "by": "tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "東小田保育園",
+  "url": "https://www.city.kawasaki.jp/kawasaki/page/0000122460.html",
+  "type": "city",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "川崎ふたば保育園",
+  "url": null,
+  "type": "facility",
+  "verdict": "unverified",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "パピー保育園",
+  "url": "https://jm-puppy.com/",
+  "type": "facility",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "桜本保育園",
+  "url": "https://hoikuen.seikyu-sha.com/about.html",
+  "type": "facility",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "あいせん保育園",
+  "url": "https://kanagawa-swc.com/aisenkinder/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "ベネッセ川崎新町保育園",
+  "url": "https://hoiku.benesse-style-care.co.jp/facilities/area_kanagawa/kawasaki/h-kawasakishimmachi/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "竹園幼稚園",
+  "url": "http://takezono.org/",
+  "type": "facility",
+  "verdict": "verified",
+  "by": "tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "野の花保育園",
+  "url": "https://mukunoki.main.jp/category/nonohana/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "大島保育園",
+  "url": "https://www.city.kawasaki.jp/kawasaki/page/0000122451.html",
+  "type": "city",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "聖美保育園",
+  "url": "https://www.futaba-aijikai.jp/publics/index/17/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "ながた保育室",
+  "url": "https://kawasakishi-kateitekihoiku.com/kawasaki/kawasakiku/nagata",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "さらら保育室",
+  "url": "https://kawasakishi-kateitekihoiku.com/kawasaki/kawasakiku/sarara",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "のぞみ保育園",
+  "url": "https://www.futaba-aijikai.jp/publics/index/18/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ }
+]
