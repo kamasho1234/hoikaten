@@ -1,0 +1,516 @@
+[
+ {
+  "id": "",
+  "name": "ミントリーフ元住吉園",
+  "url": null,
+  "type": "corp",
+  "verdict": "unreachable",
+  "error": "HTTP 404",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "しらゆり中原保育園",
+  "url": null,
+  "type": "facility",
+  "verdict": "unverified",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "にじいろ保育園鹿島田駅前（旧にじいろ保育園鹿島田）",
+  "url": null,
+  "type": "corp",
+  "verdict": "unverified",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "せせらぎ保育園",
+  "url": null,
+  "type": "corp",
+  "verdict": "unreachable",
+  "error": "UNABLE_TO_GET_ISSUER_CERT_LOCALLY",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "東京ヤクルト販売(株)ヤクルト鹿島田保育園",
+  "url": null,
+  "type": "corp",
+  "verdict": "unverified",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "田園調布学園大学みらいこども園",
+  "url": null,
+  "type": "corp",
+  "verdict": "unverified",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "まなびの森新川崎もりのこ保育園（旧新川崎もりのこ保育園）",
+  "url": null,
+  "type": "corp",
+  "verdict": "unverified",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "木下の保育園武蔵新城",
+  "url": null,
+  "type": "corp",
+  "verdict": "unreachable",
+  "error": "HTTP 404",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "メリーポピンズ川崎西口",
+  "url": null,
+  "type": "corp",
+  "verdict": "unverified",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "アスク溝の口保育園",
+  "url": "https://list.nihonhoiku.co.jp/nursery/detail/mizonokuchi/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "アスク高津えきまえ保育園",
+  "url": "https://list.nihonhoiku.co.jp/nursery/detail/takatsuekimae/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "アスクバイリンガル保育園高津",
+  "url": "https://list.nihonhoiku.co.jp/nursery/detail/takatsu/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "まなびの森保育園高津",
+  "url": "https://kodomonomori.co.jp/lt/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "レッツ・びー梶ヶ谷保育園",
+  "url": "https://smg.ed.jp/bee/kajigaya/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "レッツ・びー溝の口保育園",
+  "url": "https://smg.ed.jp/bee/mizonokuchi/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "レッツ・びー久本保育園",
+  "url": "https://smg.ed.jp/bee/chitose/hisamoto/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "スターチャイルド≪ＫＳＰナーサリー≫",
+  "url": "https://www.starchild.jp/nursery/ksp/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "スターチャイルド≪高津ナーサリー≫",
+  "url": "https://www.starchild.jp/nursery/takatsu/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "スターチャイルド≪高津溝口ナーサリー≫",
+  "url": "https://www.starchild.jp/nursery/takatsumizonokuchi/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "すこやか高津保育園",
+  "url": "https://shoei-fukushikai.jp/takatsu",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "すこやか溝口保育園",
+  "url": "https://shoei-fukushikai.jp/mizonokuchi",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "すこやか諏訪保育園",
+  "url": "https://shoei-fukushikai.jp/suwa",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "すこやか二子保育園",
+  "url": "https://shoei-fukushikai.jp/futago",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "（分園）みつばち保育園～Flower～",
+  "url": "https://de-story.com/access_flower/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "（本園）みつばち保育園～Sunshine～",
+  "url": "https://de-story.com/access_sunshine/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "ぶどうの実久地園",
+  "url": "https://budou-ki.co.jp/kuji/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "にじいろ保育園武蔵新城",
+  "url": "https://www.like-kd.co.jp/establishment/nijiiro/HPmusashishinjo",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "ぶどうの実梶ヶ谷園",
+  "url": "https://budou-ki.co.jp/kajigaya/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "あいみー溝口保育園",
+  "url": "https://aime.ed.jp/school/mizonokuchi/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "和ごころ溝口保育園",
+  "url": "https://wagokoronurseryschool.com/facility-access/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "あいみー高津保育園",
+  "url": "https://aime.ed.jp/school/takatsu/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "ファミリアキッズ二子新地駅前園",
+  "url": null,
+  "type": "corp",
+  "verdict": "unverified",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "和ごころ下作延保育園",
+  "url": "https://wagokoronurseryschool.com/facility-access/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "くじ保育園",
+  "url": "https://daijikai.jp/hoikuen/kuji/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "坂戸保育園",
+  "url": "https://sfg21.com/sakado/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "ちとせ山ゆり保育園",
+  "url": "https://yamayuri.mukurojinoki.ed.jp/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "野川ほのぼの保育園",
+  "url": "https://honobono.mukurojinoki.ed.jp/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "みぞのくち保育園",
+  "url": "https://daijikai.jp/hoikuen/mizonokuchi/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "川崎たちばな保育園",
+  "url": "https://tatibana.ed.jp/hoikuen/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "千年たちばな保育園",
+  "url": "https://tatibana.ed.jp/hoikuen/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "チャイルドケアセンター青い鳥溝の口園",
+  "url": "https://www.aoitori-childcare.com/",
+  "type": "facility",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "わらべうた溝の口南口保育園",
+  "url": "https://www.kidslife-nursery.com/facility/kanagawa/kawasaki/mizonokuchi/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "にじのそら溝の口保育園",
+  "url": "https://www.fukushi-nijinokai.net/kindergarten/info/mizonokuchi",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "ＹＭＣＡたかつ保育園",
+  "url": "https://hoiku.yokohamaymca.org/takatsu/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "アートチャイルドケア坂戸くれよん保育園",
+  "url": "https://www.the0123child.com/personal/32905/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "マジオたんぽぽ保育園溝の口ルーム",
+  "url": "https://www.m-bloomkids.co.jp/mizonokuchi",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "パレット保育園・高津",
+  "url": null,
+  "type": "corp",
+  "verdict": "unverified",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "ニチイキッズ梶が谷保育園",
+  "url": "https://www.nichiikids.net/nursery/kajigaya/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "あぷりこっと保育園エミタス久本",
+  "url": "https://emitus.ed.jp/",
+  "type": "facility",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "ちゃいれっく新作保育園",
+  "url": "https://chilec.procare.co.jp/shinsaku/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "優祥会わかば保育園",
+  "url": "https://www.kawasakiyushokai.com/wakaba-hoikuen",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "保育園きのね",
+  "url": "https://kinone-hoiku.com/",
+  "type": "facility",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "新作やはた幼稚園",
+  "url": null,
+  "type": "facility",
+  "verdict": "unreachable",
+  "error": "HTTP 403",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "川崎たまがわ幼稚園",
+  "url": "https://www.ks-tamagawa.ed.jp/",
+  "type": "facility",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "こもれび保育園梶が谷園",
+  "url": "https://komorebi-ns.ed.jp/nursery/kajigaya/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "まなびの森保育園梶が谷",
+  "url": "https://www.hoicil.com/f/xTh8dNk1yabf",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "明日葉保育園武蔵新城園",
+  "url": "https://www.ashita-ba.jp/hoiku/musashishinjyo/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "",
+  "name": "たちばな中央保育園",
+  "url": "https://kouseikan-f.org/tachibana/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ }
+]
