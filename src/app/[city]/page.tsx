@@ -6,6 +6,7 @@ import { SimulatorForm } from "./simulator-form";
 import { RandomTextAd } from "@/components/random-text-ad";
 import { breadcrumbList, faqPage, buildCityFaq } from "@/lib/jsonld";
 import { prefectureNameToSlug } from "@/lib/prefecture";
+import { formatJapaneseDate, getVacancyData } from "@/lib/vacancy";
 import {
   Card,
   CardHeader,
@@ -101,6 +102,30 @@ export default async function CityPage({
         </p>
       </div>
       <SimulatorForm data={data} />
+
+      {/* 空き状況ページへの導線（データを持つ自治体のみ） */}
+      {(() => {
+        const vacancy = getVacancyData(city);
+        if (!vacancy) return null;
+        return (
+          <div className="mt-10">
+            <a
+              href={`/${city}/vacancy`}
+              className="block rounded-2xl border border-border/60 bg-card p-5 hover:border-primary/40 hover:shadow-sm transition-all group"
+            >
+              <p className="text-sm font-bold group-hover:text-primary transition-colors mb-1">
+                {data.municipality.name}の保育園 空き状況（
+                {formatJapaneseDate(vacancy.asOf)}時点）
+              </p>
+              <p className="text-xs text-muted-foreground leading-relaxed">
+                {data.municipality.name}が公開する市内
+                {vacancy.facilities.length.toLocaleString("ja-JP")}
+                施設の受入可能数・入所待ち人数を、区と年齢でしぼり込んでさがせます。
+              </p>
+            </a>
+          </div>
+        );
+      })()}
 
       {/* シェア直上のテキスト広告 */}
       <RandomTextAd />

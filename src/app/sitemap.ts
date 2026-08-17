@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { getAllMunicipalities } from "@/lib/data";
 import { getAllArticles } from "@/lib/articles";
 import { prefectureMap } from "@/lib/prefecture";
+import { getVacancyData, getVacancySlugs } from "@/lib/vacancy";
 
 // 記事データの登録（sitemapはlayout.tsxとは別に実行されるため直接import）
 import "@/lib/articles/setagaya";
@@ -264,6 +265,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     }));
 
+  // 空き状況ページ（データを持つ自治体のみ。公式は毎月1日時点を公開する）
+  const vacancyPages = getVacancySlugs().map((slug) => ({
+    url: `${baseUrl}/${slug}/vacancy`,
+    lastModified: new Date(getVacancyData(slug)!.asOf),
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
+  }));
+
   const generalArticles = articles.filter((a) => a.citySlug === "general");
   const generalArticlePages = generalArticles.map((a) => ({
     url: `${baseUrl}/articles/${a.slug}`,
@@ -300,6 +309,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...prefecturePages,
     ...comparePrefPages,
     ...cityPages,
+    ...vacancyPages,
     ...articleListPages,
     ...articlePages,
     ...generalArticlePages,

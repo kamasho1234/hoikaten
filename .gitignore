@@ -41,3 +41,12 @@ yarn-error.log*
 next-env.d.ts
 
 .vercel
+
+# 自治体の原典PDFを一時的に置く場所。
+# Tailwind v4 はここを含むプロジェクト内のファイルをクラス名抽出のためにスキャンし、
+# バイナリを読むと "Invalid code point" で dev サーバーが落ちるため除外する。
+scripts/pdfs/
+
+# Claude Code がサブエージェント用に作る git worktree の置き場。
+# リポジトリの中にリポジトリの作業コピーができるため、追跡してはいけない。
+.claude/
