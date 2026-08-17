@@ -121,8 +121,22 @@ devサーバーのログに `00:04:44 ERROR ENOENT: no such file or directory, s
 - 調査の元データ（`verified_*.json`）は一時ディレクトリにしかない。**消える前提**で、再調査するなら
   `scripts/build-vacancy-websites.ts` の入力を作り直すところからになる。
 
+### 本番反映（2026-08-17完了）
+
+コミット e2c8b58・473d97d を push（`a8c8b2d..473d97d`）。Vercelのビルド後に本番で確認した。
+
+- `https://hoikaten.com/yokohama/vacancy` 200（494KB）。h1・1,242施設・2026年8月1日時点・
+  「実際に入園を待っている人数や競争倍率とは一致しません」・機械抽出の注記・施設サイト1001件の説明・
+  canonical・JSON-LD 2種・区別テーブルまで**配信内容を確認**
+- `https://hoikaten.com/yokohama` 200・導線カードあり / `/setagaya/vacancy` 404（`dynamicParams=false`）
+- OG画像 200（image/png 71,310バイト）
+- sitemap **5,777URL**・`/yokohama/vacancy` 登録済み
+- IndexNow 送信 HTTP 200。**変更した2URL（`/yokohama/vacancy`・`/yokohama`）のみ**を送った。
+  変更していないURLをまとめて再送しても再クロールの優先度は上がらないため、全件送信はしていない。
+- GitHub Actions「保育所空き状況の更新」が active になった。初回は翌日 JST 10時。
+
 ### 残タスク
 
-- コミット・push（未実施）
-- 本番反映の確認、IndexNow送信
+- Actionsの初回実行を確認する（asOfが変わらないので「更新なし」で終わるのが正しい挙動）
+- 雲母保育園3件（`kirara-hoikuen.com`）のサーバー障害が続くならリンクを外す
 - 他自治体への横展開（レジストリに1行足すだけで足せる構造にしてある）
