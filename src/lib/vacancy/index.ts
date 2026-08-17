@@ -17,6 +17,7 @@ import type {
 import yokohamaVacancy from "./yokohama.json";
 import yokohamaWebsites from "./yokohama-websites.json";
 import meguroVacancy from "./meguro.json";
+import kawasakiVacancy from "./kawasaki.json";
 
 export type {
   AgeSummary,
@@ -64,6 +65,7 @@ const registry: Record<string, VacancyDataset> = {
     yokohamaWebsites.sites
   ),
   meguro: meguroVacancy as unknown as VacancyDataset,
+  kawasaki: kawasakiVacancy as unknown as VacancyDataset,
 };
 
 export function getVacancyData(slug: string): VacancyDataset | undefined {

@@ -60,6 +60,12 @@ export type VacancyDataset = {
   sourceFiles: Record<string, string>;
   /** このデータセットが持つ指標。UIの出し分けに使う */
   metrics: VacancyMetric[];
+  /**
+   * 数値の意味が「今の空き」でないときに、それを一言で示す。
+   * 川崎市は毎月「翌月入所ぶんの受入可能数（予定）」を出すため、
+   * 横浜市の「その時点の空き」とは意味が違う。見出しの下に表示する。
+   */
+  subtitle?: string;
   /** 出典欄に転記する自治体固有の注記 */
   notes?: string[];
   /** 入所待ち人数の読み方に関する注意書き（waiting を持つ自治体のみ） */

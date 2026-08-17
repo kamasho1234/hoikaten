@@ -1,0 +1,3 @@
+# 川崎市の受入可能数PDFを読むために使う（scripts/kawasaki-pdf-extract.py）。
+# 表の抽出結果が変わると取り込みが壊れるため、バージョンを固定する。
+pdfplumber==0.11.9

@@ -213,6 +213,12 @@ export default async function VacancyPage({
         <p className="text-xs text-muted-foreground mt-1.5">
           {name}公式データ（{asOfLabel}時点）
         </p>
+        {/* 数値の意味が「今の空き」でない自治体（川崎市は翌月入所ぶんの予定数）で出す */}
+        {vacancy.subtitle && (
+          <p className="text-xs font-medium text-primary mt-2">
+            {vacancy.subtitle}
+          </p>
+        )}
       </div>
 
       {/* 全体のサマリー */}

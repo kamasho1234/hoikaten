@@ -29,6 +29,15 @@ jobs:
       - name: 依存をインストール
         run: npm ci
 
+      # 川崎市はPDFしか公開していないため pdfplumber で表を読む。
+      # pdftotext では日本語が落ちて数字だけになる
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: PDF読み取り用の依存をインストール
+        run: pip install -r scripts/requirements.txt
+
       # 自治体ごとに独立したステップにする。
       # ひとつの自治体が公式側の都合で落ちても他の自治体の更新は取り込みたいので
       # continue-on-error で続行し、最後にまとめて失敗を報告する。
@@ -42,6 +51,11 @@ jobs:
         id: meguro
         continue-on-error: true
         run: npm run vacancy:fetch:meguro
+
+      - name: 川崎市を取り込む
+        id: kawasaki
+        continue-on-error: true
+        run: npm run vacancy:fetch:kawasaki
 
       # ここから下は失敗したらコミットしない（壊れたデータを公開しないため）
       - name: 型チェック
@@ -61,6 +75,7 @@ jobs:
             case "$f" in
               *yokohama.json) MSG="$MSG 横浜市（$(node -p "require('./src/lib/vacancy/yokohama.json').asOf")時点）" ;;
               *meguro.json) MSG="$MSG 目黒区（$(node -p "require('./src/lib/vacancy/meguro.json').asOf")時点）" ;;
+              *kawasaki.json) MSG="$MSG 川崎市（$(node -p "require('./src/lib/vacancy/kawasaki.json').asOf")時点）" ;;
             esac
           done
           git config user.name "github-actions[bot]"
@@ -71,10 +86,11 @@ jobs:
 
       # 取り込みに失敗した自治体があれば、更新自体は済ませたうえで失敗として通知する
       - name: 取り込みの結果を判定する
-        if: steps.yokohama.outcome == 'failure' || steps.meguro.outcome == 'failure'
+        if: steps.yokohama.outcome == 'failure' || steps.meguro.outcome == 'failure' || steps.kawasaki.outcome == 'failure'
         run: |
           echo "取り込みに失敗した自治体があります:"
           echo "  横浜市: ${{ steps.yokohama.outcome }}"
           echo "  目黒区: ${{ steps.meguro.outcome }}"
+          echo "  川崎市: ${{ steps.kawasaki.outcome }}"
           echo "公式サイトの構造が変わっていないか確認してください。"
           exit 1
