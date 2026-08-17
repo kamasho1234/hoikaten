@@ -17,6 +17,7 @@ import type {
 import yokohamaVacancy from "./yokohama.json";
 import yokohamaWebsites from "./yokohama-websites.json";
 import meguroVacancy from "./meguro.json";
+import meguroWebsites from "./meguro-websites.json";
 import kawasakiVacancy from "./kawasaki.json";
 import kawasakiWebsites from "./kawasaki-websites.json";
 
@@ -65,7 +66,10 @@ const registry: Record<string, VacancyDataset> = {
     yokohamaVacancy as unknown as VacancyDataset,
     yokohamaWebsites.sites
   ),
-  meguro: meguroVacancy as unknown as VacancyDataset,
+  meguro: withWebsites(
+    meguroVacancy as unknown as VacancyDataset,
+    meguroWebsites.sites
+  ),
   kawasaki: withWebsites(
     kawasakiVacancy as unknown as VacancyDataset,
     kawasakiWebsites.sites
