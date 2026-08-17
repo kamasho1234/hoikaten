@@ -1,7 +1,7 @@
 {
  "municipalitySlug": "kawasaki",
  "note": "各施設の公式サイト。Web検索で特定し、URLへ実アクセスして施設名または電話番号の一致を確認したものだけを載せている。",
- "facilityCount": 493,
+ "facilityCount": 505,
  "sites": {
   "宮前区／AIAINURSERY宮前平": {
    "url": "https://nursery.aiai-cc.co.jp/facility/miyamaedaira/",
@@ -267,6 +267,10 @@
    "url": "https://scops.jp/childcare/institution/",
    "type": "corp"
   },
+  "宮前区／保育園アリス馬絹": {
+   "url": "https://swc-alice.jp/alice_maginu/",
+   "type": "own"
+  },
   "宮前区／明日葉保育園宮崎台園": {
    "url": "https://www.ashita-ba.jp/hoiku/miyazakidai/",
    "type": "corp"
@@ -467,6 +471,10 @@
    "url": "https://keceg.jp/school/hoppa-minamigawara/",
    "type": "corp"
   },
+  "幸区／古川保育園": {
+   "url": "https://www.city.kawasaki.jp/saiwai/page/0000123044.html",
+   "type": "city"
+  },
   "幸区／幸いづみ保育園": {
    "url": "https://kantokodomo.misasakai.or.jp/saiwaiizumi/guide/",
    "type": "corp"
@@ -491,6 +499,10 @@
    "url": "https://shafuku-doujinkai.or.jp/facility/nursery-school/komukai-sakura",
    "type": "corp"
   },
+  "幸区／小倉はなかご保育園": {
+   "url": "https://hanakago.ed.jp/ogura/",
+   "type": "own"
+  },
   "幸区／尚徳福祉会おぐら保育園": {
    "url": "https://sfg21.com/ogura/",
    "type": "corp"
@@ -505,6 +517,10 @@
   },
   "幸区／新川崎えほんの森保育園": {
    "url": "https://www.miraikeikaku.jp/kawasaki",
+   "type": "corp"
+  },
+  "幸区／新川崎みらいのそら保育園": {
+   "url": "https://www.kanagawa-swc.com/mirainosora/",
    "type": "corp"
   },
   "幸区／第２ひまわりほいくえん": {
@@ -558,6 +574,10 @@
   "幸区／和ごころ小倉第二保育園": {
    "url": "https://www.city.kawasaki.jp/saiwai/page/0000154709.html",
    "type": "city"
+  },
+  "幸区／和ごころ小倉保育園": {
+   "url": "https://wagokoronurseryschool.com/",
+   "type": "own"
   },
   "高津区／（分園）みつばち保育園～Flower～": {
    "url": "https://de-story.com/access_flower/",
@@ -755,6 +775,10 @@
    "url": "https://www.m-bloomkids.co.jp/mizonokuchi",
    "type": "corp"
   },
+  "高津区／まなびの森溝の口もりのこ保育園": {
+   "url": "https://kodomonomori.co.jp/mz/",
+   "type": "own"
+  },
   "高津区／まなびの森保育園梶が谷": {
    "url": "https://www.hoicil.com/f/xTh8dNk1yabf",
    "type": "corp"
@@ -817,6 +841,10 @@
   },
   "高津区／新作やはた幼稚園": {
    "url": "https://www.shinsaku-yahata.com/",
+   "type": "own"
+  },
+  "高津区／諏訪幼稚園": {
+   "url": "https://www.suwa-youchien.ed.jp/",
    "type": "own"
   },
   "高津区／西高津くさはな保育園": {
@@ -962,6 +990,10 @@
   "川崎区／マジオたんぽぽ保育園観音": {
    "url": "https://www.m-bloomkids.co.jp/kannon",
    "type": "corp"
+  },
+  "川崎区／まなびの森かわなかじま保育園": {
+   "url": "https://kodomonomori.co.jp/kk/",
+   "type": "own"
   },
   "川崎区／まなびの森川崎もりのこ保育園": {
    "url": "https://kodomonomori.co.jp/ni/",
@@ -1163,6 +1195,10 @@
    "url": "https://www.mom.ed.jp/hoikuen/k_shukugawara.html",
    "type": "corp"
   },
+  "多摩区／きらきらスマイル保育園": {
+   "url": "https://www.yurinohana-hoikuen.net/",
+   "type": "corp"
+  },
   "多摩区／くじこのはら保育園": {
    "url": "https://daijikai.jp/【くじこのはら保育園】",
    "type": "corp"
@@ -1230,6 +1266,10 @@
   "多摩区／モンテッソーリ子どもの家はるるん保育園": {
    "url": "https://www.kids-harurun.com/harurun/",
    "type": "own"
+  },
+  "多摩区／ゆりの花保育園": {
+   "url": "https://www.yurinohana-hoikuen.net/",
+   "type": "corp"
   },
   "多摩区／丸山幼稚園": {
    "url": "https://www.maruyama-kids.com/",
@@ -1553,6 +1593,10 @@
   },
   "中原区／にじのそら宮内保育園": {
    "url": "https://www.fukushi-nijinokai.net/smarts/index/64/",
+   "type": "corp"
+  },
+  "中原区／ニチイキッズひらま保育園": {
+   "url": "https://www.nichiikids.net/nursery/hirama/",
    "type": "corp"
   },
   "中原区／ひまわりほいくえん": {
@@ -1961,6 +2005,10 @@
   },
   "麻生区／百合丘ルミナス保育園": {
    "url": "https://www.yoikode.com/yurigaoka",
+   "type": "corp"
+  },
+  "麻生区／保育園キディ百合丘・川崎": {
+   "url": "https://www.shinkoufukushikai.com/hoiku/218/",
    "type": "corp"
   },
   "麻生区／麻生ゆりのき保育園": {

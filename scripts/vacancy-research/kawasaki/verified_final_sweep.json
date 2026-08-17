@@ -177,5 +177,131 @@
   "verdict": "verified",
   "by": "name+tel",
   "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "川崎区／川崎あいいく",
+  "name": "川崎あいいく",
+  "url": null,
+  "type": "city",
+  "verdict": "unreachable",
+  "error": "HTTP 404",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "幸区／古川保育園",
+  "name": "古川保育園",
+  "url": "https://www.city.kawasaki.jp/saiwai/page/0000123044.html",
+  "type": "city",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "幸区／小倉はなかご保育園",
+  "name": "小倉はなかご保育園",
+  "url": "https://hanakago.ed.jp/ogura/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "多摩区／きらきらスマイル保育園",
+  "name": "きらきらスマイル保育園",
+  "url": "https://www.yurinohana-hoikuen.net/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "多摩区／ゆりの花保育園",
+  "name": "ゆりの花保育園",
+  "url": "https://www.yurinohana-hoikuen.net/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "幸区／和ごころ小倉保育園",
+  "name": "和ごころ小倉保育園",
+  "url": "https://wagokoronurseryschool.com/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "中原区／ニチイキッズひらま保育園",
+  "name": "ニチイキッズひらま保育園",
+  "url": "https://www.nichiikids.net/nursery/hirama/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "幸区／新川崎みらいのそら保育園",
+  "name": "新川崎みらいのそら保育園",
+  "url": "https://www.kanagawa-swc.com/mirainosora/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "高津区／諏訪幼稚園",
+  "name": "諏訪幼稚園",
+  "url": "https://www.suwa-youchien.ed.jp/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "中原区／ウパウパハウスノア",
+  "name": "ウパウパハウスノア",
+  "url": null,
+  "type": "corp",
+  "verdict": "unreachable",
+  "error": "ENOTFOUND",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "高津区／まなびの森溝の口もりのこ保育園",
+  "name": "まなびの森溝の口もりのこ保育園",
+  "url": "https://kodomonomori.co.jp/mz/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "川崎区／まなびの森かわなかじま保育園",
+  "name": "まなびの森かわなかじま保育園",
+  "url": "https://kodomonomori.co.jp/kk/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "麻生区／保育園キディ百合丘・川崎",
+  "name": "保育園キディ百合丘・川崎",
+  "url": "https://www.shinkoufukushikai.com/hoiku/218/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "宮前区／保育園アリス馬絹",
+  "name": "保育園アリス馬絹",
+  "url": "https://swc-alice.jp/alice_maginu/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
  }
 ]
