@@ -1,0 +1,227 @@
+[
+ {
+  "id": "幸区／メリーポピンズ川崎西口",
+  "name": "メリーポピンズ川崎西口",
+  "url": "https://www.doronko.jp/facilities/popinzu-kawasakinishiguchi/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "幸区／まなびの森新川崎もりのこ保育園（旧新川崎もりのこ保育園）",
+  "name": "まなびの森新川崎もりのこ保育園（旧新川崎もりのこ保育園）",
+  "url": "https://kodomonomori.co.jp/sw/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "幸区／まなびの森鹿島田もりのこ保育園（旧鹿島田もりのこ保育園）",
+  "name": "まなびの森鹿島田もりのこ保育園（旧鹿島田もりのこ保育園）",
+  "url": "https://kodomonomori.co.jp/lh/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "高津区／ヤクルト高津保育園",
+  "name": "ヤクルト高津保育園",
+  "url": "https://yakult-kids.jp/hoikuen/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "川崎区／メリーポピンズアトレ川崎ルーム",
+  "name": "メリーポピンズアトレ川崎ルーム",
+  "url": "https://www.doronko.jp/facilities/popinzu-atrekawasaki/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "幸区／東京ヤクルト販売(株)ヤクルト鹿島田保育園",
+  "name": "東京ヤクルト販売(株)ヤクルト鹿島田保育園",
+  "url": "https://yakult-kids.jp/hoikuen/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "多摩区／メリーポピンズ登戸ルーム",
+  "name": "メリーポピンズ登戸ルーム",
+  "url": "https://www.doronko.jp/facilities/popinzu-noborito/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "高津区／津田山幼稚園",
+  "name": "津田山幼稚園",
+  "url": "https://www.smg.ed.jp/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "高津区／ファミリアキッズ二子新地駅前園",
+  "name": "ファミリアキッズ二子新地駅前園",
+  "url": "https://familiar-kids.net/about-us/accessmap/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "高津区／レッツ・びー千年保育園",
+  "name": "レッツ・びー千年保育園",
+  "url": "https://smg.ed.jp/bee/chitose/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "高津区／ファミリア・キッズ保育園",
+  "name": "ファミリア・キッズ保育園",
+  "url": "https://familiar-kids.net/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "麻生区／神奈川東部ヤクルト販売（株）百合ヶ丘保育ルーム",
+  "name": "神奈川東部ヤクルト販売（株）百合ヶ丘保育ルーム",
+  "url": "https://kt-yakult-nursury.com/nursery-room-list/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "高津区／くすのき保育園",
+  "name": "くすのき保育園",
+  "url": "https://kakinomi.com/kusunoki/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "幸区／ふくじゅ保育園",
+  "name": "ふくじゅ保育園",
+  "url": "https://www.choujyu-f.jp/fukujyu/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "川崎区／まなびの森川崎もりのこ保育園",
+  "name": "まなびの森川崎もりのこ保育園",
+  "url": "https://kodomonomori.co.jp/ni/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "高津区／ヴィラまなびの森保育園高津",
+  "name": "ヴィラまなびの森保育園高津",
+  "url": "https://kodomonomori.co.jp/vl/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "高津区／ソラスト高津保育園",
+  "name": "ソラスト高津保育園",
+  "url": "https://kodomo.solasto-hoiku.com/nursery/solasto-takatsu/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "高津区／スマイスセレソンスポーツ保育園溝の口",
+  "name": "スマイスセレソンスポーツ保育園溝の口",
+  "url": "https://smis-selecao.com/daycare/daycare-1945/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "高津区／スクルドエンジェル保育園梶ヶ谷園",
+  "name": "スクルドエンジェル保育園梶ヶ谷園",
+  "url": "https://kajigaya.skuld-angel.com/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "高津区／アートチャイルドケア津田山きらら保育園",
+  "name": "アートチャイルドケア津田山きらら保育園",
+  "url": "https://www.the0123child.com/personal/1289/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "高津区／あぷりこっと保育園エミタス２４６",
+  "name": "あぷりこっと保育園エミタス２４６",
+  "url": "https://hoiku246.ed.jp/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "高津区／まなびの森保育園高津・分園",
+  "name": "まなびの森保育園高津・分園",
+  "url": "https://kodomonomori.co.jp/lt/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "高津区／新作やはた幼稚園",
+  "name": "新作やはた幼稚園",
+  "url": "https://www.shinsaku-yahata.com/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "高津区／天才キッズクラブ楽学館溝の口園",
+  "name": "天才キッズクラブ楽学館溝の口園",
+  "url": "https://www.tensaikids.jp/nurseries/mizonokuchi/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "幸区／ＹＭＣＡかわさき保育園",
+  "name": "ＹＭＣＡかわさき保育園",
+  "url": "https://hoiku.yokohamaymca.org/kawasaki/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ }
+]

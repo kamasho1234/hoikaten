@@ -1,7 +1,7 @@
 {
  "municipalitySlug": "kawasaki",
  "note": "各施設の公式サイト。Web検索で特定し、URLへ実アクセスして施設名または電話番号の一致を確認したものだけを載せている。",
- "facilityCount": 432,
+ "facilityCount": 457,
  "sites": {
   "宮前区／AIAINURSERY宮前平": {
    "url": "https://nursery.aiai-cc.co.jp/facility/miyamaedaira/",
@@ -299,6 +299,10 @@
    "url": "https://www.kid-g.com/guide/index/5",
    "type": "corp"
   },
+  "幸区／ＹＭＣＡかわさき保育園": {
+   "url": "https://hoiku.yokohamaymca.org/kawasaki/",
+   "type": "corp"
+  },
   "幸区／あいみー南加瀬保育園": {
    "url": "https://aime.ed.jp/school/minamikase/",
    "type": "corp"
@@ -375,6 +379,10 @@
    "url": "https://hoiku.shopro.co.jp/hoiku/about/nursery/hiyoshi.html",
    "type": "corp"
   },
+  "幸区／ふくじゅ保育園": {
+   "url": "https://www.choujyu-f.jp/fukujyu/",
+   "type": "corp"
+  },
   "幸区／ぶれあ保育園・川崎南幸町": {
    "url": "https://www.city.kawasaki.jp/saiwai/page/0000174275.html",
    "type": "city"
@@ -386,6 +394,14 @@
   "幸区／マジオたんぽぽ保育園下平間": {
    "url": "https://www.m-bloomkids.co.jp/shimohirama",
    "type": "corp"
+  },
+  "幸区／まなびの森鹿島田もりのこ保育園（旧鹿島田もりのこ保育園）": {
+   "url": "https://kodomonomori.co.jp/lh/",
+   "type": "own"
+  },
+  "幸区／まなびの森新川崎もりのこ保育園（旧新川崎もりのこ保育園）": {
+   "url": "https://kodomonomori.co.jp/sw/",
+   "type": "own"
   },
   "幸区／まなびの森保育園川崎": {
    "url": "https://kodomonomori.co.jp/la/",
@@ -417,6 +433,10 @@
   },
   "幸区／みなみがわら保育園": {
    "url": "https://www.primekids.or.jp/minamigawara/",
+   "type": "corp"
+  },
+  "幸区／メリーポピンズ川崎西口": {
+   "url": "https://www.doronko.jp/facilities/popinzu-kawasakinishiguchi/",
    "type": "corp"
   },
   "幸区／らいらっくみゆき保育園": {
@@ -487,6 +507,10 @@
    "url": "https://2nd-himawari.com/",
    "type": "facility"
   },
+  "幸区／東京ヤクルト販売(株)ヤクルト鹿島田保育園": {
+   "url": "https://yakult-kids.jp/hoikuen/",
+   "type": "corp"
+  },
   "幸区／保育Roomことり": {
    "url": "https://hoiku-kotori.love/",
    "type": "facility"
@@ -539,6 +563,10 @@
    "url": "https://www.the0123child.com/personal/32905/",
    "type": "corp"
   },
+  "高津区／アートチャイルドケア津田山きらら保育園": {
+   "url": "https://www.the0123child.com/personal/1289/",
+   "type": "corp"
+  },
   "高津区／あいみー溝口保育園": {
    "url": "https://aime.ed.jp/school/mizonokuchi/",
    "type": "corp"
@@ -567,9 +595,17 @@
    "url": "https://list.nihonhoiku.co.jp/nursery/detail/musashishinjyo/",
    "type": "corp"
   },
+  "高津区／あぷりこっと保育園エミタス２４６": {
+   "url": "https://hoiku246.ed.jp/",
+   "type": "own"
+  },
   "高津区／あぷりこっと保育園エミタス久本": {
    "url": "https://emitus.ed.jp/",
    "type": "facility"
+  },
+  "高津区／ヴィラまなびの森保育園高津": {
+   "url": "https://kodomonomori.co.jp/vl/",
+   "type": "own"
   },
   "高津区／うめのき保育園": {
    "url": "https://c-g.jp/nursery/024.html",
@@ -579,6 +615,10 @@
    "url": "https://daijikai.jp/hoikuen/kuji/",
    "type": "corp"
   },
+  "高津区／くすのき保育園": {
+   "url": "https://kakinomi.com/kusunoki/",
+   "type": "corp"
+  },
   "高津区／こもれび保育園梶が谷園": {
    "url": "https://komorebi-ns.ed.jp/nursery/kajigaya/",
    "type": "corp"
@@ -586,6 +626,10 @@
   "高津区／サンライズ上作延保育室": {
    "url": "https://hoikukai-baby.com/sunrise-kamisakunobe/",
    "type": "corp"
+  },
+  "高津区／スクルドエンジェル保育園梶ヶ谷園": {
+   "url": "https://kajigaya.skuld-angel.com/",
+   "type": "own"
   },
   "高津区／すこやか溝口保育園": {
    "url": "https://shoei-fukushikai.jp/mizonokuchi",
@@ -617,6 +661,14 @@
   },
   "高津区／スターチャイルド≪高津溝口ナーサリー≫": {
    "url": "https://www.starchild.jp/nursery/takatsumizonokuchi/",
+   "type": "corp"
+  },
+  "高津区／スマイスセレソンスポーツ保育園溝の口": {
+   "url": "https://smis-selecao.com/daycare/daycare-1945/",
+   "type": "corp"
+  },
+  "高津区／ソラスト高津保育園": {
+   "url": "https://kodomo.solasto-hoiku.com/nursery/solasto-takatsu/",
    "type": "corp"
   },
   "高津区／たちばな中央保育園": {
@@ -651,6 +703,14 @@
    "url": "https://www.nichiikids.net/nursery/kajigaya/",
    "type": "corp"
   },
+  "高津区／ファミリア・キッズ保育園": {
+   "url": "https://familiar-kids.net/",
+   "type": "corp"
+  },
+  "高津区／ファミリアキッズ二子新地駅前園": {
+   "url": "https://familiar-kids.net/about-us/accessmap/",
+   "type": "corp"
+  },
   "高津区／ぶどうの実梶ヶ谷園": {
    "url": "https://budou-ki.co.jp/kajigaya/",
    "type": "corp"
@@ -683,8 +743,16 @@
    "url": "https://kodomonomori.co.jp/lt/",
    "type": "corp"
   },
+  "高津区／まなびの森保育園高津・分園": {
+   "url": "https://kodomonomori.co.jp/lt/",
+   "type": "own"
+  },
   "高津区／みぞのくち保育園": {
    "url": "https://daijikai.jp/hoikuen/mizonokuchi/",
+   "type": "corp"
+  },
+  "高津区／ヤクルト高津保育園": {
+   "url": "https://yakult-kids.jp/hoikuen/",
    "type": "corp"
   },
   "高津区／レッツ・びー梶ヶ谷保育園": {
@@ -697,6 +765,10 @@
   },
   "高津区／レッツ・びー溝の口保育園": {
    "url": "https://smg.ed.jp/bee/mizonokuchi/",
+   "type": "corp"
+  },
+  "高津区／レッツ・びー千年保育園": {
+   "url": "https://smg.ed.jp/bee/chitose/",
    "type": "corp"
   },
   "高津区／わらべうた溝の口南口保育園": {
@@ -723,6 +795,10 @@
    "url": "https://hoiku.shopro.co.jp/hoiku/about/nursery/musashishinjou2.html",
    "type": "corp"
   },
+  "高津区／新作やはた幼稚園": {
+   "url": "https://www.shinsaku-yahata.com/",
+   "type": "own"
+  },
   "高津区／西高津くさはな保育園": {
    "url": "https://kotobukikai.ed.jp/2022/03/09/【西高津くさはな保育園】-正規保育士募集/",
    "type": "corp"
@@ -741,6 +817,14 @@
   },
   "高津区／津田山保育園": {
    "url": "https://hoikukai-baby.com/kamisakunobe/6399/",
+   "type": "corp"
+  },
+  "高津区／津田山幼稚園": {
+   "url": "https://www.smg.ed.jp/",
+   "type": "corp"
+  },
+  "高津区／天才キッズクラブ楽学館溝の口園": {
+   "url": "https://www.tensaikids.jp/nurseries/mizonokuchi/",
    "type": "corp"
   },
   "高津区／保育園きのね": {
@@ -847,8 +931,16 @@
    "url": "https://www.m-bloomkids.co.jp/kannon",
    "type": "corp"
   },
+  "川崎区／まなびの森川崎もりのこ保育園": {
+   "url": "https://kodomonomori.co.jp/ni/",
+   "type": "own"
+  },
   "川崎区／ミルキーホーム川崎園": {
    "url": "https://www.ssss.co.jp/school-list/milkyhome-kawasakien-15/",
+   "type": "corp"
+  },
+  "川崎区／メリーポピンズアトレ川崎ルーム": {
+   "url": "https://www.doronko.jp/facilities/popinzu-atrekawasaki/",
    "type": "corp"
   },
   "川崎区／ゆりかご幼稚園": {
@@ -1085,6 +1177,10 @@
   },
   "多摩区／ぶどうの実登戸園": {
    "url": "https://budou-ki.co.jp/noborito/index.html",
+   "type": "corp"
+  },
+  "多摩区／メリーポピンズ登戸ルーム": {
+   "url": "https://www.doronko.jp/facilities/popinzu-noborito/",
    "type": "corp"
   },
   "多摩区／モンテッソーリ子どもの家はるるん保育園": {
@@ -1682,6 +1778,10 @@
   "麻生区／上麻生保育園": {
    "url": "https://www.city.kawasaki.jp/450/page/0000031581.html",
    "type": "city"
+  },
+  "麻生区／神奈川東部ヤクルト販売（株）百合ヶ丘保育ルーム": {
+   "url": "https://kt-yakult-nursury.com/nursery-room-list/",
+   "type": "corp"
   },
   "麻生区／川崎青葉幼稚園": {
    "url": "https://www.kawasaki-aoba.ed.jp/",
