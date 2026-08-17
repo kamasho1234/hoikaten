@@ -1,7 +1,7 @@
 {
  "municipalitySlug": "kawasaki",
  "note": "各施設の公式サイト。Web検索で特定し、URLへ実アクセスして施設名または電話番号の一致を確認したものだけを載せている。",
- "facilityCount": 510,
+ "facilityCount": 509,
  "sites": {
   "宮前区／AIAINURSERY宮前平": {
    "url": "https://nursery.aiai-cc.co.jp/facility/miyamaedaira/",
@@ -852,7 +852,7 @@
    "type": "own"
   },
   "高津区／西高津くさはな保育園": {
-   "url": "https://kotobukikai.ed.jp/2022/03/09/【西高津くさはな保育園】-正規保育士募集/",
+   "url": "https://kotobukikai.ed.jp/nursery/nishitakatsu/",
    "type": "corp"
   },
   "高津区／千年たちばな保育園": {
@@ -1339,10 +1339,6 @@
    "url": "https://www.city.kawasaki.jp/450/page/0000031410.html",
    "type": "city"
   },
-  "多摩区／太陽の子保育園": {
-   "url": "https://www.kidslife-nursery.com/news/2018/09/91/",
-   "type": "corp"
-  },
   "多摩区／第２くまのこ園": {
    "url": "https://kumanokoen.com/access/%E7%AC%AC2%E3%81%8F%E3%81%BE%E3%81%AE%E3%81%93%E5%9C%92/",
    "type": "own"
@@ -1368,7 +1364,7 @@
    "type": "corp"
   },
   "多摩区／天宿愛児園": {
-   "url": "https://kouseikan-f.org/blog/2021/06/30/news-8/",
+   "url": "https://kouseikan-f.org/tenshuku/",
    "type": "corp"
   },
   "多摩区／登戸はないろ保育園": {
