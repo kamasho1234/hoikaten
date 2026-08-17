@@ -1,7 +1,7 @@
 {
  "municipalitySlug": "kawasaki",
  "note": "各施設の公式サイト。Web検索で特定し、URLへ実アクセスして施設名または電話番号の一致を確認したものだけを載せている。",
- "facilityCount": 372,
+ "facilityCount": 397,
  "sites": {
   "宮前区／AIAINURSERY宮前平": {
    "url": "https://nursery.aiai-cc.co.jp/facility/miyamaedaira/",
@@ -1051,6 +1051,10 @@
    "url": "http://khm-hoiku.com/",
    "type": "corp"
   },
+  "多摩区／なかのしまのぞみ保育園": {
+   "url": "https://shkb.org/nakanoshimanozomi/",
+   "type": "corp"
+  },
   "多摩区／にじいろ保育園稲田堤": {
    "url": "https://www.nijiiro-hoikuen.jp/category/kanagawa/kawasaki/nijiiro-93/",
    "type": "own"
@@ -1143,6 +1147,10 @@
    "url": "https://www.nakanoshimayouchien.com/",
    "type": "own"
   },
+  "多摩区／天才キッズクラブ楽学館登戸園": {
+   "url": "https://www.tensaikids.jp/nurseries/rakunoborito/",
+   "type": "corp"
+  },
   "多摩区／天宿愛児園": {
    "url": "https://kouseikan-f.org/blog/2021/06/30/news-8/",
    "type": "corp"
@@ -1191,6 +1199,10 @@
    "url": "https://www.ein-group.com/facility/musashikosugi/",
    "type": "corp"
   },
+  "中原区／アイン武蔵小杉北保育園": {
+   "url": "https://www.ein-group.com/facility/musashikosugikita/",
+   "type": "corp"
+  },
   "中原区／アスクバイリンガル保育園向河原": {
    "url": "https://list.nihonhoiku.co.jp/nursery/detail/mukaigawara/",
    "type": "corp"
@@ -1233,6 +1245,10 @@
   },
   "中原区／エクセレント武蔵新城保育園": {
    "url": "https://www.heartfukushi.or.jp/musashishinjo/",
+   "type": "corp"
+  },
+  "中原区／キディ元住吉・川崎": {
+   "url": "https://www.shinkoufukushikai.com/hoiku/212/",
    "type": "corp"
   },
   "中原区／グローバルキッズ武蔵小杉園": {
@@ -1435,6 +1451,10 @@
    "url": "https://nursery.aiai-cc.co.jp/facility/shin_yurigaoka/",
    "type": "corp"
   },
+  "麻生区／アイン栗平保育園": {
+   "url": "https://www.ein-group.com/facility/kurihira/",
+   "type": "corp"
+  },
   "麻生区／アスク柿生保育園": {
    "url": "https://list.nihonhoiku.co.jp/nursery/detail/kakio/",
    "type": "corp"
@@ -1443,20 +1463,56 @@
    "url": "https://list.nihonhoiku.co.jp/nursery/detail/shinyurigaoka/",
    "type": "corp"
   },
+  "麻生区／かくれんぼ保育園": {
+   "url": "https://kakinomi.com/kakurenbo/",
+   "type": "corp"
+  },
+  "麻生区／くりの実保育園": {
+   "url": "https://www.kurinomi-hoikuen.net/",
+   "type": "corp"
+  },
   "麻生区／クレアナーサリー新百合ヶ丘": {
    "url": "https://www.alpha-co.com/nursery/nursery-school/yurigaoka",
+   "type": "corp"
+  },
+  "麻生区／くろかわのぞみ保育園": {
+   "url": "https://shkb.org/kurokawanozomi/",
    "type": "corp"
   },
   "麻生区／すぎのこ保育園": {
    "url": "https://suginoko.or.jp/recruit/suginoko/",
    "type": "corp"
   },
+  "麻生区／つくしんぼ保育園": {
+   "url": "https://kakinomi.com/tsukushinbo/",
+   "type": "corp"
+  },
+  "麻生区／にじのそら虹ヶ丘保育園": {
+   "url": "https://www.fukushi-nijinokai.net/smarts/index/63/",
+   "type": "corp"
+  },
+  "麻生区／はるひ野保育園": {
+   "url": "https://shkb.org/haruhino_h/",
+   "type": "corp"
+  },
+  "麻生区／ポピンズナーサリースクール百合ヶ丘": {
+   "url": "https://www.poppins.co.jp/educare/room-search/yurigaoka/",
+   "type": "corp"
+  },
   "麻生区／王禅寺しらゆり保育園": {
    "url": "https://kouseikan-f.org/services/nursery/王禅寺しらゆり保育園/",
    "type": "corp"
   },
+  "麻生区／柿生かきっこ保育園": {
+   "url": "https://kakio-hoiku.jp/page-2769/",
+   "type": "corp"
+  },
   "麻生区／柿生ルミナス保育園": {
    "url": "https://www.yoikode.com/kakio/",
+   "type": "corp"
+  },
+  "麻生区／柿生保育園": {
+   "url": "https://kakio-hoiku.jp/post-2894/",
    "type": "corp"
   },
   "麻生区／五月台ルミナス保育園": {
@@ -1466,6 +1522,10 @@
   "麻生区／高石保育園": {
    "url": "https://www.city.kawasaki.jp/450/page/0000031586.html",
    "type": "city"
+  },
+  "麻生区／山口台あおば保育園": {
+   "url": "https://www.kawasaki-aoba.ed.jp/nursery_school/",
+   "type": "corp"
   },
   "麻生区／至誠館ゆりがおか保育園": {
    "url": "https://kouseikan-f.org/services/nursery/至誠館ゆりがおか保育園/",
@@ -1483,12 +1543,52 @@
    "url": "https://www.city.kawasaki.jp/450/page/0000031581.html",
    "type": "city"
   },
+  "麻生区／川崎青葉幼稚園": {
+   "url": "https://www.kawasaki-aoba.ed.jp/",
+   "type": "own"
+  },
+  "麻生区／太陽の子保育園シーサーズ": {
+   "url": "https://www.taiyo-no-ko.com/",
+   "type": "own"
+  },
+  "麻生区／太陽の子保育園ひよこ": {
+   "url": "https://www.taiyo-no-ko.com/",
+   "type": "own"
+  },
+  "麻生区／天才キッズクラブ楽学館古沢園": {
+   "url": "https://www.tensaikids.jp/nurseries/furusawa/",
+   "type": "corp"
+  },
+  "麻生区／天才キッズクラブ楽学館新百合ヶ丘駅園": {
+   "url": "https://www.tensaikids.jp/nurseries/rakugakukan/",
+   "type": "corp"
+  },
+  "麻生区／天才キッズクラブ楽学館百合ヶ丘園": {
+   "url": "https://www.tensaikids.jp/nurseries/rakuyurigaoka/",
+   "type": "corp"
+  },
+  "麻生区／天才キッズクラブ楽学館万福寺園": {
+   "url": "https://www.tensaikids.jp/nurseries/manpukuji/",
+   "type": "corp"
+  },
+  "麻生区／天才キッズクラブ楽遊館上麻生園": {
+   "url": "https://www.tensaikids.jp/nurseries/kamiasao/",
+   "type": "corp"
+  },
   "麻生区／白山保育園": {
    "url": "https://www.city.kawasaki.jp/450/page/0000031608.html",
    "type": "city"
   },
   "麻生区／百合丘ルミナス保育園": {
    "url": "https://www.yoikode.com/yurigaoka",
+   "type": "corp"
+  },
+  "麻生区／麻生ゆりのき保育園": {
+   "url": "https://seiwa-yurinoki.jp/",
+   "type": "own"
+  },
+  "麻生区／木下の保育園新百合ヶ丘": {
+   "url": "https://www.kinoshita-hoiku.com/facility/shinyurigaoka",
    "type": "corp"
   }
  }

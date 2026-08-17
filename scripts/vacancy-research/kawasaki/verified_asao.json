@@ -1,0 +1,227 @@
+[
+ {
+  "id": "麻生区／柿生保育園",
+  "name": "柿生保育園",
+  "url": "https://kakio-hoiku.jp/post-2894/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(法人サイトを横断クロールし、ページtitleの施設名一致と本文の電話番号照合で確認)"
+ },
+ {
+  "id": "麻生区／柿生かきっこ保育園",
+  "name": "柿生かきっこ保育園",
+  "url": "https://kakio-hoiku.jp/page-2769/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(法人サイトを横断クロールし、ページtitleの施設名一致と本文の電話番号照合で確認)"
+ },
+ {
+  "id": "麻生区／かくれんぼ保育園",
+  "name": "かくれんぼ保育園",
+  "url": "https://kakinomi.com/kakurenbo/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(法人サイトを横断クロールし、ページtitleの施設名一致と本文の電話番号照合で確認)"
+ },
+ {
+  "id": "中原区／キディ元住吉・川崎",
+  "name": "キディ元住吉・川崎",
+  "url": "https://www.shinkoufukushikai.com/hoiku/212/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(法人サイトを横断クロールし、ページtitleの施設名一致と本文の電話番号照合で確認)"
+ },
+ {
+  "id": "麻生区／アイン栗平保育園",
+  "name": "アイン栗平保育園",
+  "url": "https://www.ein-group.com/facility/kurihira/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(法人サイトを横断クロールし、ページtitleの施設名一致と本文の電話番号照合で確認)"
+ },
+ {
+  "id": "中原区／アイン武蔵小杉北保育園",
+  "name": "アイン武蔵小杉北保育園",
+  "url": "https://www.ein-group.com/facility/musashikosugikita/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(法人サイトを横断クロールし、ページtitleの施設名一致と本文の電話番号照合で確認)"
+ },
+ {
+  "id": "麻生区／くりの実保育園",
+  "name": "くりの実保育園",
+  "url": "https://www.kurinomi-hoikuen.net/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "麻生区／山口台あおば保育園",
+  "name": "山口台あおば保育園",
+  "url": "https://www.kawasaki-aoba.ed.jp/nursery_school/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "麻生区／はるひ野保育園",
+  "name": "はるひ野保育園",
+  "url": "https://shkb.org/haruhino_h/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "麻生区／太陽の子保育園シーサーズ",
+  "name": "太陽の子保育園シーサーズ",
+  "url": "https://www.taiyo-no-ko.com/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "麻生区／太陽の子保育園ひよこ",
+  "name": "太陽の子保育園ひよこ",
+  "url": "https://www.taiyo-no-ko.com/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "麻生区／川崎青葉幼稚園",
+  "name": "川崎青葉幼稚園",
+  "url": "https://www.kawasaki-aoba.ed.jp/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "麻生区／木下の保育園新百合ヶ丘",
+  "name": "木下の保育園新百合ヶ丘",
+  "url": "https://www.kinoshita-hoiku.com/facility/shinyurigaoka",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "麻生区／麻生ゆりのき保育園",
+  "name": "麻生ゆりのき保育園",
+  "url": "https://seiwa-yurinoki.jp/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "麻生区／ポピンズナーサリースクール百合ヶ丘",
+  "name": "ポピンズナーサリースクール百合ヶ丘",
+  "url": "https://www.poppins.co.jp/educare/room-search/yurigaoka/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "麻生区／つくしんぼ保育園",
+  "name": "つくしんぼ保育園",
+  "url": "https://kakinomi.com/tsukushinbo/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "麻生区／くろかわのぞみ保育園",
+  "name": "くろかわのぞみ保育園",
+  "url": "https://shkb.org/kurokawanozomi/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "麻生区／にじのそら虹ヶ丘保育園",
+  "name": "にじのそら虹ヶ丘保育園",
+  "url": "https://www.fukushi-nijinokai.net/smarts/index/63/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "麻生区／天才キッズクラブ楽学館万福寺園",
+  "name": "天才キッズクラブ楽学館万福寺園",
+  "url": "https://www.tensaikids.jp/nurseries/manpukuji/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "麻生区／天才キッズクラブ楽遊館上麻生園",
+  "name": "天才キッズクラブ楽遊館上麻生園",
+  "url": "https://www.tensaikids.jp/nurseries/kamiasao/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "麻生区／天才キッズクラブ楽学館新百合ヶ丘駅園",
+  "name": "天才キッズクラブ楽学館新百合ヶ丘駅園",
+  "url": "https://www.tensaikids.jp/nurseries/rakugakukan/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "多摩区／天才キッズクラブ楽学館登戸園",
+  "name": "天才キッズクラブ楽学館登戸園",
+  "url": "https://www.tensaikids.jp/nurseries/rakunoborito/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "多摩区／なかのしまのぞみ保育園",
+  "name": "なかのしまのぞみ保育園",
+  "url": "https://shkb.org/nakanoshimanozomi/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "麻生区／天才キッズクラブ楽学館百合ヶ丘園",
+  "name": "天才キッズクラブ楽学館百合ヶ丘園",
+  "url": "https://www.tensaikids.jp/nurseries/rakuyurigaoka/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "麻生区／天才キッズクラブ楽学館古沢園",
+  "name": "天才キッズクラブ楽学館古沢園",
+  "url": "https://www.tensaikids.jp/nurseries/furusawa/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ }
+]
