@@ -1,0 +1,181 @@
+[
+ {
+  "id": "中原区／さくらの木保育園",
+  "name": "さくらの木保育園",
+  "url": null,
+  "type": "own",
+  "verdict": "unverified",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "中原区／ソラスト大戸保育園",
+  "name": "ソラスト大戸保育園",
+  "url": "https://kodomo.solasto-hoiku.com/nursery/solasto-oto/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "中原区／まなびの森元住吉わんぱく園",
+  "name": "まなびの森元住吉わんぱく園",
+  "url": "https://kodomonomori.co.jp/ms/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "中原区／京進のほいくえんＨＯＰＰＡ下沼部園",
+  "name": "京進のほいくえんＨＯＰＰＡ下沼部園",
+  "url": null,
+  "type": "corp",
+  "verdict": "unreachable",
+  "error": "HTTP 404",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "中原区／ピュアリー小杉御殿町保育園",
+  "name": "ピュアリー小杉御殿町保育園",
+  "url": "https://www.purely-hoiku.jp/cont3/main.html",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "高津区／ピッコリ・アンジェリ",
+  "name": "ピッコリ・アンジェリ",
+  "url": "https://piccoli-angeli.jp/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "中原区／木下の保育園武蔵新城",
+  "name": "木下の保育園武蔵新城",
+  "url": "https://www.kinoshita-hoiku.com/facility/musashishinjo",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "中原区／にじのそら宮内保育園",
+  "name": "にじのそら宮内保育園",
+  "url": "https://www.fukushi-nijinokai.net/smarts/index/64/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "中原区／アートチャイルドケア武蔵中原",
+  "name": "アートチャイルドケア武蔵中原",
+  "url": "https://www.the0123child.com/personal/1281/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "多摩区／宿河原幼稚園",
+  "name": "宿河原幼稚園",
+  "url": "https://www.shukugawara-kg.com/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "多摩区／第２くまのこ園",
+  "name": "第２くまのこ園",
+  "url": "https://kumanokoen.com/access/%E7%AC%AC2%E3%81%8F%E3%81%BE%E3%81%AE%E3%81%93%E5%9C%92/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "多摩区／保育所くまのこ園",
+  "name": "保育所くまのこ園",
+  "url": "https://kumanokoen.com/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "麻生区／野村保育室",
+  "name": "野村保育室",
+  "url": "https://nomurakko.com/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "麻生区／横浜悠久会白鳥保育園",
+  "name": "横浜悠久会白鳥保育園",
+  "url": "http://www.yukyukai.jp/shiratori/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "高津区／保育所くれよん",
+  "name": "保育所くれよん",
+  "url": "https://www.hoiku-kureyon.com/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "多摩区／登戸はないろ保育園",
+  "name": "登戸はないろ保育園",
+  "url": "https://nanairo-nursery.net/edu/noborito/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "多摩区／南いくた保育園",
+  "name": "南いくた保育園",
+  "url": "https://minamiikuta-nursery.ed.jp/",
+  "type": "own",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "高津区／川崎子母口雲母保育園",
+  "name": "川崎子母口雲母保育園",
+  "url": "https://www.kirara-hoikuen.com/about/hoikuen/kawasakishibokuchi/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "高津区／あいみー梶ヶ谷保育園",
+  "name": "あいみー梶ヶ谷保育園",
+  "url": "https://aime.ed.jp/school/kajigaya/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ },
+ {
+  "id": "中原区／あいみー平間保育園",
+  "name": "あいみー平間保育園",
+  "url": "https://aime.ed.jp/school/hirama/",
+  "type": "corp",
+  "verdict": "verified",
+  "by": "name+tel",
+  "query": "(施設名でWeb検索し、URLに実アクセスして施設名・電話番号を照合)"
+ }
+]
