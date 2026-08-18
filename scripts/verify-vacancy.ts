@@ -36,6 +36,7 @@ const EXPECTED: Record<
   ota: { asOf: "2026-07-02", facilityCount: 220, vacancy: 1092 },
   adachi: { asOf: "2026-08-01", facilityCount: 256, vacancy: 988 },
   edogawa: { asOf: "2026-08-01", facilityCount: 200, vacancy: 459 },
+  nerima: { asOf: "2026-07-03", facilityCount: 253, vacancy: 941 },
 };
 
 const problems: string[] = [];
