@@ -1,0 +1,863 @@
+{
+ "municipalitySlug": "ota",
+ "note": "各施設の公式サイト。Web検索で特定し、URLへ実アクセスして施設名または電話番号の一致を確認したものだけを載せている。",
+ "facilityCount": 214,
+ "sites": {
+  "1": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/miharahoikuen.html",
+   "type": "city"
+  },
+  "2": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/kuritsu/oomorihigashiicchoume.html",
+   "type": "city"
+  },
+  "3": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/kodomonoiehoikuen.html",
+   "type": "city"
+  },
+  "4": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/kuritsu/morigasakihoikuen.html",
+   "type": "city"
+  },
+  "5": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/oomorihoikuen.html",
+   "type": "city"
+  },
+  "6": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/oomoriminamihoikuen.html",
+   "type": "city"
+  },
+  "7": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/ohana-heiwajima.html",
+   "type": "city"
+  },
+  "8": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/globalkids-omori.html",
+   "type": "city"
+  },
+  "9": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/kuritsu/oomorinishihoikuen.html",
+   "type": "city"
+  },
+  "10": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/ohayo_omori-nishi.html",
+   "type": "city"
+  },
+  "11": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/kuritsu/fujimibashihoikuen.html",
+   "type": "city"
+  },
+  "12": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/ohayo_omori-machi.html",
+   "type": "city"
+  },
+  "13": {
+   "url": "https://www.miratz.jp/operation/?id=1702029140-266950",
+   "type": "corp"
+  },
+  "14": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/oozora_omori-nishi.html",
+   "type": "city"
+  },
+  "15": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/ai-omorinishi.html",
+   "type": "city"
+  },
+  "16": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/kuritsu/oomorinishidainihoikuen.html",
+   "type": "city"
+  },
+  "17": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/berry-bear-omori-nishi.html",
+   "type": "city"
+  },
+  "19": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/soranoie.html",
+   "type": "city"
+  },
+  "20": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/kidsgarden-omori-ekimae.html",
+   "type": "city"
+  },
+  "21": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/oomoriekimaehoikuen.html",
+   "type": "city"
+  },
+  "22": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/egaonomori-omori-ekimae.html",
+   "type": "city"
+  },
+  "23": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/marypoppins_atreomori.html",
+   "type": "city"
+  },
+  "24": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/asukuoomori.html",
+   "type": "city"
+  },
+  "25": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/shimadahoikuen.html",
+   "type": "city"
+  },
+  "26": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/kuritsu/oomorikitahoikuen.html",
+   "type": "city"
+  },
+  "27": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/konoe-omori-kita.html",
+   "type": "city"
+  },
+  "28": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/oomorikitarokuchoumehoikuen.html",
+   "type": "city"
+  },
+  "29": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/heiwajima-sakurasaku.html",
+   "type": "city"
+  },
+  "30": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/kodomogaoka_omori-kita.html",
+   "type": "city"
+  },
+  "31": {
+   "url": "https://kodomogaoka.jp/nursery/heiwazima/",
+   "type": "corp"
+  },
+  "32": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/aiai-sanno.html",
+   "type": "city"
+  },
+  "33": {
+   "url": "https://www.kobato.net/omori/",
+   "type": "corp"
+  },
+  "34": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/haguuhagu-donki-adventure.html",
+   "type": "city"
+  },
+  "35": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/kuritsu/sannouhoikuen.html",
+   "type": "city"
+  },
+  "36": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/kodomogaoka_sannou.html",
+   "type": "city"
+  },
+  "37": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/kenpa_nishimagome.html",
+   "type": "city"
+  },
+  "38": {
+   "url": "https://yakult-kids.jp/hoikuen/nishimagome/",
+   "type": "corp"
+  },
+  "39": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/kidslabo-nishimagome-ekimae.html",
+   "type": "city"
+  },
+  "40": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/mirai-no-tree.html",
+   "type": "city"
+  },
+  "41": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/nijiiro_nishimagome.html",
+   "type": "city"
+  },
+  "42": {
+   "url": "https://kids-lab.co.jp/nishimagome-shokibo/",
+   "type": "corp"
+  },
+  "43": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/magome-cocowa.html",
+   "type": "city"
+  },
+  "44": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/globalmagome.html",
+   "type": "city"
+  },
+  "45": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/minnanoie.html",
+   "type": "city"
+  },
+  "46": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/minamimagomedainihoikuen.html",
+   "type": "city"
+  },
+  "47": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/minami-magome.html",
+   "type": "city"
+  },
+  "48": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/nijiiro_hoikuen_minami-magome.html",
+   "type": "city"
+  },
+  "49": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/nijiiro-minamimagome4.html",
+   "type": "city"
+  },
+  "50": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/konoe-minami-magome.html",
+   "type": "city"
+  },
+  "51": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/globalkiz_nisimagome.html",
+   "type": "city"
+  },
+  "52": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/berry-bear-nishi-magome.html",
+   "type": "city"
+  },
+  "53": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/nijiiro_hoikuen_minami-magome-2.html",
+   "type": "city"
+  },
+  "54": {
+   "url": "https://www.kobato.net/kitamagome/",
+   "type": "corp"
+  },
+  "55": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/gakken-magome.html",
+   "type": "city"
+  },
+  "56": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/kobato-snersery_naka-magome.html",
+   "type": "city"
+  },
+  "57": {
+   "url": "https://www.kidsgarden.co.jp/facility/magomeekimae/",
+   "type": "corp"
+  },
+  "58": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/nijiiro-nakamagome.html",
+   "type": "city"
+  },
+  "59": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/poppins-nersery_magome.html",
+   "type": "city"
+  },
+  "60": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/kuritsu/magomehoikuen.html",
+   "type": "city"
+  },
+  "61": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/minami-cocowa.html",
+   "type": "city"
+  },
+  "62": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/kuritsu/iriaraihoikuen.html",
+   "type": "city"
+  },
+  "63": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/nersery_araijuku.html",
+   "type": "city"
+  },
+  "64": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/sakura_hoikuen.html",
+   "type": "city"
+  },
+  "65": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/kuritsu/chuuou8choumehoikuen.html",
+   "type": "city"
+  },
+  "66": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/kirisatohoikuen.html",
+   "type": "city"
+  },
+  "67": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/ikegami-doronko.html",
+   "type": "city"
+  },
+  "68": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/miraiku-ikegami-2.html",
+   "type": "city"
+  },
+  "69": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/benesse-ikegami.html",
+   "type": "city"
+  },
+  "70": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/appleikegamihoikuen.html",
+   "type": "city"
+  },
+  "71": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/kenpaikegami.html",
+   "type": "city"
+  },
+  "72": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/kuritsu/ikegamidaisanhoikuen.html",
+   "type": "city"
+  },
+  "73": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/globalkids_ikegami.html",
+   "type": "city"
+  },
+  "74": {
+   "url": "https://ndc-lull.com/nursery-school-list/ikegami/",
+   "type": "corp"
+  },
+  "75": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/quolis-kids_ikegami.html",
+   "type": "city"
+  },
+  "76": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/mamizuikegami.html",
+   "type": "city"
+  },
+  "77": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/asukuikegamien.html",
+   "type": "city"
+  },
+  "78": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/miraiku-tokumochi.html",
+   "type": "city"
+  },
+  "79": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/ikegami.html",
+   "type": "city"
+  },
+  "80": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/ask-ontake.html",
+   "type": "city"
+  },
+  "81": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/quolis-kids_kugahara.html",
+   "type": "city"
+  },
+  "82": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/kitaminemachi_hoikuen.html",
+   "type": "city"
+  },
+  "83": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/kitaminemachi-dai2.html",
+   "type": "city"
+  },
+  "84": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/cherish-sakurazaka.html",
+   "type": "city"
+  },
+  "85": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/kuritsu/wakabahoikuen.html",
+   "type": "city"
+  },
+  "86": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/kuritsu/denenchoufuhoikuen.html",
+   "type": "city"
+  },
+  "87": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/miraiku-denenchofu-honcho.html",
+   "type": "city"
+  },
+  "88": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/denenchofu-sakurasaku.html",
+   "type": "city"
+  },
+  "89": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/bambini.html",
+   "type": "city"
+  },
+  "90": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/kuritsu/denenchoufunichoumehoikuen.html",
+   "type": "city"
+  },
+  "91": {
+   "url": "https://threecz.co.jp/service/nursery/nurserylist/carry-denenchofu/",
+   "type": "corp"
+  },
+  "92": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/kugahara-sakurasaku.html",
+   "type": "city"
+  },
+  "93": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/unoki-sakurasaku.html",
+   "type": "city"
+  },
+  "94": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/miraiku-unoki.html",
+   "type": "city"
+  },
+  "95": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/konoe-unoki.html",
+   "type": "city"
+  },
+  "96": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/kids_unoki.html",
+   "type": "city"
+  },
+  "97": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/globalkids-unoki.html",
+   "type": "city"
+  },
+  "98": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/tamadutsumi_hoikuen.html",
+   "type": "city"
+  },
+  "99": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/nijiiro_hoikuen_unoki.html",
+   "type": "city"
+  },
+  "100": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/kuritsu/chidorihoikuen.html",
+   "type": "city"
+  },
+  "101": {
+   "url": "https://ndc-lull.com/nursery-school-list/kugahara/",
+   "type": "corp"
+  },
+  "102": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/globalkids-tidorityou.html",
+   "type": "city"
+  },
+  "103": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/tidorisakura.html",
+   "type": "city"
+  },
+  "104": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/kugaharaharmony.html",
+   "type": "city"
+  },
+  "105": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/kuritsu/kugaharahoikuen.html",
+   "type": "city"
+  },
+  "106": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/ask_kugahara.html",
+   "type": "city"
+  },
+  "107": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/kodomo-mirai_kugahara.html",
+   "type": "city"
+  },
+  "108": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/asukuminamikugahara.html",
+   "type": "city"
+  },
+  "109": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/unokiimaizumi.html",
+   "type": "city"
+  },
+  "110": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/konoe-minamisenzoku.html",
+   "type": "city"
+  },
+  "111": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/senshinhoikuen.html",
+   "type": "city"
+  },
+  "112": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/nijiiro_hoikuen_ookayama.html",
+   "type": "city"
+  },
+  "113": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/kuritsu/senzokuhoikuen.html",
+   "type": "city"
+  },
+  "114": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/senzokuikehoikuen.html",
+   "type": "city"
+  },
+  "115": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/konoe-senzokuike.html",
+   "type": "city"
+  },
+  "116": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/kidslabo-senzoku.html",
+   "type": "city"
+  },
+  "117": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/quolis-kids_kita-senzoku.html",
+   "type": "city"
+  },
+  "119": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/benesse-nishi-magome.html",
+   "type": "city"
+  },
+  "120": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/kuritsu/nakaikegamihoikuen.html",
+   "type": "city"
+  },
+  "121": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/rakugakukan_naka-ikegami.html",
+   "type": "city"
+  },
+  "122": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/kasutanetto.html",
+   "type": "city"
+  },
+  "123": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/ishikawadai-sakurasaku.html",
+   "type": "city"
+  },
+  "124": {
+   "url": "https://kodomo.solasto-hoiku.com/nursery/konoe-ishikawadai/",
+   "type": "corp"
+  },
+  "125": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/kuritsu/yukigayahoikuen.html",
+   "type": "city"
+  },
+  "126": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/ureshii_minami-yukigaya.html",
+   "type": "city"
+  },
+  "127": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/benesseyukigaya.html",
+   "type": "city"
+  },
+  "128": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/kidslife-nursery_minami-yukigaya.html",
+   "type": "city"
+  },
+  "129": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/nijiiro_hoikuen_minami-yukigaya.html",
+   "type": "city"
+  },
+  "130": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/ask_yukigaya.html",
+   "type": "city"
+  },
+  "131": {
+   "url": "https://challengekids.info/enter-nursery/nurseries/yukigayaotsukaen_tokyo/",
+   "type": "corp"
+  },
+  "132": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/nagahara-sakurasaku.html",
+   "type": "city"
+  },
+  "133": {
+   "url": "https://challengekids.info/enter-nursery/nurseries/nagaharaen_tokyo/",
+   "type": "corp"
+  },
+  "134": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/bobinzu_nagahara.html",
+   "type": "city"
+  },
+  "135": {
+   "url": "https://www.senshukai-childcare.jp/hoikuen/facilities/kamiikedai.html",
+   "type": "corp"
+  },
+  "136": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/konoe-nagahara.html",
+   "type": "city"
+  },
+  "137": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/haguhagu-kids-senzokuike.html",
+   "type": "city"
+  },
+  "138": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/koikehoikuen.html",
+   "type": "city"
+  },
+  "139": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/globalkids-kamiikedai.html",
+   "type": "city"
+  },
+  "140": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/kamiikedai.html",
+   "type": "city"
+  },
+  "141": {
+   "url": "https://www.kobato.net/kamiikedai/",
+   "type": "corp"
+  },
+  "142": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/nakayoshihoikuen.html",
+   "type": "city"
+  },
+  "143": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/kuritsu/higashikoujiyahoikuen.html",
+   "type": "city"
+  },
+  "144": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/nisikoujiyasirohato_hoikuen.html",
+   "type": "city"
+  },
+  "145": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/kuritsu/koujiyahoikuen.html",
+   "type": "city"
+  },
+  "147": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/kuritsu/hamatakehoikuen.html",
+   "type": "city"
+  },
+  "148": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/nersery_koujiya.html",
+   "type": "city"
+  },
+  "149": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/kamata-hoiku-senmon_koujiya.html",
+   "type": "city"
+  },
+  "150": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/kamata-hoiku-senmon_kita-koujiya.html",
+   "type": "city"
+  },
+  "151": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/kuritsu/hanedahoikuen.html",
+   "type": "city"
+  },
+  "152": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/bentenbashi.html",
+   "type": "city"
+  },
+  "153": {
+   "url": "https://www.kanno.ac.jp/khhoikushitsu/",
+   "type": "corp"
+  },
+  "154": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/kuritsu/honhanedahoikuen.html",
+   "type": "city"
+  },
+  "155": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/kuritsu/haginakahoikuen.html",
+   "type": "city"
+  },
+  "156": {
+   "url": "https://www.miratz.jp/operation/?id=1553664598-411176",
+   "type": "corp"
+  },
+  "157": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/daisankamatahoikuen.html",
+   "type": "city"
+  },
+  "158": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/kamata-hoiku-higashirokugou.html",
+   "type": "city"
+  },
+  "159": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/kuritsu/shimodahoikuen.html",
+   "type": "city"
+  },
+  "160": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/globalkids-nishi-rokugou.html",
+   "type": "city"
+  },
+  "161": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/nishini.html",
+   "type": "city"
+  },
+  "162": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/sakurasaku-nishirokugou.html",
+   "type": "city"
+  },
+  "163": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/poppins-nersery_nishi-rokugou.html",
+   "type": "city"
+  },
+  "164": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/nijiironishirokugou.html",
+   "type": "city"
+  },
+  "165": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/kuritsu/midorihoikuen.html",
+   "type": "city"
+  },
+  "166": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/yoikonohoikuen.html",
+   "type": "city"
+  },
+  "167": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/kuritsu/izumohoikuen.html",
+   "type": "city"
+  },
+  "168": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/kuritsu/minamirokugouhoikuen.html",
+   "type": "city"
+  },
+  "169": {
+   "url": "https://kodomo.solasto-hoiku.com/nursery/konoe-zoshiki2/",
+   "type": "corp"
+  },
+  "170": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/kamata-hoiku-senmon_rokugou.html",
+   "type": "city"
+  },
+  "171": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/kanno-nakarokugo.html",
+   "type": "city"
+  },
+  "172": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/konoe-zoushiki.html",
+   "type": "city"
+  },
+  "173": {
+   "url": "https://kodomogaoka.jp/nursery/zoshiki/",
+   "type": "corp"
+  },
+  "174": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/globalkids-zoushiki.html",
+   "type": "city"
+  },
+  "175": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/takahata.html",
+   "type": "city"
+  },
+  "176": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/globalkids_rokugou.html",
+   "type": "city"
+  },
+  "177": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/ask-shimomaruko.html",
+   "type": "city"
+  },
+  "178": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/globalkids-musashi.html",
+   "type": "city"
+  },
+  "179": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/kuritsu/shimomarukohoikuen.html",
+   "type": "city"
+  },
+  "180": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/babystation_shimomaruko.html",
+   "type": "city"
+  },
+  "181": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/marukobabyhoikuen.html",
+   "type": "city"
+  },
+  "182": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/kidslabo-shimomaruko.html",
+   "type": "city"
+  },
+  "183": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/kodomogaoka_musashi-shinden.html",
+   "type": "city"
+  },
+  "184": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/berry-bear-omori-yaguchi.html",
+   "type": "city"
+  },
+  "185": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/kuritsu/yaguchidai2hoikuen.html",
+   "type": "city"
+  },
+  "186": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/imaizumihoikuen.html",
+   "type": "city"
+  },
+  "187": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/ohisamahoikuen.html",
+   "type": "city"
+  },
+  "188": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/kidslabo-hasunuma.html",
+   "type": "city"
+  },
+  "189": {
+   "url": "https://kodomogaoka.jp/nursery/higashiyaguchi/",
+   "type": "corp"
+  },
+  "190": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/kidslabo-yaguchi-watashi.html",
+   "type": "city"
+  },
+  "191": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/nijiiro_hoikuen_yaguchi-watashi.html",
+   "type": "city"
+  },
+  "192": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/tamagawahoikuen.html",
+   "type": "city"
+  },
+  "193": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/kuritsu/higashikamatahoikuen.html",
+   "type": "city"
+  },
+  "194": {
+   "url": "https://www.gakuhou-shibagakuen.com/en/kamata",
+   "type": "corp"
+  },
+  "195": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/egaonomori-kamata-ekimae.html",
+   "type": "city"
+  },
+  "196": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/dainikamatahoikuen.html",
+   "type": "city"
+  },
+  "197": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/leimond.html",
+   "type": "city"
+  },
+  "198": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/kuritsu/nishikamatahoikuen.html",
+   "type": "city"
+  },
+  "199": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/oozora_nishi-kamata-4.html",
+   "type": "city"
+  },
+  "200": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/kamataongakugakuenhoikuen2.html",
+   "type": "city"
+  },
+  "201": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/onnazukahoikuen.html",
+   "type": "city"
+  },
+  "202": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/kamataongakugakuenhoikuen.html",
+   "type": "city"
+  },
+  "203": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/aioihoikuen.html",
+   "type": "city"
+  },
+  "205": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/pocketland_nishikamata.html",
+   "type": "city"
+  },
+  "206": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/globalkids_kamata-2.html",
+   "type": "city"
+  },
+  "207": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/globalkids_kamatahigashi.html",
+   "type": "city"
+  },
+  "208": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/asukukamata.html",
+   "type": "city"
+  },
+  "209": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/kuritsu/honkamatahoikuen.html",
+   "type": "city"
+  },
+  "210": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/daiichikamatahoikuen.html",
+   "type": "city"
+  },
+  "211": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/ohayo_umeyashiki.html",
+   "type": "city"
+  },
+  "213": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/kidslabo-kamata.html",
+   "type": "city"
+  },
+  "214": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/kuritsu/kamatahonchouhoikuen.html",
+   "type": "city"
+  },
+  "215": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/aowao_kamata-honcho.html",
+   "type": "city"
+  },
+  "217": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/shiritsu/monica-yaguchinowatashi.html",
+   "type": "city"
+  },
+  "218": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/kuritsu/yaguchihoikuen.html",
+   "type": "city"
+  },
+  "219": {
+   "url": "https://yakult-kids.jp/hoikuen/shinkamata/",
+   "type": "corp"
+  },
+  "220": {
+   "url": "https://www.city.ota.tokyo.jp/shisetsu/hoikuen/kuritsu/shinkamatahoikuen.html",
+   "type": "city"
+  }
+ }
+}
