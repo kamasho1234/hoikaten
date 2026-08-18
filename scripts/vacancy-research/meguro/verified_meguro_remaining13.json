@@ -1,0 +1,119 @@
+[
+ {
+  "id": "ベリーベア―インターナショナル保育園八雲",
+  "name": "ベリーベア―インターナショナル保育園八雲",
+  "url": "https://www.city.meguro.tokyo.jp/hoiku/shisetsu/kyouikukosodate/beribeayakumo.html",
+  "type": "city",
+  "verdict": "verified",
+  "by": "name+geo",
+  "query": "目黒区サイトマップ(sitemap.xml 9,469URL)から施設ページを絞り込み、実アクセスでタイトル/表の氏名一致を確認。さらにページ記載の所在地を国土地理院ジオコーダで座標化し、CSVの緯度経度と照合(最大108m)。"
+ },
+ {
+  "id": "くれよん保育園　分園 (注記2)",
+  "name": "くれよん保育園　分園 (注記2)",
+  "url": "https://www.city.meguro.tokyo.jp/hoiku/shisetsu/kyouikukosodate/crayon.html",
+  "type": "city",
+  "verdict": "verified",
+  "by": "name+geo",
+  "query": "目黒区サイトマップ(sitemap.xml 9,469URL)から施設ページを絞り込み、実アクセスでタイトル/表の氏名一致を確認。さらにページ記載の所在地を国土地理院ジオコーダで座標化し、CSVの緯度経度と照合(最大108m)。"
+ },
+ {
+  "id": "げっこうはらこども園（長時間）",
+  "name": "げっこうはらこども園（長時間）",
+  "url": "https://www.city.meguro.tokyo.jp/gakkouunei/shisetsu/kyouikukosodate/gekkohara.html",
+  "type": "city",
+  "verdict": "verified",
+  "by": "name+geo",
+  "query": "目黒区サイトマップ(sitemap.xml 9,469URL)から施設ページを絞り込み、実アクセスでタイトル/表の氏名一致を確認。さらにページ記載の所在地を国土地理院ジオコーダで座標化し、CSVの緯度経度と照合(最大108m)。"
+ },
+ {
+  "id": "げっこうはらこども園（中時間）",
+  "name": "げっこうはらこども園（中時間）",
+  "url": "https://www.city.meguro.tokyo.jp/gakkouunei/shisetsu/kyouikukosodate/gekkohara.html",
+  "type": "city",
+  "verdict": "verified",
+  "by": "name+geo",
+  "query": "目黒区サイトマップ(sitemap.xml 9,469URL)から施設ページを絞り込み、実アクセスでタイトル/表の氏名一致を確認。さらにページ記載の所在地を国土地理院ジオコーダで座標化し、CSVの緯度経度と照合(最大108m)。"
+ },
+ {
+  "id": "みどりがおかこども園（長時間）",
+  "name": "みどりがおかこども園（長時間）",
+  "url": "https://www.city.meguro.tokyo.jp/gakkouunei/shisetsu/kyouikukosodate/yochienmidorigaoka.html",
+  "type": "city",
+  "verdict": "verified",
+  "by": "name+geo",
+  "query": "目黒区サイトマップ(sitemap.xml 9,469URL)から施設ページを絞り込み、実アクセスでタイトル/表の氏名一致を確認。さらにページ記載の所在地を国土地理院ジオコーダで座標化し、CSVの緯度経度と照合(最大108m)。"
+ },
+ {
+  "id": "みどりがおかこども園（中時間）",
+  "name": "みどりがおかこども園（中時間）",
+  "url": "https://www.city.meguro.tokyo.jp/gakkouunei/shisetsu/kyouikukosodate/yochienmidorigaoka.html",
+  "type": "city",
+  "verdict": "verified",
+  "by": "name+geo",
+  "query": "目黒区サイトマップ(sitemap.xml 9,469URL)から施設ページを絞り込み、実アクセスでタイトル/表の氏名一致を確認。さらにページ記載の所在地を国土地理院ジオコーダで座標化し、CSVの緯度経度と照合(最大108m)。"
+ },
+ {
+  "id": "Baby One（ベイビーワン）",
+  "name": "Baby One（ベイビーワン）",
+  "url": "https://www.city.meguro.tokyo.jp/hoikukeikaku/shisetsu/kyouikukosodate/babyone.html",
+  "type": "city",
+  "verdict": "verified",
+  "by": "name+geo",
+  "query": "目黒区サイトマップ(sitemap.xml 9,469URL)から施設ページを絞り込み、実アクセスでタイトル/表の氏名一致を確認。さらにページ記載の所在地を国土地理院ジオコーダで座標化し、CSVの緯度経度と照合(最大108m)。"
+ },
+ {
+  "id": "モニカ緑が丘園A（連携あり） (注記4)",
+  "name": "モニカ緑が丘園A（連携あり） (注記4)",
+  "url": "https://www.city.meguro.tokyo.jp/hoikukeikaku/shisetsu/kyouikukosodate/monica-midorigaoka.html",
+  "type": "city",
+  "verdict": "verified",
+  "by": "name+geo",
+  "query": "目黒区サイトマップ(sitemap.xml 9,469URL)から施設ページを絞り込み、実アクセスでタイトル/表の氏名一致を確認。さらにページ記載の所在地を国土地理院ジオコーダで座標化し、CSVの緯度経度と照合(最大108m)。"
+ },
+ {
+  "id": "モニカ緑が丘園B（連携なし） (注記4)",
+  "name": "モニカ緑が丘園B（連携なし） (注記4)",
+  "url": "https://www.city.meguro.tokyo.jp/hoikukeikaku/shisetsu/kyouikukosodate/monica-midorigaoka.html",
+  "type": "city",
+  "verdict": "verified",
+  "by": "name+geo",
+  "query": "目黒区サイトマップ(sitemap.xml 9,469URL)から施設ページを絞り込み、実アクセスでタイトル/表の氏名一致を確認。さらにページ記載の所在地を国土地理院ジオコーダで座標化し、CSVの緯度経度と照合(最大108m)。"
+ },
+ {
+  "id": "横山（家庭福祉員）",
+  "name": "横山（家庭福祉員）",
+  "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/hoikuennado/fukushiin.html",
+  "type": "city",
+  "verdict": "verified",
+  "by": "name+geo",
+  "query": "目黒区サイトマップ(sitemap.xml 9,469URL)から施設ページを絞り込み、実アクセスでタイトル/表の氏名一致を確認。さらにページ記載の所在地を国土地理院ジオコーダで座標化し、CSVの緯度経度と照合(最大108m)。"
+ },
+ {
+  "id": "東條（家庭福祉員）",
+  "name": "東條（家庭福祉員）",
+  "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/hoikuennado/fukushiin.html",
+  "type": "city",
+  "verdict": "verified",
+  "by": "name+geo",
+  "query": "目黒区サイトマップ(sitemap.xml 9,469URL)から施設ページを絞り込み、実アクセスでタイトル/表の氏名一致を確認。さらにページ記載の所在地を国土地理院ジオコーダで座標化し、CSVの緯度経度と照合(最大108m)。"
+ },
+ {
+  "id": "柏井（家庭福祉員）",
+  "name": "柏井（家庭福祉員）",
+  "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/hoikuennado/fukushiin.html",
+  "type": "city",
+  "verdict": "verified",
+  "by": "name+geo",
+  "query": "目黒区サイトマップ(sitemap.xml 9,469URL)から施設ページを絞り込み、実アクセスでタイトル/表の氏名一致を確認。さらにページ記載の所在地を国土地理院ジオコーダで座標化し、CSVの緯度経度と照合(最大108m)。"
+ },
+ {
+  "id": "川端（家庭福祉員）",
+  "name": "川端（家庭福祉員）",
+  "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/hoikuennado/fukushiin.html",
+  "type": "city",
+  "verdict": "verified",
+  "by": "name+geo",
+  "query": "目黒区サイトマップ(sitemap.xml 9,469URL)から施設ページを絞り込み、実アクセスでタイトル/表の氏名一致を確認。さらにページ記載の所在地を国土地理院ジオコーダで座標化し、CSVの緯度経度と照合(最大108m)。"
+ }
+]

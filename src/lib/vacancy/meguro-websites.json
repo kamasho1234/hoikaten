@@ -1,10 +1,14 @@
 {
  "municipalitySlug": "meguro",
  "note": "各施設の公式サイト。Web検索で特定し、URLへ実アクセスして施設名または電話番号の一致を確認したものだけを載せている。",
- "facilityCount": 105,
+ "facilityCount": 118,
  "sites": {
   "AIAI　NURSERY　祐天寺": {
    "url": "https://www.city.meguro.tokyo.jp/hoikukeikaku/shisetsu/kyouikukosodate/aiaihoikuen.html",
+   "type": "city"
+  },
+  "Baby One（ベイビーワン）": {
+   "url": "https://www.city.meguro.tokyo.jp/hoikukeikaku/shisetsu/kyouikukosodate/babyone.html",
    "type": "city"
   },
   "BUNBUN GARDEN 学芸大学園": {
@@ -139,12 +143,24 @@
    "url": "https://www.city.meguro.tokyo.jp/hoiku/shisetsu/kyouikukosodate/crayon.html",
    "type": "city"
   },
+  "くれよん保育園　分園 (注記2)": {
+   "url": "https://www.city.meguro.tokyo.jp/hoiku/shisetsu/kyouikukosodate/crayon.html",
+   "type": "city"
+  },
   "グローバルキッズ大岡山園": {
    "url": "https://www.city.meguro.tokyo.jp/hoiku/shisetsu/kyouikukosodate/gurobarukidsookayamaen.html",
    "type": "city"
   },
   "グローバルキッズ目黒園": {
    "url": "https://www.city.meguro.tokyo.jp/hoiku/shisetsu/kyouikukosodate/globalkids_meguroen.html",
+   "type": "city"
+  },
+  "げっこうはらこども園（中時間）": {
+   "url": "https://www.city.meguro.tokyo.jp/gakkouunei/shisetsu/kyouikukosodate/gekkohara.html",
+   "type": "city"
+  },
+  "げっこうはらこども園（長時間）": {
+   "url": "https://www.city.meguro.tokyo.jp/gakkouunei/shisetsu/kyouikukosodate/gekkohara.html",
    "type": "city"
   },
   "ここいく保育園碑文谷": {
@@ -223,6 +239,10 @@
    "url": "https://www.city.meguro.tokyo.jp/hoiku/shisetsu/kyouikukosodate/purely_megurominami_hoikuen.html",
    "type": "city"
   },
+  "ベリーベア―インターナショナル保育園八雲": {
+   "url": "https://www.city.meguro.tokyo.jp/hoiku/shisetsu/kyouikukosodate/beribeayakumo.html",
+   "type": "city"
+  },
   "ポピンズナーサリースクール洗足": {
    "url": "https://www.city.meguro.tokyo.jp/hoiku/shisetsu/kyouikukosodate/popinzunasarisukurusenzoku.html",
    "type": "city"
@@ -247,6 +267,14 @@
    "url": "https://www.city.meguro.tokyo.jp/hoiku/shisetsu/kyouikukosodate/yurarinshimomeguro.html",
    "type": "city"
   },
+  "みどりがおかこども園（中時間）": {
+   "url": "https://www.city.meguro.tokyo.jp/gakkouunei/shisetsu/kyouikukosodate/yochienmidorigaoka.html",
+   "type": "city"
+  },
+  "みどりがおかこども園（長時間）": {
+   "url": "https://www.city.meguro.tokyo.jp/gakkouunei/shisetsu/kyouikukosodate/yochienmidorigaoka.html",
+   "type": "city"
+  },
   "みらいく下目黒園": {
    "url": "https://www.city.meguro.tokyo.jp/hoiku/shisetsu/kyouikukosodate/miraikusimomeguroen.html",
    "type": "city"
@@ -257,6 +285,18 @@
   },
   "モニカ都立大園 (注記4)": {
    "url": "https://www.city.meguro.tokyo.jp/hoikukeikaku/shisetsu/kyouikukosodate/monikatoritsudai.html",
+   "type": "city"
+  },
+  "モニカ緑が丘園A（連携あり） (注記4)": {
+   "url": "https://www.city.meguro.tokyo.jp/hoikukeikaku/shisetsu/kyouikukosodate/monica-midorigaoka.html",
+   "type": "city"
+  },
+  "モニカ緑が丘園B（連携なし） (注記4)": {
+   "url": "https://www.city.meguro.tokyo.jp/hoikukeikaku/shisetsu/kyouikukosodate/monica-midorigaoka.html",
+   "type": "city"
+  },
+  "横山（家庭福祉員）": {
+   "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/hoikuennado/fukushiin.html",
    "type": "city"
   },
   "駒場保育園": {
@@ -285,6 +325,10 @@
   },
   "西小山すみれ保育園": {
    "url": "https://www.city.meguro.tokyo.jp/hoiku/shisetsu/kyouikukosodate/nishikoyamasumirehoikuen.html",
+   "type": "city"
+  },
+  "川端（家庭福祉員）": {
+   "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/hoikuennado/fukushiin.html",
    "type": "city"
   },
   "双葉の園ひがしやま保育園": {
@@ -335,8 +379,16 @@
    "url": "https://www.city.meguro.tokyo.jp/hoiku/shisetsu/kyouikukosodate/hoikuenhigashigaoka.html",
    "type": "city"
   },
+  "東條（家庭福祉員）": {
+   "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/hoikuennado/fukushiin.html",
+   "type": "city"
+  },
   "南保育園": {
    "url": "https://www.city.meguro.tokyo.jp/hoiku/shisetsu/kyouikukosodate/hoikuenminami.html",
+   "type": "city"
+  },
+  "柏井（家庭福祉員）": {
+   "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/hoikuennado/fukushiin.html",
    "type": "city"
   },
   "八雲保育園": {
