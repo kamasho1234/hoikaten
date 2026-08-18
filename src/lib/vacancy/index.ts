@@ -22,6 +22,7 @@ import kawasakiVacancy from "./kawasaki.json";
 import kawasakiWebsites from "./kawasaki-websites.json";
 import saitamaVacancy from "./saitama.json";
 import saitamaWebsites from "./saitama-websites.json";
+import otaVacancy from "./ota.json";
 
 export type {
   AgeSummary,
@@ -80,6 +81,8 @@ const registry: Record<string, VacancyDataset> = {
     saitamaVacancy as unknown as VacancyDataset,
     saitamaWebsites.sites
   ),
+  // 施設サイトのURLはまだ調べていない。集まったら withWebsites でつなぐ
+  ota: otaVacancy as unknown as VacancyDataset,
 };
 
 export function getVacancyData(slug: string): VacancyDataset | undefined {

@@ -4,6 +4,7 @@ name: 保育所空き状況の更新
 # 横浜市は毎月1日時点のデータだが掲載は数日遅れる（令和8年8月分は8月3日公開）。
 # 目黒区は月2回（1日ごろと20日ごろ）BODIKにCSVを登録する。
 # さいたま市は毎月1日時点のデータを1日（休日なら翌開庁日）に公開する。
+# 大田区は翌月の利用調整に使う欠員リストを月初に公開する（8月分は7月2日現在で、次回更新は8月3日）。
 # そのため日次で見に行き、データの時点が変わったときだけ更新する。
 # 取り込みスクリプトは想定と違う構造を検知すると exit 1 するため、
 # 失敗した場合は既存のJSONがそのまま残る（壊れたデータを公開しない）。
@@ -63,6 +64,11 @@ jobs:
         continue-on-error: true
         run: npm run vacancy:fetch:saitama
 
+      - name: 大田区を取り込む
+        id: ota
+        continue-on-error: true
+        run: npm run vacancy:fetch:ota
+
       # ここから下は失敗したらコミットしない（壊れたデータを公開しないため）
       - name: 型チェック
         run: npx tsc --noEmit
@@ -83,6 +89,7 @@ jobs:
               *meguro.json) MSG="$MSG 目黒区（$(node -p "require('./src/lib/vacancy/meguro.json').asOf")時点）" ;;
               *kawasaki.json) MSG="$MSG 川崎市（$(node -p "require('./src/lib/vacancy/kawasaki.json').asOf")時点）" ;;
               *saitama.json) MSG="$MSG さいたま市（$(node -p "require('./src/lib/vacancy/saitama.json').asOf")時点）" ;;
+              *ota.json) MSG="$MSG 大田区（$(node -p "require('./src/lib/vacancy/ota.json').asOf")時点）" ;;
             esac
           done
           git config user.name "github-actions[bot]"
@@ -93,12 +100,13 @@ jobs:
 
       # 取り込みに失敗した自治体があれば、更新自体は済ませたうえで失敗として通知する
       - name: 取り込みの結果を判定する
-        if: steps.yokohama.outcome == 'failure' || steps.meguro.outcome == 'failure' || steps.kawasaki.outcome == 'failure' || steps.saitama.outcome == 'failure'
+        if: steps.yokohama.outcome == 'failure' || steps.meguro.outcome == 'failure' || steps.kawasaki.outcome == 'failure' || steps.saitama.outcome == 'failure' || steps.ota.outcome == 'failure'
         run: |
           echo "取り込みに失敗した自治体があります:"
           echo "  横浜市: ${{ steps.yokohama.outcome }}"
           echo "  目黒区: ${{ steps.meguro.outcome }}"
           echo "  川崎市: ${{ steps.kawasaki.outcome }}"
           echo "  さいたま市: ${{ steps.saitama.outcome }}"
+          echo "  大田区: ${{ steps.ota.outcome }}"
           echo "公式サイトの構造が変わっていないか確認してください。"
           exit 1
