@@ -1,0 +1,935 @@
+{
+ "municipalitySlug": "suginami",
+ "note": "各施設の公式サイト。Web検索で特定し、URLへ実アクセスして施設名または電話番号の一致を確認したものだけを載せている。",
+ "facilityCount": 232,
+ "sites": {
+  "1101784": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14099.html",
+   "type": "city"
+  },
+  "1101791": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14116.html",
+   "type": "city"
+  },
+  "1101794": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14109.html",
+   "type": "city"
+  },
+  "1101797": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14119.html",
+   "type": "city"
+  },
+  "1101798": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14121.html",
+   "type": "city"
+  },
+  "1101802": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14103.html",
+   "type": "city"
+  },
+  "1101803": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14098.html",
+   "type": "city"
+  },
+  "1101804": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14096.html",
+   "type": "city"
+  },
+  "1101806": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14112.html",
+   "type": "city"
+  },
+  "1101807": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14114.html",
+   "type": "city"
+  },
+  "1101808": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14102.html",
+   "type": "city"
+  },
+  "1101809": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14105.html",
+   "type": "city"
+  },
+  "1101810": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14122.html",
+   "type": "city"
+  },
+  "1101811": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14113.html",
+   "type": "city"
+  },
+  "1101812": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14120.html",
+   "type": "city"
+  },
+  "1101813": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14097.html",
+   "type": "city"
+  },
+  "1101815": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14123.html",
+   "type": "city"
+  },
+  "1101816": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14107.html",
+   "type": "city"
+  },
+  "1101817": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14117.html",
+   "type": "city"
+  },
+  "1101818": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14106.html",
+   "type": "city"
+  },
+  "1101819": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14111.html",
+   "type": "city"
+  },
+  "1101820": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14095.html",
+   "type": "city"
+  },
+  "1101822": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14101.html",
+   "type": "city"
+  },
+  "1101823": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14110.html",
+   "type": "city"
+  },
+  "1101824": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14118.html",
+   "type": "city"
+  },
+  "1101825": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14108.html",
+   "type": "city"
+  },
+  "1101826": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14115.html",
+   "type": "city"
+  },
+  "1404707": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14310.html",
+   "type": "city"
+  },
+  "2101834": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14275.html",
+   "type": "city"
+  },
+  "2101835": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14258.html",
+   "type": "city"
+  },
+  "2101836": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14178.html",
+   "type": "city"
+  },
+  "2101837": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14190.html",
+   "type": "city"
+  },
+  "2101838": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14214.html",
+   "type": "city"
+  },
+  "2101839": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14195.html",
+   "type": "city"
+  },
+  "2101840": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14133.html",
+   "type": "city"
+  },
+  "2101841": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14213.html",
+   "type": "city"
+  },
+  "2101842": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14201.html",
+   "type": "city"
+  },
+  "2101845": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14205.html",
+   "type": "city"
+  },
+  "2101847": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14229.html",
+   "type": "city"
+  },
+  "2101849": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14276.html",
+   "type": "city"
+  },
+  "2101853": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14250.html",
+   "type": "city"
+  },
+  "2101854": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14194.html",
+   "type": "city"
+  },
+  "2101855": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14198.html",
+   "type": "city"
+  },
+  "2101856": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14230.html",
+   "type": "city"
+  },
+  "2101857": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14220.html",
+   "type": "city"
+  },
+  "2101858": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14202.html",
+   "type": "city"
+  },
+  "2101859": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14135.html",
+   "type": "city"
+  },
+  "2101860": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14141.html",
+   "type": "city"
+  },
+  "2101861": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14235.html",
+   "type": "city"
+  },
+  "2101863": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14237.html",
+   "type": "city"
+  },
+  "2101864": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14277.html",
+   "type": "city"
+  },
+  "2101865": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14264.html",
+   "type": "city"
+  },
+  "2101866": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14256.html",
+   "type": "city"
+  },
+  "2101867": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14179.html",
+   "type": "city"
+  },
+  "2101868": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14172.html",
+   "type": "city"
+  },
+  "2101869": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14143.html",
+   "type": "city"
+  },
+  "2101870": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14137.html",
+   "type": "city"
+  },
+  "2101871": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14228.html",
+   "type": "city"
+  },
+  "2101872": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14252.html",
+   "type": "city"
+  },
+  "2101873": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14272.html",
+   "type": "city"
+  },
+  "2101874": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14209.html",
+   "type": "city"
+  },
+  "2101875": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14224.html",
+   "type": "city"
+  },
+  "2101876": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14227.html",
+   "type": "city"
+  },
+  "2101877": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14161.html",
+   "type": "city"
+  },
+  "2101878": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14238.html",
+   "type": "city"
+  },
+  "2101879": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14128.html",
+   "type": "city"
+  },
+  "2101880": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14280.html",
+   "type": "city"
+  },
+  "2101881": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14132.html",
+   "type": "city"
+  },
+  "2101882": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14279.html",
+   "type": "city"
+  },
+  "2101883": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14153.html",
+   "type": "city"
+  },
+  "2101884": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14283.html",
+   "type": "city"
+  },
+  "2101885": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14182.html",
+   "type": "city"
+  },
+  "2101886": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14146.html",
+   "type": "city"
+  },
+  "2101887": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14130.html",
+   "type": "city"
+  },
+  "2101888": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14243.html",
+   "type": "city"
+  },
+  "2101889": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14199.html",
+   "type": "city"
+  },
+  "2101890": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14281.html",
+   "type": "city"
+  },
+  "2101891": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14274.html",
+   "type": "city"
+  },
+  "2101892": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14260.html",
+   "type": "city"
+  },
+  "2101893": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14129.html",
+   "type": "city"
+  },
+  "2101894": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14265.html",
+   "type": "city"
+  },
+  "2101895": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14226.html",
+   "type": "city"
+  },
+  "2101896": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14216.html",
+   "type": "city"
+  },
+  "2101897": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14245.html",
+   "type": "city"
+  },
+  "2101898": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14219.html",
+   "type": "city"
+  },
+  "2101899": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14139.html",
+   "type": "city"
+  },
+  "2101900": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14124.html",
+   "type": "city"
+  },
+  "2101901": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14261.html",
+   "type": "city"
+  },
+  "2101902": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14203.html",
+   "type": "city"
+  },
+  "2101903": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14242.html",
+   "type": "city"
+  },
+  "2101904": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14251.html",
+   "type": "city"
+  },
+  "2101905": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14177.html",
+   "type": "city"
+  },
+  "2101906": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14234.html",
+   "type": "city"
+  },
+  "2101907": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14142.html",
+   "type": "city"
+  },
+  "2101908": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14134.html",
+   "type": "city"
+  },
+  "2101909": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14268.html",
+   "type": "city"
+  },
+  "2101910": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14207.html",
+   "type": "city"
+  },
+  "2101911": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14186.html",
+   "type": "city"
+  },
+  "2101912": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14173.html",
+   "type": "city"
+  },
+  "2101913": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14218.html",
+   "type": "city"
+  },
+  "2101914": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14197.html",
+   "type": "city"
+  },
+  "2101915": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14166.html",
+   "type": "city"
+  },
+  "2101916": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14152.html",
+   "type": "city"
+  },
+  "2101917": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14286.html",
+   "type": "city"
+  },
+  "2101918": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14148.html",
+   "type": "city"
+  },
+  "2101920": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14267.html",
+   "type": "city"
+  },
+  "2101921": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14163.html",
+   "type": "city"
+  },
+  "2101922": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14282.html",
+   "type": "city"
+  },
+  "2101923": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14284.html",
+   "type": "city"
+  },
+  "2101924": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14211.html",
+   "type": "city"
+  },
+  "2101925": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14231.html",
+   "type": "city"
+  },
+  "2101926": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14208.html",
+   "type": "city"
+  },
+  "2101927": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14240.html",
+   "type": "city"
+  },
+  "2101928": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14223.html",
+   "type": "city"
+  },
+  "2101929": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14174.html",
+   "type": "city"
+  },
+  "2104774": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14136.html",
+   "type": "city"
+  },
+  "2104775": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14168.html",
+   "type": "city"
+  },
+  "2104776": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14189.html",
+   "type": "city"
+  },
+  "2104777": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14150.html",
+   "type": "city"
+  },
+  "2104778": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14222.html",
+   "type": "city"
+  },
+  "2104779": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14253.html",
+   "type": "city"
+  },
+  "2104780": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14154.html",
+   "type": "city"
+  },
+  "2104781": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14151.html",
+   "type": "city"
+  },
+  "2104782": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14159.html",
+   "type": "city"
+  },
+  "2104783": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14145.html",
+   "type": "city"
+  },
+  "2104784": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14193.html",
+   "type": "city"
+  },
+  "2104785": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14232.html",
+   "type": "city"
+  },
+  "2104786": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14246.html",
+   "type": "city"
+  },
+  "2104787": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14175.html",
+   "type": "city"
+  },
+  "2104788": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14212.html",
+   "type": "city"
+  },
+  "2104789": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14225.html",
+   "type": "city"
+  },
+  "2104790": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14254.html",
+   "type": "city"
+  },
+  "2104791": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14169.html",
+   "type": "city"
+  },
+  "2104792": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14210.html",
+   "type": "city"
+  },
+  "2104793": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14241.html",
+   "type": "city"
+  },
+  "2104794": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14206.html",
+   "type": "city"
+  },
+  "2104795": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14171.html",
+   "type": "city"
+  },
+  "2104796": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14149.html",
+   "type": "city"
+  },
+  "2104797": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14180.html",
+   "type": "city"
+  },
+  "2104798": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14126.html",
+   "type": "city"
+  },
+  "2104799": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14200.html",
+   "type": "city"
+  },
+  "2104800": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14249.html",
+   "type": "city"
+  },
+  "2104801": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14204.html",
+   "type": "city"
+  },
+  "2104802": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14162.html",
+   "type": "city"
+  },
+  "2104803": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14144.html",
+   "type": "city"
+  },
+  "2104804": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14183.html",
+   "type": "city"
+  },
+  "2104805": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14170.html",
+   "type": "city"
+  },
+  "2104806": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14157.html",
+   "type": "city"
+  },
+  "2104807": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14158.html",
+   "type": "city"
+  },
+  "2104808": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14138.html",
+   "type": "city"
+  },
+  "2104809": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14285.html",
+   "type": "city"
+  },
+  "2104911": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14147.html",
+   "type": "city"
+  },
+  "2104912": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14263.html",
+   "type": "city"
+  },
+  "2104913": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14167.html",
+   "type": "city"
+  },
+  "2104914": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14191.html",
+   "type": "city"
+  },
+  "2104915": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14192.html",
+   "type": "city"
+  },
+  "2104916": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14244.html",
+   "type": "city"
+  },
+  "2104917": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14185.html",
+   "type": "city"
+  },
+  "2104918": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14262.html",
+   "type": "city"
+  },
+  "2104919": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14278.html",
+   "type": "city"
+  },
+  "2104920": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14270.html",
+   "type": "city"
+  },
+  "2104921": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14269.html",
+   "type": "city"
+  },
+  "2104922": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14187.html",
+   "type": "city"
+  },
+  "2104923": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14165.html",
+   "type": "city"
+  },
+  "2104924": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14233.html",
+   "type": "city"
+  },
+  "2105227": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14259.html",
+   "type": "city"
+  },
+  "2105228": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14140.html",
+   "type": "city"
+  },
+  "2105229": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14271.html",
+   "type": "city"
+  },
+  "2105230": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14127.html",
+   "type": "city"
+  },
+  "2105231": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14257.html",
+   "type": "city"
+  },
+  "2105232": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14215.html",
+   "type": "city"
+  },
+  "2105233": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14217.html",
+   "type": "city"
+  },
+  "2105234": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14221.html",
+   "type": "city"
+  },
+  "2105235": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14236.html",
+   "type": "city"
+  },
+  "2105236": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14164.html",
+   "type": "city"
+  },
+  "2105237": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14184.html",
+   "type": "city"
+  },
+  "2105238": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14188.html",
+   "type": "city"
+  },
+  "2105239": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14156.html",
+   "type": "city"
+  },
+  "2105240": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14181.html",
+   "type": "city"
+  },
+  "2105241": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14176.html",
+   "type": "city"
+  },
+  "2105242": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14160.html",
+   "type": "city"
+  },
+  "2105550": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14248.html",
+   "type": "city"
+  },
+  "2105552": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14247.html",
+   "type": "city"
+  },
+  "2105553": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14125.html",
+   "type": "city"
+  },
+  "2105554": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14266.html",
+   "type": "city"
+  },
+  "2105555": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14155.html",
+   "type": "city"
+  },
+  "2105559": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14131.html",
+   "type": "city"
+  },
+  "2105802": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14196.html",
+   "type": "city"
+  },
+  "2105864": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14239.html",
+   "type": "city"
+  },
+  "2105865": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14255.html",
+   "type": "city"
+  },
+  "2106052": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14273.html",
+   "type": "city"
+  },
+  "2106180": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14104.html",
+   "type": "city"
+  },
+  "2404662": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14313.html",
+   "type": "city"
+  },
+  "2404666": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14307.html",
+   "type": "city"
+  },
+  "2404667": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14309.html",
+   "type": "city"
+  },
+  "2404668": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14308.html",
+   "type": "city"
+  },
+  "2404669": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14305.html",
+   "type": "city"
+  },
+  "2404671": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14304.html",
+   "type": "city"
+  },
+  "2404674": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14301.html",
+   "type": "city"
+  },
+  "2404675": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14298.html",
+   "type": "city"
+  },
+  "2404676": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14306.html",
+   "type": "city"
+  },
+  "2404677": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14303.html",
+   "type": "city"
+  },
+  "2404678": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14302.html",
+   "type": "city"
+  },
+  "2404679": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14292.html",
+   "type": "city"
+  },
+  "2404680": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14290.html",
+   "type": "city"
+  },
+  "2404681": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14294.html",
+   "type": "city"
+  },
+  "2404682": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14291.html",
+   "type": "city"
+  },
+  "2404683": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14296.html",
+   "type": "city"
+  },
+  "2404684": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14295.html",
+   "type": "city"
+  },
+  "2404685": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14297.html",
+   "type": "city"
+  },
+  "2404686": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14293.html",
+   "type": "city"
+  },
+  "2404687": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14299.html",
+   "type": "city"
+  },
+  "2404689": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14289.html",
+   "type": "city"
+  },
+  "2404690": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14312.html",
+   "type": "city"
+  },
+  "2404692": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14288.html",
+   "type": "city"
+  },
+  "2404693": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14311.html",
+   "type": "city"
+  },
+  "2406181": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14328.html",
+   "type": "city"
+  },
+  "2504695": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14325.html",
+   "type": "city"
+  },
+  "2504696": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14324.html",
+   "type": "city"
+  },
+  "2504697": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14323.html",
+   "type": "city"
+  },
+  "2504698": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14318.html",
+   "type": "city"
+  },
+  "2504699": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14320.html",
+   "type": "city"
+  },
+  "2504700": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14322.html",
+   "type": "city"
+  },
+  "2504701": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14319.html",
+   "type": "city"
+  },
+  "2504702": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14321.html",
+   "type": "city"
+  },
+  "2504703": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14316.html",
+   "type": "city"
+  },
+  "2504704": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14317.html",
+   "type": "city"
+  },
+  "2504706": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14315.html",
+   "type": "city"
+  },
+  "2704712": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14329.html",
+   "type": "city"
+  },
+  "2704713": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14330.html",
+   "type": "city"
+  },
+  "2704714": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14326.html",
+   "type": "city"
+  },
+  "2704715": {
+   "url": "https://www.city.suginami.tokyo.jp/s058/shisetsu/14327.html",
+   "type": "city"
+  }
+ }
+}
