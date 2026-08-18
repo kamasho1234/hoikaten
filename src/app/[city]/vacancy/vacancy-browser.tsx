@@ -367,6 +367,8 @@ function FacilityCard({
             {facility.site && (
               <span className="inline-block text-xs px-2 py-0.5 rounded-full bg-muted text-muted-foreground">
                 {SITE_LABELS[facility.site.type]}
+                {/* 足立区のようにリンク先がPDFの自治体がある。開く前に分かるようにする */}
+                {facility.site.url.toLowerCase().endsWith(".pdf") && "（PDF）"}
               </span>
             )}
           </div>
