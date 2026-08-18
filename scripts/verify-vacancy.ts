@@ -34,6 +34,7 @@ const EXPECTED: Record<
   kawasaki: { asOf: "2026-07-27", facilityCount: 579, vacancy: 1863 },
   saitama: { asOf: "2026-08-01", facilityCount: 543, vacancy: 1961 },
   ota: { asOf: "2026-07-02", facilityCount: 220, vacancy: 1092 },
+  adachi: { asOf: "2026-08-01", facilityCount: 256, vacancy: 988 },
 };
 
 const problems: string[] = [];
@@ -84,7 +85,8 @@ function check(slug: string) {
 
     // 区・施設類型のインデックス
     if (f.w === null || f.w === undefined) {
-      if (wardCount > 0) P(`${f.name}: 区が設定されていません（この自治体は区を持ちます）`);
+      // 一部の施設だけ区・地区が公表されていない自治体がある
+      // （足立区の私立認定こども園）。集計から外すだけで、問題としては扱わない
     } else if (f.w < 0 || f.w >= wardCount) {
       P(`${f.name}: 区のインデックスが範囲外です (${f.w})`);
     }
@@ -130,13 +132,21 @@ function check(slug: string) {
 
   if (data.wards.length > 0) {
     const byWard = summarizeByWard(data);
-    const wardFacilities = byWard.reduce((acc, w) => acc + w.facilityCount, 0);
+    const noWard = data.facilities.filter((f) => f.w === null || f.w === undefined);
+    const wardFacilities = byWard.reduce((acc, w) => acc + w.facilityCount, 0) + noWard.length;
     if (wardFacilities !== data.facilities.length) {
       P(`区別の施設数合計(${wardFacilities})が全施設数(${data.facilities.length})と一致しません`);
     }
-    const wardVacancy = byWard.reduce((acc, w) => acc + w.vacancy, 0);
+    const noWardVacancy = noWard.reduce(
+      (acc, f) => acc + (facilityVacancy(f, null) ?? 0),
+      0
+    );
+    const wardVacancy = byWard.reduce((acc, w) => acc + w.vacancy, 0) + noWardVacancy;
     if (wardVacancy !== total.vacancy) {
       P(`区別の空き合計(${wardVacancy})が全体(${total.vacancy})と一致しません`);
+    }
+    if (noWard.length > 0) {
+      notes.push(`${slug}: 区・地区が公表されていない施設が${noWard.length}件あります（地区別の表からは除外して表示）`);
     }
   }
   if ((data.categories?.length ?? 0) > 0) {

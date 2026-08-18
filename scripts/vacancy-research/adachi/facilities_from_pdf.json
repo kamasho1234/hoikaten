@@ -1,0 +1,2058 @@
+{
+ "asOf": "2026-08-01",
+ "sourceFiles": {
+  "認可等": "https://www.city.adachi.tokyo.jp/documents/69384/r809ninkashokibo.pdf",
+  "保育ママ": "https://www.city.adachi.tokyo.jp/documents/69384/202609mama.pdf",
+  "認定こども園": "https://www.city.adachi.tokyo.jp/documents/69384/r809kodomoen.pdf"
+ },
+ "facilities": [
+  {
+   "id": "アイグラン保育園千住大橋",
+   "name": "アイグラン保育園千住大橋",
+   "ward": "千住地域",
+   "category": "私立",
+   "capacity": 70,
+   "address": ""
+  },
+  {
+   "id": "アスク千住",
+   "name": "アスク千住",
+   "ward": "千住地域",
+   "category": "私立",
+   "capacity": 50,
+   "address": ""
+  },
+  {
+   "id": "インターナショナルうぃず千住曙町",
+   "name": "インターナショナルうぃず千住曙町",
+   "ward": "千住地域",
+   "category": "私立",
+   "capacity": 80,
+   "address": ""
+  },
+  {
+   "id": "うぃず千住大橋駅前",
+   "name": "うぃず千住大橋駅前",
+   "ward": "千住地域",
+   "category": "私立",
+   "capacity": 110,
+   "address": ""
+  },
+  {
+   "id": "北千住こども園",
+   "name": "北千住こども園",
+   "ward": "千住地域",
+   "category": "私立",
+   "capacity": 64,
+   "address": ""
+  },
+  {
+   "id": "北千住太陽",
+   "name": "北千住太陽",
+   "ward": "千住地域",
+   "category": "私立",
+   "capacity": 95,
+   "address": ""
+  },
+  {
+   "id": "北千住どろんこ",
+   "name": "北千住どろんこ",
+   "ward": "千住地域",
+   "category": "私立",
+   "capacity": 90,
+   "address": ""
+  },
+  {
+   "id": "北千住もみじの森",
+   "name": "北千住もみじの森",
+   "ward": "千住地域",
+   "category": "私立",
+   "capacity": 80,
+   "address": ""
+  },
+  {
+   "id": "キッズガーデン足立柳原",
+   "name": "キッズガーデン足立柳原",
+   "ward": "千住地域",
+   "category": "私立",
+   "capacity": 61,
+   "address": ""
+  },
+  {
+   "id": "キッズハーモニー・千住",
+   "name": "キッズハーモニー・千住",
+   "ward": "千住地域",
+   "category": "私立",
+   "capacity": 60,
+   "address": ""
+  },
+  {
+   "id": "クレアナーサリー千住大橋",
+   "name": "クレアナーサリー千住大橋",
+   "ward": "千住地域",
+   "category": "私立",
+   "capacity": 60,
+   "address": ""
+  },
+  {
+   "id": "ステラ千住ふたば",
+   "name": "ステラ千住ふたば",
+   "ward": "千住地域",
+   "category": "私立",
+   "capacity": 90,
+   "address": ""
+  },
+  {
+   "id": "せきや",
+   "name": "せきや",
+   "ward": "千住地域",
+   "category": "公民",
+   "capacity": 75,
+   "address": ""
+  },
+  {
+   "id": "千住",
+   "name": "千住",
+   "ward": "千住地域",
+   "category": "私立",
+   "capacity": 100,
+   "address": ""
+  },
+  {
+   "id": "千住あずま",
+   "name": "千住あずま",
+   "ward": "千住地域",
+   "category": "区立",
+   "capacity": 146,
+   "address": ""
+  },
+  {
+   "id": "たんぽぽ保育所北千住園",
+   "name": "たんぽぽ保育所北千住園",
+   "ward": "千住地域",
+   "category": "私立",
+   "capacity": 67,
+   "address": ""
+  },
+  {
+   "id": "帝京科学大学千住桜木",
+   "name": "帝京科学大学千住桜木",
+   "ward": "千住地域",
+   "category": "私立",
+   "capacity": 132,
+   "address": ""
+  },
+  {
+   "id": "日ノ出町",
+   "name": "日ノ出町",
+   "ward": "千住地域",
+   "category": "私立",
+   "capacity": 159,
+   "address": ""
+  },
+  {
+   "id": "まなびの森保育園関屋",
+   "name": "まなびの森保育園関屋",
+   "ward": "千住地域",
+   "category": "私立",
+   "capacity": 80,
+   "address": ""
+  },
+  {
+   "id": "まなびの森保育園千住大橋",
+   "name": "まなびの森保育園千住大橋",
+   "ward": "千住地域",
+   "category": "私立",
+   "capacity": 80,
+   "address": ""
+  },
+  {
+   "id": "緑町",
+   "name": "緑町",
+   "ward": "千住地域",
+   "category": "区立",
+   "capacity": 68,
+   "address": ""
+  },
+  {
+   "id": "元宿こども園",
+   "name": "元宿こども園",
+   "ward": "千住地域",
+   "category": "区立こ",
+   "capacity": null,
+   "address": ""
+  },
+  {
+   "id": "木下の保育園千住大橋",
+   "name": "木下の保育園千住大橋",
+   "ward": "千住地域",
+   "category": "小規模",
+   "capacity": 18,
+   "address": ""
+  },
+  {
+   "id": "メリーポピンズ北千住ルーム",
+   "name": "メリーポピンズ北千住ルーム",
+   "ward": "千住地域",
+   "category": "小規模",
+   "capacity": 15,
+   "address": ""
+  },
+  {
+   "id": "ちぐさ保育園カノン千住園",
+   "name": "ちぐさ保育園カノン千住園",
+   "ward": "千住地域",
+   "category": "小規模",
+   "capacity": 18,
+   "address": ""
+  },
+  {
+   "id": "AIAINURSERY高野",
+   "name": "AIAINURSERY高野",
+   "ward": "江北・興野・本木地域",
+   "category": "私立",
+   "capacity": 60,
+   "address": ""
+  },
+  {
+   "id": "アスク扇",
+   "name": "アスク扇",
+   "ward": "江北・興野・本木地域",
+   "category": "私立",
+   "capacity": 80,
+   "address": ""
+  },
+  {
+   "id": "足立しらゆり",
+   "name": "足立しらゆり",
+   "ward": "江北・興野・本木地域",
+   "category": "私立",
+   "capacity": 31,
+   "address": ""
+  },
+  {
+   "id": "扇こころ",
+   "name": "扇こころ",
+   "ward": "江北・興野・本木地域",
+   "category": "私立",
+   "capacity": 109,
+   "address": ""
+  },
+  {
+   "id": "大空と大地のなーさりぃ扇大橋園",
+   "name": "大空と大地のなーさりぃ扇大橋園",
+   "ward": "江北・興野・本木地域",
+   "category": "私立",
+   "capacity": 80,
+   "address": ""
+  },
+  {
+   "id": "興野",
+   "name": "興野",
+   "ward": "江北・興野・本木地域",
+   "category": "私立",
+   "capacity": 80,
+   "address": ""
+  },
+  {
+   "id": "興本",
+   "name": "興本",
+   "ward": "江北・興野・本木地域",
+   "category": "公民",
+   "capacity": 109,
+   "address": ""
+  },
+  {
+   "id": "上沼田",
+   "name": "上沼田",
+   "ward": "江北・興野・本木地域",
+   "category": "区立",
+   "capacity": 131,
+   "address": ""
+  },
+  {
+   "id": "キッズガーデン足立扇",
+   "name": "キッズガーデン足立扇",
+   "ward": "江北・興野・本木地域",
+   "category": "私立",
+   "capacity": 60,
+   "address": ""
+  },
+  {
+   "id": "キッズガーデン足立興野",
+   "name": "キッズガーデン足立興野",
+   "ward": "江北・興野・本木地域",
+   "category": "私立",
+   "capacity": 70,
+   "address": ""
+  },
+  {
+   "id": "江北",
+   "name": "江北",
+   "ward": "江北・興野・本木地域",
+   "category": "私立",
+   "capacity": 100,
+   "address": ""
+  },
+  {
+   "id": "江北すきっぷ",
+   "name": "江北すきっぷ",
+   "ward": "江北・興野・本木地域",
+   "category": "私立",
+   "capacity": 60,
+   "address": ""
+  },
+  {
+   "id": "まなびの森ココロット",
+   "name": "まなびの森ココロット",
+   "ward": "江北・興野・本木地域",
+   "category": "私立",
+   "capacity": 80,
+   "address": ""
+  },
+  {
+   "id": "さつき",
+   "name": "さつき",
+   "ward": "江北・興野・本木地域",
+   "category": "公民",
+   "capacity": 100,
+   "address": ""
+  },
+  {
+   "id": "新田",
+   "name": "新田",
+   "ward": "江北・興野・本木地域",
+   "category": "私立",
+   "capacity": 97,
+   "address": ""
+  },
+  {
+   "id": "新田おひさま",
+   "name": "新田おひさま",
+   "ward": "江北・興野・本木地域",
+   "category": "公民",
+   "capacity": 45,
+   "address": ""
+  },
+  {
+   "id": "新田さくら",
+   "name": "新田さくら",
+   "ward": "江北・興野・本木地域",
+   "category": "公民",
+   "capacity": 67,
+   "address": ""
+  },
+  {
+   "id": "新田わかば",
+   "name": "新田わかば",
+   "ward": "江北・興野・本木地域",
+   "category": "区立",
+   "capacity": 87,
+   "address": ""
+  },
+  {
+   "id": "西新井教会",
+   "name": "西新井教会",
+   "ward": "江北・興野・本木地域",
+   "category": "私立",
+   "capacity": 60,
+   "address": ""
+  },
+  {
+   "id": "西新井聖華",
+   "name": "西新井聖華",
+   "ward": "江北・興野・本木地域",
+   "category": "私立",
+   "capacity": 150,
+   "address": ""
+  },
+  {
+   "id": "にじいろ保育園江北",
+   "name": "にじいろ保育園江北",
+   "ward": "江北・興野・本木地域",
+   "category": "私立",
+   "capacity": 70,
+   "address": ""
+  },
+  {
+   "id": "まなびの森ヴィラ・ココロット",
+   "name": "まなびの森ヴィラ・ココロット",
+   "ward": "江北・興野・本木地域",
+   "category": "私立",
+   "capacity": 60,
+   "address": ""
+  },
+  {
+   "id": "三星",
+   "name": "三星",
+   "ward": "江北・興野・本木地域",
+   "category": "私立",
+   "capacity": 96,
+   "address": ""
+  },
+  {
+   "id": "宮城",
+   "name": "宮城",
+   "ward": "江北・興野・本木地域",
+   "category": "区立",
+   "capacity": 50,
+   "address": ""
+  },
+  {
+   "id": "本木",
+   "name": "本木",
+   "ward": "江北・興野・本木地域",
+   "category": "区立",
+   "capacity": 107,
+   "address": ""
+  },
+  {
+   "id": "本木東",
+   "name": "本木東",
+   "ward": "江北・興野・本木地域",
+   "category": "区立",
+   "capacity": 117,
+   "address": ""
+  },
+  {
+   "id": "新田あすか保育園",
+   "name": "新田あすか保育園",
+   "ward": "江北・興野・本木地域",
+   "category": "小規模",
+   "capacity": 15,
+   "address": ""
+  },
+  {
+   "id": "ぴっころきっず高野駅前",
+   "name": "ぴっころきっず高野駅前",
+   "ward": "江北・興野・本木地域",
+   "category": "小規模",
+   "capacity": 12,
+   "address": ""
+  },
+  {
+   "id": "青井",
+   "name": "青井",
+   "ward": "梅田・中央本町地域",
+   "category": "公民",
+   "capacity": 102,
+   "address": ""
+  },
+  {
+   "id": "青井おひさま",
+   "name": "青井おひさま",
+   "ward": "梅田・中央本町地域",
+   "category": "公民",
+   "capacity": 28,
+   "address": ""
+  },
+  {
+   "id": "明日葉保育園青井園",
+   "name": "明日葉保育園青井園",
+   "ward": "梅田・中央本町地域",
+   "category": "私立",
+   "capacity": 65,
+   "address": ""
+  },
+  {
+   "id": "足立梅島雲母",
+   "name": "足立梅島雲母",
+   "ward": "梅田・中央本町地域",
+   "category": "私立",
+   "capacity": 59,
+   "address": ""
+  },
+  {
+   "id": "足立さくらんぼ",
+   "name": "足立さくらんぼ",
+   "ward": "梅田・中央本町地域",
+   "category": "私立",
+   "capacity": 71,
+   "address": ""
+  },
+  {
+   "id": "足立ひまわり",
+   "name": "足立ひまわり",
+   "ward": "梅田・中央本町地域",
+   "category": "私立",
+   "capacity": 110,
+   "address": ""
+  },
+  {
+   "id": "いづみ",
+   "name": "いづみ",
+   "ward": "梅田・中央本町地域",
+   "category": "私立",
+   "capacity": 30,
+   "address": ""
+  },
+  {
+   "id": "梅田",
+   "name": "梅田",
+   "ward": "梅田・中央本町地域",
+   "category": "区立",
+   "capacity": 107,
+   "address": ""
+  },
+  {
+   "id": "うめだ「子供の家」",
+   "name": "うめだ「子供の家」",
+   "ward": "梅田・中央本町地域",
+   "category": "私立",
+   "capacity": 132,
+   "address": ""
+  },
+  {
+   "id": "エーワン梅島",
+   "name": "エーワン梅島",
+   "ward": "梅田・中央本町地域",
+   "category": "私立",
+   "capacity": 60,
+   "address": ""
+  },
+  {
+   "id": "キッズガーデン足立青井",
+   "name": "キッズガーデン足立青井",
+   "ward": "梅田・中央本町地域",
+   "category": "私立",
+   "capacity": 70,
+   "address": ""
+  },
+  {
+   "id": "高和",
+   "name": "高和",
+   "ward": "梅田・中央本町地域",
+   "category": "私立",
+   "capacity": 80,
+   "address": ""
+  },
+  {
+   "id": "五反野",
+   "name": "五反野",
+   "ward": "梅田・中央本町地域",
+   "category": "公民",
+   "capacity": 135,
+   "address": ""
+  },
+  {
+   "id": "子ひばり",
+   "name": "子ひばり",
+   "ward": "梅田・中央本町地域",
+   "category": "私立",
+   "capacity": 60,
+   "address": ""
+  },
+  {
+   "id": "島根",
+   "name": "島根",
+   "ward": "梅田・中央本町地域",
+   "category": "私立",
+   "capacity": 104,
+   "address": ""
+  },
+  {
+   "id": "親隣館",
+   "name": "親隣館",
+   "ward": "梅田・中央本町地域",
+   "category": "私立",
+   "capacity": 40,
+   "address": ""
+  },
+  {
+   "id": "聖華こうどう",
+   "name": "聖華こうどう",
+   "ward": "梅田・中央本町地域",
+   "category": "私立",
+   "capacity": 140,
+   "address": ""
+  },
+  {
+   "id": "たんぽぽ保育所西新井南園",
+   "name": "たんぽぽ保育所西新井南園",
+   "ward": "梅田・中央本町地域",
+   "category": "私立",
+   "capacity": 70,
+   "address": ""
+  },
+  {
+   "id": "ちゃいれっく西新井駅前",
+   "name": "ちゃいれっく西新井駅前",
+   "ward": "梅田・中央本町地域",
+   "category": "私立",
+   "capacity": 60,
+   "address": ""
+  },
+  {
+   "id": "中央本町",
+   "name": "中央本町",
+   "ward": "梅田・中央本町地域",
+   "category": "区立",
+   "capacity": 116,
+   "address": ""
+  },
+  {
+   "id": "中部ひまわり",
+   "name": "中部ひまわり",
+   "ward": "梅田・中央本町地域",
+   "category": "私立",
+   "capacity": 124,
+   "address": ""
+  },
+  {
+   "id": "西新井きらきら",
+   "name": "西新井きらきら",
+   "ward": "梅田・中央本町地域",
+   "category": "私立",
+   "capacity": 115,
+   "address": ""
+  },
+  {
+   "id": "にじいろ保育園梅島",
+   "name": "にじいろ保育園梅島",
+   "ward": "梅田・中央本町地域",
+   "category": "私立",
+   "capacity": 73,
+   "address": ""
+  },
+  {
+   "id": "バンビ保育園梅島園",
+   "name": "バンビ保育園梅島園",
+   "ward": "梅田・中央本町地域",
+   "category": "私立",
+   "capacity": 65,
+   "address": ""
+  },
+  {
+   "id": "ミアヘルサ保育園ひびき梅島",
+   "name": "ミアヘルサ保育園ひびき梅島",
+   "ward": "梅田・中央本町地域",
+   "category": "私立",
+   "capacity": 70,
+   "address": ""
+  },
+  {
+   "id": "ミアヘルサ保育園ひびき西新井",
+   "name": "ミアヘルサ保育園ひびき西新井",
+   "ward": "梅田・中央本町地域",
+   "category": "私立",
+   "capacity": 80,
+   "address": ""
+  },
+  {
+   "id": "やよい",
+   "name": "やよい",
+   "ward": "梅田・中央本町地域",
+   "category": "公民",
+   "capacity": 100,
+   "address": ""
+  },
+  {
+   "id": "木下の保育園五反野",
+   "name": "木下の保育園五反野",
+   "ward": "梅田・中央本町地域",
+   "category": "小規模",
+   "capacity": 12,
+   "address": ""
+  },
+  {
+   "id": "ＳＡＫＵＲＡ保育園西新井",
+   "name": "ＳＡＫＵＲＡ保育園西新井",
+   "ward": "梅田・中央本町地域",
+   "category": "小規模",
+   "capacity": 17,
+   "address": ""
+  },
+  {
+   "id": "ステラ中央本町",
+   "name": "ステラ中央本町",
+   "ward": "梅田・中央本町地域",
+   "category": "小規模",
+   "capacity": 19,
+   "address": ""
+  },
+  {
+   "id": "デイジー保育園五反野",
+   "name": "デイジー保育園五反野",
+   "ward": "梅田・中央本町地域",
+   "category": "小規模",
+   "capacity": 19,
+   "address": ""
+  },
+  {
+   "id": "AIAINURSERY綾瀬六丁目",
+   "name": "AIAINURSERY綾瀬六丁目",
+   "ward": "綾瀬・佐野地域",
+   "category": "私立",
+   "capacity": 70,
+   "address": ""
+  },
+  {
+   "id": "AIAINURSERY北綾瀬",
+   "name": "AIAINURSERY北綾瀬",
+   "ward": "綾瀬・佐野地域",
+   "category": "私立",
+   "capacity": 60,
+   "address": ""
+  },
+  {
+   "id": "足立北綾瀬雲母",
+   "name": "足立北綾瀬雲母",
+   "ward": "綾瀬・佐野地域",
+   "category": "私立",
+   "capacity": 60,
+   "address": ""
+  },
+  {
+   "id": "足立若葉",
+   "name": "足立若葉",
+   "ward": "綾瀬・佐野地域",
+   "category": "私立",
+   "capacity": 96,
+   "address": ""
+  },
+  {
+   "id": "東",
+   "name": "東",
+   "ward": "綾瀬・佐野地域",
+   "category": "私立",
+   "capacity": 100,
+   "address": ""
+  },
+  {
+   "id": "あやせ",
+   "name": "あやせ",
+   "ward": "綾瀬・佐野地域",
+   "category": "区立",
+   "capacity": 130,
+   "address": ""
+  },
+  {
+   "id": "あやせババール園",
+   "name": "あやせババール園",
+   "ward": "綾瀬・佐野地域",
+   "category": "私立",
+   "capacity": 80,
+   "address": ""
+  },
+  {
+   "id": "大谷田第一",
+   "name": "大谷田第一",
+   "ward": "綾瀬・佐野地域",
+   "category": "区立",
+   "capacity": 126,
+   "address": ""
+  },
+  {
+   "id": "きたあやせこころ",
+   "name": "きたあやせこころ",
+   "ward": "綾瀬・佐野地域",
+   "category": "私立",
+   "capacity": 97,
+   "address": ""
+  },
+  {
+   "id": "北綾瀬聖華",
+   "name": "北綾瀬聖華",
+   "ward": "綾瀬・佐野地域",
+   "category": "私立",
+   "capacity": 140,
+   "address": ""
+  },
+  {
+   "id": "キッズガーデン足立綾瀬",
+   "name": "キッズガーデン足立綾瀬",
+   "ward": "綾瀬・佐野地域",
+   "category": "私立",
+   "capacity": 60,
+   "address": ""
+  },
+  {
+   "id": "恵・ＹＯＵ",
+   "name": "恵・ＹＯＵ",
+   "ward": "綾瀬・佐野地域",
+   "category": "私立",
+   "capacity": 69,
+   "address": ""
+  },
+  {
+   "id": "コンビプラザ東和三丁目",
+   "name": "コンビプラザ東和三丁目",
+   "ward": "綾瀬・佐野地域",
+   "category": "私立",
+   "capacity": 28,
+   "address": ""
+  },
+  {
+   "id": "神明町",
+   "name": "神明町",
+   "ward": "綾瀬・佐野地域",
+   "category": "私立",
+   "capacity": 100,
+   "address": ""
+  },
+  {
+   "id": "隅田学園",
+   "name": "隅田学園",
+   "ward": "綾瀬・佐野地域",
+   "category": "私立",
+   "capacity": 131,
+   "address": ""
+  },
+  {
+   "id": "聖母のさゆり",
+   "name": "聖母のさゆり",
+   "ward": "綾瀬・佐野地域",
+   "category": "私立",
+   "capacity": 74,
+   "address": ""
+  },
+  {
+   "id": "ソラストあだち東和",
+   "name": "ソラストあだち東和",
+   "ward": "綾瀬・佐野地域",
+   "category": "私立",
+   "capacity": 63,
+   "address": ""
+  },
+  {
+   "id": "辰沼",
+   "name": "辰沼",
+   "ward": "綾瀬・佐野地域",
+   "category": "区立",
+   "capacity": 107,
+   "address": ""
+  },
+  {
+   "id": "チェリー",
+   "name": "チェリー",
+   "ward": "綾瀬・佐野地域",
+   "category": "私立",
+   "capacity": 100,
+   "address": ""
+  },
+  {
+   "id": "チェリッシュ綾瀬",
+   "name": "チェリッシュ綾瀬",
+   "ward": "綾瀬・佐野地域",
+   "category": "私立",
+   "capacity": 66,
+   "address": ""
+  },
+  {
+   "id": "ﾁｪﾘｯｼｭﾅｰｻﾘｰｽｸｰﾙやなか",
+   "name": "ﾁｪﾘｯｼｭﾅｰｻﾘｰｽｸｰﾙやなか",
+   "ward": "綾瀬・佐野地域",
+   "category": "私立",
+   "capacity": 70,
+   "address": ""
+  },
+  {
+   "id": "東部若葉",
+   "name": "東部若葉",
+   "ward": "綾瀬・佐野地域",
+   "category": "私立",
+   "capacity": 122,
+   "address": ""
+  },
+  {
+   "id": "東和",
+   "name": "東和",
+   "ward": "綾瀬・佐野地域",
+   "category": "私立",
+   "capacity": 100,
+   "address": ""
+  },
+  {
+   "id": "トレジャーキッズあやせ",
+   "name": "トレジャーキッズあやせ",
+   "ward": "綾瀬・佐野地域",
+   "category": "私立",
+   "capacity": 60,
+   "address": ""
+  },
+  {
+   "id": "ナーサリースクールいずみ大谷田",
+   "name": "ナーサリースクールいずみ大谷田",
+   "ward": "綾瀬・佐野地域",
+   "category": "私立",
+   "capacity": 114,
+   "address": ""
+  },
+  {
+   "id": "西綾瀬りりおっこ",
+   "name": "西綾瀬りりおっこ",
+   "ward": "綾瀬・佐野地域",
+   "category": "私立",
+   "capacity": 122,
+   "address": ""
+  },
+  {
+   "id": "にじいろ保育園綾瀬",
+   "name": "にじいろ保育園綾瀬",
+   "ward": "綾瀬・佐野地域",
+   "category": "私立",
+   "capacity": 79,
+   "address": ""
+  },
+  {
+   "id": "東綾瀬",
+   "name": "東綾瀬",
+   "ward": "綾瀬・佐野地域",
+   "category": "区立",
+   "capacity": 133,
+   "address": ""
+  },
+  {
+   "id": "東綾瀬きらきら",
+   "name": "東綾瀬きらきら",
+   "ward": "綾瀬・佐野地域",
+   "category": "私立",
+   "capacity": 100,
+   "address": ""
+  },
+  {
+   "id": "ＨＯＰＰＡ東和親水",
+   "name": "ＨＯＰＰＡ東和親水",
+   "ward": "綾瀬・佐野地域",
+   "category": "私立",
+   "capacity": 60,
+   "address": ""
+  },
+  {
+   "id": "未来っ子保育園北加平町園",
+   "name": "未来っ子保育園北加平町園",
+   "ward": "綾瀬・佐野地域",
+   "category": "私立",
+   "capacity": 66,
+   "address": ""
+  },
+  {
+   "id": "六木",
+   "name": "六木",
+   "ward": "綾瀬・佐野地域",
+   "category": "区立",
+   "capacity": 102,
+   "address": ""
+  },
+  {
+   "id": "おおやたこども園",
+   "name": "おおやたこども園",
+   "ward": "綾瀬・佐野地域",
+   "category": "区立こ",
+   "capacity": 76,
+   "address": ""
+  },
+  {
+   "id": "ＳＡＫＵＲＡ保育園綾瀬",
+   "name": "ＳＡＫＵＲＡ保育園綾瀬",
+   "ward": "綾瀬・佐野地域",
+   "category": "小規模",
+   "capacity": 19,
+   "address": ""
+  },
+  {
+   "id": "ステラ綾瀬",
+   "name": "ステラ綾瀬",
+   "ward": "綾瀬・佐野地域",
+   "category": "小規模",
+   "capacity": 19,
+   "address": ""
+  },
+  {
+   "id": "ぬくもりのおうち保育綾瀬園",
+   "name": "ぬくもりのおうち保育綾瀬園",
+   "ward": "綾瀬・佐野地域",
+   "category": "小規模",
+   "capacity": 19,
+   "address": ""
+  },
+  {
+   "id": "ぴっころきっず北綾瀬",
+   "name": "ぴっころきっず北綾瀬",
+   "ward": "綾瀬・佐野地域",
+   "category": "小規模",
+   "capacity": 16,
+   "address": ""
+  },
+  {
+   "id": "ＭＩＲＡＴＺ東和保育園",
+   "name": "ＭＩＲＡＴＺ東和保育園",
+   "ward": "綾瀬・佐野地域",
+   "category": "小規模",
+   "capacity": 19,
+   "address": ""
+  },
+  {
+   "id": "愛隣",
+   "name": "愛隣",
+   "ward": "保塚・六町・花畑・保木間・竹の塚地域",
+   "category": "私立",
+   "capacity": 30,
+   "address": ""
+  },
+  {
+   "id": "明日葉保育園保塚園",
+   "name": "明日葉保育園保塚園",
+   "ward": "保塚・六町・花畑・保木間・竹の塚地域",
+   "category": "私立",
+   "capacity": 60,
+   "address": ""
+  },
+  {
+   "id": "北保木間",
+   "name": "北保木間",
+   "ward": "保塚・六町・花畑・保木間・竹の塚地域",
+   "category": "区立",
+   "capacity": 75,
+   "address": ""
+  },
+  {
+   "id": "キッズガーデン足立島根",
+   "name": "キッズガーデン足立島根",
+   "ward": "保塚・六町・花畑・保木間・竹の塚地域",
+   "category": "私立",
+   "capacity": 60,
+   "address": ""
+  },
+  {
+   "id": "栗原つくし",
+   "name": "栗原つくし",
+   "ward": "保塚・六町・花畑・保木間・竹の塚地域",
+   "category": "私立",
+   "capacity": 140,
+   "address": ""
+  },
+  {
+   "id": "クレアナーサリー足立さくら園",
+   "name": "クレアナーサリー足立さくら園",
+   "ward": "保塚・六町・花畑・保木間・竹の塚地域",
+   "category": "私立",
+   "capacity": 73,
+   "address": ""
+  },
+  {
+   "id": "島根いちい",
+   "name": "島根いちい",
+   "ward": "保塚・六町・花畑・保木間・竹の塚地域",
+   "category": "私立",
+   "capacity": 110,
+   "address": ""
+  },
+  {
+   "id": "水神橋",
+   "name": "水神橋",
+   "ward": "保塚・六町・花畑・保木間・竹の塚地域",
+   "category": "公民",
+   "capacity": 101,
+   "address": ""
+  },
+  {
+   "id": "竹の塚",
+   "name": "竹の塚",
+   "ward": "保塚・六町・花畑・保木間・竹の塚地域",
+   "category": "公民",
+   "capacity": 130,
+   "address": ""
+  },
+  {
+   "id": "竹の塚北",
+   "name": "竹の塚北",
+   "ward": "保塚・六町・花畑・保木間・竹の塚地域",
+   "category": "公民",
+   "capacity": 117,
+   "address": ""
+  },
+  {
+   "id": "たんぽぽ保育所第二六町園",
+   "name": "たんぽぽ保育所第二六町園",
+   "ward": "保塚・六町・花畑・保木間・竹の塚地域",
+   "category": "私立",
+   "capacity": 76,
+   "address": ""
+  },
+  {
+   "id": "たんぽぽ保育所六町園",
+   "name": "たんぽぽ保育所六町園",
+   "ward": "保塚・六町・花畑・保木間・竹の塚地域",
+   "category": "私立",
+   "capacity": 70,
+   "address": ""
+  },
+  {
+   "id": "中島根",
+   "name": "中島根",
+   "ward": "保塚・六町・花畑・保木間・竹の塚地域",
+   "category": "区立",
+   "capacity": 141,
+   "address": ""
+  },
+  {
+   "id": "西保木間",
+   "name": "西保木間",
+   "ward": "保塚・六町・花畑・保木間・竹の塚地域",
+   "category": "区立",
+   "capacity": 84,
+   "address": ""
+  },
+  {
+   "id": "野のはな",
+   "name": "野のはな",
+   "ward": "保塚・六町・花畑・保木間・竹の塚地域",
+   "category": "私立",
+   "capacity": 77,
+   "address": ""
+  },
+  {
+   "id": "花畑桑袋",
+   "name": "花畑桑袋",
+   "ward": "保塚・六町・花畑・保木間・竹の塚地域",
+   "category": "区立",
+   "capacity": 66,
+   "address": ""
+  },
+  {
+   "id": "東栗原",
+   "name": "東栗原",
+   "ward": "保塚・六町・花畑・保木間・竹の塚地域",
+   "category": "私立",
+   "capacity": 73,
+   "address": ""
+  },
+  {
+   "id": "東花畑",
+   "name": "東花畑",
+   "ward": "保塚・六町・花畑・保木間・竹の塚地域",
+   "category": "区立",
+   "capacity": 85,
+   "address": ""
+  },
+  {
+   "id": "東保木間",
+   "name": "東保木間",
+   "ward": "保塚・六町・花畑・保木間・竹の塚地域",
+   "category": "公民",
+   "capacity": 102,
+   "address": ""
+  },
+  {
+   "id": "平野",
+   "name": "平野",
+   "ward": "保塚・六町・花畑・保木間・竹の塚地域",
+   "category": "区立",
+   "capacity": 91,
+   "address": ""
+  },
+  {
+   "id": "渕江",
+   "name": "渕江",
+   "ward": "保塚・六町・花畑・保木間・竹の塚地域",
+   "category": "私立",
+   "capacity": 37,
+   "address": ""
+  },
+  {
+   "id": "保木間",
+   "name": "保木間",
+   "ward": "保塚・六町・花畑・保木間・竹の塚地域",
+   "category": "区立",
+   "capacity": 141,
+   "address": ""
+  },
+  {
+   "id": "まなびの森保育園竹ノ塚",
+   "name": "まなびの森保育園竹ノ塚",
+   "ward": "保塚・六町・花畑・保木間・竹の塚地域",
+   "category": "私立",
+   "capacity": 80,
+   "address": ""
+  },
+  {
+   "id": "南保木間",
+   "name": "南保木間",
+   "ward": "保塚・六町・花畑・保木間・竹の塚地域",
+   "category": "区立",
+   "capacity": 80,
+   "address": ""
+  },
+  {
+   "id": "レイモンド花畑",
+   "name": "レイモンド花畑",
+   "ward": "保塚・六町・花畑・保木間・竹の塚地域",
+   "category": "私立",
+   "capacity": 170,
+   "address": ""
+  },
+  {
+   "id": "六町",
+   "name": "六町",
+   "ward": "保塚・六町・花畑・保木間・竹の塚地域",
+   "category": "私立",
+   "capacity": 100,
+   "address": ""
+  },
+  {
+   "id": "六町あづま",
+   "name": "六町あづま",
+   "ward": "保塚・六町・花畑・保木間・竹の塚地域",
+   "category": "私立",
+   "capacity": 123,
+   "address": ""
+  },
+  {
+   "id": "六町駅前",
+   "name": "六町駅前",
+   "ward": "保塚・六町・花畑・保木間・竹の塚地域",
+   "category": "私立",
+   "capacity": 90,
+   "address": ""
+  },
+  {
+   "id": "ＳＡＫＵＲＡ保育園竹の塚",
+   "name": "ＳＡＫＵＲＡ保育園竹の塚",
+   "ward": "保塚・六町・花畑・保木間・竹の塚地域",
+   "category": "小規模",
+   "capacity": 19,
+   "address": ""
+  },
+  {
+   "id": "ステラ竹の塚",
+   "name": "ステラ竹の塚",
+   "ward": "保塚・六町・花畑・保木間・竹の塚地域",
+   "category": "小規模",
+   "capacity": 19,
+   "address": ""
+  },
+  {
+   "id": "ぱんだ保育園六町園",
+   "name": "ぱんだ保育園六町園",
+   "ward": "保塚・六町・花畑・保木間・竹の塚地域",
+   "category": "小規模",
+   "capacity": 19,
+   "address": ""
+  },
+  {
+   "id": "ぴっころきっず保木間",
+   "name": "ぴっころきっず保木間",
+   "ward": "保塚・六町・花畑・保木間・竹の塚地域",
+   "category": "小規模",
+   "capacity": 19,
+   "address": ""
+  },
+  {
+   "id": "フレンドキッズランド竹の塚園",
+   "name": "フレンドキッズランド竹の塚園",
+   "ward": "保塚・六町・花畑・保木間・竹の塚地域",
+   "category": "小規模",
+   "capacity": 19,
+   "address": ""
+  },
+  {
+   "id": "Ｏｈａｎａ西新井保育園",
+   "name": "Ｏｈａｎａ西新井保育園",
+   "ward": "保塚・六町・花畑・保木間・竹の塚地域",
+   "category": "小規模",
+   "capacity": 15,
+   "address": ""
+  },
+  {
+   "id": "ＭＩＲＡＴＺ六町保育園",
+   "name": "ＭＩＲＡＴＺ六町保育園",
+   "ward": "保塚・六町・花畑・保木間・竹の塚地域",
+   "category": "小規模",
+   "capacity": 19,
+   "address": ""
+  },
+  {
+   "id": "i-（アイ）",
+   "name": "i-（アイ）",
+   "ward": "伊興・西新井・鹿浜・舎人地域",
+   "category": "私立",
+   "capacity": 99,
+   "address": ""
+  },
+  {
+   "id": "愛恵保育園にしあらい",
+   "name": "愛恵保育園にしあらい",
+   "ward": "伊興・西新井・鹿浜・舎人地域",
+   "category": "私立",
+   "capacity": 73,
+   "address": ""
+  },
+  {
+   "id": "アスクとねり",
+   "name": "アスクとねり",
+   "ward": "伊興・西新井・鹿浜・舎人地域",
+   "category": "私立",
+   "capacity": 65,
+   "address": ""
+  },
+  {
+   "id": "アスク舎人駅前",
+   "name": "アスク舎人駅前",
+   "ward": "伊興・西新井・鹿浜・舎人地域",
+   "category": "私立",
+   "capacity": 80,
+   "address": ""
+  },
+  {
+   "id": "アスク西新井",
+   "name": "アスク西新井",
+   "ward": "伊興・西新井・鹿浜・舎人地域",
+   "category": "私立",
+   "capacity": 70,
+   "address": ""
+  },
+  {
+   "id": "足立このみ",
+   "name": "足立このみ",
+   "ward": "伊興・西新井・鹿浜・舎人地域",
+   "category": "私立",
+   "capacity": 140,
+   "address": ""
+  },
+  {
+   "id": "伊興",
+   "name": "伊興",
+   "ward": "伊興・西新井・鹿浜・舎人地域",
+   "category": "区立",
+   "capacity": 108,
+   "address": ""
+  },
+  {
+   "id": "伊興大境",
+   "name": "伊興大境",
+   "ward": "伊興・西新井・鹿浜・舎人地域",
+   "category": "公民",
+   "capacity": 106,
+   "address": ""
+  },
+  {
+   "id": "伊興すみれ",
+   "name": "伊興すみれ",
+   "ward": "伊興・西新井・鹿浜・舎人地域",
+   "category": "私立",
+   "capacity": 139,
+   "address": ""
+  },
+  {
+   "id": "いりや第一",
+   "name": "いりや第一",
+   "ward": "伊興・西新井・鹿浜・舎人地域",
+   "category": "区立",
+   "capacity": 80,
+   "address": ""
+  },
+  {
+   "id": "いりや第二",
+   "name": "いりや第二",
+   "ward": "伊興・西新井・鹿浜・舎人地域",
+   "category": "区立",
+   "capacity": 80,
+   "address": ""
+  },
+  {
+   "id": "インターナショナルうぃず西新井（旧：うぃず西新井）",
+   "name": "インターナショナルうぃず西新井（旧：うぃず西新井）",
+   "ward": "伊興・西新井・鹿浜・舎人地域",
+   "category": "私立",
+   "capacity": 85,
+   "address": ""
+  },
+  {
+   "id": "加賀",
+   "name": "加賀",
+   "ward": "伊興・西新井・鹿浜・舎人地域",
+   "category": "区立",
+   "capacity": 102,
+   "address": ""
+  },
+  {
+   "id": "くりはら愛育",
+   "name": "くりはら愛育",
+   "ward": "伊興・西新井・鹿浜・舎人地域",
+   "category": "私立",
+   "capacity": 102,
+   "address": ""
+  },
+  {
+   "id": "ＳＡＫＵＲＡ保育園谷在家",
+   "name": "ＳＡＫＵＲＡ保育園谷在家",
+   "ward": "伊興・西新井・鹿浜・舎人地域",
+   "category": "私立",
+   "capacity": 100,
+   "address": ""
+  },
+  {
+   "id": "清水",
+   "name": "清水",
+   "ward": "伊興・西新井・鹿浜・舎人地域",
+   "category": "私立",
+   "capacity": 80,
+   "address": ""
+  },
+  {
+   "id": "ソラストたけのつか",
+   "name": "ソラストたけのつか",
+   "ward": "伊興・西新井・鹿浜・舎人地域",
+   "category": "私立",
+   "capacity": 87,
+   "address": ""
+  },
+  {
+   "id": "第三上沼田",
+   "name": "第三上沼田",
+   "ward": "伊興・西新井・鹿浜・舎人地域",
+   "category": "区立",
+   "capacity": 90,
+   "address": ""
+  },
+  {
+   "id": "太陽",
+   "name": "太陽",
+   "ward": "伊興・西新井・鹿浜・舎人地域",
+   "category": "私立",
+   "capacity": 108,
+   "address": ""
+  },
+  {
+   "id": "あーと＆えいごが好きになる保育園にしあらい",
+   "name": "あーと＆えいごが好きになる保育園にしあらい",
+   "ward": "伊興・西新井・鹿浜・舎人地域",
+   "category": "私立",
+   "capacity": 129,
+   "address": ""
+  },
+  {
+   "id": "聖",
+   "name": "聖",
+   "ward": "伊興・西新井・鹿浜・舎人地域",
+   "category": "私立",
+   "capacity": 100,
+   "address": ""
+  },
+  {
+   "id": "谷在家",
+   "name": "谷在家",
+   "ward": "伊興・西新井・鹿浜・舎人地域",
+   "category": "公民",
+   "capacity": 77,
+   "address": ""
+  },
+  {
+   "id": "鹿浜こども園",
+   "name": "鹿浜こども園",
+   "ward": "伊興・西新井・鹿浜・舎人地域",
+   "category": "区立こ",
+   "capacity": 76,
+   "address": ""
+  },
+  {
+   "id": "キングダム・キッズ鹿浜",
+   "name": "キングダム・キッズ鹿浜",
+   "ward": "伊興・西新井・鹿浜・舎人地域",
+   "category": "小規模",
+   "capacity": 12,
+   "address": ""
+  },
+  {
+   "id": "キングダム・キッズ西新井",
+   "name": "キングダム・キッズ西新井",
+   "ward": "伊興・西新井・鹿浜・舎人地域",
+   "category": "小規模",
+   "capacity": 19,
+   "address": ""
+  },
+  {
+   "id": "第２てのひら保育園",
+   "name": "第２てのひら保育園",
+   "ward": "伊興・西新井・鹿浜・舎人地域",
+   "category": "小規模",
+   "capacity": 19,
+   "address": ""
+  },
+  {
+   "id": "てのひら保育園",
+   "name": "てのひら保育園",
+   "ward": "伊興・西新井・鹿浜・舎人地域",
+   "category": "小規模",
+   "capacity": 19,
+   "address": ""
+  },
+  {
+   "id": "ぱんだ保育園西竹の塚園",
+   "name": "ぱんだ保育園西竹の塚園",
+   "ward": "伊興・西新井・鹿浜・舎人地域",
+   "category": "小規模",
+   "capacity": 19,
+   "address": ""
+  },
+  {
+   "id": "村岡尚子",
+   "name": "村岡尚子",
+   "ward": "千住地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 5,
+   "address": "千住中居町18-11-101"
+  },
+  {
+   "id": "福井律子",
+   "name": "福井律子",
+   "ward": "千住地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 2,
+   "address": "千住元町37-8-703"
+  },
+  {
+   "id": "川田香",
+   "name": "川田香",
+   "ward": "千住地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 2,
+   "address": "千住仲町18-14-1401"
+  },
+  {
+   "id": "佐藤幸江",
+   "name": "佐藤幸江",
+   "ward": "千住地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 2,
+   "address": "千住曙町40-1-428"
+  },
+  {
+   "id": "藤田オリエ",
+   "name": "藤田オリエ",
+   "ward": "千住地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 3,
+   "address": "柳原1-3-3"
+  },
+  {
+   "id": "沖元美子",
+   "name": "沖元美子",
+   "ward": "千住地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 5,
+   "address": "柳原2-34-7"
+  },
+  {
+   "id": "鈴木美由紀",
+   "name": "鈴木美由紀",
+   "ward": "千住地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 5,
+   "address": "日ノ出町14-2"
+  },
+  {
+   "id": "鈴木こまつ",
+   "name": "鈴木こまつ",
+   "ward": "千住地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 3,
+   "address": "日ノ出町24-6"
+  },
+  {
+   "id": "齋藤泰江",
+   "name": "齋藤泰江",
+   "ward": "江北・興野・本木地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 2,
+   "address": "江北3-42-2"
+  },
+  {
+   "id": "品田純子",
+   "name": "品田純子",
+   "ward": "江北・興野・本木地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 3,
+   "address": "西新井本町5-9-31"
+  },
+  {
+   "id": "下川ひとみ",
+   "name": "下川ひとみ",
+   "ward": "江北・興野・本木地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 5,
+   "address": "興野1-18-24-102"
+  },
+  {
+   "id": "安倍真美",
+   "name": "安倍真美",
+   "ward": "江北・興野・本木地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 4,
+   "address": "本木南町2-19"
+  },
+  {
+   "id": "青山磨記",
+   "name": "青山磨記",
+   "ward": "江北・興野・本木地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 3,
+   "address": "本木北町4-2"
+  },
+  {
+   "id": "川本美美",
+   "name": "川本美美",
+   "ward": "梅田・中央本町地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 5,
+   "address": "西新井栄町1-2-4"
+  },
+  {
+   "id": "大野ｼｪﾘｰｱﾝ",
+   "name": "大野ｼｪﾘｰｱﾝ",
+   "ward": "梅田・中央本町地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 5,
+   "address": "西新井栄町1-4-20-101"
+  },
+  {
+   "id": "樋原幸恵",
+   "name": "樋原幸恵",
+   "ward": "梅田・中央本町地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 3,
+   "address": "西新井栄町3-11-5"
+  },
+  {
+   "id": "辻麻美",
+   "name": "辻麻美",
+   "ward": "梅田・中央本町地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 3,
+   "address": "関原2-41-4"
+  },
+  {
+   "id": "川島千明",
+   "name": "川島千明",
+   "ward": "梅田・中央本町地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 2,
+   "address": "梅田2-24-12"
+  },
+  {
+   "id": "小野田惠理",
+   "name": "小野田惠理",
+   "ward": "梅田・中央本町地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 2,
+   "address": "梅島1-16-6"
+  },
+  {
+   "id": "佐藤幸子",
+   "name": "佐藤幸子",
+   "ward": "梅田・中央本町地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 3,
+   "address": "梅島2-37-2"
+  },
+  {
+   "id": "深澤真由美",
+   "name": "深澤真由美",
+   "ward": "梅田・中央本町地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 5,
+   "address": "梅島3-3-24-104"
+  },
+  {
+   "id": "長塚麻理子",
+   "name": "長塚麻理子",
+   "ward": "梅田・中央本町地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 2,
+   "address": "梅島3-19-22"
+  },
+  {
+   "id": "富樫眞由美",
+   "name": "富樫眞由美",
+   "ward": "梅田・中央本町地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 2,
+   "address": "青井1-8-1"
+  },
+  {
+   "id": "小山智美",
+   "name": "小山智美",
+   "ward": "梅田・中央本町地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 5,
+   "address": "青井2-15-27-102"
+  },
+  {
+   "id": "吉野陶子",
+   "name": "吉野陶子",
+   "ward": "梅田・中央本町地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 5,
+   "address": "青井2-30-10"
+  },
+  {
+   "id": "津村伊都子",
+   "name": "津村伊都子",
+   "ward": "梅田・中央本町地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 3,
+   "address": "青井6-25-23-103"
+  },
+  {
+   "id": "畑山伸恵",
+   "name": "畑山伸恵",
+   "ward": "梅田・中央本町地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 3,
+   "address": "中央本町3-10-25-105"
+  },
+  {
+   "id": "渋谷邦枝",
+   "name": "渋谷邦枝",
+   "ward": "綾瀬・佐野地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 3,
+   "address": "西綾瀬2-8-16"
+  },
+  {
+   "id": "熊谷淳子",
+   "name": "熊谷淳子",
+   "ward": "綾瀬・佐野地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 3,
+   "address": "西綾瀬3-21-20-101"
+  },
+  {
+   "id": "齊藤江利子",
+   "name": "齊藤江利子",
+   "ward": "綾瀬・佐野地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 4,
+   "address": "綾瀬5-20-18-101※移転予定"
+  },
+  {
+   "id": "鈴木幸子",
+   "name": "鈴木幸子",
+   "ward": "綾瀬・佐野地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 3,
+   "address": "綾瀬7-18-2-101"
+  },
+  {
+   "id": "上田優子",
+   "name": "上田優子",
+   "ward": "綾瀬・佐野地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 5,
+   "address": "東綾瀬2-11-1-8-101"
+  },
+  {
+   "id": "大森幸子",
+   "name": "大森幸子",
+   "ward": "綾瀬・佐野地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 5,
+   "address": "東和4-21-9"
+  },
+  {
+   "id": "大村浩美",
+   "name": "大村浩美",
+   "ward": "綾瀬・佐野地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 2,
+   "address": "谷中5-11-21"
+  },
+  {
+   "id": "眞山美容",
+   "name": "眞山美容",
+   "ward": "綾瀬・佐野地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 4,
+   "address": "大谷田3-12-23-1211"
+  },
+  {
+   "id": "北詰悦子",
+   "name": "北詰悦子",
+   "ward": "綾瀬・佐野地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 4,
+   "address": "東綾瀬2-6-3-103"
+  },
+  {
+   "id": "藤田圭子",
+   "name": "藤田圭子",
+   "ward": "綾瀬・佐野地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 3,
+   "address": "神明2-8-12"
+  },
+  {
+   "id": "鳥居智子",
+   "name": "鳥居智子",
+   "ward": "綾瀬・佐野地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 2,
+   "address": "中川2-17-7"
+  },
+  {
+   "id": "赤松恵",
+   "name": "赤松恵",
+   "ward": "綾瀬・佐野地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 5,
+   "address": "中川3-3-20-101"
+  },
+  {
+   "id": "清宮美紀",
+   "name": "清宮美紀",
+   "ward": "綾瀬・佐野地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 5,
+   "address": "中川4-8-3-101"
+  },
+  {
+   "id": "鶴町美輝",
+   "name": "鶴町美輝",
+   "ward": "綾瀬・佐野地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 5,
+   "address": "中川4-41-3-101"
+  },
+  {
+   "id": "田口ひろ子",
+   "name": "田口ひろ子",
+   "ward": "保塚・六町・花畑・保木間・竹の塚地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 3,
+   "address": "六町3-7-33"
+  },
+  {
+   "id": "佐藤志信",
+   "name": "佐藤志信",
+   "ward": "保塚・六町・花畑・保木間・竹の塚地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 2,
+   "address": "南花畑2-31-15-401"
+  },
+  {
+   "id": "前田美保子",
+   "name": "前田美保子",
+   "ward": "保塚・六町・花畑・保木間・竹の塚地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 4,
+   "address": "南花畑3-27-4"
+  },
+  {
+   "id": "平山奈穂子",
+   "name": "平山奈穂子",
+   "ward": "保塚・六町・花畑・保木間・竹の塚地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 5,
+   "address": "花畑3-12-8-103"
+  },
+  {
+   "id": "太田佐知子",
+   "name": "太田佐知子",
+   "ward": "保塚・六町・花畑・保木間・竹の塚地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 2,
+   "address": "花畑3-36-3"
+  },
+  {
+   "id": "冨田恵子",
+   "name": "冨田恵子",
+   "ward": "保塚・六町・花畑・保木間・竹の塚地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 4,
+   "address": "保木間1-18-7-101"
+  },
+  {
+   "id": "清水昌美",
+   "name": "清水昌美",
+   "ward": "保塚・六町・花畑・保木間・竹の塚地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 3,
+   "address": "保木間5-11-3"
+  },
+  {
+   "id": "梅津真帆",
+   "name": "梅津真帆",
+   "ward": "保塚・六町・花畑・保木間・竹の塚地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 5,
+   "address": "東保木間2-17-12-103"
+  },
+  {
+   "id": "大野真由美",
+   "name": "大野真由美",
+   "ward": "保塚・六町・花畑・保木間・竹の塚地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 5,
+   "address": "一ツ家3-19-10"
+  },
+  {
+   "id": "木村信子",
+   "name": "木村信子",
+   "ward": "保塚・六町・花畑・保木間・竹の塚地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 3,
+   "address": "平野3-20-21堀口方"
+  },
+  {
+   "id": "水嶋淳子",
+   "name": "水嶋淳子",
+   "ward": "保塚・六町・花畑・保木間・竹の塚地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 2,
+   "address": "島根2-33-6-102"
+  },
+  {
+   "id": "宮城明美",
+   "name": "宮城明美",
+   "ward": "保塚・六町・花畑・保木間・竹の塚地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 4,
+   "address": "西保木間4-13-8-411"
+  },
+  {
+   "id": "小倉由季子",
+   "name": "小倉由季子",
+   "ward": "保塚・六町・花畑・保木間・竹の塚地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 4,
+   "address": "保木間1-32-13-305"
+  },
+  {
+   "id": "渡邉みゆき",
+   "name": "渡邉みゆき",
+   "ward": "伊興・西新井・鹿浜・舎人地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 2,
+   "address": "西竹の塚1-11-2-909"
+  },
+  {
+   "id": "伊良皆京子",
+   "name": "伊良皆京子",
+   "ward": "伊興・西新井・鹿浜・舎人地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 2,
+   "address": "伊興本町2-2-43-201"
+  },
+  {
+   "id": "髙橋香",
+   "name": "髙橋香",
+   "ward": "伊興・西新井・鹿浜・舎人地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 3,
+   "address": "西伊興1-3-9"
+  },
+  {
+   "id": "長谷川裕子",
+   "name": "長谷川裕子",
+   "ward": "伊興・西新井・鹿浜・舎人地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 2,
+   "address": "西伊興2-9-5"
+  },
+  {
+   "id": "泉和代",
+   "name": "泉和代",
+   "ward": "伊興・西新井・鹿浜・舎人地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 5,
+   "address": "西伊興4-6-14太田方"
+  },
+  {
+   "id": "奥泉友紀",
+   "name": "奥泉友紀",
+   "ward": "伊興・西新井・鹿浜・舎人地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 5,
+   "address": "西伊興4-10-18"
+  },
+  {
+   "id": "尾白香織",
+   "name": "尾白香織",
+   "ward": "伊興・西新井・鹿浜・舎人地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 3,
+   "address": "西新井1-13-7"
+  },
+  {
+   "id": "藤原千春",
+   "name": "藤原千春",
+   "ward": "伊興・西新井・鹿浜・舎人地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 3,
+   "address": "西新井3-1-5"
+  },
+  {
+   "id": "吉田由紀子",
+   "name": "吉田由紀子",
+   "ward": "伊興・西新井・鹿浜・舎人地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 3,
+   "address": "伊興本町1-13-18-1-B※"
+  },
+  {
+   "id": "三井美穂",
+   "name": "三井美穂",
+   "ward": "伊興・西新井・鹿浜・舎人地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 2,
+   "address": "西新井6-17-1"
+  },
+  {
+   "id": "川人清美",
+   "name": "川人清美",
+   "ward": "伊興・西新井・鹿浜・舎人地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 2,
+   "address": "江北7-9-18"
+  },
+  {
+   "id": "藤浪七恵※(5)（木村真理）",
+   "name": "藤浪七恵※(5)（木村真理）",
+   "ward": "伊興・西新井・鹿浜・舎人地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": null,
+   "address": "鹿浜3-30-4-101"
+  },
+  {
+   "id": "舩橋志ま",
+   "name": "舩橋志ま",
+   "ward": "伊興・西新井・鹿浜・舎人地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 3,
+   "address": "鹿浜8-1-16"
+  },
+  {
+   "id": "森田純子",
+   "name": "森田純子",
+   "ward": "伊興・西新井・鹿浜・舎人地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 5,
+   "address": "谷在家1-1-15-102"
+  },
+  {
+   "id": "杉の子幼稚園",
+   "name": "杉の子幼稚園",
+   "ward": "",
+   "category": "私立認定こども園",
+   "capacity": null,
+   "address": ""
+  },
+  {
+   "id": "西新井幼稚園",
+   "name": "西新井幼稚園",
+   "ward": "",
+   "category": "私立認定こども園",
+   "capacity": null,
+   "address": ""
+  },
+  {
+   "id": "東京白百合幼稚園",
+   "name": "東京白百合幼稚園",
+   "ward": "",
+   "category": "私立認定こども園",
+   "capacity": null,
+   "address": ""
+  }
+ ]
+}
