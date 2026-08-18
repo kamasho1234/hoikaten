@@ -32,6 +32,7 @@ const EXPECTED: Record<
   yokohama: { asOf: "2026-08-01", facilityCount: 1242, vacancy: 3990, waiting: 13473 },
   meguro: { asOf: "2026-07-23", facilityCount: 118, vacancy: 871 },
   kawasaki: { asOf: "2026-07-27", facilityCount: 579, vacancy: 1863 },
+  saitama: { asOf: "2026-08-01", facilityCount: 543, vacancy: 1961 },
 };
 
 const problems: string[] = [];

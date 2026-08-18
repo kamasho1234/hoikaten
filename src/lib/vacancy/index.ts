@@ -20,6 +20,7 @@ import meguroVacancy from "./meguro.json";
 import meguroWebsites from "./meguro-websites.json";
 import kawasakiVacancy from "./kawasaki.json";
 import kawasakiWebsites from "./kawasaki-websites.json";
+import saitamaVacancy from "./saitama.json";
 
 export type {
   AgeSummary,
@@ -74,6 +75,8 @@ const registry: Record<string, VacancyDataset> = {
     kawasakiVacancy as unknown as VacancyDataset,
     kawasakiWebsites.sites
   ),
+  // 施設サイトのURLはまだ調べていない。集まったら withWebsites でつなぐ
+  saitama: saitamaVacancy as unknown as VacancyDataset,
 };
 
 export function getVacancyData(slug: string): VacancyDataset | undefined {
