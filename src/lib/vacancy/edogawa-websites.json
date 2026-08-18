@@ -1,0 +1,619 @@
+{
+ "municipalitySlug": "edogawa",
+ "note": "各施設の公式サイト。Web検索で特定し、URLへ実アクセスして施設名または電話番号の一致を確認したものだけを載せている。",
+ "facilityCount": 153,
+ "sites": {
+  "葛西地区①/たんぽぽ": {
+   "url": "http://www.nanohana-kai.or.jp/tanpopo/",
+   "type": "facility"
+  },
+  "葛西地区①/ふきのとう": {
+   "url": "http://www.fukinoto.ed.jp/",
+   "type": "facility"
+  },
+  "葛西地区①/宇喜田第二": {
+   "url": "https://www.city.edogawa.tokyo.jp/e048/kuseijoho/gaiyo/shisetsuguide/bunya/kosodate/hoikuen/ukita_2/index.html",
+   "type": "city"
+  },
+  "葛西地区①/宇喜田第二分園※３": {
+   "url": "https://www.city.edogawa.tokyo.jp/e048/kuseijoho/gaiyo/shisetsuguide/bunya/kosodate/hoikuen/ukita_2/index.html",
+   "type": "city"
+  },
+  "葛西地区①/葛西おひさま": {
+   "url": "https://edogawa-ohisama.or.jp/kasai-ohisama/",
+   "type": "facility"
+  },
+  "葛西地区①/葛西駅前さくら": {
+   "url": "https://sakura-kasai.com/",
+   "type": "facility"
+  },
+  "葛西地区①/葛西第二おひさま": {
+   "url": "http://edogawa-ohisama.or.jp/kasaidaini-ohisama/",
+   "type": "facility"
+  },
+  "葛西地区①/春江おひさま": {
+   "url": "http://edogawa-ohisama.or.jp/harue-ohisama/",
+   "type": "facility"
+  },
+  "葛西地区①/小島": {
+   "url": "https://www.city.edogawa.tokyo.jp/e048/kuseijoho/gaiyo/shisetsuguide/bunya/kosodate/hoikuen/kojima/index.html",
+   "type": "city"
+  },
+  "葛西地区①/新田": {
+   "url": "https://www.city.edogawa.tokyo.jp/e048/kuseijoho/gaiyo/shisetsuguide/bunya/kosodate/hoikuen/shinden/index.html",
+   "type": "city"
+  },
+  "葛西地区①/清新おひさま": {
+   "url": "https://edogawa-ohisama.or.jp/seishin-ohisama/",
+   "type": "facility"
+  },
+  "葛西地区①/清新第一※４": {
+   "url": "https://www.city.edogawa.tokyo.jp/e048/kuseijoho/gaiyo/shisetsuguide/bunya/kosodate/hoikuen/seishin_1/index.html",
+   "type": "city"
+  },
+  "葛西地区①/清新第三": {
+   "url": "https://www.city.edogawa.tokyo.jp/e048/kuseijoho/gaiyo/shisetsuguide/bunya/kosodate/hoikuen/seishin_3/index.html",
+   "type": "city"
+  },
+  "葛西地区①/西葛西おひさま": {
+   "url": "http://edogawa-ohisama.or.jp/nishikasai-ohisama/",
+   "type": "facility"
+  },
+  "葛西地区①/中葛西おひさま": {
+   "url": "https://edogawa-ohisama.or.jp/nakakasai-ohisama/",
+   "type": "facility"
+  },
+  "葛西地区①/東葛西": {
+   "url": "https://www.city.edogawa.tokyo.jp/e048/kuseijoho/gaiyo/shisetsuguide/bunya/kosodate/hoikuen/higashikasai/index.html",
+   "type": "city"
+  },
+  "葛西地区①/南葛西おひさま": {
+   "url": "http://edogawa-ohisama.or.jp/minamikasai-ohisama/",
+   "type": "facility"
+  },
+  "葛西地区①/白百合": {
+   "url": "http://www.shirayuri-creche.ed.jp/",
+   "type": "facility"
+  },
+  "葛西地区①/北葛西おひさま": {
+   "url": "https://edogawa-ohisama.or.jp/kitakasai-ohisama/",
+   "type": "facility"
+  },
+  "葛西地区①/堀江": {
+   "url": "https://www.city.edogawa.tokyo.jp/e048/kuseijoho/gaiyo/shisetsuguide/bunya/kosodate/hoikuen/horie/index.html",
+   "type": "city"
+  },
+  "葛西地区①/堀江第三": {
+   "url": "https://www.city.edogawa.tokyo.jp/e048/kuseijoho/gaiyo/shisetsuguide/bunya/kosodate/hoikuen/horie_3/index.html",
+   "type": "city"
+  },
+  "葛西地区①/堀江第二": {
+   "url": "https://www.city.edogawa.tokyo.jp/e048/kuseijoho/gaiyo/shisetsuguide/bunya/kosodate/hoikuen/horie_2/index.html",
+   "type": "city"
+  },
+  "葛西地区①/臨海第一": {
+   "url": "https://www.city.edogawa.tokyo.jp/e048/kuseijoho/gaiyo/shisetsuguide/bunya/kosodate/hoikuen/rinkai_1/index.html",
+   "type": "city"
+  },
+  "葛西地区①/臨海第二": {
+   "url": "https://www.city.edogawa.tokyo.jp/e048/kuseijoho/gaiyo/shisetsuguide/bunya/kosodate/hoikuen/rinkai_2/index.html",
+   "type": "city"
+  },
+  "葛西地区②/アスク東葛西": {
+   "url": "https://list.nihonhoiku.co.jp/nursery/detail/higashikasai/",
+   "type": "facility"
+  },
+  "葛西地区②/アスク東葛西第二": {
+   "url": "https://list.nihonhoiku.co.jp/nursery/detail/higashikasai2/",
+   "type": "facility"
+  },
+  "葛西地区②/かさい発みらい行きほいくえん": {
+   "url": "https://tokyojidokyokai.com/facility/kasai-mirai",
+   "type": "facility"
+  },
+  "葛西地区②/キッズラボ西葛西園": {
+   "url": "https://kids-lab.co.jp/",
+   "type": "facility"
+  },
+  "葛西地区②/キッズラボ東葛西園": {
+   "url": "https://kids-lab.co.jp/",
+   "type": "facility"
+  },
+  "葛西地区②/クオリスキッズ葛西": {
+   "url": "https://quolis-kids.com/123_kasai/",
+   "type": "facility"
+  },
+  "葛西地区②/グローバルキッズ宇喜田町園": {
+   "url": "http://www.gkids.co.jp/facilities/nursery_144.html",
+   "type": "facility"
+  },
+  "葛西地区②/グローバルキッズ南葛西園": {
+   "url": "http://www.gkids.co.jp/facilities/nursery_084.html",
+   "type": "facility"
+  },
+  "葛西地区②/このえ清新町": {
+   "url": "https://kodomo.solasto-hoiku.com/nursery/konoe-seishincho/",
+   "type": "facility"
+  },
+  "葛西地区②/サクラナーサリー": {
+   "url": "http://sakura-nursery.kids.coocan.jp/",
+   "type": "facility"
+  },
+  "葛西地区②/ちゃいれっく西葛西駅ビル": {
+   "url": "https://chilec.procare.co.jp/nishikasaieki/",
+   "type": "facility"
+  },
+  "葛西地区②/ナーサリールームベリーベアー西葛西": {
+   "url": "https://ness-corpo.co.jp/nursery/p_nishikasai/",
+   "type": "facility"
+  },
+  "葛西地区②/にじのいるか保育園南葛西": {
+   "url": "https://www.nijinoiruka.ed.jp/nursery/minamikasai/",
+   "type": "facility"
+  },
+  "葛西地区②/フロンティアキッズ葛西": {
+   "url": "https://www.futurefrontiers.co.jp/facility/nursery/kasai/",
+   "type": "facility"
+  },
+  "葛西地区②/ポピンズナーサリースクール中葛西": {
+   "url": "https://www.poppins.co.jp/educare/room-search/%E3%83%9D%E3%83%94%E3%83%B3%E3%82%BA%E3%83%8A%E3%83%BC%E3%82%B5%E3%83%AA%E3%83%BC%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E4%B8%AD%E8%91%9B%E8%A5%BF/",
+   "type": "facility"
+  },
+  "葛西地区②/宇喜田おひさま": {
+   "url": "http://edogawa-ohisama.or.jp/ukita-ohisama/",
+   "type": "facility"
+  },
+  "葛西地区②/葛西いろどり": {
+   "url": "https://kids-peace.jp/kasai.html",
+   "type": "facility"
+  },
+  "葛西地区②/葛西きらきら": {
+   "url": "https://www.starts-care.jp/kirakira_kasai/",
+   "type": "facility"
+  },
+  "葛西地区②/葛西大きなおうち": {
+   "url": "https://tokyojidokyokai.com/facility/kasai",
+   "type": "facility"
+  },
+  "葛西地区②/新田おひさま": {
+   "url": "http://edogawa-ohisama.or.jp/shinden-ohisama/",
+   "type": "facility"
+  },
+  "葛西地区②/清新第二おひさま": {
+   "url": "https://edogawa-ohisama.or.jp/seishindaini-ohisama/",
+   "type": "facility"
+  },
+  "葛西地区②/西葛西ちとせ": {
+   "url": "http://www.chitosek.or.jp/nishikasai/index-nishikasai.html",
+   "type": "facility"
+  },
+  "葛西地区②/太陽の子東葛西": {
+   "url": "http://www.kidslife-nursery.com/base/edogawa/higashikasai/",
+   "type": "facility"
+  },
+  "区立延長保育/小島": {
+   "url": "https://www.city.edogawa.tokyo.jp/e048/kuseijoho/gaiyo/shisetsuguide/bunya/kosodate/hoikuen/kojima/index.html",
+   "type": "city"
+  },
+  "区立延長保育/清新第一": {
+   "url": "https://www.city.edogawa.tokyo.jp/e048/kuseijoho/gaiyo/shisetsuguide/bunya/kosodate/hoikuen/seishin_1/index.html",
+   "type": "city"
+  },
+  "区立延長保育/船堀第二": {
+   "url": "https://www.city.edogawa.tokyo.jp/e048/kuseijoho/gaiyo/shisetsuguide/bunya/kosodate/hoikuen/funabori_2/index.html",
+   "type": "city"
+  },
+  "区立延長保育/南篠崎": {
+   "url": "https://www.city.edogawa.tokyo.jp/e048/kuseijoho/gaiyo/shisetsuguide/bunya/kosodate/hoikuen/minamishinozaki/index.html",
+   "type": "city"
+  },
+  "区立延長保育/南平井": {
+   "url": "https://www.city.edogawa.tokyo.jp/e048/kuseijoho/gaiyo/shisetsuguide/bunya/kosodate/hoikuen/minamihirai/index.html",
+   "type": "city"
+  },
+  "区立延長保育/堀江第二": {
+   "url": "https://www.city.edogawa.tokyo.jp/e048/kuseijoho/gaiyo/shisetsuguide/bunya/kosodate/hoikuen/horie_2/index.html",
+   "type": "city"
+  },
+  "鹿骨地区/Gakkenほいくえん篠崎": {
+   "url": "https://nursery.cocofump.co.jp/nursery/shinozaki/",
+   "type": "facility"
+  },
+  "鹿骨地区/タムスわんぱく篠崎": {
+   "url": "http://syunwakai.com/wanpakuhoikuen/",
+   "type": "facility"
+  },
+  "鹿骨地区/江戸川篠崎雲母": {
+   "url": "https://www.kirara-hoikuen.com/about/hoikuen/edogawashinozaki/",
+   "type": "facility"
+  },
+  "鹿骨地区/鹿骨おひさま": {
+   "url": "http://edogawa-ohisama.or.jp/shishibone-ohisama/",
+   "type": "facility"
+  },
+  "鹿骨地区/篠崎きらきら": {
+   "url": "https://www.starts-care.jp/kirakira_shinozaki/",
+   "type": "facility"
+  },
+  "鹿骨地区/新堀おひさま": {
+   "url": "http://edogawa-ohisama.or.jp/niihori-ohisama/",
+   "type": "facility"
+  },
+  "鹿骨地区/西篠崎おひさま": {
+   "url": "https://edogawa-ohisama.or.jp/nishishinozaki-ohisama/",
+   "type": "facility"
+  },
+  "小岩地区/「こころの花」ほいくえん小岩駅前": {
+   "url": "https://cocoro-hana.jp/koiwa.php",
+   "type": "facility"
+  },
+  "小岩地区/キッズガーデン南小岩": {
+   "url": "https://www.kidsgarden.co.jp/nursery/guide/minamikoiwa/",
+   "type": "facility"
+  },
+  "小岩地区/キッズガーデン北小岩": {
+   "url": "https://www.kidsgarden.co.jp/nursery/guide/kitakoiwa/",
+   "type": "facility"
+  },
+  "小岩地区/クオリスキッズ南小岩": {
+   "url": "https://quolis-kids.com/119_minamikoiwa/",
+   "type": "facility"
+  },
+  "小岩地区/タムスわんぱく東小岩": {
+   "url": "https://higashikoiwa-hoikuen.tums.jp/",
+   "type": "facility"
+  },
+  "小岩地区/つぼみ": {
+   "url": "http://tsubomihoikuen.com/",
+   "type": "facility"
+  },
+  "小岩地区/なでしこ": {
+   "url": "http://www.aikokugakuen.ac.jp/nadeshiko/",
+   "type": "facility"
+  },
+  "小岩地区/ベネッセ北小岩": {
+   "url": "https://hoiku.benesse-style-care.co.jp/facilities/area_tokyo/edogawa/h-kitakoiwa/",
+   "type": "facility"
+  },
+  "小岩地区/ベルカント": {
+   "url": "https://www.belcantokinderwelt.jp/",
+   "type": "facility"
+  },
+  "小岩地区/ルーテル": {
+   "url": "http://www.lutheran-koiwachurch.jp/",
+   "type": "facility"
+  },
+  "小岩地区/小岩": {
+   "url": "https://www.city.edogawa.tokyo.jp/e048/kuseijoho/gaiyo/shisetsuguide/bunya/kosodate/hoikuen/koiwa/index.html",
+   "type": "city"
+  },
+  "小岩地区/小岩みどり※２": {
+   "url": "https://koiwamidori.ed.jp/",
+   "type": "facility"
+  },
+  "小岩地区/小岩駅前みつばち": {
+   "url": "https://www.mitsubachi-hoikuen.com/",
+   "type": "facility"
+  },
+  "小岩地区/西小岩": {
+   "url": "https://www.city.edogawa.tokyo.jp/e048/kuseijoho/gaiyo/shisetsuguide/bunya/kosodate/hoikuen/nishikoiwa/index.html",
+   "type": "city"
+  },
+  "小岩地区/西小岩おひさま": {
+   "url": "http://edogawa-ohisama.or.jp/nishikoiwa-ohisama/",
+   "type": "facility"
+  },
+  "小岩地区/太陽の子東小岩": {
+   "url": "http://www.kidslife-nursery.com/base/edogawa/higashikoiwa/",
+   "type": "facility"
+  },
+  "小岩地区/太陽の子北小岩": {
+   "url": "http://www.kidslife-nursery.com/base/edogawa/kitakoiwa/",
+   "type": "facility"
+  },
+  "小岩地区/太陽の子北小岩第二": {
+   "url": "http://www.kidslife-nursery.com/base/edogawa/kitakoiwadai2/",
+   "type": "facility"
+  },
+  "小岩地区/東小岩おひさま": {
+   "url": "http://edogawa-ohisama.or.jp/higashikoiwa-ohisama/",
+   "type": "facility"
+  },
+  "小岩地区/南小岩": {
+   "url": "https://www.city.edogawa.tokyo.jp/e048/kuseijoho/gaiyo/shisetsuguide/bunya/kosodate/hoikuen/minamikoiwa/index.html",
+   "type": "city"
+  },
+  "小岩地区/白鳩": {
+   "url": "http://www.ans.co.jp/n/shirohatohoikuen/",
+   "type": "facility"
+  },
+  "小岩地区/富士見": {
+   "url": "https://fujimi-hoikuen.jimdofree.com/",
+   "type": "facility"
+  },
+  "小岩地区/北小岩おひさま": {
+   "url": "http://edogawa-ohisama.or.jp/kitakoiwa-ohisama/",
+   "type": "facility"
+  },
+  "小松川地区/クオリスキッズ平井": {
+   "url": "https://quolis-kids.com/121_hirai/?region=tokyo&ward=all",
+   "type": "facility"
+  },
+  "小松川地区/つくしんぼ": {
+   "url": "http://www.nanohana-kai.or.jp/tsukushinbo/",
+   "type": "facility"
+  },
+  "小松川地区/にじいろ平井": {
+   "url": "https://like-kd-nijiiro.jp/lp/hirai/",
+   "type": "facility"
+  },
+  "小松川地区/逆井": {
+   "url": "http://www.sakasai-hoikuen.com/",
+   "type": "facility"
+  },
+  "小松川地区/光徳": {
+   "url": "https://www.koutoku.ed.jp/",
+   "type": "facility"
+  },
+  "小松川地区/小松川おひさま": {
+   "url": "https://edogawa-ohisama.or.jp/komatsugawa-ohisama/",
+   "type": "facility"
+  },
+  "小松川地区/小松川第三※４": {
+   "url": "https://www.city.edogawa.tokyo.jp/e048/kuseijoho/gaiyo/shisetsuguide/bunya/kosodate/hoikuen/komatsugawa_3/index.html",
+   "type": "city"
+  },
+  "小松川地区/小松川第二": {
+   "url": "https://www.city.edogawa.tokyo.jp/e048/kuseijoho/gaiyo/shisetsuguide/bunya/kosodate/hoikuen/komatsugawa_2/index.html",
+   "type": "city"
+  },
+  "小松川地区/西平井": {
+   "url": "https://www.city.edogawa.tokyo.jp/e048/kuseijoho/gaiyo/shisetsuguide/bunya/kosodate/hoikuen/nishihirai/index.html",
+   "type": "city"
+  },
+  "小松川地区/南平井": {
+   "url": "https://www.city.edogawa.tokyo.jp/e048/kuseijoho/gaiyo/shisetsuguide/bunya/kosodate/hoikuen/minamihirai/index.html",
+   "type": "city"
+  },
+  "小松川地区/平井": {
+   "url": "https://www.city.edogawa.tokyo.jp/e048/kuseijoho/gaiyo/shisetsuguide/bunya/kosodate/hoikuen/hirai/index.html",
+   "type": "city"
+  },
+  "小松川地区/平井第二": {
+   "url": "https://www.city.edogawa.tokyo.jp/e048/kuseijoho/gaiyo/shisetsuguide/bunya/kosodate/hoikuen/hirai_2/index.html",
+   "type": "city"
+  },
+  "船堀地区/グローバルキッズ船堀園": {
+   "url": "http://www.gkids.co.jp/facilities/nursery_116.html",
+   "type": "facility"
+  },
+  "船堀地区/ソラスト船堀": {
+   "url": "https://solasto-hoiku.com/area/tokyo/hunaborihoikuen.html",
+   "type": "facility"
+  },
+  "船堀地区/タムスわんぱく船堀": {
+   "url": "https://syunwakai.com/funaboriwanpaku/",
+   "type": "facility"
+  },
+  "船堀地区/なつめ": {
+   "url": "http://natsume.littlestar.jp/",
+   "type": "facility"
+  },
+  "船堀地区/マリヤ": {
+   "url": "https://wakamiya-fk.com/mariya/index.html",
+   "type": "facility"
+  },
+  "船堀地区/みのりのわかば船堀分園※３": {
+   "url": "http://www.minorino.or.jp/",
+   "type": "facility"
+  },
+  "船堀地区/月映": {
+   "url": "http://www.tsukikage.ed.jp/",
+   "type": "facility"
+  },
+  "船堀地区/船堀": {
+   "url": "https://www.city.edogawa.tokyo.jp/e048/kuseijoho/gaiyo/shisetsuguide/bunya/kosodate/hoikuen/funabori/index.html",
+   "type": "city"
+  },
+  "船堀地区/船堀いろどり": {
+   "url": "https://kids-peace.jp/babypeace.html",
+   "type": "facility"
+  },
+  "船堀地区/船堀ちとせ": {
+   "url": "https://www.chitosek.or.jp/preschools/funabori",
+   "type": "facility"
+  },
+  "船堀地区/船堀第三": {
+   "url": "https://www.city.edogawa.tokyo.jp/e048/kuseijoho/gaiyo/shisetsuguide/bunya/kosodate/hoikuen/funabori_3/index.html",
+   "type": "city"
+  },
+  "船堀地区/船堀第二※６": {
+   "url": "https://www.city.edogawa.tokyo.jp/e048/kuseijoho/gaiyo/shisetsuguide/bunya/kosodate/hoikuen/funabori_2/index.html",
+   "type": "city"
+  },
+  "船堀地区/船堀中央": {
+   "url": "https://tokyojidokyokai.com/facility/funabori",
+   "type": "facility"
+  },
+  "中央地区/アスク西一之江": {
+   "url": "https://list.nihonhoiku.co.jp/nursery/detail/nishiichinoe/",
+   "type": "facility"
+  },
+  "中央地区/アゼリー": {
+   "url": "https://hoikuen.azalee.or.jp/",
+   "type": "facility"
+  },
+  "中央地区/グローバルキッズ松島園": {
+   "url": "https://www.gkids.co.jp/facilities/nursery_187.html",
+   "type": "facility"
+  },
+  "中央地区/タムスわんぱく一之江": {
+   "url": "https://ichinoe-hoikuen.tums.jp/",
+   "type": "facility"
+  },
+  "中央地区/にじいろ一之江": {
+   "url": "https://www.like-kd.co.jp/establishment/nijiiro/HPichinoe",
+   "type": "facility"
+  },
+  "中央地区/ピノキオ幼児舎ゆめのこ": {
+   "url": "http://www.yumenoko.net/",
+   "type": "facility"
+  },
+  "中央地区/ポピンズナーサリースクール一之江": {
+   "url": "https://www.poppins.co.jp/educare/room-search/ichinoe2/",
+   "type": "facility"
+  },
+  "中央地区/ほほえみ": {
+   "url": "http://misato-shirayuri.com/about.html#bookpage5",
+   "type": "facility"
+  },
+  "中央地区/ほほえみ保育園分園※３": {
+   "url": "http://misato-shirayuri.com/about.html#bookpage5",
+   "type": "facility"
+  },
+  "中央地区/まなびの森保育園一之江": {
+   "url": "http://kodomonomori.co.jp/ic/",
+   "type": "facility"
+  },
+  "中央地区/ミアヘルサ保育園ひびき一之江": {
+   "url": "https://www.merhalsa.jp/hoikuen/nursery/ichinoe/",
+   "type": "facility"
+  },
+  "中央地区/みのりのわかば東小松川本園※３": {
+   "url": "http://www.minorino.or.jp/",
+   "type": "facility"
+  },
+  "中央地区/ゆずりは": {
+   "url": "http://www.aiikukai.or.jp/yuzuriha/index.html",
+   "type": "facility"
+  },
+  "中央地区/わんぱくすまいる": {
+   "url": "https://wanpaku-smile.ed.jp/",
+   "type": "facility"
+  },
+  "中央地区/一之江": {
+   "url": "http://ichinoe-hoikuen.jp/",
+   "type": "facility"
+  },
+  "中央地区/一之江第一": {
+   "url": "https://www.city.edogawa.tokyo.jp/e048/kuseijoho/gaiyo/shisetsuguide/bunya/kosodate/hoikuen/ichinoe_1/index.html",
+   "type": "city"
+  },
+  "中央地区/江戸川中央ちとせ": {
+   "url": "http://www.chitosek.or.jp/edogawac/index-edogawac.html",
+   "type": "facility"
+  },
+  "中央地区/小鳩ナーサリースクール一之江": {
+   "url": "https://www.kobato.net/ichinoe/",
+   "type": "facility"
+  },
+  "中央地区/小鳩ナーサリースクール一之江分園※３": {
+   "url": "https://www.kobato.net/ichinoe/",
+   "type": "facility"
+  },
+  "中央地区/松江": {
+   "url": "https://www.city.edogawa.tokyo.jp/e048/kuseijoho/gaiyo/shisetsuguide/bunya/kosodate/hoikuen/matsue/index.html",
+   "type": "city"
+  },
+  "中央地区/松江おひさま": {
+   "url": "https://edogawa-ohisama.or.jp/matsue-ohisama/",
+   "type": "facility"
+  },
+  "中央地区/松島おひさま": {
+   "url": "https://edogawa-ohisama.or.jp/matsushima-ohisama/",
+   "type": "facility"
+  },
+  "中央地区/松本おひさま": {
+   "url": "https://edogawa-ohisama.or.jp/matsumoto-ohisama/",
+   "type": "facility"
+  },
+  "中央地区/西小松川": {
+   "url": "http://www.nishiho.ed.jp/",
+   "type": "facility"
+  },
+  "中央地区/善隣館": {
+   "url": "http://www.zenrinkan-h.ed.jp/",
+   "type": "facility"
+  },
+  "中央地区/大杉": {
+   "url": "https://www.city.edogawa.tokyo.jp/e048/kuseijoho/gaiyo/shisetsuguide/bunya/kosodate/hoikuen/oosugi/index.html",
+   "type": "city"
+  },
+  "中央地区/東小松川おひさま": {
+   "url": "http://edogawa-ohisama.or.jp/higashikomatsugawa-ohisama/",
+   "type": "facility"
+  },
+  "中央地区/南松島": {
+   "url": "https://www.city.edogawa.tokyo.jp/e048/kuseijoho/gaiyo/shisetsuguide/bunya/kosodate/hoikuen/minamimatsushima/index.html",
+   "type": "city"
+  },
+  "東部地区/Gakkenほいくえん瑞江": {
+   "url": "https://nursery.cocofump.co.jp/nursery/mizue/",
+   "type": "facility"
+  },
+  "東部地区/タムスわんぱく瑞江": {
+   "url": "https://mizue-hoikuen.tums.jp/",
+   "type": "facility"
+  },
+  "東部地区/なの花": {
+   "url": "http://www.nanohana-kai.or.jp/nanohana/",
+   "type": "facility"
+  },
+  "東部地区/まなびの森保育園瑞江": {
+   "url": "http://kodomonomori.co.jp/",
+   "type": "facility"
+  },
+  "東部地区/みどりの郷": {
+   "url": "http://e-houseikai.or.jp/midorinosato-hoikuen.html",
+   "type": "facility"
+  },
+  "東部地区/ゆずりは春江の森分園※３": {
+   "url": "https://www.yuzuriha-hoikuen.jp/about/",
+   "type": "facility"
+  },
+  "東部地区/江戸川": {
+   "url": "https://edogawa-hoikuen.com/",
+   "type": "facility"
+  },
+  "東部地区/江戸川二丁目※４": {
+   "url": "https://www.city.edogawa.tokyo.jp/e048/kuseijoho/gaiyo/shisetsuguide/bunya/kosodate/hoikuen/edogawa2chome/index.html",
+   "type": "city"
+  },
+  "東部地区/今井": {
+   "url": "https://www.city.edogawa.tokyo.jp/e048/kuseijoho/gaiyo/shisetsuguide/bunya/kosodate/hoikuen/imai/index.html",
+   "type": "city"
+  },
+  "東部地区/篠崎": {
+   "url": "https://www.shinozaki.ed.jp/shinozakihoikuen/",
+   "type": "facility"
+  },
+  "東部地区/篠崎ちとせ": {
+   "url": "http://www.chitosek.or.jp/shinozaki/index-shinozaki.html",
+   "type": "facility"
+  },
+  "東部地区/春江第二": {
+   "url": "https://www.city.edogawa.tokyo.jp/e048/kuseijoho/gaiyo/shisetsuguide/bunya/kosodate/hoikuen/haruedai2/index.html",
+   "type": "city"
+  },
+  "東部地区/瑞江ちとせ": {
+   "url": "https://www.chitosek.or.jp/mizue/index-mizue.html",
+   "type": "facility"
+  },
+  "東部地区/東篠崎": {
+   "url": "https://www.city.edogawa.tokyo.jp/e048/kuseijoho/gaiyo/shisetsuguide/bunya/kosodate/hoikuen/higashishinozaki/index.html",
+   "type": "city"
+  },
+  "東部地区/南篠崎": {
+   "url": "https://www.city.edogawa.tokyo.jp/e048/kuseijoho/gaiyo/shisetsuguide/bunya/kosodate/hoikuen/minamishinozaki/index.html",
+   "type": "city"
+  },
+  "東部地区/南篠崎おひさま": {
+   "url": "https://edogawa-ohisama.or.jp/minamishinozaki-ohisama/",
+   "type": "facility"
+  },
+  "東部地区/南篠崎第二": {
+   "url": "https://www.city.edogawa.tokyo.jp/e048/kuseijoho/gaiyo/shisetsuguide/bunya/kosodate/hoikuen/minamishinozakidai2/index.html",
+   "type": "city"
+  }
+ }
+}

@@ -113,6 +113,11 @@ def extract(path):
                                 "capacityTotal": pending["total"],
                                 "splitFive": i_five is not None,
                         }
+                        # 「(医療的ケア・障害児枠)」のように括弧で始まる行は、
+                        # 直前の施設に付く枠の説明であって独立した施設ではない
+                        if re.match(r"^[(（]", name):
+                            pending = None
+                            continue
                         # 表の末尾に「合計」行がある。地区の欄が「合計」になり、
                         # 施設名は直前の施設のものが残る。検算に使うので分けて持つ
                         if ward == "合計":
