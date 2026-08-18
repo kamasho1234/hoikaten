@@ -1,0 +1,871 @@
+{
+ "municipalitySlug": "setagaya",
+ "note": "各施設の公式サイト。Web検索で特定し、URLへ実アクセスして施設名または電話番号の一致を確認したものだけを載せている。",
+ "facilityCount": 216,
+ "sites": {
+  "烏山地域/いずみの園保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8864.html",
+   "type": "city"
+  },
+  "烏山地域/せたがや小鳥の森保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8857.html",
+   "type": "city"
+  },
+  "烏山地域/にじいろ保育園給田": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8872.html",
+   "type": "city"
+  },
+  "烏山地域/にじいろ保育園給田分園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8871.html",
+   "type": "city"
+  },
+  "烏山地域/ピノキオ幼児舎芦花保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8869.html",
+   "type": "city"
+  },
+  "烏山地域/メネス保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8876.html",
+   "type": "city"
+  },
+  "烏山地域/ラフ・クルー烏山保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8874.html",
+   "type": "city"
+  },
+  "烏山地域/ラフ・クルー烏山保育園分園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8875.html",
+   "type": "city"
+  },
+  "烏山地域/芦花そらいろ保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8866.html",
+   "type": "city"
+  },
+  "烏山地域/芦花の丘かたるぱ保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8868.html",
+   "type": "city"
+  },
+  "烏山地域/芦花保育園": {
+   "url": "https://www.city.setagaya.lg.jp/03047/8670.html",
+   "type": "city"
+  },
+  "烏山地域/烏山いちご保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8860.html",
+   "type": "city"
+  },
+  "烏山地域/烏山杉の子保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8855.html",
+   "type": "city"
+  },
+  "烏山地域/烏山保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8853.html",
+   "type": "city"
+  },
+  "烏山地域/烏山北保育園": {
+   "url": "https://www.city.setagaya.lg.jp/03049/8668.html",
+   "type": "city"
+  },
+  "烏山地域/烏山翼保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8862.html",
+   "type": "city"
+  },
+  "烏山地域/給田保育園": {
+   "url": "https://www.city.setagaya.lg.jp/03046/8673.html",
+   "type": "city"
+  },
+  "烏山地域/小さなおうち保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8859.html",
+   "type": "city"
+  },
+  "烏山地域/松沢保育園": {
+   "url": "https://www.city.setagaya.lg.jp/03022/8664.html",
+   "type": "city"
+  },
+  "烏山地域/上祖師谷南保育園": {
+   "url": "https://www.city.setagaya.lg.jp/03039/8667.html",
+   "type": "city"
+  },
+  "烏山地域/上祖師谷保育園": {
+   "url": "https://www.city.setagaya.lg.jp/03038/8666.html",
+   "type": "city"
+  },
+  "烏山地域/上北沢こぐま保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8863.html",
+   "type": "city"
+  },
+  "烏山地域/上北沢保育園": {
+   "url": "https://www.city.setagaya.lg.jp/03023/8665.html",
+   "type": "city"
+  },
+  "烏山地域/西之谷保育園": {
+   "url": "https://www.city.setagaya.lg.jp/03050/8672.html",
+   "type": "city"
+  },
+  "烏山地域/祖師谷保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8854.html",
+   "type": "city"
+  },
+  "烏山地域/祖師谷保育園分園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8856.html",
+   "type": "city"
+  },
+  "烏山地域/第二いちご保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8861.html",
+   "type": "city"
+  },
+  "烏山地域/南八幡山保育園": {
+   "url": "https://www.city.setagaya.lg.jp/03044/8671.html",
+   "type": "city"
+  },
+  "烏山地域/八幡山保育園": {
+   "url": "https://www.city.setagaya.lg.jp/03045/8669.html",
+   "type": "city"
+  },
+  "烏山地域/北烏山なごみ保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8858.html",
+   "type": "city"
+  },
+  "砧地域/AIAI NURSERY 祖師谷": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8831.html",
+   "type": "city"
+  },
+  "砧地域/YMCA保育園ねがい保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8848.html",
+   "type": "city"
+  },
+  "砧地域/えにっくす": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8873.html",
+   "type": "city"
+  },
+  "砧地域/にじいろ保育園千歳台": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8838.html",
+   "type": "city"
+  },
+  "砧地域/はあと保育園成城": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8842.html",
+   "type": "city"
+  },
+  "砧地域/はあと保育園成城喜多見分園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8844.html",
+   "type": "city"
+  },
+  "砧地域/ひだまり保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8823.html",
+   "type": "city"
+  },
+  "砧地域/ひなたの森保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8850.html",
+   "type": "city"
+  },
+  "砧地域/ひなたの森保育園分園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8852.html",
+   "type": "city"
+  },
+  "砧地域/フラヌール保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8841.html",
+   "type": "city"
+  },
+  "砧地域/フラヌール保育園分園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8845.html",
+   "type": "city"
+  },
+  "砧地域/もみの木保育園希望丘": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8847.html",
+   "type": "city"
+  },
+  "砧地域/岡本こもれび保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8828.html",
+   "type": "city"
+  },
+  "砧地域/喜多見バオバブ保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8824.html",
+   "type": "city"
+  },
+  "砧地域/喜多見保育園": {
+   "url": "https://www.city.setagaya.lg.jp/03052/8663.html",
+   "type": "city"
+  },
+  "砧地域/喜多見野の花保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8829.html",
+   "type": "city"
+  },
+  "砧地域/希望丘保育園": {
+   "url": "https://www.city.setagaya.lg.jp/03042/8659.html",
+   "type": "city"
+  },
+  "砧地域/砧保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8813.html",
+   "type": "city"
+  },
+  "砧地域/小梅保育園": {
+   "url": "https://www.city.setagaya.lg.jp/03051/8660.html",
+   "type": "city"
+  },
+  "砧地域/世田谷おとぎの森保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8830.html",
+   "type": "city"
+  },
+  "砧地域/世田谷つくしんぼ保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8821.html",
+   "type": "city"
+  },
+  "砧地域/世田谷ベアーズ": {
+   "url": "https://www.city.setagaya.lg.jp/02243/17999.html",
+   "type": "city"
+  },
+  "砧地域/成育しせい保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8820.html",
+   "type": "city"
+  },
+  "砧地域/成城つくしんぼ保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8826.html",
+   "type": "city"
+  },
+  "砧地域/生活クラブ保育園ぽむ・砧": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8843.html",
+   "type": "city"
+  },
+  "砧地域/生活クラブ保育園ぽむ・砧分園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8834.html",
+   "type": "city"
+  },
+  "砧地域/青い空保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8814.html",
+   "type": "city"
+  },
+  "砧地域/千歳なないろ保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8822.html",
+   "type": "city"
+  },
+  "砧地域/千歳保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8818.html",
+   "type": "city"
+  },
+  "砧地域/船橋東保育園": {
+   "url": "https://www.city.setagaya.lg.jp/03041/8658.html",
+   "type": "city"
+  },
+  "砧地域/祖師谷わかば保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8815.html",
+   "type": "city"
+  },
+  "砧地域/太陽の子めぐりさわ保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8825.html",
+   "type": "city"
+  },
+  "砧地域/太陽の子めぐりさわ保育園 分園太陽の子千歳台二丁目": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8840.html",
+   "type": "city"
+  },
+  "砧地域/太陽の子世田谷きぬた保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8836.html",
+   "type": "city"
+  },
+  "砧地域/太陽の子世田谷船橋保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8833.html",
+   "type": "city"
+  },
+  "砧地域/大蔵ふたば保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8816.html",
+   "type": "city"
+  },
+  "砧地域/大蔵保育園": {
+   "url": "https://www.city.setagaya.lg.jp/03054/8662.html",
+   "type": "city"
+  },
+  "砧地域/南大蔵保育園": {
+   "url": "https://www.city.setagaya.lg.jp/03053/8661.html",
+   "type": "city"
+  },
+  "砧地域/日本女子体育大学附属保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8851.html",
+   "type": "city"
+  },
+  "玉川地域/いずみ保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8776.html",
+   "type": "city"
+  },
+  "玉川地域/おひさま保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8812.html",
+   "type": "city"
+  },
+  "玉川地域/かほる保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8809.html",
+   "type": "city"
+  },
+  "玉川地域/キッド・ステイ世田谷南保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8796.html",
+   "type": "city"
+  },
+  "玉川地域/グリーンヒル奥沢保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8775.html",
+   "type": "city"
+  },
+  "玉川地域/グリーンヒル奥沢保育園 分園グリーンバレー等々力": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8781.html",
+   "type": "city"
+  },
+  "玉川地域/グリーンフィールド上野毛保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8785.html",
+   "type": "city"
+  },
+  "玉川地域/グリーンホーム東玉川保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8799.html",
+   "type": "city"
+  },
+  "玉川地域/コンビプラザ等々力保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8803.html",
+   "type": "city"
+  },
+  "玉川地域/さくらしんまち保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8772.html",
+   "type": "city"
+  },
+  "玉川地域/さくらの木保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8777.html",
+   "type": "city"
+  },
+  "玉川地域/スマイルキッズ桜新町保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8797.html",
+   "type": "city"
+  },
+  "玉川地域/せたがやこころ保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8788.html",
+   "type": "city"
+  },
+  "玉川地域/ナオミ保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8764.html",
+   "type": "city"
+  },
+  "玉川地域/ナオミ保育園分園ぶどうの木": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8773.html",
+   "type": "city"
+  },
+  "玉川地域/にじのこ保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8807.html",
+   "type": "city"
+  },
+  "玉川地域/ニチイキッズ深沢坂上保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8793.html",
+   "type": "city"
+  },
+  "玉川地域/ぴっころ保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8780.html",
+   "type": "city"
+  },
+  "玉川地域/ふかさわミル保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8789.html",
+   "type": "city"
+  },
+  "玉川地域/ふじみ保育園": {
+   "url": "https://www.city.setagaya.lg.jp/03034/8651.html",
+   "type": "city"
+  },
+  "玉川地域/ベネッセ桜新町保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8786.html",
+   "type": "city"
+  },
+  "玉川地域/ポピンズナーサリースクール 世田谷中町": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8790.html",
+   "type": "city"
+  },
+  "玉川地域/めぐみ保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8768.html",
+   "type": "city"
+  },
+  "玉川地域/ラフ・クルー駒沢保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8811.html",
+   "type": "city"
+  },
+  "玉川地域/わかな保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8767.html",
+   "type": "city"
+  },
+  "玉川地域/わらべうた桜新町保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8782.html",
+   "type": "city"
+  },
+  "玉川地域/わらべうた等々力保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8798.html",
+   "type": "city"
+  },
+  "玉川地域/奥沢保育園": {
+   "url": "https://www.city.setagaya.lg.jp/03028/8649.html",
+   "type": "city"
+  },
+  "玉川地域/玉川保育園": {
+   "url": "https://www.city.setagaya.lg.jp/03032/8654.html",
+   "type": "city"
+  },
+  "玉川地域/駒沢どろんこ保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8784.html",
+   "type": "city"
+  },
+  "玉川地域/駒沢わこう保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8805.html",
+   "type": "city"
+  },
+  "玉川地域/空の鳥保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8806.html",
+   "type": "city"
+  },
+  "玉川地域/空の鳥保育園分園りんごの木": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8778.html",
+   "type": "city"
+  },
+  "玉川地域/上用賀青い空保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8801.html",
+   "type": "city"
+  },
+  "玉川地域/上用賀青い空保育園分園森の家": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8779.html",
+   "type": "city"
+  },
+  "玉川地域/上用賀保育園": {
+   "url": "https://www.city.setagaya.lg.jp/03033/8650.html",
+   "type": "city"
+  },
+  "玉川地域/新町保育園": {
+   "url": "https://www.city.setagaya.lg.jp/03037/8655.html",
+   "type": "city"
+  },
+  "玉川地域/身延山保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8765.html",
+   "type": "city"
+  },
+  "玉川地域/身延山保育園分園さくら青空": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8766.html",
+   "type": "city"
+  },
+  "玉川地域/中町保育園": {
+   "url": "https://www.city.setagaya.lg.jp/03031/8656.html",
+   "type": "city"
+  },
+  "玉川地域/東玉川善隣保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8810.html",
+   "type": "city"
+  },
+  "玉川地域/等々力中央保育園": {
+   "url": "https://www.city.setagaya.lg.jp/03036/8657.html",
+   "type": "city"
+  },
+  "玉川地域/等々力保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8763.html",
+   "type": "city"
+  },
+  "玉川地域/等々力保育園分園このは": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8774.html",
+   "type": "city"
+  },
+  "玉川地域/南奥沢保育園": {
+   "url": "https://www.city.setagaya.lg.jp/03027/8648.html",
+   "type": "city"
+  },
+  "玉川地域/馬事公苑ひかり保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8791.html",
+   "type": "city"
+  },
+  "玉川地域/尾山台みどり保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8800.html",
+   "type": "city"
+  },
+  "玉川地域/尾山台保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8771.html",
+   "type": "city"
+  },
+  "玉川地域/用賀なのはな保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8769.html",
+   "type": "city"
+  },
+  "玉川地域/用賀なのはな保育園深沢分園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8770.html",
+   "type": "city"
+  },
+  "玉川地域/用賀みこころ保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8792.html",
+   "type": "city"
+  },
+  "玉川地域/用賀ルンビニ保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8802.html",
+   "type": "city"
+  },
+  "玉川地域/用賀保育園": {
+   "url": "https://www.city.setagaya.lg.jp/03035/8652.html",
+   "type": "city"
+  },
+  "世田谷地域/インターナショナル三軒茶屋えほん保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8707.html",
+   "type": "city"
+  },
+  "世田谷地域/おともだち・ララ保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8703.html",
+   "type": "city"
+  },
+  "世田谷地域/おともだち保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8676.html",
+   "type": "city"
+  },
+  "世田谷地域/おともだち保育園分園こまつなぎ": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8683.html",
+   "type": "city"
+  },
+  "世田谷地域/おともだち保育園分園こまどめ": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8677.html",
+   "type": "city"
+  },
+  "世田谷地域/オリービア保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8680.html",
+   "type": "city"
+  },
+  "世田谷地域/クラルテ保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8681.html",
+   "type": "city"
+  },
+  "世田谷地域/グローバルキッズ松陰神社駅前保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8725.html",
+   "type": "city"
+  },
+  "世田谷地域/さくらのその保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8687.html",
+   "type": "city"
+  },
+  "世田谷地域/さくらのその保育園分園つぼみ": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8712.html",
+   "type": "city"
+  },
+  "世田谷地域/つくし保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8716.html",
+   "type": "city"
+  },
+  "世田谷地域/つむぎ保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8722.html",
+   "type": "city"
+  },
+  "世田谷地域/ポピンズナーサリースクール経堂南": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8726.html",
+   "type": "city"
+  },
+  "世田谷地域/ミアヘルサ保育園ひびき上馬": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8689.html",
+   "type": "city"
+  },
+  "世田谷地域/もみの木保育園太子堂": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8688.html",
+   "type": "city"
+  },
+  "世田谷地域/よつば保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8708.html",
+   "type": "city"
+  },
+  "世田谷地域/ラフ・クルー経堂保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8691.html",
+   "type": "city"
+  },
+  "世田谷地域/わかくさ保育園": {
+   "url": "https://www.city.setagaya.lg.jp/03013/8634.html",
+   "type": "city"
+  },
+  "世田谷地域/わらべうた三宿保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8704.html",
+   "type": "city"
+  },
+  "世田谷地域/烏山杉の子保育園分園みなみ風": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8686.html",
+   "type": "city"
+  },
+  "世田谷地域/下馬鳩ぽっぽ保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8675.html",
+   "type": "city"
+  },
+  "世田谷地域/下馬鳩ぽっぽ保育園分園野の花園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8684.html",
+   "type": "city"
+  },
+  "世田谷地域/下馬保育園": {
+   "url": "https://www.city.setagaya.lg.jp/03024/8638.html",
+   "type": "city"
+  },
+  "世田谷地域/駒沢こだま保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8695.html",
+   "type": "city"
+  },
+  "世田谷地域/駒沢保育園": {
+   "url": "https://www.city.setagaya.lg.jp/03025/8635.html",
+   "type": "city"
+  },
+  "世田谷地域/経堂保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8679.html",
+   "type": "city"
+  },
+  "世田谷地域/弦巻保育園": {
+   "url": "https://www.city.setagaya.lg.jp/03008/8632.html",
+   "type": "city"
+  },
+  "世田谷地域/桜ヶ丘保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8678.html",
+   "type": "city"
+  },
+  "世田谷地域/桜すくすく保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8694.html",
+   "type": "city"
+  },
+  "世田谷地域/桜の詩保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8702.html",
+   "type": "city"
+  },
+  "世田谷地域/桜保育園": {
+   "url": "https://www.city.setagaya.lg.jp/03006/8636.html",
+   "type": "city"
+  },
+  "世田谷地域/三軒茶屋わこう保育園（私立） （駒沢わこう保育園の分園）": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8717.html",
+   "type": "city"
+  },
+  "世田谷地域/三軒茶屋保育園": {
+   "url": "https://www.city.setagaya.lg.jp/03004/8630.html",
+   "type": "city"
+  },
+  "世田谷地域/三宿の杜なごみ保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8706.html",
+   "type": "city"
+  },
+  "世田谷地域/三宿保育園": {
+   "url": "https://www.city.setagaya.lg.jp/03002/8641.html",
+   "type": "city"
+  },
+  "世田谷地域/三茶こだま保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8709.html",
+   "type": "city"
+  },
+  "世田谷地域/若葉の詩": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8723.html",
+   "type": "city"
+  },
+  "世田谷地域/昭和女子大学附属昭和こども園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/17997.html",
+   "type": "city"
+  },
+  "世田谷地域/上町しぜんの国保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8710.html",
+   "type": "city"
+  },
+  "世田谷地域/上馬保育園": {
+   "url": "https://www.city.setagaya.lg.jp/03026/8642.html",
+   "type": "city"
+  },
+  "世田谷地域/世田谷いちい保育園南ウイング": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8699.html",
+   "type": "city"
+  },
+  "世田谷地域/世田谷いちい保育園北ウイング": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8697.html",
+   "type": "city"
+  },
+  "世田谷地域/世田谷はっと保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8692.html",
+   "type": "city"
+  },
+  "世田谷地域/世田谷保育園": {
+   "url": "https://www.city.setagaya.lg.jp/03005/8631.html",
+   "type": "city"
+  },
+  "世田谷地域/西弦巻保育園": {
+   "url": "https://www.city.setagaya.lg.jp/03009/8633.html",
+   "type": "city"
+  },
+  "世田谷地域/青葉学園野沢こども園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/17995.html",
+   "type": "city"
+  },
+  "世田谷地域/祖師谷わかば保育園 千歳船橋分園あおばA": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8705.html",
+   "type": "city"
+  },
+  "世田谷地域/太子堂なごみ保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8682.html",
+   "type": "city"
+  },
+  "世田谷地域/太子堂保育園": {
+   "url": "https://www.city.setagaya.lg.jp/03003/8629.html",
+   "type": "city"
+  },
+  "世田谷地域/池尻かもめ保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8690.html",
+   "type": "city"
+  },
+  "世田谷地域/池尻保育園": {
+   "url": "https://www.city.setagaya.lg.jp/03001/8639.html",
+   "type": "city"
+  },
+  "世田谷地域/天使の詩保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8711.html",
+   "type": "city"
+  },
+  "世田谷地域/東弦巻保育園": {
+   "url": "https://www.city.setagaya.lg.jp/03007/8640.html",
+   "type": "city"
+  },
+  "世田谷地域/南桜丘保育園": {
+   "url": "https://www.city.setagaya.lg.jp/03012/32082.html",
+   "type": "city"
+  },
+  "世田谷地域/日本大学認定こども園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/17998.html",
+   "type": "city"
+  },
+  "世田谷地域/鳩ぽっぽ保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8674.html",
+   "type": "city"
+  },
+  "世田谷地域/野沢そらの木保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8721.html",
+   "type": "city"
+  },
+  "世田谷地域/遊愛保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8693.html",
+   "type": "city"
+  },
+  "北沢地域/おおわだ保育園世田谷豪徳寺": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8751.html",
+   "type": "city"
+  },
+  "北沢地域/スマイルキッズドレミファ保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8741.html",
+   "type": "city"
+  },
+  "北沢地域/スマイルキッズ下北沢保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8740.html",
+   "type": "city"
+  },
+  "北沢地域/にじいろ保育園松原": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8753.html",
+   "type": "city"
+  },
+  "北沢地域/にじのおうち保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8743.html",
+   "type": "city"
+  },
+  "北沢地域/ポピンズナーサリースクール羽根木": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8736.html",
+   "type": "city"
+  },
+  "北沢地域/まつばらけやき保育園分園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8749.html",
+   "type": "city"
+  },
+  "北沢地域/まつばらけやき保育園本園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8748.html",
+   "type": "city"
+  },
+  "北沢地域/マリア保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8739.html",
+   "type": "city"
+  },
+  "北沢地域/みんなのおうち保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8737.html",
+   "type": "city"
+  },
+  "北沢地域/わらべうた経堂保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8742.html",
+   "type": "city"
+  },
+  "北沢地域/葵みこころ": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8754.html",
+   "type": "city"
+  },
+  "北沢地域/羽根木こども園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/17996.html",
+   "type": "city"
+  },
+  "北沢地域/円光院幼稚園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/17994.html",
+   "type": "city"
+  },
+  "北沢地域/下北沢そらいろ保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8758.html",
+   "type": "city"
+  },
+  "北沢地域/下北沢保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8761.html",
+   "type": "city"
+  },
+  "北沢地域/河田保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8730.html",
+   "type": "city"
+  },
+  "北沢地域/学び処世田谷保育屋敷わびさびあそび": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8762.html",
+   "type": "city"
+  },
+  "北沢地域/豪徳寺保育園": {
+   "url": "https://www.city.setagaya.lg.jp/03011/8643.html",
+   "type": "city"
+  },
+  "北沢地域/若竹保育園": {
+   "url": "https://www.city.setagaya.lg.jp/03017/8647.html",
+   "type": "city"
+  },
+  "北沢地域/守山保育園": {
+   "url": "https://www.city.setagaya.lg.jp/03086/8644.html",
+   "type": "city"
+  },
+  "北沢地域/春明保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8728.html",
+   "type": "city"
+  },
+  "北沢地域/松原保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8727.html",
+   "type": "city"
+  },
+  "北沢地域/松原北保育園": {
+   "url": "https://www.city.setagaya.lg.jp/03018/8645.html",
+   "type": "city"
+  },
+  "北沢地域/赤堤ゆりの木保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8738.html",
+   "type": "city"
+  },
+  "北沢地域/赤堤保育園": {
+   "url": "https://www.city.setagaya.lg.jp/03020/8646.html",
+   "type": "city"
+  },
+  "北沢地域/早苗保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8729.html",
+   "type": "city"
+  },
+  "北沢地域/早苗保育園分園ほなみ": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8732.html",
+   "type": "city"
+  },
+  "北沢地域/代沢ききょう保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8744.html",
+   "type": "city"
+  },
+  "北沢地域/代沢みこころ保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8735.html",
+   "type": "city"
+  },
+  "北沢地域/東北沢ききょう保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8733.html",
+   "type": "city"
+  },
+  "北沢地域/梅丘なごみ保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8734.html",
+   "type": "city"
+  },
+  "北沢地域/梅丘至誠保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8731.html",
+   "type": "city"
+  },
+  "北沢地域/風の丘めぐみ保育園森棟": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8756.html",
+   "type": "city"
+  },
+  "北沢地域/風の丘めぐみ保育園風棟": {
+   "url": "https://www.city.setagaya.lg.jp/02243/18645.html",
+   "type": "city"
+  },
+  "北沢地域/北沢みこころ保育園": {
+   "url": "https://www.city.setagaya.lg.jp/02243/8747.html",
+   "type": "city"
+  }
+ }
+}
