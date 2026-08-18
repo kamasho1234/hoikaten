@@ -26,6 +26,7 @@ import otaVacancy from "./ota.json";
 import otaWebsites from "./ota-websites.json";
 import adachiVacancy from "./adachi.json";
 import adachiWebsites from "./adachi-websites.json";
+import edogawaVacancy from "./edogawa.json";
 
 export type {
   AgeSummary,
@@ -86,6 +87,8 @@ const registry: Record<string, VacancyDataset> = {
   ),
   ota: withWebsites(otaVacancy as unknown as VacancyDataset, otaWebsites.sites),
   adachi: withWebsites(adachiVacancy as unknown as VacancyDataset, adachiWebsites.sites),
+  // 施設サイトのURLはまだ調べていない。集まったら withWebsites でつなぐ
+  edogawa: edogawaVacancy as unknown as VacancyDataset,
 };
 
 export function getVacancyData(slug: string): VacancyDataset | undefined {

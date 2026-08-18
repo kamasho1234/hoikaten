@@ -13,7 +13,8 @@
     "vacancy:fetch:kawasaki": "tsx scripts/fetch-kawasaki-vacancy.ts",
     "vacancy:fetch:saitama": "tsx scripts/fetch-saitama-vacancy.ts",
     "vacancy:fetch:ota": "tsx scripts/fetch-ota-vacancy.ts",
-    "vacancy:fetch:adachi": "tsx scripts/fetch-adachi-vacancy.ts"
+    "vacancy:fetch:adachi": "tsx scripts/fetch-adachi-vacancy.ts",
+    "vacancy:fetch:edogawa": "tsx scripts/fetch-edogawa-vacancy.ts"
   },
   "dependencies": {
     "@base-ui/react": "^1.3.0",
