@@ -1,0 +1,2179 @@
+{
+ "municipalitySlug": "saitama",
+ "note": "各施設の公式サイト。Web検索で特定し、URLへ実アクセスして施設名または電話番号の一致を確認したものだけを載せている。",
+ "facilityCount": 543,
+ "sites": {
+  "1101": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105754.html",
+   "type": "city"
+  },
+  "1102": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105733.html",
+   "type": "city"
+  },
+  "1103": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105822.html",
+   "type": "city"
+  },
+  "1104": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105729.html",
+   "type": "city"
+  },
+  "1121": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105867.html",
+   "type": "city"
+  },
+  "1122": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105662.html",
+   "type": "city"
+  },
+  "1123": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105599.html",
+   "type": "city"
+  },
+  "1124": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105570.html",
+   "type": "city"
+  },
+  "1125": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105767.html",
+   "type": "city"
+  },
+  "1126": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105865.html",
+   "type": "city"
+  },
+  "1127": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105760.html",
+   "type": "city"
+  },
+  "1128": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105869.html",
+   "type": "city"
+  },
+  "1129": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105764.html",
+   "type": "city"
+  },
+  "1130": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105670.html",
+   "type": "city"
+  },
+  "1131": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105573.html",
+   "type": "city"
+  },
+  "1132": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105595.html",
+   "type": "city"
+  },
+  "1133": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105612.html",
+   "type": "city"
+  },
+  "1134": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105762.html",
+   "type": "city"
+  },
+  "1135": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105866.html",
+   "type": "city"
+  },
+  "1136": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105763.html",
+   "type": "city"
+  },
+  "1137": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105732.html",
+   "type": "city"
+  },
+  "1138": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105688.html",
+   "type": "city"
+  },
+  "1139": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105761.html",
+   "type": "city"
+  },
+  "1140": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105849.html",
+   "type": "city"
+  },
+  "1141": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105780.html",
+   "type": "city"
+  },
+  "1142": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p124635.html",
+   "type": "city"
+  },
+  "1150": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category18/p105887.html",
+   "type": "city"
+  },
+  "1151": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category18/p116705.html",
+   "type": "city"
+  },
+  "1161": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category5/p105326.html",
+   "type": "city"
+  },
+  "1163": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105433.html",
+   "type": "city"
+  },
+  "1164": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105371.html",
+   "type": "city"
+  },
+  "1165": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105432.html",
+   "type": "city"
+  },
+  "1166": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105373.html",
+   "type": "city"
+  },
+  "1167": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105372.html",
+   "type": "city"
+  },
+  "1168": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105359.html",
+   "type": "city"
+  },
+  "1169": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105362.html",
+   "type": "city"
+  },
+  "1170": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category5/p124640.html",
+   "type": "city"
+  },
+  "1201": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105821.html",
+   "type": "city"
+  },
+  "1202": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105808.html",
+   "type": "city"
+  },
+  "1203": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105713.html",
+   "type": "city"
+  },
+  "1204": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105785.html",
+   "type": "city"
+  },
+  "1205": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105820.html",
+   "type": "city"
+  },
+  "1206": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105812.html",
+   "type": "city"
+  },
+  "1207": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105770.html",
+   "type": "city"
+  },
+  "1221": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105772.html",
+   "type": "city"
+  },
+  "1222": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105862.html",
+   "type": "city"
+  },
+  "1223": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105775.html",
+   "type": "city"
+  },
+  "1224": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105642.html",
+   "type": "city"
+  },
+  "1225": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105721.html",
+   "type": "city"
+  },
+  "1226": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105638.html",
+   "type": "city"
+  },
+  "1227": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105613.html",
+   "type": "city"
+  },
+  "1228": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105610.html",
+   "type": "city"
+  },
+  "1229": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105870.html",
+   "type": "city"
+  },
+  "1230": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105779.html",
+   "type": "city"
+  },
+  "1231": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105589.html",
+   "type": "city"
+  },
+  "1233": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105674.html",
+   "type": "city"
+  },
+  "1234": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105639.html",
+   "type": "city"
+  },
+  "1235": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105596.html",
+   "type": "city"
+  },
+  "1236": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105782.html",
+   "type": "city"
+  },
+  "1237": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105567.html",
+   "type": "city"
+  },
+  "1238": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105774.html",
+   "type": "city"
+  },
+  "1239": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105675.html",
+   "type": "city"
+  },
+  "1240": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105807.html",
+   "type": "city"
+  },
+  "1241": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105590.html",
+   "type": "city"
+  },
+  "1242": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105777.html",
+   "type": "city"
+  },
+  "1243": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105658.html",
+   "type": "city"
+  },
+  "1244": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105657.html",
+   "type": "city"
+  },
+  "1245": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105620.html",
+   "type": "city"
+  },
+  "1246": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105665.html",
+   "type": "city"
+  },
+  "1247": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105712.html",
+   "type": "city"
+  },
+  "1248": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105636.html",
+   "type": "city"
+  },
+  "1249": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105801.html",
+   "type": "city"
+  },
+  "1260": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105365.html",
+   "type": "city"
+  },
+  "1262": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105389.html",
+   "type": "city"
+  },
+  "1263": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105465.html",
+   "type": "city"
+  },
+  "1264": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105368.html",
+   "type": "city"
+  },
+  "1265": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105515.html",
+   "type": "city"
+  },
+  "1266": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105516.html",
+   "type": "city"
+  },
+  "1267": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105382.html",
+   "type": "city"
+  },
+  "1268": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105443.html",
+   "type": "city"
+  },
+  "1269": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105519.html",
+   "type": "city"
+  },
+  "1270": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105367.html",
+   "type": "city"
+  },
+  "1271": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p113706.html",
+   "type": "city"
+  },
+  "1272": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105444.html",
+   "type": "city"
+  },
+  "1273": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105495.html",
+   "type": "city"
+  },
+  "1274": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105456.html",
+   "type": "city"
+  },
+  "1275": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105396.html",
+   "type": "city"
+  },
+  "1276": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category5/p105331.html",
+   "type": "city"
+  },
+  "1277": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105364.html",
+   "type": "city"
+  },
+  "1278": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105404.html",
+   "type": "city"
+  },
+  "1279": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105402.html",
+   "type": "city"
+  },
+  "1280": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105420.html",
+   "type": "city"
+  },
+  "1281": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105426.html",
+   "type": "city"
+  },
+  "1282": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category5/p105332.html",
+   "type": "city"
+  },
+  "1283": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105357.html",
+   "type": "city"
+  },
+  "1284": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category5/p105323.html",
+   "type": "city"
+  },
+  "1301": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105783.html",
+   "type": "city"
+  },
+  "1303": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105730.html",
+   "type": "city"
+  },
+  "1304": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105799.html",
+   "type": "city"
+  },
+  "1305": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105746.html",
+   "type": "city"
+  },
+  "1307": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105787.html",
+   "type": "city"
+  },
+  "1308": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105738.html",
+   "type": "city"
+  },
+  "1309": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105728.html",
+   "type": "city"
+  },
+  "1321": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105823.html",
+   "type": "city"
+  },
+  "1322": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105672.html",
+   "type": "city"
+  },
+  "1323": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105727.html",
+   "type": "city"
+  },
+  "1324": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105682.html",
+   "type": "city"
+  },
+  "1325": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105568.html",
+   "type": "city"
+  },
+  "1326": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105769.html",
+   "type": "city"
+  },
+  "1327": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105786.html",
+   "type": "city"
+  },
+  "1328": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105666.html",
+   "type": "city"
+  },
+  "1329": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105773.html",
+   "type": "city"
+  },
+  "1330": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105755.html",
+   "type": "city"
+  },
+  "1331": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105726.html",
+   "type": "city"
+  },
+  "1332": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105854.html",
+   "type": "city"
+  },
+  "1333": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105781.html",
+   "type": "city"
+  },
+  "1334": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105776.html",
+   "type": "city"
+  },
+  "1335": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105681.html",
+   "type": "city"
+  },
+  "1336": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105667.html",
+   "type": "city"
+  },
+  "1337": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105691.html",
+   "type": "city"
+  },
+  "1338": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105847.html",
+   "type": "city"
+  },
+  "1339": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105569.html",
+   "type": "city"
+  },
+  "1340": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105562.html",
+   "type": "city"
+  },
+  "1341": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105724.html",
+   "type": "city"
+  },
+  "1342": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105756.html",
+   "type": "city"
+  },
+  "1343": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p116699.html",
+   "type": "city"
+  },
+  "1350": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category18/p105883.html",
+   "type": "city"
+  },
+  "1351": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category18/p105892.html",
+   "type": "city"
+  },
+  "1360": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105417.html",
+   "type": "city"
+  },
+  "1361": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105395.html",
+   "type": "city"
+  },
+  "1362": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105424.html",
+   "type": "city"
+  },
+  "1363": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105453.html",
+   "type": "city"
+  },
+  "1364": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105388.html",
+   "type": "city"
+  },
+  "1365": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105403.html",
+   "type": "city"
+  },
+  "1366": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105431.html",
+   "type": "city"
+  },
+  "1367": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105430.html",
+   "type": "city"
+  },
+  "1368": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105376.html",
+   "type": "city"
+  },
+  "1369": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105473.html",
+   "type": "city"
+  },
+  "1370": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105435.html",
+   "type": "city"
+  },
+  "1371": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105380.html",
+   "type": "city"
+  },
+  "1372": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105470.html",
+   "type": "city"
+  },
+  "1373": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105452.html",
+   "type": "city"
+  },
+  "1374": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105408.html",
+   "type": "city"
+  },
+  "1375": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105409.html",
+   "type": "city"
+  },
+  "1376": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category13/p105166.html",
+   "type": "city"
+  },
+  "1377": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105447.html",
+   "type": "city"
+  },
+  "1378": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105360.html",
+   "type": "city"
+  },
+  "1379": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category13/p105165.html",
+   "type": "city"
+  },
+  "1401": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105792.html",
+   "type": "city"
+  },
+  "1402": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105736.html",
+   "type": "city"
+  },
+  "1403": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105840.html",
+   "type": "city"
+  },
+  "1404": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105806.html",
+   "type": "city"
+  },
+  "1405": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105735.html",
+   "type": "city"
+  },
+  "1406": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105739.html",
+   "type": "city"
+  },
+  "1421": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105578.html",
+   "type": "city"
+  },
+  "1422": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105673.html",
+   "type": "city"
+  },
+  "1423": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105650.html",
+   "type": "city"
+  },
+  "1424": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105716.html",
+   "type": "city"
+  },
+  "1425": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105690.html",
+   "type": "city"
+  },
+  "1426": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105564.html",
+   "type": "city"
+  },
+  "1427": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105576.html",
+   "type": "city"
+  },
+  "1428": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105659.html",
+   "type": "city"
+  },
+  "1429": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105838.html",
+   "type": "city"
+  },
+  "1430": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105651.html",
+   "type": "city"
+  },
+  "1431": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105603.html",
+   "type": "city"
+  },
+  "1432": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105778.html",
+   "type": "city"
+  },
+  "1433": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105877.html",
+   "type": "city"
+  },
+  "1434": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105577.html",
+   "type": "city"
+  },
+  "1435": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105604.html",
+   "type": "city"
+  },
+  "1437": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105617.html",
+   "type": "city"
+  },
+  "1438": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105643.html",
+   "type": "city"
+  },
+  "1439": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105848.html",
+   "type": "city"
+  },
+  "1440": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105734.html",
+   "type": "city"
+  },
+  "1441": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105851.html",
+   "type": "city"
+  },
+  "1442": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105791.html",
+   "type": "city"
+  },
+  "1443": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105602.html",
+   "type": "city"
+  },
+  "1444": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105641.html",
+   "type": "city"
+  },
+  "1445": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105605.html",
+   "type": "city"
+  },
+  "1446": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105802.html",
+   "type": "city"
+  },
+  "1447": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105556.html",
+   "type": "city"
+  },
+  "1448": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p116707.html",
+   "type": "city"
+  },
+  "1449": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p116710.html",
+   "type": "city"
+  },
+  "1450": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category18/p105881.html",
+   "type": "city"
+  },
+  "1460": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105512.html",
+   "type": "city"
+  },
+  "1461": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105501.html",
+   "type": "city"
+  },
+  "1464": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105369.html",
+   "type": "city"
+  },
+  "1465": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category5/p105336.html",
+   "type": "city"
+  },
+  "1466": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105391.html",
+   "type": "city"
+  },
+  "1467": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105511.html",
+   "type": "city"
+  },
+  "1468": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105499.html",
+   "type": "city"
+  },
+  "1470": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105455.html",
+   "type": "city"
+  },
+  "1471": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105392.html",
+   "type": "city"
+  },
+  "1473": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category5/p105334.html",
+   "type": "city"
+  },
+  "1474": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105358.html",
+   "type": "city"
+  },
+  "1475": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105361.html",
+   "type": "city"
+  },
+  "1476": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category5/p105324.html",
+   "type": "city"
+  },
+  "1477": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p113710.html",
+   "type": "city"
+  },
+  "1478": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p116711.html",
+   "type": "city"
+  },
+  "1501": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105749.html",
+   "type": "city"
+  },
+  "1503": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105784.html",
+   "type": "city"
+  },
+  "1507": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105826.html",
+   "type": "city"
+  },
+  "1508": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105876.html",
+   "type": "city"
+  },
+  "1509": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105705.html",
+   "type": "city"
+  },
+  "1521": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105872.html",
+   "type": "city"
+  },
+  "1522": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105571.html",
+   "type": "city"
+  },
+  "1523": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105660.html",
+   "type": "city"
+  },
+  "1524": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105873.html",
+   "type": "city"
+  },
+  "1525": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105557.html",
+   "type": "city"
+  },
+  "1526": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105676.html",
+   "type": "city"
+  },
+  "1527": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105629.html",
+   "type": "city"
+  },
+  "1528": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105813.html",
+   "type": "city"
+  },
+  "1529": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105622.html",
+   "type": "city"
+  },
+  "1530": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105687.html",
+   "type": "city"
+  },
+  "1531": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105558.html",
+   "type": "city"
+  },
+  "1532": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105668.html",
+   "type": "city"
+  },
+  "1533": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105743.html",
+   "type": "city"
+  },
+  "1534": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105686.html",
+   "type": "city"
+  },
+  "1535": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105850.html",
+   "type": "city"
+  },
+  "1536": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105625.html",
+   "type": "city"
+  },
+  "1537": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105855.html",
+   "type": "city"
+  },
+  "1538": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105859.html",
+   "type": "city"
+  },
+  "1539": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105819.html",
+   "type": "city"
+  },
+  "1540": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105871.html",
+   "type": "city"
+  },
+  "1541": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105723.html",
+   "type": "city"
+  },
+  "1542": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105683.html",
+   "type": "city"
+  },
+  "1543": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105634.html",
+   "type": "city"
+  },
+  "1544": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105864.html",
+   "type": "city"
+  },
+  "1545": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105644.html",
+   "type": "city"
+  },
+  "1546": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105552.html",
+   "type": "city"
+  },
+  "1550": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category18/p105895.html",
+   "type": "city"
+  },
+  "1562": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105490.html",
+   "type": "city"
+  },
+  "1563": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category5/p105335.html",
+   "type": "city"
+  },
+  "1564": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105476.html",
+   "type": "city"
+  },
+  "1566": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105363.html",
+   "type": "city"
+  },
+  "1567": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105477.html",
+   "type": "city"
+  },
+  "1568": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105505.html",
+   "type": "city"
+  },
+  "1569": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105400.html",
+   "type": "city"
+  },
+  "1570": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category5/p105325.html",
+   "type": "city"
+  },
+  "1572": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105507.html",
+   "type": "city"
+  },
+  "1573": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105518.html",
+   "type": "city"
+  },
+  "1574": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105491.html",
+   "type": "city"
+  },
+  "1575": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105428.html",
+   "type": "city"
+  },
+  "1576": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105463.html",
+   "type": "city"
+  },
+  "1577": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category5/p105327.html",
+   "type": "city"
+  },
+  "1578": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category13/p116712.html",
+   "type": "city"
+  },
+  "1601": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105771.html",
+   "type": "city"
+  },
+  "1602": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105800.html",
+   "type": "city"
+  },
+  "1603": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105824.html",
+   "type": "city"
+  },
+  "1604": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105766.html",
+   "type": "city"
+  },
+  "1605": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105747.html",
+   "type": "city"
+  },
+  "1621": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105699.html",
+   "type": "city"
+  },
+  "1622": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105759.html",
+   "type": "city"
+  },
+  "1623": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105693.html",
+   "type": "city"
+  },
+  "1624": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105647.html",
+   "type": "city"
+  },
+  "1626": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105878.html",
+   "type": "city"
+  },
+  "1627": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105737.html",
+   "type": "city"
+  },
+  "1628": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105646.html",
+   "type": "city"
+  },
+  "1629": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105640.html",
+   "type": "city"
+  },
+  "1630": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105692.html",
+   "type": "city"
+  },
+  "1631": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105630.html",
+   "type": "city"
+  },
+  "1632": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105585.html",
+   "type": "city"
+  },
+  "1633": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105795.html",
+   "type": "city"
+  },
+  "1650": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category18/p105884.html",
+   "type": "city"
+  },
+  "1651": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category18/p105886.html",
+   "type": "city"
+  },
+  "1652": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category18/p105885.html",
+   "type": "city"
+  },
+  "1653": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category18/p105879.html",
+   "type": "city"
+  },
+  "1660": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105385.html",
+   "type": "city"
+  },
+  "1661": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105398.html",
+   "type": "city"
+  },
+  "1662": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105393.html",
+   "type": "city"
+  },
+  "1663": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105442.html",
+   "type": "city"
+  },
+  "1701": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105706.html",
+   "type": "city"
+  },
+  "1702": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105863.html",
+   "type": "city"
+  },
+  "1703": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105875.html",
+   "type": "city"
+  },
+  "1704": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105715.html",
+   "type": "city"
+  },
+  "1705": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105702.html",
+   "type": "city"
+  },
+  "1706": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105752.html",
+   "type": "city"
+  },
+  "1707": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105753.html",
+   "type": "city"
+  },
+  "1708": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105809.html",
+   "type": "city"
+  },
+  "1710": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105757.html",
+   "type": "city"
+  },
+  "1711": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105790.html",
+   "type": "city"
+  },
+  "1722": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105597.html",
+   "type": "city"
+  },
+  "1723": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105648.html",
+   "type": "city"
+  },
+  "1725": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105797.html",
+   "type": "city"
+  },
+  "1726": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105594.html",
+   "type": "city"
+  },
+  "1727": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105696.html",
+   "type": "city"
+  },
+  "1728": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105750.html",
+   "type": "city"
+  },
+  "1729": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105559.html",
+   "type": "city"
+  },
+  "1730": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105627.html",
+   "type": "city"
+  },
+  "1731": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105861.html",
+   "type": "city"
+  },
+  "1732": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105710.html",
+   "type": "city"
+  },
+  "1733": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105560.html",
+   "type": "city"
+  },
+  "1734": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105748.html",
+   "type": "city"
+  },
+  "1735": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105593.html",
+   "type": "city"
+  },
+  "1736": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105751.html",
+   "type": "city"
+  },
+  "1737": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105588.html",
+   "type": "city"
+  },
+  "1738": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105695.html",
+   "type": "city"
+  },
+  "1739": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105685.html",
+   "type": "city"
+  },
+  "1740": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105637.html",
+   "type": "city"
+  },
+  "1741": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105653.html",
+   "type": "city"
+  },
+  "1742": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105868.html",
+   "type": "city"
+  },
+  "1743": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105740.html",
+   "type": "city"
+  },
+  "1744": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105698.html",
+   "type": "city"
+  },
+  "1745": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105845.html",
+   "type": "city"
+  },
+  "1746": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105718.html",
+   "type": "city"
+  },
+  "1747": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105591.html",
+   "type": "city"
+  },
+  "1748": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105579.html",
+   "type": "city"
+  },
+  "1749": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105794.html",
+   "type": "city"
+  },
+  "1750": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category18/p105894.html",
+   "type": "city"
+  },
+  "1751": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category18/p105880.html",
+   "type": "city"
+  },
+  "1752": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category18/p116714.html",
+   "type": "city"
+  },
+  "1760": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105397.html",
+   "type": "city"
+  },
+  "1761": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105498.html",
+   "type": "city"
+  },
+  "1762": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105441.html",
+   "type": "city"
+  },
+  "1763": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105517.html",
+   "type": "city"
+  },
+  "1765": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105492.html",
+   "type": "city"
+  },
+  "1767": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105414.html",
+   "type": "city"
+  },
+  "1768": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105419.html",
+   "type": "city"
+  },
+  "1769": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105480.html",
+   "type": "city"
+  },
+  "1770": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105384.html",
+   "type": "city"
+  },
+  "1772": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105503.html",
+   "type": "city"
+  },
+  "1773": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105478.html",
+   "type": "city"
+  },
+  "1774": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105445.html",
+   "type": "city"
+  },
+  "1776": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105427.html",
+   "type": "city"
+  },
+  "1777": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105496.html",
+   "type": "city"
+  },
+  "1778": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105407.html",
+   "type": "city"
+  },
+  "1780": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105415.html",
+   "type": "city"
+  },
+  "1781": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105399.html",
+   "type": "city"
+  },
+  "1783": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105448.html",
+   "type": "city"
+  },
+  "1784": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105449.html",
+   "type": "city"
+  },
+  "1785": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105374.html",
+   "type": "city"
+  },
+  "1787": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105504.html",
+   "type": "city"
+  },
+  "1788": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105506.html",
+   "type": "city"
+  },
+  "1789": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105474.html",
+   "type": "city"
+  },
+  "1790": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105454.html",
+   "type": "city"
+  },
+  "1792": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105425.html",
+   "type": "city"
+  },
+  "1793": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105513.html",
+   "type": "city"
+  },
+  "1794": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105381.html",
+   "type": "city"
+  },
+  "1795": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105438.html",
+   "type": "city"
+  },
+  "1796": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105375.html",
+   "type": "city"
+  },
+  "1797": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105502.html",
+   "type": "city"
+  },
+  "1798": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105457.html",
+   "type": "city"
+  },
+  "1799": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105466.html",
+   "type": "city"
+  },
+  "1801": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105818.html",
+   "type": "city"
+  },
+  "1802": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105839.html",
+   "type": "city"
+  },
+  "1803": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105825.html",
+   "type": "city"
+  },
+  "1804": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105789.html",
+   "type": "city"
+  },
+  "1805": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105798.html",
+   "type": "city"
+  },
+  "1806": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105714.html",
+   "type": "city"
+  },
+  "1807": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105788.html",
+   "type": "city"
+  },
+  "1808": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105837.html",
+   "type": "city"
+  },
+  "1821": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105843.html",
+   "type": "city"
+  },
+  "1822": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105831.html",
+   "type": "city"
+  },
+  "1823": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105618.html",
+   "type": "city"
+  },
+  "1825": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105836.html",
+   "type": "city"
+  },
+  "1826": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105816.html",
+   "type": "city"
+  },
+  "1827": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105626.html",
+   "type": "city"
+  },
+  "1828": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105587.html",
+   "type": "city"
+  },
+  "1829": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105679.html",
+   "type": "city"
+  },
+  "1830": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105722.html",
+   "type": "city"
+  },
+  "1831": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105561.html",
+   "type": "city"
+  },
+  "1832": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105720.html",
+   "type": "city"
+  },
+  "1833": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105575.html",
+   "type": "city"
+  },
+  "1834": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105563.html",
+   "type": "city"
+  },
+  "1835": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105586.html",
+   "type": "city"
+  },
+  "1836": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105621.html",
+   "type": "city"
+  },
+  "1837": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105768.html",
+   "type": "city"
+  },
+  "1838": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105858.html",
+   "type": "city"
+  },
+  "1839": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105678.html",
+   "type": "city"
+  },
+  "1840": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105680.html",
+   "type": "city"
+  },
+  "1841": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105741.html",
+   "type": "city"
+  },
+  "1842": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105623.html",
+   "type": "city"
+  },
+  "1843": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105632.html",
+   "type": "city"
+  },
+  "1844": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105572.html",
+   "type": "city"
+  },
+  "1845": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105742.html",
+   "type": "city"
+  },
+  "1846": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105616.html",
+   "type": "city"
+  },
+  "1847": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105832.html",
+   "type": "city"
+  },
+  "1848": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105677.html",
+   "type": "city"
+  },
+  "1849": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105796.html",
+   "type": "city"
+  },
+  "1850": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category18/p105888.html",
+   "type": "city"
+  },
+  "1851": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category18/p106265.html",
+   "type": "city"
+  },
+  "1852": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category18/p116716.html",
+   "type": "city"
+  },
+  "1860": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105390.html",
+   "type": "city"
+  },
+  "1861": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105464.html",
+   "type": "city"
+  },
+  "1862": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105451.html",
+   "type": "city"
+  },
+  "1863": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105508.html",
+   "type": "city"
+  },
+  "1864": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105497.html",
+   "type": "city"
+  },
+  "1865": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105482.html",
+   "type": "city"
+  },
+  "1866": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105471.html",
+   "type": "city"
+  },
+  "1867": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105493.html",
+   "type": "city"
+  },
+  "1868": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105514.html",
+   "type": "city"
+  },
+  "1869": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105472.html",
+   "type": "city"
+  },
+  "1871": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105379.html",
+   "type": "city"
+  },
+  "1873": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105411.html",
+   "type": "city"
+  },
+  "1874": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105486.html",
+   "type": "city"
+  },
+  "1875": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105500.html",
+   "type": "city"
+  },
+  "1876": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105479.html",
+   "type": "city"
+  },
+  "1877": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105509.html",
+   "type": "city"
+  },
+  "1878": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105410.html",
+   "type": "city"
+  },
+  "1879": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105394.html",
+   "type": "city"
+  },
+  "1880": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105450.html",
+   "type": "city"
+  },
+  "1883": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105475.html",
+   "type": "city"
+  },
+  "1884": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105484.html",
+   "type": "city"
+  },
+  "1885": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105370.html",
+   "type": "city"
+  },
+  "1886": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105468.html",
+   "type": "city"
+  },
+  "1887": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105483.html",
+   "type": "city"
+  },
+  "1888": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105485.html",
+   "type": "city"
+  },
+  "1889": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105386.html",
+   "type": "city"
+  },
+  "1890": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105429.html",
+   "type": "city"
+  },
+  "1891": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category5/p105337.html",
+   "type": "city"
+  },
+  "1892": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105412.html",
+   "type": "city"
+  },
+  "1893": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105467.html",
+   "type": "city"
+  },
+  "1901": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105827.html",
+   "type": "city"
+  },
+  "1902": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105719.html",
+   "type": "city"
+  },
+  "1903": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105731.html",
+   "type": "city"
+  },
+  "1921": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105598.html",
+   "type": "city"
+  },
+  "1922": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105615.html",
+   "type": "city"
+  },
+  "1923": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105804.html",
+   "type": "city"
+  },
+  "1924": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105745.html",
+   "type": "city"
+  },
+  "1925": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105671.html",
+   "type": "city"
+  },
+  "1926": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105566.html",
+   "type": "city"
+  },
+  "1927": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105664.html",
+   "type": "city"
+  },
+  "1928": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105614.html",
+   "type": "city"
+  },
+  "1930": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105803.html",
+   "type": "city"
+  },
+  "1931": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105565.html",
+   "type": "city"
+  },
+  "1932": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105846.html",
+   "type": "city"
+  },
+  "1933": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105793.html",
+   "type": "city"
+  },
+  "1934": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105689.html",
+   "type": "city"
+  },
+  "1935": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105654.html",
+   "type": "city"
+  },
+  "1936": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105652.html",
+   "type": "city"
+  },
+  "1937": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105609.html",
+   "type": "city"
+  },
+  "1938": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105828.html",
+   "type": "city"
+  },
+  "1939": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105669.html",
+   "type": "city"
+  },
+  "1940": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105700.html",
+   "type": "city"
+  },
+  "1941": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105611.html",
+   "type": "city"
+  },
+  "1942": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105606.html",
+   "type": "city"
+  },
+  "1943": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105841.html",
+   "type": "city"
+  },
+  "1944": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105856.html",
+   "type": "city"
+  },
+  "1945": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105628.html",
+   "type": "city"
+  },
+  "1946": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105635.html",
+   "type": "city"
+  },
+  "1947": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105580.html",
+   "type": "city"
+  },
+  "1948": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105633.html",
+   "type": "city"
+  },
+  "1949": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105656.html",
+   "type": "city"
+  },
+  "1950": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category18/p105891.html",
+   "type": "city"
+  },
+  "1951": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category18/p124681.html",
+   "type": "city"
+  },
+  "1960": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105446.html",
+   "type": "city"
+  },
+  "1961": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105520.html",
+   "type": "city"
+  },
+  "1962": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category5/p105329.html",
+   "type": "city"
+  },
+  "1963": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105418.html",
+   "type": "city"
+  },
+  "1964": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105387.html",
+   "type": "city"
+  },
+  "1965": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105461.html",
+   "type": "city"
+  },
+  "1966": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105422.html",
+   "type": "city"
+  },
+  "1967": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105421.html",
+   "type": "city"
+  },
+  "1968": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105434.html",
+   "type": "city"
+  },
+  "1969": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105413.html",
+   "type": "city"
+  },
+  "1970": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category5/p105330.html",
+   "type": "city"
+  },
+  "1971": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105437.html",
+   "type": "city"
+  },
+  "1972": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105488.html",
+   "type": "city"
+  },
+  "1973": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105487.html",
+   "type": "city"
+  },
+  "1974": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105377.html",
+   "type": "city"
+  },
+  "1975": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105439.html",
+   "type": "city"
+  },
+  "1976": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105378.html",
+   "type": "city"
+  },
+  "1977": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105462.html",
+   "type": "city"
+  },
+  "1978": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105383.html",
+   "type": "city"
+  },
+  "1979": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105405.html",
+   "type": "city"
+  },
+  "1980": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105489.html",
+   "type": "city"
+  },
+  "1981": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category5/p124701.html",
+   "type": "city"
+  },
+  "2001": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105765.html",
+   "type": "city"
+  },
+  "2002": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105709.html",
+   "type": "city"
+  },
+  "2003": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105758.html",
+   "type": "city"
+  },
+  "2004": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105830.html",
+   "type": "city"
+  },
+  "2021": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105631.html",
+   "type": "city"
+  },
+  "2022": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105708.html",
+   "type": "city"
+  },
+  "2023": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105811.html",
+   "type": "city"
+  },
+  "2024": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105707.html",
+   "type": "city"
+  },
+  "2025": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105805.html",
+   "type": "city"
+  },
+  "2026": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105810.html",
+   "type": "city"
+  },
+  "2027": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105601.html",
+   "type": "city"
+  },
+  "2028": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105684.html",
+   "type": "city"
+  },
+  "2029": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105608.html",
+   "type": "city"
+  },
+  "2030": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105829.html",
+   "type": "city"
+  },
+  "2031": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105600.html",
+   "type": "city"
+  },
+  "2032": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105607.html",
+   "type": "city"
+  },
+  "2033": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105703.html",
+   "type": "city"
+  },
+  "2050": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category18/p105882.html",
+   "type": "city"
+  },
+  "2051": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category18/p105889.html",
+   "type": "city"
+  },
+  "2052": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category18/p105890.html",
+   "type": "city"
+  },
+  "2053": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category18/p105893.html",
+   "type": "city"
+  },
+  "2060": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105469.html",
+   "type": "city"
+  },
+  "2061": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105440.html",
+   "type": "city"
+  },
+  "2062": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105366.html",
+   "type": "city"
+  },
+  "2063": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category5/p105338.html",
+   "type": "city"
+  },
+  "2064": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p124704.html",
+   "type": "city"
+  },
+  "2112": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p124635.html",
+   "type": "city"
+  },
+  "2231": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105554.html",
+   "type": "city"
+  },
+  "2716": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p124641.html",
+   "type": "city"
+  },
+  "2717": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p124649.html",
+   "type": "city"
+  },
+  "2731": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105697.html",
+   "type": "city"
+  },
+  "2732": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105860.html",
+   "type": "city"
+  },
+  "2734": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105704.html",
+   "type": "city"
+  },
+  "2735": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105592.html",
+   "type": "city"
+  },
+  "2736": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105649.html",
+   "type": "city"
+  },
+  "2737": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105553.html",
+   "type": "city"
+  },
+  "2738": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p124641.html",
+   "type": "city"
+  },
+  "2739": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p124649.html",
+   "type": "city"
+  },
+  "2780": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105521.html",
+   "type": "city"
+  },
+  "2782": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105459.html",
+   "type": "city"
+  },
+  "2783": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p113934.html",
+   "type": "city"
+  },
+  "2784": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category14/p105494.html",
+   "type": "city"
+  },
+  "2831": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105835.html",
+   "type": "city"
+  },
+  "2832": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105584.html",
+   "type": "city"
+  },
+  "2833": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105852.html",
+   "type": "city"
+  },
+  "2834": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105645.html",
+   "type": "city"
+  },
+  "2835": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105582.html",
+   "type": "city"
+  },
+  "2836": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105817.html",
+   "type": "city"
+  },
+  "2837": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105701.html",
+   "type": "city"
+  },
+  "2838": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105815.html",
+   "type": "city"
+  },
+  "2839": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105853.html",
+   "type": "city"
+  },
+  "2840": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105833.html",
+   "type": "city"
+  },
+  "2841": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105711.html",
+   "type": "city"
+  },
+  "2842": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105814.html",
+   "type": "city"
+  },
+  "2843": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105725.html",
+   "type": "city"
+  },
+  "2844": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105624.html",
+   "type": "city"
+  },
+  "2845": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105834.html",
+   "type": "city"
+  },
+  "2846": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105661.html",
+   "type": "city"
+  },
+  "2847": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105583.html",
+   "type": "city"
+  },
+  "2848": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105619.html",
+   "type": "city"
+  },
+  "2849": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105844.html",
+   "type": "city"
+  },
+  "2850": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105842.html",
+   "type": "city"
+  },
+  "2851": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105555.html",
+   "type": "city"
+  },
+  "2852": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p116696.html",
+   "type": "city"
+  },
+  "2853": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p116720.html",
+   "type": "city"
+  },
+  "2854": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p124675.html",
+   "type": "city"
+  },
+  "2931": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105857.html",
+   "type": "city"
+  },
+  "2932": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105663.html",
+   "type": "city"
+  },
+  "2933": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105581.html",
+   "type": "city"
+  },
+  "2934": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105744.html",
+   "type": "city"
+  },
+  "2935": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105574.html",
+   "type": "city"
+  },
+  "2936": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105694.html",
+   "type": "city"
+  },
+  "2938": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105655.html",
+   "type": "city"
+  },
+  "2939": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105551.html",
+   "type": "city"
+  },
+  "2940": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p116745.html",
+   "type": "city"
+  },
+  "2941": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p116747.html",
+   "type": "city"
+  },
+  "1424_2": {
+   "url": "https://www.city.saitama.lg.jp/kosodate/map/category17/p105717.html",
+   "type": "city"
+  }
+ }
+}
