@@ -356,6 +356,18 @@
       "name": "茨城県ひたちなか市",
       "source": "https://www.city.hitachinaka.lg.jp/_res/projects/default_project/_page_/001/015/703/r8_pamphlet.pdf",
       "note": "令和8年度 保育所（園）入所のご案内 選考基準表（13-15ページ）。基準指数は保護者ごと最大30点。補正指数は区分1-44で祖父母の続柄・同別居まで細分化されている"
+    },
+    {
+      "slug": "toride",
+      "name": "茨城県取手市",
+      "source": "https://www.city.toride.ibaraki.jp/kosodate/kurashi/kosodate/hoikujo/documents/r8nyuushoannnai_1119shuusei.pdf",
+      "note": "令和8年度 保育施設等入所案内 17-18ページ。基準点数は父母それぞれ最大30点を合算。調整点数ア〜ナ。同時加点しないケースは原典注記のとおり"
+    },
+    {
+      "slug": "moriya",
+      "name": "茨城県守谷市",
+      "source": "https://www.city.moriya.ibaraki.jp/_res/projects/default_project/_page_/001/002/440/r8_riyoutyoseikijun.pdf",
+      "note": "令和8年度入所分 保育所等利用調整基準。基本点数は父母各100点満点。1ページ3列レイアウトでテキスト抽出が混線するため画像化して確認。ひとり親の基本点数+100加算は数値化せずコメント+helpTextに明記"
     }
   ],
   "failed": [
