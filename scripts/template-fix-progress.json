@@ -332,6 +332,18 @@
       "url": "https://www.city.daito.lg.jp/uploaded/attachment/38077.pdf",
       "note": "テンプレ表記なしだが公式と全く異なることを確認し置き換え。基本点数(父母各最大6)+調整点数(いずれか1つ)+加算点数(すべて加算)の3段構成。旧データ(父母各20)とは体系が異なる",
       "fixedAt": "2026-08-19"
+    },
+    {
+      "slug": "kasugai",
+      "name": "愛知県春日井市",
+      "source": "https://www.city.kasugai.lg.jp/_res/projects/default_project/_page_/001/022/101/R7_05kijyun.pdf",
+      "note": "令和8年度 春日井市保育園入園選考基準表。基準指数は保護者ごと最大10点（旧データは父母各20点）。調整指数A〜I。同一指数時の優先順位表は数値化せずコメントに記載"
+    },
+    {
+      "slug": "yokkaichi",
+      "name": "三重県四日市市",
+      "source": "https://www.city.yokkaichi.lg.jp/www/contents/1720397813414/simple/R7riyoutyouseikijyun.pdf",
+      "note": "令和7年度 四日市市保育所等利用調整実施要領 別紙1。基本点数は最高100点で「父母各々に算定し最も低い点数を世帯の点数として採用」→scoringMethod:min。PDFのページ3-4がスキャン画像のため画像化して読み取り"
     }
   ],
   "failed": [
