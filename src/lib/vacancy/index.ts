@@ -49,6 +49,8 @@ import nakanoWebsites from "./nakano-websites.json";
 import shinjukuVacancy from "./shinjuku.json";
 // 豊島区は施設サイトのURLを調査中のため、いまは空き状況だけを登録している
 import toshimaVacancy from "./toshima.json";
+// 文京区は施設サイトのURLを調査中のため、いまは空き状況だけを登録している
+import bunkyoVacancy from "./bunkyo.json";
 
 export type {
   AgeSummary,
@@ -119,6 +121,7 @@ const registry: Record<string, VacancyDataset> = {
   nakano: withWebsites(nakanoVacancy as unknown as VacancyDataset, nakanoWebsites.sites),
   shinjuku: shinjukuVacancy as unknown as VacancyDataset,
   toshima: toshimaVacancy as unknown as VacancyDataset,
+  bunkyo: bunkyoVacancy as unknown as VacancyDataset,
 };
 
 export function getVacancyData(slug: string): VacancyDataset | undefined {

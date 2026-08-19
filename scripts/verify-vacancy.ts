@@ -27,7 +27,18 @@ import {
 /** 取り込み時に公式データから独立に集計して確認した値 */
 const EXPECTED: Record<
   string,
-  { asOf: string; facilityCount: number; vacancy: number; waiting?: number }
+  {
+    asOf: string;
+    facilityCount: number;
+    vacancy: number;
+    waiting?: number;
+    /**
+     * 全クラスが「—」の施設の割合の上限。既定は10%。
+     * 「空き数」ではなく「翌月の募集予定人数」を出している自治体は、募集ゼロの園が
+     * 普通に2割ほどあるので、公式の合計行と突き合わせたうえで上限を上げる。
+     */
+    emptyRatio?: number;
+  }
 > = {
   yokohama: { asOf: "2026-08-01", facilityCount: 1242, vacancy: 3990, waiting: 13473 },
   meguro: { asOf: "2026-07-23", facilityCount: 118, vacancy: 871 },
@@ -45,6 +56,8 @@ const EXPECTED: Record<
   nakano: { asOf: "2026-09-01", facilityCount: 113, vacancy: 891 },
   shinjuku: { asOf: "2026-07-28", facilityCount: 93, vacancy: 1281 },
   toshima: { asOf: "2026-08-03", facilityCount: 111, vacancy: 652 },
+  // 文京区は「空き数」ではなく翌月の募集予定人数。募集ゼロの園が2割ほどあるのが通常
+  bunkyo: { asOf: "2026-08-01", facilityCount: 122, vacancy: 1053, waiting: 882, emptyRatio: 0.3 },
 };
 
 const problems: string[] = [];
@@ -132,7 +145,7 @@ function check(slug: string) {
   // 全クラス「—」の施設が多いときは、列の取り違えなど抽出ミスを疑う
   if (noValues.length > 0) {
     const ratio = noValues.length / Math.max(1, data.facilities.length);
-    if (ratio > 0.1) {
+    if (ratio > (EXPECTED[slug]?.emptyRatio ?? 0.1)) {
       P(
         `全クラスが「—」の施設が${noValues.length}件（${Math.round(ratio * 100)}%）あります。抽出を確認してください: ${noValues.slice(0, 5).join("、")}`
       );
