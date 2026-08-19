@@ -440,6 +440,18 @@
       "name": "山梨県甲府市",
       "source": "https://www.city.kofu.yamanashi.jp/jidohoiku/documents/3senkoutensuuhyou.pdf",
       "note": "甲府市保育施設利用調整基準点数表。選考事由点数は父母各15点。調整点数表＋甲府市独自項目（保育士7点・放課後児童クラブ支援員3点・内職-1点など）"
+    },
+    {
+      "slug": "iizuka",
+      "name": "福岡県飯塚市",
+      "source": "https://www.city.iizuka.lg.jp/uploaded/attachment/16165.pdf",
+      "note": "利用調整基準指数表。指数は保護者ごと最大50点。原典は父・母・世帯員の3系統だが細目・指数は同一のため保護者1・2として実装。No.18加点減点項目（母子父子55点・希望園にきょうだい在園100点など）"
+    },
+    {
+      "slug": "munakata",
+      "name": "福岡県宗像市",
+      "source": "https://www.city.munakata.lg.jp/kiji0032822/3_2822_8442_up_8umg6imd.pdf",
+      "note": "令和8年度 入所申込みのご案内 8ページ。基準指数は最大24点で「保護者の中で最も低い人の指数を基準指数とする」→scoringMethod:min。調整指数⑸⑹⑺・⑻はそれぞれいずれか1つ"
     }
   ],
   "failed": [
