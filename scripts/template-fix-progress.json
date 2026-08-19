@@ -8,9 +8,29 @@
       "name": "埼玉県上尾市",
       "source": "https://www.city.ageo.lg.jp/uploaded/attachment/113214.pdf",
       "fixedAt": "2026-08-19"
+    },
+    {
+      "slug": "iwata",
+      "name": "静岡県磐田市",
+      "source": "https://www.city.iwata.shizuoka.jp/_res/projects/default_project/_page_/001/012/764/R8shisu.pdf",
+      "fixedAt": "2026-08-19"
+    },
+    {
+      "slug": "matsusaka",
+      "name": "三重県松阪市",
+      "source": "https://www.city.matsusaka.mie.jp/uploaded/attachment/97789.pdf ほか",
+      "fixedAt": "2026-08-19"
     }
   ],
-  "failed": [],
+  "failed": [
+    {
+      "slug": "yao",
+      "name": "大阪府八尾市",
+      "reason": "選考基準がCanvaのスライド（外部リンク）でのみ公開されており、PDFやHTMLの表が無い",
+      "checkedAt": "2026-08-19",
+      "url": "https://www.city.yao.osaka.jp/kosodate_kyouiku/ninteikodomoen_hoikusho/1003996/1020314.html"
+    }
+  ],
   "templateMarked": [
     "akiruno",
     "ashiya",
@@ -82,5 +102,14 @@
     "yatsushiro",
     "yonago",
     "yoshikawa"
-  ]
+  ],
+  "verifiedCorrect": [
+    {
+      "slug": "miyazaki",
+      "name": "宮崎県宮崎市",
+      "note": "公式「宮崎市保育所等利用調整基準表」と完全一致。テンプレ表記なしで配列一致していたのは、都城市・延岡市（表記あり）が宮崎市をコピーしたため。修正不要",
+      "checkedAt": "2026-08-19"
+    }
+  ],
+  "lesson": "「点数配列が一致」だけでは誤りと断定できない。元になった正しいデータもグループに含まれる。テンプレ表記のある70件を優先し、表記なし54件は公式と照合してから判断する。"
 }
