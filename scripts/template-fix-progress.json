@@ -434,6 +434,12 @@
       "name": "神奈川県座間市",
       "source": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/008/962/2026goannnai.pdf",
       "note": "令和8年度 保育所等入所のご案内 17-18ページ 保育所入所選考基準（令和8年4月選考から適用）。基準点数は父母各50点。育休延長許容は基準点数に関わらず-100点"
+    },
+    {
+      "slug": "kofu",
+      "name": "山梨県甲府市",
+      "source": "https://www.city.kofu.yamanashi.jp/jidohoiku/documents/3senkoutensuuhyou.pdf",
+      "note": "甲府市保育施設利用調整基準点数表。選考事由点数は父母各15点。調整点数表＋甲府市独自項目（保育士7点・放課後児童クラブ支援員3点・内職-1点など）"
     }
   ],
   "failed": [
