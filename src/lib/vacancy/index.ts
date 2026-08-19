@@ -36,6 +36,9 @@ import suginamiVacancy from "./suginami.json";
 import suginamiWebsites from "./suginami-websites.json";
 import katsushikaVacancy from "./katsushika.json";
 import katsushikaWebsites from "./katsushika-websites.json";
+// 品川区は施設ごとのWebページを持たず（一覧はPDFのみ・sitemap.xml も無い）、
+// 確認できるURLが無いので施設リンクを付けていない
+import shinagawaVacancy from "./shinagawa.json";
 
 export type {
   AgeSummary,
@@ -101,6 +104,7 @@ const registry: Record<string, VacancyDataset> = {
   setagaya: withWebsites(setagayaVacancy as unknown as VacancyDataset, setagayaWebsites.sites),
   suginami: withWebsites(suginamiVacancy as unknown as VacancyDataset, suginamiWebsites.sites),
   katsushika: withWebsites(katsushikaVacancy as unknown as VacancyDataset, katsushikaWebsites.sites),
+  shinagawa: shinagawaVacancy as unknown as VacancyDataset,
 };
 
 export function getVacancyData(slug: string): VacancyDataset | undefined {

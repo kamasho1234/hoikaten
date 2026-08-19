@@ -18,7 +18,8 @@
     "vacancy:fetch:nerima": "tsx scripts/fetch-nerima-vacancy.ts",
     "vacancy:fetch:setagaya": "tsx scripts/fetch-setagaya-vacancy.ts",
     "vacancy:fetch:suginami": "tsx scripts/fetch-suginami-vacancy.ts",
-    "vacancy:fetch:katsushika": "tsx scripts/fetch-katsushika-vacancy.ts"
+    "vacancy:fetch:katsushika": "tsx scripts/fetch-katsushika-vacancy.ts",
+    "vacancy:fetch:shinagawa": "tsx scripts/fetch-shinagawa-vacancy.ts"
   },
   "dependencies": {
     "@base-ui/react": "^1.3.0",

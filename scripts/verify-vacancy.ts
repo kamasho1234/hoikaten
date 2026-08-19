@@ -40,6 +40,7 @@ const EXPECTED: Record<
   setagaya: { asOf: "2026-08-01", facilityCount: 301, vacancy: 895 },
   suginami: { asOf: "2026-07-31", facilityCount: 235, vacancy: 1311 },
   katsushika: { asOf: "2026-07-25", facilityCount: 161, vacancy: 405 },
+  shinagawa: { asOf: "2026-07-23", facilityCount: 174, vacancy: 1361 },
 };
 
 const problems: string[] = [];
@@ -69,6 +70,8 @@ function check(slug: string) {
 
   // --- 2. 施設 ---
   const seen = new Set<string>();
+  /** 全クラスが「—」の施設。少数なら実態（一時募集停止など）だが、多いと抽出ミスを疑う */
+  const noValues: string[] = [];
   const wardCount = data.wards.length;
   const catCount = data.categories?.length ?? 0;
   for (const f of data.facilities) {
@@ -105,7 +108,9 @@ function check(slug: string) {
       P(`${f.name}: 年齢別と vacancyTotal の両方に値があります（二重計上になります）`);
     }
     if (!hasAge && f.vacancyTotal === undefined) {
-      P(`${f.name}: 年齢別も vacancyTotal もありません`);
+      // 全クラスが「—」の施設は実在する（品川区の一時募集停止園など）。
+      // 1件ずつは問題にせず、下でデータセット全体の割合として見る
+      noValues.push(f.name);
     }
 
     // 負の数はありえない
@@ -118,6 +123,20 @@ function check(slug: string) {
     }
     if (f.lat !== undefined && (f.lat < 20 || f.lat > 46)) P(`${f.name}: 緯度が日本の範囲外 (${f.lat})`);
     if (f.lng !== undefined && (f.lng < 122 || f.lng > 154)) P(`${f.name}: 経度が日本の範囲外 (${f.lng})`);
+  }
+
+  // 全クラス「—」の施設が多いときは、列の取り違えなど抽出ミスを疑う
+  if (noValues.length > 0) {
+    const ratio = noValues.length / Math.max(1, data.facilities.length);
+    if (ratio > 0.1) {
+      P(
+        `全クラスが「—」の施設が${noValues.length}件（${Math.round(ratio * 100)}%）あります。抽出を確認してください: ${noValues.slice(0, 5).join("、")}`
+      );
+    } else {
+      notes.push(
+        `${slug}: 全クラスが「—」の施設が${noValues.length}件あります（募集停止など）: ${noValues.join("、")}`
+      );
+    }
   }
 
   // --- 3. 集計の一貫性 ---
