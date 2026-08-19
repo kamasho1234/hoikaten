@@ -1,0 +1,1025 @@
+{
+ "source": "https://www.city.koto.lg.jp/kodomo/hoiku/ninka/shokai/index.html",
+ "facilities": [
+  {
+   "name": "亀戸第三",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kameidodaisann.pdf",
+   "area": "認可保育園等の紹介（亀戸・大島地区）"
+  },
+  {
+   "name": "かめのこ",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kamenoko.pdf",
+   "area": "認可保育園等の紹介（亀戸・大島地区）"
+  },
+  {
+   "name": "おはよう保育園 亀戸",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/129ohayoukameido.pdf",
+   "area": "認可保育園等の紹介（亀戸・大島地区）"
+  },
+  {
+   "name": "陽だまり",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/hidamari.pdf",
+   "area": "認可保育園等の紹介（亀戸・大島地区）"
+  },
+  {
+   "name": "マミーズエンジェル亀戸",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/angelkameido.pdf",
+   "area": "認可保育園等の紹介（亀戸・大島地区）"
+  },
+  {
+   "name": "クオリスキッズ亀戸",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/132kuorisukizzukameido.pdf",
+   "area": "認可保育園等の紹介（亀戸・大島地区）"
+  },
+  {
+   "name": "江東亀戸サテライトグローバルキッズ竪川園（分園）",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kamesatebunenn.pdf",
+   "area": "認可保育園等の紹介（亀戸・大島地区）"
+  },
+  {
+   "name": "江東亀戸サテライトグローバルキッズ竪川園（本園）",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kamesatehonen.pdf",
+   "area": "認可保育園等の紹介（亀戸・大島地区）"
+  },
+  {
+   "name": "にじいろ保育園 亀戸",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/nijiirokameido.pdf",
+   "area": "認可保育園等の紹介（亀戸・大島地区）"
+  },
+  {
+   "name": "もりのなかま保育園 亀戸園",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/morinonakamakameido.pdf",
+   "area": "認可保育園等の紹介（亀戸・大島地区）"
+  },
+  {
+   "name": "アンジェリカ亀戸",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/anzyerikakameido.pdf",
+   "area": "認可保育園等の紹介（亀戸・大島地区）"
+  },
+  {
+   "name": "亀戸第四",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kameidodaiyonn.pdf",
+   "area": "認可保育園等の紹介（亀戸・大島地区）"
+  },
+  {
+   "name": "グローバルキッズ亀戸園",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/gurokame.pdf",
+   "area": "認可保育園等の紹介（亀戸・大島地区）"
+  },
+  {
+   "name": "サンライズキッズ保育園 亀戸",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/sannraizu.pdf",
+   "area": "認可保育園等の紹介（亀戸・大島地区）"
+  },
+  {
+   "name": "ポピンズナーサリースクール亀戸",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/141popinzukameido.pdf",
+   "area": "認可保育園等の紹介（亀戸・大島地区）"
+  },
+  {
+   "name": "コビープリスクールかめいど",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/143kobi-kameido.pdf",
+   "area": "認可保育園等の紹介（亀戸・大島地区）"
+  },
+  {
+   "name": "亀戸",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kameido.pdf",
+   "area": "認可保育園等の紹介（亀戸・大島地区）"
+  },
+  {
+   "name": "ソラストこうとう",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/r4kokorokoto.pdf",
+   "area": "認可保育園等の紹介（亀戸・大島地区）"
+  },
+  {
+   "name": "まなびの森保育園亀戸",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/manamori.pdf",
+   "area": "認可保育園等の紹介（亀戸・大島地区）"
+  },
+  {
+   "name": "保育園ミルキーウェイ亀戸園",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/146miruki-kameido.pdf",
+   "area": "認可保育園等の紹介（亀戸・大島地区）"
+  },
+  {
+   "name": "亀戸第二",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kameido2.pdf",
+   "area": "認可保育園等の紹介（亀戸・大島地区）"
+  },
+  {
+   "name": "亀戸こころ（分園）",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kameidokokorobunen.pdf",
+   "area": "認可保育園等の紹介（亀戸・大島地区）"
+  },
+  {
+   "name": "亀戸こころ（本園）",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kameidokokorohonnen.pdf",
+   "area": "認可保育園等の紹介（亀戸・大島地区）"
+  },
+  {
+   "name": "亀戸浅間",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kameidosengen.pdf",
+   "area": "認可保育園等の紹介（亀戸・大島地区）"
+  },
+  {
+   "name": "グローバルキッズ西大島園",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/guronisioojima.pdf",
+   "area": "認可保育園等の紹介（亀戸・大島地区）"
+  },
+  {
+   "name": "マミー保育園西大島",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/152mami-nisioozima.pdf",
+   "area": "認可保育園等の紹介（亀戸・大島地区）"
+  },
+  {
+   "name": "花と鳥",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/hanatotori.pdf",
+   "area": "認可保育園等の紹介（亀戸・大島地区）"
+  },
+  {
+   "name": "まなびの森 プチ・ナーサリー西大島",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/putinisi.pdf",
+   "area": "認可保育園等の紹介（亀戸・大島地区）"
+  },
+  {
+   "name": "大島なかよし",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/oozimanakayosi.pdf",
+   "area": "認可保育園等の紹介（亀戸・大島地区）"
+  },
+  {
+   "name": "キャリー保育園にしおおじま",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kyarinishioojima.pdf",
+   "area": "認可保育園等の紹介（亀戸・大島地区）"
+  },
+  {
+   "name": "大島第二",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/oojimadaini.pdf",
+   "area": "認可保育園等の紹介（亀戸・大島地区）"
+  },
+  {
+   "name": "大島第五",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/158oozimadaigo.pdf",
+   "area": "認可保育園等の紹介（亀戸・大島地区）"
+  },
+  {
+   "name": "大島",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/oojima.pdf",
+   "area": "認可保育園等の紹介（亀戸・大島地区）"
+  },
+  {
+   "name": "大島第三",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/162oozimadaisann.pdf",
+   "area": "認可保育園等の紹介（亀戸・大島地区）"
+  },
+  {
+   "name": "ココロラボインターナショナル大島",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/163kokororabooozima.pdf",
+   "area": "認可保育園等の紹介（亀戸・大島地区）"
+  },
+  {
+   "name": "キッズスマイル江東大島",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kidsoojima.pdf",
+   "area": "認可保育園等の紹介（亀戸・大島地区）"
+  },
+  {
+   "name": "かがやき",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/00kagayaki.pdf",
+   "area": "認可保育園等の紹介（亀戸・大島地区）"
+  },
+  {
+   "name": "大島第四",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/oojimadai4.pdf",
+   "area": "認可保育園等の紹介（亀戸・大島地区）"
+  },
+  {
+   "name": "HOPPAおおじまタウン",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/hoppaoojimataun.pdf",
+   "area": "認可保育園等の紹介（亀戸・大島地区）"
+  },
+  {
+   "name": "アスク東大島",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/asukuhigashioojima.pdf",
+   "area": "認可保育園等の紹介（亀戸・大島地区）"
+  },
+  {
+   "name": "キッズフィールド東大島駅前園",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kidsfieldhigashioojima.pdf",
+   "area": "認可保育園等の紹介（亀戸・大島地区）"
+  },
+  {
+   "name": "わかば",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/wakaba.pdf",
+   "area": "認可保育園等の紹介（亀戸・大島地区）"
+  },
+  {
+   "name": "小名木川",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/onagigawa.pdf",
+   "area": "認可保育園等の紹介（砂町・南砂地区）"
+  },
+  {
+   "name": "北砂",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kitasuna.pdf",
+   "area": "認可保育園等の紹介（砂町・南砂地区）"
+  },
+  {
+   "name": "スクルドエンジェル北砂園",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/173sukurudokitasuna.pdf",
+   "area": "認可保育園等の紹介（砂町・南砂地区）"
+  },
+  {
+   "name": "砂町",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/04sunamati.pdf",
+   "area": "認可保育園等の紹介（砂町・南砂地区）"
+  },
+  {
+   "name": "キッズスマイル江東北砂",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kidskitasuna.pdf",
+   "area": "認可保育園等の紹介（砂町・南砂地区）"
+  },
+  {
+   "name": "もりのなかま保育園 北砂園",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/04morinonakamakitasuna.pdf",
+   "area": "認可保育園等の紹介（砂町・南砂地区）"
+  },
+  {
+   "name": "Milky Way International Nursery School北砂校",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/178miruki-kitasuna.pdf",
+   "area": "認可保育園等の紹介（砂町・南砂地区）"
+  },
+  {
+   "name": "つくし",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/tsukushi.pdf",
+   "area": "認可保育園等の紹介（砂町・南砂地区）"
+  },
+  {
+   "name": "砂町友愛園",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/sunamatiyuuai.pdf",
+   "area": "認可保育園等の紹介（砂町・南砂地区）"
+  },
+  {
+   "name": "小鳩スマート保育所 北砂",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kobatokitasuna.pdf",
+   "area": "認可保育園等の紹介（砂町・南砂地区）"
+  },
+  {
+   "name": "にじいろ保育園 北砂",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/nijiirokitasuna.pdf",
+   "area": "認可保育園等の紹介（砂町・南砂地区）"
+  },
+  {
+   "name": "小名木川第二",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/onagigawadaini.pdf",
+   "area": "認可保育園等の紹介（砂町・南砂地区）"
+  },
+  {
+   "name": "亀高",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/04kametaka.pdf",
+   "area": "認可保育園等の紹介（砂町・南砂地区）"
+  },
+  {
+   "name": "亀高第二",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/184kametakadaini.pdf",
+   "area": "認可保育園等の紹介（砂町・南砂地区）"
+  },
+  {
+   "name": "みらいく北砂",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/00miraikukitasuna.pdf",
+   "area": "認可保育園等の紹介（砂町・南砂地区）"
+  },
+  {
+   "name": "東砂第三",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/higashisunadaisan.pdf",
+   "area": "認可保育園等の紹介（砂町・南砂地区）"
+  },
+  {
+   "name": "東砂第二",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/higashisunadaini.pdf",
+   "area": "認可保育園等の紹介（砂町・南砂地区）"
+  },
+  {
+   "name": "東砂",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/higasisuna_1.pdf",
+   "area": "認可保育園等の紹介（砂町・南砂地区）"
+  },
+  {
+   "name": "マミー保育園東砂",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/189mami-higasisuna.pdf",
+   "area": "認可保育園等の紹介（砂町・南砂地区）"
+  },
+  {
+   "name": "ともしび",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/tomoshibi.pdf",
+   "area": "認可保育園等の紹介（砂町・南砂地区）"
+  },
+  {
+   "name": "もりのなかま保育園 東砂園",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/morinonakamahigasisuna.pdf",
+   "area": "認可保育園等の紹介（砂町・南砂地区）"
+  },
+  {
+   "name": "メリーポピンズ 南砂ルーム",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/meriminamisuna.pdf",
+   "area": "認可保育園等の紹介（砂町・南砂地区）"
+  },
+  {
+   "name": "東砂第四",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/higashisunadai4.pdf",
+   "area": "認可保育園等の紹介（砂町・南砂地区）"
+  },
+  {
+   "name": "にじいろ保育園 東砂",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/nijiirohigashisuna.pdf",
+   "area": "認可保育園等の紹介（砂町・南砂地区）"
+  },
+  {
+   "name": "キッズスマイル江東東砂",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kidshigashisuna.pdf",
+   "area": "認可保育園等の紹介（砂町・南砂地区）"
+  },
+  {
+   "name": "南砂あら川",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/minamisunaarakawa.pdf",
+   "area": "認可保育園等の紹介（砂町・南砂地区）"
+  },
+  {
+   "name": "南砂第二",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/minamisunadaini.pdf",
+   "area": "認可保育園等の紹介（砂町・南砂地区）"
+  },
+  {
+   "name": "南砂第三",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/199minamisunadaisan.pdf",
+   "area": "認可保育園等の紹介（砂町・南砂地区）"
+  },
+  {
+   "name": "南砂第四",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/200minamisunadaiyon.pdf",
+   "area": "認可保育園等の紹介（砂町・南砂地区）"
+  },
+  {
+   "name": "南砂第五",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/minamisunadaigo.pdf",
+   "area": "認可保育園等の紹介（砂町・南砂地区）"
+  },
+  {
+   "name": "ドリームキッズランド",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/dori-mu.pdf",
+   "area": "認可保育園等の紹介（砂町・南砂地区）"
+  },
+  {
+   "name": "南砂町",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/minamisunamachi.pdf",
+   "area": "認可保育園等の紹介（砂町・南砂地区）"
+  },
+  {
+   "name": "グローバルキッズ南砂園",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/globalkidsminamisuna.pdf",
+   "area": "認可保育園等の紹介（砂町・南砂地区）"
+  },
+  {
+   "name": "南砂第一",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/minamisunadaiichi.pdf",
+   "area": "認可保育園等の紹介（砂町・南砂地区）"
+  },
+  {
+   "name": "ルーチェ保育園 南砂",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/rucheminamisuna.pdf",
+   "area": "認可保育園等の紹介（砂町・南砂地区）"
+  },
+  {
+   "name": "南砂さくら",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/minamisunasakura.pdf",
+   "area": "認可保育園等の紹介（砂町・南砂地区）"
+  },
+  {
+   "name": "おはよう保育園 南砂町",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/209ohayouminamisunamati.pdf",
+   "area": "認可保育園等の紹介（砂町・南砂地区）"
+  },
+  {
+   "name": "城東",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/210zyoutou.pdf",
+   "area": "認可保育園等の紹介（砂町・南砂地区）"
+  },
+  {
+   "name": "ひまわり",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/211himawari.pdf",
+   "area": "認可保育園等の紹介（砂町・南砂地区）"
+  },
+  {
+   "name": "八幡",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/hachiman.pdf",
+   "area": "認可保育園等の紹介（砂町・南砂地区）"
+  },
+  {
+   "name": "新砂",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/213sinnsuna.pdf",
+   "area": "認可保育園等の紹介（砂町・南砂地区）"
+  },
+  {
+   "name": "塩浜",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/siohama.pdf",
+   "area": "認可保育園等の紹介（枝川・豊洲地区）"
+  },
+  {
+   "name": "聖華しおかぜ",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/seikashiokaze.pdf",
+   "area": "認可保育園等の紹介（枝川・豊洲地区）"
+  },
+  {
+   "name": "（仮称）あーと＆えいごが好きになる保育園 しおはま",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/artshiohama.pdf",
+   "area": "認可保育園等の紹介（枝川・豊洲地区）"
+  },
+  {
+   "name": "塩崎",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/76siozaki.pdf",
+   "area": "認可保育園等の紹介（枝川・豊洲地区）"
+  },
+  {
+   "name": "キッズスマイル江東塩浜",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kidssiohama.pdf",
+   "area": "認可保育園等の紹介（枝川・豊洲地区）"
+  },
+  {
+   "name": "豊洲枝川さくらんぼ",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/edagawasakuranbo.pdf",
+   "area": "認可保育園等の紹介（枝川・豊洲地区）"
+  },
+  {
+   "name": "深川愛隣",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/fukagawaairin.pdf",
+   "area": "認可保育園等の紹介（枝川・豊洲地区）"
+  },
+  {
+   "name": "愛隣シャローム",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/80airinsharo-mu.pdf",
+   "area": "認可保育園等の紹介（枝川・豊洲地区）"
+  },
+  {
+   "name": "MIWAシンフォニア",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/miwashinfo.pdf",
+   "area": "認可保育園等の紹介（枝川・豊洲地区）"
+  },
+  {
+   "name": "ミアヘルサ保育園ゆらりん豊洲フロント",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/82yurarinntoyosuhuronnto.pdf",
+   "area": "認可保育園等の紹介（枝川・豊洲地区）"
+  },
+  {
+   "name": "TKチルドレンズファーム豊洲校",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/00tktoyosu.pdf",
+   "area": "認可保育園等の紹介（枝川・豊洲地区）"
+  },
+  {
+   "name": "TKチルドレンズファーム豊洲第二校",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/00tktoyosu2.pdf",
+   "area": "認可保育園等の紹介（枝川・豊洲地区）"
+  },
+  {
+   "name": "蓮美幼児学園とよすナーサリー",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/toyosunasari.pdf",
+   "area": "認可保育園等の紹介（枝川・豊洲地区）"
+  },
+  {
+   "name": "蓮美幼児学園第2とよすナーサリー",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/dainitoyosunasari.pdf",
+   "area": "認可保育園等の紹介（枝川・豊洲地区）"
+  },
+  {
+   "name": "アスクバイリンガル保育園豊洲",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/asktoyosu.pdf",
+   "area": "認可保育園等の紹介（枝川・豊洲地区）"
+  },
+  {
+   "name": "さくらさくみらい豊洲",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/sakuratoyosu.pdf",
+   "area": "認可保育園等の紹介（枝川・豊洲地区）"
+  },
+  {
+   "name": "ミアヘルサ保育園ひびき豊洲",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/miaherusahibiki.pdf",
+   "area": "認可保育園等の紹介（枝川・豊洲地区）"
+  },
+  {
+   "name": "豊洲",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/toyosu.pdf",
+   "area": "認可保育園等の紹介（枝川・豊洲地区）"
+  },
+  {
+   "name": "ミアヘルサ保育園ゆらりん豊四",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/yurarintoyoyon.pdf",
+   "area": "認可保育園等の紹介（枝川・豊洲地区）"
+  },
+  {
+   "name": "おうち保育園とよす",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/outitoyosu.pdf",
+   "area": "認可保育園等の紹介（枝川・豊洲地区）"
+  },
+  {
+   "name": "ひまわりキッズガーデン豊洲",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/93himawaritoyosu.pdf",
+   "area": "認可保育園等の紹介（枝川・豊洲地区）"
+  },
+  {
+   "name": "グローバルキッズ豊洲園",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/gurotoyosu.pdf",
+   "area": "認可保育園等の紹介（枝川・豊洲地区）"
+  },
+  {
+   "name": "江東湾岸サテライトナーサリースクール（本・分園）",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/sateraitonursery.pdf",
+   "area": "認可保育園等の紹介（枝川・豊洲地区）"
+  },
+  {
+   "name": "スマイスセレソン豊洲",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/sumaisusereson.pdf",
+   "area": "認可保育園等の紹介（枝川・豊洲地区）"
+  },
+  {
+   "name": "グローバルキッズ豊洲五丁目",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/gurotoyo5.pdf",
+   "area": "認可保育園等の紹介（枝川・豊洲地区）"
+  },
+  {
+   "name": "アイグラン",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/aitoyosu.pdf",
+   "area": "認可保育園等の紹介（枝川・豊洲地区）"
+  },
+  {
+   "name": "小学館アカデミーしんとよす",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/syougakkan.pdf",
+   "area": "認可保育園等の紹介（枝川・豊洲地区）"
+  },
+  {
+   "name": "豊洲めぐみこども園",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/00toyosumegumi.pdf",
+   "area": "認可保育園等の紹介（枝川・豊洲地区）"
+  },
+  {
+   "name": "チェリッシュナーサリスクール木場",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/40tyerisshukiba.pdf",
+   "area": "認可保育園等の紹介（小松橋・東陽地区）"
+  },
+  {
+   "name": "小規模保育室ラッキーココナッツ",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/00luckycoconuts.pdf",
+   "area": "認可保育園等の紹介（小松橋・東陽地区）"
+  },
+  {
+   "name": "キッズスマイル江東千石",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kidssengoku.pdf",
+   "area": "認可保育園等の紹介（小松橋・東陽地区）"
+  },
+  {
+   "name": "文化教養学園",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/43bunnkakyouyou.pdf",
+   "area": "認可保育園等の紹介（小松橋・東陽地区）"
+  },
+  {
+   "name": "AIAI NURSERY 千田",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/44aiaisenda.pdf",
+   "area": "認可保育園等の紹介（小松橋・東陽地区）"
+  },
+  {
+   "name": "千田",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/senda.pdf",
+   "area": "認可保育園等の紹介（小松橋・東陽地区）"
+  },
+  {
+   "name": "保育園ミルキーウェイ清澄白河園",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/mirukikiyosumi.pdf",
+   "area": "認可保育園等の紹介（小松橋・東陽地区）"
+  },
+  {
+   "name": "マミー保育園扇橋",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/47mami-ougibasi.pdf",
+   "area": "認可保育園等の紹介（小松橋・東陽地区）"
+  },
+  {
+   "name": "まかな",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/makana.pdf",
+   "area": "認可保育園等の紹介（小松橋・東陽地区）"
+  },
+  {
+   "name": "アソシエ住吉扇橋",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/asosiesumiyoshi.pdf",
+   "area": "認可保育園等の紹介（小松橋・東陽地区）"
+  },
+  {
+   "name": "猿江",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/sarue_1.pdf",
+   "area": "認可保育園等の紹介（小松橋・東陽地区）"
+  },
+  {
+   "name": "キッズスマイル江東猿江",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kidssarue.pdf",
+   "area": "認可保育園等の紹介（小松橋・東陽地区）"
+  },
+  {
+   "name": "スマイルクラブナーサリー住吉",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/smisma.pdf",
+   "area": "認可保育園等の紹介（小松橋・東陽地区）"
+  },
+  {
+   "name": "グローバルキッズ住吉園",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/gurosumi.pdf",
+   "area": "認可保育園等の紹介（小松橋・東陽地区）"
+  },
+  {
+   "name": "キッズフィールド住吉駅前園",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kidsfieldsumiyoshi.pdf",
+   "area": "認可保育園等の紹介（小松橋・東陽地区）"
+  },
+  {
+   "name": "めばえ",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/mebae.pdf",
+   "area": "認可保育園等の紹介（小松橋・東陽地区）"
+  },
+  {
+   "name": "毛利",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/04mouri.pdf",
+   "area": "認可保育園等の紹介（小松橋・東陽地区）"
+  },
+  {
+   "name": "アゼリヤ",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/azeriya.pdf",
+   "area": "認可保育園等の紹介（小松橋・東陽地区）"
+  },
+  {
+   "name": "スマイルクラブナーサリー木場",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/sumairukiba.pdf",
+   "area": "認可保育園等の紹介（小松橋・東陽地区）"
+  },
+  {
+   "name": "さくらさくみらい木場",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/sakurakiba.pdf",
+   "area": "認可保育園等の紹介（小松橋・東陽地区）"
+  },
+  {
+   "name": "タムスわんぱく保育園木場",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/tamusuwanpakukiba.pdf",
+   "area": "認可保育園等の紹介（小松橋・東陽地区）"
+  },
+  {
+   "name": "MIWA木場公園",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/04miwakiba.pdf",
+   "area": "認可保育園等の紹介（小松橋・東陽地区）"
+  },
+  {
+   "name": "グレース",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/gure-su.pdf",
+   "area": "認可保育園等の紹介（小松橋・東陽地区）"
+  },
+  {
+   "name": "スターチス（本園・分園）",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/sutachisu.pdf",
+   "area": "認可保育園等の紹介（小松橋・東陽地区）"
+  },
+  {
+   "name": "さくらさくみらい東陽二丁目",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/sakuratoyo2.pdf",
+   "area": "認可保育園等の紹介（小松橋・東陽地区）"
+  },
+  {
+   "name": "マミー保育園東陽町",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/65mami-toyotyo.pdf",
+   "area": "認可保育園等の紹介（小松橋・東陽地区）"
+  },
+  {
+   "name": "さくらさくみらい新東陽",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/sakurasintoyo.pdf",
+   "area": "認可保育園等の紹介（小松橋・東陽地区）"
+  },
+  {
+   "name": "ほっぺるランド東陽町",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/hoperutoyocyo.pdf",
+   "area": "認可保育園等の紹介（小松橋・東陽地区）"
+  },
+  {
+   "name": "東陽",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/toyo.pdf",
+   "area": "認可保育園等の紹介（小松橋・東陽地区）"
+  },
+  {
+   "name": "テンダーラビング保育園東陽",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/tenndertoyo.pdf",
+   "area": "認可保育園等の紹介（小松橋・東陽地区）"
+  },
+  {
+   "name": "さくらさくみらい東陽",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/sakuratoyo.pdf",
+   "area": "認可保育園等の紹介（小松橋・東陽地区）"
+  },
+  {
+   "name": "Kid'sPatio 江東おひさま園",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kidspatio.pdf",
+   "area": "認可保育園等の紹介（小松橋・東陽地区）"
+  },
+  {
+   "name": "東雲",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/sinonome.pdf",
+   "area": "認可保育園等の紹介（東雲・有明地区）"
+  },
+  {
+   "name": "YMCAオリーブ",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/ymcaoribu.pdf",
+   "area": "認可保育園等の紹介（東雲・有明地区）"
+  },
+  {
+   "name": "江東湾岸サテライトスマートナーサリースクール（本・分園）",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/105satesuma.pdf",
+   "area": "認可保育園等の紹介（東雲・有明地区）"
+  },
+  {
+   "name": "YMCAキャナルコート",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/ymcakyanarukoto.pdf",
+   "area": "認可保育園等の紹介（東雲・有明地区）"
+  },
+  {
+   "name": "おうち保育園しののめ",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/ouchishinonome.pdf",
+   "area": "認可保育園等の紹介（東雲・有明地区）"
+  },
+  {
+   "name": "ひまわりキッズガーデン東雲",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/himawarisinonome.pdf",
+   "area": "認可保育園等の紹介（東雲・有明地区）"
+  },
+  {
+   "name": "しののめYMCAこども園",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/shinonomeymca.pdf",
+   "area": "認可保育園等の紹介（東雲・有明地区）"
+  },
+  {
+   "name": "東雲キャナルコートナーサリースクール",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/shinonomekyanarukoto.pdf",
+   "area": "認可保育園等の紹介（東雲・有明地区）"
+  },
+  {
+   "name": "グローバルキッズしののめ園",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/gurosinonome.pdf",
+   "area": "認可保育園等の紹介（東雲・有明地区）"
+  },
+  {
+   "name": "みんなのみらいをつくる保育園東雲",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/mintukushinonome.pdf",
+   "area": "認可保育園等の紹介（東雲・有明地区）"
+  },
+  {
+   "name": "ナーサリールームベリーベア東雲",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/113beri-beasinonome.pdf",
+   "area": "認可保育園等の紹介（東雲・有明地区）"
+  },
+  {
+   "name": "東雲第二",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/shinonomedai2hoikuen.pdf",
+   "area": "認可保育園等の紹介（東雲・有明地区）"
+  },
+  {
+   "name": "キッズスマイル江東有明",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kidsariake.pdf",
+   "area": "認可保育園等の紹介（東雲・有明地区）"
+  },
+  {
+   "name": "ひまわりキッズガーデン有明",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/himawarikizzugaadenariake.pdf",
+   "area": "認可保育園等の紹介（東雲・有明地区）"
+  },
+  {
+   "name": "ひまわりキッズガーデン有明の森",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/r4himawariariakenomori.pdf",
+   "area": "認可保育園等の紹介（東雲・有明地区）"
+  },
+  {
+   "name": "さんいく保育園有明",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/sanikuariake.pdf",
+   "area": "認可保育園等の紹介（東雲・有明地区）"
+  },
+  {
+   "name": "おはよう保育園 有明",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/120ohayouariake.pdf",
+   "area": "認可保育園等の紹介（東雲・有明地区）"
+  },
+  {
+   "name": "武蔵野大学附属有明こども園",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/00ariakekodomoen.pdf",
+   "area": "認可保育園等の紹介（東雲・有明地区）"
+  },
+  {
+   "name": "ニチイキッズありあけ",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/122nitiikizzuariake.pdf",
+   "area": "認可保育園等の紹介（東雲・有明地区）"
+  },
+  {
+   "name": "辰巳第二",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/tatumidaini.pdf",
+   "area": "認可保育園等の紹介（東雲・有明地区）"
+  },
+  {
+   "name": "辰巳第三",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/tatsumidai3.pdf",
+   "area": "認可保育園等の紹介（東雲・有明地区）"
+  },
+  {
+   "name": "太陽の子 潮見",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/00taiyoushiomi.pdf",
+   "area": "認可保育園等の紹介（東雲・有明地区）"
+  },
+  {
+   "name": "潮見",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/shiomi.pdf",
+   "area": "認可保育園等の紹介（東雲・有明地区）"
+  },
+  {
+   "name": "おはよう保育園 清澄白河",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/1ohayoukiyosumisirakawa.pdf",
+   "area": "認可保育園等の紹介（白河・富岡地区）"
+  },
+  {
+   "name": "うぃず清澄白河駅前",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/with.pdf",
+   "area": "認可保育園等の紹介（白河・富岡地区）"
+  },
+  {
+   "name": "ワーカーズコープ新大橋のびっこ",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/entirasi.pdf",
+   "area": "認可保育園等の紹介（白河・富岡地区）"
+  },
+  {
+   "name": "ゆめの森",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/5yumenomori.pdf",
+   "area": "認可保育園等の紹介（白河・富岡地区）"
+  },
+  {
+   "name": "太陽の子 森下三丁目",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/taiyoumorisita.pdf",
+   "area": "認可保育園等の紹介（白河・富岡地区）"
+  },
+  {
+   "name": "神愛",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/7sinnai.pdf",
+   "area": "認可保育園等の紹介（白河・富岡地区）"
+  },
+  {
+   "name": "森下",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/morisita.pdf",
+   "area": "認可保育園等の紹介（白河・富岡地区）"
+  },
+  {
+   "name": "あゆみ",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/9ayumi.pdf",
+   "area": "認可保育園等の紹介（白河・富岡地区）"
+  },
+  {
+   "name": "グローバルキッズ深川森下園（本園）",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/gurofukamorihonenn.pdf",
+   "area": "認可保育園等の紹介（白河・富岡地区）"
+  },
+  {
+   "name": "グローバルキッズ深川森下園（分園）",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/gurofukamoribunnenn.pdf",
+   "area": "認可保育園等の紹介（白河・富岡地区）"
+  },
+  {
+   "name": "グローバルキッズ森下五丁目園",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/guromori5.pdf",
+   "area": "認可保育園等の紹介（白河・富岡地区）"
+  },
+  {
+   "name": "グローバルキッズ平野園",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/globalkidshirano.pdf",
+   "area": "認可保育園等の紹介（白河・富岡地区）"
+  },
+  {
+   "name": "さくらさくみらい 三好",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/sakuramiyosi.pdf",
+   "area": "認可保育園等の紹介（白河・富岡地区）"
+  },
+  {
+   "name": "アンジェリカ白河",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/anjerikasirakawa.pdf",
+   "area": "認可保育園等の紹介（白河・富岡地区）"
+  },
+  {
+   "name": "白河",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/shirakawa.pdf",
+   "area": "認可保育園等の紹介（白河・富岡地区）"
+  },
+  {
+   "name": "白河かもめ",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/00shirakawakamome.pdf",
+   "area": "認可保育園等の紹介（白河・富岡地区）"
+  },
+  {
+   "name": "グローバルキッズ白河一丁目園",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/guroshirakawa1chome.pdf",
+   "area": "認可保育園等の紹介（白河・富岡地区）"
+  },
+  {
+   "name": "グローバルキッズ清澄白河園",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/gurokiyosumishirakawa.pdf",
+   "area": "認可保育園等の紹介（白河・富岡地区）"
+  },
+  {
+   "name": "子供の村",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kodomonomura.pdf",
+   "area": "認可保育園等の紹介（白河・富岡地区）"
+  },
+  {
+   "name": "小鳩保育園 清澄白河",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kobatokiyosumisirakawa.pdf",
+   "area": "認可保育園等の紹介（白河・富岡地区）"
+  },
+  {
+   "name": "まなびの森保育園白河",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/04manabinomorishirakawa.pdf",
+   "area": "認可保育園等の紹介（白河・富岡地区）"
+  },
+  {
+   "name": "さんいく保育園清澄白河",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/sannikukiyosumi.pdf",
+   "area": "認可保育園等の紹介（白河・富岡地区）"
+  },
+  {
+   "name": "たかもり",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/24takamori.pdf",
+   "area": "認可保育園等の紹介（白河・富岡地区）"
+  },
+  {
+   "name": "小鳩保育園永代",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kobatoeitai.pdf",
+   "area": "認可保育園等の紹介（白河・富岡地区）"
+  },
+  {
+   "name": "深川一丁目",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/fukagawaichoume.pdf",
+   "area": "認可保育園等の紹介（白河・富岡地区）"
+  },
+  {
+   "name": "おうち保育園門前仲町",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/ouchimonnaka.pdf",
+   "area": "認可保育園等の紹介（白河・富岡地区）"
+  },
+  {
+   "name": "ナーサリールームベリーベア深川冬木",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/beribeafukagawafuyuki.pdf",
+   "area": "認可保育園等の紹介（白河・富岡地区）"
+  },
+  {
+   "name": "もんなかほうゆう",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/monnakahouyu.pdf",
+   "area": "認可保育園等の紹介（白河・富岡地区）"
+  },
+  {
+   "name": "まこと",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/makoto.pdf",
+   "area": "認可保育園等の紹介（白河・富岡地区）"
+  },
+  {
+   "name": "小鳩スマート保育所 冬木",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kobatofuyuki.pdf",
+   "area": "認可保育園等の紹介（白河・富岡地区）"
+  },
+  {
+   "name": "ひろがり保育園・門前仲町",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/hirogarimonzennakacho.pdf",
+   "area": "認可保育園等の紹介（白河・富岡地区）"
+  },
+  {
+   "name": "アスクもんなか",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/33asukumonnaka.pdf",
+   "area": "認可保育園等の紹介（白河・富岡地区）"
+  },
+  {
+   "name": "コスモス江東富岡",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kosumosukototomioka.pdf",
+   "area": "認可保育園等の紹介（白河・富岡地区）"
+  },
+  {
+   "name": "さくらさくみらい 富岡",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/sakuratomioka.pdf",
+   "area": "認可保育園等の紹介（白河・富岡地区）"
+  },
+  {
+   "name": "木下の保育園 富岡",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/00kinoshitanotomioka.pdf",
+   "area": "認可保育園等の紹介（白河・富岡地区）"
+  },
+  {
+   "name": "古石場",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/furuishiba_1.pdf",
+   "area": "認可保育園等の紹介（白河・富岡地区）"
+  },
+  {
+   "name": "ポピンズナーサリースクール越中島",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/39popinnzuettyuuzima.pdf",
+   "area": "認可保育園等の紹介（白河・富岡地区）"
+  },
+  {
+   "name": "太陽の子 越中島",
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/taiyoueccyuujima.pdf",
+   "area": "認可保育園等の紹介（白河・富岡地区）"
+  }
+ ]
+}

@@ -1,0 +1,819 @@
+{
+ "municipalitySlug": "koto",
+ "note": "各施設の公式サイト。Web検索で特定し、URLへ実アクセスして施設名または電話番号の一致を確認したものだけを載せている。",
+ "facilityCount": 203,
+ "sites": {
+  "100010": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/morisita.pdf",
+   "type": "city"
+  },
+  "100020": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/shirakawa.pdf",
+   "type": "city"
+  },
+  "100030": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/fukagawaichoume.pdf",
+   "type": "city"
+  },
+  "100040": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/furuishiba_1.pdf",
+   "type": "city"
+  },
+  "100060": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/76siozaki.pdf",
+   "type": "city"
+  },
+  "100080": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/sinonome.pdf",
+   "type": "city"
+  },
+  "100090": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/shinonomedai2hoikuen.pdf",
+   "type": "city"
+  },
+  "100120": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/tatsumidai3.pdf",
+   "type": "city"
+  },
+  "100140": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/toyo.pdf",
+   "type": "city"
+  },
+  "100150": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kameido.pdf",
+   "type": "city"
+  },
+  "100160": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kameido2.pdf",
+   "type": "city"
+  },
+  "100170": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kameidodaisann.pdf",
+   "type": "city"
+  },
+  "100190": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/wakaba.pdf",
+   "type": "city"
+  },
+  "100200": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/oojima.pdf",
+   "type": "city"
+  },
+  "100210": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/oojimadaini.pdf",
+   "type": "city"
+  },
+  "100220": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/162oozimadaisann.pdf",
+   "type": "city"
+  },
+  "100230": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/oojimadai4.pdf",
+   "type": "city"
+  },
+  "100250": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kitasuna.pdf",
+   "type": "city"
+  },
+  "100270": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/onagigawadaini.pdf",
+   "type": "city"
+  },
+  "100290": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/184kametakadaini.pdf",
+   "type": "city"
+  },
+  "100300": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/higasisuna_1.pdf",
+   "type": "city"
+  },
+  "100310": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/higashisunadaini.pdf",
+   "type": "city"
+  },
+  "100330": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/higashisunadai4.pdf",
+   "type": "city"
+  },
+  "100340": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/minamisunadaiichi.pdf",
+   "type": "city"
+  },
+  "100360": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/199minamisunadaisan.pdf",
+   "type": "city"
+  },
+  "100380": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/minamisunadaigo.pdf",
+   "type": "city"
+  },
+  "100390": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/210zyoutou.pdf",
+   "type": "city"
+  },
+  "100400": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/shiomi.pdf",
+   "type": "city"
+  },
+  "100410": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/sarue_1.pdf",
+   "type": "city"
+  },
+  "100420": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/00shirakawakamome.pdf",
+   "type": "city"
+  },
+  "100430": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/toyosu.pdf",
+   "type": "city"
+  },
+  "100440": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/04mouri.pdf",
+   "type": "city"
+  },
+  "100450": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/minamisunadaini.pdf",
+   "type": "city"
+  },
+  "100460": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/siohama.pdf",
+   "type": "city"
+  },
+  "100470": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/senda.pdf",
+   "type": "city"
+  },
+  "100480": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kameidodaiyonn.pdf",
+   "type": "city"
+  },
+  "100490": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/minamisunasakura.pdf",
+   "type": "city"
+  },
+  "100500": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/213sinnsuna.pdf",
+   "type": "city"
+  },
+  "100510": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/onagigawa.pdf",
+   "type": "city"
+  },
+  "100520": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/04kametaka.pdf",
+   "type": "city"
+  },
+  "100530": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/200minamisunadaiyon.pdf",
+   "type": "city"
+  },
+  "100540": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/158oozimadaigo.pdf",
+   "type": "city"
+  },
+  "100550": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/tatumidaini.pdf",
+   "type": "city"
+  },
+  "100560": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/higashisunadaisan.pdf",
+   "type": "city"
+  },
+  "200010": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/7sinnai.pdf",
+   "type": "city"
+  },
+  "200020": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kodomonomura.pdf",
+   "type": "city"
+  },
+  "200030": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/makoto.pdf",
+   "type": "city"
+  },
+  "200040": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/fukagawaairin.pdf",
+   "type": "city"
+  },
+  "200050": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/mebae.pdf",
+   "type": "city"
+  },
+  "200060": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/azeriya.pdf",
+   "type": "city"
+  },
+  "200070": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kameidosengen.pdf",
+   "type": "city"
+  },
+  "200080": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/04sunamati.pdf",
+   "type": "city"
+  },
+  "200090": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/sunamatiyuuai.pdf",
+   "type": "city"
+  },
+  "200100": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/tomoshibi.pdf",
+   "type": "city"
+  },
+  "200110": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/minamisunamachi.pdf",
+   "type": "city"
+  },
+  "200120": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/hachiman.pdf",
+   "type": "city"
+  },
+  "200130": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/ymcakyanarukoto.pdf",
+   "type": "city"
+  },
+  "200140": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/ymcaoribu.pdf",
+   "type": "city"
+  },
+  "200150": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/himawarisinonome.pdf",
+   "type": "city"
+  },
+  "200160": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/toyosunasari.pdf",
+   "type": "city"
+  },
+  "200170": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/93himawaritoyosu.pdf",
+   "type": "city"
+  },
+  "200180": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/yurarintoyoyon.pdf",
+   "type": "city"
+  },
+  "200190": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/miwashinfo.pdf",
+   "type": "city"
+  },
+  "200200": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/hidamari.pdf",
+   "type": "city"
+  },
+  "200210": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/33asukumonnaka.pdf",
+   "type": "city"
+  },
+  "200220": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/80airinsharo-mu.pdf",
+   "type": "city"
+  },
+  "200230": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/dainitoyosunasari.pdf",
+   "type": "city"
+  },
+  "200240": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/himawarikizzugaadenariake.pdf",
+   "type": "city"
+  },
+  "200250": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kameidokokorohonnen.pdf",
+   "type": "city"
+  },
+  "200255": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kameidokokorobunen.pdf",
+   "type": "city"
+  },
+  "200260": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/113beri-beasinonome.pdf",
+   "type": "city"
+  },
+  "200270": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/00kinoshitanotomioka.pdf",
+   "type": "city"
+  },
+  "200280": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/anzyerikakameido.pdf",
+   "type": "city"
+  },
+  "200290": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/sannikukiyosumi.pdf",
+   "type": "city"
+  },
+  "200300": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/r4himawariariakenomori.pdf",
+   "type": "city"
+  },
+  "200310": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/143kobi-kameido.pdf",
+   "type": "city"
+  },
+  "200320": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/hanatotori.pdf",
+   "type": "city"
+  },
+  "200330": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/shinonomekyanarukoto.pdf",
+   "type": "city"
+  },
+  "200340": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/miaherusahibiki.pdf",
+   "type": "city"
+  },
+  "200350": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/sumaisusereson.pdf",
+   "type": "city"
+  },
+  "200360": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/with.pdf",
+   "type": "city"
+  },
+  "200370": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/gurofukamorihonenn.pdf",
+   "type": "city"
+  },
+  "200375": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/gurofukamoribunnenn.pdf",
+   "type": "city"
+  },
+  "200380": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/hoperutoyocyo.pdf",
+   "type": "city"
+  },
+  "200390": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/tenndertoyo.pdf",
+   "type": "city"
+  },
+  "200410": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/152mami-nisioozima.pdf",
+   "type": "city"
+  },
+  "200420": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/seikashiokaze.pdf",
+   "type": "city"
+  },
+  "200430": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/syougakkan.pdf",
+   "type": "city"
+  },
+  "200440": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/sanikuariake.pdf",
+   "type": "city"
+  },
+  "200460": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/gure-su.pdf",
+   "type": "city"
+  },
+  "200470": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/gurokame.pdf",
+   "type": "city"
+  },
+  "200480": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/00kagayaki.pdf",
+   "type": "city"
+  },
+  "200490": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/rucheminamisuna.pdf",
+   "type": "city"
+  },
+  "200500": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/9ayumi.pdf",
+   "type": "city"
+  },
+  "200520": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/asktoyosu.pdf",
+   "type": "city"
+  },
+  "200530": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/manamori.pdf",
+   "type": "city"
+  },
+  "200540": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kamesatehonen.pdf",
+   "type": "city"
+  },
+  "200545": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kamesatebunenn.pdf",
+   "type": "city"
+  },
+  "200550": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kobatokiyosumisirakawa.pdf",
+   "type": "city"
+  },
+  "200560": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/beribeafukagawafuyuki.pdf",
+   "type": "city"
+  },
+  "200570": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/00tktoyosu.pdf",
+   "type": "city"
+  },
+  "200580": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/gurotoyo5.pdf",
+   "type": "city"
+  },
+  "200590": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/mintukushinonome.pdf",
+   "type": "city"
+  },
+  "200600": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/gurosumi.pdf",
+   "type": "city"
+  },
+  "200610": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/sumairukiba.pdf",
+   "type": "city"
+  },
+  "200620": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/sutachisu.pdf",
+   "type": "city"
+  },
+  "200625": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/sutachisu.pdf",
+   "type": "city"
+  },
+  "200630": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/65mami-toyotyo.pdf",
+   "type": "city"
+  },
+  "200640": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/132kuorisukizzukameido.pdf",
+   "type": "city"
+  },
+  "200650": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/guronisioojima.pdf",
+   "type": "city"
+  },
+  "200660": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/163kokororabooozima.pdf",
+   "type": "city"
+  },
+  "200665": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/163kokororabooozima.pdf",
+   "type": "city"
+  },
+  "200680": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/5yumenomori.pdf",
+   "type": "city"
+  },
+  "200690": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/00tktoyosu2.pdf",
+   "type": "city"
+  },
+  "200700": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/04miwakiba.pdf",
+   "type": "city"
+  },
+  "200720": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/173sukurudokitasuna.pdf",
+   "type": "city"
+  },
+  "200730": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/209ohayouminamisunamati.pdf",
+   "type": "city"
+  },
+  "200740": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/178miruki-kitasuna.pdf",
+   "type": "city"
+  },
+  "200750": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/globalkidsminamisuna.pdf",
+   "type": "city"
+  },
+  "200760": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/189mami-higasisuna.pdf",
+   "type": "city"
+  },
+  "200770": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/1ohayoukiyosumisirakawa.pdf",
+   "type": "city"
+  },
+  "200780": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/guroshirakawa1chome.pdf",
+   "type": "city"
+  },
+  "200790": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/gurokiyosumishirakawa.pdf",
+   "type": "city"
+  },
+  "200800": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/04manabinomorishirakawa.pdf",
+   "type": "city"
+  },
+  "200810": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/39popinnzuettyuuzima.pdf",
+   "type": "city"
+  },
+  "200820": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kidssarue.pdf",
+   "type": "city"
+  },
+  "200830": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/artshiohama.pdf",
+   "type": "city"
+  },
+  "200840": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/122nitiikizzuariake.pdf",
+   "type": "city"
+  },
+  "200850": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/129ohayoukameido.pdf",
+   "type": "city"
+  },
+  "200860": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/r4kokorokoto.pdf",
+   "type": "city"
+  },
+  "200870": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/oozimanakayosi.pdf",
+   "type": "city"
+  },
+  "200880": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kidsoojima.pdf",
+   "type": "city"
+  },
+  "200900": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/dori-mu.pdf",
+   "type": "city"
+  },
+  "200910": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/entirasi.pdf",
+   "type": "city"
+  },
+  "200915": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/entirasi.pdf",
+   "type": "city"
+  },
+  "200920": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/146miruki-kameido.pdf",
+   "type": "city"
+  },
+  "200930": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/putinisi.pdf",
+   "type": "city"
+  },
+  "200940": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/taiyoumorisita.pdf",
+   "type": "city"
+  },
+  "200950": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/sakuratomioka.pdf",
+   "type": "city"
+  },
+  "200960": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/47mami-ougibasi.pdf",
+   "type": "city"
+  },
+  "200970": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/sakuratoyo2.pdf",
+   "type": "city"
+  },
+  "200990": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/sakuratoyosu.pdf",
+   "type": "city"
+  },
+  "201000": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/gurosinonome.pdf",
+   "type": "city"
+  },
+  "201010": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kidsariake.pdf",
+   "type": "city"
+  },
+  "201020": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/00taiyoushiomi.pdf",
+   "type": "city"
+  },
+  "201030": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/nijiirokameido.pdf",
+   "type": "city"
+  },
+  "201040": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/hoppaoojimataun.pdf",
+   "type": "city"
+  },
+  "201050": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/asukuhigashioojima.pdf",
+   "type": "city"
+  },
+  "201060": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kidskitasuna.pdf",
+   "type": "city"
+  },
+  "201070": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/nijiirokitasuna.pdf",
+   "type": "city"
+  },
+  "201080": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/00miraikukitasuna.pdf",
+   "type": "city"
+  },
+  "201090": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/nijiirohigashisuna.pdf",
+   "type": "city"
+  },
+  "201100": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kidshigashisuna.pdf",
+   "type": "city"
+  },
+  "201110": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/minamisunaarakawa.pdf",
+   "type": "city"
+  },
+  "201120": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/guromori5.pdf",
+   "type": "city"
+  },
+  "201130": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/globalkidshirano.pdf",
+   "type": "city"
+  },
+  "201140": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/sakuramiyosi.pdf",
+   "type": "city"
+  },
+  "201150": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kidssiohama.pdf",
+   "type": "city"
+  },
+  "201170": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kidssengoku.pdf",
+   "type": "city"
+  },
+  "201180": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/tamusuwanpakukiba.pdf",
+   "type": "city"
+  },
+  "201190": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/hirogarimonzennakacho.pdf",
+   "type": "city"
+  },
+  "201200": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/anjerikasirakawa.pdf",
+   "type": "city"
+  },
+  "201210": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/monnakahouyu.pdf",
+   "type": "city"
+  },
+  "201220": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/taiyoueccyuujima.pdf",
+   "type": "city"
+  },
+  "201230": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/edagawasakuranbo.pdf",
+   "type": "city"
+  },
+  "201240": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/gurotoyosu.pdf",
+   "type": "city"
+  },
+  "201250": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/120ohayouariake.pdf",
+   "type": "city"
+  },
+  "201260": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/40tyerisshukiba.pdf",
+   "type": "city"
+  },
+  "201270": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/mirukikiyosumi.pdf",
+   "type": "city"
+  },
+  "201280": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/asosiesumiyoshi.pdf",
+   "type": "city"
+  },
+  "201290": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/sakurakiba.pdf",
+   "type": "city"
+  },
+  "201300": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/sakurasintoyo.pdf",
+   "type": "city"
+  },
+  "201310": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/141popinzukameido.pdf",
+   "type": "city"
+  },
+  "201320": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/meriminamisuna.pdf",
+   "type": "city"
+  },
+  "201330": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kosumosukototomioka.pdf",
+   "type": "city"
+  },
+  "201340": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/82yurarinntoyosuhuronnto.pdf",
+   "type": "city"
+  },
+  "201350": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/tsukushi.pdf",
+   "type": "city"
+  },
+  "201360": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/211himawari.pdf",
+   "type": "city"
+  },
+  "201370": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/44aiaisenda.pdf",
+   "type": "city"
+  },
+  "201380": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kobatoeitai.pdf",
+   "type": "city"
+  },
+  "201390": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/angelkameido.pdf",
+   "type": "city"
+  },
+  "205010": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/shinonomeymca.pdf",
+   "type": "city"
+  },
+  "205020": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/00toyosumegumi.pdf",
+   "type": "city"
+  },
+  "205030": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/00ariakekodomoen.pdf",
+   "type": "city"
+  },
+  "206010": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/43bunnkakyouyou.pdf",
+   "type": "city"
+  },
+  "210010": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/outitoyosu.pdf",
+   "type": "city"
+  },
+  "210020": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/ouchishinonome.pdf",
+   "type": "city"
+  },
+  "210030": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/ouchimonnaka.pdf",
+   "type": "city"
+  },
+  "210040": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kyarinishioojima.pdf",
+   "type": "city"
+  },
+  "210050": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/smisma.pdf",
+   "type": "city"
+  },
+  "210060": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kobatofuyuki.pdf",
+   "type": "city"
+  },
+  "210070": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kobatokitasuna.pdf",
+   "type": "city"
+  },
+  "210080": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/makana.pdf",
+   "type": "city"
+  },
+  "210090": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/00luckycoconuts.pdf",
+   "type": "city"
+  },
+  "210100": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/morinonakamakameido.pdf",
+   "type": "city"
+  },
+  "210110": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/morinonakamahigasisuna.pdf",
+   "type": "city"
+  },
+  "210120": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/24takamori.pdf",
+   "type": "city"
+  },
+  "210130": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kamenoko.pdf",
+   "type": "city"
+  },
+  "210140": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/sannraizu.pdf",
+   "type": "city"
+  },
+  "210150": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kidsfieldhigashioojima.pdf",
+   "type": "city"
+  },
+  "210160": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/04morinonakamakitasuna.pdf",
+   "type": "city"
+  },
+  "210170": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kidsfieldsumiyoshi.pdf",
+   "type": "city"
+  },
+  "220010": {
+   "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/shokai/documents/kidspatio.pdf",
+   "type": "city"
+  }
+ }
+}

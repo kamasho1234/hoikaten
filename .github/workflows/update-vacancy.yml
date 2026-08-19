@@ -12,6 +12,7 @@ name: 保育所空き状況の更新
 # 杉並区は入所希望月の前々月末に翌々月ぶんの募集予定人数を公表する（9月入所分が7月31日現在）。
 # 葛飾区は入所希望月の前々月25日ごろに募集予定人数を公表する（9月選考分が7月25日現在）。
 # 品川区は翌々月ぶんの入園可能数を前々月下旬に公表する（9月入園分が7月23日現在）。PDFが2本に分かれている。
+# 江東区は翌々月ぶんの募集人員一覧を前々月下旬に公表する（9月入所分が7月23日現在）。
 # そのため日次で見に行き、データの時点が変わったときだけ更新する。
 # 取り込みスクリプトは想定と違う構造を検知すると exit 1 するため、
 # 失敗した場合は既存のJSONがそのまま残る（壊れたデータを公開しない）。
@@ -111,6 +112,11 @@ jobs:
         continue-on-error: true
         run: npm run vacancy:fetch:shinagawa
 
+      - name: 江東区を取り込む
+        id: koto
+        continue-on-error: true
+        run: npm run vacancy:fetch:koto
+
       # ここから下は失敗したらコミットしない（壊れたデータを公開しないため）
       - name: 型チェック
         run: npx tsc --noEmit
@@ -139,6 +145,7 @@ jobs:
               *suginami.json) MSG="$MSG 杉並区（$(node -p "require('./src/lib/vacancy/suginami.json').asOf")時点）" ;;
               *katsushika.json) MSG="$MSG 葛飾区（$(node -p "require('./src/lib/vacancy/katsushika.json').asOf")時点）" ;;
               *shinagawa.json) MSG="$MSG 品川区（$(node -p "require('./src/lib/vacancy/shinagawa.json').asOf")時点）" ;;
+              *koto.json) MSG="$MSG 江東区（$(node -p "require('./src/lib/vacancy/koto.json').asOf")時点）" ;;
             esac
           done
           git config user.name "github-actions[bot]"
@@ -149,7 +156,7 @@ jobs:
 
       # 取り込みに失敗した自治体があれば、更新自体は済ませたうえで失敗として通知する
       - name: 取り込みの結果を判定する
-        if: steps.yokohama.outcome == 'failure' || steps.meguro.outcome == 'failure' || steps.kawasaki.outcome == 'failure' || steps.saitama.outcome == 'failure' || steps.ota.outcome == 'failure' || steps.adachi.outcome == 'failure' || steps.edogawa.outcome == 'failure' || steps.nerima.outcome == 'failure' || steps.setagaya.outcome == 'failure' || steps.suginami.outcome == 'failure' || steps.katsushika.outcome == 'failure' || steps.shinagawa.outcome == 'failure'
+        if: steps.yokohama.outcome == 'failure' || steps.meguro.outcome == 'failure' || steps.kawasaki.outcome == 'failure' || steps.saitama.outcome == 'failure' || steps.ota.outcome == 'failure' || steps.adachi.outcome == 'failure' || steps.edogawa.outcome == 'failure' || steps.nerima.outcome == 'failure' || steps.setagaya.outcome == 'failure' || steps.suginami.outcome == 'failure' || steps.katsushika.outcome == 'failure' || steps.shinagawa.outcome == 'failure' || steps.koto.outcome == 'failure'
         run: |
           echo "取り込みに失敗した自治体があります:"
           echo "  横浜市: ${{ steps.yokohama.outcome }}"
@@ -164,5 +171,6 @@ jobs:
           echo "  杉並区: ${{ steps.suginami.outcome }}"
           echo "  葛飾区: ${{ steps.katsushika.outcome }}"
           echo "  品川区: ${{ steps.shinagawa.outcome }}"
+          echo "  江東区: ${{ steps.koto.outcome }}"
           echo "公式サイトの構造が変わっていないか確認してください。"
           exit 1
