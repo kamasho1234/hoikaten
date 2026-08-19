@@ -452,6 +452,12 @@
       "name": "福岡県宗像市",
       "source": "https://www.city.munakata.lg.jp/kiji0032822/3_2822_8442_up_8umg6imd.pdf",
       "note": "令和8年度 入所申込みのご案内 8ページ。基準指数は最大24点で「保護者の中で最も低い人の指数を基準指数とする」→scoringMethod:min。調整指数⑸⑹⑺・⑻はそれぞれいずれか1つ"
+    },
+    {
+      "slug": "sano",
+      "name": "栃木県佐野市",
+      "source": "https://www.city.sano.lg.jp/material/files/group/42/R8-Kijyun.pdf",
+      "note": "認定調書評点基準表（R8）。基準指数は父母各17点。区分5の施設等付き添い・区分8就学等は区分1（就労）を準用するため就労と同じ選択肢の質問として実装"
     }
   ],
   "failed": [
@@ -756,6 +762,11 @@
       "slug": "ishinomaki",
       "name": "宮城県石巻市",
       "reason": "令和8年度 保育施設等利用案内（R8riyouannai.pdf）に指数表・選考基準表の記載がなく、「保育を必要とする度合いの大きい方から入所決定」という定性的な説明のみ"
+    },
+    {
+      "slug": "tsuruoka",
+      "name": "山形県鶴岡市",
+      "reason": "令和8年度 入園のてびき4ページに「保育の必要性が高い順に優先して決定」とあるのみで、指数表・点数表の記載なし（https://www.city.tsuruoka.lg.jp/kyoiku/nyuen/adukeru/nyuuennmousikomi6-1.files/nyuuennnotebiki.pdf）"
     }
   ],
   "templateMarked": [
