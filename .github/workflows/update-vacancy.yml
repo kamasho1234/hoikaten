@@ -99,6 +99,11 @@ jobs:
         continue-on-error: true
         run: npm run vacancy:fetch:suginami
 
+      - name: 葛飾区を取り込む
+        id: katsushika
+        continue-on-error: true
+        run: npm run vacancy:fetch:katsushika
+
       # ここから下は失敗したらコミットしない（壊れたデータを公開しないため）
       - name: 型チェック
         run: npx tsc --noEmit
@@ -125,6 +130,7 @@ jobs:
               *nerima.json) MSG="$MSG 練馬区（$(node -p "require('./src/lib/vacancy/nerima.json').asOf")時点）" ;;
               *setagaya.json) MSG="$MSG 世田谷区（$(node -p "require('./src/lib/vacancy/setagaya.json').asOf")時点）" ;;
               *suginami.json) MSG="$MSG 杉並区（$(node -p "require('./src/lib/vacancy/suginami.json').asOf")時点）" ;;
+              *katsushika.json) MSG="$MSG 葛飾区（$(node -p "require('./src/lib/vacancy/katsushika.json').asOf")時点）" ;;
             esac
           done
           git config user.name "github-actions[bot]"
