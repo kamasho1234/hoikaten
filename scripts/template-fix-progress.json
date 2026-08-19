@@ -196,6 +196,22 @@
       "url": "https://www.city.fussa.tokyo.jp/life/child/nursery/1018667.html",
       "note": "基準表がPDFでなくページ内の画像（riyouchouseihyou.png / chouseishisuu.png）として掲載されており、画像から読み取った。基本指数(父母各最大50)+調整指数16項目。就労予定-8・自営協力者-6・祖父母同居-10・滞納-10",
       "fixedAt": "2026-08-19"
+    },
+    {
+      "slug": "kitanagoya",
+      "name": "愛知県北名古屋市",
+      "source": "北名古屋市保育課「北名古屋市保育利用調整基準表 ＜R8.4.1改定＞」",
+      "url": "https://www.city.kitanagoya.lg.jp/_res/projects/default_project/_page_/001/007/174/tensuhyo_r8.pdf",
+      "note": "基礎点数(父母各最大20)+指数調整。ひとり親は基礎20＋調整5。添付書類の種類で-1〜-4の減点、就学は通信/予定で-2。育休延長許容は「点数に関係なく順番を最後」とするため質問化していない",
+      "fixedAt": "2026-08-19"
+    },
+    {
+      "slug": "hamura",
+      "name": "東京都羽村市",
+      "source": "羽村市子育て支援課「令和8年度 保育園・幼稚園等ガイドブック」P8「別表（第4条関係）利用調整（選考）基準表」",
+      "url": "https://www.city.hamura.tokyo.jp/cmsfiles/contents/0000020/20148/r8guidebook.pdf",
+      "note": "min方式（原典「基準点数が最も低い保護者の基準点数に調整点数を加算して判定」）。基準点数最大20。在住在勤でない場合-11・育休延長許容-20・滞納-10。保育士は市内+4/市外+2",
+      "fixedAt": "2026-08-19"
     }
   ],
   "failed": [
@@ -330,6 +346,18 @@
       "slug": "ryugasaki",
       "name": "茨城県龍ケ崎市",
       "reason": "令和8年度保育所等・幼稚園・認定こども園利用案内PDF(18ページ)に選考基準の記載がなく、指数表が無い",
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "slug": "konan",
+      "name": "愛知県江南市",
+      "reason": "市サイトがWAF（Incapsula）でブロックされ、通常のHTTPクライアントからアクセスできない。「保育所等利用調整基準」PDFの存在は検索結果で確認できるが取得不可",
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "slug": "owariasahi",
+      "name": "愛知県尾張旭市",
+      "reason": "利用申込ページが302を返し内容を取得できない。「尾張旭市教育・保育施設及び地域型保育事業に係る利用調整基準」の存在は検索結果で確認できるが取得不可",
       "checkedAt": "2026-08-19"
     }
   ],
