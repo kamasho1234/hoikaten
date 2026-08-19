@@ -194,6 +194,16 @@ jobs:
         continue-on-error: true
         run: npm run vacancy:fetch:sagamihara
 
+      - name: 八王子市を取り込む
+        id: hachioji
+        continue-on-error: true
+        run: npm run vacancy:fetch:hachioji
+
+      - name: 船橋市を取り込む
+        id: funabashi
+        continue-on-error: true
+        run: npm run vacancy:fetch:funabashi
+
       # ここから下は失敗したらコミットしない（壊れたデータを公開しないため）
       - name: 型チェック
         run: npx tsc --noEmit
@@ -238,6 +248,8 @@ jobs:
               *sendai.json) MSG="$MSG 仙台市（$(node -p "require('./src/lib/vacancy/sendai.json').asOf")時点）" ;;
               *sakai.json) MSG="$MSG 堺市（$(node -p "require('./src/lib/vacancy/sakai.json').asOf")時点）" ;;
               *sagamihara.json) MSG="$MSG 相模原市（$(node -p "require('./src/lib/vacancy/sagamihara.json').asOf")時点）" ;;
+              *hachioji.json) MSG="$MSG 八王子市（$(node -p "require('./src/lib/vacancy/hachioji.json').asOf")時点）" ;;
+              *funabashi.json) MSG="$MSG 船橋市（$(node -p "require('./src/lib/vacancy/funabashi.json').asOf")時点）" ;;
             esac
           done
           git config user.name "github-actions[bot]"
@@ -248,7 +260,7 @@ jobs:
 
       # 取り込みに失敗した自治体があれば、更新自体は済ませたうえで失敗として通知する
       - name: 取り込みの結果を判定する
-        if: steps.yokohama.outcome == 'failure' || steps.meguro.outcome == 'failure' || steps.kawasaki.outcome == 'failure' || steps.saitama.outcome == 'failure' || steps.ota.outcome == 'failure' || steps.adachi.outcome == 'failure' || steps.edogawa.outcome == 'failure' || steps.nerima.outcome == 'failure' || steps.setagaya.outcome == 'failure' || steps.suginami.outcome == 'failure' || steps.katsushika.outcome == 'failure' || steps.shinagawa.outcome == 'failure' || steps.koto.outcome == 'failure' || steps.nakano.outcome == 'failure' || steps.shinjuku.outcome == 'failure' || steps.toshima.outcome == 'failure' || steps.bunkyo.outcome == 'failure' || steps.taito.outcome == 'failure' || steps.chiyoda.outcome == 'failure' || steps.minato.outcome == 'failure' || steps.itabashi.outcome == 'failure' || steps.sumida.outcome == 'failure' || steps.kita.outcome == 'failure' || steps.osaka.outcome == 'failure' || steps.hiroshima.outcome == 'failure' || steps.sendai.outcome == 'failure' || steps.sakai.outcome == 'failure' || steps.sagamihara.outcome == 'failure'
+        if: steps.yokohama.outcome == 'failure' || steps.meguro.outcome == 'failure' || steps.kawasaki.outcome == 'failure' || steps.saitama.outcome == 'failure' || steps.ota.outcome == 'failure' || steps.adachi.outcome == 'failure' || steps.edogawa.outcome == 'failure' || steps.nerima.outcome == 'failure' || steps.setagaya.outcome == 'failure' || steps.suginami.outcome == 'failure' || steps.katsushika.outcome == 'failure' || steps.shinagawa.outcome == 'failure' || steps.koto.outcome == 'failure' || steps.nakano.outcome == 'failure' || steps.shinjuku.outcome == 'failure' || steps.toshima.outcome == 'failure' || steps.bunkyo.outcome == 'failure' || steps.taito.outcome == 'failure' || steps.chiyoda.outcome == 'failure' || steps.minato.outcome == 'failure' || steps.itabashi.outcome == 'failure' || steps.sumida.outcome == 'failure' || steps.kita.outcome == 'failure' || steps.osaka.outcome == 'failure' || steps.hiroshima.outcome == 'failure' || steps.sendai.outcome == 'failure' || steps.sakai.outcome == 'failure' || steps.sagamihara.outcome == 'failure' || steps.hachioji.outcome == 'failure' || steps.funabashi.outcome == 'failure'
         run: |
           echo "取り込みに失敗した自治体があります:"
           echo "  横浜市: ${{ steps.yokohama.outcome }}"
@@ -279,5 +291,7 @@ jobs:
           echo "  仙台市: ${{ steps.sendai.outcome }}"
           echo "  堺市: ${{ steps.sakai.outcome }}"
           echo "  相模原市: ${{ steps.sagamihara.outcome }}"
+          echo "  八王子市: ${{ steps.hachioji.outcome }}"
+          echo "  船橋市: ${{ steps.funabashi.outcome }}"
           echo "公式サイトの構造が変わっていないか確認してください。"
           exit 1

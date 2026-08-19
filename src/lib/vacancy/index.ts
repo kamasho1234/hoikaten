@@ -73,6 +73,10 @@ import sendaiVacancy from "./sendai.json";
 import sakaiVacancy from "./sakai.json";
 // 相模原市も施設サイトのURLを調査中
 import sagamiharaVacancy from "./sagamihara.json";
+// 八王子市も施設サイトのURLを調査中
+import hachiojiVacancy from "./hachioji.json";
+// 船橋市も施設サイトのURLを調査中
+import funabashiVacancy from "./funabashi.json";
 
 export type {
   AgeSummary,
@@ -155,6 +159,8 @@ const registry: Record<string, VacancyDataset> = {
   sendai: sendaiVacancy as unknown as VacancyDataset,
   sakai: sakaiVacancy as unknown as VacancyDataset,
   sagamihara: sagamiharaVacancy as unknown as VacancyDataset,
+  hachioji: hachiojiVacancy as unknown as VacancyDataset,
+  funabashi: funabashiVacancy as unknown as VacancyDataset,
 };
 
 export function getVacancyData(slug: string): VacancyDataset | undefined {

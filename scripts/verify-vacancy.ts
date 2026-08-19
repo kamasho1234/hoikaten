@@ -59,6 +59,9 @@ const EXPECTED: Record<
   // 文京区は「空き数」ではなく翌月の募集予定人数。募集ゼロの園が2割ほどあるのが通常
   taito: { asOf: "2026-08-20", facilityCount: 69, vacancy: 387 },
   // 幼保一体施設は保育園（0〜2歳）と幼稚園（3〜5歳）が別行なので、片方だけの施設が4件ある
+  funabashi: { asOf: "2026-07-17", facilityCount: 190, vacancy: 354 },
+  // 八王子市は翌月の募集人数。募集ゼロの園が多いのが通常
+  hachioji: { asOf: "2026-08-01", facilityCount: 144, vacancy: 99, emptyRatio: 0.3 },
   sagamihara: { asOf: "2026-08-01", facilityCount: 230, vacancy: 613 },
   // 堺市も利用調整後の空き。空きゼロの施設が多いのが通常
   sakai: { asOf: "2026-07-31", facilityCount: 269, vacancy: 501, emptyRatio: 0.35 },
