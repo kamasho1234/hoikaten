@@ -368,6 +368,18 @@
       "name": "茨城県守谷市",
       "source": "https://www.city.moriya.ibaraki.jp/_res/projects/default_project/_page_/001/002/440/r8_riyoutyoseikijun.pdf",
       "note": "令和8年度入所分 保育所等利用調整基準。基本点数は父母各100点満点。1ページ3列レイアウトでテキスト抽出が混線するため画像化して確認。ひとり親の基本点数+100加算は数値化せずコメント+helpTextに明記"
+    },
+    {
+      "slug": "obu",
+      "name": "愛知県大府市",
+      "source": "https://www.city.obu.aichi.jp/_res/projects/default_project/_page_/001/011/404/r8_sisuuhyou.pdf",
+      "note": "大府市保育所等利用調整指数表（令和8年度）。基礎点は父母各11点で最高22点。自営協力者は自営中心者の指数から-1/-3減算する方式のため、減算後の指数を選択肢に展開した"
+    },
+    {
+      "slug": "tsu",
+      "name": "三重県津市",
+      "source": "https://www.info.city.tsu.mie.jp/_res/projects/default_project/_page_/001/002/736/kihon.pdf",
+      "note": "基本点数表（R4.4.1〜）＋調整指数表（R5.4.1〜）＋優先順位表。基本点数は父母各11点。疾病は「入院以外は該当項目を加算（上限10点）」の加算方式のため組み合わせを合算して選択肢に展開。就学の通信-1も同様に展開"
     }
   ],
   "failed": [
@@ -750,5 +762,6 @@
       "checkedAt": "2026-08-19"
     }
   ],
-  "lesson2": "auditのテンプレ判定正規表現が「準じ」「標準方式」のみで「準拠」「標準基準」を拾えていなかった。修正後、表記ありが39→44件に増えた（2026-08-19）"
+  "lesson2": "auditのテンプレ判定正規表現が「準じ」「標準方式」のみで「準拠」「標準基準」を拾えていなかった。修正後、表記ありが39→44件に増えた（2026-08-19）",
+  "lesson3": "detail質問のidは reason選択肢の値サフィックスと一致させる必要がある（verify-question-integrity.ts が到達不能を検出）。加算方式・減算方式の原典は、組み合わせを合算した選択肢に展開して1問にまとめる"
 }
