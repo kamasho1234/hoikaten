@@ -1,5 +1,5 @@
 {
-  "note": "推定値テンプレの修正進捗。scripts/audit-template-overlap.ts で対象を洗い出す。",
+  "note": "audit-template-overlap.ts が検出したテンプレ表記あり41件・表記なしで点数配列一致23件の計64件を全件調査し、公式基準を入手できたものは置き換え、入手できなかったものはfailedに理由を記録した（2026-08-19時点）",
   "policy": "非公開化せず、公式の指数表を入手できたものから順に置き換える（2026-08-19のユーザー判断）",
   "total": 124,
   "done": [
@@ -792,6 +792,11 @@
       "slug": "sakata",
       "name": "山形県酒田市",
       "reason": "指数表は「酒田市保育の利用に関する規則」別表第1〜3にあるが、例規サイト（jyorei/act/frame/frame110002541.htm 等）が本文を返さずアクセス不可"
+    },
+    {
+      "slug": "fuji",
+      "name": "静岡県富士市",
+      "reason": "令和8年度 入園のご案内23ページに「現在、富士市では利用調整の基準指数表は公開しておりません」と明記されている（https://www.city.fuji.shizuoka.jp/documents/1461/annai.pdf）"
     }
   ],
   "templateMarked": [
