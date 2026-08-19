@@ -767,6 +767,31 @@
       "slug": "tsuruoka",
       "name": "山形県鶴岡市",
       "reason": "令和8年度 入園のてびき4ページに「保育の必要性が高い順に優先して決定」とあるのみで、指数表・点数表の記載なし（https://www.city.tsuruoka.lg.jp/kyoiku/nyuen/adukeru/nyuuennmousikomi6-1.files/nyuuennnotebiki.pdf）"
+    },
+    {
+      "slug": "moka",
+      "name": "栃木県真岡市",
+      "reason": "来年度の入所申込みページの入所案内PDF（nyuusyoannnai_zinenndo_.pdf）・入所申込調書のいずれにも指数表の記載なし"
+    },
+    {
+      "slug": "fujioka",
+      "name": "群馬県藤岡市",
+      "reason": "「保育の認定について」ページに「保育の必要性の認定を指数にして順位づけをします」とあるが指数の実数値は非公開。優先度の調整も定性的な記述のみ"
+    },
+    {
+      "slug": "ota-gunma",
+      "name": "群馬県太田市",
+      "reason": "太田市教育・保育施設 入園申し込み／利用の手引き（56ページ）に「保育の必要性の高い方から入園を決定」とあるのみで、実施指数の点数表は非公開"
+    },
+    {
+      "slug": "shibukawa",
+      "name": "群馬県渋川市",
+      "reason": "しぶかわ子育て応援なび・市サイトともに接続タイムアウトで確認できず。検索結果でも指数表の公開を確認できなかった"
+    },
+    {
+      "slug": "sakata",
+      "name": "山形県酒田市",
+      "reason": "指数表は「酒田市保育の利用に関する規則」別表第1〜3にあるが、例規サイト（jyorei/act/frame/frame110002541.htm 等）が本文を返さずアクセス不可"
     }
   ],
   "templateMarked": [
