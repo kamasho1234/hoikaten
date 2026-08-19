@@ -24,6 +24,8 @@
     "vacancy:fetch:nakano": "tsx scripts/fetch-nakano-vacancy.ts",
     "vacancy:fetch:shinjuku": "tsx scripts/fetch-shinjuku-vacancy.ts",
     "vacancy:fetch:toshima": "tsx scripts/fetch-toshima-vacancy.ts",
+    "vacancy:fetch:chiyoda": "tsx scripts/fetch-chiyoda-vacancy.ts",
+    "vacancy:fetch:taito": "tsx scripts/fetch-taito-vacancy.ts",
     "vacancy:fetch:bunkyo": "tsx scripts/fetch-bunkyo-vacancy.ts"
   },
   "dependencies": {

@@ -51,6 +51,10 @@ import shinjukuVacancy from "./shinjuku.json";
 import toshimaVacancy from "./toshima.json";
 // 文京区は施設サイトのURLを調査中のため、いまは空き状況だけを登録している
 import bunkyoVacancy from "./bunkyo.json";
+// 台東区も施設サイトのURLを調査中
+import taitoVacancy from "./taito.json";
+// 千代田区も施設サイトのURLを調査中
+import chiyodaVacancy from "./chiyoda.json";
 
 export type {
   AgeSummary,
@@ -122,6 +126,8 @@ const registry: Record<string, VacancyDataset> = {
   shinjuku: shinjukuVacancy as unknown as VacancyDataset,
   toshima: toshimaVacancy as unknown as VacancyDataset,
   bunkyo: bunkyoVacancy as unknown as VacancyDataset,
+  taito: taitoVacancy as unknown as VacancyDataset,
+  chiyoda: chiyodaVacancy as unknown as VacancyDataset,
 };
 
 export function getVacancyData(slug: string): VacancyDataset | undefined {
