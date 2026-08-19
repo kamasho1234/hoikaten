@@ -268,6 +268,14 @@
       "url": "https://www.city.satsumasendai.lg.jp/material/files/group/20/R8_riyotyouseikijyun.pdf",
       "note": "事由点(父母各最大16)+優先度。パート・自営農業は勤務日数と勤務時間を合算。ひとり親+34・虐待DV里親+35・地域型卒園は連携施設+35/以外+30。市内認可施設の従事者は点数でなく最優先",
       "fixedAt": "2026-08-19"
+    },
+    {
+      "slug": "iruma",
+      "name": "埼玉県入間市",
+      "source": "入間市保育幼稚園課「利用調整基準表（令和8年4月利用調整分から適用）」",
+      "url": "https://www.city.iruma.saitama.jp/material/files/group/34/R8riyoutyouseikijyun0528.pdf",
+      "note": "テンプレ表記なしだが公式と全く異なることを確認し置き換え。基本点(父母各最大30)+基本加点(1日の就労時間・就労日数・勤務地・自営協力者の収入区分)+世帯調整+児童調整。ひとり親+50・育休復帰を前提としない-100・滞納-50。基準表PDFは画像のみのため画像化して読み取り",
+      "fixedAt": "2026-08-19"
     }
   ],
   "failed": [
