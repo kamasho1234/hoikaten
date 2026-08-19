@@ -404,6 +404,12 @@
       "name": "長野県松本市",
       "source": "https://www.city.matsumoto.nagano.jp/uploaded/attachment/123669.pdf",
       "note": "松本市保育所等利用調整基準。基本指数は最大100点で「保護者のどちらか低い方を採用」→scoringMethod:min。加減指数表ア〜ナ。検索結果のURL(106874.pdf)は404で、入園案内ページのPDF一覧を総当たりして123669.pdfを特定した"
+    },
+    {
+      "slug": "sakado",
+      "name": "埼玉県坂戸市",
+      "source": "https://www.city.sakado.lg.jp/uploaded/attachment/33897.pdf",
+      "note": "令和8年度 保育所入所等申込みのてびき 15ページ 入所選考基準表。基準点数は父母各25点。優先事項8-10と調整事項7は併用不可のため1つの選択式質問に統合。就労実績・保育士勤務は父母それぞれ加減点のため保護者1名/2名に展開"
     }
   ],
   "failed": [
