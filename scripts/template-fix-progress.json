@@ -410,6 +410,18 @@
       "name": "埼玉県坂戸市",
       "source": "https://www.city.sakado.lg.jp/uploaded/attachment/33897.pdf",
       "note": "令和8年度 保育所入所等申込みのてびき 15ページ 入所選考基準表。基準点数は父母各25点。優先事項8-10と調整事項7は併用不可のため1つの選択式質問に統合。就労実績・保育士勤務は父母それぞれ加減点のため保護者1名/2名に展開"
+    },
+    {
+      "slug": "okegawa",
+      "name": "埼玉県桶川市",
+      "source": "https://www.city.okegawa.lg.jp/material/files/group/25/r8nyusyokijyun.pdf",
+      "note": "令和8年度桶川市保育施設入所基準調査表。基本指数は父母各13点。就労・就学地の加点（0-3点）は原典では基本指数だが、質問構造の都合で調整の質問として保護者ごとに配置（合計点は原典と一致）"
+    },
+    {
+      "slug": "higashimatsuyama",
+      "name": "埼玉県東松山市",
+      "source": "https://www.city.higashimatsuyama.lg.jp/uploaded/attachment/16457.pdf",
+      "note": "東松山市保育施設利用調整基準点数表。基礎点数は父母各10点で0.5点刻み。就学・育児休業は外勤の就労時間区分を準用。調整点数は父母の状況5項目＋世帯17項目"
     }
   ],
   "failed": [
@@ -694,6 +706,11 @@
       "slug": "nagaoka",
       "name": "新潟県長岡市",
       "reason": "入園のしおり7ページに「長岡市入園選考基準」が載っているが、基準点・調整点の実数値が公開されておらず「高／中／低」の帯表示のみ（https://www.city.nagaoka.niigata.jp/kosodate/cate02/file/nyuen-shiori.pdf）。なお「基準点は父・母・パートナーそれぞれの状況で算出し、どちらかの低い点数を適用」とありmin方式"
+    },
+    {
+      "slug": "gyoda",
+      "name": "埼玉県行田市",
+      "reason": "「行田市保育所等利用調整基準表」(riyoucyousei0701.pdf)はリンク切れで年度違いのURLも404。令和8年度入所のしおり8ページには優先度の定性的な説明（ひとり親家庭・生活保護世帯など）のみで点数の記載なし"
     }
   ],
   "templateMarked": [
