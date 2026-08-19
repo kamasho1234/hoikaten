@@ -36,6 +36,22 @@
       "url": "https://www.city.yaizu.lg.jp/documents/9919/r8hoikujyotounyuusyonogoannnai.pdf",
       "note": "算定指数(父母各最大10)+調整項目23種の加減算。就労は週37.5h以上10〜16h以上5、内職6/4。調整は父母不存在10(ともに不存在は+20)・滞納-10・市外-5・自営-1×人数など。PDFはCIDフォントでテキスト抽出不可のためページ画像から読み取り",
       "fixedAt": "2026-08-19"
+    },
+    {
+      "slug": "fujieda",
+      "name": "静岡県藤枝市",
+      "source": "藤枝市こども課「令和8年度利用調整基準」",
+      "url": "https://www.city.fujieda.shizuoka.jp/material/files/group/110/r8riyoutyouseikijun.pdf",
+      "note": "基準点(父母各最大13)+調整項目。就労は月170h以上13〜月64h以上5の9段階、内職6/5/4。調整は育休延長許容-30・滞納-10・きょうだい在園は保護者の基準点で6/3/2/1×児童数",
+      "fixedAt": "2026-08-19"
+    },
+    {
+      "slug": "kuwana",
+      "name": "三重県桑名市",
+      "source": "桑名市「桑名市保育施設等利用調整基準」（令和9年度入所募集）",
+      "url": "https://www.city.kuwana.lg.jp/documents/12449/19hoikusiseturiyoukijyunn.pdf",
+      "note": "基本指数(父母各最大20、社会的養護は40)+調整指数22項目。就労は勤務日数×1日の就労時間のマトリクス(被用者/非被用者中心者と協力者・内職で1点差)。就学は協力者から-1、別居介護は同居から-1",
+      "fixedAt": "2026-08-19"
     }
   ],
   "failed": [
@@ -56,6 +72,18 @@
       "slug": "ueda",
       "name": "長野県上田市",
       "reason": "「保育園の入園基準」ページに点数の記載がなく、入園申込ページのPDFも様式・FAQのみで指数表が無い",
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "slug": "tsuchiura",
+      "name": "茨城県土浦市",
+      "reason": "「入所選考基準」ページは優先度の定性的な目安のみで点数の記載がなく、令和8年度保育利用案内PDF(22ページ)にも指数表が無い",
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "slug": "kakamigahara",
+      "name": "岐阜県各務原市",
+      "reason": "入所案内PDFは「保育の必要性の優先度により点数化」と書かれているだけで指数表そのものが非公開",
       "checkedAt": "2026-08-19"
     }
   ],
