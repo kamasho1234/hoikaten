@@ -71,6 +71,8 @@ import hiroshimaVacancy from "./hiroshima.json";
 import sendaiVacancy from "./sendai.json";
 // 堺市も施設サイトのURLを調査中
 import sakaiVacancy from "./sakai.json";
+// 相模原市も施設サイトのURLを調査中
+import sagamiharaVacancy from "./sagamihara.json";
 
 export type {
   AgeSummary,
@@ -152,6 +154,7 @@ const registry: Record<string, VacancyDataset> = {
   hiroshima: hiroshimaVacancy as unknown as VacancyDataset,
   sendai: sendaiVacancy as unknown as VacancyDataset,
   sakai: sakaiVacancy as unknown as VacancyDataset,
+  sagamihara: sagamiharaVacancy as unknown as VacancyDataset,
 };
 
 export function getVacancyData(slug: string): VacancyDataset | undefined {

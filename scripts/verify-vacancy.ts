@@ -59,6 +59,7 @@ const EXPECTED: Record<
   // 文京区は「空き数」ではなく翌月の募集予定人数。募集ゼロの園が2割ほどあるのが通常
   taito: { asOf: "2026-08-20", facilityCount: 69, vacancy: 387 },
   // 幼保一体施設は保育園（0〜2歳）と幼稚園（3〜5歳）が別行なので、片方だけの施設が4件ある
+  sagamihara: { asOf: "2026-08-01", facilityCount: 230, vacancy: 613 },
   // 堺市も利用調整後の空き。空きゼロの施設が多いのが通常
   sakai: { asOf: "2026-07-31", facilityCount: 269, vacancy: 501, emptyRatio: 0.35 },
   // 仙台市は利用調整後の空枠。空枠ゼロの施設が多いのが通常
