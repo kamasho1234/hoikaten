@@ -344,6 +344,18 @@
       "name": "三重県四日市市",
       "source": "https://www.city.yokkaichi.lg.jp/www/contents/1720397813414/simple/R7riyoutyouseikijyun.pdf",
       "note": "令和7年度 四日市市保育所等利用調整実施要領 別紙1。基本点数は最高100点で「父母各々に算定し最も低い点数を世帯の点数として採用」→scoringMethod:min。PDFのページ3-4がスキャン画像のため画像化して読み取り"
+    },
+    {
+      "slug": "hitachi",
+      "name": "茨城県日立市",
+      "source": "https://www.city.hitachi.lg.jp/_res/projects/default_project/_page_/001/001/988/0804annnai.pdf",
+      "note": "令和8年度第2版 入園のご案内 第8章 利用調整に関する基準（5-6ページ）。基準指数は保護者ごと最大40点（旧データは父母各20点）。調整指数No.1-25。同点時の優先順位は数値化せずコメントに記載"
+    },
+    {
+      "slug": "hitachinaka",
+      "name": "茨城県ひたちなか市",
+      "source": "https://www.city.hitachinaka.lg.jp/_res/projects/default_project/_page_/001/015/703/r8_pamphlet.pdf",
+      "note": "令和8年度 保育所（園）入所のご案内 選考基準表（13-15ページ）。基準指数は保護者ごと最大30点。補正指数は区分1-44で祖父母の続柄・同別居まで細分化されている"
     }
   ],
   "failed": [
