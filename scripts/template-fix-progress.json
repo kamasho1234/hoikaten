@@ -380,6 +380,18 @@
       "name": "三重県津市",
       "source": "https://www.info.city.tsu.mie.jp/_res/projects/default_project/_page_/001/002/736/kihon.pdf",
       "note": "基本点数表（R4.4.1〜）＋調整指数表（R5.4.1〜）＋優先順位表。基本点数は父母各11点。疾病は「入院以外は該当項目を加算（上限10点）」の加算方式のため組み合わせを合算して選択肢に展開。就学の通信-1も同様に展開"
+    },
+    {
+      "slug": "hachinohe",
+      "name": "青森県八戸市",
+      "source": "https://www.city.hachinohe.aomori.jp/material/files/group/34/R0704riyoutyouseikijunn.pdf",
+      "note": "別表 利用調整基準。基本点数は父母各10点で合算。調整点数は該当項目を全て加減点。優先利用7項目・同点時順位は数値化せずコメントに記載"
+    },
+    {
+      "slug": "hirosaki",
+      "name": "青森県弘前市",
+      "source": "https://www.city.hirosaki.aomori.jp/kyouiku/kosodate/files/R6_hoikuengoannai.pdf",
+      "note": "保育所等利用のご案内 25-26ページ 利用調整基準。基準指数は父母各10点。調整指数は番号1-21で父・母それぞれに加減点する項目があるため保護者1名/2名の選択肢に展開"
     }
   ],
   "failed": [
