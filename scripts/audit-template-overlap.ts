@@ -13,7 +13,11 @@ import path from 'node:path';
 import { getAllMunicipalities, getMunicipalityData } from '../src/lib/data/index';
 
 const DATA_DIR = path.join(process.cwd(), 'src', 'lib', 'data');
-const TEMPLATE = /参考:[^"'\n]*準じ|標準方式/;
+// テンプレ由来を示すコメントの言い回しは自治体ごとにぶれる。
+// 「参考: ○○に準じた」だけでなく「○○に準拠」「県標準基準」なども拾う。
+// （2026-08-19: 鴻巣市が「参考: 埼玉県標準基準（上尾市、さいたま市に準拠）」と書いており
+//   従来の正規表現から漏れていたため追加した）
+const TEMPLATE = /参考:[^"'\n]*(準じ|準拠|標準)|標準方式|標準基準/;
 
 const templated = new Set<string>();
 for (const f of fs.readdirSync(DATA_DIR)) {
