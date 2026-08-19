@@ -42,6 +42,7 @@ const EXPECTED: Record<
   katsushika: { asOf: "2026-07-25", facilityCount: 161, vacancy: 405 },
   shinagawa: { asOf: "2026-07-23", facilityCount: 174, vacancy: 1361 },
   koto: { asOf: "2026-07-23", facilityCount: 213, vacancy: 2355 },
+  nakano: { asOf: "2026-09-01", facilityCount: 113, vacancy: 891 },
 };
 
 const problems: string[] = [];

@@ -1,0 +1,391 @@
+{
+ "municipalitySlug": "nakano",
+ "note": "各施設の公式サイト。Web検索で特定し、URLへ実アクセスして施設名または電話番号の一致を確認したものだけを載せている。",
+ "facilityCount": 96,
+ "sites": {
+  "AIAI NURSERY 中野坂上": {
+   "url": "http://nursery.aiai-cc.co.jp/facility/nakanosakaue/",
+   "type": "facility"
+  },
+  "ｱｰﾄﾁｬｲﾙﾄﾞｹｱ中野南台森の保育園": {
+   "url": "http://www.the0123child.com/personal/area/kanto/acc-nakano-mimamidai.php",
+   "type": "facility"
+  },
+  "あーす保育園鷺ノ宮": {
+   "url": "https://earth.apical.jp/saginomiya.html",
+   "type": "facility"
+  },
+  "あーす保育園中野坂上": {
+   "url": "https://earth.apical.jp/nakanosakaue.html",
+   "type": "facility"
+  },
+  "あーす保育園中野新橋": {
+   "url": "https://earth.apical.jp/nakanoshinbashi.html",
+   "type": "facility"
+  },
+  "あけぼの保育園": {
+   "url": "http://www.t-himawari-f.org/akebono/",
+   "type": "facility"
+  },
+  "かたつむり保育園野方": {
+   "url": "https://hoiku.pk-katatsumuri.com/nogata-top",
+   "type": "facility"
+  },
+  "キッズガーデン新中野駅前": {
+   "url": "https://www.kidsgarden.co.jp/nursery/guide/shinnakanoekimae/",
+   "type": "facility"
+  },
+  "キッズガーデン中野上高田": {
+   "url": "https://www.kidsgarden.co.jp/nursery/guide/nakanokamitakada/",
+   "type": "facility"
+  },
+  "キッズガーデン中野南台": {
+   "url": "https://www.kidsgarden.co.jp/nursery/guide/nakanominamidai/",
+   "type": "facility"
+  },
+  "キッズガーデン中野白鷺": {
+   "url": "https://www.kidsgarden.co.jp/nursery/guide/nakanoshirasagi/",
+   "type": "facility"
+  },
+  "キッズハーモニー・ひがしなかの保育園": {
+   "url": "https://www.pasonafoster.co.jp/service/facility/hgsnkn.html",
+   "type": "facility"
+  },
+  "キッズフォレ平和の森": {
+   "url": "https://www.kidsfore.co.jp/facilities/heiwanomori/",
+   "type": "facility"
+  },
+  "ｷｯｽﾞﾙｰﾑｶｼﾞﾜﾗ(梶原)": {
+   "url": "https://www.city.tokyo-nakano.lg.jp/shisetsu/kosodate/hoikuen/kajiwara.html",
+   "type": "facility"
+  },
+  "キャリー保育園なかのふじみちょう": {
+   "url": "https://threecz.co.jp/nursery/carry-nakanofujimicho/",
+   "type": "facility"
+  },
+  "クオリスキッズ東中野保育園": {
+   "url": "http://quolis-kids.com/118_higashinakano/",
+   "type": "facility"
+  },
+  "グローバルキッズ鷺ノ宮園": {
+   "url": "http://www.gkids.co.jp/facilities/nursery_092.html",
+   "type": "facility"
+  },
+  "グローバルキッズ沼袋園": {
+   "url": "https://www.gkids.co.jp/facilities/nursery_152.html",
+   "type": "facility"
+  },
+  "コンビプラザ宮の台保育園": {
+   "url": "http://www.combiwith.co.jp/support/plaza/miyanodai/",
+   "type": "facility"
+  },
+  "コンビプラザ中野保育園": {
+   "url": "http://www.combiwith.co.jp/support/plaza/nakano/",
+   "type": "facility"
+  },
+  "コンビプラザ弥生町保育園": {
+   "url": "https://www.combiwith.co.jp/support/plaza/yayoichou/",
+   "type": "facility"
+  },
+  "さくらさくみらい江原町": {
+   "url": "https://www.sakura-39.jp/hoiku/eharacho/",
+   "type": "facility"
+  },
+  "さくらさくみらい中野": {
+   "url": "https://www.sakura-39.jp/hoiku/nakano/",
+   "type": "facility"
+  },
+  "さくらさくみらい弥生町": {
+   "url": "https://www.sakura-39.jp/hoiku/yayoicho/",
+   "type": "facility"
+  },
+  "シエル保育園東中野": {
+   "url": "https://minna-no-hoikuen.jp/nursery/higashi-nakano/",
+   "type": "facility"
+  },
+  "じゅんちゃんの保育室(高橋)": {
+   "url": "https://www.city.tokyo-nakano.lg.jp/shisetsu/kosodate/hoikuen/jyunchan.html",
+   "type": "facility"
+  },
+  "ソラストなかのさかうえ": {
+   "url": "https://kodomo.solasto-hoiku.com/nursery/solasto-nakanosakaue/",
+   "type": "facility"
+  },
+  "ちゃいれっく上高田保育園": {
+   "url": "https://chilec.procare.co.jp/kamitakada/",
+   "type": "facility"
+  },
+  "てりは保育園なかの": {
+   "url": "https://teriha.jala.co.jp/sisetsu/nakano/",
+   "type": "facility"
+  },
+  "とちの木保育園": {
+   "url": "http://ikuwakai.net/tochinoki/",
+   "type": "facility"
+  },
+  "ナーサリー中野の森保育園": {
+   "url": "http://www.yokuyuukai-nurserynakanonomori.com/",
+   "type": "facility"
+  },
+  "なかのまるのなか保育園大きなおうち": {
+   "url": "https://tokyojidokyokai.com/contents/Facility/marunonaka/",
+   "type": "facility"
+  },
+  "なかみなみコスモ保育園": {
+   "url": "http://otaira.jp/group/view/12",
+   "type": "facility"
+  },
+  "にじいろ保育園江古田の杜": {
+   "url": "https://www.like-kd.co.jp/establishment/nijiiro/HPegotanomori",
+   "type": "facility"
+  },
+  "にじいろ保育園鷺ノ宮": {
+   "url": "https://www.like-kd.co.jp/establishment/nijiiro/HPsaginomiya",
+   "type": "facility"
+  },
+  "にじいろ保育園松が丘": {
+   "url": "https://www.like-kd.co.jp/establishment/nijiiro/HPmatsugaoka",
+   "type": "facility"
+  },
+  "にじいろ保育園上高田": {
+   "url": "https://www.like-kd.co.jp/establishment/nijiiro/HPkamitakada",
+   "type": "facility"
+  },
+  "にじいろ保育園中野": {
+   "url": "https://www.like-kd.co.jp/establishment/nijiiro/HPnakano",
+   "type": "facility"
+  },
+  "にじいろ保育園中野駅南口": {
+   "url": "https://www.like-kd.co.jp/establishment/nijiiro/HPnakanoekiminamiguchi",
+   "type": "facility"
+  },
+  "にじいろ保育園中野野方": {
+   "url": "https://www.like-kd.co.jp/establishment/nijiiro/HPnakanonogata",
+   "type": "facility"
+  },
+  "ひなたの丘保育園": {
+   "url": "https://hinata.ryobi.or.jp/",
+   "type": "facility"
+  },
+  "ピノキオ幼児舎中野保育園": {
+   "url": "http://pinoh.co.jp/rooms/nakano/",
+   "type": "facility"
+  },
+  "ピノキオ幼児舎野方保育園": {
+   "url": "http://pinoh.co.jp/rooms/nogata/",
+   "type": "facility"
+  },
+  "ひまわり保育ルーム(市瀬)": {
+   "url": "https://www.city.tokyo-nakano.lg.jp/shisetsu/kosodate/hoikuen/himawari.html",
+   "type": "facility"
+  },
+  "ひまわり保育園": {
+   "url": "https://himawari-n.jp/",
+   "type": "facility"
+  },
+  "ふたばクラブ鷺宮保育園": {
+   "url": "https://futabaclub.jp/saginomiya.html",
+   "type": "facility"
+  },
+  "ベリーベアーインターナショナル 保育園中野": {
+   "url": "https://ness-corpo.co.jp/nursery/nakano/",
+   "type": "facility"
+  },
+  "マザーズハート南台園": {
+   "url": "http://mothersheart519.com/?page_id=14",
+   "type": "facility"
+  },
+  "まなびの森 保育園東中野ﾌﾟﾁ･ｸﾚｲｼｭ": {
+   "url": "http://kodomonomori.co.jp/nn/",
+   "type": "facility"
+  },
+  "まなびの森保育園鷺ノ宮": {
+   "url": "http://kodomonomori.co.jp/sa/",
+   "type": "facility"
+  },
+  "ﾏﾐｰｽﾞｴﾝｼﾞｪﾙ新中野保育園": {
+   "url": "http://www.mammys-angel.co.jp/branch/h20091102212253913.html",
+   "type": "facility"
+  },
+  "みらいえ保育園中野富士見町": {
+   "url": "http://mirai123.com/nakano_huzimityou/",
+   "type": "facility"
+  },
+  "モニカ新中野園": {
+   "url": "https://www.monica.co.jp/facility/shinnakano/",
+   "type": "facility"
+  },
+  "ゆめのいろ保育園中野": {
+   "url": "http://yumenoiro.tokyo/",
+   "type": "facility"
+  },
+  "わらべ西鷺宮保育園": {
+   "url": "http://www.seishinfukushikai.jp/nishisaginomiya.html",
+   "type": "facility"
+  },
+  "丸山保育園": {
+   "url": "https://www.city.tokyo-nakano.lg.jp/shisetsu/kosodate/hoikuen/maruyama.html",
+   "type": "facility"
+  },
+  "宮園保育園": {
+   "url": "http://www.coho.jp/nursery-miyazono/",
+   "type": "facility"
+  },
+  "橋場そらとみどりの保育園大きなおうち": {
+   "url": "https://tokyojidokyokai.com/contents/Facility/hashiba/",
+   "type": "facility"
+  },
+  "江原保育園": {
+   "url": "https://www.city.tokyo-nakano.lg.jp/shisetsu/kosodate/hoikuen/ehara.html",
+   "type": "facility"
+  },
+  "江古田ここわ保育園": {
+   "url": "http://ekoda-cocowa.com/",
+   "type": "facility"
+  },
+  "鷺宮クローバー保育園": {
+   "url": "https://clover-hoikuen.jp/nursery/saginomiya/",
+   "type": "facility"
+  },
+  "七海保育園": {
+   "url": "https://www.nanamihoikuen.com/",
+   "type": "facility"
+  },
+  "小学館アカデミーあらいやくし保育園": {
+   "url": "http://www.shopro.co.jp/hoiku/shisetsu/araiyakushi/",
+   "type": "facility"
+  },
+  "昭和保育園": {
+   "url": "https://www.city.tokyo-nakano.lg.jp/shisetsu/kosodate/hoikuen/shouwa.html",
+   "type": "facility"
+  },
+  "松が丘保育園": {
+   "url": "http://shoutoku-f.xsrv.jp/matsugaoka/",
+   "type": "facility"
+  },
+  "沼袋西保育園": {
+   "url": "https://sfg21.com/n-nishi/",
+   "type": "facility"
+  },
+  "沼袋保育園（医療的ケア児受入：１）": {
+   "url": "https://www.city.tokyo-nakano.lg.jp/shisetsu/kosodate/hoikuen/numabukuro.html",
+   "type": "facility"
+  },
+  "聖ピオ保育園": {
+   "url": "http://odilia.jp/pio",
+   "type": "facility"
+  },
+  "太陽の子中野桜花保育園": {
+   "url": "https://www.kidslife-nursery.com/base/nakano/nakanoouka/",
+   "type": "facility"
+  },
+  "太陽の子中野中央保育園": {
+   "url": "https://www.kidslife-nursery.com/base/nakano/nakanochuo/",
+   "type": "facility"
+  },
+  "大和東もみじの森保育園": {
+   "url": "https://mori.momiji.ed.jp/school/yamatohigashi/",
+   "type": "facility"
+  },
+  "中野ここわ保育園": {
+   "url": "http://nakano-cocowa.com/",
+   "type": "facility"
+  },
+  "中野ひかり保育園": {
+   "url": "http://www.nakanohikari.ed.jp/",
+   "type": "facility"
+  },
+  "中野みなみ保育園": {
+   "url": "https://www.nakano-minami.ed.jp/",
+   "type": "facility"
+  },
+  "中野りとるぱんぷきんず": {
+   "url": "https://www.seikoukai.or.jp/facilities/nakano/",
+   "type": "facility"
+  },
+  "中野鷺ノ宮雲母保育園": {
+   "url": "http://www.kirara-hoikuen.com/about/hoikuen/nakanosaginomiya/",
+   "type": "facility"
+  },
+  "中野松が丘すきっぷ保育園": {
+   "url": "https://www.skip-hoikuen.com/nakanomatsugaoka/",
+   "type": "facility"
+  },
+  "中野打越保育園": {
+   "url": "https://www.nakanouchikoshi-hoikuen.com/",
+   "type": "facility"
+  },
+  "中野南台ちとせ保育園": {
+   "url": "http://www.chitosek.or.jp/nakano/index-nakano.html",
+   "type": "facility"
+  },
+  "中野保育園": {
+   "url": "https://www.city.tokyo-nakano.lg.jp/shisetsu/kosodate/hoikuen/nakano.html",
+   "type": "facility"
+  },
+  "仲町保育園": {
+   "url": "https://sfg21.com/nakacho/%E4%BF%9D%E8%82%B2%E5%9C%92%E6%A6%82%E8%A6%81/",
+   "type": "facility"
+  },
+  "昼間のおうち(西嶋)": {
+   "url": "https://www.city.tokyo-nakano.lg.jp/shisetsu/kosodate/hoikuen/nishijima.html",
+   "type": "facility"
+  },
+  "東中野しらゆり保育園": {
+   "url": "https://www.higashinakano-shirayuri.jp/",
+   "type": "facility"
+  },
+  "桃が丘さゆり保育園": {
+   "url": "http://sayurikai.net/momogaoka/",
+   "type": "facility"
+  },
+  "徳田保育園": {
+   "url": "https://kosodate-web.com/tokuden/",
+   "type": "facility"
+  },
+  "鍋横保育園": {
+   "url": "https://www.city.tokyo-nakano.lg.jp/shisetsu/kosodate/hoikuen/nabeyoko.html",
+   "type": "facility"
+  },
+  "南台保育園": {
+   "url": "https://minamidai-hoikuen.jimdosite.com/",
+   "type": "facility"
+  },
+  "白鷺保育園（医療的ケア児受入：２）": {
+   "url": "https://www.city.tokyo-nakano.lg.jp/shisetsu/kosodate/hoikuen/shirasagi.html",
+   "type": "facility"
+  },
+  "比留間恵美(比留間)": {
+   "url": "https://www.city.tokyo-nakano.lg.jp/shisetsu/kosodate/hoikuen/hiruma.html",
+   "type": "facility"
+  },
+  "保育室こどものせかい(小坂)": {
+   "url": "https://www.city.tokyo-nakano.lg.jp/shisetsu/kosodate/hoikuen/kodomonosekai.html",
+   "type": "facility"
+  },
+  "本町保育園（医療的ケア児受入：0）": {
+   "url": "https://www.city.tokyo-nakano.lg.jp/shisetsu/kosodate/hoikuen/honntyou.html",
+   "type": "facility"
+  },
+  "野方さくら保育園": {
+   "url": "https://kodama-kai.org/nogatasakura/",
+   "type": "facility"
+  },
+  "野方保育園": {
+   "url": "https://www.city.tokyo-nakano.lg.jp/shisetsu/kosodate/hoikuen/nogata.html",
+   "type": "facility"
+  },
+  "弥生保育園": {
+   "url": "https://www.city.tokyo-nakano.lg.jp/shisetsu/kosodate/hoikuen/yayoi.html",
+   "type": "facility"
+  },
+  "幼保園シャローム東中野": {
+   "url": "https://www.baby-salon.jp/h-nakano.html",
+   "type": "facility"
+  },
+  "陽だまりの丘保育園": {
+   "url": "https://ryobi.or.jp/hidamari/about/index.html",
+   "type": "facility"
+  }
+ }
+}

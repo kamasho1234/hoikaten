@@ -42,6 +42,9 @@ import shinagawaVacancy from "./shinagawa.json";
 // 江東区の施設リンクは区が出している園ごとの紹介PDF（施設のWebページは無い）
 import kotoVacancy from "./koto.json";
 import kotoWebsites from "./koto-websites.json";
+// 中野区の施設リンクは区の一覧が案内している園の公式サイト
+import nakanoVacancy from "./nakano.json";
+import nakanoWebsites from "./nakano-websites.json";
 
 export type {
   AgeSummary,
@@ -109,6 +112,7 @@ const registry: Record<string, VacancyDataset> = {
   katsushika: withWebsites(katsushikaVacancy as unknown as VacancyDataset, katsushikaWebsites.sites),
   shinagawa: shinagawaVacancy as unknown as VacancyDataset,
   koto: withWebsites(kotoVacancy as unknown as VacancyDataset, kotoWebsites.sites),
+  nakano: withWebsites(nakanoVacancy as unknown as VacancyDataset, nakanoWebsites.sites),
 };
 
 export function getVacancyData(slug: string): VacancyDataset | undefined {
