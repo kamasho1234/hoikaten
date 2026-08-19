@@ -422,6 +422,12 @@
       "name": "埼玉県東松山市",
       "source": "https://www.city.higashimatsuyama.lg.jp/uploaded/attachment/16457.pdf",
       "note": "東松山市保育施設利用調整基準点数表。基礎点数は父母各10点で0.5点刻み。就学・育児休業は外勤の就労時間区分を準用。調整点数は父母の状況5項目＋世帯17項目"
+    },
+    {
+      "slug": "kusatsu",
+      "name": "滋賀県草津市",
+      "source": "https://www.city.kusatsu.shiga.jp/kosodate/hoikukyoiku/hoikuen/guidebook.files/R8.02.ninkahoikushisetsu.pdf",
+      "note": "令和8年度草津市保育所等入所（利用）選考基準表（ガイドブック22-23ページ）。基礎点数は保護者各10点。祖父母の減点は年齢帯×人数のため組み合わせを選択肢に展開"
     }
   ],
   "failed": [
@@ -711,6 +717,16 @@
       "slug": "gyoda",
       "name": "埼玉県行田市",
       "reason": "「行田市保育所等利用調整基準表」(riyoucyousei0701.pdf)はリンク切れで年度違いのURLも404。令和8年度入所のしおり8ページには優先度の定性的な説明（ひとり親家庭・生活保護世帯など）のみで点数の記載なし"
+    },
+    {
+      "slug": "kiryu",
+      "name": "群馬県桐生市",
+      "reason": "令和8年度入園ガイドブック13ページに「保育の必要指数の高い順に入園を決定」とあるのみで、指数表そのものは非公開（https://www.city.kiryu.lg.jp/_res/projects/default_project/_page_/001/015/792/202604nyuen.pdf）"
+    },
+    {
+      "slug": "nasushiobara",
+      "name": "栃木県那須塩原市",
+      "reason": "保育課の各ページ（新ドメイン city.nasushiobara.tochigi.jp）に指数表・選考基準表のPDFが見当たらず。教育・保育ガイドブックのURLも404"
     }
   ],
   "templateMarked": [
