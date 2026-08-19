@@ -20,6 +20,22 @@
       "name": "三重県松阪市",
       "source": "https://www.city.matsusaka.mie.jp/uploaded/attachment/97789.pdf ほか",
       "fixedAt": "2026-08-19"
+    },
+    {
+      "slug": "yonago",
+      "name": "鳥取県米子市",
+      "source": "米子市こども支援課「令和8年度 保育施設等入所案内」P7-P8",
+      "url": "https://www.city.yonago.lg.jp/secure/59859/R8nyusyo.pdf",
+      "note": "基準指数(父母各最大10)+調整基準指数の加算方式。就労は月140h以上10/120h以上9/100h以上8/80h以上7/60h以上6。調整は父母不存在25・ひとり親17or14・保育士等10など",
+      "fixedAt": "2026-08-19"
+    },
+    {
+      "slug": "yaizu",
+      "name": "静岡県焼津市",
+      "source": "焼津市保育・幼稚園課「令和8年度 保育所等入所のご案内」P8「9 保育施設利用調整基準」",
+      "url": "https://www.city.yaizu.lg.jp/documents/9919/r8hoikujyotounyuusyonogoannnai.pdf",
+      "note": "算定指数(父母各最大10)+調整項目23種の加減算。就労は週37.5h以上10〜16h以上5、内職6/4。調整は父母不存在10(ともに不存在は+20)・滞納-10・市外-5・自営-1×人数など。PDFはCIDフォントでテキスト抽出不可のためページ画像から読み取り",
+      "fixedAt": "2026-08-19"
     }
   ],
   "failed": [
@@ -29,6 +45,18 @@
       "reason": "選考基準がCanvaのスライド（外部リンク）でのみ公開されており、PDFやHTMLの表が無い",
       "checkedAt": "2026-08-19",
       "url": "https://www.city.yao.osaka.jp/kosodate_kyouiku/ninteikodomoen_hoikusho/1003996/1020314.html"
+    },
+    {
+      "slug": "miyakonojo",
+      "name": "宮崎県都城市",
+      "reason": "指数表は例規（子ども・子育て支援法施行細則 別表第1）にあるが例規サイトが403。市の案内ページにもPDFが無い",
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "slug": "ueda",
+      "name": "長野県上田市",
+      "reason": "「保育園の入園基準」ページに点数の記載がなく、入園申込ページのPDFも様式・FAQのみで指数表が無い",
+      "checkedAt": "2026-08-19"
     }
   ],
   "templateMarked": [
