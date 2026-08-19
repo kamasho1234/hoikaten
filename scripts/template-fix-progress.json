@@ -428,6 +428,12 @@
       "name": "滋賀県草津市",
       "source": "https://www.city.kusatsu.shiga.jp/kosodate/hoikukyoiku/hoikuen/guidebook.files/R8.02.ninkahoikushisetsu.pdf",
       "note": "令和8年度草津市保育所等入所（利用）選考基準表（ガイドブック22-23ページ）。基礎点数は保護者各10点。祖父母の減点は年齢帯×人数のため組み合わせを選択肢に展開"
+    },
+    {
+      "slug": "zama",
+      "name": "神奈川県座間市",
+      "source": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/008/962/2026goannnai.pdf",
+      "note": "令和8年度 保育所等入所のご案内 17-18ページ 保育所入所選考基準（令和8年4月選考から適用）。基準点数は父母各50点。育休延長許容は基準点数に関わらず-100点"
     }
   ],
   "failed": [
@@ -727,6 +733,11 @@
       "slug": "nasushiobara",
       "name": "栃木県那須塩原市",
       "reason": "保育課の各ページ（新ドメイン city.nasushiobara.tochigi.jp）に指数表・選考基準表のPDFが見当たらず。教育・保育ガイドブックのURLも404"
+    },
+    {
+      "slug": "ishinomaki",
+      "name": "宮城県石巻市",
+      "reason": "令和8年度 保育施設等利用案内（R8riyouannai.pdf）に指数表・選考基準表の記載がなく、「保育を必要とする度合いの大きい方から入所決定」という定性的な説明のみ"
     }
   ],
   "templateMarked": [
