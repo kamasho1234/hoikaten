@@ -63,6 +63,8 @@ import itabashiVacancy from "./itabashi.json";
 import sumidaVacancy from "./sumida.json";
 // 北区も施設サイトのURLを調査中
 import kitaVacancy from "./kita.json";
+// 大阪市も施設サイトのURLを調査中
+import osakaVacancy from "./osaka.json";
 
 export type {
   AgeSummary,
@@ -140,6 +142,7 @@ const registry: Record<string, VacancyDataset> = {
   itabashi: itabashiVacancy as unknown as VacancyDataset,
   sumida: sumidaVacancy as unknown as VacancyDataset,
   kita: kitaVacancy as unknown as VacancyDataset,
+  osaka: osakaVacancy as unknown as VacancyDataset,
 };
 
 export function getVacancyData(slug: string): VacancyDataset | undefined {
