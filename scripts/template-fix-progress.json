@@ -124,6 +124,30 @@
       "url": "https://www.city.oshu.iwate.jp/material/files/group/67/01_R08shiori_23.pdf",
       "note": "min方式（原典「保護者のうち、いずれか低い者の点数を採用する」）。基本点数は最大10。加点13項目・減点2項目。保育士等は市内+9/市外+6、いずれの認可保育所等にも在籍していない+9。しおりの該当ページは画像のため画像化して読み取り",
       "fixedAt": "2026-08-19"
+    },
+    {
+      "slug": "settsu",
+      "name": "大阪府摂津市",
+      "source": "摂津市「令和8年度 摂津市保育所等入所案内」P33-P34「25．摂津市保育施設利用調整基準」",
+      "url": "https://www.city.settsu.osaka.jp/material/files/group/2/R8nyuusyoannai.pdf",
+      "note": "min方式（原典「父母又は養育者の状況（もっとも指数の低い者で算定））」）。基本指数最大12(災害復旧)。調整はひとり親+10・3か月以上の滞納-20。指数表の前に①産休育休明け予約〜⑥里親の優先枠があり点数化されないためコメントに記載",
+      "fixedAt": "2026-08-19"
+    },
+    {
+      "slug": "izumiotsu",
+      "name": "大阪府泉大津市",
+      "source": "泉大津市こども育成課「保育施設利用判定基準表（令和8年度〜）」",
+      "url": "https://www.city.izumiotsu.lg.jp/material/files/group/21/8nenndoriyouhannteikijunnhyou.pdf",
+      "note": "基本項目(父母各最大11、合算)+調整項目。居宅外/居宅内×常勤・自営事業主/自営協力者/内職の4体系。ひとり親+14・育休延長許容-60・転入先未確定-10。保育士等は市内外と就労時間で5/3/1",
+      "fixedAt": "2026-08-19"
+    },
+    {
+      "slug": "sennan",
+      "name": "大阪府泉南市",
+      "source": "泉南市保育子ども課「令和8年度入園選考基準表」（基本点・優先項目加点表・調整指数表）",
+      "url": "https://www.city.sennan.lg.jp/material/files/group/18/20251028-2.pdf",
+      "note": "100点満点系（父母各最大100の合算）。ひとり親+100・申込児の障害+70・保育料3か月以上滞納-30・在籍していないきょうだい-30。就労内定と家庭従業者は-10",
+      "fixedAt": "2026-08-19"
     }
   ],
   "failed": [
@@ -325,6 +349,16 @@
       "source": "白山市保育こども園課「白山市保育所入所基準（抄）」",
       "url": "https://www.city.hakusan.lg.jp/_res/projects/default_project/_page_/001/002/059/nyuusyo_kijyun_r2.pdf",
       "reason": "公式は点数制ではなく優先順位制（1〜9、1が最優先。父母のいずれか低い順位を採用）。現在の点数加算モデルでは公式データを忠実に表現できないため、順位を点数へ換算する推定を避けて保留",
+      "checkedAt": "2026-08-19"
+    }
+  ],
+  "structureMismatch": [
+    {
+      "slug": "shijonawate",
+      "name": "大阪府四條畷市",
+      "source": "四條畷市「保育施設等入所選考基準指数表」",
+      "url": "https://www.city.shijonawate.lg.jp/uploaded/attachment/33868.pdf",
+      "reason": "適用世帯【A】全世帯・【B】ひとり親等/生活保護/障がい児保育/里親世帯・【C】その他の3区分で同じ事由でも指数が大きく異なり（就労月160h以上が【B】145・【C】45）、さらに合算方式が【A】【B】は「指数の高い方の保護者の要件を採用」、【C】は父母合算と混在するため、現行のsum/min/avgモデルでは忠実に表現できない",
       "checkedAt": "2026-08-19"
     }
   ]
