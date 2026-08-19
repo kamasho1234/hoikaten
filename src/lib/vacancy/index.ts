@@ -59,6 +59,8 @@ import chiyodaVacancy from "./chiyoda.json";
 import minatoVacancy from "./minato.json";
 // 板橋区も施設サイトのURLを調査中
 import itabashiVacancy from "./itabashi.json";
+// 墨田区も施設サイトのURLを調査中
+import sumidaVacancy from "./sumida.json";
 
 export type {
   AgeSummary,
@@ -134,6 +136,7 @@ const registry: Record<string, VacancyDataset> = {
   chiyoda: chiyodaVacancy as unknown as VacancyDataset,
   minato: minatoVacancy as unknown as VacancyDataset,
   itabashi: itabashiVacancy as unknown as VacancyDataset,
+  sumida: sumidaVacancy as unknown as VacancyDataset,
 };
 
 export function getVacancyData(slug: string): VacancyDataset | undefined {
