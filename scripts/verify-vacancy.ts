@@ -44,6 +44,7 @@ const EXPECTED: Record<
   koto: { asOf: "2026-07-23", facilityCount: 213, vacancy: 2355 },
   nakano: { asOf: "2026-09-01", facilityCount: 113, vacancy: 891 },
   shinjuku: { asOf: "2026-07-28", facilityCount: 93, vacancy: 1281 },
+  toshima: { asOf: "2026-08-03", facilityCount: 111, vacancy: 652 },
 };
 
 const problems: string[] = [];
