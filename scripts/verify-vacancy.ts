@@ -59,6 +59,7 @@ const EXPECTED: Record<
   // 文京区は「空き数」ではなく翌月の募集予定人数。募集ゼロの園が2割ほどあるのが通常
   taito: { asOf: "2026-08-20", facilityCount: 69, vacancy: 387 },
   // 幼保一体施設は保育園（0〜2歳）と幼稚園（3〜5歳）が別行なので、片方だけの施設が4件ある
+  hiroshima: { asOf: "2026-08-01", facilityCount: 335, vacancy: 2049, waiting: 1849, emptyRatio: 0.15 },
   // 大阪市は分園・乳児センターなど担当年齢が限られる施設が多く、全クラス「—」はいない
   osaka: { asOf: "2026-08-01", facilityCount: 896, vacancy: 2117 },
   // 北区は0歳児クラスのない園（つぼみ園など）が多く、全クラス「—」の施設はいない
