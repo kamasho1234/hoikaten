@@ -55,6 +55,8 @@ import bunkyoVacancy from "./bunkyo.json";
 import taitoVacancy from "./taito.json";
 // 千代田区も施設サイトのURLを調査中
 import chiyodaVacancy from "./chiyoda.json";
+// 港区も施設サイトのURLを調査中
+import minatoVacancy from "./minato.json";
 
 export type {
   AgeSummary,
@@ -128,6 +130,7 @@ const registry: Record<string, VacancyDataset> = {
   bunkyo: bunkyoVacancy as unknown as VacancyDataset,
   taito: taitoVacancy as unknown as VacancyDataset,
   chiyoda: chiyodaVacancy as unknown as VacancyDataset,
+  minato: minatoVacancy as unknown as VacancyDataset,
 };
 
 export function getVacancyData(slug: string): VacancyDataset | undefined {

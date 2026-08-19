@@ -59,6 +59,7 @@ const EXPECTED: Record<
   // 文京区は「空き数」ではなく翌月の募集予定人数。募集ゼロの園が2割ほどあるのが通常
   taito: { asOf: "2026-08-20", facilityCount: 69, vacancy: 387 },
   // 幼保一体施設は保育園（0〜2歳）と幼稚園（3〜5歳）が別行なので、片方だけの施設が4件ある
+  minato: { asOf: "2026-08-17", facilityCount: 113, vacancy: 1499 },
   chiyoda: { asOf: "2026-08-07", facilityCount: 38, vacancy: 360, emptyRatio: 0.15 },
   bunkyo: { asOf: "2026-08-01", facilityCount: 122, vacancy: 1053, waiting: 882, emptyRatio: 0.3 },
 };
