@@ -50,10 +50,16 @@ export function HeaderNav({
   );
 
   return (
-    <div className="flex items-center gap-3">
+    <div className="flex items-center gap-1 sm:gap-2">
+      <a
+        href="https://hoikaten.com/vacancy"
+        className="text-sm text-muted-foreground hover:text-primary px-2.5 py-1.5 rounded-lg hover:bg-primary/5 transition-colors whitespace-nowrap"
+      >
+        空き状況
+      </a>
       <a
         href="/articles"
-        className="text-sm text-muted-foreground hover:text-primary px-3 py-1.5 rounded-lg hover:bg-primary/5 transition-colors"
+        className="text-sm text-muted-foreground hover:text-primary px-2.5 py-1.5 rounded-lg hover:bg-primary/5 transition-colors whitespace-nowrap"
       >
         保活コラム
       </a>
