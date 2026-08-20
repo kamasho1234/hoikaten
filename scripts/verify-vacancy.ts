@@ -68,6 +68,8 @@ const EXPECTED: Record<
   kokubunji: { asOf: "2026-08-01", facilityCount: 50, vacancy: 198, emptyRatio: 0.4 },
   // 小金井市は募集ゼロの園が多いのが通常。公式の合計行と取り込み時に突き合わせている
   koganei: { asOf: "2026-08-05", facilityCount: 53, vacancy: 187, emptyRatio: 0.7 },
+  // 東村山市は空きゼロの園がほとんど。公式の「計」の行と取り込み時に突き合わせている
+  higashimurayama: { asOf: "2026-08-01", facilityCount: 48, vacancy: 30, emptyRatio: 0.8 },
   // 日野市は受け入れのないクラスを「-」で書くため、空きのない園は全クラス「—」になる。
   // 公式の「合計」列が0であることを取り込み時に確かめている
   hino: { asOf: "2026-07-25", facilityCount: 47, vacancy: 89, emptyRatio: 0.6 },
