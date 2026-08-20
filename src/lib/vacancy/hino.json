@@ -1,0 +1,80 @@
+{
+  "municipalitySlug": "hino",
+  "municipalityName": "日野市",
+  "asOf": "2026-07-25",
+  "fetchedAt": "2026-08-20",
+  "sourceName": "日野市「保育施設入所可能人数」",
+  "sourceUrl": "https://www.city.hino.lg.jp/kosodate/1028734/1029177/1029282/1031653.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.hino.lg.jp/_res/projects/default_project/_page_/001/031/653/r8.9bosyu.pdf"
+  },
+  "metrics": [
+    "vacancy"
+  ],
+  "subtitle": "2026年9月入所の入所可能人数",
+  "notes": [
+    "日野市が公表している入所可能人数です。その後の入退所により変わることがあります。",
+    "「—」はそのクラスの受け入れがないことを示します。"
+  ],
+  "wards": [
+    "旭が丘・多摩平・豊田・東豊田・東平山・西平山・神明",
+    "大坂上・新町・日野・日野本町・万願寺・栄町",
+    "新井・高幡・程久保・三沢・百草",
+    "平山・上田・南平"
+  ],
+  "categories": [
+    "公立",
+    "私立",
+    "こども園",
+    "小規模"
+  ],
+  "facilities": [
+    {"id":"旭が丘・多摩平・豊田・東豊田・東平山・西平山・神明-あさひがおか保育園","name":"あさひがおか保育園","w":0,"c":0,"vacancy":[null,null,null,null,null,3]},
+    {"id":"旭が丘・多摩平・豊田・東豊田・東平山・西平山・神明-ひらやま保育園","name":"ひらやま保育園","w":0,"c":0,"vacancy":[null,null,null,6,2,1]},
+    {"id":"旭が丘・多摩平・豊田・東豊田・東平山・西平山・神明-あおぞら東豊田保育園旭が丘分園","name":"あおぞら東豊田保育園旭が丘分園","w":0,"c":1,"vacancy":[null,null,null,null,null,null]},
+    {"id":"旭が丘・多摩平・豊田・東豊田・東平山・西平山・神明-栄光豊田駅前保育園","name":"栄光豊田駅前保育園","w":0,"c":1,"vacancy":[null,null,null,null,null,null]},
+    {"id":"旭が丘・多摩平・豊田・東豊田・東平山・西平山・神明-ひよこハウス多摩平","name":"ひよこハウス多摩平","w":0,"c":1,"vacancy":[null,null,null,null,null,null]},
+    {"id":"旭が丘・多摩平・豊田・東豊田・東平山・西平山・神明-栄光多摩平の森保育園","name":"栄光多摩平の森保育園","w":0,"c":1,"vacancy":[null,null,null,null,null,null]},
+    {"id":"旭が丘・多摩平・豊田・東豊田・東平山・西平山・神明-栄光多摩平中央保育園","name":"栄光多摩平中央保育園","w":0,"c":1,"vacancy":[null,null,null,null,1,null]},
+    {"id":"旭が丘・多摩平・豊田・東豊田・東平山・西平山・神明-栄光たまだいら保育園","name":"栄光たまだいら保育園","w":0,"c":1,"vacancy":[null,null,null,null,1,null]},
+    {"id":"旭が丘・多摩平・豊田・東豊田・東平山・西平山・神明-あおぞら多摩平保育園","name":"あおぞら多摩平保育園","w":0,"c":1,"vacancy":[null,null,null,3,2,null]},
+    {"id":"旭が丘・多摩平・豊田・東豊田・東平山・西平山・神明-わらべ日野市役所東保育園","name":"わらべ日野市役所東保育園","w":0,"c":1,"vacancy":[null,null,null,null,1,1]},
+    {"id":"旭が丘・多摩平・豊田・東豊田・東平山・西平山・神明-芝原保育園","name":"芝原保育園","w":0,"c":1,"vacancy":[null,null,null,null,null,null]},
+    {"id":"旭が丘・多摩平・豊田・東豊田・東平山・西平山・神明-わらべ豊田駅南口保育園","name":"わらべ豊田駅南口保育園","w":0,"c":1,"vacancy":[null,null,null,null,null,null]},
+    {"id":"旭が丘・多摩平・豊田・東豊田・東平山・西平山・神明-豊田保育園","name":"豊田保育園","w":0,"c":1,"vacancy":[null,null,null,null,null,null]},
+    {"id":"旭が丘・多摩平・豊田・東豊田・東平山・西平山・神明-あおぞら東豊田保育園","name":"あおぞら東豊田保育園","w":0,"c":1,"vacancy":[null,null,null,null,null,null]},
+    {"id":"旭が丘・多摩平・豊田・東豊田・東平山・西平山・神明-ひよこハウス豊田","name":"ひよこハウス豊田","w":0,"c":1,"vacancy":[null,null,null,null,null,null]},
+    {"id":"旭が丘・多摩平・豊田・東豊田・東平山・西平山・神明-日野・多摩平幼稚園","name":"日野・多摩平幼稚園","w":0,"c":2,"vacancy":[null,null,null,1,null,null]},
+    {"id":"旭が丘・多摩平・豊田・東豊田・東平山・西平山・神明-たまだいら1.2smilehouse","name":"たまだいら1.2smilehouse","w":0,"c":3,"vacancy":[null,null,null,null,null,null]},
+    {"id":"旭が丘・多摩平・豊田・東豊田・東平山・西平山・神明-ひのめばえ保育園","name":"ひのめばえ保育園","w":0,"c":3,"vacancy":[null,null,null,null,null,null]},
+    {"id":"大坂上・新町・日野・日野本町・万願寺・栄町-おおくぼ保育園","name":"おおくぼ保育園","w":1,"c":0,"vacancy":[null,null,null,null,null,3]},
+    {"id":"大坂上・新町・日野・日野本町・万願寺・栄町-しんさかした保育園","name":"しんさかした保育園","w":1,"c":0,"vacancy":[null,null,null,null,null,3]},
+    {"id":"大坂上・新町・日野・日野本町・万願寺・栄町-日野保育園","name":"日野保育園","w":1,"c":1,"vacancy":[null,null,null,null,1,null]},
+    {"id":"大坂上・新町・日野・日野本町・万願寺・栄町-日野第二保育園","name":"日野第二保育園","w":1,"c":1,"vacancy":[null,null,null,null,null,2]},
+    {"id":"大坂上・新町・日野・日野本町・万願寺・栄町-至誠第二保育園","name":"至誠第二保育園","w":1,"c":1,"vacancy":[null,null,null,null,null,1]},
+    {"id":"大坂上・新町・日野・日野本町・万願寺・栄町-よつぎ日野保育園","name":"よつぎ日野保育園","w":1,"c":1,"vacancy":[null,null,null,null,3,null]},
+    {"id":"大坂上・新町・日野・日野本町・万願寺・栄町-至誠あずま保育園","name":"至誠あずま保育園","w":1,"c":1,"vacancy":[null,null,null,null,null,null]},
+    {"id":"大坂上・新町・日野・日野本町・万願寺・栄町-至誠ひの宿保育園","name":"至誠ひの宿保育園","w":1,"c":1,"vacancy":[null,null,null,null,null,1]},
+    {"id":"大坂上・新町・日野・日野本町・万願寺・栄町-しせい太陽の子保育園","name":"しせい太陽の子保育園","w":1,"c":1,"vacancy":[null,null,null,null,null,1]},
+    {"id":"大坂上・新町・日野・日野本町・万願寺・栄町-日野駅前かわせみ保育園","name":"日野駅前かわせみ保育園","w":1,"c":1,"vacancy":[null,null,null,null,null,null]},
+    {"id":"大坂上・新町・日野・日野本町・万願寺・栄町-至誠いしだ保育園","name":"至誠いしだ保育園","w":1,"c":1,"vacancy":[null,null,null,null,null,null]},
+    {"id":"大坂上・新町・日野・日野本町・万願寺・栄町-万願寺保育園","name":"万願寺保育園","w":1,"c":1,"vacancy":[null,null,null,null,null,null]},
+    {"id":"大坂上・新町・日野・日野本町・万願寺・栄町-子どもの森あさかわ保育園","name":"子どもの森あさかわ保育園","w":1,"c":1,"vacancy":[null,null,null,null,null,null]},
+    {"id":"新井・高幡・程久保・三沢・百草-あらい保育園","name":"あらい保育園","w":2,"c":0,"vacancy":[null,null,null,null,4,9]},
+    {"id":"新井・高幡・程久保・三沢・百草-たかはた台保育園","name":"たかはた台保育園","w":2,"c":0,"vacancy":[null,null,null,1,7,null]},
+    {"id":"新井・高幡・程久保・三沢・百草-みさわ保育園","name":"みさわ保育園","w":2,"c":0,"vacancy":[null,null,null,null,null,4]},
+    {"id":"新井・高幡・程久保・三沢・百草-もぐさ台保育園","name":"もぐさ台保育園","w":2,"c":0,"vacancy":[null,null,null,3,null,null]},
+    {"id":"新井・高幡・程久保・三沢・百草-むこうじま保育園","name":"むこうじま保育園","w":2,"c":1,"vacancy":[null,null,null,null,null,null]},
+    {"id":"新井・高幡・程久保・三沢・百草-たかはた北保育園","name":"たかはた北保育園","w":2,"c":1,"vacancy":[null,null,null,null,null,null]},
+    {"id":"新井・高幡・程久保・三沢・百草-日野わかば保育園","name":"日野わかば保育園","w":2,"c":1,"vacancy":[null,null,null,4,7,7]},
+    {"id":"新井・高幡・程久保・三沢・百草-百草台幼稚園","name":"百草台幼稚園","w":2,"c":2,"vacancy":[null,null,null,null,null,null]},
+    {"id":"新井・高幡・程久保・三沢・百草-マジオたんぽぽ保育園日野ルーム","name":"マジオたんぽぽ保育園日野ルーム","w":2,"c":3,"vacancy":[null,null,null,null,null,null]},
+    {"id":"平山・上田・南平-みなみだいら保育園","name":"みなみだいら保育園","w":3,"c":0,"vacancy":[null,null,null,null,5,null]},
+    {"id":"平山・上田・南平-栄光平山台保育園※","name":"栄光平山台保育園※","w":3,"c":1,"vacancy":[null,null,null,1,null,null]},
+    {"id":"平山・上田・南平-栄光保育園","name":"栄光保育園","w":3,"c":1,"vacancy":[null,null,null,null,null,null]},
+    {"id":"平山・上田・南平-つくしんぼ保育園","name":"つくしんぼ保育園","w":3,"c":1,"vacancy":[null,null,null,null,null,null]},
+    {"id":"平山・上田・南平-上田せせらぎこども園","name":"上田せせらぎこども園","w":3,"c":2,"vacancy":[null,null,null,null,null,null]},
+    {"id":"平山・上田・南平-栄光ひまわり保育園","name":"栄光ひまわり保育園","w":3,"c":3,"vacancy":[null,null,null,null,null,null]},
+    {"id":"平山・上田・南平-ののはな保育園","name":"ののはな保育園","w":3,"c":3,"vacancy":[null,null,null,null,null,null]}
+  ]
+}

@@ -60,6 +60,9 @@ const EXPECTED: Record<
   taito: { asOf: "2026-08-20", facilityCount: 69, vacancy: 387 },
   // 幼保一体施設は保育園（0〜2歳）と幼稚園（3〜5歳）が別行なので、片方だけの施設が4件ある
   kawaguchi: { asOf: "2026-07-27", facilityCount: 200, vacancy: 624 },
+  // 日野市は受け入れのないクラスを「-」で書くため、空きのない園は全クラス「—」になる。
+  // 公式の「合計」列が0であることを取り込み時に確かめている
+  hino: { asOf: "2026-07-25", facilityCount: 47, vacancy: 89, emptyRatio: 0.6 },
   // 小平市は募集ゼロの園が多いのが通常
   kodaira: { asOf: "2026-08-01", facilityCount: 69, vacancy: 83, emptyRatio: 0.5 },
   urayasu: { asOf: "2026-08-20", facilityCount: 65, vacancy: 525 },
