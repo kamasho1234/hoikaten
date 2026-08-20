@@ -78,6 +78,10 @@ const EXPECTED: Record<
   higashikurume: { asOf: "2026-07-31", facilityCount: 36, vacancy: 36, emptyRatio: 0.75 },
   // 狛江市は1施設ずつ「年齢の和＝合計列」を取り込み時に確かめている
   komae: { asOf: "2026-08-01", facilityCount: 26, vacancy: 35, emptyRatio: 0.6 },
+  // 稲城市は空き・待機・受入定員の3つとも合計行と取り込み時に突き合わせている
+  inagi: { asOf: "2026-08-01", facilityCount: 22, vacancy: 116, emptyRatio: 0.3 },
+  // 国立市は行ごとの「計」と末尾の合計行を取り込み時に突き合わせている
+  kunitachi: { asOf: "2026-07-01", facilityCount: 24, vacancy: 91, emptyRatio: 0.4 },
   // 日野市は受け入れのないクラスを「-」で書くため、空きのない園は全クラス「—」になる。
   // 公式の「合計」列が0であることを取り込み時に確かめている
   hino: { asOf: "2026-07-25", facilityCount: 47, vacancy: 89, emptyRatio: 0.6 },
