@@ -111,7 +111,24 @@ type ScoreEvaluation = {
   notes?: string[];
 };
 
-function getScoreEvaluation(slug: string, total: number): ScoreEvaluation {
+/**
+ * 点数の下に出す評価。自治体ごとの解説があればそれを、なければ
+ * 基準点の満点を目安にした汎用の評価を返す。**必ず中身のある評価を返す**。
+ * scripts/audit-score-evaluation.ts から呼んで全自治体ぶん確かめている。
+ */
+export function getScoreEvaluationForAudit(
+  slug: string,
+  total: number,
+  data: MunicipalityData
+): ScoreEvaluation {
+  return getScoreEvaluation(slug, total, data);
+}
+
+function getScoreEvaluation(
+  slug: string,
+  total: number,
+  data: MunicipalityData
+): ScoreEvaluation {
   if (slug === "setagaya") return getSetagayaEvaluation(total);
   if (slug === "yokohama") return getYokohamaEvaluation(total);
   if (slug === "osaka") return getOsakaEvaluation(total);
@@ -146,7 +163,7 @@ function getScoreEvaluation(slug: string, total: number): ScoreEvaluation {
   if (slug === "kawaguchi") return getKawaguchiEvaluation(total);
   if (slug === "himeji") return getHimejiEvaluation(total);
   if (slug === "matsuyama") return getMatsuyamaEvaluation(total);
-  return getGenericEvaluation(total);
+  return getGenericEvaluation(total, data);
 }
 
 function getSetagayaEvaluation(total: number): ScoreEvaluation {
@@ -632,8 +649,105 @@ function getMatsuyamaEvaluation(total: number): ScoreEvaluation {
   return { label: "認可園は極めて難しい", color: "text-red-600", description: "この点数では認可園への入園は極めて難しい状況です。", tip: "認可外保育施設やファミリーサポートなど別の預け先を検討しましょう。", notes };
 }
 
-function getGenericEvaluation(total: number): ScoreEvaluation {
-  return { label: "結果", color: "text-primary", description: `合計${total}点です。くわしくはお住まいの自治体にご確認ください。`, tip: "自治体の窓口で、この点数で入園できそうか相談してみましょう。" };
+/**
+ * その自治体で取れる代表的な加点を、調整の質問から拾って文章にする。
+ * 「あと何を積めるか」を具体的に示すために使う。
+ */
+function topAdjustmentHints(data: MunicipalityData, max: number): string[] {
+  const seen = new Set<string>();
+  const hints: { label: string; points: number }[] = [];
+  for (const q of data.questions) {
+    if (q.category !== "adjustment") continue;
+    for (const o of q.options) {
+      if (o.points <= 0) continue;
+      // 「はい（+4）」のようなラベルだけでは何の加点か分からないので、質問文から拾う
+      const raw = /^(はい|あり|該当する)/.test(o.label) ? q.label : o.label;
+      // 質問文をそのまま出すと「〜ですか」と聞き返す形になるので、名詞で終わる形に直す。
+      // 語尾を落とすだけだと「預けて」のように中途半端に切れるので、
+      // そこまで整わないものは元の文のまま出す
+      const trimmed = raw
+        .replace(/[（(].*?[)）]/g, "")
+        .replace(/[？?]\s*$/, "")
+        .replace(/^(申込児童の|世帯の|保護者の)/, "")
+        .replace(/(ですか|でいますか|していますか|しているか|いますか|ますか|しましたか|ありますか|か)$/, "")
+        .trim();
+      // 動詞の連用形で終わったもの（「預けて」「復職し」）は言い切りになっていない
+      const name = /[てでしりきぎみいえ]$/.test(trimmed) ? raw.replace(/[？?]\s*$/, "").trim() : trimmed;
+      if (!name || seen.has(name)) continue;
+      seen.add(name);
+      hints.push({ label: name, points: o.points });
+    }
+  }
+  return hints
+    .sort((a, b) => b.points - a.points)
+    .slice(0, max)
+    .map((h) => `${h.label}（+${h.points}）`);
+}
+
+/**
+ * 自治体ごとの解説を書いていない自治体でも、点数の位置づけを必ず出す。
+ *
+ * 目安にするのは **その自治体の基準点の満点**（maxBasePoints）。
+ * これは父母ともフルタイムで働いている世帯が取れる点数にあたり、
+ * 認可保育園に申し込む世帯でいちばん多い層でもある。
+ * そこからどれだけ離れているかで、有利か厳しいかを言い分ける。
+ */
+function getGenericEvaluation(total: number, data: MunicipalityData): ScoreEvaluation {
+  const base = data.municipality.maxBasePoints;
+  const name = data.municipality.name;
+  const ratio = base > 0 ? total / base : 0;
+  const hints = topAdjustmentHints(data, 3);
+  const hintText =
+    hints.length > 0
+      ? `${name}で点数を積める項目には ${hints.join("、")} などがあります。`
+      : "";
+  const notes = [
+    `${name}の基準指数の満点は${base}点です。父母ともフルタイムで働いている世帯がこの点数にあたります。`,
+  ];
+
+  if (ratio >= 1.2) {
+    return {
+      label: "かなり有利",
+      color: "text-green-600",
+      description: `フルタイム共働きの目安（${base}点）を大きく上回っています。${name}では上位に入りやすい点数帯です。`,
+      tip: `希望する園を第1希望から素直に並べて申し込みましょう。${hintText}`,
+      notes,
+    };
+  }
+  if (ratio >= 1.05) {
+    return {
+      label: "有利",
+      color: "text-green-600",
+      description: `フルタイム共働きの目安（${base}点）に加点が乗っている状態です。同じ点数帯の中では有利に働きます。`,
+      tip: `人気園も視野に入れつつ、通える範囲の園を幅広く書いておくと安心です。${hintText}`,
+      notes,
+    };
+  }
+  if (ratio >= 0.95) {
+    return {
+      label: "最激戦ゾーン",
+      color: "text-blue-600",
+      description: `フルタイム共働きの目安（${base}点）とほぼ同じで、申込者がいちばん多い点数帯です。同点の中での競争になります。`,
+      tip: `加点をもう1つ積めないか確認しましょう。${hintText}`,
+      notes,
+    };
+  }
+  if (ratio >= 0.8) {
+    return {
+      label: "やや厳しい",
+      color: "text-orange-600",
+      description: `フルタイム共働きの目安（${base}点）をやや下回っています。人気園は同点でも順位が下になりやすい点数帯です。`,
+      tip: `小規模保育や新設園も候補に入れましょう。${hintText}`,
+      notes,
+    };
+  }
+  return {
+    label: "厳しい",
+    color: "text-orange-600",
+    description: `フルタイム共働きの目安（${base}点）を下回っています。${name}の認可園はこの目安の世帯で埋まりやすいため、この点数での入園は難しいのが実情です。`,
+    tip: `認可外や小規模保育に預けて翌年に加点を狙う方法もあります。${hintText}`,
+    notes,
+  };
 }
 
 function ShareButtons({
@@ -1001,7 +1115,7 @@ export function SimulatorForm({ data }: { data: MunicipalityData }) {
           </Card>
 
           {(() => {
-            const evaluation = getScoreEvaluation(data.municipality.slug, result.total);
+            const evaluation = getScoreEvaluation(data.municipality.slug, result.total, data);
             return (
               <Card>
                 <CardHeader className="pb-2">
