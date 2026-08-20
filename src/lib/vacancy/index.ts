@@ -100,6 +100,8 @@ import urayasuVacancy from "./urayasu.json";
 import kodairaVacancy from "./kodaira.json";
 // 日野市も施設サイトのURLを調査中
 import hinoVacancy from "./hino.json";
+// 立川市も施設サイトのURLを調査中
+import tachikawaVacancy from "./tachikawa.json";
 
 export type {
   AgeSummary,
@@ -196,6 +198,7 @@ const registry: Record<string, VacancyDataset> = {
   urayasu: urayasuVacancy as unknown as VacancyDataset,
   kodaira: kodairaVacancy as unknown as VacancyDataset,
   hino: hinoVacancy as unknown as VacancyDataset,
+  tachikawa: tachikawaVacancy as unknown as VacancyDataset,
 };
 
 export function getVacancyData(slug: string): VacancyDataset | undefined {
