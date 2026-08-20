@@ -60,6 +60,8 @@ const EXPECTED: Record<
   taito: { asOf: "2026-08-20", facilityCount: 69, vacancy: 387 },
   // 幼保一体施設は保育園（0〜2歳）と幼稚園（3〜5歳）が別行なので、片方だけの施設が4件ある
   kawaguchi: { asOf: "2026-07-27", facilityCount: 200, vacancy: 624 },
+  // 小平市は募集ゼロの園が多いのが通常
+  kodaira: { asOf: "2026-08-01", facilityCount: 69, vacancy: 83, emptyRatio: 0.5 },
   urayasu: { asOf: "2026-08-20", facilityCount: 65, vacancy: 525 },
   // 大和市は受入可能児童数なしの園が多いのが通常
   yamato: { asOf: "2026-09-01", facilityCount: 94, vacancy: 211, emptyRatio: 0.45 },
