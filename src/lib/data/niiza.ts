@@ -160,12 +160,15 @@ const adjustmentQuestions: Question[] = [
     ],
   },
   {
+    // 公式は「世帯中の就学前児童の数」で数える（申込児童本人を含む）。
+    // 「きょうだいの人数」に言い換えると本人ぶんの1人がずれるので、公式の数え方のまま尋ねる
     id: 'adj_multiple_children',
     category: 'adjustment',
-    label: '申込児童のきょうだいで就学前のお子さんは何人いますか？',
+    label: '世帯の中に就学前のお子さんは何人いますか？（申込児童本人を含む）',
+    helpText: '保育施設に通っているかどうかは問いません。該当する場合は申請児童全員に加点されます。',
     inputType: 'radio',
     options: [
-      { label: '0人', value: 'adj_multiple_children_no', points: 0 },
+      { label: '1人（申込児童のみ）', value: 'adj_multiple_children_no', points: 0 },
       { label: '2人（+3）', value: 'adj_multiple_children_2', points: 3 },
       { label: '3人以上（+4）', value: 'adj_multiple_children_3plus', points: 4 },
     ],
