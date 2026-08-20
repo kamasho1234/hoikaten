@@ -82,6 +82,8 @@ const EXPECTED: Record<
   inagi: { asOf: "2026-08-01", facilityCount: 22, vacancy: 116, emptyRatio: 0.3 },
   // 国立市は行ごとの「計」と末尾の合計行を取り込み時に突き合わせている
   kunitachi: { asOf: "2026-07-01", facilityCount: 24, vacancy: 91, emptyRatio: 0.4 },
+  // 昭島市は空欄が「募集なし」なので全クラス「—」の施設は出ない
+  akishima: { asOf: "2026-08-01", facilityCount: 34, vacancy: 55 },
   // 日野市は受け入れのないクラスを「-」で書くため、空きのない園は全クラス「—」になる。
   // 公式の「合計」列が0であることを取り込み時に確かめている
   hino: { asOf: "2026-07-25", facilityCount: 47, vacancy: 89, emptyRatio: 0.6 },
