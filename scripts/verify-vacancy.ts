@@ -60,6 +60,7 @@ const EXPECTED: Record<
   taito: { asOf: "2026-08-20", facilityCount: 69, vacancy: 387 },
   // 幼保一体施設は保育園（0〜2歳）と幼稚園（3〜5歳）が別行なので、片方だけの施設が4件ある
   kawaguchi: { asOf: "2026-07-27", facilityCount: 200, vacancy: 624 },
+  fuchu: { asOf: "2026-08-03", facilityCount: 61, vacancy: 153, emptyRatio: 0.2 },
   chofu: { asOf: "2026-08-20", facilityCount: 78, vacancy: 236, waiting: 2161, emptyRatio: 0.2 },
   mitaka: { asOf: "2026-09-01", facilityCount: 58, vacancy: 406, waiting: 2453, emptyRatio: 0.2 },
   // 西東京市は欠員なしの園が多いのが通常
