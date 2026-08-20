@@ -1088,6 +1088,34 @@ const cases: Case[] = [
     },
     expect: 41,
   },
+  // --- 清瀬市（保護者それぞれ最大50・調整は世帯の加点をひとつだけ）---
+  {
+    name: '清瀬: 保護者2人とも月20日160時間以上 50+50 = 100',
+    slug: 'kiyose',
+    answers: { parent1_employment: 'parent1_employment_50', parent2_employment: 'parent2_employment_50' },
+    expect: 100,
+    expectHouseholdBase: 100,
+  },
+  {
+    name: '清瀬: 上記 + 兄弟姉妹が市内在園+5 と 希望園1園のみ-1 = 104',
+    slug: 'kiyose',
+    answers: {
+      parent1_employment: 'parent1_employment_50', parent2_employment: 'parent2_employment_50',
+      adj_household_bonus: 'adj_household_bonus_sibling_enrolled',
+      adj_single_choice: 'adj_single_choice_yes',
+    },
+    expect: 104,
+  },
+  {
+    name: '清瀬: 育休延長に同意-70 と 6か月以上の滞納-40 は併算 100-110 = -10',
+    slug: 'kiyose',
+    answers: {
+      parent1_employment: 'parent1_employment_50', parent2_employment: 'parent2_employment_50',
+      adj_parental_leave_extension: 'adj_parental_leave_extension_yes',
+      adj_arrears: 'adj_arrears_6m',
+    },
+    expect: -10,
+  },
 ];
 
 let ng = 0;
