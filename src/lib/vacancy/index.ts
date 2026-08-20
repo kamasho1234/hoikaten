@@ -80,6 +80,8 @@ import funabashiVacancy from "./funabashi.json";
 // 川口市・市川市も施設サイトのURLを調査中
 import kawaguchiVacancy from "./kawaguchi.json";
 import ichikawaVacancy from "./ichikawa.json";
+// 町田市も施設サイトのURLを調査中
+import machidaVacancy from "./machida.json";
 
 export type {
   AgeSummary,
@@ -166,6 +168,7 @@ const registry: Record<string, VacancyDataset> = {
   funabashi: funabashiVacancy as unknown as VacancyDataset,
   kawaguchi: kawaguchiVacancy as unknown as VacancyDataset,
   ichikawa: ichikawaVacancy as unknown as VacancyDataset,
+  machida: machidaVacancy as unknown as VacancyDataset,
 };
 
 export function getVacancyData(slug: string): VacancyDataset | undefined {

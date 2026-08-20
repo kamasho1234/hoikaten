@@ -60,6 +60,8 @@ const EXPECTED: Record<
   taito: { asOf: "2026-08-20", facilityCount: 69, vacancy: 387 },
   // 幼保一体施設は保育園（0〜2歳）と幼稚園（3〜5歳）が別行なので、片方だけの施設が4件ある
   kawaguchi: { asOf: "2026-07-27", facilityCount: 200, vacancy: 624 },
+  // 町田市は翌月入園の募集人数。募集ゼロの園が多いのが通常
+  machida: { asOf: "2026-09-01", facilityCount: 122, vacancy: 153, emptyRatio: 0.6 },
   ichikawa: { asOf: "2026-08-20", facilityCount: 224, vacancy: 422 },
   funabashi: { asOf: "2026-07-17", facilityCount: 190, vacancy: 354 },
   // 八王子市は翌月の募集人数。募集ゼロの園が多いのが通常
