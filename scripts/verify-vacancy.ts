@@ -74,6 +74,10 @@ const EXPECTED: Record<
   tama: { asOf: "2026-08-01", facilityCount: 31, vacancy: 92, emptyRatio: 0.35 },
   // 清瀬市は空欄が「欠員なし」なので全クラス「—」の施設は出ない
   kiyose: { asOf: "2026-07-29", facilityCount: 24, vacancy: 38 },
+  // 東久留米市は行ごとに「年齢の和＝計」を、区分ごとの施設数を別のPDFと突き合わせている
+  higashikurume: { asOf: "2026-07-31", facilityCount: 36, vacancy: 36, emptyRatio: 0.75 },
+  // 狛江市は1施設ずつ「年齢の和＝合計列」を取り込み時に確かめている
+  komae: { asOf: "2026-08-01", facilityCount: 26, vacancy: 35, emptyRatio: 0.6 },
   // 日野市は受け入れのないクラスを「-」で書くため、空きのない園は全クラス「—」になる。
   // 公式の「合計」列が0であることを取り込み時に確かめている
   hino: { asOf: "2026-07-25", facilityCount: 47, vacancy: 89, emptyRatio: 0.6 },

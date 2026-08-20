@@ -1,0 +1,67 @@
+{
+  "municipalitySlug": "higashikurume",
+  "municipalityName": "東久留米市",
+  "asOf": "2026-07-31",
+  "fetchedAt": "2026-08-20",
+  "sourceName": "東久留米市「認可保育施設空き状況」",
+  "sourceUrl": "https://www.city.higashikurume.lg.jp/kurashi/kosodate/hoiku/1003562.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.higashikurume.lg.jp/_res/projects/default_project/_page_/001/003/562/0730aki.pdf",
+    "applicants": "https://www.city.higashikurume.lg.jp/_res/projects/default_project/_page_/001/003/562/0730shinseisya.pdf"
+  },
+  "metrics": [
+    "vacancy"
+  ],
+  "subtitle": "2026年9月1日付の受入れ予定数",
+  "notes": [
+    "東久留米市の注記のとおり、この表はクラス定員と総定員における在園児童をもとに作られています。今後の退所や保育園での体制、定員の弾力化により受入予定数が大きく変わることがあります。",
+    "「—」は小規模保育施設・家庭的保育施設で、そのクラスを設けていないことを表します。認可保育所はどの園も0歳から5歳まで受け入れています。",
+    "施設別の入所申込者数も同じページで公開されています。"
+  ],
+  "wards": [],
+  "categories": [
+    "認可保育所（公立）",
+    "認可保育所（公設民営）",
+    "認可保育所（私立）",
+    "小規模保育施設",
+    "家庭的保育施設"
+  ],
+  "facilities": [
+    {"id":"認可保育所（公立）-はくさん","name":"はくさん","w":null,"c":0,"vacancy":[0,0,1,1,5,3]},
+    {"id":"認可保育所（公立）-はちまん","name":"はちまん","w":null,"c":0,"vacancy":[0,0,0,0,4,3]},
+    {"id":"認可保育所（公立）-まえさわ","name":"まえさわ","w":null,"c":0,"vacancy":[0,0,0,1,0,0]},
+    {"id":"認可保育所（公立）-ちゅうおう","name":"ちゅうおう","w":null,"c":0,"vacancy":[0,1,0,0,1,0]},
+    {"id":"認可保育所（公設民営）-ひばり","name":"ひばり","w":null,"c":1,"vacancy":[0,0,0,0,0,1]},
+    {"id":"認可保育所（公設民営）-たきやま","name":"たきやま","w":null,"c":1,"vacancy":[0,0,0,0,1,0]},
+    {"id":"認可保育所（公設民営）-上の原さくら","name":"上の原さくら","w":null,"c":1,"vacancy":[0,0,0,1,0,0]},
+    {"id":"認可保育所（私立）-久留米みのり","name":"久留米みのり","w":null,"c":2,"vacancy":[0,0,0,1,2,0]},
+    {"id":"認可保育所（私立）-あそか","name":"あそか","w":null,"c":2,"vacancy":[0,0,0,0,0,0]},
+    {"id":"認可保育所（私立）-滝山しおん","name":"滝山しおん","w":null,"c":2,"vacancy":[0,0,0,1,1,0]},
+    {"id":"認可保育所（私立）-下里しおん","name":"下里しおん","w":null,"c":2,"vacancy":[0,0,1,1,0,0]},
+    {"id":"認可保育所（私立）-くるみ","name":"くるみ","w":null,"c":2,"vacancy":[0,0,0,0,0,0]},
+    {"id":"認可保育所（私立）-Nicot東久留米","name":"Nicot東久留米","w":null,"c":2,"vacancy":[0,0,0,0,0,0]},
+    {"id":"認可保育所（私立）-わらべみなみ","name":"わらべみなみ","w":null,"c":2,"vacancy":[0,0,0,0,0,0]},
+    {"id":"認可保育所（私立）-いちご","name":"いちご","w":null,"c":2,"vacancy":[0,0,0,0,0,1]},
+    {"id":"認可保育所（私立）-かたばみ","name":"かたばみ","w":null,"c":2,"vacancy":[0,0,0,0,0,0]},
+    {"id":"認可保育所（私立）-東久留米おひさま","name":"東久留米おひさま","w":null,"c":2,"vacancy":[0,0,0,0,0,0]},
+    {"id":"認可保育所（私立）-こでまり","name":"こでまり","w":null,"c":2,"vacancy":[0,0,1,0,0,0]},
+    {"id":"認可保育所（私立）-トレジャーキッズひがしくるめ","name":"トレジャーキッズひがしくるめ","w":null,"c":2,"vacancy":[0,0,0,0,0,3]},
+    {"id":"認可保育所（私立）-わらべ東久留米","name":"わらべ東久留米","w":null,"c":2,"vacancy":[0,0,0,1,0,0]},
+    {"id":"認可保育所（私立）-まなびの森ひばりヶ丘","name":"まなびの森ひばりヶ丘","w":null,"c":2,"vacancy":[0,0,0,0,0,0]},
+    {"id":"小規模保育施設-おひさま保育室","name":"おひさま保育室","w":null,"c":3,"vacancy":[0,0,0,null,null,null]},
+    {"id":"小規模保育施設-東久留米みさと","name":"東久留米みさと","w":null,"c":3,"vacancy":[0,0,0,null,null,null]},
+    {"id":"小規模保育施設-どれみ保育園東久留米西口","name":"どれみ保育園東久留米西口","w":null,"c":3,"vacancy":[0,0,0,null,null,null]},
+    {"id":"小規模保育施設-ひよこルーム","name":"ひよこルーム","w":null,"c":3,"vacancy":[0,0,0,null,null,null]},
+    {"id":"小規模保育施設-つくし","name":"つくし","w":null,"c":3,"vacancy":[0,0,0,null,null,null]},
+    {"id":"小規模保育施設-NICOLANDほいくえん東久留米","name":"NICOLANDほいくえん東久留米","w":null,"c":3,"vacancy":[0,0,0,null,null,null]},
+    {"id":"小規模保育施設-ひがしくるめ大門町","name":"ひがしくるめ大門町","w":null,"c":3,"vacancy":[0,0,0,null,null,null]},
+    {"id":"小規模保育施設-わらべ東久留米駅前","name":"わらべ東久留米駅前","w":null,"c":3,"vacancy":[0,0,0,null,null,null]},
+    {"id":"小規模保育施設-たんぽぽ","name":"たんぽぽ","w":null,"c":3,"vacancy":[0,0,0,null,null,null]},
+    {"id":"小規模保育施設-げんき","name":"げんき","w":null,"c":3,"vacancy":[0,0,0,null,null,null]},
+    {"id":"家庭的保育施設-ささき家庭保育室","name":"ささき家庭保育室","w":null,"c":4,"vacancy":[0,0,0,null,null,null]},
+    {"id":"家庭的保育施設-たなか家庭保育室","name":"たなか家庭保育室","w":null,"c":4,"vacancy":[0,0,0,null,null,null]},
+    {"id":"家庭的保育施設-きむら家庭保育室","name":"きむら家庭保育室","w":null,"c":4,"vacancy":[0,0,0,null,null,null]},
+    {"id":"家庭的保育施設-おだ家庭保育室","name":"おだ家庭保育室","w":null,"c":4,"vacancy":[0,0,0,null,null,null]},
+    {"id":"家庭的保育施設-あだち家庭保育室","name":"あだち家庭保育室","w":null,"c":4,"vacancy":[0,0,0,null,null,null]}
+  ]
+}
