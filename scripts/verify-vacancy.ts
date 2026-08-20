@@ -60,6 +60,8 @@ const EXPECTED: Record<
   taito: { asOf: "2026-08-20", facilityCount: 69, vacancy: 387 },
   // 幼保一体施設は保育園（0〜2歳）と幼稚園（3〜5歳）が別行なので、片方だけの施設が4件ある
   kawaguchi: { asOf: "2026-07-27", facilityCount: 200, vacancy: 624 },
+  // 西東京市は欠員なしの園が多いのが通常
+  nishitokyo: { asOf: "2026-08-01", facilityCount: 66, vacancy: 72, emptyRatio: 0.2 },
   kashiwa: { asOf: "2026-09-01", facilityCount: 123, vacancy: 261, waiting: 1594, emptyRatio: 0.15 },
   // 町田市は翌月入園の募集人数。募集ゼロの園が多いのが通常
   machida: { asOf: "2026-09-01", facilityCount: 122, vacancy: 153, emptyRatio: 0.6 },

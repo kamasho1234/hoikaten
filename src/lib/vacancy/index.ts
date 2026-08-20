@@ -84,6 +84,8 @@ import ichikawaVacancy from "./ichikawa.json";
 import machidaVacancy from "./machida.json";
 // 柏市も施設サイトのURLを調査中
 import kashiwaVacancy from "./kashiwa.json";
+// 西東京市も施設サイトのURLを調査中
+import nishitokyoVacancy from "./nishitokyo.json";
 
 export type {
   AgeSummary,
@@ -172,6 +174,7 @@ const registry: Record<string, VacancyDataset> = {
   ichikawa: ichikawaVacancy as unknown as VacancyDataset,
   machida: machidaVacancy as unknown as VacancyDataset,
   kashiwa: kashiwaVacancy as unknown as VacancyDataset,
+  nishitokyo: nishitokyoVacancy as unknown as VacancyDataset,
 };
 
 export function getVacancyData(slug: string): VacancyDataset | undefined {
