@@ -148,6 +148,13 @@ function buildParentQuestions(parentNum: 1 | 2): Question[] {
           value: `${prefix}_priority_e_jobseeking`,
           points: 30,
         },
+        // 公式の基準表は「保育を必要とする事由」だけを並べているが、
+        // それに当たらない方が何も選べなくなるため、0点の選択肢を置いている
+        {
+          label: '該当なし（在宅・保育を必要としない）',
+          value: `${prefix}_priority_none`,
+          points: 0,
+        },
       ],
     },
   ];

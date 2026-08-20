@@ -145,7 +145,11 @@ function buildParentQuestions(parentNum: 1 | 2): Question[] {
       { label: '会社勤め等で働いている', value: `${prefix}_reason_employment`, points: 0 },
       { label: '自営業（営業者本人・協力者）', value: `${prefix}_reason_self_employed`, points: 0 },
       { label: '内職', value: `${prefix}_reason_piecework`, points: 0 },
-      { label: '妊娠・出産', value: `${prefix}_reason_childbirth`, points: 0 },
+      // 妊娠・出産の基礎点は母（保護者2）にしかない。
+      // 保護者1でも選べてしまうと、次の質問が「あてはまらない」だけになり0点で終わるため外す
+      ...(parentNum === 2
+        ? [{ label: '妊娠・出産', value: `${prefix}_reason_childbirth`, points: 0 }]
+        : []),
       { label: '病気にかかっている', value: `${prefix}_reason_illness`, points: 0 },
       { label: '障がいがある', value: `${prefix}_reason_disability`, points: 0 },
       { label: '家族の介護・看護をしている', value: `${prefix}_reason_care`, points: 0 },
@@ -183,13 +187,18 @@ function buildParentQuestions(parentNum: 1 | 2): Question[] {
       inputType: 'radio',
       options: pieceworkOptions(prefix),
     },
-    {
-      id: `${prefix}_childbirth`,
-      category,
-      label: `${parentLabel}の妊娠・出産の状況は？`,
-      inputType: 'radio',
-      options: childbirthOptions(prefix, parentNum),
-    },
+    // 妊娠・出産の基礎点は母（保護者2）にしかないので、保護者1では質問自体を出さない
+    ...(parentNum === 2
+      ? [
+      {
+        id: `${prefix}_childbirth`,
+        category,
+        label: `${parentLabel}の妊娠・出産の状況は？`,
+        inputType: 'radio' as const,
+        options: childbirthOptions(prefix, parentNum),
+      }
+        ]
+      : []),
     {
       id: `${prefix}_illness`,
       category,

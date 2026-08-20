@@ -34,6 +34,24 @@ function buildSteps(questions: Question[]) {
   );
 }
 
+/**
+ * 妊娠・出産の加点が保護者2にだけ設定されているかを見る。
+ *
+ * 多くの自治体の基準表は「父」「母」の列に分かれていて、妊娠・出産は母の列にしか
+ * 点数がない。当サイトは「保護者1」「保護者2」としか呼んでいないため、
+ * 母を保護者1として入力した人が出産の加点を取れないまま結果に進んでしまう。
+ * そこで、そういう自治体では保護者1のステップで入力の順番を案内する。
+ */
+function birthPointsOnlyForParent2(questions: Question[]): boolean {
+  const hasBirth = (category: Question["category"]) =>
+    questions.some(
+      (q) =>
+        q.category === category &&
+        q.options.some((o) => /妊娠|出産|産前|産後/.test(o.label))
+    );
+  return !hasBirth("parent1_base") && hasBirth("parent2_base");
+}
+
 function getReasonFromAnswers(
   answers: Record<string, string>,
   prefix: string
@@ -682,6 +700,11 @@ function ShareButtons({
 
 export function SimulatorForm({ data }: { data: MunicipalityData }) {
   const [step, setStep] = useState<Step>("parent1");
+  // 妊娠・出産の加点が保護者2にしかない自治体では、入力の順番を案内する
+  const birthOnlyParent2 = useMemo(
+    () => birthPointsOnlyForParent2(data.questions),
+    [data.questions]
+  );
   const [showAdPopup, setShowAdPopup] = useState(false);
   const [answers, setAnswers] = useState<Record<string, string>>({});
   const [questionIndex, setQuestionIndex] = useState(0);
@@ -931,6 +954,12 @@ export function SimulatorForm({ data }: { data: MunicipalityData }) {
                   ? "ご家庭の状況を教えてください"
                   : `${STEPS[stepIndex].label}について`}
               </p>
+              {step === "parent1" && birthOnlyParent2 && (
+                <p className="text-xs text-muted-foreground bg-muted/60 rounded-md px-3 py-2 mb-4">
+                  {data.municipality.name}の基準では、妊娠・出産の加点は保護者2にだけ設けられています。
+                  出産予定または産後の方は、<strong>保護者2</strong>として入力してください。
+                </p>
+              )}
               <QuestionField
                 key={currentQuestion.id}
                 question={currentQuestion}
