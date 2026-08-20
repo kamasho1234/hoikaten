@@ -62,6 +62,8 @@ const EXPECTED: Record<
   kawaguchi: { asOf: "2026-07-27", facilityCount: 200, vacancy: 624 },
   // 立川市も募集ゼロの園が多いのが通常
   tachikawa: { asOf: "2026-09-01", facilityCount: 54, vacancy: 96, emptyRatio: 0.5 },
+  // 武蔵野市は公式の合計行（空き数・申込数とも）と取り込み時に突き合わせている
+  musashino: { asOf: "2026-07-30", facilityCount: 56, vacancy: 249 },
   // 日野市は受け入れのないクラスを「-」で書くため、空きのない園は全クラス「—」になる。
   // 公式の「合計」列が0であることを取り込み時に確かめている
   hino: { asOf: "2026-07-25", facilityCount: 47, vacancy: 89, emptyRatio: 0.6 },
