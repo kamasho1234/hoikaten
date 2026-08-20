@@ -88,6 +88,8 @@ const EXPECTED: Record<
   yokosuka: { asOf: "2026-08-01", facilityCount: 90, vacancy: 66 },
   // 上尾市は合計行がないので、施設の通し番号が抜けていないことを取り込み時に確かめている
   ageo: { asOf: "2026-08-31", facilityCount: 75, vacancy: 149, emptyRatio: 0.7 },
+  // 松山市は1施設ずつ「年齢の和＝合計列」を取り込み時に確かめている
+  matsuyama: { asOf: "2026-09-01", facilityCount: 129, vacancy: 52, emptyRatio: 0.85 },
   // 日野市は受け入れのないクラスを「-」で書くため、空きのない園は全クラス「—」になる。
   // 公式の「合計」列が0であることを取り込み時に確かめている
   hino: { asOf: "2026-07-25", facilityCount: 47, vacancy: 89, emptyRatio: 0.6 },
