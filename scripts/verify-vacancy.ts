@@ -64,6 +64,10 @@ const EXPECTED: Record<
   tachikawa: { asOf: "2026-09-01", facilityCount: 54, vacancy: 96, emptyRatio: 0.5 },
   // 武蔵野市は公式の合計行（空き数・申込数とも）と取り込み時に突き合わせている
   musashino: { asOf: "2026-07-30", facilityCount: 56, vacancy: 249 },
+  // 国分寺市は「定員−人数=空き」を1施設ずつ、合計は別掲の受入可能児童数PDFとも突き合わせている
+  kokubunji: { asOf: "2026-08-01", facilityCount: 50, vacancy: 198, emptyRatio: 0.4 },
+  // 小金井市は募集ゼロの園が多いのが通常。公式の合計行と取り込み時に突き合わせている
+  koganei: { asOf: "2026-08-05", facilityCount: 53, vacancy: 187, emptyRatio: 0.7 },
   // 日野市は受け入れのないクラスを「-」で書くため、空きのない園は全クラス「—」になる。
   // 公式の「合計」列が0であることを取り込み時に確かめている
   hino: { asOf: "2026-07-25", facilityCount: 47, vacancy: 89, emptyRatio: 0.6 },
