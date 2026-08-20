@@ -1,0 +1,64 @@
+{
+  "municipalitySlug": "tama",
+  "municipalityName": "多摩市",
+  "asOf": "2026-08-01",
+  "fetchedAt": "2026-08-20",
+  "sourceName": "多摩市「市内保育施設等の空き状況」",
+  "sourceUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1008034/1003518.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.tama.lg.jp/_res/projects/default_project/_page_/001/003/518/9aki.pdf"
+  },
+  "metrics": [
+    "vacancy",
+    "waiting"
+  ],
+  "subtitle": "2026年9月入所の募集人数",
+  "waitingCaveat": "その園を第一希望として申請し、入所・転所が保留になっている児童の数です（転所を希望する方も含みます）。前回審査後の時点の数です。",
+  "notes": [
+    "多摩市の注記のとおり、園の運営状況や決定児童の辞退・在園児童の急な退所などにより、審査までに空き状況が変わることがあります。",
+    "「—」はそのクラスの枠がない園です。複数のクラス年齢をまとめて1つの枠にしている場合、いちばん低い年齢の欄に人数がまとめられています。",
+    "おだ認定こども園の3歳児〜5歳児クラス、多摩みゆき幼稚園・東京大谷幼稚園の2号（保育枠）は各施設にお問い合わせください。",
+    "認証保育所・企業主導型保育所は市への申し込みではないため、この一覧には含めていません。"
+  ],
+  "wards": [],
+  "categories": [
+    "認可保育所",
+    "認定こども園",
+    "小規模保育事業所",
+    "事業所内保育事業所",
+    "家庭的保育事業所"
+  ],
+  "facilities": [
+    {"id":"認可保育所-多摩保育園","name":"多摩保育園","w":null,"c":0,"vacancy":[0,0,0,5,4,4],"waiting":[0,2,1,0,0,0]},
+    {"id":"認可保育所-桜ヶ丘第一保育園","name":"桜ヶ丘第一保育園","w":null,"c":0,"vacancy":[0,0,0,2,0,0],"waiting":[0,4,3,0,0,0]},
+    {"id":"認可保育所-ゆりのき保育園","name":"ゆりのき保育園","w":null,"c":0,"vacancy":[0,0,0,3,3,1],"waiting":[1,1,1,0,0,0]},
+    {"id":"認可保育所-こばと第一保育園","name":"こばと第一保育園","w":null,"c":0,"vacancy":[0,0,0,5,2,1],"waiting":[0,0,1,0,0,0]},
+    {"id":"認可保育所-みさと保育所","name":"みさと保育所","w":null,"c":0,"vacancy":[0,0,0,7,2,2],"waiting":[3,3,0,0,0,0]},
+    {"id":"認可保育所-バオバブ保育園","name":"バオバブ保育園","w":null,"c":0,"vacancy":[0,0,0,0,0,0],"waiting":[7,17,4,0,1,1]},
+    {"id":"認可保育所-こぐま保育園","name":"こぐま保育園","w":null,"c":0,"vacancy":[0,0,0,0,0,0],"waiting":[2,2,1,0,0,0]},
+    {"id":"認可保育所-みどりの保育園","name":"みどりの保育園","w":null,"c":0,"vacancy":[0,0,0,1,0,0],"waiting":[2,3,1,0,1,0]},
+    {"id":"認可保育所-やまと保育園","name":"やまと保育園","w":null,"c":0,"vacancy":[0,0,1,3,1,2],"waiting":[4,4,0,0,0,0]},
+    {"id":"認可保育所-ピオニイ第二保育園","name":"ピオニイ第二保育園","w":null,"c":0,"vacancy":[0,1,1,3,3,3],"waiting":[1,0,0,0,0,0]},
+    {"id":"認可保育所-かおり保育園","name":"かおり保育園","w":null,"c":0,"vacancy":[1,0,2,0,2,4],"waiting":[2,1,0,0,0,0]},
+    {"id":"認可保育所-かしのき保育園","name":"かしのき保育園","w":null,"c":0,"vacancy":[0,0,0,null,1,null],"waiting":[7,2,1,0,0,0]},
+    {"id":"認可保育所-こころ保育園","name":"こころ保育園","w":null,"c":0,"vacancy":[0,2,0,1,0,0],"waiting":[0,0,0,0,0,0]},
+    {"id":"認可保育所-バオバブちいさな家保育園","name":"バオバブちいさな家保育園","w":null,"c":0,"vacancy":[0,0,0,0,0,0],"waiting":[2,7,5,0,0,1]},
+    {"id":"認可保育所-りすのき保育園","name":"りすのき保育園","w":null,"c":0,"vacancy":[0,0,4,1,0,3],"waiting":[1,3,0,0,0,0]},
+    {"id":"認可保育所-あおぞら保育園","name":"あおぞら保育園","w":null,"c":0,"vacancy":[0,0,0,0,1,0],"waiting":[21,8,1,0,1,0]},
+    {"id":"認可保育所-のびのびっこ保育園","name":"のびのびっこ保育園","w":null,"c":0,"vacancy":[0,0,0,1,0,0],"waiting":[4,3,0,0,0,0]},
+    {"id":"認可保育所-あすのき保育園","name":"あすのき保育園","w":null,"c":0,"vacancy":[0,0,0,null,null,null],"waiting":[4,0,0,null,null,null]},
+    {"id":"認可保育所-あおぞらぱれっと保育園","name":"あおぞらぱれっと保育園","w":null,"c":0,"vacancy":[0,0,0,0,0,0],"waiting":[3,5,0,0,0,0]},
+    {"id":"認可保育所-やまとさくら保育園","name":"やまとさくら保育園","w":null,"c":0,"vacancy":[0,0,0,0,0,0],"waiting":[15,12,5,0,2,0]},
+    {"id":"認可保育所-関戸みどりの保育園","name":"関戸みどりの保育園","w":null,"c":0,"vacancy":[0,0,0,0,0,0],"waiting":[1,1,7,0,0,0]},
+    {"id":"認可保育所-おだ学園保育園","name":"おだ学園保育園","w":null,"c":0,"vacancy":[0,0,0,0,0,0],"waiting":[3,6,1,0,0,0]},
+    {"id":"認定こども園-おだ認定こども園（３号）","name":"おだ認定こども園（３号）","w":null,"c":1,"vacancy":[0,0,2,1,0,0],"waiting":[3,2,0,0,0,0]},
+    {"id":"小規模保育事業所-どんぐり保育室","name":"どんぐり保育室","w":null,"c":2,"vacancy":[null,2,null,null,null,null],"waiting":[null,0,0,null,null,null]},
+    {"id":"小規模保育事業所-こころプティ保育園","name":"こころプティ保育園","w":null,"c":2,"vacancy":[1,1,0,null,null,null],"waiting":[0,0,0,null,null,null]},
+    {"id":"小規模保育事業所-さっちゃんルーム","name":"さっちゃんルーム","w":null,"c":2,"vacancy":[null,0,0,null,null,null],"waiting":[null,2,1,null,null,null]},
+    {"id":"小規模保育事業所-あおぞらルーム","name":"あおぞらルーム","w":null,"c":2,"vacancy":[null,0,0,null,null,null],"waiting":[null,0,0,null,null,null]},
+    {"id":"事業所内保育事業所-サクラさーくる","name":"サクラさーくる","w":null,"c":3,"vacancy":[0,0,0,null,null,null],"waiting":[0,0,0,null,null,null]},
+    {"id":"家庭的保育事業所-数納事業所（こひつじ）","name":"数納事業所（こひつじ）","w":null,"c":4,"vacancy":[null,0,null,null,null,null],"waiting":[0,0,0,null,null,null]},
+    {"id":"家庭的保育事業所-濱田事業所","name":"濱田事業所","w":null,"c":4,"vacancy":[null,1,null,null,null,null],"waiting":[0,0,0,null,null,null]},
+    {"id":"家庭的保育事業所-小谷田事業所（ぽけっとぽっけ）","name":"小谷田事業所（ぽけっとぽっけ）","w":null,"c":4,"vacancy":[0,0,1,null,null,null],"waiting":[0,0,0,null,null,null]}
+  ]
+}
