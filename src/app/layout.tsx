@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Noto_Sans_JP, Zen_Maru_Gothic } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 
 import "@/lib/articles/register-all";
@@ -20,6 +21,9 @@ const zenMaru = Zen_Maru_Gothic({
   weight: ["700"],
   display: "swap",
 });
+
+/** Microsoft Clarity のプロジェクトID */
+const CLARITY_PROJECT_ID = "y57kgjghls";
 
 export const metadata: Metadata = {
   title: "保育園 点数シミュレーター｜入園点数を無料で自動計算【hoikaten】",
@@ -47,6 +51,19 @@ export default function RootLayout({
       className={`${notoSansJP.variable} ${zenMaru.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-background text-foreground">
+        {/*
+          Microsoft Clarity（アクセス解析・ヒートマップ）。
+          公式が配るスニペットは window.clarity のキューを先に作ってから
+          タグ本体を読み込む形なので、そのとおりに入れている。
+          next/script の afterInteractive で、画面の表示を待ってから読み込む。
+        */}
+        <Script id="ms-clarity" strategy="afterInteractive">
+          {`(function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+          })(window, document, "clarity", "script", "${CLARITY_PROJECT_ID}");`}
+        </Script>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
