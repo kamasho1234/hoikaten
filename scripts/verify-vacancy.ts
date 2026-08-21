@@ -102,6 +102,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "○": 45, "△": 34, "×": 155 },
   },
+  // 長崎市は「×」だけを付ける形。×のないクラスは「－」として持つ
+  nagasaki: {
+    asOf: "2026-08-20",
+    facilityCount: 126,
+    vacancy: 0,
+    symbolCounts: { "－": 399, "×": 354 },
+  },
   // 高松市は入所可能状況が記号
   takamatsu: {
     asOf: "2026-08-01",
