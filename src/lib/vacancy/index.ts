@@ -120,6 +120,8 @@ import ageoVacancy from "./ageo.json";
 import matsuyamaVacancy from "./matsuyama.json";
 import narashinoVacancy from "./narashino.json";
 import kasukabeVacancy from "./kasukabe.json";
+import fujisawaVacancy from "./fujisawa.json";
+import nagareyamaVacancy from "./nagareyama.json";
 
 export type {
   AgeSummary,
@@ -235,6 +237,8 @@ const registry: Record<string, VacancyDataset> = {
   matsuyama: matsuyamaVacancy as unknown as VacancyDataset,
   narashino: narashinoVacancy as unknown as VacancyDataset,
   kasukabe: kasukabeVacancy as unknown as VacancyDataset,
+  fujisawa: fujisawaVacancy as unknown as VacancyDataset,
+  nagareyama: nagareyamaVacancy as unknown as VacancyDataset,
 };
 
 export function getVacancyData(slug: string): VacancyDataset | undefined {

@@ -102,6 +102,20 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "○": 45, "△": 34, "×": 155 },
   },
+  // 流山市も記号で公表している（●・△。空欄は空きなし）
+  nagareyama: {
+    asOf: "2026-08-01",
+    facilityCount: 109,
+    vacancy: 0,
+    symbolCounts: { "●": 85, "△": 140 },
+  },
+  // 藤沢市も記号で公表している（〇・―・※）
+  fujisawa: {
+    asOf: "2026-08-20",
+    facilityCount: 120,
+    vacancy: 0,
+    symbolCounts: { "〇": 118, "―": 459, "※": 33 },
+  },
   // 春日部市も記号で公表している
   kasukabe: {
     asOf: "2026-07-23",
