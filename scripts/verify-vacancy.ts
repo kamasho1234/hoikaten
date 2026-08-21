@@ -102,6 +102,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "○": 45, "△": 34, "×": 155 },
   },
+  // 福山市は空きが記号。「-」はその施設が受け入れていないクラス
+  fukuyama: {
+    asOf: "2026-08-19",
+    facilityCount: 161,
+    vacancy: 0,
+    symbolCounts: { "○": 59, "△": 117, "×": 634 },
+  },
   // 長崎市は「×」だけを付ける形。×のないクラスは「－」として持つ
   nagasaki: {
     asOf: "2026-08-20",
