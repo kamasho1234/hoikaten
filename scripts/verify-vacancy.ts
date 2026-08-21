@@ -102,6 +102,26 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "○": 45, "△": 34, "×": 155 },
   },
+  // 西宮市は欠員が記号。「＼（受入れなし）」は null
+  nishinomiya: {
+    asOf: "2026-08-17",
+    facilityCount: 160,
+    vacancy: 0,
+    symbolCounts: { "◎": 3, "〇": 11, "△": 50, "×": 623 },
+  },
+  // 川越市は翌月入園ぶんの募集人数（実数）。施設合計・地区小計・施設ごとの計で検算できる
+  kawagoe: {
+    asOf: "2026-08-05",
+    facilityCount: 102,
+    vacancy: 70,
+  },
+  // 千葉市は空きが記号。公式が「0」と書いているクラスは受け入れなしとして null
+  chiba: {
+    asOf: "2026-08-03",
+    facilityCount: 378,
+    vacancy: 0,
+    symbolCounts: { "◎": 8, "○": 45, "△": 225, "×": 1679 },
+  },
   // 姫路市は空きが記号。公式の表で空欄のクラスは「－」に置き換えている
   himeji: {
     asOf: "2026-08-14",

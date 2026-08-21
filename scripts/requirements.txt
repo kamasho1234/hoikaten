@@ -1,3 +1,6 @@
-# 川崎市の受入可能数PDFを読むために使う（scripts/kawasaki-pdf-extract.py）。
+# PDFの表を読むために使う（scripts/*-pdf-extract.py）。
 # 表の抽出結果が変わると取り込みが壊れるため、バージョンを固定する。
 pdfplumber==0.11.9
+
+# 千葉市はExcelでも公表しているので、そちらを読む（scripts/chiba-vacancy-extract.py）。
+openpyxl==3.1.5
