@@ -102,6 +102,14 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "○": 45, "△": 34, "×": 155 },
   },
+  // 神戸市は受入予定が記号、申込児童数は実数。区・支所ごとに11ファイル
+  kobe: {
+    asOf: "2026-08-17",
+    facilityCount: 512,
+    vacancy: 0,
+    waiting: 2652,
+    symbolCounts: { "◎": 59, "○": 145, "△": 360, "×": 1719 },
+  },
   // 新潟市は空きが記号。8区ぶんが1ページの表に入っている
   niigata: {
     asOf: "2026-08-18",
