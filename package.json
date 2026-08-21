@@ -24,6 +24,7 @@
     "vacancy:fetch:nakano": "tsx scripts/fetch-nakano-vacancy.ts",
     "vacancy:fetch:shinjuku": "tsx scripts/fetch-shinjuku-vacancy.ts",
     "vacancy:fetch:toshima": "tsx scripts/fetch-toshima-vacancy.ts",
+    "vacancy:fetch:tokorozawa": "tsx scripts/fetch-tokorozawa-vacancy.ts",
     "vacancy:fetch:gifu": "tsx scripts/fetch-gifu-vacancy.ts",
     "vacancy:fetch:mito": "tsx scripts/fetch-mito-vacancy.ts",
     "vacancy:fetch:koshigaya": "tsx scripts/fetch-koshigaya-vacancy.ts",

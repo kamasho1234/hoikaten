@@ -102,6 +102,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "○": 45, "△": 34, "×": 155 },
   },
+  // 所沢市は受入れ見込みが記号。空欄（受入れ予定なし）は「－」に置き換えている
+  tokorozawa: {
+    asOf: "2026-08-07",
+    facilityCount: 92,
+    vacancy: 0,
+    symbolCounts: { "◎": 4, "○": 7, "△": 34, "－": 393 },
+  },
   // 岐阜市は空きが記号、在籍人数は実数
   gifu: {
     asOf: "2026-08-01",

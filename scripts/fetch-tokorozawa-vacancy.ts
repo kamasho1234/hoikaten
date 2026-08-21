@@ -136,10 +136,10 @@ async function fetchListedFacilities(): Promise<Listed[]> {
   const html = await res.text();
 
   const listed: Listed[] = [];
-  // 見出し（h2）ごとに、その直後の表を読む
-  const sections = html.split(/<h2[^>]*>/i).slice(1);
+  // 見出しごとに、その直後の表を読む。地域型保育事業だけ h3 になっている
+  const sections = html.split(/<h[23][^>]*>/i).slice(1);
   for (const section of sections) {
-    const heading = squeeze(stripTags(section.split(/<\/h2>/i)[0] ?? ""));
+    const heading = squeeze(stripTags(section.split(/<\/h[23]>/i)[0] ?? ""));
     const kind = KINDS.find((k) => k === heading);
     if (!kind) continue;
     const table = section.match(/<table[^>]*>([\s\S]*?)<\/table>/i);
@@ -154,13 +154,23 @@ async function fetchListedFacilities(): Promise<Listed[]> {
     const wardCol = header.findIndex((c) => squeeze(c) === "地区");
     if (wardCol < 0) fail(`「${heading}」に地区の列がありません`);
 
+    // 泉町保育園のように、年齢の欄だけ2行に分かれている施設がある。
+    // 同じ施設の行をまとめて、年齢として読める書き方の行を採る
+    const seen = new Map<string, { ward: string; raws: string[] }>();
     for (const row of rows) {
       if (row.length <= ageCol) continue;
       const name = squeeze(row[nameCol]);
       if (!name || name === "施設名") continue;
-      const ages = parseAgeRange(row[ageCol]);
-      if (!ages) fail(`${heading} ${name}: 保育実施年齢を読めません: 「${row[ageCol]}」`);
-      listed.push({ kind, ward: squeeze(row[wardCol]), name, ages });
+      const entry = seen.get(name);
+      if (entry) entry.raws.push(row[ageCol]);
+      else seen.set(name, { ward: squeeze(row[wardCol]), raws: [row[ageCol]] });
+    }
+    for (const [name, entry] of seen) {
+      const ages = entry.raws.map(parseAgeRange).find((v) => v !== null) ?? null;
+      if (!ages) {
+        fail(`${heading} ${name}: 保育実施年齢を読めません: 「${entry.raws.join(" / ")}」`);
+      }
+      listed.push({ kind, ward: entry.ward, name, ages });
     }
   }
 
@@ -172,26 +182,58 @@ async function fetchListedFacilities(): Promise<Listed[]> {
 
 /**
  * 予定表の略称を、一覧の正式名称に結びつける。
+ *
  * 略称は正式名称の一部なので、種別ごとに絞ってから
- * 「そのまま一致」→「＋保育園／こども園」→「部分一致が1件だけ」の順で探す
+ * 「そのまま一致」→「＋保育園などを足して一致」→「部分一致」の順に候補を作る。
+ * 「そらいろ」のように候補が2つ以上になる略称は、
+ * 先に決まった施設（「第二そらいろ」＝所沢第二そらいろ保育園）を候補から外して絞り込む。
  */
-function matchFacility(kind: Kind, shortName: string, listed: Listed[]): Listed {
+function resolveNames(kind: Kind, shortNames: string[], listed: Listed[]): Map<string, Listed> {
   const pool = listed.filter((l) => l.kind === kind);
-  const key = normalizeName(shortName);
-  const exact = pool.filter((l) => normalizeName(l.name) === key);
-  if (exact.length === 1) return exact[0];
-
-  for (const suffix of ["保育園", "こども園", "保育室", "園"]) {
-    const withSuffix = pool.filter((l) => normalizeName(l.name) === key + suffix);
-    if (withSuffix.length === 1) return withSuffix[0];
+  const candidates = new Map<string, Listed[]>();
+  for (const shortName of shortNames) {
+    const key = normalizeName(shortName);
+    const exact = pool.filter((l) => normalizeName(l.name) === key);
+    if (exact.length > 0) {
+      candidates.set(shortName, exact);
+      continue;
+    }
+    const withSuffix = ["保育園", "こども園", "保育室", "園"].flatMap((suffix) =>
+      pool.filter((l) => normalizeName(l.name) === key + suffix)
+    );
+    if (withSuffix.length > 0) {
+      candidates.set(shortName, withSuffix);
+      continue;
+    }
+    const partial = pool.filter((l) => normalizeName(l.name).includes(key));
+    if (partial.length === 0) fail(`${kind}「${shortName}」が施設一覧に見つかりません`);
+    candidates.set(shortName, partial);
   }
 
-  const partial = pool.filter((l) => normalizeName(l.name).includes(key));
-  if (partial.length === 1) return partial[0];
-  if (partial.length === 0) fail(`${kind}「${shortName}」が施設一覧に見つかりません`);
-  fail(
-    `${kind}「${shortName}」がどれか決められません: ${partial.map((l) => l.name).join(" / ")}`
-  );
+  // 候補が1つに決まったものから順に、他の候補から取り除いていく
+  const resolved = new Map<string, Listed>();
+  for (let pass = 0; pass < shortNames.length + 1; pass++) {
+    let progressed = false;
+    for (const [shortName, list] of candidates) {
+      if (resolved.has(shortName)) continue;
+      const rest = list.filter((l) => ![...resolved.values()].includes(l));
+      if (rest.length === 0) fail(`${kind}「${shortName}」の候補が他の施設に取られました`);
+      if (rest.length === 1) {
+        resolved.set(shortName, rest[0]);
+        progressed = true;
+      }
+    }
+    if (!progressed) break;
+  }
+
+  const unresolved = shortNames.filter((n) => !resolved.has(n));
+  if (unresolved.length > 0) {
+    const detail = unresolved
+      .map((n) => `${n} → ${(candidates.get(n) ?? []).map((l) => l.name).join(" / ")}`)
+      .join("、");
+    fail(`${kind}でどれか決められない施設があります: ${detail}`);
+  }
+  return resolved;
 }
 
 type PdfResult = {
@@ -313,14 +355,23 @@ async function main() {
       const nameCol = zeroCol - 1;
       if (nameCol < 0) fail(`「${kind}」の施設名の列が分かりません`);
 
-      for (const row of table.rows) {
-        if (row === header) continue;
+      // 表の下のほうに混ざる注記の行を落としてから、まとめて名前を突き合わせる
+      const dataRows = table.rows.filter((row) => {
+        if (row === header) return false;
         const shortName = squeeze(row[nameCol] ?? "");
-        if (!shortName) continue;
-        // 表の下のほうに混ざる注記の行を落とす
-        if (/^[【※（(]/.test(shortName) || shortName.length > 20) continue;
+        if (!shortName) return false;
+        return !/^[【※（(]/.test(shortName) && shortName.length <= 20;
+      });
+      const resolved = resolveNames(
+        kind,
+        dataRows.map((row) => squeeze(row[nameCol])),
+        listed
+      );
 
-        const listedItem = matchFacility(kind, shortName, listed);
+      for (const row of dataRows) {
+        const shortName = squeeze(row[nameCol]);
+        const listedItem = resolved.get(shortName);
+        if (!listedItem) fail(`${kind}「${shortName}」を突き合わせられませんでした`);
         if (used.has(listedItem.name)) fail(`${kind}「${listedItem.name}」が2回出てきます`);
         used.add(listedItem.name);
 
