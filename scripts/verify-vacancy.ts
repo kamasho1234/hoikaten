@@ -102,6 +102,26 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "○": 45, "△": 34, "×": 155 },
   },
+  // 明石市は受入予定が記号
+  akashi: {
+    asOf: "2026-08-20",
+    facilityCount: 158,
+    vacancy: 0,
+    symbolCounts: { "○": 57, "△": 10, "▲": 53, "×": 592 },
+  },
+  // 豊中市は欠員数（実数）。2クラスをまとめて出している施設が3件ある
+  toyonaka: {
+    asOf: "2026-07-24",
+    facilityCount: 137,
+    vacancy: 261,
+  },
+  // 奈良市は受入可能数が記号。凡例にない「◎」は記号のまま載せている
+  nara: {
+    asOf: "2026-08-01",
+    facilityCount: 78,
+    vacancy: 0,
+    symbolCounts: { "○": 10, "△": 95, "×": 301, "◎": 3 },
+  },
   // 西宮市は欠員が記号。「＼（受入れなし）」は null
   nishinomiya: {
     asOf: "2026-08-17",
