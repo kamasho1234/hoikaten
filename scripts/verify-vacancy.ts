@@ -351,6 +351,7 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "○": 24, "△": 42, "－": 390 },
   },
+  akita: { asOf: "2026-08-14", facilityCount: 95, vacancy: 936, emptyRatio: 0.6 },
 };
 
 const problems: string[] = [];
