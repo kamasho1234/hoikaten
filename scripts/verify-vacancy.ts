@@ -343,6 +343,7 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "◎": 14, "○": 81, "×": 468 },
   },
+  kochi: { asOf: "2026-08-20", facilityCount: 124, vacancy: 1228, emptyRatio: 0.5 },
 };
 
 const problems: string[] = [];
