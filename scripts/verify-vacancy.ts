@@ -102,6 +102,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "○": 45, "△": 34, "×": 155 },
   },
+  // 春日部市も記号で公表している
+  kasukabe: {
+    asOf: "2026-07-23",
+    facilityCount: 48,
+    vacancy: 0,
+    symbolCounts: { "○": 3, "△": 7, "×": 197 },
+  },
   // 日野市は受け入れのないクラスを「-」で書くため、空きのない園は全クラス「—」になる。
   // 公式の「合計」列が0であることを取り込み時に確かめている
   hino: { asOf: "2026-07-25", facilityCount: 47, vacancy: 89, emptyRatio: 0.6 },
