@@ -1,0 +1,102 @@
+{
+  "municipalitySlug": "hiratsuka",
+  "municipalityName": "平塚市",
+  "asOf": "2026-08-06",
+  "fetchedAt": "2026-08-22",
+  "sourceName": "平塚市「受入状況表」",
+  "sourceUrl": "https://www.city.hiratsuka.kanagawa.jp/kodomo/page82_00017.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.hiratsuka.kanagawa.jp/common/200207081.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "9月の受入状況",
+  "notes": [
+    "平塚市は人数ではなく、受け入れがあるかどうかだけを公表しています。",
+    "公式の表で空欄になっているところは「受入なし」という意味なので、当サイトでは「－」で表しています。クラスを設けていない歳児も同じ空欄なので、区別せずに載せています。",
+    "掲載日時点の情報です。各施設の状況により受入の有無が変わることがあります。",
+    "年齢はその年度の4月1日時点のものです。"
+  ],
+  "wards": [],
+  "categories": [
+    "公立保育所",
+    "公立認こ園",
+    "私立保育所",
+    "私立認こ園",
+    "私立小規模"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "有",
+      "label": "受入あり",
+      "open": true
+    },
+    {
+      "mark": "－",
+      "label": "受入なし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"神田保育園","name":"神田保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["有","有","－","有","有","－"]},
+    {"id":"若草保育園","name":"若草保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
+    {"id":"大神保育園","name":"大神保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","有","有","有"]},
+    {"id":"しらさぎ保育園","name":"しらさぎ保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
+    {"id":"南原保育園","name":"南原保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
+    {"id":"吉沢保育園","name":"吉沢保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["有","－","－","有","有","有"]},
+    {"id":"夕陽ケ丘保育園","name":"夕陽ケ丘保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
+    {"id":"平塚市港こども園","name":"平塚市港こども園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
+    {"id":"横内保育園","name":"横内保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
+    {"id":"ゆうかり保育園","name":"ゆうかり保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["－","有","有","有","－","－"]},
+    {"id":"認定美里・柿の実こども園","name":"認定美里・柿の実こども園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["有","－","－","－","－","－"]},
+    {"id":"大神美里幼稚園","name":"大神美里幼稚園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
+    {"id":"神田幼稚園","name":"神田幼稚園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","有","－","－"]},
+    {"id":"八幡保育園","name":"八幡保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["有","－","有","－","－","－"]},
+    {"id":"愛・八幡保育園","name":"愛・八幡保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["有","－","－","有","－","－"]},
+    {"id":"中原保育園","name":"中原保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
+    {"id":"みどり保育所","name":"みどり保育所","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["有","－","有","－","－","－"]},
+    {"id":"ピッコロ","name":"ピッコロ","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["有","－","－","－","－","－"]},
+    {"id":"真土すばる保育園","name":"真土すばる保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","有","有","有"]},
+    {"id":"湘南きらら保育園","name":"湘南きらら保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
+    {"id":"東中原幼稚園","name":"東中原幼稚園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["－","有","有","－","－","有"]},
+    {"id":"大野幼稚園","name":"大野幼稚園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
+    {"id":"金目保育園","name":"金目保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
+    {"id":"金目おむすび保育園","name":"金目おむすび保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
+    {"id":"サンキッズ金田ほいくえん","name":"サンキッズ金田ほいくえん","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["有","－","有","－","－","－"]},
+    {"id":"認定こども園さなだ幼稚園","name":"認定こども園さなだ幼稚園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","有"]},
+    {"id":"つくし幼稚園","name":"つくし幼稚園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
+    {"id":"あさひ保育園","name":"あさひ保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
+    {"id":"大町保育園","name":"大町保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
+    {"id":"いずみ保育園","name":"いずみ保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["有","有","有","有","－","有"]},
+    {"id":"高村保育園","name":"高村保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["有","－","－","－","－","－"]},
+    {"id":"湘南みらい保育園","name":"湘南みらい保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["有","－","－","－","－","－"]},
+    {"id":"平塚めぐみこども園","name":"平塚めぐみこども園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","有","有","－"]},
+    {"id":"清水学園付属幼稚園","name":"清水学園付属幼稚園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","有","－","－"]},
+    {"id":"平塚保育園","name":"平塚保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["－","有","有","－","－","－"]},
+    {"id":"柳町保育園","name":"柳町保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
+    {"id":"明石町保育園","name":"明石町保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
+    {"id":"しらゆり保育園","name":"しらゆり保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
+    {"id":"富士見保育園","name":"富士見保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["有","－","有","－","－","－"]},
+    {"id":"湘南平塚あゆみ保育園","name":"湘南平塚あゆみ保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","有","有","－","－"]},
+    {"id":"くまのこ保育園","name":"くまのこ保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
+    {"id":"サン・キッズ湘南","name":"サン・キッズ湘南","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["有","有","有","－","有","－"]},
+    {"id":"認定こども園道和幼稚園","name":"認定こども園道和幼稚園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
+    {"id":"なでしこ幼稚園","name":"なでしこ幼稚園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","有","－","有","有"]},
+    {"id":"まなびの森保育園平塚","name":"まなびの森保育園平塚","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","有","－"]},
+    {"id":"もんもん保育園","name":"もんもん保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
+    {"id":"苗・もんもん保育園","name":"苗・もんもん保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
+    {"id":"花・もんもん保育園","name":"花・もんもん保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
+    {"id":"サン・キッズ平塚ステーション","name":"サン・キッズ平塚ステーション","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
+    {"id":"花水さくら保育園","name":"花水さくら保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
+    {"id":"ぱぷりか保育園平塚駅南","name":"ぱぷりか保育園平塚駅南","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","有","有"]},
+    {"id":"錦町保育園あねら","name":"錦町保育園あねら","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
+    {"id":"サンライズキッズ保育園平塚園","name":"サンライズキッズ保育園平塚園","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
+    {"id":"HANAI未来愛育園東真土","name":"HANAI未来愛育園東真土","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
+    {"id":"ぽとふ平塚","name":"ぽとふ平塚","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["有","－","－","－","－","－"]},
+    {"id":"ミルキーホーム平塚園","name":"ミルキーホーム平塚園","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["有","－","有","－","－","－"]},
+    {"id":"ぱぷりか保育園平塚","name":"ぱぷりか保育園平塚","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["有","－","－","－","－","－"]},
+    {"id":"松風・もんもん保育園","name":"松風・もんもん保育園","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
+    {"id":"MIRATZ湘南平塚保育園","name":"MIRATZ湘南平塚保育園","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","有","－","－","－"]}
+  ]
+}
