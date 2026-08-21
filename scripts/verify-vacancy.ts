@@ -102,6 +102,21 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "○": 45, "△": 34, "×": 155 },
   },
+  // 岐阜市は空きが記号、在籍人数は実数
+  gifu: {
+    asOf: "2026-08-01",
+    facilityCount: 87,
+    vacancy: 0,
+    symbolCounts: { "〇": 71, "△": 61, "✖": 269 },
+  },
+  // 水戸市は受入れ見込みが記号、申込み人数は実数
+  mito: {
+    asOf: "2026-08-06",
+    facilityCount: 109,
+    vacancy: 0,
+    waiting: 355,
+    symbolCounts: { "○": 8, "△": 128, "×": 355 },
+  },
   // 越谷市も記号で公表している（○・△・＊。空欄は受入れなし）
   koshigaya: {
     asOf: "2026-08-18",
