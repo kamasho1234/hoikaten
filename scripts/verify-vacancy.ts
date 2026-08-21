@@ -352,6 +352,13 @@ const EXPECTED: Record<
     symbolCounts: { "○": 24, "△": 42, "－": 390 },
   },
   akita: { asOf: "2026-08-14", facilityCount: 95, vacancy: 936, emptyRatio: 0.6 },
+  // 福岡市は空きを幅（◎6人以上など）で公表している。時点は施設情報の更新日なので日々動く
+  fukuoka: {
+    asOf: "2026-08-21",
+    facilityCount: 472,
+    vacancy: 0,
+    symbolCounts: { "◎": 55, "○": 114, "△": 283, "×": 1857 },
+  },
 };
 
 const problems: string[] = [];
