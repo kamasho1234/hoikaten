@@ -12,6 +12,8 @@ import {
   hasMetric,
   summarizeByAge,
   summarizeByCategory,
+  countBySymbol,
+  isSymbolBased,
   summarizeByWard,
   totalSummary,
   type GroupSummary,
@@ -74,6 +76,9 @@ export default async function VacancyPage({
 
   const byAge = summarizeByAge(vacancy);
   const total = totalSummary(vacancy);
+  // 空きを人数ではなく記号で公表している自治体は、数の集計ができないので見せ方を変える
+  const symbolBased = isSymbolBased(vacancy);
+  const symbolLegend = vacancy.symbolLegend ?? [];
   const siteCount = vacancy.facilities.filter((f) => f.site).length;
 
   // 区がある自治体は区別、無い自治体は施設類型別に集計して同じ表で見せる
@@ -117,15 +122,19 @@ export default async function VacancyPage({
       question: `${name}で空きがある保育園なら必ず入園できますか？`,
       answer:
         `いいえ。認可保育所等は空き枠に対して申込が複数あった場合、利用調整（点数）の高い世帯から入園が決まります。` +
-        (hasWaiting && total.waiting !== null
-          ? `${asOfLabel}時点では、${name}全体で空き枠${num(total.vacancy)}に対して申込が${num(total.waiting)}件あり、` +
-            (tightestAge
-              ? `もっとも申込が集中している${AGE_LABELS[tightestAge.age]}では空き1枠あたり${formatRatio(tightestAge.ratio)}の申込があります。`
-              : "")
-          : `${asOfLabel}時点では、${name}全体の空き枠は${num(total.vacancy)}で、${num(total.facilitiesWithVacancy)}施設に空きがあります。` +
-            (scarcestAge
-              ? `もっとも空きが少ないのは${AGE_LABELS[scarcestAge.age]}で${num(scarcestAge.vacancy)}枠です。`
-              : "")) +
+        (symbolBased
+          ? `${name}は空きを人数ではなく記号で公表しているため、当サイトでも記号のまま載せています（${symbolLegend
+              .map((l) => `${l.mark}＝${l.label}`)
+              .join("、")}）。`
+          : hasWaiting && total.waiting !== null
+            ? `${asOfLabel}時点では、${name}全体で空き枠${num(total.vacancy)}に対して申込が${num(total.waiting)}件あり、` +
+              (tightestAge
+                ? `もっとも申込が集中している${AGE_LABELS[tightestAge.age]}では空き1枠あたり${formatRatio(tightestAge.ratio)}の申込があります。`
+                : "")
+            : `${asOfLabel}時点では、${name}全体の空き枠は${num(total.vacancy)}で、${num(total.facilitiesWithVacancy)}施設に空きがあります。` +
+              (scarcestAge
+                ? `もっとも空きが少ないのは${AGE_LABELS[scarcestAge.age]}で${num(scarcestAge.vacancy)}枠です。`
+                : "")) +
         `点数の目安は${name}の入園点数シミュレーターで確認できます。`,
     },
     {
@@ -207,7 +216,8 @@ export default async function VacancyPage({
           {name}の保育園 空き状況
         </h1>
         <p className="text-muted-foreground">
-          {name}内{num(total.facilityCount)}施設の空き枠を、
+          {name}内{num(total.facilityCount)}施設の
+          {symbolBased ? "空き状況" : "空き枠"}を、
           {hasWards ? "区と年齢" : "年齢と施設の種類"}でさがせます
         </p>
         <p className="text-xs text-muted-foreground mt-1.5">
@@ -230,11 +240,44 @@ export default async function VacancyPage({
           年齢別の空き状況（{name}全体）
         </h2>
         <p className="text-xs text-muted-foreground mb-4">
-          {hasWaiting
-            ? "空き1枠あたりの申込数 ＝ 入所待ち人数 ÷ 受入可能数"
-            : `${asOfLabel}時点で受け入れられる枠の数です`}
+          {symbolBased
+            ? `${name}は空きを記号で公表しています（${symbolLegend
+                .map((l) => `${l.mark}＝${l.label}`)
+                .join("、")}）`
+            : hasWaiting
+              ? "空き1枠あたりの申込数 ＝ 入所待ち人数 ÷ 受入可能数"
+              : `${asOfLabel}時点で受け入れられる枠の数です`}
         </p>
 
+        {symbolBased ? (
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-2.5">
+            {Array.from({ length: 6 }, (_, ageIndex) => {
+              const counts = countBySymbol(vacancy, ageIndex);
+              const open = counts.filter((c) => c.legend.open).reduce((a, c) => a + c.count, 0);
+              return (
+                <div
+                  key={ageIndex}
+                  className="rounded-xl border border-border/60 bg-card p-3.5"
+                >
+                  <p className="text-sm font-bold mb-2">{AGE_LABELS[ageIndex]}</p>
+                  <div className="flex items-baseline gap-1.5">
+                    <span className="text-2xl font-bold text-primary tabular-nums leading-none">
+                      {num(open)}
+                    </span>
+                    <span className="text-xs text-muted-foreground">施設に空きあり</span>
+                  </div>
+                  <div className="text-xs text-muted-foreground mt-2 pt-2 border-t border-border/50 space-y-0.5">
+                    {counts.map((c) => (
+                      <p key={c.legend.mark} className="tabular-nums">
+                        {c.legend.mark}（{c.legend.label}） {num(c.count)}施設
+                      </p>
+                    ))}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        ) : (
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-2.5">
           {byAge.map((a) => {
             const tight = a.ratio !== null && a.ratio >= 1;
@@ -272,6 +315,7 @@ export default async function VacancyPage({
             );
           })}
         </div>
+        )}
 
         {vacancy.waitingCaveat && (
           <div className="mt-3 rounded-xl bg-muted/50 p-3.5">
@@ -296,6 +340,8 @@ export default async function VacancyPage({
           categories={vacancy.categories ?? []}
           hasWaiting={hasWaiting}
           hasEnrolled={hasMetric(vacancy, "enrolled")}
+          symbolBased={symbolBased}
+          symbolLegend={symbolLegend}
         />
       </section>
 

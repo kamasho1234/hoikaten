@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import type { VacancyFacility } from "@/lib/vacancy";
+import type { SymbolLegend, VacancyFacility } from "@/lib/vacancy";
 import { AGE_COUNT, AGE_LABELS, facilityVacancy, valueAt } from "@/lib/vacancy";
 
 const ALL = -1;
@@ -18,6 +18,12 @@ const SORT_LABELS: Record<SortKey, string> = {
   name: "施設名順",
 };
 
+/** 記号の自治体は人数がないので、並び替えの言い方を変える */
+const SYMBOL_SORT_LABELS: Record<SortKey, string> = {
+  ...SORT_LABELS,
+  vacancy: "空きがある順",
+};
+
 const selectClass =
   "w-full appearance-none rounded-xl border border-border bg-card px-3 py-2.5 text-sm font-medium " +
   "focus:outline-none focus:border-primary/50 focus:ring-2 focus:ring-primary/15 transition-colors";
@@ -25,6 +31,33 @@ const selectClass =
 const labelClass = "block text-xs font-medium text-muted-foreground mb-1.5";
 
 const num = (n: number) => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+
+/**
+ * その施設・その年齢の記号。年齢に null を渡したときは、
+ * 凡例の並び（空きの多い順）でいちばん上に来る記号を返す
+ */
+function symbolOf(
+  facility: VacancyFacility,
+  age: number | null,
+  legend: SymbolLegend[] | undefined
+): string | null {
+  const symbols = facility.symbols;
+  if (!symbols) return null;
+  if (age !== null) return symbols[age] ?? null;
+  const order = (legend ?? []).map((l) => l.mark);
+  let best: string | null = null;
+  for (const mark of symbols) {
+    if (!mark) continue;
+    if (best === null) {
+      best = mark;
+      continue;
+    }
+    const a = order.indexOf(mark);
+    const b = order.indexOf(best);
+    if (a >= 0 && (b < 0 || a < b)) best = mark;
+  }
+  return best;
+}
 
 /** リンク先が園そのものか、運営法人か、自治体のページかを利用者に伝える */
 const SITE_LABELS: Record<NonNullable<VacancyFacility["site"]>["type"], string> = {
@@ -58,12 +91,18 @@ export function VacancyBrowser({
   categories,
   hasWaiting,
   hasEnrolled,
+  symbolBased = false,
+  symbolLegend,
 }: {
   facilities: VacancyFacility[];
   wards: string[];
   categories: string[];
   hasWaiting: boolean;
   hasEnrolled: boolean;
+  /** 空きを人数ではなく記号で公表している自治体か */
+  symbolBased?: boolean;
+  /** 記号の意味。記号の自治体だけ渡す */
+  symbolLegend?: SymbolLegend[];
 }) {
   const [ward, setWard] = useState<number>(ALL);
   const [category, setCategory] = useState<number>(ALL);
@@ -94,6 +133,21 @@ export function VacancyBrowser({
 
   const filtered = useMemo(() => {
     const q = query.trim();
+    // 記号の自治体は人数がないので、「空きの多さ」を凡例の並び順で決める。
+    // 凡例は空きの多い順に並んでいるので、先頭に近いほど大きい点にする
+    const rank = (f: VacancyFacility): number => {
+      if (!symbolBased) return facilityVacancy(f, age) ?? 0;
+      const mark = symbolOf(f, age, symbolLegend);
+      if (mark === null) return -1;
+      const index = (symbolLegend ?? []).findIndex((l) => l.mark === mark);
+      return index < 0 ? -1 : (symbolLegend ?? []).length - index;
+    };
+    const isOpen = (f: VacancyFacility): boolean => {
+      if (!symbolBased) return (facilityVacancy(f, age) ?? 0) > 0;
+      const mark = symbolOf(f, age, symbolLegend);
+      return mark !== null && (symbolLegend ?? []).some((l) => l.mark === mark && l.open);
+    };
+
     const list = facilities.filter((f) => {
       if (ward !== ALL && f.w !== ward) return false;
       if (category !== ALL) {
@@ -101,7 +155,7 @@ export function VacancyBrowser({
         if (category === UNCLASSIFIED ? c !== null : c !== category) return false;
       }
       if (q && !f.name.includes(q)) return false;
-      if (onlyVacant && (facilityVacancy(f, age) ?? 0) <= 0) return false;
+      if (onlyVacant && !isOpen(f)) return false;
       return true;
     });
 
@@ -112,21 +166,26 @@ export function VacancyBrowser({
       sorted.sort(
         (a, b) =>
           (valueAt(a.waiting, age) ?? 0) - (valueAt(b.waiting, age) ?? 0) ||
-          (facilityVacancy(b, age) ?? 0) - (facilityVacancy(a, age) ?? 0)
+          rank(b) - rank(a)
       );
     } else {
       sorted.sort(
         (a, b) =>
-          (facilityVacancy(b, age) ?? 0) - (facilityVacancy(a, age) ?? 0) ||
+          rank(b) - rank(a) ||
           (valueAt(a.waiting, age) ?? 0) - (valueAt(b.waiting, age) ?? 0)
       );
     }
     return sorted;
-  }, [facilities, ward, category, age, onlyVacant, query, sort]);
+  }, [facilities, ward, category, age, onlyVacant, query, sort, symbolBased, symbolLegend]);
 
   const vacantCount = useMemo(
-    () => filtered.filter((f) => (facilityVacancy(f, age) ?? 0) > 0).length,
-    [filtered, age]
+    () =>
+      filtered.filter((f) => {
+        if (!symbolBased) return (facilityVacancy(f, age) ?? 0) > 0;
+        const mark = symbolOf(f, age, symbolLegend);
+        return mark !== null && (symbolLegend ?? []).some((l) => l.mark === mark && l.open);
+      }).length,
+    [filtered, age, symbolBased, symbolLegend]
   );
 
   const visible = filtered.slice(0, limit);
@@ -254,7 +313,7 @@ export function VacancyBrowser({
           >
             {sortKeys.map((key) => (
               <option key={key} value={key}>
-                {SORT_LABELS[key]}
+                {(symbolBased ? SYMBOL_SORT_LABELS : SORT_LABELS)[key]}
               </option>
             ))}
           </select>
@@ -290,6 +349,8 @@ export function VacancyBrowser({
               age={age}
               hasWaiting={hasWaiting}
               hasEnrolled={hasEnrolled}
+              symbolBased={symbolBased}
+              legend={symbolLegend}
             />
           ))}
         </div>
@@ -317,6 +378,8 @@ function FacilityCard({
   age,
   hasWaiting,
   hasEnrolled,
+  symbolBased = false,
+  legend,
 }: {
   facility: VacancyFacility;
   ward?: string;
@@ -324,13 +387,22 @@ function FacilityCard({
   age: number | null;
   hasWaiting: boolean;
   hasEnrolled: boolean;
+  /** 空きを記号で公表している自治体か */
+  symbolBased?: boolean;
+  /** 記号の意味。記号の自治体だけ渡す */
+  legend?: SymbolLegend[];
 }) {
   const vacancy = facilityVacancy(facility, age);
   const waiting = valueAt(facility.waiting, age);
   const enrolled = valueAt(facility.enrolled, age);
-  const hasVacancy = (vacancy ?? 0) > 0;
+  // 記号の自治体は「○△」を空きあり、それ以外を空きなしとして扱う
+  const mark = symbolBased ? symbolOf(facility, age, legend) : null;
+  const markIsOpen = mark !== null && (legend ?? []).some((l) => l.mark === mark && l.open);
+  const hasVacancy = symbolBased ? markIsOpen : (vacancy ?? 0) > 0;
   // 年齢別に分かれていない施設（家庭福祉員など）は年齢別の内訳を出せない
-  const ageBreakdown = facility.vacancy.some((v) => v !== null);
+  const ageBreakdown = symbolBased
+    ? (facility.symbols ?? []).some((v) => v !== null)
+    : facility.vacancy.some((v) => v !== null);
 
   return (
     <div
@@ -383,7 +455,7 @@ function FacilityCard({
               hasVacancy ? "text-primary" : "text-muted-foreground"
             }`}
           >
-            {vacancy === null ? "—" : vacancy}
+            {symbolBased ? (mark ?? "—") : (vacancy ?? "—")}
           </p>
           {hasWaiting && (
             <p className="text-xs text-muted-foreground tabular-nums">
@@ -398,22 +470,29 @@ function FacilityCard({
         <div className="mt-3 grid grid-cols-6 gap-1.5">
           {Array.from({ length: AGE_COUNT }, (_, i) => {
             const v = facility.vacancy[i];
+            // 記号の自治体は年齢ごとの記号を出す
+            const cellMark = symbolBased ? (facility.symbols?.[i] ?? null) : null;
+            const cellOpen = symbolBased
+              ? cellMark !== null && (legend ?? []).some((l) => l.mark === cellMark && l.open)
+              : v !== null && v > 0;
+            const empty = symbolBased ? cellMark === null : v === null;
+            const meaning = symbolBased
+              ? (legend ?? []).find((l) => l.mark === cellMark)?.label
+              : undefined;
             return (
               <div
                 key={i}
                 className={`rounded-lg px-1 py-1.5 text-center ${
-                  v === null
-                    ? "bg-muted/40"
-                    : v > 0
-                      ? "bg-primary/10"
-                      : "bg-muted/60"
+                  empty ? "bg-muted/40" : cellOpen ? "bg-primary/10" : "bg-muted/60"
                 }`}
                 title={
-                  v === null
+                  empty
                     ? `${AGE_LABELS[i]}: クラスなし`
-                    : hasWaiting
-                      ? `${AGE_LABELS[i]}: 空き${v} / 入所待ち${facility.waiting?.[i] ?? 0}人`
-                      : `${AGE_LABELS[i]}: 空き${v}`
+                    : symbolBased
+                      ? `${AGE_LABELS[i]}: ${cellMark}${meaning ? `（${meaning}）` : ""}`
+                      : hasWaiting
+                        ? `${AGE_LABELS[i]}: 空き${v} / 入所待ち${facility.waiting?.[i] ?? 0}人`
+                        : `${AGE_LABELS[i]}: 空き${v}`
                 }
               >
                 <p className="text-[10px] text-muted-foreground leading-none">
@@ -421,10 +500,10 @@ function FacilityCard({
                 </p>
                 <p
                   className={`text-sm font-bold tabular-nums leading-tight mt-0.5 ${
-                    v !== null && v > 0 ? "text-primary" : "text-muted-foreground"
+                    cellOpen ? "text-primary" : "text-muted-foreground"
                   }`}
                 >
-                  {v === null ? "—" : v}
+                  {symbolBased ? (cellMark ?? "—") : (v ?? "—")}
                 </p>
               </div>
             );

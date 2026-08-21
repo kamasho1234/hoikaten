@@ -8,9 +8,11 @@
 
 import type {
   AgeSummary,
+  AgeSymbols,
   AgeValues,
   FacilityWebsite,
   GroupSummary,
+  SymbolLegend,
   VacancyDataset,
   VacancyMetric,
 } from "./types";
@@ -116,12 +118,15 @@ import akishimaVacancy from "./akishima.json";
 import yokosukaVacancy from "./yokosuka.json";
 import ageoVacancy from "./ageo.json";
 import matsuyamaVacancy from "./matsuyama.json";
+import narashinoVacancy from "./narashino.json";
 
 export type {
   AgeSummary,
+  AgeSymbols,
   AgeValues,
   FacilityWebsite,
   GroupSummary,
+  SymbolLegend,
   VacancyDataset,
   VacancyMetric,
 };
@@ -227,6 +232,7 @@ const registry: Record<string, VacancyDataset> = {
   yokosuka: yokosukaVacancy as unknown as VacancyDataset,
   ageo: ageoVacancy as unknown as VacancyDataset,
   matsuyama: matsuyamaVacancy as unknown as VacancyDataset,
+  narashino: narashinoVacancy as unknown as VacancyDataset,
 };
 
 export function getVacancyData(slug: string): VacancyDataset | undefined {
@@ -298,6 +304,59 @@ export function facilityVacancy(
   if (v !== null) return v;
   if (age === null && f.vacancyTotal !== undefined) return f.vacancyTotal;
   return null;
+}
+
+/**
+ * 空きを記号で出している自治体かどうか。
+ *
+ * 記号（○△×）から人数は決められないので、合計や倍率のような数の集計はできない。
+ * 代わりに「記号ごとに何施設あるか」を数えて見せる
+ */
+export function isSymbolBased(data: VacancyDataset): boolean {
+  return hasMetric(data, "symbol");
+}
+
+/** その施設・その年齢の記号。年齢に null を渡すと、いちばん空きの多い記号を返す */
+export function symbolAt(
+  data: VacancyDataset,
+  facility: { symbols?: AgeSymbols },
+  age: number | null
+): string | null {
+  const symbols = facility.symbols;
+  if (!symbols) return null;
+  if (age !== null) return symbols[age] ?? null;
+  // 全年齢のときは、凡例の並び（空きの多い順）でいちばん上に来るものを出す
+  const order = (data.symbolLegend ?? []).map((l) => l.mark);
+  let best: string | null = null;
+  for (const mark of symbols) {
+    if (!mark) continue;
+    if (best === null) {
+      best = mark;
+      continue;
+    }
+    const a = order.indexOf(mark);
+    const b = order.indexOf(best);
+    if (a >= 0 && (b < 0 || a < b)) best = mark;
+  }
+  return best;
+}
+
+/** その記号が「空きあり」を表すか。凡例にない記号は空きなしとみなす */
+export function isOpenSymbol(data: VacancyDataset, mark: string | null): boolean {
+  if (!mark) return false;
+  return (data.symbolLegend ?? []).some((l) => l.mark === mark && l.open);
+}
+
+/** 記号ごとの施設数。年齢を指定すればその年齢だけを数える */
+export function countBySymbol(
+  data: VacancyDataset,
+  age: number | null
+): { legend: SymbolLegend; count: number }[] {
+  const legend = data.symbolLegend ?? [];
+  return legend.map((item) => ({
+    legend: item,
+    count: data.facilities.filter((f) => symbolAt(data, f, age) === item.mark).length,
+  }));
 }
 
 /** 市全体の年齢別サマリー */

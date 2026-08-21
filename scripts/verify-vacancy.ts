@@ -38,6 +38,11 @@ const EXPECTED: Record<
      * 普通に2割ほどあるので、公式の合計行と突き合わせたうえで上限を上げる。
      */
     emptyRatio?: number;
+    /**
+     * 空きを記号で公表している自治体の、記号ごとの施設数（全年齢ぶんの延べ）。
+     * 人数の合計が出せないので、代わりにこれを検算値にする
+     */
+    symbolCounts?: Record<string, number>;
   }
 > = {
   yokohama: { asOf: "2026-08-01", facilityCount: 1242, vacancy: 3990, waiting: 13473 },
@@ -90,6 +95,13 @@ const EXPECTED: Record<
   ageo: { asOf: "2026-08-31", facilityCount: 75, vacancy: 149, emptyRatio: 0.7 },
   // 松山市は1施設ずつ「年齢の和＝合計列」を取り込み時に確かめている
   matsuyama: { asOf: "2026-09-01", facilityCount: 129, vacancy: 52, emptyRatio: 0.85 },
+  // 習志野市は空きを記号で公表している。人数の合計が出せないので記号の数で検算する
+  narashino: {
+    asOf: "2026-07-25",
+    facilityCount: 47,
+    vacancy: 0,
+    symbolCounts: { "○": 45, "△": 34, "×": 155 },
+  },
   // 日野市は受け入れのないクラスを「-」で書くため、空きのない園は全クラス「—」になる。
   // 公式の「合計」列が0であることを取り込み時に確かめている
   hino: { asOf: "2026-07-25", facilityCount: 47, vacancy: 89, emptyRatio: 0.6 },
@@ -148,7 +160,24 @@ function check(slug: string) {
   }
   if (!data.sourceUrl.startsWith("https://")) P(`sourceUrl が https ではありません`);
   if (!data.metrics?.length) P(`metrics が空です`);
-  if (!data.metrics?.includes("vacancy")) P(`metrics に vacancy がありません`);
+  // 空きを記号でしか公表していない自治体は vacancy を持たず symbol を持つ
+  const symbolBased = data.metrics?.includes("symbol") ?? false;
+  if (!symbolBased && !data.metrics?.includes("vacancy")) P(`metrics に vacancy がありません`);
+  if (symbolBased) {
+    if (!data.symbolLegend?.length) P(`symbol の自治体なのに symbolLegend がありません`);
+    const marks = new Set((data.symbolLegend ?? []).map((l: { mark: string }) => l.mark));
+    for (const f of data.facilities) {
+      if (!f.symbols) {
+        P(`${f.name}: symbols がありません`);
+        break;
+      }
+      const unknown = f.symbols.filter((m: string | null) => m !== null && !marks.has(m));
+      if (unknown.length > 0) {
+        P(`${f.name}: 凡例にない記号があります: ${unknown.join("、")}`);
+        break;
+      }
+    }
+  }
   if (data.waitingCaveat && !hasMetric(data, "waiting")) {
     P(`入所待ちを持たないのに waitingCaveat があります`);
   }
@@ -211,7 +240,8 @@ function check(slug: string) {
   }
 
   // 全クラス「—」の施設が多いときは、列の取り違えなど抽出ミスを疑う
-  if (noValues.length > 0) {
+  // 記号の自治体は vacancy が全部 null なので、この検査はしない
+  if (!symbolBased && noValues.length > 0) {
     const ratio = noValues.length / Math.max(1, data.facilities.length);
     if (ratio > (EXPECTED[slug]?.emptyRatio ?? 0.1)) {
       P(
@@ -288,6 +318,20 @@ function check(slug: string) {
 
   // --- 4. 既知の検算値（asOf が一致するときだけ） ---
   const exp = EXPECTED[slug];
+  if (exp?.symbolCounts && exp.asOf === data.asOf) {
+    // 記号ごとに何回出てきたかを数え直して、取り込み時の値と突き合わせる
+    const counted: Record<string, number> = {};
+    for (const f of data.facilities) {
+      for (const mark of f.symbols ?? []) {
+        if (mark) counted[mark] = (counted[mark] ?? 0) + 1;
+      }
+    }
+    for (const [mark, count] of Object.entries(exp.symbolCounts)) {
+      if ((counted[mark] ?? 0) !== count) {
+        P(`記号「${mark}」の数が違います（期待 ${count} / 実際 ${counted[mark] ?? 0}）`);
+      }
+    }
+  }
   if (!exp) {
     notes.push(`${slug}: EXPECTED に検算値が登録されていません。取り込み時の値を追加してください`);
   } else if (exp.asOf !== data.asOf) {

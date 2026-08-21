@@ -9,11 +9,32 @@
 // 同様に、区に分かれていない自治体（目黒区）では wards が空になり、
 // 施設類型を公開している自治体（目黒区）では categories が入る。
 
-/** データセットが公開している指標 */
-export type VacancyMetric = "vacancy" | "waiting" | "enrolled";
+/**
+ * データセットが公開している指標。
+ *
+ * "symbol" は、空きを人数ではなく記号（○△×）でしか出していない自治体のためのもの。
+ * 記号から人数を決めつけることはできないので、記号のまま持って記号のまま見せる。
+ */
+export type VacancyMetric = "vacancy" | "waiting" | "enrolled" | "symbol";
 
 /** 0歳児〜5歳児の6要素。null は「そのクラスを設けていない」で、0（空きなし）とは区別する */
 export type AgeValues = (number | null)[];
+
+/**
+ * 0歳児〜5歳児の6要素。空きを記号で出している自治体で使う。
+ * null は「そのクラスを設けていない」。文字は公式の表記をそのまま入れる（"○" "△" "×" など）
+ */
+export type AgeSymbols = (string | null)[];
+
+/** 記号の意味。自治体ごとに違うので、公式の凡例をそのまま持つ */
+export type SymbolLegend = {
+  /** 表に出てくる記号 */
+  mark: string;
+  /** 公式の言い方（「3名以上の空き」など） */
+  label: string;
+  /** 空きがあるとみなせる記号か。×や空欄は false */
+  open: boolean;
+};
 
 /** 施設サイトのリンク先。園そのものか、運営法人か、自治体のページかを区別する */
 export type FacilityWebsite = {
@@ -29,8 +50,13 @@ export type VacancyFacility = {
   w: number | null;
   /** categories のインデックス。施設類型を公開していない自治体では null */
   c?: number | null;
-  /** 受入可能数（空き枠） */
+  /** 受入可能数（空き枠）。記号でしか公開されていない自治体では全要素 null になる */
   vacancy: AgeValues;
+  /**
+   * 空きを記号で出している自治体の、年齢ごとの記号。
+   * 人数が分からないので vacancy には入れず、ここに公式の表記のまま持つ
+   */
+  symbols?: AgeSymbols;
   /** 入所待ち人数。公開していない自治体では持たない */
   waiting?: AgeValues;
   /** 入所児童数。公開していない自治体では持たない */
@@ -70,6 +96,11 @@ export type VacancyDataset = {
   notes?: string[];
   /** 入所待ち人数の読み方に関する注意書き（waiting を持つ自治体のみ） */
   waitingCaveat?: string;
+  /**
+   * 記号の凡例（symbol を持つ自治体のみ）。
+   * 「○＝3名以上」のように自治体ごとに意味が違うので、公式の言い方をそのまま持つ
+   */
+  symbolLegend?: SymbolLegend[];
   /** 区の一覧。区に分かれていない自治体では空配列 */
   wards: string[];
   /** 施設類型の一覧。公開していない自治体では空配列 */
