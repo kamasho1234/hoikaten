@@ -49,8 +49,15 @@ def gray_value(color):
 def read_table(path, want_shaded):
     rows = []
     shaded = []
+    legend = ""
     with pdfplumber.open(path) as pdf:
         for page in pdf.pages:
+            if want_shaded and not legend:
+                # 「〇：若干空きあり ×：空きなし」
+                for line in (page.extract_text() or "").splitlines():
+                    if "〇" in line and "×" in line and "：" in line:
+                        legend = " ".join(line.split())
+                        break
             shades = []
             if want_shaded:
                 for rect in page.rects:
@@ -81,7 +88,9 @@ def read_table(path, want_shaded):
                 shaded.append(marks)
     if not rows:
         fail(f"表を取り出せませんでした: {path}")
-    return rows, shaded
+    if want_shaded and not legend:
+        fail(f"記号の凡例を読み取れませんでした: {path}")
+    return rows, shaded, legend
 
 
 def main():
@@ -90,12 +99,12 @@ def main():
         fail("空き状況PDFと待機児童数PDFのパスを順に指定してください。")
     sys.stdout.reconfigure(encoding="utf-8")
 
-    vacancy_rows, vacancy_shaded = read_table(paths[0], want_shaded=True)
-    waiting_rows, _ = read_table(paths[1], want_shaded=False)
+    vacancy_rows, vacancy_shaded, legend = read_table(paths[0], want_shaded=True)
+    waiting_rows, _, _ = read_table(paths[1], want_shaded=False)
 
     json.dump(
         {
-            "vacancy": {"rows": vacancy_rows, "shaded": vacancy_shaded},
+            "vacancy": {"rows": vacancy_rows, "shaded": vacancy_shaded, "legend": legend},
             "waiting": {"rows": waiting_rows},
         },
         sys.stdout,

@@ -102,6 +102,28 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "○": 45, "△": 34, "×": 155 },
   },
+  // 姫路市は空きが記号。公式の表で空欄のクラスは「－」に置き換えている
+  himeji: {
+    asOf: "2026-08-14",
+    facilityCount: 142,
+    vacancy: 0,
+    symbolCounts: { "○": 25, "△": 75, "－": 634 },
+  },
+  // 八千代市は空きが記号。ページの表をそのまま読む
+  yachiyo: {
+    asOf: "2026-08-01",
+    facilityCount: 64,
+    vacancy: 0,
+    symbolCounts: { "○": 9, "△": 31, "×": 230 },
+  },
+  // 茅ヶ崎市は空きが記号、待機児童数は実数。受け入れ対象外のクラスは網掛けなので null
+  chigasaki: {
+    asOf: "2026-08-01",
+    facilityCount: 88,
+    vacancy: 0,
+    waiting: 1022,
+    symbolCounts: { "〇": 54, "×": 360 },
+  },
   // 所沢市は受入れ見込みが記号。空欄（受入れ予定なし）は「－」に置き換えている
   tokorozawa: {
     asOf: "2026-08-07",
