@@ -14,6 +14,10 @@ export type VacancyListRow = {
   asOfLabel: string;
   facilityCount: number;
   vacancy: number;
+  /** 空きを人数ではなく記号（○△×など）で公表している自治体か */
+  symbolBased: boolean;
+  /** 記号の自治体で、どこかの年齢に空きの記号が付いている施設の数 */
+  openFacilities: number;
   hasWaiting: boolean;
   hasEnrolled: boolean;
 };
@@ -107,7 +111,7 @@ export function VacancyList({ rows }: { rows: VacancyListRow[] }) {
             その自治体の空き状況はまだ取り込めていません。
           </p>
           <p className="text-xs text-muted-foreground mt-2">
-            公式が人数を出していない（○や△の記号だけ）自治体は、意味を取り違えないよう見送っています。
+            公式が空き状況そのものを出していない自治体は載せていません。
           </p>
         </div>
       ) : (
@@ -144,10 +148,18 @@ export function VacancyList({ rows }: { rows: VacancyListRow[] }) {
                     </span>
                   </div>
                   <p className="text-xs text-muted-foreground mt-1">
-                    {num(row.facilityCount)}施設 ／ 空き{num(row.vacancy)}
+                    {num(row.facilityCount)}施設 ／{" "}
+                    {row.symbolBased
+                      ? `空きあり${num(row.openFacilities)}施設`
+                      : `空き${num(row.vacancy)}`}
                   </p>
-                  {(row.hasWaiting || row.hasEnrolled) && (
+                  {(row.symbolBased || row.hasWaiting || row.hasEnrolled) && (
                     <div className="flex flex-wrap gap-1 mt-2">
+                      {row.symbolBased && (
+                        <span className="text-[10px] px-2 py-0.5 rounded-full bg-muted text-muted-foreground">
+                          記号で公表
+                        </span>
+                      )}
                       {row.hasWaiting && (
                         <span className="text-[10px] px-2 py-0.5 rounded-full bg-primary/10 text-primary">
                           申込・入所待ちも
