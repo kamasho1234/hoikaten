@@ -329,6 +329,13 @@ const EXPECTED: Record<
   minato: { asOf: "2026-08-17", facilityCount: 113, vacancy: 1499 },
   chiyoda: { asOf: "2026-08-07", facilityCount: 38, vacancy: 360, emptyRatio: 0.15 },
   bunkyo: { asOf: "2026-08-01", facilityCount: 122, vacancy: 1053, waiting: 882, emptyRatio: 0.3 },
+  // 久留米市は受入可能状況が記号。受入なしは公式では空欄なので「－」に置き換えて持つ
+  kurume: {
+    asOf: "2026-08-03",
+    facilityCount: 99,
+    vacancy: 0,
+    symbolCounts: { "○": 36, "△": 129, "－": 387 },
+  },
 };
 
 const problems: string[] = [];

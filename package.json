@@ -92,7 +92,8 @@
     "vacancy:fetch:minato": "tsx scripts/fetch-minato-vacancy.ts",
     "vacancy:fetch:chiyoda": "tsx scripts/fetch-chiyoda-vacancy.ts",
     "vacancy:fetch:taito": "tsx scripts/fetch-taito-vacancy.ts",
-    "vacancy:fetch:bunkyo": "tsx scripts/fetch-bunkyo-vacancy.ts"
+    "vacancy:fetch:bunkyo": "tsx scripts/fetch-bunkyo-vacancy.ts",
+    "vacancy:fetch:kurume": "tsx scripts/fetch-kurume-vacancy.ts"
   },
   "dependencies": {
     "@base-ui/react": "^1.3.0",
