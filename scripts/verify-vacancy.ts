@@ -102,6 +102,20 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "○": 45, "△": 34, "×": 155 },
   },
+  // 高松市は入所可能状況が記号
+  takamatsu: {
+    asOf: "2026-08-01",
+    facilityCount: 119,
+    vacancy: 0,
+    symbolCounts: { "○": 32, "△": 151, "×": 451 },
+  },
+  // 鹿児島市は空きが○と×だけ
+  kagoshima: {
+    asOf: "2026-07-24",
+    facilityCount: 220,
+    vacancy: 0,
+    symbolCounts: { "○": 287, "×": 945 },
+  },
   // 京都市は受入枠が記号。凡例にない「要相談」は記載のまま載せている
   kyoto: {
     asOf: "2026-08-03",
