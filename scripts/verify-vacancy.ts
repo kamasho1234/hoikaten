@@ -102,6 +102,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "○": 45, "△": 34, "×": 155 },
   },
+  // 那覇市は空き人数と入所待ち人数（実数）。1施設3行で並ぶ
+  naha: {
+    asOf: "2026-08-10",
+    facilityCount: 121,
+    vacancy: 351,
+    waiting: 830,
+  },
   // 宮崎市は記号が表の左端に来る
   miyazaki: {
     asOf: "2026-07-27",
