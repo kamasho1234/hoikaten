@@ -344,6 +344,13 @@ const EXPECTED: Record<
     symbolCounts: { "◎": 14, "○": 81, "×": 468 },
   },
   kochi: { asOf: "2026-08-20", facilityCount: 124, vacancy: 1228, emptyRatio: 0.5 },
+  // 郡山市は空きが記号。空欄は「空きなし」なので「－」に置き換えて持つ
+  koriyama: {
+    asOf: "2026-07-23",
+    facilityCount: 89,
+    vacancy: 0,
+    symbolCounts: { "○": 24, "△": 42, "－": 390 },
+  },
 };
 
 const problems: string[] = [];

@@ -95,7 +95,8 @@
     "vacancy:fetch:bunkyo": "tsx scripts/fetch-bunkyo-vacancy.ts",
     "vacancy:fetch:kurume": "tsx scripts/fetch-kurume-vacancy.ts",
     "vacancy:fetch:nagano": "tsx scripts/fetch-nagano-vacancy.ts",
-    "vacancy:fetch:kochi": "tsx scripts/fetch-kochi-vacancy.ts"
+    "vacancy:fetch:kochi": "tsx scripts/fetch-kochi-vacancy.ts",
+    "vacancy:fetch:koriyama": "tsx scripts/fetch-koriyama-vacancy.ts"
   },
   "dependencies": {
     "@base-ui/react": "^1.3.0",
