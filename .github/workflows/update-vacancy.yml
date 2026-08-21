@@ -424,6 +424,11 @@ jobs:
         continue-on-error: true
         run: npm run vacancy:fetch:akashi
 
+      - name: 新潟市を取り込む
+        id: niigata
+        continue-on-error: true
+        run: npm run vacancy:fetch:niigata
+
       # ここから下は失敗したらコミットしない（壊れたデータを公開しないため）
       - name: 型チェック
         run: npx tsc --noEmit
@@ -514,6 +519,7 @@ jobs:
               *nara.json) MSG="$MSG 奈良市（$(node -p "require('./src/lib/vacancy/nara.json').asOf")時点）" ;;
               *toyonaka.json) MSG="$MSG 豊中市（$(node -p "require('./src/lib/vacancy/toyonaka.json').asOf")時点）" ;;
               *akashi.json) MSG="$MSG 明石市（$(node -p "require('./src/lib/vacancy/akashi.json').asOf")時点）" ;;
+              *niigata.json) MSG="$MSG 新潟市（$(node -p "require('./src/lib/vacancy/niigata.json').asOf")時点）" ;;
             esac
           done
           git config user.name "github-actions[bot]"
@@ -524,7 +530,7 @@ jobs:
 
       # 取り込みに失敗した自治体があれば、更新自体は済ませたうえで失敗として通知する
       - name: 取り込みの結果を判定する
-        if: steps.yokohama.outcome == 'failure' || steps.meguro.outcome == 'failure' || steps.kawasaki.outcome == 'failure' || steps.saitama.outcome == 'failure' || steps.ota.outcome == 'failure' || steps.adachi.outcome == 'failure' || steps.edogawa.outcome == 'failure' || steps.nerima.outcome == 'failure' || steps.setagaya.outcome == 'failure' || steps.suginami.outcome == 'failure' || steps.katsushika.outcome == 'failure' || steps.shinagawa.outcome == 'failure' || steps.koto.outcome == 'failure' || steps.nakano.outcome == 'failure' || steps.shinjuku.outcome == 'failure' || steps.toshima.outcome == 'failure' || steps.bunkyo.outcome == 'failure' || steps.taito.outcome == 'failure' || steps.chiyoda.outcome == 'failure' || steps.minato.outcome == 'failure' || steps.itabashi.outcome == 'failure' || steps.sumida.outcome == 'failure' || steps.kita.outcome == 'failure' || steps.osaka.outcome == 'failure' || steps.hiroshima.outcome == 'failure' || steps.sendai.outcome == 'failure' || steps.sakai.outcome == 'failure' || steps.sagamihara.outcome == 'failure' || steps.hachioji.outcome == 'failure' || steps.funabashi.outcome == 'failure' || steps.kawaguchi.outcome == 'failure' || steps.ichikawa.outcome == 'failure' || steps.machida.outcome == 'failure' || steps.kashiwa.outcome == 'failure' || steps.nishitokyo.outcome == 'failure' || steps.mitaka.outcome == 'failure' || steps.chofu.outcome == 'failure' || steps.fuchu.outcome == 'failure' || steps.yamato.outcome == 'failure' || steps.urayasu.outcome == 'failure' || steps.kodaira.outcome == 'failure' || steps.hino.outcome == 'failure' || steps.tachikawa.outcome == 'failure' || steps.musashino.outcome == 'failure' || steps.kokubunji.outcome == 'failure' || steps.koganei.outcome == 'failure' || steps.higashimurayama.outcome == 'failure' || steps.tama.outcome == 'failure' || steps.kiyose.outcome == 'failure' || steps.higashikurume.outcome == 'failure' || steps.komae.outcome == 'failure' || steps.inagi.outcome == 'failure' || steps.kunitachi.outcome == 'failure' || steps.akishima.outcome == 'failure' || steps.yokosuka.outcome == 'failure' || steps.ageo.outcome == 'failure' || steps.matsuyama.outcome == 'failure' || steps.narashino.outcome == 'failure' || steps.kasukabe.outcome == 'failure' || steps.fujisawa.outcome == 'failure' || steps.nagareyama.outcome == 'failure' || steps.koshigaya.outcome == 'failure' || steps.mito.outcome == 'failure' || steps.gifu.outcome == 'failure' || steps.tokorozawa.outcome == 'failure' || steps.chigasaki.outcome == 'failure' || steps.yachiyo.outcome == 'failure' || steps.himeji.outcome == 'failure' || steps.chiba.outcome == 'failure' || steps.kawagoe.outcome == 'failure' || steps.nishinomiya.outcome == 'failure' || steps.nara.outcome == 'failure' || steps.toyonaka.outcome == 'failure' || steps.akashi.outcome == 'failure'
+        if: steps.yokohama.outcome == 'failure' || steps.meguro.outcome == 'failure' || steps.kawasaki.outcome == 'failure' || steps.saitama.outcome == 'failure' || steps.ota.outcome == 'failure' || steps.adachi.outcome == 'failure' || steps.edogawa.outcome == 'failure' || steps.nerima.outcome == 'failure' || steps.setagaya.outcome == 'failure' || steps.suginami.outcome == 'failure' || steps.katsushika.outcome == 'failure' || steps.shinagawa.outcome == 'failure' || steps.koto.outcome == 'failure' || steps.nakano.outcome == 'failure' || steps.shinjuku.outcome == 'failure' || steps.toshima.outcome == 'failure' || steps.bunkyo.outcome == 'failure' || steps.taito.outcome == 'failure' || steps.chiyoda.outcome == 'failure' || steps.minato.outcome == 'failure' || steps.itabashi.outcome == 'failure' || steps.sumida.outcome == 'failure' || steps.kita.outcome == 'failure' || steps.osaka.outcome == 'failure' || steps.hiroshima.outcome == 'failure' || steps.sendai.outcome == 'failure' || steps.sakai.outcome == 'failure' || steps.sagamihara.outcome == 'failure' || steps.hachioji.outcome == 'failure' || steps.funabashi.outcome == 'failure' || steps.kawaguchi.outcome == 'failure' || steps.ichikawa.outcome == 'failure' || steps.machida.outcome == 'failure' || steps.kashiwa.outcome == 'failure' || steps.nishitokyo.outcome == 'failure' || steps.mitaka.outcome == 'failure' || steps.chofu.outcome == 'failure' || steps.fuchu.outcome == 'failure' || steps.yamato.outcome == 'failure' || steps.urayasu.outcome == 'failure' || steps.kodaira.outcome == 'failure' || steps.hino.outcome == 'failure' || steps.tachikawa.outcome == 'failure' || steps.musashino.outcome == 'failure' || steps.kokubunji.outcome == 'failure' || steps.koganei.outcome == 'failure' || steps.higashimurayama.outcome == 'failure' || steps.tama.outcome == 'failure' || steps.kiyose.outcome == 'failure' || steps.higashikurume.outcome == 'failure' || steps.komae.outcome == 'failure' || steps.inagi.outcome == 'failure' || steps.kunitachi.outcome == 'failure' || steps.akishima.outcome == 'failure' || steps.yokosuka.outcome == 'failure' || steps.ageo.outcome == 'failure' || steps.matsuyama.outcome == 'failure' || steps.narashino.outcome == 'failure' || steps.kasukabe.outcome == 'failure' || steps.fujisawa.outcome == 'failure' || steps.nagareyama.outcome == 'failure' || steps.koshigaya.outcome == 'failure' || steps.mito.outcome == 'failure' || steps.gifu.outcome == 'failure' || steps.tokorozawa.outcome == 'failure' || steps.chigasaki.outcome == 'failure' || steps.yachiyo.outcome == 'failure' || steps.himeji.outcome == 'failure' || steps.chiba.outcome == 'failure' || steps.kawagoe.outcome == 'failure' || steps.nishinomiya.outcome == 'failure' || steps.nara.outcome == 'failure' || steps.toyonaka.outcome == 'failure' || steps.akashi.outcome == 'failure' || steps.niigata.outcome == 'failure'
         run: |
           echo "取り込みに失敗した自治体があります:"
           echo "  横浜市: ${{ steps.yokohama.outcome }}"
@@ -601,5 +607,6 @@ jobs:
           echo "  奈良市: ${{ steps.nara.outcome }}"
           echo "  豊中市: ${{ steps.toyonaka.outcome }}"
           echo "  明石市: ${{ steps.akashi.outcome }}"
+          echo "  新潟市: ${{ steps.niigata.outcome }}"
           echo "公式サイトの構造が変わっていないか確認してください。"
           exit 1

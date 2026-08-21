@@ -102,6 +102,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "○": 45, "△": 34, "×": 155 },
   },
+  // 新潟市は空きが記号。8区ぶんが1ページの表に入っている
+  niigata: {
+    asOf: "2026-08-18",
+    facilityCount: 274,
+    vacancy: 0,
+    symbolCounts: { "○": 48, "△": 406, "×": 1086 },
+  },
   // 明石市は受入予定が記号
   akashi: {
     asOf: "2026-08-20",
