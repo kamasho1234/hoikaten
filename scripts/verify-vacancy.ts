@@ -359,6 +359,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "◎": 55, "○": 114, "△": 283, "×": 1857 },
   },
+  // 静岡市は選考後に残った空き枠を記号で公表している
+  shizuoka: {
+    asOf: "2026-08-20",
+    facilityCount: 219,
+    vacancy: 0,
+    symbolCounts: { "◎": 46, "○": 46, "△": 130, "－": 850, "※": 20 },
+  },
 };
 
 const problems: string[] = [];

@@ -98,7 +98,8 @@
     "vacancy:fetch:kochi": "tsx scripts/fetch-kochi-vacancy.ts",
     "vacancy:fetch:koriyama": "tsx scripts/fetch-koriyama-vacancy.ts",
     "vacancy:fetch:akita": "tsx scripts/fetch-akita-vacancy.ts",
-    "vacancy:fetch:fukuoka": "tsx scripts/fetch-fukuoka-vacancy.ts"
+    "vacancy:fetch:fukuoka": "tsx scripts/fetch-fukuoka-vacancy.ts",
+    "vacancy:fetch:shizuoka": "tsx scripts/fetch-shizuoka-vacancy.ts"
   },
   "dependencies": {
     "@base-ui/react": "^1.3.0",
