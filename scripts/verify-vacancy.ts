@@ -336,6 +336,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "○": 36, "△": 129, "－": 387 },
   },
+  // 長野市は空きが記号。1・2歳児が結合された欄が1つあり、両方に配るぶん○が1多い
+  nagano: {
+    asOf: "2026-07-27",
+    facilityCount: 100,
+    vacancy: 0,
+    symbolCounts: { "◎": 14, "○": 81, "×": 468 },
+  },
 };
 
 const problems: string[] = [];
