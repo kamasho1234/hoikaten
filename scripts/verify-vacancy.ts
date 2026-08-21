@@ -102,6 +102,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "○": 45, "△": 34, "×": 155 },
   },
+  // 前橋市は途中入所の空きが記号。5月〜10月ぶんだけ公表される
+  maebashi: {
+    asOf: "2026-08-01",
+    facilityCount: 86,
+    vacancy: 0,
+    symbolCounts: { "◎": 8, "○": 26, "△": 135, "×": 300 },
+  },
   // 那覇市は空き人数と入所待ち人数（実数）。1施設3行で並ぶ
   naha: {
     asOf: "2026-08-10",
