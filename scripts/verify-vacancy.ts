@@ -102,6 +102,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "○": 45, "△": 34, "×": 155 },
   },
+  // 越谷市も記号で公表している（○・△・＊。空欄は受入れなし）
+  koshigaya: {
+    asOf: "2026-08-18",
+    facilityCount: 117,
+    vacancy: 0,
+    symbolCounts: { "○": 33, "△": 51, "＊": 5 },
+  },
   // 流山市も記号で公表している（●・△。空欄は空きなし）
   nagareyama: {
     asOf: "2026-08-01",
