@@ -366,6 +366,8 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "◎": 46, "○": 46, "△": 130, "－": 850, "※": 20 },
   },
+  // 渋谷区は毎月の利用調整の募集数と申込数。申込数は延べ人数
+  shibuya: { asOf: "2026-08-17", facilityCount: 74, vacancy: 1149, waiting: 844, emptyRatio: 0.4 },
 };
 
 const problems: string[] = [];
