@@ -102,6 +102,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "○": 45, "△": 34, "×": 155 },
   },
+  // 宮崎市は記号が表の左端に来る
+  miyazaki: {
+    asOf: "2026-07-27",
+    facilityCount: 162,
+    vacancy: 0,
+    symbolCounts: { "○": 61, "△": 395, "×": 444 },
+  },
   // 福山市は空きが記号。「-」はその施設が受け入れていないクラス
   fukuyama: {
     asOf: "2026-08-19",
