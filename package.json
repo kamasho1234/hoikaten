@@ -100,7 +100,8 @@
     "vacancy:fetch:akita": "tsx scripts/fetch-akita-vacancy.ts",
     "vacancy:fetch:fukuoka": "tsx scripts/fetch-fukuoka-vacancy.ts",
     "vacancy:fetch:shizuoka": "tsx scripts/fetch-shizuoka-vacancy.ts",
-    "vacancy:fetch:shibuya": "tsx scripts/fetch-shibuya-vacancy.ts"
+    "vacancy:fetch:shibuya": "tsx scripts/fetch-shibuya-vacancy.ts",
+    "vacancy:fetch:chuo": "tsx scripts/fetch-chuo-vacancy.ts"
   },
   "dependencies": {
     "@base-ui/react": "^1.3.0",

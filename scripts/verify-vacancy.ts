@@ -368,6 +368,7 @@ const EXPECTED: Record<
   },
   // 渋谷区は毎月の利用調整の募集数と申込数。申込数は延べ人数
   shibuya: { asOf: "2026-08-17", facilityCount: 74, vacancy: 1149, waiting: 844, emptyRatio: 0.4 },
+  chuo: { asOf: "2026-08-18", facilityCount: 94, vacancy: 755, emptyRatio: 0.6 },
 };
 
 const problems: string[] = [];
