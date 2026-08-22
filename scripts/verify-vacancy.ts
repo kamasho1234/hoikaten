@@ -376,6 +376,7 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "有": 63, "－": 291 },
   },
+  hirakata: { asOf: "2026-07-29", facilityCount: 78, vacancy: 91, emptyRatio: 0.9 },
 };
 
 const problems: string[] = [];
