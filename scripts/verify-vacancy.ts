@@ -386,6 +386,13 @@ const EXPECTED: Record<
   },
   takarazuka: { asOf: "2026-08-01", facilityCount: 41, vacancy: 142, emptyRatio: 0.5 },
   kamakura: { asOf: "2026-08-21", facilityCount: 50, vacancy: 80, emptyRatio: 0.7 },
+  // 加古川市は記号。▲がほとんどで、空きがあるのは☆と□だけ
+  kakogawa: {
+    asOf: "2026-07-27",
+    facilityCount: 73,
+    vacancy: 0,
+    symbolCounts: { "☆": 3, "□": 14, "▲": 343 },
+  },
 };
 
 const problems: string[] = [];

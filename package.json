@@ -106,7 +106,8 @@
     "vacancy:fetch:hirakata": "tsx scripts/fetch-hirakata-vacancy.ts",
     "vacancy:fetch:ibaraki": "tsx scripts/fetch-ibaraki-vacancy.ts",
     "vacancy:fetch:takarazuka": "tsx scripts/fetch-takarazuka-vacancy.ts",
-    "vacancy:fetch:kamakura": "tsx scripts/fetch-kamakura-vacancy.ts"
+    "vacancy:fetch:kamakura": "tsx scripts/fetch-kamakura-vacancy.ts",
+    "vacancy:fetch:kakogawa": "tsx scripts/fetch-kakogawa-vacancy.ts"
   },
   "dependencies": {
     "@base-ui/react": "^1.3.0",
