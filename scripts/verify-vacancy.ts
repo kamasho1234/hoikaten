@@ -400,6 +400,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "▲": 62, "×": 291 },
   },
+  // 下関市は記号。「―」（受入れなし）は「—」にしてある
+  shimonoseki: {
+    asOf: "2026-08-10",
+    facilityCount: 66,
+    vacancy: 0,
+    symbolCounts: { "○": 21, "△": 79, "×": 263 },
+  },
 };
 
 const problems: string[] = [];
