@@ -407,6 +407,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "○": 21, "△": 79, "×": 263 },
   },
+  // 旭川市は記号。0歳の欄が生まれ月で2つあり、当サイトは年度の0歳児のほうを使う
+  asahikawa: {
+    asOf: "2026-08-18",
+    facilityCount: 99,
+    vacancy: 0,
+    symbolCounts: { "○": 35, "△": 121, "×": 363 },
+  },
 };
 
 const problems: string[] = [];
