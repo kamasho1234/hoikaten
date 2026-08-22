@@ -377,6 +377,13 @@ const EXPECTED: Record<
     symbolCounts: { "有": 63, "－": 291 },
   },
   hirakata: { asOf: "2026-07-29", facilityCount: 78, vacancy: 91, emptyRatio: 0.9 },
+  // 茨木市は記号。「ー」（受け入れ対象歳児ではない）は「—」にしてある
+  ibaraki: {
+    asOf: "2026-07-24",
+    facilityCount: 95,
+    vacancy: 0,
+    symbolCounts: { "○": 1, "△": 23, "×": 405, "※": 8 },
+  },
 };
 
 const problems: string[] = [];
