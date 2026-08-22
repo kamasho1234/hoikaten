@@ -393,6 +393,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "☆": 3, "□": 14, "▲": 343 },
   },
+  // 和歌山市は公式ページのHTMLの表から読む（保育所と認定こども園の2ページ）
+  wakayama: {
+    asOf: "2026-08-03",
+    facilityCount: 61,
+    vacancy: 0,
+    symbolCounts: { "▲": 62, "×": 291 },
+  },
 };
 
 const problems: string[] = [];
