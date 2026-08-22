@@ -384,6 +384,7 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "○": 1, "△": 23, "×": 405, "※": 8 },
   },
+  takarazuka: { asOf: "2026-08-01", facilityCount: 41, vacancy: 142, emptyRatio: 0.5 },
 };
 
 const problems: string[] = [];

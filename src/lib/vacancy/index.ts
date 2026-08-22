@@ -158,6 +158,7 @@ import chuoVacancy from "./chuo.json";
 import hiratsukaVacancy from "./hiratsuka.json";
 import hirakataVacancy from "./hirakata.json";
 import ibarakiVacancy from "./ibaraki.json";
+import takarazukaVacancy from "./takarazuka.json";
 
 export type {
   AgeSummary,
@@ -311,6 +312,7 @@ const registry: Record<string, VacancyDataset> = {
   hiratsuka: hiratsukaVacancy as unknown as VacancyDataset,
   hirakata: hirakataVacancy as unknown as VacancyDataset,
   ibaraki: ibarakiVacancy as unknown as VacancyDataset,
+  takarazuka: takarazukaVacancy as unknown as VacancyDataset,
 };
 
 export function getVacancyData(slug: string): VacancyDataset | undefined {
