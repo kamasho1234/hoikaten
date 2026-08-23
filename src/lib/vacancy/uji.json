@@ -1,0 +1,73 @@
+{
+  "municipalitySlug": "uji",
+  "municipalityName": "宇治市",
+  "asOf": "2026-08-01",
+  "fetchedAt": "2026-08-23",
+  "sourceName": "宇治市「保育所等の空き情報」",
+  "sourceUrl": "https://www.city.uji.kyoto.jp/site/kosodate/17206.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.uji.kyoto.jp/uploaded/attachment/53345.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "9月入所申込みのための空き情報",
+  "notes": [
+    "宇治市は空き状況を人数ではなく記号で公表しています。当サイトでも公式の記号のまま載せています。",
+    "各保育所等は年齢ごとに受入枠を設けています。満年齢・学齢の違いや職員体制により「○」でも受け入れできない場合があり、受入枠に余裕があっても一度に受け入れできる人数に限りがある場合があります。",
+    "混合保育を実施している年齢層では受入枠に変動が生じることがあります。公式の表でまとめて示されている歳児には、同じ記号を載せています。",
+    "家庭的保育事業は、施設の体制によって受入可能な年齢が異なるため、市が空き情報を公表していません。",
+    "年齢はその年度の4月1日時点のものです。"
+  ],
+  "wards": [],
+  "categories": [
+    "公立保育所",
+    "民間保育所(園)",
+    "民間認定こども園",
+    "小規模保育事業"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "受入枠に1名以上の受け入れが可能な場合",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "受け入れできない場合",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"宇治保育所","name":"宇治保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","○","○","×","○","○"]},
+    {"id":"小倉双葉園保育所","name":"小倉双葉園保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","○","○","○","○"]},
+    {"id":"西小倉保育所","name":"西小倉保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["○","×","○","×","○","○"]},
+    {"id":"木幡保育所","name":"木幡保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"大久保保育所","name":"大久保保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","○","○","○","○"]},
+    {"id":"北木幡保育所","name":"北木幡保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","○","○","○"]},
+    {"id":"善法保育所","name":"善法保育所","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","○","○","○","○"]},
+    {"id":"広野保育所","name":"広野保育所","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"なかよし保育園","name":"なかよし保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"くりくま保育園","name":"くりくま保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","○","×","○","×","○"]},
+    {"id":"あさひ保育園","name":"あさひ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"みんなのきHana保育園","name":"みんなのきHana保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","○",null,null,null]},
+    {"id":"登りこども園","name":"登りこども園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"第２登りこども園","name":"第２登りこども園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"みんなのき三室戸こども園","name":"みんなのき三室戸こども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"みんなのき黄檗こども園(本園)","name":"みんなのき黄檗こども園(本園)","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"みんなのき黄檗こども園(分園)","name":"みんなのき黄檗こども園(分園)","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"南浦幼保連携型認定こども園","name":"南浦幼保連携型認定こども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"南浦くすのき幼保連携型認定こども園","name":"南浦くすのき幼保連携型認定こども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["○","×","×",null,null,null]},
+    {"id":"いずみこども園","name":"いずみこども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","○","○","○"]},
+    {"id":"ひいらぎこども園","name":"ひいらぎこども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["○","×","×","×","×","×"]},
+    {"id":"同胞こども園","name":"同胞こども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"こひつじこども園","name":"こひつじこども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"伊勢田こども園","name":"伊勢田こども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"明星っ子こども園","name":"明星っ子こども園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","○"]},
+    {"id":"槇島ひいらぎこども園","name":"槇島ひいらぎこども園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"のぞみこども園","name":"のぞみこども園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["○","×","×","×","×","×"]},
+    {"id":"あけぼの会(のぼり小規模保育園)","name":"あけぼの会(のぼり小規模保育園)","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"同胞会(こうのとりの家・こばとの家)","name":"同胞会(こうのとりの家・こばとの家)","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["○","○","×",null,null,null]},
+    {"id":"同胞会(野の花)","name":"同胞会(野の花)","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]}
+  ]
+}

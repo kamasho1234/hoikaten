@@ -427,6 +427,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "○": 10, "△": 26, "×": 230 },
   },
+  // 宇治市は記号。混合保育のクラスは欄が結合されていて、その幅ぶん同じ記号を配る
+  uji: {
+    asOf: "2026-08-01",
+    facilityCount: 30,
+    vacancy: 0,
+    symbolCounts: { "○": 36, "×": 129 },
+  },
 };
 
 const problems: string[] = [];
