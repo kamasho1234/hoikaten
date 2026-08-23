@@ -414,6 +414,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "○": 35, "△": 121, "×": 363 },
   },
+  // 富士市は空きの有無だけ。「＼」（受入クラスなし）は図形で描かれている
+  fuji: {
+    asOf: "2026-08-03",
+    facilityCount: 71,
+    vacancy: 0,
+    symbolCounts: { "○": 113, "－": 225 },
+  },
 };
 
 const problems: string[] = [];
