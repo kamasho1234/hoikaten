@@ -1,0 +1,98 @@
+{
+  "municipalitySlug": "kumagaya",
+  "municipalityName": "熊谷市",
+  "asOf": "2026-07-25",
+  "fetchedAt": "2026-08-23",
+  "sourceName": "熊谷市「認定こども園・保育所(園)・地域型保育施設 受入可能状況」",
+  "sourceUrl": "https://www.city.kumagaya.lg.jp/kosodate/kodomoshisetsu/hoikunyusyo/hoikuukeire.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.kumagaya.lg.jp/kosodate/kodomoshisetsu/hoikunyusyo/hoikuukeire.files/R8.9ukeirekanoujyoukyou.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "9月入所の受入可能状況",
+  "notes": [
+    "熊谷市は空き状況を人数ではなく記号で公表しています。当サイトでも公式の記号のまま載せています。",
+    "目安であり、施設ごとの職員の配置状況や転退所の状況により変わることがあります。",
+    "認定こども園の教育・保育給付1号認定の入所や、在園児の認定変更については各施設にご確認ください。",
+    "年齢はその年度の4月1日時点のものです。受け入れ対象の年齢の外は「—」にしています。"
+  ],
+  "wards": [],
+  "categories": [
+    "公立保育所",
+    "民間保育園",
+    "認定こども園",
+    "地域型保育施設"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "2人以上",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1人",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きはありません",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"1","name":"中央保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"2","name":"籠原保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","×","×"]},
+    {"id":"3","name":"中条保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"4","name":"曙町保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","×"]},
+    {"id":"5","name":"箱田保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","○","△","×"]},
+    {"id":"6","name":"市田保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"7","name":"吉見保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","△","×","△"]},
+    {"id":"8","name":"上須戸保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"9","name":"江南保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"10","name":"愛隣保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","○","×","○","×"]},
+    {"id":"11","name":"みたけ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","×","○","×","×"]},
+    {"id":"12","name":"なでしこ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×",null]},
+    {"id":"13","name":"くるみ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"14","name":"第二くるみ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"15","name":"新里保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"16","name":"こどもの家保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△","×","×","×"]},
+    {"id":"17","name":"ことぶき乳児保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","○","×","×","×"]},
+    {"id":"18","name":"ほしのみや保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","△","×","×"]},
+    {"id":"19","name":"熊谷太井保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"20","name":"スダナ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"21","name":"奈良保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"22","name":"第三なでしこ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×",null,null]},
+    {"id":"23","name":"しらこばと保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"24","name":"新里第二保育園・分園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["○","×","×","×","△","△"]},
+    {"id":"25","name":"ことぶき花ノ木保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"26","name":"田島保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"27","name":"第二田島保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"28","name":"道ヶ谷戸愛児園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","○","○","○"]},
+    {"id":"29","name":"第二よつば保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"30","name":"篭原のこキッズ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["○","×","×","×","×","×"]},
+    {"id":"31","name":"ことぶきイーサイト保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","△","×","×","×"]},
+    {"id":"32","name":"わらしべの里共同保育所","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","△"]},
+    {"id":"33","name":"三尻こども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","×"]},
+    {"id":"34","name":"荒川こども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"35","name":"まことこども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"36","name":"立正幼稚園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"37","name":"成田こども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":[null,"×","×","×","×","×"]},
+    {"id":"38","name":"篭原さみどり認定こども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"39","name":"第二なでしここども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"40","name":"キッズハウス籠原保育室","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"41","name":"なでしこ家庭保育室「わらべ」","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"42","name":"りゅうさい保育所","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△",null,null,null]},
+    {"id":"43","name":"野鳥の森うさぎ保育園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"44","name":"あかね保育室","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"45","name":"もみの木共同保育所","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"46","name":"ことぶきつくし保育園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"47","name":"さくらキッズ保育園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"48","name":"保育室黒ひげ先生","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"49","name":"奈良ベビー保育園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"50","name":"まこと保育園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"51","name":"乳児園きらり","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]}
+  ]
+}

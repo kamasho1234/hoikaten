@@ -421,6 +421,12 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "○": 113, "－": 225 },
   },
+  kumagaya: {
+    asOf: "2026-07-25",
+    facilityCount: 51,
+    vacancy: 0,
+    symbolCounts: { "○": 10, "△": 26, "×": 230 },
+  },
 };
 
 const problems: string[] = [];
