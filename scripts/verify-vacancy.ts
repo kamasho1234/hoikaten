@@ -551,6 +551,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "○": 40, "△": 192, "×": 597, "／": 188 },
   },
+  // 日立市は「◒」が1〜2人。設けていないクラスは公式の表では斜線
+  hitachi: {
+    asOf: "2026-08-13",
+    facilityCount: 36,
+    vacancy: 0,
+    symbolCounts: { "○": 23, "◒": 26, "●": 149 },
+  },
 };
 
 const problems: string[] = [];

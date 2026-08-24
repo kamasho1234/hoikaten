@@ -1,0 +1,85 @@
+{
+  "municipalitySlug": "hitachi",
+  "municipalityName": "日立市",
+  "asOf": "2026-08-13",
+  "fetchedAt": "2026-08-24",
+  "sourceName": "日立市「保育施設空き状況」",
+  "sourceUrl": "https://www.city.hitachi.lg.jp/kosodateoen/mokuteki_sagasu/1007349/1001986/1001987.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.hitachi.lg.jp/_res/projects/default_project/_page_/001/001/987/akijoukyou1001.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "2026年10月1日入所ぶんの空き状況",
+  "notes": [
+    "日立市は空き状況を人数ではなく記号で公表しています。当サイトでも公式の記号のまま載せています。これは2026年10月1日入所ぶんの空き状況（2026-08-13時点）です。",
+    "空き状況については、在園児の継続状況等により変更となる場合があります。",
+    "設けていないクラスは「—」にしています（公式の表では斜線です）。"
+  ],
+  "wards": [
+    "北部地区",
+    "本庁地区",
+    "多賀地区",
+    "南部地区"
+  ],
+  "categories": [
+    "私立",
+    "公立"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "３人以上空きがあります",
+      "open": true
+    },
+    {
+      "mark": "◒",
+      "label": "１～２人空きがあります",
+      "open": true
+    },
+    {
+      "mark": "●",
+      "label": "空きがありません",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"いしまち認定こども園","name":"いしまち認定こども園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["○","○","○","○","○","●"]},
+    {"id":"日立市じゅうおう保育園","name":"日立市じゅうおう保育園","w":0,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["◒","◒","●","●","●","●"]},
+    {"id":"認定こども園十王幼稚園-保育園","name":"認定こども園十王幼稚園-保育園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["●","●","◒","●","●","●"]},
+    {"id":"幼保連携型認定こども園おぎつ幼稚園","name":"幼保連携型認定こども園おぎつ幼稚園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,"○","◒","◒","◒","◒"]},
+    {"id":"豊浦さくら認定こども園","name":"豊浦さくら認定こども園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["●","●","●","●","●","●"]},
+    {"id":"小木津聖徳保育園","name":"小木津聖徳保育園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["●","◒","◒","●","◒","◒"]},
+    {"id":"こどものいえ認定こども園","name":"こどものいえ認定こども園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["●","●","◒","●","◒","○"]},
+    {"id":"田尻徳風保育園","name":"田尻徳風保育園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["●","●","◒","●","●","●"]},
+    {"id":"滑川聖徳保育園","name":"滑川聖徳保育園","w":1,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["○","●","●","●","○","○"]},
+    {"id":"日立市かみね保育園","name":"日立市かみね保育園","w":1,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["●","●","●","●","●","●"]},
+    {"id":"日立市立みやた認定こども園","name":"日立市立みやた認定こども園","w":1,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["●","●","●","●","●","●"]},
+    {"id":"日立市おおもり保育園","name":"日立市おおもり保育園","w":1,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["●","◒","●","●","◒","◒"]},
+    {"id":"認定こども園せいじ園","name":"認定こども園せいじ園","w":1,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["●","●","●","●","●","●"]},
+    {"id":"日立市かみちょう保育園","name":"日立市かみちょう保育園","w":1,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["●","●","●","●","●","●"]},
+    {"id":"まめ保育室","name":"まめ保育室","w":1,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["●","●","●",null,null,null]},
+    {"id":"日立市おおせ保育園","name":"日立市おおせ保育園","w":1,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["●","●","●","●","●","●"]},
+    {"id":"認定こども園ひがしなるさわ幼稚園","name":"認定こども園ひがしなるさわ幼稚園","w":1,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,"●","●","●","●","●"]},
+    {"id":"つくしんぼ保育園","name":"つくしんぼ保育園","w":2,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["○","●","◒","●","●","●"]},
+    {"id":"すけ川幼稚園","name":"すけ川幼稚園","w":2,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"○","●","●"]},
+    {"id":"日立市ゆなご保育園","name":"日立市ゆなご保育園","w":2,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["●","●","●","●","●","●"]},
+    {"id":"諏訪かおる幼稚園","name":"諏訪かおる幼稚園","w":2,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"●","●","●"]},
+    {"id":"日立市おおくぼ保育園","name":"日立市おおくぼ保育園","w":2,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["●","●","●","●","●","●"]},
+    {"id":"おおくぼ認定こども園大久保幼稚園","name":"おおくぼ認定こども園大久保幼稚園","w":2,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,"◒","◒","○","●","◒"]},
+    {"id":"日立市立はなやま認定こども園","name":"日立市立はなやま認定こども園","w":2,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["●","●","●","●","●","●"]},
+    {"id":"多賀さくら認定こども園","name":"多賀さくら認定こども園","w":2,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["●","●","●","●","●","●"]},
+    {"id":"まゆみの里保育園","name":"まゆみの里保育園","w":2,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["●","●","●","●","●","●"]},
+    {"id":"認定こども園ほほえみ学びの森わかば園","name":"認定こども園ほほえみ学びの森わかば園","w":3,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["◒","○","○","○","○","○"]},
+    {"id":"れんげ保育園","name":"れんげ保育園","w":3,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["●","●","●",null,null,null]},
+    {"id":"森山聖徳保育園","name":"森山聖徳保育園","w":3,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["●","●","●","○","○","○"]},
+    {"id":"認定こども園ほほえみ水木わかば幼稚園","name":"認定こども園ほほえみ水木わかば幼稚園","w":3,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["◒","○","○","●","◒","◒"]},
+    {"id":"日立市みずき保育園","name":"日立市みずき保育園","w":3,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["●","●","●","●","●","●"]},
+    {"id":"認定こども園みらい園","name":"認定こども園みらい園","w":3,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["●","●","●","●","●","●"]},
+    {"id":"みつばキラリ園","name":"みつばキラリ園","w":3,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["●","●","●","●","●","●"]},
+    {"id":"ゆりかご保育室","name":"ゆりかご保育室","w":3,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["●","◒","●",null,null,null]},
+    {"id":"日立市くじ保育園","name":"日立市くじ保育園","w":3,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["●","●","●","●","●","●"]},
+    {"id":"南高野保育園","name":"南高野保育園","w":3,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["●","●","●","●","●","●"]}
+  ]
+}
