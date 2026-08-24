@@ -606,6 +606,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "○": 12, "△": 28, "✕": 258 },
   },
+  // 佐世保市は受け入れできない学齢に「×」を付ける形。空らんは「○」に置き換えている
+  sasebo: {
+    asOf: "2026-08-15",
+    facilityCount: 97,
+    vacancy: 0,
+    symbolCounts: { "○": 344, "×": 218 },
+  },
 };
 
 const problems: string[] = [];
