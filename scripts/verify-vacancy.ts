@@ -676,6 +676,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "〇": 5, "△": 30, "×": 193 },
   },
+  // 栃木市は公式の表で受入なしが空らん。当サイトでは「✕」に置き換えている
+  "tochigi-city": {
+    asOf: "2026-08-21",
+    facilityCount: 37,
+    vacancy: 0,
+    symbolCounts: { "○": 12, "△": 49, "✕": 161 },
+  },
 };
 
 const problems: string[] = [];
