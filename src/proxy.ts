@@ -1,18 +1,42 @@
 import { NextRequest, NextResponse } from "next/server";
-import { resolveCitySlug } from "@/lib/subdomain";
+import { getSubdomain, resolveCitySlug } from "@/lib/subdomain";
+
+/** 正規のドメイン。同じ中身が複数のURLで見えないよう、ここに寄せる */
+const MAIN_ORIGIN = "https://hoikaten.com";
+
+function redirectToMain(url: URL) {
+  return NextResponse.redirect(new URL(url.pathname + url.search, MAIN_ORIGIN), 301);
+}
 
 export function proxy(request: NextRequest) {
   const host = request.headers.get("host") || "";
+  const hostname = host.split(":")[0];
   const url = request.nextUrl.clone();
+
+  // www ありでも同じ中身が出てしまうので、www なしに寄せる
+  if (hostname === "www.hoikaten.com") {
+    return redirectToMain(url);
+  }
+
   const citySlug = resolveCitySlug(host, url);
 
   if (!citySlug) {
     return NextResponse.next();
   }
 
-  // パスが既にcitySlugで始まっている場合はリライト不要
-  // (ページ内リンクが /setagaya/articles のような絶対パスの場合)
-  if (url.pathname.startsWith(`/${citySlug}`)) {
+  // サブドメインの中のリンクは /setagaya/articles のような絶対パスなので、
+  // たどると setagaya.hoikaten.com/setagaya/articles という二重のURLになる。
+  // 中身は hoikaten.com/setagaya/articles と同じで、検索エンジンのクロールが
+  // そちらに流れてしまうため、正規のURLへ寄せる
+  const isSubdomain = getSubdomain(host) !== null;
+  const hasCityPath =
+    url.pathname === `/${citySlug}` || url.pathname.startsWith(`/${citySlug}/`);
+  if (isSubdomain && hasCityPath) {
+    return redirectToMain(url);
+  }
+
+  // 開発時の ?city=xxx でパスが既に付いている場合は、そのまま通す
+  if (hasCityPath) {
     return NextResponse.next();
   }
 
