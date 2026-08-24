@@ -477,6 +477,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "○": 348, "－": 133 },
   },
+  // 帯広市の「／」（利用不可）は文字ではなくセルいっぱいの斜線で描いてある
+  obihiro: {
+    asOf: "2026-08-14",
+    facilityCount: 43,
+    vacancy: 0,
+    symbolCounts: { "○": 4, "△": 19, "−": 205, "／": 30 },
+  },
 };
 
 const problems: string[] = [];

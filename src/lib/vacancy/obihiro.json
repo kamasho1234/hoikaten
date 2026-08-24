@@ -1,0 +1,97 @@
+{
+  "municipalitySlug": "obihiro",
+  "municipalityName": "帯広市",
+  "asOf": "2026-08-14",
+  "fetchedAt": "2026-08-24",
+  "sourceName": "帯広市「保育所等の空き状況一覧」",
+  "sourceUrl": "https://www.city.obihiro.hokkaido.jp/kyoiku/kosodate/hoiku/1010107.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.obihiro.hokkaido.jp/_res/projects/default_project/_page_/001/010/107/r8.10.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "10月入所の空き状況",
+  "notes": [
+    "帯広市は空き状況を人数ではなく記号で公表しています。当サイトでも公式の記号のまま載せています。",
+    "この表は園における今後の児童の状況や保育士の配置状況などを考慮した受入予測であり、日々変動します。「空きあり」と表示されていても入所を保障するものではありません。",
+    "空きがない園でも申請時に希望することはできます。施設選択の参考としてご覧ください。",
+    "認定こども園は保育枠のみの状況です。",
+    "年齢はその年度の4月1日時点のものです。"
+  ],
+  "wards": [],
+  "categories": [
+    "認可保育所（公立）",
+    "認可保育所（私立）",
+    "認可保育所（夜間）",
+    "小規模・事業所内",
+    "認定こども園"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "空きあり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "わずかに空きあり",
+      "open": true
+    },
+    {
+      "mark": "−",
+      "label": "空きなし",
+      "open": false
+    },
+    {
+      "mark": "／",
+      "label": "利用不可",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"緑ヶ丘保育所","name":"緑ヶ丘保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","−","−","−","−","−"]},
+    {"id":"帯広保育所","name":"帯広保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["−","−","−","−","−","−"]},
+    {"id":"すずらん保育所","name":"すずらん保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["−","−","−","−","−","−"]},
+    {"id":"青葉保育所","name":"青葉保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["−","−","△","−","−","−"]},
+    {"id":"松葉保育所","name":"松葉保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["／","／","／","／","−","−"]},
+    {"id":"依田保育所","name":"依田保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["／","−","−","△","−","−"]},
+    {"id":"藤花保育園","name":"藤花保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["−","−","−","−","−","−"]},
+    {"id":"つばさ保育所","name":"つばさ保育所","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["−","−","−","−","−","−"]},
+    {"id":"あじさい保育園","name":"あじさい保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["−","−","−","−","−","−"]},
+    {"id":"帯広南町保育園","name":"帯広南町保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","−","−","−","−","−"]},
+    {"id":"やまびこ保育所","name":"やまびこ保育所","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","−","−","−","−","−"]},
+    {"id":"あけぼの保育園","name":"あけぼの保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","−","−","−","−","−"]},
+    {"id":"稲田保育園","name":"稲田保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["−","−","−","−","−","−"]},
+    {"id":"みのり保育園","name":"みのり保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["−","△","−","−","−","−"]},
+    {"id":"こでまり保育園","name":"こでまり保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["−","−","−","−","−","−"]},
+    {"id":"森の子保育園","name":"森の子保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["−","−","△","△","△","△"]},
+    {"id":"ときわの森保育所","name":"ときわの森保育所","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["−","−","−","−","−","−"]},
+    {"id":"さくら保育園","name":"さくら保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["−","−","−","−","−","−"]},
+    {"id":"おひさま保育園","name":"おひさま保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["−","−","−","−","−","−"]},
+    {"id":"栄保育園","name":"栄保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["−","−","−","−","−","−"]},
+    {"id":"あやめ保育所","name":"あやめ保育所","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","−","−","−","−","−"]},
+    {"id":"ひばり保育園","name":"ひばり保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["−","−","−","−","−","−"]},
+    {"id":"にじいろ保育園","name":"にじいろ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["−","−","−","−","−","−"]},
+    {"id":"豊成保育園","name":"豊成保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["−","−","−","−","−","△"]},
+    {"id":"川西保育所","name":"川西保育所","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["−","−","△","−","−","−"]},
+    {"id":"清川保育所","name":"清川保育所","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["−","−","−","−","−","−"]},
+    {"id":"ことぶき保育所","name":"ことぶき保育所","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["−","−","−","○","△","−"]},
+    {"id":"すいせい保育所","name":"すいせい保育所","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["−","−","−","−","−","−"]},
+    {"id":"012青い鳥保育園","name":"012青い鳥保育園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["−","−","−","／","／","／"]},
+    {"id":"ひなたぼっこ保育園","name":"ひなたぼっこ保育園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["−","−","−","／","／","／"]},
+    {"id":"広野保育所","name":"広野保育所","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["／","−","△","△","−","−"]},
+    {"id":"愛国保育所","name":"愛国保育所","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["／","−","−","−","−","−"]},
+    {"id":"富士保育所","name":"富士保育所","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["／","−","−","−","−","−"]},
+    {"id":"帯広の森幼稚園","name":"帯広の森幼稚園","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["／","／","／","△","−","−"]},
+    {"id":"帯広の森幼稚園分園","name":"帯広の森幼稚園分園","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["−","−","−","／","／","／"]},
+    {"id":"つつじが丘幼稚園","name":"つつじが丘幼稚園","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["／","−","−","○","−","−"]},
+    {"id":"ひまわり幼稚園","name":"ひまわり幼稚園","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["／","−","−","−","−","−"]},
+    {"id":"第二ひまわり幼稚園","name":"第二ひまわり幼稚園","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["／","／","−","−","−","−"]},
+    {"id":"帯広東幼稚園","name":"帯広東幼稚園","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["−","−","−","−","−","−"]},
+    {"id":"藤幼稚園","name":"藤幼稚園","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["／","−","−","−","−","−"]},
+    {"id":"帯広幼稚園","name":"帯広幼稚園","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["／","／","／","−","−","−"]},
+    {"id":"帯西幼稚園","name":"帯西幼稚園","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["／","／","○","△","○","−"]},
+    {"id":"鉄南保育園","name":"鉄南保育園","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["−","−","−","−","−","−"]}
+  ]
+}
