@@ -491,6 +491,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "〇": 2, "△": 46, "×": 174 },
   },
+  // 小牧市の「※」は凡例になく、下の注意書きでその園だけの事情が説明されている
+  komaki: {
+    asOf: "2026-08-10",
+    facilityCount: 48,
+    vacancy: 0,
+    symbolCounts: { "○": 32, "△": 22, "×": 161, "※": 1 },
+  },
 };
 
 const problems: string[] = [];
