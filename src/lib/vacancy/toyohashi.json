@@ -1,0 +1,118 @@
+{
+  "municipalitySlug": "toyohashi",
+  "municipalityName": "豊橋市",
+  "asOf": "2026-08-18",
+  "fetchedAt": "2026-08-24",
+  "sourceName": "豊橋市「各園の受入可能月齢・受入可能人数」",
+  "sourceUrl": "https://www.city.toyohashi.lg.jp/63210.htm",
+  "sourceFiles": {
+    "保育園": "https://www.city.toyohashi.lg.jp/secure/119480/%E3%80%90%E4%BF%9D%E8%82%B2%E5%9C%92%E3%80%9110%E6%9C%88%E5%85%A5%E5%9C%92%E3%80%80%E5%8F%97%E5%85%A5%E5%8F%AF%E8%83%BD%E6%9C%88%E9%BD%A2%E3%83%BB%E5%8F%97%E5%85%A5%E5%8F%AF%E8%83%BD%E4%BA%BA%E6%95%B00818.pdf",
+    "認定こども園": "https://www.city.toyohashi.lg.jp/secure/119480/%E3%80%90%E8%AA%8D%E5%AE%9A%E3%81%93%E3%81%A9%E3%82%82%E5%9C%92%E3%80%9110%E6%9C%88%E5%85%A5%E5%9C%92%E3%80%80%E5%8F%97%E5%85%A5%E5%8F%AF%E8%83%BD%E6%9C%88%E9%BD%A2%E3%83%BB%E5%8F%97%E5%85%A5%E5%8F%AF%E8%83%BD%E4%BA%BA%E6%95%B00819.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "2026年10月入園申込ぶんの受入可能人数",
+  "notes": [
+    "豊橋市は空き状況を人数ではなく記号で公表しています。当サイトでも公式の記号のまま載せています。これは2026年10月入園申込ぶんです。",
+    "基準日は保育園と認定こども園で分かれています（保育園は8月18日、認定こども園は8月19日時点）。このページでは古いほうの2026-08-18を全体の時点として表示しています。",
+    "そのクラスがないらんは「—」にしています（公式の表では斜線です）。"
+  ],
+  "wards": [],
+  "categories": [
+    "私立保育園",
+    "公立保育園",
+    "私立認定こども園",
+    "公立認定こども園"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "×",
+      "label": "０人",
+      "open": false
+    },
+    {
+      "mark": "△",
+      "label": "１〜２人",
+      "open": true
+    },
+    {
+      "mark": "○",
+      "label": "３〜５人",
+      "open": true
+    },
+    {
+      "mark": "◎",
+      "label": "６人以上",
+      "open": true
+    }
+  ],
+  "facilities": [
+    {"id":"ひまわり保育園","name":"ひまわり保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"塩満保育園","name":"塩満保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"玉川保育園","name":"玉川保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["○","○","△","△","×","×"]},
+    {"id":"東観音寺保育園","name":"東観音寺保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","△","△"]},
+    {"id":"下条保育園","name":"下条保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△","△","△","△"]},
+    {"id":"野依保育園","name":"野依保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","△","×","×"]},
+    {"id":"豊南保育園","name":"豊南保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","○","○","△","△","○"]},
+    {"id":"高塚保育園","name":"高塚保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△","△","△","△"]},
+    {"id":"あしはら保育園","name":"あしはら保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"二川東保育園","name":"二川東保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["○","△","△","×","×","×"]},
+    {"id":"谷川保育園","name":"谷川保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","△","×","×"]},
+    {"id":"春日保育園","name":"春日保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"東山保育園","name":"東山保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"羽田保育園","name":"羽田保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","△","×","△","△"]},
+    {"id":"福岡保育園","name":"福岡保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"牛川保育園","name":"牛川保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△","△","×","×"]},
+    {"id":"花ヶ崎保育園","name":"花ヶ崎保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"前芝保育園","name":"前芝保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△","○","×","○"]},
+    {"id":"こまどり保育園","name":"こまどり保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"柱保育園","name":"柱保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"ひばり保育園","name":"ひばり保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","×","×","×","×"]},
+    {"id":"三郷保育園","name":"三郷保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"松葉保育園","name":"松葉保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","×","×","△","×"]},
+    {"id":"あくみ保育園","name":"あくみ保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","×",null,null,null]},
+    {"id":"往完保育園","name":"往完保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×","×","×","×"]},
+    {"id":"石巻保育園","name":"石巻保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["○","○","○","×","×","×"]},
+    {"id":"みどり保育園","name":"みどり保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["○","△","×","×","×","×"]},
+    {"id":"嵩山保育園","name":"嵩山保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","×","○","△","×"]},
+    {"id":"賀茂保育園","name":"賀茂保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","○","△","△","△","△"]},
+    {"id":"吉田方保育園","name":"吉田方保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","×","×","×","×"]},
+    {"id":"吉田方西保育園","name":"吉田方西保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"磯辺保育園","name":"磯辺保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"植田保育園","name":"植田保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"杉山保育園","name":"杉山保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","△","△","△"]},
+    {"id":"岩西保育園","name":"岩西保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"津田保育園","name":"津田保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","△","△","×","×"]},
+    {"id":"牛川東保育園","name":"牛川東保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","△","△","△"]},
+    {"id":"くるみ保育園","name":"くるみ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"つつじが丘保育園","name":"つつじが丘保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△",null,null,null]},
+    {"id":"むかい山こども園","name":"むかい山こども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","×","×","×","×"]},
+    {"id":"昭和保育園","name":"昭和保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","△","○","△","×"]},
+    {"id":"正林寺保育園","name":"正林寺保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","×"]},
+    {"id":"岩田大空こども園","name":"岩田大空こども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"東部保育園","name":"東部保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△","△","△","△"]},
+    {"id":"円通寺保育園","name":"円通寺保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","△","×","×","×"]},
+    {"id":"高師東こども園","name":"高師東こども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"天伯こども園","name":"天伯こども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","△","△"]},
+    {"id":"緑が丘こども園","name":"緑が丘こども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","×"]},
+    {"id":"明照保育園","name":"明照保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","△"]},
+    {"id":"おおさきこども園","name":"おおさきこども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"三宝こども園","name":"三宝こども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","×","×","×","×"]},
+    {"id":"長栄保育園","name":"長栄保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"老津保育園","name":"老津保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△","×","×","×"]},
+    {"id":"大村こども園","name":"大村こども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","×","△","×","×"]},
+    {"id":"豊橋才能教育こども園","name":"豊橋才能教育こども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"希望が丘こども園","name":"希望が丘こども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"二川幼稚園","name":"二川幼稚園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"牛川育英幼稚園","name":"牛川育英幼稚園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"恵日こども園","name":"恵日こども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","×","×"]},
+    {"id":"希望が丘第二こども園","name":"希望が丘第二こども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"豊橋旭こども園","name":"豊橋旭こども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","△","×","×"]},
+    {"id":"悟真寺幼稚園","name":"悟真寺幼稚園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"こばとこども園","name":"こばとこども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"上庄夏の空こども園","name":"上庄夏の空こども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"豊橋中央幼稚園","name":"豊橋中央幼稚園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","○","△","△"]},
+    {"id":"こじかこども園","name":"こじかこども園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]}
+  ]
+}

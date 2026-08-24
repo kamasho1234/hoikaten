@@ -627,6 +627,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "〇": 24, "△": 67, "×": 305 },
   },
+  // 豊橋市は保育園と認定こども園でPDFが分かれており、基準日も別（古いほうを採る）
+  toyohashi: {
+    asOf: "2026-08-18",
+    facilityCount: 66,
+    vacancy: 0,
+    symbolCounts: { "×": 260, "△": 114, "○": 16 },
+  },
 };
 
 const problems: string[] = [];
