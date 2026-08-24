@@ -1,0 +1,117 @@
+{
+  "municipalitySlug": "isesaki",
+  "municipalityName": "伊勢崎市",
+  "asOf": "2026-07-30",
+  "fetchedAt": "2026-08-24",
+  "sourceName": "伊勢崎市「保育所（園）・認定こども園（2・3号）空き情報」",
+  "sourceUrl": "https://www.city.isesaki.lg.jp/soshiki/hukusiko/kodomo/ninteikyuhu/hoikusho/6191.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.isesaki.lg.jp/material/files/group/37/zuiji_202609.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "2026年9月の随時入所ぶんの空き情報",
+  "notes": [
+    "伊勢崎市は空き状況を人数ではなく記号で公表しています。当サイトでも公式の記号のまま載せています。これは2026年9月の随時入所ぶんです。",
+    "公式は記号の目安を「△が1名程度、○が3名程度、◎が5名程度の入所受入可能数」と説明しています。施設の受入状況の変化（職員の退職など）により受入可能数が増減することがあり、「×」の施設でも退園者等により受入状況が変わる場合があります。",
+    "「×」については公式が人数の目安を書いていないため、当サイトでは「空きなし」として扱っています。",
+    "認定こども園は見学が必須となっておりますので、施設に直接連絡のうえ、見学をお願いします。",
+    "公表しているのは２・３号の空き情報ですので、認定こども園の１号認定（教育認定）の空き状況は、施設に直接確認してください。",
+    "伊勢崎市はこの表に基準日を書いていないため、公式サイトでPDFが公開された日を時点として表示しています。",
+    "設けていないクラスは「—」にしています（公式の表では斜線です）。"
+  ],
+  "wards": [
+    "北・三郷",
+    "殖蓮",
+    "南・茂呂",
+    "宮郷",
+    "名和・豊受",
+    "赤堀",
+    "東",
+    "境"
+  ],
+  "categories": [
+    "公立保育所",
+    "私立認定こども園",
+    "私立保育所"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "△",
+      "label": "1名程度の入所受入可能数",
+      "open": true
+    },
+    {
+      "mark": "○",
+      "label": "3名程度の入所受入可能数",
+      "open": true
+    },
+    {
+      "mark": "◎",
+      "label": "5名程度の入所受入可能数",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"第四保育所","name":"第四保育所","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"ChaChaChildrenIsesaki","name":"ChaChaChildrenIsesaki","w":0,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"あかいしこども園","name":"あかいしこども園","w":0,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"三郷こども園","name":"三郷こども園","w":0,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"伊勢崎あすか幼稚舎","name":"伊勢崎あすか幼稚舎","w":0,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,"○","△","△","×"]},
+    {"id":"慈教幼稚園","name":"慈教幼稚園","w":0,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":[null,"△","△","△","△","×"]},
+    {"id":"西園こども園","name":"西園こども園","w":0,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×","×","×","×"]},
+    {"id":"インターナショナルキッズアカデミー","name":"インターナショナルキッズアカデミー","w":0,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"第三保育所","name":"第三保育所","w":1,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"かしま保育園","name":"かしま保育園","w":1,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","×","×"]},
+    {"id":"はちす保育園","name":"はちす保育園","w":1,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","×","×"]},
+    {"id":"日乃出保育園","name":"日乃出保育園","w":1,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"こまくさ保育園","name":"こまくさ保育園","w":1,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"第二保育所","name":"第二保育所","w":2,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"やさか保育園","name":"やさか保育園","w":2,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"ひかりのこ保育園","name":"ひかりのこ保育園","w":2,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","△","×"]},
+    {"id":"ゆたか第二保育園（夜間）","name":"ゆたか第二保育園（夜間）","w":2,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","△","×","×"]},
+    {"id":"茂呂こども園","name":"茂呂こども園","w":2,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"二葉こども園","name":"二葉こども園","w":2,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["○","×","×","×","×","×"]},
+    {"id":"わかくさ保育園","name":"わかくさ保育園","w":3,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"ひばり保育園","name":"ひばり保育園","w":3,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"すまいるきっず","name":"すまいるきっず","w":3,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"みやさと保育園","name":"みやさと保育園","w":3,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"なかよし保育園","name":"なかよし保育園","w":4,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"リトルガーデンしいのみ","name":"リトルガーデンしいのみ","w":4,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"太陽保育園","name":"太陽保育園","w":4,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","×"]},
+    {"id":"ひまわり保育園","name":"ひまわり保育園","w":4,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","○","×","×"]},
+    {"id":"白ばら保育園","name":"白ばら保育園","w":4,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","×"]},
+    {"id":"愛の光幼稚園","name":"愛の光幼稚園","w":4,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,"×","×","×","×"]},
+    {"id":"さくら幼稚園","name":"さくら幼稚園","w":4,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":[null,"×","×","×","×","×"]},
+    {"id":"はぐろこども園","name":"はぐろこども園","w":4,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"すみよし幼稚園","name":"すみよし幼稚園","w":4,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":[null,"×","×","×","×","×"]},
+    {"id":"ゆたか保育園","name":"ゆたか保育園","w":4,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"大光寺保育園","name":"大光寺保育園","w":5,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"間野谷保育園","name":"間野谷保育園","w":5,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×","△","△","×"]},
+    {"id":"たから保育園","name":"たから保育園","w":5,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"大林寺保育園","name":"大林寺保育園","w":5,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"青空保育園","name":"青空保育園","w":6,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"若竹保育園","name":"若竹保育園","w":6,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"田部井保育園","name":"田部井保育園","w":6,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","×"]},
+    {"id":"むつみ保育園","name":"むつみ保育園","w":6,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","×"]},
+    {"id":"小泉保育園","name":"小泉保育園","w":6,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"あずまの森こども園","name":"あずまの森こども園","w":6,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"境いよく保育所","name":"境いよく保育所","w":7,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"境ひので保育所","name":"境ひので保育所","w":7,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"つくし保育園","name":"つくし保育園","w":7,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"ふちな保育園","name":"ふちな保育園","w":7,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","△","×","×"]},
+    {"id":"あけぼの保育園","name":"あけぼの保育園","w":7,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"めざめ保育園","name":"めざめ保育園","w":7,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"こばと保育園","name":"こばと保育園","w":7,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"さかい保育園","name":"さかい保育園","w":7,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"こひつじ幼稚園","name":"こひつじ幼稚園","w":7,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"すみれこども園","name":"すみれこども園","w":7,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"島村めぐみ保育園","name":"島村めぐみ保育園","w":7,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","×","△","△","△"]}
+  ]
+}

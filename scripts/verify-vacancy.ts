@@ -592,6 +592,13 @@ const EXPECTED: Record<
     facilityCount: 46,
     vacancy: 228,
   },
+  // 伊勢崎市は凡例が注意事項にある（△＝1名程度・○＝3名程度・◎＝5名程度）
+  isesaki: {
+    asOf: "2026-07-30",
+    facilityCount: 54,
+    vacancy: 0,
+    symbolCounts: { "△": 30, "○": 3, "×": 281 },
+  },
 };
 
 const problems: string[] = [];
