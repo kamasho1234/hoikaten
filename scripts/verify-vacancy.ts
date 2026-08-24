@@ -505,6 +505,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "〇": 1, "△": 18, "×": 137 },
   },
+  // 稲沢市も公式の表は5歳→0歳の逆順。1号認定の行は取り込んでいない
+  inazawa: {
+    asOf: "2026-08-01",
+    facilityCount: 29,
+    vacancy: 0,
+    symbolCounts: { "×": 109, "△": 32, "〇": 9 },
+  },
 };
 
 const problems: string[] = [];

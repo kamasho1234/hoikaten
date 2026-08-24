@@ -1,0 +1,76 @@
+{
+  "municipalitySlug": "inazawa",
+  "municipalityName": "稲沢市",
+  "asOf": "2026-08-01",
+  "fetchedAt": "2026-08-24",
+  "sourceName": "稲沢市「認可保育園等の空き状況」",
+  "sourceUrl": "https://www.city.inazawa.aichi.jp/kosodate/0000004010.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.inazawa.aichi.jp/kosodate/cmsfiles/contents/0000004/4010/20260801aki.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "8月1日現在の受入予定数",
+  "notes": [
+    "稲沢市は空き状況を人数ではなく記号で公表しています。当サイトでも公式の記号のまま載せています。",
+    "1日時点の空き状況のため、申し込みをする時点では既に空きがない場合があります。1日より後の空き状況は各園にお問い合わせください。",
+    "認定こども園の1号認定（幼稚園部分）の空き状況は載せていません。",
+    "年齢はその年度の4月1日時点のものです。設けていないクラスは「—」にしています。"
+  ],
+  "wards": [],
+  "categories": [
+    "公立保育園",
+    "私立保育園",
+    "認定こども園",
+    "小規模保育事業所"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "×",
+      "label": "空き0人",
+      "open": false
+    },
+    {
+      "mark": "△",
+      "label": "空き1人～3人",
+      "open": true
+    },
+    {
+      "mark": "〇",
+      "label": "空き4人以上",
+      "open": true
+    }
+  ],
+  "facilities": [
+    {"id":"大里西保育園","name":"大里西保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","〇","×","×","×"]},
+    {"id":"下津保育園","name":"下津保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","△"]},
+    {"id":"片原一色保育園","name":"片原一色保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","×","×"]},
+    {"id":"駅前保育園","name":"駅前保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","△","△"]},
+    {"id":"子生和保育園","name":"子生和保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","△"]},
+    {"id":"高御堂中央保育園","name":"高御堂中央保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,"△","△","×","×"]},
+    {"id":"大塚保育園","name":"大塚保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"△","×","×"]},
+    {"id":"祖父江保育園","name":"祖父江保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","×","〇"]},
+    {"id":"牧川保育園","name":"牧川保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×","×","×","△"]},
+    {"id":"丸甲保育園","name":"丸甲保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,"△","×","×","〇","〇"]},
+    {"id":"領内保育園","name":"領内保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","〇","〇","△"]},
+    {"id":"小正保育園","name":"小正保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","〇","〇"]},
+    {"id":"小鳩保育園","name":"小鳩保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"稲沢保育園","name":"稲沢保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","△"]},
+    {"id":"附島保育園","name":"附島保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","△","×"]},
+    {"id":"大里東みどり保育園","name":"大里東みどり保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","△","×","×","×"]},
+    {"id":"みのり保育園","name":"みのり保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","×","×"]},
+    {"id":"信竜保育園","name":"信竜保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△",null,null,null]},
+    {"id":"明治保育園","name":"明治保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","△","×"]},
+    {"id":"みずほ保育園","name":"みずほ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","△","×","△","×"]},
+    {"id":"めばえ保育園","name":"めばえ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×",null,null,null]},
+    {"id":"信竜国府宮保育園","name":"信竜国府宮保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"栴檀保育園","name":"栴檀保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","×","×"]},
+    {"id":"和光こども園","name":"和光こども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"へいわこども園","name":"へいわこども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"千代田保育園","name":"千代田保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"あすかキッズいなざわ","name":"あすかキッズいなざわ","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["〇","×","×",null,null,null]},
+    {"id":"サンライズキッズ保育園","name":"サンライズキッズ保育園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△",null,null,null]},
+    {"id":"あすかキッズ下津","name":"あすかキッズ下津","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]}
+  ]
+}
