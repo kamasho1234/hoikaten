@@ -1,0 +1,99 @@
+{
+  "municipalitySlug": "iwata",
+  "municipalityName": "磐田市",
+  "asOf": "2026-08-10",
+  "fetchedAt": "2026-08-24",
+  "sourceName": "磐田市「保育園等募集状況」",
+  "sourceUrl": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/hoikuen_youchien_kodomoen/hoikuen/1012707.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.iwata.shizuoka.jp/_res/projects/default_project/_page_/001/012/707/20260810.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "10月入園の募集状況",
+  "notes": [
+    "磐田市は募集人数を人数そのものではなく記号で公表しています。当サイトでも公式の記号のまま載せています。",
+    "募集があっても、入園調整の結果、入園できない場合があります。",
+    "園における児童の状況や保育士の配置状況などにより、募集状況が変わることがあります。",
+    "年齢はその年度の4月1日時点のものです。設けていないクラスは「—」にしています。"
+  ],
+  "wards": [],
+  "categories": [
+    "保育園",
+    "認定こども園",
+    "事業所内保育",
+    "地域型保育"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "◎",
+      "label": "10人以上",
+      "open": true
+    },
+    {
+      "mark": "〇",
+      "label": "5～9人",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1～4人",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "募集なし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"磐田市立磐田北保育園","name":"磐田市立磐田北保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"磐田市立豊田西保育園","name":"磐田市立豊田西保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","×","×"]},
+    {"id":"こうのとり保育園","name":"こうのとり保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"いずみ保育園","name":"いずみ保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"いずみ第二保育園","name":"いずみ第二保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"いずみ第三保育園","name":"いずみ第三保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","△","×"]},
+    {"id":"西貝保育園","name":"西貝保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"風の森保育園","name":"風の森保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"中泉保育園","name":"中泉保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"ひまわり保育園","name":"ひまわり保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"バディ保育園","name":"バディ保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"リーザプレスクール","name":"リーザプレスクール","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","×"]},
+    {"id":"めいわ竜洋保育園","name":"めいわ竜洋保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"磐田市立大藤こども園","name":"磐田市立大藤こども園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"×","×","×"]},
+    {"id":"磐田市立豊田南こども園","name":"磐田市立豊田南こども園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"△","×","×"]},
+    {"id":"磐田市立青城こども園","name":"磐田市立青城こども園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"×","×","×"]},
+    {"id":"磐田市立豊岡こども園","name":"磐田市立豊岡こども園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"×","×","×"]},
+    {"id":"磐田市立磐田なかよしこども園","name":"磐田市立磐田なかよしこども園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"×","×","×"]},
+    {"id":"磐田北こども園","name":"磐田北こども園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"×","×","×"]},
+    {"id":"磐田南こども園","name":"磐田南こども園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"×","×","×"]},
+    {"id":"磐田市立二之宮こども園","name":"磐田市立二之宮こども園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"磐田市立福田こども園","name":"磐田市立福田こども園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","△","×"]},
+    {"id":"磐田市立竜洋東こども園","name":"磐田市立竜洋東こども園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","×"]},
+    {"id":"龍の子幼稚園","name":"龍の子幼稚園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"聖隷こども園こうのとり豊田","name":"聖隷こども園こうのとり豊田","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"聖隷こども園こうのとり東","name":"聖隷こども園こうのとり東","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","△","×","×","×"]},
+    {"id":"聖隷こども園こうのとり富丘","name":"聖隷こども園こうのとり富丘","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"子育てセンターみなみしま","name":"子育てセンターみなみしま","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","×","×","×","×"]},
+    {"id":"子育てセンターとみがおか","name":"子育てセンターとみがおか","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"広瀬こども園","name":"広瀬こども園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","×","△","×","×"]},
+    {"id":"岩田こども園","name":"岩田こども園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×","×","×","×"]},
+    {"id":"認定こども園ハローうさぎ山","name":"認定こども園ハローうさぎ山","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","△","×"]},
+    {"id":"豊田みなみ保育園","name":"豊田みなみ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"イーリスプレスクール","name":"イーリスプレスクール","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","〇","×"]},
+    {"id":"にじいろ保育所","name":"にじいろ保育所","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△",null,null,null]},
+    {"id":"ゆやの里あいむ保育園","name":"ゆやの里あいむ保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","×",null,null,null]},
+    {"id":"ひよこ保育園","name":"ひよこ保育園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△",null,null,null]},
+    {"id":"りんご保育園","name":"りんご保育園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","×",null,null,null]},
+    {"id":"ハッピー保育園富丘（ハッピー保育園から名称変更）","name":"ハッピー保育園富丘（ハッピー保育園から名称変更）","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"はあとふる保育園","name":"はあとふる保育園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","×",null,null,null]},
+    {"id":"磐田のびやか保育園","name":"磐田のびやか保育園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","×",null,null,null]},
+    {"id":"ハッピー保育園富士見（ハッピー第２保育園から名称変更）","name":"ハッピー保育園富士見（ハッピー第２保育園から名称変更）","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","×",null,null,null]},
+    {"id":"四季の風保育園","name":"四季の風保育園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"新貝ひよこ保育園","name":"新貝ひよこ保育園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△",null,null,null]},
+    {"id":"ハッピー保育園上本郷（ハッピー第３保育園から名称変更）","name":"ハッピー保育園上本郷（ハッピー第３保育園から名称変更）","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"ハグくみベビー磐田園","name":"ハグくみベビー磐田園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["△","〇","△",null,null,null]},
+    {"id":"まな保育園","name":"まな保育園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]}
+  ]
+}

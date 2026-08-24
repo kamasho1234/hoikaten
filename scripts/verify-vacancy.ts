@@ -484,6 +484,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "○": 4, "△": 19, "−": 205, "／": 30 },
   },
+  // 磐田市は空き数ではなく募集人数の目安を記号で出している
+  iwata: {
+    asOf: "2026-08-10",
+    facilityCount: 47,
+    vacancy: 0,
+    symbolCounts: { "〇": 2, "△": 46, "×": 174 },
+  },
 };
 
 const problems: string[] = [];
