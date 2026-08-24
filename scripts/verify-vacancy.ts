@@ -572,6 +572,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "○": 67, "△": 58, "✕": 115 },
   },
+  // 佐賀市は記号の意味を公表していないので、記号だけをそのまま持っている
+  saga: {
+    asOf: "2026-08-01",
+    facilityCount: 100,
+    vacancy: 0,
+    symbolCounts: { "×": 269, "△": 218, "○": 25, "-": 88 },
+  },
 };
 
 const problems: string[] = [];

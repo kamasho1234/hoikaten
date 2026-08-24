@@ -689,6 +689,11 @@ jobs:
         continue-on-error: true
         run: npm run vacancy:fetch:tomakomai
 
+      - name: 佐賀市を取り込む
+        id: saga
+        continue-on-error: true
+        run: npm run vacancy:fetch:saga
+
       # ここから下は失敗したらコミットしない（壊れたデータを公開しないため）
       - name: 型チェック
         run: npx tsc --noEmit
@@ -832,6 +837,7 @@ jobs:
               *hitachi.json) MSG="$MSG 日立市（$(node -p "require('./src/lib/vacancy/hitachi.json').asOf")時点）" ;;
               *oyama.json) MSG="$MSG 小山市（$(node -p "require('./src/lib/vacancy/oyama.json').asOf")時点）" ;;
               *tomakomai.json) MSG="$MSG 苫小牧市（$(node -p "require('./src/lib/vacancy/tomakomai.json').asOf")時点）" ;;
+              *saga.json) MSG="$MSG 佐賀市（$(node -p "require('./src/lib/vacancy/saga.json').asOf")時点）" ;;
             esac
           done
           git config user.name "github-actions[bot]"
