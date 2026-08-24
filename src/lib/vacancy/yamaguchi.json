@@ -1,0 +1,111 @@
+{
+  "municipalitySlug": "yamaguchi",
+  "municipalityName": "山口市",
+  "asOf": "2026-08-24",
+  "fetchedAt": "2026-08-24",
+  "sourceName": "山口市「認可保育施設 空き状況一覧」",
+  "sourceUrl": "https://www.city.yamaguchi.lg.jp/site/kodomo/180779.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.yamaguchi.lg.jp/uploaded/attachment/125396.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "2026年9月入所の調整後の空き状況",
+  "notes": [
+    "山口市は空き状況を人数ではなく記号で公表しています。これは2026年9月入所の調整後の情報で、2026-08-24時点のものです。",
+    "公式の表では空きがない場合はらんが空になっています（凡例に「空欄：空きなし」と書かれています）。当サイトでは、そのクラスがないらんと見分けられるように「✕」（空きなし）として表示しています。",
+    "以下の表は、令和８年９月入所調整後の情報です。入所調整は、入所希望月の前月１５日（１５日が閉庁日の場合は直前の開庁日）に実施しています。",
+    "各園における保育士配置や園児の転園等の状況により、次回の入所調整時には空き状況が変動する可能性がありますので、入園申し込みの際は、利用申込書に希望する",
+    "そのクラスがないらんは「—」にしています（公式の表では斜線です）。"
+  ],
+  "wards": [
+    "阿東",
+    "徳地",
+    "北東部地域",
+    "中央部地域",
+    "小郡地域",
+    "川東地域",
+    "川西地域"
+  ],
+  "categories": [
+    "公立",
+    "私立",
+    "地域型保育事業"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "3人以上空きあり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1～2人空きあり",
+      "open": true
+    },
+    {
+      "mark": "✕",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"徳佐保育園","name":"徳佐保育園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["✕","○","○","○","○","○"]},
+    {"id":"認定こども園島地保育園","name":"認定こども園島地保育園","w":1,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△","△","△","△"]},
+    {"id":"堀保育園（延長保育なし）","name":"堀保育園（延長保育なし）","w":1,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","○"]},
+    {"id":"仁保保育園","name":"仁保保育園","w":2,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"○","○","✕"]},
+    {"id":"小鯖保育園","name":"小鯖保育園","w":2,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"✕","✕","✕"]},
+    {"id":"大内光輪保育園","name":"大内光輪保育園","w":2,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
+    {"id":"大内すこやか保育園","name":"大内すこやか保育園","w":2,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["✕","△","✕","✕","△","△"]},
+    {"id":"大内なかよしこども園","name":"大内なかよしこども園","w":2,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
+    {"id":"きらきら星保育園","name":"きらきら星保育園","w":2,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
+    {"id":"認定こども園みやのの森","name":"認定こども園みやのの森","w":2,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
+    {"id":"花尾第二保育園","name":"花尾第二保育園","w":2,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","△"]},
+    {"id":"夢の星保育園大内園","name":"夢の星保育園大内園","w":2,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
+    {"id":"みのり保育園","name":"みのり保育園","w":2,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
+    {"id":"菅内幼稚園","name":"菅内幼稚園","w":2,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
+    {"id":"三の宮保育園","name":"三の宮保育園","w":2,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
+    {"id":"大内保育園","name":"大内保育園","w":2,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","△"]},
+    {"id":"山口ココモ保育園","name":"山口ココモ保育園","w":2,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕",null,null,null]},
+    {"id":"野田学園幼稚園","name":"野田学園幼稚園","w":3,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
+    {"id":"旭幼稚園（延長保育なし）","name":"旭幼稚園（延長保育なし）","w":3,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
+    {"id":"山口中央幼稚園（延長保育なし）","name":"山口中央幼稚園（延長保育なし）","w":3,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","✕","✕","✕","✕","✕"]},
+    {"id":"明星幼稚園（延長保育なし）","name":"明星幼稚園（延長保育なし）","w":3,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
+    {"id":"認定こども園ゆだ","name":"認定こども園ゆだ","w":3,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","△","✕","✕","✕"]},
+    {"id":"愛児園乳児保育所","name":"愛児園乳児保育所","w":3,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","✕","✕",null,null,null]},
+    {"id":"認定こども園ひらかわ","name":"認定こども園ひらかわ","w":3,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
+    {"id":"認定こども園おおとり","name":"認定こども園おおとり","w":3,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
+    {"id":"めばえ保育園","name":"めばえ保育園","w":3,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
+    {"id":"めばえぽっぽ保育園","name":"めばえぽっぽ保育園","w":3,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
+    {"id":"とものその保育園","name":"とものその保育園","w":3,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
+    {"id":"夢の星保育園穂積園","name":"夢の星保育園穂積園","w":3,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
+    {"id":"認定こども園はあとこども園中央","name":"認定こども園はあとこども園中央","w":3,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","✕","✕","✕","✕","✕"]},
+    {"id":"山口保育園","name":"山口保育園","w":3,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
+    {"id":"東山保育園","name":"東山保育園","w":3,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
+    {"id":"楠木保育園","name":"楠木保育園","w":3,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
+    {"id":"山口第二保育園（延長保育なし）","name":"山口第二保育園（延長保育なし）","w":3,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","△",null,null,null]},
+    {"id":"プティット一ノ坂保育園","name":"プティット一ノ坂保育園","w":3,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["○","△","✕",null,null,null]},
+    {"id":"はあと保育園吉敷","name":"はあと保育園吉敷","w":3,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕",null,null,null]},
+    {"id":"うる保育園","name":"うる保育園","w":3,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕",null,null,null]},
+    {"id":"ヤクルト保育園プティット平川","name":"ヤクルト保育園プティット平川","w":3,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","✕",null,null,null]},
+    {"id":"中央ココモ保育園","name":"中央ココモ保育園","w":3,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕",null,null,null]},
+    {"id":"鴻城幼稚園（延長保育なし）","name":"鴻城幼稚園（延長保育なし）","w":4,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
+    {"id":"たんぽぽ保育園","name":"たんぽぽ保育園","w":4,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","△"]},
+    {"id":"認定こども園はあとこども園新山口","name":"認定こども園はあとこども園新山口","w":4,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","△","✕"]},
+    {"id":"あさひ小郡保育園","name":"あさひ小郡保育園","w":4,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","△","✕"]},
+    {"id":"UNURSERY新山口2号館","name":"UNURSERY新山口2号館","w":4,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕",null,null,null]},
+    {"id":"小郡保育園","name":"小郡保育園","w":4,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,"✕","✕","✕","○","△"]},
+    {"id":"小郡上郷保育園","name":"小郡上郷保育園","w":4,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
+    {"id":"秋穂保育園","name":"秋穂保育園","w":5,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","✕","✕","✕","△","△"]},
+    {"id":"大海保育園","name":"大海保育園","w":5,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","△","✕","✕","✕"]},
+    {"id":"陶保育園（延長保育なし）","name":"陶保育園（延長保育なし）","w":5,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","○","○"]},
+    {"id":"山口みなみこども園","name":"山口みなみこども園","w":5,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,"✕","✕","✕","✕","△"]},
+    {"id":"阿知須幼稚園（延長保育なし）","name":"阿知須幼稚園（延長保育なし）","w":6,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
+    {"id":"認定こども園嘉川こども園","name":"認定こども園嘉川こども園","w":6,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
+    {"id":"三つ葉保育園","name":"三つ葉保育園","w":6,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
+    {"id":"さやま保育園","name":"さやま保育園","w":6,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
+    {"id":"あじす保育園","name":"あじす保育園","w":6,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
+    {"id":"もりもり保育園","name":"もりもり保育園","w":6,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕",null,null,null]}
+  ]
+}

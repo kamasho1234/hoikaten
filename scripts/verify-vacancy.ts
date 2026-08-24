@@ -599,6 +599,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 30, "○": 3, "×": 281 },
   },
+  // 山口市は公式の表で空きなしが空らん。当サイトでは「✕」に置き換えている
+  yamaguchi: {
+    asOf: "2026-08-24",
+    facilityCount: 56,
+    vacancy: 0,
+    symbolCounts: { "○": 12, "△": 28, "✕": 258 },
+  },
 };
 
 const problems: string[] = [];
