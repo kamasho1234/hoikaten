@@ -1,0 +1,95 @@
+{
+  "municipalitySlug": "anjo",
+  "municipalityName": "安城市",
+  "asOf": "2026-08-14",
+  "fetchedAt": "2026-08-24",
+  "sourceName": "安城市「保育園・認定こども園の空き状況」",
+  "sourceUrl": "https://www.city.anjo.aichi.jp/kurasu/kosodate/hoikuen/akijyokyo.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.anjo.aichi.jp/kurasu/kosodate/hoikuen/documents/202609akijyoukyou.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "9月入園の調整が終わった時点の空き状況",
+  "notes": [
+    "安城市は空き状況を人数ではなく記号で公表しています。当サイトでも公式の記号のまま載せています。",
+    "空きがない園でも辞退などにより入園できる可能性があるため、入園を希望するすべての園を希望の高い順に申し込むことを公式が勧めています。",
+    "空きがあると表示されている園でも、申込み状況によっては入園できないことがあります。",
+    "年齢はその年度の4月1日時点のものです。設けていないクラスは「—」にしています。"
+  ],
+  "wards": [],
+  "categories": [
+    "公立保育園",
+    "事業団保育園",
+    "私立保育園",
+    "私立認定こども園",
+    "公立認定こども園",
+    "事業団認定こども園"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "余裕があります",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "少なくなっています",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きはありません",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"安城保育園","name":"安城保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","○","△"]},
+    {"id":"あけぼの保育園","name":"あけぼの保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","○"]},
+    {"id":"和泉保育園","name":"和泉保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","△"]},
+    {"id":"さくら保育園","name":"さくら保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"二本木保育園","name":"二本木保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","×","○","○","○"]},
+    {"id":"ゆたか保育園","name":"ゆたか保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","○","○"]},
+    {"id":"錦保育園","name":"錦保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","△"]},
+    {"id":"作野保育園","name":"作野保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×","×","×","△"]},
+    {"id":"南部保育園","name":"南部保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","△","×"]},
+    {"id":"西部保育園","name":"西部保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","×"]},
+    {"id":"東端保育園","name":"東端保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△","△","○","○"]},
+    {"id":"志貴保育園","name":"志貴保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","×"]},
+    {"id":"小川保育園","name":"小川保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"みのわ保育園","name":"みのわ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","○","○","○"]},
+    {"id":"新田保育園","name":"新田保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","△"]},
+    {"id":"赤松保育園","name":"赤松保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","○","○"]},
+    {"id":"みその保育園","name":"みその保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","○","×","×","○","○"]},
+    {"id":"桜井保育園","name":"桜井保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","○","○"]},
+    {"id":"安城北すずらん保育園","name":"安城北すずらん保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","×"]},
+    {"id":"よさみ保育園","name":"よさみ保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×","×","△","△"]},
+    {"id":"こひつじ保育園","name":"こひつじ保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×",null,null,null]},
+    {"id":"第2よさみ保育園","name":"第2よさみ保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["○","△","×",null,null,null]},
+    {"id":"じけいの森保育園","name":"じけいの森保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"げんきのもり保育園","name":"げんきのもり保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"あおぞらサニーサイド保育園","name":"あおぞらサニーサイド保育園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"ちいさなこだから保育園","name":"ちいさなこだから保育園","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×",null,null,null]},
+    {"id":"城ケ入こども園","name":"城ケ入こども園","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"△","○","○"]},
+    {"id":"東部こども園","name":"東部こども園","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"○","○","○"]},
+    {"id":"高棚こども園","name":"高棚こども園","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"×","○","○"]},
+    {"id":"えのきこども園","name":"えのきこども園","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"○","○","○"]},
+    {"id":"三ツ川こども園","name":"三ツ川こども園","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"○","○","△"]},
+    {"id":"安城こども園","name":"安城こども園","w":null,"c":5,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"△","○","△"]},
+    {"id":"さくのこども園","name":"さくのこども園","w":null,"c":5,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"△","○","○"]},
+    {"id":"安城北部こども園","name":"安城北部こども園","w":null,"c":5,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"△","○","○"]},
+    {"id":"東栄こども園","name":"東栄こども園","w":null,"c":5,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"○","○","○"]},
+    {"id":"根崎こども園","name":"根崎こども園","w":null,"c":5,"vacancy":[null,null,null,null,null,null],"symbols":["○","△","×","×","×","×"]},
+    {"id":"てらべクリエイティブこども園","name":"てらべクリエイティブこども園","w":null,"c":5,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","△","△","○"]},
+    {"id":"子宝保育園","name":"子宝保育園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"慈恵幼稚園","name":"慈恵幼稚園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"△","×","×"]},
+    {"id":"第二慈恵幼稚園","name":"第二慈恵幼稚園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×","△","×","×"]},
+    {"id":"にほんぎ幼稚園","name":"にほんぎ幼稚園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","△","△"]},
+    {"id":"スマイリーこども園さとまち","name":"スマイリーこども園さとまち","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"光徳保育園","name":"光徳保育園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"桜井こども園","name":"桜井こども園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"ブライトこども園安城桜町","name":"ブライトこども園安城桜町","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","△"]},
+    {"id":"麦のうさぎ保育園","name":"麦のうさぎ保育園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","△"]}
+  ]
+}

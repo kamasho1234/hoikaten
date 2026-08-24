@@ -442,6 +442,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 4, "✕": 138 },
   },
+  // 安城市も公式の表は5歳→0歳の逆順
+  anjo: {
+    asOf: "2026-08-14",
+    facilityCount: 46,
+    vacancy: 0,
+    symbolCounts: { "○": 42, "△": 47, "×": 142 },
+  },
 };
 
 const problems: string[] = [];
