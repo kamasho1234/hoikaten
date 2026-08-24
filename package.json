@@ -144,6 +144,7 @@
     "vacancy:fetch:soka": "tsx scripts/fetch-soka-vacancy.ts",
     "vacancy:fetch:kasugai": "tsx scripts/fetch-kasugai-vacancy.ts",
     "vacancy:fetch:toyohashi": "tsx scripts/fetch-toyohashi-vacancy.ts",
+    "vacancy:fetch:kumamoto": "tsx scripts/fetch-kumamoto-vacancy.ts",
     "vacancy:fetch:wakayama": "tsx scripts/fetch-wakayama-vacancy.ts"
   },
   "dependencies": {

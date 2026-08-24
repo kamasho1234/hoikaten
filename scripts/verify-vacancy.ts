@@ -634,6 +634,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "×": 260, "△": 114, "○": 16 },
   },
+  // 熊本市は空らんが「預かりなし」と凡例に明記されている
+  kumamoto: {
+    asOf: "2026-08-05",
+    facilityCount: 271,
+    vacancy: 0,
+    symbolCounts: { "×": 991, "△": 328, "○": 72, "◎": 13 },
+  },
 };
 
 const problems: string[] = [];
