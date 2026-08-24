@@ -434,6 +434,8 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "○": 36, "×": 129 },
   },
+  // 川西市は人数。公式の表は5歳→0歳の逆順なので読むときにひっくり返している
+  kawanishi: { asOf: "2026-08-01", facilityCount: 41, vacancy: 66, emptyRatio: 0.8 },
 };
 
 const problems: string[] = [];
