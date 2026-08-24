@@ -1,0 +1,77 @@
+{
+  "municipalitySlug": "abiko",
+  "municipalityName": "我孫子市",
+  "asOf": "2026-08-21",
+  "fetchedAt": "2026-08-24",
+  "sourceName": "我孫子市「保育施設の空き状況」",
+  "sourceUrl": "https://www.city.abiko.chiba.jp/kosodate/children/preschool/nursery/vacancy/hoikuen_aki.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.abiko.chiba.jp/kosodate/children/preschool/nursery/vacancy/hoikuen_aki.html"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "10月入園の空き状況",
+  "notes": [
+    "我孫子市は空き状況を人数ではなく記号で公表しています。当サイトでも公式の記号のまま載せています。",
+    "空きがあっても入園を保証するものではありません。多くの方の申請が予想されるため、保育の必要性や緊急性の高い家庭からの入園になります。",
+    "私立保育園・認定こども園・小規模保育事業所は退園などに伴い入園状況が変わることがあるため、最新の状況は各園にお問い合わせください。公立保育園は毎月1日の空き状況のみが公表されています。",
+    "転入予定のない他市区町村にお住まいの方の入園については、我孫子市民が優先されます。",
+    "年齢はその年度の4月1日現在の満年齢です。設けていないクラスは「—」にしています。"
+  ],
+  "wards": [],
+  "categories": [
+    "公立保育園",
+    "私立保育園",
+    "幼保連携型認定こども園",
+    "小規模保育事業所",
+    "企業主導型保育園"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "〇",
+      "label": "4人以上空きあり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1人から3人空きあり",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"寿","name":"寿","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","△"]},
+    {"id":"湖北台","name":"湖北台","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","△","×"]},
+    {"id":"つくし野","name":"つくし野","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","△","〇","×"]},
+    {"id":"湖北","name":"湖北","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"慈紘","name":"慈紘","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"双葉","name":"双葉","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","×","×"]},
+    {"id":"天王台双葉","name":"天王台双葉","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"川村学園女子大学附属","name":"川村学園女子大学附属","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"アンジェリカ","name":"アンジェリカ","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"つばめ","name":"つばめ","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"禮和","name":"禮和","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△","△","△","△"]},
+    {"id":"ぽけっとランドあびこ","name":"ぽけっとランドあびこ","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"天王台さくら","name":"天王台さくら","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"めばえの森","name":"めばえの森","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×","△","△","×"]},
+    {"id":"あびこ菜の花","name":"あびこ菜の花","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"聖華みどり","name":"聖華みどり","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"東あびこ聖華","name":"東あびこ聖華","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"天王台ななほ","name":"天王台ななほ","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"ミルキーホーム天王台園","name":"ミルキーホーム天王台園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"根戸保育園","name":"根戸保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"布佐宝","name":"布佐宝","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"恵愛こども園","name":"恵愛こども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"柏鳳","name":"柏鳳","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","×"]},
+    {"id":"わかくさ","name":"わかくさ","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"ぴくしーらんど","name":"ぴくしーらんど","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"あびこ若松","name":"あびこ若松","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"我孫子さくらっ子","name":"我孫子さくらっ子","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"羽くくむ保育園","name":"羽くくむ保育園","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]}
+  ]
+}

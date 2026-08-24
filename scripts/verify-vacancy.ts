@@ -498,6 +498,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "○": 32, "△": 22, "×": 161, "※": 1 },
   },
+  // 我孫子市はPDFではなくページの表そのものに載っている
+  abiko: {
+    asOf: "2026-08-21",
+    facilityCount: 28,
+    vacancy: 0,
+    symbolCounts: { "〇": 1, "△": 18, "×": 137 },
+  },
 };
 
 const problems: string[] = [];
