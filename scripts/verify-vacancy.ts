@@ -648,6 +648,13 @@ const EXPECTED: Record<
     vacancy: 179,
     emptyRatio: 20,
   },
+  // 宇部市は空らんの意味を公式が書いていないが、同じ表の「保育開始年齢」と整合する
+  ube: {
+    asOf: "2026-08-13",
+    facilityCount: 39,
+    vacancy: 0,
+    symbolCounts: { "○": 6, "△": 45, "×": 146 },
+  },
 };
 
 const problems: string[] = [];

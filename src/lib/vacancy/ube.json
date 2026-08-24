@@ -1,0 +1,89 @@
+{
+  "municipalitySlug": "ube",
+  "municipalityName": "宇部市",
+  "asOf": "2026-08-13",
+  "fetchedAt": "2026-08-25",
+  "sourceName": "宇部市「保育所等空き状況一覧表」",
+  "sourceUrl": "https://www.city.ube.yamaguchi.jp/kosodate/kosodateouen/mokuteki/azukari/hoikuen_youchien/nyuusho/1023903.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.ube.yamaguchi.jp/_res/projects/default_project/_page_/001/023/903/akijokyo.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "2026年度 9月入所の利用調整が終わった時点の空き状況",
+  "notes": [
+    "宇部市は空き状況を人数ではなく記号で公表しています。当サイトでも公式の記号のまま載せています。これは2026年度の9月入所の利用調整が終わった時点のものです。",
+    "クラス年齢は今年度４月１日時点の満年齢です。年度途中で誕生日を迎えても、クラス年齢は変わりません。",
+    "この表はあくまで目安となるもので入所を保障するものではありません。申込みの際の参考としてご利用ください。",
+    "施設の状況や申込の状況によっては「○」や「△」のついた施設でも入所できないことがあります。ご了承ください。",
+    "また、「×」のついた施設でも在所児の退所等で入所が可能となることがあります。",
+    "公式の表では、らんが空になっている年齢があります。空らんの意味は書かれていませんが、同じ表の「保育開始年齢」と照らすと、その年齢の保育の受け入れをしていないことを示していると読めます。当サイトではそのらんを「—」にしています。",
+    "宇部市はこの表に基準日を書いていないため、公式サイトでPDFが公開された日を時点として表示しています。"
+  ],
+  "wards": [],
+  "categories": [
+    "公立保育所",
+    "私立保育所",
+    "私立小規模事業保育所",
+    "私立認定こども園"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "現時点で空きあり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "現時点で若干名空きあり",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "現時点で空きなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"原保育園","name":"原保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"新川保育園","name":"新川保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"神原保育園","name":"神原保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","△","×","△"]},
+    {"id":"西岐波保育園","name":"西岐波保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"第二乳児保育園","name":"第二乳児保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","○",null,null,null]},
+    {"id":"琴崎保育園","name":"琴崎保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","×"]},
+    {"id":"るんびに保育園","name":"るんびに保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×","×","×","△"]},
+    {"id":"二葉保育園","name":"二葉保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"新神原保育園","name":"新神原保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["○","○","×","△","○","×"]},
+    {"id":"命信寺保育園","name":"命信寺保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"藤山保育園","name":"藤山保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×","△","×","×"]},
+    {"id":"あさひ保育園","name":"あさひ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"大学院幼児園","name":"大学院幼児園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","△"]},
+    {"id":"厚南保育園","name":"厚南保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"双葉保育園","name":"双葉保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","△","×"]},
+    {"id":"桃山保育園","name":"桃山保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"波木保育園","name":"波木保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△","△","△","△"]},
+    {"id":"小羽山保育園","name":"小羽山保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","△"]},
+    {"id":"法泉寺保育園","name":"法泉寺保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","×","×"]},
+    {"id":"東割保育園","name":"東割保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"二俣瀬保育園","name":"二俣瀬保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","×"]},
+    {"id":"丸尾原保育園","name":"丸尾原保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×","△","×","×"]},
+    {"id":"小野保育園","name":"小野保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","△","△","△"]},
+    {"id":"めぐみ保育園","name":"めぐみ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","×","×","△","△"]},
+    {"id":"きずな保育園","name":"きずな保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"第二波木保育園","name":"第二波木保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","△","△"]},
+    {"id":"船木保育園","name":"船木保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","△","×","△","×"]},
+    {"id":"ぱんだ保育園","name":"ぱんだ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"宇部こぐま保育園","name":"宇部こぐま保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×",null,null,null]},
+    {"id":"リトル明光乳児園","name":"リトル明光乳児園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"たちばなナーサリー","name":"たちばなナーサリー","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"プティット宇部保育園","name":"プティット宇部保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","△",null,null,null]},
+    {"id":"ＹＩＣキッズ黒石保育園","name":"ＹＩＣキッズ黒石保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"新川こども園","name":"新川こども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"恩田幼稚園","name":"恩田幼稚園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△",null,null,null]},
+    {"id":"たちばな幼稚園","name":"たちばな幼稚園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,"×","×","△","○"]},
+    {"id":"宇部鴻城幼稚園","name":"宇部鴻城幼稚園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"×","×","×"]},
+    {"id":"宇部さゆり幼稚園","name":"宇部さゆり幼稚園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"×","△","△"]},
+    {"id":"原中央幼稚園","name":"原中央幼稚園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,"○",null,null,null]}
+  ]
+}
