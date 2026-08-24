@@ -8,7 +8,7 @@
 - 4ページ。10列（地区／施設名／住所／電話番号／0歳児〜5歳児）。見出しは各ページ2行
 - 記号は◎（7人以上空きあり）○（4人〜6人分）△（1人〜3人分）－（空きなし）
 - 地区は縦結合
-- 文字に康熙部首（⻘⼀⼤など）が混ざっているので、その字だけ普通の字に直す
+- 文字に部首の字（⻘＝青、⼀＝一）が混ざっているので、その字だけ普通の字に直す
 """
 
 import json
@@ -34,11 +34,34 @@ def fail(message):
     raise SystemExit(f"[中断] {message}")
 
 
+# NFKCでは直らない部首の字（CJK Radicals Supplement）。出てきたら足す
+RADICALS = {
+    "⻂": "衣", "⻄": "西", "⻅": "見", "⻆": "角", "⻈": "言", "⻉": "貝", "⻊": "足",
+    "⻋": "車", "⻐": "金", "⻑": "長", "⻒": "門", "⻘": "青", "⻛": "風", "⻜": "飛",
+    "⻝": "食", "⻟": "食", "⻡": "首", "⻢": "馬", "⻣": "骨", "⻤": "鬼", "⻥": "魚",
+    "⻦": "鳥", "⻨": "麦", "⻩": "黄", "⻪": "黒", "⻫": "斉", "⻭": "歯", "⻯": "竜",
+    "⻲": "亀",
+}
+
+
 def fix(s):
-    """康熙部首（⻘＝青、⼀＝一）だけを普通の字に直す。他の字は変えない"""
-    return "".join(
-        unicodedata.normalize("NFKC", c) if 0x2E80 <= ord(c) <= 0x2FDF else c for c in str(s)
-    )
+    """
+    康熙部首（⼀＝一）やCJK部首（⻘＝青）を普通の字に直す。他の字は変えない。
+    康熙部首はNFKCで直るが、CJK部首のほうは直らないので表で持つ。
+    知らない字が来たら黙って通さずに止める
+    """
+    out = []
+    for c in str(s):
+        if 0x2E80 <= ord(c) <= 0x2FDF:
+            normalized = unicodedata.normalize("NFKC", c)
+            if normalized == c:
+                normalized = RADICALS.get(c)
+                if normalized is None:
+                    fail(f"表にない部首の字が入っています: {c}（U+{ord(c):04X}）")
+            out.append(normalized)
+        else:
+            out.append(c)
+    return "".join(out)
 
 
 def cell(s):
