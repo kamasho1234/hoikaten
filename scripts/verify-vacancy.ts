@@ -544,6 +544,13 @@ const EXPECTED: Record<
     facilityCount: 119,
     vacancy: 513,
   },
+  // 宇都宮市の「／」は利用できない。公式が凡例で決めている記号なのでそのまま持つ
+  utsunomiya: {
+    asOf: "2026-07-24",
+    facilityCount: 170,
+    vacancy: 0,
+    symbolCounts: { "○": 40, "△": 192, "×": 597, "／": 188 },
+  },
 };
 
 const problems: string[] = [];
