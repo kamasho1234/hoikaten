@@ -130,6 +130,7 @@
     "vacancy:fetch:izumi": "tsx scripts/fetch-izumi-vacancy.ts",
     "vacancy:fetch:toda": "tsx scripts/fetch-toda-vacancy.ts",
     "vacancy:fetch:iruma": "tsx scripts/fetch-iruma-vacancy.ts",
+    "vacancy:fetch:tsukuba": "tsx scripts/fetch-tsukuba-vacancy.ts",
     "vacancy:fetch:wakayama": "tsx scripts/fetch-wakayama-vacancy.ts"
   },
   "dependencies": {
