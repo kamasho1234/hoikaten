@@ -759,6 +759,11 @@ jobs:
         continue-on-error: true
         run: npm run vacancy:fetch:tokai
 
+      - name: 箕面市を取り込む
+        id: minoh
+        continue-on-error: true
+        run: npm run vacancy:fetch:minoh
+
       # ここから下は失敗したらコミットしない（壊れたデータを公開しないため）
       - name: 型チェック
         run: npx tsc --noEmit
@@ -916,6 +921,7 @@ jobs:
               *ube.json) MSG="$MSG 宇部市（$(node -p "require('./src/lib/vacancy/ube.json').asOf")時点）" ;;
               *fujimi.json) MSG="$MSG 富士見市（$(node -p "require('./src/lib/vacancy/fujimi.json').asOf")時点）" ;;
               *tokai.json) MSG="$MSG 東海市（$(node -p "require('./src/lib/vacancy/tokai.json').asOf")時点）" ;;
+              *minoh.json) MSG="$MSG 箕面市（$(node -p "require('./src/lib/vacancy/minoh.json').asOf")時点）" ;;
             esac
           done
           git config user.name "github-actions[bot]"

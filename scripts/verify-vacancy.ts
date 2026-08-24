@@ -669,6 +669,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "○": 54, "×": 95 },
   },
+  // 箕面市は施設名に受入年齢が書いてあり、空らんの位置と照合している
+  minoh: {
+    asOf: "2026-07-30",
+    facilityCount: 48,
+    vacancy: 0,
+    symbolCounts: { "〇": 5, "△": 30, "×": 193 },
+  },
 };
 
 const problems: string[] = [];

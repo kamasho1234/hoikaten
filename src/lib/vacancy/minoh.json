@@ -1,0 +1,94 @@
+{
+  "municipalitySlug": "minoh",
+  "municipalityName": "箕面市",
+  "asOf": "2026-07-30",
+  "fetchedAt": "2026-08-25",
+  "sourceName": "箕面市「保育施設の空き状況」",
+  "sourceUrl": "https://www.city.minoh.lg.jp/infancy/hoikusho/akizyoukyou.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.minoh.lg.jp/infancy/hoikusho/documents/akizyoukyou0730.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "2026年7月30日現在の空き状況",
+  "notes": [
+    "箕面市は空き状況を人数ではなく記号で公表しています。当サイトでも公式の記号のまま載せています。これは2026-07-30時点のものです。",
+    "施設名の括弧の中に、公立か民間かや受け入れる年齢が書かれています（公式の表記のまま載せています）。その年齢の受け入れがないらんは「—」にしています。",
+    "空き枠のある施設への入園を保証するものではありません。利用の可否は利用調整を経て決まります。"
+  ],
+  "wards": [
+    "市内北部",
+    "市内西部",
+    "市内中部",
+    "市内東部"
+  ],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "〇",
+      "label": "３名以上空き枠がある保育施設",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "１、２名空き枠がある保育施設",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "現在、空きがない保育施設",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"森町友星保育園（民間）","name":"森町友星保育園（民間）","w":0,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","〇","△","×","×"]},
+    {"id":"みすず学園森町こども園（民間認定こども園）","name":"みすず学園森町こども園（民間認定こども園）","w":0,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"森町保育送迎ステーション（1歳から2歳のみ）","name":"森町保育送迎ステーション（1歳から2歳のみ）","w":0,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":[null,"△","×",null,null,null]},
+    {"id":"桜ヶ丘保育所（公立）","name":"桜ヶ丘保育所（公立）","w":1,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","×"]},
+    {"id":"みすず学園桜ヶ丘保育園（民間）（0歳から2歳のみ）","name":"みすず学園桜ヶ丘保育園（民間）（0歳から2歳のみ）","w":1,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"瀬川保育園（民間）","name":"瀬川保育園（民間）","w":1,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"幼保連携型認定こども園桜夢（民間認定こども園）","name":"幼保連携型認定こども園桜夢（民間認定こども園）","w":1,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"箕面保育園（民間）","name":"箕面保育園（民間）","w":1,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"アートチャイルドケア箕面（民間）","name":"アートチャイルドケア箕面（民間）","w":1,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"箕面ポッポ保育（民間）（0歳から2歳のみ）","name":"箕面ポッポ保育（民間）（0歳から2歳のみ）","w":1,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"めばえ保育園（民間）（0歳から2歳のみ）","name":"めばえ保育園（民間）（0歳から2歳のみ）","w":1,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"アイグラン保育園牧落（民間）","name":"アイグラン保育園牧落（民間）","w":1,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","〇"]},
+    {"id":"フェアリーキッズ保育園桜井（民間小規模）（0歳から2歳のみ）","name":"フェアリーキッズ保育園桜井（民間小規模）（0歳から2歳のみ）","w":1,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"どんぐり保育園（民間）","name":"どんぐり保育園（民間）","w":1,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","△","×"]},
+    {"id":"認定こども園牧落幼稚園（民間認定こども園）","name":"認定こども園牧落幼稚園（民間認定こども園）","w":1,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"みすず学園桜ヶ丘こども園（民間認定こども園）（3歳から）","name":"みすず学園桜ヶ丘こども園（民間認定こども園）（3歳から）","w":1,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"×","×","×"]},
+    {"id":"幼稚園型認定こども園箕面学園附属幼稚園（民間認定こども園）（3歳から）","name":"幼稚園型認定こども園箕面学園附属幼稚園（民間認定こども園）（3歳から）","w":1,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"×","×","×"]},
+    {"id":"陽だまり保育園（事業所内保育施設）（0歳から2歳のみ）","name":"陽だまり保育園（事業所内保育施設）（0歳から2歳のみ）","w":1,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△",null,null,null]},
+    {"id":"にじいろ陽だまり保育園（事業所内保育施設）（0歳から2歳のみ）","name":"にじいろ陽だまり保育園（事業所内保育施設）（0歳から2歳のみ）","w":1,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"かやのこども園（公立認定こども園）","name":"かやのこども園（公立認定こども園）","w":2,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","×"]},
+    {"id":"常照寺隣保館保育園（民間）","name":"常照寺隣保館保育園（民間）","w":2,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","〇","〇"]},
+    {"id":"もみじ保育園（民間）","name":"もみじ保育園（民間）","w":2,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","△"]},
+    {"id":"つばさ保育園（民間）","name":"つばさ保育園（民間）","w":2,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"幼保連携型認定こども園紅葉夢（民間認定こども園）","name":"幼保連携型認定こども園紅葉夢（民間認定こども園）","w":2,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"みのおっこ保育園（民間）（0歳から2歳のみ）","name":"みのおっこ保育園（民間）（0歳から2歳のみ）","w":2,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"トレジャーキッズいまみや保育園（民間）","name":"トレジャーキッズいまみや保育園（民間）","w":2,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","×"]},
+    {"id":"トレジャーキッズにしじゅく保育園（民間）","name":"トレジャーキッズにしじゅく保育園（民間）","w":2,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","△"]},
+    {"id":"さくらさくみらい箕面（民間）","name":"さくらさくみらい箕面（民間）","w":2,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","×"]},
+    {"id":"アートチャイルドケア箕面稲保育園（民間）","name":"アートチャイルドケア箕面稲保育園（民間）","w":2,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","△"]},
+    {"id":"保育園みのおのおうち（民間）","name":"保育園みのおのおうち（民間）","w":2,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"キューズモール敬愛保育園（民間）","name":"キューズモール敬愛保育園（民間）","w":2,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","△"]},
+    {"id":"つくし保育園（事業所内保育施設）（0歳から2歳のみ）","name":"つくし保育園（事業所内保育施設）（0歳から2歳のみ）","w":2,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"くるーる保育園（事業所内保育施設）（0歳から2歳のみ）","name":"くるーる保育園（事業所内保育施設）（0歳から2歳のみ）","w":2,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△",null,null,null]},
+    {"id":"こども園アサンプション国際幼稚園（民間認定こども園）（2歳から）","name":"こども園アサンプション国際幼稚園（民間認定こども園）（2歳から）","w":2,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,"×","×","×","×"]},
+    {"id":"東保育所（公立）","name":"東保育所（公立）","w":3,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","×"]},
+    {"id":"小野原学園（民間）","name":"小野原学園（民間）","w":3,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","△","△","△"]},
+    {"id":"法泉寺保育園（民間）","name":"法泉寺保育園（民間）","w":3,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"彩都みのり保育園（民間）","name":"彩都みのり保育園（民間）","w":3,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"アスク彩都西保育園（民間）","name":"アスク彩都西保育園（民間）","w":3,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"こぐまの森保育園箕面彩都園（民間）（0歳から2歳のみ）","name":"こぐまの森保育園箕面彩都園（民間）（0歳から2歳のみ）","w":3,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"トレジャーキッズあおみなみ保育園（民間）","name":"トレジャーキッズあおみなみ保育園（民間）","w":3,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","〇","△"]},
+    {"id":"こぐまの森保育園箕面園（民間）","name":"こぐまの森保育園箕面園（民間）","w":3,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","×"]},
+    {"id":"かいせいプチ保育園小野原園（民間小規模）（0歳から2歳のみ）","name":"かいせいプチ保育園小野原園（民間小規模）（0歳から2歳のみ）","w":3,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","△",null,null,null]},
+    {"id":"のいちご保育園（民間小規模）（0歳から2歳のみ）","name":"のいちご保育園（民間小規模）（0歳から2歳のみ）","w":3,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"ひじりとよかわ保育園（民間小規模）（0歳から2歳のみ）","name":"ひじりとよかわ保育園（民間小規模）（0歳から2歳のみ）","w":3,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"れもんのこ彩都保育園（民間小規模）（0歳から2歳のみ）","name":"れもんのこ彩都保育園（民間小規模）（0歳から2歳のみ）","w":3,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"認定こども園ひじりひがし幼稚園（民間認定こども園）（3歳から）","name":"認定こども園ひじりひがし幼稚園（民間認定こども園）（3歳から）","w":3,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"×","×","×"]},
+    {"id":"幼稚園型認定こども園粟生幼稚園（民間認定こども園）（3歳から）","name":"幼稚園型認定こども園粟生幼稚園（民間認定こども園）（3歳から）","w":3,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"×","×","△"]}
+  ]
+}
