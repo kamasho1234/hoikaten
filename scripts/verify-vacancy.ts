@@ -470,6 +470,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "◎": 9, "○": 45, "△": 267, "－": 345 },
   },
+  // 八戸市は地区の罫線が引かれていない場所があるので、行のy座標で切って読んでいる
+  hachinohe: {
+    asOf: "2026-08-20",
+    facilityCount: 85,
+    vacancy: 0,
+    symbolCounts: { "○": 348, "－": 133 },
+  },
 };
 
 const problems: string[] = [];
