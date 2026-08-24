@@ -620,6 +620,13 @@ const EXPECTED: Record<
     vacancy: 163,
     emptyRatio: 20,
   },
+  // 春日井市は「〇」(U+3007)を使っている。外之原保育園の△は列の境目にあり位置を決められない
+  kasugai: {
+    asOf: "2026-07-29",
+    facilityCount: 79,
+    vacancy: 0,
+    symbolCounts: { "〇": 24, "△": 67, "×": 305 },
+  },
 };
 
 const problems: string[] = [];
