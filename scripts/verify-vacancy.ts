@@ -586,6 +586,12 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "○": 19, "×": 197 },
   },
+  // 海老名市は斜線が「その年齢の受け入れをしていない」。空らんは0人
+  ebina: {
+    asOf: "2026-08-24",
+    facilityCount: 46,
+    vacancy: 228,
+  },
 };
 
 const problems: string[] = [];

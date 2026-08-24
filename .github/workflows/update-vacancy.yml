@@ -699,6 +699,11 @@ jobs:
         continue-on-error: true
         run: npm run vacancy:fetch:iizuka
 
+      - name: 海老名市を取り込む
+        id: ebina
+        continue-on-error: true
+        run: npm run vacancy:fetch:ebina
+
       # ここから下は失敗したらコミットしない（壊れたデータを公開しないため）
       - name: 型チェック
         run: npx tsc --noEmit
@@ -844,6 +849,7 @@ jobs:
               *tomakomai.json) MSG="$MSG 苫小牧市（$(node -p "require('./src/lib/vacancy/tomakomai.json').asOf")時点）" ;;
               *saga.json) MSG="$MSG 佐賀市（$(node -p "require('./src/lib/vacancy/saga.json').asOf")時点）" ;;
               *iizuka.json) MSG="$MSG 飯塚市（$(node -p "require('./src/lib/vacancy/iizuka.json').asOf")時点）" ;;
+              *ebina.json) MSG="$MSG 海老名市（$(node -p "require('./src/lib/vacancy/ebina.json').asOf")時点）" ;;
             esac
           done
           git config user.name "github-actions[bot]"
