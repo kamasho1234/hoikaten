@@ -579,6 +579,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "×": 269, "△": 218, "○": 25, "-": 88 },
   },
+  // 飯塚市も記号の意味を公表していない。基準日は PDF の Last-Modified
+  iizuka: {
+    asOf: "2026-08-07",
+    facilityCount: 36,
+    vacancy: 0,
+    symbolCounts: { "○": 19, "×": 197 },
+  },
 };
 
 const problems: string[] = [];
