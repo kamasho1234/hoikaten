@@ -512,6 +512,12 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "×": 109, "△": 32, "〇": 9 },
   },
+  // 深谷市は人数。行ごとに合計が入っているので突き合わせている
+  fukaya: {
+    asOf: "2026-08-05",
+    facilityCount: 47,
+    vacancy: 102,
+  },
 };
 
 const problems: string[] = [];
