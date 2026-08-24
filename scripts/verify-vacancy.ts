@@ -655,6 +655,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "○": 6, "△": 45, "×": 146 },
   },
+  // 富士見市は「保無（保育未実施）」が多いので「—」の割合が高い
+  fujimi: {
+    asOf: "2026-07-24",
+    facilityCount: 37,
+    vacancy: 12,
+    emptyRatio: 20,
+  },
 };
 
 const problems: string[] = [];

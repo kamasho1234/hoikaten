@@ -147,6 +147,7 @@
     "vacancy:fetch:kumamoto": "tsx scripts/fetch-kumamoto-vacancy.ts",
     "vacancy:fetch:okinawa": "tsx scripts/fetch-okinawa-vacancy.ts",
     "vacancy:fetch:ube": "tsx scripts/fetch-ube-vacancy.ts",
+    "vacancy:fetch:fujimi": "tsx scripts/fetch-fujimi-vacancy.ts",
     "vacancy:fetch:wakayama": "tsx scripts/fetch-wakayama-vacancy.ts"
   },
   "dependencies": {

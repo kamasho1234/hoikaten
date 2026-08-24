@@ -749,6 +749,11 @@ jobs:
         continue-on-error: true
         run: npm run vacancy:fetch:ube
 
+      - name: 富士見市を取り込む
+        id: fujimi
+        continue-on-error: true
+        run: npm run vacancy:fetch:fujimi
+
       # ここから下は失敗したらコミットしない（壊れたデータを公開しないため）
       - name: 型チェック
         run: npx tsc --noEmit
@@ -904,6 +909,7 @@ jobs:
               *kumamoto.json) MSG="$MSG 熊本市（$(node -p "require('./src/lib/vacancy/kumamoto.json').asOf")時点）" ;;
               *okinawa.json) MSG="$MSG 沖縄市（$(node -p "require('./src/lib/vacancy/okinawa.json').asOf")時点）" ;;
               *ube.json) MSG="$MSG 宇部市（$(node -p "require('./src/lib/vacancy/ube.json').asOf")時点）" ;;
+              *fujimi.json) MSG="$MSG 富士見市（$(node -p "require('./src/lib/vacancy/fujimi.json').asOf")時点）" ;;
             esac
           done
           git config user.name "github-actions[bot]"

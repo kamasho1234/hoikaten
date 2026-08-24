@@ -1,0 +1,62 @@
+{
+  "municipalitySlug": "fujimi",
+  "municipalityName": "富士見市",
+  "asOf": "2026-07-24",
+  "fetchedAt": "2026-08-25",
+  "sourceName": "富士見市「各施設の受入可能状況」",
+  "sourceUrl": "https://www.city.fujimi.saitama.jp/kosodate_kyoiku/kosodate_oen/yochien_hoikusho/hoikusho/hoikusyonyusyo/akijoukyou.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.fujimi.saitama.jp/kosodate_kyoiku/kosodate_oen/yochien_hoikusho/hoikusho/hoikusyonyusyo/akijoukyou.files/9gatuakiwaku.pdf"
+  },
+  "metrics": [
+    "vacancy"
+  ],
+  "subtitle": "2026年8月の利用調整が終わった時点の空き",
+  "notes": [
+    "富士見市は2026年8月の利用調整が終わった時点の受入可能状況を公表しています。",
+    "公式の表では、空きがない場合は「---」、そのクラスの保育をしていない場合は「保無（保育未実施）」と書かれています。当サイトでは前者を0人、後者を「—」にしています。",
+    "この表は入所選考終了時点までのものであり、内定辞退や急な退園等は反映していません。",
+    "富士見市はこの表に基準日を書いていないため、公式サイトでPDFが公開された日を時点として表示しています。"
+  ],
+  "wards": [],
+  "categories": [],
+  "facilities": [
+    {"id":"第一保育所","name":"第一保育所","w":null,"c":null,"vacancy":[0,0,0,0,0,0]},
+    {"id":"第二保育所","name":"第二保育所","w":null,"c":null,"vacancy":[null,0,0,0,0,0]},
+    {"id":"第三保育所","name":"第三保育所","w":null,"c":null,"vacancy":[null,0,0,0,0,0]},
+    {"id":"第四保育所","name":"第四保育所","w":null,"c":null,"vacancy":[null,0,0,0,0,0]},
+    {"id":"第五保育所","name":"第五保育所","w":null,"c":null,"vacancy":[null,0,0,0,0,0]},
+    {"id":"第六保育所","name":"第六保育所","w":null,"c":null,"vacancy":[null,0,0,0,0,0]},
+    {"id":"ふじみ野保育園","name":"ふじみ野保育園","w":null,"c":null,"vacancy":[0,0,0,1,0,0]},
+    {"id":"こばと保育園","name":"こばと保育園","w":null,"c":null,"vacancy":[0,0,0,0,0,0]},
+    {"id":"子どものそのBaby保育園","name":"子どものそのBaby保育園","w":null,"c":null,"vacancy":[0,0,0,0,0,0]},
+    {"id":"西みずほ台保育園","name":"西みずほ台保育園","w":null,"c":null,"vacancy":[0,0,0,0,0,0]},
+    {"id":"勝瀬こばと保育園","name":"勝瀬こばと保育園","w":null,"c":null,"vacancy":[0,0,0,2,0,0]},
+    {"id":"富士見すくすく保育園","name":"富士見すくすく保育園","w":null,"c":null,"vacancy":[0,0,0,1,0,0]},
+    {"id":"針ケ谷保育園","name":"針ケ谷保育園","w":null,"c":null,"vacancy":[0,0,0,0,0,0]},
+    {"id":"ナ-サリ-スク-ル☆SUKUSUKU","name":"ナ-サリ-スク-ル☆SUKUSUKU","w":null,"c":null,"vacancy":[0,0,0,0,0,0]},
+    {"id":"慶櫻ふじみ保育園","name":"慶櫻ふじみ保育園","w":null,"c":null,"vacancy":[0,0,0,1,0,7]},
+    {"id":"鶴瀬れんげ保育園","name":"鶴瀬れんげ保育園","w":null,"c":null,"vacancy":[0,0,0,0,0,0]},
+    {"id":"富士見れんげこども園","name":"富士見れんげこども園","w":null,"c":null,"vacancy":[0,0,0,0,0,0]},
+    {"id":"南畑幼稚園・なんばた保育園","name":"南畑幼稚園・なんばた保育園","w":null,"c":null,"vacancy":[0,0,0,0,0,0]},
+    {"id":"KidsGardenけやき(標準時間枠)","name":"KidsGardenけやき(標準時間枠)","w":null,"c":null,"vacancy":[0,0,0,0,0,0]},
+    {"id":"KidsGardenけやき(短時間枠)","name":"KidsGardenけやき(短時間枠)","w":null,"c":null,"vacancy":[0,0,0,0,0,0]},
+    {"id":"きたはら幼稚園・ナ-サリ-KITAHARA","name":"きたはら幼稚園・ナ-サリ-KITAHARA","w":null,"c":null,"vacancy":[0,0,0,0,0,0]},
+    {"id":"谷津幼稚園","name":"谷津幼稚園","w":null,"c":null,"vacancy":[0,0,0,0,0,0]},
+    {"id":"泉の森ふじみ","name":"泉の森ふじみ","w":null,"c":null,"vacancy":[0,0,0,0,0,0]},
+    {"id":"KidsGardenわかば","name":"KidsGardenわかば","w":null,"c":null,"vacancy":[0,0,0,0,0,0]},
+    {"id":"KidsGardenきらり","name":"KidsGardenきらり","w":null,"c":null,"vacancy":[0,0,0,0,0,0]},
+    {"id":"ベビ-パレス私立成城保育室","name":"ベビ-パレス私立成城保育室","w":null,"c":null,"vacancy":[0,0,0,null,null,null]},
+    {"id":"ベビ-キャッスル私立白金保育室","name":"ベビ-キャッスル私立白金保育室","w":null,"c":null,"vacancy":[0,0,0,null,null,null]},
+    {"id":"ピッコリ-ノぴよぴよ","name":"ピッコリ-ノぴよぴよ","w":null,"c":null,"vacancy":[null,0,0,null,null,null]},
+    {"id":"つるせつくしっこル-ム","name":"つるせつくしっこル-ム","w":null,"c":null,"vacancy":[0,0,0,null,null,null]},
+    {"id":"保育ル-ム針ケ谷","name":"保育ル-ム針ケ谷","w":null,"c":null,"vacancy":[0,0,0,null,null,null]},
+    {"id":"このえふじみ野小規模保育園","name":"このえふじみ野小規模保育園","w":null,"c":null,"vacancy":[0,0,0,null,null,null]},
+    {"id":"南畑小規模保育園あおぞら","name":"南畑小規模保育園あおぞら","w":null,"c":null,"vacancy":[null,0,0,null,null,null]},
+    {"id":"1☆2SUKUSUKU","name":"1☆2SUKUSUKU","w":null,"c":null,"vacancy":[null,0,0,null,null,null]},
+    {"id":"鶴瀬れんげ保育室","name":"鶴瀬れんげ保育室","w":null,"c":null,"vacancy":[0,0,0,null,null,null]},
+    {"id":"ベビ-シャト-私立松濤保育室","name":"ベビ-シャト-私立松濤保育室","w":null,"c":null,"vacancy":[null,0,0,null,null,null]},
+    {"id":"にじいろル-ム","name":"にじいろル-ム","w":null,"c":null,"vacancy":[null,0,0,null,null,null]},
+    {"id":"ピッコリ-ノきらきら","name":"ピッコリ-ノきらきら","w":null,"c":null,"vacancy":[null,0,0,null,null,null]}
+  ]
+}
