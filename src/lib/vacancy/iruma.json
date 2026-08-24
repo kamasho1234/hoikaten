@@ -1,0 +1,86 @@
+{
+  "municipalitySlug": "iruma",
+  "municipalityName": "入間市",
+  "asOf": "2026-08-01",
+  "fetchedAt": "2026-08-24",
+  "sourceName": "入間市「保育施設受入状況表」",
+  "sourceUrl": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/14431.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.iruma.saitama.jp/material/files/group/34/5080730ukeire.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "8月1日現在の受入状況",
+  "notes": [
+    "入間市は空き状況を人数ではなく記号で公表しています。当サイトでも公式の記号のまま載せています。",
+    "この表は各施設の利用定員に対して申込状況などを踏まえて作られています。転退所や職員の配置、保育状況によって変動する可能性があります。",
+    "「×」の施設でも退所者が出れば受け入れできるようになり、「○」の施設でも職員が欠員となれば受け入れできなくなります。",
+    "施設名の括弧の中は所在地です。設けていないクラスは「—」にしています。"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "*",
+      "label": "受入年齢対象外",
+      "open": false
+    },
+    {
+      "mark": "×",
+      "label": "受入枠がない",
+      "open": false
+    },
+    {
+      "mark": "▲",
+      "label": "ごくわずかにある",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "わずかにある",
+      "open": true
+    },
+    {
+      "mark": "○",
+      "label": "余裕がある",
+      "open": true
+    }
+  ],
+  "facilities": [
+    {"id":"豊岡保育所（扇町屋）","name":"豊岡保育所（扇町屋）","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["*","×","×","▲","△","○"]},
+    {"id":"金子第一保育所（南峯）","name":"金子第一保育所（南峯）","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["*","×","▲","△","▲","○"]},
+    {"id":"金子第二保育所（花ノ木）","name":"金子第二保育所（花ノ木）","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["*","×","▲","△","○","○"]},
+    {"id":"藤沢保育所（東藤沢）","name":"藤沢保育所（東藤沢）","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","○"]},
+    {"id":"藤沢第二保育所（下藤沢）","name":"藤沢第二保育所（下藤沢）","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","▲","▲","×"]},
+    {"id":"宮寺保育所（宮寺）","name":"宮寺保育所（宮寺）","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["*","×","×","▲","△","▲"]},
+    {"id":"二本木保育所（二本木）","name":"二本木保育所（二本木）","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["*","×","×","△","△","○"]},
+    {"id":"東金子保育所（新久）","name":"東金子保育所（新久）","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","▲","▲","△","○"]},
+    {"id":"高倉保育所（高倉）","name":"高倉保育所（高倉）","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["*","×","×","△","○","○"]},
+    {"id":"西武中央保育所（野田）","name":"西武中央保育所（野田）","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["*","×","×","×","×","▲"]},
+    {"id":"豊岡保育園（宮前町）","name":"豊岡保育園（宮前町）","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","▲","×","▲","▲"]},
+    {"id":"あけぼの保育園（東町）","name":"あけぼの保育園（東町）","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"いるま保育園（東町）","name":"いるま保育園（東町）","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"こどものくに保育園（下藤沢）","name":"こどものくに保育園（下藤沢）","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"ゆりかご保育園（宮寺）","name":"ゆりかご保育園（宮寺）","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"しらさぎ保育園（春日町）","name":"しらさぎ保育園（春日町）","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"ChaChaChildrenIruma（小谷田）","name":"ChaChaChildrenIruma（小谷田）","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"おおぎこども園（扇台）","name":"おおぎこども園（扇台）","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"おおぎ第二こども園（豊岡）","name":"おおぎ第二こども園（豊岡）","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","▲","▲","△"]},
+    {"id":"あけぼの保育園分園（小谷田）","name":"あけぼの保育園分園（小谷田）","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["*","×",null,"×",null,null]},
+    {"id":"わかばの森保育園（上藤沢)","name":"わかばの森保育園（上藤沢)","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["*","×","×","*",null,null]},
+    {"id":"杏ほいくえん（仏子）","name":"杏ほいくえん（仏子）","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"木の実保育園（河原町）","name":"木の実保育園（河原町）","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["▲","×","×","▲","▲","▲"]},
+    {"id":"むさしっこ保育園（下藤沢）","name":"むさしっこ保育園（下藤沢）","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["▲","×","×","▲","▲","▲"]},
+    {"id":"どろんこ保育園（上藤沢）","name":"どろんこ保育園（上藤沢）","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","▲"]},
+    {"id":"黒須保育園（宮前町）","name":"黒須保育園（宮前町）","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","▲","×","▲"]},
+    {"id":"すくすく保育園（東町）","name":"すくすく保育園（東町）","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","*",null,null]},
+    {"id":"おひさま保育園（野田）","name":"おひさま保育園（野田）","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"武蔵藤沢めぐみ保育園（下藤沢）","name":"武蔵藤沢めぐみ保育園（下藤沢）","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","▲",null,null,null]},
+    {"id":"みつばち保育園（扇台）","name":"みつばち保育園（扇台）","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","▲",null,null,null]},
+    {"id":"夢の森ほのぼのﾊﾆｰ保育園（新光）","name":"夢の森ほのぼのﾊﾆｰ保育園（新光）","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"スクルドエンジェル保育園（久保稲荷）","name":"スクルドエンジェル保育園（久保稲荷）","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","▲","×",null,null,null]},
+    {"id":"むさし保育園（東町）","name":"むさし保育園（東町）","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["▲","×","×",null,null,null]},
+    {"id":"ひまわり保育園ｼﾞｮﾝｿﾝﾀｳﾝ園（東町）","name":"ひまわり保育園ｼﾞｮﾝｿﾝﾀｳﾝ園（東町）","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]}
+  ]
+}

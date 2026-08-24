@@ -531,6 +531,13 @@ const EXPECTED: Record<
     facilityCount: 58,
     vacancy: 413,
   },
+  // 入間市の「*」は受入年齢対象外。公式が凡例で決めている記号なのでそのまま持つ
+  iruma: {
+    asOf: "2026-08-01",
+    facilityCount: 34,
+    vacancy: 0,
+    symbolCounts: { "*": 11, "×": 115, "▲": 31, "△": 10, "○": 9 },
+  },
 };
 
 const problems: string[] = [];
