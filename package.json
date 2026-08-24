@@ -134,6 +134,7 @@
     "vacancy:fetch:utsunomiya": "tsx scripts/fetch-utsunomiya-vacancy.ts",
     "vacancy:fetch:hitachi": "tsx scripts/fetch-hitachi-vacancy.ts",
     "vacancy:fetch:oyama": "tsx scripts/fetch-oyama-vacancy.ts",
+    "vacancy:fetch:tomakomai": "tsx scripts/fetch-tomakomai-vacancy.ts",
     "vacancy:fetch:wakayama": "tsx scripts/fetch-wakayama-vacancy.ts"
   },
   "dependencies": {

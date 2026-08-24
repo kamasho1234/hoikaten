@@ -565,6 +565,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 56, "×": 211, "ー": 15 },
   },
+  // 苫小牧市は公式が絵文字。当サイトでは ○／△／✕ に置き換えている
+  tomakomai: {
+    asOf: "2026-08-01",
+    facilityCount: 50,
+    vacancy: 0,
+    symbolCounts: { "○": 67, "△": 58, "✕": 115 },
+  },
 };
 
 const problems: string[] = [];
