@@ -525,6 +525,12 @@ const EXPECTED: Record<
     facilityCount: 36,
     vacancy: 138,
   },
+  // 戸田市は認可保育施設と小規模保育等でPDFが分かれている（45＋13施設）
+  toda: {
+    asOf: "2026-08-01",
+    facilityCount: 58,
+    vacancy: 413,
+  },
 };
 
 const problems: string[] = [];
