@@ -613,6 +613,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "○": 344, "×": 218 },
   },
+  // 草加市は合計行がないので、欄の数（数2・斜線・空らん）で担保している
+  soka: {
+    asOf: "2026-07-27",
+    facilityCount: 74,
+    vacancy: 163,
+    emptyRatio: 20,
+  },
 };
 
 const problems: string[] = [];
