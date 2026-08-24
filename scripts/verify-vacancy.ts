@@ -518,6 +518,13 @@ const EXPECTED: Record<
     facilityCount: 47,
     vacancy: 102,
   },
+  // 和泉市の夜間保育園は年齢別に分かれていないので vacancyTotal で持つ。
+  // 138＝年齢別の137人＋夜間保育園の1人
+  izumi: {
+    asOf: "2026-07-31",
+    facilityCount: 36,
+    vacancy: 138,
+  },
 };
 
 const problems: string[] = [];

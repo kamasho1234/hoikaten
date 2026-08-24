@@ -127,6 +127,7 @@
     "vacancy:fetch:abiko": "tsx scripts/fetch-abiko-vacancy.ts",
     "vacancy:fetch:inazawa": "tsx scripts/fetch-inazawa-vacancy.ts",
     "vacancy:fetch:fukaya": "tsx scripts/fetch-fukaya-vacancy.ts",
+    "vacancy:fetch:izumi": "tsx scripts/fetch-izumi-vacancy.ts",
     "vacancy:fetch:wakayama": "tsx scripts/fetch-wakayama-vacancy.ts"
   },
   "dependencies": {
