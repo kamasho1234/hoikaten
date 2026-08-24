@@ -49,6 +49,8 @@ export function proxy(request: NextRequest) {
 
 export const config = {
   matcher: [
-    "/((?!_next/static|_next/image|favicon.ico|opengraph-image|robots.txt|sitemap.xml).*)",
+    // icon / apple-icon はサイト共通の画像。サブドメインでリライトすると
+    // /{city}/icon になって404になるので、ここで外しておく
+    "/((?!_next/static|_next/image|favicon.ico|icon|apple-icon|opengraph-image|robots.txt|sitemap.xml).*)",
   ],
 };
