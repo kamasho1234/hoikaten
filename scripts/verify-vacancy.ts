@@ -436,6 +436,12 @@ const EXPECTED: Record<
   },
   // 川西市は人数。公式の表は5歳→0歳の逆順なので読むときにひっくり返している
   kawanishi: { asOf: "2026-08-01", facilityCount: 41, vacancy: 66, emptyRatio: 0.8 },
+  kisarazu: {
+    asOf: "2026-08-01",
+    facilityCount: 32,
+    vacancy: 0,
+    symbolCounts: { "△": 4, "✕": 138 },
+  },
 };
 
 const problems: string[] = [];
