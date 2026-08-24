@@ -456,6 +456,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "〇": 189, "×": 255 },
   },
+  // 津市は種類ごとに表が分かれていて、種類名は表のすぐ上に書いてあるだけ
+  tsu: {
+    asOf: "2026-08-01",
+    facilityCount: 66,
+    vacancy: 0,
+    symbolCounts: { "〇": 102, "－": 278 },
+  },
 };
 
 const problems: string[] = [];
