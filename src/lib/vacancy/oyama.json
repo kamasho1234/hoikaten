@@ -1,0 +1,104 @@
+{
+  "municipalitySlug": "oyama",
+  "municipalityName": "小山市",
+  "asOf": "2026-07-29",
+  "fetchedAt": "2026-08-24",
+  "sourceName": "小山市「保育園（所）・認定こども園の空き状況」",
+  "sourceUrl": "https://www.city.oyama.tochigi.jp/kosodate-nicomaru/azukeru/page008962.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.oyama.tochigi.jp/data/doc/1785282317_doc_480_0.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "2026年9月入所向けの空き状況",
+  "notes": [
+    "小山市は空き状況を人数ではなく記号で公表しています。当サイトでも公式の記号のまま載せています。これは2026年9月入所向けのものです。",
+    "小山市はこの表に基準日を書いていないため、公式ページの更新日を時点として表示しています。",
+    "空き状況はあくまでも公表時点での目安であり、保育士配置や退所等により空き状況が変動することがあります。",
+    "「×」と表記されていても、審査時に変更となる場合がありますので、入所を希望する施設は全て記載してください。",
+    "年齢区分は入所年度の4月1日時点の年齢です。"
+  ],
+  "wards": [],
+  "categories": [
+    "公立保育所",
+    "私立保育園",
+    "認定こども園"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "〇",
+      "label": "４名以上の空き",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "１名以上の空き",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    },
+    {
+      "mark": "ー",
+      "label": "利用なし",
+      "open": false
+    },
+    {
+      "mark": "調整中",
+      "label": "公表時点で空き状況の確認が取れていないため分かり次第公表予定",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"やはた保育所","name":"やはた保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×","×","×","×"]},
+    {"id":"絹保育所","name":"絹保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","△","×","×","△"]},
+    {"id":"中久喜保育所","name":"中久喜保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","△","△","△"]},
+    {"id":"出井保育所","name":"出井保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","△"]},
+    {"id":"間々田中央保育所","name":"間々田中央保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"城北保育所","name":"城北保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","△","△"]},
+    {"id":"⼩⼭⻄保育園","name":"⼩⼭⻄保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","△","×","×","×"]},
+    {"id":"みどり丘保育園","name":"みどり丘保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","△"]},
+    {"id":"⼩⼭みなみ保育園","name":"⼩⼭みなみ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","×","×","×","×"]},
+    {"id":"⿊田保育園","name":"⿊田保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"つくし保育園","name":"つくし保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"こばと保育園","name":"こばと保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"すみれ保育園","name":"すみれ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","△","×","×"]},
+    {"id":"さくら保育園","name":"さくら保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"こぐま保育園","name":"こぐま保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"すみれチャイルド","name":"すみれチャイルド","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"栗の実保育園","name":"栗の実保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","ー","ー","ー"]},
+    {"id":"ひまわり保育園","name":"ひまわり保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","ー","ー","ー"]},
+    {"id":"にこにこ保育園","name":"にこにこ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","ー","ー","ー"]},
+    {"id":"木の実保育園","name":"木の実保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","×","×"]},
+    {"id":"こひつじ保育園","name":"こひつじ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"静林保育園","name":"静林保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","ー","ー","ー"]},
+    {"id":"こばとキッズ","name":"こばとキッズ","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","△","×","×","×"]},
+    {"id":"城⼭さくら保育園","name":"城⼭さくら保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"間々田保育園","name":"間々田保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","△","×","△","×"]},
+    {"id":"あけぼの保育園","name":"あけぼの保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"東城南とまと保育園","name":"東城南とまと保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△","×","×","×"]},
+    {"id":"城東にこにこ保育園","name":"城東にこにこ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"若木保育園","name":"若木保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×","×","×","×"]},
+    {"id":"駅東さくら保育園","name":"駅東さくら保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","ー","ー","ー"]},
+    {"id":"もみじ保育園","name":"もみじ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","×"]},
+    {"id":"認定とまとこども園","name":"認定とまとこども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△","△","×","×"]},
+    {"id":"認定おおやこども園","name":"認定おおやこども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","×"]},
+    {"id":"認定こども園⼩⼭幼稚園","name":"認定こども園⼩⼭幼稚園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"認定こども園生井ゆりかご幼稚園","name":"認定こども園生井ゆりかご幼稚園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△","△","△","×"]},
+    {"id":"認定こども園のぶしま幼稚園","name":"認定こども園のぶしま幼稚園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△","△","×","×"]},
+    {"id":"認定間々田こども園","name":"認定間々田こども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","×"]},
+    {"id":"認定こども園みのり幼稚園","name":"認定こども園みのり幼稚園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","△","×","×","×"]},
+    {"id":"認定こども園梅ヶ原幼稚園","name":"認定こども園梅ヶ原幼稚園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","×"]},
+    {"id":"認定こども園早蕨幼稚園","name":"認定こども園早蕨幼稚園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"認定こども園乙女幼稚園","name":"認定こども園乙女幼稚園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"認定こども園栗の実","name":"認定こども園栗の実","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"認定こども園静林幼稚園","name":"認定こども園静林幼稚園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"認定こども園せいほう幼稚園","name":"認定こども園せいほう幼稚園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","△","×","×","×"]},
+    {"id":"はねかわ太陽認定こども園","name":"はねかわ太陽認定こども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"認定こども園ひまわり幼稚園","name":"認定こども園ひまわり幼稚園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","△","×","×","×"]},
+    {"id":"認定こども園楠エンゼル幼稚園","name":"認定こども園楠エンゼル幼稚園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]}
+  ]
+}

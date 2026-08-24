@@ -558,6 +558,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "○": 23, "◒": 26, "●": 149 },
   },
+  // 小山市は基準日を書いていないので、公式ページの更新日を時点にしている
+  oyama: {
+    asOf: "2026-07-29",
+    facilityCount: 47,
+    vacancy: 0,
+    symbolCounts: { "△": 56, "×": 211, "ー": 15 },
+  },
 };
 
 const problems: string[] = [];
