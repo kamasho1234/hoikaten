@@ -25,10 +25,12 @@ const zenMaru = Zen_Maru_Gothic({
 /** Microsoft Clarity のプロジェクトID */
 const CLARITY_PROJECT_ID = "y57kgjghls";
 
+/** 対応している自治体の数。増えても書き換えなくていいよう実データから数える */
+const MUNICIPALITY_COUNT = getAllMunicipalities().length;
+
 export const metadata: Metadata = {
   title: "保育園 点数シミュレーター｜入園点数を無料で自動計算【hoikaten】",
-  description:
-    "保育園の入園点数を無料でシミュレーション（シュミレーション）。お住まいの地域を選んで5つの質問に答えるだけで、点数の目安と「有利か厳しいか」の評価がわかります。東京23区・政令指定都市など261自治体対応。",
+  description: `保育園の入園点数を無料でシミュレーション（シュミレーション）。お住まいの地域を選んで5つの質問に答えるだけで、点数の目安と「有利か厳しいか」の評価がわかります。東京23区・政令指定都市など${MUNICIPALITY_COUNT}自治体対応。`,
   metadataBase: new URL("https://hoikaten.com"),
   openGraph: {
     type: "website",

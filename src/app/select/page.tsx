@@ -3,10 +3,12 @@ import { getAllMunicipalities } from "@/lib/data";
 import { CitySearch } from "@/components/city-search";
 import { RandomAd } from "@/components/random-ad";
 
+/** 対応している自治体の数。増えても書き換えなくていいよう実データから数える */
+const MUNICIPALITY_COUNT = getAllMunicipalities().length;
+
 export const metadata: Metadata = {
   title: "地域を選択｜保育園 点数シミュレーター【hoikaten】",
-  description:
-    "お住まいの地域を選んで保育園の入園点数をシミュレーション。東京23区・政令指定都市など176自治体に対応。",
+  description: `お住まいの地域を選んで保育園の入園点数をシミュレーション。東京23区・政令指定都市など${MUNICIPALITY_COUNT}自治体に対応。`,
 };
 
 export default function SelectPage() {
