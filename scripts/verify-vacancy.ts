@@ -641,6 +641,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "×": 991, "△": 328, "○": 72, "◎": 13 },
   },
+  // 沖縄市は人数。そのクラスがない欄は斜線で、小規模が多いので「—」の割合が高い
+  okinawa: {
+    asOf: "2026-08-01",
+    facilityCount: 90,
+    vacancy: 179,
+    emptyRatio: 20,
+  },
 };
 
 const problems: string[] = [];
