@@ -463,6 +463,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "〇": 102, "－": 278 },
   },
+  // 青森市は空欄がなく、111施設×6歳児＝666の記号がすべて埋まっている
+  aomori: {
+    asOf: "2026-08-04",
+    facilityCount: 111,
+    vacancy: 0,
+    symbolCounts: { "◎": 9, "○": 45, "△": 267, "－": 345 },
+  },
 };
 
 const problems: string[] = [];

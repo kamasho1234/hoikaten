@@ -119,6 +119,7 @@
     "vacancy:fetch:anjo": "tsx scripts/fetch-anjo-vacancy.ts",
     "vacancy:fetch:kure": "tsx scripts/fetch-kure-vacancy.ts",
     "vacancy:fetch:tsu": "tsx scripts/fetch-tsu-vacancy.ts",
+    "vacancy:fetch:aomori": "tsx scripts/fetch-aomori-vacancy.ts",
     "vacancy:fetch:wakayama": "tsx scripts/fetch-wakayama-vacancy.ts"
   },
   "dependencies": {
