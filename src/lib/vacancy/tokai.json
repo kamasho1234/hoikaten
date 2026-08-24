@@ -1,0 +1,75 @@
+{
+  "municipalitySlug": "tokai",
+  "municipalityName": "東海市",
+  "asOf": "2026-07-21",
+  "fetchedAt": "2026-08-25",
+  "sourceName": "東海市「保育所等空き状況」",
+  "sourceUrl": "https://www.city.tokai.aichi.jp/kosodate/1002180/1010882/1010892/1010899.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.tokai.aichi.jp/_res/projects/default_project/_page_/001/010/899/akijoukyou.20260721.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "2026年9月からの入所ぶんの空き状況",
+  "notes": [
+    "東海市は空き状況を人数ではなく記号で公表しています。当サイトでも公式の記号のまま載せています。これは2026年9月からの入所ぶんで、2026-07-21時点のものです。",
+    "公式の表で「－（保育実施なし）」となっているらんは、当サイトでは「—」にしています。",
+    "すべての年齢が「保育実施なし」になっている施設があります（memorytree名和町）。公式の表のとおりに載せています。"
+  ],
+  "wards": [],
+  "categories": [
+    "公立保育園",
+    "私立保育所",
+    "認定こども園",
+    "小規模保育事業"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "空きあり",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"一番畑保育園","name":"一番畑保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,"×","○","×","○","×"]},
+    {"id":"名和保育園","name":"名和保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","○"]},
+    {"id":"名和東保育園","name":"名和東保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,null,null,"○"]},
+    {"id":"渡内保育園","name":"渡内保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","○","○","○","○"]},
+    {"id":"平洲保育園","name":"平洲保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,"×","×","×","○","○"]},
+    {"id":"木庭保育園","name":"木庭保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","○","○","○"]},
+    {"id":"みどり保育園","name":"みどり保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","○","○","○"]},
+    {"id":"明倫保育園","name":"明倫保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,"×","×","○","○","○"]},
+    {"id":"富木島保育園","name":"富木島保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","○","○"]},
+    {"id":"東山保育園","name":"東山保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","○","○","○","○"]},
+    {"id":"大田保育園","name":"大田保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","○","○"]},
+    {"id":"高横須賀保育園","name":"高横須賀保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,"×","○","×","○","×"]},
+    {"id":"横須賀保育園","name":"横須賀保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","○","○","○","○"]},
+    {"id":"養父保育園","name":"養父保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","○","×","○","○"]},
+    {"id":"加木屋保育園","name":"加木屋保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","○","○"]},
+    {"id":"三ツ池保育園","name":"三ツ池保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","○","○","○"]},
+    {"id":"大堀保育園","name":"大堀保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","○","○","○"]},
+    {"id":"加木屋南保育園","name":"加木屋南保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"○","○","○"]},
+    {"id":"エチュード上野台","name":"エチュード上野台","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"きだっこえん","name":"きだっこえん","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","○",null,null,null]},
+    {"id":"memorytree社山","name":"memorytree社山","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","○"]},
+    {"id":"葵名和幼稚園","name":"葵名和幼稚園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"明佳幼稚園","name":"明佳幼稚園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":[null,"×","×","×","×","×"]},
+    {"id":"memorytree名和北","name":"memorytree名和北","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","○",null,null,null]},
+    {"id":"memorytree太田川","name":"memorytree太田川","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"荒尾サンフレンズ","name":"荒尾サンフレンズ","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","○",null,null,null]},
+    {"id":"加木屋町サンフレンズ","name":"加木屋町サンフレンズ","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"memorytree名和町","name":"memorytree名和町","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,null,null,null]},
+    {"id":"memorytree伏見","name":"memorytree伏見","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","○",null,null,null]},
+    {"id":"はな保育室たかよこすか","name":"はな保育室たかよこすか","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"名和駅前サンフレンズ","name":"名和駅前サンフレンズ","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","○",null,null,null]},
+    {"id":"めいてつ保育ステーション大池公園ぽっぽ園","name":"めいてつ保育ステーション大池公園ぽっぽ園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","○",null,null,null]},
+    {"id":"はな保育室かぎや","name":"はな保育室かぎや","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"memorytree名和寺徳","name":"memorytree名和寺徳","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]}
+  ]
+}

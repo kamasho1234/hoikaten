@@ -662,6 +662,13 @@ const EXPECTED: Record<
     vacancy: 12,
     emptyRatio: 20,
   },
+  // 東海市の「－（保育実施なし）」は「—」にしているので、凡例には残さない
+  tokai: {
+    asOf: "2026-07-21",
+    facilityCount: 34,
+    vacancy: 0,
+    symbolCounts: { "○": 54, "×": 95 },
+  },
 };
 
 const problems: string[] = [];
