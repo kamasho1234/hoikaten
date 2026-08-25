@@ -1,0 +1,86 @@
+{
+  "municipalitySlug": "shunan",
+  "municipalityName": "周南市",
+  "asOf": "2026-08-24",
+  "fetchedAt": "2026-08-26",
+  "sourceName": "周南市「市内の保育所、認定こども園(保育所部分)、地域型保育施設の空き状況」",
+  "sourceUrl": "https://www.city.shunan.lg.jp/soshiki/30/104334.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.shunan.lg.jp/uploaded/attachment/122961.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "2026年10月1日入所の空き状況",
+  "notes": [
+    "周南市は空き状況を人数ではなく記号で公表しています。これは2026年10月1日入所のもので、2026-08-24時点のものです。",
+    "児童の入退所等により、変更となる場合があります。",
+    "0歳児で月齢の記載がない園は、首がすわってからの受け入れとなります。",
+    "第二・尚白保育園の再編整備に伴い、第二保育園は令和６年度末で廃止しました。",
+    "須々万保育園は令和８年度４月から須々万こども園になりました。",
+    "公式の表で空らんになっている年齢は「—」にしています。その年齢のクラスがないことを表しています。",
+    "0歳児の受け入れ月齢が示されている施設があります。徳山中央保育園: 6ヵ月～ / 蓮生・まこと幼稚園（認定こども園）: 10ヵ月～ / 愛光幼稚園（認定こども園）: 11ヵ月～ / ニチイキッズ毛利町保育園: 3ヵ月～ / こもれび保育園: 8ヵ月～ / 荘宮寺保育園: 8ヵ月～ / ふくがわこども園（認定こども園）: 6ヵ月～ / 南陽幼稚園保育部ちゅうりっぷ: 8ヵ月～ / あおば幼稚園（認定こども園）: 8ヵ月～"
+  ],
+  "wards": [
+    "徳山",
+    "新南陽",
+    "熊毛",
+    "鹿野"
+  ],
+  "categories": [
+    "私立",
+    "公立"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "×",
+      "label": "受入無し",
+      "open": false
+    },
+    {
+      "mark": "△",
+      "label": "若干名受入可能",
+      "open": true
+    },
+    {
+      "mark": "○",
+      "label": "3名以上受入可能",
+      "open": true
+    }
+  ],
+  "facilities": [
+    {"id":"徳山中央保育園","name":"徳山中央保育園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"遠石保育園","name":"遠石保育園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"和光保育園","name":"和光保育園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"アイグラン保育園新宿通","name":"アイグラン保育園新宿通","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","×"]},
+    {"id":"しゅうよう保育園","name":"しゅうよう保育園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"memorytree周南保育園","name":"memorytree周南保育園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"アイグラン保育園岐山通","name":"アイグラン保育園岐山通","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"共楽保育園（認定こども園）","name":"共楽保育園（認定こども園）","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"蓮生・まこと幼稚園（認定こども園）","name":"蓮生・まこと幼稚園（認定こども園）","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"愛光幼稚園（認定こども園）","name":"愛光幼稚園（認定こども園）","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"ニチイキッズ一番丁保育園","name":"ニチイキッズ一番丁保育園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"ニチイキッズ毛利町保育園","name":"ニチイキッズ毛利町保育園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"ヤクルト保育園プティット周南","name":"ヤクルト保育園プティット周南","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×",null,null,null]},
+    {"id":"保育園ひだまり","name":"保育園ひだまり","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"櫛浜保育園","name":"櫛浜保育園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"須々万こども園","name":"須々万こども園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","△","×","×"]},
+    {"id":"尚白保育園","name":"尚白保育園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"大内保育園","name":"大内保育園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"城ヶ丘保育園","name":"城ヶ丘保育園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"菊川保育園","name":"菊川保育園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"こもれび保育園","name":"こもれび保育園","w":1,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"荘宮寺保育園","name":"荘宮寺保育園","w":1,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"すみれ保育園","name":"すみれ保育園","w":1,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"わかやま保育園","name":"わかやま保育園","w":1,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"ふくがわこども園（認定こども園）","name":"ふくがわこども園（認定こども園）","w":1,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"南陽幼稚園保育部ちゅうりっぷ","name":"南陽幼稚園保育部ちゅうりっぷ","w":1,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"川崎保育園","name":"川崎保育園","w":1,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"富田南保育園","name":"富田南保育園","w":1,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"ひまわり保育園","name":"ひまわり保育園","w":2,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"あおば幼稚園（認定こども園）","name":"あおば幼稚園（認定こども園）","w":2,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","△","△","△","△"]},
+    {"id":"三丘保育園","name":"三丘保育園","w":2,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"勝間保育園","name":"勝間保育園","w":2,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"鹿野こども園（認定こども園）","name":"鹿野こども園（認定こども園）","w":3,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","△","△","△"]}
+  ]
+}

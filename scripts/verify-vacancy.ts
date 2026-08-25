@@ -690,6 +690,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 周南市は0歳児の欄に受け入れ月齢が併記される
+  shunan: {
+    asOf: "2026-08-24",
+    facilityCount: 33,
+    vacancy: 0,
+    symbolCounts: { "×": 169, "△": 14 },
+  },
   // 唐津市は同名のPDFが2つ並ぶ（1号認定用と2号3号認定用）。0歳の見出しで選ぶ
   karatsu: {
     asOf: "2026-09-01",
