@@ -25,6 +25,9 @@ const zenMaru = Zen_Maru_Gothic({
 /** Microsoft Clarity のプロジェクトID */
 const CLARITY_PROJECT_ID = "y57kgjghls";
 
+/** Google AdSense のパブリッシャーID */
+const ADSENSE_CLIENT_ID = "ca-pub-3132765100531855";
+
 /** 対応している自治体の数。増えても書き換えなくていいよう実データから数える */
 const MUNICIPALITY_COUNT = getAllMunicipalities().length;
 
@@ -53,6 +56,17 @@ export default function RootLayout({
       className={`${notoSansJP.variable} ${zenMaru.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-background text-foreground">
+        {/*
+          Google AdSense。審査でも配信でも、公式は head に script タグを置くことを求めている。
+          next/script の beforeInteractive では初期HTMLに preload しか出ず、
+          審査で見に来たときに script タグが無い。React の async script は
+          書いた場所に関わらず head に上がるので、そのまま書いている。
+        */}
+        <script
+          async
+          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT_ID}`}
+          crossOrigin="anonymous"
+        />
         {/*
           Microsoft Clarity（アクセス解析・ヒートマップ）。
           公式が配るスニペットは window.clarity のキューを先に作ってから
