@@ -690,6 +690,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 尾道市は入所月の1日時点の見込みを前の月に公開する（asOfが未来の日付になる）
+  onomichi: {
+    asOf: "2026-09-01",
+    facilityCount: 37,
+    vacancy: 0,
+    symbolCounts: { "×": 98, "△": 95, "○": 13 },
+  },
   // 福島市は年齢の欄が上下2段（上＝受入予定数の記号、下＝申込み人数）
   fukushima: {
     asOf: "2026-08-25",

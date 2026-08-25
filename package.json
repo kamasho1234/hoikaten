@@ -160,6 +160,7 @@
     "vacancy:fetch:tottori": "tsx scripts/fetch-tottori-vacancy.ts",
     "vacancy:fetch:narita": "tsx scripts/fetch-narita-vacancy.ts",
     "vacancy:fetch:fukushima": "tsx scripts/fetch-fukushima-vacancy.ts",
+    "vacancy:fetch:onomichi": "tsx scripts/fetch-onomichi-vacancy.ts",
     "vacancy:fetch:wakayama": "tsx scripts/fetch-wakayama-vacancy.ts"
   },
   "dependencies": {
