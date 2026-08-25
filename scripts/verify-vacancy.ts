@@ -684,6 +684,12 @@ const EXPECTED: Record<
     symbolCounts: { "○": 12, "△": 49, "✕": 161 },
   },
   // 岡山市は公開が毎月25日ごろ〜翌月1日ごろだけ。期間外は前のデータを残す
+  chikugo: {
+    asOf: "2026-08-20",
+    facilityCount: 22,
+    vacancy: 0,
+    symbolCounts: { "△": 23, "○": 10, "✕": 81 },
+  },
   okayama: {
     asOf: "2026-08-21",
     facilityCount: 206,

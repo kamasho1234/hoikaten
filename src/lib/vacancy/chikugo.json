@@ -1,0 +1,69 @@
+{
+  "municipalitySlug": "chikugo",
+  "municipalityName": "筑後市",
+  "asOf": "2026-08-20",
+  "fetchedAt": "2026-08-25",
+  "sourceName": "筑後市「保育所・認定こども園（保育部分）・小規模保育施設 空き状況」",
+  "sourceUrl": "https://www.city.chikugo.lg.jp/kosodate/_6015/_6022/_25938.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.chikugo.lg.jp/var/rev0/0058/5657/126818114547.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "9月入所の選考後の空き状況",
+  "notes": [
+    "筑後市は空き状況を人数ではなく記号で公表しています。これは2026-08-20に更新されたものです。",
+    "9月入所選考後の空き状況を更新します。",
+    "入所可能児童数は更新日時点での予定です。保育士等の職員の配置状況や入所決定者の転勤等による急な入",
+    "年齢は、令和8年4月1日時点の年齢です。年度途中で誕生日を過ぎてもクラスは変わりません。",
+    "公式の表では、空きがない欄は灰色に塗られ、受け入れのない欄は灰色の上に斜線が引かれています。当サイトでは前者を「✕」（空きなし）、後者を「—」にしています。"
+  ],
+  "wards": [],
+  "categories": [
+    "保育所",
+    "認定こども園",
+    "小規模保育施設"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "3人以上空きあり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1～2人空きあり",
+      "open": true
+    },
+    {
+      "mark": "✕",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"桜保育所","name":"桜保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","○","△","✕"]},
+    {"id":"筑後保育所","name":"筑後保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","△","✕"]},
+    {"id":"椋の実保育園","name":"椋の実保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△","△","✕","△"]},
+    {"id":"輝保育園","name":"輝保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
+    {"id":"古川保育園","name":"古川保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","○","○","△","✕","✕"]},
+    {"id":"あさひ保育園","name":"あさひ保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
+    {"id":"楠の実保育園","name":"楠の実保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","✕","△","✕","✕","✕"]},
+    {"id":"幸輪保育園","name":"幸輪保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
+    {"id":"羽犬塚ナーサリー","name":"羽犬塚ナーサリー","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","○","△"]},
+    {"id":"松原保育園","name":"松原保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","○","○","△","△"]},
+    {"id":"筑後二川保育園","name":"筑後二川保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","✕","✕","△","✕","✕"]},
+    {"id":"船小屋保育園","name":"船小屋保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","△","✕","✕","✕"]},
+    {"id":"水田幼児園","name":"水田幼児園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["✕","△","✕","△","○","○"]},
+    {"id":"和泉幼稚園（2・3号）","name":"和泉幼稚園（2・3号）","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
+    {"id":"筑後中央幼稚園（2・3号）","name":"筑後中央幼稚園（2・3号）","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
+    {"id":"九州大谷幼稚園（2・3号）","name":"九州大谷幼稚園（2・3号）","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
+    {"id":"どろんこ保育園","name":"どろんこ保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["✕","△","✕",null,null,null]},
+    {"id":"めだか保育園","name":"めだか保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","✕","✕",null,null,null]},
+    {"id":"筑後どんぐり保育園","name":"筑後どんぐり保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["✕","○","○",null,null,null]},
+    {"id":"はらっぱ保育園","name":"はらっぱ保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","✕","△",null,null,null]},
+    {"id":"長浜どんぐり保育園","name":"長浜どんぐり保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕",null,null,null]},
+    {"id":"ニチイキッズ長浜保育園","name":"ニチイキッズ長浜保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕",null,null,null]}
+  ]
+}
