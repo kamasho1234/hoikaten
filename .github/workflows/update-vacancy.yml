@@ -884,6 +884,11 @@ jobs:
         continue-on-error: true
         run: npm run vacancy:fetch:tsuchiura
 
+      - name: 久喜市を取り込む
+        id: kuki
+        continue-on-error: true
+        run: npm run vacancy:fetch:kuki
+
       # ここから下は失敗したらコミットしない（壊れたデータを公開しないため）
       - name: 型チェック
         run: npx tsc --noEmit
@@ -1066,6 +1071,7 @@ jobs:
               *higashihiroshima.json) MSG="$MSG 東広島市（$(node -p "require('./src/lib/vacancy/higashihiroshima.json').asOf")時点）" ;;
               *omura.json) MSG="$MSG 大村市（$(node -p "require('./src/lib/vacancy/omura.json').asOf")時点）" ;;
               *tsuchiura.json) MSG="$MSG 土浦市（$(node -p "require('./src/lib/vacancy/tsuchiura.json').asOf")時点）" ;;
+              *kuki.json) MSG="$MSG 久喜市（$(node -p "require('./src/lib/vacancy/kuki.json').asOf")時点）" ;;
             esac
           done
           git config user.name "github-actions[bot]"

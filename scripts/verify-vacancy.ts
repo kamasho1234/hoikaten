@@ -690,6 +690,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 久喜市は記号が5段階（◎10人以上／○6〜9／□3〜5／△1〜2／×空きなし）
+  kuki: {
+    asOf: "2026-07-27",
+    facilityCount: 43,
+    vacancy: 0,
+    symbolCounts: { "×": 183, "□": 6, "△": 14 },
+  },
   // 土浦市は企業主導型（市の入所調整の対象外）を除いた45施設
   tsuchiura: {
     asOf: "2026-08-18",
