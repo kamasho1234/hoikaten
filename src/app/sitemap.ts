@@ -3,6 +3,8 @@ import { getAllMunicipalities } from "@/lib/data";
 import { getAllArticles } from "@/lib/articles";
 import { prefectureMap } from "@/lib/prefecture";
 import { getVacancyData, getVacancySlugs } from "@/lib/vacancy";
+import { getAllDocuments } from "@/lib/documents";
+import "@/lib/documents/register-all";
 
 // 記事データの登録（sitemapはlayout.tsxとは別に実行されるため直接import）
 import "@/lib/articles/setagaya";
@@ -281,6 +283,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
+  // 子育て書類ガイド（保育園以外の手続きでも参照される）
+  const documentPages = getAllDocuments().map((g) => ({
+    url: `${baseUrl}/documents/${g.slug}`,
+    lastModified: new Date(g.updatedAt),
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
+  }));
+
   return [
     {
       url: baseUrl,
@@ -307,6 +317,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
     {
+      url: `${baseUrl}/documents`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    },
+    {
       url: `${baseUrl}/compare`,
       lastModified: new Date(),
       changeFrequency: "monthly" as const,
@@ -319,5 +335,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...articleListPages,
     ...articlePages,
     ...generalArticlePages,
+    ...documentPages,
   ];
 }
