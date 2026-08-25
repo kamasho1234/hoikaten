@@ -43,6 +43,10 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
   },
+  // AdSense の所有権確認用。head に <meta name="google-adsense-account"> が出る
+  other: {
+    "google-adsense-account": ADSENSE_CLIENT_ID,
+  },
 };
 
 export default function RootLayout({
