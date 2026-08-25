@@ -292,6 +292,8 @@ async function main() {
     const dataset = {
       municipalitySlug: MUNICIPALITY_SLUG,
       municipalityName: MUNICIPALITY_NAME,
+      // 唐津市は利用調整基準を公表しておらず点数の基準を持たないので、ここで都道府県を示す
+      prefecture: "佐賀県",
       asOf,
       fetchedAt: todayJst(),
       sourceName: SOURCE_NAME,

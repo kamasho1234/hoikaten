@@ -25,8 +25,9 @@ function collectRows(): VacancyListRow[] {
     if (!data) continue;
     const total = totalSummary(data);
     const symbolBased = isSymbolBased(data);
-    // 点数データ側にしか都道府県を持っていない
-    const prefecture = getMunicipalityData(slug)?.municipality.prefecture ?? "その他";
+    // 点数の基準がない自治体は、空き状況データ側の都道府県名を使う
+    const prefecture =
+      getMunicipalityData(slug)?.municipality.prefecture ?? data.prefecture ?? "その他";
     rows.push({
       slug,
       name: data.municipalityName,

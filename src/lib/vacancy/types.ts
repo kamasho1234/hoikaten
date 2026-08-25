@@ -76,6 +76,11 @@ export type VacancyFacility = {
 export type VacancyDataset = {
   municipalitySlug: string;
   municipalityName: string;
+  /**
+   * 都道府県名。点数の基準を持たない自治体（`src/lib/data` にない自治体）でも
+   * 一覧で都道府県ごとに並べられるように持つ。基準がある自治体では省く
+   */
+  prefecture?: string;
   /** 公式データの基準日 (YYYY-MM-DD) */
   asOf: string;
   /** 当サイトが取得した日 (YYYY-MM-DD) */
