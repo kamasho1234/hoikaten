@@ -1,0 +1,90 @@
+{
+  "municipalitySlug": "moriyama",
+  "municipalityName": "守山市",
+  "asOf": "2026-08-25",
+  "fetchedAt": "2026-08-26",
+  "sourceName": "守山市「認可保育施設等の空き状況」",
+  "sourceUrl": "https://www.city.moriyama.lg.jp/kosodatekyouiku/kodomoshisetsu/1002259/1002346.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.moriyama.lg.jp/_res/projects/default_project/_page_/001/002/346/akijoukyo20260825.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "認可保育施設等の空き状況",
+  "notes": [
+    "守山市は空き状況を人数ではなく記号で公表しています。これは2026-08-25時点のものです。",
+    "「○」「△」が表示されている施設でも園の体制や保育士の雇用状況等により、受入れができなくなる場合があります。",
+    "「×」となっている施設は、現時点で空きはありませんが、今後、在園児の退園等により空きが生じる場合があります。",
+    "「×」であっても、その施設を希望する場合は希望施設に記載してください。",
+    "入所の可否については入所調整を経て決定しますので、空きがある施設の申込を行うことで入所を保証するものではありません。",
+    "公式の表で空らんになっている年齢は「—」にしています。その年齢のクラスがないことを表しています。",
+    "0〜2歳が合同の施設は、公式の表でも欄がひとつにまとめられています。当サイトでは同じ記号を0歳・1歳・2歳に入れています。",
+    "受け入れを始める月齢は施設によって違います（生後57日目から、満6か月からなど）。公式のPDFの「入園対象年齢」の欄をご確認ください。"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "4名以上空きあり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1～3名程度空きあり",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    },
+    {
+      "mark": "▲",
+      "label": "保育士の雇用状況や園体制等により変動あり",
+      "open": true
+    }
+  ],
+  "facilities": [
+    {"id":"守山保育園","name":"守山保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","△"]},
+    {"id":"吉身保育園","name":"吉身保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"浮気保育園","name":"浮気保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"認定こども園守山幼稚園","name":"認定こども園守山幼稚園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"×","×","×"]},
+    {"id":"玉津こども園","name":"玉津こども園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"小津こども園","name":"小津こども園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","▲"]},
+    {"id":"中洲こども園","name":"中洲こども園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"よしみ乳児保育園","name":"よしみ乳児保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"ひなぎくこども園","name":"ひなぎくこども園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"はすねだこども園","name":"はすねだこども園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"カナリヤ保育園（分園を含む）","name":"カナリヤ保育園（分園を含む）","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"若鮎こども園","name":"若鮎こども園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"速野カナリヤこども園","name":"速野カナリヤこども園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","▲","▲","▲"]},
+    {"id":"もりの風こども園","name":"もりの風こども園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"カナリヤ第二保育園","name":"カナリヤ第二保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"ふるたか虹のはし保育園","name":"ふるたか虹のはし保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","△"]},
+    {"id":"滋賀短期大学附属すみれ保育園","name":"滋賀短期大学附属すみれ保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"洛和みずのさと保育園","name":"洛和みずのさと保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"認可保育園守山こども芸術大学","name":"認可保育園守山こども芸術大学","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"こすもす保育園","name":"こすもす保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","▲","×",null,null,null]},
+    {"id":"さくらっこ守山小規模保育園","name":"さくらっこ守山小規模保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"フェリーチェ荒見保育園","name":"フェリーチェ荒見保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"クララ保育園","name":"クララ保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","△",null,null,null]},
+    {"id":"ひだまり保育園守山園","name":"ひだまり保育園守山園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"みらいすこやか保育園","name":"みらいすこやか保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×",null,null,null]},
+    {"id":"もりやまナーサリー","name":"もりやまナーサリー","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"近江さくら保育園","name":"近江さくら保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["▲","▲","▲",null,null,null]},
+    {"id":"クララふたば保育園","name":"クララふたば保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×",null,null,null]},
+    {"id":"みらいほたる保育園","name":"みらいほたる保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"フェリーチェ古高保育園","name":"フェリーチェ古高保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"守山ひよっこ保育園","name":"守山ひよっこ保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×",null,null,null]},
+    {"id":"フェリーチェ今宿保育園","name":"フェリーチェ今宿保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×",null,null,null]},
+    {"id":"洛和なごみ保育園","name":"洛和なごみ保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"キッズこすもす","name":"キッズこすもす","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"すまいるるーむ","name":"すまいるるーむ","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△",null,null,null]},
+    {"id":"ぴっころ","name":"ぴっころ","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"はぐ・ＨＵＧ","name":"はぐ・ＨＵＧ","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"ななくさ","name":"ななくさ","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"保育所かりん","name":"保育所かりん","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]}
+  ]
+}

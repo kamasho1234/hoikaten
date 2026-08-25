@@ -690,6 +690,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 守山市は0〜2歳が合同の施設で欄が結合されている
+  moriyama: {
+    asOf: "2026-08-25",
+    facilityCount: 39,
+    vacancy: 0,
+    symbolCounts: { "×": 149, "▲": 8, "△": 11 },
+  },
   // 小松市は空らん（受入なし）と斜線（クラスなし）で意味が違う
   komatsu: {
     asOf: "2026-08-01",
