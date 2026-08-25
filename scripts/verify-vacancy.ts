@@ -690,6 +690,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 大村市はPDFに時点がないので、公式ページの更新日を時点にしている
+  omura: {
+    asOf: "2026-08-25",
+    facilityCount: 58,
+    vacancy: 0,
+    symbolCounts: { "×": 242, "△": 43, "○": 8 },
+  },
   // 東広島市は人数の幅を記号で示す（◎10人以上／〇5〜9人／△1〜4人／×空き無し）
   higashihiroshima: {
     asOf: "2026-08-06",
