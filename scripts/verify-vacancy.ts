@@ -690,6 +690,12 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 甲府市は入所申込の受付期間中（前の月の下旬）に募集人員を掲載する
+  kofu: {
+    asOf: "2026-08-25",
+    facilityCount: 65,
+    vacancy: 113,
+  },
   // 刈谷市は0〜2歳児クラスだけ公表している（3歳児以上は幼児園等が受け持つ）
   kariya: {
     asOf: "2026-09-01",

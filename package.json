@@ -163,6 +163,7 @@
     "vacancy:fetch:onomichi": "tsx scripts/fetch-onomichi-vacancy.ts",
     "vacancy:fetch:numazu": "tsx scripts/fetch-numazu-vacancy.ts",
     "vacancy:fetch:kariya": "tsx scripts/fetch-kariya-vacancy.ts",
+    "vacancy:fetch:kofu": "tsx scripts/fetch-kofu-vacancy.ts",
     "vacancy:fetch:wakayama": "tsx scripts/fetch-wakayama-vacancy.ts"
   },
   "dependencies": {
