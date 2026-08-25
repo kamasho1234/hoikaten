@@ -834,6 +834,11 @@ jobs:
         continue-on-error: true
         run: npm run vacancy:fetch:kofu
 
+      - name: 米子市を取り込む
+        id: yonago
+        continue-on-error: true
+        run: npm run vacancy:fetch:yonago
+
       # ここから下は失敗したらコミットしない（壊れたデータを公開しないため）
       - name: 型チェック
         run: npx tsc --noEmit
@@ -1006,6 +1011,7 @@ jobs:
               *numazu.json) MSG="$MSG 沼津市（$(node -p "require('./src/lib/vacancy/numazu.json').asOf")時点）" ;;
               *kariya.json) MSG="$MSG 刈谷市（$(node -p "require('./src/lib/vacancy/kariya.json').asOf")時点）" ;;
               *kofu.json) MSG="$MSG 甲府市（$(node -p "require('./src/lib/vacancy/kofu.json').asOf")時点）" ;;
+              *yonago.json) MSG="$MSG 米子市（$(node -p "require('./src/lib/vacancy/yonago.json').asOf")時点）" ;;
             esac
           done
           git config user.name "github-actions[bot]"

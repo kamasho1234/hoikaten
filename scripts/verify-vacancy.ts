@@ -690,6 +690,12 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 米子市は翌月1日からの入所可能数を前の月の下旬に公開する
+  yonago: {
+    asOf: "2026-08-25",
+    facilityCount: 59,
+    vacancy: 144,
+  },
   // 甲府市は入所申込の受付期間中（前の月の下旬）に募集人員を掲載する
   kofu: {
     asOf: "2026-08-25",
