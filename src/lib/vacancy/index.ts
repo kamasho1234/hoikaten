@@ -207,6 +207,7 @@ import tochigiVacancy from "./tochigi-city.json";
 import okayamaVacancy from "./okayama.json";
 import chikugoVacancy from "./chikugo.json";
 import nagoyaVacancy from "./nagoya.json";
+import ichiharaVacancy from "./ichihara.json";
 
 export type {
   AgeSummary,
@@ -409,6 +410,7 @@ const registry: Record<string, VacancyDataset> = {
   okayama: okayamaVacancy as unknown as VacancyDataset,
   chikugo: chikugoVacancy as unknown as VacancyDataset,
   nagoya: nagoyaVacancy as unknown as VacancyDataset,
+  ichihara: ichiharaVacancy as unknown as VacancyDataset,
 };
 
 export function getVacancyData(slug: string): VacancyDataset | undefined {
