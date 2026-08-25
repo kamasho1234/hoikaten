@@ -155,6 +155,7 @@
     "vacancy:fetch:chikugo": "tsx scripts/fetch-chikugo-vacancy.ts",
     "vacancy:fetch:nagoya": "tsx scripts/fetch-nagoya-vacancy.ts",
     "vacancy:fetch:ichihara": "tsx scripts/fetch-ichihara-vacancy.ts",
+    "vacancy:fetch:matsue": "tsx scripts/fetch-matsue-vacancy.ts",
     "vacancy:fetch:wakayama": "tsx scripts/fetch-wakayama-vacancy.ts"
   },
   "dependencies": {

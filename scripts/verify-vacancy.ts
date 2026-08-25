@@ -690,6 +690,12 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 松江市は橋北・橋南の2つのPDFをまとめている
+  matsue: {
+    asOf: "2026-08-25",
+    facilityCount: 84,
+    vacancy: 571,
+  },
   // 市原市はPDFに日付がないので、ファイルの更新日を時点にしている
   ichihara: {
     asOf: "2026-08-18",
