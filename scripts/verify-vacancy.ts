@@ -690,6 +690,12 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 中津市は通し番号と合計行があるので、連番と合計の両方を検算に使っている
+  nakatsu: {
+    asOf: "2026-08-24",
+    facilityCount: 35,
+    vacancy: 196,
+  },
   // 草津市は定員と在籍児童数の合計行があるので、それを検算に使っている
   kusatsu: {
     asOf: "2026-08-19",
