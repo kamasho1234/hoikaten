@@ -153,6 +153,7 @@
     "vacancy:fetch:tochigi": "tsx scripts/fetch-tochigi-vacancy.ts",
     "vacancy:fetch:okayama": "tsx scripts/fetch-okayama-vacancy.ts",
     "vacancy:fetch:chikugo": "tsx scripts/fetch-chikugo-vacancy.ts",
+    "vacancy:fetch:nagoya": "tsx scripts/fetch-nagoya-vacancy.ts",
     "vacancy:fetch:wakayama": "tsx scripts/fetch-wakayama-vacancy.ts"
   },
   "dependencies": {

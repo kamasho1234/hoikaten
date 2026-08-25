@@ -690,6 +690,12 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 名古屋市は各月1日時点の募集枠。翌月分が毎月上旬に公開される
+  nagoya: {
+    asOf: "2026-08-01",
+    facilityCount: 794,
+    vacancy: 2972,
+  },
   okayama: {
     asOf: "2026-08-21",
     facilityCount: 206,
