@@ -690,6 +690,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 亀岡市は合同学級の欄が結合されていて、同じ記号を広げて入れている
+  kameoka: {
+    asOf: "2026-08-03",
+    facilityCount: 23,
+    vacancy: 0,
+    symbolCounts: { "×": 86, "□": 11, "△": 15, "○": 9 },
+  },
   // 久喜市は記号が5段階（◎10人以上／○6〜9／□3〜5／△1〜2／×空きなし）
   kuki: {
     asOf: "2026-07-27",
