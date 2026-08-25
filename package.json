@@ -177,6 +177,7 @@
     "vacancy:fetch:kuki": "tsx scripts/fetch-kuki-vacancy.ts",
     "vacancy:fetch:kameoka": "tsx scripts/fetch-kameoka-vacancy.ts",
     "vacancy:fetch:shiroi": "tsx scripts/fetch-shiroi-vacancy.ts",
+    "vacancy:fetch:shiraoka": "tsx scripts/fetch-shiraoka-vacancy.ts",
     "vacancy:fetch:wakayama": "tsx scripts/fetch-wakayama-vacancy.ts"
   },
   "dependencies": {

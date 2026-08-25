@@ -690,6 +690,12 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 白岡市はPDFではなくページの中のHTMLの表から取っている
+  shiraoka: {
+    asOf: "2026-08-01",
+    facilityCount: 17,
+    vacancy: 58,
+  },
   // 白井市は在園児数・空き状況・保留者数の3つを公表している
   shiroi: {
     asOf: "2026-08-18",

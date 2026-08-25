@@ -1,0 +1,42 @@
+{
+  "municipalitySlug": "shiraoka",
+  "municipalityName": "白岡市",
+  "asOf": "2026-08-01",
+  "fetchedAt": "2026-08-26",
+  "sourceName": "白岡市「保育所の空き状況」",
+  "sourceUrl": "https://www.city.shiraoka.lg.jp/soshiki/kenkofukushibu/kodomohoikuka/2/2/935.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.shiraoka.lg.jp/soshiki/kenkofukushibu/kodomohoikuka/2/2/935.html"
+  },
+  "metrics": [
+    "vacancy"
+  ],
+  "subtitle": "市内認可保育所の空き状況",
+  "notes": [
+    "白岡市が公開しているのは2026-08-01時点の空き状況です。",
+    "急な退所等により空き状況が変わる場合もあります。",
+    "公式の表で空らんになっている年齢は「—」にしています。その年齢のクラスがないことを表しています。",
+    "公式の表では、空き人数のうしろの括弧の中に仮内定者の人数が書かれています（うぐす保育園新白岡の0歳児に仮内定者1人）。仮内定者より優先度が高い場合は内定となる可能性があります。当サイトでは括弧の外の空き人数だけを載せています。"
+  ],
+  "wards": [],
+  "categories": [],
+  "facilities": [
+    {"id":"西保育所","name":"西保育所","w":null,"c":null,"vacancy":[null,0,0,2,0,3]},
+    {"id":"千駄野保育所","name":"千駄野保育所","w":null,"c":null,"vacancy":[0,0,0,0,0,0]},
+    {"id":"高岩保育所","name":"高岩保育所","w":null,"c":null,"vacancy":[null,0,0,1,2,2]},
+    {"id":"興善寺保育園","name":"興善寺保育園","w":null,"c":null,"vacancy":[null,0,0,null,null,null]},
+    {"id":"しらおか虹保育園","name":"しらおか虹保育園","w":null,"c":null,"vacancy":[0,0,0,0,1,0]},
+    {"id":"ピノ保育園白岡","name":"ピノ保育園白岡","w":null,"c":null,"vacancy":[0,0,0,0,0,0]},
+    {"id":"はっぴー白岡園","name":"はっぴー白岡園","w":null,"c":null,"vacancy":[0,0,0,1,0,1]},
+    {"id":"うぐす保育園新白岡","name":"うぐす保育園新白岡","w":null,"c":null,"vacancy":[1,0,0,0,0,1]},
+    {"id":"白岡みちのこ保育園","name":"白岡みちのこ保育園","w":null,"c":null,"vacancy":[0,0,0,0,0,3]},
+    {"id":"白岡天使幼稚園","name":"白岡天使幼稚園","w":null,"c":null,"vacancy":[null,null,null,3,0,17]},
+    {"id":"菁莪幼稚園","name":"菁莪幼稚園","w":null,"c":null,"vacancy":[null,null,null,9,9,2]},
+    {"id":"フレンドキッズランド新白岡西口園","name":"フレンドキッズランド新白岡西口園","w":null,"c":null,"vacancy":[0,0,0,null,null,null]},
+    {"id":"フレンドキッズランド新白岡東口園","name":"フレンドキッズランド新白岡東口園","w":null,"c":null,"vacancy":[0,0,0,null,null,null]},
+    {"id":"白岡めばえ保育園","name":"白岡めばえ保育園","w":null,"c":null,"vacancy":[0,0,0,null,null,null]},
+    {"id":"はっぴー白岡東口園","name":"はっぴー白岡東口園","w":null,"c":null,"vacancy":[0,0,0,null,null,null]},
+    {"id":"太陽さんさん白岡園","name":"太陽さんさん白岡園","w":null,"c":null,"vacancy":[0,0,0,null,null,null]},
+    {"id":"希望の杜保育園","name":"希望の杜保育園","w":null,"c":null,"vacancy":[0,0,0,null,null,null]}
+  ]
+}
