@@ -690,6 +690,12 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 山形市は家庭的保育事業（保育ママ）だけ0〜2歳がひとまとめ（vacancyTotal）
+  yamagata: {
+    asOf: "2026-08-18",
+    facilityCount: 94,
+    vacancy: 280,
+  },
   // 松江市は橋北・橋南の2つのPDFをまとめている
   matsue: {
     asOf: "2026-08-25",
