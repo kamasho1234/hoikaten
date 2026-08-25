@@ -849,6 +849,11 @@ jobs:
         continue-on-error: true
         run: npm run vacancy:fetch:miyakonojo
 
+      - name: 唐津市を取り込む
+        id: karatsu
+        continue-on-error: true
+        run: npm run vacancy:fetch:karatsu
+
       # ここから下は失敗したらコミットしない（壊れたデータを公開しないため）
       - name: 型チェック
         run: npx tsc --noEmit
@@ -1024,6 +1029,7 @@ jobs:
               *yonago.json) MSG="$MSG 米子市（$(node -p "require('./src/lib/vacancy/yonago.json').asOf")時点）" ;;
               *izumo.json) MSG="$MSG 出雲市（$(node -p "require('./src/lib/vacancy/izumo.json').asOf")時点）" ;;
               *miyakonojo.json) MSG="$MSG 都城市（$(node -p "require('./src/lib/vacancy/miyakonojo.json').asOf")時点）" ;;
+              *karatsu.json) MSG="$MSG 唐津市（$(node -p "require('./src/lib/vacancy/karatsu.json').asOf")時点）" ;;
             esac
           done
           git config user.name "github-actions[bot]"

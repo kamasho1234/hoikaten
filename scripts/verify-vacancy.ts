@@ -690,6 +690,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 唐津市は同名のPDFが2つ並ぶ（1号認定用と2号3号認定用）。0歳の見出しで選ぶ
+  karatsu: {
+    asOf: "2026-09-01",
+    facilityCount: 55,
+    vacancy: 0,
+    symbolCounts: { "×": 139, "○": 180 },
+  },
   // 都城市は凡例がPDFになくページ本文にある。「－」空きなしと「×」受入不可が別
   miyakonojo: {
     asOf: "2026-08-20",
