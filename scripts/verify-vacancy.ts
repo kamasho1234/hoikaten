@@ -690,6 +690,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 都城市は凡例がPDFになくページ本文にある。「－」空きなしと「×」受入不可が別
+  miyakonojo: {
+    asOf: "2026-08-20",
+    facilityCount: 86,
+    vacancy: 0,
+    symbolCounts: { "△": 106, "○": 14, "－": 367 },
+  },
   // 出雲市は記号と入所未決定者の両方を公表している
   izumo: {
     asOf: "2026-08-07",
