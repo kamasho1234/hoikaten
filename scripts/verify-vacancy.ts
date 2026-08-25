@@ -690,6 +690,12 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 土浦市は企業主導型（市の入所調整の対象外）を除いた45施設
+  tsuchiura: {
+    asOf: "2026-08-18",
+    facilityCount: 45,
+    vacancy: 53,
+  },
   // 大村市はPDFに時点がないので、公式ページの更新日を時点にしている
   omura: {
     asOf: "2026-08-25",

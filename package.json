@@ -173,6 +173,7 @@
     "vacancy:fetch:nobeoka": "tsx scripts/fetch-nobeoka-vacancy.ts",
     "vacancy:fetch:higashihiroshima": "tsx scripts/fetch-higashihiroshima-vacancy.ts",
     "vacancy:fetch:omura": "tsx scripts/fetch-omura-vacancy.ts",
+    "vacancy:fetch:tsuchiura": "tsx scripts/fetch-tsuchiura-vacancy.ts",
     "vacancy:fetch:wakayama": "tsx scripts/fetch-wakayama-vacancy.ts"
   },
   "dependencies": {
