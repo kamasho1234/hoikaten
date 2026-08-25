@@ -170,6 +170,7 @@
     "vacancy:fetch:karatsu": "tsx scripts/fetch-karatsu-vacancy.ts",
     "vacancy:fetch:shunan": "tsx scripts/fetch-shunan-vacancy.ts",
     "vacancy:fetch:isahaya": "tsx scripts/fetch-isahaya-vacancy.ts",
+    "vacancy:fetch:nobeoka": "tsx scripts/fetch-nobeoka-vacancy.ts",
     "vacancy:fetch:wakayama": "tsx scripts/fetch-wakayama-vacancy.ts"
   },
   "dependencies": {

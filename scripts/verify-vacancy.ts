@@ -690,6 +690,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 延岡市は都城市と同じ様式だが記号の意味が違う（×＝空きなし、―＝クラス設定なし）
+  nobeoka: {
+    asOf: "2026-08-01",
+    facilityCount: 50,
+    vacancy: 0,
+    symbolCounts: { "×": 164, "△": 86, "○": 34 },
+  },
   // 諫早市は空欄が「受け入れ可能」。当サイトでは○に置き換えている
   isahaya: {
     asOf: "2026-08-01",
