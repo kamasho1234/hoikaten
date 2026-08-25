@@ -158,6 +158,7 @@
     "vacancy:fetch:matsue": "tsx scripts/fetch-matsue-vacancy.ts",
     "vacancy:fetch:yamagata": "tsx scripts/fetch-yamagata-vacancy.ts",
     "vacancy:fetch:tottori": "tsx scripts/fetch-tottori-vacancy.ts",
+    "vacancy:fetch:narita": "tsx scripts/fetch-narita-vacancy.ts",
     "vacancy:fetch:wakayama": "tsx scripts/fetch-wakayama-vacancy.ts"
   },
   "dependencies": {

@@ -1,0 +1,111 @@
+{
+  "municipalitySlug": "narita",
+  "municipalityName": "成田市",
+  "asOf": "2026-08-17",
+  "fetchedAt": "2026-08-25",
+  "sourceName": "成田市「入所受入れ状況」",
+  "sourceUrl": "https://www.city.narita.chiba.jp/kosodate/page142300.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.narita.chiba.jp/content/000207522.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "2026年10月入所の受入れ状況",
+  "notes": [
+    "成田市は空き状況を人数ではなく記号で公表しています。これは2026年10月入所の受入れ状況で、2026-08-17時点のものです。",
+    "成田市内の認可保育所等の年齢別受入状況です。入退園の状況等により状況が変動する場合があります。",
+    "（本園・分園） 遠山",
+    "キートスチャイルドケア美郷台の0歳児クラスは分園、1歳児クラスは本園または分園、2～5歳児クラスは本園で保育します。",
+    "公式の表で空らんになっている年齢は「—」にしています。その年齢のクラスがないことを表しています。",
+    "公立の小規模保育事業所は3〜5歳児がひとつの欄にまとめて公表されているため、当サイトでは3歳・4歳・5歳に同じ記号を入れています。",
+    "次の園は全ての年齢が「—」になっています: 赤荻（施設建て替え工事のため令和8年度の保育を実施しません）",
+    "表の年齢は令和8年4月1日時点での年齢です。"
+  ],
+  "wards": [
+    "中郷",
+    "豊住",
+    "ＮＴ",
+    "下総",
+    "大栄",
+    "成田",
+    "公津",
+    "NT",
+    "久住",
+    "遠山",
+    "八生"
+  ],
+  "categories": [
+    "公立・保育所",
+    "私立・認定こども園",
+    "私立・小規模保育事業所",
+    "公立・小規模保育事業所",
+    "私立・保育所",
+    "事業所内保育事業所",
+    "家庭的保育事業所"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "3名以上可能",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1～２名程度可能",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "現状受入れ予定はないが、状況によっては可能な場合あり",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"赤荻","name":"赤荻","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,null,null,null]},
+    {"id":"長沼","name":"長沼","w":1,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,"△","×","△","○","×"]},
+    {"id":"中台第二","name":"中台第二","w":2,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","×"]},
+    {"id":"橋賀台","name":"橋賀台","w":2,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"中台","name":"中台","w":2,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"吾妻","name":"吾妻","w":2,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"新山","name":"新山","w":2,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","△"]},
+    {"id":"玉造","name":"玉造","w":2,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"赤坂","name":"赤坂","w":2,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"高岡","name":"高岡","w":3,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","○","○","○"]},
+    {"id":"小御門","name":"小御門","w":3,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","△","△"]},
+    {"id":"大栄","name":"大栄","w":4,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","×"]},
+    {"id":"めぶきこども園成田","name":"めぶきこども園成田","w":5,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"成田国際こども園","name":"成田国際こども園","w":6,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","△"]},
+    {"id":"ハレルヤこども園","name":"ハレルヤこども園","w":6,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"はくと幼稚園","name":"はくと幼稚園","w":7,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"×","△","△"]},
+    {"id":"玉造幼稚園","name":"玉造幼稚園","w":7,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"キッズルームひまわり","name":"キッズルームひまわり","w":5,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"ひまわり保育園","name":"ひまわり保育園","w":5,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"ことり保育園スカイタウン園","name":"ことり保育園スカイタウン園","w":5,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","○",null,null,null]},
+    {"id":"わくわく保育園成田園","name":"わくわく保育園成田園","w":5,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","×","×","×","×"]},
+    {"id":"ハレルヤ保育園","name":"ハレルヤ保育園","w":6,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"こひつじくらぶ","name":"こひつじくらぶ","w":6,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×",null,null,null]},
+    {"id":"わくわく保育園並木町園","name":"わくわく保育園並木町園","w":6,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"ことり保育園公津の杜園","name":"ことり保育園公津の杜園","w":6,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","○","×",null,null,null]},
+    {"id":"キートスベビーケア公津の杜","name":"キートスベビーケア公津の杜","w":6,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"わくわく保育園久住園","name":"わくわく保育園久住園","w":8,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×",null,null,null]},
+    {"id":"第一森の保育所","name":"第一森の保育所","w":9,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","×",null,null,null]},
+    {"id":"第二森の保育所","name":"第二森の保育所","w":9,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△",null,null,null]},
+    {"id":"松崎","name":"松崎","w":10,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","△","×","×","×"]},
+    {"id":"成田","name":"成田","w":5,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"つのぶえ","name":"つのぶえ","w":5,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"キートスチャイルドケア美郷台※（本園・分園）","name":"キートスチャイルドケア美郷台※（本園・分園）","w":5,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","○"]},
+    {"id":"宗吾","name":"宗吾","w":6,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","○","×","△","×"]},
+    {"id":"公津の杜","name":"公津の杜","w":6,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"キートスチャイルドケア公津の杜","name":"キートスチャイルドケア公津の杜","w":6,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","△","×"]},
+    {"id":"AIAINURSERY久住","name":"AIAINURSERY久住","w":8,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×","×","×","×"]},
+    {"id":"三里塚第一","name":"三里塚第一","w":9,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×","○","×","○"]},
+    {"id":"三里塚第二","name":"三里塚第二","w":9,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×","△","×","○"]},
+    {"id":"三里塚みらい","name":"三里塚みらい","w":9,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"AIAINURSERY本三里塚","name":"AIAINURSERY本三里塚","w":9,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"AIAINURSERY西三里塚","name":"AIAINURSERY西三里塚","w":9,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"月かげ","name":"月かげ","w":3,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△","△","○","△"]},
+    {"id":"なかよし保育園(地域枠)","name":"なかよし保育園(地域枠)","w":10,"c":5,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","×",null,null,null]},
+    {"id":"家庭的保育園にこ","name":"家庭的保育園にこ","w":10,"c":6,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]}
+  ]
+}

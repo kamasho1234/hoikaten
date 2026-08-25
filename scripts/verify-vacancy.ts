@@ -690,6 +690,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 成田市は公立の小規模保育だけ3〜5歳がひとつの欄。同じ記号を3つに広げている
+  narita: {
+    asOf: "2026-08-17",
+    facilityCount: 45,
+    vacancy: 0,
+    symbolCounts: { "×": 170, "△": 39, "○": 12 },
+  },
   // 鳥取市は空きをセルの色で公表している（黄色＝受入れ可能／グレー＝難しい）
   tottori: {
     asOf: "2026-08-01",
