@@ -29,7 +29,10 @@ export function getDocumentsByGroup(): { group: DocumentGroup; guides: DocumentG
     "所得・課税の証明",
     "住民票・戸籍",
     "マイナンバー",
-    "母子保健・手当",
+    "入園・就学の手続き",
+    "手当・医療費",
+    "障害・療育",
+    "母子保健",
   ];
   return order
     .map((group) => ({
@@ -48,7 +51,10 @@ export const GROUP_COLOR: Record<DocumentGroup, "green" | "blue" | "amber" | "ro
   "所得・課税の証明": "amber",
   "住民票・戸籍": "green",
   マイナンバー: "purple",
-  "母子保健・手当": "rose",
+  "入園・就学の手続き": "teal",
+  "手当・医療費": "amber",
+  "障害・療育": "purple",
+  母子保健: "rose",
 };
 
 export type { DocumentGuide, DocumentGroup, DocumentSource, DocumentFaq } from "./types";

@@ -4,3 +4,5 @@ import "./kazei-shoumeisho";
 import "./juuminhyou";
 import "./mynumber";
 import "./boshi-teate";
+import "./nyuen-shugaku";
+import "./teate-iryou";
