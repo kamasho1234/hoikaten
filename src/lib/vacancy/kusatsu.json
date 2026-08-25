@@ -1,0 +1,131 @@
+{
+  "municipalitySlug": "kusatsu",
+  "municipalityName": "草津市",
+  "asOf": "2026-08-19",
+  "fetchedAt": "2026-08-26",
+  "sourceName": "草津市「認可保育施設の空き状況」",
+  "sourceUrl": "https://www.city.kusatsu.shiga.jp/kosodate/hoikukyoiku/hoikuen/yoji4-2.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.kusatsu.shiga.jp/kosodate/hoikukyoiku/hoikuen/yoji4-2.files/R8.9akijyoukyou.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "9月入所調整後の空き状況",
+  "notes": [
+    "草津市は空き状況を人数ではなく記号で公表しています。これは9月入所の調整が終わったあとのもので、2026-08-19時点のものです。",
+    "現時点の空き状況ですので、年度途中の入退所・職員の配置状況等により空き状況は変動します。希望者多数の場合、入所調整の結果空きがあっても入所していただけないことがあります。",
+    "保育実施時間・保育開始日・ならし保育期間等は、施設により異なります。申込前に必ず確認いただくようお願いします。",
+    "市内の低年齢児（0~2歳児）までの認可保育施設の卒園児は、３歳児進級における新規申込時について、選考基準に基づき優先的な入所調整を行います",
+    "公式の表で空らんになっている年齢は「—」にしています。その年齢のクラスがないことを表しています。",
+    "公式の表には進級先が書かれている施設があります（若草くるみこども園【分園】の3歳児以降は緑波くるみこども園、家庭的保育の家「ここみ」の3歳児以降はあさひこども園、家庭的保育の家「メリー」の3歳児以降は第三保育所、家庭的保育の家「もものみ」の3歳児以降はたちばな大路こども園、草津コペル保育園）。",
+    "受入年齢は施設によって違います（0歳2ヶ月以上、3歳児以上など）。公式のPDFの「受入年齢」の欄をご確認ください。"
+  ],
+  "wards": [],
+  "categories": [
+    "公立―保育所",
+    "公立―こども園",
+    "私立―保育園",
+    "私立―こども園",
+    "私立―小規模",
+    "家庭的"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "◎",
+      "label": "10名以上",
+      "open": true
+    },
+    {
+      "mark": "○",
+      "label": "3～9名程度",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1～2名程度",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "募集なし",
+      "open": false
+    },
+    {
+      "mark": "□",
+      "label": "保育士の雇用状況等により変動有り",
+      "open": true
+    }
+  ],
+  "facilities": [
+    {"id":"草津第二保育所","name":"草津第二保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["□","×","×","×","×","△"]},
+    {"id":"第三保育所","name":"第三保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["□","×","△","×","△","△"]},
+    {"id":"第四保育所","name":"第四保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"草津中央おひさまこども園","name":"草津中央おひさまこども園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["□","×","×","×","×","×"]},
+    {"id":"矢橋ふたばこども園","name":"矢橋ふたばこども園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["□","×","×","×","△","×"]},
+    {"id":"笠縫東こども園","name":"笠縫東こども園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"×","□","○"]},
+    {"id":"志津こども園","name":"志津こども園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"△","△","○"]},
+    {"id":"山田こども園","name":"山田こども園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"△","○","○"]},
+    {"id":"常盤こども園","name":"常盤こども園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"○","○","○"]},
+    {"id":"老上こども園","name":"老上こども園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"×","×","△"]},
+    {"id":"玉川こども園","name":"玉川こども園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"×","○","○"]},
+    {"id":"笠縫こども園","name":"笠縫こども園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"□","◎","□"]},
+    {"id":"矢倉こども園","name":"矢倉こども園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"×","○","○"]},
+    {"id":"草津保育園","name":"草津保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["□","□","×","○","×","△"]},
+    {"id":"PureKidsみのり保育園","name":"PureKidsみのり保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["○","×","×",null,null,null]},
+    {"id":"琵琶湖くじら保育園","name":"琵琶湖くじら保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","×","×"]},
+    {"id":"第二博愛保育園","name":"第二博愛保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["□","×","×","△","△","○"]},
+    {"id":"レイモンド東矢倉保育園","name":"レイモンド東矢倉保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","○","×"]},
+    {"id":"あおじ保育園","name":"あおじ保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["□","□","×","×","×","△"]},
+    {"id":"草津コペル保育園","name":"草津コペル保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["□","□","□","△","×","×"]},
+    {"id":"草津くじら保育園","name":"草津くじら保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["□","×","×","×","△","×"]},
+    {"id":"かがやきくじら保育園","name":"かがやきくじら保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","△","×","×","×"]},
+    {"id":"光泉カトリック保育園","name":"光泉カトリック保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"たちばな大路こども園","name":"たちばな大路こども園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"さくらがおかこども園","name":"さくらがおかこども園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":[null,"×","×","△","×","△"]},
+    {"id":"あさひこども園","name":"あさひこども園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["□","×","×","×","△","×"]},
+    {"id":"みのり保育園","name":"みのり保育園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["□","×","×","×","×","×"]},
+    {"id":"志津保育園","name":"志津保育園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"すぎのここども園","name":"すぎのここども園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","□"]},
+    {"id":"あゆみこども園","name":"あゆみこども園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["□","×","×","×","×","×"]},
+    {"id":"認定こども園草津大谷保育園","name":"認定こども園草津大谷保育園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["□","×","×","×","×","×"]},
+    {"id":"くるみこども園","name":"くるみこども園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","△"]},
+    {"id":"緑波くるみこども園【本園】","name":"緑波くるみこども園【本園】","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","○","×","△","△"]},
+    {"id":"さくら坂こども園","name":"さくら坂こども園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["□","×","×","×","×","×"]},
+    {"id":"くさつ優愛保育園モンチ","name":"くさつ優愛保育園モンチ","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"さくら坂南こども園","name":"さくら坂南こども園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["□","×","×","×","×","×"]},
+    {"id":"若草くるみこども園【分園】","name":"若草くるみこども園【分園】","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","△",null,null,null]},
+    {"id":"渋川あゆみこども園","name":"渋川あゆみこども園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":[null,"×","×","×","×","×"]},
+    {"id":"さくら坂東こども園","name":"さくら坂東こども園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["□","×","×","×","×","△"]},
+    {"id":"ののみちこども園","name":"ののみちこども園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["□","×","×","×","×","×"]},
+    {"id":"ＴＡＭランド野路こども園","name":"ＴＡＭランド野路こども園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","○"]},
+    {"id":"認定こども園草津カトリック幼稚園","name":"認定こども園草津カトリック幼稚園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,"○","△","×","△"]},
+    {"id":"くじら小規模保育園","name":"くじら小規模保育園","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["○","×","○",null,null,null]},
+    {"id":"京進のほいくえんHOPPA草津若竹園","name":"京進のほいくえんHOPPA草津若竹園","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["□","△","×",null,null,null]},
+    {"id":"京進のほいくえんHOPPA草津大路園","name":"京進のほいくえんHOPPA草津大路園","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×",null,null,null]},
+    {"id":"京進のほいくえんHOPPA草津野村園","name":"京進のほいくえんHOPPA草津野村園","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"京進のほいくえんHOPPA南草津駅前園","name":"京進のほいくえんHOPPA南草津駅前園","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"豆の木保育園","name":"豆の木保育園","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×",null,null,null]},
+    {"id":"れもんのこ南草津保育園","name":"れもんのこ南草津保育園","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△",null,null,null]},
+    {"id":"あおば南草津保育園","name":"あおば南草津保育園","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["×","□","□",null,null,null]},
+    {"id":"れもんのこ草津保育園","name":"れもんのこ草津保育園","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"第二あおば南草津保育園","name":"第二あおば南草津保育園","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","□",null,null,null]},
+    {"id":"ＴＡＭランド草津園","name":"ＴＡＭランド草津園","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"れもんのこ老上保育園","name":"れもんのこ老上保育園","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"みらいのむら保育園","name":"みらいのむら保育園","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["△","□","□",null,null,null]},
+    {"id":"かがやきナーサリー","name":"かがやきナーサリー","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","△",null,null,null]},
+    {"id":"第三あおば草津保育園","name":"第三あおば草津保育園","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["×","□","□",null,null,null]},
+    {"id":"渋川ナーサリー","name":"渋川ナーサリー","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×",null,null,null]},
+    {"id":"西渋川たっち小規模保育園","name":"西渋川たっち小規模保育園","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"さくら坂小規模保育園","name":"さくら坂小規模保育園","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"豆の木保育園アトラスタワー","name":"豆の木保育園アトラスタワー","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×",null,null,null]},
+    {"id":"玉川たっち小規模保育園","name":"玉川たっち小規模保育園","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","△",null,null,null]},
+    {"id":"ののみち小規模保育園","name":"ののみち小規模保育園","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"こっとん保育園草津","name":"こっとん保育園草津","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","△",null,null,null]},
+    {"id":"スクルドエンジェル保育園くさつ園","name":"スクルドエンジェル保育園くさつ園","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","△",null,null,null]},
+    {"id":"家庭的保育の家「つぼみ」","name":"家庭的保育の家「つぼみ」","w":null,"c":5,"vacancy":[null,null,null,null,null,null],"symbols":["○",null,null,null,null,null]},
+    {"id":"家庭的保育の家「ここみ」","name":"家庭的保育の家「ここみ」","w":null,"c":5,"vacancy":[null,null,null,null,null,null],"symbols":["×",null,null,null,null,null]},
+    {"id":"家庭的保育の家「メリー」","name":"家庭的保育の家「メリー」","w":null,"c":5,"vacancy":[null,null,null,null,null,null],"symbols":["×",null,null,null,null,null]},
+    {"id":"家庭的保育の家「もものみ」","name":"家庭的保育の家「もものみ」","w":null,"c":5,"vacancy":[null,null,null,null,null,null],"symbols":["△",null,null,null,null,null]}
+  ]
+}

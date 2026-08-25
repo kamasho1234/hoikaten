@@ -690,6 +690,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 草津市は定員と在籍児童数の合計行があるので、それを検算に使っている
+  kusatsu: {
+    asOf: "2026-08-19",
+    facilityCount: 69,
+    vacancy: 0,
+    symbolCounts: { "×": 188, "□": 33, "△": 48, "○": 21, "◎": 1 },
+  },
   // 白岡市はPDFではなくページの中のHTMLの表から取っている
   shiraoka: {
     asOf: "2026-08-01",
