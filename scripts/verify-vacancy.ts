@@ -690,6 +690,12 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 白井市は在園児数・空き状況・保留者数の3つを公表している
+  shiroi: {
+    asOf: "2026-08-18",
+    facilityCount: 13,
+    vacancy: 29,
+  },
   // 亀岡市は合同学級の欄が結合されていて、同じ記号を広げて入れている
   kameoka: {
     asOf: "2026-08-03",

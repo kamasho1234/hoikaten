@@ -1,0 +1,44 @@
+{
+  "municipalitySlug": "shiroi",
+  "municipalityName": "白井市",
+  "asOf": "2026-08-18",
+  "fetchedAt": "2026-08-26",
+  "sourceName": "白井市「保育所等空き状況」",
+  "sourceUrl": "https://www.city.shiroi.chiba.jp/soshiki/kenko/hoikuka/jik028/jik032/1568677414193.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.shiroi.chiba.jp/material/files/group/15/kugatuzidoutyousahyouni.pdf"
+  },
+  "metrics": [
+    "vacancy",
+    "waiting",
+    "enrolled"
+  ],
+  "subtitle": "2026年度10月入所希望者向けの空き状況",
+  "waitingCaveat": "保留者数は第一希望の園で数えたものです。第二希望以降でその園を希望して保留になっている人は入っていないので、園ごとの競争率としては読めません。",
+  "notes": [
+    "白井市が公開しているのは2026年度10月入所希望者向けの参考資料で、2026-08-18時点のものです。在園児数・空き状況・保留者数の3つが載っています。",
+    "空きがあっても、利用申込みの状況等により入所できない場合があります。",
+    "園における児童の状況や保育士の配置状況等により、空き状況が変わる場合があります。",
+    "令和８年９月入所調整会議の利用保留（待機・空待・転園・管外）児童数を、第一希望園別に集計したものです。",
+    "空きがあるにも関わらず保留者がいる場合は、個別の事情（きょうだいと同じ月に同じ施設への入所を希望する場合、保育士の加配体制が整っていないなど）により保留となっています。",
+    "園単位での枠はありませんが、送迎ステーションの年齢別の空き状況が上限となります。",
+    "「送迎ステーション」は園単位の枠を持たない拠点ですが、年齢ごとの空き状況が示されているのでそのまま載せています。"
+  ],
+  "wards": [],
+  "categories": [],
+  "facilities": [
+    {"id":"清水口保育園","name":"清水口保育園","w":null,"c":null,"vacancy":[0,0,0,1,0,0],"waiting":[5,4,0,0,0,0],"enrolled":[3,20,26,16,26,26]},
+    {"id":"南山保育園","name":"南山保育園","w":null,"c":null,"vacancy":[0,0,0,0,0,3],"waiting":[5,3,1,1,2,0],"enrolled":[3,12,18,20,20,31]},
+    {"id":"桜台保育園","name":"桜台保育園","w":null,"c":null,"vacancy":[0,0,0,1,5,9],"waiting":[7,0,1,0,3,0],"enrolled":[3,18,21,22,20,16]},
+    {"id":"白井保育園","name":"白井保育園","w":null,"c":null,"vacancy":[0,1,0,0,0,0],"waiting":[2,0,2,0,2,0],"enrolled":[3,11,12,9,11,11]},
+    {"id":"ひまわりこども園","name":"ひまわりこども園","w":null,"c":null,"vacancy":[0,0,0,1,0,1],"waiting":[5,2,1,1,0,1],"enrolled":[6,15,15,17,18,17]},
+    {"id":"白井ふじこども園","name":"白井ふじこども園","w":null,"c":null,"vacancy":[0,0,0,0,0,0],"waiting":[5,6,6,2,0,0],"enrolled":[6,18,18,24,25,24]},
+    {"id":"こざくら保育園","name":"こざくら保育園","w":null,"c":null,"vacancy":[0,0,0,1,0,0],"waiting":[1,1,1,0,0,0],"enrolled":[3,6,11,11,13,12]},
+    {"id":"AIAINURSERY西白井","name":"AIAINURSERY西白井","w":null,"c":null,"vacancy":[0,0,0,1,0,0],"waiting":[3,4,2,0,0,0],"enrolled":[9,16,19,22,24,24]},
+    {"id":"はなぶさ保育園","name":"はなぶさ保育園","w":null,"c":null,"vacancy":[0,0,0,1,0,1],"waiting":[17,9,4,0,1,0],"enrolled":[4,12,18,19,21,20]},
+    {"id":"白井ふたば保育園","name":"白井ふたば保育園","w":null,"c":null,"vacancy":[2,0,1,null,null,null],"waiting":[0,0,0,null,null,null],"enrolled":[1,6,5,null,null,null]},
+    {"id":"ひなた保育園・しろい","name":"ひなた保育園・しろい","w":null,"c":null,"vacancy":[0,0,0,null,null,null],"waiting":[1,1,0,null,null,null],"enrolled":[3,8,8,null,null,null]},
+    {"id":"ひなた保育園・ふぉるてしろい","name":"ひなた保育園・ふぉるてしろい","w":null,"c":null,"vacancy":[0,0,0,null,null,null],"waiting":[0,2,0,null,null,null],"enrolled":[3,8,8,null,null,null]},
+    {"id":"送迎ステーション","name":"送迎ステーション","w":null,"c":null,"vacancy":[null,null,null,0,0,0],"waiting":[null,null,null,7,0,0],"enrolled":[null,null,null,5,7,8]}
+  ]
+}

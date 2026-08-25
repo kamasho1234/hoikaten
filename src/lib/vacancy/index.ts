@@ -229,6 +229,7 @@ import omuraVacancy from "./omura.json";
 import tsuchiuraVacancy from "./tsuchiura.json";
 import kukiVacancy from "./kuki.json";
 import kameokaVacancy from "./kameoka.json";
+import shiroiVacancy from "./shiroi.json";
 
 export type {
   AgeSummary,
@@ -453,6 +454,7 @@ const registry: Record<string, VacancyDataset> = {
   tsuchiura: tsuchiuraVacancy as unknown as VacancyDataset,
   kuki: kukiVacancy as unknown as VacancyDataset,
   kameoka: kameokaVacancy as unknown as VacancyDataset,
+  shiroi: shiroiVacancy as unknown as VacancyDataset,
 };
 
 export function getVacancyData(slug: string): VacancyDataset | undefined {

@@ -894,6 +894,11 @@ jobs:
         continue-on-error: true
         run: npm run vacancy:fetch:kameoka
 
+      - name: 白井市を取り込む
+        id: shiroi
+        continue-on-error: true
+        run: npm run vacancy:fetch:shiroi
+
       # ここから下は失敗したらコミットしない（壊れたデータを公開しないため）
       - name: 型チェック
         run: npx tsc --noEmit
@@ -1078,6 +1083,7 @@ jobs:
               *tsuchiura.json) MSG="$MSG 土浦市（$(node -p "require('./src/lib/vacancy/tsuchiura.json').asOf")時点）" ;;
               *kuki.json) MSG="$MSG 久喜市（$(node -p "require('./src/lib/vacancy/kuki.json').asOf")時点）" ;;
               *kameoka.json) MSG="$MSG 亀岡市（$(node -p "require('./src/lib/vacancy/kameoka.json').asOf")時点）" ;;
+              *shiroi.json) MSG="$MSG 白井市（$(node -p "require('./src/lib/vacancy/shiroi.json').asOf")時点）" ;;
             esac
           done
           git config user.name "github-actions[bot]"
