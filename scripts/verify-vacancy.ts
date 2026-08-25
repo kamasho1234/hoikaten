@@ -690,6 +690,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 刈谷市は0〜2歳児クラスだけ公表している（3歳児以上は幼児園等が受け持つ）
+  kariya: {
+    asOf: "2026-09-01",
+    facilityCount: 22,
+    vacancy: 0,
+    symbolCounts: { "×": 64, "▲": 1, "○": 1 },
+  },
   // 沼津市はPDFではなくページのHTMLの表。空きは「若干名」「無」の言葉で表される
   numazu: {
     asOf: "2026-08-01",

@@ -1,0 +1,65 @@
+{
+  "municipalitySlug": "kariya",
+  "municipalityName": "刈谷市",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-08-25",
+  "sourceName": "刈谷市「空き枠情報」",
+  "sourceUrl": "https://www.city.kariya.lg.jp/kosodatenavi/1014910/1011895/1015435/1015441.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.kariya.lg.jp/_res/projects/default_project/_page_/001/015/441/r8akiwaku9.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "0〜2歳児クラスの空き枠",
+  "notes": [
+    "刈谷市は空き枠を人数ではなく記号で公表しています。これは2026-09-01時点のものです。",
+    "刈谷市が公表しているのは0歳児から2歳児のクラスだけです。3歳児クラス以上は幼児園等が受け持っているため、当サイトでは「—」にしています。",
+    "保育士確保状況等により常に変動するため、暫定のものです。入園申請の参考と…",
+    "年度後半は空き枠が出にくいです。",
+    "３歳児クラス以上は幼児園等に十分な空き枠があります。幼児園・保育園それぞ…"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "５枠以上",
+      "open": true
+    },
+    {
+      "mark": "▲",
+      "label": "残りわずか",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "なし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"親愛の里保育園","name":"親愛の里保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"こぐま保育園","name":"こぐま保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"第二こぐま保育園","name":"第二こぐま保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"刈谷ゆめの樹保育園","name":"刈谷ゆめの樹保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"空のうさぎ保育園","name":"空のうさぎ保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"依佐美清凉保育園","name":"依佐美清凉保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"刈谷大和保育園","name":"刈谷大和保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"城のうさぎ保育園","name":"城のうさぎ保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"ことり保育園","name":"ことり保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"ALL4KIDSﾅｰｻﾘｰｽｸｰﾙ刈谷","name":"ALL4KIDSﾅｰｻﾘｰｽｸｰﾙ刈谷","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"かりやYMCA保育園","name":"かりやYMCA保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"木の実乳児園","name":"木の実乳児園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","▲",null,null,null]},
+    {"id":"おがきえ保育園","name":"おがきえ保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"あおば保育園","name":"あおば保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"さくら保育園","name":"さくら保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"富士松南保育園","name":"富士松南保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"かりがね保育園","name":"かりがね保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"東刈谷保育園","name":"東刈谷保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"日高乳児園","name":"日高乳児園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"富士松北乳児園","name":"富士松北乳児園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"慈友乳児園","name":"慈友乳児園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","○",null,null,null]},
+    {"id":"双葉乳児園","name":"双葉乳児園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]}
+  ]
+}

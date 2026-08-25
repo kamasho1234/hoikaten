@@ -824,6 +824,11 @@ jobs:
         continue-on-error: true
         run: npm run vacancy:fetch:numazu
 
+      - name: 刈谷市を取り込む
+        id: kariya
+        continue-on-error: true
+        run: npm run vacancy:fetch:kariya
+
       # ここから下は失敗したらコミットしない（壊れたデータを公開しないため）
       - name: 型チェック
         run: npx tsc --noEmit
@@ -994,6 +999,7 @@ jobs:
               *fukushima.json) MSG="$MSG 福島市（$(node -p "require('./src/lib/vacancy/fukushima.json').asOf")時点）" ;;
               *onomichi.json) MSG="$MSG 尾道市（$(node -p "require('./src/lib/vacancy/onomichi.json').asOf")時点）" ;;
               *numazu.json) MSG="$MSG 沼津市（$(node -p "require('./src/lib/vacancy/numazu.json').asOf")時点）" ;;
+              *kariya.json) MSG="$MSG 刈谷市（$(node -p "require('./src/lib/vacancy/kariya.json').asOf")時点）" ;;
             esac
           done
           git config user.name "github-actions[bot]"

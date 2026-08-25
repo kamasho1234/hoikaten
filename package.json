@@ -162,6 +162,7 @@
     "vacancy:fetch:fukushima": "tsx scripts/fetch-fukushima-vacancy.ts",
     "vacancy:fetch:onomichi": "tsx scripts/fetch-onomichi-vacancy.ts",
     "vacancy:fetch:numazu": "tsx scripts/fetch-numazu-vacancy.ts",
+    "vacancy:fetch:kariya": "tsx scripts/fetch-kariya-vacancy.ts",
     "vacancy:fetch:wakayama": "tsx scripts/fetch-wakayama-vacancy.ts"
   },
   "dependencies": {
