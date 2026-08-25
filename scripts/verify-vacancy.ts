@@ -690,6 +690,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 東広島市は人数の幅を記号で示す（◎10人以上／〇5〜9人／△1〜4人／×空き無し）
+  higashihiroshima: {
+    asOf: "2026-08-06",
+    facilityCount: 66,
+    vacancy: 0,
+    symbolCounts: { "×": 261, "△": 64, "○": 1 },
+  },
   // 延岡市は都城市と同じ様式だが記号の意味が違う（×＝空きなし、―＝クラス設定なし）
   nobeoka: {
     asOf: "2026-08-01",

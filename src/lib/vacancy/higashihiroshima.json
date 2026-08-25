@@ -1,0 +1,115 @@
+{
+  "municipalitySlug": "higashihiroshima",
+  "municipalityName": "東広島市",
+  "asOf": "2026-08-06",
+  "fetchedAt": "2026-08-26",
+  "sourceName": "東広島市「市内保育施設の入所状況について」",
+  "sourceUrl": "https://www.city.higashihiroshima.lg.jp/soshiki/kodomomirai/2/7/18970.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.higashihiroshima.lg.jp/material/files/group/37/R8-10-akijyokyo.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "2026年度10月入所の空き状況",
+  "notes": [
+    "東広島市は空き状況を人数ではなく記号で公表しています。これは2026年度10月入所の受け入れ可能枠で、2026-08-06時点のものです。",
+    "すでに決定している方の辞退や保育士確保の状況等により、変動する可能性があることをご了承いただき、入所申込の参考としてください。",
+    "公式の表で空らんになっている年齢は「—」にしています。その年齢のクラスがないことを表しています。"
+  ],
+  "wards": [],
+  "categories": [
+    "公立",
+    "私立"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "◎",
+      "label": "10人以上",
+      "open": true
+    },
+    {
+      "mark": "○",
+      "label": "5～9人",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1～4人",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空き無し",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"1102","name":"寺西","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"1109","name":"青雲保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"1103","name":"西条東","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"1110","name":"玉法保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"1107","name":"板城","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×",null,null,"×","×","×"]},
+    {"id":"1112","name":"認定こども園愛育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"1108","name":"郷田","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×",null,null,"×","△","△"]},
+    {"id":"1114","name":"アイグラン保育園西条中央","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"1133","name":"御薗宇","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","△"]},
+    {"id":"1115","name":"あおぞらキッズスクール","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"1201","name":"吉川","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×",null,null,"×",null,null]},
+    {"id":"1116","name":"サムエル西条こどもの園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"1203","name":"原","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","△","△"]},
+    {"id":"1117","name":"アイグラン保育園西条東","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×","△","×","×"]},
+    {"id":"1301","name":"高屋東","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","△","×"]},
+    {"id":"1118","name":"みそのうこばとの森","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"1303","name":"小谷","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△",null,null,"△","△","△"]},
+    {"id":"1119","name":"西条あおい保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","×","×","×","×"]},
+    {"id":"1304","name":"造賀","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△",null,null,"△","△","△"]},
+    {"id":"1120","name":"三永太陽保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","△"]},
+    {"id":"1309","name":"たかや","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"1121","name":"アイグラン保育園寺家","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"1401","name":"志和堀","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×",null,null,"△",null,null]},
+    {"id":"1122","name":"オーエヌ第1保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","△"]},
+    {"id":"1501","name":"板城西","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×",null,null,"△","△","△"]},
+    {"id":"1123","name":"アイグラン保育園広島大学前","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","×"]},
+    {"id":"1502","name":"上黒瀬","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×",null,null,"△","△",null]},
+    {"id":"1124","name":"西条にじいろ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","×","×"]},
+    {"id":"1503","name":"乃美尾","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","△",null,"△",null,null]},
+    {"id":"1125","name":"アイグラン保育園寺西","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","×","×"]},
+    {"id":"1504","name":"中黒瀬","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","△"]},
+    {"id":"1126","name":"西条みづき認定こども園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"1505","name":"暁","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×",null,null,"△","△","△"]},
+    {"id":"1127","name":"あおい保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"1506","name":"木谷","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△",null,null,"△",null,null]},
+    {"id":"1128","name":"桜が丘認定こども園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","△"]},
+    {"id":"1507","name":"三津","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×",null,null,"△",null,"△"]},
+    {"id":"1129","name":"さざなみノイエ","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"1601","name":"くば","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×",null,null,"△",null,null]},
+    {"id":"1130","name":"みそのうにじいろ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"1602","name":"たけに","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△",null,null,"△",null,null]},
+    {"id":"1131","name":"かえでの森","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"1603","name":"とよさか","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△",null,null,"△",null,null]},
+    {"id":"1132","name":"西条幼稚園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"1604","name":"河内西","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×",null,null,"○",null,null]},
+    {"id":"1134","name":"小規模保育園さくらいろ","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"1135","name":"ゆずっこ保育園みそのう","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"1136","name":"ゆずっこ保育園したみ","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△",null,null,null]},
+    {"id":"1208","name":"八本松あおい保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","△","×","×","×"]},
+    {"id":"1209","name":"アザレアキッズステーション","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"1210","name":"八本松みづき認定こども園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"1211","name":"めばえ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△",null,null,null]},
+    {"id":"1212","name":"みょうとくこども園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"1213","name":"八本松太陽こども園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"1214","name":"アイグラン保育園川上","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"1215","name":"アイグラン保育園米満","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"1306","name":"サムエル東広島こどもの園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"1308","name":"フレーベル幼稚園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"1402","name":"東志和保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"1404","name":"西志和中央保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","△","×","×"]},
+    {"id":"1405","name":"志和龍城認定こども園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×","×","×","×"]},
+    {"id":"1511","name":"風早幼稚園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","×","×"]},
+    {"id":"1606","name":"入野光保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","×","△"]},
+    {"id":"999701","name":"さざなみの森","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"999702","name":"アカデミックひまわり","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"999703","name":"みどりがおかようちえん","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]}
+  ]
+}
