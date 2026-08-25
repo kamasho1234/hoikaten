@@ -180,6 +180,7 @@
     "vacancy:fetch:shiraoka": "tsx scripts/fetch-shiraoka-vacancy.ts",
     "vacancy:fetch:kusatsu": "tsx scripts/fetch-kusatsu-vacancy.ts",
     "vacancy:fetch:nakatsu": "tsx scripts/fetch-nakatsu-vacancy.ts",
+    "vacancy:fetch:komatsu": "tsx scripts/fetch-komatsu-vacancy.ts",
     "vacancy:fetch:wakayama": "tsx scripts/fetch-wakayama-vacancy.ts"
   },
   "dependencies": {

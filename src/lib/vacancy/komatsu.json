@@ -1,0 +1,97 @@
+{
+  "municipalitySlug": "komatsu",
+  "municipalityName": "小松市",
+  "prefecture": "石川県",
+  "asOf": "2026-08-01",
+  "fetchedAt": "2026-08-26",
+  "sourceName": "小松市「認定こども園・保育所・幼稚園空き状況」",
+  "sourceUrl": "https://www.city.komatsu.lg.jp/soshiki/1030/4/10865.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.komatsu.lg.jp/material/files/group/60/20260801kodomoen.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "教育保育施設の空き状況",
+  "notes": [
+    "小松市は空き状況を人数ではなく記号で公表しています。これは2026-08-01時点のものです。",
+    "「△」が1～2人程度、「○」が3～4人程度、「◎」が5人以上の受入可能人数を示しています。空欄は受入可能人数が無いことを示しています。",
+    "申込状況等により空き状況が変更となることもありますので詳細については各園・保育所にお問合せください。",
+    "申込まれるお子さんのクラス年齢は「R8.4.1時点」の年齢でご確認ください。",
+    "公式の表では、受入可能人数が無い年齢を空らんにしています。当サイトでは分かりやすさのため「×」に置き換えて表示しています。",
+    "公式の表で斜線が引かれている年齢は「—」にしています。その年齢を受け入れていないことを表しています。"
+  ],
+  "wards": [],
+  "categories": [
+    "（私立）幼保連携型認定こども園",
+    "（私立）保育所型認定こども園",
+    "（私立）幼稚園型認定こども園",
+    "（私立）保育所",
+    "（公立）幼保連携型認定こども園",
+    "（公立）保育所型認定こども園",
+    "（公立）保育所"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "△",
+      "label": "1～2人程度",
+      "open": true
+    },
+    {
+      "mark": "○",
+      "label": "3～4人程度",
+      "open": true
+    },
+    {
+      "mark": "◎",
+      "label": "5人以上",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "受入可能人数なし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"大和こども園","name":"大和こども園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"※やざき乳児保育園","name":"※やざき乳児保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"あたか認定こども園","name":"あたか認定こども園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","△","○","◎","△"]},
+    {"id":"せんだいこども園","name":"せんだいこども園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"今江こども園","name":"今江こども園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"すえさみこども園","name":"すえさみこども園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×","×","△","△"]},
+    {"id":"粟津こども園","name":"粟津こども園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"粟津温泉こども園","name":"粟津温泉こども園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","×","○","×","△"]},
+    {"id":"こばと第2こども園","name":"こばと第2こども園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,"△","○","△","×"]},
+    {"id":"あおば保育園","name":"あおば保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","○","△","×"]},
+    {"id":"河田保育園","name":"河田保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△","△","△","△"]},
+    {"id":"よしたけこども園","name":"よしたけこども園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","○","△","○","△"]},
+    {"id":"松陽こども園","name":"松陽こども園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"舟見ヶ丘保幼園","name":"舟見ヶ丘保幼園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△","△","△","△"]},
+    {"id":"木場こども園","name":"木場こども園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","○","×","△"]},
+    {"id":"月津こども園","name":"月津こども園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"矢田野こども園","name":"矢田野こども園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","×","×"]},
+    {"id":"ひかりっこ","name":"ひかりっこ","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","△","△"]},
+    {"id":"のしろこども園","name":"のしろこども園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","○","△"]},
+    {"id":"あらやこども園","name":"あらやこども園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","△"]},
+    {"id":"わかばにしかるみこども園","name":"わかばにしかるみこども園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"中海こども園","name":"中海こども園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△","△","△","△"]},
+    {"id":"蓮代寺こども園","name":"蓮代寺こども園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△","△","△","△"]},
+    {"id":"ちこう","name":"ちこう","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△","△","△","×"]},
+    {"id":"犬丸こども園","name":"犬丸こども園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","△","×"]},
+    {"id":"白江こども未来園","name":"白江こども未来園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","△","△"]},
+    {"id":"南陽幼保園","name":"南陽幼保園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△","△","△","△"]},
+    {"id":"牧こども園","name":"牧こども園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","○","○","○"]},
+    {"id":"御幸保育園","name":"御幸保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","△","△","△","△"]},
+    {"id":"白嶺幼稚園","name":"白嶺幼稚園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","○","◎","×","◎"]},
+    {"id":"白楊幼稚園","name":"白楊幼稚園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","△","△","×","×"]},
+    {"id":"聖テレジア幼稚園","name":"聖テレジア幼稚園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△","○","△","△"]},
+    {"id":"聖愛幼稚園","name":"聖愛幼稚園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","×","×"]},
+    {"id":"なかよし幼稚園","name":"なかよし幼稚園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","△","○","△","◎"]},
+    {"id":"こばと保育園","name":"こばと保育園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","◎","△",null,null,null]},
+    {"id":"松東こども園","name":"松東こども園","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","△","△","△","△"]},
+    {"id":"やたの認定こども園あおぞら","name":"やたの認定こども園あおぞら","w":null,"c":5,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"認定こども園だいいち","name":"認定こども園だいいち","w":null,"c":5,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","○","×"]},
+    {"id":"那谷保育所","name":"那谷保育所","w":null,"c":6,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]}
+  ]
+}

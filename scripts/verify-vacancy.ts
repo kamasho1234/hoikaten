@@ -690,6 +690,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 小松市は空らん（受入なし）と斜線（クラスなし）で意味が違う
+  komatsu: {
+    asOf: "2026-08-01",
+    facilityCount: 39,
+    vacancy: 0,
+    symbolCounts: { "×": 118, "△": 88, "○": 15, "◎": 5 },
+  },
   // 中津市は通し番号と合計行があるので、連番と合計の両方を検算に使っている
   nakatsu: {
     asOf: "2026-08-24",
