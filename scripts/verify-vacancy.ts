@@ -690,6 +690,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 鳥取市は空きをセルの色で公表している（黄色＝受入れ可能／グレー＝難しい）
+  tottori: {
+    asOf: "2026-08-01",
+    facilityCount: 64,
+    vacancy: 0,
+    symbolCounts: { "×": 136, "○": 206 },
+  },
   // 山形市は家庭的保育事業（保育ママ）だけ0〜2歳がひとまとめ（vacancyTotal）
   yamagata: {
     asOf: "2026-08-18",

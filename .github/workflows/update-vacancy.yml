@@ -799,6 +799,11 @@ jobs:
         continue-on-error: true
         run: npm run vacancy:fetch:yamagata
 
+      - name: 鳥取市を取り込む
+        id: tottori
+        continue-on-error: true
+        run: npm run vacancy:fetch:tottori
+
       # ここから下は失敗したらコミットしない（壊れたデータを公開しないため）
       - name: 型チェック
         run: npx tsc --noEmit
@@ -964,6 +969,7 @@ jobs:
               *ichihara.json) MSG="$MSG 市原市（$(node -p "require('./src/lib/vacancy/ichihara.json').asOf")時点）" ;;
               *matsue.json) MSG="$MSG 松江市（$(node -p "require('./src/lib/vacancy/matsue.json').asOf")時点）" ;;
               *yamagata.json) MSG="$MSG 山形市（$(node -p "require('./src/lib/vacancy/yamagata.json').asOf")時点）" ;;
+              *tottori.json) MSG="$MSG 鳥取市（$(node -p "require('./src/lib/vacancy/tottori.json').asOf")時点）" ;;
             esac
           done
           git config user.name "github-actions[bot]"
