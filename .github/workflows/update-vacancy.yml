@@ -769,6 +769,11 @@ jobs:
         continue-on-error: true
         run: npm run vacancy:fetch:tochigi
 
+      - name: 岡山市を取り込む（公開は毎月25日ごろ〜翌月1日ごろ）
+        id: okayama
+        continue-on-error: true
+        run: npm run vacancy:fetch:okayama
+
       # ここから下は失敗したらコミットしない（壊れたデータを公開しないため）
       - name: 型チェック
         run: npx tsc --noEmit
@@ -928,6 +933,7 @@ jobs:
               *tokai.json) MSG="$MSG 東海市（$(node -p "require('./src/lib/vacancy/tokai.json').asOf")時点）" ;;
               *minoh.json) MSG="$MSG 箕面市（$(node -p "require('./src/lib/vacancy/minoh.json').asOf")時点）" ;;
               *tochigi-city.json) MSG="$MSG 栃木市（$(node -p "require('./src/lib/vacancy/tochigi-city.json').asOf")時点）" ;;
+              *okayama.json) MSG="$MSG 岡山市（$(node -p "require('./src/lib/vacancy/okayama.json').asOf")時点）" ;;
             esac
           done
           git config user.name "github-actions[bot]"
