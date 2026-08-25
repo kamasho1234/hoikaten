@@ -690,6 +690,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 諫早市は空欄が「受け入れ可能」。当サイトでは○に置き換えている
+  isahaya: {
+    asOf: "2026-08-01",
+    facilityCount: 64,
+    vacancy: 0,
+    symbolCounts: { "×": 181, "※": 25, "○": 178 },
+  },
   // 周南市は0歳児の欄に受け入れ月齢が併記される
   shunan: {
     asOf: "2026-08-24",
