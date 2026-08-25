@@ -1,0 +1,91 @@
+{
+  "municipalitySlug": "numazu",
+  "municipalityName": "沼津市",
+  "asOf": "2026-08-01",
+  "fetchedAt": "2026-08-25",
+  "sourceName": "沼津市子育てポータルサイト「保育園等の募集情報」",
+  "sourceUrl": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/azukeru/bosyumap.htm",
+  "sourceFiles": {
+    "vacancy": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/azukeru/bosyumap.htm"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "9月選考の空き状況",
+  "notes": [
+    "沼津市は空き状況を人数ではなく「若干名」「無」で公表しています。これは2026-08-01時点（9月選考）のものです。",
+    "年齢はその年度の4月1日現在の年齢（クラス年齢）です。年度途中に誕生日がきてもクラス年齢は変わりません。",
+    "入園内定者の辞退や在園児の退園、保育士の確保などにより、空き情報は変わることがあります。",
+    "公式の表で「設置無」となっている年齢は「—」にしています。その歳児のクラスを設置していないことを表しています。",
+    "認定こども園の空き情報は保育園部のみのものです。幼稚園部については各施設にお問い合わせください。"
+  ],
+  "wards": [],
+  "categories": [
+    "保育所",
+    "認定こども園",
+    "小規模保育事業"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "若干名",
+      "label": "若干名の空きあり",
+      "open": true
+    },
+    {
+      "mark": "無",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"西浦保育所","name":"西浦保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["若干名","若干名","若干名","若干名","若干名","若干名"]},
+    {"id":"北部保育所","name":"北部保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["若干名","若干名","無","無","無","無"]},
+    {"id":"金岡保育所","name":"金岡保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["若干名","無","若干名","無","無","無"]},
+    {"id":"大岡保育所","name":"大岡保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["無","無","無","無","無","若干名"]},
+    {"id":"ときわ保育所","name":"ときわ保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["若干名","若干名","無","若干名","若干名","若干名"]},
+    {"id":"永明保育園","name":"永明保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["若干名","若干名","無","無","無","無"]},
+    {"id":"恵愛保育園","name":"恵愛保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["若干名","無","若干名","無","無","無"]},
+    {"id":"霊山保育園","name":"霊山保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["若干名","無","無","無","若干名","若干名"]},
+    {"id":"岳東保育園","name":"岳東保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["若干名","無","無","無","無","無"]},
+    {"id":"静浦保育園","name":"静浦保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["若干名","無","若干名","若干名","無","若干名"]},
+    {"id":"愛鷹保育園","name":"愛鷹保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["若干名","若干名","無","無","無","無"]},
+    {"id":"かぴらばす保育園","name":"かぴらばす保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["無","無","若干名","若干名","若干名","無"]},
+    {"id":"青葉保育園","name":"青葉保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["若干名","若干名","若干名","若干名","若干名","若干名"]},
+    {"id":"天神保育園","name":"天神保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["若干名","無","無","若干名","若干名","無"]},
+    {"id":"大泉保育園","name":"大泉保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["若干名","無","若干名","若干名","若干名","若干名"]},
+    {"id":"浮島保育園","name":"浮島保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["無","若干名","無","若干名","無","若干名"]},
+    {"id":"いずみ保育園","name":"いずみ保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["若干名","無","無","無","無","無"]},
+    {"id":"かぬき保育園","name":"かぬき保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["無","無","無","若干名","無","若干名"]},
+    {"id":"光長保育園","name":"光長保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["若干名","無","無","若干名","無","無"]},
+    {"id":"まいとりや保育園","name":"まいとりや保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["若干名","若干名","若干名","若干名","若干名","無"]},
+    {"id":"小百合保育園","name":"小百合保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["無","無","無","無","無","無"]},
+    {"id":"多比保育園","name":"多比保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["若干名","若干名","若干名","若干名","若干名","若干名"]},
+    {"id":"青空保育園","name":"青空保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["無","無","無","無","無","若干名"]},
+    {"id":"しんあい保育園","name":"しんあい保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["無","無","若干名","無","若干名","若干名"]},
+    {"id":"丘の上保育園","name":"丘の上保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["若干名","無","無","無","無","無"]},
+    {"id":"大平こども園","name":"大平こども園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["若干名","無","若干名","若干名","若干名","若干名"]},
+    {"id":"戸田こども園","name":"戸田こども園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["若干名","無","無","無","若干名","若干名"]},
+    {"id":"片浜桜プレスクール片浜桜ナーサリールーム","name":"片浜桜プレスクール片浜桜ナーサリールーム","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["無","若干名","若干名","無","若干名","無"]},
+    {"id":"杉浦学園あけぼのこども園杉浦学園かきつばたこども園","name":"杉浦学園あけぼのこども園杉浦学園かきつばたこども園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["若干名","若干名","無","無","若干名","無"]},
+    {"id":"こずわ幼稚園","name":"こずわ幼稚園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["無","無","無","無","無","無"]},
+    {"id":"しょうえい幼稚園","name":"しょうえい幼稚園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["若干名","若干名","無","若干名","無","無"]},
+    {"id":"中央幼稚園","name":"中央幼稚園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["無","無","無","無","無","無"]},
+    {"id":"春の木幼稚園","name":"春の木幼稚園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["無","無","若干名","無","若干名","無"]},
+    {"id":"原町幼稚園","name":"原町幼稚園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,"無","無","無","無"]},
+    {"id":"耕雲寺幼稚園","name":"耕雲寺幼稚園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"無","無","無"]},
+    {"id":"第二耕雲寺幼稚園","name":"第二耕雲寺幼稚園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"無","無","無"]},
+    {"id":"象山幼稚園","name":"象山幼稚園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"無","若干名","無"]},
+    {"id":"沼津学園第一幼稚園","name":"沼津学園第一幼稚園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["無","無","無","無","無","無"]},
+    {"id":"沼津聖マリア幼稚園","name":"沼津聖マリア幼稚園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"無","無","無"]},
+    {"id":"あしたか幼稚園","name":"あしたか幼稚園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"若干名","若干名","若干名"]},
+    {"id":"原町保育園","name":"原町保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["無","無","無","無","無","無"]},
+    {"id":"みくにこども園","name":"みくにこども園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["若干名","若干名","若干名","若干名","若干名","若干名"]},
+    {"id":"アドバンぺんぎん保育園","name":"アドバンぺんぎん保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["若干名","無","無",null,null,null]},
+    {"id":"イロドリぬまづ保育園","name":"イロドリぬまづ保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["若干名","無","無",null,null,null]},
+    {"id":"保育所グローアップ大岡園","name":"保育所グローアップ大岡園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["無","無","無",null,null,null]},
+    {"id":"むすびの保育園hagu","name":"むすびの保育園hagu","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["無","無","無",null,null,null]},
+    {"id":"まんまる保育園","name":"まんまる保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["無","無","無",null,null,null]},
+    {"id":"はるか保育園","name":"はるか保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["若干名","無","無",null,null,null]},
+    {"id":"くまさんのおうち保育園","name":"くまさんのおうち保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["無","無","若干名",null,null,null]}
+  ]
+}

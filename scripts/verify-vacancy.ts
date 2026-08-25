@@ -690,6 +690,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 沼津市はPDFではなくページのHTMLの表。空きは「若干名」「無」の言葉で表される
+  numazu: {
+    asOf: "2026-08-01",
+    facilityCount: 49,
+    vacancy: 0,
+    symbolCounts: { "無": 152, "若干名": 104 },
+  },
   // 尾道市は入所月の1日時点の見込みを前の月に公開する（asOfが未来の日付になる）
   onomichi: {
     asOf: "2026-09-01",
