@@ -690,6 +690,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 福島市は年齢の欄が上下2段（上＝受入予定数の記号、下＝申込み人数）
+  fukushima: {
+    asOf: "2026-08-25",
+    facilityCount: 84,
+    vacancy: 0,
+    symbolCounts: { "×": 365, "▲": 56, "△": 7 },
+  },
   // 成田市は公立の小規模保育だけ3〜5歳がひとつの欄。同じ記号を3つに広げている
   narita: {
     asOf: "2026-08-17",
