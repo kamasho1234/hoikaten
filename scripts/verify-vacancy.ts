@@ -690,6 +690,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 出雲市は記号と入所未決定者の両方を公表している
+  izumo: {
+    asOf: "2026-08-07",
+    facilityCount: 54,
+    vacancy: 0,
+    symbolCounts: { "×": 271, "△": 37, "○": 9 },
+  },
   // 米子市は翌月1日からの入所可能数を前の月の下旬に公開する
   yonago: {
     asOf: "2026-08-25",

@@ -1,0 +1,108 @@
+{
+  "municipalitySlug": "izumo",
+  "municipalityName": "出雲市",
+  "asOf": "2026-08-07",
+  "fetchedAt": "2026-08-26",
+  "sourceName": "出雲市「保育所入所可能状況」",
+  "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1662431111618/index.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.izumo.shimane.jp/www/contents/1662431111618/simple/hoiku09.pdf"
+  },
+  "metrics": [
+    "symbol",
+    "waiting"
+  ],
+  "subtitle": "9月以降の入所可能状況",
+  "notes": [
+    "出雲市は空きを人数ではなく記号で公表しています。これは9月以降の入所を希望する方向けのもので、2026-08-07時点のものです。",
+    "この情報は見込みです。職員体制などの都合により、このとおりに決定できない場合があります。",
+    "公式の表には空きなしを表す記号がなく、空欄になっています。当サイトでは、そのクラスがある年齢の空欄を「×」（空きなし）、クラスがない年齢を「—」にしています。",
+    "入所未決定者は、申込をされて決まっていない人の人数です（転園希望の方も含みます）。第1希望者数の内訳で、第2希望以降は反映されていません。",
+    "認定保育所・企業主導型保育施設は市の利用調整の対象外のため、当サイトには載せていません。入所の相談は直接その施設へお問い合わせください。"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "◎*",
+      "label": "10名以上",
+      "open": true
+    },
+    {
+      "mark": "◎",
+      "label": "5～9名",
+      "open": true
+    },
+    {
+      "mark": "○",
+      "label": "3～4名",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1～2名",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"出雲乳児保育所","name":"出雲乳児保育所","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","△","×"],"waiting":[0,0,0,0,0,0]},
+    {"id":"中央保育所","name":"中央保育所","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":[null,"△","×",null,null,null],"waiting":[null,0,0,null,null,null]},
+    {"id":"出雲聖園マリア園","name":"出雲聖園マリア園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"waiting":[0,0,0,0,0,0]},
+    {"id":"ねむの木保育園","name":"ねむの木保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"waiting":[1,1,1,0,0,0]},
+    {"id":"一の谷保育園","name":"一の谷保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"waiting":[0,2,0,2,1,0]},
+    {"id":"たちばな保育園","name":"たちばな保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"waiting":[2,0,0,0,0,0]},
+    {"id":"おおつ保育園","name":"おおつ保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"waiting":[0,0,0,0,0,0]},
+    {"id":"きんろう保育園","name":"きんろう保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"waiting":[0,1,0,0,0,0]},
+    {"id":"すぎの子保育園","name":"すぎの子保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","△","×","×","×"],"waiting":[4,0,0,0,0,0]},
+    {"id":"出雲スマイル保育園","name":"出雲スマイル保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"waiting":[0,1,0,0,0,0]},
+    {"id":"出雲すみれ保育園","name":"出雲すみれ保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"waiting":[0,1,0,1,0,0]},
+    {"id":"浜山あおい保育園","name":"浜山あおい保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"waiting":[3,0,0,0,0,0]},
+    {"id":"えんや保育園","name":"えんや保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"waiting":[2,0,2,0,1,0]},
+    {"id":"ひかり保育園","name":"ひかり保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"waiting":[2,0,1,1,1,0]},
+    {"id":"ひまわり第1保育園","name":"ひまわり第1保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","×","×"],"waiting":[0,0,0,0,0,0]},
+    {"id":"ひまわり第2保育園","name":"ひまわり第2保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"],"waiting":[0,0,0,0,0,0]},
+    {"id":"古志ひまわり保育園","name":"古志ひまわり保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"waiting":[0,0,0,0,0,0]},
+    {"id":"神門保育園","name":"神門保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"waiting":[0,0,0,0,0,0]},
+    {"id":"神門第Ⅱ保育園","name":"神門第Ⅱ保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"waiting":[0,0,0,2,0,1]},
+    {"id":"浜山保育園","name":"浜山保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"waiting":[4,0,2,1,0,0]},
+    {"id":"あすなろ保育園","name":"あすなろ保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["○","×","×","×","×","×"],"waiting":[0,0,0,0,2,0]},
+    {"id":"あすなろ第2保育園","name":"あすなろ第2保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["○","×","×","×","×","×"],"waiting":[0,1,0,1,0,0]},
+    {"id":"わたりはし保育園","name":"わたりはし保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"waiting":[1,0,0,0,0,0]},
+    {"id":"おおつか保育園","name":"おおつか保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"waiting":[4,2,1,0,3,0]},
+    {"id":"おやま保育園","name":"おやま保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"waiting":[0,2,0,1,0,0]},
+    {"id":"さとがた保育園","name":"さとがた保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"waiting":[2,1,1,0,1,0]},
+    {"id":"ほくよう保育園","name":"ほくよう保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"waiting":[7,3,0,1,0,0]},
+    {"id":"かなで保育園","name":"かなで保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"waiting":[0,0,0,0,0,0]},
+    {"id":"なかの保育園","name":"なかの保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"waiting":[3,0,0,0,0,0]},
+    {"id":"西園保育園","name":"西園保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"waiting":[0,0,0,0,1,0]},
+    {"id":"外園保育園","name":"外園保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"],"waiting":[0,0,0,0,0,1]},
+    {"id":"荒茅保育園","name":"荒茅保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["○","○","×","×","×","△"],"waiting":[0,0,0,0,0,0]},
+    {"id":"みなみ保育所","name":"みなみ保育所","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","△"],"waiting":[0,0,0,0,0,0]},
+    {"id":"平田保育所","name":"平田保育所","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","○","×","○","△","○"],"waiting":[3,0,0,0,0,0]},
+    {"id":"ひらた乳児保育園","name":"ひらた乳児保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","×",null,null,null],"waiting":[0,0,0,null,null,null]},
+    {"id":"（認）光幼保園","name":"（認）光幼保園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","○","×","△","△","×"],"waiting":[1,0,0,0,0,0]},
+    {"id":"ひらた西保育園","name":"ひらた西保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"],"waiting":[0,0,0,0,0,0]},
+    {"id":"わにぶち保育所","name":"わにぶち保育所","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×","×","×","△"],"waiting":[0,0,0,0,0,0]},
+    {"id":"中部保育所","name":"中部保育所","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"],"waiting":[0,0,0,0,0,0]},
+    {"id":"須佐保育所","name":"須佐保育所","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△","△","△","△"],"waiting":[0,0,0,0,0,0]},
+    {"id":"窪田保育所","name":"窪田保育所","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△","△","△","○"],"waiting":[0,0,0,0,0,0]},
+    {"id":"（認）多伎こども園","name":"（認）多伎こども園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","△"],"waiting":[2,0,1,1,0,0]},
+    {"id":"ハマナス保育園","name":"ハマナス保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"waiting":[3,0,1,0,0,0]},
+    {"id":"こぐま保育園","name":"こぐま保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","△","×","×","×"],"waiting":[0,0,0,0,0,0]},
+    {"id":"たいしゃ保育園","name":"たいしゃ保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"waiting":[0,0,1,0,0,0]},
+    {"id":"東部保育園","name":"東部保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","×"],"waiting":[11,0,5,0,0,0]},
+    {"id":"荘原保育園","name":"荘原保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","×"],"waiting":[3,0,0,1,0,0]},
+    {"id":"わらべのうち保育園","name":"わらべのうち保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"waiting":[1,1,2,0,1,0]},
+    {"id":"あい川保育園","name":"あい川保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"waiting":[4,0,1,3,1,0]},
+    {"id":"出西保育園","name":"出西保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"waiting":[4,0,1,0,1,0]},
+    {"id":"伊波野保育園","name":"伊波野保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"waiting":[6,0,0,0,0,0]},
+    {"id":"（認）北陵保育園","name":"（認）北陵保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"waiting":[2,1,5,1,0,0]},
+    {"id":"直江保育所","name":"直江保育所","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"waiting":[1,1,4,0,0,0]},
+    {"id":"（認）出東こども園","name":"（認）出東こども園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"waiting":[6,0,0,0,0,0]}
+  ]
+}
