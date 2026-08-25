@@ -690,6 +690,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 野洲市は時点がリンクの文字にしか書かれていない
+  yasu: {
+    asOf: "2026-08-21",
+    facilityCount: 15,
+    vacancy: 0,
+    symbolCounts: { "×": 74, "○": 1 },
+  },
   // 守山市は0〜2歳が合同の施設で欄が結合されている
   moriyama: {
     asOf: "2026-08-25",

@@ -182,6 +182,7 @@
     "vacancy:fetch:nakatsu": "tsx scripts/fetch-nakatsu-vacancy.ts",
     "vacancy:fetch:komatsu": "tsx scripts/fetch-komatsu-vacancy.ts",
     "vacancy:fetch:moriyama": "tsx scripts/fetch-moriyama-vacancy.ts",
+    "vacancy:fetch:yasu": "tsx scripts/fetch-yasu-vacancy.ts",
     "vacancy:fetch:wakayama": "tsx scripts/fetch-wakayama-vacancy.ts"
   },
   "dependencies": {

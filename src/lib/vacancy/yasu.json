@@ -1,0 +1,59 @@
+{
+  "municipalitySlug": "yasu",
+  "municipalityName": "野洲市",
+  "prefecture": "滋賀県",
+  "asOf": "2026-08-21",
+  "fetchedAt": "2026-08-26",
+  "sourceName": "野洲市「野洲市内の保育所（園）等の空き状況」",
+  "sourceUrl": "https://www.city.yasu.lg.jp/soshiki/kodomo/hoikuen/1703569301167.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.yasu.lg.jp/material/files/group/25/R0810hoikuakijyoukyou.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "10月入所の空き状況のめやす",
+  "notes": [
+    "野洲市は空き状況を人数ではなく記号で公表しています。これは10月入所の受付にあわせたもので、2026-08-21時点のものです。",
+    "退所や保育士の配置により状況は変動します。",
+    "受付締切り･･８月31日",
+    "「〇」「△」が表示されている施設でも、園の体制や保育士の配置状況により、",
+    "公式の表で空らんになっている年齢は「—」にしています。その年齢のクラスがないことを表しています。"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "入所できる可能性があります",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "若干数程度の空きあり。",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "現在空きはありません（申込みをしていただくことはできます）",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"三上こども園（保育園部）","name":"三上こども園（保育園部）","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"篠原こども園（保育園部）","name":"篠原こども園（保育園部）","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"さくらばさまこども園（保育園部）","name":"さくらばさまこども園（保育園部）","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"ゆきはたこども園（保育園部）","name":"ゆきはたこども園（保育園部）","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"アイグラン和田ひかり保育園","name":"アイグラン和田ひかり保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"祇王明照保育園","name":"祇王明照保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"あやめ保育所","name":"あやめ保育所","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"あやめ保育所こしのはら分園","name":"あやめ保育所こしのはら分園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"きたの保育園","name":"きたの保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"しみんふくし保育の家竹が丘","name":"しみんふくし保育の家竹が丘","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"野洲優愛保育園モンチ","name":"野洲優愛保育園モンチ","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"サンライズキッズ野洲園","name":"サンライズキッズ野洲園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"TAMランド野洲駅前園","name":"TAMランド野洲駅前園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"しみんふくし保育の家北野","name":"しみんふくし保育の家北野","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"みらいみかみやま保育園","name":"みらいみかみやま保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","○",null,null,null]}
+  ]
+}
