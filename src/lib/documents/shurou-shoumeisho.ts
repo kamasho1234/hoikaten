@@ -78,11 +78,11 @@ const guides: DocumentGuide[] = [
 <table>
 <thead><tr><th>No.</th><th>項目</th><th>何を書くか</th></tr></thead>
 <tbody>
-<tr><td>1</td><td>業種</td><td>建設業・製造業・医療福祉など21区分から選ぶ</td></tr>
+<tr><td>1</td><td>業種</td><td>建設業・製造業・医療福祉など、「その他」を含めて19区分から選ぶ</td></tr>
 <tr><td>2</td><td>本人氏名</td><td>フリガナと生年月日も</td></tr>
 <tr><td>3</td><td>雇用（予定）期間等</td><td>無期か有期か。有期なら期間</td></tr>
 <tr><td>4</td><td>本人就労先事業所</td><td>実際に働く場所の名称と住所</td></tr>
-<tr><td>5</td><td>雇用の形態</td><td>正社員・パート・派遣・自営業主など12区分</td></tr>
+<tr><td>5</td><td>雇用の形態</td><td>正社員・パート・派遣・自営業主など、「その他」を含めて13区分</td></tr>
 <tr><td>6</td><td>就労時間</td><td>固定就労と変則就労で書き方が分かれる</td></tr>
 <tr><td>7</td><td>就労実績</td><td>直近3か月の日数と時間数</td></tr>
 <tr><td>8</td><td>産前・産後休業の取得</td><td>予定・取得中と期間</td></tr>
