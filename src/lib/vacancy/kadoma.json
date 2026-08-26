@@ -1,0 +1,84 @@
+{
+  "municipalitySlug": "kadoma",
+  "municipalityName": "門真市",
+  "asOf": "2026-08-01",
+  "fetchedAt": "2026-08-26",
+  "sourceName": "門真市「教育・保育施設等の空き状況・申込み人数」",
+  "sourceUrl": "https://www.city.kadoma.osaka.jp/sukusuku/kakuka/hoikuyotien/1/akizyoukyouitiran/6_2/38657.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.kadoma.osaka.jp/material/files/group/32/akiwaku0809.pdf"
+  },
+  "metrics": [
+    "symbol",
+    "waiting"
+  ],
+  "subtitle": "2026年9月入所分の空き状況と申込み人数",
+  "notes": [
+    "門真市は空き状況を記号で、申込み人数を数で公表しています。これは2026年9月入所分で、2026-08-01時点のものです。",
+    "公式の凡例は 「○」受入れ可能人数4人以上、「△」受入れ可能人数1～3人、「×」受入れ可能人数0人 です。",
+    "公式の表で「-」になっている年齢は「—」にしています。公式の凡例に「利用定員の設定なし」と書かれています。",
+    "「入所待ち」として出しているのは、公式の「申込み人数」です。",
+    "令和８年４月１日時点での年齢で確認してください。０歳児については、施設により入所可能な月齢が異なります。",
+    "空き情報は、退所や施設の事情等により、変更となる場合があります。",
+    "広域入所は空きがある場合でも、門真市の待機児童数の状況等により入所できない可能性があります。",
+    "施設の利用は入所選考を経て決定しますので、空きがある施設（○又は△）への入所を必ず保証するものではありません。"
+  ],
+  "wards": [],
+  "categories": [
+    "市立認定こども園",
+    "私立保育所",
+    "私立認定こども園",
+    "私立地域型保育事業"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "受入れ可能人数4人以上",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "受入れ可能人数1～3人",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "受入れ可能人数0人",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"砂子みなみこども園","name":"砂子みなみこども園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","○","○"],"waiting":[3,6,0,0,0,1],"note":"1号認定（教育認定）の利用定員を別に設けている施設です。"},
+    {"id":"大和田こども園","name":"大和田こども園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","△","△","△"],"waiting":[1,1,0,0,0,0],"note":"1号認定（教育認定）の利用定員を別に設けている施設です。"},
+    {"id":"門真保育園","name":"門真保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","×","×"],"waiting":[1,2,0,0,0,0]},
+    {"id":"めぐみ保育園","name":"めぐみ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","△","△","△"],"waiting":[0,2,0,0,0,0]},
+    {"id":"北巣本保育園","name":"北巣本保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","×"],"waiting":[2,2,0,0,0,0]},
+    {"id":"いずみっこ保育園","name":"いずみっこ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"waiting":[3,0,0,0,0,0]},
+    {"id":"おおわだ保育園","name":"おおわだ保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","×"],"waiting":[4,3,3,0,0,0],"note":"1号認定（教育認定）の利用定員を別に設けている施設です。"},
+    {"id":"まことしょうじこども園","name":"まことしょうじこども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"waiting":[2,1,1,1,0,0],"note":"1号認定（教育認定）の利用定員を別に設けている施設です。"},
+    {"id":"柳町園","name":"柳町園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","△"],"waiting":[10,6,3,1,0,0],"note":"1号認定（教育認定）の利用定員を別に設けている施設です。"},
+    {"id":"古川園","name":"古川園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"waiting":[22,11,3,3,0,0],"note":"1号認定（教育認定）の利用定員を別に設けている施設です。"},
+    {"id":"三ツ島保育園","name":"三ツ島保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","○","△","△"],"waiting":[1,3,0,1,0,1],"note":"1号認定（教育認定）の利用定員を別に設けている施設です。"},
+    {"id":"ファースト保育園（三ツ島保育園分園）","name":"ファースト保育園（三ツ島保育園分園）","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△",null,null,null],"waiting":[1,3,0,null,null,null]},
+    {"id":"たちばな幼稚園","name":"たちばな幼稚園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","△","×","×"],"waiting":[0,0,0,0,0,0],"note":"1号認定（教育認定）の利用定員を別に設けている施設です。"},
+    {"id":"ふじ幼稚園","name":"ふじ幼稚園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"△","○","△"],"waiting":[null,null,null,0,0,0],"note":"1号認定（教育認定）の利用定員を別に設けている施設です。"},
+    {"id":"智鳥保育園","name":"智鳥保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["○","×","△","△","○","○"],"waiting":[0,1,0,0,0,0],"note":"1号認定（教育認定）の利用定員を別に設けている施設です。"},
+    {"id":"うちこしこども園","name":"うちこしこども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","×"],"waiting":[3,5,0,0,0,0],"note":"1号認定（教育認定）の利用定員を別に設けている施設です。"},
+    {"id":"きたじまこども園","name":"きたじまこども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"],"waiting":[2,2,0,0,0,0],"note":"1号認定（教育認定）の利用定員を別に設けている施設です。"},
+    {"id":"脇田こども学園","name":"脇田こども学園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","△","△","×","×"],"waiting":[0,0,0,0,1,0],"note":"1号認定（教育認定）の利用定員を別に設けている施設です。"},
+    {"id":"めぐみ白鳥こども園","name":"めぐみ白鳥こども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"waiting":[1,2,0,0,0,0],"note":"1号認定（教育認定）の利用定員を別に設けている施設です。"},
+    {"id":"すえひろこども園","name":"すえひろこども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","△","×"],"waiting":[6,1,3,0,0,0],"note":"1号認定（教育認定）の利用定員を別に設けている施設です。"},
+    {"id":"大阪愛徳幼稚園","name":"大阪愛徳幼稚園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"],"waiting":[3,0,0,0,0,0],"note":"1号認定（教育認定）の利用定員を別に設けている施設です。"},
+    {"id":"おひさま保育園","name":"おひさま保育園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△",null,null,null],"waiting":[0,0,0,null,null,null]},
+    {"id":"なごみ広場","name":"なごみ広場","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△",null,null,null],"waiting":[0,0,0,null,null,null]},
+    {"id":"麦の子共同保育園","name":"麦の子共同保育園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","△",null,null,null],"waiting":[0,0,0,null,null,null]},
+    {"id":"まめっこくらぶ","name":"まめっこくらぶ","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":[null,"×","×",null,null,null],"waiting":[null,1,1,null,null,null]},
+    {"id":"はすのみ保育園","name":"はすのみ保育園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△",null,null,null],"waiting":[0,0,0,null,null,null]},
+    {"id":"小規模保育園きずな","name":"小規模保育園きずな","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×",null,null,null],"waiting":[1,0,0,null,null,null]},
+    {"id":"ぬくもりのおうち保育門真園","name":"ぬくもりのおうち保育門真園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△",null,null,null],"waiting":[0,0,0,null,null,null]},
+    {"id":"えがお保育園","name":"えがお保育園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","△",null,null,null],"waiting":[2,1,0,null,null,null]},
+    {"id":"めぐみっこクラブ","name":"めぐみっこクラブ","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":[null,"×","△",null,null,null],"waiting":[null,0,0,null,null,null]},
+    {"id":"ぬくもりのおうち保育門真市駅前園","name":"ぬくもりのおうち保育門真市駅前園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","△",null,null,null],"waiting":[0,0,0,null,null,null]},
+    {"id":"まめっこ","name":"まめっこ","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null],"waiting":[0,1,1,null,null,null]}
+  ]
+}

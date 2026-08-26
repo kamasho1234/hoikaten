@@ -226,6 +226,7 @@
     "vacancy:fetch:osaki": "tsx scripts/fetch-osaki-vacancy.ts",
     "vacancy:fetch:higashimatsuyama": "tsx scripts/fetch-higashimatsuyama-vacancy.ts",
     "vacancy:fetch:kounosu": "tsx scripts/fetch-kounosu-vacancy.ts",
+    "vacancy:fetch:kadoma": "tsx scripts/fetch-kadoma-vacancy.ts",
     "vacancy:fetch:wakayama": "tsx scripts/fetch-wakayama-vacancy.ts"
   },
   "dependencies": {

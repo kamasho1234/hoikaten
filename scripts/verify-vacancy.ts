@@ -690,6 +690,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 門真市は空き状況（記号）と申込み人数（数）を同じPDFの2ページで出している
+  kadoma: {
+    asOf: "2026-08-01",
+    facilityCount: 32,
+    vacancy: 0,
+    symbolCounts: { "×": 98, "△": 46, "○": 7 },
+  },
   // 鴻巣市は小規模保育施設・事業所内保育が3歳児以上を受け入れないと本文にある
   kounosu: {
     asOf: "2026-08-18",
