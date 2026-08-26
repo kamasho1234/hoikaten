@@ -1,0 +1,90 @@
+{
+  "municipalitySlug": "osaki",
+  "municipalityName": "大崎市",
+  "asOf": "2026-08-14",
+  "fetchedAt": "2026-08-26",
+  "sourceName": "大崎市「市内保育施設の空き状況」",
+  "sourceUrl": "https://www.city.osaki.miyagi.jp/shisei/soshikikarasagasu/minseibu/kosodateshienka/3/6/1_1/15978.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.osaki.miyagi.jp/material/files/group/14/2026814.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "2026年度8月10日入所選考後の空き状況",
+  "notes": [
+    "大崎市は空き状況を人数ではなく記号で公表しています。これは2026年度8月10日入所選考後のもので、2026-08-14時点のものです。",
+    "公式の凡例は 「○」空きあり、「△」空き枠3以下、「×」空きなし です。",
+    "公式の表で空らんになっている年齢は「—」にしています。空きがなければ「×」と書かれ、施設ごとの「入所対象児」とも一つずつ照らし合わせています。",
+    "施設ごとの「入所対象児」と「定員（全学齢）」は公式の表に載っているものをそのまま出しています。",
+    "あくまでも目安であり，保育士の確保状況及び入所調整により実際と異なる場合もありますのでご承知ください。",
+    "また，空き枠があったとしても，選考点順のご案内となりますので，空き施設への申込み＝入所を確約するものではありません。"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "空きあり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "空き枠3以下",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"宮沢とまと保育園","name":"宮沢とまと保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["○","△","△",null,null,null],"note":"入所対象児: 生後2ヶ月以上2歳児 ／ 定員（全学齢）: 12人"},
+    {"id":"バイリンガル保育園","name":"バイリンガル保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△",null,null,null],"note":"入所対象児: 生後2ヶ月以上2歳児 ／ 定員（全学齢）: 12人"},
+    {"id":"バイリンガル保育園アネックス","name":"バイリンガル保育園アネックス","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","△",null,null,null],"note":"入所対象児: 生後2ヶ月以上2歳児 ／ 定員（全学齢）: 12人"},
+    {"id":"バイリンガル保育園ナーサリー","name":"バイリンガル保育園ナーサリー","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△",null,null,null],"note":"入所対象児: 生後2ヶ月以上2歳児 ／ 定員（全学齢）: 12人"},
+    {"id":"ケヤキッズとおかまち保育園","name":"ケヤキッズとおかまち保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△",null,null,null],"note":"入所対象児: 生後2ヶ月以上2歳児 ／ 定員（全学齢）: 12人"},
+    {"id":"もりのなかま保育園大崎古川園","name":"もりのなかま保育園大崎古川園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×",null,null,null],"note":"入所対象児: 生後2ヶ月以上2歳児 ／ 定員（全学齢）: 12人"},
+    {"id":"穂波の郷育伸ｷｯｽﾞ保育園","name":"穂波の郷育伸ｷｯｽﾞ保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null],"note":"入所対象児: 生後2ヶ月以上2歳児 ／ 定員（全学齢）: 12人"},
+    {"id":"マザーズルーム保育園","name":"マザーズルーム保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△",null,null,null],"note":"入所対象児: 生後2ヶ月以上2歳児 ／ 定員（全学齢）: 12人"},
+    {"id":"つくし保育園","name":"つくし保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","○",null,null,null],"note":"入所対象児: 生後2ヶ月以上2歳児 ／ 定員（全学齢）: 12人"},
+    {"id":"ぽかぽか保育園","name":"ぽかぽか保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","○","△",null,null,null],"note":"入所対象児: 生後2ヶ月以上2歳児 ／ 定員（全学齢）: 12人"},
+    {"id":"古川北町保育所","name":"古川北町保育所","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","△","△","△"],"note":"入所対象児: 生後2ヶ月以上就学前 ／ 定員（全学齢）: 90人"},
+    {"id":"古川西保育所","name":"古川西保育所","w":null,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"△","△","△"],"note":"入所対象児: 3歳児以上就学前 ／ 定員（全学齢）: 130人"},
+    {"id":"岩出山保育所","name":"岩出山保育所","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","×","×","△","△"],"note":"入所対象児: 生後2ヶ月以上就学前 ／ 定員（全学齢）: 100人"},
+    {"id":"田尻子育て総合施設すまいる園","name":"田尻子育て総合施設すまいる園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","△","△"],"note":"入所対象児: 生後2ヶ月以上就学前 ／ 定員（全学齢）: 150人"},
+    {"id":"三本木子育て支援総合施設ひまわり園","name":"三本木子育て支援総合施設ひまわり園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","×","×"],"note":"入所対象児: 生後2ヶ月以上就学前 ／ 定員（全学齢）: 150人"},
+    {"id":"鹿島台子育て支援総合施設なかよし園","name":"鹿島台子育て支援総合施設なかよし園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×","△","×","△"],"note":"入所対象児: 生後2ヶ月以上就学前 ／ 定員（全学齢）: 110人"},
+    {"id":"松山子育て支援総合施設あおぞら園","name":"松山子育て支援総合施設あおぞら園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","△","△"],"note":"入所対象児: 生後2ヶ月以上就学前 ／ 定員（全学齢）: 90人"},
+    {"id":"古川東町カトリック保育園","name":"古川東町カトリック保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△","×","×","×"],"note":"入所対象児: 生後57日目以上就学前 ／ 定員（全学齢）: 60人"},
+    {"id":"こばと保育園","name":"こばと保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"note":"入所対象児: 生後2ヶ月以上就学前 ／ 定員（全学齢）: 60人"},
+    {"id":"宮城第一保育園","name":"宮城第一保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"],"note":"入所対象児: 生後2ヶ月以上就学前 ／ 定員（全学齢）: 70人"},
+    {"id":"古川みなみ保育園","name":"古川みなみ保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","△","×"],"note":"入所対象児: 生後2ヶ月以上就学前 ／ 定員（全学齢）: 90人"},
+    {"id":"さくら保育園","name":"さくら保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△","△","△","△"],"note":"入所対象児: 生後2ヶ月以上就学前 ／ 定員（全学齢）: 40人"},
+    {"id":"古川ももの木保育園","name":"古川ももの木保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"note":"入所対象児: 生後57日目以上就学前 ／ 定員（全学齢）: 90人"},
+    {"id":"太陽認定こども園","name":"太陽認定こども園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"note":"入所対象児: 生後2ヶ月以上就学前 ／ 定員（全学齢）: 130人"},
+    {"id":"わかば保育園","name":"わかば保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","×","×"],"note":"入所対象児: 生後2ヶ月以上就学前 ／ 定員（全学齢）: 100人"},
+    {"id":"ほなみの杜こども園","name":"ほなみの杜こども園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","×","×","×","×"],"note":"入所対象児: 生後2ヶ月以上就学前 ／ 定員（全学齢）: 60人"},
+    {"id":"鴻ノ巣保育園","name":"鴻ノ巣保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"],"note":"入所対象児: 生後2ヶ月以上就学前 ／ 定員（全学齢）: 55人"},
+    {"id":"わんぱく保育園","name":"わんぱく保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"note":"入所対象児: 生後2ヶ月以上就学前 ／ 定員（全学齢）: 75人"},
+    {"id":"大幡保育園","name":"大幡保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"note":"入所対象児: 生後2ヶ月以上就学前 ／ 定員（全学齢）: 80人"},
+    {"id":"虹の精認定こども園","name":"虹の精認定こども園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"note":"入所対象児: 生後2ヶ月以上就学前 ／ 定員（全学齢）: 60人"},
+    {"id":"いちょう保育園","name":"いちょう保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"note":"入所対象児: 生後57日目以上就学前 ／ 定員（全学齢）: 90人"},
+    {"id":"わかば第二保育園","name":"わかば第二保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","△","×","×"],"note":"入所対象児: 生後2ヶ月以上就学前 ／ 定員（全学齢）: 60人"},
+    {"id":"えがおの保育園","name":"えがおの保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"note":"入所対象児: 生後2ヶ月以上就学前 ／ 定員（全学齢）: 75人"},
+    {"id":"大崎キッズイマジン保育園","name":"大崎キッズイマジン保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×","△","×","△"],"note":"入所対象児: 生後2ヶ月以上就学前 ／ 定員（全学齢）: 90人"},
+    {"id":"古川くりの木保育園","name":"古川くりの木保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"],"note":"入所対象児: 生後57日目以上就学前 ／ 定員（全学齢）: 75人"},
+    {"id":"かえで保育園","name":"かえで保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"note":"入所対象児: 生後57日目以上就学前 ／ 定員（全学齢）: 80人"},
+    {"id":"わかば第三保育園","name":"わかば第三保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","△","×","×"],"note":"入所対象児: 生後2ヶ月以上就学前 ／ 定員（全学齢）: 60人"},
+    {"id":"バオバブ保育園","name":"バオバブ保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"note":"入所対象児: 生後57日目以上就学前 ／ 定員（全学齢）: 75人"},
+    {"id":"スケッチ保育園","name":"スケッチ保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","△","△","×"],"note":"入所対象児: 生後57日目以上就学前 ／ 定員（全学齢）: 75人"},
+    {"id":"もりのなかま保育園古川北町園","name":"もりのなかま保育園古川北町園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"note":"入所対象児: 生後2ヶ月以上就学前 ／ 定員（全学齢）: 60人"},
+    {"id":"げんき保育園","name":"げんき保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△","△","×","×"],"note":"入所対象児: 生後2ヶ月以上就学前 ／ 定員（全学齢）: 60人"},
+    {"id":"鹿島台保育園","name":"鹿島台保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"note":"入所対象児: 生後2ヶ月以上就学前 ／ 定員（全学齢）: 60人"},
+    {"id":"ウェルネス保育園大崎","name":"ウェルネス保育園大崎","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"],"note":"入所対象児: 生後2ヶ月以上就学前 ／ 定員（全学齢）: 40人"},
+    {"id":"認定いわでやまこども園","name":"認定いわでやまこども園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","△","△"],"note":"入所対象児: 生後8ヶ月以上就学前 ／ 定員（全学齢）: 80人"},
+    {"id":"鳴子こども園","name":"鳴子こども園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"note":"入所対象児: 生後57日目以上就学前 ／ 定員（全学齢）: 20人"},
+    {"id":"川渡カトリック保育園","name":"川渡カトリック保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△","×","△","△"],"note":"入所対象児: 生後2ヶ月以上就学前 ／ 定員（全学齢）: 25人"}
+  ]
+}

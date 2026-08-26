@@ -690,6 +690,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 大崎市は「入所対象児」の列から年齢の範囲が上下とも決まるので空らんを全件検算できる
+  osaki: {
+    asOf: "2026-08-14",
+    facilityCount: 46,
+    vacancy: 0,
+    symbolCounts: { "×": 158, "△": 82, "○": 3 },
+  },
   // 神栖市は「受入対象」の列があるので、受け入れ開始年齢より前の空らんを検算できる
   kamisu: {
     asOf: "2026-07-31",
