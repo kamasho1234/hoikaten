@@ -2,3 +2,5 @@
 import "./shussan";
 import "./ikuji";
 import "./kyoikuhi";
+import "./shunyu";
+import "./timing";
