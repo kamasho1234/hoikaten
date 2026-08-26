@@ -1,0 +1,83 @@
+{
+  "municipalitySlug": "settsu",
+  "municipalityName": "摂津市",
+  "asOf": "2026-08-01",
+  "fetchedAt": "2026-08-26",
+  "sourceName": "摂津市「保育所等の空き状況」",
+  "sourceUrl": "https://www.city.settsu.osaka.jp/soshiki/kodomokateibu/hoikukyouikuka/hoikuennyusho/30324.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.settsu.osaka.jp/material/files/group/2/R0809akijoukyou.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "2026年9月入所分の空き状況",
+  "notes": [
+    "摂津市は空き状況を人数ではなく記号で公表しています。これは2026年9月入所分で、2026-08-01時点のものです。",
+    "公式の凡例は 「○」空きが3人以上、「△」空きが1～2人、「×」空き無し です。",
+    "公式の表で空らんになっている年齢は「—」にしています。空きが無いときは「×」と書かれるので、空らんはその年齢の受け入れがないことを表します。",
+    "空き状況は毎月1日に公表されます。",
+    "各施設の受入態勢により、現時点で空きがあっても受入れができなくなる場合や、現時点で空き無しとなっていても在園児",
+    "２・３号認定児童の総数により受入人数を決定する場合があるため、現時点で当該クラスに空きがあっても、別のクラスで受",
+    "空き状況に関して、各施設への直接のお問合せはお控えください。",
+    "本情報以上の空き状況については、公平性の観点からお答えいたしかねます。"
+  ],
+  "wards": [],
+  "categories": [
+    "公立認定こども園",
+    "私立保育所",
+    "私立認定こども園",
+    "私立小規模保育事業"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "空きが3人以上",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "空きが1～2人",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空き無し",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"子育て総合支援センター","name":"子育て総合支援センター","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"べふこども園","name":"べふこども園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"とりかいこども園","name":"とりかいこども園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","△","△","×"]},
+    {"id":"摂津ポッポせんりおか保育園","name":"摂津ポッポせんりおか保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","×"]},
+    {"id":"勝久寺保育園","name":"勝久寺保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"ポポラー大阪南千里丘園","name":"ポポラー大阪南千里丘園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"わかば保育園","name":"わかば保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","○","△","×"]},
+    {"id":"摂津さつき保育園","name":"摂津さつき保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["○","△","×","×","×","×"]},
+    {"id":"認定こども園千里丘愛育園","name":"認定こども園千里丘愛育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["○","×","×","×","△","×"]},
+    {"id":"認定こども園KENTOひまわり園","name":"認定こども園KENTOひまわり園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"認定こども園みなみせんりおか遊育園","name":"認定こども園みなみせんりおか遊育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"認定こども園みなみせんりおか遊育園分園がくえんちょう遊育園","name":"認定こども園みなみせんりおか遊育園分園がくえんちょう遊育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△",null,null,null]},
+    {"id":"認定こども園正雀ひかり園","name":"認定こども園正雀ひかり園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"認定こども園せっつあそびまち遊育園","name":"認定こども園せっつあそびまち遊育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"認定こども園せっつ遊育園","name":"認定こども園せっつ遊育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"認定こども園あとりえらぼ遊育園","name":"認定こども園あとりえらぼ遊育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":[null,"×","×","×","×","×"]},
+    {"id":"認定こども園つるのひまわり園","name":"認定こども園つるのひまわり園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","×","×"]},
+    {"id":"認定こども園正雀愛育園","name":"認定こども園正雀愛育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×","×","×","×"]},
+    {"id":"認定こども園一津屋愛育園","name":"認定こども園一津屋愛育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","△","×"]},
+    {"id":"認定こども園摂津ひかり幼稚園","name":"認定こども園摂津ひかり幼稚園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","△","×","×","×"]},
+    {"id":"認定こども園鳥飼さつき園","name":"認定こども園鳥飼さつき園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","×","△","△","△"]},
+    {"id":"認定こども園こどもの杜藤森学園","name":"認定こども園こどもの杜藤森学園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△","△","×","△"]},
+    {"id":"認定こども園摂津ひかり保育園","name":"認定こども園摂津ひかり保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","△","×","×","×"]},
+    {"id":"認定こども園とりかい遊育園","name":"認定こども園とりかい遊育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","△","×","○"]},
+    {"id":"認定こども園とりかいひがし遊育園","name":"認定こども園とりかいひがし遊育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","△","△","×","○"]},
+    {"id":"認定こども園とりかいひがし遊育園分園たいしょうがわ遊育園BebeMaison","name":"認定こども園とりかいひがし遊育園分園たいしょうがわ遊育園BebeMaison","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":[null,"×","×",null,null,null]},
+    {"id":"こどもなーと千里丘保育園","name":"こどもなーと千里丘保育園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"こどもなーと保育園mille","name":"こどもなーと保育園mille","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":[null,"×","×",null,null,null]},
+    {"id":"こどもなーと摂津保育園","name":"こどもなーと摂津保育園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"こどもなーと正雀保育園","name":"こどもなーと正雀保育園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"摂津ポッポ保育園香露園校","name":"摂津ポッポ保育園香露園校","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"摂津ポッポ保育園正雀校","name":"摂津ポッポ保育園正雀校","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△",null,null,null]}
+  ]
+}

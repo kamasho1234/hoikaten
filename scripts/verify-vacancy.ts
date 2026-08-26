@@ -690,6 +690,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 摂津市は「区分」（公立・私立）と「種別」が別の列にある
+  settsu: {
+    asOf: "2026-08-01",
+    facilityCount: 32,
+    vacancy: 0,
+    symbolCounts: { "×": 127, "△": 33, "○": 5 },
+  },
   // 門真市は空き状況（記号）と申込み人数（数）を同じPDFの2ページで出している
   kadoma: {
     asOf: "2026-08-01",
