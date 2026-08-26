@@ -690,6 +690,12 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 江南市は入園案内PDFの入所年齢と突き合わせて「ー」がクラスなしだと確かめている
+  konan: {
+    asOf: "2026-08-15",
+    facilityCount: 22,
+    vacancy: 238,
+  },
   // 豊川市は0歳児に「※1」だけが入る欄がある（空きの有無は書かれていない）
   toyokawa: {
     asOf: "2026-07-24",
