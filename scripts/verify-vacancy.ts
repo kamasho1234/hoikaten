@@ -690,6 +690,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 鎌ケ谷市はHTMLの表。区分が rowspan で入るので先頭行だけ列がひとつ多い
+  kamagaya: {
+    asOf: "2026-08-12",
+    facilityCount: 25,
+    vacancy: 0,
+    symbolCounts: { "×": 116, "△": 4 },
+  },
   // 印西市は空きが記号、在園児数が人数の2本立て
   inzai: {
     asOf: "2026-08-20",

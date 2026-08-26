@@ -193,6 +193,7 @@
     "vacancy:fetch:gyoda": "tsx scripts/fetch-gyoda-vacancy.ts",
     "vacancy:fetch:shiki": "tsx scripts/fetch-shiki-vacancy.ts",
     "vacancy:fetch:inzai": "tsx scripts/fetch-inzai-vacancy.ts",
+    "vacancy:fetch:kamagaya": "tsx scripts/fetch-kamagaya-vacancy.ts",
     "vacancy:fetch:wakayama": "tsx scripts/fetch-wakayama-vacancy.ts"
   },
   "dependencies": {

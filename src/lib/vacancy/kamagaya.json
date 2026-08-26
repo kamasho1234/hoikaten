@@ -1,0 +1,71 @@
+{
+  "municipalitySlug": "kamagaya",
+  "municipalityName": "鎌ケ谷市",
+  "asOf": "2026-08-12",
+  "fetchedAt": "2026-08-26",
+  "sourceName": "鎌ケ谷市「保育園・認定こども園・小規模保育事業空き状況、受入状況」",
+  "sourceUrl": "https://www.city.kamagaya.chiba.jp/kosodate-kyouiku/kosodate/hoikuen-youchientou/hoikuen_ukeirejyou.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.kamagaya.chiba.jp/kosodate-kyouiku/kosodate/hoikuen-youchientou/hoikuen_ukeirejyou.html"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "保育園等の空き状況",
+  "notes": [
+    "鎌ケ谷市は空きを人数ではなく記号で公表しています。公式ページが2026-08-12に更新されたものです。",
+    "公式ページには受入状況（在園児数）の表も並んでいますが、空き状況の表と施設名の書き方が違い（「ふじのこ」と「ふじのこ保育園」など）確実に結びつけられないため、当サイトでは載せていません。",
+    "公式の表で空らんになっている年齢は「—」にしています。その年齢のクラスがないことを表しています。"
+  ],
+  "wards": [],
+  "categories": [
+    "公立",
+    "私立",
+    "認定こども園",
+    "駅チカあっとほーむ"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "3人以上空き",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1人から2人の空きあり",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"道野辺","name":"道野辺","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"南初富","name":"南初富","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"粟野","name":"粟野","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"鎌ケ谷","name":"鎌ケ谷","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","△"]},
+    {"id":"ふじのこ","name":"ふじのこ","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","△"]},
+    {"id":"りすのこ","name":"りすのこ","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"おおぞら","name":"おおぞら","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"まるやま","name":"まるやま","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"まなびの森鎌ケ谷ピコレール","name":"まなびの森鎌ケ谷ピコレール","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"すくすくの杜鎌ケ谷園","name":"すくすくの杜鎌ケ谷園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"たかし保育園新鎌ケ谷","name":"たかし保育園新鎌ケ谷","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"たかし保育園鎌ケ谷大仏","name":"たかし保育園鎌ケ谷大仏","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"ケーズガーデン鎌ケ谷保育園","name":"ケーズガーデン鎌ケ谷保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"鎌ケ谷ふじ幼稚園","name":"鎌ケ谷ふじ幼稚園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"鎌ケ谷みどり幼稚園","name":"鎌ケ谷みどり幼稚園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","△"]},
+    {"id":"あっとほーむママ・ほしのこ","name":"あっとほーむママ・ほしのこ","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"あっとほーむママ・にじのこ","name":"あっとほーむママ・にじのこ","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"みちるKids園","name":"みちるKids園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"初富スマイルキッズ","name":"初富スマイルキッズ","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"ふたば園","name":"ふたば園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"くるみ園","name":"くるみ園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"えんぜるナーサリー初富","name":"えんぜるナーサリー初富","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"ぶれあ保育園・新鎌ケ谷","name":"ぶれあ保育園・新鎌ケ谷","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"スクルドエンジェル保育園新鎌ケ谷園","name":"スクルドエンジェル保育園新鎌ケ谷園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"スクルドエンジェル保育園鎌ケ谷大仏園","name":"スクルドエンジェル保育園鎌ケ谷大仏園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]}
+  ]
+}
