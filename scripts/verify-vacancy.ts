@@ -690,6 +690,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 知多市も入所案内PDFの保育年齢と突き合わせて空らんがクラスなしだと確かめている
+  chita: {
+    asOf: "2026-08-03",
+    facilityCount: 21,
+    vacancy: 0,
+    symbolCounts: { "×": 60, "○": 51 },
+  },
   // 江南市は入園案内PDFの入所年齢と突き合わせて「ー」がクラスなしだと確かめている
   konan: {
     asOf: "2026-08-15",

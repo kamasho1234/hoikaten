@@ -1,0 +1,65 @@
+{
+  "municipalitySlug": "chita",
+  "municipalityName": "知多市",
+  "asOf": "2026-08-03",
+  "fetchedAt": "2026-08-26",
+  "sourceName": "知多市「市内保育所等 空き状況一覧」",
+  "sourceUrl": "https://www.city.chita.lg.jp/docs/2023101600014/",
+  "sourceFiles": {
+    "vacancy": "https://www.city.chita.lg.jp/docs/2023101600014/file_contents/R8akizyoukyou.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "2026年度の空き状況",
+  "notes": [
+    "知多市は空き状況を人数ではなく記号で公表しています。これは2026年度分で、2026-08-03時点のものです。",
+    "公式の凡例は「空きあり○」「空き無し×」です。",
+    "公式の表で空らんになっている年齢は「—」にしています。入所案内の保育年齢と照らして、その園がその年齢を受けていないことを確かめています（出典: https://www.city.chita.lg.jp/docs/2014020701876/file_contents/R8nyushoannai.pdf）。",
+    "※公立保育所の０歳児から２歳児までについては、期間限定で入所できる場合があります。",
+    "※新知保育園、新田保育園、つつじが丘保育園、日長台保育園、梅が丘こども園の４・５歳児については、特別支援"
+  ],
+  "wards": [],
+  "categories": [
+    "公立保育所",
+    "私立保育所",
+    "公立幼保連携型認定こども園（保育認定）",
+    "私立幼保連携型認定こども園（保育認定）",
+    "私立小規模保育事業所"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "空きあり",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空き無し",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"新舞子保育園","name":"新舞子保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","○","×","○","○","○"]},
+    {"id":"八幡保育園","name":"八幡保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","○","×","×","×","○"]},
+    {"id":"佐布里保育園","name":"佐布里保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","○","×","○","×"]},
+    {"id":"新知保育園","name":"新知保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","○","×","×","○"]},
+    {"id":"新田保育園","name":"新田保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","○","○","○"]},
+    {"id":"寺本保育園","name":"寺本保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,"○","○","○","×","○"]},
+    {"id":"つつじが丘保育園","name":"つつじが丘保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,"×","○","×","○","○"]},
+    {"id":"日長台保育園","name":"日長台保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","○","×","○","○"]},
+    {"id":"岡田西保育園","name":"岡田西保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","○","○","○","○","○"]},
+    {"id":"南粕谷保育園","name":"南粕谷保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","○","○","○","○"]},
+    {"id":"朝倉保育園","name":"朝倉保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":[null,"○","○","×","○","○"]},
+    {"id":"ゆめ保育園","name":"ゆめ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","○","○",null,null,null]},
+    {"id":"SORA保育園","name":"SORA保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","○","×","×"]},
+    {"id":"マ・メール知多保育園","name":"マ・メール知多保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","○","×","○","○","○"]},
+    {"id":"にじいろ保育園旭","name":"にじいろ保育園旭","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","○","○","○","○"]},
+    {"id":"梅が丘こども園","name":"梅が丘こども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"明愛幼稚園","name":"明愛幼稚園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"知多クロスこども園","name":"知多クロスこども園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["○","○","×","×","×","×"]},
+    {"id":"ひだまりの家","name":"ひだまりの家","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","○",null,null,null]},
+    {"id":"さざなみの家","name":"さざなみの家","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"知多朝倉駅ぽっぽ園","name":"知多朝倉駅ぽっぽ園","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","○",null,null,null]}
+  ]
+}

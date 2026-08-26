@@ -215,6 +215,7 @@
     "vacancy:fetch:handa": "tsx scripts/fetch-handa-vacancy.ts",
     "vacancy:fetch:toyokawa": "tsx scripts/fetch-toyokawa-vacancy.ts",
     "vacancy:fetch:konan": "tsx scripts/fetch-konan-vacancy.ts",
+    "vacancy:fetch:chita": "tsx scripts/fetch-chita-vacancy.ts",
     "vacancy:fetch:wakayama": "tsx scripts/fetch-wakayama-vacancy.ts"
   },
   "dependencies": {
