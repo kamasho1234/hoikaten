@@ -690,6 +690,12 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // ひたちなか市は各行の「計」と全体の「合計」の両方で検算している
+  hitachinaka: {
+    asOf: "2026-08-05",
+    facilityCount: 23,
+    vacancy: 26,
+  },
   // 牛久市は月ごとに記事が分かれる。募集計と合計の両方で検算している
   ushiku: {
     asOf: "2026-08-19",
