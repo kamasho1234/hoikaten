@@ -690,6 +690,12 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 宜野湾市は校区の名前が縦書きで行をまたいでばらばらに入る
+  ginowan: {
+    asOf: "2026-08-24",
+    facilityCount: 52,
+    vacancy: 115,
+  },
   // 浦添市は受入可能児童数と入所待ち児童数の2つを公表している
   urasoe: {
     asOf: "2026-08-24",
