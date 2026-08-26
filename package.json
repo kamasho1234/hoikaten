@@ -230,6 +230,7 @@
     "vacancy:fetch:settsu": "tsx scripts/fetch-settsu-vacancy.ts",
     "vacancy:fetch:kizugawa": "tsx scripts/fetch-kizugawa-vacancy.ts",
     "vacancy:fetch:yotsukaido": "tsx scripts/fetch-yotsukaido-vacancy.ts",
+    "vacancy:fetch:ryugasaki": "tsx scripts/fetch-ryugasaki-vacancy.ts",
     "vacancy:fetch:wakayama": "tsx scripts/fetch-wakayama-vacancy.ts"
   },
   "dependencies": {

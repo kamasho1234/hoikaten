@@ -1159,6 +1159,11 @@ jobs:
         continue-on-error: true
         run: npm run vacancy:fetch:yotsukaido
 
+      - name: 龍ケ崎市を取り込む
+        id: ryugasaki
+        continue-on-error: true
+        run: npm run vacancy:fetch:ryugasaki
+
       # ここから下は失敗したらコミットしない（壊れたデータを公開しないため）
       - name: 型チェック
         run: npx tsc --noEmit
@@ -1396,6 +1401,7 @@ jobs:
               *settsu.json) MSG="$MSG 摂津市（$(node -p "require('./src/lib/vacancy/settsu.json').asOf")時点）" ;;
               *kizugawa.json) MSG="$MSG 木津川市（$(node -p "require('./src/lib/vacancy/kizugawa.json').asOf")時点）" ;;
               *yotsukaido.json) MSG="$MSG 四街道市（$(node -p "require('./src/lib/vacancy/yotsukaido.json').asOf")時点）" ;;
+              *ryugasaki.json) MSG="$MSG 龍ケ崎市（$(node -p "require('./src/lib/vacancy/ryugasaki.json').asOf")時点）" ;;
             esac
           done
           git config user.name "github-actions[bot]"

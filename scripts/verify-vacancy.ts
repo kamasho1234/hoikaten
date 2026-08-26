@@ -690,6 +690,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 龍ケ崎市は凡例に「(空白)：空き無し」とあり、空らんがクラスなしではない
+  ryugasaki: {
+    asOf: "2026-07-27",
+    facilityCount: 20,
+    vacancy: 0,
+    symbolCounts: { "▲": 43, "〇": 19, "空き無し": 39 },
+  },
   // 四街道市は受入可能・在籍・入所待ちの3つが揃う（合計の列で全件検算できる）
   yotsukaido: {
     asOf: "2026-08-01",
