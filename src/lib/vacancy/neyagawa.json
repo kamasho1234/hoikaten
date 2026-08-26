@@ -1,0 +1,102 @@
+{
+  "municipalitySlug": "neyagawa",
+  "municipalityName": "寝屋川市",
+  "asOf": "2026-08-14",
+  "fetchedAt": "2026-08-26",
+  "sourceName": "寝屋川市「入園申請空き枠状況」",
+  "sourceUrl": "https://www.city.neyagawa.osaka.jp/organization_list/kodomo/hoikuka/kodomo_hoikusyo/hoikusho/25327.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.neyagawa.osaka.jp/material/files/group/118/akiwaku9gatu.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "2026年9月選考の受入れ状況",
+  "notes": [
+    "寝屋川市は空き状況を人数ではなく記号で公表しています。これは2026年9月選考の受入れ状況で、公式ページが2026-08-14に更新されたものです。",
+    "空枠は変動する可能性があります",
+    "公式の表で空らんになっている年齢は「—」にしています。その年齢のクラスがないことを表しています。"
+  ],
+  "wards": [
+    "西北",
+    "東北",
+    "東",
+    "西",
+    "西南",
+    "南"
+  ],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "◎",
+      "label": "6人以上",
+      "open": true
+    },
+    {
+      "mark": "○",
+      "label": "3～5人",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1～2人",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "受入枠なし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"さざんか保育所","name":"さざんか保育所","w":0,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","×","×"]},
+    {"id":"認定こども園寝屋川めぐみ園","name":"認定こども園寝屋川めぐみ園","w":0,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×","×","×","×"]},
+    {"id":"認定こども園石津保育園","name":"認定こども園石津保育園","w":0,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"認定こども園ひまわり保育園","name":"認定こども園ひまわり保育園","w":0,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","×","×","×","×"]},
+    {"id":"認定こども園きんもくせい保育園","name":"認定こども園きんもくせい保育園","w":0,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"認定こども園アカシヤ保育園","name":"認定こども園アカシヤ保育園","w":0,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×","×","×","×"]},
+    {"id":"さつき保育所","name":"さつき保育所","w":1,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"認定こども園三井中央幼稚園","name":"認定こども園三井中央幼稚園","w":1,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":[null,"×","×","×","△","×"]},
+    {"id":"国松保育園","name":"国松保育園","w":1,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△",null,null]},
+    {"id":"明徳保育園","name":"明徳保育園","w":1,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"なでしこ保育園","name":"なでしこ保育園","w":1,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"大阪聖母保育園","name":"大阪聖母保育園","w":1,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"ねやがわ寝屋の森こども園","name":"ねやがわ寝屋の森こども園","w":1,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"認定こども園香里幼稚園","name":"認定こども園香里幼稚園","w":1,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":[null,"×","×","×","×","×"]},
+    {"id":"おひさま保育園","name":"おひさま保育園","w":1,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"たんぽぽ保育所","name":"たんぽぽ保育所","w":2,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","△","△","△","×"]},
+    {"id":"豊野保育園","name":"豊野保育園","w":2,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"寝屋川東保育園","name":"寝屋川東保育園","w":2,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"常盤学園保育所","name":"常盤学園保育所","w":2,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"打上保育園","name":"打上保育園","w":2,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"認定こども園本町こども園","name":"認定こども園本町こども園","w":2,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["○","×","×","△","×","×"]},
+    {"id":"認定こども園第2アカシヤ保育園","name":"認定こども園第2アカシヤ保育園","w":2,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"認定こども園太秦幼稚園","name":"認定こども園太秦幼稚園","w":2,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"幼保連携型認定こども園やまなみ幼稚園","name":"幼保連携型認定こども園やまなみ幼稚園","w":2,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":[null,"×","×","×","×","×"]},
+    {"id":"まあぶるこども園星の学舎","name":"まあぶるこども園星の学舎","w":3,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","△"]},
+    {"id":"幼保連携型認定こども園寝屋川なかよし保育園","name":"幼保連携型認定こども園寝屋川なかよし保育園","w":3,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"幼保連携型認定こども園第2寝屋川なかよし保育園","name":"幼保連携型認定こども園第2寝屋川なかよし保育園","w":3,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"認定こども園池田保育園","name":"認定こども園池田保育園","w":3,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","×","×","×","×"]},
+    {"id":"認定こども園桜木保育園","name":"認定こども園桜木保育園","w":3,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"幼保連携型認定こども園ゆりかごこども園","name":"幼保連携型認定こども園ゆりかごこども園","w":3,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×","×","×","×"]},
+    {"id":"幼保連携型認定こども園こまどりこども園","name":"幼保連携型認定こども園こまどりこども園","w":3,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"認定こども園仁和寺保育園","name":"認定こども園仁和寺保育園","w":3,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","△","×","△","△"]},
+    {"id":"認定こども園エールこども園","name":"認定こども園エールこども園","w":3,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","×"]},
+    {"id":"さくら保育所","name":"さくら保育所","w":4,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"幼保連携型認定こども園神田保育園","name":"幼保連携型認定こども園神田保育園","w":4,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"エルミンこども園","name":"エルミンこども園","w":4,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","×"]},
+    {"id":"かえで保育園","name":"かえで保育園","w":4,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"認定こども園すずらん保育園","name":"認定こども園すずらん保育園","w":4,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×","×","×","×"]},
+    {"id":"認定こども園太陽保育園","name":"認定こども園太陽保育園","w":4,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"ねやがわ成美の森こども園","name":"ねやがわ成美の森こども園","w":4,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"幼保連携型認定こども園旭学園第二幼稚園","name":"幼保連携型認定こども園旭学園第二幼稚園","w":4,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,"×","×","×","×"]},
+    {"id":"まあぶるこども園月の学舎","name":"まあぶるこども園月の学舎","w":5,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","△"]},
+    {"id":"こっこ保育園","name":"こっこ保育園","w":5,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"あやめ保育園","name":"あやめ保育園","w":5,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×","×","×","×"]},
+    {"id":"認定こども園たちばなこども園","name":"認定こども園たちばなこども園","w":5,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"認定こども園第3きんもくせい保育園","name":"認定こども園第3きんもくせい保育園","w":5,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"幼保連携型認定こども園しらゆりこども園","name":"幼保連携型認定こども園しらゆりこども園","w":5,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"認定こども園ひなぎく保育園","name":"認定こども園ひなぎく保育園","w":5,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"千成ヤクルトつばめＫＩＤＳ保育園","name":"千成ヤクルトつばめＫＩＤＳ保育園","w":5,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]}
+  ]
+}

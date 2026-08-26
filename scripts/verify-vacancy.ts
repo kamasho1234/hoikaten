@@ -690,6 +690,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 寝屋川市は月ごとのPDFが1ページに並ぶので、いちばん新しい月を選んでいる
+  neyagawa: {
+    asOf: "2026-08-14",
+    facilityCount: 49,
+    vacancy: 0,
+    symbolCounts: { "×": 243, "△": 37, "○": 1 },
+  },
   // 宜野湾市は校区の名前が縦書きで行をまたいでばらばらに入る
   ginowan: {
     asOf: "2026-08-24",
