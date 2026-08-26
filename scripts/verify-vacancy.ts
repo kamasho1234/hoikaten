@@ -690,6 +690,12 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // ふじみ野市は0も書かれるので空らんはクラスなし。「空き数」の合計行で検算している
+  fujimino: {
+    asOf: "2026-08-24",
+    facilityCount: 28,
+    vacancy: 85,
+  },
   // 綾瀬市も入所見込みが無ければ「×」と書かれるので、空らんはクラスなし
   ayase: {
     asOf: "2026-08-01",
