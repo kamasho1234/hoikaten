@@ -248,7 +248,7 @@ async function main() {
       subtitle: `${targetLabel}の受入可能状況`,
       notes,
       wards: [],
-      categories: [],
+      categories,
       symbolLegend,
       facilities,
     };
