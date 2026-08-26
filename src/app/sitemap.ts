@@ -5,6 +5,8 @@ import { prefectureMap } from "@/lib/prefecture";
 import { getVacancyData, getVacancySlugs } from "@/lib/vacancy";
 import { getAllDocuments } from "@/lib/documents";
 import "@/lib/documents/register-all";
+import { getAllInsuranceArticles } from "@/lib/insurance";
+import "@/lib/insurance/register-all";
 
 // 記事データの登録（sitemapはlayout.tsxとは別に実行されるため直接import）
 import "@/lib/articles/setagaya";
@@ -291,6 +293,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
+  // 妊娠・出産・育児のお金の記事
+  const insurancePages = getAllInsuranceArticles().map((a) => ({
+    url: `${baseUrl}/insurance/${a.slug}`,
+    lastModified: new Date(a.updatedAt),
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
   return [
     {
       url: baseUrl,
@@ -323,6 +333,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: `${baseUrl}/insurance`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    },
+    {
       url: `${baseUrl}/compare`,
       lastModified: new Date(),
       changeFrequency: "monthly" as const,
@@ -336,5 +352,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...articlePages,
     ...generalArticlePages,
     ...documentPages,
+    ...insurancePages,
   ];
 }

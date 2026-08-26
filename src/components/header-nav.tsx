@@ -64,6 +64,12 @@ export function HeaderNav({
         書類ガイド
       </a>
       <a
+        href="/insurance"
+        className="text-sm text-muted-foreground hover:text-primary px-2.5 py-1.5 rounded-lg hover:bg-primary/5 transition-colors whitespace-nowrap"
+      >
+        お金
+      </a>
+      <a
         href="/articles"
         className="text-sm text-muted-foreground hover:text-primary px-2.5 py-1.5 rounded-lg hover:bg-primary/5 transition-colors whitespace-nowrap"
       >
