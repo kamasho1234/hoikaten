@@ -499,9 +499,11 @@ function FacilityCard({
                   {i}歳
                 </p>
                 <p
-                  className={`text-sm font-bold tabular-nums leading-tight mt-0.5 ${
-                    cellOpen ? "text-primary" : "text-muted-foreground"
-                  }`}
+                  className={`font-bold tabular-nums leading-tight mt-0.5 ${
+                    // 日高市のように「受け入れ停止」と言葉で公表する自治体があるので、
+                    // 長い表記のときは字を小さくして折り返す
+                    cellMark !== null && cellMark.length > 2 ? "text-[10px]" : "text-sm"
+                  } ${cellOpen ? "text-primary" : "text-muted-foreground"}`}
                 >
                   {symbolBased ? (cellMark ?? "—") : (v ?? "—")}
                 </p>
