@@ -1054,6 +1054,11 @@ jobs:
         continue-on-error: true
         run: npm run vacancy:fetch:munakata
 
+      - name: 南城市を取り込む
+        id: nanjo
+        continue-on-error: true
+        run: npm run vacancy:fetch:nanjo
+
       # ここから下は失敗したらコミットしない（壊れたデータを公開しないため）
       - name: 型チェック
         run: npx tsc --noEmit
@@ -1270,6 +1275,7 @@ jobs:
               *toride.json) MSG="$MSG 取手市（$(node -p "require('./src/lib/vacancy/toride.json').asOf")時点）" ;;
               *niihama.json) MSG="$MSG 新居浜市（$(node -p "require('./src/lib/vacancy/niihama.json').asOf")時点）" ;;
               *munakata.json) MSG="$MSG 宗像市（$(node -p "require('./src/lib/vacancy/munakata.json').asOf")時点）" ;;
+              *nanjo.json) MSG="$MSG 南城市（$(node -p "require('./src/lib/vacancy/nanjo.json').asOf")時点）" ;;
             esac
           done
           git config user.name "github-actions[bot]"

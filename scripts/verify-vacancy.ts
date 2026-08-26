@@ -690,6 +690,12 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 南城市は1施設が5行（定員・受入可能・入所・入所待ち・空き）
+  nanjo: {
+    asOf: "2026-08-01",
+    facilityCount: 34,
+    vacancy: 88,
+  },
   // 宗像市は区分の縦書きが2列に分かれて文字が混ざる
   munakata: {
     asOf: "2026-08-01",
