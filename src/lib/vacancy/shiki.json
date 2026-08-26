@@ -1,0 +1,58 @@
+{
+  "municipalitySlug": "shiki",
+  "municipalityName": "志木市",
+  "asOf": "2026-08-20",
+  "fetchedAt": "2026-08-26",
+  "sourceName": "志木市「保育施設空き状況」",
+  "sourceUrl": "https://www.city.shiki.lg.jp/kosodate/shikikko/25792.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.shiki.lg.jp/uploaded/attachment/23965.pdf"
+  },
+  "metrics": [
+    "vacancy"
+  ],
+  "subtitle": "10月入所の入園可能人数",
+  "notes": [
+    "志木市が公開しているのは10月1日からの入所可能人数で、2026-08-20時点のものです。",
+    "入園辞退者や入園取下者が出た場合、上記数から変更となる場合があります。",
+    "公式の表で空らんになっている年齢は「—」にしています。その年齢のクラスがないことを表しています。"
+  ],
+  "wards": [],
+  "categories": [],
+  "facilities": [
+    {"id":"いろは保育園","name":"いろは保育園","w":null,"c":null,"vacancy":[0,0,0,0,0,0]},
+    {"id":"アスク志木駅前保育園","name":"アスク志木駅前保育園","w":null,"c":null,"vacancy":[0,0,0,null,null,null]},
+    {"id":"こどもの家・志木中宗岡","name":"こどもの家・志木中宗岡","w":null,"c":null,"vacancy":[0,0,0,0,1,0]},
+    {"id":"アンファンシェリぺあもーる","name":"アンファンシェリぺあもーる","w":null,"c":null,"vacancy":[3,0,0,3,1,1]},
+    {"id":"まなびの森よつば保育園","name":"まなびの森よつば保育園","w":null,"c":null,"vacancy":[0,0,0,0,0,0]},
+    {"id":"ステラ志木宗岡保育園","name":"ステラ志木宗岡保育園","w":null,"c":null,"vacancy":[0,0,0,0,0,0]},
+    {"id":"メリーポピンズ志木ルーム","name":"メリーポピンズ志木ルーム","w":null,"c":null,"vacancy":[0,0,0,0,0,0]},
+    {"id":"ウェルネス保育園志木","name":"ウェルネス保育園志木","w":null,"c":null,"vacancy":[1,0,0,0,0,0]},
+    {"id":"アートチャイルドケア志木","name":"アートチャイルドケア志木","w":null,"c":null,"vacancy":[0,0,0,1,1,0]},
+    {"id":"志木どろんこ保育園","name":"志木どろんこ保育園","w":null,"c":null,"vacancy":[0,0,0,0,0,0]},
+    {"id":"メープル保育園","name":"メープル保育園","w":null,"c":null,"vacancy":[0,1,2,3,5,0]},
+    {"id":"おおのみち保育園","name":"おおのみち保育園","w":null,"c":null,"vacancy":[0,0,0,null,null,null]},
+    {"id":"ありさん保育園","name":"ありさん保育園","w":null,"c":null,"vacancy":[3,0,2,null,null,null]},
+    {"id":"元気キッズ志木園","name":"元気キッズ志木園","w":null,"c":null,"vacancy":[0,0,0,4,1,1]},
+    {"id":"ぷりえ幸町園","name":"ぷりえ幸町園","w":null,"c":null,"vacancy":[0,0,0,4,0,0]},
+    {"id":"メリーポピンズ志木駅前ルーム","name":"メリーポピンズ志木駅前ルーム","w":null,"c":null,"vacancy":[0,0,0,0,0,0]},
+    {"id":"ひいらぎ保育園","name":"ひいらぎ保育園","w":null,"c":null,"vacancy":[1,0,0,3,3,0]},
+    {"id":"ぷりえ志木本町園","name":"ぷりえ志木本町園","w":null,"c":null,"vacancy":[0,1,0,0,1,0]},
+    {"id":"館第一すぎのこ保育園","name":"館第一すぎのこ保育園","w":null,"c":null,"vacancy":[0,0,0,1,0,0]},
+    {"id":"ぷりえ志木駅前園","name":"ぷりえ志木駅前園","w":null,"c":null,"vacancy":[1,0,0,null,null,null]},
+    {"id":"しきポポロ保育園","name":"しきポポロ保育園","w":null,"c":null,"vacancy":[5,0,1,8,7,2]},
+    {"id":"アンファンシェリＳＨＩＫＩＳＭ","name":"アンファンシェリＳＨＩＫＩＳＭ","w":null,"c":null,"vacancy":[1,0,1,null,null,null]},
+    {"id":"館第二すぎのこ保育園","name":"館第二すぎのこ保育園","w":null,"c":null,"vacancy":[0,0,1,2,2,1]},
+    {"id":"保育園元気キッズ志木柏町園","name":"保育園元気キッズ志木柏町園","w":null,"c":null,"vacancy":[0,0,0,1,0,0]},
+    {"id":"足立みどり幼稚園","name":"足立みどり幼稚園","w":null,"c":null,"vacancy":[0,0,0,0,0,0]},
+    {"id":"ファニー","name":"ファニー","w":null,"c":null,"vacancy":[0,0,0,null,null,null]},
+    {"id":"アメリカンキッズ英語保育園志木本町園","name":"アメリカンキッズ英語保育園志木本町園","w":null,"c":null,"vacancy":[0,0,0,null,null,null]},
+    {"id":"ぷりえユリノ木園","name":"ぷりえユリノ木園","w":null,"c":null,"vacancy":[3,0,0,null,null,null]},
+    {"id":"ここりの森保育園","name":"ここりの森保育園","w":null,"c":null,"vacancy":[3,0,0,null,null,null]},
+    {"id":"プティシェリ","name":"プティシェリ","w":null,"c":null,"vacancy":[0,0,3,null,null,null]},
+    {"id":"笑顔のはな保育園","name":"笑顔のはな保育園","w":null,"c":null,"vacancy":[0,0,1,null,null,null]},
+    {"id":"あだちみどり保育園","name":"あだちみどり保育園","w":null,"c":null,"vacancy":[0,0,0,null,null,null]},
+    {"id":"元気キッズ志木幸町園","name":"元気キッズ志木幸町園","w":null,"c":null,"vacancy":[1,0,0,null,null,null]},
+    {"id":"ここりの森保育園宗岡","name":"ここりの森保育園宗岡","w":null,"c":null,"vacancy":[0,0,0,null,null,null]}
+  ]
+}

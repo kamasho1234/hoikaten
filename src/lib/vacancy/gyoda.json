@@ -1,0 +1,59 @@
+{
+  "municipalitySlug": "gyoda",
+  "municipalityName": "行田市",
+  "asOf": "2026-07-23",
+  "fetchedAt": "2026-08-26",
+  "sourceName": "行田市「保育所等の受入可能状況について」",
+  "sourceUrl": "https://www.city.gyoda.lg.jp/soshiki/kenkouhukushibu/kodomomirai/gyomu/ikuzi_misyugaku/hoikusho_kodomoen/hoikusho/7906.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.gyoda.lg.jp/material/files/group/22/202609ukeire.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "2026年9月入所の受入枠の状況",
+  "notes": [
+    "行田市は空き状況を人数ではなく「あり」「なし」の記号で公表しています。これは2026年9月入所の受入可能状況の見込みで、2026-07-23時点のものです。",
+    "受入枠の状況は、園の状況等によって変更になる場合があります。入所の決定に際しては、必",
+    "保育の必要性が高い方から入所を決定しますので、ご希望に添えない場合があります。",
+    "公式の表で空らんになっている年齢は「—」にしています。その年齢のクラスがないことを表しています。"
+  ],
+  "wards": [],
+  "categories": [
+    "保育所",
+    "認定こども園",
+    "地域型保育事業所"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "あり",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "なし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"若葉保育園（私立）","name":"若葉保育園（私立）","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","○","○","○"]},
+    {"id":"和光保育園（私立）","name":"和光保育園（私立）","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","○","○","○"]},
+    {"id":"白鳩保育園（私立）","name":"白鳩保育園（私立）","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"ホザナ保育園（私立）","name":"ホザナ保育園（私立）","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","○","×"]},
+    {"id":"太井保育園（私立）","name":"太井保育園（私立）","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["○","×","×","×","×","×"]},
+    {"id":"小羊チャイルドセンター（私立）","name":"小羊チャイルドセンター（私立）","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","○","○","○"]},
+    {"id":"太田保育園（私立）","name":"太田保育園（私立）","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","○","○","○"]},
+    {"id":"埼玉保育園（私立）","name":"埼玉保育園（私立）","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","○","○","○"]},
+    {"id":"持田保育園（公立）","name":"持田保育園（公立）","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","○"]},
+    {"id":"長野保育園（公立）","name":"長野保育園（公立）","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"南河原保育園（公立）","name":"南河原保育園（公立）","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","○","○","○","○"]},
+    {"id":"行田こども園（私立）","name":"行田こども園（私立）","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","○","○"]},
+    {"id":"やごうこども園（私立）","name":"やごうこども園（私立）","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"やなぎ幼稚園（私立）","name":"やなぎ幼稚園（私立）","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"たけのこ保育室（私立）","name":"たけのこ保育室（私立）","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"長澤家庭保育室（私立）","name":"長澤家庭保育室（私立）","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×",null,null,null,null,null]},
+    {"id":"あゆみ保育園（私立）","name":"あゆみ保育園（私立）","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×",null,null,null,null,null]},
+    {"id":"こどものみらい保育園（私立）","name":"こどものみらい保育園（私立）","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]}
+  ]
+}

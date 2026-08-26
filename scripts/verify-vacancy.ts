@@ -690,6 +690,19 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 行田市は「あり」「なし」の2つの記号だけ
+  gyoda: {
+    asOf: "2026-07-23",
+    facilityCount: 18,
+    vacancy: 0,
+    symbolCounts: { "×": 68, "○": 24 },
+  },
+  // 志木市は各行の「合 計」といちばん下の「合 計」の両方で検算している
+  shiki: {
+    asOf: "2026-08-20",
+    facilityCount: 34,
+    vacancy: 92,
+  },
   // 武蔵村山市はHTMLの表。数字は募集人数
   musashimurayama: {
     asOf: "2026-08-08",

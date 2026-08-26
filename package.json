@@ -190,6 +190,8 @@
     "vacancy:fetch:akiruno": "tsx scripts/fetch-akiruno-vacancy.ts",
     "vacancy:fetch:hamura": "tsx scripts/fetch-hamura-vacancy.ts",
     "vacancy:fetch:musashimurayama": "tsx scripts/fetch-musashimurayama-vacancy.ts",
+    "vacancy:fetch:gyoda": "tsx scripts/fetch-gyoda-vacancy.ts",
+    "vacancy:fetch:shiki": "tsx scripts/fetch-shiki-vacancy.ts",
     "vacancy:fetch:wakayama": "tsx scripts/fetch-wakayama-vacancy.ts"
   },
   "dependencies": {
