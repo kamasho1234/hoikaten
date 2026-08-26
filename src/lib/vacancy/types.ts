@@ -67,6 +67,12 @@ export type VacancyFacility = {
    * この場合 vacancy は全要素 null になる。
    */
   vacancyTotal?: number;
+  /**
+   * 施設ごとの備考。公式が施設ごとに付けている注記をそのまま入れる。
+   * 一宮市の「0〜2歳で空き2人」のように、年齢別の数の読み方が変わることがあるので、
+   * 年齢別の数と一緒に必ず見せること
+   */
+  note?: string;
   lat?: number;
   lng?: number;
   /** 当サイトで調べた施設サイト。確認できなかった施設には付けない */

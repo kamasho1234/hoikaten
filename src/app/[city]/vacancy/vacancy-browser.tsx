@@ -518,6 +518,10 @@ function FacilityCard({
           在籍 {enrolled === null ? "クラスなし" : `${enrolled}人`}
         </p>
       ) : null}
+      {/* 年齢別の数の読み方が変わることがあるので、備考は数と一緒に必ず見せる */}
+      {facility.note ? (
+        <p className="mt-2 text-xs text-muted-foreground">{facility.note}</p>
+      ) : null}
     </div>
   );
 }
