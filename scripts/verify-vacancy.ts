@@ -690,6 +690,18 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 北本市は通し番号と各行の「合計」欄で検算している
+  kitamoto: {
+    asOf: "2026-08-01",
+    facilityCount: 21,
+    vacancy: 39,
+  },
+  // 桶川市は施設名が2行に折り返される
+  okegawa: {
+    asOf: "2026-08-01",
+    facilityCount: 20,
+    vacancy: 27,
+  },
   // 鎌ケ谷市はHTMLの表。区分が rowspan で入るので先頭行だけ列がひとつ多い
   kamagaya: {
     asOf: "2026-08-12",

@@ -1,0 +1,44 @@
+{
+  "municipalitySlug": "kitamoto",
+  "municipalityName": "北本市",
+  "asOf": "2026-08-01",
+  "fetchedAt": "2026-08-26",
+  "sourceName": "北本市「保育施設の空き状況」",
+  "sourceUrl": "https://www.city.kitamoto.lg.jp/soshiki/kodomokenko/hoiku/gyomu/g5/1502933715048.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.kitamoto.lg.jp/material/files/group/24/R89akijyoukyou.pdf"
+  },
+  "metrics": [
+    "vacancy"
+  ],
+  "subtitle": "2026年9月入所向けの空き状況",
+  "notes": [
+    "北本市が公開しているのは2026年9月入所向けの空き状況で、2026-08-01時点のものです。",
+    "８月１日時点で確認できている承諾辞退者・退所者等を含めた空き状況です。"
+  ],
+  "wards": [],
+  "categories": [],
+  "facilities": [
+    {"id":"高尾保育園","name":"高尾保育園","w":null,"c":null,"vacancy":[0,0,0,0,0,0]},
+    {"id":"中丸保育園","name":"中丸保育園","w":null,"c":null,"vacancy":[0,0,0,0,0,2]},
+    {"id":"みなみの森保育園","name":"みなみの森保育園","w":null,"c":null,"vacancy":[0,0,0,0,0,0]},
+    {"id":"緑の詩保育園","name":"緑の詩保育園","w":null,"c":null,"vacancy":[0,0,0,0,0,0]},
+    {"id":"きたもと幼稚園","name":"きたもと幼稚園","w":null,"c":null,"vacancy":[null,null,0,0,0,0]},
+    {"id":"せきね幼稚園","name":"せきね幼稚園","w":null,"c":null,"vacancy":[null,null,null,0,0,0]},
+    {"id":"いしと幼稚園","name":"いしと幼稚園","w":null,"c":null,"vacancy":[0,0,5,1,0,0]},
+    {"id":"ふじ幼稚園","name":"ふじ幼稚園","w":null,"c":null,"vacancy":[null,null,1,1,0,0]},
+    {"id":"北本みなみ幼稚園","name":"北本みなみ幼稚園","w":null,"c":null,"vacancy":[null,null,0,0,0,0]},
+    {"id":"北本中央幼稚園","name":"北本中央幼稚園","w":null,"c":null,"vacancy":[null,null,0,0,0,0]},
+    {"id":"みなみ絵本のこども園","name":"みなみ絵本のこども園","w":null,"c":null,"vacancy":[0,0,0,0,0,0]},
+    {"id":"北本東スマイルこども園","name":"北本東スマイルこども園","w":null,"c":null,"vacancy":[7,0,0,0,0,2]},
+    {"id":"ヤクルト保育園","name":"ヤクルト保育園","w":null,"c":null,"vacancy":[1,1,0,null,null,null]},
+    {"id":"ことりの詩保育園","name":"ことりの詩保育園","w":null,"c":null,"vacancy":[0,0,0,null,null,null]},
+    {"id":"保育室びおもす","name":"保育室びおもす","w":null,"c":null,"vacancy":[0,0,0,null,null,null]},
+    {"id":"さくら保育園","name":"さくら保育園","w":null,"c":null,"vacancy":[1,2,1,null,null,null]},
+    {"id":"つぼみの詩保育園","name":"つぼみの詩保育園","w":null,"c":null,"vacancy":[0,0,2,null,null,null]},
+    {"id":"つむぎ保育園","name":"つむぎ保育園","w":null,"c":null,"vacancy":[0,0,2,null,null,null]},
+    {"id":"中央保育所","name":"中央保育所","w":null,"c":null,"vacancy":[0,0,0,0,0,3]},
+    {"id":"深井保育所","name":"深井保育所","w":null,"c":null,"vacancy":[null,0,3,0,0,4]},
+    {"id":"東保育所","name":"東保育所","w":null,"c":null,"vacancy":[0,0,0,0,0,0]}
+  ]
+}
