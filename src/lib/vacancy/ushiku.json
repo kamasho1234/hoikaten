@@ -1,0 +1,52 @@
+{
+  "municipalitySlug": "ushiku",
+  "municipalityName": "牛久市",
+  "asOf": "2026-08-19",
+  "fetchedAt": "2026-08-26",
+  "sourceName": "牛久市「入園受入見込人数」",
+  "sourceUrl": "https://www.city.ushiku.lg.jp/oyako-kosodate-kyoiku/kosodate/hoikuen/hoikuen-moshikomi-boshu/page000431.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.ushiku.lg.jp/data/doc/1787101409_doc_315_0.pdf"
+  },
+  "metrics": [
+    "vacancy"
+  ],
+  "subtitle": "2026年度10月入園の受入見込人数",
+  "notes": [
+    "牛久市が公開しているのは2026年度10月入園の受入見込人数で、2026-08-19時点のものです。",
+    "在園児の退園等により、受入人数は増減する可能性がありますので、参考値としてご利用ください。 2026/8/19",
+    "１）公立保育園は統廃合の計画があります。計画は見直しにより、変更となる場合があります。",
+    "２）小規模保育園の３歳児以降については、以下の各保育施設にて継続保育となります。"
+  ],
+  "wards": [],
+  "categories": [
+    "公立保育園",
+    "私立保育園",
+    "認定こども園",
+    "小規模保育園"
+  ],
+  "facilities": [
+    {"id":"つつじが丘保育園","name":"つつじが丘保育園","w":null,"c":0,"vacancy":[null,null,null,7,7,3]},
+    {"id":"栄町保育園","name":"栄町保育園","w":null,"c":0,"vacancy":[0,0,0,5,8,5]},
+    {"id":"下根保育園","name":"下根保育園","w":null,"c":0,"vacancy":[0,0,0,0,0,0]},
+    {"id":"ふたばランド保育園","name":"ふたばランド保育園","w":null,"c":1,"vacancy":[0,0,0,0,1,0]},
+    {"id":"つつじが丘ふたばランド保育園","name":"つつじが丘ふたばランド保育園","w":null,"c":1,"vacancy":[0,0,0,0,0,2]},
+    {"id":"牛久ひかり保育園","name":"牛久ひかり保育園","w":null,"c":1,"vacancy":[0,0,1,0,3,4]},
+    {"id":"牛久ふれあい保育園（向台小学校内）","name":"牛久ふれあい保育園（向台小学校内）","w":null,"c":1,"vacancy":[1,0,0,0,0,0]},
+    {"id":"牛久ふれあい保育園ひたち野うしく駅前分園","name":"牛久ふれあい保育園ひたち野うしく駅前分園","w":null,"c":1,"vacancy":[0,0,null,null,null,null]},
+    {"id":"牛久保育園","name":"牛久保育園","w":null,"c":1,"vacancy":[0,0,1,6,7,3]},
+    {"id":"ひたち野うしく保育園つくしんぼ","name":"ひたち野うしく保育園つくしんぼ","w":null,"c":1,"vacancy":[8,0,4,5,7,10]},
+    {"id":"牛久みらい保育園","name":"牛久みらい保育園","w":null,"c":1,"vacancy":[0,0,0,0,0,1]},
+    {"id":"奥野さくらふれあい保育園","name":"奥野さくらふれあい保育園","w":null,"c":1,"vacancy":[5,0,2,1,5,0]},
+    {"id":"牛久めぐみ保育園","name":"牛久めぐみ保育園","w":null,"c":1,"vacancy":[0,0,0,0,1,0]},
+    {"id":"牛久さくら保育園","name":"牛久さくら保育園","w":null,"c":1,"vacancy":[0,0,1,0,3,1]},
+    {"id":"上町ふれあい保育園（牛久小学校内）","name":"上町ふれあい保育園（牛久小学校内）","w":null,"c":1,"vacancy":[0,0,0,0,1,1]},
+    {"id":"上町ふれあい保育園牛久駅前分園","name":"上町ふれあい保育園牛久駅前分園","w":null,"c":1,"vacancy":[0,0,null,null,null,null]},
+    {"id":"うしく文化認定こども園","name":"うしく文化認定こども園","w":null,"c":2,"vacancy":[null,null,0,1,1,0]},
+    {"id":"認定こども園フレンド幼稚園","name":"認定こども園フレンド幼稚園","w":null,"c":2,"vacancy":[0,0,0,0,0,1]},
+    {"id":"認定こども園こばと幼稚園","name":"認定こども園こばと幼稚園","w":null,"c":2,"vacancy":[null,null,null,0,0,0]},
+    {"id":"こばと夢ナーサリー","name":"こばと夢ナーサリー","w":null,"c":3,"vacancy":[2,0,0,null,null,null]},
+    {"id":"せいけい保育園","name":"せいけい保育園","w":null,"c":3,"vacancy":[0,0,0,null,null,null]},
+    {"id":"茨城YMCA牛久オリーブ保育園","name":"茨城YMCA牛久オリーブ保育園","w":null,"c":3,"vacancy":[0,0,0,null,null,null]}
+  ]
+}

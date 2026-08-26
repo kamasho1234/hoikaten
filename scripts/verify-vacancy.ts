@@ -690,6 +690,12 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 牛久市は月ごとに記事が分かれる。募集計と合計の両方で検算している
+  ushiku: {
+    asOf: "2026-08-19",
+    facilityCount: 22,
+    vacancy: 125,
+  },
   // 坂戸市は○×の2記号だけで人数は非公表
   sakado: {
     asOf: "2026-07-31",
