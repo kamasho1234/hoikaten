@@ -690,6 +690,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 坂戸市は○×の2記号だけで人数は非公表
+  sakado: {
+    asOf: "2026-07-31",
+    facilityCount: 28,
+    vacancy: 0,
+    symbolCounts: { "×": 77, "○": 51 },
+  },
   // 狭山市は空白が「空きなし」。対象年齢の欄でクラスなしと見分けている
   sayama: {
     asOf: "2026-08-19",
