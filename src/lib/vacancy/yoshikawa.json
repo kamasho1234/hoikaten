@@ -1,0 +1,51 @@
+{
+  "municipalitySlug": "yoshikawa",
+  "municipalityName": "吉川市",
+  "asOf": "2026-08-21",
+  "fetchedAt": "2026-08-26",
+  "sourceName": "吉川市「保育施設における募集予定人数」",
+  "sourceUrl": "https://www.city.yoshikawa.saitama.jp/index.cfm/25,0,237,804,html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.yoshikawa.saitama.jp/index.cfm/25,115925,c,html/115925/20260820-132357.pdf"
+  },
+  "metrics": [
+    "vacancy"
+  ],
+  "subtitle": "2026年10月入所の空き人数",
+  "notes": [
+    "吉川市が公開しているのは2026年10月入所の空き人数で、2026-08-21時点のものです。",
+    "表中の数字は、保育施設等の空き人数を表します。",
+    "今後、児童の入退所の状況により、入所可能見込人数は変動する場合があります。"
+  ],
+  "wards": [],
+  "categories": [
+    "認可保育所",
+    "認定こども園",
+    "小規模保育施設"
+  ],
+  "facilities": [
+    {"id":"第一保育所","name":"第一保育所","w":null,"c":0,"vacancy":[0,0,0,0,0,0]},
+    {"id":"第二保育所","name":"第二保育所","w":null,"c":0,"vacancy":[0,0,0,0,0,0]},
+    {"id":"青葉保育園","name":"青葉保育園","w":null,"c":0,"vacancy":[0,0,0,0,0,3]},
+    {"id":"よしかわエンゼル保育園","name":"よしかわエンゼル保育園","w":null,"c":0,"vacancy":[0,0,0,1,7,0]},
+    {"id":"育暎保育園","name":"育暎保育園","w":null,"c":0,"vacancy":[0,0,0,0,1,1]},
+    {"id":"吉川つばさ保育園","name":"吉川つばさ保育園","w":null,"c":0,"vacancy":[0,1,0,1,0,0]},
+    {"id":"コビープリスクールよしかわみなみ","name":"コビープリスクールよしかわみなみ","w":null,"c":0,"vacancy":[0,0,0,0,0,0]},
+    {"id":"コビープリスクールよしかわステーション","name":"コビープリスクールよしかわステーション","w":null,"c":0,"vacancy":[0,0,0,0,0,0]},
+    {"id":"かほ保育園","name":"かほ保育園","w":null,"c":0,"vacancy":[0,0,0,0,0,0]},
+    {"id":"きらり美南保育園","name":"きらり美南保育園","w":null,"c":0,"vacancy":[0,0,0,1,0,0]},
+    {"id":"吉川美南ちとせ保育園","name":"吉川美南ちとせ保育園","w":null,"c":0,"vacancy":[0,0,0,0,0,0]},
+    {"id":"つつじ保育園","name":"つつじ保育園","w":null,"c":0,"vacancy":[0,0,0,0,0,0]},
+    {"id":"よしかわ杜の保育園","name":"よしかわ杜の保育園","w":null,"c":0,"vacancy":[0,0,1,1,0,0]},
+    {"id":"よしかわフラワー保育園","name":"よしかわフラワー保育園","w":null,"c":0,"vacancy":[0,0,0,5,1,0]},
+    {"id":"認定こども園吉川さくらの森","name":"認定こども園吉川さくらの森","w":null,"c":1,"vacancy":[0,0,0,0,0,0]},
+    {"id":"認定こども園吉川幼稚園","name":"認定こども園吉川幼稚園","w":null,"c":1,"vacancy":[null,null,null,2,0,0]},
+    {"id":"こぐま保育園","name":"こぐま保育園","w":null,"c":2,"vacancy":[0,1,1,null,null,null]},
+    {"id":"こぐま保育園マミー","name":"こぐま保育園マミー","w":null,"c":2,"vacancy":[0,1,1,null,null,null]},
+    {"id":"ふぇありぃ保育園吉川園","name":"ふぇありぃ保育園吉川園","w":null,"c":2,"vacancy":[0,0,0,null,null,null]},
+    {"id":"ナーサリールームつばさ","name":"ナーサリールームつばさ","w":null,"c":2,"vacancy":[0,4,0,null,null,null]},
+    {"id":"hoiku縁","name":"hoiku縁","w":null,"c":2,"vacancy":[0,0,0,null,null,null]},
+    {"id":"おひさま保育園","name":"おひさま保育園","w":null,"c":2,"vacancy":[0,0,1,null,null,null]},
+    {"id":"ふぇありぃ保育園吉川美南園","name":"ふぇありぃ保育園吉川美南園","w":null,"c":2,"vacancy":[0,0,0,null,null,null]}
+  ]
+}

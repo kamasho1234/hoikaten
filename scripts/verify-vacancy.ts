@@ -690,6 +690,12 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 吉川市は月ごとに記事が分かれるので、一覧から新しい記事をたどる
+  yoshikawa: {
+    asOf: "2026-08-21",
+    facilityCount: 23,
+    vacancy: 35,
+  },
   // 蓮田市はHTMLの表。表の直前の見出しが区分の名前になる
   hasuda: {
     asOf: "2026-08-01",
