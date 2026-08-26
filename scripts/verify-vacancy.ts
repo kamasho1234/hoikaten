@@ -690,6 +690,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 狭山市は空白が「空きなし」。対象年齢の欄でクラスなしと見分けている
+  sayama: {
+    asOf: "2026-08-19",
+    facilityCount: 42,
+    vacancy: 0,
+    symbolCounts: { "×": 180, "△": 37, "○": 1 },
+  },
   // 吉川市は月ごとに記事が分かれるので、一覧から新しい記事をたどる
   yoshikawa: {
     asOf: "2026-08-21",

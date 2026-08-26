@@ -1,0 +1,92 @@
+{
+  "municipalitySlug": "sayama",
+  "municipalityName": "狭山市",
+  "asOf": "2026-08-19",
+  "fetchedAt": "2026-08-26",
+  "sourceName": "狭山市「保育所(園)、認定こども園(保育部分)、地域型保育事業所の空き状況」",
+  "sourceUrl": "https://www.city.sayama.saitama.jp/kosodate/homeciao/azukeru/hoikusho/hoiku-akir8.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.sayama.saitama.jp/kosodate/homeciao/azukeru/hoikusho/hoiku-akir8.files/R8.10aki.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "2026年10月入所審査用の空き状況",
+  "notes": [
+    "狭山市は空き状況を人数ではなく記号で公表しています。これは2026年10月入所審査用のもので、公式ページが2026-08-19に更新されたものです。",
+    "公開時点で空きがない保育施設についても申し込みは可能なため、希望園は、入園したい順に記入してください。",
+    "空き数は公開時点のものであり、空き状況の公開後に実際の職員の雇用状況、職員配置や在園児童の保育状況等により受け入れ可能人数が増減する場合があります。",
+    "１１月以降に地域型保育事業所の２歳児クラスへ新規で入所した場合は、翌年度の審査に「地域型保育事業所卒園児」としての点数加算は設けられません。",
+    "審査をしてから空き状況を公表するまでに、内定辞退または退園の手続きがあった分についても、可能な限り空き状況に反映させています。",
+    "公式の表では、空きがない年齢を空白にしています。当サイトでは分かりやすさのため「×」に置き換えて表示しています。",
+    "受け入れる年齢は施設によって違います（産休明けから、11か月から、3歳からなど）。公式の表の「対象年齢」の欄をもとに、受け入れのない年齢は「—」にしています。"
+  ],
+  "wards": [],
+  "categories": [
+    "公立",
+    "民間",
+    "認定こども園",
+    "地域型保育事業所"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "空きあり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "若干名の空きあり",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"柏原保育所","name":"柏原保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"祇園保育所","name":"祇園保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"新狭山保育所","name":"新狭山保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"入曽保育所","name":"入曽保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","×"]},
+    {"id":"笹井保育所","name":"笹井保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","△","△","×"]},
+    {"id":"狭山台南保育所","name":"狭山台南保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","△","×"]},
+    {"id":"山王保育所","name":"山王保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","△"]},
+    {"id":"広瀬保育所","name":"広瀬保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"こひつじ保育園","name":"こひつじ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","×"]},
+    {"id":"みつばさ愛育園","name":"みつばさ愛育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"青柳保育園","name":"青柳保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"狭山台みつばさ保育園","name":"狭山台みつばさ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["○","×","×","×","×","×"]},
+    {"id":"小山台保育園","name":"小山台保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","△","×","△","△"]},
+    {"id":"けやの森保育園","name":"けやの森保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":[null,"×","×","×","×","×"]},
+    {"id":"堀兼みつばさ保育園","name":"堀兼みつばさ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"風の森みどり保育園","name":"風の森みどり保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"あきくさ保育園","name":"あきくさ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","△","△"]},
+    {"id":"風の子保育園","name":"風の子保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"ひろせ台保育園","name":"ひろせ台保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"東京家政大学かせい森のおうち","name":"東京家政大学かせい森のおうち","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","△","×"]},
+    {"id":"むさしの森保育園","name":"むさしの森保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"祇園風の光保育園","name":"祇園風の光保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","△"]},
+    {"id":"チャイルドスクエア狭山台","name":"チャイルドスクエア狭山台","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","△"]},
+    {"id":"新狭山元氣保育園","name":"新狭山元氣保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","△","△"]},
+    {"id":"チャイルドスクエア狭山広瀬","name":"チャイルドスクエア狭山広瀬","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"入曽そらいろ保育園","name":"入曽そらいろ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"けやき認定こども園","name":"けやき認定こども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"狭山ふじみだい認定こども園","name":"狭山ふじみだい認定こども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"未来ふじみ認定こども園","name":"未来ふじみ認定こども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","△","×","×"]},
+    {"id":"いるまこども園","name":"いるまこども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"未来たけのこ認定こども園","name":"未来たけのこ認定こども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"さやま幼稚園","name":"さやま幼稚園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"×","×","△"]},
+    {"id":"すずらん保育園","name":"すずらん保育園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"ありす保育室","name":"ありす保育室","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","△",null,null,null]},
+    {"id":"よつばのおうち","name":"よつばのおうち","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","△",null,null,null]},
+    {"id":"こうさぎ保育園","name":"こうさぎ保育園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"つむぎ保育園","name":"つむぎ保育園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"ニチイキッズさやま保育園","name":"ニチイキッズさやま保育園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","×",null,null,null]},
+    {"id":"狭山ひかり保育室","name":"狭山ひかり保育室","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×",null,null,null]},
+    {"id":"武蔵野短期大学附属保育園","name":"武蔵野短期大学附属保育園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"Ｊキッズスカイ入間保育園","name":"Ｊキッズスカイ入間保育園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×",null,null,null]},
+    {"id":"未来にじの子ナーサリールーム","name":"未来にじの子ナーサリールーム","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]}
+  ]
+}

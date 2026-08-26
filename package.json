@@ -198,6 +198,7 @@
     "vacancy:fetch:okegawa": "tsx scripts/fetch-okegawa-vacancy.ts",
     "vacancy:fetch:hasuda": "tsx scripts/fetch-hasuda-vacancy.ts",
     "vacancy:fetch:yoshikawa": "tsx scripts/fetch-yoshikawa-vacancy.ts",
+    "vacancy:fetch:sayama": "tsx scripts/fetch-sayama-vacancy.ts",
     "vacancy:fetch:wakayama": "tsx scripts/fetch-wakayama-vacancy.ts"
   },
   "dependencies": {
