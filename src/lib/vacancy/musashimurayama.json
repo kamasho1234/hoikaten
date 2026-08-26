@@ -1,0 +1,39 @@
+{
+  "municipalitySlug": "musashimurayama",
+  "municipalityName": "武蔵村山市",
+  "asOf": "2026-08-08",
+  "fetchedAt": "2026-08-26",
+  "sourceName": "武蔵村山市「保育所等募集状況一覧表」",
+  "sourceUrl": "https://www.city.musashimurayama.lg.jp/kosodate/azukeru/1012423/1003790.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.musashimurayama.lg.jp/kosodate/azukeru/1012423/1003790.html"
+  },
+  "metrics": [
+    "vacancy"
+  ],
+  "subtitle": "2026年9月入所の募集人数",
+  "notes": [
+    "武蔵村山市が公開しているのは2026年9月入所の募集人数で、2026-08-08時点のものです。",
+    "募集状況については随時変更となりますので、最新の状況は子ども育成課へお問い合わせください。",
+    "公式の表で「―」になっている年齢は「—」にしています。その年齢のクラスがないことを表しています。"
+  ],
+  "wards": [],
+  "categories": [],
+  "facilities": [
+    {"id":"つみき保育園（公私連携型保育所）","name":"つみき保育園（公私連携型保育所）","w":null,"c":null,"vacancy":[0,0,0,3,3,0]},
+    {"id":"みらい保育園","name":"みらい保育園","w":null,"c":null,"vacancy":[0,0,1,1,1,0]},
+    {"id":"三ツ藤クムクムこども園（注）","name":"三ツ藤クムクムこども園（注）","w":null,"c":null,"vacancy":[0,0,1,0,0,1]},
+    {"id":"聖光緑が丘保育園","name":"聖光緑が丘保育園","w":null,"c":null,"vacancy":[0,0,4,1,4,0]},
+    {"id":"あゆみ保育園","name":"あゆみ保育園","w":null,"c":null,"vacancy":[0,0,4,0,1,0]},
+    {"id":"育成会ひまわり保育園","name":"育成会ひまわり保育園","w":null,"c":null,"vacancy":[0,0,0,0,0,0]},
+    {"id":"育成会めぐみ保育園","name":"育成会めぐみ保育園","w":null,"c":null,"vacancy":[0,0,0,0,1,0]},
+    {"id":"きし保育園","name":"きし保育園","w":null,"c":null,"vacancy":[2,0,0,0,2,2]},
+    {"id":"れんげ武蔵保育園","name":"れんげ武蔵保育園","w":null,"c":null,"vacancy":[0,0,1,0,1,0]},
+    {"id":"村山中藤保育園「櫻」","name":"村山中藤保育園「櫻」","w":null,"c":null,"vacancy":[0,0,2,2,2,2]},
+    {"id":"まどか保育園（本園）","name":"まどか保育園（本園）","w":null,"c":null,"vacancy":[0,0,0,0,0,0]},
+    {"id":"まどか保育園（分園）","name":"まどか保育園（分園）","w":null,"c":null,"vacancy":[0,0,1,null,null,null]},
+    {"id":"村山中藤保育園「白樺」","name":"村山中藤保育園「白樺」","w":null,"c":null,"vacancy":[0,0,2,0,5,3]},
+    {"id":"つむぎ保育園","name":"つむぎ保育園","w":null,"c":null,"vacancy":[0,1,6,0,7,0]},
+    {"id":"大南つぼみ保育園","name":"大南つぼみ保育園","w":null,"c":null,"vacancy":[0,0,0,null,null,null]}
+  ]
+}

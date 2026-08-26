@@ -690,6 +690,12 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 武蔵村山市はHTMLの表。数字は募集人数
+  musashimurayama: {
+    asOf: "2026-08-08",
+    facilityCount: 15,
+    vacancy: 67,
+  },
   // あきる野市は区分ごとの小計と全体の合計の両方で検算している
   akiruno: {
     asOf: "2026-08-01",
