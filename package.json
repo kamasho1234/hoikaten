@@ -203,6 +203,7 @@
     "vacancy:fetch:ushiku": "tsx scripts/fetch-ushiku-vacancy.ts",
     "vacancy:fetch:hitachinaka": "tsx scripts/fetch-hitachinaka-vacancy.ts",
     "vacancy:fetch:hatsukaichi": "tsx scripts/fetch-hatsukaichi-vacancy.ts",
+    "vacancy:fetch:hofu": "tsx scripts/fetch-hofu-vacancy.ts",
     "vacancy:fetch:wakayama": "tsx scripts/fetch-wakayama-vacancy.ts"
   },
   "dependencies": {

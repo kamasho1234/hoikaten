@@ -690,6 +690,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 防府市は記号が6段階
+  hofu: {
+    asOf: "2026-06-01",
+    facilityCount: 34,
+    vacancy: 0,
+    symbolCounts: { "×": 159, "―": 6, "▲": 28, "△": 2 },
+  },
   // 廿日市市は凡例がPDFではなくページのHTMLの表にある
   hatsukaichi: {
     asOf: "2026-08-20",

@@ -1,0 +1,109 @@
+{
+  "municipalitySlug": "hofu",
+  "municipalityName": "防府市",
+  "asOf": "2026-06-01",
+  "fetchedAt": "2026-08-26",
+  "sourceName": "防府市「保育所等の空き状況について」",
+  "sourceUrl": "https://www.city.hofu.yamaguchi.jp/site/kosodate-portal/hoikuaki-r5.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.hofu.yamaguchi.jp/uploaded/attachment/148988.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "2026年10月入所の受入可能状況",
+  "notes": [
+    "防府市は空き状況を人数ではなく記号で公表しています。これは2026年10月入所のもので、公式ページが2026-06-01に更新されたものです。保育認定（2号・3号）だけを載せていて、1号認定については各認定こども園へお問い合わせください。",
+    "公式の表で空らんになっている年齢は「—」にしています。その年齢のクラスがないことを表しています。",
+    "在籍児童の継続入所の状況等により、受入可能状況が変わる場合があります。目安としてご活用ください。",
+    "受入可能状況が「×」となっていても、在籍児童の退所等により受入可能となる場合があります。",
+    "受入可能状況が「－」となっている年齢のクラスは、その施設では受入自体をしておりませんのでご注意ください。",
+    "０歳児についての受入月齢については各施設へ直接お問合せください。"
+  ],
+  "wards": [
+    "松崎",
+    "佐波",
+    "華浦",
+    "勝間",
+    "中関",
+    "玉祖",
+    "牟礼",
+    "右田",
+    "富海",
+    "新田",
+    "向島",
+    "華城",
+    "西浦",
+    "小野",
+    "大道"
+  ],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "―",
+      "label": "受入なし",
+      "open": false
+    },
+    {
+      "mark": "×",
+      "label": "現時点で入所不可",
+      "open": false
+    },
+    {
+      "mark": "▲",
+      "label": "現時点で若干名受入可能",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "現時点で数名受入可能",
+      "open": true
+    },
+    {
+      "mark": "■",
+      "label": "現時点で6人以上受入可能",
+      "open": true
+    },
+    {
+      "mark": "□",
+      "label": "11人以上受入可能",
+      "open": true
+    }
+  ],
+  "facilities": [
+    {"id":"松崎幼稚園","name":"松崎幼稚園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"佐波幼稚園","name":"佐波幼稚園","w":1,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["―","×","×","×","×","×"]},
+    {"id":"鞠生幼稚園","name":"鞠生幼稚園","w":2,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"三田尻保育園","name":"三田尻保育園","w":2,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"勝間保育園","name":"勝間保育園","w":3,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"きんこう保育園","name":"きんこう保育園","w":4,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"きんこう第2保育園","name":"きんこう第2保育園","w":4,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["▲","▲","×","×","▲","×"]},
+    {"id":"中関幼稚園","name":"中関幼稚園","w":4,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"えんしん幼稚園","name":"えんしん幼稚園","w":4,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["―","―","―","×","×","×"]},
+    {"id":"多々良幼稚園","name":"多々良幼稚園","w":5,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","▲","×","×","×"]},
+    {"id":"玉祖幼稚園","name":"玉祖幼稚園","w":5,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["―","×","▲","×","×","×"]},
+    {"id":"瑞祥幼稚園","name":"瑞祥幼稚園","w":6,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["▲","×","▲","▲","×","×"]},
+    {"id":"右田幼稚園","name":"右田幼稚園","w":7,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["―","×","×","×","×","×"]},
+    {"id":"とのみ保育所","name":"とのみ保育所","w":8,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["▲","▲","▲","▲","▲","▲"]},
+    {"id":"ひまわりキッズ","name":"ひまわりキッズ","w":1,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"おひさまキッズ","name":"おひさまキッズ","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","▲",null,null,null]},
+    {"id":"三田尻病院院内保育所","name":"三田尻病院院内保育所","w":2,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"東牟礼保育園","name":"東牟礼保育園","w":6,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"牟礼保育園","name":"牟礼保育園","w":6,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"江泊保育所","name":"江泊保育所","w":6,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×","▲","▲","×"]},
+    {"id":"みどり保育園","name":"みどり保育園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","▲","▲","▲","▲","×"]},
+    {"id":"西佐波保育園","name":"西佐波保育園","w":1,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"宮市保育所","name":"宮市保育所","w":1,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","×"]},
+    {"id":"双葉保育園","name":"双葉保育園","w":3,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"新田保育園","name":"新田保育園","w":9,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","▲","×","×","×","▲"]},
+    {"id":"西須賀保育所","name":"西須賀保育所","w":9,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","▲","▲","▲","×","×"]},
+    {"id":"向島保育園","name":"向島保育園","w":10,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"華陽保育園","name":"華陽保育園","w":4,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"華城保育園","name":"華城保育園","w":11,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"西浦保育園","name":"西浦保育園","w":12,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","▲","×","▲","×"]},
+    {"id":"右田保育園","name":"右田保育園","w":7,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"玉祖保育園","name":"玉祖保育園","w":7,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"小野保育園","name":"小野保育園","w":13,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"妙蓮寺保育園","name":"妙蓮寺保育園","w":14,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]}
+  ]
+}
