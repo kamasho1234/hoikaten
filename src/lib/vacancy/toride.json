@@ -1,0 +1,68 @@
+{
+  "municipalitySlug": "toride",
+  "municipalityName": "取手市",
+  "asOf": "2026-08-21",
+  "fetchedAt": "2026-08-26",
+  "sourceName": "取手市「保育施設空き状況」",
+  "sourceUrl": "https://www.city.toride.ibaraki.jp/kosodate/kurashi/kosodate/hoikujo/akijokyo.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.toride.ibaraki.jp/kosodate/kurashi/kosodate/hoikujo/akijokyo.html"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "保育施設の受入れ見込み",
+  "notes": [
+    "取手市が公開しているのは2026-08-21時点の保育施設空き状況です。受入れ見込みのあるクラスに丸印がついています。",
+    "保育士の配置状況や急な退所等により、受入れ状況が変動することがあります。入所判定会議時に最終的な受入れ可能数が確定するため、この表のとおり受け入れができない場合があります。",
+    "公式の表では、受入れ見込みのない年齢を空らんにしています。当サイトでは分かりやすさのため「×」に置き換えて表示しています。",
+    "認定こども園の受入れ見込みは保育所部の状況です。幼稚園部の空き状況は各園にお問い合わせください。",
+    "公式の表で「-」になっている年齢は「—」にしています。その年齢のクラスがないことを表しています。"
+  ],
+  "wards": [],
+  "categories": [
+    "公立保育所",
+    "私立保育園",
+    "事業所内保育施設",
+    "認定こども園"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "受入れ見込みあり",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "受入れ見込みなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"永山保育所","name":"永山保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"井野なないろ保育所","name":"井野なないろ保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"白山保育所","name":"白山保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"久賀保育所","name":"久賀保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","○","×","○","○","○"]},
+    {"id":"取手保育園","name":"取手保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","○","○","○","×"]},
+    {"id":"ふたば保育園","name":"ふたば保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","○","○","×","×"]},
+    {"id":"育英保育園","name":"育英保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"たちばな保育園","name":"たちばな保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["○","×","×","×","×","×"]},
+    {"id":"共生保育園","name":"共生保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"稲保育園","name":"稲保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"戸頭東保育園","name":"戸頭東保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"藤代駅前ナーサリースクール","name":"藤代駅前ナーサリースクール","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"藤代中央保育園","name":"藤代中央保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["○","×","×","×","○","○"]},
+    {"id":"取手駅前みつぼし保育園","name":"取手駅前みつぼし保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","○","○","○","○"]},
+    {"id":"取手市医師会どんぐり保育園","name":"取手市医師会どんぐり保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","○",null,null,null]},
+    {"id":"たかさごスクール取手","name":"たかさごスクール取手","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"取手ふたば文化","name":"取手ふたば文化","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"めぐみ幼稚園","name":"めぐみ幼稚園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["○","×","×","×","×","×"]},
+    {"id":"みどりが丘幼稚園","name":"みどりが丘幼稚園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"戸頭さくらの森","name":"戸頭さくらの森","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","○","×","×","×"]},
+    {"id":"取手幼稚園","name":"取手幼稚園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","○","×","○","○","○"]},
+    {"id":"つつみ幼稚園","name":"つつみ幼稚園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"光風台幼稚園","name":"光風台幼稚園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"×","×","×"]},
+    {"id":"白山幼稚園","name":"白山幼稚園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"○","○","×"]},
+    {"id":"あづま幼稚園","name":"あづま幼稚園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]}
+  ]
+}

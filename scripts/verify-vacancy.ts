@@ -690,6 +690,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 取手市は受入れ見込みのあるクラスに丸印がつくだけ（空らんは見込みなし）
+  toride: {
+    asOf: "2026-08-21",
+    facilityCount: 25,
+    vacancy: 0,
+    symbolCounts: { "×": 115, "○": 26 },
+  },
   // 三原市は年齢ごとに6本のPDFが分かれていて、それを施設ごとに組み直している
   mihara: {
     asOf: "2026-07-27",
