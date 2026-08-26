@@ -690,6 +690,12 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 蓮田市はHTMLの表。表の直前の見出しが区分の名前になる
+  hasuda: {
+    asOf: "2026-08-01",
+    facilityCount: 18,
+    vacancy: 66,
+  },
   // 北本市は通し番号と各行の「合計」欄で検算している
   kitamoto: {
     asOf: "2026-08-01",
