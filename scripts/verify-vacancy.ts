@@ -690,6 +690,19 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 鴻巣市は小規模保育施設・事業所内保育が3歳児以上を受け入れないと本文にある
+  kounosu: {
+    asOf: "2026-08-18",
+    facilityCount: 35,
+    vacancy: 0,
+    symbolCounts: { "×": 135, "△": 28, "○": 4 },
+  },
+  // 東松山市は「入園年齢」の列から年齢の範囲が上下とも決まる
+  higashimatsuyama: {
+    asOf: "2026-08-18",
+    facilityCount: 28,
+    vacancy: 34,
+  },
   // 大崎市は「入所対象児」の列から年齢の範囲が上下とも決まるので空らんを全件検算できる
   osaki: {
     asOf: "2026-08-14",

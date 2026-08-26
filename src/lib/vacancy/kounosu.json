@@ -1,0 +1,86 @@
+{
+  "municipalitySlug": "kounosu",
+  "municipalityName": "鴻巣市",
+  "prefecture": "埼玉県",
+  "asOf": "2026-08-18",
+  "fetchedAt": "2026-08-26",
+  "sourceName": "鴻巣市「保育施設入所受入可能状況」",
+  "sourceUrl": "https://www.city.kounosu.saitama.jp/page/38231.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.kounosu.saitama.jp/uploaded/attachment/27789.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "2026年度10月入所分の受入可能状況",
+  "notes": [
+    "鴻巣市は空き状況を人数ではなく記号で公表しています。これは2026年度10月入所分で、2026-08-18時点のものです。",
+    "公式の凡例は 「○」3人以上の受入れ可、「△」1～2人程度の受入れ可、「×」受入れ不可 です。",
+    "公式の表で空らんになっている年齢は「—」にしています。受け入れができないときは「×」と書かれるので、空らんはその年齢の受け入れがないことを表します。",
+    "受入可能状況は令和８年８月１８日時点の状況です。",
+    "受入可能状況は入所決定者の辞退や退所状況、施設状況（職員体制等）の変更により、変わる可能性があります。",
+    "小規模保育施設、事業所内保育では３歳児以上の受入れはしておりません。"
+  ],
+  "wards": [],
+  "categories": [
+    "公立保育所",
+    "私立保育所",
+    "認定こども園",
+    "小規模保育施設",
+    "事業所内保育"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "3人以上の受入れ可",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1～2人程度の受入れ可",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "受入れ不可",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"鴻巣保育所","name":"鴻巣保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","△"]},
+    {"id":"馬室保育所","name":"馬室保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","△","△"]},
+    {"id":"生出塚保育所","name":"生出塚保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","△"]},
+    {"id":"登戸保育所","name":"登戸保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","×","△"]},
+    {"id":"鎌塚保育所","name":"鎌塚保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","△"]},
+    {"id":"吹上富士見保育所","name":"吹上富士見保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","△"]},
+    {"id":"川里ひまわり保育園","name":"川里ひまわり保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","△"]},
+    {"id":"寺谷保育園","name":"寺谷保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","△","×","△"]},
+    {"id":"まごやま保育園","name":"まごやま保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"どんぐり保育園","name":"どんぐり保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","○","△"]},
+    {"id":"ひかりっこ保育園","name":"ひかりっこ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"中央たんぽぽ保育園","name":"中央たんぽぽ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","○"]},
+    {"id":"どんぐりっこ保育園","name":"どんぐりっこ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","△"]},
+    {"id":"ふくろうの森保育園","name":"ふくろうの森保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","△"]},
+    {"id":"なのはな保育園","name":"なのはな保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","△","△"]},
+    {"id":"鴻巣えほんの森保育園","name":"鴻巣えほんの森保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","○","△","○"]},
+    {"id":"エンゼル幼稚園","name":"エンゼル幼稚園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"めぐみの木こども園","name":"めぐみの木こども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"ゆめのはなこども園","name":"ゆめのはなこども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"大芦こども園","name":"大芦こども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"鴻巣英和こども園","name":"鴻巣英和こども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":[null,"×","×","×","×","△"]},
+    {"id":"保育室風の街","name":"保育室風の街","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"きずなっこ保育園","name":"きずなっこ保育園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"カインド・ナーサリー鴻巣本町園","name":"カインド・ナーサリー鴻巣本町園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"カインド・ナーサリー北鴻巣園","name":"カインド・ナーサリー北鴻巣園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△",null,null,null]},
+    {"id":"保育所まなぴぃ","name":"保育所まなぴぃ","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"ぬくもりのおうち保育北鴻巣園","name":"ぬくもりのおうち保育北鴻巣園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"ことね保育園","name":"ことね保育園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△",null,null,null]},
+    {"id":"LITTLEANGEL","name":"LITTLEANGEL","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"保育所まなぴぃ川里園","name":"保育所まなぴぃ川里園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△",null,null,null]},
+    {"id":"みらいの木保育園","name":"みらいの木保育園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"きずなっこガーデンナーサリー","name":"きずなっこガーデンナーサリー","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"たかいたかい保育園","name":"たかいたかい保育園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△",null,null,null]},
+    {"id":"あおぞら保育園","name":"あおぞら保育園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△",null,null,null]},
+    {"id":"元気キッズ","name":"元気キッズ","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]}
+  ]
+}
