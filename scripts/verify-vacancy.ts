@@ -690,6 +690,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 尼崎市は0人なら「×」と書かれるので、空らんはその年齢の受け入れなし
+  amagasaki: {
+    asOf: "2026-08-25",
+    facilityCount: 166,
+    vacancy: 0,
+    symbolCounts: { "×": 683, "△": 102, "○": 10 },
+  },
   // 知多市も入所案内PDFの保育年齢と突き合わせて空らんがクラスなしだと確かめている
   chita: {
     asOf: "2026-08-03",
