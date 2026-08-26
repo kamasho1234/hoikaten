@@ -690,6 +690,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 豊川市は0歳児に「※1」だけが入る欄がある（空きの有無は書かれていない）
+  toyokawa: {
+    asOf: "2026-07-24",
+    facilityCount: 53,
+    vacancy: 0,
+    symbolCounts: { "-": 183, "※1": 2, "○": 115 },
+  },
   // 半田市は「×」が定員充足（空き0）、空らんがその年齢の受け入れなし
   handa: {
     asOf: "2026-08-20",
