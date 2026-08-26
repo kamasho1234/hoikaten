@@ -690,6 +690,12 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 四街道市は受入可能・在籍・入所待ちの3つが揃う（合計の列で全件検算できる）
+  yotsukaido: {
+    asOf: "2026-08-01",
+    facilityCount: 40,
+    vacancy: 248,
+  },
   // 木津川市は凡例と注記が「備考」の列に縦に入っている
   kizugawa: {
     asOf: "2026-08-14",
