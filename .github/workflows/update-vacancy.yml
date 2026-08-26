@@ -1114,6 +1114,11 @@ jobs:
         continue-on-error: true
         run: npm run vacancy:fetch:hidaka
 
+      - name: 蕨市を取り込む
+        id: warabi
+        continue-on-error: true
+        run: npm run vacancy:fetch:warabi
+
       # ここから下は失敗したらコミットしない（壊れたデータを公開しないため）
       - name: 型チェック
         run: npx tsc --noEmit
@@ -1342,6 +1347,7 @@ jobs:
               *ayase.json) MSG="$MSG 綾瀬市（$(node -p "require('./src/lib/vacancy/ayase.json').asOf")時点）" ;;
               *fujimino.json) MSG="$MSG ふじみ野市（$(node -p "require('./src/lib/vacancy/fujimino.json').asOf")時点）" ;;
               *hidaka.json) MSG="$MSG 日高市（$(node -p "require('./src/lib/vacancy/hidaka.json').asOf")時点）" ;;
+              *warabi.json) MSG="$MSG 蕨市（$(node -p "require('./src/lib/vacancy/warabi.json').asOf")時点）" ;;
             esac
           done
           git config user.name "github-actions[bot]"

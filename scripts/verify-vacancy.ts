@@ -690,6 +690,12 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 蕨市は空き0人が「×」なので、空らんはその年齢のクラスなし
+  warabi: {
+    asOf: "2026-08-01",
+    facilityCount: 28,
+    vacancy: 137,
+  },
   // 日高市は空きを記号ではなく言葉で公表している（「空きあり」「若干名」など）
   hidaka: {
     asOf: "2026-08-01",

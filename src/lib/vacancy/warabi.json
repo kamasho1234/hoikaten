@@ -1,0 +1,58 @@
+{
+  "municipalitySlug": "warabi",
+  "municipalityName": "蕨市",
+  "asOf": "2026-08-01",
+  "fetchedAt": "2026-08-26",
+  "sourceName": "蕨市「保育園入園受付後の保育園空き状況」",
+  "sourceUrl": "https://www.city.warabi.saitama.jp/kosodate/hoiku/hoikuen/1005483.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.warabi.saitama.jp/_res/projects/default_project/_page_/001/005/483/5080801.pdf"
+  },
+  "metrics": [
+    "vacancy"
+  ],
+  "subtitle": "2026年8月の利用調整後の空き状況",
+  "notes": [
+    "2026年8月の利用調整を行った後の空き状況です。2026-08-01時点のものです。",
+    "公式が「×」（空き0人）としている年齢は0にしています。",
+    "公式の表で空らんになっている年齢は「—」にしています。空きが0人なら「×」と書かれるので、空らんはその年齢のクラスがないことを表します。",
+    "表の中の数字は、空き人数を表しています。「×」は空き人数が０人です。",
+    "小規模保育園の年齢ごとの定員は変更となる場合があり、「×」となっていても空きが生じる場合があります。",
+    "この表は令和8年8月1日時点の空き状況となっておりますので、それ以降、退園や申込みの取下げにより、空きが生じたり、空き人数が増えたりする場合があります。"
+  ],
+  "wards": [],
+  "categories": [
+    "認可保育園",
+    "小規模保育園"
+  ],
+  "facilities": [
+    {"id":"さくら保育園","name":"さくら保育園","w":null,"c":0,"vacancy":[0,0,0,2,2,10]},
+    {"id":"みどり保育園","name":"みどり保育園","w":null,"c":0,"vacancy":[0,0,0,1,2,2]},
+    {"id":"たんぽぽ保育園","name":"たんぽぽ保育園","w":null,"c":0,"vacancy":[0,0,0,7,2,0]},
+    {"id":"くるみ保育園","name":"くるみ保育園","w":null,"c":0,"vacancy":[0,0,0,1,0,2]},
+    {"id":"さつき保育園","name":"さつき保育園","w":null,"c":0,"vacancy":[0,0,0,7,6,4]},
+    {"id":"けやき保育園","name":"けやき保育園","w":null,"c":0,"vacancy":[0,0,0,0,0,1]},
+    {"id":"アートチャイルドケア蕨","name":"アートチャイルドケア蕨","w":null,"c":0,"vacancy":[0,2,0,4,3,2]},
+    {"id":"けやきの森保育園蕨園","name":"けやきの森保育園蕨園","w":null,"c":0,"vacancy":[0,0,1,2,0,0]},
+    {"id":"ニチイキッズわらび保育園","name":"ニチイキッズわらび保育園","w":null,"c":0,"vacancy":[0,0,3,0,0,2]},
+    {"id":"メリーポピンズ蕨北町ルーム","name":"メリーポピンズ蕨北町ルーム","w":null,"c":0,"vacancy":[null,0,0,0,6,0]},
+    {"id":"蕨すこやか保育園","name":"蕨すこやか保育園","w":null,"c":0,"vacancy":[null,0,0,5,0,4]},
+    {"id":"さくらさくみらい蕨","name":"さくらさくみらい蕨","w":null,"c":0,"vacancy":[0,0,0,1,0,1]},
+    {"id":"蕨ゆたか保育園","name":"蕨ゆたか保育園","w":null,"c":0,"vacancy":[0,0,0,8,0,2]},
+    {"id":"蕨錦町ゆたか保育園","name":"蕨錦町ゆたか保育園","w":null,"c":0,"vacancy":[0,0,0,4,0,1]},
+    {"id":"わらび星の子保育園","name":"わらび星の子保育園","w":null,"c":0,"vacancy":[0,0,0,6,0,1]},
+    {"id":"ひまわり保育園","name":"ひまわり保育園","w":null,"c":1,"vacancy":[1,1,0,null,null,null]},
+    {"id":"エバーキッズ蕨保育園","name":"エバーキッズ蕨保育園","w":null,"c":1,"vacancy":[2,0,0,null,null,null]},
+    {"id":"保育ルームのぞみ","name":"保育ルームのぞみ","w":null,"c":1,"vacancy":[0,4,4,null,null,null]},
+    {"id":"あいの木保育園","name":"あいの木保育園","w":null,"c":1,"vacancy":[0,0,1,null,null,null]},
+    {"id":"ひなた保育園蕨園","name":"ひなた保育園蕨園","w":null,"c":1,"vacancy":[0,1,1,null,null,null]},
+    {"id":"つかさ保育園蕨市わらび園","name":"つかさ保育園蕨市わらび園","w":null,"c":1,"vacancy":[0,0,0,null,null,null]},
+    {"id":"保育ルームFelice蕨園","name":"保育ルームFelice蕨園","w":null,"c":1,"vacancy":[1,0,1,null,null,null]},
+    {"id":"サンロード保育園","name":"サンロード保育園","w":null,"c":1,"vacancy":[1,2,2,null,null,null]},
+    {"id":"つかさ保育園蕨市わらび第二園","name":"つかさ保育園蕨市わらび第二園","w":null,"c":1,"vacancy":[0,0,0,null,null,null]},
+    {"id":"キッズフィールドわらび北町園","name":"キッズフィールドわらび北町園","w":null,"c":1,"vacancy":[0,0,1,null,null,null]},
+    {"id":"保育ルームFelice蕨Ⅱ園","name":"保育ルームFelice蕨Ⅱ園","w":null,"c":1,"vacancy":[0,0,0,null,null,null]},
+    {"id":"えなぎ保育園","name":"えなぎ保育園","w":null,"c":1,"vacancy":[0,5,1,null,null,null]},
+    {"id":"こまどり保育室","name":"こまどり保育室","w":null,"c":1,"vacancy":[1,0,0,null,null,null]}
+  ]
+}
