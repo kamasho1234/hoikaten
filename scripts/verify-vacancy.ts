@@ -690,6 +690,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 神栖市は「受入対象」の列があるので、受け入れ開始年齢より前の空らんを検算できる
+  kamisu: {
+    asOf: "2026-07-31",
+    facilityCount: 35,
+    vacancy: 0,
+    symbolCounts: { "×": 142, "○": 19, "◎": 12 },
+  },
   // 蕨市は空き0人が「×」なので、空らんはその年齢のクラスなし
   warabi: {
     asOf: "2026-08-01",
