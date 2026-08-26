@@ -690,6 +690,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 鳥栖市は区分の見出しの行に凡例も一緒に書かれている
+  tosu: {
+    asOf: "2026-08-03",
+    facilityCount: 28,
+    vacancy: 0,
+    symbolCounts: { "×": 120, "△": 21, "○": 7 },
+  },
   // 合志市は「－」が預かり無し（クラスなし）
   koshi: {
     asOf: "2026-08-21",

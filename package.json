@@ -210,6 +210,7 @@
     "vacancy:fetch:munakata": "tsx scripts/fetch-munakata-vacancy.ts",
     "vacancy:fetch:nanjo": "tsx scripts/fetch-nanjo-vacancy.ts",
     "vacancy:fetch:koshi": "tsx scripts/fetch-koshi-vacancy.ts",
+    "vacancy:fetch:tosu": "tsx scripts/fetch-tosu-vacancy.ts",
     "vacancy:fetch:wakayama": "tsx scripts/fetch-wakayama-vacancy.ts"
   },
   "dependencies": {
