@@ -23,10 +23,13 @@ import path from "node:path";
 const MUNICIPALITY_SLUG = "ota";
 const MUNICIPALITY_NAME = "大田区";
 const SOURCE_NAME = "大田区「保育園別・クラス年齢別欠員リスト」";
-/** 最新号もバックナンバーページに並ぶ。ファイル名に規則性がないのでリンクの文言で選ぶ */
+/**
+ * 最新号は「【欠員更新】…空き情報」のページに載る。
+ * バックナンバーページには前の月までしか並ばないので、こちらを見る。
+ * リンクの文言に月が入っていないので、対象月と時点はページの本文から読む
+ */
 const INDEX_URL =
-  "https://www.city.ota.tokyo.jp/seikatsu/kodomo/hoiku/akijyoho/aki-backnumber.html";
-const LINK_BASE = "https://www.city.ota.tokyo.jp/seikatsu/kodomo/hoiku/akijyoho/";
+  "https://www.city.ota.tokyo.jp/seikatsu/kodomo/hoiku/hoikushisetsu_nyukibo/aki-joho.html";
 const AGE_COUNT = 6;
 /** 前回より施設がこの割合を下回ったら、取り込みミスとみなして中断する */
 const MIN_FACILITY_RATIO = 0.9;
@@ -103,33 +106,34 @@ async function main() {
   console.log(`${MUNICIPALITY_NAME}の保育園の欠員を取り込みます`);
   console.log(`公式ページ: ${INDEX_URL}\n`);
 
-  // --- 1. バックナンバーページから最新の欠員リストを選ぶ ---
+  // --- 1. 空き情報のページから最新の欠員リストを選ぶ ---
   const res = await fetch(INDEX_URL, {
     headers: { "User-Agent": "Mozilla/5.0 (compatible; hoikaten/1.0; +https://hoikaten.com)" },
   });
   if (!res.ok) fail(`公式ページが ${res.status} を返しました`);
   const html = await res.text();
 
+  // 「≪令和8年9月利用調整の欠員情報≫」から、この号が何月の利用調整ぶんかを読む
+  const pageTarget = toHalfWidth(stripTags(html).replace(/\s+/g, "")).match(
+    /令和(\d+)年(\d+)月利用調整/
+  );
+  if (!pageTarget) {
+    fail("公式ページから「令和N年M月利用調整」を読み取れません。ページの構成が変わった可能性があります。");
+  }
+  const latestYear = reiwaToYear(Number(pageTarget[1]));
+  const latestMonth = Number(pageTarget[2]);
+
   const links = [...html.matchAll(/<a[^>]+href="([^"]+\.pdf)"[^>]*>([\s\S]*?)<\/a>/gi)].map((m) => ({
-    url: m[1].startsWith("http") ? m[1] : LINK_BASE + m[1].replace(/^\.\//, ""),
+    url: new URL(m[1], res.url || INDEX_URL).toString(),
     text: toHalfWidth(stripTags(m[2])),
   }));
-  // 「令和8年8月欠員リスト（PDF：159KB）」の形。二次募集ぶんは「令和8年4月（二次1回目）」のように月が同じ
-  const dated = links
-    .map((link) => {
-      const m = link.text.match(/令和(\d+)年(\d+)月/);
-      if (!m) return null;
-      if (!/欠員/.test(link.text)) return null;
-      const year = reiwaToYear(Number(m[1]));
-      const month = Number(m[2]);
-      return { ...link, year, month, key: year * 100 + month };
-    })
-    .filter((v): v is NonNullable<typeof v> => v !== null);
-  if (dated.length === 0) {
+  // 「保育所入所の欠員はこちらからダウンロードしてください。（PDF：159KB）」
+  const found = links.filter((l) => /保育所入所の欠員/.test(l.text));
+  if (found.length === 0) {
     fail("欠員リストのリンクが1本も見つかりません。ページの構成が変わった可能性があります。");
   }
-  const latest = dated.reduce((a, b) => (b.key > a.key ? b : a));
-  console.log(`最新の欠員リスト: ${latest.text}`);
+  const latest = { ...found[0], year: latestYear, month: latestMonth };
+  console.log(`最新の欠員リスト: ${latestYear}年${latestMonth}月利用調整ぶん`);
   console.log(`  ${latest.url}\n`);
 
   // --- 2. PDFを一時ディレクトリに落とす ---

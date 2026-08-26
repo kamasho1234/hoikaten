@@ -49,7 +49,7 @@ const EXPECTED: Record<
   meguro: { asOf: "2026-07-23", facilityCount: 118, vacancy: 871 },
   kawasaki: { asOf: "2026-07-27", facilityCount: 579, vacancy: 1863 },
   saitama: { asOf: "2026-08-01", facilityCount: 543, vacancy: 1961 },
-  ota: { asOf: "2026-07-02", facilityCount: 220, vacancy: 1092 },
+  ota: { asOf: "2026-08-03", facilityCount: 220, vacancy: 1092 },
   adachi: { asOf: "2026-08-01", facilityCount: 256, vacancy: 988 },
   edogawa: { asOf: "2026-08-01", facilityCount: 199, vacancy: 459 },
   nerima: { asOf: "2026-07-03", facilityCount: 253, vacancy: 941 },
