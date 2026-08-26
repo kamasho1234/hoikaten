@@ -1,0 +1,71 @@
+{
+  "municipalitySlug": "kizugawa",
+  "municipalityName": "木津川市",
+  "asOf": "2026-08-14",
+  "fetchedAt": "2026-08-26",
+  "sourceName": "木津川市「木津川市保育施設の空き状況」",
+  "sourceUrl": "https://www.city.kizugawa.lg.jp/index.cfm/6,54181,33,151,html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.kizugawa.lg.jp/kosodate/cmsfiles/contents/0000002/2867/2026814.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "2026年度の空き状況",
+  "notes": [
+    "木津川市は空き状況を人数ではなく記号で公表しています。これは2026年度分で、2026-08-14時点のものです。",
+    "公式の凡例は 「×」0人、「△」1～2人、「○」3人以上 です。",
+    "公式の表で空らんになっている年齢は「—」にしています。0人のときは「×」と書かれるので、空らんはその年齢の受け入れがないことを表します。",
+    "情報は月ごとに保育施設の空き状況をお知らせし、保育所等入所申込みの参考にしていただくためのものです。",
+    "表の見方「×」…0人「△」1～2人「〇」…3人以上※この情報は2・3号認定のみになりますので、認定こども園の1号認定の空き状況は各施設にお問い合わせください。",
+    "なお、在園児の退所や保育施設の内定辞退、職員体制等によりこの表記から変動が生じることがあります。",
+    "空きの有無に関わらず、原則は希望される施設を希望する順番で申込みいただきますようお願いします。",
+    "※木津保育園分園は、令和8年4月2日生まれ以降の方の受付を、令和8年度から停止します。",
+    "※みのりるーむたんぽぽ・みのりるーむひまわりは、令和8年11月以降の入園受付を休止します。"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "×",
+      "label": "0人",
+      "open": false
+    },
+    {
+      "mark": "△",
+      "label": "1～2人",
+      "open": true
+    },
+    {
+      "mark": "○",
+      "label": "3人以上",
+      "open": true
+    }
+  ],
+  "facilities": [
+    {"id":"木津保育園","name":"木津保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","×"]},
+    {"id":"木津保育園分園","name":"木津保育園分園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","△",null,null,null,null]},
+    {"id":"相楽保育園","name":"相楽保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","×","×"]},
+    {"id":"清水保育園","name":"清水保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","○",null,null,null]},
+    {"id":"相楽台保育園","name":"相楽台保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","△","×","○","○"]},
+    {"id":"南加茂台保育園","name":"南加茂台保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","○","△","○","○","○"]},
+    {"id":"いづみこども園","name":"いづみこども園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","○","○","○","○","×"]},
+    {"id":"やましろこども園","name":"やましろこども園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","△","○","△","○"]},
+    {"id":"愛光こども園","name":"愛光こども園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","△","○","×"]},
+    {"id":"梅美台こども園","name":"梅美台こども園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","×"]},
+    {"id":"州見台さくら","name":"州見台さくら","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"なごみこども園","name":"なごみこども園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","○","△","×","×","△"]},
+    {"id":"愛光みのりこども園","name":"愛光みのりこども園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","△","×","×","×"]},
+    {"id":"木津さくらの森","name":"木津さくらの森","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"藍咲学園","name":"藍咲学園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["○","○","○","△","△","×"]},
+    {"id":"愛光兜台こども園","name":"愛光兜台こども園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","△","○","△"]},
+    {"id":"木津川台","name":"木津川台","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["○","○","△","○","○","×"]},
+    {"id":"キティールーム","name":"キティールーム","w":null,"vacancy":[null,null,null,null,null,null],"symbols":[null,"○","○",null,null,null]},
+    {"id":"かもめ保育園","name":"かもめ保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","×",null,null,null]},
+    {"id":"なぎさ保育園","name":"なぎさ保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["○","△","○",null,null,null]},
+    {"id":"おうち保育室ｓｏｒａ","name":"おうち保育室ｓｏｒａ","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△",null,null,null]},
+    {"id":"おうち保育室にじ","name":"おうち保育室にじ","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","×",null,null,null]},
+    {"id":"みのりるーむたんぽぽ","name":"みのりるーむたんぽぽ","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△",null,null,null]},
+    {"id":"みのりるーむひまわり","name":"みのりるーむひまわり","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△",null,null,null]}
+  ]
+}

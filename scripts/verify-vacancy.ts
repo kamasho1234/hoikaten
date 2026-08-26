@@ -690,6 +690,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 木津川市は凡例と注記が「備考」の列に縦に入っている
+  kizugawa: {
+    asOf: "2026-08-14",
+    facilityCount: 24,
+    vacancy: 0,
+    symbolCounts: { "×": 53, "△": 35, "○": 27 },
+  },
   // 摂津市は「区分」（公立・私立）と「種別」が別の列にある
   settsu: {
     asOf: "2026-08-01",
