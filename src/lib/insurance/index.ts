@@ -30,6 +30,7 @@ export function getInsuranceByGroup(): { group: InsuranceGroup; articles: Insura
     "育休中のお金",
     "子どもが生まれたあとの備え",
     "教育費",
+    "住む場所で変わるお金",
     "相談のしかた",
   ];
   return order
@@ -53,5 +54,6 @@ export const INSURANCE_GROUP_COLOR: Record<
   育休中のお金: "blue",
   子どもが生まれたあとの備え: "teal",
   教育費: "amber",
+  住む場所で変わるお金: "rose",
   相談のしかた: "green",
 };

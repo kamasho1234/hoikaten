@@ -4,3 +4,5 @@ import "./ikuji";
 import "./kyoikuhi";
 import "./shunyu";
 import "./timing";
+import "./chiiki";
+import "./chiiki2";

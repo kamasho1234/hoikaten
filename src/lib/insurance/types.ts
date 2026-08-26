@@ -18,6 +18,7 @@ export type InsuranceGroup =
   | "育休中のお金"
   | "子どもが生まれたあとの備え"
   | "教育費"
+  | "住む場所で変わるお金"
   | "相談のしかた";
 
 export type InsuranceSource = {
