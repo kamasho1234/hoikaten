@@ -186,6 +186,9 @@
     "vacancy:fetch:urasoe": "tsx scripts/fetch-urasoe-vacancy.ts",
     "vacancy:fetch:ginowan": "tsx scripts/fetch-ginowan-vacancy.ts",
     "vacancy:fetch:neyagawa": "tsx scripts/fetch-neyagawa-vacancy.ts",
+    "vacancy:fetch:fussa": "tsx scripts/fetch-fussa-vacancy.ts",
+    "vacancy:fetch:akiruno": "tsx scripts/fetch-akiruno-vacancy.ts",
+    "vacancy:fetch:hamura": "tsx scripts/fetch-hamura-vacancy.ts",
     "vacancy:fetch:wakayama": "tsx scripts/fetch-wakayama-vacancy.ts"
   },
   "dependencies": {

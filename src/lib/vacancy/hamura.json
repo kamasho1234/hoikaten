@@ -1,0 +1,61 @@
+{
+  "municipalitySlug": "hamura",
+  "municipalityName": "羽村市",
+  "asOf": "2026-08-01",
+  "fetchedAt": "2026-08-26",
+  "sourceName": "羽村市「市内保育施設空き状況」",
+  "sourceUrl": "https://www.city.hamura.tokyo.jp/0000018375.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.hamura.tokyo.jp/0000018375.html"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "2026年8月の空き状況",
+  "notes": [
+    "羽村市は空き状況を人数ではなく記号で公表しています。これは2026年8月のもので、公式ページが2026-08-01に更新されたものです。",
+    "退園、転園の方が出た場合、人数が増減することがあります。施設側の受入れ状況によっては入所できない場合もあります。",
+    "家庭的保育者は公式の表では0歳児から2歳児がひとつの欄にまとめられています。当サイトでは同じ記号を0歳・1歳・2歳に入れています。",
+    "公式の表に欄のない年齢は「—」にしています。その年齢のクラスがないことを表しています。"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "受入可",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "若干名受入可",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "受入不可",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"玉水保育園","name":"玉水保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","○","△","△","×"]},
+    {"id":"富士見第一保育園","name":"富士見第一保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","△","△","○"]},
+    {"id":"富士見第二保育園","name":"富士見第二保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","○","△"]},
+    {"id":"かやの実保育園","name":"かやの実保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","×","×"]},
+    {"id":"羽村まつの木保育園","name":"羽村まつの木保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","△","×","×"]},
+    {"id":"羽村たつの子保育園","name":"羽村たつの子保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","○","△","△"]},
+    {"id":"太陽の子保育園","name":"太陽の子保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","○","△"]},
+    {"id":"あおぞら保育園","name":"あおぞら保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","△"]},
+    {"id":"まつぼっくり保育園","name":"まつぼっくり保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","△","△","×"]},
+    {"id":"さくら保育園","name":"さくら保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","△","○",null,null]},
+    {"id":"チューリップ保育園","name":"チューリップ保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","×","×"]},
+    {"id":"羽村しらうめ保育園","name":"羽村しらうめ保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","△"]},
+    {"id":"あすなろ","name":"あすなろ","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","△","×","×"]},
+    {"id":"富士みのりこども園","name":"富士みのりこども園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","△","×","△"]},
+    {"id":"ルーテル羽村幼稚園","name":"ルーテル羽村幼稚園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"△","×","×"]},
+    {"id":"五ノ神幼稚園","name":"五ノ神幼稚園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"○","×","○"]},
+    {"id":"富士学院幼稚園","name":"富士学院幼稚園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"△","×","△"]},
+    {"id":"清水由美子","name":"清水由美子","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△",null,null,null]},
+    {"id":"森田照子","name":"森田照子","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]}
+  ]
+}

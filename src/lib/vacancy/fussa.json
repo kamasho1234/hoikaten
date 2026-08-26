@@ -1,0 +1,41 @@
+{
+  "municipalitySlug": "fussa",
+  "municipalityName": "福生市",
+  "asOf": "2026-08-24",
+  "fetchedAt": "2026-08-26",
+  "sourceName": "福生市「保育園の空き状況」",
+  "sourceUrl": "https://www.city.fussa.tokyo.jp/life/child/nursery/1002583.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.fussa.tokyo.jp/life/child/nursery/1002583.html"
+  },
+  "metrics": [
+    "vacancy"
+  ],
+  "subtitle": "2026年10月1日入園分の空き状況",
+  "notes": [
+    "福生市が公開しているのは2026年10月1日入園分の空き状況で、2026-08-24時点のものです。",
+    "空き状況は入園の申し込みや退園により変わります。",
+    "公式の表で「設定なし」となっている年齢は「—」にしています。その年齢のクラスがないことを表しています。",
+    "すみれ保育園: ※()内は定期利用保育",
+    "公式の表では、空き人数のうしろの括弧の中に定期利用保育の空きが書かれています（すみれ保育園の1歳に0人）。当サイトでは括弧の外の人数だけを載せています。"
+  ],
+  "wards": [],
+  "categories": [],
+  "facilities": [
+    {"id":"東福保育園","name":"東福保育園","w":null,"c":null,"vacancy":[0,0,0,0,3,1]},
+    {"id":"若葉保育園","name":"若葉保育園","w":null,"c":null,"vacancy":[0,0,1,1,2,0]},
+    {"id":"加美平保育園","name":"加美平保育園","w":null,"c":null,"vacancy":[0,0,0,1,1,1]},
+    {"id":"福生杉ノ子保育園","name":"福生杉ノ子保育園","w":null,"c":null,"vacancy":[0,0,0,1,4,0]},
+    {"id":"杉ノ子第二保育園","name":"杉ノ子第二保育園","w":null,"c":null,"vacancy":[0,0,0,2,2,0]},
+    {"id":"杉ノ子第三保育園","name":"杉ノ子第三保育園","w":null,"c":null,"vacancy":[0,0,1,0,5,0]},
+    {"id":"弥生保育園","name":"弥生保育園","w":null,"c":null,"vacancy":[0,0,0,3,4,4]},
+    {"id":"福生保育園","name":"福生保育園","w":null,"c":null,"vacancy":[0,0,0,0,3,0]},
+    {"id":"不動の森こども園","name":"不動の森こども園","w":null,"c":null,"vacancy":[0,0,0,1,1,0]},
+    {"id":"すみれ保育園","name":"すみれ保育園","w":null,"c":null,"vacancy":[0,0,0,0,2,0]},
+    {"id":"熊川保育園","name":"熊川保育園","w":null,"c":null,"vacancy":[0,0,0,2,5,1]},
+    {"id":"わらべつくし保育園","name":"わらべつくし保育園","w":null,"c":null,"vacancy":[0,0,0,3,6,3]},
+    {"id":"ありんこ保育園","name":"ありんこ保育園","w":null,"c":null,"vacancy":[0,0,0,0,0,0]},
+    {"id":"牛浜こども園","name":"牛浜こども園","w":null,"c":null,"vacancy":[0,0,0,0,0,0]},
+    {"id":"ちゃいれっく福生駅前保育園","name":"ちゃいれっく福生駅前保育園","w":null,"c":null,"vacancy":[0,0,0,null,null,null]}
+  ]
+}

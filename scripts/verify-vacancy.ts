@@ -690,6 +690,25 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // あきる野市は区分ごとの小計と全体の合計の両方で検算している
+  akiruno: {
+    asOf: "2026-08-01",
+    facilityCount: 24,
+    vacancy: 130,
+  },
+  // 羽村市は家庭的保育者の欄が0〜2歳ひとまとめ
+  hamura: {
+    asOf: "2026-08-01",
+    facilityCount: 19,
+    vacancy: 0,
+    symbolCounts: { "×": 56, "△": 33, "○": 8 },
+  },
+  // 福生市はHTMLの表。括弧の中は定期利用保育の枠で空きではない
+  fussa: {
+    asOf: "2026-08-24",
+    facilityCount: 15,
+    vacancy: 64,
+  },
   // 寝屋川市は月ごとのPDFが1ページに並ぶので、いちばん新しい月を選んでいる
   neyagawa: {
     asOf: "2026-08-14",
