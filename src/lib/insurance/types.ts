@@ -19,6 +19,7 @@ export type InsuranceGroup =
   | "子どもが生まれたあとの備え"
   | "教育費"
   | "住む場所で変わるお金"
+  | "自治体ごとの支援"
   | "相談のしかた";
 
 export type InsuranceSource = {
@@ -40,6 +41,11 @@ export type InsuranceArticle = {
   group: InsuranceGroup;
   /** この記事がだれ向けか。一覧に出す（「妊娠がわかったばかりの人」など） */
   readerFor: string[];
+  /**
+   * 自治体の記事のときだけ入れる。`src/lib/data` の slug に合わせる。
+   * この値があると、その自治体のページから記事へリンクできる
+   */
+  citySlug?: string;
   /** 一覧での並び順。小さいほど上 */
   order: number;
   updatedAt: string;

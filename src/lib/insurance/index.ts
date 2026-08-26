@@ -22,6 +22,11 @@ export function getInsuranceArticle(slug: string): InsuranceArticle | undefined 
   return all.find((a) => a.slug === slug);
 }
 
+/** その自治体のお金の記事。自治体のページから案内するのに使う */
+export function getInsuranceArticleByCity(citySlug: string): InsuranceArticle | undefined {
+  return all.find((a) => a.citySlug === citySlug);
+}
+
 /** グループごとにまとめる。一覧ページの見出し単位 */
 export function getInsuranceByGroup(): { group: InsuranceGroup; articles: InsuranceArticle[] }[] {
   const order: InsuranceGroup[] = [
@@ -31,6 +36,7 @@ export function getInsuranceByGroup(): { group: InsuranceGroup; articles: Insura
     "子どもが生まれたあとの備え",
     "教育費",
     "住む場所で変わるお金",
+    "自治体ごとの支援",
     "相談のしかた",
   ];
   return order
@@ -55,5 +61,6 @@ export const INSURANCE_GROUP_COLOR: Record<
   子どもが生まれたあとの備え: "teal",
   教育費: "amber",
   住む場所で変わるお金: "rose",
+  自治体ごとの支援: "blue",
   相談のしかた: "green",
 };

@@ -6,3 +6,8 @@ import "./shunyu";
 import "./timing";
 import "./chiiki";
 import "./chiiki2";
+
+// 自治体ごとの記事。人口の多いところから順に追加している
+import "./city-yokohama";
+import "./city-osaka";
+import "./city-nagoya";

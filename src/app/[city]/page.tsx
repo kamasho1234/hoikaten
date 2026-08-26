@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getMunicipalityData, getAllMunicipalities } from "@/lib/data";
 import { getArticlesByCity } from "@/lib/articles";
+import { getInsuranceArticleByCity } from "@/lib/insurance";
+import "@/lib/insurance/register-all";
 import { SimulatorForm } from "./simulator-form";
 import { RandomTextAd } from "@/components/random-text-ad";
 import { breadcrumbList, faqPage, buildCityFaq } from "@/lib/jsonld";
@@ -164,6 +166,29 @@ export default async function CityPage({
           </a>
         </div>
       </div>
+
+      {(() => {
+        // その自治体の「子育てのお金」の記事があれば案内する
+        const money = getInsuranceArticleByCity(city);
+        if (!money) return null;
+        return (
+          <div className="mt-10">
+            <a href={`/insurance/${money.slug}`} className="block group">
+              <div className="p-5 rounded-xl border border-border/60 hover:border-primary/30 hover:shadow-md transition-all bg-card">
+                <p className="text-xs text-muted-foreground mb-1.5">
+                  この自治体の子育てのお金
+                </p>
+                <p className="font-medium text-sm leading-relaxed group-hover:text-primary transition-colors m-0 mb-1.5">
+                  {money.title}
+                </p>
+                <p className="text-xs text-muted-foreground leading-relaxed m-0">
+                  {money.description}
+                </p>
+              </div>
+            </a>
+          </div>
+        );
+      })()}
 
       {(() => {
         const articles = getArticlesByCity(city);
