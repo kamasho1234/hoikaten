@@ -1,0 +1,93 @@
+{
+  "municipalitySlug": "hatsukaichi",
+  "municipalityName": "廿日市市",
+  "asOf": "2026-08-20",
+  "fetchedAt": "2026-08-26",
+  "sourceName": "廿日市市「認可保育施設の空き状況」",
+  "sourceUrl": "https://www.city.hatsukaichi.hiroshima.jp/site/kosodate/39183.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/95910.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "2026年9月入園調整後の空き状況",
+  "notes": [
+    "廿日市市は空き状況を人数ではなく記号で公表しています。これは2026年9月入園の調整が終わったあとのもので、2026-08-20時点のものです。",
+    "空き状況は、保育士の配置や保育園の状況などにより随時変化します。表の空き状況にかかわらず、入りたい順番や毎日通える範囲を考えて希望する園を選んでください。",
+    "公式の表で空らんになっている年齢は「—」にしています。その年齢のクラスがないことを表しています。",
+    "公式の表には次の但し書きが添えられています。佐方保育園※建替等予定あり / 池田保育園※民間移管予定あり"
+  ],
+  "wards": [
+    "廿日市地域",
+    "佐伯地域",
+    "吉和地域",
+    "大野地域",
+    "宮島地域"
+  ],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "●",
+      "label": "4人以上",
+      "open": true
+    },
+    {
+      "mark": "▲",
+      "label": "1～3人",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "0人",
+      "open": false
+    },
+    {
+      "mark": "―",
+      "label": "利用できません。",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"佐方保育園","name":"佐方保育園","w":0,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":[null,"×","×","×","●","▲"]},
+    {"id":"平良保育園","name":"平良保育園","w":0,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","▲","●","●"]},
+    {"id":"原保育園","name":"原保育園","w":0,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":[null,"×","×","×","●","●"]},
+    {"id":"宮内保育園","name":"宮内保育園","w":0,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","▲"]},
+    {"id":"宮園保育園","name":"宮園保育園","w":0,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","▲","×","×"]},
+    {"id":"地御前保育園","name":"地御前保育園","w":0,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","●","×","▲"]},
+    {"id":"阿品台東保育園","name":"阿品台東保育園","w":0,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":[null,"×","▲","▲","×","▲"]},
+    {"id":"阿品台西保育園","name":"阿品台西保育園","w":0,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","▲","▲","●","×"]},
+    {"id":"アイグラン保育園廿日市","name":"アイグラン保育園廿日市","w":0,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","▲","×","×","▲","▲"]},
+    {"id":"アイグラン保育園住吉","name":"アイグラン保育園住吉","w":0,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"アイグラン保育園串戸","name":"アイグラン保育園串戸","w":0,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","▲","×"]},
+    {"id":"アイグラン保育園廿日市中央","name":"アイグラン保育園廿日市中央","w":0,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","▲","▲","▲"]},
+    {"id":"アイグラン保育園地御前","name":"アイグラン保育園地御前","w":0,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"さつき保育園","name":"さつき保育園","w":0,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"さつき第2保育園","name":"さつき第2保育園","w":0,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","▲","▲"]},
+    {"id":"廿日市いちご保育園佐方","name":"廿日市いちご保育園佐方","w":0,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","▲","×"]},
+    {"id":"アトリエREIレイこども舎さがた","name":"アトリエREIレイこども舎さがた","w":0,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","▲","×","×","×"]},
+    {"id":"ふじこども園","name":"ふじこども園","w":0,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":[null,"×","×","×","▲","×"]},
+    {"id":"みどりの森ようこうこども園","name":"みどりの森ようこうこども園","w":0,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"にこにこの森保育園","name":"にこにこの森保育園","w":0,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"公私連携廿日市保育園","name":"公私連携廿日市保育園","w":0,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"公私連携串戸保育園","name":"公私連携串戸保育園","w":0,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"廿日市こども園","name":"廿日市こども園","w":0,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"くすのき幼稚園","name":"くすのき幼稚園","w":0,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","▲","×"]},
+    {"id":"保育所ちびっこいろは園","name":"保育所ちびっこいろは園","w":0,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","▲",null,null,null]},
+    {"id":"おおぞら保育園廿日市","name":"おおぞら保育園廿日市","w":0,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"友和保育園","name":"友和保育園","w":1,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["▲","×","×","×","●","●"]},
+    {"id":"津田保育園","name":"津田保育園","w":1,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["▲","×","×","●","●","●"]},
+    {"id":"友和こども園","name":"友和こども園","w":1,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":[null,"×","×","×","×","▲"]},
+    {"id":"吉和保育園","name":"吉和保育園","w":2,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","▲","×","▲","●","●"]},
+    {"id":"深江保育園","name":"深江保育園","w":3,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","▲","●","●"]},
+    {"id":"池田保育園","name":"池田保育園","w":3,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","▲"]},
+    {"id":"いもせ保育園","name":"いもせ保育園","w":3,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","▲","▲","▲"]},
+    {"id":"梅原保育園","name":"梅原保育園","w":3,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","▲","×"]},
+    {"id":"廿日市くじら保育園","name":"廿日市くじら保育園","w":3,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","▲","×","×","×"]},
+    {"id":"アトリエREIレイこども舎おおの","name":"アトリエREIレイこども舎おおの","w":3,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"公私連携丸石保育園","name":"公私連携丸石保育園","w":3,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","▲","×","×","×"]},
+    {"id":"つきのひかり国際こども園","name":"つきのひかり国際こども園","w":3,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"フルムーンインターナショナルこども園おおの","name":"フルムーンインターナショナルこども園おおの","w":3,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"公私連携宮島こども園","name":"公私連携宮島こども園","w":4,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","●","●","×"]}
+  ]
+}

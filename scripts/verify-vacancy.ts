@@ -690,6 +690,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 廿日市市は凡例がPDFではなくページのHTMLの表にある
+  hatsukaichi: {
+    asOf: "2026-08-20",
+    facilityCount: 40,
+    vacancy: 0,
+    symbolCounts: { "×": 168, "▲": 37, "●": 18 },
+  },
   // ひたちなか市は各行の「計」と全体の「合計」の両方で検算している
   hitachinaka: {
     asOf: "2026-08-05",
