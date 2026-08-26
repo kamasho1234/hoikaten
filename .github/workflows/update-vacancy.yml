@@ -1049,6 +1049,11 @@ jobs:
         continue-on-error: true
         run: npm run vacancy:fetch:niihama
 
+      - name: 宗像市を取り込む
+        id: munakata
+        continue-on-error: true
+        run: npm run vacancy:fetch:munakata
+
       # ここから下は失敗したらコミットしない（壊れたデータを公開しないため）
       - name: 型チェック
         run: npx tsc --noEmit
@@ -1264,6 +1269,7 @@ jobs:
               *mihara.json) MSG="$MSG 三原市（$(node -p "require('./src/lib/vacancy/mihara.json').asOf")時点）" ;;
               *toride.json) MSG="$MSG 取手市（$(node -p "require('./src/lib/vacancy/toride.json').asOf")時点）" ;;
               *niihama.json) MSG="$MSG 新居浜市（$(node -p "require('./src/lib/vacancy/niihama.json').asOf")時点）" ;;
+              *munakata.json) MSG="$MSG 宗像市（$(node -p "require('./src/lib/vacancy/munakata.json').asOf")時点）" ;;
             esac
           done
           git config user.name "github-actions[bot]"

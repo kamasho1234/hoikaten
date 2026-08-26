@@ -690,6 +690,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 宗像市は区分の縦書きが2列に分かれて文字が混ざる
+  munakata: {
+    asOf: "2026-08-01",
+    facilityCount: 20,
+    vacancy: 0,
+    symbolCounts: { "△": 24, "○": 3, "－": 84 },
+  },
   // 新居浜市は同じPDFに市全体の入所待ち人数も載っている
   niihama: {
     asOf: "2026-08-03",
