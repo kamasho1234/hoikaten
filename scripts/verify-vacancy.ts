@@ -690,6 +690,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 三原市は年齢ごとに6本のPDFが分かれていて、それを施設ごとに組み直している
+  mihara: {
+    asOf: "2026-07-27",
+    facilityCount: 31,
+    vacancy: 0,
+    symbolCounts: { "△": 95, "○": 23 },
+  },
   // 防府市は記号が6段階
   hofu: {
     asOf: "2026-06-01",
