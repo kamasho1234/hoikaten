@@ -11,3 +11,5 @@ import "./chiiki2";
 import "./city-yokohama";
 import "./city-osaka";
 import "./city-nagoya";
+import "./city-sapporo";
+import "./city-fukuoka";
