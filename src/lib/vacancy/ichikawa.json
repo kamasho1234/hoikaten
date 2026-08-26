@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "ichikawa",
   "municipalityName": "市川市",
-  "asOf": "2026-08-20",
-  "fetchedAt": "2026-08-20",
+  "asOf": "2026-08-26",
+  "fetchedAt": "2026-08-26",
   "sourceName": "市川市「公立・私立保育園等の空き状況」",
   "sourceUrl": "https://www.city.ichikawa.lg.jp/page/3705.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.ichikawa.lg.jp/uploaded/attachment/56748.pdf"
+    "vacancy": "https://www.city.ichikawa.lg.jp/uploaded/attachment/57007.pdf"
   },
   "metrics": [
     "vacancy"
@@ -100,7 +100,7 @@
     {"id":"市川駅南-新田保育園","name":"新田保育園","w":7,"c":0,"vacancy":[null,null,null,null,null,null]},
     {"id":"市川駅南-新田第２保育園","name":"新田第２保育園","w":7,"c":0,"vacancy":[null,null,null,null,5,6]},
     {"id":"市川駅南-市川南保育園","name":"市川南保育園","w":7,"c":0,"vacancy":[0,0,2,0,0,null]},
-    {"id":"市川駅南-さくらんぼ保育園","name":"さくらんぼ保育園","w":7,"c":0,"vacancy":[0,0,2,0,0,null]},
+    {"id":"市川駅南-さくらんぼ保育園","name":"さくらんぼ保育園","w":7,"c":0,"vacancy":[0,0,null,0,0,null]},
     {"id":"市川駅南-市川キッズステーション","name":"市川キッズステーション","w":7,"c":0,"vacancy":[0,0,1,null,null,null]},
     {"id":"市川駅南-アスク本八幡保育園","name":"アスク本八幡保育園","w":7,"c":0,"vacancy":[0,0,0,0,0,0]},
     {"id":"市川駅南-小学館アカデミーいちかわ南保育園","name":"小学館アカデミーいちかわ南保育園","w":7,"c":0,"vacancy":[0,0,1,0,1,0]},
@@ -108,7 +108,7 @@
     {"id":"市川駅南-聖和保育園","name":"聖和保育園","w":7,"c":0,"vacancy":[1,0,0,1,0,2]},
     {"id":"市川駅南-リトルガーデンインターナショナル市川認可保育園","name":"リトルガーデンインターナショナル市川認可保育園","w":7,"c":0,"vacancy":[0,0,1,1,1,1]},
     {"id":"市川駅南-八幡南保育園","name":"八幡南保育園","w":7,"c":0,"vacancy":[0,0,1,1,1,1]},
-    {"id":"市川駅南-そらまめ保育園市川駅前","name":"そらまめ保育園市川駅前","w":7,"c":0,"vacancy":[1,0,3,null,1,0]},
+    {"id":"市川駅南-そらまめ保育園市川駅前","name":"そらまめ保育園市川駅前","w":7,"c":0,"vacancy":[null,0,3,null,1,0]},
     {"id":"市川駅南-新田チャイルド保育園","name":"新田チャイルド保育園","w":7,"c":0,"vacancy":[null,0,2,5,9,4]},
     {"id":"市川駅南-ＭｉｌｋｙＷａｙＩＮＳ市川新田校","name":"ＭｉｌｋｙＷａｙＩＮＳ市川新田校","w":7,"c":0,"vacancy":[0,0,0,0,0,0]},
     {"id":"市川駅南-ししの子保育園市川","name":"ししの子保育園市川","w":7,"c":0,"vacancy":[null,0,null,2,0,0]},
