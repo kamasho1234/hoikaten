@@ -690,6 +690,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 綾瀬市も入所見込みが無ければ「×」と書かれるので、空らんはクラスなし
+  ayase: {
+    asOf: "2026-08-01",
+    facilityCount: 16,
+    vacancy: 0,
+    symbolCounts: { "×": 67, "△": 10, "○": 1 },
+  },
   // 尼崎市は0人なら「×」と書かれるので、空らんはその年齢の受け入れなし
   amagasaki: {
     asOf: "2026-08-25",

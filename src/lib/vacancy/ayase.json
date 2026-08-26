@@ -1,0 +1,68 @@
+{
+  "municipalitySlug": "ayase",
+  "municipalityName": "綾瀬市",
+  "asOf": "2026-08-01",
+  "fetchedAt": "2026-08-26",
+  "sourceName": "綾瀬市「入所見込み状況(認可保育施設)」",
+  "sourceUrl": "https://www.city.ayase.kanagawa.jp/kosodate/nenreidesagasu/yochien_hoikuen_shogakkonyugakuzen/3/1/22859.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.ayase.kanagawa.jp/material/files/group/24/202609nyuushomikomininka.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "2026年度9月入所分の入所見込み状況",
+  "notes": [
+    "綾瀬市は空き状況を人数ではなく記号で公表しています。これは2026年度9月入所分で、2026-08-01時点のものです。",
+    "公式の凡例は 「◎」5人以上入所見込みあり、「○」入所見込みあり、「△」若干名入所見込みあり、「×」入所見込みなし です。",
+    "公式の表で空らんになっている年齢は「—」にしています。入所見込みが無ければ「×」と書かれるので、空らんはその年齢のクラスがないことを表します。",
+    "令和８年４月１日時点の年齢になります。",
+    "○及び△の場合でも、施設の状況により入所できない場合があります。",
+    "受入れが可能な場合、優先度の高い方からの御案内になります。"
+  ],
+  "wards": [],
+  "categories": [
+    "公立",
+    "私立"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "◎",
+      "label": "5人以上入所見込みあり",
+      "open": true
+    },
+    {
+      "mark": "○",
+      "label": "入所見込みあり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "若干名入所見込みあり",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "入所見込みなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"綾南保育園","name":"綾南保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"大上保育園","name":"大上保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"つぼみ保育園","name":"つぼみ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"吉岡保育園","name":"吉岡保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×","×","×","×"]},
+    {"id":"おとぎ保育園","name":"おとぎ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"深谷保育園","name":"深谷保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","○"]},
+    {"id":"さくらチャイルドセンター","name":"さくらチャイルドセンター","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"綾瀬いずみ保育園","name":"綾瀬いずみ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,"×","×","×","×"]},
+    {"id":"綾瀬いずみ保育園あーす館","name":"綾瀬いずみ保育園あーす館","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","×",null,null,null,null]},
+    {"id":"綾瀬ゆめっこ保育園","name":"綾瀬ゆめっこ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"かえでチャイルドセンター","name":"かえでチャイルドセンター","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"ピッピことりこども園","name":"ピッピことりこども園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"春日幼稚園","name":"春日幼稚園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"△","△","×"]},
+    {"id":"ぽとふ綾瀬","name":"ぽとふ綾瀬","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"ぽとふ寺尾中","name":"ぽとふ寺尾中","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×",null,null,null]},
+    {"id":"綾瀬こっこ保育園","name":"綾瀬こっこ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×",null,null,null]}
+  ]
+}
