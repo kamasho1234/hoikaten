@@ -1,9 +1,20 @@
 // 保険の無料相談（ベビープラネット）の案内
 //
 // ## 広告であることを必ず出す
-// アフィリエイトリンクを含む記事は、景品表示法の「ステルスマーケティング告示」
+// アフィリエイトリンクを含むページは、景品表示法の「ステルスマーケティング告示」
 // （令和5年10月1日施行）で**広告であることを消費者が分かるように示す義務**がある。
-// そのため、この枠には必ず「PR」を出し、リンクには rel="sponsored nofollow" を付ける。
+// この枠の下に「PR」を出し、リンクには rel="sponsored nofollow" を付けている。
+//
+// ## 書いてよいこと
+// サービスの特徴は**公式サイトに書かれていることだけ**を書く。
+// 公式サイト（baby-planet.net）で確かめた内容:
+// - 妊娠・出産・育児のステージにある家族向け
+// - 20社以上の保険会社を取り扱う（担当者により取り扱いは異なる）
+// - 相談は何度でも無料
+// - オンライン・自宅・職場・店舗で相談できる
+// - 相談した人に選べるグッズのプレゼントがある
+// **相談実績の件数や利用者数は公式サイトに記載がない**ので、
+// 「◯万人が利用」のような書き方はしない。
 //
 // ## 計測用の画像について
 // A8.net の 1×1 画像はインプレッションの計測用。同じページに何度も置くと
@@ -22,10 +33,16 @@ export function BabyPlanetCta({
   body: string;
 }) {
   return (
-    <aside className="my-10 rounded-2xl border border-primary/20 bg-primary/5 p-6">
-      <p className="text-[10px] text-muted-foreground mb-2">PR</p>
+    <aside className="my-10 rounded-2xl border border-border/60 p-6">
       <h2 className="text-base font-bold text-foreground mb-2">{heading}</h2>
       <p className="text-sm text-foreground/85 leading-[1.8] mb-4">{body}</p>
+
+      <p className="text-sm text-foreground/85 leading-[1.8] mb-4">
+        ベビープラネットは、<strong>妊娠・出産・育児の時期の家庭に向けて作られた保険の相談サービス</strong>です。
+        20社以上の保険会社を扱うプランナーを紹介してもらえます。相談は何度でも無料で、
+        オンラインでも自宅でも受けられるので、小さな子どもがいても出向かずに済みます。
+      </p>
+
       <a
         href={BABYPLANET_URL}
         rel="sponsored nofollow noopener"
@@ -34,11 +51,9 @@ export function BabyPlanetCta({
       >
         「ママ」のための保険無料相談サービス【ベビープラネット】
       </a>
-      <p className="mt-3 text-xs text-muted-foreground leading-relaxed">
-        相談は無料です。加入の義務はありません。この案内は広告で、リンク先で相談の申し込みがあると
-        当サイトに紹介料が入ります。掲載している制度の内容は公的機関の情報をもとにしており、
-        広告主の意向で変えているものではありません。
-      </p>
+
+      <p className="mt-4 text-[10px] text-muted-foreground">PR</p>
+
       {/* インプレッション計測用（表示されない） */}
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img src={BABYPLANET_PIXEL} alt="" width={1} height={1} className="hidden" />

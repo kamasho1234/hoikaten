@@ -99,7 +99,7 @@ export default function InsuranceHubPage() {
           </li>
           <li className="flex gap-2">
             <span className="text-primary flex-shrink-0">・</span>
-            <span>各記事には広告（PR）が含まれます。記事の頭で必ずお知らせします</span>
+            <span>各記事の終わりに、保険相談サービスの案内（PR）を載せています</span>
           </li>
         </ul>
       </div>

@@ -150,15 +150,6 @@ export default async function InsuranceArticlePage({
         <span>更新日: {article.updatedAt}</span>
       </div>
 
-      {/*
-        景品表示法（ステルスマーケティング告示）にもとづく表示。
-        本文中にも広告のリンクがあるため、記事の頭で必ず知らせる
-      */}
-      <p className="text-xs text-muted-foreground bg-muted/40 border border-border/60 rounded-lg px-4 py-2.5 mb-6">
-        この記事には広告（PR）が含まれます。制度の内容は公的機関の資料をもとにしており、
-        広告主の意向で変えているものではありません。
-      </p>
-
       <p className="text-base text-foreground/80 leading-relaxed mb-8 border-l-4 border-primary/20 pl-4">
         {article.description}
       </p>
