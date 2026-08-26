@@ -1,0 +1,90 @@
+{
+  "municipalitySlug": "inzai",
+  "municipalityName": "印西市",
+  "asOf": "2026-08-20",
+  "fetchedAt": "2026-08-26",
+  "sourceName": "印西市「市内認可保育園等（公立・私立）の空き状況」",
+  "sourceUrl": "https://www.city.inzai.lg.jp/kosodatenavi/0000019458.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.inzai.lg.jp/kosodatenavi/cmsfiles/contents/0000019/19458/R8.10akizyoukyou.pdf"
+  },
+  "metrics": [
+    "symbol",
+    "enrolled"
+  ],
+  "subtitle": "2026年10月入園に向けた空き状況",
+  "notes": [
+    "印西市は空きを人数ではなく記号で公表しています。これは2026年10月入園に向けたもので、2026-08-20時点のものです。あわせて在園児数も載せています。",
+    "公式の表で空らんになっている年齢は「—」にしています。その年齢のクラスがないことを表しています。"
+  ],
+  "wards": [],
+  "categories": [
+    "公立認可保育園",
+    "私立認可保育園",
+    "認定こども園保育部分",
+    "小規模保育園"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "4人以上空きあり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1～3人の空きあり",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"003","name":"木刈保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","△","△"],"enrolled":[3,12,14,12,16,16]},
+    {"id":"004","name":"内野保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×","△","×","×"],"enrolled":[6,12,16,12,16,16]},
+    {"id":"005","name":"高花保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"enrolled":[6,10,17,20,17,19]},
+    {"id":"006","name":"西の原保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"enrolled":[8,14,17,19,21,17]},
+    {"id":"007","name":"もとの保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","△"],"enrolled":[5,13,15,19,21,16]},
+    {"id":"022","name":"銀の鈴保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"enrolled":[6,20,18,19,19,17]},
+    {"id":"023","name":"原山保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×","×","×","×"],"enrolled":[2,13,13,15,14,15]},
+    {"id":"025","name":"山ゆり保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","△","△"],"enrolled":[12,20,28,34,34,35]},
+    {"id":"028","name":"スマイル保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","×","×"],"enrolled":[9,18,18,21,20,21]},
+    {"id":"029","name":"小倉すくすく保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×","○","△","×"],"enrolled":[9,23,28,22,29,30]},
+    {"id":"024","name":"しおん保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"enrolled":[3,10,12,17,16,23]},
+    {"id":"203","name":"ヒューマンアカデミー印西牧の原保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null],"enrolled":[3,17,20,null,null,null]},
+    {"id":"204","name":"エンヂェルハート保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","△"],"enrolled":[9,17,18,18,19,16]},
+    {"id":"205","name":"星虹保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×","△","×","△"],"enrolled":[5,16,18,18,20,19]},
+    {"id":"209","name":"星虹第二保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","△","△","×","×"],"enrolled":[4,17,28,26,29,28]},
+    {"id":"210","name":"かふう保育園いんざい","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"],"enrolled":[5,22,24,25,25,27]},
+    {"id":"020","name":"AIAINURSERY千葉ニュータウン中央","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"enrolled":[6,10,14,14,14,14]},
+    {"id":"241","name":"かぐろ杜の保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","△"],"enrolled":[6,12,16,20,19,18]},
+    {"id":"242","name":"コスモスの丘保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","×"],"enrolled":[8,15,18,20,21,22]},
+    {"id":"243","name":"ゆいのひ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","×"],"enrolled":[6,18,18,17,19,20]},
+    {"id":"256","name":"AIAINURSERY印西牧の原","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"enrolled":[6,10,11,11,12,12]},
+    {"id":"257","name":"草深こじか第二保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"enrolled":[15,18,18,18,18,20]},
+    {"id":"258","name":"ちいさな杜の保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","△","○"],"enrolled":[9,18,23,24,23,15]},
+    {"id":"260","name":"ＨＡＬＯ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×","×","×","×"],"enrolled":[6,29,30,30,29,30]},
+    {"id":"261","name":"コスモスの丘ひがし野保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"enrolled":[9,12,15,18,18,16]},
+    {"id":"262","name":"そうほスマイル保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"enrolled":[12,18,18,24,24,24]},
+    {"id":"263","name":"滝すくすく保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×","×","×","×"],"enrolled":[6,16,17,20,20,20]},
+    {"id":"264","name":"にじの原のつなぐ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"enrolled":[6,21,21,20,19,16]},
+    {"id":"265","name":"NOVAバイリンガル印西東の原保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","△"],"enrolled":[6,11,13,20,23,22]},
+    {"id":"514","name":"どんぐり保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","×"],"enrolled":[8,10,15,13,14,16]},
+    {"id":"519","name":"草深こじか保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"enrolled":[12,13,14,18,18,16]},
+    {"id":"510","name":"牧の原宝保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"enrolled":[7,16,16,18,18,18]},
+    {"id":"207","name":"印西ひかりこども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"enrolled":[6,18,18,20,24,19]},
+    {"id":"512","name":"RainbowWingsInternational（本園）","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","△","△","△"],"enrolled":[4,12,14,32,36,29]},
+    {"id":"513","name":"RainbowWingsInternational（分園）","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":[null,"○","△",null,null,null],"enrolled":[null,8,11,null,null,null]},
+    {"id":"267","name":"たかさごスクール千葉ニュータウン","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"enrolled":[9,24,24,27,28,27]},
+    {"id":"266","name":"市川学園西の原幼稚園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"△","○","×"],"enrolled":[null,null,null,17,15,13]},
+    {"id":"700","name":"やまと小規模保育園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×",null,null,null],"enrolled":[0,6,8,null,null,null]},
+    {"id":"701","name":"カインド・ナーサリー牧の原第1園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×",null,null,null],"enrolled":[0,8,8,null,null,null]},
+    {"id":"702","name":"カインド・ナーサリー牧の原第2園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null],"enrolled":[0,8,8,null,null,null]},
+    {"id":"703","name":"リップル保育園CNT高花Ⅰ","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×",null,null,null],"enrolled":[3,6,9,null,null,null]},
+    {"id":"704","name":"リップル保育園CNT高花Ⅱ","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×",null,null,null],"enrolled":[3,4,9,null,null,null]},
+    {"id":"270","name":"リップル保育園CNT高花Ⅲ","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"△","△","×"],"enrolled":[null,null,null,5,2,0]},
+    {"id":"268","name":"すくすくの杜千葉ＮＴ駅前園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","△","△",null,null],"enrolled":[4,4,8,1,null,null]}
+  ]
+}

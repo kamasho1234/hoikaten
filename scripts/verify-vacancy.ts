@@ -690,6 +690,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 印西市は空きが記号、在園児数が人数の2本立て
+  inzai: {
+    asOf: "2026-08-20",
+    facilityCount: 44,
+    vacancy: 0,
+    symbolCounts: { "×": 183, "△": 47, "○": 4 },
+  },
   // 行田市は「あり」「なし」の2つの記号だけ
   gyoda: {
     asOf: "2026-07-23",
