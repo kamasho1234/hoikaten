@@ -206,6 +206,7 @@
     "vacancy:fetch:hofu": "tsx scripts/fetch-hofu-vacancy.ts",
     "vacancy:fetch:mihara": "tsx scripts/fetch-mihara-vacancy.ts",
     "vacancy:fetch:toride": "tsx scripts/fetch-toride-vacancy.ts",
+    "vacancy:fetch:niihama": "tsx scripts/fetch-niihama-vacancy.ts",
     "vacancy:fetch:wakayama": "tsx scripts/fetch-wakayama-vacancy.ts"
   },
   "dependencies": {

@@ -690,6 +690,12 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 新居浜市は同じPDFに市全体の入所待ち人数も載っている
+  niihama: {
+    asOf: "2026-08-03",
+    facilityCount: 36,
+    vacancy: 28,
+  },
   // 取手市は受入れ見込みのあるクラスに丸印がつくだけ（空らんは見込みなし）
   toride: {
     asOf: "2026-08-21",

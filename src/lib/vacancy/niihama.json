@@ -1,0 +1,66 @@
+{
+  "municipalitySlug": "niihama",
+  "municipalityName": "新居浜市",
+  "asOf": "2026-08-03",
+  "fetchedAt": "2026-08-26",
+  "sourceName": "新居浜市「保育所等入所（園）受入可能児童数情報」",
+  "sourceUrl": "https://www.city.niihama.lg.jp/soshiki/128/hoikusisetunonyuushomousikomihouhou.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.niihama.lg.jp/uploaded/attachment/82913.pdf"
+  },
+  "metrics": [
+    "vacancy"
+  ],
+  "subtitle": "9月1日入所の受入可能児童数",
+  "notes": [
+    "新居浜市が公開しているのは9月1日入所希望者向けの受入可能児童数で、2026-08-03時点のものです。",
+    "同じ資料に市全体の入所待ち人数も載っています。2026-08-03時点で0歳児14人、1歳児21人、2歳児9人、3歳児6人、4歳児2人、5歳児4人の合わせて56人です（うち待機児童は0人）。",
+    "令和８年８月３日時点の情報であり、",
+    "令和８年４月１日時点での年齢で、該当欄を御確認ください。"
+  ],
+  "wards": [],
+  "categories": [
+    "公立保育所",
+    "私立保育所",
+    "認定こども園",
+    "地域型保育事業所"
+  ],
+  "facilities": [
+    {"id":"若宮保育園","name":"若宮保育園","w":null,"c":0,"vacancy":[0,0,0,0,0,0]},
+    {"id":"新居浜保育園","name":"新居浜保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null]},
+    {"id":"高津保育園","name":"高津保育園","w":null,"c":0,"vacancy":[0,0,0,0,0,0]},
+    {"id":"多喜浜保育園","name":"多喜浜保育園","w":null,"c":0,"vacancy":[0,0,0,1,0,2]},
+    {"id":"東田保育園","name":"東田保育園","w":null,"c":0,"vacancy":[0,0,0,0,0,0]},
+    {"id":"船木保育園","name":"船木保育園","w":null,"c":0,"vacancy":[0,0,0,0,0,2]},
+    {"id":"角野保育園","name":"角野保育園","w":null,"c":0,"vacancy":[0,0,0,0,0,0]},
+    {"id":"大生院保育園","name":"大生院保育園","w":null,"c":0,"vacancy":[0,0,0,0,0,0]},
+    {"id":"朝日保育園","name":"朝日保育園","w":null,"c":1,"vacancy":[0,0,0,0,0,0]},
+    {"id":"みなと保育園","name":"みなと保育園","w":null,"c":1,"vacancy":[2,0,0,0,0,0]},
+    {"id":"十全保育園","name":"十全保育園","w":null,"c":1,"vacancy":[0,0,0,0,0,0]},
+    {"id":"ルンビニ乳幼児保育園","name":"ルンビニ乳幼児保育園","w":null,"c":1,"vacancy":[0,0,0,0,0,0]},
+    {"id":"さくら乳児園","name":"さくら乳児園","w":null,"c":1,"vacancy":[0,0,0,null,null,null]},
+    {"id":"ミドリ保育園","name":"ミドリ保育園","w":null,"c":1,"vacancy":[0,0,0,1,1,0]},
+    {"id":"めぐみ保育園","name":"めぐみ保育園","w":null,"c":1,"vacancy":[0,0,0,0,0,0]},
+    {"id":"新田保育園","name":"新田保育園","w":null,"c":1,"vacancy":[0,0,0,0,0,0]},
+    {"id":"泉川保育園","name":"泉川保育園","w":null,"c":1,"vacancy":[0,0,0,0,0,0]},
+    {"id":"みどり園保育所","name":"みどり園保育所","w":null,"c":1,"vacancy":[0,0,0,2,2,2]},
+    {"id":"すみれ保育園","name":"すみれ保育園","w":null,"c":1,"vacancy":[0,0,0,0,0,0]},
+    {"id":"新居浜上部のぞみ保育園","name":"新居浜上部のぞみ保育園","w":null,"c":1,"vacancy":[0,0,0,0,0,0]},
+    {"id":"新居浜萩生保育園","name":"新居浜萩生保育園","w":null,"c":1,"vacancy":[1,0,0,0,0,0]},
+    {"id":"新居浜八雲保育園","name":"新居浜八雲保育園","w":null,"c":1,"vacancy":[2,0,0,0,0,0]},
+    {"id":"新居浜南沢津保育園","name":"新居浜南沢津保育園","w":null,"c":1,"vacancy":[0,0,0,0,0,0]},
+    {"id":"中萩保育園","name":"中萩保育園","w":null,"c":1,"vacancy":[0,0,0,0,0,0]},
+    {"id":"はぴねすnurseryschool","name":"はぴねすnurseryschool","w":null,"c":1,"vacancy":[0,0,0,1,0,1]},
+    {"id":"金子保育園","name":"金子保育園","w":null,"c":1,"vacancy":[0,0,0,0,0,0]},
+    {"id":"認定こども園泉幼稚園","name":"認定こども園泉幼稚園","w":null,"c":2,"vacancy":[0,0,0,0,0,0]},
+    {"id":"認定こども園グレース幼稚園","name":"認定こども園グレース幼稚園","w":null,"c":2,"vacancy":[0,0,4,0,0,4]},
+    {"id":"認定こども園ひかり幼稚園","name":"認定こども園ひかり幼稚園","w":null,"c":2,"vacancy":[0,0,0,0,0,0]},
+    {"id":"認定こども園菊本幼稚園","name":"認定こども園菊本幼稚園","w":null,"c":2,"vacancy":[0,0,0,0,0,0]},
+    {"id":"認定こども園愛光幼稚園","name":"認定こども園愛光幼稚園","w":null,"c":2,"vacancy":[0,0,0,0,0,0]},
+    {"id":"かがやき保育園","name":"かがやき保育園","w":null,"c":3,"vacancy":[0,0,0,null,null,null]},
+    {"id":"かがやきぷらす保育園","name":"かがやきぷらす保育園","w":null,"c":3,"vacancy":[0,0,0,null,null,null]},
+    {"id":"ひまわり乳児園","name":"ひまわり乳児園","w":null,"c":3,"vacancy":[0,0,0,null,null,null]},
+    {"id":"こども園みるみる","name":"こども園みるみる","w":null,"c":3,"vacancy":[0,0,0,null,null,null]},
+    {"id":"ぽこ・あ・ぽこ保育園","name":"ぽこ・あ・ぽこ保育園","w":null,"c":3,"vacancy":[0,0,0,null,null,null]}
+  ]
+}
