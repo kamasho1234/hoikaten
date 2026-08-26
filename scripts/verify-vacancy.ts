@@ -690,6 +690,12 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 浦添市は受入可能児童数と入所待ち児童数の2つを公表している
+  urasoe: {
+    asOf: "2026-08-24",
+    facilityCount: 64,
+    vacancy: 122,
+  },
   // 野洲市は時点がリンクの文字にしか書かれていない
   yasu: {
     asOf: "2026-08-21",
