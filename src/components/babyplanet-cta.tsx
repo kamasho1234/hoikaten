@@ -58,12 +58,23 @@ export function BabyPlanetCta({
           オンラインでも自宅でも受けられるので、小さな子どもがいても出向かずに済みます。
         </p>
 
+        <div className="mb-4">
+          <a
+            href={BABYPLANET_URL}
+            rel="sponsored nofollow noopener"
+            target="_blank"
+            className="inline-flex items-center justify-center rounded-xl bg-primary px-5 py-3 text-sm font-bold text-primary-foreground hover:opacity-90 transition-opacity"
+          >
+            「ママ」のための保険無料相談サービス【ベビープラネット】
+          </a>
+        </div>
+
         {/* バナー */}
         <a
           href={BABYPLANET_BANNER_URL}
           rel="sponsored nofollow noopener"
           target="_blank"
-          className="inline-block mb-4"
+          className="inline-block"
         >
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
@@ -74,17 +85,6 @@ export function BabyPlanetCta({
             className="max-w-full h-auto rounded"
           />
         </a>
-
-        <div>
-          <a
-            href={BABYPLANET_URL}
-            rel="sponsored nofollow noopener"
-            target="_blank"
-            className="inline-flex items-center justify-center rounded-xl bg-primary px-5 py-3 text-sm font-bold text-primary-foreground hover:opacity-90 transition-opacity"
-          >
-            「ママ」のための保険無料相談サービス【ベビープラネット】
-          </a>
-        </div>
 
         {/* インプレッション計測用（表示されない） */}
         {/* eslint-disable-next-line @next/next/no-img-element */}
