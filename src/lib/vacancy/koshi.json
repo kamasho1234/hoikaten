@@ -1,0 +1,85 @@
+{
+  "municipalitySlug": "koshi",
+  "municipalityName": "合志市",
+  "asOf": "2026-08-21",
+  "fetchedAt": "2026-08-26",
+  "sourceName": "合志市「認可保育施設受入可能人数の公表について」",
+  "sourceUrl": "https://www.city.koshi.lg.jp/kiji00324894/index.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.koshi.lg.jp/kiji00324894/3_24894_up_pthkybeq.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "2026年9月審査用の受入可能人数",
+  "notes": [
+    "合志市は空き状況を人数ではなく記号で公表しています。これは2026年9月審査用のもので、2026-08-21時点のものです。",
+    "なお、「×（空き無し）」と表示されている施設についても、急な退所等により空きが出る可能性があるため、申し込みが可能で",
+    "（※1）認定こども園の定員及び受け入れ可能人数は、保育部門の子どもの人数です。",
+    "公式の表で「－（預かり無し）」になっている年齢は「—」にしています。その年齢を預かっていないことを表しています。",
+    "受入開始月齢は施設によって違います（竹迫みのり保育園: 3ヶ月 / 合志中部保育園: 2ヶ月（57日目） / 南部保育園: 3ヶ月 / 栄保育園: 概ね6ヶ月 / こひつじ保育園: 5ヶ月 / すずかけ台保育園: 3ヶ月 / 西合志南保育園: 6ヶ月 / 愛泉保育園: 5ヶ月 / 西合志中央保育園: 3ヶ月 / あいあい保育園: 概ね4ヶ月 / 西合志東保育園: 6ヶ月 / 白百合保育園: 概ね6ヶ月 / さくらんぼ保育園: 概ね3ヶ月 / ひかりの丘保育園: 概ね6ヶ月 / はあもにい保育園: 6ヶ月 / こうしおんがく保育園: 6ヶ月 / このみ坂保育園: 概ね6ヶ月 / 杉並台保育園: 6ヶ月 / ひかりの子保育園: 概ね6ヶ月 / かえでの森こども園: 概ね6ヶ月 / 百合ヶ丘保育園: 概ね6ヶ月 / クローバー保育園: 6ヶ月 / さくらんぼ第二保育園: 3ヶ月 / 合志たけのこ保育園: 3ヶ月 / 合志こども園: 6ヶ月 / リズム幼稚園: 3ヶ月 / 六華こども園: 6ヶ月 / はっぴぃの園: 3ヶ月 / ひかり園: 3ヶ月 / ぽっぽ保育室須屋: 3ヶ月 / さくらんぼ保育室: 3ヶ月 / たんぽぽ: 4ヶ月）。"
+  ],
+  "wards": [],
+  "categories": [
+    "保育所",
+    "認定こども園",
+    "小規模保育",
+    "家庭的保育"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "◎",
+      "label": "6名以上空き(入りやすい)",
+      "open": true
+    },
+    {
+      "mark": "○",
+      "label": "3～5名空き",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1～2名空き(残りわずか)",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空き無し",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"竹迫みのり保育園","name":"竹迫みのり保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","×","△","△","△"]},
+    {"id":"合志中部保育園","name":"合志中部保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","×","△","×","○"]},
+    {"id":"南部保育園","name":"南部保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","×"]},
+    {"id":"栄保育園","name":"栄保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"こひつじ保育園","name":"こひつじ保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","△"]},
+    {"id":"すずかけ台保育園","name":"すずかけ台保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","×","×","×","×"]},
+    {"id":"西合志南保育園","name":"西合志南保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","○","×","×","×","×"]},
+    {"id":"愛泉保育園","name":"愛泉保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","△","○"]},
+    {"id":"西合志中央保育園","name":"西合志中央保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"あいあい保育園","name":"あいあい保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","○","×","×"]},
+    {"id":"西合志東保育園","name":"西合志東保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["○","△","△","○","△","×"]},
+    {"id":"白百合保育園","name":"白百合保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"さくらんぼ保育園","name":"さくらんぼ保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"ひかりの丘保育園","name":"ひかりの丘保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","×","×","×","△"]},
+    {"id":"はあもにい保育園","name":"はあもにい保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","○","○","×","×","×"]},
+    {"id":"こうしおんがく保育園","name":"こうしおんがく保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","×","×","×","×"]},
+    {"id":"このみ坂保育園","name":"このみ坂保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","△","△","×","×"]},
+    {"id":"杉並台保育園","name":"杉並台保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","△","×","△","×"]},
+    {"id":"ひかりの子保育園","name":"ひかりの子保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"かえでの森こども園","name":"かえでの森こども園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","△","×","×","×"]},
+    {"id":"百合ヶ丘保育園","name":"百合ヶ丘保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"クローバー保育園","name":"クローバー保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"さくらんぼ第二保育園","name":"さくらんぼ第二保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","△","△","×","×"]},
+    {"id":"合志たけのこ保育園","name":"合志たけのこ保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×","×","×","×"]},
+    {"id":"合志こども園","name":"合志こども園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","△"]},
+    {"id":"リズム幼稚園","name":"リズム幼稚園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["○","○","△","×","×","×"]},
+    {"id":"六華こども園","name":"六華こども園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","×"]},
+    {"id":"はっぴぃの園","name":"はっぴぃの園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","×",null,null,null]},
+    {"id":"ひかり園","name":"ひかり園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","△",null,null,null]},
+    {"id":"ぽっぽ保育室須屋","name":"ぽっぽ保育室須屋","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△",null,null,null]},
+    {"id":"さくらんぼ保育室","name":"さくらんぼ保育室","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△",null,null,null]},
+    {"id":"たんぽぽ","name":"たんぽぽ","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×",null,null,null,null,null]}
+  ]
+}

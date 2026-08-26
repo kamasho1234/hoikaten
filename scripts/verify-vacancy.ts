@@ -690,6 +690,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 23, "○": 10, "✕": 81 },
   },
+  // 合志市は「－」が預かり無し（クラスなし）
+  koshi: {
+    asOf: "2026-08-21",
+    facilityCount: 32,
+    vacancy: 0,
+    symbolCounts: { "×": 114, "△": 51, "○": 10 },
+  },
   // 南城市は1施設が5行（定員・受入可能・入所・入所待ち・空き）
   nanjo: {
     asOf: "2026-08-01",
