@@ -27,3 +27,8 @@ import "./city-kumamoto";
 import "./city-sagamihara";
 import "./city-shizuoka";
 import "./city-okayama";
+import "./city-funabashi";
+import "./city-kawaguchi";
+import "./city-hachioji";
+import "./city-kagoshima";
+import "./city-himeji";
