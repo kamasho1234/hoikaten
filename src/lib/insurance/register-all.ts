@@ -45,3 +45,7 @@ import "./city-kanazawa";
 import "./city-amagasaki";
 import "./city-nagasaki";
 import "./city-gifu";
+import "./city-miyazaki";
+import "./city-toyonaka";
+import "./city-takasaki";
+import "./city-koriyama";
