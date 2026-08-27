@@ -36,3 +36,7 @@ import "./city-matsuyama";
 import "./city-matsudo";
 import "./city-nishinomiya";
 import "./city-kurashiki";
+import "./city-fujisawa";
+import "./city-kashiwa";
+import "./city-takamatsu";
+import "./city-toyama";
