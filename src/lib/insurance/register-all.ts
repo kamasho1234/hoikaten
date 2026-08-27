@@ -73,3 +73,6 @@ import "./city-suginami";
 import "./city-itabashi";
 import "./city-katsushika";
 import "./city-shinagawa";
+import "./city-kita";
+import "./city-shinjuku";
+import "./city-nakano";
