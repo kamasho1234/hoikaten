@@ -79,3 +79,6 @@ import "./city-nakano";
 import "./city-toshima";
 import "./city-koto";
 import "./city-sumida";
+import "./city-minato";
+import "./city-meguro";
+import "./city-arakawa";
