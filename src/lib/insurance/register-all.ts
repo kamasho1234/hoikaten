@@ -32,3 +32,7 @@ import "./city-kawaguchi";
 import "./city-hachioji";
 import "./city-kagoshima";
 import "./city-himeji";
+import "./city-matsuyama";
+import "./city-matsudo";
+import "./city-nishinomiya";
+import "./city-kurashiki";
