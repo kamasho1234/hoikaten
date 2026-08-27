@@ -82,3 +82,6 @@ import "./city-sumida";
 import "./city-minato";
 import "./city-meguro";
 import "./city-arakawa";
+import "./city-shibuya";
+import "./city-bunkyo";
+import "./city-taito";
