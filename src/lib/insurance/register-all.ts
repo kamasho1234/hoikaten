@@ -76,3 +76,6 @@ import "./city-shinagawa";
 import "./city-kita";
 import "./city-shinjuku";
 import "./city-nakano";
+import "./city-toshima";
+import "./city-koto";
+import "./city-sumida";
