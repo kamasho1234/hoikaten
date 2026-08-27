@@ -23,3 +23,7 @@ import "./city-chiba";
 import "./city-kitakyushu";
 import "./city-sakai";
 import "./city-niigata";
+import "./city-kumamoto";
+import "./city-sagamihara";
+import "./city-shizuoka";
+import "./city-okayama";
