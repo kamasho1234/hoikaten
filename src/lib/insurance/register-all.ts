@@ -85,3 +85,5 @@ import "./city-arakawa";
 import "./city-shibuya";
 import "./city-bunkyo";
 import "./city-taito";
+import "./city-chuo";
+import "./city-chiyoda";
