@@ -13,3 +13,8 @@ import "./city-osaka";
 import "./city-nagoya";
 import "./city-sapporo";
 import "./city-fukuoka";
+import "./city-kawasaki";
+import "./city-kobe";
+import "./city-kyoto";
+import "./city-saitama";
+import "./city-hiroshima";
