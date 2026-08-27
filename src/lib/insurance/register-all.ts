@@ -67,3 +67,6 @@ import "./city-machida";
 import "./city-setagaya";
 import "./city-nerima";
 import "./city-ota";
+import "./city-adachi";
+import "./city-edogawa";
+import "./city-suginami";
