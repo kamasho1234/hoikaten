@@ -49,38 +49,30 @@ export function HeaderNav({
     a.localeCompare(b, "ja")
   );
 
+  // 4項目とも同じ見た目にする。**スマホでは字とパディングを詰めて1行に収める。**
+  // ブラウザで実測した幅（ロゴと並べたときの余り）:
+  //   375px … ナビ220px・余り23px   360px … 余り8px   320px … ロゴの文字を隠して余り44px
+  // 文字を 13px・px-1.5 にしていた時点では 375px で 7px はみ出していた。
+  const linkClass =
+    "text-xs sm:text-sm text-muted-foreground hover:text-primary px-1 sm:px-2.5 py-1.5 rounded-lg hover:bg-primary/5 transition-colors whitespace-nowrap";
+
   return (
-    <div className="flex items-center gap-1 sm:gap-2">
-      <a
-        href="https://hoikaten.com/vacancy"
-        className="text-sm text-muted-foreground hover:text-primary px-2.5 py-1.5 rounded-lg hover:bg-primary/5 transition-colors whitespace-nowrap"
-      >
+    <div className="flex items-center gap-0 sm:gap-2">
+      <a href="https://hoikaten.com/vacancy" className={linkClass}>
         空き状況
       </a>
-      <a
-        href="/documents"
-        className="text-sm text-muted-foreground hover:text-primary px-2.5 py-1.5 rounded-lg hover:bg-primary/5 transition-colors whitespace-nowrap"
-      >
-        書類ガイド
-      </a>
-      <a
-        href="/insurance"
-        className="text-sm text-muted-foreground hover:text-primary px-2.5 py-1.5 rounded-lg hover:bg-primary/5 transition-colors whitespace-nowrap"
-      >
+      <a href="/insurance" className={linkClass}>
         お金
       </a>
-      <a
-        href="/articles"
-        className="text-sm text-muted-foreground hover:text-primary px-2.5 py-1.5 rounded-lg hover:bg-primary/5 transition-colors whitespace-nowrap"
-      >
-        保活コラム
+      <a href="/articles" className={linkClass}>
+        コラム
       </a>
       <div className="relative" ref={ref}>
         <button
           onClick={() => setOpen(!open)}
-          className="text-sm text-muted-foreground hover:text-primary px-3 py-1.5 rounded-lg hover:bg-primary/5 transition-colors flex items-center gap-1"
+          className={`${linkClass} flex items-center gap-0.5 sm:gap-1`}
         >
-          地域をえらぶ
+          地域を選ぶ
           <svg
             width="12"
             height="12"
@@ -88,7 +80,7 @@ export function HeaderNav({
             fill="none"
             stroke="currentColor"
             strokeWidth="2"
-            className={`transition-transform ${open ? "rotate-180" : ""}`}
+            className={`shrink-0 transition-transform ${open ? "rotate-180" : ""}`}
           >
             <path d="M6 9l6 6 6-6" />
           </svg>

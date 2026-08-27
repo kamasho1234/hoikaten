@@ -102,19 +102,26 @@ export default function RootLayout({
           }}
         />
         <header className="border-b border-primary/10 bg-white/80 backdrop-blur-sm sticky top-0 z-50">
-          <div className="mx-auto max-w-3xl px-4 py-3 flex items-center justify-between">
-            <a href="https://hoikaten.com" className="flex items-center gap-2.5 group">
-              <span className="flex items-center justify-center w-9 h-9 rounded-xl bg-primary/10 group-hover:bg-primary/15 transition-colors">
+          <div className="mx-auto max-w-3xl px-3 sm:px-4 py-3 flex items-center justify-between gap-2">
+            <a href="https://hoikaten.com" className="flex items-center gap-2 sm:gap-2.5 group shrink-0">
+              <span className="flex items-center justify-center w-8 h-8 sm:w-9 sm:h-9 shrink-0 rounded-xl bg-primary/10 group-hover:bg-primary/15 transition-colors">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" className="text-primary">
                   <path d="M3 21V9l9-7 9 7v12a1 1 0 01-1 1h-5v-7H9v7H4a1 1 0 01-1-1z" fill="currentColor" opacity="0.2"/>
                   <path d="M3 21V9l9-7 9 7v12a1 1 0 01-1 1h-5v-7H9v7H4a1 1 0 01-1-1z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </span>
-              <div className="flex flex-col">
-                <span className="text-lg font-bold logo-text" style={{ fontFamily: "var(--font-heading)" }}>
+              {/*
+                ナビ4つ（空き状況／お金／コラム／地域を選ぶ）を1行に収めるため、
+                **狭い画面から順にロゴの要素を落としている。**
+                640px未満 … 副題「保育園 点数シミュレーター」を出さない
+                360px未満 … ロゴの文字も出さず、アイコンだけにする
+                （実測でナビは220px。360px の画面だと文字を出すと8pxしか余らない）
+              */}
+              <div className="hidden min-[360px]:flex flex-col">
+                <span className="text-base sm:text-lg font-bold logo-text" style={{ fontFamily: "var(--font-heading)" }}>
                   hoikaten
                 </span>
-                <span className="text-[10px] text-muted-foreground -mt-0.5 tracking-wide">
+                <span className="hidden sm:block text-[10px] text-muted-foreground -mt-0.5 tracking-wide">
                   保育園 点数シミュレーター
                 </span>
               </div>
@@ -141,6 +148,9 @@ export default function RootLayout({
             </p>
             <div className="flex justify-center gap-4 text-xs text-muted-foreground">
               <a href="/" className="hover:text-primary transition-colors">地域一覧</a>
+              <span className="text-border">|</span>
+              {/* ヘッダーを4つに絞ったぶん、書類ガイドへの入口はここに置いている */}
+              <a href="/documents" className="hover:text-primary transition-colors">書類ガイド</a>
               <span className="text-border">|</span>
               <a
                 href="https://x.com/Hoikaten"
