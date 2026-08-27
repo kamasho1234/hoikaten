@@ -10,7 +10,6 @@ import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
-import { FullScreenAd } from "@/components/fullscreen-ad";
 import { RandomTextAd } from "@/components/random-text-ad";
 
 type Step = "parent1" | "parent2" | "adjustment" | "result";
@@ -819,7 +818,6 @@ export function SimulatorForm({ data }: { data: MunicipalityData }) {
     () => birthPointsOnlyForParent2(data.questions),
     [data.questions]
   );
-  const [showAdPopup, setShowAdPopup] = useState(false);
   const [answers, setAnswers] = useState<Record<string, string>>({});
   const [questionIndex, setQuestionIndex] = useState(0);
   const [pendingAdvance, setPendingAdvance] = useState(false);
@@ -979,7 +977,6 @@ export function SimulatorForm({ data }: { data: MunicipalityData }) {
     const idx = STEPS.findIndex((s) => s.key === step);
     if (idx >= 0 && idx < STEPS.length - 1) {
       const nextStep = STEPS[idx + 1].key;
-      if (nextStep === "result") setShowAdPopup(true);
       setStep(nextStep);
       setQuestionIndex(0);
     }
@@ -999,7 +996,6 @@ export function SimulatorForm({ data }: { data: MunicipalityData }) {
         const idx = STEPS.findIndex((s) => s.key === step);
         if (idx >= 0 && idx < STEPS.length - 1) {
           const nextStep = STEPS[idx + 1].key;
-          if (nextStep === "result") setShowAdPopup(true);
           setStep(nextStep);
           setQuestionIndex(0);
         }
@@ -1091,8 +1087,6 @@ export function SimulatorForm({ data }: { data: MunicipalityData }) {
           </CardContent>
         </Card>
       )}
-
-      <FullScreenAd isOpen={showAdPopup} onClose={() => setShowAdPopup(false)} />
 
       {/* Result */}
       {step === "result" && result && (

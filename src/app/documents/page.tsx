@@ -1,7 +1,6 @@
 import "@/lib/documents/register-all";
 import { getAllDocuments, getDocumentsByGroup, GROUP_COLOR } from "@/lib/documents";
 import { breadcrumbList } from "@/lib/jsonld";
-import { RandomAd } from "@/components/random-ad";
 
 const COUNT = getAllDocuments().length;
 
@@ -136,8 +135,6 @@ export default function DocumentsPage() {
           </section>
         );
       })}
-
-      <RandomAd />
 
       <div className="mt-10 rounded-xl border border-border/60 bg-muted/30 p-5">
         <p className="text-sm text-muted-foreground leading-relaxed m-0">

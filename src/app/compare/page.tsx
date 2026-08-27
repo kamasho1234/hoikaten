@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { getAllMunicipalities } from "@/lib/data";
-import { RandomAd } from "@/components/random-ad";
 import { prefectureMap, prefectureSlugs } from "@/lib/prefecture";
 import { breadcrumbList } from "@/lib/jsonld";
 
@@ -87,7 +86,6 @@ export default function CompareIndexPage() {
       </div>
 
       <div className="mt-8">
-        <RandomAd />
       </div>
     </div>
   );

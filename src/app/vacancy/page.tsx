@@ -12,7 +12,6 @@ import {
   symbolAt,
   totalSummary,
 } from "@/lib/vacancy";
-import { RandomAd } from "@/components/random-ad";
 import { VacancyList, type VacancyListRow } from "./vacancy-list";
 
 const num = (n: number) => n.toLocaleString("ja-JP");
@@ -154,7 +153,6 @@ export default function VacancyIndexPage() {
         </p>
       </div>
 
-      <RandomAd />
     </div>
   );
 }

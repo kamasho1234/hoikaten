@@ -1,5 +1,4 @@
 import { getArticlesByCity } from "@/lib/articles";
-import { RandomAd } from "@/components/random-ad";
 
 export const metadata = {
   title: "保活コラム｜保育園 点数シミュレーター【hoikaten】",
@@ -63,8 +62,6 @@ export default function ArticlesPage() {
           ))}
         </div>
       )}
-
-      <RandomAd />
 
       <div className="mt-10 text-center">
         <a

@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { getAllMunicipalities } from "@/lib/data";
 import { getTopArticles } from "@/lib/articles";
-import { RandomAd } from "@/components/random-ad";
 
 /** 対応している自治体の数。増えても書き換えなくていいよう実データから数える */
 const MUNICIPALITY_COUNT = getAllMunicipalities().length;
@@ -194,8 +193,6 @@ export default function Home() {
             都道府県別に自治体の点数を比較する →
           </a>
         </div>
-
-        <RandomAd />
 
         {/* 記事一覧 */}
         {articles.length > 0 && (

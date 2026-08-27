@@ -3,7 +3,6 @@ import "@/lib/documents/register-all";
 import { getAllDocuments, getDocument, GROUP_COLOR } from "@/lib/documents";
 import { breadcrumbList, faqPage } from "@/lib/jsonld";
 import { ArticleBody } from "@/components/article-body";
-import { RandomAd } from "@/components/random-ad";
 
 export function generateStaticParams() {
   return getAllDocuments().map((g) => ({ slug: g.slug }));
@@ -219,7 +218,6 @@ export default async function DocumentPage({
       </section>
 
       <div className="mt-10">
-        <RandomAd />
       </div>
 
       {/* 関連する書類 */}

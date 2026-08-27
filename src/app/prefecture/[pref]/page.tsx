@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getAllMunicipalities } from "@/lib/data";
 import { getArticlesByCity } from "@/lib/articles";
-import { RandomAd } from "@/components/random-ad";
 import { prefectureMap, prefectureSlugs } from "@/lib/prefecture";
 import { breadcrumbList } from "@/lib/jsonld";
 
@@ -142,7 +141,6 @@ export default async function PrefecturePage({
         </div>
       )}
 
-      <RandomAd />
     </div>
   );
 }

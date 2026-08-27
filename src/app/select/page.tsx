@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { getAllMunicipalities } from "@/lib/data";
 import { CitySearch } from "@/components/city-search";
-import { RandomAd } from "@/components/random-ad";
 
 /** 対応している自治体の数。増えても書き換えなくていいよう実データから数える */
 const MUNICIPALITY_COUNT = getAllMunicipalities().length;
@@ -58,7 +57,6 @@ export default function SelectPage() {
         続々追加中
       </p>
 
-      <RandomAd />
     </div>
   );
 }

@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getAllMunicipalities } from "@/lib/data";
-import { RandomAd } from "@/components/random-ad";
 import { prefectureMap, prefectureSlugs } from "@/lib/prefecture";
 import { breadcrumbList } from "@/lib/jsonld";
 import { getMunicipalityCompareRow } from "@/lib/compare";
@@ -205,8 +204,6 @@ export default async function ComparePrefecturePage({
           </svg>
         </a>
       </div>
-
-      <RandomAd />
 
       {/* 免責 */}
       <div className="mt-8 bg-muted/30 rounded-xl p-4 border">

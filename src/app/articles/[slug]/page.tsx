@@ -6,7 +6,6 @@ import {
   CardTitle,
   CardDescription,
 } from "@/components/ui/card";
-import { RandomAd } from "@/components/random-ad";
 import { RandomTextAd } from "@/components/random-text-ad";
 import { ArticleBody } from "@/components/article-body";
 import { breadcrumbList } from "@/lib/jsonld";
@@ -136,9 +135,6 @@ export default async function ArticlePage({
 
       {/* 記事本文（中盤にテキスト広告を挿入） */}
       <ArticleBody html={article.content} />
-
-      {/* RandomAd */}
-      <RandomAd />
 
       {/* シェア直上のテキスト広告 */}
       <RandomTextAd />
