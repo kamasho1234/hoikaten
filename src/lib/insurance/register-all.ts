@@ -87,3 +87,6 @@ import "./city-bunkyo";
 import "./city-taito";
 import "./city-chuo";
 import "./city-chiyoda";
+import "./city-kawagoe";
+import "./city-koshigaya";
+import "./city-tokorozawa";
