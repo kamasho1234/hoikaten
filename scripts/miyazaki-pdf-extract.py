@@ -76,7 +76,13 @@ def extract(path):
                 stripped = " ".join(line.split())
                 if not stripped or "人以上の空き" in stripped:
                     continue
-                m = re.match(r"^((?:[○◯〇△×✕－\-]\s+){0,5}[○◯〇△×✕－\-])(?=\s)", stripped)
+                # 記号に「※」が付く行がある（「△ △※ × △ △ ×」）。
+                # ※ を許さないと、そこで記号の並びが切れて数え落とす
+                # （実際に △ を3個少なく数えて検算に落ちた）
+                m = re.match(
+                    r"^((?:[○◯〇△×✕－\-][※*＊]?\s+){0,5}[○◯〇△×✕－\-][※*＊]?)(?=\s)",
+                    stripped,
+                )
                 if not m:
                     continue
                 head = "".join(m.group(1).split())

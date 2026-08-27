@@ -4,16 +4,27 @@
 実行: python scripts/nakano-pdf-extract.py <pdf>
 出力: 標準出力にJSON（fetch-nakano-vacancy.ts から呼ぶ）
 
-## 表の作り
-- **表の1行目がそのまま施設類型の見出し**になっている（区立保育園／私立保育園／
-  認定こども園（2号3号認定）／地域型保育事業（認可小規模保育事業）／同（認可家庭的保育事業））。
-  他の自治体のように本文から見出しを拾う必要がない。
-- 2行目が列見出し。**認可（0〜5歳クラス）と地域型（0〜2歳クラス）で列数が違う**
-  （8列と6列）ので、年齢の見出しを数えて分ける。
+## 表の作り（2026年10月分で作りが変わった）
+
+**以前は表の1行目がそのまま施設類型の見出し**（「区立保育園」など）だったが、
+いまは**見出しが表の外に「●認可保育所」のような行**として置かれ、
+表の1行目は列見出し（地域／区分／園コード／名称／空き人数（名）／基本 保育時間／延長保育時間）
+になっている。**この変更で「施設の表を1つも取り出せませんでした」と落ちた。**
+
+いまの作り:
+
+- 1行目 … 列見出し。`名称` はここ。`空き人数（名）` の下に年齢の列がぶら下がる
+- 2行目 … 年齢の見出し。`０歳` `１歳` …（**以前の「0歳クラス」から「クラス」が取れた**）
+- 3行目以降 … 施設。認可（0〜5歳）と地域型（0〜2歳）で列数が違う
+- **施設類型は表の外の「●…」の行**。表の上端より上にある直近の●を、その表の見出しとする
+  （ページごとに ● と表が同じ数・同じ順で並ぶが、順番ではなく y 座標で結びつける）
+- **「●認可保育所」は区立と私立の両方を含む**ので、類型は `区分` 列（区立／私立）と
+  組み合わせて決める。その判断は取り込み側（fetch-nakano-vacancy.ts）に任せ、
+  ここでは区分列の位置を返すだけにする
 - **「なし」がクラスの設定なし**。0は空きなし。この2つが文字で書き分けられているので、
-  さいたま市や江東区のように図形を見る必要はない。
-- 私立保育園はページをまたぐ（1ページ目の途中から2ページ目まで）。**同じ見出しの表が
-  複数出てくる**ので、取り込み側で施設名の重複だけ弾けばよい。
+  さいたま市や江東区のように図形を見る必要はない
+- 認可保育所はページをまたぐ。**同じ見出しの表が複数出てくる**ので、
+  取り込み側で施設名の重複だけ弾けばよい
 """
 
 import json
@@ -23,8 +34,8 @@ import sys
 import pdfplumber
 
 Z = str.maketrans("０１２３４５６７８９", "0123456789")
-AGE6 = ["0歳クラス", "1歳クラス", "2歳クラス", "3歳クラス", "4歳クラス", "5歳クラス"]
-AGE3 = ["0歳クラス", "1歳クラス", "2歳クラス"]
+AGE6 = ["0歳", "1歳", "2歳", "3歳", "4歳", "5歳"]
+AGE3 = ["0歳", "1歳", "2歳"]
 
 
 def fail(message):
@@ -43,6 +54,14 @@ def cell_text(s):
     return " ".join(str(s).split())
 
 
+def heading_above(headings, top):
+    """表の上端より上にある直近の「●…」を返す"""
+    above = [h for h in headings if h[0] < top]
+    if not above:
+        return None
+    return max(above, key=lambda h: h[0])[1]
+
+
 def extract(path):
     tables = []
     target = set()
@@ -54,24 +73,37 @@ def extract(path):
             if m:
                 target.add(tuple(int(g.translate(Z)) for g in m.groups()))
 
+            headings = [
+                (line["top"], line["text"].strip())
+                for line in page.extract_text_lines()
+                if line["text"].strip().startswith("●")
+            ]
+
             for table_obj in page.find_tables():
                 rows = [list(r) for r in table_obj.extract()]
                 if len(rows) < 3:
                     continue
-                # 1行目＝見出し、2行目＝列見出し
-                section = cell_text(rows[0][0])
-                head = [normalize(c) for c in rows[1]]
+                head = [normalize(c) for c in rows[0]]
+                age_head = [normalize(c) for c in rows[1]]
                 if "名称" not in head:
                     continue
-                labels = AGE6 if all(a in head for a in AGE6) else AGE3
-                if not all(a in head for a in labels):
-                    fail(f"{section}: 年齢の見出しが見つかりません: {head}")
+
+                labels = AGE6 if all(a in age_head for a in AGE6) else AGE3
+                if not all(a in age_head for a in labels):
+                    fail(f"年齢の見出しが見つかりません: {age_head}")
+
+                section = heading_above(headings, table_obj.bbox[1])
+                if not section:
+                    fail(f"表の上に「●…」の見出しが見つかりません（{head}）")
+
                 tables.append(
                     {
                         "section": section,
                         "columns": {
                             "name": head.index("名称"),
-                            "ages": [head.index(a) for a in labels],
+                            # 区分（区立／私立）。「●認可保育所」を区立と私立に分けるのに要る
+                            "kind": head.index("区分") if "区分" in head else None,
+                            "ages": [age_head.index(a) for a in labels],
                         },
                         "rows": [[cell_text(c) for c in r] for r in rows[2:]],
                     }

@@ -24,7 +24,12 @@ import path from "node:path";
 const MUNICIPALITY_SLUG = "koto";
 const MUNICIPALITY_NAME = "江東区";
 const SOURCE_NAME = "江東区「入所募集人員一覧表」";
-const INDEX_URL = "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/akijyouhou-r8-back.html";
+// 空き人員一覧のページ。**URLに年度が入っていて毎年変わる**
+// （akijyouhou-r8-back.html → akijyohou_r8_5kara.html のように、予告なく差し替わって 404 になった）。
+// 直リンクだけに頼ると年度替わりで必ず止まるので、**404 のときは保育園の一覧ページから探し直す**。
+const INDEX_URL = "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/akijyohou_r8_5kara.html";
+/** INDEX_URL が落ちたときにリンクを探しにいくページ */
+const FALLBACK_INDEX_URL = "https://www.city.koto.lg.jp/kodomo/hoiku/ninka/index.html";
 const AGE_COUNT = 6;
 const MIN_FACILITY_RATIO = 0.9;
 
@@ -134,8 +139,25 @@ async function main() {
   console.log(`公式ページ: ${INDEX_URL}\n`);
 
   const ua = "Mozilla/5.0 (compatible; hoikaten/1.0; +https://hoikaten.com)";
-  const res = await fetch(INDEX_URL, { headers: { "User-Agent": ua } });
-  if (!res.ok) fail(`公式ページが ${res.status} を返しました`);
+  let indexUrl = INDEX_URL;
+  let res = await fetch(indexUrl, { headers: { "User-Agent": ua } });
+  if (!res.ok) {
+    // 年度が変わってURLが差し替わったとき。一覧ページから「空き人員一覧」のリンクを拾い直す
+    console.log(`公式ページが ${res.status} でした。一覧ページから探し直します: ${FALLBACK_INDEX_URL}`);
+    const listRes = await fetch(FALLBACK_INDEX_URL, { headers: { "User-Agent": ua } });
+    if (!listRes.ok) fail(`一覧ページも ${listRes.status} を返しました`);
+    const listHtml = await listRes.text();
+    const found = [...listHtml.matchAll(/<a[^>]+href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/gi)]
+      .map((m) => ({ url: new URL(m[1], FALLBACK_INDEX_URL).toString(), text: stripTags(m[2]) }))
+      .find((a) => a.text.includes("空き人員一覧"));
+    if (!found) fail("一覧ページに「空き人員一覧」へのリンクが見つかりません。サイトの作りが変わった可能性があります。");
+    indexUrl = found.url;
+    console.log(`見つかりました: ${found.text}
+  ${indexUrl}
+`);
+    res = await fetch(indexUrl, { headers: { "User-Agent": ua } });
+    if (!res.ok) fail(`探し直したページも ${res.status} を返しました: ${indexUrl}`);
+  }
   const html = await res.text();
 
   // 「令和8年度9月募集予定人員一覧（クラス年齢は令和8年4月1日現在の年齢です。）」。
@@ -145,7 +167,7 @@ async function main() {
   // 4月は一次・二次があるので次数も見る。
   const links = [...html.matchAll(/<a[^>]+href="([^"]+\.pdf)"[^>]*>([\s\S]*?)<\/a>/gi)]
     .map((m) => ({
-      url: new URL(m[1], INDEX_URL).toString(),
+      url: new URL(m[1], indexUrl).toString(),
       text: toHalfWidth(stripTags(m[2])),
     }))
     .map((l) => {

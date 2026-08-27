@@ -61,7 +61,8 @@ function toHalfWidth(s: string): string {
 
 type PdfTable = {
   section: string;
-  columns: { name: number; ages: number[] };
+  /** kind は「区分」列（区立／私立）の位置。「●認可保育所」を分けるのに使う */
+  columns: { name: number; kind: number | null; ages: number[] };
   rows: string[][];
 };
 type PdfResult = { target: number[][]; tables: PdfTable[] };
@@ -92,12 +93,26 @@ function parseValue(v: string, where: string): number | null {
   fail(`${where}: 空き数として読めません: 「${v}」`);
 }
 
-/** 見出しから施設類型を決める。長い注記が付くことがあるので括弧の前だけ使う */
-function categoryOf(section: string, where: string): string {
-  const s = section.replace(/\s/g, "");
-  if (s.startsWith("区立保育園")) return "区立保育園";
-  if (s.startsWith("私立保育園")) return "私立保育園";
-  if (s.startsWith("認定こども園")) return "認定こども園";
+/**
+ * 見出しと「区分」列から施設類型を決める。
+ *
+ * **2026年10月分から見出しの作りが変わった。** 以前は表の中に「区立保育園」「私立保育園」と
+ * 分かれて書いてあったが、いまは表の外の「●認可保育所」ひとつにまとまり、
+ * 区立と私立は行ごとの「区分」列（区 立／私 立）で分かれている。
+ * そのため見出しだけでは決められず、区分と組み合わせる。
+ */
+function categoryOf(section: string, kind: string, where: string): string {
+  const s = section.replace(/[\s●]/g, "");
+  const k = kind.replace(/\s/g, "");
+  if (s.startsWith("認可保育所") || s.startsWith("区立保育園") || s.startsWith("私立保育園")) {
+    if (s.startsWith("区立保育園")) return "区立保育園";
+    if (s.startsWith("私立保育園")) return "私立保育園";
+    if (k.startsWith("区")) return "区立保育園";
+    if (k.startsWith("公")) return "公設民営保育園";
+    if (k.startsWith("私")) return "私立保育園";
+    fail(`${where}: 認可保育所の区分を判別できません: 「${kind}」`);
+  }
+  if (s.includes("認定こども園")) return "認定こども園";
   if (s.includes("小規模保育")) return "小規模保育事業";
   if (s.includes("家庭的保育")) return "家庭的保育事業";
   if (s.includes("事業所内保育")) return "事業所内保育事業";
@@ -165,15 +180,28 @@ async function main() {
       [];
     const research: { id: string; name: string; category: string; section: string }[] = [];
     const seen = new Set<string>();
+    /** 区分の欄が空の行は、直前の行と同じ区分として読む */
+    let lastKind = "";
 
     for (const t of pdf.tables) {
-      const category = categoryOf(t.section, "見出し");
-      if (!categories.includes(category)) categories.push(category);
       for (const row of t.rows) {
         const name = (row[t.columns.name] ?? "").trim();
         if (!name) continue;
         // 見出しが繰り返し入ることがあるので弾く
         if (name === t.section || /^名称$/.test(name)) continue;
+
+        // 区分は行ごと。**同じ表に区立と私立が混ざる**ので、行を読むたびに決める。
+        //
+        // 区分の欄は3通りの入り方をする。
+        //   1. 「区 立」「私 立」… そのまま読める
+        //   2. 「私」だけ／「立」だけ … **縦書きの2文字が上下の行に分かれて入る**
+        //   3. 空 … 罫線で上の行にまとめられている
+        // 区分として意味があるのは先頭の1文字（区／公／私）なので、
+        // **その文字で始まるときだけ覚え直し、「立」や空の行は直前の区分を引き継ぐ。**
+        const rawKind = (t.columns.kind === null ? "" : (row[t.columns.kind] ?? "")).replace(/\s/g, "");
+        if (/^[区公私]/.test(rawKind)) lastKind = rawKind;
+        const category = categoryOf(t.section, lastKind, `見出し「${t.section}」`);
+        if (!categories.includes(category)) categories.push(category);
 
         const values = t.columns.ages.map((i) => parseValue(row[i] ?? "", `${category} ${name}`));
         const vacancy: (number | null)[] =

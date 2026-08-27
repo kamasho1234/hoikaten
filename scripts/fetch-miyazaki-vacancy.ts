@@ -23,6 +23,8 @@ const AGE_COUNT = 6;
 const UA = "Mozilla/5.0 (compatible; hoikaten/1.0; +https://hoikaten.com)";
 
 const COL_ZERO = 0;
+/** 年齢の6列の次が備考。「※R6.4.2～11.30生のみ」のような条件が入る */
+const COL_NOTE = 6;
 const COL_WARD = 7;
 const COL_KIND = 8;
 const COL_NAME = 9;
@@ -55,11 +57,18 @@ function squeeze(s: string): string {
   return (s ?? "").replace(/[\s　]/g, "");
 }
 
-/** 表と凡例とで丸の字体が違うことがあるので、凡例の書き方にそろえる */
+/**
+ * 表と凡例とで丸の字体が違うことがあるので、凡例の書き方にそろえる。
+ *
+ * **記号に「※」が付くことがある**（「△※」など）。これは記号そのものではなく、
+ * 同じ行の備考欄（「※R6.4.2～11.30生のみ」）に条件が書いてあるという目印。
+ * 記号としては「△」なので ※ を落として読み、条件のほうは施設の備考に入れる。
+ */
 function shapeOf(mark: string): string {
-  if (/^[○◯〇]$/.test(mark)) return "○";
-  if (/^[×✕✖]$/.test(mark)) return "×";
-  return mark;
+  const m = mark.replace(/[※*＊]/g, "");
+  if (/^[○◯〇]$/.test(m)) return "○";
+  if (/^[×✕✖]$/.test(m)) return "×";
+  return m;
 }
 
 function stripTags(html: string): string {
@@ -205,6 +214,10 @@ async function main() {
         fail(`${ward} ${name}: 全てのクラスが空です`);
       }
 
+      // 備考。「※R6.4.2～11.30生のみ」のように、記号だけでは分からない条件が書いてある。
+      // **記号に ※ が付いている施設は必ずここを読ませる**必要があるので、備考として持たせる
+      const note = squeeze(row[COL_NOTE] ?? "").replace(/^[※*＊]+/, "").trim();
+
       facilities.push({
         id,
         name,
@@ -212,6 +225,7 @@ async function main() {
         c: categories.indexOf(kind),
         vacancy: new Array(AGE_COUNT).fill(null),
         symbols,
+        ...(note ? { note } : {}),
       });
     }
 
