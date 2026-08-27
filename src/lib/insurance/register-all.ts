@@ -61,3 +61,6 @@ import "./city-nara";
 import "./city-asahikawa";
 import "./city-iwaki";
 import "./city-kochi";
+import "./city-hirakata";
+import "./city-takatsuki";
+import "./city-machida";
