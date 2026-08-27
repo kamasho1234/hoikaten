@@ -18,3 +18,8 @@ import "./city-kobe";
 import "./city-kyoto";
 import "./city-saitama";
 import "./city-hiroshima";
+import "./city-sendai";
+import "./city-chiba";
+import "./city-kitakyushu";
+import "./city-sakai";
+import "./city-niigata";
