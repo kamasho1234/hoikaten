@@ -57,3 +57,7 @@ import "./city-ichinomiya";
 import "./city-toyohashi";
 import "./city-nagano";
 import "./city-wakayama";
+import "./city-nara";
+import "./city-asahikawa";
+import "./city-iwaki";
+import "./city-kochi";
