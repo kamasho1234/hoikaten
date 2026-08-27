@@ -70,3 +70,6 @@ import "./city-ota";
 import "./city-adachi";
 import "./city-edogawa";
 import "./city-suginami";
+import "./city-itabashi";
+import "./city-katsushika";
+import "./city-shinagawa";
