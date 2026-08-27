@@ -2,43 +2,37 @@ import type { ReactElement } from "react";
 
 const STYLES: Record<
   string,
-  { bg: string; accent: string; light: string; icon: string }
+  { bg: string; accent: string; light: string }
 > = {
   green: {
     bg: "linear-gradient(135deg, #f0fdf4 0%, #dcfce7 35%, #bbf7d0 65%, #86efac 100%)",
     accent: "rgba(22, 163, 74, 0.18)",
     light: "rgba(22, 163, 74, 0.08)",
-    icon: "M3 21V9l9-7 9 7v12a1 1 0 01-1 1h-5v-7H9v7H4a1 1 0 01-1-1z",
   },
   blue: {
     bg: "linear-gradient(135deg, #eff6ff 0%, #dbeafe 35%, #bfdbfe 65%, #93c5fd 100%)",
     accent: "rgba(37, 99, 235, 0.18)",
     light: "rgba(37, 99, 235, 0.08)",
-    icon: "M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4",
   },
   amber: {
     bg: "linear-gradient(135deg, #fffbeb 0%, #fef3c7 35%, #fde68a 65%, #fcd34d 100%)",
     accent: "rgba(217, 119, 6, 0.18)",
     light: "rgba(217, 119, 6, 0.08)",
-    icon: "M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z",
   },
   rose: {
     bg: "linear-gradient(135deg, #fff1f2 0%, #ffe4e6 35%, #fecdd3 65%, #fda4af 100%)",
     accent: "rgba(225, 29, 72, 0.18)",
     light: "rgba(225, 29, 72, 0.08)",
-    icon: "M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z",
   },
   purple: {
     bg: "linear-gradient(135deg, #faf5ff 0%, #f3e8ff 35%, #e9d5ff 65%, #d8b4fe 100%)",
     accent: "rgba(147, 51, 234, 0.18)",
     light: "rgba(147, 51, 234, 0.08)",
-    icon: "M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253",
   },
   teal: {
     bg: "linear-gradient(135deg, #f0fdfa 0%, #ccfbf1 35%, #99f6e4 65%, #5eead4 100%)",
     accent: "rgba(13, 148, 136, 0.18)",
     light: "rgba(13, 148, 136, 0.08)",
-    icon: "M17.657 16.657L13.414 20.9a2 2 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0zM15 11a3 3 0 11-6 0 3 3 0 016 0z",
   },
 };
 
@@ -55,9 +49,26 @@ function seededRandom(seed: string) {
   };
 }
 
+/**
+ * 画像に出す文字の大きさ。
+ * **一覧のサムネイルは 1200x600 をかなり小さく縮めて出す**ので、
+ * 文字数が多くても潰れないところまで落とす。
+ */
+function labelFontSize(text: string): number {
+  const n = [...text].length;
+  if (n <= 4) return 136;
+  if (n <= 6) return 112;
+  if (n <= 8) return 92;
+  return 76;
+}
+
 export function createHeroElement(
   categoryColor: string,
-  seed: string
+  seed: string,
+  /** 大きく出す文字。記事のカテゴリ（タグ）名を想定 */
+  label?: string,
+  /** 小さく上に出す文字。自治体名を想定 */
+  sublabel?: string
 ): ReactElement {
   const style = STYLES[categoryColor] ?? STYLES.green;
   const rand = seededRandom(seed);
@@ -124,18 +135,12 @@ export function createHeroElement(
           background: style.accent,
         }}
       >
-        <svg
-          width="140"
-          height="140"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke={style.accent.replace("0.18", "0.6")}
-          strokeWidth="1.5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        >
-          <path d={style.icon} />
-        </svg>
+        {/*
+          ここには以前カテゴリのアイコン（SVG）を描いていたが、
+          **ImageResponse（satori）が path の円弧コマンド `a` を描けず**、
+          直線部分だけが残って「− − −」のような線に化けていた。
+          文字を入れたことで役目もなくなったため、円だけの装飾にしている。
+        */}
       </div>
 
       <div
@@ -196,6 +201,55 @@ export function createHeroElement(
           />
         </svg>
       </div>
+
+      {/*
+        タグ名。**画像の中央に置く。**
+        一覧のサムネイルは 1200x600 を w-16 h-12 や w-24 h-24 の枠に object-cover で入れるため
+        左右が大きく切り落とされる。いちばん狭い 1:1 の枠では中央 600px しか残らないので、
+        文字はその幅に収める。
+      */}
+      {label ? (
+        <div
+          style={{
+            position: "absolute",
+            top: 0,
+            left: 0,
+            width: "100%",
+            height: "100%",
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          {sublabel ? (
+            <div
+              style={{
+                display: "flex",
+                fontSize: 54,
+                color: style.accent.replace("0.18", "0.75"),
+                marginBottom: 18,
+                maxWidth: 560,
+                textAlign: "center",
+              }}
+            >
+              {sublabel}
+            </div>
+          ) : null}
+          <div
+            style={{
+              display: "flex",
+              fontSize: labelFontSize(label),
+              lineHeight: 1.2,
+              color: style.accent.replace("0.18", "0.95"),
+              maxWidth: 560,
+              textAlign: "center",
+            }}
+          >
+            {label}
+          </div>
+        </div>
+      ) : null}
     </div>
   );
 }

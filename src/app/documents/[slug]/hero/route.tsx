@@ -2,6 +2,7 @@ import { ImageResponse } from "next/og";
 import "@/lib/documents/register-all";
 import { getAllDocuments, getDocument, GROUP_COLOR } from "@/lib/documents";
 import { createHeroElement, HERO_SIZE } from "@/lib/hero-image";
+import { heroFontOptions } from "@/lib/hero-font";
 
 export const runtime = "nodejs";
 
@@ -17,7 +18,8 @@ export async function GET(
   const guide = getDocument(slug);
   const color = guide ? GROUP_COLOR[guide.group] : "blue";
 
-  return new ImageResponse(createHeroElement(color, `documents-${slug}`), {
-    ...HERO_SIZE,
-  });
+  return new ImageResponse(
+    createHeroElement(color, `documents-${slug}`, guide?.group),
+    { ...HERO_SIZE, fonts: await heroFontOptions() }
+  );
 }

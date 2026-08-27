@@ -2,6 +2,7 @@ import { ImageResponse } from "next/og";
 import "@/lib/articles/register-all";
 import { getArticle, getArticlesByCity } from "@/lib/articles";
 import { createHeroElement, HERO_SIZE } from "@/lib/hero-image";
+import { heroFontOptions } from "@/lib/hero-font";
 
 export const runtime = "nodejs";
 
@@ -18,7 +19,7 @@ export async function GET(
   const categoryColor = article?.categoryColor ?? "green";
 
   return new ImageResponse(
-    createHeroElement(categoryColor, `general-${slug}`),
-    { ...HERO_SIZE }
+    createHeroElement(categoryColor, `general-${slug}`, article?.category),
+    { ...HERO_SIZE, fonts: await heroFontOptions() }
   );
 }

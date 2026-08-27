@@ -6,6 +6,7 @@ import {
   INSURANCE_GROUP_COLOR,
 } from "@/lib/insurance";
 import { createHeroElement, HERO_SIZE } from "@/lib/hero-image";
+import { heroFontOptions } from "@/lib/hero-font";
 
 export const runtime = "nodejs";
 
@@ -21,7 +22,8 @@ export async function GET(
   const article = getInsuranceArticle(slug);
   const color = article ? INSURANCE_GROUP_COLOR[article.group] : "blue";
 
-  return new ImageResponse(createHeroElement(color, `insurance-${slug}`), {
-    ...HERO_SIZE,
-  });
+  return new ImageResponse(
+    createHeroElement(color, `insurance-${slug}`, article?.group),
+    { ...HERO_SIZE, fonts: await heroFontOptions() }
+  );
 }
