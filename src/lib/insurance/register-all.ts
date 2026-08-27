@@ -40,3 +40,8 @@ import "./city-fujisawa";
 import "./city-kashiwa";
 import "./city-takamatsu";
 import "./city-toyama";
+import "./city-oita";
+import "./city-kanazawa";
+import "./city-amagasaki";
+import "./city-nagasaki";
+import "./city-gifu";
