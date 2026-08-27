@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "shizuoka",
   "municipalityName": "静岡市",
-  "asOf": "2026-08-20",
-  "fetchedAt": "2026-08-22",
+  "asOf": "2026-08-26",
+  "fetchedAt": "2026-08-27",
   "sourceName": "静岡市「こども園等の入園選考後の状況」",
   "sourceUrl": "https://www.city.shizuoka.lg.jp/s5783/s002044.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.shizuoka.lg.jp/documents/2030/202609_senkougo2.pdf"
+    "vacancy": "https://www.city.shizuoka.lg.jp/documents/2030/202609_senkougo3.pdf"
   },
   "metrics": [
     "symbol"
@@ -79,7 +79,7 @@
     {"id":"葵区/足久保","name":"足久保","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["◎","◎","△","△","△","－"]},
     {"id":"葵区/北安東","name":"北安東","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
     {"id":"葵区/沼上","name":"沼上","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","－","－","－","－","－"]},
-    {"id":"葵区/賤機","name":"賤機","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["○","－","○","△","－","○"]},
+    {"id":"葵区/賤機","name":"賤機","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["○","○","◎","△","－","○"]},
     {"id":"葵区/北沼上","name":"北沼上","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["※","－","－","－","△","△"]},
     {"id":"葵区/蛍ヶ丘","name":"蛍ヶ丘","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
     {"id":"葵区/美和","name":"美和","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},

@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "kamakura",
   "municipalityName": "鎌倉市",
-  "asOf": "2026-08-21",
-  "fetchedAt": "2026-08-22",
+  "asOf": "2026-08-26",
+  "fetchedAt": "2026-08-27",
   "sourceName": "鎌倉市「入所受け入れ人数・入所保留状況集計」",
   "sourceUrl": "https://www.city.kamakura.kanagawa.jp/hoiku/ukeire.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.kamakura.kanagawa.jp/hoiku/documents/r8_10ukeirewaku.pdf"
+    "vacancy": "https://www.city.kamakura.kanagawa.jp/hoiku/documents/ukeirewaku_koushin1kaime.pdf"
   },
   "metrics": [
     "vacancy"
@@ -58,7 +58,7 @@
     {"id":"23","name":"認定こども園アワーキッズ鎌倉","w":2,"c":1,"vacancy":[0,1,2,null,null,null]},
     {"id":"認定こども園アワーキッズ鎌倉分園","name":"認定こども園アワーキッズ鎌倉分園","w":2,"c":1,"vacancy":[null,null,null,0,0,0]},
     {"id":"24","name":"アトリエし～はうす保育園（※３）","w":3,"c":3,"vacancy":[0,0,0,null,null,null]},
-    {"id":"25","name":"しあわせいっぱい保育園深沢（※３）","w":3,"c":3,"vacancy":[null,5,0,null,null,null]},
+    {"id":"25","name":"しあわせいっぱい保育園深沢（※３）","w":3,"c":3,"vacancy":[null,4,1,null,null,null]},
     {"id":"26","name":"大船保育園〈公立〉(※1)","w":3,"c":0,"vacancy":[0,0,0,1,0,0]},
     {"id":"27","name":"大船ひまわり保育園","w":3,"c":0,"vacancy":[0,0,0,1,null,null]},
     {"id":"大船ひまわり保育園分園","name":"大船ひまわり保育園分園","w":3,"c":0,"vacancy":[null,null,null,null,0,1]},

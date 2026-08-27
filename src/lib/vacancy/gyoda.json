@@ -1,19 +1,19 @@
 {
   "municipalitySlug": "gyoda",
   "municipalityName": "行田市",
-  "asOf": "2026-07-23",
-  "fetchedAt": "2026-08-26",
+  "asOf": "2026-08-25",
+  "fetchedAt": "2026-08-27",
   "sourceName": "行田市「保育所等の受入可能状況について」",
   "sourceUrl": "https://www.city.gyoda.lg.jp/soshiki/kenkouhukushibu/kodomomirai/gyomu/ikuzi_misyugaku/hoikusho_kodomoen/hoikusho/7906.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.gyoda.lg.jp/material/files/group/22/202609ukeire.pdf"
+    "vacancy": "https://www.city.gyoda.lg.jp/material/files/group/22/202610ukeire.pdf"
   },
   "metrics": [
     "symbol"
   ],
-  "subtitle": "2026年9月入所の受入枠の状況",
+  "subtitle": "2026年10月入所の受入枠の状況",
   "notes": [
-    "行田市は空き状況を人数ではなく「あり」「なし」の記号で公表しています。これは2026年9月入所の受入可能状況の見込みで、2026-07-23時点のものです。",
+    "行田市は空き状況を人数ではなく「あり」「なし」の記号で公表しています。これは2026年10月入所の受入可能状況の見込みで、2026-08-25時点のものです。",
     "受入枠の状況は、園の状況等によって変更になる場合があります。入所の決定に際しては、必",
     "保育の必要性が高い方から入所を決定しますので、ご希望に添えない場合があります。",
     "公式の表で空らんになっている年齢は「—」にしています。その年齢のクラスがないことを表しています。"
@@ -40,8 +40,8 @@
     {"id":"若葉保育園（私立）","name":"若葉保育園（私立）","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","○","○","○"]},
     {"id":"和光保育園（私立）","name":"和光保育園（私立）","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","○","○","○"]},
     {"id":"白鳩保育園（私立）","name":"白鳩保育園（私立）","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
-    {"id":"ホザナ保育園（私立）","name":"ホザナ保育園（私立）","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","○","×"]},
-    {"id":"太井保育園（私立）","name":"太井保育園（私立）","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["○","×","×","×","×","×"]},
+    {"id":"ホザナ保育園（私立）","name":"ホザナ保育園（私立）","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"太井保育園（私立）","name":"太井保育園（私立）","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
     {"id":"小羊チャイルドセンター（私立）","name":"小羊チャイルドセンター（私立）","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","○","○","○"]},
     {"id":"太田保育園（私立）","name":"太田保育園（私立）","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","○","○","○"]},
     {"id":"埼玉保育園（私立）","name":"埼玉保育園（私立）","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","○","○","○"]},
