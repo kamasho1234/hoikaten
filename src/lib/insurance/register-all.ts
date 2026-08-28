@@ -108,3 +108,6 @@ import "./city-fuji";
 import "./city-soka";
 import "./city-chigasaki";
 import "./city-yamato";
+import "./city-hachinohe";
+import "./city-ota-gunma";
+import "./city-atsugi";
