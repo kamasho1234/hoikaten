@@ -1,19 +1,19 @@
 {
   "municipalitySlug": "fukushima",
   "municipalityName": "福島市",
-  "asOf": "2026-08-25",
-  "fetchedAt": "2026-08-25",
+  "asOf": "2026-08-28",
+  "fetchedAt": "2026-08-28",
   "sourceName": "福島市「認可保育施設の受入予定数」",
   "sourceUrl": "https://www.city.fukushima.fukushima.jp/kosodate-portal/5735.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.fukushima.fukushima.jp/material/files/group/55/20260825.pdf"
+    "vacancy": "https://www.city.fukushima.fukushima.jp/material/files/group/55/20260828.pdf"
   },
   "metrics": [
     "symbol"
   ],
   "subtitle": "2026年10月の受入予定数",
   "notes": [
-    "福島市は空き状況を人数ではなく記号で公表しています。これは2026年10月の受入予定数で、2026-08-25時点のものです。",
+    "福島市は空き状況を人数ではなく記号で公表しています。これは2026年10月の受入予定数で、2026-08-28時点のものです。",
     "表中の年齢は、令和８年４月１日時点の年齢でご覧ください。",
     "「定員」は、保育機能（２・３号認定）のみの人数です。",
     "「受入予定数」は、調査日時点での見込み状況です。今後、施設の状況（職員配置等）や在園児の退所等により",
@@ -87,7 +87,7 @@
     {"id":"鳥川保育園","name":"鳥川保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["▲","×","×","×","×","×"]},
     {"id":"あいあい保育園","name":"あいあい保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["▲","×","×","×","×","×"]},
     {"id":"さゆりこども園","name":"さゆりこども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
-    {"id":"さくらみなみ保育園","name":"さくらみなみ保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["▲","×","×","×","×","×"]},
+    {"id":"さくらみなみ保育園","name":"さくらみなみ保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["▲","×","×","▲","×","×"]},
     {"id":"たんぽぽ第二保育園","name":"たんぽぽ第二保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
     {"id":"あゆみ保育園","name":"あゆみ保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","▲","×","▲","×","×"]},
     {"id":"福島ゆかり保育園","name":"福島ゆかり保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["▲","×","×","▲","×","×"]},
