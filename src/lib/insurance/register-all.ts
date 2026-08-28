@@ -99,3 +99,6 @@ import "./city-kasugai";
 import "./city-tokushima";
 import "./city-shimonoseki";
 import "./city-matsue";
+import "./city-saga";
+import "./city-kofu";
+import "./city-oyama";
