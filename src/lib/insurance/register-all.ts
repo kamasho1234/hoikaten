@@ -117,3 +117,6 @@ import "./city-kure";
 import "./city-kasukabe";
 import "./city-yamaguchi";
 import "./city-numazu";
+import "./city-ichihara";
+import "./city-nishitokyo";
+import "./city-yachiyo";
