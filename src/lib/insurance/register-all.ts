@@ -114,3 +114,6 @@ import "./city-atsugi";
 import "./city-ageo";
 import "./city-isesaki";
 import "./city-kure";
+import "./city-kasukabe";
+import "./city-yamaguchi";
+import "./city-numazu";
