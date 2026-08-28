@@ -90,3 +90,6 @@ import "./city-chiyoda";
 import "./city-kawagoe";
 import "./city-koshigaya";
 import "./city-tokorozawa";
+import "./city-ichikawa";
+import "./city-otsu";
+import "./city-naha";
