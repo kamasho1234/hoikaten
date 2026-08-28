@@ -96,3 +96,6 @@ import "./city-naha";
 import "./city-kurume";
 import "./city-yokkaichi";
 import "./city-kasugai";
+import "./city-tokushima";
+import "./city-shimonoseki";
+import "./city-matsue";
