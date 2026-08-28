@@ -93,3 +93,6 @@ import "./city-tokorozawa";
 import "./city-ichikawa";
 import "./city-otsu";
 import "./city-naha";
+import "./city-kurume";
+import "./city-yokkaichi";
+import "./city-kasugai";
