@@ -105,3 +105,6 @@ import "./city-oyama";
 import "./city-hiratsuka";
 import "./city-sasebo";
 import "./city-fuji";
+import "./city-soka";
+import "./city-chigasaki";
+import "./city-yamato";
