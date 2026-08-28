@@ -102,3 +102,6 @@ import "./city-matsue";
 import "./city-saga";
 import "./city-kofu";
 import "./city-oyama";
+import "./city-hiratsuka";
+import "./city-sasebo";
+import "./city-fuji";
