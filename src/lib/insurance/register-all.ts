@@ -111,3 +111,6 @@ import "./city-yamato";
 import "./city-hachinohe";
 import "./city-ota-gunma";
 import "./city-atsugi";
+import "./city-ageo";
+import "./city-isesaki";
+import "./city-kure";
