@@ -1,0 +1,26 @@
+{
+  "slug": "ome",
+  "name": "青梅市",
+  "sourceName": "青梅市「保育施設募集状況」",
+  "indexUrl": "https://www.city.ome.tokyo.jp/soshiki/33/66858.html",
+  "pdf": {
+    "linkPattern": "募集状況表"
+  },
+  "layout": "auto-table",
+  "columns": { "name": 1 },
+  "categoryFrom": "none",
+  "metrics": ["vacancy"],
+  "subtitle": "翌月入所分の募集児童数",
+  "skipRowsContaining": ["計"],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "(令和\\d+年\\d{1,2}月\\d{1,2}日)"
+  },
+  "minFacilities": 20,
+  "notes": [
+    "この数は「その時点の空き」ではなく、翌月1日入所分の募集児童数です。市は「募集予定児童数は、各保育園と各月1日現在の状況を基に、調整し作成しております」としています。",
+    "入所年齢は令和8年4月1日現在の満年齢です。",
+    "今後の退園などで募集児童数が変動する場合があります。",
+    "募集人数が0人でも、退園や転園等で空きが生じることがあるため申し込みはできます。"
+  ]
+}

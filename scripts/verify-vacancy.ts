@@ -1206,6 +1206,122 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "○": 24, "△": 119, "×": 965 },
   },
+  takatsuki: {
+    asOf: "2026-08-01",
+    facilityCount: 25,
+    vacancy: 54,
+  },
+  kitanagoya: {
+    asOf: "2026-08-13",
+    facilityCount: 27,
+    vacancy: 174,
+  },
+  inuyama: {
+    asOf: "2026-08-25",
+    facilityCount: 13,
+    vacancy: 0,
+    symbolCounts: { "✖": 38, "〇": 31 },
+  },
+  nisshin: {
+    asOf: "2026-08-26",
+    facilityCount: 29,
+    vacancy: 0,
+    symbolCounts: { "×": 120, "△": 12, "○": 7 },
+  },
+  toyoake: {
+    asOf: "2026-08-01",
+    facilityCount: 20,
+    vacancy: 0,
+    symbolCounts: { "×": 63, "△": 25, "○": 13 },
+  },
+  obu: {
+    asOf: "2026-03-17",
+    facilityCount: 30,
+    vacancy: 0,
+    symbolCounts: { "○": 47, "✕": 106 },
+  },
+  kani: {
+    asOf: "2026-08-06",
+    facilityCount: 18,
+    vacancy: 0,
+    symbolCounts: { "×": 67, "△": 12, "○": 2 },
+  },
+  kimitsu: {
+    asOf: "2026-08-01",
+    facilityCount: 21,
+    vacancy: 0,
+    symbolCounts: { "×": 104, "△": 3, "○": 1 },
+  },
+  chikusei: {
+    asOf: "2026-07-31",
+    facilityCount: 27,
+    vacancy: 0,
+    symbolCounts: { "×": 57, "△": 53, "○": 22, "◎": 16 },
+  },
+  ome: {
+    asOf: "2026-08-10",
+    facilityCount: 31,
+    vacancy: 322,
+  },
+  chikushino: {
+    asOf: "2026-08-03",
+    facilityCount: 20,
+    vacancy: 0,
+    symbolCounts: { "×": 92, "△": 10, "○": 5 },
+  },
+  nogata: {
+    asOf: "2026-07-31",
+    facilityCount: 15,
+    vacancy: 0,
+    symbolCounts: { "×": 70, "○": 16 },
+  },
+  fukuroi: {
+    asOf: "2026-08-25",
+    facilityCount: 38,
+    vacancy: 0,
+    symbolCounts: { "×": 123, "△": 40, "○": 10 },
+  },
+  soja: {
+    asOf: "2026-08-25",
+    facilityCount: 21,
+    vacancy: 0,
+    symbolCounts: { "×": 99, "△": 9 },
+  },
+  ishinomaki: {
+    asOf: "2026-08-10",
+    facilityCount: 44,
+    vacancy: 0,
+    symbolCounts: { "×": 143, "△": 63, "○": 27 },
+  },
+  muroran: {
+    asOf: "2026-08-01",
+    facilityCount: 14,
+    vacancy: 0,
+    symbolCounts: { "×": 33, "○": 43 },
+  },
+  oshu: {
+    asOf: "2026-08-27",
+    facilityCount: 40,
+    vacancy: 0,
+    symbolCounts: { "×": 102, "△": 64, "○": 49 },
+  },
+  satsumasendai: {
+    asOf: "2026-08-25",
+    facilityCount: 45,
+    vacancy: 203,
+  },
+  hioki: {
+    asOf: "2026-07-31",
+    facilityCount: 25,
+    vacancy: 0,
+    symbolCounts: { "×": 81, "○": 54, "ー": 3 },
+  },
+  ito: {
+    asOf: "2026-08-17",
+    facilityCount: 13,
+    vacancy: 0,
+    symbolCounts: { "△": 19, "○": 2, "－": 45 },
+  },
 };
 
 const problems: string[] = [];

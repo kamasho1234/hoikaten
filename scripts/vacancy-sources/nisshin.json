@@ -1,0 +1,30 @@
+{
+  "slug": "nisshin",
+  "name": "日進市",
+  "sourceName": "日進市「保育園等の空き状況」",
+  "indexUrl": "https://www.city.nisshin.lg.jp/department/kenko/hoiku/6/2/2/hoiku/17120.html",
+  "pdf": {
+    "linkPattern": "hoikuen\\.pdf"
+  },
+  "layout": "auto-table",
+  "categoryTrim": ["※\\d+$"],
+  "metrics": ["symbol"],
+  "symbolLegend": [
+    { "mark": "○", "label": "3人以上空きあり", "open": true },
+    { "mark": "△", "label": "1〜2人空きあり", "open": true },
+    { "mark": "×", "label": "空きなし", "open": false }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "(令和\\d+年\\d{1,2}月\\d{1,2}日)時点"
+  },
+  "minFacilities": 20,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。「－」は未実施（そのクラスがない）です。",
+    "他の利用希望者との利用調整が行われますので、入所を約束するものではありません。",
+    "園の状況や毎月の随時審査の結果により、空き状況は変動します。",
+    "入園辞退や急な退所等により空くことがあるため、空きのない保育施設も希望できます。",
+    "認定こども園は保育所部分の空き状況です。1号認定（教育）部分については各施設へ問い合わせるよう案内されています。",
+    "愛知国際プリスクールの1歳児クラスについては、満2歳からの利用となります。"
+  ]
+}

@@ -1,0 +1,336 @@
+{
+  "municipalitySlug": "ito",
+  "municipalityName": "伊東市",
+  "asOf": "2026-08-17",
+  "fetchedAt": "2026-08-31",
+  "sourceName": "伊東市「保育所等の空き状況」",
+  "sourceUrl": "https://www.city.ito.shizuoka.jp/gyosei/soshikikarasagasu/yojikyoikuka/kosodate_kyoiku/2/1/2/hoikunyuen/13334.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.ito.shizuoka.jp/material/files/group/27/R8-10gatu_nyusyojokyo.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。「－」は空きなし（0人）で、そのクラスがないという意味ではありません。",
+    "公式の一覧は翌月入所の調整後の空き状況です。",
+    "認定こども園は保育を必要とする区分の空き状況です。"
+  ],
+  "wards": [],
+  "categories": [
+    "保育園（公立）",
+    "保育園（私立・民営）",
+    "認定こども園",
+    "小規模保育所"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "●",
+      "label": "空きあり（5人〜）",
+      "open": true
+    },
+    {
+      "mark": "○",
+      "label": "若干名（3〜4人）",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "残りわずか（1〜2人）",
+      "open": true
+    },
+    {
+      "mark": "－",
+      "label": "空きなし（0人）",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "富士見保育園",
+      "name": "富士見保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        "△",
+        "△",
+        "△",
+        "－",
+        "－"
+      ]
+    },
+    {
+      "id": "玖須美保育園",
+      "name": "玖須美保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "－",
+        "△",
+        "－",
+        "△",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "広野保育園",
+      "name": "広野保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        "△",
+        "－",
+        "△",
+        "△",
+        "○"
+      ]
+    },
+    {
+      "id": "宇佐美保育園",
+      "name": "宇佐美保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        "－",
+        "－",
+        "○",
+        "－",
+        "－"
+      ]
+    },
+    {
+      "id": "八幡野保育園",
+      "name": "八幡野保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "－",
+        "－",
+        "－",
+        "－",
+        "－"
+      ]
+    },
+    {
+      "id": "伊豆栄光荻保育園",
+      "name": "伊豆栄光荻保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "－",
+        "－",
+        "－",
+        "－",
+        "－",
+        "－"
+      ]
+    },
+    {
+      "id": "伊豆栄光富戸保育園",
+      "name": "伊豆栄光富戸保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "－",
+        "－",
+        "－",
+        "－",
+        "△"
+      ]
+    },
+    {
+      "id": "伊豆栄光湯川保育園",
+      "name": "伊豆栄光湯川保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "－",
+        "－",
+        "－",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "つくし保育園",
+      "name": "つくし保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "－",
+        "－",
+        "－",
+        "△",
+        "－",
+        "△"
+      ]
+    },
+    {
+      "id": "川奈愛育クラブ",
+      "name": "川奈愛育クラブ",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "－",
+        "－",
+        "－",
+        "－",
+        "－",
+        "－"
+      ]
+    },
+    {
+      "id": "伊豆栄光なぎさ保育園",
+      "name": "伊豆栄光なぎさ保育園",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "－",
+        "－",
+        "－",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "ちゅうりっぷ保育園",
+      "name": "ちゅうりっぷ保育園",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "－",
+        "△",
+        "－",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "小規模保育所えん",
+      "name": "小規模保育所えん",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "－",
+        "－",
+        "－",
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+}

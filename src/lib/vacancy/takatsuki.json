@@ -1,0 +1,380 @@
+{
+  "municipalitySlug": "takatsuki",
+  "municipalityName": "高槻市",
+  "asOf": "2026-08-01",
+  "fetchedAt": "2026-08-31",
+  "sourceName": "高槻市「認可保育施設の空き枠見込み数状況のお知らせ」",
+  "sourceUrl": "https://www.city.takatsuki.osaka.jp/soshiki/44/127850.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.takatsuki.osaka.jp/uploaded/attachment/68577.pdf"
+  },
+  "metrics": [
+    "vacancy"
+  ],
+  "subtitle": "空き枠見込み数",
+  "notes": [
+    "高槻市は「空き枠見込み数」として公表しています。空き枠見込みのない園は公式の表に載らないため、当サイトにも出てきません。",
+    "在園児の退園・他保育施設への転園や、保育職員の増員等により、記載の空き枠見込み数を越えて受け入れする場合があります。",
+    "空き枠見込み数が0人の場合も内定が出る可能性があります。逆に、空き枠見込み数がある場合でも施設状況等により受入できない場合があります。",
+    "小規模保育施設・事業所内保育事業所では、空き枠見込み数がある年齢に申し込みが無い場合、その枠に他年齢の申込児童を内定とする場合があります（申込児童不在時におけるクラス間調整）。",
+    "公式のPDFには「認可保育施設以外の空き枠見込み数」（幼稚園の就労支援型預かり保育など）も載っていますが、当サイトは認可保育施設（2号・3号）の分だけを扱っています。"
+  ],
+  "wards": [],
+  "categories": [
+    "保育所",
+    "認定こども園",
+    "小規模保育事業所"
+  ],
+  "facilities": [
+    {
+      "id": "阿武野保育所",
+      "name": "阿武野保育所",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        1
+      ]
+    },
+    {
+      "id": "磐手保育所",
+      "name": "磐手保育所",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        2
+      ]
+    },
+    {
+      "id": "春日保育所",
+      "name": "春日保育所",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        1
+      ]
+    },
+    {
+      "id": "高槻あいわ保育園",
+      "name": "高槻あいわ保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        1
+      ]
+    },
+    {
+      "id": "たかつき駅前保育園",
+      "name": "たかつき駅前保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        1
+      ]
+    },
+    {
+      "id": "たかつき芥川認定こども園",
+      "name": "たかつき芥川認定こども園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        13
+      ]
+    },
+    {
+      "id": "阿武野認定こども園",
+      "name": "阿武野認定こども園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        4
+      ]
+    },
+    {
+      "id": "認定こども園ソレイユぐんげ保育園",
+      "name": "認定こども園ソレイユぐんげ保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        3
+      ]
+    },
+    {
+      "id": "如是保育所",
+      "name": "如是保育所",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        1,
+        1,
+        null
+      ]
+    },
+    {
+      "id": "大塚保育所",
+      "name": "大塚保育所",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        1,
+        null
+      ]
+    },
+    {
+      "id": "北昭和台保育所",
+      "name": "北昭和台保育所",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        3,
+        null
+      ]
+    },
+    {
+      "id": "認定こども園玉川橋保育園",
+      "name": "認定こども園玉川橋保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        1,
+        null
+      ]
+    },
+    {
+      "id": "浦堂認定こども園",
+      "name": "浦堂認定こども園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        1,
+        null
+      ]
+    },
+    {
+      "id": "桜北町第一保育園",
+      "name": "桜北町第一保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        1,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "認定こども園柱本保育園こども未来学舎",
+      "name": "認定こども園柱本保育園こども未来学舎",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        1,
+        1,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "認定こども園日吉台幼稚園",
+      "name": "認定こども園日吉台幼稚園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        1,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "認定こども園いまむらこどもえん",
+      "name": "認定こども園いまむらこどもえん",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        1,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "トーマスひむろ認定こども園",
+      "name": "トーマスひむろ認定こども園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        2,
+        null,
+        1,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "芥川赤ちゃんクラブ",
+      "name": "芥川赤ちゃんクラブ",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        1,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "ＮＯＺＯＭＩ保育園",
+      "name": "ＮＯＺＯＭＩ保育園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        1,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "ひかり保育園",
+      "name": "ひかり保育園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        1,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "はぐくむ保育園高槻園",
+      "name": "はぐくむ保育園高槻園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        1,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "りとるすたー高槻園",
+      "name": "りとるすたー高槻園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        1,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "南平台保育園",
+      "name": "南平台保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        6,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "みなみまつばら保育園",
+      "name": "みなみまつばら保育園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "satsumasendai",
+  "name": "薩摩川内市",
+  "sourceName": "薩摩川内市「保育施設等空き状況」",
+  "indexUrl": "https://www.city.satsumasendai.lg.jp/kosodate_kyoiku/kosodate/4/18166.html",
+  "pdf": {
+    "linkPattern": "空き状況を更新"
+  },
+  "layout": "auto-table",
+  "columns": { "name": 1, "category": 2 },
+  "metrics": ["vacancy"],
+  "subtitle": "残受入れ可能人数",
+  "asOf": {
+    "source": "pdf",
+    "pattern": "R(\\d+)\\.(\\d{1,2})\\.(\\d{1,2})\\s*現在"
+  },
+  "minFacilities": 20,
+  "notes": [
+    "数は「残受入れ可能人数」です。年齢は令和8年4月2日時点のもので数えられています。",
+    "市は「このファイルで空きを確認して申込みをした場合でも、保育士の体制やその他の事情で利用調整できないことがあります」としています。",
+    "認定こども園は保育を必要とする区分（2号・3号認定）の受入れ可能人数です。"
+  ]
+}

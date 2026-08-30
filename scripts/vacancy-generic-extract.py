@@ -1,0 +1,535 @@
+"""
+空き状況PDFの表を、設定ファイルの指示どおりに読み出す汎用の抽出器
+
+実行: python scripts/vacancy-generic-extract.py <pdf> <config.json>
+出力: 標準出力にJSON（scripts/fetch-config-vacancy.ts から呼ぶ）
+
+## なぜ汎用にしたのか
+自治体ごとに `<slug>-pdf-extract.py` を書いてきたが、
+**表の作りが同じ自治体が多い**（施設名の列＋0歳〜5歳の列が並ぶ、が最頻）。
+同じ形のものに毎回スクリプトを書くと、直すときに全部を直すことになる。
+設定で吸収できる差分は設定に出し、本当に特殊な自治体だけ専用スクリプトを残す。
+
+## 対応している4つの形
+- `auto-table` … PDFの表で、年齢の列を見出しの文字から自動で決める（最頻・まずこれを試す）
+- `one-table` … 列番号を設定に書いて読む（auto-table で拾えない表のため）
+- `age-sections` … 年齢ごとに表が分かれ、各表は施設名＋空き数の1列だけ（PDFの高槻市など）
+- `html-tables` … 公式ページのHTMLの表をそのまま読む（PDFを出さない自治体）
+
+## 読み取れなかったら必ず落とす
+推測で埋めると誤った数字を公開してしまう（[[feedback_factcheck_absolute]]）。
+形が想定と違うときは例外を投げ、呼び出し側（TS）が exit 1 する。
+"""
+
+import json
+import re
+import sys
+from html.parser import HTMLParser
+
+import pdfplumber
+
+ZEN = str.maketrans("０１２３４５６７８９", "0123456789")
+
+
+def fail(message):
+    raise SystemExit(f"[中断] {message}")
+
+
+def cell(s):
+    """セルの文字を、比較しやすい形にそろえる（空白を落として全角数字を半角に）"""
+    if s is None:
+        return ""
+    return "".join(str(s).split()).translate(ZEN)
+
+
+def parse_number(text, unit):
+    """「3名」「3人」「3」を 3 にする。数でなければ None"""
+    t = cell(text)
+    if unit:
+        t = t.replace(unit, "")
+    t = t.replace("人", "").replace("名", "")
+    if t in ("", "-", "‐", "―", "－", "ー", "/", "／"):
+        return None
+    if re.fullmatch(r"\d+", t):
+        return int(t)
+    return None
+
+
+def tables_of(pdf, settings):
+    """ページごとに表を取り出す。設定で pdfplumber の探し方を変えられるようにする"""
+    out = []
+    for page in pdf.pages:
+        found = page.extract_tables(settings) if settings else page.extract_tables()
+        for t in found or []:
+            out.append(t)
+    return out
+
+
+def rows_from_grid(grid, conf, category=None):
+    """
+    年齢の見出し行を手がかりに、マス目から施設の行を取り出す。
+
+    自治体の表は「保育園 0歳児 1歳児 …」のように、
+    **施設類型の見出しと年齢の見出しが同じ行に入る**ことが多い。
+    その行を見つけたら、年齢の列を決め直し、左端の文字をその区分の名前として使う。
+
+    戻り値: (rows, category) — category は次の表に引き継ぐ現在の区分
+    """
+    cols = conf.get("columns") or {}
+    name_col_conf = cols.get("name")
+    cat_col = cols.get("category")
+    unit = conf.get("valueUnit", "")
+    as_symbol = "symbol" in conf.get("metrics", ["vacancy"])
+    no_class = set(conf.get("noClassMarks", ["-", "‐", "―", "－", "ー", "/", "／", ""]))
+    skip = [cell(x) for x in conf.get("skipRowsContaining", [])]
+    # row … 見出し行の左端を区分名にする（既定）／heading … 表の前の見出しを使う／none … 付けない
+    mode = conf.get("categoryFrom", "row")
+    use_category = mode != "none"
+    take_from_row = mode == "row"
+    generic = set(conf.get("nameHeaders", ["施設名", "園名", "保育所名", "保育施設名", "保育園名"]))
+    # 同じ意味の記号が字だけ違う（「〇」と「○」など）ときに、凡例側の字にそろえる
+    symbol_map = conf.get("symbolMap") or {}
+    # 「空欄：受入なし」と凡例に書いてある自治体では、空欄をその意味の記号に置き換える。
+    # 何も指定しなければ空欄は「そのクラスがない」の扱いのままにする
+    empty_mark = conf.get("emptyMark")
+
+    rows = []
+    age_cols = None
+    name_col = None
+    for raw in grid:
+        r = [cell(c) for c in raw]
+        # 年齢の見出しが3つ以上並ぶ行を、見出し行とみなす
+        ages = {}
+        for j, c in enumerate(r):
+            a = age_of_header(c)
+            if a is not None and a not in ages.values():
+                ages[j] = a
+        if len(ages) >= 3:
+            age_cols = ages
+            name_col = name_col_conf if name_col_conf is not None else min(ages) - 1
+            if name_col < 0:
+                name_col = 0
+            head = r[name_col] if len(r) > name_col else ""
+            if take_from_row and head and head not in generic and age_of_header(head) is None:
+                for pat in conf.get("categoryTrim", []):
+                    head = re.sub(pat, "", head)
+                category = head.strip() or None
+            continue
+
+        if age_cols is None or len(r) <= max(max(age_cols), name_col):
+            continue
+        name = r[name_col]
+        if not name or age_of_header(name) is not None:
+            continue
+        if any(x and x in name for x in skip):
+            continue
+
+        # 類型の列がある表では、空欄は「上の行と同じ類型」を意味する（PDFの結合セル）
+        if cat_col is not None and len(r) > cat_col and r[cat_col]:
+            category = r[cat_col]
+
+        values = [None] * 6
+        symbols = [None] * 6
+        ok = False
+        for j, age in age_cols.items():
+            text = r[j]
+            if as_symbol and empty_mark and text == "":
+                text = empty_mark
+            if text in no_class:
+                continue
+            if as_symbol:
+                symbols[age] = symbol_map.get(text, text)
+                ok = True
+            else:
+                n = parse_number(text, unit)
+                if n is None:
+                    continue
+                values[age] = n
+                ok = True
+        if not ok:
+            continue
+
+        row = {"name": name, "vacancy": values}
+        if as_symbol:
+            row["symbols"] = symbols
+        if use_category and category:
+            row["category"] = category
+        rows.append(row)
+
+    return rows, category
+
+
+def transpose_grid(grid):
+    """
+    行と列を入れ替える。
+
+    室蘭市のように**年齢を縦、施設を横**に並べる自治体があり、
+    そのままでは年齢の見出し行が見つからない。入れ替えれば他と同じ形になる。
+    """
+    width = max((len(r) for r in grid), default=0)
+    return [[(r[i] if i < len(r) else "") for r in grid] for i in range(width)]
+
+
+def extract_auto_table(pdf, conf):
+    """PDFの表を、年齢の見出しを手がかりに読む"""
+    stop = conf.get("stopSection")
+    flip = bool(conf.get("transpose"))
+    rows = []
+    category = None
+    for page in pdf.pages:
+        if stop and re.search(stop, page.extract_text() or ""):
+            break
+        for table in tables_of_page(page, conf.get("tableSettings")):
+            got, category = rows_from_grid(transpose_grid(table) if flip else table, conf, category)
+            rows.extend(got)
+    return rows
+
+
+def tables_of_page(page, settings):
+    found = page.extract_tables(settings) if settings else page.extract_tables()
+    return [t for t in (found or []) if t]
+
+
+def extract_one_table(pdf, conf):
+    """1つの表に施設が縦、0歳〜5歳が横に並ぶ形"""
+    cols = conf["columns"]
+    name_col = cols["name"]
+    age_cols = cols["ages"]
+    cat_col = cols.get("category")
+    if len(age_cols) != 6:
+        fail("columns.ages は0歳〜5歳の6列を指定してください")
+
+    skip = [cell(s) for s in conf.get("skipRowsContaining", [])]
+    no_class = set(conf.get("noClassMarks", ["-", "‐", "―", "－", "ー", "/", "／", "×なし"]))
+    unit = conf.get("valueUnit", "")
+    as_symbol = "symbol" in conf.get("metrics", ["vacancy"])
+
+    rows = []
+    for table in tables_of(pdf, conf.get("tableSettings")):
+        for raw in table:
+            if raw is None:
+                continue
+            width = max(name_col, max(age_cols), cat_col if cat_col is not None else 0) + 1
+            if len(raw) < width:
+                continue
+            name = cell(raw[name_col])
+            if not name:
+                continue
+            if any(s and s in name for s in skip):
+                continue
+            # 見出し行（0歳・1歳などが施設名の列に来ている）を落とす
+            if re.search(r"\d\s*歳", name) or name in ("施設名", "園名", "保育所名"):
+                continue
+
+            values = []
+            symbols = []
+            ok = False
+            for c in age_cols:
+                text = cell(raw[c])
+                if as_symbol:
+                    if text in no_class or text == "":
+                        symbols.append(None)
+                    else:
+                        symbols.append(text)
+                        ok = True
+                    values.append(None)
+                else:
+                    if text in no_class:
+                        values.append(None)
+                        continue
+                    n = parse_number(text, unit)
+                    if n is None and text != "":
+                        # 数でも「設けていない」でもない文字が来たら、形が違う
+                        values.append(None)
+                    else:
+                        values.append(n)
+                        if n is not None:
+                            ok = True
+            if not ok and not conf.get("keepEmptyRows"):
+                continue
+
+            row = {"name": name, "vacancy": values}
+            if as_symbol:
+                row["symbols"] = symbols
+            if cat_col is not None:
+                row["category"] = cell(raw[cat_col])
+            rows.append(row)
+    return rows
+
+
+def extract_age_sections(pdf, conf):
+    """
+    年齢ごとに表が分かれ、各表は施設名と空き数だけを持つ形（高槻市など）
+
+    見出しと表の対応は**出現順ではなく座標**で取る。
+    注意書きの中に「5歳児」のような語が混ざると順番がずれるため、
+    表の上端のすぐ上にある見出しを、その表の年齢とする。
+    """
+    cols = conf["columns"]
+    name_col = cols["name"]
+    value_col = cols["value"]
+    cat_col = cols.get("category")
+    unit = conf.get("valueUnit", "")
+    headers = conf.get("ageSectionHeaders")
+    if not headers or len(headers) != 6:
+        fail("ageSectionHeaders は0歳児〜5歳児の6つを指定してください")
+
+    stop = conf.get("stopSection")
+    rows = {}
+    used_ages = set()
+    for page in pdf.pages:
+        # 別の制度の表（高槻市の「認可保育施設以外の空き枠見込み数」など）に入ったら止める
+        if stop and re.search(stop, page.extract_text() or ""):
+            break
+        # 見出しの位置を単語の座標から拾う
+        words = page.extract_words(use_text_flow=False) or []
+        marks = []
+        for w in words:
+            t = cell(w.get("text"))
+            for idx, h in enumerate(headers):
+                if t == h:
+                    marks.append((w["top"], w["x0"], idx))
+        marks.sort()
+
+        for table in page.find_tables(conf.get("tableSettings") or {}):
+            top = table.bbox[1]
+            above = [m for m in marks if m[0] <= top + 2]
+            if not above:
+                fail(f"表（top={top:.0f}）の上に年齢の見出しが見つかりません")
+            age = above[-1][2]
+            used_ages.add(age)
+            for raw in table.extract():
+                if raw is None or len(raw) <= max(name_col, value_col):
+                    continue
+                name = cell(raw[name_col])
+                if not name or name in ("施設名", "園名", "保育所名"):
+                    continue
+                n = parse_number(raw[value_col], unit)
+                if n is None:
+                    continue
+                if name not in rows:
+                    rows[name] = {"name": name, "vacancy": [None] * 6}
+                    if cat_col is not None and len(raw) > cat_col:
+                        rows[name]["category"] = cell(raw[cat_col])
+                if rows[name]["vacancy"][age] is not None:
+                    fail(f"{name} の{headers[age]}が二重に読み取られました")
+                rows[name]["vacancy"][age] = n
+
+    if not used_ages:
+        fail("年齢ごとの表を1つも読み取れませんでした")
+    return list(rows.values())
+
+
+# ---------------------------------------------------------------------------
+# HTMLの表を読む
+# ---------------------------------------------------------------------------
+
+
+class TableGrabber(HTMLParser):
+    """
+    HTMLから表を取り出す。rowspan / colspan は展開して長方形のマス目にする。
+
+    自治体のページは「公立保育園」「小規模保育事業所」のように
+    見出し＋表の組を並べることが多いので、表の直前の見出しも一緒に持って帰る。
+    """
+
+    HEADINGS = {"h1", "h2", "h3", "h4", "h5", "caption"}
+
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.tables = []          # [{"heading": str, "grid": [[str]]}]
+        self.heading = ""
+        self._htext = None        # 見出しを読んでいる最中のバッファ
+        self._depth = 0           # table の入れ子の深さ
+        self._grid = None
+        self._row = None
+        self._cell = None
+        self._span = (1, 1)
+        self._pending = {}        # 行をまたぐ rowspan: {列: [残り行数, 文字]}
+        self._table_heading = ""
+
+    def handle_starttag(self, tag, attrs):
+        a = dict(attrs)
+        if tag in self.HEADINGS:
+            self._htext = []
+        elif tag == "table":
+            self._depth += 1
+            if self._depth == 1:
+                self._grid = []
+                self._pending = {}
+                self._table_heading = self.heading
+        elif tag == "tr" and self._depth == 1:
+            self._row = []
+        elif tag in ("td", "th") and self._depth == 1:
+            self._cell = []
+            try:
+                cs = max(1, int(a.get("colspan", "1")))
+            except ValueError:
+                cs = 1
+            try:
+                rs = max(1, int(a.get("rowspan", "1")))
+            except ValueError:
+                rs = 1
+            self._span = (rs, cs)
+        elif tag == "br" and self._cell is not None:
+            self._cell.append(" ")
+
+    def handle_data(self, data):
+        if self._cell is not None:
+            self._cell.append(data)
+        elif self._htext is not None:
+            self._htext.append(data)
+
+    def handle_endtag(self, tag):
+        if tag in self.HEADINGS and self._htext is not None:
+            text = "".join(self._htext).strip()
+            if text:
+                # caption は表の中の見出しなので、その表だけに効かせる。
+                # ここで self.heading を書き換えると次の表の見出しがずれる
+                if tag == "caption" and self._depth == 1:
+                    self._table_heading = text
+                else:
+                    self.heading = text
+            self._htext = None
+        elif tag in ("td", "th") and self._depth == 1 and self._cell is not None:
+            text = "".join(self._cell).strip()
+            if self._row is not None:
+                self._row.append((text, self._span))
+            self._cell = None
+        elif tag == "tr" and self._depth == 1 and self._row is not None:
+            self._flush_row()
+            self._row = None
+        elif tag == "table":
+            if self._depth == 1 and self._grid is not None:
+                if self._grid:
+                    self.tables.append({"heading": self._table_heading, "grid": self._grid})
+                self._grid = None
+            self._depth = max(0, self._depth - 1)
+
+    def _flush_row(self):
+        """1行ぶんのセルを、前の行から伸びている rowspan と合わせて並べ直す"""
+        out = []
+        col = 0
+        queue = list(self._row)
+        while queue or col in self._pending:
+            if col in self._pending:
+                left, text = self._pending[col]
+                out.append(text)
+                if left <= 1:
+                    del self._pending[col]
+                else:
+                    self._pending[col] = [left - 1, text]
+                col += 1
+                continue
+            if not queue:
+                break
+            text, (rs, cs) = queue.pop(0)
+            for _ in range(cs):
+                out.append(text)
+                if rs > 1:
+                    self._pending[col] = [rs - 1, text]
+                col += 1
+        self._grid.append(out)
+
+
+# 「0歳児」「０歳」「0歳児クラス」に加え、「0歳児（6年保育）」のような括弧付きも見出しとみなす
+AGE_HEADER = re.compile(r"^([0-5０-５])歳児?(クラス)?(（[^）]*）|\([^)]*\))?$")
+
+
+def age_of_header(text):
+    """「1歳児」「１歳」を 1 にする。年齢の見出しでなければ None"""
+    m = AGE_HEADER.match(cell(text))
+    if not m:
+        return None
+    return int(m.group(1).translate(ZEN))
+
+
+def read_html(path):
+    """自治体のページは文字コードがまちまちなので、順に試して読む"""
+    with open(path, "rb") as f:
+        raw = f.read()
+    for enc in ("utf-8", "euc_jp", "shift_jis", "cp932"):
+        try:
+            return raw.decode(enc)
+        except UnicodeDecodeError:
+            continue
+    fail("HTMLの文字コードを判別できませんでした")
+
+
+def extract_html_tables(html_path, conf):
+    """
+    公式ページのHTMLの表を読む。
+
+    年齢の列は**見出し行の文字から自動で決める**。
+    「5歳児 4歳児 …」と降順に並べる自治体があり、列番号を設定に書くと間違えやすい。
+    行の取り出しはPDFと同じ rows_from_grid に任せ、ここは表の選び分けだけをする。
+    """
+    parser = TableGrabber()
+    parser.feed(read_html(html_path))
+
+    mode = conf.get("categoryFrom", "row")
+    only = conf.get("onlyTablesContaining")
+    stop = conf.get("stopSection")
+
+    def trim(text):
+        for pat in conf.get("categoryTrim", []):
+            text = re.sub(pat, "", text)
+        return text.strip() or None
+
+    rows = []
+    category = None
+    for t in parser.tables:
+        heading = t["heading"]
+        if only and not re.search(only, heading):
+            continue
+        if stop and re.search(stop, heading):
+            continue
+        seed = trim(heading) if mode == "heading" else category
+        got, carried = rows_from_grid(t["grid"], conf, seed)
+        if mode == "row":
+            category = carried
+        rows.extend(got)
+
+    return rows
+
+
+def main():
+    # Windowsの既定（cp932）だと日本語が化けてJSONとして読めなくなる
+    sys.stdout.reconfigure(encoding="utf-8")
+    if len(sys.argv) != 3:
+        fail("使い方: python scripts/vacancy-generic-extract.py <pdf> <config.json>")
+    pdf_path, conf_path = sys.argv[1], sys.argv[2]
+    with open(conf_path, encoding="utf-8") as f:
+        conf = json.load(f)
+
+    layout = conf.get("layout", "one-table")
+    if layout == "html-tables":
+        rows = extract_html_tables(pdf_path, conf)
+        minimum = conf.get("minFacilities", 3)
+        if len(rows) < minimum:
+            fail(f"読み取れた施設が {len(rows)} 件で、想定の {minimum} 件を下回りました")
+        print(json.dumps({"rows": rows, "text": ""}, ensure_ascii=False))
+        return
+
+    with pdfplumber.open(pdf_path) as pdf:
+        if not pdf.pages:
+            fail("PDFにページがありません")
+        text = "\n".join((p.extract_text() or "") for p in pdf.pages)
+        if layout == "auto-table":
+            rows = extract_auto_table(pdf, conf)
+        elif layout == "one-table":
+            rows = extract_one_table(pdf, conf)
+        elif layout == "age-sections":
+            rows = extract_age_sections(pdf, conf)
+        else:
+            fail(f"未対応の layout: {layout}")
+
+    minimum = conf.get("minFacilities", 3)
+    if len(rows) < minimum:
+        fail(f"読み取れた施設が {len(rows)} 件で、想定の {minimum} 件を下回りました")
+
+    print(json.dumps({"rows": rows, "text": text}, ensure_ascii=False))
+
+
+if __name__ == "__main__":
+    main()

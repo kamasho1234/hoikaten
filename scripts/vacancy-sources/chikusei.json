@@ -1,0 +1,30 @@
+{
+  "slug": "chikusei",
+  "name": "筑西市",
+  "sourceName": "筑西市「保育施設途中入所」の入所クラス別空き状況",
+  "indexUrl": "https://www.city.chikusei.lg.jp/kosodate/kyouiku-hoikushisetsu/page012441.html",
+  "pdf": {
+    "linkPattern": "空き状況"
+  },
+  "layout": "auto-table",
+  "categoryFrom": "none",
+  "metrics": ["symbol"],
+  "symbolMap": { "〇": "○" },
+  "symbolLegend": [
+    { "mark": "◎", "label": "5人以上", "open": true },
+    { "mark": "○", "label": "3〜4人", "open": true },
+    { "mark": "△", "label": "1〜2人", "open": true },
+    { "mark": "×", "label": "空きなし", "open": false }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "令和(\\d+)年度\\d{1,2}月入所空き状況（(\\d{1,2})月(\\d{1,2})日現在"
+  },
+  "minFacilities": 15,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "年齢は令和8年4月1日時点の年齢で見るよう案内されています。",
+    "園の職員配置状況や退所がある等、利用可能人数が変わる場合があります。",
+    "住民票が筑西市外にある人は、現在住民票のある市町村での申し込みになります。"
+  ]
+}

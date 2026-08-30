@@ -1,0 +1,28 @@
+{
+  "slug": "obu",
+  "name": "大府市",
+  "sourceName": "大府市「保育所等空き状況」",
+  "indexUrl": "https://www.city.obu.aichi.jp/kosodate/hoikuen/1015050/1011510.html",
+  "pdf": {
+    "linkPattern": "bosyuu\\.pdf"
+  },
+  "layout": "auto-table",
+  "categoryFrom": "none",
+  "metrics": ["symbol"],
+  "symbolMap": { "〇": "○" },
+  "symbolLegend": [
+    { "mark": "○", "label": "空きあり（期間限定入所枠を含む）", "open": true },
+    { "mark": "✕", "label": "空き無し", "open": false }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "(20\\d{2})（令和\\d+）年(\\d{1,2})月(\\d{1,2})日"
+  },
+  "minFacilities": 15,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "市は「申込の状況により変動する場合があります。」としています。",
+    "この空き状況は市が公表している最新のもので、基準日は市の資料に記載された日付です。",
+    "0歳児クラスに空きが表示されていない施設は、そのクラスを設けていないか、公式の表に記載がないものです。"
+  ]
+}

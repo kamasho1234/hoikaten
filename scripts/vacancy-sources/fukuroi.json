@@ -1,0 +1,29 @@
+{
+  "slug": "fukuroi",
+  "name": "袋井市",
+  "sourceName": "袋井市「市内認可保育所等の空き状況」",
+  "indexUrl": "https://www.city.fukuroi.shizuoka.jp/soshiki/25/1/hoikuen/1546584004210.html",
+  "pdf": {
+    "linkPattern": "空き状況"
+  },
+  "layout": "auto-table",
+  "categoryFrom": "none",
+  "metrics": ["symbol"],
+  "symbolMap": { "〇": "○" },
+  "symbolLegend": [
+    { "mark": "○", "label": "4人以上空きあり", "open": true },
+    { "mark": "△", "label": "1〜3人の空きあり", "open": true },
+    { "mark": "×", "label": "空きなし", "open": false }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "空き状況（(令和\\d+年\\d{1,2}月\\d{1,2}日)時点"
+  },
+  "minFacilities": 20,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "空きがあっても、利用申込みの状況等により入所できない場合があります。",
+    "園における児童の状況や保育士の配置状況などにより、空き状況が変わることがあります。",
+    "認定こども園は保育部分の空き状況です。"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "ishinomaki",
+  "name": "石巻市",
+  "sourceName": "石巻市「保育施設受入可能枠について」",
+  "indexUrl": "https://www.city.ishinomaki.lg.jp/kosodate/002/2505/ukeirekanouwaku.html",
+  "pdf": {
+    "linkPattern": "受入可能枠"
+  },
+  "layout": "auto-table",
+  "columns": { "name": 2 },
+  "categoryFrom": "none",
+  "metrics": ["symbol"],
+  "symbolMap": { "〇": "○" },
+  "symbolLegend": [
+    { "mark": "○", "label": "空き3人以上", "open": true },
+    { "mark": "△", "label": "空き枠3人未満", "open": true },
+    { "mark": "×", "label": "空きなし", "open": false }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "(令和\\d+年\\d{1,2}月\\d{1,2}日)現在"
+  },
+  "minFacilities": 20,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。対象クラス年齢がない場合、公式の表では斜線が引かれています（当サイトでは空欄）。",
+    "保育士の確保状況やクラス編成等により受入枠を調整しているため、入所調整の結果等により実際と異なる場合があります。",
+    "受入可能枠がある場合であっても、各家庭における保育が必要な状況の優先順での案内となるため、申込みが入所を確約するものではありません。",
+    "市は「各保育施設等では受け入れに関する問い合わせには対応できかねます」としています。問い合わせは石巻市子ども保育課へ。"
+  ]
+}

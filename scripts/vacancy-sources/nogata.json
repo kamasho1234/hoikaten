@@ -1,0 +1,28 @@
+{
+  "slug": "nogata",
+  "name": "直方市",
+  "sourceName": "直方市「市内認可保育所・認定こども園（保育）空き状況」",
+  "indexUrl": "https://www.city.nogata.fukuoka.jp/kenko/_2051/_2055/_13541.html",
+  "pdf": {
+    "linkPattern": "空き状況"
+  },
+  "layout": "auto-table",
+  "columns": { "name": 0, "category": 1 },
+  "metrics": ["symbol"],
+  "symbolMap": { "〇": "○" },
+  "symbolLegend": [
+    { "mark": "○", "label": "空きあり", "open": true },
+    { "mark": "×", "label": "空き無し", "open": false }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "【(令和\\d+年\\d{1,2}月\\d{1,2}日)時点】"
+  },
+  "minFacilities": 10,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "保育士の採用・退職・配置状況や転出に伴う在園児の退園等により、空き状況が変わる可能性があります。",
+    "市は「空きがあっても入所を確約するものではありません。今後の入所調整時点の状況次第で入所の可否が決まります」としています。",
+    "認定こども園は保育（2号・3号認定）部分の空き状況です。"
+  ]
+}

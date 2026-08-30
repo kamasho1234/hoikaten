@@ -1,0 +1,32 @@
+{
+  "slug": "hioki",
+  "name": "日置市",
+  "sourceName": "日置市「認可保育所・認定こども園・小規模保育事業所（2・3号）受入状況一覧」",
+  "indexUrl": "https://www.city.hioki.kagoshima.jp/jifuku/ukeirejokyou.html",
+  "pdf": {
+    "linkPattern": "受入れ状況一覧"
+  },
+  "layout": "auto-table",
+  "columns": { "name": 1 },
+  "categoryFrom": "none",
+  "metrics": ["symbol"],
+  "symbolMap": { "〇": "○" },
+  "symbolLegend": [
+    { "mark": "○", "label": "受入可能", "open": true },
+    { "mark": "×", "label": "受入困難", "open": false },
+    { "mark": "ー", "label": "確認中", "open": false }
+  ],
+  "noClassMarks": ["-", "‐", "―", "－", "/", "／", ""],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "更新日\\s*(\\d{1,2})月(\\d{1,2})日[\\s\\S]*?令和(\\d+)年",
+    "order": "mdy"
+  },
+  "minFacilities": 15,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。「ー」は確認中です。",
+    "表中の年齢は令和8年4月1日時点の年齢で見るよう案内されています。",
+    "園の状況（職員配置・保育室の面積）、在園児の退所等により変動する可能性があります。",
+    "受入可能数を超える利用申込みがあった場合は「日置市保育所等利用調整基準」に基づく利用調整が行われるため、「○」でも入所できない場合があります。"
+  ]
+}

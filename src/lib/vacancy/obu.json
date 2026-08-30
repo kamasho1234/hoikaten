@@ -1,0 +1,696 @@
+{
+  "municipalitySlug": "obu",
+  "municipalityName": "大府市",
+  "asOf": "2026-03-17",
+  "fetchedAt": "2026-08-31",
+  "sourceName": "大府市「保育所等空き状況」",
+  "sourceUrl": "https://www.city.obu.aichi.jp/kosodate/hoikuen/1015050/1011510.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.obu.aichi.jp/_res/projects/default_project/_page_/001/011/510/20260317__bosyuu.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "市は「申込の状況により変動する場合があります。」としています。",
+    "この空き状況は市が公表している最新のもので、基準日は市の資料に記載された日付です。",
+    "0歳児クラスに空きが表示されていない施設は、そのクラスを設けていないか、公式の表に記載がないものです。"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "空きあり（期間限定入所枠を含む）",
+      "open": true
+    },
+    {
+      "mark": "✕",
+      "label": "空き無し",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "大府保育園",
+      "name": "大府保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "✕",
+        "✕",
+        "✕",
+        "✕",
+        "✕",
+        "✕"
+      ]
+    },
+    {
+      "id": "桃山保育園",
+      "name": "桃山保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "✕",
+        "✕",
+        "✕",
+        "✕",
+        "✕",
+        "○"
+      ]
+    },
+    {
+      "id": "柊山保育園",
+      "name": "柊山保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "✕",
+        "✕",
+        "✕",
+        "✕",
+        "○",
+        "✕"
+      ]
+    },
+    {
+      "id": "北崎保育園",
+      "name": "北崎保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "✕",
+        "✕",
+        "✕",
+        "○",
+        "○",
+        "✕"
+      ]
+    },
+    {
+      "id": "追分保育園",
+      "name": "追分保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "✕",
+        "✕",
+        "✕",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "荒池保育園",
+      "name": "荒池保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "✕",
+        "✕",
+        "✕",
+        "○",
+        "✕",
+        "✕"
+      ]
+    },
+    {
+      "id": "長草保育園",
+      "name": "長草保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "✕",
+        "✕",
+        "✕",
+        "✕",
+        "✕",
+        "✕"
+      ]
+    },
+    {
+      "id": "吉田保育園",
+      "name": "吉田保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "✕",
+        "✕",
+        "✕",
+        "○",
+        "✕",
+        "✕"
+      ]
+    },
+    {
+      "id": "若宮保育園",
+      "name": "若宮保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "✕",
+        "○",
+        "✕",
+        "○",
+        "✕",
+        "✕"
+      ]
+    },
+    {
+      "id": "アスク共和東保育園",
+      "name": "アスク共和東保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "✕",
+        "✕",
+        "✕",
+        "✕",
+        "○",
+        "✕"
+      ]
+    },
+    {
+      "id": "共和保育園",
+      "name": "共和保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "✕",
+        "✕",
+        "✕",
+        "✕",
+        "✕",
+        "✕"
+      ]
+    },
+    {
+      "id": "大府大和キッズ保育園",
+      "name": "大府大和キッズ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "✕",
+        "○",
+        "✕",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "大府大和明成保育園",
+      "name": "大府大和明成保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "✕",
+        "✕",
+        "✕",
+        "✕",
+        "✕",
+        "✕"
+      ]
+    },
+    {
+      "id": "大府大和共栄保育園",
+      "name": "大府大和共栄保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "✕",
+        "✕",
+        "○",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "石ヶ瀬保育園",
+      "name": "石ヶ瀬保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "✕",
+        "✕",
+        "✕",
+        "✕",
+        "✕",
+        "✕"
+      ]
+    },
+    {
+      "id": "ビオーズよこね保育園",
+      "name": "ビオーズよこね保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        "✕",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "東山ガーデニアこども園",
+      "name": "東山ガーデニアこども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        "✕",
+        "✕",
+        "✕",
+        "✕"
+      ]
+    },
+    {
+      "id": "かんだ保育園",
+      "name": "かんだ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "✕",
+        "○",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "そぴあ保育園大府もりおか",
+      "name": "そぴあ保育園大府もりおか",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "✕",
+        "✕",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "そぴあ保育園共和西",
+      "name": "そぴあ保育園共和西",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "✕",
+        "✕",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "そぴあ保育園おいわけ",
+      "name": "そぴあ保育園おいわけ",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        "○",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "保育園さくらんぼ",
+      "name": "保育園さくらんぼ",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "✕",
+        "✕",
+        "✕",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "保育園COZY大府駅南",
+      "name": "保育園COZY大府駅南",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "✕",
+        "✕",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "はな保育室きょうわ駅前",
+      "name": "はな保育室きょうわ駅前",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "✕",
+        "○",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "大東くちなしの花こども園",
+      "name": "大東くちなしの花こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "✕",
+        "✕",
+        "✕",
+        "✕",
+        "✕",
+        "✕"
+      ]
+    },
+    {
+      "id": "パレットこども園",
+      "name": "パレットこども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        "✕",
+        "○",
+        "○",
+        "✕"
+      ]
+    },
+    {
+      "id": "認定こども園ジーニアス幼稚園",
+      "name": "認定こども園ジーニアス幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "✕",
+        "✕",
+        "✕",
+        "✕",
+        "✕",
+        "✕"
+      ]
+    },
+    {
+      "id": "たんぽぽ保育園",
+      "name": "たんぽぽ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "✕",
+        "✕",
+        "✕",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "ながねくすのき保育園",
+      "name": "ながねくすのき保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "✕",
+        "○",
+        "✕",
+        "✕",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "柊山さくらの木保育園",
+      "name": "柊山さくらの木保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        "○",
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+}

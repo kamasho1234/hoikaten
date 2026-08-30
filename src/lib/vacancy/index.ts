@@ -283,6 +283,26 @@ import settsuVacancy from "./settsu.json";
 import kizugawaVacancy from "./kizugawa.json";
 import yotsukaidoVacancy from "./yotsukaido.json";
 import ryugasakiVacancy from "./ryugasaki.json";
+import takatsukiVacancy from "./takatsuki.json";
+import kitanagoyaVacancy from "./kitanagoya.json";
+import inuyamaVacancy from "./inuyama.json";
+import nisshinVacancy from "./nisshin.json";
+import toyoakeVacancy from "./toyoake.json";
+import obuVacancy from "./obu.json";
+import kaniVacancy from "./kani.json";
+import kimitsuVacancy from "./kimitsu.json";
+import chikuseiVacancy from "./chikusei.json";
+import omeVacancy from "./ome.json";
+import chikushinoVacancy from "./chikushino.json";
+import nogataVacancy from "./nogata.json";
+import fukuroiVacancy from "./fukuroi.json";
+import sojaVacancy from "./soja.json";
+import ishinomakiVacancy from "./ishinomaki.json";
+import muroranVacancy from "./muroran.json";
+import oshuVacancy from "./oshu.json";
+import satsumasendaiVacancy from "./satsumasendai.json";
+import hiokiVacancy from "./hioki.json";
+import itoVacancy from "./ito.json";
 
 export type {
   AgeSummary,
@@ -561,6 +581,26 @@ const registry: Record<string, VacancyDataset> = {
   kizugawa: kizugawaVacancy as unknown as VacancyDataset,
   yotsukaido: yotsukaidoVacancy as unknown as VacancyDataset,
   ryugasaki: ryugasakiVacancy as unknown as VacancyDataset,
+  takatsuki: takatsukiVacancy as unknown as VacancyDataset,
+  kitanagoya: kitanagoyaVacancy as unknown as VacancyDataset,
+  inuyama: inuyamaVacancy as unknown as VacancyDataset,
+  nisshin: nisshinVacancy as unknown as VacancyDataset,
+  toyoake: toyoakeVacancy as unknown as VacancyDataset,
+  obu: obuVacancy as unknown as VacancyDataset,
+  kani: kaniVacancy as unknown as VacancyDataset,
+  kimitsu: kimitsuVacancy as unknown as VacancyDataset,
+  chikusei: chikuseiVacancy as unknown as VacancyDataset,
+  ome: omeVacancy as unknown as VacancyDataset,
+  chikushino: chikushinoVacancy as unknown as VacancyDataset,
+  nogata: nogataVacancy as unknown as VacancyDataset,
+  fukuroi: fukuroiVacancy as unknown as VacancyDataset,
+  soja: sojaVacancy as unknown as VacancyDataset,
+  ishinomaki: ishinomakiVacancy as unknown as VacancyDataset,
+  muroran: muroranVacancy as unknown as VacancyDataset,
+  oshu: oshuVacancy as unknown as VacancyDataset,
+  satsumasendai: satsumasendaiVacancy as unknown as VacancyDataset,
+  hioki: hiokiVacancy as unknown as VacancyDataset,
+  ito: itoVacancy as unknown as VacancyDataset,
 };
 
 export function getVacancyData(slug: string): VacancyDataset | undefined {

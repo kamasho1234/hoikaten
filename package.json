@@ -10,6 +10,7 @@
     "vacancy:fetch": "tsx scripts/fetch-yokohama-vacancy.ts",
     "vacancy:fetch:meguro": "tsx scripts/fetch-meguro-vacancy.ts",
     "vacancy:check": "tsx scripts/check-vacancy-slug.ts",
+    "vacancy:fetch:config": "tsx scripts/fetch-config-vacancy.ts",
     "hero-font": "python scripts/build-hero-font.py",
     "vacancy:verify": "tsx scripts/verify-vacancy.ts",
     "vacancy:fetch:kawasaki": "tsx scripts/fetch-kawasaki-vacancy.ts",

@@ -1,0 +1,31 @@
+{
+  "slug": "muroran",
+  "name": "室蘭市",
+  "sourceName": "室蘭市「保育所・認定こども園（2、3号）・小規模保育事業所の空き状況」",
+  "indexUrl": "https://www.city.muroran.lg.jp/education/?content=4288",
+  "pdf": {
+    "linkPattern": "空き状況"
+  },
+  "layout": "auto-table",
+  "transpose": true,
+  "columns": { "name": 0 },
+  "categoryFrom": "none",
+  "metrics": ["symbol"],
+  "symbolMap": { "〇": "○" },
+  "symbolLegend": [
+    { "mark": "○", "label": "入所調整可能枠あり", "open": true },
+    { "mark": "×", "label": "入所調整可能枠なし", "open": false },
+    { "mark": "☆", "label": "通常の保育のほかに、特別支援保育を利用して入所も可能", "open": true }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "(20\\d{2})/(\\d{1,2})/(\\d{1,2})\\s*現在"
+  },
+  "minFacilities": 10,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。公式の表は年齢を縦・施設を横に並べていますが、当サイトでは他の自治体と同じ並びに直しています。",
+    "「歳児」は令和8年4月1日現在の年齢です。年度途中で誕生日が来てもクラスは変わりません。",
+    "認定こども園は2・3号認定（保育）のみの空き状況です。1号認定（教育）については施設に直接確認するよう案内されています。",
+    "特別支援保育とは、集団保育が可能で特別な支援を必要とする児童のための保育サービスです。"
+  ]
+}

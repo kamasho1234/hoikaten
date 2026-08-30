@@ -1,0 +1,26 @@
+{
+  "slug": "inuyama",
+  "name": "犬山市",
+  "sourceName": "犬山市「令和8年度分 子ども未来園（公立保育園・公立認定こども園）・私立保育園の空き状況」",
+  "indexUrl": "https://www.city.inuyama.aichi.jp/kurashi/kosodate/1001369/1001906/1002473/1008380.html",
+  "layout": "html-tables",
+  "columns": {
+    "name": 1
+  },
+  "skipRowsContaining": ["（教育）"],
+  "metrics": ["symbol"],
+  "symbolLegend": [
+    { "mark": "〇", "label": "空きあり", "open": true },
+    { "mark": "✖", "label": "空きなし", "open": false }
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "更新日\\s*(令和\\d+年\\d{1,2}月\\d{1,2}日)"
+  },
+  "minFacilities": 10,
+  "notes": [
+    "基準日は市のページの更新日です。市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "公式の凡例は「〇・・空きあり ✖・・空きなし」の2つだけです。表の「ー」には説明がないため、当サイトではそのクラスがないものとして空欄にしています。",
+    "公式の表には認定こども園の教育部分（1号認定）の行もありますが、当サイトは保育（2号・3号認定）の行だけを載せています。"
+  ]
+}

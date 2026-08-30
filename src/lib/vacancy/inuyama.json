@@ -1,0 +1,321 @@
+{
+  "municipalitySlug": "inuyama",
+  "municipalityName": "犬山市",
+  "asOf": "2026-08-25",
+  "fetchedAt": "2026-08-31",
+  "sourceName": "犬山市「令和8年度分 子ども未来園（公立保育園・公立認定こども園）・私立保育園の空き状況」",
+  "sourceUrl": "https://www.city.inuyama.aichi.jp/kurashi/kosodate/1001369/1001906/1002473/1008380.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.inuyama.aichi.jp/kurashi/kosodate/1001369/1001906/1002473/1008380.html"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "基準日は市のページの更新日です。市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "公式の凡例は「〇・・空きあり ✖・・空きなし」の2つだけです。表の「ー」には説明がないため、当サイトではそのクラスがないものとして空欄にしています。",
+    "公式の表には認定こども園の教育部分（1号認定）の行もありますが、当サイトは保育（2号・3号認定）の行だけを載せています。"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "〇",
+      "label": "空きあり",
+      "open": true
+    },
+    {
+      "mark": "✖",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "白帝保育園",
+      "name": "白帝保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "〇",
+        "✖",
+        "✖",
+        "✖",
+        "✖",
+        "✖"
+      ]
+    },
+    {
+      "id": "犬山さくら保育園",
+      "name": "犬山さくら保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "✖",
+        "〇",
+        "✖",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "にじいろ保育園羽黒",
+      "name": "にじいろ保育園羽黒",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "✖",
+        "✖",
+        "✖",
+        "✖",
+        "✖",
+        "✖"
+      ]
+    },
+    {
+      "id": "橋五子ども未来園",
+      "name": "橋五子ども未来園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "✖",
+        "✖",
+        "✖",
+        "✖",
+        "✖",
+        "✖"
+      ]
+    },
+    {
+      "id": "上木子ども未来園",
+      "name": "上木子ども未来園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        "✖",
+        "〇",
+        "〇",
+        "〇",
+        "〇"
+      ]
+    },
+    {
+      "id": "丸山子ども未来園",
+      "name": "丸山子ども未来園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        "〇",
+        "✖",
+        "〇",
+        "〇",
+        "〇"
+      ]
+    },
+    {
+      "id": "城東子ども未来園",
+      "name": "城東子ども未来園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        "✖",
+        "〇",
+        "〇",
+        "✖",
+        "〇"
+      ]
+    },
+    {
+      "id": "今井子ども未来園",
+      "name": "今井子ども未来園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        "〇",
+        "〇",
+        "〇",
+        "〇",
+        "〇"
+      ]
+    },
+    {
+      "id": "城東第2子ども未来園",
+      "name": "城東第2子ども未来園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        "〇",
+        "✖",
+        "〇",
+        "〇",
+        "〇"
+      ]
+    },
+    {
+      "id": "羽黒南子ども未来園(保育）",
+      "name": "羽黒南子ども未来園(保育）",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "✖",
+        "✖",
+        "〇",
+        "✖",
+        "✖",
+        "✖"
+      ]
+    },
+    {
+      "id": "楽田子ども未来園",
+      "name": "楽田子ども未来園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "✖",
+        "✖",
+        "✖",
+        "✖",
+        "〇",
+        "〇"
+      ]
+    },
+    {
+      "id": "楽田西子ども未来園",
+      "name": "楽田西子ども未来園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "✖",
+        "✖",
+        "✖",
+        "〇",
+        "〇",
+        "〇"
+      ]
+    },
+    {
+      "id": "楽田東子ども未来園(保育）",
+      "name": "楽田東子ども未来園(保育）",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        "✖",
+        "✖",
+        "〇",
+        "〇",
+        "〇"
+      ]
+    }
+  ]
+}

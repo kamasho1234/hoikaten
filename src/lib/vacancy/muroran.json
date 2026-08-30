@@ -1,0 +1,349 @@
+{
+  "municipalitySlug": "muroran",
+  "municipalityName": "室蘭市",
+  "asOf": "2026-08-01",
+  "fetchedAt": "2026-08-31",
+  "sourceName": "室蘭市「保育所・認定こども園（2、3号）・小規模保育事業所の空き状況」",
+  "sourceUrl": "https://www.city.muroran.lg.jp/education/?content=4288",
+  "sourceFiles": {
+    "vacancy": "https://www.city.muroran.lg.jp/assets/images/content/content_20260810_115306.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。公式の表は年齢を縦・施設を横に並べていますが、当サイトでは他の自治体と同じ並びに直しています。",
+    "「歳児」は令和8年4月1日現在の年齢です。年度途中で誕生日が来てもクラスは変わりません。",
+    "認定こども園は2・3号認定（保育）のみの空き状況です。1号認定（教育）については施設に直接確認するよう案内されています。",
+    "特別支援保育とは、集団保育が可能で特別な支援を必要とする児童のための保育サービスです。"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "入所調整可能枠あり",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "入所調整可能枠なし",
+      "open": false
+    },
+    {
+      "mark": "☆",
+      "label": "通常の保育のほかに、特別支援保育を利用して入所も可能",
+      "open": true
+    }
+  ],
+  "facilities": [
+    {
+      "id": "常盤",
+      "name": "常盤",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "○",
+        "×",
+        "×",
+        "○",
+        "×"
+      ]
+    },
+    {
+      "id": "双葉",
+      "name": "双葉",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "○",
+        "○",
+        "×",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "楽山",
+      "name": "楽山",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "○",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "東町",
+      "name": "東町",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "白鳥",
+      "name": "白鳥",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "×",
+        "○",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "港北",
+      "name": "港北",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "中島",
+      "name": "中島",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "ほくと",
+      "name": "ほくと",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "○",
+        "×",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "ひかりの森",
+      "name": "ひかりの森",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        "○",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "めばえ",
+      "name": "めばえ",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        null,
+        "○",
+        "○",
+        "×"
+      ]
+    },
+    {
+      "id": "清泉",
+      "name": "清泉",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "○",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "むろらん",
+      "name": "むろらん",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "ピノキオ",
+      "name": "ピノキオ",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        null,
+        "○",
+        "○",
+        "×"
+      ]
+    },
+    {
+      "id": "アルテ",
+      "name": "アルテ",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        null,
+        "×",
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+}

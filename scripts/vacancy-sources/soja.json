@@ -1,0 +1,28 @@
+{
+  "slug": "soja",
+  "name": "総社市",
+  "sourceName": "総社市「保育施設入所可能状況一覧」",
+  "indexUrl": "https://www.city.soja.okayama.jp/soshiki/44/4554.html",
+  "pdf": {
+    "linkPattern": "入所可能状況一覧"
+  },
+  "layout": "auto-table",
+  "columns": { "name": 1, "category": 0 },
+  "metrics": ["symbol"],
+  "symbolMap": { "〇": "○" },
+  "symbolLegend": [
+    { "mark": "○", "label": "4人以上空きあり", "open": true },
+    { "mark": "△", "label": "1〜3人の空きあり", "open": true },
+    { "mark": "×", "label": "空きなし", "open": false }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "(令和\\d+年\\d{1,2}月\\d{1,2}日)現在"
+  },
+  "minFacilities": 15,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "公式の一覧は翌々月入所分の入所可能状況です。",
+    "認定こども園は保育を必要とする区分（2号・3号認定）の入所可能状況です。"
+  ]
+}

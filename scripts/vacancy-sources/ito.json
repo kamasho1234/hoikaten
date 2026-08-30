@@ -1,0 +1,30 @@
+{
+  "slug": "ito",
+  "name": "伊東市",
+  "sourceName": "伊東市「保育所等の空き状況」",
+  "indexUrl": "https://www.city.ito.shizuoka.jp/gyosei/soshikikarasagasu/yojikyoikuka/kosodate_kyoiku/2/1/2/hoikunyuen/13334.html",
+  "pdf": {
+    "linkPattern": "保育所等の空き状況"
+  },
+  "layout": "auto-table",
+  "columns": { "name": 1, "category": 0 },
+  "metrics": ["symbol"],
+  "symbolMap": { "〇": "○", "―": "－", "-": "－", "‐": "－" },
+  "noClassMarks": [""],
+  "symbolLegend": [
+    { "mark": "●", "label": "空きあり（5人〜）", "open": true },
+    { "mark": "○", "label": "若干名（3〜4人）", "open": true },
+    { "mark": "△", "label": "残りわずか（1〜2人）", "open": true },
+    { "mark": "－", "label": "空きなし（0人）", "open": false }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "R(\\d+)\\.(\\d{1,2})\\.(\\d{1,2})時点"
+  },
+  "minFacilities": 10,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。「－」は空きなし（0人）で、そのクラスがないという意味ではありません。",
+    "公式の一覧は翌月入所の調整後の空き状況です。",
+    "認定こども園は保育を必要とする区分の空き状況です。"
+  ]
+}
