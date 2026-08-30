@@ -1,0 +1,30 @@
+{
+  "slug": "akaiwa",
+  "name": "赤磐市",
+  "sourceName": "赤磐市「保育施設受入見込み状況表」",
+  "indexUrl": "https://www.city.akaiwa.lg.jp/annai/hokenfukushi/kosodateshien/kosodate/hoiku/1124.html",
+  "pdf": {
+    "linkPattern": "受入見込み状況表"
+  },
+  "layout": "auto-table",
+  "columns": { "name": 1, "category": 0 },
+  "nameTrim": ["\\s[\\s\\S]*$"],
+  "metrics": ["symbol"],
+  "symbolMap": { "〇": "○" },
+  "symbolLegend": [
+    { "mark": "○", "label": "3人以上", "open": true },
+    { "mark": "△", "label": "1〜2人", "open": true },
+    { "mark": "×", "label": "受入不可", "open": false }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "(令和\\d+年\\d{1,2}月\\d{1,2}日)時点"
+  },
+  "minFacilities": 10,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "公式の資料は翌々月入所分の受入見込み状況です。",
+    "市は「今後の各施設の受入体制の変化等によって、実際の受入可能人数と異なる場合があります。あくまで参考情報としてご利用ください」としています。",
+    "公式の表では施設名の欄に所在地も書かれていますが、当サイトでは施設名だけを載せています。"
+  ]
+}

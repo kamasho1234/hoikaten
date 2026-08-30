@@ -1322,6 +1322,40 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 19, "○": 2, "－": 45 },
   },
+  ikeda: {
+    asOf: "2026-08-25",
+    facilityCount: 30,
+    vacancy: 0,
+    symbolCounts: { "×": 124, "△": 16, "○": 4, "◎": 3 },
+  },
+  futtsu: {
+    asOf: "2026-08-01",
+    facilityCount: 12,
+    vacancy: 0,
+    symbolCounts: { "○": 45, "✕": 26 },
+  },
+  "fuchu-hiroshima": {
+    asOf: "2026-08-28",
+    facilityCount: 11,
+    vacancy: 14,
+  },
+  akaiwa: {
+    asOf: "2026-08-17",
+    facilityCount: 15,
+    vacancy: 0,
+    symbolCounts: { "×": 39, "△": 28, "○": 21 },
+  },
+  natori: {
+    asOf: "2026-08-27",
+    facilityCount: 26,
+    vacancy: 0,
+    symbolCounts: { "×": 117, "△": 3, "○": 6 },
+  },
+  uruma: {
+    asOf: "2026-08-01",
+    facilityCount: 84,
+    vacancy: 322,
+  },
 };
 
 const problems: string[] = [];

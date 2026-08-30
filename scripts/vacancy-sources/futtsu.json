@@ -1,0 +1,25 @@
+{
+  "slug": "futtsu",
+  "name": "富津市",
+  "sourceName": "富津市「保育所（園）・認定こども園の受入状況」",
+  "indexUrl": "https://www.city.futtsu.lg.jp/0000004879.html",
+  "layout": "html-tables",
+  "columns": { "name": 0 },
+  "categoryFrom": "none",
+  "metrics": ["symbol"],
+  "symbolMap": { "〇": "○", "×": "✕" },
+  "symbolLegend": [
+    { "mark": "○", "label": "受入れできる可能性あり", "open": true },
+    { "mark": "✕", "label": "空きなし", "open": false }
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "更新日：\\[(20\\d{2}年\\d{1,2}月\\d{1,2}日)\\]"
+  },
+  "minFacilities": 8,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "市は「受入状況は、あくまでも各月1日現在の状況であるため、○となっていても必ずしも入所（園）を保障するものではありません」としています。",
+    "みなと幼稚園は0歳児の受入れを行っていますが、1歳の誕生日を迎えた翌月からの受入れになります。"
+  ]
+}

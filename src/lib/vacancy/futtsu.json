@@ -1,0 +1,299 @@
+{
+  "municipalitySlug": "futtsu",
+  "municipalityName": "富津市",
+  "asOf": "2026-08-01",
+  "fetchedAt": "2026-08-31",
+  "sourceName": "富津市「保育所（園）・認定こども園の受入状況」",
+  "sourceUrl": "https://www.city.futtsu.lg.jp/0000004879.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.futtsu.lg.jp/0000004879.html"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "市は「受入状況は、あくまでも各月1日現在の状況であるため、○となっていても必ずしも入所（園）を保障するものではありません」としています。",
+    "みなと幼稚園は0歳児の受入れを行っていますが、1歳の誕生日を迎えた翌月からの受入れになります。"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "受入れできる可能性あり",
+      "open": true
+    },
+    {
+      "mark": "✕",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "飯野保育所",
+      "name": "飯野保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "✕",
+        "✕",
+        "✕",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "吉野保育所",
+      "name": "吉野保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "✕",
+        "✕",
+        "✕",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "佐貫保育所",
+      "name": "佐貫保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "✕",
+        "✕",
+        "○",
+        "○",
+        "○",
+        "✕"
+      ]
+    },
+    {
+      "id": "中央保育所",
+      "name": "中央保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        "○",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "竹岡保育所",
+      "name": "竹岡保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        "○",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "峰上保育所",
+      "name": "峰上保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        "○",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "富津保育園",
+      "name": "富津保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "✕",
+        "✕",
+        "○",
+        "○",
+        "○",
+        "✕"
+      ]
+    },
+    {
+      "id": "青堀保育園",
+      "name": "青堀保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "✕",
+        "✕",
+        "✕",
+        "○",
+        "✕",
+        "○"
+      ]
+    },
+    {
+      "id": "和光保育園",
+      "name": "和光保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "✕",
+        "✕",
+        "✕",
+        "○",
+        "✕",
+        "○"
+      ]
+    },
+    {
+      "id": "大貫保育園",
+      "name": "大貫保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "✕",
+        "○",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "認定こども園明澄幼稚園",
+      "name": "認定こども園明澄幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        "✕",
+        "○",
+        "✕",
+        "✕",
+        "✕"
+      ]
+    },
+    {
+      "id": "認定こども園みなと幼稚園",
+      "name": "認定こども園みなと幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        "○",
+        "○",
+        "○",
+        "✕"
+      ]
+    }
+  ]
+}

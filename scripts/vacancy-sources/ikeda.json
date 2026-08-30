@@ -1,0 +1,54 @@
+{
+  "slug": "ikeda",
+  "name": "池田市",
+  "sourceName": "池田市「保育所等入所空き見込み表」",
+  "indexUrl": "https://www.city.ikeda.osaka.jp/soshiki/kodomo/youjihoiku/hoikusyoto/hoikushotou/1447398882437.html",
+  "pdf": {
+    "linkPattern": "空き見込み表"
+  },
+  "layout": "auto-table",
+  "categoryFrom": "none",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○"
+  },
+  "symbolLegend": [
+    {
+      "mark": "◎",
+      "label": "現時点で6名以上入所可能",
+      "open": true
+    },
+    {
+      "mark": "○",
+      "label": "現時点で3〜5名入所可能",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "現時点で1〜2名入所可能",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "(令和\\d+年\\d{1,2}月\\d{1,2}日)時点"
+  },
+  "minFacilities": 12,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "公式の資料は翌々月の利用調整にかかる空き見込み表です。",
+    "クラス年齢は4月1日時点の年齢によって決まります。",
+    "各施設全体の定員により空き見込みが変わる場合があり、引越しなどによる在園児の退所や保育士確保などにより空き状況は変動します。",
+    "公式のPDFには送迎保育ステーションのバスの空き見込みも載っていますが、当サイトは保育施設の分だけを扱っています。"
+  ],
+  "requireNameHeader": [
+    "施設名"
+  ]
+}

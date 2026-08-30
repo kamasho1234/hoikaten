@@ -92,12 +92,21 @@ def rows_from_grid(grid, conf, category=None):
     # 「空欄：受入なし」と凡例に書いてある自治体では、空欄をその意味の記号に置き換える。
     # 何も指定しなければ空欄は「そのクラスがない」の扱いのままにする
     empty_mark = conf.get("emptyMark")
+    # 人数の表で「空欄は0人」と自治体自身が説明しているときだけ使う。
+    # 説明がないのに0を入れると、無いクラスを「空きなし」に見せてしまう
+    empty_value = conf.get("emptyValue")
+
+    # 同じ表の途中から別の制度の話になる自治体がある
+    # （池田市の「送迎保育ステーションのバス空き見込み」など）。そこで読むのをやめる
+    stop_row = conf.get("stopRow")
 
     rows = []
     age_cols = None
     name_col = None
     for raw in grid:
         r = [cell(c) for c in raw]
+        if stop_row and re.search(stop_row, "".join(r)):
+            break
         # 年齢の見出しが3つ以上並ぶ行を、見出し行とみなす
         ages = {}
         for j, c in enumerate(r):
@@ -110,6 +119,11 @@ def rows_from_grid(grid, conf, category=None):
             if name_col < 0:
                 name_col = 0
             head = r[name_col] if len(r) > name_col else ""
+            # 見出しの文字で表を選び分ける（別の制度の表を落とすため）
+            require = conf.get("requireNameHeader")
+            if require and head not in require:
+                age_cols = None
+                continue
             if take_from_row and head and head not in generic and age_of_header(head) is None:
                 for pat in conf.get("categoryTrim", []):
                     head = re.sub(pat, "", head)
@@ -119,22 +133,44 @@ def rows_from_grid(grid, conf, category=None):
         if age_cols is None or len(r) <= max(max(age_cols), name_col):
             continue
         name = r[name_col]
+        # 施設名のセルに住所などが一緒に入っている自治体（赤磐市など）は、
+        # 元の文字（空白や改行が残っている）に正規表現をかけて名前だけにする
+        name_trim = conf.get("nameTrim")
+        if name_trim:
+            src = raw[name_col] if len(raw) > name_col else ""
+            src = "" if src is None else str(src)
+            for pat in name_trim:
+                src = re.sub(pat, "", src)
+            name = cell(src)
         if not name or age_of_header(name) is not None:
             continue
         if any(x and x in name for x in skip):
             continue
+        # 施設名以外のセルに注記が入っている行を落とす（「直接施設へお問い合わせください」など）
+        drop = conf.get("skipRowsMatching")
+        if drop and re.search(drop, "".join(r)):
+            continue
 
         # 類型の列がある表では、空欄は「上の行と同じ類型」を意味する（PDFの結合セル）
         if cat_col is not None and len(r) > cat_col and r[cat_col]:
-            category = r[cat_col]
+            text = r[cat_col]
+            for pat in conf.get("categoryTrim", []):
+                text = re.sub(pat, "", text)
+            category = text.strip() or category
 
         values = [None] * 6
         symbols = [None] * 6
         ok = False
         for j, age in age_cols.items():
             text = r[j]
-            if as_symbol and empty_mark and text == "":
-                text = empty_mark
+            if text == "":
+                # 空欄の意味は自治体によって違う。設定があるときだけ意味を与える
+                if as_symbol and empty_mark:
+                    text = empty_mark
+                elif not as_symbol and empty_value is not None:
+                    values[age] = empty_value
+                    ok = True
+                    continue
             if text in no_class:
                 continue
             if as_symbol:
@@ -142,6 +178,8 @@ def rows_from_grid(grid, conf, category=None):
                 ok = True
             else:
                 n = parse_number(text, unit)
+                if n is None and empty_value is not None and text == "":
+                    n = empty_value
                 if n is None:
                     continue
                 values[age] = n
@@ -180,6 +218,10 @@ def extract_auto_table(pdf, conf):
         if stop and re.search(stop, page.extract_text() or ""):
             break
         for table in tables_of_page(page, conf.get("tableSettings")):
+            # 別の制度の表（池田市の送迎保育ステーションなど）は表ごと読み飛ばす
+            skip = conf.get("skipTablesContaining")
+            if skip and re.search(skip, "".join(cell(c) for r in table for c in r)):
+                continue
             got, category = rows_from_grid(transpose_grid(table) if flip else table, conf, category)
             rows.extend(got)
     return rows

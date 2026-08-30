@@ -303,6 +303,12 @@ import oshuVacancy from "./oshu.json";
 import satsumasendaiVacancy from "./satsumasendai.json";
 import hiokiVacancy from "./hioki.json";
 import itoVacancy from "./ito.json";
+import ikedaVacancy from "./ikeda.json";
+import futtsuVacancy from "./futtsu.json";
+import fuchuHiroshimaVacancy from "./fuchu-hiroshima.json";
+import akaiwaVacancy from "./akaiwa.json";
+import natoriVacancy from "./natori.json";
+import urumaVacancy from "./uruma.json";
 
 export type {
   AgeSummary,
@@ -601,6 +607,12 @@ const registry: Record<string, VacancyDataset> = {
   satsumasendai: satsumasendaiVacancy as unknown as VacancyDataset,
   hioki: hiokiVacancy as unknown as VacancyDataset,
   ito: itoVacancy as unknown as VacancyDataset,
+  ikeda: ikedaVacancy as unknown as VacancyDataset,
+  futtsu: futtsuVacancy as unknown as VacancyDataset,
+  "fuchu-hiroshima": fuchuHiroshimaVacancy as unknown as VacancyDataset,
+  akaiwa: akaiwaVacancy as unknown as VacancyDataset,
+  natori: natoriVacancy as unknown as VacancyDataset,
+  uruma: urumaVacancy as unknown as VacancyDataset,
 };
 
 export function getVacancyData(slug: string): VacancyDataset | undefined {

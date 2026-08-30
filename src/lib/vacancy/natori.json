@@ -1,0 +1,620 @@
+{
+  "municipalitySlug": "natori",
+  "municipalityName": "名取市",
+  "asOf": "2026-08-27",
+  "fetchedAt": "2026-08-31",
+  "sourceName": "名取市「欠員状況表」",
+  "sourceUrl": "https://www.city.natori.miyagi.jp/site/kosodate/34918.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.natori.miyagi.jp/uploaded/attachment/25798.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。公式の凡例にあるのは「△・・・1名空き有」「〇・・・2名以上の空き有」の2つだけです。",
+    "市は「入所可能人員については、あくまで参考であり、実際は、施設の現況や保育士の加配数、児童の健康状態等から、受入可能かどうかを施設と協議の上、判断します」としています。",
+    "他の方で同月に同施設を希望する人がいた場合は、点数により優先順位が付けられます。入所を約束するものではありません。",
+    "さぽーとぷらす保育（発達に遅れなどがある子どもへの支援）は、この欠員状況表とは別枠で入所調整が行われます。"
+  ],
+  "wards": [],
+  "categories": [
+    "公立保育所",
+    "私立保育所",
+    "認定こども園（2号・3号）",
+    "小規模保育施設",
+    "家庭的保育施設",
+    "事業所内保育施設"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "2名以上の空き有",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1名空き有",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空き無し（公式の凡例には書かれていません）",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "増田保育所",
+      "name": "増田保育所",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "○"
+      ]
+    },
+    {
+      "id": "名取が丘保育所",
+      "name": "名取が丘保育所",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "○"
+      ]
+    },
+    {
+      "id": "ゆりが丘保育所",
+      "name": "ゆりが丘保育所",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "○"
+      ]
+    },
+    {
+      "id": "閖上保育所",
+      "name": "閖上保育所",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "△",
+        "○",
+        "×"
+      ]
+    },
+    {
+      "id": "高舘あおぞら保育園",
+      "name": "高舘あおぞら保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "愛の杜めぐみ保育園",
+      "name": "愛の杜めぐみ保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "手倉田くじら保育園",
+      "name": "手倉田くじら保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "△",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "杜せきのしためぐみ保育園",
+      "name": "杜せきのしためぐみ保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "スクルドエンジェル保育園なとり園",
+      "name": "スクルドエンジェル保育園なとり園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "なとり幼稚園・なとり保育園",
+      "name": "なとり幼稚園・なとり保育園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "○"
+      ]
+    },
+    {
+      "id": "なとり第二幼稚園・なとり第二保育園",
+      "name": "なとり第二幼稚園・なとり第二保育園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "名取みたぞのこども園",
+      "name": "名取みたぞのこども園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "名取あけぼのこども園",
+      "name": "名取あけぼのこども園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "名取ひよこ園",
+      "name": "名取ひよこ園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "△",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "閖上わかばこども園",
+      "name": "閖上わかばこども園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "○",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "ぷらむ館腰こども園",
+      "name": "ぷらむ館腰こども園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "保育ルームクレヨンkids",
+      "name": "保育ルームクレヨンkids",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "キッズフィールド杜せきのした駅前園",
+      "name": "キッズフィールド杜せきのした駅前園",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "キッズフィールドみたぞの園",
+      "name": "キッズフィールドみたぞの園",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "キンダーナーサリーなとりおひさま保育園",
+      "name": "キンダーナーサリーなとりおひさま保育園",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "本郷小規模保育所",
+      "name": "本郷小規模保育所",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "ぷらざ保育園名取駅前",
+      "name": "ぷらざ保育園名取駅前",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "キッズフィールド第2みたぞの園",
+      "name": "キッズフィールド第2みたぞの園",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "RiverLandくるみ保育園",
+      "name": "RiverLandくるみ保育園",
+      "w": null,
+      "c": 4,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "杜せきのした愛の杜保育園",
+      "name": "杜せきのした愛の杜保育園",
+      "w": null,
+      "c": 5,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "ヤクルト名取つばめ保育園",
+      "name": "ヤクルト名取つばめ保育園",
+      "w": null,
+      "c": 5,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+}

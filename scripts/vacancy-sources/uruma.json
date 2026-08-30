@@ -1,0 +1,23 @@
+{
+  "slug": "uruma",
+  "name": "うるま市",
+  "sourceName": "うるま市「保育所等 空き状況一覧」",
+  "indexUrl": "https://www.city.uruma.lg.jp/1005003000/contents/p000014.html",
+  "pdf": {
+    "linkPattern": "空き状況"
+  },
+  "layout": "auto-table",
+  "columns": { "name": 1, "category": 2 },
+  "metrics": ["vacancy"],
+  "subtitle": "翌月入所分の空き枠",
+  "asOf": {
+    "source": "pdf",
+    "pattern": "R(\\d+)\\.(\\d{1,2})\\.(\\d{1,2})現在"
+  },
+  "minFacilities": 25,
+  "notes": [
+    "市は「空き状況は随時、変動があることをあらかじめご了承願います。（入所辞退者や保育士確保等による増減があるため、随時変動があります。）」としています。",
+    "空き枠の更新は毎月1日を目処に予定されています。",
+    "小規模保育事業は0〜2歳児を対象とした認可施設で、全体の定員は6〜19人です。"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "fuchu-hiroshima",
+  "name": "府中町",
+  "sourceName": "府中町「認可保育所等の空き状況」",
+  "indexUrl": "https://www.town.fuchu.hiroshima.jp/site/kosodate/49854.html",
+  "layout": "html-tables",
+  "columns": { "name": 0, "category": 7 },
+  "metrics": ["vacancy"],
+  "asOf": {
+    "source": "page",
+    "pattern": "現在掲載している空き状況は(令和\\d+年\\d{1,2}月\\d{1,2}日)時点"
+  },
+  "minFacilities": 8,
+  "notes": [
+    "町は各月初日現在の空き状況を確認後に更新しています。年齢は令和8年4月1日時点の年齢が基準です。",
+    "空き人数が0人でも申し込みは可能で、各月の申し込み締め切り日までに空きの生じた保育所等について選考が行われます。",
+    "空きがある場合でも、クラス再編や保育士の配置替え等により変動することがあります。"
+  ]
+}
