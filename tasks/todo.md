@@ -35,7 +35,7 @@
 - [x] 内部リンク機械チェック `NG= 0 / city articles: 256`
 - [x] `npm run build` 成功
 - [x] 出典URL 6本すべて HTTP 200
-- [ ] コミット・push・本番反映・IndexNow
+- [x] コミット・push・本番反映・IndexNow（本番200・本文確認・IndexNow 200 まで完了）
 
 ## 2026-08-30 自治体ごとの子育てのお金（江別・鴻巣・加須・鎌ケ谷・鹿屋・坂戸）
 
@@ -76,7 +76,7 @@
 - [x] 内部リンク機械チェック `NG= 0 / city articles: 250`
 - [x] `npm run build` 成功
 - [x] 出典URL 6本すべて HTTP 200
-- [ ] コミット・push・本番反映・IndexNow
+- [x] コミット・push・本番反映・IndexNow（本番200・本文確認・IndexNow 200 まで完了）
 
 ## 2026-08-30 自治体ごとの子育てのお金（小樽・三田・三島・取手・伊勢原・大村）
 
@@ -115,7 +115,7 @@
 - [x] 内部リンク機械チェック `NG= 0 / city articles: 244`
 - [x] `npm run build` 成功
 - [x] 出典URL 6本すべて HTTP 200
-- [ ] コミット・push・本番反映・IndexNow
+- [x] コミット・push・本番反映・IndexNow（本番200・本文確認・IndexNow 200 まで完了）
 
 ## 2026-08-30 自治体ごとの子育てのお金（長浜・北見・大牟田・奥州・一関・羽曳野）
 
@@ -158,7 +158,7 @@
 - [x] 内部リンク機械チェック `NG= 0 / city articles: 238`
 - [x] `npm run build` 成功
 - [x] 出典URL 7本すべて HTTP 200
-- [ ] コミット・push・本番反映・IndexNow
+- [x] コミット・push・本番反映・IndexNow（本番200・本文確認・IndexNow 200 まで完了）
 
 ## 2026-08-30 自治体ごとの子育てのお金（鶴岡・大東・門真・半田・松原・延岡）
 
@@ -199,7 +199,7 @@
 - [x] 内部リンク機械チェック `NG= 0 / city articles: 232`
 - [x] `npm run build` 成功
 - [x] 出典URL 6本すべて HTTP 200
-- [ ] コミット・push・本番反映・IndexNow
+- [x] コミット・push・本番反映・IndexNow（本番200・本文確認・IndexNow 200 まで完了）
 
 ## 2026-08-30 自治体ごとの子育てのお金（箕面・座間・我孫子・富士宮・国分寺・飯塚）
 
@@ -233,7 +233,7 @@
 - [x] 内部リンク機械チェック `NG= 0 / city articles: 226`
 - [x] `npm run build` 成功
 - [x] 出典URL 7本すべて HTTP 200
-- [ ] コミット・push・本番反映・IndexNow
+- [x] コミット・push・本番反映・IndexNow（本番200・本文確認・IndexNow 200 まで完了）
 
 ## 2026-08-30 自治体ごとの子育てのお金（川西・狭山・多摩・入間・朝霞・古河）
 
@@ -270,7 +270,7 @@
 - [x] 内部リンク機械チェック `NG= 0 / city articles: 220`
 - [x] `npm run build` 成功
 - [x] 出典URL 8本すべて HTTP 200
-- [ ] コミット・push・本番反映・IndexNow
+- [x] コミット・push・本番反映・IndexNow（本番200・本文確認・IndexNow 200 まで完了）
 
 ## 2026-08-30 自治体ごとの子育てのお金（府中・調布・流山・和泉・磐田・秦野）
 
@@ -309,7 +309,7 @@
 - [x] 内部リンク機械チェック `NG= 0 / city articles: 214`
 - [x] `npm run build` 成功
 - [x] 出典URL 7本すべて HTTP 200
-- [ ] コミット・push・本番反映・IndexNow
+- [x] コミット・push・本番反映・IndexNow（本番200・本文確認・IndexNow 200 まで完了）
 
 ## 2026-08-30 自治体ごとの子育てのお金（石巻・海老名・土浦・木更津・成田・青梅）
 
@@ -345,7 +345,7 @@
 - [x] 内部リンク機械チェック `NG= 0 / city articles: 208`
 - [x] `npm run build` 成功
 - [x] 出典URL 8本すべて HTTP 200
-- [ ] コミット・push・本番反映・IndexNow
+- [x] コミット・push・本番反映・IndexNow（本番200・本文確認・IndexNow 200 まで完了）
 
 ## 2026-08-30 自治体ごとの子育てのお金（鎌倉・久喜・武蔵野・足利・深谷・戸田）
 
@@ -384,7 +384,7 @@
 - [x] 内部リンク機械チェック `NG= 0 / city articles: 202`
 - [x] `npm run build` 成功
 - [x] 出典URL 10本すべて HTTP 200
-- [ ] コミット・push・本番反映・IndexNow
+- [x] コミット・push・本番反映・IndexNow（本番200・本文確認・IndexNow 200 まで完了）
 
 ## 2026-08-30 自治体ごとの子育てのお金（安城・浦安・新座・苫小牧・高岡・釧路）
 
@@ -419,7 +419,7 @@
 - [x] 内部リンク機械チェック `NG= 0 / city articles: 196`
 - [x] `npm run build` 成功
 - [x] 出典URL 6本すべて HTTP 200
-- [ ] コミット・push・本番反映・IndexNow
+- [x] コミット・push・本番反映・IndexNow（本番200・本文確認・IndexNow 200 まで完了）
 
 ## 2026-08-30 自治体ごとの子育てのお金（稲沢・掛川・彦根・多治見・可児・東近江）
 
@@ -455,7 +455,7 @@
 - [x] 内部リンク機械チェック `NG= 0 / city articles: 190`
 - [x] `npm run build` 成功
 - [x] 出典URL 8本すべて HTTP 200
-- [ ] コミット・push・本番反映・IndexNow
+- [x] コミット・push・本番反映・IndexNow（本番200・本文確認・IndexNow 200 まで完了）
 
 # 西尾・刈谷・小牧・各務原・藤枝・焼津を追加（2026-08-30・31回目）
 
