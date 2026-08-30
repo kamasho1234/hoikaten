@@ -146,7 +146,7 @@ async function run(slug: string): Promise<void> {
   const pickPdf = (spec: PdfSpec): string => {
     if (spec.url) return new URL(spec.url, conf.indexUrl).toString();
     if (!spec.linkPattern) return conf.indexUrl;
-    const re = /<a[^>]+href="([^"]+\.pdf[^"]*)"[^>]*>([\s\S]{0,200}?)<\/a>/gi;
+    const re = /<a[^>]+href="([^"]+\.pdf[^"]*)"[^>]*>([\s\S]{0,600}?)<\/a>/gi;
     const wanted = new RegExp(spec.linkPattern);
     const hits: string[] = [];
     for (const m of indexHtml.matchAll(re)) {

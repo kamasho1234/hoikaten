@@ -309,6 +309,10 @@ import fuchuHiroshimaVacancy from "./fuchu-hiroshima.json";
 import akaiwaVacancy from "./akaiwa.json";
 import natoriVacancy from "./natori.json";
 import urumaVacancy from "./uruma.json";
+import fujiokaVacancy from "./fujioka.json";
+import nodaVacancy from "./noda.json";
+import itoshimaVacancy from "./itoshima.json";
+import kanumaVacancy from "./kanuma.json";
 
 export type {
   AgeSummary,
@@ -613,6 +617,10 @@ const registry: Record<string, VacancyDataset> = {
   akaiwa: akaiwaVacancy as unknown as VacancyDataset,
   natori: natoriVacancy as unknown as VacancyDataset,
   uruma: urumaVacancy as unknown as VacancyDataset,
+  fujioka: fujiokaVacancy as unknown as VacancyDataset,
+  noda: nodaVacancy as unknown as VacancyDataset,
+  itoshima: itoshimaVacancy as unknown as VacancyDataset,
+  kanuma: kanumaVacancy as unknown as VacancyDataset,
 };
 
 export function getVacancyData(slug: string): VacancyDataset | undefined {

@@ -1,0 +1,28 @@
+{
+  "slug": "noda",
+  "name": "野田市",
+  "sourceName": "野田市「施設別受入れ予想」",
+  "indexUrl": "https://www.city.noda.chiba.jp/kurashi/kosodate/hoiku/1008260.html",
+  "pdf": {
+    "linkPattern": "ukeire"
+  },
+  "layout": "auto-table",
+  "columns": { "name": 1, "category": 0 },
+  "metrics": ["symbol"],
+  "symbolMap": { "〇": "○", "✕": "×" },
+  "symbolLegend": [
+    { "mark": "○", "label": "年齢別で3名以上の受入れが可能と思われます", "open": true },
+    { "mark": "▲", "label": "年齢別で1〜2名の受入れが可能と思われます", "open": true },
+    { "mark": "×", "label": "保育所全体定員、年齢別定員に達することが予想され、受入れは難しいと思われます", "open": false }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "(令和\\d+年\\d{1,2}月\\d{1,2}日)現在"
+  },
+  "minFacilities": 15,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。公式の表で空欄になっている欄は「もともと受入れをしていない年齢」です。",
+    "公式の資料は翌々月入所分の受入れ予想です。入所年齢は令和8年4月1日時点の年齢です。",
+    "市は「受入れが可能と思われるケースでも、申込み状況により入所ができないこともありますのでご了承ください」「受入れ予想が × の場合でも今後の退所等によって受入れが可能になる事もあります」としています。"
+  ]
+}

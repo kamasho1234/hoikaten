@@ -1356,6 +1356,30 @@ const EXPECTED: Record<
     facilityCount: 84,
     vacancy: 322,
   },
+  fujioka: {
+    asOf: "2026-08-01",
+    facilityCount: 24,
+    vacancy: 0,
+    symbolCounts: { "△": 33, "○": 31, "◎": 35, "受入なし": 45 },
+  },
+  noda: {
+    asOf: "2026-08-19",
+    facilityCount: 28,
+    vacancy: 0,
+    symbolCounts: { "×": 134, "▲": 20, "○": 2 },
+  },
+  itoshima: {
+    asOf: "2026-08-20",
+    facilityCount: 30,
+    vacancy: 0,
+    symbolCounts: { "×": 151, "○": 12 },
+  },
+  kanuma: {
+    asOf: "2026-08-01",
+    facilityCount: 33,
+    vacancy: 0,
+    symbolCounts: { "×": 92, "△": 70, "○": 4 },
+  },
 };
 
 const problems: string[] = [];

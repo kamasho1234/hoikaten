@@ -1,0 +1,32 @@
+{
+  "slug": "fujioka",
+  "name": "藤岡市",
+  "sourceName": "藤岡市「市内保育施設等空き状況一覧」",
+  "indexUrl": "https://www.city.fujioka.gunma.jp/soshiki/kenkohukushibu/kodomo/1/9/kyouikuhoikusisetu/8547.html",
+  "pdf": {
+    "linkPattern": "空き状況一覧"
+  },
+  "layout": "auto-table",
+  "columns": { "name": 2, "category": 1 },
+  "metrics": ["symbol"],
+  "emptyMark": "受入なし",
+  "symbolMap": { "〇": "○" },
+  "skipRowsMatching": "園に直接お問い合わせください",
+  "symbolLegend": [
+    { "mark": "◎", "label": "5人以上の受入可能人数", "open": true },
+    { "mark": "○", "label": "3〜4人程度の受入可能人数", "open": true },
+    { "mark": "△", "label": "1〜2人程度の受入可能人数", "open": true },
+    { "mark": "受入なし", "label": "受入可能人数が無い年齢区分（公式の表では空欄）", "open": false }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "(令和\\d+年\\d{1,2}月\\d{1,2}日)現在"
+  },
+  "minFacilities": 15,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。公式の表で空欄になっている欄は「受入可能人数が無い年齢区分」と説明されているため、当サイトでは「受入なし」と表示しています。",
+    "申し込む子どものクラス年齢は令和8年4月1日時点の年齢で確認するよう案内されています。",
+    "市は「最新の空き状況や詳細を確認したい場合は、希望する保育施設へ直接お問い合わせください」としています。",
+    "公式の表で「園に直接お問い合わせください」とされている施設は、当サイトには載せていません。"
+  ]
+}
