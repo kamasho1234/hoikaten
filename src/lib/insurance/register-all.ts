@@ -473,3 +473,4 @@ import "./city-minano";
 import "./city-tsunan";
 import "./city-kawamata";
 import "./city-shintomi";
+import "./city-kanegasaki";
