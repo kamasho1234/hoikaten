@@ -1535,6 +1535,11 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "▲": 68, "△": 37, "○": 6 },
   },
+  zama: {
+    asOf: "2026-09-01",
+    facilityCount: 36,
+    vacancy: 17,
+  },
   akaiwa: {
     asOf: "2026-08-17",
     facilityCount: 15,

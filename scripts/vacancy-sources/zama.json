@@ -1,0 +1,35 @@
+{
+  "slug": "zama",
+  "name": "座間市",
+  "sourceName": "座間市「保育所等クラス年齢別次回選考可能人数」",
+  "indexUrl": "https://www.city.zama.kanagawa.jp/kosodate/hoiku/hoikuen/1003156.html",
+  "pdf": {
+    "linkPattern": "次回選考可能人数",
+    "pick": "first"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 0,
+    "category": 1
+  },
+  "categoryFrom": "row",
+  "skipRowsContaining": [
+    "名称",
+    "合計"
+  ],
+  "metrics": [
+    "vacancy"
+  ],
+  "emptyValue": 0,
+  "asOf": {
+    "source": "pdf",
+    "pattern": "次回選考可能人数\\s*令和\\s*(\\d+)\\s*年\\s*(\\d{1,2})\\s*月\\s*(\\d{1,2})\\s*日現在"
+  },
+  "minFacilities": 25,
+  "notes": [
+    "市が公表しているのは次回選考の選考可能人数です。",
+    "市は「食べ物の制限、特別な支援の必要性などにより、選考可能枠があっても受け入れできない場合があります」としています。",
+    "公式の表で空欄になっているクラスは選考可能人数が0であることを示します。",
+    "市は選考月ごとのPDFを掲載しており、当サイトは先頭（最新の選考月）を取り込んでいます。"
+  ]
+}
