@@ -1,0 +1,193 @@
+{
+  "municipalitySlug": "oharu",
+  "municipalityName": "大治町",
+  "asOf": "2026-07-31",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "大治町「保育所等の空き状況」",
+  "sourceUrl": "https://www.town.oharu.aichi.jp/5130.htm",
+  "sourceFiles": {
+    "vacancy": "https://www.town.oharu.aichi.jp/5130.htm"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "町は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "「ー」はその年齢の預かりがない施設です。"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "4人以上空きあり（きっずフレンド大治園・わかば園は1人以上）",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1〜3人空きあり",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "大治東保育園",
+      "name": "大治東保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "大治はなつね保育園",
+      "name": "大治はなつね保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "大治南保育園",
+      "name": "大治南保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "△",
+        "○",
+        "△",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "大治幼稚園",
+      "name": "大治幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "三本木こども園",
+      "name": "三本木こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "△",
+        "○",
+        null
+      ]
+    },
+    {
+      "id": "きっずフレンド大治園",
+      "name": "きっずフレンド大治園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        "○",
+        "○",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "きっずフレンドわかば園",
+      "name": "きっずフレンドわかば園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        "○",
+        "○",
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+}

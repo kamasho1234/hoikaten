@@ -1,0 +1,45 @@
+{
+  "slug": "kiyosu",
+  "name": "清須市",
+  "sourceName": "清須市「途中入園の空き状況」",
+  "indexUrl": "https://www.city.kiyosu.aichi.jp/kosodate/hoiku/tochunyuen.html",
+  "layout": "html-tables",
+  "columns": {
+    "name": 0
+  },
+  "categoryFrom": "none",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○",
+    "◯": "○"
+  },
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "空きあり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "空きわずか",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "更新日：(20\\d{2})年(\\d{1,2})月(\\d{1,2})日"
+  },
+  "minFacilities": 10,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "市は表に基準日を書いていないため、掲載ページの更新日を基準日にしています。",
+    "入園調整時点の空き状況です。"
+  ]
+}

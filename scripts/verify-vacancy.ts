@@ -1646,6 +1646,45 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "×": 85, "○": 45, "△": 14 },
   },
+  oharu: {
+    asOf: "2026-07-31",
+    facilityCount: 7,
+    vacancy: 0,
+    symbolCounts: { "×": 22, "○": 6, "△": 5 },
+  },
+  kiyosu: {
+    asOf: "2026-08-17",
+    facilityCount: 19,
+    vacancy: 0,
+    symbolCounts: { "×": 96, "△": 6 },
+  },
+  tsubame: {
+    asOf: "2026-08-01",
+    facilityCount: 25,
+    vacancy: 0,
+    symbolCounts: { "×": 111, "△": 15, "○": 12 },
+  },
+  yonabaru: {
+    asOf: "2026-08-01",
+    facilityCount: 15,
+    vacancy: 37,
+  },
+  yaese: {
+    asOf: "2026-08-01",
+    facilityCount: 23,
+    vacancy: 11,
+  },
+  "nishihara-okinawa": {
+    asOf: "2026-08-13",
+    facilityCount: 18,
+    vacancy: 18,
+  },
+  ritto: {
+    asOf: "2026-08-10",
+    facilityCount: 28,
+    vacancy: 0,
+    symbolCounts: { "×": 137 },
+  },
   akaiwa: {
     asOf: "2026-08-17",
     facilityCount: 15,

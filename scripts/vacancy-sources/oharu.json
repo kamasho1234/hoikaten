@@ -1,0 +1,54 @@
+{
+  "slug": "oharu",
+  "name": "大治町",
+  "sourceName": "大治町「保育所等の空き状況」",
+  "indexUrl": "https://www.town.oharu.aichi.jp/5130.htm",
+  "layout": "html-tables",
+  "columns": {
+    "name": 0
+  },
+  "categoryFrom": "none",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○",
+    "◯": "○",
+    "✕": "×",
+    "×": "×"
+  },
+  "noClassMarks": [
+    "ー",
+    "－",
+    "-",
+    "―",
+    "‐",
+    ""
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "空き状況（令和(\\d+)年(\\d{1,2})月(\\d{1,2})日時点"
+  },
+  "minFacilities": 6,
+  "notes": [
+    "町は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "「ー」はその年齢の預かりがない施設です。"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "4人以上空きあり（きっずフレンド大治園・わかば園は1人以上）",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1〜3人空きあり",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ]
+}

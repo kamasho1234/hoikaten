@@ -1,0 +1,29 @@
+{
+  "slug": "nishihara-okinawa",
+  "name": "西原町",
+  "sourceName": "西原町「保育所等の空き状況」",
+  "indexUrl": "https://www.town.nishihara.okinawa.jp/soshiki/8/9559.html",
+  "pdf": {
+    "linkPattern": "空き状況"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 2,
+    "category": 0
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "vacancy"
+  ],
+  "emptyValue": 0,
+  "skipRowsMatching": "□|■|←",
+  "asOf": {
+    "source": "pdf",
+    "pattern": "令和(\\d+)年(\\d{1,2})月(\\d{1,2})日時点"
+  },
+  "minFacilities": 12,
+  "notes": [
+    "クラスは4月1日時点の年齢で決まります。",
+    "町は空きのない年齢を空欄にしています。空欄は0人として扱っています。"
+  ]
+}
