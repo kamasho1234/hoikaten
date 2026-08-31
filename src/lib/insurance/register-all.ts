@@ -422,3 +422,6 @@ import "./city-kirishima";
 import "./city-iida";
 import "./city-yatsushiro";
 import "./city-tsuyama";
+import "./city-hamamatsu";
+import "./city-komae";
+import "./city-akiruno";
