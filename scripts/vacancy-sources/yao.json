@@ -1,0 +1,34 @@
+{
+  "slug": "yao",
+  "name": "八尾市",
+  "sourceName": "八尾市「認定こども園・保育所（園）・小規模保育施設 募集人数」",
+  "indexUrl": "https://www.city.yao.osaka.jp/kosodate_kyouiku/ninteikodomoen_hoikusho/1003996/1020314.html",
+  "pdf": {
+    "linkPattern": "募集人数"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 1,
+    "category": 0
+  },
+  "categoryFrom": "row",
+  "categoryTrim": [
+    "[\\s/]"
+  ],
+  "skipRowsContaining": [
+    "施設名",
+    "募集人数"
+  ],
+  "metrics": [
+    "vacancy"
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "更新日\\s*令和(\\d+)年(\\d{1,2})月(\\d{1,2})日"
+  },
+  "minFacilities": 30,
+  "notes": [
+    "市が公表しているのは年度の募集人数です。",
+    "市は基準日を書いていないため、当サイトはページの更新日を時点として扱っています。"
+  ]
+}

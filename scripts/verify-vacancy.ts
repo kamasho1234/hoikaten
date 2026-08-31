@@ -1540,6 +1540,11 @@ const EXPECTED: Record<
     facilityCount: 36,
     vacancy: 17,
   },
+  yao: {
+    asOf: "2026-08-20",
+    facilityCount: 43,
+    vacancy: 1030,
+  },
   akaiwa: {
     asOf: "2026-08-17",
     facilityCount: 15,
