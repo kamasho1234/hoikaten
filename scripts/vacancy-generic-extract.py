@@ -183,11 +183,25 @@ def rows_from_grid(grid, conf, category=None):
             text = r[cat_col]
             for pat in conf.get("categoryTrim", []):
                 text = re.sub(pat, "", text)
+            # 縦書きの結合セルは字の順が崩れて出ることがある（各務原市の「保育所（園）（私立）」）。
+            # 読めた通りの崩れた文字を、設定で正しい表記に置き換える
+            text = (conf.get("categoryMap") or {}).get(text.strip(), text)
             category = text.strip() or category
 
         values = [None] * 6
         symbols = [None] * 6
         ok = False
+        # 隣り合う年齢のセルが結合されている自治体がある（安曇野市の0歳・1歳など）。
+        # pdfplumber は結合セルの値を左端にだけ入れて右を空にするため、
+        # そのままだと右の年齢が「データなし」になってしまう。
+        # mergedAges を指定した設定では、空欄を左隣の値で埋める。
+        # 「ー」など明示的に「そのクラスが無い」と書かれたセルは no_class 側で落ちるので、
+        # ここで埋まるのは本当に結合セル由来の空欄だけになる。
+        if conf.get("mergedAges"):
+            order = sorted(age_cols)
+            for k, j in enumerate(order):
+                if k and r[j] == "" and r[order[k - 1]] != "":
+                    r[j] = r[order[k - 1]]
         for j, age in age_cols.items():
             text = r[j]
             if text == "":

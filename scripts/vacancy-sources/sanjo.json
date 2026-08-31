@@ -1,0 +1,65 @@
+{
+  "slug": "sanjo",
+  "name": "三条市",
+  "sourceName": "三条市「保育所・保育園・認定こども園・地域型保育事業実施施設空き状況」",
+  "indexUrl": "https://www.city.sanjo.niigata.jp/kosodate_kyoiku/kosodate/hoikujo_hoikuen_yochien_ninteikodomoen/11455.html",
+  "pdf": {
+    "linkPattern": "akijoukyou"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 1,
+    "category": 0,
+    "ages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○",
+    "✕": "×",
+    "✖": "×"
+  },
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "1日現在、3名以上の空き",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1日現在、2名以下の空き",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "1日現在、空き無し",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "（(令和\\d+年\\d{1,2}月\\d{1,2}日)現在）"
+  },
+  "minFacilities": 20,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "市は「『○』『△』表示の施設においても、定員の関係などで途中入所をお断りすることがあります」としています。",
+    "途中入所の申込みは、子育て支援課（栄庁舎）、市民窓口課（三条庁舎）、栄・下田各サービスセンター総合窓口で受け付けます。"
+  ],
+  "categoryTrim": [
+    "[\\s/]"
+  ],
+  "skipRowsContaining": [
+    "施設名",
+    "受入可能人数"
+  ]
+}

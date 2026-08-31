@@ -1,0 +1,52 @@
+{
+  "slug": "yamaga",
+  "name": "山鹿市",
+  "sourceName": "山鹿市「保育所等入所調整が可能な施設一覧」",
+  "indexUrl": "https://www.city.yamaga.kumamoto.jp/kosodate/kiji003426/index.html",
+  "pdf": {
+    "linkPattern": "空き状況一覧表"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 2,
+    "category": 0
+  },
+  "categoryFrom": "row",
+  "categoryTrim": [
+    "[\\s/]"
+  ],
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○"
+  },
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "数名の空きあり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1・2名程度の空きあり",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "調整不可",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "【更新日：(\\d{1,2})月(\\d{1,2})日】[\\s\\S]*?令和(\\d+)年\\d{1,2}月\\d{1,2}日時点",
+    "order": "mdy"
+  },
+  "minFacilities": 15,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "市は「調査日以降の入所状況・職員状況により、調整不可となる場合があります」としています。",
+    "年齢は令和8年4月1日時点の年齢です。"
+  ]
+}

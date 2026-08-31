@@ -1339,6 +1339,53 @@ const EXPECTED: Record<
     facilityCount: 11,
     vacancy: 14,
   },
+  azumino: {
+    asOf: "2026-08-12",
+    facilityCount: 34,
+    vacancy: 0,
+    symbolCounts: { "×": 109, "○": 34, "△": 21 },
+  },
+  honjo: {
+    asOf: "2026-08-27",
+    facilityCount: 27,
+    vacancy: 173,
+  },
+  higashiomi: {
+    asOf: "2026-08-25",
+    facilityCount: 30,
+    vacancy: 0,
+    symbolCounts: { "×": 130, "△": 23 },
+  },
+  kakamigahara: {
+    asOf: "2026-08-20",
+    facilityCount: 34,
+    vacancy: 0,
+    symbolCounts: { "×": 116, "①": 39, "②": 11, "③": 1, "⑥": 1 },
+  },
+  sanjo: {
+    asOf: "2026-08-01",
+    facilityCount: 33,
+    vacancy: 0,
+    symbolCounts: { "×": 107, "△": 57, "○": 22 },
+  },
+
+  masaki: {
+    asOf: "2026-08-17",
+    facilityCount: 10,
+    vacancy: 1,
+  },
+  kikuyo: {
+    asOf: "2026-07-31",
+    facilityCount: 24,
+    vacancy: 0,
+    symbolCounts: { "△": 53, "×": 50, "○": 16 },
+  },
+  yamaga: {
+    asOf: "2026-08-13",
+    facilityCount: 25,
+    vacancy: 0,
+    symbolCounts: { "×": 78, "△": 50, "○": 9 },
+  },
   akaiwa: {
     asOf: "2026-08-17",
     facilityCount: 15,

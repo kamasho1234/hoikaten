@@ -1,0 +1,44 @@
+{
+  "slug": "higashiomi",
+  "name": "東近江市",
+  "sourceName": "東近江市「保育所などの空き状況」",
+  "indexUrl": "https://www.city.higashiomi.shiga.jp/kosodate_kyouiku/youchien_hoikusho_ninteikodomoen/1011262/1002316.html",
+  "pdf": {
+    "linkPattern": "空き状況"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 1,
+    "category": 0
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "✕": "×",
+    "✖": "×",
+    "〇": "○"
+  },
+  "symbolLegend": [
+    {
+      "mark": "△",
+      "label": "若干名空きあり",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "（(令和\\d+年\\d{1,2}月\\d{1,2}日)現在）"
+  },
+  "minFacilities": 20,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "公式の表は地区ごとに園を並べています。当サイトでは地区を類型として扱っています。"
+  ]
+}

@@ -1,0 +1,833 @@
+{
+  "municipalitySlug": "kakamigahara",
+  "municipalityName": "各務原市",
+  "asOf": "2026-08-20",
+  "fetchedAt": "2026-08-31",
+  "sourceName": "各務原市「保育所等の空き状況」",
+  "sourceUrl": "https://www.city.kakamigahara.lg.jp/kodomo/hoiku/1002269/1002272.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.kakamigahara.lg.jp/_res/projects/default_project/_page_/001/002/272/r8.10.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "市は受入可能人数を丸囲みの数字で公表しているため、当サイトも記号のまま載せています。",
+    "年齢は令和8年4月1日時点の満年齢です。",
+    "市は「受入可能児童数は変動する場合があります」としています。"
+  ],
+  "wards": [],
+  "categories": [
+    "保育所（公立）",
+    "保育所（園）（私立）",
+    "認定こども園（私立）",
+    "地域型保育事業所（私立）"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "⑩",
+      "label": "受入可能10人",
+      "open": true
+    },
+    {
+      "mark": "⑨",
+      "label": "受入可能9人",
+      "open": true
+    },
+    {
+      "mark": "⑧",
+      "label": "受入可能8人",
+      "open": true
+    },
+    {
+      "mark": "⑦",
+      "label": "受入可能7人",
+      "open": true
+    },
+    {
+      "mark": "⑥",
+      "label": "受入可能6人",
+      "open": true
+    },
+    {
+      "mark": "⑤",
+      "label": "受入可能5人",
+      "open": true
+    },
+    {
+      "mark": "④",
+      "label": "受入可能4人",
+      "open": true
+    },
+    {
+      "mark": "③",
+      "label": "受入可能3人",
+      "open": true
+    },
+    {
+      "mark": "②",
+      "label": "受入可能2人",
+      "open": true
+    },
+    {
+      "mark": "①",
+      "label": "受入可能1人",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "受入不可",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "那加中央",
+      "name": "那加中央",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "①",
+        "②",
+        "①",
+        "①",
+        "①",
+        "②"
+      ]
+    },
+    {
+      "id": "中屋",
+      "name": "中屋",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "①",
+        "×",
+        "①",
+        "②",
+        "①",
+        "①"
+      ]
+    },
+    {
+      "id": "鵜沼西",
+      "name": "鵜沼西",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "①",
+        "①",
+        "①"
+      ]
+    },
+    {
+      "id": "蘇原",
+      "name": "蘇原",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "①"
+      ]
+    },
+    {
+      "id": "雄飛ケ丘",
+      "name": "雄飛ケ丘",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "①",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "うぬま東",
+      "name": "うぬま東",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "蘇原西",
+      "name": "蘇原西",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "前宮そらまち",
+      "name": "前宮そらまち",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "川島東",
+      "name": "川島東",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "①",
+        "①",
+        "①",
+        "①",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "新生",
+      "name": "新生",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "②",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "うぬまなか",
+      "name": "うぬまなか",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "①",
+        "×",
+        "×",
+        "①",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "蘇原南",
+      "name": "蘇原南",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "②",
+        "③",
+        "×",
+        "×",
+        "②",
+        "×"
+      ]
+    },
+    {
+      "id": "那加",
+      "name": "那加",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "②",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "さらき遊びの庭",
+      "name": "さらき遊びの庭",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "①",
+        "×",
+        "①",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "かわしま育ちの庭",
+      "name": "かわしま育ちの庭",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "①",
+        "×",
+        "×",
+        "②",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "かわしま学びの庭",
+      "name": "かわしま学びの庭",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "①",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "各務",
+      "name": "各務",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "①",
+        "①",
+        "②",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "ひよし",
+      "name": "ひよし",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "だいち",
+      "name": "だいち",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "①",
+        "①",
+        "①",
+        "①",
+        "①",
+        "×"
+      ]
+    },
+    {
+      "id": "みどり",
+      "name": "みどり",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "うぬま第二",
+      "name": "うぬま第二",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "うぬま第一",
+      "name": "うぬま第一",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "⑥",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "やはた",
+      "name": "やはた",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "②",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "はな保育室うぬま駅前",
+      "name": "はな保育室うぬま駅前",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "①",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "ポプラうぬま保育園",
+      "name": "ポプラうぬま保育園",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "みらいあおぞら保育園",
+      "name": "みらいあおぞら保育園",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "PEACE各務原保育園",
+      "name": "PEACE各務原保育園",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "小規模保育園テテット",
+      "name": "小規模保育園テテット",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "①",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "フォルツァ・バンビーノ・ピコ",
+      "name": "フォルツァ・バンビーノ・ピコ",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "①",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "Kawasakiそらっこ保育園",
+      "name": "Kawasakiそらっこ保育園",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "ポプラそはら保育園",
+      "name": "ポプラそはら保育園",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "①",
+        "①",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "六軒niconico保育園",
+      "name": "六軒niconico保育園",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "サンライズキッズ保育園各務原園",
+      "name": "サンライズキッズ保育園各務原園",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "①",
+        "①",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "じぶんみらい保育園鵜沼三ツ池",
+      "name": "じぶんみらい保育園鵜沼三ツ池",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "①",
+        "①",
+        "②",
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+}

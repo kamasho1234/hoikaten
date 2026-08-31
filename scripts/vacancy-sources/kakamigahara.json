@@ -1,0 +1,91 @@
+{
+  "slug": "kakamigahara",
+  "name": "各務原市",
+  "sourceName": "各務原市「保育所等の空き状況」",
+  "indexUrl": "https://www.city.kakamigahara.lg.jp/kodomo/hoiku/1002269/1002272.html",
+  "pdf": {
+    "linkPattern": "空き状況"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 1,
+    "category": 0
+  },
+  "categoryFrom": "row",
+  "categoryTrim": [
+    "[\\s/]"
+  ],
+  "metrics": [
+    "symbol"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "⑩",
+      "label": "受入可能10人",
+      "open": true
+    },
+    {
+      "mark": "⑨",
+      "label": "受入可能9人",
+      "open": true
+    },
+    {
+      "mark": "⑧",
+      "label": "受入可能8人",
+      "open": true
+    },
+    {
+      "mark": "⑦",
+      "label": "受入可能7人",
+      "open": true
+    },
+    {
+      "mark": "⑥",
+      "label": "受入可能6人",
+      "open": true
+    },
+    {
+      "mark": "⑤",
+      "label": "受入可能5人",
+      "open": true
+    },
+    {
+      "mark": "④",
+      "label": "受入可能4人",
+      "open": true
+    },
+    {
+      "mark": "③",
+      "label": "受入可能3人",
+      "open": true
+    },
+    {
+      "mark": "②",
+      "label": "受入可能2人",
+      "open": true
+    },
+    {
+      "mark": "①",
+      "label": "受入可能1人",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "受入不可",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "※(令和\\s*\\d+年\\s*\\d{1,2}月\\s*\\d{1,2}日)現在"
+  },
+  "minFacilities": 20,
+  "notes": [
+    "市は受入可能人数を丸囲みの数字で公表しているため、当サイトも記号のまま載せています。",
+    "年齢は令和8年4月1日時点の満年齢です。",
+    "市は「受入可能児童数は変動する場合があります」としています。"
+  ],
+  "categoryMap": {
+    "保（育私所立（）園）": "保育所（園）（私立）"
+  }
+}

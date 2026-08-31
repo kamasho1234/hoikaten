@@ -1,0 +1,51 @@
+{
+  "slug": "azumino",
+  "name": "安曇野市",
+  "sourceName": "安曇野市「保育園等の途中入園空き状況」",
+  "indexUrl": "https://www.city.azumino.nagano.jp/site/hoikuen/",
+  "pdf": {
+    "linkPattern": "途中入園空き状況"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 2,
+    "category": 1
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○",
+    "◯": "○"
+  },
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "空きあり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "空きが少ない",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "令和(\\d+)年度途中入園[\\s\\S]{0,800}?空き状況[\\s\\S]{0,12}?（(\\d{1,2})月(\\d{1,2})日時点）"
+  },
+  "minFacilities": 20,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "途中入園の申込期限は毎月5日（5日が休日の場合は翌開庁日）です。",
+    "3歳児クラス以上を持たない小規模保育事業・事業所内保育事業は、その年齢が「ー」になっています。",
+    "公式の表では0歳と1歳の欄が1つに結合されている園があります。その場合は両方に同じ記号を入れています。"
+  ],
+  "mergedAges": true
+}

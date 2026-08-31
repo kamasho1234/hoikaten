@@ -1,0 +1,28 @@
+{
+  "slug": "honjo",
+  "name": "本庄市",
+  "sourceName": "本庄市「保育所（園）受入人数一覧」",
+  "indexUrl": "https://www.city.honjo.lg.jp/kosodate_kyoiku/kosodate/hoikusho_kodomoen_yochien/1554375865978.html",
+  "pdf": {
+    "linkPattern": "空き状況"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 1
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "vacancy"
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "更新日：(20\\d{2})年(\\d{1,2})月(\\d{1,2})日"
+  },
+  "minFacilities": 15,
+  "notes": [
+    "市が公表しているのは入所月ごとの受入人数一覧です。",
+    "こざくら保育園のように、同じ年齢でも生まれ月で受入人数が分かれている園があります。当サイトでは読み取れた人数だけを載せています。",
+    "市は基準日を書いていないため、当サイトはページの更新日を時点として扱っています。"
+  ],
+  "categories": []
+}

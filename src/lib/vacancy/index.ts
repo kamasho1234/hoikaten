@@ -307,6 +307,14 @@ import ikedaVacancy from "./ikeda.json";
 import futtsuVacancy from "./futtsu.json";
 import fuchuHiroshimaVacancy from "./fuchu-hiroshima.json";
 import akaiwaVacancy from "./akaiwa.json";
+import azuminoVacancy from "./azumino.json";
+import yamagaVacancy from "./yamaga.json";
+import kikuyoVacancy from "./kikuyo.json";
+import masakiVacancy from "./masaki.json";
+import sanjoVacancy from "./sanjo.json";
+import kakamigaharaVacancy from "./kakamigahara.json";
+import higashiomiVacancy from "./higashiomi.json";
+import honjoVacancy from "./honjo.json";
 import natoriVacancy from "./natori.json";
 import urumaVacancy from "./uruma.json";
 import fujiokaVacancy from "./fujioka.json";
@@ -619,6 +627,14 @@ const registry: Record<string, VacancyDataset> = {
   futtsu: futtsuVacancy as unknown as VacancyDataset,
   "fuchu-hiroshima": fuchuHiroshimaVacancy as unknown as VacancyDataset,
   akaiwa: akaiwaVacancy as unknown as VacancyDataset,
+  azumino: azuminoVacancy as unknown as VacancyDataset,
+  yamaga: yamagaVacancy as unknown as VacancyDataset,
+  kikuyo: kikuyoVacancy as unknown as VacancyDataset,
+  masaki: masakiVacancy as unknown as VacancyDataset,
+  sanjo: sanjoVacancy as unknown as VacancyDataset,
+  kakamigahara: kakamigaharaVacancy as unknown as VacancyDataset,
+  higashiomi: higashiomiVacancy as unknown as VacancyDataset,
+  honjo: honjoVacancy as unknown as VacancyDataset,
   natori: natoriVacancy as unknown as VacancyDataset,
   uruma: urumaVacancy as unknown as VacancyDataset,
   fujioka: fujiokaVacancy as unknown as VacancyDataset,

@@ -1,0 +1,26 @@
+{
+  "slug": "masaki",
+  "name": "松前町",
+  "sourceName": "松前町「保育施設受入可能数一覧」",
+  "indexUrl": "https://www.town.masaki.ehime.jp/soshiki/54/4630.html",
+  "pdf": {
+    "linkPattern": "受入可能数"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 0
+  },
+  "categoryFrom": "none",
+  "metrics": [
+    "vacancy"
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "(令和\\d+年\\d{1,2}月\\d{1,2}日)時点"
+  },
+  "minFacilities": 8,
+  "notes": [
+    "町が公表しているのは年度途中入所の受入可能数です。",
+    "受入年齢は施設によって異なり、6か月からの施設と1歳からの施設があります。"
+  ]
+}
