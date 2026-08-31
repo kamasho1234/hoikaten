@@ -447,3 +447,6 @@ import "./city-shiroishi";
 import "./city-kuroishi";
 import "./city-sue";
 import "./city-kamogawa";
+import "./city-koshu";
+import "./city-yahaba";
+import "./city-ichikikushikino";
