@@ -1,0 +1,749 @@
+{
+  "municipalitySlug": "shibata",
+  "municipalityName": "新発田市",
+  "asOf": "2026-08-06",
+  "fetchedAt": "2026-08-31",
+  "sourceName": "新発田市「入園可能状況」",
+  "sourceUrl": "https://www.city.shibata.lg.jp/kurashi/kosodate/youchien/1000847.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.shibata.lg.jp/_res/projects/default_project/_page_/001/000/847/r8.9ver2.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "市は入園可能状況を人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "公式の表は左半分が入園児童数（内定者含む）、右半分が入園可能状況です。当サイトは入園可能状況を載せています。",
+    "市は基準日を書いていないため、当サイトはページの更新日を時点として扱っています。"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "3人以上空きあり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "わずかに空きあり",
+      "open": true
+    },
+    {
+      "mark": "▲",
+      "label": "その他（両クラス合わせて計○名など）",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "中井保育園",
+      "name": "中井保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "○",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "天ノ原保育園",
+      "name": "天ノ原保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "松浦保育園",
+      "name": "松浦保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "○",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "川東保育園",
+      "name": "川東保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "○",
+        "△",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "菅谷保育園",
+      "name": "菅谷保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "△",
+        "○",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "ななは保育園",
+      "name": "ななは保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "△",
+        "×",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "豊浦保育園",
+      "name": "豊浦保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "×",
+        "△",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "藤塚浜保育園",
+      "name": "藤塚浜保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "△",
+        "△",
+        "○",
+        "△"
+      ]
+    },
+    {
+      "id": "紫雲寺保育園",
+      "name": "紫雲寺保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "○",
+        "△",
+        "△",
+        "○",
+        "×"
+      ]
+    },
+    {
+      "id": "米子保育園",
+      "name": "米子保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "○",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "大峰保育園",
+      "name": "大峰保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "ひかり保育園",
+      "name": "ひかり保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "△",
+        "▲",
+        "▲",
+        "▲"
+      ]
+    },
+    {
+      "id": "大栄保育園",
+      "name": "大栄保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "×",
+        "△",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "まごころ保育園しばた",
+      "name": "まごころ保育園しばた",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "乳児園はるにれ",
+      "name": "乳児園はるにれ",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "○",
+        "△",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "あやめこども園",
+      "name": "あやめこども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "○",
+        "△",
+        "×",
+        "×",
+        "△"
+      ]
+    },
+    {
+      "id": "認定こども園わかば幼稚園",
+      "name": "認定こども園わかば幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        "▲",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "あおばこども園",
+      "name": "あおばこども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "○",
+        "○",
+        "○",
+        "○",
+        "△"
+      ]
+    },
+    {
+      "id": "認定こども園東幼稚園",
+      "name": "認定こども園東幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "△",
+        "×",
+        "△",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "認定こども園あそびの森すみよし保育園",
+      "name": "認定こども園あそびの森すみよし保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "新発田聖母こども園",
+      "name": "新発田聖母こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "○",
+        "△",
+        "○",
+        "△"
+      ]
+    },
+    {
+      "id": "認定こども園優の森こども園",
+      "name": "認定こども園優の森こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "あいこども園",
+      "name": "あいこども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "○",
+        "×",
+        "△",
+        "×",
+        "△"
+      ]
+    },
+    {
+      "id": "認定こども園ルンビニ保育園",
+      "name": "認定こども園ルンビニ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        "×",
+        "×",
+        "×",
+        "○"
+      ]
+    },
+    {
+      "id": "認定こども園百華保育園",
+      "name": "認定こども園百華保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "○",
+        "△",
+        "×",
+        "○",
+        "×"
+      ]
+    },
+    {
+      "id": "認定こども園キッズ陽だまり園",
+      "name": "認定こども園キッズ陽だまり園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "×",
+        "×",
+        "△",
+        "△",
+        "×"
+      ]
+    },
+    {
+      "id": "三の丸こども園",
+      "name": "三の丸こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "認定こども園めばえこども園",
+      "name": "認定こども園めばえこども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "△",
+        "△",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "認定こども園パルｋｉｄｓ陽だまり園",
+      "name": "認定こども園パルｋｉｄｓ陽だまり園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "認定こども園エンジェルｋｉｄｓ陽だまり園",
+      "name": "認定こども園エンジェルｋｉｄｓ陽だまり園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "△",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "にしぞのこども園",
+      "name": "にしぞのこども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "△",
+        "×",
+        "△",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "認定こども園たから保育園",
+      "name": "認定こども園たから保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        "○",
+        "△",
+        "○",
+        "×"
+      ]
+    }
+  ]
+}

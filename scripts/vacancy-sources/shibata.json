@@ -1,0 +1,64 @@
+{
+  "slug": "shibata",
+  "name": "新発田市",
+  "sourceName": "新発田市「入園可能状況」",
+  "indexUrl": "https://www.city.shibata.lg.jp/kurashi/kosodate/youchien/1000847.html",
+  "pdf": {
+    "linkPattern": "募集施設一覧"
+  },
+  "layout": "one-table",
+  "columns": {
+    "name": 0,
+    "ages": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  "skipRowsContaining": [
+    "園名",
+    "３歳未満児",
+    "3歳未満児"
+  ],
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○"
+  },
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "3人以上空きあり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "わずかに空きあり",
+      "open": true
+    },
+    {
+      "mark": "▲",
+      "label": "その他（両クラス合わせて計○名など）",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "更新日\\s*令和(\\d+)年(\\d{1,2})月(\\d{1,2})日"
+  },
+  "minFacilities": 20,
+  "notes": [
+    "市は入園可能状況を人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "公式の表は左半分が入園児童数（内定者含む）、右半分が入園可能状況です。当サイトは入園可能状況を載せています。",
+    "市は基準日を書いていないため、当サイトはページの更新日を時点として扱っています。"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "nasushiobara",
+  "name": "那須塩原市",
+  "sourceName": "那須塩原市「保育園・認定こども園・地域型保育施設 受入予定児童数」",
+  "indexUrl": "https://www.city.nasushiobara.tochigi.jp/kosodate_kyoiku/kosodate/hoikuento/13508.html",
+  "pdf": {
+    "linkPattern": "受入予定児童数|ukeire"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 2,
+    "category": 1,
+    "ages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "categoryFrom": "row",
+  "categoryTrim": [
+    "[\\s/]"
+  ],
+  "skipRowsContaining": [
+    "施設名",
+    "合計"
+  ],
+  "metrics": [
+    "vacancy"
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "令和(\\d+)年度[\\s\\S]{0,600}?(\\d{1,2})月(\\d{1,2})日現在"
+  },
+  "minFacilities": 25,
+  "notes": [
+    "市が公表しているのは年度途中入園の受入予定児童数です。",
+    "市は「受入れ状況は公表時点での目安であり、保育士の配置や保育施設の状況によって変動することがあります」としています。",
+    "年齢区分は令和8年4月1日時点の年齢で決まります。"
+  ]
+}

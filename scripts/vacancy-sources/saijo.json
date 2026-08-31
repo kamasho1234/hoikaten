@@ -1,0 +1,52 @@
+{
+  "slug": "saijo",
+  "name": "西条市",
+  "sourceName": "西条市「保育施設等入所可能状況（2・3号認定）」",
+  "indexUrl": "https://www.city.saijo.ehime.jp/soshiki/hoikuyochien/hoikuen.html",
+  "pdf": {
+    "linkPattern": "入所可能状況"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 2,
+    "category": 0,
+    "ages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○"
+  },
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "入所の可能性あり",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "なし",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "(令和\\d+年\\d{1,2}月\\d{1,2}日)時点"
+  },
+  "minFacilities": 25,
+  "notes": [
+    "市は入所可能状況を人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "市は「実際の入所（園）は、退所や保育士の配置状況等により異なる可能性があります」としています。",
+    "クラス年齢は令和8年4月1日時点の年齢です。",
+    "公式の表は地区ごとに施設を並べています。当サイトでは地区を類型として扱っています。"
+  ]
+}

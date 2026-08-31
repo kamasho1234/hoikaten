@@ -1,0 +1,52 @@
+{
+  "slug": "sano",
+  "name": "佐野市",
+  "sourceName": "佐野市「保育施設一次募集予想一覧表」",
+  "indexUrl": "https://www.city.sano.lg.jp/kurashi_gyosei/kosodate_kyoiku/kosodate/9/7822.html",
+  "pdf": {
+    "linkPattern": "募集予想"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 1,
+    "category": 0
+  },
+  "categoryFrom": "row",
+  "categoryTrim": [
+    "[\\s/]"
+  ],
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○"
+  },
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "募集あり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "若干名の募集",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "募集なし",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "更新日：(20\\d{2})年(\\d{1,2})月(\\d{1,2})日"
+  },
+  "minFacilities": 25,
+  "notes": [
+    "市が公表しているのは翌年度の一次募集の予想一覧表です。人数ではなく記号で示されているため、当サイトも記号のまま載せています。",
+    "市は「全クラス年齢に募集があるわけではありません。また、実際の募集人数は変わることがあります」「保育士の配置状況等により募集人数が変動することがあり、必ず入園を保証するものではありません」としています。",
+    "認定こども園は保育所部分を示しています。",
+    "公式のPDFは「令和8年8月現在」と月までしか書いていないため、当サイトはページの更新日を時点として扱っています。"
+  ]
+}

@@ -1480,6 +1480,30 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "×": 24, "△": 16, "○": 8 },
   },
+  nasushiobara: {
+    asOf: "2026-08-20",
+    facilityCount: 40,
+    vacancy: 75,
+  },
+  saijo: {
+    asOf: "2026-08-20",
+    facilityCount: 38,
+    vacancy: 0,
+    symbolCounts: { "×": 158, "○": 58 },
+  },
+  sano: {
+    asOf: "2026-08-24",
+    facilityCount: 39,
+    vacancy: 0,
+    symbolCounts: { "○": 79, "△": 67, "×": 39 },
+  },
+  shibata: {
+    asOf: "2026-08-06",
+    facilityCount: 32,
+    vacancy: 0,
+    symbolCounts: { "×": 78, "○": 60, "△": 47, "▲": 4 },
+  },
+
   akaiwa: {
     asOf: "2026-08-17",
     facilityCount: 15,
