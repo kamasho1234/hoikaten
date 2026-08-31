@@ -1,0 +1,47 @@
+{
+  "slug": "miki",
+  "name": "三木市",
+  "sourceName": "三木市「2号・3号施設別追加審査枠一覧表」",
+  "indexUrl": "https://www.city.miki.lg.jp/soshiki/64/36001.html",
+  "pdf": {
+    "linkPattern": "追加審査枠"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 0
+  },
+  "categoryFrom": "none",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○"
+  },
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "5枠以上",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "4枠以下",
+      "open": true
+    },
+    {
+      "mark": "▲",
+      "label": "審査枠なし（保育士配置の変更や辞退等により受入可能枠が発生し、案内する可能性はあります）",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "更新日：(20\\d{2})年(\\d{1,2})月(\\d{1,2})日"
+  },
+  "minFacilities": 15,
+  "notes": [
+    "市は追加審査枠を人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "市は「▲は審査枠なしですが、保育士配置の変更や辞退等により受入可能枠が発生し、案内する可能性はあります」としています。",
+    "市は基準日を書いていないため、当サイトはページの更新日を時点として扱っています。"
+  ]
+}
