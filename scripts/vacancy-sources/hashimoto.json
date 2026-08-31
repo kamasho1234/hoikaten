@@ -1,0 +1,46 @@
+{
+  "slug": "hashimoto",
+  "name": "橋本市",
+  "sourceName": "橋本市「保育園・こども園（2・3号認定）の空き状況」",
+  "indexUrl": "https://www.city.hashimoto.lg.jp/guide/kenko_fukushibu/kodomo/hoiku/22382.html",
+  "layout": "html-tables",
+  "columns": {
+    "name": 1,
+    "category": 0
+  },
+  "categoryFrom": "none",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○"
+  },
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "空きあり（3名以上）",
+      "open": true
+    },
+    {
+      "mark": "▲",
+      "label": "若干名（1〜2名）",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "(令和\\d+年\\d{1,2}月\\d{1,2}日)時点の空き状況"
+  },
+  "minFacilities": 12,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "市は毎月初旬頃に更新しており「空き状況は常に変動していますので、あくまでも目安としてご覧ください」としています。",
+    "令和8年4月1日現在の年齢でクラスが分かれます。",
+    "市は「希望施設に空きがあっても、保育の必要性の高い方から利用調整を行うため、必ずしも入園できるとは限りません」としています。"
+  ]
+}

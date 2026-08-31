@@ -1545,6 +1545,17 @@ const EXPECTED: Record<
     facilityCount: 43,
     vacancy: 1030,
   },
+  hashimoto: {
+    asOf: "2026-08-05",
+    facilityCount: 14,
+    vacancy: 0,
+    symbolCounts: { "×": 61, "▲": 13, "○": 7 },
+  },
+  higashiyamato: {
+    asOf: "2026-09-01",
+    facilityCount: 28,
+    vacancy: 61,
+  },
   akaiwa: {
     asOf: "2026-08-17",
     facilityCount: 15,

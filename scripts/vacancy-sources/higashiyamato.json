@@ -1,0 +1,37 @@
+{
+  "slug": "higashiyamato",
+  "name": "東大和市",
+  "sourceName": "東大和市「市内保育施設空き状況」",
+  "indexUrl": "https://www.city.higashiyamato.lg.jp/kosodatekyoiku/hoiku/1007370.html",
+  "layout": "html-tables",
+  "columns": {
+    "name": 0,
+    "category": 1
+  },
+  "categoryFrom": "none",
+  "metrics": [
+    "vacancy"
+  ],
+  "noClassMarks": [
+    "－",
+    "ー",
+    "-",
+    "‐",
+    "―",
+    "/",
+    "／",
+    ""
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "更新日\\s*(20\\d{2})年(\\d{1,2})月(\\d{1,2})日"
+  },
+  "minFacilities": 20,
+  "notes": [
+    "市が公表しているのは翌月入園に関する空き状況です。表に数字が記入されている部分がクラスの空き人数です。",
+    "「－」と書かれているクラスは、その施設にそのクラスが無いことを示します。",
+    "市は基準日を書いていないため、当サイトはページの更新日を時点として扱っています。",
+    "公式の表で空欄になっているクラスは空き人数が0であることを示します（市は「表に数字が記入されている部分が保育施設のクラスの空き人数になります」としています）。"
+  ],
+  "emptyValue": 0
+}

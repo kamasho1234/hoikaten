@@ -1,0 +1,349 @@
+{
+  "municipalitySlug": "hashimoto",
+  "municipalityName": "橋本市",
+  "asOf": "2026-08-05",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "橋本市「保育園・こども園（2・3号認定）の空き状況」",
+  "sourceUrl": "https://www.city.hashimoto.lg.jp/guide/kenko_fukushibu/kodomo/hoiku/22382.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.hashimoto.lg.jp/guide/kenko_fukushibu/kodomo/hoiku/22382.html"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "市は毎月初旬頃に更新しており「空き状況は常に変動していますので、あくまでも目安としてご覧ください」としています。",
+    "令和8年4月1日現在の年齢でクラスが分かれます。",
+    "市は「希望施設に空きがあっても、保育の必要性の高い方から利用調整を行うため、必ずしも入園できるとは限りません」としています。"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "空きあり（3名以上）",
+      "open": true
+    },
+    {
+      "mark": "▲",
+      "label": "若干名（1〜2名）",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "三石保育園",
+      "name": "三石保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "香久の実保育園",
+      "name": "香久の実保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "▲",
+        "▲",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "橋本さつき保育園",
+      "name": "橋本さつき保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "▲"
+      ]
+    },
+    {
+      "id": "あやの台保育園",
+      "name": "あやの台保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "▲",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "紀見こども園",
+      "name": "紀見こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "▲",
+        "×",
+        "○",
+        "▲",
+        "○",
+        "×"
+      ]
+    },
+    {
+      "id": "高野口こども園",
+      "name": "高野口こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "▲",
+        "×",
+        "○",
+        "▲",
+        "▲"
+      ]
+    },
+    {
+      "id": "すみだこども園",
+      "name": "すみだこども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "▲",
+        "○",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "橋本こども園",
+      "name": "橋本こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "応其こども園",
+      "name": "応其こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "▲",
+        "▲",
+        "×"
+      ]
+    },
+    {
+      "id": "輝きの森学園",
+      "name": "輝きの森学園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "みついしこども園",
+      "name": "みついしこども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "学文路さつきこども園",
+      "name": "学文路さつきこども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "山田さつきこども園",
+      "name": "山田さつきこども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "▲",
+        "×"
+      ]
+    },
+    {
+      "id": "あやの台幼稚園",
+      "name": "あやの台幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        null,
+        "×",
+        "×",
+        "×"
+      ]
+    }
+  ]
+}
