@@ -1,0 +1,106 @@
+{
+  "municipalitySlug": "iizuna",
+  "municipalityName": "飯綱町",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "飯綱町「町立保育園入所空き情報」",
+  "sourceUrl": "https://www.town.iizuna.nagano.jp/kosodatesite/docs/10839.html",
+  "sourceFiles": {
+    "vacancy": "https://www.town.iizuna.nagano.jp/fs/8/8/8/1/4/_/R8.11___________.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "町は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "町は表に基準日を書いていないため、資料にある申込期間の開始日を基準日にしています。",
+    "クラス年齢は4月1日時点のものです。"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "空きあり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "空きわずか",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "南部保育園",
+      "name": "南部保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "○",
+        "△",
+        "○"
+      ]
+    },
+    {
+      "id": "りんごっ子保育園",
+      "name": "りんごっ子保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "×",
+        "△",
+        "×",
+        "△",
+        "○"
+      ]
+    },
+    {
+      "id": "さみずっ子保育園",
+      "name": "さみずっ子保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    }
+  ]
+}

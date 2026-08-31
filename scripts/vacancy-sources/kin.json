@@ -1,0 +1,49 @@
+{
+  "slug": "kin",
+  "name": "金武町",
+  "sourceName": "金武町「認可保育施設空き状況」",
+  "indexUrl": "https://www.town.kin.okinawa.jp/soshiki/kodomoshienka/gyomuannai/hoiku_kosodateshien/1466.html",
+  "pdf": {
+    "linkPattern": "空き状況"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 0,
+    "category": 1
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○",
+    "◯": "○",
+    "ー": "×",
+    "－": "×",
+    "-": "×",
+    "―": "×"
+  },
+  "noClassMarks": [],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "受入れ可能枠あり",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "受入れ可能枠なし",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "令和(\\d+)年(\\d{1,2})月(\\d{1,2})日\\s*現在"
+  },
+  "minFacilities": 8,
+  "notes": [
+    "町は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "町の表では受入れ可能枠があるものだけに「〇」を付けています。当サイトでは印のない年齢を「×（受入れ可能枠なし）」として表示しています。",
+    "空き状況は申込辞退や退園、保育士の配置状況などにより随時変動すると町が案内しています。"
+  ]
+}

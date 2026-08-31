@@ -1,0 +1,48 @@
+{
+  "slug": "iizuna",
+  "name": "飯綱町",
+  "sourceName": "飯綱町「町立保育園入所空き情報」",
+  "indexUrl": "https://www.town.iizuna.nagano.jp/kosodatesite/docs/10839.html",
+  "pdf": {
+    "linkPattern": "空き"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 0
+  },
+  "categoryFrom": "none",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○",
+    "◯": "○"
+  },
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "空きあり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "空きわずか",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "申込期間\\s*令和(\\d+)年\\s*(\\d{1,2})月\\s*(\\d{1,2})日"
+  },
+  "minFacilities": 3,
+  "notes": [
+    "町は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "町は表に基準日を書いていないため、資料にある申込期間の開始日を基準日にしています。",
+    "クラス年齢は4月1日時点のものです。"
+  ]
+}

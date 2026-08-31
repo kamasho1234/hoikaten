@@ -1828,6 +1828,23 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "×": 45, "△": 8, "○": 1 },
   },
+  kin: {
+    asOf: "2026-08-18",
+    facilityCount: 10,
+    vacancy: 0,
+    symbolCounts: { "×": 26, "○": 25 },
+  },
+  taga: {
+    asOf: "2026-08-31",
+    facilityCount: 4,
+    vacancy: 253,
+  },
+  iizuna: {
+    asOf: "2026-09-01",
+    facilityCount: 3,
+    vacancy: 0,
+    symbolCounts: { "×": 11, "△": 4, "○": 3 },
+  },
   akaiwa: {
     asOf: "2026-08-17",
     facilityCount: 15,

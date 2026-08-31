@@ -1,0 +1,77 @@
+{
+  "municipalitySlug": "taga",
+  "municipalityName": "多賀町",
+  "asOf": "2026-08-31",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "多賀町「保育所・認定こども園等の園児募集」",
+  "sourceUrl": "https://www.town.taga.lg.jp/kosodate_kyoiku/ikuji_mishugakuji/3/1690.html",
+  "sourceFiles": {
+    "vacancy": "https://www.town.taga.lg.jp/kosodate_kyoiku/ikuji_mishugakuji/3/1690.html"
+  },
+  "metrics": [
+    "vacancy"
+  ],
+  "notes": [
+    "町は表に基準日を書いていないため、掲載ページの更新日を基準日にしています。"
+  ],
+  "wards": [],
+  "categories": [],
+  "facilities": [
+    {
+      "id": "なつめ保育園",
+      "name": "なつめ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        5,
+        5,
+        8,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "多賀ささゆり保育園",
+      "name": "多賀ささゆり保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        6,
+        9,
+        18,
+        30,
+        34,
+        35
+      ]
+    },
+    {
+      "id": "大滝たきのみやこども園",
+      "name": "大滝たきのみやこども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        4,
+        2,
+        5,
+        8,
+        11,
+        10
+      ]
+    },
+    {
+      "id": "久徳うぐいすこども園",
+      "name": "久徳うぐいすこども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        3,
+        9,
+        15,
+        20,
+        16
+      ]
+    }
+  ]
+}

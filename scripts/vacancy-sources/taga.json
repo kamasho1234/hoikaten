@@ -1,0 +1,30 @@
+{
+  "slug": "taga",
+  "name": "多賀町",
+  "sourceName": "多賀町「保育所・認定こども園等の園児募集」",
+  "indexUrl": "https://www.town.taga.lg.jp/kosodate_kyoiku/ikuji_mishugakuji/3/1690.html",
+  "layout": "html-tables",
+  "columns": {
+    "name": 0
+  },
+  "categoryFrom": "none",
+  "metrics": [
+    "vacancy"
+  ],
+  "noClassMarks": [
+    "―",
+    "－",
+    "-",
+    "‐",
+    "ー",
+    ""
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "更新日：(20\\d{2})年(\\d{1,2})月(\\d{1,2})日"
+  },
+  "minFacilities": 3,
+  "notes": [
+    "町は表に基準日を書いていないため、掲載ページの更新日を基準日にしています。"
+  ]
+}

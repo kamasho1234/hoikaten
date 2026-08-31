@@ -1,0 +1,259 @@
+{
+  "municipalitySlug": "kin",
+  "municipalityName": "金武町",
+  "asOf": "2026-08-18",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "金武町「認可保育施設空き状況」",
+  "sourceUrl": "https://www.town.kin.okinawa.jp/soshiki/kodomoshienka/gyomuannai/hoiku_kosodateshien/1466.html",
+  "sourceFiles": {
+    "vacancy": "https://www.town.kin.okinawa.jp/material/files/group/6/akijoukyou20260818.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "町は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "町の表では受入れ可能枠があるものだけに「〇」を付けています。当サイトでは印のない年齢を「×（受入れ可能枠なし）」として表示しています。",
+    "空き状況は申込辞退や退園、保育士の配置状況などにより随時変動すると町が案内しています。"
+  ],
+  "wards": [],
+  "categories": [
+    "保育所",
+    "幼保連携型認定こども園",
+    "小規模保育事業所"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "受入れ可能枠あり",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "受入れ可能枠なし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "はまだ保育園",
+      "name": "はまだ保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "○",
+        "×",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "みつばこども園",
+      "name": "みつばこども園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "杉の子幼児学園",
+      "name": "杉の子幼児学園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "○",
+        "×",
+        "×",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "認定こども園金のほし",
+      "name": "認定こども園金のほし",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "○",
+        "○",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "並里こども園",
+      "name": "並里こども園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "○",
+        "×",
+        "×",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "嘉芸こども園",
+      "name": "嘉芸こども園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "○",
+        "×",
+        "×",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "金武こども園",
+      "name": "金武こども園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "金武こどもみらい園",
+      "name": "金武こどもみらい園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "ららくる屋嘉保育園",
+      "name": "ららくる屋嘉保育園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "○",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "すぎのこ小規模保育園",
+      "name": "すぎのこ小規模保育園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "○",
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+}
