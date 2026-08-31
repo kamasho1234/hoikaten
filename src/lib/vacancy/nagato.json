@@ -1,0 +1,151 @@
+{
+  "municipalitySlug": "nagato",
+  "municipalityName": "長門市",
+  "asOf": "2026-07-27",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "長門市「保育施設入所可能状況」",
+  "sourceUrl": "https://www.city.nagato.yamaguchi.jp/site/nagato-kosodatenavi/64993.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.nagato.yamaguchi.jp/uploaded/attachment/39072.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "市は資料に年を書いていないため、掲載ページのリンクにある年月日を基準日にしています。"
+  ],
+  "wards": [],
+  "categories": [
+    "公立"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "3人以上入所可能",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "要相談",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "入所不可",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "みのり保育園",
+      "name": "みのり保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "○",
+        "△",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "三隅保育園",
+      "name": "三隅保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "×",
+        "△",
+        "×",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "日置保育園",
+      "name": "日置保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "○",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "菱海保育園",
+      "name": "菱海保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        "○",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "向津具保育園",
+      "name": "向津具保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        null,
+        "○",
+        null,
+        null
+      ]
+    }
+  ]
+}

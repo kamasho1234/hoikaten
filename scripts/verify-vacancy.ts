@@ -1758,6 +1758,24 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "×": 17, "○": 16, "△": 15 },
   },
+  maniwa: {
+    asOf: "2026-08-05",
+    facilityCount: 7,
+    vacancy: 0,
+    symbolCounts: { "×": 20, "△": 15, "○": 4 },
+  },
+  "mizuho-gifu": {
+    asOf: "2026-08-03",
+    facilityCount: 18,
+    vacancy: 0,
+    symbolCounts: { "×": 43, "▲": 23, "○": 15 },
+  },
+  nagato: {
+    asOf: "2026-07-27",
+    facilityCount: 5,
+    vacancy: 0,
+    symbolCounts: { "○": 17, "△": 6, "×": 2 },
+  },
   akaiwa: {
     asOf: "2026-08-17",
     facilityCount: 15,

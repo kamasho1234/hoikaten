@@ -1,0 +1,54 @@
+{
+  "slug": "mizuho-gifu",
+  "name": "瑞穂市（岐阜県）",
+  "sourceName": "瑞穂市「保育施設の空き状況と待機児童数」",
+  "indexUrl": "https://www.city.mizuho.lg.jp/5709.htm",
+  "layout": "html-tables",
+  "columns": {
+    "name": 2,
+    "category": 1
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○",
+    "◯": "○"
+  },
+  "noClassMarks": [
+    "－",
+    "ー",
+    "-",
+    "―",
+    "‐",
+    ""
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "空きあり",
+      "open": true
+    },
+    {
+      "mark": "▲",
+      "label": "空きわずか",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "更新日:(20\\d{2})年(\\d{1,2})月(\\d{1,2})日"
+  },
+  "minFacilities": 12,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "市は表に基準日を書いていないため、掲載ページの更新日を基準日にしています。",
+    "受入年齢は4月1日現在のものです。"
+  ]
+}
