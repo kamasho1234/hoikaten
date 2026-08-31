@@ -1523,6 +1523,12 @@ const EXPECTED: Record<
     vacancy: 21,
   },
 
+  kushiro: {
+    asOf: "2026-08-01",
+    facilityCount: 48,
+    vacancy: 0,
+    symbolCounts: { "×": 130, "△": 57, "○": 33 },
+  },
   akaiwa: {
     asOf: "2026-08-17",
     facilityCount: 15,

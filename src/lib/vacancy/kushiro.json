@@ -1,0 +1,1096 @@
+{
+  "municipalitySlug": "kushiro",
+  "municipalityName": "釧路市",
+  "asOf": "2026-08-01",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "釧路市「入所状況（空き状況）」",
+  "sourceUrl": "https://www.city.kushiro.lg.jp/kosodatekyouiku/kosodate/1008292/1005300/1005308/1005377.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.kushiro.lg.jp/_res/projects/default_project/_page_/001/005/377/r8.8.1.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "市は「施設全体で満員または現在受け入れ停止の施設は、各年齢の空き状況を表示していません」としています。そのため一部のクラスが空欄になっています。",
+    "公式の表には「施設全体」の欄もありますが、当サイトでは年齢ごとの欄だけを載せています。"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "空きあり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "空きわずか",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "満員または現在受入停止",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "新富士保育園",
+      "name": "新富士保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        "×",
+        "△",
+        "△",
+        "△",
+        "○"
+      ]
+    },
+    {
+      "id": "鳥取保育園",
+      "name": "鳥取保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "芦野保育園",
+      "name": "芦野保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        "×",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "釧路第1福ちゃん保育園",
+      "name": "釧路第1福ちゃん保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "×",
+        "×",
+        "△",
+        "×",
+        "○"
+      ]
+    },
+    {
+      "id": "釧路第2福ちゃん保育園",
+      "name": "釧路第2福ちゃん保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "△",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "昭和どんぐりの家保育園",
+      "name": "昭和どんぐりの家保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "治水どんぐりの家保育園",
+      "name": "治水どんぐりの家保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "△",
+        "×",
+        "×",
+        "×",
+        "△"
+      ]
+    },
+    {
+      "id": "釧路旭夜間保育園",
+      "name": "釧路旭夜間保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        null,
+        null,
+        "○",
+        null,
+        null
+      ]
+    },
+    {
+      "id": "認定こども園よしの",
+      "name": "認定こども園よしの",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "△",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "釧路あさひ認定こども園",
+      "name": "釧路あさひ認定こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "△",
+        "○",
+        "△",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "釧路風の子認定こども園",
+      "name": "釧路風の子認定こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "釧路おたのしけ認定こども園",
+      "name": "釧路おたのしけ認定こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "×",
+        "×",
+        "△",
+        "○",
+        "△"
+      ]
+    },
+    {
+      "id": "美原認定こども園",
+      "name": "美原認定こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "×",
+        "△",
+        "△",
+        "×",
+        "△"
+      ]
+    },
+    {
+      "id": "ことぶき認定こども園",
+      "name": "ことぶき認定こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "△",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "桂恋認定こども園",
+      "name": "桂恋認定こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "双葉認定こども園",
+      "name": "双葉認定こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        "×",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "かしわ認定こども園",
+      "name": "かしわ認定こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "△",
+        "○",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "あいこう認定こども園",
+      "name": "あいこう認定こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "○"
+      ]
+    },
+    {
+      "id": "あいいく保育園",
+      "name": "あいいく保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "キッズランド",
+      "name": "キッズランド",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "P－ぽけっと",
+      "name": "P－ぽけっと",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "みんなのおうち",
+      "name": "みんなのおうち",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "はいほーむ",
+      "name": "はいほーむ",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "阿寒幼稚園",
+      "name": "阿寒幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "×",
+        "×",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "釧路カトリック幼稚園",
+      "name": "釧路カトリック幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        "×",
+        "×",
+        "△",
+        "×"
+      ]
+    },
+    {
+      "id": "釧路白樺幼稚園",
+      "name": "釧路白樺幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "釧路桜幼稚園",
+      "name": "釧路桜幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        "○",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "釧路ひばり幼稚園",
+      "name": "釧路ひばり幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        "△",
+        "△",
+        "△",
+        "×"
+      ]
+    },
+    {
+      "id": "かすみ幼稚園",
+      "name": "かすみ幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "釧路あおば幼稚園",
+      "name": "釧路あおば幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        "△",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "美原つくし幼稚園",
+      "name": "美原つくし幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        "×",
+        "△",
+        "×",
+        "△"
+      ]
+    },
+    {
+      "id": "ひぶな幼稚園",
+      "name": "ひぶな幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "釧路短期大学附属幼稚園",
+      "name": "釧路短期大学附属幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "認定こども園釧路ひまわり",
+      "name": "認定こども園釧路ひまわり",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        "×",
+        "○",
+        "○",
+        "△"
+      ]
+    },
+    {
+      "id": "湖畔幼稚園",
+      "name": "湖畔幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "愛国フレンド幼稚園",
+      "name": "愛国フレンド幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        "△",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "わかばフレンド幼稚園",
+      "name": "わかばフレンド幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "みはらフレンド幼稚園",
+      "name": "みはらフレンド幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        "○",
+        "△",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "釧路豊川幼稚園",
+      "name": "釧路豊川幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        null,
+        "△",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "第二豊川幼稚園",
+      "name": "第二豊川幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        null,
+        "△",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "昭和スポーツ幼稚園",
+      "name": "昭和スポーツ幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        "×",
+        "△",
+        "△",
+        "×"
+      ]
+    },
+    {
+      "id": "音別認定こども園",
+      "name": "音別認定こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        null,
+        null,
+        "○",
+        null,
+        null
+      ]
+    },
+    {
+      "id": "釧路頌栄保育園",
+      "name": "釧路頌栄保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        "○",
+        "○",
+        "○",
+        "×"
+      ]
+    },
+    {
+      "id": "釧路はるとり保育園",
+      "name": "釧路はるとり保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "×",
+        "×",
+        "△",
+        "○",
+        "△"
+      ]
+    },
+    {
+      "id": "釧路共栄保育園",
+      "name": "釧路共栄保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "×",
+        "△",
+        "×",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "釧路わかくさ保育園",
+      "name": "釧路わかくさ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "△",
+        "×",
+        "△"
+      ]
+    },
+    {
+      "id": "釧路さかえ保育園",
+      "name": "釧路さかえ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "釧路認定こども園",
+      "name": "釧路認定こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "○",
+        "△"
+      ]
+    }
+  ]
+}

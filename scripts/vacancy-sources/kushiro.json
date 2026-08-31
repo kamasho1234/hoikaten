@@ -1,0 +1,50 @@
+{
+  "slug": "kushiro",
+  "name": "釧路市",
+  "sourceName": "釧路市「入所状況（空き状況）」",
+  "indexUrl": "https://www.city.kushiro.lg.jp/kosodatekyouiku/kosodate/1008292/1005300/1005308/1005377.html",
+  "pdf": {
+    "linkPattern": "現在入所|入所（園）状況|空き"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 0
+  },
+  "categoryFrom": "none",
+  "skipRowsContaining": [
+    "施設名"
+  ],
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○"
+  },
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "空きあり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "空きわずか",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "満員または現在受入停止",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "(令和\\d+年\\d{1,2}月\\d{1,2}日)現在"
+  },
+  "minFacilities": 20,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "市は「施設全体で満員または現在受け入れ停止の施設は、各年齢の空き状況を表示していません」としています。そのため一部のクラスが空欄になっています。",
+    "公式の表には「施設全体」の欄もありますが、当サイトでは年齢ごとの欄だけを載せています。"
+  ]
+}
