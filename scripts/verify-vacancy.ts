@@ -1806,6 +1806,16 @@ const EXPECTED: Record<
     facilityCount: 23,
     vacancy: 102,
   },
+  "yamada-iwate": {
+    asOf: "2026-07-01",
+    facilityCount: 7,
+    vacancy: 161,
+  },
+  nago: {
+    asOf: "2026-08-18",
+    facilityCount: 53,
+    vacancy: 158,
+  },
   akaiwa: {
     asOf: "2026-08-17",
     facilityCount: 15,

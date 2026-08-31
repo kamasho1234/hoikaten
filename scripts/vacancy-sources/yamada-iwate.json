@@ -1,0 +1,32 @@
+{
+  "slug": "yamada-iwate",
+  "name": "山田町",
+  "sourceName": "山田町「町内保育施設年齢別空き状況」",
+  "indexUrl": "https://www.town.yamada.iwate.jp/docs/6313.html",
+  "pdf": {
+    "linkPattern": "空き状況"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 1,
+    "category": 0
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "vacancy"
+  ],
+  "noClassMarks": [
+    "-",
+    "‐",
+    "―",
+    "－",
+    "ー",
+    ""
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "令和(\\d+)年(\\d{1,2})月(\\d{1,2})日現在"
+  },
+  "minFacilities": 5,
+  "notes": []
+}
