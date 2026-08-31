@@ -1,0 +1,407 @@
+{
+  "municipalitySlug": "shibukawa",
+  "municipalityName": "渋川市",
+  "asOf": "2026-07-22",
+  "fetchedAt": "2026-08-31",
+  "sourceName": "渋川市「保育施設空き状況」",
+  "sourceUrl": "https://www.city.shibukawa.lg.jp/kosodate-site/kosodate/000437/000443/000445/p015335.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.shibukawa.lg.jp/manage/contents/upload/69a6397535104.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "市は空きを人数ではなく記号（一部は「1人」という表記）で公表しているため、当サイトも表記のまま載せています。",
+    "市は基準日を書いていないため、当サイトはページの更新日を時点として扱っています。",
+    "公式の表には記号のほかに「1人」「若干名」という書き方が混ざっています。当サイトは公式の表記のまま載せています。"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "◎",
+      "label": "6人以上",
+      "open": true
+    },
+    {
+      "mark": "○",
+      "label": "4人〜5人",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "2人〜3人",
+      "open": true
+    },
+    {
+      "mark": "1人",
+      "label": "1人",
+      "open": true
+    },
+    {
+      "mark": "若干名",
+      "label": "若干名",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "受入不可",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "第一保育所",
+      "name": "第一保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "1人",
+        "×",
+        "△",
+        "1人"
+      ]
+    },
+    {
+      "id": "第四保育所",
+      "name": "第四保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "1人",
+        "×",
+        "1人",
+        "1人"
+      ]
+    },
+    {
+      "id": "第五保育所",
+      "name": "第五保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        "1人",
+        "△",
+        "△",
+        "×"
+      ]
+    },
+    {
+      "id": "伊香保こども園",
+      "name": "伊香保こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "1人",
+        "△",
+        "◎",
+        "◎",
+        "◎"
+      ]
+    },
+    {
+      "id": "渋川幼稚園",
+      "name": "渋川幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "1人",
+        "◎",
+        "◎",
+        "◎"
+      ]
+    },
+    {
+      "id": "渋川こばと保育園",
+      "name": "渋川こばと保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "1人",
+        "1人",
+        "×",
+        "△"
+      ]
+    },
+    {
+      "id": "行幸田保育園",
+      "name": "行幸田保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "1人",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "コスモス保育園",
+      "name": "コスモス保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "パンジー保育園",
+      "name": "パンジー保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "1人",
+        "×",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "たんぽぽ保育園",
+      "name": "たんぽぽ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "ひばり保育園",
+      "name": "ひばり保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "1人",
+        "1人",
+        "1人",
+        "1人"
+      ]
+    },
+    {
+      "id": "北橘保育園",
+      "name": "北橘保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "1人",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "半田こども園",
+      "name": "半田こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "1人",
+        "×",
+        "×",
+        "○",
+        "×"
+      ]
+    },
+    {
+      "id": "白ばら幼稚園",
+      "name": "白ばら幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "若干名",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "中村こども園",
+      "name": "中村こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "1人",
+        "1人"
+      ]
+    },
+    {
+      "id": "渋川大島幼稚園",
+      "name": "渋川大島幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        "△",
+        "○",
+        "△",
+        "△"
+      ]
+    }
+  ]
+}

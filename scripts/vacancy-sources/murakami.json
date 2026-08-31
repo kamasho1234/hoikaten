@@ -1,0 +1,65 @@
+{
+  "slug": "murakami",
+  "name": "村上市",
+  "sourceName": "村上市「保育園空き状況」",
+  "indexUrl": "https://www.city.murakami.lg.jp/site/kodomo/hoikuken.html",
+  "pdf": {
+    "linkPattern": "空き状況"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 1,
+    "category": 0,
+    "ages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "categoryFrom": "row",
+  "categoryTrim": [
+    "[\\s/]"
+  ],
+  "skipRowsContaining": [
+    "項目",
+    "項 目"
+  ],
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○",
+    "✕": "×",
+    "✖": "×"
+  },
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "1日現在で受入人数に空きがある",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "要協議",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きがない",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "(令和\\d+年\\d{1,2}月\\d{1,2}日)時点"
+  },
+  "minFacilities": 12,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "市は「『〇』表示の園においても、申込状況等により途中入園をお断りすることがあります」としています。",
+    "途中入園の申し込みは、希望する月の前々月初日までです。"
+  ]
+}

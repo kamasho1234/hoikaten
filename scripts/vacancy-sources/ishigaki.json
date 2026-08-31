@@ -1,0 +1,29 @@
+{
+  "slug": "ishigaki",
+  "name": "石垣市",
+  "sourceName": "石垣市「認定こども園・保育所等空き状況」",
+  "indexUrl": "https://www.city.ishigaki.okinawa.jp/kurashi_gyosei/kosodate_kyoiku/hoikusho/10847.html",
+  "pdf": {
+    "linkPattern": "入所選考会後空き状況",
+    "pick": "first"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 0
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "vacancy"
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "(令和\\d+年\\d{1,2}月\\d{1,2}日)現在"
+  },
+  "minFacilities": 10,
+  "notes": [
+    "市が公表しているのは入所選考の結果を反映した翌月の新規受入可能数の予想です。",
+    "市は「現在空きがない場合でも、引っ越しなどによる在園児の退所や施設の受入数調整により追加受入れが可能となる場合もあります」としています。",
+    "保育士の離職や確保の状況により空いている枠が増減する場合があります。",
+    "市は入所月ごとのPDFを新しい順に並べています。当サイトは先頭（最新月）を取り込んでいます。"
+  ]
+}

@@ -1,0 +1,310 @@
+{
+  "municipalitySlug": "ishigaki",
+  "municipalityName": "石垣市",
+  "asOf": "2026-08-18",
+  "fetchedAt": "2026-08-31",
+  "sourceName": "石垣市「認定こども園・保育所等空き状況」",
+  "sourceUrl": "https://www.city.ishigaki.okinawa.jp/kurashi_gyosei/kosodate_kyoiku/hoikusho/10847.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.ishigaki.okinawa.jp/material/files/group/22/202609_ukeire.pdf"
+  },
+  "metrics": [
+    "vacancy"
+  ],
+  "notes": [
+    "市が公表しているのは入所選考の結果を反映した翌月の新規受入可能数の予想です。",
+    "市は「現在空きがない場合でも、引っ越しなどによる在園児の退所や施設の受入数調整により追加受入れが可能となる場合もあります」としています。",
+    "保育士の離職や確保の状況により空いている枠が増減する場合があります。",
+    "市は入所月ごとのPDFを新しい順に並べています。当サイトは先頭（最新月）を取り込んでいます。"
+  ],
+  "wards": [],
+  "categories": [
+    "公立保育所",
+    "認可保育園",
+    "小規模保育",
+    "事業所内保育（地域枠）",
+    "公立認定こども園"
+  ],
+  "facilities": [
+    {
+      "id": "大川保育所",
+      "name": "大川保育所",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        2,
+        2,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "エンゼル保育園",
+      "name": "エンゼル保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        1,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "ちいろば保育園",
+      "name": "ちいろば保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        5,
+        1,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "ぱいぬしまきのこほいくえん",
+      "name": "ぱいぬしまきのこほいくえん",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "id": "海邦第2保育園",
+      "name": "海邦第2保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        2
+      ]
+    },
+    {
+      "id": "きんたろう保育園",
+      "name": "きんたろう保育園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        3,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "はとぽっぽ保育園",
+      "name": "はとぽっぽ保育園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        2,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "やいまぬふぁ",
+      "name": "やいまぬふぁ",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        1,
+        2,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "てぃだぱな保育園",
+      "name": "てぃだぱな保育園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        3,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "なごみの広場保育園",
+      "name": "なごみの広場保育園",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        3,
+        2,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "おおはまこども園(1号)",
+      "name": "おおはまこども園(1号)",
+      "w": null,
+      "c": 4,
+      "vacancy": [
+        null,
+        null,
+        null,
+        3,
+        9,
+        8
+      ]
+    },
+    {
+      "id": "〃(2号)",
+      "name": "〃(2号)",
+      "w": null,
+      "c": 4,
+      "vacancy": [
+        null,
+        null,
+        null,
+        5,
+        2,
+        1
+      ]
+    },
+    {
+      "id": "へいしんこども園(1号)",
+      "name": "へいしんこども園(1号)",
+      "w": null,
+      "c": 4,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        10,
+        7
+      ]
+    },
+    {
+      "id": "〃(2号)#2",
+      "name": "〃(2号)",
+      "w": null,
+      "c": 4,
+      "vacancy": [
+        null,
+        null,
+        null,
+        1,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "あらかわこども園(1号)",
+      "name": "あらかわこども園(1号)",
+      "w": null,
+      "c": 4,
+      "vacancy": [
+        null,
+        null,
+        null,
+        4,
+        9,
+        7
+      ]
+    },
+    {
+      "id": "〃(2号)#3",
+      "name": "〃(2号)",
+      "w": null,
+      "c": 4,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        6,
+        1
+      ]
+    },
+    {
+      "id": "かびらこども園(1号)",
+      "name": "かびらこども園(1号)",
+      "w": null,
+      "c": 4,
+      "vacancy": [
+        null,
+        null,
+        null,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "id": "〃(2号・3号)",
+      "name": "〃(2号・3号)",
+      "w": null,
+      "c": 4,
+      "vacancy": [
+        null,
+        7,
+        2,
+        2,
+        7,
+        5
+      ]
+    },
+    {
+      "id": "いばるまこども園(1号)",
+      "name": "いばるまこども園(1号)",
+      "w": null,
+      "c": 4,
+      "vacancy": [
+        null,
+        null,
+        null,
+        3,
+        3,
+        5
+      ]
+    },
+    {
+      "id": "〃(2号・3号)#2",
+      "name": "〃(2号・3号)",
+      "w": null,
+      "c": 4,
+      "vacancy": [
+        3,
+        4,
+        5,
+        3,
+        3,
+        6
+      ]
+    }
+  ]
+}

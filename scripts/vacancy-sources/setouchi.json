@@ -1,0 +1,60 @@
+{
+  "slug": "setouchi",
+  "name": "瀬戸内市",
+  "sourceName": "瀬戸内市「保育園等受入見込み（随時申し込み）」",
+  "indexUrl": "https://www.city.setouchi.lg.jp/soshiki/95/154379.html",
+  "pdf": {
+    "linkPattern": "受入見込"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 1,
+    "category": 0
+  },
+  "categoryFrom": "row",
+  "categoryTrim": [
+    "[\\s/]"
+  ],
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○"
+  },
+  "symbolTrim": [
+    "１号.*$",
+    "1号.*$"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "◎",
+      "label": "6人以上",
+      "open": true
+    },
+    {
+      "mark": "○",
+      "label": "3〜5人程度",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "2人以下",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "0人",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "(令和\\d+年\\d{1,2}月\\d{1,2}日)\\s*現在"
+  },
+  "minFacilities": 8,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "市は「空き状況は随時変わりますのでご注意ください」としています。",
+    "公式の表では1号認定の空きが併記されている園がありますが、当サイトでは2号・3号（保育）の記号だけを載せています。"
+  ]
+}

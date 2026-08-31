@@ -1,0 +1,312 @@
+{
+  "municipalitySlug": "setouchi",
+  "municipalityName": "瀬戸内市",
+  "asOf": "2026-08-01",
+  "fetchedAt": "2026-08-31",
+  "sourceName": "瀬戸内市「保育園等受入見込み（随時申し込み）」",
+  "sourceUrl": "https://www.city.setouchi.lg.jp/soshiki/95/154379.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.setouchi.lg.jp/uploaded/attachment/128075.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "市は「空き状況は随時変わりますのでご注意ください」としています。",
+    "公式の表では1号認定の空きが併記されている園がありますが、当サイトでは2号・3号（保育）の記号だけを載せています。"
+  ],
+  "wards": [],
+  "categories": [
+    "私立",
+    "公立"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "◎",
+      "label": "6人以上",
+      "open": true
+    },
+    {
+      "mark": "○",
+      "label": "3〜5人程度",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "2人以下",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "0人",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "牛窓ルンビニ保育園",
+      "name": "牛窓ルンビニ保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "あいあいこども園",
+      "name": "あいあいこども園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "邑久ルンビニこども園",
+      "name": "邑久ルンビニこども園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "⾧船ちとせこども園",
+      "name": "⾧船ちとせこども園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "わくわく保育園",
+      "name": "わくわく保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "あかとんぼせとうち園",
+      "name": "あかとんぼせとうち園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "邑久保育園",
+      "name": "邑久保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "福田保育園",
+      "name": "福田保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "⾧船西保育園",
+      "name": "⾧船西保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "△"
+      ]
+    },
+    {
+      "id": "⾧船東保育園",
+      "name": "⾧船東保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "△",
+        "×",
+        "○"
+      ]
+    },
+    {
+      "id": "今城こども園",
+      "name": "今城こども園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "○",
+        "△",
+        "○",
+        "△"
+      ]
+    },
+    {
+      "id": "裳掛こども園",
+      "name": "裳掛こども園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        "△",
+        "◎",
+        "◎",
+        "◎"
+      ]
+    }
+  ]
+}

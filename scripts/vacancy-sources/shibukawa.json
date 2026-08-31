@@ -1,0 +1,63 @@
+{
+  "slug": "shibukawa",
+  "name": "渋川市",
+  "sourceName": "渋川市「保育施設空き状況」",
+  "indexUrl": "https://www.city.shibukawa.lg.jp/kosodate-site/kosodate/000437/000443/000445/p015335.html",
+  "pdf": {
+    "linkPattern": "空き状況"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 0
+  },
+  "categoryFrom": "none",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○",
+    "１人": "1人"
+  },
+  "symbolLegend": [
+    {
+      "mark": "◎",
+      "label": "6人以上",
+      "open": true
+    },
+    {
+      "mark": "○",
+      "label": "4人〜5人",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "2人〜3人",
+      "open": true
+    },
+    {
+      "mark": "1人",
+      "label": "1人",
+      "open": true
+    },
+    {
+      "mark": "若干名",
+      "label": "若干名",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "受入不可",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "更新日\\s*令和(\\d+)年(\\d{1,2})月(\\d{1,2})日"
+  },
+  "minFacilities": 12,
+  "notes": [
+    "市は空きを人数ではなく記号（一部は「1人」という表記）で公表しているため、当サイトも表記のまま載せています。",
+    "市は基準日を書いていないため、当サイトはページの更新日を時点として扱っています。",
+    "公式の表には記号のほかに「1人」「若干名」という書き方が混ざっています。当サイトは公式の表記のまま載せています。"
+  ]
+}

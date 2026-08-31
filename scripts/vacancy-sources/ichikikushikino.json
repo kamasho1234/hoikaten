@@ -1,0 +1,38 @@
+{
+  "slug": "ichikikushikino",
+  "name": "いちき串木野市",
+  "sourceName": "いちき串木野市「保育施設の空き状況（入所可能児童数）」",
+  "indexUrl": "https://www.city.ichikikushikino.lg.jp/fukushi2/kenko/kosodate/kosodate/hoiku.html",
+  "pdf": {
+    "linkPattern": "空き情報|空き状況"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 0,
+    "category": 1,
+    "ages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "categoryFrom": "row",
+  "skipRowsContaining": [
+    "施設名",
+    "受入可能人数"
+  ],
+  "metrics": [
+    "vacancy"
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "(令和\\d+年\\d{1,2}月\\d{1,2}日)現在"
+  },
+  "minFacilities": 5,
+  "notes": [
+    "市が公表しているのは入所可能児童数です。「—」はそのクラスの受け入れがないことを示します。"
+  ]
+}

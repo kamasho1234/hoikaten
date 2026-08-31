@@ -1,0 +1,54 @@
+{
+  "slug": "tsurugashima",
+  "name": "鶴ヶ島市",
+  "sourceName": "鶴ヶ島市「保育所等空き状況」",
+  "indexUrl": "https://www.city.tsurugashima.lg.jp/kosodate-kyouiku/kosodate/hoikujo/page000643.html",
+  "pdf": {
+    "linkPattern": "空き状況"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 2,
+    "category": 1
+  },
+  "categoryFrom": "row",
+  "categoryTrim": [
+    "[\\s/]"
+  ],
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○"
+  },
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "空きあり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "若干名の空きあり",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "【更新日】\\s*(20\\d{2})年(\\d{1,2})月(\\d{1,2})日"
+  },
+  "minFacilities": 15,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "市は「空き状況公開後に、枠数が変動する可能性があります。このため、入園を希望する園については、空きの有無にかかわらず、申込みをしてください」としています。",
+    "×が表示されているクラスでも、辞退等により定員に空きが生じた場合は入所審査が行われます。",
+    "メルヘン保育園については地域枠の空き状況です。",
+    "市は基準日を「令和8年9月 利用調整終了後」と書いており日付がないため、当サイトはページの更新日を時点として扱っています。",
+    "公式の表では公立保育所の1園目だけ類型のセルが結合されているため、当サイトでは類型が付きません。"
+  ]
+}

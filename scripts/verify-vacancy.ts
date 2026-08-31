@@ -1386,6 +1386,43 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "×": 78, "△": 50, "○": 9 },
   },
+  murakami: {
+    asOf: "2026-07-01",
+    facilityCount: 19,
+    vacancy: 0,
+    symbolCounts: { "△": 64, "○": 31, "×": 7 },
+  },
+  setouchi: {
+    asOf: "2026-08-01",
+    facilityCount: 12,
+    vacancy: 0,
+    symbolCounts: { "×": 53, "△": 5, "○": 5, "◎": 3 },
+  },
+
+  tsurugashima: {
+    asOf: "2026-08-19",
+    facilityCount: 20,
+    vacancy: 0,
+    symbolCounts: { "×": 94, "△": 8, "○": 3 },
+  },
+  ichikikushikino: {
+    asOf: "2026-08-20",
+    facilityCount: 6,
+    vacancy: 15,
+  },
+  shibukawa: {
+    asOf: "2026-07-22",
+    facilityCount: 16,
+    vacancy: 0,
+    symbolCounts: { "×": 50, "1人": 20, "△": 10, "◎": 6, "○": 2, "若干名": 1 },
+  },
+
+
+  ishigaki: {
+    asOf: "2026-08-18",
+    facilityCount: 20,
+    vacancy: 178,
+  },
   akaiwa: {
     asOf: "2026-08-17",
     facilityCount: 15,
