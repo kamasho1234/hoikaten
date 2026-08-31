@@ -1459,6 +1459,16 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "×": 10, "△": 4, "○": 4 },
   },
+  "minami-alps": {
+    asOf: "2026-08-20",
+    facilityCount: 26,
+    vacancy: 136,
+  },
+  rifu: {
+    asOf: "2026-08-26",
+    facilityCount: 23,
+    vacancy: 80,
+  },
   akaiwa: {
     asOf: "2026-08-17",
     facilityCount: 15,

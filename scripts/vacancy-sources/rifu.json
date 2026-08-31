@@ -1,0 +1,32 @@
+{
+  "slug": "rifu",
+  "name": "利府町",
+  "sourceName": "利府町「選考後の各保育施設の空き状況」",
+  "indexUrl": "https://www.town.rifu.miyagi.jp/kosodatesite/oyakudati/7944.html",
+  "pdf": {
+    "linkPattern": "akizyoukyou|空き状況"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 0
+  },
+  "categoryFrom": "row",
+  "skipRowsContaining": [
+    "合計",
+    "クラス"
+  ],
+  "metrics": [
+    "vacancy"
+  ],
+  "emptyValue": 0,
+  "asOf": {
+    "source": "pdf",
+    "pattern": "(令和\\d+年\\d{1,2}月\\d{1,2}日)現在"
+  },
+  "minFacilities": 15,
+  "notes": [
+    "町が公表しているのは選考後の各保育施設の空き状況です。",
+    "公式の表で空欄になっているクラスは空きが0であることを示します（表の合計欄が空欄を0として計算されています）。",
+    "町は「実際の入所可否は、各施設において保育士の人数や勤務状況等により、空きがあっても入所できない場合があります」としています。"
+  ]
+}

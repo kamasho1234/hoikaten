@@ -1,0 +1,31 @@
+{
+  "slug": "minami-alps",
+  "name": "南アルプス市",
+  "sourceName": "南アルプス市「保育所等募集人員（受付施設一覧表）」",
+  "indexUrl": "https://www.city.minami-alps.yamanashi.jp/docs/13591.html",
+  "pdf": {
+    "linkPattern": "募集人数|募集人員"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 1
+  },
+  "categoryFrom": "none",
+  "skipRowsContaining": [
+    "計",
+    "合計"
+  ],
+  "metrics": [
+    "vacancy"
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "(令和\\d+年\\d{1,2}月\\d{1,2}日)時点"
+  },
+  "minFacilities": 20,
+  "notes": [
+    "市が公表しているのは入所月ごとの募集人員（受付施設一覧表）です。",
+    "クラス年齢は令和8年4月1日現在の年齢が基準です。",
+    "公式の表で空欄になっているクラスは、その園にそのクラスが無いことを示します。"
+  ]
+}
