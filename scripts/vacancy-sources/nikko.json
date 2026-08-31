@@ -1,0 +1,66 @@
+{
+  "slug": "nikko",
+  "name": "日光市",
+  "sourceName": "日光市「利用調整後の空き状況」",
+  "indexUrl": "https://www.city.nikko.lg.jp/kosodate_kyoiku/hoikuen_yochien/10/7309.html",
+  "pdf": {
+    "linkPattern": "空き状況"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 2,
+    "category": 0
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○",
+    "◯": "○"
+  },
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "受入の可能性があります（3名以上）",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "若干の受入の可能性があります（1〜2名）",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "受入がありません（0名）",
+      "open": false
+    },
+    {
+      "mark": "☆",
+      "label": "ご相談ください",
+      "open": true
+    }
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "令和(\\d+)年(\\d{1,2})月(\\d{1,2})日"
+  },
+  "minFacilities": 20,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "空き状況は公表時点の目安で、保育士の配置や施設の状況によって変わることがあります。",
+    "空きがない表記でも審査時に変動することがあるため、希望する施設は見学のうえすべて記載するよう市が案内しています。",
+    "市は表に基準日を書いていないため、掲載ページの更新日を基準日にしています。",
+    "みらいのきの0歳児クラスは、12か月を経過した翌月からの受け入れと市が案内しています。",
+    "認可外保育施設は利用調整を各園が行うため、申請先が市ではなく園になります。"
+  ],
+  "onlyTablesContaining": [
+    "施設名"
+  ],
+  "skipRowsMatching": "休園",
+  "symbolTrim": [
+    "※1",
+    "※2",
+    "※3"
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "municipalitySlug": "tadaoka",
+  "municipalityName": "忠岡町",
+  "asOf": "2026-08-01",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "忠岡町「保育所・認定こども園の受入れ人数」",
+  "sourceUrl": "https://www.town.tadaoka.osaka.jp/kosodate/ikuji_misyugaku/youchien_hoiku/2234.html",
+  "sourceFiles": {
+    "vacancy": "https://www.town.tadaoka.osaka.jp/material/files/group/24/R8_8akizyoukyou.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "町は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "2号認定・3号認定の受入予定人数です。"
+  ],
+  "wards": [],
+  "categories": [
+    "公立認定こども園",
+    "民間認定こども園",
+    "民間小規模施設"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "◎",
+      "label": "6人以上受入れ可能",
+      "open": true
+    },
+    {
+      "mark": "○",
+      "label": "3〜5人受入れ可能",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1〜2人受入れ可能",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "0人",
+      "open": false
+    },
+    {
+      "mark": "／",
+      "label": "受入れなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "東忠岡こども園",
+      "name": "東忠岡こども園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "○",
+        "○",
+        "×",
+        "○"
+      ]
+    },
+    {
+      "id": "チューリップ保育園",
+      "name": "チューリップ保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "ピープル忠岡チャイルドスクール",
+      "name": "ピープル忠岡チャイルドスクール",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "△",
+        "○",
+        "△",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "ピープル乳児室",
+      "name": "ピープル乳児室",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "△",
+        "△",
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "shimamoto",
+  "name": "島本町",
+  "sourceName": "島本町「保育所等空き状況」",
+  "indexUrl": "https://www.town.shimamoto.lg.jp/site/kosodate/27737.html",
+  "pdf": {
+    "linkPattern": "空き状況"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 1
+  },
+  "categoryFrom": "none",
+  "metrics": [
+    "vacancy"
+  ],
+  "emptyValue": 0,
+  "skipRowsContaining": [
+    "合計"
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "令和(\\d+)年(\\d{1,2})月(\\d{1,2})日時点"
+  },
+  "minFacilities": 10,
+  "notes": [
+    "入所審査時点の空き人数です。空きがあっても必ず入所できるとは限りません。"
+  ]
+}

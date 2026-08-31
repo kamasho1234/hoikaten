@@ -1,0 +1,137 @@
+{
+  "municipalitySlug": "takahata",
+  "municipalityName": "高畠町",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "高畠町「保育施設等の途中入園」",
+  "sourceUrl": "https://www.town.takahata.yamagata.jp/site/kosodate/4828.html",
+  "sourceFiles": {
+    "vacancy": "https://www.town.takahata.yamagata.jp/site/kosodate/4828.html"
+  },
+  "metrics": [
+    "vacancy"
+  ],
+  "notes": [
+    "町は途中入園の受入可能人数として公表しています。空きがあっても必ず入園できるとは限りません。"
+  ],
+  "wards": [],
+  "categories": [
+    "認定こども園",
+    "認可保育所",
+    "小規模保育事業所"
+  ],
+  "facilities": [
+    {
+      "id": "たかはたこども園",
+      "name": "たかはたこども園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "にじいろこども園",
+      "name": "にじいろこども園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        6
+      ]
+    },
+    {
+      "id": "なかよしこども園",
+      "name": "なかよしこども園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        2,
+        0,
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "なごみこども園",
+      "name": "なごみこども園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        0,
+        1,
+        0,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "id": "まつかわ幼稚園",
+      "name": "まつかわ幼稚園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        6,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "やしろ保育園",
+      "name": "やしろ保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        0,
+        2,
+        3,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "つくし保育園",
+      "name": "つくし保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        3,
+        2,
+        0,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "あいいく幼児園",
+      "name": "あいいく幼児園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        2,
+        2,
+        1,
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+}

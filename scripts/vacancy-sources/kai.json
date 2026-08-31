@@ -1,0 +1,38 @@
+{
+  "slug": "kai",
+  "name": "甲斐市",
+  "sourceName": "甲斐市「市内園の入所受入可能人数」",
+  "indexUrl": "https://www.city.kai.yamanashi.jp/site/kosodate/4432.html",
+  "pdf": {
+    "linkPattern": "受入可能人数"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 2
+  },
+  "categoryFrom": "none",
+  "metrics": [
+    "vacancy"
+  ],
+  "noClassMarks": [
+    "－",
+    "ー",
+    "-",
+    "―",
+    "‐",
+    "/",
+    "／"
+  ],
+  "skipRowsContaining": [
+    "合計"
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "R(\\d+)\\.(\\d{1,2})\\.(\\d{1,2})時点"
+  },
+  "minFacilities": 15,
+  "notes": [
+    "市は毎月「翌月の入所受入可能人数」を公表しています。掲載時点の人数であり、変更されることがあります。",
+    "入園するクラスは4月1日時点の年齢で決まります。"
+  ]
+}

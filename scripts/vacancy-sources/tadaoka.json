@@ -1,0 +1,58 @@
+{
+  "slug": "tadaoka",
+  "name": "忠岡町",
+  "sourceName": "忠岡町「保育所・認定こども園の受入れ人数」",
+  "indexUrl": "https://www.town.tadaoka.osaka.jp/kosodate/ikuji_misyugaku/youchien_hoiku/2234.html",
+  "pdf": {
+    "linkPattern": "受入"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 1,
+    "category": 0
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○",
+    "◯": "○"
+  },
+  "symbolLegend": [
+    {
+      "mark": "◎",
+      "label": "6人以上受入れ可能",
+      "open": true
+    },
+    {
+      "mark": "○",
+      "label": "3〜5人受入れ可能",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1〜2人受入れ可能",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "0人",
+      "open": false
+    },
+    {
+      "mark": "／",
+      "label": "受入れなし",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "令和(\\d+)年(\\d{1,2})月(\\d{1,2})日時点"
+  },
+  "minFacilities": 3,
+  "notes": [
+    "町は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "2号認定・3号認定の受入予定人数です。"
+  ]
+}

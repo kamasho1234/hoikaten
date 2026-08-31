@@ -1,0 +1,138 @@
+{
+  "municipalitySlug": "yorii",
+  "municipalityName": "寄居町",
+  "asOf": "2026-08-04",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "寄居町「保育所（園）等 受入可能状況」",
+  "sourceUrl": "https://www.town.yorii.saitama.jp/soshiki/07/ukeiremikomi.html",
+  "sourceFiles": {
+    "vacancy": "https://www.town.yorii.saitama.jp/soshiki/07/ukeiremikomi.html"
+  },
+  "metrics": [
+    "vacancy"
+  ],
+  "notes": [
+    "町は表に基準日を書いていないため、掲載ページの更新日を基準日にしています。",
+    "受入可能人数であり、空きがあっても必ず入所できるとは限りません。"
+  ],
+  "wards": [],
+  "categories": [
+    "公立保育所",
+    "私立保育園",
+    "小規模保育事業所"
+  ],
+  "facilities": [
+    {
+      "id": "寄居保育所",
+      "name": "寄居保育所",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "男衾保育所",
+      "name": "男衾保育所",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "こぶし保育園",
+      "name": "こぶし保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        1,
+        0,
+        0,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "id": "ゆずの木保育園",
+      "name": "ゆずの木保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        3,
+        3,
+        2,
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "いずみ保育園",
+      "name": "いずみ保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "寄居のこキッズ保育園",
+      "name": "寄居のこキッズ保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        0,
+        0,
+        0,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "ようど保育園",
+      "name": "ようど保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        0,
+        1,
+        0,
+        4,
+        4,
+        0
+      ]
+    },
+    {
+      "id": "小規模保育園いずみ",
+      "name": "小規模保育園いずみ",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        3,
+        0,
+        0,
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "municipalitySlug": "atsuma",
+  "municipalityName": "厚真町",
+  "asOf": "2026-08-24",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "厚真町「こども園の空き状況」",
+  "sourceUrl": "https://www.town.atsuma.lg.jp/page/1030.html",
+  "sourceFiles": {
+    "vacancy": "https://www.town.atsuma.lg.jp/uploaded/attachment/5387.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "町は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "クラス年齢は4月1日現在の年齢で決まります。"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "空きがある年齢",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "事前に相談が必要な年齢",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "現在空きがない年齢",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "こども園つみき（公立）",
+      "name": "こども園つみき（公立）",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        "△",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "宮の森こども園（私立）",
+      "name": "宮の森こども園（私立）",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "△",
+        "×",
+        "△",
+        "△",
+        "△"
+      ]
+    }
+  ]
+}

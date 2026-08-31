@@ -1,0 +1,203 @@
+{
+  "municipalitySlug": "shimamoto",
+  "municipalityName": "島本町",
+  "asOf": "2026-07-14",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "島本町「保育所等空き状況」",
+  "sourceUrl": "https://www.town.shimamoto.lg.jp/site/kosodate/27737.html",
+  "sourceFiles": {
+    "vacancy": "https://www.town.shimamoto.lg.jp/uploaded/attachment/16603.pdf"
+  },
+  "metrics": [
+    "vacancy"
+  ],
+  "notes": [
+    "入所審査時点の空き人数です。空きがあっても必ず入所できるとは限りません。"
+  ],
+  "wards": [],
+  "categories": [],
+  "facilities": [
+    {
+      "id": "第二保育所",
+      "name": "第二保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        0,
+        6,
+        0
+      ]
+    },
+    {
+      "id": "第四保育所",
+      "name": "第四保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "山崎保育園",
+      "name": "山崎保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        0,
+        3,
+        0
+      ]
+    },
+    {
+      "id": "高浜学園",
+      "name": "高浜学園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ＲＩＣホープ水無瀬保育園",
+      "name": "ＲＩＣホープ水無瀬保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "id": "しまもと里山認定こども園",
+      "name": "しまもと里山認定こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "認定こども園ゆいの詩",
+      "name": "認定こども園ゆいの詩",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "id": "幼稚園型認定こども園山崎幼稚園",
+      "name": "幼稚園型認定こども園山崎幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        1,
+        0,
+        11,
+        15,
+        12
+      ]
+    },
+    {
+      "id": "ＲＩＣホープ島本保育園",
+      "name": "ＲＩＣホープ島本保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "ぬくもりのおうち保育島本園",
+      "name": "ぬくもりのおうち保育島本園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "ぬくもりのおうち保育若山台園",
+      "name": "ぬくもりのおうち保育若山台園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "るりの詩保育園",
+      "name": "るりの詩保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "みずの詩保育園",
+      "name": "みずの詩保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "saiki",
+  "name": "佐伯市",
+  "sourceName": "佐伯市「保育所等受入可能状況一覧」",
+  "indexUrl": "https://www.city.saiki.oita.jp/kosodate/kiji00311831/index.html",
+  "pdf": {
+    "linkPattern": "受入可能状況"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 1,
+    "category": 0
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○",
+    "◯": "○"
+  },
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "1人でも入所受入れを行う見込みがある",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "入所受入れを行う見込みがない",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "R(\\d+)\\.(\\d{1,2})\\.(\\d{1,2})現在"
+  },
+  "minFacilities": 15,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。"
+  ]
+}

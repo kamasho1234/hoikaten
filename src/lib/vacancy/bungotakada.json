@@ -1,0 +1,106 @@
+{
+  "municipalitySlug": "bungotakada",
+  "municipalityName": "豊後高田市",
+  "asOf": "2026-08-31",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "豊後高田市「市内の保育園の空き情報」",
+  "sourceUrl": "https://www.city.bungotakada.oita.jp/site/kosodate-kyoiku/1546.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.bungotakada.oita.jp/site/kosodate-kyoiku/1546.html"
+  },
+  "metrics": [
+    "vacancy"
+  ],
+  "notes": [
+    "市は表に基準日を書いていないため、掲載ページの更新日を基準日にしています。",
+    "「若干名」と公表されている枠は人数が確定していないため、数には含めていません。"
+  ],
+  "wards": [],
+  "categories": [],
+  "facilities": [
+    {
+      "id": "城台保育園",
+      "name": "城台保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "和光保育園",
+      "name": "和光保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        3,
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "封戸保育園",
+      "name": "封戸保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        7,
+        4,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "河内保育園",
+      "name": "河内保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "真玉保育園",
+      "name": "真玉保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        2,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "さわらび保育園",
+      "name": "さわらび保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}

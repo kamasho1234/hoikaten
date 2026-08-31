@@ -1556,6 +1556,72 @@ const EXPECTED: Record<
     facilityCount: 28,
     vacancy: 61,
   },
+  kai: {
+    asOf: "2026-08-20",
+    facilityCount: 26,
+    vacancy: 21,
+  },
+  nikko: {
+    asOf: "2026-08-20",
+    facilityCount: 21,
+    vacancy: 0,
+    symbolCounts: { "×": 50, "☆": 44, "○": 21, "△": 5 },
+  },
+  namegawa: {
+    asOf: "2026-09-01",
+    facilityCount: 8,
+    vacancy: 0,
+    symbolCounts: { "×": 33, "△": 8, "○": 7 },
+  },
+  atsuma: {
+    asOf: "2026-08-24",
+    facilityCount: 2,
+    vacancy: 0,
+    symbolCounts: { "○": 5, "△": 5, "×": 2 },
+  },
+  shiraoi: {
+    asOf: "2026-08-01",
+    facilityCount: 5,
+    vacancy: 0,
+    symbolCounts: { "○": 22, "×": 8 },
+  },
+  yorii: {
+    asOf: "2026-08-04",
+    facilityCount: 8,
+    vacancy: 37,
+  },
+  saiki: {
+    asOf: "2026-08-28",
+    facilityCount: 36,
+    vacancy: 0,
+    symbolCounts: { "○": 121, "×": 43 },
+  },
+  tadaoka: {
+    asOf: "2026-08-01",
+    facilityCount: 4,
+    vacancy: 0,
+    symbolCounts: { "×": 10, "○": 7, "△": 4 },
+  },
+  tome: {
+    asOf: "2026-08-18",
+    facilityCount: 34,
+    vacancy: 189,
+  },
+  shimamoto: {
+    asOf: "2026-07-14",
+    facilityCount: 13,
+    vacancy: 58,
+  },
+  bungotakada: {
+    asOf: "2026-08-31",
+    facilityCount: 6,
+    vacancy: 30,
+  },
+  takahata: {
+    asOf: "2026-09-01",
+    facilityCount: 8,
+    vacancy: 39,
+  },
   akaiwa: {
     asOf: "2026-08-17",
     facilityCount: 15,

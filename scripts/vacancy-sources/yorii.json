@@ -1,0 +1,34 @@
+{
+  "slug": "yorii",
+  "name": "寄居町",
+  "sourceName": "寄居町「保育所（園）等 受入可能状況」",
+  "indexUrl": "https://www.town.yorii.saitama.jp/soshiki/07/ukeiremikomi.html",
+  "layout": "html-tables",
+  "columns": {
+    "name": 1,
+    "category": 0
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "vacancy"
+  ],
+  "noClassMarks": [
+    "‐",
+    "-",
+    "―",
+    "－",
+    "ー",
+    "/",
+    "／",
+    ""
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "更新日：(20\\d{2})年(\\d{1,2})月(\\d{1,2})日"
+  },
+  "minFacilities": 6,
+  "notes": [
+    "町は表に基準日を書いていないため、掲載ページの更新日を基準日にしています。",
+    "受入可能人数であり、空きがあっても必ず入所できるとは限りません。"
+  ]
+}

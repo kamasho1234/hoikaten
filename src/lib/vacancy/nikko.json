@@ -1,0 +1,516 @@
+{
+  "municipalitySlug": "nikko",
+  "municipalityName": "日光市",
+  "asOf": "2026-08-20",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "日光市「利用調整後の空き状況」",
+  "sourceUrl": "https://www.city.nikko.lg.jp/kosodate_kyoiku/hoikuen_yochien/10/7309.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.nikko.lg.jp/material/files/group/22/akijoukyou.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "空き状況は公表時点の目安で、保育士の配置や施設の状況によって変わることがあります。",
+    "空きがない表記でも審査時に変動することがあるため、希望する施設は見学のうえすべて記載するよう市が案内しています。",
+    "市は表に基準日を書いていないため、掲載ページの更新日を基準日にしています。",
+    "みらいのきの0歳児クラスは、12か月を経過した翌月からの受け入れと市が案内しています。",
+    "認可外保育施設は利用調整を各園が行うため、申請先が市ではなく園になります。"
+  ],
+  "wards": [],
+  "categories": [
+    "幼保連携型認定こども園",
+    "保育所",
+    "小規模保育事業所",
+    "認可外保育所",
+    "企業主導型保育所"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "受入の可能性があります（3名以上）",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "若干の受入の可能性があります（1〜2名）",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "受入がありません（0名）",
+      "open": false
+    },
+    {
+      "mark": "☆",
+      "label": "ご相談ください",
+      "open": true
+    }
+  ],
+  "facilities": [
+    {
+      "id": "認定こども園今市中央幼稚園",
+      "name": "認定こども園今市中央幼稚園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        "×",
+        "☆",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "認定こども園長畑幼稚園",
+      "name": "認定こども園長畑幼稚園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "☆",
+        "☆",
+        "☆"
+      ]
+    },
+    {
+      "id": "認定こども園聖ヨゼフ幼稚園",
+      "name": "認定こども園聖ヨゼフ幼稚園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        "△",
+        "△",
+        "☆"
+      ]
+    },
+    {
+      "id": "認定こども園今市幼稚園",
+      "name": "認定こども園今市幼稚園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "☆",
+        "☆",
+        "☆"
+      ]
+    },
+    {
+      "id": "並木保育園",
+      "name": "並木保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "☆",
+        "☆"
+      ]
+    },
+    {
+      "id": "おひさま保育園",
+      "name": "おひさま保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "大沢保育園",
+      "name": "大沢保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "芹沼保育園",
+      "name": "芹沼保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        "☆",
+        "☆",
+        "☆",
+        "☆"
+      ]
+    },
+    {
+      "id": "さかえ保育園",
+      "name": "さかえ保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        "○",
+        "☆",
+        "○",
+        "☆"
+      ]
+    },
+    {
+      "id": "明神保育園",
+      "name": "明神保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "☆",
+        "☆",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "宝珠保育園",
+      "name": "宝珠保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "杉の子保育園",
+      "name": "杉の子保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "もりとも保育園",
+      "name": "もりとも保育園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "認定こども園清滝幼稚園",
+      "name": "認定こども園清滝幼稚園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "☆",
+        "×",
+        "△",
+        "△",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "日光保育園",
+      "name": "日光保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "☆",
+        "☆",
+        "☆",
+        "☆",
+        "☆",
+        "☆"
+      ]
+    },
+    {
+      "id": "所野保育園",
+      "name": "所野保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "☆",
+        "☆",
+        "☆",
+        "☆",
+        "☆",
+        "☆"
+      ]
+    },
+    {
+      "id": "中宮祠保育園",
+      "name": "中宮祠保育園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "☆",
+        "☆",
+        "☆",
+        "☆",
+        "☆",
+        "☆"
+      ]
+    },
+    {
+      "id": "清流保育園",
+      "name": "清流保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        "○",
+        "○",
+        "☆",
+        "☆"
+      ]
+    },
+    {
+      "id": "すくやか保育園",
+      "name": "すくやか保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "☆",
+        "☆",
+        "☆",
+        "☆",
+        "☆",
+        "×"
+      ]
+    },
+    {
+      "id": "きらきら保育園",
+      "name": "きらきら保育園",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        "○",
+        "○",
+        "○",
+        "×"
+      ]
+    },
+    {
+      "id": "みらいのき",
+      "name": "みらいのき",
+      "w": null,
+      "c": 4,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        "○",
+        "○",
+        null,
+        null
+      ]
+    }
+  ]
+}
