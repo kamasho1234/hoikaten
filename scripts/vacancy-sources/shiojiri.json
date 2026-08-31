@@ -1,0 +1,41 @@
+{
+  "slug": "shiojiri",
+  "name": "塩尻市",
+  "sourceName": "塩尻市「途中入園空き状況一覧表」",
+  "indexUrl": "https://www.city.shiojiri.lg.jp/soshiki/40/53814.html",
+  "pdf": {
+    "linkPattern": "空き状況"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 1
+  },
+  "categoryFrom": "none",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○",
+    "◯": "○"
+  },
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "空きあり",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "令和(\\d+)年\\d{1,2}月途中入所[\\s\\S]{0,30}?(\\d{1,2})/(\\d{1,2})\\s*時点"
+  },
+  "minFacilities": 18,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。"
+  ]
+}

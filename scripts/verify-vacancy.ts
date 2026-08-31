@@ -1612,11 +1612,6 @@ const EXPECTED: Record<
     facilityCount: 13,
     vacancy: 58,
   },
-  bungotakada: {
-    asOf: "2026-08-31",
-    facilityCount: 6,
-    vacancy: 30,
-  },
   takahata: {
     asOf: "2026-09-01",
     facilityCount: 8,
@@ -1684,6 +1679,42 @@ const EXPECTED: Record<
     facilityCount: 28,
     vacancy: 0,
     symbolCounts: { "×": 137 },
+  },
+  tamura: {
+    asOf: "2026-08-03",
+    facilityCount: 10,
+    vacancy: 0,
+    symbolCounts: { "×": 22, "△": 9, "○": 5 },
+  },
+  sukagawa: {
+    asOf: "2026-08-17",
+    facilityCount: 26,
+    vacancy: 0,
+    symbolCounts: { "×": 104, "△": 50, "○": 2 },
+  },
+  sakuragawa: {
+    asOf: "2026-08-31",
+    facilityCount: 7,
+    vacancy: 0,
+    symbolCounts: { "×": 23, "△": 16 },
+  },
+  shiojiri: {
+    asOf: "2026-08-24",
+    facilityCount: 23,
+    vacancy: 0,
+    symbolCounts: { "×": 65, "○": 53 },
+  },
+  misawa: {
+    asOf: "2026-08-21",
+    facilityCount: 20,
+    vacancy: 0,
+    symbolCounts: { "×": 55, "△": 39, "○": 20 },
+  },
+  towada: {
+    asOf: "2026-08-28",
+    facilityCount: 26,
+    vacancy: 0,
+    symbolCounts: { "○": 103, "－": 43, "△": 10 },
   },
   akaiwa: {
     asOf: "2026-08-17",

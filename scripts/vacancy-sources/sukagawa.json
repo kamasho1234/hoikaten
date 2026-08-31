@@ -1,0 +1,62 @@
+{
+  "slug": "sukagawa",
+  "name": "須賀川市",
+  "sourceName": "須賀川市「入所選考前空き状況」",
+  "indexUrl": "https://www.city.sukagawa.fukushima.jp/kosodate_kyoiku/ikuji/hoiku-yochien/3/1015357.html",
+  "pdf": {
+    "linkPattern": "空き状況"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 1,
+    "category": 0,
+    "ages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○",
+    "◯": "○"
+  },
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "5名以上空きあり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1〜4名空きあり",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "(20\\d{2})年(\\d{1,2})月(\\d{1,2})日"
+  },
+  "minFacilities": 20,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "空きのない年齢は記号を付けずに空欄で公表されているため、当サイトでは「×（空きなし）」として表示しています。",
+    "入所選考前の時点の空き状況です。クラス年齢は4月1日時点のものです。",
+    "市は表に基準日を書いていないため、掲載ページの更新日を基準日にしています。"
+  ],
+  "emptyMark": "×",
+  "skipRowsContaining": [
+    "施設名"
+  ]
+}

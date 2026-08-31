@@ -308,6 +308,12 @@ import futtsuVacancy from "./futtsu.json";
 import fuchuHiroshimaVacancy from "./fuchu-hiroshima.json";
 import akaiwaVacancy from "./akaiwa.json";
 import azuminoVacancy from "./azumino.json";
+import towadaVacancy from "./towada.json";
+import misawaVacancy from "./misawa.json";
+import shiojiriVacancy from "./shiojiri.json";
+import sakuragawaVacancy from "./sakuragawa.json";
+import sukagawaVacancy from "./sukagawa.json";
+import tamuraVacancy from "./tamura.json";
 import rittoVacancy from "./ritto.json";
 import nishiharaOkinawaVacancy from "./nishihara-okinawa.json";
 import yaeseVacancy from "./yaese.json";
@@ -320,7 +326,6 @@ import kaitaVacancy from "./kaita.json";
 import fuchuHiroshimaCityVacancy from "./fuchu-hiroshima-city.json";
 import shiwaVacancy from "./shiwa.json";
 import takahataVacancy from "./takahata.json";
-import bungotakadaVacancy from "./bungotakada.json";
 import shimamotoVacancy from "./shimamoto.json";
 import tomeVacancy from "./tome.json";
 import tadaokaVacancy from "./tadaoka.json";
@@ -680,6 +685,12 @@ const registry: Record<string, VacancyDataset> = {
   "fuchu-hiroshima": fuchuHiroshimaVacancy as unknown as VacancyDataset,
   akaiwa: akaiwaVacancy as unknown as VacancyDataset,
   azumino: azuminoVacancy as unknown as VacancyDataset,
+  towada: towadaVacancy as unknown as VacancyDataset,
+  misawa: misawaVacancy as unknown as VacancyDataset,
+  shiojiri: shiojiriVacancy as unknown as VacancyDataset,
+  sakuragawa: sakuragawaVacancy as unknown as VacancyDataset,
+  sukagawa: sukagawaVacancy as unknown as VacancyDataset,
+  tamura: tamuraVacancy as unknown as VacancyDataset,
   ritto: rittoVacancy as unknown as VacancyDataset,
   "nishihara-okinawa": nishiharaOkinawaVacancy as unknown as VacancyDataset,
   yaese: yaeseVacancy as unknown as VacancyDataset,
@@ -692,7 +703,6 @@ const registry: Record<string, VacancyDataset> = {
   "fuchu-hiroshima-city": fuchuHiroshimaCityVacancy as unknown as VacancyDataset,
   shiwa: shiwaVacancy as unknown as VacancyDataset,
   takahata: takahataVacancy as unknown as VacancyDataset,
-  bungotakada: bungotakadaVacancy as unknown as VacancyDataset,
   shimamoto: shimamotoVacancy as unknown as VacancyDataset,
   tome: tomeVacancy as unknown as VacancyDataset,
   tadaoka: tadaokaVacancy as unknown as VacancyDataset,

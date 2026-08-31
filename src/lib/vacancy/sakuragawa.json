@@ -1,0 +1,196 @@
+{
+  "municipalitySlug": "sakuragawa",
+  "municipalityName": "桜川市",
+  "asOf": "2026-08-31",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "桜川市「市内保育施設の空き状況」",
+  "sourceUrl": "https://www.city.sakuragawa.lg.jp/kosodate_kyouiku/news/page009223.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.sakuragawa.lg.jp/kosodate_kyouiku/news/page009223.html"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "児童の年齢は4月1日時点のものです。"
+  ],
+  "wards": [],
+  "categories": [
+    "公立",
+    "私立"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "空きあり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "空きわずか",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "やまと認定こども園",
+      "name": "やまと認定こども園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "△",
+        "×",
+        "×",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "認定こども園真壁保育園",
+      "name": "認定こども園真壁保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "△",
+        "△",
+        "△",
+        "×"
+      ]
+    },
+    {
+      "id": "認定こども園ひなの里幼稚園",
+      "name": "認定こども園ひなの里幼稚園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "△",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "岩瀬認定こども園",
+      "name": "岩瀬認定こども園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "△",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "岩瀬東部認定こども園",
+      "name": "岩瀬東部認定こども園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "星の宮幼保園",
+      "name": "星の宮幼保園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "△",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "星の子ランド保育園",
+      "name": "星の子ランド保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "△",
+        "×",
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "misawa",
+  "name": "三沢市",
+  "sourceName": "三沢市「保育施設の空き状況一覧」",
+  "indexUrl": "https://www.city.misawa.lg.jp/index.cfm/21,60957,106,110,html",
+  "pdf": {
+    "linkPattern": "空き状況"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 1,
+    "category": 0
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○",
+    "◯": "○",
+    "✕": "×"
+  },
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "3名以上空きあり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1〜2名空きあり",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "令和(\\d+)年(\\d{1,2})月(\\d{1,2})日現在"
+  },
+  "minFacilities": 15,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "入所調整後の空き状況です。"
+  ]
+}

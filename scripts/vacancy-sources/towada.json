@@ -1,0 +1,51 @@
+{
+  "slug": "towada",
+  "name": "十和田市",
+  "sourceName": "十和田市「保育施設空き状況一覧」",
+  "indexUrl": "https://www.city.towada.lg.jp/fukushi/kosodate/jidou/hoiku_riyou.html",
+  "pdf": {
+    "linkPattern": "空き状況"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 2,
+    "category": 0
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○",
+    "◯": "○",
+    "-": "－",
+    "‐": "－",
+    "―": "－"
+  },
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "受け入れ可能",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "要問い合わせ",
+      "open": true
+    },
+    {
+      "mark": "－",
+      "label": "受け入れ不可",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "R(\\d+)\\.(\\d{1,2})\\.(\\d{1,2})時点"
+  },
+  "minFacilities": 20,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。"
+  ],
+  "noClassMarks": []
+}

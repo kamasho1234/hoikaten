@@ -1,0 +1,53 @@
+{
+  "slug": "sakuragawa",
+  "name": "桜川市",
+  "sourceName": "桜川市「市内保育施設の空き状況」",
+  "indexUrl": "https://www.city.sakuragawa.lg.jp/kosodate_kyouiku/news/page009223.html",
+  "layout": "html-tables",
+  "columns": {
+    "name": 1,
+    "category": 0
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○",
+    "◯": "○"
+  },
+  "noClassMarks": [
+    "ー",
+    "－",
+    "-",
+    "―",
+    "‐",
+    ""
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "空きあり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "空きわずか",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "（令和(\\d+)年(\\d{1,2})月(\\d{1,2})日時点"
+  },
+  "minFacilities": 5,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "児童の年齢は4月1日時点のものです。"
+  ]
+}
