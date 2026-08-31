@@ -1,0 +1,56 @@
+{
+  "slug": "kyotanabe",
+  "name": "京田辺市",
+  "sourceName": "京田辺市「保育所等入所（転所）調整結果」",
+  "indexUrl": "https://www.city.kyotanabe.lg.jp/kosodate/0000023461.html",
+  "pdf": {
+    "linkPattern": "tyousei|調整結果",
+    "pick": "last"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 1,
+    "category": 0,
+    "ages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "rowLabel": {
+    "column": 2,
+    "value": "新規受入可能枠"
+  },
+  "categoryFrom": "row",
+  "skipRowsContaining": [
+    "計",
+    "合計"
+  ],
+  "metrics": [
+    "vacancy"
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "\\[(20\\d{2})年(\\d{1,2})月(\\d{1,2})日\\]"
+  },
+  "minFacilities": 12,
+  "notes": [
+    "市が公表しているのは入所調整の結果です。当サイトは「新規受入可能枠」の行を取り込んでいます。",
+    "市は「入所調整当初の結果であり、その後の辞退等については一切反映していません」「保育士の配置の関係等から、今回の調整で空枠が生じている施設であっても次月調整時に必ずしも同様の受入枠があるとは限りません」としています。",
+    "公式のPDFは「令和8年9月保育所等入所調整結果」と月までしか書いていないため、当サイトはページの更新日を時点として扱っています。"
+  ],
+  "nameHeaders": [
+    "施設",
+    "施設名",
+    "園名",
+    "保育所名",
+    "保育施設名",
+    "保育園名"
+  ],
+  "categoryMap": {
+    "地区": ""
+  }
+}

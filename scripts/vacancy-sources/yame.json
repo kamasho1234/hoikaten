@@ -1,0 +1,66 @@
+{
+  "slug": "yame",
+  "name": "八女市",
+  "sourceName": "八女市「保育所・認定こども園（保育部）空き状況」",
+  "indexUrl": "https://www.city.yame.fukuoka.jp/kosodate/5/1/1591928207721.html",
+  "pdf": {
+    "linkPattern": "akijoukyou|空き状況"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 1,
+    "category": 0,
+    "ages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  "categoryFrom": "row",
+  "categoryTrim": [
+    "[\\s/]"
+  ],
+  "skipRowsContaining": [
+    "施設名",
+    "入所可能児童数"
+  ],
+  "metrics": [
+    "symbol"
+  ],
+  "emptyMark": "×",
+  "symbolMap": {
+    "〇": "○"
+  },
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "3人以上空きあり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1〜2人空きあり",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空き無し",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "(令和\\d+年\\d{1,2}月\\d{1,2}日)現在"
+  },
+  "minFacilities": 20,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "公式の表では空きが無い欄を空白にしています。当サイトでは「×」に置き換えて表示しています（市の凡例に「空き無し」「受入無し」の区別がありますが、記号が付いていないため一括して×としています）。",
+    "市は「入所可能児童数は更新日時点のものです。保育士等の職員配置状況により、変更となる場合があります」としています。",
+    "公式の表で「施設にお尋ねください」と書かれている施設（幼稚園部分）は、当サイトの一覧から外しています。"
+  ],
+  "skipRowsMatching": "施設にお尋ねください"
+}

@@ -1510,6 +1510,19 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "×": 39, "○": 35 },
   },
+  yame: {
+    asOf: "2026-08-04",
+    facilityCount: 23,
+    vacancy: 0,
+    symbolCounts: { "×": 67, "△": 53, "○": 18 },
+  },
+
+  kyotanabe: {
+    asOf: "2026-09-01",
+    facilityCount: 14,
+    vacancy: 21,
+  },
+
   akaiwa: {
     asOf: "2026-08-17",
     facilityCount: 15,
