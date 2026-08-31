@@ -425,3 +425,7 @@ import "./city-tsuyama";
 import "./city-hamamatsu";
 import "./city-komae";
 import "./city-akiruno";
+import "./city-itoman";
+import "./city-minokamo";
+import "./city-ono";
+import "./city-akaiwa";
