@@ -1,0 +1,436 @@
+{
+  "municipalitySlug": "dazaifu",
+  "municipalityName": "太宰府市",
+  "asOf": "2026-08-03",
+  "fetchedAt": "2026-08-31",
+  "sourceName": "太宰府市「市内認可保育施設 受入可能枠一覧」",
+  "sourceUrl": "https://www.city.dazaifu.lg.jp/soshiki/16/46644.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.dazaifu.lg.jp/soshiki/16/46644.html"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "市は受入可能枠を記号で公表しているため、当サイトも記号のまま載せています。",
+    "公式の表では空きなしを空白で表しています。当サイトでは「×」に置き換えて表示しています（市の凡例に「空白：空きなし」と明記されています）。",
+    "市は「今後の園状況（職員配置状況等）や入退所により変更となる場合があります。また、空きがある場合でも、入所を確約できるものではありません」としています。"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "まだ空きがあります（3名以上）",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "あとわずかに空きがあります",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "ごじょう保育所",
+      "name": "ごじょう保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "△"
+      ]
+    },
+    {
+      "id": "南保育所",
+      "name": "南保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "保育所太宰府園",
+      "name": "保育所太宰府園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "星ヶ丘保育園",
+      "name": "星ヶ丘保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "筑紫保育園",
+      "name": "筑紫保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "おおざの保育園",
+      "name": "おおざの保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "都府楼保育園",
+      "name": "都府楼保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "こくぶ保育園",
+      "name": "こくぶ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "ゆたか保育園",
+      "name": "ゆたか保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "水城青稜保育園",
+      "name": "水城青稜保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "太宰府くじら保育園",
+      "name": "太宰府くじら保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "水城保育園",
+      "name": "水城保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "水城幼稚園",
+      "name": "水城幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        "×",
+        "○",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "都府楼少子部幼稚園",
+      "name": "都府楼少子部幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        null,
+        "×",
+        "△",
+        "×"
+      ]
+    },
+    {
+      "id": "すずらん保育園",
+      "name": "すずらん保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "ゆたかSecond保育園",
+      "name": "ゆたかSecond保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "梅の香保育園",
+      "name": "梅の香保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "五条くじら小規模保育園",
+      "name": "五条くじら小規模保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+}

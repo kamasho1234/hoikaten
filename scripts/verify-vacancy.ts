@@ -1423,6 +1423,24 @@ const EXPECTED: Record<
     facilityCount: 20,
     vacancy: 178,
   },
+  chitose: {
+    asOf: "2026-08-27",
+    facilityCount: 34,
+    vacancy: 0,
+    symbolCounts: { "×": 122, "△": 14, "○": 10 },
+  },
+
+  dazaifu: {
+    asOf: "2026-08-03",
+    facilityCount: 18,
+    vacancy: 0,
+    symbolCounts: { "×": 88, "△": 2, "○": 1 },
+  },
+  mizuho: {
+    asOf: "2026-08-01",
+    facilityCount: 12,
+    vacancy: 69,
+  },
   akaiwa: {
     asOf: "2026-08-17",
     facilityCount: 15,

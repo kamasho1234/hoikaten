@@ -1,0 +1,39 @@
+{
+  "slug": "mizuho",
+  "name": "瑞穂町",
+  "sourceName": "瑞穂町「保育園の空き状況」",
+  "indexUrl": "https://www.town.mizuho.tokyo.jp/kosodate/004/001/p011207.html",
+  "layout": "html-tables",
+  "columns": {
+    "name": 0
+  },
+  "categoryFrom": "none",
+  "metrics": [
+    "vacancy"
+  ],
+  "nameTrim": [
+    "（外部リンク）",
+    "※.*$"
+  ],
+  "noClassMarks": [
+    "なし",
+    "-",
+    "‐",
+    "―",
+    "－",
+    "ー",
+    "/",
+    "／",
+    ""
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "空き状況（(令和\\d+年\\d{1,2}月\\d{1,2}日)時点）"
+  },
+  "minFacilities": 10,
+  "notes": [
+    "各クラス（年齢）の数字は、ページの更新日時点で各園が受け入れ可能としている数です。",
+    "クラスは令和8年4月1日現在の年齢です。",
+    "「なし」と書かれているクラスは受け入れがないことを示します。"
+  ]
+}

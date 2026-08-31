@@ -1,0 +1,45 @@
+{
+  "slug": "dazaifu",
+  "name": "太宰府市",
+  "sourceName": "太宰府市「市内認可保育施設 受入可能枠一覧」",
+  "indexUrl": "https://www.city.dazaifu.lg.jp/soshiki/16/46644.html",
+  "layout": "html-tables",
+  "columns": {
+    "name": 0
+  },
+  "categoryFrom": "none",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○"
+  },
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "まだ空きがあります（3名以上）",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "あとわずかに空きがあります",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "（(令和\\d+年\\d{1,2}月\\d{1,2}日)時点）"
+  },
+  "minFacilities": 15,
+  "notes": [
+    "市は受入可能枠を記号で公表しているため、当サイトも記号のまま載せています。",
+    "公式の表では空きなしを空白で表しています。当サイトでは「×」に置き換えて表示しています（市の凡例に「空白：空きなし」と明記されています）。",
+    "市は「今後の園状況（職員配置状況等）や入退所により変更となる場合があります。また、空きがある場合でも、入所を確約できるものではありません」としています。"
+  ],
+  "emptyMark": "×"
+}
