@@ -1,0 +1,263 @@
+{
+  "municipalitySlug": "katsuragi",
+  "municipalityName": "葛城市",
+  "asOf": "2026-08-06",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "葛城市「各保育施設の空き状況」",
+  "sourceUrl": "https://www.city.katsuragi.nara.jp/kosodate_kyoiku/5/9887.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.katsuragi.nara.jp/kosodate_kyoiku/5/9887.html"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "市は空きを人数ではなく「数名」「若干名」「なし」の言葉で公表しています。当サイトでは順に○・△・×で表しています。",
+    "年度途中入所の空き状況です。"
+  ],
+  "wards": [],
+  "categories": [
+    "保育所",
+    "認定こども園",
+    "小規模保育所"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "数名",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "若干名",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "なし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "磐城第2保育所",
+      "name": "磐城第2保育所",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "△"
+      ]
+    },
+    {
+      "id": "當麻第1保育所",
+      "name": "當麻第1保育所",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "×",
+        "×",
+        "△",
+        "△",
+        "○"
+      ]
+    },
+    {
+      "id": "磐城認定こども園",
+      "name": "磐城認定こども園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "浄正院保育園",
+      "name": "浄正院保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "はじかみ保育園",
+      "name": "はじかみ保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "アートチャイルドケア奈良葛城保育園",
+      "name": "アートチャイルドケア奈良葛城保育園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "新庄せいかナーサリー",
+      "name": "新庄せいかナーサリー",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "奈良文化幼稚園",
+      "name": "奈良文化幼稚園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "當麻せいか子ども園",
+      "name": "當麻せいか子ども園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "×",
+        "×",
+        "△",
+        "△",
+        "×"
+      ]
+    },
+    {
+      "id": "華表こども園",
+      "name": "華表こども園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    }
+  ]
+}

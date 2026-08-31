@@ -1822,6 +1822,12 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "○": 27, "△": 15, "×": 3 },
   },
+  katsuragi: {
+    asOf: "2026-08-06",
+    facilityCount: 10,
+    vacancy: 0,
+    symbolCounts: { "×": 45, "△": 8, "○": 1 },
+  },
   akaiwa: {
     asOf: "2026-08-17",
     facilityCount: 15,

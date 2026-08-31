@@ -1,0 +1,54 @@
+{
+  "slug": "katsuragi",
+  "name": "葛城市",
+  "sourceName": "葛城市「各保育施設の空き状況」",
+  "indexUrl": "https://www.city.katsuragi.nara.jp/kosodate_kyoiku/5/9887.html",
+  "layout": "html-tables",
+  "columns": {
+    "name": 2,
+    "category": 1
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "なし": "×",
+    "若干名": "△",
+    "数名": "○"
+  },
+  "noClassMarks": [
+    "―",
+    "－",
+    "-",
+    "‐",
+    "ー",
+    ""
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "数名",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "若干名",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "なし",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "空き状況\\(令和(\\d+)年(\\d{1,2})月(\\d{1,2})日時点"
+  },
+  "minFacilities": 8,
+  "notes": [
+    "市は空きを人数ではなく「数名」「若干名」「なし」の言葉で公表しています。当サイトでは順に○・△・×で表しています。",
+    "年度途中入所の空き状況です。"
+  ]
+}
