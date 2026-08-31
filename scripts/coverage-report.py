@@ -47,7 +47,10 @@ def fail(message):
 
 
 def norm(text):
-    return (text or "").translate(VARIANTS)
+    # 同名の市が別の県にもあるとき、データ側の自治体名に「府中市（広島県）」のように
+    # 県名を添えている。突き合わせでは括弧の中を外して比べる
+    text = re.sub(r"[（(][^）)]*[都道府県][）)]$", "", (text or "").strip())
+    return text.translate(VARIANTS)
 
 
 def fetch(url):
