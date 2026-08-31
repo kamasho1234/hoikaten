@@ -458,16 +458,72 @@
       "name": "栃木県佐野市",
       "source": "https://www.city.sano.lg.jp/material/files/group/42/R8-Kijyun.pdf",
       "note": "認定調書評点基準表（R8）。基準指数は父母各17点。区分5の施設等付き添い・区分8就学等は区分1（就労）を準用するため就労と同じ選択肢の質問として実装"
-    }
-  ],
-  "failed": [
+    },
+    {
+      "slug": "nasushiobara",
+      "name": "栃木県那須塩原市",
+      "source": "那須塩原市「保育所等利用ガイドブック」P.12「11.那須塩原市の…入園選考基準」",
+      "note": "父母各10点。2026-08-19はドメイン移行で取得できずfailedだった",
+      "fixedAt": "2026-08-31"
+    },
     {
       "slug": "yao",
       "name": "大阪府八尾市",
-      "reason": "選考基準がCanvaのスライド（外部リンク）でのみ公開されており、PDFやHTMLの表が無い",
-      "checkedAt": "2026-08-19",
-      "url": "https://www.city.yao.osaka.jp/kosodate_kyouiku/ninteikodomoen_hoikusho/1003996/1020314.html"
+      "source": "八尾市「令和8年度 保育利用あんない」pp.11-13",
+      "note": "https://www.city.yao.osaka.jp/_res/projects/default_project/_page_/001/020/314/508riyouannnai.pdf 父母の低い方を採用するため scoringMethod: 'min'",
+      "fixedAt": "2026-08-31"
     },
+    {
+      "slug": "toyoake",
+      "name": "愛知県豊明市",
+      "source": "豊明市「保育所等利用案内（令和8年度）」P.10 利用調整指数表",
+      "note": "https://www.city.toyoake.lg.jp/secure/31448/R8riyouannnai.pdf 指数表が画像のため190dpiで画像化して読取",
+      "fixedAt": "2026-08-31"
+    },
+    {
+      "slug": "owariasahi",
+      "name": "愛知県尾張旭市",
+      "source": "尾張旭市「教育・保育施設及び地域型保育事業に係る利用調整基準」",
+      "note": "https://www.city.owariasahi.lg.jp/uploaded/attachment/35434.pdf 父母各10点",
+      "fixedAt": "2026-08-31"
+    },
+    {
+      "slug": "moriguchi",
+      "name": "大阪府守口市",
+      "source": "守口市「利用調整基準表（守口市保育所等の利用調整に関する要綱から抜粋）」",
+      "note": "https://www.city.moriguchi.osaka.jp/material/files/group/4/riyoutyouseikizyunnhyou.pdf 父母各120点",
+      "fixedAt": "2026-08-31"
+    },
+    {
+      "slug": "gyoda",
+      "name": "埼玉県行田市",
+      "source": "行田市「行田市保育所等利用調整基準表」別表第1〜第3",
+      "note": "https://www.city.gyoda.lg.jp/material/files/group/22/hoiku_kijun.pdf 父母各20点",
+      "fixedAt": "2026-08-31"
+    },
+    {
+      "slug": "sakata",
+      "name": "山形県酒田市",
+      "source": "酒田市例規集「酒田市保育の利用に関する規則」別表第1〜第3（令和8年1月1日施行）",
+      "note": "https://www1.g-reiki.net/city.sakata/reiki_honbun/c405RG00000782.html 市の案内ページに指数表がなく規則が原典",
+      "fixedAt": "2026-08-31"
+    },
+    {
+      "slug": "izumi",
+      "name": "大阪府和泉市",
+      "source": "和泉市「保育所等入所判定指数表」（令和8年度）",
+      "note": "https://www.city.osaka-izumi.lg.jp/material/files/group/36/R8sisuuhyou.pdf 父母各110点",
+      "fixedAt": "2026-08-31"
+    },
+    {
+      "slug": "kakegawa",
+      "name": "静岡県掛川市",
+      "source": "掛川市「令和8年度 保育園等入園案内」P.15-16「令和8年度 掛川市保育所等入所選考基準表」",
+      "note": "https://www.city.kakegawa.shizuoka.jp/fs/6/2/5/7/8/9/_/__8___________.pdf 全ページ画像PDFのため400dpiで画像化して読取",
+      "fixedAt": "2026-08-31"
+    }
+  ],
+  "failed": [
     {
       "slug": "miyakonojo",
       "name": "宮崎県都城市",
@@ -535,12 +591,6 @@
       "checkedAt": "2026-08-19"
     },
     {
-      "slug": "kakegawa",
-      "name": "静岡県掛川市",
-      "reason": "令和8年度保育園等入園案内PDF(24ページ・スキャン画像)は「申請者の就労状況や保育園等の状況などにより利用調整を行います」のみで選考基準表が無い",
-      "checkedAt": "2026-08-19"
-    },
-    {
       "slug": "ichinoseki",
       "name": "岩手県一関市",
       "reason": "令和8年度保育所等入園案内PDF(26ページ)は「申請者の希望や保育所等の状況などを考慮し、年齢ごとに利用調整を行います」のみで指数表が無い",
@@ -598,12 +648,6 @@
       "slug": "konan",
       "name": "愛知県江南市",
       "reason": "市サイトがWAF（Incapsula）でブロックされ、通常のHTTPクライアントからアクセスできない。「保育所等利用調整基準」PDFの存在は検索結果で確認できるが取得不可",
-      "checkedAt": "2026-08-19"
-    },
-    {
-      "slug": "owariasahi",
-      "name": "愛知県尾張旭市",
-      "reason": "利用申込ページが302を返し内容を取得できない。「尾張旭市教育・保育施設及び地域型保育事業に係る利用調整基準」の存在は検索結果で確認できるが取得不可",
       "checkedAt": "2026-08-19"
     },
     {
@@ -667,12 +711,6 @@
       "checkedAt": "2026-08-19"
     },
     {
-      "slug": "toyoake",
-      "name": "愛知県豊明市",
-      "reason": "「豊明市保育所等利用調整指数表（令和8年度）」の存在は確認できるが、市サイトがWAFでブロックされPDFを取得できない",
-      "checkedAt": "2026-08-19"
-    },
-    {
       "slug": "kanoya",
       "name": "鹿児島県鹿屋市",
       "reason": "利用申込みのご案内に利用調整の記載はあるが、指数・点数の基準表が公開されていない",
@@ -721,18 +759,6 @@
       "checkedAt": "2026-08-19"
     },
     {
-      "slug": "izumi",
-      "name": "大阪府和泉市",
-      "reason": "「保育所等入所判定指数表」の存在は確認できるが、PDFのURLが変わっており取得できない（r6/r7/r8いずれも404）",
-      "checkedAt": "2026-08-19"
-    },
-    {
-      "slug": "moriguchi",
-      "name": "大阪府守口市",
-      "reason": "「利用調整基準表」の存在は確認できるが、入園案内ページにPDFへの直リンクがなく取得できない",
-      "checkedAt": "2026-08-19"
-    },
-    {
       "slug": "matsubara",
       "name": "大阪府松原市",
       "reason": "保育の利用申込ページに指数・点数の基準表が公開されていない",
@@ -744,19 +770,9 @@
       "reason": "入園のしおり7ページに「長岡市入園選考基準」が載っているが、基準点・調整点の実数値が公開されておらず「高／中／低」の帯表示のみ（https://www.city.nagaoka.niigata.jp/kosodate/cate02/file/nyuen-shiori.pdf）。なお「基準点は父・母・パートナーそれぞれの状況で算出し、どちらかの低い点数を適用」とありmin方式"
     },
     {
-      "slug": "gyoda",
-      "name": "埼玉県行田市",
-      "reason": "「行田市保育所等利用調整基準表」(riyoucyousei0701.pdf)はリンク切れで年度違いのURLも404。令和8年度入所のしおり8ページには優先度の定性的な説明（ひとり親家庭・生活保護世帯など）のみで点数の記載なし"
-    },
-    {
       "slug": "kiryu",
       "name": "群馬県桐生市",
       "reason": "令和8年度入園ガイドブック13ページに「保育の必要指数の高い順に入園を決定」とあるのみで、指数表そのものは非公開（https://www.city.kiryu.lg.jp/_res/projects/default_project/_page_/001/015/792/202604nyuen.pdf）"
-    },
-    {
-      "slug": "nasushiobara",
-      "name": "栃木県那須塩原市",
-      "reason": "保育課の各ページ（新ドメイン city.nasushiobara.tochigi.jp）に指数表・選考基準表のPDFが見当たらず。教育・保育ガイドブックのURLも404"
     },
     {
       "slug": "ishinomaki",
@@ -787,11 +803,6 @@
       "slug": "shibukawa",
       "name": "群馬県渋川市",
       "reason": "しぶかわ子育て応援なび・市サイトともに接続タイムアウトで確認できず。検索結果でも指数表の公開を確認できなかった"
-    },
-    {
-      "slug": "sakata",
-      "name": "山形県酒田市",
-      "reason": "指数表は「酒田市保育の利用に関する規則」別表第1〜3にあるが、例規サイト（jyorei/act/frame/frame110002541.htm 等）が本文を返さずアクセス不可"
     },
     {
       "slug": "fuji",
@@ -901,5 +912,25 @@
     }
   ],
   "lesson2": "auditのテンプレ判定正規表現が「準じ」「標準方式」のみで「準拠」「標準基準」を拾えていなかった。修正後、表記ありが39→44件に増えた（2026-08-19）",
-  "lesson3": "detail質問のidは reason選択肢の値サフィックスと一致させる必要がある（verify-question-integrity.ts が到達不能を検出）。加算方式・減算方式の原典は、組み合わせを合算した選択肢に展開して1問にまとめる"
+  "lesson3": "detail質問のidは reason選択肢の値サフィックスと一致させる必要がある（verify-question-integrity.ts が到達不能を検出）。加算方式・減算方式の原典は、組み合わせを合算した選択肢に展開して1問にまとめる",
+  "notPublished2026_08_31": {
+    "note": "2026-08-31に再調査したが、市が指数表を公開していないため置き換えできなかった自治体",
+    "items": [
+      {
+        "slug": "konan",
+        "name": "愛知県江南市",
+        "reason": "入所基準・退所基準のページに保育を必要とする事由の列挙のみ。入園案内PDFも「利用調整等についてはホームページに掲載」とあるが該当ページがなく、指数表そのものが未公開"
+      },
+      {
+        "slug": "beppu",
+        "name": "大分県別府市",
+        "reason": "令和8年度利用の手引きに「入所基準に基づき保育の必要度の高い児童から順に利用施設を決定します」とあるのみで指数表なし。例規集の「別府市保育の利用に関する規則」にも別表なし"
+      },
+      {
+        "slug": "miyakonojo",
+        "name": "宮崎県都城市",
+        "reason": "保育所等の手続きページに様式PDFと保育料表のみ。例規集の公開URLが見つからず、指数表は未公開"
+      }
+    ]
+  }
 }
