@@ -122,7 +122,10 @@ def load_coverage():
         slug = os.path.basename(p)[:-3]
         if slug == "index":
             continue
-        t = io.open(p, encoding="utf-8").read(4000)
+        # 先頭だけ読むと、出典の指数表を長いコメントで書いた自治体（掛川市など）で
+        # const municipality = {...} がその外に出てしまい name/prefecture を拾えない。
+        # ファイル1本あたり数十KBなので全文読む。
+        t = io.open(p, encoding="utf-8").read()
         n = re.search(r"name:\s*'([^']+)'", t) or re.search(r'name:\s*"([^"]+)"', t)
         pr = re.search(r"prefecture:\s*'([^']+)'", t) or re.search(r'prefecture:\s*"([^"]+)"', t)
         sim[slug] = (n.group(1) if n else "", pr.group(1) if pr else "")
