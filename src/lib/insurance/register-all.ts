@@ -429,3 +429,5 @@ import "./city-itoman";
 import "./city-minokamo";
 import "./city-ono";
 import "./city-akaiwa";
+import "./city-miyoshi-saitama";
+import "./city-rifu";
