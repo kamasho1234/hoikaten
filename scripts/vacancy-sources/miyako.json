@@ -1,0 +1,65 @@
+{
+  "slug": "miyako",
+  "name": "宮古市",
+  "sourceName": "宮古市「保育施設の年齢別空き状況」",
+  "indexUrl": "https://www.city.miyako.iwate.jp/gyosei/soshiki/kodomokatei_center/3/4_1/10552.html",
+  "layout": "html-tables",
+  "columns": {
+    "name": 1,
+    "category": 0
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○",
+    "◯": "○"
+  },
+  "noClassMarks": [
+    "-",
+    "‐",
+    "―",
+    "－",
+    "ー",
+    ""
+  ],
+  "symbolLegend": [
+    {
+      "mark": "◎",
+      "label": "受入可（5人以上）",
+      "open": true
+    },
+    {
+      "mark": "○",
+      "label": "受入可（3〜4人）",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "受入可（2人以下）",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "受入不可",
+      "open": false
+    },
+    {
+      "mark": "※",
+      "label": "こども家庭センターへ問い合わせ",
+      "open": true
+    }
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "令和(\\d+)年(\\d{1,2})月(\\d{1,2})日現在"
+  },
+  "minFacilities": 20,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "「◎」「○」「△」でも、施設の状況により入所できない場合があると市が案内しています。",
+    "「-」は受入対象外の年齢です。",
+    "小国保育所（川井地区の方のみ）の利用を希望する場合は、こども家庭センターへ問い合わせるよう市が案内しています。"
+  ]
+}

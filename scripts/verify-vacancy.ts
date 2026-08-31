@@ -1716,6 +1716,30 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "○": 103, "－": 43, "△": 10 },
   },
+  tainai: {
+    asOf: "2026-08-01",
+    facilityCount: 10,
+    vacancy: 0,
+    symbolCounts: { "×": 34, "△": 14, "○": 9 },
+  },
+  takanezawa: {
+    asOf: "2026-08-17",
+    facilityCount: 10,
+    vacancy: 0,
+    symbolCounts: { "×": 44, "△": 6, "○": 1 },
+  },
+  miyako: {
+    asOf: "2026-08-01",
+    facilityCount: 29,
+    vacancy: 0,
+    symbolCounts: { "△": 68, "×": 51, "○": 8, "※": 4, "◎": 3 },
+  },
+  kobayashi: {
+    asOf: "2026-09-01",
+    facilityCount: 27,
+    vacancy: 0,
+    symbolCounts: { "△": 80, "○": 46, "×": 23 },
+  },
   akaiwa: {
     asOf: "2026-08-17",
     facilityCount: 15,

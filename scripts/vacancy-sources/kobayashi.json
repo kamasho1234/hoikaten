@@ -1,0 +1,60 @@
+{
+  "slug": "kobayashi",
+  "name": "小林市",
+  "sourceName": "小林市「保育所等の空き状況」",
+  "indexUrl": "https://www.city.kobayashi.lg.jp/kosodate_kyoiku/kosodateshisetsu/3540.html",
+  "pdf": {
+    "linkPattern": "空き状況"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 5,
+    "category": 3,
+    "ages": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "symbol"
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "令和(\\d+)年(\\d{1,2})月(\\d{1,2})日時点"
+  },
+  "minFacilities": 20,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "「○」「△」でも受け入れ状況が変わることがあり、「×」でも退園等により空きが出ることがあると市が案内しています。"
+  ],
+  "symbolMap": {
+    "〇": "○",
+    "◯": "○"
+  },
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "5人以上の空き",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1〜4人の空き",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "skipRowsContaining": [
+    "施設名",
+    "受入可能状況"
+  ]
+}
