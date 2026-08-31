@@ -1,0 +1,50 @@
+{
+  "slug": "yamagata-nagano",
+  "name": "山形村",
+  "sourceName": "山形村「保育園入所案内」",
+  "indexUrl": "https://www.vill.yamagata.nagano.jp/docs/317498.html",
+  "layout": "html-tables",
+  "columns": {
+    "name": 0
+  },
+  "categoryFrom": "none",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○",
+    "◯": "○"
+  },
+  "symbolTrim": [
+    "（6ヶ月～）",
+    "（2ヶ月～）",
+    "（６ヶ月～）",
+    "（２ヶ月～）"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "空きあり（3名以上）",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "空きわずか（1〜2名）",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "令和(\\d+)年(\\d{1,2})月(\\d{1,2})日現在"
+  },
+  "minFacilities": 2,
+  "notes": [
+    "村は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "クラス年齢は4月1日時点のものです。"
+  ]
+}

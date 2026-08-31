@@ -1845,6 +1845,12 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "×": 11, "△": 4, "○": 3 },
   },
+  "yamagata-nagano": {
+    asOf: "2026-08-12",
+    facilityCount: 2,
+    vacancy: 0,
+    symbolCounts: { "△": 6, "○": 5, "×": 1 },
+  },
   akaiwa: {
     asOf: "2026-08-17",
     facilityCount: 15,

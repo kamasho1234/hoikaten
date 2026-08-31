@@ -1,0 +1,83 @@
+{
+  "municipalitySlug": "yamagata-nagano",
+  "municipalityName": "山形村",
+  "asOf": "2026-08-12",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "山形村「保育園入所案内」",
+  "sourceUrl": "https://www.vill.yamagata.nagano.jp/docs/317498.html",
+  "sourceFiles": {
+    "vacancy": "https://www.vill.yamagata.nagano.jp/docs/317498.html"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "村は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "クラス年齢は4月1日時点のものです。"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "空きあり（3名以上）",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "空きわずか（1〜2名）",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "山形保育園/村立",
+      "name": "山形保育園/村立",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "△",
+        "△",
+        "△",
+        "○",
+        "△"
+      ]
+    },
+    {
+      "id": "やまのこ保育園/認可私立",
+      "name": "やまのこ保育園/認可私立",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "○",
+        "○",
+        "○",
+        "○",
+        "△"
+      ]
+    }
+  ]
+}
