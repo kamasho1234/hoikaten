@@ -1441,6 +1441,24 @@ const EXPECTED: Record<
     facilityCount: 12,
     vacancy: 69,
   },
+  itoman: {
+    asOf: "2026-08-20",
+    facilityCount: 49,
+    vacancy: 169,
+  },
+  kuwana: {
+    asOf: "2026-08-31",
+    facilityCount: 29,
+    vacancy: 0,
+    symbolCounts: { "×": 154, "△": 20 },
+  },
+
+  toyoyama: {
+    asOf: "2026-08-20",
+    facilityCount: 3,
+    vacancy: 0,
+    symbolCounts: { "×": 10, "△": 4, "○": 4 },
+  },
   akaiwa: {
     asOf: "2026-08-17",
     facilityCount: 15,

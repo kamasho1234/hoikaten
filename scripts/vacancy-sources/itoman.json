@@ -1,0 +1,40 @@
+{
+  "slug": "itoman",
+  "name": "糸満市",
+  "sourceName": "糸満市「教育・保育施設等の入所調整状況（受入可能枠）」",
+  "indexUrl": "https://www.city.itoman.lg.jp/soshiki/17/34437.html",
+  "pdf": {
+    "linkPattern": "入所各施設受入可能枠",
+    "pick": "last"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 2,
+    "category": 0
+  },
+  "categoryFrom": "row",
+  "requireNameHeader": [
+    ""
+  ],
+  "skipRowsContaining": [
+    "総計",
+    "総 計",
+    "保留の数",
+    "計"
+  ],
+  "metrics": [
+    "vacancy"
+  ],
+  "emptyValue": 0,
+  "asOf": {
+    "source": "pdf",
+    "pattern": "(令和\\d+年\\d{1,2}月\\d{1,2}日)\\s*現在"
+  },
+  "minFacilities": 25,
+  "notes": [
+    "市が公表しているのは入所調整後の各施設の受入可能枠です。",
+    "公式の資料には1号認定（教育施設）の表もありますが、当サイトでは2号・3号（保育）の表を取り込んでいます。",
+    "公式の表で空欄になっているクラスは受入可能枠が0であることを示します（表の合計欄が空欄を0として計算されています）。",
+    "市は入所月ごとのPDFを古い順に並べています。当サイトは最後（最新月）を取り込んでいます。"
+  ]
+}

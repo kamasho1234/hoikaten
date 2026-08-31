@@ -1,0 +1,48 @@
+{
+  "slug": "toyoyama",
+  "name": "豊山町",
+  "sourceName": "豊山町「保育園入所空き状況」",
+  "indexUrl": "https://www.town.toyoyama.lg.jp/kosodate/1004252.html",
+  "pdf": {
+    "linkPattern": "保育園入園状況"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 0
+  },
+  "categoryFrom": "none",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○"
+  },
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "5名以上の空き",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "4名以下の空き",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "更新日\\s*令和(\\d+)年(\\d{1,2})月(\\d{1,2})日"
+  },
+  "minFacilities": 3,
+  "notes": [
+    "町は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "年齢区分は満年齢ではなく令和8年4月1日時点の年齢です。0歳児は満7か月目からの入園となります。",
+    "町は基準日を書いていないため、当サイトはページの更新日を時点として扱っています。",
+    "公式のPDFは「8月17日現在」と書かれていますが年が入っていないため、当サイトはページの更新日を時点として扱っています。"
+  ]
+}

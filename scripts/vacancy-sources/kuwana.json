@@ -1,0 +1,62 @@
+{
+  "slug": "kuwana",
+  "name": "桑名市",
+  "sourceName": "桑名市「保育施設途中入所空き状況」",
+  "indexUrl": "https://www.city.kuwana.lg.jp/hoiku/kosodatekyouiku/kosodate/1-75081.html",
+  "pdf": {
+    "linkPattern": "空き状況"
+  },
+  "layout": "one-table",
+  "columns": {
+    "name": 0,
+    "ages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  "categoryFrom": "none",
+  "metrics": [
+    "symbol"
+  ],
+  "emptyMark": "×",
+  "symbolMap": {
+    "〇": "○"
+  },
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "入所可能",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "若干名の入所可能",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "入所可能人数なし",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "(20\\d{2})年(\\d{1,2})月(\\d{1,2})日"
+  },
+  "minFacilities": 20,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "公式の表で空欄になっているクラスは入所可能人数がないことを示すため、当サイトでは「×」に置き換えて表示しています。",
+    "市は基準日を書いていないため、当サイトはページの更新日を時点として扱っています。"
+  ],
+  "skipRowsContaining": [
+    "0歳児",
+    "１歳児",
+    "1歳児"
+  ],
+  "keepEmptyRows": true
+}

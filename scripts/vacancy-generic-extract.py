@@ -291,6 +291,8 @@ def extract_one_table(pdf, conf):
     no_class = set(conf.get("noClassMarks", ["-", "‐", "―", "－", "ー", "/", "／", "×なし"]))
     unit = conf.get("valueUnit", "")
     as_symbol = "symbol" in conf.get("metrics", ["vacancy"])
+    empty_mark = conf.get("emptyMark")
+    symbol_map = conf.get("symbolMap") or {}
 
     rows = []
     for table in tables_of(pdf, conf.get("tableSettings")):
@@ -315,10 +317,14 @@ def extract_one_table(pdf, conf):
             for c in age_cols:
                 text = cell(raw[c])
                 if as_symbol:
+                    # 「空欄：空きなし」と凡例に書いてある自治体では、空欄をその記号にする。
+                    # auto-table と同じ扱いにそろえる（桑名市など）
+                    if text == "" and empty_mark:
+                        text = empty_mark
                     if text in no_class or text == "":
                         symbols.append(None)
                     else:
-                        symbols.append(text)
+                        symbols.append(symbol_map.get(text, text))
                         ok = True
                     values.append(None)
                 else:
