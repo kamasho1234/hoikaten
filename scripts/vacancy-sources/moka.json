@@ -1,0 +1,59 @@
+{
+  "slug": "moka",
+  "name": "真岡市",
+  "sourceName": "真岡市「市内保育施設等受け入れ可能状況（空き状況）」",
+  "indexUrl": "https://www.city.moka.lg.jp/kosodate_kyoiku/kosodate/hoikusho_yochien/22151.html",
+  "pdf": {
+    "linkPattern": "空き状況"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 0,
+    "ages": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "rowLabel": {
+    "column": 1,
+    "value": ""
+  },
+  "categoryFrom": "none",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○"
+  },
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "5人以上",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "5人未満（ほとんど1人か2人）",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "受け入れ不可",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "(20\\d{2})年(\\d{1,2})月(\\d{1,2})日"
+  },
+  "minFacilities": 7,
+  "notes": [
+    "市は受け入れ可能状況を人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "公式の表は1施設が2行で、上の行が定員（受入可能）、下の行が空き状況の記号です。当サイトは空き状況の行を取り込んでいます。",
+    "市は基準日を書いていないため、当サイトはページの更新日を時点として扱っています。"
+  ]
+}

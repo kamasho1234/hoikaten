@@ -1,0 +1,36 @@
+{
+  "slug": "nagahama",
+  "name": "長浜市",
+  "sourceName": "長浜市「保育所・認定こども園（長時部）募集人数一覧表」",
+  "indexUrl": "https://www.city.nagahama.lg.jp/0000017178.html",
+  "pdf": {
+    "linkPattern": "募集人数一覧表"
+  },
+  "layout": "age-rows",
+  "columns": {
+    "name": 1,
+    "age": 2,
+    "value": 3,
+    "category": 0
+  },
+  "categoryTrim": [
+    "[\\s/]",
+    "（つづき）$",
+    "\\(つづき\\)$"
+  ],
+  "skipRowsContaining": [
+    "年齢"
+  ],
+  "metrics": [
+    "vacancy"
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "\\[更新日：(20\\d{2})年(\\d{1,2})月(\\d{1,2})日\\]"
+  },
+  "minFacilities": 25,
+  "notes": [
+    "市が公表しているのは入所月ごとの募集人数一覧表です。公式の表は月ごとに列が分かれており、当サイトは直近の月（表のいちばん左の列）の人数を載せています。",
+    "市は基準日を書いていないため、当サイトはページの更新日を時点として扱っています。"
+  ]
+}

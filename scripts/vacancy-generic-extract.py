@@ -10,10 +10,11 @@
 同じ形のものに毎回スクリプトを書くと、直すときに全部を直すことになる。
 設定で吸収できる差分は設定に出し、本当に特殊な自治体だけ専用スクリプトを残す。
 
-## 対応している4つの形
+## 対応している5つの形
 - `auto-table` … PDFの表で、年齢の列を見出しの文字から自動で決める（最頻・まずこれを試す）
 - `one-table` … 列番号を設定に書いて読む（auto-table で拾えない表のため）
 - `age-sections` … 年齢ごとに表が分かれ、各表は施設名＋空き数の1列だけ（PDFの高槻市など）
+- `age-rows` … 1施設が0歳〜5歳の6行に縦に分かれ、列が入所月などになっている（長浜市）
 - `html-tables` … 公式ページのHTMLの表をそのまま読む（PDFを出さない自治体）
 
 ## 読み取れなかったら必ず落とす
@@ -587,6 +588,68 @@ def extract_html_tables(html_path, conf):
     return rows
 
 
+def extract_age_rows(pdf, conf):
+    """
+    1施設が「0歳児〜5歳児」の6行に縦に分かれ、列は入所月などになっている表を読む。
+
+    長浜市の「募集人数一覧表」がこの形で、施設名は6行のうち先頭にしか入っていない
+    （PDFの結合セル）。読みたい列は設定の columns.value で指定する。
+    """
+    cols = conf["columns"]
+    name_col = cols["name"]
+    age_col = cols["age"]
+    value_col = cols["value"]
+    cat_col = cols.get("category")
+    unit = conf.get("valueUnit", "")
+    skip = [cell(s) for s in conf.get("skipRowsContaining", [])]
+
+    rows = []
+    cur_name = ""
+    cur_cat = None
+    values = [None] * 6
+    seen_any = False
+
+    def flush():
+        nonlocal values, seen_any
+        if cur_name and seen_any:
+            row = {"name": cur_name, "vacancy": values}
+            if cat_col is not None and cur_cat:
+                row["category"] = cur_cat
+            rows.append(row)
+        values = [None] * 6
+        seen_any = False
+
+    for table in tables_of(pdf, conf.get("tableSettings")):
+        for raw in table:
+            if raw is None:
+                continue
+            width = max(name_col, age_col, value_col, cat_col or 0) + 1
+            if len(raw) < width:
+                continue
+            r = [cell(c) for c in raw]
+            if any(x and x in "".join(r) for x in skip):
+                continue
+            age = age_of_header(r[age_col])
+            if age is None:
+                continue
+            name = r[name_col]
+            if name:
+                # 施設名が入っている行が、次の施設の始まり
+                flush()
+                cur_name = name
+            if cat_col is not None and r[cat_col]:
+                text = r[cat_col]
+                for pat in conf.get("categoryTrim", []):
+                    text = re.sub(pat, "", text)
+                cur_cat = text.strip() or cur_cat
+            n = parse_number(r[value_col], unit)
+            if n is not None:
+                values[age] = n
+                seen_any = True
+    flush()
+    return rows
+
+
 def main():
     # Windowsの既定（cp932）だと日本語が化けてJSONとして読めなくなる
     sys.stdout.reconfigure(encoding="utf-8")
@@ -615,6 +678,8 @@ def main():
             rows = extract_one_table(pdf, conf)
         elif layout == "age-sections":
             rows = extract_age_sections(pdf, conf)
+        elif layout == "age-rows":
+            rows = extract_age_rows(pdf, conf)
         else:
             fail(f"未対応の layout: {layout}")
 

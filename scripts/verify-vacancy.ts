@@ -1469,6 +1469,17 @@ const EXPECTED: Record<
     facilityCount: 23,
     vacancy: 80,
   },
+  nagahama: {
+    asOf: "2026-08-26",
+    facilityCount: 25,
+    vacancy: 16,
+  },
+  moka: {
+    asOf: "2026-08-01",
+    facilityCount: 8,
+    vacancy: 0,
+    symbolCounts: { "×": 24, "△": 16, "○": 8 },
+  },
   akaiwa: {
     asOf: "2026-08-17",
     facilityCount: 15,

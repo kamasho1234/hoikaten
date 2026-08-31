@@ -1,0 +1,216 @@
+{
+  "municipalitySlug": "moka",
+  "municipalityName": "真岡市",
+  "asOf": "2026-08-01",
+  "fetchedAt": "2026-08-31",
+  "sourceName": "真岡市「市内保育施設等受け入れ可能状況（空き状況）」",
+  "sourceUrl": "https://www.city.moka.lg.jp/kosodate_kyoiku/kosodate/hoikusho_yochien/22151.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.moka.lg.jp/material/files/group/44/R8_8akijoukyou.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "市は受け入れ可能状況を人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "公式の表は1施設が2行で、上の行が定員（受入可能）、下の行が空き状況の記号です。当サイトは空き状況の行を取り込んでいます。",
+    "市は基準日を書いていないため、当サイトはページの更新日を時点として扱っています。"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "5人以上",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "5人未満（ほとんど1人か2人）",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "受け入れ不可",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "真岡",
+      "name": "真岡",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "中村",
+      "name": "中村",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "○",
+        "×",
+        "△"
+      ]
+    },
+    {
+      "id": "西真岡",
+      "name": "西真岡",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "○",
+        "○",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "めばえ",
+      "name": "めばえ",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "△",
+        "△",
+        "△",
+        "×",
+        "○"
+      ]
+    },
+    {
+      "id": "萌丘東",
+      "name": "萌丘東",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        "△",
+        "×",
+        "△"
+      ]
+    },
+    {
+      "id": "西真岡第二",
+      "name": "西真岡第二",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "△",
+        "△",
+        "×",
+        "×",
+        "△"
+      ]
+    },
+    {
+      "id": "にのみや",
+      "name": "にのみや",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "×",
+        "×",
+        "○",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "あおぞら",
+      "name": "あおぞら",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "△",
+        "×",
+        "△",
+        "×",
+        "△"
+      ]
+    }
+  ]
+}
