@@ -1,0 +1,59 @@
+{
+  "slug": "nakagawa",
+  "name": "那珂川市",
+  "sourceName": "那珂川市「認可保育施設等審査状況一覧」",
+  "indexUrl": "https://www.city.nakagawa.lg.jp/site/nobinobi/8nenndoshinnsazyoukyou.html",
+  "pdf": {
+    "linkPattern": "審査状況一覧|随時入所"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 1,
+    "ages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  "rowLabel": {
+    "column": 4,
+    "value": "入所率等"
+  },
+  "categoryFrom": "none",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○"
+  },
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "募集あり",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "募集なし",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "R(\\d+)\\.(\\d{1,2})\\.(\\d{1,2})\\s*現在"
+  },
+  "minFacilities": 8,
+  "notes": [
+    "市は募集状況を人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "公式の表は1施設が「入所率等」「募集人数」「内定者数」「在籍(予定)」の複数行で示されています。当サイトは募集の有無を示す「入所率等」の行を取り込んでいます。",
+    "市は「次回の募集人数は、施設の状況によって増減しますので、〇、×は次回の入所募集を確約するものではありません」としています。",
+    "公式の表では施設種別が縦書きの結合セルになっており、読み取ると字の順が崩れるため、当サイトでは施設の類型を付けていません。"
+  ],
+  "skipRowsContaining": [
+    "12施設",
+    "合計"
+  ]
+}

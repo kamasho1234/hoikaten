@@ -1,0 +1,322 @@
+{
+  "municipalitySlug": "nakagawa",
+  "municipalityName": "那珂川市",
+  "asOf": "2026-08-19",
+  "fetchedAt": "2026-08-31",
+  "sourceName": "那珂川市「認可保育施設等審査状況一覧」",
+  "sourceUrl": "https://www.city.nakagawa.lg.jp/site/nobinobi/8nenndoshinnsazyoukyou.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.nakagawa.lg.jp/uploaded/attachment/33450.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "市は募集状況を人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "公式の表は1施設が「入所率等」「募集人数」「内定者数」「在籍(予定)」の複数行で示されています。当サイトは募集の有無を示す「入所率等」の行を取り込んでいます。",
+    "市は「次回の募集人数は、施設の状況によって増減しますので、〇、×は次回の入所募集を確約するものではありません」としています。",
+    "公式の表では施設種別が縦書きの結合セルになっており、読み取ると字の順が崩れるため、当サイトでは施設の類型を付けていません。"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "募集あり",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "募集なし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "中央保育所",
+      "name": "中央保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "○",
+        "○",
+        "○",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "青葉保育園",
+      "name": "青葉保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "那珂の森保育園",
+      "name": "那珂の森保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        "○",
+        "○",
+        "○",
+        "×"
+      ]
+    },
+    {
+      "id": "青葉桐の花保育園",
+      "name": "青葉桐の花保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "なかがわ保育園",
+      "name": "なかがわ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        "○",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "那珂川道善コスモス保育園",
+      "name": "那珂川道善コスモス保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        "○",
+        "○",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "バディスポーツ幼育園博多南校",
+      "name": "バディスポーツ幼育園博多南校",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "○",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "那珂川第一幼稚園",
+      "name": "那珂川第一幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        "○",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "福岡ピノキオこども園",
+      "name": "福岡ピノキオこども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "南畑ピノキオ森のこども園",
+      "name": "南畑ピノキオ森のこども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "第二なかがわ保育園",
+      "name": "第二なかがわ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        "○",
+        "×",
+        null,
+        null
+      ]
+    },
+    {
+      "id": "那珂川片縄コスモス保育園",
+      "name": "那珂川片縄コスモス保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        "○",
+        "×",
+        null,
+        null
+      ]
+    },
+    {
+      "id": "延長",
+      "name": "延長",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        "○",
+        "○",
+        "○",
+        "○"
+      ]
+    }
+  ]
+}
