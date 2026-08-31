@@ -205,7 +205,8 @@ def write_book(out_path, rows, unmatched, source_label):
     ws.title = "全自治体"
     head(ws, ["団体コード", "都道府県", "市区町村", "人口", "シミュレーター", "空き状況", "お金記事", "対応数", "slug"],
          [12, 11, 20, 11, 14, 11, 11, 9, 18])
-    for r in sorted(rows, key=lambda x: x["code"]):
+    # 人口の多い順。上から順に穴を埋めていく使い方をしているので、この並びを既定にする
+    for r in sorted(rows, key=lambda x: (-x["pop"], x["code"])):
         ws.append([r["code"], r["pref"], r["name"], r["pop"], r["sim"], r["vac"], r["money"], r["done"], r["slug"]])
         fill = ok_fill if r["done"] == 3 else (none_fill if r["done"] == 0 else part_fill)
         for c in ws[ws.max_row]:
