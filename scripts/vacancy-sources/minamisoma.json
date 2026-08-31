@@ -1,0 +1,37 @@
+{
+  "slug": "minamisoma",
+  "name": "南相馬市",
+  "sourceName": "南相馬市「認可保育施設の空き状況・申込み状況」",
+  "indexUrl": "https://www.city.minamisoma.lg.jp/portal/childcare/shussan_kosodate/5/5838.html",
+  "pdf": {
+    "linkPattern": "空き状況"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 0,
+    "ages": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "categoryFrom": "none",
+  "metrics": [
+    "vacancy"
+  ],
+  "rowLabel": {
+    "column": 1,
+    "value": "空き状況"
+  },
+  "asOf": {
+    "source": "pdf",
+    "pattern": "令和(\\d+)年(\\d{1,2})月(\\d{1,2})日現在"
+  },
+  "minFacilities": 12,
+  "notes": [
+    "市は同じ表に申込み状況も載せていますが、当サイトは空き状況の行だけを載せています。"
+  ]
+}

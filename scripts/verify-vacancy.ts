@@ -1779,6 +1779,23 @@ const EXPECTED: Record<
     symbolCounts: { "○": 27, "×": 23, "△": 22 },
   },
   nakano: { asOf: "2026-09-01", facilityCount: 113, vacancy: 891 },
+  minamisoma: {
+    asOf: "2026-09-01",
+    facilityCount: 16,
+    vacancy: 29,
+  },
+  goshogawara: {
+    asOf: "2026-09-01",
+    facilityCount: 23,
+    vacancy: 0,
+    symbolCounts: { "△": 56, "×": 38, "○": 28, "◎": 13 },
+  },
+  izunokuni: {
+    asOf: "2026-08-25",
+    facilityCount: 10,
+    vacancy: 0,
+    symbolCounts: { "×": 40, "△": 9, "○": 2 },
+  },
   akaiwa: {
     asOf: "2026-08-17",
     facilityCount: 15,

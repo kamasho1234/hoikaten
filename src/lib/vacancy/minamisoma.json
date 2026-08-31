@@ -1,0 +1,245 @@
+{
+  "municipalitySlug": "minamisoma",
+  "municipalityName": "南相馬市",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "南相馬市「認可保育施設の空き状況・申込み状況」",
+  "sourceUrl": "https://www.city.minamisoma.lg.jp/portal/childcare/shussan_kosodate/5/5838.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.minamisoma.lg.jp/material/files/group/42/akijoukyou9gatu.pdf"
+  },
+  "metrics": [
+    "vacancy"
+  ],
+  "notes": [
+    "市は同じ表に申込み状況も載せていますが、当サイトは空き状況の行だけを載せています。"
+  ],
+  "wards": [],
+  "categories": [],
+  "facilities": [
+    {
+      "id": "おだか認定こども園",
+      "name": "おだか認定こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        4,
+        4,
+        7
+      ]
+    },
+    {
+      "id": "かしま保育園",
+      "name": "かしま保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "かみまの保育園※1歳児クラスには満1歳を含む",
+      "name": "かみまの保育園※1歳児クラスには満1歳を含む",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        0,
+        0,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "id": "原町聖愛こども園",
+      "name": "原町聖愛こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "はらまち認定こども園聖桜",
+      "name": "はらまち認定こども園聖桜",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "原町みなみこども園",
+      "name": "原町みなみこども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "さゆり幼保園",
+      "name": "さゆり幼保園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "よつば保育園",
+      "name": "よつば保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "よつば乳児保育園西町園",
+      "name": "よつば乳児保育園西町園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        1,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "よつば保育園南町分園",
+      "name": "よつば保育園南町分園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        1,
+        0,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "北町保育所",
+      "name": "北町保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "みなみそうまペンギン国際幼児園",
+      "name": "みなみそうまペンギン国際幼児園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "原町にこにこ保育園",
+      "name": "原町にこにこ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        1,
+        0,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "なかよし園",
+      "name": "なかよし園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        2,
+        1,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "ユニソンワールド保育園",
+      "name": "ユニソンワールド保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "聖愛ちいろば園",
+      "name": "聖愛ちいろば園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+}

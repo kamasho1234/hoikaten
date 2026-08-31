@@ -1,0 +1,54 @@
+{
+  "slug": "izunokuni",
+  "name": "伊豆の国市",
+  "sourceName": "伊豆の国市「保育園等の受入予定状況」",
+  "indexUrl": "https://www.city.izunokuni.shizuoka.jp/youji/manabi/hoikuen/index.html",
+  "pdf": {
+    "linkPattern": "受入"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 1,
+    "category": 0
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○",
+    "◯": "○",
+    "－": "×",
+    "-": "×",
+    "―": "×",
+    "‐": "×"
+  },
+  "noClassMarks": [],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "空きあり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "空きわずか",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "令和(\\d+)年(\\d{1,2})月(\\d{1,2})日現在"
+  },
+  "minFacilities": 8,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "市の表では空きなしを「－」で表しています。当サイトでは「×（空きなし）」として表示しています。",
+    "年齢は4月1日時点のものです。"
+  ]
+}
