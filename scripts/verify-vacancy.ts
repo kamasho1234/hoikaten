@@ -1740,6 +1740,24 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 80, "○": 46, "×": 23 },
   },
+  ogi: {
+    asOf: "2026-08-21",
+    facilityCount: 18,
+    vacancy: 0,
+    symbolCounts: { "×": 66, "△": 22, "○": 3 },
+  },
+  tateyama: {
+    asOf: "2026-08-25",
+    facilityCount: 10,
+    vacancy: 0,
+    symbolCounts: { "×": 30, "○": 21, "△": 8 },
+  },
+  sammu: {
+    asOf: "2026-09-01",
+    facilityCount: 9,
+    vacancy: 0,
+    symbolCounts: { "×": 17, "○": 16, "△": 15 },
+  },
   akaiwa: {
     asOf: "2026-08-17",
     facilityCount: 15,

@@ -1,0 +1,49 @@
+{
+  "slug": "ogi",
+  "name": "小城市",
+  "sourceName": "小城市「受け入れ可能状況」",
+  "indexUrl": "https://www.city.ogi.lg.jp/main/17882.html",
+  "pdf": {
+    "linkPattern": "受け入れ可能状況"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 2,
+    "category": 3
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○",
+    "◯": "○"
+  },
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "4人以上可",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1〜3人可",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "見込み低い",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "令和(\\d+)年(\\d{1,2})月(\\d{1,2})日"
+  },
+  "minFacilities": 12,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "「○」でも選考の結果によって入所できない場合があり、「×」でも退所などの事情により入所できる場合があると市が案内しています。",
+    "年齢は4月1日時点のものです。"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "sammu",
+  "name": "山武市",
+  "sourceName": "山武市「こども園・保育園等受入状況一覧」",
+  "indexUrl": "https://www.city.sammu.lg.jp/kosodate-sammu/kodomo/page001277.html",
+  "layout": "html-tables",
+  "columns": {
+    "name": 0,
+    "category": 1
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○",
+    "◯": "○",
+    "△（いずれか1名程度）": "△"
+  },
+  "noClassMarks": [
+    "-",
+    "‐",
+    "―",
+    "－",
+    "ー",
+    ""
+  ],
+  "skipRowsMatching": "受入制限中",
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "空きあり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "空きわずか",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "受入状況一覧（令和(\\d+)年(\\d{1,2})月(\\d{1,2})日現在"
+  },
+  "minFacilities": 8,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。"
+  ]
+}
