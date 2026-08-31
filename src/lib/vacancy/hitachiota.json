@@ -1,0 +1,332 @@
+{
+  "municipalitySlug": "hitachiota",
+  "municipalityName": "常陸太田市",
+  "asOf": "2026-08-18",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "常陸太田市「保育施設の受入れ状況（見込み）」",
+  "sourceUrl": "https://www.city.hitachiota.ibaraki.jp/kosodate/hoikuen-yochien/page001310.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.hitachiota.ibaraki.jp/data/doc/1787031176_doc_66_0.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "受入れの見込みであり、確定した空き数ではありません。",
+    "市は表に基準日を書いていないため、掲載ページの更新日を基準日にしています。"
+  ],
+  "wards": [],
+  "categories": [
+    "公立保育園",
+    "私立保育園",
+    "公立認定こども園",
+    "私立認定こども園",
+    "家庭的保育園"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "空きあり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "空きわずか",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "木崎保育園",
+      "name": "木崎保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "△",
+        "×",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "宮ノ脇保育園",
+      "name": "宮ノ脇保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "△",
+        "○",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "はすみ保育園",
+      "name": "はすみ保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "太田あすなろ保育園",
+      "name": "太田あすなろ保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "△",
+        "△",
+        "△",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "らいらっく保育園",
+      "name": "らいらっく保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "△"
+      ]
+    },
+    {
+      "id": "愛保育園",
+      "name": "愛保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        "×",
+        "△",
+        "×"
+      ]
+    },
+    {
+      "id": "のぞみこども園",
+      "name": "のぞみこども園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "△",
+        "○",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "うぐいすこども園",
+      "name": "うぐいすこども園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        "○",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "すいふこども園",
+      "name": "すいふこども園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "○",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "さとみこども園",
+      "name": "さとみこども園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        "△",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "太田さくら認定こども園",
+      "name": "太田さくら認定こども園",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "×",
+        "×",
+        "△",
+        "×"
+      ]
+    },
+    {
+      "id": "ぽこ・あ・ぽこ",
+      "name": "ぽこ・あ・ぽこ",
+      "w": null,
+      "c": 4,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "ひよこ園",
+      "name": "ひよこ園",
+      "w": null,
+      "c": 4,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "△",
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "municipalitySlug": "kasumigaura",
+  "municipalityName": "かすみがうら市",
+  "asOf": "2026-08-28",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "かすみがうら市「受入可能数」",
+  "sourceUrl": "https://www.city.kasumigaura.lg.jp/page/page001666.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.kasumigaura.lg.jp/data/doc/1778462013_doc_136_0.pdf"
+  },
+  "metrics": [
+    "vacancy"
+  ],
+  "notes": [
+    "市は表に基準日を書いていないため、掲載ページの更新日を基準日にしています。",
+    "クラス年齢は4月1日時点の年齢で決まります。"
+  ],
+  "wards": [],
+  "categories": [
+    "市立",
+    "民間"
+  ],
+  "facilities": [
+    {
+      "id": "わかぐり保育所",
+      "name": "わかぐり保育所",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        0,
+        0,
+        0,
+        5,
+        5,
+        0
+      ]
+    },
+    {
+      "id": "のぞみ保育園",
+      "name": "のぞみ保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        1,
+        0,
+        5,
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "霞ヶ浦保育園",
+      "name": "霞ヶ浦保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        1,
+        2,
+        0,
+        1,
+        0,
+        5
+      ]
+    },
+    {
+      "id": "プルミっこ保育園",
+      "name": "プルミっこ保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        0,
+        0,
+        4,
+        5,
+        1,
+        4
+      ]
+    },
+    {
+      "id": "千代田保育園",
+      "name": "千代田保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        0,
+        0,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "id": "神立幼稚園",
+      "name": "神立幼稚園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        0,
+        0,
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "id": "美並未来みなみこども園",
+      "name": "美並未来みなみこども園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        0,
+        2,
+        4,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "id": "ルンビニーやまゆりこども園",
+      "name": "ルンビニーやまゆりこども園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        2,
+        1,
+        3,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "id": "キッズランドなないろしもいなよし園",
+      "name": "キッズランドなないろしもいなよし園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        0,
+        0,
+        0,
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+}

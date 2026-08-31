@@ -1,0 +1,29 @@
+{
+  "slug": "kasumigaura",
+  "name": "かすみがうら市",
+  "sourceName": "かすみがうら市「受入可能数」",
+  "indexUrl": "https://www.city.kasumigaura.lg.jp/page/page001666.html",
+  "pdf": {
+    "linkPattern": "受入可能数"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 1,
+    "category": 0
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "vacancy"
+  ],
+  "emptyValue": 0,
+  "skipRowsMatching": "問い合わせ",
+  "asOf": {
+    "source": "page",
+    "pattern": "(20\\d{2})年(\\d{1,2})月(\\d{1,2})日"
+  },
+  "minFacilities": 6,
+  "notes": [
+    "市は表に基準日を書いていないため、掲載ページの更新日を基準日にしています。",
+    "クラス年齢は4月1日時点の年齢で決まります。"
+  ]
+}

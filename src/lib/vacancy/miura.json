@@ -1,0 +1,171 @@
+{
+  "municipalitySlug": "miura",
+  "municipalityName": "三浦市",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "三浦市「市内保育園の入所状況」",
+  "sourceUrl": "https://www.city.miura.kanagawa.jp/soshiki/kodomoka/kodomoka_kodomoshien/hoikuen/93.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.miura.kanagawa.jp/material/files/group/31/20260901nyuushojoukyou.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "選考終了時点の空き状況です。"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "空きあり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "空きわずか",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "城ヶ島保育園（50）",
+      "name": "城ヶ島保育園（50）",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "○",
+        "○",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "初声保育園（60）",
+      "name": "初声保育園（60）",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "○",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "三崎二葉保育園（80）",
+      "name": "三崎二葉保育園（80）",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "△",
+        "△",
+        "×",
+        "△",
+        "○"
+      ]
+    },
+    {
+      "id": "上宮田小羊保育園（140）",
+      "name": "上宮田小羊保育園（140）",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "×",
+        "×",
+        "△",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "三崎二葉保育園（10）",
+      "name": "三崎二葉保育園（10）",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        null,
+        "×",
+        "△",
+        "○"
+      ]
+    },
+    {
+      "id": "上宮田小羊保育園（10）",
+      "name": "上宮田小羊保育園（10）",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        null,
+        "○",
+        "×",
+        "×"
+      ]
+    }
+  ]
+}

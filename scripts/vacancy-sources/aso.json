@@ -1,0 +1,32 @@
+{
+  "slug": "aso",
+  "name": "阿蘇市",
+  "sourceName": "阿蘇市「保育施設の空き状況」",
+  "indexUrl": "https://www.city.aso.kumamoto.jp/citizens/health_medical_welfare/insurance_of_children/childcare/availability/",
+  "pdf": {
+    "linkPattern": "空き状況"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 1,
+    "category": 0
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "vacancy"
+  ],
+  "valueUnit": "人",
+  "skipRowsContaining": [
+    "合計"
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "令和(\\d+)年(\\d{1,2})月(\\d{1,2})日\\s*現在"
+  },
+  "minFacilities": 10,
+  "notes": [
+    "空き状況は申込状況などにより変更となるため留意するよう市が案内しています。",
+    "空欄の場合でも、申し込み状況次第では入所できることがあると市が案内しています。",
+    "年齢は4月1日時点のものです。"
+  ]
+}

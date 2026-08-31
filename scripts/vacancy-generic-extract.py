@@ -147,6 +147,11 @@ def rows_from_grid(grid, conf, category=None):
         if age_cols is None or len(r) <= max(max(age_cols), name_col):
             continue
         name = r[name_col]
+        # 施設名が2列に割れて出る表がある（常陸太田市は見出しも「園」「名」で割れ、
+        # 中身も「木崎保」「育園」と切れる）。設定でつなぐ列を並べられるようにする
+        join = conf.get("nameJoin")
+        if join:
+            name = "".join(r[j] for j in join if j < len(r))
         # 施設名のセルに住所などが一緒に入っている自治体（赤磐市など）は、
         # 元の文字（空白や改行が残っている）に正規表現をかけて名前だけにする
         name_trim = conf.get("nameTrim")

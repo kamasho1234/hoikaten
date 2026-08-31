@@ -1,0 +1,260 @@
+{
+  "municipalitySlug": "samukawa",
+  "municipalityName": "寒川町",
+  "asOf": "2026-08-10",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "寒川町「入所審査後の空き状況」",
+  "sourceUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/manabi/hoikuyochien/hoikuyochien/info/hoikujyoyoutiennnado/hoikujyonado/13992.html",
+  "sourceFiles": {
+    "vacancy": "https://www.town.samukawa.kanagawa.jp/material/files/group/56/R8akijyoukyou9gatu.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "町は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "町は表に基準日を書いていないため、掲載ページの更新日を基準日にしています。",
+    "入所審査後の空き状況です。"
+  ],
+  "wards": [],
+  "categories": [
+    "保育所",
+    "認定こども園",
+    "小規模保育事業",
+    "家庭的保育事業"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "空きあり",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "さむかわ保育園",
+      "name": "さむかわ保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "旭保育園",
+      "name": "旭保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "一之宮愛児園",
+      "name": "一之宮愛児園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "寒川湘南保育園",
+      "name": "寒川湘南保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "湘南こども園",
+      "name": "湘南こども園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "寒川さくら幼稚園",
+      "name": "寒川さくら幼稚園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "倉見幼稚園",
+      "name": "倉見幼稚園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        "×",
+        "×",
+        "×",
+        "○",
+        "×"
+      ]
+    },
+    {
+      "id": "そうわ保育園",
+      "name": "そうわ保育園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "ちゃいるどほーむ",
+      "name": "ちゃいるどほーむ",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "子どもと扉",
+      "name": "子どもと扉",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+}

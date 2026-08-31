@@ -1,0 +1,64 @@
+{
+  "slug": "hitachiota",
+  "name": "常陸太田市",
+  "sourceName": "常陸太田市「保育施設の受入れ状況（見込み）」",
+  "indexUrl": "https://www.city.hitachiota.ibaraki.jp/kosodate/hoikuen-yochien/page001310.html",
+  "pdf": {
+    "linkPattern": "受入"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 1,
+    "category": 0,
+    "ages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○",
+    "◯": "○"
+  },
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "空きあり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "空きわずか",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "(20\\d{2})年(\\d{1,2})月(\\d{1,2})日"
+  },
+  "minFacilities": 8,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "受入れの見込みであり、確定した空き数ではありません。",
+    "市は表に基準日を書いていないため、掲載ページの更新日を基準日にしています。"
+  ],
+  "nameJoin": [
+    1,
+    2
+  ],
+  "skipRowsContaining": [
+    "園名"
+  ]
+}

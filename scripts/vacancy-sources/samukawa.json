@@ -1,0 +1,44 @@
+{
+  "slug": "samukawa",
+  "name": "寒川町",
+  "sourceName": "寒川町「入所審査後の空き状況」",
+  "indexUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/manabi/hoikuyochien/hoikuyochien/info/hoikujyoyoutiennnado/hoikujyonado/13992.html",
+  "pdf": {
+    "linkPattern": "空き状況"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 1,
+    "category": 0
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○",
+    "◯": "○"
+  },
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "空きあり",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "(20\\d{2})年(\\d{1,2})月(\\d{1,2})日"
+  },
+  "minFacilities": 8,
+  "notes": [
+    "町は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "町は表に基準日を書いていないため、掲載ページの更新日を基準日にしています。",
+    "入所審査後の空き状況です。"
+  ]
+}

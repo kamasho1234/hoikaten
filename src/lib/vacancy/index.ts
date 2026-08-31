@@ -45,7 +45,6 @@ import shinagawaVacancy from "./shinagawa.json";
 import kotoVacancy from "./koto.json";
 import kotoWebsites from "./koto-websites.json";
 // 中野区の施設リンクは区の一覧が案内している園の公式サイト
-import nakanoVacancy from "./nakano.json";
 import nakanoWebsites from "./nakano-websites.json";
 // 新宿区は施設サイトのURLを調査中のため、いまは空き状況だけを登録している
 import shinjukuVacancy from "./shinjuku.json";
@@ -307,7 +306,16 @@ import ikedaVacancy from "./ikeda.json";
 import futtsuVacancy from "./futtsu.json";
 import fuchuHiroshimaVacancy from "./fuchu-hiroshima.json";
 import akaiwaVacancy from "./akaiwa.json";
+import nakanoVacancy from "./nakano.json";
 import azuminoVacancy from "./azumino.json";
+import hitachiotaVacancy from "./hitachiota.json";
+import tsukubamiraiVacancy from "./tsukubamirai.json";
+import kasumigauraVacancy from "./kasumigaura.json";
+import samukawaVacancy from "./samukawa.json";
+import miuraVacancy from "./miura.json";
+import nomiVacancy from "./nomi.json";
+import tsubataVacancy from "./tsubata.json";
+import asoVacancy from "./aso.json";
 import nagatoVacancy from "./nagato.json";
 import mizuhoGifuVacancy from "./mizuho-gifu.json";
 import maniwaVacancy from "./maniwa.json";
@@ -695,6 +703,14 @@ const registry: Record<string, VacancyDataset> = {
   "fuchu-hiroshima": fuchuHiroshimaVacancy as unknown as VacancyDataset,
   akaiwa: akaiwaVacancy as unknown as VacancyDataset,
   azumino: azuminoVacancy as unknown as VacancyDataset,
+  hitachiota: hitachiotaVacancy as unknown as VacancyDataset,
+  tsukubamirai: tsukubamiraiVacancy as unknown as VacancyDataset,
+  kasumigaura: kasumigauraVacancy as unknown as VacancyDataset,
+  samukawa: samukawaVacancy as unknown as VacancyDataset,
+  miura: miuraVacancy as unknown as VacancyDataset,
+  nomi: nomiVacancy as unknown as VacancyDataset,
+  tsubata: tsubataVacancy as unknown as VacancyDataset,
+  aso: asoVacancy as unknown as VacancyDataset,
   nagato: nagatoVacancy as unknown as VacancyDataset,
   "mizuho-gifu": mizuhoGifuVacancy as unknown as VacancyDataset,
   maniwa: maniwaVacancy as unknown as VacancyDataset,

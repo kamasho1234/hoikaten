@@ -1,0 +1,47 @@
+{
+  "slug": "miura",
+  "name": "三浦市",
+  "sourceName": "三浦市「市内保育園の入所状況」",
+  "indexUrl": "https://www.city.miura.kanagawa.jp/soshiki/kodomoka/kodomoka_kodomoshien/hoikuen/93.html",
+  "pdf": {
+    "linkPattern": "入所状況"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 0
+  },
+  "categoryFrom": "none",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○",
+    "◯": "○"
+  },
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "空きあり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "空きわずか",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "令和(\\d+)年(\\d{1,2})月(\\d{1,2})日選考終了時点"
+  },
+  "minFacilities": 5,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "選考終了時点の空き状況です。"
+  ]
+}

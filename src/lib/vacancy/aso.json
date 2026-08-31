@@ -1,0 +1,237 @@
+{
+  "municipalitySlug": "aso",
+  "municipalityName": "阿蘇市",
+  "asOf": "2026-08-01",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "阿蘇市「保育施設の空き状況」",
+  "sourceUrl": "https://www.city.aso.kumamoto.jp/citizens/health_medical_welfare/insurance_of_children/childcare/availability/",
+  "sourceFiles": {
+    "vacancy": "https://www.city.aso.kumamoto.jp/files/uploads/2026/08/akizyoukyou10-1.pdf"
+  },
+  "metrics": [
+    "vacancy"
+  ],
+  "notes": [
+    "空き状況は申込状況などにより変更となるため留意するよう市が案内しています。",
+    "空欄の場合でも、申し込み状況次第では入所できることがあると市が案内しています。",
+    "年齢は4月1日時点のものです。"
+  ],
+  "wards": [],
+  "categories": [
+    "一の宮",
+    "阿蘇",
+    "波野"
+  ],
+  "facilities": [
+    {
+      "id": "坂梨保育園",
+      "name": "坂梨保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        2,
+        3,
+        3,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "宮地保育園",
+      "name": "宮地保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        1,
+        2,
+        2,
+        1,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "内牧保育園",
+      "name": "内牧保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        1,
+        2,
+        1,
+        3,
+        1,
+        4
+      ]
+    },
+    {
+      "id": "乙姫保育園",
+      "name": "乙姫保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "熊本YMCA赤水保育園",
+      "name": "熊本YMCA赤水保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        1,
+        1,
+        1,
+        1,
+        null,
+        3
+      ]
+    },
+    {
+      "id": "熊本YMCA尾ヶ石保育園",
+      "name": "熊本YMCA尾ヶ石保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        1,
+        1,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "熊本YMCA永草保育園",
+      "name": "熊本YMCA永草保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        2,
+        1,
+        1,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "山田保育園",
+      "name": "山田保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "波野保育園",
+      "name": "波野保育園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        2,
+        2,
+        1,
+        2,
+        2,
+        6
+      ]
+    },
+    {
+      "id": "FeliceKidsGarden",
+      "name": "FeliceKidsGarden",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        1,
+        1,
+        3
+      ]
+    },
+    {
+      "id": "古城保育園",
+      "name": "古城保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ]
+    },
+    {
+      "id": "熊本YMCA黒川保育園",
+      "name": "熊本YMCA黒川保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "id": "FeliceKidsGarden#2",
+      "name": "FeliceKidsGarden",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        4,
+        3,
+        6
+      ]
+    },
+    {
+      "id": "古城保育園#2",
+      "name": "古城保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        1,
+        1,
+        null
+      ]
+    },
+    {
+      "id": "熊本YMCA黒川保育園#2",
+      "name": "熊本YMCA黒川保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        1,
+        1,
+        1
+      ]
+    }
+  ]
+}

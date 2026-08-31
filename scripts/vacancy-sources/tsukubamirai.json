@@ -1,0 +1,49 @@
+{
+  "slug": "tsukubamirai",
+  "name": "つくばみらい市",
+  "sourceName": "つくばみらい市「保育施設空き状況」",
+  "indexUrl": "https://www.city.tsukubamirai.lg.jp/jyumin/ninshin-shussan-kosodate/azukeru/page000074.html",
+  "pdf": {
+    "linkPattern": "空き状況"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 1,
+    "category": 0
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "symbol"
+  ],
+  "emptyMark": "×",
+  "symbolMap": {
+    "〇": "○",
+    "◯": "○"
+  },
+  "symbolLegend": [
+    {
+      "mark": "●",
+      "label": "3人以上空きあり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1〜2人空きあり",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "令和(\\d+)年(\\d{1,2})月(\\d{1,2})日現在"
+  },
+  "minFacilities": 15,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "市の表では空きなしを空欄で表しています。当サイトでは「×（空きなし）」として表示しています。"
+  ]
+}

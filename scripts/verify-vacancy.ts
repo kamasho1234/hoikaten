@@ -58,50 +58,6 @@ const EXPECTED: Record<
   katsushika: { asOf: "2026-07-25", facilityCount: 161, vacancy: 405 },
   shinagawa: { asOf: "2026-07-23", facilityCount: 174, vacancy: 1361 },
   koto: { asOf: "2026-07-23", facilityCount: 213, vacancy: 2355 },
-  nakano: { asOf: "2026-09-01", facilityCount: 113, vacancy: 891 },
-  shinjuku: { asOf: "2026-07-28", facilityCount: 93, vacancy: 1281 },
-  toshima: { asOf: "2026-08-03", facilityCount: 111, vacancy: 652 },
-  // 文京区は「空き数」ではなく翌月の募集予定人数。募集ゼロの園が2割ほどあるのが通常
-  taito: { asOf: "2026-08-20", facilityCount: 69, vacancy: 387 },
-  // 幼保一体施設は保育園（0〜2歳）と幼稚園（3〜5歳）が別行なので、片方だけの施設が4件ある
-  kawaguchi: { asOf: "2026-07-27", facilityCount: 200, vacancy: 624 },
-  // 立川市も募集ゼロの園が多いのが通常
-  tachikawa: { asOf: "2026-09-01", facilityCount: 54, vacancy: 96, emptyRatio: 0.5 },
-  // 武蔵野市は公式の合計行（空き数・申込数とも）と取り込み時に突き合わせている
-  musashino: { asOf: "2026-07-30", facilityCount: 56, vacancy: 249 },
-  // 国分寺市は「定員−人数=空き」を1施設ずつ、合計は別掲の受入可能児童数PDFとも突き合わせている
-  kokubunji: { asOf: "2026-08-01", facilityCount: 50, vacancy: 198, emptyRatio: 0.4 },
-  // 小金井市は募集ゼロの園が多いのが通常。公式の合計行と取り込み時に突き合わせている
-  koganei: { asOf: "2026-08-05", facilityCount: 53, vacancy: 187, emptyRatio: 0.7 },
-  // 東村山市は空きゼロの園がほとんど。公式の「計」の行と取り込み時に突き合わせている
-  higashimurayama: { asOf: "2026-08-01", facilityCount: 48, vacancy: 30, emptyRatio: 0.8 },
-  // 多摩市は1施設ずつ「年齢の和＝その行の合計列」を取り込み時に検算している
-  tama: { asOf: "2026-08-01", facilityCount: 31, vacancy: 92, emptyRatio: 0.35 },
-  // 清瀬市は空欄が「欠員なし」なので全クラス「—」の施設は出ない
-  kiyose: { asOf: "2026-07-29", facilityCount: 24, vacancy: 38 },
-  // 東久留米市は行ごとに「年齢の和＝計」を、区分ごとの施設数を別のPDFと突き合わせている
-  higashikurume: { asOf: "2026-07-31", facilityCount: 36, vacancy: 36, emptyRatio: 0.75 },
-  // 狛江市は1施設ずつ「年齢の和＝合計列」を取り込み時に確かめている
-  komae: { asOf: "2026-08-01", facilityCount: 26, vacancy: 35, emptyRatio: 0.6 },
-  // 稲城市は空き・待機・受入定員の3つとも合計行と取り込み時に突き合わせている
-  inagi: { asOf: "2026-08-01", facilityCount: 22, vacancy: 116, emptyRatio: 0.3 },
-  // 国立市は行ごとの「計」と末尾の合計行を取り込み時に突き合わせている
-  kunitachi: { asOf: "2026-07-01", facilityCount: 24, vacancy: 91, emptyRatio: 0.4 },
-  // 昭島市は空欄が「募集なし」なので全クラス「—」の施設は出ない
-  akishima: { asOf: "2026-08-01", facilityCount: 34, vacancy: 55 },
-  // 横須賀市は空欄が「空きなし」。合計行と総数の両方を取り込み時に突き合わせている
-  yokosuka: { asOf: "2026-08-01", facilityCount: 90, vacancy: 66 },
-  // 上尾市は合計行がないので、施設の通し番号が抜けていないことを取り込み時に確かめている
-  ageo: { asOf: "2026-08-31", facilityCount: 75, vacancy: 149, emptyRatio: 0.7 },
-  // 松山市は1施設ずつ「年齢の和＝合計列」を取り込み時に確かめている
-  matsuyama: { asOf: "2026-09-01", facilityCount: 129, vacancy: 52, emptyRatio: 0.85 },
-  // 習志野市は空きを記号で公表している。人数の合計が出せないので記号の数で検算する
-  narashino: {
-    asOf: "2026-07-25",
-    facilityCount: 47,
-    vacancy: 0,
-    symbolCounts: { "○": 45, "△": 34, "×": 155 },
-  },
   // 四日市市は空きが記号。満1歳からの施設は0歳児と1歳児の欄がひとつなので、
   // PDFに印字された数（○31・△34・×346）より、配ったぶんだけ多くなる
   yokkaichi: {
@@ -1776,6 +1732,53 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "○": 17, "△": 6, "×": 2 },
   },
+  aso: {
+    asOf: "2026-08-01",
+    facilityCount: 15,
+    vacancy: 104,
+  },
+  tsubata: {
+    asOf: "2026-08-31",
+    facilityCount: 11,
+    vacancy: 0,
+    symbolCounts: { "×": 44, "△": 12, "○": 6 },
+  },
+  nomi: {
+    asOf: "2026-07-01",
+    facilityCount: 12,
+    vacancy: 0,
+    symbolCounts: { "×": 36, "△": 28, "○": 8 },
+  },
+  miura: {
+    asOf: "2026-09-01",
+    facilityCount: 6,
+    vacancy: 0,
+    symbolCounts: { "○": 12, "×": 10, "△": 8 },
+  },
+  samukawa: {
+    asOf: "2026-08-10",
+    facilityCount: 10,
+    vacancy: 0,
+    symbolCounts: { "×": 46, "○": 4 },
+  },
+  kasumigaura: {
+    asOf: "2026-08-28",
+    facilityCount: 9,
+    vacancy: 83,
+  },
+  tsukubamirai: {
+    asOf: "2026-08-14",
+    facilityCount: 23,
+    vacancy: 0,
+    symbolCounts: { "×": 122, "△": 11, "●": 5 },
+  },
+  hitachiota: {
+    asOf: "2026-08-18",
+    facilityCount: 13,
+    vacancy: 0,
+    symbolCounts: { "○": 27, "×": 23, "△": 22 },
+  },
+  nakano: { asOf: "2026-09-01", facilityCount: 113, vacancy: 891 },
   akaiwa: {
     asOf: "2026-08-17",
     facilityCount: 15,
