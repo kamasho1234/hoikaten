@@ -1,8 +1,8 @@
 {
   "municipalitySlug": "fukuoka",
   "municipalityName": "福岡市",
-  "asOf": "2026-08-28",
-  "fetchedAt": "2026-08-28",
+  "asOf": "2026-08-31",
+  "fetchedAt": "2026-08-31",
   "sourceName": "福岡市「ふくおか保育所案内板〈空きマップ〉」",
   "sourceUrl": "https://kodomo-hoiku.city.fukuoka.lg.jp/",
   "sourceFiles": {
@@ -201,7 +201,7 @@
     {"id":"144","name":"福岡たいせい保育園","w":1,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×",null,null,null],"site":{"url":"http://long-large.com/","type":"facility"}},
     {"id":"145","name":"ほっぺるランド竹下","w":1,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
     {"id":"146","name":"ほっぺるランド博多駅前","w":1,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
-    {"id":"147","name":"キッズ・キッズ保育園博多","w":1,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△",null,null,null],"site":{"url":"https://kidsplanning.com/kids/hakata/","type":"facility"}},
+    {"id":"147","name":"キッズ・キッズ保育園博多","w":1,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null],"site":{"url":"https://kidsplanning.com/kids/hakata/","type":"facility"}},
     {"id":"148","name":"ここみ山王保育園","w":1,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null],"site":{"url":"https://www.instagram.com/kokomi_fukuoka_sannou?igsh=amloY245bnVnbGF6","type":"facility"}},
     {"id":"149","name":"ほっぺるランド住吉","w":1,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
     {"id":"150","name":"博多ｅキッズナーサリー","w":1,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","×",null,null,null]},

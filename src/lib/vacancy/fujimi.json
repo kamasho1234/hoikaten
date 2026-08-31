@@ -1,19 +1,19 @@
 {
   "municipalitySlug": "fujimi",
   "municipalityName": "富士見市",
-  "asOf": "2026-07-24",
-  "fetchedAt": "2026-08-25",
+  "asOf": "2026-08-31",
+  "fetchedAt": "2026-08-31",
   "sourceName": "富士見市「各施設の受入可能状況」",
   "sourceUrl": "https://www.city.fujimi.saitama.jp/kosodate_kyoiku/kosodate_oen/yochien_hoikusho/hoikusho/hoikusyonyusyo/akijoukyou.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.fujimi.saitama.jp/kosodate_kyoiku/kosodate_oen/yochien_hoikusho/hoikusho/hoikusyonyusyo/akijoukyou.files/9gatuakiwaku.pdf"
+    "vacancy": "https://www.city.fujimi.saitama.jp/kosodate_kyoiku/kosodate_oen/yochien_hoikusho/hoikusho/hoikusyonyusyo/akijoukyou.files/r8nen10gatuakiwaku.pdf"
   },
   "metrics": [
     "vacancy"
   ],
-  "subtitle": "2026年8月の利用調整が終わった時点の空き",
+  "subtitle": "2026年9月の利用調整が終わった時点の空き",
   "notes": [
-    "富士見市は2026年8月の利用調整が終わった時点の受入可能状況を公表しています。",
+    "富士見市は2026年9月の利用調整が終わった時点の受入可能状況を公表しています。",
     "公式の表では、空きがない場合は「---」、そのクラスの保育をしていない場合は「保無（保育未実施）」と書かれています。当サイトでは前者を0人、後者を「—」にしています。",
     "この表は入所選考終了時点までのものであり、内定辞退や急な退園等は反映していません。",
     "富士見市はこの表に基準日を書いていないため、公式サイトでPDFが公開された日を時点として表示しています。"
@@ -35,7 +35,7 @@
     {"id":"富士見すくすく保育園","name":"富士見すくすく保育園","w":null,"c":null,"vacancy":[0,0,0,1,0,0]},
     {"id":"針ケ谷保育園","name":"針ケ谷保育園","w":null,"c":null,"vacancy":[0,0,0,0,0,0]},
     {"id":"ナ-サリ-スク-ル☆SUKUSUKU","name":"ナ-サリ-スク-ル☆SUKUSUKU","w":null,"c":null,"vacancy":[0,0,0,0,0,0]},
-    {"id":"慶櫻ふじみ保育園","name":"慶櫻ふじみ保育園","w":null,"c":null,"vacancy":[0,0,0,1,0,7]},
+    {"id":"慶櫻ふじみ保育園","name":"慶櫻ふじみ保育園","w":null,"c":null,"vacancy":[0,0,2,1,0,7]},
     {"id":"鶴瀬れんげ保育園","name":"鶴瀬れんげ保育園","w":null,"c":null,"vacancy":[0,0,0,0,0,0]},
     {"id":"富士見れんげこども園","name":"富士見れんげこども園","w":null,"c":null,"vacancy":[0,0,0,0,0,0]},
     {"id":"南畑幼稚園・なんばた保育園","name":"南畑幼稚園・なんばた保育園","w":null,"c":null,"vacancy":[0,0,0,0,0,0]},

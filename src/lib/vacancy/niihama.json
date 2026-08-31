@@ -1,21 +1,21 @@
 {
   "municipalitySlug": "niihama",
   "municipalityName": "新居浜市",
-  "asOf": "2026-08-26",
-  "fetchedAt": "2026-08-26",
+  "asOf": "2026-08-31",
+  "fetchedAt": "2026-08-31",
   "sourceName": "新居浜市「保育所等入所（園）受入可能児童数情報」",
   "sourceUrl": "https://www.city.niihama.lg.jp/soshiki/128/hoikusisetunonyuushomousikomihouhou.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.niihama.lg.jp/uploaded/attachment/83261.pdf"
+    "vacancy": "https://www.city.niihama.lg.jp/uploaded/attachment/83364.pdf"
   },
   "metrics": [
     "vacancy"
   ],
   "subtitle": "10月1日入所の受入可能児童数",
   "notes": [
-    "新居浜市が公開しているのは10月1日入所希望者向けの受入可能児童数で、2026-08-26時点のものです。",
-    "同じ資料に市全体の入所待ち人数も載っています。2026-08-26時点で0歳児17人、1歳児19人、2歳児8人、3歳児6人、4歳児2人、5歳児4人の合わせて56人です（うち待機児童は0人）。",
-    "令和８年８月２６日時点の情報であり、",
+    "新居浜市が公開しているのは10月1日入所希望者向けの受入可能児童数で、2026-08-31時点のものです。",
+    "同じ資料に市全体の入所待ち人数も載っています。2026-08-31時点で0歳児17人、1歳児19人、2歳児8人、3歳児6人、4歳児2人、5歳児4人の合わせて56人です（うち待機児童は0人）。",
+    "令和８年８月３１日時点の情報であり、",
     "令和８年４月１日時点での年齢で、該当欄を御確認ください。"
   ],
   "wards": [],
@@ -56,7 +56,7 @@
     {"id":"認定こども園グレース幼稚園","name":"認定こども園グレース幼稚園","w":null,"c":2,"vacancy":[2,0,3,0,0,4]},
     {"id":"認定こども園ひかり幼稚園","name":"認定こども園ひかり幼稚園","w":null,"c":2,"vacancy":[0,0,0,0,0,0]},
     {"id":"認定こども園菊本幼稚園","name":"認定こども園菊本幼稚園","w":null,"c":2,"vacancy":[0,0,0,0,0,0]},
-    {"id":"認定こども園愛光幼稚園","name":"認定こども園愛光幼稚園","w":null,"c":2,"vacancy":[0,0,2,0,0,0]},
+    {"id":"認定こども園愛光幼稚園","name":"認定こども園愛光幼稚園","w":null,"c":2,"vacancy":[0,0,0,0,0,0]},
     {"id":"かがやき保育園","name":"かがやき保育園","w":null,"c":3,"vacancy":[1,0,0,null,null,null]},
     {"id":"かがやきぷらす保育園","name":"かがやきぷらす保育園","w":null,"c":3,"vacancy":[0,0,0,null,null,null]},
     {"id":"ひまわり乳児園","name":"ひまわり乳児園","w":null,"c":3,"vacancy":[0,0,0,null,null,null]},
