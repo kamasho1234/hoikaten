@@ -1,0 +1,25 @@
+{
+  "slug": "haebaru",
+  "name": "南風原町",
+  "sourceName": "南風原町「入所に向けた空き状況」",
+  "indexUrl": "https://www.town.haebaru.lg.jp/soshiki/11/13031.html",
+  "pdf": {
+    "linkPattern": "空き状況"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 2
+  },
+  "categoryFrom": "none",
+  "metrics": [
+    "vacancy"
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "(20\\d{2})年(\\d{1,2})月(\\d{1,2})日"
+  },
+  "minFacilities": 15,
+  "notes": [
+    "町は表に基準日を書いていないため、掲載ページの更新日を基準日にしています。"
+  ]
+}

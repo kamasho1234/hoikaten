@@ -1,0 +1,28 @@
+{
+  "slug": "miyakojima",
+  "name": "宮古島市",
+  "sourceName": "宮古島市「認可保育施設の空き状況」",
+  "indexUrl": "https://www.city.miyakojima.lg.jp/kurashi/kodomo/kosodate/ninka-hoikuen.html",
+  "pdf": {
+    "linkPattern": "調整後"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 1,
+    "category": 0
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "vacancy"
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "空き状況\\s*（令和(\\d+)年(\\d{1,2})月(\\d{1,2})日時点"
+  },
+  "minFacilities": 40,
+  "notes": [
+    "入所調整後の空き状況です。",
+    "市は同じ資料に過去数か月分も載せていますが、当サイトは最新の1か月分だけを載せています。"
+  ],
+  "maxPages": 1
+}

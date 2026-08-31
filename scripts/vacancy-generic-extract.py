@@ -264,9 +264,13 @@ def extract_auto_table(pdf, conf):
     """PDFの表を、年齢の見出しを手がかりに読む"""
     stop = conf.get("stopSection")
     flip = bool(conf.get("transpose"))
+    # 同じPDFに過去数か月分を積み重ねる自治体がある（宮古島市は6か月分）。
+    # 最新は先頭ページなので、読むページ数で区切る。日付で止めると
+    # 翌月に資料が差し替わったとき設定が古くなって効かなくなる
+    max_pages = conf.get("maxPages")
     rows = []
     category = None
-    for page in pdf.pages:
+    for page in pdf.pages[:max_pages] if max_pages else pdf.pages:
         if stop and re.search(stop, page.extract_text() or ""):
             break
         for table in tables_of_page(page, conf.get("tableSettings")):

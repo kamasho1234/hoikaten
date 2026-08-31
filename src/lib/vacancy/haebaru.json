@@ -1,0 +1,343 @@
+{
+  "municipalitySlug": "haebaru",
+  "municipalityName": "南風原町",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "南風原町「入所に向けた空き状況」",
+  "sourceUrl": "https://www.town.haebaru.lg.jp/soshiki/11/13031.html",
+  "sourceFiles": {
+    "vacancy": "https://www.town.haebaru.lg.jp/uploaded/attachment/15324.pdf"
+  },
+  "metrics": [
+    "vacancy"
+  ],
+  "notes": [
+    "町は表に基準日を書いていないため、掲載ページの更新日を基準日にしています。"
+  ],
+  "wards": [],
+  "categories": [],
+  "facilities": [
+    {
+      "id": "宮平",
+      "name": "宮平",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        0,
+        7,
+        null
+      ]
+    },
+    {
+      "id": "津嘉山",
+      "name": "津嘉山",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        0,
+        3,
+        0
+      ]
+    },
+    {
+      "id": "かねぐすく",
+      "name": "かねぐすく",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "南風原はなぞの",
+      "name": "南風原はなぞの",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "若夏",
+      "name": "若夏",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        1,
+        5,
+        null
+      ]
+    },
+    {
+      "id": "みつわ",
+      "name": "みつわ",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "さんご",
+      "name": "さんご",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "はえばる",
+      "name": "はえばる",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        1,
+        0,
+        3,
+        null
+      ]
+    },
+    {
+      "id": "マイフレンズ",
+      "name": "マイフレンズ",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        2,
+        0,
+        4,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "てぃだ",
+      "name": "てぃだ",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        0,
+        6,
+        null
+      ]
+    },
+    {
+      "id": "なのはな",
+      "name": "なのはな",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        2,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "よなは",
+      "name": "よなは",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        1,
+        0,
+        5,
+        0
+      ]
+    },
+    {
+      "id": "ももの木",
+      "name": "ももの木",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ]
+    },
+    {
+      "id": "やまがわ",
+      "name": "やまがわ",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        3,
+        1,
+        3,
+        null
+      ]
+    },
+    {
+      "id": "南風原やまびこ",
+      "name": "南風原やまびこ",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        2,
+        1,
+        null
+      ]
+    },
+    {
+      "id": "明星",
+      "name": "明星",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "よなは第2",
+      "name": "よなは第2",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        0,
+        4,
+        6
+      ]
+    },
+    {
+      "id": "よいサマリヤ人",
+      "name": "よいサマリヤ人",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        1,
+        2,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "くわの実",
+      "name": "くわの実",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        1,
+        1,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "たいようのおか",
+      "name": "たいようのおか",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        1,
+        0,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "ぱすてる",
+      "name": "ぱすてる",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        3,
+        0,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "ひまわり",
+      "name": "ひまわり",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        1,
+        3,
+        0,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "開邦幼稚園(2号・3号認定)",
+      "name": "開邦幼稚園(2号・3号認定)",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        6,
+        6,
+        7,
+        4
+      ]
+    }
+  ]
+}
