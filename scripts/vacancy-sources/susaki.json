@@ -1,0 +1,61 @@
+{
+  "slug": "susaki",
+  "name": "須崎市",
+  "sourceName": "須崎市「保育施設空き状況」",
+  "indexUrl": "https://www.city.susaki.lg.jp/life/detail.php?hdnKey=5753",
+  "pdf": {
+    "linkPattern": "空き状況"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 0,
+    "ages": [
+      6,
+      8,
+      10,
+      13,
+      16,
+      19
+    ]
+  },
+  "categoryFrom": "none",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○",
+    "◯": "○",
+    "―": "×",
+    "－": "×",
+    "-": "×",
+    "‐": "×"
+  },
+  "noClassMarks": [],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "3名以上の空き",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1〜2名の空き",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "空き状況（令和(\\d+)年(\\d{1,2})月(\\d{1,2})日時点"
+  },
+  "minFacilities": 6,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "市の表では空きなしを「―」で表しています。当サイトでは「×（空きなし）」として表示しています。",
+    "空きがあっても申し込み状況によっては必ず入所できるとは限らないと市が案内しています。"
+  ]
+}

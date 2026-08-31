@@ -146,11 +146,15 @@ async function run(slug: string): Promise<void> {
   const pickPdf = (spec: PdfSpec): string => {
     if (spec.url) return new URL(spec.url, conf.indexUrl).toString();
     if (!spec.linkPattern) return conf.indexUrl;
-    const re = /<a[^>]+href="([^"]+\.pdf[^"]*)"[^>]*>([\s\S]{0,600}?)<\/a>/gi;
+    // 須崎市のように download.php?fid=... でPDFを配る自治体があるので、
+    // 拡張子だけでなく「リンクの文字が(PDF：〇KB)で終わる」形も拾う
+    const re = /<a[^>]+href="([^"]+)"[^>]*>([\s\S]{0,600}?)<\/a>/gi;
     const wanted = new RegExp(spec.linkPattern);
     const hits: string[] = [];
     for (const m of indexHtml.matchAll(re)) {
       const label = stripTags(m[2]).replace(/\s+/g, "");
+      const looksPdf = /\.pdf(\?|$|#)/i.test(m[1]) || /（?PDF[：:]/i.test(label);
+      if (!looksPdf) continue;
       if (wanted.test(label) || wanted.test(m[1])) {
         hits.push(new URL(m[1], conf.indexUrl).toString());
       }
