@@ -1,8 +1,8 @@
 """
 鴻巣市の「入所受入可能状況」PDFから表を抜き出す
 
-実行: python scripts/kounosu-pdf-extract.py <pdf>
-出力: 標準出力にJSON（fetch-kounosu-vacancy.ts から呼ぶ）
+実行: python scripts/konosu-pdf-extract.py <pdf>
+出力: 標準出力にJSON（fetch-konosu-vacancy.ts から呼ぶ）
 
 ## 表の作り
 - 1ページ・8列（区分／保育施設名／0歳児〜5歳児）

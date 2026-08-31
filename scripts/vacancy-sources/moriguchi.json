@@ -1,0 +1,23 @@
+{
+  "slug": "moriguchi",
+  "name": "守口市",
+  "sourceName": "守口市「認定こども園等（2・3号認定）受入可能枠一覧表」",
+  "indexUrl": "https://www.city.moriguchi.osaka.jp/kakukanoannai/kodomobu/hoikuyochienka/ninteikodomoentou/hoikusyonyuen/3052.html",
+  "pdf": {
+    "linkPattern": "ukeirewaku"
+  },
+  "layout": "auto-table",
+  "columns": { "name": 3, "category": 0 },
+  "metrics": ["vacancy"],
+  "subtitle": "翌月1日入園分の受入可能枠",
+  "asOf": {
+    "source": "pdf",
+    "pattern": "(20\\d{2})[．.](\\d{1,2})[．.](\\d{1,2})\\s*時点"
+  },
+  "minFacilities": 30,
+  "notes": [
+    "数は「随時利用調整の受入可能枠」です。市は「各数値等は、記載の時点のものであり、随時変更しています」としています。",
+    "原則、利用調整は前月10日（土日祝の場合は翌開庁日）に行われます。",
+    "認定こども園の幼稚園部分（1号認定）については、各園に直接問い合わせるよう案内されています。"
+  ]
+}

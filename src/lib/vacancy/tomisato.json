@@ -1,0 +1,283 @@
+{
+  "municipalitySlug": "tomisato",
+  "municipalityName": "富里市",
+  "asOf": "2026-08-01",
+  "fetchedAt": "2026-08-31",
+  "sourceName": "富里市「保育園・こども園の受入れ状況」",
+  "sourceUrl": "https://www.city.tomisato.lg.jp/kosodate/0000011014.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.tomisato.lg.jp/kosodate/0000011014.html"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。「／」は小規模保育の3歳児以上など、そのクラスがない欄です。",
+    "表中の年齢は令和8年4月1日時点での年齢です。",
+    "市は「受入予定がない場合でも、急遽空きが出ることがあります」としています。",
+    "受入れ可能な状況であっても、きょうだいと同じ月に同じ施設を希望する場合や保育士の加配体制が整っていない場合などにより保留となることがあります。"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "3名以上可能",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1名から2名までを目安",
+      "open": true
+    },
+    {
+      "mark": "✖",
+      "label": "現状受入予定なし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "葉山こども園",
+      "name": "葉山こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "✖",
+        "✖",
+        "✖",
+        "✖",
+        "✖",
+        "✖"
+      ]
+    },
+    {
+      "id": "向台こども園",
+      "name": "向台こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "✖",
+        "✖",
+        "✖",
+        "✖",
+        "✖",
+        "✖"
+      ]
+    },
+    {
+      "id": "末広幼稚園(保育部分)",
+      "name": "末広幼稚園(保育部分)",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        "✖",
+        "✖",
+        "✖",
+        "✖",
+        "✖"
+      ]
+    },
+    {
+      "id": "日吉台幼稚園(保育部分)",
+      "name": "日吉台幼稚園(保育部分)",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "✖",
+        "✖",
+        "✖",
+        "✖",
+        "✖",
+        "✖"
+      ]
+    },
+    {
+      "id": "富里保育園",
+      "name": "富里保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "✖",
+        "✖",
+        "✖",
+        "✖",
+        "△",
+        "✖"
+      ]
+    },
+    {
+      "id": "青空保育園",
+      "name": "青空保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "✖",
+        "✖",
+        "✖",
+        "✖",
+        "△",
+        "✖"
+      ]
+    },
+    {
+      "id": "AIAINURSERY富里",
+      "name": "AIAINURSERY富里",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "✖",
+        "✖",
+        "✖",
+        "✖",
+        "✖",
+        "✖"
+      ]
+    },
+    {
+      "id": "ことり保育園日吉台園",
+      "name": "ことり保育園日吉台園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "✖",
+        "✖",
+        "△",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "PuPu保育園富里園",
+      "name": "PuPu保育園富里園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "✖",
+        "✖",
+        "✖",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "日吉台にこにこパーク保育園",
+      "name": "日吉台にこにこパーク保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        "✖",
+        "✖",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "スクルドエンジェル保育園富里七栄園",
+      "name": "スクルドエンジェル保育園富里七栄園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "✖",
+        "✖",
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+}

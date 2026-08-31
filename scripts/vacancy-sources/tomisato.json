@@ -1,0 +1,54 @@
+{
+  "slug": "tomisato",
+  "name": "富里市",
+  "sourceName": "富里市「保育園・こども園の受入れ状況」",
+  "indexUrl": "https://www.city.tomisato.lg.jp/kosodate/0000011014.html",
+  "layout": "html-tables",
+  "columns": {
+    "name": 0
+  },
+  "categoryFrom": "none",
+  "nameTrim": [
+    "\\s*［[\\s\\S]*$"
+  ],
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○",
+    "×": "✖"
+  },
+  "noClassMarks": [
+    "／",
+    "/",
+    ""
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "3名以上可能",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1名から2名までを目安",
+      "open": true
+    },
+    {
+      "mark": "✖",
+      "label": "現状受入予定なし",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "(令和\\d+年\\d{1,2}月\\d{1,2}日)現在"
+  },
+  "minFacilities": 8,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。「／」は小規模保育の3歳児以上など、そのクラスがない欄です。",
+    "表中の年齢は令和8年4月1日時点での年齢です。",
+    "市は「受入予定がない場合でも、急遽空きが出ることがあります」としています。",
+    "受入れ可能な状況であっても、きょうだいと同じ月に同じ施設を希望する場合や保育士の加配体制が整っていない場合などにより保留となることがあります。"
+  ]
+}

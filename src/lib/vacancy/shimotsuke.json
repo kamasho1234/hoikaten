@@ -1,0 +1,398 @@
+{
+  "municipalitySlug": "shimotsuke",
+  "municipalityName": "下野市",
+  "asOf": "2026-08-20",
+  "fetchedAt": "2026-08-31",
+  "sourceName": "下野市「市内教育・保育施設（保育認定）の空き状況」",
+  "sourceUrl": "https://www.city.shimotsuke.lg.jp/1316/info-0000007773-3.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.shimotsuke.lg.jp/manage/contents/upload/6a86549a3d914.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。「―」は利用設定なし（そのクラスがない）です。",
+    "公式の表には一部の欄に「要相談」と添え書きがありますが、当サイトでは記号だけを載せています。詳しくは市にお問い合わせください。",
+    "市は「○であっても、申込者全員が希望の園に入園できるとは限りません」「施設の事情により入園できないこともあります」としています。",
+    "市外在住の人は、下野市内に住民登録がある人よりも優先度が低くなります。"
+  ],
+  "wards": [],
+  "categories": [
+    "公立保育園",
+    "私立保育園",
+    "認定こども園",
+    "小規模保育"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "3枠以上",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1〜2枠",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "受け入れなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "グリム保育園",
+      "name": "グリム保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "○",
+        "○",
+        "×",
+        "○"
+      ]
+    },
+    {
+      "id": "しば保育園",
+      "name": "しば保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "○",
+        "○",
+        "○",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "あおば保育園",
+      "name": "あおば保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "わかくさ保育園",
+      "name": "わかくさ保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "×",
+        "×",
+        "△",
+        "×",
+        "△"
+      ]
+    },
+    {
+      "id": "吉田保育園",
+      "name": "吉田保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "△",
+        "△",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "薬師寺幼稚園",
+      "name": "薬師寺幼稚園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "×",
+        "△",
+        "△",
+        "○",
+        "×"
+      ]
+    },
+    {
+      "id": "第二薬師寺幼稚園",
+      "name": "第二薬師寺幼稚園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "×",
+        "○",
+        "△",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "薬師寺幼稚園（分園）",
+      "name": "薬師寺幼稚園（分園）",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "認定みらいこども園",
+      "name": "認定みらいこども園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "△"
+      ]
+    },
+    {
+      "id": "愛泉幼稚園",
+      "name": "愛泉幼稚園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "△",
+        "△",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "第二愛泉幼稚園",
+      "name": "第二愛泉幼稚園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "×",
+        "△",
+        "△",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "むつみこども園",
+      "name": "むつみこども園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        "○",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "認定わかばこども園",
+      "name": "認定わかばこども園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "△"
+      ]
+    },
+    {
+      "id": "認定こがねいこども園",
+      "name": "認定こがねいこども園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "×",
+        "△",
+        "×",
+        "△",
+        "×"
+      ]
+    },
+    {
+      "id": "野ばら幼稚園",
+      "name": "野ばら幼稚園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "△",
+        "△",
+        "△",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "にこにこ保育園",
+      "name": "にこにこ保育園",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "△",
+        "△",
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+}

@@ -725,7 +725,7 @@ const EXPECTED: Record<
     symbolCounts: { "×": 98, "△": 46, "○": 7 },
   },
   // 鴻巣市は小規模保育施設・事業所内保育が3歳児以上を受け入れないと本文にある
-  kounosu: {
+  konosu: {
     asOf: "2026-08-18",
     facilityCount: 35,
     vacancy: 0,
@@ -1379,6 +1379,29 @@ const EXPECTED: Record<
     facilityCount: 33,
     vacancy: 0,
     symbolCounts: { "×": 92, "△": 70, "○": 4 },
+  },
+  sakura: {
+    asOf: "2026-08-01",
+    facilityCount: 44,
+    vacancy: 0,
+    symbolCounts: { "×": 162, "△": 67, "○": 15 },
+  },
+  shimotsuke: {
+    asOf: "2026-08-20",
+    facilityCount: 16,
+    vacancy: 0,
+    symbolCounts: { "×": 33, "△": 33, "○": 21 },
+  },
+  tomisato: {
+    asOf: "2026-08-01",
+    facilityCount: 11,
+    vacancy: 0,
+    symbolCounts: { "△": 4, "✖": 48 },
+  },
+  moriguchi: {
+    asOf: "2026-08-26",
+    facilityCount: 61,
+    vacancy: 26,
   },
 };
 

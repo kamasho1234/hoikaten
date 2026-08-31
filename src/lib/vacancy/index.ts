@@ -277,7 +277,7 @@ import warabiVacancy from "./warabi.json";
 import kamisuVacancy from "./kamisu.json";
 import osakiVacancy from "./osaki.json";
 import higashimatsuyamaVacancy from "./higashimatsuyama.json";
-import kounosuVacancy from "./kounosu.json";
+import konosuVacancy from "./konosu.json";
 import kadomaVacancy from "./kadoma.json";
 import settsuVacancy from "./settsu.json";
 import kizugawaVacancy from "./kizugawa.json";
@@ -313,6 +313,10 @@ import fujiokaVacancy from "./fujioka.json";
 import nodaVacancy from "./noda.json";
 import itoshimaVacancy from "./itoshima.json";
 import kanumaVacancy from "./kanuma.json";
+import sakuraVacancy from "./sakura.json";
+import shimotsukeVacancy from "./shimotsuke.json";
+import tomisatoVacancy from "./tomisato.json";
+import moriguchiVacancy from "./moriguchi.json";
 
 export type {
   AgeSummary,
@@ -585,7 +589,7 @@ const registry: Record<string, VacancyDataset> = {
   kamisu: kamisuVacancy as unknown as VacancyDataset,
   osaki: osakiVacancy as unknown as VacancyDataset,
   higashimatsuyama: higashimatsuyamaVacancy as unknown as VacancyDataset,
-  kounosu: kounosuVacancy as unknown as VacancyDataset,
+  konosu: konosuVacancy as unknown as VacancyDataset,
   kadoma: kadomaVacancy as unknown as VacancyDataset,
   settsu: settsuVacancy as unknown as VacancyDataset,
   kizugawa: kizugawaVacancy as unknown as VacancyDataset,
@@ -621,6 +625,10 @@ const registry: Record<string, VacancyDataset> = {
   noda: nodaVacancy as unknown as VacancyDataset,
   itoshima: itoshimaVacancy as unknown as VacancyDataset,
   kanuma: kanumaVacancy as unknown as VacancyDataset,
+  sakura: sakuraVacancy as unknown as VacancyDataset,
+  shimotsuke: shimotsukeVacancy as unknown as VacancyDataset,
+  tomisato: tomisatoVacancy as unknown as VacancyDataset,
+  moriguchi: moriguchiVacancy as unknown as VacancyDataset,
 };
 
 export function getVacancyData(slug: string): VacancyDataset | undefined {

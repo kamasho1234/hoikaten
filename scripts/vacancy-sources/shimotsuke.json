@@ -1,0 +1,30 @@
+{
+  "slug": "shimotsuke",
+  "name": "下野市",
+  "sourceName": "下野市「市内教育・保育施設（保育認定）の空き状況」",
+  "indexUrl": "https://www.city.shimotsuke.lg.jp/1316/info-0000007773-3.html",
+  "pdf": {
+    "linkPattern": "\\.pdf"
+  },
+  "layout": "auto-table",
+  "columns": { "name": 1, "category": 0 },
+  "metrics": ["symbol"],
+  "symbolMap": { "〇": "○" },
+  "symbolTrim": ["要相談", "要", "相談"],
+  "symbolLegend": [
+    { "mark": "○", "label": "3枠以上", "open": true },
+    { "mark": "△", "label": "1〜2枠", "open": true },
+    { "mark": "×", "label": "受け入れなし", "open": false }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "【(令和\\d+年\\d{1,2}月\\d{1,2}日)時点】"
+  },
+  "minFacilities": 10,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。「―」は利用設定なし（そのクラスがない）です。",
+    "公式の表には一部の欄に「要相談」と添え書きがありますが、当サイトでは記号だけを載せています。詳しくは市にお問い合わせください。",
+    "市は「○であっても、申込者全員が希望の園に入園できるとは限りません」「施設の事情により入園できないこともあります」としています。",
+    "市外在住の人は、下野市内に住民登録がある人よりも優先度が低くなります。"
+  ]
+}

@@ -99,20 +99,33 @@ def rows_from_grid(grid, conf, category=None):
     # 同じ表の途中から別の制度の話になる自治体がある
     # （池田市の「送迎保育ステーションのバス空き見込み」など）。そこで読むのをやめる
     stop_row = conf.get("stopRow")
+    # 1施設が複数行に分かれる表（佐倉市は在籍/入園待ち/待機/空きの4行）では、
+    # どの行が空き状況かを列と値で指定する。施設名は先頭の行にしか入っていないので持ち回る
+    row_label = conf.get("rowLabel")
+    # 見出し行と本文で列がずれる表があるので、年齢の列を直接書けるようにする
+    fixed_ages = cols.get("ages")
 
     rows = []
     age_cols = None
     name_col = None
+    last_name = ""
+    if fixed_ages:
+        if len(fixed_ages) != 6:
+            fail("columns.ages は0歳〜5歳の6列を指定してください")
+        age_cols = {c: i for i, c in enumerate(fixed_ages)}
+        name_col = name_col_conf if name_col_conf is not None else 0
+
     for raw in grid:
         r = [cell(c) for c in raw]
         if stop_row and re.search(stop_row, "".join(r)):
             break
         # 年齢の見出しが3つ以上並ぶ行を、見出し行とみなす
         ages = {}
-        for j, c in enumerate(r):
-            a = age_of_header(c)
-            if a is not None and a not in ages.values():
-                ages[j] = a
+        if not fixed_ages:
+            for j, c in enumerate(r):
+                a = age_of_header(c)
+                if a is not None and a not in ages.values():
+                    ages[j] = a
         if len(ages) >= 3:
             age_cols = ages
             name_col = name_col_conf if name_col_conf is not None else min(ages) - 1
@@ -142,6 +155,20 @@ def rows_from_grid(grid, conf, category=None):
             for pat in name_trim:
                 src = re.sub(pat, "", src)
             name = cell(src)
+        if row_label:
+            # 施設名は先頭の行にしかないので覚えておく。
+            # 類型（公立/民間など）も同じ行にあるため、ここで先に取り込む
+            if name:
+                last_name = name
+            if cat_col is not None and len(r) > cat_col and r[cat_col]:
+                text = r[cat_col]
+                for pat in conf.get("categoryTrim", []):
+                    text = re.sub(pat, "", text)
+                category = text.strip() or category
+            label_col = row_label["column"]
+            if len(r) <= label_col or r[label_col] != cell(row_label["value"]):
+                continue
+            name = last_name
         if not name or age_of_header(name) is not None:
             continue
         if any(x and x in name for x in skip):
@@ -174,6 +201,11 @@ def rows_from_grid(grid, conf, category=None):
             if text in no_class:
                 continue
             if as_symbol:
+                # 記号のセルに注記が同居している自治体がある（下野市の「〇 要相談」など）
+                for pat in conf.get("symbolTrim", []):
+                    text = re.sub(pat, "", text)
+                if not text:
+                    continue
                 symbols[age] = symbol_map.get(text, text)
                 ok = True
             else:

@@ -1,7 +1,7 @@
 /**
  * 鴻巣市の入所受入可能状況を取り込む
  *
- * 実行: npm run vacancy:fetch:kounosu
+ * 実行: npm run vacancy:fetch:konosu
  *
  * ## この自治体の特徴
  * - 記号は ○＝3人以上の受入れ可、△＝1〜2人程度の受入れ可、×＝受入れ不可
@@ -17,7 +17,7 @@ import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
 
-const MUNICIPALITY_SLUG = "kounosu";
+const MUNICIPALITY_SLUG = "konosu";
 const MUNICIPALITY_NAME = "鴻巣市";
 const SOURCE_NAME = "鴻巣市「保育施設入所受入可能状況」";
 const INDEX_URL = "https://www.city.kounosu.saitama.jp/page/38231.html";
@@ -26,7 +26,7 @@ const MIN_FACILITIES = 25;
 const UA = "Mozilla/5.0 (compatible; hoikaten/1.0; +https://hoikaten.com)";
 
 const OUT_PATH = path.join(process.cwd(), "src", "lib", "vacancy", `${MUNICIPALITY_SLUG}.json`);
-const EXTRACTOR = path.join(process.cwd(), "scripts", "kounosu-pdf-extract.py");
+const EXTRACTOR = path.join(process.cwd(), "scripts", "konosu-pdf-extract.py");
 
 /** 本文に「3歳児以上の受入れはしておりません」と書かれている区分 */
 const ZERO_TO_TWO_KINDS = ["小規模保育施設", "事業所内保育"];
@@ -104,13 +104,13 @@ async function main() {
   const link = links[0];
   console.log(`PDF: ${link.text}\n  ${link.url}`);
 
-  const tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), "kounosu-vacancy-"));
+  const tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), "konosu-vacancy-"));
   try {
     const r = await fetch(link.url, { headers: { "User-Agent": UA } });
     if (!r.ok) fail(`PDFの取得に失敗しました（${r.status}）: ${link.url}`);
     const buf = Buffer.from(await r.arrayBuffer());
     if (buf.subarray(0, 4).toString() !== "%PDF") fail(`PDFではありません: ${link.url}`);
-    const file = path.join(tmpDir, "kounosu.pdf");
+    const file = path.join(tmpDir, "konosu.pdf");
     fs.writeFileSync(file, buf);
 
     let pdf: PdfResult;
@@ -246,7 +246,6 @@ async function main() {
     const dataset = {
       municipalitySlug: MUNICIPALITY_SLUG,
       municipalityName: MUNICIPALITY_NAME,
-      prefecture: "埼玉県",
       asOf,
       fetchedAt: todayJst(),
       sourceName: SOURCE_NAME,

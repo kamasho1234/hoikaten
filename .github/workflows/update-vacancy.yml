@@ -1135,9 +1135,9 @@ jobs:
         run: npm run vacancy:fetch:higashimatsuyama
 
       - name: 鴻巣市を取り込む
-        id: kounosu
+        id: konosu
         continue-on-error: true
-        run: npm run vacancy:fetch:kounosu
+        run: npm run vacancy:fetch:konosu
 
       - name: 門真市を取り込む
         id: kadoma
@@ -1416,7 +1416,7 @@ jobs:
               *kamisu.json) MSG="$MSG 神栖市（$(node -p "require('./src/lib/vacancy/kamisu.json').asOf")時点）" ;;
               *osaki.json) MSG="$MSG 大崎市（$(node -p "require('./src/lib/vacancy/osaki.json').asOf")時点）" ;;
               *higashimatsuyama.json) MSG="$MSG 東松山市（$(node -p "require('./src/lib/vacancy/higashimatsuyama.json').asOf")時点）" ;;
-              *kounosu.json) MSG="$MSG 鴻巣市（$(node -p "require('./src/lib/vacancy/kounosu.json').asOf")時点）" ;;
+              *konosu.json) MSG="$MSG 鴻巣市（$(node -p "require('./src/lib/vacancy/konosu.json').asOf")時点）" ;;
               *kadoma.json) MSG="$MSG 門真市（$(node -p "require('./src/lib/vacancy/kadoma.json').asOf")時点）" ;;
               *settsu.json) MSG="$MSG 摂津市（$(node -p "require('./src/lib/vacancy/settsu.json').asOf")時点）" ;;
               *kizugawa.json) MSG="$MSG 木津川市（$(node -p "require('./src/lib/vacancy/kizugawa.json').asOf")時点）" ;;

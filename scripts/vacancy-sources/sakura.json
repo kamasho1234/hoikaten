@@ -1,0 +1,30 @@
+{
+  "slug": "sakura",
+  "name": "佐倉市",
+  "sourceName": "佐倉市「保育施設・事業所の入園状況・待機児童等の状況」",
+  "indexUrl": "https://www.city.sakura.lg.jp/soshiki/kodomohoikuka/oshirase/2826.html",
+  "pdf": {
+    "linkPattern": "akijoukyou"
+  },
+  "layout": "auto-table",
+  "columns": { "name": 2, "category": 1, "ages": [6, 7, 8, 9, 10, 11] },
+  "rowLabel": { "column": 5, "value": "空き状況" },
+  "metrics": ["symbol"],
+  "symbolMap": { "〇": "○" },
+  "symbolLegend": [
+    { "mark": "○", "label": "4人以上空きあり", "open": true },
+    { "mark": "△", "label": "1〜3人の空きあり", "open": true },
+    { "mark": "×", "label": "空きなし", "open": false }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "（(令和\\d+年\\d{1,2}月\\d{1,2}日)）"
+  },
+  "minFacilities": 25,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "公式の一覧は在籍人数・入園待ち人数・待機児童数・空き状況の4行で1施設を表しています。当サイトはこのうち空き状況の行を取り込んでいます。",
+    "市は「空きがあっても申込状況等によっては、必ず入園できるわけではありません」「保育士の配置状況等により、空き状況が変動する場合があります」としています。",
+    "「在籍人数」等は前月の入園選考会議終了後の人数及び状況です。"
+  ]
+}
