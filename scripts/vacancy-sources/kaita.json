@@ -1,0 +1,43 @@
+{
+  "slug": "kaita",
+  "name": "海田町",
+  "sourceName": "海田町「町内保育施設の空き状況」",
+  "indexUrl": "https://www.town.kaita.lg.jp/soshiki/14/141287.html",
+  "pdf": {
+    "linkPattern": "空き状況"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 2,
+    "category": 0
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○",
+    "◯": "○"
+  },
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "空きあり",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "令和(\\d+)年(\\d{1,2})月(\\d{1,2})日時点"
+  },
+  "minFacilities": 8,
+  "notes": [
+    "町は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "各年齢は4月1日時点のものです。"
+  ]
+}

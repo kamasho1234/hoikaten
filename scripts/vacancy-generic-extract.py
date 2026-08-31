@@ -265,9 +265,15 @@ def extract_auto_table(pdf, conf):
         if stop and re.search(stop, page.extract_text() or ""):
             break
         for table in tables_of_page(page, conf.get("tableSettings")):
+            flat = "".join(cell(c) for r in table for c in r)
             # 別の制度の表（池田市の送迎保育ステーションなど）は表ごと読み飛ばす
             skip = conf.get("skipTablesContaining")
-            if skip and re.search(skip, "".join(cell(c) for r in table for c in r)):
+            if skip and re.search(skip, flat):
+                continue
+            # 1号認定（教育利用）と2号・3号認定の表を同じPDFに並べる自治体では、
+            # 同じ園が両方に出てくる。読む表そのものを絞れるようにする（阿南市）
+            only = conf.get("keepTablesMatching")
+            if only and not re.search(only, flat):
                 continue
             got, category = rows_from_grid(transpose_grid(table) if flip else table, conf, category)
             rows.extend(got)

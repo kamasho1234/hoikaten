@@ -1,0 +1,52 @@
+{
+  "slug": "anan",
+  "name": "阿南市",
+  "sourceName": "阿南市「保育施設の空き状況」",
+  "indexUrl": "https://www.city.anan.tokushima.jp/docs/2021122700065/",
+  "pdf": {
+    "linkPattern": "空き状況"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 0
+  },
+  "categoryFrom": "none",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○",
+    "◯": "○"
+  },
+  "skipRowsMatching": "問い合わせ",
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "2名以上の空き",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1名の空き",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "令和(\\d+)年度\\s*\\d{1,2}\\s*月\\s*(\\d{1,2})月(\\d{1,2})日",
+    "order": "ymd"
+  },
+  "minFacilities": 25,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "市は表に基準日を書いていないため、掲載ページの更新日を基準日にしています。",
+    "児童の入退所や施設の事情により、入所選考時点で変更になる場合があると市が案内しています。",
+    "市は1号認定（教育利用）の表も同じ資料に載せていますが、当サイトは保育を必要とする2号・3号認定の表だけを載せています。"
+  ],
+  "keepTablesMatching": "富岡保育所"
+}

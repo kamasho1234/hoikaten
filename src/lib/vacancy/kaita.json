@@ -1,0 +1,279 @@
+{
+  "municipalitySlug": "kaita",
+  "municipalityName": "海田町",
+  "asOf": "2026-08-01",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "海田町「町内保育施設の空き状況」",
+  "sourceUrl": "https://www.town.kaita.lg.jp/soshiki/14/141287.html",
+  "sourceFiles": {
+    "vacancy": "https://www.town.kaita.lg.jp/uploaded/attachment/20723.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "町は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "各年齢は4月1日時点のものです。"
+  ],
+  "wards": [],
+  "categories": [
+    "保育所",
+    "認定こども園"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "空きあり",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "つくも保育所",
+      "name": "つくも保育所",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "明光保育園",
+      "name": "明光保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        "×",
+        "×",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "龍洞保育園",
+      "name": "龍洞保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "×",
+        "×",
+        "○",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "小さくら保育所",
+      "name": "小さくら保育所",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "海田保育園",
+      "name": "海田保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "さいわい保育園",
+      "name": "さいわい保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "みどりのなぁーさりぃ",
+      "name": "みどりのなぁーさりぃ",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "こうわ認定こども園海田",
+      "name": "こうわ認定こども園海田",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "みどりのもりこどもえん",
+      "name": "みどりのもりこどもえん",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "こうわ認定こども園海田第二",
+      "name": "こうわ認定こども園海田第二",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "海田みどり幼稚園",
+      "name": "海田みどり幼稚園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "×",
+        "×",
+        "×",
+        "○",
+        "×"
+      ]
+    }
+  ]
+}

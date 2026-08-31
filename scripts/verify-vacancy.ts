@@ -1622,6 +1622,30 @@ const EXPECTED: Record<
     facilityCount: 8,
     vacancy: 39,
   },
+  shiwa: {
+    asOf: "2026-08-26",
+    facilityCount: 14,
+    vacancy: 0,
+    symbolCounts: { "×": 44, "△": 14, "○": 5 },
+  },
+  "fuchu-hiroshima-city": {
+    asOf: "2026-08-20",
+    facilityCount: 12,
+    vacancy: 0,
+    symbolCounts: { "△": 20, "×": 20, "○": 18 },
+  },
+  kaita: {
+    asOf: "2026-08-01",
+    facilityCount: 11,
+    vacancy: 0,
+    symbolCounts: { "×": 47, "○": 13 },
+  },
+  anan: {
+    asOf: "2026-08-05",
+    facilityCount: 29,
+    vacancy: 0,
+    symbolCounts: { "×": 85, "○": 45, "△": 14 },
+  },
   akaiwa: {
     asOf: "2026-08-17",
     facilityCount: 15,

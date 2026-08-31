@@ -1,0 +1,48 @@
+{
+  "slug": "shiwa",
+  "name": "紫波町",
+  "sourceName": "紫波町「保育所等の空き状況」",
+  "indexUrl": "https://www.town.shiwa.iwate.jp/soshiki/5_2/4_3/175852774225740/",
+  "pdf": {
+    "linkPattern": "空き状況"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 2,
+    "category": 0
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○",
+    "◯": "○"
+  },
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "受入可（3人以上）",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "受入可（2人以下）",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "受入不可",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "空き状況（令和(\\d+)年(\\d{1,2})月(\\d{1,2})日時点"
+  },
+  "minFacilities": 10,
+  "notes": [
+    "町は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "各年齢は4月2日時点のものです。"
+  ]
+}

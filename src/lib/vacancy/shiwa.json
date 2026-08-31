@@ -1,0 +1,351 @@
+{
+  "municipalitySlug": "shiwa",
+  "municipalityName": "紫波町",
+  "asOf": "2026-08-26",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "紫波町「保育所等の空き状況」",
+  "sourceUrl": "https://www.town.shiwa.iwate.jp/soshiki/5_2/4_3/175852774225740/",
+  "sourceFiles": {
+    "vacancy": "https://www.town.shiwa.iwate.jp/shiwatown/cms/soshiki/5_2/4_3/r0810akijoukyo.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "町は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "各年齢は4月2日時点のものです。"
+  ],
+  "wards": [],
+  "categories": [
+    "保育所",
+    "小規模保育所",
+    "こど認も定園"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "受入可（3人以上）",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "受入可（2人以下）",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "受入不可",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "古館保育所",
+      "name": "古館保育所",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "虹の保育園",
+      "name": "虹の保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "オガール保育園",
+      "name": "オガール保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "星山えほんの森保育園",
+      "name": "星山えほんの森保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "赤石えほんの森保育園",
+      "name": "赤石えほんの森保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "△",
+        "○",
+        "×"
+      ]
+    },
+    {
+      "id": "古館こぐま保育園",
+      "name": "古館こぐま保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "瑞穂こぐま保育園",
+      "name": "瑞穂こぐま保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "赤石うさぎ保育園",
+      "name": "赤石うさぎ保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "ニコニコ保育園紫波",
+      "name": "ニコニコ保育園紫波",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "ピースハートさくらまち保育園",
+      "name": "ピースハートさくらまち保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "△",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "アガペ保育園",
+      "name": "アガペ保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "認定こども園ひかりの子",
+      "name": "認定こども園ひかりの子",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "△",
+        "×",
+        "×",
+        "△",
+        "×"
+      ]
+    },
+    {
+      "id": "認定こども園赤石幼稚園赤石保育園",
+      "name": "認定こども園赤石幼稚園赤石保育園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "○",
+        "○",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "認定こども園あづま幼稚園",
+      "name": "認定こども園あづま幼稚園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        null,
+        "○",
+        "△",
+        "×"
+      ]
+    }
+  ]
+}
