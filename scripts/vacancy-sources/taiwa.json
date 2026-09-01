@@ -1,0 +1,58 @@
+{
+  "slug": "taiwa",
+  "name": "大和町",
+  "sourceName": "大和町「保育施設空き枠情報」",
+  "indexUrl": "https://www.town.taiwa.miyagi.jp/soshiki/kodomokatei/hoikushien/4326.html",
+  "layout": "html-tables",
+  "columns": {
+    "name": 0
+  },
+  "categoryFrom": "none",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○",
+    "◯": "○"
+  },
+  "noClassMarks": [
+    "-",
+    "－",
+    "ー",
+    "―",
+    "‐",
+    ""
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "3人以上",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1〜2人",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "更新日：(20\\d{2})年(\\d{1,2})月(\\d{1,2})日"
+  },
+  "minFacilities": 6,
+  "notes": [
+    "町は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "「-」は受入不可の年齢です。",
+    "2号・3号（保育認定）の情報です。1号（教育認定）の空き状況は各施設に問い合わせるよう町が案内しています。",
+    "空き状況は退園などにより変動するため変更になる場合があると町が案内しています。",
+    "町は表に基準日を書いていないため、掲載ページの更新日を基準日にしています。"
+  ],
+  "requireNameHeader": [
+    "施設名称"
+  ]
+}

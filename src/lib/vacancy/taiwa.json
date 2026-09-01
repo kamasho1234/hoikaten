@@ -1,0 +1,262 @@
+{
+  "municipalitySlug": "taiwa",
+  "municipalityName": "大和町",
+  "asOf": "2026-08-10",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "大和町「保育施設空き枠情報」",
+  "sourceUrl": "https://www.town.taiwa.miyagi.jp/soshiki/kodomokatei/hoikushien/4326.html",
+  "sourceFiles": {
+    "vacancy": "https://www.town.taiwa.miyagi.jp/soshiki/kodomokatei/hoikushien/4326.html"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "町は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "「-」は受入不可の年齢です。",
+    "2号・3号（保育認定）の情報です。1号（教育認定）の空き状況は各施設に問い合わせるよう町が案内しています。",
+    "空き状況は退園などにより変動するため変更になる場合があると町が案内しています。",
+    "町は表に基準日を書いていないため、掲載ページの更新日を基準日にしています。"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "3人以上",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1〜2人",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "もみじケ丘保育所（認可保育所）",
+      "name": "もみじケ丘保育所（認可保育所）",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "杜の丘保育園（認可保育所）",
+      "name": "杜の丘保育園（認可保育所）",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        "×",
+        "△",
+        "×"
+      ]
+    },
+    {
+      "id": "菜の花こども園（認定こども園・幼保連携型）",
+      "name": "菜の花こども園（認定こども園・幼保連携型）",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "○",
+        "×",
+        "△",
+        "×"
+      ]
+    },
+    {
+      "id": "大和すぎのここども園（認定こども園・幼保連携型）",
+      "name": "大和すぎのここども園（認定こども園・幼保連携型）",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "△",
+        "△",
+        "×",
+        "△",
+        "×"
+      ]
+    },
+    {
+      "id": "すみれの花こども園（認定こども園・幼保連携型）",
+      "name": "すみれの花こども園（認定こども園・幼保連携型）",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "○",
+        "×",
+        "△"
+      ]
+    },
+    {
+      "id": "みやの森こども園（認定こども園・幼保連携型）",
+      "name": "みやの森こども園（認定こども園・幼保連携型）",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "×",
+        "△",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "もみじが丘幼稚園（認定こども園・幼稚園型）",
+      "name": "もみじが丘幼稚園（認定こども園・幼稚園型）",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        null,
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "バイリンガル保育園吉岡（小規模保育事業）",
+      "name": "バイリンガル保育園吉岡（小規模保育事業）",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "バイリンガル保育園杜の丘（小規模保育事業）",
+      "name": "バイリンガル保育園杜の丘（小規模保育事業）",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "たいわっこ保育園（事業所内保育事業）",
+      "name": "たいわっこ保育園（事業所内保育事業）",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+}
