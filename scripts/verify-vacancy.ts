@@ -1970,6 +1970,12 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "×": 397, "△": 101, "○": 24 },
   },
+  joetsu: {
+    asOf: "2026-09-01",
+    facilityCount: 64,
+    vacancy: 0,
+    symbolCounts: { "×": 172, "△": 93, "○": 66, "◎": 51 },
+  },
   akaiwa: {
     asOf: "2026-08-17",
     facilityCount: 15,

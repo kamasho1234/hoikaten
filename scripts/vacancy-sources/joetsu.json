@@ -1,0 +1,94 @@
+{
+  "slug": "joetsu",
+  "name": "上越市",
+  "sourceName": "上越市「保育園・認定こども園（2・3号）の空き状況」",
+  "indexUrl": "https://www.city.joetsu.niigata.jp/soshiki/hoiku/hoikuakijokyou.html",
+  "pdf": {
+    "linkPattern": "空き状況一覧"
+  },
+  "layout": "side-by-side",
+  "blocks": [
+    {
+      "name": 2,
+      "ages": [
+        5,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": 12,
+      "ages": [
+        15,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    }
+  ],
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○",
+    "◯": "○"
+  },
+  "openMarks": [
+    "◎",
+    "○",
+    "△"
+  ],
+  "skipRowsContaining": [
+    "園名",
+    "所在地",
+    "電話番号",
+    "年齢別",
+    "歳",
+    "公立",
+    "私立",
+    "認定"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "◎",
+      "label": "6人以上の空きあり",
+      "open": true
+    },
+    {
+      "mark": "○",
+      "label": "3人〜5人の空きあり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1人〜2人の空きあり",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "令和(\\d+)年(\\d{1,2})月(\\d{1,2})日現在"
+  },
+  "minFacilities": 30,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "市は0歳と1歳をまとめて1つの欄で公表しています。当サイトでは0歳と1歳に同じ記号を入れています。",
+    "2号認定・3号認定（保育を必要とする方）の空き状況です。"
+  ],
+  "symbolTrim": [
+    "1歳児のみ",
+    "0歳児のみ",
+    "※.*$",
+    "　.*$"
+  ]
+}

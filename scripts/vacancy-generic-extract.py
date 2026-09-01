@@ -685,6 +685,12 @@ def extract_side_by_side(pdf, conf):
                     if not texts:
                         continue
                     if as_symbol:
+                        # 記号のセルに注記が同居する（上越市の「△1歳児のみ」）
+                        for pat in conf.get("symbolTrim", []):
+                            texts = [re.sub(pat, "", t) for t in texts]
+                        texts = [t for t in texts if t]
+                        if not texts:
+                            continue
                         vals = [symbol_map.get(t, t) for t in texts]
                         # 2列に割れている年齢は、片方でも空きがあれば空きとみなす
                         pick = next((v for v in vals if v in open_marks), vals[0])
