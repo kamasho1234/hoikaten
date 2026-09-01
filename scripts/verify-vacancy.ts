@@ -1874,6 +1874,12 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "×": 158, "△": 10, "○": 1 },
   },
+  taketoyo: {
+    asOf: "2026-08-24",
+    facilityCount: 13,
+    vacancy: 0,
+    symbolCounts: { "×": 33, "○": 30 },
+  },
   akaiwa: {
     asOf: "2026-08-17",
     facilityCount: 15,

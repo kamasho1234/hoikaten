@@ -546,9 +546,22 @@ class TableGrabber(HTMLParser):
 AGE_HEADER = re.compile(r"^([0-5０-５])歳児?(クラス)?(（[^）]*）|\([^)]*\))?$")
 
 
+# 年齢ではなく学年の呼び方で見出しを作る自治体がある（武豊町の「年長」「乳児0」）。
+# 設定 ageHeaderMap で上書きできるようにし、既定にもよくある呼び方を入れておく
+AGE_ALIASES = {
+    "年長": 5, "年中": 4, "年少": 3,
+    "乳児2": 2, "乳児1": 1, "乳児0": 0,
+    "2歳": 2, "1歳": 1, "0歳": 0,
+}
+_age_alias_override = {}
+
+
 def age_of_header(text):
     """「1歳児」「１歳」を 1 にする。年齢の見出しでなければ None"""
-    m = AGE_HEADER.match(cell(text))
+    t = cell(text)
+    if t in _age_alias_override:
+        return _age_alias_override[t]
+    m = AGE_HEADER.match(t)
     if not m:
         return None
     return int(m.group(1).translate(ZEN))
@@ -673,6 +686,11 @@ def main():
     pdf_path, conf_path = sys.argv[1], sys.argv[2]
     with open(conf_path, encoding="utf-8") as f:
         conf = json.load(f)
+
+    # 年齢の見出しに学年の呼び方を使う自治体のために、読み替え表を差し込む
+    alias = conf.get("ageHeaderMap")
+    if alias:
+        _age_alias_override.update({cell(k): v for k, v in alias.items()})
 
     layout = conf.get("layout", "one-table")
     if layout == "image-table":
