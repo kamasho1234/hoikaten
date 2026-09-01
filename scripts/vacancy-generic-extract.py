@@ -675,6 +675,24 @@ def main():
         conf = json.load(f)
 
     layout = conf.get("layout", "one-table")
+    if layout == "image-table":
+        # 紙をスキャンしただけのPDFは文字が入っていないので、罫線から升目を
+        # 割り出して1マスずつ読む。専用の重い処理なので別のファイルに置いている
+        import importlib.util
+        import os
+
+        spec = importlib.util.spec_from_file_location(
+            "vacancy_image_table", os.path.join(os.path.dirname(__file__), "vacancy-image-table.py")
+        )
+        vit = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(vit)
+        rows = vit.extract(open(pdf_path, "rb").read(), conf)
+        minimum = conf.get("minFacilities", 3)
+        if len(rows) < minimum:
+            fail(f"読み取れた施設が {len(rows)} 件で、想定の {minimum} 件を下回りました")
+        print(json.dumps({"rows": rows, "text": conf.get("imageAsOfText", "")}, ensure_ascii=False))
+        return
+
     if layout == "html-tables":
         rows = extract_html_tables(pdf_path, conf)
         minimum = conf.get("minFacilities", 3)

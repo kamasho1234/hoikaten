@@ -4,3 +4,10 @@ pdfplumber==0.11.9
 
 # 千葉市はExcelでも公表しているので、そちらを読む（scripts/chiba-vacancy-extract.py）。
 openpyxl==3.1.5
+
+# 紙をスキャンしただけの画像PDF（西尾市など）を読むために使う
+# （scripts/vacancy-image-table.py）。罫線から升目を割り出して1マスずつ読む。
+# 記号の見分け方が変わると取り込みが壊れるため、バージョンを固定する。
+opencv-python-headless==4.13.0.88
+PyMuPDF==1.27.2
+numpy==2.4.6

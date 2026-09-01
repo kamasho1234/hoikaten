@@ -51,6 +51,12 @@ jobs:
       - name: PDF読み取り用の依存をインストール
         run: pip install -r scripts/requirements.txt
 
+      # 西尾市などは空き状況を紙のスキャン画像のままPDFにしている。
+      # 文字が入っていないので、罫線から升目を割り出して1マスずつOCRで読む。
+      # 日本語の学習データは tesseract-ocr-jpn に入っている。
+      - name: 画像PDF読み取り用のOCRをインストール
+        run: sudo apt-get update && sudo apt-get install -y tesseract-ocr tesseract-ocr-jpn
+
       # 自治体ごとに独立したステップにする。
       # ひとつの自治体が公式側の都合で落ちても他の自治体の更新は取り込みたいので
       # continue-on-error で続行し、最後にまとめて失敗を報告する。
