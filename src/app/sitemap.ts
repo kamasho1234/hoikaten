@@ -230,22 +230,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  // 県別比較ページ（自治体2件以上の県のみ）
-  const prefCountBySlug = new Map(
-    prefectureSlugs.map((slug) => [
-      slug,
-      municipalities.filter((m) => m.prefecture === prefectureMap[slug]).length,
-    ])
-  );
-  const comparePrefPages = prefectureSlugs
-    .filter((slug) => (prefCountBySlug.get(slug) ?? 0) >= 2)
-    .map((slug) => ({
-      url: `${baseUrl}/compare/${slug}`,
-      lastModified: new Date(),
-      changeFrequency: "monthly" as const,
-      priority: 0.7,
-    }));
-
   const cityPages = municipalities.map((m) => ({
     url: `${baseUrl}/${m.slug}`,
     lastModified: new Date(),
@@ -338,14 +322,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly" as const,
       priority: 0.7,
     },
-    {
-      url: `${baseUrl}/compare`,
-      lastModified: new Date(),
-      changeFrequency: "monthly" as const,
-      priority: 0.7,
-    },
     ...prefecturePages,
-    ...comparePrefPages,
     ...cityPages,
     ...vacancyPages,
     ...articleListPages,

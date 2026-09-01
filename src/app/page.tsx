@@ -184,16 +184,6 @@ export default function Home() {
           </a>
         </div>
 
-        {/* 点数比較への導線 */}
-        <div className="text-center mb-10">
-          <a
-            href="/compare"
-            className="text-sm text-primary hover:underline font-medium"
-          >
-            都道府県別に自治体の点数を比較する →
-          </a>
-        </div>
-
         {/* 記事一覧 */}
         {articles.length > 0 && (
           <div className="border-t border-border/40 pt-10">
