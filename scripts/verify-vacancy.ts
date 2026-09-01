@@ -1982,6 +1982,58 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "□": 979, "△": 189, "×": 20 },
   },
+  hanamaki: {
+    asOf: "2026-08-03",
+    facilityCount: 41,
+    vacancy: 67,
+  },
+  nihonmatsu: {
+    asOf: "2026-08-17",
+    facilityCount: 19,
+    vacancy: 0,
+    symbolCounts: { "×": 76, "△": 15, "〇": 13 },
+  },
+  omitama: {
+    asOf: "2026-08-25",
+    facilityCount: 15,
+    vacancy: 0,
+    symbolCounts: { "△": 35, "×": 30, "〇": 15 },
+  },
+  matsubushi: {
+    asOf: "2026-08-14",
+    facilityCount: 5,
+    vacancy: 0,
+    symbolCounts: { "×": 25, "◎": 3, "△": 2 },
+  },
+  ranzan: {
+    asOf: "2026-08-01",
+    facilityCount: 6,
+    vacancy: 8,
+  },
+  "nakano-nagano": {
+    asOf: "2026-08-17",
+    facilityCount: 13,
+    vacancy: 0,
+    symbolCounts: { "×": 61, "〇": 10 },
+  },
+  ozu: {
+    asOf: "2026-08-10",
+    facilityCount: 16,
+    vacancy: 0,
+    symbolCounts: { "×": 34, "△": 27, "〇": 23 },
+  },
+  ureshino: {
+    asOf: "2026-08-26",
+    facilityCount: 14,
+    vacancy: 0,
+    symbolCounts: { "△": 43, "〇": 19, "×": 19 },
+  },
+  shinjo: {
+    asOf: "2026-08-27",
+    facilityCount: 15,
+    vacancy: 0,
+    symbolCounts: { "×": 41, "△": 22, "○": 10 },
+  },
   akaiwa: {
     asOf: "2026-08-17",
     facilityCount: 15,

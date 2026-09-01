@@ -1,0 +1,28 @@
+{
+  "slug": "ranzan",
+  "name": "嵐山町",
+  "sourceName": "嵐山町「町内認可保育所空き状況」",
+  "indexUrl": "https://www.town.ranzan.saitama.jp/0000005870.html",
+  "layout": "html-tables",
+  "nameFromHeading": true,
+  "headingTrim": [
+    "空き状況$"
+  ],
+  "columns": {
+    "name": 0
+  },
+  "categoryFrom": "none",
+  "metrics": [
+    "vacancy"
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "基準日\\s*令和(\\d+)\\s*年\\s*(\\d{1,2})\\s*月\\s*(\\d{1,2})\\s*日現在"
+  },
+  "minFacilities": 5,
+  "notes": [
+    "町は施設ごとに受入れ可能人数を公表しています。",
+    "事業所内保育所は0歳児から2歳児までの地域枠のみを公表しているため、3歳児以上は空欄にしています。",
+    "町は「空き状況は基準日時点での目安であり、状況は随時変わります」としています。"
+  ]
+}

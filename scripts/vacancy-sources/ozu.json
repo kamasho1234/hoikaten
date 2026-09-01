@@ -1,0 +1,47 @@
+{
+  "slug": "ozu",
+  "name": "大津町",
+  "sourceName": "大津町「大津町認可保育施設空き状況一覧」",
+  "indexUrl": "https://www.town.ozu.kumamoto.jp/site/kosodate/14373.html",
+  "pdf": {
+    "linkPattern": "空き状況一覧"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 2,
+    "category": 0
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "〇",
+      "label": "3人以上の受け入れが可能",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1〜2人の受け入れが可能",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "受け入れは難しい",
+      "open": false
+    }
+  ],
+  "symbolMap": {
+    "○": "〇"
+  },
+  "asOf": {
+    "source": "file"
+  },
+  "minFacilities": 12,
+  "notes": [
+    "町は空き状況を記号で公表しているため、当サイトも記号のまま載せています。",
+    "町の凡例で「ー」は預かりなし（その年齢のクラスがない）とされています。当サイトでは空欄にしています。",
+    "町は資料に基準日を書いていないため、資料が公開された日を時点として表示しています。"
+  ]
+}

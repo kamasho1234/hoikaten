@@ -1,0 +1,47 @@
+{
+  "slug": "nihonmatsu",
+  "name": "二本松市",
+  "sourceName": "二本松市「市内保育所等空き状況一覧」",
+  "indexUrl": "https://www.city.nihonmatsu.lg.jp/mama/hoiku/page013430.html",
+  "pdf": {
+    "linkPattern": "空き状況一覧"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 2,
+    "category": 1
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "〇",
+      "label": "3人以上の空きあり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1〜2人の空きあり",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし（0人）",
+      "open": false
+    }
+  ],
+  "symbolMap": {
+    "○": "〇"
+  },
+  "asOf": {
+    "source": "pdf",
+    "pattern": "空き状況一覧[（(]令和(\\d+)年(\\d{1,2})月(\\d{1,2})日現在"
+  },
+  "minFacilities": 15,
+  "notes": [
+    "市は各年齢の受入可能人数を記号で公表しているため、当サイトも記号のまま載せています。",
+    "空欄はその年齢のクラスを設けていない施設です（受入年齢が3歳児までの施設など）。"
+  ]
+}

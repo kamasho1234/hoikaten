@@ -1,0 +1,33 @@
+{
+  "slug": "hanamaki",
+  "name": "花巻市",
+  "sourceName": "花巻市「花巻市内認可保育施設の受入可能人数」",
+  "indexUrl": "https://www.city.hanamaki.iwate.jp/kosodate_kyoiku/kosodate/hoikuen_yochien/shisetsu_nyusho/hoikuen/1017811.html",
+  "pdf": {
+    "linkPattern": "受入可能人数"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 4,
+    "category": 1
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "vacancy"
+  ],
+  "zeroMarks": [
+    "ー",
+    "―",
+    "－"
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "令和(\\d+)年\\d{1,2}月入所受入可能児童数[（(](\\d{1,2})月(\\d{1,2})日現在"
+  },
+  "minFacilities": 35,
+  "notes": [
+    "市は受入可能人数が0の年齢を「ー」で示しています。当サイトでは0人として表示しています。",
+    "空欄はその年齢のクラスを設けていない施設です（小規模保育事業所の3歳児以上など）。当サイトでは数値を出さずに空欄のままにしています。",
+    "市は「空きのある園を希望しても、必ず入所できるというものではありません」としています。"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "nakano-nagano",
+  "name": "中野市",
+  "sourceName": "中野市「中野市認可保育施設 空き状況」",
+  "indexUrl": "https://www.city.nakano.nagano.jp/docs/2025091000027/",
+  "pdf": {
+    "linkPattern": "空き状況",
+    "pick": "last"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 0,
+    "category": 1
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "○": "〇"
+  },
+  "asOf": {
+    "source": "file"
+  },
+  "minFacilities": 10,
+  "notes": [
+    "市は空き状況を記号で公表しています。記号の意味は市が公表していないため、意味を推測して補うことはせず、記号だけをそのまま載せています。",
+    "空欄はその年齢のクラスを設けていない施設です。",
+    "市は「この表はあくまでも目安であり、入所をお約束するものではありません」としています。",
+    "市は資料に基準日を書いていないため、資料が公開された日を時点として表示しています。"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "〇",
+      "label": "中野市は記号の意味を公表していません",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "中野市は記号の意味を公表していません",
+      "open": false
+    }
+  ]
+}

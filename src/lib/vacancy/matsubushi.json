@@ -1,0 +1,156 @@
+{
+  "municipalitySlug": "matsubushi",
+  "municipalityName": "松伏町",
+  "asOf": "2026-08-14",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "松伏町「保育所（園）、認定こども園の年度途中入所・空き状況」",
+  "sourceUrl": "https://www.town.matsubushi.lg.jp/0000002585.html",
+  "sourceFiles": {
+    "vacancy": "https://www.town.matsubushi.lg.jp/0000002585.html"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "町は空き状況を記号で公表しているため、当サイトも記号のまま載せています。",
+    "町の表では空きなしを空欄で表しています。当サイトでは「×」に置き換えて表示しています（町の凡例に「空欄・・・空きなし」と明記されています）。",
+    "町は「各施設の受け入れ状況は直近の選考結果をお示しするものであり、次回の選考時の各施設の空き状況を約束するものではありません」としています。",
+    "時点は町の公式ページの更新日です。"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "◎",
+      "label": "5名以上の受け入れ可能",
+      "open": true
+    },
+    {
+      "mark": "〇",
+      "label": "3から4名の受け入れ可能",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1から2名の受け入れ可能",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "町立第一保育所",
+      "name": "町立第一保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        "◎",
+        "◎",
+        "◎"
+      ]
+    },
+    {
+      "id": "ゆたか保育園",
+      "name": "ゆたか保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "かしのき保育園",
+      "name": "かしのき保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "認定こども園こどものもり",
+      "name": "認定こども園こどものもり",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "認定こども園みどりの丘こども園",
+      "name": "認定こども園みどりの丘こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        "×",
+        "×",
+        "×"
+      ]
+    }
+  ]
+}

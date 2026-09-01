@@ -619,6 +619,19 @@ def extract_html_tables(html_path, conf):
         # 施設を横（列）に、年齢を縦（行）に並べる表がある（川越町）。
         # PDF と同じく縦横を入れ替えてから読む
         grid = transpose_grid(t["grid"]) if conf.get("transpose") else t["grid"]
+        # 施設ごとに小さな表を並べ、施設名は表の外の見出しにだけ書く自治体がある（嵐山町）。
+        # 表の中に名前が無いので、見出しの文字を各行の先頭に入れてから読む
+        if conf.get("nameFromHeading"):
+            name = heading
+            for pat in conf.get("headingTrim", []):
+                name = re.sub(pat, "", name)
+            name = name.strip()
+            if not name:
+                continue
+            grid = [list(row) for row in grid]
+            for i, row in enumerate(grid):
+                if i and row:
+                    row[0] = name
         got, carried = rows_from_grid(grid, conf, seed)
         if mode == "row":
             category = carried

@@ -1,0 +1,395 @@
+{
+  "municipalitySlug": "ozu",
+  "municipalityName": "大津町",
+  "asOf": "2026-08-10",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "大津町「大津町認可保育施設空き状況一覧」",
+  "sourceUrl": "https://www.town.ozu.kumamoto.jp/site/kosodate/14373.html",
+  "sourceFiles": {
+    "vacancy": "https://www.town.ozu.kumamoto.jp/uploaded/attachment/19563.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "町は空き状況を記号で公表しているため、当サイトも記号のまま載せています。",
+    "町の凡例で「ー」は預かりなし（その年齢のクラスがない）とされています。当サイトでは空欄にしています。",
+    "町は資料に基準日を書いていないため、資料が公開された日を時点として表示しています。"
+  ],
+  "wards": [],
+  "categories": [
+    "公立",
+    "私立"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "〇",
+      "label": "3人以上の受け入れが可能",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1〜2人の受け入れが可能",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "受け入れは難しい",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "大津保育園",
+      "name": "大津保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "×",
+        "〇",
+        "〇",
+        "〇"
+      ]
+    },
+    {
+      "id": "一宇保育園",
+      "name": "一宇保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "〇",
+        "〇",
+        "〇",
+        "〇",
+        "〇",
+        "〇"
+      ]
+    },
+    {
+      "id": "杉水保育園",
+      "name": "杉水保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "〇",
+        "〇",
+        "△",
+        "〇",
+        "△",
+        "〇"
+      ]
+    },
+    {
+      "id": "大津いちご保育園",
+      "name": "大津いちご保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "〇",
+        "△",
+        "×",
+        "×",
+        "×",
+        "△"
+      ]
+    },
+    {
+      "id": "よろこび保育園",
+      "name": "よろこび保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "第二よろこび保育園",
+      "name": "第二よろこび保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "△",
+        "×",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "大津音楽幼稚園",
+      "name": "大津音楽幼稚園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "△",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "白川幼稚園",
+      "name": "白川幼稚園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "×",
+        "〇",
+        "×",
+        "×",
+        "〇"
+      ]
+    },
+    {
+      "id": "緑ヶ丘保育園",
+      "name": "緑ヶ丘保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "〇",
+        "△",
+        "△",
+        "△",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "大津幼稚園",
+      "name": "大津幼稚園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "△",
+        "×",
+        "〇",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "風の子保育園",
+      "name": "風の子保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "白川保育園",
+      "name": "白川保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "△",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "みんなのおうち保育園",
+      "name": "みんなのおうち保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "おひさま保育園",
+      "name": "おひさま保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "△",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "ぴちゅ保育園",
+      "name": "ぴちゅ保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "〇",
+        "〇",
+        "〇",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "ちゅうりっぷ保育園",
+      "name": "ちゅうりっぷ保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "〇",
+        "〇",
+        "△",
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+}

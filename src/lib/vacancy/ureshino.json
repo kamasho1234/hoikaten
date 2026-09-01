@@ -1,0 +1,349 @@
+{
+  "municipalitySlug": "ureshino",
+  "municipalityName": "嬉野市",
+  "asOf": "2026-08-26",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "嬉野市「市内保育施設の空き状況」",
+  "sourceUrl": "https://www.city.ureshino.lg.jp/kosodate/hoikusho/_27905.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.ureshino.lg.jp/var/rev0/0053/4356/12682615217.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "市は空き状況を記号で公表しています。記号の意味は市が公表していないため、意味を推測して補うことはせず、記号だけをそのまま載せています。",
+    "市は「『○』の場合でも選考の結果等により入所できない場合もあります」としています。",
+    "資料には「令和8年8月調査時点」のように月までしか書かれていないため、資料が公開された日を時点として表示しています（資料に書かれた年月と一致することを確かめています）。",
+    "市は施設の種別を「認こ」「小保」と略して書いていますが、正式な呼び方を公表していないため、当サイトでは種別を載せていません。"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "〇",
+      "label": "嬉野市は記号の意味を公表していません",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "嬉野市は記号の意味を公表していません",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "嬉野市は記号の意味を公表していません",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "嬉野りすの森保育園",
+      "name": "嬉野りすの森保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "〇",
+        "△",
+        "〇",
+        "△"
+      ]
+    },
+    {
+      "id": "みのり保育園",
+      "name": "みのり保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "〇",
+        "〇",
+        "〇",
+        "〇",
+        "〇"
+      ]
+    },
+    {
+      "id": "久間子守保育園",
+      "name": "久間子守保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "△",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "たちばなこども園",
+      "name": "たちばなこども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "〇",
+        "〇",
+        "〇",
+        "△",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "ルンビニこども園",
+      "name": "ルンビニこども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "〇",
+        "〇",
+        "△",
+        "△",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "井手川内保育園",
+      "name": "井手川内保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "〇",
+        "〇",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "認定こども園嬉野幼稚園",
+      "name": "認定こども園嬉野幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "△",
+        "△",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "岩屋保育園",
+      "name": "岩屋保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "△",
+        "△",
+        "△",
+        "△",
+        "×"
+      ]
+    },
+    {
+      "id": "下宿保育園",
+      "name": "下宿保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "△",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "うれしのつぼみ保育園",
+      "name": "うれしのつぼみ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "認定こども園吉田保育園",
+      "name": "認定こども園吉田保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "△",
+        "△",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "嬉野ルンビニこども園",
+      "name": "嬉野ルンビニこども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "△",
+        "×",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "和光幼稚園",
+      "name": "和光幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "△",
+        "△",
+        "〇",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "認定こども園塩田幼稚園",
+      "name": "認定こども園塩田幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "〇",
+        "×",
+        "〇",
+        "〇",
+        "〇"
+      ]
+    }
+  ]
+}

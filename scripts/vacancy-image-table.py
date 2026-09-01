@@ -328,16 +328,19 @@ def read_block(bw, xs, y0, y1, blk, conf, mode, empty, total_col):
     name_col, age_cols = blk["name"], blk["ages"]
     if name_col + 1 >= len(xs):
         return None
+    # 罫線が太い（二重線など）表では、内側に詰める幅を広げないと
+    # 線のかけらを記号と一緒に読んでしまう
+    pad = conf.get("cellPad", 3)
     name = read_name(cell(bw, xs[name_col], xs[name_col + 1], y0, y1)) or "?"
     values, symbols, ok = [None] * 6, [None] * 6, False
     for i, c in enumerate(age_cols):
         if c + 1 >= len(xs):
             continue
-        patch = cell(bw, xs[c], xs[c + 1], y0, y1)
+        patch = cell(bw, xs[c], xs[c + 1], y0, y1, pad=pad)
         if has_diagonal(patch):
             continue
         filled = len(denoise(patch).nonzero()[0])
-        if filled < max(60, patch.size * 0.025):
+        if filled < max(60, patch.size * conf.get("inkRatio", 0.025)):
             if mode == "number" and empty is not None:
                 values[i] = empty
                 ok = True
@@ -383,8 +386,25 @@ def read_table(pdf_bytes, conf):
 
 
 def read_page(pdf_bytes, conf, page):
+    """1ページを読む。表が縦に並ぶページは regions で表ごとに切り分ける"""
     dpi = conf.get("dpi", 300)
     img = render(pdf_bytes, page, dpi)
+    regions = conf.get("regions")
+    if not regions:
+        return read_region(img, conf, page)
+    rows = []
+    for i, reg in enumerate(regions):
+        h = img.shape[0]
+        y0 = int(h * reg.get("top", 0.0))
+        y1 = int(h * reg.get("bottom", 1.0))
+        if y1 - y0 < 40:
+            raise SystemExit(f"[中断] {page + 1}ページ目の{i + 1}つ目の表の切り出しが小さすぎます")
+        # 表ごとに列の作りが違うので、設定も表ごとのもので上書きする
+        rows.extend(read_region(img[y0:y1], {**conf, **reg}, page))
+    return rows
+
+
+def read_region(img, conf, page):
     xs, ys, bw = grid(img, conf.get("lineRatio", 0.3))
     if len(xs) < 4 or len(ys) < 4:
         raise SystemExit(f"[中断] {page + 1}ページ目に罫線が見つかりません（縦{len(xs)}本 横{len(ys)}本）")
@@ -423,7 +443,7 @@ def read_page(pdf_bytes, conf, page):
             # 隣の行の斜線や罫線のかけらが少し写り込むので、
             # マスの広さに対する割合で「何も書かれていない」を判定する
             filled = len(denoise(patch).nonzero()[0])
-            if filled < max(60, patch.size * 0.025):
+            if filled < max(60, patch.size * conf.get("inkRatio", 0.025)):
                 # 何も書かれていないマス。意味は自治体によって違うので、
                 # 「空欄はこう読む」と設定に書いてあるときだけ値を入れる
                 if mode == "number" and empty is not None:

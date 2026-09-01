@@ -1,0 +1,107 @@
+{
+  "municipalitySlug": "ranzan",
+  "municipalityName": "嵐山町",
+  "asOf": "2026-08-01",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "嵐山町「町内認可保育所空き状況」",
+  "sourceUrl": "https://www.town.ranzan.saitama.jp/0000005870.html",
+  "sourceFiles": {
+    "vacancy": "https://www.town.ranzan.saitama.jp/0000005870.html"
+  },
+  "metrics": [
+    "vacancy"
+  ],
+  "notes": [
+    "町は施設ごとに受入れ可能人数を公表しています。",
+    "事業所内保育所は0歳児から2歳児までの地域枠のみを公表しているため、3歳児以上は空欄にしています。",
+    "町は「空き状況は基準日時点での目安であり、状況は随時変わります」としています。"
+  ],
+  "wards": [],
+  "categories": [],
+  "facilities": [
+    {
+      "id": "東昌保育園",
+      "name": "東昌保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "東昌第二保育園",
+      "name": "東昌第二保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "嵐山若草保育園",
+      "name": "嵐山若草保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "嵐山しらこばと保育園",
+      "name": "嵐山しらこばと保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "たいよう保育所",
+      "name": "たいよう保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "アサヒキッズランド嵐山花見台保育園",
+      "name": "アサヒキッズランド嵐山花見台保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+}

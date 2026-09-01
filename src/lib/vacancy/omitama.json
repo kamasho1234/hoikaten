@@ -1,0 +1,372 @@
+{
+  "municipalitySlug": "omitama",
+  "municipalityName": "小美玉市",
+  "asOf": "2026-08-25",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "小美玉市「保育所・認定こども園等の空き状況」",
+  "sourceUrl": "https://www.city.omitama.lg.jp/0023/info-0000001230-0.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.omitama.lg.jp/manage/contents/upload/6a83c1b4d1fa8.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "市は空き状況を記号で公表しているため、当サイトも記号のまま載せています。",
+    "空欄はその年齢のクラスを設けていない施設です（小規模保育事業・家庭的保育事業の3歳児以上など）。",
+    "市は「空き状況が『×』であっても、在籍児童の退所などにより入所できる場合があります」としています。",
+    "時点は市の公式ページの更新日です。",
+    "県央の杜保育園（企業主導型）は、市が空き状況を出さず「直接施設にお申し込みください」としているため、当サイトの一覧には載せていません。"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "〇",
+      "label": "4人以上の空きを見込んでいます",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1〜3人の空きを見込んでいます",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし（0人を見込んでいます）",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "ひばり保育園",
+      "name": "ひばり保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        "△",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "すずらん保育園",
+      "name": "すずらん保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "〇",
+        "△",
+        "〇",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "さくら保育園",
+      "name": "さくら保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "×",
+        "〇",
+        "×",
+        "×",
+        "△"
+      ]
+    },
+    {
+      "id": "さくら第2保育園",
+      "name": "さくら第2保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "〇",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "太陽保育園",
+      "name": "太陽保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "〇",
+        "〇",
+        "×",
+        "×",
+        "△"
+      ]
+    },
+    {
+      "id": "四季の杜保育園",
+      "name": "四季の杜保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "〇",
+        "△",
+        "×",
+        "△",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "万葉保育園（小規模保育事業）",
+      "name": "万葉保育園（小規模保育事業）",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "ミーム保育園",
+      "name": "ミーム保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "△",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "紡Tsumugu（家庭的保育事業）",
+      "name": "紡Tsumugu（家庭的保育事業）",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "認定こども園納場保育園",
+      "name": "認定こども園納場保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "×",
+        "△",
+        "×",
+        "△"
+      ]
+    },
+    {
+      "id": "認定こども園美野里",
+      "name": "認定こども園美野里",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        "〇",
+        "〇",
+        "〇",
+        "〇",
+        "〇"
+      ]
+    },
+    {
+      "id": "認定こども園はとり保育園",
+      "name": "認定こども園はとり保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "△",
+        "△",
+        "×"
+      ]
+    },
+    {
+      "id": "認定こども園玉里保育園",
+      "name": "認定こども園玉里保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "△",
+        "△",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "玉里第二保育園",
+      "name": "玉里第二保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "〇",
+        "〇",
+        "△",
+        "〇",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "認定こども園ルンビニー学園幼稚園",
+      "name": "認定こども園ルンビニー学園幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        null,
+        "△",
+        "△",
+        "△"
+      ]
+    }
+  ]
+}

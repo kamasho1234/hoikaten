@@ -57,8 +57,20 @@ type Config = {
   subtitle?: string;
   notes?: string[];
   categories?: string[];
-  /** 基準日の読み取り。source は "pdf"（PDF本文）か "page"（公式ページ本文） */
-  asOf: { source?: "pdf" | "page"; pattern: string; order?: "ymd" | "mdy" };
+  /**
+   * 基準日の読み取り。
+   * source は "pdf"（PDF本文）／"page"（公式ページ本文）／"file"（PDFの公開日）。
+   * "file" は資料にもページにも基準日が書かれていない自治体のためのもので、
+   * サーバーが返す Last-Modified を日本時間の日付にして使う。
+   * checkMonth を付けると、pattern で拾った年月と公開日の年月が一致するかを確かめ、
+   * 古い資料を新しいものと思い込む事故を防ぐ。
+   */
+  asOf: {
+    source?: "pdf" | "page" | "file";
+    pattern?: string;
+    order?: "ymd" | "mdy";
+    checkMonth?: boolean;
+  };
   minFacilities?: number;
 };
 
@@ -102,12 +114,22 @@ function toIsoDate(text: string): string | null {
   return null;
 }
 
-async function download(url: string, dest: string): Promise<Buffer> {
+async function download(
+  url: string,
+  dest: string,
+): Promise<{ buf: Buffer; lastModified: string | null }> {
   const res = await fetch(url, { headers: { "User-Agent": UA } });
   if (!res.ok) fail(`${url} が ${res.status} を返しました`);
   const buf = Buffer.from(await res.arrayBuffer());
   fs.writeFileSync(dest, buf);
-  return buf;
+  return { buf, lastModified: res.headers.get("last-modified") };
+}
+
+/** Last-Modified を日本時間の「YYYY-MM-DD」にする */
+function lastModifiedToJst(header: string): string {
+  const at = new Date(header);
+  if (Number.isNaN(at.getTime())) fail(`資料の公開日を読めません:「${header}」`);
+  return new Date(at.getTime() + 9 * 60 * 60 * 1000).toISOString().slice(0, 10);
 }
 
 /** 自治体のページは文字コードがまちまちなので、順に試して読む */
@@ -170,6 +192,8 @@ async function run(slug: string): Promise<void> {
   const rows: Array<Record<string, unknown>> = [];
   const sourceFiles: Record<string, string> = {};
   let docText = "";
+  /** この自治体の資料の公開日（Last-Modified）。asOf.source が "file" のときに使う */
+  let firstLastModified: string | null = null;
 
   for (const [i, spec] of specs.entries()) {
     const url = isHtml
@@ -181,7 +205,9 @@ async function run(slug: string): Promise<void> {
 
     const suffix = isHtml ? "html" : "pdf";
     const tmp = path.join(os.tmpdir(), `hoikaten-${slug}-${i}-${Date.now()}.${suffix}`);
-    const doc = await download(url, tmp);
+    const { buf: doc, lastModified } = await download(url, tmp);
+    // 資料の公開日は、自治体ごとに最初の1本のものを使う
+    if (firstLastModified === null) firstLastModified = lastModified;
     // HTMLの表を読むときは、基準日も同じページの本文から拾う
     if (isHtml && !pageText) pageText = stripTags(decodeHtml(doc));
 
@@ -208,8 +234,29 @@ async function run(slug: string): Promise<void> {
     sourceFiles[specs.length === 1 ? "vacancy" : `vacancy${i + 1}`] = url;
   }
 
+  // 資料にもページにも基準日がない自治体は、資料が公開された日を時点にする
+  if (conf.asOf.source === "file") {
+    if (!firstLastModified) fail("資料に Last-Modified がなく、時点を決められません");
+    const published = lastModifiedToJst(firstLastModified);
+    if (conf.asOf.checkMonth) {
+      if (!conf.asOf.pattern) fail("checkMonth を使うには asOf.pattern が要ります");
+      const m = toHankaku(docText || pageText).match(new RegExp(conf.asOf.pattern));
+      if (!m) fail("年月の確かめに使う文言が資料に見つかりません");
+      const year = Number(m[1]) < 1000 ? 2018 + Number(m[1]) : Number(m[1]);
+      const stated = `${year}-${String(Number(m[2])).padStart(2, "0")}`;
+      if (stated !== published.slice(0, 7)) {
+        fail(`資料に書かれた年月（${stated}）と公開日（${published}）が合いません`);
+      }
+    }
+    if (published > todayJst()) fail(`資料の公開日（${published}）が今日より先になっています`);
+    console.log(`基準日: ${published}（資料の公開日）/ 施設: ${rows.length}件`);
+    await writeDataset(conf, published, rows, sourceFiles);
+    return;
+  }
+
   // HTMLの表を読むときは、PDF本文がないのでページ本文から基準日を拾う
   const source = conf.asOf.source === "page" || isHtml ? pageText : docText;
+  if (!conf.asOf.pattern) fail("asOf.pattern がありません");
   const asOfMatch = toHankaku(source).match(new RegExp(conf.asOf.pattern));
   if (!asOfMatch) fail("基準日を読み取れませんでした");
   // 年・月・日を3つに分けて取る書き方（「2026（令和8）年3月17日」など）にも対応する
@@ -227,7 +274,15 @@ async function run(slug: string): Promise<void> {
   if (!asOf) fail(`基準日「${asOfMatch[0]}」を日付にできませんでした`);
   if (asOf > todayJst()) fail(`基準日（${asOf}）が今日より先になっています`);
   console.log(`基準日: ${asOf} / 施設: ${rows.length}件`);
+  await writeDataset(conf, asOf, rows, sourceFiles);
+}
 
+async function writeDataset(
+  conf: Config,
+  asOf: string,
+  rows: Array<Record<string, unknown>>,
+  sourceFiles: Record<string, string>,
+): Promise<void> {
   const categories = conf.categories ?? [];
   const seen = new Map<string, number>();
   const facilities = rows.map((r, i) => {
