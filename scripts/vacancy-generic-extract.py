@@ -627,6 +627,67 @@ def extract_html_tables(html_path, conf):
     return rows
 
 
+def extract_word_grid(pdf, conf):
+    """文字の位置から年齢の列を決めて読む
+
+    罫線はきれいなのに pdfplumber の表抽出だと値が隣のマスに寄ってしまう
+    PDFがある（江津市。空きのある年齢だけ数字を書く形）。
+    そういう表は、**年齢の見出しが紙のどこに置かれているか**を測り、
+    数字のx座標がどの見出しに近いかで年齢を決めたほうが確実に読める。
+    """
+    unit = conf.get("valueUnit", "人")
+    empty_value = conf.get("emptyValue")
+    skip = [cell(s) for s in conf.get("skipRowsContaining", [])]
+    rows = []
+    for page in pdf.pages:
+        words = page.extract_words()
+        # 年齢の見出しの中心x
+        centers = {}
+        for w in words:
+            m = re.fullmatch(r"([0-5０-５])歳児?", cell(w["text"]))
+            if m:
+                a = int(m.group(1).translate(ZEN))
+                centers.setdefault(a, (w["x0"] + w["x1"]) / 2)
+        if len(centers) != 6:
+            continue
+        left = min(centers.values())
+        # 行ごとに words をまとめる（同じ高さのものを1行とみなす）
+        lines = {}
+        for w in words:
+            key = round(w["top"] / 8)
+            lines.setdefault(key, []).append(w)
+        for key in sorted(lines):
+            ws = sorted(lines[key], key=lambda w: w["x0"])
+            # 施設名 = 年齢の見出しより左にある文字をつないだもの
+            name = "".join(cell(w["text"]) for w in ws if (w["x0"] + w["x1"]) / 2 < left - 10)
+            name = re.sub(r"[0-9０-９]+人?$", "", name)
+            if not name or age_of_header(name) is not None or "保育所名" in name:
+                continue
+            if any(x and x in name for x in skip):
+                continue
+            values = [None] * 6
+            ok = False
+            for w in ws:
+                t = cell(w["text"]).replace(unit, "")
+                if not re.fullmatch(r"\d+", t):
+                    continue
+                x = (w["x0"] + w["x1"]) / 2
+                if x < left - 10:
+                    continue
+                # いちばん近い年齢の見出しに割り当てる
+                a = min(centers, key=lambda k: abs(centers[k] - x))
+                if abs(centers[a] - x) > 40:
+                    continue
+                values[a] = int(t)
+                ok = True
+            if empty_value is not None:
+                values = [empty_value if v is None else v for v in values]
+                ok = True
+            if ok:
+                rows.append({"name": name, "vacancy": values})
+    return rows
+
+
 def extract_age_rows(pdf, conf):
     """
     1施設が「0歳児〜5歳児」の6行に縦に分かれ、列は入所月などになっている表を読む。
@@ -740,6 +801,8 @@ def main():
             rows = extract_one_table(pdf, conf)
         elif layout == "age-sections":
             rows = extract_age_sections(pdf, conf)
+        elif layout == "word-grid":
+            rows = extract_word_grid(pdf, conf)
         elif layout == "age-rows":
             rows = extract_age_rows(pdf, conf)
         else:

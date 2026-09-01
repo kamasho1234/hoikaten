@@ -1,0 +1,29 @@
+{
+  "slug": "gotsu",
+  "name": "江津市",
+  "sourceName": "江津市「保育所などの入所可能状況」",
+  "indexUrl": "https://www.city.gotsu.lg.jp/site/hoikusyo/3121.html",
+  "pdf": {
+    "linkPattern": "入所可能状況"
+  },
+  "layout": "word-grid",
+  "valueUnit": "人",
+  "emptyValue": 0,
+  "metrics": [
+    "vacancy"
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "令和\\s*(\\d+)\\s*年\\s*(\\d{1,2})\\s*月\\s*(\\d{1,2})\\s*日現在"
+  },
+  "minFacilities": 8,
+  "notes": [
+    "市は入所可能な人数だけを書き、空きのない年齢は空欄にしています。空欄は0人として扱っています。",
+    "市の表は数字が年齢の欄からずれて出るため、文字の位置から年齢を割り当てて読み取っています。"
+  ],
+  "skipRowsContaining": [
+    "令和",
+    "記載しています",
+    "保育所名"
+  ]
+}

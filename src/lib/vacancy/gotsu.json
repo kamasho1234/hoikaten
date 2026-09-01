@@ -1,0 +1,176 @@
+{
+  "municipalitySlug": "gotsu",
+  "municipalityName": "江津市",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "江津市「保育所などの入所可能状況」",
+  "sourceUrl": "https://www.city.gotsu.lg.jp/site/hoikusyo/3121.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.gotsu.lg.jp/uploaded/attachment/21772.pdf"
+  },
+  "metrics": [
+    "vacancy"
+  ],
+  "notes": [
+    "市は入所可能な人数だけを書き、空きのない年齢は空欄にしています。空欄は0人として扱っています。",
+    "市の表は数字が年齢の欄からずれて出るため、文字の位置から年齢を割り当てて読み取っています。"
+  ],
+  "wards": [],
+  "categories": [],
+  "facilities": [
+    {
+      "id": "渡津保育所",
+      "name": "渡津保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        1,
+        1,
+        4,
+        2,
+        3,
+        2
+      ]
+    },
+    {
+      "id": "めぐみ保育園",
+      "name": "めぐみ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        2,
+        0,
+        0,
+        5,
+        0
+      ]
+    },
+    {
+      "id": "さくらえ保育園",
+      "name": "さくらえ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "のぞみ保育園",
+      "name": "のぞみ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "敬川保育所",
+      "name": "敬川保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "波子保育所",
+      "name": "波子保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "たまえ保育園",
+      "name": "たまえ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "さくらこども園",
+      "name": "さくらこども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        2,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "あさりこども園",
+      "name": "あさりこども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "id": "うさぎ山こども園",
+      "name": "うさぎ山こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        1,
+        3,
+        1,
+        0,
+        7,
+        2
+      ]
+    },
+    {
+      "id": "里山子ども園わたぼうし",
+      "name": "里山子ども園わたぼうし",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}

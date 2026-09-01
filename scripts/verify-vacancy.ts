@@ -1954,6 +1954,11 @@ const EXPECTED: Record<
     facilityCount: 28,
     vacancy: 417,
   },
+  gotsu: {
+    asOf: "2026-09-01",
+    facilityCount: 11,
+    vacancy: 52,
+  },
   akaiwa: {
     asOf: "2026-08-17",
     facilityCount: 15,
