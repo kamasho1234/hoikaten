@@ -1,0 +1,34 @@
+{
+  "slug": "zushi",
+  "name": "逗子市",
+  "sourceName": "逗子市「保育所等入所可能人数・入所待ち人数一覧」",
+  "indexUrl": "https://www.city.zushi.kanagawa.jp/kosodate/egao/1002588/1002676/1002682/1002694/1014042.html",
+  "pdf": {
+    "linkPattern": "入所可能人数"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 1,
+    "category": 0
+  },
+  "categoryFrom": "row",
+  "rowLabel": {
+    "column": 2,
+    "value": "入所可能人数"
+  },
+  "metrics": [
+    "vacancy"
+  ],
+  "emptyValue": 0,
+  "asOf": {
+    "source": "pdf",
+    "pattern": "令和(\\d+)年(\\d{1,2})月(\\d{1,2})日時点"
+  },
+  "minFacilities": 10,
+  "notes": [
+    "市は入所可能人数がある年齢だけ人数を書き、それ以外は空欄にしています。当サイトでは空欄を0人として表示しています（市は空欄の意味を書いていません）。",
+    "小規模保育施設・家庭的保育事業は3歳児以上の受け入れがありませんが、市の表記にあわせて0人として表示しています。",
+    "市は入所待ち人数も公表していますが、当サイトでは入所可能人数だけを載せています。",
+    "市は「入所可能人数・入所待ち人数は常に変動します」としています。"
+  ]
+}

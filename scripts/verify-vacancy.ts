@@ -2077,6 +2077,17 @@ const EXPECTED: Record<
     facilityCount: 25,
     vacancy: 18,
   },
+  zushi: {
+    asOf: "2026-08-28",
+    facilityCount: 13,
+    vacancy: 20,
+  },
+  ashikaga: {
+    asOf: "2026-08-31",
+    facilityCount: 23,
+    vacancy: 0,
+    symbolCounts: { "×": 76, "△": 53, "〇": 9 },
+  },
   akaiwa: {
     asOf: "2026-08-17",
     facilityCount: 15,

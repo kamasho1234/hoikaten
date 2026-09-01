@@ -1,0 +1,45 @@
+{
+  "slug": "ashikaga",
+  "name": "足利市",
+  "sourceName": "足利市「保育施設受け入れ状況」",
+  "indexUrl": "https://www.city.ashikaga.tochigi.jp/health/000046/000225/000653/p004629.html",
+  "layout": "html-tables",
+  "columns": {
+    "name": 1,
+    "category": 0
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "○": "〇"
+  },
+  "symbolLegend": [
+    {
+      "mark": "〇",
+      "label": "足利市は記号の意味を公表していません",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "足利市は記号の意味を公表していません",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "足利市は記号の意味を公表していません",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "更新日\\s*令和(\\d+)年(\\d{1,2})月(\\d{1,2})日"
+  },
+  "minFacilities": 20,
+  "notes": [
+    "市は受け入れ状況を記号で公表しています。記号の意味は市が公表していないため、意味を推測して補うことはせず、記号だけをそのまま載せています。",
+    "市はこの表を「9月1日現在」など月初めの状況として出しています。当サイトの時点は市の公式ページの更新日です。",
+    "市は「月初めの情報ですので、現在の状況は随時お問い合わせください」としています。"
+  ]
+}
