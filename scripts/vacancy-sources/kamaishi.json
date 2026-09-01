@@ -1,0 +1,39 @@
+{
+  "slug": "kamaishi",
+  "name": "釜石市",
+  "sourceName": "釜石市「保育施設年齢別受入可能人数」",
+  "indexUrl": "https://www.city.kamaishi.iwate.jp/docs/2026022400084/",
+  "pdf": {
+    "linkPattern": "受入可能人数"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 1,
+    "category": 0
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "vacancy"
+  ],
+  "emptyValue": 0,
+  "noClassMarks": [
+    "-",
+    "‐",
+    "―",
+    "－",
+    "ー",
+    "/",
+    "／"
+  ],
+  "skipRowsMatching": "相談|ご相談",
+  "asOf": {
+    "source": "pdf",
+    "pattern": "令和(\\d+)年(\\d{1,2})月(\\d{1,2})日現在"
+  },
+  "minFacilities": 10,
+  "notes": [
+    "2号認定・3号認定の受入れ可能人数です。",
+    "表の年齢は4月2日時点のものです。",
+    "市は受入れがない年齢を「-」で公表しています。"
+  ]
+}

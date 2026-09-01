@@ -1,0 +1,195 @@
+{
+  "municipalitySlug": "kamaishi",
+  "municipalityName": "釜石市",
+  "asOf": "2026-08-01",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "釜石市「保育施設年齢別受入可能人数」",
+  "sourceUrl": "https://www.city.kamaishi.iwate.jp/docs/2026022400084/",
+  "sourceFiles": {
+    "vacancy": "https://www.city.kamaishi.iwate.jp/docs/2026022400084/file_contents/file_20267304112522_1.pdf"
+  },
+  "metrics": [
+    "vacancy"
+  ],
+  "notes": [
+    "2号認定・3号認定の受入れ可能人数です。",
+    "表の年齢は4月2日時点のものです。",
+    "市は受入れがない年齢を「-」で公表しています。"
+  ],
+  "wards": [],
+  "categories": [
+    "認定こども園",
+    "保育所",
+    "小規模保育事業所"
+  ],
+  "facilities": [
+    {
+      "id": "かまいしこども園",
+      "name": "かまいしこども園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "甲東こども園",
+      "name": "甲東こども園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        2,
+        null,
+        5,
+        5,
+        4
+      ]
+    },
+    {
+      "id": "正福寺幼稚園",
+      "name": "正福寺幼稚園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        0,
+        0,
+        0,
+        5,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "平田こども園",
+      "name": "平田こども園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        3,
+        null,
+        1,
+        5,
+        null,
+        1
+      ]
+    },
+    {
+      "id": "神愛こども園",
+      "name": "神愛こども園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        1,
+        2,
+        2,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "中妻子供の家保育園",
+      "name": "中妻子供の家保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        2,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "鵜住居保育園",
+      "name": "鵜住居保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        5,
+        1,
+        null,
+        3,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "ピッコロ子ども倶楽部桜木園",
+      "name": "ピッコロ子ども倶楽部桜木園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        4,
+        3,
+        null,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "スクルドエンジェル保育園かまいし園",
+      "name": "スクルドエンジェル保育園かまいし園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        2,
+        2,
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "虹の家(※)",
+      "name": "虹の家(※)",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        3,
+        3,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "きらきら保育園(※)",
+      "name": "きらきら保育園(※)",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        2,
+        3,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "上中島こども園",
+      "name": "上中島こども園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}

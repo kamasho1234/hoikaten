@@ -1932,6 +1932,17 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "○": 11, "▲": 4, "※": 3 },
   },
+  hekinan: {
+    asOf: "2026-09-01",
+    facilityCount: 17,
+    vacancy: 0,
+    symbolCounts: { "×": 75, "△": 23, "○": 4 },
+  },
+  kamaishi: {
+    asOf: "2026-08-01",
+    facilityCount: 12,
+    vacancy: 85,
+  },
   akaiwa: {
     asOf: "2026-08-17",
     facilityCount: 15,
