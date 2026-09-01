@@ -319,6 +319,8 @@ import { izumiotsuData } from './izumiotsu';
 import { fussaData } from './fussa';
 import { hamuraData } from './hamura';
 import { abikoData } from './abiko';
+import { tambaData } from './tamba';
+import { shimadaData } from './shimada';
 import { aganoData } from './agano';
 import { chinoData } from './chino';
 import { ohtawaraData } from './ohtawara';
@@ -763,6 +765,8 @@ const municipalityMap: Record<string, MunicipalityData> = {
   [sennanData.municipality.slug]: sennanData,
   [itomanData.municipality.slug]: itomanData,
   [abikoData.municipality.slug]: abikoData,
+  [tambaData.municipality.slug]: tambaData,
+  [shimadaData.municipality.slug]: shimadaData,
   [aganoData.municipality.slug]: aganoData,
   [chinoData.municipality.slug]: chinoData,
   [ohtawaraData.municipality.slug]: ohtawaraData,
