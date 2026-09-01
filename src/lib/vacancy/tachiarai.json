@@ -1,0 +1,173 @@
+{
+  "municipalitySlug": "tachiarai",
+  "municipalityName": "大刀洗町",
+  "asOf": "2026-08-17",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "大刀洗町「保育園空き状況」",
+  "sourceUrl": "https://www.town.tachiarai.fukuoka.jp/kosodate/kiji003353/index.html",
+  "sourceFiles": {
+    "vacancy": "https://www.town.tachiarai.fukuoka.jp/kosodate/kiji003353/3_353_4543_up_z4eydbp5.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "町は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "「○」「△」でも入所選考の結果によって入所できない場合があり、「×」でも退所や保育士の配置状況により入所できる場合があると町が案内しています。",
+    "年齢は4月1日時点のものです。",
+    "町は原則として月に一度（毎月10日目安）更新しています。"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "空きあり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "空きわずか",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "大堰保育園",
+      "name": "大堰保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "本郷保育園",
+      "name": "本郷保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "○",
+        "×",
+        "○",
+        "×"
+      ]
+    },
+    {
+      "id": "大刀洗保育園",
+      "name": "大刀洗保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "○",
+        "×",
+        "△",
+        "○"
+      ]
+    },
+    {
+      "id": "菊池保育園",
+      "name": "菊池保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "海の星保育園",
+      "name": "海の星保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "おおぞら保育園",
+      "name": "おおぞら保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    }
+  ]
+}

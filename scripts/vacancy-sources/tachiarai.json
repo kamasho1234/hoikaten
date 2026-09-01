@@ -1,0 +1,49 @@
+{
+  "slug": "tachiarai",
+  "name": "大刀洗町",
+  "sourceName": "大刀洗町「保育園空き状況」",
+  "indexUrl": "https://www.town.tachiarai.fukuoka.jp/kosodate/kiji003353/index.html",
+  "pdf": {
+    "linkPattern": "空き状況"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 0
+  },
+  "categoryFrom": "none",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○",
+    "◯": "○"
+  },
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "空きあり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "空きわずか",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "令和(\\d+)年(\\d{1,2})月(\\d{1,2})日\\s*更新"
+  },
+  "minFacilities": 4,
+  "notes": [
+    "町は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "「○」「△」でも入所選考の結果によって入所できない場合があり、「×」でも退所や保育士の配置状況により入所できる場合があると町が案内しています。",
+    "年齢は4月1日時点のものです。",
+    "町は原則として月に一度（毎月10日目安）更新しています。"
+  ]
+}

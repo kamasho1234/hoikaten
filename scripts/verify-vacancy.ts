@@ -1908,6 +1908,12 @@ const EXPECTED: Record<
     facilityCount: 11,
     vacancy: 2,
   },
+  tachiarai: {
+    asOf: "2026-08-17",
+    facilityCount: 6,
+    vacancy: 0,
+    symbolCounts: { "×": 27, "△": 5, "○": 4 },
+  },
   akaiwa: {
     asOf: "2026-08-17",
     facilityCount: 15,

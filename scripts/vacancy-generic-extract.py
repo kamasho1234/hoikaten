@@ -549,7 +549,9 @@ class TableGrabber(HTMLParser):
 
 
 # 「0歳児」「０歳」「0歳児クラス」に加え、「0歳児（6年保育）」のような括弧付きも見出しとみなす
-AGE_HEADER = re.compile(r"^([0-5０-５])歳児?(クラス)?(（[^）]*）|\([^)]*\))?$")
+# 「0歳児」「０歳」「0歳児クラス」に加え、括弧書きや注記が続く形も見出しとみなす
+# （川越町は「0歳児（令和7（2025）年4月2日～生まれ）※申込可能月齢は…」）
+AGE_HEADER = re.compile(r"^([0-5０-５])歳児?(クラス)?([（(].*)?$")
 
 
 # 年齢ではなく学年の呼び方で見出しを作る自治体がある（武豊町の「年長」「乳児0」）。
@@ -614,7 +616,10 @@ def extract_html_tables(html_path, conf):
         if stop and re.search(stop, heading):
             continue
         seed = trim(heading) if mode == "heading" else category
-        got, carried = rows_from_grid(t["grid"], conf, seed)
+        # 施設を横（列）に、年齢を縦（行）に並べる表がある（川越町）。
+        # PDF と同じく縦横を入れ替えてから読む
+        grid = transpose_grid(t["grid"]) if conf.get("transpose") else t["grid"]
+        got, carried = rows_from_grid(grid, conf, seed)
         if mode == "row":
             category = carried
         rows.extend(got)
