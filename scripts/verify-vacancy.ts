@@ -1862,6 +1862,12 @@ const EXPECTED: Record<
     facilityCount: 79,
     vacancy: 169,
   },
+  suita: {
+    asOf: "2026-09-01",
+    facilityCount: 127,
+    vacancy: 0,
+    symbolCounts: { "×": 513, "△": 47, "○": 12 },
+  },
   akaiwa: {
     asOf: "2026-08-17",
     facilityCount: 15,

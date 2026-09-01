@@ -324,12 +324,22 @@ def read_name(patch):
 
 
 def read_table(pdf_bytes, conf):
+    """設定で指定したページを順に読んで、施設の行を並べて返す"""
+    pages = conf.get("pages")
+    if pages is None:
+        pages = [conf.get("page", 0)]
+    rows = []
+    for p in pages:
+        rows.extend(read_page(pdf_bytes, conf, p))
+    return rows
+
+
+def read_page(pdf_bytes, conf, page):
     dpi = conf.get("dpi", 300)
-    page = conf.get("page", 0)
     img = render(pdf_bytes, page, dpi)
     xs, ys, bw = grid(img, conf.get("lineRatio", 0.3))
     if len(xs) < 4 or len(ys) < 4:
-        raise SystemExit(f"[中断] 罫線が見つかりません（縦{len(xs)}本 横{len(ys)}本）")
+        raise SystemExit(f"[中断] {page + 1}ページ目に罫線が見つかりません（縦{len(xs)}本 横{len(ys)}本）")
     name_col = conf["nameCol"]
     age_cols = conf["ageCols"]
     total_col = conf.get("totalCol")
@@ -354,7 +364,10 @@ def read_table(pdf_bytes, conf):
             patch = cell(bw, xs[c], xs[c + 1], y0, y1)
             if has_diagonal(patch):
                 continue
-            if len(denoise(patch).nonzero()[0]) < 30:
+            # 隣の行の斜線や罫線のかけらが少し写り込むので、
+            # マスの広さに対する割合で「何も書かれていない」を判定する
+            filled = len(denoise(patch).nonzero()[0])
+            if filled < max(60, patch.size * 0.025):
                 # 何も書かれていないマス。意味は自治体によって違うので、
                 # 「空欄はこう読む」と設定に書いてあるときだけ値を入れる
                 if mode == "number" and empty is not None:
@@ -374,7 +387,10 @@ def read_table(pdf_bytes, conf):
                 if s:
                     symbols[i] = s
                     ok = True
-        if not ok:
+        # 全部のマスが空欄でも施設の行ではある（吹田市は空きなしを空欄で表す）。
+        # 落とすと行がずれて別の施設の値を当ててしまうので、
+        # 「名前が読めた」か「空欄の意味が設定にある」なら残す
+        if not ok and name == "?" and not conf.get("emptyMark") and empty is None:
             continue
         row = {"name": name, "values": values, "symbols": symbols}
         if total_col is not None and total_col + 1 < len(xs):
