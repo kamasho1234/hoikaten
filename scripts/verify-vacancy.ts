@@ -1964,6 +1964,12 @@ const EXPECTED: Record<
     facilityCount: 11,
     vacancy: 47,
   },
+  nagaoka: {
+    asOf: "2026-09-01",
+    facilityCount: 91,
+    vacancy: 0,
+    symbolCounts: { "×": 398, "△": 93, "○": 21, "0歳": 5, "1歳": 4, "2歳(満3歳)": 3, "3歳": 3, "2歳": 1, "地域": 1, "施設名": 1, "川東": 1, "ほうゆう保育園": 1, "花園みどり保育園": 1, "太陽あおぞら保育園": 1, "ふくちゃん保育園": 1, "ひまわり保育園": 1 },
+  },
   akaiwa: {
     asOf: "2026-08-17",
     facilityCount: 15,

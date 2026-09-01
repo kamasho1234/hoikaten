@@ -627,6 +627,64 @@ def extract_html_tables(html_path, conf):
     return rows
 
 
+def extract_side_by_side(pdf, conf):
+    """左右2組に分かれた表を読む
+
+    紙を節約するために**同じ表を左右に2つ並べる**自治体がある（長岡市）。
+    さらに0歳・1歳が「ほふくしない／する」の2列に割れていて、
+    0歳の空きは2列のどちらかに空きがあれば「空きあり」になる。
+
+    設定
+      blocks … 各組の [施設名の列, 年齢の列を並べた配列]
+      mergePairs … 2列で1つの年齢を表す組み合わせ。片方でも空きがあれば空きとする
+    """
+    blocks = conf["blocks"]
+    as_symbol = "symbol" in conf.get("metrics", ["vacancy"])
+    symbol_map = conf.get("symbolMap") or {}
+    open_marks = set(conf.get("openMarks", []))
+    skip = [cell(x) for x in conf.get("skipRowsContaining", [])]
+    unit = conf.get("valueUnit", "")
+    rows = []
+    for table in tables_of(pdf, conf.get("tableSettings")):
+        for raw in table:
+            r = [cell(c) for c in raw]
+            for blk in blocks:
+                name_col, age_cols = blk["name"], blk["ages"]
+                # ages には「[1,2]」のように2列を束ねた指定が混ざる
+                flat = [c for spec in age_cols for c in (spec if isinstance(spec, list) else [spec])]
+                if len(r) <= max(flat):
+                    continue
+                name = r[name_col]
+                if not name or age_of_header(name) is not None:
+                    continue
+                if any(x and x in name for x in skip):
+                    continue
+                values, symbols, ok = [None] * 6, [None] * 6, False
+                for age, spec in enumerate(age_cols):
+                    cols = spec if isinstance(spec, list) else [spec]
+                    texts = [r[c] for c in cols if c < len(r) and r[c]]
+                    if not texts:
+                        continue
+                    if as_symbol:
+                        vals = [symbol_map.get(t, t) for t in texts]
+                        # 2列に割れている年齢は、片方でも空きがあれば空きとみなす
+                        pick = next((v for v in vals if v in open_marks), vals[0])
+                        symbols[age] = pick
+                    else:
+                        nums = [parse_number(t, unit) for t in texts]
+                        nums = [n for n in nums if n is not None]
+                        if not nums:
+                            continue
+                        values[age] = sum(nums)
+                    ok = True
+                if ok:
+                    row = {"name": name, "vacancy": values}
+                    if as_symbol:
+                        row["symbols"] = symbols
+                    rows.append(row)
+    return rows
+
+
 def extract_word_grid(pdf, conf):
     """文字の位置から年齢の列を決めて読む
 
@@ -658,9 +716,12 @@ def extract_word_grid(pdf, conf):
         stop_at = conf.get("stopBelow")
         limit = page.height * stop_at if stop_at else None
         # 行ごとに words をまとめる（同じ高さのものを1行とみなす）
+        # 何画素ぶんを「同じ行」とみなすか。1施設が上下2段になる表では
+        # 段の高さぶんまとめないと、記号と施設名が別の行になってしまう
+        band = conf.get("rowBand", 8)
         lines = {}
         for w in words:
-            key = round(w["top"] / 8)
+            key = round(w["top"] / band)
             lines.setdefault(key, []).append(w)
         for key in sorted(lines):
             ws = sorted(lines[key], key=lambda w: w["x0"])
@@ -681,7 +742,35 @@ def extract_word_grid(pdf, conf):
             if drop and re.search(drop, name):
                 continue
             values = [None] * 6
+            symbols = [None] * 6
             ok = False
+            # 1施設が上下2段になっていて、上段が記号（空き状況）、
+            # 下段が数字（入所待ち児童数）という表がある（小樽市）。
+            # 記号だけを読む指定ができるようにする
+            as_symbol = "symbol" in conf.get("metrics", ["vacancy"])
+            symbol_map = conf.get("symbolMap") or {}
+            marks = set(conf.get("symbolMarks", []))
+            if as_symbol:
+                base = ws[0]["top"] if ws else 0
+                for w in ws:
+                    t = cell(w["text"])
+                    if t not in marks:
+                        continue
+                    x = (w["x0"] + w["x1"]) / 2
+                    if x < left - 10:
+                        continue
+                    a = min(centers, key=lambda k: abs(centers[k] - x))
+                    if abs(centers[a] - x) > 40:
+                        continue
+                    symbols[a] = symbol_map.get(t, t)
+                    ok = True
+                em = conf.get("emptyMark")
+                if em:
+                    symbols = [em if v is None else v for v in symbols]
+                    ok = True
+                if ok:
+                    rows.append({"name": name, "vacancy": [None] * 6, "symbols": symbols})
+                continue
             for w in ws:
                 t = cell(w["text"]).replace(unit, "")
                 if not re.fullmatch(r"\d+", t):
@@ -816,6 +905,8 @@ def main():
             rows = extract_one_table(pdf, conf)
         elif layout == "age-sections":
             rows = extract_age_sections(pdf, conf)
+        elif layout == "side-by-side":
+            rows = extract_side_by_side(pdf, conf)
         elif layout == "word-grid":
             rows = extract_word_grid(pdf, conf)
         elif layout == "age-rows":
