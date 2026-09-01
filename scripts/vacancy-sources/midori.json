@@ -1,0 +1,43 @@
+{
+  "slug": "midori",
+  "name": "みどり市",
+  "sourceName": "みどり市「保育施設入所可能数」",
+  "indexUrl": "https://www.city.midori.gunma.jp/kosodate/1001643/1007622.html",
+  "pdf": {
+    "linkPattern": "入所可能数"
+  },
+  "layout": "word-grid",
+  "emptyValue": 0,
+  "metrics": [
+    "vacancy"
+  ],
+  "skipRowsContaining": [
+    "みどり市内保育施設",
+    "保育施設名",
+    "募集人数",
+    "認定こども園の1号",
+    "～"
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "(20\\d{2})年(\\d{1,2})月(\\d{1,2})日"
+  },
+  "minFacilities": 10,
+  "notes": [
+    "市は入所可能数が0の年齢も0と書いています。",
+    "市の表は数字が年齢の欄からずれて出るため、文字の位置から年齢を割り当てて読み取っています。",
+    "市は表に基準日を書いていないため、掲載ページの更新日を基準日にしています。",
+    "認定こども園の1号認定（幼稚園機能）の空きは施設へ問い合わせるよう市が案内しています。"
+  ],
+  "nameTrim": [
+    "^私立?",
+    "^公立?",
+    "^こ私",
+    "^ど立",
+    "^も認",
+    "^園定"
+  ],
+  "maxPages": 1,
+  "stopBelow": 0.45,
+  "skipRowsMatching": "^.{0,3}$|^※"
+}

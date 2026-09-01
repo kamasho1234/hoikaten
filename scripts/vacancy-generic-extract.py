@@ -639,7 +639,9 @@ def extract_word_grid(pdf, conf):
     empty_value = conf.get("emptyValue")
     skip = [cell(s) for s in conf.get("skipRowsContaining", [])]
     rows = []
-    for page in pdf.pages:
+    # 同じPDFに園の一覧表などが続く自治体があるので、読むページ数を絞れるようにする
+    max_pages = conf.get("maxPages")
+    for page in (pdf.pages[:max_pages] if max_pages else pdf.pages):
         words = page.extract_words()
         # 年齢の見出しの中心x
         centers = {}
@@ -651,6 +653,10 @@ def extract_word_grid(pdf, conf):
         if len(centers) != 6:
             continue
         left = min(centers.values())
+        # 1ページに空き状況の表と園の一覧表が同居する自治体がある（みどり市）。
+        # 「ここから下は読まない」と紙の下端を割合で指定できるようにする
+        stop_at = conf.get("stopBelow")
+        limit = page.height * stop_at if stop_at else None
         # 行ごとに words をまとめる（同じ高さのものを1行とみなす）
         lines = {}
         for w in words:
@@ -658,12 +664,21 @@ def extract_word_grid(pdf, conf):
             lines.setdefault(key, []).append(w)
         for key in sorted(lines):
             ws = sorted(lines[key], key=lambda w: w["x0"])
+            if limit and ws and ws[0]["top"] > limit:
+                break
             # 施設名 = 年齢の見出しより左にある文字をつないだもの
             name = "".join(cell(w["text"]) for w in ws if (w["x0"] + w["x1"]) / 2 < left - 10)
             name = re.sub(r"[0-9０-９]+人?$", "", name)
+            for pat in conf.get("nameTrim", []):
+                name = re.sub(pat, "", name)
             if not name or age_of_header(name) is not None or "保育所名" in name:
                 continue
             if any(x and x in name for x in skip):
+                continue
+            # 縦書きの「私立保育園」が1文字ずつ別行になることがある（みどり市）。
+            # 施設の行だけを残す形を設定で書けるようにする
+            drop = conf.get("skipRowsMatching")
+            if drop and re.search(drop, name):
                 continue
             values = [None] * 6
             ok = False

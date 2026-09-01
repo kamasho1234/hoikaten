@@ -1,0 +1,178 @@
+{
+  "municipalitySlug": "midori",
+  "municipalityName": "みどり市",
+  "asOf": "2026-07-31",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "みどり市「保育施設入所可能数」",
+  "sourceUrl": "https://www.city.midori.gunma.jp/kosodate/1001643/1007622.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.midori.gunma.jp/_res/projects/default_project/_page_/001/007/622/nyuusyokanousuu9-1.pdf"
+  },
+  "metrics": [
+    "vacancy"
+  ],
+  "notes": [
+    "市は入所可能数が0の年齢も0と書いています。",
+    "市の表は数字が年齢の欄からずれて出るため、文字の位置から年齢を割り当てて読み取っています。",
+    "市は表に基準日を書いていないため、掲載ページの更新日を基準日にしています。",
+    "認定こども園の1号認定（幼稚園機能）の空きは施設へ問い合わせるよう市が案内しています。"
+  ],
+  "wards": [],
+  "categories": [],
+  "facilities": [
+    {
+      "id": "笠懸いずみ保育園",
+      "name": "笠懸いずみ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "たけのこ保育園",
+      "name": "たけのこ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "けやき保育園",
+      "name": "けやき保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "赤城保育園",
+      "name": "赤城保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        3,
+        0,
+        3,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "二葉保育園",
+      "name": "二葉保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        2,
+        3,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "大間々保育園",
+      "name": "大間々保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        6,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "東保育園",
+      "name": "東保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "ちえのみ保育園",
+      "name": "ちえのみ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "みどりのもり",
+      "name": "みどりのもり",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        1,
+        4,
+        5,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "みどりのかぜ",
+      "name": "みどりのかぜ",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        1,
+        0,
+        0,
+        5,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "笠懸いずみ第二こども園",
+      "name": "笠懸いずみ第二こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}

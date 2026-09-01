@@ -1959,6 +1959,11 @@ const EXPECTED: Record<
     facilityCount: 11,
     vacancy: 52,
   },
+  midori: {
+    asOf: "2026-07-31",
+    facilityCount: 11,
+    vacancy: 47,
+  },
   akaiwa: {
     asOf: "2026-08-17",
     facilityCount: 15,
