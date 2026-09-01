@@ -2158,6 +2158,41 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "×": 91, "△": 70, "〇": 39 },
   },
+  kato: {
+    asOf: "2026-09-01",
+    facilityCount: 14,
+    vacancy: 0,
+    symbolCounts: { "×": 64, "△": 15, "〇": 2 },
+  },
+  gamagori: {
+    asOf: "2026-08-06",
+    facilityCount: 18,
+    vacancy: 0,
+    symbolCounts: { "×": 63, "〇": 19, "△": 14 },
+  },
+  kanzaki: {
+    asOf: "2026-08-10",
+    facilityCount: 10,
+    vacancy: 0,
+    symbolCounts: { "×": 37, "〇": 23 },
+  },
+  hamada: {
+    asOf: "2026-08-31",
+    facilityCount: 14,
+    vacancy: 0,
+    symbolCounts: { "〇": 47, "×": 30, "△": 7 },
+  },
+  mibu: {
+    asOf: "2026-08-10",
+    facilityCount: 11,
+    vacancy: 0,
+    symbolCounts: { "×": 37, "△": 15, "〇": 11 },
+  },
+  arakawa: {
+    asOf: "2026-09-01",
+    facilityCount: 71,
+    vacancy: 419,
+  },
   akaiwa: {
     asOf: "2026-08-17",
     facilityCount: 15,

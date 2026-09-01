@@ -1,0 +1,282 @@
+{
+  "municipalitySlug": "mibu",
+  "municipalityName": "壬生町",
+  "asOf": "2026-08-10",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "壬生町「保育所等の空き状況」",
+  "sourceUrl": "https://www.town.mibu.tochigi.jp/docs/2023120100014/",
+  "sourceFiles": {
+    "vacancy": "https://www.town.mibu.tochigi.jp/docs/2023120100014/file_contents/10.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "町は空き状況を記号で公表しているため、当サイトも記号のまま載せています。",
+    "「―」は利用設定がない年齢だと町が案内しています。当サイトでは空欄にしています。",
+    "町はこの表を「10月1日時点（7月集計）」のように入所月を基準に書いています。入所月は先の日付になるため、当サイトの時点は資料が公開された日を表示しています。"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "〇",
+      "label": "受け入れあり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "若干の受け入れあり",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "受け入れなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "とおりまち保育園",
+      "name": "とおりまち保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "△",
+        "×"
+      ]
+    },
+    {
+      "id": "壬生寺保育園",
+      "name": "壬生寺保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "△",
+        "△",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "ありんこ保育園",
+      "name": "ありんこ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "森の子保育園",
+      "name": "森の子保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "ステラ獨協前保育園",
+      "name": "ステラ獨協前保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        "△",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "壬生寺第二保育園",
+      "name": "壬生寺第二保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "△",
+        "×"
+      ]
+    },
+    {
+      "id": "くにや幼稚園",
+      "name": "くにや幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "〇",
+        "△",
+        "〇",
+        "〇",
+        "×"
+      ]
+    },
+    {
+      "id": "おもちゃのまち幼稚園",
+      "name": "おもちゃのまち幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "△",
+        "〇",
+        "〇",
+        "〇"
+      ]
+    },
+    {
+      "id": "やすづか幼稚園",
+      "name": "やすづか幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "〇",
+        "〇",
+        "〇",
+        "〇",
+        "〇"
+      ]
+    },
+    {
+      "id": "メリーランド保育園",
+      "name": "メリーランド保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "森の子保育園おひさま",
+      "name": "森の子保育園おひさま",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "municipalitySlug": "kanzaki",
+  "municipalityName": "神埼市",
+  "asOf": "2026-08-10",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "神埼市「保育施設（2号・3号）入所可能状況一覧表」",
+  "sourceUrl": "https://www.city.kanzaki.saga.jp/main/19386.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.kanzaki.saga.jp/site_files/file/2026/202608/6a793a116d920hYFs24qm.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "市は入所可能状況を記号で公表しているため、当サイトも記号のまま載せています。",
+    "市は「保育士等職員の配置により、年齢別の定員数が随時変動するため、入所可能状況も変わります」としています。"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "〇",
+      "label": "入園調整可能",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "見込み低い",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "仁比山保育園",
+      "name": "仁比山保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "〇",
+        "〇",
+        "〇"
+      ]
+    },
+    {
+      "id": "西郷保育園",
+      "name": "西郷保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "〇",
+        "×",
+        "〇",
+        "〇",
+        "〇"
+      ]
+    },
+    {
+      "id": "ちよだ保育園",
+      "name": "ちよだ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "〇",
+        "〇",
+        "〇"
+      ]
+    },
+    {
+      "id": "せふり保育園",
+      "name": "せふり保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "〇",
+        "〇",
+        "〇",
+        "〇",
+        "〇",
+        "〇"
+      ]
+    },
+    {
+      "id": "神埼保育園",
+      "name": "神埼保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "〇",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "サールナートこども園",
+      "name": "サールナートこども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "〇",
+        "×",
+        "×",
+        "〇",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "神埼こども園",
+      "name": "神埼こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "神埼双葉園",
+      "name": "神埼双葉園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "小桜こども園",
+      "name": "小桜こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "ちとせこども園",
+      "name": "ちとせこども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "〇",
+        "〇",
+        "〇",
+        "〇",
+        "×",
+        "×"
+      ]
+    }
+  ]
+}

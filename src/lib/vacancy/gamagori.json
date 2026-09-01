@@ -1,0 +1,435 @@
+{
+  "municipalitySlug": "gamagori",
+  "municipalityName": "蒲郡市",
+  "asOf": "2026-08-06",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "蒲郡市「市内保育園・こども園 空き状況」",
+  "sourceUrl": "https://www.city.gamagori.lg.jp/site/subsite-kosodate/nyuuennkizyun.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.gamagori.lg.jp/uploaded/attachment/118276.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "市は空き状況を記号で公表しているため、当サイトも記号のまま載せています。",
+    "市は資料に基準日を書いていないため、資料が公開された日を時点として表示しています。"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "〇",
+      "label": "4以上の空きあり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1以上3以下の空きあり",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "東部",
+      "name": "東部",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        "×",
+        "△",
+        "〇",
+        "〇"
+      ]
+    },
+    {
+      "id": "北部",
+      "name": "北部",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "西部",
+      "name": "西部",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "△",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "塩津",
+      "name": "塩津",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "府相",
+      "name": "府相",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "△",
+        "〇"
+      ]
+    },
+    {
+      "id": "三谷東",
+      "name": "三谷東",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "〇"
+      ]
+    },
+    {
+      "id": "大塚西",
+      "name": "大塚西",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        "×",
+        "〇",
+        "〇",
+        "〇"
+      ]
+    },
+    {
+      "id": "三谷西",
+      "name": "三谷西",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "△",
+        "〇",
+        "〇"
+      ]
+    },
+    {
+      "id": "形原",
+      "name": "形原",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "中部",
+      "name": "中部",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "〇",
+        "×"
+      ]
+    },
+    {
+      "id": "南部",
+      "name": "南部",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "△"
+      ]
+    },
+    {
+      "id": "形原南",
+      "name": "形原南",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "〇",
+        "〇",
+        "〇"
+      ]
+    },
+    {
+      "id": "西浦",
+      "name": "西浦",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "△",
+        "〇",
+        "〇",
+        "△",
+        "〇"
+      ]
+    },
+    {
+      "id": "形原北",
+      "name": "形原北",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        null,
+        "〇",
+        "〇",
+        "〇"
+      ]
+    },
+    {
+      "id": "（私）鹿島",
+      "name": "（私）鹿島",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "（私）むつみの丘",
+      "name": "（私）むつみの丘",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "×",
+        "△",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "（私）みどり",
+      "name": "（私）みどり",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "△"
+      ]
+    },
+    {
+      "id": "木船(保育認",
+      "name": "木船(保育認",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        "×",
+        "△",
+        "×",
+        "×"
+      ]
+    }
+  ]
+}

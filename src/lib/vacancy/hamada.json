@@ -1,0 +1,351 @@
+{
+  "municipalitySlug": "hamada",
+  "municipalityName": "浜田市",
+  "asOf": "2026-08-31",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "浜田市「保育所受入可能状況一覧」",
+  "sourceUrl": "https://www.city.hamada.shimane.jp/www/contents/1718763177603/index.html",
+  "sourceFiles": {
+    "vacancy1": "https://www.city.hamada.shimane.jp/www/contents/1718763177603/simple/8.31hamadaukeire.pdf",
+    "vacancy2": "https://www.city.hamada.shimane.jp/www/contents/1718763177603/simple/8.31sisyoukeire.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "市は受入可能状況を記号で公表しています。記号の意味は市が公表していないため、意味を推測して補うことはせず、記号だけをそのまま載せています。",
+    "市は記号の横に「1名」のように受け入れられる人数を書いている欄がありますが、当サイトでは記号だけを載せています。人数は市の資料でご確認ください。"
+  ],
+  "wards": [],
+  "categories": [
+    "浜田地域",
+    "支所地域"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "〇",
+      "label": "浜田市は記号の意味を公表していません",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "浜田市は記号の意味を公表していません",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "浜田市は記号の意味を公表していません",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "ちどり保育所",
+      "name": "ちどり保育所",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "〇",
+        "×"
+      ]
+    },
+    {
+      "id": "浜田ひかり保育所",
+      "name": "浜田ひかり保育所",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "〇",
+        "〇",
+        "〇",
+        "〇",
+        "〇",
+        "〇"
+      ]
+    },
+    {
+      "id": "聖バルナバ保育園",
+      "name": "聖バルナバ保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "〇",
+        "〇",
+        "〇",
+        "〇",
+        "〇",
+        "×"
+      ]
+    },
+    {
+      "id": "周布保育園",
+      "name": "周布保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "〇",
+        "△",
+        "△",
+        "〇",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "つくし保育園",
+      "name": "つくし保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "〇",
+        "〇",
+        "〇",
+        "△",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "れんげ保育園",
+      "name": "れんげ保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "〇",
+        "〇",
+        "〇",
+        "〇",
+        "〇",
+        "〇"
+      ]
+    },
+    {
+      "id": "あおい保育園",
+      "name": "あおい保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "〇",
+        "×",
+        "×",
+        "〇",
+        "〇",
+        "〇"
+      ]
+    },
+    {
+      "id": "みのり保育園",
+      "name": "みのり保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "ちどり第2保育所",
+      "name": "ちどり第2保育所",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "〇",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "上府保育園",
+      "name": "上府保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "〇",
+        "〇",
+        "〇",
+        "〇",
+        "〇",
+        "〇"
+      ]
+    },
+    {
+      "id": "みのり第2保育園",
+      "name": "みのり第2保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "今福保育園",
+      "name": "今福保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "〇",
+        "〇",
+        "〇",
+        "〇",
+        "〇",
+        "〇"
+      ]
+    },
+    {
+      "id": "くもぎ保育園",
+      "name": "くもぎ保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "〇",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "おぐに保育園",
+      "name": "おぐに保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "〇",
+        "〇",
+        "〇",
+        "〇",
+        "〇",
+        "〇"
+      ]
+    }
+  ]
+}

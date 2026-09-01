@@ -1,0 +1,59 @@
+{
+  "slug": "hamada",
+  "name": "浜田市",
+  "sourceName": "浜田市「保育所受入可能状況一覧」",
+  "indexUrl": "https://www.city.hamada.shimane.jp/www/contents/1718763177603/index.html",
+  "pdfs": [
+    {
+      "linkPattern": "浜田地域",
+      "category": "浜田地域"
+    },
+    {
+      "linkPattern": "支所",
+      "category": "支所地域"
+    }
+  ],
+  "layout": "auto-table",
+  "columns": {
+    "name": 0
+  },
+  "categoryFrom": "none",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "○": "〇"
+  },
+  "symbolTrim": [
+    "\\d+名$"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "〇",
+      "label": "浜田市は記号の意味を公表していません",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "浜田市は記号の意味を公表していません",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "浜田市は記号の意味を公表していません",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "令和(\\d+)年(\\d{1,2})月(\\d{1,2})日現在"
+  },
+  "minFacilities": 3,
+  "notes": [
+    "市は受入可能状況を記号で公表しています。記号の意味は市が公表していないため、意味を推測して補うことはせず、記号だけをそのまま載せています。",
+    "市は記号の横に「1名」のように受け入れられる人数を書いている欄がありますが、当サイトでは記号だけを載せています。人数は市の資料でご確認ください。"
+  ],
+  "skipRowsContaining": [
+    "計"
+  ]
+}

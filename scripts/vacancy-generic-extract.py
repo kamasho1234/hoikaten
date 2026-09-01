@@ -790,6 +790,9 @@ def extract_word_grid(pdf, conf):
         if len(centers) != 6:
             continue
         left = min(centers.values())
+        # 値が年齢の見出しより左にずれて印字される表がある（蒲郡市は約16ポイント左）。
+        # 「これより左は施設名」とみなす幅を設定で広げられるようにする
+        margin = conf.get("nameMargin", 10)
         # 1ページに空き状況の表と園の一覧表が同居する自治体がある（みどり市）。
         # 「ここから下は読まない」と紙の下端を割合で指定できるようにする
         stop_at = conf.get("stopBelow")
@@ -815,16 +818,16 @@ def extract_word_grid(pdf, conf):
                 text = "".join(
                     cell(w["text"])
                     for w in ws
-                    if (w["x0"] + w["x1"]) / 2 < left - 10
+                    if (w["x0"] + w["x1"]) / 2 < left - margin
                     and (name_left is None or w["x0"] >= name_left)
                 )
                 if len(re.sub(r"[0-9０-９人\s]", "", text)) >= 2:
                     named.append((key, min(w["top"] for w in ws)))
             if named:
-                moved = {key: [w for w in ws if (w["x0"] + w["x1"]) / 2 < left - 10] for key, ws in lines.items()}
+                moved = {key: [w for w in ws if (w["x0"] + w["x1"]) / 2 < left - margin] for key, ws in lines.items()}
                 for key, ws in lines.items():
                     for w in ws:
-                        if (w["x0"] + w["x1"]) / 2 < left - 10:
+                        if (w["x0"] + w["x1"]) / 2 < left - margin:
                             continue
                         near = min(named, key=lambda n: abs(n[1] - w["top"]))
                         moved[near[0]].append(w)
@@ -838,7 +841,7 @@ def extract_word_grid(pdf, conf):
             name = "".join(
                 cell(w["text"])
                 for w in ws
-                if (w["x0"] + w["x1"]) / 2 < left - 10
+                if (w["x0"] + w["x1"]) / 2 < left - margin
                 and (name_left is None or w["x0"] >= name_left)
             )
             name = re.sub(r"[0-9０-９]+人?$", "", name)
@@ -869,7 +872,7 @@ def extract_word_grid(pdf, conf):
                     if t not in marks:
                         continue
                     x = (w["x0"] + w["x1"]) / 2
-                    if x < left - 10:
+                    if x < left - margin:
                         continue
                     a = min(centers, key=lambda k: abs(centers[k] - x))
                     if abs(centers[a] - x) > 40:
@@ -888,7 +891,7 @@ def extract_word_grid(pdf, conf):
                 if not re.fullmatch(r"\d+", t):
                     continue
                 x = (w["x0"] + w["x1"]) / 2
-                if x < left - 10:
+                if x < left - margin:
                     continue
                 # いちばん近い年齢の見出しに割り当てる
                 a = min(centers, key=lambda k: abs(centers[k] - x))

@@ -1,0 +1,41 @@
+{
+  "slug": "kanzaki",
+  "name": "神埼市",
+  "sourceName": "神埼市「保育施設（2号・3号）入所可能状況一覧表」",
+  "indexUrl": "https://www.city.kanzaki.saga.jp/main/19386.html",
+  "pdf": {
+    "linkPattern": "PDF"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 0
+  },
+  "categoryFrom": "none",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "○": "〇"
+  },
+  "symbolLegend": [
+    {
+      "mark": "〇",
+      "label": "入園調整可能",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "見込み低い",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "令和(\\d+)年(\\d{1,2})月(\\d{1,2})日更新"
+  },
+  "minFacilities": 8,
+  "notes": [
+    "市は入所可能状況を記号で公表しているため、当サイトも記号のまま載せています。",
+    "市は「保育士等職員の配置により、年齢別の定員数が随時変動するため、入所可能状況も変わります」としています。"
+  ]
+}

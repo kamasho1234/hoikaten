@@ -1,0 +1,55 @@
+{
+  "slug": "kato",
+  "name": "加東市",
+  "sourceName": "加東市「認定こども園・保育所 空き状況一覧表（保育利用）」",
+  "indexUrl": "https://www.city.kato.lg.jp/life_info/nyuen/14357.html",
+  "pdf": {
+    "linkPattern": "空き状況一覧表"
+  },
+  "layout": "word-grid",
+  "nearestName": true,
+  "nameLeft": 90,
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMarks": [
+    "〇",
+    "○",
+    "△",
+    "×"
+  ],
+  "symbolMap": {
+    "○": "〇"
+  },
+  "symbolLegend": [
+    {
+      "mark": "〇",
+      "label": "加東市は記号の意味を公表していません",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "加東市は記号の意味を公表していません",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "加東市は記号の意味を公表していません",
+      "open": false
+    }
+  ],
+  "skipRowsMatching": "^①|^②|^③|^④|^⑤|^令和|^空き|^区分|^R8",
+  "nameTrim": [
+    "(生後|満).*$",
+    "^(公立|私立)"
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "R(\\d+)\\.(\\d{1,2})\\.(\\d{1,2})時点"
+  },
+  "minFacilities": 10,
+  "notes": [
+    "市は空き状況を記号で公表しています。記号の意味は市が公表していないため、意味を推測して補うことはせず、記号だけをそのまま載せています。",
+    "市は「保育士等の配置状況等により、空き状況が変動することがあります。あくまでも目安としてご覧ください」としています。"
+  ]
+}
