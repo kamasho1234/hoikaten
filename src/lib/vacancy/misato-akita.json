@@ -1,0 +1,111 @@
+{
+  "municipalitySlug": "misato-akita",
+  "municipalityName": "美郷町",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "美郷町「認定こども園の受入状況」",
+  "sourceUrl": "https://www.town.misato.akita.jp/archive/contents-4110",
+  "sourceFiles": {
+    "vacancy": "https://www.town.misato.akita.jp/archive/contents-4110"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "町は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "クラス年齢は4月1日現在の年齢です。",
+    "町は1号認定（教育利用）の行も載せていますが、当サイトは保育を必要とする2号・3号認定の行を載せています。"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "空きあり",
+      "open": true
+    },
+    {
+      "mark": "▲",
+      "label": "要件や条件により若干名",
+      "open": true
+    },
+    {
+      "mark": "※",
+      "label": "要相談",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "千畑なかよし園",
+      "name": "千畑なかよし園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "※",
+        "○",
+        "○",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "六郷わくわく園",
+      "name": "六郷わくわく園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "※",
+        "○",
+        "▲",
+        "○",
+        "▲",
+        "▲"
+      ]
+    },
+    {
+      "id": "仙南すこやか園",
+      "name": "仙南すこやか園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "※",
+        "○",
+        "○",
+        "▲",
+        "○",
+        "○"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "misato-akita",
+  "name": "美郷町",
+  "sourceName": "美郷町「認定こども園の受入状況」",
+  "indexUrl": "https://www.town.misato.akita.jp/archive/contents-4110",
+  "layout": "html-tables",
+  "columns": {
+    "name": 0,
+    "category": 2
+  },
+  "categoryFrom": "none",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○",
+    "◯": "○"
+  },
+  "noClassMarks": [
+    "―",
+    "－",
+    "ー",
+    "-",
+    "‐",
+    ""
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "空きあり",
+      "open": true
+    },
+    {
+      "mark": "▲",
+      "label": "要件や条件により若干名",
+      "open": true
+    },
+    {
+      "mark": "※",
+      "label": "要相談",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "令和(\\d+)年(\\d{1,2})月(\\d{1,2})日時点"
+  },
+  "minFacilities": 3,
+  "notes": [
+    "町は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "クラス年齢は4月1日現在の年齢です。",
+    "町は1号認定（教育利用）の行も載せていますが、当サイトは保育を必要とする2号・3号認定の行を載せています。"
+  ],
+  "rowLabel": {
+    "column": 2,
+    "value": "2・3号"
+  }
+}

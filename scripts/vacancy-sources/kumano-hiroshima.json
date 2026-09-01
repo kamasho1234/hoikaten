@@ -1,0 +1,45 @@
+{
+  "slug": "kumano-hiroshima",
+  "name": "熊野町",
+  "sourceName": "熊野町「入所可能施設一覧」",
+  "indexUrl": "https://www.town.kumano.lg.jp/10/9/5006.html",
+  "pdf": {
+    "linkPattern": "hoikusyo|入所可能"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 1,
+    "category": 0
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○",
+    "◯": "○"
+  },
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "申込できます",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きが無い状況です",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "令和(\\d+)年(\\d{1,2})月(\\d{1,2})日（[^）]*）まで"
+  },
+  "minFacilities": 4,
+  "notes": [
+    "町は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "黒塗り部分は受入対象外のため申込できません。当サイトではその年齢を空欄にしています。",
+    "各年齢は4月1日時点のものです。",
+    "入所可能人数には限りがあり、申し込みの状況によっては入所できない場合があると町が案内しています。"
+  ]
+}

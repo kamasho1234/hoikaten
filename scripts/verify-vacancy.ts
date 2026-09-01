@@ -1914,6 +1914,24 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "×": 27, "△": 5, "○": 4 },
   },
+  "hokuto-hokkaido": {
+    asOf: "2026-08-24",
+    facilityCount: 8,
+    vacancy: 0,
+    symbolCounts: { "×": 31, "△": 14, "○": 3 },
+  },
+  "kumano-hiroshima": {
+    asOf: "2026-09-01",
+    facilityCount: 7,
+    vacancy: 0,
+    symbolCounts: { "×": 39 },
+  },
+  "misato-akita": {
+    asOf: "2026-09-01",
+    facilityCount: 3,
+    vacancy: 0,
+    symbolCounts: { "○": 11, "▲": 4, "※": 3 },
+  },
   akaiwa: {
     asOf: "2026-08-17",
     facilityCount: 15,

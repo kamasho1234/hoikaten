@@ -1,0 +1,193 @@
+{
+  "municipalitySlug": "kumano-hiroshima",
+  "municipalityName": "熊野町",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "熊野町「入所可能施設一覧」",
+  "sourceUrl": "https://www.town.kumano.lg.jp/10/9/5006.html",
+  "sourceFiles": {
+    "vacancy": "https://www.town.kumano.lg.jp/material/files/group/14/R8-10hoikusyo.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "町は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "黒塗り部分は受入対象外のため申込できません。当サイトではその年齢を空欄にしています。",
+    "各年齢は4月1日時点のものです。",
+    "入所可能人数には限りがあり、申し込みの状況によっては入所できない場合があると町が案内しています。"
+  ],
+  "wards": [],
+  "categories": [
+    "保育所",
+    "認定こども園"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "申込できます",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きが無い状況です",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "くまの・みらい保育園",
+      "name": "くまの・みらい保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "くまの中央保育園",
+      "name": "くまの中央保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "保育所ひかり学園",
+      "name": "保育所ひかり学園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "はつかみこども園",
+      "name": "はつかみこども園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "認定こども園聖徳幼稚園",
+      "name": "認定こども園聖徳幼稚園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        null,
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "認定こども園第二聖徳幼稚園",
+      "name": "認定こども園第二聖徳幼稚園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "淳教幼稚園",
+      "name": "淳教幼稚園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    }
+  ]
+}
