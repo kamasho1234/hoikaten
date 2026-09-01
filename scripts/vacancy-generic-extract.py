@@ -645,13 +645,30 @@ def extract_side_by_side(pdf, conf):
     skip = [cell(x) for x in conf.get("skipRowsContaining", [])]
     unit = conf.get("valueUnit", "")
     rows = []
+    # 同じPDFに列の並びが違う表が混ざる（長岡市の地域型保育施設は2歳までしかない）。
+    # 列数で読む表を選べるようにする
     for table in tables_of(pdf, conf.get("tableSettings")):
+        ncols = max(len(x) for x in table)
         for raw in table:
             r = [cell(c) for c in raw]
             for blk in blocks:
+                # 組ごとに「何列の表に使うか」を指定できる。
+                # 同じPDFに保育園の表と認定こども園の表が混ざるため
+                if blk.get("cols") and blk["cols"] != ncols:
+                    continue
+                # 列数が同じでも中身が違う表がある（長岡市の認定こども園と地域型）。
+                # 見出しの文字で選び分ける
+                want = blk.get("tableContains")
+                if want and not re.search(want, "".join(cell(c) for row in table for c in row)):
+                    continue
+                deny = blk.get("tableExcludes")
+                if deny and re.search(deny, "".join(cell(c) for row in table for c in row)):
+                    continue
                 name_col, age_cols = blk["name"], blk["ages"]
                 # ages には「[1,2]」のように2列を束ねた指定が混ざる
-                flat = [c for spec in age_cols for c in (spec if isinstance(spec, list) else [spec])]
+                # None を書いた年齢は「その施設に無いクラス」として読み飛ばす
+                flat = [c for spec in age_cols if spec is not None
+                        for c in (spec if isinstance(spec, list) else [spec])]
                 if len(r) <= max(flat):
                     continue
                 name = r[name_col]
@@ -661,6 +678,8 @@ def extract_side_by_side(pdf, conf):
                     continue
                 values, symbols, ok = [None] * 6, [None] * 6, False
                 for age, spec in enumerate(age_cols):
+                    if spec is None:
+                        continue
                     cols = spec if isinstance(spec, list) else [spec]
                     texts = [r[c] for c in cols if c < len(r) and r[c]]
                     if not texts:
