@@ -98,7 +98,14 @@ def grid(img, min_ratio=0.3):
 
 
 def cell(img, x0, x1, y0, y1, pad=3):
-    return img[y0 + pad : y1 - pad, x0 + pad : x1 - pad]
+    """升目をひとつ切り出す
+
+    罫線を巻き込むと形が崩れるので内側に詰めるが、詰めすぎると右寄せの
+    数字が欠ける。線の太さぶん（数画素）だけにとどめる。
+    """
+    x0, x1 = x0 + pad, max(x0 + pad + 1, x1 - pad)
+    y0, y1 = y0 + pad, max(y0 + pad + 1, y1 - pad)
+    return img[y0:y1, x0:x1]
 
 
 def has_diagonal(patch):
@@ -213,10 +220,101 @@ def tess(patch, lang, psm, whitelist=None):
         return r.stdout.decode("utf-8", "replace").strip()
 
 
+def digit_blobs(patch, min_h_ratio=0.35):
+    """マスの中から「数字らしいかたまり」だけを取り出して、左から順に返す
+
+    表のマスは字よりずっと横長で、罫線のかけらや紙のゴミも一緒に入る。
+    まとめて tesseract に渡すと字を見つけられないので、
+    **高さがマスの3割以上あるかたまり**だけを数字とみなして切り出す。
+    """
+    p = denoise(patch)
+    h, w = p.shape
+    n, labels, stats, _ = cv2.connectedComponentsWithStats(p, 8)
+    blobs = []
+    for i in range(1, n):
+        x, y, cw, ch, area = stats[i]
+        if ch < h * min_h_ratio or area < 20:
+            continue
+        if cw > w * 0.6:  # 横に長すぎるものは罫線
+            continue
+        # マスの左右の端にへばりついた細い縦棒は罫線の消し残り。
+        # そのままだと「0」が「10」に化ける
+        if cw <= max(3, ch * 0.22) and (x <= 2 or x + cw >= w - 2):
+            continue
+        mask = np.zeros((ch, cw), np.uint8)
+        mask[(labels[y : y + ch, x : x + cw] == i)] = 255
+        blobs.append((x, mask))
+    blobs.sort(key=lambda b: b[0])
+    # 数字は右に寄せて書かれる。左に離れて残ったかけらは字ではない
+    if len(blobs) >= 2:
+        kept = [blobs[-1]]
+        for x, m in reversed(blobs[:-1]):
+            prev_x = kept[0][0]
+            if prev_x - (x + m.shape[1]) <= max(6, h * 0.35):
+                kept.insert(0, (x, m))
+        blobs = kept
+    return [m for _, m in blobs]
+
+
+def crop_ink(patch, margin=6):
+    """マスの中で実際に字が乗っている範囲だけを切り出す"""
+    p = denoise(patch)
+    ys, xs = p.nonzero()
+    if len(xs) == 0:
+        return None
+    h, w = patch.shape
+    x0 = max(0, xs.min() - margin)
+    x1 = min(w, xs.max() + margin + 1)
+    y0 = max(0, ys.min() - margin)
+    y1 = min(h, ys.max() + margin + 1)
+    return patch[y0:y1, x0:x1]
+
+
+def read_digit(mask):
+    """1文字ぶんのかたまりを数字ひとつに読む
+
+    tesseract は「0」を「7」と読み違えることがある。0は輪の中に穴が空くので、
+    穴の有無で先に決めてしまう（0と7を取り違えると数がまるで変わる）。
+    """
+    h, w = mask.shape
+    # 「1」は縦棒。tesseract は縦線を字と見なさず読み落とすので先に片付ける
+    if h >= 8 and w <= h * 0.45:
+        return "1"
+    # 穴がひとつ空いていて縦横が近ければ 0（4・6・8・9も穴を持つので形も見る）
+    cnts, hier = cv2.findContours(mask, cv2.RETR_CCOMP, cv2.CHAIN_APPROX_SIMPLE)
+    holes = 0 if hier is None else sum(1 for x in hier[0] if x[3] != -1)
+    scale = max(1, int(64 / max(1, h)))
+    img = cv2.resize(mask, None, fx=scale, fy=scale, interpolation=cv2.INTER_CUBIC) if scale > 1 else mask
+    img = cv2.copyMakeBorder(img, 28, 28, 28, 28, cv2.BORDER_CONSTANT, value=0)
+    got = ""
+    for psm in (10, 8):
+        t = re.sub(r"\D", "", tess(img, "eng", psm, "0123456789"))
+        if len(t) == 1:
+            got = t
+            break
+    if holes == 1 and got in ("7", "1", "") and 0.45 <= w / float(h) <= 1.0:
+        return "0"
+    if holes == 0 and got == "0":
+        return ""  # 穴が無いのに0と読めたら信用しない（呼び出し側で異常になる）
+    return got
+
+
 def read_number(patch):
-    t = tess(patch, "eng", 10, "0123456789")
-    t = re.sub(r"\D", "", t)
-    return t
+    """マスの数字を、1文字ずつ読んでつなぐ
+
+    「10」のような2桁もあるので、左から順に文字を拾って並べる。
+    1文字でも読めなければ空を返し、呼び出し側で異常として扱えるようにする。
+    """
+    blobs = digit_blobs(patch)
+    if not blobs:
+        return ""
+    out = []
+    for m in blobs:
+        d = read_digit(m)
+        if not d:
+            return ""
+        out.append(d)
+    return "".join(out)
 
 
 def read_name(patch):
@@ -246,7 +344,9 @@ def read_table(pdf_bytes, conf):
             continue
         name = read_name(cell(bw, xs[name_col], xs[name_col + 1], y0, y1))
         if not name:
-            continue
+            # 名前が1文字も読めなくても、値のあるマスがあるなら施設の行。
+            # 落とすと行がずれて別の施設の数字を当ててしまうので、印を付けて残す
+            name = "?"
         values, symbols, ok = [None] * 6, [None] * 6, False
         for i, c in enumerate(age_cols):
             if c + 1 >= len(xs):
@@ -303,9 +403,15 @@ def match_names(rows, expected):
             break
         got = norm_name(row["name"])
         want = norm_name(expected[i])
+        # 小計・合計の行は施設ではないので落とす。
+        # OCRが「計」を「針」などと読み違えても拾えるよう、
+        # 「公設」「民設」「合」といった見出し語も手がかりにする
+        if re.search(r"計|針|公設|民設|小規模等|合\s*計", row["name"]):
+            continue
         overlap = len(set(got) & set(want))
-        if overlap == 0 and len(want) > 1:
-            # 施設ではない行（合計行や注記）は読み飛ばす
+        # 「?」は名前が1文字も読めなかった印。並び順で当てる
+        if got != "?" and overlap == 0 and len(want) > 1:
+            # 施設ではない行（注記など）は読み飛ばす
             continue
         row = dict(row, name=expected[i], ocrName=row["name"])
         out.append(row)
