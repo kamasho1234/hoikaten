@@ -1,0 +1,53 @@
+{
+  "slug": "kashiba",
+  "name": "香芝市",
+  "sourceName": "香芝市「保育所・認定こども園（2・3号）等空き状況」",
+  "indexUrl": "https://www.city.kashiba.lg.jp/site/kosodate/56063.html",
+  "pdf": {
+    "linkPattern": "空き状況"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 2,
+    "category": 1
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "○": "〇"
+  },
+  "symbolLegend": [
+    {
+      "mark": "〇",
+      "label": "空きあり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "若干名の空きあり",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    },
+    {
+      "mark": "※",
+      "label": "施設（公立は保育幼稚園課）にお問い合わせください",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "令和(\\d+)年(\\d{1,2})月(\\d{1,2})日現在"
+  },
+  "minFacilities": 20,
+  "notes": [
+    "市は空き状況を記号で公表しているため、当サイトも記号のまま載せています。",
+    "空欄はその年齢のクラスがない施設です（認定こども園の2号認定は3歳児からなど）。",
+    "市は「児童の入退所等により変更となる場合があります」としています。"
+  ]
+}

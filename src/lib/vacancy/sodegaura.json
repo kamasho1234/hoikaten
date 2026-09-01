@@ -1,0 +1,603 @@
+{
+  "municipalitySlug": "sodegaura",
+  "municipalityName": "袖ケ浦市",
+  "asOf": "2026-08-28",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "袖ケ浦市「保育所・認定こども園等 受入可能状況一覧」",
+  "sourceUrl": "https://www.city.sodegaura.lg.jp/soshiki/hoiku/ukeire.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.sodegaura.lg.jp/uploaded/attachment/46968.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "市は受入可能状況を記号で公表しているため、当サイトも記号のまま載せています。",
+    "市は資料に基準日を書いていないため、資料が公開された日を時点として表示しています。",
+    "市は「『×』でも、在籍児童の退所や転所、保育士の配置状況等により受入可能となる場合があります」としています。",
+    "事業所内保育事業の受入可能状況は地域枠のものだと市が案内しています。"
+  ],
+  "wards": [],
+  "categories": [
+    "公立保育所",
+    "私立保育所",
+    "認定こども園",
+    "小規模保育事業",
+    "事業所内保育事業",
+    "家庭的保育事業"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "〇",
+      "label": "2人以上受け入れ可能",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1人受け入れ可能",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "受入不可",
+      "open": false
+    },
+    {
+      "mark": "-",
+      "label": "未定",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "福王台保育所",
+      "name": "福王台保育所",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "久保田保育所",
+      "name": "久保田保育所",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "根形保育所",
+      "name": "根形保育所",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "平川保育所",
+      "name": "平川保育所",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "△",
+        "×"
+      ]
+    },
+    {
+      "id": "昭和保育園",
+      "name": "昭和保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
+    },
+    {
+      "id": "長浦保育園",
+      "name": "長浦保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "白ゆり保育園",
+      "name": "白ゆり保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "大空保育園",
+      "name": "大空保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "みどりの丘保育園",
+      "name": "みどりの丘保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "ユーカリ保育園",
+      "name": "ユーカリ保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "スクルドエンジェル保育園望海園",
+      "name": "スクルドエンジェル保育園望海園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "スクルドエンジェル保育園神納園",
+      "name": "スクルドエンジェル保育園神納園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "クニナ袖ケ浦保育園",
+      "name": "クニナ袖ケ浦保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "△",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "袖ケ浦どろんこ保育園",
+      "name": "袖ケ浦どろんこ保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "まなびの森保育園長浦",
+      "name": "まなびの森保育園長浦",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "認定こども園まりん",
+      "name": "認定こども園まりん",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "百目木どろんこ保育園",
+      "name": "百目木どろんこ保育園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "〇"
+      ]
+    },
+    {
+      "id": "みどりの風保育園",
+      "name": "みどりの風保育園",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "スクルドエンジェル保育園袖ケ浦園Ⅰ",
+      "name": "スクルドエンジェル保育園袖ケ浦園Ⅰ",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "スクルドエンジェル保育園袖ケ浦園Ⅱ",
+      "name": "スクルドエンジェル保育園袖ケ浦園Ⅱ",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "スクルドエンジェル保育園袖ケ浦園Ⅲ",
+      "name": "スクルドエンジェル保育園袖ケ浦園Ⅲ",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "アレッタ袖ケ浦園",
+      "name": "アレッタ袖ケ浦園",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "袖ケ浦けやき保育園",
+      "name": "袖ケ浦けやき保育園",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "〇",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "キッズガーデンひまわり",
+      "name": "キッズガーデンひまわり",
+      "w": null,
+      "c": 4,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "△",
+        "〇",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "みらいっ子るーむ",
+      "name": "みらいっ子るーむ",
+      "w": null,
+      "c": 5,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "△",
+        "〇",
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+}

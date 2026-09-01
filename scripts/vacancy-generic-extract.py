@@ -764,7 +764,7 @@ def extract_word_grid(pdf, conf):
         # 年齢の見出しの中心x
         centers = {}
         for w in words:
-            m = re.fullmatch(r"([0-5０-５])歳児?", cell(w["text"]))
+            m = re.fullmatch(r"([0-5０-５])歳(?:児|クラス)?", cell(w["text"]))
             if m:
                 a = int(m.group(1).translate(ZEN))
                 centers.setdefault(a, (w["x0"] + w["x1"]) / 2)

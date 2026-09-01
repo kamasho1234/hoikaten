@@ -1,0 +1,39 @@
+{
+  "slug": "ota-gunma",
+  "name": "太田市",
+  "sourceName": "太田市「保育施設募集状況表」",
+  "indexUrl": "https://www.city.ota.gunma.jp/site/kosodate/1011.html",
+  "pdf": {
+    "linkPattern": "募集状況表"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 1,
+    "category": 0,
+    "ages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  "categoryFrom": "none",
+  "metrics": [
+    "vacancy"
+  ],
+  "skipRowsContaining": [
+    "施設名",
+    "保育施設募集状況表",
+    "地区"
+  ],
+  "asOf": {
+    "source": "file"
+  },
+  "minFacilities": 20,
+  "notes": [
+    "数値は市が公表している募集予定人数です。",
+    "市は資料に基準日を書いていないため、資料が公開された日を時点として表示しています。"
+  ]
+}

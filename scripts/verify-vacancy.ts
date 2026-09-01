@@ -2088,6 +2088,35 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "×": 76, "△": 53, "〇": 9 },
   },
+  kashiba: {
+    asOf: "2026-09-01",
+    facilityCount: 25,
+    vacancy: 0,
+    symbolCounts: { "×": 106, "△": 5, "※": 4, "〇": 2 },
+  },
+  izumiotsu: {
+    asOf: "2026-09-01",
+    facilityCount: 16,
+    vacancy: 0,
+    symbolCounts: { "×": 76, "△": 8, "〇": 4 },
+  },
+  sodegaura: {
+    asOf: "2026-08-28",
+    facilityCount: 25,
+    vacancy: 0,
+    symbolCounts: { "×": 109, "△": 7, "-": 6, "〇": 4 },
+  },
+  tomigusuku: {
+    asOf: "2026-08-12",
+    facilityCount: 48,
+    vacancy: 0,
+    symbolCounts: { "×": 138, "△": 31, "〇": 20 },
+  },
+  "ota-gunma": {
+    asOf: "2026-09-01",
+    facilityCount: 41,
+    vacancy: 128,
+  },
   akaiwa: {
     asOf: "2026-08-17",
     facilityCount: 15,

@@ -1,0 +1,56 @@
+{
+  "slug": "sodegaura",
+  "name": "袖ケ浦市",
+  "sourceName": "袖ケ浦市「保育所・認定こども園等 受入可能状況一覧」",
+  "indexUrl": "https://www.city.sodegaura.lg.jp/soshiki/hoiku/ukeire.html",
+  "pdf": {
+    "linkPattern": "受入可能状況一覧"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 1,
+    "category": 0
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "○": "〇"
+  },
+  "symbolLegend": [
+    {
+      "mark": "〇",
+      "label": "2人以上受け入れ可能",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1人受け入れ可能",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "受入不可",
+      "open": false
+    },
+    {
+      "mark": "-",
+      "label": "未定",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "file"
+  },
+  "minFacilities": 20,
+  "notes": [
+    "市は受入可能状況を記号で公表しているため、当サイトも記号のまま載せています。",
+    "市は資料に基準日を書いていないため、資料が公開された日を時点として表示しています。",
+    "市は「『×』でも、在籍児童の退所や転所、保育士の配置状況等により受入可能となる場合があります」としています。",
+    "事業所内保育事業の受入可能状況は地域枠のものだと市が案内しています。"
+  ],
+  "noClassMarks": [
+    ""
+  ]
+}
