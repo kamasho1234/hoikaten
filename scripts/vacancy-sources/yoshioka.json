@@ -1,0 +1,55 @@
+{
+  "slug": "yoshioka",
+  "name": "吉岡町",
+  "sourceName": "吉岡町「保育施設の空き状況一覧」",
+  "indexUrl": "https://www.town.yoshioka.lg.jp/kosodate/hoikusisetsu/post_51.html",
+  "layout": "html-tables",
+  "columns": {
+    "name": 1,
+    "category": 0
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○",
+    "◯": "○"
+  },
+  "nameTrim": [
+    "\\(外部リンク\\)",
+    "（外部リンク）"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "◎",
+      "label": "5人以上",
+      "open": true
+    },
+    {
+      "mark": "○",
+      "label": "3〜4人程度",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1〜2人程度",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "0人",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "(20\\d{2})年(\\d{1,2})月(\\d{1,2})日"
+  },
+  "minFacilities": 5,
+  "notes": [
+    "町は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "記号は目安であり、状況により変更となる場合があると町が案内しています。",
+    "町は表に基準日を書いていないため、掲載ページの更新日を基準日にしています。"
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "municipalitySlug": "yoshioka",
+  "municipalityName": "吉岡町",
+  "asOf": "2026-08-21",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "吉岡町「保育施設の空き状況一覧」",
+  "sourceUrl": "https://www.town.yoshioka.lg.jp/kosodate/hoikusisetsu/post_51.html",
+  "sourceFiles": {
+    "vacancy": "https://www.town.yoshioka.lg.jp/kosodate/hoikusisetsu/post_51.html"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "町は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "記号は目安であり、状況により変更となる場合があると町が案内しています。",
+    "町は表に基準日を書いていないため、掲載ページの更新日を基準日にしています。"
+  ],
+  "wards": [],
+  "categories": [
+    "私立保育所",
+    "私立認定こども園"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "◎",
+      "label": "5人以上",
+      "open": true
+    },
+    {
+      "mark": "○",
+      "label": "3〜4人程度",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1〜2人程度",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "0人",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "吉岡町第一保育園",
+      "name": "吉岡町第一保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        "△",
+        "×",
+        "△"
+      ]
+    },
+    {
+      "id": "吉岡町第二保育園",
+      "name": "吉岡町第二保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "吉岡町第三保育園",
+      "name": "吉岡町第三保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "吉岡町第四保育園",
+      "name": "吉岡町第四保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "吉岡町第五保育園",
+      "name": "吉岡町第五保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "○"
+      ]
+    },
+    {
+      "id": "幼保連携型認定こども園駒寄幼稚園",
+      "name": "幼保連携型認定こども園駒寄幼稚園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    }
+  ]
+}

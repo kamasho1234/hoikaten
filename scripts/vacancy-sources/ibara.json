@@ -1,0 +1,59 @@
+{
+  "slug": "ibara",
+  "name": "井原市",
+  "sourceName": "井原市「市内幼稚園・保育園等の受入可能状況」",
+  "indexUrl": "https://www.city.ibara.okayama.jp/soshiki/17/1803.html",
+  "layout": "html-tables",
+  "columns": {
+    "name": 1,
+    "category": 0
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○",
+    "◯": "○",
+    "■": "×"
+  },
+  "noClassMarks": [
+    "ー",
+    "－",
+    "-",
+    "―",
+    "‐",
+    ""
+  ],
+  "nameTrim": [
+    "＜外部リンク＞",
+    "<外部リンク>"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "3人以上",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1〜2人",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "0人",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "更新日：(20\\d{2})年(\\d{1,2})月(\\d{1,2})日"
+  },
+  "minFacilities": 8,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "市の表では0人を「■」で表しています。当サイトでは「×（0人）」として表示しています。",
+    "市は表に基準日を書いていないため、掲載ページの更新日を基準日にしています。"
+  ]
+}

@@ -1880,6 +1880,18 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "×": 33, "○": 30 },
   },
+  ibara: {
+    asOf: "2026-07-31",
+    facilityCount: 23,
+    vacancy: 0,
+    symbolCounts: { "×": 60, "○": 33, "△": 3 },
+  },
+  yoshioka: {
+    asOf: "2026-08-21",
+    facilityCount: 6,
+    vacancy: 0,
+    symbolCounts: { "×": 32, "△": 3, "○": 1 },
+  },
   akaiwa: {
     asOf: "2026-08-17",
     facilityCount: 15,
