@@ -1,0 +1,52 @@
+{
+  "slug": "hanno",
+  "name": "飯能市",
+  "sourceName": "飯能市「保育所（園）の空き状況」",
+  "indexUrl": "https://www.city.hanno.lg.jp/kosodate_kyoiku/hoikujo_en__ninteikodomoennado/oshirase/joukyou.html",
+  "layout": "html-tables",
+  "columns": {
+    "name": 0
+  },
+  "categoryFrom": "heading",
+  "onlyTablesContaining": "施設|こども園|小規模",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "（注釈3）令和7年11月1日から令和8年10月31日まで新規受入停止": "新規受入停止"
+  },
+  "symbolLegend": [
+    {
+      "mark": "若干名空きあり",
+      "label": "若干名の空きがあります",
+      "open": true
+    },
+    {
+      "mark": "定員に余裕なし",
+      "label": "定員に余裕がありません",
+      "open": false
+    },
+    {
+      "mark": "新規受入停止",
+      "label": "令和7年11月1日から令和8年10月31日まで新規の受け入れを停止しています",
+      "open": false
+    }
+  ],
+  "noClassMarks": [
+    "受入年齢対象外",
+    "-",
+    "‐",
+    "―",
+    "－",
+    ""
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "令和(\\d+)年(\\d{1,2})月(\\d{1,2})日現在"
+  },
+  "minFacilities": 18,
+  "notes": [
+    "市は空き状況を「若干名空きあり」「定員に余裕なし」という言い方で公表しているため、当サイトもその言葉のまま載せています。",
+    "「受入年齢対象外」はその年齢のクラスがない施設です。当サイトでは空欄にしています。"
+  ]
+}

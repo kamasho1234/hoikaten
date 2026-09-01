@@ -1,0 +1,29 @@
+{
+  "slug": "hayama",
+  "name": "葉山町",
+  "sourceName": "葉山町「クラス別受入可能人数」",
+  "indexUrl": "https://www.town.hayama.lg.jp/Life_Sean/2/6348.html",
+  "pdf": {
+    "linkPattern": "受入可能人数"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 1,
+    "category": 0
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "vacancy"
+  ],
+  "emptyValue": 0,
+  "asOf": {
+    "source": "pdf",
+    "pattern": "令和(\\d+)年(\\d{1,2})月(\\d{1,2})日時点で作成"
+  },
+  "minFacilities": 8,
+  "notes": [
+    "町は受入可能人数が0人の年齢を空欄にしています（資料に「受入可能人数が『０』（空欄）の園も希望園として申請可能です」と明記）。当サイトでは0人として表示しています。",
+    "小規模保育施設は3歳児以上の受け入れがありませんが、町の表記にあわせて0人として表示しています。",
+    "町は「入所調整時の受入可能状況です」としています。"
+  ]
+}

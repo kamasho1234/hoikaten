@@ -1,0 +1,26 @@
+{
+  "slug": "katano",
+  "name": "交野市",
+  "sourceName": "交野市「認定こども園等 空き情報」",
+  "indexUrl": "https://www.city.katano.osaka.jp/docs/2011061000043/",
+  "pdf": {
+    "linkPattern": "空き情報"
+  },
+  "layout": "word-grid",
+  "nearestName": true,
+  "nameLeft": 150,
+  "metrics": [
+    "vacancy"
+  ],
+  "emptyValue": 0,
+  "skipRowsMatching": "^年齢$|^施設名$|^[（(]注|^いただければ",
+  "asOf": {
+    "source": "pdf",
+    "pattern": "[（(]令和(\\d+)年(\\d{1,2})月(\\d{1,2})日現在"
+  },
+  "minFacilities": 24,
+  "notes": [
+    "数値は市が公表している空き人数です。空き人数が書かれていない年齢は0人として表示しています。",
+    "市は「空き人数については、施設の状況により選考時には異なる場合がございます」としています。"
+  ]
+}

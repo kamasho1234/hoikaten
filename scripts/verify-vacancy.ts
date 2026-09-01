@@ -2044,6 +2044,39 @@ const EXPECTED: Record<
     facilityCount: 207,
     vacancy: 339,
   },
+  hanno: {
+    asOf: "2026-09-01",
+    facilityCount: 20,
+    vacancy: 0,
+    symbolCounts: { "定員に余裕なし": 75, "若干名空きあり": 14, "新規受入停止": 3 },
+  },
+  uto: {
+    asOf: "2026-09-01",
+    facilityCount: 17,
+    vacancy: 47,
+  },
+  hayama: {
+    asOf: "2026-08-24",
+    facilityCount: 9,
+    vacancy: 7,
+  },
+  yahaba: {
+    asOf: "2026-08-28",
+    facilityCount: 15,
+    vacancy: 0,
+    symbolCounts: { "×": 33, "〇": 25, "△": 17 },
+  },
+  aizuwakamatsu: {
+    asOf: "2026-08-28",
+    facilityCount: 36,
+    vacancy: 0,
+    symbolCounts: { "×": 76, "▲": 63, "△": 33, "〇": 23 },
+  },
+  katano: {
+    asOf: "2026-08-26",
+    facilityCount: 25,
+    vacancy: 18,
+  },
   akaiwa: {
     asOf: "2026-08-17",
     facilityCount: 15,

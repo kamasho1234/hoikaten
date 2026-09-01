@@ -1,0 +1,372 @@
+{
+  "municipalitySlug": "yahaba",
+  "municipalityName": "矢巾町",
+  "asOf": "2026-08-28",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "矢巾町「町内保育施設 空き状況」",
+  "sourceUrl": "https://www.town.yahaba.iwate.jp/soshiki/kodomo/kenkoufukushi/17431403187800/",
+  "sourceFiles": {
+    "vacancy": "https://www.town.yahaba.iwate.jp/yahabatown/015_kodomo/hoiku_nyuusyo/R810_hoikuen_aki.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "町は空き状況を記号で公表しているため、当サイトも記号のまま載せています。",
+    "空欄はその年齢のクラスがない施設です。"
+  ],
+  "wards": [],
+  "categories": [
+    "町立",
+    "私立"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "〇",
+      "label": "3人以上",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1〜2人",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "0人",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "煙山保育園",
+      "name": "煙山保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "×",
+        "〇",
+        "×",
+        "〇",
+        "×"
+      ]
+    },
+    {
+      "id": "徳田保育園",
+      "name": "徳田保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "北川保育園",
+      "name": "北川保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "〇",
+        "〇",
+        "△",
+        "〇",
+        "×",
+        "〇"
+      ]
+    },
+    {
+      "id": "ニチイキッズやはば駅前保育園",
+      "name": "ニチイキッズやはば駅前保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "〇",
+        "〇",
+        "〇",
+        "△",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "矢巾えほんの森保育園",
+      "name": "矢巾えほんの森保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "〇",
+        "〇",
+        "〇"
+      ]
+    },
+    {
+      "id": "北高田こども園",
+      "name": "北高田こども園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "〇",
+        "〇",
+        "〇",
+        "△",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "こずかたこども園",
+      "name": "こずかたこども園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "矢巾中央幼稚園・矢巾中央保育園",
+      "name": "矢巾中央幼稚園・矢巾中央保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "×",
+        "△",
+        "△",
+        "〇"
+      ]
+    },
+    {
+      "id": "やはばこども園",
+      "name": "やはばこども園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "ふどうこども園",
+      "name": "ふどうこども園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "×",
+        "×",
+        "△",
+        "×"
+      ]
+    },
+    {
+      "id": "ピースハート南やはば保育園",
+      "name": "ピースハート南やはば保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "〇",
+        "△",
+        "〇",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "未来保育園",
+      "name": "未来保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "〇",
+        "△",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "なないろ保育園",
+      "name": "なないろ保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "〇",
+        "〇",
+        "△",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "ぐらんまえん",
+      "name": "ぐらんまえん",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "〇",
+        "〇",
+        "〇",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "ニコニコ保育園矢巾",
+      "name": "ニコニコ保育園矢巾",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "〇",
+        "×",
+        "△",
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+}

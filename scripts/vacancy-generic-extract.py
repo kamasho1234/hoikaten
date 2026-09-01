@@ -783,12 +783,45 @@ def extract_word_grid(pdf, conf):
         for w in words:
             key = round(w["top"] / band)
             lines.setdefault(key, []).append(w)
+        # 数字が施設名より少し上に印字され、左端に縦書きの分類文字が1文字ずつ
+        # 入る表がある（交野市）。高さでまとめるだけだと、その1文字だけの行が
+        # 隣の施設の数字を横取りしてしまう。
+        # nearestName を指定した設定では、施設名のある行を先に決めてから、
+        # 数字をいちばん近い施設名の行に配り直す。
+        if conf.get("nearestName"):
+            name_left = conf.get("nameLeft")
+            named = []
+            for key in sorted(lines):
+                ws = sorted(lines[key], key=lambda w: w["x0"])
+                text = "".join(
+                    cell(w["text"])
+                    for w in ws
+                    if (w["x0"] + w["x1"]) / 2 < left - 10
+                    and (name_left is None or w["x0"] >= name_left)
+                )
+                if len(re.sub(r"[0-9０-９人\s]", "", text)) >= 2:
+                    named.append((key, min(w["top"] for w in ws)))
+            if named:
+                moved = {key: [w for w in ws if (w["x0"] + w["x1"]) / 2 < left - 10] for key, ws in lines.items()}
+                for key, ws in lines.items():
+                    for w in ws:
+                        if (w["x0"] + w["x1"]) / 2 < left - 10:
+                            continue
+                        near = min(named, key=lambda n: abs(n[1] - w["top"]))
+                        moved[near[0]].append(w)
+                lines = {k: v for k, v in moved.items() if v}
         for key in sorted(lines):
             ws = sorted(lines[key], key=lambda w: w["x0"])
             if limit and ws and ws[0]["top"] > limit:
                 break
             # 施設名 = 年齢の見出しより左にある文字をつないだもの
-            name = "".join(cell(w["text"]) for w in ws if (w["x0"] + w["x1"]) / 2 < left - 10)
+            name_left = conf.get("nameLeft")
+            name = "".join(
+                cell(w["text"])
+                for w in ws
+                if (w["x0"] + w["x1"]) / 2 < left - 10
+                and (name_left is None or w["x0"] >= name_left)
+            )
             name = re.sub(r"[0-9０-９]+人?$", "", name)
             for pat in conf.get("nameTrim", []):
                 name = re.sub(pat, "", name)

@@ -1,0 +1,47 @@
+{
+  "slug": "yahaba",
+  "name": "矢巾町",
+  "sourceName": "矢巾町「町内保育施設 空き状況」",
+  "indexUrl": "https://www.town.yahaba.iwate.jp/soshiki/kodomo/kenkoufukushi/17431403187800/",
+  "pdf": {
+    "linkPattern": "空き状況"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 3,
+    "category": 0
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "○": "〇"
+  },
+  "symbolLegend": [
+    {
+      "mark": "〇",
+      "label": "3人以上",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1〜2人",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "0人",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "令和(\\d+)年(\\d{1,2})月(\\d{1,2})日現在"
+  },
+  "minFacilities": 13,
+  "notes": [
+    "町は空き状況を記号で公表しているため、当サイトも記号のまま載せています。",
+    "空欄はその年齢のクラスがない施設です。"
+  ]
+}

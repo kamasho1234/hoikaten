@@ -1,0 +1,484 @@
+{
+  "municipalitySlug": "hanno",
+  "municipalityName": "飯能市",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "飯能市「保育所（園）の空き状況」",
+  "sourceUrl": "https://www.city.hanno.lg.jp/kosodate_kyoiku/hoikujo_en__ninteikodomoennado/oshirase/joukyou.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.hanno.lg.jp/kosodate_kyoiku/hoikujo_en__ninteikodomoennado/oshirase/joukyou.html"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "市は空き状況を「若干名空きあり」「定員に余裕なし」という言い方で公表しているため、当サイトもその言葉のまま載せています。",
+    "「受入年齢対象外」はその年齢のクラスがない施設です。当サイトでは空欄にしています。"
+  ],
+  "wards": [],
+  "categories": [
+    "私立保育施設",
+    "認定こども園",
+    "小規模保育事業",
+    "公立施設"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "若干名空きあり",
+      "label": "若干名の空きがあります",
+      "open": true
+    },
+    {
+      "mark": "定員に余裕なし",
+      "label": "定員に余裕がありません",
+      "open": false
+    },
+    {
+      "mark": "新規受入停止",
+      "label": "令和7年11月1日から令和8年10月31日まで新規の受け入れを停止しています",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "すぎのこ保育園",
+      "name": "すぎのこ保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "定員に余裕なし",
+        "定員に余裕なし",
+        "定員に余裕なし",
+        "定員に余裕なし",
+        "定員に余裕なし",
+        "定員に余裕なし"
+      ]
+    },
+    {
+      "id": "ぽかぽか保育園",
+      "name": "ぽかぽか保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "定員に余裕なし",
+        "定員に余裕なし",
+        "若干名空きあり",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "飯能元氣保育園(本園・分園)",
+      "name": "飯能元氣保育園(本園・分園)",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "新規受入停止",
+        "新規受入停止",
+        "新規受入停止",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "シーザースクリークチャイルドケア",
+      "name": "シーザースクリークチャイルドケア",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        "定員に余裕なし",
+        "定員に余裕なし",
+        "定員に余裕なし",
+        "定員に余裕なし",
+        "若干名空きあり"
+      ]
+    },
+    {
+      "id": "シーザースクリークチャイルドケア(分園)",
+      "name": "シーザースクリークチャイルドケア(分園)",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "定員に余裕なし",
+        "定員に余裕なし",
+        "定員に余裕なし",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "Nicot飯能",
+      "name": "Nicot飯能",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "定員に余裕なし",
+        "定員に余裕なし",
+        "定員に余裕なし",
+        "定員に余裕なし",
+        "定員に余裕なし",
+        "定員に余裕なし"
+      ]
+    },
+    {
+      "id": "認定こども園さゆり幼稚園",
+      "name": "認定こども園さゆり幼稚園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "定員に余裕なし",
+        "定員に余裕なし",
+        "定員に余裕なし",
+        "定員に余裕なし",
+        "定員に余裕なし",
+        "定員に余裕なし"
+      ]
+    },
+    {
+      "id": "認定こども園白鳥幼稚園",
+      "name": "認定こども園白鳥幼稚園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "定員に余裕なし",
+        "定員に余裕なし",
+        "定員に余裕なし",
+        "定員に余裕なし",
+        "定員に余裕なし",
+        "定員に余裕なし"
+      ]
+    },
+    {
+      "id": "加治幼稚園",
+      "name": "加治幼稚園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        null,
+        "若干名空きあり",
+        "定員に余裕なし",
+        "定員に余裕なし"
+      ]
+    },
+    {
+      "id": "わかば保育園",
+      "name": "わかば保育園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        "定員に余裕なし",
+        "定員に余裕なし",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "あかり保育園",
+      "name": "あかり保育園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "定員に余裕なし",
+        "定員に余裕なし",
+        "定員に余裕なし",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "山手保育所",
+      "name": "山手保育所",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "定員に余裕なし",
+        "定員に余裕なし",
+        "定員に余裕なし",
+        "定員に余裕なし",
+        "定員に余裕なし",
+        "定員に余裕なし"
+      ]
+    },
+    {
+      "id": "第二区保育所",
+      "name": "第二区保育所",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        "定員に余裕なし",
+        "定員に余裕なし",
+        "定員に余裕なし",
+        "若干名空きあり",
+        "若干名空きあり"
+      ]
+    },
+    {
+      "id": "富士見保育所",
+      "name": "富士見保育所",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        null,
+        null,
+        "若干名空きあり",
+        "定員に余裕なし"
+      ]
+    },
+    {
+      "id": "浅間保育所",
+      "name": "浅間保育所",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        "定員に余裕なし",
+        "定員に余裕なし",
+        "定員に余裕なし",
+        "定員に余裕なし",
+        "定員に余裕なし"
+      ]
+    },
+    {
+      "id": "加治保育所",
+      "name": "加治保育所",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        "定員に余裕なし",
+        "定員に余裕なし",
+        "定員に余裕なし",
+        "定員に余裕なし",
+        "定員に余裕なし"
+      ]
+    },
+    {
+      "id": "加治東保育所",
+      "name": "加治東保育所",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "定員に余裕なし",
+        "定員に余裕なし",
+        "定員に余裕なし",
+        "定員に余裕なし",
+        "定員に余裕なし",
+        "定員に余裕なし"
+      ]
+    },
+    {
+      "id": "美杉台保育所",
+      "name": "美杉台保育所",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "定員に余裕なし",
+        "定員に余裕なし",
+        "定員に余裕なし",
+        "定員に余裕なし",
+        "定員に余裕なし",
+        "若干名空きあり"
+      ]
+    },
+    {
+      "id": "吾野保育所",
+      "name": "吾野保育所",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        "若干名空きあり",
+        "若干名空きあり",
+        "若干名空きあり",
+        "若干名空きあり",
+        "若干名空きあり"
+      ]
+    },
+    {
+      "id": "原市場保育所",
+      "name": "原市場保育所",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "定員に余裕なし",
+        "定員に余裕なし",
+        "定員に余裕なし",
+        "定員に余裕なし",
+        "若干名空きあり",
+        "若干名空きあり"
+      ]
+    }
+  ]
+}

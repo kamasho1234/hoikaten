@@ -1,0 +1,52 @@
+{
+  "slug": "aizuwakamatsu",
+  "name": "会津若松市",
+  "sourceName": "会津若松市「保育所・認定こども園（保育部分）受入予定数」",
+  "pdf": {
+    "linkPattern": "受入予定数"
+  },
+  "indexUrl": "https://www.city.aizuwakamatsu.fukushima.jp/docs/2024092400010/",
+  "layout": "auto-table",
+  "columns": {
+    "name": 2,
+    "category": 1
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "○": "〇"
+  },
+  "symbolLegend": [
+    {
+      "mark": "〇",
+      "label": "6人以上空きあり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "3〜5人空きあり",
+      "open": true
+    },
+    {
+      "mark": "▲",
+      "label": "1〜2人空きあり",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "[（(]令和(\\d+)年(\\d{1,2})月(\\d{1,2})日時点"
+  },
+  "minFacilities": 30,
+  "notes": [
+    "市は空き状況を記号で公表しているため、当サイトも記号のまま載せています。",
+    "市は「在園児の退所や保育士数の変動等により、今後空き状況が変更となる場合があります」としています。"
+  ]
+}

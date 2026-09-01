@@ -1,0 +1,32 @@
+{
+  "slug": "uto",
+  "name": "宇土市",
+  "sourceName": "宇土市「市内認可保育所等空き状況」",
+  "indexUrl": "https://www.city.uto.lg.jp/article/view/1066/12925.html",
+  "layout": "html-tables",
+  "columns": {
+    "name": 0,
+    "category": 1
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "vacancy"
+  ],
+  "nameTrim": [
+    "（サイト内リンク）"
+  ],
+  "zeroMarks": [
+    "1号認定者は可能"
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "(20\\d{2})年(\\d{1,2})月(\\d{1,2})日"
+  },
+  "minFacilities": 15,
+  "notes": [
+    "数値は市が公表している受入予定数です。",
+    "「－」はその年齢のクラスがない施設です。当サイトでは空欄にしています。",
+    "市が「1号認定者は可能」と書いている年齢は、保育を必要とする2号・3号認定の空きがないため0人として表示しています。",
+    "時点は市の公式ページの更新日です。"
+  ]
+}
