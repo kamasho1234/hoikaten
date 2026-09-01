@@ -1,0 +1,76 @@
+{
+  "slug": "yokote",
+  "name": "横手市",
+  "sourceName": "横手市「市内保育所・認定こども園等の受入状況一覧」",
+  "indexUrl": "https://www.city.yokote.lg.jp/kosodate/1001158/1001159/1003372.html",
+  "pdf": {
+    "linkPattern": "受入状況一覧"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 3,
+    "category": 2,
+    "ages": [
+      5,
+      8,
+      11
+    ]
+  },
+  "ageGroups": [
+    [
+      0
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      3,
+      4,
+      5
+    ]
+  ],
+  "categoryFrom": "row",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "○": "〇"
+  },
+  "symbolLegend": [
+    {
+      "mark": "〇",
+      "label": "受入可能",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "空きわずか（目安3人以下）",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "受入不可",
+      "open": false
+    }
+  ],
+  "skipRowsContaining": [
+    "施設名",
+    "受入状況"
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "更新日[：:]\\s*令和(\\d+)年(\\d{1,2})月(\\d{1,2})日"
+  },
+  "minFacilities": 20,
+  "notes": [
+    "市は空き状況を記号で公表しているため、当サイトも記号のまま載せています。",
+    "市は年齢を「0歳児」「1・2歳児」「3・4・5歳児」の3区分でまとめて公表しています。当サイトでは同じ区分の年齢に同じ記号を表示しています（年齢ごとの内訳は市が公表していません）。",
+    "市は在籍児童数・利用定員も公表していますが、当サイトでは受入状況だけを載せています。"
+  ],
+  "categoryMap": {
+    "認": "認定こども園",
+    "保": "保育所",
+    "事": "事業所内保育事業所"
+  }
+}

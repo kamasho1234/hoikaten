@@ -105,15 +105,28 @@ def rows_from_grid(grid, conf, category=None):
     row_label = conf.get("rowLabel")
     # 見出し行と本文で列がずれる表があるので、年齢の列を直接書けるようにする
     fixed_ages = cols.get("ages")
+    # 年齢をまとめて公表する自治体がある（横手市は「0歳」「1・2歳」「3・4・5歳」の3区分）。
+    # 区分ごとの列を書き、その値をその区分に含まれる年齢すべてに配る。
+    # 自治体が1つの値しか出していないことは注記で断る
+    age_groups = conf.get("ageGroups")
+    if age_groups:
+        if not fixed_ages or len(fixed_ages) != len(age_groups):
+            fail("ageGroups と columns.ages の数を合わせてください")
 
     rows = []
     age_cols = None
     name_col = None
     last_name = ""
     if fixed_ages:
-        if len(fixed_ages) != 6:
+        if not age_groups and len(fixed_ages) != 6:
             fail("columns.ages は0歳〜5歳の6列を指定してください")
-        age_cols = {c: i for i, c in enumerate(fixed_ages)}
+        # 区分でまとめている表では、区分の列を先頭の年齢に割り当てて読み、
+        # あとで同じ区分の年齢に配る
+        age_cols = (
+            {c: g[0] for c, g in zip(fixed_ages, age_groups)}
+            if age_groups
+            else {c: i for i, c in enumerate(fixed_ages)}
+        )
         name_col = name_col_conf if name_col_conf is not None else 0
 
     for raw in grid:
@@ -244,6 +257,12 @@ def rows_from_grid(grid, conf, category=None):
                 ok = True
         if not ok:
             continue
+        # 区分でまとめている表は、区分の値をその区分の年齢すべてに配る
+        if age_groups:
+            for g in age_groups:
+                for a in g[1:]:
+                    values[a] = values[g[0]]
+                    symbols[a] = symbols[g[0]]
 
         row = {"name": name, "vacancy": values}
         if as_symbol:
