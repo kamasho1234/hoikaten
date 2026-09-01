@@ -323,6 +323,54 @@ def read_name(patch):
     return re.sub(r"[\s\u3000]+", "", t)
 
 
+def read_block(bw, xs, y0, y1, blk, conf, mode, empty, total_col):
+    """1行の中の「1組ぶん」を読む（左右2組の表のため）"""
+    name_col, age_cols = blk["name"], blk["ages"]
+    if name_col + 1 >= len(xs):
+        return None
+    name = read_name(cell(bw, xs[name_col], xs[name_col + 1], y0, y1)) or "?"
+    values, symbols, ok = [None] * 6, [None] * 6, False
+    for i, c in enumerate(age_cols):
+        if c + 1 >= len(xs):
+            continue
+        patch = cell(bw, xs[c], xs[c + 1], y0, y1)
+        if has_diagonal(patch):
+            continue
+        filled = len(denoise(patch).nonzero()[0])
+        if filled < max(60, patch.size * 0.025):
+            if mode == "number" and empty is not None:
+                values[i] = empty
+                ok = True
+            elif mode == "symbol" and conf.get("emptyMark"):
+                symbols[i] = conf["emptyMark"]
+                ok = True
+            continue
+        if mode == "number":
+            t = read_number(patch)
+            if t != "":
+                values[i] = int(t)
+                ok = True
+        else:
+            s = classify_symbol(patch)
+            if s:
+                symbols[i] = s
+                ok = True
+    if not ok and name == "?":
+        return None
+    # 表の外にある注記まで拾わないよう、施設名らしい形の行だけ残す
+    keep = conf.get("nameMustMatch")
+    if keep and not re.search(keep, name):
+        return None
+    drop = conf.get("skipRowsMatching")
+    if drop and re.search(drop, name):
+        return None
+    row = {"name": name, "values": values, "symbols": symbols}
+    if total_col is not None and total_col + 1 < len(xs):
+        t = read_number(cell(bw, xs[total_col], xs[total_col + 1], y0, y1))
+        row["total"] = int(t) if t != "" else None
+    return row
+
+
 def read_table(pdf_bytes, conf):
     """設定で指定したページを順に読んで、施設の行を並べて返す"""
     pages = conf.get("pages")
@@ -340,8 +388,11 @@ def read_page(pdf_bytes, conf, page):
     xs, ys, bw = grid(img, conf.get("lineRatio", 0.3))
     if len(xs) < 4 or len(ys) < 4:
         raise SystemExit(f"[中断] {page + 1}ページ目に罫線が見つかりません（縦{len(xs)}本 横{len(ys)}本）")
-    name_col = conf["nameCol"]
-    age_cols = conf["ageCols"]
+    # 同じ表を左右2組に並べる自治体がある（松戸市）。
+    # blocks を書いたときは、1行から2施設ぶん読む
+    blocks = conf.get("blocks") or [{"name": conf["nameCol"], "ages": conf["ageCols"]}]
+    name_col = blocks[0]["name"]
+    age_cols = blocks[0]["ages"]
     total_col = conf.get("totalCol")
     mode = conf.get("cellMode", "number")
     empty = conf.get("emptyValue")
@@ -352,6 +403,11 @@ def read_page(pdf_bytes, conf, page):
             continue
         if name_col + 1 >= len(xs):
             continue
+        for blk in blocks:
+            got = read_block(bw, xs, y0, y1, blk, conf, mode, empty, total_col)
+            if got:
+                rows.append(got)
+        continue
         name = read_name(cell(bw, xs[name_col], xs[name_col + 1], y0, y1))
         if not name:
             # 名前が1文字も読めなくても、値のあるマスがあるなら施設の行。

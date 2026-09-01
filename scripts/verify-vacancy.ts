@@ -1976,6 +1976,12 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "×": 172, "△": 93, "○": 66, "◎": 51 },
   },
+  matsudo: {
+    asOf: "2026-09-01",
+    facilityCount: 198,
+    vacancy: 0,
+    symbolCounts: { "□": 979, "△": 189, "×": 20 },
+  },
   akaiwa: {
     asOf: "2026-08-17",
     facilityCount: 15,

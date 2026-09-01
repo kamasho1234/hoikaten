@@ -1,0 +1,96 @@
+{
+  "slug": "matsudo",
+  "name": "松戸市",
+  "sourceName": "松戸市「保育施設の定員に対する空き状況一覧」",
+  "indexUrl": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuushojoukyou.html",
+  "pdf": {
+    "linkPattern": "空き状況一覧"
+  },
+  "layout": "image-table",
+  "dpi": 300,
+  "lineRatio": 0.3,
+  "headerRows": 5,
+  "nameCol": 2,
+  "ageCols": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "blocks": [
+    {
+      "name": 2,
+      "ages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "name": 12,
+      "ages": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    }
+  ],
+  "pages": [
+    1,
+    2
+  ],
+  "cellMode": "symbol",
+  "metrics": [
+    "symbol"
+  ],
+  "emptyMark": "□",
+  "symbolLegend": [
+    {
+      "mark": "◎",
+      "label": "定員に十分な空きがある",
+      "open": true
+    },
+    {
+      "mark": "○",
+      "label": "定員に空きがある",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "定員の空きがわずか、または事情により定員までの受け入れができない",
+      "open": true
+    },
+    {
+      "mark": "□",
+      "label": "定員まで達している",
+      "open": false
+    },
+    {
+      "mark": "×",
+      "label": "対象クラスの設定なし",
+      "open": false
+    }
+  ],
+  "minFacilities": 100,
+  "notes": [
+    "市は空き状況を画像のPDFで公表しているため、当サイトでは罫線から升目を割り出して1マスずつ読み取っています。",
+    "市の表では「定員まで達している」を空欄で表しています。当サイトでは「□」として表示しています。",
+    "表示が空欄であっても、退園者や転園者によって入所できる場合があると市が案内しています。",
+    "定員に対する空き状況を表した一覧であり、入所の確約をするものではありません。",
+    "「−」は対象クラスの設定がないことを表します。",
+    "市の表では対象クラスの設定がない年齢を「−」で表しています。当サイトでは「×」として表示しています。"
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "(20\\d{2})年(\\d{1,2})月(\\d{1,2})日"
+  },
+  "nameMustMatch": "(保育|こども|ルーム|園|所|キッズ|ナーサリー|スクール|ホーム)"
+}
