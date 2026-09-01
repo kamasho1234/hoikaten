@@ -885,6 +885,10 @@ def extract_word_grid(pdf, conf):
                     ok = True
                 if ok:
                     rows.append({"name": name, "vacancy": [None] * 6, "symbols": symbols})
+                elif conf.get("joinWrappedNames") and rows:
+                    # 施設名が結合セルの中で2行に折り返す資料がある（岡崎市）。
+                    # 記号が1つも無い行は名前の続きとみなして、前の行につなぐ
+                    rows[-1]["name"] += name
                 continue
             for w in ws:
                 t = cell(w["text"]).replace(unit, "")
@@ -913,8 +917,21 @@ def extract_age_rows(pdf, conf):
 
     長浜市の「募集人数一覧表」がこの形で、施設名は6行のうち先頭にしか入っていない
     （PDFの結合セル）。読みたい列は設定の columns.value で指定する。
+
+    松阪市のように**同じ形の組を横に何園ぶんも並べる**資料では、
+    columns.blocks に組ごとの列（name / age / value）を並べて書く。
     """
-    cols = conf["columns"]
+    blocks = (conf.get("columns") or {}).get("blocks")
+    if not blocks:
+        return age_rows_block(pdf, conf, conf["columns"])
+    rows = []
+    for b in blocks:
+        rows.extend(age_rows_block(pdf, conf, {**conf["columns"], **b}))
+    return rows
+
+
+def age_rows_block(pdf, conf, cols):
+    """age-rows の1組ぶんを読む"""
     name_col = cols["name"]
     age_col = cols["age"]
     value_col = cols["value"]
@@ -928,8 +945,17 @@ def extract_age_rows(pdf, conf):
     values = [None] * 6
     seen_any = False
 
+    # 「公立計」「私立こども園計」のような集計の組が施設と同じ形で並ぶ資料がある。
+    # 行ごと落とすと、その組の数字が直前の施設に混ざってしまうので、
+    # いったん施設として読んでから名前で捨てる
+    drop_name = conf.get("skipNamesMatching")
+
     def flush():
         nonlocal values, seen_any
+        if drop_name and cur_name and re.search(drop_name, cur_name):
+            values = [None] * 6
+            seen_any = False
+            return
         if cur_name and seen_any:
             row = {"name": cur_name, "vacancy": values}
             if cat_col is not None and cur_cat:
@@ -946,16 +972,24 @@ def extract_age_rows(pdf, conf):
             if len(raw) < width:
                 continue
             r = [cell(c) for c in raw]
-            if any(x and x in "".join(r) for x in skip):
+            # 組ごとに読むので、落とす判定はその組の欄だけで行う。
+            # 行全体で見ると、隣の組に「計」があるだけで施設の行まで落ちてしまう
+            mine = "".join(r[c] for c in (name_col, age_col, value_col) if c < len(r))
+            if any(x and x in mine for x in skip):
                 continue
-            age = age_of_header(r[age_col])
-            if age is None:
-                continue
+            # 施設名が入っている行が、次の施設の始まり。
+            # 名前と見出し（ｸﾗｽ・最大受入…）が同じ行に来る資料があるので、
+            # 年齢を読めるかどうかより先に名前を見る（松阪市）
             name = r[name_col]
             if name:
-                # 施設名が入っている行が、次の施設の始まり
                 flush()
                 cur_name = name
+            age = age_of_header(r[age_col])
+            if age is None and conf.get("ageAsNumber") and re.fullmatch(r"[0-5]", r[age_col]):
+                # 年齢の欄に「0」「1」と数字だけを書く資料がある（松阪市）
+                age = int(r[age_col])
+            if age is None:
+                continue
             if cat_col is not None and r[cat_col]:
                 text = r[cat_col]
                 for pat in conf.get("categoryTrim", []):

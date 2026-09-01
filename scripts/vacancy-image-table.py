@@ -354,6 +354,18 @@ def read_block(bw, xs, y0, y1, blk, conf, mode, empty, total_col):
                 values[i] = int(t)
                 ok = True
         else:
+            # 形で見分けるのが不安定な資料がある（松本市の×は2本の線が中央で
+            # 離れていて、輪郭が1つになったり2つになったりする）。
+            # 記号の種類が少なく塗りの量ではっきり分かれるときは、
+            # inkMarks でインクの量から決められるようにする
+            ink_marks = conf.get("inkMarks")
+            if ink_marks:
+                for rule in ink_marks:
+                    if "max" not in rule or filled <= rule["max"]:
+                        symbols[i] = rule["mark"]
+                        ok = True
+                        break
+                continue
             s = classify_symbol(patch)
             if s:
                 symbols[i] = s
@@ -375,13 +387,21 @@ def read_block(bw, xs, y0, y1, blk, conf, mode, empty, total_col):
 
 
 def read_table(pdf_bytes, conf):
-    """設定で指定したページを順に読んで、施設の行を並べて返す"""
+    """設定で指定したページを順に読んで、施設の行を並べて返す
+
+    ページごとに表の作りが違う資料がある（松本市は公立のページだけ
+    0歳と1歳が1つの欄＝混合保育）。pages に数字ではなく
+    {"page": 0, "ageCols": [...]} のように書くと、そのページだけ設定を上書きする。
+    """
     pages = conf.get("pages")
     if pages is None:
         pages = [conf.get("page", 0)]
     rows = []
     for p in pages:
-        rows.extend(read_page(pdf_bytes, conf, p))
+        if isinstance(p, dict):
+            rows.extend(read_page(pdf_bytes, {**conf, **p}, p["page"]))
+        else:
+            rows.extend(read_page(pdf_bytes, conf, p))
     return rows
 
 
@@ -459,6 +479,21 @@ def read_region(img, conf, page):
                     values[i] = int(t)
                     ok = True
             else:
+                # 形で見分けるのが不安定な資料がある（松本市の×は2本の線が
+                # 中央で離れていて、輪郭が1つになったり2つになったりする）。
+                # 記号の種類が少なく、塗りの量ではっきり分かれるときは、
+                # インクの量で決められるようにする
+                ink_marks = conf.get("inkMarks")
+                if ink_marks:
+                    mark = None
+                    for rule in ink_marks:
+                        if "max" not in rule or filled <= rule["max"]:
+                            mark = rule["mark"]
+                            break
+                    if mark:
+                        symbols[i] = mark
+                        ok = True
+                    continue
                 s = classify_symbol(patch)
                 if s:
                     symbols[i] = s

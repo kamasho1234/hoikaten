@@ -1,0 +1,72 @@
+{
+  "slug": "matsusaka",
+  "name": "松阪市",
+  "sourceName": "松阪市「入園児童受入可能数」",
+  "indexUrl": "https://www.city.matsusaka.mie.jp/site/youho/nyuenjidosuhyou2022.html",
+  "pdfs": [
+    {
+      "linkPattern": "受入可能数（公立保育園）",
+      "category": "公立保育園"
+    },
+    {
+      "linkPattern": "受入可能数（公立こども園）",
+      "category": "公立こども園"
+    },
+    {
+      "linkPattern": "受入可能数（私立保育園）",
+      "category": "私立保育園"
+    },
+    {
+      "linkPattern": "受入可能数（私立こども園）",
+      "category": "私立こども園"
+    }
+  ],
+  "layout": "age-rows",
+  "columns": {
+    "name": 0,
+    "age": 1,
+    "value": 3,
+    "blocks": [
+      {
+        "name": 0,
+        "age": 1,
+        "value": 3
+      },
+      {
+        "name": 4,
+        "age": 5,
+        "value": 7
+      },
+      {
+        "name": 8,
+        "age": 9,
+        "value": 11
+      },
+      {
+        "name": 12,
+        "age": 13,
+        "value": 15
+      },
+      {
+        "name": 16,
+        "age": 17,
+        "value": 19
+      }
+    ]
+  },
+  "ageAsNumber": true,
+  "metrics": [
+    "vacancy"
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "令和(\\d+)年(\\d{1,2})月(\\d{1,2})日時点"
+  },
+  "minFacilities": 3,
+  "notes": [
+    "数値は市が公表している受入可能数です。",
+    "市は最大受入数も公表していますが、当サイトでは受入可能数だけを載せています。",
+    "幼稚園（教育利用）の受入可能数は市が別の表で公表していますが、当サイトでは保育を必要とする方向けの表だけを載せています。"
+  ],
+  "skipNamesMatching": "計$"
+}

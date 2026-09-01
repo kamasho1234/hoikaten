@@ -35,8 +35,12 @@ type PdfSpec = {
   linkPattern?: string;
   /** 直接URLを指定する場合 */
   url?: string;
-  /** 候補が複数あるときにどれを使うか。既定は先頭 */
-  pick?: "first" | "last";
+  /**
+   * 候補が複数あるときにどれを使うか。既定は先頭。
+   * "latest" は「令和8年度10月入園」のような文言から年度と月を読み、
+   * いちばん新しいものを選ぶ（月は4月始まりで数える）
+   */
+  pick?: "first" | "last" | "latest";
   /** このPDFから読んだ施設に付ける類型（「公立保育園」など） */
   category?: string;
 };
@@ -172,21 +176,34 @@ async function run(slug: string): Promise<void> {
     // 拡張子だけでなく「リンクの文字が(PDF：〇KB)で終わる」形も拾う
     const re = /<a[^>]+href="([^"]+)"[^>]*>([\s\S]{0,600}?)<\/a>/gi;
     const wanted = new RegExp(spec.linkPattern);
-    const hits: string[] = [];
+    const hits: Array<{ url: string; label: string }> = [];
     for (const m of indexHtml.matchAll(re)) {
       const label = stripTags(m[2]).replace(/\s+/g, "");
       const looksPdf = /\.pdf(\?|$|#)/i.test(m[1]) || /（?PDF[：:]/i.test(label);
       if (!looksPdf) continue;
       if (wanted.test(label) || wanted.test(m[1])) {
-        hits.push(new URL(m[1], conf.indexUrl).toString());
+        hits.push({ url: new URL(m[1], conf.indexUrl).toString(), label });
       }
     }
     if (hits.length === 0) fail(`「${spec.linkPattern}」に当たるPDFのリンクが見つかりません`);
+    if (spec.pick === "latest") {
+      // 「令和8年度10月入園」のような文言から年度と月を取り、いちばん新しいものを選ぶ。
+      // 月は年度の並び（4月〜翌3月）で数える
+      const score = (label: string): number => {
+        const m = toHankaku(label).match(/令和(\d+)年度?\s*(\d{1,2})月/);
+        if (!m) return -1;
+        const month = Number(m[2]);
+        return Number(m[1]) * 100 + (month >= 4 ? month : month + 12);
+      };
+      const best = hits.reduce((a, b) => (score(b.label) > score(a.label) ? b : a));
+      console.log(`  （「${spec.linkPattern}」の候補が${hits.length}本あったので「${best.label.slice(0, 24)}」を使います）`);
+      return best.url;
+    }
     if (hits.length > 1) {
       const which = spec.pick === "last" ? "最後" : "先頭";
       console.log(`  （「${spec.linkPattern}」の候補が${hits.length}本あったので${which}を使います）`);
     }
-    return spec.pick === "last" ? hits[hits.length - 1] : hits[0];
+    return spec.pick === "last" ? hits[hits.length - 1].url : hits[0].url;
   };
 
   const rows: Array<Record<string, unknown>> = [];
