@@ -308,6 +308,8 @@ import fuchuHiroshimaVacancy from "./fuchu-hiroshima.json";
 import akaiwaVacancy from "./akaiwa.json";
 import nakanoVacancy from "./nakano.json";
 import azuminoVacancy from "./azumino.json";
+import usaVacancy from "./usa.json";
+import kosaiVacancy from "./kosai.json";
 import kamaishiVacancy from "./kamaishi.json";
 import hekinanVacancy from "./hekinan.json";
 import misatoAkitaVacancy from "./misato-akita.json";
@@ -732,6 +734,8 @@ const registry: Record<string, VacancyDataset> = {
   "fuchu-hiroshima": fuchuHiroshimaVacancy as unknown as VacancyDataset,
   akaiwa: akaiwaVacancy as unknown as VacancyDataset,
   azumino: azuminoVacancy as unknown as VacancyDataset,
+  usa: usaVacancy as unknown as VacancyDataset,
+  kosai: kosaiVacancy as unknown as VacancyDataset,
   kamaishi: kamaishiVacancy as unknown as VacancyDataset,
   hekinan: hekinanVacancy as unknown as VacancyDataset,
   "misato-akita": misatoAkitaVacancy as unknown as VacancyDataset,

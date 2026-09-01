@@ -1943,6 +1943,17 @@ const EXPECTED: Record<
     facilityCount: 12,
     vacancy: 85,
   },
+  kosai: {
+    asOf: "2026-08-10",
+    facilityCount: 11,
+    vacancy: 0,
+    symbolCounts: { "×": 37, "△": 17, "○": 6 },
+  },
+  usa: {
+    asOf: "2026-09-01",
+    facilityCount: 28,
+    vacancy: 417,
+  },
   akaiwa: {
     asOf: "2026-08-17",
     facilityCount: 15,

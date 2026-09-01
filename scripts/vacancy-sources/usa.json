@@ -1,0 +1,39 @@
+{
+  "slug": "usa",
+  "name": "宇佐市",
+  "sourceName": "宇佐市「入所募集数」",
+  "indexUrl": "https://www.city.usa.oita.jp/sougo/kosodate_kyoiku/kosodate/15782.html",
+  "pdf": {
+    "linkPattern": "募集数",
+    "pick": "last"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 0,
+    "ages": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "categoryFrom": "none",
+  "metrics": [
+    "vacancy"
+  ],
+  "rowLabel": {
+    "column": 1,
+    "value": "募集数"
+  },
+  "asOf": {
+    "source": "pdf",
+    "pattern": "(20\\d{2})/(\\d{1,2})/(\\d{1,2})\\s*現在"
+  },
+  "minFacilities": 20,
+  "notes": [
+    "市は各施設の募集数として公表しています。",
+    "2号認定・3号認定の募集人数です。"
+  ]
+}

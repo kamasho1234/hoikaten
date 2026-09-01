@@ -1,0 +1,281 @@
+{
+  "municipalitySlug": "kosai",
+  "municipalityName": "湖西市",
+  "asOf": "2026-08-10",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "湖西市「認可保育所等の受け入れ可能数」",
+  "sourceUrl": "https://www.city.kosai.shizuoka.jp/kosodate_kyoiku/kosodate/yochien_hoikuen/1/16546.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.kosai.shizuoka.jp/kosodate_kyoiku/kosodate/yochien_hoikuen/1/16546.html"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "時点日以後の退園などにより「×」でも受け入れ可となることがあり、保育士の退職などにより「△」「○」でも受け入れ不可となることがあると市が案内しています。"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "3人以上受け入れ可",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1人または2人受け入れ可",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "受け入れ不可",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "市立岡崎幼稚園(保育部)",
+      "name": "市立岡崎幼稚園(保育部)",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        "△",
+        "△",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "市立新居幼稚園(保育部)",
+      "name": "市立新居幼稚園(保育部)",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "△",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "しらゆりこども園",
+      "name": "しらゆりこども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "×",
+        "×",
+        "△",
+        "△",
+        "×"
+      ]
+    },
+    {
+      "id": "微笑こども園",
+      "name": "微笑こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "おかさきこども園",
+      "name": "おかさきこども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "×",
+        "△",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "真愛三ツ谷こども園",
+      "name": "真愛三ツ谷こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "×",
+        "△",
+        "△",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "真愛白須賀こども園",
+      "name": "真愛白須賀こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "△",
+        "△",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "ヒーローズこさいこども園",
+      "name": "ヒーローズこさいこども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "×",
+        "×",
+        "○",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "希望の杜保育園",
+      "name": "希望の杜保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "きりつ保育園",
+      "name": "きりつ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "○",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "吉美風の子保育園",
+      "name": "吉美風の子保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "△",
+        "×",
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+}
