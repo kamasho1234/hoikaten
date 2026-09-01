@@ -2034,6 +2034,16 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "×": 41, "△": 22, "○": 10 },
   },
+  kitakyushu: {
+    asOf: "2026-08-31",
+    facilityCount: 263,
+    vacancy: 223,
+  },
+  hamamatsu: {
+    asOf: "2026-08-19",
+    facilityCount: 207,
+    vacancy: 339,
+  },
   akaiwa: {
     asOf: "2026-08-17",
     facilityCount: 15,

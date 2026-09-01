@@ -1,0 +1,30 @@
+{
+  "slug": "kitakyushu",
+  "name": "北九州市",
+  "sourceName": "北九州市「保育所等の受入可能児童数」",
+  "indexUrl": "https://www.city.kitakyushu.lg.jp/contents/12100143.html",
+  "pdf": {
+    "linkPattern": "受入可能児童数"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 0,
+    "category": 1
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "vacancy"
+  ],
+  "emptyValue": 0,
+  "wardPattern": "【([^】]+区)】",
+  "asOf": {
+    "source": "pdf",
+    "pattern": "最終更新日】\\s*令和(\\d+)年\\s*(\\d{1,2})月\\s*(\\d{1,2})日"
+  },
+  "minFacilities": 150,
+  "notes": [
+    "市は受入可能児童数が0人の年齢を空欄にしています（資料に「受入可能児童数が０人の場合は非表示」と明記）。当サイトでは0人として表示しています。",
+    "市は毎月末から翌月初の数日間だけ受入可能児童数を公開しています。当サイトの数値はその公開分です。",
+    "市は「各施設の受入可能児童数については、公開日時点での暫定的な人数であり、今後変更となる可能性があります」としています。"
+  ]
+}

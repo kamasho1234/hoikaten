@@ -274,11 +274,20 @@ def extract_auto_table(pdf, conf):
     # 最新は先頭ページなので、読むページ数で区切る。日付で止めると
     # 翌月に資料が差し替わったとき設定が古くなって効かなくなる
     max_pages = conf.get("maxPages")
+    # 区ごとに表を分ける自治体では、区名が表の外の見出しにある（北九州市の【門司区】）。
+    # ページの文字から拾って、次の見出しが出るまで持ち回る
+    ward_pattern = conf.get("wardPattern")
     rows = []
     category = None
+    ward = None
     for page in pdf.pages[:max_pages] if max_pages else pdf.pages:
-        if stop and re.search(stop, page.extract_text() or ""):
+        text = page.extract_text() or ""
+        if stop and re.search(stop, text):
             break
+        if ward_pattern:
+            found = re.search(ward_pattern, text)
+            if found:
+                ward = (found.group(1) if found.groups() else found.group(0)).strip()
         for table in tables_of_page(page, conf.get("tableSettings")):
             flat = "".join(cell(c) for r in table for c in r)
             # 別の制度の表（池田市の送迎保育ステーションなど）は表ごと読み飛ばす
@@ -291,6 +300,9 @@ def extract_auto_table(pdf, conf):
             if only and not re.search(only, flat):
                 continue
             got, category = rows_from_grid(transpose_grid(table) if flip else table, conf, category)
+            if ward:
+                for row in got:
+                    row["ward"] = ward
             rows.extend(got)
     return rows
 
@@ -635,6 +647,16 @@ def extract_html_tables(html_path, conf):
         got, carried = rows_from_grid(grid, conf, seed)
         if mode == "row":
             category = carried
+        # 区ごとに見出しを立てて表を並べるページがある（浜松市の中央区・浜名区・天竜区）。
+        # 見出しの文字をその表の施設の区として持たせる
+        if conf.get("wardFromHeading"):
+            ward = heading
+            for pat in conf.get("wardTrim", []):
+                ward = re.sub(pat, "", ward)
+            ward = ward.strip()
+            if ward:
+                for row in got:
+                    row["ward"] = ward
         rows.extend(got)
 
     return rows

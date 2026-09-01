@@ -1,0 +1,25 @@
+{
+  "slug": "hamamatsu",
+  "name": "浜松市",
+  "sourceName": "浜松市子育て情報サイト ぴっぴ「年度途中の認可保育施設募集人数一覧」",
+  "indexUrl": "https://www.hamamatsu-pippi.net/shiritai/yoho/nintei/hoikuen-search/list.html",
+  "layout": "html-tables",
+  "columns": {
+    "name": 0
+  },
+  "categoryFrom": "none",
+  "wardFromHeading": true,
+  "metrics": [
+    "vacancy"
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "[（(](20\\d{2})年(\\d{1,2})月(\\d{1,2})日時点[）)]"
+  },
+  "minFacilities": 180,
+  "notes": [
+    "数値は市が公表している年度途中入園の募集人数です。0人の施設も含めて一覧に載っています。",
+    "「-」はその年齢のクラスを設けていない施設です（小規模保育事業所の3歳児以上など）。当サイトでは空欄にしています。",
+    "この一覧は、浜松市と協働で運営されている「浜松市子育て情報サイト ぴっぴ」に市の情報として掲載されているものです。"
+  ]
+}

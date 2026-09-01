@@ -284,6 +284,8 @@ async function writeDataset(
   sourceFiles: Record<string, string>,
 ): Promise<void> {
   const categories = conf.categories ?? [];
+  // 区ごとに分けて公表する自治体では、抽出側が行に区名を付けてくる
+  const wards: string[] = [];
   const seen = new Map<string, number>();
   const facilities = rows.map((r, i) => {
     const name = String(r.name);
@@ -301,10 +303,15 @@ async function writeDataset(
     }
     const vacancy = (r.vacancy as (number | null)[]) ?? new Array(AGE_COUNT).fill(null);
     if (vacancy.length !== AGE_COUNT) fail(`${name} の年齢数が ${vacancy.length} です`);
+    let w: number | null = null;
+    if (typeof r.ward === "string" && r.ward) {
+      const idx = wards.indexOf(r.ward);
+      w = idx >= 0 ? idx : wards.push(r.ward) - 1;
+    }
     const out: Record<string, unknown> = {
       id: dup ? `${name}#${dup + 1}` : name,
       name,
-      w: null,
+      w,
       c,
       vacancy,
     };
@@ -323,7 +330,7 @@ async function writeDataset(
     metrics: conf.metrics ?? ["vacancy"],
     ...(conf.subtitle ? { subtitle: conf.subtitle } : {}),
     notes: conf.notes ?? [],
-    wards: [],
+    wards,
     categories,
     ...(conf.symbolLegend ? { symbolLegend: conf.symbolLegend } : {}),
     facilities,
