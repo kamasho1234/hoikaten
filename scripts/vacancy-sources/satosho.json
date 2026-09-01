@@ -1,0 +1,52 @@
+{
+  "slug": "satosho",
+  "name": "里庄町",
+  "sourceName": "里庄町「保育所入所可能状況」",
+  "indexUrl": "https://www.town.satosho.okayama.jp/soshiki/7/6607.html",
+  "pdf": {
+    "linkPattern": "入所可能状況"
+  },
+  "layout": "word-grid",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMarks": [
+    "〇",
+    "○",
+    "△",
+    "×"
+  ],
+  "symbolMap": {
+    "○": "〇"
+  },
+  "symbolLegend": [
+    {
+      "mark": "〇",
+      "label": "3名以上の受入が可能",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "要件や条件により若干名",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "受入は難しい",
+      "open": false
+    }
+  ],
+  "skipRowsMatching": "^・|^令和|^施設名|^表記号",
+  "asOf": {
+    "source": "file"
+  },
+  "minFacilities": 2,
+  "notes": [
+    "町は入所可能状況を記号で公表しているため、当サイトも記号のまま載せています。",
+    "町は資料に基準日を書いていないため、資料が公開された日を時点として表示しています。",
+    "町は「今後の施設の受入体制の変化等の理由で、実際の受入れと異なる場合があります」としています。"
+  ],
+  "nameTrim": [
+    "(?<=園).*$"
+  ]
+}

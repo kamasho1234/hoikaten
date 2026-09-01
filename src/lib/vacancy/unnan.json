@@ -1,0 +1,735 @@
+{
+  "municipalitySlug": "unnan",
+  "municipalityName": "雲南市",
+  "asOf": "2026-08-18",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "雲南市「入所可能状況（見込み）」",
+  "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/azukeru/exception0201.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.unnan.shimane.jp/unnan/kosodate/azukeru/files/R8nyuusyokaouzyoukyou0817.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "市は入所可能状況を記号で公表しているため、当サイトも記号のまま載せています。",
+    "「-」はその年齢のクラスがない施設です。当サイトでは空欄にしています。",
+    "市は資料に基準日を書いていないため、資料が公開された日を時点として表示しています。"
+  ],
+  "wards": [],
+  "categories": [
+    "公立",
+    "私立"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "〇",
+      "label": "おおむね3名以上の受入れが可能",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1〜2名程度の受入れが可能",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "受入れの見込みがない、または低い",
+      "open": false
+    },
+    {
+      "mark": "休園中",
+      "label": "休園中",
+      "open": false
+    },
+    {
+      "mark": "休所中",
+      "label": "休所中",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "大東こども園",
+      "name": "大東こども園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        null,
+        "〇",
+        "〇",
+        "〇"
+      ]
+    },
+    {
+      "id": "海潮こども園",
+      "name": "海潮こども園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        null,
+        "〇",
+        "〇",
+        "〇"
+      ]
+    },
+    {
+      "id": "西こども園",
+      "name": "西こども園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        null,
+        "△",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "佐世幼稚園",
+      "name": "佐世幼稚園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "休園中",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "加茂こども園",
+      "name": "加茂こども園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        null,
+        "〇",
+        "〇",
+        "〇"
+      ]
+    },
+    {
+      "id": "木次こども園",
+      "name": "木次こども園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        null,
+        "〇",
+        "〇",
+        "〇"
+      ]
+    },
+    {
+      "id": "斐伊こども園",
+      "name": "斐伊こども園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        null,
+        "〇",
+        "〇",
+        "〇"
+      ]
+    },
+    {
+      "id": "寺領幼稚園",
+      "name": "寺領幼稚園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "休園中",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "三刀屋こども園",
+      "name": "三刀屋こども園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        null,
+        "〇",
+        "〇",
+        "〇"
+      ]
+    },
+    {
+      "id": "吉田保育所",
+      "name": "吉田保育所",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "休所中",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "田井保育所",
+      "name": "田井保育所",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        null,
+        "〇",
+        "〇",
+        "〇"
+      ]
+    },
+    {
+      "id": "掛合保育所",
+      "name": "掛合保育所",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        null,
+        "〇",
+        "〇",
+        "〇"
+      ]
+    },
+    {
+      "id": "大東こども園#2",
+      "name": "大東こども園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        null,
+        "〇",
+        "〇",
+        "〇"
+      ]
+    },
+    {
+      "id": "海潮こども園#2",
+      "name": "海潮こども園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        null,
+        "〇",
+        "〇",
+        "〇"
+      ]
+    },
+    {
+      "id": "西こども園#2",
+      "name": "西こども園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        null,
+        "△",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "大東保育園",
+      "name": "大東保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "△",
+        "△",
+        "△",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "かもめ保育園",
+      "name": "かもめ保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "〇",
+        "△",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "あおぞら保育園",
+      "name": "あおぞら保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "△",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "あおぞら保育園(分園)",
+      "name": "あおぞら保育園(分園)",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "休園中",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "加茂こども園#2",
+      "name": "加茂こども園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "△",
+        "△",
+        "△",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "たちばら保育園",
+      "name": "たちばら保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "〇",
+        "〇",
+        "〇",
+        "〇",
+        "〇",
+        null
+      ]
+    },
+    {
+      "id": "みなみかも保育園",
+      "name": "みなみかも保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "木次こども園#2",
+      "name": "木次こども園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "〇",
+        "△",
+        "〇",
+        "〇",
+        "〇"
+      ]
+    },
+    {
+      "id": "斐伊こども園#2",
+      "name": "斐伊こども園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        null,
+        "〇",
+        "〇",
+        "〇"
+      ]
+    },
+    {
+      "id": "斐伊保育所",
+      "name": "斐伊保育所",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "〇",
+        "〇",
+        "△",
+        "〇",
+        null
+      ]
+    },
+    {
+      "id": "四ツ葉学園保育所",
+      "name": "四ツ葉学園保育所",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "△",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "三刀屋こども園#2",
+      "name": "三刀屋こども園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        null,
+        "〇",
+        "〇",
+        "〇"
+      ]
+    },
+    {
+      "id": "三刀屋保育所",
+      "name": "三刀屋保育所",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "〇",
+        "△"
+      ]
+    },
+    {
+      "id": "吉田保育所#2",
+      "name": "吉田保育所",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "休所中",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "田井保育所#2",
+      "name": "田井保育所",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "〇",
+        "〇",
+        "〇",
+        "〇",
+        "〇",
+        "〇"
+      ]
+    },
+    {
+      "id": "掛合保育所#2",
+      "name": "掛合保育所",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "〇",
+        "〇",
+        "〇",
+        "〇",
+        "〇"
+      ]
+    }
+  ]
+}

@@ -2117,6 +2117,41 @@ const EXPECTED: Record<
     facilityCount: 41,
     vacancy: 128,
   },
+  sanda: {
+    asOf: "2026-08-17",
+    facilityCount: 30,
+    vacancy: 138,
+  },
+  unnan: {
+    asOf: "2026-08-18",
+    facilityCount: 31,
+    vacancy: 0,
+    symbolCounts: { "〇": 61, "×": 28, "△": 23, "休園中": 3, "休所中": 2 },
+  },
+  tamamura: {
+    asOf: "2026-09-01",
+    facilityCount: 10,
+    vacancy: 0,
+    symbolCounts: { "×": 45, "〇": 8, "△": 7 },
+  },
+  tokoname: {
+    asOf: "2026-08-01",
+    facilityCount: 19,
+    vacancy: 0,
+    symbolCounts: { "×": 46, "〇": 40, "△": 9 },
+  },
+  kaminokawa: {
+    asOf: "2026-08-20",
+    facilityCount: 12,
+    vacancy: 0,
+    symbolCounts: { "×": 30, "△": 26, "〇": 5 },
+  },
+  satosho: {
+    asOf: "2026-09-01",
+    facilityCount: 2,
+    vacancy: 0,
+    symbolCounts: { "×": 10, "〇": 2 },
+  },
   akaiwa: {
     asOf: "2026-08-17",
     facilityCount: 15,

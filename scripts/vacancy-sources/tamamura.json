@@ -1,0 +1,46 @@
+{
+  "slug": "tamamura",
+  "name": "玉村町",
+  "sourceName": "玉村町「保育関係施設（2・3号）空き状況」",
+  "indexUrl": "https://www.town.tamamura.lg.jp/docs/2025082700028/",
+  "pdf": {
+    "linkPattern": "空き状況"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 2,
+    "category": 1
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "○": "〇"
+  },
+  "symbolLegend": [
+    {
+      "mark": "〇",
+      "label": "玉村町は記号の意味を公表していません",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "玉村町は記号の意味を公表していません",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "玉村町は記号の意味を公表していません",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "R(\\d+)\\.(\\d{1,2})\\.(\\d{1,2})現在"
+  },
+  "minFacilities": 8,
+  "notes": [
+    "町は空き状況を記号で公表しています。記号の意味は町が公表していないため、意味を推測して補うことはせず、記号だけをそのまま載せています。"
+  ]
+}

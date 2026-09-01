@@ -1,0 +1,84 @@
+{
+  "municipalitySlug": "satosho",
+  "municipalityName": "里庄町",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "里庄町「保育所入所可能状況」",
+  "sourceUrl": "https://www.town.satosho.okayama.jp/soshiki/7/6607.html",
+  "sourceFiles": {
+    "vacancy": "https://www.town.satosho.okayama.jp/uploaded/attachment/11075.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "町は入所可能状況を記号で公表しているため、当サイトも記号のまま載せています。",
+    "町は資料に基準日を書いていないため、資料が公開された日を時点として表示しています。",
+    "町は「今後の施設の受入体制の変化等の理由で、実際の受入れと異なる場合があります」としています。"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "〇",
+      "label": "3名以上の受入が可能",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "要件や条件により若干名",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "受入は難しい",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "かすみ保育園",
+      "name": "かすみ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "里見保育園",
+      "name": "里見保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "〇",
+        "〇",
+        "×"
+      ]
+    }
+  ]
+}

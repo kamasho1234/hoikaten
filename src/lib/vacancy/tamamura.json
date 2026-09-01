@@ -1,0 +1,261 @@
+{
+  "municipalitySlug": "tamamura",
+  "municipalityName": "玉村町",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-01",
+  "sourceName": "玉村町「保育関係施設（2・3号）空き状況」",
+  "sourceUrl": "https://www.town.tamamura.lg.jp/docs/2025082700028/",
+  "sourceFiles": {
+    "vacancy": "https://www.town.tamamura.lg.jp/docs/2025082700028/file_contents/r8-10zuijiakijyoukyou.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "町は空き状況を記号で公表しています。記号の意味は町が公表していないため、意味を推測して補うことはせず、記号だけをそのまま載せています。"
+  ],
+  "wards": [],
+  "categories": [
+    "保育所",
+    "認定こども園"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "〇",
+      "label": "玉村町は記号の意味を公表していません",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "玉村町は記号の意味を公表していません",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "玉村町は記号の意味を公表していません",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "第1保育所",
+      "name": "第1保育所",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        "×",
+        "×",
+        "〇"
+      ]
+    },
+    {
+      "id": "第2保育所",
+      "name": "第2保育所",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "第3保育所",
+      "name": "第3保育所",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        "△",
+        "×",
+        "〇"
+      ]
+    },
+    {
+      "id": "第4保育所",
+      "name": "第4保育所",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "〇",
+        "×",
+        "〇",
+        "〇",
+        "×"
+      ]
+    },
+    {
+      "id": "にしきの保育園かみのて",
+      "name": "にしきの保育園かみのて",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "△"
+      ]
+    },
+    {
+      "id": "にしきの保育園よろくぶ",
+      "name": "にしきの保育園よろくぶ",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "玉村おひさま保育園",
+      "name": "玉村おひさま保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "〇",
+        "△",
+        "×"
+      ]
+    },
+    {
+      "id": "たまむら直心保育園",
+      "name": "たまむら直心保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "△",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "フェリーチェ国際こども園",
+      "name": "フェリーチェ国際こども園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "〇",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "マーガレット幼稚園",
+      "name": "マーガレット幼稚園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "〇",
+        "×",
+        "△"
+      ]
+    }
+  ]
+}

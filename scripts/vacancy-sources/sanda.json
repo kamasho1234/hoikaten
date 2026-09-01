@@ -1,0 +1,32 @@
+{
+  "slug": "sanda",
+  "name": "三田市",
+  "sourceName": "三田市「入所受入状況」",
+  "indexUrl": "https://www.city.sanda.lg.jp/kosodate_kyoiku/ikuji_mishugakuji/hoikusho_kodomoen_yochien/6/33810.html",
+  "pdf": {
+    "linkPattern": "受入状況"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 1,
+    "category": 0
+  },
+  "categoryFrom": "row",
+  "rowLabel": {
+    "column": 2,
+    "value": "受入可能人数"
+  },
+  "metrics": [
+    "vacancy"
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "令和(\\d+)年(\\d{1,2})月(\\d{1,2})日現在"
+  },
+  "minFacilities": 25,
+  "notes": [
+    "数値は市が公表している受入可能人数です。",
+    "市は内定人数も公表していますが、当サイトでは受入可能人数だけを載せています。",
+    "市は「受入可能人数や施設空き状況については、各施設の状況（内定辞退等）により増減します」としています。"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "kaminokawa",
+  "name": "上三川町",
+  "sourceName": "上三川町「町内保育施設空き状況」",
+  "indexUrl": "https://www.town.kaminokawa.lg.jp/0016/info-0000002368-0.html",
+  "pdf": {
+    "linkPattern": "空き状況"
+  },
+  "layout": "word-grid",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMarks": [
+    "〇",
+    "○",
+    "△",
+    "×"
+  ],
+  "symbolMap": {
+    "○": "〇"
+  },
+  "symbolLegend": [
+    {
+      "mark": "〇",
+      "label": "4枠以上",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1〜3枠",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "skipRowsMatching": "^○町内|^〇４枠|^令和",
+  "asOf": {
+    "source": "pdf",
+    "pattern": "令和(\\d+)年(\\d{1,2})月(\\d{1,2})日現在"
+  },
+  "minFacilities": 8,
+  "notes": [
+    "町は空き状況を記号で公表しているため、当サイトも記号のまま載せています。"
+  ]
+}
