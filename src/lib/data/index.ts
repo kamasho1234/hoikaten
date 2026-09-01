@@ -324,6 +324,9 @@ import { omihachimanData } from './omihachiman';
 import { kasuyaData } from './kasuya';
 import { susonoData } from './susono';
 import { taharaData } from './tahara';
+import { enaData } from './ena';
+import { takashimaData } from './takashima';
+import { tokiData } from './toki';
 import { akishimaData } from './akishima';
 import { atsugiData } from './atsugi';
 import { kaniData } from './kani';
@@ -763,6 +766,9 @@ const municipalityMap: Record<string, MunicipalityData> = {
   [kasuyaData.municipality.slug]: kasuyaData,
   [susonoData.municipality.slug]: susonoData,
   [taharaData.municipality.slug]: taharaData,
+  [enaData.municipality.slug]: enaData,
+  [takashimaData.municipality.slug]: takashimaData,
+  [tokiData.municipality.slug]: tokiData,
   [akishimaData.municipality.slug]: akishimaData,
   [atsugiData.municipality.slug]: atsugiData,
   [kaniData.municipality.slug]: kaniData,
