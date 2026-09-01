@@ -218,6 +218,12 @@ def rows_from_grid(grid, conf, category=None):
                     values[age] = empty_value
                     ok = True
                     continue
+            # 人数の表なのに空きなしだけ「×」で書く自治体がある（伊万里市）。
+            # クラスが無いのではなく0人なので、設定にあるときだけ0として読む
+            if not as_symbol and text in set(conf.get("zeroMarks", [])):
+                values[age] = 0
+                ok = True
+                continue
             if text in no_class:
                 continue
             if as_symbol:

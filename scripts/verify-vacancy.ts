@@ -1898,6 +1898,16 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "×": 26, "○": 12, "△": 10 },
   },
+  imari: {
+    asOf: "2026-08-25",
+    facilityCount: 27,
+    vacancy: 150,
+  },
+  aikawa: {
+    asOf: "2026-09-01",
+    facilityCount: 11,
+    vacancy: 2,
+  },
   akaiwa: {
     asOf: "2026-08-17",
     facilityCount: 15,

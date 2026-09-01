@@ -1,0 +1,46 @@
+{
+  "slug": "imari",
+  "name": "伊万里市",
+  "sourceName": "伊万里市「保育所等入所可能状況」",
+  "indexUrl": "https://www.city.imari.lg.jp/26653.htm",
+  "pdf": {
+    "linkPattern": "入所|入園"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 1,
+    "category": 0
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "vacancy"
+  ],
+  "emptyValue": null,
+  "noClassMarks": [
+    "-",
+    "‐",
+    "―",
+    "－",
+    "ー",
+    "/",
+    "／",
+    ""
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "令和(\\d+)年(\\d{1,2})月(\\d{1,2})日時点"
+  },
+  "minFacilities": 10,
+  "notes": [
+    "市は空きなしを「×」で公表しています。当サイトでは0人として表示しています。",
+    "目安であり入所を保証するものではないと市が案内しています。",
+    "保育士等の配置により年齢別の定数が随時変動するため、受け入れ可能状況も随時変更となります。"
+  ],
+  "zeroMarks": [
+    "×",
+    "✕",
+    "✖",
+    "x",
+    "X"
+  ]
+}
