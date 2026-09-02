@@ -255,6 +255,8 @@ import "./city-tateyama";
 import "./city-taketoyo";
 import "./city-kumatori";
 import "./city-nakano-nagano";
+import "./city-miura";
+import "./city-mibu";
 import "./city-fujinomiya";
 import "./city-kokubunji";
 import "./city-iizuka";
