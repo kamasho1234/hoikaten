@@ -262,6 +262,8 @@ import "./city-ibara";
 import "./city-nishihara-okinawa";
 import "./city-tamura";
 import "./city-yaese";
+import "./city-kaita";
+import "./city-yorii";
 import "./city-fujinomiya";
 import "./city-kokubunji";
 import "./city-iizuka";
