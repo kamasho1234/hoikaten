@@ -277,6 +277,8 @@ import "./city-yamada-iwate";
 import "./city-kin";
 import "./city-satosho";
 import "./city-taga";
+import "./city-iizuna";
+import "./city-masuda";
 import "./city-fujinomiya";
 import "./city-kokubunji";
 import "./city-iizuka";
