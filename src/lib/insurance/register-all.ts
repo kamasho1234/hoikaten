@@ -269,6 +269,8 @@ import "./city-taiwa";
 import "./city-ureshino";
 import "./city-aso";
 import "./city-tainai";
+import "./city-shiraoi";
+import "./city-yonabaru";
 import "./city-fujinomiya";
 import "./city-kokubunji";
 import "./city-iizuka";
