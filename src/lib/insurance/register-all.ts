@@ -316,6 +316,8 @@ import "./city-yaita";
 import "./city-ono-fukui";
 import "./city-mitsuke";
 import "./city-yugawara";
+import "./city-hitoyoshi";
+import "./city-haebaru";
 import "./city-fujinomiya";
 import "./city-kokubunji";
 import "./city-iizuka";
