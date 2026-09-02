@@ -264,6 +264,8 @@ import "./city-tamura";
 import "./city-yaese";
 import "./city-kaita";
 import "./city-yorii";
+import "./city-takanezawa";
+import "./city-taiwa";
 import "./city-fujinomiya";
 import "./city-kokubunji";
 import "./city-iizuka";
