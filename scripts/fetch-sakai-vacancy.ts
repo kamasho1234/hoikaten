@@ -93,11 +93,14 @@ async function main() {
   if (!res.ok) fail(`公式ページが ${res.status} を返しました`);
   const html = await res.text();
 
-  // ファイル名が「R8.9nyuusyo3.xlsx」の形（令和8年9月ぶん）
+  // ファイル名が「R8.9nyuusyo3.xlsx」の形（令和8年9月ぶん）。
+  // 令和8年10月ぶんから点が無くなり「R810nyuusyo3.xlsx」になった。両方に当てる
   const links = [...html.matchAll(/<a[^>]+href="([^"]+\.xlsx)"[^>]*>([\s\S]*?)<\/a>/gi)]
     .map((m) => ({ url: new URL(m[1], INDEX_URL).toString(), text: toHalfWidth(stripTags(m[2])) }))
     .map((l) => {
-      const m = path.basename(new URL(l.url).pathname).match(/^R(\d+)\.(\d+)nyuusyo/i);
+      const file = path.basename(new URL(l.url).pathname);
+      // 点があるときは「年.月」、無いときは令和の年が1桁で続く1〜2桁が月
+      const m = file.match(/^R(\d+)\.(\d+)nyuusyo/i) ?? file.match(/^R(\d)(\d{1,2})nyuusyo/i);
       if (!m) return null;
       const year = reiwaToYear(Number(m[1]));
       const month = Number(m[2]);

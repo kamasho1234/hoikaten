@@ -50,7 +50,7 @@ const EXPECTED: Record<
     symbolCounts?: Record<string, number>;
   }
 > = {
-  yokohama: { asOf: "2026-08-01", facilityCount: 1242, vacancy: 3990, waiting: 13473 },
+  yokohama: { asOf: "2026-09-01", facilityCount: 1243, vacancy: 3739, waiting: 15724 },
   meguro: { asOf: "2026-09-01", facilityCount: 118, vacancy: 914 },
   kawasaki: { asOf: "2026-08-25", facilityCount: 579, vacancy: 1740 },
   saitama: { asOf: "2026-09-01", facilityCount: 543, vacancy: 1853 },
@@ -276,7 +276,7 @@ const EXPECTED: Record<
   hachioji: { asOf: "2026-09-01", facilityCount: 144, vacancy: 89, emptyRatio: 0.3 },
   sagamihara: { asOf: "2026-09-01", facilityCount: 230, vacancy: 581 },
   // 堺市も利用調整後の空き。空きゼロの施設が多いのが通常
-  sakai: { asOf: "2026-07-31", facilityCount: 269, vacancy: 501, emptyRatio: 0.35 },
+  sakai: { asOf: "2026-09-01", facilityCount: 269, vacancy: 470, emptyRatio: 0.35 },
   // 仙台市は利用調整後の空枠。空枠ゼロの施設が多いのが通常
   sendai: { asOf: "2026-09-01", facilityCount: 439, vacancy: 769, emptyRatio: 0.35 },
   hiroshima: { asOf: "2026-09-01", facilityCount: 335, vacancy: 1896, waiting: 2083, emptyRatio: 0.15 },

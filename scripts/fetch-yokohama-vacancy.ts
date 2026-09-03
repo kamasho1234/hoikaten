@@ -246,9 +246,18 @@ async function main() {
     fail("施設番号に重複があります。");
   }
 
+  /**
+   * 開いたばかりの園は、受入可能数のCSVには載っていても
+   * 入所児童数・入所待ち人数のCSVにはまだ載らないことがある
+   * （令和8年9月の「星の子ルーム」）。少数なら、その指標を「—」にして通す。
+   */
+  const missingInOthers = vacancy.rows.filter(
+    (r) => !waitingById.has(r.id) || !enrolledById.has(r.id),
+  );
   if (
-    waitingById.size !== vacancy.rows.length ||
-    enrolledById.size !== vacancy.rows.length
+    missingInOthers.length > 3 ||
+    waitingById.size > vacancy.rows.length ||
+    enrolledById.size > vacancy.rows.length
   ) {
     fail(
       `3つのCSVの施設数が一致しません: 受入可能数=${vacancy.rows.length} / 入所待ち人数=${waitingById.size} / 入所児童数=${enrolledById.size}`
@@ -257,11 +266,27 @@ async function main() {
 
   // --- 4. 施設番号で結合 ---
   const wards: string[] = [];
+  /** 受入可能数にしか載っていない園。注記に出す */
+  const newFacilities: string[] = [];
   const facilities = vacancy.rows.map((row) => {
     const w = waitingById.get(row.id);
     const e = enrolledById.get(row.id);
     if (!w || !e) {
-      fail(`施設番号 ${row.id}（${row.name}）が3つのCSVすべてには存在しません。`);
+      // 受入可能数にしか載っていない園。入所待ちと在籍は「—」にする
+      let wardIndexNew = wards.indexOf(row.ward);
+      if (wardIndexNew === -1) {
+        wards.push(row.ward);
+        wardIndexNew = wards.length - 1;
+      }
+      newFacilities.push(row.name);
+      return {
+        id: row.id,
+        name: row.name,
+        w: wardIndexNew,
+        vacancy: row.values,
+        waiting: new Array(AGE_COUNT).fill(null),
+        enrolled: new Array(AGE_COUNT).fill(null),
+      };
     }
     if (w.name !== row.name || e.name !== row.name) {
       fail(
@@ -324,6 +349,11 @@ async function main() {
     metrics: ["vacancy", "waiting", "enrolled"],
     notes: [
       "横浜市の注記のとおり、掲載されている人数はシステムで機械的に抽出されているため、実際の人数と異なる場合があります。",
+      ...(newFacilities.length > 0
+        ? [
+            `次の園は受入可能数だけが公表されていて、入所待ち人数と入所児童数の資料にはまだ載っていません。その2つは「—」にしています: ${newFacilities.join("、")}`,
+          ]
+        : []),
     ],
     waitingCaveat:
       "入所待ち人数は横浜市の定義で「園ごとの申請数」です。1人が複数園を希望すると希望した各園に計上されるため、実際に入園を待っている人数や競争倍率とは一致しません。申込がどれだけ集中しているかの目安としてご覧ください。",

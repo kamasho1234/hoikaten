@@ -240,6 +240,7 @@
     "vacancy:fetch:bungotakada": "tsx scripts/fetch-bungotakada-vacancy.ts",
     "vacancy:fetch:saza": "tsx scripts/fetch-saza-vacancy.ts",
     "vacancy:fetch:kudamatsu": "tsx scripts/fetch-kudamatsu-vacancy.ts",
+    "vacancy:fetch:yokohama": "tsx scripts/fetch-yokohama-vacancy.ts",
     "vacancy:fetch:taku": "tsx scripts/fetch-taku-vacancy.ts",
     "vacancy:fetch:kadoma": "tsx scripts/fetch-kadoma-vacancy.ts",
     "vacancy:fetch:settsu": "tsx scripts/fetch-settsu-vacancy.ts",
