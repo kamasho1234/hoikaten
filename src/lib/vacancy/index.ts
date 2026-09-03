@@ -493,6 +493,8 @@ import sekiVacancy from "./seki.json";
 import shiogamaVacancy from "./shiogama.json";
 // 裾野市も空き状況を1枚の画像で公開している（「−」が空きなし、灰色がクラスなし）
 import susonoVacancy from "./susono.json";
+// 曽於市も空き状況を1枚の画像で公開している（「－」は施設に問い合わせ、斜線がクラスなし）
+import sooVacancy from "./soo.json";
 
 export type {
   AgeSummary,
@@ -972,6 +974,7 @@ const registry: Record<string, VacancyDataset> = {
   seki: sekiVacancy as unknown as VacancyDataset,
   shiogama: shiogamaVacancy as unknown as VacancyDataset,
   susono: susonoVacancy as unknown as VacancyDataset,
+  soo: sooVacancy as unknown as VacancyDataset,
 };
 
 export function getVacancyData(slug: string): VacancyDataset | undefined {

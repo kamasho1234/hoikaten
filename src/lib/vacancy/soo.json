@@ -1,0 +1,72 @@
+{
+  "municipalitySlug": "soo",
+  "municipalityName": "曽於市",
+  "prefecture": "鹿児島県",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-03",
+  "sourceName": "曽於市「保育園、認定こども園の空き状況をお知らせします。」",
+  "sourceUrl": "https://www.city.soo.kagoshima.jp/kurashi/kosodatekyouiku/hoikuenn/akizyoukyou.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.soo.kagoshima.jp/kurashi/kosodatekyouiku/hoikuenn/images/akijoukyou9.1_1.jpg"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "曽於市は空き状況を人数ではなく記号で公表しています。これは2026-09-01に確認された分です。",
+    "公式の凡例は 「〇」4人以上、「△」1人〜3人、「×」受入れ不可、「－」施設にお問い合わせください です。",
+    "公式の表で斜線が引かれている年齢は「—」にしています。その年齢のクラスを設けていないことを表します。",
+    "年齢は令和8年4月1日時点です。記載内容は各月1日時点の空き状況で、最新の情報は各施設やこども未来課へ問い合わせるよう市が案内しています。",
+    "認定こども園の幼稚園部分（1号認定）については、各施設へお問い合わせください。",
+    "市は空き状況を画像で公開しているため、当サイトでは画像から書き起こして載せています。画像が差し替わったときは読み直すまで更新されません。"
+  ],
+  "wards": [
+    "末吉",
+    "大隅",
+    "財部"
+  ],
+  "categories": [
+    "保育園",
+    "認定こども園"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "〇",
+      "label": "4人以上",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1人〜3人",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "受入れ不可",
+      "open": false
+    },
+    {
+      "mark": "－",
+      "label": "施設にお問い合わせください",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"高之峯保育園","name":"高之峯保育園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","△","△","△","△"]},
+    {"id":"白鳥保育園","name":"白鳥保育園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","〇","－","－","〇","〇"]},
+    {"id":"ひこばえこども園","name":"ひこばえこども園","w":0,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","－","×","×","×"]},
+    {"id":"樹心こども園","name":"樹心こども園","w":0,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","△","×","×","×"]},
+    {"id":"きらりの星こども園","name":"きらりの星こども園","w":0,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"末吉中央幼稚園","name":"末吉中央幼稚園","w":0,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"△","△","△"]},
+    {"id":"りんこうこども園","name":"りんこうこども園","w":0,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△","△","△","△"]},
+    {"id":"スイミーこども園","name":"スイミーこども園","w":1,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["－","×","×","×","×","×"]},
+    {"id":"認定こども園かささぎ","name":"認定こども園かささぎ","w":1,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["〇","〇","〇","〇","〇","△"]},
+    {"id":"おひさまの杜こども園","name":"おひさまの杜こども園","w":1,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△","△","△","△"]},
+    {"id":"覚照こども園","name":"覚照こども園","w":1,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","〇","〇","〇","〇"]},
+    {"id":"大隅中央幼稚園","name":"大隅中央幼稚園","w":1,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△","△","〇","△"]},
+    {"id":"太陽の子幼児園","name":"太陽の子幼児園","w":1,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["－","△","△","－","－","－"]},
+    {"id":"しょうしん月の森こども園","name":"しょうしん月の森こども園","w":1,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△","△","△","△"]},
+    {"id":"しゃらこども園","name":"しゃらこども園","w":2,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","△","〇","〇"],"note":"入園前に面談を行い、園についてご理解いただいたうえで正式入園となります。"},
+    {"id":"きらり園","name":"きらり園","w":2,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","－","×","×","×","×"]}
+  ]
+}

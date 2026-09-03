@@ -2268,6 +2268,13 @@ const EXPECTED: Record<
     facilityCount: 61,
     vacancy: 26,
   },
+  // 曽於市は末吉中央幼稚園の0〜2歳だけ斜線で「—」になる
+  soo: {
+    asOf: "2026-09-01",
+    facilityCount: 16,
+    vacancy: 0,
+    symbolCounts: { "〇": 15, "△": 40, "×": 26, "－": 12 },
+  },
   // 裾野市は小規模4件・分園1件・幼稚園1件で「—」が出る（15件中18欄＝20%）
   susono: {
     asOf: "2026-08-01",
