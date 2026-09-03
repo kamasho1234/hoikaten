@@ -495,6 +495,8 @@ import shiogamaVacancy from "./shiogama.json";
 import susonoVacancy from "./susono.json";
 // 曽於市も空き状況を1枚の画像で公開している（「－」は施設に問い合わせ、斜線がクラスなし）
 import sooVacancy from "./soo.json";
+// 多久市も画像で公開している。表が1号認定と2・3号認定に分かれるので保育利用のほうを取る
+import takuVacancy from "./taku.json";
 
 export type {
   AgeSummary,
@@ -975,6 +977,7 @@ const registry: Record<string, VacancyDataset> = {
   shiogama: shiogamaVacancy as unknown as VacancyDataset,
   susono: susonoVacancy as unknown as VacancyDataset,
   soo: sooVacancy as unknown as VacancyDataset,
+  taku: takuVacancy as unknown as VacancyDataset,
 };
 
 export function getVacancyData(slug: string): VacancyDataset | undefined {

@@ -1,0 +1,56 @@
+{
+  "municipalitySlug": "taku",
+  "municipalityName": "多久市",
+  "prefecture": "佐賀県",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-03",
+  "sourceName": "多久市「保育施設等の受け入れ可能状況について」",
+  "sourceUrl": "https://www.city.taku.lg.jp/soshiki/7/36409.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.taku.lg.jp/uploaded/image/7026.png"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "2026年10月入所分の受け入れ可能状況（2・3号認定）",
+  "notes": [
+    "多久市は受け入れ可能状況を人数ではなく記号で公表しています。これは2026年10月入所分で、2026-09-01に更新されたものです。",
+    "公式の凡例は 「〇」2名以上入所可、「△」1名入所可、「×」入所不可 です。",
+    "公式の表は1号認定（教育利用）と2・3号認定に分かれています。当サイトでは保育利用にあたる2・3号認定の欄を載せています。",
+    "市は「本表は目安であり、入所を保証するものではありません」「受け入れ可能状況が【△】や【×】になっている場合でも、状況によっては入所できることがあります」としています。",
+    "市は受け入れ可能状況を画像で公開しているため、当サイトでは画像から書き起こして載せています。画像が差し替わったときは読み直すまで更新されません。"
+  ],
+  "wards": [],
+  "symbolLegend": [
+    {
+      "mark": "〇",
+      "label": "2名以上入所可",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1名入所可",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "入所不可",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"あおいとりこども園","name":"あおいとりこども園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","〇","△","×","×","×"]},
+    {"id":"こばと保育園","name":"こばと保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["〇","〇","〇","△","×","△"]},
+    {"id":"杉の子こども園","name":"杉の子こども園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","〇","〇","〇","〇","〇"]},
+    {"id":"双葉保育園","name":"双葉保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","〇","×","〇","〇","×"]},
+    {"id":"ひしのみこども園","name":"ひしのみこども園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△","△","〇","〇"]},
+    {"id":"認定こども園さくらんぼ","name":"認定こども園さくらんぼ","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["〇","〇","〇","〇","〇","〇"]},
+    {"id":"和光保育園","name":"和光保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","〇","〇","〇","〇","〇"]},
+    {"id":"みどり保育園","name":"みどり保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["〇","〇","△","〇","〇","〇"]},
+    {"id":"とうぶこども園","name":"とうぶこども園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","〇","×","〇","〇","〇"]},
+    {"id":"なごみこども園","name":"なごみこども園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","×","〇","〇","×"]},
+    {"id":"のうそこども園","name":"のうそこども園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["〇","〇","〇","〇","〇","〇"]},
+    {"id":"のぞみ保育園","name":"のぞみ保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["〇","△","〇","〇","〇","〇"]},
+    {"id":"多久保育園","name":"多久保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["〇","〇","〇","〇","〇","〇"]}
+  ]
+}

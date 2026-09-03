@@ -186,10 +186,10 @@ const EXPECTED: Record<
   },
   // 八千代市は空きが記号。ページの表をそのまま読む
   yachiyo: {
-    asOf: "2026-08-01",
+    asOf: "2026-09-01",
     facilityCount: 64,
     vacancy: 0,
-    symbolCounts: { "○": 9, "△": 31, "×": 230 },
+    symbolCounts: { "○": 8, "△": 21, "×": 241 },
   },
   // 茅ヶ崎市は空きが記号、待機児童数は実数。受け入れ対象外のクラスは網掛けなので null
   chigasaki: {
@@ -2267,6 +2267,13 @@ const EXPECTED: Record<
     asOf: "2026-08-26",
     facilityCount: 61,
     vacancy: 26,
+  },
+  // 多久市は2・3号認定の欄だけを取っているので「—」は出ない
+  taku: {
+    asOf: "2026-09-01",
+    facilityCount: 13,
+    vacancy: 0,
+    symbolCounts: { "〇": 53, "△": 15, "×": 10 },
   },
   // 曽於市は末吉中央幼稚園の0〜2歳だけ斜線で「—」になる
   soo: {
