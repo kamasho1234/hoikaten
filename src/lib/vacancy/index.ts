@@ -987,6 +987,7 @@ const registry: Record<string, VacancyDataset> = {
   susono: susonoVacancy as unknown as VacancyDataset,
   soo: sooVacancy as unknown as VacancyDataset,
   taku: takuVacancy as unknown as VacancyDataset,
+  hidaka: hidakaVacancy as unknown as VacancyDataset,
   "naka-ibaraki": nakaIbarakiVacancy as unknown as VacancyDataset,
 };
 

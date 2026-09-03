@@ -12,6 +12,9 @@
  *    データが更新されると数値は変わるので、**asOf が一致するときだけ**照合する。
  */
 
+import fs from "node:fs";
+import path from "node:path";
+
 import {
   AGE_COUNT,
   facilityVacancy,
@@ -2605,6 +2608,23 @@ function check(slug: string) {
 const slugs = getVacancySlugs();
 console.log(`空き状況データセットを検証します（${slugs.length}自治体）\n`);
 slugs.forEach(check);
+
+// データはあるのに index.ts に登録されていない自治体を見つける。
+// 登録されていなければページが作られず、本番では404になる
+{
+  const dir = path.join(process.cwd(), "src", "lib", "vacancy");
+  const files = fs
+    .readdirSync(dir)
+    .filter((f) => f.endsWith(".json") && !f.endsWith("-websites.json"))
+    .map((f) => f.slice(0, -5));
+  const registered = new Set(slugs);
+  const missing = files.filter((f) => !registered.has(f));
+  if (missing.length) {
+    problems.push(
+      `index.ts に登録されていないデータがあります（ページが作られません）: ${missing.join("、")}`,
+    );
+  }
+}
 
 if (notes.length) {
   console.log("\n--- 参考情報 ---");
