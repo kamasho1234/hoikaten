@@ -1,0 +1,58 @@
+{
+  "municipalitySlug": "shiogama",
+  "municipalityName": "塩竈市",
+  "prefecture": "宮城県",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-03",
+  "sourceName": "塩竈市「塩竈市内認可保育施設の空き状況について」",
+  "sourceUrl": "https://www.city.shiogama.miyagi.jp/soshiki/51/56212.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.shiogama.miyagi.jp/uploaded/life/58443_149373_img.jpg"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "塩竈市は空き状況を人数ではなく記号で公表しています。これは2026-09-01時点のものです。",
+    "公式の凡例は 「〇」3名以上空きあり、「△」1〜2名空きあり、「×」空きなし、「−」受入れなし です。",
+    "公式の表で「−」になっている年齢は「—」にしています。その年齢の受け入れをしていないことを表します。",
+    "毎月1日時点での空き状況です。",
+    "市は「実際の入所可否は、各施設において保育士の人数などにより空きがあっても入所できない場合があります」「×でも対象施設への入所申請は可能です」としています。",
+    "市は空き状況を画像で公開しているため、当サイトでは画像から書き起こして載せています。画像が差し替わったときは読み直すまで更新されません。"
+  ],
+  "wards": [],
+  "symbolLegend": [
+    {
+      "mark": "〇",
+      "label": "3名以上空きあり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1〜2名空きあり",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"藤倉保育所","name":"藤倉保育所","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"note":"改修工事（令和8年9月〜令和9年2月）を予定しています。"},
+    {"id":"清水沢保育所","name":"清水沢保育所","w":null,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"〇","△","〇"],"note":"閉所予定のため児童の段階的受け入れ停止を行っています。"},
+    {"id":"うみまち保育所","name":"うみまち保育所","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","×","△"]},
+    {"id":"元気キッズさかえ保育園","name":"元気キッズさかえ保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","×"]},
+    {"id":"元気キッズきたはま保育園","name":"元気キッズきたはま保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","×"]},
+    {"id":"玉川保育園","name":"玉川保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","〇","△","△"]},
+    {"id":"あゆみ保育園","name":"あゆみ保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","△","×","×"]},
+    {"id":"塩釜ひまわり保育園","name":"塩釜ひまわり保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"東部保育園","name":"東部保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","△","△"]},
+    {"id":"NOVAバイリンガル塩竈後楽町保育園","name":"NOVAバイリンガル塩竈後楽町保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","△","〇"]},
+    {"id":"幼保連携型認定こども園 塩釜聖光幼稚園","name":"幼保連携型認定こども園 塩釜聖光幼稚園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":[null,"×","×","×","×","×"]},
+    {"id":"幼保連携型認定こども園 パドマこども園","name":"幼保連携型認定こども園 パドマこども園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"幼保連携型認定こども園 やまつみ","name":"幼保連携型認定こども園 やまつみ","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"小規模保育施設 わだつみ保育園","name":"小規模保育施設 わだつみ保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"小規模保育施設 てでぃべあ〜ちいさなひまわり〜","name":"小規模保育施設 てでぃべあ〜ちいさなひまわり〜","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]}
+  ]
+}

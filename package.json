@@ -234,6 +234,8 @@
     "vacancy:fetch:otaru": "tsx scripts/fetch-otaru-vacancy.ts",
     "vacancy:fetch:takasaki": "tsx scripts/fetch-takasaki-vacancy.ts",
     "vacancy:fetch:seki": "tsx scripts/fetch-seki-vacancy.ts",
+    "vacancy:fetch:shiogama": "tsx scripts/fetch-shiogama-vacancy.ts",
+    "vacancy:fetch:susono": "tsx scripts/fetch-susono-vacancy.ts",
     "vacancy:fetch:kadoma": "tsx scripts/fetch-kadoma-vacancy.ts",
     "vacancy:fetch:settsu": "tsx scripts/fetch-settsu-vacancy.ts",
     "vacancy:fetch:kizugawa": "tsx scripts/fetch-kizugawa-vacancy.ts",

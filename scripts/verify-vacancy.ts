@@ -2268,6 +2268,22 @@ const EXPECTED: Record<
     facilityCount: 61,
     vacancy: 26,
   },
+  // 裾野市は小規模4件・分園1件・幼稚園1件で「—」が出る（15件中18欄＝20%）
+  susono: {
+    asOf: "2026-08-01",
+    facilityCount: 15,
+    vacancy: 0,
+    symbolCounts: { "〇": 6, "△": 14, "×": 52 },
+    emptyRatio: 0.25,
+  },
+  // 塩竈市は小規模2件と認定こども園1件で「—」が出る（15件中10欄）
+  shiogama: {
+    asOf: "2026-09-01",
+    facilityCount: 15,
+    vacancy: 0,
+    symbolCounts: { "〇": 4, "△": 14, "×": 62 },
+    emptyRatio: 0.15,
+  },
   // 関市は小規模保育で3〜5歳のクラスが無く「—」が出る（22件中1件）
   seki: {
     asOf: "2026-09-01",
