@@ -81,13 +81,23 @@ async function fetchText(url: string): Promise<string> {
   }
 }
 
+type PdfRow = {
+  /** 「施設型」か「地域型」 */
+  kubun: string;
+  /** 園名の1行目に入る類型（「認定こども園」など）。無ければ null */
+  kind: string | null;
+  name: string;
+  values: (number | null)[];
+  ageFrom: string;
+  address: string;
+};
+
 type PdfResult = {
   target: number[];
   asOf: number[];
-  head: string[];
-  rows: string[][];
-  tops: number[][];
-  marks: { text: string; top: number }[];
+  rows: PdfRow[];
+  /** 「欠員計」の行 */
+  total: (number | null)[];
 };
 
 function runPython(args: string[]): string {
@@ -176,48 +186,17 @@ async function main() {
     const asOf = `${reiwaToYear(ry)}-${String(am).padStart(2, "0")}-${String(ad).padStart(2, "0")}`;
     console.log(`基準日: ${asOf} / 対象: ${latest.year}年${latest.month}月`);
 
-    // 区分が「施設型」「地域型」の2つであることを確かめる（増えていたら読み方を見直す）
-    const marks = squeeze(pdf.marks.map((m) => m.text).join(""));
-    if (marks !== "施設型地域型") fail(`区分の並びが想定と違います: 「${marks}」`);
-
-    const head = pdf.head.map((h) => toHalfWidth(squeeze(h)));
-    const ageIdx = Array.from({ length: AGE_COUNT }, (_, i) => head.indexOf(`${i}歳児`));
-    if (ageIdx.some((i) => i < 0)) fail(`年齢の見出しが見つかりません: ${pdf.head.join(" / ")}`);
-    const nameIdx = ageIdx[0] - 1;
-    if (nameIdx < 0) fail(`施設名の列が分かりません: ${pdf.head.join(" / ")}`);
-
-    type Row = { name: string; values: (number | null)[] };
-    const parsed: Row[] = [];
-    let declared: number[] | null = null;
-    for (const row of pdf.rows) {
-      const name = squeeze(row[nameIdx] ?? "");
-      const values = ageIdx.map((c) => {
-        const t = toHalfWidth(squeeze(row[c] ?? ""));
-        if (t === "") return null;
-        if (!/^\d+$/.test(t)) fail(`人数として読めません: 「${row[c]}」`);
-        return Number(t);
-      });
-      if (squeeze(row[0] ?? "") === "計") {
-        declared = values.map((v) => v ?? 0);
-        continue;
-      }
-      if (!name) continue;
-      parsed.push({ name, values });
+    // 区分は「施設型」「地域型」の2つ。増えていたら読み方を見直す
+    const kubunSeen = [...new Set(pdf.rows.map((r) => r.kubun))];
+    if (kubunSeen.join("/") !== "施設型/地域型") {
+      fail(`区分の並びが想定と違います: 「${kubunSeen.join("/")}」`);
     }
-    if (!declared) fail("「計」の行が見つかりません。検算ができないので中断します。");
 
-    // **地域型保育事業は2歳児まで**。表の下から3〜5歳児が空欄の行が続くところが地域型
-    let firstChiikigata = parsed.length;
-    while (
-      firstChiikigata > 0 &&
-      parsed[firstChiikigata - 1].values.slice(3).every((v) => v === null)
-    ) {
-      firstChiikigata--;
-    }
-    const chiikigata = parsed.length - firstChiikigata;
+    // 地域型として読めた施設の数を、公式の一覧と突き合わせる
+    const chiikigata = pdf.rows.filter((r) => r.kubun === "地域型").length;
     if (chiikigata !== chiikigataCount) {
       fail(
-        `地域型と読めた施設が${chiikigata}件で、公式の一覧の${chiikigataCount}件と違います。区分の読み方を見直してください。`
+        `地域型と読めた施設が${chiikigata}件で、公式の一覧の${chiikigataCount}件と違います。区分の読み方を見直してください。`,
       );
     }
 
@@ -232,21 +211,23 @@ async function main() {
     const seenId = new Set<string>();
     const builtByAge = Array.from({ length: AGE_COUNT }, () => 0);
 
-    for (const [i, row] of parsed.entries()) {
-      const isChiikigata = i >= firstChiikigata;
-      const name = row.name.replace(/^【認定こども園】/, "");
-      const c = isChiikigata ? 2 : row.name.startsWith("【認定こども園】") ? 1 : 0;
-      const id = `${categories[c]}-${name}`;
+    for (const row of pdf.rows) {
+      const c = row.kubun === "地域型" ? 2 : row.kind === "認定こども園" ? 1 : 0;
+      const id = `${categories[c]}-${row.name}`;
       if (seenId.has(id)) fail(`施設名が重複しています: ${id}`);
       seenId.add(id);
+      if (row.values.length !== AGE_COUNT) {
+        fail(`${row.name}: 年齢の欄が${row.values.length}個です`);
+      }
       row.values.forEach((v, age) => {
         builtByAge[age] += v ?? 0;
       });
-      facilities.push({ id, name, w: null, c, vacancy: row.values });
+      facilities.push({ id, name: row.name, w: null, c, vacancy: row.values });
     }
 
+    const declared = pdf.total.map((v) => v ?? 0);
     if (declared.join("/") !== builtByAge.join("/")) {
-      fail(`「計」の行が ${declared.join("/")} なのに積み上げが ${builtByAge.join("/")} です`);
+      fail(`「欠員計」の行が ${declared.join("/")} なのに積み上げが ${builtByAge.join("/")} です`);
     }
     if (facilities.length < 45) fail(`施設が${facilities.length}件しか取れていません`);
 

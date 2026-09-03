@@ -205,17 +205,26 @@ async function main() {
     const unreadable: string[] = [];
     const maxima: string[] = [];
 
+    /** 年齢をまたいでまとめて公表された人数。行の「計」の検算に使う */
+    let mergedInRow = 0;
+    /** 年齢をまたぐ書き方をしている施設。施設ごとの備考に出す */
+    const mergedNotes = new Map<string, string>();
+
     /**
      * 年齢別の欄を読む。**幅で書かれている園がある**
      * （鐘ヶ淵北保育園の0歳児は「0〜3 合計で最大3」）。
      * その場合は最大の人数を採り、注記に出す。行の「計」もその数で計算されている。
+     *
+     * 0歳と1歳をまとめて書く月もあるが、そちらは0歳の2列にまたがるので
+     * ここではなく readZero で見る。
      */
     const readAge = (raw: string, name: string): number | null => {
       const t = tidy(raw);
-      const m = t.replace(/[\s　]/g, "").match(/最大([０-９\d]+)$/);
-      if (m) {
+      const squeezed = t.replace(/[\s　]/g, "");
+      const max = squeezed.match(/最大([０-９\d]+)$/);
+      if (max) {
         maxima.push(`${name}（${t}）`);
-        return Number(toHalfWidth(m[1]));
+        return Number(toHalfWidth(max[1]));
       }
       return parseValue(raw, `墨田区 ${name}`);
     };
@@ -224,11 +233,17 @@ async function main() {
       if (!categories.includes(category)) categories.push(category);
       if (seen.has(name)) fail(`施設名が重複しています: ${name}`);
       seen.add(name);
+      const merged = mergedNotes.get(name);
       facilities.push({
         id: name,
         name,
         w: null,
         c: categories.indexOf(category),
+        ...(merged
+          ? {
+              note: `区は0歳の受入月齢（57日以上・6か月以上）ごとの見込みをまとめて「合計で${merged}人」と公表しています。0歳の欄はその人数です`,
+            }
+          : {}),
         vacancy: values,
       });
       const acc = built.get(category) ?? new Array(AGE_COUNT).fill(0);
@@ -257,9 +272,28 @@ async function main() {
         if (/^(クラス年齢|[０0-9]歳|計|延長保育|育)$/.test(name.replace(/\s/g, ""))) continue;
         if (category === null) fail(`${name}: どの節に属するか分かりません`);
 
-        const values = [3, 4, 5, 6, 7, 8].map((i) => readAge(row[side + i] ?? "", name));
+        mergedInRow = 0;
+        // 0歳は「57日以上」「6か月以上」の2列に分かれている。
+        // **2つの区分をまとめて「0〜1 0〜1 合計で1」と書く園がある**（鐘ヶ淵北保育園）。
+        // 区分ごとに0〜1人で、合わせて1人という意味なので、0歳を1人として採る。
+        // 文字が2列にまたがって入るので、つないでから見ないと数字として読めずに止まる
+        const zeroJoined = `${tidy(row[side + 2] ?? "")}${tidy(row[side + 3] ?? "")}`.replace(
+          /[\s　]/g,
+          "",
+        );
+        let zero: number | null;
+        if (zeroJoined.includes("合計")) {
+          const m = zeroJoined.match(/([０-９\d]+)$/);
+          if (!m) fail(`墨田区 ${name}: まとめて書かれた人数を読めません（「${zeroJoined}」）`);
+          zero = Number(toHalfWidth(m[1]));
+          mergedNotes.set(name, String(zero));
+        } else {
+          zero = readAge(row[side + 3] ?? "", name);
+        }
+        const values = [zero, ...[4, 5, 6, 7, 8].map((i) => readAge(row[side + i] ?? "", name))];
         const declaredTotal = parseValue(row[side + 9] ?? "", `墨田区 ${name}（計）`);
-        const sum = values.reduce((a: number, v) => a + (v ?? 0), 0);
+        // 年齢をまたいでまとめられた人数も、公式の「計」には入っている
+        const sum = values.reduce((a: number, v) => a + (v ?? 0), 0) + mergedInRow;
 
         // 「公立計」「私立計」「合計」の行
         if (/^(.*計)$/.test(name) && !/保育|こども園|学校|幼稚園|園$/.test(name)) {
@@ -302,13 +336,33 @@ async function main() {
     }
 
     // --- 検算: 公式の計の行と積み上げ ---
+    /**
+     * 区の資料そのものが合っていないことがある。
+     * 令和8年10月ぶんでは、私立の0歳の「計」が1で、施設を足すと2だった
+     * （ほがらか保育園1・わらべ向島保育園1。どちらも紙面の数字と一致している）。
+     * **1つの年齢で1人だけのずれは、資料の側の食い違いとして注記に出して通す。**
+     * それ以上は読み違えを疑って止める。
+     */
     const report: string[] = [];
+    const mismatches: string[] = [];
     for (const [key, d] of declared) {
       if (key === "合計") continue;
       const b = built.get(key);
       if (!b) fail(`${key}: 計の行はあるのに施設が1件もありません`);
       if (d.join("/") !== b.join("/")) {
-        fail(`${key}: 計の行が ${d.join("/")} なのに積み上げが ${b.join("/")} です`);
+        const gaps = d
+          .map((v, i) => ({ age: i, gap: (b[i] ?? 0) - v }))
+          .filter((g) => g.gap !== 0);
+        const small = gaps.length === 1 && Math.abs(gaps[0].gap) === 1;
+        if (!small) {
+          fail(`${key}: 計の行が ${d.join("/")} なのに積み上げが ${b.join("/")} です`);
+        }
+        const g = gaps[0];
+        mismatches.push(
+          `${key}の${g.age}歳は、区の「計」が${d[g.age]}人なのに施設ごとの数を足すと${b[g.age]}人になります`,
+        );
+        console.log(`  [注意] ${mismatches[mismatches.length - 1]}`);
+        continue;
       }
       report.push(`${key}: 計の行と一致（${b.join("/")}）`);
     }
@@ -322,7 +376,16 @@ async function main() {
         });
       }
       if (grand.join("/") !== all.join("/")) {
-        fail(`合計行が ${grand.join("/")} なのに認可保育園等の積み上げが ${all.join("/")} です`);
+        // 節ごとの「計」で見つけたずれは、合計行にもそのまま出る
+        const gaps = grand
+          .map((v, i) => ({ age: i, gap: (all[i] ?? 0) - v }))
+          .filter((g) => g.gap !== 0);
+        const explained =
+          mismatches.length > 0 && gaps.every((g) => Math.abs(g.gap) === 1) && gaps.length <= mismatches.length;
+        if (!explained) {
+          fail(`合計行が ${grand.join("/")} なのに認可保育園等の積み上げが ${all.join("/")} です`);
+        }
+        console.log("  [注意] 合計行のずれは、上の節ごとのずれと同じものです");
       }
       report.push(`合計行と一致（${all.join("/")}）`);
     } else {
@@ -362,6 +425,11 @@ async function main() {
           : []),
         ...(unreadable.length > 0
           ? [`公式が数値のかわりに注記を書いている欄があります: ${unreadable.join("、")}`]
+          : []),
+        ...(mismatches.length > 0
+          ? [
+              `区の資料の「計」の行と、施設ごとの数を足したものが食い違っている箇所があります（${mismatches.join("、")}）。当サイトは施設ごとの数をそのまま載せています。`,
+            ]
           : []),
       ],
       wards: [],

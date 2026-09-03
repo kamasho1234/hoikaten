@@ -1,17 +1,17 @@
 {
   "municipalitySlug": "higashimurayama",
   "municipalityName": "東村山市",
-  "asOf": "2026-08-01",
-  "fetchedAt": "2026-08-20",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-03",
   "sourceName": "東村山市「保育施設 空き状況」",
   "sourceUrl": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/ketsuinjyoukyou/akizyokyo.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/ketsuinjyoukyou/files/202609.pdf"
+    "vacancy": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/ketsuinjyoukyou/files/R8.10.pdf"
   },
   "metrics": [
     "vacancy"
   ],
-  "subtitle": "2026年9月期の空き状況",
+  "subtitle": "2026年10月期の空き状況",
   "notes": [
     "東村山市の注記のとおり、空き状況は各施設の職員体制などにより変わることがあります。在園児の退園・転園で、0と書かれていても入園できる場合があります。",
     "「—」はそのクラスを設けていない園です。地域型保育事業は2歳児までです。",
@@ -25,13 +25,13 @@
   ],
   "facilities": [
     {"id":"認可保育所-第一保育園","name":"第一保育園","w":null,"c":0,"vacancy":[0,0,0,0,0,0]},
-    {"id":"認可保育所-第三保育園","name":"第三保育園","w":null,"c":0,"vacancy":[0,0,0,0,0,3]},
-    {"id":"認可保育所-第四保育園","name":"第四保育園","w":null,"c":0,"vacancy":[0,0,0,1,0,0]},
+    {"id":"認可保育所-第三保育園","name":"第三保育園","w":null,"c":0,"vacancy":[0,0,0,0,0,2]},
+    {"id":"認可保育所-第四保育園","name":"第四保育園","w":null,"c":0,"vacancy":[0,0,0,0,0,0]},
     {"id":"認可保育所-第五保育園","name":"第五保育園","w":null,"c":0,"vacancy":[0,0,0,1,0,1]},
     {"id":"認可保育所-第七保育園","name":"第七保育園","w":null,"c":0,"vacancy":[0,0,0,0,0,0]},
     {"id":"認可保育所-つぼみ保育園","name":"つぼみ保育園","w":null,"c":0,"vacancy":[0,0,0,0,0,0]},
     {"id":"認可保育所-久米川保育園","name":"久米川保育園","w":null,"c":0,"vacancy":[0,0,0,0,0,0]},
-    {"id":"認可保育所-花さき保育園","name":"花さき保育園","w":null,"c":0,"vacancy":[0,0,1,0,0,0]},
+    {"id":"認可保育所-花さき保育園","name":"花さき保育園","w":null,"c":0,"vacancy":[0,0,0,0,0,0]},
     {"id":"認可保育所-東たいてん保育園","name":"東たいてん保育園","w":null,"c":0,"vacancy":[0,0,0,0,0,2]},
     {"id":"認可保育所-ふじみ保育園","name":"ふじみ保育園","w":null,"c":0,"vacancy":[0,0,0,0,0,0]},
     {"id":"認可保育所-まなびの森わくわく保育園","name":"まなびの森わくわく保育園","w":null,"c":0,"vacancy":[0,0,0,0,0,0]},
@@ -47,7 +47,7 @@
     {"id":"認可保育所-萩山まるやま保育園","name":"萩山まるやま保育園","w":null,"c":0,"vacancy":[0,0,0,0,0,0]},
     {"id":"認可保育所-天王森保育園","name":"天王森保育園","w":null,"c":0,"vacancy":[0,0,0,0,0,0]},
     {"id":"認可保育所-ソラスト東村山保育園","name":"ソラスト東村山保育園","w":null,"c":0,"vacancy":[0,0,0,0,0,0]},
-    {"id":"認可保育所-ヴィラまなびの森わくわく保育園","name":"ヴィラまなびの森わくわく保育園","w":null,"c":0,"vacancy":[0,0,0,0,0,0]},
+    {"id":"認可保育所-ヴィラまなびの森わくわく保育園","name":"ヴィラまなびの森わくわく保育園","w":null,"c":0,"vacancy":[0,0,0,0,1,0]},
     {"id":"認可保育所-れんげ萩山保育園","name":"れんげ萩山保育園","w":null,"c":0,"vacancy":[0,0,0,0,0,0]},
     {"id":"認定こども園-東村山むさしの保育園","name":"東村山むさしの保育園","w":null,"c":1,"vacancy":[0,0,0,0,0,0]},
     {"id":"認定こども園-東村山むさしの幼稚園","name":"東村山むさしの幼稚園","w":null,"c":1,"vacancy":[null,null,null,8,0,1]},
@@ -67,10 +67,10 @@
     {"id":"地域型保育事業-NICOLANDほいくえん東村山","name":"NICOLANDほいくえん東村山","w":null,"c":2,"vacancy":[0,0,0,null,null,null]},
     {"id":"地域型保育事業-はじめの保育園","name":"はじめの保育園","w":null,"c":2,"vacancy":[0,0,1,null,null,null]},
     {"id":"地域型保育事業-クレイドルの保育園久米川","name":"クレイドルの保育園久米川","w":null,"c":2,"vacancy":[0,0,0,null,null,null]},
-    {"id":"地域型保育事業-キッズフィールド久米川園","name":"キッズフィールド久米川園","w":null,"c":2,"vacancy":[0,0,1,null,null,null]},
+    {"id":"地域型保育事業-キッズフィールド久米川園","name":"キッズフィールド久米川園","w":null,"c":2,"vacancy":[0,0,0,null,null,null]},
     {"id":"地域型保育事業-クレイドルの保育園東村山","name":"クレイドルの保育園東村山","w":null,"c":2,"vacancy":[0,0,0,null,null,null]},
     {"id":"地域型保育事業-たまっこ保育園","name":"たまっこ保育園","w":null,"c":2,"vacancy":[0,0,0,null,null,null]},
-    {"id":"地域型保育事業-東村山おしゃら保育園","name":"東村山おしゃら保育園","w":null,"c":2,"vacancy":[0,0,1,null,null,null]},
+    {"id":"地域型保育事業-東村山おしゃら保育園","name":"東村山おしゃら保育園","w":null,"c":2,"vacancy":[0,0,0,null,null,null]},
     {"id":"地域型保育事業-久米川なかよし保育園","name":"久米川なかよし保育園","w":null,"c":2,"vacancy":[0,0,0,null,null,null]}
   ]
 }

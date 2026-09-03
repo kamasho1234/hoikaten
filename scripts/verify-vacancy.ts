@@ -285,7 +285,7 @@ const EXPECTED: Record<
   // 北区は0歳児クラスのない園（つぼみ園など）が多く、全クラス「—」の施設はいない
   kita: { asOf: "2026-08-29", facilityCount: 125, vacancy: 749, waiting: 2488 },
   // 墨田区も「空き数」ではなく翌月入所の募集見込数。募集ゼロの園が多いのが通常
-  sumida: { asOf: "2026-08-06", facilityCount: 103, vacancy: 570, emptyRatio: 0.3 },
+  sumida: { asOf: "2026-09-01", facilityCount: 103, vacancy: 539, emptyRatio: 0.3 },
   itabashi: { asOf: "2026-09-01", facilityCount: 210, vacancy: 900 },
   minato: { asOf: "2026-08-17", facilityCount: 113, vacancy: 1499 },
   chiyoda: { asOf: "2026-08-07", facilityCount: 38, vacancy: 360, emptyRatio: 0.15 },
@@ -2307,6 +2307,13 @@ nishio: {
     facilityCount: 18,
     vacancy: 24,
     enrolled: 1345,
+  },
+  // 東村山市は令和8年10月期から資料の作りが変わった。地域型は2歳児までなので「—」が多い
+  higashimurayama: {
+    asOf: "2026-09-01",
+    facilityCount: 48,
+    vacancy: 26,
+    emptyRatio: 0.05,
   },
   // 豊後高田市は香々地保育園とあすなろほいくえんが年齢別に分かれず「若干名」
   bungotakada: {
