@@ -477,9 +477,9 @@ const EXPECTED: Record<
   // 和泉市の夜間保育園は年齢別に分かれていないので vacancyTotal で持つ。
   // 138＝年齢別の137人＋夜間保育園の1人
   izumi: {
-    asOf: "2026-07-31",
+    asOf: "2026-08-31",
     facilityCount: 36,
-    vacancy: 138,
+    vacancy: 124,
   },
   // 戸田市は認可保育施設と小規模保育等でPDFが分かれている（45＋13施設）
   toda: {
@@ -502,10 +502,10 @@ const EXPECTED: Record<
   },
   // 宇都宮市の「／」は利用できない。公式が凡例で決めている記号なのでそのまま持つ
   utsunomiya: {
-    asOf: "2026-07-24",
+    asOf: "2026-08-25",
     facilityCount: 170,
     vacancy: 0,
-    symbolCounts: { "○": 40, "△": 192, "×": 597, "／": 188 },
+    symbolCounts: { "×": 620, "△": 172, "○": 37, "／": 188 },
   },
   // 日立市は「◒」が1〜2人。設けていないクラスは公式の表では斜線
   hitachi: {
@@ -1152,9 +1152,9 @@ const EXPECTED: Record<
   },
   // 名古屋市は各月1日時点の募集枠。翌月分が毎月上旬に公開される
   nagoya: {
-    asOf: "2026-08-01",
+    asOf: "2026-09-01",
     facilityCount: 794,
-    vacancy: 2972,
+    vacancy: 2664,
   },
   okayama: {
     asOf: "2026-08-21",

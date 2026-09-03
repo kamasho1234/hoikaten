@@ -12,6 +12,14 @@
 - NO.が1から欠けずに続くので、それを検算に使う
 - 休園中の施設は記号の代わりに「※休園中」が横結合で入っている
 - 送迎保育ステーション事業の表は施設一覧ではないので取り込まない
+
+## 0歳児クラスが月齢で2つに分かれた
+令和8年10月ぶんから、0歳児の欄が「0-0歳」と「0-1歳」に分かれた。
+公式の説明では
+- 0-0歳 … 令和8年4月2日以降に生まれた子
+- 0-1歳 … 令和7年4月2日〜令和8年4月1日に生まれた子
+当サイトの「0歳児」は他の自治体と同じく**4月1日時点で0歳の子**を指すので、
+**0-1歳の欄を0歳として採る**。0-0歳の欄は別に返し、施設ごとの備考に載せる。
 """
 
 import json
@@ -43,8 +51,10 @@ def find_columns(head1, head2):
         return None
     ages = []
     for age in range(AGE_COUNT):
-        label = f"{age}歳"
-        if label not in head2:
+        # 0歳は「0-1歳」（4月1日までに生まれた子）を採る。分かれる前の資料では「0歳」
+        labels = ["0-1歳", "0歳"] if age == 0 else [f"{age}歳"]
+        label = next((l for l in labels if l in head2), None)
+        if label is None:
             return None
         ages.append(head2.index(label))
     if ages != list(range(ages[0], ages[0] + AGE_COUNT)):
@@ -55,6 +65,8 @@ def find_columns(head1, head2):
         "name": head1.index("施設名"),
         "town": head1.index("町名"),
         "age0": ages[0],
+        # 0歳が月齢で分かれている資料でだけ、もう一方（0-0歳）の位置を持つ
+        "age0Young": head2.index("0-0歳") if "0-0歳" in head2 else None,
         # 縦結合で「施設類型地域型」のようにくっつくことがある。値はページを跨いで引き継ぐ
         "kubun": kubun[0] if kubun else None,
     }
@@ -151,7 +163,16 @@ def extract(path):
                         fail(f"{name}: 施設類型が分かりません")
 
                     marks = [values[columns["age0"] + a] for a in range(AGE_COUNT)]
-                    is_closed = any(CLOSED in m for m in marks)
+                    young = (
+                        values[columns["age0Young"]]
+                        if columns["age0Young"] is not None
+                        else None
+                    )
+                    # 「※休園中」は横に結合して入る。0歳が月齢で分かれた資料では
+                    # その印が0-0歳の欄に載るので、そちらも見る
+                    is_closed = any(CLOSED in m for m in marks) or (
+                        young is not None and CLOSED in young
+                    )
                     if is_closed:
                         closed.append(name)
                     rows.append(
@@ -161,6 +182,7 @@ def extract(path):
                             "name": name,
                             "town": values[columns["town"]],
                             "marks": marks,
+                            "young": young,
                             "closed": is_closed,
                         }
                     )

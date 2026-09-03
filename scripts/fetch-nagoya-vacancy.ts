@@ -32,6 +32,13 @@ const UA = "Mozilla/5.0 (compatible; hoikaten/1.0; +https://hoikaten.com)";
 /** 人数が確定しない値。「—」にする */
 const NOT_A_NUMBER = new Set(["-", "－", "←", "本園に含む", "要相談", "確認中"]);
 
+/**
+ * 募集人数の欄が空のまま公表される施設がある（令和8年10月分の「ぶれあ保育室山腰」）。
+ * 空きが0なのか、そのクラスがないのかは市の資料からは分からないので、
+ * **決めつけずに「—」にし、出典の注記でそのことを伝える。**
+ */
+const blankFacilities: string[] = [];
+
 const OUT_PATH = path.join(process.cwd(), "src", "lib", "vacancy", `${MUNICIPALITY_SLUG}.json`);
 const EXTRACTOR = path.join(process.cwd(), "scripts", "nagoya-xlsx-extract.py");
 
@@ -161,6 +168,9 @@ async function main() {
 
       const raw = f.classes.map((c) => squeeze(c));
       const vacancy: (number | null)[] = [];
+      // 欄がまるごと空の施設は、人数が公表されていないものとして「—」にする
+      const allBlank = raw.every((v) => v === "" || NOT_A_NUMBER.has(v));
+      if (allBlank && raw.some((v) => v === "")) blankFacilities.push(name);
 
       // 0歳は「産明け」と「6ケ月以上」の2列。
       // 「6ケ月以上」が「←」のときは産明けと合わせた人数なので産明けの値だけを使う
@@ -172,7 +182,7 @@ async function main() {
       } else if (nUbuake !== null || nSixMonth !== null) {
         vacancy.push(nUbuake ?? nSixMonth);
       } else {
-        if (!NOT_A_NUMBER.has(ubuake) || !NOT_A_NUMBER.has(sixMonth)) {
+        if (!allBlank && (!NOT_A_NUMBER.has(ubuake) || !NOT_A_NUMBER.has(sixMonth))) {
           fail(`${name}: 0歳の値を読めません（「${ubuake}」「${sixMonth}」）`);
         }
         vacancy.push(null);
@@ -185,7 +195,7 @@ async function main() {
           vacancy.push(Number(value));
           continue;
         }
-        if (!NOT_A_NUMBER.has(value)) {
+        if (!allBlank && !NOT_A_NUMBER.has(value)) {
           fail(`${name}: ${age}歳の値を読めません（「${value}」）`);
         }
         if (value === "←") merged += 1;
@@ -236,6 +246,11 @@ async function main() {
       ...xlsx.notes.filter((n) => !n.startsWith("http") && !n.includes("下記ページ")),
       "0歳は「産明け」と「6ケ月以上」の2つの枠に分かれて公表されているため、合わせた人数にしています。",
       "募集人数が数字で示されていない欄（受入可能年齢ではない・左隣の年齢と合わせて募集・本園に含む・要相談・確認中）は「—」にしています。",
+      ...(blankFacilities.length
+        ? [
+            `次の施設は市の資料で募集人数の欄が空になっています。空きが無いのか、そのクラスがないのかは資料からは分からないため、当サイトでは「—」にしています: ${blankFacilities.join("、")}`,
+          ]
+        : []),
     ];
 
     const dataset = {

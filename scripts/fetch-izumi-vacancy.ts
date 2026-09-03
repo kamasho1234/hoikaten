@@ -91,10 +91,12 @@ async function main() {
   const html = await res.text();
 
   // 「令和8年度9月選考受入予定人数（令和8年7月31日現在）」
+  // 令和8年10月ぶんから「年度」が「年」になり、「現在」が「時点」になった。
+  // どちらの書き方でも拾えるようにしておく
   const links = [...html.matchAll(/<a[^>]+href="([^"]+\.pdf)"[^>]*>([\s\S]*?)<\/a>/gi)]
     .map((m) => ({ url: new URL(m[1], INDEX_URL).toString(), text: toHalfWidth(squeeze(m[2])) }))
     .map((l) => {
-      const m = l.text.match(/令和(\d+)年度(\d+)月選考受入予定人数/);
+      const m = l.text.match(/令和(\d+)年度?(\d+)月選考受入予定人数/);
       if (!m) return null;
       const [reiwa, month] = m.slice(1, 3).map(Number);
       return { ...l, reiwa, month, sortKey: reiwa * 100 + month };
