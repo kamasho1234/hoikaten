@@ -2268,6 +2268,13 @@ const EXPECTED: Record<
     facilityCount: 61,
     vacancy: 26,
   },
+  // 岡崎市は「下山保育園（休園中）」の1件だけ全クラスが「—」になる（63件中1件＝1.6%）
+  okazaki: {
+    asOf: "2026-08-12",
+    facilityCount: 63,
+    vacancy: 0,
+    symbolCounts: { "〇": 92, "△": 100, "×": 159 },
+  },
 };
 
 const problems: string[] = [];

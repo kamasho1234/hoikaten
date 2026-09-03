@@ -475,6 +475,8 @@ import sakuraVacancy from "./sakura.json";
 import shimotsukeVacancy from "./shimotsuke.json";
 import tomisatoVacancy from "./tomisato.json";
 import moriguchiVacancy from "./moriguchi.json";
+// 岡崎市は FURIGANA 列を施設のキーにして2ページを結合している（fetch-okazaki-vacancy.ts）
+import okazakiVacancy from "./okazaki.json";
 
 export type {
   AgeSummary,
@@ -945,6 +947,7 @@ const registry: Record<string, VacancyDataset> = {
   shimotsuke: shimotsukeVacancy as unknown as VacancyDataset,
   tomisato: tomisatoVacancy as unknown as VacancyDataset,
   moriguchi: moriguchiVacancy as unknown as VacancyDataset,
+  okazaki: okazakiVacancy as unknown as VacancyDataset,
 };
 
 export function getVacancyData(slug: string): VacancyDataset | undefined {
