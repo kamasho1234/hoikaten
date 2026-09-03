@@ -230,6 +230,8 @@
     "vacancy:fetch:higashimatsuyama": "tsx scripts/fetch-higashimatsuyama-vacancy.ts",
     "vacancy:fetch:konosu": "tsx scripts/fetch-konosu-vacancy.ts",
     "vacancy:fetch:okazaki": "tsx scripts/fetch-okazaki-vacancy.ts",
+    "vacancy:fetch:otake": "tsx scripts/fetch-otake-vacancy.ts",
+    "vacancy:fetch:otaru": "tsx scripts/fetch-otaru-vacancy.ts",
     "vacancy:fetch:kadoma": "tsx scripts/fetch-kadoma-vacancy.ts",
     "vacancy:fetch:settsu": "tsx scripts/fetch-settsu-vacancy.ts",
     "vacancy:fetch:kizugawa": "tsx scripts/fetch-kizugawa-vacancy.ts",

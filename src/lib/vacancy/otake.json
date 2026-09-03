@@ -1,0 +1,62 @@
+{
+  "municipalitySlug": "otake",
+  "municipalityName": "大竹市",
+  "prefecture": "広島県",
+  "asOf": "2026-08-19",
+  "fetchedAt": "2026-09-03",
+  "sourceName": "大竹市「保育所（園）・認定こども園・小規模保育園空き状況一覧」",
+  "sourceUrl": "https://www.city.otake.hiroshima.jp/kosodate_info/scene/2/8479.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.otake.hiroshima.jp/material/files/group/28/r809akijokyo.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "翌月入所調整後の入所（園）可能状況",
+  "notes": [
+    "大竹市は空き状況を人数ではなく記号で公表しています。これは2026-08-19時点のものです。",
+    "公式の凡例は 「〇」受け入れの可能性あり（5人以上）、「△」若干の受け入れの可能性あり（1〜4人）、「×」受け入れなし（0人） です。",
+    "公式の表で記号が無い年齢は「—」にしています。受け入れがないときは「×」と書かれるので、記号が無いのはその年齢のクラスを設けていないことを表します。",
+    "令和8年4月1日現在の年齢でのクラスになります。",
+    "0歳児については、フルムーンインターナショナルこども園おおたけは入所日時点で生後57日から、こぐま園は10か月から利用できます。",
+    "市は「空き状況は、施設の状況などにより随時変化しますので、「×」となっていても入所（園）できる場合があります」としています。",
+    "玖波保育所は1歳児と2歳児が1つの欄にまとめて公表されているため、両方に同じ記号を入れています。"
+  ],
+  "wards": [
+    "大竹",
+    "小方",
+    "玖波"
+  ],
+  "categories": [
+    "保育所",
+    "認定こども園",
+    "小規模保育園"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "〇",
+      "label": "受け入れの可能性あり（5人以上）",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "若干の受け入れの可能性あり（1〜4人）",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "受け入れなし（0人）",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"大竹保育所","name":"大竹保育所","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","〇","△"]},
+    {"id":"ひまわりさかえこども園","name":"ひまわりさかえこども園","w":0,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","×","×"]},
+    {"id":"フルムーンインターナショナルこども園おおたけ","name":"フルムーンインターナショナルこども園おおたけ","w":0,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","△","×","×","△"]},
+    {"id":"大竹中央幼稚園","name":"大竹中央幼稚園","w":0,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"△","△","×"]},
+    {"id":"こぐま園","name":"こぐま園","w":0,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×",null,null,null]},
+    {"id":"小方認定こども園","name":"小方認定こども園","w":1,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","〇","〇"]},
+    {"id":"玖波保育所","name":"玖波保育所","w":2,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","△","×","×","×"],"note":"1歳児と2歳児は1つの欄にまとめて公表されているため、同じ記号にしています。"},
+    {"id":"知恩保育園","name":"知恩保育園","w":2,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","〇","〇","△","〇","〇"]}
+  ]
+}

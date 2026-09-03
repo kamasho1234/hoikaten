@@ -2268,6 +2268,20 @@ const EXPECTED: Record<
     facilityCount: 61,
     vacancy: 26,
   },
+  // 小樽市は空らんを「〇」に置き換えているので、〇の数＝空らんの数
+  otaru: {
+    asOf: "2026-08-26",
+    facilityCount: 29,
+    vacancy: 0,
+    symbolCounts: { "〇": 63, "×": 98 },
+  },
+  // 大竹市は大竹中央幼稚園（0〜2歳なし）とこぐま園（3〜5歳なし）で「—」が出る
+  otake: {
+    asOf: "2026-08-19",
+    facilityCount: 8,
+    vacancy: 0,
+    symbolCounts: { "〇": 7, "△": 13, "×": 22 },
+  },
   // 岡崎市は「下山保育園（休園中）」の1件だけ全クラスが「—」になる（63件中1件＝1.6%）
   okazaki: {
     asOf: "2026-08-12",

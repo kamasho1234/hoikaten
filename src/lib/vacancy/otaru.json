@@ -1,0 +1,73 @@
+{
+  "municipalitySlug": "otaru",
+  "municipalityName": "小樽市",
+  "prefecture": "北海道",
+  "asOf": "2026-08-26",
+  "fetchedAt": "2026-09-03",
+  "sourceName": "小樽市「保育所等の空き状況について」",
+  "sourceUrl": "https://www.city.otaru.lg.jp/docs/2020111000476/",
+  "sourceFiles": {
+    "vacancy": "https://www.city.otaru.lg.jp/docs/2020111000476/file_contents/20260826.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "小樽市は空き状況を人数ではなく記号で公表しています。これは2026-08-26時点のものです。",
+    "公式の凡例は「×」空きなし、「△」翌月以降受入れ余地あり です。あわせて「空欄の施設は定員に余裕がありますが、必ず入所できるとは限りません」とされているため、当サイトでは空らんを「〇」に置き換えて載せています。",
+    "公式の表で斜線が引かれている年齢は「—」にしています。その年齢のクラスを設けていないことを表します。",
+    "空き状況は保育所等を選ぶときの目安となるもので、各保育所、認定こども園での保育士配置の状況、入所児童の状況などにより受け入れ可能人数は変動するため、空きがある施設でも必ず入所できるとは限りません。",
+    "空き状況の有無に関わらず、入所申し込みは可能です。入所の決定は先着順ではありません。申し込みをされた方の中で利用調整を行い、優先度の高い方から入所が決定します。",
+    "クラス年齢は、年度当初4月1日時点の年齢です。",
+    "公式の資料には入所待ち児童数も併記されていますが、空らんの欄には数が書かれておらず0人か非公表かを決められないため、当サイトでは載せていません。"
+  ],
+  "wards": [],
+  "symbolLegend": [
+    {
+      "mark": "〇",
+      "label": "定員に余裕あり（公式の表では空らん）",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "翌月以降受入れ余地あり",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"奥沢保育所","name":"奥沢保育所","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","〇","×","〇"]},
+    {"id":"銭函保育所","name":"銭函保育所","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","〇","×","×"]},
+    {"id":"手宮保育所","name":"手宮保育所","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","〇","〇","〇","〇"]},
+    {"id":"赤岩保育所","name":"赤岩保育所","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","〇","×"]},
+    {"id":"最上保育所","name":"最上保育所","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["〇","〇","〇","〇","〇","〇"]},
+    {"id":"中央保育所","name":"中央保育所","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"相愛保育所","name":"相愛保育所","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"日赤保育所","name":"日赤保育所","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["〇","〇","〇","〇","〇","×"]},
+    {"id":"若竹保育所","name":"若竹保育所","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["〇","〇","〇","〇","〇","〇"]},
+    {"id":"龍徳保育園","name":"龍徳保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"龍徳オタモイ保育園","name":"龍徳オタモイ保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"蘭島保育園","name":"蘭島保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","〇"]},
+    {"id":"さくら乳児保育園","name":"さくら乳児保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["〇","〇","〇",null,null,null]},
+    {"id":"あおぞら保育園","name":"あおぞら保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","〇","×","〇","〇"]},
+    {"id":"あかつき保育園","name":"あかつき保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"さくら保育園","name":"さくら保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,"〇","〇","〇","〇"]},
+    {"id":"桂岡幼稚園","name":"桂岡幼稚園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["〇","〇","×","〇","×","×"]},
+    {"id":"手宮幼稚園","name":"手宮幼稚園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,"〇","〇","×","×"]},
+    {"id":"かもめ保育園","name":"かもめ保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["〇","〇","〇","〇","〇","×"]},
+    {"id":"小樽杉の子幼稚園","name":"小樽杉の子幼稚園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":[null,"×","×","×","〇","〇"]},
+    {"id":"小樽オリーブ幼稚園","name":"小樽オリーブ幼稚園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,"〇","〇","〇","〇"]},
+    {"id":"いなほ幼稚園","name":"いなほ幼稚園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"さくら幼稚園","name":"さくら幼稚園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"ゆりかご保育園","name":"ゆりかご保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","〇","×","×","×"]},
+    {"id":"藤幼稚園","name":"藤幼稚園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"×","×","×"]},
+    {"id":"小樽幼稚園","name":"小樽幼稚園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","〇","×","〇"]},
+    {"id":"新光保育園","name":"新光保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["〇","×","〇","〇","〇","×"]},
+    {"id":"愛育保育園","name":"愛育保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","〇","〇","〇","〇","×"]},
+    {"id":"杉の子保育園","name":"杉の子保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]}
+  ]
+}
