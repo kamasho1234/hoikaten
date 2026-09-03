@@ -252,6 +252,7 @@ import okegawaVacancy from "./okegawa.json";
 import hasudaVacancy from "./hasuda.json";
 import yoshikawaVacancy from "./yoshikawa.json";
 import sayamaVacancy from "./sayama.json";
+import sazaVacancy from "./saza.json";
 import sakadoVacancy from "./sakado.json";
 import ushikuVacancy from "./ushiku.json";
 import hitachinakaVacancy from "./hitachinaka.json";
@@ -750,6 +751,7 @@ const registry: Record<string, VacancyDataset> = {
   hasuda: hasudaVacancy as unknown as VacancyDataset,
   yoshikawa: yoshikawaVacancy as unknown as VacancyDataset,
   sayama: sayamaVacancy as unknown as VacancyDataset,
+  saza: sazaVacancy as unknown as VacancyDataset,
   sakado: sakadoVacancy as unknown as VacancyDataset,
   ushiku: ushikuVacancy as unknown as VacancyDataset,
   hitachinaka: hitachinakaVacancy as unknown as VacancyDataset,

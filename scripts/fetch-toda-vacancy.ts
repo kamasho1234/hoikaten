@@ -67,8 +67,23 @@ function runPython(args: string[]): string {
   fail(`Pythonを実行できません（${lastError}）。pdfplumber が入った python が必要です。`);
 }
 
+/** 表の中に出てくる注記の番号。集めて出典欄に載せる */
+const footnoteMarks = new Set<string>();
+
+/**
+ * 人数を読む。
+ * **数の後ろに注記の印が付くことがある**（「2 ※１」など）。
+ * 印は数の意味を変えるものではなく、施設への予告や案内を指しているので、
+ * 数はそのまま採り、印は集めて注記に回す。
+ */
 function toCount(raw: string, where: string): number {
-  const n = Number(toHalfWidth(raw));
+  let t = toHalfWidth(raw).trim();
+  const note = t.match(/[※＊*]\s*([0-9０-９一二三四五六七八九]+)/);
+  if (note) {
+    footnoteMarks.add(`※${toHalfWidth(note[1])}`);
+    t = t.replace(/[※＊*]\s*[0-9０-９一二三四五六七八九]+/g, "").trim();
+  }
+  const n = Number(t);
   if (!Number.isInteger(n) || n < 0) fail(`${where}: 人数を読めません: 「${raw}」`);
   return n;
 }
@@ -225,6 +240,13 @@ async function main() {
         "空きがあっても、利用調整の結果、入園できないことがあります。",
         "小規模保育施設等は0才から2才までの受け入れです。",
         "設けていないクラスは「—」にしています。",
+        ...(footnoteMarks.size
+          ? [
+              `公式の表には注記の印（${[...footnoteMarks].sort().join("・")}）が付いた欄があります。` +
+                "印は人数の意味を変えるものではないので、当サイトでは人数だけを載せています。" +
+                "印の内容は市の資料でご確認ください。",
+            ]
+          : []),
       ],
       wards: [],
       categories,

@@ -2290,6 +2290,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 5, "〇": 2, "×": 8 },
   },
+  // 佐々町は佐々青い実幼児園の教育認定・保育認定の2行をつないでいる
+  saza: {
+    asOf: "2026-08-01",
+    facilityCount: 4,
+    vacancy: 0,
+    symbolCounts: { "×": 8, "△": 11, "○": 5 },
+  },
   // 豊後高田市は香々地保育園とあすなろほいくえんが年齢別に分かれず「若干名」
   bungotakada: {
     asOf: "2026-08-31",

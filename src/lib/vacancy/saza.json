@@ -1,0 +1,49 @@
+{
+  "municipalitySlug": "saza",
+  "municipalityName": "佐々町",
+  "prefecture": "長崎県",
+  "asOf": "2026-08-01",
+  "fetchedAt": "2026-09-03",
+  "sourceName": "佐々町「佐々町幼稚園・保育所等空き状況一覧表」",
+  "sourceUrl": "https://www.sazacho-nagasaki.jp/kiji0035832/index.html",
+  "sourceFiles": {
+    "vacancy": "https://www.sazacho-nagasaki.jp/kiji0035832/3_5832_10580_up_kiyhdeys.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "2026年10月入所申込に向けた空き状況",
+  "notes": [
+    "佐々町は空きを人数ではなく記号で公表しています。2026-08-01時点のものです。",
+    "公式の凡例は 「○」3人以上空き、「△」1〜2人空き、「×」空きなし です。",
+    "佐々青い実幼児園は教育認定と保育認定で欄が分かれています。当サイトでは保育利用にあたる保育認定の欄を載せています。",
+    "町は「空きがある場合でも、入所を保証するものではありませんので、参考としてください」「保育士等の配置状況や、急な入所・退所等により、空き状況が変動する場合があります」としています。",
+    "町は「申込を行う際は、園にお問い合わせをしていただき、申込時点での空き状況の確認をお願いします」としています。",
+    "年齢は令和8年4月1日時点のクラス年齢です。"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "3人以上空き",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1〜2人空き",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"佐々町立第２保育所","name":"佐々町立第２保育所","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","△","△","△"]},
+    {"id":"佐々青い実幼児園","name":"佐々青い実幼児園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","△","△","△","△"]},
+    {"id":"佐々神田保育園","name":"佐々神田保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["○","○","△","○","○","○"]},
+    {"id":"さざなみ保育園","name":"さざなみ保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","×"]}
+  ]
+}
