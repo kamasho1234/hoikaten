@@ -227,6 +227,7 @@ import nobeokaVacancy from "./nobeoka.json";
 import higashihiroshimaVacancy from "./higashihiroshima.json";
 import omuraVacancy from "./omura.json";
 import tsuchiuraVacancy from "./tsuchiura.json";
+import kudamatsuVacancy from "./kudamatsu.json";
 import kukiVacancy from "./kuki.json";
 import kameokaVacancy from "./kameoka.json";
 import shiroiVacancy from "./shiroi.json";
@@ -726,6 +727,7 @@ const registry: Record<string, VacancyDataset> = {
   higashihiroshima: higashihiroshimaVacancy as unknown as VacancyDataset,
   omura: omuraVacancy as unknown as VacancyDataset,
   tsuchiura: tsuchiuraVacancy as unknown as VacancyDataset,
+  kudamatsu: kudamatsuVacancy as unknown as VacancyDataset,
   kuki: kukiVacancy as unknown as VacancyDataset,
   kameoka: kameokaVacancy as unknown as VacancyDataset,
   shiroi: shiroiVacancy as unknown as VacancyDataset,

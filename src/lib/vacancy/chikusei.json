@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "chikusei",
   "municipalityName": "筑西市",
-  "asOf": "2026-07-31",
-  "fetchedAt": "2026-08-31",
+  "asOf": "2026-08-31",
+  "fetchedAt": "2026-09-03",
   "sourceName": "筑西市「保育施設途中入所」の入所クラス別空き状況",
   "sourceUrl": "https://www.city.chikusei.lg.jp/kosodate/kyouiku-hoikushisetsu/page012441.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.chikusei.lg.jp/data/doc/1785489002_doc_428_0.pdf"
+    "vacancy": "https://www.city.chikusei.lg.jp/data/doc/1788167711_doc_428_0.pdf"
   },
   "metrics": [
     "symbol"
@@ -81,7 +81,7 @@
         "△",
         "×",
         "△",
-        "△",
+        "×",
         "△",
         "×"
       ]
@@ -101,7 +101,7 @@
       ],
       "symbols": [
         "△",
-        "△",
+        "×",
         "×",
         "△",
         "×",
@@ -122,8 +122,8 @@
         null
       ],
       "symbols": [
-        "△",
         "×",
+        "△",
         "×",
         "△",
         "×",
@@ -146,8 +146,8 @@
       "symbols": [
         "○",
         "○",
-        "◎",
-        "△",
+        "○",
+        "○",
         "△",
         "△"
       ]
@@ -166,7 +166,7 @@
         null
       ],
       "symbols": [
-        "○",
+        "△",
         "×",
         "△",
         "△",
@@ -188,9 +188,9 @@
         null
       ],
       "symbols": [
-        "×",
-        "×",
         "△",
+        "×",
+        "×",
         "○",
         "△",
         "△"
@@ -232,7 +232,7 @@
         null
       ],
       "symbols": [
-        "◎",
+        "○",
         "○",
         "◎",
         "◎",
@@ -254,10 +254,10 @@
         null
       ],
       "symbols": [
-        "△",
+        "×",
         "△",
         "○",
-        "△",
+        "○",
         "△",
         "×"
       ]
@@ -298,7 +298,7 @@
         null
       ],
       "symbols": [
-        "△",
+        "×",
         "×",
         "○",
         "×",
@@ -342,7 +342,7 @@
         null
       ],
       "symbols": [
-        "○",
+        "△",
         "○",
         "×",
         "×",
@@ -364,11 +364,11 @@
         null
       ],
       "symbols": [
-        "×",
+        "△",
         "○",
         "△",
         "×",
-        "○",
+        "△",
         "△"
       ]
     },
@@ -408,10 +408,10 @@
         null
       ],
       "symbols": [
-        "×",
-        "×",
-        "×",
         "△",
+        "△",
+        "×",
+        "×",
         "○",
         "△"
       ]

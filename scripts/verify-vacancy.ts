@@ -35,6 +35,8 @@ const EXPECTED: Record<
     facilityCount: number;
     vacancy: number;
     waiting?: number;
+    /** 在籍児童数の合計。在籍数も公表している自治体だけ */
+    enrolled?: number;
     /**
      * 全クラスが「—」の施設の割合の上限。既定は10%。
      * 「空き数」ではなく「翌月の募集予定人数」を出している自治体は、募集ゼロの園が
@@ -553,10 +555,10 @@ const EXPECTED: Record<
   },
   // 伊勢崎市は凡例が注意事項にある（△＝1名程度・○＝3名程度・◎＝5名程度）
   isesaki: {
-    asOf: "2026-07-30",
+    asOf: "2026-08-28",
     facilityCount: 54,
     vacancy: 0,
-    symbolCounts: { "△": 30, "○": 3, "×": 281 },
+    symbolCounts: { "×": 272, "○": 2, "△": 40 },
   },
   // 山口市は公式の表で空きなしが空らん。当サイトでは「✕」に置き換えている
   yamaguchi: {
@@ -651,10 +653,10 @@ const EXPECTED: Record<
   },
   // 龍ケ崎市は凡例に「(空白)：空き無し」とあり、空らんがクラスなしではない
   ryugasaki: {
-    asOf: "2026-07-27",
+    asOf: "2026-09-03",
     facilityCount: 20,
     vacancy: 0,
-    symbolCounts: { "▲": 43, "〇": 19, "空き無し": 39 },
+    symbolCounts: { "▲": 36, "〇": 16, "空き無し": 49 },
   },
   // 四街道市は受入可能・在籍・入所待ちの3つが揃う（合計の列で全件検算できる）
   yotsukaido: {
@@ -1211,10 +1213,10 @@ obu: {
     symbolCounts: { "×": 104, "△": 4 },
   },
   chikusei: {
-    asOf: "2026-07-31",
+    asOf: "2026-08-31",
     facilityCount: 27,
     vacancy: 0,
-    symbolCounts: { "×": 57, "△": 53, "○": 22, "◎": 16 },
+    symbolCounts: { "×": 59, "◎": 14, "○": 23, "△": 52 },
   },
   ome: {
     asOf: "2026-09-03",
@@ -1962,9 +1964,9 @@ obu: {
     vacancy: 52,
   },
   midori: {
-    asOf: "2026-07-31",
+    asOf: "2026-09-03",
     facilityCount: 11,
-    vacancy: 47,
+    vacancy: 35,
   },
   nagaoka: {
     asOf: "2026-09-01",
@@ -2299,6 +2301,13 @@ obu: {
     vacancy: 0,
     symbolCounts: { "×": 8, "△": 11, "○": 5 },
   },
+  // 下松市は「受入可能数−入所児童数」で空きを出している。空きなしの欄は黄色く塗られている
+  kudamatsu: {
+    asOf: "2026-09-01",
+    facilityCount: 18,
+    vacancy: 24,
+    enrolled: 1345,
+  },
   // 豊後高田市は香々地保育園とあすなろほいくえんが年齢別に分かれず「若干名」
   bungotakada: {
     asOf: "2026-08-31",
@@ -2591,6 +2600,15 @@ function check(slug: string) {
     if (total.vacancy !== exp.vacancy) P(`空き合計が検算値と違います: ${total.vacancy} ≠ ${exp.vacancy}`);
     if (exp.waiting !== undefined && total.waiting !== exp.waiting) {
       P(`入所待ち合計が検算値と違います: ${total.waiting} ≠ ${exp.waiting}`);
+    }
+    if (exp.enrolled !== undefined) {
+      const enrolled = data.facilities.reduce(
+        (acc, f) => acc + (f.enrolled ?? []).reduce((a: number, v) => a + (v ?? 0), 0),
+        0,
+      );
+      if (enrolled !== exp.enrolled) {
+        P(`在籍合計が検算値と違います: ${enrolled} ≠ ${exp.enrolled}`);
+      }
     }
   }
 
