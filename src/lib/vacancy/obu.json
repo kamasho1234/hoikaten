@@ -1,36 +1,25 @@
 {
   "municipalitySlug": "obu",
   "municipalityName": "大府市",
-  "asOf": "2026-03-17",
-  "fetchedAt": "2026-08-31",
-  "sourceName": "大府市「保育所等空き状況」",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-03",
+  "sourceName": "大府市「認可保育所等募集人数」",
   "sourceUrl": "https://www.city.obu.aichi.jp/kosodate/hoikuen/1015050/1011510.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.obu.aichi.jp/_res/projects/default_project/_page_/001/011/510/20260317__bosyuu.pdf"
+    "vacancy": "https://www.city.obu.aichi.jp/_res/projects/default_project/_page_/001/011/510/20260901_bosyuu.pdf"
   },
   "metrics": [
-    "symbol"
+    "vacancy"
   ],
+  "subtitle": "認可保育所等の募集人数（空き枠数）",
   "notes": [
-    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
-    "市は「申込の状況により変動する場合があります。」としています。",
-    "この空き状況は市が公表している最新のもので、基準日は市の資料に記載された日付です。",
-    "0歳児クラスに空きが表示されていない施設は、そのクラスを設けていないか、公式の表に記載がないものです。"
+    "大府市は2026年9月から、空きを記号ではなく人数（空き枠数）で公表するようになりました。市の資料は翌年度の募集人数として出されています。題に書かれた年度は出典のPDFでご確認ください。",
+    "市は「募集人数の「０」は年次の進級などによって、現時点では募集がないことを表しています」としています。",
+    "市は「募集人数は随時変動しますので、人数公開後に変更が生じる可能性があります」としています。",
+    "認定こども園の人数は2・3号認定子どものものです。"
   ],
   "wards": [],
   "categories": [],
-  "symbolLegend": [
-    {
-      "mark": "○",
-      "label": "空きあり（期間限定入所枠を含む）",
-      "open": true
-    },
-    {
-      "mark": "✕",
-      "label": "空き無し",
-      "open": false
-    }
-  ],
   "facilities": [
     {
       "id": "大府保育園",
@@ -38,20 +27,12 @@
       "w": null,
       "c": null,
       "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "✕",
-        "✕",
-        "✕",
-        "✕",
-        "✕",
-        "✕"
+        18,
+        12,
+        4,
+        0,
+        2,
+        0
       ]
     },
     {
@@ -60,20 +41,12 @@
       "w": null,
       "c": null,
       "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "✕",
-        "✕",
-        "✕",
-        "✕",
-        "✕",
-        "○"
+        3,
+        7,
+        2,
+        3,
+        5,
+        0
       ]
     },
     {
@@ -82,20 +55,12 @@
       "w": null,
       "c": null,
       "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "✕",
-        "✕",
-        "✕",
-        "✕",
-        "○",
-        "✕"
+        12,
+        8,
+        4,
+        5,
+        11,
+        1
       ]
     },
     {
@@ -104,20 +69,12 @@
       "w": null,
       "c": null,
       "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "✕",
-        "✕",
-        "✕",
-        "○",
-        "○",
-        "✕"
+        6,
+        4,
+        4,
+        1,
+        9,
+        3
       ]
     },
     {
@@ -126,20 +83,12 @@
       "w": null,
       "c": null,
       "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "✕",
-        "✕",
-        "✕",
-        "○",
-        "○",
-        "○"
+        8,
+        1,
+        2,
+        0,
+        2,
+        7
       ]
     },
     {
@@ -148,20 +97,12 @@
       "w": null,
       "c": null,
       "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "✕",
-        "✕",
-        "✕",
-        "○",
-        "✕",
-        "✕"
+        12,
+        8,
+        4,
+        2,
+        7,
+        1
       ]
     },
     {
@@ -170,20 +111,12 @@
       "w": null,
       "c": null,
       "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "✕",
-        "✕",
-        "✕",
-        "✕",
-        "✕",
-        "✕"
+        6,
+        4,
+        2,
+        5,
+        5,
+        2
       ]
     },
     {
@@ -192,20 +125,12 @@
       "w": null,
       "c": null,
       "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "✕",
-        "✕",
-        "✕",
-        "○",
-        "✕",
-        "✕"
+        12,
+        8,
+        0,
+        17,
+        6,
+        0
       ]
     },
     {
@@ -214,20 +139,12 @@
       "w": null,
       "c": null,
       "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "✕",
-        "○",
-        "✕",
-        "○",
-        "✕",
-        "✕"
+        9,
+        8,
+        4,
+        0,
+        0,
+        0
       ]
     },
     {
@@ -236,20 +153,12 @@
       "w": null,
       "c": null,
       "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "✕",
-        "✕",
-        "✕",
-        "✕",
-        "○",
-        "✕"
+        6,
+        18,
+        6,
+        12,
+        6,
+        7
       ]
     },
     {
@@ -258,20 +167,12 @@
       "w": null,
       "c": null,
       "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "✕",
-        "✕",
-        "✕",
-        "✕",
-        "✕",
-        "✕"
+        12,
+        6,
+        6,
+        1,
+        0,
+        0
       ]
     },
     {
@@ -280,17 +181,9 @@
       "w": null,
       "c": null,
       "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "✕",
-        "○",
-        "✕",
+        3,
+        7,
+        7,
         null,
         null,
         null
@@ -302,20 +195,12 @@
       "w": null,
       "c": null,
       "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "✕",
-        "✕",
-        "✕",
-        "✕",
-        "✕",
-        "✕"
+        3,
+        15,
+        0,
+        1,
+        0,
+        0
       ]
     },
     {
@@ -324,42 +209,12 @@
       "w": null,
       "c": null,
       "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "✕",
-        "✕",
-        "○",
-        "○",
-        "○",
-        "○"
-      ]
-    },
-    {
-      "id": "石ヶ瀬保育園",
-      "name": "石ヶ瀬保育園",
-      "w": null,
-      "c": null,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "✕",
-        "✕",
-        "✕",
-        "✕",
-        "✕",
-        "✕"
+        3,
+        15,
+        3,
+        6,
+        3,
+        0
       ]
     },
     {
@@ -368,42 +223,12 @@
       "w": null,
       "c": null,
       "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "○",
-        "○",
-        "✕",
-        "○",
-        "○",
-        "○"
-      ]
-    },
-    {
-      "id": "東山ガーデニアこども園",
-      "name": "東山ガーデニアこども園",
-      "w": null,
-      "c": null,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "○",
-        "○",
-        "✕",
-        "✕",
-        "✕",
-        "✕"
+        12,
+        11,
+        1,
+        1,
+        2,
+        2
       ]
     },
     {
@@ -412,20 +237,26 @@
       "w": null,
       "c": null,
       "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "○",
-        "✕",
-        "○",
-        "○",
-        "○",
-        "○"
+        5,
+        12,
+        4,
+        6,
+        6,
+        3
+      ]
+    },
+    {
+      "id": "ながねくすのき保育園",
+      "name": "ながねくすのき保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        9,
+        3,
+        5,
+        8,
+        1,
+        2
       ]
     },
     {
@@ -434,17 +265,9 @@
       "w": null,
       "c": null,
       "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "○",
-        "✕",
-        "✕",
+        5,
+        3,
+        2,
         null,
         null,
         null
@@ -456,17 +279,9 @@
       "w": null,
       "c": null,
       "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "○",
-        "✕",
-        "✕",
+        3,
+        12,
+        2,
         null,
         null,
         null
@@ -478,17 +293,23 @@
       "w": null,
       "c": null,
       "vacancy": [
-        null,
-        null,
-        null,
+        5,
+        6,
+        1,
         null,
         null,
         null
-      ],
-      "symbols": [
-        "○",
-        "○",
-        "○",
+      ]
+    },
+    {
+      "id": "柊山さくらの木保育園",
+      "name": "柊山さくらの木保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        6,
+        12,
+        0,
         null,
         null,
         null
@@ -500,39 +321,23 @@
       "w": null,
       "c": null,
       "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "✕",
-        "✕",
-        "✕",
+        3,
+        5,
+        0,
         null,
         null,
         null
       ]
     },
     {
-      "id": "保育園COZY大府駅南",
-      "name": "保育園COZY大府駅南",
+      "id": "保育園COZY大府駅前",
+      "name": "保育園COZY大府駅前",
       "w": null,
       "c": null,
       "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "○",
-        "✕",
-        "✕",
+        3,
+        5,
+        0,
         null,
         null,
         null
@@ -544,86 +349,12 @@
       "w": null,
       "c": null,
       "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "○",
-        "✕",
-        "○",
+        6,
+        0,
+        1,
         null,
         null,
         null
-      ]
-    },
-    {
-      "id": "大東くちなしの花こども園",
-      "name": "大東くちなしの花こども園",
-      "w": null,
-      "c": null,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "✕",
-        "✕",
-        "✕",
-        "✕",
-        "✕",
-        "✕"
-      ]
-    },
-    {
-      "id": "パレットこども園",
-      "name": "パレットこども園",
-      "w": null,
-      "c": null,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "○",
-        "○",
-        "✕",
-        "○",
-        "○",
-        "✕"
-      ]
-    },
-    {
-      "id": "認定こども園ジーニアス幼稚園",
-      "name": "認定こども園ジーニアス幼稚園",
-      "w": null,
-      "c": null,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "✕",
-        "✕",
-        "✕",
-        "✕",
-        "✕",
-        "✕"
       ]
     },
     {
@@ -632,64 +363,82 @@
       "w": null,
       "c": null,
       "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "✕",
-        "✕",
-        "✕",
+        3,
+        1,
+        1,
         null,
         null,
         null
       ]
     },
     {
-      "id": "ながねくすのき保育園",
-      "name": "ながねくすのき保育園",
+      "id": "東山ガーデニアこども園",
+      "name": "東山ガーデニアこども園",
       "w": null,
       "c": null,
       "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "✕",
-        "○",
-        "✕",
-        "✕",
-        "○",
-        "○"
+        9,
+        9,
+        6,
+        2,
+        0,
+        0
       ]
     },
     {
-      "id": "柊山さくらの木保育園",
-      "name": "柊山さくらの木保育園",
+      "id": "石ヶ瀬保育園",
+      "name": "石ヶ瀬保育園",
       "w": null,
       "c": null,
       "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "○",
-        "○",
-        "○",
-        null,
-        null,
-        null
+        10,
+        6,
+        0,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "id": "大東くちなしの花こども園",
+      "name": "大東くちなしの花こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        6,
+        12,
+        0,
+        8,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "パレットこども園",
+      "name": "パレットこども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        6,
+        6,
+        0,
+        3,
+        2,
+        10
+      ]
+    },
+    {
+      "id": "認定こども園ジーニアス幼稚園",
+      "name": "認定こども園ジーニアス幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        6,
+        11,
+        0,
+        2,
+        2,
+        4
       ]
     }
   ]

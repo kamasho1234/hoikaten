@@ -483,9 +483,9 @@ const EXPECTED: Record<
   },
   // 戸田市は認可保育施設と小規模保育等でPDFが分かれている（45＋13施設）
   toda: {
-    asOf: "2026-08-01",
+    asOf: "2026-09-01",
     facilityCount: 58,
-    vacancy: 413,
+    vacancy: 389,
   },
   // 入間市の「*」は受入年齢対象外。公式が凡例で決めている記号なのでそのまま持つ
   iruma: {
@@ -1190,11 +1190,10 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 27, "×": 63, "○": 11 },
   },
-  obu: {
-    asOf: "2026-03-17",
+obu: {
+    asOf: "2026-09-01",
     facilityCount: 30,
-    vacancy: 0,
-    symbolCounts: { "○": 47, "✕": 106 },
+    vacancy: 713,
   },
   kani: {
     asOf: "2026-08-06",
@@ -1331,10 +1330,10 @@ const EXPECTED: Record<
     vacancy: 1,
   },
   kikuyo: {
-    asOf: "2026-07-31",
+    asOf: "2026-09-01",
     facilityCount: 24,
     vacancy: 0,
-    symbolCounts: { "△": 53, "×": 50, "○": 16 },
+    symbolCounts: { "×": 63, "△": 41, "○": 15 },
   },
   yamaga: {
     asOf: "2026-08-13",

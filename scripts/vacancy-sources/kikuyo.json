@@ -2,7 +2,7 @@
   "slug": "kikuyo",
   "name": "菊陽町",
   "sourceName": "菊陽町「認可保育施設空き状況一覧」",
-  "indexUrl": "https://www.town.kikuyo.lg.jp/kiji0035031/index.html",
+  "indexUrl": "https://www.town.kikuyo.lg.jp/list00219.html",
   "pdf": {
     "linkPattern": "空き状況一覧表"
   },
@@ -49,5 +49,8 @@
     "施設の受け入れ体制（保育士の配置状況や在園児の退所等）により受け入れ状況が変更になる場合があります。",
     "年齢は令和8年4月1日時点の満年齢です。",
     "町は基準日を書いていないため、当サイトはページの最終更新日を時点として扱っています。"
-  ]
+  ],
+  "indexLink": {
+    "pattern": "認可保育施設の空き状況"
+  }
 }

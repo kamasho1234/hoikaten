@@ -50,6 +50,13 @@ type Config = {
   name: string;
   sourceName: string;
   indexUrl: string;
+  /**
+   * indexUrl から記事のページを1段たどるときの条件。
+   * 記事のIDが毎月変わる自治体（菊陽町）は、固定のURLを持つと必ず404になる。
+   * 一覧のページを indexUrl にして、この形に当たるリンクへ進む。
+   * 候補が複数あるときは、いちばん新しい年月のものを選ぶ。
+   */
+  indexLink?: { pattern: string };
   /** 公式ページからPDFを1本選ぶ条件。省略時は indexUrl 自体が対象の文書 */
   pdf?: PdfSpec;
   /** 公立・私立などでPDFが分かれている自治体は、こちらに並べる */
@@ -160,18 +167,53 @@ async function run(slug: string): Promise<void> {
   const specs: PdfSpec[] = conf.pdfs ?? [conf.pdf ?? {}];
   let pageText = "";
   let indexHtml = "";
+  let indexUrl = conf.indexUrl;
+
+  const getHtml = async (url: string): Promise<string> => {
+    const res = await fetch(url, { headers: { "User-Agent": UA } });
+    if (!res.ok) fail(`公式ページが ${res.status} を返しました: ${url}`);
+    return decodeHtml(Buffer.from(await res.arrayBuffer()));
+  };
+
+  // 記事のIDが毎月変わる自治体では、一覧のページから記事へ1段たどる
+  if (conf.indexLink) {
+    const listHtml = await getHtml(indexUrl);
+    const wanted = new RegExp(conf.indexLink.pattern);
+    const hits: Array<{ url: string; label: string }> = [];
+    for (const m of listHtml.matchAll(/<a[^>]+href="([^"]+)"[^>]*>([\s\S]{0,300}?)<\/a>/gi)) {
+      const label = stripTags(m[2]).replace(/\s+/g, " ").trim();
+      if (wanted.test(label) || wanted.test(m[1])) {
+        const url = new URL(m[1], indexUrl).toString();
+        if (!hits.some((h) => h.url === url)) hits.push({ url, label });
+      }
+    }
+    if (hits.length === 0) {
+      fail(`一覧のページに「${conf.indexLink.pattern}」に当たるリンクがありません: ${indexUrl}`);
+    }
+    // 「令和8年10月入所申込分」のように年月が入るので、いちばん新しいものを選ぶ
+    const score = (label: string): number => {
+      const m = /令和(\d+)年(?:度)?\s*(\d{1,2})月/.exec(toHankaku(label));
+      if (!m) return 0;
+      const month = Number(m[2]);
+      return Number(m[1]) * 100 + (month >= 4 ? month : month + 12);
+    };
+    const best = hits.reduce((a, b) => (score(b.label) > score(a.label) ? b : a));
+    if (hits.length > 1) {
+      console.log(`  （一覧に候補が${hits.length}本あったので「${best.label.slice(0, 28)}」を使います）`);
+    }
+    indexUrl = best.url;
+    console.log(`記事のページ: ${indexUrl}`);
+  }
 
   // 公式ページからPDFを選ぶときは、先にページを取る（基準日もここから拾えるようにする）
-  if (specs.some((spec) => spec.linkPattern)) {
-    const res = await fetch(conf.indexUrl, { headers: { "User-Agent": UA } });
-    if (!res.ok) fail(`公式ページが ${res.status} を返しました`);
-    indexHtml = decodeHtml(Buffer.from(await res.arrayBuffer()));
+  if (specs.some((spec) => spec.linkPattern) || conf.indexLink) {
+    indexHtml = await getHtml(indexUrl);
     pageText = stripTags(indexHtml);
   }
 
   const pickPdf = (spec: PdfSpec): string => {
-    if (spec.url) return new URL(spec.url, conf.indexUrl).toString();
-    if (!spec.linkPattern) return conf.indexUrl;
+    if (spec.url) return new URL(spec.url, indexUrl).toString();
+    if (!spec.linkPattern) return indexUrl;
     // 須崎市のように download.php?fid=... でPDFを配る自治体があるので、
     // 拡張子だけでなく「リンクの文字が(PDF：〇KB)で終わる」形も拾う
     const re = /<a[^>]+href="([^"]+)"[^>]*>([\s\S]{0,600}?)<\/a>/gi;
@@ -182,7 +224,7 @@ async function run(slug: string): Promise<void> {
       const looksPdf = /\.pdf(\?|$|#)/i.test(m[1]) || /（?PDF[：:]/i.test(label);
       if (!looksPdf) continue;
       if (wanted.test(label) || wanted.test(m[1])) {
-        hits.push({ url: new URL(m[1], conf.indexUrl).toString(), label });
+        hits.push({ url: new URL(m[1], indexUrl).toString(), label });
       }
     }
     if (hits.length === 0) fail(`「${spec.linkPattern}」に当たるPDFのリンクが見つかりません`);
@@ -215,8 +257,8 @@ async function run(slug: string): Promise<void> {
   for (const [i, spec] of specs.entries()) {
     const url = isHtml
       ? spec.url
-        ? new URL(spec.url, conf.indexUrl).toString()
-        : conf.indexUrl
+        ? new URL(spec.url, indexUrl).toString()
+        : indexUrl
       : pickPdf(spec);
     console.log(`${isHtml ? "表のあるページ" : "PDF"}: ${url}`);
 
@@ -267,7 +309,7 @@ async function run(slug: string): Promise<void> {
     }
     if (published > todayJst()) fail(`資料の公開日（${published}）が今日より先になっています`);
     console.log(`基準日: ${published}（資料の公開日）/ 施設: ${rows.length}件`);
-    await writeDataset(conf, published, rows, sourceFiles);
+    await writeDataset(conf, published, rows, sourceFiles, indexUrl);
     return;
   }
 
@@ -291,7 +333,7 @@ async function run(slug: string): Promise<void> {
   if (!asOf) fail(`基準日「${asOfMatch[0]}」を日付にできませんでした`);
   if (asOf > todayJst()) fail(`基準日（${asOf}）が今日より先になっています`);
   console.log(`基準日: ${asOf} / 施設: ${rows.length}件`);
-  await writeDataset(conf, asOf, rows, sourceFiles);
+  await writeDataset(conf, asOf, rows, sourceFiles, indexUrl);
 }
 
 async function writeDataset(
@@ -299,6 +341,8 @@ async function writeDataset(
   asOf: string,
   rows: Array<Record<string, unknown>>,
   sourceFiles: Record<string, string>,
+  /** 出典として載せるページ。indexLink をたどった自治体では、たどった先になる */
+  sourceUrl: string,
 ): Promise<void> {
   const categories = conf.categories ?? [];
   // 区ごとに分けて公表する自治体では、抽出側が行に区名を付けてくる
@@ -342,7 +386,7 @@ async function writeDataset(
     asOf,
     fetchedAt: todayJst(),
     sourceName: conf.sourceName,
-    sourceUrl: conf.indexUrl,
+    sourceUrl,
     sourceFiles,
     metrics: conf.metrics ?? ["vacancy"],
     ...(conf.subtitle ? { subtitle: conf.subtitle } : {}),
