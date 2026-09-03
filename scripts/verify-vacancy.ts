@@ -2268,6 +2268,13 @@ const EXPECTED: Record<
     facilityCount: 61,
     vacancy: 26,
   },
+  // 関市は小規模保育で3〜5歳のクラスが無く「—」が出る（22件中1件）
+  seki: {
+    asOf: "2026-09-01",
+    facilityCount: 22,
+    vacancy: 0,
+    symbolCounts: { "〇": 17, "▲": 49, "×": 63 },
+  },
   // 古河市（茨城）は幼稚園・小規模で3〜5歳や0〜2歳のクラスが無く「—」が出る
   "koga-ibaraki": {
     asOf: "2026-08-19",

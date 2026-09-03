@@ -1,0 +1,72 @@
+{
+  "municipalitySlug": "seki",
+  "municipalityName": "関市",
+  "prefecture": "岐阜県",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-03",
+  "sourceName": "関市「保育園等入園の空き状況について」",
+  "sourceUrl": "https://www.city.seki.lg.jp/0000020287.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.seki.lg.jp/cmsfiles/contents/0000020/20287/R8.10.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "2026年10月入園申込にあたる空き状況",
+  "notes": [
+    "関市は空き状況を人数ではなく記号で公表しています。これは2026年10月入園申込にあたる分で、2026-09-01時点のものです。",
+    "公式の凡例は 「〇」3人以上の受入可能人数、「▲」1〜2人ほどの受入可能人数、「×」受入不可 です。",
+    "公式の表で記号が無い年齢は「—」にしています。受入ができないときは「×」と書かれるので、記号が無いのはその年齢のクラスを設けていないことを表します。",
+    "年齢は令和8年4月1日時点の年齢が基準になります。入園希望者は、事前に各保育園へ相談するよう市が案内しています。",
+    "認定こども園の幼稚園部分については、直接園にお尋ねください。",
+    "公式の表でいくつかの園は複数の年齢を1つの欄にまとめて公表しているため、その欄に含まれる年齢すべてに同じ記号を入れています。"
+  ],
+  "wards": [],
+  "categories": [
+    "公立保育園",
+    "私立保育園",
+    "私立認定こども園",
+    "私立小規模保育園"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "〇",
+      "label": "3人以上の受入可能人数",
+      "open": true
+    },
+    {
+      "mark": "▲",
+      "label": "1〜2人ほどの受入可能人数",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "受入不可",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"富岡保育園","name":"富岡保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"関保育園","name":"関保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["▲","▲","〇","▲","〇","×"]},
+    {"id":"田原保育園","name":"田原保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","▲","×","×","▲","×"]},
+    {"id":"安桜保育園","name":"安桜保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["▲","▲","×","×","×","×"]},
+    {"id":"富野保育園","name":"富野保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["▲","▲","▲","▲","▲","▲"]},
+    {"id":"松渓保育園","name":"松渓保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["▲","×","▲","▲","▲","▲"]},
+    {"id":"南ヶ丘保育園","name":"南ヶ丘保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["▲","▲","▲","▲","▲","▲"],"note":"公式の表でいくつかの年齢が1つの欄にまとめられているため、同じ記号にしています。"},
+    {"id":"中濃保育園","name":"中濃保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","▲","▲","▲","▲","×"]},
+    {"id":"西部保育園","name":"西部保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"下有知保育園","name":"下有知保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","〇","×","×"]},
+    {"id":"洞戸保育園","name":"洞戸保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","〇","〇","〇"],"note":"公式の表でいくつかの年齢が1つの欄にまとめられているため、同じ記号にしています。"},
+    {"id":"小金田保育園","name":"小金田保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","▲","▲","▲","▲","×"]},
+    {"id":"むげがわ保育園","name":"むげがわ保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["▲","▲","×","〇","〇","×"]},
+    {"id":"倉知保育園","name":"倉知保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","▲","▲","×","▲","▲"]},
+    {"id":"武儀やまゆり保育園","name":"武儀やまゆり保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","〇","〇","〇"],"note":"公式の表でいくつかの年齢が1つの欄にまとめられているため、同じ記号にしています。"},
+    {"id":"瀬尻保育園","name":"瀬尻保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["▲","▲","×","×","×","×"]},
+    {"id":"童心保育園","name":"童心保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"関幼稚園（保育園部分）","name":"関幼稚園（保育園部分）","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["〇","▲","〇","×","×","×"]},
+    {"id":"あかつき幼稚園（保育園部分）","name":"あかつき幼稚園（保育園部分）","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["▲","▲","▲","〇","〇","〇"]},
+    {"id":"中濃キッズ保育園","name":"中濃キッズ保育園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"旭ヶ丘幼稚園（保育園部分）","name":"旭ヶ丘幼稚園（保育園部分）","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","▲","〇","▲","▲"]},
+    {"id":"桐が丘幼稚園（保育園部分）","name":"桐が丘幼稚園（保育園部分）","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","▲","×","×","▲"]}
+  ]
+}

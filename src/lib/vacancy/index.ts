@@ -487,6 +487,8 @@ import takasakiVacancy from "./takasaki.json";
 import misatoSaitamaVacancy from "./misato-saitama.json";
 // 古河市（茨城）は滋賀県甲賀市の「こうが」ではないので slug は koga-ibaraki
 import kogaIbarakiVacancy from "./koga-ibaraki.json";
+// 関市は1施設につき小さな表が1つあり、左右2列に並ぶ。区分の見出しも列ごとに立つ
+import sekiVacancy from "./seki.json";
 
 export type {
   AgeSummary,
@@ -963,6 +965,7 @@ const registry: Record<string, VacancyDataset> = {
   takasaki: takasakiVacancy as unknown as VacancyDataset,
   "misato-saitama": misatoSaitamaVacancy as unknown as VacancyDataset,
   "koga-ibaraki": kogaIbarakiVacancy as unknown as VacancyDataset,
+  seki: sekiVacancy as unknown as VacancyDataset,
 };
 
 export function getVacancyData(slug: string): VacancyDataset | undefined {
