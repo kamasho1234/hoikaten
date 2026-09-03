@@ -2344,6 +2344,22 @@ nishio: {
     vacancy: 134,
     emptyRatio: 0.2,
   },
+  // 伊豆市はExcelで公表。記号に「要相談」が入る
+  izu: {
+    asOf: "2026-08-24",
+    facilityCount: 7,
+    vacancy: 0,
+    emptyRatio: 0.3,
+    symbolCounts: { "△": 11, "〇": 12, "要相談": 8, "◎": 10 },
+  },
+  // 幕別町は1施設が2行組。認定こども園の教育の組は落としている
+  makubetsu: {
+    asOf: "2026-08-01",
+    facilityCount: 8,
+    vacancy: 0,
+    emptyRatio: 0.3,
+    symbolCounts: { "〇": 22, "×": 18 },
+  },
   // 豊後高田市は香々地保育園とあすなろほいくえんが年齢別に分かれず「若干名」
   bungotakada: {
     asOf: "2026-08-31",

@@ -1,0 +1,48 @@
+{
+  "municipalitySlug": "makubetsu",
+  "municipalityName": "幕別町",
+  "prefecture": "北海道",
+  "asOf": "2026-08-01",
+  "fetchedAt": "2026-09-04",
+  "sourceName": "幕別町「認可保育所等 入所状況・空き状況」",
+  "sourceUrl": "https://www.town.makubetsu.lg.jp/kenko/ninshinshussan/azukeru/1110.html",
+  "sourceFiles": {
+    "vacancy": "https://www.town.makubetsu.lg.jp/assets/images/makubetsu/R8.8%E5%B8%B8_1.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "認可保育所等の空き状況",
+  "notes": [
+    "幕別町は空きを人数ではなく記号で公表しています。2026-08-01時点のものです。",
+    "公式の凡例は 「〇」1名以上の空きあり、「×」空きなし です。",
+    "町は「各保育所の保育士配置の状況などにより、受け入れ可能数は変動いたしますので、定員から入所者数を差し引いた数が受け入れ可能数とは限りません」としています。",
+    "認定こども園は保育と教育で欄が分かれています。当サイトでは保育のほうを載せています。",
+    "設けていないクラスは「—」にしています。",
+    "町は認可外保育所の一覧も別に公表しています。このページには載せていません。"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "〇",
+      "label": "1名以上の空きあり",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"幕別認定こども園","name":"幕別認定こども園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["〇","〇","〇","〇","〇","×"]},
+    {"id":"札内さかえ保育所","name":"札内さかえ保育所","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"札内北保育所","name":"札内北保育所","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["〇","〇","〇","×","〇","×"]},
+    {"id":"札内南保育園","name":"札内南保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["〇","×","×","〇","×","×"]},
+    {"id":"札内青葉保育園","name":"札内青葉保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","〇","×","×","×"]},
+    {"id":"のびのび保育所","name":"のびのび保育所","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["〇","〇","〇",null,null,null]},
+    {"id":"こりすのおうち","name":"こりすのおうち","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["〇","〇","〇",null,null,null]},
+    {"id":"幕別幼稚園","name":"幕別幼稚園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,"〇","〇","〇","〇"]}
+  ]
+}

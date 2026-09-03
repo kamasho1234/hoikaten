@@ -182,6 +182,7 @@ import komakiVacancy from "./komaki.json";
 import abikoVacancy from "./abiko.json";
 import inazawaVacancy from "./inazawa.json";
 import fukayaVacancy from "./fukaya.json";
+import izuVacancy from "./izu.json";
 import izumiVacancy from "./izumi.json";
 import todaVacancy from "./toda.json";
 import irumaVacancy from "./iruma.json";
@@ -469,6 +470,7 @@ import setouchiVacancy from "./setouchi.json";
 import murakamiVacancy from "./murakami.json";
 import yamagaVacancy from "./yamaga.json";
 import kikuyoVacancy from "./kikuyo.json";
+import makubetsuVacancy from "./makubetsu.json";
 import masakiVacancy from "./masaki.json";
 import sanjoVacancy from "./sanjo.json";
 import kakamigaharaVacancy from "./kakamigahara.json";
@@ -686,6 +688,7 @@ const registry: Record<string, VacancyDataset> = {
   abiko: abikoVacancy as unknown as VacancyDataset,
   inazawa: inazawaVacancy as unknown as VacancyDataset,
   fukaya: fukayaVacancy as unknown as VacancyDataset,
+  izu: izuVacancy as unknown as VacancyDataset,
   izumi: izumiVacancy as unknown as VacancyDataset,
   toda: todaVacancy as unknown as VacancyDataset,
   iruma: irumaVacancy as unknown as VacancyDataset,
@@ -971,6 +974,7 @@ const registry: Record<string, VacancyDataset> = {
   murakami: murakamiVacancy as unknown as VacancyDataset,
   yamaga: yamagaVacancy as unknown as VacancyDataset,
   kikuyo: kikuyoVacancy as unknown as VacancyDataset,
+  makubetsu: makubetsuVacancy as unknown as VacancyDataset,
   masaki: masakiVacancy as unknown as VacancyDataset,
   sanjo: sanjoVacancy as unknown as VacancyDataset,
   kakamigahara: kakamigaharaVacancy as unknown as VacancyDataset,

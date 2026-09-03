@@ -1,0 +1,60 @@
+{
+  "municipalitySlug": "izu",
+  "municipalityName": "伊豆市",
+  "prefecture": "静岡県",
+  "asOf": "2026-08-24",
+  "fetchedAt": "2026-09-04",
+  "sourceName": "伊豆市「市内認定こども園・保育園空き状況」",
+  "sourceUrl": "https://www.city.izu.shizuoka.jp/kosodate_kyoiku/2/1/5728.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.izu.shizuoka.jp/material/files/group/31/akijyoukyou10.xlsx"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "2026年10月入園ぶんの空き状況",
+  "notes": [
+    "伊豆市は空きを人数ではなく記号で公表しています。これは2026年10月入園ぶんです。",
+    "公式の凡例は 「◎」余裕あり（5人以上）、「〇」若干名（3〜4人）、「△」残りわずか（1〜2人） です。",
+    "市は「この表は、前月入園の受入可能枠から前月入園の内定者を引いた空き状況です」としています。いまの空き数そのものではありません。",
+    "「要相談」は市の表記のままです。市は「園の状況によっては受入れが可能な場合もあります」「申し込んでいただくことは可能です」としています。",
+    "市の資料に基準日が書かれていないため、当サイトでは資料が公開された日を時点として載せています。",
+    "市は「保育士の配置状況や在園児の状況等により、空き状況は変動します」「空きのある園への入所を約束するものではありません」としています。"
+  ],
+  "wards": [],
+  "categories": [
+    "認定こども園",
+    "保育園"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "◎",
+      "label": "余裕あり（5人以上）",
+      "open": true
+    },
+    {
+      "mark": "〇",
+      "label": "若干名（3〜4人）",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "残りわずか（1〜2人）",
+      "open": true
+    },
+    {
+      "mark": "要相談",
+      "label": "園の状況によっては受入れが可能な場合もあります",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"熊坂こども園","name":"熊坂こども園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","〇","要相談","〇","要相談"]},
+    {"id":"修善寺東こども園","name":"修善寺東こども園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["要相談","△","要相談","◎","◎","〇"]},
+    {"id":"土肥こども園","name":"土肥こども園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["〇","〇","△","〇","〇","◎"]},
+    {"id":"認定こども園あゆのさと","name":"認定こども園あゆのさと","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["要相談","要相談","要相談","〇","△","◎"]},
+    {"id":"あまぎ認定こども園","name":"あまぎ認定こども園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","〇","△","〇","◎","△"]},
+    {"id":"なかいず認定こども園","name":"なかいず認定こども園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["要相談","△","△","◎","〇","◎"]},
+    {"id":"修善寺保育園","name":"修善寺保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","〇",null,"◎","◎","◎"]}
+  ]
+}
