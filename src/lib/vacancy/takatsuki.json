@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "takatsuki",
   "municipalityName": "高槻市",
-  "asOf": "2026-08-01",
-  "fetchedAt": "2026-08-31",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-03",
   "sourceName": "高槻市「認可保育施設の空き枠見込み数状況のお知らせ」",
   "sourceUrl": "https://www.city.takatsuki.osaka.jp/soshiki/44/127850.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.takatsuki.osaka.jp/uploaded/attachment/68577.pdf"
+    "vacancy": "https://www.city.takatsuki.osaka.jp/uploaded/attachment/69610.pdf"
   },
   "metrics": [
     "vacancy"
@@ -69,6 +69,20 @@
       ]
     },
     {
+      "id": "梶原ピッコロ保育園",
+      "name": "梶原ピッコロ保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        1
+      ]
+    },
+    {
       "id": "高槻あいわ保育園",
       "name": "高槻あいわ保育園",
       "w": null,
@@ -106,8 +120,8 @@
         null,
         null,
         null,
-        null,
-        13
+        1,
+        14
       ]
     },
     {
@@ -136,20 +150,6 @@
         null,
         null,
         3
-      ]
-    },
-    {
-      "id": "如是保育所",
-      "name": "如是保育所",
-      "w": null,
-      "c": 0,
-      "vacancy": [
-        null,
-        null,
-        null,
-        1,
-        1,
-        null
       ]
     },
     {
@@ -195,16 +195,30 @@
       ]
     },
     {
-      "id": "浦堂認定こども園",
-      "name": "浦堂認定こども園",
+      "id": "川西保育所",
+      "name": "川西保育所",
       "w": null,
-      "c": 1,
+      "c": 0,
       "vacancy": [
         null,
         null,
         null,
+        2,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "南平台保育園",
+      "name": "南平台保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        2,
+        null,
         null,
         1,
+        null,
         null
       ]
     },
@@ -230,7 +244,7 @@
       "vacancy": [
         null,
         null,
-        1,
+        null,
         1,
         null,
         null
@@ -251,36 +265,8 @@
       ]
     },
     {
-      "id": "認定こども園いまむらこどもえん",
-      "name": "認定こども園いまむらこどもえん",
-      "w": null,
-      "c": 1,
-      "vacancy": [
-        null,
-        null,
-        1,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "トーマスひむろ認定こども園",
-      "name": "トーマスひむろ認定こども園",
-      "w": null,
-      "c": 1,
-      "vacancy": [
-        2,
-        null,
-        1,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "芥川赤ちゃんクラブ",
-      "name": "芥川赤ちゃんクラブ",
+      "id": "桜北町第二保育園",
+      "name": "桜北町第二保育園",
       "w": null,
       "c": 2,
       "vacancy": [
@@ -293,78 +279,36 @@
       ]
     },
     {
-      "id": "ＮＯＺＯＭＩ保育園",
-      "name": "ＮＯＺＯＭＩ保育園",
+      "id": "ぽぷらの里高槻保育園",
+      "name": "ぽぷらの里高槻保育園",
       "w": null,
       "c": 2,
       "vacancy": [
         null,
-        null,
         1,
+        null,
         null,
         null,
         null
       ]
     },
     {
-      "id": "ひかり保育園",
-      "name": "ひかり保育園",
+      "id": "ちびっこランド日吉園",
+      "name": "ちびっこランド日吉園",
       "w": null,
       "c": 2,
       "vacancy": [
         null,
-        null,
         1,
         null,
         null,
-        null
-      ]
-    },
-    {
-      "id": "はぐくむ保育園高槻園",
-      "name": "はぐくむ保育園高槻園",
-      "w": null,
-      "c": 2,
-      "vacancy": [
-        null,
-        null,
-        1,
-        null,
         null,
         null
       ]
     },
     {
-      "id": "りとるすたー高槻園",
-      "name": "りとるすたー高槻園",
-      "w": null,
-      "c": 2,
-      "vacancy": [
-        null,
-        null,
-        1,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "南平台保育園",
-      "name": "南平台保育園",
-      "w": null,
-      "c": 0,
-      "vacancy": [
-        6,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "みなみまつばら保育園",
-      "name": "みなみまつばら保育園",
+      "id": "ユメ小規模保育園",
+      "name": "ユメ小規模保育園",
       "w": null,
       "c": 2,
       "vacancy": [

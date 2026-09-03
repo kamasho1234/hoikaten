@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "fujioka",
   "municipalityName": "藤岡市",
-  "asOf": "2026-08-01",
-  "fetchedAt": "2026-08-31",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-03",
   "sourceName": "藤岡市「市内保育施設等空き状況一覧」",
   "sourceUrl": "https://www.city.fujioka.gunma.jp/soshiki/kenkohukushibu/kodomo/1/9/kyouikuhoikusisetu/8547.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.fujioka.gunma.jp/material/files/group/18/akijyoukyou0802.pdf"
+    "vacancy": "https://www.city.fujioka.gunma.jp/material/files/group/18/akijyoukyou0902.pdf"
   },
   "metrics": [
     "symbol"
@@ -86,7 +86,7 @@
         "受入なし",
         "◎",
         "受入なし",
-        "受入なし",
+        "△",
         "△"
       ]
     },
@@ -149,10 +149,10 @@
       ],
       "symbols": [
         "受入なし",
-        "○",
-        "○",
-        "△",
         "受入なし",
+        "△",
+        "△",
+        "△",
         "△"
       ]
     },
@@ -237,7 +237,7 @@
       ],
       "symbols": [
         "△",
-        "△",
+        "○",
         "◎",
         "◎",
         "◎",
@@ -259,11 +259,11 @@
       ],
       "symbols": [
         "△",
-        "○",
-        "○",
-        "○",
-        "○",
-        "○"
+        "△",
+        "△",
+        "△",
+        "△",
+        "△"
       ]
     },
     {
@@ -434,7 +434,7 @@
         null
       ],
       "symbols": [
-        "◎",
+        "受入なし",
         "○",
         "○",
         "◎",
@@ -479,11 +479,11 @@
       ],
       "symbols": [
         "△",
+        "受入なし",
         "△",
         "△",
         "△",
-        "△",
-        "△"
+        "受入なし"
       ]
     },
     {
@@ -500,7 +500,7 @@
         null
       ],
       "symbols": [
-        "◎",
+        "○",
         "◎",
         "○",
         "◎",

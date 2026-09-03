@@ -1,8 +1,8 @@
 {
   "municipalitySlug": "shiraoi",
   "municipalityName": "白老町",
-  "asOf": "2026-08-01",
-  "fetchedAt": "2026-09-01",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-03",
   "sourceName": "白老町「保育所等の空き状況一覧」",
   "sourceUrl": "https://www.town.shiraoi.hokkaido.jp/docs/5530.html",
   "sourceFiles": {
@@ -50,7 +50,7 @@
       "symbols": [
         "○",
         "×",
-        "○",
+        "×",
         "○",
         "○",
         "○"

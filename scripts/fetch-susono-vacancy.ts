@@ -28,11 +28,11 @@ const OUT_PATH = path.join(process.cwd(), "src", "lib", "vacancy", `${MUNICIPALI
 
 /** 書き起こしたときの画像。差し替わったら中断する */
 const IMAGE_URL =
-  "https://www.city.susono.shizuoka.jp/material/images/group/18/R080801aki_jouho.png";
-const IMAGE_BYTES = 77037;
+  "https://www.city.susono.shizuoka.jp/material/images/group/18/R080901aki_jouho.png";
+const IMAGE_BYTES = 76544;
 /** 画像に書かれている基準日と対象月 */
-const AS_OF = "2026-08-01";
-const TARGET = "2026年度8月";
+const AS_OF = "2026-09-01";
+const TARGET = "2026年度9月";
 
 const LEGEND = [
   { mark: "〇", label: "空き有", open: true },
@@ -46,48 +46,20 @@ const LEGEND = [
  */
 const TABLE: { kind: string; name: string; marks: (string | null)[] }[] = [
   { kind: "公立保育園", name: "西保育園", marks: ["×", "×", "×", "×", "×", "×"] },
-  { kind: "公立保育園", name: "東保育園", marks: ["×", "×", "×", "△", "×", "〇"] },
-  { kind: "公立こども園", name: "ふからこども園", marks: ["×", "△", "×", "×", "×", "×"] },
+  { kind: "公立保育園", name: "東保育園", marks: ["×", "×", "×", "△", "×", "×"] },
+  { kind: "公立こども園", name: "ふからこども園", marks: ["×", "×", "×", "×", "×", "×"] },
   { kind: "公立こども園", name: "とみおかこども園", marks: ["△", "△", "×", "〇", "×", "×"] },
   { kind: "私立保育園", name: "富岳南保育園", marks: ["×", "×", "×", "△", "×", "×"] },
-  { kind: "私立こども園", name: "さくらこども園", marks: ["×", "△", "×", "×", "×", "×"] },
-  {
-    kind: "私立こども園",
-    name: "さくらこども園小柄沢分園",
-    marks: ["×", "×", "×", null, null, null],
-  },
-  {
-    kind: "私立こども園",
-    name: "富岳キッズセンターあい",
-    marks: ["△", "×", "×", "△", "×", "×"],
-  },
-  { kind: "私立こども園", name: "御宿台こども園", marks: ["×", "△", "×", "△", "×", "×"] },
+  { kind: "私立こども園", name: "さくらこども園", marks: ["△", "△", "×", "×", "×", "×"] },
+  { kind: "私立こども園", name: "さくらこども園小柄沢分園", marks: ["×", "×", "△", null, null, null] },
+  { kind: "私立こども園", name: "富岳キッズセンターあい", marks: ["△", "×", "×", "△", "×", "×"] },
+  { kind: "私立こども園", name: "御宿台こども園", marks: ["×", "×", "×", "〇", "×", "×"] },
   { kind: "私立こども園", name: "ぽんぽん石脇こども園", marks: ["×", "×", "×", "×", "×", "×"] },
-  {
-    kind: "私立こども園",
-    name: "裾野聖母幼稚園",
-    marks: [null, null, null, "〇", "〇", "〇"],
-  },
-  {
-    kind: "小規模保育事業所",
-    name: "にこにこ園保育所",
-    marks: ["△", "△", "×", null, null, null],
-  },
-  {
-    kind: "小規模保育事業所",
-    name: "佐野かがやき保育園",
-    marks: ["△", "×", "×", null, null, null],
-  },
-  {
-    kind: "小規模保育事業所",
-    name: "ひだまり保育園hagu",
-    marks: ["△", "×", "×", null, null, null],
-  },
-  {
-    kind: "小規模保育事業所",
-    name: "こざくら保育園",
-    marks: ["×", "〇", "×", null, null, null],
-  },
+  { kind: "私立こども園", name: "裾野聖母幼稚園", marks: [null, null, null, "△", "〇", "〇"] },
+  { kind: "小規模保育事業所", name: "にこにこ園保育所", marks: ["×", "△", "×", null, null, null] },
+  { kind: "小規模保育事業所", name: "佐野かがやき保育園", marks: ["△", "×", "×", null, null, null] },
+  { kind: "小規模保育事業所", name: "ひだまり保育園hagu", marks: ["×", "×", "×", null, null, null] },
+  { kind: "小規模保育事業所", name: "こざくら保育園", marks: ["×", "〇", "×", null, null, null] },
 ];
 
 function fail(message: string): never {

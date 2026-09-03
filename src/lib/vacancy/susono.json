@@ -2,19 +2,19 @@
   "municipalitySlug": "susono",
   "municipalityName": "裾野市",
   "prefecture": "静岡県",
-  "asOf": "2026-08-01",
+  "asOf": "2026-09-01",
   "fetchedAt": "2026-09-03",
   "sourceName": "裾野市「裾野市内の保育園等の空き状況」",
   "sourceUrl": "https://www.city.susono.shizuoka.jp/kosodate/2/10/21348.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.susono.shizuoka.jp/material/images/group/18/R080801aki_jouho.png"
+    "vacancy": "https://www.city.susono.shizuoka.jp/material/images/group/18/R080901aki_jouho.png"
   },
   "metrics": [
     "symbol"
   ],
-  "subtitle": "2026年度8月入園審査後の空き状況見込み",
+  "subtitle": "2026年度9月入園審査後の空き状況見込み",
   "notes": [
-    "裾野市は空き状況を人数ではなく記号で公表しています。これは2026年度8月入園審査後の見込みで、2026-08-01時点のものです。",
+    "裾野市は空き状況を人数ではなく記号で公表しています。これは2026年度9月入園審査後の見込みで、2026-09-01時点のものです。",
     "公式の凡例は「○」空き有、「△」若干名、「−」空き無、灰色の塗りが受け入れ無 です。当サイトでは「−」を「×」に置き換えて載せています。",
     "公式の表で灰色に塗られている年齢は「—」にしています。その年齢の受け入れをしていないことを表します。",
     "市は「空きのある園への入所を約束するものではありません」「在園児の状況や保育士の配置状況等により、空き状況は変動します」としています。園への直接の問い合わせは控えるよう案内されています。",
@@ -47,19 +47,19 @@
   ],
   "facilities": [
     {"id":"西保育園","name":"西保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
-    {"id":"東保育園","name":"東保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","〇"]},
-    {"id":"ふからこども園","name":"ふからこども園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×","×","×","×"]},
+    {"id":"東保育園","name":"東保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","×"]},
+    {"id":"ふからこども園","name":"ふからこども園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
     {"id":"とみおかこども園","name":"とみおかこども園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","×","〇","×","×"]},
     {"id":"富岳南保育園","name":"富岳南保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","×"]},
-    {"id":"さくらこども園","name":"さくらこども園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×","×","×","×"]},
-    {"id":"さくらこども園小柄沢分園","name":"さくらこども園小柄沢分園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"さくらこども園","name":"さくらこども園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","×","×","×","×"]},
+    {"id":"さくらこども園小柄沢分園","name":"さくらこども園小柄沢分園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△",null,null,null]},
     {"id":"富岳キッズセンターあい","name":"富岳キッズセンターあい","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","△","×","×"]},
-    {"id":"御宿台こども園","name":"御宿台こども園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×","△","×","×"]},
+    {"id":"御宿台こども園","name":"御宿台こども園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","〇","×","×"]},
     {"id":"ぽんぽん石脇こども園","name":"ぽんぽん石脇こども園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
-    {"id":"裾野聖母幼稚園","name":"裾野聖母幼稚園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"〇","〇","〇"]},
-    {"id":"にこにこ園保育所","name":"にこにこ園保育所","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","×",null,null,null]},
+    {"id":"裾野聖母幼稚園","name":"裾野聖母幼稚園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"△","〇","〇"]},
+    {"id":"にこにこ園保育所","name":"にこにこ園保育所","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×",null,null,null]},
     {"id":"佐野かがやき保育園","name":"佐野かがやき保育園","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×",null,null,null]},
-    {"id":"ひだまり保育園hagu","name":"ひだまり保育園hagu","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×",null,null,null]},
+    {"id":"ひだまり保育園hagu","name":"ひだまり保育園hagu","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
     {"id":"こざくら保育園","name":"こざくら保育園","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["×","〇","×",null,null,null]}
   ]
 }

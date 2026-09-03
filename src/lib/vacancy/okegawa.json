@@ -1,20 +1,20 @@
 {
   "municipalitySlug": "okegawa",
   "municipalityName": "桶川市",
-  "asOf": "2026-08-01",
-  "fetchedAt": "2026-08-26",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-03",
   "sourceName": "桶川市「保育施設の空き状況」",
   "sourceUrl": "https://www.city.okegawa.lg.jp/soshiki/fukushi/hoiku/hoikusho/nyusho/5958.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.okegawa.lg.jp/material/files/group/25/reiwa8nenn9gatuukeirekanou.pdf"
+    "vacancy": "https://www.city.okegawa.lg.jp/material/files/group/25/hoikuueire10.pdf"
   },
   "metrics": [
     "vacancy"
   ],
-  "subtitle": "2026年9月入所の受入可能人数",
+  "subtitle": "2026年10月入所の受入可能人数",
   "notes": [
-    "桶川市が公開しているのは2026年9月入所の受入可能人数で、2026-08-01時点のものです。",
-    "令和8年８月1日現在での令和8年9月入所受入可能人数です。",
+    "桶川市が公開しているのは2026年10月入所の受入可能人数で、2026-09-01時点のものです。",
+    "令和8年9月1日現在での令和8年10月入所受入可能人数です。",
     "今後の入所・退所・転園や保育士の配置状況等により変更となることがあります。"
   ],
   "wards": [],
@@ -26,22 +26,22 @@
   ],
   "facilities": [
     {"id":"鴨川保育所","name":"鴨川保育所","w":null,"c":0,"vacancy":[0,0,0,0,0,0]},
-    {"id":"北保育所","name":"北保育所","w":null,"c":0,"vacancy":[0,0,0,5,1,3]},
-    {"id":"坂田保育所","name":"坂田保育所","w":null,"c":0,"vacancy":[0,0,0,0,0,0]},
-    {"id":"日出谷保育所","name":"日出谷保育所","w":null,"c":0,"vacancy":[0,0,0,3,0,2]},
-    {"id":"桶川たんぽぽ保育園","name":"桶川たんぽぽ保育園","w":null,"c":1,"vacancy":[0,0,0,1,0,1]},
+    {"id":"北保育所","name":"北保育所","w":null,"c":0,"vacancy":[0,0,0,5,0,3]},
+    {"id":"坂田保育所","name":"坂田保育所","w":null,"c":0,"vacancy":[0,1,0,0,0,0]},
+    {"id":"日出谷保育所","name":"日出谷保育所","w":null,"c":0,"vacancy":[0,0,1,1,0,2]},
+    {"id":"桶川たんぽぽ保育園","name":"桶川たんぽぽ保育園","w":null,"c":1,"vacancy":[0,0,0,2,0,1]},
     {"id":"カオルキッズランド保育園","name":"カオルキッズランド保育園","w":null,"c":1,"vacancy":[0,0,0,null,null,null]},
-    {"id":"桶幼どれみ保育園","name":"桶幼どれみ保育園","w":null,"c":1,"vacancy":[0,0,2,null,null,null]},
-    {"id":"アートチャイルドケア桶川","name":"アートチャイルドケア桶川","w":null,"c":1,"vacancy":[1,0,0,1,0,0]},
-    {"id":"さくら保育園","name":"さくら保育園","w":null,"c":1,"vacancy":[2,0,0,3,0,0]},
-    {"id":"メリーポピンズ桶川ルーム","name":"メリーポピンズ桶川ルーム","w":null,"c":1,"vacancy":[0,0,0,1,0,0]},
+    {"id":"桶幼どれみ保育園","name":"桶幼どれみ保育園","w":null,"c":1,"vacancy":[0,0,1,null,null,null]},
+    {"id":"アートチャイルドケア桶川","name":"アートチャイルドケア桶川","w":null,"c":1,"vacancy":[0,0,0,2,0,0]},
+    {"id":"さくら保育園","name":"さくら保育園","w":null,"c":1,"vacancy":[3,0,1,3,0,0]},
+    {"id":"メリーポピンズ桶川ルーム","name":"メリーポピンズ桶川ルーム","w":null,"c":1,"vacancy":[0,0,0,0,0,0]},
     {"id":"なのはななかよし保育園","name":"なのはななかよし保育園","w":null,"c":1,"vacancy":[0,0,0,0,0,0]},
     {"id":"認定こども園ひがし幼稚園ひがし保育園","name":"認定こども園ひがし幼稚園ひがし保育園","w":null,"c":2,"vacancy":[null,null,0,0,0,0]},
     {"id":"桶川ときわこども園","name":"桶川ときわこども園","w":null,"c":2,"vacancy":[0,0,0,0,0,0]},
     {"id":"認定こども園ひだまり","name":"認定こども園ひだまり","w":null,"c":2,"vacancy":[null,0,0,0,0,0]},
     {"id":"うさぎこども園","name":"うさぎこども園","w":null,"c":2,"vacancy":[null,0,0,0,0,1]},
-    {"id":"あゆみ保育園","name":"あゆみ保育園","w":null,"c":3,"vacancy":[0,0,0,null,null,null]},
-    {"id":"なのはな保育園","name":"なのはな保育園","w":null,"c":3,"vacancy":[0,0,0,null,null,null]},
+    {"id":"あゆみ保育園","name":"あゆみ保育園","w":null,"c":3,"vacancy":[0,0,1,null,null,null]},
+    {"id":"なのはな保育園","name":"なのはな保育園","w":null,"c":3,"vacancy":[0,0,1,null,null,null]},
     {"id":"バンビーナ桶川ビュータワー園","name":"バンビーナ桶川ビュータワー園","w":null,"c":3,"vacancy":[0,0,0,null,null,null]},
     {"id":"ひがし保育園乳児室","name":"ひがし保育園乳児室","w":null,"c":3,"vacancy":[0,0,null,null,null,null]},
     {"id":"埼玉ヤクルト保育園桶川東もぐもぐルーム","name":"埼玉ヤクルト保育園桶川東もぐもぐルーム","w":null,"c":3,"vacancy":[0,0,0,null,null,null]}
