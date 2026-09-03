@@ -715,10 +715,10 @@ const EXPECTED: Record<
   },
   // 日高市は空きを記号ではなく言葉で公表している（「空きあり」「若干名」など）
   hidaka: {
-    asOf: "2026-08-01",
+    asOf: "2026-09-01",
     facilityCount: 13,
     vacancy: 0,
-    symbolCounts: { "受け入れ停止": 2, "空きあり": 2, "空きなし": 44, "若干名": 22 },
+    symbolCounts: { "受け入れ停止": 2, "空きあり": 2, "空きなし": 45, "若干名": 21 },
   },
   // ふじみ野市は0も書かれるので空らんはクラスなし。「空き数」の合計行で検算している
   fujimino: {
@@ -2267,6 +2267,14 @@ const EXPECTED: Record<
     asOf: "2026-08-26",
     facilityCount: 61,
     vacancy: 26,
+  },
+  // 那珂市（茨城）は事業所内・小規模・家庭的の3件で3〜5歳が「—」になる
+  "naka-ibaraki": {
+    asOf: "2026-08-05",
+    facilityCount: 12,
+    vacancy: 0,
+    symbolCounts: { "〇": 5, "△": 12, "×": 46 },
+    emptyRatio: 0.15,
   },
   // 多久市は2・3号認定の欄だけを取っているので「—」は出ない
   taku: {

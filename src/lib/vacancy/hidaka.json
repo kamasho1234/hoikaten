@@ -2,16 +2,16 @@
   "municipalitySlug": "hidaka",
   "municipalityName": "日高市",
   "prefecture": "埼玉県",
-  "asOf": "2026-08-01",
-  "fetchedAt": "2026-08-26",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-03",
   "sourceName": "日高市「保育所等の空き状況」",
   "sourceUrl": "https://www.city.hidaka.lg.jp/soshiki/fukushikodomo/kosodateoen/hoiku/kosodate/shiritai/yochienhoikujonado/17319.html",
   "metrics": [
     "symbol"
   ],
-  "subtitle": "2026年9月入所選考における空き状況",
+  "subtitle": "2026年10月入所選考における空き状況",
   "notes": [
-    "日高市は空きを人数ではなく言葉で公表しています。これは2026年9月入所選考における空き状況で、2026-08-01時点のものです。",
+    "日高市は空きを人数ではなく言葉で公表しています。これは2026年10月入所選考における空き状況で、2026-09-01時点のものです。",
     "「受け入れ枠なし」の年齢は「—」にしています。その年齢の枠がないことを表します。",
     "各施設の定員は年齢区分で定めていますが、実際の雇用状況や職員配置、在園児童の保育状況等で変動する場合があります。",
     "「空きあり」は5人以上、「若干名」は4人以下の空き状況となります。",
@@ -45,15 +45,15 @@
     {"id":"高麗川保育所","name":"高麗川保育所","w":null,"vacancy":[null,null,null,null,null,null],"symbols":[null,"空きなし","空きなし","空きなし","空きなし","空きなし"]},
     {"id":"高麗保育所","name":"高麗保育所","w":null,"vacancy":[null,null,null,null,null,null],"symbols":[null,"空きなし","空きなし","空きあり","若干名","空きあり"]},
     {"id":"高根保育所","name":"高根保育所","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["若干名","空きなし","空きなし","受け入れ停止","受け入れ停止","空きなし"]},
-    {"id":"高萩保育園","name":"高萩保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["若干名","若干名","若干名","若干名","空きなし","空きなし"]},
-    {"id":"開栄保育園","name":"開栄保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["若干名","若干名","若干名","若干名","若干名","空きなし"]},
+    {"id":"高萩保育園","name":"高萩保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["空きなし","若干名","若干名","若干名","空きなし","空きなし"]},
+    {"id":"開栄保育園","name":"開栄保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["若干名","空きなし","若干名","若干名","若干名","空きなし"]},
     {"id":"あさひ保育園","name":"あさひ保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["空きなし","空きなし","空きなし","空きなし","空きなし","空きなし"]},
     {"id":"光進保育園","name":"光進保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["若干名","空きなし","空きなし","若干名","空きなし","空きなし"]},
     {"id":"日高どろんこ保育園","name":"日高どろんこ保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["空きなし","空きなし","空きなし","若干名","空きなし","空きなし"]},
     {"id":"フレンド認定こども園","name":"フレンド認定こども園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["空きなし","若干名","空きなし","若干名","空きなし","空きなし"]},
     {"id":"日高ふじみだい認定こども園","name":"日高ふじみだい認定こども園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["空きなし","若干名","空きなし","空きなし","空きなし","空きなし"]},
     {"id":"たかはぎ幼稚園（認定こども園）","name":"たかはぎ幼稚園（認定こども園）","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["若干名","若干名","若干名","若干名","若干名","空きなし"]},
-    {"id":"キッズあさひ","name":"キッズあさひ","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["空きなし","空きなし","空きなし",null,null,null]},
+    {"id":"キッズあさひ","name":"キッズあさひ","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["若干名","空きなし","空きなし",null,null,null]},
     {"id":"ひまわりのおうち","name":"ひまわりのおうち","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["空きなし","空きなし","空きなし",null,null,null]}
   ]
 }

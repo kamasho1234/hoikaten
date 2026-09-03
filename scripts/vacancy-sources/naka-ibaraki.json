@@ -1,0 +1,30 @@
+{
+  "slug": "naka-ibaraki",
+  "name": "那珂市",
+  "prefecture": "茨城県",
+  "sourceName": "那珂市「保育施設受入れ見込み状況」",
+  "indexUrl": "https://www.city.naka.lg.jp/kosodate-kyouiku/azukeru/nyusho-nyuen/page009433.html",
+  "layout": "html-tables",
+  "columns": { "name": 1, "category": 0 },
+  "metrics": ["symbol"],
+  "symbolMarks": ["〇", "○", "△", "×"],
+  "symbolMap": { "○": "〇" },
+  "symbolLegend": [
+    { "mark": "〇", "label": "3人〜", "open": true },
+    { "mark": "△", "label": "1〜2人", "open": true },
+    { "mark": "×", "label": "0人", "open": false }
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "令和(\\d+)年(\\d{1,2})月(\\d{1,2})日現在"
+  },
+  "minFacilities": 10,
+  "notes": [
+    "那珂市は受入れ見込みを人数ではなく記号で公表しています。",
+    "公式の凡例は「〇」3人〜、「△」1〜2人、「×」0人 です。",
+    "公式の表で「ー」になっている年齢は「—」にしています。その年齢のクラスを設けていないことを表します。",
+    "年齢は令和8年4月1日時点の年齢です。",
+    "市は「実際の受入れ可能数は、児童の入退所や保育施設の事情等により変更になる場合があります」「入所の可否は、審査・調整を経て決定します。受入れ見込みのある保育施設に申し込むことで入所を保証するものではありません」としています。",
+    "市は「『×』は入所希望を妨げるものではありません」として、申込書に希望するすべての保育施設を希望順に記入するよう案内しています。"
+  ]
+}

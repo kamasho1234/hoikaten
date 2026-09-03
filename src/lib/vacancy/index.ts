@@ -497,6 +497,8 @@ import susonoVacancy from "./susono.json";
 import sooVacancy from "./soo.json";
 // 多久市も画像で公開している。表が1号認定と2・3号認定に分かれるので保育利用のほうを取る
 import takuVacancy from "./taku.json";
+// 那珂市（茨城）は徳島の那賀町と紛らわしいので slug は naka-ibaraki
+import nakaIbarakiVacancy from "./naka-ibaraki.json";
 
 export type {
   AgeSummary,
@@ -764,7 +766,6 @@ const registry: Record<string, VacancyDataset> = {
   amagasaki: amagasakiVacancy as unknown as VacancyDataset,
   ayase: ayaseVacancy as unknown as VacancyDataset,
   fujimino: fujiminoVacancy as unknown as VacancyDataset,
-  hidaka: hidakaVacancy as unknown as VacancyDataset,
   warabi: warabiVacancy as unknown as VacancyDataset,
   kamisu: kamisuVacancy as unknown as VacancyDataset,
   osaki: osakiVacancy as unknown as VacancyDataset,
@@ -978,6 +979,7 @@ const registry: Record<string, VacancyDataset> = {
   susono: susonoVacancy as unknown as VacancyDataset,
   soo: sooVacancy as unknown as VacancyDataset,
   taku: takuVacancy as unknown as VacancyDataset,
+  "naka-ibaraki": nakaIbarakiVacancy as unknown as VacancyDataset,
 };
 
 export function getVacancyData(slug: string): VacancyDataset | undefined {
