@@ -1,0 +1,261 @@
+{
+  "municipalitySlug": "takizawa",
+  "municipalityName": "滝沢市",
+  "asOf": "2026-08-04",
+  "fetchedAt": "2026-09-04",
+  "sourceName": "滝沢市「保育施設の空き状況（入所枠）」",
+  "sourceUrl": "https://www.city.takizawa.iwate.jp/kurashi/ikuji-kyoiku/hoikuen-yochien/hoikuen-goannai/contents-14844",
+  "sourceFiles": {
+    "vacancy": "https://www.city.takizawa.iwate.jp/uploads/public/pages_0000000784_00/%E5%85%A5%E6%89%80%E6%9E%A0%EF%BC%88R8.9%EF%BC%89.pdf"
+  },
+  "metrics": [
+    "vacancy"
+  ],
+  "notes": [
+    "滝沢市が公表しているのは入所枠（受け入れられる人数）です。",
+    "市の資料には基準日が書かれていないため、当サイトでは資料が公開された日を時点として載せています。",
+    "資料には定員・入所率・求職者受入枠も載っています。詳しくは出典の資料をご覧ください。"
+  ],
+  "wards": [],
+  "categories": [],
+  "facilities": [
+    {
+      "id": "ふうりん保育園",
+      "name": "ふうりん保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "大沢保育園",
+      "name": "大沢保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "鵜飼保育園",
+      "name": "鵜飼保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        3,
+        2,
+        2,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "元村保育園",
+      "name": "元村保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        2,
+        2,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "牧の林すずの音保育園",
+      "name": "牧の林すずの音保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        5,
+        4,
+        6,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "id": "南巣子保育園",
+      "name": "南巣子保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "ハレルヤ保育園",
+      "name": "ハレルヤ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        1,
+        1,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "id": "巣子保育園",
+      "name": "巣子保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        2,
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "川前保育園",
+      "name": "川前保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "一本木保育園",
+      "name": "一本木保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "柳沢保育園",
+      "name": "柳沢保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        1,
+        1,
+        1,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "りんごの森保育園",
+      "name": "りんごの森保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        5,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "滝沢えほんの森保育園",
+      "name": "滝沢えほんの森保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        1,
+        2,
+        0,
+        4,
+        5,
+        5
+      ]
+    },
+    {
+      "id": "ふじなでしここども園",
+      "name": "ふじなでしここども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        2,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "なでしこ保育園",
+      "name": "なでしこ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        1,
+        3,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "つばめ幼稚園",
+      "name": "つばめ幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        6,
+        6,
+        2,
+        3,
+        2,
+        2
+      ]
+    },
+    {
+      "id": "大釜幼稚園保育園",
+      "name": "大釜幼稚園保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        1,
+        9,
+        10,
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}

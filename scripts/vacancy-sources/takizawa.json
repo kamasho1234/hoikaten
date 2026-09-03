@@ -1,0 +1,26 @@
+{
+  "slug": "takizawa",
+  "name": "滝沢市",
+  "prefecture": "岩手県",
+  "sourceName": "滝沢市「保育施設の空き状況（入所枠）」",
+  "indexUrl": "https://www.city.takizawa.iwate.jp/kurashi/ikuji-kyoiku/hoikuen-yochien/hoikuen-goannai/contents-14844",
+  "pdf": {
+    "linkPattern": "入所の空き状況"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 0
+  },
+  "metrics": [
+    "vacancy"
+  ],
+  "asOf": {
+    "source": "file"
+  },
+  "minFacilities": 15,
+  "notes": [
+    "滝沢市が公表しているのは入所枠（受け入れられる人数）です。",
+    "市の資料には基準日が書かれていないため、当サイトでは資料が公開された日を時点として載せています。",
+    "資料には定員・入所率・求職者受入枠も載っています。詳しくは出典の資料をご覧ください。"
+  ]
+}

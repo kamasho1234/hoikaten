@@ -1,0 +1,55 @@
+{
+  "municipalitySlug": "izumi-kagoshima",
+  "municipalityName": "出水市",
+  "prefecture": "鹿児島県",
+  "asOf": "2026-08-20",
+  "fetchedAt": "2026-09-04",
+  "sourceName": "出水市「保育所等空き状況」",
+  "sourceUrl": "https://www.city.kagoshima-izumi.lg.jp/page/page_06291.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.kagoshima-izumi.lg.jp/files/SpcDocumentDetail/177/SpcDocumentDetail_177032_file.pdf"
+  },
+  "metrics": [
+    "vacancy"
+  ],
+  "subtitle": "新規入所の受入可能枠",
+  "notes": [
+    "出水市が公表しているのは新規入所の受入可能枠で、2026-08-20時点のものです。",
+    "市は「調査日現在のものとなっており、入所を確約するものではありません」「職員の急な退職・採用、児童の転出入によって調査日以降に受入可能枠が大きく増減することがあります」としています。",
+    "認定こども園の受入可能枠は保育部分の人数です。教育部分の枠は各園にお問い合わせください。",
+    "設けていないクラスは「—」にしています。小規模保育事業所と事業所内保育事業所は2歳児までです。",
+    "年齢は令和8年4月1日現在のものです。"
+  ],
+  "wards": [],
+  "categories": [
+    "保育所",
+    "認定こども園",
+    "小規模",
+    "事業所内"
+  ],
+  "facilities": [
+    {"id":"出水保育園","name":"出水保育園","w":null,"c":0,"vacancy":[0,0,0,0,0,0]},
+    {"id":"だるま保育園","name":"だるま保育園","w":null,"c":0,"vacancy":[0,0,0,0,0,0]},
+    {"id":"わかたけ保育園","name":"わかたけ保育園","w":null,"c":0,"vacancy":[0,0,3,1,null,null]},
+    {"id":"愛育保育園","name":"愛育保育園","w":null,"c":0,"vacancy":[0,0,0,0,0,0]},
+    {"id":"ニチイキッズ出水中央保育園","name":"ニチイキッズ出水中央保育園","w":null,"c":0,"vacancy":[0,0,0,0,0,0]},
+    {"id":"えいふく保育園","name":"えいふく保育園","w":null,"c":0,"vacancy":[0,0,0,0,1,0]},
+    {"id":"しもずる保育園","name":"しもずる保育園","w":null,"c":0,"vacancy":[0,2,0,0,0,0]},
+    {"id":"野田保育園","name":"野田保育園","w":null,"c":0,"vacancy":[0,0,1,1,1,1]},
+    {"id":"東出水こども園","name":"東出水こども園","w":null,"c":1,"vacancy":[0,3,0,4,0,8]},
+    {"id":"米ノ津こども園","name":"米ノ津こども園","w":null,"c":1,"vacancy":[0,0,0,2,0,0]},
+    {"id":"沖田保育園","name":"沖田保育園","w":null,"c":1,"vacancy":[0,0,0,0,0,0]},
+    {"id":"ふくのえこども園","name":"ふくのえこども園","w":null,"c":1,"vacancy":[0,0,0,0,0,0]},
+    {"id":"慈光幼稚園","name":"慈光幼稚園","w":null,"c":1,"vacancy":[0,0,0,0,1,1]},
+    {"id":"もみじこども園","name":"もみじこども園","w":null,"c":1,"vacancy":[0,0,0,1,1,1]},
+    {"id":"大久保さくらこども園","name":"大久保さくらこども園","w":null,"c":1,"vacancy":[0,2,0,0,0,0]},
+    {"id":"江内みかんこども園","name":"江内みかんこども園","w":null,"c":1,"vacancy":[2,3,3,5,2,2]},
+    {"id":"西出水認定こども園","name":"西出水認定こども園","w":null,"c":1,"vacancy":[0,0,0,0,0,null]},
+    {"id":"出水中央こども園","name":"出水中央こども園","w":null,"c":1,"vacancy":[0,0,0,0,0,0]},
+    {"id":"太陽の子鹿島こども園","name":"太陽の子鹿島こども園","w":null,"c":1,"vacancy":[0,3,0,0,0,0]},
+    {"id":"ニチイキッズたかおの保育園","name":"ニチイキッズたかおの保育園","w":null,"c":2,"vacancy":[0,0,null,null,null,null]},
+    {"id":"ニチイキッズ出水しんまち保育園","name":"ニチイキッズ出水しんまち保育園","w":null,"c":2,"vacancy":[1,1,2,null,null,null]},
+    {"id":"キッズルームmama","name":"キッズルームmama","w":null,"c":3,"vacancy":[0,null,null,null,null,null]},
+    {"id":"ここの保育園","name":"ここの保育園","w":null,"c":3,"vacancy":[1,null,null,null,null,null]}
+  ]
+}

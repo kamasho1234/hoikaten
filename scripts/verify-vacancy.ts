@@ -2315,6 +2315,35 @@ nishio: {
     vacancy: 26,
     emptyRatio: 0.05,
   },
+  // 豊田市は0〜2歳児がまとめて公表されているので、その記号を3つの欄に置いている
+  toyota: {
+    asOf: "2026-08-07",
+    facilityCount: 96,
+    vacancy: 0,
+    emptyRatio: 0.3,
+    symbolCounts: { "〇": 114, "△": 56, "×": 271, "直接園にお尋ねください": 33, "令和8年度は休園": 36, "▲": 4 },
+  },
+  // 和光市は「その月の選考の募集人数」。年齢ごとの計の行と突き合わせている
+  wako: {
+    asOf: "2026-08-10",
+    facilityCount: 46,
+    vacancy: 128,
+    emptyRatio: 0.2,
+  },
+  // 出水市は新規入所の受入可能枠。小規模と事業所内は2歳児までなので「—」が多い
+  "izumi-kagoshima": {
+    asOf: "2026-08-20",
+    facilityCount: 23,
+    vacancy: 60,
+    emptyRatio: 0.2,
+  },
+  // 滝沢市は入所枠。資料に基準日が無いので公開日を時点にしている
+  takizawa: {
+    asOf: "2026-08-04",
+    facilityCount: 17,
+    vacancy: 134,
+    emptyRatio: 0.2,
+  },
   // 豊後高田市は香々地保育園とあすなろほいくえんが年齢別に分かれず「若干名」
   bungotakada: {
     asOf: "2026-08-31",
