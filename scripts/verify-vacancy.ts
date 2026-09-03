@@ -278,7 +278,7 @@ const EXPECTED: Record<
   // 堺市も利用調整後の空き。空きゼロの施設が多いのが通常
   sakai: { asOf: "2026-07-31", facilityCount: 269, vacancy: 501, emptyRatio: 0.35 },
   // 仙台市は利用調整後の空枠。空枠ゼロの施設が多いのが通常
-  sendai: { asOf: "2026-08-17", facilityCount: 439, vacancy: 819, emptyRatio: 0.35 },
+  sendai: { asOf: "2026-09-01", facilityCount: 439, vacancy: 769, emptyRatio: 0.35 },
   hiroshima: { asOf: "2026-09-01", facilityCount: 335, vacancy: 1896, waiting: 2083, emptyRatio: 0.15 },
   // 大阪市は分園・乳児センターなど担当年齢が限られる施設が多く、全クラス「—」はいない
   osaka: { asOf: "2026-09-01", facilityCount: 896, vacancy: 1858 },
@@ -773,10 +773,10 @@ const EXPECTED: Record<
   },
   // 一宮市は「〇」（6名以上）と募集人数の数字が混ざる。受入可能年齢の外は「×」印字だがクラスなし
   ichinomiya: {
-    asOf: "2026-08-06",
+    asOf: "2026-09-01",
     facilityCount: 95,
     vacancy: 0,
-    symbolCounts: { "1": 41, "2": 29, "3": 14, "4": 5, "5": 13, "6": 3, "×": 290, "〇": 80 },
+    symbolCounts: { "×": 302, "〇": 81, "5": 8, "1": 38, "3": 17, "4": 7, "2": 20, "6": 2 },
   },
   // 鳥栖市は区分の見出しの行に凡例も一緒に書かれている
   tosu: {
@@ -1458,10 +1458,10 @@ obu: {
     symbolCounts: { "○": 79, "△": 67, "×": 39 },
   },
   shibata: {
-    asOf: "2026-08-06",
+    asOf: "2026-09-01",
     facilityCount: 32,
     vacancy: 0,
-    symbolCounts: { "×": 78, "○": 60, "△": 47, "▲": 4 },
+    symbolCounts: { "×": 80, "○": 59, "△": 46, "▲": 4 },
   },
 
   nakagawa: {
@@ -1546,9 +1546,9 @@ obu: {
     symbolCounts: { "○": 21, "×": 9 },
   },
   yorii: {
-    asOf: "2026-08-04",
+    asOf: "2026-09-02",
     facilityCount: 8,
-    vacancy: 37,
+    vacancy: 30,
   },
   saiki: {
     asOf: "2026-08-28",
@@ -1855,11 +1855,11 @@ obu: {
     vacancy: 0,
     symbolCounts: { "△": 6, "○": 5, "×": 1 },
   },
-  nishio: {
+nishio: {
     asOf: "2026-08-05",
     facilityCount: 35,
     vacancy: 0,
-    symbolCounts: { "×": 124, "△": 39, "○": 31 },
+    symbolCounts: { "×": 124, "△": 39, "○": 33 },
   },
   asaka: {
     asOf: "2026-08-01",
@@ -2274,10 +2274,10 @@ obu: {
   },
   // 那珂市（茨城）は事業所内・小規模・家庭的の3件で3〜5歳が「—」になる
   "naka-ibaraki": {
-    asOf: "2026-08-05",
+    asOf: "2026-09-03",
     facilityCount: 12,
     vacancy: 0,
-    symbolCounts: { "〇": 5, "△": 12, "×": 46 },
+    symbolCounts: { "×": 55, "△": 6, "〇": 2 },
     emptyRatio: 0.15,
   },
   // 広陵町は真美北保育園とおひさま保育園が3歳児以上、真美ケ丘第二小学校附属幼稚園が2歳児以下を持たない

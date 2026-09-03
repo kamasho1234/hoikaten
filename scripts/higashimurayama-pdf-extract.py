@@ -37,7 +37,11 @@ def extract(path):
             fail(f"1ページのPDFを想定していますが{len(pdf.pages)}ページあります")
         page = pdf.pages[0]
         flat = "".join((page.extract_text() or "").split())
-        m = re.search(r"令和(\d+)年(\d+)月空き状況\(令和(\d+)年(\d+)月(\d+)日時点\)", flat)
+        # 令和8年10月期から表題が「M月空き状況(…時点)」から
+        # 「M月期 保育施設欠員見込 ※…時点」に変わった。どちらの書き方でも読む
+        m = re.search(
+            r"令和(\d+)年(\d+)月空き状況\(令和(\d+)年(\d+)月(\d+)日時点\)", flat
+        ) or re.search(r"令和(\d+)年(\d+)月期[^※]{0,20}※令和(\d+)年(\d+)月(\d+)日時点", flat)
         if not m:
             fail("表題から対象月と基準日を読み取れませんでした")
         target = [int(m.group(1)), int(m.group(2))]

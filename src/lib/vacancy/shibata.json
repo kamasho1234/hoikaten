@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "shibata",
   "municipalityName": "新発田市",
-  "asOf": "2026-08-06",
-  "fetchedAt": "2026-08-31",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-03",
   "sourceName": "新発田市「入園可能状況」",
   "sourceUrl": "https://www.city.shibata.lg.jp/kurashi/kosodate/youchien/1000847.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.shibata.lg.jp/_res/projects/default_project/_page_/001/000/847/r8.9ver2.pdf"
+    "vacancy": "https://www.city.shibata.lg.jp/_res/projects/default_project/_page_/001/000/847/r8.10nyuuen.pdf"
   },
   "metrics": [
     "symbol"
@@ -387,10 +387,10 @@
       "symbols": [
         "△",
         "○",
+        "×",
         "△",
-        "×",
-        "×",
-        "△"
+        "△",
+        "×"
       ]
     },
     {
@@ -451,7 +451,7 @@
         null
       ],
       "symbols": [
-        "○",
+        "△",
         "△",
         "×",
         "△",
@@ -521,8 +521,8 @@
         "×",
         "×",
         "×",
-        "△",
-        "△"
+        "×",
+        "×"
       ]
     },
     {

@@ -1,4409 +1,4409 @@
 {
- "municipalitySlug": "matsudo",
- "municipalityName": "松戸市",
- "asOf": "2026-09-01",
- "fetchedAt": "2026-09-01",
- "sourceName": "松戸市「保育施設の定員に対する空き状況一覧」",
- "sourceUrl": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuushojoukyou.html",
- "sourceFiles": {
-  "vacancy": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuushojoukyou.files/nyuushokaousei_R8.10.pdf"
- },
- "metrics": [
-  "symbol"
- ],
- "notes": [
-  "市は空き状況を画像のPDFで公表しているため、当サイトでは罫線から升目を割り出して1マスずつ読み取っています。",
-  "市の表では「定員まで達している」を空欄で表しています。当サイトでは「□」として表示しています。",
-  "表示が空欄であっても、退園者や転園者によって入所できる場合があると市が案内しています。",
-  "定員に対する空き状況を表した一覧であり、入所の確約をするものではありません。",
-  "「−」は対象クラスの設定がないことを表します。",
-  "市の表では対象クラスの設定がない年齢を「−」で表しています。当サイトでは「×」として表示しています。"
- ],
- "wards": [],
- "categories": [],
- "symbolLegend": [
-  {
-   "mark": "◎",
-   "label": "定員に十分な空きがある",
-   "open": true
-  },
-  {
-   "mark": "○",
-   "label": "定員に空きがある",
-   "open": true
-  },
-  {
-   "mark": "△",
-   "label": "定員の空きがわずか、または事情により定員までの受け入れができない",
-   "open": true
-  },
-  {
-   "mark": "□",
-   "label": "定員まで達している",
-   "open": false
-  },
-  {
-   "mark": "×",
-   "label": "対象クラスの設定なし",
-   "open": false
-  }
- ],
- "facilities": [
-  {
-   "id": "北松戸保育所",
-   "name": "北松戸保育所",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "△",
-    "□",
-    "□",
-    "△"
-   ]
-  },
-  {
-   "id": "馬橋西保育所",
-   "name": "馬橋西保育所",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "△",
-    "□",
-    "□",
-    "□",
-    "△",
-    "△"
-   ]
-  },
-  {
-   "id": "ニ十世紀ケ丘保育所",
-   "name": "ニ十世紀ケ丘保育所",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "△",
-    "□"
-   ]
-  },
-  {
-   "id": "古ケ崎保育所",
-   "name": "古ケ崎保育所",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "△",
-    "△",
-    "△"
-   ]
-  },
-  {
-   "id": "松ケ丘保育所",
-   "name": "松ケ丘保育所",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "△",
-    "△",
-    "△"
-   ]
-  },
-  {
-   "id": "新松戸中央保育所",
-   "name": "新松戸中央保育所",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "△",
-    "△",
-    "□",
-    "△",
-    "□",
-    "△"
-   ]
-  },
-  {
-   "id": "小羊保育園",
-   "name": "小羊保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "△",
-    "□",
-    "□",
-    "□",
-    "△",
-    "△"
-   ]
-  },
-  {
-   "id": "新松戸南部保育所",
-   "name": "新松戸南部保育所",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "△",
-    "△",
-    "△"
-   ]
-  },
-  {
-   "id": "第一平和保育園",
-   "name": "第一平和保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "△",
-    "□",
-    "□",
-    "×",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "新松戸北保育所",
-   "name": "新松戸北保育所",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "△",
-    "□",
-    "□",
-    "△",
-    "△",
-    "△"
-   ]
-  },
-  {
-   "id": "第二平和保育園",
-   "name": "第二平和保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "△"
-   ]
-  },
-  {
-   "id": "古ケ崎第二保育所",
-   "name": "古ケ崎第二保育所",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "△",
-    "□",
-    "□",
-    "□",
-    "□",
-    "△"
-   ]
-  },
-  {
-   "id": "松戸ミドリ保育園",
-   "name": "松戸ミドリ保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "△",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "馬橋保育園",
-   "name": "馬橋保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "上本才保育園",
-   "name": "上本才保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "△",
-    "△"
-   ]
-  },
-  {
-   "id": "新松戸グレース保育半バビーホーム(旧名称:新松戸ベビーホーム》",
-   "name": "新松戸グレース保育半バビーホーム(旧名称:新松戸ベビーホーム》",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "△",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "つぼみ保育園",
-   "name": "つぼみ保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "△"
-   ]
-  },
-  {
-   "id": "いわさき保育園",
-   "name": "いわさき保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "△",
-    "□"
-   ]
-  },
-  {
-   "id": "松戸南保育園",
-   "name": "松戸南保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "△",
-    "□",
-    "□",
-    "□",
-    "□",
-    "△"
-   ]
-  },
-  {
-   "id": "けやきの森保育園",
-   "name": "けやきの森保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "△",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "保育園きぼうのたから",
-   "name": "保育園きぼうのたから",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "△",
-    "□"
-   ]
-  },
-  {
-   "id": "松戸ひばり保育園",
-   "name": "松戸ひばり保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "△",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "和名ケ谷ひまわり保育園",
-   "name": "和名ケ谷ひまわり保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "×",
-    "□",
-    "□",
-    "△",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "東進ポップキッズ",
-   "name": "東進ポップキッズ",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "△",
-    "□",
-    "△"
-   ]
-  },
-  {
-   "id": "保育園きぼうのつばさ",
-   "name": "保育園きぼうのつばさ",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "△",
-    "□",
-    "□",
-    "△",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "こすもす保育園",
-   "name": "こすもす保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "△",
-    "□",
-    "□",
-    "□",
-    "△",
-    "□"
-   ]
-  },
-  {
-   "id": "第三平和保育園",
-   "name": "第三平和保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "×",
-    "△",
-    "×"
-   ]
-  },
-  {
-   "id": "みなみ新松戸保育園",
-   "name": "みなみ新松戸保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "△",
-    "□"
-   ]
-  },
-  {
-   "id": "ケヤキッズ保育園",
-   "name": "ケヤキッズ保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "×",
-    "×"
-   ]
-  },
-  {
-   "id": "ゆめのみ保育園",
-   "name": "ゆめのみ保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "松戸ゆいのひ保育園",
-   "name": "松戸ゆいのひ保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "△",
-    "□",
-    "□",
-    "△",
-    "△",
-    "△"
-   ]
-  },
-  {
-   "id": "ナーサリースクールいずみ新松戸",
-   "name": "ナーサリースクールいずみ新松戸",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "△",
-    "△",
-    "△"
-   ]
-  },
-  {
-   "id": "へいわ野のはな保育園",
-   "name": "へいわ野のはな保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "△",
-    "□",
-    "×"
-   ]
-  },
-  {
-   "id": "けやきの森保育園まばし",
-   "name": "けやきの森保育園まばし",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "野菊野こども国",
-   "name": "野菊野こども国",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "×",
-    "×"
-   ]
-  },
-  {
-   "id": "新松戸ゆいのひ保育園",
-   "name": "新松戸ゆいのひ保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "ケヤキッズベビールーム",
-   "name": "ケヤキッズベビールーム",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "△",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "小金西グレースこども國",
-   "name": "小金西グレースこども國",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "へいわオリープ保育室",
-   "name": "へいわオリープ保育室",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "さわらびこども國",
-   "name": "さわらびこども國",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "△",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "さわらびこども園北松戸ルーム",
-   "name": "さわらびこども園北松戸ルーム",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "さわらびドリームこども園",
-   "name": "さわらびドリームこども園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "△",
-    "□",
-    "□",
-    "□",
-    "□",
-    "△"
-   ]
-  },
-  {
-   "id": "へいわこばと保育室",
-   "name": "へいわこばと保育室",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "△",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "千葉認定こども園(千駄堀西幼稚園)",
-   "name": "千葉認定こども園(千駄堀西幼稚園)",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "へいわちいろば保育室",
-   "name": "へいわちいろば保育室",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "新松戸幼稚園おひさまルーム※",
-   "name": "新松戸幼稚園おひさまルーム※",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "野菊野こども園松戸ステーションルーム",
-   "name": "野菊野こども園松戸ステーションルーム",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "△",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "さわらびドリームこども園馬橋ルーム",
-   "name": "さわらびドリームこども園馬橋ルーム",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "△",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "ドレミルーム",
-   "name": "ドレミルーム",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "ケヤキッズスマイルルーム",
-   "name": "ケヤキッズスマイルルーム",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "△",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "こすもすベビールーム新松戸",
-   "name": "こすもすベビールーム新松戸",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "ゆいまーる保育國",
-   "name": "ゆいまーる保育國",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "ミルキーホーム新松戸園",
-   "name": "ミルキーホーム新松戸園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "△",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "上本郷保育園ひみまわりルーム",
-   "name": "上本郷保育園ひみまわりルーム",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "さわらびドリームこども園二橋第ニルーム",
-   "name": "さわらびドリームこども園二橋第ニルーム",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "△",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "ピッコリーノ保育園",
-   "name": "ピッコリーノ保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "△",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "けやきの森保育園せさんだぼり",
-   "name": "けやきの森保育園せさんだぼり",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "△",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "へいわかしの木保育室",
-   "name": "へいわかしの木保育室",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "×",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "京進のほいくえんHOPPA新松戸駅園",
-   "name": "京進のほいくえんHOPPA新松戸駅園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "△",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "オハナキッズルーム矢切",
-   "name": "オハナキッズルーム矢切",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "△",
-    "△",
-    "△",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "こすもすベビールーム新松戸第クルーム",
-   "name": "こすもすベビールーム新松戸第クルーム",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "ひなた保育園",
-   "name": "ひなた保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "△",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "新松戸すずらん保育園",
-   "name": "新松戸すずらん保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "ゆめいろルーム(野菊野こども固松戸駅西ロルーム)",
-   "name": "ゆめいろルーム(野菊野こども固松戸駅西ロルーム)",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "△",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "ゆいまーる保育園中和倉",
-   "name": "ゆいまーる保育園中和倉",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "ハへいわこえだ保育室",
-   "name": "ハへいわこえだ保育室",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "いたるルーム",
-   "name": "いたるルーム",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "へいわみのり保育室",
-   "name": "へいわみのり保育室",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "△",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "のびろルーム",
-   "name": "のびろルーム",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "小山保育ルーム",
-   "name": "小山保育ルーム",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "栄町ルーム",
-   "name": "栄町ルーム",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "つぼみルーム",
-   "name": "つぼみルーム",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "×",
-    "□",
-    "×",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "ここりの森保育園新松戸",
-   "name": "ここりの森保育園新松戸",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "まつど中央公園前保育園第一",
-   "name": "まつど中央公園前保育園第一",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "新松戸第二すずらん保育園",
-   "name": "新松戸第二すずらん保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "△",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "まつど中央公園前保育園第ニ",
-   "name": "まつど中央公園前保育園第ニ",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "こすもすべビールーム馬橋",
-   "name": "こすもすべビールーム馬橋",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "和名ケ谷ひまわり保育園明録台ルーム",
-   "name": "和名ケ谷ひまわり保育園明録台ルーム",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "新松戸なのはなルーム",
-   "name": "新松戸なのはなルーム",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "△",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "みるく保育園",
-   "name": "みるく保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "△",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "新松戸ニコニコ保育園",
-   "name": "新松戸ニコニコ保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "△",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "まつど中央公園前保育園第三",
-   "name": "まつど中央公園前保育園第三",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "こすもすベビールーム新松戸第3ルーム",
-   "name": "こすもすベビールーム新松戸第3ルーム",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "まつど中央公園前保育園第四",
-   "name": "まつど中央公園前保育園第四",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "こすもすベビールーム新松戸中央公園",
-   "name": "こすもすベビールーム新松戸中央公園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "保育園きぼうのそら",
-   "name": "保育園きぼうのそら",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "△",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "エンゼルつきの保育園馬橋",
-   "name": "エンゼルつきの保育園馬橋",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "△",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "ぶる一る保育園松戸駅前",
-   "name": "ぶる一る保育園松戸駅前",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "オハナキッズルーム馬棋",
-   "name": "オハナキッズルーム馬棋",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "△",
-    "△",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "エンゼルひかり保育園松戸",
-   "name": "エンゼルひかり保育園松戸",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "△",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "こすもすベビールーム新松戸ゆりのき通り",
-   "name": "こすもすベビールーム新松戸ゆりのき通り",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "北松戸ニコニコ保育園",
-   "name": "北松戸ニコニコ保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "△",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "こすもすべビールーム新松戸ゆりのき通り第2ルーム",
-   "name": "こすもすべビールーム新松戸ゆりのき通り第2ルーム",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "フェアリールーム",
-   "name": "フェアリールーム",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "新松戸はもにか保育園",
-   "name": "新松戸はもにか保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "エンゼルきらり保育園松戸",
-   "name": "エンゼルきらり保育園松戸",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "△",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "トライキッズ保育園新松戸",
-   "name": "トライキッズ保育園新松戸",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "みつぼしルーム松戸駅東口",
-   "name": "みつぼしルーム松戸駅東口",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "エンゼルさつき保育園馬橋",
-   "name": "エンゼルさつき保育園馬橋",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "エンゼルかるみあ保育園上本郷",
-   "name": "エンゼルかるみあ保育園上本郷",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "プチリック新松戸園",
-   "name": "プチリック新松戸園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "△",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "エンゼルふくしあ保育園上本郷",
-   "name": "エンゼルふくしあ保育園上本郷",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "△",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "保育園いきいきキッズ",
-   "name": "保育園いきいきキッズ",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "ここりの森保育園新田第一",
-   "name": "ここりの森保育園新田第一",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "△",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "ここりの森保育園新田第ニニ",
-   "name": "ここりの森保育園新田第ニニ",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "△",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "プチリック美野里園",
-   "name": "プチリック美野里園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "松戸チャイルド保育園",
-   "name": "松戸チャイルド保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "みつぼしルーム北松戸",
-   "name": "みつぼしルーム北松戸",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "小金原保育所",
-   "name": "小金原保育所",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "△",
-    "△",
-    "□"
-   ]
-  },
-  {
-   "id": "東松戸ニコニコ保育園",
-   "name": "東松戸ニコニコ保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "×",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "コアラ保育所",
-   "name": "コアラ保育所",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "△",
-    "□",
-    "□",
-    "△",
-    "△",
-    "△"
-   ]
-  },
-  {
-   "id": "ほほえみ保育園",
-   "name": "ほほえみ保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "△",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "小金北保育所",
-   "name": "小金北保育所",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "△",
-    "□",
-    "△",
-    "△",
-    "△",
-    "△"
-   ]
-  },
-  {
-   "id": "ドルチェルーム松飛台",
-   "name": "ドルチェルーム松飛台",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "△",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "小金保育園",
-   "name": "小金保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "保育園おとぎの城",
-   "name": "保育園おとぎの城",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "△",
-    "×",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "けやきの森保育園内の花",
-   "name": "けやきの森保育園内の花",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "フレンドキッズランド東松戸園",
-   "name": "フレンドキッズランド東松戸園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "さくら保育園",
-   "name": "さくら保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "△",
-    "□"
-   ]
-  },
-  {
-   "id": "ドルチェルーム東松戸",
-   "name": "ドルチェルーム東松戸",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "△",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "若芝保育園",
-   "name": "若芝保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "△",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "梨の花レインポールーム",
-   "name": "梨の花レインポールーム",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "△",
-    "△",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "大金平グレース保育国",
-   "name": "大金平グレース保育国",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "△",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "ドルチェルーム",
-   "name": "ドルチェルーム",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "北小金グレースこども園",
-   "name": "北小金グレースこども園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "△",
-    "□",
-    "△",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "ここりの森保育園東松戸",
-   "name": "ここりの森保育園東松戸",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "×",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "東洛寺幼稚園",
-   "name": "東洛寺幼稚園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "△",
-    "△"
-   ]
-  },
-  {
-   "id": "ドルチェルームカノン",
-   "name": "ドルチェルームカノン",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "北小金グレースこども園ノーチェルーム",
-   "name": "北小金グレースこども園ノーチェルーム",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "ここりの森保育園秋山",
-   "name": "ここりの森保育園秋山",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "小金城中グレース保育園ノーチェルーム",
-   "name": "小金城中グレース保育園ノーチェルーム",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "みなみ北小金保育室",
-   "name": "みなみ北小金保育室",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "みなみ北小金第二保育室",
-   "name": "みなみ北小金第二保育室",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "ここりの森保育園北小金",
-   "name": "ここりの森保育園北小金",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "△",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "けやきの森保育園メルカート",
-   "name": "けやきの森保育園メルカート",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "北小金ニコニコ保育園",
-   "name": "北小金ニコニコ保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "こすもすベビールーム北小金",
-   "name": "こすもすベビールーム北小金",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "さくぐくら保育園どんぐりルーム",
-   "name": "さくぐくら保育園どんぐりルーム",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "牧の原保育所",
-   "name": "牧の原保育所",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "△",
-    "△",
-    "△"
-   ]
-  },
-  {
-   "id": "プチリック北小金園",
-   "name": "プチリック北小金園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "八柱保育所",
-   "name": "八柱保育所",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "△",
-    "△",
-    "△"
-   ]
-  },
-  {
-   "id": "みらいつばぱばめゆめ保育園",
-   "name": "みらいつばぱばめゆめ保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "△",
-    "□",
-    "△",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "松飛台保育所",
-   "name": "松飛台保育所",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "△",
-    "△",
-    "△"
-   ]
-  },
-  {
-   "id": "プチリック北小金園第ニ",
-   "name": "プチリック北小金園第ニ",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "ときれ平保育園",
-   "name": "ときれ平保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "プチリック北小金園第三",
-   "name": "プチリック北小金園第三",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "△",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "稔台保育園",
-   "name": "稔台保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "△",
-    "□",
-    "△",
-    "△",
-    "△",
-    "△"
-   ]
-  },
-  {
-   "id": "ルンルンルーム保育園",
-   "name": "ルンルンルーム保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "子すずめ保育園",
-   "name": "子すずめ保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "ルンルンルーム保育彫北小金天",
-   "name": "ルンルンルーム保育彫北小金天",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "金ケ作保育園",
-   "name": "金ケ作保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "△",
-    "□",
-    "△",
-    "□",
-    "△",
-    "□"
-   ]
-  },
-  {
-   "id": "八景台保育園",
-   "name": "八景台保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "△",
-    "△",
-    "□",
-    "△",
-    "△",
-    "△"
-   ]
-  },
-  {
-   "id": "三空保育園",
-   "name": "三空保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "△",
-    "△",
-    "△",
-    "△",
-    "△",
-    "△"
-   ]
-  },
-  {
-   "id": "五香子すずめ保育園",
-   "name": "五香子すずめ保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "△",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "常盤平駅前ナオナーサリースクール",
-   "name": "常盤平駅前ナオナーサリースクール",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "△",
-    "△"
-   ]
-  },
-  {
-   "id": "コスモスの丘八柱保育園",
-   "name": "コスモスの丘八柱保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "△",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "松戸認定子ども園(梅植幼稚園)",
-   "name": "松戸認定子ども園(梅植幼稚園)",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "△",
-    "△",
-    "△"
-   ]
-  },
-  {
-   "id": "はなみずきこども同",
-   "name": "はなみずきこども同",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "東京認定こども園(牧の原析植幼稚園)",
-   "name": "東京認定こども園(牧の原析植幼稚園)",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "×",
-    "×",
-    "×"
-   ]
-  },
-  {
-   "id": "金ケ作保育園なのはなルーム",
-   "name": "金ケ作保育園なのはなルーム",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "六実保育所",
-   "name": "六実保育所",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "△",
-    "□",
-    "△",
-    "△",
-    "□",
-    "△"
-   ]
-  },
-  {
-   "id": "ハ景台保育園たんぽぼぼぽルーム",
-   "name": "ハ景台保育園たんぽぼぼぽルーム",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "こうぜん保育園",
-   "name": "こうぜん保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "△",
-    "□",
-    "△",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "はなみずきこども周八柱ルーム",
-   "name": "はなみずきこども周八柱ルーム",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "たかさごスクール六高台",
-   "name": "たかさごスクール六高台",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "金ケ作保育園元山駅なのはなルーム",
-   "name": "金ケ作保育園元山駅なのはなルーム",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "こうぜん保育園いずみ",
-   "name": "こうぜん保育園いずみ",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "ときれ平保育園さくらんぼぽルーム",
-   "name": "ときれ平保育園さくらんぼぽルーム",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "ここりの森保育園六高台",
-   "name": "ここりの森保育園六高台",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "はなみずきこども園五香ルーム",
-   "name": "はなみずきこども園五香ルーム",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "ここりの礎保育園六高台第二",
-   "name": "ここりの礎保育園六高台第二",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "みのり台エンゼル保育園",
-   "name": "みのり台エンゼル保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "△",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "ひぐらし中央保育国",
-   "name": "ひぐらし中央保育国",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "キッズルームいずみ松戸新田",
-   "name": "キッズルームいずみ松戸新田",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "△",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "ひぐらし第二中央保育園",
-   "name": "ひぐらし第二中央保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "よつ葉ルーム",
-   "name": "よつ葉ルーム",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "△",
-    "△",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "エンゼルしらゆり保育園八柱",
-   "name": "エンゼルしらゆり保育園八柱",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "ハハ柱ステーションルーム",
-   "name": "ハハ柱ステーションルーム",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "ミルキーホーム五香園",
-   "name": "ミルキーホーム五香園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "ここりの森保育園五香",
-   "name": "ここりの森保育園五香",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "梨香台保育所",
-   "name": "梨香台保育所",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "ひぐらし第三中央保育園八柱駅国",
-   "name": "ひぐらし第三中央保育園八柱駅国",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "東松戸保育園",
-   "name": "東松戸保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "みらいまつど保育園",
-   "name": "みらいまつど保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "△",
-    "□",
-    "×",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "グローパリーキッズ",
-   "name": "グローパリーキッズ",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "△",
-    "△"
-   ]
-  },
-  {
-   "id": "ゆいまーる保育園みのり台",
-   "name": "ゆいまーる保育園みのり台",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "△",
-    "△",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "佑和保育園",
-   "name": "佑和保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "△",
-    "△",
-    "□",
-    "□",
-    "□",
-    "△"
-   ]
-  },
-  {
-   "id": "ここりの森保育園五香東口",
-   "name": "ここりの森保育園五香東口",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "梨の花保育園",
-   "name": "梨の花保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "△",
-    "△",
-    "△",
-    "△",
-    "△",
-    "△"
-   ]
-  },
-  {
-   "id": "こすもすベビールーム常能平",
-   "name": "こすもすベビールーム常能平",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "音のゆりかご保育園",
-   "name": "音のゆりかご保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "△",
-    "□",
-    "△",
-    "△",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "RuRi松戸保育園",
-   "name": "RuRi松戸保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "桜花保育園",
-   "name": "桜花保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "△",
-    "□",
-    "□",
-    "□",
-    "□",
-    "△"
-   ]
-  },
-  {
-   "id": "ここりの森保育園常盤平",
-   "name": "ここりの森保育園常盤平",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "△",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "秋山・学びの保育園",
-   "name": "秋山・学びの保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "あそびのてんさい五香東保育園",
-   "name": "あそびのてんさい五香東保育園",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  },
-  {
-   "id": "東進ワールドキッズ",
-   "name": "東進ワールドキッズ",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "△",
-    "△",
-    "×",
-    "△",
-    "△",
-    "□"
-   ]
-  },
-  {
-   "id": "計刃宇こど才園国の丘",
-   "name": "計刃宇こど才園国の丘",
-   "w": null,
-   "c": null,
-   "vacancy": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-   ],
-   "symbols": [
-    "□",
-    "□",
-    "□",
-    "□",
-    "□",
-    "□"
-   ]
-  }
- ]
+  "municipalitySlug": "matsudo",
+  "municipalityName": "松戸市",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-03",
+  "sourceName": "松戸市「保育施設の定員に対する空き状況一覧」",
+  "sourceUrl": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuushojoukyou.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuushojoukyou.files/nyuushokaousei_R8.10.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "市は空き状況を画像のPDFで公表しているため、当サイトでは罫線から升目を割り出して1マスずつ読み取っています。",
+    "市の表では「定員まで達している」を空欄で表しています。当サイトでは「□」として表示しています。",
+    "表示が空欄であっても、退園者や転園者によって入所できる場合があると市が案内しています。",
+    "定員に対する空き状況を表した一覧であり、入所の確約をするものではありません。",
+    "「−」は対象クラスの設定がないことを表します。",
+    "市の表では対象クラスの設定がない年齢を「−」で表しています。当サイトでは「×」として表示しています。"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "◎",
+      "label": "定員に十分な空きがある",
+      "open": true
+    },
+    {
+      "mark": "○",
+      "label": "定員に空きがある",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "定員の空きがわずか、または事情により定員までの受け入れができない",
+      "open": true
+    },
+    {
+      "mark": "□",
+      "label": "定員まで達している",
+      "open": false
+    },
+    {
+      "mark": "×",
+      "label": "対象クラスの設定なし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "北松戸保育所",
+      "name": "北松戸保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "△",
+        "□",
+        "□",
+        "△"
+      ]
+    },
+    {
+      "id": "馬橋西保育所",
+      "name": "馬橋西保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "□",
+        "□",
+        "□",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "ニ十世紀ケ丘保育所",
+      "name": "ニ十世紀ケ丘保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "△",
+        "□"
+      ]
+    },
+    {
+      "id": "古ケ崎保育所",
+      "name": "古ケ崎保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "△",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "松ケ丘保育所",
+      "name": "松ケ丘保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "△",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "新松戸中央保育所",
+      "name": "新松戸中央保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "□",
+        "△",
+        "□",
+        "△"
+      ]
+    },
+    {
+      "id": "小羊保育園",
+      "name": "小羊保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "□",
+        "□",
+        "□",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "新松戸南部保育所",
+      "name": "新松戸南部保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "△",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "第一平和保育園",
+      "name": "第一平和保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "□",
+        "□",
+        "×",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "新松戸北保育所",
+      "name": "新松戸北保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "□",
+        "□",
+        "△",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "第二平和保育園",
+      "name": "第二平和保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "△"
+      ]
+    },
+    {
+      "id": "古ケ崎第二保育所",
+      "name": "古ケ崎第二保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "□",
+        "□",
+        "□",
+        "□",
+        "△"
+      ]
+    },
+    {
+      "id": "松戸ミドリ保育園",
+      "name": "松戸ミドリ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "馬橋保育園",
+      "name": "馬橋保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "上本才保育園",
+      "name": "上本才保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "新松戸グレース保育半バビーホーム(旧名称:新松戸ベビーホーム》",
+      "name": "新松戸グレース保育半バビーホーム(旧名称:新松戸ベビーホーム》",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "つぼみ保育園",
+      "name": "つぼみ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "△"
+      ]
+    },
+    {
+      "id": "いわさき保育園",
+      "name": "いわさき保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "△",
+        "□"
+      ]
+    },
+    {
+      "id": "松戸南保育園",
+      "name": "松戸南保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "□",
+        "□",
+        "□",
+        "□",
+        "△"
+      ]
+    },
+    {
+      "id": "けやきの森保育園",
+      "name": "けやきの森保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "△",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "保育園きぼうのたから",
+      "name": "保育園きぼうのたから",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "△",
+        "□"
+      ]
+    },
+    {
+      "id": "松戸ひばり保育園",
+      "name": "松戸ひばり保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "和名ケ谷ひまわり保育園",
+      "name": "和名ケ谷ひまわり保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "□",
+        "□",
+        "△",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "東進ポップキッズ",
+      "name": "東進ポップキッズ",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "△",
+        "□",
+        "△"
+      ]
+    },
+    {
+      "id": "保育園きぼうのつばさ",
+      "name": "保育園きぼうのつばさ",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "□",
+        "□",
+        "△",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "こすもす保育園",
+      "name": "こすもす保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "□",
+        "□",
+        "□",
+        "△",
+        "□"
+      ]
+    },
+    {
+      "id": "第三平和保育園",
+      "name": "第三平和保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "×",
+        "△",
+        "×"
+      ]
+    },
+    {
+      "id": "みなみ新松戸保育園",
+      "name": "みなみ新松戸保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "△",
+        "□"
+      ]
+    },
+    {
+      "id": "ケヤキッズ保育園",
+      "name": "ケヤキッズ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "ゆめのみ保育園",
+      "name": "ゆめのみ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "松戸ゆいのひ保育園",
+      "name": "松戸ゆいのひ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "□",
+        "□",
+        "△",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "ナーサリースクールいずみ新松戸",
+      "name": "ナーサリースクールいずみ新松戸",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "△",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "へいわ野のはな保育園",
+      "name": "へいわ野のはな保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "△",
+        "□",
+        "×"
+      ]
+    },
+    {
+      "id": "けやきの森保育園まばし",
+      "name": "けやきの森保育園まばし",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "野菊野こども国",
+      "name": "野菊野こども国",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "新松戸ゆいのひ保育園",
+      "name": "新松戸ゆいのひ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "ケヤキッズベビールーム",
+      "name": "ケヤキッズベビールーム",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "小金西グレースこども國",
+      "name": "小金西グレースこども國",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "へいわオリープ保育室",
+      "name": "へいわオリープ保育室",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "さわらびこども國",
+      "name": "さわらびこども國",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "△",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "さわらびこども園北松戸ルーム",
+      "name": "さわらびこども園北松戸ルーム",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "さわらびドリームこども園",
+      "name": "さわらびドリームこども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "□",
+        "□",
+        "□",
+        "□",
+        "△"
+      ]
+    },
+    {
+      "id": "へいわこばと保育室",
+      "name": "へいわこばと保育室",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "△",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "千葉認定こども園(千駄堀西幼稚園)",
+      "name": "千葉認定こども園(千駄堀西幼稚園)",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "へいわちいろば保育室",
+      "name": "へいわちいろば保育室",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "新松戸幼稚園おひさまルーム※",
+      "name": "新松戸幼稚園おひさまルーム※",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "野菊野こども園松戸ステーションルーム",
+      "name": "野菊野こども園松戸ステーションルーム",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "△",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "さわらびドリームこども園馬橋ルーム",
+      "name": "さわらびドリームこども園馬橋ルーム",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "ドレミルーム",
+      "name": "ドレミルーム",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "ケヤキッズスマイルルーム",
+      "name": "ケヤキッズスマイルルーム",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "こすもすベビールーム新松戸",
+      "name": "こすもすベビールーム新松戸",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "ゆいまーる保育國",
+      "name": "ゆいまーる保育國",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "ミルキーホーム新松戸園",
+      "name": "ミルキーホーム新松戸園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "上本郷保育園ひみまわりルーム",
+      "name": "上本郷保育園ひみまわりルーム",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "さわらびドリームこども園二橋第ニルーム",
+      "name": "さわらびドリームこども園二橋第ニルーム",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "ピッコリーノ保育園",
+      "name": "ピッコリーノ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "△",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "けやきの森保育園せさんだぼり",
+      "name": "けやきの森保育園せさんだぼり",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "△",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "へいわかしの木保育室",
+      "name": "へいわかしの木保育室",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "×",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "京進のほいくえんHOPPA新松戸駅園",
+      "name": "京進のほいくえんHOPPA新松戸駅園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "△",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "オハナキッズルーム矢切",
+      "name": "オハナキッズルーム矢切",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "△",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "こすもすベビールーム新松戸第クルーム",
+      "name": "こすもすベビールーム新松戸第クルーム",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "ひなた保育園",
+      "name": "ひなた保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "△",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "新松戸すずらん保育園",
+      "name": "新松戸すずらん保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "ゆめいろルーム(野菊野こども固松戸駅西ロルーム)",
+      "name": "ゆめいろルーム(野菊野こども固松戸駅西ロルーム)",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "ゆいまーる保育園中和倉",
+      "name": "ゆいまーる保育園中和倉",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "ハへいわこえだ保育室",
+      "name": "ハへいわこえだ保育室",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "いたるルーム",
+      "name": "いたるルーム",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "へいわみのり保育室",
+      "name": "へいわみのり保育室",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "△",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "のびろルーム",
+      "name": "のびろルーム",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "小山保育ルーム",
+      "name": "小山保育ルーム",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "栄町ルーム",
+      "name": "栄町ルーム",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "つぼみルーム",
+      "name": "つぼみルーム",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "□",
+        "×",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "ここりの森保育園新松戸",
+      "name": "ここりの森保育園新松戸",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "まつど中央公園前保育園第一",
+      "name": "まつど中央公園前保育園第一",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "新松戸第二すずらん保育園",
+      "name": "新松戸第二すずらん保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "まつど中央公園前保育園第ニ",
+      "name": "まつど中央公園前保育園第ニ",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "こすもすべビールーム馬橋",
+      "name": "こすもすべビールーム馬橋",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "和名ケ谷ひまわり保育園明録台ルーム",
+      "name": "和名ケ谷ひまわり保育園明録台ルーム",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "新松戸なのはなルーム",
+      "name": "新松戸なのはなルーム",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "△",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "みるく保育園",
+      "name": "みるく保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "△",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "新松戸ニコニコ保育園",
+      "name": "新松戸ニコニコ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "△",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "まつど中央公園前保育園第三",
+      "name": "まつど中央公園前保育園第三",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "こすもすベビールーム新松戸第3ルーム",
+      "name": "こすもすベビールーム新松戸第3ルーム",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "まつど中央公園前保育園第四",
+      "name": "まつど中央公園前保育園第四",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "こすもすベビールーム新松戸中央公園",
+      "name": "こすもすベビールーム新松戸中央公園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "保育園きぼうのそら",
+      "name": "保育園きぼうのそら",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "△",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "エンゼルつきの保育園馬橋",
+      "name": "エンゼルつきの保育園馬橋",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "△",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "ぶる一る保育園松戸駅前",
+      "name": "ぶる一る保育園松戸駅前",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "オハナキッズルーム馬棋",
+      "name": "オハナキッズルーム馬棋",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "エンゼルひかり保育園松戸",
+      "name": "エンゼルひかり保育園松戸",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "△",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "こすもすベビールーム新松戸ゆりのき通り",
+      "name": "こすもすベビールーム新松戸ゆりのき通り",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "北松戸ニコニコ保育園",
+      "name": "北松戸ニコニコ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "△",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "こすもすべビールーム新松戸ゆりのき通り第2ルーム",
+      "name": "こすもすべビールーム新松戸ゆりのき通り第2ルーム",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "フェアリールーム",
+      "name": "フェアリールーム",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "新松戸はもにか保育園",
+      "name": "新松戸はもにか保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "エンゼルきらり保育園松戸",
+      "name": "エンゼルきらり保育園松戸",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "△",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "トライキッズ保育園新松戸",
+      "name": "トライキッズ保育園新松戸",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "みつぼしルーム松戸駅東口",
+      "name": "みつぼしルーム松戸駅東口",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "エンゼルさつき保育園馬橋",
+      "name": "エンゼルさつき保育園馬橋",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "エンゼルかるみあ保育園上本郷",
+      "name": "エンゼルかるみあ保育園上本郷",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "プチリック新松戸園",
+      "name": "プチリック新松戸園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "△",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "エンゼルふくしあ保育園上本郷",
+      "name": "エンゼルふくしあ保育園上本郷",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "△",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "保育園いきいきキッズ",
+      "name": "保育園いきいきキッズ",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "ここりの森保育園新田第一",
+      "name": "ここりの森保育園新田第一",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "ここりの森保育園新田第ニニ",
+      "name": "ここりの森保育園新田第ニニ",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "プチリック美野里園",
+      "name": "プチリック美野里園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "松戸チャイルド保育園",
+      "name": "松戸チャイルド保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "みつぼしルーム北松戸",
+      "name": "みつぼしルーム北松戸",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "小金原保育所",
+      "name": "小金原保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "△",
+        "△",
+        "□"
+      ]
+    },
+    {
+      "id": "東松戸ニコニコ保育園",
+      "name": "東松戸ニコニコ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "×",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "コアラ保育所",
+      "name": "コアラ保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "□",
+        "□",
+        "△",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "ほほえみ保育園",
+      "name": "ほほえみ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "△",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "小金北保育所",
+      "name": "小金北保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "□",
+        "△",
+        "△",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "ドルチェルーム松飛台",
+      "name": "ドルチェルーム松飛台",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "△",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "小金保育園",
+      "name": "小金保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "保育園おとぎの城",
+      "name": "保育園おとぎの城",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "△",
+        "×",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "けやきの森保育園内の花",
+      "name": "けやきの森保育園内の花",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "フレンドキッズランド東松戸園",
+      "name": "フレンドキッズランド東松戸園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "さくら保育園",
+      "name": "さくら保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "△",
+        "□"
+      ]
+    },
+    {
+      "id": "ドルチェルーム東松戸",
+      "name": "ドルチェルーム東松戸",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "△",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "若芝保育園",
+      "name": "若芝保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "梨の花レインポールーム",
+      "name": "梨の花レインポールーム",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "大金平グレース保育国",
+      "name": "大金平グレース保育国",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "△",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "ドルチェルーム",
+      "name": "ドルチェルーム",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "北小金グレースこども園",
+      "name": "北小金グレースこども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "□",
+        "△",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "ここりの森保育園東松戸",
+      "name": "ここりの森保育園東松戸",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "×",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "東洛寺幼稚園",
+      "name": "東洛寺幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "ドルチェルームカノン",
+      "name": "ドルチェルームカノン",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "北小金グレースこども園ノーチェルーム",
+      "name": "北小金グレースこども園ノーチェルーム",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "ここりの森保育園秋山",
+      "name": "ここりの森保育園秋山",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "小金城中グレース保育園ノーチェルーム",
+      "name": "小金城中グレース保育園ノーチェルーム",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "みなみ北小金保育室",
+      "name": "みなみ北小金保育室",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "みなみ北小金第二保育室",
+      "name": "みなみ北小金第二保育室",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "ここりの森保育園北小金",
+      "name": "ここりの森保育園北小金",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "けやきの森保育園メルカート",
+      "name": "けやきの森保育園メルカート",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "北小金ニコニコ保育園",
+      "name": "北小金ニコニコ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "こすもすベビールーム北小金",
+      "name": "こすもすベビールーム北小金",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "さくぐくら保育園どんぐりルーム",
+      "name": "さくぐくら保育園どんぐりルーム",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "牧の原保育所",
+      "name": "牧の原保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "△",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "プチリック北小金園",
+      "name": "プチリック北小金園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "八柱保育所",
+      "name": "八柱保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "△",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "みらいつばぱばめゆめ保育園",
+      "name": "みらいつばぱばめゆめ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "□",
+        "△",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "松飛台保育所",
+      "name": "松飛台保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "△",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "プチリック北小金園第ニ",
+      "name": "プチリック北小金園第ニ",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "ときれ平保育園",
+      "name": "ときれ平保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "プチリック北小金園第三",
+      "name": "プチリック北小金園第三",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "△",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "稔台保育園",
+      "name": "稔台保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "□",
+        "△",
+        "△",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "ルンルンルーム保育園",
+      "name": "ルンルンルーム保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "子すずめ保育園",
+      "name": "子すずめ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "ルンルンルーム保育彫北小金天",
+      "name": "ルンルンルーム保育彫北小金天",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "金ケ作保育園",
+      "name": "金ケ作保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "□",
+        "△",
+        "□",
+        "△",
+        "□"
+      ]
+    },
+    {
+      "id": "八景台保育園",
+      "name": "八景台保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "□",
+        "△",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "三空保育園",
+      "name": "三空保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "△",
+        "△",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "五香子すずめ保育園",
+      "name": "五香子すずめ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "常盤平駅前ナオナーサリースクール",
+      "name": "常盤平駅前ナオナーサリースクール",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "コスモスの丘八柱保育園",
+      "name": "コスモスの丘八柱保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "△",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "松戸認定子ども園(梅植幼稚園)",
+      "name": "松戸認定子ども園(梅植幼稚園)",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "△",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "はなみずきこども同",
+      "name": "はなみずきこども同",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "東京認定こども園(牧の原析植幼稚園)",
+      "name": "東京認定こども園(牧の原析植幼稚園)",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "金ケ作保育園なのはなルーム",
+      "name": "金ケ作保育園なのはなルーム",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "六実保育所",
+      "name": "六実保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "□",
+        "△",
+        "△",
+        "□",
+        "△"
+      ]
+    },
+    {
+      "id": "ハ景台保育園たんぽぼぼぽルーム",
+      "name": "ハ景台保育園たんぽぼぼぽルーム",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "こうぜん保育園",
+      "name": "こうぜん保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "□",
+        "△",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "はなみずきこども周八柱ルーム",
+      "name": "はなみずきこども周八柱ルーム",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "たかさごスクール六高台",
+      "name": "たかさごスクール六高台",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "金ケ作保育園元山駅なのはなルーム",
+      "name": "金ケ作保育園元山駅なのはなルーム",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "こうぜん保育園いずみ",
+      "name": "こうぜん保育園いずみ",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "ときれ平保育園さくらんぼぽルーム",
+      "name": "ときれ平保育園さくらんぼぽルーム",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "ここりの森保育園六高台",
+      "name": "ここりの森保育園六高台",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "はなみずきこども園五香ルーム",
+      "name": "はなみずきこども園五香ルーム",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "ここりの礎保育園六高台第二",
+      "name": "ここりの礎保育園六高台第二",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "みのり台エンゼル保育園",
+      "name": "みのり台エンゼル保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "ひぐらし中央保育国",
+      "name": "ひぐらし中央保育国",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "キッズルームいずみ松戸新田",
+      "name": "キッズルームいずみ松戸新田",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "△",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "ひぐらし第二中央保育園",
+      "name": "ひぐらし第二中央保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "よつ葉ルーム",
+      "name": "よつ葉ルーム",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "エンゼルしらゆり保育園八柱",
+      "name": "エンゼルしらゆり保育園八柱",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "ハハ柱ステーションルーム",
+      "name": "ハハ柱ステーションルーム",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "ミルキーホーム五香園",
+      "name": "ミルキーホーム五香園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "ここりの森保育園五香",
+      "name": "ここりの森保育園五香",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "梨香台保育所",
+      "name": "梨香台保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "ひぐらし第三中央保育園八柱駅国",
+      "name": "ひぐらし第三中央保育園八柱駅国",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "東松戸保育園",
+      "name": "東松戸保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "みらいまつど保育園",
+      "name": "みらいまつど保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "□",
+        "×",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "グローパリーキッズ",
+      "name": "グローパリーキッズ",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "ゆいまーる保育園みのり台",
+      "name": "ゆいまーる保育園みのり台",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "佑和保育園",
+      "name": "佑和保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "□",
+        "□",
+        "□",
+        "△"
+      ]
+    },
+    {
+      "id": "ここりの森保育園五香東口",
+      "name": "ここりの森保育園五香東口",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "梨の花保育園",
+      "name": "梨の花保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "△",
+        "△",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "こすもすベビールーム常能平",
+      "name": "こすもすベビールーム常能平",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "音のゆりかご保育園",
+      "name": "音のゆりかご保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "□",
+        "△",
+        "△",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "RuRi松戸保育園",
+      "name": "RuRi松戸保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "桜花保育園",
+      "name": "桜花保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "□",
+        "□",
+        "□",
+        "□",
+        "△"
+      ]
+    },
+    {
+      "id": "ここりの森保育園常盤平",
+      "name": "ここりの森保育園常盤平",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "秋山・学びの保育園",
+      "name": "秋山・学びの保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "あそびのてんさい五香東保育園",
+      "name": "あそびのてんさい五香東保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    },
+    {
+      "id": "東進ワールドキッズ",
+      "name": "東進ワールドキッズ",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "×",
+        "△",
+        "△",
+        "□"
+      ]
+    },
+    {
+      "id": "計刃宇こど才園国の丘",
+      "name": "計刃宇こど才園国の丘",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "□",
+        "□",
+        "□",
+        "□",
+        "□",
+        "□"
+      ]
+    }
+  ]
 }
