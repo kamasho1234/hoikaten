@@ -1,19 +1,19 @@
 {
   "municipalitySlug": "munakata",
   "municipalityName": "宗像市",
-  "asOf": "2026-08-01",
-  "fetchedAt": "2026-08-26",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-03",
   "sourceName": "宗像市「保育所・認定こども園（保育利用）の空き状況」",
   "sourceUrl": "https://www.city.munakata.lg.jp/kiji0032981/index.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.munakata.lg.jp/kiji0032981/3_2981_16551_up_3bqa6lt8.pdf"
+    "vacancy": "https://www.city.munakata.lg.jp/kiji0032981/3_2981_17153_up_dh84b1x7.pdf"
   },
   "metrics": [
     "symbol"
   ],
-  "subtitle": "2026年9月の受入可能状況",
+  "subtitle": "2026年10月の受入可能状況",
   "notes": [
-    "宗像市は空き状況を人数ではなく記号で公表しています。これは2026年9月の受入可能状況で、公式ページが2026-08-01に更新されたものです。",
+    "宗像市は空き状況を人数ではなく記号で公表しています。これは2026年10月の受入可能状況で、公式ページが2026-09-01に更新されたものです。",
     "毎月１日(土・日・祝日の場合は、直後の平日)に翌月の受入可能状況を公開します",
     "入所を保証するものではありません(申込みが複数あった場合、入所できないことがあります)",
     "保育士の配置状況や退所等により、受入可能数は随時変動します",
@@ -43,25 +43,25 @@
     }
   ],
   "facilities": [
-    {"id":"赤間保育園","name":"赤間保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["○","－","－","－","－","－"]},
-    {"id":"恵愛保育園","name":"恵愛保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","－","－","－","－"]},
-    {"id":"西海保育園","name":"西海保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["○","△","△","－","－","－"]},
-    {"id":"日の里東保育園","name":"日の里東保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","△","－","－"]},
+    {"id":"赤間保育園","name":"赤間保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
+    {"id":"恵愛保育園","name":"恵愛保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","△","－","－","－","－"]},
+    {"id":"西海保育園","name":"西海保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△","－","－","－"]},
+    {"id":"日の里東保育園","name":"日の里東保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
     {"id":"野ばら保育園","name":"野ばら保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
     {"id":"野ばら第二保育園","name":"野ばら第二保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
     {"id":"第二赤間保育園","name":"第二赤間保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","－","－","－","－","－"]},
     {"id":"玄海風の子保育園","name":"玄海風の子保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","－","－","－","－","－"]},
-    {"id":"平等寺保育園","name":"平等寺保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","－","△","△","－","－"]},
+    {"id":"平等寺保育園","name":"平等寺保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","△","－","－"]},
     {"id":"ひかり幼育園","name":"ひかり幼育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","－","－","－","－","－"]},
     {"id":"かとう保育園","name":"かとう保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
-    {"id":"みつぼし幼保園","name":"みつぼし幼保園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","△","－","△","－"]},
-    {"id":"かとう西保育園","name":"かとう西保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","－","－","－","－","－"]},
+    {"id":"みつぼし幼保園","name":"みつぼし幼保園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","△","－","－","－"]},
+    {"id":"かとう西保育園","name":"かとう西保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
     {"id":"野ばら保育園ユリックス分園","name":"野ばら保育園ユリックス分園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－",null,null,null]},
-    {"id":"ひかり幼育園ひのさと分園","name":"ひかり幼育園ひのさと分園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","△","－",null,null,null]},
+    {"id":"ひかり幼育園ひのさと分園","name":"ひかり幼育園ひのさと分園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","－",null,null,null]},
     {"id":"東郷信愛幼稚園","name":"東郷信愛幼稚園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["－","△","－","△","－","－"]},
-    {"id":"東海大学付属福岡自由ケ丘幼稚園","name":"東海大学付属福岡自由ケ丘幼稚園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":[null,"－","○","－","－","－"]},
-    {"id":"いちごいちえん","name":"いちごいちえん","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","－","－","－","－"]},
+    {"id":"東海大学付属福岡自由ケ丘幼稚園","name":"東海大学付属福岡自由ケ丘幼稚園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":[null,"－","△","－","－","－"]},
+    {"id":"いちごいちえん","name":"いちごいちえん","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["○","－","－","－","－","－"]},
     {"id":"赤間くるみ幼稚園","name":"赤間くるみ幼稚園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,"－","－","－","－"]},
-    {"id":"さくらんぼ園","name":"さくらんぼ園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△","△","△","－"]}
+    {"id":"さくらんぼ園","name":"さくらんぼ園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","－","△","△","－"]}
   ]
 }

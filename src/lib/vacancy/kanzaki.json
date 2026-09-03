@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "kanzaki",
   "municipalityName": "神埼市",
-  "asOf": "2026-08-10",
-  "fetchedAt": "2026-09-01",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-03",
   "sourceName": "神埼市「保育施設（2号・3号）入所可能状況一覧表」",
   "sourceUrl": "https://www.city.kanzaki.saga.jp/main/19386.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.kanzaki.saga.jp/site_files/file/2026/202608/6a793a116d920hYFs24qm.pdf"
+    "vacancy": "https://www.city.kanzaki.saga.jp/site_files/file/2026/202609/6a9774e62046eBzHfMt62.pdf"
   },
   "metrics": [
     "symbol"
@@ -46,7 +46,7 @@
       "symbols": [
         "×",
         "×",
-        "×",
+        "〇",
         "〇",
         "〇",
         "〇"
@@ -67,7 +67,7 @@
       ],
       "symbols": [
         "×",
-        "〇",
+        "×",
         "×",
         "〇",
         "〇",
@@ -91,7 +91,7 @@
         "×",
         "×",
         "×",
-        "〇",
+        "×",
         "〇",
         "〇"
       ]
@@ -132,7 +132,7 @@
         null
       ],
       "symbols": [
-        "〇",
+        "×",
         "×",
         "×",
         "×",
@@ -243,7 +243,7 @@
       ],
       "symbols": [
         "〇",
-        "〇",
+        "×",
         "〇",
         "〇",
         "×",

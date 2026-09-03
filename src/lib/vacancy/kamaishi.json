@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "kamaishi",
   "municipalityName": "釜石市",
-  "asOf": "2026-08-01",
-  "fetchedAt": "2026-09-01",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-03",
   "sourceName": "釜石市「保育施設年齢別受入可能人数」",
   "sourceUrl": "https://www.city.kamaishi.iwate.jp/docs/2026022400084/",
   "sourceFiles": {
-    "vacancy": "https://www.city.kamaishi.iwate.jp/docs/2026022400084/file_contents/file_20267304112522_1.pdf"
+    "vacancy": "https://www.city.kamaishi.iwate.jp/docs/2026022400084/file_contents/file_20268311134147_1.pdf"
   },
   "metrics": [
     "vacancy"
@@ -71,7 +71,7 @@
       "w": null,
       "c": 0,
       "vacancy": [
-        3,
+        2,
         null,
         1,
         5,
@@ -94,26 +94,12 @@
       ]
     },
     {
-      "id": "中妻子供の家保育園",
-      "name": "中妻子供の家保育園",
-      "w": null,
-      "c": 1,
-      "vacancy": [
-        2,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "鵜住居保育園",
       "name": "鵜住居保育園",
       "w": null,
       "c": 1,
       "vacancy": [
-        5,
+        4,
         1,
         null,
         3,

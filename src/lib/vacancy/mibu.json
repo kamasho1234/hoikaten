@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "mibu",
   "municipalityName": "壬生町",
-  "asOf": "2026-08-10",
-  "fetchedAt": "2026-09-01",
+  "asOf": "2026-09-02",
+  "fetchedAt": "2026-09-03",
   "sourceName": "壬生町「保育所等の空き状況」",
   "sourceUrl": "https://www.town.mibu.tochigi.jp/docs/2023120100014/",
   "sourceFiles": {
-    "vacancy": "https://www.town.mibu.tochigi.jp/docs/2023120100014/file_contents/10.pdf"
+    "vacancy": "https://www.town.mibu.tochigi.jp/docs/2023120100014/file_contents/11.pdf"
   },
   "metrics": [
     "symbol"
@@ -55,7 +55,7 @@
         "×",
         "×",
         "△",
-        "×"
+        "△"
       ]
     },
     {
@@ -207,9 +207,9 @@
         "△",
         "△",
         "△",
-        "〇",
-        "〇",
-        "〇"
+        "△",
+        "△",
+        "△"
       ]
     },
     {

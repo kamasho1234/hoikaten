@@ -1,6 +1,6 @@
 {
- "asOf": "2026-08-01",
- "sourceUrl": "https://www.city.bunkyo.lg.jp/documents/1761/r8-9bosyuninzuitiran2.pdf",
+ "asOf": "2026-09-01",
+ "sourceUrl": "https://www.city.bunkyo.lg.jp/documents/1761/r8-10bosyuninzuitiran.pdf",
  "facilities": [
   {
    "id": "柳町保育園 ※1",
@@ -283,8 +283,8 @@
    "no": "4"
   },
   {
-   "id": "千石西保育園",
-   "name": "千石西保育園",
+   "id": "千石西保育園 ※12",
+   "name": "千石西保育園 ※12",
    "area": "白山駅・千石駅周辺",
    "category": "区立",
    "no": "5"

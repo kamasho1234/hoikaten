@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "murakami",
   "municipalityName": "村上市",
-  "asOf": "2026-07-01",
-  "fetchedAt": "2026-08-31",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-03",
   "sourceName": "村上市「保育園空き状況」",
   "sourceUrl": "https://www.city.murakami.lg.jp/site/kodomo/hoikuken.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.murakami.lg.jp/uploaded/attachment/76742.pdf"
+    "vacancy": "https://www.city.murakami.lg.jp/uploaded/attachment/77742.pdf"
   },
   "metrics": [
     "symbol"
@@ -80,7 +80,7 @@
         "△",
         "△",
         "○",
-        "×",
+        "△",
         "×"
       ]
     },
@@ -103,7 +103,7 @@
         "△",
         "○",
         "△",
-        "△"
+        "×"
       ]
     },
     {
@@ -321,7 +321,7 @@
         "△",
         "△",
         "△",
-        "×",
+        "○",
         "○",
         "○"
       ]
@@ -344,7 +344,7 @@
         "△",
         "△",
         "×",
-        "×",
+        "○",
         "○"
       ]
     },

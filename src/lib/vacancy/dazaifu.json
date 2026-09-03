@@ -1,8 +1,8 @@
 {
   "municipalitySlug": "dazaifu",
   "municipalityName": "太宰府市",
-  "asOf": "2026-08-03",
-  "fetchedAt": "2026-08-31",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-03",
   "sourceName": "太宰府市「市内認可保育施設 受入可能枠一覧」",
   "sourceUrl": "https://www.city.dazaifu.lg.jp/soshiki/16/46644.html",
   "sourceFiles": {
@@ -55,7 +55,7 @@
         "×",
         "×",
         "×",
-        "△"
+        "×"
       ]
     },
     {

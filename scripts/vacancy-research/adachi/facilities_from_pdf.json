@@ -1,9 +1,9 @@
 {
- "asOf": "2026-08-01",
+ "asOf": "2026-09-01",
  "sourceFiles": {
-  "認可等": "https://www.city.adachi.tokyo.jp/documents/69384/r809ninkashokibo.pdf",
-  "保育ママ": "https://www.city.adachi.tokyo.jp/documents/69384/202609mama.pdf",
-  "認定こども園": "https://www.city.adachi.tokyo.jp/documents/69384/r809kodomoen.pdf"
+  "認可等": "https://www.city.adachi.tokyo.jp/documents/69384/202610ninka_shokibo.pdf",
+  "保育ママ": "https://www.city.adachi.tokyo.jp/documents/69384/202610mama.pdf",
+  "認定こども園": "https://www.city.adachi.tokyo.jp/documents/69384/202610kodomoen.pdf"
  },
  "facilities": [
   {
@@ -1719,12 +1719,20 @@
    "address": "西綾瀬3-21-20-101"
   },
   {
+   "id": "池田明美※",
+   "name": "池田明美※",
+   "ward": "綾瀬・佐野地域",
+   "category": "家庭的保育（保育ママ）",
+   "capacity": 2,
+   "address": "綾瀬3-17-18-503"
+  },
+  {
    "id": "齊藤江利子",
    "name": "齊藤江利子",
    "ward": "綾瀬・佐野地域",
    "category": "家庭的保育（保育ママ）",
-   "capacity": 4,
-   "address": "綾瀬5-20-18-101※移転予定"
+   "capacity": 5,
+   "address": "綾瀬6-30-7※"
   },
   {
    "id": "鈴木幸子",

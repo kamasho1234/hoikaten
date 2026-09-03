@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "kaita",
   "municipalityName": "海田町",
-  "asOf": "2026-08-01",
-  "fetchedAt": "2026-09-01",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-03",
   "sourceName": "海田町「町内保育施設の空き状況」",
   "sourceUrl": "https://www.town.kaita.lg.jp/soshiki/14/141287.html",
   "sourceFiles": {
-    "vacancy": "https://www.town.kaita.lg.jp/uploaded/attachment/20723.pdf"
+    "vacancy": "https://www.town.kaita.lg.jp/uploaded/attachment/20832.pdf"
   },
   "metrics": [
     "symbol"
@@ -113,7 +113,7 @@
         null
       ],
       "symbols": [
-        "○",
+        "×",
         "×",
         "×",
         "×",

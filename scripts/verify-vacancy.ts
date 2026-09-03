@@ -46,25 +46,25 @@ const EXPECTED: Record<
   }
 > = {
   yokohama: { asOf: "2026-08-01", facilityCount: 1242, vacancy: 3990, waiting: 13473 },
-  meguro: { asOf: "2026-07-23", facilityCount: 118, vacancy: 871 },
-  kawasaki: { asOf: "2026-07-27", facilityCount: 579, vacancy: 1863 },
+  meguro: { asOf: "2026-09-01", facilityCount: 118, vacancy: 914 },
+  kawasaki: { asOf: "2026-08-25", facilityCount: 579, vacancy: 1740 },
   saitama: { asOf: "2026-08-01", facilityCount: 543, vacancy: 1961 },
-  ota: { asOf: "2026-08-03", facilityCount: 220, vacancy: 1092 },
-  adachi: { asOf: "2026-08-01", facilityCount: 256, vacancy: 988 },
+  ota: { asOf: "2026-09-02", facilityCount: 220, vacancy: 1025 },
+  adachi: { asOf: "2026-09-01", facilityCount: 257, vacancy: 950 },
   edogawa: { asOf: "2026-08-01", facilityCount: 199, vacancy: 459 },
   nerima: { asOf: "2026-07-03", facilityCount: 253, vacancy: 941 },
   setagaya: { asOf: "2026-08-01", facilityCount: 301, vacancy: 895 },
-  suginami: { asOf: "2026-07-31", facilityCount: 235, vacancy: 1311 },
-  katsushika: { asOf: "2026-07-25", facilityCount: 161, vacancy: 405 },
-  shinagawa: { asOf: "2026-07-23", facilityCount: 174, vacancy: 1361 },
-  koto: { asOf: "2026-07-23", facilityCount: 213, vacancy: 2355 },
+  suginami: { asOf: "2026-08-31", facilityCount: 235, vacancy: 1295 },
+  katsushika: { asOf: "2026-08-25", facilityCount: 161, vacancy: 402 },
+  shinagawa: { asOf: "2026-08-21", facilityCount: 174, vacancy: 1333 },
+  koto: { asOf: "2026-08-24", facilityCount: 213, vacancy: 2338 },
   // 四日市市は空きが記号。満1歳からの施設は0歳児と1歳児の欄がひとつなので、
   // PDFに印字された数（○31・△34・×346）より、配ったぶんだけ多くなる
   yokkaichi: {
-    asOf: "2026-07-31",
+    asOf: "2026-08-31",
     facilityCount: 87,
     vacancy: 0,
-    symbolCounts: { "○": 31, "△": 34, "×": 361 },
+    symbolCounts: { "×": 372, "△": 23, "○": 31 },
   },
   // 前橋市は途中入所の空きが記号。5月〜10月ぶんだけ公表される
   maebashi: {
@@ -82,10 +82,10 @@ const EXPECTED: Record<
   },
   // 宮崎市は記号が表の左端に来る
   miyazaki: {
-    asOf: "2026-07-27",
+    asOf: "2026-08-25",
     facilityCount: 162,
     vacancy: 0,
-    symbolCounts: { "○": 61, "△": 395, "×": 444 },
+    symbolCounts: { "△": 399, "×": 493, "○": 50 },
   },
   // 福山市は空きが記号。「-」はその施設が受け入れていないクラス
   fukuyama: {
@@ -110,10 +110,10 @@ const EXPECTED: Record<
   },
   // 鹿児島市は空きが○と×だけ
   kagoshima: {
-    asOf: "2026-07-24",
+    asOf: "2026-08-25",
     facilityCount: 220,
     vacancy: 0,
-    symbolCounts: { "○": 287, "×": 945 },
+    symbolCounts: { "○": 259, "×": 971 },
   },
   // 京都市は受入枠が記号。凡例にない「要相談」は記載のまま載せている
   kyoto: {
@@ -146,16 +146,16 @@ const EXPECTED: Record<
   },
   // 豊中市は欠員数（実数）。2クラスをまとめて出している施設が3件ある
   toyonaka: {
-    asOf: "2026-07-24",
+    asOf: "2026-08-25",
     facilityCount: 137,
-    vacancy: 261,
+    vacancy: 258,
   },
   // 奈良市は受入可能数が記号。凡例にない「◎」は記号のまま載せている
   nara: {
-    asOf: "2026-08-01",
+    asOf: "2026-09-01",
     facilityCount: 78,
     vacancy: 0,
-    symbolCounts: { "○": 10, "△": 95, "×": 301, "◎": 3 },
+    symbolCounts: { "×": 295, "△": 100, "○": 11, "◎": 3 },
   },
   // 西宮市は欠員が記号。「＼（受入れなし）」は null
   nishinomiya: {
@@ -172,10 +172,10 @@ const EXPECTED: Record<
   },
   // 千葉市は空きが記号。公式が「0」と書いているクラスは受け入れなしとして null
   chiba: {
-    asOf: "2026-08-03",
+    asOf: "2026-09-01",
     facilityCount: 378,
     vacancy: 0,
-    symbolCounts: { "◎": 8, "○": 45, "△": 225, "×": 1679 },
+    symbolCounts: { "×": 1702, "△": 215, "○": 27, "◎": 13 },
   },
   // 姫路市は空きが記号。公式の表で空欄のクラスは「－」に置き換えている
   himeji: {
@@ -193,11 +193,11 @@ const EXPECTED: Record<
   },
   // 茅ヶ崎市は空きが記号、待機児童数は実数。受け入れ対象外のクラスは網掛けなので null
   chigasaki: {
-    asOf: "2026-08-01",
+    asOf: "2026-09-01",
     facilityCount: 88,
     vacancy: 0,
-    waiting: 1022,
-    symbolCounts: { "〇": 54, "×": 360 },
+    waiting: 1192,
+    symbolCounts: { "×": 358, "〇": 56 },
   },
   // 所沢市は受入れ見込みが記号。空欄（受入れ予定なし）は「－」に置き換えている
   tokorozawa: {
@@ -230,10 +230,10 @@ const EXPECTED: Record<
   },
   // 流山市も記号で公表している（●・△。空欄は空きなし）
   nagareyama: {
-    asOf: "2026-08-01",
+    asOf: "2026-09-01",
     facilityCount: 109,
     vacancy: 0,
-    symbolCounts: { "●": 85, "△": 140 },
+    symbolCounts: { "△": 137, "●": 72 },
   },
   // 藤沢市も記号で公表している（〇・―・※）
   fujisawa: {
@@ -244,16 +244,16 @@ const EXPECTED: Record<
   },
   // 春日部市も記号で公表している
   kasukabe: {
-    asOf: "2026-07-23",
+    asOf: "2026-08-25",
     facilityCount: 48,
     vacancy: 0,
-    symbolCounts: { "○": 3, "△": 7, "×": 197 },
+    symbolCounts: { "×": 197, "○": 3, "△": 7 },
   },
   // 日野市は受け入れのないクラスを「-」で書くため、空きのない園は全クラス「—」になる。
   // 公式の「合計」列が0であることを取り込み時に確かめている
-  hino: { asOf: "2026-07-25", facilityCount: 47, vacancy: 89, emptyRatio: 0.6 },
+  hino: { asOf: "2026-08-25", facilityCount: 47, vacancy: 89, emptyRatio: 0.6 },
   // 小平市は募集ゼロの園が多いのが通常
-  kodaira: { asOf: "2026-08-01", facilityCount: 69, vacancy: 83, emptyRatio: 0.5 },
+  kodaira: { asOf: "2026-09-01", facilityCount: 69, vacancy: 68, emptyRatio: 0.5 },
   urayasu: { asOf: "2026-08-20", facilityCount: 65, vacancy: 525 },
   // 大和市は受入可能児童数なしの園が多いのが通常
   yamato: { asOf: "2026-09-01", facilityCount: 94, vacancy: 211, emptyRatio: 0.45 },
@@ -261,12 +261,12 @@ const EXPECTED: Record<
   chofu: { asOf: "2026-08-20", facilityCount: 78, vacancy: 236, waiting: 2161, emptyRatio: 0.2 },
   mitaka: { asOf: "2026-09-01", facilityCount: 58, vacancy: 406, waiting: 2453, emptyRatio: 0.2 },
   // 西東京市は欠員なしの園が多いのが通常
-  nishitokyo: { asOf: "2026-08-01", facilityCount: 66, vacancy: 72, emptyRatio: 0.2 },
+  nishitokyo: { asOf: "2026-09-01", facilityCount: 66, vacancy: 58, emptyRatio: 0.2 },
   kashiwa: { asOf: "2026-09-01", facilityCount: 123, vacancy: 261, waiting: 1594, emptyRatio: 0.15 },
   // 町田市は翌月入園の募集人数。募集ゼロの園が多いのが通常
   machida: { asOf: "2026-09-01", facilityCount: 122, vacancy: 153, emptyRatio: 0.6 },
-  ichikawa: { asOf: "2026-08-20", facilityCount: 224, vacancy: 422 },
-  funabashi: { asOf: "2026-07-17", facilityCount: 190, vacancy: 354 },
+  ichikawa: { asOf: "2026-08-26", facilityCount: 224, vacancy: 419 },
+  funabashi: { asOf: "2026-08-20", facilityCount: 191, vacancy: 301 },
   // 八王子市は翌月の募集人数。募集ゼロの園が多いのが通常
   hachioji: { asOf: "2026-08-01", facilityCount: 144, vacancy: 99, emptyRatio: 0.3 },
   sagamihara: { asOf: "2026-08-01", facilityCount: 230, vacancy: 613 },
@@ -278,49 +278,49 @@ const EXPECTED: Record<
   // 大阪市は分園・乳児センターなど担当年齢が限られる施設が多く、全クラス「—」はいない
   osaka: { asOf: "2026-08-01", facilityCount: 896, vacancy: 2117 },
   // 北区は0歳児クラスのない園（つぼみ園など）が多く、全クラス「—」の施設はいない
-  kita: { asOf: "2026-07-30", facilityCount: 125, vacancy: 762, waiting: 2096 },
+  kita: { asOf: "2026-08-29", facilityCount: 125, vacancy: 749, waiting: 2488 },
   // 墨田区も「空き数」ではなく翌月入所の募集見込数。募集ゼロの園が多いのが通常
   sumida: { asOf: "2026-08-06", facilityCount: 103, vacancy: 570, emptyRatio: 0.3 },
-  itabashi: { asOf: "2026-08-03", facilityCount: 210, vacancy: 923 },
+  itabashi: { asOf: "2026-09-01", facilityCount: 210, vacancy: 900 },
   minato: { asOf: "2026-08-17", facilityCount: 113, vacancy: 1499 },
   chiyoda: { asOf: "2026-08-07", facilityCount: 38, vacancy: 360, emptyRatio: 0.15 },
-  bunkyo: { asOf: "2026-08-01", facilityCount: 122, vacancy: 1053, waiting: 882, emptyRatio: 0.3 },
+  bunkyo: { asOf: "2026-09-01", facilityCount: 122, vacancy: 1047, waiting: 1064, emptyRatio: 0.3 },
   // 久留米市は受入可能状況が記号。受入なしは公式では空欄なので「－」に置き換えて持つ
   kurume: {
-    asOf: "2026-08-03",
+    asOf: "2026-09-03",
     facilityCount: 99,
     vacancy: 0,
-    symbolCounts: { "○": 36, "△": 129, "－": 387 },
+    symbolCounts: { "－": 412, "○": 20, "△": 120 },
   },
   // 長野市は空きが記号。1・2歳児が結合された欄が1つあり、両方に配るぶん○が1多い
   nagano: {
-    asOf: "2026-07-27",
+    asOf: "2026-08-25",
     facilityCount: 100,
     vacancy: 0,
-    symbolCounts: { "◎": 14, "○": 81, "×": 468 },
+    symbolCounts: { "×": 481, "○": 69, "◎": 13 },
   },
   kochi: { asOf: "2026-08-20", facilityCount: 124, vacancy: 1228, emptyRatio: 0.5 },
   // 郡山市は空きが記号。空欄は「空きなし」なので「－」に置き換えて持つ
   koriyama: {
-    asOf: "2026-07-23",
+    asOf: "2026-08-24",
     facilityCount: 89,
     vacancy: 0,
-    symbolCounts: { "○": 24, "△": 42, "－": 390 },
+    symbolCounts: { "－": 397, "△": 40, "○": 19 },
   },
-  akita: { asOf: "2026-08-14", facilityCount: 95, vacancy: 936, emptyRatio: 0.6 },
+  akita: { asOf: "2026-08-28", facilityCount: 95, vacancy: 929, emptyRatio: 0.6 },
   // 福岡市は空きを幅（◎6人以上など）で公表している。時点は施設情報の更新日なので日々動く
   fukuoka: {
-    asOf: "2026-08-21",
+    asOf: "2026-08-31",
     facilityCount: 472,
     vacancy: 0,
-    symbolCounts: { "◎": 55, "○": 114, "△": 283, "×": 1857 },
+    symbolCounts: { "×": 1875, "△": 263, "○": 117, "◎": 54 },
   },
   // 静岡市は選考後に残った空き枠を記号で公表している
   shizuoka: {
-    asOf: "2026-08-20",
+    asOf: "2026-08-26",
     facilityCount: 219,
     vacancy: 0,
-    symbolCounts: { "◎": 46, "○": 46, "△": 130, "－": 850, "※": 20 },
+    symbolCounts: { "－": 849, "△": 130, "◎": 47, "○": 46, "※": 20 },
   },
   // 渋谷区は毎月の利用調整の募集数と申込数。申込数は延べ人数
   shibuya: { asOf: "2026-08-17", facilityCount: 74, vacancy: 1149, waiting: 844, emptyRatio: 0.4 },
@@ -332,29 +332,29 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "有": 63, "－": 291 },
   },
-  hirakata: { asOf: "2026-07-29", facilityCount: 78, vacancy: 91, emptyRatio: 0.9 },
+  hirakata: { asOf: "2026-08-29", facilityCount: 78, vacancy: 70, emptyRatio: 0.9 },
   // 茨木市は記号。「ー」（受け入れ対象歳児ではない）は「—」にしてある
   ibaraki: {
-    asOf: "2026-07-24",
+    asOf: "2026-08-26",
     facilityCount: 95,
     vacancy: 0,
-    symbolCounts: { "○": 1, "△": 23, "×": 405, "※": 8 },
+    symbolCounts: { "×": 409, "△": 19, "○": 1, "※": 8 },
   },
   takarazuka: { asOf: "2026-08-01", facilityCount: 41, vacancy: 142, emptyRatio: 0.5 },
-  kamakura: { asOf: "2026-08-21", facilityCount: 50, vacancy: 80, emptyRatio: 0.7 },
+  kamakura: { asOf: "2026-08-26", facilityCount: 50, vacancy: 80, emptyRatio: 0.7 },
   // 加古川市は記号。▲がほとんどで、空きがあるのは☆と□だけ
   kakogawa: {
-    asOf: "2026-07-27",
+    asOf: "2026-08-26",
     facilityCount: 73,
     vacancy: 0,
-    symbolCounts: { "☆": 3, "□": 14, "▲": 343 },
+    symbolCounts: { "▲": 338, "□": 19, "☆": 3 },
   },
   // 和歌山市は公式ページのHTMLの表から読む（保育所と認定こども園の2ページ）
   wakayama: {
-    asOf: "2026-08-03",
+    asOf: "2026-09-01",
     facilityCount: 61,
     vacancy: 0,
-    symbolCounts: { "▲": 62, "×": 291 },
+    symbolCounts: { "▲": 47, "×": 307 },
   },
   // 下関市は記号。「―」（受入れなし）は「—」にしてある
   shimonoseki: {
@@ -372,16 +372,16 @@ const EXPECTED: Record<
   },
   // 富士市は空きの有無だけ。「＼」（受入クラスなし）は図形で描かれている
   fuji: {
-    asOf: "2026-08-03",
+    asOf: "2026-09-01",
     facilityCount: 71,
     vacancy: 0,
-    symbolCounts: { "○": 113, "－": 225 },
+    symbolCounts: { "－": 230, "○": 108 },
   },
   kumagaya: {
-    asOf: "2026-07-25",
+    asOf: "2026-08-25",
     facilityCount: 51,
     vacancy: 0,
-    symbolCounts: { "○": 10, "△": 26, "×": 230 },
+    symbolCounts: { "×": 232, "△": 21, "○": 13 },
   },
   // 宇治市は記号。混合保育のクラスは欄が結合されていて、その幅ぶん同じ記号を配る
   uji: {
@@ -391,12 +391,12 @@ const EXPECTED: Record<
     symbolCounts: { "○": 36, "×": 129 },
   },
   // 川西市は人数。公式の表は5歳→0歳の逆順なので読むときにひっくり返している
-  kawanishi: { asOf: "2026-08-01", facilityCount: 41, vacancy: 66, emptyRatio: 0.8 },
+  kawanishi: { asOf: "2026-09-01", facilityCount: 41, vacancy: 58, emptyRatio: 0.8 },
   kisarazu: {
-    asOf: "2026-08-01",
+    asOf: "2026-09-01",
     facilityCount: 32,
     vacancy: 0,
-    symbolCounts: { "△": 4, "✕": 138 },
+    symbolCounts: { "✕": 141, "△": 1 },
   },
   // 安城市も公式の表は5歳→0歳の逆順
   anjo: {
@@ -414,10 +414,10 @@ const EXPECTED: Record<
   },
   // 津市は種類ごとに表が分かれていて、種類名は表のすぐ上に書いてあるだけ
   tsu: {
-    asOf: "2026-08-01",
+    asOf: "2026-09-01",
     facilityCount: 66,
     vacancy: 0,
-    symbolCounts: { "〇": 102, "－": 278 },
+    symbolCounts: { "－": 278, "〇": 102 },
   },
   // 青森市は空欄がなく、111施設×6歳児＝666の記号がすべて埋まっている
   aomori: {
@@ -456,17 +456,17 @@ const EXPECTED: Record<
   },
   // 我孫子市はPDFではなくページの表そのものに載っている
   abiko: {
-    asOf: "2026-08-21",
+    asOf: "2026-08-25",
     facilityCount: 28,
     vacancy: 0,
-    symbolCounts: { "〇": 1, "△": 18, "×": 137 },
+    symbolCounts: { "×": 138, "△": 17, "〇": 1 },
   },
   // 稲沢市も公式の表は5歳→0歳の逆順。1号認定の行は取り込んでいない
   inazawa: {
-    asOf: "2026-08-01",
+    asOf: "2026-09-01",
     facilityCount: 29,
     vacancy: 0,
-    symbolCounts: { "×": 109, "△": 32, "〇": 9 },
+    symbolCounts: { "×": 112, "△": 32, "〇": 5 },
   },
   // 深谷市は人数。行ごとに合計が入っているので突き合わせている
   fukaya: {
@@ -489,7 +489,7 @@ const EXPECTED: Record<
   },
   // 入間市の「*」は受入年齢対象外。公式が凡例で決めている記号なのでそのまま持つ
   iruma: {
-    asOf: "2026-08-01",
+    asOf: "2026-09-01",
     facilityCount: 34,
     vacancy: 0,
     symbolCounts: { "*": 11, "×": 115, "▲": 31, "△": 10, "○": 9 },
@@ -516,17 +516,17 @@ const EXPECTED: Record<
   },
   // 小山市は基準日を書いていないので、公式ページの更新日を時点にしている
   oyama: {
-    asOf: "2026-07-29",
+    asOf: "2026-08-28",
     facilityCount: 47,
     vacancy: 0,
-    symbolCounts: { "△": 56, "×": 211, "ー": 15 },
+    symbolCounts: { "×": 216, "△": 51, "ー": 15 },
   },
   // 苫小牧市は公式が絵文字。当サイトでは ○／△／✕ に置き換えている
   tomakomai: {
-    asOf: "2026-08-01",
+    asOf: "2026-09-01",
     facilityCount: 50,
     vacancy: 0,
-    symbolCounts: { "○": 67, "△": 58, "✕": 115 },
+    symbolCounts: { "△": 55, "○": 59, "✕": 126 },
   },
   // 佐賀市は記号の意味を公表していないので、記号だけをそのまま持っている
   saga: {
@@ -537,10 +537,10 @@ const EXPECTED: Record<
   },
   // 飯塚市も記号の意味を公表していない。基準日は PDF の Last-Modified
   iizuka: {
-    asOf: "2026-08-07",
+    asOf: "2026-08-28",
     facilityCount: 36,
     vacancy: 0,
-    symbolCounts: { "○": 19, "×": 197 },
+    symbolCounts: { "×": 199, "○": 17 },
   },
   // 海老名市は斜線が「その年齢の受け入れをしていない」。空らんは0人
   ebina: {
@@ -571,17 +571,17 @@ const EXPECTED: Record<
   },
   // 草加市は合計行がないので、欄の数（数2・斜線・空らん）で担保している
   soka: {
-    asOf: "2026-07-27",
+    asOf: "2026-08-25",
     facilityCount: 74,
-    vacancy: 163,
+    vacancy: 160,
     emptyRatio: 20,
   },
   // 春日井市は「〇」(U+3007)を使っている。外之原保育園の△は列の境目にあり位置を決められない
   kasugai: {
-    asOf: "2026-07-29",
+    asOf: "2026-08-27",
     facilityCount: 79,
     vacancy: 0,
-    symbolCounts: { "〇": 24, "△": 67, "×": 305 },
+    symbolCounts: { "×": 303, "△": 65, "〇": 24 },
   },
   // 豊橋市は保育園と認定こども園でPDFが分かれており、基準日も別（古いほうを採る）
   toyohashi: {
@@ -613,24 +613,24 @@ const EXPECTED: Record<
   },
   // 富士見市は「保無（保育未実施）」が多いので「—」の割合が高い
   fujimi: {
-    asOf: "2026-07-24",
+    asOf: "2026-08-31",
     facilityCount: 37,
-    vacancy: 12,
+    vacancy: 14,
     emptyRatio: 20,
   },
   // 東海市の「－（保育実施なし）」は「—」にしているので、凡例には残さない
   tokai: {
-    asOf: "2026-07-21",
+    asOf: "2026-08-21",
     facilityCount: 34,
     vacancy: 0,
-    symbolCounts: { "○": 54, "×": 95 },
+    symbolCounts: { "×": 96, "○": 53 },
   },
   // 箕面市は施設名に受入年齢が書いてあり、空らんの位置と照合している
   minoh: {
-    asOf: "2026-07-30",
+    asOf: "2026-08-31",
     facilityCount: 48,
     vacancy: 0,
-    symbolCounts: { "〇": 5, "△": 30, "×": 193 },
+    symbolCounts: { "×": 194, "△": 30, "〇": 4 },
   },
   // 栃木市は公式の表で受入なしが空らん。当サイトでは「✕」に置き換えている
   "tochigi-city": {
@@ -655,9 +655,9 @@ const EXPECTED: Record<
   },
   // 四街道市は受入可能・在籍・入所待ちの3つが揃う（合計の列で全件検算できる）
   yotsukaido: {
-    asOf: "2026-08-01",
+    asOf: "2026-09-01",
     facilityCount: 40,
-    vacancy: 248,
+    vacancy: 226,
   },
   // 木津川市は凡例と注記が「備考」の列に縦に入っている
   kizugawa: {
@@ -695,23 +695,23 @@ const EXPECTED: Record<
   },
   // 大崎市は「入所対象児」の列から年齢の範囲が上下とも決まるので空らんを全件検算できる
   osaki: {
-    asOf: "2026-08-14",
+    asOf: "2026-08-27",
     facilityCount: 46,
     vacancy: 0,
-    symbolCounts: { "×": 158, "△": 82, "○": 3 },
+    symbolCounts: { "○": 3, "△": 79, "×": 161 },
   },
   // 神栖市は「受入対象」の列があるので、受け入れ開始年齢より前の空らんを検算できる
   kamisu: {
-    asOf: "2026-07-31",
+    asOf: "2026-08-31",
     facilityCount: 35,
     vacancy: 0,
-    symbolCounts: { "×": 142, "○": 19, "◎": 12 },
+    symbolCounts: { "×": 148, "○": 16, "◎": 9 },
   },
   // 蕨市は空き0人が「×」なので、空らんはその年齢のクラスなし
   warabi: {
-    asOf: "2026-08-01",
+    asOf: "2026-09-01",
     facilityCount: 28,
-    vacancy: 137,
+    vacancy: 134,
   },
   // 日高市は空きを記号ではなく言葉で公表している（「空きあり」「若干名」など）
   hidaka: {
@@ -728,10 +728,10 @@ const EXPECTED: Record<
   },
   // 綾瀬市も入所見込みが無ければ「×」と書かれるので、空らんはクラスなし
   ayase: {
-    asOf: "2026-08-01",
+    asOf: "2026-09-01",
     facilityCount: 16,
     vacancy: 0,
-    symbolCounts: { "×": 67, "△": 10, "○": 1 },
+    symbolCounts: { "×": 72, "△": 5, "○": 1 },
   },
   // 尼崎市は0人なら「×」と書かれるので、空らんはその年齢の受け入れなし
   amagasaki: {
@@ -742,10 +742,10 @@ const EXPECTED: Record<
   },
   // 知多市も入所案内PDFの保育年齢と突き合わせて空らんがクラスなしだと確かめている
   chita: {
-    asOf: "2026-08-03",
+    asOf: "2026-09-01",
     facilityCount: 21,
     vacancy: 0,
-    symbolCounts: { "×": 60, "○": 51 },
+    symbolCounts: { "×": 62, "○": 49 },
   },
   // 江南市は入園案内PDFの入所年齢と突き合わせて「ー」がクラスなしだと確かめている
   konan: {
@@ -755,10 +755,10 @@ const EXPECTED: Record<
   },
   // 豊川市は0歳児に「※1」だけが入る欄がある（空きの有無は書かれていない）
   toyokawa: {
-    asOf: "2026-07-24",
+    asOf: "2026-08-21",
     facilityCount: 53,
     vacancy: 0,
-    symbolCounts: { "-": 183, "※1": 2, "○": 115 },
+    symbolCounts: { "-": 188, "○": 110, "※1": 2 },
   },
   // 半田市は「×」が定員充足（空き0）、空らんがその年齢の受け入れなし
   handa: {
@@ -789,22 +789,22 @@ const EXPECTED: Record<
   },
   // 南城市は1施設が5行（定員・受入可能・入所・入所待ち・空き）
   nanjo: {
-    asOf: "2026-08-01",
+    asOf: "2026-09-01",
     facilityCount: 34,
-    vacancy: 88,
+    vacancy: 85,
   },
   // 宗像市は区分の縦書きが2列に分かれて文字が混ざる
   munakata: {
-    asOf: "2026-08-01",
+    asOf: "2026-09-01",
     facilityCount: 20,
     vacancy: 0,
-    symbolCounts: { "△": 24, "○": 3, "－": 84 },
+    symbolCounts: { "－": 92, "△": 18, "○": 1 },
   },
   // 新居浜市は同じPDFに市全体の入所待ち人数も載っている
   niihama: {
-    asOf: "2026-08-26",
+    asOf: "2026-08-31",
     facilityCount: 36,
-    vacancy: 31,
+    vacancy: 29,
   },
   // 取手市は受入れ見込みのあるクラスに丸印がつくだけ（空らんは見込みなし）
   toride: {
@@ -815,10 +815,10 @@ const EXPECTED: Record<
   },
   // 三原市は年齢ごとに6本のPDFが分かれていて、それを施設ごとに組み直している
   mihara: {
-    asOf: "2026-07-27",
+    asOf: "2026-08-27",
     facilityCount: 31,
     vacancy: 0,
-    symbolCounts: { "△": 95, "○": 23 },
+    symbolCounts: { "△": 93, "○": 29 },
   },
   // 防府市は記号が6段階
   hofu: {
@@ -848,10 +848,10 @@ const EXPECTED: Record<
   },
   // 坂戸市は○×の2記号だけで人数は非公表
   sakado: {
-    asOf: "2026-07-31",
+    asOf: "2026-09-01",
     facilityCount: 28,
     vacancy: 0,
-    symbolCounts: { "×": 77, "○": 51 },
+    symbolCounts: { "×": 82, "○": 46 },
   },
   // 狭山市は空白が「空きなし」。対象年齢の欄でクラスなしと見分けている
   sayama: {
@@ -874,9 +874,9 @@ const EXPECTED: Record<
   },
   // 北本市は通し番号と各行の「合計」欄で検算している
   kitamoto: {
-    asOf: "2026-08-01",
+    asOf: "2026-09-01",
     facilityCount: 21,
-    vacancy: 39,
+    vacancy: 33,
   },
   // 桶川市は施設名が2行に折り返される
   okegawa: {
@@ -886,7 +886,7 @@ const EXPECTED: Record<
   },
   // 鎌ケ谷市はHTMLの表。区分が rowspan で入るので先頭行だけ列がひとつ多い
   kamagaya: {
-    asOf: "2026-08-12",
+    asOf: "2026-09-01",
     facilityCount: 25,
     vacancy: 0,
     symbolCounts: { "×": 116, "△": 4 },
@@ -900,10 +900,10 @@ const EXPECTED: Record<
   },
   // 行田市は「あり」「なし」の2つの記号だけ
   gyoda: {
-    asOf: "2026-07-23",
+    asOf: "2026-08-25",
     facilityCount: 18,
     vacancy: 0,
-    symbolCounts: { "×": 68, "○": 24 },
+    symbolCounts: { "×": 70, "○": 22 },
   },
   // 志木市は各行の「合 計」といちばん下の「合 計」の両方で検算している
   shiki: {
@@ -913,15 +913,15 @@ const EXPECTED: Record<
   },
   // 武蔵村山市はHTMLの表。数字は募集人数
   musashimurayama: {
-    asOf: "2026-08-08",
+    asOf: "2026-09-01",
     facilityCount: 15,
-    vacancy: 67,
+    vacancy: 58,
   },
   // あきる野市は区分ごとの小計と全体の合計の両方で検算している
   akiruno: {
-    asOf: "2026-08-01",
+    asOf: "2026-09-01",
     facilityCount: 24,
-    vacancy: 130,
+    vacancy: 124,
   },
   // 羽村市は家庭的保育者の欄が0〜2歳ひとまとめ
   hamura: {
@@ -951,9 +951,9 @@ const EXPECTED: Record<
   },
   // 浦添市は受入可能児童数と入所待ち児童数の2つを公表している
   urasoe: {
-    asOf: "2026-08-24",
+    asOf: "2026-08-28",
     facilityCount: 64,
-    vacancy: 122,
+    vacancy: 125,
   },
   // 野洲市は時点がリンクの文字にしか書かれていない
   yasu: {
@@ -971,10 +971,10 @@ const EXPECTED: Record<
   },
   // 小松市は空らん（受入なし）と斜線（クラスなし）で意味が違う
   komatsu: {
-    asOf: "2026-08-01",
+    asOf: "2026-09-01",
     facilityCount: 39,
     vacancy: 0,
-    symbolCounts: { "×": 118, "△": 88, "○": 15, "◎": 5 },
+    symbolCounts: { "×": 130, "△": 79, "○": 13, "◎": 4 },
   },
   // 中津市は通し番号と合計行があるので、連番と合計の両方を検算に使っている
   nakatsu: {
@@ -1003,17 +1003,17 @@ const EXPECTED: Record<
   },
   // 亀岡市は合同学級の欄が結合されていて、同じ記号を広げて入れている
   kameoka: {
-    asOf: "2026-08-03",
+    asOf: "2026-09-01",
     facilityCount: 23,
     vacancy: 0,
-    symbolCounts: { "×": 86, "□": 11, "△": 15, "○": 9 },
+    symbolCounts: { "×": 97, "△": 9, "○": 8, "□": 7 },
   },
   // 久喜市は記号が5段階（◎10人以上／○6〜9／□3〜5／△1〜2／×空きなし）
   kuki: {
-    asOf: "2026-07-27",
+    asOf: "2026-08-26",
     facilityCount: 43,
     vacancy: 0,
-    symbolCounts: { "×": 183, "□": 6, "△": 14 },
+    symbolCounts: { "×": 182, "△": 16, "□": 5 },
   },
   // 土浦市は企業主導型（市の入所調整の対象外）を除いた45施設
   tsuchiura: {
@@ -1044,10 +1044,10 @@ const EXPECTED: Record<
   },
   // 諫早市は空欄が「受け入れ可能」。当サイトでは○に置き換えている
   isahaya: {
-    asOf: "2026-08-01",
+    asOf: "2026-09-01",
     facilityCount: 64,
     vacancy: 0,
-    symbolCounts: { "×": 181, "※": 25, "○": 178 },
+    symbolCounts: { "×": 189, "○": 171, "※": 24 },
   },
   // 周南市は0歳児の欄に受け入れ月齢が併記される
   shunan: {
@@ -1098,10 +1098,10 @@ const EXPECTED: Record<
   },
   // 沼津市はPDFではなくページのHTMLの表。空きは「若干名」「無」の言葉で表される
   numazu: {
-    asOf: "2026-08-01",
+    asOf: "2026-09-01",
     facilityCount: 49,
     vacancy: 0,
-    symbolCounts: { "無": 152, "若干名": 104 },
+    symbolCounts: { "若干名": 100, "無": 156 },
   },
   // 尾道市は入所月の1日時点の見込みを前の月に公開する（asOfが未来の日付になる）
   onomichi: {
@@ -1112,10 +1112,10 @@ const EXPECTED: Record<
   },
   // 福島市は年齢の欄が上下2段（上＝受入予定数の記号、下＝申込み人数）
   fukushima: {
-    asOf: "2026-08-25",
+    asOf: "2026-08-28",
     facilityCount: 84,
     vacancy: 0,
-    symbolCounts: { "×": 365, "▲": 56, "△": 7 },
+    symbolCounts: { "×": 364, "▲": 57, "△": 7 },
   },
   // 成田市は公立の小規模保育だけ3〜5歳がひとつの欄。同じ記号を3つに広げている
   narita: {
@@ -1185,10 +1185,10 @@ const EXPECTED: Record<
     symbolCounts: { "×": 120, "△": 12, "○": 7 },
   },
   toyoake: {
-    asOf: "2026-08-01",
+    asOf: "2026-09-01",
     facilityCount: 20,
     vacancy: 0,
-    symbolCounts: { "×": 63, "△": 25, "○": 13 },
+    symbolCounts: { "△": 27, "×": 63, "○": 11 },
   },
   obu: {
     asOf: "2026-03-17",
@@ -1203,10 +1203,10 @@ const EXPECTED: Record<
     symbolCounts: { "×": 67, "△": 12, "○": 2 },
   },
   kimitsu: {
-    asOf: "2026-08-01",
+    asOf: "2026-09-01",
     facilityCount: 21,
     vacancy: 0,
-    symbolCounts: { "×": 104, "△": 3, "○": 1 },
+    symbolCounts: { "×": 104, "△": 4 },
   },
   chikusei: {
     asOf: "2026-07-31",
@@ -1215,21 +1215,21 @@ const EXPECTED: Record<
     symbolCounts: { "×": 57, "△": 53, "○": 22, "◎": 16 },
   },
   ome: {
-    asOf: "2026-08-10",
+    asOf: "2026-09-03",
     facilityCount: 31,
-    vacancy: 322,
+    vacancy: 301,
   },
   chikushino: {
-    asOf: "2026-08-03",
+    asOf: "2026-09-01",
     facilityCount: 20,
     vacancy: 0,
-    symbolCounts: { "×": 92, "△": 10, "○": 5 },
+    symbolCounts: { "×": 94, "△": 7, "○": 6 },
   },
   nogata: {
-    asOf: "2026-07-31",
+    asOf: "2026-08-31",
     facilityCount: 15,
     vacancy: 0,
-    symbolCounts: { "×": 70, "○": 16 },
+    symbolCounts: { "×": 77, "○": 9 },
   },
   fukuroi: {
     asOf: "2026-08-25",
@@ -1267,10 +1267,10 @@ const EXPECTED: Record<
     vacancy: 203,
   },
   hioki: {
-    asOf: "2026-07-31",
+    asOf: "2026-09-02",
     facilityCount: 25,
     vacancy: 0,
-    symbolCounts: { "×": 81, "○": 54, "ー": 3 },
+    symbolCounts: { "×": 74, "○": 33, "ー": 31 },
   },
   ito: {
     asOf: "2026-08-17",
@@ -1343,10 +1343,10 @@ const EXPECTED: Record<
     symbolCounts: { "×": 78, "△": 50, "○": 9 },
   },
   murakami: {
-    asOf: "2026-07-01",
+    asOf: "2026-09-01",
     facilityCount: 19,
     vacancy: 0,
-    symbolCounts: { "△": 64, "○": 31, "×": 7 },
+    symbolCounts: { "△": 64, "○": 33, "×": 5 },
   },
   setouchi: {
     asOf: "2026-08-01",
@@ -1387,15 +1387,15 @@ const EXPECTED: Record<
   },
 
   dazaifu: {
-    asOf: "2026-08-03",
+    asOf: "2026-09-01",
     facilityCount: 18,
     vacancy: 0,
-    symbolCounts: { "×": 88, "△": 2, "○": 1 },
+    symbolCounts: { "×": 89, "○": 1, "△": 1 },
   },
   mizuho: {
-    asOf: "2026-08-01",
+    asOf: "2026-09-01",
     facilityCount: 12,
-    vacancy: 69,
+    vacancy: 63,
   },
   itoman: {
     asOf: "2026-08-20",
@@ -1564,9 +1564,9 @@ const EXPECTED: Record<
     vacancy: 189,
   },
   shimamoto: {
-    asOf: "2026-07-14",
+    asOf: "2026-08-12",
     facilityCount: 13,
-    vacancy: 58,
+    vacancy: 53,
   },
   takahata: {
     asOf: "2026-09-01",
@@ -1586,10 +1586,10 @@ const EXPECTED: Record<
     symbolCounts: { "△": 20, "×": 20, "○": 18 },
   },
   kaita: {
-    asOf: "2026-08-01",
+    asOf: "2026-09-01",
     facilityCount: 11,
     vacancy: 0,
-    symbolCounts: { "×": 47, "○": 13 },
+    symbolCounts: { "○": 12, "×": 48 },
   },
   anan: {
     asOf: "2026-08-05",
@@ -1610,15 +1610,15 @@ const EXPECTED: Record<
     symbolCounts: { "×": 96, "△": 6 },
   },
   tsubame: {
-    asOf: "2026-08-01",
+    asOf: "2026-09-01",
     facilityCount: 25,
     vacancy: 0,
-    symbolCounts: { "×": 111, "△": 15, "○": 12 },
+    symbolCounts: { "×": 113, "△": 14, "○": 11 },
   },
   yonabaru: {
-    asOf: "2026-08-01",
+    asOf: "2026-09-01",
     facilityCount: 15,
-    vacancy: 37,
+    vacancy: 32,
   },
   yaese: {
     asOf: "2026-08-01",
@@ -1637,10 +1637,10 @@ const EXPECTED: Record<
     symbolCounts: { "×": 137 },
   },
   tamura: {
-    asOf: "2026-08-03",
+    asOf: "2026-09-01",
     facilityCount: 10,
     vacancy: 0,
-    symbolCounts: { "×": 22, "△": 9, "○": 5 },
+    symbolCounts: { "×": 23, "△": 8, "○": 5 },
   },
   sukagawa: {
     asOf: "2026-08-17",
@@ -1685,10 +1685,10 @@ const EXPECTED: Record<
     symbolCounts: { "×": 44, "△": 6, "○": 1 },
   },
   miyako: {
-    asOf: "2026-08-01",
+    asOf: "2026-09-01",
     facilityCount: 29,
     vacancy: 0,
-    symbolCounts: { "△": 68, "×": 51, "○": 8, "※": 4, "◎": 3 },
+    symbolCounts: { "×": 69, "△": 48, "○": 10, "◎": 3, "※": 4 },
   },
   kobayashi: {
     asOf: "2026-09-01",
@@ -1778,7 +1778,7 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "○": 27, "×": 23, "△": 22 },
   },
-  nakano: { asOf: "2026-09-01", facilityCount: 113, vacancy: 891 },
+  nakano: { asOf: "2026-10-01", facilityCount: 113, vacancy: 887 },
   minamisoma: {
     asOf: "2026-09-01",
     facilityCount: 16,
@@ -1893,10 +1893,10 @@ const EXPECTED: Record<
     symbolCounts: { "×": 32, "△": 3, "○": 1 },
   },
   taiwa: {
-    asOf: "2026-08-10",
+    asOf: "2026-08-17",
     facilityCount: 10,
     vacancy: 0,
-    symbolCounts: { "×": 26, "○": 12, "△": 10 },
+    symbolCounts: { "×": 28, "○": 10, "△": 10 },
   },
   imari: {
     asOf: "2026-08-25",
@@ -1939,9 +1939,9 @@ const EXPECTED: Record<
     symbolCounts: { "×": 75, "△": 23, "○": 4 },
   },
   kamaishi: {
-    asOf: "2026-08-01",
-    facilityCount: 12,
-    vacancy: 85,
+    asOf: "2026-09-01",
+    facilityCount: 11,
+    vacancy: 81,
   },
   kosai: {
     asOf: "2026-08-10",
@@ -1983,9 +1983,9 @@ const EXPECTED: Record<
     symbolCounts: { "□": 979, "△": 189, "×": 20 },
   },
   hanamaki: {
-    asOf: "2026-08-03",
+    asOf: "2026-09-03",
     facilityCount: 41,
-    vacancy: 67,
+    vacancy: 46,
   },
   nihonmatsu: {
     asOf: "2026-08-17",
@@ -2017,10 +2017,10 @@ const EXPECTED: Record<
     symbolCounts: { "×": 61, "〇": 10 },
   },
   ozu: {
-    asOf: "2026-08-10",
+    asOf: "2026-09-01",
     facilityCount: 16,
     vacancy: 0,
-    symbolCounts: { "×": 34, "△": 27, "〇": 23 },
+    symbolCounts: { "△": 18, "×": 37, "〇": 29 },
   },
   ureshino: {
     asOf: "2026-08-26",
@@ -2171,10 +2171,10 @@ const EXPECTED: Record<
     symbolCounts: { "×": 63, "〇": 19, "△": 14 },
   },
   kanzaki: {
-    asOf: "2026-08-10",
+    asOf: "2026-09-01",
     facilityCount: 10,
     vacancy: 0,
-    symbolCounts: { "×": 37, "〇": 23 },
+    symbolCounts: { "×": 40, "〇": 20 },
   },
   hamada: {
     asOf: "2026-08-31",
@@ -2183,10 +2183,10 @@ const EXPECTED: Record<
     symbolCounts: { "〇": 47, "×": 30, "△": 7 },
   },
   mibu: {
-    asOf: "2026-08-10",
+    asOf: "2026-09-02",
     facilityCount: 11,
     vacancy: 0,
-    symbolCounts: { "×": 37, "△": 15, "〇": 11 },
+    symbolCounts: { "×": 36, "△": 19, "〇": 8 },
   },
   arakawa: {
     asOf: "2026-09-01",
@@ -2217,9 +2217,9 @@ const EXPECTED: Record<
     symbolCounts: { "×": 117, "△": 3, "○": 6 },
   },
   uruma: {
-    asOf: "2026-08-01",
+    asOf: "2026-09-01",
     facilityCount: 84,
-    vacancy: 322,
+    vacancy: 300,
   },
   fujioka: {
     asOf: "2026-08-01",
@@ -2240,10 +2240,10 @@ const EXPECTED: Record<
     symbolCounts: { "×": 151, "○": 12 },
   },
   kanuma: {
-    asOf: "2026-08-01",
+    asOf: "2026-09-01",
     facilityCount: 33,
     vacancy: 0,
-    symbolCounts: { "×": 92, "△": 70, "○": 4 },
+    symbolCounts: { "×": 99, "△": 65, "○": 2 },
   },
   sakura: {
     asOf: "2026-08-01",
@@ -2258,10 +2258,10 @@ const EXPECTED: Record<
     symbolCounts: { "×": 33, "△": 33, "○": 21 },
   },
   tomisato: {
-    asOf: "2026-08-01",
+    asOf: "2026-09-01",
     facilityCount: 11,
     vacancy: 0,
-    symbolCounts: { "△": 4, "✖": 48 },
+    symbolCounts: { "✖": 48, "△": 4 },
   },
   moriguchi: {
     asOf: "2026-08-26",
@@ -2351,10 +2351,10 @@ const EXPECTED: Record<
   },
   // 岡崎市は「下山保育園（休園中）」の1件だけ全クラスが「—」になる（63件中1件＝1.6%）
   okazaki: {
-    asOf: "2026-08-12",
+    asOf: "2026-09-01",
     facilityCount: 63,
     vacancy: 0,
-    symbolCounts: { "〇": 92, "△": 100, "×": 159 },
+    symbolCounts: { "×": 163, "△": 96, "〇": 92 },
   },
 };
 

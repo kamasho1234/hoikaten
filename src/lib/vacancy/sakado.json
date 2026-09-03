@@ -1,19 +1,19 @@
 {
   "municipalitySlug": "sakado",
   "municipalityName": "坂戸市",
-  "asOf": "2026-07-31",
-  "fetchedAt": "2026-08-26",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-03",
   "sourceName": "坂戸市「保育所等の空き状況」",
   "sourceUrl": "https://www.city.sakado.lg.jp/site/sakado-kosodate/41080.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.sakado.lg.jp/uploaded/attachment/36264.pdf"
+    "vacancy": "https://www.city.sakado.lg.jp/uploaded/attachment/36573.pdf"
   },
   "metrics": [
     "symbol"
   ],
-  "subtitle": "2026年9月1日入所の空き状況",
+  "subtitle": "2026年10月1日入所の空き状況",
   "notes": [
-    "坂戸市は空き状況を人数ではなく「空きあり」「空きなし」の記号で公表しています。これは2026年9月1日入所のもので、公式ページが2026-07-31に更新されたものです。",
+    "坂戸市は空き状況を人数ではなく「空きあり」「空きなし」の記号で公表しています。これは2026年10月1日入所のもので、公式ページが2026-09-01に更新されたものです。",
     "具体的な人数については非公表となります。",
     "公式の表で空らんになっている年齢は「—」にしています。その年齢のクラスがないことを表しています。"
   ],
@@ -39,31 +39,31 @@
   "facilities": [
     {"id":"千代田保育園","name":"千代田保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
     {"id":"東坂戸保育園","name":"東坂戸保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["○","×","×","○","○","○"]},
-    {"id":"薬師保育園","name":"薬師保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
-    {"id":"城山保育園","name":"城山保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","○","×","○","○","○"]},
+    {"id":"薬師保育園","name":"薬師保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","○","×","×","×"]},
+    {"id":"城山保育園","name":"城山保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","○","○","○"]},
     {"id":"みのり保育園","name":"みのり保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","○"]},
-    {"id":"あさば保育園","name":"あさば保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
-    {"id":"キッズハーモニー・坂戸","name":"キッズハーモニー・坂戸","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
-    {"id":"さつき保育園","name":"さつき保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
-    {"id":"アスクわかば保育園","name":"アスクわかば保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","○","○","×","×"]},
+    {"id":"あさば保育園","name":"あさば保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["○","○","○","×","×","×"]},
+    {"id":"キッズハーモニー・坂戸","name":"キッズハーモニー・坂戸","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","○","×","×","×"]},
+    {"id":"さつき保育園","name":"さつき保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","○","×","○","×","×"]},
+    {"id":"アスクわかば保育園","name":"アスクわかば保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","○","×","×"]},
     {"id":"レイモンド坂戸保育園","name":"レイモンド坂戸保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
     {"id":"むぎのこ保育園","name":"むぎのこ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["○","○","○","○","○","×"]},
     {"id":"坂戸さくら保育園","name":"坂戸さくら保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","○","×","×"]},
     {"id":"フラップ坂戸保育園","name":"フラップ坂戸保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","○","○","○"]},
     {"id":"坂戸保育園","name":"坂戸保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
-    {"id":"子どもの夢保育園南口ハウス","name":"子どもの夢保育園南口ハウス","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["○","○","○",null,null,null]},
+    {"id":"子どもの夢保育園南口ハウス","name":"子どもの夢保育園南口ハウス","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
     {"id":"子どもの夢保育園北口ハウス","name":"子どもの夢保育園北口ハウス","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["○","○","○",null,null,null]},
-    {"id":"フラップ北坂戸末広保育園","name":"フラップ北坂戸末広保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","○","○",null,null,null]},
-    {"id":"つぼみ保育園","name":"つぼみ保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["○","○","×",null,null,null]},
-    {"id":"こひつじ園塚越","name":"こひつじ園塚越","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["○","×","×",null,null,null]},
+    {"id":"フラップ北坂戸末広保育園","name":"フラップ北坂戸末広保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","○",null,null,null]},
+    {"id":"つぼみ保育園","name":"つぼみ保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","○","×",null,null,null]},
+    {"id":"こひつじ園塚越","name":"こひつじ園塚越","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["○","○","×",null,null,null]},
     {"id":"ポレポレ保育室","name":"ポレポレ保育室","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
-    {"id":"フラップ北坂戸東口保育園","name":"フラップ北坂戸東口保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","○",null,null,null]},
+    {"id":"フラップ北坂戸東口保育園","name":"フラップ北坂戸東口保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","○","○",null,null,null]},
     {"id":"きらら保育園","name":"きらら保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","○","○",null,null,null]},
-    {"id":"フラップ坂戸三光保育園","name":"フラップ坂戸三光保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["○","○","○",null,null,null]},
-    {"id":"大家森の子","name":"大家森の子","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["○","○","○",null,null,null]},
+    {"id":"フラップ坂戸三光保育園","name":"フラップ坂戸三光保育園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["○","×","○",null,null,null]},
+    {"id":"大家森の子","name":"大家森の子","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
     {"id":"KIDSPLAYPARK坂戸あずま幼稚園","name":"KIDSPLAYPARK坂戸あずま幼稚園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"○","○","○"]},
     {"id":"KIDSPLAYPARKラパン保育園","name":"KIDSPLAYPARKラパン保育園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["○","×","○",null,null,null]},
-    {"id":"かぴら幼稚園","name":"かぴら幼稚園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":[null,"×","×","○","○","○"]},
+    {"id":"かぴら幼稚園","name":"かぴら幼稚園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":[null,"×","×","×","×","×"]},
     {"id":"かなやま幼稚園","name":"かなやま幼稚園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"○","○","○"]}
   ]
 }

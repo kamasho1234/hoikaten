@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "tsubame",
   "municipalityName": "燕市",
-  "asOf": "2026-08-01",
-  "fetchedAt": "2026-09-01",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-03",
   "sourceName": "燕市「保育園・こども園の空き状況」",
   "sourceUrl": "https://www.city.tsubame.niigata.jp/kosodate_kyoiku/8/3521.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.tsubame.niigata.jp/material/files/group/33/R080801akijoukyou3.pdf"
+    "vacancy": "https://www.city.tsubame.niigata.jp/material/files/group/33/R080901akijoukyou.pdf"
   },
   "metrics": [
     "symbol"
@@ -166,7 +166,7 @@
         null,
         "×",
         "×",
-        "△",
+        "×",
         "×",
         "×"
       ]
@@ -210,7 +210,7 @@
         "×",
         "×",
         "×",
-        "○",
+        "△",
         "×",
         "×"
       ]
@@ -562,7 +562,7 @@
         "×",
         "×",
         "×",
-        "△",
+        "×",
         "×",
         "×"
       ]

@@ -1,8 +1,8 @@
 {
   "municipalitySlug": "kamagaya",
   "municipalityName": "鎌ケ谷市",
-  "asOf": "2026-08-12",
-  "fetchedAt": "2026-08-26",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-03",
   "sourceName": "鎌ケ谷市「保育園・認定こども園・小規模保育事業空き状況、受入状況」",
   "sourceUrl": "https://www.city.kamagaya.chiba.jp/kosodate-kyouiku/kosodate/hoikuen-youchientou/hoikuen_ukeirejyou.html",
   "sourceFiles": {
@@ -13,7 +13,7 @@
   ],
   "subtitle": "保育園等の空き状況",
   "notes": [
-    "鎌ケ谷市は空きを人数ではなく記号で公表しています。公式ページが2026-08-12に更新されたものです。",
+    "鎌ケ谷市は空きを人数ではなく記号で公表しています。公式ページが2026-09-01に更新されたものです。",
     "公式ページには受入状況（在園児数）の表も並んでいますが、空き状況の表と施設名の書き方が違い（「ふじのこ」と「ふじのこ保育園」など）確実に結びつけられないため、当サイトでは載せていません。",
     "公式の表で空らんになっている年齢は「—」にしています。その年齢のクラスがないことを表しています。"
   ],

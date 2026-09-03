@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "ozu",
   "municipalityName": "大津町",
-  "asOf": "2026-08-10",
-  "fetchedAt": "2026-09-01",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-03",
   "sourceName": "大津町「大津町認可保育施設空き状況一覧」",
   "sourceUrl": "https://www.town.ozu.kumamoto.jp/site/kosodate/14373.html",
   "sourceFiles": {
-    "vacancy": "https://www.town.ozu.kumamoto.jp/uploaded/attachment/19563.pdf"
+    "vacancy": "https://www.town.ozu.kumamoto.jp/uploaded/attachment/19767.pdf"
   },
   "metrics": [
     "symbol"
@@ -120,11 +120,11 @@
       ],
       "symbols": [
         "〇",
-        "△",
         "×",
         "×",
         "×",
-        "△"
+        "×",
+        "〇"
       ]
     },
     {
@@ -141,7 +141,7 @@
         null
       ],
       "symbols": [
-        "×",
+        "△",
         "×",
         "×",
         "×",
@@ -163,12 +163,12 @@
         null
       ],
       "symbols": [
-        "△",
+        "×",
         "△",
         "△",
         "×",
-        "△",
-        "△"
+        "×",
+        "×"
       ]
     },
     {
@@ -186,9 +186,9 @@
       ],
       "symbols": [
         "△",
+        "〇",
         "△",
-        "△",
-        "×",
+        "〇",
         "×",
         "×"
       ]
@@ -207,9 +207,9 @@
         null
       ],
       "symbols": [
-        "△",
-        "×",
         "〇",
+        "〇",
+        "△",
         "×",
         "×",
         "〇"
@@ -232,7 +232,7 @@
         "〇",
         "△",
         "△",
-        "△",
+        "×",
         "×",
         "×"
       ]
@@ -251,7 +251,7 @@
         null
       ],
       "symbols": [
-        "×",
+        "△",
         "△",
         "×",
         "〇",
@@ -273,7 +273,7 @@
         null
       ],
       "symbols": [
-        "△",
+        "×",
         "×",
         "×",
         "×",
@@ -295,9 +295,9 @@
         null
       ],
       "symbols": [
-        "△",
-        "△",
-        "△",
+        "〇",
+        "〇",
+        "×",
         "×",
         "×",
         "×"

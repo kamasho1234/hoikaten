@@ -1,19 +1,19 @@
 {
   "municipalitySlug": "kameoka",
   "municipalityName": "亀岡市",
-  "asOf": "2026-08-03",
-  "fetchedAt": "2026-08-26",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-03",
   "sourceName": "亀岡市「保育所（園）・認定こども園・小規模保育施設の空き状況」",
   "sourceUrl": "https://www.city.kameoka.kyoto.jp/soshiki/28/3501.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.kameoka.kyoto.jp/uploaded/attachment/47928.pdf"
+    "vacancy": "https://www.city.kameoka.kyoto.jp/uploaded/attachment/48318.pdf"
   },
   "metrics": [
     "symbol"
   ],
-  "subtitle": "2026年9月入所希望者向けの受入可能状況",
+  "subtitle": "2026年10月入所希望者向けの受入可能状況",
   "notes": [
-    "亀岡市は空き状況を人数ではなく記号で公表しています。これは2026年9月入所希望者向けのもので、公式ページが2026-08-03に更新されたものです。",
+    "亀岡市は空き状況を人数ではなく記号で公表しています。これは2026年10月入所希望者向けのもので、公式ページが2026-09-01に更新されたものです。",
     "別院1・2歳、3～5歳、本梅3～5歳、東本梅1・2歳、3～5歳、はこべ保育園2～5歳は合同学級です。",
     "職員体制(加配の保育士が必要）などの都合により、この情報のとおり決定できない場合がございますので、ご了承ください。",
     "令和８年４月１日時点での年齢で、該当欄をご覧ください。",
@@ -56,20 +56,20 @@
   "facilities": [
     {"id":"川東保育所","name":"川東保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","△"]},
     {"id":"中部保育所","name":"中部保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
-    {"id":"東部保育所","name":"東部保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","△"]},
-    {"id":"第六保育所","name":"第六保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","△","○","○"]},
+    {"id":"東部保育所","name":"東部保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"第六保育所","name":"第六保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","○"]},
     {"id":"本梅こども園","name":"本梅こども園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["□","×","×","×","×","×"]},
     {"id":"森の自然こども園東本梅","name":"森の自然こども園東本梅","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,"×","×","×","×","×"]},
     {"id":"山の自然こども園別院","name":"山の自然こども園別院","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,"○","○","○","○","○"]},
     {"id":"保津こども園","name":"保津こども園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["□","×","×","×","△","△"]},
     {"id":"亀岡こども園","name":"亀岡こども園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,"×","×","×","×"]},
     {"id":"めぐみの園保育園（分園含む）","name":"めぐみの園保育園（分園含む）","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
-    {"id":"太田保育園","name":"太田保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×","×","△","△"]},
+    {"id":"太田保育園","name":"太田保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
     {"id":"亀岡あゆみ保育園","name":"亀岡あゆみ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","□","□","△","△","△"]},
     {"id":"亀岡あゆみ保育園馬堀駅前分園","name":"亀岡あゆみ保育園馬堀駅前分園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["□","×",null,null,null,null]},
-    {"id":"上西山あゆみ保育園","name":"上西山あゆみ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","○","○"]},
+    {"id":"上西山あゆみ保育園","name":"上西山あゆみ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","○","○"]},
     {"id":"くわの実保育園","name":"くわの実保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
-    {"id":"はこべ保育園","name":"はこべ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["□","□","□","□","□","□"]},
+    {"id":"はこべ保育園","name":"はこべ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["□","□","×","×","×","×"]},
     {"id":"大井こども園","name":"大井こども園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
     {"id":"大井こども園並河駅前分園","name":"大井こども園並河駅前分園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
     {"id":"千代川こども園","name":"千代川こども園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},

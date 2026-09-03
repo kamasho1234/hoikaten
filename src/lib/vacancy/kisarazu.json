@@ -1,17 +1,17 @@
 {
   "municipalitySlug": "kisarazu",
   "municipalityName": "木更津市",
-  "asOf": "2026-08-01",
-  "fetchedAt": "2026-08-24",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-03",
   "sourceName": "木更津市「保育施設空き状況表」",
   "sourceUrl": "https://www.city.kisarazu.lg.jp/soshiki/kenkokodomo/kodomohoiku/1/2329.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.kisarazu.lg.jp/material/files/group/26/aki202609.pdf"
+    "vacancy": "https://www.city.kisarazu.lg.jp/material/files/group/26/aki202610.pdf"
   },
   "metrics": [
     "symbol"
   ],
-  "subtitle": "9月入園分の空き状況",
+  "subtitle": "10月入園分の空き状況",
   "notes": [
     "木更津市は空き状況を人数ではなく記号で公表しています。当サイトでも公式の記号のまま載せています。",
     "保育士の配置状況や退園児童などにより空き状況が変わることがあります。随時申請者が増えるため、空きがあっても入園できないことがあります。",
@@ -50,7 +50,7 @@
     {"id":"請西","name":"請西","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
     {"id":"社会館","name":"社会館","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
     {"id":"社会館吾妻","name":"社会館吾妻","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
-    {"id":"ふくた","name":"ふくた","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","△","△","✕","✕"]},
+    {"id":"ふくた","name":"ふくた","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
     {"id":"久津間","name":"久津間","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
     {"id":"なかごう","name":"なかごう","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
     {"id":"スクルド","name":"スクルド","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
@@ -70,7 +70,7 @@
     {"id":"ソフィアコスモ","name":"ソフィアコスモ","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕",null,null,null]},
     {"id":"ソフィアオーラ","name":"ソフィアオーラ","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕",null,null,null]},
     {"id":"畑沢くじら","name":"畑沢くじら","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕",null,null,null]},
-    {"id":"オーキッド","name":"オーキッド","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","△",null,null,null]},
+    {"id":"オーキッド","name":"オーキッド","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕",null,null,null]},
     {"id":"ぽんぽこ","name":"ぽんぽこ","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕",null,null,null]},
     {"id":"すきっぷ","name":"すきっぷ","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,"✕",null,null,null]},
     {"id":"金田幼稚園","name":"金田幼稚園","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"✕","✕","✕"]},

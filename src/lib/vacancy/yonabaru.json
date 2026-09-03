@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "yonabaru",
   "municipalityName": "与那原町",
-  "asOf": "2026-08-01",
-  "fetchedAt": "2026-09-01",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-03",
   "sourceName": "与那原町「保育所空き状況」",
   "sourceUrl": "https://www.town.yonabaru.okinawa.jp/soshiki/11/129.html",
   "sourceFiles": {
-    "vacancy": "https://www.town.yonabaru.okinawa.jp/uploaded/attachment/6520.pdf"
+    "vacancy": "https://www.town.yonabaru.okinawa.jp/uploaded/attachment/6651.pdf"
   },
   "metrics": [
     "vacancy"
@@ -46,7 +46,7 @@
         0,
         0,
         0,
-        3,
+        2,
         0,
         0
       ]
@@ -73,7 +73,7 @@
       "vacancy": [
         0,
         0,
-        0,
+        2,
         1,
         0,
         0
@@ -117,7 +117,7 @@
         0,
         0,
         3,
-        0,
+        1,
         0
       ]
     },
@@ -144,7 +144,7 @@
         0,
         3,
         0,
-        0,
+        1,
         2,
         0
       ]
@@ -156,7 +156,7 @@
       "c": 1,
       "vacancy": [
         0,
-        1,
+        0,
         0,
         0,
         0,
@@ -169,7 +169,7 @@
       "w": null,
       "c": 2,
       "vacancy": [
-        3,
+        0,
         0,
         0,
         0,
@@ -183,7 +183,7 @@
       "w": null,
       "c": 2,
       "vacancy": [
-        4,
+        2,
         0,
         0,
         0,
@@ -197,8 +197,8 @@
       "w": null,
       "c": 2,
       "vacancy": [
-        0,
-        5,
+        3,
+        2,
         0,
         0,
         0,
@@ -211,7 +211,7 @@
       "w": null,
       "c": 2,
       "vacancy": [
-        1,
+        0,
         1,
         1,
         0,
@@ -227,7 +227,7 @@
       "vacancy": [
         0,
         0,
-        1,
+        0,
         0,
         0,
         0
