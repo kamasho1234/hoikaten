@@ -51,6 +51,7 @@ import shinjukuVacancy from "./shinjuku.json";
 // 豊島区は施設サイトのURLを調査中のため、いまは空き状況だけを登録している
 import toshimaVacancy from "./toshima.json";
 // 文京区は施設サイトのURLを調査中のため、いまは空き状況だけを登録している
+import bungotakadaVacancy from "./bungotakada.json";
 import bunkyoVacancy from "./bunkyo.json";
 // 台東区も施設サイトのURLを調査中
 import taitoVacancy from "./taito.json";
@@ -353,6 +354,7 @@ import nagaokaVacancy from "./nagaoka.json";
 import midoriVacancy from "./midori.json";
 import gotsuVacancy from "./gotsu.json";
 import usaVacancy from "./usa.json";
+import koryoVacancy from "./koryo.json";
 import kosaiVacancy from "./kosai.json";
 import kamaishiVacancy from "./kamaishi.json";
 import hekinanVacancy from "./hekinan.json";
@@ -440,6 +442,7 @@ import yameVacancy from "./yame.json";
 import nakagawaVacancy from "./nakagawa.json";
 import shibataVacancy from "./shibata.json";
 import sanoVacancy from "./sano.json";
+import ryuohVacancy from "./ryuoh.json";
 import saijoVacancy from "./saijo.json";
 import nasushiobaraVacancy from "./nasushiobara.json";
 import mokaVacancy from "./moka.json";
@@ -571,6 +574,7 @@ const registry: Record<string, VacancyDataset> = {
   nakano: withWebsites(nakanoVacancy as unknown as VacancyDataset, nakanoWebsites.sites),
   shinjuku: shinjukuVacancy as unknown as VacancyDataset,
   toshima: toshimaVacancy as unknown as VacancyDataset,
+  bungotakada: bungotakadaVacancy as unknown as VacancyDataset,
   bunkyo: bunkyoVacancy as unknown as VacancyDataset,
   taito: taitoVacancy as unknown as VacancyDataset,
   chiyoda: chiyodaVacancy as unknown as VacancyDataset,
@@ -846,6 +850,7 @@ const registry: Record<string, VacancyDataset> = {
   midori: midoriVacancy as unknown as VacancyDataset,
   gotsu: gotsuVacancy as unknown as VacancyDataset,
   usa: usaVacancy as unknown as VacancyDataset,
+  koryo: koryoVacancy as unknown as VacancyDataset,
   kosai: kosaiVacancy as unknown as VacancyDataset,
   kamaishi: kamaishiVacancy as unknown as VacancyDataset,
   hekinan: hekinanVacancy as unknown as VacancyDataset,
@@ -933,6 +938,7 @@ const registry: Record<string, VacancyDataset> = {
   nakagawa: nakagawaVacancy as unknown as VacancyDataset,
   shibata: shibataVacancy as unknown as VacancyDataset,
   sano: sanoVacancy as unknown as VacancyDataset,
+  ryuoh: ryuohVacancy as unknown as VacancyDataset,
   saijo: saijoVacancy as unknown as VacancyDataset,
   nasushiobara: nasushiobaraVacancy as unknown as VacancyDataset,
   moka: mokaVacancy as unknown as VacancyDataset,

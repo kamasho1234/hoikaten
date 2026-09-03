@@ -1,0 +1,33 @@
+{
+  "municipalitySlug": "bungotakada",
+  "municipalityName": "豊後高田市",
+  "prefecture": "大分県",
+  "asOf": "2026-08-31",
+  "fetchedAt": "2026-09-03",
+  "sourceName": "豊後高田市「豊後高田市内の保育園の空き情報」",
+  "sourceUrl": "https://www.city.bungotakada.oita.jp/site/kosodate-kyoiku/1546.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.bungotakada.oita.jp/site/kosodate-kyoiku/1546.html"
+  },
+  "metrics": [
+    "vacancy"
+  ],
+  "subtitle": "2026年10月入所ぶんの空き情報",
+  "notes": [
+    "これは2026年10月入所ぶんの空き情報で、2026-08-31に更新されたものです。",
+    "香々地保育園とあすなろほいくえんは、市が年齢別に分けず「若干名」とだけ公表しています。年齢別は「—」にし、施設の備考に残しています。",
+    "市は「空き状況は、公開日時点の情報です。実際の空き状況は変わることがあります」としています（園児の退園、保育士の確保による増、保育士の離職による減など）。"
+  ],
+  "wards": [],
+  "categories": [],
+  "facilities": [
+    {"id":"城台保育園","name":"城台保育園","w":null,"vacancy":[1,0,0,0,0,0]},
+    {"id":"和光保育園","name":"和光保育園","w":null,"vacancy":[3,2,0,0,0,0]},
+    {"id":"封戸保育園","name":"封戸保育園","w":null,"vacancy":[7,4,0,0,0,0]},
+    {"id":"河内保育園","name":"河内保育園","w":null,"vacancy":[2,2,2,1,1,0]},
+    {"id":"真玉保育園","name":"真玉保育園","w":null,"vacancy":[2,1,1,1,0,0]},
+    {"id":"香々地保育園","name":"香々地保育園","w":null,"vacancy":[null,null,null,null,null,null],"note":"市は年齢別に分けず「若干名」とだけ公表しています"},
+    {"id":"あすなろほいくえん","name":"あすなろほいくえん","w":null,"vacancy":[null,null,null,null,null,null],"note":"市は年齢別に分けず「若干名」とだけ公表しています"},
+    {"id":"さわらび保育園","name":"さわらび保育園","w":null,"vacancy":[0,0,0,0,0,0]}
+  ]
+}

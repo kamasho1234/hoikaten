@@ -1,0 +1,242 @@
+{
+  "municipalitySlug": "koryo",
+  "municipalityName": "広陵町",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-03",
+  "sourceName": "広陵町「保育所・認定こども園空き状況」",
+  "sourceUrl": "https://www.town.koryo.nara.jp/0000006650.html",
+  "sourceFiles": {
+    "vacancy": "https://www.town.koryo.nara.jp/0000006650.html"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "広陵町は空きを人数ではなく記号で公表しています。",
+    "公式の凡例は「〇」4名以上、「△」1〜3名、「×」空き無し です。",
+    "公式の表で「－」になっている年齢は「—」にしています。そのクラスを設けていないことを表します。",
+    "町は「空き状況が×の場合でも申込いただくことが可能です」「空き状況は1日に公開後は翌月に更新されるまで変わりません」としています。",
+    "真美北保育園について、町は「3歳児から5歳児クラスとなる児童は、認定こども園 真美ケ丘第二小学校附属幼稚園に転園となります」としています。"
+  ],
+  "wards": [],
+  "categories": [
+    "保育所・認定こども園"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "〇",
+      "label": "4名以上",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1〜3名",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空き無し",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "広陵北かぐやこども園",
+      "name": "広陵北かぐやこども園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "認定こども園真美ケ丘第二小学校附属幼稚園",
+      "name": "認定こども園真美ケ丘第二小学校附属幼稚園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        null,
+        "〇",
+        "×",
+        "△"
+      ]
+    },
+    {
+      "id": "広陵西保育園",
+      "name": "広陵西保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "真美北保育園",
+      "name": "真美北保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "馬見労祷保育園",
+      "name": "馬見労祷保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "ひだまり保育園",
+      "name": "ひだまり保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "おひさま保育園",
+      "name": "おひさま保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "畿央大学付属広陵こども園",
+      "name": "畿央大学付属広陵こども園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "ときわ広陵こども園",
+      "name": "ときわ広陵こども園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    }
+  ]
+}

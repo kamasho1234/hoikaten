@@ -257,7 +257,7 @@ const EXPECTED: Record<
   urayasu: { asOf: "2026-08-20", facilityCount: 65, vacancy: 525 },
   // 大和市は受入可能児童数なしの園が多いのが通常
   yamato: { asOf: "2026-09-01", facilityCount: 94, vacancy: 211, emptyRatio: 0.45 },
-  fuchu: { asOf: "2026-08-03", facilityCount: 61, vacancy: 153, emptyRatio: 0.2 },
+  fuchu: { asOf: "2026-09-03", facilityCount: 61, vacancy: 151, emptyRatio: 0.2 },
   chofu: { asOf: "2026-08-20", facilityCount: 78, vacancy: 236, waiting: 2161, emptyRatio: 0.2 },
   mitaka: { asOf: "2026-09-01", facilityCount: 58, vacancy: 406, waiting: 2453, emptyRatio: 0.2 },
   // 西東京市は欠員なしの園が多いのが通常
@@ -2275,6 +2275,27 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "〇": 5, "△": 12, "×": 46 },
     emptyRatio: 0.15,
+  },
+  // 広陵町は真美北保育園とおひさま保育園が3歳児以上、真美ケ丘第二小学校附属幼稚園が2歳児以下を持たない
+  koryo: {
+    asOf: "2026-09-01",
+    facilityCount: 9,
+    vacancy: 0,
+    symbolCounts: { "×": 42, "〇": 1, "△": 2 },
+  },
+  // 竜王町は竜王こども園が3歳児からで、0〜2歳児は「—」になる
+  ryuoh: {
+    asOf: "2026-09-01",
+    facilityCount: 3,
+    vacancy: 0,
+    symbolCounts: { "△": 5, "〇": 2, "×": 8 },
+  },
+  // 豊後高田市は香々地保育園とあすなろほいくえんが年齢別に分かれず「若干名」
+  bungotakada: {
+    asOf: "2026-08-31",
+    facilityCount: 8,
+    vacancy: 30,
+    emptyRatio: 0.25,
   },
   // 多久市は2・3号認定の欄だけを取っているので「—」は出ない
   taku: {
