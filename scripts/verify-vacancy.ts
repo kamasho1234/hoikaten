@@ -2360,6 +2360,13 @@ nishio: {
     emptyRatio: 0.3,
     symbolCounts: { "〇": 22, "×": 18 },
   },
+  // 久米島町は町の資料に0歳児〜4歳児しかなく、5歳児は「—」になる
+  kumejima: {
+    asOf: "2026-08-13",
+    facilityCount: 5,
+    vacancy: 6,
+    emptyRatio: 0.3,
+  },
   // 豊後高田市は香々地保育園とあすなろほいくえんが年齢別に分かれず「若干名」
   bungotakada: {
     asOf: "2026-08-31",

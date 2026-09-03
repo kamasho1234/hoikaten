@@ -1,0 +1,32 @@
+{
+  "municipalitySlug": "kumejima",
+  "municipalityName": "久米島町",
+  "prefecture": "沖縄県",
+  "asOf": "2026-08-13",
+  "fetchedAt": "2026-09-04",
+  "sourceName": "久米島町「保育所等の空き状況及び待機児童数」",
+  "sourceUrl": "https://www.town.kumejima.okinawa.jp/docs/2026081300011/",
+  "sourceFiles": {
+    "vacancy": "https://www.town.kumejima.okinawa.jp/docs/2026081300011/file_contents/2608.pdf"
+  },
+  "metrics": [
+    "vacancy"
+  ],
+  "subtitle": "保育所等の空き状況",
+  "notes": [
+    "久米島町の認可保育園・公立保育所・地域型保育（家庭的保育事業所）の空き状況です（2026-08-13時点）。",
+    "**町の資料には0歳児から4歳児までしかありません。**5歳児の欄は「—」にしています。",
+    "町は「空き状況は在園児の退所、保育士の離職または確保などにより絶えず変化しますので、大まかな目安としてご覧ください」としています。",
+    "資料には「受入可能数と内定状況を考慮した人数となっています」「職員の数に応じて受け入れができない場合もあります」と書かれています。",
+    "設けていないクラスは「—」にしています。家庭的保育事業所は2歳児までです。"
+  ],
+  "wards": [],
+  "categories": [],
+  "facilities": [
+    {"id":"中央保育所","name":"中央保育所","w":null,"vacancy":[0,0,1,2,0,null]},
+    {"id":"なでしこ保育園","name":"なでしこ保育園","w":null,"vacancy":[0,0,0,0,0,null]},
+    {"id":"そらなみ保育園","name":"そらなみ保育園","w":null,"vacancy":[0,0,0,1,2,null]},
+    {"id":"家庭的保育事業所わかば","name":"家庭的保育事業所わかば","w":null,"vacancy":[0,0,0,null,null,null]},
+    {"id":"homelychildcareぽっぷ","name":"homelychildcareぽっぷ","w":null,"vacancy":[0,0,0,null,null,null]}
+  ]
+}

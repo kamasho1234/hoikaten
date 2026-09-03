@@ -247,6 +247,7 @@
     "vacancy:fetch:izumi-kagoshima": "tsx scripts/fetch-izumi-kagoshima-vacancy.ts",
     "vacancy:fetch:izu": "tsx scripts/fetch-izu-vacancy.ts",
     "vacancy:fetch:makubetsu": "tsx scripts/fetch-makubetsu-vacancy.ts",
+    "vacancy:fetch:kumejima": "tsx scripts/fetch-kumejima-vacancy.ts",
     "vacancy:fetch:taku": "tsx scripts/fetch-taku-vacancy.ts",
     "vacancy:fetch:kadoma": "tsx scripts/fetch-kadoma-vacancy.ts",
     "vacancy:fetch:settsu": "tsx scripts/fetch-settsu-vacancy.ts",
