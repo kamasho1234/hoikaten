@@ -1,0 +1,34 @@
+{
+  "slug": "koga-ibaraki",
+  "name": "古河市",
+  "prefecture": "茨城県",
+  "sourceName": "古河市「空き状況一覧表」",
+  "indexUrl": "https://www.city.ibaraki-koga.lg.jp/soshiki/hoiku/2/14130.html",
+  "pdf": {
+    "linkPattern": "空き状況"
+  },
+  "layout": "word-grid",
+  "nearestName": true,
+  "metrics": ["symbol"],
+  "symbolMarks": ["○", "〇", "△", "×"],
+  "symbolMap": { "○": "〇" },
+  "symbolLegend": [
+    { "mark": "〇", "label": "5人以上空き予定", "open": true },
+    { "mark": "△", "label": "1人以上空き予定", "open": true },
+    { "mark": "×", "label": "空きなし", "open": false }
+  ],
+  "skipRowsMatching": "^空き状況一覧表|^※|^○：|^施設名",
+  "asOf": {
+    "source": "pdf",
+    "pattern": "R(\\d+)\\.(\\d{1,2})\\.(\\d{1,2})現在"
+  },
+  "minFacilities": 40,
+  "notes": [
+    "古河市は空き状況を人数ではなく記号で公表しています。",
+    "公式の凡例は「○」5人以上空き予定、「△」1人以上空き予定、「×」空きなし です。",
+    "公式の表で記号が無い年齢は「—」にしています。空きが無いときは「×」と書かれるので、記号が無いのはその年齢のクラスを設けていないことを表します。",
+    "市は「空き状況は公表時点での目安であり、保育士配置や退所等により変更となることがあります」としています。",
+    "認定こども園の空き状況は、2・3号認定の状況を示すものです。1号認定の空き状況は各施設に直接お問い合わせください。",
+    "年齢は入所年度4月1日現在のクラス年齢です。"
+  ]
+}

@@ -483,6 +483,10 @@ import otakeVacancy from "./otake.json";
 import otaruVacancy from "./otaru.json";
 // 高崎市は年齢の組が2つ（直近の途中入所と翌年度4月入所）あり、直近の組だけを持っている
 import takasakiVacancy from "./takasaki.json";
+// 三郷市（埼玉）は千葉県三郷ではないが、他に同名がないので slug は misato-saitama
+import misatoSaitamaVacancy from "./misato-saitama.json";
+// 古河市（茨城）は滋賀県甲賀市の「こうが」ではないので slug は koga-ibaraki
+import kogaIbarakiVacancy from "./koga-ibaraki.json";
 
 export type {
   AgeSummary,
@@ -957,6 +961,8 @@ const registry: Record<string, VacancyDataset> = {
   otake: otakeVacancy as unknown as VacancyDataset,
   otaru: otaruVacancy as unknown as VacancyDataset,
   takasaki: takasakiVacancy as unknown as VacancyDataset,
+  "misato-saitama": misatoSaitamaVacancy as unknown as VacancyDataset,
+  "koga-ibaraki": kogaIbarakiVacancy as unknown as VacancyDataset,
 };
 
 export function getVacancyData(slug: string): VacancyDataset | undefined {

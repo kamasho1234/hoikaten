@@ -1,0 +1,59 @@
+{
+  "slug": "misato-saitama",
+  "name": "三郷市",
+  "prefecture": "埼玉県",
+  "sourceName": "三郷市「保育所（園）の入所可能人数」",
+  "indexUrl": "https://www.city.misato.lg.jp/soshiki/kodomomirai/sukoyaka/5/12106.html",
+  "pdf": {
+    "linkPattern": "利用調整後",
+    "pick": "last"
+  },
+  "layout": "word-grid",
+  "nearestName": true,
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMarks": [
+    "◎",
+    "〇",
+    "○",
+    "▲"
+  ],
+  "symbolMap": {
+    "○": "〇"
+  },
+  "symbolLegend": [
+    {
+      "mark": "◎",
+      "label": "5名以上の空きあり",
+      "open": true
+    },
+    {
+      "mark": "〇",
+      "label": "3・4名の空きあり",
+      "open": true
+    },
+    {
+      "mark": "▲",
+      "label": "1・2名の空きあり",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし（公式の表では空らん）",
+      "open": false
+    }
+  ],
+  "skipRowsMatching": "^令和|^◎|^※|^保育所（園）|変動します|入所可能人数|受け入れ体制|^お子さん",
+  "asOf": {
+    "source": "file"
+  },
+  "minFacilities": 35,
+  "notes": [
+    "三郷市は空き状況を人数ではなく記号で公表しています。",
+    "公式の凡例は「◎」5名以上の空きあり、「○」3・4名の空きあり、「▲」1・2名の空きあり、空らんは空きなしです。当サイトでは空らんを「×」に置き換えて載せています。",
+    "市は「上記入所可能人数は、施設の受け入れ体制、入所決定したお子さんの辞退や現在通所中のお子さんの退所により、変動します」としています。",
+    "市は資料に基準日を書いていないため、資料が公開された日を時点として表示しています。"
+  ],
+  "emptyMark": "×"
+}

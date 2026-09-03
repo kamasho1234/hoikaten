@@ -2268,6 +2268,20 @@ const EXPECTED: Record<
     facilityCount: 61,
     vacancy: 26,
   },
+  // 古河市（茨城）は幼稚園・小規模で3〜5歳や0〜2歳のクラスが無く「—」が出る
+  "koga-ibaraki": {
+    asOf: "2026-08-19",
+    facilityCount: 44,
+    vacancy: 0,
+    symbolCounts: { "〇": 3, "△": 39, "×": 177 },
+  },
+  // 三郷市（埼玉）は空らん（空きなし）を「×」に置き換えている
+  "misato-saitama": {
+    asOf: "2026-08-25",
+    facilityCount: 37,
+    vacancy: 0,
+    symbolCounts: { "◎": 6, "〇": 7, "▲": 20, "×": 189 },
+  },
   // 高崎市は空らん（受入可能人数なし）を「×」に置き換え、斜線を「—」にしている
   takasaki: {
     asOf: "2026-09-03",

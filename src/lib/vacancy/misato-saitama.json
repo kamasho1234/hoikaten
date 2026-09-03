@@ -1,0 +1,860 @@
+{
+  "municipalitySlug": "misato-saitama",
+  "municipalityName": "三郷市",
+  "asOf": "2026-08-25",
+  "fetchedAt": "2026-09-03",
+  "sourceName": "三郷市「保育所（園）の入所可能人数」",
+  "sourceUrl": "https://www.city.misato.lg.jp/soshiki/kodomomirai/sukoyaka/5/12106.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.misato.lg.jp/material/files/group/35/akiwaku-2026-09.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "三郷市は空き状況を人数ではなく記号で公表しています。",
+    "公式の凡例は「◎」5名以上の空きあり、「○」3・4名の空きあり、「▲」1・2名の空きあり、空らんは空きなしです。当サイトでは空らんを「×」に置き換えて載せています。",
+    "市は「上記入所可能人数は、施設の受け入れ体制、入所決定したお子さんの辞退や現在通所中のお子さんの退所により、変動します」としています。",
+    "市は資料に基準日を書いていないため、資料が公開された日を時点として表示しています。"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "◎",
+      "label": "5名以上の空きあり",
+      "open": true
+    },
+    {
+      "mark": "〇",
+      "label": "3・4名の空きあり",
+      "open": true
+    },
+    {
+      "mark": "▲",
+      "label": "1・2名の空きあり",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし（公式の表では空らん）",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "上口保育所",
+      "name": "上口保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "丹後保育所",
+      "name": "丹後保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "高州保育所",
+      "name": "高州保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "◎",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "さくら保育所",
+      "name": "さくら保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "彦成保育所",
+      "name": "彦成保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "早稲田保育所",
+      "name": "早稲田保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "つくし保育園",
+      "name": "つくし保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "▲",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "コビープリスクールみさとながとろ",
+      "name": "コビープリスクールみさとながとろ",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "〇",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "三郷ひだまり保育園",
+      "name": "三郷ひだまり保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "▲",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "みさとしらゆり保育園",
+      "name": "みさとしらゆり保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "みさとこころ保育園",
+      "name": "みさとこころ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "コビープリスクールみさととがさき",
+      "name": "コビープリスクールみさととがさき",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "▲",
+        "◎",
+        "×",
+        "▲"
+      ]
+    },
+    {
+      "id": "コビープリスクールみさとたかの",
+      "name": "コビープリスクールみさとたかの",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "▲",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "みさとしらゆり第2保育園",
+      "name": "みさとしらゆり第2保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "レイモンド戸ヶ崎保育園",
+      "name": "レイモンド戸ヶ崎保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "▲",
+        "×",
+        "〇"
+      ]
+    },
+    {
+      "id": "レイモンド新三郷保育園",
+      "name": "レイモンド新三郷保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "▲",
+        "×",
+        "▲",
+        "▲",
+        "×",
+        "▲"
+      ]
+    },
+    {
+      "id": "わせだっこ中央保育園",
+      "name": "わせだっこ中央保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "▲",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "桜花保育園三郷園",
+      "name": "桜花保育園三郷園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "スクルドエンジェル保育園三郷中央園",
+      "name": "スクルドエンジェル保育園三郷中央園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "▲",
+        "×",
+        "〇"
+      ]
+    },
+    {
+      "id": "フレンドキッズランド三郷園",
+      "name": "フレンドキッズランド三郷園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "◎",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "さんぴこナーサリースクール",
+      "name": "さんぴこナーサリースクール",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "さんぴこ中央ナーサリースクール",
+      "name": "さんぴこ中央ナーサリースクール",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "まりーな",
+      "name": "まりーな",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "〇",
+        "▲",
+        "▲"
+      ]
+    },
+    {
+      "id": "わせだ",
+      "name": "わせだ",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "▲",
+        "×",
+        "〇"
+      ]
+    },
+    {
+      "id": "栄光けやきの森",
+      "name": "栄光けやきの森",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "▲",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "みさとさくらの森",
+      "name": "みさとさくらの森",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "▲",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "埼玉さくら幼稚園",
+      "name": "埼玉さくら幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "◎",
+        "◎",
+        "◎"
+      ]
+    },
+    {
+      "id": "いなほ幼稚園",
+      "name": "いなほ幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "▲",
+        "×",
+        "×",
+        "〇"
+      ]
+    },
+    {
+      "id": "美咲こども園",
+      "name": "美咲こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "さんぴこ保育園",
+      "name": "さんぴこ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "ニチイキッズ新三郷保育園",
+      "name": "ニチイキッズ新三郷保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "みさとわせだスマートスマイル保育園",
+      "name": "みさとわせだスマートスマイル保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "三郷中央すずらん保育園",
+      "name": "三郷中央すずらん保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "▲",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "ＭＩＲＡＴＺ三郷中央第一保育園",
+      "name": "ＭＩＲＡＴＺ三郷中央第一保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "ＭＩＲＡＴＺ三郷中央第二保育園",
+      "name": "ＭＩＲＡＴＺ三郷中央第二保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "〇",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "しおどめ保育園三郷中央",
+      "name": "しおどめ保育園三郷中央",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "▲",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "しらゆりナーサリールーム",
+      "name": "しらゆりナーサリールーム",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    }
+  ]
+}
