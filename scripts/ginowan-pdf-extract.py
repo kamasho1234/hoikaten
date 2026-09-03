@@ -25,10 +25,9 @@ import pdfplumber
 
 COL_WARD = 0
 COL_NAME = 1
-COL_AGE0 = 2
 AGE_COUNT = 6
-COL_TOTAL = COL_AGE0 + AGE_COUNT
-COLUMN_COUNT = COL_TOTAL + 1
+# 令和8年9月ぶんから「入所待ち児童数及び空き」の列が加わり、年齢の列が1つ右にずれた。
+# 位置は決め打ちにせず、見出しの「0才」から決める
 
 ZEN = str.maketrans("０１２３４５６７８９", "0123456789")
 
@@ -74,23 +73,84 @@ def extract(path):
                 notes.append(stripped.lstrip("●").strip())
 
         for index, page in enumerate(pdf.pages):
-            tables = page.find_tables()
-            if len(tables) != 1:
-                fail(f"{index + 1}ページ目の表が{len(tables)}個です（1個のはず）")
-            extracted = tables[0].extract()
+            # 見出しの無い空の表や、末尾の「計」の表が混じることがあるので、
+            # 「校区」「保育施設名」の見出しを持つ表だけを本体とみなす
+            body = []
+            body_rows = []
+            for t in page.find_tables():
+                e = t.extract()
+                if not e:
+                    continue
+                h = [cell(c) for c in e[0]]
+                if len(h) > COL_NAME and h[COL_WARD] == "校区" and h[COL_NAME] == "保育施設名":
+                    body.append(e)
+                    body_rows.append(t.rows)
+                    continue
+                # 「計」は別の表として最後のページに置かれるようになった。
+                # 「計／空き／年齢ごとの数」の並びなので、そこから空きの合計を採る
+                if h and h[0] == "計" and len(h) >= 2 and h[1] == "空き":
+                    nums = [cell(c) for c in e[0][2 : 2 + AGE_COUNT]]
+                    if all(re.fullmatch(r"\d+", n) for n in nums):
+                        totals = [int(n) for n in nums]
+            if len(body) != 1:
+                fail(f"{index + 1}ページ目に施設の表が{len(body)}個あります（1個のはず）")
+            extracted = body[0]
 
             head = [cell(c) for c in extracted[0]]
-            if len(head) != COLUMN_COUNT:
-                fail(f"{index + 1}ページ目の列数が{len(head)}です（{COLUMN_COUNT}列のはず）")
             if head[COL_WARD] != "校区" or head[COL_NAME] != "保育施設名":
                 fail(f"{index + 1}ページ目の見出しが想定と違います: {head}")
+            if "0才" not in head:
+                fail(f"{index + 1}ページ目に「0才」の見出しがありません: {head}")
+            col_age0 = head.index("0才")
+            col_total = col_age0 + AGE_COUNT
+            if len(head) != col_total + 1:
+                fail(f"{index + 1}ページ目の列数が{len(head)}です（{col_total + 1}列のはず）")
             for age in range(AGE_COUNT):
-                if head[COL_AGE0 + age] != f"{age}才":
+                if head[col_age0 + age] != f"{age}才":
                     fail(f"{index + 1}ページ目の年齢の見出しが想定と違います: {head}")
 
-            for raw_row in extracted[1:]:
+            # 令和8年9月ぶんから、1つの升目に「空き」「入所待ち」
+            # 「入所待ち（第1希望）」の3つが縦に並ぶ形になった。
+            # **当サイトが載せるのは空き**なので、いちばん上の段だけを採る。
+            # （見出しの「空き／入所待ち／…」は別の行に分かれて入ることがあるので、
+            #   年齢の欄が何段に分かれているかで見分ける）
+            # 校区は縦書き。表の抽出だけでは文字の順が崩れることがある
+            # （「真志喜中学校区」が「中真区学志校喜」になった）。
+            # **右の列から左へ、各列は上から下**に並べ直す
+            def vertical_text(bbox):
+                if bbox is None:
+                    return ""
+                x0, top, x1, bottom = bbox
+                chars = [
+                    c
+                    for c in page.chars
+                    if x0 <= c["x0"] <= x1 and top <= c["top"] <= bottom and cell(c["text"])
+                ]
+                if not chars:
+                    return ""
+                chars.sort(key=lambda c: (-round(c["x0"], 1), c["top"]))
+                return "".join(c["text"] for c in chars)
+
+            table_rows = body_rows[0]
+            for row_index, raw_row in enumerate(extracted[1:], start=1):
                 values = list(map(cell, raw_row))
-                ward_part = values[COL_WARD]
+                age_parts = [
+                    [cell(x) for x in str(raw_row[col_age0 + a] or "").split(chr(10)) if cell(x)]
+                    for a in range(AGE_COUNT)
+                ]
+                if any(len(p) > 1 for p in age_parts):
+                    for a in range(AGE_COUNT):
+                        values[col_age0 + a] = age_parts[a][0] if age_parts[a] else ""
+                    tot = [
+                        cell(x) for x in str(raw_row[col_total] or "").split(chr(10)) if cell(x)
+                    ]
+                    values[col_total] = tot[0] if tot else ""
+                ward_cell = (
+                    table_rows[row_index].cells[COL_WARD]
+                    if row_index < len(table_rows)
+                    else None
+                )
+                ward_part = vertical_text(ward_cell) or cell(raw_row[COL_WARD])
                 raw_name = raw_row[COL_NAME] or ""
                 parts = [cell(p) for p in str(raw_name).split("\n") if cell(p)]
 
@@ -98,7 +158,7 @@ def extract(path):
                 if ward_part == "計" and not parts:
                     counts = []
                     for age in range(AGE_COUNT):
-                        value = values[COL_AGE0 + age]
+                        value = values[col_age0 + age]
                         if not re.fullmatch(r"\d+", value):
                             fail(f"合計の{age}才が数字ではありません（「{value}」）")
                         counts.append(int(value))
@@ -120,7 +180,7 @@ def extract(path):
 
                 counts = []
                 for age in range(AGE_COUNT):
-                    value = values[COL_AGE0 + age]
+                    value = values[col_age0 + age]
                     if value == "":
                         counts.append(None)
                         continue
@@ -128,7 +188,7 @@ def extract(path):
                         fail(f"{name}: {age}才が数字ではありません（「{value}」）")
                     counts.append(int(value))
 
-                total = values[COL_TOTAL]
+                total = values[col_total]
                 if not re.fullmatch(r"\d+", total):
                     fail(f"{name}: 計が数字ではありません（「{total}」）")
                 if sum(c for c in counts if c is not None) != int(total):

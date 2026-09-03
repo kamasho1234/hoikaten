@@ -315,10 +315,10 @@ const EXPECTED: Record<
   akita: { asOf: "2026-08-28", facilityCount: 95, vacancy: 929, emptyRatio: 0.6 },
   // 福岡市は空きを幅（◎6人以上など）で公表している。時点は施設情報の更新日なので日々動く
   fukuoka: {
-    asOf: "2026-08-31",
+    asOf: "2026-09-03",
     facilityCount: 472,
     vacancy: 0,
-    symbolCounts: { "×": 1875, "△": 263, "○": 117, "◎": 54 },
+    symbolCounts: { "×": 1871, "△": 266, "○": 118, "◎": 54 },
   },
   // 静岡市は選考後に残った空き枠を記号で公表している
   shizuoka: {
@@ -461,10 +461,10 @@ const EXPECTED: Record<
   },
   // 我孫子市はPDFではなくページの表そのものに載っている
   abiko: {
-    asOf: "2026-08-25",
+    asOf: "2026-09-01",
     facilityCount: 28,
     vacancy: 0,
-    symbolCounts: { "×": 138, "△": 17, "〇": 1 },
+    symbolCounts: { "×": 137, "△": 18, "〇": 1 },
   },
   // 稲沢市も公式の表は5歳→0歳の逆順。1号認定の行は取り込んでいない
   inazawa: {
@@ -549,9 +549,9 @@ const EXPECTED: Record<
   },
   // 海老名市は斜線が「その年齢の受け入れをしていない」。空らんは0人
   ebina: {
-    asOf: "2026-08-24",
+    asOf: "2026-09-02",
     facilityCount: 46,
-    vacancy: 228,
+    vacancy: 231,
   },
   // 伊勢崎市は凡例が注意事項にある（△＝1名程度・○＝3名程度・◎＝5名程度）
   isesaki: {
@@ -700,10 +700,10 @@ const EXPECTED: Record<
   },
   // 大崎市は「入所対象児」の列から年齢の範囲が上下とも決まるので空らんを全件検算できる
   osaki: {
-    asOf: "2026-08-27",
+    asOf: "2026-09-03",
     facilityCount: 46,
     vacancy: 0,
-    symbolCounts: { "○": 3, "△": 79, "×": 161 },
+    symbolCounts: { "○": 3, "△": 80, "×": 160 },
   },
   // 神栖市は「受入対象」の列があるので、受け入れ開始年齢より前の空らんを検算できる
   kamisu: {
@@ -937,9 +937,9 @@ const EXPECTED: Record<
   },
   // 福生市はHTMLの表。括弧の中は定期利用保育の枠で空きではない
   fussa: {
-    asOf: "2026-08-24",
+    asOf: "2026-09-01",
     facilityCount: 15,
-    vacancy: 64,
+    vacancy: 67,
   },
   // 寝屋川市は月ごとのPDFが1ページに並ぶので、いちばん新しい月を選んでいる
   neyagawa: {
@@ -950,9 +950,9 @@ const EXPECTED: Record<
   },
   // 宜野湾市は校区の名前が縦書きで行をまたいでばらばらに入る
   ginowan: {
-    asOf: "2026-08-24",
+    asOf: "2026-09-01",
     facilityCount: 52,
-    vacancy: 115,
+    vacancy: 116,
   },
   // 浦添市は受入可能児童数と入所待ち児童数の2つを公表している
   urasoe: {
@@ -1028,10 +1028,10 @@ const EXPECTED: Record<
   },
   // 大村市はPDFに時点がないので、公式ページの更新日を時点にしている
   omura: {
-    asOf: "2026-08-25",
+    asOf: "2026-09-03",
     facilityCount: 58,
     vacancy: 0,
-    symbolCounts: { "×": 242, "△": 43, "○": 8 },
+    symbolCounts: { "×": 243, "△": 42, "○": 8 },
   },
   // 東広島市は人数の幅を記号で示す（◎10人以上／〇5〜9人／△1〜4人／×空き無し）
   higashihiroshima: {
@@ -1090,9 +1090,9 @@ const EXPECTED: Record<
   },
   // 甲府市は入所申込の受付期間中（前の月の下旬）に募集人員を掲載する
   kofu: {
-    asOf: "2026-08-25",
+    asOf: "2026-09-03",
     facilityCount: 65,
-    vacancy: 113,
+    vacancy: 123,
   },
   // 刈谷市は0〜2歳児クラスだけ公表している（3歳児以上は幼児園等が受け持つ）
   kariya: {
@@ -1117,10 +1117,10 @@ const EXPECTED: Record<
   },
   // 福島市は年齢の欄が上下2段（上＝受入予定数の記号、下＝申込み人数）
   fukushima: {
-    asOf: "2026-08-28",
+    asOf: "2026-09-03",
     facilityCount: 84,
     vacancy: 0,
-    symbolCounts: { "×": 364, "▲": 57, "△": 7 },
+    symbolCounts: { "×": 362, "▲": 59, "△": 7 },
   },
   // 成田市は公立の小規模保育だけ3〜5歳がひとつの欄。同じ記号を3つに広げている
   narita: {
@@ -1184,10 +1184,10 @@ const EXPECTED: Record<
     symbolCounts: { "✖": 38, "〇": 31 },
   },
   nisshin: {
-    asOf: "2026-08-26",
+    asOf: "2026-09-02",
     facilityCount: 29,
     vacancy: 0,
-    symbolCounts: { "×": 120, "△": 12, "○": 7 },
+    symbolCounts: { "×": 116, "△": 16, "○": 7 },
   },
   toyoake: {
     asOf: "2026-09-01",
@@ -2268,9 +2268,9 @@ nishio: {
     symbolCounts: { "✖": 48, "△": 4 },
   },
   moriguchi: {
-    asOf: "2026-08-26",
+    asOf: "2026-08-31",
     facilityCount: 61,
-    vacancy: 26,
+    vacancy: 31,
   },
   // 那珂市（茨城）は事業所内・小規模・家庭的の3件で3〜5歳が「—」になる
   "naka-ibaraki": {

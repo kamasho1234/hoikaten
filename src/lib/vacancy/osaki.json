@@ -1,19 +1,19 @@
 {
   "municipalitySlug": "osaki",
   "municipalityName": "大崎市",
-  "asOf": "2026-08-27",
-  "fetchedAt": "2026-09-03",
+  "asOf": "2026-09-03",
+  "fetchedAt": "2026-09-04",
   "sourceName": "大崎市「市内保育施設の空き状況」",
   "sourceUrl": "https://www.city.osaki.miyagi.jp/shisei/soshikikarasagasu/minseibu/kosodateshienka/3/6/1_1/15978.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.osaki.miyagi.jp/material/files/group/14/20260827.pdf"
+    "vacancy": "https://www.city.osaki.miyagi.jp/material/files/group/14/20260903.pdf"
   },
   "metrics": [
     "symbol"
   ],
   "subtitle": "2026年度8月25日入所選考後の空き状況",
   "notes": [
-    "大崎市は空き状況を人数ではなく記号で公表しています。これは2026年度8月25日入所選考後のもので、2026-08-27時点のものです。",
+    "大崎市は空き状況を人数ではなく記号で公表しています。これは2026年度8月25日入所選考後のもので、2026-09-03時点のものです。",
     "公式の凡例は 「○」空きあり、「△」空き枠3以下、「×」空きなし です。",
     "公式の表で空らんになっている年齢は「—」にしています。空きがなければ「×」と書かれ、施設ごとの「入所対象児」とも一つずつ照らし合わせています。",
     "施設ごとの「入所対象児」と「定員（全学齢）」は公式の表に載っているものをそのまま出しています。",
@@ -79,7 +79,7 @@
     {"id":"わかば第三保育園","name":"わかば第三保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","△","×","×"],"note":"入所対象児: 生後2ヶ月以上就学前 ／ 定員（全学齢）: 60人"},
     {"id":"バオバブ保育園","name":"バオバブ保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"note":"入所対象児: 生後57日目以上就学前 ／ 定員（全学齢）: 75人"},
     {"id":"スケッチ保育園","name":"スケッチ保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","△","△","×"],"note":"入所対象児: 生後57日目以上就学前 ／ 定員（全学齢）: 75人"},
-    {"id":"もりのなかま保育園古川北町園","name":"もりのなかま保育園古川北町園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","△","×","×"],"note":"入所対象児: 生後2ヶ月以上就学前 ／ 定員（全学齢）: 60人"},
+    {"id":"もりのなかま保育園古川北町園","name":"もりのなかま保育園古川北町園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","△","△","×","×"],"note":"入所対象児: 生後2ヶ月以上就学前 ／ 定員（全学齢）: 60人"},
     {"id":"げんき保育園","name":"げんき保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△","△","×","×"],"note":"入所対象児: 生後2ヶ月以上就学前 ／ 定員（全学齢）: 60人"},
     {"id":"鹿島台保育園","name":"鹿島台保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","×","×","×","×"],"note":"入所対象児: 生後2ヶ月以上就学前 ／ 定員（全学齢）: 60人"},
     {"id":"ウェルネス保育園大崎","name":"ウェルネス保育園大崎","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"],"note":"入所対象児: 生後2ヶ月以上就学前 ／ 定員（全学齢）: 40人"},

@@ -1,19 +1,19 @@
 {
   "municipalitySlug": "ebina",
   "municipalityName": "海老名市",
-  "asOf": "2026-08-24",
-  "fetchedAt": "2026-08-24",
+  "asOf": "2026-09-02",
+  "fetchedAt": "2026-09-04",
   "sourceName": "海老名市「保育所途中入所における受入予定数」",
   "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/kosodate/hoikuen/1014723.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.ebina.kanagawa.jp/_res/projects/default_project/_page_/001/014/723/2026.8.24.pdf"
+    "vacancy": "https://www.city.ebina.kanagawa.jp/_res/projects/default_project/_page_/001/014/723/20260901.pdf"
   },
   "metrics": [
     "vacancy"
   ],
   "subtitle": "2026年10月入所ぶんの受入予定数",
   "notes": [
-    "海老名市は2026年10月入所ぶんの受入予定数を公表しています。これは2026-08-24時点のものです。",
+    "海老名市は2026年10月入所ぶんの受入予定数を公表しています。これは2026-09-02時点のものです。",
     "掲載内容は、現時点での予定数となります。",
     "在園児童の状況や保育士の配置等により、最終的な受入人数は変動いたします。",
     "保育所入所申込の際の参考としてご活用ください。",
@@ -30,8 +30,8 @@
     {"id":"たちばな保育園","name":"たちばな保育園","w":null,"c":null,"vacancy":[0,0,0,0,0,0]},
     {"id":"海老名たちばな保育園","name":"海老名たちばな保育園","w":null,"c":null,"vacancy":[0,0,0,6,0,0]},
     {"id":"さがみ愛子園","name":"さがみ愛子園","w":null,"c":null,"vacancy":[0,1,0,0,0,0]},
-    {"id":"ふたば愛子園","name":"ふたば愛子園","w":null,"c":null,"vacancy":[0,0,0,3,2,1]},
-    {"id":"つちのこ保育園","name":"つちのこ保育園","w":null,"c":null,"vacancy":[0,0,0,0,0,0]},
+    {"id":"ふたば愛子園","name":"ふたば愛子園","w":null,"c":null,"vacancy":[0,1,1,3,2,1]},
+    {"id":"つちのこ保育園","name":"つちのこ保育園","w":null,"c":null,"vacancy":[0,1,0,0,0,0]},
     {"id":"保育所すこやかハウス","name":"保育所すこやかハウス","w":null,"c":null,"vacancy":[0,0,0,3,1,1]},
     {"id":"かしわ台あおぞら保育園","name":"かしわ台あおぞら保育園","w":null,"c":null,"vacancy":[0,0,0,1,0,2]},
     {"id":"さくらい保育園","name":"さくらい保育園","w":null,"c":null,"vacancy":[0,0,0,0,0,0]},

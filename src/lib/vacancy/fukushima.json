@@ -1,19 +1,19 @@
 {
   "municipalitySlug": "fukushima",
   "municipalityName": "福島市",
-  "asOf": "2026-08-28",
-  "fetchedAt": "2026-08-28",
+  "asOf": "2026-09-03",
+  "fetchedAt": "2026-09-04",
   "sourceName": "福島市「認可保育施設の受入予定数」",
   "sourceUrl": "https://www.city.fukushima.fukushima.jp/kosodate-portal/5735.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.fukushima.fukushima.jp/material/files/group/55/20260828.pdf"
+    "vacancy": "https://www.city.fukushima.fukushima.jp/material/files/group/55/20260903_2.pdf"
   },
   "metrics": [
     "symbol"
   ],
   "subtitle": "2026年10月の受入予定数",
   "notes": [
-    "福島市は空き状況を人数ではなく記号で公表しています。これは2026年10月の受入予定数で、2026-08-28時点のものです。",
+    "福島市は空き状況を人数ではなく記号で公表しています。これは2026年10月の受入予定数で、2026-09-03時点のものです。",
     "表中の年齢は、令和８年４月１日時点の年齢でご覧ください。",
     "「定員」は、保育機能（２・３号認定）のみの人数です。",
     "「受入予定数」は、調査日時点での見込み状況です。今後、施設の状況（職員配置等）や在園児の退所等により",
@@ -121,9 +121,9 @@
     {"id":"あおぞら保育園","name":"あおぞら保育園","w":null,"c":5,"vacancy":[null,null,null,null,null,null],"symbols":["▲","▲","×",null,null,null]},
     {"id":"託児所小さなスプーン","name":"託児所小さなスプーン","w":null,"c":5,"vacancy":[null,null,null,null,null,null],"symbols":["▲","×","×",null,null,null]},
     {"id":"かぜの子保育園","name":"かぜの子保育園","w":null,"c":5,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
-    {"id":"そっりーぞ園","name":"そっりーぞ園","w":null,"c":5,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"そっりーぞ園","name":"そっりーぞ園","w":null,"c":5,"vacancy":[null,null,null,null,null,null],"symbols":["×","▲","×",null,null,null]},
     {"id":"なないろ保育園","name":"なないろ保育園","w":null,"c":5,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
-    {"id":"スクルドエンジェル保育園福島園","name":"スクルドエンジェル保育園福島園","w":null,"c":5,"vacancy":[null,null,null,null,null,null],"symbols":["▲","×","×",null,null,null]},
+    {"id":"スクルドエンジェル保育園福島園","name":"スクルドエンジェル保育園福島園","w":null,"c":5,"vacancy":[null,null,null,null,null,null],"symbols":["▲","▲","×",null,null,null]},
     {"id":"ニチイキッズ福島みなみ保育園","name":"ニチイキッズ福島みなみ保育園","w":null,"c":5,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×",null,null,null]},
     {"id":"ひばり音楽幼児園","name":"ひばり音楽幼児園","w":null,"c":5,"vacancy":[null,null,null,null,null,null],"symbols":["△","▲","▲",null,null,null]},
     {"id":"Ribbon保育園かまた","name":"Ribbon保育園かまた","w":null,"c":5,"vacancy":[null,null,null,null,null,null],"symbols":["▲","×","×",null,null,null]},

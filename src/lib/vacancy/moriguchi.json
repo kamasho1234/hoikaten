@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "moriguchi",
   "municipalityName": "守口市",
-  "asOf": "2026-08-26",
-  "fetchedAt": "2026-08-31",
+  "asOf": "2026-08-31",
+  "fetchedAt": "2026-09-04",
   "sourceName": "守口市「認定こども園等（2・3号認定）受入可能枠一覧表」",
   "sourceUrl": "https://www.city.moriguchi.osaka.jp/kakukanoannai/kodomobu/hoikuyochienka/ninteikodomoentou/hoikusyonyuen/3052.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.moriguchi.osaka.jp/material/files/group/4/ukeirewaku20260826.pdf"
+    "vacancy": "https://www.city.moriguchi.osaka.jp/material/files/group/4/ukeirewaku20260831.pdf"
   },
   "metrics": [
     "vacancy"
@@ -244,7 +244,7 @@
         0,
         0,
         0,
-        0,
+        1,
         0,
         0
       ]
@@ -271,9 +271,9 @@
       "vacancy": [
         0,
         0,
+        1,
         0,
-        0,
-        0,
+        2,
         0
       ]
     },
@@ -367,7 +367,7 @@
       "w": null,
       "c": 1,
       "vacancy": [
-        0,
+        1,
         0,
         0,
         0,

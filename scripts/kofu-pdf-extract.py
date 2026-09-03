@@ -64,7 +64,7 @@ def extract(path):
         text = page.extract_text() or ""
         flat = "".join(text.split()).translate(ZEN)
 
-        m = re.search(r"令和(\d+)年(\d+)月(\d+)現在", flat)
+        m = re.search(r"令和(\d+)年(\d+)月(\d+)日?現在", flat)
         if not m:
             fail("「令和N年M月D日現在」を読み取れませんでした")
         as_of = (int(m.group(1)), int(m.group(2)), int(m.group(3)))

@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "kiyose",
   "municipalityName": "清瀬市",
-  "asOf": "2026-08-27",
-  "fetchedAt": "2026-08-27",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-04",
   "sourceName": "清瀬市「認可保育園・認定こども園・地域型保育所 定員欠員情報」",
   "sourceUrl": "https://www.city.kiyose.lg.jp/kosodatekyouiku/hoikusyoyouchien/hoikuen/1014588.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.kiyose.lg.jp/_res/projects/default_project/_page_/001/014/588/10akiketuin.pdf"
+    "vacancy": "https://www.city.kiyose.lg.jp/_res/projects/default_project/_page_/001/014/588/r810ketuinshusei.pdf"
   },
   "metrics": [
     "vacancy"
@@ -35,7 +35,7 @@
     {"id":"認可保育園（私立）-すみれ保育園","name":"すみれ保育園","w":null,"c":1,"vacancy":[0,0,0,0,0,0]},
     {"id":"認可保育園（私立）-きよせ保育園","name":"きよせ保育園","w":null,"c":1,"vacancy":[0,0,0,0,0,0]},
     {"id":"認可保育園（私立）-すみれ保育園分園","name":"すみれ保育園分園","w":null,"c":1,"vacancy":[0,0,0,0,0,0]},
-    {"id":"認可保育園（私立）-清瀬どろんこ保育園","name":"清瀬どろんこ保育園","w":null,"c":1,"vacancy":[1,0,1,0,2,0]},
+    {"id":"認可保育園（私立）-清瀬どろんこ保育園","name":"清瀬どろんこ保育園","w":null,"c":1,"vacancy":[0,0,0,0,1,0]},
     {"id":"認可保育園（私立）-せせらぎ保育園","name":"せせらぎ保育園","w":null,"c":1,"vacancy":[0,0,0,1,0,0]},
     {"id":"認可保育園（私立）-のしお一丁目保育園","name":"のしお一丁目保育園","w":null,"c":1,"vacancy":[0,0,0,0,1,1]},
     {"id":"認可保育園（私立）-きよせ保育園分園","name":"きよせ保育園分園","w":null,"c":1,"vacancy":[0,0,0,0,0,0]},

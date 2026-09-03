@@ -1,19 +1,19 @@
 {
   "municipalitySlug": "omura",
   "municipalityName": "大村市",
-  "asOf": "2026-08-25",
-  "fetchedAt": "2026-08-26",
+  "asOf": "2026-09-03",
+  "fetchedAt": "2026-09-04",
   "sourceName": "大村市「保育所などの空き状況一覧」",
   "sourceUrl": "https://www.city.omura.nagasaki.jp/kodomoriyo/kenko/kosodate/hoikujo/akijoukyou.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.omura.nagasaki.jp/kodomoriyo/kenko/kosodate/hoikujo/documents/jyuugatuakiaki.pdf"
+    "vacancy": "https://www.city.omura.nagasaki.jp/kodomoriyo/kenko/kosodate/hoikujo/documents/jyuugatuakihennkou.pdf"
   },
   "metrics": [
     "symbol"
   ],
   "subtitle": "2026年10月入所希望者向けの空き状況",
   "notes": [
-    "大村市は空き状況を人数ではなく記号で公表しています。これは2026年10月入所を希望する人向けのもので、公式ページが2026-08-25に更新されたものです。",
+    "大村市は空き状況を人数ではなく記号で公表しています。これは2026年10月入所を希望する人向けのもので、公式ページが2026-09-03に更新されたものです。",
     "令和8年10月入所の申込期間は8月6日（木）～9月7日（月）です。",
     "申込みが大変多い状況であるため、空きがある場合でも、入所を保証するものではありません。",
     "保育士の配置状況や、急な退所等により、空き状況が変動することがあります。ご了承ください。",
@@ -45,7 +45,7 @@
     }
   ],
   "facilities": [
-    {"id":"三城保育所【公立】","name":"三城保育所【公立】","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×","×","×","△"]},
+    {"id":"三城保育所【公立】","name":"三城保育所【公立】","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","△"]},
     {"id":"萱瀬保育園","name":"萱瀬保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","△","△","△"]},
     {"id":"植松保育園","name":"植松保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
     {"id":"三浦保育園","name":"三浦保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","○","△","○","○","×"]},
