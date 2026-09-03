@@ -31,6 +31,9 @@ COLUMN_COUNT = COL_TOTAL + 2
 TOTAL_ROW = "合計"
 NO_CLASS = "-"
 ZEN = str.maketrans("０１２３４５６７８９－―ー", "0123456789---")
+# 施設名には長音（ー）が入るので、数の欄と同じ正規化をかけてはいけない
+# （「ケアーズ保育園」が「ケア-ズ保育園」になってしまう）
+ZEN_NAME = str.maketrans("０１２３４５６７８９", "0123456789")
 
 
 def fail(message):
@@ -41,6 +44,13 @@ def cell(s):
     if s is None:
         return ""
     return "".join(str(s).split()).translate(ZEN)
+
+
+def name_cell(s):
+    """施設名の欄。長音はそのまま残す"""
+    if s is None:
+        return ""
+    return "".join(str(s).split()).translate(ZEN_NAME)
 
 
 def check_heads(head1, head2):
@@ -64,6 +74,11 @@ def check_heads(head1, head2):
 
 def number(value, where):
     if value == NO_CLASS:
+        return None
+    # 罫線がうすい行では pdfplumber が「-」のセルを取りこぼして空にすることがある
+    # （令和8年10月分の70番）。行ごと・列ごと・総合計の3通りで検算しているので、
+    # 空らんはクラスなしとして扱い、数が抜けていれば検算で弾かれる
+    if value == "":
         return None
     if not re.fullmatch(r"\d+", value):
         fail(f"{where}: 数でも「{NO_CLASS}」でもありません: 「{value}」")
@@ -123,7 +138,7 @@ def extract(path):
             for row in table[2:]:
                 values = [cell(c) for c in row]
                 no = values[COL_NO]
-                name = values[COL_NAME]
+                name = name_cell(row[COL_NAME])
 
                 if no == TOTAL_ROW:
                     if totals is not None:

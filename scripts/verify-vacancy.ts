@@ -496,9 +496,9 @@ const EXPECTED: Record<
   },
   // つくば市は「入所月の募集数」。PDFの合計行（513）と一致する
   tsukuba: {
-    asOf: "2026-07-27",
+    asOf: "2026-08-25",
     facilityCount: 119,
-    vacancy: 513,
+    vacancy: 417,
   },
   // 宇都宮市の「／」は利用できない。公式が凡例で決めている記号なのでそのまま持つ
   utsunomiya: {
