@@ -2268,6 +2268,14 @@ const EXPECTED: Record<
     facilityCount: 61,
     vacancy: 26,
   },
+  // 高崎市は空らん（受入可能人数なし）を「×」に置き換え、斜線を「—」にしている
+  takasaki: {
+    asOf: "2026-09-03",
+    facilityCount: 113,
+    vacancy: 0,
+    symbolCounts: { "◎": 9, "〇": 17, "△": 91, "×": 514 },
+    emptyRatio: 0.2,
+  },
   // 小樽市は空らんを「〇」に置き換えているので、〇の数＝空らんの数
   otaru: {
     asOf: "2026-08-26",

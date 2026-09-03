@@ -481,6 +481,8 @@ import okazakiVacancy from "./okazaki.json";
 import otakeVacancy from "./otake.json";
 // 小樽市は空らんが「定員に余裕あり」、斜線が「クラスなし」。取り違えないよう線分の数で見分けている
 import otaruVacancy from "./otaru.json";
+// 高崎市は年齢の組が2つ（直近の途中入所と翌年度4月入所）あり、直近の組だけを持っている
+import takasakiVacancy from "./takasaki.json";
 
 export type {
   AgeSummary,
@@ -954,6 +956,7 @@ const registry: Record<string, VacancyDataset> = {
   okazaki: okazakiVacancy as unknown as VacancyDataset,
   otake: otakeVacancy as unknown as VacancyDataset,
   otaru: otaruVacancy as unknown as VacancyDataset,
+  takasaki: takasakiVacancy as unknown as VacancyDataset,
 };
 
 export function getVacancyData(slug: string): VacancyDataset | undefined {
