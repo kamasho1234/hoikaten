@@ -2367,6 +2367,14 @@ nishio: {
     vacancy: 6,
     emptyRatio: 0.3,
   },
+  // 大仙市は受入年齢が限られる園があり、その分「—」が出る
+  daisen: {
+    asOf: "2026-09-01",
+    facilityCount: 25,
+    vacancy: 0,
+    emptyRatio: 0.15,
+    symbolCounts: { "×": 98, "△": 43, "○": 3 },
+  },
   // 豊後高田市は香々地保育園とあすなろほいくえんが年齢別に分かれず「若干名」
   bungotakada: {
     asOf: "2026-08-31",

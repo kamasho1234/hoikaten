@@ -1,0 +1,79 @@
+{
+  "municipalitySlug": "daisen",
+  "municipalityName": "大仙市",
+  "prefecture": "秋田県",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-04",
+  "sourceName": "大仙市「認可保育施設 受入状況一覧」",
+  "sourceUrl": "https://www.city.daisen.lg.jp/archive/0000000696",
+  "sourceFiles": {
+    "vacancy": "https://www.city.daisen.lg.jp/uploads/public/archive_0000000696_01/%E5%8F%97%E5%85%A5%E5%8F%AF%E8%83%BD%E4%BA%BA%E6%95%B0/%E5%8F%97%E5%85%A5%E5%8F%AF%E8%83%BD%E5%85%90%E7%AB%A5%E6%95%B0%EF%BC%88R8.9.1%EF%BC%89.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "認可保育施設の受入状況",
+  "notes": [
+    "大仙市は空きを人数ではなく記号で公表しています。2026-09-01時点のものです。",
+    "公式の凡例は 「○」受入可能、「△」受入可能（1〜3名程度）、「×」受入不可 です。",
+    "市は「入所を保証するものではありません」「多くの方から同様に申込みがあった場合、優先度の高い児童から入所の調整を行います」としています。",
+    "市は「保育士等の職員の配置により、年齢別の定数が随時変動するため、受入可能状況も変わります」としています。",
+    "設けていないクラスは「—」にしています。受入年齢が限られる園は、市の備考を施設ごとに載せています。",
+    "市は認可外保育施設の受入可能児童数も別に公表しています。このページには載せていません。"
+  ],
+  "wards": [
+    "大曲",
+    "神岡",
+    "西仙北",
+    "協和",
+    "中仙",
+    "南外",
+    "仙北",
+    "太田"
+  ],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "受入可能",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "受入可能（1〜3名程度）",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "受入不可",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"大曲駅前こども園","name":"大曲駅前こども園","w":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"大曲中央こども園","name":"大曲中央こども園","w":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","×"]},
+    {"id":"四ツ屋こども園","name":"四ツ屋こども園","w":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"角間川保育園","name":"角間川保育園","w":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"内小友保育園","name":"内小友保育園","w":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"大川西根保育園","name":"大川西根保育園","w":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"藤木保育園","name":"藤木保育園","w":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"大曲乳児保育園","name":"大曲乳児保育園","w":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null],"note":"市の備考: ◎生後57日目～３歳児未満"},
+    {"id":"大曲東保育園","name":"大曲東保育園","w":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"大曲南保育園","name":"大曲南保育園","w":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"はなだて保育園","name":"はなだて保育園","w":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"大曲北保育園","name":"大曲北保育園","w":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"どれみ保育園","name":"どれみ保育園","w":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","×","×","×","×"]},
+    {"id":"日の出ベビー保育園","name":"日の出ベビー保育園","w":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×","△","×","×"]},
+    {"id":"かえで保育園大曲","name":"かえで保育園大曲","w":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","△","△","×"]},
+    {"id":"ウェルネス保育園大曲","name":"ウェルネス保育園大曲","w":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△","○","○","△"]},
+    {"id":"きらきら保育園大曲","name":"きらきら保育園大曲","w":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△",null,null,null],"note":"市の備考: ◎生後57日目～３歳児未満"},
+    {"id":"すくすくだけっこ園","name":"すくすくだけっこ園","w":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"西仙あおぞらこども園","name":"西仙あおぞらこども園","w":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△","△","△","△"]},
+    {"id":"みつば保育園","name":"みつば保育園","w":3,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△","△","△","○"]},
+    {"id":"協和まほろばこども園","name":"協和まほろばこども園","w":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","△","×","△","△"]},
+    {"id":"なかせんワイワイらんど","name":"なかせんワイワイらんど","w":4,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"つきの木こども園","name":"つきの木こども園","w":5,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","△"]},
+    {"id":"せんぼくちびっこらんど","name":"せんぼくちびっこらんど","w":6,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","△","△","△"]},
+    {"id":"おおたわんぱくランド","name":"おおたわんぱくランド","w":7,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","△","△","×","×"]}
+  ]
+}
