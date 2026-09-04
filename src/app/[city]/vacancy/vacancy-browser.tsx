@@ -512,9 +512,17 @@ function FacilityCard({
           })}
         </div>
       ) : age === null && facility.vacancyTotal !== undefined ? (
-        <p className="mt-2.5 text-xs text-muted-foreground">
-          この施設は0〜2歳をまとめて{facility.vacancyTotal}枠として公表されているため、年齢別の内訳はありません。
-        </p>
+        // 弘前市のように、年齢別ではないまとめ方を自治体が備考で説明している施設がある。
+        // そのときは下の備考が中身を伝えるので、ここは合計だけにする
+        facility.note ? (
+          <p className="mt-2.5 text-xs text-muted-foreground tabular-nums">
+            空き合計 {facility.vacancyTotal}人
+          </p>
+        ) : (
+          <p className="mt-2.5 text-xs text-muted-foreground">
+            この施設は0〜2歳をまとめて{facility.vacancyTotal}枠として公表されているため、年齢別の内訳はありません。
+          </p>
+        )
       ) : hasEnrolled ? (
         <p className="mt-2.5 text-xs text-muted-foreground tabular-nums">
           在籍 {enrolled === null ? "クラスなし" : `${enrolled}人`}

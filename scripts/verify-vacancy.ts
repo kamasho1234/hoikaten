@@ -183,6 +183,12 @@ const EXPECTED: Record<
     symbolCounts: { "×": 1702, "△": 215, "○": 27, "◎": 13 },
   },
   // 姫路市は空きが記号。公式の表で空欄のクラスは「－」に置き換えている
+  // 弘前市は空き数を「0~2歳」「3~5歳」の2つでしか出さないので、施設ごとの合計で持つ
+  hirosaki: {
+    asOf: "2026-08-19",
+    facilityCount: 74,
+    vacancy: 770,
+  },
   himeji: {
     asOf: "2026-08-14",
     facilityCount: 142,

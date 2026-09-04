@@ -1,6 +1,6 @@
 {
  "asOf": "2026-08-24",
- "sourceUrl": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/documents/r8_10aki.pdf",
+ "sourceUrl": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/documents/r8-10akiback.pdf",
  "facilities": [
   {
    "id": "200770",
@@ -1462,7 +1462,7 @@
   },
   {
    "id": "200660",
-   "name": "ココロラボインターナ ショナル大島（本園）",
+   "name": "ココロラボインターナショ ナル大島（本園）",
    "area": "大島②",
    "category": "私立",
    "address": "大島6-22-8 1階",
@@ -1471,7 +1471,7 @@
   },
   {
    "id": "200665",
-   "name": "ココロラボインターナ ショナル大島（分園）",
+   "name": "ココロラボインターナショ ナル大島（分園）",
    "area": "大島②",
    "category": "私立",
    "address": "大島6-22-９ 1階",
