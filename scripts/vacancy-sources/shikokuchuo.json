@@ -1,0 +1,48 @@
+{
+  "slug": "shikokuchuo",
+  "name": "四国中央市",
+  "prefecture": "愛媛県",
+  "sourceName": "四国中央市「保育所等途中入所受入可能状況」",
+  "indexUrl": "https://www.city.shikokuchuo.ehime.jp/site/kosodate/37124.html",
+  "pdf": {
+    "linkPattern": "途中入所受入可能状況"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 1,
+    "category": 0
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○",
+    "◯": "○",
+    "✖": "×",
+    "✕": "×"
+  },
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "受入可能",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "受入不可",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "file"
+  },
+  "minFacilities": 15,
+  "subtitle": "翌月入所ぶんの受入可能状況（2・3号認定）",
+  "notes": [
+    "市は空きを人数ではなく記号で公表しています。",
+    "この表は2・3号認定（保育利用）の分です。",
+    "市は表に基準日を書いていないため、資料の公開日を基準日にしています。",
+    "市の表で斜線が引かれているクラス（公立保育所の0歳児など）は「—」にしています。そのクラスを設けていないことを表します。"
+  ]
+}

@@ -1747,6 +1747,14 @@ obu: {
     emptyRatio: 0.09,
     symbolCounts: { "×": 49, "●": 38 },
   },
+  // 四国中央市は公立保育所の0歳児が斜線（クラスなし）、小規模保育は3歳以上が「—」
+  shikokuchuo: {
+    asOf: "2026-09-02",
+    facilityCount: 26,
+    vacancy: 0,
+    emptyRatio: 0.21,
+    symbolCounts: { "×": 98, "○": 26 },
+  },
   // 石狩市は事業所内保育1園で3歳以上が「—」になる
   ishikari: {
     asOf: "2026-08-21",
