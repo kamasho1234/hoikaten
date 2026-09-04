@@ -2375,6 +2375,21 @@ nishio: {
     emptyRatio: 0.15,
     symbolCounts: { "×": 98, "△": 43, "○": 3 },
   },
+  // 八千代町（茨城）は小規模保育が多く、3歳以上が「—」になる施設が多い
+  "yachiyo-ibaraki": {
+    asOf: "2026-09-01",
+    facilityCount: 64,
+    vacancy: 0,
+    emptyRatio: 0.4,
+    symbolCounts: { "×": 241, "△": 21, "〇": 8 },
+  },
+  // 湯沢市は深堀保育園の5歳児だけ欄が無い
+  yuzawa: {
+    asOf: "2026-08-26",
+    facilityCount: 11,
+    vacancy: 0,
+    symbolCounts: { "〇": 23, "×": 26, "△": 16 },
+  },
   // 豊後高田市は香々地保育園とあすなろほいくえんが年齢別に分かれず「若干名」
   bungotakada: {
     asOf: "2026-08-31",

@@ -36,11 +36,16 @@ def fail(message):
     raise SystemExit(f"[中断] {message}")
 
 
+# 目に見えない文字。ページの中に紛れて記号にくっつくことがある
+#（八千代町の表では「​×」のように ZERO WIDTH SPACE が前に入っていた）
+INVISIBLE = str.maketrans("", "", "​‌‍﻿­")
+
+
 def cell(s):
     """セルの文字を、比較しやすい形にそろえる（空白を落として全角数字を半角に）"""
     if s is None:
         return ""
-    return "".join(str(s).split()).translate(ZEN)
+    return "".join(str(s).split()).translate(ZEN).translate(INVISIBLE)
 
 
 def parse_number(text, unit):

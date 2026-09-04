@@ -1,0 +1,53 @@
+{
+  "slug": "yachiyo-ibaraki",
+  "name": "八千代町",
+  "prefecture": "茨城県",
+  "sourceName": "八千代町「保育園等空き状況」",
+  "indexUrl": "https://www.city.yachiyo.lg.jp/soshiki/31/3266.html",
+  "layout": "html-tables",
+  "columns": {
+    "name": 1,
+    "category": 0
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMarks": [
+    "○",
+    "〇",
+    "△",
+    "×"
+  ],
+  "symbolMap": {
+    "○": "〇"
+  },
+  "symbolLegend": [
+    {
+      "mark": "〇",
+      "label": "4人以上空きあり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1〜3人の空きあり",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "更新日：(\\d{4})年(\\d{1,2})月(\\d{1,2})日"
+  },
+  "minFacilities": 8,
+  "notes": [
+    "八千代町は空きを人数ではなく記号で公表しています。",
+    "公式の凡例は「○」4人以上空きあり、「△」1〜3人の空きあり、「×」空きなし です。",
+    "公式の表で「-」になっている年齢は「—」にしています。そのクラスを設けていないことを表します。",
+    "町は「空きがあっても申込状況等によっては、必ず入園できるわけではありません」「急きょの退園や保育士の配置状況等により、空き状況が変動する場合があります」としています。",
+    "町は企業主導型保育施設の空き状況も別に公表しています。このページには載せていません。"
+  ]
+}

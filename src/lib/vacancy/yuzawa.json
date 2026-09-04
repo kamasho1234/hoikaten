@@ -1,0 +1,287 @@
+{
+  "municipalitySlug": "yuzawa",
+  "municipalityName": "湯沢市",
+  "asOf": "2026-08-26",
+  "fetchedAt": "2026-09-04",
+  "sourceName": "湯沢市「保育所等受入可能状況」",
+  "sourceUrl": "https://www.city-yuzawa.jp/site/kosodate-navi/6085.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city-yuzawa.jp/uploaded/attachment/37082.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "湯沢市は空きを人数ではなく記号で公表しています。保育の事由を必要とする乳幼児（2号・3号認定）ぶんです。",
+    "公式の凡例は「〇」3人以上可能、「△」1人〜2人可能、「×」難しい です。",
+    "「認」は認定こども園、「保」は保育所です。",
+    "年齢はクラス年齢です。入所クラスは令和8年4月1日時点の年齢で決まります。",
+    "市は「まずは子ども未来課へご相談ください」としています。"
+  ],
+  "wards": [],
+  "categories": [
+    "認定こども園",
+    "保育所"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "〇",
+      "label": "3人以上可能",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1人〜2人可能",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "難しい",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "愛宕幼稚園",
+      "name": "愛宕幼稚園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "〇",
+        "×",
+        "×",
+        "〇",
+        "〇",
+        "〇"
+      ]
+    },
+    {
+      "id": "湯沢若草幼稚園",
+      "name": "湯沢若草幼稚園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "双葉幼稚園",
+      "name": "双葉幼稚園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "〇",
+        "△",
+        "×",
+        "〇",
+        "〇",
+        "×"
+      ]
+    },
+    {
+      "id": "湯沢よつばこども園",
+      "name": "湯沢よつばこども園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "×",
+        "×",
+        "〇",
+        "〇",
+        "〇"
+      ]
+    },
+    {
+      "id": "いわさきこども園",
+      "name": "いわさきこども園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "〇",
+        "×",
+        "×",
+        "×",
+        "△",
+        "×"
+      ]
+    },
+    {
+      "id": "湯沢こども園",
+      "name": "湯沢こども園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "△",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "みたけこども園",
+      "name": "みたけこども園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "〇",
+        "〇",
+        "×",
+        "〇",
+        "△"
+      ]
+    },
+    {
+      "id": "深堀保育園",
+      "name": "深堀保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "〇",
+        "△",
+        "△",
+        "〇",
+        "〇",
+        null
+      ]
+    },
+    {
+      "id": "あおぞらこども園",
+      "name": "あおぞらこども園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "〇",
+        "〇",
+        "〇",
+        "〇",
+        "△",
+        "〇"
+      ]
+    },
+    {
+      "id": "おがちこども園",
+      "name": "おがちこども園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "〇",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "皆瀬保育園",
+      "name": "皆瀬保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "△",
+        "△",
+        "△",
+        "×"
+      ]
+    }
+  ]
+}
