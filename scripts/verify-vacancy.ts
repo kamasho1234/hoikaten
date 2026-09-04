@@ -171,9 +171,9 @@ const EXPECTED: Record<
   },
   // 川越市は翌月入園ぶんの募集人数（実数）。施設合計・地区小計・施設ごとの計で検算できる
   kawagoe: {
-    asOf: "2026-08-05",
+    asOf: "2026-09-04",
     facilityCount: 102,
-    vacancy: 70,
+    vacancy: 64,
   },
   // 千葉市は空きが記号。公式が「0」と書いているクラスは受け入れなしとして null
   chiba: {
@@ -426,10 +426,10 @@ const EXPECTED: Record<
   },
   // 青森市は空欄がなく、111施設×6歳児＝666の記号がすべて埋まっている
   aomori: {
-    asOf: "2026-08-04",
+    asOf: "2026-09-04",
     facilityCount: 111,
     vacancy: 0,
-    symbolCounts: { "◎": 9, "○": 45, "△": 267, "－": 345 },
+    symbolCounts: { "△": 265, "－": 356, "○": 37, "◎": 8 },
   },
   // 八戸市は地区の罫線が引かれていない場所があるので、行のy座標で切って読んでいる
   hachinohe: {
@@ -597,10 +597,10 @@ const EXPECTED: Record<
   },
   // 熊本市は空らんが「預かりなし」と凡例に明記されている
   kumamoto: {
-    asOf: "2026-08-05",
+    asOf: "2026-09-04",
     facilityCount: 271,
     vacancy: 0,
-    symbolCounts: { "×": 991, "△": 328, "○": 72, "◎": 13 },
+    symbolCounts: { "×": 1039, "△": 298, "○": 55, "◎": 12 },
   },
   // 沖縄市は人数。そのクラスがない欄は斜線で、小規模が多いので「—」の割合が高い
   okinawa: {
