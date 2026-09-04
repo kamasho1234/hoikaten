@@ -1974,7 +1974,7 @@ nishio: {
     symbolCounts: { "×": 31, "△": 14, "○": 3 },
   },
   "kumano-hiroshima": {
-    asOf: "2026-09-01",
+    asOf: "2026-08-17",
     facilityCount: 7,
     vacancy: 0,
     symbolCounts: { "×": 39 },
