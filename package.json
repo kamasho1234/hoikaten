@@ -241,7 +241,6 @@
     "vacancy:fetch:saza": "tsx scripts/fetch-saza-vacancy.ts",
     "vacancy:fetch:kudamatsu": "tsx scripts/fetch-kudamatsu-vacancy.ts",
     "vacancy:fetch:yokohama": "tsx scripts/fetch-yokohama-vacancy.ts",
-    "vacancy:fetch:tochigi-city": "tsx scripts/fetch-tochigi-vacancy.ts",
     "vacancy:fetch:toyota": "tsx scripts/fetch-toyota-vacancy.ts",
     "vacancy:fetch:wako": "tsx scripts/fetch-wako-vacancy.ts",
     "vacancy:fetch:izumi-kagoshima": "tsx scripts/fetch-izumi-kagoshima-vacancy.ts",

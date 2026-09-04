@@ -1,7 +1,7 @@
 {
   "municipalitySlug": "abiko",
   "municipalityName": "我孫子市",
-  "asOf": "2026-09-01",
+  "asOf": "2026-09-04",
   "fetchedAt": "2026-09-04",
   "sourceName": "我孫子市「保育施設の空き状況」",
   "sourceUrl": "https://www.city.abiko.chiba.jp/kosodate/children/preschool/nursery/vacancy/hoikuen_aki.html",
@@ -50,7 +50,7 @@
     {"id":"つくし野","name":"つくし野","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","△","〇","×"]},
     {"id":"湖北","name":"湖北","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
     {"id":"慈紘","name":"慈紘","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
-    {"id":"双葉","name":"双葉","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","×","×"]},
+    {"id":"双葉","name":"双葉","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
     {"id":"天王台双葉","name":"天王台双葉","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
     {"id":"川村学園女子大学附属","name":"川村学園女子大学附属","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
     {"id":"アンジェリカ","name":"アンジェリカ","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},

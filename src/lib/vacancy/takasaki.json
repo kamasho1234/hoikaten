@@ -2,19 +2,19 @@
   "municipalitySlug": "takasaki",
   "municipalityName": "高崎市",
   "prefecture": "群馬県",
-  "asOf": "2026-09-03",
-  "fetchedAt": "2026-09-03",
+  "asOf": "2026-09-04",
+  "fetchedAt": "2026-09-04",
   "sourceName": "高崎市「保育所（園）・認定こども園募集状況」",
   "sourceUrl": "https://www.city.takasaki.gunma.jp/page/6309.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.takasaki.gunma.jp/uploaded/attachment/43220.pdf"
+    "vacancy": "https://www.city.takasaki.gunma.jp/uploaded/attachment/43398.pdf"
   },
   "metrics": [
     "symbol"
   ],
   "subtitle": "2026年11月入所の選考にあたる募集状況",
   "notes": [
-    "高崎市は募集状況を人数ではなく記号で公表しています。これは2026年11月入所の選考にあたる分で、2026-09-03時点のものです。",
+    "高崎市は募集状況を人数ではなく記号で公表しています。これは2026年11月入所の選考にあたる分で、2026-09-04時点のものです。",
     "公式の凡例は「◎」が5人以上、「○」が3〜4人程度、「△」が1〜2人程度の受入可能人数、「＊」は今後募集を行う可能性はあるが現時点で未定、空らんは受入可能人数が無い年齢区分です。当サイトでは空らんを「×」に置き換えて載せています。",
     "公式の表で斜線が引かれている年齢は「—」にしています。その年齢のクラスを設けていないことを表します。",
     "公式の資料には「・令和９年４月入所」の募集状況も併記されていますが、当サイトでは直近の入所分だけを載せています。",
@@ -78,7 +78,7 @@
     {"id":"慈光こども園分園","name":"慈光こども園分園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×",null,null,null,null]},
     {"id":"慈光なないろ保育園","name":"慈光なないろ保育園","w":0,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
     {"id":"法輪寺ブロッサムガーデン","name":"法輪寺ブロッサムガーデン","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
-    {"id":"法輪寺まちなかこども園","name":"法輪寺まちなかこども園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"法輪寺まちなかこども園","name":"法輪寺まちなかこども園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","×"]},
     {"id":"せんだん保育園","name":"せんだん保育園","w":0,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
     {"id":"いず海第一こども園","name":"いず海第一こども園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
     {"id":"いず海保育園","name":"いず海保育園","w":0,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×",null,null,null]},
@@ -119,7 +119,7 @@
     {"id":"高崎天使幼稚園","name":"高崎天使幼稚園","w":2,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,"×","×","×","×","×"]},
     {"id":"白菊","name":"白菊","w":3,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
     {"id":"ひだまりこども園","name":"ひだまりこども園","w":3,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","△","×","△"]},
-    {"id":"石原かがやきこども園","name":"石原かがやきこども園","w":3,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"石原かがやきこども園","name":"石原かがやきこども園","w":3,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","△"]},
     {"id":"片岡中央","name":"片岡中央","w":3,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
     {"id":"片岡ナーサリー","name":"片岡ナーサリー","w":3,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
     {"id":"山名双葉","name":"山名双葉","w":3,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},

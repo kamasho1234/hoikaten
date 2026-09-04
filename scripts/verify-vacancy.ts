@@ -315,10 +315,10 @@ const EXPECTED: Record<
   akita: { asOf: "2026-08-28", facilityCount: 95, vacancy: 929, emptyRatio: 0.6 },
   // 福岡市は空きを幅（◎6人以上など）で公表している。時点は施設情報の更新日なので日々動く
   fukuoka: {
-    asOf: "2026-09-03",
+    asOf: "2026-09-04",
     facilityCount: 472,
     vacancy: 0,
-    symbolCounts: { "×": 1871, "△": 266, "○": 118, "◎": 54 },
+    symbolCounts: { "×": 1881, "△": 262, "○": 113, "◎": 53 },
   },
   // 静岡市は選考後に残った空き枠を記号で公表している
   shizuoka: {
@@ -461,10 +461,10 @@ const EXPECTED: Record<
   },
   // 我孫子市はPDFではなくページの表そのものに載っている
   abiko: {
-    asOf: "2026-09-01",
+    asOf: "2026-09-04",
     facilityCount: 28,
     vacancy: 0,
-    symbolCounts: { "×": 137, "△": 18, "〇": 1 },
+    symbolCounts: { "×": 138, "△": 17, "〇": 1 },
   },
   // 稲沢市も公式の表は5歳→0歳の逆順。1号認定の行は取り込んでいない
   inazawa: {
@@ -1042,10 +1042,10 @@ const EXPECTED: Record<
   },
   // 延岡市は都城市と同じ様式だが記号の意味が違う（×＝空きなし、―＝クラス設定なし）
   nobeoka: {
-    asOf: "2026-08-01",
+    asOf: "2026-09-01",
     facilityCount: 50,
     vacancy: 0,
-    symbolCounts: { "×": 164, "△": 86, "○": 34 },
+    symbolCounts: { "×": 168, "△": 85, "○": 31 },
   },
   // 諫早市は空欄が「受け入れ可能」。当サイトでは○に置き換えている
   isahaya: {
@@ -1271,10 +1271,10 @@ obu: {
     vacancy: 203,
   },
   hioki: {
-    asOf: "2026-09-02",
+    asOf: "2026-09-03",
     facilityCount: 25,
     vacancy: 0,
-    symbolCounts: { "×": 74, "○": 33, "ー": 31 },
+    symbolCounts: { "×": 80, "○": 55, "ー": 3 },
   },
   ito: {
     asOf: "2026-08-17",
@@ -1557,10 +1557,10 @@ obu: {
     symbolCounts: { "○": 121, "×": 43 },
   },
   tadaoka: {
-    asOf: "2026-08-01",
+    asOf: "2026-09-01",
     facilityCount: 4,
     vacancy: 0,
-    symbolCounts: { "×": 10, "○": 7, "△": 4 },
+    symbolCounts: { "×": 11, "○": 7, "△": 3 },
   },
   tome: {
     asOf: "2026-08-18",
@@ -1653,10 +1653,10 @@ obu: {
     symbolCounts: { "×": 104, "△": 50, "○": 2 },
   },
   sakuragawa: {
-    asOf: "2026-08-31",
+    asOf: "2026-09-04",
     facilityCount: 7,
     vacancy: 0,
-    symbolCounts: { "×": 23, "△": 16 },
+    symbolCounts: { "×": 22, "△": 17 },
   },
   shiojiri: {
     asOf: "2026-08-24",
@@ -2529,10 +2529,10 @@ nishio: {
   },
   // 高崎市は空らん（受入可能人数なし）を「×」に置き換え、斜線を「—」にしている
   takasaki: {
-    asOf: "2026-09-03",
+    asOf: "2026-09-04",
     facilityCount: 113,
     vacancy: 0,
-    symbolCounts: { "◎": 9, "〇": 17, "△": 91, "×": 514 },
+    symbolCounts: { "×": 512, "〇": 17, "△": 93, "◎": 9 },
     emptyRatio: 0.2,
   },
   // 小樽市は空らんを「〇」に置き換えているので、〇の数＝空らんの数
@@ -2802,6 +2802,36 @@ slugs.forEach(check);
     problems.push(
       `index.ts に登録されていないデータがあります（ページが作られません）: ${missing.join("、")}`,
     );
+  }
+}
+
+// 基準日が取得日から大きく離れているデータを見つける。
+// 呉市は「更新日の年を受付開始日から補う」計算の向きを間違えて2025年になっていた。
+// verify の検算値は「asOf が変わったら照合をスキップ」するので、この手の誤りは
+// そのまま通ってしまう。日付そのものを見て気づけるようにする。
+{
+  for (const slug of slugs) {
+    const data = getVacancyData(slug);
+    if (!data) continue;
+    const asOfMs = Date.parse(`${data.asOf}T00:00:00Z`);
+    const fetchedMs = Date.parse(`${data.fetchedAt}T00:00:00Z`);
+    if (Number.isNaN(asOfMs) || Number.isNaN(fetchedMs)) {
+      problems.push(`${slug}: 日付を読めません（asOf=${data.asOf} fetchedAt=${data.fetchedAt}）`);
+      continue;
+    }
+    const days = Math.round((fetchedMs - asOfMs) / 86400000);
+    if (days > 200) {
+      problems.push(
+        `${slug}: 基準日（${data.asOf}）が取得日（${data.fetchedAt}）より${days}日前です。` +
+          `年の当て方を間違えている可能性があります`,
+      );
+    }
+    if (days < -40) {
+      problems.push(
+        `${slug}: 基準日（${data.asOf}）が取得日（${data.fetchedAt}）より${-days}日あとです。` +
+          `翌月入所ぶんでも40日は開きすぎです`,
+      );
+    }
   }
 }
 
