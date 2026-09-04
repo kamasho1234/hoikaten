@@ -3,11 +3,11 @@
   "municipalityName": "宇佐市",
   "prefecture": "大分県",
   "asOf": "2026-09-01",
-  "fetchedAt": "2026-09-01",
+  "fetchedAt": "2026-09-05",
   "sourceName": "宇佐市「入所募集数」",
   "sourceUrl": "https://www.city.usa.oita.jp/sougo/kosodate_kyoiku/kosodate/15782.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.usa.oita.jp/material/files/group/42/nyuusyobosyuu080901.pdf"
+    "vacancy": "https://www.city.usa.oita.jp/material/files/group/42/nyuusyobosyuu80901.pdf"
   },
   "metrics": [
     "vacancy"
@@ -321,7 +321,7 @@
       "vacancy": [
         null,
         12,
-        0,
+        1,
         12,
         7,
         6

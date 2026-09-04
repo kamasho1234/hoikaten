@@ -3,11 +3,11 @@
   "municipalityName": "滑川町",
   "prefecture": "埼玉県",
   "asOf": "2026-09-01",
-  "fetchedAt": "2026-09-01",
+  "fetchedAt": "2026-09-05",
   "sourceName": "滑川町「町内保育施設の受入可能状況」",
   "sourceUrl": "https://www.town.namegawa.saitama.jp/kosodate_kyoiku/ikuji_mishugakuji/hoikujo_kodomoen_yochien/4024.html",
   "sourceFiles": {
-    "vacancy": "https://www.town.namegawa.saitama.jp/material/files/group/5/ukeirejoukyou.pdf"
+    "vacancy": "https://www.town.namegawa.saitama.jp/material/files/group/5/ukeirejoukyou2.pdf"
   },
   "metrics": [
     "symbol"

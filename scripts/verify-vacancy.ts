@@ -646,10 +646,10 @@ const EXPECTED: Record<
   },
   // 岡山市は公開が毎月25日ごろ〜翌月1日ごろだけ。期間外は前のデータを残す
   chikugo: {
-    asOf: "2026-08-20",
+    asOf: "2026-09-05",
     facilityCount: 22,
     vacancy: 0,
-    symbolCounts: { "△": 23, "○": 10, "✕": 81 },
+    symbolCounts: { "✕": 77, "△": 25, "○": 12 },
   },
   // 龍ケ崎市は凡例に「(空白)：空き無し」とあり、空らんがクラスなしではない
   ryugasaki: {
@@ -1326,7 +1326,7 @@ obu: {
     asOf: "2026-09-01",
     facilityCount: 33,
     vacancy: 0,
-    symbolCounts: { "×": 115, "○": 23, "△": 48 },
+    symbolCounts: { "×": 114, "○": 24, "△": 48 },
   },
 
   masaki: {
@@ -2044,7 +2044,7 @@ nishio: {
   usa: {
     asOf: "2026-09-01",
     facilityCount: 28,
-    vacancy: 417,
+    vacancy: 418,
   },
   gotsu: {
     asOf: "2026-09-01",
@@ -2184,7 +2184,7 @@ nishio: {
     asOf: "2026-09-01",
     facilityCount: 25,
     vacancy: 0,
-    symbolCounts: { "×": 106, "△": 5, "※": 4, "〇": 2 },
+    symbolCounts: { "×": 106, "〇": 2, "△": 5, "※": 4 },
   },
   izumiotsu: {
     asOf: "2026-09-01",
