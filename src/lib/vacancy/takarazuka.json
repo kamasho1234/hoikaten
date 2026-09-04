@@ -2,11 +2,11 @@
   "municipalitySlug": "takarazuka",
   "municipalityName": "宝塚市",
   "asOf": "2026-09-01",
-  "fetchedAt": "2026-09-03",
+  "fetchedAt": "2026-09-04",
   "sourceName": "宝塚市「各認可保育施設の空き状況」",
   "sourceUrl": "https://www.city.takarazuka.hyogo.jp/1060680/1060698/1061552/1061560/gakkoshisetsu/1000105/1027922/index.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.takarazuka.hyogo.jp/_res/projects/default_project/_page_/001/027/922/202609aki.pdf"
+    "vacancy": "https://www.city.takarazuka.hyogo.jp/_res/projects/default_project/_page_/001/027/922/202609aki2.pdf"
   },
   "metrics": [
     "vacancy"
@@ -56,7 +56,7 @@
     {"id":"クレア・サン","name":"クレア・サン","w":null,"vacancy":[0,0,0,0,0,0]},
     {"id":"宝塚仏光保育園","name":"宝塚仏光保育園","w":null,"vacancy":[0,0,0,0,0,0]},
     {"id":"そらとはな保育園","name":"そらとはな保育園","w":null,"vacancy":[0,0,0,0,0,4]},
-    {"id":"自然幼稚園","name":"自然幼稚園","w":null,"vacancy":[null,0,0,0,0,1]},
+    {"id":"自然幼稚園","name":"自然幼稚園","w":null,"vacancy":[null,0,0,0,0,0]},
     {"id":"めぐみ学園幼稚園","name":"めぐみ学園幼稚園","w":null,"vacancy":[null,1,2,0,0,0]},
     {"id":"逆瀬川幼稚園","name":"逆瀬川幼稚園","w":null,"vacancy":[null,0,0,0,0,0]},
     {"id":"小規模保育園月と星","name":"小規模保育園月と星","w":null,"vacancy":[null,0,0,null,null,null]},

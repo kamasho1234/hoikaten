@@ -243,14 +243,19 @@ async function main() {
   const asOf = [...updated][0];
   console.log(`\nデータ時点: ${asOf} / 施設 ${facilities.length}件`);
 
-  let previous: { asOf?: string; facilities?: unknown[] } | null = null;
+  let previous: { asOf?: string; facilities?: unknown[]; sourceFiles?: Record<string, string> } | null = null;
   if (fs.existsSync(OUT_PATH)) {
     previous = JSON.parse(fs.readFileSync(OUT_PATH, "utf-8"));
     const before = previous?.facilities?.length ?? 0;
     if (before > 0 && facilities.length < before * MIN_FACILITY_RATIO) {
       fail(`施設数が前回（${before}件）の${MIN_FACILITY_RATIO * 100}%を下回りました（${facilities.length}件）。`);
     }
-    if (previous?.asOf === asOf) {
+    // 自治体は基準日を変えずに資料を差し替えることがある。
+    // 取り込み元の一式も同じときだけ、書き換えを見送る
+    if (
+      previous?.asOf === asOf &&
+      JSON.stringify(previous?.sourceFiles ?? {}) === JSON.stringify(Object.fromEntries(areas.map((a) => [a.area, a.url])))
+    ) {
       console.log(`\nデータ時点が前回と同じ（${asOf}）なので書き換えません。`);
       return;
     }

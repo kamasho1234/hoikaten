@@ -2,11 +2,11 @@
   "municipalitySlug": "nagareyama",
   "municipalityName": "流山市",
   "asOf": "2026-09-01",
-  "fetchedAt": "2026-08-26",
+  "fetchedAt": "2026-09-04",
   "sourceName": "流山市「保育施設の空き状況」",
   "sourceUrl": "https://www.city.nagareyama.chiba.jp/life/1001107/1001162/1051419.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.nagareyama.chiba.jp/_res/projects/default_project/_page_/001/051/419/202610ippan.pdf"
+    "vacancy": "https://www.city.nagareyama.chiba.jp/_res/projects/default_project/_page_/001/051/419/202610ippan02.pdf"
   },
   "metrics": [
     "symbol"
@@ -43,7 +43,7 @@
     {"id":"3-江戸川台保育所","name":"江戸川台保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,null,null,null]},
     {"id":"7-向小金保育所","name":"向小金保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,"●","△","△","●"]},
     {"id":"8-東深井保育所","name":"東深井保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,null,null,null]},
-    {"id":"337-幼保連携型認定こども園たかさごスクールおおたかの森","name":"幼保連携型認定こども園たかさごスクールおおたかの森","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,null,null,null]},
+    {"id":"337-幼保連携型認定こども園たかさごスクールおおたかの森","name":"幼保連携型認定こども園たかさごスクールおおたかの森","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,null,"△","△"]},
     {"id":"344-幼保連携型認定こども園たかさごスクールセントラル","name":"幼保連携型認定こども園たかさごスクールセントラル","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":[null,"△",null,null,null,null]},
     {"id":"345-認定こども園みやぞの幼稚園","name":"認定こども園みやぞの幼稚園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△",null,null,null,null,null]},
     {"id":"389-保育所型認定こども園たかさごスクール南流山","name":"保育所型認定こども園たかさごスクール南流山","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"△","●","●"]},

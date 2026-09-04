@@ -52,7 +52,7 @@ const EXPECTED: Record<
 > = {
   yokohama: { asOf: "2026-09-01", facilityCount: 1243, vacancy: 3739, waiting: 15724 },
   meguro: { asOf: "2026-09-01", facilityCount: 118, vacancy: 914 },
-  kawasaki: { asOf: "2026-08-25", facilityCount: 579, vacancy: 1740 },
+  kawasaki: { asOf: "2026-08-25", facilityCount: 579, vacancy: 1741 },
   saitama: { asOf: "2026-09-01", facilityCount: 543, vacancy: 1853 },
   ota: { asOf: "2026-09-02", facilityCount: 220, vacancy: 1025 },
   adachi: { asOf: "2026-09-01", facilityCount: 257, vacancy: 950 },
@@ -132,8 +132,8 @@ const EXPECTED: Record<
     asOf: "2026-08-17",
     facilityCount: 512,
     vacancy: 0,
-    waiting: 2652,
-    symbolCounts: { "◎": 59, "○": 145, "△": 360, "×": 1719 },
+    waiting: 2621,
+    symbolCounts: { "×": 1721, "△": 360, "○": 145, "◎": 59 },
   },
   // 新潟市は空きが記号。8区ぶんが1ページの表に入っている
   niigata: {
@@ -216,7 +216,7 @@ const EXPECTED: Record<
     asOf: "2026-09-01",
     facilityCount: 87,
     vacancy: 0,
-    symbolCounts: { "✖": 284, "〇": 70, "△": 47 },
+    symbolCounts: { "✖": 284, "〇": 71, "△": 46 },
   },
   // 水戸市は受入れ見込みが記号、申込み人数は実数
   mito: {
@@ -238,7 +238,7 @@ const EXPECTED: Record<
     asOf: "2026-09-01",
     facilityCount: 109,
     vacancy: 0,
-    symbolCounts: { "△": 137, "●": 72 },
+    symbolCounts: { "△": 139, "●": 72 },
   },
   // 藤沢市も記号で公表している（〇・―・※）
   fujisawa: {
@@ -345,7 +345,7 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "×": 409, "△": 19, "○": 1, "※": 8 },
   },
-  takarazuka: { asOf: "2026-09-01", facilityCount: 41, vacancy: 129, emptyRatio: 0.5 },
+  takarazuka: { asOf: "2026-09-01", facilityCount: 41, vacancy: 128, emptyRatio: 0.5 },
   kamakura: { asOf: "2026-08-26", facilityCount: 50, vacancy: 80, emptyRatio: 0.7 },
   // 加古川市は記号。▲がほとんどで、空きがあるのは☆と□だけ
   kakogawa: {
@@ -1096,10 +1096,10 @@ const EXPECTED: Record<
   },
   // 刈谷市は0〜2歳児クラスだけ公表している（3歳児以上は幼児園等が受け持つ）
   kariya: {
-    asOf: "2026-09-01",
+    asOf: "2026-10-01",
     facilityCount: 22,
     vacancy: 0,
-    symbolCounts: { "×": 64, "▲": 1, "○": 1 },
+    symbolCounts: { "×": 65, "○": 1 },
   },
   // 沼津市はPDFではなくページのHTMLの表。空きは「若干名」「無」の言葉で表される
   numazu: {
@@ -1113,7 +1113,7 @@ const EXPECTED: Record<
     asOf: "2026-09-01",
     facilityCount: 37,
     vacancy: 0,
-    symbolCounts: { "×": 98, "△": 95, "○": 13 },
+    symbolCounts: { "△": 85, "×": 105, "○": 16 },
   },
   // 福島市は年齢の欄が上下2段（上＝受入予定数の記号、下＝申込み人数）
   fukushima: {
@@ -2449,11 +2449,11 @@ nishio: {
   },
   // 盛岡市は翌月入所の選考ぶんの空き枠。地域の欄は縦書きが崩れるので使わず施設類型で分ける
   morioka: {
-    asOf: "2026-09-04",
+    asOf: "2026-09-02",
     facilityCount: 109,
     vacancy: 0,
     emptyRatio: 0.14,
-    symbolCounts: { "×": 340, "△": 157, "○": 62 },
+    symbolCounts: { "×": 340, "○": 62, "△": 157 },
   },
   // 湯沢市は深堀保育園の5歳児だけ欄が無い
   yuzawa: {

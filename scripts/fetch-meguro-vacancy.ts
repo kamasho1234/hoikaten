@@ -216,7 +216,7 @@ async function main() {
   });
 
   // --- 4. 前回との比較 ---
-  let previous: { asOf?: string; facilities?: unknown[] } | null = null;
+  let previous: { asOf?: string; facilities?: unknown[]; sourceFiles?: Record<string, string> } | null = null;
   if (fs.existsSync(OUT_PATH)) {
     try {
       previous = JSON.parse(fs.readFileSync(OUT_PATH, "utf-8"));
@@ -232,7 +232,12 @@ async function main() {
       );
     }
   }
-  if (previous?.asOf === asOf) {
+  // 自治体は基準日を変えずに資料を差し替えることがある。
+  // 取り込み元の一式も同じときだけ、書き換えを見送る
+  if (
+    previous?.asOf === asOf &&
+    JSON.stringify(previous?.sourceFiles ?? {}) === JSON.stringify({ vacancy: latest.url })
+  ) {
     console.log(`公式データの時点が前回と同じ（${asOf}）のため更新はありません。`);
     return;
   }

@@ -1,19 +1,19 @@
 {
   "municipalitySlug": "kariya",
   "municipalityName": "刈谷市",
-  "asOf": "2026-09-01",
-  "fetchedAt": "2026-08-25",
+  "asOf": "2026-10-01",
+  "fetchedAt": "2026-09-04",
   "sourceName": "刈谷市「空き枠情報」",
   "sourceUrl": "https://www.city.kariya.lg.jp/kosodatenavi/1014910/1011895/1015435/1015441.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.kariya.lg.jp/_res/projects/default_project/_page_/001/015/441/r8akiwaku9.pdf"
+    "vacancy": "https://www.city.kariya.lg.jp/_res/projects/default_project/_page_/001/015/441/r8akiwaku10.pdf"
   },
   "metrics": [
     "symbol"
   ],
   "subtitle": "0〜2歳児クラスの空き枠",
   "notes": [
-    "刈谷市は空き枠を人数ではなく記号で公表しています。これは2026-09-01時点のものです。",
+    "刈谷市は空き枠を人数ではなく記号で公表しています。これは2026-10-01時点のものです。",
     "刈谷市が公表しているのは0歳児から2歳児のクラスだけです。3歳児クラス以上は幼児園等が受け持っているため、当サイトでは「—」にしています。",
     "保育士確保状況等により常に変動するため、暫定のものです。入園申請の参考と…",
     "年度後半は空き枠が出にくいです。",
@@ -50,7 +50,7 @@
     {"id":"ことり保育園","name":"ことり保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
     {"id":"ALL4KIDSﾅｰｻﾘｰｽｸｰﾙ刈谷","name":"ALL4KIDSﾅｰｻﾘｰｽｸｰﾙ刈谷","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
     {"id":"かりやYMCA保育園","name":"かりやYMCA保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
-    {"id":"木の実乳児園","name":"木の実乳児園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","▲",null,null,null]},
+    {"id":"木の実乳児園","name":"木の実乳児園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
     {"id":"おがきえ保育園","name":"おがきえ保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
     {"id":"あおば保育園","name":"あおば保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
     {"id":"さくら保育園","name":"さくら保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},

@@ -186,14 +186,19 @@ async function main() {
   if (facilities.length < 50) fail(`施設が${facilities.length}件しか取れていません`);
 
   const previous = fs.existsSync(OUT_PATH)
-    ? (JSON.parse(fs.readFileSync(OUT_PATH, "utf-8")) as { asOf?: string; facilities?: unknown[] })
+    ? (JSON.parse(fs.readFileSync(OUT_PATH, "utf-8")) as { asOf?: string; facilities?: unknown[]; sourceFiles?: Record<string, string> })
     : null;
   if (previous?.facilities && facilities.length < previous.facilities.length * 0.9) {
     fail(
       `施設数が大きく減っています（前回 ${previous.facilities.length}件 → 今回 ${facilities.length}件）`
     );
   }
-  if (previous?.asOf === asOf) {
+  // 自治体は基準日を変えずに資料を差し替えることがある。
+  // 取り込み元の一式も同じときだけ、書き換えを見送る
+  if (
+    previous?.asOf === asOf &&
+    JSON.stringify(previous?.sourceFiles ?? {}) === JSON.stringify({ vacancy: SOURCE_URL })
+  ) {
     console.log(`公式データの時点が前回と同じ（${asOf}）のため更新はありません。`);
     return;
   }

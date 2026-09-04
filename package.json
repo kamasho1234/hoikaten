@@ -13,6 +13,7 @@
     "vacancy:fetch:config": "tsx scripts/fetch-config-vacancy.ts",
     "hero-font": "python scripts/build-hero-font.py",
     "vacancy:verify": "tsx scripts/verify-vacancy.ts",
+    "vacancy:check:sources": "tsx scripts/check-vacancy-sources.ts",
     "coverage:report": "python scripts/coverage-report.py",
     "vacancy:fetch:kawasaki": "tsx scripts/fetch-kawasaki-vacancy.ts",
     "vacancy:fetch:saitama": "tsx scripts/fetch-saitama-vacancy.ts",
