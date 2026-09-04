@@ -1,0 +1,137 @@
+{
+  "municipalitySlug": "miyoshi-saitama",
+  "municipalityName": "三芳町",
+  "prefecture": "埼玉県",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-04",
+  "sourceName": "三芳町「保育所の空き状況」",
+  "sourceUrl": "https://www.town.saitama-miyoshi.lg.jp/kosodate/mokuteki/hoikusho/teiin.html",
+  "sourceFiles": {
+    "vacancy": "https://www.town.saitama-miyoshi.lg.jp/kosodate/mokuteki/hoikusho/teiin.html"
+  },
+  "metrics": [
+    "vacancy"
+  ],
+  "notes": [
+    "町は「現在の空き状況は下表のとおりですが、月途中の急な退所などにより実際と異なることがあります」としています。",
+    "町は「定員の空き人数よりも多くの入所希望が出た場合は、保育の必要性の高い順に利用調整します」としています。",
+    "0歳児は入所（園）月の1日時点で月齢に達しているかで判断されます。",
+    "設けていないクラスは「—」にしています。町が「調整中」としているクラスも同じ「—」になります。"
+  ],
+  "wards": [],
+  "categories": [],
+  "facilities": [
+    {
+      "id": "三芳町立第三保育所",
+      "name": "三芳町立第三保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        null,
+        3,
+        1
+      ]
+    },
+    {
+      "id": "（福）桑の実会桑の実三芳保育園",
+      "name": "（福）桑の実会桑の実三芳保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "（福）杏樹会あずさ保育園",
+      "name": "（福）杏樹会あずさ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "(福）埼玉現成会三芳元氣保育園",
+      "name": "(福）埼玉現成会三芳元氣保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "id": "（福）杏樹会そよかぜ保育園",
+      "name": "（福）杏樹会そよかぜ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "学校法人多摩川学園幼保連携型認定こども園こすず幼稚園(保育部分)",
+      "name": "学校法人多摩川学園幼保連携型認定こども園こすず幼稚園(保育部分)",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "ベビールームつくしっこ",
+      "name": "ベビールームつくしっこ",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "すくすく保育園",
+      "name": "すくすく保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+}

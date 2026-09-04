@@ -1,0 +1,36 @@
+{
+  "slug": "miyoshi-saitama",
+  "name": "三芳町",
+  "prefecture": "埼玉県",
+  "sourceName": "三芳町「保育所の空き状況」",
+  "indexUrl": "https://www.town.saitama-miyoshi.lg.jp/kosodate/mokuteki/hoikusho/teiin.html",
+  "layout": "html-tables",
+  "onlyTablesContaining": "空き状況",
+  "columns": {
+    "name": 0
+  },
+  "categoryFrom": "none",
+  "metrics": [
+    "vacancy"
+  ],
+  "noClassMarks": [
+    "-",
+    "－",
+    "ー",
+    "―",
+    "‐",
+    ""
+  ],
+  "skipRowsMatching": "^計",
+  "asOf": {
+    "source": "page",
+    "pattern": "令和(\\d+)年(\\d{1,2})月(\\d{1,2})日現在の空き状況"
+  },
+  "minFacilities": 7,
+  "notes": [
+    "町は「現在の空き状況は下表のとおりですが、月途中の急な退所などにより実際と異なることがあります」としています。",
+    "町は「定員の空き人数よりも多くの入所希望が出た場合は、保育の必要性の高い順に利用調整します」としています。",
+    "0歳児は入所（園）月の1日時点で月齢に達しているかで判断されます。",
+    "設けていないクラスは「—」にしています。町が「調整中」としているクラスも同じ「—」になります。"
+  ]
+}

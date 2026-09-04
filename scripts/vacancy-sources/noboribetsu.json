@@ -1,0 +1,46 @@
+{
+  "slug": "noboribetsu",
+  "name": "登別市",
+  "prefecture": "北海道",
+  "sourceName": "登別市「保育所等の空き状況」",
+  "indexUrl": "https://www.city.noboribetsu.lg.jp/article/2023111400062/",
+  "layout": "html-tables",
+  "onlyTablesContaining": "クラス年齢と保育所等の空き状況",
+  "transpose": true,
+  "columns": {
+    "name": 0
+  },
+  "categoryFrom": "none",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○",
+    "◯": "○",
+    "✕": "×"
+  },
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "空きあり",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "令和(\\d+)年(\\d{1,2})月(\\d{1,2})日現在"
+  },
+  "minFacilities": 5,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しています。",
+    "公式の表は年齢を縦・施設を横に並べていますが、当サイトでは他の自治体と同じ並びに直しています。",
+    "クラス年齢は生年月日で決まります。年度途中で誕生日が来てもクラスは変わりません。",
+    "入所できるのは、入所要件を満たす満6か月（入所時点）から小学校入学前の児童です。"
+  ],
+  "skipRowsMatching": "生年月日"
+}

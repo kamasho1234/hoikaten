@@ -468,6 +468,10 @@ import daisenVacancy from "./daisen.json";
 import moriokaVacancy from "./morioka.json";
 import kishiwadaVacancy from "./kishiwada.json";
 import tomiyaVacancy from "./tomiya.json";
+import noboribetsuVacancy from "./noboribetsu.json";
+import sangoVacancy from "./sango.json";
+import odaiVacancy from "./odai.json";
+import miyoshiSaitamaVacancy from "./miyoshi-saitama.json";
 import yoshidaShizuokaVacancy from "./yoshida-shizuoka.json";
 import dazaifuVacancy from "./dazaifu.json";
 import chitoseVacancy from "./chitose.json";
@@ -981,6 +985,10 @@ const registry: Record<string, VacancyDataset> = {
   morioka: moriokaVacancy as unknown as VacancyDataset,
   kishiwada: kishiwadaVacancy as unknown as VacancyDataset,
   tomiya: tomiyaVacancy as unknown as VacancyDataset,
+  noboribetsu: noboribetsuVacancy as unknown as VacancyDataset,
+  sango: sangoVacancy as unknown as VacancyDataset,
+  odai: odaiVacancy as unknown as VacancyDataset,
+  "miyoshi-saitama": miyoshiSaitamaVacancy as unknown as VacancyDataset,
   "yoshida-shizuoka": yoshidaShizuokaVacancy as unknown as VacancyDataset,
   dazaifu: dazaifuVacancy as unknown as VacancyDataset,
   chitose: chitoseVacancy as unknown as VacancyDataset,

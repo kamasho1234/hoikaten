@@ -1,0 +1,262 @@
+{
+  "municipalitySlug": "sango",
+  "municipalityName": "三郷町",
+  "prefecture": "奈良県",
+  "asOf": "2026-09-02",
+  "fetchedAt": "2026-09-04",
+  "sourceName": "三郷町「各園の空き状況」",
+  "sourceUrl": "https://www.town.sango.nara.jp/site/kosodate/13912.html",
+  "sourceFiles": {
+    "vacancy": "https://www.town.sango.nara.jp/site/kosodate/13912.html"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "町は空きを人数ではなく記号で公表しています。町の表には「令和8年9月時点」とだけ書かれ、日付が無いため、掲載ページの更新日を基準日にしています。",
+    "町は「お申し込み時点で空きがある施設に必ず入所できることをお約束するものではありません」「定員数以上のお申し込みがあった場合は、選考のうえ、順位の高い方から内定となります」としています。",
+    "町は「現時点で『×：空き無し』の場合でも、選考中に空きが出る可能性がありますので、空き状況にかかわらず希望施設を順にご記入ください」としています。",
+    "小規模保育事業・家庭的保育事業は0〜2歳児が対象のため、3歳以上のクラスは「—」にしています。"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "3名以上の空き",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1〜2名の空き",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空き無し",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "西部保育園",
+      "name": "西部保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "○",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "勢野保育園",
+      "name": "勢野保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "△",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "希望ヶ丘保育園",
+      "name": "希望ヶ丘保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "○",
+        "△",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "希望ヶ丘第二保育園",
+      "name": "希望ヶ丘第二保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "○",
+        "○",
+        "○",
+        "○",
+        "△"
+      ]
+    },
+    {
+      "id": "レイモンドヒルズ保育園",
+      "name": "レイモンドヒルズ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "信貴幼稚園",
+      "name": "信貴幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        "×",
+        "×",
+        "△"
+      ]
+    },
+    {
+      "id": "レイモンドヴィレッジこども園",
+      "name": "レイモンドヴィレッジこども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "ビオスキッズ保育園",
+      "name": "ビオスキッズ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "ひだまり保育園",
+      "name": "ひだまり保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "ちいさなたね保育園",
+      "name": "ちいさなたね保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+}

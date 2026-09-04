@@ -1,0 +1,35 @@
+{
+  "slug": "odai",
+  "name": "大台町",
+  "prefecture": "三重県",
+  "sourceName": "大台町「保育園・認定こども園の空き状況」",
+  "indexUrl": "https://www.odaitown.jp/kosodate_kyoiku/hoikusho_kodomoen_yochien/3096.html",
+  "layout": "html-tables",
+  "onlyTablesContaining": "受入可能人数",
+  "columns": {
+    "name": 0
+  },
+  "categoryFrom": "none",
+  "metrics": [
+    "vacancy"
+  ],
+  "noClassMarks": [
+    "-",
+    "－",
+    "ー",
+    "―",
+    "‐",
+    ""
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "更新日[：:]?\\s*(20\\d{2})年(\\d{1,2})月(\\d{1,2})日"
+  },
+  "minFacilities": 4,
+  "subtitle": "令和8年度 各園の受入可能人数",
+  "notes": [
+    "町の表には基準日が書かれていないため、掲載ページの更新日を基準日にしています。",
+    "町は「入所の可否については空き状況によりますので、お問合せください」としています。",
+    "町の表は年齢の欄が結合されていることがあります（1つの数が2つのクラスにかかる）。当サイトではその数を両方のクラスに載せています。"
+  ]
+}

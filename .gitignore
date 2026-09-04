@@ -50,3 +50,7 @@ scripts/pdfs/
 # Claude Code がサブエージェント用に作る git worktree の置き場。
 # リポジトリの中にリポジトリの作業コピーができるため、追跡してはいけない。
 .claude/
+
+# Python の実行時キャッシュ
+__pycache__/
+*.pyc

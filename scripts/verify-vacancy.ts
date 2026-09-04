@@ -1732,6 +1732,36 @@ obu: {
     vacancy: 0,
     symbolCounts: { "×": 43, "▲": 23, "○": 15 },
   },
+  // 三芳町は小規模保育で3歳以上が「—」、第三保育所の3歳児は町が「調整中」としている
+  "miyoshi-saitama": {
+    asOf: "2026-09-01",
+    facilityCount: 8,
+    vacancy: 9,
+    emptyRatio: 0.17,
+  },
+  // 大台町は町立4園だけ。年齢の欄が結合されている行がある
+  odai: {
+    asOf: "2026-09-01",
+    facilityCount: 4,
+    vacancy: 141,
+    emptyRatio: 0,
+  },
+  // 三郷町は小規模保育3園で3歳以上が「—」になる
+  sango: {
+    asOf: "2026-09-02",
+    facilityCount: 10,
+    vacancy: 0,
+    emptyRatio: 0.15,
+    symbolCounts: { "×": 35, "○": 8, "△": 8 },
+  },
+  // 登別市は年齢を縦・施設を横に並べた表なので、転置して読んでいる
+  noboribetsu: {
+    asOf: "2026-09-01",
+    facilityCount: 5,
+    vacancy: 0,
+    emptyRatio: 0,
+    symbolCounts: { "×": 15, "○": 15 },
+  },
   // 八千代町（茨城）は認定こども園2園で0〜2歳の受入が無い。
   // 以前は同名の八千代市（千葉）のページを取り込んでいたので入れ替えた
   "yachiyo-ibaraki": {

@@ -1,0 +1,147 @@
+{
+  "municipalitySlug": "noboribetsu",
+  "municipalityName": "登別市",
+  "prefecture": "北海道",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-04",
+  "sourceName": "登別市「保育所等の空き状況」",
+  "sourceUrl": "https://www.city.noboribetsu.lg.jp/article/2023111400062/",
+  "sourceFiles": {
+    "vacancy": "https://www.city.noboribetsu.lg.jp/article/2023111400062/"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "市は空きを人数ではなく記号で公表しています。",
+    "公式の表は年齢を縦・施設を横に並べていますが、当サイトでは他の自治体と同じ並びに直しています。",
+    "クラス年齢は生年月日で決まります。年度途中で誕生日が来てもクラスは変わりません。",
+    "入所できるのは、入所要件を満たす満6か月（入所時点）から小学校入学前の児童です。"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "空きあり",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "富士保育所",
+      "name": "富士保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "○",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "鷲別保育所",
+      "name": "鷲別保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "○",
+        "×",
+        "○"
+      ]
+    },
+    {
+      "id": "登別保育所",
+      "name": "登別保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "×",
+        "×",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "認定こども園もみの木こども園",
+      "name": "認定こども園もみの木こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "○",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "幌別東保育所",
+      "name": "幌別東保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "○",
+        "×",
+        "○",
+        "○",
+        "○"
+      ]
+    }
+  ]
+}

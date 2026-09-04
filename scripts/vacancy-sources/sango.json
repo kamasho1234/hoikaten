@@ -1,0 +1,35 @@
+{
+  "slug": "sango",
+  "name": "三郷町",
+  "prefecture": "奈良県",
+  "sourceName": "三郷町「各園の空き状況」",
+  "indexUrl": "https://www.town.sango.nara.jp/site/kosodate/13912.html",
+  "layout": "html-tables",
+  "onlyTablesContaining": "空き状況",
+  "columns": {
+    "name": 0
+  },
+  "categoryFrom": "none",
+  "metrics": ["symbol"],
+  "symbolMap": {
+    "〇": "○",
+    "◯": "○",
+    "✕": "×"
+  },
+  "symbolLegend": [
+    { "mark": "○", "label": "3名以上の空き", "open": true },
+    { "mark": "△", "label": "1〜2名の空き", "open": true },
+    { "mark": "×", "label": "空き無し", "open": false }
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "更新日[：:]?\\s*(20\\d{2})年(\\d{1,2})月(\\d{1,2})日"
+  },
+  "minFacilities": 8,
+  "notes": [
+    "町は空きを人数ではなく記号で公表しています。町の表には「令和8年9月時点」とだけ書かれ、日付が無いため、掲載ページの更新日を基準日にしています。",
+    "町は「お申し込み時点で空きがある施設に必ず入所できることをお約束するものではありません」「定員数以上のお申し込みがあった場合は、選考のうえ、順位の高い方から内定となります」としています。",
+    "町は「現時点で『×：空き無し』の場合でも、選考中に空きが出る可能性がありますので、空き状況にかかわらず希望施設を順にご記入ください」としています。",
+    "小規模保育事業・家庭的保育事業は0〜2歳児が対象のため、3歳以上のクラスは「—」にしています。"
+  ]
+}
