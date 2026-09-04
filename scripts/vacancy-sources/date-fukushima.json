@@ -1,0 +1,60 @@
+{
+  "slug": "date-fukushima",
+  "name": "伊達市（福島県）",
+  "prefecture": "福島県",
+  "sourceName": "伊達市「園別・年齢別空き情報」",
+  "indexUrl": "https://www.city.fukushima-date.lg.jp/soshiki/66/83166.html",
+  "layout": "html-tables",
+  "onlyTablesContaining": "空き",
+  "columns": {
+    "name": 0,
+    "category": 1
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○",
+    "◯": "○",
+    "✕": "×"
+  },
+  "noClassMarks": [
+    "ー",
+    "－",
+    "-",
+    "―",
+    "‐",
+    ""
+  ],
+  "symbolLegend": [
+    {
+      "mark": "●",
+      "label": "空きあり",
+      "open": true
+    },
+    {
+      "mark": "▲",
+      "label": "不確定、要相談など",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "令和(\\d+)年(\\d{1,2})月(\\d{1,2})日現在"
+  },
+  "minFacilities": 14,
+  "subtitle": "令和8年10・11月入園を希望する場合の空き情報",
+  "notes": [
+    "市は空きを人数ではなく記号で公表しています。",
+    "この表は令和8年10月・11月に入園を希望する場合のものです。",
+    "年齢は令和8年4月1日時点のものです。",
+    "認定こども園は2・3号認定（保育）の欄です。",
+    "受け入れのないクラスは「—」にしています。"
+  ]
+}

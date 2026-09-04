@@ -1739,6 +1739,14 @@ obu: {
     vacancy: 9,
     emptyRatio: 0.17,
   },
+  // 伊達市（福島）は小規模保育3園で3歳以上が「—」になる
+  "date-fukushima": {
+    asOf: "2026-09-01",
+    facilityCount: 16,
+    vacancy: 0,
+    emptyRatio: 0.09,
+    symbolCounts: { "×": 49, "●": 38 },
+  },
   // 大台町は町立4園だけ。年齢の欄が結合されている行がある
   odai: {
     asOf: "2026-09-01",

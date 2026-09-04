@@ -1,0 +1,399 @@
+{
+  "municipalitySlug": "date-fukushima",
+  "municipalityName": "伊達市（福島県）",
+  "prefecture": "福島県",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-04",
+  "sourceName": "伊達市「園別・年齢別空き情報」",
+  "sourceUrl": "https://www.city.fukushima-date.lg.jp/soshiki/66/83166.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.fukushima-date.lg.jp/soshiki/66/83166.html"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "令和8年10・11月入園を希望する場合の空き情報",
+  "notes": [
+    "市は空きを人数ではなく記号で公表しています。",
+    "この表は令和8年10月・11月に入園を希望する場合のものです。",
+    "年齢は令和8年4月1日時点のものです。",
+    "認定こども園は2・3号認定（保育）の欄です。",
+    "受け入れのないクラスは「—」にしています。"
+  ],
+  "wards": [],
+  "categories": [
+    "私立",
+    "公立"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "●",
+      "label": "空きあり",
+      "open": true
+    },
+    {
+      "mark": "▲",
+      "label": "不確定、要相談など",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "認定こども園伊達こども園（2・3号）",
+      "name": "認定こども園伊達こども園（2・3号）",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "●",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "伊達・ひかり認定こども園（2・3号）",
+      "name": "伊達・ひかり認定こども園（2・3号）",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "Ribbon保育園だて",
+      "name": "Ribbon保育園だて",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "保原保育園（分園含む）",
+      "name": "保原保育園（分園含む）",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "●",
+        "×",
+        "×",
+        "●",
+        "●"
+      ]
+    },
+    {
+      "id": "認定こども園大田（2・3号）",
+      "name": "認定こども園大田（2・3号）",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "●",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "認定こども園上保原（2・3号）",
+      "name": "認定こども園上保原（2・3号）",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "保原認定こども園（2・3号）",
+      "name": "保原認定こども園（2・3号）",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "●",
+        "×",
+        "×",
+        "×",
+        "●"
+      ]
+    },
+    {
+      "id": "福島文化高子こども園（2・3号）",
+      "name": "福島文化高子こども園（2・3号）",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "●",
+        "●",
+        "●"
+      ]
+    },
+    {
+      "id": "保育園もものき",
+      "name": "保育園もものき",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "●",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "神愛保育園",
+      "name": "神愛保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "梁川保育園",
+      "name": "梁川保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "●",
+        "×",
+        "●",
+        "●",
+        "×",
+        "●"
+      ]
+    },
+    {
+      "id": "梁川中央保育園",
+      "name": "梁川中央保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "●",
+        "●",
+        "●",
+        "●",
+        "×",
+        "●"
+      ]
+    },
+    {
+      "id": "梁川認定こども園（2・3号）",
+      "name": "梁川認定こども園（2・3号）",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "●",
+        "●",
+        "●"
+      ]
+    },
+    {
+      "id": "霊山三育認定こども園（2・3号）",
+      "name": "霊山三育認定こども園（2・3号）",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "●",
+        "●",
+        "●",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "幼保連携型認定こども園神愛幼稚園（2・3号）",
+      "name": "幼保連携型認定こども園神愛幼稚園（2・3号）",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "●",
+        "●",
+        "●",
+        "●",
+        "●",
+        "●"
+      ]
+    },
+    {
+      "id": "月舘認定こども園（2・3号）",
+      "name": "月舘認定こども園（2・3号）",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "●",
+        "●",
+        "●",
+        "●",
+        "●",
+        "●"
+      ]
+    }
+  ]
+}
