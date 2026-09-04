@@ -2390,6 +2390,13 @@ nishio: {
     vacancy: 0,
     symbolCounts: { "〇": 23, "×": 26, "△": 16 },
   },
+  // 川棚町は2・3号認定の欄だけを取っているので「—」は出ない
+  kawatana: {
+    asOf: "2026-09-01",
+    facilityCount: 5,
+    vacancy: 0,
+    symbolCounts: { "×": 12, "△": 14, "○": 4 },
+  },
   // 豊後高田市は香々地保育園とあすなろほいくえんが年齢別に分かれず「若干名」
   bungotakada: {
     asOf: "2026-08-31",

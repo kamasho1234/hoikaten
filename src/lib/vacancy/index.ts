@@ -20,6 +20,7 @@ import yokohamaVacancy from "./yokohama.json";
 import yokohamaWebsites from "./yokohama-websites.json";
 import meguroVacancy from "./meguro.json";
 import meguroWebsites from "./meguro-websites.json";
+import kawatanaVacancy from "./kawatana.json";
 import kawasakiVacancy from "./kawasaki.json";
 import kawasakiWebsites from "./kawasaki-websites.json";
 import saitamaVacancy from "./saitama.json";
@@ -566,6 +567,7 @@ const registry: Record<string, VacancyDataset> = {
     meguroVacancy as unknown as VacancyDataset,
     meguroWebsites.sites
   ),
+  kawatana: kawatanaVacancy as unknown as VacancyDataset,
   kawasaki: withWebsites(
     kawasakiVacancy as unknown as VacancyDataset,
     kawasakiWebsites.sites
