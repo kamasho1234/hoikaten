@@ -1358,6 +1358,7 @@ jobs:
               *kure.json) MSG="$MSG 呉市（$(node -p "require('./src/lib/vacancy/kure.json').asOf")時点）" ;;
               *tsu.json) MSG="$MSG 津市（$(node -p "require('./src/lib/vacancy/tsu.json').asOf")時点）" ;;
               *aomori.json) MSG="$MSG 青森市（$(node -p "require('./src/lib/vacancy/aomori.json').asOf")時点）" ;;
+              *akitakata.json) MSG="$MSG 安芸高田市（$(node -p "require('./src/lib/vacancy/akitakata.json').asOf")時点）" ;;
               *kochi-konan.json) MSG="$MSG 香南市（$(node -p "require('./src/lib/vacancy/kochi-konan.json').asOf")時点）" ;;
               *takaishi.json) MSG="$MSG 高石市（$(node -p "require('./src/lib/vacancy/takaishi.json').asOf")時点）" ;;
               *hirosaki.json) MSG="$MSG 弘前市（$(node -p "require('./src/lib/vacancy/hirosaki.json').asOf")時点）" ;;

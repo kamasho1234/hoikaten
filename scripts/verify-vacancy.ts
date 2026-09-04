@@ -209,6 +209,13 @@ const EXPECTED: Record<
     facilityCount: 14,
     vacancy: 112,
   },
+  // 安芸高田市は空き状況を画像で公開している。画像を目視で書き起こしたデータ
+  akitakata: {
+    asOf: "2026-08-24",
+    facilityCount: 10,
+    vacancy: 0,
+    symbolCounts: { "○": 44, "×": 1, "△": 11 },
+  },
   himeji: {
     asOf: "2026-08-14",
     facilityCount: 142,

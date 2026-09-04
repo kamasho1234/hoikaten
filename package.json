@@ -125,6 +125,7 @@
     "vacancy:fetch:kure": "tsx scripts/fetch-kure-vacancy.ts",
     "vacancy:fetch:tsu": "tsx scripts/fetch-tsu-vacancy.ts",
     "vacancy:fetch:aomori": "tsx scripts/fetch-aomori-vacancy.ts",
+    "vacancy:fetch:akitakata": "tsx scripts/fetch-akitakata-vacancy.ts",
     "vacancy:fetch:kochi-konan": "tsx scripts/fetch-kochi-konan-vacancy.ts",
     "vacancy:fetch:takaishi": "tsx scripts/fetch-takaishi-vacancy.ts",
     "vacancy:fetch:hirosaki": "tsx scripts/fetch-hirosaki-vacancy.ts",

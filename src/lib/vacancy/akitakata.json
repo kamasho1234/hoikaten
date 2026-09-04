@@ -1,0 +1,67 @@
+{
+  "municipalitySlug": "akitakata",
+  "municipalityName": "安芸高田市",
+  "prefecture": "広島県",
+  "asOf": "2026-08-24",
+  "fetchedAt": "2026-09-05",
+  "sourceName": "安芸高田市「保育施設空き状況」",
+  "sourceUrl": "https://www.akitakata.jp/ja/shisei/section/kosodate/n124/",
+  "sourceFiles": {
+    "vacancy": "https://www.akitakata.jp/akitakata-media/filer_public/f5/bf/f5bfebdb-0f19-41f3-885f-758f43aa9e4d/20268chouseigo-shisetsu-aki-joukyou.jpg"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "8月10日締切分の入所調整後の空き状況",
+  "notes": [
+    "安芸高田市は空きを人数ではなく記号で公表しています。当サイトでも公式の記号のまま載せています。",
+    "市は空き状況を画像で公開しているため、当サイトでは画像を拡大して書き写しています。市が画像を差し替えたときは取り込みを止めて、書き写しをやり直します。",
+    "市は画像に年を書いていないため、ページの更新日を基準日にしています。",
+    "市は「空き状況表は、あくまで目安です。保育士の体制などにより状況が変わる場合があります」としています。",
+    "市は「空きありの表示は、確実な入所を保証するものではありません。同時期の入所希望者数が多い場合などに、調整の結果不承諾になる可能性があります」としています。",
+    "クラスは4月1日時点の年齢による区分です。",
+    "市は認可外保育所（そらはる保育園）の空き状況も同じ表で公表していますが、当サイトは認可施設を扱うため載せていません。",
+    "市の表で灰色に塗られているクラスは「—」にしています。そのクラスを設けていないことを表します。"
+  ],
+  "wards": [
+    "吉田町",
+    "八千代町",
+    "甲田町",
+    "向原町",
+    "美土里町",
+    "高宮町"
+  ],
+  "categories": [
+    "公立",
+    "私立"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "空きあり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "残りわずか",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"吉田保育所","name":"吉田保育所","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,"○","○","○","○","○"],"note":"市の注記では、吉田保育所は3歳以上の児童が主な入所対象です。1歳児・2歳児クラスは、3歳以上の兄弟と同時入所を希望する場合か、みつや保育所が満員の場合に利用できます。"},
+    {"id":"みつや保育所","name":"みつや保育所","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["○","○","○",null,null,null],"note":"市の注記では、みつや保育所は3歳未満の児童のみが入所対象です。"},
+    {"id":"可愛保育園","name":"可愛保育園","w":0,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","△","△","○","○"]},
+    {"id":"入江保育園","name":"入江保育園","w":0,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","○","○","○","○"]},
+    {"id":"やちよ保育園","name":"やちよ保育園","w":1,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","○","△","△","○"]},
+    {"id":"甲田いづみこども園","name":"甲田いづみこども園","w":2,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["○","○","○","○","○","△"]},
+    {"id":"向原こばと園","name":"向原こばと園","w":3,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["○","○","○","○","○","○"]},
+    {"id":"みどりの森保育所","name":"みどりの森保育所","w":4,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["○","○","○","○","○","○"]},
+    {"id":"ふなさ保育園","name":"ふなさ保育園","w":5,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["○","○","△","○","○","○"]},
+    {"id":"くるはら保育園","name":"くるはら保育園","w":5,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["○","○","○","○","○","○"]}
+  ]
+}
