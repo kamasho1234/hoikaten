@@ -249,6 +249,7 @@
     "vacancy:fetch:makubetsu": "tsx scripts/fetch-makubetsu-vacancy.ts",
     "vacancy:fetch:kumejima": "tsx scripts/fetch-kumejima-vacancy.ts",
     "vacancy:fetch:daisen": "tsx scripts/fetch-daisen-vacancy.ts",
+    "vacancy:fetch:morioka": "tsx scripts/fetch-morioka-vacancy.ts",
     "vacancy:fetch:kawatana": "tsx scripts/fetch-kawatana-vacancy.ts",
     "vacancy:fetch:taku": "tsx scripts/fetch-taku-vacancy.ts",
     "vacancy:fetch:kadoma": "tsx scripts/fetch-kadoma-vacancy.ts",

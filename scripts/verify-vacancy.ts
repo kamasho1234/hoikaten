@@ -2375,6 +2375,14 @@ nishio: {
     emptyRatio: 0.15,
     symbolCounts: { "×": 98, "△": 43, "○": 3 },
   },
+  // 盛岡市は翌月入所の選考ぶんの空き枠。地域の欄は縦書きが崩れるので使わず施設類型で分ける
+  morioka: {
+    asOf: "2026-09-04",
+    facilityCount: 109,
+    vacancy: 0,
+    emptyRatio: 0.14,
+    symbolCounts: { "×": 340, "△": 157, "○": 62 },
+  },
   // 八千代町（茨城）は小規模保育が多く、3歳以上が「—」になる施設が多い
   "yachiyo-ibaraki": {
     asOf: "2026-09-01",
