@@ -80,6 +80,8 @@ type Config = {
    */
   asOf: {
     source?: "pdf" | "page" | "file";
+    /** 「令和8年10月入所」のように日を書かない資料で、補う日（入所日なら1） */
+    dayOfMonth?: number;
     pattern?: string;
     order?: "ymd" | "mdy";
     checkMonth?: boolean;
@@ -329,6 +331,11 @@ async function run(slug: string): Promise<void> {
   const order = conf.asOf.order ?? "ymd";
   const parts =
     raw.length === 3 && order === "mdy" ? [raw[2], raw[0], raw[1]] : raw;
+  // 「令和8年10月入所」のように日を書かない資料がある（上里町）。
+  // asOf.dayOfMonth を書いた設定だけ、その日を補って年月日にする
+  if (parts.length === 2 && conf.asOf.dayOfMonth) {
+    parts.push(String(conf.asOf.dayOfMonth));
+  }
   const asOf =
     parts.length === 3 && parts.every((x) => /^\d+$/.test(x))
       ? // 1つめが4桁でなければ令和の年とみなす（「令和8年度…（7月31日現在）」のような書き方）

@@ -1,0 +1,64 @@
+{
+  "slug": "kamisato",
+  "name": "上里町",
+  "prefecture": "埼玉県",
+  "sourceName": "上里町「保育所（園）等空き状況一覧」",
+  "indexUrl": "https://www.town.kamisato.saitama.jp/item/12892.htm",
+  "pdf": {
+    "linkPattern": "入所空き状況"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 1,
+    "category": 0
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○",
+    "◯": "○",
+    "✕": "×"
+  },
+  "noClassMarks": [
+    "－",
+    "―",
+    "ー",
+    "-",
+    "‐",
+    ""
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "受入可能人数3人以上",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "受入可能人数1〜2人",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きはありません",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "令和(\\d+)年(\\d{1,2})月入所",
+    "dayOfMonth": 1,
+    "allowFuture": true
+  },
+  "minFacilities": 6,
+  "subtitle": "翌月入所ぶんの施設ごとの空き状況",
+  "notes": [
+    "町は空きを人数ではなく記号で公表しています。当サイトでも公式の記号のまま載せています。",
+    "町は「上の表は目安であり、施設における受入状況の変化（職員の退職）などにより受入可能数が増減する場合があります」としています。",
+    "町は「申請、入退所の状況により〇や△であっても入所できない場合や、×となっていても入所できる場合があります」としています。",
+    "教育認定（認定こども園の幼稚園部分）の利用や空き状況は、直接施設にお問い合わせください。",
+    "町は表に日付を書いていないため、何月入所ぶんかを基準日にしています。"
+  ]
+}

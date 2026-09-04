@@ -1,0 +1,202 @@
+{
+  "municipalitySlug": "kamisato",
+  "municipalityName": "上里町",
+  "prefecture": "埼玉県",
+  "asOf": "2026-10-01",
+  "fetchedAt": "2026-09-05",
+  "sourceName": "上里町「保育所（園）等空き状況一覧」",
+  "sourceUrl": "https://www.town.kamisato.saitama.jp/item/12892.htm",
+  "sourceFiles": {
+    "vacancy": "https://www.town.kamisato.saitama.jp/secure/12892/202610.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "翌月入所ぶんの施設ごとの空き状況",
+  "notes": [
+    "町は空きを人数ではなく記号で公表しています。当サイトでも公式の記号のまま載せています。",
+    "町は「上の表は目安であり、施設における受入状況の変化（職員の退職）などにより受入可能数が増減する場合があります」としています。",
+    "町は「申請、入退所の状況により〇や△であっても入所できない場合や、×となっていても入所できる場合があります」としています。",
+    "教育認定（認定こども園の幼稚園部分）の利用や空き状況は、直接施設にお問い合わせください。",
+    "町は表に日付を書いていないため、何月入所ぶんかを基準日にしています。"
+  ],
+  "wards": [],
+  "categories": [
+    "公立保育所",
+    "私立保育所",
+    "認定こども園"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "受入可能人数3人以上",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "受入可能人数1〜2人",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きはありません",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "町立空の杜保育園",
+      "name": "町立空の杜保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        "×",
+        "△",
+        "×"
+      ]
+    },
+    {
+      "id": "安盛保育園",
+      "name": "安盛保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        "○",
+        "×",
+        "○"
+      ]
+    },
+    {
+      "id": "めぐみ保育園",
+      "name": "めぐみ保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "○",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "れいんぼー保育園",
+      "name": "れいんぼー保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "○",
+        "○",
+        "△"
+      ]
+    },
+    {
+      "id": "上里町かがやき保育園",
+      "name": "上里町かがやき保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "△"
+      ]
+    },
+    {
+      "id": "萠美チェリッシュこども園",
+      "name": "萠美チェリッシュこども園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "○",
+        "○",
+        "×"
+      ]
+    },
+    {
+      "id": "ひまわりこども園",
+      "name": "ひまわりこども園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "△",
+        "△",
+        "△"
+      ]
+    }
+  ]
+}

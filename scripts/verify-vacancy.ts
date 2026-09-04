@@ -216,6 +216,20 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "○": 44, "×": 1, "△": 11 },
   },
+  // 上里町は空きが記号。翌月入所ぶんのPDF。資料に日が無いので入所日の1日を補う
+  kamisato: {
+    asOf: "2026-10-01",
+    facilityCount: 7,
+    vacancy: 0,
+    symbolCounts: { "×": 24, "△": 8, "○": 10 },
+  },
+  // 高浜市は空きが記号。市の凡例で空欄は「定員に達していません」なので○に置き換える
+  takahama: {
+    asOf: "2026-08-01",
+    facilityCount: 11,
+    vacancy: 0,
+    symbolCounts: { "×": 50, "△": 11, "○": 5 },
+  },
   himeji: {
     asOf: "2026-08-14",
     facilityCount: 142,
