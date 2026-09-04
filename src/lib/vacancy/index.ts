@@ -131,7 +131,11 @@ import tokorozawaVacancy from "./tokorozawa.json";
 import chigasakiVacancy from "./chigasaki.json";
 import yachiyoVacancy from "./yachiyo.json";
 import yachiyoIbarakiVacancy from "./yachiyo-ibaraki.json";
+import amiVacancy from "./ami.json";
 import himejiVacancy from "./himeji.json";
+import kochiKonanVacancy from "./kochi-konan.json";
+import tochigiSakuraVacancy from "./tochigi-sakura.json";
+import takaishiVacancy from "./takaishi.json";
 import hirosakiVacancy from "./hirosaki.json";
 import chibaVacancy from "./chiba.json";
 import kawagoeVacancy from "./kawagoe.json";
@@ -657,7 +661,11 @@ const registry: Record<string, VacancyDataset> = {
   chigasaki: chigasakiVacancy as unknown as VacancyDataset,
   yachiyo: yachiyoVacancy as unknown as VacancyDataset,
   "yachiyo-ibaraki": yachiyoIbarakiVacancy as unknown as VacancyDataset,
+  ami: amiVacancy as unknown as VacancyDataset,
   himeji: himejiVacancy as unknown as VacancyDataset,
+  "kochi-konan": kochiKonanVacancy as unknown as VacancyDataset,
+  "tochigi-sakura": tochigiSakuraVacancy as unknown as VacancyDataset,
+  takaishi: takaishiVacancy as unknown as VacancyDataset,
   hirosaki: hirosakiVacancy as unknown as VacancyDataset,
   chiba: chibaVacancy as unknown as VacancyDataset,
   kawagoe: kawagoeVacancy as unknown as VacancyDataset,

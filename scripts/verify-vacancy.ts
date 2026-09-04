@@ -189,6 +189,26 @@ const EXPECTED: Record<
     facilityCount: 74,
     vacancy: 770,
   },
+  // 高石市は空きが記号。PDFの施設名が縦書きなので罫線で升目を作って読む
+  takaishi: {
+    asOf: "2026-09-01",
+    facilityCount: 11,
+    vacancy: 0,
+    symbolCounts: { "○": 2, "△": 18, "×": 42 },
+  },
+  // さくら市は空きが記号。PDFの3つの表（保育所・小規模・認定こども園）を読む
+  "tochigi-sakura": {
+    asOf: "2026-08-18",
+    facilityCount: 17,
+    vacancy: 0,
+    symbolCounts: { "×": 52, "△": 19, "○": 11 },
+  },
+  // 香南市（高知県）は年齢のセルが横に結合された行がある。結合ぶんは備考に回す
+  "kochi-konan": {
+    asOf: "2026-08-13",
+    facilityCount: 14,
+    vacancy: 112,
+  },
   himeji: {
     asOf: "2026-08-14",
     facilityCount: 142,

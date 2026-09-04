@@ -1,0 +1,417 @@
+{
+  "municipalitySlug": "tochigi-sakura",
+  "municipalityName": "さくら市",
+  "prefecture": "栃木県",
+  "asOf": "2026-08-18",
+  "fetchedAt": "2026-09-05",
+  "sourceName": "さくら市「保育施設ごとの空き状況」",
+  "sourceUrl": "https://www.city.tochigi-sakura.lg.jp/education/000037/000224/p002352.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.tochigi-sakura.lg.jp/manage/contents/upload/6a852d2c6cdbd.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "入園審査後の施設ごとの空き状況",
+  "notes": [
+    "市は空きを人数ではなく記号で公表しています。当サイトでも公式の記号のまま載せています。",
+    "市は「次回入園審査までに変動する可能性があります」としています。",
+    "市の凡例で「－（受入れなし）」となっているクラスは「—」にしています。氏家さくら保育園と小規模保育事業所は2歳児クラスまでです。",
+    "市の注記では、氏家保育園は0歳児・1歳児の受入れを停止しています。"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "比較的空き枠に余裕がある",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "若干の空き枠がある",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空き枠なし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "たいよう保育園",
+      "name": "たいよう保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        "×",
+        "△",
+        "×"
+      ]
+    },
+    {
+      "id": "わくわく保育園",
+      "name": "わくわく保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "あおぞら保育園",
+      "name": "あおぞら保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "氏家さくら保育園",
+      "name": "氏家さくら保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "△",
+        "△",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "第二氏家さくら保育園",
+      "name": "第二氏家さくら保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "ふれあい保育園",
+      "name": "ふれあい保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        "×",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "氏家保育園",
+      "name": "氏家保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        "○",
+        "○",
+        "○",
+        "△"
+      ]
+    },
+    {
+      "id": "アップル保育園",
+      "name": "アップル保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "こどもの森YOU保育園",
+      "name": "こどもの森YOU保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "さくらどろんこ保育園",
+      "name": "さくらどろんこ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "○",
+        "○",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "ちびっこランドさくら園",
+      "name": "ちびっこランドさくら園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "△",
+        "△",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "ゆうゆうランドさくら園",
+      "name": "ゆうゆうランドさくら園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "△",
+        "△",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "つくし保育園",
+      "name": "つくし保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "△",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "こどもの森YOU保育園Hohoemi館",
+      "name": "こどもの森YOU保育園Hohoemi館",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "認定こども園きつれ川幼稚園",
+      "name": "認定こども園きつれ川幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "△",
+        "○",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "認定こども園氏家幼稚園",
+      "name": "認定こども園氏家幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "認定こども園ヒカリ園",
+      "name": "認定こども園ヒカリ園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        null,
+        "△",
+        "△",
+        "△"
+      ]
+    }
+  ]
+}

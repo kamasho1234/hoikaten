@@ -1,0 +1,60 @@
+{
+  "slug": "tochigi-sakura",
+  "name": "さくら市",
+  "prefecture": "栃木県",
+  "sourceName": "さくら市「保育施設ごとの空き状況」",
+  "indexUrl": "https://www.city.tochigi-sakura.lg.jp/education/000037/000224/p002352.html",
+  "pdf": {
+    "linkPattern": "途中入園空き状況"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 1
+  },
+  "categoryFrom": "none",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○",
+    "◯": "○",
+    "✕": "×"
+  },
+  "noClassMarks": [
+    "－",
+    "―",
+    "ー",
+    "-",
+    "‐",
+    ""
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "比較的空き枠に余裕がある",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "若干の空き枠がある",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空き枠なし",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "表は令和(\\d+)年(\\d{1,2})月(\\d{1,2})日現在"
+  },
+  "minFacilities": 15,
+  "subtitle": "入園審査後の施設ごとの空き状況",
+  "notes": [
+    "市は空きを人数ではなく記号で公表しています。当サイトでも公式の記号のまま載せています。",
+    "市は「次回入園審査までに変動する可能性があります」としています。",
+    "市の凡例で「－（受入れなし）」となっているクラスは「—」にしています。氏家さくら保育園と小規模保育事業所は2歳児クラスまでです。",
+    "市の注記では、氏家保育園は0歳児・1歳児の受入れを停止しています。"
+  ]
+}

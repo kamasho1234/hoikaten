@@ -1,0 +1,57 @@
+{
+  "municipalitySlug": "takaishi",
+  "municipalityName": "高石市",
+  "prefecture": "大阪府",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-05",
+  "sourceName": "高石市「受け入れ可能枠一覧表」",
+  "sourceUrl": "https://www.city.takaishi.lg.jp/kakuka/kyouiku/kosodatesien_ka/hoiku/ukeire.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.takaishi.lg.jp/material/files/group/19/ukeireR8_9.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "施設ごとの年齢別の受け入れ可能枠",
+  "notes": [
+    "高石市は空きを人数ではなく記号で公表しています。当サイトでも公式の記号のまま載せています。",
+    "市は「受け入れ枠は利用者の退園や、各施設の人員体制などにより変動します」としています。",
+    "市は「空きがあっても入所を保証するものではありません」「空いていない施設も申請可能です」としています。",
+    "この表は保育所部分の状況です。幼稚園部分は各施設に直接お問い合わせください。",
+    "市は「入所可否は利用調整を経て決定いたします」としています。",
+    "市は「障がいや疾患などをお持ちの場合は、安全な保育を実施するためにお子さまの状況を調査いたします。各施設の人員体制や施設環境が整わない場合は受け入れが困難な場合があります」としています。",
+    "市の表で空欄になっているクラスは「—」にしています。そのクラスを設けていないことを表します。"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "４～枠",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "１～３枠",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "受け入れなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"綾園保育所","name":"綾園保育所","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","△","△","△","×"]},
+    {"id":"羽衣保育園","name":"羽衣保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","○","△","×"]},
+    {"id":"加茂保育園","name":"加茂保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"たかいし保育園","name":"たかいし保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","△"]},
+    {"id":"東羽衣こども園","name":"東羽衣こども園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","△","×"]},
+    {"id":"南海愛児園","name":"南海愛児園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","○","△","△","△","×"]},
+    {"id":"取石南こども園","name":"取石南こども園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","△"]},
+    {"id":"取石認定こども園","name":"取石認定こども園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"清高幼稚園","name":"清高幼稚園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","△","×","×","×"]},
+    {"id":"浜寺幼稚園","name":"浜寺幼稚園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","△","×"]},
+    {"id":"ルミナス保育園","name":"ルミナス保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":[null,"△","×",null,null,null]}
+  ]
+}
