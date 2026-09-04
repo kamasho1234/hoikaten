@@ -1,0 +1,375 @@
+{
+  "municipalitySlug": "ishikari",
+  "municipalityName": "石狩市",
+  "prefecture": "北海道",
+  "asOf": "2026-08-21",
+  "fetchedAt": "2026-09-04",
+  "sourceName": "石狩市「入所に向けた受入予定数」",
+  "sourceUrl": "https://www.city.ishikari.hokkaido.jp/kosodate-kyoiku/kosodate/1001878/1006195/1005551.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.ishikari.hokkaido.jp/kosodate-kyoiku/kosodate/1001878/1006195/1005551.html"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "翌々月入所に向けた受入予定数",
+  "notes": [
+    "市は空きを人数ではなく記号で公表しています。市は記号の意味を書いていないため、当サイトでは「○空きあり／△空きわずか／×空きなし」と読める形で載せています。正確な人数は市にお問い合わせください。",
+    "市は「各施設の空き状況は、児童の利用状況や保育士の配置状況などにより、実際の利用調整時点では変わることがあります」としています。",
+    "市は「空きがある場合でも必ず入所できるとは限りません」「空き状況の有無にかかわらず、お申し込みは可能です」としています。",
+    "市は「施設が利用定員を超えて児童を受入れしている場合、市外に住民票がある方は、基本的に入所できません」としています。市の表で「市外入所不可」と書かれた施設がこれにあたります。",
+    "年齢は令和8年4月1日時点のものです。",
+    "受け入れのないクラスは「—」にしています。"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "空きあり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "空きわずか",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "花川南認定こども園",
+      "name": "花川南認定こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "×",
+        "△",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "えるむ認定こども園",
+      "name": "えるむ認定こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "△",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "えるむの森認定こども園",
+      "name": "えるむの森認定こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "認定こども園花川わかば幼稚園",
+      "name": "認定こども園花川わかば幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        "○",
+        "○",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "認定こども園ミナクル幼稚園",
+      "name": "認定こども園ミナクル幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "認定こども園くるみ保育園",
+      "name": "認定こども園くるみ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        "○",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "認定こども園・ひかりのこいしかり",
+      "name": "認定こども園・ひかりのこいしかり",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "花川北陽認定こども園",
+      "name": "花川北陽認定こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "○",
+        "○",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "友愛認定こども園",
+      "name": "友愛認定こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "○",
+        "×",
+        "△"
+      ]
+    },
+    {
+      "id": "まきば認定こども園",
+      "name": "まきば認定こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "△",
+        "○",
+        "○",
+        "×",
+        "○"
+      ]
+    },
+    {
+      "id": "石狩仲よし認定こども園",
+      "name": "石狩仲よし認定こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "花川マリア認定こども園",
+      "name": "花川マリア認定こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "緑苑台認定こども園",
+      "name": "緑苑台認定こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "×",
+        "×",
+        "×",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "石狩たんぽぽ認定こども園",
+      "name": "石狩たんぽぽ認定こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        "○",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "こども保育園つばき（事業所内）",
+      "name": "こども保育園つばき（事業所内）",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        "○",
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+}

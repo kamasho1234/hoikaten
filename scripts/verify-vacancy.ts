@@ -1747,6 +1747,14 @@ obu: {
     emptyRatio: 0.09,
     symbolCounts: { "×": 49, "●": 38 },
   },
+  // 石狩市は事業所内保育1園で3歳以上が「—」になる
+  ishikari: {
+    asOf: "2026-08-21",
+    facilityCount: 15,
+    vacancy: 0,
+    emptyRatio: 0.03,
+    symbolCounts: { "○": 37, "×": 41, "△": 9 },
+  },
   // 城陽市は「－」を空きなし（0人）として読んでいる
   joyo: {
     asOf: "2026-09-01",

@@ -474,6 +474,7 @@ import odaiVacancy from "./odai.json";
 import chiryuVacancy from "./chiryu.json";
 import eniwaVacancy from "./eniwa.json";
 import joyoVacancy from "./joyo.json";
+import ishikariVacancy from "./ishikari.json";
 import dateFukushimaVacancy from "./date-fukushima.json";
 import miyoshiSaitamaVacancy from "./miyoshi-saitama.json";
 import yoshidaShizuokaVacancy from "./yoshida-shizuoka.json";
@@ -995,6 +996,7 @@ const registry: Record<string, VacancyDataset> = {
   chiryu: chiryuVacancy as unknown as VacancyDataset,
   eniwa: eniwaVacancy as unknown as VacancyDataset,
   joyo: joyoVacancy as unknown as VacancyDataset,
+  ishikari: ishikariVacancy as unknown as VacancyDataset,
   "date-fukushima": dateFukushimaVacancy as unknown as VacancyDataset,
   "miyoshi-saitama": miyoshiSaitamaVacancy as unknown as VacancyDataset,
   "yoshida-shizuoka": yoshidaShizuokaVacancy as unknown as VacancyDataset,
