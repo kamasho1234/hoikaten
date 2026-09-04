@@ -1471,10 +1471,10 @@ obu: {
     symbolCounts: { "×": 39, "○": 35 },
   },
   yame: {
-    asOf: "2026-08-04",
+    asOf: "2026-09-04",
     facilityCount: 23,
     vacancy: 0,
-    symbolCounts: { "×": 67, "△": 53, "○": 18 },
+    symbolCounts: { "×": 72, "△": 47, "○": 19 },
   },
 
   kyotanabe: {
@@ -1484,10 +1484,10 @@ obu: {
   },
 
   kushiro: {
-    asOf: "2026-08-01",
+    asOf: "2026-09-01",
     facilityCount: 48,
     vacancy: 0,
-    symbolCounts: { "×": 130, "△": 57, "○": 33 },
+    symbolCounts: { "×": 129, "○": 34, "△": 58 },
   },
   miki: {
     asOf: "2026-05-01",
@@ -2349,9 +2349,9 @@ nishio: {
   },
   // 滝沢市は入所枠。資料に基準日が無いので公開日を時点にしている
   takizawa: {
-    asOf: "2026-08-04",
+    asOf: "2026-09-04",
     facilityCount: 17,
-    vacancy: 134,
+    vacancy: 109,
     emptyRatio: 0.2,
   },
   // 伊豆市はExcelで公表。記号に「要相談」が入る
