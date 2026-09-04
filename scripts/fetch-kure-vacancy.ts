@@ -133,13 +133,28 @@ async function main() {
       );
     }
     // 更新日はリンクの文言にしか書かれていない。年は受付開始日から補う。
-    // 年末に翌年ぶんの受付が始まると月が戻るので、そのときは前の年になる
+    // ふつうは受付が始まった年と同じ年に更新される（令和8年8月25日受付開始 → 9月4日更新）。
+    // 年をまたぐのは、年末に翌年ぶんの受付が始まったとき（令和8年12月受付開始 → 令和9年1月更新）。
+    // そのときだけ更新の月が受付開始の月より小さくなるので、1年足す
     const [receptionReiwa, receptionMonth] = pdf.reception;
-    const year = 2018 + receptionReiwa - (latest.updatedMonth > receptionMonth ? 1 : 0);
+    const year = 2018 + receptionReiwa + (latest.updatedMonth < receptionMonth ? 1 : 0);
     const asOf = `${year}-${String(latest.updatedMonth).padStart(2, "0")}-${String(
       latest.updatedDay
     ).padStart(2, "0")}`;
     if (asOf > todayJst()) fail(`更新日（${asOf}）が今日より先になっています`);
+    // 更新日が受付期間から半年以上離れていたら、年の当て方を間違えている
+    const receptionDate = new Date(Date.UTC(2018 + receptionReiwa, receptionMonth - 1, 1));
+    const asOfDate = new Date(`${asOf}T00:00:00Z`);
+    const monthsApart = Math.abs(
+      (asOfDate.getUTCFullYear() - receptionDate.getUTCFullYear()) * 12 +
+        (asOfDate.getUTCMonth() - receptionDate.getUTCMonth()),
+    );
+    if (monthsApart > 6) {
+      fail(
+        `更新日（${asOf}）が受付開始（令和${receptionReiwa}年${receptionMonth}月）から` +
+          `${monthsApart}か月離れています。年の当て方が違う可能性があります`,
+      );
+    }
     console.log(`更新日: ${asOf} / 対象: ${targetMonth}月入所`);
 
     const symbolLegend = pdf.legend.map((l) => ({

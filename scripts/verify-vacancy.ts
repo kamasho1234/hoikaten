@@ -412,10 +412,10 @@ const EXPECTED: Record<
   },
   // 呉市は記号が〇と×の2つだけで、空欄がない（74施設×6歳児＝444）
   kure: {
-    asOf: "2026-08-24",
+    asOf: "2026-09-04",
     facilityCount: 74,
     vacancy: 0,
-    symbolCounts: { "〇": 189, "×": 255 },
+    symbolCounts: { "〇": 188, "×": 256 },
   },
   // 津市は種類ごとに表が分かれていて、種類名は表のすぐ上に書いてあるだけ
   tsu: {
