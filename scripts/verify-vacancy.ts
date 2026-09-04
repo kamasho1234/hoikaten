@@ -1506,10 +1506,10 @@ obu: {
     vacancy: 1030,
   },
   hashimoto: {
-    asOf: "2026-08-05",
+    asOf: "2026-09-03",
     facilityCount: 14,
     vacancy: 0,
-    symbolCounts: { "×": 61, "▲": 13, "○": 7 },
+    symbolCounts: { "×": 62, "▲": 12, "○": 7 },
   },
   higashiyamato: {
     asOf: "2026-09-01",
