@@ -1,0 +1,483 @@
+{
+  "municipalitySlug": "eniwa",
+  "municipalityName": "恵庭市",
+  "prefecture": "北海道",
+  "asOf": "2026-10-01",
+  "fetchedAt": "2026-09-04",
+  "sourceName": "恵庭市「保育園等の空き状況」（えにわっこなび）",
+  "sourceUrl": "https://eniwakko-navi.com/hoikuaki/",
+  "sourceFiles": {
+    "vacancy": "https://eniwakko-navi.com/hoikuaki/"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "翌月1日入所ぶんの空き状況",
+  "notes": [
+    "市は空きを人数ではなく記号で公表しています。市の子育て支援サイト「えにわっこなび」で月2回更新されます。",
+    "この表は入所日ぶんの空き状況で、その入所日を基準日にしています。",
+    "年齢（クラス）は令和8年4月1日現在のものです。",
+    "受け入れのないクラスは「—」にしています。"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "4名以上の空きあり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1〜3名の空きあり",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "すみれ",
+      "name": "すみれ",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "△",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "島松いちい",
+      "name": "島松いちい",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "×",
+        "×",
+        "△",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "あいおい",
+      "name": "あいおい",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "○",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "えにわスマイル",
+      "name": "えにわスマイル",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "×",
+        "○",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "幼稚舎えるむ",
+      "name": "幼稚舎えるむ",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "×",
+        "○",
+        "×",
+        "×",
+        "△"
+      ]
+    },
+    {
+      "id": "恵庭幼稚園",
+      "name": "恵庭幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "○",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "えほんの森",
+      "name": "えほんの森",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "さくら",
+      "name": "さくら",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "×",
+        "×",
+        "×",
+        "△",
+        "×"
+      ]
+    },
+    {
+      "id": "ひまわり",
+      "name": "ひまわり",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "○",
+        "○",
+        "×",
+        "△"
+      ]
+    },
+    {
+      "id": "文教",
+      "name": "文教",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "恵み野",
+      "name": "恵み野",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "かしわ",
+      "name": "かしわ",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "○",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "クラーク",
+      "name": "クラーク",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        null,
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "島松",
+      "name": "島松",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        null,
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "第二かしわ",
+      "name": "第二かしわ",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        "×",
+        "○",
+        "×",
+        "×",
+        "△"
+      ]
+    },
+    {
+      "id": "恵み野第二",
+      "name": "恵み野第二",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        "×",
+        "○",
+        "○",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "恵庭保育園",
+      "name": "恵庭保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        "×",
+        "△",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "すえひろスマイル",
+      "name": "すえひろスマイル",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "島松もみじ",
+      "name": "島松もみじ",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "×",
+        "△",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "ぴっころきっず",
+      "name": "ぴっころきっず",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+}

@@ -1,0 +1,415 @@
+{
+  "municipalitySlug": "chiryu",
+  "municipalityName": "知立市",
+  "prefecture": "愛知県",
+  "asOf": "2026-08-18",
+  "fetchedAt": "2026-09-04",
+  "sourceName": "知立市「保育所等空き状況一覧」",
+  "sourceUrl": "https://www.city.chiryu.aichi.jp/kosodate_info/4/15113.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.chiryu.aichi.jp/kosodate_info/4/15113.html"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "notes": [
+    "市は空きを人数ではなく記号で公表しています。",
+    "年齢区分は満年齢ではなく、令和8年4月1日時点の年齢です。",
+    "入所枠のないクラスは「—」にしています。"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "5人以上の空き",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1〜4人の空き",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空き0人",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "知立保育園",
+      "name": "知立保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "△"
+      ]
+    },
+    {
+      "id": "来迎寺保育園",
+      "name": "来迎寺保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "上重原保育園",
+      "name": "上重原保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "△",
+        "×",
+        "○"
+      ]
+    },
+    {
+      "id": "知立南保育園",
+      "name": "知立南保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "△",
+        "×"
+      ]
+    },
+    {
+      "id": "逢妻保育園",
+      "name": "逢妻保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "高根保育園",
+      "name": "高根保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "新林保育園",
+      "name": "新林保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        "×",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "八橋保育園",
+      "name": "八橋保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "△",
+        "×"
+      ]
+    },
+    {
+      "id": "宝保育園",
+      "name": "宝保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "上重原西保育園",
+      "name": "上重原西保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        "○",
+        "△",
+        "○"
+      ]
+    },
+    {
+      "id": "知立なかよし保育園",
+      "name": "知立なかよし保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "猿渡保育園",
+      "name": "猿渡保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "徳風こども園",
+      "name": "徳風こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "さくらんぼ保育園",
+      "name": "さくらんぼ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "華の子保育ランド",
+      "name": "華の子保育ランド",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "めいてつ保育ステーション知立ぽっぽ園",
+      "name": "めいてつ保育ステーション知立ぽっぽ園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "杜の子保育ランド",
+      "name": "杜の子保育ランド",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+}

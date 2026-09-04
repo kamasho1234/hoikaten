@@ -1747,6 +1747,29 @@ obu: {
     emptyRatio: 0.09,
     symbolCounts: { "×": 49, "●": 38 },
   },
+  // 城陽市は「－」を空きなし（0人）として読んでいる
+  joyo: {
+    asOf: "2026-09-01",
+    facilityCount: 13,
+    vacancy: 19,
+    emptyRatio: 0,
+  },
+  // 恵庭市は翌月1日入所ぶん。基準日がその入所日になるので今日より先になる
+  eniwa: {
+    asOf: "2026-10-01",
+    facilityCount: 20,
+    vacancy: 0,
+    emptyRatio: 0.17,
+    symbolCounts: { "×": 70, "△": 18, "○": 11 },
+  },
+  // 知立市は小規模保育など5園で3歳以上が「—」になる
+  chiryu: {
+    asOf: "2026-08-18",
+    facilityCount: 17,
+    vacancy: 0,
+    emptyRatio: 0.18,
+    symbolCounts: { "×": 66, "△": 15, "○": 3 },
+  },
   // 大台町は町立4園だけ。年齢の欄が結合されている行がある
   odai: {
     asOf: "2026-09-01",

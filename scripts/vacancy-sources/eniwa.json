@@ -1,0 +1,59 @@
+{
+  "slug": "eniwa",
+  "name": "恵庭市",
+  "prefecture": "北海道",
+  "sourceName": "恵庭市「保育園等の空き状況」（えにわっこなび）",
+  "indexUrl": "https://eniwakko-navi.com/hoikuaki/",
+  "layout": "html-tables",
+  "columns": {
+    "name": 0
+  },
+  "categoryFrom": "none",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○",
+    "◯": "○",
+    "✕": "×"
+  },
+  "noClassMarks": [
+    "–",
+    "―",
+    "－",
+    "ー",
+    "-",
+    "‐",
+    ""
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "4名以上の空きあり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1〜3名の空きあり",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "令和(\\d+)年(\\d{1,2})月(\\d{1,2})日入所",
+    "allowFuture": true
+  },
+  "minFacilities": 15,
+  "subtitle": "翌月1日入所ぶんの空き状況",
+  "notes": [
+    "市は空きを人数ではなく記号で公表しています。市の子育て支援サイト「えにわっこなび」で月2回更新されます。",
+    "この表は入所日ぶんの空き状況で、その入所日を基準日にしています。",
+    "年齢（クラス）は令和8年4月1日現在のものです。",
+    "受け入れのないクラスは「—」にしています。"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "chiryu",
+  "name": "知立市",
+  "prefecture": "愛知県",
+  "sourceName": "知立市「保育所等空き状況一覧」",
+  "indexUrl": "https://www.city.chiryu.aichi.jp/kosodate_info/4/15113.html",
+  "layout": "html-tables",
+  "columns": {
+    "name": 0
+  },
+  "categoryFrom": "none",
+  "metrics": ["symbol"],
+  "symbolMap": {
+    "〇": "○",
+    "◯": "○",
+    "✕": "×"
+  },
+  "noClassMarks": ["―", "－", "ー", "-", "‐", ""],
+  "symbolLegend": [
+    { "mark": "○", "label": "5人以上の空き", "open": true },
+    { "mark": "△", "label": "1〜4人の空き", "open": true },
+    { "mark": "×", "label": "空き0人", "open": false }
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "令和(\\d+)年(\\d{1,2})月(\\d{1,2})日時点"
+  },
+  "minFacilities": 15,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しています。",
+    "年齢区分は満年齢ではなく、令和8年4月1日時点の年齢です。",
+    "入所枠のないクラスは「—」にしています。"
+  ]
+}

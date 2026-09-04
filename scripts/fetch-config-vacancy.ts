@@ -83,6 +83,8 @@ type Config = {
     pattern?: string;
     order?: "ymd" | "mdy";
     checkMonth?: boolean;
+    /** 「翌月1日入所ぶん」のように、基準日が今日より先になる資料で使う */
+    allowFuture?: boolean;
   };
   minFacilities?: number;
 };
@@ -333,7 +335,17 @@ async function run(slug: string): Promise<void> {
         `${Number(parts[0]) < 1000 ? 2018 + Number(parts[0]) : Number(parts[0])}-${parts[1].padStart(2, "0")}-${parts[2].padStart(2, "0")}`
       : toIsoDate(asOfMatch[1] ?? asOfMatch[0]);
   if (!asOf) fail(`基準日「${asOfMatch[0]}」を日付にできませんでした`);
-  if (asOf > todayJst()) fail(`基準日（${asOf}）が今日より先になっています`);
+  // 「翌月1日入所ぶん」を出す自治体では、基準日がその入所日になる（恵庭市・中野区）。
+  // asOf.allowFuture を書いた設定だけ、今日より先の日付を通す。
+  // それでも半年より先は読み違いなので止める
+  if (asOf > todayJst()) {
+    if (!conf.asOf.allowFuture) fail(`基準日（${asOf}）が今日より先になっています`);
+    const ahead = Math.round(
+      (Date.parse(`${asOf}T00:00:00Z`) - Date.parse(`${todayJst()}T00:00:00Z`)) / 86400000,
+    );
+    if (ahead > 180) fail(`基準日（${asOf}）が今日より${ahead}日も先になっています`);
+    console.log(`（基準日は${ahead}日先の入所日です）`);
+  }
   console.log(`基準日: ${asOf} / 施設: ${rows.length}件`);
   await writeDataset(conf, asOf, rows, sourceFiles, indexUrl);
 }
