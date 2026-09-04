@@ -108,6 +108,10 @@ def rows_from_grid(grid, conf, category=None):
     # 1施設が複数行に分かれる表（佐倉市は在籍/入園待ち/待機/空きの4行）では、
     # どの行が空き状況かを列と値で指定する。施設名は先頭の行にしか入っていないので持ち回る
     row_label = conf.get("rowLabel")
+    # 同じ表の別の行に、入所待ち人数など**別の指標**が載っていることがある。
+    # 「どの値のときにどの指標として読むか」を並べて書けるようにする
+    #   "extraRows": [{"value": "入園待ち人数", "metric": "waiting"}]
+    extra_rows = {cell(x["value"]): x["metric"] for x in (conf.get("extraRows") or [])}
     # 見出し行と本文で列がずれる表があるので、年齢の列を直接書けるようにする
     fixed_ages = cols.get("ages")
     # 年齢をまとめて公表する自治体がある（横手市は「0歳」「1・2歳」「3・4・5歳」の3区分）。
@@ -119,6 +123,8 @@ def rows_from_grid(grid, conf, category=None):
             fail("ageGroups と columns.ages の数を合わせてください")
 
     rows = []
+    # 施設の行より先に出てくる別の指標を、いったん置いておく場所
+    pending = {}
     age_cols = None
     name_col = None
     last_name = ""
@@ -179,6 +185,7 @@ def rows_from_grid(grid, conf, category=None):
             for pat in name_trim:
                 src = re.sub(pat, "", src)
             name = cell(src)
+        metric = None
         if row_label:
             # 施設名は先頭の行にしかないので覚えておく。
             # 類型（公立/民間など）も同じ行にあるため、ここで先に取り込む
@@ -190,7 +197,13 @@ def rows_from_grid(grid, conf, category=None):
                     text = re.sub(pat, "", text)
                 category = text.strip() or category
             label_col = row_label["column"]
-            if len(r) <= label_col or r[label_col] != cell(row_label["value"]):
+            label = r[label_col] if len(r) > label_col else ""
+            metric = None
+            if label == cell(row_label["value"]):
+                metric = "main"
+            elif label in extra_rows:
+                metric = extra_rows[label]
+            if metric is None:
                 continue
             name = last_name
         if not name or age_of_header(name) is not None:
@@ -244,7 +257,14 @@ def rows_from_grid(grid, conf, category=None):
                 continue
             if text in no_class:
                 continue
-            if as_symbol:
+            # 別の指標の行（入所待ち人数など）は、記号の表でも**人数**として読む
+            if as_symbol and row_label and metric and metric != "main":
+                n = parse_number(text, unit)
+                if n is None:
+                    continue
+                values[age] = n
+                ok = True
+            elif as_symbol:
                 # 記号のセルに注記が同居している自治体がある（下野市の「〇 要相談」など）
                 for pat in conf.get("symbolTrim", []):
                     text = re.sub(pat, "", text)
@@ -269,11 +289,32 @@ def rows_from_grid(grid, conf, category=None):
                     values[a] = values[g[0]]
                     symbols[a] = symbols[g[0]]
 
+        # 別の指標の行は、同じ施設の行に足す（施設を増やさない）。
+        # 並びは自治体によって違う。佐倉市は「在籍→入園待ち→待機→空き状況」で
+        # **空き状況より先**、逗子市は「入所可能人数→入所待ち人数」で**あと**に来る。
+        # あとに来るときはすでに rows にあるので直に足し、
+        # 先に来るときはいったん脇に置いて、その施設の行ができたときに合わせる
+        if row_label and metric and metric != "main":
+            for prev in reversed(rows):
+                if prev["name"] == name:
+                    # すでに入っているものは上書きしない。
+                    # 佐倉市の表は末尾に「地区計」「市内合計」の行が続き、
+                    # 施設名の欄が空なので直前の施設名を持ち回ってしまう。
+                    # 上書きすると最後の施設に合計が入る
+                    if metric not in prev:
+                        prev[metric] = values
+                    break
+            else:
+                pending.setdefault(name, {})[metric] = values
+            continue
+
         row = {"name": name, "vacancy": values}
         if as_symbol:
             row["symbols"] = symbols
         if use_category and category:
             row["category"] = category
+        for k, v in (pending.pop(name, {}) or {}).items():
+            row[k] = v
         rows.append(row)
 
     return rows, category

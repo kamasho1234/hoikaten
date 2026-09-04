@@ -379,6 +379,14 @@ async function writeDataset(
       vacancy,
     };
     if (r.symbols) out.symbols = r.symbols;
+    // 入所待ち人数など、同じ表の別の行から取れる指標
+    for (const key of ["waiting", "enrolled"] as const) {
+      const v = r[key];
+      if (Array.isArray(v)) {
+        if (v.length !== AGE_COUNT) fail(`${name} の${key}の年齢数が ${v.length} です`);
+        out[key] = v;
+      }
+    }
     return out;
   });
 

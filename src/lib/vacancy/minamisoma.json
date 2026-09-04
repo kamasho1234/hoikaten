@@ -3,17 +3,19 @@
   "municipalityName": "南相馬市",
   "prefecture": "福島県",
   "asOf": "2026-09-01",
-  "fetchedAt": "2026-09-01",
+  "fetchedAt": "2026-09-04",
   "sourceName": "南相馬市「認可保育施設の空き状況・申込み状況」",
   "sourceUrl": "https://www.city.minamisoma.lg.jp/portal/childcare/shussan_kosodate/5/5838.html",
   "sourceFiles": {
     "vacancy": "https://www.city.minamisoma.lg.jp/material/files/group/42/akijoukyou9gatu.pdf"
   },
   "metrics": [
-    "vacancy"
+    "vacancy",
+    "waiting"
   ],
   "notes": [
-    "市は同じ表に申込み状況も載せていますが、当サイトは空き状況の行だけを載せています。"
+    "市は同じ表に申込み状況も載せていますが、当サイトは空き状況の行だけを載せています。",
+    "市は「申込者数」もあわせて公表しています。空き状況と同じ表に載っている数です。"
   ],
   "wards": [],
   "categories": [],
@@ -30,6 +32,14 @@
         4,
         4,
         7
+      ],
+      "waiting": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
       ]
     },
     {
@@ -41,6 +51,14 @@
         0,
         0,
         0,
+        0,
+        0,
+        0
+      ],
+      "waiting": [
+        3,
+        0,
+        1,
         0,
         0,
         0
@@ -58,6 +76,14 @@
         0,
         2,
         2
+      ],
+      "waiting": [
+        null,
+        0,
+        0,
+        0,
+        0,
+        0
       ]
     },
     {
@@ -68,6 +94,14 @@
       "vacancy": [
         0,
         0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "waiting": [
+        3,
+        1,
         0,
         0,
         0,
@@ -86,6 +120,14 @@
         0,
         0,
         0
+      ],
+      "waiting": [
+        5,
+        0,
+        3,
+        1,
+        0,
+        0
       ]
     },
     {
@@ -99,6 +141,14 @@
         0,
         0,
         0,
+        0
+      ],
+      "waiting": [
+        null,
+        0,
+        1,
+        0,
+        1,
         0
       ]
     },
@@ -114,6 +164,14 @@
         0,
         0,
         0
+      ],
+      "waiting": [
+        5,
+        0,
+        0,
+        1,
+        1,
+        0
       ]
     },
     {
@@ -126,6 +184,14 @@
         null,
         0,
         2,
+        0,
+        0
+      ],
+      "waiting": [
+        null,
+        null,
+        0,
+        0,
         0,
         0
       ]
@@ -142,6 +208,14 @@
         null,
         null,
         null
+      ],
+      "waiting": [
+        0,
+        0,
+        0,
+        null,
+        null,
+        null
       ]
     },
     {
@@ -151,6 +225,14 @@
       "c": null,
       "vacancy": [
         1,
+        0,
+        null,
+        null,
+        null,
+        null
+      ],
+      "waiting": [
+        2,
         0,
         null,
         null,
@@ -170,6 +252,14 @@
         0,
         0,
         0
+      ],
+      "waiting": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
       ]
     },
     {
@@ -184,6 +274,14 @@
         0,
         0,
         0
+      ],
+      "waiting": [
+        0,
+        2,
+        0,
+        0,
+        1,
+        0
       ]
     },
     {
@@ -194,6 +292,14 @@
       "vacancy": [
         0,
         1,
+        0,
+        null,
+        null,
+        null
+      ],
+      "waiting": [
+        0,
+        0,
         0,
         null,
         null,
@@ -212,6 +318,14 @@
         null,
         null,
         null
+      ],
+      "waiting": [
+        null,
+        1,
+        0,
+        null,
+        null,
+        null
       ]
     },
     {
@@ -220,6 +334,14 @@
       "w": null,
       "c": null,
       "vacancy": [
+        0,
+        0,
+        0,
+        null,
+        null,
+        null
+      ],
+      "waiting": [
         0,
         0,
         0,
@@ -235,6 +357,14 @@
       "c": null,
       "vacancy": [
         0,
+        0,
+        0,
+        null,
+        null,
+        null
+      ],
+      "waiting": [
+        1,
         0,
         0,
         null,
