@@ -2,11 +2,11 @@
   "municipalitySlug": "iruma",
   "municipalityName": "入間市",
   "asOf": "2026-09-01",
-  "fetchedAt": "2026-09-03",
+  "fetchedAt": "2026-09-04",
   "sourceName": "入間市「保育施設受入状況表」",
   "sourceUrl": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/14431.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.iruma.saitama.jp/material/files/group/34/5080828ukeirejyoukyouhyou.pdf"
+    "vacancy": "https://www.city.iruma.saitama.jp/material/files/group/34/r809ukeirejyoukyouhyou.pdf"
   },
   "metrics": [
     "symbol"
@@ -77,7 +77,7 @@
     {"id":"すくすく保育園（東町）","name":"すくすく保育園（東町）","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","*",null,null]},
     {"id":"おひさま保育園（野田）","name":"おひさま保育園（野田）","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
     {"id":"武蔵藤沢めぐみ保育園（下藤沢）","name":"武蔵藤沢めぐみ保育園（下藤沢）","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
-    {"id":"みつばち保育園（扇台）","name":"みつばち保育園（扇台）","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","▲",null,null,null]},
+    {"id":"みつばち保育園（扇台）","name":"みつばち保育園（扇台）","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["▲","×","×",null,null,null]},
     {"id":"夢の森ほのぼのﾊﾆｰ保育園（新光）","name":"夢の森ほのぼのﾊﾆｰ保育園（新光）","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
     {"id":"スクルドエンジェル保育園（久保稲荷）","name":"スクルドエンジェル保育園（久保稲荷）","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
     {"id":"むさし保育園（東町）","name":"むさし保育園（東町）","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["▲","×","×",null,null,null]},
