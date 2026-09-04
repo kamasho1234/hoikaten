@@ -1,0 +1,489 @@
+{
+  "municipalitySlug": "tomiya",
+  "municipalityName": "富谷市",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-04",
+  "sourceName": "富谷市「利用調整前の入所可能数状況」",
+  "sourceUrl": "https://www.tomiya-city.miyagi.jp/kosodate/hoiku/65f0ff3e05c1474d96fb7ed92e411c2d90b86257.html",
+  "sourceFiles": {
+    "vacancy": "https://www.tomiya-city.miyagi.jp/uploads/pdf/65dbf89e4b8317ec247e24a506d7a5ea6438f1de.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "利用調整前の入所可能数状況",
+  "notes": [
+    "市は空きを人数ではなく記号で公表しています。",
+    "市は「施設の保育士の確保状況及び入所調整により実際と異なる場合があります」「現在×がついている施設についても入所決定の取り下げや退所等により受け入れ状況が変更になる場合があります」としています。",
+    "市は「空き施設への申込をしても入所の確約とはなりません」「入所を希望する保育施設については空きの有無にかかわらず申し込みください」としています。",
+    "この表は保育認定（2・3号）のものです。認定こども園の教育認定（1号）を希望する場合は施設へ直接連絡することとされています。",
+    "設けていないクラスは「—」にしています。"
+  ],
+  "wards": [],
+  "categories": [
+    "市立保育所",
+    "認可保育園",
+    "認定こども園",
+    "小規模保育園",
+    "家庭的保育室"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "空き4名以上",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "空き1〜3名程度",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "富谷保育所",
+      "name": "富谷保育所",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "△",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "富ケ丘保育所",
+      "name": "富ケ丘保育所",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        "×",
+        "△",
+        "×"
+      ]
+    },
+    {
+      "id": "東向陽台保育所",
+      "name": "東向陽台保育所",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "△",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "成田保育所",
+      "name": "成田保育所",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        "○",
+        "○",
+        "△"
+      ]
+    },
+    {
+      "id": "富ケ丘菜の花保育園",
+      "name": "富ケ丘菜の花保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "明石台くまちゃん保育園",
+      "name": "明石台くまちゃん保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "ぷらむ保育園大清水",
+      "name": "ぷらむ保育園大清水",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "△",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "上桜木果樹園の森こども園",
+      "name": "上桜木果樹園の森こども園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "△",
+        "○",
+        "△"
+      ]
+    },
+    {
+      "id": "明石台若樹の森こども園",
+      "name": "明石台若樹の森こども園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "△",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "とみや杜の橋こども園",
+      "name": "とみや杜の橋こども園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "アルシュ富谷こども園",
+      "name": "アルシュ富谷こども園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "認定こども園富谷ひよこ園",
+      "name": "認定こども園富谷ひよこ園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "△",
+        "×"
+      ]
+    },
+    {
+      "id": "明石台こども園",
+      "name": "明石台こども園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "○",
+        "○",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "ぷらむ富谷こども園",
+      "name": "ぷらむ富谷こども園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "△",
+        "△",
+        "×"
+      ]
+    },
+    {
+      "id": "幼稚園型認定こども園成田中央幼稚園",
+      "name": "幼稚園型認定こども園成田中央幼稚園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "大清水ぞうさん保育園",
+      "name": "大清水ぞうさん保育園",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "富谷ひよこの里",
+      "name": "富谷ひよこの里",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "ひよこのおうち",
+      "name": "ひよこのおうち",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "キッズフィールド大清水園",
+      "name": "キッズフィールド大清水園",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "△",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "らびっと保育室",
+      "name": "らびっと保育室",
+      "w": null,
+      "c": 4,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+}

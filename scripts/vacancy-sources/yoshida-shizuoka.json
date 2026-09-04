@@ -1,0 +1,53 @@
+{
+  "slug": "yoshida-shizuoka",
+  "name": "吉田町",
+  "sourceName": "吉田町「町内保育施設等の空き状況」",
+  "indexUrl": "https://www.town.yoshida.shizuoka.jp/9369.htm",
+  "pdf": {
+    "linkPattern": "町内保育施設等の空き状況"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 3,
+    "category": 0
+  },
+  "categoryFrom": "row",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○",
+    "◯": "○",
+    "✕": "×"
+  },
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "3人以上余裕あり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "3人未満",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空き無し",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "令和(\\d+)年(\\d{1,2})月(\\d{1,2})日時点"
+  },
+  "minFacilities": 8,
+  "subtitle": "年度途中入所のための空き状況",
+  "notes": [
+    "町は空きを人数ではなく記号で公表しています。",
+    "町は「保育の必要性の高い方から順に決定しますので、空きがあっても入所を確約するものではありません」としています。",
+    "町は「入園内定者の辞退、在園児童の退園、新たな保育士の確保等による受入枠数の増加」「保育士の休職や在園児童の安全な保育環境の確保等の理由による受入枠数の減少」があるため、入所可能児童数とは必ずしも一致しないとしています。",
+    "設けていないクラスは「—」にしています。"
+  ],
+  "prefecture": "静岡県"
+}

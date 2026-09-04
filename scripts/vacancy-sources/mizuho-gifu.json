@@ -4,6 +4,7 @@
   "sourceName": "瑞穂市「保育施設の空き状況と待機児童数」",
   "indexUrl": "https://www.city.mizuho.lg.jp/5709.htm",
   "layout": "html-tables",
+  "onlyTablesContaining": "保育施設の空き状況",
   "columns": {
     "name": 2,
     "category": 1
@@ -14,8 +15,41 @@
   ],
   "symbolMap": {
     "〇": "○",
-    "◯": "○"
+    "◯": "○",
+    "✕": "×"
   },
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "空き有",
+      "open": true
+    },
+    {
+      "mark": "▲",
+      "label": "若干名の空き",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空き無",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "令和(\\d+)年[\\s\\S]{0,20}?(\\d{1,2})[\\s\\S]{0,10}?月[\\s\\S]{0,10}?(\\d{1,2})[\\s\\S]{0,10}?日[\\s\\S]{0,10}?の状況です"
+  },
+  "minFacilities": 16,
+  "notes": [
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "受入年齢は4月1日現在のものです。",
+    "市は待機児童数もあわせて公表しています。",
+    "設けていないクラスは「—」にしています。"
+  ],
+  "categoryTrim": [
+    "[（(]",
+    "[）)]"
+  ],
   "noClassMarks": [
     "－",
     "ー",
@@ -24,31 +58,5 @@
     "‐",
     ""
   ],
-  "symbolLegend": [
-    {
-      "mark": "○",
-      "label": "空きあり",
-      "open": true
-    },
-    {
-      "mark": "▲",
-      "label": "空きわずか",
-      "open": true
-    },
-    {
-      "mark": "×",
-      "label": "空きなし",
-      "open": false
-    }
-  ],
-  "asOf": {
-    "source": "page",
-    "pattern": "更新日:(20\\d{2})年(\\d{1,2})月(\\d{1,2})日"
-  },
-  "minFacilities": 12,
-  "notes": [
-    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
-    "市は表に基準日を書いていないため、掲載ページの更新日を基準日にしています。",
-    "受入年齢は4月1日現在のものです。"
-  ]
+  "prefecture": "岐阜県"
 }

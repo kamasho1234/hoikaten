@@ -39,5 +39,6 @@
   ],
   "maxPages": 1,
   "stopBelow": 0.45,
-  "skipRowsMatching": "^.{0,3}$|^※"
+  "skipRowsMatching": "^.{0,3}$|^※",
+  "prefecture": "群馬県"
 }

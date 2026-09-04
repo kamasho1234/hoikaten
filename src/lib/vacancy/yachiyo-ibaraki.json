@@ -1,39 +1,39 @@
 {
   "municipalitySlug": "yachiyo-ibaraki",
   "municipalityName": "八千代町",
-  "asOf": "2026-09-01",
+  "prefecture": "茨城県",
+  "asOf": "2026-08-12",
   "fetchedAt": "2026-09-04",
-  "sourceName": "八千代町「保育園等空き状況」",
-  "sourceUrl": "https://www.city.yachiyo.lg.jp/soshiki/31/3266.html",
+  "sourceName": "八千代町「町内保育施設の空き状況」",
+  "sourceUrl": "https://www.town.ibaraki-yachiyo.lg.jp/page/page010222.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.yachiyo.lg.jp/soshiki/31/3266.html"
+    "vacancy": "https://www.town.ibaraki-yachiyo.lg.jp/page/page010222.html"
   },
   "metrics": [
     "symbol"
   ],
   "notes": [
-    "八千代町は空きを人数ではなく記号で公表しています。",
-    "公式の凡例は「○」4人以上空きあり、「△」1〜3人の空きあり、「×」空きなし です。",
-    "公式の表で「-」になっている年齢は「—」にしています。そのクラスを設けていないことを表します。",
-    "町は「空きがあっても申込状況等によっては、必ず入園できるわけではありません」「急きょの退園や保育士の配置状況等により、空き状況が変動する場合があります」としています。",
-    "町は企業主導型保育施設の空き状況も別に公表しています。このページには載せていません。"
+    "町は空きを人数ではなく記号で公表しています。",
+    "町は「空き状況は公表時点での目安であり、保育士の配置状況や急な退所等により変動することがあります」としています。",
+    "認定こども園の欄は保育認定（2・3号認定）のものです。教育認定（1号認定）の空き状況は各園に直接問い合わせることとされています。",
+    "受入のないクラスは「—」にしています。"
   ],
   "wards": [],
-  "categories": [
-    "公立保育園",
-    "私立保育園",
-    "認定こども園",
-    "小規模保育事業所"
-  ],
+  "categories": [],
   "symbolLegend": [
     {
-      "mark": "〇",
-      "label": "4人以上空きあり",
+      "mark": "◎",
+      "label": "5人以上の空き",
+      "open": true
+    },
+    {
+      "mark": "○",
+      "label": "3〜4人の空き",
       "open": true
     },
     {
       "mark": "△",
-      "label": "1〜3人の空きあり",
+      "label": "1〜2人の空き",
       "open": true
     },
     {
@@ -44,10 +44,10 @@
   ],
   "facilities": [
     {
-      "id": "ゆりのき台保育園",
-      "name": "ゆりのき台保育園",
+      "id": "中結城保育園",
+      "name": "中結城保育園",
       "w": null,
-      "c": 0,
+      "c": null,
       "vacancy": [
         null,
         null,
@@ -57,283 +57,19 @@
         null
       ],
       "symbols": [
-        "×",
-        "×",
-        "×",
         "△",
-        "×",
-        "×"
-      ]
-    },
-    {
-      "id": "八千代台保育園",
-      "name": "八千代台保育園",
-      "w": null,
-      "c": 0,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "×",
-        "×",
-        "×",
-        "×",
-        "×",
-        "×"
-      ]
-    },
-    {
-      "id": "米本南保育園",
-      "name": "米本南保育園",
-      "w": null,
-      "c": 0,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "×",
-        "×",
-        "×",
-        "〇",
-        "〇",
-        "〇"
-      ]
-    },
-    {
-      "id": "八千代台西保育園",
-      "name": "八千代台西保育園",
-      "w": null,
-      "c": 0,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "×",
-        "×",
-        "×",
-        "×",
         "△",
-        "△"
-      ]
-    },
-    {
-      "id": "高津南保育園",
-      "name": "高津南保育園",
-      "w": null,
-      "c": 0,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "×",
-        "×",
         "△",
-        "×",
-        "×",
-        "×"
-      ]
-    },
-    {
-      "id": "八千代台南保育園",
-      "name": "八千代台南保育園",
-      "w": null,
-      "c": 0,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        null,
-        "×",
-        "×",
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "村上北保育園",
-      "name": "村上北保育園",
-      "w": null,
-      "c": 0,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "×",
-        "×",
-        "×",
-        "×",
         "△",
-        "〇"
-      ]
-    },
-    {
-      "id": "睦北保育園",
-      "name": "睦北保育園",
-      "w": null,
-      "c": 0,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "×",
-        "×",
-        "×",
-        "△",
-        "×",
-        "△"
-      ]
-    },
-    {
-      "id": "新木戸保育園",
-      "name": "新木戸保育園",
-      "w": null,
-      "c": 1,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "×",
-        "×",
-        "×",
-        "×",
-        "×",
-        "〇"
-      ]
-    },
-    {
-      "id": "勝田保育園",
-      "name": "勝田保育園",
-      "w": null,
-      "c": 1,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "×",
-        "×",
-        "×",
-        "×",
-        "×",
-        "△"
-      ]
-    },
-    {
-      "id": "第二勝田保育園",
-      "name": "第二勝田保育園",
-      "w": null,
-      "c": 1,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "×",
-        "×",
-        "×",
-        "×",
-        "×",
-        "△"
-      ]
-    },
-    {
-      "id": "みつわなかよし保育園",
-      "name": "みつわなかよし保育園",
-      "w": null,
-      "c": 1,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "×",
-        "×",
-        "×",
-        "×",
-        "×",
-        "×"
-      ]
-    },
-    {
-      "id": "明優保育園",
-      "name": "明優保育園",
-      "w": null,
-      "c": 1,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "×",
-        "×",
-        "×",
-        "×",
         "△",
         "×"
       ]
     },
     {
-      "id": "大和田西保育園",
-      "name": "大和田西保育園",
+      "id": "ひかり保育園",
+      "name": "ひかり保育園",
       "w": null,
-      "c": 1,
+      "c": null,
       "vacancy": [
         null,
         null,
@@ -343,679 +79,19 @@
         null
       ],
       "symbols": [
-        "×",
-        "×",
-        "×",
-        "×",
-        "×",
-        "×"
-      ]
-    },
-    {
-      "id": "村上南保育園",
-      "name": "村上南保育園",
-      "w": null,
-      "c": 1,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "×",
-        "×",
-        "×",
-        "×",
+        "○",
+        "○",
         "△",
-        "×"
-      ]
-    },
-    {
-      "id": "緑が丘はぐみの杜保育園",
-      "name": "緑が丘はぐみの杜保育園",
-      "w": null,
-      "c": 1,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "×",
-        "×",
-        "×",
-        "×",
-        "×",
-        "×"
-      ]
-    },
-    {
-      "id": "虹のこころ保育園",
-      "name": "虹のこころ保育園",
-      "w": null,
-      "c": 1,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "×",
-        "×",
-        "×",
-        "×",
-        "×",
-        "×"
-      ]
-    },
-    {
-      "id": "ソレイユナーサリー高津東",
-      "name": "ソレイユナーサリー高津東",
-      "w": null,
-      "c": 1,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "×",
-        "×",
-        "×",
-        "×",
-        "×",
-        "△"
-      ]
-    },
-    {
-      "id": "ソレイユナーサリー八千代台",
-      "name": "ソレイユナーサリー八千代台",
-      "w": null,
-      "c": 1,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "×",
-        "×",
-        "×",
-        "×",
-        "〇",
-        "〇"
-      ]
-    },
-    {
-      "id": "かがやきの森保育園八千代",
-      "name": "かがやきの森保育園八千代",
-      "w": null,
-      "c": 1,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "×",
-        "×",
-        "×",
-        "×",
-        "×",
-        "×"
-      ]
-    },
-    {
-      "id": "AIAINURSERY八千代中央",
-      "name": "AIAINURSERY八千代中央",
-      "w": null,
-      "c": 1,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "×",
-        "×",
-        "×",
-        "×",
-        "×",
-        "×"
-      ]
-    },
-    {
-      "id": "AIAINURSERY八千代緑が丘",
-      "name": "AIAINURSERY八千代緑が丘",
-      "w": null,
-      "c": 1,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "×",
-        "×",
-        "×",
-        "×",
-        "×",
-        "×"
-      ]
-    },
-    {
-      "id": "AIAINURSERY大和田",
-      "name": "AIAINURSERY大和田",
-      "w": null,
-      "c": 1,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "×",
-        "×",
-        "×",
-        "×",
-        "×",
-        "×"
-      ]
-    },
-    {
-      "id": "ベビーエンゼル保育園",
-      "name": "ベビーエンゼル保育園",
-      "w": null,
-      "c": 1,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "×",
-        "×",
-        "×",
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "まこと村上保育園",
-      "name": "まこと村上保育園",
-      "w": null,
-      "c": 1,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "×",
-        "×",
-        "×",
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "ソレイユナーサリーゆりのき台",
-      "name": "ソレイユナーサリーゆりのき台",
-      "w": null,
-      "c": 1,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "×",
-        "×",
-        "×",
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "ベビーエンゼル八千代中央保育園",
-      "name": "ベビーエンゼル八千代中央保育園",
-      "w": null,
-      "c": 1,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "×",
-        "×",
-        "×",
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "エーワン緑が丘保育園",
-      "name": "エーワン緑が丘保育園",
-      "w": null,
-      "c": 1,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "×",
-        "×",
-        "×",
-        "×",
-        "×",
-        "×"
-      ]
-    },
-    {
-      "id": "緑が丘こひつじ保育園",
-      "name": "緑が丘こひつじ保育園",
-      "w": null,
-      "c": 1,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "×",
-        "×",
-        "×",
-        "×",
-        "×",
-        "×"
-      ]
-    },
-    {
-      "id": "緑が丘ひよこ保育園",
-      "name": "緑が丘ひよこ保育園",
-      "w": null,
-      "c": 1,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "×",
-        "×",
-        "×",
-        "×",
-        "×",
-        "△"
-      ]
-    },
-    {
-      "id": "ベアキッズ八千代園",
-      "name": "ベアキッズ八千代園",
-      "w": null,
-      "c": 1,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "×",
-        "×",
-        "×",
-        "×",
-        "△",
-        "×"
-      ]
-    },
-    {
-      "id": "オンジュソリール保育園八千代むらかみ園",
-      "name": "オンジュソリール保育園八千代むらかみ園",
-      "w": null,
-      "c": 1,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "×",
-        "×",
-        "×",
-        "×",
-        "×",
-        "×"
-      ]
-    },
-    {
-      "id": "若葉高津保育園",
-      "name": "若葉高津保育園",
-      "w": null,
-      "c": 2,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "×",
-        "×",
-        "×",
-        "×",
-        "×",
-        "×"
-      ]
-    },
-    {
-      "id": "八千代わかば幼稚園",
-      "name": "八千代わかば幼稚園",
-      "w": null,
-      "c": 2,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "×",
-        "×",
-        "×",
-        "×",
-        "×",
-        "×"
-      ]
-    },
-    {
-      "id": "若葉ナースリ・スクール",
-      "name": "若葉ナースリ・スクール",
-      "w": null,
-      "c": 2,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        null,
-        null,
-        null,
-        "〇",
-        "×",
-        "△"
-      ]
-    },
-    {
-      "id": "マリヤこども園",
-      "name": "マリヤこども園",
-      "w": null,
-      "c": 2,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "×",
-        "×",
-        "×",
         "△",
         "×",
         "×"
-      ]
-    },
-    {
-      "id": "エンゼルガーデン幼稚園",
-      "name": "エンゼルガーデン幼稚園",
-      "w": null,
-      "c": 2,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        null,
-        null,
-        null,
-        "×",
-        "×",
-        "×"
-      ]
-    },
-    {
-      "id": "高津幼稚園",
-      "name": "高津幼稚園",
-      "w": null,
-      "c": 2,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        null,
-        null,
-        null,
-        "×",
-        "×",
-        "×"
-      ]
-    },
-    {
-      "id": "まこと幼稚園",
-      "name": "まこと幼稚園",
-      "w": null,
-      "c": 2,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        null,
-        null,
-        null,
-        "×",
-        "×",
-        "×"
-      ]
-    },
-    {
-      "id": "さくら第二幼稚園",
-      "name": "さくら第二幼稚園",
-      "w": null,
-      "c": 2,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        null,
-        null,
-        null,
-        "×",
-        "×",
-        "×"
-      ]
-    },
-    {
-      "id": "米本幼稚園",
-      "name": "米本幼稚園",
-      "w": null,
-      "c": 2,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        null,
-        null,
-        null,
-        "×",
-        "×",
-        "×"
-      ]
-    },
-    {
-      "id": "ChaChaChildrenYachiyo",
-      "name": "ChaChaChildrenYachiyo",
-      "w": null,
-      "c": 2,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "×",
-        "×",
-        "×",
-        "×",
-        "×",
-        "×"
-      ]
-    },
-    {
-      "id": "緑が丘エンゼルホーム",
-      "name": "緑が丘エンゼルホーム",
-      "w": null,
-      "c": 3,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "×",
-        "×",
-        "×",
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "八千代エンゼルホーム",
-      "name": "八千代エンゼルホーム",
-      "w": null,
-      "c": 3,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "×",
-        "×",
-        "×",
-        null,
-        null,
-        null
       ]
     },
     {
       "id": "みどりが丘保育園",
       "name": "みどりが丘保育園",
       "w": null,
-      "c": 3,
+      "c": null,
       "vacancy": [
         null,
         null,
@@ -1025,41 +101,19 @@
         null
       ],
       "symbols": [
-        "×",
-        "×",
-        "×",
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "クレヨンキッズ八千代緑が丘園",
-      "name": "クレヨンキッズ八千代緑が丘園",
-      "w": null,
-      "c": 3,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        null,
-        "×",
+        "○",
+        "○",
+        "○",
         "△",
-        null,
-        null,
-        null
+        "×",
+        "×"
       ]
     },
     {
-      "id": "大和田駅前ちぐさ保育園",
-      "name": "大和田駅前ちぐさ保育園",
+      "id": "認定こども園さわきこども園",
+      "name": "認定こども園さわきこども園",
       "w": null,
-      "c": 3,
+      "c": null,
       "vacancy": [
         null,
         null,
@@ -1069,63 +123,19 @@
         null
       ],
       "symbols": [
-        "×",
-        "×",
-        "×",
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "ことり保育園勝田台園",
-      "name": "ことり保育園勝田台園",
-      "w": null,
-      "c": 3,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "×",
-        "×",
-        "×",
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "RuRi緑が丘保育園",
-      "name": "RuRi緑が丘保育園",
-      "w": null,
-      "c": 3,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        null,
-        "×",
         "△",
-        null,
-        null,
-        null
+        "○",
+        "○",
+        "◎",
+        "◎",
+        "◎"
       ]
     },
     {
-      "id": "RuRi緑が丘第二保育園",
-      "name": "RuRi緑が丘第二保育園",
+      "id": "認定こども園八千代ひかり幼稚園",
+      "name": "認定こども園八千代ひかり幼稚園",
       "w": null,
-      "c": 3,
+      "c": null,
       "vacancy": [
         null,
         null,
@@ -1135,173 +145,19 @@
         null
       ],
       "symbols": [
-        null,
-        "×",
-        "×",
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "プチリック緑が丘西園",
-      "name": "プチリック緑が丘西園",
-      "w": null,
-      "c": 3,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        null,
-        "×",
-        "×",
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "プチリック八千代緑が丘園",
-      "name": "プチリック八千代緑が丘園",
-      "w": null,
-      "c": 3,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        null,
-        "×",
-        "×",
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "プチリックゆりのき台園",
-      "name": "プチリックゆりのき台園",
-      "w": null,
-      "c": 3,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        null,
-        "×",
-        "×",
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "プチリックゆりのき台園第二",
-      "name": "プチリックゆりのき台園第二",
-      "w": null,
-      "c": 3,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "×",
-        "×",
-        "×",
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "プチリック八千代中央駅前園",
-      "name": "プチリック八千代中央駅前園",
-      "w": null,
-      "c": 3,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        null,
-        "×",
-        "×",
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "村上駅前保育園",
-      "name": "村上駅前保育園",
-      "w": null,
-      "c": 3,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        null,
-        "×",
-        "×",
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "RuRi八千代中央保育園",
-      "name": "RuRi八千代中央保育園",
-      "w": null,
-      "c": 3,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        null,
-        "×",
         "△",
-        null,
-        null,
-        null
+        "○",
+        "○",
+        "◎",
+        "◎",
+        "◎"
       ]
     },
     {
-      "id": "RuRi勝田台保育園",
-      "name": "RuRi勝田台保育園",
+      "id": "認定こども園八千代中央幼稚園",
+      "name": "認定こども園八千代中央幼稚園",
       "w": null,
-      "c": 3,
+      "c": null,
       "vacancy": [
         null,
         null,
@@ -1312,62 +168,18 @@
       ],
       "symbols": [
         null,
-        "×",
-        "×",
         null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "緑が丘みらい保育園",
-      "name": "緑が丘みらい保育園",
-      "w": null,
-      "c": 3,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        null,
-        "×",
+        "○",
+        "○",
         "△",
-        null,
-        null,
-        null
+        "○"
       ]
     },
     {
-      "id": "スクルドエンジェル保育園八千代台園",
-      "name": "スクルドエンジェル保育園八千代台園",
+      "id": "認定こども園たちばな幼稚園",
+      "name": "認定こども園たちばな幼稚園",
       "w": null,
-      "c": 3,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "×",
-        "×",
-        "×",
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "ハートフルキッズ八千代台保育園",
-      "name": "ハートフルキッズ八千代台保育園",
-      "w": null,
-      "c": 3,
+      "c": null,
       "vacancy": [
         null,
         null,
@@ -1378,18 +190,18 @@
       ],
       "symbols": [
         null,
-        "×",
-        "×",
         null,
         null,
-        null
+        "◎",
+        "◎",
+        "◎"
       ]
     },
     {
-      "id": "RuRi村上保育園",
-      "name": "RuRi村上保育園",
+      "id": "認定こども園八千代保育園",
+      "name": "認定こども園八千代保育園",
       "w": null,
-      "c": 3,
+      "c": null,
       "vacancy": [
         null,
         null,
@@ -1399,19 +211,19 @@
         null
       ],
       "symbols": [
-        null,
-        "×",
         "△",
-        null,
-        null,
-        null
+        "△",
+        "○",
+        "○",
+        "○",
+        "×"
       ]
     },
     {
-      "id": "プチリック村上園",
-      "name": "プチリック村上園",
+      "id": "安静こども園",
+      "name": "安静こども園",
       "w": null,
-      "c": 3,
+      "c": null,
       "vacancy": [
         null,
         null,
@@ -1421,34 +233,12 @@
         null
       ],
       "symbols": [
-        null,
-        "×",
-        "×",
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "サンライズキッズ保育園勝田台園",
-      "name": "サンライズキッズ保育園勝田台園",
-      "w": null,
-      "c": 3,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "×",
-        "×",
-        "×",
-        null,
-        null,
-        null
+        "△",
+        "△",
+        "○",
+        "△",
+        "○",
+        "○"
       ]
     }
   ]

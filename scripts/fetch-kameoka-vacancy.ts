@@ -20,6 +20,7 @@ import path from "node:path";
 
 const MUNICIPALITY_SLUG = "kameoka";
 const MUNICIPALITY_NAME = "亀岡市";
+const PREFECTURE = "京都府";
 const SOURCE_NAME = "亀岡市「保育所（園）・認定こども園・小規模保育施設の空き状況」";
 const INDEX_URL = "https://www.city.kameoka.kyoto.jp/soshiki/28/3501.html";
 const AGE_COUNT = 6;
@@ -238,6 +239,7 @@ async function main() {
     const dataset = {
       municipalitySlug: MUNICIPALITY_SLUG,
       municipalityName: MUNICIPALITY_NAME,
+      prefecture: PREFECTURE,
       asOf,
       fetchedAt: todayJst(),
       sourceName: SOURCE_NAME,

@@ -1724,11 +1724,21 @@ obu: {
     vacancy: 0,
     symbolCounts: { "×": 20, "△": 15, "○": 4 },
   },
+  // 瑞穂市は表に書かれた「令和8年8月1日の状況です」を基準日にしている
+  //（以前は掲載ページの更新日を使っていた）
   "mizuho-gifu": {
-    asOf: "2026-08-03",
+    asOf: "2026-08-01",
     facilityCount: 18,
     vacancy: 0,
     symbolCounts: { "×": 43, "▲": 23, "○": 15 },
+  },
+  // 八千代町（茨城）は認定こども園2園で0〜2歳の受入が無い。
+  // 以前は同名の八千代市（千葉）のページを取り込んでいたので入れ替えた
+  "yachiyo-ibaraki": {
+    asOf: "2026-08-12",
+    facilityCount: 9,
+    vacancy: 0,
+    symbolCounts: { "○": 18, "△": 16, "◎": 9, "×": 6 },
   },
   nagato: {
     asOf: "2026-07-27",
@@ -2375,6 +2385,29 @@ nishio: {
     emptyRatio: 0.15,
     symbolCounts: { "×": 98, "△": 43, "○": 3 },
   },
+  // 吉田町は小規模保育の4園で3歳以上が「—」になる
+  "yoshida-shizuoka": {
+    asOf: "2026-06-05",
+    facilityCount: 8,
+    vacancy: 0,
+    emptyRatio: 0.25,
+    symbolCounts: { "○": 15, "×": 15, "△": 6 },
+  },
+  // 富谷市は小規模・家庭的保育が多く、3歳以上が「—」になる施設が多い
+  tomiya: {
+    asOf: "2026-09-01",
+    facilityCount: 20,
+    vacancy: 0,
+    emptyRatio: 0.16,
+    symbolCounts: { "×": 80, "△": 17, "○": 5 },
+  },
+  // 岸和田市はスキャン画像から書き起こした受入枠。乳児室は3歳以上が「—」になる
+  kishiwada: {
+    asOf: "2026-08-05",
+    facilityCount: 42,
+    vacancy: 136,
+    emptyRatio: 0.06,
+  },
   // 盛岡市は翌月入所の選考ぶんの空き枠。地域の欄は縦書きが崩れるので使わず施設類型で分ける
   morioka: {
     asOf: "2026-09-04",
@@ -2382,14 +2415,6 @@ nishio: {
     vacancy: 0,
     emptyRatio: 0.14,
     symbolCounts: { "×": 340, "△": 157, "○": 62 },
-  },
-  // 八千代町（茨城）は小規模保育が多く、3歳以上が「—」になる施設が多い
-  "yachiyo-ibaraki": {
-    asOf: "2026-09-01",
-    facilityCount: 64,
-    vacancy: 0,
-    emptyRatio: 0.4,
-    symbolCounts: { "×": 241, "△": 21, "〇": 8 },
   },
   // 湯沢市は深堀保育園の5歳児だけ欄が無い
   yuzawa: {

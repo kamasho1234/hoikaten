@@ -28,5 +28,6 @@
     "pattern": "令和(\\d+)年(\\d{1,2})月(\\d{1,2})日現在"
   },
   "minFacilities": 5,
-  "notes": []
+  "notes": [],
+  "prefecture": "岩手県"
 }

@@ -63,6 +63,8 @@ type Config = {
   pdfs?: PdfSpec[];
   layout?: "auto-table" | "one-table" | "age-sections" | "html-tables";
   columns?: Record<string, unknown>;
+  /** 都道府県名。src/lib/data に点数の基準が無い自治体で要る */
+  prefecture?: string;
   metrics?: string[];
   symbolLegend?: SymbolLegend[];
   subtitle?: string;
@@ -383,6 +385,8 @@ async function writeDataset(
   const dataset = {
     municipalitySlug: conf.slug,
     municipalityName: conf.name,
+    // 点数の基準を持たない自治体は、これが無いと一覧で「その他」に入ってしまう
+    ...(conf.prefecture ? { prefecture: conf.prefecture } : {}),
     asOf,
     fetchedAt: todayJst(),
     sourceName: conf.sourceName,

@@ -1,0 +1,222 @@
+{
+  "municipalitySlug": "yoshida-shizuoka",
+  "municipalityName": "吉田町",
+  "prefecture": "静岡県",
+  "asOf": "2026-06-05",
+  "fetchedAt": "2026-09-04",
+  "sourceName": "吉田町「町内保育施設等の空き状況」",
+  "sourceUrl": "https://www.town.yoshida.shizuoka.jp/9369.htm",
+  "sourceFiles": {
+    "vacancy": "https://www.town.yoshida.shizuoka.jp/secure/13193/akijyoukyou.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "年度途中入所のための空き状況",
+  "notes": [
+    "町は空きを人数ではなく記号で公表しています。",
+    "町は「保育の必要性の高い方から順に決定しますので、空きがあっても入所を確約するものではありません」としています。",
+    "町は「入園内定者の辞退、在園児童の退園、新たな保育士の確保等による受入枠数の増加」「保育士の休職や在園児童の安全な保育環境の確保等の理由による受入枠数の減少」があるため、入所可能児童数とは必ずしも一致しないとしています。",
+    "設けていないクラスは「—」にしています。"
+  ],
+  "wards": [],
+  "categories": [
+    "保育所",
+    "小規模"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "3人以上余裕あり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "3人未満",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空き無し",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "さくら保育園",
+      "name": "さくら保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "×",
+        "○",
+        "△",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "すみれ保育園",
+      "name": "すみれ保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        "○",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "さゆり保育園",
+      "name": "さゆり保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "○",
+        "×",
+        "×",
+        "○",
+        "△"
+      ]
+    },
+    {
+      "id": "わかば保育園",
+      "name": "わかば保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "○",
+        "×",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "クローバー保育園",
+      "name": "クローバー保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "保育所グローアップ吉田園",
+      "name": "保育所グローアップ吉田園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "×",
+        "△",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "プティ吉田園",
+      "name": "プティ吉田園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "グリュックリッヒ保育園",
+      "name": "グリュックリッヒ保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+}
