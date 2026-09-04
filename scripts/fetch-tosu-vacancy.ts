@@ -244,7 +244,11 @@ async function main() {
     }
     // 自治体は基準日を変えずに資料を差し替えることがある。
     // 取り込み元のURLも同じときだけ、書き換えを見送る
-    if (previous?.asOf === asOf && previous?.sourceFiles?.vacancy === link.url) {
+    if (
+      previous?.asOf === asOf &&
+      previous?.sourceFiles?.vacancy === link.url &&
+      JSON.stringify(previous?.facilities ?? null) === JSON.stringify(facilities)
+    ) {
       console.log(`公式データの時点が前回と同じ（${asOf}）のため更新はありません。`);
       return;
     }

@@ -246,7 +246,11 @@ async function main() {
     }
     // 自治体は基準日を変えずに資料を差し替えることがある。
     // 取り込み元のURLも同じときだけ、書き換えを見送る
-    if (previous?.asOf === asOf && previous?.sourceFiles?.vacancy === latest.url) {
+    if (
+      previous?.asOf === asOf &&
+      previous?.sourceFiles?.vacancy === latest.url &&
+      JSON.stringify(previous?.facilities ?? null) === JSON.stringify(facilities)
+    ) {
       console.log(`PDFの公開日が前回と同じ（${asOf}）のため更新はありません。`);
       return;
     }

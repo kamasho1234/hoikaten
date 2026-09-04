@@ -316,7 +316,8 @@ async function main() {
       // 取り込み元の一式も同じときだけ、書き換えを見送る
       if (
         previous?.asOf === asOf &&
-        JSON.stringify(previous?.sourceFiles ?? {}) === JSON.stringify({ 空き状況表: latest.url })
+        JSON.stringify(previous?.sourceFiles ?? {}) === JSON.stringify({ 空き状況表: latest.url }) &&
+        JSON.stringify(previous?.facilities ?? null) === JSON.stringify(facilities)
       ) {
         console.log(`\n公表日が前回と同じ（${asOf}）なので書き換えません。`);
         return;

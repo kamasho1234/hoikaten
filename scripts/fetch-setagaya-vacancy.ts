@@ -254,7 +254,8 @@ async function main() {
     // 取り込み元の一式も同じときだけ、書き換えを見送る
     if (
       previous?.asOf === asOf &&
-      JSON.stringify(previous?.sourceFiles ?? {}) === JSON.stringify(Object.fromEntries(areas.map((a) => [a.area, a.url])))
+      JSON.stringify(previous?.sourceFiles ?? {}) === JSON.stringify(Object.fromEntries(areas.map((a) => [a.area, a.url]))) &&
+      JSON.stringify(previous?.facilities ?? null) === JSON.stringify(facilities)
     ) {
       console.log(`\nデータ時点が前回と同じ（${asOf}）なので書き換えません。`);
       return;

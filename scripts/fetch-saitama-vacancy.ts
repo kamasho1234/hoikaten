@@ -346,10 +346,12 @@ async function main() {
         fail(`施設数が前回（${before}件）の${MIN_FACILITY_RATIO * 100}%を下回りました（${rows.length}件）。`);
       }
       // 自治体は基準日を変えずに資料を差し替えることがある。
-      // 取り込み元の一式も同じときだけ、書き換えを見送る
+      // 取り込み元の一式と施設数も同じときだけ、書き換えを見送る
+      // （この時点ではまだ施設を組み立てていないので、中身ではなく件数で見る）
       if (
         previous?.asOf === asOf &&
-        JSON.stringify(previous?.sourceFiles ?? {}) === JSON.stringify(Object.fromEntries(unique.map((u) => [u.ward, u.url])))
+        JSON.stringify(previous?.sourceFiles ?? {}) === JSON.stringify(Object.fromEntries(unique.map((u) => [u.ward, u.url]))) &&
+        previous?.facilities?.length === rows.length
       ) {
         console.log(`\n基準日が前回と同じ（${asOf}）なので書き換えません。`);
         if (warnings.length) warnings.forEach((w) => console.log(`  [注意] ${w}`));

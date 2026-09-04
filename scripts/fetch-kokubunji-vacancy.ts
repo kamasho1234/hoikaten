@@ -312,7 +312,8 @@ async function main() {
     // 取り込み元の一式も同じときだけ、書き換えを見送る
     if (
       previous?.asOf === asOf &&
-      JSON.stringify(previous?.sourceFiles ?? {}) === JSON.stringify({ status: status.url, vacancy: vacancy.url })
+      JSON.stringify(previous?.sourceFiles ?? {}) === JSON.stringify({ status: status.url, vacancy: vacancy.url }) &&
+      JSON.stringify(previous?.facilities ?? null) === JSON.stringify(facilities)
     ) {
       console.log(`公式データの時点が前回と同じ（${asOf}）のため更新はありません。`);
       return;
