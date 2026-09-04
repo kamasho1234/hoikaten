@@ -1789,11 +1789,12 @@ obu: {
     facilityCount: 15,
     vacancy: 104,
   },
+  // 町は基準日を変えずにPDFを差し替えることがある（9月1日公開の版で記号が1つ変わった）
   tsubata: {
     asOf: "2026-08-31",
     facilityCount: 11,
     vacancy: 0,
-    symbolCounts: { "×": 44, "△": 12, "○": 6 },
+    symbolCounts: { "○": 7, "×": 44, "△": 11 },
   },
   nomi: {
     asOf: "2026-07-01",
@@ -1887,7 +1888,7 @@ obu: {
     symbolCounts: { "×": 26, "○": 25 },
   },
   taga: {
-    asOf: "2026-08-31",
+    asOf: "2026-09-02",
     facilityCount: 4,
     vacancy: 253,
   },
@@ -2087,9 +2088,9 @@ nishio: {
     symbolCounts: { "×": 41, "△": 22, "○": 10 },
   },
   kitakyushu: {
-    asOf: "2026-08-31",
+    asOf: "2026-09-02",
     facilityCount: 263,
-    vacancy: 223,
+    vacancy: 225,
   },
   hamamatsu: {
     asOf: "2026-08-19",

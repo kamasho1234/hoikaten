@@ -1,8 +1,8 @@
 {
   "municipalitySlug": "kitakyushu",
   "municipalityName": "北九州市",
-  "asOf": "2026-08-31",
-  "fetchedAt": "2026-09-01",
+  "asOf": "2026-09-02",
+  "fetchedAt": "2026-09-04",
   "sourceName": "北九州市「保育所等の受入可能児童数」",
   "sourceUrl": "https://www.city.kitakyushu.lg.jp/contents/12100143.html",
   "sourceFiles": {
@@ -237,7 +237,7 @@
       "w": 0,
       "c": 0,
       "vacancy": [
-        0,
+        1,
         0,
         0,
         0,
@@ -476,7 +476,7 @@
       "c": 0,
       "vacancy": [
         0,
-        0,
+        1,
         0,
         0,
         0,
