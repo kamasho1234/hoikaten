@@ -1,0 +1,513 @@
+{
+  "municipalitySlug": "uwajima",
+  "municipalityName": "宇和島市",
+  "prefecture": "愛媛県",
+  "asOf": "2026-08-01",
+  "fetchedAt": "2026-09-05",
+  "sourceName": "宇和島市「受入可能状況（2・3号）」",
+  "sourceUrl": "https://www.city.uwajima.ehime.jp/site/hoikunet/hoikunintei2.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.uwajima.ehime.jp/uploaded/attachment/69060.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "翌々月の受入可能状況（2・3号認定）",
+  "notes": [
+    "市は空きを人数ではなく記号で公表しています。当サイトでも公式の記号のまま載せています。",
+    "市は「実際は、施設の事情（退所や保育士の配置状況等）により変更の可能性があります」としています。",
+    "この表は2・3号認定（保育利用）の分です。",
+    "年齢は令和8年4月1日時点の年齢です。",
+    "認定こども園は保育所部分（保）の状況です。",
+    "市の表では施設の類型が縦書きで書かれており、機械では字の順が崩れて読めます。当サイトでは崩れた文字を正しい表記に置き換えています。"
+  ],
+  "wards": [],
+  "categories": [
+    "公立保育所",
+    "私立保育所",
+    "公立認定こども園",
+    "私立認定こども園",
+    "家庭的保育所"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "可",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "お問合せください",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "不可",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "住吉保育園",
+      "name": "住吉保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "×",
+        "×",
+        "×",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "甘崎保育園",
+      "name": "甘崎保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "○",
+        "○",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "小池保育園",
+      "name": "小池保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "△",
+        "△",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "吉田愛児園",
+      "name": "吉田愛児園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "○",
+        "×",
+        "×",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "奥南保育園",
+      "name": "奥南保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "○",
+        "○",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "たちばな保育園",
+      "name": "たちばな保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "△",
+        "○",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "玉津保育園",
+      "name": "玉津保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "○",
+        "○",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "嵐保育園",
+      "name": "嵐保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "○",
+        "×",
+        "○"
+      ]
+    },
+    {
+      "id": "済美保育園",
+      "name": "済美保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "○",
+        "○",
+        "○",
+        "×",
+        "○"
+      ]
+    },
+    {
+      "id": "立正保育園",
+      "name": "立正保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "○",
+        "○",
+        "×"
+      ]
+    },
+    {
+      "id": "尾串保育園",
+      "name": "尾串保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "丸穂保育園",
+      "name": "丸穂保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "○",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "石丸保育園",
+      "name": "石丸保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "×",
+        "○",
+        "×",
+        "×",
+        "○"
+      ]
+    },
+    {
+      "id": "みゆき保育園",
+      "name": "みゆき保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        "×",
+        "△",
+        "×",
+        "△"
+      ]
+    },
+    {
+      "id": "番城美徳認定こども園",
+      "name": "番城美徳認定こども園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "○"
+      ]
+    },
+    {
+      "id": "三間認定こども園",
+      "name": "三間認定こども園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "岩松認定こども園",
+      "name": "岩松認定こども園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "○"
+      ]
+    },
+    {
+      "id": "認定こども園いぶき幼稚園",
+      "name": "認定こども園いぶき幼稚園",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "認定こども園八幡幼稚園",
+      "name": "認定こども園八幡幼稚園",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "○",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "認定こども園元気の泉",
+      "name": "認定こども園元気の泉",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        "×",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "日振島保育所",
+      "name": "日振島保育所",
+      "w": null,
+      "c": 4,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        "△",
+        "△",
+        "△",
+        "△"
+      ]
+    }
+  ]
+}

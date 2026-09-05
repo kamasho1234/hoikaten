@@ -272,6 +272,13 @@ const EXPECTED: Record<
     facilityCount: 12,
     vacancy: 38,
   },
+  // 宇和島市は空きが記号。類型が縦書きで字の順が崩れるので categoryMap で直す
+  uwajima: {
+    asOf: "2026-08-01",
+    facilityCount: 21,
+    vacancy: 0,
+    symbolCounts: { "△": 12, "×": 64, "○": 48 },
+  },
   himeji: {
     asOf: "2026-08-14",
     facilityCount: 142,
