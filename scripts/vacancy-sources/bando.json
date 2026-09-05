@@ -1,0 +1,74 @@
+{
+  "slug": "bando",
+  "name": "坂東市",
+  "prefecture": "茨城県",
+  "sourceName": "坂東市「保育施設等の空き状況」",
+  "indexUrl": "https://www.city.bando.lg.jp/page/page001636.html",
+  "pdf": {
+    "linkPattern": "保育施設等の空き状況"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 0,
+    "ages": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "categoryFrom": "none",
+  "carryName": true,
+  "skipRowsMatching": "１号|1号|従業員枠",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○",
+    "◯": "○",
+    "✕": "×",
+    "✖": "×"
+  },
+  "noClassMarks": [
+    "―",
+    "－",
+    "ー",
+    "-",
+    "‐",
+    ""
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "空きあり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "期間限定の受入可（出産3か月程度）",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "令和(\\d+)年(\\d{1,2})月(\\d{1,2})日現在"
+  },
+  "minFacilities": 12,
+  "subtitle": "2・3号認定（保育利用）の空き状況",
+  "notes": [
+    "市は空きを人数ではなく記号で公表しています。当サイトでも公式の記号のまま載せています。",
+    "市の表は施設ごとに「2・3号」「1号」の行に分かれています。当サイトが扱う保育利用にあたる2・3号の行だけを載せています。1号認定（幼稚園利用）の空き状況は市の資料をご覧ください。",
+    "事業所内保育所「七星」は地域枠と従業員枠に分かれています。当サイトには地域のかたが申し込める地域枠だけを載せています。",
+    "受け入れのないクラスは「—」にしています。"
+  ],
+  "skipRowsContaining": [
+    "保育所名"
+  ]
+}

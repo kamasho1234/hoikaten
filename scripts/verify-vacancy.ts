@@ -279,6 +279,20 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 12, "×": 64, "○": 48 },
   },
+  // 坂東市は空きが記号。施設ごとに2・3号と1号の行に分かれるので2・3号だけ読む
+  bando: {
+    asOf: "2026-09-01",
+    facilityCount: 13,
+    vacancy: 0,
+    symbolCounts: { "×": 45, "○": 20, "△": 1 },
+  },
+  // 丹波篠山市は空きが記号。味間認定こども園は1号と2号が同じ升目に入る
+  tambasasayama: {
+    asOf: "2026-10-01",
+    facilityCount: 8,
+    vacancy: 0,
+    symbolCounts: { "×": 33, "▲": 4, "△": 1, "○": 4 },
+  },
   himeji: {
     asOf: "2026-08-14",
     facilityCount: 142,

@@ -1,0 +1,230 @@
+{
+  "municipalitySlug": "tambasasayama",
+  "municipalityName": "丹波篠山市",
+  "prefecture": "兵庫県",
+  "asOf": "2026-10-01",
+  "fetchedAt": "2026-09-05",
+  "sourceName": "丹波篠山市「受け入れ予定園児数一覧」",
+  "sourceUrl": "https://www.city.tambasasayama.lg.jp/soshikikarasagasu/hoiku/2/5168.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.tambasasayama.lg.jp/material/files/group/159/081001ukeire.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "翌月1日の受け入れ予定園児数",
+  "notes": [
+    "市は空きを人数ではなく記号で公表しています。当サイトでも公式の記号のまま載せています。",
+    "市は「受け入れ予定園児数は、毎月の施設の状況に応じ増減します。そのため、受け入れ園児数が変更となる場合があるため、希望する施設については数園申し込みをいただきますようにお願いします」としています。",
+    "市は「受け入れ予定園児数が表示されていたとしても、お待ち（保留）の方が多数あることもあり、当市の基準に準じた入所調整の結果、入所のご案内をできない場合があります」としています。",
+    "クラス年齢は令和8年4月1日の年齢が基準です。",
+    "味間認定こども園の4歳児・5歳児は、市の表では1号認定と2号認定で記号が分かれています。当サイトでは2号認定（保育利用）の記号を載せています。",
+    "公立幼稚園（10園）は1号認定のみのため載せていません。",
+    "市は「表記が『×』であったとしても、希望することは可能です」としています。"
+  ],
+  "wards": [],
+  "categories": [
+    "公立",
+    "私立"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "5名以上",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "3〜4名",
+      "open": true
+    },
+    {
+      "mark": "▲",
+      "label": "1〜2名",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "受け入れなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "たかしろ保育園",
+      "name": "たかしろ保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        null,
+        null
+      ]
+    },
+    {
+      "id": "城東保育園",
+      "name": "城東保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "▲",
+        null,
+        null
+      ]
+    },
+    {
+      "id": "にしき保育園",
+      "name": "にしき保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "▲",
+        null,
+        null
+      ]
+    },
+    {
+      "id": "味間認定こども園",
+      "name": "味間認定こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "▲",
+        "▲"
+      ]
+    },
+    {
+      "id": "たき認定こども園",
+      "name": "たき認定こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "△",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "こんだ認定こども園",
+      "name": "こんだ認定こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "ささやま認定こども園",
+      "name": "ささやま認定こども園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "富山認定こども園",
+      "name": "富山認定こども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    }
+  ]
+}

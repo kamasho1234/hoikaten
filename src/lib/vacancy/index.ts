@@ -139,6 +139,8 @@ import chinoVacancy from "./chino.json";
 import annakaVacancy from "./annaka.json";
 import hannanVacancy from "./hannan.json";
 import shinshiroVacancy from "./shinshiro.json";
+import bandoVacancy from "./bando.json";
+import tambasasayamaVacancy from "./tambasasayama.json";
 import himejiVacancy from "./himeji.json";
 import uwajimaVacancy from "./uwajima.json";
 import saitamaInaVacancy from "./saitama-ina.json";
@@ -679,6 +681,8 @@ const registry: Record<string, VacancyDataset> = {
   annaka: annakaVacancy as unknown as VacancyDataset,
   hannan: hannanVacancy as unknown as VacancyDataset,
   shinshiro: shinshiroVacancy as unknown as VacancyDataset,
+  bando: bandoVacancy as unknown as VacancyDataset,
+  tambasasayama: tambasasayamaVacancy as unknown as VacancyDataset,
   himeji: himejiVacancy as unknown as VacancyDataset,
   uwajima: uwajimaVacancy as unknown as VacancyDataset,
   "saitama-ina": saitamaInaVacancy as unknown as VacancyDataset,

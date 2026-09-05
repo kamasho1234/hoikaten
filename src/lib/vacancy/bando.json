@@ -1,0 +1,329 @@
+{
+  "municipalitySlug": "bando",
+  "municipalityName": "坂東市",
+  "prefecture": "茨城県",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-05",
+  "sourceName": "坂東市「保育施設等の空き状況」",
+  "sourceUrl": "https://www.city.bando.lg.jp/page/page001636.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.bando.lg.jp/data/doc/1788225187_doc_23_0.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "2・3号認定（保育利用）の空き状況",
+  "notes": [
+    "市は空きを人数ではなく記号で公表しています。当サイトでも公式の記号のまま載せています。",
+    "市の表は施設ごとに「2・3号」「1号」の行に分かれています。当サイトが扱う保育利用にあたる2・3号の行だけを載せています。1号認定（幼稚園利用）の空き状況は市の資料をご覧ください。",
+    "事業所内保育所「七星」は地域枠と従業員枠に分かれています。当サイトには地域のかたが申し込める地域枠だけを載せています。",
+    "受け入れのないクラスは「—」にしています。"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "空きあり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "期間限定の受入可（出産3か月程度）",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "あかつき保育園",
+      "name": "あかつき保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "○",
+        "×",
+        "×",
+        "○"
+      ]
+    },
+    {
+      "id": "認定こども園岩井保育園",
+      "name": "認定こども園岩井保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "○",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "認定こども園小山保育園",
+      "name": "認定こども園小山保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "さしま保育園",
+      "name": "さしま保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "○",
+        "○",
+        "×",
+        "○"
+      ]
+    },
+    {
+      "id": "認定こども園サンキッズ",
+      "name": "認定こども園サンキッズ",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "○",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "認定こども園すずのき",
+      "name": "認定こども園すずのき",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "○",
+        "○",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "若草明徳保育園",
+      "name": "若草明徳保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        "○",
+        "×",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "認定こども園ふたば",
+      "name": "認定こども園ふたば",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "認定こども園ひまわり",
+      "name": "認定こども園ひまわり",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "△",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "夢遊児園",
+      "name": "夢遊児園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "七星",
+      "name": "七星",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "家庭的保育園バンビ",
+      "name": "家庭的保育園バンビ",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        "○",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "小山保育園ひよこ教室",
+      "name": "小山保育園ひよこ教室",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+}
