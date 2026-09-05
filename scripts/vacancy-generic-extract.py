@@ -206,6 +206,21 @@ def rows_from_grid(grid, conf, category=None):
             if metric is None:
                 continue
             name = last_name
+        # 1施設が2行に分かれ、名前が上の行にしか入らない表がある
+        # （安中市の認定こども園は「幼稚園部」「保育園部」の2行で、名前は1行目だけ）。
+        # 落とす行にも名前が入っているので、落とす判定より先に覚えておく
+        if conf.get("carryName") and not row_label:
+            if name:
+                last_name = name
+            elif last_name:
+                name = last_name
+            # 施設類型も落とす行（安中市の「幼稚園部」）に入っているので、ここで拾う
+            if cat_col is not None and len(r) > cat_col and r[cat_col]:
+                text = r[cat_col]
+                for pat in conf.get("categoryTrim", []):
+                    text = re.sub(pat, "", text)
+                text = (conf.get("categoryMap") or {}).get(text.strip(), text)
+                category = text.strip() or category
         if not name or age_of_header(name) is not None:
             continue
         if any(x and x in name for x in skip):

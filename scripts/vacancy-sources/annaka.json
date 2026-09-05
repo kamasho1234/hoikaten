@@ -1,0 +1,73 @@
+{
+  "slug": "annaka",
+  "name": "安中市",
+  "prefecture": "群馬県",
+  "sourceName": "安中市「保育園・認定こども園 空き状況」",
+  "indexUrl": "https://www.city.annaka.lg.jp/page/21594.html",
+  "pdf": {
+    "linkPattern": "空き状況"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 1,
+    "category": 0,
+    "ages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "categoryFrom": "row",
+  "carryName": true,
+  "skipRowsMatching": "幼稚園部",
+  "metrics": [
+    "symbol"
+  ],
+  "symbolMap": {
+    "〇": "○",
+    "◯": "○",
+    "✕": "×"
+  },
+  "noClassMarks": [
+    "ー",
+    "―",
+    "－",
+    "-",
+    "‐",
+    ""
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "4人以上入所可能",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1〜3人であれば入所可能",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "令和(\\d+)年(\\d{1,2})月(\\d{1,2})日現在"
+  },
+  "minFacilities": 15,
+  "subtitle": "翌月入園の可否",
+  "notes": [
+    "市は空きを人数ではなく記号で公表しています。当サイトでも公式の記号のまま載せています。",
+    "市は「入所可能人数は各園にお問い合わせください」としています。",
+    "認定こども園は市の表で「幼稚園部」と「保育園部」に分かれています。当サイトが扱う保育利用（2・3号認定）にあたる保育園部だけを載せています。",
+    "地域型保育（うずまき保育園・ひまわり保育園・たんぽぽ保育園）は0〜2歳のみです。",
+    "崇徳寺保育園は令和8年度末で閉園予定です。",
+    "受け入れのないクラスは「—」にしています。"
+  ]
+}

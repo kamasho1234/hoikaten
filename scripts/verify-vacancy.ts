@@ -244,6 +244,14 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "×": 36, "△": 21, "○": 2 },
   },
+  // 安中市は空きが記号。認定こども園は「幼稚園部」「保育園部」の2行に分かれるので、
+  // 保育利用にあたる保育園部だけを読む
+  annaka: {
+    asOf: "2026-09-01",
+    facilityCount: 20,
+    vacancy: 0,
+    symbolCounts: { "×": 26, "△": 48, "○": 37 },
+  },
   himeji: {
     asOf: "2026-08-14",
     facilityCount: 142,
@@ -2315,7 +2323,7 @@ nishio: {
     asOf: "2026-09-01",
     facilityCount: 14,
     vacancy: 0,
-    symbolCounts: { "×": 64, "△": 15, "〇": 2 },
+    symbolCounts: { "×": 65, "△": 14, "〇": 2 },
   },
   gamagori: {
     asOf: "2026-08-06",

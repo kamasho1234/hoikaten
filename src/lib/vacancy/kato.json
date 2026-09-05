@@ -3,7 +3,7 @@
   "municipalityName": "加東市",
   "prefecture": "兵庫県",
   "asOf": "2026-09-01",
-  "fetchedAt": "2026-09-01",
+  "fetchedAt": "2026-09-05",
   "sourceName": "加東市「認定こども園・保育所 空き状況一覧表（保育利用）」",
   "sourceUrl": "https://www.city.kato.lg.jp/life_info/nyuen/14357.html",
   "sourceFiles": {
@@ -162,7 +162,7 @@
       "symbols": [
         "×",
         "×",
-        "△",
+        "×",
         "×",
         "×",
         "△"

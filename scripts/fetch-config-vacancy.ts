@@ -43,6 +43,11 @@ type PdfSpec = {
   pick?: "first" | "last" | "latest";
   /** このPDFから読んだ施設に付ける類型（「公立保育園」など） */
   category?: string;
+  /**
+   * 資料を出す期間が決まっている自治体（北九州市は利用調整の前の1週間だけ公開する）で、
+   * 資料が無いときに中断せず、前に取り込んだデータをそのまま残すか
+   */
+  optional?: boolean;
 };
 
 type Config = {
@@ -233,7 +238,16 @@ async function run(slug: string): Promise<void> {
         hits.push({ url: new URL(m[1], indexUrl).toString(), label });
       }
     }
-    if (hits.length === 0) fail(`「${spec.linkPattern}」に当たるPDFのリンクが見つかりません`);
+    if (hits.length === 0) {
+      if (spec.optional) {
+        console.log(
+          `「${spec.linkPattern}」に当たるPDFのリンクがありません。` +
+            `この自治体は資料を出す期間が決まっているため、前に取り込んだデータをそのまま残します。`
+        );
+        process.exit(0);
+      }
+      fail(`「${spec.linkPattern}」に当たるPDFのリンクが見つかりません`);
+    }
     if (spec.pick === "latest") {
       // 「令和8年度10月入園」のような文言から年度と月を取り、いちばん新しいものを選ぶ。
       // 月は年度の並び（4月〜翌3月）で数える
