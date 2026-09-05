@@ -320,6 +320,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "○": 7, "×": 4 },
   },
+  // 美祢市は空きが記号。市の子育て応援サイト（別ドメイン）で公開している
+  mine: {
+    asOf: "2026-07-06",
+    facilityCount: 10,
+    vacancy: 0,
+    symbolCounts: { "△": 7, "○": 49, "×": 3 },
+  },
   himeji: {
     asOf: "2026-08-14",
     facilityCount: 142,

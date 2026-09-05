@@ -1,0 +1,269 @@
+{
+  "municipalitySlug": "mine",
+  "municipalityName": "美祢市",
+  "prefecture": "山口県",
+  "asOf": "2026-07-06",
+  "fetchedAt": "2026-09-05",
+  "sourceName": "美祢市「保育園・認定こども園 空き状況」（つぼみねっと）",
+  "sourceUrl": "https://www.mine-tsubomi.net/childcare_facility/",
+  "sourceFiles": {
+    "vacancy": "https://www.mine-tsubomi.net/childcare_facility/"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "市の子育て応援サイト「つぼみねっと」の空き状況",
+  "notes": [
+    "市は空きを人数ではなく記号で公表しています。当サイトでも公式の記号のまま載せています。",
+    "市は「空き状況は、随時変動するもので希望者全員の入所を保証するものではありません。入所の参考にお使いください」としています。",
+    "「歳児」は2026年4月1日現在の年齢です。",
+    "市はこの表を子育て応援サイト「つぼみねっと」で公開しています。",
+    "受け入れのないクラスは「—」にしています。"
+  ],
+  "wards": [],
+  "categories": [
+    "公立保育園",
+    "私立保育園",
+    "へき地保育園",
+    "幼稚園(認定こども園)"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "空きあり",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "要お問合せ",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "厚保保育園",
+      "name": "厚保保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "○",
+        "○",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "大田保育園",
+      "name": "大田保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "×",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "真長田保育園",
+      "name": "真長田保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "○",
+        "○",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "秋吉保育園",
+      "name": "秋吉保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        "○",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "秋芳桂花保育園",
+      "name": "秋芳桂花保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "○",
+        "○",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "吉則保育園",
+      "name": "吉則保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        "○",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "麦川保育園",
+      "name": "麦川保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        "○",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "豊田前保育園",
+      "name": "豊田前保育園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        "×",
+        "○",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "美祢幼稚園",
+      "name": "美祢幼稚園",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "△",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "伊佐中央幼稚園",
+      "name": "伊佐中央幼稚園",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        "○",
+        "○",
+        "○",
+        "○"
+      ]
+    }
+  ]
+}

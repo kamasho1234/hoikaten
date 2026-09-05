@@ -1,0 +1,38 @@
+{
+  "slug": "mine",
+  "name": "美祢市",
+  "prefecture": "山口県",
+  "sourceName": "美祢市「保育園・認定こども園 空き状況」（つぼみねっと）",
+  "indexUrl": "https://www.mine-tsubomi.net/childcare_facility/",
+  "layout": "html-tables",
+  "columns": {
+    "name": 0
+  },
+  "categoryFrom": "heading",
+  "metrics": ["symbol"],
+  "symbolMap": {
+    "〇": "○",
+    "◯": "○",
+    "✕": "×"
+  },
+  "noClassMarks": ["-", "―", "－", "ー", "‐", ""],
+  "nameTrim": ["[0-9０-９\\-－ー\\s]+$"],
+  "symbolLegend": [
+    { "mark": "○", "label": "空きあり", "open": true },
+    { "mark": "△", "label": "要お問合せ", "open": true },
+    { "mark": "×", "label": "空きなし", "open": false }
+  ],
+  "asOf": {
+    "source": "page",
+    "pattern": "最終更新日：(\\d{4})年(\\d{2})月(\\d{2})日"
+  },
+  "minFacilities": 8,
+  "subtitle": "市の子育て応援サイト「つぼみねっと」の空き状況",
+  "notes": [
+    "市は空きを人数ではなく記号で公表しています。当サイトでも公式の記号のまま載せています。",
+    "市は「空き状況は、随時変動するもので希望者全員の入所を保証するものではありません。入所の参考にお使いください」としています。",
+    "「歳児」は2026年4月1日現在の年齢です。",
+    "市はこの表を子育て応援サイト「つぼみねっと」で公開しています。",
+    "受け入れのないクラスは「—」にしています。"
+  ]
+}
