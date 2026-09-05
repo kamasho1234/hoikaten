@@ -1,0 +1,377 @@
+{
+  "municipalitySlug": "iwanuma",
+  "municipalityName": "岩沼市",
+  "prefecture": "宮城県",
+  "asOf": "2026-08-25",
+  "fetchedAt": "2026-09-05",
+  "sourceName": "岩沼市「保育所等の空枠情報」",
+  "sourceUrl": "https://www.city.iwanuma.miyagi.jp/kyoiku-sports/hoiku/hoikusyo-akiwaku.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.iwanuma.miyagi.jp/kyoiku-sports/hoiku/documents/R8.8.25.R8.10.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "利用調整後の空枠情報（翌々月入所分）",
+  "notes": [
+    "市は空きを人数ではなく記号で公表しています。当サイトでも公式の記号のまま載せています。",
+    "市は毎月の利用調整後、25日前後に更新しています。",
+    "クラス年齢は令和8年4月1日時点の満年齢です。",
+    "空枠数には認定こども園の幼稚園部分（1号認定）は含まれていません。幼稚園への入園希望の場合は直接施設にお問い合わせください。",
+    "市は「入所希望者が受入可能な児童数を超えた場合など、利用調整の結果、ご希望に添えない場合もあります」としています。",
+    "市は「保育サービスの必要量の安定的な確保のため、公立保育所よりも私立保育園・認定こども園・小規模保育事業所への利用調整が優先される場合があります」としています。",
+    "市は「利用調整及び空枠等についてのお問い合わせは、子ども福祉課（保育支援係）までお願いいたします。各施設ではお答えできません」としています。",
+    "小規模保育事業は0〜2歳のみです。3〜5歳のクラスは「—」にしています。"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "空き4名以上",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "空き1〜3名程度",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "岩沼保育園",
+      "name": "岩沼保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "竹駒保育園",
+      "name": "竹駒保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "岩沼北保育園",
+      "name": "岩沼北保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "○",
+        "△",
+        "○",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "ほのぼの保育園",
+      "name": "ほのぼの保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        "△",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "ひよこ園",
+      "name": "ひよこ園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "J's保育園岩沼",
+      "name": "J's保育園岩沼",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "チアフルこども園",
+      "name": "チアフルこども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "岩沼はるかぜこども園",
+      "name": "岩沼はるかぜこども園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "△",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "岩沼西こばと幼稚園・ぶどうの木保育園",
+      "name": "岩沼西こばと幼稚園・ぶどうの木保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "幼保連携型認定こども園岩沼こばと幼稚園",
+      "name": "幼保連携型認定こども園岩沼こばと幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "△",
+        "×",
+        "×",
+        "×",
+        "△"
+      ]
+    },
+    {
+      "id": "豆の木保育園",
+      "name": "豆の木保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "△",
+        "△",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "ひなたぼっこ子どもの園",
+      "name": "ひなたぼっこ子どもの園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "東保育所",
+      "name": "東保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "相の原保育所",
+      "name": "相の原保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "西保育所",
+      "name": "西保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    }
+  ]
+}

@@ -306,6 +306,13 @@ const EXPECTED: Record<
     facilityCount: 29,
     vacancy: 609,
   },
+  // 岩沼市は空きが記号。利用調整後の空枠を毎月25日ごろ出す
+  iwanuma: {
+    asOf: "2026-08-25",
+    facilityCount: 15,
+    vacancy: 0,
+    symbolCounts: { "×": 71, "○": 2, "△": 11 },
+  },
   himeji: {
     asOf: "2026-08-14",
     facilityCount: 142,
