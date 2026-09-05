@@ -1,0 +1,317 @@
+{
+  "municipalitySlug": "shimotsuma",
+  "municipalityName": "下妻市",
+  "prefecture": "茨城県",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-05",
+  "sourceName": "下妻市「市内保育施設の空き状況」",
+  "sourceUrl": "https://www.city.shimotsuma.lg.jp/kosodate-kyoiku/news/page009348.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.shimotsuma.lg.jp/kosodate-kyoiku/news/page009348.html"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "翌月入所申込みぶんの空き状況",
+  "notes": [
+    "市は空きを人数ではなく記号で公表しています。当サイトでも公式の記号のまま載せています。",
+    "市は「現在、保育所への入所申込みが大変多い状況であり、また、保育士が不足しているため、空きがあっても入所を保障するものではありません」としています。",
+    "市は「保育士の配置状況や急な退所等により、空き状況が変動することがあります」としています。",
+    "認定こども園の空き状況は保育認定（保育所部分）の状況です。教育認定（幼稚園部分）の空き状況は各園にお問い合わせください。",
+    "市の表で「ー（設定なし）」となっているクラスは「—」にしています。",
+    "市の表では、複数のクラスをまとめて1つの記号で示している施設があります（小友家庭保育ルームなど）。当サイトではその記号を該当するクラスすべてに置いています。"
+  ],
+  "wards": [],
+  "categories": [
+    "保育園・地域型保育",
+    "認定こども園（保育認定）"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "◎",
+      "label": "5人以上の空き",
+      "open": true
+    },
+    {
+      "mark": "○",
+      "label": "3〜4人の空き",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "1〜2人の空き",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "きぬ保育園",
+      "name": "きぬ保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "△",
+        "×",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "法泉寺保育園",
+      "name": "法泉寺保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "西原保育園",
+      "name": "西原保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "×",
+        "△",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "もみの木保育園",
+      "name": "もみの木保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "下妻保育園",
+      "name": "下妻保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "△",
+        "×",
+        "△",
+        "△",
+        "×"
+      ]
+    },
+    {
+      "id": "もみの木フレンズ",
+      "name": "もみの木フレンズ",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        "×",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "小友家庭保育ルーム",
+      "name": "小友家庭保育ルーム",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "△",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "認定こども園大宝保育園",
+      "name": "認定こども園大宝保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "×",
+        "×",
+        "△",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "認定こども園大和保育園",
+      "name": "認定こども園大和保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "△",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "認定こども園下妻いずみ幼稚園",
+      "name": "認定こども園下妻いずみ幼稚園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        "△",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "認定こども園ふたば文化",
+      "name": "認定こども園ふたば文化",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "認定こども園しょうとも幼稚園",
+      "name": "認定こども園しょうとも幼稚園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        null,
+        null,
+        null,
+        "△",
+        "×",
+        "×"
+      ]
+    }
+  ]
+}

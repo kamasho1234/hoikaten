@@ -230,6 +230,20 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "×": 50, "△": 11, "○": 5 },
   },
+  // 茅野市は空きが記号。同じ記号を横に結合した行があるので、結合を展開して読む
+  chino: {
+    asOf: "2026-09-01",
+    facilityCount: 20,
+    vacancy: 0,
+    symbolCounts: { "×": 68, "○": 46 },
+  },
+  // 下妻市は空きが記号。保育園と認定こども園の2つの表を見出しで区別する
+  shimotsuma: {
+    asOf: "2026-09-01",
+    facilityCount: 12,
+    vacancy: 0,
+    symbolCounts: { "×": 36, "△": 21, "○": 2 },
+  },
   himeji: {
     asOf: "2026-08-14",
     facilityCount: 142,
