@@ -293,6 +293,19 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "×": 33, "▲": 4, "△": 1, "○": 4 },
   },
+  // あま市は翌年度4月入園ぶんの受入可能見込み（記号）
+  ama: {
+    asOf: "2026-09-01",
+    facilityCount: 14,
+    vacancy: 0,
+    symbolCounts: { "△": 28, "○": 13, "×": 31, "◎": 12 },
+  },
+  // 近江八幡市は翌年度4月入所の一斉募集ぶんの募集人数
+  omihachiman: {
+    asOf: "2026-09-01",
+    facilityCount: 29,
+    vacancy: 609,
+  },
   himeji: {
     asOf: "2026-08-14",
     facilityCount: 142,

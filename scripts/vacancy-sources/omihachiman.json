@@ -1,0 +1,28 @@
+{
+  "slug": "omihachiman",
+  "name": "近江八幡市",
+  "prefecture": "滋賀県",
+  "sourceName": "近江八幡市「保育施設募集人数表」",
+  "indexUrl": "https://www.city.omihachiman.lg.jp/kosodate/mishugaku/23342.html",
+  "pdf": {
+    "linkPattern": "募集人数表"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 0
+  },
+  "categoryFrom": "row",
+  "metrics": ["vacancy"],
+  "skipRowsContaining": ["合計", "総合計", "計"],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "令和(\\d+)年(\\d{1,2})月(\\d{1,2})日現在"
+  },
+  "minFacilities": 25,
+  "subtitle": "翌年度4月入所の一斉募集ぶんの募集人数",
+  "notes": [
+    "この表は翌年度4月入所の一斉募集ぶんの募集人数です。年度途中の空き状況ではありません。",
+    "人数は翌年度4月の年齢における募集人数です。",
+    "小規模保育・家庭的保育は0〜2歳のみです。3〜5歳のクラスは「—」にしています。"
+  ]
+}

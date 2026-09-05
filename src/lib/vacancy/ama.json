@@ -1,0 +1,360 @@
+{
+  "municipalitySlug": "ama",
+  "municipalityName": "あま市",
+  "prefecture": "愛知県",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-05",
+  "sourceName": "あま市「保育所受入可能見込み」",
+  "sourceUrl": "https://www.city.ama.aichi.jp/kurashi/1002024/hoikuenn/1011729.html",
+  "sourceFiles": {
+    "vacancy": "https://www.city.ama.aichi.jp/_res/projects/default_project/_page_/001/011/729/ukeire.pdf"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "翌年度4月入園ぶんの受入可能見込み",
+  "notes": [
+    "この表は翌年度4月入園ぶんの受入可能見込みです。年度途中の空き状況ではありません。",
+    "市は空きを人数ではなく記号で公表しています。当サイトでも公式の記号のまま載せています。",
+    "市は「この表は、令和8年9月1日現在の入所状況から作成しています。今後、退園、転園等により状況が変わる場合があります」としています。",
+    "市は「記号は、空き人数を示すもので、『入所しやすいかどうか』や『申し込みできるかどうか』を示すものではありません。申し込みの状況によっては、◎でも入所できない場合があります。また、×でも入所の申し込みはできます」としています。"
+  ],
+  "wards": [],
+  "categories": [
+    "私・社会福祉法人",
+    "私・学校法人",
+    "公・あま市"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "◎",
+      "label": "15人以上",
+      "open": true
+    },
+    {
+      "mark": "○",
+      "label": "8〜14人",
+      "open": true
+    },
+    {
+      "mark": "△",
+      "label": "3〜7人",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "0〜2人",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "七宝こども園",
+      "name": "七宝こども園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "○",
+        "○",
+        "△",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "ひかりこどもえん",
+      "name": "ひかりこどもえん",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "◎",
+        "◎",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "美和こども園",
+      "name": "美和こども園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "◎",
+        "◎",
+        "○",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "七宝幼稚園",
+      "name": "七宝幼稚園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "◎",
+        "◎",
+        "○",
+        "◎",
+        "△",
+        "△"
+      ]
+    },
+    {
+      "id": "明和幼稚園",
+      "name": "明和幼稚園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "△",
+        "△",
+        "○",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "七宝北部保育園",
+      "name": "七宝北部保育園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "○",
+        "×",
+        "×",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "正則保育園",
+      "name": "正則保育園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "◎",
+        "×",
+        "△",
+        "△",
+        "×"
+      ]
+    },
+    {
+      "id": "篠田保育園",
+      "name": "篠田保育園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "◎",
+        "△",
+        "△",
+        "△",
+        "×"
+      ]
+    },
+    {
+      "id": "昭和保育園",
+      "name": "昭和保育園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "○",
+        "○",
+        "○",
+        "×",
+        "△"
+      ]
+    },
+    {
+      "id": "聖徳保育園",
+      "name": "聖徳保育園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "◎",
+        "×",
+        "○",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "萱津保育園",
+      "name": "萱津保育園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "○",
+        "△",
+        "△",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "新居屋保育園",
+      "name": "新居屋保育園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "◎",
+        "△",
+        "×",
+        "△",
+        "×"
+      ]
+    },
+    {
+      "id": "五条保育園",
+      "name": "五条保育園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "○",
+        "△",
+        "△",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "id": "大花保育園",
+      "name": "大花保育園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "△",
+        "◎",
+        "×",
+        "△",
+        "×",
+        "×"
+      ]
+    }
+  ]
+}
