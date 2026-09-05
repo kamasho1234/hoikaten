@@ -1,0 +1,84 @@
+{
+  "municipalitySlug": "hara-nagano",
+  "municipalityName": "原村",
+  "prefecture": "長野県",
+  "asOf": "2026-07-01",
+  "fetchedAt": "2026-09-05",
+  "sourceName": "原村「村内保育所の空き状況」",
+  "sourceUrl": "https://www.vill.hara.lg.jp/docs/132363.html",
+  "sourceFiles": {
+    "vacancy": "https://www.vill.hara.lg.jp/docs/132363.html"
+  },
+  "metrics": [
+    "symbol"
+  ],
+  "subtitle": "村内保育所の空き状況",
+  "notes": [
+    "村は空きを人数ではなく記号で公表しています。当サイトでも公式の記号のまま載せています。",
+    "村は「○は『空きあり』ただし、申込多数の場合は希望に添えないことがあります」としています。",
+    "クラスは令和8年4月1日時点の年齢です。",
+    "村は「途中入所は、保育所等の定員の範囲内で、空きがある場合に限ります」としています。年度途中の入所を希望する場合は、入所希望月の前月20日までに申込書類の提出が必要です。",
+    "村の表は施設を横に、年齢を縦に並べています。当サイトでは縦横を入れ替えて載せています。",
+    "受け入れのないクラスは「—」にしています。"
+  ],
+  "wards": [],
+  "categories": [],
+  "symbolLegend": [
+    {
+      "mark": "○",
+      "label": "空きあり",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "原村保育園",
+      "name": "原村保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "○",
+        "○",
+        "○",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "八ヶ岳風の子保育園",
+      "name": "八ヶ岳風の子保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "○",
+        "×",
+        "×",
+        "×",
+        "×",
+        null
+      ]
+    }
+  ]
+}

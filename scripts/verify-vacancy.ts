@@ -313,6 +313,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "×": 71, "○": 2, "△": 11 },
   },
+  // 原村は施設を横、年齢を縦に並べた表なので縦横を入れ替えて読む
+  "hara-nagano": {
+    asOf: "2026-07-01",
+    facilityCount: 2,
+    vacancy: 0,
+    symbolCounts: { "○": 7, "×": 4 },
+  },
   himeji: {
     asOf: "2026-08-14",
     facilityCount: 142,
