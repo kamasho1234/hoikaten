@@ -1,0 +1,28 @@
+{
+  "slug": "saitama-ina",
+  "name": "伊奈町",
+  "prefecture": "埼玉県",
+  "sourceName": "伊奈町「保育施設 入所可能予定数」",
+  "indexUrl": "https://www.town.saitama-ina.lg.jp/0000008172.html",
+  "pdf": {
+    "linkPattern": "R8\\.\\d+\\.pdf|R\\d+年\\d+月"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 1
+  },
+  "categoryFrom": "none",
+  "metrics": ["vacancy"],
+  "skipRowsContaining": ["クラス", "生年月日"],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "令和(\\d+)年(\\d{1,2})月(\\d{1,2})日現在"
+  },
+  "minFacilities": 10,
+  "subtitle": "翌月入所ぶんの入所可能予定数",
+  "notes": [
+    "町は「令和8年9月1日現在での入所可能数を予測したものです。今後の入所・退所・転園や保育士の採用及び配置状況等により、変更となる場合があります」としています。",
+    "クラス年齢は令和8年4月1日時点の年齢で決まります。",
+    "小規模保育施設は0〜2歳のみです。3〜5歳のクラスは「—」にしています。"
+  ]
+}

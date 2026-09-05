@@ -1,0 +1,38 @@
+{
+  "slug": "shinshiro",
+  "name": "新城市",
+  "prefecture": "愛知県",
+  "sourceName": "新城市「市内こども園途中入園 空き状況」",
+  "indexUrl": "https://www.city.shinshiro.lg.jp/kosodate/kodomoen/kodomoenakizyoukyou.html",
+  "pdf": {
+    "linkPattern": "こども園空き状況"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 0
+  },
+  "categoryFrom": "none",
+  "metrics": ["symbol"],
+  "symbolMap": {
+    "〇": "○",
+    "◯": "○",
+    "✕": "×"
+  },
+  "noClassMarks": ["―", "－", "ー", "-", "‐", ""],
+  "symbolLegend": [
+    { "mark": "○", "label": "3人以上", "open": true },
+    { "mark": "△", "label": "1〜2人", "open": true },
+    { "mark": "×", "label": "0人", "open": false }
+  ],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "令和(\\d+)年(\\d{1,2})月(\\d{1,2})日現在"
+  },
+  "minFacilities": 12,
+  "subtitle": "年度途中入園の空き状況",
+  "notes": [
+    "市は空きを人数ではなく記号で公表しています。当サイトでも公式の記号のまま載せています。",
+    "クラスは令和8年4月1日現在の年齢で決まります。",
+    "市の表で「―」となっているクラスは「—」にしています。そのクラスを設けていないことを表します。"
+  ]
+}

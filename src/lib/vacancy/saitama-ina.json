@@ -1,0 +1,193 @@
+{
+  "municipalitySlug": "saitama-ina",
+  "municipalityName": "伊奈町",
+  "prefecture": "埼玉県",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-05",
+  "sourceName": "伊奈町「保育施設 入所可能予定数」",
+  "sourceUrl": "https://www.town.saitama-ina.lg.jp/0000008172.html",
+  "sourceFiles": {
+    "vacancy": "https://www.town.saitama-ina.lg.jp/cmsfiles/contents/0000008/8172/R8.10.pdf"
+  },
+  "metrics": [
+    "vacancy"
+  ],
+  "subtitle": "翌月入所ぶんの入所可能予定数",
+  "notes": [
+    "町は「令和8年9月1日現在での入所可能数を予測したものです。今後の入所・退所・転園や保育士の採用及び配置状況等により、変更となる場合があります」としています。",
+    "クラス年齢は令和8年4月1日時点の年齢で決まります。",
+    "小規模保育施設は0〜2歳のみです。3〜5歳のクラスは「—」にしています。"
+  ],
+  "wards": [],
+  "categories": [],
+  "facilities": [
+    {
+      "id": "伊奈町立北保育所",
+      "name": "伊奈町立北保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        3,
+        0,
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "id": "伊奈町立南保育所",
+      "name": "伊奈町立南保育所",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        2,
+        6,
+        3
+      ]
+    },
+    {
+      "id": "カオルキッズランド伊奈園",
+      "name": "カオルキッズランド伊奈園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        1,
+        3,
+        3
+      ]
+    },
+    {
+      "id": "みちのこ保育園",
+      "name": "みちのこ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "ピノ保育園",
+      "name": "ピノ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "id": "伊奈ゆたか保育園",
+      "name": "伊奈ゆたか保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "きむら伊奈保育園",
+      "name": "きむら伊奈保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "id": "つくしんぼ保育園",
+      "name": "つくしんぼ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "id": "おれんじ保育園",
+      "name": "おれんじ保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        1,
+        1,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "おれんじ北保育園",
+      "name": "おれんじ北保育園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        1,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "ドレミナーサリー",
+      "name": "ドレミナーサリー",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "しろがね小室幼稚園",
+      "name": "しろがね小室幼稚園",
+      "w": null,
+      "c": null,
+      "vacancy": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}

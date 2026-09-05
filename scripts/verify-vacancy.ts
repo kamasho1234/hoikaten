@@ -252,6 +252,26 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "×": 26, "△": 48, "○": 37 },
   },
+  // 阪南市は空きが記号。ページの表に見出しが2行あるので飛ばす
+  hannan: {
+    asOf: "2026-09-01",
+    facilityCount: 7,
+    vacancy: 0,
+    symbolCounts: { "×": 36, "○": 4, "△": 2 },
+  },
+  // 新城市は空きが記号。年度途中入園ぶんのPDF
+  shinshiro: {
+    asOf: "2026-08-13",
+    facilityCount: 14,
+    vacancy: 0,
+    symbolCounts: { "×": 17, "△": 25, "○": 36 },
+  },
+  // 伊奈町は入所可能予定数（人数）。認可保育所・小規模・認定こども園の3つの表
+  "saitama-ina": {
+    asOf: "2026-09-01",
+    facilityCount: 12,
+    vacancy: 38,
+  },
   himeji: {
     asOf: "2026-08-14",
     facilityCount: 142,
