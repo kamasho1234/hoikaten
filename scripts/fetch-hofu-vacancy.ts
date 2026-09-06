@@ -125,7 +125,16 @@ async function main() {
     })
     .filter((l) => l.key > 0)
     .sort((a, b) => b.key - a.key);
-  if (links.length === 0) fail("入所受入可能状況のPDFが見つかりません");
+  if (links.length === 0) {
+    // 市は月ごとに掲載し、次の月ぶんが載るまでの間はPDFを1本も置かない
+    //（令和8年11月入所ぶんは9月中旬〜下旬に掲載予定、と市が書いている）。
+    // その間は中断せず、前に取り込んだ内容をそのまま残す
+    console.log(
+      "入所受入可能状況のPDFがまだ載っていません。" +
+        "市は該当月の前々月の中旬以降に掲載するため、前に取り込んだデータをそのまま残します。"
+    );
+    process.exit(0);
+  }
   const link = links[0];
   console.log(`PDF: ${link.text}\n  ${link.url}`);
 
