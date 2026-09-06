@@ -82,6 +82,9 @@ def main():
             drop.append((d["name"], "資料を取れない"))
             continue
         text = to_text(body)
+        # 全角の数字・カンマで書く自治体がある（薩摩川内市の「４６,８００」）。
+        # 半角に直してから探さないと、本物まで「見当たらない」になる
+        text = text.translate(str.maketrans("０１２３４５６７８９，", "0123456789,"))
         flat = re.sub(r"[\s　]+", "", text)
         n = d["limit"]
         # 「59,700」と「59700」の両方の書き方を探す

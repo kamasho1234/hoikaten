@@ -140,6 +140,29 @@ const articles: Article[] = [
       </div>
     `,
   },
+  {
+    slug: "nursery-fees",
+    citySlug: "kunitachi",
+    title: "国立市の保育料はいくら？　0〜2歳も無償",
+    description:
+      "国立市の認可保育施設の保育料について、市内在住の子どもが無償になる範囲と、それでも階層が決まる理由を、市が公表している利用者負担額表をもとに紹介します。",
+    category: "お金の話",
+    categoryColor: "rose",
+    content: `<h2>認可保育施設の保育料は0円</h2>
+<p>国立市は、認可保育所・認定こども園・地域型保育事業に通う<span class="highlight">市内在住のすべての子どもの保育料を無償</span>にしています。0歳児クラスから2歳児クラスも含めて、階層に関わらず月額0円です。</p>
+<h2>それでも階層は決まる</h2>
+<p>保育料が0円でも、国立市は世帯の住民税額による階層区分を定めています。入園選考の優先順位、給食費（副食費）の免除、延長保育料の決定に使われるためです。申込みのときは、これまでどおり住民税額の確認が必要です。</p>
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>無償になるのは保育料だけです。教材費・行事費・延長保育料はこれまでどおり負担があります。給食費も、免除の対象にならない世帯は必要です。</p>
+</div>
+<div class="info-box">
+<p><strong>出典</strong></p>
+<p>上記は国立市が公表している利用者負担額表によります。最新の内容は<a href="https://www.city.kunitachi.tokyo.jp/material/files/group/41/hoiku_riyousyafutangakuhyou.pdf" target="_blank" rel="noopener">国立市の利用者負担額表</a>をご確認ください。</p>
+</div>`,
+    publishedAt: "2026-09-06",
+    popularity: 42,
+  },
 ];
 
 registerArticles(articles);
