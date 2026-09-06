@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "articles:verify": "tsx scripts/verify-article-registry.ts",
+    "build": "npm run articles:verify && next build",
     "start": "next start",
     "lint": "eslint",
     "vacancy:fetch": "tsx scripts/fetch-yokohama-vacancy.ts",
@@ -262,8 +263,7 @@
     "vacancy:fetch:settsu": "tsx scripts/fetch-settsu-vacancy.ts",
     "vacancy:fetch:kizugawa": "tsx scripts/fetch-kizugawa-vacancy.ts",
     "vacancy:fetch:yotsukaido": "tsx scripts/fetch-yotsukaido-vacancy.ts",
-    "vacancy:fetch:ryugasaki": "tsx scripts/fetch-ryugasaki-vacancy.ts",
-    "vacancy:fetch:wakayama": "tsx scripts/fetch-wakayama-vacancy.ts"
+    "vacancy:fetch:ryugasaki": "tsx scripts/fetch-ryugasaki-vacancy.ts"
   },
   "dependencies": {
     "@base-ui/react": "^1.3.0",

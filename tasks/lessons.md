@@ -16,3 +16,15 @@
 `git log --oneline -1 origin/<branch>` で本当に届いたかを見る。
 本番URLへの curl だけでは「デプロイが遅い」のか「そもそも届いていない」のかが
 分からないので、まずリモートの ref を見ること。
+
+## 記事ファイルは register-all.ts に import しないと出ない（2026-09-07）
+
+`src/lib/articles/<slug>.ts` を作っただけでは記事は公開されない。
+`register-all.ts` に `import "./<slug>";` を足して初めて `registerArticles()` が走る。
+
+**足し忘れても型チェックもビルドも通る。** そのページだけが静かに404になる。
+実際に7自治体・72本の記事が、この抜けで長い間公開されていなかった。
+
+新しく記事ファイルを作ったら、必ず `npm run articles:verify` を通すこと
+（`npm run build` の前に自動で走るようにしてある）。
+記事を足したら、本番URLにcurlして200を確かめるところまでやる。
