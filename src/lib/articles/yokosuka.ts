@@ -327,6 +327,34 @@ const articles: Article[] = [
     publishedAt: "2026-03-28",
     popularity: 50,
   },
+  {
+    slug: "nursery-fees",
+    citySlug: "yokosuka",
+    title: "横須賀市の保育料はいくら？　上限額と決まり方",
+    description:
+      "横須賀市の認可保育施設の保育料について、0〜2歳児クラスの上限額と決まり方を、市が公表している保育料表をもとに紹介します。",
+    category: "お金の話",
+    categoryColor: "rose",
+    content: `<h2>3歳児クラス以上は保育料が無料</h2>
+<p>2019年10月からの幼児教育・保育の無償化により、<span class="highlight">3歳児クラス以上</span>の保育料は無料です。ただし給食費（主食費・副食費）は別に必要です。</p>
+<h2>0〜2歳児クラスの保育料の決まり方</h2>
+<p>横須賀市の認可保育施設の保育料は、<span class="highlight">世帯の住民税額</span>と<span class="highlight">保育を利用する時間（保育標準時間・保育短時間）</span>で決まる階層表になっています。所得が高いほど階層が上がり、保育料も上がります。</p>
+<h2>横須賀市でいちばん高い階層はいくら？</h2>
+<p>横須賀市が公表している保育料表では、0〜2歳児クラス・保育標準時間のいちばん高い階層で<span class="highlight">月額61,500円</span>です。ここが上限で、これを超えることはありません。</p>
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>保育料は毎年9月に切り替わります。4月分から8月分は前年度の住民税額、9月分から翌年3月分は当年度の住民税額で決まる自治体が多いため、9月に金額が変わることがあります。</p>
+</div>
+<h2>きょうだいがいる世帯の軽減</h2>
+<p>横須賀市は次のように案内しています。</p>
+<blockquote><p>（参考）国基準の多子カウントの対象は未就学児の兄・姉のみ生計が同一の兄・姉がいる場合、保育料を算定する児童が第2子に該当すると、保育料は約半額、第3子に該当すると0円（無償）になります。</p></blockquote>
+<div class="info-box">
+<p><strong>出典</strong></p>
+<p>上記の金額は横須賀市が公表している保育料表によります。階層ごとの正確な金額は<a href="https://www.city.yokosuka.kanagawa.jp/2645/documents/r7-4kijungakuhyou.pdf" target="_blank" rel="noopener">横須賀市の保育料表</a>をご確認ください。</p>
+</div>`,
+    publishedAt: "2026-09-06",
+    popularity: 42,
+  },
 ];
 
 registerArticles(articles);
