@@ -327,6 +327,13 @@ const EXPECTED: Record<
     vacancy: 0,
     symbolCounts: { "△": 7, "○": 49, "×": 3 },
   },
+  // いの町は人数と「若干名」が混ざる。罫線の無いPDFを文字の位置から読む
+  ino: {
+    asOf: "2026-08-01",
+    facilityCount: 10,
+    vacancy: 23,
+    symbolCounts: { "若干名": 18, "×": 12 },
+  },
   himeji: {
     asOf: "2026-08-14",
     facilityCount: 142,

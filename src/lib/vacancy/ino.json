@@ -1,0 +1,56 @@
+{
+  "municipalitySlug": "ino",
+  "municipalityName": "いの町",
+  "prefecture": "高知県",
+  "asOf": "2026-08-01",
+  "fetchedAt": "2026-09-06",
+  "sourceName": "いの町「保育施設空き状況」（いの町子育てパーフェクトページ）",
+  "sourceUrl": "https://www.town.ino.kochi.jp/sukoyaka/hoiku_situation.html",
+  "sourceFiles": {
+    "vacancy": "https://www.town.ino.kochi.jp/sukoyaka/pdf/situation_2608.pdf"
+  },
+  "metrics": [
+    "vacancy",
+    "symbol"
+  ],
+  "subtitle": "令和8年10月入園ぶんの年度途中入園の空き状況",
+  "notes": [
+    "町は空き数を人数で出していますが、人数の代わりに「若干名」と書かれているクラスがあります。人数が分からないので、そこは「若干名」のまま載せています。",
+    "町の表で斜線が引かれているクラス（何も書かれていないクラス）は「—」にしています。受入がないことを表します。",
+    "町は「×となっているクラスでも、在園児童の転園等により入園可能となることがあります」としています。",
+    "町は「現在空きのあるクラスでも、申込状況等により入園できない場合があります」「児童の状況や、職員の配置状況により募集ができなくなることがあります」としています。",
+    "町は「申込書の利用希望園は、空き状況にかかわらずご記入いただいて差し支えありません」としています。",
+    "地域型保育事業所は0歳児から2歳児をまとめて公表しているため、年齢別の内訳はありません。",
+    "この表は町の子育てサイト「いの町子育てパーフェクトページ」で公開されています。"
+  ],
+  "wards": [],
+  "categories": [
+    "保育所",
+    "認定こども園",
+    "地域型保育事業所"
+  ],
+  "symbolLegend": [
+    {
+      "mark": "若干名",
+      "label": "若干名の空きあり（人数は町が公表していません）",
+      "open": true
+    },
+    {
+      "mark": "×",
+      "label": "空きなし",
+      "open": false
+    }
+  ],
+  "facilities": [
+    {"id":"八田保育園","name":"八田保育園","w":null,"c":0,"vacancy":[null,6,null,null,null,null],"symbols":[null,null,null,"若干名",null,"若干名"]},
+    {"id":"川内保育園","name":"川内保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,"若干名",null,"若干名","若干名",null]},
+    {"id":"天神保育園","name":"天神保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"神谷保育園","name":"神谷保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,"若干名",null,"若干名",null,"若干名"]},
+    {"id":"伊野保育園","name":"伊野保育園","w":null,"c":0,"vacancy":[2,2,null,1,null,null],"symbols":[null,null,"×",null,"若干名","若干名"]},
+    {"id":"あいの保育園","name":"あいの保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","若干名","若干名"]},
+    {"id":"本川へき地保育園","name":"本川へき地保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,"若干名",null,null,"若干名",null]},
+    {"id":"認定こども園えだがわ","name":"認定こども園えだがわ","w":null,"c":1,"vacancy":[null,4,5,1,null,null],"symbols":["×",null,null,null,"若干名","若干名"]},
+    {"id":"認定こども園ごほく","name":"認定こども園ごほく","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":[null,"若干名",null,null,"若干名",null]},
+    {"id":"家庭的保育事業所あんずのぽっけ","name":"家庭的保育事業所あんずのぽっけ","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,null,null,null],"vacancyTotal":2,"note":"町は0歳児から2歳児をまとめて2人の空きとして公表しています。年齢別の内訳はありません。"}
+  ]
+}
