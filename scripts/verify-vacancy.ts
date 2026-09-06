@@ -372,7 +372,7 @@ const EXPECTED: Record<
     asOf: "2026-08-07",
     facilityCount: 92,
     vacancy: 0,
-    symbolCounts: { "◎": 4, "○": 7, "△": 34, "－": 393 },
+    symbolCounts: { "－": 395, "△": 34, "◎": 4, "○": 7 },
   },
   // 岐阜市は空きが記号、在籍人数は実数
   gifu: {
