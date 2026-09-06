@@ -219,8 +219,15 @@ def main():
         if d.get("found"):
             cands.append(("page", d["url"], d.get("text", "")))
         for a, t in d.get("docs") or []:
-            if re.search(r"保育料|利用者負担", t) and a.lower().endswith(".pdf"):
+            if a.lower().endswith((".pdf", ".xlsx", ".xls")) and (
+                re.search(r"保育料|利用者負担|徴収基準|階層", t)
+                or re.search(r"hoikuryo|hoikuryou|futan|kaisou", a, re.I)
+            ):
                 cands.append(("pdf", a, None))
+        # 見つけたページの中にある保育料表の資料も候補にする
+        # （深谷市・福山市はページ本文に表が無く、PDFに表がある）
+        for a in d.get("pageDocs") or []:
+            cands.append(("pdf", a, None))
         best = None
         # **表の列からしか読まない。**
         # 本文をまとめて見ると「77,101円未満の世帯」のような

@@ -1,13 +1,20 @@
-# 自治体の「保育料」のページ・資料を探し、記事に書ける事実だけを取り出す。
-#
-# 取り出すのは、記事に載せる3つだけ。
-#   1. 0〜2歳児（3号認定）の保育料の**いちばん高い階層の月額**
-#   2. 多子軽減（第2子・第3子の扱い）
-#   3. 担当課の名前
-# どれも自治体ごとに違うので、公式の資料に書いてある通りにしか書けない。
-# 読み取れなかったものは出さない（推測で書かない）。
-#
-# 使い方: python fee_hunt.py <slug\tname\thost のtsv> <出力jsonl> [開始] [終了]
+"""
+自治体の「保育料」のページと資料を探す。
+
+実行（この順で）:
+    python scripts/fee-hunt.py  <slug	name	host のtsv> fee_pages.jsonl
+    python scripts/fee-docs.py  fee_pages.jsonl fee_pages2.jsonl   ← ページ内の保育料表を拾う
+    python scripts/fee-read.py  fee_pages2.jsonl fee_values.jsonl
+    python scripts/fee-check.py fee_values.jsonl fee_ok.jsonl
+    python scripts/fee-write.py fee_ok.jsonl
+
+## 探し方
+1. robots.txt の Sitemap: 行と、決まった名前のサイトマップ
+2. サイトマップに載っている保育料・保育・子育てのページをたどり始める場所にする
+3. トップからも幅優先でたどる。「保育料」「利用者負担額」のリンクを先に開く
+4. 「保育料」＋「円が並ぶ」＋「年齢の区分」の3つが揃うページを候補にする
+5. PDF・Excelは開かず、名前が保育料らしいものだけ覚えて後の工程に渡す
+"""
 import concurrent.futures as cf
 import html
 import io
@@ -31,7 +38,7 @@ NG = re.compile(
     r"学童|放課後|給食費の?補助|滞納|口座|還付|延滞|償還|認可外|一時預かり|病児|"
     r"幼稚園就園奨励|副食費の?免除申請|申請書|様式"
 )
-MAX_PAGES = 250
+MAX_PAGES = 320
 
 
 def get(url, limit=2_000_000, timeout=30):
@@ -70,11 +77,57 @@ def links_of(h, base):
     return out
 
 
+def sitemap_names(host):
+    """robots.txt の Sitemap: 行と、決まった名前のサイトマップ"""
+    names = ["sitemap.xml", "sitemap_index.xml", "wp-sitemap.xml", "sitemap/sitemap.xml"]
+    body, _, _ = get(f"https://{host}/robots.txt")
+    if body:
+        for u in re.findall(r"(?im)^\s*sitemap:\s*(\S+)", body):
+            if u not in names:
+                names.append(u)
+    return names[:8]
+
+
+def sitemap_seeds(host):
+    """
+    サイトマップから、保育料らしいURLをたどり始める場所として集める。
+
+    トップから順にたどると、保育料のページが深いところにあって
+    ページ数の上限に当たる自治体が多い。サイトマップなら直に開ける
+    """
+    urls = []
+    for name in sitemap_names(host):
+        body, _, _ = get(name if name.startswith("http") else f"https://{host}/{name}")
+        if not body or "<loc" not in body:
+            continue
+        found = re.findall(r"<loc>\s*([^<\s]+)\s*</loc>", body)
+        subs = [u for u in found if u.endswith(".xml")]
+        urls += [u for u in found if not u.endswith(".xml")]
+        for sub in subs[:30]:
+            b2, _, _ = get(sub)
+            if b2:
+                urls += [
+                    u
+                    for u in re.findall(r"<loc>\s*([^<\s]+)\s*</loc>", b2)
+                    if not u.endswith(".xml")
+                ]
+        if urls:
+            break
+    keep = []
+    for u in urls:
+        dec = urllib.parse.unquote(u)
+        if re.search(r"\.(jpg|png|zip|docx?)$", dec, re.I):
+            continue
+        if re.search(r"hoikuryo|hoikuryou|riyousha|futan|hoiku|kosodate|kodomo", dec, re.I):
+            keep.append(u)
+    return keep[:200]
+
+
 def hunt(row):
     slug, name, host = row
     seen = set()
     docs = []
-    queue = [f"https://{host}/"]
+    queue = sitemap_seeds(host) + [f"https://{host}/"]
     best = None
     opened = 0
     while queue and opened < MAX_PAGES:
@@ -115,6 +168,16 @@ def hunt(row):
                 queue.append(a)
     if not best:
         return {"slug": slug, "name": name, "found": False, "docs": docs[:5]}
+    # 見つけたページに載っている保育料の資料も一緒に返す
+    page_docs = []
+    h, _, _ = get(best[1])
+    if h:
+        for a, t in links_of(h, best[1]):
+            if a.lower().endswith((".pdf", ".xlsx", ".xls")) and (
+                re.search(r"保育料|利用者負担|徴収基準|階層", t)
+                or re.search(r"hoikuryo|hoikuryou|futan|kaisou", a, re.I)
+            ):
+                page_docs.append(a)
     return {
         "slug": slug,
         "name": name,
@@ -122,6 +185,7 @@ def hunt(row):
         "url": best[1],
         "text": best[2],
         "docs": docs[:5],
+        "pageDocs": page_docs[:6],
     }
 
 
