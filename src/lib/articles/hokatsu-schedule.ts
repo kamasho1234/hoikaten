@@ -39,7 +39,7 @@ const articles: Article[] = [
     popularity: 45
   },
   {
-    slug: "hokatsu-schedule-aisai-lotterу",
+    slug: "hokatsu-schedule-aisai-lottery",
     citySlug: "aisai",
     title: "愛西市の保活：蓮根産地の保育園事情",
     description: "愛西市の保育園申込とカード抽選制度について。蓮根産地の食農体験も特徴です。",

@@ -1,3 +1,23 @@
+## 2026-09-07 slug に別の文字が混ざっていた記事3本
+
+import の抜けを直したあと、公開されたはずの81本を確かめたら1本だけ404だった。
+
+`aisai/articles/hokatsu-schedule-aisai-lotterу` の末尾「у」が
+**キリル文字（U+0443）**で、ラテン文字の y ではなかった。見た目では分からない。
+
+全記事のslugを機械照合したところ、同じように出ないものが他に2本あった。
+
+| 記事 | 直したもの |
+|---|---|
+| 愛西市 | `hokatsu-schedule-aisai-lotterу` → `hokatsu-schedule-aisai-lottery`（キリル文字のу） |
+| 郡山市 | `途中入所-guide` → `mid-year-admission-guide` |
+| さいたま市 | `激戦区-urawa-minami-omiya` → `competitive-urawa-minami-omiya` |
+
+3本とも公開されていなかったので、slugを変えてもURLが変わる影響は無い。
+
+`scripts/verify-article-registry.ts` に
+「slugが半角英数とハイフンだけか」の確認も足した。記事4,643本を見ている。
+
 ## 2026-09-07 記事が出ていなかった不具合（7自治体・72本）
 
 多治見市・天理市の記事を足して本番を確かめたら404だった。

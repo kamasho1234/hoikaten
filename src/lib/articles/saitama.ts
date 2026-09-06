@@ -234,7 +234,7 @@ const articles: Article[] = [
   // 5. 激戦区（浦和・南・大宮）攻略
   // =========================================================================
   {
-    slug: "激戦区-urawa-minami-omiya",
+    slug: "competitive-urawa-minami-omiya",
     citySlug: "saitama",
     title: "浦和区・南区・大宮区の保活事情、激戦区の攻略法",
     description:

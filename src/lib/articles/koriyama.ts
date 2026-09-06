@@ -364,7 +364,7 @@ const articles: Article[] = [
   },
   // ===== 保活の基本 (9) =====
   {
-    slug: "途中入所-guide",
+    slug: "mid-year-admission-guide",
     citySlug: "koriyama",
     title: "郡山市で年度途中に保育園に入る方法",
     description:
