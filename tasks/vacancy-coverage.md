@@ -90,6 +90,23 @@ www を補って93件を回し直した結果、**上里町（7施設）と高�
 | Wikidataの公式サイト | 23 | 茅野市 www.city.chino.nagano.jp → www.city.chino.lg.jp |
 | `<県>.jp` → `lg.jp` の読み替え | 43 | 新城市 www.city.shinshiro.aichi.jp → www.city.shinshiro.lg.jp |
 
+### 別の回線から確かめる手順（2026-09-06に用意した）
+
+開発機の回線から開けない自治体を確かめるための道具を、
+scratchpad から `scripts/` に移した。
+
+```
+# 別の回線（携帯のテザリングなど）につないでから
+python scripts/vacancy-hunt.py tasks/vacancy-unreachable.tsv out.jsonl
+python scripts/vacancy-triage.py out.jsonl
+```
+
+- `vacancy-hunt.py` … 空き状況のページを探す。発見率は取り込み済み60件で95%
+- `vacancy-triage.py` … 見つけた候補を開いて「施設×年齢の表があるか」で仕分ける
+
+`tasks/vacancy-unreachable.tsv` は道具にそのまま渡せる4列
+（都道府県／自治体名／人口（0でよい）／ホスト名）にしてある。
+
 ### この環境から開けない28自治体
 
 ホスト名を直しても繋がらない自治体が28件残っている。一覧は
@@ -105,6 +122,8 @@ www を補って93件を回し直した結果、**上里町（7施設）と高�
 12件当てて、本物は4件だけだった。
 
 - DNSは引けるが、443にも80にも、IPv4でもIPv6でもTCP接続がタイムアウトする
+- **Chromeで開いても読み込めない**（2026-09-06に伊那市・太子町で確認。
+  タブが読み込みを終えられず、元のページに戻る）
 - 時間をあけて2度確かめても変わらなかった（1件だけ繋がるようになった）
 - curl でも Python でも同じなので、道具ではなく経路の問題
 - 高山市・甲賀市・茅野市・七尾市・下妻市・豊岡市・伊那市・玉野市など、
