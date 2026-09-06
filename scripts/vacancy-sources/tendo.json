@@ -1,0 +1,32 @@
+{
+  "slug": "tendo",
+  "name": "天童市",
+  "prefecture": "山形県",
+  "sourceName": "天童市「入所可能人数」",
+  "indexUrl": "https://www.city.tendo.yamagata.jp/lifeinfo/kosodate/hoikuentou.html",
+  "pdf": {
+    "linkPattern": "ukeirekanoninzu|入所可能人数"
+  },
+  "layout": "auto-table",
+  "columns": {
+    "name": 3,
+    "category": 0,
+    "ages": [4, 5, 6, 7, 8, 9]
+  },
+  "categoryFrom": "row",
+  "metrics": ["vacancy"],
+  "skipRowsContaining": ["施設名", "合計"],
+  "asOf": {
+    "source": "pdf",
+    "pattern": "令和(\\d+)年(\\d{1,2})月末日現在",
+    "dayOfMonth": 31
+  },
+  "minFacilities": 20,
+  "subtitle": "翌年度4月入所ぶんの入所可能人数",
+  "notes": [
+    "この表は翌年度4月入所ぶんの入所可能人数です。年度途中の空き状況ではありません。",
+    "市は「入所可能人数は令和8年7月末日現在の状況であり、今後、他市転出、職員配置等により変動する場合があります」としています。",
+    "年齢は令和9年4月1日現在の年齢です。",
+    "小規模保育事業所は0〜2歳のみです。3〜5歳のクラスは「—」にしています。"
+  ]
+}

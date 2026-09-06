@@ -334,6 +334,18 @@ const EXPECTED: Record<
     vacancy: 23,
     symbolCounts: { "若干名": 18, "×": 12 },
   },
+  // 天童市は翌年度4月入所ぶんの入所可能人数
+  tendo: {
+    asOf: "2026-07-31",
+    facilityCount: 30,
+    vacancy: 619,
+  },
+  // 東根市は翌年度4月入所ぶんの受入予定人数。類型が縦書きで崩れるので categoryMap で直す
+  higashine: {
+    asOf: "2026-08-14",
+    facilityCount: 21,
+    vacancy: 461,
+  },
   himeji: {
     asOf: "2026-08-14",
     facilityCount: 142,

@@ -460,7 +460,12 @@ def extract_one_table(pdf, conf):
             if as_symbol:
                 row["symbols"] = symbols
             if cat_col is not None:
-                row["category"] = cell(raw[cat_col])
+                text = cell(raw[cat_col])
+                for pat in conf.get("categoryTrim", []):
+                    text = re.sub(pat, "", text)
+                # 縦書きの結合セルは字の順が崩れて出る（東根市の「認/定/こ/ど/も」）。
+                # 読めた通りの崩れた文字を、設定で正しい表記に置き換える
+                row["category"] = (conf.get("categoryMap") or {}).get(text, text)
             rows.append(row)
     return rows
 
