@@ -221,28 +221,27 @@ const articles: Article[] = [
   {
     slug: "nursery-fees",
     citySlug: "numazu",
-    title: "沼津市の保育所保育料の目安｜2号・3号認定の費用を解説",
-    description: "沼津市の認可保育所にかかる保育料の目安を解説。世帯年収・子どもの年齢・認定区分（2号・3号）による違いをわかりやすく説明します。",
-    category: "保育料",
-    categoryColor: "amber",
-    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    publishedAt: "2025-06-01",
-    content: `<h2>沼津市の保育料の基本的な考え方</h2>
-<p>沼津市の認可保育所の保育料は、<strong>世帯の市民税額</strong>をもとに決定されます。3歳以上（2号認定）は無償化が適用されますが、3歳未満（3号認定）は所得に応じた保育料がかかります。</p>
-
-<h2>3歳以上（2号認定）の保育料</h2>
-<p>2019年10月から幼児教育・保育の無償化が始まり、認可保育所に通う<strong>3歳〜5歳児は保育料が無料</strong>です。ただし、給食の副食費（おかず代）が実費で請求される場合があります。</p>
-
-<h2>3歳未満（3号認定）の保育料</h2>
-<table>
-<tr><th>世帯区分</th><th>月額保育料の目安</th></tr>
-<tr><td>生活保護世帯</td><td>0円</td></tr>
-<tr><td>市民税非課税世帯</td><td>0〜数千円</td></tr>
-<tr><td>市民税課税（低所得）</td><td>〜2万円程度</td></tr>
-<tr><td>市民税課税（一般）</td><td>2〜4万円程度</td></tr>
-<tr><td>市民税課税（高所得）</td><td>5万円前後（上限額）</td></tr>
-</table>
-<p>※ 正確な保育料は沼津市こども家庭課にご確認ください。</p>`,
+    title: "沼津市の保育料はいくら？　上限額と決まり方",
+    description:
+      "沼津市の認可保育施設の保育料について、0〜2歳児クラスの上限額と決まり方を、市が公表している保育料表をもとに紹介します。",
+    category: "お金の話",
+    categoryColor: "rose",
+    content: `<h2>3歳児クラス以上は保育料が無料</h2>
+<p>2019年10月からの幼児教育・保育の無償化により、<span class="highlight">3歳児クラス以上</span>の保育料は無料です。ただし給食費（主食費・副食費）は別に必要です。</p>
+<h2>0〜2歳児クラスの保育料の決まり方</h2>
+<p>沼津市の認可保育施設の保育料は、<span class="highlight">世帯の住民税額</span>と<span class="highlight">保育を利用する時間（保育標準時間・保育短時間）</span>で決まる階層表になっています。所得が高いほど階層が上がり、保育料も上がります。</p>
+<h2>沼津市でいちばん高い階層はいくら？</h2>
+<p>沼津市が公表している保育料表では、0〜2歳児クラス・保育標準時間のいちばん高い階層で<span class="highlight">月額50,800円</span>です。ここが上限で、これを超えることはありません。</p>
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>保育料は毎年9月に切り替わります。4月分から8月分は前年度の住民税額、9月分から翌年3月分は当年度の住民税額で決まる自治体が多いため、9月に金額が変わることがあります。</p>
+</div>
+<div class="info-box">
+<p><strong>出典</strong></p>
+<p>上記の金額は沼津市が公表している保育料表によります。階層ごとの正確な金額は<a href="https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/topics/nyuusho/doc/hoikuryou.pdf" target="_blank" rel="noopener">沼津市の保育料表</a>をご確認ください。</p>
+</div>`,
+    publishedAt: "2026-09-06",
+    popularity: 42,
   },
   {
     slug: "area-guide",

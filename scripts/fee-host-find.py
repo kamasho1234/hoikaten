@@ -5,7 +5,7 @@ import concurrent.futures as cf, io, re, ssl, sys, urllib.request, html as H
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 UA={"User-Agent":"Mozilla/5.0 (compatible; hoikaten/1.0; +https://hoikaten.com)"}
 CTX=ssl.create_default_context(); CTX.check_hostname=False; CTX.verify_mode=ssl.CERT_NONE
-PREF={"chikushino":"fukuoka","dazaifu":"fukuoka","fujisawa":"kanagawa","fukuoka":"fukuoka",
+PREF={"adachi":"tokyo","ashikaga":"tochigi","hikone":"shiga","ichikawa":"chiba","imabari":"ehime","isesaki":"gunma","ishinomaki":"miyagi","itoshima":"fukuoka","joetsu":"niigata","katsushika":"tokyo","kiryu":"gunma","minato":"tokyo","moka":"tochigi","numazu":"shizuoka","ogaki":"gifu","ota-gunma":"gunma","oyama":"tochigi","suginami":"tokyo","sumida":"tokyo","suzuka":"mie","takaoka":"toyama","tochigi-city":"tochigi","tsuruoka":"yamagata","chikushino":"fukuoka","dazaifu":"fukuoka","fujisawa":"kanagawa","fukuoka":"fukuoka",
 "habikino":"osaka","hakusan":"ishikawa","hatsukaichi":"hiroshima","higashimurayama":"tokyo",
 "himeji":"hyogo","hita":"oita","ichinomiya":"aichi","ichinoseki":"iwate","iida":"nagano",
 "itami":"hyogo","kanoya":"kagoshima","kashiwara":"osaka","kasuga":"fukuoka","katano":"osaka",
@@ -27,8 +27,11 @@ def get(u,timeout=20):
 def try_one(a):
     slug,name=a
     pref=PREF.get(slug,"")
-    cands=[f"https://www.city.{slug}.lg.jp/", f"https://www.city.{slug}.{pref}.jp/",
-           f"https://www.city.{slug}.jp/"]
+    base=re.sub(r"-(gunma|city|fukui|kagoshima|nagano|saitama|hiroshima|kochi|tochigi)$","",slug)
+    cands=[f"https://www.city.{base}.lg.jp/", f"https://www.city.{base}.{pref}.jp/",
+           f"https://www.city.{base}.jp/",
+           # 東京23区は city ではなく区の名前で引く
+           f"https://www.city.{base}.tokyo.jp/"]
     for c in cands:
         final,t=get(c)
         if not t: continue

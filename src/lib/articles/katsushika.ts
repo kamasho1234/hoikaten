@@ -132,8 +132,8 @@ const articles: Article[] = [
   {
     slug: "nursery-fees",
     citySlug: "katsushika",
-    title: "葛飾区の保育料はいくら？　世帯年収別の目安を紹介",
-    description: "葛飾区の認可保育園の保育料を世帯年収別に紹介します。",
+    title: "葛飾区の保育料はいくら？の決まり方",
+    description: "葛飾区の認可保育園の保育料の決まり方を紹介します。",
     image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=400&fit=crop",
     category: "お金の話",
     categoryColor: "rose",
@@ -141,15 +141,8 @@ const articles: Article[] = [
 <p>葛飾区の保育料は<span class="highlight">世帯の住民税額</span>と<span class="highlight">子どもの年齢</span>で決まります。</p>
 <h2>3歳以上は無償化</h2>
 <p><span class="highlight">3歳児クラス以上</span>の保育料は無料です。</p>
-<h2>世帯年収別の保育料の目安（0～2歳児）</h2>
-<table>
-<tr><th>世帯年収の目安</th><th>月額保育料の目安</th></tr>
-<tr><td>～300万円</td><td>0～5,000円</td></tr>
-<tr><td>300～500万円</td><td>8,000～22,000円</td></tr>
-<tr><td>500～700万円</td><td>22,000～38,000円</td></tr>
-<tr><td>700～1,000万円</td><td>38,000～52,000円</td></tr>
-<tr><td>1,000万円～</td><td>52,000～62,000円</td></tr>
-</table>`,
+<h2>0〜2歳児クラスの保育料の決まり方</h2>
+<p>保育料は世帯の住民税額で決まる階層表になっています。階層ごとの金額は自治体が公表している保育料表をご確認ください。</p>`,
     publishedAt: "2026-03-28",
     popularity: 42,
   },

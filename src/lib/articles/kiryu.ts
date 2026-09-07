@@ -10,7 +10,31 @@ const articles: Article[] = [
   { slug: "ninkagai-guide", citySlug: "kiryu", title: "桐生市の認可外保育施設ガイド　認可園との違い", description: "認可園に入れなかった場合の選択肢について解説します。", image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop", category: "認可外保育", categoryColor: "teal", content: `<h2>認可外保育施設とは？</h2><p>自治体に届出をして運営している保育施設です。桐生市内にも複数あります。</p><h3>認可園との違い</h3><table><tr><th>項目</th><th>認可</th><th>認可外</th></tr><tr><td>保育料</td><td>所得応じて決定</td><td>施設が設定</td></tr><tr><td>入園選考</td><td>指数による調整</td><td>施設独自基準</td></tr><tr><td>翌年加点</td><td>-</td><td>+3点</td></tr></table>`, publishedAt: "2026-04-29", popularity: 39 },
   { slug: "tiebreaker-guide", citySlug: "kiryu", title: "桐生市で同点になったら　優先順位のしくみ", description: "同点になった場合の優先順位と対策を解説します。", image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=400&fit=crop", category: "選考のしくみ", categoryColor: "blue", content: `<h2>同点の優先順位</h2><ol><li>ひとり親世帯</li><li>きょうだい在園中の園希望</li><li>基本指数が高い</li><li>市の居住期間が長い</li><li>所得が低い</li></ol><p>加点を積み上げて同点を避けることが重要です。</p>`, publishedAt: "2026-04-29", popularity: 44 },
   { slug: "small-nursery", citySlug: "kiryu", title: "桐生市の小規模保育　メリット・デメリット", description: "小規模保育事業の特徴や卒園後の進路について解説します。", image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop", category: "保活の基本", categoryColor: "green", content: `<h2>小規模保育とは？</h2><p>定員6〜19人の少人数施設。対象は0〜2歳児のみ。3歳以降は転園が必要です。</p><h2>メリット</h2><ul><li>少人数でアットホーム</li><li>認可園より入りやすい</li><li>卒園時の優先枠あり</li></ul><h2>デメリット</h2><ul><li>3歳で転園必須</li><li>園庭がない場合が多い</li></ul>`, publishedAt: "2026-04-29", popularity: 37 },
-  { slug: "nursery-fees", citySlug: "kiryu", title: "桐生市の保育料はいくら？　世帯年収別の目安", description: "認可保育園の保育料を世帯年収別に紹介します。", image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=400&fit=crop", category: "お金の話", categoryColor: "rose", content: `<h2>保育料の仕組み</h2><p>世帯の住民税額と子どもの年齢で決まります。</p><h2>3歳以上は無償化</h2><p>3歳児クラス以上は保育料無料（給食費は別途）です。</p><h3>世帯年収別の目安（0〜2歳）</h3><table><tr><th>年収目安</th><th>月額</th></tr><tr><td>〜300万</td><td>0〜6,000円</td></tr><tr><td>300〜500万</td><td>10,000〜25,000円</td></tr><tr><td>500万以上</td><td>25,000円〜</td></tr></table>`, publishedAt: "2026-04-29", popularity: 40 },
+  {
+    slug: "nursery-fees",
+    citySlug: "kiryu",
+    title: "桐生市の保育料はいくら？　上限額と決まり方",
+    description:
+      "桐生市の認可保育施設の保育料について、0〜2歳児クラスの上限額と決まり方を、市が公表している保育料表をもとに紹介します。",
+    category: "お金の話",
+    categoryColor: "rose",
+    content: `<h2>3歳児クラス以上は保育料が無料</h2>
+<p>2019年10月からの幼児教育・保育の無償化により、<span class="highlight">3歳児クラス以上</span>の保育料は無料です。ただし給食費（主食費・副食費）は別に必要です。</p>
+<h2>0〜2歳児クラスの保育料の決まり方</h2>
+<p>桐生市の認可保育施設の保育料は、<span class="highlight">世帯の住民税額</span>と<span class="highlight">保育を利用する時間（保育標準時間・保育短時間）</span>で決まる階層表になっています。所得が高いほど階層が上がり、保育料も上がります。</p>
+<h2>桐生市でいちばん高い階層はいくら？</h2>
+<p>桐生市が公表している保育料表では、0〜2歳児クラス・保育標準時間のいちばん高い階層で<span class="highlight">月額44,000円</span>です。ここが上限で、これを超えることはありません。</p>
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>保育料は毎年9月に切り替わります。4月分から8月分は前年度の住民税額、9月分から翌年3月分は当年度の住民税額で決まる自治体が多いため、9月に金額が変わることがあります。</p>
+</div>
+<div class="info-box">
+<p><strong>出典</strong></p>
+<p>上記の金額は桐生市が公表している保育料表によります。階層ごとの正確な金額は<a href="https://www.city.kiryu.lg.jp/_res/projects/default_project/_page_/001/001/361/r8hoikuryo.pdf" target="_blank" rel="noopener">桐生市の保育料表</a>をご確認ください。</p>
+</div>`,
+    publishedAt: "2026-09-06",
+    popularity: 42,
+  },
   { slug: "nursery-visit-guide", citySlug: "kiryu", title: "桐生市の保育園見学ガイド　チェックポイント", description: "見学で確認すべきポイントと質問リストをまとめました。", image: "https://images.unsplash.com/photo-1544776193-352d25ca82cd?w=800&h=400&fit=crop", category: "保活の基本", categoryColor: "green", content: `<h2>見学のベストシーズン</h2><p>6月〜9月が見学に最適。10月以降は申込直前で混み合います。</p><h2>チェックポイント</h2><ul><li>園児たちの雰囲気と表情</li><li>保育士の子どもへの接し方</li><li>園舎と園庭の状態</li><li>給食内容とアレルギー対応</li><li>持ち物や送迎動線</li></ul><h2>質問リスト</h2><ul><li>延長保育の時間と料金</li><li>慣らし保育の期間</li><li>発熱時のお迎えルール</li><li>行事への保護者参加</li></ul>`, publishedAt: "2026-04-29", popularity: 36 },
 ];
 

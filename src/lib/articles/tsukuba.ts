@@ -313,35 +313,27 @@ const articles: Article[] = [
   {
     slug: "nursery-fees",
     citySlug: "tsukuba",
-    title: "つくば市の保育料はいくら？　世帯年収別の目安を紹介",
+    title: "つくば市の保育料はいくら？　上限額と決まり方",
     description:
-      "つくば市の認可保育所の保育料を世帯年収別にわかりやすく紹介します。無償化の対象も解説。",
-    image:
-      "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=400&fit=crop",
+      "つくば市の認可保育施設の保育料について、0〜2歳児クラスの上限額と決まり方を、市が公表している保育料表をもとに紹介します。",
     category: "お金の話",
     categoryColor: "rose",
-    content: `<h2>保育料の決まり方</h2>
-<p>つくば市の認可保育所の保育料は、<span class="highlight">世帯の住民税額</span>と<span class="highlight">子どもの年齢</span>で決まります。</p>
-
-<h2>3歳以上は無償化</h2>
-<p>2019年10月からの幼児教育・保育の無償化により、<span class="highlight">3歳児クラス以上</span>の保育料は無料です。</p>
-
-<h2>世帯年収別の保育料の目安（0〜2歳児）</h2>
-<table>
-<tr><th>世帯年収の目安</th><th>月額保育料の目安</th></tr>
-<tr><td>〜300万円</td><td>0〜6,000円</td></tr>
-<tr><td>300〜500万円</td><td>10,000〜25,000円</td></tr>
-<tr><td>500〜700万円</td><td>25,000〜40,000円</td></tr>
-<tr><td>700〜1,000万円</td><td>40,000〜55,000円</td></tr>
-<tr><td>1,000万円〜</td><td>55,000円〜</td></tr>
-</table>
-
-<div class="warn-box">
-<p><strong>注意</strong></p>
-<p>上記はあくまで目安です。正確な保育料は住民税額で決まります。つくば市幼児保育課にご確認ください。</p>
+    content: `<h2>3歳児クラス以上は保育料が無料</h2>
+<p>2019年10月からの幼児教育・保育の無償化により、<span class="highlight">3歳児クラス以上</span>の保育料は無料です。ただし給食費（主食費・副食費）は別に必要です。</p>
+<h2>0〜2歳児クラスの保育料の決まり方</h2>
+<p>つくば市の認可保育施設の保育料は、<span class="highlight">世帯の住民税額</span>と<span class="highlight">保育を利用する時間（保育標準時間・保育短時間）</span>で決まる階層表になっています。所得が高いほど階層が上がり、保育料も上がります。</p>
+<h2>つくば市でいちばん高い階層はいくら？</h2>
+<p>つくば市が公表している保育料表では、0〜2歳児クラス・保育標準時間のいちばん高い階層で<span class="highlight">月額78,000円</span>です。ここが上限で、これを超えることはありません。</p>
+<div class="point-box">
+<p><strong>ポイント</strong></p>
+<p>保育料は毎年9月に切り替わります。4月分から8月分は前年度の住民税額、9月分から翌年3月分は当年度の住民税額で決まる自治体が多いため、9月に金額が変わることがあります。</p>
+</div>
+<div class="info-box">
+<p><strong>出典</strong></p>
+<p>上記の金額はつくば市が公表している保育料表によります。階層ごとの正確な金額は<a href="https://www.city.tsukuba.lg.jp/material/files/group/65/hoikuryou_hayamihyou_R8.pdf" target="_blank" rel="noopener">つくば市の保育料表</a>をご確認ください。</p>
 </div>`,
-    publishedAt: "2026-04-18",
-    popularity: 45,
+    publishedAt: "2026-09-06",
+    popularity: 42,
   },
   {
     slug: "nursery-visit-guide",
