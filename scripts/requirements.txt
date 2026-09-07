@@ -8,6 +8,8 @@ openpyxl==3.1.5
 # 紙をスキャンしただけの画像PDF（西尾市など）を読むために使う
 # （scripts/vacancy-image-table.py）。罫線から升目を割り出して1マスずつ読む。
 # 記号の見分け方が変わると取り込みが壊れるため、バージョンを固定する。
-opencv-python-headless==4.13.0.88
+# 4.13.0.88 は配布から取り下げられた（yanked）。CIが「No matching distribution」で
+# 毎日落ちていたため、同じ 4.13.0 系で配布のある .90 に上げた（2026-09-08）。
+opencv-python-headless==4.13.0.90
 PyMuPDF==1.27.2
 numpy==2.4.6
