@@ -1410,6 +1410,100 @@ const cases: Case[] = [
     },
     expect: 59,
   },
+
+  // --- 滝川市（sum / 基礎点数の最高100）---
+  {
+    name: '滝川: 父100点 + 母70点 = 170',
+    slug: 'takikawa',
+    answers: { parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_3' },
+    expect: 170,
+    expectHouseholdBase: 170,
+  },
+  {
+    name: '滝川: 合算200 + ひとり親120 + 保育士120 - 育休延長10 = 430',
+    slug: 'takikawa',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_0',
+      adj_single_parent: 'adj_single_parent_1', adj_nursery_staff: 'adj_nursery_staff_1',
+      adj_leave_extendable: 'adj_leave_extendable_1',
+    },
+    expect: 430,
+  },
+
+  // --- 藍住町（sum / 基本点数の最高110）---
+  // 備考2「ひとり親世帯については、当該ひとり親の点数と100点との合算」の確認
+  {
+    name: '藍住: ひとり親（保護者1のみ110点）+ 100 = 210',
+    slug: 'aizumi',
+    answers: { parent1_employment: 'parent1_employment_0', adj_single_parent: 'adj_single_parent_1' },
+    expect: 210,
+    expectHouseholdBase: 110,
+  },
+  {
+    name: '藍住: 父110点 + 母80点 = 190',
+    slug: 'aizumi',
+    answers: { parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_6' },
+    expect: 190,
+  },
+
+  // --- 菊川市（sum / 基準点の最高25）---
+  {
+    name: '菊川: 父20点 + 母17点 = 37',
+    slug: 'kikugawa',
+    answers: { parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_3' },
+    expect: 37,
+    expectHouseholdBase: 37,
+  },
+  {
+    name: '菊川: 合算40 + 保育士15 - 65歳未満の祖父母5 - 滞納20 = 30',
+    slug: 'kikugawa',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_0',
+      adj_nursery_staff: 'adj_nursery_staff_1', adj_grandparent: 'adj_grandparent_2',
+      adj_fee_delinquent: 'adj_fee_delinquent_1',
+    },
+    expect: 30,
+  },
+
+  // --- 糸魚川市（min / 基準点の最高10）---
+  // 原典「基準点は父母それぞれの状況で算出し、どちらかの低い点数を適用します。」の確認
+  {
+    name: '糸魚川: 父10点・母5点なら低い方の5',
+    slug: 'itoigawa',
+    answers: { parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_2' },
+    expect: 5,
+    expectHouseholdBase: 5,
+  },
+  {
+    name: '糸魚川: 低い方5 + ひとり親6 + 保育士3 - 滞納5 = 9',
+    slug: 'itoigawa',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_2',
+      adj_household: 'adj_household_1', adj_nursery_staff: 'adj_nursery_staff_1',
+      adj_fee_delinquent: 'adj_fee_delinquent_1',
+    },
+    expect: 9,
+  },
+
+  // --- 十和田市（sum / 基本点数の最高8）---
+  // 原典「父母それぞれの基本点数を合算して世帯の基本点数とする。」の確認
+  {
+    name: '十和田: 父8点 + 母5点 = 13',
+    slug: 'towada',
+    answers: { parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_3' },
+    expect: 13,
+    expectHouseholdBase: 13,
+  },
+  {
+    name: '十和田: 合算16 + 兄弟在園4 + 保育士4 - 未就学児1 = 23',
+    slug: 'towada',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_0',
+      adj_sibling: 'adj_sibling_1', adj_nursery_staff: 'adj_nursery_staff_1',
+      adj_home_child: 'adj_home_child_1',
+    },
+    expect: 23,
+  },
 ];
 
 let ng = 0;
