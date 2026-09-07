@@ -1545,6 +1545,48 @@ const cases: Case[] = [
     expect: 220,
     expectHouseholdBase: 100,
   },
+
+  // --- 塩竈市（sum / 基準指数の最高20）---
+  // 原典の備考「父・母それぞれの指数を把握し、合算する。」の確認
+  {
+    name: '塩竈: 父20点 + 母16点 = 36',
+    slug: 'shiogama',
+    answers: { parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_3' },
+    expect: 36,
+    expectHouseholdBase: 36,
+  },
+  {
+    name: '塩竈: 合算40 + 小規模卒園16 + 母子10 - 滞納20 = 46',
+    slug: 'shiogama',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_0',
+      adj_graduate: 'adj_graduate_1', adj_household: 'adj_household_1',
+      adj_fee_delinquent: 'adj_fee_delinquent_1',
+    },
+    expect: 46,
+  },
+
+  // --- 笛吹市（sum / 基礎項目の最高100）---
+  // 原典の計算例そのもの：
+  //   （父）家庭外労働 1日8時間以上かつ月20日以上 = 100点
+  //   （母）自営業（従業員）1日6時間以上かつ月15日以上 = 75点  合計175点
+  {
+    name: '笛吹: 原典の例 父100点 + 母75点 = 175',
+    slug: 'fuefuki',
+    answers: { parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_22' },
+    expect: 175,
+    expectHouseholdBase: 175,
+  },
+  {
+    name: '笛吹: 合算200 + きょうだい120 + ひとり親110 - 滞納100 = 330',
+    slug: 'fuefuki',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_0',
+      adj_sibling: 'adj_sibling_1', adj_single_parent: 'adj_single_parent_1',
+      adj_fee_delinquent: 'adj_fee_delinquent_2',
+    },
+    expect: 330,
+  },
 ];
 
 let ng = 0;
