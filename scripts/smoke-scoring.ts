@@ -1504,6 +1504,47 @@ const cases: Case[] = [
     },
     expect: 23,
   },
+
+  // --- むつ市（sum / 基礎指数の最高6）---
+  // 原典の集計欄「父基礎指数＋母基礎指数＋優先利用指数＝総合指数」の確認
+  {
+    name: 'むつ: 父5点 + 母4点 = 9',
+    slug: 'mutsu',
+    answers: { parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_2' },
+    expect: 9,
+    expectHouseholdBase: 9,
+  },
+  {
+    name: 'むつ: 合算10 + ひとり親6 + 失業7 - 12ヶ月滞納10 = 13',
+    slug: 'mutsu',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_0',
+      adj_single_parent: 'adj_single_parent_1', adj_unemployed: 'adj_unemployed_1',
+      adj_fee_delinquent: 'adj_fee_delinquent_3',
+    },
+    expect: 13,
+  },
+
+  // --- 洲本市（sum / 基本指数の最高100）---
+  // 原典「父母の基本指数を算出し、その合算を基本指数とする。」の確認
+  {
+    name: '洲本: 父100点 + 母70点 = 170',
+    slug: 'sumoto',
+    answers: { parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_6' },
+    expect: 170,
+    expectHouseholdBase: 170,
+  },
+  {
+    name: '洲本: ひとり親（保護者1のみ100点）+ 基本100 + 調整20 = 220',
+    slug: 'sumoto',
+    answers: {
+      parent1_employment: 'parent1_employment_0',
+      adj_household: 'adj_household_1',
+      adj_single_parent_bonus: 'adj_single_parent_bonus_1',
+    },
+    expect: 220,
+    expectHouseholdBase: 100,
+  },
 ];
 
 let ng = 0;
