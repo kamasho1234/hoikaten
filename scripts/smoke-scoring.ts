@@ -1269,6 +1269,61 @@ const cases: Case[] = [
     },
     expect: 35,
   },
+
+  // --- 湖西市（sum / 基本指数の最高20）---
+  {
+    name: '湖西: 父20点（月155h以上）+ 母15点（月120h以上）= 35',
+    slug: 'kosai',
+    answers: { parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_3' },
+    expect: 35,
+    expectHouseholdBase: 35,
+  },
+  {
+    name: '湖西: 合算40 + 地域型卒園20 + ひとり親（非同居）10 - 辞退15 = 55',
+    slug: 'kosai',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_0',
+      adj_graduate: 'adj_graduate_1', adj_household: 'adj_household_1', adj_declined: 'adj_declined_1',
+    },
+    expect: 55,
+  },
+
+  // --- 名護市（sum / 基本指数の最高55）---
+  // 原典「父母それぞれの基本指数を合算し、世帯の基本指数を決定する。」の確認
+  {
+    name: '名護: 父55点 + 母45点 = 100',
+    slug: 'nago',
+    answers: { parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_2' },
+    expect: 100,
+    expectHouseholdBase: 100,
+  },
+  {
+    name: '名護: 合算110 + ひとり親65 - 育休延長110 = 65',
+    slug: 'nago',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_0',
+      adj_single_parent: 'adj_single_parent_1', adj_leave_extendable: 'adj_leave_extendable_1',
+    },
+    expect: 65,
+  },
+
+  // --- 大和高田市（sum / 基本項目の最高100）---
+  {
+    name: '大和高田: 父100点 + 母80点 = 180',
+    slug: 'yamatotakada',
+    answers: { parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_4' },
+    expect: 180,
+    expectHouseholdBase: 180,
+  },
+  {
+    name: '大和高田: 合算200 + ひとり親120 - 祖父母2人60 = 260',
+    slug: 'yamatotakada',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_0',
+      adj_single_parent: 'adj_single_parent_1', adj_grandparent: 'adj_grandparent_2',
+    },
+    expect: 260,
+  },
 ];
 
 let ng = 0;
