@@ -1116,6 +1116,100 @@ const cases: Case[] = [
     },
     expect: -10,
   },
+
+  // --- 清須市（min / 基本指数の最高20）---
+  // 原典「父母それぞれの指数の低い方を算定対象として適用する」の確認
+  {
+    name: '清須: 父20点・母16点なら低い方の16。調整なしで16',
+    slug: 'kiyosu',
+    answers: {
+      parent1_employment: 'parent1_employment_0',
+      parent2_employment: 'parent2_employment_5',
+    },
+    expect: 16,
+    expectHouseholdBase: 16,
+  },
+  {
+    name: '清須: 低い方16 + ひとり親10 + 兄弟在園4 = 30',
+    slug: 'kiyosu',
+    answers: {
+      parent1_employment: 'parent1_employment_0',
+      parent2_employment: 'parent2_employment_5',
+      adj_single_parent: 'adj_single_parent_1',
+      adj_sibling: 'adj_sibling_1',
+    },
+    expect: 30,
+  },
+  {
+    name: '清須: 滞納-10 と 同一敷地内の祖父母-4 は併算 20-14 = 6',
+    slug: 'kiyosu',
+    answers: {
+      parent1_employment: 'parent1_employment_0',
+      parent2_employment: 'parent2_employment_0',
+      adj_fee_delinquent: 'adj_fee_delinquent_1',
+      adj_family_home: 'adj_family_home_1',
+    },
+    expect: 6,
+  },
+
+  // --- 香取市（sum / 基準点の最高15）---
+  // 原典「基準点は保護者それぞれの点数を合算。」の確認
+  {
+    name: '香取: 父10点 + 母9点 = 19（合算）',
+    slug: 'katori',
+    answers: {
+      parent1_employment: 'parent1_employment_0',
+      parent2_employment: 'parent2_employment_1',
+    },
+    expect: 19,
+    expectHouseholdBase: 19,
+  },
+  {
+    name: '香取: 合算20 + 18歳未満3人+2 + 兄弟在園+4 = 26',
+    slug: 'katori',
+    answers: {
+      parent1_employment: 'parent1_employment_0',
+      parent2_employment: 'parent2_employment_0',
+      adj_children_count: 'adj_children_count_2',
+      adj_sibling: 'adj_sibling_1',
+    },
+    expect: 26,
+  },
+  {
+    name: '香取: 育休延長を許容-20 と 祖母-5 は併算 20-25 = -5',
+    slug: 'katori',
+    answers: {
+      parent1_employment: 'parent1_employment_0',
+      parent2_employment: 'parent2_employment_0',
+      adj_leave_extendable: 'adj_leave_extendable_1',
+      adj_grandmother: 'adj_grandmother_1',
+    },
+    expect: -5,
+  },
+
+  // --- 大仙市（sum / 基準指数の最高10）---
+  {
+    name: '大仙: 父10点（居宅外140h）+ 母6点（居宅外48h）= 16',
+    slug: 'daisen',
+    answers: {
+      parent1_employment: 'parent1_employment_0',
+      parent2_employment: 'parent2_employment_4',
+    },
+    expect: 16,
+    expectHouseholdBase: 16,
+  },
+  {
+    name: '大仙: 合算20 + 育休明け+3 + 保育士+4 - 祖父母60〜64歳-2 = 25',
+    slug: 'daisen',
+    answers: {
+      parent1_employment: 'parent1_employment_0',
+      parent2_employment: 'parent2_employment_0',
+      adj_leave_return: 'adj_leave_return_1',
+      adj_nursery_staff: 'adj_nursery_staff_1',
+      adj_grandparent: 'adj_grandparent_2',
+    },
+    expect: 25,
+  },
 ];
 
 let ng = 0;
