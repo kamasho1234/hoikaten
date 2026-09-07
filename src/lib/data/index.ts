@@ -491,6 +491,8 @@ import { kudamatsuData } from './kudamatsu';
 import { kosaiData } from './kosai';
 import { nagoData } from './nago';
 import { yamatotakadaData } from './yamatotakada';
+import { nakaData } from './naka';
+import { akoData } from './ako';
 
 const municipalityMap: Record<string, MunicipalityData> = {
   [setagayaData.municipality.slug]: setagayaData,
@@ -986,6 +988,8 @@ const municipalityMap: Record<string, MunicipalityData> = {
   [kosaiData.municipality.slug]: kosaiData,
   [nagoData.municipality.slug]: nagoData,
   [yamatotakadaData.municipality.slug]: yamatotakadaData,
+  [nakaData.municipality.slug]: nakaData,
+  [akoData.municipality.slug]: akoData,
 };
 
 export function getMunicipalityData(slug: string): MunicipalityData | undefined {
@@ -1075,3 +1079,4 @@ export { setagayaData, yokohamaData, osakaData, kawasakiData, nagoyaData, saitam
 export { kiyosuData, katoriData, daisenData };
 export { tsukubamiraiData, kudamatsuData };
 export { kosaiData, nagoData, yamatotakadaData };
+export { nakaData, akoData };

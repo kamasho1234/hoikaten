@@ -1324,6 +1324,54 @@ const cases: Case[] = [
     },
     expect: 260,
   },
+
+  // --- 那珂市（sum / 基準点の最高20）---
+  // 原典「基準点は、父、母それぞれに配点し、合算した点数を基準点とする。」の確認
+  {
+    name: '那珂: 父20点 + 母16点 = 36',
+    slug: 'naka',
+    answers: { parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_4' },
+    expect: 36,
+    expectHouseholdBase: 36,
+  },
+  {
+    name: '那珂: 合算40 + 地域型連携施設100 + ひとり親20 - 滞納20 = 140',
+    slug: 'naka',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_0',
+      adj_graduate: 'adj_graduate_1', adj_household: 'adj_household_2',
+      adj_fee_delinquent: 'adj_fee_delinquent_1',
+    },
+    expect: 140,
+  },
+  {
+    name: '那珂: 就労内定パート-4 と 祖父母-4 は併算 40-8 = 32',
+    slug: 'naka',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_0',
+      adj_job_offer: 'adj_job_offer_2', adj_grandparent: 'adj_grandparent_2',
+    },
+    expect: 32,
+  },
+
+  // --- 赤穂市（sum / 基本点数の最高30）---
+  {
+    name: '赤穂: 父28点 + 母22点 = 50',
+    slug: 'ako',
+    answers: { parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_2' },
+    expect: 50,
+    expectHouseholdBase: 50,
+  },
+  {
+    name: '赤穂: 合算56 + 母子15 + 保育士10 - 同居祖父母5 = 76',
+    slug: 'ako',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_0',
+      adj_single_parent: 'adj_single_parent_1', adj_nursery_staff: 'adj_nursery_staff_1',
+      adj_grandparent: 'adj_grandparent_1',
+    },
+    expect: 76,
+  },
 ];
 
 let ng = 0;
