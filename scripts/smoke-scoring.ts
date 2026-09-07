@@ -1372,6 +1372,44 @@ const cases: Case[] = [
     },
     expect: 76,
   },
+
+  // --- 津幡町（sum / 基本指数の最高20）---
+  {
+    name: '津幡: 父20点 + 母16点 = 36',
+    slug: 'tsubata',
+    answers: { parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_2' },
+    expect: 36,
+    expectHouseholdBase: 36,
+  },
+  {
+    name: '津幡: 疾病は「状況」と「手帳の種類」の合計。常時病臥15 + 手帳1級15 = 30',
+    slug: 'tsubata',
+    answers: {
+      parent1_illness_state: 'parent1_illness_state_0',
+      parent1_illness_handbook: 'parent1_illness_handbook_0',
+    },
+    expect: 30,
+    expectHouseholdBase: 30,
+  },
+  {
+    name: '津幡: 介護は「状況」と「認定等」の合計。付添10 + 要介護3〜5の12 = 22',
+    slug: 'tsubata',
+    answers: {
+      parent1_care_state: 'parent1_care_state_0',
+      parent1_care_level: 'parent1_care_level_0',
+    },
+    expect: 22,
+  },
+  {
+    name: '津幡: 合算40 + ひとり親25 + きょうだい14 - 未納20 = 59',
+    slug: 'tsubata',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_0',
+      adj_single_parent: 'adj_single_parent_1', adj_sibling: 'adj_sibling_1',
+      adj_fee_delinquent: 'adj_fee_delinquent_1',
+    },
+    expect: 59,
+  },
 ];
 
 let ng = 0;
