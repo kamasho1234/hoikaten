@@ -1210,6 +1210,65 @@ const cases: Case[] = [
     },
     expect: 25,
   },
+
+  // --- つくばみらい市（sum / 基本点数の最高10）---
+  {
+    name: 'つくばみらい: 父10点 + 母8点 = 18',
+    slug: 'tsukubamirai',
+    answers: {
+      parent1_employment: 'parent1_employment_0',
+      parent2_employment: 'parent2_employment_3',
+    },
+    expect: 18,
+    expectHouseholdBase: 18,
+  },
+  {
+    name: 'つくばみらい: 合算20 + 保育士50 + ひとり親60 = 130',
+    slug: 'tsukubamirai',
+    answers: {
+      parent1_employment: 'parent1_employment_0',
+      parent2_employment: 'parent2_employment_0',
+      adj_nursery_staff: 'adj_nursery_staff_1',
+      adj_single_parent: 'adj_single_parent_2',
+    },
+    expect: 130,
+  },
+  {
+    name: 'つくばみらい: 育休延長を許容-40 と 6ヵ月滞納-40 は併算 20-80 = -60',
+    slug: 'tsukubamirai',
+    answers: {
+      parent1_employment: 'parent1_employment_0',
+      parent2_employment: 'parent2_employment_0',
+      adj_leave_extendable: 'adj_leave_extendable_1',
+      adj_fee_delinquent: 'adj_fee_delinquent_2',
+    },
+    expect: -60,
+  },
+
+  // --- 下松市（sum / 基本項目の最高10）---
+  // 原典「父母それぞれの状況に当てはまる①基本項目を合算する」の確認
+  {
+    name: '下松: 父10点（正規雇用）+ 母6点（臨時4〜6h）= 16',
+    slug: 'kudamatsu',
+    answers: {
+      parent1_employment: 'parent1_employment_0',
+      parent2_employment: 'parent2_employment_3',
+    },
+    expect: 16,
+    expectHouseholdBase: 16,
+  },
+  {
+    name: '下松: 合算20 + 里帰り再入園15 + ひとり親10 - 滞納10 = 35',
+    slug: 'kudamatsu',
+    answers: {
+      parent1_employment: 'parent1_employment_0',
+      parent2_employment: 'parent2_employment_0',
+      adj_rehome: 'adj_rehome_1',
+      adj_single_parent: 'adj_single_parent_1',
+      adj_fee_delinquent: 'adj_fee_delinquent_1',
+    },
+    expect: 35,
+  },
 ];
 
 let ng = 0;
