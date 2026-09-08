@@ -1740,6 +1740,45 @@ const cases: Case[] = [
     },
     expect: 430,
   },
+
+  // --- 上里町（sum / 基準点数の最高12）---
+  {
+    name: '上里: 父9点 + 母7点 = 16',
+    slug: 'kamisato',
+    answers: { parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_3' },
+    expect: 16,
+    expectHouseholdBase: 16,
+  },
+  {
+    name: '上里: 合算18 + ひとり親3 + 兄弟在園3 - 滞納10 = 14',
+    slug: 'kamisato',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_0',
+      adj_single_parent: 'adj_single_parent_1', adj_sibling: 'adj_sibling_1',
+      adj_fee_delinquent: 'adj_fee_delinquent_1',
+    },
+    expect: 14,
+  },
+
+  // --- 二宮町（sum / 基本指数の最高20）---
+  // 原典の備考1「保護者全員について個別に点数を算出し、合算する。」の確認
+  {
+    name: '二宮: 父20点 + 母16点 = 36',
+    slug: 'ninomiya',
+    answers: { parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_3' },
+    expect: 36,
+    expectHouseholdBase: 36,
+  },
+  {
+    name: '二宮: 調整指数は合算。合算40 + 生活保護30 + ひとり親25 + きょうだい10 = 105',
+    slug: 'ninomiya',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_0',
+      adj_welfare: 'adj_welfare_1', adj_single_parent: 'adj_single_parent_1',
+      adj_sibling: 'adj_sibling_1',
+    },
+    expect: 105,
+  },
 ];
 
 let ng = 0;
