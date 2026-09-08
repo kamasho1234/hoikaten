@@ -1587,6 +1587,55 @@ const cases: Case[] = [
     },
     expect: 330,
   },
+
+  // --- 南魚沼市（sum / 基本指数の最高10）---
+  {
+    name: '南魚沼: 父10点 + 母8点 = 18',
+    slug: 'minamiuonuma',
+    answers: { parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_3' },
+    expect: 18,
+    expectHouseholdBase: 18,
+  },
+  {
+    name: '南魚沼: 合算20 + 児童の障害10 + ひとり親5 + 兄弟在園2 = 37',
+    slug: 'minamiuonuma',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_0',
+      adj_child_disability: 'adj_child_disability_1', adj_single_parent: 'adj_single_parent_1',
+      adj_sibling: 'adj_sibling_1',
+    },
+    expect: 37,
+  },
+
+  // --- 荒尾市（sum / 基本点数の最高150）---
+  // 原典「保護者（父母等）それぞれの基本点数を合算します。
+  //      （保護者が1人の場合は100点を加算）」の確認
+  {
+    name: '荒尾: 父100点 + 母90点 = 190',
+    slug: 'arao',
+    answers: { parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_1' },
+    expect: 190,
+    expectHouseholdBase: 190,
+  },
+  {
+    name: '荒尾: ひとり親（保護者1のみ100点）+ 1人加算100 + 調整40 = 240',
+    slug: 'arao',
+    answers: {
+      parent1_employment: 'parent1_employment_0',
+      adj_single_parent: 'adj_single_parent_1',
+    },
+    expect: 240,
+    expectHouseholdBase: 100,
+  },
+  {
+    name: '荒尾: 合算200 + きょうだい在園100 + 保育教諭100 = 400',
+    slug: 'arao',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_0',
+      adj_sibling: 'adj_sibling_1', adj_nursery_staff: 'adj_nursery_staff_1',
+    },
+    expect: 400,
+  },
 ];
 
 let ng = 0;
