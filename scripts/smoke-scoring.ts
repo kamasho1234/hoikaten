@@ -1779,6 +1779,76 @@ const cases: Case[] = [
     },
     expect: 105,
   },
+
+  // --- 篠栗町（min / 基礎指数の最高20）---
+  // 原典の備考1「基礎指数は、保護者のどちらか低い方とする。」の確認
+  {
+    name: '篠栗: 父15点・母12点なら低い方の12',
+    slug: 'sasaguri',
+    answers: { parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_6' },
+    expect: 12,
+    expectHouseholdBase: 12,
+  },
+  {
+    name: '篠栗: 低い方12 + ひとり親8 + 保育士8 - 同居親族5 = 23',
+    slug: 'sasaguri',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_6',
+      adj_single_parent: 'adj_single_parent_1', adj_nursery_staff: 'adj_nursery_staff_1',
+      adj_family_requirement: 'adj_family_requirement_1',
+    },
+    expect: 23,
+  },
+
+  // --- 胎内市（sum / 保育の必要性の最高10）---
+  {
+    name: '胎内: 父10点 + 母6点 = 16',
+    slug: 'tainai',
+    answers: { parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_2' },
+    expect: 16,
+    expectHouseholdBase: 16,
+  },
+  {
+    name: '胎内: 合算20 + ひとり親(同居親族なし)10 + きょうだい在園7 - 拘束柔軟2 = 35',
+    slug: 'tainai',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_0',
+      adj_single_parent: 'adj_single_parent_1', adj_sibling: 'adj_sibling_1',
+      adj_flexible_hours: 'adj_flexible_hours_1',
+    },
+    expect: 35,
+  },
+
+  // --- 朝来市（avg / 基準指数の最高10）---
+  // 原典の手順5「父母の基準指数を足して2で除した数に調整指数を加算した数を
+  //             選考指数とする。」の確認
+  {
+    name: '朝来: 父10点・母8点なら平均の9',
+    slug: 'asago',
+    answers: { parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_2' },
+    expect: 9,
+    expectHouseholdBase: 9,
+  },
+  {
+    name: '朝来: 平均9 + 保育士5 + 育休明け再希望6 - 滞納10 = 10',
+    slug: 'asago',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_2',
+      adj_nursery_staff: 'adj_nursery_staff_1', adj_leave_return: 'adj_leave_return_1',
+      adj_fee_delinquent: 'adj_fee_delinquent_1',
+    },
+    expect: 10,
+  },
+  {
+    name: '朝来: ひとり親（保護者1のみ10点）+ 手順2の10 + 調整6 = 26',
+    slug: 'asago',
+    answers: {
+      parent1_employment: 'parent1_employment_0',
+      adj_single_parent: 'adj_single_parent_1',
+    },
+    expect: 26,
+    expectHouseholdBase: 10,
+  },
 ];
 
 let ng = 0;
