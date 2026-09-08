@@ -1674,6 +1674,72 @@ const cases: Case[] = [
     },
     expect: 12,
   },
+
+  // --- 常滑市（min / 指数①の最高10）---
+  // 原典「保護者のそれぞれの指数のうち低い方で指数①を決定し、
+  //      ②を加えた指数の高い順に入園できます。」の確認
+  {
+    name: '常滑: 父10点・母7点なら低い方の7',
+    slug: 'tokoname',
+    answers: { parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_2' },
+    expect: 7,
+    expectHouseholdBase: 7,
+  },
+  {
+    name: '常滑: 小数の加算。低い方7 + 兄弟2人1 + 希望園在園0.3 + 保育士0.5 = 8.8',
+    slug: 'tokoname',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_2',
+      adj_sibling_same: 'adj_sibling_same_1', adj_sibling_enrolled: 'adj_sibling_enrolled_1',
+      adj_nursery_staff: 'adj_nursery_staff_2',
+    },
+    expect: 8.8,
+  },
+  {
+    name: '常滑: 内職は-2。父10点・母-2点なら低い方の-2',
+    slug: 'tokoname',
+    answers: { parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_11' },
+    expect: -2,
+    expectHouseholdBase: -2,
+  },
+
+  // --- 境港市（sum / 基本指数の最高10）---
+  {
+    name: '境港: 父10点 + 母7点 = 17',
+    slug: 'sakaiminato',
+    answers: { parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_3' },
+    expect: 17,
+    expectHouseholdBase: 17,
+  },
+  {
+    name: '境港: 合算20 + ひとり親(非同居)20 + 卒園児10 - 同居者2 = 48',
+    slug: 'sakaiminato',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_0',
+      adj_household: 'adj_household_2', adj_graduate: 'adj_graduate_1',
+      adj_other_caregiver: 'adj_other_caregiver_1',
+    },
+    expect: 48,
+  },
+
+  // --- 網走市（sum / 基本点数の最高100）---
+  {
+    name: '網走: 父100点 + 母70点 = 170',
+    slug: 'abashiri',
+    answers: { parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_1' },
+    expect: 170,
+    expectHouseholdBase: 170,
+  },
+  {
+    name: '網走: 合算200 + ひとり親80 + 保育士70 + 継続兄弟80 = 430',
+    slug: 'abashiri',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_0',
+      adj_single_parent: 'adj_single_parent_1', adj_nursery_staff: 'adj_nursery_staff_1',
+      adj_sibling: 'adj_sibling_1',
+    },
+    expect: 430,
+  },
 ];
 
 let ng = 0;

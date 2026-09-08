@@ -507,6 +507,9 @@ import { minamiuonumaData } from './minamiuonuma';
 import { araoData } from './arao';
 import { inabeData } from './inabe';
 import { nakanoNaganoData } from './nakano-nagano';
+import { tokonameData } from './tokoname';
+import { sakaiminatoData } from './sakaiminato';
+import { abashiriData } from './abashiri';
 
 const municipalityMap: Record<string, MunicipalityData> = {
   [setagayaData.municipality.slug]: setagayaData,
@@ -1018,6 +1021,9 @@ const municipalityMap: Record<string, MunicipalityData> = {
   [araoData.municipality.slug]: araoData,
   [inabeData.municipality.slug]: inabeData,
   [nakanoNaganoData.municipality.slug]: nakanoNaganoData,
+  [tokonameData.municipality.slug]: tokonameData,
+  [sakaiminatoData.municipality.slug]: sakaiminatoData,
+  [abashiriData.municipality.slug]: abashiriData,
 };
 
 export function getMunicipalityData(slug: string): MunicipalityData | undefined {
@@ -1116,3 +1122,5 @@ export { mutsuData, sumotoData };
 export { shiogamaData, fuefukiData };
 export { minamiuonumaData, araoData };
 export { inabeData, nakanoNaganoData };
+export { tokonameData };
+export { sakaiminatoData, abashiriData };
