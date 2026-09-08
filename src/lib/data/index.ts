@@ -515,6 +515,9 @@ import { ninomiyaData } from './ninomiya';
 import { sasaguriData } from './sasaguri';
 import { tainaiData } from './tainai';
 import { asagoData } from './asago';
+import { zentsujiData } from './zentsuji';
+import { dateHokkaidoData } from './date-hokkaido';
+import { chikuzenData } from './chikuzen';
 
 const municipalityMap: Record<string, MunicipalityData> = {
   [setagayaData.municipality.slug]: setagayaData,
@@ -1034,6 +1037,9 @@ const municipalityMap: Record<string, MunicipalityData> = {
   [sasaguriData.municipality.slug]: sasaguriData,
   [tainaiData.municipality.slug]: tainaiData,
   [asagoData.municipality.slug]: asagoData,
+  [zentsujiData.municipality.slug]: zentsujiData,
+  [dateHokkaidoData.municipality.slug]: dateHokkaidoData,
+  [chikuzenData.municipality.slug]: chikuzenData,
 };
 
 export function getMunicipalityData(slug: string): MunicipalityData | undefined {
@@ -1137,3 +1143,5 @@ export { sakaiminatoData, abashiriData };
 export { kamisatoData, ninomiyaData };
 export { sasaguriData, tainaiData };
 export { asagoData };
+export { zentsujiData, dateHokkaidoData };
+export { chikuzenData };

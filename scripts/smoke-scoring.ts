@@ -1849,6 +1849,75 @@ const cases: Case[] = [
     expect: 26,
     expectHouseholdBase: 10,
   },
+
+  // --- 善通寺市（min / 基本点数の最高12）---
+  // 原典「※父母の合計点数が異なる場合は、いずれか低い方を合計点数とする。」の確認
+  {
+    name: '善通寺: 父12点・母8点なら低い方の8',
+    slug: 'zentsuji',
+    answers: { parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_2' },
+    expect: 8,
+    expectHouseholdBase: 8,
+  },
+  {
+    name: '善通寺: 低い方8 + 支援必要10 + ひとり親3 - 滞納2 = 19',
+    slug: 'zentsuji',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_2',
+      adj_welfare_support: 'adj_welfare_support_1', adj_single_parent: 'adj_single_parent_1',
+      adj_fee_delinquent: 'adj_fee_delinquent_1',
+    },
+    expect: 19,
+  },
+
+  // --- 伊達市（北海道）（sum / 基本点数の最高100）---
+  // 原典「父母それぞれの基本点数を合算して世帯の基本点数とします。」の確認
+  {
+    name: '伊達(北海道): 父100点 + 母70点 = 170',
+    slug: 'date-hokkaido',
+    answers: { parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_3' },
+    expect: 170,
+    expectHouseholdBase: 170,
+  },
+  {
+    name: '伊達(北海道): ひとり親かつ求職中（保護者1のみ100点）+ 基本100 + 調整80 = 280',
+    slug: 'date-hokkaido',
+    answers: {
+      parent1_employment: 'parent1_employment_0',
+      adj_single_parent: 'adj_single_parent_1',
+    },
+    expect: 280,
+    expectHouseholdBase: 100,
+  },
+  {
+    name: '伊達(北海道): 合算200 + 地域型卒園100 - 祖父母5 - 未申込児10 = 285',
+    slug: 'date-hokkaido',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_0',
+      adj_graduate: 'adj_graduate_1', adj_grandparent: 'adj_grandparent_1',
+      adj_sibling: 'adj_sibling_3',
+    },
+    expect: 285,
+  },
+
+  // --- 筑前町（sum / 基準点の最高20）---
+  {
+    name: '筑前: 父20点 + 母16点 = 36',
+    slug: 'chikuzen',
+    answers: { parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_4' },
+    expect: 36,
+    expectHouseholdBase: 36,
+  },
+  {
+    name: '筑前: 合算40 + 保育士50 + ひとり親32 - 辞退5 = 117',
+    slug: 'chikuzen',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_0',
+      adj_nursery_staff: 'adj_nursery_staff_1', adj_single_parent: 'adj_single_parent_1',
+      adj_declined: 'adj_declined_1',
+    },
+    expect: 117,
+  },
 ];
 
 let ng = 0;
