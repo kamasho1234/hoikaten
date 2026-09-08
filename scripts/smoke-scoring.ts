@@ -1636,6 +1636,44 @@ const cases: Case[] = [
     },
     expect: 400,
   },
+
+  // --- いなべ市（sum / 基本点数の最高100）---
+  {
+    name: 'いなべ: 父100点 + 母75点 = 175',
+    slug: 'inabe',
+    answers: { parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_5' },
+    expect: 175,
+    expectHouseholdBase: 175,
+  },
+  {
+    name: 'いなべ: 合算200 + ひとり親120 + 保育士20 = 340',
+    slug: 'inabe',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_0',
+      adj_single_parent: 'adj_single_parent_1', adj_nursery_staff: 'adj_nursery_staff_1',
+    },
+    expect: 340,
+  },
+
+  // --- 中野市（min / 基本点の最高10）---
+  // 原典「※ 父母のどちらか低い指数で算出する」の確認
+  {
+    name: '中野(長野): 父10点・母7点なら低い方の7',
+    slug: 'nakano-nagano',
+    answers: { parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_4' },
+    expect: 7,
+    expectHouseholdBase: 7,
+  },
+  {
+    name: '中野(長野): 低い方7 + ひとり親5 + 保育士3 - 滞納3 = 12',
+    slug: 'nakano-nagano',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_4',
+      adj_single_parent: 'adj_single_parent_1', adj_nursery_staff: 'adj_nursery_staff_1',
+      adj_fee_delinquent: 'adj_fee_delinquent_1',
+    },
+    expect: 12,
+  },
 ];
 
 let ng = 0;
