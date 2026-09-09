@@ -2576,6 +2576,63 @@ const cases: Case[] = [
     },
     expect: 15,
   },
+  {
+    name: '河内: 家庭外10 + 内職6 + ひとり親10 - 未納10 = 16',
+    slug: 'kawachi',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_6',
+      adj_single_parent: 'adj_single_parent_1', adj_fee_delinquent: 'adj_fee_delinquent_1',
+    },
+    expect: 16,
+  },
+  {
+    name: '河内: 入院10 + 就学8 + 虐待DV10 + 兄弟1 - 祖父母2 = 27',
+    slug: 'kawachi',
+    answers: {
+      parent1_illness: 'parent1_illness_0', parent2_school: 'parent2_school_0',
+      adj_dv: 'adj_dv_1', adj_sibling: 'adj_sibling_1', adj_grandparent: 'adj_grandparent_1',
+    },
+    expect: 27,
+  },
+  {
+    name: '鹿追: 父10点・母6点なら低い方の6 + ひとり親10 + 保育士10 = 26',
+    slug: 'shikaoi',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_4',
+      adj_single_parent: 'adj_single_parent_1', adj_hoikushi: 'adj_hoikushi_1',
+    },
+    expect: 26,
+    expectHouseholdBase: 6,
+  },
+  {
+    name: '鹿追: 低い方3 + きょうだい2人2 + 待機1 - 祖父母2 = 4',
+    slug: 'shikaoi',
+    answers: {
+      parent1_illness: 'parent1_illness_0', parent2_jobseeking: 'parent2_jobseeking_0',
+      adj_sibling: 'adj_sibling_2', adj_waiting: 'adj_waiting_1',
+      adj_grandparent: 'adj_grandparent_1',
+    },
+    expect: 4,
+  },
+  {
+    name: '大樹: 就労100 + 就労75 + 産育休明けで兄弟在園60 = 235',
+    slug: 'taiki',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_9',
+      adj_return_or_sibling: 'adj_return_or_sibling_1',
+    },
+    expect: 235,
+  },
+  {
+    name: '大樹: ひとり親 入院100 + 110 + 生活保護20 + 障がい児20 = 250',
+    slug: 'taiki',
+    answers: {
+      parent1_illness: 'parent1_illness_0',
+      adj_single_parent: 'adj_single_parent_1', adj_welfare: 'adj_welfare_1',
+      adj_child_disability: 'adj_child_disability_1',
+    },
+    expect: 250,
+  },
 ];
 
 let ng = 0;
