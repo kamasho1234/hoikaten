@@ -532,6 +532,14 @@ import { sakuragawaData } from './sakuragawa';
 import { narutoData } from './naruto';
 import { saitamaInaData } from './saitama-ina';
 import { nakamaData } from './nakama';
+import { fukuchiData } from './fukuchi';
+import { koryoData } from './koryo';
+import { yazuData } from './yazu';
+import { namieData } from './namie';
+import { yoshimiData } from './yoshimi';
+import { kogeData } from './koge';
+import { kawaraData } from './kawara';
+import { urakawaData } from './urakawa';
 import { tadotsuData } from './tadotsu';
 import { utazuData } from './utazu';
 
@@ -1070,6 +1078,14 @@ const municipalityMap: Record<string, MunicipalityData> = {
   [narutoData.municipality.slug]: narutoData,
   [saitamaInaData.municipality.slug]: saitamaInaData,
   [nakamaData.municipality.slug]: nakamaData,
+  [fukuchiData.municipality.slug]: fukuchiData,
+  [koryoData.municipality.slug]: koryoData,
+  [yazuData.municipality.slug]: yazuData,
+  [namieData.municipality.slug]: namieData,
+  [yoshimiData.municipality.slug]: yoshimiData,
+  [kogeData.municipality.slug]: kogeData,
+  [kawaraData.municipality.slug]: kawaraData,
+  [urakawaData.municipality.slug]: urakawaData,
   [tadotsuData.municipality.slug]: tadotsuData,
   [utazuData.municipality.slug]: utazuData,
 };
@@ -1184,3 +1200,7 @@ export { aishoData };
 export { sangoData, tadotsuData, utazuData };
 export { hirokawaFukuokaData, ikiData, asoData, oraData };
 export { sakuragawaData, narutoData, saitamaInaData, nakamaData };
+export { fukuchiData, koryoData };
+export { yazuData, namieData };
+export { yoshimiData };
+export { kogeData, kawaraData, urakawaData };

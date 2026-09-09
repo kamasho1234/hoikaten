@@ -2305,6 +2305,108 @@ const cases: Case[] = [
     },
     expect: 70,
   },
+  {
+    name: '福智: 週40h50 + 週30h35 + きょうだい在園30 + 生活保護10 = 125',
+    slug: 'fukuchi',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_3',
+      adj_sibling: 'adj_sibling_1', adj_welfare: 'adj_welfare_1',
+    },
+    expect: 125,
+  },
+  {
+    name: '福智: 入院50 + 付添30 - 自宅保育6 - 祖父母6 - 町外10 = 58',
+    slug: 'fukuchi',
+    answers: {
+      parent1_illness: 'parent1_illness_0', parent2_care: 'parent2_care_4',
+      adj_home_care: 'adj_home_care_1', adj_grandparent: 'adj_grandparent_1',
+      adj_outside_town: 'adj_outside_town_1',
+    },
+    expect: 58,
+  },
+  {
+    name: '広陵: 居宅外10 + 居宅内7 + 地域型卒園4 - 滞納4 = 17',
+    slug: 'koryo',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_3',
+      adj_chiikigata: 'adj_chiikigata_1', adj_fee_delinquent: 'adj_fee_delinquent_1',
+    },
+    expect: 17,
+  },
+  {
+    name: '広陵: ひとり親 就労10 + 基本加点10 + 調整5 - 未就労祖父母2 = 23',
+    slug: 'koryo',
+    answers: {
+      parent1_employment: 'parent1_employment_0',
+      adj_single_parent_base: 'adj_single_parent_base_1', adj_single_parent: 'adj_single_parent_1',
+      adj_grandparent: 'adj_grandparent_2',
+    },
+    expect: 23,
+  },
+  {
+    name: '八頭: 保護者A10 + 保護者B8 + 兄弟同一園4 - 未納5 = 17',
+    slug: 'yazu',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_3',
+      adj_sibling: 'adj_sibling_1', adj_fee_delinquent: 'adj_fee_delinquent_1',
+    },
+    expect: 17,
+  },
+  {
+    name: '八頭: 虐待DV30 + ひとり親祖父母別居15 = 45',
+    slug: 'yazu',
+    answers: {
+      parent1_dv: 'parent1_dv_0',
+      adj_single_parent: 'adj_single_parent_1',
+    },
+    expect: 45,
+  },
+  {
+    name: '浪江: 常勤9 + パート8 + 町内居住5 - 祖父母3 = 19',
+    slug: 'namie',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_3',
+      adj_in_town: 'adj_in_town_1', adj_grandparent: 'adj_grandparent_1',
+    },
+    expect: 19,
+  },
+  {
+    name: '浪江: ひとり親は不存在の親に10。就労9 + 不存在10 + ひとり親5 = 24',
+    slug: 'namie',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_absent: 'parent2_absent_0',
+      adj_single_parent: 'adj_single_parent_1',
+    },
+    expect: 24,
+  },
+  {
+    name: '吉見: 就労10 + 就労8 + 保育士町内3 + 多子2 = 23',
+    slug: 'yoshimi',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_2',
+      adj_hoikushi: 'adj_hoikushi_1', adj_many_children: 'adj_many_children_1',
+    },
+    expect: 23,
+  },
+  {
+    name: '吉見: 家庭内労働は就労から1点減算。(10-1) + 求職1 - 滞納20 = -10',
+    slug: 'yoshimi',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent1_homework: 'parent1_homework_1',
+      parent2_jobseeking: 'parent2_jobseeking_0',
+      adj_fee_delinquent: 'adj_fee_delinquent_1',
+    },
+    expect: -10,
+  },
+  {
+    name: '吉見: ひとり親は不在の親に15。就労10 + 15 + 育休復職3 = 28',
+    slug: 'yoshimi',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_absent: 'parent2_absent_0',
+      adj_return_to_work: 'adj_return_to_work_1',
+    },
+    expect: 28,
+  },
 ];
 
 let ng = 0;
