@@ -2633,6 +2633,36 @@ const cases: Case[] = [
     },
     expect: 250,
   },
+  {
+    name: '睦沢: 中心者10 + 協力者7 + 育休明け2 - 祖父母2 = 17',
+    slug: 'mutsuzawa',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_8',
+      adj_return_to_work: 'adj_return_to_work_1', adj_grandparent: 'adj_grandparent_1',
+    },
+    expect: 17,
+    expectHouseholdBase: 17,
+  },
+  {
+    name: '睦沢: 保護者1人 入院10 + 10 + ひとり親3 - 町外6 = 17',
+    slug: 'mutsuzawa',
+    answers: {
+      parent1_illness: 'parent1_illness_0',
+      adj_one_parent_bonus: 'adj_one_parent_bonus_1',
+      adj_single_parent: 'adj_single_parent_1', adj_outside_town: 'adj_outside_town_1',
+    },
+    expect: 17,
+  },
+  {
+    name: '睦沢: 基準指数は最高20。10 + 10 = 20 で頭打ち、兄弟在園2 = 22',
+    slug: 'mutsuzawa',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_0',
+      adj_sibling: 'adj_sibling_1',
+    },
+    expect: 22,
+    expectHouseholdBase: 20,
+  },
 ];
 
 let ng = 0;
