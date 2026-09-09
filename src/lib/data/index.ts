@@ -540,6 +540,7 @@ import { yoshimiData } from './yoshimi';
 import { kogeData } from './koge';
 import { kawaraData } from './kawara';
 import { urakawaData } from './urakawa';
+import { ajigasawaData } from './ajigasawa';
 import { tadotsuData } from './tadotsu';
 import { utazuData } from './utazu';
 
@@ -1086,6 +1087,7 @@ const municipalityMap: Record<string, MunicipalityData> = {
   [kogeData.municipality.slug]: kogeData,
   [kawaraData.municipality.slug]: kawaraData,
   [urakawaData.municipality.slug]: urakawaData,
+  [ajigasawaData.municipality.slug]: ajigasawaData,
   [tadotsuData.municipality.slug]: tadotsuData,
   [utazuData.municipality.slug]: utazuData,
 };
@@ -1204,3 +1206,4 @@ export { fukuchiData, koryoData };
 export { yazuData, namieData };
 export { yoshimiData };
 export { kogeData, kawaraData, urakawaData };
+export { ajigasawaData };

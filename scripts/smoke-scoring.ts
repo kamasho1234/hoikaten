@@ -2407,6 +2407,82 @@ const cases: Case[] = [
     },
     expect: 28,
   },
+  {
+    name: '上毛: 父90点・母60点なら低い方の60 + ひとり親25 + 兄弟同時15 = 100',
+    slug: 'koge',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_4',
+      adj_single_parent: 'adj_single_parent_1', adj_sibling: 'adj_sibling_1',
+    },
+    expect: 100,
+    expectHouseholdBase: 60,
+  },
+  {
+    name: '上毛: 低い方50 + 保育士10 + 要介護3〜5の10 - 町外30 = 40',
+    slug: 'koge',
+    answers: {
+      parent1_illness: 'parent1_illness_0', parent2_employment: 'parent2_employment_5',
+      adj_hoikushi: 'adj_hoikushi_1', adj_family_care: 'adj_family_care_1',
+      adj_outside_town: 'adj_outside_town_1',
+    },
+    expect: 40,
+  },
+  {
+    name: '香春: 居宅外120 + 居宅内90 + 多子2人10 - 祖父母10 = 210',
+    slug: 'kawara',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_3',
+      adj_many_children: 'adj_many_children_2', adj_grandparent: 'adj_grandparent_1',
+    },
+    expect: 210,
+  },
+  {
+    name: '香春: ひとり親 労働120 + 100 + 保育士1人10 - 求職継続1人30 = 200',
+    slug: 'kawara',
+    answers: {
+      parent1_employment: 'parent1_employment_0',
+      adj_single_parent: 'adj_single_parent_1', adj_hoikushi: 'adj_hoikushi_1',
+      adj_jobseeking_continue: 'adj_jobseeking_continue_1',
+    },
+    expect: 200,
+  },
+  {
+    name: '浦河: 父10点・母7点なら低い方の7 + 父子母子3 + 兄弟2 = 12',
+    slug: 'urakawa',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_6',
+      adj_single_parent: 'adj_single_parent_1', adj_sibling: 'adj_sibling_1',
+    },
+    expect: 12,
+    expectHouseholdBase: 7,
+  },
+  {
+    name: '浦河: 低い方4 + 児童の手帳3 - 祖父母病弱2 = 5',
+    slug: 'urakawa',
+    answers: {
+      parent1_illness: 'parent1_illness_0', parent2_school: 'parent2_school_0',
+      adj_disability: 'adj_disability_1', adj_grandparent: 'adj_grandparent_2',
+    },
+    expect: 5,
+  },
+  {
+    name: '鰺ヶ沢: 外勤10 + 内職6 + ひとり親15 + 地域型卒園10 = 41',
+    slug: 'ajigasawa',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_9',
+      adj_single_parent: 'adj_single_parent_1', adj_chiikigata: 'adj_chiikigata_1',
+    },
+    expect: 41,
+  },
+  {
+    name: '鰺ヶ沢: 入院10 + 就学8 + 虐待DV25 - 祖父母5 = 38',
+    slug: 'ajigasawa',
+    answers: {
+      parent1_illness: 'parent1_illness_0', parent2_school: 'parent2_school_0',
+      adj_dv: 'adj_dv_1', adj_grandparent: 'adj_grandparent_1',
+    },
+    expect: 38,
+  },
 ];
 
 let ng = 0;
