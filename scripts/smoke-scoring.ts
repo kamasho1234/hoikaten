@@ -1918,6 +1918,84 @@ const cases: Case[] = [
     },
     expect: 117,
   },
+
+  // --- 滑川町（sum / 基本点数の最高10）---
+  // 原典「1 父母それぞれの点数を合算して世帯の点数とする。」の確認
+  {
+    name: '滑川: 小数の合算。父10点 + 母9.5点 = 19.5',
+    slug: 'namegawa',
+    answers: { parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_1' },
+    expect: 19.5,
+    expectHouseholdBase: 19.5,
+  },
+  {
+    name: '滑川: 合算20 + 生活保護10 + 双子0.5 - 祖父母5 - 辞退0.5 = 25',
+    slug: 'namegawa',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_0',
+      adj_welfare: 'adj_welfare_1', adj_multiple_birth: 'adj_multiple_birth_2',
+      adj_grandparent: 'adj_grandparent_1', adj_declined: 'adj_declined_1',
+    },
+    expect: 25,
+  },
+
+  // --- みやき町（sum / 基本点数の最高11）---
+  {
+    name: 'みやき: 父10点 + 母8点 = 18',
+    slug: 'miyaki',
+    answers: { parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_2' },
+    expect: 18,
+    expectHouseholdBase: 18,
+  },
+  {
+    name: 'みやき: 合算20 + 保育士20 + ひとり親7 - 滞納7 = 40',
+    slug: 'miyaki',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_0',
+      adj_nursery_staff: 'adj_nursery_staff_1', adj_single_parent: 'adj_single_parent_1',
+      adj_fee_delinquent: 'adj_fee_delinquent_1',
+    },
+    expect: 40,
+  },
+
+  // --- 長井市（sum / 利用基準指数の最高14）---
+  {
+    name: '長井: 父14点 + 母10点 = 24',
+    slug: 'nagai',
+    answers: { parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_2' },
+    expect: 24,
+    expectHouseholdBase: 24,
+  },
+  {
+    name: '長井: 合算28 + 在園児の兄弟4 + 核家族1 - 祖父3 - 祖母3 = 27',
+    slug: 'nagai',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_0',
+      adj_sibling: 'adj_sibling_1', adj_nuclear: 'adj_nuclear_1',
+      adj_grandfather: 'adj_grandfather_1', adj_grandmother: 'adj_grandmother_1',
+    },
+    expect: 27,
+  },
+
+  // --- 豊前市（min / 基本点数の最高90）---
+  // 原典「父と母の基本点数を比較して、低い点数の保護者で算定する。」の確認
+  {
+    name: '豊前: 父90点・母60点なら低い方の60',
+    slug: 'buzen',
+    answers: { parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_4' },
+    expect: 60,
+    expectHouseholdBase: 60,
+  },
+  {
+    name: '豊前: 低い方60 + ひとり親25 + 兄弟同時15 - 同居親族15 = 85',
+    slug: 'buzen',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_4',
+      adj_single_parent: 'adj_single_parent_1', adj_sibling: 'adj_sibling_1',
+      adj_grandparent: 'adj_grandparent_1',
+    },
+    expect: 85,
+  },
 ];
 
 let ng = 0;
