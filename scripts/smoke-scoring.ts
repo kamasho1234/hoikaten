@@ -2209,6 +2209,102 @@ const cases: Case[] = [
     },
     expect: 27,
   },
+  {
+    name: '桜川: 就労100 + 就労75 + ひとり親40 + 市内保育士60 = 275',
+    slug: 'sakuragawa',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_5',
+      adj_single_parent: 'adj_single_parent_1', adj_hoikushi: 'adj_hoikushi_1',
+    },
+    expect: 275,
+  },
+  {
+    name: '桜川: 入院100 + 就労50 + 両親同時失業80 - 祖父母10 - 未就学児10 = 210',
+    slug: 'sakuragawa',
+    answers: {
+      parent1_illness: 'parent1_illness_0', parent2_employment: 'parent2_employment_10',
+      adj_unemployed: 'adj_unemployed_1', adj_grandparent: 'adj_grandparent_1',
+      adj_other_preschool: 'adj_other_preschool_1',
+    },
+    expect: 210,
+  },
+  {
+    name: '桜川: 不存在100 + 地域型卒園100 + きょうだい利用中12 - 就労内定20 = 192',
+    slug: 'sakuragawa',
+    answers: {
+      parent1_absent: 'parent1_absent_0',
+      adj_chiikigata: 'adj_chiikigata_1', adj_sibling_enrolled: 'adj_sibling_enrolled_1',
+      adj_work_status: 'adj_work_status_2',
+    },
+    expect: 192,
+  },
+  {
+    name: '鳴門: 必要性12 + 必要性8 + 保育士10 + 兄弟利用中5 = 35',
+    slug: 'naruto',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_2',
+      adj_hoikushi: 'adj_hoikushi_1', adj_sibling_enrolled: 'adj_sibling_enrolled_1',
+    },
+    expect: 35,
+  },
+  {
+    name: '鳴門: ひとり親 就学10 + 15 + 多子3 - 未納8 = 20',
+    slug: 'naruto',
+    answers: {
+      parent1_school: 'parent1_school_0',
+      adj_single_parent: 'adj_single_parent_1', adj_many_children: 'adj_many_children_1',
+      adj_fee_delinquent: 'adj_fee_delinquent_1',
+    },
+    expect: 20,
+  },
+  {
+    name: '伊奈: 父20 + 母16 + 地域型卒園30 + 保育士町内5 = 71',
+    slug: 'saitama-ina',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_4',
+      adj_chiikigata: 'adj_chiikigata_1', adj_hoikushi: 'adj_hoikushi_1',
+    },
+    expect: 71,
+  },
+  {
+    name: '伊奈: 病気20 + 求職1 + 一人不存在15 - 保育料滞納25 - 書類未提出20 = -9',
+    slug: 'saitama-ina',
+    answers: {
+      parent1_illness: 'parent1_illness_0', parent2_jobseeking: 'parent2_jobseeking_7',
+      adj_absent_parent: 'adj_absent_parent_2',
+      adj_fee_delinquent: 'adj_fee_delinquent_1', adj_no_proof: 'adj_no_proof_1',
+    },
+    expect: -9,
+  },
+  {
+    name: '伊奈: 就学準用20 + 看護介護15 + 就学前3人2 + 認可外預託4 = 41',
+    slug: 'saitama-ina',
+    answers: {
+      parent1_school: 'parent1_school_0', parent2_care: 'parent2_care_3',
+      adj_three_preschool: 'adj_three_preschool_1', adj_prev_care: 'adj_prev_care_1',
+    },
+    expect: 41,
+  },
+  {
+    name: '中間: 父65点・母50点なら低い方の50 + 保育士50 = 100',
+    slug: 'nakama',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_2',
+      adj_hoikushi: 'adj_hoikushi_1',
+    },
+    expect: 100,
+    expectHouseholdBase: 50,
+  },
+  {
+    name: '中間: 低い方40 + ひとり親21 + 育休復帰7 + 児童の障害2 = 70',
+    slug: 'nakama',
+    answers: {
+      parent1_care: 'parent1_care_0', parent2_employment: 'parent2_employment_3',
+      adj_single_parent: 'adj_single_parent_1', adj_return_or_sibling: 'adj_return_or_sibling_1',
+      adj_child_disability: 'adj_child_disability_1',
+    },
+    expect: 70,
+  },
 ];
 
 let ng = 0;

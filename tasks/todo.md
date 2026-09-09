@@ -9840,3 +9840,15 @@ vhunt.py の `same_org()` は緩く、別の自治体のサイトを掴むこと
 
 ### 4月入所向けだけで年度途中を出さない自治体
 読谷村・播磨町・多度津町・あま市・大垣市・昭和町
+
+## シミュレーター：指数の数値が公開されていない自治体（2026-09-09 確認）
+利用調整基準の資料はあるが、点数・指数の数値が載っていないためデータを作れない。
+- 能美市（石川県）… 「利用調整方法・基準について」は事由と判断項目の一覧のみで点数なし
+  https://www.city.nomi.lg.jp/fs/1/1/1/1/2/_/riyoutyosei.pdf
+- 東温市（愛媛県）… 「保育施設等利用調整基準表」は申込者が○を書く提出用。指数欄がない
+  https://www.city.toon.ehime.jp/uploaded/attachment/20500.pdf
+- 田原本町（奈良県）… 「指数算出表兼保育施設利用調整調査書」も記入用紙で指数の数値なし
+  https://www.town.tawaramoto.nara.jp/material/files/group/16/R9cyousasyo.pdf
+- 行橋市（福岡県）… 選考指数表はあるが調整指数表がなく、父母の合わせ方の記載もない
+  https://www.city.yukuhashi.fukuoka.jp/uploaded/attachment/13999.pdf
+  （基準指数だけならデータ化できるので、扱いを決めてから入れる）
