@@ -1996,6 +1996,115 @@ const cases: Case[] = [
     },
     expect: 85,
   },
+  {
+    name: '愛荘: 父就労100 + 母就労80 + 単身赴任県外3 - 祖父母2 = 181',
+    slug: 'aisho',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_4',
+      adj_tanshin: 'adj_tanshin_2', adj_grandparent: 'adj_grandparent_1',
+    },
+    expect: 181,
+  },
+  {
+    name: '愛荘: 傷病70 + 就労60 - 保育料滞納30 = 100',
+    slug: 'aisho',
+    answers: {
+      parent1_illness: 'parent1_illness_3', parent2_employment: 'parent2_employment_9',
+      adj_fee_delinquent: 'adj_fee_delinquent_1',
+    },
+    expect: 100,
+  },
+  {
+    name: '愛荘: ひとり親 就労90 + 120 = 210',
+    slug: 'aisho',
+    answers: {
+      parent1_employment: 'parent1_employment_2',
+      adj_single_parent: 'adj_single_parent_1',
+    },
+    expect: 210,
+  },
+  {
+    name: '三郷: 低い方8 + ひとり親5 + 兄弟利用中3 = 16',
+    slug: 'sango',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_4',
+      adj_single_parent: 'adj_single_parent_1', adj_sibling: 'adj_sibling_1',
+    },
+    expect: 16,
+  },
+  {
+    name: '三郷: 低い方4 + 保育士15 = 19',
+    slug: 'sango',
+    answers: {
+      parent1_illness: 'parent1_illness_0', parent2_employment: 'parent2_employment_8',
+      adj_hoikushi: 'adj_hoikushi_1',
+    },
+    expect: 19,
+  },
+  {
+    name: '三郷: 低い方9 + 同時2人1 + 児童の障がい1 = 11',
+    slug: 'sango',
+    answers: {
+      parent1_employment: 'parent1_employment_2', parent2_childbirth: 'parent2_childbirth_0',
+      adj_multiple_apply: 'adj_multiple_apply_1', adj_child_disability: 'adj_child_disability_1',
+    },
+    expect: 11,
+  },
+  {
+    name: '多度津: 低い方7 + ひとり親3 + 多胎児2 = 12',
+    slug: 'tadotsu',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_5',
+      adj_single_parent: 'adj_single_parent_1', adj_multiple_birth: 'adj_multiple_birth_1',
+    },
+    expect: 12,
+  },
+  {
+    name: '多度津: 低い方8 - 保育料滞納2 = 6',
+    slug: 'tadotsu',
+    answers: {
+      parent1_care: 'parent1_care_2', parent2_employment: 'parent2_employment_2',
+      adj_fee_delinquent: 'adj_fee_delinquent_1',
+    },
+    expect: 6,
+  },
+  {
+    name: '多度津: 低い方10 + 児童福祉法支援10 + 地域型修了5 = 25',
+    slug: 'tadotsu',
+    answers: {
+      parent1_school: 'parent1_school_0', parent2_illness: 'parent2_illness_0',
+      adj_jidou_fukushi: 'adj_jidou_fukushi_1', adj_chiikigata: 'adj_chiikigata_1',
+    },
+    expect: 25,
+  },
+  {
+    name: '宇多津: 父12 + 母8 + きょうだい3 - 就労予定1 = 22',
+    slug: 'utazu',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_2',
+      adj_sibling: 'adj_sibling_1', adj_planned_work: 'adj_planned_work_1',
+    },
+    expect: 22,
+  },
+  {
+    name: '宇多津: 介護10 + 就学6 + ひとり親20 = 36',
+    slug: 'utazu',
+    answers: {
+      parent1_care: 'parent1_care_1', parent2_school: 'parent2_school_3',
+      adj_single_parent: 'adj_single_parent_1',
+    },
+    expect: 36,
+  },
+  {
+    name: '宇多津: 入院12 + 求職4 - 町外5 - 滞納5 - 内定辞退5 = 1',
+    slug: 'utazu',
+    answers: {
+      parent1_illness: 'parent1_illness_0', parent2_jobseeking: 'parent2_jobseeking_0',
+      adj_outside_town: 'adj_outside_town_1', adj_fee_delinquent: 'adj_fee_delinquent_1',
+      adj_declined: 'adj_declined_1',
+    },
+    expect: 1,
+  },
 ];
 
 let ng = 0;

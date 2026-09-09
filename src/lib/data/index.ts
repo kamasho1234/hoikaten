@@ -522,6 +522,10 @@ import { namegawaData } from './namegawa';
 import { miyakiData } from './miyaki';
 import { nagaiData } from './nagai';
 import { buzenData } from './buzen';
+import { aishoData } from './aisho';
+import { sangoData } from './sango';
+import { tadotsuData } from './tadotsu';
+import { utazuData } from './utazu';
 
 const municipalityMap: Record<string, MunicipalityData> = {
   [setagayaData.municipality.slug]: setagayaData,
@@ -1048,6 +1052,10 @@ const municipalityMap: Record<string, MunicipalityData> = {
   [miyakiData.municipality.slug]: miyakiData,
   [nagaiData.municipality.slug]: nagaiData,
   [buzenData.municipality.slug]: buzenData,
+  [aishoData.municipality.slug]: aishoData,
+  [sangoData.municipality.slug]: sangoData,
+  [tadotsuData.municipality.slug]: tadotsuData,
+  [utazuData.municipality.slug]: utazuData,
 };
 
 export function getMunicipalityData(slug: string): MunicipalityData | undefined {
@@ -1156,3 +1164,5 @@ export { chikuzenData };
 export { namegawaData, miyakiData };
 export { nagaiData };
 export { buzenData };
+export { aishoData };
+export { sangoData, tadotsuData, utazuData };
