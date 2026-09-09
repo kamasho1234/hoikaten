@@ -524,6 +524,10 @@ import { nagaiData } from './nagai';
 import { buzenData } from './buzen';
 import { aishoData } from './aisho';
 import { sangoData } from './sango';
+import { hirokawaFukuokaData } from './hirokawa-fukuoka';
+import { ikiData } from './iki';
+import { asoData } from './aso';
+import { oraData } from './ora';
 import { tadotsuData } from './tadotsu';
 import { utazuData } from './utazu';
 
@@ -1054,6 +1058,10 @@ const municipalityMap: Record<string, MunicipalityData> = {
   [buzenData.municipality.slug]: buzenData,
   [aishoData.municipality.slug]: aishoData,
   [sangoData.municipality.slug]: sangoData,
+  [hirokawaFukuokaData.municipality.slug]: hirokawaFukuokaData,
+  [ikiData.municipality.slug]: ikiData,
+  [asoData.municipality.slug]: asoData,
+  [oraData.municipality.slug]: oraData,
   [tadotsuData.municipality.slug]: tadotsuData,
   [utazuData.municipality.slug]: utazuData,
 };
@@ -1166,3 +1174,4 @@ export { nagaiData };
 export { buzenData };
 export { aishoData };
 export { sangoData, tadotsuData, utazuData };
+export { hirokawaFukuokaData, ikiData, asoData, oraData };

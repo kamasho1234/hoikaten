@@ -2105,6 +2105,110 @@ const cases: Case[] = [
     },
     expect: 1,
   },
+  {
+    name: '広川: 労働100 + 労働80 + 兄弟利用中40 + 4月入所120 - 未就学児10 = 330',
+    slug: 'hirokawa-fukuoka',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_2',
+      adj_sibling_enrolled: 'adj_sibling_enrolled_1', adj_entry_month: 'adj_entry_month_4',
+      adj_other_preschool: 'adj_other_preschool_1',
+    },
+    expect: 330,
+  },
+  {
+    name: '広川: ひとり親 入院100 + 150 + 10月入所60 = 310',
+    slug: 'hirokawa-fukuoka',
+    answers: {
+      parent1_illness: 'parent1_illness_0',
+      adj_household: 'adj_household_1', adj_entry_month: 'adj_entry_month_10',
+    },
+    expect: 310,
+  },
+  {
+    name: '広川: 介護60 + 就学60 + 第3子20 - 雇用主が親族10 = 130',
+    slug: 'hirokawa-fukuoka',
+    answers: {
+      parent1_care: 'parent1_care_2', parent2_school: 'parent2_school_1',
+      adj_third_child: 'adj_third_child_1', adj_work_place: 'adj_work_place_3',
+    },
+    expect: 130,
+  },
+  {
+    name: '壱岐: 原典の例。父20 + 母16 + 父母とも3年以上継続4 = 40',
+    slug: 'iki',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_7',
+      adj_work_years: 'adj_work_years_2',
+    },
+    expect: 40,
+  },
+  {
+    name: '壱岐: 介護20 + 内職14 + 単身赴任2 + 特別支援2 - 滞納3 = 35',
+    slug: 'iki',
+    answers: {
+      parent1_care: 'parent1_care_1', parent2_employment: 'parent2_employment_12',
+      adj_absent_parent: 'adj_absent_parent_3', adj_special_support: 'adj_special_support_1',
+      adj_fee_delinquent: 'adj_fee_delinquent_1',
+    },
+    expect: 35,
+  },
+  {
+    name: '壱岐: 就学20 + 一人不存在4 + 母子で就労継続5 + 多胎児4 = 33',
+    slug: 'iki',
+    answers: {
+      parent1_school: 'parent1_school_0',
+      adj_absent_parent: 'adj_absent_parent_2', adj_single_parent: 'adj_single_parent_1',
+      adj_sibling: 'adj_sibling_1',
+    },
+    expect: 33,
+  },
+  {
+    name: '阿蘇: 就労は日数と時間の合計。(10+15) + (8+12) + きょうだい在園5 = 50',
+    slug: 'aso',
+    answers: {
+      parent1_workdays: 'parent1_workdays_0', parent1_workhours: 'parent1_workhours_0',
+      parent2_workdays: 'parent2_workdays_2', parent2_workhours: 'parent2_workhours_3',
+      adj_sibling: 'adj_sibling_1',
+    },
+    expect: 50,
+  },
+  {
+    name: '阿蘇: 入院25 + (6+10) - 祖父母3 - 滞納5 = 33',
+    slug: 'aso',
+    answers: {
+      parent1_illness: 'parent1_illness_0',
+      parent2_workdays: 'parent2_workdays_4', parent2_workhours: 'parent2_workhours_5',
+      adj_grandparent: 'adj_grandparent_1', adj_fee_delinquent: 'adj_fee_delinquent_1',
+    },
+    expect: 33,
+  },
+  {
+    name: '邑楽: 正社員10 + パート8時間以内8 + きょうだい5 - 就労日数20日未満1 = 22',
+    slug: 'ora',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_3',
+      adj_sibling: 'adj_sibling_1', adj_work_days: 'adj_work_days_1',
+    },
+    expect: 22,
+  },
+  {
+    name: '邑楽: 入院10 + パート6時間以内6 + 子の障害3 - 同居60歳未満2 = 17',
+    slug: 'ora',
+    answers: {
+      parent1_illness: 'parent1_illness_0', parent2_employment: 'parent2_employment_12',
+      adj_child_disability: 'adj_child_disability_1', adj_grandparent: 'adj_grandparent_2',
+    },
+    expect: 17,
+  },
+  {
+    name: '邑楽: 入院付添10 + 出産9 + ひとり親5 + 保育士3 = 27',
+    slug: 'ora',
+    answers: {
+      parent1_care: 'parent1_care_0', parent2_childbirth: 'parent2_childbirth_0',
+      adj_single_parent: 'adj_single_parent_1', adj_hoikushi: 'adj_hoikushi_1',
+    },
+    expect: 27,
+  },
 ];
 
 let ng = 0;
