@@ -2483,6 +2483,99 @@ const cases: Case[] = [
     },
     expect: 38,
   },
+  {
+    name: '金武: 就労は日数と時間の合計。(5+5) + (4+4) + ひとり親10 = 28',
+    slug: 'kin',
+    answers: {
+      parent1_workdays: 'parent1_workdays_0', parent1_workhours: 'parent1_workhours_0',
+      parent2_workdays: 'parent2_workdays_1', parent2_workhours: 'parent2_workhours_1',
+      adj_single_parent: 'adj_single_parent_1',
+    },
+    expect: 28,
+  },
+  {
+    name: '金武: 入院10 + 就学8 + 保育士1人5 - 育休延長許容2人60 = -37',
+    slug: 'kin',
+    answers: {
+      parent1_illness: 'parent1_illness_0', parent2_school: 'parent2_school_0',
+      adj_hoikushi: 'adj_hoikushi_1', adj_leave_extension: 'adj_leave_extension_2',
+    },
+    expect: -37,
+  },
+  {
+    name: '信濃: 雇用10 + 協力者6 + 保育士3 + 兄弟在園3 = 22',
+    slug: 'shinano',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_8',
+      adj_hoikushi: 'adj_hoikushi_1', adj_sibling: 'adj_sibling_1',
+    },
+    expect: 22,
+  },
+  {
+    name: '信濃: ひとり親は基本点数に10。就労10 + 10 + 調整5 = 25',
+    slug: 'shinano',
+    answers: {
+      parent1_employment: 'parent1_employment_0',
+      adj_single_parent_base: 'adj_single_parent_base_1', adj_single_parent: 'adj_single_parent_1',
+    },
+    expect: 25,
+  },
+  {
+    name: '里庄: 居宅外10 + 居宅内7 + 町内保育士20 - 祖父母10 = 27',
+    slug: 'satosho',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_6',
+      adj_hoikushi: 'adj_hoikushi_1', adj_grandparent: 'adj_grandparent_1',
+    },
+    expect: 27,
+  },
+  {
+    name: '里庄: 入院10 + 介護準用6 + 地域型卒園4 - 町外10 - 通信制3 = 7',
+    slug: 'satosho',
+    answers: {
+      parent1_illness: 'parent1_illness_0', parent2_care: 'parent2_care_4',
+      adj_chiikigata: 'adj_chiikigata_1', adj_outside_town: 'adj_outside_town_1',
+      adj_correspondence: 'adj_correspondence_1',
+    },
+    expect: 7,
+  },
+  {
+    name: '六戸: 常勤9 + パート6時間7 + 兄弟入所3 - 就労日数16〜19日2 = 17',
+    slug: 'rokunohe',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_6',
+      adj_sibling: 'adj_sibling_1', adj_work_days: 'adj_work_days_2',
+    },
+    expect: 17,
+  },
+  {
+    name: '六戸: 母子家庭 入院付添10 + 5 + 生活指導延長3 = 18',
+    slug: 'rokunohe',
+    answers: {
+      parent1_care: 'parent1_care_2',
+      adj_single_parent: 'adj_single_parent_1', adj_extended_care: 'adj_extended_care_1',
+    },
+    expect: 18,
+  },
+  {
+    name: '中泊: 労働10 + 労働8 + 未就学児3人2 - 祖父母4 = 16',
+    slug: 'nakadomari',
+    answers: {
+      parent1_employment: 'parent1_employment_0', parent2_employment: 'parent2_employment_2',
+      adj_many_children: 'adj_many_children_1', adj_grandparent: 'adj_grandparent_1',
+    },
+    expect: 16,
+  },
+  {
+    name: '中泊: ひとり親 入院10 + 5 + 生活保護2 - 内職2 = 15',
+    slug: 'nakadomari',
+    answers: {
+      parent1_illness: 'parent1_illness_0',
+      adj_single_parent: 'adj_single_parent_1', adj_welfare: 'adj_welfare_1',
+      adj_home_work: 'adj_home_work_3',
+    },
+    expect: 15,
+  },
 ];
 
 let ng = 0;

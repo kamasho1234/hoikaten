@@ -541,6 +541,11 @@ import { kogeData } from './koge';
 import { kawaraData } from './kawara';
 import { urakawaData } from './urakawa';
 import { ajigasawaData } from './ajigasawa';
+import { kinData } from './kin';
+import { shinanoData } from './shinano';
+import { satoshoData } from './satosho';
+import { rokunoheData } from './rokunohe';
+import { nakadomariData } from './nakadomari';
 import { tadotsuData } from './tadotsu';
 import { utazuData } from './utazu';
 
@@ -1088,6 +1093,11 @@ const municipalityMap: Record<string, MunicipalityData> = {
   [kawaraData.municipality.slug]: kawaraData,
   [urakawaData.municipality.slug]: urakawaData,
   [ajigasawaData.municipality.slug]: ajigasawaData,
+  [kinData.municipality.slug]: kinData,
+  [shinanoData.municipality.slug]: shinanoData,
+  [satoshoData.municipality.slug]: satoshoData,
+  [rokunoheData.municipality.slug]: rokunoheData,
+  [nakadomariData.municipality.slug]: nakadomariData,
   [tadotsuData.municipality.slug]: tadotsuData,
   [utazuData.municipality.slug]: utazuData,
 };
@@ -1207,3 +1217,5 @@ export { yazuData, namieData };
 export { yoshimiData };
 export { kogeData, kawaraData, urakawaData };
 export { ajigasawaData };
+export { kinData, shinanoData, satoshoData, rokunoheData };
+export { nakadomariData };
