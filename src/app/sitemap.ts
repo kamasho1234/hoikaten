@@ -9,204 +9,11 @@ import { getAllInsuranceArticles } from "@/lib/insurance";
 import "@/lib/insurance/register-all";
 
 // 記事データの登録（sitemapはlayout.tsxとは別に実行されるため直接import）
-import "@/lib/articles/setagaya";
-import "@/lib/articles/yokohama";
-import "@/lib/articles/osaka";
-import "@/lib/articles/kawasaki";
-import "@/lib/articles/nagoya";
-import "@/lib/articles/saitama";
-import "@/lib/articles/sapporo";
-import "@/lib/articles/sendai";
-import "@/lib/articles/fukuoka";
-import "@/lib/articles/hiroshima";
-import "@/lib/articles/kobe";
-import "@/lib/articles/kyoto";
-import "@/lib/articles/kitakyushu";
-import "@/lib/articles/hamamatsu";
-import "@/lib/articles/sakai";
-import "@/lib/articles/niigata";
-import "@/lib/articles/sagamihara";
-import "@/lib/articles/nerima";
-import "@/lib/articles/ota";
-import "@/lib/articles/edogawa";
-import "@/lib/articles/adachi";
-import "@/lib/articles/suginami";
-import "@/lib/articles/itabashi";
-import "@/lib/articles/nakano";
-import "@/lib/articles/kita";
-import "@/lib/articles/arakawa";
-import "@/lib/articles/shinagawa";
-import "@/lib/articles/bunkyo";
-import "@/lib/articles/taito";
-import "@/lib/articles/chuo";
-import "@/lib/articles/chiyoda";
-import "@/lib/articles/koto";
-import "@/lib/articles/okayama";
-import "@/lib/articles/kumamoto";
-import "@/lib/articles/shizuoka";
-import "@/lib/articles/machida";
-import "@/lib/articles/fujisawa";
-import "@/lib/articles/toyonaka";
-import "@/lib/articles/yokosuka";
-import "@/lib/articles/funabashi";
-import "@/lib/articles/hachioji";
-import "@/lib/articles/kawaguchi";
-import "@/lib/articles/himeji";
-import "@/lib/articles/matsuyama";
-import "@/lib/articles/kagoshima";
-import "@/lib/articles/utsunomiya";
-import "@/lib/articles/higashiosaka";
-import "@/lib/articles/nishinomiya";
-import "@/lib/articles/amagasaki";
-import "@/lib/articles/toyota";
-import "@/lib/articles/kawagoe";
-import "@/lib/articles/kanazawa";
-import "@/lib/articles/takatsuki";
-import "@/lib/articles/kazo";
-import "@/lib/articles/kuki";
-import "@/lib/articles/koshigaya";
-import "@/lib/articles/nara";
-import "@/lib/articles/nagasaki";
-import "@/lib/articles/oita";
-import "@/lib/articles/naha";
-import "@/lib/articles/akashi";
-import "@/lib/articles/suita";
-import "@/lib/articles/okazaki";
-import "@/lib/articles/ichinomiya";
-import "@/lib/articles/hirakata";
-import "@/lib/articles/otsu";
-import "@/lib/articles/asahikawa";
-import "@/lib/articles/hakodate";
-import "@/lib/articles/mito";
-import "@/lib/articles/maebashi";
-import "@/lib/articles/takasaki";
-import "@/lib/articles/aomori";
-import "@/lib/articles/morioka";
-import "@/lib/articles/akita";
-import "@/lib/articles/yamagata";
-import "@/lib/articles/fukushima";
-import "@/lib/articles/koriyama";
-import "@/lib/articles/iwaki";
-import "@/lib/articles/toyama";
-import "@/lib/articles/fukui";
-import "@/lib/articles/nagano";
-import "@/lib/articles/gifu";
-import "@/lib/articles/toyohashi";
-import "@/lib/articles/wakayama";
-import "@/lib/articles/kurashiki";
-import "@/lib/articles/fukuyama";
-import "@/lib/articles/kure";
-import "@/lib/articles/shimonoseki";
-import "@/lib/articles/matsue";
-import "@/lib/articles/kochi";
-import "@/lib/articles/sasebo";
-import "@/lib/articles/tottori";
-import "@/lib/articles/kurume";
-import "@/lib/articles/miyazaki";
-import "@/lib/articles/ome";
-import "@/lib/articles/koganei";
-import "@/lib/articles/kokubunji";
-import "@/lib/articles/tama";
-import "@/lib/articles/kodaira";
-import "@/lib/articles/higashimurayama";
-import "@/lib/articles/nishitokyo";
-import "@/lib/articles/mitaka";
-import "@/lib/articles/hino";
-import "@/lib/articles/musashino";
-import "@/lib/articles/hiratsuka";
-import "@/lib/articles/chigasaki";
-import "@/lib/articles/yamato";
-import "@/lib/articles/tokorozawa";
-import "@/lib/articles/soka";
-import "@/lib/articles/kasukabe";
-import "@/lib/articles/ageo";
-import "@/lib/articles/kumagaya";
-import "@/lib/articles/sayama";
-import "@/lib/articles/misato";
-import "@/lib/articles/ibaraki";
-import "@/lib/articles/yao";
-import "@/lib/articles/neyagawa";
-import "@/lib/articles/kishiwada";
-import "@/lib/articles/moriguchi";
-import "@/lib/articles/ikeda";
-import "@/lib/articles/tokushima";
-import "@/lib/articles/tsu";
-import "@/lib/articles/kofu";
-import "@/lib/articles/matsumoto";
-import "@/lib/articles/yokkaichi";
-import "@/lib/articles/kusatsu";
-import "@/lib/articles/ichikawa";
-import "@/lib/articles/nagareyama";
-import "@/lib/articles/itami";
-import "@/lib/articles/kawanishi";
-import "@/lib/articles/kasugai";
-import "@/lib/articles/toyokawa";
-import "@/lib/articles/omuta";
-import "@/lib/articles/kasuga";
-import "@/lib/articles/tomakomai";
-import "@/lib/articles/obihiro";
-import "@/lib/articles/kushiro";
-import "@/lib/articles/uji";
-import "@/lib/articles/higashihiroshima";
-import "@/lib/articles/chiba";
-import "@/lib/articles/chofu";
-import "@/lib/articles/fuchu";
-import "@/lib/articles/nagaoka";
-import "@/lib/articles/izumi";
-import "@/lib/articles/iruma";
-import "@/lib/articles/toda";
-import "@/lib/articles/asaka";
-import "@/lib/articles/zama";
-import "@/lib/articles/daito";
-import "@/lib/articles/matsubara";
-import "@/lib/articles/imabari";
-import "@/lib/articles/suzuka";
-import "@/lib/articles/joetsu";
-import "@/lib/articles/hikone";
-import "@/lib/articles/numazu";
-import "@/lib/articles/takaoka";
-import "@/lib/articles/ogaki";
-import "@/lib/articles/itoshima";
-import "@/lib/articles/higashikurume";
-import "@/lib/articles/fukaya";
-import "@/lib/articles/fujimino";
-import "@/lib/articles/konosu";
-import "@/lib/articles/sakado";
-import "@/lib/articles/gyoda";
-import "@/lib/articles/higashimatsuyama";
-import "@/lib/articles/shiki";
-import "@/lib/articles/obu";
-import "@/lib/articles/tondabayashi";
-import "@/lib/articles/habikino";
-import "@/lib/articles/chikushino";
-import "@/lib/articles/nisshin";
-import "@/lib/articles/onojo";
-import "@/lib/articles/dazaifu";
-import "@/lib/articles/nagaokakyo";
-import "@/lib/articles/kashihara";
-import "@/lib/articles/ikoma";
-import "@/lib/articles/okegawa";
-import "@/lib/articles/katano";
-import "@/lib/articles/isesaki";
-import "@/lib/articles/ota-gunma";
-import "@/lib/articles/kiryu";
-import "@/lib/articles/hitachi";
-import "@/lib/articles/hitachinaka";
-import "@/lib/articles/koga";
-import "@/lib/articles/toride";
-import "@/lib/articles/moriya";
-import "@/lib/articles/hirosaki";
-import "@/lib/articles/ishinomaki";
-import "@/lib/articles/oyama";
-import "@/lib/articles/ashikaga";
-import "@/lib/articles/tochigi-city";
-import "@/lib/articles/nasushiobara";
-import "@/lib/articles/sano";
-import "@/lib/articles/moka";
-import "@/lib/articles/tsuruoka";
-import "@/lib/articles/sakata";
-import "@/lib/articles/iizuka";
-import "@/lib/articles/munakata";
+// 記事の登録は register-all.ts に一本化する。
+// ここに自治体ごとの import を手書きしていたため、書き足し忘れた355自治体・
+// 2,084本の記事がサイトマップから抜けていた（2026-09-10 に判明）。
+// register-all.ts は npm run build の前に verify-article-registry.ts が検査する。
+import "@/lib/articles/register-all";
 
 const prefectureSlugs = [
   "hokkaido", "aomori", "iwate", "miyagi", "akita", "yamagata", "fukushima",
@@ -218,28 +25,57 @@ const prefectureSlugs = [
   "kumamoto", "oita", "miyazaki", "kagoshima", "okinawa",
 ];
 
+// lastmod にビルド時刻（new Date()）を入れると毎回すべてのURLが更新扱いになり、
+// Google が lastmod を信用しなくなる。実データから決められるものは実データを使い、
+// 決められない固定ページはこの定数を使う（内容を変えたときに手で更新する）。
+const SITE_UPDATED_AT = new Date("2026-09-10");
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const municipalities = getAllMunicipalities();
   const articles = getAllArticles();
   const baseUrl = "https://hoikaten.com";
 
+  // 自治体ごとに、その自治体の記事でいちばん新しい日付を持っておく
+  const cityNewest = new Map<string, Date>();
+  for (const a of articles) {
+    if (a.citySlug === "general") continue;
+    const d = new Date(a.publishedAt);
+    if (Number.isNaN(d.getTime())) continue;
+    const cur = cityNewest.get(a.citySlug);
+    if (!cur || d > cur) cityNewest.set(a.citySlug, d);
+  }
+  const cityUpdatedAt = (slug: string) => cityNewest.get(slug) ?? SITE_UPDATED_AT;
+
+  // 都道府県ページは、その県の自治体でいちばん新しい日付にする
+  const prefectureUpdatedAt = (prefSlug: string) => {
+    const prefName = prefectureMap[prefSlug];
+    if (!prefName) return SITE_UPDATED_AT;
+    let newest: Date | null = null;
+    for (const m of municipalities) {
+      if (m.prefecture !== prefName) continue;
+      const d = cityNewest.get(m.slug);
+      if (d && (!newest || d > newest)) newest = d;
+    }
+    return newest ?? SITE_UPDATED_AT;
+  };
+
   const prefecturePages = prefectureSlugs.map((slug) => ({
     url: `${baseUrl}/prefecture/${slug}`,
-    lastModified: new Date(),
+    lastModified: prefectureUpdatedAt(slug),
     changeFrequency: "monthly" as const,
     priority: 0.8,
   }));
 
   const cityPages = municipalities.map((m) => ({
     url: `${baseUrl}/${m.slug}`,
-    lastModified: new Date(),
+    lastModified: cityUpdatedAt(m.slug),
     changeFrequency: "monthly" as const,
     priority: 0.9,
   }));
 
   const articleListPages = municipalities.map((m) => ({
     url: `${baseUrl}/${m.slug}/articles`,
-    lastModified: new Date(),
+    lastModified: cityUpdatedAt(m.slug),
     changeFrequency: "monthly" as const,
     priority: 0.7,
   }));
@@ -288,37 +124,37 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
       url: baseUrl,
-      lastModified: new Date(),
+      lastModified: SITE_UPDATED_AT,
       changeFrequency: "monthly" as const,
       priority: 1,
     },
     {
       url: `${baseUrl}/select`,
-      lastModified: new Date(),
+      lastModified: SITE_UPDATED_AT,
       changeFrequency: "monthly" as const,
       priority: 0.8,
     },
     {
       url: `${baseUrl}/vacancy`,
-      lastModified: new Date(),
+      lastModified: SITE_UPDATED_AT,
       changeFrequency: "daily" as const,
       priority: 0.8,
     },
     {
       url: `${baseUrl}/articles`,
-      lastModified: new Date(),
+      lastModified: SITE_UPDATED_AT,
       changeFrequency: "monthly" as const,
       priority: 0.7,
     },
     {
       url: `${baseUrl}/documents`,
-      lastModified: new Date(),
+      lastModified: SITE_UPDATED_AT,
       changeFrequency: "monthly" as const,
       priority: 0.8,
     },
     {
       url: `${baseUrl}/insurance`,
-      lastModified: new Date(),
+      lastModified: SITE_UPDATED_AT,
       changeFrequency: "monthly" as const,
       priority: 0.7,
     },

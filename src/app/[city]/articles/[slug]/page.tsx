@@ -1,4 +1,4 @@
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import { getMunicipalityData, getAllMunicipalities } from "@/lib/data";
 import { getArticle, getArticlesByCity } from "@/lib/articles";
 import { RandomTextAd } from "@/components/random-text-ad";
@@ -69,7 +69,17 @@ export default async function ArticlePage({
   const { city, slug } = await params;
   const data = getMunicipalityData(city);
   const article = getArticle(city, slug);
-  if (!data || !article) notFound();
+  if (!data) notFound();
+  if (!article) {
+    // 記事のスラッグは昔「point-system」のような自治体名なしの形だった。
+    // いまは「komaki-scoring-system」のように自治体名を頭に付けている。
+    // 昔のURLがそのまま404になっていて（Search Console で記事468本）、
+    // 検索からの流入とリンクを捨てていたので、新しいスラッグへ送る。
+    const renamed = getArticle(city, `${city}-${slug}`);
+    if (renamed) permanentRedirect(`/${city}/articles/${renamed.slug}`);
+    // 引っ越し先が分からないものは、同じ自治体の記事一覧へ送る
+    permanentRedirect(`/${city}/articles`);
+  }
 
   const allArticles = getArticlesByCity(city);
   const otherArticles = allArticles.filter((a) => a.slug !== slug).slice(0, 3);
