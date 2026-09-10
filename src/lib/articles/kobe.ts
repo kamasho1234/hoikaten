@@ -1478,12 +1478,17 @@ const articles: Article[] = [
   {
     slug: "shurou-shoumeisho",
     citySlug: "kobe",
-    title: "神戸市の就労証明書の書き方と注意点",
-    description: "神戸市の保育園申込に必要な就労証明書の記入ポイント、よくある間違い、提出期限を解説します。",
+    title: "神戸市の就労証明書｜様式ダウンロード先と記入例【令和8年度】",
+    description:
+      "神戸市の保育園申込みに使う就労証明書について、公式の様式ダウンロード先へのリンクと、点数の付き方・記入例・よくある不備をまとめています。会社に依頼する前に確認してください。",
     image: "https://images.unsplash.com/photo-1568667256549-094345857637?w=800&h=400&fit=crop",
     category: "保活の基本",
     categoryColor: "green",
-    content: `<h2>就労証明書とは</h2>
+    content: `<div class="info-box">
+<p><strong>まずは公式の様式をダウンロード</strong></p>
+<p>就労証明書の様式・記入例は<a href="https://www.city.kobe.lg.jp/a65174/kosodate/shien/shinseido/riyomoshikomi/shinsehoho.html" target="_blank" rel="noopener">神戸市公式サイト</a>からダウンロードできます。この記事では、その様式をどう書くと点数にどう響くかを説明します。</p>
+</div>
+<h2>就労証明書とは</h2>
 <p>就労証明書は、保護者の就労状況を証明する書類です。勤務先に作成を依頼し、保育園の入園申込書類として提出します。</p>
 
 <h2>記入のポイント</h2>
@@ -1510,12 +1515,7 @@ const articles: Article[] = [
 <li>勤務時間が「所定労働時間」ではなく「残業込み」で記入されている</li>
 <li>育休中の記載がない（育休開始日・復職予定日の記入漏れ）</li>
 <li>証明日が古すぎる</li>
-</ul>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>就労証明書の様式は<a href="https://www.city.kobe.lg.jp/a65174/kosodate/shien/shinseido/riyomoshikomi/shinsehoho.html" target="_blank" rel="noopener">神戸市公式サイト</a>からダウンロードできます。</p>
-</div>`,
+</ul>`,
     publishedAt: "2026-04-07",
     popularity: 45,
   },

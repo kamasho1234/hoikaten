@@ -795,7 +795,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>ひとり親世帯の支援制度については<a href="https://www.city.nagoya.jp/kodomo/kosodate/1009115/1009125/1009270/1034086.htmlpage/0000006029.html" target="_blank" rel="noopener">名古屋市子ども青少年局のひとり親支援ページ</a>をご確認ください。</p>
+<p>ひとり親世帯の支援制度については<a href="https://www.city.nagoya.jp/kodomo/kosodate/1009115/1009125/1009270/1034086.html" target="_blank" rel="noopener">名古屋市子ども青少年局のひとり親支援ページ</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 50,
@@ -979,7 +979,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>多胎児家庭支援の詳細は<a href="https://www.city.nagoya.jp/kodomo/kosodate/1009115/1009125/1009270/1034086.htmlpage/0000127036.html" target="_blank" rel="noopener">名古屋市子ども青少年局の多胎児支援ページ</a>をご確認ください。</p>
+<p>多胎児家庭支援の詳細は<a href="https://www.city.nagoya.jp/kodomo/kosodate/1009115/1009125/1009270/1034086.html" target="_blank" rel="noopener">名古屋市子ども青少年局の多胎児支援ページ</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 35,
@@ -1105,7 +1105,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新の待機児童数は<a href="https://www.city.nagoya.jp/kodomo/kosodate/1009115/1009125/1009270/1034086.htmlpage/0000051906.html" target="_blank" rel="noopener">名古屋市子ども青少年局のページ</a>で公表されています。</p>
+<p>最新の待機児童数は<a href="https://www.city.nagoya.jp/kodomo/kosodate/1009115/1009125/1009270/1034086.html" target="_blank" rel="noopener">名古屋市子ども青少年局のページ</a>で公表されています。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 55,
@@ -1950,14 +1950,18 @@ const articles: Article[] = [
   {
     slug: "shurou-shoumeisho",
     citySlug: "nagoya",
-    title: "名古屋市の就労証明書 記入例【令和8年度版】ランク別の書き方と注意点",
+    title: "名古屋市の就労証明書｜様式ダウンロード先と記入例【令和8年度】",
     description:
-      "名古屋市の保育園申込みに必要な就労証明書の記入例を徹底解説。ランクA〜Fの判定基準（週40時間以上でランクA）、就労時間・日数の正しい書き方、よくある記入ミスと対策。令和8年度対応。",
+      "名古屋市の保育園申込みに使う就労証明書について、公式の様式ダウンロード先へのリンクと、点数の付き方・記入例・よくある不備をまとめています。会社に依頼する前に確認してください。",
     image:
       "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&h=400&fit=crop",
     category: "保活の基本",
     categoryColor: "green",
-    content: `<h2>就労証明書とは</h2>
+    content: `<div class="info-box">
+<p><strong>まずは公式の様式をダウンロード</strong></p>
+<p>就労証明書の様式・記入例は<a href="https://kodomokosodate.city.nagoya.jp/firstuse/" target="_blank" rel="noopener">名古屋市公式サイト</a>からダウンロードできます。この記事では、その様式をどう書くと点数にどう響くかを説明します。</p>
+</div>
+<h2>就労証明書とは</h2>
 <p>就労証明書は、保護者の就労状況を証明するための書類で、保育園入園申込に必須です。名古屋市指定の様式を使用し、勤務先に記入してもらいます。</p>
 
 <h2>記入の流れ</h2>
@@ -1994,11 +1998,6 @@ const articles: Article[] = [
 <div class="warn-box">
 <p><strong>注意</strong></p>
 <p>就労証明書に虚偽の記載があった場合、入園取消の対象になります。勤務先にも正確な記入を依頼しましょう。</p>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>就労証明書の様式は<a href="https://kodomokosodate.city.nagoya.jp/firstuse/" target="_blank" rel="noopener">「ここなご」</a>からダウンロードできます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 45,

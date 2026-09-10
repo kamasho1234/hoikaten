@@ -1585,12 +1585,17 @@ const articles: Article[] = [
   {
     slug: "shurou-shoumeisho",
     citySlug: "saitama",
-    title: "さいたま市の就労証明書 記入例【令和8年度版】点数別の書き方と注意点",
-    description: "さいたま市の保育園申込みに必要な就労証明書の記入例を徹底解説。月160時間以上で最高点26点、就労時間帯別の点数早見表、よくある記入ミスTop5と対策チェックリスト。令和8年度申込対応。",
+    title: "さいたま市の就労証明書｜様式ダウンロード先と記入例【令和8年度】",
+    description:
+      "さいたま市の保育園申込みに使う就労証明書について、公式の様式ダウンロード先へのリンクと、点数の付き方・記入例・よくある不備をまとめています。会社に依頼する前に確認してください。",
     image: "https://images.unsplash.com/photo-1568667256549-094345857637?w=800&h=400&fit=crop",
     category: "保活の基本",
     categoryColor: "green",
-    content: `<h2>就労証明書とは</h2>
+    content: `<div class="info-box">
+<p><strong>まずは公式の様式をダウンロード</strong></p>
+<p>就労証明書の様式・記入例は<a href="https://www.city.saitama.lg.jp/003/001/015/001/p100639.html" target="_blank" rel="noopener">さいたま市公式サイト</a>からダウンロードできます。この記事では、その様式をどう書くと点数にどう響くかを説明します。</p>
+</div>
+<h2>就労証明書とは</h2>
 <p>保護者の就労状況を証明する書類です。勤務先に作成を依頼します。</p>
 
 <h2>記入のポイント</h2>
@@ -1610,11 +1615,6 @@ const articles: Article[] = [
 <div class="point-box">
 <p><strong>ポイント</strong></p>
 <p>就労証明書は申込日から遡って<strong>3か月以内</strong>に作成されたものが有効です。</p>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>様式は<a href="https://www.city.saitama.lg.jp/003/001/015/001/p100639.html" target="_blank" rel="noopener">さいたま市公式サイト</a>からダウンロードできます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 45,

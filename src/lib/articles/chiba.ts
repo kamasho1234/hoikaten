@@ -890,14 +890,18 @@ const articles: Article[] = [
   {
     slug: "shurou-shoumeisho",
     citySlug: "chiba",
-    title: "千葉市の就労証明書 記入例【令和8年度版】書き方と注意点まとめ",
+    title: "千葉市の就労証明書｜様式ダウンロード先と記入例【令和8年度】",
     description:
-      "千葉市の保育園申込みに必要な就労証明書の記入例を徹底解説。月間就労時間・日数の正しい書き方、よくある記入ミスTop5と対策チェックリスト、様式ダウンロード先まで網羅。令和8年度申込対応。",
+      "千葉市の保育園申込みに使う就労証明書について、公式の様式ダウンロード先へのリンクと、点数の付き方・記入例・よくある不備をまとめています。会社に依頼する前に確認してください。",
     image:
       "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
     category: "書類・手続き",
     categoryColor: "green",
-    content: `<h2>就労証明書とは</h2>
+    content: `<div class="info-box">
+<p><strong>まずは公式の様式をダウンロード</strong></p>
+<p>就労証明書の様式・記入例は<a href="https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/4nyusyoannnai.html" target="_blank" rel="noopener">千葉市公式サイト</a>からダウンロードできます。この記事では、その様式をどう書くと点数にどう響くかを説明します。</p>
+</div>
+<h2>就労証明書とは</h2>
 <p>保育園の入園申込に必要な書類で、保護者の就労状況（勤務先・就労時間・勤務日数など）を勤務先が証明するものです。</p>
 
 <h2>記入のポイント</h2>
@@ -919,12 +923,7 @@ const articles: Article[] = [
 <li>証明日が古すぎる（申込日に近い日付が望ましい）</li>
 <li>社印の押印漏れ</li>
 <li>就労時間の記載が曖昧（「約○時間」ではなく具体的に）</li>
-</ul>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>就労証明書の様式は<a href="https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/4nyusyoannnai.html" target="_blank" rel="noopener">千葉市公式サイト</a>からダウンロードできます。</p>
-</div>`,
+</ul>`,
     publishedAt: "2026-04-07",
     popularity: 63,
   },

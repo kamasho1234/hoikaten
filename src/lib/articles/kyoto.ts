@@ -68,7 +68,7 @@ const articles: Article[] = [
 </div>
 
 <h2>途中入園（5月〜3月）の申込</h2>
-<p>各月の申込締切は、入園希望月の<span class="highlight">前月の中旬</span>です。詳しくは<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000054110.htmlpage/0000274712.html" target="_blank" rel="noopener">京都市公式サイト「保育利用申込みの御案内」</a>をご確認ください。</p>`,
+<p>各月の申込締切は、入園希望月の<span class="highlight">前月の中旬</span>です。詳しくは<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000274712.html" target="_blank" rel="noopener">京都市公式サイト「保育利用申込みの御案内」</a>をご確認ください。</p>`,
     publishedAt: "2026-03-28",
     popularity: 55,
   },
@@ -119,7 +119,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新の指数表は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000054110.htmlpage/0000274712.html" target="_blank" rel="noopener">京都市公式サイト「保育利用申込みの御案内」</a>でご確認ください。</p>
+<p>最新の指数表は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000274712.html" target="_blank" rel="noopener">京都市公式サイト「保育利用申込みの御案内」</a>でご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
     popularity: 65,
@@ -169,7 +169,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>全項目の詳細は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000054110.htmlpage/0000274712.html" target="_blank" rel="noopener">京都市公式サイト「保育利用申込みの御案内」</a>でご確認ください。</p>
+<p>全項目の詳細は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000274712.html" target="_blank" rel="noopener">京都市公式サイト「保育利用申込みの御案内」</a>でご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
     popularity: 100,
@@ -230,7 +230,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳細は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000054110.htmlpage/0000274712.html" target="_blank" rel="noopener">京都市公式サイト「保育利用申込みの御案内」</a>をご確認ください。</p>
+<p>詳細は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000274712.html" target="_blank" rel="noopener">京都市公式サイト「保育利用申込みの御案内」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
     popularity: 85,
@@ -279,7 +279,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>就労証明書の記載方法は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000054110.htmlpage/0000172423.html" target="_blank" rel="noopener">京都市公式サイト「関係様式」</a>をご確認ください。</p>
+<p>就労証明書の記載方法は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000172423.html" target="_blank" rel="noopener">京都市公式サイト「関係様式」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
     popularity: 90,
@@ -344,7 +344,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>認可外保育施設の一覧は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000054110.htmlpage/0000194028.html" target="_blank" rel="noopener">京都市公式サイト「認可外保育施設について」</a>で確認できます。</p>
+<p>認可外保育施設の一覧は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000194028.html" target="_blank" rel="noopener">京都市公式サイト「認可外保育施設について」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-03-28",
     popularity: 80,
@@ -393,7 +393,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>認可外保育施設の一覧は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000054110.htmlpage/0000194028.html" target="_blank" rel="noopener">京都市公式サイト</a>でご確認ください。</p>
+<p>認可外保育施設の一覧は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000194028.html" target="_blank" rel="noopener">京都市公式サイト</a>でご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
     popularity: 75,
@@ -436,7 +436,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>令和8年度の詳細は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000054110.htmlpage/0000274712.html" target="_blank" rel="noopener">京都市公式サイト「令和8年度保育利用申込みの御案内」</a>をご確認ください。</p>
+<p>令和8年度の詳細は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000274712.html" target="_blank" rel="noopener">京都市公式サイト「令和8年度保育利用申込みの御案内」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
     popularity: 70,
@@ -482,7 +482,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>各園の空き状況は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000054110.htmlpage/0000227761.html" target="_blank" rel="noopener">京都市公式サイト「利用状況及び受入枠」</a>で公開されています。</p>
+<p>各園の空き状況は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000227761.html" target="_blank" rel="noopener">京都市公式サイト「利用状況及び受入枠」</a>で公開されています。</p>
 </div>`,
     publishedAt: "2026-03-28",
     popularity: 60,
@@ -534,7 +534,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>受入枠と申込数のデータは<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000054110.htmlpage/0000227761.html" target="_blank" rel="noopener">京都市公式サイト</a>で公開されています。</p>
+<p>受入枠と申込数のデータは<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000227761.html" target="_blank" rel="noopener">京都市公式サイト</a>で公開されています。</p>
 </div>`,
     publishedAt: "2026-03-28",
     popularity: 95,
@@ -602,7 +602,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>京都市の保育園一覧は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000054110.htmlpage/0000227761.html" target="_blank" rel="noopener">こども若者はぐくみ局の公式サイト</a>で確認できます。</p>
+<p>京都市の保育園一覧は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000227761.html" target="_blank" rel="noopener">こども若者はぐくみ局の公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 45,
@@ -647,7 +647,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>各園の年齢別受入枠は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000054110.htmlpage/0000227761.html" target="_blank" rel="noopener">京都市の受入枠一覧</a>で確認できます。</p>
+<p>各園の年齢別受入枠は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000227761.html" target="_blank" rel="noopener">京都市の受入枠一覧</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 65,
@@ -983,7 +983,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新の受入枠・空き情報は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000054110.htmlpage/0000227761.html" target="_blank" rel="noopener">京都市公式サイト</a>で公開されています。</p>
+<p>最新の受入枠・空き情報は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000227761.html" target="_blank" rel="noopener">京都市公式サイト</a>で公開されています。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 55,
@@ -1044,7 +1044,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>小規模保育の施設一覧は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000054110.htmlpage/0000227761.html" target="_blank" rel="noopener">京都市公式サイト</a>で確認できます。</p>
+<p>小規模保育の施設一覧は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000227761.html" target="_blank" rel="noopener">京都市公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 50,
@@ -1104,7 +1104,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>きょうだい加点の詳細は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000054110.htmlpage/0000227761.html" target="_blank" rel="noopener">京都市の利用調整基準</a>で確認できます。</p>
+<p>きょうだい加点の詳細は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000227761.html" target="_blank" rel="noopener">京都市の利用調整基準</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 55,
@@ -1146,7 +1146,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>必要書類の詳細は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000054110.htmlpage/0000274712.html" target="_blank" rel="noopener">京都市公式サイト</a>でご確認ください。</p>
+<p>必要書類の詳細は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000274712.html" target="_blank" rel="noopener">京都市公式サイト</a>でご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 40,
@@ -1219,7 +1219,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳細は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000054110.htmlpage/0000274712.html" target="_blank" rel="noopener">京都市公式サイト</a>でご確認ください。</p>
+<p>詳細は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000274712.html" target="_blank" rel="noopener">京都市公式サイト</a>でご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 40,
@@ -1288,7 +1288,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>各園の募集状況は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000054110.htmlpage/0000274712.html" target="_blank" rel="noopener">京都市公式サイト</a>で確認できます。</p>
+<p>各園の募集状況は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000274712.html" target="_blank" rel="noopener">京都市公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 35,
@@ -1352,7 +1352,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>各園の受入月齢は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000054110.htmlpage/0000274712.html" target="_blank" rel="noopener">京都市の保育施設一覧</a>で確認できます。</p>
+<p>各園の受入月齢は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000274712.html" target="_blank" rel="noopener">京都市の保育施設一覧</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 40,
@@ -1386,7 +1386,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>一覧は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000054110.htmlpage/0000274712.html" target="_blank" rel="noopener">京都市公式サイト</a>でご確認ください。</p>
+<p>一覧は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000274712.html" target="_blank" rel="noopener">京都市公式サイト</a>でご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 35,
@@ -1450,7 +1450,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>延長保育の実施園は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000054110.htmlpage/0000274712.html" target="_blank" rel="noopener">京都市公式サイト</a>で確認できます。</p>
+<p>延長保育の実施園は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000274712.html" target="_blank" rel="noopener">京都市公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 30,
@@ -1482,7 +1482,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>無償化制度の詳細は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000054110.htmlpage/0000227761.html" target="_blank" rel="noopener">京都市公式サイト</a>をご確認ください。</p>
+<p>無償化制度の詳細は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000227761.html" target="_blank" rel="noopener">京都市公式サイト</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 45,
@@ -1550,7 +1550,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>正確な保育料表は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000054110.htmlpage/0000227761.html" target="_blank" rel="noopener">京都市公式サイト</a>でご確認ください。上記はあくまで目安です。</p>
+<p>正確な保育料表は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000227761.html" target="_blank" rel="noopener">京都市公式サイト</a>でご確認ください。上記はあくまで目安です。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 40,
@@ -1589,12 +1589,17 @@ const articles: Article[] = [
   {
     slug: "shurou-shoumeisho",
     citySlug: "kyoto",
-    title: "京都市の就労証明書の書き方と注意点",
-    description: "京都市の保育園申込に必要な就労証明書の記入ポイントとよくある間違いを解説します。",
+    title: "京都市の就労証明書｜様式ダウンロード先と記入例【令和8年度】",
+    description:
+      "京都市の保育園申込みに使う就労証明書について、公式の様式ダウンロード先へのリンクと、点数の付き方・記入例・よくある不備をまとめています。会社に依頼する前に確認してください。",
     image: "https://images.unsplash.com/photo-1568667256549-094345857637?w=800&h=400&fit=crop",
     category: "保活の基本",
     categoryColor: "green",
-    content: `<h2>就労証明書とは</h2>
+    content: `<div class="info-box">
+<p><strong>まずは公式の様式をダウンロード</strong></p>
+<p>就労証明書の様式・記入例は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000274712.html" target="_blank" rel="noopener">京都市「保育利用申込みの御案内」</a>からダウンロードできます。この記事では、その様式をどう書くと点数にどう響くかを説明します。</p>
+</div>
+<h2>就労証明書とは</h2>
 <p>保護者の就労状況を証明する書類です。勤務先に作成を依頼します。</p>
 
 <h2>記入のポイント</h2>
@@ -1614,11 +1619,6 @@ const articles: Article[] = [
 <div class="point-box">
 <p><strong>ポイント</strong></p>
 <p>京都市はmin方式のため、父母双方の就労証明書の記載内容が重要です。両方とも週40時間以上の記載があれば満点になります。</p>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>様式は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000054110.htmlpage/0000274712.html" target="_blank" rel="noopener">京都市公式サイト</a>からダウンロードできます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 45,
@@ -1655,7 +1655,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳細は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000054110.htmlpage/0000274712.html" target="_blank" rel="noopener">京都市「保育利用申込みの御案内」</a>をご確認ください。</p>
+<p>詳細は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000274712.html" target="_blank" rel="noopener">京都市「保育利用申込みの御案内」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 40,

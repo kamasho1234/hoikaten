@@ -101,14 +101,18 @@ const articles: Article[] = [
   {
     slug: "employment-certificate",
     citySlug: "okazaki",
-    title: "岡崎市の就労証明書の書き方と注意点｜保育園入園に必要な書類",
+    title: "岡崎市の就労証明書｜様式ダウンロード先と記入例【令和8年度】",
     description:
-      "岡崎市の保育園申込みに必要な就労証明書の書き方を解説。記入のポイントや提出時の注意事項、自営業の場合の対応もまとめました。",
+      "岡崎市の保育園申込みに使う就労証明書について、公式の様式ダウンロード先へのリンクと、点数の付き方・記入例・よくある不備をまとめています。会社に依頼する前に確認してください。",
     category: "書類準備",
     categoryColor: "amber",
     image:
       "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=400&fit=crop",
-    content: `<h2>就労証明書とは</h2>
+    content: `<div class="info-box">
+<p><strong>まずは公式の様式をダウンロード</strong></p>
+<p>就労証明書の様式・記入例は<a href="https://www.city.okazaki.lg.jp/kosodate/kosodate/1012221/1012226/1003642.html" target="_blank" rel="noopener">岡崎市「保育が必要な事由を証明するための証明書類」</a>からダウンロードできます。この記事では、その様式をどう書くと点数にどう響くかを説明します。</p>
+</div>
+<h2>就労証明書とは</h2>
 <p>就労証明書は、保護者が仕事をしていることを証明する書類です。岡崎市の保育園入園申込みでは、父母それぞれの保育事由証明書が必要で、就労が理由の場合は雇用主に記入してもらいます。</p>
 
 <h2>記入のポイント</h2>

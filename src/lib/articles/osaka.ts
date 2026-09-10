@@ -58,7 +58,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>申込受付は事前にオンライン予約が必要です。大阪市行政オンラインシステムで予約してから窓口に行きましょう。詳しくは<a href="https://www.city.osaka.lg.jp/kodomo/page/0000658390.html" target="_blank" rel="noopener">大阪市公式サイト</a>をご確認ください。</p>
+<p>申込受付は事前にオンライン予約が必要です。大阪市行政オンラインシステムで予約してから窓口に行きましょう。詳しくは<a href="https://www.city.osaka.lg.jp/kodomo/page/0000682977.html" target="_blank" rel="noopener">大阪市公式サイト</a>をご確認ください。</p>
 </div>
 
 <h2>途中入園（5月〜3月）の申込</h2>
@@ -1274,7 +1274,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>確認を</strong></p>
-<p>各園の募集人数は年度によって変動します。最新の情報は<a href="https://www.city.osaka.lg.jp/kodomo/page/0000658390.html" target="_blank" rel="noopener">大阪市公式サイト</a>でご確認ください。</p>
+<p>各園の募集人数は年度によって変動します。最新の情報は<a href="https://www.city.osaka.lg.jp/kodomo/page/0000682977.html" target="_blank" rel="noopener">大阪市公式サイト</a>でご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 50,
@@ -1360,7 +1360,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>確認を</strong></p>
-<p>各園の受け入れ月齢は<a href="https://www.city.osaka.lg.jp/kodomo/page/0000658390.html" target="_blank" rel="noopener">大阪市公式サイト</a>の施設一覧で確認できます。</p>
+<p>各園の受け入れ月齢は<a href="https://www.city.osaka.lg.jp/kodomo/page/0000682977.html" target="_blank" rel="noopener">大阪市公式サイト</a>の施設一覧で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 55,
@@ -1405,7 +1405,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>確認を</strong></p>
-<p>認定こども園の一覧は<a href="https://www.city.osaka.lg.jp/kodomo/page/0000658390.html" target="_blank" rel="noopener">大阪市公式サイト</a>でご確認ください。</p>
+<p>認定こども園の一覧は<a href="https://www.city.osaka.lg.jp/kodomo/page/0000682977.html" target="_blank" rel="noopener">大阪市公式サイト</a>でご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 50,
@@ -1678,14 +1678,18 @@ const articles: Article[] = [
   {
     slug: "shurou-shoumeisho",
     citySlug: "osaka",
-    title: "大阪市の就労証明書 記入例【令和8年度版】点数への影響と注意点",
+    title: "大阪市の就労証明書｜様式ダウンロード先と記入例【令和8年度】",
     description:
-      "大阪市の保育園申込みに必要な就労証明書の記入例を徹底解説。基本点数を左右する月就労日数・時間の正しい書き方、よくある記入ミスTop5と対策、会社への依頼手順まで網羅。令和8年度対応。",
+      "大阪市の保育園申込みに使う就労証明書について、公式の様式ダウンロード先へのリンクと、点数の付き方・記入例・よくある不備をまとめています。会社に依頼する前に確認してください。",
     image:
       "https://images.unsplash.com/photo-1450101499163-c8848e66ad76?w=800&h=400&fit=crop",
     category: "保活の基本",
     categoryColor: "green",
-    content: `<h2>就労証明書とは</h2>
+    content: `<div class="info-box">
+<p><strong>まずは公式の様式をダウンロード</strong></p>
+<p>就労証明書の様式・記入例は<a href="https://www.city.osaka.lg.jp/kodomo/page/0000682977.html" target="_blank" rel="noopener">大阪市「保育施設・事業の利用申込みに係る各種証明様式について」</a>からダウンロードできます。この記事では、その様式をどう書くと点数にどう響くかを説明します。</p>
+</div>
+<h2>就労証明書とは</h2>
 <p>就労証明書は保育園の入園申込で<strong>最も重要な書類</strong>のひとつです。保護者の就労状況を証明するもので、これに基づいて基本点数が決まります。</p>
 
 <h3>記載が必要な項目</h3>
@@ -1718,7 +1722,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>確認を</strong></p>
-<p>就労証明書の様式は<a href="https://www.city.osaka.lg.jp/kodomo/page/0000658390.html" target="_blank" rel="noopener">大阪市公式サイト</a>からダウンロードできます。</p>
+<p>就労証明書の様式は<a href="https://www.city.osaka.lg.jp/kodomo/page/0000682977.html" target="_blank" rel="noopener">大阪市公式サイト</a>からダウンロードできます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 60,
@@ -1767,7 +1771,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>確認を</strong></p>
-<p>必要書類の最新情報は<a href="https://www.city.osaka.lg.jp/kodomo/page/0000658390.html" target="_blank" rel="noopener">大阪市公式サイト「保育施設・保育事業利用の案内」</a>でご確認ください。</p>
+<p>必要書類の最新情報は<a href="https://www.city.osaka.lg.jp/kodomo/page/0000682977.html" target="_blank" rel="noopener">大阪市公式サイト「保育施設・保育事業利用の案内」</a>でご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 55,
@@ -1816,7 +1820,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>確認を</strong></p>
-<p>2次調整の詳細は<a href="https://www.city.osaka.lg.jp/kodomo/page/0000658390.html" target="_blank" rel="noopener">大阪市公式サイト</a>でご確認ください。</p>
+<p>2次調整の詳細は<a href="https://www.city.osaka.lg.jp/kodomo/page/0000682977.html" target="_blank" rel="noopener">大阪市公式サイト</a>でご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 45,
@@ -1972,7 +1976,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>確認を</strong></p>
-<p>最新のスケジュールは<a href="https://www.city.osaka.lg.jp/kodomo/page/0000658390.html" target="_blank" rel="noopener">大阪市公式サイト</a>でご確認ください。日程は年度によって変更される場合があります。</p>
+<p>最新のスケジュールは<a href="https://www.city.osaka.lg.jp/kodomo/page/0000682977.html" target="_blank" rel="noopener">大阪市公式サイト</a>でご確認ください。日程は年度によって変更される場合があります。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 65,

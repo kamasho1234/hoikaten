@@ -1591,14 +1591,18 @@ const articles: Article[] = [
   {
     slug: "shurou-shoumeisho",
     citySlug: "sendai",
-    title: "就労証明書の書き方ガイド　仙台市の保育園申込で失敗しないために",
+    title: "仙台市の就労証明書｜様式ダウンロード先と記入例【令和8年度】",
     description:
-      "仙台市の保育園申込に必要な就労証明書の記入方法と、よくある記入ミスを解説します。",
+      "仙台市の保育園申込みに使う就労証明書について、公式の様式ダウンロード先へのリンクと、点数の付き方・記入例・よくある不備をまとめています。会社に依頼する前に確認してください。",
     image:
       "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
     category: "保活の基本",
     categoryColor: "green",
-    content: `<h2>就労証明書とは</h2>
+    content: `<div class="info-box">
+<p><strong>まずは公式の様式をダウンロード</strong></p>
+<p>就労証明書の様式・記入例は<a href="https://www.city.sendai.jp/nintechosa/kurashi/kenkotofukushi/kosodate/hoikujo/annai/hoikushisetsu.html" target="_blank" rel="noopener">仙台市公式サイト</a>からダウンロードできます。この記事では、その様式をどう書くと点数にどう響くかを説明します。</p>
+</div>
+<h2>就労証明書とは</h2>
 <p>就労証明書は、保護者の勤務状況を証明する書類で、<strong>勤務先に記入してもらう</strong>ものです。仙台市の保育園申込で最も重要な書類の一つです。</p>
 
 <h2>就労証明書の記入で重要なポイント</h2>
@@ -1634,12 +1638,7 @@ const articles: Article[] = [
 <li>勤務時間が休憩時間を含んでいるか曖昧</li>
 <li>雇用形態と勤務条件が不一致</li>
 <li>記入日が古すぎる（3か月以内が目安）</li>
-</ul>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>就労証明書の様式は<a href="https://www.city.sendai.jp/nintechosa/kurashi/kenkotofukushi/kosodate/hoikujo/annai/hoikushisetsu.html" target="_blank" rel="noopener">仙台市公式サイト</a>からダウンロードできます。</p>
-</div>`,
+</ul>`,
     publishedAt: "2026-04-07",
     popularity: 60,
   },

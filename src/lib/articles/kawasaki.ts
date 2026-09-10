@@ -1709,14 +1709,18 @@ const articles: Article[] = [
   {
     slug: "shurou-shoumeisho",
     citySlug: "kawasaki",
-    title: "川崎市の就労証明書 記入例【令和8年度版】書き方と注意点まとめ",
+    title: "川崎市の就労証明書｜様式ダウンロード先と記入例【令和8年度】",
     description:
-      "川崎市の保育園申込みに必要な就労証明書の記入例を徹底解説。月間就労時間・日数の正しい書き方、よくある記入ミスTop5と対策チェックリスト、様式ダウンロード先まで網羅。令和8年度申込対応。",
+      "川崎市の保育園申込みに使う就労証明書について、公式の様式ダウンロード先へのリンクと、点数の付き方・記入例・よくある不備をまとめています。会社に依頼する前に確認してください。",
     image:
       "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&h=400&fit=crop",
     category: "制度を知る",
     categoryColor: "rose",
-    content: `<h2>就労証明書とは</h2>
+    content: `<div class="info-box">
+<p><strong>まずは公式の様式をダウンロード</strong></p>
+<p>就労証明書の様式・記入例は<a href="https://www.city.kawasaki.jp/450/page/0000153863.html" target="_blank" rel="noopener">川崎市公式サイト</a>からダウンロードできます。この記事では、その様式をどう書くと点数にどう響くかを説明します。</p>
+</div>
+<h2>就労証明書とは</h2>
 <p>就労証明書は、保護者が「保育を必要とする事由」を証明するための書類です。<span class="highlight">勤務先に記入・証明してもらう</span>必要があります。</p>
 
 <h2>就労証明書の主な記入項目</h2>
@@ -1742,12 +1746,7 @@ const articles: Article[] = [
 </table>
 
 <h2>提出期限に余裕を持とう</h2>
-<p>就労証明書は勤務先に依頼してから受け取るまで1〜2週間かかることがあります。申込期限の1か月前には依頼しましょう。</p>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>就労証明書の様式は<a href="https://www.city.kawasaki.jp/450/page/0000153863.html" target="_blank" rel="noopener">川崎市「保育所等の申込み手続き」</a>からダウンロードできます。</p>
-</div>`,
+<p>就労証明書は勤務先に依頼してから受け取るまで1〜2週間かかることがあります。申込期限の1か月前には依頼しましょう。</p>`,
     publishedAt: "2026-04-07",
     popularity: 40,
   },

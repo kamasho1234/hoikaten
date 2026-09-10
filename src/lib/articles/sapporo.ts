@@ -1863,14 +1863,18 @@ const articles: Article[] = [
   {
     slug: "shurou-shoumeisho",
     citySlug: "sapporo",
-    title: "札幌市の就労証明書 記入例【令和8年度版】書き方と注意点まとめ",
+    title: "札幌市の就労証明書｜様式ダウンロード先と記入例【令和8年度】",
     description:
-      "札幌市の保育園申込みに必要な就労証明書の記入例を徹底解説。月間就労時間・日数の正しい書き方、よくある記入ミスTop5と対策チェックリスト、様式ダウンロード先まで網羅。令和8年度申込対応。",
+      "札幌市の保育園申込みに使う就労証明書について、公式の様式ダウンロード先へのリンクと、点数の付き方・記入例・よくある不備をまとめています。会社に依頼する前に確認してください。",
     image:
       "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&h=400&fit=crop",
     category: "申請・手続き",
     categoryColor: "teal",
-    content: `<h2>就労証明書とは</h2>
+    content: `<div class="info-box">
+<p><strong>まずは公式の様式をダウンロード</strong></p>
+<p>就労証明書の様式・記入例は<a href="https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/835.html" target="_blank" rel="noopener">札幌市公式サイト</a>からダウンロードできます。この記事では、その様式をどう書くと点数にどう響くかを説明します。</p>
+</div>
+<h2>就労証明書とは</h2>
 <p>保育園の入園申込に必須の書類です。保護者の就労状況を勤務先が証明するもので、この内容をもとに<strong>基本点数</strong>が算出されます。</p>
 
 <div class="point-box">
@@ -1909,11 +1913,6 @@ const articles: Article[] = [
 <div class="step">
 <h3>ステップ3：内容の確認</h3>
 <p>受け取ったら、稼動日数と月労働時間が実態と合っているか必ず確認してください。</p>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>就労証明書の様式は<a href="https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/835.html" target="_blank" rel="noopener">札幌市子育てサイト</a>からダウンロードできます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 65,

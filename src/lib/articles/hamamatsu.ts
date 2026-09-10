@@ -1554,14 +1554,18 @@ const articles: Article[] = [
   {
     slug: "shurou-shoumeisho",
     citySlug: "hamamatsu",
-    title: "浜松市の就労証明書 記入例【令和8年度版】書き方と注意点まとめ",
+    title: "浜松市の就労証明書｜様式ダウンロード先と記入例【令和8年度】",
     description:
-      "浜松市の保育園申込みに必要な就労証明書の記入例を徹底解説。月間就労時間・日数の正しい書き方、よくある記入ミスTop5と対策チェックリスト、様式ダウンロード先まで網羅。令和8年度申込対応。",
+      "浜松市の保育園申込みに使う就労証明書について、公式の様式ダウンロード先へのリンクと、点数の付き方・記入例・よくある不備をまとめています。会社に依頼する前に確認してください。",
     image:
       "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
     category: "手続き",
     categoryColor: "rose",
-    content: `<h2>就労証明書とは</h2>
+    content: `<div class="info-box">
+<p><strong>まずは公式の様式をダウンロード</strong></p>
+<p>就労証明書の様式・記入例は<a href="https://www.hamamatsu-pippi.net/contents/7769.html" target="_blank" rel="noopener">浜松市公式サイト</a>からダウンロードできます。この記事では、その様式をどう書くと点数にどう響くかを説明します。</p>
+</div>
+<h2>就労証明書とは</h2>
 <p>保育の必要性を証明する最も重要な書類です。勤務先に記入してもらう必要があります。</p>
 
 <h2>入手方法</h2>
@@ -1588,11 +1592,6 @@ const articles: Article[] = [
 <div class="point-box">
 <p><strong>ポイント</strong></p>
 <p>就労証明書は保育園の点数を決める最も重要な書類です。記入内容に誤りがあると点数が下がる可能性があるため、受け取ったら必ず確認しましょう。</p>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>様式は<a href="https://www.hamamatsu-pippi.net/contents/7769.html" target="_blank" rel="noopener">浜松市子育て情報サイト「ぴっぴ」</a>からダウンロードできます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 50,

@@ -1507,12 +1507,17 @@ const articles: Article[] = [
   {
     slug: "shurou-shoumeisho",
     citySlug: "hiroshima",
-    title: "広島市の就労証明書の書き方と注意点",
-    description: "広島市の保育園申込に必要な就労証明書の記入ポイントを解説します。",
+    title: "広島市の就労証明書｜様式ダウンロード先と記入例【令和8年度】",
+    description:
+      "広島市の保育園申込みに使う就労証明書について、公式の様式ダウンロード先へのリンクと、点数の付き方・記入例・よくある不備をまとめています。会社に依頼する前に確認してください。",
     image: "https://images.unsplash.com/photo-1568667256549-094345857637?w=800&h=400&fit=crop",
     category: "保活の基本",
     categoryColor: "green",
-    content: `<h2>就労証明書とは</h2>
+    content: `<div class="info-box">
+<p><strong>まずは公式の様式をダウンロード</strong></p>
+<p>就労証明書の様式・記入例は<a href="https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025852/1003487.html" target="_blank" rel="noopener">広島市公式サイト</a>からダウンロードできます。この記事では、その様式をどう書くと点数にどう響くかを説明します。</p>
+</div>
+<h2>就労証明書とは</h2>
 <p>保護者の就労状況を証明する書類です。勤務先に作成を依頼します。</p>
 
 <h2>記入のポイント</h2>
@@ -1532,11 +1537,6 @@ const articles: Article[] = [
 <div class="point-box">
 <p><strong>ポイント</strong></p>
 <p>広島市は低い方ルールのため、父母双方の就労証明書が重要です。</p>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>様式は<a href="https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025852/1003487.html" target="_blank" rel="noopener">広島市公式サイト</a>からダウンロードできます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 45,

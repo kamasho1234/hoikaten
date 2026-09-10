@@ -1308,14 +1308,18 @@ const articles: Article[] = [
   {
     slug: "shurou-shoumeisho",
     citySlug: "niigata",
-    title: "新潟市の就労証明書 記入例【令和8年度版】書き方と注意点まとめ",
+    title: "新潟市の就労証明書｜様式ダウンロード先と記入例【令和8年度】",
     description:
-      "新潟市の保育園申込みに必要な就労証明書の記入例を徹底解説。月間就労時間・日数の正しい書き方、よくある記入ミスTop5と対策チェックリスト、様式ダウンロード先まで網羅。令和8年度申込対応。",
+      "新潟市の保育園申込みに使う就労証明書について、公式の様式ダウンロード先へのリンクと、点数の付き方・記入例・よくある不備をまとめています。会社に依頼する前に確認してください。",
     image:
       "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=400&fit=crop",
     category: "手続き",
     categoryColor: "rose",
-    content: `<h2>就労証明書とは</h2>
+    content: `<div class="info-box">
+<p><strong>まずは公式の様式をダウンロード</strong></p>
+<p>就労証明書の様式・記入例は<a href="https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/ninnkahoikushisetsu/R0804nyuen.html" target="_blank" rel="noopener">新潟市「認可保育施設への新年度入園について」</a>からダウンロードできます。この記事では、その様式をどう書くと点数にどう響くかを説明します。</p>
+</div>
+<h2>就労証明書とは</h2>
 <p>保育園の申込にあたり、保護者の就労状況を証明する書類です。勤務先（または自分）が記入します。</p>
 
 <h3>記入のポイント</h3>

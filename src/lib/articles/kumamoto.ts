@@ -1250,13 +1250,17 @@ const articles: Article[] = [
   {
     slug: "shurou-shoumeisho",
     citySlug: "kumamoto",
-    title: "熊本市の就労証明書 記入例【令和8年度版】書き方と注意点まとめ",
+    title: "熊本市の就労証明書｜様式ダウンロード先と記入例【令和8年度】",
     description:
-      "熊本市の保育園申込みに必要な就労証明書の記入例を徹底解説。月間就労時間・日数の正しい書き方、よくある記入ミスTop5と対策チェックリスト、様式ダウンロード先まで網羅。令和8年度申込対応。",
+      "熊本市の保育園申込みに使う就労証明書について、公式の様式ダウンロード先へのリンクと、点数の付き方・記入例・よくある不備をまとめています。会社に依頼する前に確認してください。",
     image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&h=400&fit=crop",
     category: "保活の基本",
     categoryColor: "green",
-    content: `<h2>就労証明書とは</h2>
+    content: `<div class="info-box">
+<p><strong>まずは公式の様式をダウンロード</strong></p>
+<p>就労証明書の様式・記入例は<a href="https://www.city.kumamoto.jp/kiji00371314/index.html" target="_blank" rel="noopener">熊本市「保育所等の入所について」</a>からダウンロードできます。この記事では、その様式をどう書くと点数にどう響くかを説明します。</p>
+</div>
+<h2>就労証明書とは</h2>
 <p>就労証明書は保育園申込の際に「保育の必要性」を証明する最も重要な書類です。勤務先（事業主）が記入・押印します。</p>
 
 <h2>記入で重要なポイント</h2>
