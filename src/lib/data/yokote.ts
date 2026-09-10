@@ -13,7 +13,7 @@ const municipality = {
   name: '横手市',
   slug: 'yokote',
   prefecture: '秋田県',
-  maxBasePoints: 200,
+  maxBasePoints: 400, // 父母各200点の合計
 } as const;
 
 const externalEmploymentOptions = (prefix: string) => [

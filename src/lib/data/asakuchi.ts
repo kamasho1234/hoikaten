@@ -16,7 +16,7 @@ const municipality = {
   name: '浅口市',
   slug: 'asakuchi',
   prefecture: '岡山県',
-  maxBasePoints: 10,
+  maxBasePoints: 20, // 父母各10点の合計
 } as const;
 
 // 居宅外就労（外勤・自営等）の選択肢（週の合計時間ベース）

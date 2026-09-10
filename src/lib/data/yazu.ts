@@ -9,7 +9,8 @@ import type { MunicipalityData, Question } from '../types';
 //   「八頭町の保育所の入所にあたっては、本表により利用調整基準指数を求めるものとする。
 //    『(1)基本指数(保護者A＋保護者B)』＋『(2)調整指数』＝（合計）『利用調整基準指数』」
 // 保護者A＋保護者Bなので scoringMethod は 'sum'。
-// 基本指数の最大は1人あたり30点（児童虐待・DV）。
+// maxBasePoints は「父母ともフルタイムで働いた場合の世帯合計」なので、
+// 就労の満点（1人あたり10点）×2 = 20点。児童虐待・DVの30点は例外的な行なので使わない。
 //
 // 原典で指数が準用・個別判断でしか書かれていない項目は入れていない。
 // - 基本指数⑩ その他「上記①〜⑨に類するものと認められる」（※1は①〜⑨を準用する）
@@ -25,7 +26,7 @@ const municipality = {
   name: '八頭町',
   slug: 'yazu',
   prefecture: '鳥取県',
-  maxBasePoints: 30,
+  maxBasePoints: 20, // 父母各10点の合計
   scoringMethod: 'sum',
 } as const;
 

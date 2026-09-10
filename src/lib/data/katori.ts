@@ -23,7 +23,7 @@ const municipality = {
   name: '香取市',
   slug: 'katori',
   prefecture: '千葉県',
-  maxBasePoints: 15,
+  maxBasePoints: 30, // 父母各15点の合計
   scoringMethod: 'sum',
 } as const;
 

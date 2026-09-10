@@ -13,7 +13,7 @@ const municipality = {
   name: '松前町',
   slug: 'masaki',
   prefecture: '愛媛県',
-  maxBasePoints: 10,
+  maxBasePoints: 20, // 父母各10点の合計
   scoringMethod: 'sum',
 } as const;
 

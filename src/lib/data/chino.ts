@@ -17,7 +17,7 @@ const municipality = {
   name: '茅野市',
   slug: 'chino',
   prefecture: '長野県',
-  maxBasePoints: 22,
+  maxBasePoints: 44, // 父母各22点の合計
 } as const;
 
 const employmentOptions = (prefix: string) => [

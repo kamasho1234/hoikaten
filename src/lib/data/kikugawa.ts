@@ -31,7 +31,7 @@ const municipality = {
   name: '菊川市',
   slug: 'kikugawa',
   prefecture: '静岡県',
-  maxBasePoints: 25,
+  maxBasePoints: 50, // 父母各25点の合計
   scoringMethod: 'sum',
 } as const;
 

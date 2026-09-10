@@ -11,7 +11,8 @@ import type { MunicipalityData, Question } from '../types';
 //   【補正点】「該当するすべての補正点を基本点に加算し、
 //    合計点が高い順に入園(所)優先度が高いものとします。」
 // 「父または母の基本点が低い方」により scoringMethod は 'min'。
-// 基本点の最大は11点（虐待・DV）。
+// min方式なので maxBasePoints は保護者1人分。就労の満点10点にしている。
+// 虐待・DVの11点は例外的な行なので使わない。
 //
 // 原典で点数が幅・言葉でしか書かれていない項目は入れていない。
 // - ④介護・看護「保護者が親族等（在宅療養または長期入院等）を常時、
@@ -25,7 +26,7 @@ const municipality = {
   name: '鹿追町',
   slug: 'shikaoi',
   prefecture: '北海道',
-  maxBasePoints: 11,
+  maxBasePoints: 10,
   scoringMethod: 'min',
 } as const;
 

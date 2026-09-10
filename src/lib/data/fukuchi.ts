@@ -42,7 +42,7 @@ const municipality = {
   name: '福智町',
   slug: 'fukuchi',
   prefecture: '福岡県',
-  maxBasePoints: 50,
+  maxBasePoints: 100, // 父母各50点の合計
   scoringMethod: 'sum',
 } as const;
 

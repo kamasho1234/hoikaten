@@ -7,6 +7,11 @@ export interface Municipality {
   name: string;
   slug: string;
   prefecture: string;
+  // 基準指数の満点。**方式によって意味が変わる**ので注意。
+  //   sum … 父母ともフルタイムで働いた場合の**世帯合計**（＝1人分の満点×2）
+  //   min … 低い方を採るので**保護者1人分**の満点
+  //   avg … 平均を採るので**保護者1人分**の満点
+  // 画面の「保護者1・保護者2の合計で最大◯点」と、結果判定の分母がこの値を使う。
   maxBasePoints: number;
   scoringMethod?: ScoringMethod; // "sum"(加算・デフォルト) | "min"(低い方を採用) | "avg"(父母の平均)
   // 原典が世帯の基準指数に上限を定めている自治体で指定する

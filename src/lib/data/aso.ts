@@ -33,7 +33,7 @@ const municipality = {
   name: '阿蘇市',
   slug: 'aso',
   prefecture: '熊本県',
-  maxBasePoints: 25,
+  maxBasePoints: 50, // 父母各25点の合計
   scoringMethod: 'sum',
 } as const;
 

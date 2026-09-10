@@ -10,7 +10,7 @@ const municipality = {
   name: '瑞穂町',
   slug: 'mizuho',
   prefecture: '東京都',
-  maxBasePoints: 20,
+  maxBasePoints: 40, // 父母各20点の合計
   scoringMethod: 'sum',
 } as const;
 

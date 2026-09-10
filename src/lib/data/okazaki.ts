@@ -15,7 +15,7 @@ const municipality = {
   name: '岡崎市',
   slug: 'okazaki',
   prefecture: '愛知県',
-  maxBasePoints: 10,
+  maxBasePoints: 20, // 父母各10点の合計
   // scoringMethod 省略 = デフォルト "sum"（父母の基礎点を合算）
 } as const;
 

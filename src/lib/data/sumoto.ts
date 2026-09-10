@@ -29,7 +29,7 @@ const municipality = {
   name: '洲本市',
   slug: 'sumoto',
   prefecture: '兵庫県',
-  maxBasePoints: 100,
+  maxBasePoints: 200, // 父母各100点の合計
   scoringMethod: 'sum',
 } as const;
 

@@ -17,7 +17,7 @@ const municipality = {
   name: '福山市',
   slug: 'fukuyama',
   prefecture: '広島県',
-  maxBasePoints: 10, // 就労160h以上 = 最高ランク10点
+  maxBasePoints: 20, // 父母各10点の合計
   scoringMethod: 'sum' as const,
 } as const;
 

@@ -27,7 +27,7 @@ const municipality = {
   name: '二宮町',
   slug: 'ninomiya',
   prefecture: '神奈川県',
-  maxBasePoints: 20,
+  maxBasePoints: 40, // 父母各20点の合計
   scoringMethod: 'sum',
 } as const;
 

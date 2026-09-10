@@ -33,7 +33,7 @@ const municipality = {
   name: '名護市',
   slug: 'nago',
   prefecture: '沖縄県',
-  maxBasePoints: 55,
+  maxBasePoints: 110, // 父母各55点の合計
   scoringMethod: 'sum',
 } as const;
 

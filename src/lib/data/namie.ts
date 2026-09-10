@@ -23,7 +23,7 @@ const municipality = {
   name: '浪江町',
   slug: 'namie',
   prefecture: '福島県',
-  maxBasePoints: 10,
+  maxBasePoints: 20, // 父母各10点の合計
   scoringMethod: 'sum',
 } as const;
 

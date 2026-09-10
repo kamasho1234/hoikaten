@@ -23,7 +23,7 @@ const municipality = {
   name: 'いなべ市',
   slug: 'inabe',
   prefecture: '三重県',
-  maxBasePoints: 100,
+  maxBasePoints: 200, // 父母各100点の合計
   scoringMethod: 'sum',
 } as const;
 

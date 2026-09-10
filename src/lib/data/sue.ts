@@ -25,7 +25,7 @@ const municipality = {
   name: '須恵町',
   slug: 'sue',
   prefecture: '福岡県',
-  maxBasePoints: 150,
+  maxBasePoints: 300, // 父母各150点の合計
   scoringMethod: 'sum',
   baseCap: 150,
 } as const;

@@ -29,7 +29,7 @@ const municipality = {
   name: '吉見町',
   slug: 'yoshimi',
   prefecture: '埼玉県',
-  maxBasePoints: 15,
+  maxBasePoints: 30, // 父母各15点の合計
   scoringMethod: 'sum',
 } as const;
 

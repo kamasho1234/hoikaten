@@ -14,7 +14,7 @@ const municipality = {
   name: '浦安市',
   slug: 'urayasu',
   prefecture: '千葉県',
-  maxBasePoints: 50,
+  maxBasePoints: 100, // 父母各50点の合計
 } as const;
 
 const employmentOptions = (prefix: string) => [

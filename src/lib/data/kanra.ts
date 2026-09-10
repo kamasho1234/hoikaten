@@ -10,7 +10,7 @@ const municipality = {
   name: '甘楽町',
   slug: 'kanra',
   prefecture: '群馬県',
-  maxBasePoints: 10,
+  maxBasePoints: 20, // 父母各10点の合計
   scoringMethod: 'sum',
 } as const;
 

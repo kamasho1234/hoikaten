@@ -20,7 +20,7 @@ const municipality = {
   name: '蟹江町',
   slug: 'kanie',
   prefecture: '愛知県',
-  maxBasePoints: 10,
+  maxBasePoints: 20, // 父母各10点の合計
 } as const;
 
 const employmentOptions = (prefix: string) => [

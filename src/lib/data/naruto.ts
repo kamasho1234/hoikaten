@@ -33,7 +33,7 @@ const municipality = {
   name: '鳴門市',
   slug: 'naruto',
   prefecture: '徳島県',
-  maxBasePoints: 12,
+  maxBasePoints: 24, // 父母各12点の合計
   scoringMethod: 'sum',
 } as const;
 

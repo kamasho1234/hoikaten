@@ -26,7 +26,7 @@ const municipality = {
   name: '南魚沼市',
   slug: 'minamiuonuma',
   prefecture: '新潟県',
-  maxBasePoints: 10,
+  maxBasePoints: 20, // 父母各10点の合計
   scoringMethod: 'sum',
 } as const;
 

@@ -28,7 +28,7 @@ const municipality = {
   name: '長井市',
   slug: 'nagai',
   prefecture: '山形県',
-  maxBasePoints: 14,
+  maxBasePoints: 28, // 父母各14点の合計
   scoringMethod: 'sum',
 } as const;
 

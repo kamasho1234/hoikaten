@@ -26,7 +26,7 @@ const municipality = {
   name: '六戸町',
   slug: 'rokunohe',
   prefecture: '青森県',
-  maxBasePoints: 10,
+  maxBasePoints: 20, // 父母各10点の合計
   scoringMethod: 'sum',
 } as const;
 

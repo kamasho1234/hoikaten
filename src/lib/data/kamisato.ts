@@ -22,7 +22,7 @@ const municipality = {
   name: '上里町',
   slug: 'kamisato',
   prefecture: '埼玉県',
-  maxBasePoints: 12,
+  maxBasePoints: 24, // 父母各12点の合計
   scoringMethod: 'sum',
 } as const;
 

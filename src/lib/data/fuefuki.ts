@@ -27,7 +27,7 @@ const municipality = {
   name: '笛吹市',
   slug: 'fuefuki',
   prefecture: '山梨県',
-  maxBasePoints: 100,
+  maxBasePoints: 200, // 父母各100点の合計
   scoringMethod: 'sum',
 } as const;
 

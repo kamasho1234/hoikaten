@@ -13,7 +13,7 @@ const municipality = {
   name: '甲州市',
   slug: 'koshu',
   prefecture: '山梨県',
-  maxBasePoints: 10,
+  maxBasePoints: 20, // 父母各10点の合計
   scoringMethod: 'sum',
 } as const;
 

@@ -14,7 +14,7 @@ const municipality = {
   name: '三条市',
   slug: 'sanjo',
   prefecture: '新潟県',
-  maxBasePoints: 100,
+  maxBasePoints: 20, // 父母各10点（月160時間以上就労）の合計
 } as const;
 
 const employmentOptions = (prefix: string) => [

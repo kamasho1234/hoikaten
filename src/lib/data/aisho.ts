@@ -35,7 +35,7 @@ const municipality = {
   name: '愛荘町',
   slug: 'aisho',
   prefecture: '滋賀県',
-  maxBasePoints: 100,
+  maxBasePoints: 200, // 父母各100点の合計
   scoringMethod: 'sum',
 } as const;
 

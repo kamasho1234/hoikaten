@@ -31,7 +31,7 @@ const municipality = {
   name: '十和田市',
   slug: 'towada',
   prefecture: '青森県',
-  maxBasePoints: 8,
+  maxBasePoints: 16, // 父母各8点の合計
   scoringMethod: 'sum',
 } as const;
 

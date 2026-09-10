@@ -26,7 +26,7 @@ const municipality = {
   name: '桑名市',
   slug: 'kuwana',
   prefecture: '三重県',
-  maxBasePoints: 40, // 父母各20点（社会的養護40点は例外的な類型）
+  maxBasePoints: 80, // 父母各40点の合計
 } as const;
 
 // ---------------------------------------------------------------------------

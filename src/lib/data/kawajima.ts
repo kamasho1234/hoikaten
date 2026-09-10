@@ -10,7 +10,7 @@ const municipality = {
   name: '川島町',
   slug: 'kawajima',
   prefecture: '埼玉県',
-  maxBasePoints: 20,
+  maxBasePoints: 40, // 父母各20点の合計
   scoringMethod: 'sum',
 } as const;
 

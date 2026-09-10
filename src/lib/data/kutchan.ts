@@ -13,7 +13,7 @@ const municipality = {
   name: '倶知安町',
   slug: 'kutchan',
   prefecture: '北海道',
-  maxBasePoints: 64,
+  maxBasePoints: 128, // 父母各64点の合計
   scoringMethod: 'sum',
 } as const;
 

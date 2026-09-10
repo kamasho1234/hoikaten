@@ -30,7 +30,7 @@ const municipality = {
   name: '広陵町',
   slug: 'koryo',
   prefecture: '奈良県',
-  maxBasePoints: 10,
+  maxBasePoints: 20, // 父母各10点の合計
   scoringMethod: 'sum',
 } as const;
 

@@ -28,7 +28,7 @@ const municipality = {
   name: '宇多津町',
   slug: 'utazu',
   prefecture: '香川県',
-  maxBasePoints: 12,
+  maxBasePoints: 24, // 父母各12点の合計
   scoringMethod: 'sum',
 } as const;
 

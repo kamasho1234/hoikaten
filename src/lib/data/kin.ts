@@ -27,7 +27,7 @@ const municipality = {
   name: '金武町',
   slug: 'kin',
   prefecture: '沖縄県',
-  maxBasePoints: 10,
+  maxBasePoints: 20, // 父母各10点の合計
   scoringMethod: 'sum',
 } as const;
 

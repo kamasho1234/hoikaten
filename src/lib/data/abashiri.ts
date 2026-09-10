@@ -26,7 +26,7 @@ const municipality = {
   name: '網走市',
   slug: 'abashiri',
   prefecture: '北海道',
-  maxBasePoints: 100,
+  maxBasePoints: 200, // 父母各100点の合計
   scoringMethod: 'sum',
 } as const;
 

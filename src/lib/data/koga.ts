@@ -13,7 +13,7 @@ const municipality = {
   name: '古河市',
   slug: 'koga',
   prefecture: '茨城県',
-  maxBasePoints: 100,
+  maxBasePoints: 200, // 父母各100点の合計
   scoringMethod: 'sum',
 } as const;
 

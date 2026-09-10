@@ -18,7 +18,7 @@ const municipality = {
   name: '高島市',
   slug: 'takashima',
   prefecture: '滋賀県',
-  maxBasePoints: 10,
+  maxBasePoints: 20, // 父母各10点の合計
 } as const;
 
 const employmentOptions = (prefix: string) => [

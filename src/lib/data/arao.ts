@@ -27,7 +27,7 @@ const municipality = {
   name: '荒尾市',
   slug: 'arao',
   prefecture: '熊本県',
-  maxBasePoints: 150,
+  maxBasePoints: 300, // 父母各150点の合計
   scoringMethod: 'sum',
 } as const;
 

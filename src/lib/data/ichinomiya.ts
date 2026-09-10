@@ -13,7 +13,7 @@ const municipality = {
   name: '一宮市',
   slug: 'ichinomiya',
   prefecture: '愛知県',
-  maxBasePoints: 10,
+  maxBasePoints: 20, // 父母各10点の合計
 } as const;
 
 // ---------------------------------------------------------------------------

@@ -34,7 +34,7 @@ const municipality = {
   name: '睦沢町',
   slug: 'mutsuzawa',
   prefecture: '千葉県',
-  maxBasePoints: 10,
+  maxBasePoints: 20, // 父母各10点の合計
   baseCap: 20,
   scoringMethod: 'sum',
 } as const;

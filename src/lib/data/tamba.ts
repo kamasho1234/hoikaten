@@ -16,7 +16,7 @@ const municipality = {
   name: '丹波市',
   slug: 'tamba',
   prefecture: '兵庫県',
-  maxBasePoints: 40,
+  maxBasePoints: 80, // 父母各40点の合計
 } as const;
 
 const employmentOptions = (prefix: string) => [

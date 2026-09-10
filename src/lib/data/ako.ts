@@ -24,7 +24,7 @@ const municipality = {
   name: '赤穂市',
   slug: 'ako',
   prefecture: '兵庫県',
-  maxBasePoints: 30,
+  maxBasePoints: 60, // 父母各30点の合計
   scoringMethod: 'sum',
 } as const;
 

@@ -12,7 +12,8 @@ import type { MunicipalityData, Question } from '../types';
 //   「※父母のそれぞれについて指数を求め、世帯の基本指数とする。」
 //   「※基本指数が2つ以上該当する場合は、高い方の指数とする。」
 // 父母それぞれの指数を世帯の基本指数にするので scoringMethod は 'sum'。
-// 基本指数の最大は1人あたり200点（災害・虐待DV）。
+// maxBasePoints は「父母ともフルタイムで働いた場合の世帯合計」なので、
+// 労働の満点（1人あたり100点）×2 = 200点。災害・虐待DVの200点は例外的な行なので使わない。
 //
 // 調整指数の「児童の日常生活において環境不良と認められる世帯」（+100）は
 // 「（状況により判断）」と書かれていて町の判断によるため入れていない。
@@ -30,7 +31,7 @@ const municipality = {
   name: '広川町',
   slug: 'hirokawa-fukuoka',
   prefecture: '福岡県',
-  maxBasePoints: 200,
+  maxBasePoints: 200, // 父母各100点の合計
   scoringMethod: 'sum',
 } as const;
 

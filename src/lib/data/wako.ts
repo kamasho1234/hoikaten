@@ -13,7 +13,7 @@ const municipality = {
   name: '和光市',
   slug: 'wako',
   prefecture: '埼玉県',
-  maxBasePoints: 30,
+  maxBasePoints: 60, // 父母各30点の合計
   scoringMethod: 'sum',
 } as const;
 

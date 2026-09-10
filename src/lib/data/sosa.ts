@@ -14,7 +14,7 @@ const municipality = {
   name: '匝瑳市',
   slug: 'sosa',
   prefecture: '千葉県',
-  maxBasePoints: 20,
+  maxBasePoints: 40, // 父母各20点の合計
 } as const;
 
 const externalEmploymentOptions = (prefix: string) => [

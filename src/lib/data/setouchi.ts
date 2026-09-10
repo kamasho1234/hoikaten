@@ -13,7 +13,7 @@ const municipality = {
   name: '瀬戸内市',
   slug: 'setouchi',
   prefecture: '岡山県',
-  maxBasePoints: 10,
+  maxBasePoints: 20, // 父母各10点の合計
 } as const;
 
 function buildParentQuestions(parentNum: 1 | 2): Question[] {

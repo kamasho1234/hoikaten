@@ -24,7 +24,7 @@ const municipality = {
   name: '下松市',
   slug: 'kudamatsu',
   prefecture: '山口県',
-  maxBasePoints: 10,
+  maxBasePoints: 20, // 父母各10点の合計
   scoringMethod: 'sum',
 } as const;
 

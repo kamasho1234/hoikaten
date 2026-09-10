@@ -14,7 +14,7 @@ const municipality = {
   name: 'さぬき市',
   slug: 'sanuki',
   prefecture: '香川県',
-  maxBasePoints: 10,
+  maxBasePoints: 20, // 父母各10点の合計
 } as const;
 
 // 区分1: 居宅外就労・自営業（居宅外）代表者

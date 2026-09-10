@@ -36,7 +36,7 @@ const municipality = {
   name: '伊奈町',
   slug: 'saitama-ina',
   prefecture: '埼玉県',
-  maxBasePoints: 20,
+  maxBasePoints: 40, // 父母各20点の合計
   scoringMethod: 'sum',
 } as const;
 

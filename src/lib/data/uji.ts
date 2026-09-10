@@ -13,7 +13,7 @@ const municipality = {
   name: '宇治市',
   slug: 'uji',
   prefecture: '京都府',
-  maxBasePoints: 40,
+  maxBasePoints: 20, // 父母各20点（低い方を採用）
   scoringMethod: 'min' as const,
 } as const;
 

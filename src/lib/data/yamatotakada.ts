@@ -28,7 +28,7 @@ const municipality = {
   name: '大和高田市',
   slug: 'yamatotakada',
   prefecture: '奈良県',
-  maxBasePoints: 100,
+  maxBasePoints: 200, // 父母各100点の合計
   scoringMethod: 'sum',
 } as const;
 

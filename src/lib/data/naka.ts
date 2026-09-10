@@ -33,7 +33,7 @@ const municipality = {
   name: '那珂市',
   slug: 'naka',
   prefecture: '茨城県',
-  maxBasePoints: 20,
+  maxBasePoints: 40, // 父母各20点の合計
   scoringMethod: 'sum',
 } as const;
 

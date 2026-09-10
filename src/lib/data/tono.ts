@@ -11,7 +11,7 @@ const municipality = {
   name: '遠野市',
   slug: 'tono',
   prefecture: '岩手県',
-  maxBasePoints: 9,
+  maxBasePoints: 18, // 父母各9点の合計
   scoringMethod: 'sum',
 } as const;
 

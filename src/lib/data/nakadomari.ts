@@ -31,7 +31,7 @@ const municipality = {
   name: '中泊町',
   slug: 'nakadomari',
   prefecture: '青森県',
-  maxBasePoints: 10,
+  maxBasePoints: 20, // 父母各10点の合計
   scoringMethod: 'sum',
 } as const;
 

@@ -23,7 +23,7 @@ const municipality = {
   name: '鏡野町',
   slug: 'kagamino',
   prefecture: '岡山県',
-  maxBasePoints: 20,
+  maxBasePoints: 40, // 父母各20点の合計
 } as const;
 
 const employmentOptions = (prefix: string) => [

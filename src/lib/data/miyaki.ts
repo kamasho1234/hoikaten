@@ -27,7 +27,7 @@ const municipality = {
   name: 'みやき町',
   slug: 'miyaki',
   prefecture: '佐賀県',
-  maxBasePoints: 11,
+  maxBasePoints: 22, // 父母各11点の合計
   scoringMethod: 'sum',
 } as const;
 

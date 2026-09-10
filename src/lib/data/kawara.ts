@@ -13,7 +13,8 @@ import type { MunicipalityData, Question } from '../types';
 //   「『基本点数』は、父母それぞれの該当する点数の合計とする。
 //    複数の類型に該当する場合は、高い方をそれぞれの点数とする。」
 // 父母それぞれの点数の合計なので scoringMethod は 'sum'。
-// 基本点数の最大は1人あたり200点（DV）。
+// maxBasePoints は「父母ともフルタイムで働いた場合の世帯合計」なので、
+// 居宅外労働の満点（1人あたり120点）×2 = 240点。DVの200点は例外的な行なので使わない。
 //
 // 「妊娠、出産」は父の欄が斜線なので、母のみの区分である。
 //
@@ -36,7 +37,7 @@ const municipality = {
   name: '香春町',
   slug: 'kawara',
   prefecture: '福岡県',
-  maxBasePoints: 200,
+  maxBasePoints: 240, // 父母各120点の合計
   scoringMethod: 'sum',
 } as const;
 

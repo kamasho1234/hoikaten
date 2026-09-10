@@ -29,7 +29,7 @@ const municipality = {
   name: '河内町',
   slug: 'kawachi',
   prefecture: '茨城県',
-  maxBasePoints: 10,
+  maxBasePoints: 20, // 父母各10点の合計
   scoringMethod: 'sum',
 } as const;
 

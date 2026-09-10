@@ -16,7 +16,7 @@ const municipality = {
   name: '久御山町',
   slug: 'kumiyama',
   prefecture: '京都府',
-  maxBasePoints: 20,
+  maxBasePoints: 40, // 父母各20点の合計
 } as const;
 
 const employmentOptions = (prefix: string) => [

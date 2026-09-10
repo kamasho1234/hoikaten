@@ -16,7 +16,7 @@ const municipality = {
   name: '富士見市',
   slug: 'fujimi',
   prefecture: '埼玉県',
-  maxBasePoints: 40, // 父母各最大20点（ただし低い方を採用）
+  maxBasePoints: 20, // 父母各20点（低い方を採用）
   scoringMethod: 'min', // 父母の低い方を採用する方式
 } as const;
 

@@ -10,7 +10,7 @@ const municipality = {
   name: '金ケ崎町',
   slug: 'kanegasaki',
   prefecture: '岩手県',
-  maxBasePoints: 30,
+  maxBasePoints: 60, // 父母各30点の合計
   scoringMethod: 'sum',
 } as const;
 

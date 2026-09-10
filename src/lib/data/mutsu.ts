@@ -22,7 +22,7 @@ const municipality = {
   name: 'むつ市',
   slug: 'mutsu',
   prefecture: '青森県',
-  maxBasePoints: 6,
+  maxBasePoints: 12, // 父母各6点の合計
   scoringMethod: 'sum',
 } as const;
 

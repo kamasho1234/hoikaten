@@ -13,7 +13,7 @@ const municipality = {
   name: '筑西市',
   slug: 'chikusei',
   prefecture: '茨城県',
-  maxBasePoints: 10,
+  maxBasePoints: 20, // 父母各10点の合計
   scoringMethod: 'sum',
 } as const;
 

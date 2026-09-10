@@ -13,7 +13,7 @@ const municipality = {
   name: '川俣町',
   slug: 'kawamata',
   prefecture: '福島県',
-  maxBasePoints: 11,
+  maxBasePoints: 22, // 父母各11点の合計
   scoringMethod: 'sum',
 } as const;
 

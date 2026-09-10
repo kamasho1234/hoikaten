@@ -15,7 +15,7 @@ const municipality = {
   name: '豊橋市',
   slug: 'toyohashi',
   prefecture: '愛知県',
-  maxBasePoints: 20,
+  maxBasePoints: 40, // 父母各20点の合計
   // scoringMethod 省略 = デフォルト "sum"（父母の基本指数を合算）
 } as const;
 

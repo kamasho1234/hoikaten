@@ -13,7 +13,7 @@ const municipality = {
   name: '勝央町',
   slug: 'shoo',
   prefecture: '岡山県',
-  maxBasePoints: 20,
+  maxBasePoints: 40, // 父母各20点の合計
   scoringMethod: 'sum',
 } as const;
 

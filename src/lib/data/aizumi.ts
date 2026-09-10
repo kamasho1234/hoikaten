@@ -28,7 +28,7 @@ const municipality = {
   name: '藍住町',
   slug: 'aizumi',
   prefecture: '徳島県',
-  maxBasePoints: 110,
+  maxBasePoints: 220, // 父母各110点の合計
   scoringMethod: 'sum',
 } as const;
 

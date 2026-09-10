@@ -18,7 +18,7 @@ const municipality = {
   name: '土岐市',
   slug: 'toki',
   prefecture: '岐阜県',
-  maxBasePoints: 20,
+  maxBasePoints: 40, // 父母各20点の合計
 } as const;
 
 const employmentOptions = (prefix: string) => [

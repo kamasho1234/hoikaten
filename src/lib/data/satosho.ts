@@ -33,7 +33,7 @@ const municipality = {
   name: '里庄町',
   slug: 'satosho',
   prefecture: '岡山県',
-  maxBasePoints: 10,
+  maxBasePoints: 20, // 父母各10点の合計
   scoringMethod: 'sum',
 } as const;
 

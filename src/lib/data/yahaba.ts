@@ -16,7 +16,7 @@ const municipality = {
   name: '矢巾町',
   slug: 'yahaba',
   prefecture: '岩手県',
-  maxBasePoints: 100,
+  maxBasePoints: 200, // 父母各100点の合計
 } as const;
 
 const employmentOptions = (prefix: string) => [
