@@ -1,5 +1,6 @@
 import { notFound, permanentRedirect } from "next/navigation";
-import { getMunicipalityData, getAllMunicipalities } from "@/lib/data";
+import { getArticleCitySlugs } from "@/lib/articles";
+import { getCityInfo } from "@/lib/city-info";
 import { getArticle, getArticlesByCity } from "@/lib/articles";
 import { RandomTextAd } from "@/components/random-text-ad";
 import { ArticleBody } from "@/components/article-body";
@@ -12,12 +13,11 @@ import {
 } from "@/components/ui/card";
 
 export function generateStaticParams() {
-  const municipalities = getAllMunicipalities();
   const params: { city: string; slug: string }[] = [];
-  for (const m of municipalities) {
-    const articles = getArticlesByCity(m.slug);
-    for (const a of articles) {
-      params.push({ city: m.slug, slug: a.slug });
+  for (const city of getArticleCitySlugs()) {
+    if (!getCityInfo(city)) continue;
+    for (const a of getArticlesByCity(city)) {
+      params.push({ city, slug: a.slug });
     }
   }
   return params;
@@ -31,8 +31,7 @@ export async function generateMetadata({
   const { city, slug } = await params;
   const article = getArticle(city, slug);
   if (!article) return {};
-  const data = getMunicipalityData(city);
-  const cityName = data?.municipality.name ?? city;
+  const cityName = getCityInfo(city)?.name ?? city;
   const titleSuffix = article.title.includes(cityName) ? "｜hoikaten" : `｜${cityName}｜hoikaten`;
   return {
     title: `${article.title}${titleSuffix}`,
@@ -67,9 +66,9 @@ export default async function ArticlePage({
   params: Promise<{ city: string; slug: string }>;
 }) {
   const { city, slug } = await params;
-  const data = getMunicipalityData(city);
+  const info = getCityInfo(city);
   const article = getArticle(city, slug);
-  if (!data) notFound();
+  if (!info) notFound();
   if (!article) {
     // 記事のスラッグは昔「point-system」のような自治体名なしの形だった。
     // いまは「komaki-scoring-system」のように自治体名を頭に付けている。
@@ -102,8 +101,8 @@ export default async function ArticlePage({
 
   const breadcrumbJsonLd = breadcrumbList([
     { name: "ホーム", path: "/" },
-    { name: data.municipality.name, path: `/${city}` },
-    { name: "記事一覧", path: `/${city}/articles` },
+    ...(info.hasSimulator ? [{ name: info.name, path: `/${city}` }] : []),
+    { name: `${info.name}の記事一覧`, path: `/${city}/articles` },
     { name: article.title, path: `/${city}/articles/${slug}` },
   ]);
 
@@ -121,7 +120,11 @@ export default async function ArticlePage({
       <nav className="text-sm text-muted-foreground mb-6 flex items-center gap-2 flex-wrap">
         <a href="/" className="hover:underline hover:text-primary">ホーム</a>
         <span>/</span>
-        <a href={`/${city}`} className="hover:underline hover:text-primary">{data.municipality.name}</a>
+        {info.hasSimulator ? (
+          <a href={`/${city}`} className="hover:underline hover:text-primary">{info.name}</a>
+        ) : (
+          <span>{info.name}</span>
+        )}
         <span>/</span>
         <a href={`/${city}/articles`} className="hover:underline hover:text-primary">記事一覧</a>
       </nav>
@@ -147,7 +150,7 @@ export default async function ArticlePage({
 
       {/* メタ情報 */}
       <div className="flex items-center gap-3 text-xs text-muted-foreground mb-8">
-        <span>{data.municipality.name}の保活情報</span>
+        <span>{info.name}の保活情報</span>
         <span>|</span>
         <span>更新日: {article.publishedAt}</span>
       </div>
@@ -160,10 +163,11 @@ export default async function ArticlePage({
       {/* 記事本文（中盤にテキスト広告を挿入） */}
       <ArticleBody html={article.content} />
 
-      {/* CTA */}
+      {/* CTA。点数の基準が無い自治体ではシミュレーターが無いので出さない */}
+      {info.hasSimulator && (
       <div className="mt-10 hero-pattern rounded-2xl p-8 text-center border border-primary/10">
         <p className="font-bold text-lg mb-2" style={{ fontFamily: "var(--font-heading)" }}>
-          {data.municipality.name}の入園点数をチェック
+          {info.name}の入園点数をチェック
         </p>
         <p className="text-sm text-muted-foreground mb-5">
           かんたんな質問に答えるだけで点数の目安がわかります
@@ -175,6 +179,7 @@ export default async function ArticlePage({
           点数シミュレーターを試す
         </a>
       </div>
+      )}
 
       {/* シェア直上のテキスト広告 */}
       <RandomTextAd />
@@ -243,7 +248,7 @@ export default async function ArticlePage({
         <p className="text-xs text-muted-foreground leading-relaxed">
           <span className="font-medium">免責事項：</span>この記事の情報は
           {article.publishedAt}時点のものです。最新情報は
-          {data.municipality.name}の公式サイトをご確認ください。
+          {info.name}の公式サイトをご確認ください。
           当サイトの情報により生じた損害について一切の責任を負いかねます。
         </p>
       </div>

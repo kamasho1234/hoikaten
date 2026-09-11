@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { getAllMunicipalities } from "@/lib/data";
-import { getAllArticles } from "@/lib/articles";
+import { getAllArticles, getArticleCitySlugs } from "@/lib/articles";
+import { getCityInfo } from "@/lib/city-info";
 import { prefectureMap } from "@/lib/prefecture";
 import { getVacancyData, getVacancySlugs } from "@/lib/vacancy";
 import { getAllDocuments } from "@/lib/documents";
@@ -73,12 +74,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   }));
 
-  const articleListPages = municipalities.map((m) => ({
-    url: `${baseUrl}/${m.slug}/articles`,
-    lastModified: cityUpdatedAt(m.slug),
-    changeFrequency: "monthly" as const,
-    priority: 0.7,
-  }));
+  // コラムを持つ自治体すべて（点数の基準が無い自治体も含む）
+  const articleListPages = getArticleCitySlugs()
+    .filter((slug) => getCityInfo(slug))
+    .map((slug) => ({
+      url: `${baseUrl}/${slug}/articles`,
+      lastModified: cityUpdatedAt(slug),
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    }));
 
   const articlePages = articles
     .filter((a) => a.citySlug !== "general")

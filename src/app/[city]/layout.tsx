@@ -1,17 +1,24 @@
 import { getMunicipalityData, getAllMunicipalities } from "@/lib/data";
-import { getVacancyData, getVacancySlugs } from "@/lib/vacancy";
+import { getVacancySlugs } from "@/lib/vacancy";
+import { getArticleCitySlugs } from "@/lib/articles";
+import { getCityInfo } from "@/lib/city-info";
 import { notFound } from "next/navigation";
 
 /**
- * 点数の基準を持つ自治体と、空き状況だけを持つ自治体の両方を並べる。
+ * 点数の基準を持つ自治体、空き状況だけを持つ自治体、コラムだけを持つ自治体を全部並べる。
  *
  * 空き状況は公表しているが利用調整基準を公表していない自治体（唐津市など）がある。
  * その自治体には `/{city}` のシミュレーターはないが `/{city}/vacancy` はあるので、
- * ここで弾いてしまうと空き状況のページごと404になる。
+ * ここで弾いてしまうと空き状況のページごと404になる。コラムだけの自治体
+ * （小浜市など）も同じで、`/{city}/articles` だけがある。
  */
 export function generateStaticParams() {
-  const slugs = new Set([...getAllMunicipalities().map((m) => m.slug), ...getVacancySlugs()]);
-  return [...slugs].map((city) => ({ city }));
+  const slugs = new Set([
+    ...getAllMunicipalities().map((m) => m.slug),
+    ...getVacancySlugs(),
+    ...getArticleCitySlugs(),
+  ]);
+  return [...slugs].filter((city) => getCityInfo(city)).map((city) => ({ city }));
 }
 
 export async function generateMetadata({
@@ -37,7 +44,7 @@ export default async function CityLayout({
 }) {
   const { city } = await params;
   // シミュレーター本体（`/{city}`）は page.tsx 側で改めて点数の基準を見て404にする
-  if (!getMunicipalityData(city) && !getVacancyData(city)) notFound();
+  if (!getCityInfo(city)) notFound();
 
   return children;
 }

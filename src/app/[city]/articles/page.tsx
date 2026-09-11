@@ -1,9 +1,12 @@
 import { notFound } from "next/navigation";
-import { getMunicipalityData, getAllMunicipalities } from "@/lib/data";
-import { getArticlesByCity } from "@/lib/articles";
+import { getArticlesByCity, getArticleCitySlugs } from "@/lib/articles";
+import { getCityInfo } from "@/lib/city-info";
 
+// コラムを持つ自治体すべて。点数の基準が無い自治体（碧南市・小浜市など）も含める
 export function generateStaticParams() {
-  return getAllMunicipalities().map((m) => ({ city: m.slug }));
+  return getArticleCitySlugs()
+    .filter((city) => getCityInfo(city))
+    .map((city) => ({ city }));
 }
 
 export async function generateMetadata({
@@ -12,11 +15,11 @@ export async function generateMetadata({
   params: Promise<{ city: string }>;
 }) {
   const { city } = await params;
-  const data = getMunicipalityData(city);
-  if (!data) return {};
+  const info = getCityInfo(city);
+  if (!info) return {};
   return {
-    title: `${data.municipality.name}の保育園・子育て情報｜hoikaten`,
-    description: `${data.municipality.name}で保活中の方に役立つ記事まとめ。`,
+    title: `${info.name}の保育園・子育て情報｜hoikaten`,
+    description: `${info.name}で保活中の方に役立つ記事まとめ。`,
     alternates: {
       canonical: `https://hoikaten.com/${city}/articles`,
     },
@@ -38,8 +41,8 @@ export default async function ArticlesPage({
   params: Promise<{ city: string }>;
 }) {
   const { city } = await params;
-  const data = getMunicipalityData(city);
-  if (!data) notFound();
+  const info = getCityInfo(city);
+  if (!info) notFound();
 
   const articles = getArticlesByCity(city);
 
@@ -50,7 +53,7 @@ export default async function ArticlesPage({
           className="text-2xl font-bold mb-2"
           style={{ fontFamily: "var(--font-heading)" }}
         >
-          {data.municipality.name}の保活お役立ち記事
+          {info.name}の保活お役立ち記事
         </h2>
         <p className="text-muted-foreground">
           保育園選び・点数アップ・入園準備に役立つ情報をまとめました
@@ -87,12 +90,21 @@ export default async function ArticlesPage({
       )}
 
       <div className="mt-10 text-center">
-        <a
-          href={`/${city}`}
-          className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full btn-primary-warm text-primary-foreground text-sm font-medium"
-        >
-          点数シミュレーターに戻る
-        </a>
+        {info.hasSimulator ? (
+          <a
+            href={`/${city}`}
+            className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full btn-primary-warm text-primary-foreground text-sm font-medium"
+          >
+            点数シミュレーターに戻る
+          </a>
+        ) : (
+          <a
+            href="/select"
+            className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full btn-primary-warm text-primary-foreground text-sm font-medium"
+          >
+            点数シミュレーターのある自治体を探す
+          </a>
+        )}
       </div>
     </div>
   );

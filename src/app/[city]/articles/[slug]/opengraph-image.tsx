@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
-import { getMunicipalityData, getAllMunicipalities } from "@/lib/data";
-import { getArticle, getArticlesByCity } from "@/lib/articles";
+import { getArticle, getArticlesByCity, getArticleCitySlugs } from "@/lib/articles";
+import { getCityInfo } from "@/lib/city-info";
 
 export const runtime = "nodejs";
 export const alt = "hoikaten 記事";
@@ -8,12 +8,11 @@ export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
 export function generateStaticParams() {
-  const municipalities = getAllMunicipalities();
   const params: { city: string; slug: string }[] = [];
-  for (const m of municipalities) {
-    const articles = getArticlesByCity(m.slug);
-    for (const a of articles) {
-      params.push({ city: m.slug, slug: a.slug });
+  for (const city of getArticleCitySlugs()) {
+    if (!getCityInfo(city)) continue;
+    for (const a of getArticlesByCity(city)) {
+      params.push({ city, slug: a.slug });
     }
   }
   return params;
@@ -25,9 +24,8 @@ export default async function Image({
   params: Promise<{ city: string; slug: string }>;
 }) {
   const { city, slug } = await params;
-  const data = getMunicipalityData(city);
   const article = getArticle(city, slug);
-  const cityName = data?.municipality.name ?? city;
+  const cityName = getCityInfo(city)?.name ?? city;
   const title = article?.title ?? slug;
   const category = article?.category ?? "";
 

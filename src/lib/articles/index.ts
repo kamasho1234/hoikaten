@@ -23,6 +23,15 @@ export function getAllArticles(): Article[] {
   return allArticles;
 }
 
+/** 自治体ごとのコラムを持つ自治体の slug（general を除く、重複なし） */
+export function getArticleCitySlugs(): string[] {
+  const slugs = new Set<string>();
+  for (const a of allArticles) {
+    if (a.citySlug !== "general") slugs.add(a.citySlug);
+  }
+  return [...slugs];
+}
+
 export function getTopArticles(limit: number = 10): Article[] {
   return [...allArticles]
     .sort((a, b) => (b.popularity ?? 0) - (a.popularity ?? 0))

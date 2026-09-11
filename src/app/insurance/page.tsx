@@ -5,8 +5,7 @@ import {
   INSURANCE_GROUP_COLOR,
 } from "@/lib/insurance";
 import { breadcrumbList } from "@/lib/jsonld";
-import { getMunicipalityData } from "@/lib/data";
-import { getVacancyData } from "@/lib/vacancy";
+import { getCityInfo } from "@/lib/city-info";
 import {
   MunicipalityArticleSearch,
   type MunicipalityArticleRow,
@@ -31,20 +30,17 @@ const labelColorMap = {
   teal: "bg-teal-50 text-teal-700 border-teal-200",
 } as const;
 
-/** 自治体の記事を検索ボックス用の行にする。自治体名・都道府県は点数データ、無ければ空き状況データから */
+/** 自治体の記事を検索ボックス用の行にする。自治体名・都道府県は getCityInfo（点数データ→空き状況データの順）から */
 function collectCityRows(): MunicipalityArticleRow[] {
   const rows: MunicipalityArticleRow[] = [];
   for (const a of getAllInsuranceArticles()) {
     if (!a.citySlug) continue;
-    const m = getMunicipalityData(a.citySlug)?.municipality;
-    const v = m ? undefined : getVacancyData(a.citySlug);
-    const name = m?.name ?? v?.municipalityName;
-    const prefecture = m?.prefecture ?? v?.prefecture;
-    if (!name || !prefecture) continue;
+    const info = getCityInfo(a.citySlug);
+    if (!info) continue;
     rows.push({
       slug: a.citySlug,
-      name,
-      prefecture,
+      name: info.name,
+      prefecture: info.prefecture,
       href: `/insurance/${a.slug}`,
       title: a.title,
     });

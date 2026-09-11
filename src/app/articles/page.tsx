@@ -1,5 +1,5 @@
-import { getArticlesByCity } from "@/lib/articles";
-import { getAllMunicipalities } from "@/lib/data";
+import { getArticlesByCity, getArticleCitySlugs } from "@/lib/articles";
+import { getCityInfo } from "@/lib/city-info";
 import {
   MunicipalityArticleSearch,
   type MunicipalityArticleRow,
@@ -25,16 +25,16 @@ const categoryColorMap = {
 /** 自治体ごとのコラムがある自治体を検索ボックス用の行にする。行き先は自治体のコラム一覧 */
 function collectCityRows(): MunicipalityArticleRow[] {
   const rows: MunicipalityArticleRow[] = [];
-  for (const m of getAllMunicipalities()) {
-    const count = getArticlesByCity(m.slug).length;
-    if (count === 0) continue;
+  for (const slug of getArticleCitySlugs()) {
+    const info = getCityInfo(slug);
+    if (!info) continue;
     rows.push({
-      slug: m.slug,
-      name: m.name,
-      prefecture: m.prefecture,
-      href: `/${m.slug}/articles`,
-      title: `${m.name}の保活コラム`,
-      note: `${count}本`,
+      slug,
+      name: info.name,
+      prefecture: info.prefecture,
+      href: `/${slug}/articles`,
+      title: `${info.name}の保活コラム`,
+      note: `${getArticlesByCity(slug).length}本`,
     });
   }
   return rows.sort((a, b) => a.name.localeCompare(b.name, "ja"));
