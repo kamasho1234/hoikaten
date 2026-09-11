@@ -51,7 +51,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.ikoma.lg.jp/0000037043.html" target="_blank" rel="noopener">生駒市公式サイト 保育所等入所申込みについて</a>をご確認ください。</p>
+<p>詳しくは<a href="https://www.city.ikoma.lg.jp/0000001637.html" target="_blank" rel="noopener">生駒市公式サイト 保育所等入所申込みについて</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-26",
     popularity: 55,

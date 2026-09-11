@@ -52,7 +52,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新の申込方法は<a href="https://www.city.oita.oita.jp/o253/kosodate/hoiku/2025itijisennkoumousikomi.html" target="_blank" rel="noopener">大分市公式サイト「保育施設入所申込」</a>をご確認ください。</p>
+<p>最新の申込方法は<a href="https://www.city.oita.oita.jp/kosodate/hoiku/hoikushisetsu/index.html" target="_blank" rel="noopener">大分市公式サイト「保育施設入所申込」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-04",
     popularity: 55,

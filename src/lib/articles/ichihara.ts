@@ -62,7 +62,7 @@ const ichiharaArticles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳細は<a href="https://www.city.ichihara.lg.jp/" target="_blank" rel="noopener">市原市公式サイト</a>の「保育園入園」ページをご確認ください。</p>
+<p>詳細は<a href="https://www.city.ichihara.chiba.jp/" target="_blank" rel="noopener">市原市公式サイト</a>の「保育園入園」ページをご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-01",
     popularity: 70,
@@ -398,7 +398,7 @@ const ichiharaArticles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新のスケジュールと詳細は<a href="https://www.city.ichihara.lg.jp/" target="_blank" rel="noopener">市原市公式サイト</a>で確認してください。</p>
+<p>最新のスケジュールと詳細は<a href="https://www.city.ichihara.chiba.jp/" target="_blank" rel="noopener">市原市公式サイト</a>で確認してください。</p>
 </div>`,
     publishedAt: "2026-04-03",
     popularity: 70,
@@ -818,7 +818,7 @@ const ichiharaArticles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新の施設情報や待機児童統計は<a href="https://www.city.ichihara.lg.jp/" target="_blank" rel="noopener">市原市公式サイト</a>で発表されています。</p>
+<p>最新の施設情報や待機児童統計は<a href="https://www.city.ichihara.chiba.jp/" target="_blank" rel="noopener">市原市公式サイト</a>で発表されています。</p>
 </div>`,
     publishedAt: "2026-04-06",
     popularity: 50,

@@ -719,7 +719,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新の待機児童数は<a href="https://www.city.kobe.lg.jp/a36812/kosodate/shien/oen/taiki0.html" target="_blank" rel="noopener">神戸市「待機児童の状況」</a>で公開されています。</p>
+<p>最新の待機児童数は<a href="https://www.city.kobe.lg.jp/z/kodomokatekyoku/shienbu/taikijido-su.html" target="_blank" rel="noopener">神戸市「待機児童の状況」</a>で公開されています。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 55,

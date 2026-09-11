@@ -516,7 +516,7 @@ const articles: Article[] = [
 <p>毎年6月ごろ、前年度の市民税額が確定した後に保育料が決定・通知されます。入園前に目安を知りたい場合は日野市子育て支援課に相談するか、市のホームページで試算してみましょう。</p>
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新の保育料表は<a href="https://www.city.hino.lg.jp/kodomo/hoiku/" target="_blank" rel="noopener">日野市公式サイト「保育園・認定こども園」</a>からご確認ください。</p>
+<p>最新の保育料表は<a href="https://www.city.hino.lg.jp/kosodate/1028734/index.html" target="_blank" rel="noopener">日野市公式サイト「保育園・認定こども園」</a>からご確認ください。</p>
 </div>`,
     publishedAt: "2026-05-13",
     popularity: 42,
@@ -560,7 +560,7 @@ const articles: Article[] = [
 </ul>
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>副食費の詳細は<a href="https://www.city.hino.lg.jp/kodomo/hoiku/" target="_blank" rel="noopener">日野市公式サイト「保育園・認定こども園」</a>でご確認ください。</p>
+<p>副食費の詳細は<a href="https://www.city.hino.lg.jp/kosodate/1028734/index.html" target="_blank" rel="noopener">日野市公式サイト「保育園・認定こども園」</a>でご確認ください。</p>
 </div>`,
     publishedAt: "2026-05-13",
     popularity: 40,

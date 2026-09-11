@@ -3,7 +3,7 @@ import type { MunicipalityData, Question } from '../types';
 // ---------------------------------------------------------------------------
 // 福井市 保育園入園 基本点数・調整点数データ
 // 出典：福井市保育の提供に係る教育・保育給付認定等事務取扱要綱（別表）
-// https://www1.g-reiki.net/city.fukui/reiki_honbun/s500RG00000400.html
+// https://www.city.fukui.lg.jp/fukusi/kosodate/hoikuen/p071541.html
 // ---------------------------------------------------------------------------
 //
 // 福井市の利用調整は以下のように算出されます。

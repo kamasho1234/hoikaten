@@ -51,7 +51,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳しくは<a href="http://www.city.kamagaya.chiba.jp/download_menu/hoiku.html" target="_blank" rel="noopener">鎌ヶ谷市公式サイト 保育関連書類</a>をご確認ください。</p>
+<p>詳しくは<a href="https://www.city.kamagaya.chiba.jp/download_menu/download_fukushi/hoiku.html" target="_blank" rel="noopener">鎌ヶ谷市公式サイト 保育関連書類</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-26",
     popularity: 55,

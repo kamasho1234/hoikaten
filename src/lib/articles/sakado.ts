@@ -51,7 +51,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.sakado.lg.jp/soshiki/32/54391.html" target="_blank" rel="noopener">坂戸市 4月保育園児募集のお知らせ</a>をご確認ください。</p>
+<p>詳しくは<a href="https://www.city.sakado.lg.jp/site/sakado-kosodate/724.html" target="_blank" rel="noopener">坂戸市 4月保育園児募集のお知らせ</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-26",
     popularity: 50,

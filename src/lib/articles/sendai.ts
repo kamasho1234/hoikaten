@@ -470,7 +470,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>地域型保育事業の一覧は<a href="https://www.city.sendai.jp/nintechosa/kurashi/kenkotofukushi/kosodate/hoikujo/annai/hoikushisetsu.html" target="_blank" rel="noopener">仙台市公式サイト</a>で確認できます。認可外保育施設の一覧は<a href="https://www.city.sendai.jp/kodomo-shido/kurashi/kenkotofukushi/kosodate/hoikujo/ninkagai/hoikushisetsu/ichiran.html" target="_blank" rel="noopener">仙台市公式サイト「認可外保育施設一覧」</a>で確認できます。</p>
+<p>地域型保育事業の一覧は<a href="https://www.city.sendai.jp/nintechosa/kurashi/kenkotofukushi/kosodate/hoikujo/annai/hoikushisetsu.html" target="_blank" rel="noopener">仙台市公式サイト</a>で確認できます。認可外保育施設の一覧は<a href="https://www.city.sendai.jp/kodomo-shido/kurashi/kenkotofukushi/kosodate/hoikujo/ninkagai/hoikushisetsu/index.html" target="_blank" rel="noopener">仙台市公式サイト「認可外保育施設一覧」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-03-28",
     popularity: 75,
@@ -672,7 +672,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>ひとり親家庭への支援制度の詳細は<a href="https://www.city.sendai.jp/kurashi/kenkotofukushi/kosodate/hoikujo/" target="_blank" rel="noopener">仙台市公式サイト「ひとり親家庭のための各種支援」</a>をご確認ください。</p>
+<p>ひとり親家庭への支援制度の詳細は<a href="https://www.city.sendai.jp/kurashi/kenkotofukushi/kosodate/shien/hitorioya/index.html" target="_blank" rel="noopener">仙台市公式サイト「ひとり親家庭のための各種支援」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 50,
@@ -786,7 +786,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>仙台市内の認可外保育施設の一覧は<a href="https://www.city.sendai.jp/kodomo-shido/kurashi/kenkotofukushi/kosodate/hoikujo/ninkagai/hoikushisetsu/ichiran.html" target="_blank" rel="noopener">仙台市公式サイト「認可外保育施設一覧」</a>で確認できます。</p>
+<p>仙台市内の認可外保育施設の一覧は<a href="https://www.city.sendai.jp/kodomo-shido/kurashi/kenkotofukushi/kosodate/hoikujo/ninkagai/hoikushisetsu/index.html" target="_blank" rel="noopener">仙台市公式サイト「認可外保育施設一覧」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 40,
@@ -1419,7 +1419,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>すくすくサポート事業の詳細は<a href="https://www.city.sendai.jp/kurashi/kenkotofukushi/kosodate/hoikujo/" target="_blank" rel="noopener">仙台市公式サイト</a>をご確認ください。</p>
+<p>すくすくサポート事業の詳細は<a href="https://www.city.sendai.jp/kurashi/kenkotofukushi/kosodate/index.html" target="_blank" rel="noopener">仙台市公式サイト</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 30,
@@ -2091,7 +2091,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>仙台市の病児保育施設については<a href="https://www.city.sendai.jp/kurashi/kenkotofukushi/kosodate/hoikujo/" target="_blank" rel="noopener">仙台市公式サイト「子どもを預ける」</a>をご確認ください。</p>
+<p>仙台市の病児保育施設については<a href="https://www.city.sendai.jp/kodomo-chiiki/kurashi/kenkotofukushi/kosodate/azukari/azukari/byoji.html" target="_blank" rel="noopener">仙台市公式サイト「子どもを預ける」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 45,

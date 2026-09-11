@@ -96,7 +96,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>全項目は<a href="https://www.city.toyonaka.osaka.jp/kosodate/hoikusho/tetsuduki/nyuushonokijun.html" target="_blank" rel="noopener">豊中市公式サイト</a>で確認できます。</p>
+<p>全項目は<a href="https://www.city.toyonaka.osaka.jp/kosodate/hoikusho/index.html" target="_blank" rel="noopener">豊中市公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-03-28",
     popularity: 65,

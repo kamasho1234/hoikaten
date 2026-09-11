@@ -283,7 +283,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>就労証明書の様式は<a href="https://www.city.kitakyushu.lg.jp/ko-katei/12100082.html" target="_blank" rel="noopener">北九州市公式サイト</a>からダウンロードできます。</p>
+<p>就労証明書の様式は<a href="https://www.city.kitakyushu.lg.jp/kurashi/menu_00050.html" target="_blank" rel="noopener">北九州市公式サイト</a>からダウンロードできます。</p>
 </div>`,
     publishedAt: "2026-03-28",
     popularity: 90,
@@ -579,7 +579,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>保育施設の一覧は<a href="https://www.city.kitakyushu.lg.jp/ko-katei/12100035.html" target="_blank" rel="noopener">北九州市公式サイト</a>で確認できます。</p>
+<p>保育施設の一覧は<a href="https://www.city.kitakyushu.lg.jp/contents/12100074.html" target="_blank" rel="noopener">北九州市公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 70,
@@ -617,7 +617,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>各園の受入月齢は<a href="https://www.city.kitakyushu.lg.jp/ko-katei/12100035.html" target="_blank" rel="noopener">北九州市公式サイトの保育施設一覧</a>で確認できます。</p>
+<p>各園の受入月齢は<a href="https://www.city.kitakyushu.lg.jp/contents/12100074.html" target="_blank" rel="noopener">北九州市公式サイトの保育施設一覧</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 72,
@@ -654,7 +654,7 @@ const articles: Article[] = [
 
 <div class="warn-box">
 <p><strong>注意</strong></p>
-<p>児童扶養手当の金額は毎年度改定されます。最新額は<a href="https://www.city.kitakyushu.lg.jp/ko-katei/12200010.html" target="_blank" rel="noopener">北九州市公式サイト</a>でご確認ください。</p>
+<p>児童扶養手当の金額は毎年度改定されます。最新額は<a href="https://www.city.kitakyushu.lg.jp/kurashi/menu_00056.html" target="_blank" rel="noopener">北九州市公式サイト</a>でご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 65,
@@ -734,7 +734,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>北九州市内の認可外保育施設の一覧・指導監督結果は<a href="https://www.city.kitakyushu.lg.jp/ko-katei/12100035.html" target="_blank" rel="noopener">北九州市公式サイト</a>で公開されています。</p>
+<p>北九州市内の認可外保育施設の一覧・指導監督結果は<a href="https://www.city.kitakyushu.lg.jp/contents/12100074.html" target="_blank" rel="noopener">北九州市公式サイト</a>で公開されています。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 55,
@@ -850,7 +850,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新の待機児童数は<a href="https://www.city.kitakyushu.lg.jp/ko-katei/12100035.html" target="_blank" rel="noopener">北九州市公式サイト</a>で確認できます。</p>
+<p>最新の待機児童数は<a href="https://www.city.kitakyushu.lg.jp/contents/12100074.html" target="_blank" rel="noopener">北九州市公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 75,
@@ -887,7 +887,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>小規模保育事業所の一覧・連携施設は<a href="https://www.city.kitakyushu.lg.jp/ko-katei/12100035.html" target="_blank" rel="noopener">北九州市公式サイト</a>で確認できます。</p>
+<p>小規模保育事業所の一覧・連携施設は<a href="https://www.city.kitakyushu.lg.jp/contents/12100074.html" target="_blank" rel="noopener">北九州市公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 58,
@@ -1137,7 +1137,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>無償化の詳細は<a href="https://www.city.kitakyushu.lg.jp/ko-katei/12100035.html" target="_blank" rel="noopener">北九州市公式サイト</a>で確認できます。</p>
+<p>無償化の詳細は<a href="https://www.city.kitakyushu.lg.jp/contents/12100074.html" target="_blank" rel="noopener">北九州市公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 55,
@@ -1172,7 +1172,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>各園の受入月齢は<a href="https://www.city.kitakyushu.lg.jp/ko-katei/12100035.html" target="_blank" rel="noopener">北九州市公式サイトの保育施設一覧</a>で確認できます。</p>
+<p>各園の受入月齢は<a href="https://www.city.kitakyushu.lg.jp/contents/12100074.html" target="_blank" rel="noopener">北九州市公式サイトの保育施設一覧</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 57,
@@ -1210,7 +1210,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>認定こども園の一覧は<a href="https://www.city.kitakyushu.lg.jp/ko-katei/12100035.html" target="_blank" rel="noopener">北九州市公式サイト</a>で確認できます。</p>
+<p>認定こども園の一覧は<a href="https://www.city.kitakyushu.lg.jp/contents/12100074.html" target="_blank" rel="noopener">北九州市公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 60,
@@ -1290,7 +1290,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>延長保育の実施園は<a href="https://www.city.kitakyushu.lg.jp/ko-katei/12100035.html" target="_blank" rel="noopener">北九州市公式サイト</a>で確認できます。</p>
+<p>延長保育の実施園は<a href="https://www.city.kitakyushu.lg.jp/contents/12100074.html" target="_blank" rel="noopener">北九州市公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 45,
@@ -1330,7 +1330,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>無償化の詳細は<a href="https://www.city.kitakyushu.lg.jp/ko-katei/12100035.html" target="_blank" rel="noopener">北九州市公式サイト</a>で確認できます。</p>
+<p>無償化の詳細は<a href="https://www.city.kitakyushu.lg.jp/contents/12100074.html" target="_blank" rel="noopener">北九州市公式サイト</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 70,
@@ -1385,7 +1385,7 @@ const articles: Article[] = [
 
 <div class="warn-box">
 <p><strong>注意</strong></p>
-<p>保育料の具体的な金額は毎年度改定される場合があります。最新の保育料表は<a href="https://www.city.kitakyushu.lg.jp/ko-katei/12100035.html" target="_blank" rel="noopener">北九州市公式サイト</a>でご確認ください。</p>
+<p>保育料の具体的な金額は毎年度改定される場合があります。最新の保育料表は<a href="https://www.city.kitakyushu.lg.jp/contents/12100074.html" target="_blank" rel="noopener">北九州市公式サイト</a>でご確認ください。</p>
 </div>
 
 <h2>多子軽減制度</h2>
@@ -1981,7 +1981,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>北九州市の子育て支援施策の詳細は<a href="https://www.city.kitakyushu.lg.jp/ko-katei/index.html" target="_blank" rel="noopener">北九州市子ども家庭局</a>のページで確認できます。</p>
+<p>北九州市の子育て支援施策の詳細は<a href="https://www.city.kitakyushu.lg.jp/kurashi/menu_00054.html" target="_blank" rel="noopener">北九州市子ども家庭局</a>のページで確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 55,

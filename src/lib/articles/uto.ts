@@ -38,7 +38,7 @@ const utoArticles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳細は<a href="https://www.city.uto.kumamoto.jp/" target="_blank" rel="noopener">宇土市公式サイト</a>の利用調整基準をご確認ください。</p>
+<p>詳細は<a href="https://www.city.uto.lg.jp/" target="_blank" rel="noopener">宇土市公式サイト</a>の利用調整基準をご確認ください。</p>
 </div>`,
     publishedAt: "2026-06-09",
   },
@@ -89,7 +89,7 @@ const utoArticles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>就労証明書の書式や提出方法は<a href="https://www.city.uto.kumamoto.jp/" target="_blank" rel="noopener">宇土市公式サイト</a>でご確認ください。</p>
+<p>就労証明書の書式や提出方法は<a href="https://www.city.uto.lg.jp/" target="_blank" rel="noopener">宇土市公式サイト</a>でご確認ください。</p>
 </div>`,
     publishedAt: "2026-06-09",
   },
@@ -138,7 +138,7 @@ const utoArticles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳細は<a href="https://www.city.uto.kumamoto.jp/" target="_blank" rel="noopener">宇土市公式サイト</a>をご確認ください。</p>
+<p>詳細は<a href="https://www.city.uto.lg.jp/" target="_blank" rel="noopener">宇土市公式サイト</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-06-09",
   },
@@ -189,7 +189,7 @@ const utoArticles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳細は<a href="https://www.city.uto.kumamoto.jp/" target="_blank" rel="noopener">宇土市公式サイト</a>でご確認ください。</p>
+<p>詳細は<a href="https://www.city.uto.lg.jp/" target="_blank" rel="noopener">宇土市公式サイト</a>でご確認ください。</p>
 </div>`,
     publishedAt: "2026-06-09",
   },
@@ -240,7 +240,7 @@ const utoArticles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳細は<a href="https://www.city.uto.kumamoto.jp/" target="_blank" rel="noopener">宇土市公式サイト</a>をご確認ください。</p>
+<p>詳細は<a href="https://www.city.uto.lg.jp/" target="_blank" rel="noopener">宇土市公式サイト</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-06-09",
   },
@@ -285,7 +285,7 @@ const utoArticles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳細は<a href="https://www.city.uto.kumamoto.jp/" target="_blank" rel="noopener">宇土市公式サイト</a>でご確認ください。</p>
+<p>詳細は<a href="https://www.city.uto.lg.jp/" target="_blank" rel="noopener">宇土市公式サイト</a>でご確認ください。</p>
 </div>`,
     publishedAt: "2026-06-09",
   },
@@ -331,7 +331,7 @@ const utoArticles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳細は<a href="https://www.city.uto.kumamoto.jp/" target="_blank" rel="noopener">宇土市公式サイト</a>でご確認ください。</p>
+<p>詳細は<a href="https://www.city.uto.lg.jp/" target="_blank" rel="noopener">宇土市公式サイト</a>でご確認ください。</p>
 </div>`,
     publishedAt: "2026-06-09",
   },
@@ -393,7 +393,7 @@ const utoArticles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳細は<a href="https://www.city.uto.kumamoto.jp/" target="_blank" rel="noopener">宇土市公式サイト</a>でご確認ください。</p>
+<p>詳細は<a href="https://www.city.uto.lg.jp/" target="_blank" rel="noopener">宇土市公式サイト</a>でご確認ください。</p>
 </div>`,
     publishedAt: "2026-06-09",
   },
@@ -448,7 +448,7 @@ const utoArticles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新のスケジュールは<a href="https://www.city.uto.kumamoto.jp/" target="_blank" rel="noopener">宇土市公式サイト</a>でご確認ください。</p>
+<p>最新のスケジュールは<a href="https://www.city.uto.lg.jp/" target="_blank" rel="noopener">宇土市公式サイト</a>でご確認ください。</p>
 </div>`,
     publishedAt: "2026-06-09",
   },
@@ -496,7 +496,7 @@ const utoArticles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳細は<a href="https://www.city.uto.kumamoto.jp/" target="_blank" rel="noopener">宇土市公式サイト</a>をご確認いただくか、市の子育て支援課にお問い合わせください。</p>
+<p>詳細は<a href="https://www.city.uto.lg.jp/" target="_blank" rel="noopener">宇土市公式サイト</a>をご確認いただくか、市の子育て支援課にお問い合わせください。</p>
 </div>`,
     publishedAt: "2026-06-09",
   },

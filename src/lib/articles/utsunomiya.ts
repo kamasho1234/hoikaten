@@ -50,7 +50,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新情報は<a href="https://www.city.utsunomiya.lg.jp/kosodate/kosodate/1035002/hoiku/nyusho/1039264.html" target="_blank" rel="noopener">宇都宮市公式サイト「教育・保育施設等の入所申込」</a>をご確認ください。</p>
+<p>最新情報は<a href="https://www.city.utsunomiya.lg.jp/kosodate/kosodate/1035002/index.html" target="_blank" rel="noopener">宇都宮市公式サイト「教育・保育施設等の入所申込」</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-03-28",
     popularity: 55,
@@ -260,7 +260,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>各園の受入れ状況は<a href="https://www.city.utsunomiya.lg.jp/kosodate/kosodate/1035002/hoiku/nyusho/1039658/index.html" target="_blank" rel="noopener">宇都宮市公式サイト「受入れ状況一覧」</a>で確認できます。</p>
+<p>各園の受入れ状況は<a href="https://www.city.utsunomiya.lg.jp/kosodate/kosodate/1035002/index.html" target="_blank" rel="noopener">宇都宮市公式サイト「受入れ状況一覧」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-03-28",
     popularity: 60,

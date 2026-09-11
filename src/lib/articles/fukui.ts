@@ -110,7 +110,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳細な点数表は<a href="https://www1.g-reiki.net/city.fukui/reiki_honbun/s500RG00000400.html" target="_blank" rel="noopener">福井市保育の提供に係る教育・保育給付認定等事務取扱要綱</a>で確認できます。</p>
+<p>詳細な点数表は<a href="https://www.city.fukui.lg.jp/fukusi/kosodate/hoikuen/p071541.html" target="_blank" rel="noopener">福井市保育の提供に係る教育・保育給付認定等事務取扱要綱</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-05",
     popularity: 60,
@@ -157,7 +157,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www1.g-reiki.net/city.fukui/reiki_honbun/s500RG00000400.html" target="_blank" rel="noopener">福井市保育の提供に係る教育・保育給付認定等事務取扱要綱</a>をご確認ください。</p>
+<p>詳しくは<a href="https://www.city.fukui.lg.jp/fukusi/kosodate/hoikuen/p071541.html" target="_blank" rel="noopener">福井市保育の提供に係る教育・保育給付認定等事務取扱要綱</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-05",
     popularity: 50,
@@ -381,7 +381,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www1.g-reiki.net/city.fukui/reiki_honbun/s500RG00000400.html" target="_blank" rel="noopener">福井市保育の提供に係る教育・保育給付認定等事務取扱要綱</a>をご確認ください。</p>
+<p>詳しくは<a href="https://www.city.fukui.lg.jp/fukusi/kosodate/hoikuen/p071541.html" target="_blank" rel="noopener">福井市保育の提供に係る教育・保育給付認定等事務取扱要綱</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-05",
     popularity: 35,
@@ -423,7 +423,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www1.g-reiki.net/city.fukui/reiki_honbun/s500RG00000400.html" target="_blank" rel="noopener">福井市保育の提供に係る教育・保育給付認定等事務取扱要綱</a>をご確認ください。</p>
+<p>詳しくは<a href="https://www.city.fukui.lg.jp/fukusi/kosodate/hoikuen/p071541.html" target="_blank" rel="noopener">福井市保育の提供に係る教育・保育給付認定等事務取扱要綱</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-05",
     popularity: 35,
@@ -471,7 +471,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www1.g-reiki.net/city.fukui/reiki_honbun/s500RG00000400.html" target="_blank" rel="noopener">福井市保育の提供に係る教育・保育給付認定等事務取扱要綱</a>をご確認ください。</p>
+<p>詳しくは<a href="https://www.city.fukui.lg.jp/fukusi/kosodate/hoikuen/p071541.html" target="_blank" rel="noopener">福井市保育の提供に係る教育・保育給付認定等事務取扱要綱</a>をご確認ください。</p>
 </div>`,
     publishedAt: "2026-04-05",
     popularity: 30,

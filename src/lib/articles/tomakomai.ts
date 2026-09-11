@@ -197,7 +197,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>苫小牧市内の認可保育所一覧は<a href="https://www.city.tomakomai.hokkaido.jp/kenko/kosodate/kanrenshisetsu/kyokahoikujo/ichiran/shozaichi.html" target="_blank" rel="noopener">苫小牧市公式サイト「認可保育所一覧」</a>で確認できます。</p>
+<p>苫小牧市内の認可保育所一覧は<a href="https://www.city.tomakomai.hokkaido.jp/kenko/kosodate/kanrenshisetsu/kyokahoikujo/hoikusyoichiran.html" target="_blank" rel="noopener">苫小牧市公式サイト「認可保育所一覧」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 45,
@@ -335,7 +335,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>苫小牧市内の保育施設一覧は<a href="https://www.city.tomakomai.hokkaido.jp/kenko/kosodate/kanrenshisetsu/kyokahoikujo/ichiran/shozaichi.html" target="_blank" rel="noopener">苫小牧市公式サイト「認可保育所一覧」</a>で確認できます。</p>
+<p>苫小牧市内の保育施設一覧は<a href="https://www.city.tomakomai.hokkaido.jp/kenko/kosodate/kanrenshisetsu/kyokahoikujo/hoikusyoichiran.html" target="_blank" rel="noopener">苫小牧市公式サイト「認可保育所一覧」</a>で確認できます。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 40,

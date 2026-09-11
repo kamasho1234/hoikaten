@@ -535,7 +535,7 @@ const articles: Article[] = [
 <p>毎年6月ごろ、前年度の市民税額が確定した後に保育料が決定・通知されます。入園前に目安を知りたい場合は小平市子ども家庭部保育課にお問い合わせください。</p>
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新の保育料表は<a href="https://www.city.kodaira.tokyo.jp/kurashi/009/009588.html" target="_blank" rel="noopener">小平市公式サイト「保育料について」</a>からご確認ください。</p>
+<p>最新の保育料表は<a href="https://www.city.kodaira.tokyo.jp/kurashi/index02006.html" target="_blank" rel="noopener">小平市公式サイト「保育料について」</a>からご確認ください。</p>
 </div>`,
     publishedAt: "2026-05-13",
     popularity: 42,
@@ -584,7 +584,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新の副食費・実費負担の詳細は<a href="https://www.city.kodaira.tokyo.jp/kurashi/009/009588.html" target="_blank" rel="noopener">小平市公式サイト「保育料について」</a>からご確認ください。</p>
+<p>最新の副食費・実費負担の詳細は<a href="https://www.city.kodaira.tokyo.jp/kurashi/index02006.html" target="_blank" rel="noopener">小平市公式サイト「保育料について」</a>からご確認ください。</p>
 </div>`,
     publishedAt: "2026-05-13",
     popularity: 40,

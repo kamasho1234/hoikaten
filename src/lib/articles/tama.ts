@@ -505,7 +505,7 @@ const articles: Article[] = [
 <p>毎年6月ごろ、前年度の市民税額が確定した後に保育料が決定・通知されます。入園前の目安は多摩市子ども政策課にお問い合わせください。</p>
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新の保育料表は<a href="https://www.city.tama.lg.jp/kosodate/kosodate/hoiku/" target="_blank" rel="noopener">多摩市公式サイト「保育園・認定こども園」</a>からご確認ください。</p>
+<p>最新の保育料表は<a href="https://www.city.tama.lg.jp/kosodate/1008019/1008034/1018508.html" target="_blank" rel="noopener">多摩市公式サイト「保育園・認定こども園」</a>からご確認ください。</p>
 </div>`,
     publishedAt: "2026-05-13",
     popularity: 42,
@@ -554,7 +554,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>最新の副食費・実費負担の詳細は<a href="https://www.city.tama.lg.jp/kosodate/kosodate/hoiku/" target="_blank" rel="noopener">多摩市公式サイト「保育園・認定こども園」</a>からご確認ください。</p>
+<p>最新の副食費・実費負担の詳細は<a href="https://www.city.tama.lg.jp/kosodate/1008019/1008034/1018508.html" target="_blank" rel="noopener">多摩市公式サイト「保育園・認定こども園」</a>からご確認ください。</p>
 </div>`,
     publishedAt: "2026-05-13",
     popularity: 40,

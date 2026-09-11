@@ -190,7 +190,7 @@ const articles: Article[] = [
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
-<p>千葉市内の認可外保育施設の一覧は<a href="https://www.city.chiba.jp/kodomomirai/kodomomirai/unei/ninkagai.html" target="_blank" rel="noopener">千葉市公式サイト</a>で公開されています。</p>
+<p>千葉市内の認可外保育施設の一覧は<a href="https://www.city.chiba.jp/kosodate/hoiku-kyoiku/hoikujo/ninkagai/index.html" target="_blank" rel="noopener">千葉市公式サイト</a>で公開されています。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 55,
