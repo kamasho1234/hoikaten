@@ -54,3 +54,4 @@ scripts/pdfs/
 # Python の実行時キャッシュ
 __pycache__/
 *.pyc
+tasks/article-points/
