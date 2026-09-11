@@ -1,3 +1,11 @@
+## 2026-09-11 push 先のブランチを間違えた
+`git push origin master` したが、このリポジトリの本番ブランチは **main**。
+`master` は初回コミットだけの古い stub で、Vercel は見ていない。
+push のあと本番に反映されず、`git branch -vv` で気付いた。
+**push の前に `git branch --show-current` を見る。本番反映の確認は必ず正しいURLで行う**
+（このときは `/articles/uto-guide` という存在しないURLで待っていて、404を「未反映」と読んでいた。
+自治体記事は `/<slug>/articles/<記事slug>`）。
+
 # 教訓
 
 ## push 先のブランチを毎回確認する（2026-08-21）
