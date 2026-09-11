@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { kanaMap } from "@/lib/kana-map";
+import { matchesMunicipality, normalizeQuery } from "@/lib/municipality-search";
 
 export type VacancyListRow = {
   slug: string;
@@ -24,30 +24,13 @@ export type VacancyListRow = {
 
 const num = (n: number) => n.toLocaleString("ja-JP");
 
-/** ひらがな・カタカナの違いで探せなくならないようにそろえる */
-function normalize(s: string): string {
-  return s
-    .trim()
-    .toLowerCase()
-    .replace(/[ァ-ン]/g, (c) => String.fromCharCode(c.charCodeAt(0) - 0x60))
-    .replace(/[\s　]/g, "");
-}
-
 export function VacancyList({ rows }: { rows: VacancyListRow[] }) {
   const [query, setQuery] = useState("");
-  const q = normalize(query);
+  const q = normalizeQuery(query);
 
   const filtered = useMemo(() => {
     if (!q) return rows;
-    return rows.filter((row) => {
-      const reading = normalize(kanaMap[row.name] ?? "");
-      return (
-        normalize(row.name).includes(q) ||
-        normalize(row.prefecture).includes(q) ||
-        row.slug.includes(q) ||
-        reading.includes(q)
-      );
-    });
+    return rows.filter((row) => matchesMunicipality(q, row));
   }, [rows, q]);
 
   // 都道府県ごとにまとめ直す。並び順は自治体の多い順、同数なら名前順

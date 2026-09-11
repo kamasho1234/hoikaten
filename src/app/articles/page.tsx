@@ -1,4 +1,9 @@
 import { getArticlesByCity } from "@/lib/articles";
+import { getAllMunicipalities } from "@/lib/data";
+import {
+  MunicipalityArticleSearch,
+  type MunicipalityArticleRow,
+} from "@/components/municipality-article-search";
 
 export const metadata = {
   title: "保活コラム｜保育園 点数シミュレーター【hoikaten】",
@@ -17,8 +22,27 @@ const categoryColorMap = {
   teal: "bg-teal-50 text-teal-700 border-teal-200",
 } as const;
 
+/** 自治体ごとのコラムがある自治体を検索ボックス用の行にする。行き先は自治体のコラム一覧 */
+function collectCityRows(): MunicipalityArticleRow[] {
+  const rows: MunicipalityArticleRow[] = [];
+  for (const m of getAllMunicipalities()) {
+    const count = getArticlesByCity(m.slug).length;
+    if (count === 0) continue;
+    rows.push({
+      slug: m.slug,
+      name: m.name,
+      prefecture: m.prefecture,
+      href: `/${m.slug}/articles`,
+      title: `${m.name}の保活コラム`,
+      note: `${count}本`,
+    });
+  }
+  return rows.sort((a, b) => a.name.localeCompare(b.name, "ja"));
+}
+
 export default function ArticlesPage() {
   const articles = getArticlesByCity("general");
+  const cityRows = collectCityRows();
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-8">
@@ -34,6 +58,11 @@ export default function ArticlesPage() {
         </p>
       </div>
 
+      <MunicipalityArticleSearch
+        rows={cityRows}
+        placeholder="自治体名で検索（例: せたがや、大阪府）"
+        emptyMessage="その自治体のコラムはまだありません。"
+      >
       {articles.length === 0 ? (
         <p className="text-muted-foreground text-center">記事は準備中です</p>
       ) : (
@@ -62,6 +91,7 @@ export default function ArticlesPage() {
           ))}
         </div>
       )}
+      </MunicipalityArticleSearch>
 
       <div className="mt-10 text-center">
         <a

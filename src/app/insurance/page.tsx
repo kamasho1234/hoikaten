@@ -5,6 +5,12 @@ import {
   INSURANCE_GROUP_COLOR,
 } from "@/lib/insurance";
 import { breadcrumbList } from "@/lib/jsonld";
+import { getMunicipalityData } from "@/lib/data";
+import { getVacancyData } from "@/lib/vacancy";
+import {
+  MunicipalityArticleSearch,
+  type MunicipalityArticleRow,
+} from "@/components/municipality-article-search";
 
 const COUNT = getAllInsuranceArticles().length;
 
@@ -25,8 +31,30 @@ const labelColorMap = {
   teal: "bg-teal-50 text-teal-700 border-teal-200",
 } as const;
 
+/** 自治体の記事を検索ボックス用の行にする。自治体名・都道府県は点数データ、無ければ空き状況データから */
+function collectCityRows(): MunicipalityArticleRow[] {
+  const rows: MunicipalityArticleRow[] = [];
+  for (const a of getAllInsuranceArticles()) {
+    if (!a.citySlug) continue;
+    const m = getMunicipalityData(a.citySlug)?.municipality;
+    const v = m ? undefined : getVacancyData(a.citySlug);
+    const name = m?.name ?? v?.municipalityName;
+    const prefecture = m?.prefecture ?? v?.prefecture;
+    if (!name || !prefecture) continue;
+    rows.push({
+      slug: a.citySlug,
+      name,
+      prefecture,
+      href: `/insurance/${a.slug}`,
+      title: a.title,
+    });
+  }
+  return rows;
+}
+
 export default function InsuranceHubPage() {
   const sections = getInsuranceByGroup();
+  const cityRows = collectCityRows();
 
   const breadcrumbJsonLd = breadcrumbList([
     { name: "ホーム", path: "/" },
@@ -79,6 +107,11 @@ export default function InsuranceHubPage() {
         そのうえで、足りない部分をどう考えるかまで扱っています。
       </p>
 
+      <MunicipalityArticleSearch
+        rows={cityRows}
+        placeholder="自治体名で検索（例: あびこ、千葉県）"
+        emptyMessage="その自治体の子育てのお金の記事はまだありません。"
+      >
       <div className="rounded-xl border border-border/60 bg-muted/30 p-5 mb-10">
         <h2 className="text-sm font-bold mb-2">この記事群の書き方について</h2>
         <ul className="space-y-1.5 m-0 list-none p-0 text-sm text-foreground/80">
@@ -139,6 +172,7 @@ export default function InsuranceHubPage() {
           </div>
         </section>
       ))}
+      </MunicipalityArticleSearch>
 
       <div className="mt-12 rounded-xl border border-border/60 bg-muted/30 p-5">
         <h2 className="text-sm font-bold mb-2">保活のほうを調べたいとき</h2>
