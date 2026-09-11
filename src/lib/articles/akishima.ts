@@ -88,12 +88,10 @@ const articles: Article[] = [
 
 <h2>調整指数の代表例</h2>
 <ul>
-<li>ひとり親世帯：<span class="highlight">+4点</span></li>
-<li>生活保護世帯：<span class="highlight">+4点</span></li>
 <li>きょうだいと同時申込：<span class="highlight">+3点</span></li>
-<li>きょうだいが在園中：<span class="highlight">+2点</span></li>
-<li>身体障害者手帳保有：<span class="highlight">+2点</span></li>
-<li>認可外保育施設利用中：<span class="highlight">+2点</span></li>
+<li>きょうだいが在園中：<span class="highlight">+3点</span></li>
+<li>年齢制限のある施設を卒園予定：<span class="highlight">+5点</span></li>
+<li>認可外保育施設3か月以上利用中：<span class="highlight">+1点</span></li>
 </ul>
 
 <div class="info-box">
@@ -118,12 +116,12 @@ const articles: Article[] = [
 <h2>加点チェックリスト</h2>
 <table>
 <tr><th>項目</th><th>点数</th><th>条件</th></tr>
-<tr><td>ひとり親世帯</td><td>+4点</td><td>母子・父子家庭の場合</td></tr>
-<tr><td>生活保護世帯</td><td>+4点</td><td>生活保護を受けている場合</td></tr>
+<tr><td>年齢制限のある施設を卒園予定</td><td>+5点</td><td>年齢制限により卒園が予定されている場合</td></tr>
 <tr><td>きょうだい同時申込</td><td>+3点</td><td>兄弟姉妹と同時に申し込む</td></tr>
-<tr><td>きょうだい在園</td><td>+2点</td><td>認可保育園にきょうだいが在園中</td></tr>
-<tr><td>身体障害者手帳</td><td>+2点</td><td>保護者が障害手帳を保有</td></tr>
-<tr><td>認可外施設利用</td><td>+2点</td><td>認可外保育施設に月ぎめで利用中</td></tr>
+<tr><td>きょうだい在園</td><td>+3点</td><td>認可保育園にきょうだいが在園中</td></tr>
+<tr><td>双子以上同時入所</td><td>+3点</td><td>双子以上で同時入所を希望する</td></tr>
+<tr><td>世帯に障害者手帳所持者がいる</td><td>+3点</td><td>世帯に障害者手帳保有者がいる場合</td></tr>
+<tr><td>認可外施設3か月以上利用</td><td>+1点</td><td>認可外保育施設を3か月以上利用中</td></tr>
 </table>
 
 <div class="point-box">
@@ -218,27 +216,27 @@ const articles: Article[] = [
     image: "https://images.unsplash.com/photo-1516627145497-ae6968895b2e?w=800&h=400&fit=crop",
     category: "点数アップ",
     categoryColor: "amber",
-    content: `<h2>ひとり親世帯は加点対象</h2>
-<p>昭島市ではひとり親世帯（母子家庭・父子家庭）に対して調整指数で<span class="highlight">+4点</span>の加点があります。</p>
+    content: `<h2>昭島市ではひとり親世帯に対する加点がありません</h2>
+<p>昭島市の入園選考基準表には、ひとり親世帯に対する加点項目がありません。代わりに、以下の調整指数で競争力を高めることができます。</p>
 
-<h2>ひとり親の定義</h2>
+<h2>活用できる加点項目</h2>
 <ul>
-<li>母子家庭：父親がいない、離婚、死別等</li>
-<li>父子家庭：母親がいない、離婚、死別等</li>
-<li>両親がいない場合も対象となります</li>
+<li>きょうだいが在園中：+3点</li>
+<li>認可外保育施設3か月以上利用中：+1点</li>
+<li>年齢制限のある施設を卒園予定：+5点</li>
 </ul>
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
-<p>ひとり親世帯の+4点は昭島市の加点の中でも大きいものです。就労している場合のみ適用されるため、就労証明書が必須です。</p>
+<p>昭島市では加点がない項目でも、基準指数を高めることで入園順位を上げることができます。就労条件や就労時間を確認して、基準指数の最大化を目指しましょう。</p>
 </div>
 
-<h2>加点に必要な書類</h2>
-<p>ひとり親加点を受けるには、保育施設申込書の記入に加えて、戸籍謄本などの証明書の提出が必要な場合があります。市の要件を確認しましょう。</p>
+<h2>詳しい情報は公式サイトで</h2>
+<p>昭島市の最新の入園選考基準については、以下の公式サイトを確認してください。</p>
 
-<div class="warn-box">
-<p><strong>注意</strong></p>
-<p>親権や養子縁組の有無によって加点の対象となるかが変わる場合があります。不明な場合は昭島市子育て支援課に相談してください。</p>
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p><a href="https://www.city.akishima.lg.jp/kosodate/m-kosodate/1008313/1003785/1003802/1009200/1009086.html" target="_blank" rel="noopener">昭島市公式サイト「入所選考基準表」</a></p>
 </div>`,
     publishedAt: "2026-04-26",
     popularity: 48,
@@ -353,16 +351,16 @@ const articles: Article[] = [
     citySlug: "akishima",
     title: "昭島市で認可外保育施設の利用で加点を得る方法",
     description:
-      "昭島市では認可外保育施設の利用で+2点の加点が得られます。その条件を解説します。",
+      "昭島市では認可外保育施設を3か月以上利用した場合、+1点の加点が得られます。その条件を解説します。",
     image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "点数アップ",
     categoryColor: "amber",
     content: `<h2>認可外保育施設の利用による加点</h2>
-<p>昭島市では認可外保育施設に月ぎめで預けている場合、調整指数で<span class="highlight">+2点</span>の加点が得られます。</p>
+<p>昭島市では認可外保育施設を3か月以上利用している場合、調整指数で<span class="highlight">+1点</span>の加点が得られます。</p>
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
-<p>月ぎめの契約が条件です。20点満点の昭島市では調整指数の2点はアドバンテージになります。</p>
+<p>3か月以上の継続利用が条件です。昭島市では親の就労証明と共に、認可外施設の利用を証明する書類が必要になります。</p>
 </div>
 
 <h2>対象となる施設</h2>
@@ -374,11 +372,11 @@ const articles: Article[] = [
 </ul>
 
 <h2>加点に必要な書類</h2>
-<p>利用施設から「保育受託証明書」の発行を受けて、申込時に提出する必要があります。利用開始時に施設に発行依頼をしておきましょう。</p>
+<p>利用施設から「保育受託証明書」の発行を受けて、申込時に提出する必要があります。3か月以上の利用実績を証明する書類を用意しておきましょう。</p>
 
 <div class="warn-box">
 <p><strong>注意</strong></p>
-<p>月ぎめの契約でなく、スポット利用のみの場合は加点の対象となりません。契約内容を確認しましょう。</p>
+<p>3か月未満の利用やスポット利用のみの場合は加点の対象となりません。利用開始日を確認しておきましょう。</p>
 </div>`,
     publishedAt: "2026-04-26",
     popularity: 42,

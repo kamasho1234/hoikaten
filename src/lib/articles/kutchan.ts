@@ -152,10 +152,9 @@ const articles: Article[] = [
 
 <h2>ケース3：ひとり親世帯（フルタイム就労）</h2>
 <ul>
-  <li>父：月160時間以上・月22日以上就労 → <strong>64点</strong>（別表1）</li>
-  <li>父：ひとり親特例加算 → <strong>+60点</strong>（別表1特例）＝合計124点</li>
+  <li>父：月160時間以上・月22日以上就労 → <strong>64点</strong></li>
   <li>母：（いない）→ <strong>0点</strong></li>
-  <li>調整指数：ひとり親 → <strong>+20点</strong>（別表2）</li>
+  <li>調整指数：ひとり親（就労・就学等の保育事由あり） → <strong>+80点</strong></li>
   <li><strong>合計：144点</strong></li>
 </ul>
 <p>ひとり親世帯は共働きフルタイム（128点）より高い点数となります。</p>
@@ -163,9 +162,8 @@ const articles: Article[] = [
 <h2>ケース4：ひとり親世帯（求職活動中）</h2>
 <ul>
   <li>父：求職活動中（支援機関等の証明あり）→ <strong>10点</strong></li>
-  <li>父：ひとり親特例加算 → <strong>+60点</strong>（別表1特例）＝合計70点</li>
   <li>母：（いない）→ <strong>0点</strong></li>
-  <li>調整指数：ひとり親かつ求職中 → <strong>+25点</strong>（別表2）</li>
+  <li>調整指数：ひとり親かつ求職活動中 → <strong>+85点</strong></li>
   <li><strong>合計：95点</strong></li>
 </ul>
 

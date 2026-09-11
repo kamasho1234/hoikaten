@@ -46,7 +46,7 @@ const articles: Article[] = [
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
-<p>鴻巣市の基本指数は父母各最大20点（合計40点満点）です。月の就労時間で判定される制度です。</p>
+<p>鴻巣市の基本指数は父母各最大30点（虐待・DV等の場合は最大75点）です。月の就労時間で判定される制度です。</p>
 </div>
 
 <div class="info-box">
@@ -73,27 +73,27 @@ const articles: Article[] = [
 <p>総合点数 ＝ 基本指数（父＋母）＋ 調整指数</p>
 </div>
 
-<h2>基本指数（父母各最大20点、合計40点）</h2>
-<p>就労の場合、月160時間以上の就労で満点の<span class="highlight">20点</span>です。</p>
+<h2>基本指数（父母各最大30点（虐待・DV等は75点））</h2>
+<p>就労の場合、月160時間以上の就労で満点の<span class="highlight">30点</span>です。</p>
 
 <table>
 <tr><th>月の就労時間</th><th>点数</th></tr>
-<tr><td>月160時間以上</td><td>20</td></tr>
-<tr><td>月120時間以上160時間未満</td><td>18</td></tr>
-<tr><td>月100時間以上120時間未満</td><td>16</td></tr>
-<tr><td>月80時間以上100時間未満</td><td>14</td></tr>
-<tr><td>月64時間以上80時間未満</td><td>12</td></tr>
-<tr><td>月48時間以上64時間未満</td><td>8</td></tr>
+<tr><td>月160時間以上</td><td>30</td></tr>
+<tr><td>月120時間以上160時間未満</td><td>27</td></tr>
+<tr><td>月80時間以上120時間未満</td><td>24</td></tr>
+<tr><td>月64時間以上80時間未満</td><td>21</td></tr>
+<tr><td>月48時間以上64時間未満</td><td>18</td></tr>
+<tr><td>月36時間以上48時間未満</td><td>15</td></tr>
 </table>
 
 <h2>調整指数の代表例</h2>
 <ul>
-<li>ひとり親世帯：<span class="highlight">+5点</span></li>
+<li>ひとり親世帯（18歳以上同居者なし）：<span class="highlight">+54点</span></li>
+<li>保育従事者（保育士・看護師）の勤務：<span class="highlight">+20～40点</span></li>
+<li>生活保護受給世帯：<span class="highlight">+15点</span></li>
+<li>生計中心者の失業：<span class="highlight">+20点</span></li>
 <li>認可外保育施設に月ぎめ利用中：<span class="highlight">+3点</span></li>
-<li>きょうだいが在園中：<span class="highlight">+3点</span></li>
-<li>生活保護世帯：<span class="highlight">+3点</span></li>
-<li>きょうだい同時申込：<span class="highlight">+2点</span></li>
-<li>育休復帰予定：<span class="highlight">+2点</span></li>
+<li>復職予定（育休復帰）：<span class="highlight">+3点</span></li>
 </ul>
 
 <div class="info-box">
@@ -112,18 +112,18 @@ const articles: Article[] = [
     image: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=400&fit=crop",
     category: "点数アップ",
     categoryColor: "amber",
-    content: `<h2>基本指数40点は出発点</h2>
-<p>鴻巣市ではフルタイム共働き世帯は基本指数<span class="highlight">40点</span>で横並びです。差がつくのは調整指数の加点です。</p>
+    content: `<h2>基本指数60点は出発点</h2>
+<p>鴻巣市ではフルタイム共働き世帯は基本指数<span class="highlight">60点</span>（父母各30点）で横並びです。差がつくのは調整指数の加点です。</p>
 
 <h2>加点チェックリスト</h2>
 <table>
 <tr><th>項目</th><th>点数</th><th>条件</th></tr>
-<tr><td>ひとり親世帯</td><td>+5点</td><td>母子・父子家庭で就労中</td></tr>
+<tr><td>ひとり親世帯（同居者18歳未満のみ）</td><td>+54点</td><td>母子・父子家庭で就労中</td></tr>
+<tr><td>保育従事者の勤務（2人）</td><td>+40点</td><td>市内認可保育施設に保育士として勤務</td></tr>
+<tr><td>生計中心者の失業</td><td>+20点</td><td>失業状態にある場合</td></tr>
+<tr><td>生活保護</td><td>+15点</td><td>生活保護を受けている場合</td></tr>
 <tr><td>認可外保育施設利用</td><td>+3点</td><td>認可外に月ぎめで利用中</td></tr>
-<tr><td>きょうだい在園</td><td>+3点</td><td>認可保育園にきょうだいが在園中</td></tr>
-<tr><td>生活保護</td><td>+3点</td><td>生活保護を受けている場合</td></tr>
-<tr><td>きょうだい同時申込</td><td>+2点</td><td>2人以上のきょうだいを同時申込</td></tr>
-<tr><td>育休復帰予定</td><td>+2点</td><td>入園月に職場復帰する場合</td></tr>
+<tr><td>復職予定（育休復帰）</td><td>+3点</td><td>入園月に職場復帰する場合</td></tr>
 </table>
 
 <div class="point-box">
@@ -167,7 +167,7 @@ const articles: Article[] = [
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
-<p>鴻巣市の40点制では、フルタイム共働きで40点が基本ラインです。調整指数の1点が当落を分けることがあります。</p>
+<p>鴻巣市では、フルタイム共働きで基本指数60点が基本ラインです。調整指数が同点判定を分ける重要な要素になります。</p>
 </div>
 
 <div class="warn-box">
@@ -191,21 +191,21 @@ const articles: Article[] = [
 
 <table>
 <tr><th>月の就労時間</th><th>基本指数</th></tr>
-<tr><td>月160時間以上</td><td>20点</td></tr>
-<tr><td>月120時間以上160時間未満</td><td>18点</td></tr>
-<tr><td>月100時間以上120時間未満</td><td>16点</td></tr>
-<tr><td>月80時間以上100時間未満</td><td>14点</td></tr>
-<tr><td>月64時間以上80時間未満</td><td>12点</td></tr>
-<tr><td>月48時間以上64時間未満</td><td>8点</td></tr>
+<tr><td>月160時間以上</td><td>30点</td></tr>
+<tr><td>月120時間以上160時間未満</td><td>27点</td></tr>
+<tr><td>月80時間以上120時間未満</td><td>24点</td></tr>
+<tr><td>月64時間以上80時間未満</td><td>21点</td></tr>
+<tr><td>月48時間以上64時間未満</td><td>18点</td></tr>
+<tr><td>月36時間以上48時間未満</td><td>15点</td></tr>
 </table>
 
 <div class="warn-box">
 <p><strong>注意</strong></p>
-<p>1日6時間×週5日＝月約120時間の時短勤務の場合、基本指数は<span class="highlight">18点</span>です。フルタイムの20点と比べて2点下がります。</p>
+<p>1日6時間×週5日＝月約120時間の時短勤務の場合、基本指数は<span class="highlight">27点</span>です。フルタイムの30点と比べて3点下がります。</p>
 </div>
 
 <h2>月160時間の壁</h2>
-<p>満点の20点を得るには月160時間以上が必要です。1日8時間×月20日＝160時間がちょうど満点ラインです。</p>
+<p>満点の30点を得るには月160時間以上が必要です。1日8時間×月20日＝160時間がちょうど満点ラインです。</p>
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
@@ -224,12 +224,13 @@ const articles: Article[] = [
     category: "点数アップ",
     categoryColor: "amber",
     content: `<h2>ひとり親世帯の加点</h2>
-<p>鴻巣市の入園選考で、ひとり親世帯は調整指数で<span class="highlight">+5点</span>の加点が得られます。</p>
+<p>鴻巣市の入園選考で、ひとり親世帯は調整指数で最大<span class="highlight">+54点</span>の加点が得られます。同居者の有無や婚姻状況により、1点～54点の範囲で加点されます。</p>
 
 <h3>加点の対象</h3>
 <ul>
-<li>母子家庭（父親が不在）で就労中または就労が内定している</li>
-<li>父子家庭（母親が不在）で就労中または就労が内定している</li>
+<li>離婚等によるひとり親世帯で18歳以上の同居者がない場合：54点</li>
+<li>離婚等によるひとり親世帯で18歳以上の同居者がある場合：48点</li>
+<li>その他の理由により片親が養育している場合：1～30点</li>
 </ul>
 
 <div class="point-box">

@@ -36,7 +36,7 @@ const sodegauraArticles: Article[] = [
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
-<p>袖ケ浦市はSum方式のため、両親の指数が合計されます。最大88点の基本指数に加えて調整指数で加減点できます。両親とも就労確保することが重要です。</p>
+<p>袖ケ浦市はSum方式のため、両親の指数が合計されます。最大44点の基本指数に加えて調整指数で加減点できます。両親とも就労確保することが重要です。</p>
 </div>
 
 <h2>袖ケ浦市の保育園施設</h2>
@@ -546,7 +546,7 @@ const sodegauraArticles: Article[] = [
   {
     slug: "sodegaura-dual-income",
     citySlug: "sodegaura",
-    title: "袖ケ浦市の共働き戦略｜フルタイム両親で44点の基本指数を確保",
+    title: "袖ケ浦市の共働き戦略｜フルタイム両親で基本指数を最大化する方法",
     description:
       "袖ケ浦市で両親がフルタイムで働く場合の指数計算、保育料負担、仕事と育児の両立について、実例を交えて解説します。",
     image:

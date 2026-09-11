@@ -88,15 +88,13 @@ const articles: Article[] = [
 
 <h2>調整指数の代表例</h2>
 <ul>
-<li>ひとり親世帯：<span class="highlight">+5点</span></li>
-<li>きょうだいが在園中の施設を希望：<span class="highlight">+3点</span></li>
-<li>認可外保育施設に預けている：<span class="highlight">+3点</span></li>
-<li>生活保護世帯：<span class="highlight">+3点</span></li>
+<li>ひとり親世帯：<span class="highlight">+20点</span></li>
+<li>きょうだいが在園中の施設を希望：<span class="highlight">+5点</span></li>
+<li>認可外保育施設に預けている：<span class="highlight">+8点</span></li>
+<li>生活保護世帯：<span class="highlight">+2点</span></li>
 <li>育休明けの復職：<span class="highlight">+2点</span></li>
-<li>きょうだい同時申込：<span class="highlight">+2点</span></li>
-<li>同居親族（保育可能）：<span class="highlight">-3点</span></li>
-<li>転園希望：<span class="highlight">-5点</span></li>
-<li>市外からの申込：<span class="highlight">-10点</span></li>
+<li>きょうだい同時申込：<span class="highlight">+3点</span></li>
+<li>市外からの申込：<span class="highlight">-30点</span></li>
 </ul>
 
 <div class="info-box">
@@ -121,17 +119,17 @@ const articles: Article[] = [
 <h2>加点チェックリスト</h2>
 <table>
 <tr><th>項目</th><th>点数</th><th>条件</th></tr>
-<tr><td>ひとり親</td><td>+5</td><td>ひとり親世帯であること</td></tr>
-<tr><td>きょうだい在園</td><td>+3</td><td>きょうだいが在園中の施設を希望</td></tr>
-<tr><td>認可外利用</td><td>+3</td><td>月ぎめで認可外保育施設に預けている</td></tr>
-<tr><td>生活保護</td><td>+3</td><td>生活保護を受給中</td></tr>
+<tr><td>ひとり親</td><td>+20</td><td>ひとり親世帯であること</td></tr>
+<tr><td>きょうだい在園</td><td>+5</td><td>きょうだいが在園中の施設を希望</td></tr>
+<tr><td>認可外利用</td><td>+8</td><td>月ぎめで認可外保育施設に預けている</td></tr>
+<tr><td>生活保護</td><td>+2</td><td>生活保護を受給中</td></tr>
 <tr><td>育休復帰</td><td>+2</td><td>育休明けで復職予定</td></tr>
-<tr><td>同時申込</td><td>+2</td><td>きょうだいと同時に申し込む</td></tr>
+<tr><td>同時申込</td><td>+3</td><td>きょうだいと同時に申し込む</td></tr>
 </table>
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
-<p>鎌倉市はひとり親加点が+5点と大きいのが特徴です。また転園希望は-5点、市外からの申込は-10点と減点が厳しいため注意が必要です。</p>
+<p>鎌倉市はひとり親加点が+20点と非常に大きいのが特徴です。また市外からの申込は-30点と減点が厳しいため注意が必要です。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 60,
@@ -208,12 +206,12 @@ const articles: Article[] = [
 <ul>
 <li>二次募集に申し込む</li>
 <li>5月以降の途中入園を申し込む</li>
-<li>認可外保育施設を利用しながら翌年度に再申込する（認可外加点+3が付く）</li>
+<li>認可外保育施設を利用しながら翌年度に再申込する（認可外加点+8が付く）</li>
 <li>近隣の藤沢市・逗子市の認可外施設も視野に入れる</li>
 </ul>
 
 <h2>認可外保育施設の活用</h2>
-<p>鎌倉市では認可外保育施設に預けると調整指数+3点の加点が得られます。不承諾になった場合、翌年度に向けて認可外に預けながら再申込する方法が有効です。</p>
+<p>鎌倉市では認可外保育施設に預けると調整指数+8点の加点が得られます。不承諾になった場合、翌年度に向けて認可外に預けながら再申込する方法が有効です。</p>
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
@@ -232,7 +230,7 @@ const articles: Article[] = [
     category: "点数アップ",
     categoryColor: "amber",
     content: `<h2>認可外保育施設の加点とは</h2>
-<p>鎌倉市では認可外保育施設に預けている場合、調整指数が<span class="highlight">+3点</span>加算されます。</p>
+<p>鎌倉市では認可外保育施設に預けている場合、調整指数が<span class="highlight">+8点</span>加算されます。</p>
 
 <h2>対象となる条件</h2>
 <ul>
@@ -242,11 +240,11 @@ const articles: Article[] = [
 </ul>
 
 <h2>認可外加点の活用戦略</h2>
-<p>フルタイム共働き世帯の基本指数は40点です。ここに認可外加点+3点を加えて43点にすることで、人気園の内定に近づけます。</p>
+<p>フルタイム共働き世帯の基本指数は40点です。ここに認可外加点+8点を加えて48点にすることで、人気園の内定に近づけます。</p>
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
-<p>鎌倉市の認可外加点+3は、きょうだい在園加点+3と同じ重みです。一次選考で不承諾になった場合は、認可外に預けながら翌年度に再挑戦するのが定番の戦略です。</p>
+<p>鎌倉市の認可外加点+8は、きょうだい在園加点+5より有利です。一次選考で不承諾になった場合は、認可外に預けながら翌年度に再挑戦するのが定番の戦略です。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 55,
@@ -334,7 +332,7 @@ const articles: Article[] = [
 <tr><td>深沢エリア</td><td>40〜42点</td></tr>
 </table>
 
-<p>人気園ではフルタイム共働き（40点）だけでは足りず、認可外利用の+3点やきょうだい加点+3点などの調整指数が必要です。</p>
+<p>人気園ではフルタイム共働き（40点）だけでは足りず、認可外利用の+8点やきょうだい加点+5点などの調整指数が必要です。</p>
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>

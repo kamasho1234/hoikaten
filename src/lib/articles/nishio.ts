@@ -9,7 +9,7 @@ const articles: Article[] = [
   {
     slug: 'nishio-hoiku-nyuen-guide',
     citySlug: 'nishio',
-    title: '西尾市の保育園入園選考ガイド｜父母の指数を「平均」する全国的にも珍しい方式',
+    title: '西尾市の保育園入園選考ガイド｜父母の指数を「平均」する方式',
     description: '愛知県西尾市の保育園・認定こども園の入園選考ガイドです。「西尾市保育園・認定こども園入園選考基準指数表」に基づき、父母の調整後基準指数を平均して世帯の指数を求める計算方式と、月の勤務時間による12段階の基準指数を解説します。',
     category: '入所ガイド',
     categoryColor: 'blue',

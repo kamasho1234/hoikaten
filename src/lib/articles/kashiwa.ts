@@ -46,7 +46,7 @@ const articles: Article[] = [
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
-<p>柏市は基準指数が父母各最大20点（合計40点満点）です。月の合計就労時間で判定されます。</p>
+<p>柏市は基準指数が父母各最大30点（合計60点満点）です。月の合計就労時間で判定されます。</p>
 </div>
 
 <div class="info-box">
@@ -73,26 +73,28 @@ const articles: Article[] = [
 <p>選考指数 = 基準指数（保護者1 + 保護者2）+ 調整指数</p>
 </div>
 
-<h2>基準指数（父母各最大20点、合計40点）</h2>
-<p>就労の場合、月160時間以上で満点の<span class="highlight">20点</span>になります。</p>
+<h2>基準指数（父母各最大30点、合計60点）</h2>
+<p>就労の場合、月160時間以上で満点の<span class="highlight">30点</span>になります。</p>
 
 <table>
 <tr><th>月の就労時間</th><th>指数</th></tr>
-<tr><td>月160時間以上</td><td>20</td></tr>
-<tr><td>月140〜160時間</td><td>18</td></tr>
-<tr><td>月120〜140時間</td><td>16</td></tr>
-<tr><td>月100〜120時間</td><td>14</td></tr>
-<tr><td>月80〜100時間</td><td>12</td></tr>
-<tr><td>月64〜80時間</td><td>10</td></tr>
+<tr><td>月160時間以上</td><td>30</td></tr>
+<tr><td>月140〜160時間</td><td>28</td></tr>
+<tr><td>月120〜140時間</td><td>26</td></tr>
+<tr><td>月100〜120時間</td><td>24</td></tr>
+<tr><td>月80〜100時間</td><td>22</td></tr>
+<tr><td>月70〜80時間</td><td>20</td></tr>
+<tr><td>月64〜70時間</td><td>18</td></tr>
 </table>
 
 <h2>調整指数の代表例</h2>
 <ul>
-<li>ひとり親世帯：<span class="highlight">+6点</span></li>
-<li>きょうだいが在園中の施設を希望：<span class="highlight">+4点</span></li>
-<li>認可外保育施設に月64時間以上利用：<span class="highlight">+4点</span></li>
-<li>生活保護世帯：<span class="highlight">+3点</span></li>
-<li>育児休業から復帰予定：<span class="highlight">+2点</span></li>
+<li>ひとり親世帯：<span class="highlight">+40点</span></li>
+<li>認可外保育施設に月ぎめで月64時間以上利用：<span class="highlight">+7点</span></li>
+<li>きょうだいと同施設に転園希望：<span class="highlight">+7点</span></li>
+<li>きょうだい在園中で新規入園申請：<span class="highlight">+5点</span></li>
+<li>育児休業から復帰予定：<span class="highlight">+5点</span></li>
+<li>生活保護世帯：<span class="highlight">+2点</span></li>
 </ul>
 
 <div class="info-box">
@@ -111,17 +113,18 @@ const articles: Article[] = [
     image: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=400&fit=crop",
     category: "点数アップ",
     categoryColor: "amber",
-    content: `<h2>基準指数40点は出発点</h2>
-<p>柏市ではフルタイム共働き世帯は基準指数<span class="highlight">40点</span>で横並びです。差がつくのは調整指数です。</p>
+    content: `<h2>基準指数60点は出発点</h2>
+<p>柏市ではフルタイム共働き世帯は基準指数<span class="highlight">60点</span>で横並びです。差がつくのは調整指数です。</p>
 
 <h2>加点チェックリスト</h2>
 <table>
 <tr><th>項目</th><th>点数</th><th>条件</th></tr>
-<tr><td>ひとり親</td><td>+6</td><td>ひとり親世帯であること</td></tr>
-<tr><td>きょうだい在園</td><td>+4</td><td>きょうだいが在園中の施設を希望</td></tr>
-<tr><td>認可外利用</td><td>+4</td><td>認可外保育施設に月64時間以上預けている</td></tr>
-<tr><td>生活保護</td><td>+3</td><td>生活保護を受けている</td></tr>
-<tr><td>育休復帰</td><td>+2</td><td>育児休業を取得し復帰予定</td></tr>
+<tr><td>ひとり親</td><td>+40</td><td>ひとり親世帯であること</td></tr>
+<tr><td>認可外利用</td><td>+7</td><td>認可外保育施設に月ぎめで月64時間以上利用</td></tr>
+<tr><td>きょうだい同施設転園</td><td>+7</td><td>きょうだいと同施設に転園希望</td></tr>
+<tr><td>きょうだい在園新規申請</td><td>+5</td><td>きょうだいが在園中で新規入園申請</td></tr>
+<tr><td>育休復帰</td><td>+5</td><td>育児休業を取得し復帰予定</td></tr>
+<tr><td>生活保護</td><td>+2</td><td>生活保護を受けている</td></tr>
 </table>
 
 <div class="point-box">
@@ -172,12 +175,13 @@ const articles: Article[] = [
 
 <table>
 <tr><th>月の就労時間</th><th>指数</th><th>勤務パターン例</th></tr>
-<tr><td>月160時間以上</td><td>20</td><td>週5日・1日8時間</td></tr>
-<tr><td>月140〜160時間</td><td>18</td><td>週5日・1日7時間</td></tr>
-<tr><td>月120〜140時間</td><td>16</td><td>週5日・1日6時間</td></tr>
-<tr><td>月100〜120時間</td><td>14</td><td>週5日・1日5時間</td></tr>
-<tr><td>月80〜100時間</td><td>12</td><td>週4日・1日5時間</td></tr>
-<tr><td>月64〜80時間</td><td>10</td><td>週4日・1日4時間</td></tr>
+<tr><td>月160時間以上</td><td>30</td><td>週5日・1日8時間</td></tr>
+<tr><td>月140〜160時間</td><td>28</td><td>週5日・1日7時間</td></tr>
+<tr><td>月120〜140時間</td><td>26</td><td>週5日・1日6時間</td></tr>
+<tr><td>月100〜120時間</td><td>24</td><td>週5日・1日5時間</td></tr>
+<tr><td>月80〜100時間</td><td>22</td><td>週4日・1日5時間</td></tr>
+<tr><td>月70〜80時間</td><td>20</td><td>週4日・1日5時間弱</td></tr>
+<tr><td>月64〜70時間</td><td>18</td><td>週4日・1日4時間</td></tr>
 </table>
 
 <div class="point-box">
@@ -209,7 +213,7 @@ const articles: Article[] = [
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
-<p>認可外保育施設に預けてから翌年度に再申込すると+4点の加点がもらえます。長い目で見た戦略も大切です。</p>
+<p>認可外保育施設に月ぎめで預けてから翌年度に再申込すると+7点の加点がもらえます。長い目で見た戦略も大切です。</p>
 </div>`,
     publishedAt: "2026-03-28",
     popularity: 40,
@@ -224,7 +228,7 @@ const articles: Article[] = [
     category: "点数アップ",
     categoryColor: "amber",
     content: `<h2>認可外加点とは</h2>
-<p>柏市では認可外保育施設に月64時間以上預けている場合、調整指数が<span class="highlight">+4点</span>加算されます。</p>
+<p>柏市では認可外保育施設に月ぎめで月64時間以上利用している場合、調整指数が<span class="highlight">+7点</span>加算されます。</p>
 
 <h2>対象となる条件</h2>
 <ul>
@@ -307,7 +311,7 @@ const articles: Article[] = [
     category: "選考のしくみ",
     categoryColor: "blue",
     content: `<h2>内定に必要な点数の目安</h2>
-<p>柏市の人気園では基準指数40点（フルタイム共働き）に加え、調整指数の加点が必要になることがあります。</p>
+<p>柏市の人気園では基準指数60点（フルタイム共働き）に加え、調整指数の加点が必要になることがあります。</p>
 
 <h3>目安（1歳児クラス）</h3>
 <table>

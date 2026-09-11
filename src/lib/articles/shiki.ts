@@ -91,16 +91,17 @@ const articles: Article[] = [
 </div>
 
 <h2>基本指数とは？</h2>
-<p>父母それぞれの「保育が必要な理由」を点数化したものです。1人あたり最大<span class="highlight">20点</span>で、父母合計の最大は<span class="highlight">40点</span>。</p>
-<p>最も多い「就労」の場合、月160時間以上で満点の20点になります。</p>
+<p>父母それぞれの「保育が必要な理由」を点数化したものです。1人あたり最大<span class="highlight">30点</span>で、父母合計の最大は<span class="highlight">60点</span>。</p>
+<p>最も多い「就労」の場合、月160時間以上で満点の30点になります。</p>
 
 <table>
 <tr><th>就労状況</th><th>指数</th></tr>
-<tr><td>月160時間以上</td><td>20</td></tr>
-<tr><td>月120時間以上160時間未満</td><td>18</td></tr>
-<tr><td>月100時間以上120時間未満</td><td>16</td></tr>
-<tr><td>月80時間以上100時間未満</td><td>14</td></tr>
-<tr><td>月64時間以上80時間未満</td><td>12</td></tr>
+<tr><td>月160時間以上</td><td>30</td></tr>
+<tr><td>月140時間以上</td><td>29</td></tr>
+<tr><td>月120時間以上</td><td>28</td></tr>
+<tr><td>月96時間以上</td><td>26</td></tr>
+<tr><td>月80時間以上</td><td>24</td></tr>
+<tr><td>月64時間以上</td><td>22</td></tr>
 </table>
 
 <h2>調整指数とは？</h2>
@@ -108,19 +109,19 @@ const articles: Article[] = [
 
 <h3>主な加算項目</h3>
 <ul>
-<li>ひとり親世帯（就労中）：<span class="highlight">+5点</span></li>
+<li>ひとり親世帯（祖父母と同居しない）：<span class="highlight">+8点</span></li>
+<li>ひとり親世帯（祖父母と同居）：<span class="highlight">+4点</span></li>
 <li>きょうだいが在園中：<span class="highlight">+3点</span></li>
-<li>認可外保育施設の利用実績：<span class="highlight">+3点</span></li>
-<li>生活保護世帯：<span class="highlight">+3点</span></li>
-<li>育休明け復職予定：<span class="highlight">+2点</span></li>
-<li>きょうだい同時申込：<span class="highlight">+2点</span></li>
+<li>認可外保育施設で1月64時間以上利用中で当該施設で保育が受けられなくなる：<span class="highlight">+5点</span></li>
+<li>生活保護世帯：<span class="highlight">+2点</span></li>
+<li>育児休業を取得中：<span class="highlight">+1点</span></li>
+<li>未就学児が3人以上：<span class="highlight">+2点</span></li>
 </ul>
 
 <h3>主な減算項目</h3>
 <ul>
-<li>市外からの申込：<span class="highlight">-10点</span></li>
-<li>認可園からの転園希望：<span class="highlight">-5点</span></li>
-<li>同居祖父母が保育可能：<span class="highlight">-3点</span></li>
+<li>入園前面接の通知後に入園を辞退（1回）：<span class="highlight">-10点</span></li>
+<li>保育料未納（月数による）：減点対象</li>
 </ul>`,
     publishedAt: "2026-04-26",
     popularity: 60,
@@ -142,22 +143,23 @@ const articles: Article[] = [
 <h3>加点チェックリスト</h3>
 
 <ul>
-<li>ひとり親で就労中 → <span class="highlight">+5点</span></li>
+<li>ひとり親で就労中（祖父母と同居しない） → <span class="highlight">+8点</span></li>
+<li>ひとり親で就労中（祖父母と同居） → <span class="highlight">+4点</span></li>
 <li>きょうだいが希望施設に在園中 → <span class="highlight">+3点</span></li>
-<li>認可外保育施設に月ぎめで預けている → <span class="highlight">+3点</span></li>
-<li>生活保護を受給中 → <span class="highlight">+3点</span></li>
-<li>きょうだいを同時に申込 → <span class="highlight">+2点</span></li>
-<li>育休・産休から入園月に復帰予定 → <span class="highlight">+2点</span></li>
+<li>認可外保育施設で1月64時間以上利用中で当該施設で保育が受けられなくなる → <span class="highlight">+5点</span></li>
+<li>生活保護を受給中 → <span class="highlight">+2点</span></li>
+<li>育児休業を取得中 → <span class="highlight">+1点</span></li>
+<li>未就学児が3人以上 → <span class="highlight">+2点</span></li>
 </ul>
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
-<p>認可外保育施設に預けながら翌年の4月入園を申し込むと、+3点の加点がつきます。0歳児クラスで認可外に預け、1歳児クラスで認可園を狙うのは志木市でも有効な戦略です。</p>
+<p>認可外保育施設で1月64時間以上利用中に当該施設で保育が受けられなくなると、+5点の加点がつきます。0歳児クラスで認可外に預け、1歳児クラスで認可園を狙うのは志木市でも有効な戦略です。</p>
 </div>
 
 <div class="info-box">
 <p><strong>注意すべき減点項目</strong></p>
-<p>志木市外からの申込は-10点、認可園からの転園は-5点、同居祖父母が保育可能な場合は-3点の減点があります。特に市外からの申込は大幅な減点となるため要注意です。</p>
+<p>入園前面接の通知後に入園を辞退すると減点されます（1回-10点）。また、保育料や学童保育料の未納がある場合も減点対象になります。</p>
 </div>`,
     publishedAt: "2026-04-26",
     popularity: 55,
@@ -182,9 +184,9 @@ const articles: Article[] = [
 <p>夫婦ともにフルタイム勤務でない場合、基本指数の上限に達していない可能性があります。この場合、調整指数での加点がより重要になります。</p>
 
 <ul>
-<li>認可外保育施設の利用実績をつける（+3点）</li>
+<li>認可外保育施設で1月64時間以上利用中で当該施設で保育が受けられなくなる場合（+5点）</li>
 <li>複数園申込で同点時有利を活かす</li>
-<li>育休復帰タイミングを工夫（+2点）</li>
+<li>育児休業を取得して入園月に復帰予定（+1点）</li>
 </ul>
 
 <h3>基本指数が40点でも入園難しい場合</h3>
@@ -192,8 +194,8 @@ const articles: Article[] = [
 
 <ul>
 <li>全ての使える加点を活用する</li>
-<li>認可外実績を申込時期に間に合わせる</li>
-<li>複数のきょうだい加点を組み合わせる</li>
+<li>認可外施設での実績を申込時期に間に合わせる（1月64時間以上が条件）</li>
+<li>きょうだいが在園または在園内定している場合は加点が有利</li>
 <li>ひとり親世帯なら同点時優先が有利</li>
 </ul>
 
@@ -262,7 +264,7 @@ const articles: Article[] = [
     category: "保活の基本",
     categoryColor: "green",
     content: `<h2>ひとり親世帯の加点制度</h2>
-<p>志木市では、母子家庭・父子家庭で就労中または就労が内定している場合、<span class="highlight">+5点</span>の加点がつきます。</p>
+<p>志木市では、母子家庭・父子家庭で就労中または就労が内定している場合、加点がつきます。祖父母と同居していない場合は<span class="highlight">+8点</span>、同居している場合は<span class="highlight">+4点</span>の加点となります。</p>
 
 <h2>加点を受けるための条件</h2>
 <ul>
@@ -274,7 +276,7 @@ const articles: Article[] = [
 <h2>ひとり親世帯の有利な点</h2>
 
 <h3>加点だけでなく同点時も有利</h3>
-<p>志木市では選考指数が同点の場合、ひとり親世帯が最優先されます。+5点だけでなく、同点時の優先順位でも大きなアドバンテージがあります。</p>
+<p>志木市では選考指数が同点の場合、ひとり親世帯が最優先されます。+8点または+4点の加点に加えて、同点時の優先順位でも大きなアドバンテージがあります。</p>
 
 <h3>結婚・再婚時の手続きに注意</h3>
 <p>再婚予定がある場合は、申込前に済ませるか申込後に済ませるかで判断が変わります。詳しくは保育課にご相談ください。</p>
@@ -318,7 +320,7 @@ const articles: Article[] = [
 <p>4月中に職場復帰予定なら+2点の加点が得られます。0歳児での入園と同時に復帰するなら、+2点は大きな武器になります。</p>
 
 <h3>他の加点との組み合わせ</h3>
-<p>育休明け復帰と同時に、きょうだい同時申込（+2点）や認可外利用実績（+3点）と組み合わせることで、合計で大幅な加点が可能です。</p>
+<p>育児休業を取得していると加点（+1点）が得られます。また、きょうだいが希望施設に在園中の場合（+3点）や認可外施設で1月64時間以上利用中で当該施設で保育が受けられなくなる場合（+5点）と組み合わせることで、複数の加点を活用できます。</p>
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
@@ -442,12 +444,12 @@ const articles: Article[] = [
 <tr><td>保育料</td><td>所得に応じて決定</td><td>施設が設定</td></tr>
 <tr><td>申込先</td><td>志木市保育課</td><td>施設に直接</td></tr>
 <tr><td>入園選考</td><td>指数による利用調整</td><td>施設独自の基準</td></tr>
-<tr><td>翌年の入園加点</td><td>-</td><td>+3点</td></tr>
+<tr><td>翌年の入園加点</td><td>-</td><td>条件付きで+5点</td></tr>
 </table>
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
-<p>認可外に預けながら翌年度の認可園を再申請すると、加点（+3点）がつくため入りやすくなります。認可園に入れなかった場合の有効な戦略です。</p>
+<p>認可外保育施設で1月64時間以上利用中で、当該施設で保育を受けられなくなる場合は、加点（+5点）がつきます。認可園に入れなかった場合の有効な戦略です。ただし利用実績が1月64時間以上であることが条件です。</p>
 </div>
 
 <h2>認可外を選ぶときのチェックポイント</h2>

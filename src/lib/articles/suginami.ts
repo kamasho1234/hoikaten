@@ -90,7 +90,7 @@ const articles: Article[] = [
 
 <div class="warn-box">
 <p><strong>注意</strong></p>
-<p>育休延長を選ぶと<span class="highlight">-20点</span>の大きな減点になることがあります。慎重に判断しましょう。</p>
+<p>育休を延長する場合は育休明け加点（<span class="highlight">+10点</span>）が得られません。復職タイミングを慎重に判断しましょう。</p>
 </div>
 
 <h2>失敗4：認可外利用の加点を知らない</h2>

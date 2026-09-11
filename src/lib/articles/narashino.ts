@@ -46,7 +46,7 @@ const articles: Article[] = [
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
-<p>習志野市は基準指数が父母各最大20点（合計40点満点）です。月の合計就労時間で判定されます。</p>
+<p>習志野市は基準指数が父母各最大25点（合計50点満点）です。月の合計就労時間で判定されます。</p>
 </div>
 
 <div class="info-box">
@@ -73,25 +73,23 @@ const articles: Article[] = [
 <p>選考指数 = 基準指数（保護者1 + 保護者2）+ 調整指数</p>
 </div>
 
-<h2>基準指数（父母各最大20点、合計40点）</h2>
-<p>就労の場合、月160時間以上で満点の<span class="highlight">20点</span>になります。</p>
+<h2>基準指数（父母各最大25点、合計50点）</h2>
+<p>就労の場合、月160時間以上で満点の<span class="highlight">25点</span>になります。</p>
 
 <table>
 <tr><th>月の就労時間</th><th>指数</th></tr>
-<tr><td>月160時間以上</td><td>20</td></tr>
-<tr><td>月140〜160時間</td><td>18</td></tr>
-<tr><td>月120〜140時間</td><td>16</td></tr>
-<tr><td>月100〜120時間</td><td>14</td></tr>
-<tr><td>月80〜100時間</td><td>12</td></tr>
-<tr><td>月64〜80時間</td><td>10</td></tr>
+<tr><td>月160時間以上</td><td>25</td></tr>
+<tr><td>月140〜160時間</td><td>24</td></tr>
+<tr><td>月120〜140時間</td><td>22</td></tr>
+<tr><td>月100〜120時間</td><td>18</td></tr>
+<tr><td>月80〜100時間</td><td>16</td></tr>
+<tr><td>月64〜80時間</td><td>12</td></tr>
 </table>
 
 <h2>調整指数の代表例</h2>
 <ul>
 <li>ひとり親世帯：<span class="highlight">+5点</span></li>
-<li>きょうだいが認可保育園に在園中：<span class="highlight">+3点</span></li>
-<li>認可外保育施設に月ぎめで利用中：<span class="highlight">+3点</span></li>
-<li>生活保護世帯：<span class="highlight">+3点</span></li>
+<li>きょうだいが同じ認可保育園に入所を希望：<span class="highlight">+2点</span></li>
 <li>育児休業から復帰予定：<span class="highlight">+2点</span></li>
 <li>きょうだいと同時申込：<span class="highlight">+2点</span></li>
 </ul>
@@ -117,16 +115,15 @@ const articles: Article[] = [
     image: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=400&fit=crop",
     category: "点数アップ",
     categoryColor: "amber",
-    content: `<h2>基準指数40点は出発点</h2>
-<p>習志野市ではフルタイム共働き世帯は基準指数<span class="highlight">40点</span>で横並びです。差がつくのは調整指数です。</p>
+    content: `<h2>基準指数50点は出発点</h2>
+<p>習志野市ではフルタイム共働き世帯は基準指数<span class="highlight">50点</span>で横並びです。差がつくのは調整指数です。</p>
 
 <h2>加点チェックリスト</h2>
 <table>
 <tr><th>項目</th><th>点数</th><th>条件</th></tr>
 <tr><td>ひとり親</td><td>+5</td><td>ひとり親世帯であること</td></tr>
-<tr><td>きょうだい在園</td><td>+3</td><td>きょうだいが認可保育園に在園中</td></tr>
-<tr><td>認可外利用</td><td>+3</td><td>認可外保育施設に月ぎめで預けている</td></tr>
-<tr><td>生活保護</td><td>+3</td><td>生活保護を受けている</td></tr>
+<tr><td>きょうだい在園（同じ施設に入所希望）</td><td>+2</td><td>きょうだいが認可保育園に在園中で同じ園に希望</td></tr>
+<tr><td>育休復帰</td><td>+2</td><td>育児休業から復帰予定</td></tr>
 <tr><td>育休復帰</td><td>+2</td><td>育児休業を取得し復帰予定</td></tr>
 <tr><td>同時申込</td><td>+2</td><td>きょうだいと同時に申し込む</td></tr>
 </table>
@@ -395,7 +392,7 @@ const articles: Article[] = [
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
-<p>認可外利用（+3点）と育休復帰（+2点）を積めば45点に到達できます。津田沼周辺を狙う場合はこの組み合わせを意識しましょう。</p>
+<p>育休復帰（+2点）と組み合わせることで、基準指数40点に加えて調整指数を最大化できます。津田沼周辺を狙う場合は各種加点の条件を確認しましょう。</p>
 </div>
 
 <div class="warn-box">

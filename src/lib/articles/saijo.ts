@@ -20,7 +20,7 @@ const saijoArticles: Article[] = [
 <p>西条市では父母双方の指数を計算し、<strong>両親の指数を合計した値が世帯の選考点となります</strong>。つまり、一方がフルタイムで10点、もう一方がパートタイムで8点なら、世帯全体は18点の選考点になるということです。</p>
 
 <h3>基本指数の構成</h3>
-<p>各親の基本指数は、保育が必要な事由から最高20点まで獲得できます。西条市の特徴は月160時間以上で最高10点という就労基準です。</p>
+<p>各親の基本指数は、保育が必要な事由から最高10点まで獲得できます。西条市の特徴は月160時間以上で最高10点という就労基準です。</p>
 <ul>
 <li>雇用就労（月160時間以上）：10点</li>
 <li>自営業協力者（月160時間以上）：8点</li>
@@ -34,7 +34,7 @@ const saijoArticles: Article[] = [
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
-<p>西条市はSum方式のため、両親の指数が合計されます。最大40点の基本指数に加えて調整指数で加点できます。両親とも就労確保することが重要です。</p>
+<p>西条市はSum方式のため、両親の指数が合計されます。最大20点の基本指数に加えて調整指数で加点できます。両親とも就労確保することが重要です。</p>
 </div>
 
 <h2>西条市の保育園施設</h2>
@@ -64,11 +64,11 @@ const saijoArticles: Article[] = [
 
 <div class="step">
 <div class="step-num">1</div>
-<div class="step-content"><strong>父母の基本指数を計算</strong><p>父と母のそれぞれについて、保育が必要な事由と程度に応じて基本指数を算出します。最高20点です。</p></div>
+<div class="step-content"><strong>父母の基本指数を計算</strong><p>父と母のそれぞれについて、保育が必要な事由と程度に応じて基本指数を算出します。最高10点です。</p></div>
 </div>
 <div class="step">
 <div class="step-num">2</div>
-<div class="step-content"><strong>両親の指数を合計</strong><p>父と母の指数を足し合わせたものが世帯の選考点となります。最高40点です。</p></div>
+<div class="step-content"><strong>両親の指数を合計</strong><p>父と母の指数を足し合わせたものが世帯の選考点となります。最高20点です。</p></div>
 </div>
 <div class="step">
 <div class="step-num">3</div>

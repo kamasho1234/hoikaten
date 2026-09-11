@@ -97,7 +97,7 @@ const articles: Article[] = [
 <p>春日井市では「基本指数＋調整指数」の合計で選考されます。フルタイム共働きで<span class="highlight">40点</span>が基本ラインです。</p>
 
 <h2>失敗4：加点の取りこぼし</h2>
-<p>認可外保育施設に預けると<span class="highlight">+3点</span>、育休明けで<span class="highlight">+2点</span>の加点がつきます。使える加点は漏れなくチェックしましょう。</p>
+<p>認可外保育施設に預けると<span class="highlight">+1点</span>、育休明けで<span class="highlight">+2点</span>の加点がつきます。使える加点は漏れなくチェックしましょう。</p>
 
 <h2>失敗5：書類の不備</h2>
 <p>就労証明書の記入漏れや指定様式以外の提出は受理されない場合があります。</p>
@@ -146,12 +146,11 @@ const articles: Article[] = [
 
 <h3>主な加算項目</h3>
 <ul>
-<li>ひとり親世帯（就労中）：<span class="highlight">+5点</span></li>
-<li>きょうだいが在園中：<span class="highlight">+3点</span></li>
-<li>認可外保育施設の利用実績：<span class="highlight">+3点</span></li>
-<li>生活保護世帯：<span class="highlight">+3点</span></li>
+<li>ひとり親世帯（就労中）：<span class="highlight">+7点</span></li>
+<li>きょうだいが在園中：<span class="highlight">+1点</span></li>
+<li>認可外保育施設の利用実績：<span class="highlight">+1点</span></li>
 <li>育休明け復職予定：<span class="highlight">+2点</span></li>
-<li>きょうだい同時申込：<span class="highlight">+2点</span></li>
+<li>きょうだい同時申込：<span class="highlight">+1点（双生児以上の場合は+3点）</span></li>
 </ul>
 
 <h3>主な減算項目</h3>
@@ -180,11 +179,10 @@ const articles: Article[] = [
 <h3>加点チェックリスト</h3>
 
 <ul>
-<li>ひとり親で就労中 → <span class="highlight">+5点</span></li>
-<li>きょうだいが希望施設に在園中 → <span class="highlight">+3点</span></li>
-<li>認可外保育施設に月ぎめで預けている → <span class="highlight">+3点</span></li>
-<li>生活保護を受給中 → <span class="highlight">+3点</span></li>
-<li>きょうだいを同時に申込 → <span class="highlight">+2点</span></li>
+<li>ひとり親で就労中 → <span class="highlight">+7点</span></li>
+<li>きょうだいが希望施設に在園中 → <span class="highlight">+1点</span></li>
+<li>認可外保育施設に月ぎめで預けている → <span class="highlight">+1点</span></li>
+<li>きょうだいを同時に申込 → <span class="highlight">+1点（双生児以上の場合は+3点）</span></li>
 <li>育休・産休から入園月に復帰予定 → <span class="highlight">+2点</span></li>
 </ul>
 
@@ -255,12 +253,12 @@ const articles: Article[] = [
 <tr><td>保育料</td><td>所得に応じて決定</td><td>施設が設定</td></tr>
 <tr><td>申込先</td><td>春日井市保育課</td><td>施設に直接</td></tr>
 <tr><td>入園選考</td><td>指数による利用調整</td><td>施設独自の基準</td></tr>
-<tr><td>翌年の入園加点</td><td>-</td><td>+3点</td></tr>
+<tr><td>翌年の入園加点</td><td>-</td><td>+1点</td></tr>
 </table>
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
-<p>認可外に預けながら翌年度の認可園を再申請すると、加点（+3点）がつくため入りやすくなります。認可園に入れなかった場合の有効な戦略です。</p>
+<p>認可外に預けながら翌年度の認可園を再申請すると、加点（+1点）がつくため入りやすくなります。認可園に入れなかった場合の有効な戦略です。</p>
 </div>
 
 <h2>認可外を選ぶときのチェックポイント</h2>
@@ -336,7 +334,7 @@ const articles: Article[] = [
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
-<p>きょうだいが在園中の園を希望に入れると、指数+3点だけでなく同点時の優先順位でも有利になります。</p>
+<p>きょうだいが在園中の園を希望に入れると、指数+1点だけでなく同点時の優先順位でも有利になります。</p>
 </div>
 
 <h2>対策のポイント</h2>

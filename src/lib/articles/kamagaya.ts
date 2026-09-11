@@ -89,12 +89,13 @@ const articles: Article[] = [
 
 <h2>調整点数の代表例</h2>
 <ul>
-<li>ひとり親世帯：<span class="highlight">+2点</span></li>
-<li>認可外保育施設に月ぎめ利用中：<span class="highlight">+2点</span></li>
-<li>生活保護世帯：<span class="highlight">+2点</span></li>
-<li>きょうだいが在園中：<span class="highlight">+1点</span></li>
-<li>育休復帰予定：<span class="highlight">+1点</span></li>
-<li>多子世帯（3人以上）：<span class="highlight">+1点</span></li>
+<li>ひとり親世帯：基準指数<span class="highlight">+20点</span>＋調整指数<span class="highlight">+3点</span>（合計+23点）</li>
+<li>認可外保育施設に月64時間以上利用中：<span class="highlight">+3点</span></li>
+<li>生活保護世帯：<span class="highlight">+3点</span></li>
+<li>育休からの復帰が確定：<span class="highlight">+3点</span></li>
+<li>育休からの復帰予定：<span class="highlight">+2点</span></li>
+<li>きょうだいが同じ施設に在園中：<span class="highlight">+4点</span></li>
+<li>きょうだいが別の施設に在園中：<span class="highlight">+3点</span></li>
 </ul>
 
 <div class="info-box">
@@ -119,13 +120,13 @@ const articles: Article[] = [
 <h2>加点チェックリスト</h2>
 <table>
 <tr><th>項目</th><th>点数</th><th>条件</th></tr>
-<tr><td>ひとり親世帯</td><td>+2点</td><td>母子・父子家庭の場合</td></tr>
-<tr><td>認可外保育施設利用</td><td>+2点</td><td>認可外に月ぎめで利用中</td></tr>
-<tr><td>生活保護</td><td>+2点</td><td>生活保護を受けている場合</td></tr>
-<tr><td>きょうだい在園</td><td>+1点</td><td>認可保育園にきょうだいが在園中</td></tr>
-<tr><td>きょうだい同時申込</td><td>+1点</td><td>きょうだいと同時に申し込む場合</td></tr>
-<tr><td>育休復帰予定</td><td>+1点</td><td>入園月に職場復帰する場合</td></tr>
-<tr><td>多子世帯</td><td>+1点</td><td>きょうだいが3人以上</td></tr>
+<tr><td>ひとり親世帯</td><td>+3点</td><td>母子・父子家庭の場合</td></tr>
+<tr><td>認可外保育施設利用</td><td>+3点</td><td>認可外に月64時間以上利用中</td></tr>
+<tr><td>生活保護</td><td>+3点</td><td>生活保護を受けている場合</td></tr>
+<tr><td>育休復帰が確定</td><td>+3点</td><td>入園月に職場復帰が確定している場合</td></tr>
+<tr><td>育休復帰予定</td><td>+2点</td><td>入園月に職場復帰予定の場合</td></tr>
+<tr><td>きょうだい同施設在園</td><td>+4点</td><td>きょうだいが同じ施設に在園中</td></tr>
+<tr><td>きょうだい別施設在園</td><td>+3点</td><td>きょうだいが別の施設に在園中</td></tr>
 </table>
 
 <div class="point-box">

@@ -91,6 +91,7 @@ const articles: Article[] = [
     <tr><td>きょうだいが別の園に在園・同園希望</td><td>+2点</td></tr>
     <tr><td>きょうだいが同じ園に在園・新規申込</td><td>+1点</td></tr>
     <tr><td>きょうだいと同時に新規申込</td><td>+1点</td></tr>
+    <tr><td>保育が必要な子どもが3歳以上</td><td>+1点</td></tr>
   </tbody>
 </table>
 

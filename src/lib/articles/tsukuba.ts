@@ -160,7 +160,7 @@ const articles: Article[] = [
 <li>育休・産休明け入所希望（休業中） → <span class="highlight">+3点</span></li>
 <li>きょうだいが同一保育所等を同時申込 → <span class="highlight">+2点</span></li>
 <li>認定こども園の1号認定を利用、同一施設での2号認定を希望 → <span class="highlight">+2点</span></li>
-<li>生活保護世帯 → <span class="highlight">+1点</span></li>
+<li>生活保護世帯 → <span class="highlight">+2点</span></li>
 </ul>
 
 <div class="warn-box">

@@ -94,10 +94,10 @@ const articles: Article[] = [
 <p>四日市市では希望園を複数記入できます。1〜2園しか書かないと不承諾のリスクが高まります。通える範囲の園はできるだけ多く書きましょう。</p>
 
 <h2>失敗3：自分の点数を把握していない</h2>
-<p>四日市市では「基本指数＋調整指数」の合計で選考されます。フルタイム共働きで<span class="highlight">40点</span>が基本ラインです。</p>
+<p>四日市市では「基本指数＋調整指数」の合計で選考されます。フルタイム共働きで最大100点の基本指数が付与されます。</p>
 
 <h2>失敗4：加点の取りこぼし</h2>
-<p>認可外保育施設に預けると<span class="highlight">+3点</span>、育休明けで<span class="highlight">+2点</span>の加点がつきます。使える加点は漏れなくチェックしましょう。</p>
+<p>認可外保育施設の利用や育休明けなど、世帯の状況に応じた調整指数があります。使える加点は漏れなくチェックしましょう。</p>
 
 <h2>失敗5：書類の不備</h2>
 <p>就労証明書の記入漏れや指定様式以外の提出は受理されない場合があります。</p>
@@ -129,16 +129,16 @@ const articles: Article[] = [
 </div>
 
 <h2>基本指数とは？</h2>
-<p>父母それぞれの「保育が必要な理由」を点数化したものです。1人あたり最大<span class="highlight">20点</span>で、父母合計の最大は<span class="highlight">40点</span>。</p>
-<p>最も多い「就労」の場合、月160時間以上で満点の20点になります。</p>
+<p>父母それぞれの「保育が必要な理由」を点数化したものです。1人あたり最大<span class="highlight">100点</span>で、世帯の基本指数は父母の低い方の点数を採用します。</p>
+<p>最も多い「就労」の場合、月160時間以上で100点です。</p>
 
 <table>
 <tr><th>就労状況</th><th>指数</th></tr>
-<tr><td>月160時間以上</td><td>20</td></tr>
-<tr><td>月120時間以上160時間未満</td><td>18</td></tr>
-<tr><td>月100時間以上120時間未満</td><td>16</td></tr>
-<tr><td>月80時間以上100時間未満</td><td>14</td></tr>
-<tr><td>月64時間以上80時間未満</td><td>12</td></tr>
+<tr><td>月20日以上かつ週40時間以上</td><td>100</td></tr>
+<tr><td>月20日以上かつ週30時間以上</td><td>90</td></tr>
+<tr><td>月16日以上かつ週24時間以上</td><td>80</td></tr>
+<tr><td>月16日以上かつ週16時間以上</td><td>70</td></tr>
+<tr><td>月64時間以上</td><td>60</td></tr>
 </table>
 
 <h2>調整指数とは？</h2>
@@ -146,12 +146,11 @@ const articles: Article[] = [
 
 <h3>主な加算項目</h3>
 <ul>
-<li>ひとり親世帯（就労中）：<span class="highlight">+5点</span></li>
-<li>きょうだいが在園中：<span class="highlight">+3点</span></li>
-<li>認可外保育施設の利用実績：<span class="highlight">+3点</span></li>
-<li>生活保護世帯：<span class="highlight">+3点</span></li>
-<li>育休明け復職予定：<span class="highlight">+2点</span></li>
-<li>きょうだい同時申込：<span class="highlight">+2点</span></li>
+<li>ひとり親世帯（就労中）：加点あり</li>
+<li>きょうだい関連：加点あり（在園・同時申込など）</li>
+<li>認可外保育施設の利用実績：加点あり</li>
+<li>生活保護世帯：加点あり</li>
+<li>育休明け復職予定：加点あり</li>
 </ul>
 
 <h3>主な減算項目</h3>
@@ -180,12 +179,12 @@ const articles: Article[] = [
 <h3>加点チェックリスト</h3>
 
 <ul>
-<li>ひとり親で就労中 → <span class="highlight">+5点</span></li>
-<li>きょうだいが希望施設に在園中 → <span class="highlight">+3点</span></li>
-<li>認可外保育施設に月ぎめで預けている → <span class="highlight">+3点</span></li>
-<li>生活保護を受給中 → <span class="highlight">+3点</span></li>
-<li>きょうだいを同時に申込 → <span class="highlight">+2点</span></li>
-<li>育休・産休から入園月に復帰予定 → <span class="highlight">+2点</span></li>
+<li>ひとり親で就労中 → 加点あり</li>
+<li>きょうだいが希望施設に在園中 → 加点あり</li>
+<li>認可外保育施設に月ぎめで預けている → 加点あり</li>
+<li>生活保護を受給中 → 加点あり</li>
+<li>きょうだいを同時に申込 → 加点あり</li>
+<li>育休・産休から入園月に復帰予定 → 加点あり</li>
 </ul>
 
 <div class="point-box">

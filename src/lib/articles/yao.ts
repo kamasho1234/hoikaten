@@ -129,16 +129,16 @@ const articles: Article[] = [
 </div>
 
 <h2>基本指数とは？</h2>
-<p>父母それぞれの「保育が必要な理由」を点数化したものです。1人あたり最大<span class="highlight">20点</span>で、父母合計の最大は<span class="highlight">40点</span>。</p>
-<p>最も多い「就労」の場合、月160時間以上で満点の20点になります。</p>
+<p>父母それぞれの「保育が必要な理由」を点数化したものです。1人あたり最大<span class="highlight">80点</span>で、低い方を採用します。</p>
+<p>最も多い「就労」の場合、月160時間以上で70点になります。（疾病や障がいなど他の理由では80点が上限の場合もあります）</p>
 
 <table>
 <tr><th>就労状況</th><th>指数</th></tr>
-<tr><td>月160時間以上</td><td>20</td></tr>
-<tr><td>月120時間以上160時間未満</td><td>18</td></tr>
-<tr><td>月100時間以上120時間未満</td><td>16</td></tr>
-<tr><td>月80時間以上100時間未満</td><td>14</td></tr>
-<tr><td>月64時間以上80時間未満</td><td>12</td></tr>
+<tr><td>月160時間以上</td><td>70</td></tr>
+<tr><td>月140時間以上160時間未満</td><td>60</td></tr>
+<tr><td>月120時間以上140時間未満</td><td>50</td></tr>
+<tr><td>月96時間以上120時間未満</td><td>40</td></tr>
+<tr><td>月64時間以上96時間未満</td><td>30</td></tr>
 </table>
 
 <h2>調整指数とは？</h2>
@@ -146,12 +146,12 @@ const articles: Article[] = [
 
 <h3>主な加算項目</h3>
 <ul>
-<li>ひとり親世帯（就労中）：<span class="highlight">+5点</span></li>
-<li>きょうだいが在園中：<span class="highlight">+3点</span></li>
-<li>認可外保育施設の利用実績：<span class="highlight">+3点</span></li>
+<li>ひとり親世帯：<span class="highlight">+11点</span></li>
+<li>きょうだいが在園中（2人）：<span class="highlight">+11点</span>（3人以上は+15点）</li>
+<li>認可外保育施設の利用実績：<span class="highlight">+2点</span></li>
 <li>生活保護世帯：<span class="highlight">+3点</span></li>
 <li>育休明け復職予定：<span class="highlight">+2点</span></li>
-<li>きょうだい同時申込：<span class="highlight">+2点</span></li>
+<li>きょうだい同時申込（2人）：<span class="highlight">+8点</span>（3人以上は+12点）</li>
 </ul>
 
 <h3>主な減算項目</h3>
@@ -180,11 +180,11 @@ const articles: Article[] = [
 <h3>加点チェックリスト</h3>
 
 <ul>
-<li>ひとり親で就労中 → <span class="highlight">+5点</span></li>
-<li>きょうだいが希望施設に在園中 → <span class="highlight">+3点</span></li>
-<li>認可外保育施設に月ぎめで預けている → <span class="highlight">+3点</span></li>
+<li>ひとり親で就労中 → <span class="highlight">+11点</span></li>
+<li>きょうだいが希望施設に在園中（2人）→ <span class="highlight">+11点</span>（3人以上は+15点）</li>
+<li>認可外保育施設に月ぎめで預けている → <span class="highlight">+2点</span></li>
 <li>生活保護を受給中 → <span class="highlight">+3点</span></li>
-<li>きょうだいを同時に申込 → <span class="highlight">+2点</span></li>
+<li>きょうだいを同時に申込（2人）→ <span class="highlight">+8点</span>（3人以上は+12点）</li>
 <li>育休・産休から入園月に復帰予定 → <span class="highlight">+2点</span></li>
 </ul>
 

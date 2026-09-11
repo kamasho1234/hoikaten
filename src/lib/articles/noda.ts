@@ -46,7 +46,7 @@ const articles: Article[] = [
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
-<p>野田市は基準指数が父母各最大20点（合計40点満点）です。月の合計就労時間で判定されます。</p>
+<p>野田市は基準指数が父母各最大10点（合計20点満点）です。月の合計就労時間で判定されます。</p>
 </div>
 
 <div class="info-box">
@@ -73,26 +73,26 @@ const articles: Article[] = [
 <p>選考指数 = 基準指数（保護者1 + 保護者2）+ 調整指数</p>
 </div>
 
-<h2>基準指数（父母各最大20点、合計40点）</h2>
-<p>就労の場合、月160時間以上で満点の<span class="highlight">20点</span>になります。</p>
+<h2>基準指数（父母各最大10点、合計20点）</h2>
+<p>就労の場合、月160時間以上で満点の<span class="highlight">10点</span>になります。</p>
 
 <table>
 <tr><th>月の就労時間</th><th>指数</th></tr>
-<tr><td>月160時間以上</td><td>20</td></tr>
-<tr><td>月140〜160時間</td><td>18</td></tr>
-<tr><td>月120〜140時間</td><td>16</td></tr>
-<tr><td>月100〜120時間</td><td>14</td></tr>
-<tr><td>月80〜100時間</td><td>12</td></tr>
-<tr><td>月64〜80時間</td><td>10</td></tr>
+<tr><td>月160時間以上</td><td>10</td></tr>
+<tr><td>月140〜160時間</td><td>9</td></tr>
+<tr><td>月120〜140時間</td><td>8</td></tr>
+<tr><td>月100〜120時間</td><td>7</td></tr>
+<tr><td>月80〜100時間</td><td>6</td></tr>
+<tr><td>月64〜80時間</td><td>5</td></tr>
 </table>
 
 <h2>調整指数の代表例</h2>
 <ul>
-<li>ひとり親世帯：<span class="highlight">+5点</span></li>
+<li>ひとり親世帯：<span class="highlight">+4点</span></li>
 <li>きょうだいが在園中の施設を希望：<span class="highlight">+3点</span></li>
-<li>認可外保育施設に月64時間以上利用：<span class="highlight">+3点</span></li>
 <li>生活保護世帯：<span class="highlight">+3点</span></li>
 <li>育児休業から復帰予定：<span class="highlight">+2点</span></li>
+<li>きょうだいが同じ施設を希望：<span class="highlight">+2点</span></li>
 </ul>
 
 <div class="info-box">

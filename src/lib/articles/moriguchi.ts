@@ -46,7 +46,7 @@ const articles: Article[] = [
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
-<p>守口市は基本指数が父母各最大20点（合計40点満点）の制度です。フルタイム共働きで40点が基準ラインになります。調整指数の加点で差がつくため、該当する項目を確認しておきましょう。</p>
+<p>守口市の基本指数は父母各最大120点（合計240点満点）の計算方式です。詳しくは「守口市の点数の仕組みと計算方法」の記事をご確認ください。</p>
 </div>
 
 <div class="info-box">
@@ -66,42 +66,38 @@ const articles: Article[] = [
     category: "選考のしくみ",
     categoryColor: "blue",
     content: `<h2>守口市の利用調整指数とは</h2>
-<p>守口市の認可保育園の入園選考は「父の基本指数 + 母の基本指数 + 調整指数」の合計で行われます。基本指数は父母それぞれ最大20点で、合計40点満点です。</p>
+<p>守口市の認可保育園の入園選考は「父の基本指数 + 母の基本指数 + 調整指数」の合計で行われます。基本指数は父母それぞれ最大120点で、合計240点満点です。</p>
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
 <p>利用調整指数 = 基本指数（保護者1 + 保護者2）+ 調整指数</p>
 </div>
 
-<h2>基本指数（父母各最大20点、合計40点）</h2>
-<p>就労の場合、月160時間以上なら満点の<span class="highlight">20点</span>です。就労時間が短くなるにつれて点数が下がります。</p>
+<h2>基本指数（父母各最大120点、合計240点）</h2>
+<p>就労の場合、月160時間以上なら満点の<span class="highlight">120点</span>です（父または母1人あたり）。就労時間が短くなるにつれて点数が下がります。</p>
 
 <table>
 <tr><th>保育が必要な理由</th><th>条件</th><th>基本指数</th></tr>
-<tr><td>就労</td><td>月160時間以上</td><td>20</td></tr>
-<tr><td>就労</td><td>月120〜160時間</td><td>18</td></tr>
-<tr><td>就労</td><td>月100〜120時間</td><td>16</td></tr>
-<tr><td>就労</td><td>月80〜100時間</td><td>14</td></tr>
-<tr><td>就労</td><td>月64〜80時間</td><td>12</td></tr>
-<tr><td>疾病</td><td>入院・常時病臥</td><td>20</td></tr>
-<tr><td>障害</td><td>身体1・2級／療育A</td><td>20</td></tr>
-<tr><td>出産</td><td>産前2ヶ月〜産後8週</td><td>20</td></tr>
-<tr><td>求職活動</td><td>就労内定あり</td><td>10</td></tr>
-<tr><td>求職活動</td><td>求職活動中</td><td>5</td></tr>
+<tr><td>就労</td><td>月160時間以上</td><td>120</td></tr>
+<tr><td>就労</td><td>月120時間以上160時間未満</td><td>100</td></tr>
+<tr><td>就労</td><td>月96時間以上120時間未満</td><td>80</td></tr>
+<tr><td>就労</td><td>月64時間以上96時間未満</td><td>60</td></tr>
+<tr><td>疾病</td><td>入院・常時病臥（3ヶ月以上）</td><td>120</td></tr>
+<tr><td>障害</td><td>身体1・2級／療育A</td><td>120</td></tr>
+<tr><td>出産</td><td>産前2ヶ月〜産後8週</td><td>40</td></tr>
+<tr><td>求職活動</td><td>就労内定あり</td><td>110〜50</td></tr>
+<tr><td>求職活動</td><td>求職活動中</td><td>1</td></tr>
 </table>
 
-<h2>調整指数の代表例</h2>
+<h2>加算点数表</h2>
 <ul>
-<li>ひとり親世帯：<span class="highlight">+5点</span></li>
-<li>きょうだい在園：<span class="highlight">+3点</span></li>
-<li>認可外利用：<span class="highlight">+3点</span></li>
-<li>生活保護：<span class="highlight">+3点</span></li>
-<li>同時申込：<span class="highlight">+2点</span></li>
-<li>育休復帰：<span class="highlight">+2点</span></li>
-<li>同居祖父母：<span class="highlight">-3点</span></li>
-<li>転園希望：<span class="highlight">-5点</span></li>
-<li>市外在住：<span class="highlight">-10点</span></li>
+<li>ひとり親世帯：<span class="highlight">+120点</span></li>
+<li>きょうだいが先に入所している場合：<span class="highlight">+20点</span></li>
+<li>小規模保育事業等の卒園児童：<span class="highlight">+20点</span></li>
+<li>きょうだいが同時に申し込む場合：<span class="highlight">+10点</span></li>
+<li>保育士等の優先利用（市内保育施設で月64時間以上）：<span class="highlight">+40点</span></li>
 </ul>
+<p>※保育士等で月120時間以上の場合は加算点ではなく「優先利用」として調整されます。</p>
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
@@ -119,32 +115,23 @@ const articles: Article[] = [
     image: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=400&fit=crop",
     category: "点数アップ",
     categoryColor: "amber",
-    content: `<h2>基本指数40点は出発点</h2>
-<p>守口市ではフルタイム共働き世帯は基本指数<span class="highlight">40点</span>で横並びです。差がつくのは調整指数の加点です。</p>
+    content: `<h2>基本指数240点は出発点</h2>
+<p>守口市ではフルタイム共働き世帯は基本指数<span class="highlight">240点</span>（父母各120点）で横並びです。差がつくのは加算点数表の加点です。</p>
 
 <h2>加点チェックリスト</h2>
 <table>
 <tr><th>項目</th><th>点数</th><th>条件</th></tr>
-<tr><td>ひとり親世帯</td><td>+5</td><td>母子家庭・父子家庭で就労中</td></tr>
-<tr><td>きょうだい在園</td><td>+3</td><td>希望園にきょうだいが在園中</td></tr>
-<tr><td>認可外利用</td><td>+3</td><td>認可外保育施設に月極で預託中</td></tr>
-<tr><td>生活保護</td><td>+3</td><td>生活保護受給世帯</td></tr>
-<tr><td>同時申込</td><td>+2</td><td>きょうだいを同時に申し込む</td></tr>
-<tr><td>育休復帰</td><td>+2</td><td>入園月中に職場復帰</td></tr>
+<tr><td>ひとり親世帯</td><td>+120</td><td>母子家庭・父子家庭で就労中</td></tr>
+<tr><td>きょうだい在園</td><td>+20</td><td>希望園にきょうだいが先に入所中</td></tr>
+<tr><td>小規模保育卒園児</td><td>+20</td><td>小規模保育事業等の卒園児童</td></tr>
+<tr><td>同時申込</td><td>+10</td><td>きょうだいを同時に申し込む</td></tr>
+<tr><td>保育士（月64時間以上）</td><td>+40</td><td>市内保育施設で月64時間以上勤務</td></tr>
 </table>
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
-<p>守口市は0〜5歳児の保育料無償化で注目されている自治体です。近年は子育て世帯の流入が増えており、特に0〜2歳児クラスの競争率が上がっています。きょうだい加点+3や認可外利用+3を活用して差をつけましょう。</p>
-</div>
-
-<h2>減点に注意</h2>
-<ul>
-<li>市外在住：<span class="highlight">-10点</span></li>
-<li>転園希望：<span class="highlight">-5点</span></li>
-<li>同居祖父母：<span class="highlight">-3点</span></li>
-</ul>
-<p>同居の祖父母がいる場合は-3点の減点があります。祖父母に就労等の事情がある場合は証明書類を提出して減点を回避しましょう。</p>`,
+<p>守口市は0〜5歳児の保育料無償化で注目されている自治体です。近年は子育て世帯の流入が増えており、特に0〜2歳児クラスの競争率が上がっています。ひとり親加点+120やきょうだい在園加点+20を活用して差をつけましょう。</p>
+</div>`,
     publishedAt: "2026-04-07",
     popularity: 58,
   },
@@ -176,7 +163,7 @@ const articles: Article[] = [
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
-<p>0〜2歳児の保育料無償化は全国的にも珍しい制度です。大阪市や門真市など近隣自治体から守口市への転入を検討する子育て世帯が増えています。保育料の負担が大きい0〜2歳児のうちに入園を目指す方にとって大きなメリットです。</p>
+<p>0〜2歳児の保育料無償化は制度です。大阪市や門真市など近隣自治体から守口市への転入を検討する子育て世帯が増えています。保育料の負担が大きい0〜2歳児のうちに入園を目指す方にとって大きなメリットです。</p>
 </div>
 
 <div class="info-box">
@@ -399,7 +386,7 @@ const articles: Article[] = [
 <div class="step-num">3</div>
 <div class="step-content">
 <strong>認可外保育施設を利用する</strong>
-<p>認可外に預けながら翌年度に再申込すると、認可外利用加点<span class="highlight">+3点</span>が加算されます。</p>
+<p>認可外に預けながら翌年度に再申込することで、継続的に入園チャンスを得ることができます。</p>
 </div>
 </div>
 
@@ -412,7 +399,7 @@ const articles: Article[] = [
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
-<p>守口市は保育料無償化の影響で人気が高まっており、不承諾になるケースもあります。認可外に預けながら翌年度に再申込すれば+3点の加点が得られます。早めに認可外の空きを確認しておくことが大切です。</p>
+<p>守口市は保育料無償化の影響で人気が高まっており、不承諾になるケースもあります。認可外に預けながら翌年度に再申込することで、継続的に入園チャンスを得られます。早めに認可外の空きを確認しておくことが大切です。</p>
 </div>
 
 <div class="info-box">

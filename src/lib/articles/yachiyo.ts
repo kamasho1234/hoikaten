@@ -88,16 +88,17 @@ const articles: Article[] = [
 
 <h2>調整指数の代表例</h2>
 <ul>
-<li>ひとり親世帯：<span class="highlight">+5点</span></li>
-<li>きょうだいが認可保育園に在園中：<span class="highlight">+3点</span></li>
-<li>認可外保育施設に月ぎめで利用中：<span class="highlight">+3点</span></li>
-<li>育休から復帰予定：<span class="highlight">+2点</span></li>
+<li>ひとり親世帯：<span class="highlight">+8点</span></li>
+<li>きょうだいが希望施設に在園中：<span class="highlight">+4点</span></li>
+<li>きょうだい同時申込：<span class="highlight">+4点</span></li>
+<li>認可外保育施設に2か月以上利用中：<span class="highlight">+6点</span></li>
+<li>育休から復帰予定：<span class="highlight">+6点</span></li>
 <li>生活保護世帯：<span class="highlight">+3点</span></li>
 </ul>
 
-<div class="warn-box">
-<p><strong>注意</strong></p>
-<p>65歳未満の祖父母が同居している場合は<span class="highlight">-3点</span>の減点になります。市外からの申込は<span class="highlight">-10点</span>です。</p>
+<div class="info-box">
+<p><strong>公式情報</strong></p>
+<p>その他の加点項目（保育士資格、主たる稼ぎ手の失業、幼稚園卒園児など）も確認できます。</p>
 </div>
 
 <div class="info-box">
@@ -122,25 +123,21 @@ const articles: Article[] = [
 <h2>加点チェックリスト</h2>
 <table>
 <tr><th>項目</th><th>点数</th><th>条件</th></tr>
-<tr><td>ひとり親世帯</td><td>+5点</td><td>母子・父子家庭の場合</td></tr>
-<tr><td>きょうだい在園</td><td>+3点</td><td>認可保育園にきょうだいが在園中</td></tr>
-<tr><td>同時申込</td><td>+2点</td><td>きょうだいと同時に申し込む場合</td></tr>
-<tr><td>認可外利用</td><td>+3点</td><td>認可外保育施設に月ぎめで利用中</td></tr>
-<tr><td>育休復帰予定</td><td>+2点</td><td>入園月に職場復帰する場合</td></tr>
+<tr><td>ひとり親世帯</td><td>+8点</td><td>母子・父子家庭の場合</td></tr>
+<tr><td>きょうだい希望施設に在園</td><td>+4点</td><td>希望する施設にきょうだいが在園中</td></tr>
+<tr><td>きょうだい同時申込</td><td>+4点</td><td>きょうだいと同時に申し込む場合</td></tr>
+<tr><td>認可外利用</td><td>+6点</td><td>認可外保育施設に2か月以上利用中</td></tr>
+<tr><td>育休復帰予定</td><td>+6点</td><td>育児休業から復帰する場合</td></tr>
 <tr><td>生活保護</td><td>+3点</td><td>生活保護を受けている場合</td></tr>
 </table>
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
-<p>八千代市では43点あれば多くの園で入園できる可能性が高いです。40点＋認可外利用（+3点）＝<span class="highlight">43点</span>が一つの目安です。</p>
+<p>八千代市では46点あれば多くの園で入園できる可能性が高いです。40点＋認可外利用（+6点）＝<span class="highlight">46点</span>が一つの目安です。</p>
 </div>
 
 <h2>減点に注意</h2>
-<ul>
-<li>65歳未満の祖父母が同居している場合：<span class="highlight">-3点</span></li>
-<li>市外からの申込：<span class="highlight">-10点</span></li>
-<li>転園の申込：<span class="highlight">-5点</span></li>
-</ul>
+<p>八千代市の利用調整基準では、特定の条件により減点が適用される場合があります。詳しくは八千代市子ども部保育課に確認してください。</p>
 
 <div class="warn-box">
 <p><strong>注意</strong></p>
@@ -175,7 +172,7 @@ const articles: Article[] = [
 </div>
 
 <h2>同点対策</h2>
-<p>認可外保育施設の利用（+3点）や育休復帰（+2点）など、取得できる加点をすべて確認しておきましょう。</p>
+<p>認可外保育施設の利用（+6点）や育休復帰（+6点）など、取得できる加点をすべて確認しておきましょう。</p>
 
 <div class="warn-box">
 <p><strong>注意</strong></p>
@@ -237,14 +234,14 @@ const articles: Article[] = [
 <p>一次選考後の辞退者枠で二次選考が行われます。</p>
 
 <h3>2. 認可外保育施設の利用</h3>
-<p>認可外保育施設を利用することで、翌年度の申込で<span class="highlight">+3点</span>の加点が見込めます。</p>
+<p>認可外保育施設を利用することで、翌年度の申込で<span class="highlight">+6点</span>の加点が見込めます。</p>
 
 <h3>3. 小規模保育の利用</h3>
 <p>小規模保育事業を利用し、卒園時に認可保育園へ転所する方法があります。</p>
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
-<p>認可外利用（+3点）と育休復帰（+2点）を翌年度に積むと、合計+5点の加算が見込めます。40点＋5点＝<span class="highlight">45点</span>で入園の可能性が大きく上がります。</p>
+<p>認可外利用（+6点）と育休復帰（+6点）を翌年度に積むと、合計+12点の加算が見込めます。40点＋12点＝<span class="highlight">52点</span>で入園の可能性が大きく上がります。</p>
 </div>
 
 <h3>4. 途中入園</h3>
@@ -265,12 +262,12 @@ const articles: Article[] = [
     citySlug: "yachiyo",
     title: "八千代市で認可外保育施設の利用で加点を得る方法",
     description:
-      "八千代市では認可外保育施設の月ぎめ利用で+3点の加点が得られます。その条件を解説します。",
+      "八千代市では認可外保育施設の月ぎめ利用で+6点の加点が得られます。その条件を解説します。",
     image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
     category: "点数アップ",
     categoryColor: "amber",
     content: `<h2>認可外利用の加点</h2>
-<p>八千代市では認可外保育施設に月ぎめで預けている場合、調整指数で<span class="highlight">+3点</span>の加点が得られます。</p>
+<p>八千代市では認可外保育施設に月ぎめで預けている場合、調整指数で<span class="highlight">+6点</span>の加点が得られます。</p>
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
@@ -287,7 +284,7 @@ const articles: Article[] = [
 <p>八千代市内の認可外保育施設の月額料金は施設によって異なりますが、月5万〜8万円程度が一般的です。</p>
 
 <h2>翌年度への布石</h2>
-<p>不承諾だった場合に認可外を利用すると、翌年度の申込で+3点の加点がつきます。40点制では3点の差は大きいです。</p>
+<p>不承諾だった場合に認可外を利用すると、翌年度の申込で+6点の加点がつきます。40点制では6点の差は大きいです。</p>
 
 <div class="warn-box">
 <p><strong>注意</strong></p>

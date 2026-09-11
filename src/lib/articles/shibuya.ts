@@ -173,7 +173,6 @@ const articles: Article[] = [
 <h3>4. 減点を避ける</h3>
 <ul>
 <li>保育料の滞納：-6点（大きな減点）</li>
-<li>同居祖父母が保育可能：-2点</li>
 </ul>
 
 <div class="point-box">

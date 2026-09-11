@@ -427,9 +427,9 @@ const otakeArticles: Article[] = [
 <thead><tr><th>自治体</th><th>方式</th><th>基準指数（1人分）</th><th>フルタイム時点数</th></tr></thead>
 <tbody>
 <tr><td>大竹市</td><td>min方式</td><td>最大13点</td><td>13点（月160h+）</td></tr>
-<tr><td>広島市</td><td>加点・減点制</td><td>合計方式</td><td>10点</td></tr>
-<tr><td>呉市</td><td>標準方式</td><td>10点</td><td>10点</td></tr>
-<tr><td>三原市</td><td>標準方式</td><td>10点</td><td>10点</td></tr>
+<tr><td>広島市</td><td>ランク制（低い方）</td><td>ランクA＝8点</td><td>8点</td></tr>
+<tr><td>呉市</td><td>ランク制（低い方）</td><td>ランクA＝8点</td><td>8点</td></tr>
+<tr><td>三原市</td><td>合計方式</td><td>最大20点</td><td>20点（月160h+）</td></tr>
 </tbody>
 </table>
 
@@ -438,8 +438,8 @@ const otakeArticles: Article[] = [
 <thead><tr><th>自治体</th><th>方式の特徴</th><th>親の就労バランス</th></tr></thead>
 <tbody>
 <tr><td>大竹市</td><td>min方式（低い方を採用）</td><td>両親ともバランス必須</td></tr>
-<tr><td>広島市</td><td>合計方式</td><td>一方の就労で対応可能</td></tr>
-<tr><td>呉市</td><td>標準方式</td><td>一方の就労で対応可能</td></tr>
+<tr><td>広島市</td><td>ランク制（低い方を採用）</td><td>両親ともバランス必須</td></tr>
+<tr><td>呉市</td><td>ランク制（低い方を採用）</td><td>両親ともバランス必須</td></tr>
 </tbody>
 </table>
 

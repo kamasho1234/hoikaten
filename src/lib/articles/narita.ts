@@ -46,7 +46,7 @@ const articles: Article[] = [
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
-<p>成田市の基本指数は父母各最大20点（合計40点満点）です。月の就労時間で判定される制度です。</p>
+<p>成田市の基本指数は父母各最大25点（合計50点満点）です。月の就労時間で判定される制度です。</p>
 </div>
 
 <div class="info-box">
@@ -89,11 +89,11 @@ const articles: Article[] = [
 
 <h2>調整指数の代表例</h2>
 <ul>
-<li>ひとり親世帯：<span class="highlight">+2点</span></li>
+<li>ひとり親世帯（転勤による）：<span class="highlight">+1点</span></li>
 <li>認可外保育施設に月ぎめ利用中：<span class="highlight">+2点</span></li>
-<li>生活保護世帯：<span class="highlight">+2点</span></li>
-<li>きょうだいが在園中：<span class="highlight">+1点</span></li>
-<li>育休復帰予定：<span class="highlight">+1点</span></li>
+<li>生活保護世帯：<span class="highlight">+1点</span></li>
+<li>きょうだいが在園中：<span class="highlight">+2点</span></li>
+<li>育休復帰予定：<span class="highlight">+2点</span></li>
 <li>多子世帯（3人以上）：<span class="highlight">+1点</span></li>
 </ul>
 
@@ -114,17 +114,17 @@ const articles: Article[] = [
     category: "点数アップ",
     categoryColor: "amber",
     content: `<h2>基本指数40点は出発点</h2>
-<p>成田市ではフルタイム共働き世帯は基本指数<span class="highlight">40点</span>で横並びです。差がつくのは調整指数の加点です。</p>
+<p>成田市ではフルタイム共働き世帯は基本指数<span class="highlight">50点</span>で横並びです。差がつくのは調整指数の加点です。</p>
 
 <h2>加点チェックリスト</h2>
 <table>
 <tr><th>項目</th><th>点数</th><th>条件</th></tr>
-<tr><td>ひとり親世帯</td><td>+2点</td><td>母子・父子家庭の場合</td></tr>
+<tr><td>ひとり親世帯（転勤による）</td><td>+1点</td><td>転勤による母子・父子家庭の場合</td></tr>
 <tr><td>認可外保育施設利用</td><td>+2点</td><td>認可外に月ぎめで利用中</td></tr>
-<tr><td>生活保護</td><td>+2点</td><td>生活保護を受けている場合</td></tr>
-<tr><td>きょうだい在園</td><td>+1点</td><td>認可保育園にきょうだいが在園中</td></tr>
+<tr><td>生活保護</td><td>+1点</td><td>生活保護を受けている場合</td></tr>
+<tr><td>きょうだい在園</td><td>+2点</td><td>認可保育園にきょうだいが在園中</td></tr>
 <tr><td>きょうだい同時申込</td><td>+1点</td><td>きょうだいと同時に申し込む場合</td></tr>
-<tr><td>育休復帰予定</td><td>+1点</td><td>入園月に職場復帰する場合</td></tr>
+<tr><td>育休復帰予定</td><td>+2点</td><td>入園月に職場復帰する場合</td></tr>
 <tr><td>多子世帯</td><td>+1点</td><td>きょうだいが3人以上</td></tr>
 </table>
 
@@ -228,12 +228,12 @@ const articles: Article[] = [
     category: "点数アップ",
     categoryColor: "amber",
     content: `<h2>ひとり親世帯の加点</h2>
-<p>成田市の入園選考で、ひとり親世帯は調整指数で<span class="highlight">+2点</span>の加点が得られます。</p>
+<p>成田市の入園選考で、ひとり親世帯（転勤による）は調整指数で<span class="highlight">+1点</span>の加点が得られます。</p>
 
 <h3>加点の対象</h3>
 <ul>
-<li>母子家庭（父親が不在）</li>
-<li>父子家庭（母親が不在）</li>
+<li>転勤による母子家庭（父親が不在）</li>
+<li>転勤による父子家庭（母親が不在）</li>
 </ul>
 
 <div class="point-box">
@@ -267,7 +267,7 @@ const articles: Article[] = [
     category: "保活の基本",
     categoryColor: "green",
     content: `<h2>育休復帰予定で加点</h2>
-<p>成田市の入園選考では、育児休業を取得して入園月に復帰する場合、調整指数で<span class="highlight">+1点</span>の加点が得られます。</p>
+<p>成田市の入園選考では、育児休業を取得して入園月に復帰する場合、調整指数で<span class="highlight">+2点</span>の加点が得られます。</p>
 
 <h3>加点の条件</h3>
 <ul>
@@ -289,7 +289,7 @@ const articles: Article[] = [
 
 <table>
 <tr><th>パターン</th><th>基本指数</th><th>調整指数</th><th>加点</th></tr>
-<tr><td>育休中・復帰予定</td><td>20点（復帰後）</td><td>+1点</td><td>あり</td></tr>
+<tr><td>育休中・復帰予定</td><td>20点（復帰後）</td><td>+2点</td><td>あり</td></tr>
 <tr><td>育休中・復帰予定なし</td><td>0点</td><td>0点</td><td>なし</td></tr>
 <tr><td>既に復帰</td><td>20点</td><td>0点</td><td>なし</td></tr>
 </table>

@@ -278,8 +278,8 @@ const articles: Article[] = [
     content: `<h2>育休明け加点は+2点</h2>
 <p>徳島市では育児休業から復帰して入所を希望する場合、調整指数として<span class="highlight">+2点</span>が加算されます。フルタイム共働き世帯なら基礎40＋育休明け2＝<span class="highlight">合計42点</span>になります。</p>
 
-<h2>認可外利用と組み合わせて+5点</h2>
-<p>育休中に認可外保育施設を利用しておくと、認可外利用の加点（+3点）も合わせて<span class="highlight">+5点</span>の上乗せが可能です。基礎40＋育休明け2＋認可外3＝<span class="highlight">合計45点</span>になります。</p>
+<h2>育休明けと認可外利用で最大+5点</h2>
+<p>育休中に認可外保育施設を利用しておくと、育休明け加点（+2点）と認可外利用加点（+3点）の両方が加算され、合わせて<span class="highlight">+5点</span>の上乗せが可能です。基礎40＋育休明け2＋認可外3＝<span class="highlight">合計45点</span>になります。</p>
 
 <h2>育休中の保活スケジュール</h2>
 <div class="step">

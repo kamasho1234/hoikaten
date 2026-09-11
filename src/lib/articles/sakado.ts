@@ -46,7 +46,7 @@ const articles: Article[] = [
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
-<p>坂戸市は基準指数で父母各最大20点（合計40点満点）です。月の就労時間で判定される制度です。</p>
+<p>坂戸市は基準指数で父母各最大25点（合計50点満点）です。月の就労時間で判定される制度です。</p>
 </div>
 
 <div class="info-box">
@@ -73,27 +73,31 @@ const articles: Article[] = [
 <p>利用調整指数 ＝ 基本指数（父＋母）＋ 調整指数</p>
 </div>
 
-<h2>基本指数（父母各最大20点、合計40点）</h2>
-<p>就労の場合、月160時間以上の就労で満点の<span class="highlight">20点</span>です。</p>
+<h2>基本指数（父母各最大25点、合計50点）</h2>
+<p>就労の場合、月160時間以上の就労で満点の<span class="highlight">25点</span>です。</p>
 
 <table>
 <tr><th>月の就労時間</th><th>指数</th></tr>
-<tr><td>月160時間以上</td><td>20</td></tr>
-<tr><td>月120時間以上160時間未満</td><td>18</td></tr>
-<tr><td>月100時間以上120時間未満</td><td>16</td></tr>
-<tr><td>月80時間以上100時間未満</td><td>14</td></tr>
-<tr><td>月64時間以上80時間未満</td><td>12</td></tr>
-<tr><td>月48時間以上64時間未満</td><td>8</td></tr>
+<tr><td>月160時間以上の就労を常態（または海外赴任）</td><td>21</td></tr>
+<tr><td>月150時間以上の就労を常態</td><td>20</td></tr>
+<tr><td>月140時間以上の就労を常態</td><td>19</td></tr>
+<tr><td>月120時間以上の就労を常態</td><td>18</td></tr>
+<tr><td>月100時間以上の就労を常態</td><td>17</td></tr>
+<tr><td>月80時間以上の就労を常態</td><td>16</td></tr>
+<tr><td>月64時間以上の就労を常態</td><td>14</td></tr>
+<tr><td>月64時間未満の就労を常態とし、これから勤務を増やす予定</td><td>10</td></tr>
 </table>
 
 <h2>調整指数の代表例（参考値）</h2>
 <ul>
-<li>ひとり親就労：<span class="highlight">+5点</span></li>
-<li>きょうだい在園：<span class="highlight">+3点</span></li>
-<li>認可外利用：<span class="highlight">+3点</span></li>
-<li>きょうだい同時申込：<span class="highlight">+2点</span></li>
-<li>育休復帰予定：<span class="highlight">+2点</span></li>
-<li>生活保護：<span class="highlight">+3点</span></li>
+<li>ひとり親：<span class="highlight">+8点</span></li>
+<li>DV・児童虐待該当：<span class="highlight">+30点</span></li>
+<li>きょうだい在園（転園児）：<span class="highlight">+10点</span></li>
+<li>きょうだい在園（新園児）：<span class="highlight">+4点</span></li>
+<li>認可外利用：<span class="highlight">+4点</span></li>
+<li>育休復帰予定（1人）：<span class="highlight">+3点</span></li>
+<li>育休復帰予定（2人）：<span class="highlight">+6点</span></li>
+<li>生活保護：<span class="highlight">+2点</span></li>
 </ul>
 
 <div class="warn-box">
@@ -112,18 +116,20 @@ const articles: Article[] = [
     image: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=400&fit=crop",
     category: "点数アップ",
     categoryColor: "amber",
-    content: `<h2>基本指数40点は出発点</h2>
-<p>坂戸市ではフルタイム共働き世帯は基本指数<span class="highlight">40点</span>で横並びです。差がつくのは調整指数の加点です。参考値をご紹介します。</p>
+    content: `<h2>基本指数50点は出発点</h2>
+<p>坂戸市ではフルタイム共働き世帯は基本指数<span class="highlight">50点</span>で横並びです。差がつくのは調整指数の加点です。参考値をご紹介します。</p>
 
 <h2>加点チェックリスト（参考値）</h2>
 <table>
 <tr><th>項目</th><th>点数</th><th>条件</th></tr>
-<tr><td>ひとり親就労</td><td>+5点</td><td>母子・父子家庭で就労中</td></tr>
-<tr><td>きょうだい在園</td><td>+3点</td><td>希望園にきょうだいが在園中</td></tr>
-<tr><td>認可外利用</td><td>+3点</td><td>認可外保育施設に月ぎめ利用中</td></tr>
-<tr><td>生活保護</td><td>+3点</td><td>生活保護を受けている場合</td></tr>
-<tr><td>きょうだい同時申込</td><td>+2点</td><td>2人以上同時に申込</td></tr>
-<tr><td>育休復帰予定</td><td>+2点</td><td>入園月に職場復帰する場合</td></tr>
+<tr><td>ひとり親</td><td>+8点</td><td>母子・父子家庭</td></tr>
+<tr><td>DV・児童虐待該当</td><td>+30点</td><td>DV・児童虐待に該当する場合</td></tr>
+<tr><td>きょうだい在園（転園児）</td><td>+10点</td><td>希望園にきょうだいが在園中（転園児）</td></tr>
+<tr><td>きょうだい在園（新園児）</td><td>+4点</td><td>希望園にきょうだいが在園中（新園児）</td></tr>
+<tr><td>認可外利用</td><td>+4点</td><td>認可外保育施設に月ぎめ利用中</td></tr>
+<tr><td>生活保護</td><td>+2点</td><td>生活保護を受けている場合</td></tr>
+<tr><td>育休復帰予定（1人）</td><td>+3点</td><td>入園月に職場復帰する場合（1人）</td></tr>
+<tr><td>育休復帰予定（2人）</td><td>+6点</td><td>入園月に職場復帰する場合（2人）</td></tr>
 </table>
 
 <div class="point-box">
@@ -165,7 +171,7 @@ const articles: Article[] = [
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
-<p>40点制では、フルタイム共働きで40点が基本ラインです。調整指数の加点が当落を分けることがあります。</p>
+<p>50点制では、フルタイム共働きで50点が基本ラインです。調整指数の加点が当落を分けることがあります。</p>
 </div>
 
 <div class="warn-box">
@@ -189,21 +195,23 @@ const articles: Article[] = [
 
 <table>
 <tr><th>月の就労時間</th><th>基本指数</th></tr>
-<tr><td>月160時間以上</td><td>20点</td></tr>
-<tr><td>月120時間以上160時間未満</td><td>18点</td></tr>
-<tr><td>月100時間以上120時間未満</td><td>16点</td></tr>
-<tr><td>月80時間以上100時間未満</td><td>14点</td></tr>
-<tr><td>月64時間以上80時間未満</td><td>12点</td></tr>
-<tr><td>月48時間以上64時間未満</td><td>8点</td></tr>
+<tr><td>月160時間以上の就労を常態（または海外赴任）</td><td>21点</td></tr>
+<tr><td>月150時間以上の就労を常態</td><td>20点</td></tr>
+<tr><td>月140時間以上の就労を常態</td><td>19点</td></tr>
+<tr><td>月120時間以上の就労を常態</td><td>18点</td></tr>
+<tr><td>月100時間以上の就労を常態</td><td>17点</td></tr>
+<tr><td>月80時間以上の就労を常態</td><td>16点</td></tr>
+<tr><td>月64時間以上の就労を常態</td><td>14点</td></tr>
+<tr><td>月64時間未満の就労を常態とし、これから勤務を増やす予定</td><td>10点</td></tr>
 </table>
 
 <div class="warn-box">
 <p><strong>注意</strong></p>
-<p>1日6時間×週5日＝月約120時間の時短勤務の場合、基本指数は<span class="highlight">18点</span>です。フルタイムの20点と比べて2点下がります。</p>
+<p>1日6時間×週5日＝月約120時間の時短勤務の場合、基本指数は<span class="highlight">18点</span>です。フルタイムの21点と比べて3点下がります。</p>
 </div>
 
 <h2>月160時間の壁</h2>
-<p>満点の20点を得るには月160時間以上が必要です。1日8時間×月20日＝160時間がちょうど満点ラインです。</p>
+<p>就労の場合の最高点の21点（海外赴任を除いて）を得るには月160時間以上の就労を常態とすることが必要です。1日8時間×月20日＝160時間がちょうどこのラインです。</p>
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
@@ -222,7 +230,7 @@ const articles: Article[] = [
     category: "点数アップ",
     categoryColor: "amber",
     content: `<h2>ひとり親家庭の加点</h2>
-<p>坂戸市の保育園入園選考では、ひとり親世帯で就労している場合、調整指数で<span class="highlight">+5点</span>の加点が得られます。参考値です。</p>
+<p>坂戸市の保育園入園選考では、ひとり親世帯の場合、調整指数で<span class="highlight">+8点</span>の加点が得られます。参考値です。</p>
 
 <h2>必要な書類</h2>
 <ul>
@@ -233,7 +241,7 @@ const articles: Article[] = [
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
-<p>ひとり親で就労中の場合、基本指数に加えて調整指数で大きく加点されます。月160時間以上の就労で基本指数20点＋調整指数5点＝25点となります。</p>
+<p>ひとり親で就労中の場合、基本指数に加えて調整指数で大きく加点されます。月160時間以上の就労を常態とする場合、基本指数21点＋調整指数8点＝29点となります。</p>
 </div>
 
 <h2>埼玉県のひとり親支援制度</h2>
@@ -256,10 +264,10 @@ const articles: Article[] = [
     category: "点数アップ",
     categoryColor: "amber",
     content: `<h2>育休復帰者の加点</h2>
-<p>坂戸市では育児休業から入園月に復帰する予定の場合、調整指数で<span class="highlight">+2点</span>の加点が得られます。参考値です。</p>
+<p>坂戸市では育児休業から入園月に復帰する予定の場合、調整指数で<span class="highlight">+3点</span>（1人）または<span class="highlight">+6点</span>（2人）の加点が得られます。参考値です。</p>
 
 <h2>復帰予定者の就労証明書</h2>
-<p>育児休業中でも、復職後の勤務条件を就労証明書に記載することが重要です。月160時間以上の勤務予定であれば、基本指数は20点となります。</p>
+<p>育児休業中でも、復職後の勤務条件を就労証明書に記載することが重要です。月160時間以上の就労を常態とする勤務予定であれば、基本指数は21点となります。</p>
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
@@ -357,11 +365,11 @@ const articles: Article[] = [
     category: "点数アップ",
     categoryColor: "amber",
     content: `<h2>認可外保育施設の利用による加点</h2>
-<p>坂戸市では認可外保育施設に月ぎめで預けている場合、調整指数で<span class="highlight">+3点</span>の加点が得られます。参考値です。</p>
+<p>坂戸市では認可外保育施設に利用している場合、調整指数で<span class="highlight">+3点または+4点</span>の加点が得られます。参考値です。</p>
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
-<p>月ぎめの契約が条件です。40点制の坂戸市では調整指数の3点は大きなアドバンテージです。</p>
+<p>利用期間や日数によって加点が異なります。50点制の坂戸市では調整指数の4点は大きなアドバンテージです。</p>
 </div>
 
 <h2>対象となる施設</h2>
@@ -371,8 +379,8 @@ const articles: Article[] = [
 <li>企業主導型保育施設</li>
 </ul>
 
-<h2>きょうだい在園なら+3点</h2>
-<p>希望する認可保育園にきょうだいが既に在園中の場合は<span class="highlight">+3点</span>の加点があります。認可外利用（+3点）と同じ加点です。</p>
+<h2>きょうだい在園の加点</h2>
+<p>希望する認可保育園にきょうだいが既に在園中の場合、新園児の場合は<span class="highlight">+4点</span>、転園児の場合は<span class="highlight">+10点</span>の加点があります。</p>
 
 <div class="warn-box">
 <p><strong>注意</strong></p>

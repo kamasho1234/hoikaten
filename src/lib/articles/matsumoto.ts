@@ -94,10 +94,10 @@ const articles: Article[] = [
 <p>松本市では希望園を複数記入できます。1〜2園しか書かないと不承諾のリスクが高まります。通える範囲の園はできるだけ多く書きましょう。</p>
 
 <h2>失敗3：自分の点数を把握していない</h2>
-<p>松本市では「基本指数＋調整指数」の合計で選考されます。フルタイム共働きで<span class="highlight">40点</span>が基本ラインです。</p>
+<p>松本市では「基本指数＋調整指数」の合計で選考されます。フルタイム共働き（両親とも月160時間以上就労）で<span class="highlight">基本指数75点</span>が基本ラインです。</p>
 
 <h2>失敗4：加点の取りこぼし</h2>
-<p>認可外保育施設に預けると<span class="highlight">+3点</span>、育休明けで<span class="highlight">+2点</span>の加点がつきます。使える加点は漏れなくチェックしましょう。</p>
+<p>育児休業終了により復帰する場合は<span class="highlight">+8点</span>、生活保護世帯は<span class="highlight">+9点</span>、ひとり親は<span class="highlight">+12点</span>（または+6点）の加点がつきます。使える加点は漏れなくチェックしましょう。</p>
 
 <h2>失敗5：書類の不備</h2>
 <p>就労証明書の記入漏れや指定様式以外の提出は受理されない場合があります。</p>
@@ -129,16 +129,16 @@ const articles: Article[] = [
 </div>
 
 <h2>基本指数とは？</h2>
-<p>父母それぞれの「保育が必要な理由」を点数化したものです。1人あたり最大<span class="highlight">20点</span>で、父母合計の最大は<span class="highlight">40点</span>。</p>
-<p>最も多い「就労」の場合、月160時間以上で満点の20点になります。</p>
+<p>父母それぞれの「保育が必要な理由」を点数化したもので、保護者ごとに最大<span class="highlight">100点</span>です。松本市では「保護者の低い方の点数」を基本指数とするため、実際の世帯の基本指数は最大100点となります。</p>
+<p>最も多い「就労」の場合、月160時間以上で80点になります。</p>
 
 <table>
 <tr><th>就労状況</th><th>指数</th></tr>
-<tr><td>月160時間以上</td><td>20</td></tr>
-<tr><td>月120時間以上160時間未満</td><td>18</td></tr>
-<tr><td>月100時間以上120時間未満</td><td>16</td></tr>
-<tr><td>月80時間以上100時間未満</td><td>14</td></tr>
-<tr><td>月64時間以上80時間未満</td><td>12</td></tr>
+<tr><td>月180時間以上</td><td>80</td></tr>
+<tr><td>月160〜179時間</td><td>75</td></tr>
+<tr><td>月140〜159時間</td><td>70</td></tr>
+<tr><td>月120〜139時間</td><td>65</td></tr>
+<tr><td>月100〜119時間</td><td>55</td></tr>
 </table>
 
 <h2>調整指数とは？</h2>
@@ -146,19 +146,19 @@ const articles: Article[] = [
 
 <h3>主な加算項目</h3>
 <ul>
-<li>ひとり親世帯（就労中）：<span class="highlight">+5点</span></li>
-<li>きょうだいが在園中：<span class="highlight">+3点</span></li>
-<li>認可外保育施設の利用実績：<span class="highlight">+3点</span></li>
-<li>生活保護世帯：<span class="highlight">+3点</span></li>
-<li>育休明け復職予定：<span class="highlight">+2点</span></li>
-<li>きょうだい同時申込：<span class="highlight">+2点</span></li>
+<li>ひとり親世帯：<span class="highlight">+12点</span>（死亡・離別等）、<span class="highlight">+6点</span>（調停中等）</li>
+<li>きょうだいが在園中：<span class="highlight">+11点</span>（新規申込）、<span class="highlight">+7点</span>（その他）</li>
+<li>双子等の多胎児同時申込：<span class="highlight">+8点</span></li>
+<li>生活保護世帯：<span class="highlight">+9点</span></li>
+<li>育児休業終了により復帰：<span class="highlight">+8点</span></li>
+<li>第3子以降の申込：<span class="highlight">+4点</span></li>
 </ul>
 
 <h3>主な減算項目</h3>
 <ul>
-<li>市外からの申込：<span class="highlight">-10点</span></li>
-<li>認可園からの転園希望：<span class="highlight">-5点</span></li>
-<li>同居祖父母が保育可能：<span class="highlight">-3点</span></li>
+<li>同居祖父母が保育不要：<span class="highlight">-3点</span>（1人）、<span class="highlight">-6点</span>（2人）、<span class="highlight">-9点</span>（3人以上）</li>
+<li>就労証明不足：<span class="highlight">-6点</span></li>
+<li>採用予定・復職予定：<span class="highlight">-4点</span></li>
 </ul>`,
     publishedAt: "2026-04-07",
     popularity: 65,
@@ -180,12 +180,12 @@ const articles: Article[] = [
 <h3>加点チェックリスト</h3>
 
 <ul>
-<li>ひとり親で就労中 → <span class="highlight">+5点</span></li>
-<li>きょうだいが希望施設に在園中 → <span class="highlight">+3点</span></li>
-<li>認可外保育施設に月ぎめで預けている → <span class="highlight">+3点</span></li>
-<li>生活保護を受給中 → <span class="highlight">+3点</span></li>
-<li>きょうだいを同時に申込 → <span class="highlight">+2点</span></li>
-<li>育休・産休から入園月に復帰予定 → <span class="highlight">+2点</span></li>
+<li>生活保護を受給中 → <span class="highlight">+9点</span></li>
+<li>ひとり親で就労中 → <span class="highlight">+12点</span>（死亡・離別等）、<span class="highlight">+6点</span>（調停中等）</li>
+<li>きょうだいが希望施設に在園中 → <span class="highlight">+11点</span>（新規申込）、<span class="highlight">+7点</span>（転園等）</li>
+<li>きょうだいを同時に申込 → <span class="highlight">+7点</span>（2人以上の新規申込）</li>
+<li>育児休業終了により復帰 → <span class="highlight">+8点</span></li>
+<li>保護者が市内保育所等に勤務 → <span class="highlight">+20点</span></li>
 </ul>
 
 <div class="point-box">

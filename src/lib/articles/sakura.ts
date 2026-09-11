@@ -46,7 +46,7 @@ const articles: Article[] = [
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
-<p>佐倉市の基準指数は父母各最大20点（合計40点満点）です。月の就労時間で判定される制度です。</p>
+<p>佐倉市の基準指数は父母各最大10点（合計20点満点）です。月の就労時間で判定される制度です。</p>
 </div>
 
 <div class="info-box">
@@ -73,8 +73,8 @@ const articles: Article[] = [
 <p>総合点数 ＝ 基準指数（父＋母）＋ 調整指数</p>
 </div>
 
-<h2>基準指数（父母各最大20点、合計40点）</h2>
-<p>就労の場合、月160時間以上の就労で満点の<span class="highlight">20点</span>です。</p>
+<h2>基準指数（父母各最大10点、合計20点）</h2>
+<p>就労の場合、月160時間以上の就労で満点の<span class="highlight">10点</span>です。</p>
 
 <table>
 <tr><th>月の就労時間</th><th>点数</th></tr>
@@ -89,11 +89,12 @@ const articles: Article[] = [
 
 <h2>調整指数の代表例</h2>
 <ul>
-<li>ひとり親世帯：<span class="highlight">+2点</span></li>
-<li>認可外保育施設に月ぎめ利用中：<span class="highlight">+2点</span></li>
-<li>生活保護世帯：<span class="highlight">+2点</span></li>
-<li>きょうだいが在園中：<span class="highlight">+1点</span></li>
-<li>育休復帰予定：<span class="highlight">+1点</span></li>
+<li>ひとり親世帯：<span class="highlight">+4点</span></li>
+<li>生活保護世帯：<span class="highlight">+3点</span></li>
+<li>きょうだいが在園中：<span class="highlight">+3点</span></li>
+<li>きょうだいと同じ施設を希望：<span class="highlight">+2点</span></li>
+<li>育休復帰予定：<span class="highlight">+2点</span></li>
+<li>新生児の里帰り出産のため保育が必要：<span class="highlight">+2点</span></li>
 <li>多子世帯（3人以上）：<span class="highlight">+1点</span></li>
 </ul>
 
@@ -113,18 +114,18 @@ const articles: Article[] = [
     image: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=400&fit=crop",
     category: "点数アップ",
     categoryColor: "amber",
-    content: `<h2>基準点数40点は出発点</h2>
-<p>佐倉市ではフルタイム共働き世帯は基準点数<span class="highlight">40点</span>で横並びです。差がつくのは調整点数の加点です。</p>
+    content: `<h2>基準点数20点は出発点</h2>
+<p>佐倉市ではフルタイム共働き世帯は基準点数<span class="highlight">20点</span>で横並びです。差がつくのは調整点数の加点です。</p>
 
 <h2>加点チェックリスト</h2>
 <table>
 <tr><th>項目</th><th>点数</th><th>条件</th></tr>
-<tr><td>ひとり親世帯</td><td>+2点</td><td>母子・父子家庭の場合</td></tr>
-<tr><td>認可外保育施設利用</td><td>+2点</td><td>認可外に月ぎめで利用中</td></tr>
-<tr><td>生活保護</td><td>+2点</td><td>生活保護を受けている場合</td></tr>
-<tr><td>きょうだい在園</td><td>+1点</td><td>認可保育園にきょうだいが在園中</td></tr>
-<tr><td>きょうだい同時申込</td><td>+1点</td><td>きょうだいと同時に申し込む場合</td></tr>
-<tr><td>育休復帰予定</td><td>+1点</td><td>入園月に職場復帰する場合</td></tr>
+<tr><td>ひとり親世帯</td><td>+4点</td><td>母子・父子家庭の場合</td></tr>
+<tr><td>生活保護</td><td>+3点</td><td>生活保護を受けている場合</td></tr>
+<tr><td>きょうだい在園</td><td>+3点</td><td>認可保育園にきょうだいが在園中</td></tr>
+<tr><td>きょうだい同施設希望</td><td>+2点</td><td>きょうだいと同じ施設を希望する場合</td></tr>
+<tr><td>育休復帰予定</td><td>+2点</td><td>入園月に職場復帰する場合</td></tr>
+<tr><td>新生児の里帰り出産</td><td>+2点</td><td>出産のため保育が必要な場合</td></tr>
 <tr><td>多子世帯</td><td>+1点</td><td>きょうだいが3人以上</td></tr>
 </table>
 
@@ -170,7 +171,7 @@ const articles: Article[] = [
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
-<p>佐倉市の40点制では、フルタイム共働きで40点が基本ラインです。調整点数の1点が当落を分けることがあります。</p>
+<p>佐倉市の20点制では、フルタイム共働きで20点が基本ラインです。調整点数の1点が当落を分けることがあります。</p>
 </div>
 
 <div class="warn-box">
@@ -228,7 +229,7 @@ const articles: Article[] = [
     category: "点数アップ",
     categoryColor: "amber",
     content: `<h2>ひとり親世帯の加点</h2>
-<p>佐倉市の入園選考で、ひとり親世帯は調整指数で<span class="highlight">+2点</span>の加点が得られます。</p>
+<p>佐倉市の入園選考で、ひとり親世帯は調整指数で<span class="highlight">+4点</span>の加点が得られます。</p>
 
 <h3>加点の対象</h3>
 <ul>
@@ -267,7 +268,7 @@ const articles: Article[] = [
     category: "保活の基本",
     categoryColor: "green",
     content: `<h2>育休復帰予定で加点</h2>
-<p>佐倉市の入園選考では、育児休業を取得して入園月に復帰する場合、調整指数で<span class="highlight">+1点</span>の加点が得られます。</p>
+<p>佐倉市の入園選考では、育児休業を取得して入園月に復帰する場合、調整指数で<span class="highlight">+2点</span>の加点が得られます。</p>
 
 <h3>加点の条件</h3>
 <ul>

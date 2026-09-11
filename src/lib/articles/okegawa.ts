@@ -91,16 +91,16 @@ const articles: Article[] = [
 </div>
 
 <h2>基本指数とは？</h2>
-<p>父母それぞれの「保育が必要な理由」を点数化したものです。1人あたり最大<span class="highlight">20点</span>で、父母合計の最大は<span class="highlight">40点</span>。</p>
-<p>最も多い「就労」の場合、月160時間以上で満点の20点になります。</p>
+<p>父母それぞれの「保育が必要な理由」を点数化したものです。1人あたり最大<span class="highlight">13点</span>で、父母合計の最大は<span class="highlight">26点</span>。</p>
+<p>最も多い「就労」の場合、1日平均8時間以上で満点の12点になります。</p>
 
 <table>
-<tr><th>就労状況</th><th>指数</th></tr>
-<tr><td>月160時間以上</td><td>20</td></tr>
-<tr><td>月120時間以上160時間未満</td><td>18</td></tr>
-<tr><td>月100時間以上120時間未満</td><td>16</td></tr>
-<tr><td>月80時間以上100時間未満</td><td>14</td></tr>
-<tr><td>月64時間以上80時間未満</td><td>12</td></tr>
+<tr><th>1日平均勤務時間</th><th>指数</th></tr>
+<tr><td>8時間以上</td><td>12</td></tr>
+<tr><td>7時間以上</td><td>11</td></tr>
+<tr><td>6時間以上</td><td>9</td></tr>
+<tr><td>5時間以上</td><td>7</td></tr>
+<tr><td>4時間以上</td><td>5</td></tr>
 </table>
 
 <h2>調整指数とは？</h2>
@@ -108,18 +108,16 @@ const articles: Article[] = [
 
 <h3>主な加算項目</h3>
 <ul>
-<li>ひとり親世帯（就労中）：<span class="highlight">+5点</span></li>
-<li>きょうだいが在園中：<span class="highlight">+3点</span></li>
-<li>認可外保育施設の利用実績：<span class="highlight">+3点</span></li>
-<li>生活保護世帯：<span class="highlight">+3点</span></li>
-<li>育休明け復職予定：<span class="highlight">+2点</span></li>
+<li>ひとり親世帯：<span class="highlight">+25点</span></li>
+<li>きょうだい在園児と同じ施設を希望：<span class="highlight">+5点</span></li>
+<li>きょうだいが在園中：<span class="highlight">+1点</span></li>
+<li>育休明け復職予定：<span class="highlight">+4点</span></li>
+<li>生活保護世帯：<span class="highlight">+1点</span></li>
 </ul>
 
 <h3>主な減算項目</h3>
 <ul>
-<li>市外からの申込：<span class="highlight">-10点</span></li>
-<li>認可園からの転園希望：<span class="highlight">-5点</span></li>
-<li>同居祖父母が保育可能：<span class="highlight">-3点</span></li>
+<li>入所内定後に辞退した実績：<span class="highlight">-10点</span></li>
 </ul>`,
     publishedAt: "2026-04-26",
     popularity: 65,
@@ -141,22 +139,22 @@ const articles: Article[] = [
 <h3>加点チェックリスト</h3>
 
 <ul>
-<li>ひとり親で就労中 → <span class="highlight">+5点</span></li>
-<li>きょうだいが希望施設に在園中 → <span class="highlight">+3点</span></li>
-<li>認可外保育施設に月ぎめで預けている → <span class="highlight">+3点</span></li>
-<li>生活保護を受給中 → <span class="highlight">+3点</span></li>
-<li>きょうだいを同時に申込 → <span class="highlight">+2点</span></li>
-<li>育休・産休から入園月に復帰予定 → <span class="highlight">+2点</span></li>
+<li>ひとり親世帯 → <span class="highlight">+25点</span></li>
+<li>きょうだいが希望施設に在園中 → <span class="highlight">+5点</span></li>
+<li>きょうだいを5施設以上同時に申込 → <span class="highlight">+5点</span></li>
+<li>育休・産休から入園月に復帰予定 → <span class="highlight">+4点</span></li>
+<li>きょうだいが在園中（別施設） → <span class="highlight">+1点</span></li>
+<li>生活保護を受給中 → <span class="highlight">+1点</span></li>
 </ul>
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
-<p>認可外保育施設に預けながら翌年の4月入園を申し込むと、+3点の加点がつきます。0歳児クラスで認可外に預け、1歳児クラスで認可園を狙うのは桶川市でも有効な戦略です。</p>
+<p>桶川市では複数の加点制度があり、特にひとり親（+25点）や育休復帰（+4点）の加点が大きいです。複数の加点条件を満たす場合は、それぞれの加点が合算されるため、大きなアドバンテージになります。</p>
 </div>
 
 <div class="info-box">
 <p><strong>注意すべき減点項目</strong></p>
-<p>桶川市外からの申込は-10点、認可園からの転園は-5点、同居祖父母が保育可能な場合は-3点の減点があります。特に市外からの申込は大幅な減点となるため要注意です。</p>
+<p>入所内定後に辞退すると-10点の減点があります。その他、市内在住が優先されるため、転入予定の場合は事前に確認が必要です。</p>
 </div>`,
     publishedAt: "2026-04-26",
     popularity: 60,
@@ -185,7 +183,7 @@ const articles: Article[] = [
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
-<p>きょうだいが在園中の園を希望に入れると、指数+3点だけでなく同点時の優先順位でも有利になります。</p>
+<p>きょうだいが在園中の園を希望に入れると、指数+5点だけでなく同点時の優先順位でも有利になります。</p>
 </div>
 
 <h2>対策のポイント</h2>
@@ -284,12 +282,12 @@ const articles: Article[] = [
       "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=400&fit=crop",
     category: "点数アップ",
     categoryColor: "amber",
-    content: `<h2>育休復帰で+2点の加点</h2>
-<p>桶川市では<span class="highlight">入園月に職場復帰する予定がある</span>場合、調整指数で+2点の加点を受けられます。</p>
+    content: `<h2>育休復帰で+4点の加点</h2>
+<p>桶川市では<span class="highlight">入園月に職場復帰する予定がある</span>場合、調整指数で+4点の加点を受けられます。</p>
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
-<p>+2点は小さく見えるかもしれませんが、競争が激しい0歳児クラスでは1点の差が合否を分けることもあります。入園月に合わせて復帰予定であれば必ず申告しましょう。</p>
+<p>+4点は相応に大きな加点です。競争が激しい0歳児クラスでは加点が大きな差になります。入園月に合わせて復帰予定であれば必ず申告しましょう。</p>
 </div>
 
 <h2>加点に必要な書類</h2>
@@ -401,41 +399,42 @@ const articles: Article[] = [
   {
     slug: "unlicensed-nursery",
     citySlug: "okegawa",
-    title: "桶川市で認可外から認可園への転園　ステップアップガイド",
+    title: "桶川市で小規模保育卒園による加点　認可園転園戦略",
     description:
-      "認可外保育施設から桶川市の認可園へのステップアップについて、加点制度と戦略をまとめました。",
+      "小規模保育から桶川市の認可園への転園について、卒園による加点制度（+8点または+30点）と戦略をまとめました。",
     image:
       "https://images.unsplash.com/photo-1457364983758-510f8afa9f5f?w=800&h=400&fit=crop",
     category: "点数アップ",
     categoryColor: "amber",
-    content: `<h2>認可外から認可へ　+3点の加点戦略</h2>
-<p>桶川市では<span class="highlight">認可外保育施設に月ぎめで預けている場合、+3点の加点</span>を受けられます。これを活用して0歳児クラスを認可外で過ごし、翌年度に認可園へ転園するのは有効な戦略です。</p>
+    content: `<h2>小規模保育卒園で+8点または+30点の加点</h2>
+<p>桶川市では<span class="highlight">小規模保育事業を卒園して認可園へ転園する場合、+8点（希望施設4以下）または+30点（希望施設5以上）の加点</span>を受けられます。これは大きな加点のため、有効な戦略です。</p>
 
-<h2>0歳児を認可外で過ごすメリット</h2>
+<h2>小規模保育を活用するメリット</h2>
 <ul>
-<li>認可外は入園しやすい（親面接が多い）</li>
-<li>翌年度の認可園申込時に+3点の加点が受けられる</li>
-<li>月64時間以上預けていれば加点対象になる</li>
+<li>小規模保育は認可園より入園しやすい傾向</li>
+<li>0〜2歳で小規模保育を利用できる</li>
+<li>2歳児クラス卒園時に認可園への転園で加点が得られる</li>
+<li>+8点の加点で同点を避けやすくなる</li>
 </ul>
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
-<p>認可外の保育料は高めですが、1年間で認可園への加点が得られると考えると、長期的な投資としての価値があります。</p>
+<p>小規模保育の保育料は認可園より高い傾向ですが、2年間で認可園への+8点以上の加点が得られるのは大きなメリットです。長期的な保活戦略としては有効な選択肢です。</p>
 </div>
 
-<h2>加点に必要な証明</h2>
+<h2>加点に必要な条件</h2>
 <ul>
-<li>認可外保育施設の利用契約書</li>
-<li>保育料の領収書（月ぎめで預けていることの証明）</li>
-<li>保育施設からの在籍証明書</li>
+<li>2歳児クラスを卒園した実績（在籍証明書）</li>
+<li>桶川市の小規模保育事業からの卒園であること</li>
+<li>継続して認可園への入園を希望すること</li>
 </ul>
 
-<h2>タイミングの注意点</h2>
-<p>加点が有効になるには、月64時間以上の定期的な預託が必要です。単発の利用では加点対象外になる可能性があります。</p>
+<h2>希望施設数による加点の違い</h2>
+<p>希望施設の数により加点が変わります。5施設以上を希望する場合は+30点と大きな加点になるため、複数園を検討する価値があります。</p>
 
 <div class="info-box">
 <p><strong>相談</strong></p>
-<p>認可外施設選びや加点の条件について不明な点は、桶川市子ども未来部保育課に相談してみましょう。</p>
+<p>小規模保育の選択や加点条件について不明な点は、桶川市子ども未来部保育課に相談してみましょう。</p>
 </div>`,
     publishedAt: "2026-04-26",
     popularity: 35,

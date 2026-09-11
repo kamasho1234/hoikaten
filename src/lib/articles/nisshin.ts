@@ -46,7 +46,7 @@ const articles: Article[] = [
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
-<p>日進市の基本指数は父母各最大20点（合計40点満点）です。月の就労時間で判定される制度です。</p>
+<p>日進市の基本指数は父母各最大10点で、低い方が基本指数となります。月の就労時間で判定される制度です。</p>
 </div>
 
 <div class="info-box">
@@ -73,27 +73,24 @@ const articles: Article[] = [
 <p>総合点数 ＝ 基本指数（父＋母）＋ 調整指数</p>
 </div>
 
-<h2>基本指数（父母各最大20点、合計40点）</h2>
-<p>就労の場合、月160時間以上の就労で満点の<span class="highlight">20点</span>です。</p>
+<h2>基本指数（父母各最大10点、低い方が世帯の基本指数）</h2>
+<p>就労の場合、月155時間以上の就労で満点の<span class="highlight">10点</span>です。</p>
 
 <table>
 <tr><th>月の就労時間</th><th>点数</th></tr>
-<tr><td>月160時間以上</td><td>20</td></tr>
-<tr><td>月120時間以上160時間未満</td><td>18</td></tr>
-<tr><td>月100時間以上120時間未満</td><td>16</td></tr>
-<tr><td>月80時間以上100時間未満</td><td>14</td></tr>
-<tr><td>月64時間以上80時間未満</td><td>12</td></tr>
-<tr><td>月48時間以上64時間未満</td><td>8</td></tr>
+<tr><td>月155時間以上</td><td>10</td></tr>
+<tr><td>月120時間以上</td><td>9</td></tr>
+<tr><td>月90時間以上</td><td>8</td></tr>
 </table>
 
 <h2>調整指数の代表例</h2>
 <ul>
-<li>ひとり親世帯（就労中）：<span class="highlight">+5点</span></li>
-<li>認可外保育施設に月ぎめ利用中：<span class="highlight">+3点</span></li>
+<li>ひとり親世帯（単独世帯）：<span class="highlight">+3点</span></li>
+<li>ひとり親世帯（祖父母同居）：<span class="highlight">+1点</span></li>
 <li>きょうだいが在園中：<span class="highlight">+3点</span></li>
-<li>きょうだい同時申込：<span class="highlight">+2点</span></li>
+<li>きょうだい同時申込：<span class="highlight">+1点</span></li>
 <li>育休復帰予定：<span class="highlight">+2点</span></li>
-<li>生活保護世帯：<span class="highlight">+3点</span></li>
+<li>生活保護世帯：<span class="highlight">+2点</span></li>
 </ul>
 
 <div class="info-box">
@@ -186,21 +183,18 @@ const articles: Article[] = [
 
 <table>
 <tr><th>月の就労時間</th><th>基本指数</th></tr>
-<tr><td>月160時間以上</td><td>20点</td></tr>
-<tr><td>月120時間以上160時間未満</td><td>18点</td></tr>
-<tr><td>月100時間以上120時間未満</td><td>16点</td></tr>
-<tr><td>月80時間以上100時間未満</td><td>14点</td></tr>
-<tr><td>月64時間以上80時間未満</td><td>12点</td></tr>
-<tr><td>月48時間以上64時間未満</td><td>8点</td></tr>
+<tr><td>月155時間以上</td><td>10点</td></tr>
+<tr><td>月120時間以上</td><td>9点</td></tr>
+<tr><td>月90時間以上</td><td>8点</td></tr>
 </table>
 
 <div class="warn-box">
 <p><strong>注意</strong></p>
-<p>1日6時間×週5日＝月約120時間の時短勤務の場合、基本指数は<span class="highlight">18点</span>です。フルタイムの20点と比べて2点下がります。</p>
+<p>1日6時間×週5日＝月約120時間の時短勤務の場合、基本指数は<span class="highlight">9点</span>です。フルタイムの10点と比べて1点下がります。</p>
 </div>
 
-<h2>月160時間の壁</h2>
-<p>満点の20点を得るには月160時間以上が必要です。1日8時間×月20日＝160時間がちょうど満点ラインです。</p>
+<h2>月155時間で満点</h2>
+<p>1人の満点（10点）を得るには月155時間以上が必要です。1日約7.75時間×月20日＝155時間がちょうど満点ラインです。フルタイム共働き世帯は父母各10点で合計20点になります。</p>
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>

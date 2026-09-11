@@ -149,7 +149,7 @@ const articles: Article[] = [
 <li>ひとり親世帯（就労中）：<span class="highlight">+5点</span></li>
 <li>きょうだいが在園中：<span class="highlight">+3点</span></li>
 <li>認可外保育施設の利用実績：<span class="highlight">+3点</span></li>
-<li>生活保護世帯：<span class="highlight">+3点</span></li>
+<li>生活保護世帯：<span class="highlight">+2点</span></li>
 <li>育休明け復職予定：<span class="highlight">+2点</span></li>
 <li>きょうだい同時申込：<span class="highlight">+2点</span></li>
 </ul>
@@ -183,7 +183,7 @@ const articles: Article[] = [
 <li>ひとり親で就労中 → <span class="highlight">+5点</span></li>
 <li>きょうだいが希望施設に在園中 → <span class="highlight">+3点</span></li>
 <li>認可外保育施設に月ぎめで預けている → <span class="highlight">+3点</span></li>
-<li>生活保護を受給中 → <span class="highlight">+3点</span></li>
+<li>生活保護を受給中 → <span class="highlight">+2点</span></li>
 <li>きょうだいを同時に申込 → <span class="highlight">+2点</span></li>
 <li>育休・産休から入園月に復帰予定 → <span class="highlight">+2点</span></li>
 </ul>

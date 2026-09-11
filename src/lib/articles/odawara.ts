@@ -46,7 +46,7 @@ const articles: Article[] = [
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
-<p>小田原市は基本指数が父母各最大20点（合計40点満点）です。月あたりの就労時間で判定されます。</p>
+<p>小田原市はmin方式（父と母の低い方を採用）で、基本指数は最大30点です。月あたりの就労時間で判定されます。</p>
 </div>
 
 <div class="info-box">
@@ -73,8 +73,8 @@ const articles: Article[] = [
 <p>選考点数 = 基本指数（保護者1 + 保護者2）+ 調整指数</p>
 </div>
 
-<h2>基本指数（父母各最大20点、合計40点）</h2>
-<p>就労の場合、月160時間以上で満点の<span class="highlight">20点</span>になります。</p>
+<h2>基本指数（父母各最大30点、合計60点）</h2>
+<p>就労の場合、月160時間以上で満点の<span class="highlight">30点</span>になります。</p>
 
 <table>
 <tr><th>月の就労時間</th><th>点数</th></tr>
@@ -88,15 +88,17 @@ const articles: Article[] = [
 
 <h2>調整指数の代表例</h2>
 <ul>
-<li>ひとり親世帯：<span class="highlight">+5点</span></li>
-<li>きょうだいが在園中の施設を希望：<span class="highlight">+3点</span></li>
-<li>認可外保育施設に預けている：<span class="highlight">+3点</span></li>
-<li>生活保護世帯：<span class="highlight">+3点</span></li>
-<li>育休明けの復職：<span class="highlight">+2点</span></li>
-<li>きょうだい同時申込：<span class="highlight">+2点</span></li>
-<li>同居親族あり：<span class="highlight">-3点</span></li>
-<li>転園希望：<span class="highlight">-5点</span></li>
-<li>市外からの申込：<span class="highlight">-10点</span></li>
+<li>ひとり親世帯（離婚等）：<span class="highlight">+12点</span></li>
+<li>ひとり親世帯（別居）：<span class="highlight">+4点</span></li>
+<li>きょうだいが在園中の施設を希望：<span class="highlight">+5点</span></li>
+<li>認可外保育施設に預けている：<span class="highlight">+5点</span></li>
+<li>生活保護世帯：<span class="highlight">+10点</span></li>
+<li>育休明けで復職予定：<span class="highlight">+8点</span></li>
+<li>既に育児休業から復帰している：<span class="highlight">+4点</span></li>
+<li>きょうだい同時申込：<span class="highlight">+3点</span></li>
+<li>就労内定している：<span class="highlight">-2点</span></li>
+<li>保育料を6月以上滞納している：<span class="highlight">-30点</span></li>
+<li>市外からの申込：<span class="highlight">-30点</span></li>
 </ul>
 
 <div class="info-box">
@@ -115,23 +117,24 @@ const articles: Article[] = [
     image: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=400&fit=crop",
     category: "点数アップ",
     categoryColor: "amber",
-    content: `<h2>基本指数40点は出発点</h2>
-<p>小田原市ではフルタイム共働き世帯は基本指数<span class="highlight">40点</span>で横並びです。差がつくのは調整指数です。</p>
+    content: `<h2>基本指数60点は出発点</h2>
+<p>小田原市ではフルタイム共働き世帯は基本指数<span class="highlight">60点</span>で横並びです。差がつくのは調整指数です。</p>
 
 <h2>加点チェックリスト</h2>
 <table>
 <tr><th>項目</th><th>点数</th><th>条件</th></tr>
-<tr><td>ひとり親</td><td>+5</td><td>ひとり親世帯であること</td></tr>
-<tr><td>きょうだい在園</td><td>+3</td><td>きょうだいが在園中の施設を希望</td></tr>
-<tr><td>認可外利用</td><td>+3</td><td>認可外保育施設に月ぎめで預けている</td></tr>
-<tr><td>生活保護</td><td>+3</td><td>生活保護受給世帯</td></tr>
-<tr><td>育休復帰</td><td>+2</td><td>育休明けで復職予定</td></tr>
-<tr><td>同時申込</td><td>+2</td><td>きょうだいと同時に申し込む</td></tr>
+<tr><td>ひとり親（離婚等）</td><td>+12</td><td>ひとり親世帯であること</td></tr>
+<tr><td>ひとり親（別居）</td><td>+4</td><td>別居中のひとり親世帯</td></tr>
+<tr><td>きょうだい在園</td><td>+5</td><td>きょうだいが在園中の施設を希望</td></tr>
+<tr><td>認可外利用</td><td>+5</td><td>認可外保育施設に月ぎめで預けている</td></tr>
+<tr><td>生活保護</td><td>+10</td><td>生活保護受給世帯</td></tr>
+<tr><td>育休復帰</td><td>+8</td><td>育休明けで復職予定</td></tr>
+<tr><td>同時申込</td><td>+3</td><td>きょうだいと同時に申し込む</td></tr>
 </table>
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
-<p>小田原市はひとり親加点が+5点と大きいのが特徴です。認可外利用+3点、きょうだい在園+3点も重要な加点要素です。市外からの申込は-10点の大幅減点になるので注意しましょう。</p>
+<p>小田原市はひとり親加点が最大+12点と大きいのが特徴です。認可外利用+5点、きょうだい在園+5点も重要な加点要素です。市外からの申込は-30点の大幅減点になるので注意しましょう。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 60,
@@ -209,12 +212,12 @@ const articles: Article[] = [
 <ul>
 <li>二次募集に申し込む</li>
 <li>5月以降の途中入園を申し込む</li>
-<li>認可外保育施設を利用しながら翌年度に再申込する（認可外加点+3点が得られる）</li>
+<li>認可外保育施設を利用しながら翌年度に再申込する（認可外加点+5点が得られる）</li>
 <li>小規模保育事業を検討する</li>
 </ul>
 
 <h2>認可外利用で翌年度の加点を狙う</h2>
-<p>小田原市では認可外保育施設に預けていると調整指数が+3点加算されます。不承諾の場合は認可外を利用しながら翌年度に再挑戦するのも有効な戦略です。</p>
+<p>小田原市では認可外保育施設に預けていると調整指数が+5点加算されます。不承諾の場合は認可外を利用しながら翌年度に再挑戦するのも有効な戦略です。</p>
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
@@ -233,7 +236,7 @@ const articles: Article[] = [
     category: "点数アップ",
     categoryColor: "amber",
     content: `<h2>認可外保育施設の加点とは</h2>
-<p>小田原市では認可外保育施設に預けている場合、調整指数が<span class="highlight">+3点</span>加算されます。フルタイム共働き同士の差がつきにくい中で、この3点は大きな差になります。</p>
+<p>小田原市では認可外保育施設に預けている場合、調整指数が<span class="highlight">+5点</span>加算されます。フルタイム共働き同士の差がつきにくい中で、この5点は大きな差になります。</p>
 
 <h2>対象となる条件</h2>
 <ul>
@@ -334,7 +337,7 @@ const articles: Article[] = [
 <tr><td>国府津・下曽我</td><td>40〜42点</td></tr>
 </table>
 
-<p>人気園ではフルタイム共働き（40点）だけでは足りない場合があります。認可外利用の+3点やきょうだい在園の+3点が決め手になることがあります。</p>
+<p>人気園ではフルタイム共働き（60点）だけでは足りない場合があります。認可外利用の+5点やきょうだい在園の+5点が決め手になることがあります。</p>
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>

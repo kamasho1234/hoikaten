@@ -79,7 +79,7 @@ const articles: Article[] = [
 <h2>調整指数とは？</h2>
 <p>加算<span class="highlight">12項目</span>、減算<span class="highlight">2項目</span>とシンプルです。</p>
 <ul>
-<li>ひとり親世帯：不存在<span class="highlight">+50点</span>＋調整<span class="highlight">+10点</span></li>
+<li>ひとり親世帯：<span class="highlight">+60点</span></li>
 <li>生活保護世帯：<span class="highlight">+10点</span></li>
 <li>きょうだい在園（同一園希望）：<span class="highlight">+6点</span></li>
 <li>認可外利用：<span class="highlight">+1点</span></li>

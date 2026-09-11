@@ -46,7 +46,7 @@ const articles: Article[] = [
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
-<p>厚木市は基本指数が父母各最大20点（合計40点満点）です。フルタイム共働きで40点が基本ラインになります。</p>
+<p>厚木市は基本指数が父母のうち低い方で最大10点です。フルタイム共働きでも基本指数は10点で、差がつくのは調整指数になります。</p>
 </div>
 
 <div class="info-box">
@@ -73,8 +73,8 @@ const articles: Article[] = [
 <p>選考点数 = 基本指数（保護者1 + 保護者2）+ 調整指数</p>
 </div>
 
-<h2>基本指数（父母各最大20点、合計40点）</h2>
-<p>就労の場合、月160時間以上で満点の<span class="highlight">20点</span>になります。</p>
+<h2>基本指数（父母のうち低い方で最大10点）</h2>
+<p>就労の場合、月160時間以上で満点の<span class="highlight">10点</span>になります。</p>
 
 <table>
 <tr><th>月の就労時間</th><th>点数</th></tr>
@@ -88,12 +88,10 @@ const articles: Article[] = [
 
 <h2>調整指数の代表例</h2>
 <ul>
-<li>ひとり親世帯：<span class="highlight">+5点</span></li>
-<li>きょうだい在園：<span class="highlight">+3点</span></li>
-<li>認可外保育施設に預けている：<span class="highlight">+3点</span></li>
-<li>生活保護世帯：<span class="highlight">+3点</span></li>
-<li>きょうだい同時申込：<span class="highlight">+2点</span></li>
-<li>育休復帰：<span class="highlight">+2点</span></li>
+<li>子どもに対する保育の必要性：<span class="highlight">+3点</span></li>
+<li>ひとり親世帯：<span class="highlight">+3点</span></li>
+<li>きょうだい在園：<span class="highlight">+2点</span></li>
+<li>認可外保育施設に預けている：<span class="highlight">+1点</span></li>
 <li>同居親族あり：<span class="highlight">-3点</span></li>
 <li>転園希望：<span class="highlight">-5点</span></li>
 <li>市外からの申込：<span class="highlight">-10点</span></li>
@@ -115,23 +113,21 @@ const articles: Article[] = [
     image: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=400&fit=crop",
     category: "点数アップ",
     categoryColor: "amber",
-    content: `<h2>基本指数40点は出発点</h2>
-<p>厚木市ではフルタイム共働き世帯は基本指数<span class="highlight">40点</span>で横並びです。差がつくのは調整指数です。</p>
+    content: `<h2>基本指数は10点が上限</h2>
+<p>厚木市では父母のうち低い方で基本指数が決まり、最大<span class="highlight">10点</span>です。フルタイム共働き世帯でも基本指数は10点で横並びになるため、差がつくのは調整指数です。</p>
 
 <h2>加点チェックリスト</h2>
 <table>
 <tr><th>項目</th><th>点数</th><th>条件</th></tr>
-<tr><td>ひとり親</td><td>+5</td><td>ひとり親世帯であること</td></tr>
-<tr><td>きょうだい在園</td><td>+3</td><td>きょうだいが認可保育園に在園中</td></tr>
-<tr><td>認可外利用</td><td>+3</td><td>認可外保育施設に月ぎめで預けている</td></tr>
-<tr><td>生活保護</td><td>+3</td><td>生活保護受給世帯</td></tr>
-<tr><td>きょうだい同時申込</td><td>+2</td><td>きょうだいと同時に申し込む</td></tr>
-<tr><td>育休復帰</td><td>+2</td><td>育休からの復帰予定</td></tr>
+<tr><td>子どもに対する保育の必要性</td><td>+3</td><td>関係機関で保育の必要性が確認されていること</td></tr>
+<tr><td>ひとり親</td><td>+3</td><td>ひとり親世帯であること</td></tr>
+<tr><td>きょうだい在園</td><td>+2</td><td>きょうだいが認可保育園に在園中</td></tr>
+<tr><td>認可外利用</td><td>+1</td><td>認可外保育施設に月ぎめで預けている</td></tr>
 </table>
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
-<p>厚木市はひとり親の加点が+5点と大きいのが特徴です。認可外利用+3点やきょうだい在園+3点も組み合わせると有利になります。一方で転園希望は-5点、市外申込は-10点と減点も大きいので注意しましょう。</p>
+<p>厚木市はひとり親の加点が+3点と大きいのが特徴です。認可外利用+1点やきょうだい在園+2点も組み合わせると有利になります。一方で転園希望は-5点、市外申込は-10点と減点も大きいので注意しましょう。</p>
 </div>`,
     publishedAt: "2026-04-07",
     popularity: 60,
@@ -209,13 +205,13 @@ const articles: Article[] = [
 <ul>
 <li>二次募集に申し込む</li>
 <li>5月以降の途中入園を申し込む</li>
-<li>認可外保育施設を利用しながら翌年度に再申込する（認可外利用で+3点の加点あり）</li>
+<li>認可外保育施設を利用しながら翌年度に再申込する（認可外利用で+1点の加点あり）</li>
 <li>小規模保育事業所を検討する</li>
 <li>企業主導型保育事業の施設を検討する</li>
 </ul>
 
 <h2>認可外利用で翌年度の加点を狙う</h2>
-<p>厚木市では認可外保育施設に月ぎめで預けていると調整指数が+3点加算されます。不承諾になった場合、認可外に預けながら翌年度に再申込するのは有効な戦略です。</p>
+<p>厚木市では認可外保育施設に月ぎめで預けていると調整指数が+1点加算されます。不承諾になった場合、認可外に預けながら翌年度に再申込するのは有効な戦略です。</p>
 
 <div class="info-box">
 <p><strong>公式情報</strong></p>
@@ -234,7 +230,7 @@ const articles: Article[] = [
     category: "点数アップ",
     categoryColor: "amber",
     content: `<h2>認可外保育施設の加点とは</h2>
-<p>厚木市では認可外保育施設に預けている場合、調整指数が<span class="highlight">+3点</span>加算されます。</p>
+<p>厚木市では認可外保育施設に預けている場合、調整指数が<span class="highlight">+1点</span>加算されます。</p>
 
 <h2>対象となる条件</h2>
 <ul>
@@ -248,7 +244,7 @@ const articles: Article[] = [
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
-<p>認可外利用の+3点は、フルタイム共働き同士の差が2点刻みの中で大きな差になります。不承諾になった場合の翌年度戦略としても有効です。</p>
+<p>認可外利用の+1点は、調整指数の中では小さな加点ですが、翌年度の再申込時に確実に加点を得られるメリットがあります。不承諾になった場合の翌年度戦略としても有効です。</p>
 </div>
 
 <div class="info-box">
@@ -331,7 +327,7 @@ const articles: Article[] = [
     category: "選考のしくみ",
     categoryColor: "blue",
     content: `<h2>内定に必要な点数の目安</h2>
-<p>厚木市の認可保育園は基本指数40点満点＋調整指数で選考されます。フルタイム共働き世帯（40点）が多い中、調整指数で差がつきます。</p>
+<p>厚木市の認可保育園は基本指数（父母のうち低い方で最大10点）＋調整指数で選考されます。フルタイム共働き世帯でも基本指数は10点で同じため、調整指数で差がつきます。</p>
 
 <h3>人気エリアの目安（1歳児クラス）</h3>
 <table>
@@ -341,7 +337,7 @@ const articles: Article[] = [
 <tr><td>北部・西部エリア</td><td>40〜42点</td></tr>
 </table>
 
-<p>人気園ではフルタイム共働き（40点）だけでは足りず、ひとり親+5点や認可外利用+3点などの加点が重要です。</p>
+<p>人気園ではフルタイム共働き（基本指数10点）だけでは足りず、ひとり親+3点や認可外利用+1点などの加点が重要です。</p>
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>

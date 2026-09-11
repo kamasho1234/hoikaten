@@ -98,7 +98,7 @@ const articles: Article[] = [
 
 <p>代表的なものは以下の通りです。</p>
 <ul>
-<li>ひとり親世帯：<span class="highlight">+8点</span>（＋不存在40点）</li>
+<li>ひとり親世帯：<span class="highlight">+48点</span></li>
 <li>未就学児3人以上：<span class="highlight">+5点</span></li>
 <li>障害のあるお子さん：<span class="highlight">+12点</span></li>
 <li>多胎児：<span class="highlight">+3点</span></li>

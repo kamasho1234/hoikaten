@@ -46,7 +46,7 @@ const articles: Article[] = [
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
-<p>我孫子市の基準点数は父母各最大20点（合計40点満点）です。月の就労時間で判定される制度です。</p>
+<p>我孫子市の基準点数は父母各最大10点（合計20点満点）です。月の就労時間で判定される制度です。</p>
 </div>
 
 <div class="info-box">
@@ -89,11 +89,11 @@ const articles: Article[] = [
 
 <h2>調整点数の代表例</h2>
 <ul>
-<li>ひとり親世帯：<span class="highlight">+2点</span></li>
+<li>ひとり親世帯：<span class="highlight">+3点</span></li>
 <li>認可外保育施設に月ぎめ利用中：<span class="highlight">+2点</span></li>
 <li>生活保護世帯：<span class="highlight">+2点</span></li>
 <li>きょうだいが在園中：<span class="highlight">+1点</span></li>
-<li>育休復帰予定：<span class="highlight">+1点</span></li>
+<li>育休復帰予定：<span class="highlight">+2点</span></li>
 <li>多子世帯（3人以上）：<span class="highlight">+1点</span></li>
 </ul>
 
@@ -228,7 +228,7 @@ const articles: Article[] = [
     category: "点数アップ",
     categoryColor: "amber",
     content: `<h2>ひとり親世帯の加点</h2>
-<p>我孫子市の入園選考で、ひとり親世帯は調整点数で<span class="highlight">+2点</span>の加点が得られます。</p>
+<p>我孫子市の入園選考で、ひとり親世帯は調整点数で<span class="highlight">+3点</span>の加点が得られます。</p>
 
 <h3>加点の対象</h3>
 <ul>

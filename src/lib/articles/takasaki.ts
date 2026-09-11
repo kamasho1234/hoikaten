@@ -280,7 +280,7 @@ const articles: Article[] = [
 
 <div class="point-box">
 <p><strong>ポイント</strong></p>
-<p>フルタイム（10点）と6時間時短（8点）では<span class="highlight">2点差</span>。父母合計で考えると最大<span class="highlight">4点差</span>になりえます。時短を検討する際は点数への影響を確認しましょう。</p>
+<p>フルタイム（10点）と6時間時短（8点）では<span class="highlight">2点差</span>。父母合計で考えると最大<span class="highlight">10点差</span>になりえます。時短を検討する際は点数への影響を確認しましょう。</p>
 </div>
 
 <div class="info-box">
@@ -429,7 +429,7 @@ const articles: Article[] = [
 
 <div class="warn-box">
 <p><strong>注意</strong></p>
-<p>「自営中心者」と「自営協力者」で最大1点の差があります。自営中心者は事業の中心的役割を担う方、協力者は補助的に携わる方です。</p>
+<p>「自営中心者」と「自営協力者」で1人あたり最大1点の差があり、父母両方がそれぞれのカテゴリなら最大2点の差になります。自営中心者は事業の中心的役割を担う方、協力者は補助的に携わる方です。</p>
 </div>
 
 <h2>親族経営の勤務先は-1点</h2>

@@ -97,7 +97,7 @@ const articles: Article[] = [
 <p>那須塩原市では「基本指数＋調整指数」の合計で選考されます。フルタイム共働きで<span class="highlight">40点</span>が基本ラインです。</p>
 
 <h2>失敗4：加点の取りこぼし</h2>
-<p>認可外保育施設に預けると<span class="highlight">+3点</span>、育休明けで<span class="highlight">+2点</span>の加点がつきます。使える加点は漏れなくチェックしましょう。</p>
+<p>育休明けで<span class="highlight">+2点</span>の加点がつきます。使える加点は漏れなくチェックしましょう。</p>
 
 <h2>失敗5：書類の不備</h2>
 <p>就労証明書の記入漏れや指定様式以外の提出は受理されない場合があります。</p>
@@ -179,22 +179,22 @@ const articles: Article[] = [
 <div class="point-box">
 <p><strong>ポイント</strong></p>
 <p>選考指数 ＝ 基本指数（父）＋ 基本指数（母）＋ 調整指数</p>
-<p>父母の基本指数は各最大20点、合計最大40点です。</p>
+<p>父母の基本指数は各最大10点、合計最大20点です。</p>
 </div>
 
 <h2>基本指数の主な項目（父・母それぞれ）</h2>
 <table>
 <tr><th>保育が必要な理由</th><th>最高点</th></tr>
-<tr><td>就労（月160時間以上）</td><td>20点</td></tr>
-<tr><td>出産予定・出産直後</td><td>20点</td></tr>
-<tr><td>疾病・障害</td><td>17〜20点</td></tr>
-<tr><td>介護・看護</td><td>18〜20点</td></tr>
-<tr><td>就学</td><td>18〜20点</td></tr>
-<tr><td>求職活動中</td><td>10点</td></tr>
+<tr><td>就労（月150時間以上）</td><td>10点</td></tr>
+<tr><td>出産予定・出産直後</td><td>10点</td></tr>
+<tr><td>疾病・障害</td><td>8〜10点</td></tr>
+<tr><td>介護・看護</td><td>8〜10点</td></tr>
+<tr><td>就学</td><td>8〜10点</td></tr>
+<tr><td>求職活動中</td><td>1点</td></tr>
 </table>
 
 <h2>フルタイム共働きの場合</h2>
-<p>父・母ともに月160時間以上の就労で、各20点ずつ、基本指数の合計は<span class="highlight">40点</span>になります。これが最高得点です。</p>`,
+<p>父・母ともに月150時間以上の就労で、各10点ずつ、基本指数の合計は<span class="highlight">20点</span>になります。これが最高得点です。</p>`,
     publishedAt: "2026-04-29",
     popularity: 51,
   },
@@ -217,12 +217,12 @@ const articles: Article[] = [
 
 <h3>主な加算項目</h3>
 <ul>
-<li>ひとり親世帯：<span class="highlight">+5点</span></li>
+<li>ひとり親世帯：<span class="highlight">+6点</span></li>
 <li>きょうだいが在園中：<span class="highlight">+3点</span></li>
-<li>認可外保育利用実績：<span class="highlight">+3点</span></li>
-<li>生活保護受給：<span class="highlight">+3点</span></li>
+<li>生活保護受給：<span class="highlight">+1点</span></li>
 <li>育休明け復職予定：<span class="highlight">+2点</span></li>
 <li>きょうだい同時申込：<span class="highlight">+2点</span></li>
+<li>保育士等就労：<span class="highlight">+3点</span></li>
 </ul>
 
 <h3>主な減算項目</h3>
