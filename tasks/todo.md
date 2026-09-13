@@ -1,3 +1,31 @@
+## 2026-09-13 ポップアップ広告（ベビープラネット）を全ページに追加
+
+- `src/components/popup-ad.tsx` … サイトに来て 20秒・1分30秒・3分後 の3回、
+  `public/ads/babyplanet-1〜5.webp` からランダムに1枚を出す。
+  A8.net リンク `a8mat=4B1ILN+8L01AA+503M+5YZ77`。閉じる／背景／Esc で閉じる
+- 起点は**サイトに着いた時刻**（sessionStorage）。ページを移っても数え直さない。
+  タブを閉じると次の訪問でまた3回出る
+- 本番で 20秒後に出ることを確認済み（fed0e04）
+
+## 2026-09-13 【未着手】空き状況の日次更新が 9/1 から連続で失敗している
+
+`gh run list` で全 failure。9/8 までは opencv の yanked、9/8 以降は `vacancy:verify` が
+8自治体で落ち、**コミット手順が止まって50以上の自治体の新データが公開されていない**。
+ローカルで全件再現済み。プラン: `~/.claude/plans/dreamy-nibbling-starfish.md`
+
+| slug | 原因 | 直し方 |
+|---|---|---|
+| fuchu | CI に pypdf が無い（requirements.txt に未記載）→ 全欄空 | requirements に `pypdf==6.12.2`。無いときは抽出で fail |
+| sagamihara | 差し替え（9/10）。「3※①」「※②」の脚注つき欄を null にしている | `N※①`→N、`※②` だけは 0。脚注を notes に。検算値 581→585 |
+| gifu / takamatsu / numazu / yonago / uwajima | 基準日を変えずに差し替え（1〜8欄変化） | PDF を読んで検算値を更新 |
+| katsuragi | 凡例にない「確認中」 | 日置市と同じく凡例に足す（open:false） |
+
+根本: 検証で1自治体が落ちると全体がコミットされない。
+→ verify が失敗 slug を出し、その JSON だけ `git checkout` で戻して残りをコミットする形にする。
+
+別件: 設定ファイル方式の15自治体が取り込みで落ちている（多くは取り込み元PDFが404）:
+aira arakawa asaka date-fukushima higashiyamato kai kuwana matsudo moka shiwa takahata tomiya tsurugashima uto yamaga
+
 ## 2026-09-11 自治体コラム約450本の点数を公式データに合わせた（164自治体）
 
 ### 何が起きていたか
