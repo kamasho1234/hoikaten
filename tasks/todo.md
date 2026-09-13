@@ -1,7 +1,7 @@
 ## 2026-09-13 ポップアップ広告（ベビープラネット）を全ページに追加
 
 - `src/components/popup-ad.tsx` … サイトに来て 20秒・1分30秒・3分後 の3回、
-  `public/ads/babyplanet-1〜5.webp` からランダムに1枚を出す。
+  `public/img/bp-consult-1〜5.webp` からランダムに1枚を出す（/ads/ に置くと広告ブロッカーが止めるので改名した）。
   A8.net リンク `a8mat=4B1ILN+8L01AA+503M+5YZ77`。閉じる／背景／Esc で閉じる
 - 起点は**サイトに着いた時刻**（sessionStorage）。ページを移っても数え直さない。
   タブを閉じると次の訪問でまた3回出る
