@@ -12,7 +12,11 @@ import { useCallback, useEffect, useState } from "react";
 // （読めない環境ではページ単位で動く）。
 //
 // ## 何を出すか
-// 5枚の画像（public/ads/babyplanet-*.webp、800×800）から毎回ランダムに1枚。
+// 5枚の画像（public/img/bp-consult-*.webp、800×800）から毎回ランダムに1枚。
+// **置き場所と名前に ads / banner / popup を入れない。**広告ブロッカーの一般的な
+// フィルタ（EasyList）は URL に「/ads/」を含む画像を止めるので、最初 /ads/ に
+// 置いたら画像が出ずに alt 文字だけの白い枠になった。
+// 読み込みに失敗したときは枠を出さずに閉じる（その回は表示済みとして数える）。
 // 押すと A8.net の広告リンクへ飛ぶ。閉じるボタンと背景クリック、Esc で閉じる。
 //
 // ## 広告であることを必ず出す
@@ -30,7 +34,7 @@ const POPUP_PIXEL = "https://www12.a8.net/0.gif?a8mat=4B1ILN+8L01AA+503M+5YZ77";
 /** サイトに来てから何秒後に出すか */
 const SHOW_AFTER_SECONDS = [20, 90, 180];
 
-const IMAGES = [1, 2, 3, 4, 5].map((n) => `/ads/babyplanet-${n}.webp`);
+const IMAGES = [1, 2, 3, 4, 5].map((n) => `/img/bp-consult-${n}.webp`);
 
 const STORAGE_START = "hoikaten.popupAd.start";
 const STORAGE_SHOWN = "hoikaten.popupAd.shown";
@@ -146,6 +150,7 @@ export function PopupAd() {
             width={800}
             height={800}
             className="block h-auto w-full rounded-xl"
+            onError={close}
           />
         </a>
         {/* インプレッション計測用（表示されない） */}
