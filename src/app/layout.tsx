@@ -7,6 +7,7 @@ import "@/lib/articles/register-all";
 
 import { getAllMunicipalities } from "@/lib/data";
 import { HeaderNav } from "@/components/header-nav";
+import { PopupAd } from "@/components/popup-ad";
 
 const notoSansJP = Noto_Sans_JP({
   variable: "--font-sans",
@@ -138,6 +139,8 @@ export default function RootLayout({
           </div>
         </header>
         <main className="flex-1">{children}</main>
+        {/* サイトに来て20秒・1分30秒・3分後に出す広告。全ページ共通 */}
+        <PopupAd />
         <footer className="border-t border-primary/10 bg-secondary/50 py-8">
           <div className="mx-auto max-w-3xl px-4 text-center space-y-3">
             <p className="font-bold logo-text text-base" style={{ fontFamily: "var(--font-heading)" }}>
