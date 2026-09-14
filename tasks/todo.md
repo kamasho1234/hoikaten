@@ -1,3 +1,13 @@
+## 2026-09-14 サブドメインでサイト共通ページが404だった（oita.hoikaten.com/insurance/… など）
+
+- 原因: `src/proxy.ts` がサブドメインの全パスを `/[city]/…` にリライトするが、自治体ごとのページがあるのは
+  トップ・/articles・/vacancy だけ。自治体ページには `/insurance`・`/insurance/<slug>`・`/documents`・`/prefecture/<県>` への
+  絶対パスのリンクがあるので、**全サブドメイン（約550）× 4種類** が 404 になっていた
+- 直し: 共通ページは `hoikaten.com` へ 301（82d0774）。共通記事 `/articles/<slug>` は自治体記事ページから正規ドメインの
+  絶対URLへ 308（8b9c324。相対パスだとサブドメイン内で再リライトされて無限ループした）
+- 本番確認: oita サブドメインの /insurance/oita-kosodate-okane → 301 → 200、/documents・/prefecture/oita・/select も 301
+- Search Console に残る 404 は、301 になったので再クロールで消える見込み
+
 ## 2026-09-14 奈良市のコラムを 10本 → 51本 にした（仙台など政令市と同じ本数）
 
 - `src/lib/articles/nara.ts` に41本追加（仙台の拡張40本と同じ slug。奈良に無い夜間保育→ `enchou-hoiku`、
