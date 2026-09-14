@@ -1,19 +1,19 @@
 {
   "municipalitySlug": "ebina",
   "municipalityName": "海老名市",
-  "asOf": "2026-09-02",
-  "fetchedAt": "2026-09-04",
+  "asOf": "2026-09-07",
+  "fetchedAt": "2026-09-14",
   "sourceName": "海老名市「保育所途中入所における受入予定数」",
   "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/kosodate/hoikuen/1014723.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.ebina.kanagawa.jp/_res/projects/default_project/_page_/001/014/723/20260901.pdf"
+    "vacancy": "https://www.city.ebina.kanagawa.jp/_res/projects/default_project/_page_/001/014/723/2026.9.7.pdf"
   },
   "metrics": [
     "vacancy"
   ],
   "subtitle": "2026年10月入所ぶんの受入予定数",
   "notes": [
-    "海老名市は2026年10月入所ぶんの受入予定数を公表しています。これは2026-09-02時点のものです。",
+    "海老名市は2026年10月入所ぶんの受入予定数を公表しています。これは2026-09-07時点のものです。",
     "掲載内容は、現時点での予定数となります。",
     "在園児童の状況や保育士の配置等により、最終的な受入人数は変動いたします。",
     "保育所入所申込の際の参考としてご活用ください。",
@@ -53,7 +53,7 @@
     {"id":"公私連携型保育所キンダーガーデンぷらす","name":"公私連携型保育所キンダーガーデンぷらす","w":null,"c":null,"vacancy":[0,0,0,4,8,10]},
     {"id":"つげのきほいくえん","name":"つげのきほいくえん","w":null,"c":null,"vacancy":[0,0,0,2,1,2]},
     {"id":"さきがけほいくえん","name":"さきがけほいくえん","w":null,"c":null,"vacancy":[0,0,1,0,0,6]},
-    {"id":"メリー・ポピンズ海老名ルーム","name":"メリー・ポピンズ海老名ルーム","w":null,"c":null,"vacancy":[0,0,0,0,0,0]},
+    {"id":"メリー・ポピンズ海老名ルーム","name":"メリー・ポピンズ海老名ルーム","w":null,"c":null,"vacancy":[0,0,1,0,1,0]},
     {"id":"フローラル保育園えびな","name":"フローラル保育園えびな","w":null,"c":null,"vacancy":[0,0,0,1,0,0]},
     {"id":"ニチイキッズ海老名保育園","name":"ニチイキッズ海老名保育園","w":null,"c":null,"vacancy":[0,0,0,1,2,11]},
     {"id":"フローラル保育園アネックス","name":"フローラル保育園アネックス","w":null,"c":null,"vacancy":[0,1,0,0,3,0]},

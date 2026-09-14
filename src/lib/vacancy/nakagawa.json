@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "nakagawa",
   "municipalityName": "那珂川市",
-  "asOf": "2026-08-19",
-  "fetchedAt": "2026-09-06",
+  "asOf": "2026-09-07",
+  "fetchedAt": "2026-09-14",
   "sourceName": "那珂川市「認可保育施設等審査状況一覧」",
   "sourceUrl": "https://www.city.nakagawa.lg.jp/site/nobinobi/8nenndoshinnsazyoukyou.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.nakagawa.lg.jp/uploaded/attachment/33450.pdf"
+    "vacancy": "https://www.city.nakagawa.lg.jp/uploaded/attachment/33696.pdf"
   },
   "metrics": [
     "symbol"
@@ -68,7 +68,7 @@
         null
       ],
       "symbols": [
-        "○",
+        "×",
         "×",
         "×",
         "×",
@@ -134,7 +134,7 @@
         null
       ],
       "symbols": [
-        "○",
+        "×",
         "○",
         "○",
         "×",

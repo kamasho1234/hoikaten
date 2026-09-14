@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "setouchi",
   "municipalityName": "瀬戸内市",
-  "asOf": "2026-08-01",
-  "fetchedAt": "2026-09-06",
+  "asOf": "2026-09-10",
+  "fetchedAt": "2026-09-14",
   "sourceName": "瀬戸内市「保育園等受入見込み（随時申し込み）」",
   "sourceUrl": "https://www.city.setouchi.lg.jp/soshiki/95/154379.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.setouchi.lg.jp/uploaded/attachment/128075.pdf"
+    "vacancy": "https://www.city.setouchi.lg.jp/uploaded/attachment/128398.pdf"
   },
   "metrics": [
     "symbol"
@@ -80,7 +80,7 @@
         null
       ],
       "symbols": [
-        "×",
+        "△",
         "×",
         "×",
         "×",
@@ -111,8 +111,8 @@
       ]
     },
     {
-      "id": "⾧船ちとせこども園",
-      "name": "⾧船ちとせこども園",
+      "id": "長船ちとせこども園",
+      "name": "長船ちとせこども園",
       "w": null,
       "c": 0,
       "vacancy": [
@@ -193,7 +193,7 @@
         "×",
         "×",
         "×",
-        "×",
+        "△",
         "×",
         "×"
       ]
@@ -221,8 +221,8 @@
       ]
     },
     {
-      "id": "⾧船西保育園",
-      "name": "⾧船西保育園",
+      "id": "長船西保育園",
+      "name": "長船西保育園",
       "w": null,
       "c": 1,
       "vacancy": [
@@ -243,8 +243,8 @@
       ]
     },
     {
-      "id": "⾧船東保育園",
-      "name": "⾧船東保育園",
+      "id": "長船東保育園",
+      "name": "長船東保育園",
       "w": null,
       "c": 1,
       "vacancy": [
@@ -280,9 +280,9 @@
       "symbols": [
         "×",
         "×",
-        "○",
         "△",
-        "○",
+        "△",
+        "△",
         "△"
       ]
     },

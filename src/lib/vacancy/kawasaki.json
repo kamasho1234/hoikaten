@@ -2,13 +2,13 @@
   "municipalitySlug": "kawasaki",
   "municipalityName": "川崎市",
   "asOf": "2026-08-25",
-  "fetchedAt": "2026-09-04",
+  "fetchedAt": "2026-09-14",
   "sourceName": "川崎市「認可保育所等の受入可能数及び利用調整結果」",
   "sourceUrl": "https://www.city.kawasaki.jp/450/page/0000030624.html",
   "sourceFiles": {
     "川崎区": "https://www.city.kawasaki.jp/450/cmsfiles/contents/0000030/30624/R8_10kawasaki01.pdf",
     "幸区": "https://www.city.kawasaki.jp/450/cmsfiles/contents/0000030/30624/R8_10saiwai01.pdf",
-    "中原区": "https://www.city.kawasaki.jp/450/cmsfiles/contents/0000030/30624/R8_10nakahara03.pdf",
+    "中原区": "https://www.city.kawasaki.jp/450/cmsfiles/contents/0000030/30624/R8_10nakahara04.pdf",
     "高津区": "https://www.city.kawasaki.jp/450/cmsfiles/contents/0000030/30624/R8_10takatsu01.pdf",
     "宮前区": "https://www.city.kawasaki.jp/450/cmsfiles/contents/0000030/30624/R8_10miyamae01.pdf",
     "多摩区": "https://www.city.kawasaki.jp/450/cmsfiles/contents/0000030/30624/R8_10tama01.pdf",
@@ -20,7 +20,7 @@
   "subtitle": "2026年10月入所ぶんの受入可能数（予定）",
   "notes": [
     "川崎市が公開しているのは「2026年10月に入所できる枠の予定数」です。現時点の空き数ではありません。",
-    "基準日は区ごとに異なります（川崎区8月25日、幸区8月25日、中原区9月2日、高津区8月25日、宮前区8月25日、多摩区8月25日、麻生区8月28日時点）。このページでは最も古い2026-08-25を全体の時点として表示しています。",
+    "基準日は区ごとに異なります（川崎区8月25日、幸区8月25日、中原区9月8日、高津区8月25日、宮前区8月25日、多摩区8月25日、麻生区8月28日時点）。このページでは最も古い2026-08-25を全体の時点として表示しています。",
     "川崎市はこの数値をPDFで公開しています。当サイトは表をそのまま読み取って掲載しています。"
   ],
   "wards": [
@@ -238,7 +238,7 @@
     {"id":"中原区／新日本保育園","name":"新日本保育園","w":2,"c":0,"vacancy":[0,3,0,1,0,0]},
     {"id":"中原区／すみよしのはら保育園","name":"すみよしのはら保育園","w":2,"c":0,"vacancy":[0,0,0,3,1,0]},
     {"id":"中原区／大楽幼稚園","name":"大楽幼稚園","w":2,"c":1,"vacancy":[null,null,null,0,0,0]},
-    {"id":"中原区／長寿保育園","name":"長寿保育園","w":2,"c":0,"vacancy":[7,0,2,0,0,0]},
+    {"id":"中原区／長寿保育園","name":"長寿保育園","w":2,"c":0,"vacancy":[7,0,0,2,0,0]},
     {"id":"中原区／はなたば保育園","name":"はなたば保育園","w":2,"c":0,"vacancy":[0,0,0,0,0,0]},
     {"id":"中原区／ベネッセ元住吉保育園","name":"ベネッセ元住吉保育園","w":2,"c":0,"vacancy":[null,0,1,0,0,1]},
     {"id":"中原区／ミアヘルサ保育園ひびき元住吉","name":"ミアヘルサ保育園ひびき元住吉","w":2,"c":0,"vacancy":[0,0,0,0,0,4]},

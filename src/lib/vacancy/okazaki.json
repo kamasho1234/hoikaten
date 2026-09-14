@@ -2,19 +2,19 @@
   "municipalitySlug": "okazaki",
   "municipalityName": "岡崎市",
   "prefecture": "愛知県",
-  "asOf": "2026-09-01",
-  "fetchedAt": "2026-09-03",
+  "asOf": "2026-09-09",
+  "fetchedAt": "2026-09-14",
   "sourceName": "岡崎市「保育園・認定こども園 空き状況一覧」",
   "sourceUrl": "https://www.city.okazaki.lg.jp/kosodate/kosodate/1012221/1012226/1003637.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.okazaki.lg.jp/_res/projects/default_project/_page_/001/003/637/202611akijoukyou.pdf"
+    "vacancy": "https://www.city.okazaki.lg.jp/_res/projects/default_project/_page_/001/003/640/202611akijoukyou.pdf"
   },
   "metrics": [
     "symbol"
   ],
   "subtitle": "2026年11月入園分の空き状況",
   "notes": [
-    "岡崎市は空き状況を人数ではなく記号で公表しています。これは2026年11月入園分で、2026-09-01に公表されたものです。",
+    "岡崎市は空き状況を人数ではなく記号で公表しています。これは2026年11月入園分で、2026-09-09に公表されたものです。",
     "公式の凡例は 「〇」空きあり（４名以上）、「△」空き若干名、「×」空きなし です。",
     "公式の表で記号が無い年齢は「—」にしています。認定こども園の2号認定のように、その年齢のクラスを設けていない場合です。",
     "区分は公式の一覧の表記のままです。",

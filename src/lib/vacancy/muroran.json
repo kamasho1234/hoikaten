@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "muroran",
   "municipalityName": "室蘭市",
-  "asOf": "2026-08-01",
-  "fetchedAt": "2026-09-06",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-14",
   "sourceName": "室蘭市「保育所・認定こども園（2、3号）・小規模保育事業所の空き状況」",
   "sourceUrl": "https://www.city.muroran.lg.jp/education/?content=4288",
   "sourceFiles": {
-    "vacancy": "https://www.city.muroran.lg.jp/assets/images/content/content_20260810_115306.pdf"
+    "vacancy": "https://www.city.muroran.lg.jp/assets/images/content/content_20260909_110110.pdf"
   },
   "metrics": [
     "symbol"
@@ -54,7 +54,7 @@
         "×",
         "○",
         "×",
-        "×",
+        "○",
         "○",
         "×"
       ]
@@ -96,7 +96,7 @@
       ],
       "symbols": [
         "×",
-        "×",
+        "○",
         "○",
         "○",
         "○",
@@ -227,7 +227,7 @@
         null
       ],
       "symbols": [
-        "○",
+        "×",
         "○",
         "○",
         "○",
@@ -249,7 +249,7 @@
         null
       ],
       "symbols": [
-        "○",
+        "×",
         "○",
         null,
         "○",
@@ -295,7 +295,7 @@
       "symbols": [
         "×",
         "×",
-        "×",
+        "○",
         "×",
         "×",
         "×"

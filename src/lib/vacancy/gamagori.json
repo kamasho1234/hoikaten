@@ -2,12 +2,12 @@
   "municipalitySlug": "gamagori",
   "municipalityName": "蒲郡市",
   "prefecture": "愛知県",
-  "asOf": "2026-08-06",
-  "fetchedAt": "2026-09-06",
+  "asOf": "2026-09-07",
+  "fetchedAt": "2026-09-14",
   "sourceName": "蒲郡市「市内保育園・こども園 空き状況」",
   "sourceUrl": "https://www.city.gamagori.lg.jp/site/subsite-kosodate/nyuuennkizyun.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.gamagori.lg.jp/uploaded/attachment/118276.pdf"
+    "vacancy": "https://www.city.gamagori.lg.jp/uploaded/attachment/118934.pdf"
   },
   "metrics": [
     "symbol"
@@ -73,7 +73,7 @@
       ],
       "symbols": [
         "×",
-        "×",
+        "△",
         "×",
         "×",
         "×",
@@ -95,7 +95,7 @@
       ],
       "symbols": [
         "×",
-        "△",
+        "×",
         "×",
         "×",
         "×",
@@ -138,9 +138,9 @@
         null
       ],
       "symbols": [
+        "△",
         "×",
-        "×",
-        "×",
+        "△",
         "×",
         "△",
         "〇"
@@ -249,8 +249,8 @@
       ],
       "symbols": [
         "×",
-        "×",
-        "×",
+        "△",
+        "△",
         "×",
         "〇",
         "×"
@@ -359,7 +359,7 @@
       ],
       "symbols": [
         "△",
-        "×",
+        "△",
         "×",
         "×",
         "×",
@@ -380,9 +380,9 @@
         null
       ],
       "symbols": [
-        "△",
         "×",
-        "△",
+        "×",
+        "×",
         null,
         null,
         null
@@ -404,7 +404,7 @@
       "symbols": [
         "×",
         "×",
-        "×",
+        "△",
         "×",
         "×",
         "△"
@@ -427,7 +427,7 @@
         null,
         null,
         "×",
-        "△",
+        "×",
         "×",
         "×"
       ]

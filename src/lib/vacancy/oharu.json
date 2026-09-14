@@ -2,8 +2,8 @@
   "municipalitySlug": "oharu",
   "municipalityName": "大治町",
   "prefecture": "愛知県",
-  "asOf": "2026-07-31",
-  "fetchedAt": "2026-09-06",
+  "asOf": "2026-08-31",
+  "fetchedAt": "2026-09-14",
   "sourceName": "大治町「保育所等の空き状況」",
   "sourceUrl": "https://www.town.oharu.aichi.jp/5130.htm",
   "sourceFiles": {
@@ -55,7 +55,7 @@
         "×",
         "×",
         "×",
-        "×"
+        "△"
       ]
     },
     {

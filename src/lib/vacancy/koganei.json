@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "koganei",
   "municipalityName": "小金井市",
-  "asOf": "2026-09-01",
-  "fetchedAt": "2026-09-03",
+  "asOf": "2026-09-04",
+  "fetchedAt": "2026-09-14",
   "sourceName": "小金井市「年度途中の認可保育施設の募集状況」",
   "sourceUrl": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoikubosyuujoukyou/hoikuennyusyoketuin.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoikubosyuujoukyou/hoikuennyusyoketuin.files/R8-10.pdf"
+    "vacancy": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoikubosyuujoukyou/hoikuennyusyoketuin.files/R8.10-2.pdf"
   },
   "metrics": [
     "vacancy"
@@ -57,7 +57,7 @@
     {"id":"特定保育施設（私立）-上水ハイジ保育園","name":"上水ハイジ保育園","w":null,"c":0,"vacancy":[0,0,0,0,0,0]},
     {"id":"特定保育施設（私立）-武蔵小金井えほん保育園","name":"武蔵小金井えほん保育園","w":null,"c":0,"vacancy":[0,0,0,0,0,0]},
     {"id":"特定保育施設（私立）-キッズガーデン新小金井","name":"キッズガーデン新小金井","w":null,"c":0,"vacancy":[0,0,0,3,2,5]},
-    {"id":"特定保育施設（私立）-げんきな森保育園","name":"げんきな森保育園","w":null,"c":0,"vacancy":[0,0,0,8,6,6]},
+    {"id":"特定保育施設（私立）-げんきな森保育園","name":"げんきな森保育園","w":null,"c":0,"vacancy":[0,0,0,8,6,7]},
     {"id":"特定保育施設（私立）-ヴィラまなびの森保育園武蔵小金井","name":"ヴィラまなびの森保育園武蔵小金井","w":null,"c":0,"vacancy":[0,0,0,0,0,0]},
     {"id":"特定保育施設（私立）-Gakkenほいくえん東小金井","name":"Gakkenほいくえん東小金井","w":null,"c":0,"vacancy":[0,0,0,0,0,0]},
     {"id":"特定保育施設（私立）-十八コスモ保育園","name":"十八コスモ保育園","w":null,"c":0,"vacancy":[null,0,0,1,2,0]},

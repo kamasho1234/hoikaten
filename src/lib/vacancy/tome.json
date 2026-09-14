@@ -2,12 +2,12 @@
   "municipalitySlug": "tome",
   "municipalityName": "登米市",
   "prefecture": "宮城県",
-  "asOf": "2026-08-18",
-  "fetchedAt": "2026-09-06",
+  "asOf": "2026-09-07",
+  "fetchedAt": "2026-09-14",
   "sourceName": "登米市「市内保育施設空き状況一覧」",
   "sourceUrl": "https://www.city.tome.miyagi.jp/kosodateshien/kurashi/fukushi/jido/hoikusyo/r8hoikusyo.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.tome.miyagi.jp/kosodateshien/kurashi/fukushi/jido/hoikusyo/documents/r080818akijyoukyouitirann.pdf"
+    "vacancy": "https://www.city.tome.miyagi.jp/kosodateshien/kurashi/fukushi/jido/hoikusyo/documents/r080907akijyoukyouitirann.pdf"
   },
   "metrics": [
     "vacancy"
@@ -72,11 +72,11 @@
       "w": null,
       "c": 0,
       "vacancy": [
-        3,
         2,
-        2,
-        0,
-        0,
+        1,
+        1,
+        1,
+        1,
         0
       ]
     },
@@ -86,7 +86,7 @@
       "w": null,
       "c": 0,
       "vacancy": [
-        4,
+        3,
         0,
         1,
         0,
@@ -100,7 +100,7 @@
       "w": null,
       "c": 0,
       "vacancy": [
-        1,
+        0,
         0,
         0,
         0,
@@ -128,7 +128,7 @@
       "w": null,
       "c": 0,
       "vacancy": [
-        7,
+        5,
         2,
         1,
         0,
@@ -226,7 +226,7 @@
       "w": null,
       "c": 1,
       "vacancy": [
-        5,
+        4,
         4,
         9,
         1,
@@ -338,7 +338,7 @@
       "w": null,
       "c": 1,
       "vacancy": [
-        3,
+        2,
         1,
         1,
         0,
@@ -436,7 +436,7 @@
       "w": null,
       "c": 2,
       "vacancy": [
-        1,
+        2,
         0,
         0,
         0,
