@@ -77,8 +77,9 @@ export default async function ArticlePage({
     const renamed = getArticle(city, `${city}-${slug}`);
     if (renamed) permanentRedirect(`/${city}/articles/${renamed.slug}`);
     // サブドメイン（oita.hoikaten.com/articles/xxx）から来た全国共通の記事は
-    // /[city]/articles/xxx にリライトされてここに来る。共通記事のURLへ送る
-    if (getArticle("general", slug)) permanentRedirect(`/articles/${slug}`);
+    // /[city]/articles/xxx にリライトされてここに来る。相対パスで送ると
+    // サブドメインの中でまたリライトされて無限に回るので、正規ドメインの絶対URLへ送る
+    if (getArticle("general", slug)) permanentRedirect(`https://hoikaten.com/articles/${slug}`);
     // 引っ越し先が分からないものは、同じ自治体の記事一覧へ送る
     permanentRedirect(`/${city}/articles`);
   }
