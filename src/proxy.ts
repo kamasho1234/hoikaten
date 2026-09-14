@@ -4,6 +4,9 @@ import { getSubdomain, resolveCitySlug } from "@/lib/subdomain";
 /** 正規のドメイン。同じ中身が複数のURLで見えないよう、ここに寄せる */
 const MAIN_ORIGIN = "https://hoikaten.com";
 
+/** サブドメインで自治体ページとして出すパス（/[city]/ の下に同じものがある） */
+const CITY_SECTIONS = ["/articles", "/vacancy"];
+
 function redirectToMain(url: URL) {
   return NextResponse.redirect(new URL(url.pathname + url.search, MAIN_ORIGIN), 301);
 }
@@ -38,6 +41,18 @@ export function proxy(request: NextRequest) {
   // 開発時の ?city=xxx でパスが既に付いている場合は、そのまま通す
   if (hasCityPath) {
     return NextResponse.next();
+  }
+
+  // 自治体ごとのページがあるのは トップ・/articles・/vacancy だけ。
+  // /insurance や /documents のようなサイト共通のページは /[city]/ の下に無いので、
+  // サブドメインでリライトすると oita.hoikaten.com/insurance/... が404になっていた
+  //（自治体ページの中のリンクが絶対パスなので、クローラーがそこへたどり着く）。
+  // 共通ページは正規のドメインへ送る
+  const isCitySection =
+    url.pathname === "/" ||
+    CITY_SECTIONS.some((p) => url.pathname === p || url.pathname.startsWith(`${p}/`));
+  if (isSubdomain && !isCitySection) {
+    return redirectToMain(url);
   }
 
   // サブドメインがある場合 → /[city]/... にリライト
