@@ -18,8 +18,16 @@
 - [x] 葛城市: 凡例に「確認中」（open:false）
 - [x] 岐阜・高松・沼津・米子・宇和島: 検算値を更新（岐阜・宇和島は pdfplumber で升目を数え直して一致を確認）
 - [x] ローカルで verify 0件・わざと壊した1自治体だけ戻る流れを確認
-- [ ] push 後に `gh workflow run` で手動実行し、コミットまで進むことをログで確認
-- [ ] 本番 `/vacancy/sagamihara` などで新しい基準日を確認
+- [x] push 後に `gh workflow run` で手動実行（run 34795136623）→ CI でも verify 0件、
+      **247ファイル（9/1 以来止まっていた分）が c729635 でコミットされた**
+- [x] 本番 `/sagamihara/vacancy` に脚注が出ている（URL は `/<slug>/vacancy`。`/vacancy/<slug>` は404）
+
+### 取り込みで落ちている自治体（run 34795136623 時点、書き込み前に止まるので公開は壊れない）
+- 設定ファイル方式 15: aira arakawa asaka date-fukushima higashiyamato kai kuwana matsudo moka shiwa takahata tomiya tsurugashima uto yamaga
+- 専用スクリプト 3: kishiwada morioka shiogama
+- 多くは取り込み元 PDF が 404（公式側の差し替え）。1件ずつ公式ページを見て URL を追い直す
+- コミットメッセージに「津市」が10回以上出ていたのは `*tsu.json)` が takamatsu 等にも当たる suffix 衝突
+  （日野・長野・広島・北区も同じ）。227行すべて `*/slug.json)` に直した
 
 （以下は 9/13 時点の調査記録）
 
