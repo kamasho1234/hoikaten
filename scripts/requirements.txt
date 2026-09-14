@@ -13,3 +13,8 @@ openpyxl==3.1.5
 opencv-python-headless==4.13.0.90
 PyMuPDF==1.27.2
 numpy==2.4.6
+
+# 府中市（東京）のPDFは pdfplumber だと数字が落ちるので、pypdf で座標つきで読み直して
+# 表の枠に流し込む（scripts/fuchu-pdf-extract.py）。ここに書き忘れていたため CI では
+# 全欄空のデータになり、検証で落ちて他の自治体のコミットまで止めていた（2026-09-08〜13）。
+pypdf==6.12.2

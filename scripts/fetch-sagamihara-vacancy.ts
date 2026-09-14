@@ -63,7 +63,7 @@ function normalizeCategory(s: string): string {
 }
 
 type PdfTable = { headerRow: number; head: string[]; rows: string[][] };
-type PdfResult = { asOf: number[][]; updated: number[][]; tables: PdfTable[] };
+type PdfResult = { asOf: number[][]; updated: number[][]; footnotes: string[]; tables: PdfTable[] };
 
 function runPython(args: string[]): string {
   const candidates = process.env.PYTHON ? [process.env.PYTHON] : ["python3", "python"];
@@ -180,7 +180,10 @@ async function main() {
         const only02 = AGE_0_TO_2.includes(category);
         const vacancy: (number | null)[] = [];
         for (let age = 0; age < AGE_COUNT; age++) {
-          const raw = squeeze(row[ageIdx[age]] ?? "");
+          // 施設の申し出で人数が変わった欄には「3※①」「※②」のように脚注の印が付く
+          //（2026-09-10 の差し替えで初出）。印を外した残りが人数。
+          // 印だけの欄は空欄と同じ0人（脚注に「1から0に変更」と書かれている）
+          const raw = squeeze(row[ageIdx[age]] ?? "").replace(/※[①-⑳]$/, "");
           if (raw === "") {
             // 公式の注記「空欄の場合は0人」。ただし0〜2歳児だけの類型は3歳以上のクラスがない
             vacancy.push(only02 && age >= 3 ? null : 0);
@@ -240,6 +243,9 @@ async function main() {
         "管轄（緑・中央・南の子育て支援センター）は公式PDFでは縦書きで示されており、機械では正しく読み取れないため、当サイトでは区で分けていません。",
         ...(unknownCounts.length > 0
           ? [`次の欄は「若干名」などと書かれていて人数が分からないため、「—」にしています: ${unknownCounts.join("、")}`]
+          : []),
+        ...(pdf.footnotes.length > 0
+          ? [`公式PDFの脚注: ${pdf.footnotes.map((f) => f.replace(/\s+/g, " ")).join(" ")}`]
           : []),
       ],
       wards: [],

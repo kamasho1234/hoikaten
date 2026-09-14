@@ -2,11 +2,11 @@
   "municipalitySlug": "yonago",
   "municipalityName": "米子市",
   "asOf": "2026-08-25",
-  "fetchedAt": "2026-08-26",
+  "fetchedAt": "2026-09-13",
   "sourceName": "米子市「保育施設等入所可能児童数一覧」",
   "sourceUrl": "https://www.city.yonago.lg.jp/21679.htm",
   "sourceFiles": {
-    "vacancy": "https://www.city.yonago.lg.jp/secure/31492/R8.9.4.pdf"
+    "vacancy": "https://www.city.yonago.lg.jp/secure/31492/R9.4syuusei.pdf"
   },
   "metrics": [
     "vacancy"
@@ -81,7 +81,7 @@
     {"id":"ファーストステージあんじゅ","name":"ファーストステージあんじゅ","w":null,"c":4,"vacancy":[1,4,0,0,0,0]},
     {"id":"アートチャイルドケア皆生くれよん保育園","name":"アートチャイルドケア皆生くれよん保育園","w":null,"c":4,"vacancy":[2,2,0,0,0,0]},
     {"id":"ベビーエルル両三柳（※3、4）","name":"ベビーエルル両三柳（※3、4）","w":null,"c":4,"vacancy":[0,0,0,0,0,0]},
-    {"id":"ベビーエルルＲ431加茂（※4）","name":"ベビーエルルＲ431加茂（※4）","w":null,"c":4,"vacancy":[0,0,0,0,0,0]},
+    {"id":"ベビーエルルＲ431加茂（※4）","name":"ベビーエルルＲ431加茂（※4）","w":null,"c":4,"vacancy":[0,1,0,0,0,0]},
     {"id":"はじめの一歩","name":"はじめの一歩","w":null,"c":4,"vacancy":[2,1,0,0,0,0]},
     {"id":"山光みらい保育園","name":"山光みらい保育園","w":null,"c":4,"vacancy":[3,3,1,0,0,0]},
     {"id":"アートチャイルドケア目久美くれよん保育園","name":"アートチャイルドケア目久美くれよん保育園","w":null,"c":4,"vacancy":[0,0,0,0,0,0]},

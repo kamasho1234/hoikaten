@@ -2,8 +2,8 @@
   "municipalitySlug": "katsuragi",
   "municipalityName": "葛城市",
   "prefecture": "奈良県",
-  "asOf": "2026-08-06",
-  "fetchedAt": "2026-09-06",
+  "asOf": "2026-09-10",
+  "fetchedAt": "2026-09-14",
   "sourceName": "葛城市「各保育施設の空き状況」",
   "sourceUrl": "https://www.city.katsuragi.nara.jp/kosodate_kyoiku/5/9887.html",
   "sourceFiles": {
@@ -14,6 +14,7 @@
   ],
   "notes": [
     "市は空きを人数ではなく「数名」「若干名」「なし」の言葉で公表しています。当サイトでは順に○・△・×で表しています。",
+    "「確認中」は市が施設に空きを確認している欄です（2026年9月10日時点の表で初めて出ました）。",
     "年度途中入所の空き状況です。"
   ],
   "wards": [],
@@ -36,6 +37,11 @@
     {
       "mark": "×",
       "label": "なし",
+      "open": false
+    },
+    {
+      "mark": "確認中",
+      "label": "市が確認中",
       "open": false
     }
   ],
@@ -230,7 +236,7 @@
         null
       ],
       "symbols": [
-        "△",
+        "確認中",
         "×",
         "×",
         "△",

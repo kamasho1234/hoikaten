@@ -2,11 +2,11 @@
   "municipalitySlug": "gifu",
   "municipalityName": "岐阜市",
   "asOf": "2026-09-01",
-  "fetchedAt": "2026-09-04",
+  "fetchedAt": "2026-09-13",
   "sourceName": "岐阜市「認可保育施設の空き情報」",
   "sourceUrl": "https://www.city.gifu.lg.jp/kosodate/hoiku/1012359/1012413/1003695.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/003/695/2026010ver3.pdf"
+    "vacancy": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/003/695/2026010ver5.pdf"
   },
   "metrics": [
     "symbol",
@@ -78,7 +78,7 @@
     {"id":"南東地区-清流認定こども園","name":"清流認定こども園","w":1,"c":null,"vacancy":[null,null,null,null,null,null],"enrolled":[2,8,4,3,11,7],"symbols":["✖","✖","〇","〇","✖","〇"]},
     {"id":"南東地区-わらべ保育所","name":"わらべ保育所","w":1,"c":null,"vacancy":[null,null,null,null,null,null],"enrolled":[3,7,9,null,null,null],"symbols":["〇","〇","✖",null,null,null]},
     {"id":"南西地区-市橋保育所","name":"市橋保育所","w":2,"c":null,"vacancy":[null,null,null,null,null,null],"enrolled":[10,25,25,30,30,28],"symbols":["✖","✖","✖","✖","△","〇"]},
-    {"id":"南西地区-にっこり園","name":"にっこり園","w":2,"c":null,"vacancy":[null,null,null,null,null,null],"enrolled":[3,9,9,null,null,null],"symbols":["✖","✖","✖",null,null,null]},
+    {"id":"南西地区-にっこり園","name":"にっこり園","w":2,"c":null,"vacancy":[null,null,null,null,null,null],"enrolled":[3,9,9,null,null,null],"symbols":["△","✖","✖",null,null,null]},
     {"id":"南西地区-鶉保育園","name":"鶉保育園","w":2,"c":null,"vacancy":[null,null,null,null,null,null],"enrolled":[8,13,14,15,16,16],"symbols":["△","△","✖","✖","✖","✖"]},
     {"id":"南西地区-いづみ中央スプリン保育園","name":"いづみ中央スプリン保育園","w":2,"c":null,"vacancy":[null,null,null,null,null,null],"enrolled":[6,13,0,null,null,null],"symbols":["✖","✖","✖",null,null,null]},
     {"id":"南西地区-本荘保育園","name":"本荘保育園","w":2,"c":null,"vacancy":[null,null,null,null,null,null],"enrolled":[10,15,21,22,25,26],"symbols":["✖","✖","✖","✖","✖","✖"]},

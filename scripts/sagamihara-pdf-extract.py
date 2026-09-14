@@ -38,10 +38,17 @@ def extract(path):
     tables = []
     as_of = set()
     updated = set()
+    # 表の外にある脚注（「※施設からの申し出により…」「①【緑区】…0から3に変更」）。
+    # 欄に「3※①」のように印が付くので、その説明ごと注記に載せる
+    footnotes = []
     with pdfplumber.open(path) as pdf:
         for page in pdf.pages:
             text = (page.extract_text() or "").translate(Z)
             flat = "".join(text.split())
+            for line in text.splitlines():
+                line = line.strip()
+                if re.match(r"^(※|[①-⑳])", line):
+                    footnotes.append(line)
             m = re.search(r"令和(\d+)年(\d+)月(\d+)日現在", flat)
             if m:
                 as_of.add(tuple(int(g) for g in m.groups()))
@@ -65,7 +72,12 @@ def extract(path):
                 )
     if not tables:
         fail("施設の表を1つも取り出せませんでした")
-    return {"asOf": sorted(as_of), "updated": sorted(updated), "tables": tables}
+    return {
+        "asOf": sorted(as_of),
+        "updated": sorted(updated),
+        "footnotes": footnotes,
+        "tables": tables,
+    }
 
 
 def main():

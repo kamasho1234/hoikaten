@@ -2,7 +2,7 @@
   "municipalitySlug": "takamatsu",
   "municipalityName": "高松市",
   "asOf": "2026-09-01",
-  "fetchedAt": "2026-09-03",
+  "fetchedAt": "2026-09-13",
   "sourceName": "高松市「保育施設等入所可能状況一覧表」",
   "sourceUrl": "https://www.city.takamatsu.kagawa.jp/kurashi/kosodate/youchien_hoiku/kodomoen/hoiku/nyusho.html",
   "sourceFiles": {
@@ -70,7 +70,7 @@
     {"id":"4052","name":"高松聖ヤコブ幼稚園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"△","×","△"]},
     {"id":"2074","name":"高松第二保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
     {"id":"6051","name":"保育所てふてふ","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","△",null,null,null]},
-    {"id":"3059","name":"中野保育所","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["○","△","△","×","×","×"]},
+    {"id":"3059","name":"中野保育所","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△","×","×","×"]},
     {"id":"5063","name":"ニチイキッズまつなわ西保育園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
     {"id":"3058","name":"花ノ宮こども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
     {"id":"2008","name":"福岡保育所","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","△"]},

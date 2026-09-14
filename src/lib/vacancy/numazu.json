@@ -2,7 +2,7 @@
   "municipalitySlug": "numazu",
   "municipalityName": "沼津市",
   "asOf": "2026-09-01",
-  "fetchedAt": "2026-09-03",
+  "fetchedAt": "2026-09-13",
   "sourceName": "沼津市子育てポータルサイト「保育園等の募集情報」",
   "sourceUrl": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/azukeru/bosyumap.htm",
   "sourceFiles": {
@@ -68,7 +68,7 @@
     {"id":"片浜桜プレスクール片浜桜ナーサリールーム","name":"片浜桜プレスクール片浜桜ナーサリールーム","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["若干名","若干名","若干名","無","無","無"]},
     {"id":"杉浦学園あけぼのこども園杉浦学園かきつばたこども園","name":"杉浦学園あけぼのこども園杉浦学園かきつばたこども園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["若干名","若干名","無","無","若干名","無"]},
     {"id":"こずわ幼稚園","name":"こずわ幼稚園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["無","無","無","若干名","若干名","無"]},
-    {"id":"しょうえい幼稚園","name":"しょうえい幼稚園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["若干名","若干名","無","無","無","無"]},
+    {"id":"しょうえい幼稚園","name":"しょうえい幼稚園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["若干名","若干名","無","若干名","無","無"]},
     {"id":"中央幼稚園","name":"中央幼稚園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["無","無","無","無","無","無"]},
     {"id":"春の木幼稚園","name":"春の木幼稚園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["無","無","若干名","無","若干名","無"]},
     {"id":"原町幼稚園","name":"原町幼稚園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,"無","無","無","無"]},

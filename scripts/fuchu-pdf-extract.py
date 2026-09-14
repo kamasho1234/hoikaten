@@ -119,6 +119,16 @@ def extract(path):
                 tables.append({"head": head, "rows": rows[1:]})
     if not tables:
         fail("施設の表を1つも取り出せませんでした")
+    # pypdf が無い環境（2026-09 の CI）では pdfplumber の空欄がそのまま残り、
+    # 「全欄空」のデータが黙って出ていた。数字の欄が半分に満たなければ止める
+    #（本来は「計」の列だけでも全行が数字になる）
+    data_cells = [c for t in tables for r in t["rows"] for c in r[1:]]
+    numeric = [c for c in data_cells if re.fullmatch(r"\d+", c.translate(Z))]
+    if len(numeric) * 2 < len(data_cells):
+        fail(
+            f"表の数字を読めていません（{len(numeric)}/{len(data_cells)}欄）。"
+            + ("pypdf が入っていません（pip install pypdf）" if words is None else "PDFの形が変わった可能性があります")
+        )
     if filled_total:
         print(f"pdfplumberが読めなかった{filled_total}個の欄をpypdfで埋めた", file=sys.stderr)
     # 表題がpdfplumberから読めないPDFでは、pypdfのほうから読み直す

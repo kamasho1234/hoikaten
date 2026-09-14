@@ -107,11 +107,12 @@ const EXPECTED: Record<
     symbolCounts: { "－": 399, "×": 354 },
   },
   // 高松市は入所可能状況が記号
+  // 2026-09 に市が基準日を変えずに差し替え（中野保育所 0歳 ○→△）。スクリプトがPDF印字と照合済み
   takamatsu: {
     asOf: "2026-09-01",
     facilityCount: 119,
     vacancy: 0,
-    symbolCounts: { "○": 26, "×": 472, "△": 136 },
+    symbolCounts: { "○": 25, "×": 472, "△": 137 },
   },
   // 鹿児島市は空きが○と×だけ
   kagoshima: {
@@ -273,11 +274,12 @@ const EXPECTED: Record<
     vacancy: 38,
   },
   // 宇和島市は空きが記号。類型が縦書きで字の順が崩れるので categoryMap で直す
+  // 2026-09 に市が基準日を変えずに差し替え（69060 → 69496.pdf、8欄変化）。pdfplumber で升目を数え直した
   uwajima: {
     asOf: "2026-08-01",
     facilityCount: 21,
     vacancy: 0,
-    symbolCounts: { "△": 12, "×": 64, "○": 48 },
+    symbolCounts: { "△": 16, "×": 68, "○": 40 },
   },
   // 坂東市は空きが記号。施設ごとに2・3号と1号の行に分かれるので2・3号だけ読む
   bando: {
@@ -375,11 +377,12 @@ const EXPECTED: Record<
     symbolCounts: { "－": 395, "△": 34, "◎": 4, "○": 7 },
   },
   // 岐阜市は空きが記号、在籍人数は実数
+  // 2026-09 に市が基準日を変えずに差し替え（ver3 → ver5、にっこり園 0歳 ✖→△）。pdfplumber で升目を数え直した
   gifu: {
     asOf: "2026-09-01",
     facilityCount: 87,
     vacancy: 0,
-    symbolCounts: { "✖": 284, "〇": 71, "△": 46 },
+    symbolCounts: { "✖": 283, "〇": 71, "△": 47 },
   },
   // 水戸市は受入れ見込みが記号、申込み人数は実数
   mito: {
@@ -437,7 +440,8 @@ const EXPECTED: Record<
   funabashi: { asOf: "2026-08-20", facilityCount: 191, vacancy: 301 },
   // 八王子市は翌月の募集人数。募集ゼロの園が多いのが通常
   hachioji: { asOf: "2026-09-01", facilityCount: 144, vacancy: 89, emptyRatio: 0.3 },
-  sagamihara: { asOf: "2026-09-01", facilityCount: 230, vacancy: 581 },
+  // 2026-09-10 に市が基準日を変えずに差し替え。脚注①②のとおり 581 −1 +3 +2 = 585
+  sagamihara: { asOf: "2026-09-01", facilityCount: 230, vacancy: 585 },
   // 堺市も利用調整後の空き。空きゼロの施設が多いのが通常
   sakai: { asOf: "2026-09-01", facilityCount: 269, vacancy: 470, emptyRatio: 0.35 },
   // 仙台市は利用調整後の空枠。空枠ゼロの施設が多いのが通常
@@ -1246,10 +1250,11 @@ const EXPECTED: Record<
     symbolCounts: { "×": 271, "△": 37, "○": 9 },
   },
   // 米子市は翌月1日からの入所可能数を前の月の下旬に公開する
+  // 2026-09 に市が修正版（R9.4syuusei.pdf）に差し替え（ベビーエルルR431加茂 1歳 0→1）。スクリプトがPDF印字と照合済み
   yonago: {
     asOf: "2026-08-25",
     facilityCount: 59,
-    vacancy: 144,
+    vacancy: 145,
   },
   // 甲府市は入所申込の受付期間中（前の月の下旬）に募集人員を掲載する
   kofu: {
@@ -1265,11 +1270,12 @@ const EXPECTED: Record<
     symbolCounts: { "×": 65, "○": 1 },
   },
   // 沼津市はPDFではなくページのHTMLの表。空きは「若干名」「無」の言葉で表される
+  // 2026-09 に市が基準日を変えずに差し替え（しょうえい幼稚園 3歳 無→若干名）。スクリプトがページ表記と照合済み
   numazu: {
     asOf: "2026-09-01",
     facilityCount: 49,
     vacancy: 0,
-    symbolCounts: { "若干名": 100, "無": 156 },
+    symbolCounts: { "若干名": 101, "無": 155 },
   },
   // 尾道市は入所月の1日時点の見込みを前の月に公開する（asOfが未来の日付になる）
   onomichi: {
@@ -3046,6 +3052,14 @@ console.log("");
 if (problems.length) {
   console.log(`検出: ${problems.length}件`);
   problems.forEach((p) => console.log(`  ${p}`));
+  // GitHub Actions が「落ちた自治体の JSON だけ元に戻して残りをコミットする」ために、
+  // 検出の頭に付く slug（`P()` が付ける `slug: `）を1行にまとめて出す。
+  // 自治体に紐づかない検出（index.ts 未登録など）は含めない
+  const registered = new Set(slugs);
+  const failedSlugs = [...new Set(problems.map((p) => p.split(": ")[0]))].filter((s) =>
+    registered.has(s),
+  );
+  console.log(`VERIFY_FAILED_SLUGS=${failedSlugs.join(" ")}`);
   process.exit(1);
 }
 console.log("検出: 0件");
