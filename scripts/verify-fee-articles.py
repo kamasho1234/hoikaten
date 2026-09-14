@@ -152,7 +152,8 @@ def check(a):
     warn = []
     if limit in KUNI and re.search(r"国基準|国の基準|国上限|国が定める", flat):
         warn.append("国基準額と同じ数で、資料に国基準の列がある")
-    if not re.search(r"[0０]歳|3号|３号|3歳未満|３歳未満|未満児", flat):
+    # 奈良市は「０～２歳児クラス」と書く（「０歳」単独では出ない）
+    if not re.search(r"[0０]歳|[0０][～〜~][2２]歳|3号|３号|3歳未満|３歳未満|未満児", flat):
         warn.append("資料に0〜2歳の区分が見当たらない")
     return slug, ("!" if warn else "○"), "／".join(warn) if warn else ""
 

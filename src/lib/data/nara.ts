@@ -4,8 +4,10 @@ import type { MunicipalityData, Question } from '../types';
 // 奈良市 保育園入園 利用調整基準データ
 // 出典: 奈良市「利用調整指数カリキュレーター」
 //   https://www.city.nara.lg.jp/site/kosodate/251831.html
-// 出典: 奈良市「幼稚園・保育所・認定こども園・小規模保育事業 入園のしおり」
-//   https://www.city.nara.lg.jp/kosodate/nyuennoshiori/nyuennosiori.pdf
+// 出典: 奈良市「保育所等の利用基本指数表・調整指数表・指数算定及び順位取扱表」
+//   https://www.city.nara.lg.jp/uploaded/attachment/209966.pdf
+//   （案内ページ https://www.city.nara.lg.jp/site/kosodate/261513.html。
+//    旧「入園のしおり」PDF は 2026-09 時点で 404）
 // ---------------------------------------------------------------------------
 
 const municipality = {
