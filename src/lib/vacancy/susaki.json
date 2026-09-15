@@ -2,12 +2,12 @@
   "municipalitySlug": "susaki",
   "municipalityName": "須崎市",
   "prefecture": "高知県",
-  "asOf": "2026-06-25",
-  "fetchedAt": "2026-09-14",
+  "asOf": "2026-09-10",
+  "fetchedAt": "2026-09-15",
   "sourceName": "須崎市「保育施設空き状況」",
   "sourceUrl": "https://www.city.susaki.lg.jp/life/detail.php?hdnKey=5753",
   "sourceFiles": {
-    "vacancy": "https://www.city.susaki.lg.jp/download/?t=LD&id=5753&fid=43205"
+    "vacancy": "https://www.city.susaki.lg.jp/download/?t=LD&id=5753&fid=44031"
   },
   "metrics": [
     "symbol"
@@ -96,11 +96,11 @@
       ],
       "symbols": [
         "×",
+        "×",
+        "×",
+        "×",
         "△",
-        "△",
-        "○",
-        "○",
-        "○"
+        "△"
       ]
     },
     {
@@ -118,7 +118,7 @@
       ],
       "symbols": [
         "×",
-        "△",
+        "○",
         "○",
         "○",
         "○",
@@ -183,7 +183,7 @@
         null
       ],
       "symbols": [
-        "○",
+        "△",
         "○",
         "○",
         "○",

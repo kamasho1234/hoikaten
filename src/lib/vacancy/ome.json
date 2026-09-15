@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "ome",
   "municipalityName": "青梅市",
-  "asOf": "2026-09-03",
-  "fetchedAt": "2026-09-14",
+  "asOf": "2026-09-15",
+  "fetchedAt": "2026-09-15",
   "sourceName": "青梅市「保育施設募集状況」",
   "sourceUrl": "https://www.city.ome.tokyo.jp/soshiki/33/66858.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.ome.tokyo.jp/uploaded/attachment/81852.pdf"
+    "vacancy": "https://www.city.ome.tokyo.jp/uploaded/attachment/81961.pdf"
   },
   "metrics": [
     "vacancy"
@@ -45,7 +45,7 @@
         1,
         6,
         8,
-        1,
+        2,
         1
       ]
     },
@@ -60,7 +60,7 @@
         0,
         1,
         0,
-        0
+        1
       ]
     },
     {
@@ -307,7 +307,7 @@
       "w": null,
       "c": null,
       "vacancy": [
-        0,
+        2,
         4,
         3,
         2,
@@ -448,7 +448,7 @@
       "c": null,
       "vacancy": [
         1,
-        1,
+        2,
         2,
         5,
         2,

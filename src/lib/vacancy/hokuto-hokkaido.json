@@ -2,8 +2,8 @@
   "municipalitySlug": "hokuto-hokkaido",
   "municipalityName": "北斗市",
   "prefecture": "北海道",
-  "asOf": "2026-08-24",
-  "fetchedAt": "2026-09-14",
+  "asOf": "2026-09-14",
+  "fetchedAt": "2026-09-15",
   "sourceName": "北斗市「市内保育施設空き状況」",
   "sourceUrl": "https://www.city.hokuto.hokkaido.jp/docs/16953.html",
   "sourceFiles": {
@@ -52,11 +52,11 @@
       ],
       "symbols": [
         "×",
-        "△",
         "×",
-        "○",
-        "△",
-        "△"
+        "×",
+        "×",
+        "×",
+        "×"
       ]
     },
     {
@@ -141,7 +141,7 @@
       "symbols": [
         "△",
         "×",
-        "△",
+        "○",
         "×",
         "△",
         "×"
@@ -161,9 +161,9 @@
         null
       ],
       "symbols": [
+        "×",
         "△",
-        "△",
-        "△",
+        "×",
         "△",
         "△",
         "×"

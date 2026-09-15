@@ -1,8 +1,8 @@
 {
   "municipalitySlug": "kitanagoya",
   "municipalityName": "北名古屋市",
-  "asOf": "2026-08-13",
-  "fetchedAt": "2026-09-14",
+  "asOf": "2026-09-14",
+  "fetchedAt": "2026-09-15",
   "sourceName": "北名古屋市「令和8年度保育施設空き状況」",
   "sourceUrl": "https://www.city.kitanagoya.lg.jp/kosodate/azukeru/1002322/1007088.html",
   "sourceFiles": {
@@ -48,7 +48,7 @@
       "vacancy": [
         null,
         0,
-        7,
+        8,
         8,
         5,
         5
@@ -90,8 +90,8 @@
       "vacancy": [
         null,
         0,
-        3,
-        1,
+        2,
+        2,
         4,
         12
       ]
@@ -107,7 +107,7 @@
         2,
         0,
         12,
-        8
+        9
       ]
     },
     {
@@ -120,8 +120,8 @@
         0,
         0,
         0,
-        12,
-        17
+        11,
+        16
       ]
     },
     {
@@ -134,7 +134,7 @@
         0,
         1,
         0,
-        2,
+        1,
         0
       ]
     },
@@ -174,7 +174,7 @@
       "vacancy": [
         null,
         0,
-        0,
+        1,
         0,
         5,
         5
@@ -298,7 +298,7 @@
       "w": null,
       "c": 2,
       "vacancy": [
-        1,
+        0,
         0,
         0,
         null,
@@ -326,7 +326,7 @@
       "w": null,
       "c": 2,
       "vacancy": [
-        1,
+        0,
         0,
         4,
         null,
@@ -368,7 +368,7 @@
       "w": null,
       "c": 2,
       "vacancy": [
-        1,
+        0,
         0,
         0,
         null,
@@ -384,7 +384,7 @@
       "vacancy": [
         0,
         0,
-        3,
+        0,
         null,
         null,
         null

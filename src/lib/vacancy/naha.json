@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "naha",
   "municipalityName": "那覇市",
-  "asOf": "2026-09-08",
-  "fetchedAt": "2026-09-14",
+  "asOf": "2026-09-14",
+  "fetchedAt": "2026-09-15",
   "sourceName": "那覇市「保育所等の空き状況」",
   "sourceUrl": "https://www.city.naha.okinawa.jp/child/hoikuen/1002762/1002783/1002790.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.naha.okinawa.jp/_res/projects/default_project/_page_/001/002/790/r8.11gatsuakiwaku4.pdf"
+    "vacancy": "https://www.city.naha.okinawa.jp/_res/projects/default_project/_page_/001/002/790/r8.11gatsuakiwaku5.pdf"
   },
   "metrics": [
     "vacancy",
@@ -49,7 +49,7 @@
     {"id":"本庁-沖縄こども保育園","name":"沖縄こども保育園","w":1,"c":null,"vacancy":[0,0,4,0,0,null],"waiting":[13,1,0,0,1,null]},
     {"id":"小禄-オレンジ第２保育園","name":"オレンジ第２保育園","w":2,"c":null,"vacancy":[0,0,0,0,null,null],"waiting":[8,0,1,0,null,null]},
     {"id":"小禄-小禄南保育園","name":"小禄南保育園","w":2,"c":null,"vacancy":[null,null,null,null,null,null],"waiting":[2,1,0,0,0,0]},
-    {"id":"本庁-ガジマル保育園","name":"ガジマル保育園","w":1,"c":null,"vacancy":[null,0,0,0,0,0],"waiting":[7,3,4,0,2,0]},
+    {"id":"本庁-ガジマル保育園","name":"ガジマル保育園","w":1,"c":null,"vacancy":[3,0,0,0,0,0],"waiting":[7,3,4,0,2,0]},
     {"id":"本庁-風のうた保育園","name":"風のうた保育園","w":1,"c":null,"vacancy":[0,0,0,0,0,0],"waiting":[4,0,0,0,0,0]},
     {"id":"真和志-かねしま保育園","name":"かねしま保育園","w":0,"c":null,"vacancy":[0,0,0,2,1,null],"waiting":[1,1,0,0,0,null]},
     {"id":"小禄-鏡原保育園","name":"鏡原保育園","w":2,"c":null,"vacancy":[0,0,0,1,0,0],"waiting":[8,2,2,0,0,0]},
@@ -57,7 +57,7 @@
     {"id":"本庁-グッピー保育園","name":"グッピー保育園","w":1,"c":null,"vacancy":[0,0,0,0,0,null],"waiting":[3,1,0,2,0,null]},
     {"id":"小禄-くまのこ保育園","name":"くまのこ保育園","w":2,"c":null,"vacancy":[2,0,2,5,1,1],"waiting":[0,0,0,0,0,0]},
     {"id":"本庁-向陽保育園","name":"向陽保育園","w":1,"c":null,"vacancy":[0,2,0,0,0,0],"waiting":[5,0,0,0,0,0]},
-    {"id":"真和志-こくら保育園","name":"こくら保育園","w":0,"c":null,"vacancy":[0,0,0,1,0,0],"waiting":[11,0,3,0,1,0]},
+    {"id":"真和志-こくら保育園","name":"こくら保育園","w":0,"c":null,"vacancy":[3,0,0,0,0,0],"waiting":[11,0,3,0,1,0]},
     {"id":"本庁-コスモ保育園","name":"コスモ保育園","w":1,"c":null,"vacancy":[0,1,0,0,0,0],"waiting":[8,0,0,0,1,0]},
     {"id":"首里-琴の音保育園","name":"琴の音保育園","w":3,"c":null,"vacancy":[0,0,0,0,1,null],"waiting":[0,2,0,0,0,null]},
     {"id":"真和志-さくら保育園","name":"さくら保育園","w":0,"c":null,"vacancy":[0,0,0,4,0,0],"waiting":[13,1,2,1,0,0]},
@@ -142,7 +142,7 @@
     {"id":"真和志-童夢認定こども園","name":"童夢認定こども園","w":0,"c":null,"vacancy":[0,0,0,0,0,0],"waiting":[7,1,2,1,0,2]},
     {"id":"本庁-第２ながやまこども園","name":"第２ながやまこども園","w":1,"c":null,"vacancy":[0,0,0,0,0,0],"waiting":[11,0,1,0,2,1]},
     {"id":"首里-光の子幼稚園","name":"光の子幼稚園","w":3,"c":null,"vacancy":[0,0,0,1,1,0],"waiting":[0,0,0,0,1,0]},
-    {"id":"本庁-ポプラこども園","name":"ポプラこども園","w":1,"c":null,"vacancy":[0,4,0,0,null,0],"waiting":[9,0,0,0,1,0]},
+    {"id":"本庁-ポプラこども園","name":"ポプラこども園","w":1,"c":null,"vacancy":[0,4,0,0,1,0],"waiting":[9,0,0,0,1,0]},
     {"id":"真和志-みずきこども園","name":"みずきこども園","w":0,"c":null,"vacancy":[0,0,0,0,0,0],"waiting":[14,10,4,2,0,0]},
     {"id":"本庁-みやび認定こども園","name":"みやび認定こども園","w":1,"c":null,"vacancy":[0,0,1,0,1,4],"waiting":[7,1,0,1,0,0]},
     {"id":"真和志-わかば認定こども園","name":"わかば認定こども園","w":0,"c":null,"vacancy":[0,0,0,2,3,0],"waiting":[10,0,3,0,0,0]},

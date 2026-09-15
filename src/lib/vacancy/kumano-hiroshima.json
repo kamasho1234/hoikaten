@@ -2,12 +2,12 @@
   "municipalitySlug": "kumano-hiroshima",
   "municipalityName": "熊野町",
   "prefecture": "広島県",
-  "asOf": "2026-08-17",
-  "fetchedAt": "2026-09-14",
+  "asOf": "2026-09-15",
+  "fetchedAt": "2026-09-15",
   "sourceName": "熊野町「入所可能施設一覧」",
   "sourceUrl": "https://www.town.kumano.lg.jp/10/9/5006.html",
   "sourceFiles": {
-    "vacancy": "https://www.town.kumano.lg.jp/material/files/group/14/R8-10hoikusyo.pdf"
+    "vacancy": "https://www.town.kumano.lg.jp/material/files/group/14/R8-11hoikusyo.pdf"
   },
   "metrics": [
     "symbol"

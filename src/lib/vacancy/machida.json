@@ -2,11 +2,11 @@
   "municipalitySlug": "machida",
   "municipalityName": "町田市",
   "asOf": "2026-10-01",
-  "fetchedAt": "2026-09-14",
+  "fetchedAt": "2026-09-15",
   "sourceName": "町田市「入園募集人数一覧」",
   "sourceUrl": "https://kosodate-machida.tokyo.jp/soshiki/4/3/nyuuen/hoiku/202604/14186.html",
   "sourceFiles": {
-    "vacancy": "https://kosodate-machida.tokyo.jp/material/files/group/7/boshu2610.pdf"
+    "vacancy": "https://kosodate-machida.tokyo.jp/material/files/group/7/boshu2610_2.pdf"
   },
   "metrics": [
     "vacancy"
@@ -47,13 +47,13 @@
     {"id":"忠生-アスク木曽西保育園","name":"アスク木曽西保育園","w":1,"c":0,"vacancy":[null,null,null,null,null,null]},
     {"id":"忠生-第二わかくさ保育園","name":"第二わかくさ保育園","w":1,"c":0,"vacancy":[null,null,null,1,1,null]},
     {"id":"忠生-すずらん保育園","name":"すずらん保育園","w":1,"c":0,"vacancy":[null,null,null,null,2,null]},
-    {"id":"忠生-すみれ保育園","name":"すみれ保育園","w":1,"c":0,"vacancy":[null,null,null,1,1,1]},
-    {"id":"忠生-木曽保育園","name":"木曽保育園","w":1,"c":0,"vacancy":[null,null,null,1,1,null]},
+    {"id":"忠生-すみれ保育園","name":"すみれ保育園","w":1,"c":0,"vacancy":[null,null,null,3,2,1]},
+    {"id":"忠生-木曽保育園","name":"木曽保育園","w":1,"c":0,"vacancy":[null,null,null,1,2,null]},
     {"id":"忠生-しぜんの国保育園","name":"しぜんの国保育園","w":1,"c":0,"vacancy":[null,null,null,null,null,null]},
     {"id":"忠生-子どもの森保育園","name":"子どもの森保育園","w":1,"c":0,"vacancy":[null,null,null,3,null,1]},
     {"id":"忠生-こっこのもり保育園","name":"こっこのもり保育園","w":1,"c":0,"vacancy":[null,null,null,null,null,null]},
     {"id":"忠生-町田ときわ保育園","name":"町田ときわ保育園","w":1,"c":0,"vacancy":[null,null,null,3,null,null]},
-    {"id":"忠生-まなざし保育園","name":"まなざし保育園","w":1,"c":0,"vacancy":[null,null,null,1,null,null]},
+    {"id":"忠生-まなざし保育園","name":"まなざし保育園","w":1,"c":0,"vacancy":[null,null,1,1,null,null]},
     {"id":"忠生-市立山崎保育園","name":"市立山崎保育園","w":1,"c":0,"vacancy":[null,null,null,2,null,4]},
     {"id":"忠生-ユニケ保育園","name":"ユニケ保育園","w":1,"c":0,"vacancy":[null,null,null,null,3,2]},
     {"id":"忠生-たかね第二保育園","name":"たかね第二保育園","w":1,"c":0,"vacancy":[null,null,null,null,null,null]},
@@ -61,7 +61,7 @@
     {"id":"忠生-カナリヤ保育園","name":"カナリヤ保育園","w":1,"c":0,"vacancy":[null,null,null,null,null,null]},
     {"id":"町田-玉川さくら保育園","name":"玉川さくら保育園","w":2,"c":0,"vacancy":[null,null,null,null,1,null]},
     {"id":"町田-つながり未来保育園","name":"つながり未来保育園","w":2,"c":0,"vacancy":[null,null,null,1,3,2]},
-    {"id":"町田-こひつじ保育園","name":"こひつじ保育園","w":2,"c":0,"vacancy":[null,null,null,null,null,1]},
+    {"id":"町田-こひつじ保育園","name":"こひつじ保育園","w":2,"c":0,"vacancy":[null,null,null,1,null,1]},
     {"id":"町田-なごみ第二保育園","name":"なごみ第二保育園","w":2,"c":0,"vacancy":[null,null,null,1,1,3]},
     {"id":"町田-なごみ保育園","name":"なごみ保育園","w":2,"c":0,"vacancy":[null,null,null,null,null,2]},
     {"id":"町田-太陽の子町田駅前保育園","name":"太陽の子町田駅前保育園","w":2,"c":0,"vacancy":[1,null,null,null,null,null]},
