@@ -3,9 +3,9 @@
   "municipalityName": "与那原町",
   "prefecture": "沖縄県",
   "asOf": "2026-09-01",
-  "fetchedAt": "2026-09-15",
+  "fetchedAt": "2026-09-16",
   "sourceName": "与那原町「保育所空き状況」",
-  "sourceUrl": "https://www.town.yonabaru.okinawa.jp/soshiki/11/129.html",
+  "sourceUrl": "https://www.town.yonabaru.okinawa.jp/site/kosodate/129.html",
   "sourceFiles": {
     "vacancy": "https://www.town.yonabaru.okinawa.jp/uploaded/attachment/6651.pdf"
   },

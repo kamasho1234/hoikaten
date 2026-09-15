@@ -2,18 +2,19 @@
   "municipalitySlug": "tainai",
   "municipalityName": "胎内市",
   "prefecture": "新潟県",
-  "asOf": "2026-08-01",
-  "fetchedAt": "2026-09-15",
+  "asOf": "2026-09-15",
+  "fetchedAt": "2026-09-16",
   "sourceName": "胎内市「各園入園可能状況一覧」",
   "sourceUrl": "https://www.city.tainai.niigata.jp/life/kosodate.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.tainai.niigata.jp/life/documents/7gatsunyuenkanouichiran.pdf"
+    "vacancy": "https://www.city.tainai.niigata.jp/life/documents/9gatsunyuenkanouichiran.pdf"
   },
   "metrics": [
     "symbol"
   ],
   "notes": [
-    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。"
+    "市は空きを人数ではなく記号で公表しているため、当サイトも記号のまま載せています。",
+    "市の資料は「令和N年M月更新」とだけ書かれ、日付までは書かれていません（令和8年9月更新分から）。当サイトは資料が公開された日を時点として扱っています。"
   ],
   "wards": [],
   "categories": [
@@ -54,7 +55,7 @@
       "symbols": [
         "×",
         "×",
-        "×",
+        "△",
         "○",
         "×",
         "△"
@@ -74,7 +75,7 @@
         null
       ],
       "symbols": [
-        "△",
+        "×",
         "×",
         "○",
         null,
@@ -96,9 +97,9 @@
         null
       ],
       "symbols": [
+        "○",
         "△",
-        "△",
-        "△",
+        "○",
         "○",
         "△",
         "○"
@@ -119,7 +120,7 @@
       ],
       "symbols": [
         "×",
-        "△",
+        "×",
         "×",
         "×",
         "×",
@@ -140,8 +141,8 @@
         null
       ],
       "symbols": [
+        "×",
         "△",
-        "○",
         "○",
         "○",
         "○",

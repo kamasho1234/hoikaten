@@ -52,6 +52,13 @@
 
 - [x] verify-vacancy.ts の検算値: asaka 160／moka ×25△15○8／tomiya ×81△16○5／takahata 37／wako 124／kishiwada 134／shiogama △19×57／kai 439／yamaga ×83△47○8／aira ×177△2○1
 - [x] `npm run vacancy:verify` 検出0件、tsc 通過
+- [x] a66e55c を push → 手動実行 run 34990700489: 姶良・松戸が CI でも読めた／スキップ・見送りが効いた／コミット 9881c5a。
+      残った失敗（この日に新しく起きたもの）も直した:
+  - asaka: CI の tesseract 5.3.4 が合計欄の「15」を「13」と読む（手元 5.4.0 は読める）→ read_digit に 3/5 の形の判定を追加
+  - tainai: 9月更新分の PDF から「更新日：令和N年M月D日」が消えた → `asOf.source: "file"`
+  - yonabaru: ページが /soshiki/11/129.html → /site/kosodate/129.html（データは同じ）
+  - sagamihara（585→584。PDF が _s.pdf に差し替わり脚注の訂正）・numazu（しんあい保育園、公式HTMLで確認）の検算値を更新
+  - kuwana・shiwa は想定どおり「リンクがありません」で失敗（次の公表待ち）
 
 ## 2026-09-14 サブドメインでサイト共通ページが404だった（oita.hoikaten.com/insurance/… など）
 

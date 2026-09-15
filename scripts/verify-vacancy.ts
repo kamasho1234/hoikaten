@@ -441,7 +441,8 @@ const EXPECTED: Record<
   // 八王子市は翌月の募集人数。募集ゼロの園が多いのが通常
   hachioji: { asOf: "2026-09-01", facilityCount: 144, vacancy: 89, emptyRatio: 0.3 },
   // 2026-09-10 に市が基準日を変えずに差し替え。脚注①②のとおり 581 −1 +3 +2 = 585
-  sagamihara: { asOf: "2026-09-01", facilityCount: 230, vacancy: 585 },
+  // 相模原市は 9/15 に基準日を変えずに PDF を差し替え（…_s.pdf。脚注の ひまわり第2 が「1歳 0→2」から「2歳 0→1」に訂正）585→584
+  sagamihara: { asOf: "2026-09-01", facilityCount: 230, vacancy: 584 },
   // 堺市も利用調整後の空き。空きゼロの施設が多いのが通常
   sakai: { asOf: "2026-09-01", facilityCount: 269, vacancy: 470, emptyRatio: 0.35 },
   // 仙台市は利用調整後の空枠。空枠ゼロの施設が多いのが通常
@@ -1271,11 +1272,12 @@ const EXPECTED: Record<
   },
   // 沼津市はPDFではなくページのHTMLの表。空きは「若干名」「無」の言葉で表される
   // 2026-09 に市が基準日を変えずに差し替え（しょうえい幼稚園 3歳 無→若干名）。スクリプトがページ表記と照合済み
+  // 沼津市は 9/14 に基準日を変えずに表を差し替え（しんあい保育園 4・5歳 若干名→無、0歳 無→若干名。公式HTMLで確認）
   numazu: {
     asOf: "2026-09-01",
     facilityCount: 49,
     vacancy: 0,
-    symbolCounts: { "若干名": 101, "無": 155 },
+    symbolCounts: { "若干名": 100, "無": 156 },
   },
   // 尾道市は入所月の1日時点の見込みを前の月に公開する（asOfが未来の日付になる）
   onomichi: {
@@ -1848,10 +1850,10 @@ obu: {
     symbolCounts: { "○": 103, "－": 43, "△": 10 },
   },
   tainai: {
-    asOf: "2026-08-01",
+    asOf: "2026-09-15",
     facilityCount: 10,
     vacancy: 0,
-    symbolCounts: { "×": 34, "△": 14, "○": 9 },
+    symbolCounts: { "×": 36, "△": 11, "○": 10 },
   },
   takanezawa: {
     asOf: "2026-08-17",

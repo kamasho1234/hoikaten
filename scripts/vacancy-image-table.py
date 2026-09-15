@@ -302,6 +302,12 @@ def read_digit(mask):
             break
     if holes == 1 and got in ("7", "1", "") and 0.45 <= w / float(h) <= 1.0:
         return "0"
+    # CI の tesseract（5.3.4）は「5」を「3」と読むことがある（朝霞市 北原保育園の合計 15 → 13）。
+    # 5 は上半分の左端が縦線でつながり、3 は左が開いている。
+    # 朝霞市の資料では 5 が 0.89〜1.0、3 が 0.5〜0.78 だったので 0.85 で分ける
+    if got in ("3", "5") and holes == 0:
+        top_left = mask[: int(h * 0.45), : max(1, int(w * 0.3))]
+        got = "5" if (top_left.sum(axis=1) > 0).mean() >= 0.85 else "3"
     if holes == 0 and got == "0":
         return ""  # 穴が無いのに0と読めたら信用しない（呼び出し側で異常になる）
     return got

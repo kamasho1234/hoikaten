@@ -2,7 +2,7 @@
   "municipalitySlug": "numazu",
   "municipalityName": "沼津市",
   "asOf": "2026-09-01",
-  "fetchedAt": "2026-09-13",
+  "fetchedAt": "2026-09-16",
   "sourceName": "沼津市子育てポータルサイト「保育園等の募集情報」",
   "sourceUrl": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/azukeru/bosyumap.htm",
   "sourceFiles": {
@@ -61,7 +61,7 @@
     {"id":"小百合保育園","name":"小百合保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["無","無","無","無","無","無"]},
     {"id":"多比保育園","name":"多比保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["若干名","若干名","若干名","若干名","若干名","若干名"]},
     {"id":"青空保育園","name":"青空保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["若干名","無","無","無","若干名","若干名"]},
-    {"id":"しんあい保育園","name":"しんあい保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["無","若干名","若干名","無","若干名","若干名"]},
+    {"id":"しんあい保育園","name":"しんあい保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["若干名","若干名","若干名","無","無","無"]},
     {"id":"丘の上保育園","name":"丘の上保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["無","無","無","無","無","無"]},
     {"id":"大平こども園","name":"大平こども園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["若干名","無","若干名","若干名","若干名","若干名"]},
     {"id":"戸田こども園","name":"戸田こども園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["無","無","無","無","若干名","若干名"]},

@@ -2,7 +2,7 @@
   "slug": "yonabaru",
   "name": "与那原町",
   "sourceName": "与那原町「保育所空き状況」",
-  "indexUrl": "https://www.town.yonabaru.okinawa.jp/soshiki/11/129.html",
+  "indexUrl": "https://www.town.yonabaru.okinawa.jp/site/kosodate/129.html",
   "pdf": {
     "linkPattern": "空き状況",
     "pick": "last"
