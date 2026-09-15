@@ -3,11 +3,11 @@
   "municipalityName": "塩竈市",
   "prefecture": "宮城県",
   "asOf": "2026-09-01",
-  "fetchedAt": "2026-09-03",
+  "fetchedAt": "2026-09-16",
   "sourceName": "塩竈市「塩竈市内認可保育施設の空き状況について」",
   "sourceUrl": "https://www.city.shiogama.miyagi.jp/soshiki/51/56212.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.shiogama.miyagi.jp/uploaded/life/58443_149373_img.jpg"
+    "vacancy": "https://www.city.shiogama.miyagi.jp/uploaded/life/58598_149824_img.jpg"
   },
   "metrics": [
     "symbol"
@@ -39,10 +39,10 @@
     }
   ],
   "facilities": [
-    {"id":"藤倉保育所","name":"藤倉保育所","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"],"note":"改修工事（令和8年9月〜令和9年2月）を予定しています。"},
+    {"id":"藤倉保育所","name":"藤倉保育所","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","△","×","△"],"note":"改修工事（令和8年9月〜令和9年2月）を予定しています。"},
     {"id":"清水沢保育所","name":"清水沢保育所","w":null,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"〇","△","〇"],"note":"閉所予定のため児童の段階的受け入れ停止を行っています。"},
     {"id":"うみまち保育所","name":"うみまち保育所","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","×","△"]},
-    {"id":"元気キッズさかえ保育園","name":"元気キッズさかえ保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","×"]},
+    {"id":"元気キッズさかえ保育園","name":"元気キッズさかえ保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","△","△","×"]},
     {"id":"元気キッズきたはま保育園","name":"元気キッズきたはま保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","×"]},
     {"id":"玉川保育園","name":"玉川保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","〇","△","△"]},
     {"id":"あゆみ保育園","name":"あゆみ保育園","w":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","△","×","×"]},

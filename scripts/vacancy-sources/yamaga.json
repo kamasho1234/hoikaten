@@ -4,7 +4,7 @@
   "sourceName": "山鹿市「保育所等入所調整が可能な施設一覧」",
   "indexUrl": "https://www.city.yamaga.kumamoto.jp/kosodate/kiji003426/index.html",
   "pdf": {
-    "linkPattern": "空き状況一覧表"
+    "linkPattern": "空き状況一覧"
   },
   "layout": "auto-table",
   "columns": {

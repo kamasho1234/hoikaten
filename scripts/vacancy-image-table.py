@@ -42,6 +42,11 @@ import numpy as np
 TESS = os.environ.get("TESSERACT_EXE") or shutil.which("tesseract") or r"C:/Program Files/Tesseract-OCR/tesseract.exe"
 TESSDATA = os.environ.get("TESSDATA_PREFIX") or r"C:/Users/kamas/tessdata"
 
+# denoise() の開処理に使うカーネルの大きさ。設定の denoiseKernel で上書きする。
+# 字の線が細い資料（朝霞市の令和8年11月分は「0」の右側が2画素しかない）では
+# 3画素の開処理で線が消えて「0」が「C」の形になり 7 と読まれる。0 で開処理をしない
+DENOISE_KERNEL = 3
+
 
 def render(pdf_bytes, page_index, dpi):
     doc = fitz.open(stream=pdf_bytes, filetype="pdf")
@@ -142,9 +147,12 @@ def denoise(patch):
     if patch.size == 0:
         return patch
     # 開処理で1〜2画素の点を落とし、記号の線はつなぎ直す
-    k = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (3, 3))
-    out = cv2.morphologyEx(patch, cv2.MORPH_OPEN, k)
-    out = cv2.morphologyEx(out, cv2.MORPH_CLOSE, k)
+    if DENOISE_KERNEL > 0:
+        k = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (DENOISE_KERNEL, DENOISE_KERNEL))
+        out = cv2.morphologyEx(patch, cv2.MORPH_OPEN, k)
+        out = cv2.morphologyEx(out, cv2.MORPH_CLOSE, k)
+    else:
+        out = patch
     h, w = out.shape
     n, labels, stats, _ = cv2.connectedComponentsWithStats(out, 8)
     keep = np.zeros_like(out)
@@ -323,15 +331,21 @@ def read_name(patch):
     return re.sub(r"[\s\u3000]+", "", t)
 
 
-def read_block(bw, xs, y0, y1, blk, conf, mode, empty, total_col):
-    """1行の中の「1組ぶん」を読む（左右2組の表のため）"""
+def read_block(bw, xs, y0, y1, blk, conf, mode, empty, total_col, name_y=None):
+    """1行の中の「1組ぶん」を読む（左右2組の表のため）
+
+    name_y は施設名のマスの縦の範囲。1施設が2行にまたがる表（真岡市は上の行が
+    受入可能数、下の行が記号）では、名前は2行ぶんの高さの中央に書かれているので、
+    値の行 (y0, y1) とは別に渡す。
+    """
     name_col, age_cols = blk["name"], blk["ages"]
     if name_col + 1 >= len(xs):
         return None
+    ny0, ny1 = name_y if name_y else (y0, y1)
     # 罫線が太い（二重線など）表では、内側に詰める幅を広げないと
     # 線のかけらを記号と一緒に読んでしまう
     pad = conf.get("cellPad", 3)
-    name = read_name(cell(bw, xs[name_col], xs[name_col + 1], y0, y1)) or "?"
+    name = read_name(cell(bw, xs[name_col], xs[name_col + 1], ny0, ny1)) or "?"
     values, symbols, ok = [None] * 6, [None] * 6, False
     for i, c in enumerate(age_cols):
         if c + 1 >= len(xs):
@@ -393,6 +407,8 @@ def read_table(pdf_bytes, conf):
     0歳と1歳が1つの欄＝混合保育）。pages に数字ではなく
     {"page": 0, "ageCols": [...]} のように書くと、そのページだけ設定を上書きする。
     """
+    global DENOISE_KERNEL
+    DENOISE_KERNEL = int(conf.get("denoiseKernel", 3))
     pages = conf.get("pages")
     if pages is None:
         pages = [conf.get("page", 0)]
@@ -436,15 +452,27 @@ def read_region(img, conf, page):
     total_col = conf.get("totalCol")
     mode = conf.get("cellMode", "number")
     empty = conf.get("emptyValue")
+    # 1施設が何行を占めるか。真岡市は「受入可能数の行」と「記号の行」の2行で
+    # 1施設なので rowsPerFacility=2、読むのは valueRow=1（0始まり）の記号の行。
+    # 施設名は nameRow の行だけを読む（書かなければ施設ぶんの高さ全部）
+    per = int(conf.get("rowsPerFacility", 1))
+    value_row = int(conf.get("valueRow", 0))
+    name_row = conf.get("nameRow")
     rows = []
-    for r in range(conf.get("headerRows", 1), len(ys) - 1):
-        y0, y1 = ys[r], ys[r + 1]
+    for r in range(conf.get("headerRows", 1), len(ys) - 1, per):
+        if r + per >= len(ys):
+            break
+        y0, y1 = ys[r + value_row], ys[r + value_row + 1]
+        if per > 1:
+            name_y = (ys[r + name_row], ys[r + name_row + 1]) if name_row is not None else (ys[r], ys[r + per])
+        else:
+            name_y = None
         if y1 - y0 < 8:
             continue
         if name_col + 1 >= len(xs):
             continue
         for blk in blocks:
-            got = read_block(bw, xs, y0, y1, blk, conf, mode, empty, total_col)
+            got = read_block(bw, xs, y0, y1, blk, conf, mode, empty, total_col, name_y=name_y)
             if got:
                 rows.append(got)
         continue

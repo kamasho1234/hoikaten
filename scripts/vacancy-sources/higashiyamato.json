@@ -3,6 +3,7 @@
   "name": "東大和市",
   "sourceName": "東大和市「市内保育施設空き状況」",
   "indexUrl": "https://www.city.higashiyamato.lg.jp/kosodatekyoiku/hoiku/1007370.html",
+  "pausedPattern": "更新準備中のため掲載しておりません",
   "layout": "html-tables",
   "columns": {
     "name": 0,

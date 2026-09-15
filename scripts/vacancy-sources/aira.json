@@ -9,6 +9,7 @@
   "layout": "image-table",
   "dpi": 300,
   "lineRatio": 0.3,
+  "inkRatio": 0.01,
   "headerRows": 2,
   "nameCol": 1,
   "ageCols": [

@@ -94,6 +94,18 @@ type Config = {
     allowFuture?: boolean;
   };
   minFacilities?: number;
+  /**
+   * 公式サイトが GitHub Actions（海外の IP）からの取得を拒むとき、その理由。
+   * 書いてあると CI では取り込まずに飛ばす（手元で npm run vacancy:fetch:config -- <slug> を回す）。
+   * 宇土市は 403、鶴ヶ島市は別の内容のページが返ってリンクが見つからない（2026-09-15）。
+   */
+  ciBlocked?: string;
+  /**
+   * 公式ページにこの文言があるときは、表が一時的に下げられているとみなして
+   * 失敗にせず見送る（東大和市は申請期間の合間に「更新準備中」として表を外す）。
+   * 公開中のデータはそのまま残る。
+   */
+  pausedPattern?: string;
 };
 
 function fail(message: string): never {
@@ -173,6 +185,10 @@ async function run(slug: string): Promise<void> {
 
   console.log(`\n${conf.name}の空き状況を取り込みます`);
   console.log(`公式ページ: ${conf.indexUrl}`);
+  if (conf.ciBlocked && process.env.GITHUB_ACTIONS) {
+    console.log(`[スキップ] CI からは取り込めません: ${conf.ciBlocked}`);
+    return;
+  }
 
   const isHtml = conf.layout === "html-tables";
   const specs: PdfSpec[] = conf.pdfs ?? [conf.pdf ?? {}];
@@ -187,8 +203,17 @@ async function run(slug: string): Promise<void> {
   };
 
   // 記事のIDが毎月変わる自治体では、一覧のページから記事へ1段たどる
+  const pausedRe = conf.pausedPattern ? new RegExp(conf.pausedPattern) : null;
+  const paused = (text: string): boolean => {
+    if (!pausedRe || !pausedRe.test(text)) return false;
+    console.log(`[見送り] 公式ページに「${conf.pausedPattern}」とあるので、表が戻るまで待ちます`);
+    return true;
+  };
+
   if (conf.indexLink) {
     const listHtml = await getHtml(indexUrl);
+    // 伊達市（福島県）は毎月1〜5日だけ公開し、それ以外は一覧に「公開を停止しています」と書く
+    if (paused(stripTags(listHtml))) return;
     const wanted = new RegExp(conf.indexLink.pattern);
     const hits: Array<{ url: string; label: string }> = [];
     for (const m of listHtml.matchAll(/<a[^>]+href="([^"]+)"[^>]*>([\s\S]{0,300}?)<\/a>/gi)) {
@@ -289,6 +314,7 @@ async function run(slug: string): Promise<void> {
     if (firstLastModified === null) firstLastModified = lastModified;
     // HTMLの表を読むときは、基準日も同じページの本文から拾う
     if (isHtml && !pageText) pageText = stripTags(decodeHtml(doc));
+    if (paused(pageText)) return;
 
     let payload: { rows: Array<Record<string, unknown>>; text: string };
     try {

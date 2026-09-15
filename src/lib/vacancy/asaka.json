@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "asaka",
   "municipalityName": "朝霞市",
-  "asOf": "2026-08-01",
-  "fetchedAt": "2026-09-06",
+  "asOf": "2026-09-01",
+  "fetchedAt": "2026-09-16",
   "sourceName": "朝霞市「受入可能人数予定表」",
   "sourceUrl": "https://www.city.asaka.lg.jp/site/kosodate/hoiku-ninzu.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.asaka.lg.jp/uploaded/attachment/111428.pdf"
+    "vacancy": "https://www.city.asaka.lg.jp/uploaded/attachment/112183.pdf"
   },
   "metrics": [
     "vacancy"
@@ -102,7 +102,7 @@
         0,
         0,
         0,
-        0,
+        1,
         2,
         3
       ]
@@ -144,9 +144,9 @@
         0,
         0,
         0,
+        0,
         1,
-        1,
-        4
+        3
       ]
     },
     {
@@ -172,7 +172,7 @@
         0,
         0,
         0,
-        null,
+        0,
         0,
         0
       ]
@@ -185,7 +185,7 @@
       "vacancy": [
         1,
         0,
-        2,
+        1,
         0,
         6,
         2
@@ -352,8 +352,8 @@
       "c": 1,
       "vacancy": [
         0,
-        1,
-        1,
+        0,
+        2,
         1,
         0,
         5
@@ -411,7 +411,7 @@
         0,
         0,
         0,
-        3,
+        1,
         0
       ]
     },
@@ -480,7 +480,7 @@
         0,
         0,
         0,
-        1,
+        2,
         2,
         1
       ]
@@ -492,7 +492,7 @@
       "c": 1,
       "vacancy": [
         0,
-        0,
+        1,
         1,
         null,
         null,
@@ -563,7 +563,7 @@
       "vacancy": [
         0,
         0,
-        0,
+        1,
         4,
         3,
         7
@@ -757,7 +757,7 @@
       "w": null,
       "c": 2,
       "vacancy": [
-        2,
+        1,
         0,
         0,
         null,
@@ -869,9 +869,9 @@
       "w": null,
       "c": 2,
       "vacancy": [
-        2,
-        0,
         1,
+        0,
+        0,
         null,
         null,
         null
@@ -883,7 +883,7 @@
       "w": null,
       "c": 2,
       "vacancy": [
-        1,
+        0,
         0,
         0,
         null,
@@ -913,7 +913,7 @@
       "vacancy": [
         0,
         0,
-        1,
+        0,
         null,
         null,
         null
@@ -1023,9 +1023,9 @@
       "w": null,
       "c": 2,
       "vacancy": [
-        4,
-        0,
         2,
+        0,
+        1,
         null,
         null,
         null
@@ -1122,7 +1122,7 @@
       "c": 2,
       "vacancy": [
         null,
-        null,
+        0,
         0,
         null,
         null,

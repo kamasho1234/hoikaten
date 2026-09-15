@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "yamaga",
   "municipalityName": "山鹿市",
-  "asOf": "2026-08-13",
-  "fetchedAt": "2026-09-06",
+  "asOf": "2026-09-11",
+  "fetchedAt": "2026-09-16",
   "sourceName": "山鹿市「保育所等入所調整が可能な施設一覧」",
   "sourceUrl": "https://www.city.yamaga.kumamoto.jp/kosodate/kiji003426/index.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.yamaga.kumamoto.jp/kosodate/kiji003426/3_426_13629_up_1r8zy0p7.pdf"
+    "vacancy": "https://www.city.yamaga.kumamoto.jp/kosodate/kiji003426/3_426_14078_up_yxddjrm5.pdf"
   },
   "metrics": [
     "symbol"
@@ -56,7 +56,7 @@
         null
       ],
       "symbols": [
-        "△",
+        "×",
         "×",
         "×",
         "×",
@@ -78,7 +78,7 @@
         null
       ],
       "symbols": [
-        "△",
+        "×",
         "○",
         "△",
         "○",
@@ -210,12 +210,12 @@
         null
       ],
       "symbols": [
-        "○",
         "△",
         "△",
         "△",
-        "△",
-        "△"
+        "×",
+        "×",
+        "×"
       ]
     },
     {
@@ -277,8 +277,8 @@
       ],
       "symbols": [
         "×",
-        "×",
         "△",
+        "○",
         "×",
         "×",
         "×"
@@ -386,10 +386,10 @@
         null
       ],
       "symbols": [
+        "×",
+        "×",
+        "×",
         "△",
-        "×",
-        "×",
-        "×",
         "×",
         "×"
       ]
@@ -452,7 +452,7 @@
         null
       ],
       "symbols": [
-        "○",
+        "△",
         "○",
         "△",
         "○",
@@ -496,7 +496,7 @@
         null
       ],
       "symbols": [
-        "△",
+        "×",
         "△",
         "×",
         "△",
@@ -541,7 +541,7 @@
       ],
       "symbols": [
         "△",
-        null,
+        "△",
         null,
         null,
         null,

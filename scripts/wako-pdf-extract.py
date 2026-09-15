@@ -4,14 +4,15 @@
 実行: python scripts/wako-pdf-extract.py <pdf>
 出力: 標準出力にJSON（fetch-wako-vacancy.ts から呼ぶ）
 
-## 表の作り
-- 1ページに表が2つ。1つめが0〜2歳児、2つめが3〜5歳児
-- **1つの表に年齢が3つ横に並ぶ**。年齢ごとに
-  「施設名／申込者数(第1希望)／申込者数(合計)／募集人数」の4列で、
-  年齢と年齢の間に空の列が1つ入る
+## 表の作り（令和8年11月選考分から。それまでは0〜2歳と3〜5歳の表が2つに分かれていた）
+- 1ページに表が1つ。1行目に「０歳児」〜「５歳児」の見出しが3列おきに並び、
+  2行目がその下の「申込者数(第1希望)／申込者数(合計)／募集人数」
+- 施設名は「施設名」の列。その左の列は「保育園・認定こども園」「小規模保育事業所」の
+  縦書きの類型（セルが結合されているので一部の行にしか出ない）
 - 当サイトが載せるのは**募集人数**（＝その月の選考で受け入れる枠）
-- 「保育園計」「小規模計」「市内合計」の行があるので、積み上げと突き合わせられる
-- 施設名の欄が空の行は、その年齢にその施設が無いことを表す
+- 「保育園・認定こども園 計」「小規模 計」「市内合計」の行があるので、積み上げと突き合わせられる
+- 申込者数も募集人数も空の欄は、その年齢にその施設のクラスが無いことを表す
+- 「令和N年M月D日現在」の文言は無くなった。時点は呼び出し側で資料の公開日（Last-Modified）にする
 """
 
 import json
@@ -20,10 +21,8 @@ import sys
 
 import pdfplumber
 
-# 1つの年齢が使う列数（施設名・第1希望・合計・募集人数）
-BLOCK = 4
-AGE_PER_TABLE = 3
-TOTAL_ROWS = ("保育園計", "小規模計", "市内合計", "認定こども園計", "合計")
+AGE_COUNT = 6
+TOTAL_ROWS = ("保育園計", "小規模計", "市内合計", "認定こども園計", "保育園・認定こども園計", "合計")
 
 
 def fail(message):
@@ -59,40 +58,42 @@ def extract(path):
 
             for table in page.find_tables():
                 rows = [[cell(c) for c in r] for r in table.extract()]
-                if not rows:
+                if len(rows) < 3:
                     continue
-                head = rows[0]
-                # 「０歳児」「1歳児」…の見出しが3つ並ぶ表だけを読む
+                head, sub = rows[0], rows[1]
+                # 1行目に「０歳児」…が並ぶ表だけを読む
                 starts = []
                 for i, h in enumerate(head):
                     m = re.fullmatch(r"([０-９\d])歳児", h)
                     if m:
                         starts.append((i, int(m.group(1).translate(str.maketrans("０１２３４５", "012345")))))
-                if len(starts) != AGE_PER_TABLE:
+                if len(starts) != AGE_COUNT:
                     continue
+                name_cols = [i for i, h in enumerate(sub) if h == "施設名"]
+                if len(name_cols) != 1:
+                    fail(f"「施設名」の列が見つかりません: {sub}")
+                name_col = name_cols[0]
                 for col, age in starts:
-                    if head[col + 3] != "募集人数":
-                        fail(f"{age}歳児の欄に「募集人数」がありません: {head[col : col + 4]}")
-                    for row in rows[1:]:
-                        name = row[col]
-                        if not name or name.endswith("こども園") and name == "保育園・認定こども園":
-                            continue
-                        if name in ("保育園・認定こども園", "小規模保育事業所", "事業所内保育事業所"):
-                            continue
-                        value = number(row[col + 3])
+                    if sub[col + 2] != "募集人数":
+                        fail(f"{age}歳児の欄に「募集人数」がありません: {sub[col : col + 3]}")
+                for row in rows[2:]:
+                    # 「市内合計」は施設名の列ではなく左の類型の列に書かれている
+                    name = row[name_col] or row[name_col - 1]
+                    if not name or name in ("保育園・認定こども園", "小規模保育事業所", "事業所内保育事業所"):
+                        continue
+                    for col, age in starts:
+                        value = number(row[col + 2])
                         if name in TOTAL_ROWS:
                             if value is not None:
                                 totals.setdefault(age, {})[name] = value
                             continue
                         if value is None:
                             # 申込者数だけがあって募集人数が空、という行は無いはず
-                            if any(cell(row[col + k]) for k in (1, 2, 3)):
-                                fail(f"{name}: {age}歳児の募集人数を読めません（「{row[col + 3]}」）")
+                            if any(row[col + k] for k in (0, 1, 2)):
+                                fail(f"{name}: {age}歳児の募集人数を読めません（「{row[col + 2]}」）")
                             continue
                         ages.setdefault(name, {})[age] = value
 
-    if as_of is None:
-        fail("「令和N年M月D日現在」を読み取れませんでした")
     if target is None:
         fail("「令和N年M月選考募集人数」を読み取れませんでした")
     if not ages:

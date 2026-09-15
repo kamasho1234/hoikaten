@@ -33,8 +33,8 @@ const UA = "Mozilla/5.0 (compatible; hoikaten/1.0; +https://hoikaten.com)";
 const OUT_PATH = path.join(process.cwd(), "src", "lib", "vacancy", `${MUNICIPALITY_SLUG}.json`);
 
 /** 書き起こしたときの画像。差し替わったら中断する */
-const IMAGE_URL = "https://www.city.shiogama.miyagi.jp/uploaded/life/58443_149373_img.jpg";
-const IMAGE_BYTES = 45338;
+const IMAGE_URL = "https://www.city.shiogama.miyagi.jp/uploaded/life/58598_149824_img.jpg";
+const IMAGE_BYTES = 45408;
 /** 画像に書かれている基準日 */
 const AS_OF = "2026-09-01";
 
@@ -53,7 +53,7 @@ const TABLE: { name: string; months: string; marks: (string | null)[]; note?: st
   {
     name: "藤倉保育所",
     months: "3か月〜",
-    marks: ["×", "×", "×", "×", "×", "×"],
+    marks: ["△", "×", "×", "△", "×", "△"],
     note: "改修工事（令和8年9月〜令和9年2月）を予定しています。",
   },
   {
@@ -63,7 +63,7 @@ const TABLE: { name: string; months: string; marks: (string | null)[]; note?: st
     note: "閉所予定のため児童の段階的受け入れ停止を行っています。",
   },
   { name: "うみまち保育所", months: "3か月〜", marks: ["×", "×", "△", "×", "×", "△"] },
-  { name: "元気キッズさかえ保育園", months: "5か月〜", marks: ["×", "×", "×", "△", "×", "×"] },
+  { name: "元気キッズさかえ保育園", months: "5か月〜", marks: ["×", "×", "△", "△", "△", "×"] },
   { name: "元気キッズきたはま保育園", months: "5か月〜", marks: ["×", "×", "×", "△", "×", "×"] },
   { name: "玉川保育園", months: "4か月〜", marks: ["×", "×", "×", "〇", "△", "△"] },
   { name: "あゆみ保育園", months: "産休明け〜", marks: ["×", "×", "△", "△", "×", "×"] },
@@ -191,11 +191,14 @@ async function main(): Promise<void> {
     `${facilities.length}施設 ／ ${[...marks].map(([m, n]) => `${m}${n}`).join("・")}・受入れなし${notOffered}`,
   );
 
+  // 市は基準日を変えずに画像を差し替えることがある（2026-09-01 現在の画像が9月中に
+  // 差し替わり、藤倉保育所と元気キッズさかえ保育園の記号が変わった）ので、
+  // 時点だけでなく画像の URL も前回と比べる
   const previous = fs.existsSync(OUT_PATH)
-    ? (JSON.parse(fs.readFileSync(OUT_PATH, "utf-8")) as { asOf?: string })
+    ? (JSON.parse(fs.readFileSync(OUT_PATH, "utf-8")) as { asOf?: string; sourceFiles?: Record<string, string> })
     : null;
-  if (previous?.asOf === AS_OF) {
-    console.log(`公式データの時点が前回と同じ（${AS_OF}）のため更新はありません。`);
+  if (previous?.asOf === AS_OF && previous?.sourceFiles?.vacancy === IMAGE_URL) {
+    console.log(`公式データの時点（${AS_OF}）も画像も前回と同じため更新はありません。`);
     return;
   }
 

@@ -67,7 +67,8 @@ function runPython(args: string[]): string {
 }
 
 type PdfResult = {
-  asOf: number[];
+  /** 「令和N年M月D日現在」の日付。令和8年11月選考分から書かれなくなった（null） */
+  asOf: number[] | null;
   target: number[];
   rows: { name: string; values: Record<string, number> }[];
   totals: Record<string, Record<string, number>>;
@@ -110,8 +111,21 @@ async function main(): Promise<void> {
     fs.rmSync(tmp, { force: true });
   }
 
-  const [ry, rm, rd] = parsed.asOf;
-  const asOf = `${ry + 2018}-${String(rm).padStart(2, "0")}-${String(rd).padStart(2, "0")}`;
+  // 令和8年11月選考分から PDF に「令和N年M月D日現在」が無いので、資料の公開日を時点にする
+  let asOf: string;
+  let asOfLabel: string;
+  if (parsed.asOf) {
+    const [ry, rm, rd] = parsed.asOf;
+    asOf = `${ry + 2018}-${String(rm).padStart(2, "0")}-${String(rd).padStart(2, "0")}`;
+    asOfLabel = `${asOf}時点のものです`;
+  } else {
+    const lm = pdfRes.headers.get("last-modified");
+    if (!lm) fail("PDFに「令和N年M月D日現在」が無く、Last-Modified も無いので時点を決められません");
+    const at = new Date(lm);
+    if (Number.isNaN(at.getTime())) fail(`資料の公開日を読めません:「${lm}」`);
+    asOf = new Date(at.getTime() + 9 * 60 * 60 * 1000).toISOString().slice(0, 10);
+    asOfLabel = `${asOf}（市が資料を公開した日）時点のものです`;
+  }
   if (asOf > todayJst()) fail(`時点（${asOf}）が今日より先になっています`);
   const targetLabel = `${parsed.target[0] + 2018}年${parsed.target[1]}月`;
   if (parsed.target[1] !== latest.month) {
@@ -182,7 +196,7 @@ async function main(): Promise<void> {
   }
 
   const notes = [
-    `和光市が公表しているのは${targetLabel}選考の募集人数で、${asOf}時点のものです。「いまの空き」ではなく、その月の選考で受け入れる枠の数です。`,
+    `和光市が公表しているのは${targetLabel}選考の募集人数で、${asOfLabel}。「いまの空き」ではなく、その月の選考で受け入れる枠の数です。`,
     "市は「募集人数が生じていない保育施設についても、申込後に退所や転所により新たに空きが生じる場合がありますので、募集人数の状況にかかわらず、希望する施設はすべてお申し込みください」としています。",
     "市の資料に載っていない年齢は「—」にしています。その施設がそのクラスを設けていないことを表します。",
   ];

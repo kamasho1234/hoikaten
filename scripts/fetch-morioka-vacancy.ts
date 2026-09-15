@@ -101,6 +101,12 @@ async function main(): Promise<void> {
     })
     .filter((v): v is NonNullable<typeof v> => v !== null);
   if (links.length === 0) {
+    // 市は選考が始まると空き状況を下げ、翌月入所分を月初に出し直す
+    // （「10月入所分の空き状況の公開は終了しました。11月入所分の空き状況は10月6日頃に公開予定です。」）
+    if (/空き状況の公開は終了しました/.test(stripTags(html))) {
+      console.log("[見送り] 公式ページに「空き状況の公開は終了しました」とあるので、次の公開まで前回のデータを残します");
+      return;
+    }
     fail(
       "「空き状況（令和N年M月入所分）」のPDFが見つかりません。ページの構成が変わった可能性があります。",
     );

@@ -3,6 +3,9 @@
   "name": "高畠町",
   "sourceName": "高畠町「保育施設等の途中入園」",
   "indexUrl": "https://www.town.takahata.yamagata.jp/site/kosodate/4828.html",
+  "indexLink": {
+    "pattern": "空き状況」のご案内"
+  },
   "layout": "html-tables",
   "columns": {
     "name": 0,
@@ -24,11 +27,13 @@
   ],
   "asOf": {
     "source": "page",
-    "pattern": "令和(\\d+)年(\\d{1,2})月(\\d{1,2})日時点"
+    "pattern": "令和(\\d+)年(\\d{1,2})月(\\d{1,2})日時点",
+    "allowFuture": true
   },
   "minFacilities": 6,
   "notes": [
-    "町は途中入園の受入可能人数として公表しています。空きがあっても必ず入園できるとは限りません。"
+    "町は途中入園の受入可能人数として公表しています。空きがあっても必ず入園できるとは限りません。",
+    "町は「令和N年M月1日時点」として、その日より前に翌月1日時点の空き状況を公表することがあります。当サイトの基準日は町の表にある日付です。"
   ],
   "prefecture": "山形県"
 }

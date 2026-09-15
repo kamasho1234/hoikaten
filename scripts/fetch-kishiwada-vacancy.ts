@@ -9,7 +9,7 @@
  *   画像を拡大して目視で書き起こし、このファイルに表として持っている
  * - 公立と民間で**PDFが2枚に分かれている**ので、両方を続けて載せる
  * - 空きは人数。斜線はそのクラスを設けていないことを表す
- * - 基準日はPDFではなくページの本文に書かれている（「令和8年9月1日入所空き状況（令和8年8月5日時点）」）
+ * - 基準日はPDFではなくページの本文に書かれている（「令和8年10月1日入所空き状況（令和8年9月7日時点）」）
  */
 
 import fs from "node:fs";
@@ -29,22 +29,22 @@ const OUT_PATH = path.join(process.cwd(), "src", "lib", "vacancy", `${MUNICIPALI
 const PDFS = [
   {
     category: "公立保育所・公立認定こども園",
-    url: "https://www.city.kishiwada.lg.jp/uploaded/attachment/165575.pdf",
-    bytes: 736775,
+    url: "https://www.city.kishiwada.lg.jp/uploaded/attachment/166483.pdf",
+    bytes: 453556,
     linkText: "公立保育所・公立認定こども園",
   },
   {
     category: "民間保育園・民間認定こども園",
-    url: "https://www.city.kishiwada.lg.jp/uploaded/attachment/165576.pdf",
-    bytes: 846876,
+    url: "https://www.city.kishiwada.lg.jp/uploaded/attachment/166484.pdf",
+    bytes: 553892,
     linkText: "民間保育園・民間認定こども園",
   },
 ];
 
 /** 書き起こしたときのページ本文の日付。ここが変わったら表も変わっている */
-const AS_OF = "2026-08-05";
+const AS_OF = "2026-09-07";
 /** 何月入所ぶんの受入枠か */
-const TARGET_LABEL = "令和8年9月1日入所";
+const TARGET_LABEL = "令和8年10月1日入所";
 
 /**
  * 画像から書き起こした受入枠。null は斜線（そのクラスを設けていない）。
@@ -54,30 +54,30 @@ const TABLE: { category: number; no: string; name: string; from: string; v: (num
   { category: 0, no: "101", name: "浜保育所", from: "1歳〜", v: [null, 0, 0, 3, 0, 3] },
   { category: 0, no: "102", name: "千喜里保育所", from: "57日〜", v: [0, 0, 0, 1, 11, 6] },
   { category: 0, no: "103", name: "大宮保育所", from: "3ヶ月〜", v: [0, 0, 0, 3, 10, 6] },
-  { category: 0, no: "105", name: "山直北保育所", from: "3ヶ月〜", v: [0, 0, 0, 2, 0, 0] },
-  { category: 0, no: "110", name: "城北保育所", from: "3ヶ月〜", v: [0, 0, 0, 0, 5, 1] },
+  { category: 0, no: "105", name: "山直北保育所", from: "3ヶ月〜", v: [0, 0, 0, 2, 3, 0] },
+  { category: 0, no: "110", name: "城北保育所", from: "3ヶ月〜", v: [0, 0, 0, 2, 5, 1] },
   { category: 0, no: "113", name: "城内保育所", from: "1歳〜", v: [0, 0, 0, 5, 3, 1] },
   { category: 0, no: "114", name: "八木北保育所", from: "3ヶ月〜", v: [0, 0, 0, 0, 11, 0] },
   { category: 0, no: "116", name: "修斉保育所", from: "57日〜", v: [0, 0, 0, 5, 5, 4] },
   { category: 0, no: "118", name: "桜台保育所", from: "1歳〜", v: [0, 0, 0, 0, 0, 0] },
-  { category: 0, no: "307", name: "旭・太田こども園", from: "57日〜", v: [0, 0, 1, 0, 0, 1] },
-  { category: 0, no: "308", name: "春木・大芝こども園", from: "57日〜", v: [0, 0, 0, 1, 5, 7] },
+  { category: 0, no: "307", name: "旭・太田こども園", from: "57日〜", v: [0, 0, 0, 0, 0, 1] },
+  { category: 0, no: "308", name: "春木・大芝こども園", from: "57日〜", v: [0, 0, 0, 0, 5, 7] },
 
   { category: 1, no: "201", name: "双葉児童園", from: "6ヶ月〜", v: [0, 0, 0, 0, 0, 0] },
   { category: 1, no: "202", name: "八木こども園", from: "57日〜", v: [0, 0, 0, 0, 0, 0] },
   { category: 1, no: "203", name: "認定こども園五風会", from: "6ヶ月〜", v: [0, 0, 0, 0, 0, 0] },
-  { category: 1, no: "204", name: "山直南こども園", from: "57日〜", v: [0, 0, 0, 0, 0, 0] },
-  { category: 1, no: "205", name: "星光こども園", from: "4ヶ月〜", v: [1, 0, 0, 0, 0, 0] },
-  { category: 1, no: "206", name: "はちまん認定こども園", from: "3ヶ月〜", v: [1, 0, 1, 1, 0, 1] },
+  { category: 1, no: "204", name: "山直南こども園", from: "57日〜", v: [3, 0, 0, 0, 0, 0] },
+  { category: 1, no: "205", name: "星光こども園", from: "4ヶ月〜", v: [0, 0, 0, 0, 0, 0] },
+  { category: 1, no: "206", name: "はちまん認定こども園", from: "3ヶ月〜", v: [0, 0, 0, 0, 1, 2] },
   { category: 1, no: "207", name: "この花こども園", from: "3ヶ月〜", v: [0, 0, 0, 0, 0, 0] },
-  { category: 1, no: "208", name: "光陽保育園", from: "57日〜", v: [0, 0, 0, 0, 0, 0] },
+  { category: 1, no: "208", name: "光陽保育園", from: "57日〜", v: [4, 0, 0, 0, 0, 0] },
   { category: 1, no: "209", name: "久米田保育園", from: "3ヶ月〜", v: [0, 0, 0, 0, 0, 0] },
-  { category: 1, no: "210", name: "杉乃木保育園", from: "57日〜", v: [0, 0, 0, 0, 1, 0] },
+  { category: 1, no: "210", name: "杉乃木保育園", from: "57日〜", v: [0, 0, 1, 0, 1, 0] },
   { category: 1, no: "211", name: "やまだい保育園", from: "57日〜", v: [0, 0, 0, 0, 0, 0] },
   { category: 1, no: "212", name: "光明保育園", from: "3ヶ月〜", v: [0, 0, 0, 0, 0, 0] },
-  { category: 1, no: "213", name: "天神山こども園", from: "3ヶ月〜", v: [1, 0, 0, 0, 0, 0] },
+  { category: 1, no: "213", name: "天神山こども園", from: "3ヶ月〜", v: [0, 0, 0, 0, 0, 0] },
   { category: 1, no: "214", name: "東岸和田こども園", from: "6ヶ月〜", v: [0, 0, 0, 0, 0, 0] },
-  { category: 1, no: "215", name: "めだか保育園", from: "57日〜", v: [0, 0, 0, 0, 0, 0] },
+  { category: 1, no: "215", name: "めだか保育園", from: "57日〜", v: [0, 0, 0, 0, 1, 0] },
   {
     category: 1,
     no: "216",
@@ -92,21 +92,21 @@ const TABLE: { category: number; no: string; name: string; from: string; v: (num
     from: "6ヶ月〜",
     v: [0, 0, 0, 0, 0, 0],
   },
-  { category: 1, no: "218", name: "東光こども園", from: "3ヶ月〜", v: [0, 0, 0, 0, 2, 0] },
+  { category: 1, no: "218", name: "東光こども園", from: "3ヶ月〜", v: [0, 0, 0, 0, 0, 0] },
   {
     category: 1,
     no: "219",
     name: "ピープル大芝チャイルドスクール",
     from: "6ヶ月〜",
-    v: [0, 0, 0, 0, 4, 5],
+    v: [0, 0, 0, 0, 2, 2],
   },
-  { category: 1, no: "220", name: "ドルチェ・バンビーニ", from: "6ヶ月〜", v: [0, 0, 0, 0, 9, 0] },
-  { category: 1, no: "222", name: "中央保育園", from: "57日〜", v: [0, 0, 0, 2, 0, 0] },
+  { category: 1, no: "220", name: "ドルチェ・バンビーニ", from: "6ヶ月〜", v: [0, 1, 0, 0, 9, 0] },
+  { category: 1, no: "222", name: "中央保育園", from: "57日〜", v: [0, 0, 0, 0, 0, 0] },
   { category: 1, no: "301", name: "チューリップ保育園", from: "57日〜", v: [0, 0, 0, 0, 1, 0] },
   { category: 1, no: "302", name: "春木カトリック幼稚園", from: "1歳〜", v: [null, 0, 0, 0, 2, 0] },
-  { category: 1, no: "303", name: "城東こども園", from: "6ヶ月〜", v: [0, 1, 0, 0, 0, 0] },
+  { category: 1, no: "303", name: "城東こども園", from: "6ヶ月〜", v: [0, 0, 0, 0, 0, 0] },
   { category: 1, no: "304", name: "楓の木こども園", from: "3ヶ月〜", v: [0, 0, 0, 1, 0, 0] },
-  { category: 1, no: "305", name: "第2八木こども園", from: "57日〜", v: [1, 0, 0, 0, 0, 0] },
+  { category: 1, no: "305", name: "第2八木こども園", from: "57日〜", v: [0, 0, 0, 0, 0, 0] },
   {
     category: 1,
     no: "306",
@@ -121,7 +121,7 @@ const TABLE: { category: number; no: string; name: string; from: string; v: (num
     from: "57日〜",
     v: [0, 0, 0, null, null, null],
   },
-  { category: 1, no: "205-2", name: "星光乳児室", from: "6ヶ月〜", v: [1, 0, 0, null, null, null] },
+  { category: 1, no: "205-2", name: "星光乳児室", from: "6ヶ月〜", v: [0, 0, 0, null, null, null] },
   {
     category: 1,
     no: "211-2",

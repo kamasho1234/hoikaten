@@ -53,9 +53,19 @@ jobs:
 
       # 西尾市などは空き状況を紙のスキャン画像のままPDFにしている。
       # 文字が入っていないので、罫線から升目を割り出して1マスずつOCRで読む。
-      # 日本語の学習データは tesseract-ocr-jpn に入っている。
+      # 学習データは apt の tesseract-ocr-jpn（軽量版）だと施設名の読み違えが多く、
+      # 姶良市・松戸市で施設名の照合に失敗していた（2026-09-15）。手元の環境と同じ
+      # jpn は tessdata_best、eng は tessdata_fast をコミット固定で取り、sha256 で確かめる。
       - name: 画像PDF読み取り用のOCRをインストール
-        run: sudo apt-get update && sudo apt-get install -y tesseract-ocr tesseract-ocr-jpn
+        run: |
+          sudo apt-get update && sudo apt-get install -y tesseract-ocr
+          mkdir -p "$RUNNER_TEMP/tessdata"
+          cd "$RUNNER_TEMP/tessdata"
+          curl -sSL -o jpn.traineddata https://raw.githubusercontent.com/tesseract-ocr/tessdata_best/80b4d76313a90c76124b29321b2e51373527a40a/jpn.traineddata
+          curl -sSL -o eng.traineddata https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/923915d4ced2a7235221788285785a29c4a42d4a/eng.traineddata
+          echo "36bdf9ac823f5911e624c30d0553e890b8abc7c31a65b3ef14da943658c40b79  jpn.traineddata" | sha256sum -c -
+          echo "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2  eng.traineddata" | sha256sum -c -
+          echo "TESSDATA_PREFIX=$RUNNER_TEMP/tessdata" >> "$GITHUB_ENV"
 
       # 自治体ごとに独立したステップにする。
       # ひとつの自治体が公式側の都合で落ちても他の自治体の更新は取り込みたいので

@@ -2,12 +2,12 @@
   "municipalitySlug": "aira",
   "municipalityName": "姶良市",
   "prefecture": "鹿児島県",
-  "asOf": "2026-08-10",
-  "fetchedAt": "2026-09-06",
+  "asOf": "2026-09-10",
+  "fetchedAt": "2026-09-16",
   "sourceName": "姶良市「保育施設空き状況一覧表」",
   "sourceUrl": "https://www.city.aira.lg.jp/kosodate/akizyoukyou.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.aira.lg.jp/kosodate/documents/r8nennhatigatusennkou.pdf"
+    "vacancy": "https://www.city.aira.lg.jp/kosodate/documents/r8_9airahoikusenkou.pdf"
   },
   "metrics": [
     "symbol"
@@ -80,7 +80,7 @@
       ],
       "symbols": [
         "×",
-        "△",
+        "×",
         "×",
         "×",
         "×",
@@ -323,7 +323,7 @@
       "symbols": [
         "×",
         "×",
-        "△",
+        "×",
         "×",
         "×",
         "×"
@@ -343,7 +343,7 @@
         null
       ],
       "symbols": [
-        "△",
+        "×",
         "×",
         "×",
         "×",
@@ -368,7 +368,7 @@
         "×",
         "×",
         "×",
-        "△",
+        "×",
         "×",
         "×"
       ]
@@ -389,7 +389,7 @@
       "symbols": [
         "×",
         "×",
-        "△",
+        "×",
         "×",
         "×",
         "×"
@@ -411,7 +411,7 @@
       "symbols": [
         "×",
         "×",
-        "△",
+        "×",
         "×",
         "×",
         "×"
@@ -431,12 +431,12 @@
         null
       ],
       "symbols": [
-        null,
-        null,
-        null,
-        "△",
-        null,
-        null
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
       ]
     },
     {
@@ -521,7 +521,7 @@
       "symbols": [
         "×",
         "×",
-        "△",
+        "×",
         "×",
         "×",
         "×"
@@ -739,12 +739,12 @@
         null
       ],
       "symbols": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
       ]
     }
   ]

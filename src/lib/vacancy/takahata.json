@@ -2,12 +2,12 @@
   "municipalitySlug": "takahata",
   "municipalityName": "高畠町",
   "prefecture": "山形県",
-  "asOf": "2026-09-01",
-  "fetchedAt": "2026-09-06",
+  "asOf": "2026-10-01",
+  "fetchedAt": "2026-09-16",
   "sourceName": "高畠町「保育施設等の途中入園」",
-  "sourceUrl": "https://www.town.takahata.yamagata.jp/site/kosodate/4828.html",
+  "sourceUrl": "https://www.town.takahata.yamagata.jp/site/kosodate/5052.html",
   "sourceFiles": {
-    "vacancy": "https://www.town.takahata.yamagata.jp/site/kosodate/4828.html"
+    "vacancy": "https://www.town.takahata.yamagata.jp/site/kosodate/5052.html"
   },
   "metrics": [
     "vacancy"
@@ -100,7 +100,7 @@
       "vacancy": [
         0,
         2,
-        3,
+        2,
         0,
         0,
         0
@@ -112,7 +112,7 @@
       "w": null,
       "c": 1,
       "vacancy": [
-        3,
+        2,
         2,
         0,
         null,

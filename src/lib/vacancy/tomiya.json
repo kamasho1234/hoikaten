@@ -1,18 +1,19 @@
 {
   "municipalitySlug": "tomiya",
   "municipalityName": "富谷市",
-  "asOf": "2026-09-01",
-  "fetchedAt": "2026-09-06",
+  "asOf": "2026-10-01",
+  "fetchedAt": "2026-09-15",
   "sourceName": "富谷市「利用調整前の入所可能数状況」",
   "sourceUrl": "https://www.tomiya-city.miyagi.jp/kosodate/hoiku/65f0ff3e05c1474d96fb7ed92e411c2d90b86257.html",
   "sourceFiles": {
-    "vacancy": "https://www.tomiya-city.miyagi.jp/uploads/pdf/65dbf89e4b8317ec247e24a506d7a5ea6438f1de.pdf"
+    "vacancy": "https://www.tomiya-city.miyagi.jp/uploads/pdf/8aec42d6cd4f384b95f97d89d9a7ec5ac603273a.pdf"
   },
   "metrics": [
     "symbol"
   ],
   "subtitle": "利用調整前の入所可能数状況",
   "notes": [
+    "市は翌月1日付入所の入所可能数をその日より前に公表することがあります。基準日は市の表にある「令和N年M月D日付入所」の日付です。",
     "市は空きを人数ではなく記号で公表しています。",
     "市は「施設の保育士の確保状況及び入所調整により実際と異なる場合があります」「現在×がついている施設についても入所決定の取り下げや退所等により受け入れ状況が変更になる場合があります」としています。",
     "市は「空き施設への申込をしても入所の確約とはなりません」「入所を希望する保育施設については空きの有無にかかわらず申し込みください」としています。",
@@ -82,9 +83,9 @@
       ],
       "symbols": [
         "×",
-        "×",
         "△",
         "×",
+        "△",
         "△",
         "×"
       ]
@@ -194,7 +195,7 @@
         "×",
         "×",
         "×",
-        "△",
+        "×",
         "×",
         "×"
       ]
@@ -237,7 +238,7 @@
       "symbols": [
         "×",
         "×",
-        "×",
+        "△",
         "△",
         "×",
         "×"
@@ -262,7 +263,7 @@
         "×",
         "×",
         "△",
-        "△"
+        "×"
       ]
     },
     {
@@ -433,7 +434,7 @@
         null
       ],
       "symbols": [
-        "△",
+        "×",
         "×",
         "×",
         null,

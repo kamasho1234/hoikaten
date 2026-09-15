@@ -1,14 +1,14 @@
 {
   "slug": "kai",
   "name": "甲斐市",
-  "sourceName": "甲斐市「市内園の入所受入可能人数」",
-  "indexUrl": "https://www.city.kai.yamanashi.jp/site/kosodate/4432.html",
+  "sourceName": "甲斐市「令和9年4月 保育所等の入園受入れ人数について」",
+  "indexUrl": "https://www.city.kai.yamanashi.jp/site/kosodate/4420.html",
   "pdf": {
-    "linkPattern": "受入可能人数"
+    "linkPattern": "入園受入可能人数"
   },
   "layout": "auto-table",
   "columns": {
-    "name": 2
+    "name": 1
   },
   "categoryFrom": "none",
   "metrics": [
@@ -32,8 +32,10 @@
   },
   "minFacilities": 15,
   "notes": [
-    "市は毎月「翌月の入所受入可能人数」を公表しています。掲載時点の人数であり、変更されることがあります。",
-    "入園するクラスは4月1日時点の年齢で決まります。"
+    "市は令和9年4月入園の申込期間に合わせて、毎月の「翌月の入所受入可能人数」のページに代えて「令和9年4月入園受入可能人数（予定）」を公表しています（2026年9月から）。この表はその4月入園ぶんの人数で、いまの空きではありません。",
+    "市は「今年度中の新規入園や退園、保育士等の雇用状況によって、受入れ可能人数は随時変更があります」としています。",
+    "入園するクラスは令和9年4月1日時点の年齢で決まります。"
   ],
-  "prefecture": "山梨県"
+  "prefecture": "山梨県",
+  "subtitle": "翌年度4月入園ぶんの受入可能人数（予定）"
 }

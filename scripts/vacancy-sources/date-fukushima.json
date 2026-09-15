@@ -3,7 +3,11 @@
   "name": "伊達市（福島県）",
   "prefecture": "福島県",
   "sourceName": "伊達市「園別・年齢別空き情報」",
-  "indexUrl": "https://www.city.fukushima-date.lg.jp/soshiki/66/83166.html",
+  "indexUrl": "https://www.city.fukushima-date.lg.jp/soshiki/66/63272.html",
+  "indexLink": {
+    "pattern": "園別・年齢別空き情報"
+  },
+  "pausedPattern": "公開を停止しています",
   "layout": "html-tables",
   "onlyTablesContaining": "空き",
   "columns": {
@@ -55,6 +59,7 @@
     "この表は令和8年10月・11月に入園を希望する場合のものです。",
     "年齢は令和8年4月1日時点のものです。",
     "認定こども園は2・3号認定（保育）の欄です。",
-    "受け入れのないクラスは「—」にしています。"
+    "受け入れのないクラスは「—」にしています。",
+    "市は園別・年齢別の空き情報を毎月1日から5日ごろまでの短い期間だけ公開し、それ以外の期間は入所調整のため公開を停止しています。当サイトは次の公開まで前回の表を載せています。"
   ]
 }

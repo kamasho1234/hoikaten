@@ -1510,10 +1510,10 @@ obu: {
     symbolCounts: { "×": 63, "△": 41, "○": 15 },
   },
   yamaga: {
-    asOf: "2026-08-13",
+    asOf: "2026-09-11",
     facilityCount: 25,
     vacancy: 0,
-    symbolCounts: { "×": 78, "△": 50, "○": 9 },
+    symbolCounts: { "×": 83, "△": 47, "○": 8 },
   },
   murakami: {
     asOf: "2026-09-01",
@@ -1603,11 +1603,12 @@ obu: {
     facilityCount: 25,
     vacancy: 16,
   },
+  // 真岡市は令和8年9月から文字情報の無いPDF。記号は線の量（inkMarks）で読み、目視で数えた
   moka: {
-    asOf: "2026-08-01",
+    asOf: "2026-09-04",
     facilityCount: 8,
     vacancy: 0,
-    symbolCounts: { "×": 24, "△": 16, "○": 8 },
+    symbolCounts: { "×": 25, "△": 15, "○": 8 },
   },
   nasushiobara: {
     asOf: "2026-08-20",
@@ -1685,10 +1686,11 @@ obu: {
     facilityCount: 28,
     vacancy: 61,
   },
+  // 甲斐市は 2026-09 から令和9年4月入園ぶんの受入可能人数（PDF の合計行 439 と一致）
   kai: {
-    asOf: "2026-08-20",
+    asOf: "2026-09-01",
     facilityCount: 26,
-    vacancy: 21,
+    vacancy: 439,
   },
   nikko: {
     asOf: "2026-08-20",
@@ -1742,9 +1744,9 @@ obu: {
     vacancy: 53,
   },
   takahata: {
-    asOf: "2026-09-01",
+    asOf: "2026-10-01",
     facilityCount: 8,
-    vacancy: 39,
+    vacancy: 37,
   },
   shiwa: {
     asOf: "2026-08-26",
@@ -2118,10 +2120,11 @@ nishio: {
     vacancy: 0,
     symbolCounts: { "×": 124, "△": 39, "○": 33 },
   },
+  // 朝霞市は PDF の「合計」行（160）と一致
   asaka: {
-    asOf: "2026-08-01",
+    asOf: "2026-09-01",
     facilityCount: 79,
-    vacancy: 169,
+    vacancy: 160,
   },
   suita: {
     asOf: "2026-09-01",
@@ -2129,11 +2132,12 @@ nishio: {
     vacancy: 0,
     symbolCounts: { "×": 513, "△": 47, "○": 12 },
   },
+  // 姶良市は施設名が2行の高い行（2施設）が inkRatio の既定で空扱いになっていた（inkRatio 0.01 で解消）。目視で数えた
   aira: {
-    asOf: "2026-08-10",
+    asOf: "2026-09-10",
     facilityCount: 32,
     vacancy: 0,
-    symbolCounts: { "×": 158, "△": 10, "○": 1 },
+    symbolCounts: { "×": 177, "△": 2, "○": 1 },
   },
   taketoyo: {
     asOf: "2026-08-24",
@@ -2581,10 +2585,11 @@ nishio: {
     symbolCounts: { "〇": 114, "△": 56, "×": 271, "直接園にお尋ねください": 33, "令和8年度は休園": 36, "▲": 4 },
   },
   // 和光市は「その月の選考の募集人数」。年齢ごとの計の行と突き合わせている
+  // 和光市は PDF の「市内合計」行（6+0+23+28+36+31=124）と一致
   wako: {
-    asOf: "2026-08-10",
+    asOf: "2026-09-11",
     facilityCount: 46,
-    vacancy: 128,
+    vacancy: 124,
     emptyRatio: 0.2,
   },
   // 出水市は新規入所の受入可能枠。小規模と事業所内は2歳児までなので「—」が多い
@@ -2642,17 +2647,17 @@ nishio: {
   },
   // 富谷市は小規模・家庭的保育が多く、3歳以上が「—」になる施設が多い
   tomiya: {
-    asOf: "2026-09-01",
+    asOf: "2026-10-01",
     facilityCount: 20,
     vacancy: 0,
     emptyRatio: 0.16,
-    symbolCounts: { "×": 80, "△": 17, "○": 5 },
+    symbolCounts: { "×": 81, "△": 16, "○": 5 },
   },
   // 岸和田市はスキャン画像から書き起こした受入枠。乳児室は3歳以上が「—」になる
   kishiwada: {
-    asOf: "2026-08-05",
+    asOf: "2026-09-07",
     facilityCount: 42,
-    vacancy: 136,
+    vacancy: 134,
     emptyRatio: 0.06,
   },
   // 盛岡市は翌月入所の選考ぶんの空き枠。地域の欄は縦書きが崩れるので使わず施設類型で分ける
@@ -2707,11 +2712,12 @@ nishio: {
     emptyRatio: 0.25,
   },
   // 塩竈市は小規模2件と認定こども園1件で「—」が出る（15件中10欄）
+  // 塩竈市は 2026-09-01 現在のまま画像が差し替わった（58443→58598）。目視で数え直した
   shiogama: {
     asOf: "2026-09-01",
     facilityCount: 15,
     vacancy: 0,
-    symbolCounts: { "〇": 4, "△": 14, "×": 62 },
+    symbolCounts: { "〇": 4, "△": 19, "×": 57 },
     emptyRatio: 0.15,
   },
   // 関市は小規模保育で3〜5歳のクラスが無く「—」が出る（22件中1件）
