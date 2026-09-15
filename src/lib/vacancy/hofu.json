@@ -1,19 +1,19 @@
 {
   "municipalitySlug": "hofu",
   "municipalityName": "防府市",
-  "asOf": "2026-06-01",
-  "fetchedAt": "2026-08-26",
+  "asOf": "2026-09-15",
+  "fetchedAt": "2026-09-16",
   "sourceName": "防府市「保育所等の空き状況について」",
   "sourceUrl": "https://www.city.hofu.yamaguchi.jp/site/kosodate-portal/hoikuaki-r5.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.hofu.yamaguchi.jp/uploaded/attachment/148988.pdf"
+    "vacancy": "https://www.city.hofu.yamaguchi.jp/uploaded/attachment/149520.pdf"
   },
   "metrics": [
     "symbol"
   ],
-  "subtitle": "2026年10月入所の受入可能状況",
+  "subtitle": "2026年11月入所の受入可能状況",
   "notes": [
-    "防府市は空き状況を人数ではなく記号で公表しています。これは2026年10月入所のもので、公式ページが2026-06-01に更新されたものです。保育認定（2号・3号）だけを載せていて、1号認定については各認定こども園へお問い合わせください。",
+    "防府市は空き状況を人数ではなく記号で公表しています。これは2026年11月入所のもので、公式ページが2026-09-15に更新されたものです。保育認定（2号・3号）だけを載せていて、1号認定については各認定こども園へお問い合わせください。",
     "公式の表で空らんになっている年齢は「—」にしています。その年齢のクラスがないことを表しています。",
     "在籍児童の継続入所の状況等により、受入可能状況が変わる場合があります。目安としてご活用ください。",
     "受入可能状況が「×」となっていても、在籍児童の退所等により受入可能となる場合があります。",
@@ -85,7 +85,7 @@
     {"id":"えんしん幼稚園","name":"えんしん幼稚園","w":4,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["―","―","―","×","×","×"]},
     {"id":"多々良幼稚園","name":"多々良幼稚園","w":5,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","▲","×","×","×"]},
     {"id":"玉祖幼稚園","name":"玉祖幼稚園","w":5,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["―","×","▲","×","×","×"]},
-    {"id":"瑞祥幼稚園","name":"瑞祥幼稚園","w":6,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["▲","×","▲","▲","×","×"]},
+    {"id":"瑞祥幼稚園","name":"瑞祥幼稚園","w":6,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","▲","▲","×","×"]},
     {"id":"右田幼稚園","name":"右田幼稚園","w":7,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["―","×","×","×","×","×"]},
     {"id":"とのみ保育所","name":"とのみ保育所","w":8,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["▲","▲","▲","▲","▲","▲"]},
     {"id":"ひまわりキッズ","name":"ひまわりキッズ","w":1,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
