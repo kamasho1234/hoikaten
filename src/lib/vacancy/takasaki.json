@@ -2,19 +2,19 @@
   "municipalitySlug": "takasaki",
   "municipalityName": "高崎市",
   "prefecture": "群馬県",
-  "asOf": "2026-09-15",
-  "fetchedAt": "2026-09-15",
+  "asOf": "2026-09-16",
+  "fetchedAt": "2026-09-16",
   "sourceName": "高崎市「保育所（園）・認定こども園募集状況」",
   "sourceUrl": "https://www.city.takasaki.gunma.jp/page/6309.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.takasaki.gunma.jp/uploaded/attachment/43699.pdf"
+    "vacancy": "https://www.city.takasaki.gunma.jp/uploaded/attachment/43737.pdf"
   },
   "metrics": [
     "symbol"
   ],
   "subtitle": "2026年11月入所の選考にあたる募集状況",
   "notes": [
-    "高崎市は募集状況を人数ではなく記号で公表しています。これは2026年11月入所の選考にあたる分で、2026-09-15時点のものです。",
+    "高崎市は募集状況を人数ではなく記号で公表しています。これは2026年11月入所の選考にあたる分で、2026-09-16時点のものです。",
     "公式の凡例は「◎」が5人以上、「○」が3〜4人程度、「△」が1〜2人程度の受入可能人数、「＊」は今後募集を行う可能性はあるが現時点で未定、空らんは受入可能人数が無い年齢区分です。当サイトでは空らんを「×」に置き換えて載せています。",
     "公式の表で斜線が引かれている年齢は「—」にしています。その年齢のクラスを設けていないことを表します。",
     "公式の資料には「・令和９年４月入所」の募集状況も併記されていますが、当サイトでは直近の入所分だけを載せています。",
@@ -83,8 +83,8 @@
     {"id":"いず海第一こども園","name":"いず海第一こども園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
     {"id":"いず海保育園","name":"いず海保育園","w":0,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×",null,null,null]},
     {"id":"ひばり保育園","name":"ひばり保育園","w":0,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","△","△","×"]},
-    {"id":"おひさま飯塚保育園","name":"おひさま飯塚保育園","w":0,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","△","×"]},
-    {"id":"明徳幼稚園","name":"明徳幼稚園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"おひさま飯塚保育園","name":"おひさま飯塚保育園","w":0,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","△","×","×"]},
+    {"id":"明徳幼稚園","name":"明徳幼稚園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","△","×","×","△"]},
     {"id":"高崎商科大学佐藤幼稚園","name":"高崎商科大学佐藤幼稚園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,"△","×","×","×","×"]},
     {"id":"すみれ幼稚園","name":"すみれ幼稚園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"×","×","×"]},
     {"id":"すみれ幼稚園分園","name":"すみれ幼稚園分園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,"×","×",null,null,null]},
@@ -98,7 +98,7 @@
     {"id":"三恵","name":"三恵","w":1,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","〇","×","△"]},
     {"id":"ひよこプリスクール","name":"ひよこプリスクール","w":1,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
     {"id":"ひよこプリスクール分園","name":"ひよこプリスクール分園","w":1,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×",null,null,null,null]},
-    {"id":"中川幼稚園","name":"中川幼稚園","w":1,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"中川幼稚園","name":"中川幼稚園","w":1,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","◎","◎","◎","◎"]},
     {"id":"東部文化幼稚園","name":"東部文化幼稚園","w":1,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","×","×","×","×"]},
     {"id":"倉賀野","name":"倉賀野","w":2,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
     {"id":"大類","name":"大類","w":2,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","×","×"]},

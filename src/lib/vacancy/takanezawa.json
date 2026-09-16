@@ -2,12 +2,12 @@
   "municipalitySlug": "takanezawa",
   "municipalityName": "高根沢町",
   "prefecture": "栃木県",
-  "asOf": "2026-08-17",
+  "asOf": "2026-09-15",
   "fetchedAt": "2026-09-16",
   "sourceName": "高根沢町「途中入園空き状況」",
   "sourceUrl": "https://www.town.takanezawa.tochigi.jp/kosodate/hoikuen/akijoukyou.html",
   "sourceFiles": {
-    "vacancy": "https://www.town.takanezawa.tochigi.jp/kosodate/hoikuen/documents/R809_akijoukyou.pdf"
+    "vacancy": "https://www.town.takanezawa.tochigi.jp/kosodate/hoikuen/documents/R810_akijoukyou.pdf"
   },
   "metrics": [
     "symbol"
@@ -76,7 +76,7 @@
         null
       ],
       "symbols": [
-        "△",
+        "×",
         "×",
         "×",
         "×",
@@ -98,7 +98,7 @@
         null
       ],
       "symbols": [
-        "△",
+        "×",
         "×",
         "×",
         "×",
@@ -120,7 +120,7 @@
         null
       ],
       "symbols": [
-        "○",
+        "△",
         "×",
         "×",
         "×",
@@ -142,7 +142,7 @@
         null
       ],
       "symbols": [
-        "△",
+        "×",
         "×",
         "×",
         "×",
@@ -173,8 +173,8 @@
       ]
     },
     {
-      "id": "高根沢幼稚園",
-      "name": "高根沢幼稚園",
+      "id": "たかねざわ幼稚園",
+      "name": "たかねざわ幼稚園",
       "w": null,
       "c": 1,
       "vacancy": [
