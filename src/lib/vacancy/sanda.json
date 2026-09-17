@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "sanda",
   "municipalityName": "三田市",
-  "asOf": "2026-08-17",
-  "fetchedAt": "2026-09-16",
+  "asOf": "2026-09-16",
+  "fetchedAt": "2026-09-17",
   "sourceName": "三田市「入所受入状況」",
   "sourceUrl": "https://www.city.sanda.lg.jp/kosodate_kyoiku/ikuji_mishugakuji/hoikusho_kodomoen_yochien/6/33810.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.sanda.lg.jp/material/files/group/156/r50809.pdf"
+    "vacancy": "https://www.city.sanda.lg.jp/material/files/group/156/r50810.pdf"
   },
   "metrics": [
     "vacancy"
@@ -44,7 +44,7 @@
       "c": 0,
       "vacancy": [
         3,
-        1,
+        0,
         0,
         0,
         0,
@@ -57,9 +57,9 @@
       "w": null,
       "c": 0,
       "vacancy": [
-        4,
-        1,
-        1,
+        2,
+        0,
+        0,
         0,
         1,
         0
@@ -71,11 +71,11 @@
       "w": null,
       "c": 0,
       "vacancy": [
+        1,
+        2,
         0,
         1,
         0,
-        0,
-        1,
         0
       ]
     },
@@ -85,7 +85,7 @@
       "w": null,
       "c": 0,
       "vacancy": [
-        6,
+        3,
         0,
         0,
         null,
@@ -99,11 +99,11 @@
       "w": null,
       "c": 0,
       "vacancy": [
-        0,
-        0,
         1,
         0,
         2,
+        0,
+        1,
         0
       ]
     },
@@ -113,7 +113,7 @@
       "w": null,
       "c": 0,
       "vacancy": [
-        2,
+        0,
         0,
         0,
         0,
@@ -156,11 +156,11 @@
       "c": 1,
       "vacancy": [
         null,
-        1,
         0,
-        2,
-        2,
-        2
+        0,
+        0,
+        0,
+        0
       ]
     },
     {
@@ -172,9 +172,9 @@
         null,
         null,
         2,
+        1,
         0,
-        0,
-        0
+        1
       ]
     },
     {
@@ -184,9 +184,9 @@
       "c": 1,
       "vacancy": [
         null,
-        1,
-        1,
-        1,
+        0,
+        2,
+        2,
         1,
         1
       ]
@@ -200,7 +200,7 @@
         null,
         0,
         0,
-        1,
+        0,
         1,
         1
       ]
@@ -212,9 +212,9 @@
       "c": 1,
       "vacancy": [
         null,
-        2,
         0,
         0,
+        1,
         1,
         1
       ]
@@ -227,7 +227,7 @@
       "vacancy": [
         2,
         1,
-        3,
+        2,
         0,
         0,
         0
@@ -240,7 +240,7 @@
       "c": 1,
       "vacancy": [
         9,
-        0,
+        1,
         0,
         0,
         0,
@@ -269,10 +269,10 @@
       "vacancy": [
         null,
         null,
-        2,
+        1,
         3,
         3,
-        3
+        1
       ]
     },
     {
@@ -295,7 +295,7 @@
       "w": null,
       "c": 1,
       "vacancy": [
-        2,
+        0,
         0,
         0,
         0,
@@ -310,7 +310,7 @@
       "c": 1,
       "vacancy": [
         null,
-        2,
+        1,
         1,
         0,
         0,
@@ -323,12 +323,12 @@
       "w": null,
       "c": 1,
       "vacancy": [
-        6,
-        0,
-        1,
         3,
-        2,
-        0
+        0,
+        0,
+        3,
+        0,
+        1
       ]
     },
     {
@@ -340,9 +340,9 @@
         null,
         null,
         null,
-        3,
         1,
-        0
+        1,
+        2
       ]
     },
     {
@@ -355,7 +355,7 @@
         null,
         null,
         2,
-        1,
+        0,
         1
       ]
     },
@@ -379,9 +379,9 @@
       "w": null,
       "c": 2,
       "vacancy": [
-        2,
-        2,
-        2,
+        1,
+        1,
+        1,
         null,
         null,
         null
@@ -394,7 +394,7 @@
       "c": 2,
       "vacancy": [
         0,
-        0,
+        1,
         0,
         null,
         null,
@@ -421,9 +421,9 @@
       "w": null,
       "c": 2,
       "vacancy": [
+        3,
+        1,
         0,
-        0,
-        5,
         null,
         null,
         null
@@ -435,7 +435,7 @@
       "w": null,
       "c": 2,
       "vacancy": [
-        1,
+        0,
         0,
         0,
         null,

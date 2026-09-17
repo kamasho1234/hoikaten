@@ -2,19 +2,19 @@
   "municipalitySlug": "takasaki",
   "municipalityName": "高崎市",
   "prefecture": "群馬県",
-  "asOf": "2026-09-16",
-  "fetchedAt": "2026-09-16",
+  "asOf": "2026-09-17",
+  "fetchedAt": "2026-09-17",
   "sourceName": "高崎市「保育所（園）・認定こども園募集状況」",
   "sourceUrl": "https://www.city.takasaki.gunma.jp/page/6309.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.takasaki.gunma.jp/uploaded/attachment/43737.pdf"
+    "vacancy": "https://www.city.takasaki.gunma.jp/uploaded/attachment/43766.pdf"
   },
   "metrics": [
     "symbol"
   ],
   "subtitle": "2026年11月入所の選考にあたる募集状況",
   "notes": [
-    "高崎市は募集状況を人数ではなく記号で公表しています。これは2026年11月入所の選考にあたる分で、2026-09-16時点のものです。",
+    "高崎市は募集状況を人数ではなく記号で公表しています。これは2026年11月入所の選考にあたる分で、2026-09-17時点のものです。",
     "公式の凡例は「◎」が5人以上、「○」が3〜4人程度、「△」が1〜2人程度の受入可能人数、「＊」は今後募集を行う可能性はあるが現時点で未定、空らんは受入可能人数が無い年齢区分です。当サイトでは空らんを「×」に置き換えて載せています。",
     "公式の表で斜線が引かれている年齢は「—」にしています。その年齢のクラスを設けていないことを表します。",
     "公式の資料には「・令和９年４月入所」の募集状況も併記されていますが、当サイトでは直近の入所分だけを載せています。",

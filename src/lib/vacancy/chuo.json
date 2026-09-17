@@ -1,8 +1,8 @@
 {
   "municipalitySlug": "chuo",
   "municipalityName": "中央区",
-  "asOf": "2026-09-15",
-  "fetchedAt": "2026-09-16",
+  "asOf": "2026-09-17",
+  "fetchedAt": "2026-09-17",
   "sourceName": "中央区「保育園空き情報」",
   "sourceUrl": "https://www.city.chuo.lg.jp/a0021/kosodate/kosodate/hoikuen/hoiku/ninkahoiku/akijoho.html",
   "sourceFiles": {
@@ -36,7 +36,7 @@
     {"id":"堀留町保育園","name":"堀留町保育園","w":null,"c":0,"vacancy":[0,0,0,3,0,2]},
     {"id":"人形町保育園","name":"人形町保育園","w":null,"c":0,"vacancy":[0,0,0,6,5,1]},
     {"id":"日本橋保育園","name":"日本橋保育園","w":null,"c":0,"vacancy":[0,0,0,6,7,7]},
-    {"id":"浜町保育園","name":"浜町保育園","w":null,"c":0,"vacancy":[0,0,2,6,0,0]},
+    {"id":"浜町保育園","name":"浜町保育園","w":null,"c":0,"vacancy":[0,0,2,5,0,0]},
     {"id":"つくだ保育園","name":"つくだ保育園","w":null,"c":0,"vacancy":[0,0,1,0,0,0]},
     {"id":"月島保育園","name":"月島保育園","w":null,"c":0,"vacancy":[0,0,2,2,3,0]},
     {"id":"かちどき西保育園","name":"かちどき西保育園","w":null,"c":0,"vacancy":[0,0,0,1,5,0]},
@@ -62,7 +62,7 @@
     {"id":"アイグラン保育園水天宮","name":"アイグラン保育園水天宮","w":null,"c":1,"vacancy":[0,0,4,2,5,4]},
     {"id":"キッズラボ水天宮前園","name":"キッズラボ水天宮前園","w":null,"c":1,"vacancy":[null,null,0,1,0,0]},
     {"id":"キッズラボ水天宮前園分園","name":"キッズラボ水天宮前園分園","w":null,"c":1,"vacancy":[null,0,null,null,null,null]},
-    {"id":"THREESTARNURSERY蛎殻町園","name":"THREESTARNURSERY蛎殻町園","w":null,"c":1,"vacancy":[0,0,1,7,0,0]},
+    {"id":"THREESTARNURSERY蛎殻町園","name":"THREESTARNURSERY蛎殻町園","w":null,"c":1,"vacancy":[0,0,1,8,0,0]},
     {"id":"コビープリスクールはこざき","name":"コビープリスクールはこざき","w":null,"c":1,"vacancy":[0,0,2,0,0,0]},
     {"id":"テンダーラビング保育園東日本橋","name":"テンダーラビング保育園東日本橋","w":null,"c":1,"vacancy":[null,0,1,7,4,8]},
     {"id":"ミアヘルサ保育園ひびき東日本橋","name":"ミアヘルサ保育園ひびき東日本橋","w":null,"c":1,"vacancy":[null,3,2,3,1,1]},

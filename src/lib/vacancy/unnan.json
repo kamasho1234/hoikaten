@@ -2,12 +2,12 @@
   "municipalitySlug": "unnan",
   "municipalityName": "雲南市",
   "prefecture": "島根県",
-  "asOf": "2026-08-18",
-  "fetchedAt": "2026-09-16",
+  "asOf": "2026-09-17",
+  "fetchedAt": "2026-09-17",
   "sourceName": "雲南市「入所可能状況（見込み）」",
   "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/azukeru/exception0201.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.unnan.shimane.jp/unnan/kosodate/azukeru/files/R8nyuusyokaouzyoukyou0817.pdf"
+    "vacancy": "https://www.city.unnan.shimane.jp/unnan/kosodate/azukeru/files/R8nyuusyokaouzyoukyou0917.pdf"
   },
   "metrics": [
     "symbol"
@@ -438,12 +438,12 @@
         null
       ],
       "symbols": [
-        "×",
-        "×",
-        "×",
         "△",
+        "△",
+        "△",
+        "〇",
         "×",
-        "×"
+        "△"
       ]
     },
     {
@@ -482,12 +482,12 @@
         null
       ],
       "symbols": [
-        "×",
-        "△",
-        "△",
-        "△",
-        "△",
-        "△"
+        "〇",
+        "〇",
+        "〇",
+        "〇",
+        "〇",
+        "〇"
       ]
     },
     {
@@ -592,8 +592,8 @@
         null
       ],
       "symbols": [
-        "×",
-        "〇",
+        "△",
+        "△",
         "〇",
         "△",
         "〇",

@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "ishigaki",
   "municipalityName": "石垣市",
-  "asOf": "2026-08-18",
-  "fetchedAt": "2026-09-16",
+  "asOf": "2026-09-16",
+  "fetchedAt": "2026-09-17",
   "sourceName": "石垣市「認定こども園・保育所等空き状況」",
   "sourceUrl": "https://www.city.ishigaki.okinawa.jp/kurashi_gyosei/kosodate_kyoiku/hoikusho/10847.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.ishigaki.okinawa.jp/material/files/group/22/202609_ukeire.pdf"
+    "vacancy": "https://www.city.ishigaki.okinawa.jp/material/files/group/22/202610_ukeire.pdf"
   },
   "metrics": [
     "vacancy"
@@ -22,7 +22,6 @@
     "公立保育所",
     "認可保育園",
     "小規模保育",
-    "事業所内保育（地域枠）",
     "公立認定こども園"
   ],
   "facilities": [
@@ -61,8 +60,8 @@
       "c": 1,
       "vacancy": [
         null,
-        null,
-        5,
+        1,
+        4,
         1,
         null,
         null
@@ -89,10 +88,10 @@
       "c": 1,
       "vacancy": [
         null,
+        2,
+        1,
         null,
-        null,
-        null,
-        null,
+        1,
         2
       ]
     },
@@ -104,7 +103,7 @@
       "vacancy": [
         null,
         null,
-        3,
+        2,
         null,
         null,
         null
@@ -117,7 +116,7 @@
       "c": 2,
       "vacancy": [
         null,
-        2,
+        1,
         null,
         null,
         null,
@@ -131,7 +130,7 @@
       "c": 2,
       "vacancy": [
         null,
-        1,
+        null,
         2,
         null,
         null,
@@ -153,24 +152,10 @@
       ]
     },
     {
-      "id": "なごみの広場保育園",
-      "name": "なごみの広場保育園",
-      "w": null,
-      "c": 3,
-      "vacancy": [
-        3,
-        2,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "おおはまこども園(1号)",
       "name": "おおはまこども園(1号)",
       "w": null,
-      "c": 4,
+      "c": 3,
       "vacancy": [
         null,
         null,
@@ -184,7 +169,7 @@
       "id": "〃(2号)",
       "name": "〃(2号)",
       "w": null,
-      "c": 4,
+      "c": 3,
       "vacancy": [
         null,
         null,
@@ -198,21 +183,21 @@
       "id": "へいしんこども園(1号)",
       "name": "へいしんこども園(1号)",
       "w": null,
-      "c": 4,
+      "c": 3,
       "vacancy": [
         null,
         null,
         null,
         null,
         10,
-        7
+        8
       ]
     },
     {
       "id": "〃(2号)#2",
       "name": "〃(2号)",
       "w": null,
-      "c": 4,
+      "c": 3,
       "vacancy": [
         null,
         null,
@@ -226,7 +211,7 @@
       "id": "あらかわこども園(1号)",
       "name": "あらかわこども園(1号)",
       "w": null,
-      "c": 4,
+      "c": 3,
       "vacancy": [
         null,
         null,
@@ -240,13 +225,13 @@
       "id": "〃(2号)#3",
       "name": "〃(2号)",
       "w": null,
-      "c": 4,
+      "c": 3,
       "vacancy": [
         null,
         null,
         null,
         null,
-        6,
+        5,
         1
       ]
     },
@@ -254,7 +239,7 @@
       "id": "かびらこども園(1号)",
       "name": "かびらこども園(1号)",
       "w": null,
-      "c": 4,
+      "c": 3,
       "vacancy": [
         null,
         null,
@@ -268,7 +253,7 @@
       "id": "〃(2号・3号)",
       "name": "〃(2号・3号)",
       "w": null,
-      "c": 4,
+      "c": 3,
       "vacancy": [
         null,
         7,
@@ -282,7 +267,7 @@
       "id": "いばるまこども園(1号)",
       "name": "いばるまこども園(1号)",
       "w": null,
-      "c": 4,
+      "c": 3,
       "vacancy": [
         null,
         null,
@@ -296,9 +281,9 @@
       "id": "〃(2号・3号)#2",
       "name": "〃(2号・3号)",
       "w": null,
-      "c": 4,
+      "c": 3,
       "vacancy": [
-        3,
+        2,
         4,
         5,
         3,

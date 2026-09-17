@@ -2,8 +2,8 @@
   "municipalitySlug": "kosai",
   "municipalityName": "湖西市",
   "prefecture": "静岡県",
-  "asOf": "2026-08-10",
-  "fetchedAt": "2026-09-16",
+  "asOf": "2026-09-08",
+  "fetchedAt": "2026-09-17",
   "sourceName": "湖西市「認可保育所等の受け入れ可能数」",
   "sourceUrl": "https://www.city.kosai.shizuoka.jp/kosodate_kyoiku/kosodate/yochien_hoikuen/1/16546.html",
   "sourceFiles": {
@@ -50,10 +50,10 @@
         null
       ],
       "symbols": [
-        "○",
+        "△",
         "○",
         "△",
-        "△",
+        "×",
         "×",
         "×"
       ]
@@ -72,8 +72,8 @@
         null
       ],
       "symbols": [
-        "○",
         "△",
+        "×",
         "×",
         "×",
         "×",
@@ -99,7 +99,7 @@
         "×",
         "△",
         "△",
-        "×"
+        "△"
       ]
     },
     {
@@ -182,7 +182,7 @@
         null
       ],
       "symbols": [
-        "○",
+        "△",
         "△",
         "△",
         "×",
@@ -204,7 +204,7 @@
         null
       ],
       "symbols": [
-        "△",
+        "×",
         "×",
         "×",
         "○",
@@ -248,8 +248,8 @@
         null
       ],
       "symbols": [
+        "×",
         "△",
-        "○",
         "×",
         null,
         null,

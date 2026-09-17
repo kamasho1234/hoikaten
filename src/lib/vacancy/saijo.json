@@ -2,11 +2,11 @@
   "municipalitySlug": "saijo",
   "municipalityName": "西条市",
   "asOf": "2026-08-20",
-  "fetchedAt": "2026-09-16",
+  "fetchedAt": "2026-09-17",
   "sourceName": "西条市「保育施設等入所可能状況（2・3号認定）」",
   "sourceUrl": "https://www.city.saijo.ehime.jp/soshiki/hoikuyochien/hoikuen.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.saijo.ehime.jp/uploaded/attachment/86888.pdf"
+    "vacancy": "https://www.city.saijo.ehime.jp/uploaded/attachment/87217.pdf"
   },
   "metrics": [
     "symbol"
