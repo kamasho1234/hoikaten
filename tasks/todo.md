@@ -10,8 +10,8 @@
 - [x] C 収集: エージェント計31体（10体＋引き継ぎ21体）。**私が様式PDFを読み直して書き直した自治体**: 匝瑳・伊勢崎・六戸・東広島・静岡・沼津・日置・河内長野・富士宮・西宮・西東京・福岡・江戸川・豊橋・栃木・壱岐・みやき・川崎・姫路・豊田
 - [x] 既存の薄い記事22本（21ファイル＋toyohashi employment-certificate）を `scripts/remove-old-shurou-articles.py` で削除。奈良市は 9/14 の記事を残した
 - [x] tsc / articles:verify（4663本）/ build（14,132ページ）/ ローカル 200
-- [ ] push → 本番 curl 200 / IndexNow
-- [ ] メモリ更新
+- [x] push（5052346）→ 本番 curl 200（documents 2本＋世田谷・中央・川崎・豊橋・匝瑳）→ IndexNow 7,326 URL 送信
+- [x] メモリ更新（project_hoikaten.md、feedback_agent_quote_laundering.md）
 
 ### 結果（87自治体、2026-09-18 時点）
 - 様式: 標準 55／標準＋自治体の欄 23／独自 9（匝瑳・六戸・東広島・日置・富士宮・西宮・壱岐・豊橋・河内長野は両面様式で standard-plus）。羽村は前任者が独自と言ったが実物は標準
