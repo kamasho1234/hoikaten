@@ -1,0 +1,118 @@
+{
+  "citySlug": "shizuoka",
+  "checkedAt": "2026-09-18",
+  "formType": "standard-plus",
+  "formPage": {
+    "label": "静岡市「就労証明書（保育所・認定こども園・幼稚園・放課後児童クラブ兼用）」",
+    "url": "https://www.city.shizuoka.lg.jp/s5783/s012259.html"
+  },
+  "formFiles": [
+    {
+      "label": "就労証明書様式（Excel版）",
+      "url": "https://www.city.shizuoka.lg.jp/documents/53716/202609shuuroushoumeisho-youshiki.xlsx"
+    },
+    {
+      "label": "就労証明書 記載要領（PDF版）",
+      "url": "https://www.city.shizuoka.lg.jp/documents/53716/202609shuuroushoumeisho-kisaiyouryou.pdf"
+    },
+    {
+      "label": "記載例①「固定の労働時間制の場合」（PDF版）",
+      "url": "https://www.city.shizuoka.lg.jp/documents/53716/202609shuuroushoumeisho-kisairei-01kotei.pdf"
+    },
+    {
+      "label": "記載例②「変則就労の場合」（PDF版）",
+      "url": "https://www.city.shizuoka.lg.jp/documents/53716/202609shuuroushoumeisho-kisairei-02hensoku.pdf"
+    },
+    {
+      "label": "記載例③「産休・育休中の場合」（PDF版）",
+      "url": "https://www.city.shizuoka.lg.jp/documents/53716/202609shuuroushoumeisho-kisairei-03sanikukyuu.pdf"
+    },
+    {
+      "label": "よくある質問（PDF版）",
+      "url": "https://www.city.shizuoka.lg.jp/documents/53716/202609shuuroushoumeisho-yokuarushitsumon.pdf"
+    }
+  ],
+  "validity": "証明日から3か月以内のもの",
+  "siblings": "きょうだいで保育所、放課後児童クラブ等に同時に複数申込みされる場合には、いずれか一人のお子さまの申請書類に就労証明書の原本を、他のお子さまの申請書類にコピーを利用してください",
+  "seal": "not-required",
+  "sealNote": "不要です。勤務先の事情により押印される場合は、記載内容が判読できるようにしてください。",
+  "differences": [
+    "国の標準様式の19項目の下に、静岡市の保護者記載欄「A 児童との続柄」（父・母・祖父母など）と「B 園から就労先への通勤時間（往復）」がある"
+  ],
+  "notes": [
+    "静岡市では業種欄（No.1）の記載は不要。空白のまま提出する",
+    "訂正は二重線を引いたうえで書き直す。訂正印は不要",
+    "記載例の黄色マーカー部分は記載漏れが多い箇所なので、必ず記入してもらう",
+    "就労実績は直近3か月分を書く",
+    "就労時間や日数が特殊な場合は主な就労時間を書き、備考欄やシフト表（直近1か月分）を添付する",
+    "フリーランスや自営業の事業所名には、屋号や個人名、確定申告の際の名称などを書く"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.shizuoka.lg.jp/documents/53716/202609shuuroushoumeisho-youshiki.xlsx",
+      "quote": "園から就労先への通勤時間"
+    },
+    "validity": {
+      "url": "https://www.city.shizuoka.lg.jp/s5783/s012259.html",
+      "quote": "証明日から3か月以内のものが有効となります。"
+    },
+    "siblings": {
+      "url": "https://www.city.shizuoka.lg.jp/s5783/s012259.html",
+      "quote": "きょうだいで保育所、放課後児童クラブ等に同時に複数申込みされる場合には、いずれか一人のお子さまの申請書類に就労証明書の原本を、他のお子さまの申請書類にコピーを利用してください。"
+    },
+    "seal": {
+      "url": "https://www.city.shizuoka.lg.jp/documents/53716/202609shuuroushoumeisho-yokuarushitsumon.pdf",
+      "quote": "就労証明書に押印は必要ですか　不要です。勤務先の事情により押印される場合は、記載内容が判読できるようにしてください。"
+    },
+    "differences": {
+      "url": "https://www.city.shizuoka.lg.jp/documents/53716/202609shuuroushoumeisho-kisaiyouryou.pdf",
+      "quote": "【就労証明書（簡易版）】記載要領"
+    },
+    "differences.0": {
+      "url": "https://www.city.shizuoka.lg.jp/documents/53716/202609shuuroushoumeisho-youshiki.xlsx",
+      "quote": "園から就労先への通勤時間"
+    },
+    "notes.0": {
+      "url": "https://www.city.shizuoka.lg.jp/documents/53716/202609shuuroushoumeisho-yokuarushitsumon.pdf",
+      "quote": "就労証明書の業種欄はどう記載すればよいですか　静岡市では記載不要です。空白のまま提出してください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.shizuoka.lg.jp/documents/53716/202609shuuroushoumeisho-yokuarushitsumon.pdf",
+      "quote": "訂正の方法（修正液・訂正印等）について教えてください　二重線を引いた上で訂正してください(訂正印は不要です)。"
+    },
+    "notes.2": {
+      "url": "https://www.city.shizuoka.lg.jp/documents/53716/202609shuuroushoumeisho-kisairei-01kotei.pdf",
+      "quote": "黄色マーカー部分については、記載漏れが多い箇所です。必ずご記入ください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.shizuoka.lg.jp/documents/53716/202609shuuroushoumeisho-yokuarushitsumon.pdf",
+      "quote": "就労実績は直近何か月分を記載しますか　直近3か月分をご記載ください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.shizuoka.lg.jp/documents/53716/202609shuuroushoumeisho-yokuarushitsumon.pdf",
+      "quote": "就労時間や日数が特殊な場合、どう記載すればよいですか　主な就労時間を記載し、備考欄やシフト表（直近1か月分）を添付してください。"
+    },
+    "notes.5": {
+      "url": "https://www.city.shizuoka.lg.jp/documents/53716/202609shuuroushoumeisho-yokuarushitsumon.pdf",
+      "quote": "フリーランスや自営業の場合、事業所名には何を記載すればよいですか　屋号や個人名、確定申告の際の名称などをご記載ください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "静岡市「就労証明書（保育所・認定こども園・幼稚園・放課後児童クラブ兼用）」",
+      "url": "https://www.city.shizuoka.lg.jp/s5783/s012259.html"
+    },
+    {
+      "label": "静岡市 就労証明書 記載要領（PDF版）",
+      "url": "https://www.city.shizuoka.lg.jp/documents/53716/202609shuuroushoumeisho-kisaiyouryou.pdf"
+    },
+    {
+      "label": "静岡市 よくある質問（PDF版）",
+      "url": "https://www.city.shizuoka.lg.jp/documents/53716/202609shuuroushoumeisho-yokuarushitsumon.pdf"
+    },
+    {
+      "label": "静岡市 就労証明書様式（Excel）",
+      "url": "https://www.city.shizuoka.lg.jp/documents/53716/202609shuuroushoumeisho-youshiki.xlsx"
+    }
+  ]
+}

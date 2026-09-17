@@ -1,0 +1,64 @@
+{
+  "citySlug": "kawachinagano",
+  "checkedAt": "2026-09-18",
+  "formType": "standard-plus",
+  "formPage": {
+    "label": "河内長野市「保育を必要とする事由の証明及び申告書（裏面: 就労証明書）」（PDF）",
+    "url": "https://www.city.kawachinagano.lg.jp/uploaded/attachment/35232.pdf"
+  },
+  "formFiles": [
+    {
+      "label": "保育を必要とする事由の証明及び申告書・就労証明書（簡易版）（Excel版）",
+      "url": "https://www.city.kawachinagano.lg.jp/uploaded/attachment/35239.xlsx"
+    },
+    {
+      "label": "保育を必要とする事由の証明及び申告書・就労証明書（簡易版）（PDF版）",
+      "url": "https://www.city.kawachinagano.lg.jp/uploaded/attachment/35232.pdf"
+    }
+  ],
+  "seal": "unknown",
+  "differences": [
+    "1枚の両面で、表面が「保育を必要とする事由の証明及び申告書」（保護者が書く。児童との続柄・通勤方法・通勤時間、就労以外の事由の欄）、裏面が就労証明書",
+    "裏面の就労証明書は国の標準様式の項目（No.1〜）で、必ず事業主が記入する。証明の内容や勤務状況を勤務先へ照会することがある",
+    "農業者は備考欄に耕作面積（㎡）と作付内容を書く"
+  ],
+  "notes": [
+    "申告内容が事実と相違ある場合、保育の利用を取り消されることがある"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.kawachinagano.lg.jp/uploaded/attachment/35239.xlsx",
+      "quote": "１．就労　２．自営　３．内職については裏面「就労証明書」へ"
+    },
+    "differences": {
+      "url": "https://www.city.kawachinagano.lg.jp/soshiki/10/2145.html",
+      "quote": "保育を必要とする事由の証明及び申告書 [Excelファイル／79KB]保育を必要とする事由の証明及び申告書 [PDFファイル／411KB]"
+    },
+    "differences.0": {
+      "url": "https://www.city.kawachinagano.lg.jp/uploaded/attachment/35239.xlsx",
+      "quote": "１．就労　２．自営　３．内職については裏面「就労証明書」へ"
+    },
+    "differences.1": {
+      "url": "https://www.city.kawachinagano.lg.jp/uploaded/attachment/35239.xlsx",
+      "quote": "裏面　「就労証明書」には必ず事業主が記入してください。"
+    },
+    "differences.2": {
+      "url": "https://www.city.kawachinagano.lg.jp/uploaded/attachment/35239.xlsx",
+      "quote": "農業者の場合、No.17の欄に耕作面積（㎡）および作付内容を記載してください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.kawachinagano.lg.jp/uploaded/attachment/35239.xlsx",
+      "quote": "申告内容が事実と相違ある場合、保育の利用を取り消されても異議ありません。"
+    }
+  },
+  "sources": [
+    {
+      "label": "河内長野市「保育所・認定こども園（2・3号）への入所申し込みに必要な書類」",
+      "url": "https://www.city.kawachinagano.lg.jp/soshiki/10/2145.html"
+    },
+    {
+      "label": "河内長野市 保育を必要とする事由の証明及び申告書・就労証明書（PDF版）",
+      "url": "https://www.city.kawachinagano.lg.jp/uploaded/attachment/35232.pdf"
+    }
+  ]
+}

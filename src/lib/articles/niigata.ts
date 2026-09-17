@@ -1306,52 +1306,6 @@ const articles: Article[] = [
     popularity: 40,
   },
   {
-    slug: "shurou-shoumeisho",
-    citySlug: "niigata",
-    title: "新潟市の就労証明書｜様式ダウンロード先と記入例【令和8年度】",
-    description:
-      "新潟市の保育園申込みに使う就労証明書について、公式の様式ダウンロード先へのリンクと、点数の付き方・記入例・よくある不備をまとめています。会社に依頼する前に確認してください。",
-    image:
-      "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=400&fit=crop",
-    category: "手続き",
-    categoryColor: "rose",
-    content: `<div class="info-box">
-<p><strong>まずは公式の様式をダウンロード</strong></p>
-<p>就労証明書の様式・記入例は<a href="https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/ninnkahoikushisetsu/R0804nyuen.html" target="_blank" rel="noopener">新潟市「認可保育施設への新年度入園について」</a>からダウンロードできます。この記事では、その様式をどう書くと点数にどう響くかを説明します。</p>
-</div>
-<h2>就労証明書とは</h2>
-<p>保育園の申込にあたり、保護者の就労状況を証明する書類です。勤務先（または自分）が記入します。</p>
-
-<h3>記入のポイント</h3>
-<ul>
-<li><strong>就労日数・時間</strong>：実態に即した数値を記入。これが基準指数に直結します</li>
-<li><strong>雇用形態</strong>：正社員、パート、契約社員などを正確に</li>
-<li><strong>勤務先の押印</strong>：代表者印または人事担当印が必要</li>
-<li><strong>記入日</strong>：申込日に近い日付が望ましい</li>
-</ul>
-
-<h3>外勤と内勤・自営の違い</h3>
-<table>
-<tr><th>区分</th><th>記入者</th><th>添付書類</th></tr>
-<tr><td>外勤（雇用）</td><td>勤務先</td><td>なし</td></tr>
-<tr><td>内勤・自営</td><td>本人</td><td>確定申告書の写し等</td></tr>
-</table>
-
-<h2>よくある間違い</h2>
-<ul>
-<li>就労時間の記載が実態と異なる（残業込みの時間を記載してしまう等）</li>
-<li>勤務先の住所・電話番号の記載漏れ</li>
-<li>育休中の場合に復帰後の勤務条件を記載していない</li>
-</ul>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>就労証明書は勤務先に依頼してから届くまで2〜3週間かかることがあります。早めに依頼しましょう。</p>
-</div>`,
-    publishedAt: "2026-04-07",
-    popularity: 45,
-  },
-  {
     slug: "shinsei-shorui-list",
     citySlug: "niigata",
     title: "新潟市の保育園申請書類チェックリスト　ダウンロード先と準備の流れ",

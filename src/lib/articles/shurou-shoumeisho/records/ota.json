@@ -1,0 +1,37 @@
+{
+  "citySlug": "ota",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "大田区「申込書・証明書等」",
+    "url": "https://www.city.ota.tokyo.jp/download/kodomo/hoikuen/moushikomi.html"
+  },
+  "formFiles": [
+    { "label": "就労証明書（エクセル：44KB）", "url": "https://www.city.ota.tokyo.jp/download/kodomo/hoikuen/moushikomi.files/2025-8shuushou.xlsx" },
+    { "label": "就労証明書（PDF：113KB）", "url": "https://www.city.ota.tokyo.jp/download/kodomo/hoikuen/moushikomi.files/2025-8shuushou.pdf" },
+    { "label": "【就労証明書】記載要領（PDF：189KB）", "url": "https://www.city.ota.tokyo.jp/download/kodomo/hoikuen/moushikomi.files/R8.4.22shusei_kisaiyoryo.pdf" },
+    { "label": "就労証明書（記載例）（PDF：532KB）", "url": "https://www.city.ota.tokyo.jp/download/kodomo/hoikuen/moushikomi.files/R8.4.22shusei_kisairei.pdf" }
+  ],
+  "seal": "unknown",
+  "notes": [
+    "常勤、パート、内職等の方は会社の方が記入",
+    "自営業の方はご自身で記入"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.ota.tokyo.jp/download/kodomo/hoikuen/moushikomi.html",
+      "quote": "就労証明書（エクセル：44KB）"
+    },
+    "notes.0": {
+      "url": "https://www.city.ota.tokyo.jp/download/kodomo/hoikuen/moushikomi.html",
+      "quote": "常勤、パート、内職等の方は「会社の方」がご記入ください"
+    },
+    "notes.1": {
+      "url": "https://www.city.ota.tokyo.jp/download/kodomo/hoikuen/moushikomi.html",
+      "quote": "自営業の方は「ご自身」でご記入ください"
+    }
+  },
+  "sources": [
+    { "label": "大田区「申込書・証明書等」", "url": "https://www.city.ota.tokyo.jp/download/kodomo/hoikuen/moushikomi.html" }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "citySlug": "edogawa",
+  "checkedAt": "2026-09-18",
+  "formType": "standard-plus",
+  "formPage": {
+    "label": "江戸川区「就労証明書」",
+    "url": "https://www.city.edogawa.tokyo.jp/e048/kuseijoho/denshi/download/d_tanjo/hoiku/shuroushoumei.html"
+  },
+  "formFiles": [
+    {
+      "label": "就労証明書（PDF）",
+      "url": "https://www.city.edogawa.tokyo.jp/documents/7252/r8shuroushoumeisho.pdf"
+    },
+    {
+      "label": "就労証明書（Excel）",
+      "url": "https://www.city.edogawa.tokyo.jp/documents/7252/1031shuroushoumeisho.xlsx"
+    },
+    {
+      "label": "就労証明書　記入見本（PDF）",
+      "url": "https://www.city.edogawa.tokyo.jp/documents/7252/r8_shuroushoumei_mihon_.pdf"
+    },
+    {
+      "label": "就労証明書　記入要領（PDF）",
+      "url": "https://www.city.edogawa.tokyo.jp/documents/7252/kisaiyouryou.pdf"
+    }
+  ],
+  "validity": "証明日から3か月以内のもの",
+  "deadline": "通常月は入園希望月の前月10日まで",
+  "submitTo": "江戸川区役所保育課保育係（郵送可）。郵送の場合は「保育園入園申し込み書類在中」と朱書きして送付。窓口提出は平日8時30分～17時",
+  "online": "マイナポータルで電子申請できる",
+  "seal": "not-required",
+  "sealNote": "デジタル化の推進や利便性向上を踏まえ、押印（割印・訂正印含む）は不要",
+  "notes": [
+    "江戸川区書式での提出が必須。区書式以外は再提出となる",
+    "区が規定する利用調整のため、国の標準様式に加えて項目が追加されている",
+    "虚偽の記載や証明書の偽造・改ざんを行った場合は、刑法第159条の有印私文書偽造・変造罪、第161条の電磁的記録不正作出罪等の刑事責任を問われる場合がある",
+    "郵送の場合は消印有効ではなく、保育課への到着が受付日となる",
+    "郵便事故等による遅れや不着、紛失について、区では責任を負わない"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.edogawa.tokyo.jp/e048/kuseijoho/denshi/download/d_tanjo/hoiku/shuroushoumei.html",
+      "quote": "江戸川区書式は、区が規定する利用調整において必要な項目を一部追加しておりますので"
+    },
+    "validity": {
+      "url": "https://www.city.edogawa.tokyo.jp/e048/kuseijoho/denshi/download/d_tanjo/hoiku/shuroushoumei.html",
+      "quote": "就労証明書の有効期限は、申し込み時点で証明日から3か月以内となります。"
+    },
+    "deadline": {
+      "url": "https://www.city.edogawa.tokyo.jp/e048/kosodate/kosodate/hoiku/nitijou/hoikuen/31nyuuen.html",
+      "quote": "入園希望月の前月10日"
+    },
+    "submitTo": {
+      "url": "https://www.city.edogawa.tokyo.jp/e048/kosodate/kosodate/hoiku/nitijou/hoikuen/teisyutsu.html",
+      "quote": "送付先：〒132-8501江戸川区中央1丁目4番1号「江戸川区役所保育課保育係」宛"
+    },
+    "online": {
+      "url": "https://www.city.edogawa.tokyo.jp/e047/kosodate/kosodate/hoiku/azukeru/denshi.html",
+      "quote": "マイナポータルで行える手続き"
+    },
+    "seal": {
+      "url": "https://www.city.edogawa.tokyo.jp/e048/kuseijoho/denshi/download/d_tanjo/hoiku/shuroushoumei.html",
+      "quote": "デジタル化の推進や利便性向上を踏まえ、押印（割印・訂正印含む）は不要とします。"
+    },
+    "notes.0": {
+      "url": "https://www.city.edogawa.tokyo.jp/e048/kuseijoho/denshi/download/d_tanjo/hoiku/shuroushoumei.html",
+      "quote": "江戸川区書式での提出でない場合は再提出となります。"
+    },
+    "notes.1": {
+      "url": "https://www.city.edogawa.tokyo.jp/e048/kuseijoho/denshi/download/d_tanjo/hoiku/shuroushoumei.html",
+      "quote": "江戸川区書式は、区が規定する利用調整において必要な項目を一部追加しておりますので、大変お手数ですが区書式での作成にご協力をお願いいたします。"
+    },
+    "notes.2": {
+      "url": "https://www.city.edogawa.tokyo.jp/e048/kuseijoho/denshi/download/d_tanjo/hoiku/shuroushoumei.html",
+      "quote": "虚偽の記載や証明書の偽造・改ざんを行ったときは、刑法第159条の有印私文書偽造・変造罪、第161条の電磁的記録不正作出罪等の刑事責任を問われることがあります。"
+    },
+    "notes.3": {
+      "url": "https://www.city.edogawa.tokyo.jp/e048/kosodate/kosodate/hoiku/nitijou/hoikuen/teisyutsu.html",
+      "quote": "消印有効ではありません。保育課への到着をもって受付日の取扱いとなります。"
+    },
+    "notes.4": {
+      "url": "https://www.city.edogawa.tokyo.jp/e048/kosodate/kosodate/hoiku/nitijou/hoikuen/teisyutsu.html",
+      "quote": "郵便事故等による遅れや不着、紛失について、区では一切責任を負いかねます。"
+    },
+    "differences.0": {
+      "url": "https://www.city.edogawa.tokyo.jp/documents/7252/r8shuroushoumeisho.pdf",
+      "quote": "※実際に支給された給与の額ではなく、雇用契約上の月額"
+    },
+    "differences.1": {
+      "url": "https://www.city.edogawa.tokyo.jp/documents/7252/r8shuroushoumeisho.pdf",
+      "quote": "15 就労状況 単身赴任 □有 □無 赴任（予定）地"
+    },
+    "differences.2": {
+      "url": "https://www.city.edogawa.tokyo.jp/documents/7252/r8shuroushoumeisho.pdf",
+      "quote": "個人事業主等を除き、保護者本人が記載した場合は証明を無効とします。"
+    }
+  },
+  "sources": [
+    {
+      "label": "江戸川区「就労証明書」",
+      "url": "https://www.city.edogawa.tokyo.jp/e048/kuseijoho/denshi/download/d_tanjo/hoiku/shuroushoumei.html"
+    },
+    {
+      "label": "江戸川区「認可保育施設への入園申し込み」",
+      "url": "https://www.city.edogawa.tokyo.jp/e048/kosodate/kosodate/hoiku/nitijou/hoikuen/31nyuuen.html"
+    },
+    {
+      "label": "江戸川区「書類の提出方法・提出先」",
+      "url": "https://www.city.edogawa.tokyo.jp/e048/kosodate/kosodate/hoiku/nitijou/hoikuen/teisyutsu.html"
+    },
+    {
+      "label": "江戸川区「認可保育施設入園のオンライン申請」",
+      "url": "https://www.city.edogawa.tokyo.jp/e047/kosodate/kosodate/hoiku/azukeru/denshi.html"
+    },
+    {
+      "label": "江戸川区 就労証明書（PDF）",
+      "url": "https://www.city.edogawa.tokyo.jp/documents/7252/r8shuroushoumeisho.pdf"
+    }
+  ],
+  "differences": [
+    "項目がNo.1〜14（14が備考欄）のあとに区の項目として、No.15 就労状況（単身赴任の有無と赴任予定地）、No.16 固定給与額（月額。雇用契約上の月額）、No.17 直近の給与支給実績（3か月分の実際の支給額）がある",
+    "国の標準様式にある「雇用契約満了後の更新の有無」「入所内定時育休短縮可否」「育休延長可否」の欄は無い",
+    "欄外の記入上の注意に、個人事業主等を除き保護者本人が記載した証明は無効、有効期間は原則証明日から3か月、消せるボールペン・鉛筆・修正液・修正テープは無効、とある"
+  ]
+}

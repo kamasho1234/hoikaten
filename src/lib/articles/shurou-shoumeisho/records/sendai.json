@@ -1,0 +1,64 @@
+{
+  "citySlug": "sendai",
+  "checkedAt": "2026-09-18",
+  "formType": "standard-plus",
+  "formPage": {
+    "label": "仙台市「保育施設等利用に関する各種申請書様式ダウンロード」",
+    "url": "http://www.city.sendai.jp/nintechosa/kurashi/kenkotofukushi/kosodate/hoikujo/download/download.html"
+  },
+  "formFiles": [
+    { "label": "就労証明書と記入例【保育施設等用】（PDF）", "url": "http://www.city.sendai.jp/nintechosa/kurashi/kenkotofukushi/kosodate/hoikujo/download/documents/r0709syuurousyoumeisyo.pdf" },
+    { "label": "就労証明書と記入例【保育施設等用】（Excel）", "url": "http://www.city.sendai.jp/nintechosa/kurashi/kenkotofukushi/kosodate/hoikujo/download/documents/r0709syuurousyoumeisyo.xlsx" },
+    { "label": "記載要領【保育施設等用】（PDF）", "url": "http://www.city.sendai.jp/nintechosa/kurashi/kenkotofukushi/kosodate/hoikujo/download/documents/r0709syuurousyoumeisyokisaiyouryou.pdf" }
+  ],
+  "deadline": "各月1日付利用開始の場合は前月の5日まで、各月16日付利用開始の場合は前月の20日まで",
+  "submitTo": "第1希望の保育施設等が所在する区の区役所保育給付課・宮城総合支所保健福祉課へ郵送または窓口提出",
+  "online": "電子申請も可能です。",
+  "seal": "unknown",
+  "notes": [
+    "令和7年9月に様式を改訂しました。改訂前の様式も当面の間は引き続き使用可能です。",
+    "就労証明書の「7.就労実績」の時間数については、証明可能な範囲でご記入ください。",
+    "保育の必要性の事由が「就労（法人に該当しない自営業）」に該当する場合は、事業実態が確認できる書類の添付が必要です。"
+  ],
+  "differences": [
+    "こども家庭庁が作成した標準様式に、仙台市独自の記入例を追加しています。"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "http://www.city.sendai.jp/nintechosa/kurashi/kenkotofukushi/kosodate/hoikujo/download/download.html",
+      "quote": "こども家庭庁が作成した「就労証明書（標準的な様式）」に,本市独自の記入例を追加しています。"
+    },
+    "deadline": {
+      "url": "https://www.city.sendai.jp/nintechosa/kurashi/kenkotofukushi/kosodate/hoikujo/annai/hoikushisetsu.html",
+      "quote": "各月1日付利用開始の場合（4月1日を除く）：前月の5日まで 各月16日付利用開始の場合：前月の20日まで"
+    },
+    "submitTo": {
+      "url": "https://www.city.sendai.jp/nintechosa/kurashi/kenkotofukushi/kosodate/hoikujo/annai/hoikushisetsu.html",
+      "quote": "第1希望の保育施設等が所在する区の区役所保育給付課・宮城総合支所保健福祉課の窓口または郵送にてご申請ください。"
+    },
+    "online": {
+      "url": "https://www.city.sendai.jp/nintechosa/kurashi/kenkotofukushi/kosodate/hoikujo/annai/hoikushisetsu.html",
+      "quote": "また、電子申請も可能です。"
+    },
+    "notes.0": {
+      "url": "http://www.city.sendai.jp/nintechosa/kurashi/kenkotofukushi/kosodate/hoikujo/download/download.html",
+      "quote": "令和7年9月に様式を改訂しました（記入例のみ更新）。改訂前の様式も,当面の間は引き続き使用可能です。"
+    },
+    "notes.1": {
+      "url": "http://www.city.sendai.jp/nintechosa/kurashi/kenkotofukushi/kosodate/hoikujo/download/download.html",
+      "quote": "就労証明書の項目「7.就労実績」の時間数については,証明可能な範囲でご記入ください。"
+    },
+    "notes.2": {
+      "url": "http://www.city.sendai.jp/nintechosa/kurashi/kenkotofukushi/kosodate/hoikujo/download/download.html",
+      "quote": "保育の必要性の事由が「就労（法人に該当しない自営業）」に該当する場合,事業実態が確認できる書類の添付が必要です。"
+    },
+    "differences.0": {
+      "url": "http://www.city.sendai.jp/nintechosa/kurashi/kenkotofukushi/kosodate/hoikujo/download/download.html",
+      "quote": "こども家庭庁が作成した「就労証明書（標準的な様式）」に,本市独自の記入例を追加しています。"
+    }
+  },
+  "sources": [
+    { "label": "仙台市「保育施設等利用を希望されるみなさまへ」", "url": "https://www.city.sendai.jp/nintechosa/kurashi/kenkotofukushi/kosodate/hoikujo/annai/hoikushisetsu.html" },
+    { "label": "仙台市「保育施設等利用に関する各種申請書様式ダウンロード」", "url": "http://www.city.sendai.jp/nintechosa/kurashi/kenkotofukushi/kosodate/hoikujo/download/download.html" }
+  ]
+}

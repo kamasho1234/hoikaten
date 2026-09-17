@@ -1,0 +1,56 @@
+{
+  "citySlug": "sapporo",
+  "checkedAt": "2026-09-18",
+  "formType": "standard-plus",
+  "formPage": {
+    "label": "札幌市「認可保育所等への入所手続きについて」",
+    "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/835.html"
+  },
+  "formFiles": [
+    {
+      "label": "就労証明書（札幌市指定様式）",
+      "url": "http://www3.city.sapporo.jp/download/shinsei/search/procedure_view.asp?ProcID=2465"
+    },
+    {
+      "label": "就労証明書作成Q&A（事業者向け）",
+      "url": "https://kosodate.city.sapporo.jp/material/files/group/1/syurouQandA.pdf"
+    }
+  ],
+  "seal": "not-required",
+  "sealNote": "押印を不要としていますが、証明書の内容について就労先の事業者へ電話確認をする場合があります。",
+  "notes": [
+    "育児休業からの復職を前提として認可保育所等の入所を希望する場合は、勤務先からの就労証明書のほかに、保護者の方が記載した申立書の添付が必要です。",
+    "自営業などで会社に雇用されていない方は、事業を行っていることが確認できる書類のコピー（開業届・営業許可書・請負契約書・昨年の確定申告書の写しなど）の添付が必要です。"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/835.html",
+      "quote": "就労証明書（札幌市指定様式）"
+    },
+    "seal": {
+      "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/835.html",
+      "quote": "就労証明書等については押印を不要としています"
+    },
+    "notes.0": {
+      "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/835.html",
+      "quote": "育児休業からの復職を前提として、認可保育所等の入所を希望する場合は、勤務先からの就労証明書のほかに、保護者の方が記載した「申立書」の添付が必要です。"
+    },
+    "notes.1": {
+      "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/835.html",
+      "quote": "自営業などで会社に雇用されていない方は、事業を行っていることが確認できる書類のコピー（開業届・営業許可書・請負契約書・昨年の確定申告書の写しなど）の添付が必要です。"
+    },
+    "differences.0": {
+      "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/835.html",
+      "quote": "育児休業からの復職を前提として、認可保育所等の入所を希望する場合は、勤務先からの就労証明書のほかに、保護者の方が記載した「申立書」の添付が必要です。"
+    }
+  },
+  "sources": [
+    {
+      "label": "札幌市「認可保育所等への入所手続きについて」",
+      "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/835.html"
+    }
+  ],
+  "differences": [
+    "「札幌市指定様式」として市の申請書ダウンロードページから取得する。育休からの復職を前提に申し込む場合は、勤務先の就労証明書に加えて保護者が書く「申立書」を添付する"
+  ]
+}

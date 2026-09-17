@@ -1,0 +1,33 @@
+{
+  "citySlug": "chuo",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "中央区「申請書・届出書のダウンロード」",
+    "url": "https://www.city.chuo.lg.jp/a0021/kosodate/kosodate/hoikuen/hoiku/ninkahoiku/yousiki.html"
+  },
+  "formFiles": [
+    { "label": "就労証明書（PDF：297KB）", "url": "https://www.city.chuo.lg.jp/documents/4730/03shuuroua4.pdf" },
+    { "label": "就労証明書（エクセル：65KB）", "url": "https://www.city.chuo.lg.jp/documents/4730/r8shuuroushoumeisho.xlsx" },
+    { "label": "【記入例】就労証明書（PDF：250KB）", "url": "https://www.city.chuo.lg.jp/documents/4730/shuuroukinyuurei.pdf" },
+    { "label": "【記載要領】就労証明書（PDF：148KB）", "url": "https://www.city.chuo.lg.jp/documents/4730/shuuroukisaiyouryou.pdf" }
+  ],
+  "seal": "unknown",
+  "notes": [
+    "就労先が複数ある場合は、一カ所につき一枚ずつ全て提出が必要"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.chuo.lg.jp/a0021/kosodate/kosodate/hoikuen/hoiku/ninkahoiku/yousiki.html",
+      "quote": "就労証明書（PDF：297KB）"
+    },
+    "notes.0": {
+      "url": "https://www.city.chuo.lg.jp/a0021/kosodate/kosodate/hoikuen/hoiku/ninkahoiku/kateijyoukyoutodoke.html",
+      "quote": "就労先が複数ある場合は、一カ所につき一枚ずつ、全て提出してください"
+    }
+  },
+  "sources": [
+    { "label": "中央区「申請書・届出書のダウンロード」", "url": "https://www.city.chuo.lg.jp/a0021/kosodate/kosodate/hoikuen/hoiku/ninkahoiku/yousiki.html" },
+    { "label": "中央区「認可保育所 申し込み手続き」", "url": "https://www.city.chuo.lg.jp/a0021/kosodate/kosodate/hoikuen/hoiku/ninkahoiku/ninkahoikujo.html" }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "citySlug": "shibukawa",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "渋川市「令和8年度 保育所・認定こども園（保育）の利用申込手続きについて」",
+    "url": "http://www.city.shibukawa.lg.jp/kosodate-site/kosodate/000437/000443/000445/p015010.html"
+  },
+  "formFiles": [
+    { "label": "就労証明書（XLSX）", "url": "http://www.city.shibukawa.lg.jp/manage/contents/upload/68f6d9773e77b.xlsx" },
+    { "label": "就労証明書（PDF）", "url": "http://www.city.shibukawa.lg.jp/manage/contents/upload/68f6d9778170a.pdf" }
+  ],
+  "deadline": "令和8年9月1日（火曜日）～9月30日（水曜日）（一次募集）、令和8年12月7日（月曜日）～12月23日（水曜日）（二次募集）",
+  "submitTo": "渋川市こども課（渋川市役所本庁舎1階）",
+  "seal": "unknown",
+  "notes": [
+    "保育を必要とすることを証明する書類として、保護者すべての人の証明書類が必要"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "http://www.city.shibukawa.lg.jp/kosodate-site/kosodate/000437/000443/000445/p015010.html",
+      "quote": "就労証明書(xlsx 58 KB) 就労証明書(pdf 89 KB)"
+    },
+    "deadline": {
+      "url": "http://www.city.shibukawa.lg.jp/kosodate-site/kosodate/000437/000443/000445/p015010.html",
+      "quote": "一次募集受付期間令和8年9月1日（火曜日）～9月30日（水曜日）"
+    },
+    "submitTo": {
+      "url": "http://www.city.shibukawa.lg.jp/kosodate-site/kosodate/000437/000443/000445/p015010.html",
+      "quote": "渋川市こども課（渋川市役所本庁舎1階）"
+    },
+    "notes.0": {
+      "url": "http://www.city.shibukawa.lg.jp/kosodate-site/kosodate/000437/000443/000445/p015010.html",
+      "quote": "保護者すべての人の証明書類が必要です"
+    }
+  },
+  "sources": [
+    { "label": "渋川市「令和8年度 保育所・認定こども園（保育）の利用申込手続きについて」", "url": "http://www.city.shibukawa.lg.jp/kosodate-site/kosodate/000437/000443/000445/p015010.html" }
+  ]
+}

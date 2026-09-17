@@ -1,0 +1,30 @@
+{
+  "citySlug": "yokote",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "横手市「令和8年度 幼稚園、保育所、認定こども園の新規利用申込みを受付しています」",
+    "url": "https://www.city.yokote.lg.jp/kosodate/1001158/1001159/1003405.html"
+  },
+  "formFiles": [
+    { "label": "就労証明書（Excel）", "url": "https://www.city.yokote.lg.jp/_res/projects/default_project/_page_/001/003/405/r8syuurousyoumei2.xlsx" }
+  ],
+  "seal": "unknown",
+  "notes": [
+    "入所希望日に合わせて「年度途中入所申請スケジュール」で受付期間をご確認ください"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.yokote.lg.jp/kosodate/1001158/1001159/1003405.html",
+      "quote": "就労証明書 （Excel 64.1KB）"
+    },
+    "notes.0": {
+      "url": "https://www.city.yokote.lg.jp/kosodate/1001158/1001159/1003405.html",
+      "quote": "入所（利用）希望日に合わせて「年度途中入所申請スケジュール」をご確認ください。"
+    }
+  },
+  "sources": [
+    { "label": "横手市「令和8年度 幼稚園、保育所、認定こども園の新規利用申込みを受付しています」", "url": "https://www.city.yokote.lg.jp/kosodate/1001158/1001159/1003405.html" },
+    { "label": "横手市「令和8年度 教育・保育施設利用のしおり」", "url": "https://www.city.yokote.lg.jp/_res/projects/default_project/_page_/001/003/405/r8.6iori.pdf" }
+  ]
+}

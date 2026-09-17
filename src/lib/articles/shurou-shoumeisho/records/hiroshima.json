@@ -1,0 +1,87 @@
+{
+  "citySlug": "hiroshima",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "広島市「保育園等の入園について（保育園等のごあんない）」",
+    "url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025852/1003487.html"
+  },
+  "formFiles": [
+    { "label": "就労証明書（PDF）", "url": "https://www.city.hiroshima.lg.jp/_res/projects/default_project/_page_/001/003/487/225003.pdf" },
+    { "label": "就労証明書（Excel）", "url": "https://www.city.hiroshima.lg.jp/_res/projects/default_project/_page_/001/003/487/shuuroushoumei7.xlsx" },
+    { "label": "よくある質問（就労証明書）（Excel）", "url": "https://www.city.hiroshima.lg.jp/_res/projects/default_project/_page_/001/003/487/70801.xlsx" }
+  ],
+  "validity": "提出締切日の3か月前の月の初日からの証明日のもの",
+  "deadline": "令和9年4月一次受け付け令和9年1月12日（火曜日）、二次受け付け令和9年2月26日（水曜日）",
+  "submitTo": "各区福祉課の窓口",
+  "online": "電子申請（ぴったりサービス）で申し込み可能。締切日が窓口申請と異なる",
+  "seal": "not-required",
+  "sealNote": "令和5年11月24日より押印を廃止している。従来の様式を使用する場合も、押印をしないで提出してよい",
+  "notes": [
+    "令和5年11月24日より全国共通様式の「就労証明書」へ移行した",
+    "就労証明書等の有効期間は、提出締切日の3か月前の月の初日からの証明日のもの",
+    "求職活動中である場合は、就職したときには早くに就労証明書を提出する必要がある",
+    "1か月間で48時間以上の就労が必要",
+    "提出書類の偽造・変造があった場合は、保育所等を利用（継続）できない場合がある"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025852/1003487.html",
+      "quote": "従来の「就労証明書」については、令和5年11月24日より全国共通様式の「就労証明書」へ移行しました。"
+    },
+    "validity": {
+      "url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025852/1003487.html",
+      "quote": "就労証明書等の提出する証明書類の有効期間は、提出締切日の3か月前の月の初日からです。令和9年4月一次受付の場合、令和9年1月12日締切のため、令和8年10月1日以降の証明日のものが必要です。"
+    },
+    "deadline": {
+      "url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025852/1003487.html",
+      "quote": "令和8年11月24日（火曜日）から令和9年1月12日（火曜日）まで"
+    },
+    "submitTo": {
+      "url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025852/1003487.html",
+      "quote": "申請（申込）書と必要な書類を、区福祉課へ提出してください。"
+    },
+    "online": {
+      "url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025852/1003487.html",
+      "quote": "電子申請（ぴったりサービス）の締切日は、窓口締切日と異なります。"
+    },
+    "seal": {
+      "url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025852/1003487.html",
+      "quote": "令和4年10月1日より押印を廃止しています。"
+    },
+    "notes.0": {
+      "url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025852/1003487.html",
+      "quote": "令和5年11月24日より全国共通様式の「就労証明書」へ移行しました。"
+    },
+    "notes.1": {
+      "url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025852/1003487.html",
+      "quote": "就労証明書等の提出する証明書類の有効期間は、提出締切日の3か月前の月の初日からです。"
+    },
+    "notes.2": {
+      "url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025852/1003487.html",
+      "quote": "就職したときには早くに就労証明書（下の「ダウンロード」からも入手可）を提出してください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025852/1003487.html",
+      "quote": "1か月間で48時間以上就労していること（会社、自営業など）"
+    },
+    "notes.4": {
+      "url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025852/1003487.html",
+      "quote": "提出書類の偽造、変造（無断作成・改変）等あった場合は、保育所等を利用（継続）できない場合があります。"
+    }
+  },
+  "sources": [
+    {
+      "label": "広島市「保育園等の入園について（保育園等のごあんない）」",
+      "url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025852/1003487.html"
+    },
+    {
+      "label": "広島市「保育園入園児童の保護者の皆様へ（就労証明書等の提出）」",
+      "url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025852/1003486.html"
+    },
+    {
+      "label": "広島市「申請書に添付する書類」（PDF）",
+      "url": "https://www.city.hiroshima.lg.jp/_res/projects/default_project/_page_/001/003/487/tenpusyorui7.pdf"
+    }
+  ]
+}

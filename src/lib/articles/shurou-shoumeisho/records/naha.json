@@ -1,0 +1,57 @@
+{
+  "citySlug": "naha",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "那覇市「各種書類（保育園・こども園）」",
+    "url": "https://www.city.naha.okinawa.jp/child/hoikuen/1002762/1002783/1002789.html"
+  },
+  "formFiles": [
+    {
+      "label": "就労証明書（様式2）（Excel 86.8 KB）",
+      "url": "https://www.city.naha.okinawa.jp/_res/projects/default_project/_page_/001/002/789/r8.8syurosyoumeisyo.xlsx"
+    },
+    {
+      "label": "就労証明書（様式2）（PDF 61.3 KB）",
+      "url": "https://www.city.naha.okinawa.jp/_res/projects/default_project/_page_/001/002/789/r6.12syurosyoumeisyo.pdf"
+    },
+    {
+      "label": "就労証明書（様式2）海外用（PDF 74.1 KB）",
+      "url": "https://www.city.naha.okinawa.jp/_res/projects/default_project/_page_/001/002/789/r5syurousyoumeisyo.pdf"
+    },
+    {
+      "label": "就労証明書（様式2）記入例（PDF 141.5 KB）",
+      "url": "https://www.city.naha.okinawa.jp/_res/projects/default_project/_page_/001/002/789/r6.12syurosyoumeisyo.kinyurei.pdf"
+    }
+  ],
+  "submitTo": "那覇市こどもみらい課",
+  "seal": "unknown",
+  "notes": [
+    "令和6年12月から国の定めた標準的な様式に変更された",
+    "既に旧様式の就労証明書を用意している場合は旧様式での提出も可"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.naha.okinawa.jp/child/hoikuen/1002762/1002783/1002789.html",
+      "quote": "就労証明書（様式2）（Excel 86.8 KB）就労証明書（様式2）（PDF 61.3 KB）"
+    },
+    "submitTo": {
+      "url": "https://www.city.naha.okinawa.jp/child/hoikuen/1002762/1002783/1002789.html",
+      "quote": "那覇市こどもみらい課"
+    },
+    "notes.0": {
+      "url": "https://www.city.naha.okinawa.jp/child/hoikuen/1002762/1002783/1002789.html",
+      "quote": "令和6年12月から就労証明書の様式を国の定めた標準的な様式に変更しました"
+    },
+    "notes.1": {
+      "url": "https://www.city.naha.okinawa.jp/child/hoikuen/1002762/1002783/1002789.html",
+      "quote": "既に旧様式の就労証明書をご用意している場合には、旧様式で提出していただいても構いません。"
+    }
+  },
+  "sources": [
+    {
+      "label": "那覇市「各種書類（保育園・こども園）」",
+      "url": "https://www.city.naha.okinawa.jp/child/hoikuen/1002762/1002783/1002789.html"
+    }
+  ]
+}

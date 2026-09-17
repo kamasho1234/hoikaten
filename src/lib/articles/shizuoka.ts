@@ -1256,49 +1256,6 @@ const articles: Article[] = [
     popularity: 26,
   },
   {
-    slug: "shurou-shoumeisho",
-    citySlug: "shizuoka",
-    title: "静岡市の就労証明書｜様式ダウンロード先と記入例【令和8年度】",
-    description:
-      "静岡市の保育園申込みに使う就労証明書について、公式の様式ダウンロード先へのリンクと、点数の付き方・記入例・よくある不備をまとめています。会社に依頼する前に確認してください。",
-    image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<div class="info-box">
-<p><strong>まずは公式の様式をダウンロード</strong></p>
-<p>就労証明書の様式・記入例は<a href="https://www.city.shizuoka.lg.jp/s5783/s012259.html" target="_blank" rel="noopener">静岡市「就労証明書（保育所・認定こども園・幼稚園・放課後児童クラブ兼用）」</a>からダウンロードできます。この記事では、その様式をどう書くと点数にどう響くかを説明します。</p>
-</div>
-<h2>就労証明書とは</h2>
-<p>就労証明書は保育園申込の際に「保育の必要性」を証明する最も重要な書類です。勤務先（事業主）が記入・押印します。</p>
-
-<h2>記入で重要なポイント</h2>
-<ul>
-<li>月の合計就労時間：基本指数に直結</li>
-<li>勤務開始時刻・終了時刻：保育時間の認定に影響</li>
-<li>雇用形態：正社員・パート・契約社員など</li>
-<li>育休の取得状況と復帰予定日</li>
-</ul>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>静岡市は「月160時間以上」で基本指数10点（満点）です。就労証明書の数字がこの基準を満たしているか確認しましょう。</p>
-</div>
-
-<h2>勤務先への依頼のコツ</h2>
-<ul>
-<li>申込期限の1か月前には依頼する</li>
-<li>記入例を添えて依頼すると間違いが減る</li>
-<li>復帰後の勤務条件で記載してもらう</li>
-</ul>
-
-<div class="warn-box">
-<p><strong>注意</strong></p>
-<p>就労証明書の内容と実態が異なる場合は入園取消しになることがあります。正確に記載してもらいましょう。</p>
-</div>`,
-    publishedAt: "2026-04-07",
-    popularity: 25,
-  },
-  {
     slug: "shinsei-shorui-list",
     citySlug: "shizuoka",
     title: "静岡市の保育園申込に必要な書類一覧",

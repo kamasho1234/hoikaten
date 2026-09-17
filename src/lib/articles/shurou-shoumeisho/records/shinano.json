@@ -1,0 +1,53 @@
+{
+  "citySlug": "shinano",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "信濃町「就労証明書の様式が変更になりました」",
+    "url": "https://www.town.shinano.lg.jp/kosodate/docs/13329021.html"
+  },
+  "formFiles": [
+    {
+      "label": "信濃町 就労証明書（新様式）【PDF版】",
+      "url": "https://www.town.shinano.lg.jp/fs/7/9/4/2/5/7/_/_______1.pdf"
+    },
+    {
+      "label": "信濃町 就労証明書（新様式）【Excel版】",
+      "url": "https://www.town.shinano.lg.jp/fs/7/9/4/2/5/6/_/_______1_1_.xlsx"
+    }
+  ],
+  "seal": "unknown",
+  "notes": [
+    "作成する企業等の負担軽減およびデジタル化に対応すべく、全国的に就労証明書様式の統一化が進められております",
+    "令和7年10月から新様式を使用してください",
+    "旧様式で就労先に発行を依頼中の方等につきましては、当面の間、旧様式での提出も可能です"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.town.shinano.lg.jp/kosodate/docs/13329021.html",
+      "quote": "全国的に就労証明書様式の統一化が進められております。"
+    },
+    "notes.0": {
+      "url": "https://www.town.shinano.lg.jp/kosodate/docs/13329021.html",
+      "quote": "作成する企業等の負担軽減およびデジタル化に対応すべく、全国的に就労証明書様式の統一化が進められております。"
+    },
+    "notes.1": {
+      "url": "https://www.town.shinano.lg.jp/kosodate/docs/13329021.html",
+      "quote": "令和７年10月から、就労証明書の様式を変更します。"
+    },
+    "notes.2": {
+      "url": "https://www.town.shinano.lg.jp/kosodate/docs/13329021.html",
+      "quote": "「就労証明書（旧様式）」で就労先に発行を依頼中の方等につきましては、当面の間、旧様式での提出も可能です。"
+    }
+  },
+  "sources": [
+    {
+      "label": "信濃町「就労証明書の様式が変更になりました」",
+      "url": "https://www.town.shinano.lg.jp/kosodate/docs/13329021.html"
+    },
+    {
+      "label": "信濃町 就労証明書（新様式）【PDF版】",
+      "url": "https://www.town.shinano.lg.jp/fs/7/9/4/2/5/7/_/_______1.pdf"
+    }
+  ]
+}

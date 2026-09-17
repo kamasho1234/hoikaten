@@ -1,0 +1,37 @@
+{
+  "citySlug": "hamura",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "羽村市「就労証明書および診断書、介護・看護状況申告書、復職証明書、同居申立書」",
+    "url": "https://www.city.hamura.tokyo.jp/0000012605.html"
+  },
+  "formFiles": [
+    {
+      "label": "就労証明書（PDF）",
+      "url": "https://www.city.hamura.tokyo.jp/cmsfiles/contents/0000012/12605/syurousyoumeisyo2025.pdf"
+    },
+    {
+      "label": "就労証明書（Excel）",
+      "url": "https://www.city.hamura.tokyo.jp/cmsfiles/contents/0000012/12605/syurousyoumeisyo2025.xlsx"
+    }
+  ],
+  "seal": "unknown",
+  "notes": [],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.hamura.tokyo.jp/0000012605.html",
+      "quote": "保育施設等の申込み等で就労による保育の必要性を証明するものです。"
+    }
+  },
+  "sources": [
+    {
+      "label": "羽村市「就労証明書および診断書、介護・看護状況申告書、復職証明書、同居申立書」",
+      "url": "https://www.city.hamura.tokyo.jp/0000012605.html"
+    },
+    {
+      "label": "羽村市「保育施設等の令和8年度利用申込みについて」",
+      "url": "https://www.city.hamura.tokyo.jp/0000020148.html"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "citySlug": "nishinomiya",
+  "checkedAt": "2026-09-18",
+  "formType": "original",
+  "formPage": {
+    "label": "西宮市「認可保育施設利用申込に係る書類について」",
+    "url": "https://www.nishi.or.jp/kosodate/hoikujo/hoikujo/riyotetsuzuki/hoikujo-shorui.html"
+  },
+  "formFiles": [
+    {
+      "label": "勤務証明書（記入例は2ページ目）（PDF）",
+      "url": "https://www.nishi.or.jp/kosodate/hoikujo/hoikujo/riyotetsuzuki/hoikujo-shorui.files/R9kinmusyomeisyo.pdf"
+    },
+    {
+      "label": "勤務証明書（Excel版）",
+      "url": "https://www.nishi.or.jp/kosodate/hoikujo/hoikujo/riyotetsuzuki/hoikujo-shorui.files/R9kinmusyoumeisyo.xlsx"
+    },
+    {
+      "label": "就労証明書（国の標準的な様式）（Excel）",
+      "url": "https://www.nishi.or.jp/kosodate/hoikujo/hoikujo/riyotetsuzuki/hoikujo-shorui.files/R80901_shuroushoumeisho_kuni.xlsx"
+    },
+    {
+      "label": "保育利用申込の必要書類について（PDF）",
+      "url": "https://www.nishi.or.jp/kosodate/hoikujo/hoikujo/riyotetsuzuki/hoikujo-shorui.files/R80901_hituyousyoruinituite.pdf"
+    }
+  ],
+  "submitTo": "保育入所課（西宮市役所本庁舎7階、0798-35-3160）",
+  "siblings": "きょうだい同時申込のときは、申込書と児童状況票は児童ごとに必要だが、それ以外の書類はコピーを取ってそれぞれの申請書に添付する",
+  "seal": "unknown",
+  "differences": [
+    "名前が「勤務証明書」で、上部に保護者記入欄（保護者名・児童との続柄・児童名と第1希望または利用中の施設名）がある",
+    "保護者記入欄に「ダブルワーク（掛け持ち・副業）の有無と事業所名」と、第1希望または在園施設から勤務場所までの「片道通勤時間」を書く欄がある",
+    "国の標準様式の就労証明書（Excel）も同じページで配布されており、育成センター（学童）の利用申請にも使える"
+  ],
+  "notes": [
+    "ダブルワークの欄にチェックがない場合は、他の勤務先はないものとみなされる"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.nishi.or.jp/kosodate/hoikujo/hoikujo/riyotetsuzuki/hoikujo-shorui.files/R9kinmusyomeisyo.pdf",
+      "quote": "上記の者について、次のとおり勤務（内定）していることを証明"
+    },
+    "submitTo": {
+      "url": "https://www.nishi.or.jp/kosodate/hoikujo/hoikujo/riyotetsuzuki/hoikujo-shorui.html",
+      "quote": "西宮市六湛寺町10-3 西宮市役所本庁舎 7階"
+    },
+    "siblings": {
+      "url": "https://www.nishi.or.jp/kosodate/hoikujo/hoikujo/riyotetsuzuki/hoikujo-shorui.html",
+      "quote": "それ以外の書類は、コピーをお取りいただき、それぞれの申請書に添付してください。"
+    },
+    "differences.0": {
+      "url": "https://www.nishi.or.jp/kosodate/hoikujo/hoikujo/riyotetsuzuki/hoikujo-shorui.files/R9kinmusyomeisyo.pdf",
+      "quote": "保護者名 児童との続柄"
+    },
+    "differences.1": {
+      "url": "https://www.nishi.or.jp/kosodate/hoikujo/hoikujo/riyotetsuzuki/hoikujo-shorui.files/R9kinmusyomeisyo.pdf",
+      "quote": "※チェックがない場合は、他の勤務先はないものとみなします。"
+    },
+    "differences.2": {
+      "url": "https://www.nishi.or.jp/kosodate/hoikujo/hoikujo/riyotetsuzuki/hoikujo-shorui.html",
+      "quote": "※「就労証明書（国の標準的な様式）」については育成センターの利用申請においても使用可能です。"
+    },
+    "notes.0": {
+      "url": "https://www.nishi.or.jp/kosodate/hoikujo/hoikujo/riyotetsuzuki/hoikujo-shorui.files/R9kinmusyomeisyo.pdf",
+      "quote": "※チェックがない場合は、他の勤務先はないものとみなします。"
+    }
+  },
+  "sources": [
+    {
+      "label": "西宮市「認可保育施設利用申込に係る書類について」",
+      "url": "https://www.nishi.or.jp/kosodate/hoikujo/hoikujo/riyotetsuzuki/hoikujo-shorui.html"
+    },
+    {
+      "label": "西宮市 勤務証明書（PDF）",
+      "url": "https://www.nishi.or.jp/kosodate/hoikujo/hoikujo/riyotetsuzuki/hoikujo-shorui.files/R9kinmusyomeisyo.pdf"
+    }
+  ]
+}

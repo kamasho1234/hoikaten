@@ -1,0 +1,35 @@
+{
+  "citySlug": "kagamino",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "鏡野町「令和8年度　幼稚園・保育園・認定こども園の入園申込」",
+    "url": "https://www.town.kagamino.lg.jp/site/kodomoenhoikuen/12835.html"
+  },
+  "formFiles": [
+    { "label": "就労証明書（PDFファイル）", "url": "https://www.town.kagamino.lg.jp/uploaded/attachment/15220.pdf" },
+    { "label": "就労証明書（Excelファイル）", "url": "https://www.town.kagamino.lg.jp/uploaded/attachment/15258.xlsx" }
+  ],
+  "submitTo": "鏡野町役場 子育て支援課 または 町内の保育園・幼稚園・認定こども園",
+  "seal": "unknown",
+  "notes": [
+    "申込書類は鏡野町役場子育て支援課、町内の幼稚園、保育園、認定こども園で配布しており、ダウンロードも可能です"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.town.kagamino.lg.jp/site/kodomoenhoikuen/12835.html",
+      "quote": "(4)就労証明書"
+    },
+    "submitTo": {
+      "url": "https://www.town.kagamino.lg.jp/site/kodomoenhoikuen/12835.html",
+      "quote": "鏡野町役場 子育て支援課　または　鏡野町内の幼稚園、保育園、認定こども園"
+    },
+    "notes.0": {
+      "url": "https://www.town.kagamino.lg.jp/site/kodomoenhoikuen/12835.html",
+      "quote": "申込書類は鏡野町役場子育て支援課、鏡野町内の幼稚園、保育園、認定こども園で配布しています。また、以下からダウンロードできます。"
+    }
+  },
+  "sources": [
+    { "label": "鏡野町「令和8年度　幼稚園・保育園・認定こども園の入園申込」", "url": "https://www.town.kagamino.lg.jp/site/kodomoenhoikuen/12835.html" }
+  ]
+}

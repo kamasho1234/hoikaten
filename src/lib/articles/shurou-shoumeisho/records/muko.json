@@ -1,0 +1,47 @@
+{
+  "citySlug": "muko",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "向日市「令和8年度保育所等入所について」",
+    "url": "https://www.city.muko.kyoto.jp/site/shinsei/14636.html"
+  },
+  "formFiles": [
+    { "label": "就労証明書（PDF版）", "url": "https://www.city.muko.kyoto.jp/uploaded/attachment/19490.pdf" },
+    { "label": "就労証明書（勤務開始・育休復帰確認用）Word", "url": "https://www.city.muko.kyoto.jp/uploaded/attachment/20644.doc" },
+    { "label": "就労証明書（勤務開始・育休復帰確認用）記入例", "url": "https://www.city.muko.kyoto.jp/uploaded/attachment/20645.pdf" }
+  ],
+  "deadline": "入所希望月の前月15日まで",
+  "submitTo": "向日市役所東向日別館4階子育て支援課",
+  "seal": "unknown",
+  "notes": [
+    "育児休業から復職または就労見込みで入所された方は、入所月の翌月15日までに「就労証明書（勤務開始・育休復帰確認用）」を在園中の保育所等へ提出する必要があります",
+    "入所月中に復職または勤務開始が確認できない場合は、退所となり、保育料とは別に要した費用を負担していただく場合があります"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.muko.kyoto.jp/uploaded/attachment/19490.pdf",
+      "quote": "19保護者記載欄"
+    },
+    "deadline": {
+      "url": "https://www.city.muko.kyoto.jp/site/shinsei/14636.html",
+      "quote": "入所希望月の前月15日までに必要書類を向日市役所東向日別館4階子育て支援課にご提出ください。"
+    },
+    "submitTo": {
+      "url": "https://www.city.muko.kyoto.jp/site/shinsei/14636.html",
+      "quote": "向日市役所東向日別館4階子育て支援課"
+    },
+    "notes.0": {
+      "url": "https://www.city.muko.kyoto.jp/site/shinsei/14636.html",
+      "quote": "入所月の翌月15日までに、「就労証明書（勤務開始・育休復帰確認用）」を在園中の保育所等へ提出してください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.muko.kyoto.jp/site/shinsei/14636.html",
+      "quote": "入所月中に復職または勤務開始が確認できない場合は、退所となり、保育料とは別に要した費用を負担していただく場合がございます。"
+    }
+  },
+  "sources": [
+    { "label": "向日市「令和8年度保育所等入所について」", "url": "https://www.city.muko.kyoto.jp/site/shinsei/14636.html" },
+    { "label": "向日市 就労証明書（PDF版）", "url": "https://www.city.muko.kyoto.jp/uploaded/attachment/19490.pdf" }
+  ]
+}

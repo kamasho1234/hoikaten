@@ -1,0 +1,71 @@
+{
+  "citySlug": "tsu",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "津市「申請書ダウンロード」（保育こども園課）",
+    "url": "https://www.info.city.tsu.mie.jp/dl-list/kenkoufukushibu/1008729.html"
+  },
+  "formFiles": [
+    {
+      "label": "就労証明書（PDF）",
+      "url": "https://www.info.city.tsu.mie.jp/_res/projects/default_project/_page_/001/008/729/00/2026090101.pdf"
+    },
+    {
+      "label": "就労証明書（Excel）",
+      "url": "https://www.info.city.tsu.mie.jp/_res/projects/default_project/_page_/001/008/729/00/2026090102.xlsx"
+    }
+  ],
+  "deadline": "年度途中の利用は、利用開始を希望する月の2か月前から前月10日まで",
+  "submitTo": "郵送受付（消印有効）。津市 保育こども園課、各総合支所市民福祉課（福祉課）",
+  "seal": "not-required",
+  "sealNote": "事業所の代表印は不要です",
+  "notes": [
+    "各申請用紙に必要事項を記入し、勤務先で就労証明書を作成いただくなど、保育が必要であることを証する書類の準備が必要",
+    "就労証明書の発行には時間がかかる場合があるため注意が必要"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.info.city.tsu.mie.jp/_res/projects/default_project/_page_/001/008/729/00/2026090101.pdf",
+      "quote": "様式（R8.9.1版）"
+    },
+    "deadline": {
+      "url": "https://www.info.city.tsu.mie.jp/kosodateouen/shinseitodokede/1002738.html",
+      "quote": "利用開始を希望する月の2カ月前から同前月10日まで"
+    },
+    "submitTo": {
+      "url": "https://www.info.city.tsu.mie.jp/kosodateouen/shinseitodokede/1002738.html",
+      "quote": "保育こども園課、各総合支所市民福祉課（福祉課）"
+    },
+    "seal": {
+      "url": "https://www.info.city.tsu.mie.jp/_res/projects/default_project/_page_/001/008/729/00/2026090101.pdf",
+      "quote": "事業所の代表印は不要です"
+    },
+    "notes.0": {
+      "url": "https://www.info.city.tsu.mie.jp/kosodateouen/shinseitodokede/1002738.html",
+      "quote": "各申請用紙に必要事項を記入し、勤務先で就労証明書を作成いただくなど"
+    },
+    "notes.1": {
+      "url": "https://www.info.city.tsu.mie.jp/kosodateouen/shinseitodokede/1002738.html",
+      "quote": "発行されるまでに時間がかかる場合がありますのでご注意ください"
+    }
+  },
+  "sources": [
+    {
+      "label": "津市「申請書ダウンロード」（保育こども園課）",
+      "url": "https://www.info.city.tsu.mie.jp/dl-list/kenkoufukushibu/1008729.html"
+    },
+    {
+      "label": "津市「保育所等の利用に関する手続きについて」（新年度4月）",
+      "url": "https://www.info.city.tsu.mie.jp/kosodateouen/shinseitodokede/1002743.html"
+    },
+    {
+      "label": "津市「令和9年度保育所等利用のご案内」",
+      "url": "https://www.info.city.tsu.mie.jp/_res/projects/default_project/_page_/001/002/743/r9nyuusyoannnai.pdf"
+    },
+    {
+      "label": "津市 就労証明書（PDF）",
+      "url": "https://www.info.city.tsu.mie.jp/_res/projects/default_project/_page_/001/008/729/00/2026090101.pdf"
+    }
+  ]
+}

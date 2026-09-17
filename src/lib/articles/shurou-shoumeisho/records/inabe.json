@@ -1,0 +1,45 @@
+{
+  "citySlug": "inabe",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "いなべ市「入園申請に関する様式」",
+    "url": "https://www.city.inabe.mie.jp/kosoate/kosodate/hoikuen/1014074.html"
+  },
+  "formFiles": [
+    {
+      "label": "就労証明書（PDF）",
+      "url": "https://www.city.inabe.mie.jp/_res/projects/default_project/_page_/001/014/074/newshuuroushoumeisho2.pdf"
+    },
+    {
+      "label": "就労証明書（Excel）",
+      "url": "https://www.city.inabe.mie.jp/_res/projects/default_project/_page_/001/014/074/newshuuroushoumeishoexcel.xlsx"
+    },
+    {
+      "label": "就労証明書記載要領（PDF）",
+      "url": "https://www.city.inabe.mie.jp/_res/projects/default_project/_page_/001/014/074/syuurousyoumeisyo_kisaiyouryou.pdf"
+    },
+    {
+      "label": "就労証明書記入例（PDF）",
+      "url": "https://www.city.inabe.mie.jp/_res/projects/default_project/_page_/001/014/074/r8_syuurousyoumeisyo_kinyuurei.pdf"
+    }
+  ],
+  "seal": "unknown",
+  "notes": [],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.inabe.mie.jp/_res/projects/default_project/_page_/001/014/074/newshuuroushoumeisho2.pdf",
+      "quote": "19 保護者記載欄"
+    }
+  },
+  "sources": [
+    {
+      "label": "いなべ市「入園申請に関する様式」",
+      "url": "https://www.city.inabe.mie.jp/kosoate/kosodate/hoikuen/1014074.html"
+    },
+    {
+      "label": "いなべ市 就労証明書（PDF）",
+      "url": "https://www.city.inabe.mie.jp/_res/projects/default_project/_page_/001/014/074/newshuuroushoumeisho2.pdf"
+    }
+  ]
+}

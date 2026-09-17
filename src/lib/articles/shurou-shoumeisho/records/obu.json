@@ -1,0 +1,84 @@
+{
+  "citySlug": "obu",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "大府市「2027（令和9）年度保育園等入所申込関係書類」",
+    "url": "https://www.city.obu.aichi.jp/kosodate/hoikuen/1015050/1011404.html"
+  },
+  "formFiles": [
+    {
+      "label": "No.1 就労証明書 保育園等申込用（Excel）",
+      "url": "https://www.city.obu.aichi.jp/_res/projects/default_project/_page_/001/011/404/26shuroushoumei.xlsx"
+    },
+    {
+      "label": "No.1 就労証明書 保育園等申込用（PDF）",
+      "url": "https://www.city.obu.aichi.jp/_res/projects/default_project/_page_/001/011/404/26shuuroushoumei.pdf"
+    },
+    {
+      "label": "【記入例】No.1 就労証明書 保育園等申込用",
+      "url": "https://www.city.obu.aichi.jp/_res/projects/default_project/_page_/001/011/404/r9_01syuuroukinyuu_rei.pdf"
+    }
+  ],
+  "deadline": "令和9年4月入園の一斉申込は、オンライン申請が2026年9月7日（月曜）9時00分～2026年10月4日（日曜）17時00分まで",
+  "submitTo": "マイナポータル（ぴったりサービス）によるオンライン申請",
+  "online": "マイナポータルを活用した電子申請（ぴったりサービス）で申し込める。マイナンバーカードがなくても利用可能",
+  "seal": "not-required",
+  "sealNote": "会社印など押印の必要はございません",
+  "notes": [
+    "令和9年度保育園等一斉申込をされる方で、就労実績を記入する場合は直近3か月の「6月7月8月または7月8月9月」の実績が必要",
+    "就労先事業所の担当者が記載・作成する必要がある"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.obu.aichi.jp/_res/projects/default_project/_page_/001/011/404/r9_01syuuroukinyuu_rei.pdf",
+      "quote": "13 □ 有 □ 有（予定） ☑ 無"
+    },
+    "deadline": {
+      "url": "https://www.city.obu.aichi.jp/kosodate/hoikuen/1028109/index.html",
+      "quote": "申込期間：2026年9月7日（月曜）9時00分～2026年10月4日（日曜）17時00分まで"
+    },
+    "submitTo": {
+      "url": "https://www.city.obu.aichi.jp/kosodate/hoikuen/1015050/1011366.html",
+      "quote": "マイナポータルにアクセスし、以下の手順で申請を行ってください。"
+    },
+    "online": {
+      "url": "https://www.city.obu.aichi.jp/kosodate/hoikuen/1015050/1011366.html",
+      "quote": "マイナポータルを活用した電子申請（ぴったりサービス）"
+    },
+    "seal": {
+      "url": "https://www.city.obu.aichi.jp/_res/projects/default_project/_page_/001/011/404/r9_01syuuroukinyuu_rei.pdf",
+      "quote": "会社印など押印の必要はございません。"
+    },
+    "notes.0": {
+      "url": "https://www.city.obu.aichi.jp/kosodate/hoikuen/1015050/1011404.html",
+      "quote": "令和9年度保育園等一斉申込をされる方で、就労実績を記入する場合は「6,7,8月または7,8,9月」の実績が必要です。"
+    },
+    "notes.1": {
+      "url": "https://www.city.obu.aichi.jp/_res/projects/default_project/_page_/001/011/404/r9_01syuuroukinyuu_rei.pdf",
+      "quote": "必ず就労先事業所の方が記載・作成してください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "大府市「2027（令和9）年度保育園等入所申込関係書類」",
+      "url": "https://www.city.obu.aichi.jp/kosodate/hoikuen/1015050/1011404.html"
+    },
+    {
+      "label": "大府市「2027（令和9）年度保育園などの一斉申込のご案内」",
+      "url": "https://www.city.obu.aichi.jp/kosodate/hoikuen/1028109/index.html"
+    },
+    {
+      "label": "大府市「保育所等入所申込 電子申請のご案内」",
+      "url": "https://www.city.obu.aichi.jp/kosodate/hoikuen/1015050/1011366.html"
+    },
+    {
+      "label": "大府市 No.1 就労証明書 保育園等申込用（PDF、R9版）",
+      "url": "https://www.city.obu.aichi.jp/_res/projects/default_project/_page_/001/011/404/26shuuroushoumei.pdf"
+    },
+    {
+      "label": "大府市 【記入例】No.1 就労証明書 保育園等申込用",
+      "url": "https://www.city.obu.aichi.jp/_res/projects/default_project/_page_/001/011/404/r9_01syuuroukinyuu_rei.pdf"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "citySlug": "kyotanabe",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "京田辺市「「保育を必要とする事由（保育要件）」の証明書類等について」",
+    "url": "https://www.city.kyotanabe.lg.jp/kosodate/0000016202.html"
+  },
+  "formFiles": [
+    {
+      "label": "就労証明書（PDF）",
+      "url": "https://www.city.kyotanabe.lg.jp/cmsfiles/contents/0000016/16202/2.1.1.pdf"
+    },
+    {
+      "label": "就労証明書（Excel）",
+      "url": "https://www.city.kyotanabe.lg.jp/cmsfiles/contents/0000016/16202/2.1.2.xlsx"
+    },
+    {
+      "label": "就労証明書_記載例（PDF）",
+      "url": "https://www.city.kyotanabe.lg.jp/cmsfiles/contents/0000016/16202/2.2.pdf"
+    }
+  ],
+  "seal": "unknown",
+  "notes": [
+    "就労証明書は、保育所・認定こども園等の利用調整、または認定に必要な資料となるため、勤務先の担当の方が事実のとおりにご記入ください",
+    "証明日（証明書発行日）を記載してください。証明日のないものは無効となります",
+    "固定就労・変則就労は該当するどちらか一方でかまいません",
+    "育児短時間勤務制度を利用している場合でも、雇用契約上の内容を記載してください"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.kyotanabe.lg.jp/kosodate/0000016202.html",
+      "quote": "就労証明書  （PDF形式、141.71KB）就労証明書   （エクセル形式、99.64KB）就労証明書_記載例   （PDF形式、123.99KB）"
+    },
+    "notes.0": {
+      "url": "https://www.city.kyotanabe.lg.jp/cmsfiles/contents/0000016/16202/2.1.1.pdf",
+      "quote": "この就労証明書は、保育所・認定こども園等の利用調整、または認定に必要な資料となるため、勤務先の担当の方が事実のとおりにご記入ください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.kyotanabe.lg.jp/cmsfiles/contents/0000016/16202/2.1.1.pdf",
+      "quote": "証明日（証明書発行日）を記載してください。証明日のないものは無効となります。"
+    },
+    "notes.2": {
+      "url": "https://www.city.kyotanabe.lg.jp/cmsfiles/contents/0000016/16202/2.1.1.pdf",
+      "quote": "固定就労・変則就労は該当するどちらか一方でかまいません。"
+    },
+    "notes.3": {
+      "url": "https://www.city.kyotanabe.lg.jp/cmsfiles/contents/0000016/16202/2.1.1.pdf",
+      "quote": "育児短時間勤務制度を利用している場合でも、雇用契約上の内容を記載してください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "京田辺市「「保育を必要とする事由（保育要件）」の証明書類等について」",
+      "url": "https://www.city.kyotanabe.lg.jp/kosodate/0000016202.html"
+    },
+    {
+      "label": "京田辺市 就労証明書（PDF）",
+      "url": "https://www.city.kyotanabe.lg.jp/cmsfiles/contents/0000016/16202/2.1.1.pdf"
+    }
+  ]
+}

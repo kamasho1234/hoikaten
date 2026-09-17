@@ -1,0 +1,29 @@
+{
+  "citySlug": "okayama",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "岡山市「入園関係書類ダウンロードページ」",
+    "url": "https://www.city.okayama.jp/shisei/0000021680.html"
+  },
+  "formFiles": [
+    { "label": "就労証明書（PDF）", "url": "https://www.city.okayama.jp/shisei/cmsfiles/contents/0000021/21680/01_R8.9shuuroushoumeisho.pdf" },
+    { "label": "就労証明書（Excel）", "url": "https://www.city.okayama.jp/shisei/cmsfiles/contents/0000021/21680/02_2R8.9shuuroushoumeisho.xlsx" },
+    { "label": "【記入例】就労証明書（就労）", "url": "https://www.city.okayama.jp/shisei/cmsfiles/contents/0000021/21680/04_02kinyuureishuurou.pdf" },
+    { "label": "【記入例】就労証明書（育休復帰）", "url": "https://www.city.okayama.jp/shisei/cmsfiles/contents/0000021/21680/05_03kinyuureiikukyuufukki.pdf" },
+    { "label": "【記入例】就労証明書（自営業等）", "url": "https://www.city.okayama.jp/shisei/cmsfiles/contents/0000021/21680/06_02kinyuureijieigyou.pdf" },
+    { "label": "【記入例】就労証明書（内職）", "url": "https://www.city.okayama.jp/shisei/cmsfiles/contents/0000021/21680/07_02kinyuureinaishoku.pdf" }
+  ],
+  "seal": "unknown",
+  "notes": [],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.okayama.jp/shisei/0000021680.html",
+      "quote": "就労証明書  (PDF形式、173.54KB) 就労証明書  (エクセル形式、164.29KB)"
+    }
+  },
+  "sources": [
+    { "label": "岡山市「入園関係書類ダウンロードページ」", "url": "https://www.city.okayama.jp/shisei/0000021680.html" },
+    { "label": "岡山市 就労証明書（PDF）", "url": "https://www.city.okayama.jp/shisei/cmsfiles/contents/0000021/21680/01_R8.9shuuroushoumeisho.pdf" }
+  ]
+}

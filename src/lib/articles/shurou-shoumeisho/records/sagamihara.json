@@ -1,0 +1,37 @@
+{
+  "citySlug": "sagamihara",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "相模原市「就労証明書について」",
+    "url": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kosodate/1026606/hoikuen/1014960.html"
+  },
+  "formFiles": [
+    { "label": "就労証明書（手書用）（PDF）", "url": "https://www.city.sagamihara.kanagawa.jp/_res/projects/default_project/_page_/001/014/960/20250922_shurou_shoumeisho_tegaki.pdf" },
+    { "label": "就労証明書（電子入力用）（Excel）", "url": "https://www.city.sagamihara.kanagawa.jp/_res/projects/default_project/_page_/001/014/960/20250922_densi_nyuryoku.xlsx" },
+    { "label": "就労証明書記載要領（PDF）", "url": "https://www.city.sagamihara.kanagawa.jp/_res/projects/default_project/_page_/001/014/960/20250922_kisai_youryou.pdf" },
+    { "label": "【記入例】就労証明書（PDF）", "url": "https://www.city.sagamihara.kanagawa.jp/_res/projects/default_project/_page_/001/014/960/20250922_kinyuurei.pdf" }
+  ],
+  "validity": "証明日から2カ月以内のもの",
+  "seal": "unknown",
+  "notes": [
+    "令和6年10月1日より新様式を掲載。有効期間の範囲内であれば旧様式も利用できます。"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kosodate/1026606/hoikuen/1014960.html",
+      "quote": "令和6年10月1日より新様式を掲載しています。"
+    },
+    "validity": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kosodate/1026606/hoikuen/1014960.html",
+      "quote": "有効期間は証明日から2カ月です。"
+    },
+    "notes.0": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kosodate/1026606/hoikuen/1014960.html",
+      "quote": "注：令和6年10月1日より新様式を掲載しています。有効期間の範囲内であれば、旧様式もご利用いただけます。"
+    }
+  },
+  "sources": [
+    { "label": "相模原市「就労証明書について」", "url": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kosodate/1026606/hoikuen/1014960.html" }
+  ]
+}

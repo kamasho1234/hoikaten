@@ -1587,43 +1587,6 @@ const articles: Article[] = [
     popularity: 30,
   },
   {
-    slug: "shurou-shoumeisho",
-    citySlug: "kyoto",
-    title: "京都市の就労証明書｜様式ダウンロード先と記入例【令和8年度】",
-    description:
-      "京都市の保育園申込みに使う就労証明書について、公式の様式ダウンロード先へのリンクと、点数の付き方・記入例・よくある不備をまとめています。会社に依頼する前に確認してください。",
-    image: "https://images.unsplash.com/photo-1568667256549-094345857637?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<div class="info-box">
-<p><strong>まずは公式の様式をダウンロード</strong></p>
-<p>就労証明書の様式・記入例は<a href="https://www.city.kyoto.lg.jp/hagukumi/page/0000274712.html" target="_blank" rel="noopener">京都市「保育利用申込みの御案内」</a>からダウンロードできます。この記事では、その様式をどう書くと点数にどう響くかを説明します。</p>
-</div>
-<h2>就労証明書とは</h2>
-<p>保護者の就労状況を証明する書類です。勤務先に作成を依頼します。</p>
-
-<h2>記入のポイント</h2>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content"><strong>京都市指定の様式を使う</strong><p>京都市公式サイトからダウンロードできる様式を使用してください。</p></div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content"><strong>復職後の勤務予定を正確に記入</strong><p>育休中の方は復職後の勤務時間が点数に直結します。</p></div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content"><strong>証明者の押印・署名</strong><p>会社の代表者印または人事担当者の署名が必要です。</p></div>
-</div>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>京都市はmin方式のため、父母双方の就労証明書の記載内容が重要です。両方とも週40時間以上の記載があれば満点になります。</p>
-</div>`,
-    publishedAt: "2026-04-07",
-    popularity: 45,
-  },
-  {
     slug: "shinsei-shorui-list",
     citySlug: "kyoto",
     title: "京都市の保育園申込に必要な書類チェックリスト",

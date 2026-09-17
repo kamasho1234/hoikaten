@@ -1,0 +1,42 @@
+{
+  "citySlug": "takasaki",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "高崎市「保育所（園）・認定こども園の入所申し込みについて」",
+    "url": "https://www.city.takasaki.gunma.jp/page/6308.html"
+  },
+  "formFiles": [
+    {
+      "label": "就労証明書（PDF）",
+      "url": "https://www.city.takasaki.gunma.jp/uploaded/attachment/28088.pdf"
+    },
+    {
+      "label": "就労証明書（Excel）",
+      "url": "https://www.city.takasaki.gunma.jp/uploaded/attachment/28087.xlsx"
+    }
+  ],
+  "validity": "発行から3か月以内のもの",
+  "seal": "unknown",
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.takasaki.gunma.jp/page/6308.html",
+      "quote": "「就労証明書」　※発行から3か月以内のもの"
+    },
+    "validity": {
+      "url": "https://www.city.takasaki.gunma.jp/page/6308.html",
+      "quote": "「就労証明書」　※発行から3か月以内のもの"
+    }
+  },
+  "sources": [
+    {
+      "label": "高崎市「保育所（園）・認定こども園の入所申し込みについて」",
+      "url": "https://www.city.takasaki.gunma.jp/page/6308.html"
+    },
+    {
+      "label": "高崎市 就労証明書（PDF）",
+      "url": "https://www.city.takasaki.gunma.jp/uploaded/attachment/28088.pdf"
+    }
+  ],
+  "notes": []
+}

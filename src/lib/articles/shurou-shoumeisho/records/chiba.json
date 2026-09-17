@@ -1,0 +1,62 @@
+{
+  "citySlug": "chiba",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "千葉市「令和8年4月保育園等利用申請について」",
+    "url": "https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/4nyusyoannnai.html"
+  },
+  "formFiles": [
+    {
+      "label": "就労証明書（PDF）",
+      "url": "https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/documents/syuurousyoumei.pdf"
+    },
+    {
+      "label": "就労証明書（エクセル）",
+      "url": "https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/documents/syuurousyoumei.xlsx"
+    },
+    {
+      "label": "就労証明書【記載要領】",
+      "url": "https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/documents/syuurousyoumei_kisaiyouryou.pdf"
+    }
+  ],
+  "validity": "証明日から3カ月間となります",
+  "seal": "unknown",
+  "notes": [],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/4nyusyoannnai.html",
+      "quote": "就労証明書（★）"
+    },
+    "validity": {
+      "url": "https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/4nyusyoannnai.html",
+      "quote": "就労証明書の有効期限は、証明日から3カ月間となります。"
+    },
+    "selfEmployedDocs.0": {
+      "url": "https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/4nyusyoannnai.html",
+      "quote": "自営業の場合は、以下のものを併せてご提出ください。・自営を証明するもの（営業許可証・開業届等）・収入を証するもの（前年分の確定申告書等）"
+    },
+    "selfEmployedDocs.1": {
+      "url": "https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/4nyusyoannnai.html",
+      "quote": "自営業の場合は、以下のものを併せてご提出ください。・自営を証明するもの（営業許可証・開業届等）・収入を証するもの（前年分の確定申告書等）"
+    }
+  },
+  "sources": [
+    {
+      "label": "千葉市「令和9年4月保育園等利用申請について」",
+      "url": "https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/2027_riyoushinsei/2027_4_riyoushinsei.html"
+    },
+    {
+      "label": "千葉市「令和8年4月保育園等利用申請について」",
+      "url": "https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/4nyusyoannnai.html"
+    },
+    {
+      "label": "千葉市「認定こども園・保育園等各種届出書のダウンロード」",
+      "url": "https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/kakusyutodokedesyonodaunnro-do.html"
+    }
+  ],
+  "selfEmployedDocs": [
+    "自営を証明するもの（営業許可証・開業届等）",
+    "収入を証するもの（前年分の確定申告書等）"
+  ]
+}

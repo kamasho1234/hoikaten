@@ -1,0 +1,88 @@
+{
+  "citySlug": "nishitokyo",
+  "checkedAt": "2026-09-18",
+  "formType": "standard-plus",
+  "formPage": {
+    "label": "西東京市「令和8年度保育園等入園申込み等書類について」",
+    "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R8hoikuennnyuuennmousikomi.html"
+  },
+  "formFiles": [
+    {
+      "label": "就労証明書（書式4）PDF版",
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R8hoikuennnyuuennmousikomi.files/R8syosiki4Ver.R8.9.16.pdf"
+    },
+    {
+      "label": "就労証明書（書式4）Excel版",
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R8hoikuennnyuuennmousikomi.files/R8syosiki4Ver.R8.9.16.xlsx"
+    },
+    {
+      "label": "就労証明書記載要領",
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R8hoikuennnyuuennmousikomi.files/R8syosiki4_kisaiyouryou.pdf"
+    }
+  ],
+  "deadline": "令和8年4月入所：令和8年2月16日から令和8年4月10日。各月によって異なる",
+  "submitTo": "〒188-8666西東京市南町五丁目6番13号 西東京市役所幼児教育・保育課（郵送・窓口受付）",
+  "seal": "unknown",
+  "notes": [
+    "鉛筆や消せるボールペンで記入してある場合は無効",
+    "本人が担当者（記載者）になることはできない"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R8hoikuennnyuuennmousikomi.files/R8syosiki4Ver.R8.9.16.pdf",
+      "quote": "就労証明書 令和８年度用 書式④"
+    },
+    "deadline": {
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R8nyuuenschedule.html",
+      "quote": "令和8年5月 令和8年2月16日（月曜日）から令和8年4月10日（金曜日）"
+    },
+    "submitTo": {
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R8hoikuennnyuuennmousikomi.html",
+      "quote": "〒188－8666　西東京市南町五丁目6番13号　西東京市役所幼児教育・保育課"
+    },
+    "differences.0": {
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R8hoikuennnyuuennmousikomi.files/R8syosiki4Ver.R8.9.16.pdf",
+      "quote": "令和９年度の保育園等入所申し込みには使用できません。"
+    },
+    "differences.1": {
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R8hoikuennnyuuennmousikomi.files/R8syosiki4Ver.R8.9.16.pdf",
+      "quote": "育児休業給付金受給資格 □有 □無"
+    },
+    "differences.2": {
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R8hoikuennnyuuennmousikomi.files/R8syosiki4Ver.R8.9.16.pdf",
+      "quote": "※本人が担当者となることはできません。"
+    },
+    "validity": {
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R8hoikuennnyuuennmousikomi.files/R8syosiki4Ver.R8.9.16.pdf",
+      "quote": "※証明日より提出日が２か月以内のみ有効となります。"
+    },
+    "notes.0": {
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R8hoikuennnyuuennmousikomi.files/R8syosiki4Ver.R8.9.16.pdf",
+      "quote": "※鉛筆や消せるボールペンで記入してある場合、無効とし"
+    },
+    "notes.1": {
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R8hoikuennnyuuennmousikomi.files/R8syosiki4Ver.R8.9.16.pdf",
+      "quote": "※本人が担当者となることはできません。"
+    }
+  },
+  "sources": [
+    {
+      "label": "西東京市「令和8年度保育園等入園申込み等書類について」",
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R8hoikuennnyuuennmousikomi.html"
+    },
+    {
+      "label": "西東京市「令和8年度保育園等入園申込スケジュール」",
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R8nyuuenschedule.html"
+    },
+    {
+      "label": "西東京市 就労証明書（書式④）（PDF）",
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R8hoikuennnyuuennmousikomi.files/R8syosiki4Ver.R8.9.16.pdf"
+    }
+  ],
+  "differences": [
+    "表題が「就労証明書 令和８年度用 書式④」で、令和8年度の入所申込・認定変更申請専用（令和9年度の申込には使えない）",
+    "No.9 育児休業の取得に「追記」として、根拠（法定・企業独自）と育児休業給付金受給資格の有無を書く欄がある",
+    "欄外に、証明日より提出日が2か月以内のみ有効、鉛筆や消せるボールペンは無効、本人が担当者になれない、の注意がある"
+  ],
+  "validity": "証明日より提出日が2か月以内のもの"
+}

@@ -1,0 +1,35 @@
+{
+  "citySlug": "misato",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "三郷市「保育施設の利用希望申込について」",
+    "url": "https://www.city.misato.lg.jp/soshiki/kodomomirai/sukoyaka/5/352.html"
+  },
+  "formFiles": [
+    { "label": "就労証明書（標準的な様式・簡易版）（PDFファイル：591.4KB）", "url": "https://www.city.misato.lg.jp/material/files/group/35/R9syurousyoumeisyo.pdf" },
+    { "label": "就労証明書（標準的な様式・簡易版）（Excelファイル：49.2KB）", "url": "https://www.city.misato.lg.jp/material/files/group/35/syuurousyoumeisyo.xlsx" }
+  ],
+  "seal": "unknown",
+  "notes": [
+    "こども家庁の標準的な様式を使用",
+    "変則就労の場合は、No.7に記載の就労実績と同月のシフト表を添付"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.misato.lg.jp/soshiki/kodomomirai/sukoyaka/5/352.html",
+      "quote": "就労証明書（標準的な様式・簡易版）"
+    },
+    "notes.0": {
+      "url": "https://www.city.misato.lg.jp/soshiki/kodomomirai/sukoyaka/5/352.html",
+      "quote": "就労証明書（標準的な様式・簡易版）"
+    },
+    "notes.1": {
+      "url": "https://www.city.misato.lg.jp/soshiki/kodomomirai/sukoyaka/5/10817.html",
+      "quote": "変則就労の場合は、No.7に記載の就労実績と同月のシフト表を添付ください"
+    }
+  },
+  "sources": [
+    { "label": "三郷市「保育施設の利用希望申込について」", "url": "https://www.city.misato.lg.jp/soshiki/kodomomirai/sukoyaka/5/352.html" }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "citySlug": "ginowan",
+  "checkedAt": "2026-09-18",
+  "formType": "standard-plus",
+  "formPage": {
+    "label": "宜野湾市「令和9年度（2027年度）宜野湾市認可保育施設等4月1日入所申込について」",
+    "url": "https://www.city.ginowan.lg.jp/soshiki/kodomo/2/ninkahoikuen/20598.html"
+  },
+  "formFiles": [
+    {
+      "label": "就労証明書",
+      "url": "https://www.city.ginowan.lg.jp/material/files/group/21/R9kikannai_shuroushoumeisho.pdf"
+    },
+    {
+      "label": "就労証明書記載例",
+      "url": "https://www.city.ginowan.lg.jp/material/files/group/21/R9kikannai_shuroushoumeisho_kisairei.pdf"
+    }
+  ],
+  "seal": "unknown",
+  "notes": [],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.ginowan.lg.jp/soshiki/kodomo/2/ninkahoikuen/20598.html",
+      "quote": "就労証明書（※国の標準的な様式）"
+    },
+    "differences.0": {
+      "url": "https://www.city.ginowan.lg.jp/material/files/group/21/R9kikannai_shuroushoumeisho.pdf",
+      "quote": "就労証明書 （令和９年度保育所入所申込・無償化申請用）"
+    },
+    "differences.1": {
+      "url": "https://www.city.ginowan.lg.jp/material/files/group/21/R9kikannai_shuroushoumeisho.pdf",
+      "quote": "19 保護者記載欄"
+    }
+  },
+  "sources": [
+    {
+      "label": "宜野湾市「令和9年度（2027年度）宜野湾市認可保育施設等4月1日入所申込について」",
+      "url": "https://www.city.ginowan.lg.jp/soshiki/kodomo/2/ninkahoikuen/20598.html"
+    },
+    {
+      "label": "宜野湾市 就労証明書",
+      "url": "https://www.city.ginowan.lg.jp/material/files/group/21/R9kikannai_shuroushoumeisho.pdf"
+    }
+  ],
+  "differences": [
+    "表題が「就労証明書（令和９年度保育所入所申込・無償化申請用）」で、あて先は「宜野湾市長 宛」。項目はNo.1〜19の国の標準様式と同じ",
+    "欄外に「修正液・修正テープは使用しないでください」の注意がある"
+  ]
+}

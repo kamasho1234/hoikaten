@@ -1,0 +1,30 @@
+{
+  "citySlug": "ogano",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "小鹿野町「保育所(保育園)・認定こども園」",
+    "url": "https://www.town.ogano.lg.jp/kosodate-kyouiku/kosodate/hoikujyo-hoikuen-kodomoen/"
+  },
+  "formFiles": [
+    { "label": "【様式第２号】就労証明書【Excel】", "url": "https://www.town.ogano.lg.jp/cms/wp-content/uploads/2025/10/yousiki2_syurousyoumeisyo.xlsx" },
+    { "label": "【記入例】就労証明書【PDF】", "url": "https://www.town.ogano.lg.jp/cms/wp-content/uploads/2025/10/kinyurei_syurousyoumeisyo.pdf" }
+  ],
+  "seal": "unknown",
+  "notes": [
+    "様式第２号を使用"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.town.ogano.lg.jp/kosodate-kyouiku/kosodate/hoikujyo-hoikuen-kodomoen/",
+      "quote": "【様式第２号】就労証明書"
+    },
+    "notes.0": {
+      "url": "https://www.town.ogano.lg.jp/kosodate-kyouiku/kosodate/hoikujyo-hoikuen-kodomoen/",
+      "quote": "【様式第２号】就労証明書"
+    }
+  },
+  "sources": [
+    { "label": "小鹿野町「保育所(保育園)・認定こども園」", "url": "https://www.town.ogano.lg.jp/kosodate-kyouiku/kosodate/hoikujyo-hoikuen-kodomoen/" }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "citySlug": "hioki",
+  "checkedAt": "2026-09-18",
+  "formType": "original",
+  "formPage": {
+    "label": "日置市「保育所等の手続き」",
+    "url": "https://www.city.hioki.kagoshima.jp/jifuku/kurashi/kosodate-kyoiku/kosodate/shinsesho/hoikujonado.html"
+  },
+  "formFiles": [
+    {
+      "label": "【様式】就労証明書（エクセル：93KB）",
+      "url": "https://www.city.hioki.kagoshima.jp/documents/373/shuroshomei.xlsx"
+    },
+    {
+      "label": "【様式】就労証明書（PDF：160KB）",
+      "url": "https://www.city.hioki.kagoshima.jp/documents/373/syuroshomei.pdf"
+    },
+    {
+      "label": "【記載例】就労証明書（PDF：256KB）",
+      "url": "https://www.city.hioki.kagoshima.jp/documents/373/syuurousyoumeikisairei.pdf"
+    },
+    {
+      "label": "【記載要領】就労証明書（PDF：148KB）",
+      "url": "https://www.city.hioki.kagoshima.jp/documents/373/youryoshuroshomei.pdf"
+    }
+  ],
+  "deadline": "令和7年12月17日～令和8年1月23日（第2期）、令和8年2月9日～28日（第3期）。5月以降の申込は入所希望日の属する月の前々月の10日まで",
+  "submitTo": "日置市役所こども未来課子ども福祉係、東市来支所地域振興課健康福祉係、日吉支所地域振興課健康福祉係、吹上支所地域振興課健康福祉係",
+  "online": "オンライン申請（LoGoForm）での申込が原則。窓口申請も可能",
+  "seal": "unknown",
+  "differences": [
+    "項目がNo.1〜14（14が備考欄）で、その下に「日置市追加項目」としてNo.15「雇用（予定）期間等 満了後の更新の有無」、No.16「育児休業の短縮の同意」がある",
+    "国の標準様式にある「産休・育休以外の休業」「入所内定時育休短縮可否」「育休延長可否」「単身赴任期間」「保護者記載欄」に当たる欄は無い",
+    "個人事業（自営業）主は、前年度の確定申告書または住民税申告書の写し、どちらも無い場合は収支計算書を添付する旨が様式に書かれている"
+  ],
+  "notes": [
+    "就労証明書などは発行に時間を要する場合があるため早めの準備が必要",
+    "自営業の場合は別途書類（開業届等）が必要な場合がある"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.hioki.kagoshima.jp/documents/373/syuroshomei.pdf",
+      "quote": "日置市追加項目"
+    },
+    "deadline": {
+      "url": "https://www.city.hioki.kagoshima.jp/jifuku/kurashi/kosodate-kyoiku/kosodate/08hoikusho.html",
+      "quote": "第2期受付期間：令和7年12月17日（水曜日）～令和8年1月23日（金曜日）"
+    },
+    "submitTo": {
+      "url": "https://www.city.hioki.kagoshima.jp/jifuku/kurashi/kosodate-kyoiku/kosodate/08hoikusho.html",
+      "quote": "日置市役所こども未来課子ども福祉係"
+    },
+    "online": {
+      "url": "https://www.city.hioki.kagoshima.jp/jifuku/kurashi/kosodate-kyoiku/kosodate/08hoikusho.html",
+      "quote": "原則、パソコンやスマートフォンなどからのオンライン申請になります。ご自宅で申請ができない方は申請窓口にて申請ができます。"
+    },
+    "differences": {
+      "url": "https://www.city.hioki.kagoshima.jp/documents/373/youryoshuroshomei.pdf",
+      "quote": "【就労証明書（簡易版）】記載要領"
+    },
+    "notes.0": {
+      "url": "https://www.city.hioki.kagoshima.jp/jifuku/kurashi/kosodate-kyoiku/kosodate/08hoikusho.html",
+      "quote": "就労証明書などは、発行に時間を要する場合がありますので、お早めにご確認ください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.hioki.kagoshima.jp/jifuku/kurashi/kosodate-kyoiku/kosodate/shinsesho/hoikujonado.html",
+      "quote": "1.就労（就労予定）"
+    },
+    "differences.0": {
+      "url": "https://www.city.hioki.kagoshima.jp/documents/373/syuroshomei.pdf",
+      "quote": "16 育児休業の短縮の同意"
+    },
+    "differences.1": {
+      "url": "https://www.city.hioki.kagoshima.jp/documents/373/syuroshomei.pdf",
+      "quote": "14 備考欄"
+    },
+    "differences.2": {
+      "url": "https://www.city.hioki.kagoshima.jp/documents/373/syuroshomei.pdf",
+      "quote": "個人事業（自営業）主の場合は、前年度の①確定申告書または②住民税申告書の写し、①と②がない場合は、収支計算書の添付が必要です。"
+    },
+    "selfEmployedDocs.0": {
+      "url": "https://www.city.hioki.kagoshima.jp/documents/373/syuroshomei.pdf",
+      "quote": "個人事業（自営業）主の場合は、前年度の①確定申告書または②住民税申告書の写し、①と②がない場合は、収支計算書の添付が必要です。"
+    }
+  },
+  "sources": [
+    {
+      "label": "日置市「保育所等の手続き」",
+      "url": "https://www.city.hioki.kagoshima.jp/jifuku/kurashi/kosodate-kyoiku/kosodate/shinsesho/hoikujonado.html"
+    },
+    {
+      "label": "日置市「令和8年度保育所および認定こども園（保育所機能）、小規模保育事業所の利用申し込み関連情報」",
+      "url": "https://www.city.hioki.kagoshima.jp/jifuku/kurashi/kosodate-kyoiku/kosodate/08hoikusho.html"
+    },
+    {
+      "label": "日置市 就労証明書（PDF）",
+      "url": "https://www.city.hioki.kagoshima.jp/documents/373/syuroshomei.pdf"
+    }
+  ],
+  "selfEmployedDocs": [
+    "前年度の確定申告書または住民税申告書の写し（どちらも無い場合は収支計算書）"
+  ]
+}

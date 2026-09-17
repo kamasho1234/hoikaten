@@ -1,0 +1,98 @@
+{
+  "citySlug": "higashiosaka",
+  "checkedAt": "2026-09-18",
+  "formType": "standard-plus",
+  "formPage": {
+    "label": "東大阪市「保育の必要性の認定に必要な就労証明書」",
+    "url": "https://www.city.higashiosaka.lg.jp/kosodate/0000038325.html"
+  },
+  "formFiles": [
+    {
+      "label": "【手書き用】就労証明書",
+      "url": "https://www.city.higashiosaka.lg.jp/kosodate/cmsfiles/contents/0000038/38325/tegakishuushou.pdf"
+    },
+    {
+      "label": "【電子入力用】就労証明書",
+      "url": "https://www.city.higashiosaka.lg.jp/kosodate/cmsfiles/contents/0000038/38325/shuushoudensinyuuryoku.xlsx"
+    },
+    {
+      "label": "記載にあたっての注意事項",
+      "url": "https://www.city.higashiosaka.lg.jp/kosodate/cmsfiles/contents/0000038/38325/chuuijikou.pdf"
+    },
+    {
+      "label": "【記入見本】就労証明書",
+      "url": "https://www.city.higashiosaka.lg.jp/kosodate/cmsfiles/contents/0000038/38325/shuushoumihon.pdf"
+    },
+    {
+      "label": "【手書き用】就労証明書(標準様式)",
+      "url": "https://www.city.higashiosaka.lg.jp/kosodate/cmsfiles/contents/0000038/38325/tegakishuuroushoumeisho.pdf"
+    },
+    {
+      "label": "【電子入力用】就労証明書(標準様式)",
+      "url": "https://www.city.higashiosaka.lg.jp/kosodate/cmsfiles/contents/0000038/38325/kunihyoujunshuurou.xlsx"
+    },
+    {
+      "label": "記載にあたっての注意事項(標準様式)",
+      "url": "https://www.city.higashiosaka.lg.jp/kosodate/cmsfiles/contents/0000038/38325/kisaikuni.pdf"
+    },
+    {
+      "label": "標準様式の記載要領",
+      "url": "https://www.city.higashiosaka.lg.jp/kosodate/cmsfiles/contents/0000038/38325/hyoujunnkisaiyouryou.pdf"
+    }
+  ],
+  "seal": "not-required",
+  "sealNote": "押印は必要ありません。但し、押印いただいても差し支えありません。",
+  "differences": [
+    "国の標準様式のほか、本市独自の様式も使用可能（令和6年4月から国の標準様式も使用可能）"
+  ],
+  "notes": [
+    "令和6年4月から国の標準様式も使用可能になった",
+    "記載内容に誤りがあった場合は、訂正箇所に二重線を引き、その上部に正しい内容を記載すること",
+    "修正テープや修正液が使用されている証明書は無効なものとして扱われる",
+    "証明日の記載漏れがある場合は無効なものとして扱われる"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.higashiosaka.lg.jp/kosodate/0000038325.html",
+      "quote": "令和6年4月から国の標準様式も使用可能です"
+    },
+    "seal": {
+      "url": "https://www.city.higashiosaka.lg.jp/kosodate/0000038325.html",
+      "quote": "押印は必要ありません。但し、押印いただいても差し支えありません。"
+    },
+    "differences.0": {
+      "url": "https://www.city.higashiosaka.lg.jp/kosodate/0000038325.html",
+      "quote": "令和6年4月から国の標準様式も使用可能です"
+    },
+    "notes.0": {
+      "url": "https://www.city.higashiosaka.lg.jp/kosodate/0000038325.html",
+      "quote": "令和6年4月から国の標準様式も使用可能です"
+    },
+    "notes.1": {
+      "url": "https://www.city.higashiosaka.lg.jp/kosodate/0000038325.html",
+      "quote": "記載内容に誤りがあった等の場合は、訂正箇所に二重線を引き、その上部に正しい内容を記載してください"
+    },
+    "notes.2": {
+      "url": "https://www.city.higashiosaka.lg.jp/kosodate/0000038325.html",
+      "quote": "修正テープや修正液が使用されている証明書は無効なものとして扱います"
+    },
+    "notes.3": {
+      "url": "https://www.city.higashiosaka.lg.jp/kosodate/0000038325.html",
+      "quote": "証明日の記載漏れ　⇒証明日がない場合は無効なものとして扱います"
+    }
+  },
+  "sources": [
+    {
+      "label": "東大阪市「保育の必要性の認定に必要な就労証明書」",
+      "url": "https://www.city.higashiosaka.lg.jp/kosodate/0000038325.html"
+    },
+    {
+      "label": "東大阪市「令和9年度保育施設の入所申込」",
+      "url": "https://www.city.higashiosaka.lg.jp/kosodate/0000028302.html"
+    },
+    {
+      "label": "東大阪市「保育施設入所申込の手続き」",
+      "url": "https://www.city.higashiosaka.lg.jp/kosodate/0000015515.html"
+    }
+  ]
+}

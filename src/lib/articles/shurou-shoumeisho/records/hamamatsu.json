@@ -1,0 +1,42 @@
+{
+  "citySlug": "hamamatsu",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "浜松市「認可保育施設入園申込み等に必要な書類」（ぴっぴ）",
+    "url": "https://www.hamamatsu-pippi.net/contents/7767.html"
+  },
+  "formFiles": [
+    { "label": "就労証明書（PDF）", "url": "https://www.hamamatsu-pippi.net/shiritai/yoho/hoikusyorui/syurosyomei.pdf" },
+    { "label": "就労証明書（データ入力用Excel）", "url": "https://www.hamamatsu-pippi.net/shiritai/yoho/hoikusyorui/syurosyomei.xlsx" },
+    { "label": "就労証明書記載要領（PDF）", "url": "https://www.hamamatsu-pippi.net/shiritai/yoho/hoikusyorui/syurosyomei_youryou.pdf" }
+  ],
+  "validity": "書類の日付（証明日）は証明書提出日の3か月以内であれば有効",
+  "deadline": "一次受付：郵送受付期間 10月1日（木）～10月15日（木）。二次受付：郵送受付期間 1月25日（月）～1月29日（金）",
+  "seal": "unknown",
+  "notes": [
+    "自営業者以外は必ず雇用先の事業所に記入を依頼してください"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.hamamatsu-pippi.net/contents/7767.html",
+      "quote": "就労証明書については、自営業者以外は必ず雇用先の事業所に記入を依頼してください"
+    },
+    "validity": {
+      "url": "https://www.hamamatsu-pippi.net/contents/7769.html",
+      "quote": "書類の日付（証明日）は証明書提出日の3か月以内であれば有効です"
+    },
+    "deadline": {
+      "url": "https://www.hamamatsu-pippi.net/contents/7769.html",
+      "quote": "郵送受付期間 10月1日（木）～10月15日（木）（締切日当日消印有効）"
+    },
+    "notes.0": {
+      "url": "https://www.hamamatsu-pippi.net/contents/7767.html",
+      "quote": "就労証明書については、自営業者以外は必ず雇用先の事業所に記入を依頼してください"
+    }
+  },
+  "sources": [
+    { "label": "浜松市「認可保育施設の新年度（4月）入園の申込み」（ぴっぴ）", "url": "https://www.hamamatsu-pippi.net/contents/7769.html" },
+    { "label": "浜松市「認可保育施設入園申込み等に必要な書類」（ぴっぴ）", "url": "https://www.hamamatsu-pippi.net/contents/7767.html" }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "citySlug": "tochigi-city",
+  "checkedAt": "2026-09-18",
+  "formType": "standard-plus",
+  "formPage": {
+    "label": "栃木市「令和9年度 保育園、認定こども園、小規模保育施設の入園を希望する方へ」",
+    "url": "https://www.city.tochigi.lg.jp/site/kosodatekyouiku/91694.html"
+  },
+  "formFiles": [
+    {
+      "label": "就労証明書【両面】",
+      "url": "https://www.city.tochigi.lg.jp/uploaded/attachment/70835.pdf"
+    },
+    {
+      "label": "就労証明書（Excel版）",
+      "url": "https://www.city.tochigi.lg.jp/uploaded/attachment/70836.xlsx"
+    }
+  ],
+  "seal": "unknown",
+  "notes": [
+    "産休中・育休中の方は、休業取得期間を必ず記入してください"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.tochigi.lg.jp/site/kosodatekyouiku/91694.html",
+      "quote": "就労証明書 勤務先が記入証明するものです"
+    },
+    "notes.0": {
+      "url": "https://www.city.tochigi.lg.jp/site/kosodatekyouiku/91694.html",
+      "quote": "・産休中・育休中の方："
+    },
+    "differences.0": {
+      "url": "https://www.city.tochigi.lg.jp/uploaded/attachment/70835.pdf",
+      "quote": "栃 木 市 長 宛"
+    },
+    "differences.1": {
+      "url": "https://www.city.tochigi.lg.jp/uploaded/attachment/70835.pdf",
+      "quote": "保育士として現在勤務している方、または勤務予定がある方は有にチェックしてください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "栃木市「令和9年度 保育園、認定こども園、小規模保育施設の入園を希望する方へ」",
+      "url": "https://www.city.tochigi.lg.jp/site/kosodatekyouiku/91694.html"
+    },
+    {
+      "label": "栃木市 就労証明書【両面】",
+      "url": "https://www.city.tochigi.lg.jp/uploaded/attachment/70835.pdf"
+    }
+  ],
+  "differences": [
+    "両面で、裏面が栃木市の記入例になっている。項目はNo.1〜19の国の標準様式と同じ",
+    "記入例に、保育士として勤務中または勤務予定の人はNo.13を「有」にする旨の注記がある"
+  ]
+}

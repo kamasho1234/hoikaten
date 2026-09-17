@@ -1,0 +1,50 @@
+{
+  "citySlug": "arao",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "荒尾市「幼稚園、保育所、認定こども園、地域型保育事業所の入園申込みについて」",
+    "url": "https://www.city.arao.lg.jp/kosodate/hoikuen/hoikusho/page21009.html"
+  },
+  "formFiles": [
+    { "label": "就労証明書（標準的な様式）令和7年4月1日版（PDF）", "url": "https://www.city.arao.lg.jp/fs/2/2/3/1/8/2/_/10______________R7.4.1_.pdf" },
+    { "label": "就労証明書（記入例）（PDF）", "url": "https://www.city.arao.lg.jp/fs/2/2/3/1/8/9/_/______________________________.pdf" }
+  ],
+  "deadline": "令和8年度中の利用希望の受付は令和7年11月4日（火曜日）から令和7年11月21日（金曜日）まで",
+  "submitTo": "市内の施設希望の場合は第一希望の園へ提出してください。市外の施設への入所を希望する人は、子育て支援課へ提出してください。",
+  "seal": "unknown",
+  "notes": [
+    "受付期間外に申し込む場合は子育て支援課に提出してください",
+    "新規申込者については、後日お電話にて申込み内容の聞き取りをさせていただきます",
+    "施設の見学後の申込みをお願いします"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.arao.lg.jp/fs/2/2/3/1/8/2/_/10______________R7.4.1_.pdf",
+      "quote": "19 保護者記載欄"
+    },
+    "deadline": {
+      "url": "https://www.city.arao.lg.jp/kosodate/hoikuen/hoikusho/page21009.html",
+      "quote": "令和7年11月4日(火曜日)から令和7年11月21日(金曜日)まで"
+    },
+    "submitTo": {
+      "url": "https://www.city.arao.lg.jp/kosodate/hoikuen/hoikusho/page21009.html",
+      "quote": "市内の幼稚園、保育所、認定こども園、地域型保育事業所の入所を希望する人は、第一希望の園へ提出してください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.arao.lg.jp/kosodate/hoikuen/hoikusho/page21009.html",
+      "quote": "受付期間外に申し込む場合は子育て支援課に提出してください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.arao.lg.jp/kosodate/hoikuen/hoikusho/page21009.html",
+      "quote": "新規申込者については、後日お電話にて申込み内容の聞き取りをさせていただきます。"
+    },
+    "notes.2": {
+      "url": "https://www.city.arao.lg.jp/kosodate/hoikuen/hoikusho/page21009.html",
+      "quote": "施設の見学後の申込みをお願いします。"
+    }
+  },
+  "sources": [
+    { "label": "荒尾市「幼稚園、保育所、認定こども園、地域型保育事業所の入園申込みについて」", "url": "https://www.city.arao.lg.jp/kosodate/hoikuen/hoikusho/page21009.html" }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "citySlug": "kumamoto",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "熊本市「令和9年度（2027年度）熊本市保育所等申込み案内」",
+    "url": "https://www.city.kumamoto.jp/kiji00371314/index.html"
+  },
+  "formFiles": [
+    {
+      "label": "就労証明書Ⓑ（PDF版）",
+      "url": "https://www.city.kumamoto.jp/kiji00371314/3_71314_515321_up_hxlecec5.pdf"
+    },
+    {
+      "label": "就労証明書Ⓑ（Excel版）",
+      "url": "https://www.city.kumamoto.jp/kiji00371314/3_71314_515322_up_jqgq50b4.xlsx"
+    }
+  ],
+  "seal": "unknown",
+  "notes": [
+    "国の標準的な様式（Ⓑ）を採用しています"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.kumamoto.jp/kiji00371314/index.html",
+      "quote": "就労証明書Ⓑ（標準的な様式）R7年4月改訂版（エクセル：45.2キロバイト）"
+    },
+    "notes.0": {
+      "url": "https://www.city.kumamoto.jp/kiji00371314/index.html",
+      "quote": "就労証明書Ⓑ（標準的な様式）"
+    }
+  },
+  "sources": [
+    {
+      "label": "熊本市「令和9年度（2027年度）熊本市保育所等申込み案内」",
+      "url": "https://www.city.kumamoto.jp/kiji00371314/index.html"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "citySlug": "miyazaki",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "宮崎市「保育所等利用のための必要書類について」",
+    "url": "https://www.city.miyazaki.miyazaki.jp/education/nursery/access/328945.html"
+  },
+  "formFiles": [
+    {
+      "label": "就労証明書（PDF版）",
+      "url": "https://www.city.miyazaki.miyazaki.jp/fs/8/5/5/9/8/0/_/855980.pdf"
+    },
+    {
+      "label": "就労証明書（XLSX版）",
+      "url": "https://www.city.miyazaki.miyazaki.jp/fs/8/5/5/9/7/9/_/855979.xlsx"
+    }
+  ],
+  "validity": "証明日より3か月以内のもの",
+  "deadline": "令和7年12月19日(金)（第1回）、令和8年2月10日(火)（第2回）、令和8年3月9日(月)（第3回）。直近の申込締切は令和7年12月19日(金)",
+  "submitTo": "保育幼稚園課（本庁舎1階）または各総合支所地域市民福祉課市民福祉係",
+  "online": "電子申請（ぴったりサービス）で申込可能。マイナンバーカード必要",
+  "seal": "unknown",
+  "notes": [
+    "就労には月に合計60時間以上の就労が必要"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.miyazaki.miyazaki.jp/education/nursery/access/328945.html",
+      "quote": "就労証明書 (PDF 197KB)、就労証明書 (XLSX 76.2KB)"
+    },
+    "validity": {
+      "url": "https://www.city.miyazaki.miyazaki.jp/education/nursery/access/328945.html",
+      "quote": "※各書類は、証明日より3か月以内のものが有効です。"
+    },
+    "deadline": {
+      "url": "https://www.city.miyazaki.miyazaki.jp/education/nursery/access/297861.html",
+      "quote": "申込期間：令和7年12月1日(月)～12月19日(金)"
+    },
+    "submitTo": {
+      "url": "https://www.city.miyazaki.miyazaki.jp/education/nursery/access/297861.html",
+      "quote": "市保育幼稚園課（本庁舎1階）または各総合支所地域市民福祉課市民福祉係窓口で直接申込みを行ってください。"
+    },
+    "online": {
+      "url": "https://www.city.miyazaki.miyazaki.jp/education/nursery/access/297861.html",
+      "quote": "電子申請（ぴったりサービス）で申込む場合（保護者いずれかのマイナンバーカードが必要になります。）"
+    },
+    "notes.0": {
+      "url": "https://www.city.miyazaki.miyazaki.jp/education/nursery/access/297861.html",
+      "quote": "月に合計60時間以上就労していること※就労の時間帯、雇用形態（正職員・パートなど）は問わない。"
+    },
+    "selfEmployedDocs.0": {
+      "url": "https://www.city.miyazaki.miyazaki.jp/education/nursery/access/328945.html",
+      "quote": "【自営業の場合】事業の内容がわかる書類（開業届、HP画面の写し、委託契約書など）"
+    }
+  },
+  "sources": [
+    {
+      "label": "宮崎市「保育所等利用のための必要書類について」",
+      "url": "https://www.city.miyazaki.miyazaki.jp/education/nursery/access/328945.html"
+    },
+    {
+      "label": "宮崎市「令和8年度認可保育施設利用申込みのご案内」",
+      "url": "https://www.city.miyazaki.miyazaki.jp/education/nursery/access/297861.html"
+    }
+  ],
+  "selfEmployedDocs": [
+    "事業の内容がわかる書類（開業届、HP画面の写し、委託契約書など）"
+  ]
+}

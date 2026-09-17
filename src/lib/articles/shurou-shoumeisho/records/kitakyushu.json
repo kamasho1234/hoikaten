@@ -1,0 +1,64 @@
+{
+  "citySlug": "kitakyushu",
+  "checkedAt": "2026-09-18",
+  "formType": "standard-plus",
+  "formPage": {
+    "label": "北九州市「保育所等の利用（入所）のごあんない」",
+    "url": "https://www.city.kitakyushu.lg.jp/contents/12100069.html"
+  },
+  "formFiles": [
+    {
+      "label": "就労証明書兼保育要件申立書（PDF）",
+      "url": "https://www.city.kitakyushu.lg.jp/files/001198240.pdf"
+    },
+    {
+      "label": "就労証明書兼保育要件申立書（Excel）",
+      "url": "https://www.city.kitakyushu.lg.jp/files/001198239.xlsx"
+    },
+    {
+      "label": "記載例（PDF）",
+      "url": "https://www.city.kitakyushu.lg.jp/files/001198232.pdf"
+    }
+  ],
+  "deadline": "令和9年4月利用開始の1次選考：令和8年11月2日（月曜日）から令和9年1月下旬",
+  "seal": "unknown",
+  "differences": [
+    "表面が就労証明書、裏面が申立書となるように両面印刷が必須"
+  ],
+  "notes": [
+    "保護者全員分の提出が必要です",
+    "世帯の状況に変更があったときは、その都度1週間以内に各区保健福祉課に届け出るとともに、必要に応じた書類を提出してください"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.kitakyushu.lg.jp/contents/12100100.html",
+      "quote": "表面が就労証明書、裏面が申立書となるように両面印刷してください"
+    },
+    "deadline": {
+      "url": "https://www.city.kitakyushu.lg.jp/contents/12100069.html",
+      "quote": "令和8年11月2日（月曜日）から令和9年1月下旬"
+    },
+    "differences.0": {
+      "url": "https://www.city.kitakyushu.lg.jp/contents/12100100.html",
+      "quote": "表面が就労証明書、裏面が申立書となるように両面印刷してください"
+    },
+    "notes.0": {
+      "url": "https://www.city.kitakyushu.lg.jp/contents/12100069.html",
+      "quote": "保護者全員分の提出が必要です"
+    },
+    "notes.1": {
+      "url": "https://www.city.kitakyushu.lg.jp/contents/12100100.html",
+      "quote": "世帯の状況に変更があったときは、その都度1週間以内に各区保健福祉課に届け出るとともに、必要に応じた書類（「就労証明書」「診断書」など）を提出してください"
+    }
+  },
+  "sources": [
+    {
+      "label": "北九州市「保育所等の利用（入所）のごあんない」",
+      "url": "https://www.city.kitakyushu.lg.jp/contents/12100069.html"
+    },
+    {
+      "label": "北九州市「提出書類等について（様式はこちらから）」",
+      "url": "https://www.city.kitakyushu.lg.jp/contents/12100100.html"
+    }
+  ]
+}

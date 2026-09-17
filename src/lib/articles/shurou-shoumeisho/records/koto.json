@@ -1,0 +1,36 @@
+{
+  "citySlug": "koto",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "江東区「保育の必要性の認定について」",
+    "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/hoikunohitsuyouseinonintei.html"
+  },
+  "formFiles": [
+    { "label": "就労証明書〈区様式〉（PDF）", "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/documents/04_2_syuurousyoumeisyo.pdf" },
+    { "label": "就労証明書〈区様式〉（Excel）", "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/documents/syuurousyoumeisyo20260629.xlsx" },
+    { "label": "復職証明書〈区様式〉", "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/documents/20260129144128.xlsx" }
+  ],
+  "seal": "unknown",
+  "notes": [
+    "1日4時間以上かつ月12日以上の就労が必要",
+    "育児休業から復職予定の場合は、復職後2週間以内に就労証明書を提出"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/hoikunohitsuyouseinonintei.html",
+      "quote": "就労証明書〈区様式〉"
+    },
+    "notes.0": {
+      "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/hoikunohitsuyouseinonintei.html",
+      "quote": "1日4時間以上かつ月12日以上の就労に限る"
+    },
+    "notes.1": {
+      "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/hoikunohitsuyouseinonintei.html",
+      "quote": "復職後2週間以内を目安に、復職日以降に発行した「就労証明書」＜区様式＞を提出してください"
+    }
+  },
+  "sources": [
+    { "label": "江東区「保育の必要性の認定について」", "url": "https://www.city.koto.lg.jp/280308/kodomo/hoiku/ninka/hoikunohitsuyouseinonintei.html" }
+  ]
+}

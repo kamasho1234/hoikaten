@@ -1,0 +1,71 @@
+{
+  "citySlug": "takaoka",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "高岡市「保育園等にかかる各種様式ダウンロード」",
+    "url": "https://www.city.takaoka.toyama.jp/soshiki/kodomo_kosodateka/2/11/1/2138.html"
+  },
+  "formFiles": [
+    {
+      "label": "就労証明書（PDF）",
+      "url": "https://www.city.takaoka.toyama.jp/material/files/group/36/R7shuuroushoumeisho.pdf"
+    },
+    {
+      "label": "就労証明書（Excel）",
+      "url": "https://www.city.takaoka.toyama.jp/material/files/group/36/R8syuurousyoumeisyo.xlsx"
+    },
+    {
+      "label": "就労証明書記載例（会社等勤務の方）",
+      "url": "https://www.city.takaoka.toyama.jp/material/files/group/36/R9syurousyoumei_kigyou_kisairei.pdf"
+    },
+    {
+      "label": "就労証明書記載例（自営業主・自営業専従者の方）",
+      "url": "https://www.city.takaoka.toyama.jp/material/files/group/36/R9syurousyoumei_jiei_kisairei.pdf"
+    }
+  ],
+  "validity": "証明の日付より3か月間有効",
+  "submitTo": "子ども・子育て課",
+  "seal": "unknown",
+  "notes": [
+    "証明日から3か月以上経過している証明書は再度取り直す必要がある",
+    "修正テープ・修正液を使用して修正してあるものは再度作成し直す",
+    "修正の際は二重線で消して余白に正しい情報を記載する"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.takaoka.toyama.jp/soshiki/kodomo_kosodateka/2/11/1/2138.html",
+      "quote": "就労証明書及び各申立書は証明の日付より3ヶ月間有効です。"
+    },
+    "validity": {
+      "url": "https://www.city.takaoka.toyama.jp/soshiki/kodomo_kosodateka/2/11/1/3040.html",
+      "quote": "下記の就労証明書及び各申立書は証明の日付より3か月間有効です。"
+    },
+    "submitTo": {
+      "url": "https://www.city.takaoka.toyama.jp/soshiki/kodomo_kosodateka/2/11/1/3040.html",
+      "quote": "子ども・子育て課"
+    },
+    "notes.0": {
+      "url": "https://www.city.takaoka.toyama.jp/soshiki/kodomo_kosodateka/2/11/1/3040.html",
+      "quote": "証明日から3か月以上経過している証明書は、再度取り直していただきます。"
+    },
+    "notes.1": {
+      "url": "https://www.city.takaoka.toyama.jp/soshiki/kodomo_kosodateka/2/11/1/2138.html",
+      "quote": "修正テープ・修正液を使用して修正してあるものは、再度作成し直していただきます。"
+    },
+    "notes.2": {
+      "url": "https://www.city.takaoka.toyama.jp/soshiki/kodomo_kosodateka/2/11/1/2138.html",
+      "quote": "修正の際は、二重線で消して、余白に正しいものを記載してください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "高岡市「保育園等にかかる各種様式ダウンロード」",
+      "url": "https://www.city.takaoka.toyama.jp/soshiki/kodomo_kosodateka/2/11/1/2138.html"
+    },
+    {
+      "label": "高岡市「保育園等の入園申請に必要なもの」",
+      "url": "https://www.city.takaoka.toyama.jp/soshiki/kodomo_kosodateka/2/11/1/3040.html"
+    }
+  ]
+}

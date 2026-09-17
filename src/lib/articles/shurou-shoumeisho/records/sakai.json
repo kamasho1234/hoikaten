@@ -1,0 +1,58 @@
+{
+  "citySlug": "sakai",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "堺市「【雇用主の皆様へ】保育の必要性の認定に必要な就労証明書について」",
+    "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/moushikomi/R2syuurousyoumeisyokinyuuyouryou.html"
+  },
+  "formFiles": [
+    { "label": "就労証明書（PDF）", "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/moushikomi/R2syuurousyoumeisyokinyuuyouryou.files/R9syuurousyoumeisyo.pdf" },
+    { "label": "記載要領（PDF）", "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/moushikomi/R2syuurousyoumeisyokinyuuyouryou.files/R9kisaiyouryou.pdf" },
+    { "label": "記入例（雇用されている方）", "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/moushikomi/R2syuurousyoumeisyokinyuuyouryou.files/R9gaikinmukekinyuurei.pdf" },
+    { "label": "記入例（自営業の方）", "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/moushikomi/R2syuurousyoumeisyokinyuuyouryou.files/R9jieimukekinyuurei.pdf" }
+  ],
+  "seal": "unknown",
+  "notes": [
+    "証明書に不備があった場合、申し込み者の保育施設入所選考に不利益が生じる可能性がある",
+    "審査に関わる項目（証明日、氏名、就労時間、雇用期間、休業期間、就労実績など）が空白の場合、不備となる",
+    "鉛筆や消せるボールペンでの記入、修正テープや修正液での訂正は不備となる。訂正箇所に二重線を引き、正しい内容を記載する必要がある",
+    "№3「雇用(予定)期間等」が「有期」の場合、№14「（雇用契約の）満了後の更新の有無」の欄を必ず記載する",
+    "育児短時間勤務制度を利用する（予定）場合、№6「就労時間」の欄は制度利用前の就労時間を記載する",
+    "堺市職員が、電話や訪問により就労実績を調査することがある"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/moushikomi/R2syuurousyoumeisyokinyuuyouryou.html",
+      "quote": "国の標準様式の使用について"
+    },
+    "notes.0": {
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/moushikomi/R2syuurousyoumeisyokinyuuyouryou.files/R9syuurousyoumeisyo.pdf",
+      "quote": "証明書に不備があった場合、ご本人の保育施設入所選考に不利益が生じる可能性があります。"
+    },
+    "notes.1": {
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/moushikomi/R2syuurousyoumeisyokinyuuyouryou.files/R9syuurousyoumeisyo.pdf",
+      "quote": "審査に関わる項目（証明日、氏名、就労時間、雇用期間、休業期間、就労実績など）が空白の場合、不備となります。"
+    },
+    "notes.2": {
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/moushikomi/R2syuurousyoumeisyokinyuuyouryou.files/R9syuurousyoumeisyo.pdf",
+      "quote": "鉛筆や消せるボールペンでの記入、修正テープや修正液での訂正は不備となります。訂正箇所に二重線を引き、正しい内容を記載してください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/moushikomi/R2syuurousyoumeisyokinyuuyouryou.files/R9syuurousyoumeisyo.pdf",
+      "quote": "№3「雇用(予定)期間等」が「有期」の場合、№14「（雇用契約の）満了後の更新の有無」の欄を必ず記載してください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/moushikomi/R2syuurousyoumeisyokinyuuyouryou.files/R9syuurousyoumeisyo.pdf",
+      "quote": "育児短時間勤務制度を利用する（予定）場合、№6「就労時間」の欄は制度利用前の就労時間を記載してください。"
+    },
+    "notes.5": {
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/moushikomi/R2syuurousyoumeisyokinyuuyouryou.files/R9syuurousyoumeisyo.pdf",
+      "quote": "堺市職員が、電話や訪問により就労実績を調査することがありますので、あらかじめご了承ください。"
+    }
+  },
+  "sources": [
+    { "label": "堺市「【雇用主の皆様へ】保育の必要性の認定に必要な就労証明書について」", "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/moushikomi/R2syuurousyoumeisyokinyuuyouryou.html" },
+    { "label": "堺市 就労証明書（PDF）", "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/moushikomi/R2syuurousyoumeisyokinyuuyouryou.files/R9syuurousyoumeisyo.pdf" }
+  ]
+}

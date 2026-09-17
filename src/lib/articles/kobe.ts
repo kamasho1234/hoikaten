@@ -1476,50 +1476,6 @@ const articles: Article[] = [
     popularity: 30,
   },
   {
-    slug: "shurou-shoumeisho",
-    citySlug: "kobe",
-    title: "神戸市の就労証明書｜様式ダウンロード先と記入例【令和8年度】",
-    description:
-      "神戸市の保育園申込みに使う就労証明書について、公式の様式ダウンロード先へのリンクと、点数の付き方・記入例・よくある不備をまとめています。会社に依頼する前に確認してください。",
-    image: "https://images.unsplash.com/photo-1568667256549-094345857637?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<div class="info-box">
-<p><strong>まずは公式の様式をダウンロード</strong></p>
-<p>就労証明書の様式・記入例は<a href="https://www.city.kobe.lg.jp/a65174/kosodate/shien/shinseido/riyomoshikomi/shinsehoho.html" target="_blank" rel="noopener">神戸市公式サイト</a>からダウンロードできます。この記事では、その様式をどう書くと点数にどう響くかを説明します。</p>
-</div>
-<h2>就労証明書とは</h2>
-<p>就労証明書は、保護者の就労状況を証明する書類です。勤務先に作成を依頼し、保育園の入園申込書類として提出します。</p>
-
-<h2>記入のポイント</h2>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content"><strong>神戸市指定の様式を使う</strong><p>神戸市公式サイトからダウンロードできる指定様式を使用してください。</p></div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content"><strong>復職後の勤務予定を正確に記入</strong><p>育休中の方は復職後の勤務日数・時間を記入してもらいます。この情報が基本点数に直結します。</p></div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content"><strong>代表者印または人事担当者印を押印</strong><p>証明者の押印が必要です。</p></div>
-</div>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>就労証明書は申込日から遡って<strong>3か月以内</strong>に作成されたものが有効です。早めに依頼して期限切れにならないよう注意しましょう。</p>
-</div>
-
-<h2>よくある間違い</h2>
-<ul>
-<li>勤務時間が「所定労働時間」ではなく「残業込み」で記入されている</li>
-<li>育休中の記載がない（育休開始日・復職予定日の記入漏れ）</li>
-<li>証明日が古すぎる</li>
-</ul>`,
-    publishedAt: "2026-04-07",
-    popularity: 45,
-  },
-  {
     slug: "shinsei-shorui-list",
     citySlug: "kobe",
     title: "神戸市の保育園申込に必要な書類チェックリスト",

@@ -1,0 +1,73 @@
+{
+  "citySlug": "sosa",
+  "checkedAt": "2026-09-18",
+  "formType": "original",
+  "formPage": {
+    "label": "匝瑳市「保育所（園）入所のご案内」",
+    "url": "https://www.city.sosa.lg.jp/sp/page/page000806.html"
+  },
+  "formFiles": [
+    {
+      "label": "就労証明書（PDF）",
+      "url": "https://www.city.sosa.lg.jp/data/doc/1759716110_doc_234_0.pdf"
+    },
+    {
+      "label": "就労証明書（Excel）",
+      "url": "https://www.city.sosa.lg.jp/data/doc/1759882739_doc_234_0.xlsx"
+    },
+    {
+      "label": "就労証明書記載要領（PDF）",
+      "url": "https://www.city.sosa.lg.jp/data/doc/1635745138_doc_162_0.pdf"
+    }
+  ],
+  "seal": "unknown",
+  "differences": [
+    "項目が17番までで、国の標準様式（19項目）と番号の振り方が違う",
+    "No.3に「本人住所」、No.6に「就労先住所等」として通勤手段（電車・バス／徒歩・自転車のみ／自動車）と最寄り駅を書く欄がある",
+    "証明者欄の横に「民生・児童委員証明」の欄があり、民生・児童委員が証明する場合の証明日と電話番号を書く",
+    "No.16「保育士資格等」で保育士資格・幼稚園教諭免許の取得状況と勤務実態の有無を書く",
+    "国の様式にある「産休・育休以外の休業」「契約満了後の更新の有無」「入所内定時の育休短縮可否」「育休延長可否」「単身赴任期間」の欄が無い",
+    "保護者記載欄に児童との続柄（子・その他）を書く欄がある"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.sosa.lg.jp/data/doc/1759716110_doc_234_0.pdf",
+      "quote": "6 就労先住所等 電車・バス 自宅の最寄り"
+    },
+    "differences.0": {
+      "url": "https://www.city.sosa.lg.jp/data/doc/1759716110_doc_234_0.pdf",
+      "quote": "17 備考欄"
+    },
+    "differences.1": {
+      "url": "https://www.city.sosa.lg.jp/data/doc/1759716110_doc_234_0.pdf",
+      "quote": "徒歩・自転車のみ 自動車 その他"
+    },
+    "differences.2": {
+      "url": "https://www.city.sosa.lg.jp/data/doc/1759716110_doc_234_0.pdf",
+      "quote": "【民生･児童委員証明】"
+    },
+    "differences.3": {
+      "url": "https://www.city.sosa.lg.jp/data/doc/1759716110_doc_234_0.pdf",
+      "quote": "16 保育士資格等 資格・免許取得状況 保育士資格 幼稚園教諭免許"
+    },
+    "differences.4": {
+      "url": "https://www.city.sosa.lg.jp/data/doc/1759716110_doc_234_0.pdf",
+      "quote": "（※事業者証明欄はここまで）"
+    },
+    "differences.5": {
+      "url": "https://www.city.sosa.lg.jp/data/doc/1759716110_doc_234_0.pdf",
+      "quote": "本人との続柄 子 その他"
+    }
+  },
+  "sources": [
+    {
+      "label": "匝瑳市「保育所（園）入所のご案内」",
+      "url": "https://www.city.sosa.lg.jp/sp/page/page000806.html"
+    },
+    {
+      "label": "匝瑳市 就労証明書（PDF）",
+      "url": "https://www.city.sosa.lg.jp/data/doc/1759716110_doc_234_0.pdf"
+    }
+  ],
+  "notes": []
+}

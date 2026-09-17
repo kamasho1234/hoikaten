@@ -1,0 +1,117 @@
+{
+  "citySlug": "iki",
+  "checkedAt": "2026-09-18",
+  "formType": "original",
+  "formPage": {
+    "label": "壱岐市「令和8年度 各保育所及び石田こども園 入所申込手続について」",
+    "url": "https://www.city.iki.nagasaki.jp/soshiki/kodomo/kosodate_shien/hoikujo/12068.html"
+  },
+  "formFiles": [
+    {
+      "label": "勤務（内定）証明書・就労状況（予定）申告書（PDF）",
+      "url": "https://www.city.iki.nagasaki.jp/material/files/group/50/kinnmusyoumeisyo.pdf"
+    },
+    {
+      "label": "令和8年度壱岐市保育施設入所の手引き（PDF）",
+      "url": "https://www.city.iki.nagasaki.jp/material/files/group/50/tebikir8.pdf"
+    }
+  ],
+  "deadline": "令和8年4月1日入所の一斉申込は令和7年11月4日〜12月12日（土日祝を除く8時30分〜17時）。年度途中は入所開始希望日の前月1日から随時",
+  "submitTo": "一斉申込は第1希望の各保育所または石田こども園。年度途中は市役所子育て支援課または第1希望の施設。転入予定者は子育て支援課へ郵送も可",
+  "siblings": "対象児童が2人以上いる場合は人数分の証明書を用意する（原本1部、残りはコピーで可）",
+  "seal": "required",
+  "sealNote": "社印又は代表者印のないものは無効。朱肉を使用する印鑑で押印し、訂正にも訂正印（社印）が要る",
+  "selfEmployedDocs": [
+    "裏面の就労状況（予定）申告書（自営・在宅勤務、経営者が自身または親族、内職の人）",
+    "仕事内容・実績のわかる添付資料（営業許可証・開業届・請負契約書・受注表・最新分の確定申告書など。提出がないと利用調整で指数を減算）"
+  ],
+  "differences": [
+    "名前が「勤務（内定）証明書」で、上部に保護者記入欄（児童名・生年月日・第1希望または内定・入所中の施設名）がある",
+    "勤務形態・仕事の内容を選択式で書き、勤務日数は1か月単位、勤務時間は定時か不規則かを選ぶ（不規則はシフト表添付）",
+    "給与（基本給または日給・時給）と、直近3か月の就労日数と支払額（交通費を除く課税総額）を書く欄がある",
+    "産休・育休・時短の欄は法律による休業の期間と時短勤務の日数・時間を書き、育休終了前に入所を希望する場合は「入所日から14日以内に職場復帰できる」旨を記入してもらう",
+    "自営・在宅勤務・内職の人は裏面の「就労状況（予定）申告書」（業種・事業形態・税申告・1日の就労状況）も記入する",
+    "国の標準様式にある業種の19区分、雇用契約満了後の更新の有無、単身赴任期間などの欄は無い"
+  ],
+  "notes": [
+    "虚偽の証明は認定申請を無効とし、入所承諾の取消や認定取消（退所）になることがある",
+    "太枠内は保護者が記入する。勤務の場合は勤務先、内職は納品先、自営は自営主が証明する",
+    "直近3か月の就労日数は有給を含めて書き、産休・育休の人は産休前3か月の実績を書く"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.iki.nagasaki.jp/material/files/group/50/kinnmusyoumeisyo.pdf",
+      "quote": "勤 務 ( 内 定 ) 証 明 書"
+    },
+    "deadline": {
+      "url": "https://www.city.iki.nagasaki.jp/soshiki/kodomo/kosodate_shien/hoikujo/12068.html",
+      "quote": "令和7年11月4日（火曜日）から令和7年12月12日（金曜日）まで"
+    },
+    "submitTo": {
+      "url": "https://www.city.iki.nagasaki.jp/soshiki/kodomo/kosodate_shien/hoikujo/12068.html",
+      "quote": "壱岐市役所子育て支援課または第1入所希望の各保育所または石田こども園"
+    },
+    "siblings": {
+      "url": "https://www.city.iki.nagasaki.jp/material/files/group/50/kinnmusyoumeisyo.pdf",
+      "quote": "※対象児童が２人以上いる場合は人数分の証明書を用意"
+    },
+    "seal": {
+      "url": "https://www.city.iki.nagasaki.jp/material/files/group/50/kinnmusyoumeisyo.pdf",
+      "quote": "※社印又は代表者印のないものは無効です。"
+    },
+    "selfEmployedDocs.0": {
+      "url": "https://www.city.iki.nagasaki.jp/material/files/group/50/kinnmusyoumeisyo.pdf",
+      "quote": "※自営・在宅勤務の方、勤務先の経営者が自身又は親族の方、内職の方は、必ず裏面も記入してください。"
+    },
+    "selfEmployedDocs.1": {
+      "url": "https://www.city.iki.nagasaki.jp/material/files/group/50/kinnmusyoumeisyo.pdf",
+      "quote": "※仕事内容・実績のわかるものを提出してください。提出いただけない場合、客観的に"
+    },
+    "differences.0": {
+      "url": "https://www.city.iki.nagasaki.jp/material/files/group/50/kinnmusyoumeisyo.pdf",
+      "quote": "※申込の場合は、第１希望の保育施設名記入してください"
+    },
+    "differences.1": {
+      "url": "https://www.city.iki.nagasaki.jp/material/files/group/50/kinnmusyoumeisyo.pdf",
+      "quote": "定時・不規則のいずれか"
+    },
+    "differences.2": {
+      "url": "https://www.city.iki.nagasaki.jp/material/files/group/50/kinnmusyoumeisyo.pdf",
+      "quote": "※支払額は、交通費を除いた課税総額（総支給額）をお書きください。"
+    },
+    "differences.3": {
+      "url": "https://www.city.iki.nagasaki.jp/material/files/group/50/kinnmusyoumeisyo.pdf",
+      "quote": "「入所できたら入所日から１４日以内に職場復帰すること"
+    },
+    "differences.4": {
+      "url": "https://www.city.iki.nagasaki.jp/material/files/group/50/kinnmusyoumeisyo.pdf",
+      "quote": "就 労 状 況 （予 定） 申 告 書"
+    },
+    "differences.5": {
+      "url": "https://www.city.iki.nagasaki.jp/material/files/group/50/kinnmusyoumeisyo.pdf",
+      "quote": "勤 務 形 態 正社員 ・パート ・アルバイト ・派遣 ・契約社員 ・自営 ・内職 ・その他（ ）"
+    },
+    "notes.0": {
+      "url": "https://www.city.iki.nagasaki.jp/material/files/group/50/kinnmusyoumeisyo.pdf",
+      "quote": "※虚偽の証明は、認定申請を無効とし入所承諾の取消、認定取消（退所）等を行うことがあります。"
+    },
+    "notes.1": {
+      "url": "https://www.city.iki.nagasaki.jp/material/files/group/50/kinnmusyoumeisyo.pdf",
+      "quote": "※勤務の場合は勤務先、内職の場合は納品先、自営の場合は自営主が証明してください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.iki.nagasaki.jp/material/files/group/50/kinnmusyoumeisyo.pdf",
+      "quote": "※直近３カ月の就労日数は、有給を含めて記入してください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "壱岐市「令和8年度 各保育所及び石田こども園 入所申込手続について」",
+      "url": "https://www.city.iki.nagasaki.jp/soshiki/kodomo/kosodate_shien/hoikujo/12068.html"
+    },
+    {
+      "label": "壱岐市 勤務（内定）証明書（PDF）",
+      "url": "https://www.city.iki.nagasaki.jp/material/files/group/50/kinnmusyoumeisyo.pdf"
+    }
+  ]
+}

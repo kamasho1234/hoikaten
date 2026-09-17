@@ -1,0 +1,75 @@
+{
+  "citySlug": "miyaki",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "みやき町「保育所等入所申込」",
+    "url": "https://www.town.miyaki.lg.jp/kosodate/hoikusho/_1053/_4014.html"
+  },
+  "formFiles": [
+    {
+      "label": "就労証明書（Excel）",
+      "url": "https://www.town.miyaki.lg.jp/var/rev0/0031/1053/shuroushomei.xlsx"
+    },
+    {
+      "label": "令和8年度保育所入所のご案内（PDF）",
+      "url": "https://www.town.miyaki.lg.jp/var/rev0/0031/1050/goannai.pdf"
+    }
+  ],
+  "deadline": "令和8年4〜5月入所の第1次申込は令和7年10月9日〜11月28日、第2次申込は令和7年12月1日〜令和8年2月3日。6月以降は入所希望月の前々月末ごろが締切",
+  "submitTo": "総合窓口課（各庁舎1階）または子育て福祉課（中原庁舎1階）。受付は平日8時30分〜17時15分",
+  "seal": "unknown",
+  "selfEmployedDocs": [
+    "自営業申立書（保護者本人が記入。自営業であることが確認できる書類の写しを添付）",
+    "農業の場合は農業従事申立書（農業従事を確認できる書類の写しを添付）"
+  ],
+  "notes": [
+    "就労証明書は勤務先が発行し、父・母それぞれ必要。育児休業中の人も就労証明書を出す",
+    "出産前に出産予定の子を申し込んで内定し、育児休業を取る場合は、育児休業期間が記入された就労証明書を再提出する",
+    "第1次申込みでほぼ入所者が決まるので、できるだけ第1次受付期間内に申し込む"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.town.miyaki.lg.jp/var/rev0/0031/1053/shuroushomei.xlsx",
+      "quote": "保育士等としての勤務実態の有無"
+    },
+    "deadline": {
+      "url": "https://www.town.miyaki.lg.jp/kosodate/hoikusho/_1053/_4014.html",
+      "quote": "令和7年10月9日(木) ～ 令和7年11月28日(金)"
+    },
+    "submitTo": {
+      "url": "https://www.town.miyaki.lg.jp/kosodate/hoikusho/_1053/_4014.html",
+      "quote": "総合窓口課（各庁舎1階）"
+    },
+    "selfEmployedDocs.0": {
+      "url": "https://www.town.miyaki.lg.jp/kosodate/hoikusho/_1053/_4014.html",
+      "quote": "(自営業であることが確認できる書類の写し添付)"
+    },
+    "selfEmployedDocs.1": {
+      "url": "https://www.town.miyaki.lg.jp/kosodate/hoikusho/_1053/_4014.html",
+      "quote": "(農業従事を確認できる書類の写し添付）"
+    },
+    "notes.0": {
+      "url": "https://www.town.miyaki.lg.jp/kosodate/hoikusho/_1053/_4014.html",
+      "quote": "育児休業中の方"
+    },
+    "notes.1": {
+      "url": "https://www.town.miyaki.lg.jp/kosodate/hoikusho/_1053/_4014.html",
+      "quote": "入所が内定し、育児休業を取得する場合は、育児休業期間が記入された「就労証明書」を再提出してください。"
+    },
+    "notes.2": {
+      "url": "https://www.town.miyaki.lg.jp/kosodate/hoikusho/_1053/_4014.html",
+      "quote": "第1次申込みの方でほぼ入所者が決定しますので、できるだけ第1次受付期間内にお申込みください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "みやき町「保育所等入所申込」",
+      "url": "https://www.town.miyaki.lg.jp/kosodate/hoikusho/_1053/_4014.html"
+    },
+    {
+      "label": "みやき町 就労証明書（Excel）",
+      "url": "https://www.town.miyaki.lg.jp/var/rev0/0031/1053/shuroushomei.xlsx"
+    }
+  ]
+}

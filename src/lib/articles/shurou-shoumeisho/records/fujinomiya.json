@@ -1,0 +1,87 @@
+{
+  "citySlug": "fujinomiya",
+  "checkedAt": "2026-09-18",
+  "formType": "original",
+  "formPage": {
+    "label": "富士宮市「就労証明書」",
+    "url": "https://www.city.fujinomiya.lg.jp/1035460000/p000843.html"
+  },
+  "formFiles": [
+    {
+      "label": "就労証明書(A)（PDF）",
+      "url": "https://www.city.fujinomiya.lg.jp/documents/739/visuf8000001gc9d_1.pdf"
+    },
+    {
+      "label": "就労証明書(A)（エクセル）",
+      "url": "https://www.city.fujinomiya.lg.jp/documents/739/shuuroushoueisho_2.xlsx"
+    },
+    {
+      "label": "就労証明書(A)ー記載例（PDF）",
+      "url": "https://www.city.fujinomiya.lg.jp/documents/739/visuf80000026hw5_1.pdf"
+    },
+    {
+      "label": "就労証明書(A)ー記載要領（PDF）",
+      "url": "https://www.city.fujinomiya.lg.jp/documents/739/visuf8000001gc9j_1.pdf"
+    }
+  ],
+  "deadline": "入所を希望する月の前月15日の正午（土日、祝日の場合はその前日の開庁日の正午）",
+  "submitTo": "富士宮市役所保育支援課窓口（平日8時30分～17時15分）",
+  "seal": "unknown",
+  "notes": [
+    "証明日は必ず記載する。消せるボールペンで記入しない。訂正は二重線で消し、修正液は使わない",
+    "事実と異なる記載があった場合は認定の取り消し・退所となることがあり、証明内容を市から電話等で確認することがある"
+  ],
+  "differences": [
+    "項目がNo.1〜14（14が備考欄）で、国の標準様式のNo.14〜17（更新の有無・育休短縮可否・育休延長可否・単身赴任期間）に当たる欄は無い",
+    "No.13 保育士等としての勤務実態の有無に「資格・免許取得状況（保育士資格・幼稚園教諭免許）」のチェックがある",
+    "保護者記載欄に「通勤・お迎えに必要な時間（片道）」を書く欄がある"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.fujinomiya.lg.jp/documents/739/visuf8000001gc9d_1.pdf",
+      "quote": "通勤・お迎えに必要な時間（片道）"
+    },
+    "deadline": {
+      "url": "https://www.city.fujinomiya.lg.jp/documents/739/r9nendohoikunyuusyoanbnai.pdf",
+      "quote": "入所を希望する月の前月15日の正午（土日、祝日の場合はその前日の開庁日の正午）が締切日となります。"
+    },
+    "submitTo": {
+      "url": "https://www.city.fujinomiya.lg.jp/documents/739/r9nendohoikunyuusyoanbnai.pdf",
+      "quote": "申込書の配布場所及び提出場所は、富士宮市役所保育支援課窓口です。"
+    },
+    "differences.0": {
+      "url": "https://www.city.fujinomiya.lg.jp/documents/739/visuf8000001gc9d_1.pdf",
+      "quote": "（※事業者証明欄はここまで）"
+    },
+    "differences.1": {
+      "url": "https://www.city.fujinomiya.lg.jp/documents/739/visuf8000001gc9d_1.pdf",
+      "quote": "資格・免許取得状況"
+    },
+    "differences.2": {
+      "url": "https://www.city.fujinomiya.lg.jp/documents/739/visuf8000001gc9d_1.pdf",
+      "quote": "通勤・お迎えに必要な時間（片道）"
+    },
+    "notes.0": {
+      "url": "https://www.city.fujinomiya.lg.jp/documents/739/visuf8000001gc9d_1.pdf",
+      "quote": "訂正する場合は、二重線で消し、修正液等は使用しないでください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.fujinomiya.lg.jp/documents/739/visuf8000001gc9d_1.pdf",
+      "quote": "事実と異なる記載があった場合は、認定の取り消し、退所となる場合があります。"
+    }
+  },
+  "sources": [
+    {
+      "label": "富士宮市「就労証明書」",
+      "url": "https://www.city.fujinomiya.lg.jp/1035460000/p000843.html"
+    },
+    {
+      "label": "富士宮市「令和9年度　保育園・認定こども園・小規模保育所のご案内」",
+      "url": "https://www.city.fujinomiya.lg.jp/documents/739/r9nendohoikunyuusyoanbnai.pdf"
+    },
+    {
+      "label": "富士宮市 就労証明書（PDF）",
+      "url": "https://www.city.fujinomiya.lg.jp/documents/739/visuf8000001gc9d_1.pdf"
+    }
+  ]
+}

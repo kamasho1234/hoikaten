@@ -1,0 +1,51 @@
+{
+  "citySlug": "nankoku",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "南国市「保育所等への申請書類について」",
+    "url": "https://www.city.nankoku.lg.jp/dl/dtl.php?k=1&i=127"
+  },
+  "formFiles": [
+    {
+      "label": "就労（予定）証明書（Excel）",
+      "url": "https://www.city.nankoku.lg.jp/download/?t=DWNLD&id=127&fid=108663"
+    }
+  ],
+  "siblings": "兄弟姉妹で同時に申し込む場合、証明書類は１通で構いません。",
+  "seal": "unknown",
+  "selfEmployedDocs": [
+    "営業の確認ができるもの（営業許可証、登記事項証明書、委託契約書、開業届、屋号の確認できる確定申告書等）"
+  ],
+  "notes": [
+    "保護者それぞれの書類が必要になります。"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.nankoku.lg.jp/dl/dtl.php?k=1&i=127",
+      "quote": "就労（予定）証明書"
+    },
+    "siblings": {
+      "url": "https://www.city.nankoku.lg.jp/life/life_dtl.php?hdnKey=9600",
+      "quote": "兄弟姉妹で同時に申し込む場合、証明書類は１通で構いません。"
+    },
+    "selfEmployedDocs.0": {
+      "url": "https://www.city.nankoku.lg.jp/life/life_dtl.php?hdnKey=9600",
+      "quote": "経営者本人の場合は営業の確認ができるもの"
+    },
+    "notes.0": {
+      "url": "https://www.city.nankoku.lg.jp/life/life_dtl.php?hdnKey=9600",
+      "quote": "保育を必要とする事由を証明する書類"
+    }
+  },
+  "sources": [
+    {
+      "label": "南国市「令和８年度教育・保育施設等新規利用申込みについて」",
+      "url": "https://www.city.nankoku.lg.jp/life/life_dtl.php?hdnKey=9600"
+    },
+    {
+      "label": "南国市「保育所等への申請書類について」",
+      "url": "https://www.city.nankoku.lg.jp/dl/dtl.php?k=1&i=127"
+    }
+  ]
+}

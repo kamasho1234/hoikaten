@@ -1,0 +1,128 @@
+{
+  "citySlug": "kawasaki",
+  "checkedAt": "2026-09-18",
+  "formType": "standard-plus",
+  "formPage": {
+    "label": "川崎市「保育所等の申込み手続きの日程について（令和9年度）」",
+    "url": "https://www.city.kawasaki.jp/450/page/0000154328.html"
+  },
+  "formFiles": [
+    {
+      "label": "就労証明書（令和9年度申請用）（PDF）",
+      "url": "https://www.city.kawasaki.jp/450/cmsfiles/contents/0000154/154328/R9_syuurousyomei01.pdf"
+    },
+    {
+      "label": "就労証明書（令和9年度申請用）（Excel）",
+      "url": "https://www.city.kawasaki.jp/450/cmsfiles/contents/0000154/154328/R9_syuurousyomei01.xlsx"
+    },
+    {
+      "label": "記載方法等について・記載要領（PDF）",
+      "url": "https://www.city.kawasaki.jp/450/cmsfiles/contents/0000154/154328/R9_syuurousyomei_kinyuurei02.pdf"
+    },
+    {
+      "label": "就労証明書（令和8年度申請、令和8・9年度同時申請用）（PDF）",
+      "url": "https://www.city.kawasaki.jp/450/cmsfiles/contents/0000154/154328/R8_syuurousyoumei.pdf"
+    }
+  ],
+  "validity": "入所希望日（毎月1日）の3か月以内に作成されたもの。4月の一斉入所は前年9月以降の証明日",
+  "deadline": "令和9年4月1日入所の一次利用調整は、窓口が令和8年10月13日〜11月6日、郵送が10月13日〜10月26日（消印有効）、オンラインが10月11日〜10月26日17時。二次は窓口が11月9日〜令和9年2月3日、郵送・オンラインが11月9日〜1月25日",
+  "submitTo": "お住まいの区の区役所児童家庭課（平日8時30分〜12時、13時〜17時）。郵送・オンライン申請もある",
+  "online": "オンライン申請ができる（一次は令和8年10月11日〜10月26日17時締切）",
+  "siblings": "きょうだい同時申請の場合は原本とコピーでも可",
+  "seal": "not-required",
+  "sealNote": "社印・代表者印等は押印不要",
+  "selfEmployedDocs": [
+    "スケジュール表（自営業用）",
+    "自営・会社経営の証明書類の写し（直近の確定申告書の写しなど収入を証明するもの、または営業許可証・開業届・登記簿謄本の写しなど自営を証明するもののいずれか）"
+  ],
+  "differences": [
+    "令和9年4月入所の申請から様式が変わり、表題が「就労証明書 令和9年度申請用」で「この様式は令和8年度申請には使用できません」と書かれている。項目はNo.1〜19の国の標準様式と同じ",
+    "令和8年度申請と令和8・9年度同時申請には別の様式（令和8年度申請用）を使う。その様式は令和9年度申請にも使える"
+  ],
+  "notes": [
+    "就労証明書は父母ともに必要。自営業の場合はすべての項目を保護者が記入する",
+    "No.7 就労実績は、産休・育休・病休等に該当する月を除いて直近3か月を書き、実績が3か月未満なら不足分は翌月以降の見込みを書く",
+    "訂正は二重線で消して訂正後の内容を追記する。修正液・消せるボールペンは使えない",
+    "Excel版はNo.6就労時間で「0分」が選べない不具合があり、9月11日に直された（それ以前に取ったファイルは取り直す）"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.kawasaki.jp/450/cmsfiles/contents/0000154/154328/R9_syuurousyomei01.pdf",
+      "quote": "※この様式は令和8年度申請には使用できません。"
+    },
+    "seal": {
+      "url": "https://www.city.kawasaki.jp/450/cmsfiles/contents/0000154/154328/R9_syuurousyomei_kinyuurei02.pdf",
+      "quote": "・社印・代表者印等は押印不要です。"
+    },
+    "validity": {
+      "url": "https://www.city.kawasaki.jp/450/cmsfiles/contents/0000154/154328/R9_syuurousyomei_kinyuurei02.pdf",
+      "quote": "・入所希望日（毎月１日）の３ヶ月以内に作成されたものが有効です（４月の一斉入所の場合は前年９月以降の証明日となっていること）。"
+    },
+    "deadline": {
+      "url": "https://www.city.kawasaki.jp/450/page/0000154328.html",
+      "quote": "令和8年10月13日（火）～11月6日（金）"
+    },
+    "submitTo": {
+      "url": "https://www.city.kawasaki.jp/450/page/0000154328.html",
+      "quote": "お住まいの区の区役所児童家庭課"
+    },
+    "online": {
+      "url": "https://www.city.kawasaki.jp/450/page/0000154328.html",
+      "quote": "令和8年10月11日（日）～10月26日（月）"
+    },
+    "siblings": {
+      "url": "https://www.city.kawasaki.jp/450/page/0000153863.html",
+      "quote": "●きょうだい同時申請の場合は、原本とコピーでも可"
+    },
+    "selfEmployedDocs.0": {
+      "url": "https://www.city.kawasaki.jp/450/cmsfiles/contents/0000154/154328/R9_syuurousyomei_kinyuurei02.pdf",
+      "quote": "・自営業等の方は別途、スケジュール表及び自営の証明書類（写し）を提出してください。"
+    },
+    "selfEmployedDocs.1": {
+      "url": "https://www.city.kawasaki.jp/450/page/0000153863.html",
+      "quote": "直近の確定申告書の(写し)等の「収入を証明するもの」や営業許可証(写し)・開業届(写し)・登記簿謄本(写し)等の「自営を証明するもの」のいずれかが必要です。"
+    },
+    "differences.0": {
+      "url": "https://www.city.kawasaki.jp/450/cmsfiles/contents/0000154/154328/R9_syuurousyomei01.pdf",
+      "quote": "就労証明書 令和9年度申請用"
+    },
+    "differences.1": {
+      "url": "https://www.city.kawasaki.jp/450/page/0000154328.html",
+      "quote": "令和9年度申請に使用することも可能です。"
+    },
+    "notes.0": {
+      "url": "https://www.city.kawasaki.jp/450/cmsfiles/contents/0000154/154328/R9_syuurousyomei_kinyuurei02.pdf",
+      "quote": "（自営業の場合はすべての項目を保護者の方が記入してください。）"
+    },
+    "notes.1": {
+      "url": "https://www.city.kawasaki.jp/450/cmsfiles/contents/0000154/154328/R9_syuurousyomei_kinyuurei02.pdf",
+      "quote": "産休・育休・病休等に該当する月を除外し、直近３か月の就労実績を記載してください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.kawasaki.jp/450/cmsfiles/contents/0000154/154328/R9_syuurousyomei_kinyuurei02.pdf",
+      "quote": "・訂正時は、二重線で消した上で、訂正後の内容を追記してください（修正液・消せるボールペン等は使用不可）。"
+    },
+    "notes.3": {
+      "url": "https://www.city.kawasaki.jp/450/page/0000154328.html",
+      "quote": "『No.6就労時間』の時間数について、『0分』が選択できない事象を解消しました。"
+    }
+  },
+  "sources": [
+    {
+      "label": "川崎市「保育所等の申込み手続きの日程について（令和9年度）」",
+      "url": "https://www.city.kawasaki.jp/450/page/0000154328.html"
+    },
+    {
+      "label": "川崎市「保育所等の申込み手続き（令和8年度）」",
+      "url": "https://www.city.kawasaki.jp/450/page/0000153863.html"
+    },
+    {
+      "label": "川崎市 就労証明書（令和9年度申請用）（PDF）",
+      "url": "https://www.city.kawasaki.jp/450/cmsfiles/contents/0000154/154328/R9_syuurousyomei01.pdf"
+    },
+    {
+      "label": "川崎市 記載方法等について・記載要領（PDF）",
+      "url": "https://www.city.kawasaki.jp/450/cmsfiles/contents/0000154/154328/R9_syuurousyomei_kinyuurei02.pdf"
+    }
+  ]
+}

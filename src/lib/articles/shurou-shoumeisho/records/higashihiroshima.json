@@ -1,0 +1,83 @@
+{
+  "citySlug": "higashihiroshima",
+  "checkedAt": "2026-09-18",
+  "formType": "original",
+  "formPage": {
+    "label": "東広島市「申請書類一覧」",
+    "url": "https://www.city.higashihiroshima.lg.jp/soshiki/kodomomirai/2/7/33197.html"
+  },
+  "formFiles": [
+    {
+      "label": "4-1就労証明書（PDFファイル）",
+      "url": "https://www.city.higashihiroshima.lg.jp/material/files/group/37/R8-syurousyoumei.pdf"
+    }
+  ],
+  "seal": "unknown",
+  "differences": [
+    "項目が(1)〜(13)で、国の標準様式の19項目と並びが違う（東広島市指定様式）",
+    "(3)に「代表者（記載者）との血縁関係」の有無を書く欄がある（代表者や記載者が保護者・きょうだい・祖父母などに当たる場合は「有」）",
+    "(7)保育士等としての勤務実態は、東広島市内の認可保育施設に保育士として勤務している場合のみ「有」",
+    "(8)就労時間は1か月間の平均勤務日数・平均勤務時間数で書き、「決まったシフトはない」のチェック欄がある",
+    "(10)休業について、育児休業期間の延長・短縮の可否を1つの欄で書く",
+    "国の様式にある「入所内定時育休短縮可否」「単身赴任期間」以外の追加項目と「保護者記載欄」は無い"
+  ],
+  "notes": [
+    "記入は本人ではなく事業所の担当者に依頼する。代表者自身の証明に限り本人による記載ができ、その場合は確定申告書（初年度のみ開業届）を提出する",
+    "記載内容の確認のため、市から事業所に電話することがある"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.higashihiroshima.lg.jp/material/files/group/37/R8-syurousyoumei.pdf",
+      "quote": "東広島市長・東広島市福祉事務所長 宛 (東広島市指定様式)"
+    },
+    "differences.0": {
+      "url": "https://www.city.higashihiroshima.lg.jp/material/files/group/37/R8-syurousyoumei.pdf",
+      "quote": "※上記内容に記載できない場合等"
+    },
+    "notes.0": {
+      "url": "https://www.city.higashihiroshima.lg.jp/material/files/group/37/R8-syurousyoumei.pdf",
+      "quote": "※記入は本人ではなく事業所の担当者に依頼してください。"
+    },
+    "differences.1": {
+      "url": "https://www.city.higashihiroshima.lg.jp/material/files/group/37/R8-syurousyoumei.pdf",
+      "quote": "代表者（記載者）との"
+    },
+    "differences.2": {
+      "url": "https://www.city.higashihiroshima.lg.jp/material/files/group/37/R8-syurousyoumei.pdf",
+      "quote": "東広島市内の認可保育施設に、保育士として勤務されている場合のみ「有」"
+    },
+    "differences.3": {
+      "url": "https://www.city.higashihiroshima.lg.jp/material/files/group/37/R8-syurousyoumei.pdf",
+      "quote": "決まったシフトはない"
+    },
+    "differences.4": {
+      "url": "https://www.city.higashihiroshima.lg.jp/material/files/group/37/R8-syurousyoumei.pdf",
+      "quote": "育児休業期間の延長・短縮"
+    },
+    "differences.5": {
+      "url": "https://www.city.higashihiroshima.lg.jp/material/files/group/37/R8-syurousyoumei.pdf",
+      "quote": "単身赴任期間（予定含む）"
+    },
+    "notes.1": {
+      "url": "https://www.city.higashihiroshima.lg.jp/material/files/group/37/R8-syurousyoumei.pdf",
+      "quote": "※記載内容の確認のため、お電話させていただく場合があります"
+    },
+    "selfEmployedDocs.0": {
+      "url": "https://www.city.higashihiroshima.lg.jp/material/files/group/37/R8-syurousyoumei.pdf",
+      "quote": "本就労証明書に加え、確定申告書"
+    }
+  },
+  "sources": [
+    {
+      "label": "東広島市「申請書類一覧」",
+      "url": "https://www.city.higashihiroshima.lg.jp/soshiki/kodomomirai/2/7/33197.html"
+    },
+    {
+      "label": "東広島市 就労証明書（PDF）",
+      "url": "https://www.city.higashihiroshima.lg.jp/material/files/group/37/R8-syurousyoumei.pdf"
+    }
+  ],
+  "selfEmployedDocs": [
+    "確定申告書（初年度のみ開業届）を就労証明書に加えて提出（代表者自身が証明する場合）"
+  ]
+}

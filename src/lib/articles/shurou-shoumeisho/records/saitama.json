@@ -1,0 +1,58 @@
+{
+  "citySlug": "saitama",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "さいたま市「保育施設利用申込書類（令和8年度）」",
+    "url": "http://www.city.saitama.lg.jp/003/001/015/001/p124625.html"
+  },
+  "formFiles": [
+    {
+      "label": "【R8】就労証明書[PDF]",
+      "url": "http://www.city.saitama.lg.jp/003/001/015/001/p124625_d/fil/5_shuro_shoumei.pdf"
+    },
+    {
+      "label": "【R8】就労証明書[Excel]",
+      "url": "http://www.city.saitama.lg.jp/003/001/015/001/p124625_d/fil/5_shurou_shoumei.xlsx"
+    }
+  ],
+  "deadline": "利用希望月の前月の10日まで（閉庁日の場合は翌開庁日）",
+  "submitTo": "郵送（利用希望月の前月10日必着）",
+  "online": "電子申請で申し込める（申請期限は利用希望月の前月10日17時00分まで）",
+  "seal": "unknown",
+  "notes": [
+    "就労証明書は保育を必要とする事由を証明する書類として位置付けられています。"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "http://www.city.saitama.lg.jp/003/001/015/001/p124625.html",
+      "quote": "保育を必要とする事由を証明する書類【R8】 就労証明書"
+    },
+    "deadline": {
+      "url": "http://www.city.saitama.lg.jp/003/001/015/001/p100639.html",
+      "quote": "利用希望月の前月の10日まで（閉庁日の場合は翌開庁日まで）"
+    },
+    "submitTo": {
+      "url": "http://www.city.saitama.lg.jp/003/001/015/001/p100639.html",
+      "quote": "郵送受付期間 利用希望月の前月の10日 まで 　※必着"
+    },
+    "online": {
+      "url": "http://www.city.saitama.lg.jp/003/001/015/001/p100639.html",
+      "quote": "■申請期限 利用希望月の前月の10日 17時00分まで"
+    },
+    "notes.0": {
+      "url": "http://www.city.saitama.lg.jp/003/001/015/001/p124625.html",
+      "quote": "保育を必要とする事由を証明する書類"
+    }
+  },
+  "sources": [
+    {
+      "label": "さいたま市「保育施設利用申込みについて（令和8年度）」",
+      "url": "http://www.city.saitama.lg.jp/003/001/015/001/p100639.html"
+    },
+    {
+      "label": "さいたま市「保育施設利用申込書類（令和8年度）」",
+      "url": "http://www.city.saitama.lg.jp/003/001/015/001/p124625.html"
+    }
+  ]
+}

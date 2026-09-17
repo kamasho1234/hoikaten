@@ -1,0 +1,75 @@
+{
+  "citySlug": "chitose",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "千歳市「認定こども園・保育所・地域型保育事業入園の申込みについて」",
+    "url": "https://www.city.chitose.lg.jp/c20/1002643/1002650/1003457.html"
+  },
+  "formFiles": [
+    { "label": "就労証明書(自営証明含む) (PDF版)", "url": "https://www.city.chitose.lg.jp/_res/projects/default_project/_page_/001/003/457/04_____________.pdf" },
+    { "label": "就労証明書(自営証明含む) (XLSX版)", "url": "https://www.city.chitose.lg.jp/_res/projects/default_project/_page_/001/003/457/04_____________.xlsx" },
+    { "label": "就労証明書(自営証明含む)記載例", "url": "https://www.city.chitose.lg.jp/_res/projects/default_project/_page_/001/003/457/04________________.pdf" },
+    { "label": "採用（勤務）予定証明書", "url": "https://www.city.chitose.lg.jp/_res/projects/default_project/_page_/001/003/457/r8_______5_.pdf.pdf.pdf" }
+  ],
+  "deadline": "令和9年4月入園は令和8年10月5日（月）から令和8年11月6日（金）までの1次受付",
+  "submitTo": "こども政策課保育係（市役所第2庁舎1階3番窓口）",
+  "seal": "unknown",
+  "selfEmployedDocs": [
+    "就労証明書を自ら記入",
+    "自営を証明する書類（営業許可証、開業届出書、登記事項証明書、確定申告書などいずれか一部）"
+  ],
+  "notes": [
+    "会社員・公務員・パート・派遣社員等雇用主がある場合は、勤務先（派遣社員の場合は派遣元会社）が記入した就労証明書を提出",
+    "証明欄に申込者本人が記入した場合は無効になる",
+    "シフト制等不規則な勤務の場合は、シフト表等、勤務状況が確認できるものを添付",
+    "採用または勤務が内定している場合は採用(勤務)予定証明書を提出",
+    "両親で自営業を営んでいるかたで、就労条件が同一の場合は、就労証明書を連名で作成して提出"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.chitose.lg.jp/c20/1002643/1002650/1003457.html",
+      "quote": "会社員・公務員・パート・派遣社員等雇用主がある場合は、勤務先（派遣社員の場合は派遣元会社）が記入した就労証明書を提出してください。"
+    },
+    "deadline": {
+      "url": "https://www.city.chitose.lg.jp/c20/1002643/1002650/1004546.html",
+      "quote": "令和8年10月5日（月曜日）から令和8年11月6日（金曜日）の間に"
+    },
+    "submitTo": {
+      "url": "https://www.city.chitose.lg.jp/c20/1002643/1002650/1004546.html",
+      "quote": "こども政策課保育係(市役所第2庁舎1階3番窓口)"
+    },
+    "selfEmployedDocs.0": {
+      "url": "https://www.city.chitose.lg.jp/c20/1002643/1002650/1003457.html",
+      "quote": "自営業のかたは、就労証明書を自ら記入の上、自営を証明する書類（営業許可証、開業届出書、登記事項証明書、確定申告書など、いずれか一部）を添付して、就労証明書と一緒に提出してください。"
+    },
+    "selfEmployedDocs.1": {
+      "url": "https://www.city.chitose.lg.jp/c20/1002643/1002650/1003457.html",
+      "quote": "営業許可証、開業届出書、登記事項証明書、確定申告書など、いずれか一部"
+    },
+    "notes.0": {
+      "url": "https://www.city.chitose.lg.jp/c20/1002643/1002650/1003457.html",
+      "quote": "会社員・公務員・パート・派遣社員等雇用主がある場合は、勤務先（派遣社員の場合は派遣元会社）が記入した就労証明書を提出してください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.chitose.lg.jp/c20/1002643/1002650/1003457.html",
+      "quote": "証明欄に申込者本人が記入した場合は無効となりますのでご注意ください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.chitose.lg.jp/c20/1002643/1002650/1003457.html",
+      "quote": "シフト制等不規則な勤務の場合は、シフト表等、勤務状況が確認できるのもを添付してください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.chitose.lg.jp/c20/1002643/1002650/1003457.html",
+      "quote": "採用または勤務が内定している場合は採用(勤務)予定証明書（※採用（勤務）を予定している事業所の証明を受けたもの）を提出してください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.chitose.lg.jp/c20/1002643/1002650/1003457.html",
+      "quote": "両親で自営業を営んでいるかたで、就労条件が同一の場合は、就労証明書を連名で作成し、提出してください"
+    }
+  },
+  "sources": [
+    { "label": "千歳市「認定こども園・保育所・地域型保育事業入園の申込みについて」", "url": "https://www.city.chitose.lg.jp/c20/1002643/1002650/1003457.html" },
+    { "label": "千歳市「令和9年4月から認定こども園・保育所等の利用を希望するかたへ」", "url": "https://www.city.chitose.lg.jp/c20/1002643/1002650/1004546.html" }
+  ]
+}

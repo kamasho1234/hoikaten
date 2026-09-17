@@ -1632,50 +1632,6 @@ const articles: Article[] = [
     publishedAt: "2026-04-07",
     popularity: 30,
   },
-  {
-    slug: "shurou-shoumeisho",
-    citySlug: "fukuoka",
-    title: "福岡市の就労証明書｜様式ダウンロード先と記入例【令和8年度】",
-    description:
-      "福岡市の保育園申込みに使う就労証明書について、公式の様式ダウンロード先へのリンクと、点数の付き方・記入例・よくある不備をまとめています。会社に依頼する前に確認してください。",
-    image:
-      "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&h=400&fit=crop",
-    category: "制度を知る",
-    categoryColor: "rose",
-    content: `<div class="info-box">
-<p><strong>まずは公式の様式をダウンロード</strong></p>
-<p>就労証明書の様式・記入例は<a href="https://www.city.fukuoka.lg.jp/kodomo-mirai/hoiku/child/Index_R7.html" target="_blank" rel="noopener">福岡市公式サイト</a>からダウンロードできます。この記事では、その様式をどう書くと点数にどう響くかを説明します。</p>
-</div>
-<h2>就労証明書とは</h2>
-<p>就労証明書は、保護者が「保育を必要とする事由」を証明するための書類です。<span class="highlight">勤務先に記入・証明してもらう</span>必要があります。</p>
-
-<h2>就労証明書の主な記入項目</h2>
-<ul>
-<li>勤務先の名称・所在地・連絡先</li>
-<li>雇用形態（正社員・パート・派遣等）</li>
-<li>就労日数・就労時間（月の勤務時間が基本点数に直結）</li>
-<li>就労開始日</li>
-<li>育児休業の取得状況・復職予定日</li>
-</ul>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>就労証明書の「月の就労時間」が基本点数を決定します。<span class="highlight">160時間以上で最高の150点</span>です。残業時間は含まれないため、契約上の就労時間を正確に記入してもらいましょう。</p>
-</div>
-
-<h2>よくある記入ミスと対策</h2>
-<table>
-<tr><th>ミスの内容</th><th>影響</th><th>対策</th></tr>
-<tr><td>月の就労時間の計算間違い</td><td>基本点数が変わる</td><td>1週間の就労時間×4.3週で計算</td></tr>
-<tr><td>復職予定日の未記入</td><td>育休復職の加点が得られない</td><td>復職予定日を必ず記入</td></tr>
-<tr><td>勤務先の押印漏れ</td><td>書類不備で受付不可</td><td>提出前に押印を確認</td></tr>
-</table>
-
-<h2>提出期限に余裕を持とう</h2>
-<p>就労証明書は勤務先に依頼してから受け取るまで1〜2週間かかることがあります。申込期限の1か月前には依頼しましょう。</p>`,
-    publishedAt: "2026-04-07",
-    popularity: 40,
-  },
 
   // ===== 申込・手続き (5) =====
   {

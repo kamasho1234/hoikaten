@@ -1,0 +1,56 @@
+{
+  "citySlug": "marugame",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "丸亀市「令和8年度 保育施設等申込み書類ダウンロード」",
+    "url": "https://www.city.marugame.lg.jp/page/37794.html"
+  },
+  "formFiles": [
+    {
+      "label": "就労証明書（PDF）",
+      "url": "https://www.city.marugame.lg.jp/uploaded/attachment/24100.pdf"
+    },
+    {
+      "label": "就労証明書（Excel）",
+      "url": "https://www.city.marugame.lg.jp/uploaded/attachment/24109.xlsx"
+    },
+    {
+      "label": "【記入例】会社員等（育休を含む）（PDF）",
+      "url": "https://www.city.marugame.lg.jp/uploaded/attachment/24101.pdf"
+    },
+    {
+      "label": "【記入例】自営業等（PDF）",
+      "url": "https://www.city.marugame.lg.jp/uploaded/attachment/24102.pdf"
+    },
+    {
+      "label": "【記入例】家族従事者（PDF）",
+      "url": "https://www.city.marugame.lg.jp/uploaded/attachment/24103.pdf"
+    }
+  ],
+  "siblings": "きょうだいで同時に申請される場合は、1人目は原本で、2人目以降はコピーでも構わない",
+  "seal": "unknown",
+  "notes": [
+    "申込み後、提出いただいた書類は返却できません。"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.marugame.lg.jp/page/37794.html",
+      "quote": "保護者全員の保育を必要とする事由を確認するための書類（就労証明書など）"
+    },
+    "siblings": {
+      "url": "https://www.city.marugame.lg.jp/page/37794.html",
+      "quote": "きょうだいで同時に申請される場合は、1人目は原本で、2人目以降の児童分はコピーした書類でも構いません。"
+    },
+    "notes.0": {
+      "url": "https://www.city.marugame.lg.jp/page/37794.html",
+      "quote": "申込み後、提出いただいた書類は返却できませんので、必要な方はご自身で写しを取って提出してください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "丸亀市「令和8年度 保育施設等申込み書類ダウンロード」",
+      "url": "https://www.city.marugame.lg.jp/page/37794.html"
+    }
+  ]
+}

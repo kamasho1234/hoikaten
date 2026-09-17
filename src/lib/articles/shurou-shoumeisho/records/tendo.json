@@ -1,0 +1,33 @@
+{
+  "citySlug": "tendo",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "天童市「保育園等の入所申込み（途）」",
+    "url": "https://www.city.tendo.yamagata.jp/lifeinfo/kosodate/toyuunyuusyo.html"
+  },
+  "formFiles": [
+    {
+      "label": "就労証明書（Excel）",
+      "url": "https://www.city.tendo.yamagata.jp/lifeinfo/kosodate/R7syuurousyoumei.xlsx"
+    },
+    {
+      "label": "就労証明書（PDF）",
+      "url": "https://www.city.tendo.yamagata.jp/lifeinfo/kosodate/R7_syuurousyoumei.pdf"
+    }
+  ],
+  "seal": "unknown",
+  "notes": [],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.tendo.yamagata.jp/lifeinfo/kosodate/toyuunyuusyo.html",
+      "quote": "下記の「教育・保育給付認定申請書」「保育所等の利用申込書」「家庭状況書」「児童状況書兼健康状況申告書」に就労証明書等の添付書類を添えてお申し込みください"
+    }
+  },
+  "sources": [
+    {
+      "label": "天童市「保育園等の入所申込み（途）」",
+      "url": "https://www.city.tendo.yamagata.jp/lifeinfo/kosodate/toyuunyuusyo.html"
+    }
+  ]
+}

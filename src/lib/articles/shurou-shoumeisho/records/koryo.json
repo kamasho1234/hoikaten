@@ -1,0 +1,54 @@
+{
+  "citySlug": "koryo",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "広陵町「令和9年度　保育所・認定こども園（保育認定）・小規模保育事業所の入所受付」",
+    "url": "https://www.town.koryo.nara.jp/kosodate/0000008035.html"
+  },
+  "formFiles": [
+    {
+      "label": "就労証明書（PDF版）",
+      "url": "https://www.town.koryo.nara.jp/kosodate/cmsfiles/contents/0000008/8035/syuurousyoumei2025.pdf"
+    },
+    {
+      "label": "就労証明書（Excel版）",
+      "url": "https://www.town.koryo.nara.jp/kosodate/cmsfiles/contents/0000008/8035/syuurousyoumei2025.xlsx"
+    }
+  ],
+  "deadline": "令和8年10月21日（水）",
+  "submitTo": "広陵町総合保健福祉会館2階（さわやかホール内）こども課",
+  "seal": "unknown",
+  "selfEmployedDocs": [
+    "確定申告書や開業届の写しなど、事業を営んでいることがわかる書類"
+  ],
+  "notes": [],
+  "evidence": {
+    "formType": {
+      "url": "https://www.town.koryo.nara.jp/kosodate/0000008035.html",
+      "quote": "就労証明書（PDF）就労証明書（Excel）"
+    },
+    "deadline": {
+      "url": "https://www.town.koryo.nara.jp/kosodate/0000008035.html",
+      "quote": "令和8年10月1日（木）から令和8年10月21日（水）"
+    },
+    "submitTo": {
+      "url": "https://www.town.koryo.nara.jp/kosodate/cmsfiles/contents/0000008/8035/nyuusyoannnai20260831.pdf",
+      "quote": "広陵町総合保健福祉会館2階（さわやかホール内）こども課"
+    },
+    "selfEmployedDocs.0": {
+      "url": "https://www.town.koryo.nara.jp/kosodate/0000008035.html",
+      "quote": "（自営業の方のみ）確定申告書や開業届の写しなど、事業を営んでいることがわかる書類"
+    }
+  },
+  "sources": [
+    {
+      "label": "広陵町「令和9年度　保育所・認定こども園（保育認定）・小規模保育事業所の入所受付」",
+      "url": "https://www.town.koryo.nara.jp/kosodate/0000008035.html"
+    },
+    {
+      "label": "広陵町 入所案内",
+      "url": "https://www.town.koryo.nara.jp/kosodate/cmsfiles/contents/0000008/8035/nyuusyoannnai20260831.pdf"
+    }
+  ]
+}

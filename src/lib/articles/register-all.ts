@@ -1,4 +1,5 @@
 ﻿import "./general";
+import "./shurou-shoumeisho/register";
 import "./setagaya";
 import "./yokohama";
 import "./osaka";

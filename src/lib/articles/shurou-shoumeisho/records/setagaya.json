@@ -1,0 +1,119 @@
+{
+  "citySlug": "setagaya",
+  "checkedAt": "2026-09-18",
+  "formType": "standard-plus",
+  "formPage": {
+    "label": "世田谷区「入園（転園）の申込み」（必要な書類・添付ファイル）",
+    "url": "https://www.city.setagaya.lg.jp/01044/1552.html"
+  },
+  "formFiles": [
+    { "label": "就労証明書（PDF）", "url": "https://www.city.setagaya.lg.jp/documents/1552/syurosyomeisyo_0809.pdf" },
+    { "label": "就労証明書（Excel）", "url": "https://www.city.setagaya.lg.jp/documents/1552/syurosyomeisyo_0809.xlsx" },
+    { "label": "【記入例】就労証明書（Excel）", "url": "https://www.city.setagaya.lg.jp/documents/1552/syurosyomeisyo_kinyurei_0809.xlsx" },
+    { "label": "就労証明書（月間スケジュール）（PDF）", "url": "https://www.city.setagaya.lg.jp/documents/1552/gekkansukejyu-ru.pdf" }
+  ],
+  "validity": "提出日の直近3か月以内に証明されたもの",
+  "deadline": "令和9年4月入園の一次選考は、郵送・電子申請が令和8年11月5日（消印有効）、窓口が令和8年11月10日。二次選考は郵送・電子申請が令和9年1月27日、窓口が令和9年2月1日。通常月は入園希望月の前月10日",
+  "submitTo": "お住まいの地域を担当する各総合支所子ども家庭支援課の窓口（郵送可）。電子申請もできる",
+  "online": "電子申請（LoGoフォーム）で申し込める。要件確認書類はPDF・画像ファイルで添付し、締切日の24時00分までに送信完了する必要がある",
+  "seal": "unknown",
+  "selfEmployedDocs": [
+    "就労証明書（自営の方、親族の店舗等で働いている方も同じ様式）",
+    "就労に関する客観的資料: 開業届（収受印があるもの。収受印がない場合はe-Taxの証明があるもの）・登記事項証明書・営業許可証などの写し",
+    "就労に関する客観的資料: 事業の名称・代表者氏名・所在地・内容がわかるパンフレットやホームページのスクリーンショットなど",
+    "就労に関する客観的資料: 請負契約書・納品書・請求書などの写し"
+  ],
+  "differences": [
+    "様式の左上に「第３号様式（第５条、第１６条、第２５条関係）」、あて先は「世田谷区長 あて」",
+    "No.18 備考欄に「雇用保険 加入状況（加入・未加入）」のチェック欄がある",
+    "No.12 育児のための短時間勤務制度の欄に「就労日数 週」の記入欄があり、変更後の就労日数はNo.18の備考欄にも書く",
+    "様式の2ページ目に区の注意事項があり、派遣の場合は勤務状況を把握していれば派遣元・派遣先どちらの証明でもよい"
+  ],
+  "notes": [
+    "日・週・月ごとに不規則な就労形態の場合は、就労証明書とは別に「月間スケジュール」に直近3か月分の実績を書いて提出する",
+    "保護者または保護者の三親等内の親族が代表者の場合は自営業扱いになる",
+    "誤って記入した場合は、二重線で消して正しい情報を記入する。記載事項に虚偽があった場合は申込みが無効または内定取消になる",
+    "有給休暇分の就労時間数と残業時間は、No.7 就労実績の就労時間数に含める",
+    "入園申込書の有効期間は、申込みした月から1年"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.setagaya.lg.jp/documents/1552/syurosyomeisyo_0809.pdf",
+      "quote": "第３号様式（第５条、第１６条、第２５条関係）"
+    },
+    "validity": {
+      "url": "https://www.city.setagaya.lg.jp/01044/1552.html",
+      "quote": "「就労証明書」・「医師の診断書」・「就学（予定）状況証明書」・「受託証明書」は、提出日の直近3か月以内に証明されたものを提出してください。"
+    },
+    "deadline": {
+      "url": "https://www.city.setagaya.lg.jp/01044/1561.html",
+      "quote": "令和8年11月5日（木曜日）締切（消印有効）"
+    },
+    "submitTo": {
+      "url": "https://www.city.setagaya.lg.jp/01044/1552.html",
+      "quote": "各総合支所子ども家庭支援課の窓口にお申し込みください（郵送可）。また、電子申請による申込みもできます。"
+    },
+    "online": {
+      "url": "https://www.city.setagaya.lg.jp/01044/1565.html",
+      "quote": "本申請では要件確認書類を電子データ（PDF・画像ファイル）で提出（添付）が必要となります。"
+    },
+    "selfEmployedDocs.0": {
+      "url": "https://www.city.setagaya.lg.jp/01044/1552.html",
+      "quote": "自営の方、親族の店舗等で働いている方"
+    },
+    "selfEmployedDocs.1": {
+      "url": "https://www.city.setagaya.lg.jp/01044/1552.html",
+      "quote": "開業届（収受印があるもの。収受印がない場合は、e-Taxの証明があるもの）・登記事項証明書・営業許可証 などの写し"
+    },
+    "selfEmployedDocs.2": {
+      "url": "https://www.city.setagaya.lg.jp/01044/1552.html",
+      "quote": "パンフレットやホームページのスクリーンショットなど"
+    },
+    "selfEmployedDocs.3": {
+      "url": "https://www.city.setagaya.lg.jp/01044/1552.html",
+      "quote": "請負契約書・納品書・請求書 などの写し"
+    },
+    "differences.0": {
+      "url": "https://www.city.setagaya.lg.jp/documents/1552/syurosyomeisyo_0809.pdf",
+      "quote": "第３号様式（第５条、第１６条、第２５条関係）"
+    },
+    "differences.1": {
+      "url": "https://www.city.setagaya.lg.jp/documents/1552/syurosyomeisyo_0809.pdf",
+      "quote": "雇用保険の加入状況についてチェックしてください。"
+    },
+    "differences.2": {
+      "url": "https://www.city.setagaya.lg.jp/documents/1552/syurosyomeisyo_0809.pdf",
+      "quote": "No.18の備考欄に変更後の就労日数を記載してください。"
+    },
+    "differences.3": {
+      "url": "https://www.city.setagaya.lg.jp/documents/1552/syurosyomeisyo_0809.pdf",
+      "quote": "派遣の場合は勤務状況について把握していれば派遣元・派遣先どちらで証明していただいても構いません。"
+    },
+    "notes.0": {
+      "url": "https://www.city.setagaya.lg.jp/01044/1552.html",
+      "quote": "日・週・月ごとに不規則な就労形態の場合は、別途月間スケジュールに直近3か月分の実績もご提出ください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.setagaya.lg.jp/documents/1552/syurosyomeisyo_0809.pdf",
+      "quote": "保護者または保護者の３親等内の親族が代表者の場合は自営業扱いとなります。"
+    },
+    "notes.2": {
+      "url": "https://www.city.setagaya.lg.jp/documents/1552/syurosyomeisyo_0809.pdf",
+      "quote": "誤って記入した場合は、二重線で消し正しい情報をご記入ください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.setagaya.lg.jp/documents/1552/syurosyomeisyo_0809.pdf",
+      "quote": "有給休暇分の就労時間数および残業時間は就労時間数に含めてください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.setagaya.lg.jp/01044/1552.html",
+      "quote": "入園申込書の有効期間は、申込みした月から1年です。"
+    }
+  },
+  "sources": [
+    { "label": "世田谷区「入園（転園）の申込み」", "url": "https://www.city.setagaya.lg.jp/01044/1552.html" },
+    { "label": "世田谷区「令和9年4月入園について」", "url": "https://www.city.setagaya.lg.jp/01044/1561.html" },
+    { "label": "世田谷区「電子申請での認可保育施設への入園（転園）申込」", "url": "https://www.city.setagaya.lg.jp/01044/1565.html" },
+    { "label": "世田谷区 就労証明書（PDF、2026.09版）", "url": "https://www.city.setagaya.lg.jp/documents/1552/syurosyomeisyo_0809.pdf" }
+  ]
+}

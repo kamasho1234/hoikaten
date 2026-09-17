@@ -1,0 +1,64 @@
+{
+  "citySlug": "isesaki",
+  "checkedAt": "2026-09-18",
+  "formType": "standard-plus",
+  "formPage": {
+    "label": "伊勢崎市「令和9年度保育施設への入所（一斉入所）」",
+    "url": "https://www.city.isesaki.lg.jp/soshiki/hukusiko/kodomo/ninteikyuhu/hoikusho/12128.html"
+  },
+  "formFiles": [
+    {
+      "label": "就労証明書（PDF）",
+      "url": "https://www.city.isesaki.lg.jp/material/files/group/37/syuurousyoumeisyo.pdf"
+    },
+    {
+      "label": "就労証明書（Excel）",
+      "url": "https://www.city.isesaki.lg.jp/material/files/group/37/syuurousyoumeisyo.xlsx"
+    }
+  ],
+  "seal": "unknown",
+  "differences": [
+    "様式の左上に「様式第５号（第９条関係）」、あて先は「伊勢崎市長 宛」",
+    "証明者欄の横に「証明書の内容に虚偽がある場合は認定を取り消されることがあります」「有効期間は証明日から６か月」「鉛筆や消せるボールペン等は使用しない」の注意書きがある"
+  ],
+  "notes": [
+    "鉛筆や消せるボールペンなど書き換え可能な筆記用具は使わない"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.isesaki.lg.jp/material/files/group/37/syuurousyoumeisyo.pdf",
+      "quote": "19 保護者記載欄"
+    },
+    "differences": {
+      "url": "https://www.city.isesaki.lg.jp/soshiki/hukusiko/kodomo/ninteikyuhu/hoikusho/12128.html",
+      "quote": "伊勢崎市指定の様式があります"
+    },
+    "notes.0": {
+      "url": "https://www.city.isesaki.lg.jp/material/files/group/37/syuurousyoumeisyo.pdf",
+      "quote": "鉛筆や消せるボールペン等、書き換え可能な筆記用具は使用しないでください。"
+    },
+    "validity": {
+      "url": "https://www.city.isesaki.lg.jp/material/files/group/37/syuurousyoumeisyo.pdf",
+      "quote": "この証明書の有効期間は証明日から６か月です。"
+    },
+    "differences.0": {
+      "url": "https://www.city.isesaki.lg.jp/material/files/group/37/syuurousyoumeisyo.pdf",
+      "quote": "様式第５号（第９条関係）"
+    },
+    "differences.1": {
+      "url": "https://www.city.isesaki.lg.jp/material/files/group/37/syuurousyoumeisyo.pdf",
+      "quote": "鉛筆や消せるボールペン等、書き換え可能な筆記用具は使用しないでください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "伊勢崎市「令和9年度保育施設への入所（一斉入所）」",
+      "url": "https://www.city.isesaki.lg.jp/soshiki/hukusiko/kodomo/ninteikyuhu/hoikusho/12128.html"
+    },
+    {
+      "label": "伊勢崎市 就労証明書（PDF）",
+      "url": "https://www.city.isesaki.lg.jp/material/files/group/37/syuurousyoumeisyo.pdf"
+    }
+  ],
+  "validity": "証明日から6か月"
+}

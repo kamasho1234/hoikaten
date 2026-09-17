@@ -1,0 +1,105 @@
+{
+  "citySlug": "yokohama",
+  "checkedAt": "2026-09-18",
+  "formType": "standard-plus",
+  "formPage": {
+    "label": "横浜市「横浜市へ提出する就労証明書について」",
+    "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/shuroushoumeisho.html"
+  },
+  "formFiles": [
+    {
+      "label": "【横浜市】就労証明書（PDF）",
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/shuroushoumeisho.files/0013_20260831.pdf"
+    },
+    {
+      "label": "【横浜市】就労証明書（記載要領含む）（Excel）",
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/shuroushoumeisho.files/0039_20260909.xlsx"
+    },
+    {
+      "label": "【標準様式】就労証明書（横浜市の記載要領含む）（Excel）",
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/shuroushoumeisho.files/0014_20260831.xlsx"
+    },
+    {
+      "label": "【横浜市】記載要領（PDF）",
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/shuroushoumeisho.files/0015_20260831.pdf"
+    },
+    {
+      "label": "記入例: 固定就労の方（PDF）",
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/shuroushoumeisho.files/syuuroutyuukoteikisaireir9.pdf"
+    },
+    {
+      "label": "記入例: 変則就労の方（PDF）",
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/shuroushoumeisho.files/0031_20260903.pdf"
+    },
+    {
+      "label": "記入例: 自営業の方（PDF）",
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/shuroushoumeisho.files/0032_20260903.pdf"
+    },
+    {
+      "label": "夜勤証明書（PDF）",
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/shuroushoumeisho.files/0006_20260831.pdf"
+    },
+    {
+      "label": "保育士等就労に関する誓約書兼証明書（PDF）",
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/shuroushoumeisho.files/0038_20260903.pdf"
+    },
+    {
+      "label": "よくあるお問合せ（PDF）",
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/shuroushoumeisho.files/R9_yokuaruotoiawase.pdf"
+    }
+  ],
+  "seal": "unknown",
+  "selfEmployedDocs": [
+    "営業許可証、開業届、登記簿謄本、確定申告書、取引先との請負契約書、業務委託契約書の写し等による事業実態の確認"
+  ],
+  "notes": [
+    "就労証明書は、横浜市独自の様式または国の標準様式のいずれかをご使用ください。",
+    "保護者が保育士等の資格を有しており、市内保育施設等で保育業務に従事または内定している場合は、保育士等就労に関する誓約書兼証明書を提出してください。",
+    "変則就労の場合、シフト表等を求めることがあります。",
+    "きょうだいで同時に申請する場合は、きょうだい人数分をコピーして提出してください。"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/shuroushoumeisho.html",
+      "quote": "国が定める標準的な様式【標準様式】就労証明書"
+    },
+    "selfEmployedDocs.0": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/shuroushoumeisho.html",
+      "quote": "自営業の方等の場合、就労に関する客観的資料の提出を求めることがあります。例：営業許可証、開業届、登記簿謄本、確定申告書、取引先との請負契約書、業務委託契約書の写し等"
+    },
+    "notes.0": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/shuroushoumeisho.html",
+      "quote": "就労証明書　　：国が定める標準的な様式【標準様式】就労証明書"
+    },
+    "notes.1": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/shuroushoumeisho.html",
+      "quote": "保育士等就労に関する誓約書兼証明書　保護者が保育士等の資格を有しており、横浜市の待機児童の対策に資する施設・事業や保育施策・事業で保育業務に従事または内定している場合"
+    },
+    "notes.2": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/shuroushoumeisho.html",
+      "quote": "変則就労の場合、シフト表等を求めることがあります。"
+    },
+    "notes.3": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/shuroushoumeisho.html",
+      "quote": "きょうだいで同時に申請する場合は、きょうだい人数分をコピーしてご提出ください。"
+    },
+    "validity": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/shuroushoumeisho.html",
+      "quote": "証明日が、提出日から6か月より前のものである場合、給付認定及び利用調整上不利になることがあります。"
+    },
+    "differences.0": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/shuroushoumeisho.html",
+      "quote": "就労証明書　　：国が定める標準的な様式【標準様式】就労証明書"
+    }
+  },
+  "sources": [
+    {
+      "label": "横浜市「横浜市へ提出する就労証明書について」",
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/shuroushoumeisho.html"
+    }
+  ],
+  "validity": "証明日が提出日から6か月より前のものは、給付認定と利用調整で不利になることがある",
+  "differences": [
+    "横浜市独自の様式と国の標準様式のどちらでも提出できる。横浜市の様式は横浜市の記載要領が付いている"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "citySlug": "kakogawa",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "加古川市「よくあるお問い合わせ (認可保育施設利用申込み予定の方に向けて)」",
+    "url": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/kodomo/hoikuka/kosodate_kyoiku/36558.html"
+  },
+  "seal": "unknown",
+  "notes": [
+    "利用調整点数は、雇用契約に基づく勤務時間で決定します"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/kodomo/hoikuka/kosodate_kyoiku/36558.html",
+      "quote": "就労証明書の「NO.6 就労時間」は、雇用契約に基づく勤務時間"
+    },
+    "seal": {
+      "url": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/kodomo/hoikuka/kosodate_kyoiku/36558.html",
+      "quote": "就労証明書の「NO.6 就労時間」"
+    },
+    "notes.0": {
+      "url": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/kodomo/hoikuka/kosodate_kyoiku/36558.html",
+      "quote": "利用調整点数は、雇用契約に基づく勤務時間で決定します"
+    }
+  },
+  "sources": [
+    {
+      "label": "加古川市「よくあるお問い合わせ (認可保育施設利用申込み予定の方に向けて)」",
+      "url": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/kodomo/hoikuka/kosodate_kyoiku/36558.html"
+    }
+  ]
+}

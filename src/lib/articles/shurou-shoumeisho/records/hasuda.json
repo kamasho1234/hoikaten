@@ -1,0 +1,30 @@
+{
+  "citySlug": "hasuda",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "蓮田市「令和8年度保育所等利用申込みについて」",
+    "url": "https://www.city.hasuda.saitama.jp/kodomo/kosodate/hoikuen/nyuen/hoiku_r8.html"
+  },
+  "formFiles": [
+    { "label": "就労証明書（手書き用）（PDF：280KB）", "url": "https://www.city.hasuda.saitama.jp/kodomo/kosodate/hoikuen/nyuen/documents/r80926syuurousyoumeisyo.pdf" },
+    { "label": "就労証明書（エクセル用）（エクセル：228KB）", "url": "https://www.city.hasuda.saitama.jp/kodomo/kosodate/hoikuen/nyuen/documents/r61022syutousyoumeisyo.xlsx" }
+  ],
+  "seal": "unknown",
+  "notes": [
+    "月64時間以上の就労が必要"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.hasuda.saitama.jp/kodomo/kosodate/hoikuen/nyuen/hoiku_r8.html",
+      "quote": "就労証明書（手書き用）"
+    },
+    "notes.0": {
+      "url": "https://www.city.hasuda.saitama.jp/kodomo/kosodate/hoikuen/nyuen/hoiku_r8.html",
+      "quote": "月64時間以上の就労がわかるもの"
+    }
+  },
+  "sources": [
+    { "label": "蓮田市「令和8年度保育所等利用申込みについて」", "url": "https://www.city.hasuda.saitama.jp/kodomo/kosodate/hoikuen/nyuen/hoiku_r8.html" }
+  ]
+}

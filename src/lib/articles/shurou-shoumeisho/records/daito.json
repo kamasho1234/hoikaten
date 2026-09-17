@@ -1,0 +1,54 @@
+{
+  "citySlug": "daito",
+  "checkedAt": "2026-09-18",
+  "formType": "standard-plus",
+  "formPage": {
+    "label": "大東市「保育所等入所の申込について」",
+    "url": "https://www.city.daito.lg.jp/soshiki/60/21911.html"
+  },
+  "formFiles": [
+    { "label": "入所理由証明書（大東市様式）", "url": "https://www.city.daito.lg.jp/uploaded/attachment/39863.pdf" },
+    { "label": "就労証明書（国の標準様式）", "url": "https://www.city.daito.lg.jp/uploaded/attachment/35991.xlsx" }
+  ],
+  "seal": "not-required",
+  "sealNote": "押印は不要です。",
+  "differences": [
+    "国の標準様式のほか、本市独自の「入所理由証明書」があり、外勤または内職の方は両様式の併用が可能（令和７年２月から）"
+  ],
+  "notes": [
+    "令和７年２月から、外勤または内職の方は国の標準様式の就労証明書を使用することが可能になった",
+    "国の標準様式の就労証明書を使用する場合、合わせて入所理由証明書（保護者記入欄のみ）の提出が必要",
+    "入所理由証明書と就労証明書は保護者（父）と保護者（母）それぞれの提出が必要"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.daito.lg.jp/soshiki/60/21911.html",
+      "quote": "入所理由証明書（大東市様式）・就労証明書（国の標準様式）"
+    },
+    "seal": {
+      "url": "https://www.city.daito.lg.jp/soshiki/60/21911.html",
+      "quote": "押印は不要です。"
+    },
+    "differences": {
+      "url": "https://www.city.daito.lg.jp/soshiki/60/21911.html",
+      "quote": "令和７年２月から、外勤または内職の方については、国の標準様式の就労証明書を使用することも可能となりました"
+    },
+    "notes.0": {
+      "url": "https://www.city.daito.lg.jp/soshiki/60/21911.html",
+      "quote": "令和７年２月から、外勤または内職の方については、国の標準様式の就労証明書を使用することも可能となりました"
+    },
+    "notes.1": {
+      "url": "https://www.city.daito.lg.jp/soshiki/60/21911.html",
+      "quote": "国の標準様式の就労証明書を使用される方は、保護者の方の通勤状況を把握するために、合わせて入所理由証明書もご提出ください"
+    },
+    "notes.2": {
+      "url": "https://www.city.daito.lg.jp/soshiki/60/21911.html",
+      "quote": "入所理由証明書（就労証明書）は保護者（父）と保護者（母）それぞれ提出が必要です"
+    }
+  },
+  "sources": [
+    { "label": "大東市「保育所等入所の申込について」", "url": "https://www.city.daito.lg.jp/soshiki/60/21911.html" },
+    { "label": "大東市 入所理由証明書（大東市様式）", "url": "https://www.city.daito.lg.jp/uploaded/attachment/39863.pdf" },
+    { "label": "大東市 就労証明書（国の標準様式）", "url": "https://www.city.daito.lg.jp/uploaded/attachment/35991.xlsx" }
+  ]
+}

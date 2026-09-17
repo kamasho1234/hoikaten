@@ -1860,63 +1860,6 @@ const articles: Article[] = [
   },
 
   // 35. 就労証明書
-  {
-    slug: "shurou-shoumeisho",
-    citySlug: "sapporo",
-    title: "札幌市の就労証明書｜様式ダウンロード先と記入例【令和8年度】",
-    description:
-      "札幌市の保育園申込みに使う就労証明書について、公式の様式ダウンロード先へのリンクと、点数の付き方・記入例・よくある不備をまとめています。会社に依頼する前に確認してください。",
-    image:
-      "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&h=400&fit=crop",
-    category: "申請・手続き",
-    categoryColor: "teal",
-    content: `<div class="info-box">
-<p><strong>まずは公式の様式をダウンロード</strong></p>
-<p>就労証明書の様式・記入例は<a href="https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/835.html" target="_blank" rel="noopener">札幌市公式サイト</a>からダウンロードできます。この記事では、その様式をどう書くと点数にどう響くかを説明します。</p>
-</div>
-<h2>就労証明書とは</h2>
-<p>保育園の入園申込に必須の書類です。保護者の就労状況を勤務先が証明するもので、この内容をもとに<strong>基本点数</strong>が算出されます。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>就労証明書の記載内容で点数が決まります。勤務先に正確に記入してもらうことが最も重要です。</p>
-</div>
-
-<h2>主な記載項目</h2>
-<table>
-<tr><th>項目</th><th>記載内容</th><th>点数への影響</th></tr>
-<tr><td>雇用形態</td><td>正社員・パート・派遣等</td><td>直接の影響なし（労働時間で判定）</td></tr>
-<tr><td>勤務日数</td><td>月の稼動日数</td><td>基本点数に直接影響</td></tr>
-<tr><td>勤務時間</td><td>月の総労働時間</td><td>基本点数に直接影響</td></tr>
-<tr><td>勤務先所在地</td><td>勤務先の住所</td><td>通勤時間の確認用</td></tr>
-<tr><td>就労開始日</td><td>入社日・就労開始日</td><td>継続就労の確認</td></tr>
-</table>
-
-<h2>よくある間違い・注意点</h2>
-<ul>
-<li><strong>育休中の場合</strong>：「現在の勤務状況」は育休中と記載し、「復職予定日」を必ず記入</li>
-<li><strong>シフト制の場合</strong>：最低勤務日数・時間ではなく、通常のシフトでの見込みを記入</li>
-<li><strong>残業時間</strong>：残業は月の労働時間に含めないのが一般的。就業規則上の所定労働時間で記入</li>
-<li><strong>勤務先の押印</strong>：事業主の記入欄には代表者名と押印（または電子署名）が必要</li>
-</ul>
-
-<div class="step">
-<h3>ステップ1：様式のダウンロード</h3>
-<p>札幌市指定の就労証明書をダウンロードします。</p>
-</div>
-
-<div class="step">
-<h3>ステップ2：勤務先に依頼</h3>
-<p>人事部門に記入を依頼します。余裕をもって1か月前には依頼しましょう。</p>
-</div>
-
-<div class="step">
-<h3>ステップ3：内容の確認</h3>
-<p>受け取ったら、稼動日数と月労働時間が実態と合っているか必ず確認してください。</p>
-</div>`,
-    publishedAt: "2026-04-07",
-    popularity: 65,
-  },
 
   // 36. 申請書類一覧
   {

@@ -1675,58 +1675,6 @@ const articles: Article[] = [
   },
 
   // 15. shurou-shoumeisho（保活の基本/green/60）
-  {
-    slug: "shurou-shoumeisho",
-    citySlug: "osaka",
-    title: "大阪市の就労証明書｜様式ダウンロード先と記入例【令和8年度】",
-    description:
-      "大阪市の保育園申込みに使う就労証明書について、公式の様式ダウンロード先へのリンクと、点数の付き方・記入例・よくある不備をまとめています。会社に依頼する前に確認してください。",
-    image:
-      "https://images.unsplash.com/photo-1450101499163-c8848e66ad76?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<div class="info-box">
-<p><strong>まずは公式の様式をダウンロード</strong></p>
-<p>就労証明書の様式・記入例は<a href="https://www.city.osaka.lg.jp/kodomo/page/0000682977.html" target="_blank" rel="noopener">大阪市「保育施設・事業の利用申込みに係る各種証明様式について」</a>からダウンロードできます。この記事では、その様式をどう書くと点数にどう響くかを説明します。</p>
-</div>
-<h2>就労証明書とは</h2>
-<p>就労証明書は保育園の入園申込で<strong>最も重要な書類</strong>のひとつです。保護者の就労状況を証明するもので、これに基づいて基本点数が決まります。</p>
-
-<h3>記載が必要な項目</h3>
-<ul>
-<li>勤務先の名称・所在地・電話番号</li>
-<li>雇用形態（正規・非正規・自営など）</li>
-<li>勤務日数・勤務時間</li>
-<li>就労開始日</li>
-<li>育児休業の取得状況・復帰予定日</li>
-</ul>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>就労証明書は<strong>勤務先が記入・押印するもの</strong>です。早めに人事部や総務部に依頼しましょう。大阪市の申込時期（10月上旬）の1〜2か月前に依頼するのが安心です。</p>
-</div>
-
-<h2>よくあるミスと対策</h2>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content"><strong>勤務時間の記載ミス</strong><p>実際の勤務時間と記載内容が異なると、点数が正しく付きません。週の勤務時間・月の勤務日数を正確に記入してもらいましょう。</p></div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content"><strong>育休復帰日の未記入</strong><p>育休中の場合は復帰予定日の記入が必須です。未記入だと加点が得られない場合があります。</p></div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content"><strong>押印漏れ</strong><p>事業主の押印が必要な様式の場合、押印がないと受付されません。</p></div>
-</div>
-
-<div class="info-box">
-<p><strong>確認を</strong></p>
-<p>就労証明書の様式は<a href="https://www.city.osaka.lg.jp/kodomo/page/0000682977.html" target="_blank" rel="noopener">大阪市公式サイト</a>からダウンロードできます。</p>
-</div>`,
-    publishedAt: "2026-04-07",
-    popularity: 60,
-  },
 
   // 16. shinsei-shorui-list（保活の基本/green/55）
   {

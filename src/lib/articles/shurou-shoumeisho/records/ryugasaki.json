@@ -1,0 +1,37 @@
+{
+  "citySlug": "ryugasaki",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "龍ケ崎市「令和8年度保育施設等利用申し込みのご案内」",
+    "url": "https://www.city.ryugasaki.ibaraki.jp/fukushi/kosodate/azukeru/hoiku/R8-hoikumousikomi.html"
+  },
+  "formFiles": [
+    { "label": "就労証明書（PDF）", "url": "https://www.city.ryugasaki.ibaraki.jp/fukushi/kosodate/azukeru/hoiku/R8-hoikumousikomi.files/syuurousoyumeisyo.pdf" },
+    { "label": "就労証明書（Excel）", "url": "https://www.city.ryugasaki.ibaraki.jp/fukushi/kosodate/azukeru/hoiku/R8-hoikumousikomi.files/syuurousyoumrisyo.xlsx" }
+  ],
+  "seal": "unknown",
+  "selfEmployedDocs": [
+    "自営業（個人事業主・親族経営等含む）・農業に従事している方は、就労証明書に加え、別途添付書類が必要となります"
+  ],
+  "notes": [
+    "就労は64時間以上であることが要件です"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.ryugasaki.ibaraki.jp/fukushi/kosodate/azukeru/hoiku/R8-hoikumousikomi.html",
+      "quote": "就労（64時間以上の就労であって、フルタイムのほか、パートタイム、居宅内労働など基本的にすべての就労を含む）"
+    },
+    "selfEmployedDocs.0": {
+      "url": "https://www.city.ryugasaki.ibaraki.jp/fukushi/kosodate/azukeru/hoiku/R8-hoikumousikomi.html",
+      "quote": "自営業（個人事業主・親族経営等含む）・農業に従事している方は、就労証明書に加え、別途添付書類が必要となります"
+    },
+    "notes.0": {
+      "url": "https://www.city.ryugasaki.ibaraki.jp/fukushi/kosodate/azukeru/hoiku/R8-hoikumousikomi.html",
+      "quote": "就労（64時間以上の就労であって、フルタイムのほか、パートタイム、居宅内労働など基本的にすべての就労を含む）"
+    }
+  },
+  "sources": [
+    { "label": "龍ケ崎市「令和8年度保育施設等利用申し込みのご案内」", "url": "https://www.city.ryugasaki.ibaraki.jp/fukushi/kosodate/azukeru/hoiku/R8-hoikumousikomi.html" }
+  ]
+}

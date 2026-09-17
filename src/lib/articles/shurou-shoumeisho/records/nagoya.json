@@ -1,0 +1,52 @@
+{
+  "citySlug": "nagoya",
+  "checkedAt": "2026-09-18",
+  "formType": "standard-plus",
+  "formPage": {
+    "label": "名古屋市「4 申込みには何が必要なの？」",
+    "url": "https://kodomokosodate.city.nagoya.jp/firstuse/need.html"
+  },
+  "formFiles": [
+    {
+      "label": "就労証明書（PDF版）",
+      "url": "https://kodomokosodate.city.nagoya.jp/fs/1/7/9/_/06______.pdf"
+    },
+    {
+      "label": "就労証明書（XLSX版）",
+      "url": "https://kodomokosodate.city.nagoya.jp/fs/1/2/0/0/_/07______.xlsx"
+    },
+    {
+      "label": "就労証明書記載例",
+      "url": "https://kodomokosodate.city.nagoya.jp/fs/1/8/7/_/14___________.pdf"
+    }
+  ],
+  "seal": "unknown",
+  "notes": [],
+  "evidence": {
+    "formType": {
+      "url": "https://kodomokosodate.city.nagoya.jp/fs/1/7/9/_/06______.pdf",
+      "quote": "19 保護者記載欄"
+    },
+    "differences.0": {
+      "url": "https://kodomokosodate.city.nagoya.jp/fs/1/7/9/_/06______.pdf",
+      "quote": "名古屋市 区長 宛"
+    }
+  },
+  "sources": [
+    {
+      "label": "名古屋市「4 申込みには何が必要なの？」",
+      "url": "https://kodomokosodate.city.nagoya.jp/firstuse/need.html"
+    },
+    {
+      "label": "名古屋市 就労証明書（PDF版）",
+      "url": "https://kodomokosodate.city.nagoya.jp/fs/1/7/9/_/06______.pdf"
+    },
+    {
+      "label": "名古屋市 就労証明書記載例",
+      "url": "https://kodomokosodate.city.nagoya.jp/fs/1/8/7/_/14___________.pdf"
+    }
+  ],
+  "differences": [
+    "様式の左上に「第3号様式」、あて先は「名古屋市 区長 宛」（区役所あて）。項目はNo.1〜19の国の標準様式と同じ"
+  ]
+}

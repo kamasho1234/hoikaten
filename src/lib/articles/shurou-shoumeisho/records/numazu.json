@@ -1,0 +1,110 @@
+{
+  "citySlug": "numazu",
+  "checkedAt": "2026-09-18",
+  "formType": "standard-plus",
+  "formPage": {
+    "label": "沼津市「2027年度保育施設利用申込みのご案内」",
+    "url": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/topics/nyuusho/doc/goannai.pdf"
+  },
+  "formFiles": [
+    {
+      "label": "就労証明書（PDF版）",
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/todokede/shinsei/item/075.pdf"
+    },
+    {
+      "label": "就労証明書 記入例（PDF版）",
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/todokede/shinsei/item/075d.pdf"
+    }
+  ],
+  "validity": "証明日から3か月以内のもの",
+  "seal": "not-required",
+  "sealNote": "不要です。訂正する場合は二重線で消し、修正液等は使用しないでください。",
+  "differences": [
+    "国の標準様式（No.1〜19）に、証明者欄の横の注記として、雇用の形態が「自営業主」の人は「開業届出書（控）」、「自営業専従者」の人は「青色事業専従者給与に関する届出書」を添付する旨が書かれている",
+    "公開されている記入例は旧様式（No.14までと「沼津市追加的記載項目欄」）のもので、現行様式とは項目番号が違う"
+  ],
+  "notes": [
+    "訂正する場合は二重線で消してください。修正液は使用しないでください。",
+    "証明内容に虚偽・不正が認められた場合は、認定の取り消し、または退園となることがあります。",
+    "直近３か月の就労日数等について記入してください。",
+    "実績がない場合は、見込日数・見込時間を記入してください。",
+    "本人が産休・育休の場合は、休暇取得前の就労実績を記入してください。",
+    "雇用期間が有期の場合は、契約満了後の更新の有無に必ずチェックする"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/todokede/shinsei/item/075.pdf",
+      "quote": "19 保護者記載欄"
+    },
+    "validity": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/topics/nyuusho/doc/goannai.pdf",
+      "quote": "家庭内外労働 就労証明書"
+    },
+    "seal": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/todokede/shinsei/item/075d.pdf",
+      "quote": "押印は不要です。訂正する場合は二重線で消し、修正液等は使用しないでください。"
+    },
+    "differences": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/todokede/shinsei/item/075d.pdf",
+      "quote": "沼津市追加的記載項目欄"
+    },
+    "notes.0": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/todokede/shinsei/item/075d.pdf",
+      "quote": "訂正する場合は二重線で消し、修正液等は使用しないでください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/todokede/shinsei/item/075d.pdf",
+      "quote": "証明内容に虚偽・不正が認められた場合は、認定の取り消し、または退園となることがあります。"
+    },
+    "notes.2": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/todokede/shinsei/item/075d.pdf",
+      "quote": "直近３か月の就労日数等について記入してください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/todokede/shinsei/item/075d.pdf",
+      "quote": "実績がない場合は、見込日数・見込時間を記入してください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/todokede/shinsei/item/075d.pdf",
+      "quote": "本人が産休・育休の場合は、休暇取得前の就労実績を記入してください。"
+    },
+    "notes.5": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/todokede/shinsei/item/075d.pdf",
+      "quote": "No.3の雇用期間について「□有期」をチェックした場合は、契約満了後"
+    },
+    "differences.0": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/todokede/shinsei/item/075.pdf",
+      "quote": "「自営業専従者」の方は、「青色事業専従者給与に関する届出書」"
+    },
+    "differences.1": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/todokede/shinsei/item/075d.pdf",
+      "quote": "沼津市追加的記載項目欄"
+    },
+    "selfEmployedDocs.0": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/todokede/shinsei/item/075.pdf",
+      "quote": "※5雇用の形態が「自営業主」の方は、「開業届出書（控）」"
+    },
+    "selfEmployedDocs.1": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/todokede/shinsei/item/075.pdf",
+      "quote": "「自営業専従者」の方は、「青色事業専従者給与に関する届出書」"
+    }
+  },
+  "sources": [
+    {
+      "label": "沼津市「2027年度保育施設利用申込みのご案内」",
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/topics/nyuusho/doc/goannai.pdf"
+    },
+    {
+      "label": "沼津市 就労証明書（PDF版）",
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/todokede/shinsei/item/075.pdf"
+    },
+    {
+      "label": "沼津市 就労証明書 記入例（PDF版）",
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/todokede/shinsei/item/075d.pdf"
+    }
+  ],
+  "selfEmployedDocs": [
+    "自営業主: 開業届出書（控）",
+    "自営業専従者: 青色事業専従者給与に関する届出書"
+  ]
+}

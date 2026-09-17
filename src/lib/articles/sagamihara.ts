@@ -1327,48 +1327,6 @@ const articles: Article[] = [
     popularity: 40,
   },
   {
-    slug: "shurou-shoumeisho",
-    citySlug: "sagamihara",
-    title: "相模原市の就労証明書｜様式ダウンロード先と記入例【令和8年度】",
-    description:
-      "相模原市の保育園申込みに使う就労証明書について、公式の様式ダウンロード先へのリンクと、点数の付き方・記入例・よくある不備をまとめています。会社に依頼する前に確認してください。",
-    image:
-      "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=400&fit=crop",
-    category: "手続き",
-    categoryColor: "rose",
-    content: `<div class="info-box">
-<p><strong>まずは公式の様式をダウンロード</strong></p>
-<p>就労証明書の様式・記入例は<a href="https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kosodate/1026606/hoikuen/1014960.html" target="_blank" rel="noopener">相模原市「就労証明書について」</a>からダウンロードできます。この記事では、その様式をどう書くと点数にどう響くかを説明します。</p>
-</div>
-<h2>就労証明書とは</h2>
-<p>保育園の申込にあたり、保護者の就労状況を証明する書類です。勤務先（または自分）が記入します。</p>
-
-<h3>記入のポイント</h3>
-<ul>
-<li><strong>就労日数・時間</strong>：実態に即した数値を記入。これが基準点数に直結します</li>
-<li><strong>雇用形態</strong>：正社員、パート、契約社員などを正確に</li>
-<li><strong>勤務先の押印</strong>：代表者印または人事担当印が必要</li>
-<li><strong>記入日</strong>：申込日に近い日付が望ましい</li>
-</ul>
-
-<h3>相模原市の特徴</h3>
-<p>相模原市では月の就労日数と1日の就労時間で基準点数が決まります。就労証明書に記載された時間がそのまま点数に反映されるため、正確な記入が重要です。</p>
-
-<h2>よくある間違い</h2>
-<ul>
-<li>就労時間の記載が実態と異なる（残業込みの時間を記載してしまう等）</li>
-<li>勤務先の住所・電話番号の記載漏れ</li>
-<li>育休中の場合に復帰後の勤務条件を記載していない</li>
-</ul>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>就労証明書は勤務先に依頼してから届くまで2〜3週間かかることがあります。早めに依頼しましょう。</p>
-</div>`,
-    publishedAt: "2026-04-07",
-    popularity: 45,
-  },
-  {
     slug: "shinsei-shorui-list",
     citySlug: "sagamihara",
     title: "相模原市の保育園申請書類チェックリスト　ダウンロード先と準備の流れ",

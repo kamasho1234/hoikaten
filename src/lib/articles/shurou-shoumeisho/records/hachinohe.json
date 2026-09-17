@@ -1,0 +1,67 @@
+{
+  "citySlug": "hachinohe",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "八戸市「令和8年度 認定こども園・幼稚園・保育所 利用案内」",
+    "url": "https://www.city.hachinohe.aomori.jp/kosodate_gakko/kosodate/kosodatekanrenshisetsu/24643.html"
+  },
+  "formFiles": [
+    {
+      "label": "就労証明書",
+      "url": "https://www.city.hachinohe.aomori.jp/material/files/group/34/R80401syuurousyoumeisyo.pdf"
+    },
+    {
+      "label": "就労証明書 記入例",
+      "url": "https://www.city.hachinohe.aomori.jp/material/files/group/34/R80401syuuroukinyuurei.pdf"
+    },
+    {
+      "label": "就労状況申立書",
+      "url": "https://www.city.hachinohe.aomori.jp/material/files/group/34/R80401syuuroujoukyoumousitate.pdf"
+    }
+  ],
+  "seal": "required",
+  "notes": [
+    "2号・3号認定では「保育が必要なことを証明する書類」の提出が必要",
+    "父母それぞれについて必要",
+    "月120時間以上の就労は保育標準時間、月64時間以上120時間未満は保育短時間の認定になる",
+    "就労状況申立書がある場合は合わせて提出",
+    "申請順ではなく利用調整により決定"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.hachinohe.aomori.jp/kosodate_gakko/kosodate/kosodatekanrenshisetsu/24643.html",
+      "quote": "(5)保育が必要なことを証明する書類"
+    },
+    "notes.0": {
+      "url": "https://www.city.hachinohe.aomori.jp/kosodate_gakko/kosodate/kosodatekanrenshisetsu/24643.html",
+      "quote": "2号・3号認定⇒園又は市窓口へ提出：必要"
+    },
+    "notes.1": {
+      "url": "https://www.city.hachinohe.aomori.jp/kosodate_gakko/kosodate/kosodatekanrenshisetsu/24643.html",
+      "quote": "父母それぞれについて必要"
+    },
+    "notes.2": {
+      "url": "https://www.city.hachinohe.aomori.jp/kosodate_gakko/kosodate/kosodatekanrenshisetsu/24643.html",
+      "quote": "月64 時間以上 120 時間未満の就労"
+    },
+    "notes.3": {
+      "url": "https://www.city.hachinohe.aomori.jp/kosodate_gakko/kosodate/kosodatekanrenshisetsu/24643.html",
+      "quote": "就労状況申立書"
+    },
+    "notes.4": {
+      "url": "https://www.city.hachinohe.aomori.jp/kosodate_gakko/kosodate/kosodatekanrenshisetsu/24643.html",
+      "quote": "申込順ではございません"
+    },
+    "seal": {
+      "url": "https://www.city.hachinohe.aomori.jp/kosodate_gakko/kosodate/kosodatekanrenshisetsu/24643.html",
+      "quote": "原則として事業主の押印が必要です"
+    }
+  },
+  "sources": [
+    {
+      "label": "八戸市「令和8年度 認定こども園・幼稚園・保育所 利用案内」",
+      "url": "https://www.city.hachinohe.aomori.jp/kosodate_gakko/kosodate/kosodatekanrenshisetsu/24643.html"
+    }
+  ]
+}

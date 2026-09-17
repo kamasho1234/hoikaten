@@ -1,0 +1,43 @@
+{
+  "citySlug": "suzuka",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "鈴鹿市「幼児教育・保育の無償化について」",
+    "url": "https://www.city.suzuka.lg.jp/kosodate/azukeru/1012778.html"
+  },
+  "formFiles": [
+    {
+      "label": "就労証明書（PDF）",
+      "url": "https://www.city.suzuka.lg.jp/_res/projects/default_project/_page_/001/012/778/1syurou2026.pdf"
+    },
+    {
+      "label": "就労証明書（Excel）",
+      "url": "https://www.city.suzuka.lg.jp/_res/projects/default_project/_page_/001/012/778/2syurou2026.xlsx"
+    }
+  ],
+  "seal": "unknown",
+  "notes": [
+    "勤め先の事業者に就労証明書の作成を依頼し、各保育所などへ提出してください"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.suzuka.lg.jp/kosodate/azukeru/1012778.html",
+      "quote": "就労証明書の作成を依頼し"
+    },
+    "notes.0": {
+      "url": "https://www.city.suzuka.lg.jp/kosodate/azukeru/1012778.html",
+      "quote": "就労証明書の作成を依頼し"
+    }
+  },
+  "sources": [
+    {
+      "label": "鈴鹿市「幼児教育・保育の無償化について」",
+      "url": "https://www.city.suzuka.lg.jp/kosodate/azukeru/1012778.html"
+    },
+    {
+      "label": "鈴鹿市 就労証明書（PDF）",
+      "url": "https://www.city.suzuka.lg.jp/_res/projects/default_project/_page_/001/012/778/1syurou2026.pdf"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "citySlug": "kanazawa",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "金沢市「保育所・認定こども園等の利用に係る申請書類」",
+    "url": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/hoikuyochienka/shinseishodownload/8336.html"
+  },
+  "formFiles": [
+    {
+      "label": "【様式2】就労証明書（PDF版）",
+      "url": "https://www4.city.kanazawa.lg.jp/material/files/group/62/syuurou_1.pdf"
+    },
+    {
+      "label": "【様式2】就労証明書（Excelファイル）",
+      "url": "https://www4.city.kanazawa.lg.jp/material/files/group/62/syuurou_2025.xlsx"
+    }
+  ],
+  "submitTo": "第1希望の施設（保育所・認定こども園）に申込書類と「発達状況表」をご提出ください",
+  "seal": "unknown",
+  "notes": [],
+  "evidence": {
+    "formType": {
+      "url": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/hoikuyochienka/shinseishodownload/8336.html",
+      "quote": "【様式2】就労証明書 (PDFファイル: 108.0KB)【様式2】就労証明書 (Excelファイル: 65.9KB)"
+    },
+    "submitTo": {
+      "url": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/hoikuyochienka/shinseishodownload/8336.html",
+      "quote": "第1希望の施設（保育所・認定こども園）に申込書類と「発達状況表」をご提出ください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "金沢市「保育所・認定こども園等の利用に係る申請書類」",
+      "url": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/hoikuyochienka/shinseishodownload/8336.html"
+    },
+    {
+      "label": "金沢市 就労証明書（PDF版）",
+      "url": "https://www4.city.kanazawa.lg.jp/material/files/group/62/syuurou_1.pdf"
+    }
+  ]
+}

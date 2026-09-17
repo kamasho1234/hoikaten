@@ -1,0 +1,35 @@
+{
+  "citySlug": "fuchu-hiroshima",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "府中町「令和8年度 府中町保育所・認定こども園（保育部分）・地域型保育事業 入所案内」",
+    "url": "https://www.town.fuchu.hiroshima.jp/site/kosodate/31097.html"
+  },
+  "formFiles": [
+    { "label": "就労証明書（PDFファイル）", "url": "https://www.town.fuchu.hiroshima.jp/uploaded/attachment/27966.pdf" },
+    { "label": "就労証明書（Excelファイル）", "url": "https://www.town.fuchu.hiroshima.jp/uploaded/attachment/32533.xlsx" }
+  ],
+  "seal": "unknown",
+  "notes": [
+    "就労証明書は勤務先で証明を受けてください",
+    "自営業の場合は営業許可証、名刺、営業上の郵便物、請負契約書などを添付してください"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.town.fuchu.hiroshima.jp/site/kosodate/31097.html",
+      "quote": "就労証明書 [PDFファイル／164KB]就労証明書 [Excelファイル／54KB]"
+    },
+    "notes.0": {
+      "url": "https://www.town.fuchu.hiroshima.jp/site/kosodate/31097.html",
+      "quote": "勤務先で証明を受けてください"
+    },
+    "notes.1": {
+      "url": "https://www.town.fuchu.hiroshima.jp/site/kosodate/31097.html",
+      "quote": "自営業を証明する書類（営業許可証・名刺・営業上の郵便物・請負契約書など）を添付"
+    }
+  },
+  "sources": [
+    { "label": "府中町「令和8年度 府中町保育所・認定こども園（保育部分）・地域型保育事業 入所案内」", "url": "https://www.town.fuchu.hiroshima.jp/site/kosodate/31097.html" }
+  ]
+}

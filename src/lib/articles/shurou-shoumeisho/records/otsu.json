@@ -1,0 +1,76 @@
+{
+  "citySlug": "otsu",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "大津市「令和8年度　保育所等利用案内」",
+    "url": "https://www.city.otsu.lg.jp/soshiki/015/1410/g/hn/69848.html"
+  },
+  "formFiles": [
+    {
+      "label": "就労証明書（PDF版）",
+      "url": "https://www.city.otsu.lg.jp/material/files/group/10/R8syurousyoumeisyo.pdf"
+    },
+    {
+      "label": "就労証明書（Excel版）",
+      "url": "https://www.city.otsu.lg.jp/material/files/group/10/R8syurousyoumeisyo.xlsx"
+    },
+    {
+      "label": "就労証明書【記入例】",
+      "url": "https://www.city.otsu.lg.jp/material/files/group/10/R8syuurousyoumeisyokinyuurei.pdf"
+    },
+    {
+      "label": "就労証明書【記載要領】",
+      "url": "https://www.city.otsu.lg.jp/material/files/group/10/R8syuurousyoumeisyokisaiyouryou.pdf"
+    }
+  ],
+  "deadline": "一次申込：令和7年9月8日(月曜)～令和7年10月10日(金曜)、二次申込：令和8年2月2日(月曜)～令和8年2月13日(金曜)",
+  "submitTo": "大津市役所 こども未来部 保育入所課（〒520-8575 大津市御陵町3番1号）、郵送の場合はレターパック又は簡易書留で締切日必着",
+  "seal": "unknown",
+  "notes": [
+    "利用希望の申込は令和8年度内（令和9年3月まで）有効"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.otsu.lg.jp/material/files/group/10/R8syurousyoumeisyo.pdf",
+      "quote": "19保護者記載欄"
+    },
+    "deadline": {
+      "url": "https://www.city.otsu.lg.jp/soshiki/015/1410/g/hn/69848.html",
+      "quote": "令和7年9月8日(月曜)～令和7年10月10日(金曜)"
+    },
+    "submitTo": {
+      "url": "https://www.city.otsu.lg.jp/soshiki/015/1410/g/hn/69848.html",
+      "quote": "大津市役所こども未来部保育入所課"
+    },
+    "selfEmployedDocs.0": {
+      "url": "https://www.city.otsu.lg.jp/material/files/group/10/R8tebiki.pdf",
+      "quote": "個人事業主（就労先の経営者が本人または親族）の場合、開業証明書、開業届、確定申告書の写しなど自営の実態が確認できる書類 ※個人事業主の場合、①・②の２点とも必要。"
+    },
+    "notes.0": {
+      "url": "https://www.city.otsu.lg.jp/soshiki/015/1410/g/hn/69848.html",
+      "quote": "利用希望申込は令和8年度内(令和9年3月まで)有効です。"
+    }
+  },
+  "sources": [
+    {
+      "label": "大津市「令和8年度　保育所等利用案内」",
+      "url": "https://www.city.otsu.lg.jp/soshiki/015/1410/g/hn/69848.html"
+    },
+    {
+      "label": "大津市 就労証明書（PDF版）",
+      "url": "https://www.city.otsu.lg.jp/material/files/group/10/R8syurousyoumeisyo.pdf"
+    },
+    {
+      "label": "大津市 就労証明書【記載要領】",
+      "url": "https://www.city.otsu.lg.jp/material/files/group/10/R8syuurousyoumeisyokisaiyouryou.pdf"
+    },
+    {
+      "label": "大津市 令和8年度　保育所・認定こども園・地域型保育施設　利用申込の手引き",
+      "url": "https://www.city.otsu.lg.jp/material/files/group/10/R8tebiki.pdf"
+    }
+  ],
+  "selfEmployedDocs": [
+    "開業証明書、開業届、確定申告書の写しなど自営の実態が確認できる書類（就労先の経営者が本人または親族の場合）"
+  ]
+}

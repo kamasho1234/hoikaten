@@ -1,0 +1,64 @@
+{
+  "citySlug": "himeji",
+  "checkedAt": "2026-09-18",
+  "formType": "standard-plus",
+  "formPage": {
+    "label": "姫路市「教育・保育施設に関する申請書等ダウンロードサービス」",
+    "url": "https://www.city.himeji.lg.jp/kurashi/0000021924.html"
+  },
+  "formFiles": [
+    {
+      "label": "就労証明書（PDF）",
+      "url": "https://www.city.himeji.lg.jp/kurashi/cmsfiles/contents/0000021/21924/r9syuurousyoumeisyo.pdf"
+    },
+    {
+      "label": "就労証明書（Excel）",
+      "url": "https://www.city.himeji.lg.jp/kurashi/cmsfiles/contents/0000021/21924/syuurousyoumeisyo.xlsx"
+    }
+  ],
+  "online": "マイナポータル（ぴったりサービス）で電子申請できる。電子申請か窓口申請のどちらか一方で申請し、添付書類はすべてデータで添付する",
+  "seal": "unknown",
+  "differences": [
+    "国の標準様式のNo.1〜19のうち、証明者欄とNo.2〜6・No.13が記入必須、斜線の項目は姫路市の審査では使わない、太枠が特に重要な項目、と欄外に書かれている（太枠内だけ書かれた証明書は不備）"
+  ],
+  "notes": [
+    "No.6 就労時間の「合計時間」は休憩時間を含めた時間を書き、「うち休憩時間」には月間（週間）の合計の休憩時間（1260分など）を必ず書く。休憩が0分でも必ず0と書く",
+    "電子申請では添付書類をすべてデータで添付する。添付がないと受付できず、こども保育課から電話がある"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.himeji.lg.jp/kurashi/cmsfiles/contents/0000021/21924/r9syuurousyoumeisyo.pdf",
+      "quote": "・斜線は姫路市の審査では使用しない項目"
+    },
+    "online": {
+      "url": "https://www.city.himeji.lg.jp/kurashi/0000018778.html",
+      "quote": "従来どおりの方法（申込用紙での窓口申請）も可能ですが、どちらか一方の方法（電子申請又は窓口申請）で申請してください。"
+    },
+    "differences.0": {
+      "url": "https://www.city.himeji.lg.jp/kurashi/cmsfiles/contents/0000021/21924/r9syuurousyoumeisyo.pdf",
+      "quote": "・太枠は特に重要な項目(太枠内のみ記載の場合は不備)"
+    },
+    "notes.0": {
+      "url": "https://www.city.himeji.lg.jp/kurashi/0000021924.html",
+      "quote": "休憩時間が0分の場合は、必ず0とご記入ください"
+    },
+    "notes.1": {
+      "url": "https://www.city.himeji.lg.jp/kurashi/0000018778.html",
+      "quote": "添付書類は必ずデータで全て添付してください。必要書類すべての添付がない場合は受付ができません。"
+    }
+  },
+  "sources": [
+    {
+      "label": "姫路市「教育・保育施設に関する申請書等ダウンロードサービス」",
+      "url": "https://www.city.himeji.lg.jp/kurashi/0000021924.html"
+    },
+    {
+      "label": "姫路市「マイナポータル（ぴったりサービス）による保育施設等の利用申込（電子申請）」",
+      "url": "https://www.city.himeji.lg.jp/kurashi/0000018778.html"
+    },
+    {
+      "label": "姫路市 就労証明書（PDF）",
+      "url": "https://www.city.himeji.lg.jp/kurashi/cmsfiles/contents/0000021/21924/r9syuurousyoumeisyo.pdf"
+    }
+  ]
+}

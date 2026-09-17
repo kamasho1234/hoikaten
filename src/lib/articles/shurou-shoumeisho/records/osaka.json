@@ -1,0 +1,68 @@
+{
+  "citySlug": "osaka",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "大阪市「令和9年度　保育施設・事業の利用申込みに係る各種証明様式について」",
+    "url": "https://www.city.osaka.lg.jp/kodomo/page/0000682977.html"
+  },
+  "formFiles": [
+    { "label": "就労証明書（Excel版）", "url": "https://www.city.osaka.lg.jp/kodomo/cmsfiles/contents/0000682/682977/11.syuurousyoumeisyo.xlsx" },
+    { "label": "就労証明書（PDF版）", "url": "https://www.city.osaka.lg.jp/kodomo/cmsfiles/contents/0000682/682977/12.syuurousyoumeisyo.pdf" },
+    { "label": "就労証明書【記載要領】", "url": "https://www.city.osaka.lg.jp/kodomo/cmsfiles/contents/0000682/682977/13.kisaiyouryou.pdf" },
+    { "label": "就労証明書【記入例】", "url": "https://www.city.osaka.lg.jp/kodomo/cmsfiles/contents/0000682/682977/14.kisairei.pdf" }
+  ],
+  "seal": "not-required",
+  "sealNote": "証明についての押印は必要ありません。なお、押印があっても証明書の受理に支障はありません。",
+  "notes": [
+    "就労証明書は、保育の支給認定及び利用調整（選考）の際の資料となるため、勤務先の担当者が事実のとおりにご記入ください",
+    "訂正が必要な場合には、訂正箇所を二重線で抹消の上、余白部分または備考欄に正しい内容を記載してください。訂正印等は必要ありません",
+    "雇用されている方も、自営業者・自営専従者の方も、№7 就労実績の記載漏れが見受けられます。この欄は必ずご記入ください",
+    "これから就労される予定の方であれば、就労予定の月からむこう３か月間の就労時間の見込みを記入してください",
+    "シフト制のため、就労時間（№6）の記載ができない場合は、勤務時間が記載されたシフト表を添付してください",
+    "自営業者・自営専従者の方は、提出時に最新の確定申告書の控えを添付してください",
+    "複数の児童についての就労証明書を提出する場合には、作成済の就労証明書のコピーの提出により受付可能です"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000682977.html",
+      "quote": "就労証明書（Excel版）(XLSX形式, 57.89KB)就労証明書（PDF版）(PDF形式, 510.31KB)就労証明書【記載要領】(PDF形式, 162.85KB)就労証明書【記入例】(PDF形式, 797.59KB)"
+    },
+    "seal": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/cmsfiles/contents/0000682/682977/12.syuurousyoumeisyo.pdf",
+      "quote": "証明についての押印は必要ありません。なお、押印があっても証明書の受理に支障はありません。"
+    },
+    "notes.0": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/cmsfiles/contents/0000682/682977/12.syuurousyoumeisyo.pdf",
+      "quote": "就労証明書は、保育の支給認定及び利用調整（選考）の際の資料となるため、勤務先の担当者が事実のとおりにご記入ください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/cmsfiles/contents/0000682/682977/12.syuurousyoumeisyo.pdf",
+      "quote": "訂正が必要な場合には、訂正箇所を二重線で抹消の上、余白部分または備考欄に正しい内容を記載してください。（訂正印等は必要ありません。）"
+    },
+    "notes.2": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/cmsfiles/contents/0000682/682977/12.syuurousyoumeisyo.pdf",
+      "quote": "雇用されている方も、自営業者・自営専従者の方も、「No.7 就労実績」の記載漏れが見受けられます。この「No.7 就労実績」の欄は、就労中の方に限らず、これから就労される予定の方も、育児休業等で現在は勤務しておられない方も記入が必須ですので、必ずご記入ください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/cmsfiles/contents/0000682/682977/12.syuurousyoumeisyo.pdf",
+      "quote": "これから就労される予定の方であれば、就労予定の月からむこう３か月間の就労時間の見込みを、育児休業等で現在は勤務しておられない方であれば、お休みになる直前の３か月間の就労時間の実績をご記入いただくことになります。"
+    },
+    "notes.4": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/cmsfiles/contents/0000682/682977/12.syuurousyoumeisyo.pdf",
+      "quote": "シフト制のため、就労時間(No.6)の記載ができない場合は、勤務時間が記載されたシフト表を添付してください。"
+    },
+    "notes.5": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/cmsfiles/contents/0000682/682977/12.syuurousyoumeisyo.pdf",
+      "quote": "提出時に、最新の確定申告書の控え（事業専従者の内訳が分かるもの）を添付してください。"
+    },
+    "notes.6": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/cmsfiles/contents/0000682/682977/12.syuurousyoumeisyo.pdf",
+      "quote": "複数の児童についての就労証明書を提出する場合には、作成済の就労証明書のコピーの提出により受付可能です。"
+    }
+  },
+  "sources": [
+    { "label": "大阪市「令和9年度　保育施設・事業の利用申込みに係る各種証明様式について」", "url": "https://www.city.osaka.lg.jp/kodomo/page/0000682977.html" },
+    { "label": "大阪市 就労証明書（PDF版）", "url": "https://www.city.osaka.lg.jp/kodomo/cmsfiles/contents/0000682/682977/12.syuurousyoumeisyo.pdf" }
+  ]
+}

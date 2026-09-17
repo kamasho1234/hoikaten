@@ -1,0 +1,70 @@
+{
+  "citySlug": "suita",
+  "checkedAt": "2026-09-18",
+  "formType": "original",
+  "formPage": {
+    "label": "吹田市「保育所等の利用にかかる書類一覧」",
+    "url": "https://www.city.suita.osaka.jp/kosodate/1018230/1018247/1005706.html"
+  },
+  "formFiles": [
+    {
+      "label": "様式A 勤務（内定）証明書（PDF）",
+      "url": "https://www.city.suita.osaka.jp/_res/projects/default_project/_page_/001/005/706/R9kinnmunaiteisyoumeisyo.pdf"
+    },
+    {
+      "label": "様式A 勤務（内定）証明書（Excel）",
+      "url": "https://www.city.suita.osaka.jp/_res/projects/default_project/_page_/001/005/706/R9kinmu.xlsx"
+    },
+    {
+      "label": "【記入例】様式A 勤務（内定）証明書（PDF）",
+      "url": "https://www.city.suita.osaka.jp/_res/projects/default_project/_page_/001/005/706/kinyuureiR9kinnmunaiteisyoumeisyo.pdf"
+    }
+  ],
+  "seal": "unknown",
+  "differences": [
+    "様式の名称が「様式A 勤務（内定）証明書」で、国の標準様式と異なる",
+    "様式D～Hで、きょうだい希望、認可外保育施設等在園証明、転入誓約などの独自申告書を別途用意"
+  ],
+  "notes": [
+    "保育を必要とする事由を証明する書類として、様式A（勤務内定）、様式B（診断書）、様式C（タイムスケジュール）がある",
+    "保護者全員分の提出が必要",
+    "求職活動を事由として申込される保護者分については、書類添付は必要ない",
+    "就労要件で利用申込をされる場合は「様式A 勤務（内定）証明書」を提出"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.suita.osaka.jp/kosodate/1018230/1018247/1005706.html",
+      "quote": "保育を必要とする事由を証明する書類【様式A～C】"
+    },
+    "differences.0": {
+      "url": "https://www.city.suita.osaka.jp/kosodate/1018230/1018247/1005706.html",
+      "quote": "1.様式A 勤務（内定）証明書"
+    },
+    "differences.1": {
+      "url": "https://www.city.suita.osaka.jp/kosodate/1018230/1018247/1005706.html",
+      "quote": "(対象者のみ)利用申込にかかる関係書類【様式D～H】"
+    },
+    "notes.0": {
+      "url": "https://www.city.suita.osaka.jp/kosodate/1018230/1018247/1005706.html",
+      "quote": "保育を必要とする事由を証明する書類【様式A～C】"
+    },
+    "notes.1": {
+      "url": "https://www.city.suita.osaka.jp/kosodate/1018230/1018247/1005706.html",
+      "quote": "保護者全員分の提出が必要"
+    },
+    "notes.2": {
+      "url": "https://www.city.suita.osaka.jp/kosodate/1018230/1018247/1005706.html",
+      "quote": "求職活動を事由として申込される保護者分については、書類添付は必要ありません。"
+    },
+    "notes.3": {
+      "url": "https://www.city.suita.osaka.jp/kosodate/1018230/1018247/1005706.html",
+      "quote": "【対象者】就労要件で利用申込をされる方（内定を含む）"
+    }
+  },
+  "sources": [
+    {
+      "label": "吹田市「保育所等の利用にかかる書類一覧」",
+      "url": "https://www.city.suita.osaka.jp/kosodate/1018230/1018247/1005706.html"
+    }
+  ]
+}

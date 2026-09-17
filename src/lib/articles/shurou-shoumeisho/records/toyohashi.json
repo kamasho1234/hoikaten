@@ -1,0 +1,58 @@
+{
+  "slug": "employment-certificate",
+  "citySlug": "toyohashi",
+  "checkedAt": "2026-09-18",
+  "formType": "original",
+  "formPage": {
+    "label": "豊橋市「入園の申込みに必要なもの（令和9年度（2027年度）入園）」",
+    "url": "https://www.city.toyohashi.lg.jp/65202.htm"
+  },
+  "formFiles": [
+    {
+      "label": "就労証明書（PDF版）",
+      "url": "https://www.city.toyohashi.lg.jp/secure/125050/%E2%91%A8%E5%B0%B1%E5%8A%B4%E8%A8%BC%E6%98%8E%E6%9B%B8%EF%BC%88R5.7.19%E4%BF%AE%E6%AD%A3%EF%BC%89.pdf"
+    },
+    {
+      "label": "就労証明書（Excel版）",
+      "url": "https://www.city.toyohashi.lg.jp/secure/125050/%E2%91%A7%E5%B0%B1%E5%8A%B4%E8%A8%BC%E6%98%8E%E6%9B%B8R8.xlsx"
+    },
+    {
+      "label": "就労証明書【記載例】",
+      "url": "https://www.city.toyohashi.lg.jp/secure/125050/%E2%91%A3%E5%B0%B1%E5%8A%B4%E8%A8%BC%E6%98%8E%E6%9B%B8%E3%80%90%E8%A8%98%E8%BC%89%E4%BE%8B%E3%80%91.pdf"
+    }
+  ],
+  "seal": "unknown",
+  "notes": [],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.toyohashi.lg.jp/secure/125050/%E2%91%A8%E5%B0%B1%E5%8A%B4%E8%A8%BC%E6%98%8E%E6%9B%B8%EF%BC%88R5.7.19%E4%BF%AE%E6%AD%A3%EF%BC%89.pdf",
+      "quote": "様式第１ 就労証明書"
+    },
+    "differences.0": {
+      "url": "https://www.city.toyohashi.lg.jp/secure/125050/%E2%91%A8%E5%B0%B1%E5%8A%B4%E8%A8%BC%E6%98%8E%E6%9B%B8%EF%BC%88R5.7.19%E4%BF%AE%E6%AD%A3%EF%BC%89.pdf",
+      "quote": "追加的記載項目欄"
+    },
+    "differences.1": {
+      "url": "https://www.city.toyohashi.lg.jp/secure/125050/%E2%91%A8%E5%B0%B1%E5%8A%B4%E8%A8%BC%E6%98%8E%E6%9B%B8%EF%BC%88R5.7.19%E4%BF%AE%E6%AD%A3%EF%BC%89.pdf",
+      "quote": "児童名 生年月日 年 月 日生"
+    }
+  },
+  "sources": [
+    {
+      "label": "豊橋市「入園の申込みに必要なもの（令和9年度（2027年度）入園）」",
+      "url": "https://www.city.toyohashi.lg.jp/65202.htm"
+    },
+    {
+      "label": "豊橋市 就労証明書（PDF版）",
+      "url": "https://www.city.toyohashi.lg.jp/secure/125050/%E2%91%A8%E5%B0%B1%E5%8A%B4%E8%A8%BC%E6%98%8E%E6%9B%B8%EF%BC%88R5.7.19%E4%BF%AE%E6%AD%A3%EF%BC%89.pdf"
+    },
+    {
+      "label": "豊橋市 就労証明書【記載例】",
+      "url": "https://www.city.toyohashi.lg.jp/secure/125050/%E2%91%A3%E5%B0%B1%E5%8A%B4%E8%A8%BC%E6%98%8E%E6%9B%B8%E3%80%90%E8%A8%98%E8%BC%89%E4%BE%8B%E3%80%91.pdf"
+    }
+  ],
+  "differences": [
+    "「様式第１」で項目がNo.1〜14（14が備考欄）。国の標準様式のNo.14〜17（更新の有無・育休短縮可否・育休延長可否・単身赴任期間）に当たる欄は無く、代わりに「追加的記載項目欄」がある",
+    "保護者記載欄は児童名と生年月日だけで、施設名や利用中・申込中のチェックは無い"
+  ]
+}

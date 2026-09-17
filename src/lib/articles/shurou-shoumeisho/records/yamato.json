@@ -1,0 +1,69 @@
+{
+  "citySlug": "yamato",
+  "checkedAt": "2026-09-18",
+  "formType": "standard-plus",
+  "formPage": {
+    "label": "大和市「就労証明書の標準的な様式への変更について」",
+    "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/purpose/O/O00031.html"
+  },
+  "formFiles": [
+    {
+      "label": "就労証明書（PDF）",
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/public/download/01_shuroushoumei.pdf"
+    },
+    {
+      "label": "就労証明書（Excel）",
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/public/download/01_shuroushoumei.xlsx"
+    }
+  ],
+  "validity": "利用希望月から起算して6か月以内のもの",
+  "seal": "not-required",
+  "notes": [
+    "事業者名が記名されている就労証明書等を、保護者が無断で作成し、または改変を行ったときには、申請内容に虚偽があるものとして、給付認定を取り消すとともに、内定取消または退所となることがあります"
+  ],
+  "differences": [
+    "No.15 雇用期間満了後の更新の有無",
+    "No.16 育児休業の根拠",
+    "No.17 育児休業の延長の可否"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/purpose/O/O00031.html",
+      "quote": "国の標準に基づき、標準様式に追加的記載項目があるため、下記リンクの大和市の就労証明書をご利用ください。"
+    },
+    "validity": {
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/public/download/01_shuroushoumei.pdf",
+      "quote": "利用希望月から起算して、６か月以内のものが有効です。"
+    },
+    "seal": {
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/purpose/O/O00031.html",
+      "quote": "大和市では令和4年12月の入所申し込みから、就労証明書について、雇用主（事業主）の押印を不要とします。"
+    },
+    "differences.0": {
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/public/download/01_shuroushoumei.pdf",
+      "quote": "「No.15 雇用期間満了後の更新の有無」"
+    },
+    "differences.1": {
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/public/download/01_shuroushoumei.pdf",
+      "quote": "「No.16 育児休業の根拠」"
+    },
+    "differences.2": {
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/public/download/01_shuroushoumei.pdf",
+      "quote": "「No.17 育児休業の延長の可否」"
+    },
+    "notes.0": {
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/purpose/O/O00031.html",
+      "quote": "事業者名が記名されている就労証明書等を、保護者が無断で作成し、または改変を行ったときには、申請内容に虚偽があるものとして、給付認定を取り消すとともに、内定取消または退所となることがあります"
+    }
+  },
+  "sources": [
+    {
+      "label": "大和市「就労証明書の標準的な様式への変更について」",
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/purpose/O/O00031.html"
+    },
+    {
+      "label": "大和市「就労証明書」",
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/public/download/01_shuroushoumei.pdf"
+    }
+  ]
+}

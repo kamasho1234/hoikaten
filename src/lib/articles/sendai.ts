@@ -1588,60 +1588,6 @@ const articles: Article[] = [
   },
 
   // ===== 保活の基本 =====
-  {
-    slug: "shurou-shoumeisho",
-    citySlug: "sendai",
-    title: "仙台市の就労証明書｜様式ダウンロード先と記入例【令和8年度】",
-    description:
-      "仙台市の保育園申込みに使う就労証明書について、公式の様式ダウンロード先へのリンクと、点数の付き方・記入例・よくある不備をまとめています。会社に依頼する前に確認してください。",
-    image:
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<div class="info-box">
-<p><strong>まずは公式の様式をダウンロード</strong></p>
-<p>就労証明書の様式・記入例は<a href="https://www.city.sendai.jp/nintechosa/kurashi/kenkotofukushi/kosodate/hoikujo/annai/hoikushisetsu.html" target="_blank" rel="noopener">仙台市公式サイト</a>からダウンロードできます。この記事では、その様式をどう書くと点数にどう響くかを説明します。</p>
-</div>
-<h2>就労証明書とは</h2>
-<p>就労証明書は、保護者の勤務状況を証明する書類で、<strong>勤務先に記入してもらう</strong>ものです。仙台市の保育園申込で最も重要な書類の一つです。</p>
-
-<h2>就労証明書の記入で重要なポイント</h2>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content">
-<strong>勤務日数と勤務時間を正確に</strong>
-<p>基準指数に直結するため、「月の勤務日数」と「1日の勤務時間」は正確に記入してもらいましょう。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content">
-<strong>勤務先の代表者印（または社印）</strong>
-<p>勤務先の証明として代表者印または社印が必要です。個人の印鑑は不可です。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content">
-<strong>育休中の場合は復職予定日を記入</strong>
-<p>育休中の場合、復職後の予定勤務条件と復職予定日を記入してもらいます。</p>
-</div>
-</div>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>就労証明書は勤務先に依頼してから完成まで1〜2週間かかることがあります。申込締切の1か月前には依頼しましょう。</p>
-</div>
-
-<h2>よくある記入ミス</h2>
-<ul>
-<li>勤務時間が休憩時間を含んでいるか曖昧</li>
-<li>雇用形態と勤務条件が不一致</li>
-<li>記入日が古すぎる（3か月以内が目安）</li>
-</ul>`,
-    publishedAt: "2026-04-07",
-    popularity: 60,
-  },
 
   // ===== 保活の基本 =====
   {

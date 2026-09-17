@@ -1,0 +1,85 @@
+{
+  "citySlug": "kuwana",
+  "checkedAt": "2026-09-18",
+  "formType": "standard-plus",
+  "formPage": {
+    "label": "桑名市「令和8年度の保育施設入所（園）募集について」",
+    "url": "https://www.city.kuwana.lg.jp/hoiku/kosodatekyouiku/kosodate/2025r8b.html"
+  },
+  "formFiles": [
+    {
+      "label": "就労証明書（保育施設入所（園）申込用）（PDF）",
+      "url": "https://www.city.kuwana.lg.jp/documents/13425/10syuurousyoumeisyo.pdf"
+    },
+    {
+      "label": "就労証明書（保育施設入所（園）申込用）（エクセル）",
+      "url": "https://www.city.kuwana.lg.jp/documents/13425/10syuurousyoumeisyo.xlsx"
+    }
+  ],
+  "validity": "申込日より3か月以内に証明されたもの",
+  "deadline": "一次募集は9月1日8時30分～9月30日17時00分、二次募集は2月2日8時30分～2月10日16時15分",
+  "submitTo": "LINE（写真で申請）、郵送、または来庁（幼保支援課）",
+  "online": "LINEで「写真で申請」による電子提出が可能",
+  "seal": "unknown",
+  "notes": [
+    "国の標準様式に基づくが、No.9に「入所内定時育休短縮可否」と「延長可能時期」の項目が含まれている",
+    "LINE による「写真で申請」での提出が可能（スマートフォンで書類を撮影して提出）",
+    "郵送の場合は簡易書留を推奨、来庁の場合は事前のLINE予約が必要",
+    "提出期限に遅れた申請は受け付けられない"
+  ],
+  "differences": [
+    "No.9に「入所内定時育休短縮可否」と「延長可能時期」が含まれている（国の標準様式ではNo.15, No.16に該当）"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.kuwana.lg.jp/hoiku/kosodatekyouiku/kosodate/2025r8b.html",
+      "quote": "保育施設入所（園）申込には次の（1）及び該当する場合（2）及び（3）の書類が必要となります"
+    },
+    "validity": {
+      "url": "https://www.city.kuwana.lg.jp/hoiku/kosodatekyouiku/kosodate/2025r8b.html",
+      "quote": "就労証明書（申込日より3か月以内に証明されたもの）"
+    },
+    "deadline": {
+      "url": "https://www.city.kuwana.lg.jp/hoiku/kosodatekyouiku/kosodate/2025r8b.html",
+      "quote": "1次募集：9月1日8時30分〜9月30日17時00分（先行受付）2次募集：2月2日8時30分〜2月10日16時15分"
+    },
+    "submitTo": {
+      "url": "https://www.city.kuwana.lg.jp/hoiku/kosodatekyouiku/kosodate/2025r8b.html",
+      "quote": "市役所の窓口で直接提出します"
+    },
+    "online": {
+      "url": "https://www.city.kuwana.lg.jp/hoiku/kosodatekyouiku/kosodate/2025r8b.html",
+      "quote": "LINEで保育施設入所（園）手続きができます"
+    },
+    "notes.0": {
+      "url": "https://www.city.kuwana.lg.jp/documents/13425/10syuurousyoumeisyo.pdf",
+      "quote": "入所内定時育休短縮可否"
+    },
+    "notes.1": {
+      "url": "https://www.city.kuwana.lg.jp/hoiku/kosodatekyouiku/kosodate/2025r8b.html",
+      "quote": "桑名市では、LINEによる「写真で申請」と「来庁予約」を実施しています"
+    },
+    "notes.2": {
+      "url": "https://www.city.kuwana.lg.jp/hoiku/kosodatekyouiku/kosodate/2025r8b.html",
+      "quote": "市役所に行かずに郵送で申請できます（簡易書留を推奨）"
+    },
+    "notes.3": {
+      "url": "https://www.city.kuwana.lg.jp/hoiku/kosodatekyouiku/kosodate/2025r8b.html",
+      "quote": "締め切り時間を過ぎた申請はお受けできませんので、お時間に余裕をもってご申請ください。"
+    },
+    "differences.0": {
+      "url": "https://www.city.kuwana.lg.jp/documents/13425/10syuurousyoumeisyo.pdf",
+      "quote": "入所内定時育休短縮可否　　□可　　□不可"
+    }
+  },
+  "sources": [
+    {
+      "label": "桑名市「令和8年度の保育施設入所（園）募集について」",
+      "url": "https://www.city.kuwana.lg.jp/hoiku/kosodatekyouiku/kosodate/2025r8b.html"
+    },
+    {
+      "label": "桑名市「就労証明書（保育施設入所（園）申込用）」",
+      "url": "https://www.city.kuwana.lg.jp/documents/13425/10syuurousyoumeisyo.pdf"
+    }
+  ]
+}

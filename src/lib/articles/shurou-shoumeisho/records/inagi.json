@@ -1,0 +1,64 @@
+{
+  "citySlug": "inagi",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "稲城市「保育所・保育ママ・認定こども園等関係様式」",
+    "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/1010153/1004356/1009999.html"
+  },
+  "formFiles": [
+    { "label": "就労証明書（学童クラブ・保育所・保育ママ・認定こども園兼用）（Excel）", "url": "https://www.city.inagi.tokyo.jp/_res/projects/default_project/_page_/001/009/999/r8shuuroushoumei2.xlsx" },
+    { "label": "就労証明書（学童クラブ・保育所・保育ママ・認定こども園兼用）（PDF）", "url": "https://www.city.inagi.tokyo.jp/_res/projects/default_project/_page_/001/009/999/r8shuuroushoumei2.pdf" },
+    { "label": "就労証明書の記載要領", "url": "https://www.city.inagi.tokyo.jp/_res/projects/default_project/_page_/001/009/999/kisaiyouryou.pdf" },
+    { "label": "スケジュール表（2か所以上就労、自営業等、看護・介護、就学等）", "url": "https://www.city.inagi.tokyo.jp/_res/projects/default_project/_page_/001/009/999/sukejyuru.pdf" }
+  ],
+  "deadline": "4月1日入所の一次選考は令和7年12月5日午後5時まで、二次選考は令和8年2月13日午後5時まで。5月以降の入所は各月ごとに異なる（原則受付期限の1か月前から受付開始）",
+  "submitTo": "稲城市役所子育て支援課（郵送可）。問い合わせ：042-378-2111",
+  "seal": "unknown",
+  "notes": [
+    "就労証明書は、学童クラブ・保育所・保育ママ・認定こども園の兼用様式",
+    "2か所以上での就労、自営業、看護・介護を行っている場合はスケジュール表も提出が必要",
+    "添付書類はすべて揃ってから受け付ける（一次選考は転入証明書等のみ令和8年1月9日まで追加提出可能）",
+    "受付は正午から午後1時までが特に混み合うため、時間をずらしての利用をおすすめ",
+    "プリントアウトは普通紙、プリントサイズはA4を推奨（感熱式プリンター専用用紙は不可）"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/1010153/1004356/1009999.html",
+      "quote": "就労証明書（学童クラブ・保育所・保育ママ・認定こども園兼用）"
+    },
+    "deadline": {
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/1010153/1004356/1013025.html",
+      "quote": "令和7年12月5日（金曜日）午後5時まで（必着）"
+    },
+    "submitTo": {
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/1010153/1004356/1009999.html",
+      "quote": "令和8年度　保育所・保育ママ等利用申込書兼教育・保育給付認定申請書"
+    },
+    "notes.0": {
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/1010153/1004356/1009999.html",
+      "quote": "就労証明書（学童クラブ・保育所・保育ママ・認定こども園兼用）"
+    },
+    "notes.1": {
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/1010153/1004356/1009999.html",
+      "quote": "スケジュール表（2か所以上就労、自営業等、看護・介護、就学等）"
+    },
+    "notes.2": {
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/1010153/1004356/1013025.html",
+      "quote": "添付書類がすべて揃ってから受け付けます。"
+    },
+    "notes.3": {
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/1010153/1004356/1013025.html",
+      "quote": "注釈：窓口は、正午から午後1時までの間が特に混み合いますので、時間をずらしての利用をおすすめします。"
+    },
+    "notes.4": {
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/1010153/1004356/1009999.html",
+      "quote": "原則としてPDFファイル形式になっていますので、プリントアウトしてご利用ください。注意：プリント用紙は普通紙、プリントサイズはA4を推奨します。"
+    }
+  },
+  "sources": [
+    { "label": "稲城市「保育所・保育ママ・認定こども園等関係様式」", "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/1010153/1004356/1009999.html" },
+    { "label": "稲城市「令和8年度認可保育所等利用申込み手続き」", "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/1010153/1004356/1013025.html" },
+    { "label": "稲城市「認可保育所・認定こども園・保育ママ」", "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/1010153/1004356/index.html" }
+  ]
+}

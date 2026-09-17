@@ -1,0 +1,81 @@
+{
+  "citySlug": "fukuoka",
+  "checkedAt": "2026-09-18",
+  "formType": "standard-plus",
+  "formPage": {
+    "label": "福岡市「保育施設等関係様式」",
+    "url": "https://kodomo.city.fukuoka.lg.jp/info/2646/"
+  },
+  "formFiles": [
+    {
+      "label": "就労証明書（PDF）",
+      "url": "https://kodomo.city.fukuoka.lg.jp/wp-content/uploads/2025/10/05120eb88164456cffd4a94d8a75dec2-3.pdf"
+    }
+  ],
+  "validity": "証明日が9月1日以降のもの",
+  "deadline": "令和9年4月入園の一次申込の締切は令和8年11月6日（金）",
+  "submitTo": "各区の子育て支援課へ郵送または窓口提出",
+  "seal": "not-required",
+  "sealNote": "代表者の押印は不要です",
+  "notes": [
+    "証明書右上の「担当者名」および「記載者連絡先」は漏れなくご記入ください",
+    "記入間違い等につきましては、二重線のうえ、証明書を記入した担当者様のサインまたは押印をしていただき、訂正をお願いいたします",
+    "就労証明書の内容について確認が必要となった場合に連絡をさせていただくことがあります"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://kodomo.city.fukuoka.lg.jp/wp-content/uploads/2025/10/05120eb88164456cffd4a94d8a75dec2-3.pdf",
+      "quote": "19 保護者記載欄"
+    },
+    "validity": {
+      "url": "https://kodomo.city.fukuoka.lg.jp/info/19149/",
+      "quote": "就労証明書を勤務先等へ作成依頼される際は、9月1日以降の日付で作成いただくようご依頼ください。"
+    },
+    "deadline": {
+      "url": "https://kodomo.city.fukuoka.lg.jp/info/19149/",
+      "quote": "１次選考令和８年11月６日（金）"
+    },
+    "submitTo": {
+      "url": "https://kodomo.city.fukuoka.lg.jp/info/2646/",
+      "quote": "第1希望の保育施設等が所在する区の子育て支援課へお問い合わせください。"
+    },
+    "seal": {
+      "url": "https://kodomo.city.fukuoka.lg.jp/info/2646/",
+      "quote": "代表者の押印は不要です。"
+    },
+    "notes.0": {
+      "url": "https://kodomo.city.fukuoka.lg.jp/info/2646/",
+      "quote": "証明書右上の「担当者名」「記載者連絡先」を漏れなくご記入ください。"
+    },
+    "notes.1": {
+      "url": "https://kodomo.city.fukuoka.lg.jp/info/2646/",
+      "quote": "記入間違い等につきましては、二重線のうえ、証明書を記入した担当者様のサインまたは押印をしていただき、訂正をお願いいたします。"
+    },
+    "notes.2": {
+      "url": "https://kodomo.city.fukuoka.lg.jp/info/19149/",
+      "quote": "就労証明書の内容について確認が必要となった場合に連絡をさせていただくことがあります"
+    },
+    "differences.0": {
+      "url": "https://kodomo.city.fukuoka.lg.jp/wp-content/uploads/2025/10/05120eb88164456cffd4a94d8a75dec2-3.pdf",
+      "quote": "福岡市 福祉事務所長 宛"
+    },
+    "differences.1": {
+      "url": "https://kodomo.city.fukuoka.lg.jp/wp-content/uploads/2025/10/05120eb88164456cffd4a94d8a75dec2-3.pdf",
+      "quote": "勤務先に就労証明書を依頼される場合は、なるべくデータでの作成をご案内ください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "福岡市「保育施設等関係様式」",
+      "url": "https://kodomo.city.fukuoka.lg.jp/info/2646/"
+    },
+    {
+      "label": "福岡市「令和9年度福岡市保育施設等利用のご案内」",
+      "url": "https://kodomo.city.fukuoka.lg.jp/info/19149/"
+    }
+  ],
+  "differences": [
+    "あて先が「福岡市長／福岡市 福祉事務所長」で、項目はNo.1〜19の国の標準様式と同じ",
+    "欄外に保護者と事業者へのお願いがあり、勤務先にはなるべくデータ（Excel）での作成を依頼するよう求めている（手書きが読み取れない場合は電話等で再確認になる）"
+  ]
+}

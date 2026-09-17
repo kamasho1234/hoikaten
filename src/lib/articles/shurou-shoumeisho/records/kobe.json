@@ -1,0 +1,51 @@
+{
+  "citySlug": "kobe",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "神戸市「保育の必要な状況を確認するための書類」",
+    "url": "https://www.city.kobe.lg.jp/a65174/kosodate/shien/shinseido/shorui/youshiki.html"
+  },
+  "formFiles": [
+    {
+      "label": "就労証明書（PDF版）",
+      "url": "https://www.city.kobe.lg.jp/documents/55740/20260915113508.pdf"
+    },
+    {
+      "label": "就労証明書【excel版】",
+      "url": "https://www.city.kobe.lg.jp/documents/55740/20260915113831.xlsx"
+    }
+  ],
+  "validity": "原則、証明書類は発行日から3か月以内のものが必要です。",
+  "seal": "unknown",
+  "notes": [
+    "様式は2023年からこども家庭庁の就労証明書（国標準様式）に変更されました"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.kobe.lg.jp/a65174/kosodate/shien/shinseido/shorui/youshiki.html",
+      "quote": "就労証明書（PDF：1,593KB）就労証明書【excel版】（EXCEL：47KB）"
+    },
+    "validity": {
+      "url": "https://www.city.kobe.lg.jp/a65174/kosodate/shien/shinseido/shorui/youshiki.html",
+      "quote": "原則、証明書類は発行日から3か月以内のものが必要です。"
+    },
+    "notes.0": {
+      "url": "https://www.city.kobe.lg.jp/a65174/kosodate/shien/shinseido/shorui/youshiki.html",
+      "quote": "「勤務（内定）証明書」は、2023年からはこども家庭庁の就労証明書（国標準様式）に様式を変更しました。"
+    },
+    "selfEmployedDocs.0": {
+      "url": "https://www.city.kobe.lg.jp/a65174/kosodate/shien/shinseido/shorui/youshiki.html",
+      "quote": "最新年度の確定申告書（第一表）・開業届"
+    }
+  },
+  "sources": [
+    {
+      "label": "神戸市「保育の必要な状況を確認するための書類」",
+      "url": "https://www.city.kobe.lg.jp/a65174/kosodate/shien/shinseido/shorui/youshiki.html"
+    }
+  ],
+  "selfEmployedDocs": [
+    "最新年度の確定申告書（第一表）・開業届"
+  ]
+}

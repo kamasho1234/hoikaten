@@ -1,0 +1,45 @@
+{
+  "citySlug": "minami-alps",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "南アルプス市「保育を必要とすることを証明する書類」",
+    "url": "https://www.city.minami-alps.yamanashi.jp/docs/1951.html"
+  },
+  "formFiles": [
+    { "label": "就労証明書（PDF版）", "url": "https://www.city.minami-alps.yamanashi.jp/fs/1/3/0/5/6/5/_/_________________.pdf" },
+    { "label": "就労証明書（Excel版）", "url": "https://www.city.minami-alps.yamanashi.jp/fs/1/3/3/4/3/2/_/shuroushomeisho.xlsx" }
+  ],
+  "seal": "unknown",
+  "notes": [
+    "常勤・パートアルバイト・内職のかたが提出する書類です",
+    "育児休業中の方もこちらの証明書をご提出ください",
+    "保育を必要とする状況に応じ、次のPDFファイルを印刷して証明を受けて提出をお願いします",
+    "自営業・農業に従事する事業主、専従者や無償従事者の方は農業自営業従事証明書を提出してください"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.minami-alps.yamanashi.jp/docs/1951.html",
+      "quote": "保育を必要とする状況に応じ、次のPDFファイルを印刷して証明を受けて提出をお願いします。"
+    },
+    "notes.0": {
+      "url": "https://www.city.minami-alps.yamanashi.jp/docs/1951.html",
+      "quote": "常勤・パートアルバイト・内職のかた(事業専従者のかたを含む)が提出する書類です。"
+    },
+    "notes.1": {
+      "url": "https://www.city.minami-alps.yamanashi.jp/docs/1951.html",
+      "quote": "育児休業中の方もこちらの証明書をご提出ください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.minami-alps.yamanashi.jp/docs/1951.html",
+      "quote": "保育を必要とする状況に応じ、次のPDFファイルを印刷して証明を受けて提出をお願いします。"
+    },
+    "notes.3": {
+      "url": "https://www.city.minami-alps.yamanashi.jp/docs/1951.html",
+      "quote": "自営業・農業に従事する事業主、専従者や無償従事者の方が提出する書類です。"
+    }
+  },
+  "sources": [
+    { "label": "南アルプス市「保育を必要とすることを証明する書類」", "url": "https://www.city.minami-alps.yamanashi.jp/docs/1951.html" }
+  ]
+}

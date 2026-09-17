@@ -1,0 +1,46 @@
+{
+  "citySlug": "kashiwazaki",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "柏崎市「保育園・認定こども園・幼稚園・小規模保育事業所の入園手続き書類」",
+    "url": "https://www.city.kashiwazaki.lg.jp/soshikiichiran/kodomomiraibu/hoikuka/15/4/21775.html"
+  },
+  "formFiles": [
+    {
+      "label": "就労証明書（PDF）",
+      "url": "https://www.city.kashiwazaki.lg.jp/material/files/group/26/syuurousyoumeisyo.pdf"
+    },
+    {
+      "label": "就労証明書（Excel）",
+      "url": "https://www.city.kashiwazaki.lg.jp/material/files/group/26/syuurousyoumeisyo.xlsx"
+    }
+  ],
+  "online": "マイナポータルのぴったりサービスを使ってオンライン申請可能",
+  "seal": "unknown",
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.kashiwazaki.lg.jp/soshikiichiran/kodomomiraibu/hoikuka/15/4/21775.html",
+      "quote": "就労証明書(PDFファイル:207.8KB)"
+    },
+    "online": {
+      "url": "https://www.city.kashiwazaki.lg.jp/soshikiichiran/kodomomiraibu/hoikuka/15/4/6072.html",
+      "quote": "マイナンバーカードをお持ちの場合は、マイナポータルのぴったりサービスを使って、入園申し込みができます。"
+    }
+  },
+  "sources": [
+    {
+      "label": "柏崎市「保育園・認定こども園・幼稚園・小規模保育事業所の入園手続き書類」",
+      "url": "https://www.city.kashiwazaki.lg.jp/soshikiichiran/kodomomiraibu/hoikuka/15/4/21775.html"
+    },
+    {
+      "label": "柏崎市「保育園・認定こども園・幼稚園・小規模保育事業所の令和9年度入園児募集」",
+      "url": "https://www.city.kashiwazaki.lg.jp/soshikiichiran/kodomomiraibu/hoikuka/15/4/6072.html"
+    },
+    {
+      "label": "柏崎市 就労証明書（PDF）",
+      "url": "https://www.city.kashiwazaki.lg.jp/material/files/group/26/syuurousyoumeisyo.pdf"
+    }
+  ],
+  "notes": []
+}

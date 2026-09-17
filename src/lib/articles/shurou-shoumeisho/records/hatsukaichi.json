@@ -1,0 +1,59 @@
+{
+  "citySlug": "hatsukaichi",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "廿日市市「様式のダウンロード」",
+    "url": "https://www.city.hatsukaichi.hiroshima.jp/site/kosodate/59840.html"
+  },
+  "formFiles": [
+    {
+      "label": "就労証明書（PDF版）",
+      "url": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/86884.pdf"
+    },
+    {
+      "label": "就労証明書（Excel版）",
+      "url": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/96633.xlsx"
+    },
+    {
+      "label": "Certificate of Employment (PDF)",
+      "url": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/78987.pdf"
+    },
+    {
+      "label": "Certificate of Employment (Excel)",
+      "url": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/96635.xlsx"
+    },
+    {
+      "label": "記入例・記載要領",
+      "url": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/86841.pdf"
+    }
+  ],
+  "seal": "unknown",
+  "notes": [
+    "保育施設の入園申し込みに必要な書類です"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.hatsukaichi.hiroshima.jp/site/kosodate/59840.html",
+      "quote": "就労証明書[PDFファイル／26KB]就労証明書[Excelファイル／51KB]記入例・記載要領[PDFファイル／89KB]"
+    },
+    "seal": {
+      "url": "https://www.city.hatsukaichi.hiroshima.jp/site/kosodate/59840.html",
+      "quote": "様式のダウンロード 申し込みなどに必要な書類"
+    },
+    "notes.0": {
+      "url": "https://www.city.hatsukaichi.hiroshima.jp/site/kosodate/59840.html",
+      "quote": "保育を必要とすることを証明する書類"
+    }
+  },
+  "sources": [
+    {
+      "label": "廿日市市「様式のダウンロード」",
+      "url": "https://www.city.hatsukaichi.hiroshima.jp/site/kosodate/59840.html"
+    },
+    {
+      "label": "廿日市市 就労証明書 記入例・記載要領",
+      "url": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/86841.pdf"
+    }
+  ]
+}

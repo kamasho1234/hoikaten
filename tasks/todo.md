@@ -1,3 +1,29 @@
+## 2026-09-18 就労証明書の書き方ガイド（共通2本）＋ 自治体別記事87本
+
+計画: `~/.claude/plans/effervescent-popping-boot.md`。対象一覧 `tasks/shurou-shoumeisho/targets.tsv`、
+国の記載要領テキスト `tasks/shurou-shoumeisho/kisai-youryou.txt`（こども家庭庁 標準様式PDF p3〜6）
+
+- [x] A-1 `/documents/shurou-shoumeisho-kinyurei` 19項目の記入例ガイド（記載要領だけを出典に）
+- [x] A-2 `/documents/shurou-shoumeisho-jichitai` 国の調査の数字（活用1,451／未活用290、押印182→123）＋自治体別記事87本へのリンク表（レコードから自動生成）
+- [x] B レコード方式 `src/lib/articles/shurou-shoumeisho/{types,build,register}.ts`、`records/<slug>.json` ×87、`records/index.ts` は `scripts/gen-shurou-index.py` で生成
+- [x] B `scripts/verify-shurou-records.py`（URL 200／自治体名／evidence の quote 照合／ページ名・ファイル名の引用を弾く／他自治体と同じ文を弾く／standard 以外は differences 必須）87件 指摘0
+- [x] C 収集: エージェント計31体（10体＋引き継ぎ21体）。**私が様式PDFを読み直して書き直した自治体**: 匝瑳・伊勢崎・六戸・東広島・静岡・沼津・日置・河内長野・富士宮・西宮・西東京・福岡・江戸川・豊橋・栃木・壱岐・みやき・川崎・姫路・豊田
+- [x] 既存の薄い記事22本（21ファイル＋toyohashi employment-certificate）を `scripts/remove-old-shurou-articles.py` で削除。奈良市は 9/14 の記事を残した
+- [x] tsc / articles:verify（4663本）/ build（14,132ページ）/ ローカル 200
+- [ ] push → 本番 curl 200 / IndexNow
+- [ ] メモリ更新
+
+### 結果（87自治体、2026-09-18 時点）
+- 様式: 標準 55／標準＋自治体の欄 23／独自 9（匝瑳・六戸・東広島・日置・富士宮・西宮・壱岐・豊橋・河内長野は両面様式で standard-plus）。羽村は前任者が独自と言ったが実物は標準
+- 押印: 不要と明記 15・必要 3（八戸・六戸・壱岐）・記載なし 69。いなべ・鈴鹿は根拠の文が無かったので unknown に戻した
+- 国の R6.10.1 調査で「活用予定はない」だった 中央区・匝瑳・東広島・宜野湾 のうち、中央区・宜野湾は標準様式に移っていた
+- 川崎市は令和9年4月入所から様式を変えた（令和9年度申請用と令和8年度用の2種類）。9/11 に Excel の不具合修正
+
+### 次にやるとよいこと
+- 残り466自治体（標準様式のはず）も同じレコード方式で足せる。1自治体 = JSON 1件、記事はビルダーが作る
+- `python scripts/verify-shurou-records.py` を月1で回す（様式は年度で差し替わる。福岡市の kodomo.city.fukuoka.lg.jp は連続アクセスで 403 になるので、失敗したら単独で再実行）
+- 記事の「証明日の有効期限」「締切」は令和9年4月入所のもの。来年9月ごろに取り直す
+
 ## 2026-09-16 取り込みで落ちている20自治体を直した
 
 ローカルで全件走らせ、CI ログ（run 34934230512）と突き合わせた分類と結果:

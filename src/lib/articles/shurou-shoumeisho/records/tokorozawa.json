@@ -1,0 +1,53 @@
+{
+  "citySlug": "tokorozawa",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "所沢市「令和8年度教育・保育施設の利用に関する各種申請書」",
+    "url": "https://www.city.tokorozawa.saitama.jp/dl/jido/hoiku/kyouikuhoiku_yousiki.html"
+  },
+  "formFiles": [
+    { "label": "(A)就労証明書（PDF：387KB）", "url": "https://www.city.tokorozawa.saitama.jp/dl/jido/hoiku/kyouikuhoiku_yousiki.files/R9syuurousyoumei.pdf" },
+    { "label": "(A)就労証明書(記入例)（PDF：922KB）", "url": "https://www.city.tokorozawa.saitama.jp/dl/jido/hoiku/kyouikuhoiku_yousiki.files/R9syuurousyuoumeikinyuurei.pdf" },
+    { "label": "(A)就労証明書(電子入力用)（エクセル：91KB）", "url": "https://www.city.tokorozawa.saitama.jp/dl/jido/hoiku/kyouikuhoiku_yousiki.files/R9syuurousyoumeisyo.xlsx" },
+    { "label": "就労証明書記載要領（PDF：147KB）", "url": "https://www.city.tokorozawa.saitama.jp/dl/jido/hoiku/kyouikuhoiku_yousiki.files/R8kisaiyourou.pdf" }
+  ],
+  "submitTo": "所沢市役所高層2階保育幼稚園課（郵送の場合は書留で締切日必着）",
+  "seal": "unknown",
+  "notes": [
+    "就労証明書(電子入力用)は数式により入力制限されている",
+    "個人事業主の方は自営業を営んでいることがわかる書類と勤務スケジュールが必要",
+    "法人代表者の方は商業登記簿謄本（履歴事項全部証明書等）の写しが必要",
+    "二か所以上の勤務をされている方は勤務スケジュールが必要"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.tokorozawa.saitama.jp/dl/jido/hoiku/kyouikuhoiku_yousiki.html",
+      "quote": "(A)就労証明書(電子入力用)（エクセル：91KB）"
+    },
+    "submitTo": {
+      "url": "https://www.city.tokorozawa.saitama.jp/kosodatekyouiku/hoikuen/R8_hoiku.html",
+      "quote": "所沢市役所高層2階保育幼稚園課"
+    },
+    "notes.0": {
+      "url": "https://www.city.tokorozawa.saitama.jp/dl/jido/hoiku/kyouikuhoiku_yousiki.html",
+      "quote": "(A)就労証明書(電子入力用)は数式により入力制限されています"
+    },
+    "notes.1": {
+      "url": "https://www.city.tokorozawa.saitama.jp/dl/jido/hoiku/kyouikuhoiku_yousiki.html",
+      "quote": "個人事業主の方は自営業を営んでいることがわかる書類と勤務スケジュールも必要です"
+    },
+    "notes.2": {
+      "url": "https://www.city.tokorozawa.saitama.jp/dl/jido/hoiku/kyouikuhoiku_yousiki.html",
+      "quote": "法人代表者の方は商業登記簿謄本（履歴事項全部証明書等）の写しも必要です"
+    },
+    "notes.3": {
+      "url": "https://www.city.tokorozawa.saitama.jp/dl/jido/hoiku/kyouikuhoiku_yousiki.html",
+      "quote": "二か所以上の勤務をされている方は、勤務スケジュールも必要です"
+    }
+  },
+  "sources": [
+    { "label": "所沢市「令和8年度教育・保育施設の利用に関する各種申請書」", "url": "https://www.city.tokorozawa.saitama.jp/dl/jido/hoiku/kyouikuhoiku_yousiki.html" },
+    { "label": "所沢市「令和8年度教育・保育施設・地域型保育事業のご案内」", "url": "https://www.city.tokorozawa.saitama.jp/kosodatekyouiku/hoikuen/R8_hoiku.html" }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "citySlug": "rokunohe",
+  "checkedAt": "2026-09-18",
+  "formType": "original",
+  "formPage": {
+    "label": "六戸町「保育所・認定こども園・幼稚園・地域型保育事業施設利用児童募集」",
+    "url": "https://www.town.rokunohe.aomori.jp/docs/2023012600004/"
+  },
+  "formFiles": [
+    {
+      "label": "就労（予定）証明書（Word版）",
+      "url": "https://www.town.rokunohe.aomori.jp/docs/2023012600004/file_contents/03.docx"
+    },
+    {
+      "label": "就労状況申立書（自営業等）",
+      "url": "https://www.town.rokunohe.aomori.jp/docs/2023012600004/file_contents/04.docx"
+    },
+    {
+      "label": "家内就労（内職）証明書",
+      "url": "https://www.town.rokunohe.aomori.jp/docs/2023012600004/file_contents/05.docx"
+    }
+  ],
+  "seal": "required",
+  "sealNote": "様式の証明者欄に代表者の押印欄（印）がある",
+  "notes": [
+    "就労（予定）証明書に、産休中や60歳未満の同居している親族分も必要です",
+    "就労先・就労期間・就労時間などが変わったときは、その都度この証明書を提出する"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.town.rokunohe.aomori.jp/docs/2023012600004/file_contents/03.docx",
+      "quote": "次のとおり就労【　□している　・　□する予定である】ことを証明します。"
+    },
+    "seal": {
+      "url": "https://www.town.rokunohe.aomori.jp/docs/2023012600004/file_contents/03.docx",
+      "quote": "代表者名　　　　　　　　　　　　　　　　　　　　印"
+    },
+    "notes.0": {
+      "url": "https://www.town.rokunohe.aomori.jp/docs/2023012600004/",
+      "quote": "就労（予定）証明書（産休中や60歳未満の同居している親族分も必要です。）"
+    },
+    "notes.1": {
+      "url": "https://www.town.rokunohe.aomori.jp/docs/2023012600004/file_contents/03.docx",
+      "quote": "就労先、就労期間、就労時間等が変更になった時は、その都度、この証明書を提出してください。"
+    },
+    "differences.0": {
+      "url": "https://www.town.rokunohe.aomori.jp/docs/2023012600004/file_contents/03.docx",
+      "quote": "次のとおり就労【　□している　・　□する予定である】ことを証明します。"
+    },
+    "differences.1": {
+      "url": "https://www.town.rokunohe.aomori.jp/docs/2023012600004/file_contents/03.docx",
+      "quote": "Ａ×Ｂ　月合計　　時間（※６４時間以上であること）"
+    },
+    "differences.2": {
+      "url": "https://www.town.rokunohe.aomori.jp/docs/2023012600004/file_contents/03.docx",
+      "quote": "産休取得期間及び出産予定日"
+    },
+    "differences.3": {
+      "url": "https://www.town.rokunohe.aomori.jp/docs/2023012600004/file_contents/03.docx",
+      "quote": "この証明書は、保育所等の利用のための書類です。"
+    },
+    "differences.4": {
+      "url": "https://www.town.rokunohe.aomori.jp/docs/2023012600004/file_contents/03.docx",
+      "quote": "代表者名　　　　　　　　　　　　　　　　　　　　印"
+    }
+  },
+  "sources": [
+    {
+      "label": "六戸町「保育所・認定こども園・幼稚園・地域型保育事業施設利用児童募集」",
+      "url": "https://www.town.rokunohe.aomori.jp/docs/2023012600004/"
+    },
+    {
+      "label": "就労（予定）証明書（Word版）",
+      "url": "https://www.town.rokunohe.aomori.jp/docs/2023012600004/file_contents/03.docx"
+    }
+  ],
+  "differences": [
+    "「就労（予定）証明書」という名前で、就労している／する予定であるのどちらかにチェックする",
+    "就労時間は「1日あたりの時間 × 月平均の日数 ＝ 月合計」で書き、月64時間以上であることが様式に明記されている",
+    "曜日ごとの開始・終了時間、産休取得期間と出産予定日の欄がある",
+    "国の様式にある業種・就労実績（直近3か月）・育児休業・時短勤務・保育士等の勤務実態などの欄は無い",
+    "証明者欄に代表者の押印欄（印）がある"
+  ]
+}

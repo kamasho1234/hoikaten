@@ -1,0 +1,73 @@
+{
+  "citySlug": "kadoma",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "門真市「就労証明書を作成いただく事業主様へ」",
+    "url": "https://www.city.kadoma.osaka.jp/sukusuku/kakuka/hoikuyotien/sinseisyorui/joukyoukakuninsyo.html"
+  },
+  "formFiles": [
+    {
+      "label": "就労証明書(手書き用)",
+      "url": "https://www.city.kadoma.osaka.jp/material/files/group/32/shuurou_shoumei_2025.pdf"
+    },
+    {
+      "label": "就労証明書(入力用Excel形式)",
+      "url": "https://www.city.kadoma.osaka.jp/material/files/group/32/shuurou_shoumei_a2025.xlsx"
+    },
+    {
+      "label": "就労証明書(記入例)",
+      "url": "https://www.city.kadoma.osaka.jp/material/files/group/32/shuurou_shoumei_rei2025.pdf"
+    },
+    {
+      "label": "就労証明書(記載要領)",
+      "url": "https://www.city.kadoma.osaka.jp/material/files/group/32/shuurou_youryou2025.pdf"
+    }
+  ],
+  "seal": "unknown",
+  "notes": [
+    "令和6(2024)年5月の入所申し込みから、国が示す標準的な様式に基づく新しい就労証明書に変更された",
+    "事業主(雇用主)および記入担当者の方は、記入例・記載要領をご確認のうえ記入すること",
+    "本証明書の内容について、就労先事業者等に無断で作成し又は改変を行ったときには、刑法上の罪に問われる場合があり、発覚した際には内定の取消・退所(園)となる"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.kadoma.osaka.jp/sukusuku/kakuka/hoikuyotien/sinseisyorui/joukyoukakuninsyo.html",
+      "quote": "令和6(2024)年5月の入所申し込みから、国が示す標準的な様式に基づく新しい就労証明書に変更しました"
+    },
+    "validity": {
+      "url": "https://www.city.kadoma.osaka.jp/sukusuku/kakuka/hoikuyotien/sinseisyorui/joukyoukakuninsyo.html",
+      "quote": "就労証明書の有効期限は、証明日から概ね6か月です"
+    },
+    "selfEmployedDocs.0": {
+      "url": "https://www.city.kadoma.osaka.jp/sukusuku/kakuka/hoikuyotien/sinseisyorui/joukyoukakuninsyo.html",
+      "quote": "注意：「自営業主」の場合は開業届等の客観的資料を添付してください"
+    },
+    "notes.0": {
+      "url": "https://www.city.kadoma.osaka.jp/sukusuku/kakuka/hoikuyotien/sinseisyorui/joukyoukakuninsyo.html",
+      "quote": "令和6(2024)年5月の入所申し込みから、国が示す標準的な様式に基づく新しい就労証明書に変更しました"
+    },
+    "notes.1": {
+      "url": "https://www.city.kadoma.osaka.jp/sukusuku/kakuka/hoikuyotien/sinseisyorui/joukyoukakuninsyo.html",
+      "quote": "事業主(雇用主)および記入担当者の方は、下記の記入例・記載要領をご確認のうえ記入してください"
+    },
+    "notes.2": {
+      "url": "https://www.city.kadoma.osaka.jp/sukusuku/kakuka/hoikuyotien/sinseisyorui/joukyoukakuninsyo.html",
+      "quote": "本証明書の内容について、就労先事業者等に無断で作成し又は改変を行ったときには、刑法上の罪に問われる場合があります。また、発覚した際には内定の取消・退所(園)となる場合がありますので、ご注意ください"
+    }
+  },
+  "sources": [
+    {
+      "label": "門真市「就労証明書を作成いただく事業主様へ」",
+      "url": "https://www.city.kadoma.osaka.jp/sukusuku/kakuka/hoikuyotien/sinseisyorui/joukyoukakuninsyo.html"
+    },
+    {
+      "label": "門真市「申請書類」",
+      "url": "https://www.city.kadoma.osaka.jp/sukusuku/kakuka/hoikuyotien/sinseisyorui/index.html"
+    }
+  ],
+  "validity": "証明日から概ね6か月",
+  "selfEmployedDocs": [
+    "開業届等の客観的資料（自営業主の場合）"
+  ]
+}

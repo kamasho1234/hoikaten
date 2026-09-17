@@ -1,0 +1,91 @@
+{
+  "citySlug": "nisshin",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "日進市「令和8年度保育園等利用申込について」",
+    "url": "https://www.city.nisshin.lg.jp/department/kenko/hoiku/6/2/2/hoiku/17569.html"
+  },
+  "formFiles": [
+    {
+      "label": "就労証明書（Excel）",
+      "url": "https://www.city.nisshin.lg.jp/material/files/group/120/08syurousyoumeisyo_exel.xlsx"
+    },
+    {
+      "label": "就労証明書（PDF）",
+      "url": "https://www.city.nisshin.lg.jp/material/files/group/120/08syurousyoumeisyo_pdf.pdf"
+    },
+    {
+      "label": "就労証明書（記入例）",
+      "url": "https://www.city.nisshin.lg.jp/material/files/group/120/08syurousyoumeisyo_kisairei.pdf"
+    }
+  ],
+  "validity": "申込日の直近3ヶ月以内のもの",
+  "deadline": "令和8年4月1日から令和8年9月30日までに入園を希望する場合は、令和7年10月21日（火曜日）から11月7日（金曜日）までが当初申込期間。その後は随時申込で、毎月10日が締切",
+  "submitTo": "令和8年当初申込の場合は、市役所本庁舎4階 第2・3会議室に持参（令和7年10月21日〜11月7日、土日祝日を除く）、またはマイナポータル電子申請",
+  "online": "マイナポータル（ぴったりサービス）による電子申請が可能",
+  "seal": "unknown",
+  "notes": [
+    "求職活動の事由で入園後、3か月以内に就労証明書の提出が必要。提出されない場合は退園",
+    "発行する事業所が勤務先と異なる場合は、事業所名、所在地及び電話番号は発行する事業所について記入",
+    "出向や派遣社員等で勤務先が雇用元と違う場合も、事業所名、所在地及び電話番号は雇用元の事業所について記入",
+    "日進市内の認可保育施設で保育士、保育教諭として勤務する場合は「有」または「有（予定）」を選択",
+    "育児短時間勤務制度を利用する場合でも、制度利用前の雇用契約に基づく就労時間（休憩時間を含む）を記入"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.nisshin.lg.jp/material/files/group/120/08syurousyoumeisyo_kisairei.pdf",
+      "quote": "13 □ 有 □ 有（予定） ☑ 無"
+    },
+    "validity": {
+      "url": "https://www.city.nisshin.lg.jp/material/files/group/120/08syurousyoumeisyo_kisairei.pdf",
+      "quote": "申込日の直近3ヶ月以内のものをご提出ください。"
+    },
+    "deadline": {
+      "url": "https://www.city.nisshin.lg.jp/department/kenko/hoiku/6/2/2/hoiku/17569.html",
+      "quote": "利用申込を令和7年10月21日（火曜日）から11月7日（金曜日）までの期間に受付けます"
+    },
+    "submitTo": {
+      "url": "https://www.city.nisshin.lg.jp/department/kenko/hoiku/6/2/2/hoiku/17569.html",
+      "quote": "必要書類を持参し、10月21日（火曜日）から11月7日（金曜日）までの期間内（ 土・日・祝日除く ）に受付会場（市役所本庁舎4階 第2・3会議室）へお越しください"
+    },
+    "online": {
+      "url": "https://www.city.nisshin.lg.jp/department/kenko/hoiku/6/2/2/hoiku/17569.html",
+      "quote": "保育所等の入所申込の電子申請について"
+    },
+    "notes.0": {
+      "url": "https://www.city.nisshin.lg.jp/department/kenko/hoiku/6/2/2/hoiku/17569.html",
+      "quote": "「求職活動」の事由で入園後、3か月以内に「就労証明書」の提出が必要となります。提出されない場合は退園となります。"
+    },
+    "notes.1": {
+      "url": "https://www.city.nisshin.lg.jp/material/files/group/120/08syurousyoumeisyo_kisairei.pdf",
+      "quote": "就労証明書を発行する事業所が勤務先と異なる場合は、事業所名、所在地及び電話番号は発行する事業所について記入してください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.nisshin.lg.jp/material/files/group/120/08syurousyoumeisyo_kisairei.pdf",
+      "quote": "出向や派遣社員等で勤務先が雇用元と違う場合も、事業所名、所在地及び電話番号は雇用元の事業所について記入してください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.nisshin.lg.jp/material/files/group/120/08syurousyoumeisyo_kisairei.pdf",
+      "quote": "日進市内の認可保育施設で保育士、保育教諭として勤務する場合（予定含む）は「有」（「有（予定）」）を選択してください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.nisshin.lg.jp/material/files/group/120/08syurousyoumeisyo_kisairei.pdf",
+      "quote": "育児短時間勤務制度を利用する場合でも、制度利用前の雇用契約に基づく就労時間（休憩時間を含む）を記入してください"
+    }
+  },
+  "sources": [
+    {
+      "label": "日進市「令和8年度保育園等利用申込について」",
+      "url": "https://www.city.nisshin.lg.jp/department/kenko/hoiku/6/2/2/hoiku/17569.html"
+    },
+    {
+      "label": "日進市 就労証明書（PDF、R8版）",
+      "url": "https://www.city.nisshin.lg.jp/material/files/group/120/08syurousyoumeisyo_pdf.pdf"
+    },
+    {
+      "label": "日進市 就労証明書（記入例）",
+      "url": "https://www.city.nisshin.lg.jp/material/files/group/120/08syurousyoumeisyo_kisairei.pdf"
+    }
+  ]
+}

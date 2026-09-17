@@ -1,0 +1,56 @@
+{
+  "citySlug": "kyoto",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "京都市「令和9年度保育利用申込みの御案内」",
+    "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000274712.html"
+  },
+  "formFiles": [
+    {
+      "label": "就労証明書（プルダウンあり）",
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/R9syuurousyoumei1.xlsx"
+    },
+    {
+      "label": "就労証明書（直接入力）",
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/R9syuurousyoumei2.xlsx"
+    },
+    {
+      "label": "就労証明書（PDF版）",
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/R9syuurousyoumei3.pdf"
+    },
+    {
+      "label": "【記載例】就労証明書",
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/R9syuurousyoumei4.pdf"
+    },
+    {
+      "label": "【記載要領】就労証明書",
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/R9syuurousyoumei5.pdf"
+    }
+  ],
+  "seal": "unknown",
+  "notes": [
+    "就労証明書に記載されている勤務先や就労時間等を基に指数付けを行います",
+    "項目19の「保護者記載欄」のみ、保護者が記載します"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000274712.html",
+      "quote": "令和9年度用就労証明書様式"
+    },
+    "notes.0": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000274712.html",
+      "quote": "就労証明書に記載されている勤務先や就労時間等を基に指数付けを行うため"
+    },
+    "notes.1": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000274712.html",
+      "quote": "項目19の「保護者記載欄」のみ、保護者が記載します。"
+    }
+  },
+  "sources": [
+    {
+      "label": "京都市「令和9年度保育利用申込みの御案内」",
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000274712.html"
+    }
+  ]
+}

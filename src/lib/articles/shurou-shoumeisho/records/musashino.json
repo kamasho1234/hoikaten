@@ -1,0 +1,81 @@
+{
+  "citySlug": "musashino",
+  "checkedAt": "2026-09-18",
+  "formType": "standard",
+  "formPage": {
+    "label": "武蔵野市「就労証明書」",
+    "url": "https://www.city.musashino.lg.jp/shinseisho/shussan_kodomo_kyoiku/hoikuen_yochien_kodomoen/1003765.html"
+  },
+  "formFiles": [
+    { "label": "就労証明書（Excel）", "url": "https://www.city.musashino.lg.jp/_res/projects/default_project/_page_/001/003/765/R9shuroshomei.xlsx" },
+    { "label": "就労証明書（PDF）", "url": "https://www.city.musashino.lg.jp/_res/projects/default_project/_page_/001/003/765/R9shomei.pdf" },
+    { "label": "記載要領（内閣府・厚生労働省作成）", "url": "https://www.city.musashino.lg.jp/_res/projects/default_project/_page_/001/003/765/R8kisaiyoryo.pdf" },
+    { "label": "就労証明書の主な確認ポイント", "url": "https://www.city.musashino.lg.jp/_res/projects/default_project/_page_/001/003/765/R9point.pdf" },
+    { "label": "就労証明書（英語版）", "url": "https://www.city.musashino.lg.jp/_res/projects/default_project/_page_/001/003/765/eigoba.xlsx" }
+  ],
+  "deadline": "申込受付期間は月ごとに異なり、各受付期間締切日の午後5時必着。4月1日入所の1次申込は電子申請又は郵送のみ",
+  "submitTo": "市役所南棟3階 子ども育成課（郵送可、電子申請・ぴったりサービス可。ファクス・メール不可）",
+  "online": "ぴったりサービスで電子申請できる。添付書類はすべてデータで添付する必要がある",
+  "seal": "unknown",
+  "notes": [
+    "用途は認可保育施設入所申込、教育・保育給付認定申請、施設等利用給付認定申請、および在園児の提出書類",
+    "各保護者の要件書類などの添付書類は、必ずデータですべて添付すること。不足やデータに不備がある場合は受付されない",
+    "申請完了後、申請書類のPDFデータを保存すること。申請完了画面を閉じるとダウンロードできなくなる",
+    "一度受付けた書類の返却は行わない。必要な場合は事前にコピーを取得すること",
+    "書類内容について、事前確認ができる（4月入所1次申込除く）",
+    "郵送事故については市は責任を負わない。受付期間内に到着するよう日程に余裕を持って準備すること",
+    "不足書類や内容に不備がある場合は、入所選考の対象外となり、結果は変更されない"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.musashino.lg.jp/shinseisho/shussan_kodomo_kyoiku/hoikuen_yochien_kodomoen/1003765.html",
+      "quote": "記載要領（内閣府・厚生労働省作成）"
+    },
+    "deadline": {
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/hoikuen_yochien_kodomoen/ninkahoikusho_chiikihoikujigyo/nyusho_tetsuzuki/1051598.html",
+      "quote": "各受付期間締切日の午後5時必着です。"
+    },
+    "submitTo": {
+      "url": "https://www.city.musashino.lg.jp/shinseisho/shussan_kodomo_kyoiku/hoikuen_yochien_kodomoen/1003765.html",
+      "quote": "1.の場合：市役所3階子ども育成課"
+    },
+    "online": {
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/hoikuen_yochien_kodomoen/ninkahoikusho_chiikihoikujigyo/nyusho_tetsuzuki/1051598.html",
+      "quote": "4月入所1次申込は郵送又は電子申請です。"
+    },
+    "notes.0": {
+      "url": "https://www.city.musashino.lg.jp/shinseisho/shussan_kodomo_kyoiku/hoikuen_yochien_kodomoen/1003765.html",
+      "quote": "就労要件のかたが、認可保育施設入所(転所)申込、教育・保育給付認定申請、施設等利用給付認定申請をする際の提出書類"
+    },
+    "notes.1": {
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/hoikuen_yochien_kodomoen/ninkahoikusho_chiikihoikujigyo/nyusho_tetsuzuki/1051598.html",
+      "quote": "各保護者の要件書類などの添付書類は、必ずデータですべて添付してください。添付データが不足している場合やデータに不備がある場合には、受付ができません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/hoikuen_yochien_kodomoen/ninkahoikusho_chiikihoikujigyo/nyusho_tetsuzuki/1051598.html",
+      "quote": "申請完了画面を閉じると申請書類のダウンロードが出来なくなります。必要なかたは申請後必ずPDFデータを保存してください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/hoikuen_yochien_kodomoen/ninkahoikusho_chiikihoikujigyo/nyusho_tetsuzuki/1051598.html",
+      "quote": "一度受付けた書類の返却は行いません。必要なかたは事前にコピーをお取りください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/hoikuen_yochien_kodomoen/ninkahoikusho_chiikihoikujigyo/nyusho_tetsuzuki/1051598.html",
+      "quote": "書類内容について、事前確認ができます。（4月入所1次申込は、受付期間中の書類確認はできません。）"
+    },
+    "notes.5": {
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/hoikuen_yochien_kodomoen/ninkahoikusho_chiikihoikujigyo/nyusho_tetsuzuki/1051598.html",
+      "quote": "郵送事故については責任を負いかねます。受付期間内に到着するよう日程に余裕をもって準備してください。"
+    },
+    "notes.6": {
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/hoikuen_yochien_kodomoen/ninkahoikusho_chiikihoikujigyo/nyusho_tetsuzuki/1051598.html",
+      "quote": "不足書類や内容に不備がある場合は、入所選考の対象外となりますのでご注意ください。"
+    }
+  },
+  "sources": [
+    { "label": "武蔵野市「就労証明書」", "url": "https://www.city.musashino.lg.jp/shinseisho/shussan_kodomo_kyoiku/hoikuen_yochien_kodomoen/1003765.html" },
+    { "label": "武蔵野市「令和8年度入所申込みについて」", "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/hoikuen_yochien_kodomoen/ninkahoikusho_chiikihoikujigyo/nyusho_tetsuzuki/1051598.html" },
+    { "label": "武蔵野市「入所申込手続き」", "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/hoikuen_yochien_kodomoen/ninkahoikusho_chiikihoikujigyo/nyusho_tetsuzuki/index.html" },
+    { "label": "武蔵野市「ぴったりサービスを利用した認可保育施設の利用申込」", "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/hoikuen_yochien_kodomoen/1041718.html" }
+  ]
+}

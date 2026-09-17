@@ -1,0 +1,112 @@
+{
+  "citySlug": "toyota",
+  "checkedAt": "2026-09-18",
+  "formType": "standard-plus",
+  "formPage": {
+    "label": "豊田市「（令和9年度用）保育要件の様式ダウンロード」",
+    "url": "https://www.city.toyota.aichi.jp/kosodategakko/kosodate/hoiku/1016131/1059619.html"
+  },
+  "formFiles": [
+    {
+      "label": "A 就労証明書（PDF）",
+      "url": "https://www.city.toyota.aichi.jp/_res/projects/default_project/_page_/001/059/619/r0808/01.pdf"
+    },
+    {
+      "label": "A 就労証明書（電子入力用）（Excel）",
+      "url": "https://www.city.toyota.aichi.jp/_res/projects/default_project/_page_/001/059/619/r0808/02.xlsx"
+    },
+    {
+      "label": "令和9年度 就労証明書 記載要領（簡易版）（PDF）",
+      "url": "https://www.city.toyota.aichi.jp/_res/projects/default_project/_page_/001/059/619/r0808/03.pdf"
+    },
+    {
+      "label": "令和9年度 就労証明書 記入例（PDF）",
+      "url": "https://www.city.toyota.aichi.jp/_res/projects/default_project/_page_/001/059/619/r0808/05.pdf"
+    }
+  ],
+  "validity": "証明日が半年以内のもの。提出日時点で雇用期限等の内容に変更がないもの",
+  "deadline": "令和9年度の当初入園1次申込は電子申請で、令和8年9月9日8時30分〜10月4日23時59分",
+  "submitTo": "当初入園1次申込は電子申請（申込みフォーム）。内容の問い合わせは保育課（0565-34-6809）",
+  "online": "当初入園1次申込は電子申請で受け付ける（期間中24時間）。入園調整の結果も原則電子通知（xIDアプリの事前登録が必要）",
+  "siblings": "きょうだいで申し込む場合は保護者記載欄に連名で書く（同じ園なら複数枚の提出は不要）",
+  "seal": "not-required",
+  "sealNote": "押印の必要はありません",
+  "differences": [
+    "国の標準様式のNo.1〜19の下に、豊田市の注記（保護者記載欄について・有効期限・押印不要・添付書類）が付いている",
+    "新規入園申込みでは、就労実態を確認する添付書類を出すと入園調整時の優先度が上がる旨が書かれている。翌年度の継続在園用に出す場合は添付書類が必要"
+  ],
+  "notes": [
+    "就労証明書は同居の父母ともに必要。会社勤め・自営業・農業・内職のいずれも就労証明書を使い、自営業を除き事業所が事業所記入欄を記入・証明する",
+    "家族従業者は当初入園1次申込みでは受け付けない（2次申込みか途中入園で申し込む）",
+    "記載内容を事業所に確認することがあり、必要に応じて就労実態を確認する書類を追加で求めることがある",
+    "申請時から就労時間が減るなど内容が変わった場合は内定を取り消すことがある"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.toyota.aichi.jp/_res/projects/default_project/_page_/001/059/619/r0808/01.pdf",
+      "quote": "〈保護者記載欄について〉"
+    },
+    "seal": {
+      "url": "https://www.city.toyota.aichi.jp/_res/projects/default_project/_page_/001/059/619/r0808/01.pdf",
+      "quote": "押印の必要はありません"
+    },
+    "validity": {
+      "url": "https://www.city.toyota.aichi.jp/_res/projects/default_project/_page_/001/059/619/r0808/01.pdf",
+      "quote": "就労証明書を提出する際の書類の有効期限は証明日が半年以内のものに限ります。"
+    },
+    "deadline": {
+      "url": "https://www.city.toyota.aichi.jp/kosodategakko/kosodate/hoiku/1016131/1016132.html",
+      "quote": "令和8年9月9日（水曜日）午前8時30分から10月4日（日曜日）午後11時59分"
+    },
+    "submitTo": {
+      "url": "https://www.city.toyota.aichi.jp/kosodategakko/kosodate/hoiku/1016131/1016132.html",
+      "quote": "電子申請でお申込みください。"
+    },
+    "online": {
+      "url": "https://www.city.toyota.aichi.jp/kosodategakko/kosodate/hoiku/1016131/1016132.html",
+      "quote": "上記期間内は24時間インターネットを利用して受付が可能です。"
+    },
+    "siblings": {
+      "url": "https://www.city.toyota.aichi.jp/_res/projects/default_project/_page_/001/059/619/r0808/01.pdf",
+      "quote": "兄弟児の場合は、保護者記載欄に連名で記載（兄弟児が同一園の場合、複数枚の提出は不要）。"
+    },
+    "differences.0": {
+      "url": "https://www.city.toyota.aichi.jp/_res/projects/default_project/_page_/001/059/619/r0808/01.pdf",
+      "quote": "市ホームページ掲載の記載要領や「豊田市こども園等のご案内」等をご覧ください。"
+    },
+    "differences.1": {
+      "url": "https://www.city.toyota.aichi.jp/_res/projects/default_project/_page_/001/059/619/r0808/01.pdf",
+      "quote": "以下の書類を添付すると入園調整時の優先度が上がる。"
+    },
+    "notes.0": {
+      "url": "https://www.city.toyota.aichi.jp/kosodategakko/kosodate/hoiku/1016131/1059619.html",
+      "quote": "事業所による事業所記入欄の記入及び証明が必要です（自営業を除く）。"
+    },
+    "notes.1": {
+      "url": "https://www.city.toyota.aichi.jp/kosodategakko/kosodate/hoiku/1016131/1059619.html",
+      "quote": "家族従業者での当初入園1次申込みは受付できません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.toyota.aichi.jp/_res/projects/default_project/_page_/001/059/619/r0808/01.pdf",
+      "quote": "必要に応じて就労実態を確認する書類を追加依頼する場合あり"
+    },
+    "notes.3": {
+      "url": "https://www.city.toyota.aichi.jp/kosodategakko/kosodate/hoiku/1016131/1016132.html",
+      "quote": "就労時間が減少するなど、申請時と内容が変更した場合は、内定を取り消すことがあります。"
+    }
+  },
+  "sources": [
+    {
+      "label": "豊田市「（令和9年度用）保育要件の様式ダウンロード」",
+      "url": "https://www.city.toyota.aichi.jp/kosodategakko/kosodate/hoiku/1016131/1059619.html"
+    },
+    {
+      "label": "豊田市「令和9年度こども園等の当初入園1次申込み」",
+      "url": "https://www.city.toyota.aichi.jp/kosodategakko/kosodate/hoiku/1016131/1016132.html"
+    },
+    {
+      "label": "豊田市 就労証明書（PDF）",
+      "url": "https://www.city.toyota.aichi.jp/_res/projects/default_project/_page_/001/059/619/r0808/01.pdf"
+    }
+  ]
+}

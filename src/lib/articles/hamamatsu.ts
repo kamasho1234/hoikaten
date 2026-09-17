@@ -1552,51 +1552,6 @@ const articles: Article[] = [
     popularity: 48,
   },
   {
-    slug: "shurou-shoumeisho",
-    citySlug: "hamamatsu",
-    title: "浜松市の就労証明書｜様式ダウンロード先と記入例【令和8年度】",
-    description:
-      "浜松市の保育園申込みに使う就労証明書について、公式の様式ダウンロード先へのリンクと、点数の付き方・記入例・よくある不備をまとめています。会社に依頼する前に確認してください。",
-    image:
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "手続き",
-    categoryColor: "rose",
-    content: `<div class="info-box">
-<p><strong>まずは公式の様式をダウンロード</strong></p>
-<p>就労証明書の様式・記入例は<a href="https://www.hamamatsu-pippi.net/contents/7769.html" target="_blank" rel="noopener">浜松市公式サイト</a>からダウンロードできます。この記事では、その様式をどう書くと点数にどう響くかを説明します。</p>
-</div>
-<h2>就労証明書とは</h2>
-<p>保育の必要性を証明する最も重要な書類です。勤務先に記入してもらう必要があります。</p>
-
-<h2>入手方法</h2>
-<ul>
-<li>浜松市子育て情報サイト「ぴっぴ」からダウンロード</li>
-<li>各こども家庭センターの窓口で入手</li>
-</ul>
-
-<h2>記入のポイント</h2>
-<ul>
-<li><strong>就労時間</strong>：月120時間以上であればフルタイム（20点）。正確に記入してもらう</li>
-<li><strong>就労日数</strong>：月20日以上で就労日数加点（+3点）が得られる</li>
-<li><strong>雇用期間</strong>：有期雇用の場合は契約期間の記入が必要</li>
-<li><strong>育休からの復帰予定日</strong>：育休復帰加点（+3点）に影響</li>
-</ul>
-
-<h2>勤務先への依頼のコツ</h2>
-<ul>
-<li><strong>早めに依頼する</strong>：人事部門の処理に2〜3週間かかることがある</li>
-<li><strong>記入例を添える</strong>：浜松市の記入例を一緒に渡すと間違いが減る</li>
-<li><strong>締切を伝える</strong>：10月15日の申込締切から逆算して依頼</li>
-</ul>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>就労証明書は保育園の点数を決める最も重要な書類です。記入内容に誤りがあると点数が下がる可能性があるため、受け取ったら必ず確認しましょう。</p>
-</div>`,
-    publishedAt: "2026-04-07",
-    popularity: 50,
-  },
-  {
     slug: "shinsei-shorui-list",
     citySlug: "hamamatsu",
     title: "浜松市の保育園申込に必要な書類チェックリスト",

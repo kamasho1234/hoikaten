@@ -1,0 +1,63 @@
+{
+  "citySlug": "niigata",
+  "checkedAt": "2026-09-18",
+  "formType": "standard-plus",
+  "formPage": {
+    "label": "新潟市「就労証明書」",
+    "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/ninnkahoikushisetsu/hoiku_yoshiki.html"
+  },
+  "formFiles": [
+    {
+      "label": "就労証明書（国標準様式・A4縦）(PDF)",
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/ninnkahoikushisetsu/hoiku_yoshiki.files/R9shuroshomeisho.pdf"
+    },
+    {
+      "label": "就労証明書（国標準様式・A4縦）(Excel)",
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/ninnkahoikushisetsu/hoiku_yoshiki.files/R9shuroshomeisho.xlsx"
+    },
+    {
+      "label": "就労証明書　記入例（被雇用）",
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/ninnkahoikushisetsu/hoiku_yoshiki.files/R9shusho.pdf"
+    },
+    {
+      "label": "就労証明書　記入例（自営業）",
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/ninnkahoikushisetsu/hoiku_yoshiki.files/R9shushoziei.pdf"
+    },
+    {
+      "label": "就労証明書　記入例（育児休業から復職予定）",
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/ninnkahoikushisetsu/hoiku_yoshiki.files/R9shushohukki.pdf"
+    }
+  ],
+  "seal": "not-required",
+  "sealNote": "事業者の押印は不要とします。",
+  "notes": [
+    "新潟市が記載不要とする項目については、斜線を引いております。"
+  ],
+  "evidence": {
+    "formType": {
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/ninnkahoikushisetsu/hoiku_yoshiki.html",
+      "quote": "新潟市が記載不要とする項目については、斜線を引いております。"
+    },
+    "seal": {
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/ninnkahoikushisetsu/hoiku_yoshiki.html",
+      "quote": "事業者の押印は不要とします。"
+    },
+    "notes.0": {
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/ninnkahoikushisetsu/hoiku_yoshiki.html",
+      "quote": "新潟市が記載不要とする項目については、斜線を引いております。"
+    },
+    "differences.0": {
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/ninnkahoikushisetsu/hoiku_yoshiki.html",
+      "quote": "新潟市が記載不要とする項目については、斜線を引いております。"
+    }
+  },
+  "sources": [
+    {
+      "label": "新潟市「就労証明書」様式集",
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/ninnkahoikushisetsu/hoiku_yoshiki.html"
+    }
+  ],
+  "differences": [
+    "国の標準様式のうち、新潟市が記載不要とする項目に斜線が引かれている"
+  ]
+}
