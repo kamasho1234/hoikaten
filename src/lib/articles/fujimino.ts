@@ -72,58 +72,6 @@ const articles: Article[] = [
     popularity: 55,
   },
   // ===== 選考のしくみ =====
-  {
-    slug: "scoring-system-guide",
-    citySlug: "fujimino",
-    title: "ふじみ野市の入園点数のしくみ　基本指数と調整指数をやさしく解説",
-    description:
-      "ふじみ野市の保育園入園選考で使われる基本指数と調整指数の仕組みを、初めての方にもわかるように解説します。",
-    image:
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
-    categoryColor: "blue",
-    content: `<h2>点数ってなに？</h2>
-<p>ふじみ野市の保育園入園は「先着順」ではなく「点数（指数）」の高い順に内定が決まります。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>選考指数 ＝ 基本指数（父）＋ 基本指数（母）＋ 調整指数</p>
-</div>
-
-<h2>基本指数とは？</h2>
-<p>父母それぞれの「保育が必要な理由」を点数化したものです。1人あたり最大<span class="highlight">120点</span>で、父母合計の最大は<span class="highlight">240点</span>。</p>
-<p>最も多い「就労」の場合、月150時間以上で満点の100点になります。</p>
-
-<table>
-<tr><th>就労状況</th><th>指数</th></tr>
-<tr><td>月150時間以上</td><td>100</td></tr>
-<tr><td>月140時間以上150時間未満</td><td>95</td></tr>
-<tr><td>月130時間以上140時間未満</td><td>90</td></tr>
-<tr><td>月120時間以上130時間未満</td><td>85</td></tr>
-<tr><td>月110時間以上120時間未満</td><td>80</td></tr>
-</table>
-
-<h2>調整指数とは？</h2>
-<p>世帯の特別な事情に応じて加減される点数です。加算項目と減算項目があります。</p>
-
-<h3>主な加算項目</h3>
-<ul>
-<li>ひとり親世帯（生活保護除く）：<span class="highlight">+130点</span></li>
-<li>きょうだいが在園中（1人）：<span class="highlight">+10点</span></li>
-<li>きょうだい同時申込または別々の施設に在園で転所を希望：<span class="highlight">+20点</span></li>
-<li>認可外保育施設等への保育委託（条件により）：<span class="highlight">+20点または+10点</span></li>
-<li>生活保護世帯：<span class="highlight">+30点</span></li>
-<li>多胎児：<span class="highlight">+10点</span></li>
-</ul>
-
-<h3>主な減算項目</h3>
-<ul>
-<li>60歳未満の祖父母と同居（保育不可証明書類なし）：<span class="highlight">-50点</span></li>
-<li>入所辞退（1回ごとに）：<span class="highlight">-20点</span></li>
-</ul>`,
-    publishedAt: "2026-04-26",
-    popularity: 65,
-  },
   // ===== 点数アップ =====
   {
     slug: "score-up-tips",

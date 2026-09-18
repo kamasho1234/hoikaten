@@ -60,64 +60,6 @@ const articles: Article[] = [
     popularity: 55,
   },
   {
-    slug: "scoring-system",
-    citySlug: "kanazawa",
-    title: "金沢市の保育園入園｜点数の仕組みと計算方法をやさしく解説",
-    description:
-      "金沢市の保育施設等利用調整基準表をもとに、基本指数と調整指数の仕組み・計算方法をわかりやすく解説します。",
-    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=400&fit=crop",
-    category: "点数の仕組み",
-    categoryColor: "blue",
-    content: `<h2>金沢市の点数制度のしくみ</h2>
-<p>金沢市では「<strong>基本指数</strong>」と「<strong>調整指数</strong>」の合計で入園の優先順位が決まります。</p>
-
-<h3>計算の流れ</h3>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content">
-<strong>保護者それぞれの基本指数を出す</strong>
-<p>就労・疾病・障害・介護・出産・就学・求職などの理由ごとに、もっとも高い指数を1つ選びます。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content">
-<strong>低い方を「申請児童の基本指数」とする</strong>
-<p>父母の基本指数のうち、<strong>低い方</strong>（同じ場合はどちらか一方）が採用されます。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content">
-<strong>調整指数を加える</strong>
-<p>該当するすべての調整指数を合計して、基本指数に足します。</p>
-</div>
-</div>
-
-<h3>基本指数の例（就労の場合）</h3>
-<table>
-<tr><th>月の就労時間</th><th>基本指数</th></tr>
-<tr><td>月160時間以上</td><td>100点</td></tr>
-<tr><td>月140〜160時間未満</td><td>80点</td></tr>
-<tr><td>月120〜140時間未満</td><td>70点</td></tr>
-<tr><td>月100〜120時間未満</td><td>60点</td></tr>
-<tr><td>月80〜100時間未満</td><td>50点</td></tr>
-<tr><td>月48〜80時間未満</td><td>40点</td></tr>
-</table>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>金沢市は「低い方を採用」する方式です。両親ともフルタイムで100点でも、基本指数は100点。ここに調整指数が加算されて最終点数が決まります。</p>
-</div>
-
-<div class="info-box">
-<p><strong>出典</strong></p>
-<p>金沢市保育施設等利用調整基準表（別表 第7条関係）に基づいています。</p>
-</div>`,
-    publishedAt: "2026-04-04",
-    popularity: 58,
-  },
-  {
     slug: "score-up-tips",
     citySlug: "kanazawa",
     title: "金沢市の保育園入園｜加点のコツ・点数アップ戦略",

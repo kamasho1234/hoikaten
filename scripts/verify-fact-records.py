@@ -83,6 +83,29 @@ KINDS = {
         "dup_fields": ("notes", "azukariFees", "otherServices"),
         "filename_ok": (),
     },
+    "hokatsu": {
+        "records": "src/lib/articles/hokatsu-schedule/records",
+        "out": "tasks/hokatsu-schedule/verify-result.tsv",
+        "required": ("citySlug", "checkedAt", "page", "fiscalYear", "notes", "evidence", "sources"),
+        "enums": {"fiscalYear": ("R9", "R8")},
+        "value_fields": [
+            "guideRelease", "firstApply", "applyMethods", "firstResult", "secondApply", "secondResult",
+            "midYearDeadline", "documents", "interview", "ikukyu", "notes",
+        ],
+        "list_fields": ("documents", "notes", "sources"),
+        "str_fields": (
+            "guideRelease", "firstApply", "applyMethods", "firstResult", "secondApply", "secondResult",
+            "midYearDeadline", "interview", "ikukyu",
+        ),
+        "extra_evidence": ["page", "fiscalYear"],
+        "main_page": "page",
+        "link_fields": ("page",),
+        "files_field": None,
+        "keyword": r"(入園|入所|利用)(の)?(申込|申請|案内)",
+        "keyword_label": "入園申込",
+        "dup_fields": ("notes", "documents"),
+        "filename_ok": (),
+    },
 }
 
 _cache: dict[str, object] = {}
@@ -187,6 +210,28 @@ def kind_checks(r, k, problems):
             problems.append("seal に evidence が無い")
         if "formType" not in r["evidence"]:
             problems.append("formType に evidence が無い（様式ページの文言を引く）")
+    if k == "hokatsu":
+        if "fiscalYear" not in r["evidence"]:
+            problems.append("fiscalYear に evidence が無い（「令和9年4月入園」などの文言を引く）")
+        if not r.get("firstApply"):
+            problems.append("firstApply（一次申込の受付期間）が無い。案内ページに無いなら R8 の実績を fiscalYear R8 で書く")
+        for f in ("firstApply", "firstResult", "secondApply", "guideRelease"):
+            v = r.get(f)
+            if v and not re.search(r"\d+\s*月", v):
+                problems.append(f"{f} に月日が無い: {v[:30]}")
+        # 日付は quote に入っているものしか書けない（年度の取り違え・推測の日付を防ぐ）
+        for f in ("guideRelease", "firstApply", "applyMethods", "firstResult", "secondApply", "secondResult", "midYearDeadline", "interview", "ikukyu"):
+            v = r.get(f)
+            e = r["evidence"].get(f)
+            if not v or not e:
+                continue
+            q = norm(e["quote"])
+            for d in re.findall(r"\d{1,2}月\d{1,2}日", norm(v)):
+                mm, dd = d.split("月")
+                # 「10月1日～同月30日」のように月を省いた書き方も通す
+                if d not in q and not (f"{mm}月" in q and dd in q):
+                    problems.append(f"{f} の日付 {d} が quote に無い")
+                    break
     if k == "ichiji":
         if r.get("daredemoPage") and not any(x.startswith("daredemo") and x != "daredemoPage" for x in r):
             problems.append("daredemoPage があるのに誰でも通園の値が1つも無い")

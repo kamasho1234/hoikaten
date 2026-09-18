@@ -51,18 +51,6 @@ const articles: Article[] = [
     popularity: 48,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "izumo",
-    title: "出雲市の入園点数のしくみ　基本指数と調整指数をやさしく解説",
-    description: "出雲市の保育所入所選考で使われる基本指数と調整指数の仕組みを、初めての方にもわかるように解説します。",
-    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
-    categoryColor: "blue",
-    content: `<h2>調整指数とは？</h2><p>世帯の特別な事情に応じて加減される点数です。出雲市は調整指数の幅が非常に大きいことが特徴です。</p><h3>主な加算項目</h3><ul><li>ひとり親世帯：+30点</li><li>きょうだいが希望施設に在園中：+30点</li><li>きょうだいと同時申込み：+27点</li><li>生活保護受給：+30点</li><li>認可外保育施設に月ぎめで預けている：+10点</li></ul><h3>減算項目</h3><ul><li>保育料の滞納あり：-30点</li></ul><div class="point-box"><p>出雲市の調整指数は最大で+30点と非常に大きな影響があります。ひとり親家庭やきょうだい在園は大幅な加点になります。</p></div>`,
-    publishedAt: "2026-05-11",
-    popularity: 45,
-  },
-  {
     slug: "selection-process",
     citySlug: "izumo",
     title: "出雲市の保育所選考フロー　書類提出から入所決定まで",

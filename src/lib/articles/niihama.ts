@@ -51,18 +51,6 @@ const articles: Article[] = [
     popularity: 47,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "niihama",
-    title: "新居浜市の入園点数のしくみ　基本指数と調整指数をやさしく解説",
-    description: "新居浜市の保育園入園選考で使われる基本指数と調整指数の仕組みを、初めての方にもわかるように解説します。",
-    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
-    categoryColor: "blue",
-    content: `<h2>調整指数とは？</h2><p>世帯の特別な事情に応じて加減される点数です。</p><h3>主な加算項目</h3><ul><li>ひとり親世帯：+5点</li><li>生活保護受給：+3点</li><li>申込児童に障がい（身体障害1・2級等）：+4点</li><li>DV・虐待の被害：+15点</li><li>きょうだいが同一施設に在籍または同時申込：+3点</li></ul><h3>主な減算項目</h3><ul><li>同居する65歳未満祖父母が保育可能：-2点</li></ul><div class="point-box"><p>DV・虐待の被害に対する+15点は大きな加点です。支援機関を通じて申告が可能です。</p></div>`,
-    publishedAt: "2026-05-08",
-    popularity: 49,
-  },
-  {
     slug: "selection-process",
     citySlug: "niihama",
     title: "新居浜市の保育園選考フロー　書類提出から入園決定まで",

@@ -57,54 +57,6 @@ const articles: Article[] = [
     popularity: 55,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "takatsuki",
-    title: "高槻市の点数の仕組みと計算方法　基本点数と調整点数を解説",
-    description:
-      "高槻市の保育園入園選考で使われる基本点数と調整点数の仕組みを解説します。",
-    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
-    categoryColor: "blue",
-    content: `<h2>高槻市の選考点数とは</h2>
-<p>高槻市の認可保育園の入園選考は「基本点数（A・B）＋ 調整点数（C・D）」の合計で行われます。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>選考点数 = 基本点数（保護者1 + 保護者2）+ 調整点数</p>
-</div>
-
-<h2>基本点数（父母各最大30点、合計60点）</h2>
-<p>就労の場合、月160時間以上（週40時間以上）で満点の<span class="highlight">30点</span>です。</p>
-
-<table>
-<tr><th>勤務の状況</th><th>基本点数</th></tr>
-<tr><td>月160時間以上（週40時間以上）</td><td>30</td></tr>
-<tr><td>月140時間以上（週35時間以上）</td><td>27</td></tr>
-<tr><td>月120時間以上（週30時間以上）</td><td>24</td></tr>
-<tr><td>月96時間以上（週24時間以上）</td><td>21</td></tr>
-<tr><td>月64時間以上（週3日以上・1日4時間以上）</td><td>18</td></tr>
-<tr><td>月64時間以上（上記以外）</td><td>16</td></tr>
-<tr><td>内職（収入年2万円以上）</td><td>13</td></tr>
-<tr><td>求職活動中</td><td>8</td></tr>
-</table>
-
-<h2>調整点数の代表例</h2>
-<ul>
-<li>ひとり親世帯（就労等）：<span class="highlight">+35点</span></li>
-<li>待機加点：<span class="highlight">+6点</span></li>
-<li>保育士加点（市内施設勤務）：<span class="highlight">+10点</span></li>
-<li>きょうだい在園中の施設を第1希望：<span class="highlight">+3点</span></li>
-<li>産休・育休復帰：<span class="highlight">+2点</span></li>
-</ul>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>全項目は<a href="https://www.city.takatsuki.osaka.jp/soshiki/44/5300.html" target="_blank" rel="noopener">高槻市公式サイト「教育・保育施設ご利用の手引き」</a>で確認できます。</p>
-</div>`,
-    publishedAt: "2026-04-04",
-    popularity: 60,
-  },
-  {
     slug: "score-up-tips",
     citySlug: "takatsuki",
     title: "高槻市の加点のコツ　点数アップ戦略と調整点数の活用法",

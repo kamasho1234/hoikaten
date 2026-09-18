@@ -1,6 +1,8 @@
 ﻿import "./general";
 import "./shurou-shoumeisho/register";
 import "./ichiji-hoiku/register";
+import "./scoring-guide/register";
+import "./hokatsu-schedule/register";
 import "./setagaya";
 import "./yokohama";
 import "./osaka";

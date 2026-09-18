@@ -56,57 +56,6 @@ const articles: Article[] = [
     popularity: 55,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "maebashi",
-    title: "前橋市の入園点数のしくみ　選考基準点数と調整指数をやさしく解説",
-    description:
-      "前橋市の保育園入所選考で使われる「選考基準点数」と「調整指数」の仕組みを、初めての方にもわかるように解説します。",
-    image:
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "点数・選考",
-    categoryColor: "blue",
-    content: `<h2>点数制度の全体像</h2>
-<p>前橋市の認可保育施設は「先着順」ではなく、<strong>指数の高いお子さまから優先</strong>して入所者が決定されます。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>合計指数 ＝ 選考基準点数（父）＋ 選考基準点数（母）＋ 調整指数</p>
-</div>
-
-<h2>選考基準点数とは</h2>
-<p>保護者それぞれの「保育を必要とする事由」を指数化したものです。1人あたり<span class="highlight">最大10点</span>、保護者2人の合計で<span class="highlight">最大20点</span>です。</p>
-<table>
-<tr><th>就労状況（外勤・自営中心者）</th><th>点数</th></tr>
-<tr><td>月150時間以上の就労</td><td>10</td></tr>
-<tr><td>月130時間以上150時間未満</td><td>9</td></tr>
-<tr><td>月110時間以上130時間未満</td><td>8</td></tr>
-<tr><td>月90時間以上110時間未満</td><td>7</td></tr>
-<tr><td>月60時間以上90時間未満</td><td>6</td></tr>
-<tr><td>月48時間以上60時間未満</td><td>5</td></tr>
-</table>
-
-<h2>調整指数とは</h2>
-<p>世帯の状況に応じて加点・減点される指数です。</p>
-<table>
-<tr><th>項目</th><th>指数</th></tr>
-<tr><td>母子・父子家庭</td><td>+13</td></tr>
-<tr><td>生活保護受給世帯</td><td>+13</td></tr>
-<tr><td>きょうだい在園中の園を希望</td><td>+5</td></tr>
-<tr><td>4月1日入所希望者</td><td>+2</td></tr>
-<tr><td>きょうだい同時申込</td><td>+2</td></tr>
-<tr><td>認可外保育施設利用中</td><td>+1</td></tr>
-<tr><td>第三子以降</td><td>+1</td></tr>
-<tr><td>親族経営の勤務先</td><td>-1</td></tr>
-</table>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳細は<a href="https://www.city.maebashi.gunma.jp/soshiki/kodomomiraibu/kodomoshisetsu/gyomu/8/2/20836.html" target="_blank" rel="noopener">前橋市公式サイト「保育関係施設入所申し込みのご案内」</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-04-05",
-    popularity: 60,
-  },
-  {
     slug: "fulltime-20-line",
     citySlug: "maebashi",
     title: "フルタイム共働き20点は安心？前橋市のボーダーライン事情",

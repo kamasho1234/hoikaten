@@ -199,46 +199,6 @@ const articles: Article[] = [
     popularity: 51,
   },
   // ===== 選考のしくみ (1) =====
-  {
-    slug: "scoring-system-guide",
-    citySlug: "nasushiobara",
-    title: "那須塩原市の入園点数のしくみ　基本指数と調整指数をやさしく解説",
-    description:
-      "那須塩原市の保育園入園選考で使われる基本指数と調整指数の仕組みを、初めての方にもわかるように解説します。",
-    image:
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
-    categoryColor: "blue",
-    content: `<h2>那須塩原市の選考指数の仕組み</h2>
-<p>那須塩原市では「基本指数＋調整指数」の合計で入園の可否が決まります。高い点数の家庭から順に承諾されます。</p>
-
-<h3>調整指数とは？</h3>
-<p>世帯の特別な事情に応じて加減される点数です。プラス（加点）とマイナス（減点）があります。</p>
-
-<h3>主な加算項目</h3>
-<ul>
-<li>ひとり親世帯：<span class="highlight">+6点</span></li>
-<li>きょうだいが在園中：<span class="highlight">+3点</span></li>
-<li>生活保護受給：<span class="highlight">+1点</span></li>
-<li>育休明け復職予定：<span class="highlight">+2点</span></li>
-<li>きょうだい同時申込：<span class="highlight">+2点</span></li>
-<li>保育士等就労：<span class="highlight">+3点</span></li>
-</ul>
-
-<h3>主な減算項目</h3>
-<ul>
-<li>市外からの申込：<span class="highlight">-5点</span></li>
-<li>同居祖父母が保育可能：<span class="highlight">-4点</span></li>
-<li>認可園からの転園希望：<span class="highlight">-3点</span></li>
-</ul>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>1点の差が内定を左右することもあります。使える加点は必ず申請書で記載しましょう。</p>
-</div>`,
-    publishedAt: "2026-04-29",
-    popularity: 56,
-  },
   // ===== 選考のしくみ (2) =====
   {
     slug: "selection-process",

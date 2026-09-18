@@ -53,47 +53,6 @@ const articles: Article[] = [
     popularity: 60,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "tokorozawa",
-    title: "所沢市の保育園入園点数の仕組みと計算方法",
-    description:
-      "所沢市の保育所入所基準指数表を元に、基本指数と調整指数の計算方法をわかりやすく解説します。",
-    image:
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "点数を知る",
-    categoryColor: "blue",
-    content: `<h2>所沢市の入所指数とは？</h2>
-<p>所沢市では保育園の入園選考に「入所指数」を使います。入所指数は<strong>基本指数（父母合算）＋ 調整指数</strong>の合計で決まり、点数が高い世帯から順に入園が決定します。</p>
-
-<h3>基本指数の仕組み</h3>
-<p>基本指数は父母それぞれの状況に応じた点数を合算します。1人あたり最大20点、両親合わせて<strong>最大40点</strong>です。</p>
-
-<table>
-<tr><th>保育が必要な理由</th><th>指数の範囲</th></tr>
-<tr><td>就労（外勤・自営等）</td><td>10〜20点</td></tr>
-<tr><td>疾病</td><td>12〜20点</td></tr>
-<tr><td>障害</td><td>12〜20点</td></tr>
-<tr><td>介護・看護</td><td>12〜20点</td></tr>
-<tr><td>出産</td><td>16点</td></tr>
-<tr><td>就学</td><td>10〜20点</td></tr>
-<tr><td>求職活動</td><td>6点</td></tr>
-</table>
-
-<div class="point-box">
-<p><strong>計算例</strong></p>
-<p>父：フルタイム就労（月20日以上・日8時間以上）= 20点<br>母：フルタイム就労（月20日以上・日8時間以上）= 20点<br>基本指数合計 = <strong>40点</strong></p>
-</div>
-
-<h3>調整指数とは</h3>
-<p>世帯の状況に応じて加点・減点される指数です。ひとり親家庭（+5点）、きょうだい在園（+3点）、認可外利用（+3点）などがあります。一方、市外からの申込（-10点）や転園（-5点）は減点になります。</p>
-
-<div class="info-box">
-<p>所沢市は人口約34万人の埼玉県南西部の中核市です。認可保育園が約50か所あり、競争倍率はエリアによって大きく異なります。自分の点数を事前にシミュレーションしておくことが大切です。</p>
-</div>`,
-    publishedAt: "2026-04-07",
-    popularity: 70,
-  },
-  {
     slug: "work-points-detail",
     citySlug: "tokorozawa",
     title: "所沢市の就労点数を徹底解説　勤務日数と時間で何点になる？",

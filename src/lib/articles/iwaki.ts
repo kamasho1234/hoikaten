@@ -54,48 +54,6 @@ const articles: Article[] = [
     popularity: 55,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "iwaki",
-    title: "いわき市の入園選考のしくみ　利用調整の基礎知識をやさしく解説",
-    description:
-      "いわき市の保育園入園選考で使われる利用調整の仕組みを、初めての方にもわかるように解説します。",
-    image:
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "点数・選考",
-    categoryColor: "blue",
-    content: `<h2>利用調整の全体像</h2>
-<p>いわき市の認可保育施設は<strong>利用調整指数の高い世帯から優先</strong>して入所が決まります。利用決定は先着順ではありません。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>いわき市では「それぞれの要件等に点数を設定して調整を行っている」と公式FAQで説明されていますが、恣意的な申込みを避けるため、具体的な点数配分は非公開としています。</p>
-</div>
-
-<h2>基礎指数とは</h2>
-<p>保護者それぞれの「保育を必要とする事由」を指数化したものです。就労時間、疾病、介護などの状況に応じて、保護者ごとに指数が決まります。</p>
-<table>
-<tr><th>保育の実施基準</th><th>指数の目安</th></tr>
-<tr><td>家庭外就労：フルタイム（月120時間以上）</td><td>高い</td></tr>
-<tr><td>家庭外就労：パートタイム（月48〜120時間）</td><td>中程度</td></tr>
-<tr><td>妊娠・出産（前後各8週以内）</td><td>高い</td></tr>
-<tr><td>疾病・負傷（入院・自宅療養等）</td><td>高い</td></tr>
-<tr><td>求職活動</td><td>低い</td></tr>
-</table>
-
-<h2>調整指数とは</h2>
-<p>世帯の状況に応じて加算（または減算）される指数です。ひとり親家庭、きょうだい在園、育休復帰などが考慮されます。</p>
-
-<h2>就労要件の下限</h2>
-<p>いわき市では<span class="highlight">月48時間以上</span>の就労が保育の必要性の認定要件です。これを満たさない場合は保育認定を受けられません。</p>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳細は<a href="https://www.city.iwaki.lg.jp/www/contents/1677156824432/index.html" target="_blank" rel="noopener">いわき市公式サイト「保育所等に関するよくある質問」</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-04-05",
-    popularity: 60,
-  },
-  {
     slug: "katen-no-kotsu",
     citySlug: "iwaki",
     title: "いわき市で加点を最大化するコツ　調整指数を積み上げる方法",

@@ -56,52 +56,6 @@ const articles: Article[] = [
     popularity: 60,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "aomori",
-    title: "青森市の入園選考のしくみ　優先順位A〜Fをやさしく解説",
-    description:
-      "青森市の保育園入園選考で使われる優先順位制度の仕組みを、初めての方にもわかるように解説します。",
-    image:
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "点数・選考",
-    categoryColor: "blue",
-    content: `<h2>選考制度の全体像</h2>
-<p>青森市の認可保育施設は<strong>優先順位A〜Fの6段階</strong>で利用調整が行われます。優先順位Aが最も高く、Fが最も低くなります。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>青森市は多くの自治体で採用されている「点数制」ではなく「優先順位制」です。保護者それぞれの状況で優先順位が決まり、総合的に判断されます。</p>
-</div>
-
-<h2>優先順位の一覧</h2>
-<table>
-<tr><th>優先順位</th><th>主な該当条件</th></tr>
-<tr><td>A（最高）</td><td>月150時間以上の就労・就学、長期入院、重度障害</td></tr>
-<tr><td>B</td><td>月120時間以上の就労・就学、短期入院、中程度障害、重度要介護者の介護、出産前後</td></tr>
-<tr><td>C</td><td>月90時間以上の就労・就学、自宅療養、中程度要介護者の介護</td></tr>
-<tr><td>D</td><td>月60時間以上の就労・就学</td></tr>
-<tr><td>E</td><td>月60時間以上の内職、軽度要介護者の介護</td></tr>
-<tr><td>F（最低）</td><td>求職活動中</td></tr>
-</table>
-
-<h2>加算条件（優先順位が上がる）</h2>
-<p>以下の条件に該当すると、同じ優先順位内でさらに優先されます。</p>
-<ul>
-<li><strong>ひとり親家庭</strong></li>
-<li><strong>産休・育休明けの復職</strong>（育休終了日が属する月の選考で優先）</li>
-</ul>
-
-<h2>同順位の場合の判断</h2>
-<p>同じ優先順位の場合は、各家庭の諸事情を総合的に勘案して選考されます。きょうだいの在園状況や多子家庭であることなどが考慮されます。</p>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳細は<a href="https://www.city.aomori.aomori.jp/kodomo_kyoiku/ninteikodomoen_youchien_hoikusho/1009841/1009844.html" target="_blank" rel="noopener">青森市公式サイト「令和8年度 保育所・認定こども園等への利用申込み」</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-04-05",
-    popularity: 55,
-  },
-  {
     slug: "katen-no-kotsu",
     citySlug: "aomori",
     title: "青森市で優先順位を上げるコツ　入園選考を有利に進める方法",

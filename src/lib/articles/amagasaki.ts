@@ -55,56 +55,6 @@ const articles: Article[] = [
     popularity: 55,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "amagasaki",
-    title: "尼崎市の入園点数のしくみ　基本点数と調整点数をやさしく解説",
-    description:
-      "尼崎市の保育園入園選考で使われる点数制度の仕組みを、初めての方にもわかるように解説します。",
-    image:
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "点数・選考",
-    categoryColor: "blue",
-    content: `<h2>点数制度の全体像</h2>
-<p>尼崎市の認可保育施設は<strong>父母の合計点数の高い世帯から優先</strong>して利用調整されます。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>合計点数 ＝ 基本点数（父）＋ 基本点数（母）＋ 調整点数</p>
-</div>
-
-<h2>基本点数とは</h2>
-<p>保護者それぞれの「保育を必要とする事由」を点数化したものです。1人あたり<span class="highlight">最大100点</span>、保護者2人の合計で<span class="highlight">最大200点</span>です。</p>
-<table>
-<tr><th>就労状況</th><th>基本点数</th></tr>
-<tr><td>月20日以上かつ週40時間以上</td><td>100</td></tr>
-<tr><td>月20日以上かつ週30時間以上</td><td>90</td></tr>
-<tr><td>月16日以上かつ週24時間以上</td><td>80</td></tr>
-<tr><td>月16日以上かつ週16時間以上</td><td>70</td></tr>
-<tr><td>月64時間以上（上記以外）</td><td>60</td></tr>
-</table>
-
-<h2>調整点数とは</h2>
-<p>世帯の状況に応じて加点・減点される点数です。</p>
-<table>
-<tr><th>項目</th><th>点数</th></tr>
-<tr><td>ひとり親世帯</td><td>+120</td></tr>
-<tr><td>きょうだい在園中（同じ園を第一希望）</td><td>+10</td></tr>
-<tr><td>きょうだい在園中</td><td>+5</td></tr>
-<tr><td>生活保護受給世帯</td><td>+8</td></tr>
-<tr><td>認可外保育施設を利用中</td><td>+5</td></tr>
-<tr><td>きょうだい同時申込</td><td>+3</td></tr>
-<tr><td>育児休業からの復帰予定</td><td>+3</td></tr>
-<tr><td>同居の祖父母（65歳未満）</td><td>-3</td></tr>
-</table>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳細な利用調整基準表は<a href="https://www.city.amagasaki.hyogo.jp/kosodate-kyoiku/service/hoikusyo/1042814.html" target="_blank" rel="noopener">尼崎市公式サイト</a>からダウンロードできます。</p>
-</div>`,
-    publishedAt: "2026-03-28",
-    popularity: 65,
-  },
-  {
     slug: "fulltime-200-line",
     citySlug: "amagasaki",
     title: "フルタイム共働き200点は安心？尼崎市のボーダーライン事情",

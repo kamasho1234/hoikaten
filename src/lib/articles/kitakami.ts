@@ -51,18 +51,6 @@ const articles: Article[] = [
     popularity: 47,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "kitakami",
-    title: "北上市の入園点数のしくみ　基本指数と調整指数をやさしく解説",
-    description: "北上市の保育園入園選考で使われる基本指数と調整指数の仕組みを、初めての方にもわかるように解説します。",
-    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
-    categoryColor: "blue",
-    content: `<h2>調整指数とは？</h2><p>世帯の特別な事情に応じて加減される点数です。北上市の調整指数は減点項目も多いのが特徴です。</p><h3>主な加算項目</h3><ul><li>ひとり親世帯：+21点</li><li>生活保護受給：+10点</li><li>第2子：+3点</li><li>第3子以降：+5点</li><li>多胎児（双子・三つ子等）：+8点</li><li>きょうだい第1希望施設に在籍：+8点</li><li>保育士就労（北上市内認可保育施設）：+25点</li></ul><h3>主な減算項目</h3><ul><li>同居65歳未満祖父母が保育可能：-20点</li></ul><div class="point-box"><p>祖父母同居による-20点の減点が大きいのが北上市の特徴です。</p></div>`,
-    publishedAt: "2026-05-08",
-    popularity: 49,
-  },
-  {
     slug: "selection-process",
     citySlug: "kitakami",
     title: "北上市の保育園選考フロー　書類提出から入園決定まで",

@@ -59,59 +59,6 @@ const articles: Article[] = [
   },
 
   // ========== 点数・選考 ==========
-  {
-    slug: "scoring-system-guide",
-    citySlug: "omuta",
-    title: "大牟田市の入園点数のしくみ　基準指数・調整指数をやさしく解説",
-    description:
-      "大牟田市の保育園入園選考で使われる「基準指数」「調整指数」の仕組みを、初めての方にもわかるように解説します。",
-    image:
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "点数・選考",
-    categoryColor: "blue",
-    content: `<h2>点数制度の全体像</h2>
-<p>大牟田市の認可保育所等は「先着順」ではなく、<strong>保育の必要性の高い世帯から優先</strong>して利用調整（選考）されます。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>合計点数 ＝ 基準指数（保護者1）＋ 基準指数（保護者2）＋ 調整指数</p>
-</div>
-
-<h2>基準指数とは</h2>
-<p>保護者それぞれの「保育を必要とする事由」を点数化したものです。就労の場合、1人あたり<span class="highlight">最大20点</span>、保護者2人の合計で<span class="highlight">最大40点</span>です。</p>
-<table>
-<tr><th>就労状況</th><th>基準指数</th></tr>
-<tr><td>月160時間以上（フルタイム相当）</td><td>20</td></tr>
-<tr><td>月140時間以上</td><td>18</td></tr>
-<tr><td>月120時間以上</td><td>16</td></tr>
-<tr><td>月100時間以上</td><td>14</td></tr>
-<tr><td>月80時間以上</td><td>12</td></tr>
-<tr><td>月48時間以上</td><td>10</td></tr>
-</table>
-<p>就労以外にも、疾病・障がい（最大20点）、介護・看護（最大20点）、出産（16点）、就学（最大20点）、求職活動（6点）が定められています。</p>
-
-<h2>調整指数とは</h2>
-<p>世帯の状況に応じて加点・減点される点数です。複数に該当する場合はそれぞれ加算されます。</p>
-<table>
-<tr><th>項目</th><th>点数</th></tr>
-<tr><td>ひとり親世帯</td><td>+5</td></tr>
-<tr><td>きょうだいが認可園に在園</td><td>+3</td></tr>
-<tr><td>認可外保育施設に預けて就労</td><td>+3</td></tr>
-<tr><td>生活保護世帯</td><td>+3</td></tr>
-<tr><td>きょうだい同時申込</td><td>+2</td></tr>
-<tr><td>育児休業からの復帰</td><td>+2</td></tr>
-<tr><td>65歳未満の祖父母が同居</td><td>-3</td></tr>
-<tr><td>転園希望</td><td>-5</td></tr>
-<tr><td>市外からの申込</td><td>-10</td></tr>
-</table>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳細は<a href="https://www.city.omuta.lg.jp/" target="_blank" rel="noopener">大牟田市公式サイト</a>の子ども未来室のページをご確認ください。</p>
-</div>`,
-    publishedAt: "2026-04-07",
-    popularity: 60,
-  },
 
   // ========== 加点のコツ ==========
   {

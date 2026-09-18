@@ -56,60 +56,6 @@ const articles: Article[] = [
     popularity: 55,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "kushiro",
-    title: "釧路市の入園点数のしくみ　基本点数と調整点数をやさしく解説",
-    description:
-      "釧路市の保育園入園選考で使われる点数制度の仕組みを、初めての方にもわかるように解説します。",
-    image:
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "点数・選考",
-    categoryColor: "blue",
-    content: `<h2>点数制度の全体像</h2>
-<p>釧路市の認可保育施設は<strong>合計点数の高い世帯から優先</strong>して利用調整されます。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>合計点数 ＝ 父の基本点数 ＋ 母の基本点数 ＋ 調整点数（加算・減算）</p>
-</div>
-
-<h2>基本点数とは</h2>
-<p>保護者それぞれの「保育を必要とする事由」を点数化したものです。就労（外勤・自営業主）の場合、1人あたり<span class="highlight">最大20点</span>で、父母の合算が基本点数になります。</p>
-<table>
-<tr><th>就労時間（月あたり）</th><th>基本点数</th></tr>
-<tr><td>160時間以上（フルタイム）</td><td>20</td></tr>
-<tr><td>120時間以上160時間未満</td><td>18</td></tr>
-<tr><td>80時間以上120時間未満</td><td>16</td></tr>
-<tr><td>64時間以上80時間未満</td><td>14</td></tr>
-<tr><td>48時間以上64時間未満</td><td>12</td></tr>
-</table>
-
-<h3>自営業専従者・家族従業者の場合</h3>
-<p>自営業の専従者や家族従業者は外勤・自営業主よりやや低い点数になります。月160時間以上で17点です。</p>
-
-<h3>内職の場合</h3>
-<p>内職は月160時間以上で15点です。</p>
-
-<h2>調整点数とは</h2>
-<p>世帯の状況に応じて加算される点数です。複数の項目に該当する場合はすべて加算されます。</p>
-<table>
-<tr><th>項目</th><th>点数</th></tr>
-<tr><td>釧路市内の認可保育施設に勤務する保育士等</td><td>+30</td></tr>
-<tr><td>きょうだいが入園中の施設のみ希望</td><td>+10</td></tr>
-<tr><td>2歳クラスまでの保育施設の卒園児</td><td>+5</td></tr>
-<tr><td>ひとり親家庭（母子・父子）</td><td>+3</td></tr>
-<tr><td>きょうだいが保育施設に入園中（1人ごと）</td><td>+3</td></tr>
-<tr><td>就学前児童がいる（1人ごと）</td><td>+2</td></tr>
-</table>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳細な利用調整基準表は<a href="https://www.city.kushiro.lg.jp/kosodatekyouiku/kosodate/1008292/1005300/1005308/index.html" target="_blank" rel="noopener">釧路市公式サイト「保育所等の利用について」</a>で確認できます。</p>
-</div>`,
-    publishedAt: "2026-04-07",
-    popularity: 60,
-  },
-  {
     slug: "katen-no-kotsu",
     citySlug: "kushiro",
     title: "釧路市で加点を最大化するコツ　調整点数を積み上げる方法",

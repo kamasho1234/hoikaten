@@ -57,54 +57,6 @@ const articles: Article[] = [
     popularity: 55,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "abiko",
-    title: "我孫子市の入園点数のしくみ　基準点数と調整点数を解説",
-    description:
-      "我孫子市の保育園入園選考で使われる基準点数と調整点数のしくみをわかりやすく解説します。",
-    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
-    categoryColor: "blue",
-    content: `<h2>我孫子市の選考点数とは</h2>
-<p>我孫子市の認可保育園は「基準点数（父＋母）＋ 調整点数」の合計で選考されます。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>総合点数 ＝ 基準点数（父＋母）＋ 調整点数</p>
-</div>
-
-<h2>基準点数（父母各最大20点、合計40点）</h2>
-<p>就労の場合、月160時間以上の就労で満点の<span class="highlight">20点</span>です。</p>
-
-<table>
-<tr><th>月の就労時間</th><th>点数</th></tr>
-<tr><td>月160時間以上</td><td>20</td></tr>
-<tr><td>月140時間以上160時間未満</td><td>18</td></tr>
-<tr><td>月120時間以上140時間未満</td><td>16</td></tr>
-<tr><td>月100時間以上120時間未満</td><td>14</td></tr>
-<tr><td>月80時間以上100時間未満</td><td>12</td></tr>
-<tr><td>月64時間以上80時間未満</td><td>10</td></tr>
-<tr><td>月48時間以上64時間未満</td><td>8</td></tr>
-</table>
-
-<h2>調整点数の代表例</h2>
-<ul>
-<li>ひとり親世帯：<span class="highlight">+3点</span></li>
-<li>認可外保育施設に月ぎめ利用中：<span class="highlight">+2点</span></li>
-<li>生活保護世帯：<span class="highlight">+2点</span></li>
-<li>きょうだいが在園中：<span class="highlight">+1点</span></li>
-<li>育休復帰予定：<span class="highlight">+2点</span></li>
-<li>多子世帯（3人以上）：<span class="highlight">+1点</span></li>
-</ul>
-
-<div class="info-box">
-<p><strong>同点の場合の判定</strong></p>
-<p>総合点数が同じ場合は基準点数の高い者が優先されます。さらに基準点数も同じ場合は所得の低い者から承諾されます。</p>
-</div>`,
-    publishedAt: "2026-04-26",
-    popularity: 60,
-  },
-  {
     slug: "score-up-tips",
     citySlug: "abiko",
     title: "我孫子市で入園点数を上げるコツ　調整点数チェックリスト",

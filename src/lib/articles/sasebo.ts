@@ -59,67 +59,6 @@ const articles: Article[] = [
   },
 
   // ========== 点数・選考 ==========
-  {
-    slug: "scoring-system-guide",
-    citySlug: "sasebo",
-    title: "佐世保市の入園点数のしくみ　基準点・世帯加算・児童加算をやさしく解説",
-    description:
-      "佐世保市の保育園入園選考で使われる「基準点」「世帯加算」「児童加算」の仕組みを、初めての方にもわかるように解説します。",
-    image:
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "点数・選考",
-    categoryColor: "blue",
-    content: `<h2>点数制度の全体像</h2>
-<p>佐世保市の認可保育所等は「先着順」ではなく、<strong>保育の必要性の高い世帯から優先</strong>して利用調整（選考）されます。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>合計点数 ＝ 基準点（保護者1）＋ 基準点（保護者2）＋ 世帯加算 ＋ 児童加算</p>
-</div>
-
-<h2>基準点とは</h2>
-<p>保護者それぞれの「保育を必要とする事由」を点数化したものです。就労の場合、1人あたり<span class="highlight">最大20点</span>、保護者2人の合計で<span class="highlight">最大40点</span>です。</p>
-<table>
-<tr><th>就労状況</th><th>基準点</th></tr>
-<tr><td>月160時間以上</td><td>20</td></tr>
-<tr><td>月150時間以上</td><td>19</td></tr>
-<tr><td>月140時間以上</td><td>18</td></tr>
-<tr><td>月120時間以上</td><td>16</td></tr>
-<tr><td>月100時間以上</td><td>14</td></tr>
-<tr><td>月60時間以上</td><td>10</td></tr>
-</table>
-<p>就労以外にも、疾病・障がい（最大20点）、介護・看護（最大20点）、出産（16点）、就学（最大18点）、求職活動（5点）が定められています。</p>
-
-<h2>世帯加算とは</h2>
-<p>世帯の状況に応じて加点される点数です。複数に該当する場合はそれぞれ加算されます。</p>
-<table>
-<tr><th>項目</th><th>点数</th></tr>
-<tr><td>ひとり親世帯</td><td>+26</td></tr>
-<tr><td>主たる生計維持者の失業（求職活動中）</td><td>+6</td></tr>
-<tr><td>保護者の障害（重度）</td><td>+5</td></tr>
-<tr><td>保護者の障害（その他）</td><td>+4</td></tr>
-<tr><td>単身赴任中</td><td>+3</td></tr>
-<tr><td>多胎児が同時に同一施設を希望</td><td>+2</td></tr>
-<tr><td>育児休業を終了した場合</td><td>+1</td></tr>
-</table>
-
-<h2>児童加算とは</h2>
-<p>利用希望のお子さんの状況に応じた加点です。</p>
-<table>
-<tr><th>項目</th><th>点数</th></tr>
-<tr><td>特別児童扶養手当対象児童</td><td>+3</td></tr>
-<tr><td>障害者手帳・療育手帳を所持</td><td>+2</td></tr>
-<tr><td>地域型保育事業所の卒園児</td><td>+2</td></tr>
-<tr><td>医師からの意見書あり</td><td>+1</td></tr>
-</table>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳細は<a href="https://www.city.sasebo.lg.jp/kodomomirai/hoyou/riyoukijun.html" target="_blank" rel="noopener">佐世保市公式サイト「利用基準について」</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-04-05",
-    popularity: 60,
-  },
 
   // ========== 加点のコツ ==========
   {

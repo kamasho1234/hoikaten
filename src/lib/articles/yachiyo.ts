@@ -57,58 +57,6 @@ const articles: Article[] = [
     popularity: 55,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "yachiyo",
-    title: "八千代市の入園点数のしくみ　基本指数と調整指数を解説",
-    description:
-      "八千代市の保育園入園選考で使われる基本指数と調整指数のしくみを解説します。",
-    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
-    categoryColor: "blue",
-    content: `<h2>八千代市の選考点数とは</h2>
-<p>八千代市の認可保育園は「基本指数＋調整指数」の合計で選考されます。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>選考点数 ＝ 基本指数（父＋母）＋ 調整指数</p>
-</div>
-
-<h2>基本指数（父母各最大20点、合計40点）</h2>
-<p>就労の場合、月160時間以上で満点の<span class="highlight">20点</span>です。</p>
-
-<table>
-<tr><th>月の就労時間</th><th>基本指数</th></tr>
-<tr><td>月160時間以上</td><td>20</td></tr>
-<tr><td>月140時間以上160時間未満</td><td>18</td></tr>
-<tr><td>月120時間以上140時間未満</td><td>16</td></tr>
-<tr><td>月100時間以上120時間未満</td><td>14</td></tr>
-<tr><td>月80時間以上100時間未満</td><td>12</td></tr>
-<tr><td>月64時間以上80時間未満</td><td>10</td></tr>
-</table>
-
-<h2>調整指数の代表例</h2>
-<ul>
-<li>ひとり親世帯：<span class="highlight">+8点</span></li>
-<li>きょうだいが希望施設に在園中：<span class="highlight">+4点</span></li>
-<li>きょうだい同時申込：<span class="highlight">+4点</span></li>
-<li>認可外保育施設に2か月以上利用中：<span class="highlight">+6点</span></li>
-<li>育休から復帰予定：<span class="highlight">+6点</span></li>
-<li>生活保護世帯：<span class="highlight">+3点</span></li>
-</ul>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>その他の加点項目（保育士資格、主たる稼ぎ手の失業、幼稚園卒園児など）も確認できます。</p>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>全項目は八千代市子ども部保育課の公式サイトで確認できます。</p>
-</div>`,
-    publishedAt: "2026-04-07",
-    popularity: 65,
-  },
-  {
     slug: "score-up-tips",
     citySlug: "yachiyo",
     title: "八千代市で入園点数を上げるコツ　加点チェックリスト",

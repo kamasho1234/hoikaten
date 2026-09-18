@@ -56,62 +56,6 @@ const articles: Article[] = [
     popularity: 55,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "kofu",
-    title: "甲府市の入園指数のしくみ　基本指数と調整指数をやさしく解説",
-    description:
-      "甲府市の保育園入園選考で使われる指数制度の仕組みを、初めての方にもわかるように解説します。",
-    image:
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "点数・選考",
-    categoryColor: "blue",
-    content: `<h2>指数制度の全体像</h2>
-<p>甲府市の認可保育施設は<strong>利用調整指数の高い世帯から優先</strong>して入所が決まります。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>利用調整指数 ＝ 父の基本指数（最大15点） ＋ 母の基本指数（最大15点） ＋ 調整指数</p>
-</div>
-
-<h2>基本指数とは</h2>
-<p>保護者それぞれの「保育を必要とする事由」を指数化したものです。1人あたり<span class="highlight">最大15点</span>、父母合計で<span class="highlight">最大30点</span>です。</p>
-<table>
-<tr><th>保育の事由</th><th>指数</th></tr>
-<tr><td>就労：月160時間以上</td><td>20</td></tr>
-<tr><td>就労：月120時間以上160時間未満</td><td>18</td></tr>
-<tr><td>就労：月100時間以上120時間未満</td><td>16</td></tr>
-<tr><td>就労：月80時間以上100時間未満</td><td>14</td></tr>
-<tr><td>就労：月64時間以上80時間未満</td><td>12</td></tr>
-<tr><td>就労：月48時間以上64時間未満</td><td>8</td></tr>
-<tr><td>疾病（入院1ヶ月以上等）</td><td>20</td></tr>
-<tr><td>障害（手帳1・2級等）</td><td>20</td></tr>
-<tr><td>介護・看護（月160時間以上）</td><td>20</td></tr>
-<tr><td>出産前後</td><td>20</td></tr>
-<tr><td>就労内定</td><td>10</td></tr>
-<tr><td>求職活動中</td><td>5</td></tr>
-</table>
-
-<h2>調整指数とは</h2>
-<p>世帯の状況に応じて加算（または減算）される指数です。複数の項目に該当する場合はすべて合算されます。</p>
-<table>
-<tr><th>項目</th><th>指数</th></tr>
-<tr><td>ひとり親家庭</td><td>+13</td></tr>
-<tr><td>きょうだいが希望園に在園</td><td>+25</td></tr>
-<tr><td>生活保護世帯</td><td>+5</td></tr>
-<tr><td>育休・産休明け復帰</td><td>+5</td></tr>
-<tr><td>市外在住</td><td>-10</td></tr>
-<tr><td>転園希望</td><td>-5</td></tr>
-<tr><td>同居祖父母が保育可能</td><td>-3</td></tr>
-</table>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳細な指数表は<a href="https://www.city.kofu.yamanashi.jp/shisetsu/hoiku/index.html" target="_blank" rel="noopener">甲府市公式サイト 子育て・教育</a>からダウンロードできます。</p>
-</div>`,
-    publishedAt: "2026-04-07",
-    popularity: 60,
-  },
-  {
     slug: "katen-no-kotsu",
     citySlug: "kofu",
     title: "甲府市で加点を最大化するコツ　調整指数を積み上げる方法",

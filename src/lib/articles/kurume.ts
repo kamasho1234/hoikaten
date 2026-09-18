@@ -4,63 +4,6 @@ import { registerArticles } from "./index";
 const articles: Article[] = [
   // ===== 点数・選考 (3) =====
   {
-    slug: "scoring-system-guide",
-    citySlug: "kurume",
-    title: "久留米市の入園点数のしくみ｜基本点数と調整点数をやさしく解説",
-    description:
-      "久留米市の保育園入園選考で使われる「基本点数」と「調整点数」の仕組みを初めての方にもわかるように解説します。",
-    image:
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "点数・選考",
-    categoryColor: "blue",
-    content: `<h2>利用調整点数とは？</h2>
-<p>久留米市の保育園入園は「先着順」ではなく、<strong>久留米市保育利用選考基準</strong>に基づいて点数化し、保育を必要とする度合いの高い順に入所児童を選考・決定します。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>利用調整点数 ＝ 基本点数（低い方の保護者） ＋ 調整点数</p>
-</div>
-
-<h2>基本点数とは？</h2>
-<p>父母それぞれの「保育が必要な理由」を点数化したものです。久留米市の特徴は、<span class="highlight">父母のうち低い方の基本点数が世帯の基本点数</span>になることです（min方式）。</p>
-
-<p>就労の場合の基本点数は以下の通りです。</p>
-<table>
-<tr><th>月の勤務時間</th><th>基本点数</th></tr>
-<tr><td>160時間以上</td><td>150</td></tr>
-<tr><td>140時間以上160時間未満</td><td>140</td></tr>
-<tr><td>120時間以上140時間未満</td><td>130</td></tr>
-<tr><td>100時間以上120時間未満</td><td>120</td></tr>
-<tr><td>80時間以上100時間未満</td><td>100</td></tr>
-<tr><td>64時間以上80時間未満</td><td>80</td></tr>
-</table>
-
-<h2>調整点数とは？</h2>
-<p>世帯の特別な事情に応じて加算される点数です。代表的なものは以下の通りです。</p>
-<ul>
-<li>ひとり親世帯：<span class="highlight">+70点</span></li>
-<li>保育士・保育教諭として勤務：<span class="highlight">+70点</span></li>
-<li>きょうだいが同一施設に在園：<span class="highlight">+60点</span></li>
-<li>多胎児が同時に申込：<span class="highlight">+50点</span></li>
-<li>きょうだいが同時に申込：<span class="highlight">+30点</span></li>
-<li>育休明け復職予定：<span class="highlight">+15点</span></li>
-<li>生活保護世帯：<span class="highlight">+15点</span></li>
-<li>単身赴任：<span class="highlight">+15点</span></li>
-</ul>
-
-<div class="warn-box">
-<p><strong>注意</strong></p>
-<p>調整点数は複数の項目に該当する場合、それぞれを加算します。ただし、きょうだい同一施設（+60点）ときょうだい同時申込（+30点）は、高い方のみ適用されます。</p>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>選考基準の全項目は<a href="https://www.city.kurume.fukuoka.jp/1060manabi/2010kosodate/3090hoikusho/hoikusyoriyou0416.html" target="_blank" rel="noopener">久留米市公式サイト「保育所等の入所を希望される方」</a>でご確認ください。</p>
-</div>`,
-    publishedAt: "2026-04-05",
-    popularity: 60,
-  },
-  {
     slug: "score-up-checklist",
     citySlug: "kurume",
     title: "久留米市で調整点数を最大化する方法｜加点チェックリスト",

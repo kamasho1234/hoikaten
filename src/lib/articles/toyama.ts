@@ -60,64 +60,6 @@ const articles: Article[] = [
     popularity: 55,
   },
   {
-    slug: "scoring-system",
-    citySlug: "toyama",
-    title: "富山市の保育園入園｜点数の仕組みと計算方法をやさしく解説",
-    description:
-      "富山市の保育所等入所利用調整基準をもとに、基礎点数と調整項目の仕組み・計算方法をわかりやすく解説します。",
-    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=400&fit=crop",
-    category: "点数の仕組み",
-    categoryColor: "blue",
-    content: `<h2>富山市の点数制度のしくみ</h2>
-<p>富山市では「<strong>基礎点数</strong>」と「<strong>調整（加算・減算）項目</strong>」で入園の優先順位が決まります。</p>
-
-<h3>計算の流れ</h3>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content">
-<strong>父母それぞれの基礎点数を出す</strong>
-<p>就労・疾病・障害・介護・出産・就学・求職などの理由ごとに点数が付きます。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content">
-<strong>低い方を採用して比較する</strong>
-<p>父母の基礎点数のうち、<strong>低い方</strong>が採用されます。点数の高い家庭が優先されます。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content">
-<strong>同点の場合は調整項目で判定</strong>
-<p>基礎点数が同点の場合、調整（加算・減算）項目の合計で優先順位が決まります。</p>
-</div>
-</div>
-
-<h3>基礎点数の例（居宅外労働の場合）</h3>
-<table>
-<tr><th>月の実働時間</th><th>基礎点数</th></tr>
-<tr><td>月160時間以上</td><td>11点</td></tr>
-<tr><td>月140〜160時間未満</td><td>10点</td></tr>
-<tr><td>月120〜140時間未満</td><td>9点</td></tr>
-<tr><td>月100〜120時間未満</td><td>8点</td></tr>
-<tr><td>月80〜100時間未満</td><td>7点</td></tr>
-<tr><td>月64〜80時間未満</td><td>6点</td></tr>
-</table>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>富山市は「低い方を採用」する方式です。両親ともフルタイムで11点でも、基礎点数は11点。同点の場合は調整項目の合計で差がつきます。</p>
-</div>
-
-<div class="info-box">
-<p><strong>出典</strong></p>
-<p>富山市保育所等入所利用調整に関する基準（令和3年2月12日施行）に基づいています。</p>
-</div>`,
-    publishedAt: "2026-04-05",
-    popularity: 58,
-  },
-  {
     slug: "score-up-tips",
     citySlug: "toyama",
     title: "富山市の保育園入園｜加点のコツ・点数アップ戦略",

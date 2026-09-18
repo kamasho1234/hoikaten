@@ -56,55 +56,6 @@ const articles: Article[] = [
     popularity: 55,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "obihiro",
-    title: "帯広市の入園点数のしくみ　基本点数と調整点数をやさしく解説",
-    description:
-      "帯広市の保育園入園選考で使われる点数制度の仕組みを、初めての方にもわかるように解説します。",
-    image:
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "点数・選考",
-    categoryColor: "blue",
-    content: `<h2>点数制度の全体像</h2>
-<p>帯広市の認可保育施設は<strong>合計点数の高い世帯から優先</strong>して利用調整されます。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>合計点数 ＝ 基本点数（父＋母）＋ 調整点数</p>
-</div>
-
-<h2>基本点数とは</h2>
-<p>保護者それぞれの「保育を必要とする事由」を点数化したものです。1人あたり<span class="highlight">最大20点</span>（フルタイム就労の場合）で、父母の合算が基本点数になります。</p>
-<table>
-<tr><th>就労時間（月あたり）</th><th>基本点数</th></tr>
-<tr><td>160時間以上（フルタイム）</td><td>20</td></tr>
-<tr><td>120時間以上160時間未満</td><td>18</td></tr>
-<tr><td>80時間以上120時間未満</td><td>16</td></tr>
-<tr><td>64時間以上80時間未満</td><td>14</td></tr>
-<tr><td>48時間以上64時間未満</td><td>12</td></tr>
-</table>
-
-<h2>調整点数とは</h2>
-<p>世帯の状況に応じて加減される点数です。複数の項目に該当する場合はすべて加算されます。</p>
-<table>
-<tr><th>項目</th><th>点数</th></tr>
-<tr><td>きょうだいと同じ施設のみ希望</td><td>+10</td></tr>
-<tr><td>小規模保育事業等の卒園児</td><td>+5</td></tr>
-<tr><td>保育士等として認可保育施設に勤務</td><td>+5</td></tr>
-<tr><td>ひとり親家庭</td><td>+3</td></tr>
-<tr><td>きょうだい在園（1人）</td><td>+3</td></tr>
-<tr><td>就学前児童が他にいる（1人あたり）</td><td>+2</td></tr>
-<tr><td>申し込み児童に障害等がある</td><td>+2</td></tr>
-</table>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳細な利用調整基準は<a href="https://www.city.obihiro.hokkaido.jp/kyoiku/kosodate/hoiku/1010107.html" target="_blank" rel="noopener">帯広市こども未来部子育て支援課</a>にお問い合わせください。</p>
-</div>`,
-    publishedAt: "2026-04-07",
-    popularity: 60,
-  },
-  {
     slug: "katen-no-kotsu",
     citySlug: "obihiro",
     title: "帯広市で加点を最大化するコツ　調整点数を積み上げる方法",

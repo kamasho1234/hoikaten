@@ -56,63 +56,6 @@ const articles: Article[] = [
     popularity: 55,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "shimonoseki",
-    title: "下関市の入園点数のしくみ　基準指数と調整指数をやさしく解説",
-    description:
-      "下関市の保育園入園選考で使われる選考指数の仕組みを、初めての方にもわかるように解説します。",
-    image:
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "点数・選考",
-    categoryColor: "blue",
-    content: `<h2>選考指数の全体像</h2>
-<p>下関市の認可保育施設は<strong>選考指数の高い世帯から優先</strong>して利用調整されます。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>選考指数 ＝ 基準指数（父母いずれか低い方） ＋ 調整指数</p>
-</div>
-
-<h2>基準指数とは</h2>
-<p>保護者それぞれの「保育を必要とする事由」を点数化したものです。下関市では<strong>父母いずれか低い方の点数</strong>を基準指数として採用します。フルタイム就労（月170時間以上）の場合は<span class="highlight">10点</span>です。</p>
-<table>
-<tr><th>就労時間（月あたり・休憩含む）</th><th>基準指数</th></tr>
-<tr><td>月170時間以上</td><td>10</td></tr>
-<tr><td>月150時間以上</td><td>9</td></tr>
-<tr><td>月130時間以上</td><td>8</td></tr>
-<tr><td>月110時間以上</td><td>7</td></tr>
-<tr><td>月90時間以上</td><td>6</td></tr>
-<tr><td>月70時間以上</td><td>5</td></tr>
-<tr><td>月52時間以上</td><td>4</td></tr>
-</table>
-
-<h2>調整指数とは</h2>
-<p>世帯の状況に応じて加点・減点される点数です。複数の項目に該当する場合はすべて合算されます。</p>
-<table>
-<tr><th>項目</th><th>点数</th></tr>
-<tr><td>保育施設の統廃合による転園</td><td>+10</td></tr>
-<tr><td>育休延長退園からの再入園</td><td>+5</td></tr>
-<tr><td>里帰り出産等退園からの再入園</td><td>+5</td></tr>
-<tr><td>医療的ケア児</td><td>+5</td></tr>
-<tr><td>保育士・保育教諭として勤務</td><td>+4</td></tr>
-<tr><td>ひとり親（祖父母非同居）</td><td>+4</td></tr>
-<tr><td>両親不存在</td><td>+4</td></tr>
-<tr><td>兄弟姉妹が在籍する園を希望</td><td>+3</td></tr>
-</table>
-
-<div class="warn-box">
-<p><strong>注意</strong></p>
-<p>下関市では「父母いずれか低い方」の基準指数が採用されます。片方がフルタイム（10点）でも、もう片方がパート（4点）なら基準指数は4点です。</p>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳細な利用調整基準は<a href="https://www.city.shimonoseki.lg.jp/soshiki/45/4626.html" target="_blank" rel="noopener">下関市公式サイト「保育園・こども園の入園手続きについて」</a>から「利用調整に関する要領」PDFをダウンロードできます。</p>
-</div>`,
-    publishedAt: "2026-04-05",
-    popularity: 60,
-  },
-  {
     slug: "katen-no-kotsu",
     citySlug: "shimonoseki",
     title: "下関市で加点を最大化するコツ　調整指数を積み上げる方法",

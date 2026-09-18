@@ -51,18 +51,6 @@ const articles: Article[] = [
     popularity: 46,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "matsusaka",
-    title: "松阪市の入園点数のしくみ　基本点数と調整指数をやさしく解説",
-    description: "松阪市の保育所利用調整で使われる基本点数と調整指数の仕組みを、初めての方にもわかるように解説します。",
-    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
-    categoryColor: "blue",
-    content: `<h2>調整指数とは？</h2><p>世帯の特別な事情に応じて加減される点数です。松阪市の主な調整指数は以下の通りです。</p><h3>主な加算項目</h3><ul><li>ひとり親世帯（同居人がない場合）：+20点</li><li>ひとり親世帯（その他）：+10点</li><li>きょうだいが希望施設に在園中：+12点</li><li>きょうだいで同時申込み（2人）：+6点</li><li>きょうだいで同時申込み（3人以上）：+9点</li><li>生活保護受給：+18点</li><li>認可外保育施設に月ぎめで利用中：+1点</li><li>育児休業から復帰予定（入園月に復職）：+5点</li></ul>`,
-    publishedAt: "2026-05-11",
-    popularity: 43,
-  },
-  {
     slug: "selection-process",
     citySlug: "matsusaka",
     title: "松阪市の保育所選考フロー　書類提出から入所決定まで",

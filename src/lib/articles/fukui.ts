@@ -56,66 +56,6 @@ const articles: Article[] = [
     popularity: 55,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "fukui",
-    title: "福井市の入園点数のしくみ　基本点数と調整点数をやさしく解説",
-    description:
-      "福井市の保育園入園選考で使われる点数制度の仕組みを、初めての方にもわかるように解説します。",
-    image:
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "点数・選考",
-    categoryColor: "blue",
-    content: `<h2>点数制度の全体像</h2>
-<p>福井市の認可保育施設は<strong>利用調整点数の高い世帯から優先</strong>して入所が決まります。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>利用調整点数 ＝ 父母のうち基本点数の<span class="highlight">低い方</span> ＋ 調整点数</p>
-</div>
-
-<p>福井市の大きな特徴は、父母それぞれの基本点数を算出し、<strong>低い方を採用する</strong>点です。多くの自治体が合算方式を採るなか、福井市では「保育の必要性が低い方の保護者」に注目する仕組みになっています。</p>
-
-<h2>基本点数とは</h2>
-<p>保護者それぞれの「保育を必要とする事由」を点数化したものです。1人あたり<span class="highlight">最大11点</span>です。</p>
-<table>
-<tr><th>保育の事由</th><th>点数</th></tr>
-<tr><td>就労：月150時間以上</td><td>11</td></tr>
-<tr><td>就労：月140〜150時間未満</td><td>10</td></tr>
-<tr><td>就労：月120〜140時間未満</td><td>9</td></tr>
-<tr><td>就労：月100〜120時間未満</td><td>8</td></tr>
-<tr><td>就労：月64〜100時間未満</td><td>7</td></tr>
-<tr><td>入院等で相当の治療が必要</td><td>10</td></tr>
-<tr><td>身体障害者手帳1・2級等</td><td>9</td></tr>
-<tr><td>常時介護・看護が必要</td><td>9</td></tr>
-<tr><td>災害復旧</td><td>11</td></tr>
-<tr><td>就学：月120時間以上</td><td>8</td></tr>
-<tr><td>妊娠・出産</td><td>5</td></tr>
-<tr><td>求職活動</td><td>3</td></tr>
-</table>
-
-<h2>調整点数とは</h2>
-<p>世帯の状況に応じて加算される点数です。複数の項目に該当する場合はすべて合算されます。</p>
-<table>
-<tr><th>項目</th><th>点数</th></tr>
-<tr><td>保育教諭・保育士として市内勤務</td><td>+4</td></tr>
-<tr><td>きょうだいが保育理由で入所中の施設へ申込み</td><td>+4</td></tr>
-<tr><td>ひとり親家庭</td><td>+3</td></tr>
-<tr><td>生活保護世帯（就労自立支援見込み）</td><td>+2</td></tr>
-<tr><td>同日出生きょうだい（多胎児）同時申込み</td><td>+2</td></tr>
-<tr><td>きょうだいが保育以外で入所中の施設へ申込み</td><td>+2</td></tr>
-<tr><td>育児休業後の復職</td><td>+1</td></tr>
-<tr><td>きょうだい同時申込み</td><td>+1</td></tr>
-<tr><td>生計中心者の失業で就労必要性が高い</td><td>+1</td></tr>
-</table>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳細な点数表は<a href="https://www.city.fukui.lg.jp/fukusi/kosodate/hoikuen/p071541.html" target="_blank" rel="noopener">福井市保育の提供に係る教育・保育給付認定等事務取扱要綱</a>で確認できます。</p>
-</div>`,
-    publishedAt: "2026-04-05",
-    popularity: 60,
-  },
-  {
     slug: "katen-no-kotsu",
     citySlug: "fukui",
     title: "福井市で加点を最大化するコツ　調整点数を積み上げる方法",

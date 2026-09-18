@@ -57,52 +57,6 @@ const articles: Article[] = [
     popularity: 55,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "higashihiroshima",
-    title: "東広島市の入園点数のしくみ　基準指数と調整指数を解説",
-    description:
-      "東広島市の保育園入園選考で使われる基準指数と調整指数のしくみを解説します。",
-    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
-    categoryColor: "blue",
-    content: `<h2>東広島市の選考指数とは</h2>
-<p>東広島市の認可保育園の入園選考は「基準指数＋調整指数」の合計で行われます。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>選考指数 = 基準指数（保護者1 + 保護者2）+ 調整指数</p>
-</div>
-
-<h2>基準指数（父母各最大20点、合計40点）</h2>
-<p>就労の場合、月20日以上かつ週40時間以上で満点の<span class="highlight">20点</span>です。</p>
-
-<table>
-<tr><th>勤務の状況</th><th>指数</th></tr>
-<tr><td>月20日以上・週40時間以上</td><td>20</td></tr>
-<tr><td>月20日以上・週30時間以上</td><td>18</td></tr>
-<tr><td>月16日以上・週24時間以上</td><td>16</td></tr>
-<tr><td>月12日以上・週16時間以上</td><td>14</td></tr>
-<tr><td>月64時間以上（上記以外）</td><td>10</td></tr>
-</table>
-
-<h2>調整指数の代表例</h2>
-<ul>
-<li>ひとり親世帯：<span class="highlight">+5点</span></li>
-<li>きょうだいが在園中の施設を希望：<span class="highlight">+3点</span></li>
-<li>認可外保育施設を利用中：<span class="highlight">+3点</span></li>
-<li>育児休業から復帰予定：<span class="highlight">+2点</span></li>
-<li>生活保護世帯：<span class="highlight">+3点</span></li>
-<li>市外からの申込み：<span class="highlight">-10点</span></li>
-</ul>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>全項目は<a href="https://www.city.higashihiroshima.lg.jp/soshiki/kodomomirai/" target="_blank" rel="noopener">東広島市公式サイト</a>で確認できます。</p>
-</div>`,
-    publishedAt: "2026-04-07",
-    popularity: 65,
-  },
-  {
     slug: "score-up-tips",
     citySlug: "higashihiroshima",
     title: "東広島市で入園点数を上げるコツ　加点を最大化する方法",

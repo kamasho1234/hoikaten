@@ -57,56 +57,6 @@ const articles: Article[] = [
     popularity: 60,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "tama",
-    title: "多摩市の入園点数のしくみ　基本指数と調整指数を解説",
-    description:
-      "多摩市の保育園入園選考で使われる基本指数と調整指数のしくみをわかりやすく解説します。",
-    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "点数を知る",
-    categoryColor: "blue",
-    content: `<h2>多摩市の選考指数とは</h2>
-<p>多摩市の認可保育園は「基本指数（父＋母）＋ 調整指数」の合計で選考されます。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>利用調整指数 ＝ 基本指数（父＋母）＋ 調整指数</p>
-</div>
-
-<h2>基本指数（父母各最大20点、合計40点）</h2>
-<p>就労の場合、月20日以上かつ日8時間以上の就労で満点の<span class="highlight">20点</span>です。</p>
-
-<table>
-<tr><th>就労条件</th><th>指数</th></tr>
-<tr><td>月20日以上かつ日8時間以上</td><td>20</td></tr>
-<tr><td>月20日以上かつ日6時間以上</td><td>18</td></tr>
-<tr><td>月16日以上かつ日6時間以上</td><td>16</td></tr>
-<tr><td>月16日以上かつ日4時間以上</td><td>14</td></tr>
-<tr><td>月12日以上かつ日4時間以上</td><td>12</td></tr>
-<tr><td>月64時間以上</td><td>10</td></tr>
-</table>
-
-<h2>調整指数の代表例</h2>
-<ul>
-<li>ひとり親世帯：<span class="highlight">+5点</span></li>
-<li>きょうだい在園：<span class="highlight">+3点</span></li>
-<li>認可外保育施設利用：<span class="highlight">+3点</span></li>
-<li>生活保護世帯：<span class="highlight">+3点</span></li>
-<li>きょうだい同時申込：<span class="highlight">+2点</span></li>
-<li>育休復帰予定：<span class="highlight">+2点</span></li>
-<li>市外からの申込：<span class="highlight">-10点</span></li>
-<li>同居親族が保育可能：<span class="highlight">-3点</span></li>
-<li>転園希望：<span class="highlight">-5点</span></li>
-</ul>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>全項目は<a href="https://www.city.tama.lg.jp/" target="_blank" rel="noopener">多摩市公式サイト</a>の「保育所等利用申込みのご案内」で確認できます。</p>
-</div>`,
-    publishedAt: "2026-04-07",
-    popularity: 70,
-  },
-  {
     slug: "work-points-detail",
     citySlug: "tama",
     title: "多摩市の就労点数を詳しく解説　日数と時間の組み合わせ",

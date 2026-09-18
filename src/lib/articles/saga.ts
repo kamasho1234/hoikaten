@@ -61,59 +61,6 @@ const articles: Article[] = [
 
   // ========== 点数・選考 ==========
   {
-    slug: "scoring-system-guide",
-    citySlug: "saga",
-    title: "佐賀市の入園点数のしくみ　基本指数と調整指数をやさしく解説",
-    description:
-      "佐賀市の保育園入園選考で使われる「基本指数」と「調整指数」の仕組みを、初めての方にもわかるように解説します。",
-    image:
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "点数・選考",
-    categoryColor: "blue",
-    content: `<h2>点数制度の全体像</h2>
-<p>佐賀市の認可保育所等は「先着順」ではなく、<strong>選考点数の高い世帯から優先</strong>して利用調整（選考）されます。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>選考点数 ＝ 基本指数（保護者1）＋ 基本指数（保護者2）＋ 調整指数</p>
-</div>
-
-<h2>基本指数とは</h2>
-<p>保護者それぞれの「保育を必要とする事由」を点数化したものです。1人あたり<span class="highlight">最大10点</span>（就労の場合）、保護者2人の合計で<span class="highlight">最大20点</span>です。</p>
-<table>
-<tr><th>就労状況</th><th>基本指数</th></tr>
-<tr><td>月160時間以上</td><td>10</td></tr>
-<tr><td>月140時間以上160時間未満</td><td>9</td></tr>
-<tr><td>月120時間以上140時間未満</td><td>8</td></tr>
-<tr><td>月100時間以上120時間未満</td><td>7</td></tr>
-<tr><td>月80時間以上100時間未満</td><td>6</td></tr>
-<tr><td>月64時間以上80時間未満</td><td>5</td></tr>
-</table>
-<p>就労以外にも、妊娠・産後、疾病・障害、介護・看護、求職活動などの事由ごとに基本指数が定められています。</p>
-
-<h2>調整指数とは</h2>
-<p>世帯の状況に応じて加点・減点される点数です。佐賀市は加点の幅が大きいのが特徴で、基本指数が低くても調整指数で大幅に有利になる可能性があります。</p>
-<table>
-<tr><th>項目</th><th>点数</th></tr>
-<tr><td>ひとり親世帯</td><td>+35</td></tr>
-<tr><td>生活保護受給中</td><td>+30</td></tr>
-<tr><td>保育士として市内保育施設に従事</td><td>+30</td></tr>
-<tr><td>きょうだいが佐賀市内の保育施設に在園し、同じ施設を希望</td><td>+15</td></tr>
-<tr><td>育児休業から復帰予定</td><td>+5</td></tr>
-<tr><td>16歳未満の子どもが3人以上</td><td>+1</td></tr>
-<tr><td>昨年度入所内定をキャンセル</td><td>-3</td></tr>
-<tr><td>保育料滞納（3～12か月未満）</td><td>-1</td></tr>
-<tr><td>保育料滞納（12か月以上）</td><td>-10</td></tr>
-</table>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳細な選考基準表は<a href="https://www.city.saga.lg.jp/main/808.html" target="_blank" rel="noopener">佐賀市公式サイト</a>で公開されている利用調整基準表に掲載されています。</p>
-</div>`,
-    publishedAt: "2026-04-07",
-    popularity: 60,
-  },
-  {
     slug: "fulltime-40-line",
     citySlug: "saga",
     title: "フルタイム共働き40点は安心？佐賀市のボーダーライン事情",

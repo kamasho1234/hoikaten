@@ -53,58 +53,6 @@ const articles: Article[] = [
     popularity: 55,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "nagano",
-    title: "長野市の入園点数のしくみ　基本点数と調整点数をやさしく解説",
-    description:
-      "長野市の保育園入園選考で使われる点数制度の仕組みを、初めての方にもわかるように解説します。",
-    image:
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "点数・選考",
-    categoryColor: "blue",
-    content: `<h2>点数制度の全体像</h2>
-<p>長野市の認可保育施設は<strong>利用調整点数の高い世帯から優先</strong>して入所が決まります。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>利用調整点数 ＝ 保護者のうち基本点数の低い方 ＋ 調整点数</p>
-</div>
-
-<h2>基本点数とは</h2>
-<p>保護者それぞれの「保育を必要とする事由」を点数化したものです。1人あたり<span class="highlight">最大100点</span>です。保護者のうち点数の低い方が基本点数になります。</p>
-<table>
-<tr><th>保育の事由</th><th>基本点</th></tr>
-<tr><td>就労A（雇用）：月160時間以上</td><td>100</td></tr>
-<tr><td>就労A（雇用）：月140〜160時間未満</td><td>95</td></tr>
-<tr><td>就労A（雇用）：月120〜140時間未満</td><td>90</td></tr>
-<tr><td>就労B（自営等）：月160時間以上</td><td>90</td></tr>
-<tr><td>妊娠・出産（6週前〜8週後）</td><td>90</td></tr>
-<tr><td>入院・常時臥床・障害（1・2級等）</td><td>100</td></tr>
-<tr><td>災害復旧</td><td>100</td></tr>
-<tr><td>求職活動中</td><td>20</td></tr>
-</table>
-
-<h2>調整点数とは</h2>
-<p>世帯の状況に応じて加算される点数です。複数の項目に該当する場合は重複して加算されます。</p>
-<table>
-<tr><th>項目</th><th>調整点</th></tr>
-<tr><td>ひとり親世帯</td><td>+40</td></tr>
-<tr><td>育休明け（きょうだいが利用中の施設を希望）</td><td>+35</td></tr>
-<tr><td>育休明け（きょうだい同時入所希望）</td><td>+25</td></tr>
-<tr><td>保育士等として長野市内で勤務</td><td>+20</td></tr>
-<tr><td>生計中心者の失業</td><td>+15</td></tr>
-<tr><td>子どもが障がいの手帳交付を受けている</td><td>+10</td></tr>
-<tr><td>第3子以降</td><td>+5</td></tr>
-</table>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳細な基準表は<a href="https://www.city.nagano.nagano.jp/n117000/kosodate/p001543.html" target="_blank" rel="noopener">長野市公式サイト「令和8年度保育施設の利用申し込み」</a>からダウンロードできます。</p>
-</div>`,
-    publishedAt: "2026-04-05",
-    popularity: 60,
-  },
-  {
     slug: "katen-no-kotsu",
     citySlug: "nagano",
     title: "長野市で加点を最大化するコツ　調整点数を積み上げる方法",

@@ -57,53 +57,6 @@ const articles: Article[] = [
     popularity: 55,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "konosu",
-    title: "鴻巣市の入園点数のしくみ　基本指数と調整指数を解説",
-    description:
-      "鴻巣市の保育園入園選考で使われる基本指数と調整指数のしくみをわかりやすく解説します。",
-    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
-    categoryColor: "blue",
-    content: `<h2>鴻巣市の選考点数とは</h2>
-<p>鴻巣市の認可保育園は「基本指数（父＋母）＋ 調整指数」の合計で選考されます。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>総合点数 ＝ 基本指数（父＋母）＋ 調整指数</p>
-</div>
-
-<h2>基本指数（父母各最大30点（虐待・DV等は75点））</h2>
-<p>就労の場合、月160時間以上の就労で満点の<span class="highlight">30点</span>です。</p>
-
-<table>
-<tr><th>月の就労時間</th><th>点数</th></tr>
-<tr><td>月160時間以上</td><td>30</td></tr>
-<tr><td>月120時間以上160時間未満</td><td>27</td></tr>
-<tr><td>月80時間以上120時間未満</td><td>24</td></tr>
-<tr><td>月64時間以上80時間未満</td><td>21</td></tr>
-<tr><td>月48時間以上64時間未満</td><td>18</td></tr>
-<tr><td>月36時間以上48時間未満</td><td>15</td></tr>
-</table>
-
-<h2>調整指数の代表例</h2>
-<ul>
-<li>ひとり親世帯（18歳以上同居者なし）：<span class="highlight">+54点</span></li>
-<li>保育従事者（保育士・看護師）の勤務：<span class="highlight">+20～40点</span></li>
-<li>生活保護受給世帯：<span class="highlight">+15点</span></li>
-<li>生計中心者の失業：<span class="highlight">+20点</span></li>
-<li>認可外保育施設に月ぎめ利用中：<span class="highlight">+3点</span></li>
-<li>復職予定（育休復帰）：<span class="highlight">+3点</span></li>
-</ul>
-
-<div class="info-box">
-<p><strong>同点の場合の判定</strong></p>
-<p>総合点数が同じ場合は基本指数の高い者が優先されます。さらに基本指数も同じ場合は所得の低い者から承諾されます。</p>
-</div>`,
-    publishedAt: "2026-04-26",
-    popularity: 60,
-  },
-  {
     slug: "score-up-tips",
     citySlug: "konosu",
     title: "鴻巣市で入園点数を上げるコツ　調整指数チェックリスト",

@@ -57,54 +57,6 @@ const articles: Article[] = [
     popularity: 55,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "taito",
-    title: "台東区の入園点数のしくみ　基本指数と調整指数を解説",
-    description:
-      "台東区の保育園入園選考で使われる点数制度のしくみを解説します。父母各20点満点の基本指数と調整指数の全体像をまとめました。",
-    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
-    categoryColor: "blue",
-    content: `<h2>台東区の選考指数とは</h2>
-<p>台東区の認可保育園は「基本指数＋調整指数」の合計で選考されます。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>選考指数 ＝ 基本指数（父＋母）＋ 調整指数</p>
-</div>
-
-<h2>基本指数（父母各最大20点、合計40点）</h2>
-<p>台東区の基本指数は父母それぞれ最大<span class="highlight">20点</span>です。就労の場合、月20日以上かつ1日8時間以上で満点の20点になります。</p>
-
-<table>
-<tr><th>就労の状況</th><th>指数</th></tr>
-<tr><td>月20日以上・1日8時間以上</td><td>20</td></tr>
-<tr><td>月20日以上・1日7時間以上8時間未満</td><td>19</td></tr>
-<tr><td>月20日以上・1日6時間以上7時間未満</td><td>18</td></tr>
-<tr><td>月20日以上・1日5時間以上6時間未満</td><td>17</td></tr>
-<tr><td>月16日以上・1日8時間以上</td><td>18</td></tr>
-<tr><td>月16日以上・1日6時間以上8時間未満</td><td>16</td></tr>
-<tr><td>月48時間以上（上記以外）</td><td>10</td></tr>
-</table>
-
-<h2>調整指数の代表例</h2>
-<ul>
-<li>ひとり親世帯：<span class="highlight">+20点</span></li>
-<li>認可外保育施設に月ぎめで預けている：<span class="highlight">+8点</span></li>
-<li>育休復帰予定：<span class="highlight">+7点</span></li>
-<li>きょうだい在園（希望園に在園中）：<span class="highlight">+4点</span></li>
-<li>生活保護世帯：<span class="highlight">+3点</span></li>
-<li>単身赴任：<span class="highlight">+2点</span></li>
-</ul>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>全項目は<a href="https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennogoannai/nyushokijyun.html" target="_blank" rel="noopener">台東区公式サイト</a>で確認できます。</p>
-</div>`,
-    publishedAt: "2026-03-28",
-    popularity: 65,
-  },
-  {
     slug: "score-up-tips",
     citySlug: "taito",
     title: "台東区で入園点数を上げるコツ　加点チェックリスト",

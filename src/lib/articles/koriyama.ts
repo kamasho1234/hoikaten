@@ -57,67 +57,6 @@ const articles: Article[] = [
     popularity: 60,
   },
   // ===== 点数・選考 (2) =====
-  {
-    slug: "scoring-system-guide",
-    citySlug: "koriyama",
-    title: "郡山市の入園点数のしくみ　利用調整点数表をやさしく解説",
-    description:
-      "郡山市の保育園入園選考で使われる利用調整点数制度を初めての方にもわかるように解説します。",
-    image:
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "点数・選考",
-    categoryColor: "blue",
-    content: `<h2>利用調整点数の全体像</h2>
-<p>郡山市の認可保育施設は<strong>利用調整点数の高い世帯から優先</strong>して入所が決まります。</p>
-
-<div class="point-box">
-<p><strong>計算式</strong></p>
-<p>利用調整点数 ＝ ⑤保護者等の就労状況等の点数（父＋母）＋ ⑥調整の点数</p>
-</div>
-
-<h2>⑤ 保護者等の就労状況等（基本点数）</h2>
-<p>保護者それぞれの「保育を必要とする事由」に応じた点数が付きます。両親分を合算します。</p>
-<table>
-<tr><th>保育の事由</th><th>点数</th></tr>
-<tr><td>就労：月140時間以上</td><td>200</td></tr>
-<tr><td>就労：月110〜140時間未満</td><td>180</td></tr>
-<tr><td>就労：月90〜110時間未満</td><td>160</td></tr>
-<tr><td>就労：月80〜90時間未満</td><td>140</td></tr>
-<tr><td>就労：月65〜80時間未満</td><td>120</td></tr>
-<tr><td>就労：月52〜65時間未満</td><td>100</td></tr>
-<tr><td>妊娠・出産</td><td>210</td></tr>
-<tr><td>疾病（入院・自宅療養）</td><td>260</td></tr>
-<tr><td>障害（手帳1級等）</td><td>260</td></tr>
-<tr><td>不存在（行方不明等）</td><td>230</td></tr>
-<tr><td>就学</td><td>200</td></tr>
-<tr><td>求職活動</td><td>50</td></tr>
-<tr><td>災害復旧</td><td>300</td></tr>
-</table>
-
-<h2>⑥ 調整点数（加算・減算）</h2>
-<p>世帯の状況に応じて加算や減算が行われます。複数該当する場合は合算されます。</p>
-<table>
-<tr><th>項目</th><th>点数</th></tr>
-<tr><td>3歳対象施設を希望</td><td>+250</td></tr>
-<tr><td>退所後の再入所希望</td><td>+200</td></tr>
-<tr><td>兄弟同時申請（同年齢）</td><td>+200</td></tr>
-<tr><td>兄弟同時申請（異年齢）/兄弟在所中</td><td>+160</td></tr>
-<tr><td>保育士等として勤務</td><td>+170</td></tr>
-<tr><td>兄弟が自宅保育/幼稚園通園</td><td>-30</td></tr>
-</table>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>郡山市は他の自治体と比べて点数が大きいのが特徴です。フルタイム共働きの場合、基本点数だけで200×2＝400点になります。同点の場合は優先順位表（虐待・DV→疾病・障害→介護→ひとり親の順）で判定されます。</p>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳細は<a href="https://www.city.koriyama.lg.jp/site/kosodate/7048.html" target="_blank" rel="noopener">郡山市公式サイト「認可保育施設入所の案内」</a>で「事務取扱要領」PDFをご確認ください。</p>
-</div>`,
-    publishedAt: "2026-04-05",
-    popularity: 55,
-  },
   // ===== 保活の基本 (3) =====
   {
     slug: "required-documents",

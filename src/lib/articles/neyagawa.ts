@@ -57,57 +57,6 @@ const articles: Article[] = [
     popularity: 55,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "neyagawa",
-    title: "寝屋川市の点数の仕組みと計算方法　基本指数と調整指数を解説",
-    description:
-      "寝屋川市の保育園入園選考で使われる基本指数と調整指数の仕組みを解説します。",
-    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
-    categoryColor: "blue",
-    content: `<h2>寝屋川市の選考点数とは</h2>
-<p>寝屋川市の認可保育園の入園選考は「基本指数（保護者1 + 保護者2）＋ 調整指数」の合計で行われます。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>選考点数 = 基本指数（保護者1 + 保護者2）+ 調整指数</p>
-</div>
-
-<h2>基本指数（父母各最大20点、合計40点）</h2>
-<p>就労の場合、月160時間以上（週40時間以上）で満点の<span class="highlight">20点</span>です。</p>
-
-<table>
-<tr><th>勤務の状況</th><th>基本指数</th></tr>
-<tr><td>月160時間以上（週40時間以上）</td><td>20</td></tr>
-<tr><td>月140時間以上（週35時間以上）</td><td>18</td></tr>
-<tr><td>月120時間以上（週30時間以上）</td><td>16</td></tr>
-<tr><td>月96時間以上（週24時間以上）</td><td>14</td></tr>
-<tr><td>月64時間以上（週16時間以上）</td><td>12</td></tr>
-<tr><td>月48時間以上（週12時間以上）</td><td>10</td></tr>
-<tr><td>求職活動中</td><td>6</td></tr>
-</table>
-
-<h2>調整指数の代表例</h2>
-<ul>
-<li>ひとり親世帯：<span class="highlight">+5点</span></li>
-<li>きょうだい在園中の施設を希望：<span class="highlight">+3点</span></li>
-<li>認可外保育施設を利用中：<span class="highlight">+3点</span></li>
-<li>生活保護受給世帯：<span class="highlight">+3点</span></li>
-<li>きょうだい同時申込：<span class="highlight">+2点</span></li>
-<li>育休復帰：<span class="highlight">+2点</span></li>
-<li>同居祖父母あり：<span class="highlight">-3点</span></li>
-<li>転園希望：<span class="highlight">-5点</span></li>
-<li>市外からの申込：<span class="highlight">-10点</span></li>
-</ul>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>全項目は<a href="https://www.city.neyagawa.osaka.jp/organization_list/kodomo/hoikuka/index.html" target="_blank" rel="noopener">寝屋川市公式サイト「保育施設等の利用案内」</a>で確認できます。</p>
-</div>`,
-    publishedAt: "2026-04-07",
-    popularity: 60,
-  },
-  {
     slug: "score-up-tips",
     citySlug: "neyagawa",
     title: "寝屋川市の加点のコツ　点数アップ戦略と調整指数の活用法",

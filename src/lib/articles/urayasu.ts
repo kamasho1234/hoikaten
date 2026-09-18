@@ -57,63 +57,6 @@ const articles: Article[] = [
     popularity: 55,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "urayasu",
-    title: "浦安市の入園点数のしくみ　基本指数と調整指数を解説",
-    description:
-      "浦安市の保育園入園選考で使われる基本指数と調整指数のしくみを解説します。",
-    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
-    categoryColor: "blue",
-    content: `<h2>浦安市の選考点数とは</h2>
-<p>浦安市の認可保育園は「基本指数＋調整指数」の合計で選考されます。浦安市こども部保育幼稚園課が利用調整を行います。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>選考点数 ＝ 基本指数（父＋母）＋ 調整指数</p>
-</div>
-
-<h2>基本指数（父母各最大50点、合計100点）</h2>
-<p>就労の場合、月160時間以上で満点の<span class="highlight">50点</span>です。</p>
-
-<table>
-<tr><th>月の就労時間</th><th>基本指数</th></tr>
-<tr><td>月160時間以上</td><td>50</td></tr>
-<tr><td>月140時間以上160時間未満</td><td>45</td></tr>
-<tr><td>月120時間以上140時間未満</td><td>40</td></tr>
-<tr><td>月100時間以上120時間未満</td><td>35</td></tr>
-<tr><td>月80時間以上100時間未満</td><td>30</td></tr>
-<tr><td>月64時間以上80時間未満</td><td>25</td></tr>
-</table>
-
-<h2>調整指数の代表例</h2>
-<ul>
-<li>保護者が死亡・未婚・拘禁・別居等：<span class="highlight">+10点</span></li>
-<li>きょうだいが認可保育園に在園中（同じ施設希望）：<span class="highlight">+1点</span></li>
-<li>未就学児のきょうだいが3人以上：<span class="highlight">+4点</span></li>
-<li>未就学児のきょうだいが2人：<span class="highlight">+3点</span></li>
-<li>未就学児のきょうだいが1人：<span class="highlight">+2点</span></li>
-<li>育休から復帰予定：<span class="highlight">+10点</span></li>
-<li>生活保護世帯：<span class="highlight">+7点</span></li>
-</ul>
-
-<div class="info-box">
-<p><strong>減点項目</strong></p>
-<ul>
-<li>市外からの申込：<span class="highlight">-10点</span></li>
-<li>65歳未満の同居親族あり：<span class="highlight">-3点</span></li>
-<li>認可保育園からの転園希望：<span class="highlight">-5点</span></li>
-</ul>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>全項目は<a href="https://www.city.urayasu.lg.jp/kodomo/hoiku/" target="_blank" rel="noopener">浦安市公式サイト</a>で確認できます。</p>
-</div>`,
-    publishedAt: "2026-04-07",
-    popularity: 65,
-  },
-  {
     slug: "score-up-tips",
     citySlug: "urayasu",
     title: "浦安市で入園点数を上げるコツ　加点チェックリスト",

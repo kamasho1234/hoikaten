@@ -57,57 +57,6 @@ const articles: Article[] = [
     popularity: 55,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "matsudo",
-    title: "松戸市の入園点数のしくみ　基準指数と調整指数を解説",
-    description:
-      "松戸市の保育園入園選考で使われる基準指数と調整指数のしくみを解説します。",
-    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
-    categoryColor: "blue",
-    content: `<h2>松戸市の選考点数とは</h2>
-<p>松戸市の認可保育園は「基準指数（父＋母）＋ 調整指数」の合計で選考されます。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>選考点数 ＝ 基準指数（父＋母）＋ 調整指数</p>
-</div>
-
-<h2>基準指数（父母各最大100点、合計200点）</h2>
-<p>就労の場合、月20日以上かつ週35時間以上で満点の<span class="highlight">100点</span>です。</p>
-
-<table>
-<tr><th>就労状況</th><th>基準指数</th></tr>
-<tr><td>月20日以上 週35時間以上 週5日以上</td><td>100</td></tr>
-<tr><td>週30時間以上 週5日以上</td><td>90</td></tr>
-<tr><td>月16日以上 週24時間以上 週4日以上</td><td>70</td></tr>
-<tr><td>週16時間以上 週4日以上</td><td>65</td></tr>
-<tr><td>月64時間以上（その他）</td><td>60</td></tr>
-</table>
-
-<h2>調整指数の代表例</h2>
-<ul>
-<li>育休から復帰予定：<span class="highlight">+20点</span></li>
-<li>きょうだいが同一園に在園中：<span class="highlight">+20点</span></li>
-<li>保育士資格で市内保育施設勤務：<span class="highlight">+45点</span></li>
-<li>ひとり親世帯（扶養児童2人以上）：<span class="highlight">+10点</span></li>
-<li>きょうだいと同時申込：<span class="highlight">+13点</span></li>
-<li>ひとり親世帯（扶養児童1人）：<span class="highlight">+5点</span></li>
-</ul>
-
-<div class="warn-box">
-<p><strong>注意</strong></p>
-<p>市外からの申込は<span class="highlight">-10点</span>、65歳未満の同居親族がいる場合は<span class="highlight">-3点</span>、認可保育園からの転園希望は<span class="highlight">-5点</span>の減点になります。</p>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>全項目は<a href="https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/index.html" target="_blank" rel="noopener">松戸市公式サイト</a>で確認できます。</p>
-</div>`,
-    publishedAt: "2026-04-07",
-    popularity: 65,
-  },
-  {
     slug: "score-up-tips",
     citySlug: "matsudo",
     title: "松戸市で入園点数を上げるコツ　加点チェックリスト",

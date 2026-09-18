@@ -56,62 +56,6 @@ const articles: Article[] = [
     popularity: 55,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "akita",
-    title: "秋田市の入園指数のしくみ　基礎指数と調整指数をやさしく解説",
-    description:
-      "秋田市の保育園入園選考で使われる指数制度の仕組みを、初めての方にもわかるように解説します。",
-    image:
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "点数・選考",
-    categoryColor: "blue",
-    content: `<h2>指数制度の全体像</h2>
-<p>秋田市の認可保育施設は<strong>利用調整指数の高い世帯から優先</strong>して入所が決まります。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>利用調整指数 ＝（父の基礎指数 ＋ 母の基礎指数）÷ 保護者数 × 2 ＋ 調整指数</p>
-</div>
-
-<h2>基礎指数（Ａ基礎指数）とは</h2>
-<p>保護者それぞれの「保育を必要とする事由」を指数化したものです。1人あたり<span class="highlight">最大10点</span>です。両親世帯の場合は合算して保護者数2で割り2を掛けるため、最大20点になります。</p>
-<table>
-<tr><th>保育の実施基準</th><th>指数</th></tr>
-<tr><td>家庭外就労：標準時間（月120時間以上）</td><td>10</td></tr>
-<tr><td>家庭外就労：短時間（週4日以上・1日4時間以上）</td><td>8</td></tr>
-<tr><td>家庭外自営業：中心者</td><td>10</td></tr>
-<tr><td>家庭外自営業：協力者</td><td>7</td></tr>
-<tr><td>家庭内自営業：中心者</td><td>9</td></tr>
-<tr><td>家庭内自営業：協力者</td><td>6</td></tr>
-<tr><td>内職</td><td>6</td></tr>
-<tr><td>妊娠・出産（前後各8週以内）</td><td>10</td></tr>
-<tr><td>疾病・負傷（入院1か月以上等）</td><td>10</td></tr>
-<tr><td>求職活動</td><td>3</td></tr>
-</table>
-
-<h2>調整指数（Ｂ調整指数）とは</h2>
-<p>世帯の状況に応じて加算（または減算）される指数です。複数の項目に該当する場合はすべて合算されます。</p>
-<table>
-<tr><th>項目</th><th>指数</th></tr>
-<tr><td>地域型保育施設卒園児（連携枠）</td><td>+45</td></tr>
-<tr><td>産休・育休明け再入所</td><td>+10</td></tr>
-<tr><td>産休・育休明け</td><td>+6</td></tr>
-<tr><td>ひとり親家庭</td><td>+5</td></tr>
-<tr><td>生活保護世帯</td><td>+5</td></tr>
-<tr><td>きょうだいの同時入所</td><td>+5</td></tr>
-<tr><td>障がい児童</td><td>+5</td></tr>
-<tr><td>幼稚園教諭・保育士等として従事</td><td>+3</td></tr>
-<tr><td>61歳未満の同居親族が保育可能</td><td>−3</td></tr>
-</table>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳細な指数表は<a href="https://www.city.akita.lg.jp/kurashi/kosodate/1005999/1009962/1047377.html" target="_blank" rel="noopener">秋田市公式サイト「令和8年度保育所などの入所手続きについて」</a>からダウンロードできます。</p>
-</div>`,
-    publishedAt: "2026-04-05",
-    popularity: 60,
-  },
-  {
     slug: "katen-no-kotsu",
     citySlug: "akita",
     title: "秋田市で加点を最大化するコツ　調整指数を積み上げる方法",

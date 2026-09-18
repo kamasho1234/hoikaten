@@ -57,54 +57,6 @@ const articles: Article[] = [
     popularity: 55,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "kochi",
-    title: "高知市の入園点数のしくみ　利用承諾基準を解説",
-    description:
-      "高知市の保育園入園選考で使われる利用承諾基準のしくみを解説します。",
-    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
-    categoryColor: "blue",
-    content: `<h2>高知市の利用承諾基準とは</h2>
-<p>高知市の認可保育園は各家庭の保育の必要性を指数化し、指数の高い児童から順次利用承諾を行います。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>選考指数 ＝ 基本指数（父＋母）＋ 調整指数</p>
-</div>
-
-<h2>基本指数（父母各最大100点、合計200点）</h2>
-<p>就労の場合、月170時間以上で満点の<span class="highlight">100点</span>です。</p>
-
-<table>
-<tr><th>月の就労時間</th><th>指数</th></tr>
-<tr><td>月170時間以上</td><td>100</td></tr>
-<tr><td>月140時間以上170時間未満</td><td>90</td></tr>
-<tr><td>月120時間以上140時間未満</td><td>85</td></tr>
-<tr><td>月100時間以上120時間未満</td><td>75</td></tr>
-<tr><td>月80時間以上100時間未満</td><td>65</td></tr>
-<tr><td>月64時間以上80時間未満</td><td>55</td></tr>
-</table>
-
-<h2>調整指数の代表例</h2>
-<ul>
-<li>ひとり親世帯：<span class="highlight">+31点</span></li>
-<li>きょうだいが利用中の施設を希望：<span class="highlight">+20点</span></li>
-<li>小規模保育等の卒園に伴う転所：<span class="highlight">+15点</span></li>
-<li>生活保護世帯：<span class="highlight">+10点</span></li>
-<li>認可外保育施設利用中：<span class="highlight">+8点</span></li>
-<li>育休復帰予定：<span class="highlight">+5点</span></li>
-<li>多子世帯（3人目以上）：<span class="highlight">+3点</span></li>
-</ul>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>全項目は<a href="https://www.city.kochi.kochi.jp/soshiki/34/nyushoshodakukijun.html" target="_blank" rel="noopener">高知市公式サイト</a>で確認できます。</p>
-</div>`,
-    publishedAt: "2026-04-05",
-    popularity: 60,
-  },
-  {
     slug: "score-up-tips",
     citySlug: "kochi",
     title: "高知市で入園点数を上げるコツ　加点チェックリスト",

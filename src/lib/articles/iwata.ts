@@ -51,18 +51,6 @@ const articles: Article[] = [
     popularity: 46,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "iwata",
-    title: "磐田市の入園点数のしくみ　基本指数と調整指数をやさしく解説",
-    description: "磐田市の保育園入園選考で使われる基本指数と調整指数の仕組みを、初めての方にもわかるように解説します。",
-    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
-    categoryColor: "blue",
-    content: `<h2>調整指数とは？</h2><p>世帯の特別な事情に応じて加減される点数です。磐田市の主な調整指数は以下の通りです。</p><h3>主な加算項目</h3><ul><li>ひとり親世帯で、親族と同居していない場合：+10点</li><li>ひとり親世帯で、親族と同居している場合：+8点</li><li>きょうだいが希望施設に在園中：+3点</li><li>きょうだいと同時申込み：+2点</li><li>生活保護受給世帯：+20点</li><li>市内認可外保育施設の閉鎖または認可施設への移行：+5点</li></ul><h3>減算項目</h3><ul><li>65歳未満の祖父母が同居し保育可能：-3点</li></ul><div class="point-box"><p>同居の祖父母が保育できる状態だと-3点の減点になります。祖父母の就労状況や健康状態を事前に確認しておきましょう。</p></div>`,
-    publishedAt: "2026-05-11",
-    popularity: 44,
-  },
-  {
     slug: "selection-process",
     citySlug: "iwata",
     title: "磐田市の保育園選考フロー　書類提出から入園決定まで",

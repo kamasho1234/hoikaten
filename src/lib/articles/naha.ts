@@ -61,57 +61,6 @@ const articles: Article[] = [
 
   // ========== 点数・選考 ==========
   {
-    slug: "scoring-system-guide",
-    citySlug: "naha",
-    title: "那覇市の入園点数のしくみ　基本指数と調整指数をやさしく解説",
-    description:
-      "那覇市の保育園入園選考で使われる「基本指数」と「調整指数」の仕組みを、初めての方にもわかるように解説します。",
-    image:
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "点数・選考",
-    categoryColor: "blue",
-    content: `<h2>点数制度の全体像</h2>
-<p>那覇市の認可保育所等は「先着順」ではなく、<strong>選考点数の高い世帯から優先</strong>して利用調整（選考）されます。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>選考点数 ＝ 基本指数（保護者1）＋ 基本指数（保護者2）＋ 調整指数</p>
-</div>
-
-<h2>基本指数とは</h2>
-<p>保護者それぞれの「保育を必要とする事由」を点数化したものです。1人あたり<span class="highlight">最大30点</span>（就労の場合）、保護者2人の合計で<span class="highlight">最大60点</span>です。</p>
-<table>
-<tr><th>就労状況</th><th>基本指数</th></tr>
-<tr><td>月160時間以上</td><td>30</td></tr>
-<tr><td>月140時間以上160時間未満</td><td>26</td></tr>
-<tr><td>月120時間以上140時間未満</td><td>22</td></tr>
-<tr><td>月90時間以上120時間未満</td><td>19</td></tr>
-<tr><td>月64時間以上90時間未満</td><td>15</td></tr>
-</table>
-<p>就労以外にも、妊娠・産後、疾病・障害、介護・看護、就学、求職活動などの事由ごとに基本指数が定められています。</p>
-
-<h2>調整指数とは</h2>
-<p>世帯の状況に応じて加点・減点される点数です。那覇市は調整指数の種類が多いのが特徴です。</p>
-<table>
-<tr><th>項目</th><th>点数</th></tr>
-<tr><td>ひとり親世帯</td><td>+50</td></tr>
-<tr><td>保育士等として認可園で就労中</td><td>+50</td></tr>
-<tr><td>認可外保育施設に在園中</td><td>+11</td></tr>
-<tr><td>育児休業からの復帰予定</td><td>+9</td></tr>
-<tr><td>きょうだい在園中の園を第1希望</td><td>+7</td></tr>
-<tr><td>きょうだい同時入所申込</td><td>+6</td></tr>
-<tr><td>生活保護受給中</td><td>+3</td></tr>
-<tr><td>保育料滞納あり</td><td>-20</td></tr>
-</table>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳細な選考基準表は<a href="https://www.city.naha.okinawa.jp/child/hoikuen/ninteikodomoen/R6hoikuen_moushikomi.html" target="_blank" rel="noopener">那覇市公式サイト</a>で公開されている「選考基準表」PDFに掲載されています。</p>
-</div>`,
-    publishedAt: "2026-04-04",
-    popularity: 60,
-  },
-  {
     slug: "fulltime-60-line",
     citySlug: "naha",
     title: "フルタイム共働き60点は安心？那覇市のボーダーライン事情",

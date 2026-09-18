@@ -54,61 +54,6 @@ const articles: Article[] = [
     popularity: 55,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "tottori",
-    title: "鳥取市の入園指数のしくみ　基礎指数と調整指数をやさしく解説",
-    description:
-      "鳥取市の保育園入園選考で使われる利用調整指数の仕組みを、初めての方にもわかるように解説します。",
-    image:
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "点数・選考",
-    categoryColor: "blue",
-    content: `<h2>利用調整指数の全体像</h2>
-<p>鳥取市の認可保育施設は<strong>利用調整指数の高い世帯から優先</strong>して入所が決まります。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>利用調整指数 ＝ 父の基礎指数 ＋ 母の基礎指数 ＋ 調整指数</p>
-</div>
-
-<h2>基礎指数とは</h2>
-<p>保護者それぞれの「保育を必要とする事由」を指数化したものです。1人あたり<span class="highlight">最大10点</span>、両親合計で最大20点になります。</p>
-<table>
-<tr><th>保育の必要な事由</th><th>指数</th></tr>
-<tr><td>就労：月120時間以上（フルタイム等）</td><td>10</td></tr>
-<tr><td>就労：月100時間以上120時間未満</td><td>9</td></tr>
-<tr><td>就労：月80時間以上100時間未満</td><td>8</td></tr>
-<tr><td>就労：月64時間以上80時間未満</td><td>6</td></tr>
-<tr><td>自営業（中心者）</td><td>10</td></tr>
-<tr><td>妊娠・出産（産前産後各8週以内）</td><td>10</td></tr>
-<tr><td>疾病・負傷（入院・常時病臥）</td><td>10</td></tr>
-<tr><td>障害（重度）</td><td>10</td></tr>
-<tr><td>介護・看護（月120時間以上）</td><td>10</td></tr>
-<tr><td>求職活動</td><td>3</td></tr>
-</table>
-
-<h2>調整指数とは</h2>
-<p>世帯の状況に応じて加算（または減算）される指数です。複数の項目に該当する場合はすべて合算されます。</p>
-<table>
-<tr><th>項目</th><th>指数</th></tr>
-<tr><td>小規模保育施設卒園児（連携枠）</td><td>+10</td></tr>
-<tr><td>ひとり親家庭</td><td>+5</td></tr>
-<tr><td>育休明け復帰</td><td>+5</td></tr>
-<tr><td>生活保護世帯</td><td>+5</td></tr>
-<tr><td>きょうだいが在園中の園を希望</td><td>+5</td></tr>
-<tr><td>保育士・保育教諭として勤務</td><td>+3</td></tr>
-<tr><td>認可外保育施設に月ぎめで在籍</td><td>+3</td></tr>
-<tr><td>65歳未満の同居親族が保育可能</td><td>−3</td></tr>
-</table>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳細な指数表は<a href="https://www.city.tottori.lg.jp/site/kosodate/20071.html" target="_blank" rel="noopener">鳥取市公式サイト「令和8年度 保育所等入所申込みのご案内」</a>からダウンロードできます。</p>
-</div>`,
-    publishedAt: "2026-04-05",
-    popularity: 60,
-  },
-  {
     slug: "katen-no-kotsu",
     citySlug: "tottori",
     title: "鳥取市で加点を最大化するコツ　調整指数を積み上げる方法",

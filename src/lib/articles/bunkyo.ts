@@ -60,53 +60,6 @@ const articles: Article[] = [
     popularity: 55,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "bunkyo",
-    title: "文京区の入園点数のしくみ　基本指数と調整指数を解説",
-    description:
-      "文京区の保育園入園選考で使われる「基本指数」と「調整指数」の仕組みをわかりやすく解説します。",
-    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
-    categoryColor: "blue",
-    content: `<h2>文京区の選考指数とは</h2>
-<p>文京区の認可保育園の入園選考は「基本指数＋調整指数」の合計点数で行われます。点数が高い世帯から順に内定が決まります。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>選考指数 ＝ 基本指数（父＋母）＋ 調整指数</p>
-</div>
-
-<h2>基本指数（父母各最大10点、合計20点）</h2>
-<p>父母それぞれの「保育が必要な理由」を点数化します。最も多い「就労」の場合、週5日以上かつ1日8時間以上の勤務で満点の<span class="highlight">10点</span>になります。</p>
-
-<table>
-<tr><th>就労の状況</th><th>指数</th></tr>
-<tr><td>週5日以上・1日8時間以上（月20日以上）</td><td>10</td></tr>
-<tr><td>週5日以上・1日6時間以上8時間未満</td><td>9</td></tr>
-<tr><td>週5日以上・1日4時間以上6時間未満</td><td>8</td></tr>
-<tr><td>週3日以上・1日6時間以上8時間未満</td><td>7</td></tr>
-<tr><td>週3日以上・1日4時間以上6時間未満</td><td>6</td></tr>
-<tr><td>月48時間以上（上記以外）</td><td>5</td></tr>
-</table>
-
-<h2>調整指数の代表例</h2>
-<ul>
-<li>文京区在住：<span class="highlight">+4点</span></li>
-<li>生活保護世帯：<span class="highlight">+4点</span></li>
-<li>ひとり親世帯：<span class="highlight">+3点</span></li>
-<li>きょうだい在園：<span class="highlight">+2点</span></li>
-<li>育休復帰予定：<span class="highlight">+1点</span></li>
-<li>新規入所：<span class="highlight">+1点</span></li>
-</ul>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>指数表の全項目は<a href="https://www.city.bunkyo.lg.jp/b023/p001786.html" target="_blank" rel="noopener">文京区公式サイト「ぶんきょう保育パンフレット」</a>で確認できます。</p>
-</div>`,
-    publishedAt: "2026-03-28",
-    popularity: 65,
-  },
-  {
     slug: "score-up-tips",
     citySlug: "bunkyo",
     title: "文京区で入園点数を上げるコツ　調整指数の加点を活用しよう",

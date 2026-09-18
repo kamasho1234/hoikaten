@@ -57,55 +57,6 @@ const articles: Article[] = [
     popularity: 55,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "matsue",
-    title: "松江市の入園点数のしくみ　利用調整基準を解説",
-    description:
-      "松江市の保育園入園選考で使われる利用調整基準のしくみを解説します。",
-    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
-    categoryColor: "blue",
-    content: `<h2>松江市の利用調整基準とは</h2>
-<p>松江市の認可保育園は各家庭の保育の必要性を点数化し、優先度の高い子どもから入園決定されます。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>選考指数 ＝ 基本指数（父＋母）＋ 調整指数</p>
-</div>
-
-<h2>基本指数（父母各最大50点、合計100点）</h2>
-<p>就労の場合、月160時間以上で満点の<span class="highlight">50点</span>です。</p>
-
-<table>
-<tr><th>月の就労時間</th><th>指数</th></tr>
-<tr><td>月160時間以上</td><td>50</td></tr>
-<tr><td>月140時間以上160時間未満</td><td>45</td></tr>
-<tr><td>月120時間以上140時間未満</td><td>40</td></tr>
-<tr><td>月100時間以上120時間未満</td><td>35</td></tr>
-<tr><td>月80時間以上100時間未満</td><td>30</td></tr>
-<tr><td>月64時間以上80時間未満</td><td>25</td></tr>
-<tr><td>月48時間以上64時間未満</td><td>20</td></tr>
-</table>
-
-<h2>調整指数の代表例</h2>
-<ul>
-<li>ひとり親世帯：<span class="highlight">+10点</span></li>
-<li>小規模保育卒園に伴う転所：<span class="highlight">+10点</span></li>
-<li>きょうだいが在園中の園を希望：<span class="highlight">+10点</span></li>
-<li>保育士として市内保育所等に月120時間以上勤務：<span class="highlight">+10点</span></li>
-<li>認可外利用中：<span class="highlight">+5点</span></li>
-<li>育休復帰予定：<span class="highlight">+5点</span></li>
-<li>生活保護世帯：<span class="highlight">+5点</span></li>
-</ul>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>全項目は<a href="https://www.city.matsue.lg.jp/material/files/group/131/R6riyoutouseikijyun.pdf" target="_blank" rel="noopener">松江市公式サイト（利用調整基準PDF）</a>で確認できます。</p>
-</div>`,
-    publishedAt: "2026-04-05",
-    popularity: 60,
-  },
-  {
     slug: "score-up-tips",
     citySlug: "matsue",
     title: "松江市で入園点数を上げるコツ　加点チェックリスト",

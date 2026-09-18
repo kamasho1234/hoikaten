@@ -110,59 +110,6 @@ const articles: Article[] = [
     popularity: 50,
   },
   // ===== 選考のしくみ =====
-  {
-    slug: "scoring-system-guide",
-    citySlug: "matsumoto",
-    title: "松本市の入園点数のしくみ　基本指数と調整指数をやさしく解説",
-    description:
-      "松本市の保育園入園選考で使われる基本指数と調整指数の仕組みを、初めての方にもわかるように解説します。",
-    image:
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
-    categoryColor: "blue",
-    content: `<h2>点数ってなに？</h2>
-<p>松本市の保育園入園は「先着順」ではなく「点数（指数）」の高い順に内定が決まります。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>選考指数 ＝ 基本指数（父）＋ 基本指数（母）＋ 調整指数</p>
-</div>
-
-<h2>基本指数とは？</h2>
-<p>父母それぞれの「保育が必要な理由」を点数化したもので、保護者ごとに最大<span class="highlight">100点</span>です。松本市では「保護者の低い方の点数」を基本指数とするため、実際の世帯の基本指数は最大100点となります。</p>
-<p>最も多い「就労」の場合、月160時間以上で80点になります。</p>
-
-<table>
-<tr><th>就労状況</th><th>指数</th></tr>
-<tr><td>月180時間以上</td><td>80</td></tr>
-<tr><td>月160〜179時間</td><td>75</td></tr>
-<tr><td>月140〜159時間</td><td>70</td></tr>
-<tr><td>月120〜139時間</td><td>65</td></tr>
-<tr><td>月100〜119時間</td><td>55</td></tr>
-</table>
-
-<h2>調整指数とは？</h2>
-<p>世帯の特別な事情に応じて加減される点数です。加算項目と減算項目があります。</p>
-
-<h3>主な加算項目</h3>
-<ul>
-<li>ひとり親世帯：<span class="highlight">+12点</span>（死亡・離別等）、<span class="highlight">+6点</span>（調停中等）</li>
-<li>きょうだいが在園中：<span class="highlight">+11点</span>（新規申込）、<span class="highlight">+7点</span>（その他）</li>
-<li>双子等の多胎児同時申込：<span class="highlight">+8点</span></li>
-<li>生活保護世帯：<span class="highlight">+9点</span></li>
-<li>育児休業終了により復帰：<span class="highlight">+8点</span></li>
-<li>第3子以降の申込：<span class="highlight">+4点</span></li>
-</ul>
-
-<h3>主な減算項目</h3>
-<ul>
-<li>同居祖父母が保育不要：<span class="highlight">-3点</span>（1人）、<span class="highlight">-6点</span>（2人）、<span class="highlight">-9点</span>（3人以上）</li>
-<li>就労証明不足：<span class="highlight">-6点</span></li>
-<li>採用予定・復職予定：<span class="highlight">-4点</span></li>
-</ul>`,
-    publishedAt: "2026-04-07",
-    popularity: 65,
-  },
   // ===== 点数アップ =====
   {
     slug: "score-up-checklist",

@@ -56,55 +56,6 @@ const articles: Article[] = [
     popularity: 60,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "wakayama",
-    title: "和歌山市の入園選考のしくみ　保育の必要性で決まる利用調整",
-    description:
-      "和歌山市の保育園入園選考で使われる利用調整の仕組みを、初めての方にもわかるように解説します。",
-    image:
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "点数・選考",
-    categoryColor: "blue",
-    content: `<h2>利用調整の全体像</h2>
-<p>和歌山市の認可保育施設は<strong>保育の必要性の高い世帯から優先</strong>して利用調整されます。毎月15日の申込締切後に選考が行われます。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>利用調整指数 ＝ 父母のうち基本点数の低い方 ＋ 調整点数<br>保護者それぞれの状況を点数化し、低い方の点数をベースに世帯全体の点数が決まります。</p>
-</div>
-
-<h2>基本点数とは</h2>
-<p>保護者それぞれの「保育を必要とする事由」を点数化したものです。就労時間の長さや病気・介護の程度に応じて点数が決まります。</p>
-<table>
-<tr><th>就労時間（月あたり）</th><th>基本点数</th></tr>
-<tr><td>120時間以上（フルタイム）</td><td>10</td></tr>
-<tr><td>100時間以上120時間未満</td><td>9</td></tr>
-<tr><td>80時間以上100時間未満</td><td>8</td></tr>
-<tr><td>64時間以上80時間未満</td><td>7</td></tr>
-<tr><td>48時間以上64時間未満</td><td>6</td></tr>
-</table>
-
-<h2>調整点数とは</h2>
-<p>世帯の状況に応じて加点・減点される点数です。</p>
-<table>
-<tr><th>項目</th><th>点数</th></tr>
-<tr><td>ひとり親世帯</td><td>+3</td></tr>
-<tr><td>きょうだいが同一施設に在園中</td><td>+3</td></tr>
-<tr><td>保育士として市内施設に勤務</td><td>+3</td></tr>
-<tr><td>認可外保育施設等を利用中</td><td>+2</td></tr>
-<tr><td>育児休業からの復帰予定</td><td>+2</td></tr>
-<tr><td>生活保護受給世帯</td><td>+2</td></tr>
-<tr><td>65歳未満の無職の祖父母等と同居</td><td>-1</td></tr>
-</table>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳細は<a href="https://www.city.wakayama.wakayama.jp/kurashi/kosodate/1001104/1010398/1001802.html" target="_blank" rel="noopener">和歌山市公式サイト「保育所・認定こども園の利用案内」</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-04-05",
-    popularity: 55,
-  },
-  {
     slug: "fulltime-10-line",
     citySlug: "wakayama",
     title: "フルタイム共働きで基本点数10は安心？和歌山市のボーダーライン",

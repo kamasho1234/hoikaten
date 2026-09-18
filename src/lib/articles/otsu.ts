@@ -57,60 +57,6 @@ const articles: Article[] = [
     popularity: 55,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "otsu",
-    title: "大津市の点数の仕組みと計算方法　基本表と点数変更項目を解説",
-    description:
-      "大津市の保育園入園選考で使われる基本表と点数変更項目の仕組みを解説します。",
-    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
-    categoryColor: "blue",
-    content: `<h2>大津市の利用調整基準とは</h2>
-<p>大津市の認可保育園の入園選考は「基本表の点数（父母の低い方を採用）＋ 点数変更項目」で行われます。基本表の最大は6点、点数変更項目は合計±2までですが、基本表が6点の場合は加点の上限がありません。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>選考点数 = 基本表の点数（父母の低い方）+ 点数変更項目（合計±2まで）</p>
-</div>
-
-<h2>基本表（最大6点）</h2>
-<p>就労の場合、月20日以上かつ日7時間以上の実働で満点の<span class="highlight">6点</span>です。</p>
-
-<table>
-<tr><th>保育が必要な理由</th><th>条件</th><th>点数</th></tr>
-<tr><td>就労</td><td>月20日以上かつ日7時間以上</td><td>6</td></tr>
-<tr><td>就労</td><td>月16日以上かつ日7時間以上</td><td>5</td></tr>
-<tr><td>就労</td><td>月20日以上かつ日4〜7時間</td><td>4</td></tr>
-<tr><td>就労</td><td>月16日以上かつ日4〜7時間</td><td>3</td></tr>
-<tr><td>就労</td><td>上記以外の労働</td><td>2</td></tr>
-<tr><td>妊娠・出産</td><td>—</td><td>6</td></tr>
-<tr><td>疾病（入院）</td><td>入院中</td><td>6</td></tr>
-<tr><td>疾病（居宅療養）</td><td>入院相当・常時困難</td><td>6</td></tr>
-<tr><td>障害</td><td>著しく困難</td><td>6</td></tr>
-<tr><td>介護（同居親族）</td><td>重症者の介護で常時困難</td><td>6</td></tr>
-<tr><td>就学</td><td>月20日以上かつ日7時間以上</td><td>4</td></tr>
-<tr><td>求職活動</td><td>—</td><td>1</td></tr>
-</table>
-
-<h2>点数変更項目の代表例</h2>
-<ul>
-<li>ひとり親世帯：<span class="highlight">+2点</span></li>
-<li>生活保護世帯：<span class="highlight">+2点</span></li>
-<li>きょうだい入所（同園）：<span class="highlight">+2点</span></li>
-<li>3歳児継続（2歳児クラスまでの施設卒園）：<span class="highlight">+2点</span></li>
-<li>主たる生計者が求職中：<span class="highlight">+2点</span></li>
-<li>産休・育休復帰：<span class="highlight">+1点</span></li>
-<li>保育士加点：<span class="highlight">+1点</span></li>
-</ul>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>全項目は<a href="https://www.city.otsu.lg.jp/material/files/group/10/R8cyouseikijyunn.pdf" target="_blank" rel="noopener">大津市「保育施設等利用調整基準」（PDF）</a>で確認できます。</p>
-</div>`,
-    publishedAt: "2026-04-05",
-    popularity: 60,
-  },
-  {
     slug: "score-up-tips",
     citySlug: "otsu",
     title: "大津市の加点のコツ　点数アップ戦略と点数変更項目の活用法",

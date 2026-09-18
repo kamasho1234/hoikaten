@@ -110,58 +110,6 @@ const articles: Article[] = [
     popularity: 50,
   },
   // ===== 選考のしくみ =====
-  {
-    slug: "scoring-system-guide",
-    citySlug: "yokkaichi",
-    title: "四日市市の入園点数のしくみ　基本指数と調整指数をやさしく解説",
-    description:
-      "四日市市の保育園入園選考で使われる基本指数と調整指数の仕組みを、初めての方にもわかるように解説します。",
-    image:
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
-    categoryColor: "blue",
-    content: `<h2>点数ってなに？</h2>
-<p>四日市市の保育園入園は「先着順」ではなく「点数（指数）」の高い順に内定が決まります。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>選考指数 ＝ 基本指数（父）＋ 基本指数（母）＋ 調整指数</p>
-</div>
-
-<h2>基本指数とは？</h2>
-<p>父母それぞれの「保育が必要な理由」を点数化したものです。1人あたり最大<span class="highlight">100点</span>で、世帯の基本指数は父母の低い方の点数を採用します。</p>
-<p>最も多い「就労」の場合、月160時間以上で100点です。</p>
-
-<table>
-<tr><th>就労状況</th><th>指数</th></tr>
-<tr><td>月20日以上かつ週40時間以上</td><td>100</td></tr>
-<tr><td>月20日以上かつ週30時間以上</td><td>90</td></tr>
-<tr><td>月16日以上かつ週24時間以上</td><td>80</td></tr>
-<tr><td>月16日以上かつ週16時間以上</td><td>70</td></tr>
-<tr><td>月64時間以上</td><td>60</td></tr>
-</table>
-
-<h2>調整指数とは？</h2>
-<p>世帯の特別な事情に応じて加減される点数です。加算項目と減算項目があります。</p>
-
-<h3>主な加算項目</h3>
-<ul>
-<li>ひとり親世帯（就労中）：加点あり</li>
-<li>きょうだい関連：加点あり（在園・同時申込など）</li>
-<li>認可外保育施設の利用実績：加点あり</li>
-<li>生活保護世帯：加点あり</li>
-<li>育休明け復職予定：加点あり</li>
-</ul>
-
-<h3>主な減算項目</h3>
-<ul>
-<li>市外からの申込：<span class="highlight">-10点</span></li>
-<li>認可園からの転園希望：<span class="highlight">-5点</span></li>
-<li>同居祖父母が保育可能：<span class="highlight">-3点</span></li>
-</ul>`,
-    publishedAt: "2026-04-07",
-    popularity: 65,
-  },
   // ===== 点数アップ =====
   {
     slug: "score-up-checklist",

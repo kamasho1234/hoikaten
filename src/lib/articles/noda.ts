@@ -57,52 +57,6 @@ const articles: Article[] = [
     popularity: 55,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "noda",
-    title: "野田市の入園点数のしくみ　基準指数と調整指数を解説",
-    description:
-      "野田市の保育園入園選考で使われる基準指数と調整指数のしくみを解説します。",
-    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
-    categoryColor: "blue",
-    content: `<h2>野田市の選考指数とは</h2>
-<p>野田市の認可保育園の入園選考は「基準指数＋調整指数」の合計で行われます。野田市児童家庭部保育課が選考を担当します。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>選考指数 = 基準指数（保護者1 + 保護者2）+ 調整指数</p>
-</div>
-
-<h2>基準指数（父母各最大10点、合計20点）</h2>
-<p>就労の場合、月160時間以上で満点の<span class="highlight">10点</span>になります。</p>
-
-<table>
-<tr><th>月の就労時間</th><th>指数</th></tr>
-<tr><td>月160時間以上</td><td>10</td></tr>
-<tr><td>月140〜160時間</td><td>9</td></tr>
-<tr><td>月120〜140時間</td><td>8</td></tr>
-<tr><td>月100〜120時間</td><td>7</td></tr>
-<tr><td>月80〜100時間</td><td>6</td></tr>
-<tr><td>月64〜80時間</td><td>5</td></tr>
-</table>
-
-<h2>調整指数の代表例</h2>
-<ul>
-<li>ひとり親世帯：<span class="highlight">+4点</span></li>
-<li>きょうだいが在園中の施設を希望：<span class="highlight">+3点</span></li>
-<li>生活保護世帯：<span class="highlight">+3点</span></li>
-<li>育児休業から復帰予定：<span class="highlight">+2点</span></li>
-<li>きょうだいが同じ施設を希望：<span class="highlight">+2点</span></li>
-</ul>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>全項目は<a href="https://www.city.noda.chiba.jp/kurashi/kosodate/hoiku/" target="_blank" rel="noopener">野田市公式サイト</a>で確認できます。</p>
-</div>`,
-    publishedAt: "2026-04-07",
-    popularity: 65,
-  },
-  {
     slug: "score-up-tips",
     citySlug: "noda",
     title: "野田市で入園点数を上げるコツ　加点を最大化する方法",

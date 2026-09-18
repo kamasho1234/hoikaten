@@ -57,56 +57,6 @@ const articles: Article[] = [
     popularity: 55,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "moriguchi",
-    title: "守口市の点数の仕組みと計算方法　基本指数と調整指数を解説",
-    description:
-      "守口市の保育園入園選考で使われる基本指数と調整指数の仕組みを解説します。",
-    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
-    categoryColor: "blue",
-    content: `<h2>守口市の利用調整指数とは</h2>
-<p>守口市の認可保育園の入園選考は「父の基本指数 + 母の基本指数 + 調整指数」の合計で行われます。基本指数は父母それぞれ最大120点で、合計240点満点です。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>利用調整指数 = 基本指数（保護者1 + 保護者2）+ 調整指数</p>
-</div>
-
-<h2>基本指数（父母各最大120点、合計240点）</h2>
-<p>就労の場合、月160時間以上なら満点の<span class="highlight">120点</span>です（父または母1人あたり）。就労時間が短くなるにつれて点数が下がります。</p>
-
-<table>
-<tr><th>保育が必要な理由</th><th>条件</th><th>基本指数</th></tr>
-<tr><td>就労</td><td>月160時間以上</td><td>120</td></tr>
-<tr><td>就労</td><td>月120時間以上160時間未満</td><td>100</td></tr>
-<tr><td>就労</td><td>月96時間以上120時間未満</td><td>80</td></tr>
-<tr><td>就労</td><td>月64時間以上96時間未満</td><td>60</td></tr>
-<tr><td>疾病</td><td>入院・常時病臥（3ヶ月以上）</td><td>120</td></tr>
-<tr><td>障害</td><td>身体1・2級／療育A</td><td>120</td></tr>
-<tr><td>出産</td><td>産前2ヶ月〜産後8週</td><td>40</td></tr>
-<tr><td>求職活動</td><td>就労内定あり</td><td>110〜50</td></tr>
-<tr><td>求職活動</td><td>求職活動中</td><td>1</td></tr>
-</table>
-
-<h2>加算点数表</h2>
-<ul>
-<li>ひとり親世帯：<span class="highlight">+120点</span></li>
-<li>きょうだいが先に入所している場合：<span class="highlight">+20点</span></li>
-<li>小規模保育事業等の卒園児童：<span class="highlight">+20点</span></li>
-<li>きょうだいが同時に申し込む場合：<span class="highlight">+10点</span></li>
-<li>保育士等の優先利用（市内保育施設で月64時間以上）：<span class="highlight">+40点</span></li>
-</ul>
-<p>※保育士等で月120時間以上の場合は加算点ではなく「優先利用」として調整されます。</p>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>全項目は<a href="https://www.city.moriguchi.osaka.jp/" target="_blank" rel="noopener">守口市公式サイト</a>の利用調整基準表で確認できます。</p>
-</div>`,
-    publishedAt: "2026-04-07",
-    popularity: 60,
-  },
-  {
     slug: "score-up-tips",
     citySlug: "moriguchi",
     title: "守口市の加点のコツ　点数アップ戦略と調整指数の活用法",

@@ -57,61 +57,6 @@ const articles: Article[] = [
   },
 
   // 2. 入園点数のしくみ
-  {
-    slug: "scoring-system-guide",
-    citySlug: "hakodate",
-    title: "函館市の保育園入園点数のしくみ　基本点数と加算分をやさしく解説",
-    description:
-      "函館市の保育園入園選考で使われる「基本点数」と「加算分」の仕組みを、初めての方にもわかるように解説します。",
-    image:
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "点数・選考",
-    categoryColor: "blue",
-    content: `<h2>点数（指数）とは？</h2>
-<p>函館市の保育園入園は「先着順」ではなく「利用調整基準表」に基づく<strong>総合点数の高い順</strong>に内定が決まります。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>総合点数 ＝ 基本合計点数（父＋母）＋ 加算合計点数</p>
-</div>
-
-<h2>基本点数とは？</h2>
-<p>父母それぞれの「保育が必要な理由」を点数化したものです。1人あたり最大<span class="highlight">10点</span>で、父母合計の最大は<span class="highlight">20点</span>。</p>
-<p>最も多い「就労」の場合、居宅外か居宅内か、勤務日数と月の労働時間数で点数が決まります。</p>
-
-<table>
-<tr><th>就労区分</th><th>勤務条件</th><th>点数</th></tr>
-<tr><td>居宅外・月20日以上</td><td>月160時間以上</td><td>10</td></tr>
-<tr><td>居宅外・月20日以上</td><td>月120時間以上</td><td>9</td></tr>
-<tr><td>居宅外・月20日以上</td><td>月80時間以上</td><td>8</td></tr>
-<tr><td>居宅外・月16日以上</td><td>月128時間以上</td><td>7</td></tr>
-<tr><td>居宅外・月16日以上</td><td>月96時間以上</td><td>6</td></tr>
-<tr><td>居宅外・月16日以上</td><td>月64時間以上</td><td>5</td></tr>
-<tr><td>居宅外・月16日未満</td><td>月64時間以上</td><td>4</td></tr>
-</table>
-
-<p>居宅内労働（内職含む）の場合は、同条件でも居宅外より1点低く設定されています。</p>
-
-<h2>加算分とは？</h2>
-<p>ひとり親家庭（+13）やきょうだい在園（+5）など、世帯の状況に応じて基本点数に加算される点数です。該当する項目はすべて合算されます。</p>
-
-<h2>同点の場合はどうなる？</h2>
-<p>総合点数が同じ場合は、次の順番で優先されます。</p>
-<ol>
-<li>申請児童に障がいがあり、希望保育所等で保育する必要がある</li>
-<li>きょうだいが希望保育所等を利用している</li>
-<li>ひとり親家庭</li>
-<li>多子世帯（就学前児童が複数いる）</li>
-<li>世帯の状況から総合的に判断</li>
-</ol>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.hakodate.hokkaido.jp/docs/2017051700061/" target="_blank" rel="noopener">函館市の保育所利用手続きページ</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-04-05",
-    popularity: 55,
-  },
 
   // 3. 保活スケジュール
   {

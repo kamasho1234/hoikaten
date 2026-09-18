@@ -57,56 +57,6 @@ const articles: Article[] = [
     popularity: 55,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "ikoma",
-    title: "生駒市の入園点数のしくみ　基準指数と調整指数を解説",
-    description:
-      "生駒市の保育園入園選考で使われる基準指数と調整指数のしくみをわかりやすく解説します。",
-    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
-    categoryColor: "blue",
-    content: `<h2>生駒市の選考点数とは</h2>
-<p>生駒市の認可保育園は「基準指数（父＋母）＋ 調整指数」の合計で選考されます。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>総合点数 ＝ 基準指数（父＋母）＋ 調整指数</p>
-</div>
-
-<h2>基準指数（父母各最大100点、合計200点）</h2>
-<p>就労の場合、月160時間以上の就労で満点の<span class="highlight">100点</span>です。</p>
-
-<table>
-<tr><th>月の就労時間</th><th>基準指数</th></tr>
-<tr><td>月160時間以上</td><td>100</td></tr>
-<tr><td>月150〜159時間</td><td>95</td></tr>
-<tr><td>月130〜149時間</td><td>90</td></tr>
-<tr><td>月120〜129時間</td><td>85</td></tr>
-<tr><td>月110〜119時間</td><td>80</td></tr>
-<tr><td>月100〜109時間</td><td>75</td></tr>
-<tr><td>月80〜99時間</td><td>70</td></tr>
-<tr><td>月70〜79時間</td><td>65</td></tr>
-<tr><td>月64〜69時間</td><td>63</td></tr>
-</table>
-
-<h2>調整指数の代表例</h2>
-<ul>
-<li>保育士・看護師として勤務：<span class="highlight">+40点</span></li>
-<li>ひとり親世帯：<span class="highlight">+30点</span></li>
-<li>きょうだいが同じ園に在園中：<span class="highlight">+25点</span></li>
-<li>育休復帰予定：<span class="highlight">+14点</span></li>
-<li>きょうだいと同時申込：<span class="highlight">+11点</span></li>
-<li>認可外保育施設利用中：<span class="highlight">+3点</span></li>
-</ul>
-
-<div class="info-box">
-<p><strong>同点の場合の判定</strong></p>
-<p>総合点数が同じ場合は世帯の合計所得金額が低い者が優先されます。</p>
-</div>`,
-    publishedAt: "2026-04-26",
-    popularity: 60,
-  },
-  {
     slug: "score-up-tips",
     citySlug: "ikoma",
     title: "生駒市で入園点数を上げるコツ　調整指数チェックリスト",

@@ -57,59 +57,6 @@ const articles: Article[] = [
 
   // ========== 点数・選考 ==========
   {
-    slug: "scoring-system-guide",
-    citySlug: "miyazaki",
-    title: "宮崎市の入園点数のしくみ　基準点数と調整点数をやさしく解説",
-    description:
-      "宮崎市の保育園入園選考で使われる「基準点数」と「調整点数」の仕組みを、初めての方にもわかるように解説します。",
-    image:
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "点数・選考",
-    categoryColor: "blue",
-    content: `<h2>点数制度の全体像</h2>
-<p>宮崎市の認可保育所等は「先着順」ではなく、<strong>点数の高い世帯から優先</strong>して利用調整（選考）されます。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>合計点数 ＝ 父の基準点数 ＋ 母の基準点数 ＋ 調整点数</p>
-</div>
-
-<h2>基準点数とは</h2>
-<p>保護者それぞれの「保育を必要とする事由」を点数化したものです。就労の場合、1人あたり<span class="highlight">最大15点</span>、保護者2人の合計で<span class="highlight">最大30点</span>です。</p>
-<table>
-<tr><th>就労状況（被雇用者・自営中心者）</th><th>基準点数</th></tr>
-<tr><td>月160時間以上</td><td>15</td></tr>
-<tr><td>月140時間以上160時間未満</td><td>14</td></tr>
-<tr><td>月120時間以上140時間未満</td><td>13</td></tr>
-<tr><td>月100時間以上120時間未満</td><td>12</td></tr>
-<tr><td>月80時間以上100時間未満</td><td>11</td></tr>
-<tr><td>月60時間以上80時間未満</td><td>10</td></tr>
-</table>
-<p>就労以外にも、疾病・障害・介護・出産・就学・求職活動などの事由ごとに基準点数が定められています。</p>
-
-<h2>調整点数とは</h2>
-<p>世帯の状況に応じて加点・減点される点数です。</p>
-<table>
-<tr><th>項目</th><th>点数</th></tr>
-<tr><td>認可外保育施設卒園（新規申込み）</td><td>+8</td></tr>
-<tr><td>障害者世帯（1-2級等）</td><td>+6</td></tr>
-<tr><td>ひとり親世帯</td><td>+5</td></tr>
-<tr><td>きょうだいが申込み施設に在園中</td><td>+5</td></tr>
-<tr><td>産休・育休明けで復職</td><td>+3</td></tr>
-<tr><td>単身赴任</td><td>+3</td></tr>
-<tr><td>新規申込み</td><td>+2</td></tr>
-<tr><td>生活保護受給世帯</td><td>+2</td></tr>
-<tr><td>60歳未満の同居祖父母</td><td>-2</td></tr>
-</table>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳細な点数表は<a href="https://www.city.miyazaki.miyazaki.jp/education/nursery/" target="_blank" rel="noopener">宮崎市公式サイト「保育所等利用調整基準について」</a>で公開されている利用調整基準表PDFに掲載されています。</p>
-</div>`,
-    publishedAt: "2026-04-05",
-    popularity: 60,
-  },
-  {
     slug: "fulltime-30-line",
     citySlug: "miyazaki",
     title: "フルタイム共働き30点は安心？宮崎市のボーダーライン事情",

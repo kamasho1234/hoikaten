@@ -51,18 +51,6 @@ const articles: Article[] = [
     popularity: 39,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "uruma",
-    title: "うるま市の入園点数のしくみ　基本指数と調整指数をやさしく解説",
-    description: "うるま市の保育園入園選考で使われる基本指数と調整指数の仕組みを、初めての方にもわかるように解説します。",
-    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
-    categoryColor: "blue",
-    content: `<h2>調整指数とは？</h2><p>世帯の特別な事情に応じて加減される点数です。うるま市の調整指数は以下の通りです。</p><h3>主な加算項目</h3><ul><li>ひとり親世帯：+40点</li><li>生活保護受給：+5点</li><li>障がい者世帯：+6点</li><li>きょうだいが在園中（新規申込）：+5点</li><li>保育士就労：+200点</li></ul><h3>その他の項目</h3><ul><li>市外からの申込の場合は減算の対象になることもあります</li></ul><div class="point-box"><p>うるま市では保育士就労による加点が+200点と圧倒的に高く設定されています。これは保育人材確保への強い意思を示しています。保育業界への就職を検討している家庭には大きなメリットになります。</p></div>`,
-    publishedAt: "2026-05-08",
-    popularity: 50,
-  },
-  {
     slug: "selection-process",
     citySlug: "uruma",
     title: "うるま市の保育園選考フロー　書類提出から入園決定まで",

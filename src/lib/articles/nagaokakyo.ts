@@ -70,61 +70,6 @@ const articles: Article[] = [
     publishedAt: "2026-04-26",
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "nagaokakyo",
-    title: "長岡京市の入園点数のしくみ　min方式と基本指数・調整指数を解説",
-    description:
-      "長岡京市の保育園入園選考で使われる『min方式』『基本指数』『調整指数』のしくみを初めての方にもわかるように解説します。",
-    image:
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
-    categoryColor: "blue",
-    content: `<h2>長岡京市の点数制度の特徴：min方式</h2>
-<p>長岡京市の入園選考は「ポイント制」で行われます。最大の特徴は<span class="highlight">min方式</span>を採用している点です。</p>
-
-<div class="point-box">
-<p>選考に使われる点数 = 父母それぞれの（基本指数＋調整指数）のうち、低い方の合計点</p>
-</div>
-
-<p>つまり、片方の保護者が満点でも、もう片方が低ければそちらの点数で選考されます。両親とも高い点数を確保することが重要です。</p>
-
-<h2>基本指数とは？</h2>
-<p>保護者それぞれの「保育が必要な理由」を点数化したものです。1人あたり最大20点です。</p>
-<table>
-<tr><th>就労時間</th><th>基本指数</th></tr>
-<tr><td>週40時間以上</td><td>20点（満点）</td></tr>
-<tr><td>週35〜40時間</td><td>18点</td></tr>
-<tr><td>週30〜35時間</td><td>16点</td></tr>
-<tr><td>週25〜30時間</td><td>14点</td></tr>
-<tr><td>週20〜25時間</td><td>12点</td></tr>
-<tr><td>その他（月64時間以上）</td><td>8点</td></tr>
-</table>
-
-<p>就労以外の理由（疾病・介護・出産・就学）でも点数が付きます。</p>
-
-<h2>調整指数とは？</h2>
-<p>基本指数に加えて考慮される事情を点数化したものです。以下のような項目が加点されます。</p>
-<ul>
-<li>ひとり親：5点</li>
-<li>きょうだい在園：15点</li>
-<li>多胎児：10点</li>
-<li>育休復帰が年度内に必要：2点</li>
-<li>保育士等の勤務：10点</li>
-</ul>
-
-<p>減点になる項目もあります。</p>
-
-<h2>実際の計算例</h2>
-<table>
-<tr><th>項目</th><th>保護者1</th><th>保護者2</th></tr>
-<tr><td>基本指数</td><td>20点</td><td>0点</td></tr>
-<tr><td>調整指数</td><td>5点</td><td>0点</td></tr>
-<tr><td>小計</td><td>25点</td><td>0点</td></tr>
-<tr><td colspan="3">選考点数 = 低い方の25点 = 25点</td></tr>
-</table>`,
-    publishedAt: "2026-04-26",
-  },
-  {
     slug: "score-up-tips",
     citySlug: "nagaokakyo",
     title: "長岡京市で入園点数を上げるコツ　基本指数と調整指数を最大化する",

@@ -51,18 +51,6 @@ const articles: Article[] = [
     popularity: 47,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "ishigaki",
-    title: "石垣市の入園点数のしくみ　基本指数と調整指数をやさしく解説",
-    description: "石垣市の保育園入園選考で使われる基本指数と調整指数の仕組みを、初めての方にもわかるように解説します。",
-    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
-    categoryColor: "blue",
-    content: `<h2>調整指数とは？</h2><p>世帯の特別な事情に応じて加減される点数です。石垣市はDV・虐待被害への+40点が特徴的です。</p><h3>主な加算項目</h3><ul><li>ひとり親世帯：+23点</li><li>生活保護受給：+5点</li><li>DV・虐待の被害：+40点</li><li>申込児童に障がいがある：+16点</li><li>3人以上の扶養児童がいる多子世帯：+8点</li><li>単身赴任（一方の保護者が赴任中）：+10点</li><li>保育士として市内施設に就労：+7点</li></ul>`,
-    publishedAt: "2026-05-08",
-    popularity: 49,
-  },
-  {
     slug: "selection-process",
     citySlug: "ishigaki",
     title: "石垣市の保育園選考フロー　書類提出から入園決定まで",

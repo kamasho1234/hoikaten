@@ -57,53 +57,6 @@ const articles: Article[] = [
     popularity: 55,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "takamatsu",
-    title: "高松市の入園点数のしくみ　利用調整基準を解説",
-    description:
-      "高松市の保育園入園選考で使われる利用調整基準のしくみを解説します。基本指数と調整指数の計算方法がわかります。",
-    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
-    categoryColor: "blue",
-    content: `<h2>高松市の利用調整基準とは</h2>
-<p>高松市の認可保育園は各家庭の保育の必要性を点数化し、合計点数の高い子どもから入園が決まります。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>合計点数 ＝ 基準点数（父母の低い方）＋ 調整点数</p>
-</div>
-
-<h2>基本指数（父母各最大20点・低い方を採用）</h2>
-<p>就労の場合、月160時間以上で満点の<span class="highlight">20点</span>です。高松市は父母それぞれに点数を出し、低い方の点数が基準点数になります。</p>
-
-<table>
-<tr><th>月の就労時間</th><th>基準点数</th></tr>
-<tr><td>月160時間以上</td><td>20</td></tr>
-<tr><td>月140時間以上160時間未満</td><td>18</td></tr>
-<tr><td>月120時間以上140時間未満</td><td>16</td></tr>
-<tr><td>月100時間以上120時間未満</td><td>14</td></tr>
-<tr><td>月80時間以上100時間未満</td><td>12</td></tr>
-<tr><td>月64時間以上80時間未満</td><td>10</td></tr>
-</table>
-
-<h2>調整点数の代表例</h2>
-<ul>
-<li>ひとり親世帯：<span class="highlight">+12点</span></li>
-<li>きょうだいが在園中の園を希望：<span class="highlight">+8点</span></li>
-<li>小規模保育事業の卒園児：<span class="highlight">+8点</span></li>
-<li>育休復帰予定：<span class="highlight">+6点</span></li>
-<li>生活保護世帯：<span class="highlight">+4点</span></li>
-<li>障がい児保育希望：<span class="highlight">+4点</span></li>
-</ul>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>全項目は<a href="https://www.city.takamatsu.kagawa.jp/kurashi/kosodate/youchien_hoiku/kodomoen/hoiku/h29riyou.html" target="_blank" rel="noopener">高松市公式サイト</a>で確認できます。</p>
-</div>`,
-    publishedAt: "2026-04-05",
-    popularity: 60,
-  },
-  {
     slug: "score-up-tips",
     citySlug: "takamatsu",
     title: "高松市で入園点数を上げるコツ　加点チェックリスト",

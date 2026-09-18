@@ -57,56 +57,6 @@ const articles: Article[] = [
     popularity: 55,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "suita",
-    title: "吹田市の点数の仕組みと計算方法　基本指数と調整指数を解説",
-    description:
-      "吹田市の保育園入園選考で使われる基本指数と調整指数の仕組みを解説します。",
-    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
-    categoryColor: "blue",
-    content: `<h2>吹田市の利用調整指数とは</h2>
-<p>吹田市の認可保育園の入園選考は「父の基本指数 ＋ 母の基本指数 ＋ 調整指数」の合計で行われます。ひとり親世帯は基本指数に40点が加算されます。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>利用調整指数 = 基本指数（保護者1 + 保護者2）+ 調整指数</p>
-</div>
-
-<h2>基本指数（父母各最大40点、合計80点）</h2>
-<p>就労の場合、雇用型勤務で月160時間以上なら満点の<span class="highlight">40点</span>です。自営中心者は最大36点、自営協力者は最大32点と雇用形態によって上限が異なります。</p>
-
-<table>
-<tr><th>勤務形態</th><th>就労時間</th><th>基本指数</th></tr>
-<tr><td>雇用型勤務</td><td>月160時間以上</td><td>40</td></tr>
-<tr><td>雇用型勤務</td><td>月140〜160時間</td><td>36</td></tr>
-<tr><td>雇用型勤務</td><td>月120〜140時間</td><td>32</td></tr>
-<tr><td>雇用型勤務</td><td>月80〜120時間</td><td>28</td></tr>
-<tr><td>雇用型勤務</td><td>月64〜80時間</td><td>24</td></tr>
-<tr><td>自営中心者</td><td>月160時間以上</td><td>36</td></tr>
-<tr><td>自営協力者</td><td>月160時間以上</td><td>32</td></tr>
-<tr><td>内職</td><td>月120時間以上</td><td>20</td></tr>
-<tr><td>求職活動中</td><td>—</td><td>12</td></tr>
-</table>
-
-<h2>調整指数の代表例</h2>
-<ul>
-<li>ひとり親世帯：<span class="highlight">+16点</span></li>
-<li>地域型保育事業の卒園児：<span class="highlight">+16点</span></li>
-<li>保育士加点（吹田市内施設勤務）：<span class="highlight">+12点</span></li>
-<li>きょうだいが保育所等を利用中：<span class="highlight">+8点</span></li>
-<li>単身赴任：<span class="highlight">+8点</span></li>
-<li>育休復帰：<span class="highlight">+2点</span></li>
-</ul>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>全項目は<a href="https://www.city.suita.osaka.jp/kosodate/1018230/1018247/1022101/index.html" target="_blank" rel="noopener">吹田市公式サイト「保育所等の利用申込」</a>の利用調整基準表で確認できます。</p>
-</div>`,
-    publishedAt: "2026-04-04",
-    popularity: 60,
-  },
-  {
     slug: "score-up-tips",
     citySlug: "suita",
     title: "吹田市の加点のコツ　点数アップ戦略と調整指数の活用法",

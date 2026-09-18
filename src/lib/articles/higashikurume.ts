@@ -57,53 +57,6 @@ const articles: Article[] = [
     popularity: 55,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "higashikurume",
-    title: "東久留米市の入園点数のしくみ　基準指数と調整指数を解説",
-    description:
-      "東久留米市の保育園入園選考で使われる実施基準指数と調整指数のしくみをわかりやすく解説します。",
-    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
-    categoryColor: "blue",
-    content: `<h2>東久留米市の選考指数とは</h2>
-<p>東久留米市の認可保育園は「実施基準指数（父＋母）＋ 調整指数」で選考されます。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>利用調整指数 ＝ 基準指数（父＋母）＋ 調整指数</p>
-</div>
-
-<h2>基準指数（父母各最大50点、合計100点）</h2>
-<p>就労の場合、フルタイム勤務で各親<span class="highlight">50点</span>（合計100点）が満点です。</p>
-
-<table>
-<tr><th>就労形態</th><th>基準指数</th></tr>
-<tr><td>フルタイム勤務</td><td>50点</td></tr>
-<tr><td>月160時間以上のパート</td><td>45点</td></tr>
-<tr><td>月120〜160時間のパート</td><td>40点</td></tr>
-<tr><td>月80〜120時間のパート</td><td>30点</td></tr>
-<tr><td>月60〜80時間のパート</td><td>20点</td></tr>
-<tr><td>自営業</td><td>40点</td></tr>
-</table>
-
-<h2>調整指数の代表例</h2>
-<ul>
-<li>ひとり親で就労：<span class="highlight">+10点</span></li>
-<li>育休から復帰予定：<span class="highlight">+10点</span></li>
-<li>生活保護世帯：<span class="highlight">+10点</span></li>
-<li>認可外施設利用（3ヶ月以上）：<span class="highlight">+20点</span></li>
-<li>きょうだいが在園中：<span class="highlight">+5点</span></li>
-<li>低所得世帯：<span class="highlight">+5点</span></li>
-</ul>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>全項目は<a href="https://www.city.higashikurume.lg.jp/shinseisho/hoiku/1001551.html" target="_blank" rel="noopener">東久留米市公式サイト</a>の「入園のしおり」で確認できます。</p>
-</div>`,
-    publishedAt: "2026-04-26",
-    popularity: 60,
-  },
-  {
     slug: "score-up-tips",
     citySlug: "higashikurume",
     title: "東久留米市で入園点数を上げるコツ　加点チェックリスト",

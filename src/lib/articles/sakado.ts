@@ -57,57 +57,6 @@ const articles: Article[] = [
     popularity: 50,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "sakado",
-    title: "坂戸市の入園点数のしくみ　基本指数と調整指数を解説",
-    description:
-      "坂戸市の保育園入園選考で使われる基本指数と調整指数のしくみをわかりやすく解説します。参考値です。",
-    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
-    categoryColor: "blue",
-    content: `<h2>坂戸市の選考指数とは</h2>
-<p>坂戸市の認可保育園は「基本指数（父＋母）＋ 調整指数」の合計で選考されます。参考値として、埼玉県の基準をお伝えします。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>利用調整指数 ＝ 基本指数（父＋母）＋ 調整指数</p>
-</div>
-
-<h2>基本指数（父母各最大25点、合計50点）</h2>
-<p>就労の場合、月160時間以上の就労で満点の<span class="highlight">25点</span>です。</p>
-
-<table>
-<tr><th>月の就労時間</th><th>指数</th></tr>
-<tr><td>月160時間以上の就労を常態（または海外赴任）</td><td>21</td></tr>
-<tr><td>月150時間以上の就労を常態</td><td>20</td></tr>
-<tr><td>月140時間以上の就労を常態</td><td>19</td></tr>
-<tr><td>月120時間以上の就労を常態</td><td>18</td></tr>
-<tr><td>月100時間以上の就労を常態</td><td>17</td></tr>
-<tr><td>月80時間以上の就労を常態</td><td>16</td></tr>
-<tr><td>月64時間以上の就労を常態</td><td>14</td></tr>
-<tr><td>月64時間未満の就労を常態とし、これから勤務を増やす予定</td><td>10</td></tr>
-</table>
-
-<h2>調整指数の代表例（参考値）</h2>
-<ul>
-<li>ひとり親：<span class="highlight">+8点</span></li>
-<li>DV・児童虐待該当：<span class="highlight">+30点</span></li>
-<li>きょうだい在園（転園児）：<span class="highlight">+10点</span></li>
-<li>きょうだい在園（新園児）：<span class="highlight">+4点</span></li>
-<li>認可外利用：<span class="highlight">+4点</span></li>
-<li>育休復帰予定（1人）：<span class="highlight">+3点</span></li>
-<li>育休復帰予定（2人）：<span class="highlight">+6点</span></li>
-<li>生活保護：<span class="highlight">+2点</span></li>
-</ul>
-
-<div class="warn-box">
-<p><strong>注意</strong></p>
-<p>この情報は参考値です。正確な基準は、坂戸市の「保育園入園案内」で必ず確認してください。</p>
-</div>`,
-    publishedAt: "2026-04-26",
-    popularity: 55,
-  },
-  {
     slug: "score-up-tips",
     citySlug: "sakado",
     title: "坂戸市で入園点数を上げるコツ　加点チェックリスト",

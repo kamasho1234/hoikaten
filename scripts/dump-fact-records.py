@@ -4,7 +4,7 @@
 import io, json, os, sys
 sys.stdout.reconfigure(encoding="utf-8")
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-KINDS = {"shurou": "src/lib/articles/shurou-shoumeisho/records", "ichiji": "src/lib/articles/ichiji-hoiku/records"}
+KINDS = {"shurou": "src/lib/articles/shurou-shoumeisho/records", "ichiji": "src/lib/articles/ichiji-hoiku/records", "hokatsu": "src/lib/articles/hokatsu-schedule/records"}
 k = sys.argv[1]
 REC = os.path.join(ROOT, KINDS[k])
 SKIP = {"citySlug", "checkedAt", "evidence", "sources", "slug"}

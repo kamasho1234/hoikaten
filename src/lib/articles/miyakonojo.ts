@@ -51,18 +51,6 @@ const articles: Article[] = [
     popularity: 45,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "miyakonojo",
-    title: "都城市の入園点数のしくみ　基本指数と調整指数をやさしく解説",
-    description: "都城市の保育所入所選考で使われる基本指数と調整指数の仕組みを、初めての方にもわかるように解説します。",
-    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
-    categoryColor: "blue",
-    content: `<h2>調整指数とは？</h2><p>世帯の特別な事情に応じて加減される点数です。都城市の主な調整指数は以下の通りです。</p><h3>主な加算項目</h3><ul><li>ひとり親世帯：+5点</li><li>きょうだいが申込施設に在園中：+5点</li><li>きょうだいと同時申込み：+2点</li><li>生活保護受給：+2点</li><li>育児休業から復帰予定：+3点</li><li>認可外保育施設（卒園・新規申込み）：+8点</li></ul><div class="point-box"><p>都城市の特徴は認可外保育施設卒園の加点が+8点と非常に大きいことです。一度不承諾になった場合は認可外を活用して翌年再申請する戦略が有効です。</p></div>`,
-    publishedAt: "2026-05-11",
-    popularity: 43,
-  },
-  {
     slug: "selection-process",
     citySlug: "miyakonojo",
     title: "都城市の保育所選考フロー　書類提出から入所決定まで",

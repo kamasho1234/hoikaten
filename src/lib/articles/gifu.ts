@@ -62,63 +62,6 @@ const articles: Article[] = [
   },
 
   // 2. 点数の仕組み
-  {
-    slug: "scoring-system",
-    citySlug: "gifu",
-    title: "岐阜市の保育園入園｜点数の仕組みと計算方法をやさしく解説",
-    description:
-      "岐阜市の利用調整基準をもとに、基本点数と補正点数の仕組み・計算方法をわかりやすく解説します。",
-    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=400&fit=crop",
-    category: "点数の仕組み",
-    categoryColor: "blue",
-    content: `<h2>岐阜市の点数制度のしくみ</h2>
-<p>岐阜市では「<strong>優先順位（ランクA〜E）</strong>」と「<strong>基本点数＋補正点数</strong>」の二段階で入園の順位が決まります。同じランクの中で、点数が高い世帯が優先されます。</p>
-
-<h3>計算の流れ</h3>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content">
-<strong>父母それぞれの基本点数を出す</strong>
-<p>就労・疾病・障害・介護・出産・就学・求職などの理由に応じて点数が付きます。最大100点です。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content">
-<strong>父母の基本点数を合算する</strong>
-<p>岐阜市は父母の点数を合計します。最大200点になります。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content">
-<strong>補正点数を加算する</strong>
-<p>ひとり親・きょうだい・障害・多子世帯などの世帯状況に応じた加点が加わります。</p>
-</div>
-</div>
-
-<h2>基本点数の一覧（就労の場合）</h2>
-<table>
-<tr><th>月の就労時間</th><th>基本点数</th></tr>
-<tr><td>月140時間以上</td><td>100点</td></tr>
-<tr><td>月120〜140時間未満</td><td>90点</td></tr>
-<tr><td>月100〜120時間未満</td><td>80点</td></tr>
-<tr><td>月80〜100時間未満</td><td>70点</td></tr>
-<tr><td>月60〜80時間未満</td><td>60点</td></tr>
-</table>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>就労は月60時間以上が前提条件です。父母ともにフルタイム（月140時間以上）であれば基本点数の合計は200点になります。</p>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>利用調整基準の詳細は<a href="https://www.city.gifu.lg.jp/kosodate/hoiku/1012359/1012413/1003705.html" target="_blank" rel="noopener">岐阜市公式サイト「保育所（園）の入所選考」</a>で確認できます。</p>
-</div>`,
-    publishedAt: "2026-04-05",
-    popularity: 60,
-  },
 
   // 3. 補正点数（加点・減点）
   {

@@ -51,18 +51,6 @@ const articles: Article[] = [
     popularity: 46,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "ginowan",
-    title: "宜野湾市の入園点数のしくみ　基本指数と調整指数をやさしく解説",
-    description: "宜野湾市の保育園入園選考で使われる基本指数と調整指数の仕組みを、初めての方にもわかるように解説します。",
-    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
-    categoryColor: "blue",
-    content: `<h2>調整指数とは？</h2><p>世帯の特別な事情に応じて加減される点数です。宜野湾市の調整指数は以下の通りです。</p><h3>主な加算項目</h3><ul><li>ひとり親世帯：+6点</li><li>生活保護受給：+2点</li><li>きょうだいが在園中：+1点</li><li>保育士就労：+6点</li></ul><h3>減算項目</h3><ul><li>市外からの申込：-3点（場合によって）</li></ul><div class="point-box"><p>調整指数は世帯の事情により大きく変わります。自分の家庭に当てはまる項目をしっかり把握することが、入園率を上げるコツです。</p></div>`,
-    publishedAt: "2026-05-08",
-    popularity: 43,
-  },
-  {
     slug: "selection-process",
     citySlug: "ginowan",
     title: "宜野湾市の保育園選考フロー　書類提出から入園決定まで",

@@ -56,58 +56,6 @@ const articles: Article[] = [
     popularity: 60,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "kure",
-    title: "呉市の入園選考のしくみ　ランク制と調整指数をやさしく解説",
-    description:
-      "呉市の保育園入園選考で使われるランク制度の仕組みを、初めての方にもわかるように解説します。",
-    image:
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "点数・選考",
-    categoryColor: "blue",
-    content: `<h2>選考制度の全体像</h2>
-<p>呉市の認可保育施設は<strong>ランクの高い世帯から優先</strong>して利用調整されます。広島県内の多くの自治体と同様、ランク制を採用しています。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>世帯のランク ＝ 父母のうち低い方のランク<br>同ランクの場合は調整指数の高い世帯が優先</p>
-</div>
-
-<h2>ランクとは</h2>
-<p>保護者それぞれの「保育を必要とする事由」をランクに変換したものです。ランクは<span class="highlight">S（最優先）〜G（求職活動）</span>まであります。</p>
-<table>
-<tr><th>ランク</th><th>主な条件例</th></tr>
-<tr><td>S</td><td>転園（在園児の学年上がりに伴う措置）</td></tr>
-<tr><td>A</td><td>月160時間以上の居宅外就労、重度障害、常時看護</td></tr>
-<tr><td>B</td><td>月120時間以上160時間未満の就労、精神疾患等</td></tr>
-<tr><td>C</td><td>月64時間以上120時間未満の就労、出産前後</td></tr>
-<tr><td>D</td><td>月64時間未満の就労</td></tr>
-<tr><td>E</td><td>居宅内労働（内職）月64時間未満</td></tr>
-<tr><td>F</td><td>育児休業中（復帰予定あり）</td></tr>
-<tr><td>G</td><td>求職活動中</td></tr>
-</table>
-
-<h2>調整指数とは</h2>
-<p>世帯の状況に応じて加点・減点される指数です。同一ランク内の優先順位を決めるために使われます。</p>
-<table>
-<tr><th>項目</th><th>指数</th></tr>
-<tr><td>ひとり親世帯</td><td>+20</td></tr>
-<tr><td>きょうだいが同一施設に在園中</td><td>+4</td></tr>
-<tr><td>認可外保育施設等を利用中</td><td>+3</td></tr>
-<tr><td>育児休業からの復帰予定</td><td>+3</td></tr>
-<tr><td>保育士として市内施設に勤務</td><td>+5</td></tr>
-<tr><td>地域型保育事業の卒園児（連携施設）</td><td>+10</td></tr>
-<tr><td>65歳未満の無職の祖父母等と同居</td><td>-2</td></tr>
-</table>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳細は<a href="https://www.city.kure.lg.jp/soshiki/27/" target="_blank" rel="noopener">呉市こども施設課</a>（TEL: 0823-25-3144）にお問い合わせください。</p>
-</div>`,
-    publishedAt: "2026-04-05",
-    popularity: 55,
-  },
-  {
     slug: "fulltime-rank-a",
     citySlug: "kure",
     title: "フルタイム共働きでランクAは安心？呉市のボーダーライン事情",

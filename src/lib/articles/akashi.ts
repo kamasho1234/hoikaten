@@ -55,59 +55,6 @@ const articles: Article[] = [
     popularity: 55,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "akashi",
-    title: "明石市の入園点数のしくみ　基礎指数と付加指数をやさしく解説",
-    description:
-      "明石市の保育園入園選考で使われる点数制度の仕組みを、初めての方にもわかるように解説します。",
-    image:
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "点数・選考",
-    categoryColor: "blue",
-    content: `<h2>点数制度の全体像</h2>
-<p>明石市の認可保育施設は<strong>選考指数の高い世帯から優先</strong>して利用調整されます。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>基礎指数 ＝（父の基礎指数 ＋ 母の基礎指数）÷ 2<br>選考指数 ＝ 基礎指数 ± 付加指数</p>
-</div>
-
-<h2>基礎指数とは</h2>
-<p>保護者それぞれの「保育を必要とする事由」を点数化したものです。1人あたり<span class="highlight">最大22点</span>（フルタイム就労の場合）で、父母の平均値が基礎指数になります。</p>
-<table>
-<tr><th>就労時間（月あたり）</th><th>基礎指数</th></tr>
-<tr><td>160時間以上（フルタイム）</td><td>22</td></tr>
-<tr><td>144時間以上160時間未満</td><td>21</td></tr>
-<tr><td>128時間以上144時間未満</td><td>20</td></tr>
-<tr><td>112時間以上128時間未満</td><td>19</td></tr>
-<tr><td>96時間以上112時間未満</td><td>18</td></tr>
-<tr><td>80時間以上96時間未満</td><td>17</td></tr>
-<tr><td>64時間以上80時間未満</td><td>16</td></tr>
-</table>
-
-<h2>付加指数とは</h2>
-<p>世帯の状況に応じて加点・減点される点数です。</p>
-<table>
-<tr><th>項目</th><th>指数</th></tr>
-<tr><td>ひとり親世帯（片方不在）</td><td>+5</td></tr>
-<tr><td>両親不在</td><td>+10</td></tr>
-<tr><td>きょうだいが同一施設に在園中</td><td>+2</td></tr>
-<tr><td>認可外保育施設等を利用中</td><td>+3</td></tr>
-<tr><td>育児休業からの復帰予定</td><td>+2</td></tr>
-<tr><td>地域型保育事業の卒園児（連携施設）</td><td>+10</td></tr>
-<tr><td>地域型保育事業の卒園児（その他）</td><td>+5</td></tr>
-<tr><td>保育士として市内施設に勤務</td><td>+10</td></tr>
-<tr><td>65歳未満の無職の祖父母等と同居</td><td>-2</td></tr>
-</table>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳細な利用調整基準表は<a href="https://www.city.akashi.lg.jp/kodomo/ikusei_shitsu/riyoukijunriyouchousei.html" target="_blank" rel="noopener">明石市公式サイト「利用調整基準表・利用調整結果」</a>からダウンロードできます。</p>
-</div>`,
-    publishedAt: "2026-04-04",
-    popularity: 60,
-  },
-  {
     slug: "fulltime-22-line",
     citySlug: "akashi",
     title: "フルタイム共働きで基礎指数22は安心？明石市のボーダーライン事情",

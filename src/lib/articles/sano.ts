@@ -51,18 +51,6 @@ const articles: Article[] = [
     popularity: 48,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "sano",
-    title: "佐野市の入園点数のしくみ　基本指数と調整指数をやさしく解説",
-    description: "佐野市の保育園入園選考で使われる基本指数と調整指数の仕組みを、初めての方にもわかるように解説します。",
-    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
-    categoryColor: "blue",
-    content: `<h2>調整指数とは？</h2><p>世帯の特別な事情に応じて加減される点数です。</p><h3>主な加算項目</h3><ul><li>ひとり親世帯：+5点</li><li>きょうだいが在園中：+3点</li><li>認可外保育利用実績：+3点</li><li>生活保護受給：+3点</li><li>育休明け復帰（再入園）：+5点</li></ul><h3>主な減算項目</h3><ul><li>市外からの申込：-5点</li><li>同居祖父母が保育可能：-3点</li><li>認可園からの転園希望：-3点</li></ul>`,
-    publishedAt: "2026-04-29",
-    popularity: 51,
-  },
-  {
     slug: "selection-process",
     citySlug: "sano",
     title: "佐野市の保育園選考フロー　書類提出から入園決定まで",

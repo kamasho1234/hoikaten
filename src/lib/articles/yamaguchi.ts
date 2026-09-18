@@ -78,59 +78,6 @@ const articles: Article[] = [
 
   // ===== 点数・選考 (3) =====
   {
-    slug: "scoring-system",
-    citySlug: "yamaguchi",
-    title: "山口市の保育園の点数はどう決まる？基準指数と調整指数をやさしく解説",
-    description:
-      "山口市の保育園入園の「利用調整基準」について、基準指数と調整指数の仕組みをわかりやすく解説します。",
-    image:
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "点数・選考",
-    categoryColor: "blue",
-    content: `<h2>山口市の点数の仕組み</h2>
-<p>山口市の保育園入園の選考は<strong>「基準指数（父母合計）＋調整指数＝世帯の合計点数」</strong>で行われます。</p>
-
-<h3>基準指数とは？</h3>
-<p>保護者それぞれの「保育が必要な理由」に応じた点数です。父母各最大50点で合計100点満点です。</p>
-<table>
-<tr><th>保育が必要な理由</th><th>点数の範囲</th></tr>
-<tr><td>就労</td><td>8〜20点</td></tr>
-<tr><td>疾病</td><td>14〜20点</td></tr>
-<tr><td>障害</td><td>10〜20点</td></tr>
-<tr><td>介護・看護</td><td>12〜16点</td></tr>
-<tr><td>出産</td><td>12点</td></tr>
-<tr><td>就学</td><td>8〜16点</td></tr>
-<tr><td>求職活動</td><td>6点</td></tr>
-</table>
-
-<h3>調整指数とは？</h3>
-<p>世帯の状況に応じてプラスまたはマイナスされる点数です。</p>
-<table>
-<tr><th>項目</th><th>点数</th></tr>
-<tr><td>ひとり親</td><td>+5</td></tr>
-<tr><td>きょうだいが在園中</td><td>+3</td></tr>
-<tr><td>きょうだい同時申込</td><td>+2</td></tr>
-<tr><td>認可外保育施設を利用</td><td>+3</td></tr>
-<tr><td>育休復帰予定</td><td>+2</td></tr>
-<tr><td>生活保護世帯</td><td>+3</td></tr>
-<tr><td>市外からの申込</td><td><span class="highlight">-10</span></td></tr>
-<tr><td>同居の祖父母あり</td><td>-3</td></tr>
-<tr><td>認可園からの転園</td><td>-5</td></tr>
-</table>
-
-<div class="point-box">
-<p><strong>重要ポイント</strong></p>
-<p>山口市外から申し込む場合は<strong>-10点</strong>の大きな減点になります。市内在住であることが入園には非常に重要です。</p>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>最新の基準は<a href="https://www.city.yamaguchi.lg.jp/soshiki/50/" target="_blank" rel="noopener">山口市こども未来部保育幼稚園課</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-04-07",
-    popularity: 90,
-  },
-  {
     slug: "douten-taisaku",
     citySlug: "yamaguchi",
     title: "山口市で同点になったらどうなる？同点時の優先順位と対策",

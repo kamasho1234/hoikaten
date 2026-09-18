@@ -39,43 +39,6 @@ const articles: Article[] = [
     popularity: 58,
   },
   {
-    slug: "scoring-system",
-    citySlug: "kawagoe",
-    title: "川越市の保育園入園点数の仕組みと計算方法",
-    description:
-      "川越市の保育所入所基準指数表を元に、基準指数と調整指数の計算方法をわかりやすく解説します。",
-    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>川越市の入所指数とは？</h2>
-<p>川越市では保育園の入園選考に「入所指数」を使います。入所指数は<strong>基準指数＋調整指数</strong>の合計で決まり、点数が高い人から順に入園が決定します。</p>
-
-<h3>基準指数の仕組み</h3>
-<p>基準指数は、父母それぞれの状況に応じた点数を合算して世帯の指数とします。複数の理由に該当する場合は、一番高い点数が適用されます。</p>
-
-<table>
-<tr><th>保育が必要な理由</th><th>指数の範囲</th></tr>
-<tr><td>就労（外勤）</td><td>9〜21点</td></tr>
-<tr><td>就労内定</td><td>8〜14点</td></tr>
-<tr><td>疾病</td><td>22点</td></tr>
-<tr><td>妊娠・出産</td><td>25点</td></tr>
-<tr><td>介護・看護</td><td>17〜21点</td></tr>
-<tr><td>障害</td><td>22〜25点</td></tr>
-<tr><td>就学</td><td>7〜18点</td></tr>
-<tr><td>求職活動</td><td>5点</td></tr>
-</table>
-
-<div class="point-box">
-<p><strong>計算例</strong></p>
-<p>父：フルタイム就労（月150時間以上）= 21点<br>母：フルタイム就労（月150時間以上）= 21点<br>基準指数合計 = <strong>42点</strong></p>
-</div>
-
-<h3>調整指数とは</h3>
-<p>世帯の状況に応じて加点・減点される指数です。ひとり親家庭（+40点）、きょうだいの在園（+2点）、認可外利用（+2点）などがあります。</p>`,
-    publishedAt: "2026-04-04",
-    popularity: 55,
-  },
-  {
     slug: "score-up-tips",
     citySlug: "kawagoe",
     title: "川越市で保育園の点数をアップするコツと加点戦略",

@@ -74,63 +74,6 @@ const articles: Article[] = [
     popularity: 55,
   },
   // ===== 選考のしくみ (2) =====
-  {
-    slug: "scoring-system-guide",
-    citySlug: "takasaki",
-    title: "高崎市の入園点数のしくみ　基準指数と調整指数を解説",
-    description:
-      "高崎市の保育園入園選考で使われる「基準指数」「調整指数」のしくみを初めての方にもわかるように解説します。",
-    image:
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
-    categoryColor: "blue",
-    content: `<h2>高崎市の点数制度の特徴</h2>
-<p>高崎市の入園選考は「選考基準点数」の高い順に内定が決まります。点数は<span class="highlight">基準指数</span>と<span class="highlight">調整指数</span>の合計で算出されます。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>選考点数 ＝ 父の基準指数 ＋ 母の基準指数 ＋ 調整指数</p>
-</div>
-
-<h2>基準指数とは？</h2>
-<p>保護者それぞれの「保育が必要な理由」を点数化したものです。1人あたり最大<span class="highlight">10点</span>、父母合計で最大<span class="highlight">20点</span>です。</p>
-
-<table>
-<tr><th>就労状況（外勤・自営中心者）</th><th>基準指数</th></tr>
-<tr><td>月150時間以上</td><td>10点（満点）</td></tr>
-<tr><td>月130時間以上150時間未満</td><td>9点</td></tr>
-<tr><td>月110時間以上130時間未満</td><td>8点</td></tr>
-<tr><td>月90時間以上110時間未満</td><td>7点</td></tr>
-<tr><td>月60時間以上90時間未満</td><td>6点</td></tr>
-<tr><td>月48時間以上60時間未満</td><td>5点</td></tr>
-</table>
-
-<h2>調整指数とは？</h2>
-<p>世帯の状況に応じて加減される点数です。代表的な項目は以下の通りです。</p>
-<ul>
-<li>ひとり親家庭：<span class="highlight">+13点</span></li>
-<li>生活保護受給中：<span class="highlight">+13点</span></li>
-<li>きょうだいが在園中の園を希望：<span class="highlight">+5点</span></li>
-<li>4月1日入所希望：<span class="highlight">+2点</span></li>
-<li>認可外保育施設の利用：<span class="highlight">+1点</span></li>
-<li>保育士として市内の認可施設に勤務：<span class="highlight">+3点</span></li>
-</ul>
-
-<div class="warn-box">
-<p><strong>注意</strong></p>
-<p>勤務先が親族経営の個人事業等の場合は<span class="highlight">-1点</span>の減点があります。自営中心者・協力者・農業とは重複しません。</p>
-</div>
-
-<h2>フルタイム共働きの標準的な点数</h2>
-<p>父母ともにフルタイム（10点×2）＋4月入所希望（+2点）＝<span class="highlight">22点</span>が標準的な点数です。</p>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>最新の選考基準表は<a href="https://www.city.takasaki.gunma.jp/page/6308.html" target="_blank" rel="noopener">高崎市公式ホームページ</a>の入所ガイドでご確認ください。</p>
-</div>`,
-    publishedAt: "2026-04-05",
-    popularity: 60,
-  },
   // ===== 点数アップ (3) =====
   {
     slug: "score-up-checklist",

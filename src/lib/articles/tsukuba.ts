@@ -94,51 +94,6 @@ const articles: Article[] = [
     popularity: 58,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "tsukuba",
-    title: "つくば市の入所点数のしくみ　基準指数と調整指数をやさしく解説",
-    description:
-      "つくば市の保育所入所選考で使われる基準指数と調整指数の仕組みを、初めての方にもわかるように解説します。",
-    image:
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
-    categoryColor: "blue",
-    content: `<h2>点数ってなに？</h2>
-<p>つくば市の保育所入所は「先着順」ではなく「点数（指数）」の高い順に内定が決まります。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>合計指数 ＝ 基準指数（保護者1）＋ 基準指数（保護者2）＋ 調整指数</p>
-</div>
-
-<h2>基準指数とは？</h2>
-<p>保護者それぞれの「保育が必要な理由」を点数化したものです。</p>
-
-<table>
-<tr><th>就労状況</th><th>指数</th></tr>
-<tr><td>月160時間以上</td><td>19</td></tr>
-<tr><td>月140時間以上160時間未満</td><td>18</td></tr>
-<tr><td>月120時間以上140時間未満</td><td>17</td></tr>
-<tr><td>月100時間以上120時間未満</td><td>16</td></tr>
-<tr><td>月60時間以上100時間未満</td><td>15</td></tr>
-</table>
-
-<h2>ひとり親（父（母）いない）の場合</h2>
-<p>父または母が死亡・離婚等で不在の場合、不在の親の基準指数は<span class="highlight">21点</span>として計算されます。これはフルタイム就労（19点）よりも高い点数です。</p>
-
-<h2>調整指数の主な項目</h2>
-<ul>
-<li>虐待・DV：<span class="highlight">+30点</span></li>
-<li>市内保育施設の保育士等（月160時間以上）：<span class="highlight">+9点</span></li>
-<li>市内保育施設の保育士等（月60時間以上160時間未満）：<span class="highlight">+8点</span></li>
-<li>認可保育所等に現在入所中：<span class="highlight">+3点</span></li>
-<li>育休・産休明けで入所希望（休業中）：<span class="highlight">+3点</span></li>
-<li>市内小規模保育等の卒園：<span class="highlight">+5点</span></li>
-</ul>`,
-    publishedAt: "2026-04-18",
-    popularity: 72,
-  },
-  {
     slug: "score-up-checklist",
     citySlug: "tsukuba",
     title: "つくば市で点数を上げる方法　加点チェックリストと減点注意事項",

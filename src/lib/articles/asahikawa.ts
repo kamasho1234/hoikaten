@@ -56,57 +56,6 @@ const articles: Article[] = [
     popularity: 55,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "asahikawa",
-    title: "旭川市の入園点数のしくみ　基礎点数と調整点数をやさしく解説",
-    description:
-      "旭川市の保育園入園選考で使われる点数制度の仕組みを、初めての方にもわかるように解説します。",
-    image:
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "点数・選考",
-    categoryColor: "blue",
-    content: `<h2>点数制度の全体像</h2>
-<p>旭川市の認可保育施設は<strong>合計点数の高い世帯から優先</strong>して利用調整されます。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>合計点数 ＝ 基礎点数（父＋母）＋ 調整点数</p>
-</div>
-
-<h2>基礎点数とは</h2>
-<p>保護者それぞれの「保育を必要とする事由」を点数化したものです。1人あたり<span class="highlight">最大100点</span>（フルタイム就労の場合）で、父母の合算が基礎点数になります。</p>
-<table>
-<tr><th>就労時間（月あたり）</th><th>基礎点数</th></tr>
-<tr><td>160時間以上（フルタイム）</td><td>100</td></tr>
-<tr><td>140時間以上160時間未満</td><td>90</td></tr>
-<tr><td>120時間以上140時間未満</td><td>80</td></tr>
-<tr><td>100時間以上120時間未満</td><td>70</td></tr>
-<tr><td>80時間以上100時間未満</td><td>60</td></tr>
-<tr><td>60時間以上80時間未満</td><td>50</td></tr>
-</table>
-
-<h2>調整点数とは</h2>
-<p>世帯の状況に応じて加点される点数です。複数の項目に該当する場合はすべて加算されます。</p>
-<table>
-<tr><th>項目</th><th>点数</th></tr>
-<tr><td>ひとり親家庭</td><td>+130</td></tr>
-<tr><td>地域型保育事業・乳児保育所の卒園児</td><td>+130</td></tr>
-<tr><td>保育士として認可保育所等に勤務</td><td>+100</td></tr>
-<tr><td>育休明け</td><td>+50</td></tr>
-<tr><td>産休明け</td><td>+50</td></tr>
-<tr><td>きょうだいが認可保育所等に入所中</td><td>+50</td></tr>
-<tr><td>子どもに障害がある</td><td>+20</td></tr>
-<tr><td>多子家庭（就学前児童3人以上）</td><td>+10</td></tr>
-</table>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳細な利用調整基準表は<a href="https://www.city.asahikawa.hokkaido.jp/800/810/006/d082185_d/fil/tyouseikijun.pdf" target="_blank" rel="noopener">旭川市保育所等利用調整基準（PDF）</a>からダウンロードできます。</p>
-</div>`,
-    publishedAt: "2026-04-05",
-    popularity: 60,
-  },
-  {
     slug: "katen-no-kotsu",
     citySlug: "asahikawa",
     title: "旭川市で加点を最大化するコツ　調整点数を積み上げる方法",

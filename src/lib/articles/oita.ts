@@ -60,56 +60,6 @@ const articles: Article[] = [
 
   // ========== 点数・選考 ==========
   {
-    slug: "scoring-system-guide",
-    citySlug: "oita",
-    title: "大分市の入園点数のしくみ　基本指数と調整点をやさしく解説",
-    description:
-      "大分市の保育園入園選考で使われる「基本指数」と「調整点」の仕組みを、初めての方にもわかるように解説します。",
-    image:
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "点数・選考",
-    categoryColor: "blue",
-    content: `<h2>点数制度の全体像</h2>
-<p>大分市の認可保育所等は「先着順」ではなく、<strong>指数の高い世帯から優先</strong>して利用調整（選考）されます。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>合計指数 ＝ 基本指数（保護者1）＋ 基本指数（保護者2）＋ 調整点</p>
-</div>
-
-<h2>基本指数とは</h2>
-<p>保護者それぞれの「保育を必要とする事由」を指数化したものです。1人あたり<span class="highlight">最大20点</span>、保護者2人の合計で<span class="highlight">最大40点</span>です。</p>
-<table>
-<tr><th>就労状況</th><th>基本指数</th></tr>
-<tr><td>月150時間以上</td><td>20</td></tr>
-<tr><td>月135時間以上150時間未満</td><td>19</td></tr>
-<tr><td>月120時間以上135時間未満</td><td>18</td></tr>
-<tr><td>月100時間以上120時間未満</td><td>17</td></tr>
-<tr><td>月64時間以上100時間未満</td><td>16</td></tr>
-</table>
-<p>就労以外にも、疾病・障害・看護介護・出産・就学・求職活動・災害復旧などの事由ごとに基本指数が定められています。</p>
-
-<h2>調整点とは</h2>
-<p>世帯の状況に応じて加点・減点される点数です。複数該当する場合は合算されます。</p>
-<table>
-<tr><th>項目</th><th>点数</th></tr>
-<tr><td>ひとり親世帯</td><td>+4</td></tr>
-<tr><td>育休明け</td><td>+3</td></tr>
-<tr><td>在園児有（同一施設への入所）</td><td>+3</td></tr>
-<tr><td>単身赴任</td><td>+2</td></tr>
-<tr><td>認可外保育施設に通所中</td><td>+1</td></tr>
-<tr><td>生活保護（受給・申請）</td><td>+1</td></tr>
-<tr><td>就労予定・就学予定</td><td>-2</td></tr>
-</table>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳細な選考基準表は<a href="https://www.city.oita.oita.jp/o253/kosodate/hoiku/2026sennkoukizyunn.html" target="_blank" rel="noopener">大分市公式サイト「保育所等入所選考基準」</a>からダウンロードできます。</p>
-</div>`,
-    publishedAt: "2026-04-04",
-    popularity: 60,
-  },
-  {
     slug: "fulltime-40-line",
     citySlug: "oita",
     title: "フルタイム共働き40点は安心？大分市のボーダーライン事情",

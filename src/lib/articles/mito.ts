@@ -57,55 +57,6 @@ const articles: Article[] = [
     popularity: 55,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "mito",
-    title: "水戸市の入園点数のしくみ　基準指数と調整指数をやさしく解説",
-    description:
-      "水戸市の保育園入所選考で使われる「基準指数」と「調整指数」の仕組みを、初めての方にもわかるように解説します。",
-    image:
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "点数・選考",
-    categoryColor: "blue",
-    content: `<h2>点数制度の全体像</h2>
-<p>水戸市の認可保育施設は「先着順」ではなく、<strong>保育の必要な度合いの高い児童から優先</strong>して入所者が決定されます。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>合計指数 ＝ 基準指数（父）＋ 基準指数（母）＋ 調整指数</p>
-</div>
-
-<h2>基準指数とは</h2>
-<p>保護者それぞれの「保育を必要とする事由」を指数化したものです。1人あたり<span class="highlight">最大10点</span>、保護者2人の合計で<span class="highlight">最大20点</span>です。</p>
-<table>
-<tr><th>就労状況</th><th>基準指数</th></tr>
-<tr><td>月160時間以上の就労を常態</td><td>10</td></tr>
-<tr><td>月140時間以上160時間未満</td><td>9</td></tr>
-<tr><td>月120時間以上140時間未満</td><td>8</td></tr>
-<tr><td>月100時間以上120時間未満</td><td>7</td></tr>
-<tr><td>月64時間以上100時間未満</td><td>6</td></tr>
-</table>
-
-<h2>調整指数とは</h2>
-<p>世帯の状況に応じて加点・減点される指数です。</p>
-<table>
-<tr><th>項目</th><th>指数</th></tr>
-<tr><td>ひとり親世帯</td><td>+5</td></tr>
-<tr><td>地域型保育事業の卒園児</td><td>+3</td></tr>
-<tr><td>きょうだい在園中（同じ園を希望）</td><td>+3</td></tr>
-<tr><td>産休・育休満了後の復帰予定</td><td>+2</td></tr>
-<tr><td>認可外保育施設を利用中</td><td>+2</td></tr>
-<tr><td>生活保護受給世帯</td><td>+2</td></tr>
-<tr><td>同居の祖父母（65歳未満）</td><td>-1</td></tr>
-</table>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳細は<a href="https://www.city.mito.lg.jp/site/kosodate/107000.html" target="_blank" rel="noopener">水戸市公式サイト「保育利用申し込み」</a>で配布される「利用の御案内」をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-04-05",
-    popularity: 60,
-  },
-  {
     slug: "fulltime-20-line",
     citySlug: "mito",
     title: "フルタイム共働き20点は安心？水戸市のボーダーライン事情",

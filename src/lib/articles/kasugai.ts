@@ -110,58 +110,6 @@ const articles: Article[] = [
     popularity: 50,
   },
   // ===== 選考のしくみ =====
-  {
-    slug: "scoring-system-guide",
-    citySlug: "kasugai",
-    title: "春日井市の入園点数のしくみ　基本指数と調整指数をやさしく解説",
-    description:
-      "春日井市の保育園入園選考で使われる基本指数と調整指数の仕組みを、初めての方にもわかるように解説します。",
-    image:
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
-    categoryColor: "blue",
-    content: `<h2>点数ってなに？</h2>
-<p>春日井市の保育園入園は「先着順」ではなく「点数（指数）」の高い順に内定が決まります。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>選考指数 ＝ 基本指数（父）＋ 基本指数（母）＋ 調整指数</p>
-</div>
-
-<h2>基本指数とは？</h2>
-<p>父母それぞれの「保育が必要な理由」を点数化したものです。1人あたり最大<span class="highlight">20点</span>で、父母合計の最大は<span class="highlight">40点</span>。</p>
-<p>最も多い「就労」の場合、月160時間以上で満点の20点になります。</p>
-
-<table>
-<tr><th>就労状況</th><th>指数</th></tr>
-<tr><td>月160時間以上</td><td>20</td></tr>
-<tr><td>月120時間以上160時間未満</td><td>18</td></tr>
-<tr><td>月100時間以上120時間未満</td><td>16</td></tr>
-<tr><td>月80時間以上100時間未満</td><td>14</td></tr>
-<tr><td>月64時間以上80時間未満</td><td>12</td></tr>
-</table>
-
-<h2>調整指数とは？</h2>
-<p>世帯の特別な事情に応じて加減される点数です。加算項目と減算項目があります。</p>
-
-<h3>主な加算項目</h3>
-<ul>
-<li>ひとり親世帯（就労中）：<span class="highlight">+7点</span></li>
-<li>きょうだいが在園中：<span class="highlight">+1点</span></li>
-<li>認可外保育施設の利用実績：<span class="highlight">+1点</span></li>
-<li>育休明け復職予定：<span class="highlight">+2点</span></li>
-<li>きょうだい同時申込：<span class="highlight">+1点（双生児以上の場合は+3点）</span></li>
-</ul>
-
-<h3>主な減算項目</h3>
-<ul>
-<li>市外からの申込：<span class="highlight">-10点</span></li>
-<li>認可園からの転園希望：<span class="highlight">-5点</span></li>
-<li>同居祖父母が保育可能：<span class="highlight">-3点</span></li>
-</ul>`,
-    publishedAt: "2026-04-07",
-    popularity: 65,
-  },
   // ===== 点数アップ =====
   {
     slug: "score-up-checklist",

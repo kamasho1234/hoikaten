@@ -55,58 +55,6 @@ const articles: Article[] = [
     popularity: 55,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "kakogawa",
-    title: "加古川市の入園点数のしくみ　基本指数と調整指数をやさしく解説",
-    description:
-      "加古川市の保育園入園選考で使われる点数制度の仕組みを、初めての方にもわかるように解説します。",
-    image:
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "点数・選考",
-    categoryColor: "blue",
-    content: `<h2>点数制度の全体像</h2>
-<p>加古川市の認可保育施設は<strong>選考指数の高い世帯から優先</strong>して利用調整されます。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>基本指数 ＝ 父の基本指数 ＋ 母の基本指数（合計最大22点）<br>選考指数 ＝ 基本指数 ± 調整指数</p>
-</div>
-
-<h2>基本指数とは</h2>
-<p>保護者それぞれの「保育を必要とする事由」を点数化したものです。1人あたり<span class="highlight">最大11点</span>（月170時間以上のフルタイム就労の場合）で、父母の合計が基本指数になります。</p>
-<table>
-<tr><th>就労時間（月あたり）</th><th>基本指数</th></tr>
-<tr><td>月170時間以上</td><td>11</td></tr>
-<tr><td>月160時間以上170時間未満</td><td>11</td></tr>
-<tr><td>月140時間以上160時間未満</td><td>8</td></tr>
-<tr><td>月128時間以上140時間未満</td><td>5</td></tr>
-<tr><td>月112時間以上128時間未満</td><td>2</td></tr>
-<tr><td>月96時間以上112時間未満</td><td>1</td></tr>
-</table>
-
-<h2>調整指数とは</h2>
-<p>世帯の状況に応じて加点・減点される点数です。</p>
-<table>
-<tr><th>項目</th><th>指数</th></tr>
-<tr><td>ひとり親世帯</td><td>+2</td></tr>
-<tr><td>きょうだいが同一施設に在園中</td><td>+4</td></tr>
-<tr><td>きょうだい同時申込</td><td>+1</td></tr>
-<tr><td>育児休業からの復帰予定</td><td>+2</td></tr>
-<tr><td>生活保護受給世帯</td><td>+5</td></tr>
-<tr><td>希望園までの距離が短い</td><td>+2</td></tr>
-<tr><td>加古川市での居住年数が長い</td><td>+1</td></tr>
-<tr><td>保育料滞納</td><td>-10</td></tr>
-<tr><td>災害復旧に当たっている</td><td>+12</td></tr>
-</table>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳細な利用調整基準表は<a href="https://www.city.kakogawa.lg.jp/" target="_blank" rel="noopener">加古川市公式サイト</a>の幼児保育課のページからダウンロードできます。</p>
-</div>`,
-    publishedAt: "2026-04-07",
-    popularity: 60,
-  },
-  {
     slug: "fulltime-40-line",
     citySlug: "kakogawa",
     title: "フルタイム共働きで基本指数40点は安心？加古川市のボーダーライン事情",

@@ -7,6 +7,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 KINDS = {
     "shurou": ("src/lib/articles/shurou-shoumeisho/records", "ShurouRecord", "shurouRecords"),
     "ichiji": ("src/lib/articles/ichiji-hoiku/records", "IchijiRecord", "ichijiRecords"),
+    "hokatsu": ("src/lib/articles/hokatsu-schedule/records", "HokatsuRecord", "hokatsuRecords"),
 }
 if len(sys.argv) < 2 or sys.argv[1] not in KINDS:
     print("使い方: python scripts/gen-fact-index.py <" + "|".join(KINDS) + ">")

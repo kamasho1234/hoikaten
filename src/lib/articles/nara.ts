@@ -57,63 +57,6 @@ const articles: Article[] = [
     popularity: 55,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "nara",
-    title: "奈良市の入園点数のしくみ　基本指数と調整指数を解説",
-    description:
-      "奈良市の保育園入園選考で使われる利用調整基準のしくみを解説します。",
-    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
-    categoryColor: "blue",
-    content: `<h2>奈良市の選考指数とは</h2>
-<p>奈良市の認可保育園は保育の必要性を指数化し、指数の高い世帯から優先的に利用内定となります。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>利用調整指数 ＝ 基本指数（父＋母）＋ 加点その1 ＋ 加点その2</p>
-</div>
-
-<h2>基本指数（父母各最大100点、合計200点）</h2>
-<p>就労の場合、月160時間以上で満点の<span class="highlight">100点</span>です。奈良市は就労時間が10段階に細分化されています。</p>
-
-<table>
-<tr><th>月の就労時間</th><th>指数</th></tr>
-<tr><td>月160時間以上</td><td>100</td></tr>
-<tr><td>月150〜159時間</td><td>95</td></tr>
-<tr><td>月130〜149時間</td><td>90</td></tr>
-<tr><td>月120〜129時間</td><td>85</td></tr>
-<tr><td>月110〜119時間</td><td>80</td></tr>
-<tr><td>月100〜109時間</td><td>75</td></tr>
-<tr><td>月80〜99時間</td><td>70</td></tr>
-<tr><td>月70〜79時間</td><td>65</td></tr>
-<tr><td>月64〜69時間</td><td>63</td></tr>
-</table>
-
-<h2>調整指数の代表例</h2>
-<h3>加点その1（最大1つのみ適用）</h3>
-<ul>
-<li>認可保育施設の保育士・看護師として勤務：<span class="highlight">+40点</span></li>
-<li>ひとり親世帯：<span class="highlight">+30点</span></li>
-<li>きょうだいが希望園に在園中：<span class="highlight">+25点</span></li>
-<li>育児休業からの復帰：<span class="highlight">+14点</span></li>
-<li>きょうだいが同じ園を希望：<span class="highlight">+11点</span></li>
-</ul>
-<h3>加点その2（重複可能）</h3>
-<ul>
-<li>認可外保育等を月64時間以上継続利用：<span class="highlight">+3点</span></li>
-<li>保護者が単身赴任：<span class="highlight">+1点</span></li>
-<li>65歳以上の祖父母同居（保育不要）：<span class="highlight">-5点</span></li>
-<li>1年以内の内定辞退：<span class="highlight">-5点</span></li>
-</ul>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>全項目は<a href="https://www.city.nara.lg.jp/site/kosodate/251831.html" target="_blank" rel="noopener">奈良市利用調整指数カリキュレーター</a>で確認できます。</p>
-</div>`,
-    publishedAt: "2026-04-04",
-    popularity: 65,
-  },
-  {
     slug: "score-up-tips",
     citySlug: "nara",
     title: "奈良市で入園点数を上げるコツ　加点チェックリスト",

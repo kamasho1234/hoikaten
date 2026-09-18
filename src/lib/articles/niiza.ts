@@ -63,59 +63,6 @@ const articles: Article[] = [
   // =========================================================================
   // 2. 入園点数のしくみ
   // =========================================================================
-  {
-    slug: "scoring-system-guide",
-    citySlug: "niiza",
-    title: "新座市の入園点数のしくみ　基本指数と調整指数を解説",
-    description:
-      "新座市の保育園入園選考で使われる基本指数と調整指数のしくみを解説します。",
-    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
-    categoryColor: "blue",
-    content: `<h2>新座市の選考点数とは</h2>
-<p>新座市の認可保育園の入園選考は「基本指数＋調整指数」の合計で行われます。点数が高い世帯から順に内定が決まります。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>選考点数 = 基本指数（保護者1 + 保護者2）+ 調整指数</p>
-</div>
-
-<h2>基本指数（父母各最大30点、合計60点）</h2>
-<p>就労の場合、月160時間以上で満点の<span class="highlight">30点</span>になります。</p>
-
-<table>
-<tr><th>月の就労時間</th><th>点数</th></tr>
-<tr><td>月160時間以上</td><td>30点</td></tr>
-<tr><td>月140〜160時間未満</td><td>29点</td></tr>
-<tr><td>月128〜140時間未満</td><td>28点</td></tr>
-<tr><td>月120〜128時間未満</td><td>27点</td></tr>
-<tr><td>月96〜120時間未満</td><td>25点</td></tr>
-<tr><td>月80〜96時間未満</td><td>24点</td></tr>
-</table>
-
-<h2>調整指数とは</h2>
-<p>家庭の状況に応じた加点・減点です。主な項目は以下の通りです。</p>
-
-<table>
-<tr><th>項目</th><th>点数</th></tr>
-<tr><td>ひとり親世帯</td><td>+5</td></tr>
-<tr><td>きょうだいが認可園に在園</td><td>+3</td></tr>
-<tr><td>認可外保育施設を利用</td><td>+3</td></tr>
-<tr><td>生活保護世帯</td><td>+3</td></tr>
-<tr><td>きょうだい同時申込</td><td>+2</td></tr>
-<tr><td>育休からの復帰予定</td><td>+2</td></tr>
-<tr><td>65歳未満の同居親族あり</td><td>-3</td></tr>
-<tr><td>認可園からの転園希望</td><td>-5</td></tr>
-<tr><td>市外からの申込</td><td>-10</td></tr>
-</table>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>正確な基準表は<a href="https://www.city.niiza.lg.jp/soshiki/93/" target="_blank" rel="noopener">新座市こども未来部保育課</a>に掲載の利用調整基準表をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-04-07",
-    popularity: 65,
-  },
 
   // =========================================================================
   // 3. 40点ボーダー

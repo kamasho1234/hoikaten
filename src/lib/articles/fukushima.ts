@@ -79,63 +79,6 @@ const articles: Article[] = [
 
   // ===== 点数・選考 (4) =====
   {
-    slug: "scoring-system-guide",
-    citySlug: "fukushima",
-    title: "福島市の入園点数のしくみ　基本指数と調整指数をやさしく解説",
-    description:
-      "福島市の保育園入園選考で使われる「基本指数」と「調整指数」の仕組みを、初めての方にもわかるように解説します。",
-    image:
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "点数・選考",
-    categoryColor: "blue",
-    content: `<h2>点数ってなに？</h2>
-<p>福島市の保育園入園は「先着順」ではなく「点数（指数）」の高い順に内定が決まります。これを<strong>利用調整</strong>と呼びます。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>合計点 ＝ 基本指数（保護者1）＋ 基本指数（保護者2）＋ 調整指数</p>
-</div>
-
-<h2>基本指数とは？</h2>
-<p>父母それぞれの「保育が必要な理由」を点数化したものです。1人あたり最大<span class="highlight">19点</span>（就労の場合）で、フルタイム共働きなら合計<span class="highlight">38点</span>が基本指数の満点です。</p>
-<p>福島市の特徴は、就労時間と就労日数の組み合わせで細かく点数が分かれることです。休憩時間も含めた実労働時間で判断されます。</p>
-
-<table>
-<tr><th>就労条件（週5日以上の場合）</th><th>指数</th></tr>
-<tr><td>1日8時間以上（週40時間以上）</td><td>19</td></tr>
-<tr><td>1日7時間以上8時間未満</td><td>18</td></tr>
-<tr><td>1日6時間以上7時間未満</td><td>17</td></tr>
-<tr><td>1日5時間以上6時間未満</td><td>16</td></tr>
-<tr><td>1日4時間以上5時間未満</td><td>15</td></tr>
-</table>
-
-<h2>調整指数とは？</h2>
-<p>家庭の状況に応じて加算・減算される点数です。主な項目は以下の通りです。</p>
-
-<table>
-<tr><th>項目</th><th>調整点</th></tr>
-<tr><td>小規模保育事業の卒園児</td><td>+35</td></tr>
-<tr><td>保護者不存在（里親含む）</td><td>+5</td></tr>
-<tr><td>保護者が市内認可保育施設の保育士</td><td>+5</td></tr>
-<tr><td>きょうだいが同じ施設に在籍・同時希望</td><td>+3</td></tr>
-<tr><td>ひとり親（保育可能な同居親族なし）</td><td>+3</td></tr>
-<tr><td>18歳以上65歳未満の同居親族がいる</td><td>-1（1名につき）</td></tr>
-<tr><td>育休延長を許容する場合</td><td>-15</td></tr>
-</table>
-
-<div class="warn-box">
-<p><strong>注意</strong></p>
-<p>福島市ではひとり親家庭の場合、基本指数にも19点が加算されます（調整指数とは別枠）。これにより、ひとり親で就労中の方は基本指数だけで最大38点となります。</p>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>指数の詳細は<a href="https://www.city.fukushima.fukushima.jp/material/files/group/55/R8hoikujisshikizyun.pdf" target="_blank" rel="noopener">福島市「保育所保育実施基準（利用調整）の考え方」（PDF）</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-04-05",
-    popularity: 60,
-  },
-  {
     slug: "border-line",
     citySlug: "fukushima",
     title: "福島市の保育園ボーダーライン　何点あれば入れる？",

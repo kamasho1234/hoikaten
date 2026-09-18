@@ -51,18 +51,6 @@ const articles: Article[] = [
     popularity: 58,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "ueda",
-    title: "上田市の入園点数のしくみ　min方式と調整点数をやさしく解説",
-    description: "上田市の保育所利用調整で使われるmin方式（基本点数の低い方採用）と調整点数の仕組みを解説します。",
-    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
-    categoryColor: "blue",
-    content: `<h2>調整点数とは？</h2><p>世帯の特別な事情に応じて加算される点数です。上田市の調整点数は加算のみです（減算はありません）。</p><h3>主な加算項目</h3><ul><li>ひとり親世帯：+20点</li><li>きょうだいが希望施設に在園中：+10点</li><li>きょうだいと同時申込み：+5点</li><li>生活保護受給：+20点</li><li>認可外保育施設に月ぎめで利用中：+5点</li><li>育児休業から復帰予定：+5点</li></ul><div class="point-box"><p>上田市の調整点数はひとり親・生活保護で+20点と非常に大きいです。また基本点数はmin方式なので、両方の保護者がフルタイムで働くことが最高得点への近道です。</p></div>`,
-    publishedAt: "2026-05-11",
-    popularity: 55,
-  },
-  {
     slug: "selection-process",
     citySlug: "ueda",
     title: "上田市の保育所選考フロー　書類提出から入所決定まで",

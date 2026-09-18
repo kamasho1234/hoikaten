@@ -56,57 +56,6 @@ const articles: Article[] = [
     popularity: 55,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "yamagata",
-    title: "山形市の入園点数のしくみ　基準点数と調整点数をやさしく解説",
-    description:
-      "山形市の保育園入園選考で使われる点数制度の仕組みを、初めての方にもわかるように解説します。",
-    image:
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "点数・選考",
-    categoryColor: "blue",
-    content: `<h2>点数制度の全体像</h2>
-<p>山形市の認可保育施設は<strong>総合点数の高い世帯から優先</strong>して利用調整されます。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>総合点数 ＝ 基準点数（父＋母）＋ 調整点数</p>
-</div>
-
-<h2>基準点数とは</h2>
-<p>保護者それぞれの「保育を必要とする事由」を点数化したものです。1人あたり<span class="highlight">最大22点</span>（家庭の災害の場合）で、月20日勤務換算の1日あたり就労時間で判定されます。</p>
-<table>
-<tr><th>就労時間（1日あたり）</th><th>基準点数</th></tr>
-<tr><td>8時間以上</td><td>20</td></tr>
-<tr><td>7時間以上</td><td>18</td></tr>
-<tr><td>6時間以上</td><td>16</td></tr>
-<tr><td>5時間以上</td><td>15</td></tr>
-<tr><td>4時間以上</td><td>14</td></tr>
-<tr><td>4時間未満</td><td>8</td></tr>
-</table>
-
-<h2>調整点数とは</h2>
-<p>世帯の状況に応じて加点・減点される点数です。複数の項目に該当する場合はすべて合算されます。</p>
-<table>
-<tr><th>項目</th><th>点数</th></tr>
-<tr><td>生活保護世帯</td><td>+45</td></tr>
-<tr><td>ひとり親家庭・両親不在</td><td>+35</td></tr>
-<tr><td>年齢による卒園児（小規模等）</td><td>+30</td></tr>
-<tr><td>育休で上の子の利用を解除</td><td>+20</td></tr>
-<tr><td>里親家庭</td><td>+15</td></tr>
-<tr><td>きょうだいが利用中の園を第一希望</td><td>+10</td></tr>
-<tr><td>認定こども園1号→2号切替え</td><td>+10</td></tr>
-<tr><td>申請児が障がい児</td><td>+5</td></tr>
-</table>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳細な利用調整基準表は<a href="https://www.city.yamagata-yamagata.lg.jp/kosodatekyoiku/hoiku/1007241/1005906.html" target="_blank" rel="noopener">山形市公式サイト「保育所等の利用に係る利用調整について」</a>からダウンロードできます。</p>
-</div>`,
-    publishedAt: "2026-04-05",
-    popularity: 60,
-  },
-  {
     slug: "katen-no-kotsu",
     citySlug: "yamagata",
     title: "山形市で加点を最大化するコツ　調整点数を積み上げる方法",

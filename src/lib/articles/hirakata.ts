@@ -57,53 +57,6 @@ const articles: Article[] = [
     popularity: 55,
   },
   {
-    slug: "scoring-system-guide",
-    citySlug: "hirakata",
-    title: "枚方市の点数の仕組みと計算方法　基本指数と調整指数を解説",
-    description:
-      "枚方市の保育園入園選考で使われる基本指数と調整指数の仕組みを解説します。",
-    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop",
-    category: "選考のしくみ",
-    categoryColor: "blue",
-    content: `<h2>枚方市の選考指数とは</h2>
-<p>枚方市の認可保育園の入園選考は「基本指数（父母それぞれ）＋ 調整指数」の合計で行われます。指数が同点の場合は8つの優先項目で判定されます。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>選考指数 = 基本指数（保護者1 + 保護者2）+ 調整指数</p>
-</div>
-
-<h2>基本指数（父母各最大100点、合計200点）</h2>
-<p>就労の場合、月160時間以上で満点の<span class="highlight">100点</span>です。</p>
-
-<table>
-<tr><th>勤務の状況</th><th>基本指数</th></tr>
-<tr><td>月160時間以上</td><td>100</td></tr>
-<tr><td>月140時間以上160時間未満</td><td>90</td></tr>
-<tr><td>月120時間以上140時間未満</td><td>80</td></tr>
-<tr><td>月96時間以上120時間未満</td><td>70</td></tr>
-<tr><td>月64時間以上96時間未満</td><td>60</td></tr>
-<tr><td>求職活動中</td><td>40</td></tr>
-</table>
-
-<h2>調整指数の代表例</h2>
-<ul>
-<li>ひとり親世帯：<span class="highlight">+15点</span></li>
-<li>きょうだい在園中の施設を第1希望：<span class="highlight">+10点</span></li>
-<li>多胎児の同時申込：<span class="highlight">+10点</span></li>
-<li>単身赴任中：<span class="highlight">+10点</span></li>
-<li>認可外保育施設利用：<span class="highlight">+5点</span></li>
-<li>育児休業復帰：<span class="highlight">+5点</span></li>
-</ul>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>全項目は<a href="https://www.city.hirakata.osaka.jp/vod/0000033514.html" target="_blank" rel="noopener">枚方市公式サイト「保育所（園）等利用の手引き」</a>の利用調整基準表（募集要項23ページ）で確認できます。</p>
-</div>`,
-    publishedAt: "2026-04-05",
-    popularity: 60,
-  },
-  {
     slug: "score-up-tips",
     citySlug: "hirakata",
     title: "枚方市の加点のコツ　点数アップ戦略と調整指数の活用法",
