@@ -2,12 +2,12 @@
   "municipalitySlug": "shinshiro",
   "municipalityName": "新城市",
   "prefecture": "愛知県",
-  "asOf": "2026-08-13",
-  "fetchedAt": "2026-09-17",
+  "asOf": "2026-09-17",
+  "fetchedAt": "2026-09-18",
   "sourceName": "新城市「市内こども園途中入園 空き状況」",
   "sourceUrl": "https://www.city.shinshiro.lg.jp/kosodate/kodomoen/kodomoenakizyoukyou.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.shinshiro.lg.jp/kosodate/kodomoen/kodomoenakizyoukyou.files/kodomoenakijokyou.pdf"
+    "vacancy": "https://www.city.shinshiro.lg.jp/kosodate/kodomoen/kodomoenakizyoukyou.files/kodomoenakijoukyou.pdf"
   },
   "metrics": [
     "symbol"
@@ -141,7 +141,7 @@
       ],
       "symbols": [
         null,
-        "△",
+        "×",
         "△",
         "○",
         "△",
@@ -208,7 +208,7 @@
       "symbols": [
         null,
         "○",
-        "○",
+        "△",
         "○",
         "○",
         "○"
@@ -254,7 +254,7 @@
         "×",
         "△",
         "○",
-        "△",
+        "○",
         "△"
       ]
     },

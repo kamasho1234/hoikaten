@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "ichikikushikino",
   "municipalityName": "いちき串木野市",
-  "asOf": "2026-08-20",
-  "fetchedAt": "2026-09-17",
+  "asOf": "2026-09-18",
+  "fetchedAt": "2026-09-18",
   "sourceName": "いちき串木野市「保育施設の空き状況（入所可能児童数）」",
   "sourceUrl": "https://www.city.ichikikushikino.lg.jp/fukushi2/kenko/kosodate/kosodate/hoiku.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.ichikikushikino.lg.jp/fukushi2/kenko/kosodate/kosodate/documents/akizyouhou9.pdf"
+    "vacancy": "https://www.city.ichikikushikino.lg.jp/fukushi2/kenko/kosodate/kosodate/documents/akizyouhou10.pdf"
   },
   "metrics": [
     "vacancy"
@@ -20,20 +20,6 @@
     "認定こども園"
   ],
   "facilities": [
-    {
-      "id": "串木野保育園",
-      "name": "串木野保育園",
-      "w": null,
-      "c": 0,
-      "vacancy": [
-        1,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
     {
       "id": "羽島保育園",
       "name": "羽島保育園",
@@ -54,7 +40,7 @@
       "w": null,
       "c": 0,
       "vacancy": [
-        2,
+        1,
         null,
         null,
         null,

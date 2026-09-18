@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "azumino",
   "municipalityName": "安曇野市",
-  "asOf": "2026-08-12",
-  "fetchedAt": "2026-09-17",
+  "asOf": "2026-09-18",
+  "fetchedAt": "2026-09-18",
   "sourceName": "安曇野市「保育園等の途中入園空き状況」",
   "sourceUrl": "https://www.city.azumino.nagano.jp/site/hoikuen/",
   "sourceFiles": {
-    "vacancy": "https://www.city.azumino.nagano.jp/uploaded/attachment/84598.pdf"
+    "vacancy": "https://www.city.azumino.nagano.jp/uploaded/attachment/85780.pdf"
   },
   "metrics": [
     "symbol"
@@ -126,7 +126,7 @@
       "symbols": [
         "×",
         "×",
-        "×",
+        "△",
         "×",
         "×",
         "△"
@@ -258,7 +258,7 @@
       "symbols": [
         "×",
         "×",
-        "△",
+        "×",
         "○",
         "○",
         "△"
@@ -287,8 +287,8 @@
       ]
     },
     {
-      "id": "三郷北部認定こども園",
-      "name": "三郷北部認定こども園",
+      "id": "三郷西部認定こども園",
+      "name": "三郷西部認定こども園",
       "w": null,
       "c": 0,
       "vacancy": [
@@ -302,8 +302,8 @@
       "symbols": [
         "×",
         "×",
-        "×",
-        "○",
+        "△",
+        "△",
         "○",
         "○"
       ]
@@ -353,8 +353,8 @@
       ]
     },
     {
-      "id": "三郷西部認定こども園",
-      "name": "三郷西部認定こども園",
+      "id": "三郷北部認定こども園",
+      "name": "三郷北部認定こども園",
       "w": null,
       "c": 0,
       "vacancy": [
@@ -368,8 +368,8 @@
       "symbols": [
         "×",
         "×",
-        "△",
-        "△",
+        "×",
+        "○",
         "○",
         "○"
       ]
@@ -397,28 +397,6 @@
       ]
     },
     {
-      "id": "明科北認定こども園",
-      "name": "明科北認定こども園",
-      "w": null,
-      "c": 0,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "symbols": [
-        "×",
-        "×",
-        "△",
-        "○",
-        "○",
-        "○"
-      ]
-    },
-    {
       "id": "明科南認定こども園",
       "name": "明科南認定こども園",
       "w": null,
@@ -434,8 +412,30 @@
       "symbols": [
         "×",
         "×",
+        "×",
         "△",
-        "△",
+        "○",
+        "○"
+      ]
+    },
+    {
+      "id": "明科北認定こども園",
+      "name": "明科北認定こども園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "symbols": [
+        "×",
+        "×",
+        "×",
+        "○",
         "○",
         "○"
       ]
@@ -565,7 +565,7 @@
       ],
       "symbols": [
         "×",
-        "△",
+        "×",
         "△",
         null,
         null,
@@ -697,7 +697,7 @@
       ],
       "symbols": [
         "×",
-        "△",
+        "×",
         "×",
         null,
         null,
@@ -784,8 +784,8 @@
         null
       ],
       "symbols": [
-        "×",
-        "×",
+        "△",
+        "△",
         "×",
         null,
         null,
