@@ -3,57 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   // ========== 保活の基本 ==========
-  {
-    slug: "hokatsu-schedule",
-    citySlug: "miyazaki",
-    title: "宮崎市の保活スケジュール　令和8年度4月入園の流れ",
-    description:
-      "宮崎市の令和8年度（2026年度）4月入園の申込時期・書類準備・結果通知の時期をまとめました。初めての保活でも迷わないスケジュールガイドです。",
-    image:
-      "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>令和8年度（2026年度）4月入園のスケジュール</h2>
-<p>宮崎市の4月入園申込は3回に分けて受付が行われます。第1回で入れなかった場合も、第2回・第3回で再度選考されます。</p>
-
-<h3>申込スケジュール</h3>
-<table>
-<tr><th>回</th><th>受付期間（目安）</th></tr>
-<tr><td>第1回</td><td>2025年12月1日〜12月19日</td></tr>
-<tr><td>第2回</td><td>2026年2月2日〜2月10日</td></tr>
-<tr><td>第3回</td><td>2026年3月2日〜3月9日</td></tr>
-</table>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>宮崎市では「電子申請（ぴったりサービス）」「窓口」「郵送」の3つの方法で申込みできます。保育幼稚園課（0985-21-1774）に事前に確認してから準備するとスムーズです。</p>
-</div>
-
-<h2>いつから動き始めるべき？</h2>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content"><strong>4月〜6月：情報収集</strong><p>宮崎市の「教育・保育施設利用ガイド」を市のホームページまたは窓口で入手します。</p></div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content"><strong>6月〜9月：保育園見学</strong><p>気になる園に直接電話して見学予約。申込書には見学状況の記入欄があるため、必ず見学を済ませましょう。</p></div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content"><strong>10月〜11月：書類準備</strong><p>就労証明書などの必要書類を勤務先に依頼し、期限に余裕を持って準備します。</p></div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content"><strong>12月：第1回申込</strong><p>必要書類を揃え、電子申請・窓口・郵送のいずれかで提出します。</p></div>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>最新の申込方法は<a href="https://www.city.miyazaki.miyazaki.jp/education/nursery/" target="_blank" rel="noopener">宮崎市公式サイト「認可保育施設利用申込みのご案内」</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-04-05",
-    popularity: 55,
-  },
 
   // ========== 点数・選考 ==========
   {

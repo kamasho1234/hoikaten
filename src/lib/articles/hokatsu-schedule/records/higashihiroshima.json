@@ -1,0 +1,123 @@
+{
+  "citySlug": "higashihiroshima",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "東広島市「令和8年度保育所（園）入所（転所）申込について」",
+    "url": "https://www.city.higashihiroshima.lg.jp/soshiki/kodomomirai/2/7/43711.html"
+  },
+  "fiscalYear": "R8",
+  "firstApply": "令和7年11月4日〜11月28日（郵送の場合は必着）。就労証明書等は令和7年9月1日以降のものが有効",
+  "applyMethods": "電子申請（24時間受付。受付開始日は午前9時、受付終了日は午後5時）、保育課（東広島市役所本庁2階）または各支所窓口、郵送",
+  "documents": [
+    "教育・保育給付認定申請書兼入所申込書（児童1人につき1枚。きょうだいの人数分必要）",
+    "児童台帳",
+    "保育の認定要件に関する申立書",
+    "保育要件書類（就労証明書等。保育要件により異なる。令和7年9月1日以降に取得されたものが有効）",
+    "児童手当に係る保育料および副食費の徴収等に関する申出書",
+    "個人番号（マイナンバー）申告書",
+    "保育施設等利用申込みに関する同意・確認書",
+    "申請者のマイナンバー確認書類（マイナンバーカード裏面またはマイナンバーが記載された住民票の写し（原本）のいずれか）",
+    "申請者本人確認書類（顔写真付きのもの。運転免許証、マイナンバーカード、在留カードのいずれか）"
+  ],
+  "notes": [
+    "入所希望月ごとに受付期間が異なるため、希望月の受付期間を確認すること",
+    "きょうだい同時に申込を行う際は、お子さん1人につき申込書を1枚記入。申立書や必要証明書類等はコピーで構わない",
+    "一度提出いただいた書類はお返しできない。提出前にコピーを準備すること",
+    "必要証明書類がそろっていない場合でも申込みはできるが、入所選考を正しい内容で行うことはできない",
+    "申込中に保育要件が変更になった、または変更の予定がある場合は保育課に連絡すること"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.higashihiroshima.lg.jp/soshiki/kodomomirai/2/7/43711.html",
+      "quote": "本ページには、東広島市の認可保育施設への入所(転所)申込について掲載しています。"
+    },
+    "firstApply": {
+      "url": "https://www.city.higashihiroshima.lg.jp/material/files/group/37/annaiR8.pdf",
+      "quote": "４月 R7.11.4 ～ R7.11.28 R7. 9.1以降のもの"
+    },
+    "applyMethods": {
+      "url": "https://www.city.higashihiroshima.lg.jp/soshiki/kodomomirai/2/7/43711.html",
+      "quote": "電子申請は土日祝日含む24時間受付可能で、待ち時間はありません 保育課（東広島市役所本庁2階） 及び 各支所"
+    },
+    "documents.0": {
+      "url": "https://www.city.higashihiroshima.lg.jp/soshiki/kodomomirai/2/7/43711.html",
+      "quote": "【必須書類】 1.教育・保育給付認定申請書兼入所申込書"
+    },
+    "documents.1": {
+      "url": "https://www.city.higashihiroshima.lg.jp/soshiki/kodomomirai/2/7/43711.html",
+      "quote": "2.児童台帳"
+    },
+    "documents.2": {
+      "url": "https://www.city.higashihiroshima.lg.jp/soshiki/kodomomirai/2/7/43711.html",
+      "quote": "3.保育の認定要件に関する申立書"
+    },
+    "documents.3": {
+      "url": "https://www.city.higashihiroshima.lg.jp/soshiki/kodomomirai/2/7/43711.html",
+      "quote": "4.保育要件書類(後述）"
+    },
+    "documents.4": {
+      "url": "https://www.city.higashihiroshima.lg.jp/soshiki/kodomomirai/2/7/43711.html",
+      "quote": "5.児童手当に係る保育料および副食費の徴収等に関する申出書"
+    },
+    "documents.5": {
+      "url": "https://www.city.higashihiroshima.lg.jp/soshiki/kodomomirai/2/7/43711.html",
+      "quote": "6.個人番号（マイナンバー）申告書"
+    },
+    "documents.6": {
+      "url": "https://www.city.higashihiroshima.lg.jp/soshiki/kodomomirai/2/7/43711.html",
+      "quote": "7.保育施設等利用申込みに関する同意・確認書"
+    },
+    "documents.7": {
+      "url": "https://www.city.higashihiroshima.lg.jp/soshiki/kodomomirai/2/7/43711.html",
+      "quote": "8.申請者のマイナンバー確認書類 「マイナンバーカード裏面」「マイナンバーが記載された住民票の写し（原本）」のうち、いずれかひとつ"
+    },
+    "documents.8": {
+      "url": "https://www.city.higashihiroshima.lg.jp/soshiki/kodomomirai/2/7/43711.html",
+      "quote": "9.申請者本人確認書類（顔写真付きのもの） 「運転免許証」「マイナンバーカード」「在留カード」のうち、いずれかひとつ"
+    },
+    "notes.0": {
+      "url": "https://www.city.higashihiroshima.lg.jp/soshiki/kodomomirai/2/7/43711.html",
+      "quote": "入所希望月ごとに受付期間を設けています。"
+    },
+    "notes.1": {
+      "url": "https://www.city.higashihiroshima.lg.jp/soshiki/kodomomirai/2/7/43711.html",
+      "quote": "きょうだい同時に申込を行う際は、お子さまひとりにつき、申込書を1枚記入してください（きょうだいがふたりの場合、申請書は2枚記入）。申立書、必要証明書類等のその他書類はコピーで構いません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.higashihiroshima.lg.jp/soshiki/kodomomirai/2/7/43711.html",
+      "quote": "一度提出いただいた書類はお返しできません。提出前にコピーをご準備ください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.higashihiroshima.lg.jp/soshiki/kodomomirai/2/7/43711.html",
+      "quote": "必要証明書類がそろっていない場合でもお申込みいただけます。ただし、入所選考を正しい内容で行うことはできません。"
+    },
+    "notes.4": {
+      "url": "https://www.city.higashihiroshima.lg.jp/soshiki/kodomomirai/2/7/43711.html",
+      "quote": "申込中に保育要件が変更になった または 変更の予定がある場合、必ず保育課までご連絡をお願いします。"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.higashihiroshima.lg.jp/material/files/group/37/annaiR8.pdf",
+      "quote": "※郵送の場合は必着。 ※４月からの転所申込も同様の受付期間です。"
+    },
+    "firstResult": {
+      "url": "https://www.city.higashihiroshima.lg.jp/material/files/group/37/annaiR8.pdf",
+      "quote": "※４月入所の結果通知は、１月下旬に発送予定です。（詳細が決まり次第､市HPに掲載予定。）"
+    },
+    "secondApply": {
+      "url": "https://www.city.higashihiroshima.lg.jp/material/files/group/37/annaiR8.pdf",
+      "quote": "※４月入所に空きがある場合、２月頃より二次募集を実施します。（詳細が決まり次第､市HPに掲載予定。）"
+    }
+  },
+  "sources": [
+    {
+      "label": "東広島市「令和8年度保育所（園）入所（転所）申込について」",
+      "url": "https://www.city.higashihiroshima.lg.jp/soshiki/kodomomirai/2/7/43711.html"
+    },
+    {
+      "label": "東広島市「保育施設利用申込案内（令和8年度版）」PDF",
+      "url": "https://www.city.higashihiroshima.lg.jp/material/files/group/37/annaiR8.pdf"
+    }
+  ],
+  "firstResult": "4月入所の結果通知は令和8年1月下旬に発送予定",
+  "secondApply": "4月入所に空きがある場合、2月頃から二次募集を実施（詳細は市ホームページに掲載）"
+}

@@ -1,0 +1,38 @@
+{
+  "citySlug": "takarazuka",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "宝塚市「新たに保育施設への入所を希望される方へのご案内」",
+    "url": "https://www.city.takarazuka.hyogo.jp/1060680/1060698/1061552/1061560/gakkoshisetsu/1000105/1027922/index.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年11月30日（月曜日）までにお申し込みください",
+  "applyMethods": "市役所保育事業課窓口にて、スマートフォンを利用したお手続きが必要です。ご自宅、郵送、サービスステーション・サービスセンターではお手続きはできません",
+  "notes": [
+    "4月入所に限り、出生予定の児童についても申込を受け付けます。対象となるのは、11月1日～翌年3月4日までに出生するお子様です"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.takarazuka.hyogo.jp/1060680/1060698/1061552/1061560/gakkoshisetsu/1000105/1027922/index.html",
+      "quote": "令和9年4月からの入所希望者を募集しています。"
+    },
+    "firstApply": {
+      "url": "https://www.city.takarazuka.hyogo.jp/1060680/1060698/1061552/1061560/gakkoshisetsu/1000105/1027922/index.html",
+      "quote": "入所希望の方は、令和8年11月30日（月曜日）までにお申し込みください。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.takarazuka.hyogo.jp/1060680/1060698/1061552/1061560/gakkoshisetsu/1000105/1027922/index.html",
+      "quote": "入所の申し込みは市役所保育事業課窓口にて、スマートフォンを利用したお手続きが必要です。※ご自宅、郵送、サービスステーション・サービスセンターではお手続きはできません。"
+    },
+    "notes.0": {
+      "url": "https://www.city.takarazuka.hyogo.jp/1060680/1060698/1061552/1061560/gakkoshisetsu/1000105/1027922/index.html",
+      "quote": "4月入所に限り、出生予定の児童についても申込を受け付けます。【注意事項】（1）対象となるのは、11月1日～翌年3月4日までに出生するお子様です。"
+    }
+  },
+  "sources": [
+    {
+      "label": "宝塚市「新たに保育施設への入所を希望される方へのご案内」",
+      "url": "https://www.city.takarazuka.hyogo.jp/1060680/1060698/1061552/1061560/gakkoshisetsu/1000105/1027922/index.html"
+    }
+  ]
+}

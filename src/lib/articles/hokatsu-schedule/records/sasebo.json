@@ -1,0 +1,73 @@
+{
+  "citySlug": "sasebo",
+  "checkedAt": "2026-09-19",
+  "page": {
+    "label": "佐世保市「令和8年4月の保育所等の利用申込」",
+    "url": "https://www.city.sasebo.lg.jp/kodomomirai/hoyou/0903mousikomi.html"
+  },
+  "fiscalYear": "R8",
+  "guideRelease": "令和7年10月1日（水曜日）から申込書類を配布",
+  "firstApply": "一次受付は令和7年11月4日（火曜日）から11月28日（金曜日）まで、二次受付は令和7年12月1日（月曜日）から12月26日（金曜日）まで",
+  "applyMethods": "配付・受付場所は佐世保市役所保育幼稚園課窓口（中央保健福祉センター4階）、宇久行政センター、佐世保市内の各利用希望施設",
+  "firstResult": "11月中に申請された方は令和8年1月中旬頃に、12月中に申請された方は令和8年2月上旬頃に入園内定通知を送付予定",
+  "documents": [
+    "教育・保育給付認定申請書（兼保育所等利用申込書）",
+    "「保育を必要とする理由」を証明する書類（2号・3号認定のみ。基準日は令和7年10月1日で、同日以降の証明日の証明書のみ受け付ける）"
+  ],
+  "notes": [
+    "事前に希望する施設を見学し、保育内容や送迎等が可能かどうかを確認したうえで申し込むこと",
+    "妊娠中から申し込みができるが、優先入所をお約束するものではない"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.sasebo.lg.jp/kodomomirai/hoyou/0903mousikomi.html",
+      "quote": "令和8年4月の利用希望の場合"
+    },
+    "guideRelease": {
+      "url": "https://www.city.sasebo.lg.jp/kodomomirai/hoyou/0903mousikomi.html",
+      "quote": "申込書類配布 令和7年10月1日（水曜日）から"
+    },
+    "firstApply": {
+      "url": "https://www.city.sasebo.lg.jp/kodomomirai/hoyou/0903mousikomi.html",
+      "quote": "【一次受付】令和7年11月4日（火曜日）から11月28日（金曜日）まで 【二次受付】令和7年12月1日（月曜日）から12月26日（金曜日）まで"
+    },
+    "applyMethods": {
+      "url": "https://www.city.sasebo.lg.jp/kodomomirai/hoyou/0903mousikomi.html",
+      "quote": "配付・受付場所 佐世保市役所保育幼稚園課窓口（中央保健福祉センター4階） 宇久行政センター 佐世保市内の各利用希望施設"
+    },
+    "firstResult": {
+      "url": "https://www.city.sasebo.lg.jp/kodomomirai/hoyou/0903mousikomi.html",
+      "quote": "入園内定通知は、「令和8年1月中旬頃」に送付予定です。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.sasebo.lg.jp/kodomomirai/hoyou/0903mousikomi.html",
+      "quote": "入園内定通知は、「令和8年2月上旬頃」に送付予定です。"
+    },
+    "documents.0": {
+      "url": "https://www.city.sasebo.lg.jp/kodomomirai/hoyou/0903mousikomi.html",
+      "quote": "教育・保育給付認定申請書（兼保育所等利用申込書）"
+    },
+    "documents.1": {
+      "url": "https://www.city.sasebo.lg.jp/kodomomirai/hoyou/0903mousikomi.html",
+      "quote": "「保育を必要とする理由」を証明する書類（PDF：459KB）は、利用申込の理由が就労であれば職場からの証明、病気や介護・看護であれば医療機関からの証明が必要となり、それぞれの理由に応じて、第三者からの証明が必要となります。"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.sasebo.lg.jp/kodomomirai/hoyou/0903mousikomi.html",
+      "quote": "【基準日】令和7年10月1日 令和7年10月1日以降の証明日の証明書のみ受け付けることができます。"
+    },
+    "notes.0": {
+      "url": "https://www.city.sasebo.lg.jp/kodomomirai/hoyou/0903mousikomi.html",
+      "quote": "必ず事前に施設を見学し、保育内容や送迎等が可能かどうか確認をしたうえで、お申込みをしてください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.sasebo.lg.jp/kodomomirai/hoyou/0903mousikomi.html",
+      "quote": "妊娠中から保育所、認定こども園（保育園部分）の利用申し込みができます。ただし、優先入所をお約束するものではありません。"
+    }
+  },
+  "sources": [
+    {
+      "label": "佐世保市「令和8年4月の保育所等の利用申込」",
+      "url": "https://www.city.sasebo.lg.jp/kodomomirai/hoyou/0903mousikomi.html"
+    }
+  ]
+}

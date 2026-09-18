@@ -1,0 +1,106 @@
+{
+  "citySlug": "niigata",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "新潟市「令和9年度　認可保育施設への入園について」",
+    "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/ninnkahoikushisetsu/R09nyuen.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年10月1日（木曜）から各認可保育施設、新潟市ホームページからダウンロード可能",
+  "firstApply": "令和8年10月27日（火曜）から令和8年11月13日（金曜）まで。オンライン申請（e-NIIGATA）または郵送（簡易書留・特定記録郵便・レターパック等の追跡可能な郵便に限る。消印有効）",
+  "applyMethods": "原則オンライン申請（e-NIIGATA）。郵送申請も受け付ける（簡易書留、特定記録郵便、レターパック等の追跡可能な郵便に限る）。施設での申請受付は行わない",
+  "notes": [
+    "施設での申請受付は行わない",
+    "入園希望施設は第10希望まで申し込みが可能",
+    "就労証明書は保育必要事由が「就労」の場合に必要。事業者によっては発行に時間がかかるため早めに準備する必要がある",
+    "就労証明書は提出日前3か月以内に記載されたものが有効。記載内容が実態と異なる場合、退園または入園の内定が取り消しになることがある",
+    "入園希望施設は事前に見学に行き、場所・環境・雰囲気・教育・保育方針を十分確認したうえで申請すること",
+    "令和9年4月入園の結果通知や2次募集の日程は令和8年10月1日配布の入園のてびきで案内される。前回（令和8年4月入園）は1次募集の結果通知が令和8年1月26日（月曜）発送予定、2次募集の受付が令和8年1月29日（木曜）〜2月6日（金曜）だった",
+    "令和8年12月1日時点で認可保育施設に在籍している場合は、在籍施設で令和9年4月からの籍が確保される。令和9年1月〜3月に年度途中で入園・転園した場合は4月以降の籍がないので、4月入園の申請を別に行う",
+    "受付期間外に提出された申請書類は受け付けられない"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/ninnkahoikushisetsu/R09nyuen.html",
+      "quote": "令和9年4月から令和10年3月までの入園（転園）を希望する方"
+    },
+    "guideRelease": {
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/ninnkahoikushisetsu/R09nyuen.html",
+      "quote": "配布開始日： 令和8年10月1日（木曜） 配布場所： 各認可保育施設 （注釈1）上記以外の場所では原則配布しません。 （注釈2）10月1日から、新潟市ホームページからのダウンロードも可能となります。"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/ninnkahoikushisetsu/R09nyuen.html",
+      "quote": "10月1日から、新潟市ホームページからのダウンロードも可能となります。"
+    },
+    "firstApply": {
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/ninnkahoikushisetsu/R09nyuen.html",
+      "quote": "令和8年10月27日（火曜）から令和8年11月13日（金曜）まで"
+    },
+    "applyMethods": {
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/ninnkahoikushisetsu/R09nyuen.html",
+      "quote": "原則、オンライン申請（e-NIIGATA）をお願いします。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/ninnkahoikushisetsu/R09nyuen.html",
+      "quote": "施設での受け付けは行っておりませんので、ご注意ください。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/ninnkahoikushisetsu/R09nyuen.html",
+      "quote": "郵送提出も受け付けます。（受付締切日消印有効）"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/ninnkahoikushisetsu/R09nyuen.html",
+      "quote": "簡易書留や特定記録郵便、レターパック等の追跡可能な郵便に限ります。"
+    },
+    "notes.0": {
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/ninnkahoikushisetsu/R09nyuen.html",
+      "quote": "施設での申請受付は行いませんのでご注意ください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/ninnkahoikushisetsu/R09nyuen.html",
+      "quote": "入園希望施設は第10希望まで申し込みができます。"
+    },
+    "notes.2": {
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/ninnkahoikushisetsu/R09nyuen.html",
+      "quote": "就労証明書は、保育必要事由が「就労」の場合に必要となる書類です。"
+    },
+    "notes.3": {
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/ninnkahoikushisetsu/R09nyuen.html",
+      "quote": "証明書は、提出日前3か月以内に記載されたものが必要となります。"
+    },
+    "notes.4": {
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/ninnkahoikushisetsu/R09nyuen.html",
+      "quote": "希望する施設は事前に見学へ行きましょう。"
+    },
+    "notes.5": {
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/ninnkahoikushisetsu/R0804nyuen.html",
+      "quote": "(注釈)結果通知発送（令和8年1月26日(月曜)予定）以降は、下記問い合わせ先へご連絡ください。"
+    },
+    "notes.5#2": {
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/ninnkahoikushisetsu/R0804nyuen.html",
+      "quote": "申請受付期間：令和８年1月29日（木曜）から令和8年2月6日（金曜）"
+    },
+    "notes.6": {
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/ninnkahoikushisetsu/R09nyuen.html",
+      "quote": "令和8年12月1日時点で認可保育施設へ在籍している場合、在籍施設で令和9年4月からの籍が確保されます。"
+    },
+    "notes.6#2": {
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/ninnkahoikushisetsu/R09nyuen.html",
+      "quote": "令和9年1月から令和9年3月の間で年度途中の入園・転園が決定した場合、入園・転園した認可保育施設の令和9年4月以降の籍はありません。"
+    },
+    "notes.7": {
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/ninnkahoikushisetsu/R09nyuen.html",
+      "quote": "受付期間外に提出された申請書類は受け付けることができません。"
+    }
+  },
+  "sources": [
+    {
+      "label": "新潟市「令和9年度　認可保育施設への入園について」",
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/ninnkahoikushisetsu/R09nyuen.html"
+    },
+    {
+      "label": "新潟市「令和8年4月 認可保育施設への新年度入園について」",
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/ninnkahoikushisetsu/R0804nyuen.html"
+    }
+  ]
+}

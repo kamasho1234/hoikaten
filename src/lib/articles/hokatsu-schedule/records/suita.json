@@ -1,0 +1,68 @@
+{
+  "citySlug": "suita",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "吹田市「保育所等の利用申込【保育部分】」",
+    "url": "https://www.city.suita.osaka.jp/kosodate/1018230/1018247/1022101/index.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年9月25日（金曜）から令和8年10月7日（水曜）まで",
+  "applyMethods": "申込は電子申込での手続きとなります。書類での受付は行っていません",
+  "firstResult": "令和9年1月下旬に郵送で通知",
+  "secondApply": "令和9年1月12日（火曜）から令和9年2月5日（金曜）まで",
+  "secondResult": "令和9年3月上旬に郵送で通知",
+  "interview": "利用内定後に内定先の施設において、面談・健康診断を実施する。実施日等については施設から連絡",
+  "notes": [
+    "各年度の4月申込前（前年8月頃）には、見学会の日程が公表される",
+    "令和9年4月申込の各書類に関しては、令和8年8月26日以降の証明日のものでしか受付できない",
+    "いかなる理由があっても、締切日までに申請が完了できない場合、受付はできかねます"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.suita.osaka.jp/kosodate/1018230/1018247/1022101/index.html",
+      "quote": "令和9年度に保育所等の新規入園・転園を希望する方"
+    },
+    "firstApply": {
+      "url": "https://www.city.suita.osaka.jp/kosodate/1018230/1018247/1022101/index.html",
+      "quote": "一次選考（4月1次申込）受付期間 令和8年9月25日（金曜）から令和8年10月7日（水曜）まで"
+    },
+    "applyMethods": {
+      "url": "https://www.city.suita.osaka.jp/kosodate/1018230/1018247/1022101/index.html",
+      "quote": "申込は電子申込での手続きとなります。書類での受付は行っておりませんので、お気を付けください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.suita.osaka.jp/kosodate/1018230/1018247/1022101/index.html",
+      "quote": "4月1次申込分については1月下旬"
+    },
+    "secondApply": {
+      "url": "https://www.city.suita.osaka.jp/kosodate/1018230/1018247/1022101/index.html",
+      "quote": "二次選考（4月2次申込）受付期間 令和9年1月12日（火曜）から令和9年2月5日（金曜）まで"
+    },
+    "secondResult": {
+      "url": "https://www.city.suita.osaka.jp/kosodate/1018230/1018247/1022101/index.html",
+      "quote": "4月2次申込分については3月上旬"
+    },
+    "interview": {
+      "url": "https://www.city.suita.osaka.jp/kosodate/1018230/1018247/1022101/index.html",
+      "quote": "利用内定後、内定先の施設において、面談・健康診断を実施します。実施日等については、施設から連絡します。"
+    },
+    "notes.0": {
+      "url": "https://www.city.suita.osaka.jp/kosodate/1018230/1018247/1022101/index.html",
+      "quote": "また、各年度の4月申込前(前年8月頃)には、見学会の日程を公表しますので、下記ページをご確認ください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.suita.osaka.jp/kosodate/1018230/1018247/1022101/index.html",
+      "quote": "※令和9年4月申込の各書類に関しては、令和8年8月26日以降の証明日のものでしか受付ができませんのでご注意ください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.suita.osaka.jp/kosodate/1018230/1018247/1022101/index.html",
+      "quote": "いかなる理由があっても、締切日までに申請が完了できない場合、受付はできかねますのでご留意ください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "吹田市「保育所等の利用申込【保育部分】」",
+      "url": "https://www.city.suita.osaka.jp/kosodate/1018230/1018247/1022101/index.html"
+    }
+  ]
+}

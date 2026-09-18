@@ -1,0 +1,123 @@
+{
+  "citySlug": "settsu",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "摂津市「令和9年度保育所等入所申込について」",
+    "url": "https://www.city.settsu.osaka.jp/soshiki/kodomokateibu/hoikukyouikuka/hoikuennyusho/30327.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年10月5日（月曜日）0時00分～令和8年10月23日（金曜日）23時59分",
+  "applyMethods": "入所申込みは下記「入所申込フォーム」よりお申込みください。摂津市外の保育施設の利用を希望する場合は書面での申込み。申込みに関する手続きは全て電子申請となります",
+  "firstResult": "12月上旬～12月中旬に利用調整結果を郵送。3月上旬に利用調整がついた方のみ、結果（諾否）を保育教育課から電話連絡",
+  "secondApply": "令和8年10月24日（土曜日）0時00分～令和9年1月29日（金曜日）23時59分",
+  "secondResult": "令和9年3月 利用調整が付いた方のみ、結果（諾否）を保育教育課から電話連絡",
+  "documents": [
+    "保育が必要な事由を証明する書類（就労証明書、傷病証明書等。事由により異なる。令和8年8月1日以降に取得した証明日のものが有効）",
+    "その他の必要な書類。利用申込みする子どもと保護者（父母）のマイナンバーカードまたはマイナンバー入りの住民票写し、面接に来る方の本人確認書類（運転免許証等）"
+  ],
+  "interview": "入所申込後、10月上旬～下旬に市役所で面談。利用調整がついた場合、11月～12月に市役所で担当職員と面談",
+  "ikukyu": "育児休業中であるが既に施設を利用している子どもについて継続利用が必要と判断される場合、育休に係る子どもが満1歳に達する日の月末までの短時間認定。ただしやむを得ず育休を延長した場合はその子どもが2歳に達する日の月末まで",
+  "notes": [
+    "保育を必要とする事由の証明書（就労証明書等）は、入所申込日の前々月1日以降の証明日のもののみ有効（令和8年10月中に入所申込みをする場合、令和8年8月1日以降の証明日のものが有効）。それ以前にご準備いただいた証明書は受付できない",
+    "一斉入所申込みについては、出生前のお子様も申込みが可能。就労証明書等の保育要件書類と併せて、母子健康手帳の写し（父母の氏名及び出産予定日がわかるページ）を提出。出生後はすみやかに保育教育課に報告",
+    "一次選考、二次選考内定者に対しては文書にて期限を通知。内定を辞退した場合、当該年度中の選考において減点がつく",
+    "入所選考の結果、入所ができず待機になった方については、申請をすることで待機証明書（保留通知書）の発行が可能。4月入所分に係る保留通知書は三次選考終了後、3月末頃に郵送",
+    "認定こども園（1号認定（幼稚園枠））や幼稚園の入園の申込み先は各園。申込手続きは当案内による申込手続きではない"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.settsu.osaka.jp/material/files/group/2/R09nyuusyoannnai.pdf",
+      "quote": "令和９年度 摂津市保育所等入所案内"
+    },
+    "firstApply": {
+      "url": "https://www.city.settsu.osaka.jp/material/files/group/2/R09nyuusyoannnai.pdf",
+      "quote": "●一次選考 令和８年10月05日（月） 0時00分 ～ 令和８年10月23日（金） 23時59分"
+    },
+    "applyMethods": {
+      "url": "https://www.city.settsu.osaka.jp/material/files/group/2/R09nyuusyoannnai.pdf",
+      "quote": "入所申込みは下記「入所申込フォーム」よりお申込みください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.settsu.osaka.jp/material/files/group/2/R09nyuusyoannnai.pdf",
+      "quote": "摂津市外の保育施設の利用を希望する場合は書面での申込みとなります。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.settsu.osaka.jp/soshiki/kodomokateibu/hoikukyouikuka/hoikuennyusho/30327.html",
+      "quote": "申込みに関する手続きは全て電子申請となります。"
+    },
+    "firstResult": {
+      "url": "https://www.city.settsu.osaka.jp/material/files/group/2/R09nyuusyoannnai.pdf",
+      "quote": "12月上旬～12月中旬 利用調整結果を郵送"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.settsu.osaka.jp/material/files/group/2/R09nyuusyoannnai.pdf",
+      "quote": "3月上旬 利用調整がついた方のみ、結果（諾否）を保育教育課から電話連絡"
+    },
+    "secondApply": {
+      "url": "https://www.city.settsu.osaka.jp/material/files/group/2/R09nyuusyoannnai.pdf",
+      "quote": "●二次選考 令和８年10月24日（土） 0時00分 ～ 令和9年01月29日（金） 23時59分"
+    },
+    "secondResult": {
+      "url": "https://www.city.settsu.osaka.jp/material/files/group/2/R09nyuusyoannnai.pdf",
+      "quote": "3月 利用調整が付いた方のみ、結果（諾否）を保育教育課から電話連絡"
+    },
+    "documents.0": {
+      "url": "https://www.city.settsu.osaka.jp/material/files/group/2/R09nyuusyoannnai.pdf",
+      "quote": "① 保育が必要な事由を証明する書類"
+    },
+    "documents.1": {
+      "url": "https://www.city.settsu.osaka.jp/material/files/group/2/R09nyuusyoannnai.pdf",
+      "quote": "② その他の必要な書類（P.16参照）"
+    },
+    "interview": {
+      "url": "https://www.city.settsu.osaka.jp/material/files/group/2/R09nyuusyoannnai.pdf",
+      "quote": "10月上旬～下旬 市役所で面談（お子様も同伴可能な場合は同伴）"
+    },
+    "interview#2": {
+      "url": "https://www.city.settsu.osaka.jp/material/files/group/2/R09nyuusyoannnai.pdf",
+      "quote": "11月～12月 利用調整がついた方のみ、市役所で担当職員と面談（お子様同伴）"
+    },
+    "ikukyu": {
+      "url": "https://www.city.settsu.osaka.jp/material/files/group/2/R09nyuusyoannnai.pdf",
+      "quote": "育児休業中であるが既に施設を利用 育休に係る子どもが満１歳に達する日の月"
+    },
+    "notes.0": {
+      "url": "https://www.city.settsu.osaka.jp/material/files/group/2/R09nyuusyoannnai.pdf",
+      "quote": "保育を必要とする事由の証明書（就労証明書等）は、入所申込日の前々月1日以降の証明日のもののみ有効です"
+    },
+    "notes.1": {
+      "url": "https://www.city.settsu.osaka.jp/material/files/group/2/R09nyuusyoannnai.pdf",
+      "quote": "一斉入所申込みについては、出生前のお子様も申込みが可能です。"
+    },
+    "notes.2": {
+      "url": "https://www.city.settsu.osaka.jp/material/files/group/2/R09nyuusyoannnai.pdf",
+      "quote": "一次選考、二次選考内定者に対しては文書にて期限を通知します。"
+    },
+    "notes.2#2": {
+      "url": "https://www.city.settsu.osaka.jp/material/files/group/2/R09nyuusyoannnai.pdf",
+      "quote": "※内定を辞退する場合、当該年度中の選考において減点がつきます。"
+    },
+    "notes.3": {
+      "url": "https://www.city.settsu.osaka.jp/material/files/group/2/R09nyuusyoannnai.pdf",
+      "quote": "入所選考の結果、入所ができず待機になった方については、申請をすることで待機証明書の発行が可能です。"
+    },
+    "notes.3#2": {
+      "url": "https://www.city.settsu.osaka.jp/material/files/group/2/R09nyuusyoannnai.pdf",
+      "quote": "※４月入所分に係る保留通知書は三次選考終了後、３月末頃に郵送します。"
+    },
+    "notes.4": {
+      "url": "https://www.city.settsu.osaka.jp/material/files/group/2/R09nyuusyoannnai.pdf",
+      "quote": "認定こども園（１号認定（幼稚園枠））や幼稚園の入園の申込み先は各園です"
+    }
+  },
+  "sources": [
+    {
+      "label": "摂津市「令和9年度保育所等入所申込について」",
+      "url": "https://www.city.settsu.osaka.jp/soshiki/kodomokateibu/hoikukyouikuka/hoikuennyusho/30327.html"
+    },
+    {
+      "label": "令和9年度摂津市保育所等入所案内",
+      "url": "https://www.city.settsu.osaka.jp/material/files/group/2/R09nyuusyoannnai.pdf"
+    }
+  ]
+}

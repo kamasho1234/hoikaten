@@ -1,0 +1,98 @@
+{
+  "citySlug": "nisshin",
+  "checkedAt": "2026-09-19",
+  "page": {
+    "label": "日進市「令和8年度保育園等利用申込について」",
+    "url": "https://www.city.nisshin.lg.jp/department/kenko/hoiku/6/2/2/hoiku/17569.html"
+  },
+  "fiscalYear": "R8",
+  "guideRelease": "令和7年10月1日（水曜日）から10日（金曜日）は市役所本庁舎2階第4会議室、10月14日（火曜日）以降は市役所本庁舎2階保育課で配布（ホームページからの取得も可能）",
+  "firstApply": "令和7年10月21日（火曜日）から11月7日（金曜日）。電子申請は午後5時、郵送は同日午後5時必着",
+  "applyMethods": "電子申請（マイナポータル「ぴったりサービス」）、会場受付（市役所本庁舎4階第2・3会議室、午前9時15分～11時30分、午後1時30分～4時30分）、受付ポスト（保育課窓口に設置）、郵送（保育課保育園申込担当宛て）",
+  "firstResult": "令和7年12月下旬を予定",
+  "interview": "会場受付の場合、申込時に書類確認と聞き取りを実施",
+  "ikukyu": "育児休業取得中の利用は3歳児クラス以上が対象。育児休業からの復帰が令和9年度以降となる3歳児クラス以上の児童の申込みも同様の取扱い",
+  "notes": [
+    "入園後1週間から2週間程度ならし保育を実施する。令和8年10月14日（水曜日）までに就労を開始する方は当初申込の対象となる",
+    "公開抽選会は令和7年11月10日（月曜日）午前10時から実施。同順位だった場合は希望園順及び抽選により優先順位を決定する",
+    "電子申請後の変更や不足書類等の提出はメール、郵送又は窓口にて直接提出。電子申請での変更や追加書類の提出はできない",
+    "会場受付以外で提出された場合、後日「受付確認通知書」を送付。1週間経過しても届かない場合は申込書類が受付できていない可能性があるため保育課に連絡が必要",
+    "乳児保育（0歳児）を希望する場合で、親子健康手帳の交付を受けているときは、出産前でも申込みができる"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.nisshin.lg.jp/department/kenko/hoiku/6/2/2/hoiku/17569.html",
+      "quote": "令和8年4月1日から令和8年9月30日までに入園（ならし保育含む）、令和7年度の利用者（内定者）のうち、令和8年4月1日付で転園を希望される方を対象に市内にある、保育園、認定こども園及び小規模保育事業所の利用申込を令和7年10月21日（火曜日）から11月7日（金曜日）までの期間に受付けます。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.nisshin.lg.jp/department/kenko/hoiku/6/2/2/hoiku/17569.html",
+      "quote": "10月1日（水曜日）～10日（金曜日）市役所本庁舎2階第4会議室（午前9時～午後5時）、10月14日（火曜日）以降は市役所本庁舎2階保育課（午前9時～午後5時）で配布します。"
+    },
+    "firstApply": {
+      "url": "https://www.city.nisshin.lg.jp/department/kenko/hoiku/6/2/2/hoiku/17569.html",
+      "quote": "令和7年10月21日（火曜日）から11月7日（金曜日）までの期間に受付けます。"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.nisshin.lg.jp/department/kenko/hoiku/6/2/2/hoiku/17569.html",
+      "quote": "令和7年11月7日（金曜日）午後5時まで"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.nisshin.lg.jp/department/kenko/hoiku/6/2/2/hoiku/17569.html",
+      "quote": "令和7年11月7日（金曜日）必着です。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.nisshin.lg.jp/department/kenko/hoiku/6/2/2/hoiku/17569.html",
+      "quote": "〈1〉電子申請（マイナポータル「ぴったりサービス」）"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.nisshin.lg.jp/department/kenko/hoiku/6/2/2/hoiku/17569.html",
+      "quote": "〈2〉会場受付    必要書類を持参し、10月21日（火曜日）から11月7日（金曜日）までの期間内（ 土・日・祝日除く ）に受付会場（市役所本庁舎4階 第2・3会議室）へお越しください"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.nisshin.lg.jp/department/kenko/hoiku/6/2/2/hoiku/17569.html",
+      "quote": "〈3〉受付ポスト"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.nisshin.lg.jp/department/kenko/hoiku/6/2/2/hoiku/17569.html",
+      "quote": "必要書類を全てA4サイズの封筒に入れ、以下の宛先へ郵送してください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.nisshin.lg.jp/department/kenko/hoiku/6/2/2/hoiku/17569.html",
+      "quote": "当初申込の内定（結果通知）は、令和7年12月下旬を予定しています。"
+    },
+    "interview": {
+      "url": "https://www.city.nisshin.lg.jp/department/kenko/hoiku/6/2/2/hoiku/17569.html",
+      "quote": "必要書類を持参し、10月21日（火曜日）から11月7日（金曜日）までの期間内（ 土・日・祝日除く ）に受付会場（市役所本庁舎4階 第2・3会議室）へお越しください。会場で書類の確認及び聞き取りを行います。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.nisshin.lg.jp/department/kenko/hoiku/6/2/2/hoiku/17569.html",
+      "quote": "育児休業取得中の利用（3歳児クラス以上のみ。育休取得時に既に保育を利用していて、継続利用が必要な2歳児クラス以上の児童を含む。）"
+    },
+    "notes.0": {
+      "url": "https://www.city.nisshin.lg.jp/department/kenko/hoiku/6/2/2/hoiku/17569.html",
+      "quote": "保育園等の利用にあたっては、入園後1週間から2週間程度ならし保育を実施します。入園日には、ならし保育期間が含まれますので、令和8年10月14日（水曜日）までに就労を開始する方は、当初申込の対象となります。"
+    },
+    "notes.1": {
+      "url": "https://www.city.nisshin.lg.jp/department/kenko/hoiku/6/2/2/hoiku/17569.html",
+      "quote": "令和7年11月10日（月曜日）午前10時から公開抽選会を実施し、優先番号は以下のとおりとなりました。"
+    },
+    "notes.2": {
+      "url": "https://www.city.nisshin.lg.jp/department/kenko/hoiku/6/2/2/hoiku/17569.html",
+      "quote": "電子申請後の変更や不足書類等の提出はメール、郵送又は窓口にて直接ご提出ください。電子申請で変更や追加書類を提出することはできません。"
+    },
+    "notes.3": {
+      "url": "https://www.city.nisshin.lg.jp/department/kenko/hoiku/6/2/2/hoiku/17569.html",
+      "quote": "会場受付以外で提出された方には後日、「受付確認通知書」を送付します。1週間が経過しても届かない場合は、申込書類が受付できていない可能性がありますので、必ず保育課へご連絡ください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.nisshin.lg.jp/department/kenko/hoiku/6/2/2/hoiku/17569.html",
+      "quote": "乳児保育（0歳児）を希望する場合で、親子健康手帳（母子健康手帳）の交付を受けているときは、出産前でも申込みができます。"
+    }
+  },
+  "sources": [
+    {
+      "label": "日進市「令和8年度保育園等利用申込について」",
+      "url": "https://www.city.nisshin.lg.jp/department/kenko/hoiku/6/2/2/hoiku/17569.html"
+    }
+  ]
+}

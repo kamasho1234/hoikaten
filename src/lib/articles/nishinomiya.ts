@@ -3,58 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "nishinomiya",
-    title: "西宮市の保活スケジュール　令和8年度4月入園の流れ",
-    description:
-      "西宮市の令和8年度（2026年度）4月入園の申込時期・必要書類・結果通知の時期をまとめました。",
-    image:
-      "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>令和8年度（2026年度）4月入園のスケジュール</h2>
-<p>西宮市の4月入園申込は例年10月〜11月頃に受け付けられます。電子申請にも対応しています。</p>
-
-<h3>申込の流れ</h3>
-<table>
-<tr><th>項目</th><th>日程（目安）</th></tr>
-<tr><td>申請書類配布</td><td>2025年9月頃〜</td></tr>
-<tr><td>1次申込受付</td><td>2025年10月〜11月頃</td></tr>
-<tr><td>1次結果通知</td><td>2026年1月下旬〜2月頃</td></tr>
-<tr><td>2次申込受付</td><td>2026年2月頃</td></tr>
-</table>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>西宮市では電子申請と窓口申請の両方に対応しています。混雑を避けたい場合は電子申請が便利です。</p>
-</div>
-
-<h2>いつから動き始めるべき？</h2>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content"><strong>4月〜6月：情報収集</strong><p>西宮市の保育入所課のページで利用申込案内を確認します。</p></div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content"><strong>6月〜9月：保育園見学</strong><p>気になる園に電話して見学予約。複数園の比較がおすすめです。</p></div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content"><strong>9月〜10月：書類準備</strong><p>就労証明書を勤務先に依頼します。</p></div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content"><strong>10月〜11月：申込</strong><p>期限内に必要書類を提出します。</p></div>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>最新情報は<a href="https://www.nishi.or.jp/kosodate/hoikujo/hoikujo/riyotetsuzuki/moshikomi.html" target="_blank" rel="noopener">西宮市公式サイト「認可保育施設の利用申込について」</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-03-28",
-    popularity: 55,
-  },
-  {
     slug: "fulltime-200-line",
     citySlug: "nishinomiya",
     title: "フルタイム共働き200点は安心？西宮市のボーダーライン事情",

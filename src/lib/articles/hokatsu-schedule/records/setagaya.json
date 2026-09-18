@@ -1,0 +1,121 @@
+{
+  "citySlug": "setagaya",
+  "checkedAt": "2026-09-19",
+  "page": {
+    "label": "世田谷区「申込みから入園までの流れ」",
+    "url": "https://www.city.setagaya.lg.jp/01044/1551.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年11月5日（郵送は消印有効）、電子申請は11月10日、窓口は令和9年1月20日",
+  "applyMethods": "各総合支所子ども家庭支援課で受け付けます（郵送可、電子申請可）。電子申請の詳細は区ホームページで確認ください",
+  "firstResult": "4月入園（一次）の申込みをした方には、全員に選考結果を通知します",
+  "secondApply": "令和9年1月27日（郵送は消印有効）、2月1日（電子申請）、2月18日（窓口）",
+  "secondResult": "2月下旬に、内定した方のみ保育園等から電話でご連絡します",
+  "documents": [
+    "保育所等入園（転園）申込書兼教育・保育給付認定申請書（2号・3号認定用）。２人以上の申込みの場合も申込書は世帯で１通",
+    "保育を必要とする状況を証明するための書類。就労証明書は提出日の直近３か月以内に証明されたもの、または就労内定の場合は就労確約書",
+    "保育料階層を決定するための税書類。入園希望月により、令和８年度または令和９年度の住民税課税証明書（控除額等が省略されていないもの）または住民税決定（納税）通知書",
+    "マイナンバーカード（個人番号カード）、または個人番号が記載された住民票の写し・住民票記載事項証明書と本人確認書類（運転免許証等）"
+  ],
+  "interview": "内定後、入園前月までに各保育園等で面接・健康診断を行います。入園前月末日までに面接・健康診断を受けられない場合や、面接・健康診断の結果によっては、内定取消となることがあります",
+  "ikukyu": "育児休業中は、選考対象になりません。入園月の月末（最終開園日）時点で育児休業を取得している場合は、選考対象になりません。復職する月から、選考対象になります。希望する保育所等に入園できない場合に育児休業の延長も許容できる方は、申込書第３面「育児休業」の「育児休業に対する意思」にチェックを入れてください。この場合、選考順位が下位になります",
+  "notes": [
+    "各月の申込締切日は、入園希望月の前月10日ですが、12月入園、1月入園、4月入園の申込締切日は異なります",
+    "4月入園をお申込みの方への支給認定証の交付は、3月末ごろになります",
+    "申込書の提出先は、お住まいの地域の各総合支所子ども家庭支援課です",
+    "世田谷区外の保育園等を申込まれる場合は、日程等が異なりますので、事前に各区市町村にご確認ください",
+    "月途中での入園・転園はできません。入園は毎月1日付です"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.setagaya.lg.jp/01044/1551.html",
+      "quote": "令和9(2027)年4月（一次）"
+    },
+    "firstApply": {
+      "url": "https://www.city.setagaya.lg.jp/01044/1551.html",
+      "quote": "令和9(2027)年4月（一次） 11月5日 11月10日 1月20日"
+    },
+    "applyMethods": {
+      "url": "https://www.city.setagaya.lg.jp/01044/1551.html",
+      "quote": "保育園等の入園申込みはお住まいの地域の各総合支所子ども家庭支援課で受け付けます（郵送可、電子申請可）。"
+    },
+    "firstResult": {
+      "url": "https://www.city.setagaya.lg.jp/01044/1551.html",
+      "quote": "4月入園（一次）の申込みをした方には、全員に選考結果を通知します。"
+    },
+    "secondApply": {
+      "url": "https://www.city.setagaya.lg.jp/01044/1551.html",
+      "quote": "令和9(2027)年4月（二次） 1月27日 2月1日 2月18日"
+    },
+    "secondResult": {
+      "url": "https://www.city.setagaya.lg.jp/01044/1551.html",
+      "quote": "二次選考については、2月下旬に、内定した方のみ保育園等から電話でご連絡します。"
+    },
+    "documents.0": {
+      "url": "https://www.city.setagaya.lg.jp/documents/34825/05.pdf",
+      "quote": "保育所等入園（転園）申込書兼教育・保育給付認定申請書（2号・3号認定用）（記入例は106～113ページ参照）"
+    },
+    "documents.1": {
+      "url": "https://www.city.setagaya.lg.jp/documents/34825/05.pdf",
+      "quote": "保育を必要とする状況を証明するための書類 ※保護者それぞれ該当するものを提出ください。"
+    },
+    "documents.2": {
+      "url": "https://www.city.setagaya.lg.jp/documents/34825/05.pdf",
+      "quote": "４ 保育料階層を決定するための税書類"
+    },
+    "documents.3": {
+      "url": "https://www.city.setagaya.lg.jp/documents/34825/05.pdf",
+      "quote": "●ご持参いただくもの（「番号確認」と「本人確認」の書類）"
+    },
+    "interview": {
+      "url": "https://www.city.setagaya.lg.jp/01044/1551.html",
+      "quote": "面接・健康診断"
+    },
+    "ikukyu": {
+      "url": "https://www.city.setagaya.lg.jp/documents/34825/06.pdf",
+      "quote": "○ 育児休業中は、選考対象になりません"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.setagaya.lg.jp/documents/34825/06.pdf",
+      "quote": "～保育園等に入園できない場合に、育児休業を延長される方へ～"
+    },
+    "notes.0": {
+      "url": "https://www.city.setagaya.lg.jp/01044/1551.html",
+      "quote": "各月の申込締切日は、入園希望月の前月10日です（締切日が土曜日・日曜日、祝日の場合や、電子申請・郵送申込の場合、および12月入園、1月入園、4月入園の申込締切日は異なりますのでご注意ください）。"
+    },
+    "notes.1": {
+      "url": "https://www.city.setagaya.lg.jp/01044/1551.html",
+      "quote": "4月入園をお申込みの方への支給認定証の交付は、3月末ごろになります。"
+    },
+    "notes.2": {
+      "url": "https://www.city.setagaya.lg.jp/01044/1551.html",
+      "quote": "保育園等の入園申込みはお住まいの地域の各総合支所子ども家庭支援課で受け付けます"
+    },
+    "notes.3": {
+      "url": "https://www.city.setagaya.lg.jp/01044/1551.html",
+      "quote": "世田谷区外の保育園等を申込まれる場合は、日程等が異なりますので、事前に各区市町村にご確認ください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.setagaya.lg.jp/01044/1551.html",
+      "quote": "入園は毎月1日付です。"
+    }
+  },
+  "sources": [
+    {
+      "label": "世田谷区「申込みから入園までの流れ」",
+      "url": "https://www.city.setagaya.lg.jp/01044/1551.html"
+    },
+    {
+      "label": "世田谷区「クラス編成・締切日・申込有効期間等」（PDF）",
+      "url": "https://www.city.setagaya.lg.jp/documents/34825/01.pdf"
+    },
+    {
+      "label": "世田谷区「申込み手続きに必要な書類」（PDF）",
+      "url": "https://www.city.setagaya.lg.jp/documents/34825/05.pdf"
+    },
+    {
+      "label": "世田谷区「育児休業中の方」（PDF）",
+      "url": "https://www.city.setagaya.lg.jp/documents/34825/06.pdf"
+    }
+  ]
+}

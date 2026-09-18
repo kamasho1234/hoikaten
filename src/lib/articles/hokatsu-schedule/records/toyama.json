@@ -1,0 +1,92 @@
+{
+  "citySlug": "toyama",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "富山市 育さぽとやま「４月からの保育所等への入所について」",
+    "url": "https://ikusapotoyama.city.toyama.lg.jp/LGArticle/Index/4076"
+  },
+  "fiscalYear": "R8",
+  "guideRelease": "令和8年4月入所の申請書類は令和7年11月4日（火）から、第1希望の施設・こども保育課・各行政サービスセンターこども福祉係で配布",
+  "firstApply": "1次選考の締切は令和7年12月12日（金）17時15分まで。令和7年11月4日（火）から10日（月）までに第1希望の施設で申請書類を受け取った場合は、施設ごとに設定する受付日に施設で受付",
+  "applyMethods": "第1希望の施設（施設ごとの受付日）のほか、随時こども保育課または各行政サービスセンターこども福祉係で受付。締切日以降の申請は受付できず、不備のある書類も受付できない",
+  "firstResult": "1次選考分は令和8年2月2日（月）頃に認定証の交付・利用調整結果の通知を発送",
+  "secondApply": "2次選考の締切は令和8年2月12日（木）17時15分まで",
+  "secondResult": "2次選考分は令和8年3月2日（月）頃に発送",
+  "midYearDeadline": "途中入所は入所希望月ごとに締切がある（例: 令和8年1月入所は令和7年11月28日（金）締切、結果発送は令和7年12月10日（水））",
+  "interview": "1次選考で内定した人は2月下旬、2次選考で内定した人は3月下旬に各施設で入所説明会（日程は結果通知と一緒に案内）",
+  "notes": [
+    "令和9年4月入所の詳細は令和8年11月1日頃に更新予定で、申請書配布期間は広報とやま10月5日号に載る。この記事の日程は令和8年4月入所の実績",
+    "希望施設数の制限はなく、第6希望以降は別紙に記入する",
+    "令和8年1月〜3月の途中入所の申込と並行して申請する場合は、それぞれの締切日と結果発送予定日に注意",
+    "市外の施設の利用を希望する場合は、あらかじめこども保育課に相談する",
+    "令和8年4月入所から利用調整基準が変更になった"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://ikusapotoyama.city.toyama.lg.jp/LGArticle/Index/4076",
+      "quote": "令和９年４月入所の申請書配布期間について、広報とやま１０月５日号に掲載します。 その他の詳細は令和８年１１月１日頃に更新予定です。"
+    },
+    "guideRelease": {
+      "url": "https://ikusapotoyama.city.toyama.lg.jp/LGArticle/Index/6414",
+      "quote": "（11月４日(火)から配布しています。）"
+    },
+    "firstApply": {
+      "url": "https://ikusapotoyama.city.toyama.lg.jp/LGArticle/Index/6414",
+      "quote": "令和７年１１月４日（火）から10日（月）までの間に第１希望の施設で申請書類を受け取った場合は、施設ごとに設定する受付日に、施設で受付できます。受付日は申請書類の受取の際にお知らせします。 そのほか、随時こども保育課または各行政サービスセンターこども福祉係で受付しています。 １次選考締切…令和７年１２月１２日（金） １７時１５分まで"
+    },
+    "applyMethods": {
+      "url": "https://ikusapotoyama.city.toyama.lg.jp/LGArticle/Index/6414",
+      "quote": "締切日以降の申請受付はできません。 不備のある書類は受付することができません ので、締切日までに余裕をもって受付をしていただきますようお願いいたします。"
+    },
+    "firstResult": {
+      "url": "https://ikusapotoyama.city.toyama.lg.jp/LGArticle/Index/6414",
+      "quote": "１次選考分…令和８年２月２日（月）頃に発送予定です。"
+    },
+    "secondApply": {
+      "url": "https://ikusapotoyama.city.toyama.lg.jp/LGArticle/Index/6414",
+      "quote": "２次選考締切…令和８年 ２月１２日（木） １７時１５分まで"
+    },
+    "secondResult": {
+      "url": "https://ikusapotoyama.city.toyama.lg.jp/LGArticle/Index/6414",
+      "quote": "２次選考分…令和８年３月２日（月）頃に発送予定です。"
+    },
+    "midYearDeadline": {
+      "url": "https://ikusapotoyama.city.toyama.lg.jp/LGArticle/Index/6414",
+      "quote": "令和８年１月 令和７年11月28日(金) 令和7年12月10日(水)"
+    },
+    "interview": {
+      "url": "https://ikusapotoyama.city.toyama.lg.jp/LGArticle/Index/6414",
+      "quote": "１次選考で内定した方は２月下旬、２次選考で内定した方は３月下旬に各施設で入所説明会を行います。 入所説明会の日程は利用調整結果の通知と一緒にお知らせします。"
+    },
+    "notes.0": {
+      "url": "https://ikusapotoyama.city.toyama.lg.jp/LGArticle/Index/4076",
+      "quote": "令和９年４月入所の申請書配布期間について、広報とやま１０月５日号に掲載します。 その他の詳細は令和８年１１月１日頃に更新予定です。"
+    },
+    "notes.1": {
+      "url": "https://ikusapotoyama.city.toyama.lg.jp/LGArticle/Index/6414",
+      "quote": "希望施設数の制限はありません。第６希望以降の施設がある場合は、【利用希望施設（事業者）】別紙（ PDF ・ Word ）にご記載ください。"
+    },
+    "notes.2": {
+      "url": "https://ikusapotoyama.city.toyama.lg.jp/LGArticle/Index/6414",
+      "quote": "また、令和８年１月～３月の入所申込みと並行して申請する方は、入所申込み締切日と結果発送予定日にご注意ください。"
+    },
+    "notes.3": {
+      "url": "https://ikusapotoyama.city.toyama.lg.jp/LGArticle/Index/6414",
+      "quote": "＊市外の施設利用を希望する場合は、あらかじめこども保育課まで相談してください。"
+    },
+    "notes.4": {
+      "url": "https://ikusapotoyama.city.toyama.lg.jp/LGArticle/Index/6414",
+      "quote": "☆ 利用調整基準 が変更になります"
+    }
+  },
+  "sources": [
+    {
+      "label": "富山市 育さぽとやま「４月からの保育所等への入所について」",
+      "url": "https://ikusapotoyama.city.toyama.lg.jp/LGArticle/Index/4076"
+    },
+    {
+      "label": "富山市 育さぽとやま「（参考）令和８年４月入所の流れ」",
+      "url": "https://ikusapotoyama.city.toyama.lg.jp/LGArticle/Index/6414"
+    }
+  ]
+}

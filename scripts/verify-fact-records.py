@@ -101,7 +101,7 @@ KINDS = {
         "main_page": "page",
         "link_fields": ("page",),
         "files_field": None,
-        "keyword": r"(入園|入所|利用)(の)?(申込|申請|案内)",
+        "keyword": r"(入園|入所|利用)(の)?(申込|申し込み|申請|案内)",
         "keyword_label": "入園申込",
         "dup_fields": ("notes", "documents"),
         "filename_ok": (),
@@ -219,13 +219,30 @@ def kind_checks(r, k, problems):
             v = r.get(f)
             if v and not re.search(r"\d+\s*月", v):
                 problems.append(f"{f} に月日が無い: {v[:30]}")
+        # 年の取り違え（令和9年4月入園の申込は令和8年秋、結果は令和8年冬〜令和9年春）
+        base = 8 if r["fiscalYear"] == "R9" else 7
+        for f in ("guideRelease", "firstApply", "applyMethods", "firstResult", "secondApply", "secondResult", "interview"):
+            v = r.get(f)
+            if not v:
+                continue
+            allowed = {base} if f == "guideRelease" else {base, base + 1}
+            # 「令和9年4月入園の…」のような対象年度の言及は除いて見る
+            vv = re.sub(r"令和\d+年\s*4月\s*(1日)?\s*(入園|入所|利用|から)", "", unicodedata.normalize("NFKC", v))
+            for y in re.findall(r"令和(\d+)年", vv):
+                if int(y) not in allowed:
+                    problems.append(f"{f} の年がおかしい: 令和{y}年（fiscalYear {r['fiscalYear']} なら令和{'・'.join(str(a) for a in sorted(allowed))}年のはず）")
+                    break
         # 日付は quote に入っているものしか書けない（年度の取り違え・推測の日付を防ぐ）
         for f in ("guideRelease", "firstApply", "applyMethods", "firstResult", "secondApply", "secondResult", "midYearDeadline", "interview", "ikukyu"):
             v = r.get(f)
             e = r["evidence"].get(f)
             if not v or not e:
                 continue
-            q = norm(e["quote"])
+            # 補助の根拠は「firstResult#2」のようなキーで足せる（表の見出しと行を分けて引くとき）
+            q = " ".join(norm(x["quote"]) for key, x in r["evidence"].items() if key == f or key.startswith(f + "#"))
+            # 「R7.11.4」「11/4」のような表記の表も、月日の形に直して見る
+            q += " " + re.sub(r"(?<!\d)\d{1,2}\.\s*(\d{1,2})\.\s*(\d{1,2})(?!\d)", r"\1月\2日", q)
+            q += " " + re.sub(r"(?<!\d)(\d{1,2})[./]\s*(\d{1,2})(?!\d)", r"\1月\2日", q)
             for d in re.findall(r"\d{1,2}月\d{1,2}日", norm(v)):
                 mm, dd = d.split("月")
                 # 「10月1日～同月30日」のように月を省いた書き方も通す
@@ -283,11 +300,11 @@ def check(path, k):
     kind_checks(r, k, problems)
     # evidence のキーが実在するフィールドか
     for key in ev:
-        base = key.split(".")[0]
+        base = key.split(".")[0].split("#")[0]
         if base not in K["value_fields"] + K["extra_evidence"]:
             problems.append(f"evidence のキー {key} は対象外")
         elif "." in key:
-            i = int(key.split(".")[1])
+            i = int(key.split(".")[1].split("#")[0])
             lst = r.get(base) or []
             if i >= len(lst):
                 problems.append(f"evidence のキー {key} の要素が無い")

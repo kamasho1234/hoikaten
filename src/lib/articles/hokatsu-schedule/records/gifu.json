@@ -1,0 +1,63 @@
+{
+  "citySlug": "gifu",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "岐阜市「保育施設 入園あんない」",
+    "url": "https://www.city.gifu.lg.jp/kosodate/hoiku/1012359/1012413/index.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年9月11日（金曜日）から申込書を配布。配布場所は子ども保育課（市庁舎2階）、各事務所、各保育所（園）、各認定こども園、各小規模保育施設等",
+  "firstApply": "令和8年10月1日（木曜日）〜10月30日（金曜日）",
+  "applyMethods": "第1希望の保育施設に提出。受付時間は8時30分〜17時（土・日・祝日は除く）",
+  "firstResult": "令和9年1月下旬に入所（園）決定の通知と支給認定証を発行",
+  "secondApply": "令和9年1月8日（金曜日）〜3月5日（金曜日）。申込は先着順",
+  "secondResult": "令和9年1月下旬以降随時に入所（園）決定の通知と支給認定証を発行",
+  "documents": [
+    "教育・保育給付認定申請書 兼 利用申込書（2・3号認定用）"
+  ],
+  "notes": [],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/012/413/r9zentai.pdf",
+      "quote": "令和９年４月１日から利用する場合"
+    },
+    "guideRelease": {
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/012/413/r9zentai.pdf",
+      "quote": "令和８年９月11日（金）"
+    },
+    "firstApply": {
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/012/413/r9zentai.pdf",
+      "quote": "令和８年10月１日（木）～10月30日（金）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/012/413/r9zentai.pdf",
+      "quote": "第１希望の保育施設"
+    },
+    "firstResult": {
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/012/413/r9zentai.pdf",
+      "quote": "１月下旬 入所（園）決定の通知と支給認定証を発行します。"
+    },
+    "secondApply": {
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/012/413/r9zentai.pdf",
+      "quote": "令和９年１月８日（金）～３月５日（金）"
+    },
+    "secondResult": {
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/012/413/r9zentai.pdf",
+      "quote": "１月下旬以降 随時 入所（園）決定の通知と支給認定証を発行します。"
+    },
+    "documents.0": {
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/012/413/r9zentai.pdf",
+      "quote": "教育・保育給付認定申請書 兼 利用申込書（２・３号認定用）"
+    }
+  },
+  "sources": [
+    {
+      "label": "岐阜市「保育施設 入園あんない」",
+      "url": "https://www.city.gifu.lg.jp/kosodate/hoiku/1012359/1012413/index.html"
+    },
+    {
+      "label": "岐阜市「令和9年度保育所等利用のご案内（全体版）」",
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/012/413/r9zentai.pdf"
+    }
+  ]
+}

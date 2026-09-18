@@ -1,0 +1,108 @@
+{
+  "citySlug": "mito",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "水戸市「【令和８年度】保育利用申し込み（保育所，認定こども園（２・３号），家庭的保育事業，小規模保育事業）」",
+    "url": "https://www.city.mito.lg.jp/site/kosodate/107000.html"
+  },
+  "fiscalYear": "R8",
+  "firstApply": "令和7年10月14日(火)～10月22日(水)【完全予約制】または令和7年10月23日(木)～11月10日(月)【予約優先制】。不足書類の追加受付は令和7年11月10日(月)まで",
+  "applyMethods": "オンライン申請または幼児保育課窓口での申請。窓口受付時間は午前8時30分から午後5時15分まで（水曜日は午後7時まで）。土・日曜日、祝日、年末年始を除く",
+  "firstResult": "令和8年1月中旬頃に郵送で全員に通知",
+  "secondApply": "令和7年11月11日(火)～令和8年2月13日(金)",
+  "secondResult": "令和8年3月中旬頃。内定者のみ電話連絡",
+  "documents": [
+    "施設型給付費・地域型保育給付費等教育・保育給付認定（変更）申請書",
+    "保育利用申込書",
+    "家庭状況等調べ",
+    "保育利用に関する確認票及び同意書",
+    "保育の必要性を証明する書類（就労証明書等。事由により異なる）",
+    "マイナンバーの番号確認と本人確認に必要な書類"
+  ],
+  "interview": "利用が内定した児童は保護者とともに各施設で面接・健康診断等を受ける",
+  "midYearDeadline": "年度途中利用の場合は毎月、利用希望日の前月の10日締切（10日が土・日曜日、祝日の場合はその直前の平日）",
+  "notes": [
+    "希望施設の追加・順位変更や不足書類は令和7年11月10日(月)までの受付で、11月11日(火)以降に提出された書類は二次選考から反映される",
+    "育児休業からの復職で利用する場合は遅くとも利用開始月の翌月15日までに復職する必要があり、利用開始後に復職証明書を提出する"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.mito.lg.jp/uploaded/attachment/59189.pdf",
+      "quote": "◇令和８年度４月から利用を希望する場合"
+    },
+    "firstApply": {
+      "url": "https://www.city.mito.lg.jp/uploaded/attachment/59189.pdf",
+      "quote": "令和７年10月14日(火)～10月22日(水) 【完全予約制】 ※予約の方のみの受付となります。 令和７年10月23日(木)～11月10日(月) 【予約優先制】 ※予約以外の方も受付けます。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.mito.lg.jp/site/kosodate/107000.html",
+      "quote": "午前8時30分から午後5時15分まで（水曜日は午後7時まで）の間にお申し込みください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.mito.lg.jp/uploaded/attachment/59189.pdf",
+      "quote": "令和８年１月中旬頃 全員に郵送します。"
+    },
+    "secondApply": {
+      "url": "https://www.city.mito.lg.jp/uploaded/attachment/59189.pdf",
+      "quote": "令和７年11月11日(火)～令和８年２月13日(金)"
+    },
+    "secondResult": {
+      "url": "https://www.city.mito.lg.jp/uploaded/attachment/59189.pdf",
+      "quote": "令和８年３月中旬頃 内定者のみ電話連絡します。"
+    },
+    "documents.0": {
+      "url": "https://www.city.mito.lg.jp/uploaded/attachment/59189.pdf",
+      "quote": "施設型給付費・地域型保育給付費等教育・保育給付認定（変更）申請書"
+    },
+    "documents.1": {
+      "url": "https://www.city.mito.lg.jp/uploaded/attachment/59189.pdf",
+      "quote": "保育利用申込書"
+    },
+    "documents.2": {
+      "url": "https://www.city.mito.lg.jp/uploaded/attachment/59189.pdf",
+      "quote": "家庭状況等調べ"
+    },
+    "documents.3": {
+      "url": "https://www.city.mito.lg.jp/uploaded/attachment/59189.pdf",
+      "quote": "保育利用に関する確認票及び同意書"
+    },
+    "documents.4": {
+      "url": "https://www.city.mito.lg.jp/uploaded/attachment/59189.pdf",
+      "quote": "保育の必要性を証明する書類（保護者それぞれ①～⑧のいずれかが必要です。）"
+    },
+    "documents.5": {
+      "url": "https://www.city.mito.lg.jp/uploaded/attachment/59189.pdf",
+      "quote": "６ マイナンバーの「番号の確認」と「本人確認」に必要な書類"
+    },
+    "interview": {
+      "url": "https://www.city.mito.lg.jp/uploaded/attachment/59189.pdf",
+      "quote": "⃝利用が内定した児童は，保護者とともに各施設で面接・健康診断等を受けてください。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.mito.lg.jp/site/kosodate/107000.html",
+      "quote": "4月1日利用希望以外の申込受付けは、毎月、利用希望日の前月の10日締切 です。（10日が土・日曜日、祝日の場合は その直前の平日 が締切です。）"
+    },
+    "notes.0": {
+      "url": "https://www.city.mito.lg.jp/uploaded/attachment/59189.pdf",
+      "quote": "※希望施設の追加・順位変更や不足書類は令和７年11月10日(月)まで受付けます。不足書類として11月11日(火) 以降に提出された書類は，二次選考から反映します。"
+    },
+    "notes.1": {
+      "url": "https://www.city.mito.lg.jp/uploaded/attachment/59189.pdf",
+      "quote": "育児休業からの復職で利用の場合は，遅くとも利用開始月の翌月15日までに復職する必要があります。利用開始後，復職（予定）証明書を提出していただきます。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.mito.lg.jp/site/kosodate/107000.html",
+      "quote": "令和8年6月22日より、 オンライン申請 を開始しました。"
+    }
+  },
+  "sources": [
+    {
+      "label": "水戸市「【令和８年度】保育利用申し込み（保育所，認定こども園（２・３号），家庭的保育事業，小規模保育事業）」",
+      "url": "https://www.city.mito.lg.jp/site/kosodate/107000.html"
+    },
+    {
+      "label": "水戸市「幼稚園・認定こども園・保育所・地域型保育 利用の御案内（令和8年度）」",
+      "url": "https://www.city.mito.lg.jp/uploaded/attachment/59189.pdf"
+    }
+  ]
+}

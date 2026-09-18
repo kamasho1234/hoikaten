@@ -1,0 +1,140 @@
+{
+  "citySlug": "obihiro",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "帯広市「保育所等入所申込、空き状況」",
+    "url": "https://www.city.obihiro.hokkaido.jp/kyoiku/kosodate/hoiku/1010107.html"
+  },
+  "fiscalYear": "R8",
+  "firstApply": "一次調整の申込締切は令和7年11月29日（土曜日）。一次受付は別紙「令和8年度 保育所等入所受付日程表」の第1希望施設の受付日時に指定の受付場所で受け付け",
+  "applyMethods": "一次受付は第1希望とする施設の受付日時に指定の受付場所へ、子どもを連れて行く（成育を確認するため）。二次受付以降は申込締切日までに書類を揃えてこども課へ申し込む",
+  "firstResult": "一次調整の決定通知発送は令和8年1月下旬",
+  "secondApply": "二次調整の申込締切は令和8年1月30日（金曜日）。最終調整（令和8年4月1日〜4月30日入所）の締切は令和8年2月27日（金曜日）",
+  "secondResult": "二次調整の決定通知発送は令和8年2月中旬、最終調整は令和8年3月中旬",
+  "midYearDeadline": "年度途中入所は入所希望月ごとに申込締切がある（例: 令和8年5月1日〜31日入所は令和8年3月24日（火曜日）締切、通知発送は4月6日（月曜日））",
+  "documents": [
+    "教育・保育給付認定申請書 兼 保育所入所申込書（薄みどり色の厚紙）",
+    "要件を証明するための書類（就労証明書など）",
+    "発育状況聴取書（申込み時点での子どもの様子を記入したもの）",
+    "保育施設入所希望調査票（施設の希望を記入したもの）",
+    "母子健康手帳、身分証明書（運転免許証など）",
+    "満61歳未満の祖父母等が同居していて就労している場合は祖父母等の就労証明書"
+  ],
+  "interview": "入所調整にあたって子どもの成育を確認するため、申込時は子どもを連れて行く",
+  "ikukyu": "育児休業取得中の申込みは、入所日から15日目には復職することが前提の就労要件。育児休業等から復帰する人は復職（就業）予定日の最大2週間前から入所できる。4月1日から職場復帰の場合、3月にならし保育はできず4月上旬がならし保育期間になる",
+  "notes": [
+    "入所希望日に沿った入所調整となるため、早い時期に申し込んでも決定は前倒しにならない",
+    "書類の不足や不備がある場合は申込みを受理できない",
+    "入所調整は保育所等入所調整点数表に基づき保育の必要性が高い児童から順に決定する。申込みの先着順ではない",
+    "希望施設に空きがなく入所できなかった場合は「不承諾通知書」が送られる（送付は初めての調整後の1回のみ）",
+    "各施設の年齢ごとの受入可能枠の目安を帯広市ホームページで公開している（毎月15日を目処に更新）"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.obihiro.hokkaido.jp/kyoiku/kosodate/hoiku/1010107.html",
+      "quote": "令和8年4月1日に入所を希望する場合の入所の申込と決定のスケジュールについて（終了しました） 令和8年4月1日に入所を希望する場合 調整 申込締切日 決定通知発送日 一次調整 11月29日（土曜日） 受付終了しました 令和8年1月下旬"
+    },
+    "firstApply": {
+      "url": "https://www.city.obihiro.hokkaido.jp/_res/projects/default_project/_page_/001/010/107/r8nyusyoannnai.pdf",
+      "quote": "令和8年 4月1日 （一次調整） 令和7年 11月29日(土) 令和8年1月下旬 別紙参照"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.obihiro.hokkaido.jp/_res/projects/default_project/_page_/001/010/107/r8nyusyoannnai.pdf",
+      "quote": "なお、一次受付については別紙「令和8年度 保育所等入所受付日程表」をご確認のうえ、第1希望とする施設の受付日時に、指定の受付場所へお越しください。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.obihiro.hokkaido.jp/_res/projects/default_project/_page_/001/010/107/r8nyusyoannnai.pdf",
+      "quote": "入所調整にあたってはお子様の成育を確認させていただくため、お子様を連れて一緒にお越しください。なお、一次受付については別紙「令和8年度 保育所等入所受付日程表」をご確認のうえ、第1希望とする施設の受付日時に、指定の受付場所へお越しください。 二次受付以降については、申込締切日までに書類を揃え、こども課へお申込みください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.obihiro.hokkaido.jp/_res/projects/default_project/_page_/001/010/107/r8nyusyoannnai.pdf",
+      "quote": "令和8年 4月1日 （一次調整） 令和7年 11月29日(土) 令和8年1月下旬 別紙参照"
+    },
+    "secondApply": {
+      "url": "https://www.city.obihiro.hokkaido.jp/_res/projects/default_project/_page_/001/010/107/r8nyusyoannnai.pdf",
+      "quote": "令和8年 4月1日 （二次調整） 令和8年 1月30日(金) 令和8年2月中旬 令和8年 4月1日 ～ 4月30日 令和8年 2月27日(金) 令和8年3月中旬"
+    },
+    "secondResult": {
+      "url": "https://www.city.obihiro.hokkaido.jp/_res/projects/default_project/_page_/001/010/107/r8nyusyoannnai.pdf",
+      "quote": "令和8年 4月1日 （二次調整） 令和8年 1月30日(金) 令和8年2月中旬 令和8年 4月1日 ～ 4月30日 令和8年 2月27日(金) 令和8年3月中旬"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.obihiro.hokkaido.jp/_res/projects/default_project/_page_/001/010/107/r8nyusyoannnai.pdf",
+      "quote": "令和8年 5月1日 ～ 5月31日 令和8年 3月24日(火) 令和8年 4月6日(月)"
+    },
+    "documents.0": {
+      "url": "https://www.city.obihiro.hokkaido.jp/_res/projects/default_project/_page_/001/010/107/r8nyusyoannnai.pdf",
+      "quote": "□教育・保育給付認定申請書 兼 保育所入所申込書（薄みどり色の厚紙）"
+    },
+    "documents.1": {
+      "url": "https://www.city.obihiro.hokkaido.jp/_res/projects/default_project/_page_/001/010/107/r8nyusyoannnai.pdf",
+      "quote": "□要件を証明するための書類（就労証明書など）"
+    },
+    "documents.2": {
+      "url": "https://www.city.obihiro.hokkaido.jp/_res/projects/default_project/_page_/001/010/107/r8nyusyoannnai.pdf",
+      "quote": "□発育状況聴取書（申込み時点でのお子様の様子を記入したもの）"
+    },
+    "documents.3": {
+      "url": "https://www.city.obihiro.hokkaido.jp/_res/projects/default_project/_page_/001/010/107/r8nyusyoannnai.pdf",
+      "quote": "□保育施設入所希望調査票（施設の希望を記入したもの）"
+    },
+    "documents.4": {
+      "url": "https://www.city.obihiro.hokkaido.jp/_res/projects/default_project/_page_/001/010/107/r8nyusyoannnai.pdf",
+      "quote": "□母子健康手帳 □身分証明書（運転免許証など）"
+    },
+    "documents.5": {
+      "url": "https://www.city.obihiro.hokkaido.jp/_res/projects/default_project/_page_/001/010/107/r8nyusyoannnai.pdf",
+      "quote": "※満61歳未満の祖父母等が同居しており就労している場合は、祖父母等の就労証明書をご提出 下さい。"
+    },
+    "interview": {
+      "url": "https://www.city.obihiro.hokkaido.jp/_res/projects/default_project/_page_/001/010/107/r8nyusyoannnai.pdf",
+      "quote": "入所調整にあたってはお子様の成育を確認させていただくため、お子様を連れて一緒にお越しください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.obihiro.hokkaido.jp/_res/projects/default_project/_page_/001/010/107/r8nyusyoannnai.pdf",
+      "quote": "※育児休業取得中の申込みについては、入所日から１５日目には復職することが前提の就労要件となり"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.obihiro.hokkaido.jp/_res/projects/default_project/_page_/001/010/107/r8nyusyoannnai.pdf",
+      "quote": "●育児休業等から復帰する方や、就業日が確定している方 復職（就業）予定日より最大2週間前から入所可能 ●4月1日から職場復帰・就業予定の方 3月にならし保育を行うことはできませんので、4月上旬がならし保育期間となります。"
+    },
+    "notes.0": {
+      "url": "https://www.city.obihiro.hokkaido.jp/_res/projects/default_project/_page_/001/010/107/r8nyusyoannnai.pdf",
+      "quote": "※入所希望日に沿った入所調整となるため、早い時期に申込みをしても決定は前倒しになりません。"
+    },
+    "notes.1": {
+      "url": "https://www.city.obihiro.hokkaido.jp/_res/projects/default_project/_page_/001/010/107/r8nyusyoannnai.pdf",
+      "quote": "書類の不足や不備がある場合は、申込みを受理できませんので"
+    },
+    "notes.2": {
+      "url": "https://www.city.obihiro.hokkaido.jp/_res/projects/default_project/_page_/001/010/107/r8nyusyoannnai.pdf",
+      "quote": "入所調整の方法は、保育所等入所調整点数表に基づき、保育の必要性が高い児童から順に入所の 決定をします。"
+    },
+    "notes.2#2": {
+      "url": "https://www.city.obihiro.hokkaido.jp/_res/projects/default_project/_page_/001/010/107/r8nyusyoannnai.pdf",
+      "quote": "添えない場合がありますのでご了承ください。（申込みの先着順ではありません。）"
+    },
+    "notes.3": {
+      "url": "https://www.city.obihiro.hokkaido.jp/_res/projects/default_project/_page_/001/010/107/r8nyusyoannnai.pdf",
+      "quote": "希望施設に 空きがなく、入所ができなかった場合は「不承諾通知書」をお送りいたします。"
+    },
+    "notes.3#2": {
+      "url": "https://www.city.obihiro.hokkaido.jp/_res/projects/default_project/_page_/001/010/107/r8nyusyoannnai.pdf",
+      "quote": "〇「不承諾通知書」の送付は１回（初めての調整後）のみとなります。"
+    },
+    "notes.4": {
+      "url": "https://www.city.obihiro.hokkaido.jp/_res/projects/default_project/_page_/001/010/107/r8nyusyoannnai.pdf",
+      "quote": "※各施設の年齢ごとの受入可能枠の目安を帯広市ホームページにて公開しております。 （毎月１５日を目処に更新）"
+    }
+  },
+  "sources": [
+    {
+      "label": "帯広市「保育所等入所申込、空き状況」",
+      "url": "https://www.city.obihiro.hokkaido.jp/kyoiku/kosodate/hoiku/1010107.html"
+    },
+    {
+      "label": "帯広市「令和8年度 保育所等入所のご案内（PDF）」",
+      "url": "https://www.city.obihiro.hokkaido.jp/_res/projects/default_project/_page_/001/010/107/r8nyusyoannnai.pdf"
+    }
+  ]
+}

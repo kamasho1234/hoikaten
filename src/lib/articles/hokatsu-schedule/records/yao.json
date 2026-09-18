@@ -1,0 +1,145 @@
+{
+  "citySlug": "yao",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "八尾市「令和8年度認定こども園・保育所（園）・小規模保育施設申込み」",
+    "url": "https://www.city.yao.osaka.jp/kosodate_kyouiku/ninteikodomoen_hoikusho/1003996/1020314.html"
+  },
+  "fiscalYear": "R8",
+  "firstApply": "令和7年11月4日〜令和7年11月13日に申請したものが1次選考の対象。施設受付は11月4日〜11月13日（土日祝を除く午前9時〜午後5時）",
+  "applyMethods": "市役所本館6階大会議室（1次選考申込は事前予約可、予約可能期間10月6日〜11月11日）、八尾市内の第1希望の施設、または郵送（追跡できる方法で保育・こども園課へ）。受付場所・方法による差はない",
+  "firstResult": "1次選考の利用調整結果通知は令和8年1月29日（木）発送予定（利用可・不可を通知）",
+  "secondApply": "令和7年11月14日〜令和8年2月9日の申請は2次選考から。2次選考の申込期限は令和8年2月9日（月）",
+  "secondResult": "2次選考の利用調整結果通知は令和8年2月27日（金）発送予定（利用可のみ通知）",
+  "midYearDeadline": "令和8年2月10日〜3月5日の申請は4月1日入所の随時選考、令和8年3月6日以降の申請は令和8年度途中入所の扱い",
+  "documents": [
+    "施設型給付費・地域型保育給付等 教育・保育給付認定申請書兼保育所入所等申込書",
+    "認定こども園等入所申込児童質問票",
+    "就労証明書または入所理由証明書（父・母。ひとり親・離婚調停中の人を除き2名分）。自営業・内職の人は確定申告書の写しや開業届の控えなどの添付が必要",
+    "認定こども園等入所にあたっての確認書",
+    "就労証明書・入所理由証明書は提出日時点で記入日からおおむね6か月以内のものが有効（コピー可）"
+  ],
+  "interview": "入所申込にあたり、事前に希望施設へ見学に行くことが勧められている（見学は各施設に問い合わせ）",
+  "ikukyu": "育児休業中の人は、入所後1か月以内に育児休業を終了して復職できる人が対象。就労証明書の「育児休業の取得」「復職（予定）年月日」欄に記入してもらい、入所決定後は復職証明書の提出が必要。提出がない場合や期日までに復職できなかった場合は退所になる",
+  "notes": [
+    "申込書類は八尾市役所7階 保育・こども園課と市内各認定こども園などで配布（出張所では扱わない）。市ホームページからもダウンロードできる",
+    "選考は先着順ではない",
+    "1次選考申込受付期間のあとは市役所本館7階 保育・こども園課窓口で随時受付するが、随時受付の申請は1次選考の対象外",
+    "郵送で出す場合は入所申込書表紙（チェックリスト）をA4片面で印刷・記入して同封する",
+    "フリクションペン（消せるペン）で作成した書類は受付できない。訂正は二重線で、修正ペン・修正テープは無効",
+    "転園（所）希望の場合も申込みが必要。八尾市へ転入予定の人は「転入に関する申立書」を併せて提出する",
+    "募集人数が0でも、退所や転所で空きが出た場合は申込のある人が選考の対象になる"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.yao.osaka.jp/kosodate_kyouiku/ninteikodomoen_hoikusho/1003996/1020314.html",
+      "quote": "令和8年度4月1日入所申請については、申請時期によって以下のように取り扱います。"
+    },
+    "firstApply": {
+      "url": "https://www.city.yao.osaka.jp/kosodate_kyouiku/ninteikodomoen_hoikusho/1003996/1020314.html",
+      "quote": "令和7年11月4日 ～令和7年11月13日 1次選考から"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.yao.osaka.jp/kosodate_kyouiku/ninteikodomoen_hoikusho/1003996/1020314.html",
+      "quote": "八尾市内の第1希望の施設 ※施設受付は11月4日～11月13日（（土日祝を除く）午前9時～午後5時です）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.yao.osaka.jp/kosodate_kyouiku/ninteikodomoen_hoikusho/1003996/1020314.html",
+      "quote": "市役所本館6階 大会議室 ※受付場所・方法による差は一切ありません 八尾市内の第1希望の施設 ※施設受付は11月4日～11月13日（（土日祝を除く）午前9時～午後5時です） 市役所受付（1次選考申込みに限る）は事前予約が可能です。（予約可能期間：10月6日～11月11日）"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.yao.osaka.jp/kosodate_kyouiku/ninteikodomoen_hoikusho/1003996/1020314.html",
+      "quote": "※郵送での入所受付を行います。入所申込書を郵送する際には、入所申請に必要な書類を追跡のできる方法（簡易書留、レターパック等）で保育・こども園課へ送付してください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.yao.osaka.jp/_res/projects/default_project/_page_/001/020/314/508riyouannnai.pdf",
+      "quote": "１次選考 利用調整結果通知…令和８年１月29日（木）発送予定（利用可・不可を通知）"
+    },
+    "secondApply": {
+      "url": "https://www.city.yao.osaka.jp/kosodate_kyouiku/ninteikodomoen_hoikusho/1003996/1020314.html",
+      "quote": "令和7年11月14日 ～令和8年2月9日 2次選考から"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.yao.osaka.jp/_res/projects/default_project/_page_/001/020/314/508riyouannnai.pdf",
+      "quote": "２次選考 申込期限 …令和８年２月９日（月）"
+    },
+    "secondResult": {
+      "url": "https://www.city.yao.osaka.jp/_res/projects/default_project/_page_/001/020/314/508riyouannnai.pdf",
+      "quote": "２次選考 利用調整結果通知…令和８年２月27日（金）発送予定（利用可のみ通知）"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.yao.osaka.jp/kosodate_kyouiku/ninteikodomoen_hoikusho/1003996/1020314.html",
+      "quote": "令和8年2月10日 ～令和8年3月5日 4月1日入所随時選考から 令和8年3月6日以降 令和8年度途中入所"
+    },
+    "documents.0": {
+      "url": "https://www.city.yao.osaka.jp/_res/projects/default_project/_page_/001/020/314/508riyouannnai.pdf",
+      "quote": "１ 施設型給付費・地域型保育給付等 教育・保育給付認定申請書兼保育所入所等申込書"
+    },
+    "documents.1": {
+      "url": "https://www.city.yao.osaka.jp/_res/projects/default_project/_page_/001/020/314/508riyouannnai.pdf",
+      "quote": "２ 認定こども園等入所申込児童質問票"
+    },
+    "documents.2": {
+      "url": "https://www.city.yao.osaka.jp/_res/projects/default_project/_page_/001/020/314/508riyouannnai.pdf",
+      "quote": "就労証明書または入所理由証明書(父・母)（ひとり親・離婚調停中の方を除き２名分） ３ 【自営業（業務委託契約含む）・内職の方】 確定申告書の写しや開業届の控え、また収入明細書等の自営業・内職を証明する書類の添付が必要です。"
+    },
+    "documents.3": {
+      "url": "https://www.city.yao.osaka.jp/_res/projects/default_project/_page_/001/020/314/508riyouannnai.pdf",
+      "quote": "４ 認定こども園等入所にあたっての確認書【重要】"
+    },
+    "documents.4": {
+      "url": "https://www.city.yao.osaka.jp/_res/projects/default_project/_page_/001/020/314/508riyouannnai.pdf",
+      "quote": "就労証明書・入所理由証明書は、コピーを使用していただいても構いません。なお、提出日時点で記入日からおおむね６か月以内の証明書が有効となります。"
+    },
+    "interview": {
+      "url": "https://www.city.yao.osaka.jp/kosodate_kyouiku/ninteikodomoen_hoikusho/1003996/1020314.html",
+      "quote": "※入所申込にあたり、事前に希望施設へ見学に行くことをお勧めしています。見学については、事前に各施設へお問い合わせください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.yao.osaka.jp/_res/projects/default_project/_page_/001/020/314/508riyouannnai.pdf",
+      "quote": "育児休業中の方は、入所後、１か月以内に育児休業を終了して復職できる方が対象となるため、「就労証明書」の「育児休業の取得」「復職（予定）年月日」の欄に必要事項を記入してもらってください。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.yao.osaka.jp/_res/projects/default_project/_page_/001/020/314/508riyouannnai.pdf",
+      "quote": "入所決定した場合は復職後に、利用調整結果通知に同封される復職証明書の提出が必要になります。復職証明書の提出がない場合や期日までに復職できなかった場合は、退所となりますのでご注意ください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.yao.osaka.jp/kosodate_kyouiku/ninteikodomoen_hoikusho/1003996/1020314.html",
+      "quote": "八尾市役所7階 保育・こども園課、市内各認定こども園などで配布しています。 市ホームページからもダウンロードできます。 ※出張所では取り扱っていません。"
+    },
+    "notes.1": {
+      "url": "https://www.city.yao.osaka.jp/_res/projects/default_project/_page_/001/020/314/508riyouannnai.pdf",
+      "quote": "・選考は先着順ではありません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.yao.osaka.jp/_res/projects/default_project/_page_/001/020/314/508riyouannnai.pdf",
+      "quote": "１次選考申込受付期間以降は、市役所本館７階保育・こども園課窓口で随時受付を行います。ただし、随時受付の申請については１次選考の対象外となります。"
+    },
+    "notes.3": {
+      "url": "https://www.city.yao.osaka.jp/kosodate_kyouiku/ninteikodomoen_hoikusho/1003996/1020314.html",
+      "quote": "※郵送でご提出される方は入所申込表紙（チェックリスト）をA4サイズで片面印刷し、記入したうえで同封してください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.yao.osaka.jp/_res/projects/default_project/_page_/001/020/314/508riyouannnai.pdf",
+      "quote": "フリクションペン(消すことができるペン)の使用により作成された書類は受付できません。 ・ 訂正する場合は、訂正箇所に二重線を引いてください。修正ペン・修正テープを使用して修正したものは無効となります。"
+    },
+    "notes.5": {
+      "url": "https://www.city.yao.osaka.jp/kosodate_kyouiku/ninteikodomoen_hoikusho/1003996/1020314.html",
+      "quote": "※転園（所）希望の場合も申込みが必要です。※八尾市へ転入予定の方は、下記の「転入に関する申立書」を併せてご提出ください。"
+    },
+    "notes.6": {
+      "url": "https://www.city.yao.osaka.jp/kosodate_kyouiku/ninteikodomoen_hoikusho/1003996/1020314.html",
+      "quote": "募集人数が0であっても、在園児の退所や転所などで空きが出た場合、申込のある方については選考の対象となりますので入所の希望があればお申込ください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "八尾市「令和8年度認定こども園・保育所（園）・小規模保育施設申込み」",
+      "url": "https://www.city.yao.osaka.jp/kosodate_kyouiku/ninteikodomoen_hoikusho/1003996/1020314.html"
+    },
+    {
+      "label": "八尾市「令和8年度保育利用あんない（PDF）」",
+      "url": "https://www.city.yao.osaka.jp/_res/projects/default_project/_page_/001/020/314/508riyouannnai.pdf"
+    }
+  ]
+}

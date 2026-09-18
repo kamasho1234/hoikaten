@@ -1,0 +1,94 @@
+{
+  "citySlug": "kurume",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "久留米市「保育所等の入所を希望される方」",
+    "url": "https://www.city.kurume.fukuoka.jp/1060manabi/2010kosodate/3090hoikusho/hoikusyoriyou0416.html"
+  },
+  "fiscalYear": "R8",
+  "firstApply": "第1次申込は令和7年11月1日〜12月10日（17時15分まで）。電子申請と窓口申請に対応",
+  "applyMethods": "必要書類を整えて子ども保育課（市役所16階）または各総合支所市民福祉課に提出する。入所時点で2歳児クラス以上のお子さんは、電子申請した場合でも親子（母子）健康手帳をご持参のうえ、期日までにお子さんとご一緒に窓口にお越しください",
+  "firstResult": "翌年2月上旬ごろに入所承諾書（保育利用内定通知書）または入所保留通知書を送付",
+  "secondApply": "令和7年12月11日（木曜日）～令和8年2月15日（17時15分まで）（最終締め切り）",
+  "secondResult": "年度途中入所で申し込まれた方は締切りから10日程度で送付",
+  "documents": [
+    "親子（母子）健康手帳（2歳児クラス以上のお子さんの面接時に必要）"
+  ],
+  "interview": "2歳児クラス以上のお子さんは面接が必要。親子（母子）健康手帳をご持参のうえ、お子さんとご一緒に子ども保育課または各総合支所市民福祉課にお越しください。ただし、健診での指摘や基礎疾患等がある場合は0～1歳児クラスのお子さんも面接が必要",
+  "ikukyu": "育児休業から復職予定の方は、復職後1か月以内に就労証明書（復職日以降の日付で証明されているもの）を提出していただく必要があります。また、育児休業の延長が可能で利用調整の順位を下げることを承諾できる場合は、利用申込み状況確認票で「利用調整の結果、希望保育施設等に空きがなく保留となった場合に育児休業の延長が可能です。」を選択して提出することで、利用調整点数を「０点」で選考されます。ただし、利用調整の結果が入所可能な場合は入所決定となり、利用調整の結果が保留になることは確約されない",
+  "notes": [
+    "市民センターでは受付ができません。申請は子ども保育課（市役所16階）または各総合支所市民福祉課で受け付けています",
+    "福岡県パートナーシップ宣誓書受領書の交付を受けている方も代理で申請できます",
+    "入所保留となった方で、申請書裏面の「待機する意思」欄で「有」にチェックされた場合は、申込み年度中は毎月継続して入所調整を行います。ただし、ご連絡および調整結果の通知は、入所が内定した場合のみとなります",
+    "就労予定の方や育児休業明けの方などの場合は、就労（復帰）予定日の4週間前から入所が可能です。この場合は、年度途中分の申込みとなります",
+    "ページには「例年、以下のスケジュールで受付」とあり、令和9年4月入所のスケジュールは確定次第更新される"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.kurume.fukuoka.jp/1060manabi/2010kosodate/3090hoikusho/hoikusyoriyou0416.html",
+      "quote": "新年度入所(令和9年４月中の入所）例年、以下のスケジュールで受付を行っています。令和9年4月のスケジュールについては、確定次第、更新します。"
+    },
+    "firstApply": {
+      "url": "https://www.city.kurume.fukuoka.jp/1060manabi/2010kosodate/3090hoikusho/hoikusyoriyou0416.html",
+      "quote": "第１次申込み…11月１日～12月10日（17時15分まで）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.kurume.fukuoka.jp/1060manabi/2010kosodate/3090hoikusho/hoikusyoriyou0416.html",
+      "quote": "入所時点で２歳児クラス以上のお子さんは、電子申請した場合でも、 親子（母子）健康手帳 をご持参のうえ、 期日までにお子さんとご一緒に 子ども保育課、または各総合支所市民福祉課にお越しください。お子さんの面接を行います。"
+    },
+    "firstResult": {
+      "url": "https://www.city.kurume.fukuoka.jp/1060manabi/2010kosodate/3090hoikusho/hoikusyoriyou0416.html",
+      "quote": "新年度入所（令和9年4月中の入所）で申し込まれた方は翌年2月上旬ごろに、年度途中入所で申し込まれた方は締切りから10日程度で送付いたします。"
+    },
+    "secondApply": {
+      "url": "https://www.city.kurume.fukuoka.jp/1060manabi/2010kosodate/3090hoikusho/hoikusyoriyou0416.html",
+      "quote": "第２次申込み（最終締め切り）…12月11日（木曜日）～2月15日（17時15分まで）"
+    },
+    "secondResult": {
+      "url": "https://www.city.kurume.fukuoka.jp/1060manabi/2010kosodate/3090hoikusho/hoikusyoriyou0416.html",
+      "quote": "年度途中入所で申し込まれた方は締切りから10日程度で送付いたします。"
+    },
+    "interview": {
+      "url": "https://www.city.kurume.fukuoka.jp/1060manabi/2010kosodate/3090hoikusho/hoikusyoriyou0416.html",
+      "quote": "入所時点で２歳児クラス以上のお子さんは、電子申請した場合でも、 親子（母子）健康手帳 をご持参のうえ、 期日までにお子さんとご一緒に 子ども保育課、または各総合支所市民福祉課にお越しください。お子さんの面接を行います。ただし、健診での指摘や基礎疾患等がある場合は０～１歳児クラスのお子さんも面接が必要です。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.kurume.fukuoka.jp/1060manabi/2010kosodate/3090hoikusho/hoikusyoriyou0416.html",
+      "quote": "復職後１か月以内に就労証明書（復職日以降の日付で証明されているもの）を提出していただくようお願いします。"
+    },
+    "notes.0": {
+      "url": "https://www.city.kurume.fukuoka.jp/1060manabi/2010kosodate/3090hoikusho/hoikusyoriyou0416.html",
+      "quote": "なお、市民センターでは受付ができません。"
+    },
+    "notes.1": {
+      "url": "https://www.city.kurume.fukuoka.jp/1060manabi/2010kosodate/3090hoikusho/hoikusyoriyou0416.html",
+      "quote": "【注意】福岡県パートナーシップ宣誓書受領書の交付を受けている方も代理で申請できます。"
+    },
+    "notes.2": {
+      "url": "https://www.city.kurume.fukuoka.jp/1060manabi/2010kosodate/3090hoikusho/hoikusyoriyou0416.html",
+      "quote": "入所保留となった方で、申請書裏面の「待機する意思」欄で「有」にチェックされた場合は、申込み年度中は毎月継続して入所調整を行います。ただし、ご連絡および調整結果の通知は、入所が内定した場合のみとなります。"
+    },
+    "notes.3": {
+      "url": "https://www.city.kurume.fukuoka.jp/1060manabi/2010kosodate/3090hoikusho/hoikusyoriyou0416.html",
+      "quote": "就労予定の方や、育児休業明けの方などの場合は、就労（復帰）予定日の4週間前から入所が可能です。"
+    },
+    "notes.4": {
+      "url": "https://www.city.kurume.fukuoka.jp/1060manabi/2010kosodate/3090hoikusho/hoikusyoriyou0416.html",
+      "quote": "例年、以下のスケジュールで受付を行っています。令和9年4月のスケジュールについては、確定次第、更新します。"
+    },
+    "documents.0": {
+      "url": "https://www.city.kurume.fukuoka.jp/1060manabi/2010kosodate/3090hoikusho/hoikusyoriyou0416.html",
+      "quote": "入所時点で２歳児クラス以上のお子さんは、電子申請した場合でも、 親子（母子）健康手帳 をご持参のうえ、 期日までにお子さんとご一緒に 子ども保育課、または各総合支所市民福祉課にお越しください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "久留米市「保育所等の入所を希望される方」",
+      "url": "https://www.city.kurume.fukuoka.jp/1060manabi/2010kosodate/3090hoikusho/hoikusyoriyou0416.html"
+    },
+    {
+      "label": "久留米市「保育所等利用に関する書類」",
+      "url": "https://www.city.kurume.fukuoka.jp/1500soshiki/9053kodomo/3020shinsei/2025-0414-0938-323.html"
+    }
+  ]
+}

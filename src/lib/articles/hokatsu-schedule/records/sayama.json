@@ -1,0 +1,138 @@
+{
+  "citySlug": "sayama",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "狭山市「令和8年度保育施設の申込み」",
+    "url": "https://www.city.sayama.saitama.jp/kosodate/homeciao/azukeru/hoikusho/r8-hoiku.html"
+  },
+  "fiscalYear": "R8",
+  "guideRelease": "令和7年10月1日（水曜日）から申込書類等を配布。狭山市役所保育幼稚園課は月曜日から金曜日の8時30分から17時15分、各保育施設、総合子育て支援センター、児童館、子育てプレイスで配布",
+  "firstApply": "一次申込の事前予約は令和7年10月15日（水曜日）9時から開始。一次受付は令和7年11月2日（日曜日）から11月13日（木曜日）まで。受付時間は9時から15時40分（郵送での受付は行わない）",
+  "applyMethods": "申込時にこども同伴で窓口に申し出る。受付場所は市役所1階（保育幼稚園課）または市役所7階（職員研修室）",
+  "firstResult": "1月中旬に郵送にて通知",
+  "secondApply": "令和8年1月5日（月曜日）から1月30日（金曜日）まで（土日・祝日・年末年始は除く）。受付時間は9時から16時（郵送での受付は行わない）",
+  "secondResult": "3月上旬に郵送にて通知",
+  "documents": [
+    "教育・保育給付認定（変更）申請書兼保育所等入所申込書",
+    "児童健康調査票・申込み児童の状況等",
+    "申請内容確認書",
+    "日中、児童の保育が必要であることを証明する書類（就労の場合は就労証明書）",
+    "親子（母子）健康手帳（受付時に健康診断等の確認をするため）"
+  ],
+  "interview": "申込時に同伴でお越しください。2025年8月1日以降に出生されたこどもの面談は不要です。申込み時に同伴ができない場合には、後日こどもとともに面談を受けていただきます",
+  "ikukyu": "育児休業取得中で申込む場合、入所日の翌月10日までに復職することが、入所の条件としています",
+  "notes": [
+    "4月入所申込みは例年申込件数が多く、大変込み合うことが予想されるため、一次受付のみ事前予約制としています",
+    "2027年4月入所申込み受付は、2026年11月上旬の予定。詳細については、公式ホームページと広報さやまでお知らせいたします",
+    "申請書類に不備、記入もれ等があると受付ができませんのでご注意ください",
+    "結果の連絡と利用調整結果通知書（利用保留）の送付は、入所を希望した最初の月のみ。それ以降は入所が可能になるまで連絡いたしません"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.sayama.saitama.jp/kosodate/homeciao/azukeru/hoikusho/r8-hoiku.html",
+      "quote": "2026年4月入所審査は一次受付と二次受付の2回受付を行います。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.sayama.saitama.jp/kosodate/homeciao/azukeru/hoikusho/r8-hoiku.html",
+      "quote": "2025年10月1日（水曜日）から"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.sayama.saitama.jp/kosodate/homeciao/azukeru/hoikusho/r8-hoiku.html",
+      "quote": "月曜日から金曜日の8時30分から17時15分"
+    },
+    "guideRelease#3": {
+      "url": "https://www.city.sayama.saitama.jp/kosodate/homeciao/azukeru/hoikusho/r8-hoiku.html",
+      "quote": "2025年10月1日（水曜日）から2025年11月13日（木曜日）"
+    },
+    "firstApply": {
+      "url": "https://www.city.sayama.saitama.jp/kosodate/homeciao/azukeru/hoikusho/r8-hoiku.html",
+      "quote": "2025年10月15日（水曜日）9時から予約が可能です。"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.sayama.saitama.jp/kosodate/homeciao/azukeru/hoikusho/r8-hoiku.html",
+      "quote": "2025年11月2日（日曜日）"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.sayama.saitama.jp/kosodate/homeciao/azukeru/hoikusho/r8-hoiku.html",
+      "quote": "2025年11月13日（木曜日）"
+    },
+    "firstApply#4": {
+      "url": "https://www.city.sayama.saitama.jp/kosodate/homeciao/azukeru/hoikusho/r8-hoiku.html",
+      "quote": "受付時間は9時から15時40分です。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.sayama.saitama.jp/kosodate/homeciao/azukeru/hoikusho/r8-hoiku.html",
+      "quote": "郵送での受付は行っておりません。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.sayama.saitama.jp/kosodate/homeciao/azukeru/hoikusho/r8-hoiku.html",
+      "quote": "申込まれるこどもも同伴でお越しください"
+    },
+    "firstResult": {
+      "url": "https://www.city.sayama.saitama.jp/kosodate/homeciao/azukeru/hoikusho/r8-hoiku.html",
+      "quote": "1月中旬に郵送にて通知します。"
+    },
+    "secondApply": {
+      "url": "https://www.city.sayama.saitama.jp/kosodate/homeciao/azukeru/hoikusho/r8-hoiku.html",
+      "quote": "2026年1月5日（月曜日）から2026年1月30日（金曜日）まで"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.sayama.saitama.jp/kosodate/homeciao/azukeru/hoikusho/r8-hoiku.html",
+      "quote": "受付時間は9時から16時です。"
+    },
+    "secondResult": {
+      "url": "https://www.city.sayama.saitama.jp/kosodate/homeciao/azukeru/hoikusho/r8-hoiku.html",
+      "quote": "3月上旬に郵送にて通知します。"
+    },
+    "documents.0": {
+      "url": "https://www.city.sayama.saitama.jp/kosodate/homeciao/azukeru/hoikusho/r8-hoiku.html",
+      "quote": "（1）教育・保育給付認定（変更）申請書兼保育所等入所申込書"
+    },
+    "documents.1": {
+      "url": "https://www.city.sayama.saitama.jp/kosodate/homeciao/azukeru/hoikusho/r8-hoiku.html",
+      "quote": "（2）児童健康調査票・申込み児童の状況等"
+    },
+    "documents.2": {
+      "url": "https://www.city.sayama.saitama.jp/kosodate/homeciao/azukeru/hoikusho/r8-hoiku.html",
+      "quote": "（3）申請内容確認書"
+    },
+    "documents.3": {
+      "url": "https://www.city.sayama.saitama.jp/kosodate/homeciao/azukeru/hoikusho/r8-hoiku.html",
+      "quote": "保護者（父母）は、該当する書類を提出してください。"
+    },
+    "documents.4": {
+      "url": "https://www.city.sayama.saitama.jp/kosodate/homeciao/azukeru/hoikusho/r8-hoiku.html",
+      "quote": "（5）親子（母子）健康手帳（受付時に健康診断等の確認をするため）"
+    },
+    "interview": {
+      "url": "https://www.city.sayama.saitama.jp/kosodate/homeciao/azukeru/hoikusho/r8-hoiku.html",
+      "quote": "申込まれるこどもも同伴でお越しください（2025年8月1日以降に出生されたこどもの面談は不要です）。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.sayama.saitama.jp/kosodate/homeciao/azukeru/hoikusho/r8-hoiku.html",
+      "quote": "育児休業取得中で申込む場合、入所日の翌月10日までに復職することが、入所の条件としています。"
+    },
+    "notes.0": {
+      "url": "https://www.city.sayama.saitama.jp/kosodate/homeciao/azukeru/hoikusho/r8-hoiku.html",
+      "quote": "4月入所申込みは例年申込件数が多く、大変込み合うことが予想されるため、一次受付のみ事前予約制としています。"
+    },
+    "notes.1": {
+      "url": "https://www.city.sayama.saitama.jp/kosodate/homeciao/azukeru/hoikusho/r8-hoiku.html",
+      "quote": "※2027年4月入所申込み受付は、2026年11月上旬の予定です。詳細については、公式ホームページと広報さやまでお知らせいたします。"
+    },
+    "notes.2": {
+      "url": "https://www.city.sayama.saitama.jp/kosodate/homeciao/azukeru/hoikusho/r8-hoiku.html",
+      "quote": "※申請書類に不備、記入もれ等があると受付ができませんのでご注意ください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.sayama.saitama.jp/kosodate/homeciao/azukeru/hoikusho/r8-hoiku.html",
+      "quote": "結果の連絡と「利用調整結果通知書（利用保留）」の送付は、入所を希望した最初の月のみです。それ以降は入所が可能になるまで連絡いたしませんので、予めご了承ください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "狭山市「令和8年度保育施設の申込み」",
+      "url": "https://www.city.sayama.saitama.jp/kosodate/homeciao/azukeru/hoikusho/r8-hoiku.html"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "citySlug": "toyota",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "豊田市「こども園等当初入園」",
+    "url": "https://www.city.toyota.aichi.jp/kurashi/kosodateshien/azukari/hoiku/1016131/index.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年9月9日（水曜日）午前8時30分から10月4日（日曜日）午後11時59分。電子申請でお申込み",
+  "applyMethods": "上記期間内は24時間インターネットを利用して受付が可能です。申込みフォームより電子申請で申込み",
+  "firstResult": "令和8年11月下旬頃に電子通知で通知",
+  "interview": "11月下旬から内定園にて実施。子どもと保護者で出席",
+  "notes": [
+    "1次申込み受付期間後に第1希望園の変更はできない。変更したい場合は、1次申込みを取下げ、2次申込みをすること",
+    "0から3歳児は4月中に入園を希望し「入園要件」に該当することが必要（一部地区の3歳児および4～5歳児は不要）"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.toyota.aichi.jp/kurashi/kosodateshien/azukari/hoiku/1016131/index.html",
+      "quote": "令和9年度こども園等への当初入園（4月中の入園）の申込に関するご案内です。"
+    },
+    "firstApply": {
+      "url": "https://www.city.toyota.aichi.jp/kurashi/kosodateshien/azukari/hoiku/1016131/1016132.html",
+      "quote": "令和8年9月9日（水曜日）午前8時30分から10月4日（日曜日）午後11時59分"
+    },
+    "applyMethods": {
+      "url": "https://www.city.toyota.aichi.jp/kurashi/kosodateshien/azukari/hoiku/1016131/1016132.html",
+      "quote": "上記期間内は24時間インターネットを利用して受付が可能です。"
+    },
+    "firstResult": {
+      "url": "https://www.city.toyota.aichi.jp/kurashi/kosodateshien/azukari/hoiku/1016131/1016132.html",
+      "quote": "入園調整の結果通知につきましては、11月下旬頃の通知を予定しています。"
+    },
+    "interview": {
+      "url": "https://www.city.toyota.aichi.jp/kurashi/kosodateshien/azukari/hoiku/1016131/1016132.html",
+      "quote": "11月下旬から内定園にて実施"
+    },
+    "notes.0": {
+      "url": "https://www.city.toyota.aichi.jp/kurashi/kosodateshien/azukari/hoiku/1016131/index.html",
+      "quote": "1次申込み受付期間後に第1希望園の変更はできません。変更したい場合は、1次申込みを取下げ、2次申込みをしてください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.toyota.aichi.jp/kurashi/kosodateshien/azukari/hoiku/1016131/index.html",
+      "quote": "0から3歳児は、4月中に入園を希望し「入園要件」に該当することが必要です。"
+    }
+  },
+  "sources": [
+    {
+      "label": "豊田市「こども園等当初入園」",
+      "url": "https://www.city.toyota.aichi.jp/kurashi/kosodateshien/azukari/hoiku/1016131/index.html"
+    },
+    {
+      "label": "豊田市「令和9年度こども園等の当初入園1次申込み」",
+      "url": "https://www.city.toyota.aichi.jp/kurashi/kosodateshien/azukari/hoiku/1016131/1016132.html"
+    }
+  ]
+}

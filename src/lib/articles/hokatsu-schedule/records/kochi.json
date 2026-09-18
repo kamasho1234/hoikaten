@@ -1,0 +1,95 @@
+{
+  "citySlug": "kochi",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "高知市「保育施設利用申込について」",
+    "url": "https://www.city.kochi.kochi.jp/soshiki/34/hoikusisetsu-moshikomi.html"
+  },
+  "fiscalYear": "R8",
+  "guideRelease": "令和7年10月31日（金曜日）から申込書類等を配布",
+  "firstApply": "令和7年12月1日（金曜日）～12月12日（火曜日）",
+  "applyMethods": "保育幼稚園課（本庁舎3階308窓口）のみの受付で、直接提出またはマイナポータルの電子申請",
+  "firstResult": "令和8年1月30日（金曜日）付で自宅宛てに発送",
+  "secondApply": "令和7年12月15日（金曜日）～令和8年2月13日（金曜日）",
+  "secondResult": "令和8年3月2日（月曜日）付で発送予定で令和8年3月4日（水曜日）頃までに配達予定",
+  "documents": [
+    "教育・保育給付認定申請書兼保育施設利用申込書",
+    "保育の必要性を証明する書類（世帯で1部。父母ともに1部ずつ必要）",
+    "マイナンバーカード（全員分。ない場合は個人番号入りの住民票の写し）"
+  ],
+  "interview": "心身において特別な配慮が必要なお子さん、または発育や発達の面で気になることのあるお子さんの場合、保護者の話を聞きながらお子さんの様子を見させていただくので、お子さんとご一緒にご来庁",
+  "notes": [
+    "申込有効期間は原則申込いただいた年度末（3月末）までで、令和8年度の場合は令和9年3月末まで",
+    "妊娠・出産事由で申込いただいた場合は産後6か月までが有効期間",
+    "書類に不備がある場合は、利用調整（選考）の対象から除外される",
+    "利用開始希望月の前々月（2か月前）の末日（末日が土・日・祝の場合は直前の開庁日）までが、5月以降の利用申込の締切日"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.kochi.kochi.jp/soshiki/34/hoikusisetsu-moshikomi.html",
+      "quote": "クラス年齢は、令和8年4月1日時点での年齢です。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.kochi.kochi.jp/soshiki/34/hoikusisetsu-moshikomi.html",
+      "quote": "下記の場所にて令和7年10月31日(金曜日)から配布しています。"
+    },
+    "firstApply": {
+      "url": "https://www.city.kochi.kochi.jp/soshiki/34/hoikusisetsu-moshikomi.html",
+      "quote": "1次募集(令和7年12月1日～令和7年12月12日受付分)"
+    },
+    "applyMethods": {
+      "url": "https://www.city.kochi.kochi.jp/soshiki/34/hoikusisetsu-moshikomi.html",
+      "quote": "保育幼稚園課(本庁舎3階308窓口)のみの受付となります。"
+    },
+    "firstResult": {
+      "url": "https://www.city.kochi.kochi.jp/soshiki/34/hoikusisetsu-moshikomi.html",
+      "quote": "令和8年1月30日（金曜日）付で文書をご自宅宛てに発送しました。"
+    },
+    "secondApply": {
+      "url": "https://www.city.kochi.kochi.jp/soshiki/34/hoikusisetsu-moshikomi.html",
+      "quote": "2次募集(令和7年12月15日～令和8年2月13日受付分)"
+    },
+    "secondResult": {
+      "url": "https://www.city.kochi.kochi.jp/soshiki/34/hoikusisetsu-moshikomi.html",
+      "quote": "令和8年3月2日（月曜日）付で文書をご自宅宛てに発送予定で、令和8年3月4日（水曜日）頃までに届く予定"
+    },
+    "documents.0": {
+      "url": "https://www.city.kochi.kochi.jp/soshiki/34/hoikusisetsu-moshikomi.html",
+      "quote": "教育・保育給付認定申請書兼保育施設利用申込書"
+    },
+    "documents.1": {
+      "url": "https://www.city.kochi.kochi.jp/soshiki/34/hoikusisetsu-moshikomi.html",
+      "quote": "保育の必要性を証明する書類(※注1)世帯で1部（父母ともに1部ずつ必要）"
+    },
+    "documents.2": {
+      "url": "https://www.city.kochi.kochi.jp/soshiki/34/hoikusisetsu-moshikomi.html",
+      "quote": "申込用紙に記載いただいた個人番号が正しいものであるかをマイナンバーカードにて確認する必要がありますので、家族全員分をお持ちください。"
+    },
+    "interview": {
+      "url": "https://www.city.kochi.kochi.jp/soshiki/34/hoikusisetsu-moshikomi.html",
+      "quote": "以下に該当する場合は、保護者の話を聞きながら、お子さんの様子を見させていただきますので、お子さんとご一緒にご来庁ください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.kochi.kochi.jp/soshiki/34/hoikusisetsu-moshikomi.html",
+      "quote": "原則申込いただいた年度末（3月末）までとなります。（※令和8年度は令和9年3月末まで）"
+    },
+    "notes.1": {
+      "url": "https://www.city.kochi.kochi.jp/soshiki/34/hoikusisetsu-moshikomi.html",
+      "quote": "ただし、妊娠・出産事由で申込いただいた場合は産後6か月までとなります。"
+    },
+    "notes.2": {
+      "url": "https://www.city.kochi.kochi.jp/soshiki/34/hoikusisetsu-moshikomi.html",
+      "quote": "また、利用調整（選考）は、申込の締切日までに提出された書類で行います。書類に不備がある場合は、利用調整（選考）の対象から除外されます。"
+    },
+    "notes.3": {
+      "url": "https://www.city.kochi.kochi.jp/soshiki/34/hoikusisetsu-moshikomi.html",
+      "quote": "利用開始希望月の前々月（2か月前）の末日（末日が土・日・祝の場合は直前の開庁日）までとなります。"
+    }
+  },
+  "sources": [
+    {
+      "label": "高知市「保育施設利用申込について」",
+      "url": "https://www.city.kochi.kochi.jp/soshiki/34/hoikusisetsu-moshikomi.html"
+    }
+  ]
+}

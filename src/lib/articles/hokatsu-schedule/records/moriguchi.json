@@ -1,0 +1,99 @@
+{
+  "citySlug": "moriguchi",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "守口市「令和8年（2026年）4月からの認定こども園等の入園（所）について」",
+    "url": "https://www.city.moriguchi.osaka.jp/kakukanoannai/kodomobu/hoikuyochienka/ninteikodomoentou/hoikusyonyuen/904.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年9月上旬に配布予定",
+  "firstApply": "令和8年10月19日（月曜日）～令和8年10月30日（金曜日）。平日9時～17時30分、土曜日10時～12時（日曜日を除く）",
+  "applyMethods": "守口市役所こども部こども施設課（3階北エリア）",
+  "firstResult": "令和8年12月下旬頃に郵送で結果を通知",
+  "secondApply": "令和9年2月1日（月曜日）～令和9年2月6日（土曜日）。平日9時～17時30分、土曜日10時～12時",
+  "secondResult": "郵送で通知予定",
+  "documents": [
+    "令和9年（2027年）度子どものための教育・保育給付保育認定申請書兼特定教育・保育施設等利用申込書",
+    "就労証明書又は保育必要事由申告書（父母それぞれで提出が必要）",
+    "児童の問診票"
+  ],
+  "interview": "内定先施設で面談などを受けて、保護者と施設の間で利用契約を行う",
+  "notes": [
+    "保護者からの利用申込みは全て市こども施設課で受け付ける",
+    "利用申込みは年度単位（4月から翌3月まで）で受け付けている",
+    "保育の必要事由によって提出が必要な書類が異なる",
+    "事前に希望する施設の見学に行っていない施設は、二次申込みで希望できない"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.moriguchi.osaka.jp/kakukanoannai/kodomobu/hoikuyochienka/ninteikodomoentou/hoikusyonyuen/904.html",
+      "quote": "令和9年（2027年）4月からの入園（所）を希望する方は、下記に記載する申込受付期間中に市こども施設課で利用申込みを行ってください。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.moriguchi.osaka.jp/material/files/group/4/nyuuennannnai20260901.pdf",
+      "quote": "令和８年９月上旬に配布予定です。"
+    },
+    "firstApply": {
+      "url": "https://www.city.moriguchi.osaka.jp/kakukanoannai/kodomobu/hoikuyochienka/ninteikodomoentou/hoikusyonyuen/904.html",
+      "quote": "令和8年10月19日（月曜日）～令和8年10月30日（金曜日）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.moriguchi.osaka.jp/kakukanoannai/kodomobu/hoikuyochienka/ninteikodomoentou/hoikusyonyuen/904.html",
+      "quote": "守口市役所こども部こども施設課（3階北エリア）"
+    },
+    "firstResult": {
+      "url": "https://www.city.moriguchi.osaka.jp/material/files/group/4/nyuuennannnai20260901.pdf",
+      "quote": "利用調整結果の通知(12月下旬頃)"
+    },
+    "secondApply": {
+      "url": "https://www.city.moriguchi.osaka.jp/material/files/group/4/nyuuennannnai20260901.pdf",
+      "quote": "２月1日(月)～２月6日(土)市こども施設課窓口での申込みのほか、郵送でも受付可"
+    },
+    "secondResult": {
+      "url": "https://www.city.moriguchi.osaka.jp/material/files/group/4/nyuuennannnai20260901.pdf",
+      "quote": "２次利用調整の結果(内定又は保留)は郵送で通知予定"
+    },
+    "documents.0": {
+      "url": "https://www.city.moriguchi.osaka.jp/material/files/group/4/nyuuennannnai20260901.pdf",
+      "quote": "令和９年（2027年）度子どものための教育・保育給付保育認定申請書兼特定教育・保育施設等利用申込書"
+    },
+    "documents.1": {
+      "url": "https://www.city.moriguchi.osaka.jp/material/files/group/4/nyuuennannnai20260901.pdf",
+      "quote": "「就労証明書」又は「保育必要事由申告書」※父母それぞれで提出が必要です。"
+    },
+    "documents.2": {
+      "url": "https://www.city.moriguchi.osaka.jp/material/files/group/4/nyuuennannnai20260901.pdf",
+      "quote": "児童の問診票"
+    },
+    "interview": {
+      "url": "https://www.city.moriguchi.osaka.jp/material/files/group/4/nyuuennannnai20260901.pdf",
+      "quote": "内定先施設で面談などを受けて、保護者と施設の間で利用契約を行います。"
+    },
+    "notes.0": {
+      "url": "https://www.city.moriguchi.osaka.jp/material/files/group/4/nyuuennannnai20260901.pdf",
+      "quote": "保護者からの利用申込みは、全て市こども施設課で受付を行います。"
+    },
+    "notes.1": {
+      "url": "https://www.city.moriguchi.osaka.jp/kakukanoannai/kodomobu/hoikuyochienka/ninteikodomoentou/hoikusyonyuen/904.html",
+      "quote": "入園（所）利用申込みは、年度単位（4月から翌3月まで）で申込みを受け付けています。"
+    },
+    "notes.2": {
+      "url": "https://www.city.moriguchi.osaka.jp/material/files/group/4/nyuuennannnai20260901.pdf",
+      "quote": "「保育を必要とする事由」によって、上記書類以外に必要な書類があるため、詳しくは、利用申込書に記載しております「提出書類確認表（保護者用）」をご確認ください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.moriguchi.osaka.jp/material/files/group/4/nyuuennannnai20260901.pdf",
+      "quote": "事前に施設見学に行っていない施設は、希望できません。"
+    }
+  },
+  "sources": [
+    {
+      "label": "守口市「令和8年（2026年）4月からの認定こども園等の入園（所）について」",
+      "url": "https://www.city.moriguchi.osaka.jp/kakukanoannai/kodomobu/hoikuyochienka/ninteikodomoentou/hoikusyonyuen/904.html"
+    },
+    {
+      "label": "守口市「令和9年（2027年）度守口市認定こども園等入園(所)案内【令和8年9月版】」",
+      "url": "https://www.city.moriguchi.osaka.jp/material/files/group/4/nyuuennannnai20260901.pdf"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "citySlug": "kitakyushu",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "北九州市「保育所等の利用申込みに関するオンライン申請について」",
+    "url": "https://www.city.kitakyushu.lg.jp/contents/12100160.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年11月2日（月曜日）から令和9年1月下旬まで。申込締切時刻は17時15分（区役所の窓口延長日の場合は19時00分）",
+  "applyMethods": "教育・保育給付認定申請書兼利用調整申込書に必要事項を記入の上、お住まいの区の区役所保健福祉課に提出。オンライン申請も可能",
+  "firstResult": "2月下旬から3月上旬頃に、市から文書で利用先が決定したことをお知らせ",
+  "secondApply": "1次選考申込締切後から令和9年3月上旬まで",
+  "secondResult": "3月中旬頃に通知",
+  "documents": [
+    "教育・保育給付認定申請書兼利用調整申込書（児童1人につき1枚）",
+    "就労証明書兼保育要件申立書（保護者全員分の提出が必要。状況に応じて、診断書等の添付書類が必要となる場合があります）",
+    "母子健康手帳",
+    "保育料口座振替依頼書・自動払込利用申込書（3号認定の場合）"
+  ],
+  "interview": "利用先が決定した場合は、市からのお知らせに従い、利用予定先にて面接を受けていただきます。面接は、利用開始後の保育に役立てるために児童の健康状態等を把握するものであり、保護者及び児童と施設長等の三者で行います",
+  "ikukyu": "育児休業を取得されている方で、保育所等に入所できない場合には育児休業の延長を許容できるため、優先順位を下げた利用調整となることを承諾される場合は、入所選考順位に関する申出書を提出してください。優先順位が下がりますが、希望園の定員に空きがある場合は入所内定となります。ハローワークでの育児休業給付金の支給対象期間を延長する手続きには、入所保留通知書に加え、保育所等の利用申し込みを行ったときの申込書の写しが必要になります",
+  "notes": [
+    "各家庭の状況により、提出書類が異なります。詳しくは、お住まいの区の区役所保健福祉課までお問い合わせください",
+    "利用調整は「利用調整基準表」に基づき、保護者や子どもの状況に応じて優先順位を決定したうえで、実施されます",
+    "利用調整の結果、利用先が決定しなかったものの、保護者に利用先決定まで待機する意思がある場合は、引き続き、翌月以降も利用調整が行われます",
+    "申請時には、運転免許証などの本人確認書類の提示をお願いする場合があります"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.kitakyushu.lg.jp/contents/12100069.html",
+      "quote": "令和9年4月に利用開始を希望する場合"
+    },
+    "firstApply": {
+      "url": "https://www.city.kitakyushu.lg.jp/contents/12100069.html",
+      "quote": "令和8年11月2日（月曜日）から令和9年1月下旬"
+    },
+    "applyMethods": {
+      "url": "https://www.city.kitakyushu.lg.jp/contents/12100069.html",
+      "quote": "教育・保育給付認定申請及び保育の利用申込みは、お住まいの区の区役所保健福祉課子ども・家庭相談係にて受付けています。"
+    },
+    "firstResult": {
+      "url": "https://www.city.kitakyushu.lg.jp/contents/12100069.html",
+      "quote": "2月下旬から3月上旬 頃"
+    },
+    "secondApply": {
+      "url": "https://www.city.kitakyushu.lg.jp/contents/12100069.html",
+      "quote": "1次選考申込締切後 から令和9年3月上旬"
+    },
+    "secondResult": {
+      "url": "https://www.city.kitakyushu.lg.jp/contents/12100069.html",
+      "quote": "3月中旬 頃"
+    },
+    "documents.0": {
+      "url": "https://www.city.kitakyushu.lg.jp/contents/12100069.html",
+      "quote": "（1）教育・保育給付認定申請書 兼 利用調整申込書（児童1人につき1枚）"
+    },
+    "documents.1": {
+      "url": "https://www.city.kitakyushu.lg.jp/contents/12100069.html",
+      "quote": "（2）就労証明書兼保育要件申立書 （注1）保護者全員分の提出が必要です。（注2）状況に応じて、診断書等の添付書類が必要となる場合があります。"
+    },
+    "documents.2": {
+      "url": "https://www.city.kitakyushu.lg.jp/contents/12100069.html",
+      "quote": "（3）母子健康手帳"
+    },
+    "documents.3": {
+      "url": "https://www.city.kitakyushu.lg.jp/contents/12100069.html",
+      "quote": "（4）保育料口座振替依頼書・自動払込利用申込書（3号認定）"
+    },
+    "interview": {
+      "url": "https://www.city.kitakyushu.lg.jp/contents/12100069.html",
+      "quote": "市からのお知らせに従い、利用予定先にて面接を受けていただきます。面接は、利用開始後の保育に役立てるために児童の健康状態等を把握するものであり、保護者及び児童と施設長等の三者で行います。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.kitakyushu.lg.jp/contents/12100069.html",
+      "quote": "育児休業を取得されている方で、「保育所等に入所できない場合には育児休業の延長を許容できるため、優先順位を下げた利用調整となること」を承諾される場合は、以下の様式をご提出ください。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.kitakyushu.lg.jp/contents/12100069.html",
+      "quote": "（注）利用調整にあたっての優先順位が下がりますが、希望園の定員に空きがある場合は入所内定となります。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.kitakyushu.lg.jp/contents/12100069.html",
+      "quote": "ハローワークでの育児休業給付金の支給対象期間を延長する手続きには、入所保留通知書に加え、保育所等の利用申し込みを行ったときの申込書の写しが必要になります。"
+    },
+    "notes.0": {
+      "url": "https://www.city.kitakyushu.lg.jp/contents/12100069.html",
+      "quote": "（注1）各家庭の状況により、提出書類が異なります。詳しくは、お住まいの区の区役所保健福祉課までお問い合わせください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.kitakyushu.lg.jp/contents/12100069.html",
+      "quote": "利用調整は「利用調整基準表」に基づき、保護者や子どもの状況に応じて優先順位を決定したうえで、実施します。"
+    },
+    "notes.2": {
+      "url": "https://www.city.kitakyushu.lg.jp/contents/12100069.html",
+      "quote": "利用調整の結果、利用先が決定しなかったものの、保護者に利用先決定まで待機する意思がある場合は、引き続き、翌月以降も利用調整を行います。"
+    },
+    "notes.3": {
+      "url": "https://www.city.kitakyushu.lg.jp/contents/12100069.html",
+      "quote": "（注）申請時には、運転免許証などの本人確認書類の提示をお願いする場合があります。"
+    }
+  },
+  "sources": [
+    {
+      "label": "北九州市「保育所等の利用申込みに関するオンライン申請について」",
+      "url": "https://www.city.kitakyushu.lg.jp/contents/12100160.html"
+    },
+    {
+      "label": "北九州市「保育所等の利用（入所）のごあんない」",
+      "url": "https://www.city.kitakyushu.lg.jp/contents/12100069.html"
+    }
+  ]
+}

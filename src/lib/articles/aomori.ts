@@ -3,59 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "aomori",
-    title: "青森市の保活スケジュール　令和8年度4月入園の流れ",
-    description:
-      "青森市の令和8年度（2026年度）4月入園の申込時期・必要書類・結果通知の時期をまとめました。",
-    image:
-      "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>令和8年度（2026年度）4月入園のスケジュール</h2>
-<p>青森市の4月入園申込は例年12月頃から受け付けられます。令和8年度の受付は令和7年12月1日から開始されています。</p>
-
-<h3>申込の流れ</h3>
-<table>
-<tr><th>項目</th><th>日程（目安）</th></tr>
-<tr><td>申請書類配布</td><td>2025年11月頃〜</td></tr>
-<tr><td>1次申込受付</td><td>2025年12月1日〜</td></tr>
-<tr><td>1次結果通知</td><td>2026年2月頃（郵送）</td></tr>
-<tr><td>2次申込受付</td><td>2026年2月頃〜</td></tr>
-<tr><td>2次結果通知</td><td>2026年3月頃（郵送）</td></tr>
-</table>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>青森市では年度途中の入所も毎月受け付けています。希望する月の前月初旬が締切になるため、早めの準備が大切です。</p>
-</div>
-
-<h2>いつから動き始めるべき？</h2>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content"><strong>4月〜6月：情報収集</strong><p>青森市の公式サイトで前年度の資料を参考に準備を始めます。</p></div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content"><strong>6月〜10月：保育園見学</strong><p>気になる園に電話して見学予約を入れましょう。青森市は冬の積雪が多いため、秋までに見学を済ませておくと安心です。</p></div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content"><strong>10月〜11月：書類準備</strong><p>就労証明書を勤務先に依頼します。保育の利用申込書と支給認定申請書が必要です。</p></div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content"><strong>12月：申込</strong><p>青森市駅前庁舎の子育て支援課窓口で期限内に必要書類を提出します。電子申請にも対応しています。</p></div>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>最新情報は<a href="https://www.city.aomori.aomori.jp/kodomo_kyoiku/ninteikodomoen_youchien_hoikusho/1009841/1009844.html" target="_blank" rel="noopener">青森市公式サイト「令和8年度 保育所・認定こども園等への利用申込み」</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-04-05",
-    popularity: 60,
-  },
-  {
     slug: "katen-no-kotsu",
     citySlug: "aomori",
     title: "青森市で優先順位を上げるコツ　入園選考を有利に進める方法",

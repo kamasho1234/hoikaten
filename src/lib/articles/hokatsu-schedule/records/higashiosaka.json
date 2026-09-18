@@ -1,0 +1,79 @@
+{
+  "citySlug": "higashiosaka",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "東大阪市「令和9年度保育施設の入所申込」",
+    "url": "https://www.city.higashiosaka.lg.jp/kosodate/0000028302.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年9月10日（木曜日）から令和8年10月2日（金曜日）必着（1歳児から5歳児）",
+  "applyMethods": "郵送による提出、投函ボックスへの提出（保育利用相談課・各福祉事務所に設置）、電子申請システムによる申込",
+  "firstResult": "1歳児から5歳児は令和9年1月末頃、0歳児は令和9年3月初旬。受付期間内に申込された方全員に郵送で結果をお送りする",
+  "secondApply": "令和9年1月6日（水曜日）から令和9年2月5日（金曜日）必着（0歳児・追加選考）",
+  "secondResult": "令和9年3月上旬",
+  "interview": "令和9年4月1日入所に向けて、保育施設ごとに新規面接（見学・保育体験を兼ねている施設もあります）を実施。第一希望の施設で面接（見学・保育体験）を実施。申込された方全員が必ず必要（0歳児クラスはなし）。母子手帳を持参、必要に応じて内容を確認。児童同伴で出席",
+  "notes": [
+    "保育施設の入所申込は原則郵送にて申込を受付",
+    "押印が必要な書類は原本の提出も必要。郵送にかかる時間を十分に確保した上で申込",
+    "令和9年2月3日以前に生まれた児童で保育を必要とする事由のある方が0歳児対象",
+    "申込受付最終日の消印有効ではありません。必着でご提出ください",
+    "提出された書類はいかなる理由でも返却できない"
+  ],
+  "documents": [],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.higashiosaka.lg.jp/kosodate/0000028302.html",
+      "quote": "令和9年4⽉保育施設⼊所申込の受付をします"
+    },
+    "firstApply": {
+      "url": "https://www.city.higashiosaka.lg.jp/kosodate/0000028302.html",
+      "quote": "1歳児から5歳児令和8年9月10日［木曜日］から令和8年10月2日［金曜日］必着"
+    },
+    "applyMethods": {
+      "url": "https://www.city.higashiosaka.lg.jp/kosodate/0000028302.html",
+      "quote": "混雑緩和のため、原則郵送にて申込を受付します"
+    },
+    "firstResult": {
+      "url": "https://www.city.higashiosaka.lg.jp/kosodate/0000028302.html",
+      "quote": "選考結果通知 1歳児から5歳児0歳児 選考結果令和9年1月末頃令和9年3月上旬"
+    },
+    "secondApply": {
+      "url": "https://www.city.higashiosaka.lg.jp/kosodate/0000028302.html",
+      "quote": "0歳児1歳児から5歳児の追加選考令和9年1月6日［水曜日］から令和9年2月5日［金曜日］必着"
+    },
+    "secondResult": {
+      "url": "https://www.city.higashiosaka.lg.jp/kosodate/0000028302.html",
+      "quote": "選考結果令和9年1月末頃令和9年3月上旬"
+    },
+    "interview": {
+      "url": "https://www.city.higashiosaka.lg.jp/kosodate/0000028302.html",
+      "quote": "令和9年4月1日入所に向けて、保育施設ごとに新規面接(見学・保育体験)を行います。第一希望の施設で面接(見学・保育体験)を実施しますので、「保育所等申込のてびき」内の「施設別募集数・面接一覧表」に記載の面接の日程や時間等を必ずご確認ください。・面接(見学・保育体験)は申込みされた方全員が必ず必要です。・面接(見学・保育体験)の予約は必ず申込後に送付する受付控えが届いてから行ってください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.higashiosaka.lg.jp/kosodate/0000028302.html",
+      "quote": "保育施設の⼊所申込は通常、窓⼝でのみ受付を⾏っておりますが、混雑緩和のため、原則郵送にて申込を受付します"
+    },
+    "notes.1": {
+      "url": "https://www.city.higashiosaka.lg.jp/kosodate/0000028302.html",
+      "quote": "電子申請システムで申込をする場合も、押印が必要な書類は原本を郵送で提出する必要があります。電子申請システムでの申込が申込受付期間内であっても、郵送で提出が必要な書類が受付期間内に届いていなければ、受付することができません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.higashiosaka.lg.jp/kosodate/0000028302.html",
+      "quote": "0歳児は、令和９年2月3日以前に生まれた児童で保育を必要とする事由のある方が対象です。"
+    },
+    "notes.3": {
+      "url": "https://www.city.higashiosaka.lg.jp/kosodate/0000028302.html",
+      "quote": "申込受付最終日の消印有効ではありません。提出された書類はいかなる理由でも返却できませんので、必要に応じて事前にコピー等をしておいてください"
+    },
+    "notes.4": {
+      "url": "https://www.city.higashiosaka.lg.jp/kosodate/0000028302.html",
+      "quote": "育児休業の延長手続きの際に、申込書類のコピーを求められる場合があります。必ずご自身で申込前にコピー等をしておいてください。(市役所でコピーは致しません。)"
+    }
+  },
+  "sources": [
+    {
+      "label": "東大阪市「令和9年度保育施設の入所申込」",
+      "url": "https://www.city.higashiosaka.lg.jp/kosodate/0000028302.html"
+    }
+  ]
+}

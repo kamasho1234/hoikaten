@@ -1,0 +1,95 @@
+{
+  "citySlug": "nasushiobara",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "那須塩原市「令和9年度保育園・認定こども園・地域型保育施設新規入園申込みについて」",
+    "url": "https://www.city.nasushiobara.tochigi.jp/kosodate_kyoiku/kosodate/hoikuento/11882.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年10月1日（木曜日）～11月2日（月曜日）",
+  "applyMethods": "2号・3号認定の場合は市役所窓口（本庁舎子育て支援課、西那須野庁舎保育課、塩原庁舎市民課、箒根出張所）に申請書類を提出する。申請書類提出の際に、申請を行う保護者のマイナンバーカードまたはマイナンバー入りの住民票写し、本人確認書類（番号確認及び身元確認）が必要",
+  "firstResult": "令和8年12月23日頃発送",
+  "secondApply": "令和8年11月4日（水曜日）～令和9年1月7日（木曜日）",
+  "secondResult": "令和9年2月3日頃発送",
+  "documents": [
+    "教育・保育給付認定申請書兼入園申込書",
+    "重要事項チェックシート",
+    "保育を必要としている事由を証明する書類（事由によって必要書類が異なります）",
+    "マイナンバーカードまたはマイナンバー入りの住民票の写し",
+    "本人確認書類（顔写真付き公的証明書または顔写真無しの公的証明書2点）"
+  ],
+  "ikukyu": "既に就労理由で利用している子どもについては、下の子どもの育児休業に入っても、下の子どもが1歳になる日の属する年度末までは1～8までの保育を必要とする理由がなくても特例的に施設を利用できます",
+  "notes": [
+    "2号・3号認定を受けるためには、月48時間以上の就労（休憩時間を除く実労働時間）、産前産後、疾病・負傷・障害、同居親族の介護・看護、災害復旧、求職活動中、就学・職業訓練、児童虐待やDVのいずれかに該当する必要があります",
+    "保護者が産休・育休明けで年度途中の入園を希望する場合も、期間内に申し込みが可能です",
+    "出生前の児童は、令和9年度内に利用を希望する場合に限り、申し込みが可能です"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.nasushiobara.tochigi.jp/kosodate_kyoiku/kosodate/hoikuento/11882.html",
+      "quote": "年齢区分は、令和9年4月1日時点での年齢で決まります。"
+    },
+    "firstApply": {
+      "url": "https://www.city.nasushiobara.tochigi.jp/kosodate_kyoiku/kosodate/hoikuento/11882.html",
+      "quote": "申込受付期間：令和8年10月1日（木曜日）～11月2日（月曜日）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.nasushiobara.tochigi.jp/kosodate_kyoiku/kosodate/hoikuento/11882.html",
+      "quote": "教育・保育給付認定申請書兼入園申込書の個人番号（マイナンバー）記入欄に記入してください。また書類の提出の際に、申請を行う保護者の本人確認（番号確認及び身元確認）が必要です。"
+    },
+    "firstResult": {
+      "url": "https://www.city.nasushiobara.tochigi.jp/kosodate_kyoiku/kosodate/hoikuento/11882.html",
+      "quote": "選考結果通知：令和8年12月23日頃発送"
+    },
+    "secondApply": {
+      "url": "https://www.city.nasushiobara.tochigi.jp/kosodate_kyoiku/kosodate/hoikuento/11882.html",
+      "quote": "申込受付期間：令和8年11月4日（水曜日）～令和9年1月7日（木曜日）"
+    },
+    "secondResult": {
+      "url": "https://www.city.nasushiobara.tochigi.jp/kosodate_kyoiku/kosodate/hoikuento/11882.html",
+      "quote": "選考結果通知：令和9年2月3日頃発送"
+    },
+    "documents.0": {
+      "url": "https://www.city.nasushiobara.tochigi.jp/kosodate_kyoiku/kosodate/hoikuento/11882.html",
+      "quote": "教育・保育給付認定申請書兼入園申込書"
+    },
+    "documents.1": {
+      "url": "https://www.city.nasushiobara.tochigi.jp/kosodate_kyoiku/kosodate/hoikuento/11882.html",
+      "quote": "重要事項チェックシート"
+    },
+    "documents.2": {
+      "url": "https://www.city.nasushiobara.tochigi.jp/kosodate_kyoiku/kosodate/hoikuento/11882.html",
+      "quote": "保育を必要としている事由を証明する書類（事由によって必要書類が異なります）"
+    },
+    "documents.3": {
+      "url": "https://www.city.nasushiobara.tochigi.jp/kosodate_kyoiku/kosodate/hoikuento/11882.html",
+      "quote": "教育・保育給付認定申請書兼入園申込書の個人番号（マイナンバー）記入欄に記入してください。また書類の提出の際に、申請を行う保護者の本人確認（番号確認及び身元確認）が必要です。"
+    },
+    "documents.4": {
+      "url": "https://www.city.nasushiobara.tochigi.jp/kosodate_kyoiku/kosodate/hoikuento/11882.html",
+      "quote": "下表(1)・(2)の書類を持参してください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.nasushiobara.tochigi.jp/kosodate_kyoiku/kosodate/hoikuento/11882.html",
+      "quote": "既に1の理由で利用している子どもについては、下の子どもの育児休業に入っても、下の子どもが1歳になる日の属する年度末までは1～8までの理由がなくても特例的に施設を利用できます。"
+    },
+    "notes.0": {
+      "url": "https://www.city.nasushiobara.tochigi.jp/kosodate_kyoiku/kosodate/hoikuento/11882.html",
+      "quote": "2号・3号認定を受けるためには、以下の保育を必要としている事由のいずれかに該当する必要があります。"
+    },
+    "notes.1": {
+      "url": "https://www.city.nasushiobara.tochigi.jp/kosodate_kyoiku/kosodate/hoikuento/11882.html",
+      "quote": "保護者が産休・育休明けで年度途中の入園を希望する場合も、期間内に申し込みが可能です。"
+    },
+    "notes.2": {
+      "url": "https://www.city.nasushiobara.tochigi.jp/kosodate_kyoiku/kosodate/hoikuento/11882.html",
+      "quote": "出生前の児童は、令和9年度内に利用を希望する場合に限り、申し込みが可能です。"
+    }
+  },
+  "sources": [
+    {
+      "label": "那須塩原市「令和9年度保育園・認定こども園・地域型保育施設新規入園申込みについて」",
+      "url": "https://www.city.nasushiobara.tochigi.jp/kosodate_kyoiku/kosodate/hoikuento/11882.html"
+    }
+  ]
+}

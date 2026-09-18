@@ -1,0 +1,97 @@
+{
+  "citySlug": "adachi",
+  "checkedAt": "2026-09-19",
+  "page": {
+    "label": "足立区「令和９年４月入所保育施設利用申込について」",
+    "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/4gatuyokoku.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年10月23日（金曜日）から申込書類等を配布",
+  "firstApply": "令和8年10月26日（月曜日）から11月26日（木曜日）まで",
+  "applyMethods": "オンライン申請と窓口受付で、窓口は保育・入園課窓口（中央館3階）で受付時間は午前8時半から午後5時",
+  "documents": [
+    "提出書類チェック表",
+    "保育施設利用申込書",
+    "家庭状況申告書",
+    "就労証明書（PDF形式またはEXCEL形式）",
+    "産前・産後休業、育児休業の終了等により職場復帰した場合には、復職日が記入された就労証明書"
+  ],
+  "notes": [
+    "令和9年4月入所の選考においては、令和8年8月27日以降の証明日が記載された就労証明書が有効となる",
+    "受付会場は例年より混雑が予想されるため、可能な限りオンライン申請の利用が推奨されている",
+    "足立福祉事務所各福祉課・各認可保育所・区立認定こども園での受付は行わない。FAXや時間外窓口のいずれでも受付はできない",
+    "11月22日（日曜日）の休日開庁を除き、土曜日・日曜日・祝日は受付を行わない"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/4gatuyokoku.html",
+      "quote": "令和９年４月入所の利用申込について、次の日程で募集を行います。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/4gatuyokoku.html",
+      "quote": "令和８年１０月２３日（金曜日）"
+    },
+    "firstApply": {
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/4gatuyokoku.html",
+      "quote": "令和８年１０月２６日（月曜日）から１１月２６日（木曜日）まで"
+    },
+    "applyMethods": {
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/4gatusinsei.html",
+      "quote": "オンライン申請"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/4gatusinsei.html",
+      "quote": "受付時間：午前8時半から午後5 時"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/4gatusinsei.html",
+      "quote": "申し込みは可能な限りオンライン申請をご利用ください。"
+    },
+    "documents.0": {
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/4gatusinsei.html",
+      "quote": "提出書類チェック表"
+    },
+    "documents.1": {
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/4gatusinsei.html",
+      "quote": "保育施設利用申込書"
+    },
+    "documents.2": {
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/4gatusinsei.html",
+      "quote": "家庭状況申告書"
+    },
+    "documents.3": {
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/4gatusinsei.html",
+      "quote": "就労証明書 ダウンロード（PDF：284KB）／ ダウンロード（エクセル：102KB）"
+    },
+    "documents.4": {
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/4gatusinsei.html",
+      "quote": "産前・産後休業、育児休業の終了等により職場復帰した場合には、復職日が記入された就労証明書を提出してください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/4gatuyokoku.html",
+      "quote": "令和９年４月入所の選考においては、令和８年８月２７日以降の証明日が記載された就労証明書が有効となります。"
+    },
+    "notes.1": {
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/4gatusinsei.html",
+      "quote": "受付会場は例年より混雑が予想されます。申し込みは可能な限りオンライン申請をご利用ください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/4gatusinsei.html",
+      "quote": "足立福祉事務所各福祉課・各認可保育所・区立認定こども園での受付は行いません。FAXや時間外窓口のいずれでも受付はできません。"
+    },
+    "notes.3": {
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/4gatusinsei.html",
+      "quote": "11月22日（日曜日）の休日開庁を除き、土曜日・日曜日・祝日は受付を行っていません。"
+    }
+  },
+  "sources": [
+    {
+      "label": "足立区「令和９年４月入所保育施設利用申込について」",
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/4gatuyokoku.html"
+    },
+    {
+      "label": "足立区「令和９年４月入所　保育施設利用申込案内・申請書」",
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/4gatusinsei.html"
+    }
+  ]
+}

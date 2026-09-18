@@ -1,0 +1,83 @@
+{
+  "citySlug": "takatsuki",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "高槻市「令和9年度4月認可保育施設入所申請、事前説明会及び個別相談会のお知らせ」",
+    "url": "https://www.city.takatsuki.osaka.jp/soshiki/44/70023.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年9月8日（火曜日）から11月10日（火曜日）（必着）までオンライン・郵送で受け付ける",
+  "applyMethods": "オンライン申請、郵送（締切日必着）、窓口（完全予約制）で受け付ける。受付場所は保育幼稚園事業課（総合センター7階）",
+  "firstResult": "令和9年2月上旬頃に結果通知発送予定",
+  "secondApply": "2次選考の申請受付の詳細については令和9年1月下旬ごろホームページへ掲載予定",
+  "secondResult": "令和9年3月中旬頃に結果通知発送予定",
+  "documents": [
+    "申請書類（ホームページの「幼稚園・保育所等に関する様式集（保護者向け）」からダウンロードできる）",
+    "就労証明書など勤務先等に証明してもらう書類"
+  ],
+  "notes": [
+    "申請受付期間中は入所申請受付のみを取り扱う。入所に関する説明や相談が必要な場合は事前説明会、個別相談会をご利用ください",
+    "申請に必要な書類は世帯の状況により異なるため、あらかじめ「教育・保育施設ご利用の手引き」で確認してください",
+    "求職中で申し込まれる方については2次選考からの対象となります"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.takatsuki.osaka.jp/soshiki/44/70023.html",
+      "quote": "市立・民間保育園、認定こども園（2・3号）、小規模保育施設、事業所内保育施設への令和9年4月からの入所申請を受け付けます。"
+    },
+    "firstApply": {
+      "url": "https://www.city.takatsuki.osaka.jp/soshiki/44/70023.html",
+      "quote": "9月8日（火曜日）から11月10日（火曜日）（必着）まで受け付けます。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.takatsuki.osaka.jp/soshiki/44/70023.html",
+      "quote": "入所申請についてオンライン、郵送または窓口で受け付けます。"
+    },
+    "firstResult": {
+      "url": "https://www.city.takatsuki.osaka.jp/soshiki/44/70023.html",
+      "quote": "1次選考の結果通知発送については令和9年2月上旬頃、2次選考の結果通知発送については令和9年3月中旬頃を予定しています。"
+    },
+    "secondApply": {
+      "url": "https://www.city.takatsuki.osaka.jp/soshiki/44/70023.html",
+      "quote": "2次選考の申請受付の詳細については、令和9年1月下旬ごろホームページへ掲載予定です。"
+    },
+    "secondResult": {
+      "url": "https://www.city.takatsuki.osaka.jp/soshiki/44/70023.html",
+      "quote": "2次選考の申請受付の詳細については、令和9年1月下旬ごろホームページへ掲載予定です。"
+    },
+    "documents.0": {
+      "url": "https://www.city.takatsuki.osaka.jp/soshiki/44/70023.html",
+      "quote": "申請書類はホームページからダウンロード可能です。「幼稚園・保育所等に関する様式集（保護者向け）」のページから必要な書類をダウンロードしてください。"
+    },
+    "documents.1": {
+      "url": "https://www.city.takatsuki.osaka.jp/soshiki/44/70023.html",
+      "quote": "必要書類の中には就労証明書など勤務先等に証明いただく書類もあります。"
+    },
+    "notes.0": {
+      "url": "https://www.city.takatsuki.osaka.jp/soshiki/44/70023.html",
+      "quote": "申請受付期間中は入所申請受付のみを取り扱います。入所に関する説明や相談を必要とされる方は、事前説明会、個別相談会をご利用ください"
+    },
+    "notes.1": {
+      "url": "https://www.city.takatsuki.osaka.jp/soshiki/44/70023.html",
+      "quote": "申請に必要な書類は世帯の状況により異なりますので、あらかじめ「教育・保育施設ご利用の手引き」の「提出書類について（認定申請・利用申込・利用者負担額の算定など）」のページから必要な書類をご確認ください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.takatsuki.osaka.jp/soshiki/44/70023.html",
+      "quote": "求職中で申し込まれる方については、2次選考からの対象となります。"
+    }
+  },
+  "sources": [
+    {
+      "label": "高槻市「令和9年度4月認可保育施設入所申請、事前説明会及び個別相談会のお知らせ」",
+      "url": "https://www.city.takatsuki.osaka.jp/soshiki/44/70023.html"
+    },
+    {
+      "label": "高槻市「教育・保育施設ご利用の手引き」",
+      "url": "https://www.city.takatsuki.osaka.jp/soshiki/44/5300.html"
+    },
+    {
+      "label": "高槻市「入園案内」",
+      "url": "https://www.city.takatsuki.osaka.jp/life/2/24/129/"
+    }
+  ]
+}

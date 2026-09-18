@@ -3,60 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "hachioji",
-    title: "八王子市の保活スケジュール　申込から内定までの流れ",
-    description:
-      "八王子市の認可保育園の申込時期・選考の流れをまとめました。令和8年度4月入園の動き方を解説します。",
-    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>八王子市の4月入園スケジュール</h2>
-<p>八王子市の認可保育園は毎年秋に翌年度4月入園の一次申込を受付けます。利用調整基準指数表を理解して準備を進めましょう。</p>
-
-<h3>保活の全体スケジュール</h3>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content">
-<strong>4月〜6月：情報収集</strong>
-<p>八王子市子育て応援サイトで保育園の一覧を確認します。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content">
-<strong>6月〜9月：保育園見学</strong>
-<p>八王子市は広いので、通勤経路も考慮して複数の園を見学しましょう。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content">
-<strong>9月〜10月：書類準備</strong>
-<p>就労証明書などの必要書類を準備します。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content">
-<strong>11月：申込書類の提出</strong>
-<p>4月一次の申込期限は11月中旬です。</p>
-</div>
-</div>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>八王子市は基準指数が父母各最大10点（合計20点満点）です。週の就労時間で判定される制度です。</p>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://kosodate.city.hachioji.tokyo.jp/soshiki/hoikuyochienka/hoikuyochienka_nyushotanto/2180.html" target="_blank" rel="noopener">八王子市子育て応援サイト</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-03-28",
-    popularity: 55,
-  },
-  {
     slug: "scoring-system-guide",
     citySlug: "hachioji",
     title: "八王子市の入園点数のしくみ　基準指数と調整指数を解説",

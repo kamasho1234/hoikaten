@@ -1,0 +1,100 @@
+{
+  "citySlug": "okazaki",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "岡崎市「令和9年度保育園等の4月1日入園」",
+    "url": "https://www.city.okazaki.lg.jp/kosodate/kosodate/1012221/1012226/1003636.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年9月16日（水曜日）10時00分～9月25日（金曜日）16時00分",
+  "applyMethods": "電子申請のみ。申込は1園のみだが第6希望まで入力可能",
+  "firstResult": "令和8年11月中旬頃に申込者全員に選考結果通知を送付",
+  "secondApply": "令和9年1月初旬～中旬予定",
+  "secondResult": "令和9年2月上旬予定",
+  "documents": [
+    "教育・保育給付認定申請書と保育園等利用申込書",
+    "父と母それぞれの保育が必要な事由を証明するための書類（令和8年8月1日以降に取得したものが有効）",
+    "同居祖父母の保育が必要な事由を証明するための書類（同居かつ令和9年4月1日時点で65歳未満の場合）",
+    "同居家族全員のマイナンバーがわかるもの",
+    "母子健康手帳"
+  ],
+  "interview": "各園で面接を行う。子どもと保護者で参加必須。期日までに面接が実施できない場合は入園予定が取消しとなる。面接時に持参物：児童の健康状況等調査票、同居家族全員のマイナンバーがわかるもの、母子健康手帳。予約は入園予定園にLINEで事前に行う",
+  "notes": [
+    "求職活動を事由とする1次申込みはできない。ただしひとり親世帯で児童扶養手当等を受給されているかた、令和9年4月末日までに就労開始することが決まり内定先の証明の提出が可能なかたは1次申込みができる",
+    "育児休業終了による復帰で申込みされるかたについて、4月末日までに復帰し4月1日入園を希望する場合に申込みが可能。ただし3～5歳児に限り、就園中に育児休業が終了し職場復帰する場合は復帰時期を問わず申込みできる",
+    "現在市内の保育園・こども園・小規模保育事業所に在籍または申込みをしており、転園を希望する場合も申込みできる。ただし現在通っている園に令和9年3月末までに退園する旨の退園届を申込前に提出する必要がある",
+    "1次申込みのみ、第1～第6希望園のいずれも入園できなかった際に、空きが出るまで順番待ちできる制度がある。対象園のクラスに空きができた時点で点数順に入園を案内。空待ちの有効期間は令和9年2月末日までとなる"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.okazaki.lg.jp/kosodate/kosodate/1012221/1012226/1003636.html",
+      "quote": "令和9年4月1日新規入園について"
+    },
+    "firstApply": {
+      "url": "https://www.city.okazaki.lg.jp/kosodate/kosodate/1012221/1012226/1003636.html",
+      "quote": "申込み（9月16日（水曜日）10時00分～9月25日（金曜日）16時00分）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.okazaki.lg.jp/kosodate/kosodate/1012221/1012226/1003636.html",
+      "quote": "以下のリンクから電子申請してください。（9月16日（水曜日）10時頃公開）"
+    },
+    "firstResult": {
+      "url": "https://www.city.okazaki.lg.jp/kosodate/kosodate/1012221/1012226/1003636.html",
+      "quote": "11月中旬頃に申込者全員に選考結果通知を送付します。"
+    },
+    "secondApply": {
+      "url": "https://www.city.okazaki.lg.jp/kosodate/kosodate/1012221/1012226/1003636.html",
+      "quote": "申込み（1月初旬～中旬予定）"
+    },
+    "secondResult": {
+      "url": "https://www.city.okazaki.lg.jp/kosodate/kosodate/1012221/1012226/1003636.html",
+      "quote": "選考結果通知（2月上旬予定）"
+    },
+    "documents.0": {
+      "url": "https://www.city.okazaki.lg.jp/kosodate/kosodate/1012221/1012226/1003636.html",
+      "quote": "事前に必要書類の準備をし、以下のリンクから申込みをしてください。"
+    },
+    "documents.1": {
+      "url": "https://www.city.okazaki.lg.jp/kosodate/kosodate/1012221/1012226/1003636.html",
+      "quote": "1.父と母それぞれの保育が必要な事由を証明するための書類詳しくは以下のリンクをご確認ください。"
+    },
+    "documents.2": {
+      "url": "https://www.city.okazaki.lg.jp/kosodate/kosodate/1012221/1012226/1003636.html",
+      "quote": "2.同居祖父母の保育が必要な事由を証明するための書類"
+    },
+    "documents.3": {
+      "url": "https://www.city.okazaki.lg.jp/kosodate/kosodate/1012221/1012226/1003636.html",
+      "quote": "同居家族全員のマイナンバーがわかるもの"
+    },
+    "documents.4": {
+      "url": "https://www.city.okazaki.lg.jp/kosodate/kosodate/1012221/1012226/1003636.html",
+      "quote": "母子健康手帳"
+    },
+    "interview": {
+      "url": "https://www.city.okazaki.lg.jp/kosodate/kosodate/1012221/1012226/1003636.html",
+      "quote": "各園で面接を行いますので、必ず入園希望のお子さんと保護者で参加してください。期日までに面接が実施できない場合は入園予定が取消しとなります。"
+    },
+    "notes.0": {
+      "url": "https://www.city.okazaki.lg.jp/kosodate/kosodate/1012221/1012226/1003636.html",
+      "quote": "※求職活動を事由とする1次申込みはできません。求職活動が事由のかたは、2次申込みでお申込みください。ただし、ひとり親世帯で児童扶養手当等を受給されているかた、令和9年4月末日までに就労開始することが決まっており内定先の証明の提出が可能なかたは、1次申込みができます。"
+    },
+    "notes.1": {
+      "url": "https://www.city.okazaki.lg.jp/kosodate/kosodate/1012221/1012226/1003636.html",
+      "quote": "※育児休業終了による復帰で申込みされるかたについては、4月末日までに復帰し、4月1日入園を希望する場合に申込みが可能です。ただし、3～5歳児に限り、就園中に育児休業が終了し職場復帰する場合は、復帰時期を問わず申込みができます。"
+    },
+    "notes.2": {
+      "url": "https://www.city.okazaki.lg.jp/kosodate/kosodate/1012221/1012226/1003636.html",
+      "quote": "※現在市内の保育園・こども園・小規模保育事業所に在籍又は申込みをしており、転園を希望する場合も申込みできます（現在通っている園に令和9年3月末までに退園する旨の退園届を申込前に提出する必要があります）。"
+    },
+    "notes.3": {
+      "url": "https://www.city.okazaki.lg.jp/kosodate/kosodate/1012221/1012226/1003636.html",
+      "quote": "1次申込みのみ、第1～第6希望園のいずれも入園できなかった際に、空きが出るまで順番待ちできる制度があります。※対象園のクラスに空きができた時点で点数順に入園をご案内します。空待ちの有効期間は令和9年2月末日までとなります。"
+    }
+  },
+  "sources": [
+    {
+      "label": "岡崎市「令和9年度保育園等の4月1日入園」",
+      "url": "https://www.city.okazaki.lg.jp/kosodate/kosodate/1012221/1012226/1003636.html"
+    }
+  ]
+}

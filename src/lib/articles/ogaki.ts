@@ -3,33 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "ogaki",
-    title: "大垣市の保活スケジュール完全ガイド｜令和8年度4月入園の流れ",
-    description: "大垣市で認可保育所・認定こども園への4月入園を目指す保活スケジュールを解説。申込締切・結果通知・必要書類の準備時期をまとめました。",
-    category: "保活の基本",
-    categoryColor: "green",
-    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    publishedAt: "2025-06-01",
-    content: `<h2>大垣市の保活スケジュール</h2>
-<p>大垣市の認可保育所・認定こども園は毎年10〜11月頃に翌年4月入園の一次申込を受け付けます。</p>
-
-<table>
-<tr><th>時期</th><th>やること</th></tr>
-<tr><td>4〜6月</td><td>保育所・認定こども園の見学開始</td></tr>
-<tr><td>7〜9月</td><td>優先度の確認・就労証明書等の書類収集</td></tr>
-<tr><td>10月</td><td>10月1日現在の在園状況の確認（在園きょうだいは自動継続）</td></tr>
-<tr><td>10〜11月</td><td>一次申込締切（例年）</td></tr>
-<tr><td>翌年1〜2月</td><td>結果通知・二次申込</td></tr>
-<tr><td>4月</td><td>入園開始</td></tr>
-</table>
-
-<div class="point-box">
-<p><strong>大垣市の特徴</strong></p>
-<p>大垣市は点数制ではなくSS〜Eの<strong>優先度ランク制</strong>を採用しています。父母のうち優先度の低い方が世帯の優先度になります。</p>
-</div>`,
-  },
-  {
     slug: "scoring-system-guide",
     citySlug: "ogaki",
     title: "大垣市の保育所入所優先度ランクのしくみ｜SS〜Eランクを徹底解説",

@@ -1,0 +1,86 @@
+{
+  "citySlug": "toyokawa",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "豊川市「令和9年4月からの保育施設入所について」",
+    "url": "https://www.city.toyokawa.lg.jp/soshiki/kodomokenkou/hoiku/2/3/5/6665.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年9月10日（木曜）から申込書類を配布。各保育施設、保育課、子育て支援センターで入手可能。ホームページからもダウンロード可能",
+  "firstApply": "書面による申請は令和8年9月28日（月曜）から令和8年10月9日（金曜）まで。電子申請（マイナポータル）は令和8年9月10日（木曜）から同月25日（金曜）まで",
+  "applyMethods": "書面：入所申込書、教育・保育給付認定申請書、就労証明書等を第1希望の保育施設に提出。電子申請：マイナポータルの「ぴったりサービス」を利用。どちらか一方の手段を選択",
+  "firstResult": "令和9年1月29日（金曜）に市役所から郵送。入所承諾通知書及び入所説明会の案内等を送付",
+  "secondApply": "令和9年1月4日（月曜）から令和9年1月29日（金曜）まで。入所申込書、教育・保育給付認定申請書、就労証明書等を豊川市役所保育課窓口へ提出",
+  "interview": "提出時に保育施設でお子さまの面接を行う。その後、市職員が保護者と面接。提出時に母子健康手帳をご持参ください",
+  "notes": [
+    "申込前に第1希望の保育施設へ必ず電話連絡し、提出する日時を調整してください",
+    "利用調整は令和8年12月中旬から令和9年1月末までの間に実施。保育施設の入所申込者が定員を超えた場合は、市で利用調整を行います",
+    "小規模保育事業所について第1希望での入所が決定した場合は、令和8年12月末に承諾通知書を発送予定",
+    "電子申請は豊川市に住所がある場合のみ対象。転入予定の方は書面による申請を行ってください",
+    "入園のご案内（PDF）で入所に必要な条件や記入例（18～22頁）をご確認ください"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.toyokawa.lg.jp/soshiki/kodomokenkou/hoiku/2/3/5/6665.html",
+      "quote": "令和9年4月1日から保育施設へ入所を希望される方は、以下のとおり入所手続きを行う必要があります。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.toyokawa.lg.jp/soshiki/kodomokenkou/hoiku/2/3/5/6665.html",
+      "quote": "令和8年9月10日（木曜）から 各保育施設、保育課、子育て支援センター 入所申込書類を入手してください。ページ下部からダウンロードも可能です。"
+    },
+    "firstApply": {
+      "url": "https://www.city.toyokawa.lg.jp/soshiki/kodomokenkou/hoiku/2/3/5/6665.html",
+      "quote": "令和8年9月28日（月曜）から令和8年10月9日（金曜）まで 第1希望の保育施設 入所申込書、教育・保育給付認定申請書、就労証明書等を第1希望の保育施設へ提出してください。"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.toyokawa.lg.jp/soshiki/kodomokenkou/hoiku/2/3/5/6665.html",
+      "quote": "1 電子申請の受付期間 令和8年9月10日（木曜）から同月25日（金曜）まで"
+    },
+    "applyMethods": {
+      "url": "https://www.city.toyokawa.lg.jp/soshiki/kodomokenkou/hoiku/2/3/5/6665.html",
+      "quote": "令和9年4月1日からの入所申請におきましては、マイナポータルを活用した「ぴったりサービス」による申請を受け付けます。従来どおり必要書類を第1希望の保育施設へ提出する書面による手続きも可能ですので、どちらか一方の手段を選んで手続きを進めてください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.toyokawa.lg.jp/soshiki/kodomokenkou/hoiku/2/3/5/6665.html",
+      "quote": "令和9年1月29日（金曜） （市役所から郵送） 利用調整終了後、入所を決定し、保育施設入所承諾通知書及び入所説明会の案内等を郵送します。"
+    },
+    "secondApply": {
+      "url": "https://www.city.toyokawa.lg.jp/soshiki/kodomokenkou/hoiku/2/3/5/6665.html",
+      "quote": "令和9年1月4日（月曜）から令和9年1月29日（金曜）まで、令和9年4月からの入所の二次申請を受け付けます。入所申込書、教育・保育給付認定申請書、就労証明書等を豊川市役所保育課窓口へ提出してください。"
+    },
+    "interview": {
+      "url": "https://www.city.toyokawa.lg.jp/soshiki/kodomokenkou/hoiku/2/3/5/6665.html",
+      "quote": "提出時に保育施設でお子さまの面接を行います。母子健康手帳をご持参ください。"
+    },
+    "interview#2": {
+      "url": "https://www.city.toyokawa.lg.jp/soshiki/kodomokenkou/hoiku/2/3/5/6665.html",
+      "quote": "提出していただいた申込書等をもとに、市職員が保護者と面接をします。"
+    },
+    "notes.0": {
+      "url": "https://www.city.toyokawa.lg.jp/soshiki/kodomokenkou/hoiku/2/3/5/6665.html",
+      "quote": "注記：提出前に第1希望の保育施設へ必ず電話連絡をし、提出する日時を調整してください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.toyokawa.lg.jp/soshiki/kodomokenkou/hoiku/2/3/5/6665.html",
+      "quote": "保育施設の入所申込者が定員を超えた場合は、市で利用調整を行います。選考基準に基づいて選考を行い、保育の必要性の高い方から順に第1から第3希望の保育施設へ入所を内定します。"
+    },
+    "notes.2": {
+      "url": "https://www.city.toyokawa.lg.jp/soshiki/kodomokenkou/hoiku/2/3/5/6665.html",
+      "quote": "注記：小規模保育事業所について第1希望での入所が決定した場合は、令和8年12月末に発送予定です。"
+    },
+    "notes.3": {
+      "url": "https://www.city.toyokawa.lg.jp/soshiki/kodomokenkou/hoiku/2/3/5/6665.html",
+      "quote": "申請日時点で豊川市に住所がない場合は電子申請の対象外です。豊川市に転入予定の方は書面による申請を行ってください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.toyokawa.lg.jp/soshiki/kodomokenkou/hoiku/2/3/5/6665.html",
+      "quote": "なお、入所に必要な条件などは、「入園のご案内」をご確認ください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "豊川市「令和9年4月からの保育施設入所について」",
+      "url": "https://www.city.toyokawa.lg.jp/soshiki/kodomokenkou/hoiku/2/3/5/6665.html"
+    }
+  ]
+}

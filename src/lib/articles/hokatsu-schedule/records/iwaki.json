@@ -1,0 +1,90 @@
+{
+  "citySlug": "iwaki",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "いわき市「令和９年４月からの保育所等利用申込み（１次募集）について」",
+    "url": "https://www.city.iwaki.lg.jp/www/contents/1693362840466/index.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年10月1日（木）から10月30日（金）まで（受付時間は午前8時30分から午後5時まで）",
+  "secondApply": "令和9年1月中旬頃から実施予定（詳細は後日ホームページでお知らせ）",
+  "documents": [
+    "子どものための教育・保育給付認定申請書兼保育施設等利用申請書",
+    "マイナンバー（個人番号）確認書類（マイナンバーカード、通知カード、または個人番号が記載された住民票の写し）",
+    "保育が必要な事由を証明する書類（就労証明書等、事由により異なる）",
+    "申請書類をお持ちになった方の身分証（運転免許証等）"
+  ],
+  "interview": "児童も一緒に来場してください",
+  "notes": [
+    "オンライン申請（マイナンバーカード等が必要）での申請が可能です",
+    "窓口申請も可能で、受付会場は地区により異なります",
+    "希望する保育所等を事前に見学してください",
+    "0歳児の場合、保育可能な月齢が保育所等によって異なるため事前確認が必要",
+    "保育所等の利用開始日は4月初日からが基本",
+    "児童への特別な支援を希望される場合は各地区の保健福祉センターへ相談してください"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.iwaki.lg.jp/www/contents/1693362840466/index.html",
+      "quote": "令和９年４月からの保育所等（※）利用申込みなどについて掲載しています。"
+    },
+    "firstApply": {
+      "url": "https://www.city.iwaki.lg.jp/www/contents/1693362840466/index.html",
+      "quote": "令和８年１０月１日（木）から１０月３０日（金）まで（受付時間は午前８時３０分から午後５時まで）"
+    },
+    "secondApply": {
+      "url": "https://www.city.iwaki.lg.jp/www/contents/1693362840466/index.html",
+      "quote": "今回の募集及び調整の結果、保育所等に空きがある場合は令和９年１月中旬頃から２次募集を行う予定です。"
+    },
+    "documents.0": {
+      "url": "https://www.city.iwaki.lg.jp/www/contents/1693362840466/index.html",
+      "quote": "子どものための教育・保育給付認定申請書兼施設用利用申請書"
+    },
+    "documents.1": {
+      "url": "https://www.city.iwaki.lg.jp/www/contents/1693362840466/index.html",
+      "quote": "マイナンバー（個人番号）確認書類等"
+    },
+    "documents.2": {
+      "url": "https://www.city.iwaki.lg.jp/www/contents/1693362840466/index.html",
+      "quote": "保育が必要な事由を証明する書類"
+    },
+    "documents.3": {
+      "url": "https://www.city.iwaki.lg.jp/www/contents/1693362840466/index.html",
+      "quote": "このほか、申請書類をお持ちになった方の身分証（運転免許証など）が必要となります。"
+    },
+    "interview": {
+      "url": "https://www.city.iwaki.lg.jp/www/contents/1693362840466/index.html",
+      "quote": "会場には、保育所等の利用を希望される児童も一緒にお越しください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.iwaki.lg.jp/www/contents/1693362840466/index.html",
+      "quote": "オンライン申請（マイナンバーカード等が必要です。）"
+    },
+    "notes.1": {
+      "url": "https://www.city.iwaki.lg.jp/www/contents/1693362840466/index.html",
+      "quote": "地区や希望の保育所等によって受付会場や日時が異なります。"
+    },
+    "notes.2": {
+      "url": "https://www.city.iwaki.lg.jp/www/contents/1693362840466/index.html",
+      "quote": "希望する保育所等を事前に見学してください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.iwaki.lg.jp/www/contents/1693362840466/index.html",
+      "quote": "特に、０歳児（乳児）の保育を希望する場合、お子様をお預かりできる月齢が保育所等によって異なりますので、希望する保育所等が保育可能な月齢を事前にご確認ください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.iwaki.lg.jp/www/contents/1693362840466/index.html",
+      "quote": "保育所等の利用開始日は４月初日からが基本となります。"
+    },
+    "notes.5": {
+      "url": "https://www.city.iwaki.lg.jp/www/contents/1693362840466/index.html",
+      "quote": "児童への特別な支援（保育士の加配等）を希望される方は、各地区の保健福祉センターへお早めにご相談ください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "いわき市「令和９年４月からの保育所等利用申込み（１次募集）について」",
+      "url": "https://www.city.iwaki.lg.jp/www/contents/1693362840466/index.html"
+    }
+  ]
+}

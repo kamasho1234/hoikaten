@@ -1,0 +1,104 @@
+{
+  "citySlug": "shimonoseki",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "下関市「令和9年度4月からの幼稚園・保育園・認定こども園・地域型保育事業所の園児を募集します」",
+    "url": "https://www.city.shimonoseki.lg.jp/soshiki/45/4622.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年10月1日（木曜日）から令和8年11月2日（月曜日）。申請書類を一式揃えて第一希望の施設に提出。入所の決定は先着順ではない",
+  "applyMethods": "申請書類を一式揃えて第一希望の施設に提出する。申請書や就労証明書等は保育園、認定こども園、地域型保育事業所、幼児保育課、総合支所（菊川町、豊田町、豊浦町、豊北町）市民生活課で受け取れる",
+  "firstResult": "令和9年1月上旬に文書で通知予定",
+  "secondApply": "令和9年1月12日（火曜日）から令和9年1月29日（金曜日）。追加募集で引き続き利用調整",
+  "secondResult": "令和9年3月上旬に文書で通知予定",
+  "documents": [
+    "子どものための教育・保育給付認定申請書（2・3号認定用）",
+    "児童状況確認書",
+    "就労証明書等。保育が必要であることを証する書類は事由により異なる",
+    "生計同一に関する申立書、転入に関する誓約書、就労証明書の提出に関する誓約書"
+  ],
+  "notes": [
+    "育児休業からの復帰や4月からの就労が確認できない場合、または申請の際の就労予定時間より著しく短い時間で働いている場合は、4月末で退園していただく場合がある",
+    "職場復帰日や就労予定開始日、就労時間については必ず就労先と調整する必要がある",
+    "まずは希望する保育園等の見学をすることが推奨されている",
+    "旧市内の各支所には書類は置いていない",
+    "入所保留者には通常募集分は令和8年12月末までに電話または書類で通知予定で、追加募集で引き続き利用調整される"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.shimonoseki.lg.jp/soshiki/45/4622.html",
+      "quote": "保育園等（2・3号認定）の入所の申請をされる方は、必ず下関市教育・保育施設利用案内(2・3)[PDFファイル／3.47MB]をご確認ください。"
+    },
+    "firstApply": {
+      "url": "https://www.city.shimonoseki.lg.jp/soshiki/45/4622.html",
+      "quote": "通常募集令和8年10月1日（木曜日）令和8年11月2日（月曜日）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.shimonoseki.lg.jp/soshiki/45/4622.html",
+      "quote": "申請書や就労証明書等は次の場所で受け取ることができます。保育園、認定こども園、地域型保育事業所幼児保育課総合支所（菊川町、豊田町、豊浦町、豊北町）市民生活課"
+    },
+    "firstResult": {
+      "url": "https://www.city.shimonoseki.lg.jp/soshiki/45/4622.html",
+      "quote": "入所決定者令和9年1月上旬に文書で通知予定"
+    },
+    "secondApply": {
+      "url": "https://www.city.shimonoseki.lg.jp/soshiki/45/4622.html",
+      "quote": "追加募集令和9年1月12日（火曜日）令和9年1月29日（金曜日）"
+    },
+    "secondResult": {
+      "url": "https://www.city.shimonoseki.lg.jp/soshiki/45/4622.html",
+      "quote": "その後、令和9年3月上旬に文書で通知予定"
+    },
+    "documents.0": {
+      "url": "https://www.city.shimonoseki.lg.jp/soshiki/45/4622.html",
+      "quote": "[1] 子どものための教育・保育給付認定申請書記入例（2・3号認定用） [PDFファイル／243KB]"
+    },
+    "documents.1": {
+      "url": "https://www.city.shimonoseki.lg.jp/soshiki/45/4622.html",
+      "quote": "児童状況確認書"
+    },
+    "documents.2": {
+      "url": "https://www.city.shimonoseki.lg.jp/soshiki/45/4622.html",
+      "quote": "就労証明書等[1]就労証明書[PDFファイル／76KB][2]介護・看護状況申告書[PDFファイル／70KB]"
+    },
+    "documents.3": {
+      "url": "https://www.city.shimonoseki.lg.jp/soshiki/45/4622.html",
+      "quote": "誓約書等[1]生計同一に関する申立書[PDFファイル／63KB][2]転入に関する誓約書[PDFファイル／61KB]"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.shimonoseki.lg.jp/soshiki/45/4622.html",
+      "quote": "受付期間は下表のとおりですので、申請書類を一式揃えて 第一希望の施設 に提出してください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.shimonoseki.lg.jp/soshiki/45/4622.html",
+      "quote": "※ 育児休業から復帰することを理由に保育園等の入所の申請をした方については、復職したことを確認するため、入所後に「育児休業からの復職に係る証明書」を提出していただきます。"
+    },
+    "notes.0": {
+      "url": "https://www.city.shimonoseki.lg.jp/soshiki/45/4622.html",
+      "quote": "育児休業からの復帰や4月からの就労が確認できない場合または申請の際の就労予定時間より著しく短い時間で働いている場合は、4月末で退園していただく場合があります。"
+    },
+    "notes.1": {
+      "url": "https://www.city.shimonoseki.lg.jp/soshiki/45/4622.html",
+      "quote": "職場復帰日や就労予定開始日、就労時間については必ず就労先と調整してください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.shimonoseki.lg.jp/soshiki/45/4622.html",
+      "quote": "入所の決定は先着順ではありませんので、まずは希望する保育園等の見学をしましょう。"
+    },
+    "notes.3": {
+      "url": "https://www.city.shimonoseki.lg.jp/soshiki/45/4622.html",
+      "quote": "※旧市内の各支所には書類は置いていませんのでご注意ください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.shimonoseki.lg.jp/soshiki/45/4622.html",
+      "quote": "入所保留者 令和8年12月末までに電話または書類で通知予定 ※追加募集で引き続き利用調整（入所選考）"
+    }
+  },
+  "sources": [
+    {
+      "label": "下関市「令和9年度4月からの幼稚園・保育園・認定こども園・地域型保育事業所の園児を募集します」",
+      "url": "https://www.city.shimonoseki.lg.jp/soshiki/45/4622.html"
+    }
+  ],
+  "ikukyu": "育児休業から復帰することを理由に保育園等の入所の申請をした方については、復職したことを確認するため、入所後に「育児休業からの復職に係る証明書」を提出する必要がある"
+}

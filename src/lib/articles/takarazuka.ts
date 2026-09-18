@@ -5,67 +5,6 @@ const articles: Article[] = [
   // =========================================================================
   // 1. 保活スケジュール完全ガイド
   // =========================================================================
-  {
-    slug: "hokatsu-schedule",
-    citySlug: "takarazuka",
-    title: "宝塚市の保活スケジュール完全ガイド（令和8年度）",
-    description:
-      "宝塚市の認可保育園、令和8年度4月入園の申込時期・選考の流れ・結果通知のスケジュールをわかりやすくまとめました。",
-    image:
-      "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>令和8年度（2026年度）4月入園のスケジュール</h2>
-<p>宝塚市の4月入園は<strong>一次受付</strong>と<strong>二次受付</strong>の2回に分かれています。申込先は宝塚市子ども未来部保育企画課です。</p>
-
-<h3>一次受付</h3>
-<table>
-<tr><th>項目</th><th>日程（目安）</th></tr>
-<tr><td>申込書配布</td><td>令和7年9月頃〜</td></tr>
-<tr><td>申込期間</td><td>令和7年10月上旬〜11月上旬</td></tr>
-<tr><td>結果通知</td><td>令和8年1月下旬〜2月上旬</td></tr>
-</table>
-
-<h3>二次受付</h3>
-<table>
-<tr><th>項目</th><th>日程（目安）</th></tr>
-<tr><td>申込期間</td><td>令和8年2月中旬まで</td></tr>
-<tr><td>結果通知</td><td>令和8年3月上旬</td></tr>
-</table>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>宝塚市では窓口での申込が基本です。一次で保留となった場合も希望園の変更届を出すことで二次受付の対象になります。</p>
-</div>
-
-<h2>いつから動き始めるべき？</h2>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content"><strong>4月〜6月：情報収集スタート</strong><p>宝塚市子ども未来部保育企画課のページで前年度の案内を確認しましょう。</p></div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content"><strong>6月〜9月：保育園見学</strong><p>宝塚市内の認可保育園約30か所から気になる園に電話で見学予約をしましょう。</p></div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content"><strong>9月〜10月：書類準備</strong><p>就労証明書を勤務先に早めに依頼。記入漏れがないか入念にチェックしてください。</p></div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content"><strong>10月〜11月：一次受付に申込</strong><p>期限内に必要書類を窓口へ提出します。</p></div>
-</div>
-
-<h2>途中入園（5月〜3月）</h2>
-<p>入園希望月の<span class="highlight">前月10日頃</span>が締切です。空き状況は宝塚市のホームページで毎月更新されます。</p>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>最新情報は<a href="https://www.city.takarazuka.hyogo.jp/kyoiku/gakkoshisetsu/1000105/index.html" target="_blank" rel="noopener">宝塚市公式サイト「保育所（園）」</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-04-07",
-    popularity: 55,
-  },
 
   // =========================================================================
   // 2. 点数の仕組みと計算方法

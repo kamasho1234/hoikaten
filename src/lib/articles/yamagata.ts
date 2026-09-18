@@ -3,59 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "yamagata",
-    title: "山形市の保活スケジュール　令和8年度4月入園の流れ",
-    description:
-      "山形市の令和8年度（2026年度）4月入園の申込時期・必要書類・結果通知の時期をまとめました。",
-    image:
-      "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>令和8年度（2026年度）4月入園のスケジュール</h2>
-<p>山形市の4月入園申込は例年9月頃から書類配布が始まり、10月〜11月が受付期間です。</p>
-
-<h3>申込の流れ</h3>
-<table>
-<tr><th>項目</th><th>日程（目安）</th></tr>
-<tr><td>申請書類配布</td><td>2025年9月頃〜</td></tr>
-<tr><td>1次申込受付</td><td>2025年10月上旬〜11月上旬</td></tr>
-<tr><td>1次結果通知</td><td>2026年1月下旬〜2月上旬（郵送）</td></tr>
-<tr><td>2次申込受付</td><td>2026年1月〜2月</td></tr>
-<tr><td>2次結果通知</td><td>2026年2月下旬〜3月上旬（郵送）</td></tr>
-</table>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>山形市では年度途中の入所も毎月受け付けています。希望する月の前月10日頃が締切になることが多いため、早めの準備が大切です。</p>
-</div>
-
-<h2>いつから動き始めるべき？</h2>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content"><strong>4月〜6月：情報収集</strong><p>山形市こども未来部保育育成課の公式サイトで前年度の資料を参考に準備を始めます。</p></div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content"><strong>6月〜9月：保育園見学</strong><p>気になる園に電話して見学予約を入れましょう。山形市内には認可保育所・認定こども園が多数あります。</p></div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content"><strong>9月〜10月：書類準備</strong><p>就労証明書を勤務先に依頼します。保育の利用申込書と支給認定申請書が必要です。</p></div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content"><strong>10月〜11月：申込</strong><p>保育育成課の窓口で期限内に必要書類を提出します。</p></div>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>最新情報は<a href="https://www.city.yamagata-yamagata.lg.jp/kosodatekyoiku/hoiku/1007241/1016711.html" target="_blank" rel="noopener">山形市公式サイト「令和8年度 認可保育所等の利用申し込み受付について」</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-04-05",
-    popularity: 55,
-  },
-  {
     slug: "katen-no-kotsu",
     citySlug: "yamagata",
     title: "山形市で加点を最大化するコツ　調整点数を積み上げる方法",

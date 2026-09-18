@@ -1,0 +1,113 @@
+{
+  "citySlug": "sagamihara",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "相模原市「認可保育所等の利用申込案内」",
+    "url": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kosodate/1026606/hoikuen/1006704.html"
+  },
+  "fiscalYear": "R8",
+  "firstApply": "令和7年10月6日（月）～11月7日（金）【必着】。電子申請、郵送、窓口受付の方法あり",
+  "applyMethods": "①電子申請（LoGoフォーム）でスマートフォンやパソコン等による申込み、②郵送（相模原市役所 利用申込事務センター宛）、③窓口受付（児童同伴が原則。該当の方のみ）",
+  "firstResult": "令和8年1月16日（金）頃に利用調整結果を通知",
+  "secondApply": "令和7年11月10日（月）～令和8年2月6日（金）【必着】。1次申込と同様の手続きが必要",
+  "midYearDeadline": "利用開始希望日の前月10日（10日が閉庁日の場合は直前の開庁日）【必着】",
+  "documents": [
+    "特定教育・保育施設及び特定地域型保育事業利用申込書兼子どものための教育・保育給付支給認定申請書（申込む児童1人につき1部）",
+    "特定教育・保育施設及び特定地域型保育事業並びに特定子ども・子育て支援施設等利用に係る個人番号等届出書（1世帯につき1部。個人番号及び身元確認できるものの写しを含む）",
+    "保育を必要とする事由に応じた書類。就労の場合は就労証明書（指定用紙）。証明日から2カ月が有効期間"
+  ],
+  "interview": "施設見学は事前に児童同伴で（原則）、利用希望施設に直接連絡して日時を予約した上で実施することが必須。見学記録がない場合は利用調整ができない場合あり",
+  "ikukyu": "育児休業の延長を許容できると意思表示した場合は、他の希望児童の状況に応じ選考優先順位が低くなる場合あり。育児休業を延長する目的だけの利用申込みは受付けない。兄姉が在園中に育児休業を取得する場合は特別な扱いあり",
+  "notes": [
+    "施設見学は必須。施設等に見学記録がないときは利用調整ができない場合がある",
+    "慣らし保育は利用開始から概ね3週間。期間は利用施設と保護者で相談のうえ決定",
+    "育児休業及び産前・産後休業等からの復職を理由に入園された方は、復職後、概ね3週間以内に「復職日」欄が記載された就労証明書を施設に提出",
+    "令和7年12月31日までの出産予定児童は1次申込のみ出産予定児としての申込が可能。出産予定日がわかる書類を持参",
+    "申込内容や世帯状況に変更が生じた場合は、給付支給認定保護者による手続きが必要",
+    "すべての必要書類が提出されない場合、選考基準点数が通常よりも低く算定される場合あり"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/_res/projects/default_project/_page_/001/006/704/r08_syorui/20250918_riyou_annai..pdf",
+      "quote": "＜ 令 和 8 年 度 利用希望者用＞"
+    },
+    "firstApply": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/_res/projects/default_project/_page_/001/006/704/r08_syorui/20250918_riyou_annai..pdf",
+      "quote": "＜申込受付期間＞ 令和７年１０月６日（月）～１１月７日（金）（必着）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/_res/projects/default_project/_page_/001/006/704/r08_syorui/20250918_riyou_annai..pdf",
+      "quote": "＜申 込 方 法＞ ①電子、②郵送、③窓口受付（該当の方のみ）の方法があります。"
+    },
+    "firstResult": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/_res/projects/default_project/_page_/001/006/704/r08_syorui/20250918_riyou_annai..pdf",
+      "quote": "＜調 整 結 果＞ 令和８年１月１６日（金）頃発送予定"
+    },
+    "secondApply": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/_res/projects/default_project/_page_/001/006/704/r08_syorui/20250918_riyou_annai..pdf",
+      "quote": "＜申込受付期間＞ 令和７年１１月１０日（月）～令和８年２月６日（金）（必着）"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kosodate/1026606/hoikuen/1006704.html",
+      "quote": "5月以降（年度途中入園） 利用開始希望日の前月10日（10日が閉庁日の場合は直前の開庁日）【必着】"
+    },
+    "documents.0": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/_res/projects/default_project/_page_/001/006/704/r08_syorui/20250918_riyou_annai..pdf",
+      "quote": "特定教育・保育施設及び特定地域型保育事業利用申込書兼子どものための教育・保育給付支給認定申請書 申込む児童１人につき１部の提出が必要です。"
+    },
+    "documents.1": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/_res/projects/default_project/_page_/001/006/704/r08_syorui/20250918_riyou_annai..pdf",
+      "quote": "個人番号（マイナンバー）について市に届け出ていただくため、１世帯につき１部の提出が必要です。"
+    },
+    "documents.2": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/_res/projects/default_project/_page_/001/006/704/r08_syorui/20250918_riyou_annai..pdf",
+      "quote": "就労証明書（指定用紙）※就労状況に加え、就労証明書内 No.８・９・１１への記載が必要です。"
+    },
+    "interview": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/_res/projects/default_project/_page_/001/006/704/r08_syorui/20250918_riyou_annai..pdf",
+      "quote": "見学の際は外観を見るだけでなく、保護者が施設等に直接連絡し、日時を予約してから必ず施設等からの説明を受けてください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/_res/projects/default_project/_page_/001/006/704/r08_syorui/20250918_riyou_annai..pdf",
+      "quote": "利用申込書①­４で育児休業の延長も許容できると意思表示した場合は、他の希望児童の状況に応じ、選考優先順位が低くなります。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/_res/projects/default_project/_page_/001/006/704/r08_syorui/20250918_riyou_annai..pdf",
+      "quote": "育児休業の延長等を目的に、施設等を利用しないことが前提の利用申込みは受付けません。"
+    },
+    "notes.0": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/_res/projects/default_project/_page_/001/006/704/r08_syorui/20250918_riyou_annai..pdf",
+      "quote": "利用を希望する施設に見学を行っていない場合、利用調整ができない場合があります。"
+    },
+    "notes.1": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/_res/projects/default_project/_page_/001/006/704/r08_syorui/20250918_riyou_annai..pdf",
+      "quote": "慣らし保育の期間は利用施設等と保護者で相談のうえ決めていただきますが、概ね３週間"
+    },
+    "notes.2": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/_res/projects/default_project/_page_/001/006/704/r08_syorui/20250918_riyou_annai..pdf",
+      "quote": "育児休業及び産前・産後休業等からの復職を理由に入園された方は、復職後、必ず「復職日」欄が記載された『就労証明書』を利用施設等に提出してください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/_res/projects/default_project/_page_/001/006/704/r08_syorui/20250918_riyou_annai..pdf",
+      "quote": "出生した児童の１歳の誕生日を超えて育児休業を取得するため、妊娠判明時から育児休業取得前までの間に、保育利用している施設等を１度退園した場合に、改めて育児休業終了時に利用申込みする場合"
+    },
+    "notes.4": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/_res/projects/default_project/_page_/001/006/704/r08_syorui/20250918_riyou_annai..pdf",
+      "quote": "すべての必要書類が提出されない場合、選考基準点数等が通常よりも低く算定される場合があります。"
+    },
+    "notes.5": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/_res/projects/default_project/_page_/001/006/704/r08_syorui/20250918_riyou_annai..pdf",
+      "quote": "締切日間際には書類の提出が集中するため、受付控の発送や不備書類の連絡が提出期限までに間に合わない場合がありますので、余裕を持って申込んでください。提出期限までに、未提出又は書類不備によりすべての必要書類がそろわない場合、選考基準点数が通常よりも低く算定される場合があります。"
+    }
+  },
+  "sources": [
+    {
+      "label": "相模原市「認可保育所等の利用申込案内」",
+      "url": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kosodate/1026606/hoikuen/1006704.html"
+    },
+    {
+      "label": "相模原市「令和8年度認定こども園・保育所等施設利用申込みのご案内」PDF",
+      "url": "https://www.city.sagamihara.kanagawa.jp/_res/projects/default_project/_page_/001/006/704/r08_syorui/20250918_riyou_annai..pdf"
+    }
+  ]
+}

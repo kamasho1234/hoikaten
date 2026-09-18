@@ -1,0 +1,118 @@
+{
+  "citySlug": "kobe",
+  "checkedAt": "2026-09-19",
+  "page": {
+    "label": "神戸市「教育・保育給付認定（2・3号認定）の申請・利用申込」",
+    "url": "https://www.city.kobe.lg.jp/a65174/kosodate/shien/shinseido/riyomoshikomi/shinsehoho.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "2026年9月18日（金曜）から各区役所・支所の保健福祉課こども福祉担当および玉津支所保健福祉担当で配布。同日から申請書類のページでダウンロード可",
+  "firstApply": "令和8年10月19日（月曜）～令和8年11月30日（月曜）。窓口・郵送・電子申請（e-KOBE）で申し込み可。郵送の場合は受付期間最終日必着。医療的ケアが必要な場合は令和8年10月19日（月曜）～令和8年11月13日（金曜）",
+  "applyMethods": "窓口：希望する施設が所在する区の区役所・支所の保健福祉課こども福祉担当で申請。郵送と電子申請（e-KOBE）も利用可",
+  "firstResult": "令和9年1月26日（火曜）頃に郵送で発送",
+  "secondApply": "令和8年12月1日（火曜）～令和9年2月10日（水曜）。窓口・郵送・電子申請（e-KOBE）で申し込み可。郵送の場合は受付期間最終日必着",
+  "secondResult": "令和9年3月1日（月曜）頃に郵送で発送",
+  "documents": [
+    "教育・保育給付認定申請書（紙で申請する場合。電子申請の場合は作成不要）",
+    "保育所等利用理由調査票1、2",
+    "児童の状況票",
+    "個人番号（マイナンバー）申告書。マイナンバーカードまたはマイナンバー入りの住民票の写し、本人確認書類（運転免許証等）",
+    "就労証明書などの保育が必要であることを証する書類（父母それぞれで作成する）"
+  ],
+  "interview": "内定となった場合は、施設で面接や入園手続きを行う",
+  "ikukyu": "育児休業中での新規申込は、地域型保育事業の卒園に伴う児童の利用申込に限り認められる。育児休業給付（雇用保険）の支給期間延長に際しては、保留証明書の発行申請が可",
+  "notes": [
+    "申請書類は2026年9月18日から各区役所・支所で配布開始。各施設を事前に見学することが推奨されている",
+    "申請は原則として居住している市町村で行う。神戸市に転入予定がある場合は事前に相談が必要",
+    "電子申請（e-KOBE）を利用する場合、申請書・調査票・状況票・個人番号申告書は作成不要",
+    "保育を必要とする事由は保護者のいずれかが該当する必要がある。事由には就労（月64時間以上）、妊娠・出産、疾病・障がい、介護・看護、求職活動、就学、育児休業などがある"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.kobe.lg.jp/a65174/kosodate/shien/shinseido/riyomoshikomi/shinsehoho.html",
+      "quote": "2027年度4月入園の1次申し込み受付期間は、2026年10月19日（月曜）～2026年11月30日（月曜）の予定です。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.kobe.lg.jp/a65174/kosodate/shien/shinseido/riyomoshikomi/shinsehoho.html",
+      "quote": "申請書類は、2026年9月18日（金曜）から各区役所・支所の保健福祉課こども福祉担当および玉津支所保健福祉担当で配布します。"
+    },
+    "firstApply": {
+      "url": "https://www.city.kobe.lg.jp/a65174/kosodate/shien/shinseido/riyomoshikomi/shinsehoho.html",
+      "quote": "受付期間（窓口・郵送）2026年10月19日（月曜）～2026年11月30日（月曜）※郵送は、受付期間最終日必着です。※医療的ケアが必要な場合は、2026年10月19日（月曜）～2026年11月13日（金曜）です。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.kobe.lg.jp/a65174/kosodate/shien/shinseido/riyomoshikomi/shinsehoho.html",
+      "quote": "希望する施設が所在する区の区役所・支所の保健福祉課こども福祉担当へ、郵送で申請書類を提出できます。"
+    },
+    "firstResult": {
+      "url": "https://www.city.kobe.lg.jp/a65174/kosodate/shien/shinseido/riyomoshikomi/shinsehoho.html",
+      "quote": "結果発送 2027年1月26日（火曜）頃に発送します。"
+    },
+    "secondApply": {
+      "url": "https://www.city.kobe.lg.jp/a65174/kosodate/shien/shinseido/riyomoshikomi/shinsehoho.html",
+      "quote": "受付期間（窓口・郵送）2026年12月1日（火曜）～2027年2月10日（水曜）※郵送は、受付期間最終日必着です。"
+    },
+    "secondResult": {
+      "url": "https://www.city.kobe.lg.jp/a65174/kosodate/shien/shinseido/riyomoshikomi/shinsehoho.html",
+      "quote": "結果発送 2027年3月1日（月曜）頃に発送します。"
+    },
+    "documents.0": {
+      "url": "https://www.city.kobe.lg.jp/a65174/kosodate/shien/shinseido/shorui/shinse.html",
+      "quote": "紙で申請する場合は、「教育・保育給付認定申請書」の備考欄に手帳の種類・番号を必ず記入してください。"
+    },
+    "documents.1": {
+      "url": "https://www.city.kobe.lg.jp/a65174/kosodate/shien/shinseido/shorui/shinse.html",
+      "quote": "申請に必要な書類のうち、ダウンロード可能なものを掲載しています。"
+    },
+    "documents.2": {
+      "url": "https://www.city.kobe.lg.jp/a65174/kosodate/shien/shinseido/shorui/shinse.html",
+      "quote": "申請に必要な書類のうち、ダウンロード可能なものを掲載しています。"
+    },
+    "documents.3": {
+      "url": "https://www.city.kobe.lg.jp/a65174/kosodate/shien/shinseido/shorui/shinse.html",
+      "quote": "提出の際は、申請者の番号確認書類と本人確認書類が必要です。"
+    },
+    "documents.4": {
+      "url": "https://www.city.kobe.lg.jp/a65174/kosodate/shien/shinseido/shorui/shinse.html",
+      "quote": "就労証明書などは、父母それぞれで作成が必要です。"
+    },
+    "interview": {
+      "url": "https://www.city.kobe.lg.jp/a65174/kosodate/shien/shinseido/riyomoshikomi/shinsehoho.html",
+      "quote": "内定となった場合は、施設で面接や入園手続きを行ってください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.kobe.lg.jp/a65174/kosodate/shien/shinseido/riyomoshikomi/shinsehoho.html",
+      "quote": "保護者が育児休業中である"
+    },
+    "notes.0": {
+      "url": "https://www.city.kobe.lg.jp/a65174/kosodate/shien/shinseido/riyomoshikomi/shinsehoho.html",
+      "quote": "申請から利用までの詳しい流れは、パンフレットをご確認ください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.kobe.lg.jp/a65174/kosodate/shien/shinseido/riyomoshikomi/shinsehoho.html",
+      "quote": "認定申請は、原則として居住している市町村で行います"
+    },
+    "notes.2": {
+      "url": "https://www.city.kobe.lg.jp/a65174/kosodate/shien/shinseido/shorui/shinse.html",
+      "quote": "電子申請（e-KOBE）を利用する場合、次の4点の書類は作成不要です。"
+    },
+    "notes.3": {
+      "url": "https://www.city.kobe.lg.jp/a65174/kosodate/shien/shinseido/riyomoshikomi/shinsehoho.html",
+      "quote": "保護者のいずれもが、下記のいずれかの保育を必要とする事由（1つ以上）に該当し、家庭で保育を行うことが困難な場合は、認定申請および利用申込ができます。"
+    },
+    "documents.0#2": {
+      "url": "https://www.city.kobe.lg.jp/a65174/kosodate/shien/shinseido/shorui/shinse.html",
+      "quote": "電子申請（e-KOBE）を利用する場合、次の4点の書類は作成不要です。"
+    }
+  },
+  "sources": [
+    {
+      "label": "神戸市「教育・保育給付認定（2・3号認定）の申請・利用申込」",
+      "url": "https://www.city.kobe.lg.jp/a65174/kosodate/shien/shinseido/riyomoshikomi/shinsehoho.html"
+    },
+    {
+      "label": "神戸市「保育所などの利用に必要な認定の申請書類」",
+      "url": "https://www.city.kobe.lg.jp/a65174/kosodate/shien/shinseido/shorui/shinse.html"
+    }
+  ]
+}

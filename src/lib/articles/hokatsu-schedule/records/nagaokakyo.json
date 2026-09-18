@@ -1,0 +1,112 @@
+{
+  "citySlug": "nagaokakyo",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "長岡京市「令和8年度保育施設入所案内について」",
+    "url": "https://www.city.nagaokakyo.lg.jp/0000015338.html"
+  },
+  "fiscalYear": "R8",
+  "firstApply": "令和7年11月7日（金）午前10時00分から11月27日（木）午後5時00分まで。電子申請（ぴったりサービス）は上記時間、窓口申込・郵送は令和7年11月24日（月・祝）～27日（木）午前10時00分～午後5時00分",
+  "applyMethods": "申込方法はマイナンバーを用いた電子申請（ぴったりサービス）、窓口申込、郵送です。郵送申請は申込期間内、必着です",
+  "firstResult": "1次選考結果は令和8年2月2日（月）頃、1.5次選考結果は令和8年2月20日（金）頃、2次選考結果は令和8年3月9日（月）頃に発送予定",
+  "secondApply": "令和7年11月28日（金）午前10時00分から令和8年2月27日（金）午後5時00分まで。電子申請（ぴったりサービス）は市ホームページから、窓口申込・郵送は令和7年11月28日（金）～令和8年2月27日（金）午前8時30分～午後5時00分",
+  "documents": [
+    "施設型給付費・地域型保育給付費等教育・保育給付認定申請書",
+    "保育施設入所申込書",
+    "保育が必要な状況を証明する書類。児童の保護者（父と母、同居中のパートナーなど）について、それぞれ必要。申込日の3か月以内のもで、年齢が一番下の児童に原本が添付されていれば、2人目以降は写しでも受付",
+    "マイナンバーカード等。電子申請の場合は写しの添付は不要、郵送の場合は両面の写しを同封、窓口申込の場合は本人確認のため提示",
+    "長岡京市 令和8年度4月1日保育施設入所申込に係る誓約書兼承諾書"
+  ],
+  "interview": "入所決定後、入所日までに面接・説明会などを実施予定",
+  "notes": [
+    "令和9年度（2027年4月入園）の案内は現在準備中で、10月上旬頃に掲載予定",
+    "毎月1日と16日入所を実施しています。但し、4月と3月は16日入所はありません",
+    "申請内容は令和8年4月以降の常態化する内容で提出。申込時点の状況ではないため注意してください",
+    "4月1日までに長岡京市内に住所を有し居住している必要があります。4月30日までに保育の必要な事由の条件を満たさない場合は、支給認定の取消し等となり退所となる場合があります",
+    "就労要件の場合、3か月以上は申込時の就労証明書通りの就労を行う必要があります"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.nagaokakyo.lg.jp/0000015338.html",
+      "quote": "令和8年度は令和8年4月1日入所から令和9年3月1日入所が対象です。"
+    },
+    "firstApply": {
+      "url": "https://www.city.nagaokakyo.lg.jp/cmsfiles/contents/0000015/15338/R8nyusyoannai.pdf",
+      "quote": "令和７年11月7 日㈮午前10時00分から 11月27日㈭午後５時 00分まで"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.nagaokakyo.lg.jp/cmsfiles/contents/0000015/15338/R8nyusyoannai.pdf",
+      "quote": "令和７年11月24日(月・祝)・25日㈫・26日㈬・27日㈭"
+    },
+    "applyMethods": {
+      "url": "https://www.city.nagaokakyo.lg.jp/0000015338.html",
+      "quote": "申込方法はマイナンバーを用いた電子申請（ぴったりサービス）、窓口申込、郵送です。"
+    },
+    "firstResult": {
+      "url": "https://www.city.nagaokakyo.lg.jp/cmsfiles/contents/0000015/15338/R8nyusyoannai.pdf",
+      "quote": "１次選考結果は２月２日㈪頃、1.5次選考結果は２月20日㈮頃、２次選考結果は３月９日㈪頃に発送予定です。"
+    },
+    "secondApply": {
+      "url": "https://www.city.nagaokakyo.lg.jp/cmsfiles/contents/0000015/15338/R8nyusyoannai.pdf",
+      "quote": "令和7年11月28 日㈮午前10時00分～令和8年2月27日㈮午後５時00分まで"
+    },
+    "documents.0": {
+      "url": "https://www.city.nagaokakyo.lg.jp/cmsfiles/contents/0000015/15338/R8nyusyoannai.pdf",
+      "quote": "施設型給付費・地域型保育給付費等教育・保育給付認定申請書"
+    },
+    "documents.1": {
+      "url": "https://www.city.nagaokakyo.lg.jp/cmsfiles/contents/0000015/15338/R8nyusyoannai.pdf",
+      "quote": "保育施設入所申込書"
+    },
+    "documents.2": {
+      "url": "https://www.city.nagaokakyo.lg.jp/0000015338.html",
+      "quote": "『保育が必要な状況を証明する書類』は、児童の保護者（父と母、同居中のパートナーなど）について、それぞれ必要となります。"
+    },
+    "documents.3": {
+      "url": "https://www.city.nagaokakyo.lg.jp/0000015338.html",
+      "quote": "提出の際は、提出される方の個人番号カード、または通知カードおよび運転免許証等の本人確認書類の提示が必要となります。"
+    },
+    "documents.4": {
+      "url": "https://www.city.nagaokakyo.lg.jp/cmsfiles/contents/0000015/15338/R8nyusyoannai.pdf",
+      "quote": "長岡京市 令和８年度４月１日保育施設入所申込に係る誓約書兼承諾書"
+    },
+    "interview": {
+      "url": "https://www.city.nagaokakyo.lg.jp/cmsfiles/contents/0000015/15338/R8nyusyoannai.pdf",
+      "quote": "面接・説明会など"
+    },
+    "notes.0": {
+      "url": "https://www.city.nagaokakyo.lg.jp/0000009241.html",
+      "quote": "令和9年度の認可保育施設（保育所（園）、認定こども園（保育認定）、小規模保育施設）の入所案内につきましては、現在準備中です。10月上旬頃に掲載予定ですので、もうしばらくお待ちください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.nagaokakyo.lg.jp/0000015338.html",
+      "quote": "毎月1日と16日入所を実施しています。但し、4月と3月は16日入所はありません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.nagaokakyo.lg.jp/cmsfiles/contents/0000015/15338/R8nyusyoannai.pdf",
+      "quote": "申請内容は令和８年４月以降の常態化する内容で提出してください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.nagaokakyo.lg.jp/cmsfiles/contents/0000015/15338/R8nyusyoannai.pdf",
+      "quote": "４月１日までに長岡京市内に住所を有し居住している必要があります。"
+    },
+    "notes.4": {
+      "url": "https://www.city.nagaokakyo.lg.jp/cmsfiles/contents/0000015/15338/R8nyusyoannai.pdf",
+      "quote": "就労要件の場合、３か月以上は申込時の就労証明書通りの就労を行う必要があります。"
+    }
+  },
+  "sources": [
+    {
+      "label": "長岡京市「令和8年度保育施設入所案内について」",
+      "url": "https://www.city.nagaokakyo.lg.jp/0000015338.html"
+    },
+    {
+      "label": "令和8年度保育施設入所案内 PDF",
+      "url": "https://www.city.nagaokakyo.lg.jp/cmsfiles/contents/0000015/15338/R8nyusyoannai.pdf"
+    },
+    {
+      "label": "長岡京市「令和9年度保育施設入所案内について」",
+      "url": "https://www.city.nagaokakyo.lg.jp/0000009241.html"
+    }
+  ]
+}

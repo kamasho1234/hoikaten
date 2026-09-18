@@ -1,0 +1,117 @@
+{
+  "citySlug": "hikone",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "彦根市「令和9年度(2027年度)保育所等利用案内」",
+    "url": "https://www.city.hikone.lg.jp/kosodate/kosodate_shien/1/hoiku/1/30793.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年8月31日（月曜日）から、各保育施設、総合案内（市役所本庁舎1階）、支所・出張所、地域子育て支援センター等で配布するほか、彦根市ホームページからもダウンロードできる",
+  "firstApply": "令和8年10月1日（木）～10月15日（木）",
+  "applyMethods": "彦根市電子申請サービスで申し込み。紙申請も可能",
+  "firstResult": "令和8年11月下旬に彦根市電子申請サービスにて通知（紙申請の方は文書）",
+  "secondApply": "令和8年11月2日（月）～12月4日（金）。対象は一次申込に間に合わなかった方、求職活動中の要件で申し込む方",
+  "secondResult": "令和8年12月下旬に彦根市電子申請サービスにて通知（紙申請の方は文書）",
+  "midYearDeadline": "入所希望月の前々月末（紙申請の場合、月末が土日祝の場合は前開庁日）",
+  "documents": [
+    "保育の必要性の事由に該当することを示す添付書類（父親、母親および60歳未満の祖父母等それぞれ）",
+    "就労証明書記入例、診断書、介護・看護に関する申立書、求職活動状況申立書等各種様式"
+  ],
+  "interview": "入園説明会・健康診断・入園式の日程は、内定した園からご案内が届く",
+  "ikukyu": "育児休業中の方は、育児休業の期間・復職予定日の記載のある就労証明書が必要。育児休業明けは、ならし保育のため、復職予定日の前月初日から利用可能",
+  "notes": [
+    "本冊子に掲載されている内容は、令和8年8月時点の情報であり、今後変更になることがあります",
+    "応募資格は、令和9年4月1日時点で住民登録が本市にある方",
+    "保育所等利用申込の内容について事実と相違があるときは、決定を取り消す場合があります",
+    "「下の子の保育のため」「集団生活に慣れさせるため」等の理由だけでは保育の必要性の事由に該当しません",
+    "保育の必要性を証明する書類がない場合は原則として受付けません"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.hikone.lg.jp/material/files/group/107/R9hoikusyotouriyouannai.pdf",
+      "quote": "令和9年4月1日時点で住民登録が本市にある方（令和9年4月1日までに彦根市に転入することが確実な方を含む）で、「保育の必要性の事由」に該当し、保育所等での保育を希望される方"
+    },
+    "guideRelease": {
+      "url": "https://www.city.hikone.lg.jp/kakuka/kodomo_mirai/7/r9hoikusyotouriyouannai/30708.html",
+      "quote": "利用案内や必要書類は、8月31日(月曜日)から、各保育施設、総合案内（市役所本庁舎1階）、支所・出張所、地域子育て支援センター【まんまるひろば】（ビバシティ彦根2階）、【さんさんひろば】（認定こども園ひかりの森内）、【チャチャチャひろば】（アル・プラザ彦根内）、子どもセンター、市幼児課（福祉センター2階）で配布するほか、以下よりダウンロードできます。"
+    },
+    "firstApply": {
+      "url": "https://www.city.hikone.lg.jp/material/files/group/107/R9hoikusyotouriyouannai.pdf",
+      "quote": "申込期間：令和8年10月1日（木）～10月15日（木）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.hikone.lg.jp/material/files/group/107/R9hoikusyotouriyouannai.pdf",
+      "quote": "☞お申し込みはこちらから【彦根市電子申請サービス】"
+    },
+    "firstResult": {
+      "url": "https://www.city.hikone.lg.jp/material/files/group/107/R9hoikusyotouriyouannai.pdf",
+      "quote": "内定結果：11月下旬 ※内定結果は彦根市電子申請サービスにて通知します(紙申請の方は文書)。"
+    },
+    "secondApply": {
+      "url": "https://www.city.hikone.lg.jp/material/files/group/107/R9hoikusyotouriyouannai.pdf",
+      "quote": "二次申込 【対象者】 ①一次申込に間に合わなかった方 ②求職活動中の要件で申し込む方 申込期間：令和8年11月2日（月）～12月4日（金）"
+    },
+    "secondResult": {
+      "url": "https://www.city.hikone.lg.jp/material/files/group/107/R9hoikusyotouriyouannai.pdf",
+      "quote": "内定結果：12月下旬 ※内定結果は彦根市電子申請サービスにて通知します(紙申請の方は文書)。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.hikone.lg.jp/material/files/group/107/R9hoikusyotouriyouannai.pdf",
+      "quote": "入所希望月の前々月末（紙申請の場合、月末が土日祝の場合は前開庁日）が締切です。"
+    },
+    "interview": {
+      "url": "https://www.city.hikone.lg.jp/material/files/group/107/R9hoikusyotouriyouannai.pdf",
+      "quote": "入園説明会・健康診断・入園式の日程は、内定した園からご案内が届きます。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.hikone.lg.jp/material/files/group/107/R9hoikusyotouriyouannai.pdf",
+      "quote": "妊娠・出産（育児休業の方） ○母子手帳の写し ○育児休業の期間・復職予定日の記載のある就労証明書"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.hikone.lg.jp/material/files/group/107/R9hoikusyotouriyouannai.pdf",
+      "quote": "育児休業明けは、ならし保育のため、復職予定日の前月初日から「就労」に該当(例：4月入所の場合：5月中に復職)"
+    },
+    "notes.0": {
+      "url": "https://www.city.hikone.lg.jp/material/files/group/107/R9hoikusyotouriyouannai.pdf",
+      "quote": "※本冊子に掲載されている内容は、令和8年8月時点の情報であり、今後変更になることがあります。"
+    },
+    "notes.1": {
+      "url": "https://www.city.hikone.lg.jp/material/files/group/107/R9hoikusyotouriyouannai.pdf",
+      "quote": "令和9年4月1日時点で住民登録が本市にある方（令和9年4月1日までに彦根市に転入することが確実な方を含む）で、「保育の必要性の事由」に該当し、保育所等での保育を希望される方"
+    },
+    "notes.2": {
+      "url": "https://www.city.hikone.lg.jp/material/files/group/107/R9hoikusyotouriyouannai.pdf",
+      "quote": "保育所等利用申込の内容について事実と相違があるときは、決定を取り消す場合がありますのでご注意ください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.hikone.lg.jp/material/files/group/107/R9hoikusyotouriyouannai.pdf",
+      "quote": "「下の子の保育のため」「集団生活に慣れさせるため」「社会生活を身につけさせるため」「友だちを作るため」「遊ぶ場所がないため」という理由だけでは保育の必要性の事由に該当しません。"
+    },
+    "notes.4": {
+      "url": "https://www.city.hikone.lg.jp/material/files/group/107/R9hoikusyotouriyouannai.pdf",
+      "quote": "保育所等利用申込の際に保育の必要性の事由を証明する書類がない場合は原則として受付けません。"
+    },
+    "documents.0": {
+      "url": "https://www.city.hikone.lg.jp/material/files/group/107/R9hoikusyotouriyouannai.pdf",
+      "quote": "保育所等利用申込の際に、父親、母親および60歳未満の祖父母等についてそれぞれ該当する事由を添付してください。"
+    },
+    "documents.1": {
+      "url": "https://www.city.hikone.lg.jp/kakuka/kodomo_mirai/7/r9hoikusyotouriyouannai/30708.html",
+      "quote": "利用案内や必要書類は、8月31日(月曜日)から、各保育施設、総合案内（市役所本庁舎1階）、支所・出張所、地域子育て支援センター【まんまるひろば】（ビバシティ彦根2階）、【さんさんひろば】（認定こども園ひかりの森内）、【チャチャチャひろば】（アル・プラザ彦根内）、子どもセンター、市幼児課（福祉センター2階）で配布するほか、以下よりダウンロードできます。"
+    }
+  },
+  "sources": [
+    {
+      "label": "彦根市「令和9年度(2027年度)保育所等利用案内」",
+      "url": "https://www.city.hikone.lg.jp/kosodate/kosodate_shien/1/hoiku/1/30793.html"
+    },
+    {
+      "label": "利用案内・各種様式",
+      "url": "https://www.city.hikone.lg.jp/kakuka/kodomo_mirai/7/r9hoikusyotouriyouannai/30708.html"
+    },
+    {
+      "label": "令和9年度保育所等利用案内 PDF",
+      "url": "https://www.city.hikone.lg.jp/material/files/group/107/R9hoikusyotouriyouannai.pdf"
+    }
+  ]
+}

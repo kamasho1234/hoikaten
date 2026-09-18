@@ -1,0 +1,52 @@
+{
+  "citySlug": "takamatsu",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "高松市「令和8年4月からの保育施設等の利用について」",
+    "url": "https://www.city.takamatsu.kagawa.jp/smph/kurashi/kosodate/youchien_hoiku/kodomoen/hoiku/h29riyou.html"
+  },
+  "fiscalYear": "R8",
+  "guideRelease": "令和7年10月17日（金曜日）から利用案内、入所申込書等の配布開始。配布場所は各保育施設等、市役所6階こども保育教育課、各総合センター、各支所",
+  "firstApply": "令和7年11月4日（火曜日）から令和7年11月21日（金曜日）17時まで。第1希望の保育施設等に提出",
+  "applyMethods": "第1希望の保育施設等に提出（一次受付）。二次以降はこども保育教育課、各総合センター、各支所に提出。家庭状況の聞き取りは施設及びこども保育教育課の職員が行う",
+  "firstResult": "令和8年2月10日頃（予定）に郵送で通知",
+  "secondApply": "令和7年11月25日（火曜日）から令和8年1月19日（月曜日）まで",
+  "secondResult": "令和8年3月10日頃（予定）に電話及び書面郵送で通知",
+  "notes": [],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.takamatsu.kagawa.jp/smph/kurashi/kosodate/youchien_hoiku/kodomoen/hoiku/h29riyou.html",
+      "quote": "令和8年4月から保育施設等を利用するに当たっての手続及び利用者負担額（保育料）等については次のとおりです。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.takamatsu.kagawa.jp/smph/kurashi/kosodate/youchien_hoiku/kodomoen/hoiku/h29riyou.html",
+      "quote": "利用案内、入所申込書等の配布開始 令和7年10月17日（金曜日）から"
+    },
+    "firstApply": {
+      "url": "https://www.city.takamatsu.kagawa.jp/smph/kurashi/kosodate/youchien_hoiku/kodomoen/hoiku/h29riyou.html",
+      "quote": "令和7年11月4日（火曜日）から令和7年11月21日（金曜日）まで"
+    },
+    "applyMethods": {
+      "url": "https://www.city.takamatsu.kagawa.jp/smph/kurashi/kosodate/youchien_hoiku/kodomoen/hoiku/h29riyou.html",
+      "quote": "受付場所：第1希望の保育施設等"
+    },
+    "firstResult": {
+      "url": "https://www.city.takamatsu.kagawa.jp/smph/kurashi/kosodate/youchien_hoiku/kodomoen/hoiku/h29riyou.html",
+      "quote": "令和8年2月10日（火曜日）頃※2月17日（火曜日）までに届かない場合はお問い合わせください。"
+    },
+    "secondApply": {
+      "url": "https://www.city.takamatsu.kagawa.jp/smph/kurashi/kosodate/youchien_hoiku/kodomoen/hoiku/h29riyou.html",
+      "quote": "令和7年11月25日（火曜日）から令和8年1月19日（月曜日）まで"
+    },
+    "secondResult": {
+      "url": "https://www.city.takamatsu.kagawa.jp/smph/kurashi/kosodate/youchien_hoiku/kodomoen/hoiku/h29riyou.html",
+      "quote": "令和8年3月10日（火曜日）頃"
+    }
+  },
+  "sources": [
+    {
+      "label": "高松市「令和8年4月からの保育施設等の利用について」",
+      "url": "https://www.city.takamatsu.kagawa.jp/smph/kurashi/kosodate/youchien_hoiku/kodomoen/hoiku/h29riyou.html"
+    }
+  ]
+}

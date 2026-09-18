@@ -1,0 +1,129 @@
+{
+  "citySlug": "koshigaya",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "越谷市「令和9年(2027年)4月からの保育施設への入所申込」",
+    "url": "https://www.city.koshigaya.saitama.jp/kurashi_shisei/kosodate/hoikusho/isseiuketsuke_2027.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年9月2日（水曜日）から利用申込書と「保育施設・幼稚園等のご案内」を保育所・保育園・認定こども園・地域型保育事業所と市役所保育支援課で配布",
+  "firstApply": "一斉受付（1次受付）は面接受付が令和8年10月15日〜17日・19日、書類受付が令和8年11月6日・7日・9日〜12日",
+  "applyMethods": "面接受付のあと別の日の書類受付で書類を提出して手続完了。受付には電子申請による事前予約が必要（先着順）。会場は越谷市役所エントランス棟3階",
+  "firstResult": "入所の承諾・保留にかかわらず、認定結果とあわせて令和9年2月上旬に郵送で通知。保留の場合は2次利用調整で承諾になったときだけ令和9年3月上旬に改めて通知",
+  "secondApply": "令和8年12月1日（火曜日）〜令和9年2月10日（水曜日）の8時30分〜17時15分（土日祝を除く）に保育支援課（越谷市役所第二庁舎2階）で受付。2次受付分は2回目の利用調整からの対象",
+  "secondResult": "2次受付分は令和9年3月上旬に郵送で通知（市外からの転入者向けの3次受付分は3月中旬）",
+  "documents": [
+    "教育・保育給付認定申請書(兼)利用申込書、児童の状況シート、エントリーシート、マイナンバー（個人番号）記入用紙（令和9年度用の申込書セット）",
+    "保育の必要性を証明する書類（就労証明書、求職活動状況報告書、介護（看護）状況申告書など）",
+    "証明書類は提出時点で発行から3か月以内のものを提出する",
+    "きょうだい同時申込の場合、就労証明書など証明書類は原本1部で、それ以外はコピーでもよい",
+    "面接受付の持ち物は児童の状況シートと母子健康手帳（忘れると面接できない）"
+  ],
+  "interview": "一斉受付ではまず保育士による子どもの面接がある（面接受付の日程は上の表のとおり）。令和8年6月2日以降に生まれた子どもは省略できるが、疾患・障がいがある場合や健診で指摘があった場合などは面接が必要",
+  "ikukyu": "育児休業終了予定月より前の入所を希望する場合は令和9年5月14日までに復職することが条件で、復職証明書の提出がないと退所になる。「育児休業に関する申出書」を提出する人は面接不要",
+  "notes": [
+    "申込の順番は入所の決定と関係がない",
+    "面接受付の事前予約は令和8年9月7日（月曜日）〜10月16日（金曜日）（予約希望日の前日正午まで）",
+    "受付した書類に不足があるときは11月25日（水曜日）必着で保育支援課に出せば指数に反映される（郵送可、11月18日までに投函）",
+    "4月からの入所を希望する場合は必ず一斉受付で申し込む。2次受付は1回目の利用調整後に定員に空きがある場合などにだけ利用調整が行われる",
+    "現在保育施設に入所中で4月から別の施設への移行を希望する場合も一斉受付で申し込む。移行が決まると元の施設には戻れない",
+    "令和8年9月2日（水曜日）〜9月4日（金曜日）に市内の認可施設・事業所一斉の見学会がある",
+    "必要書類は原則郵送提出不可"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.koshigaya.saitama.jp/kurashi_shisei/kosodate/hoikusho/isseiuketsuke_2027.html",
+      "quote": "越谷市在住または転入予定者で令和9年4月1日に各施設が定めた受入可能月齢(生後3か月など。一覧参照)を経過している乳児から申込ができます。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.koshigaya.saitama.jp/kurashi_shisei/kosodate/hoikusho/isseiuketsuke_2027.html",
+      "quote": "保育施設の利用申込書及び「保育施設・幼稚園等のご案内」は、令和8年9月2日(水曜日)から保育所・保育園・認定こども園・地域型保育事業所と市役所保育支援課で配布しています。"
+    },
+    "firstApply": {
+      "url": "https://www.city.koshigaya.saitama.jp/kurashi_shisei/kosodate/hoikusho/isseiuketsuke_2027.html",
+      "quote": "一斉受付（１次受付）【お子さんの面接】 令和8年(2026年)10月15日～17日・19日 9:00～12:00・13:00～15:30 一斉受付（1次受付）【書類受付】 令和8年(2026年)11月6日・7日・9日～12日"
+    },
+    "applyMethods": {
+      "url": "https://www.city.koshigaya.saitama.jp/kurashi_shisei/kosodate/hoikusho/isseiuketsuke_2027.html",
+      "quote": "「(1)面接受付」後、別の日に行う「(2)書類受付」で書類を提出して「手続完了」となります。 ※受付には電子申請による事前予約が必要です(事前予約は先着順です)。"
+    },
+    "firstResult": {
+      "url": "https://www.city.koshigaya.saitama.jp/kurashi_shisei/kosodate/hoikusho/isseiuketsuke_2027.html",
+      "quote": "入所の承諾(あっせん可)・保留(あっせん不可)にかかわらず、認定結果とあわせて令和9年2月上旬に郵送で通知します。 なお、入所が「保留」となった場合、2次受付申込児童と4月入所の「2次利用調整」を行い、入所承諾となった場合のみ、令和9年3月上旬に郵送で改めて通知します。"
+    },
+    "secondApply": {
+      "url": "https://www.city.koshigaya.saitama.jp/kurashi_shisei/kosodate/hoikusho/isseiuketsuke_2027.html",
+      "quote": "令和8年12月1日（火曜日）から令和9年2月10日（水曜日）までの、8時30分から17時15分まで（土曜日・日曜日・祝日を除きます） 場所 保育支援課（越谷市役所第二庁舎2階）"
+    },
+    "secondResult": {
+      "url": "https://www.city.koshigaya.saitama.jp/kurashi_shisei/kosodate/hoikusho/isseiuketsuke_2027.html",
+      "quote": "入所の承諾・保留にかかわらず、2次受付分は令和9年3月上旬に、3次受付分は3月中旬に、それぞれ郵送で通知します。"
+    },
+    "documents.0": {
+      "url": "https://www.city.koshigaya.saitama.jp/kurashi_shisei/kosodate/hoikusho/youho-documents.html",
+      "quote": "【令和9年度用】★教育・保育給付認定申請書(兼)利用申込書（PDF：790KB） 【令和9年度用】★児童の状況シート（PDF：388KB） 【令和9年度用】★エントリーシート（PDF：258KB） 【令和9年度用】★マイナンバー（個人番号）記入用紙（PDF：178KB）"
+    },
+    "documents.1": {
+      "url": "https://www.city.koshigaya.saitama.jp/kurashi_shisei/kosodate/hoikusho/youho-documents.html",
+      "quote": "保育の必要性を証明する書類（就労証明書） 就労証明書（pdf版）（PDF：212KB） 就労証明書（記入例・記入要領）（PDF：435KB） 就労証明書（Excel版）（エクセル：73KB） 保育の必要性を証明する書類（その他） 求職活動状況報告書（PDF：169KB） 介護（看護）状況申告書（PDF：257KB）"
+    },
+    "interview": {
+      "url": "https://www.city.koshigaya.saitama.jp/kurashi_shisei/kosodate/hoikusho/isseiuketsuke_2027.html",
+      "quote": "保育士によるお子さんの面接を行います。 ※令和8年6月2日以降に生まれたお子さんは面接を省略することができます。　ただし、下記に当てはまる場合は面接が必要です。 ・疾患・障がいがある。 ・直近の健診(1か月健診、4か月健診等)で指摘があった。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.koshigaya.saitama.jp/kurashi_shisei/kosodate/hoikusho/isseiuketsuke_2027.html",
+      "quote": "育児休業終了予定月より前に保育施設への入所を希望する場合は、令和9年5月14日までに復職することが条件となります。 復職証明書の提出がない場合は退所となります。"
+    },
+    "documents.4": {
+      "url": "https://www.city.koshigaya.saitama.jp/kurashi_shisei/kosodate/hoikusho/isseiuketsuke_2027.html",
+      "quote": "「児童の状況シート」(※申込書類の一部です)、母子健康手帳(忘れると面接できません)"
+    },
+    "documents.3": {
+      "url": "https://www.city.koshigaya.saitama.jp/kurashi_shisei/kosodate/hoikusho/youho-documents.html",
+      "quote": "きょうだい同時申込の場合、就労証明書など証明書類は、原本1部で、それ以外はコピーでも構いません。"
+    },
+    "documents.2": {
+      "url": "https://www.city.koshigaya.saitama.jp/kurashi_shisei/kosodate/hoikusho/youho-documents.html",
+      "quote": "証明書類は、提出時点で発行から3か月以内のものを提出してください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.koshigaya.saitama.jp/kurashi_shisei/kosodate/hoikusho/isseiuketsuke_2027.html",
+      "quote": "入所の決定に際し、申込の順番は関係ありません。"
+    },
+    "notes.1": {
+      "url": "https://www.city.koshigaya.saitama.jp/kurashi_shisei/kosodate/hoikusho/isseiuketsuke_2027.html",
+      "quote": "令和8年(2026年)9月7日(月曜日)から10月16日(金曜日) ※予約希望日の前日の正午まで(予約希望日の前日が土・日の場合その前の平日の正午まで) 例：10月19日(日曜日)の予約は10月17日(金曜日)の正午まで"
+    },
+    "notes.2": {
+      "url": "https://www.city.koshigaya.saitama.jp/kurashi_shisei/kosodate/hoikusho/isseiuketsuke_2027.html",
+      "quote": "受付した方で、不足書類や必要な書類でそろっていない場合や追加で書類を求められた場合、11月25日(水曜日・必着)までに保育支援課に提出すれば指数に反映できます。"
+    },
+    "notes.3": {
+      "url": "https://www.city.koshigaya.saitama.jp/kurashi_shisei/kosodate/hoikusho/isseiuketsuke_2027.html",
+      "quote": "※4月からの保育施設の入所をあらかじめ希望する場合は、必ず一斉受付で申し込んでください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.koshigaya.saitama.jp/kurashi_shisei/kosodate/hoikusho/isseiuketsuke_2027.html",
+      "quote": "現在、保育施設に入所中で、次の4月から別の保育施設への移行を希望する場合も、一斉受付で申込をしてください。 なお、移行が決定した場合、現在の保育施設には戻ることができません。"
+    },
+    "notes.5": {
+      "url": "https://www.city.koshigaya.saitama.jp/kurashi_shisei/kosodate/hoikusho/isseiuketsuke_2027.html",
+      "quote": "保育施設の利用を検討している方向けに、令和8年(2026年)9月2日(水曜日)から9月4日(金曜日)まで、市内の認可施設・事業所一斉で見学会を行います。"
+    },
+    "notes.6": {
+      "url": "https://www.city.koshigaya.saitama.jp/kurashi_shisei/kosodate/hoikusho/youho-documents.html",
+      "quote": "原則郵送提出不可です。 必要書類は、世帯の状況で異なります。必ず冊子「保育施設・幼稚園等のご案内」を入手し、確認してください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "越谷市「令和9年(2027年)4月からの保育施設への入所申込」",
+      "url": "https://www.city.koshigaya.saitama.jp/kurashi_shisei/kosodate/hoikusho/isseiuketsuke_2027.html"
+    },
+    {
+      "label": "越谷市「保育施設利用、施設等利用給付認定の必要書類」",
+      "url": "https://www.city.koshigaya.saitama.jp/kurashi_shisei/kosodate/hoikusho/youho-documents.html"
+    }
+  ]
+}

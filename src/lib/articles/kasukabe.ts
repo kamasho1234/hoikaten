@@ -5,62 +5,6 @@ const articles: Article[] = [
   // =========================================================================
   // 1. 保活スケジュール完全ガイド
   // =========================================================================
-  {
-    slug: "hokatsu-schedule",
-    citySlug: "kasukabe",
-    title: "春日部市の保活スケジュール完全ガイド（令和8年度）",
-    description:
-      "春日部市の認可保育園、令和8年度4月入園の申込時期・選考の流れ・結果通知のスケジュールをわかりやすくまとめました。",
-    image:
-      "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>令和8年度（2026年度）4月入園のスケジュール</h2>
-<p>春日部市の4月入園は<strong>一次受付</strong>と<strong>二次受付</strong>の2回に分かれています。申込先は春日部市こども未来部保育課です。</p>
-
-<h3>一次受付（一斉受付）</h3>
-<table>
-<tr><th>項目</th><th>日程（目安）</th></tr>
-<tr><td>申込期間</td><td>令和7年10月下旬～11月上旬</td></tr>
-<tr><td>申込方法</td><td>窓口（保育課）・郵送</td></tr>
-<tr><td>結果通知</td><td>令和8年1月下旬～2月上旬</td></tr>
-</table>
-
-<h3>二次受付</h3>
-<table>
-<tr><th>項目</th><th>日程（目安）</th></tr>
-<tr><td>申込期間</td><td>令和8年2月中旬まで</td></tr>
-<tr><td>結果通知</td><td>令和8年3月上旬</td></tr>
-</table>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>一次で保留となった場合も、希望園の変更届を出すことで二次受付の対象になります。春日部市の「保育所等利用のご案内」は9月頃に配布されるので早めに入手しましょう。</p>
-</div>
-
-<h2>いつから動き始めるべき？</h2>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content"><strong>4月～6月：情報収集スタート</strong><p>前年度の「ご案内」冊子をベースに、地域の保育園を調べ始めましょう。</p></div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content"><strong>6月～9月：保育園見学</strong><p>春日部市には認可保育園が約30か所あります。見学は電話予約制が基本です。</p></div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content"><strong>9月～10月：書類準備</strong><p>就労証明書は勤務先に早めに依頼。面接が必要な場合もあるため注意してください。</p></div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content"><strong>10月下旬：一斉受付に申込</strong><p>窓口・郵送で提出します。書類不備があると受理されないため入念にチェックを。</p></div>
-</div>
-
-<h2>途中入園（5月～3月）</h2>
-<p>入園希望月の<span class="highlight">前月10日頃</span>が締切です。空き状況は春日部市のホームページで毎月更新されます。</p>`,
-    publishedAt: "2026-04-07",
-    popularity: 55,
-  },
 
   // =========================================================================
   // 2. 点数の仕組みと計算方法

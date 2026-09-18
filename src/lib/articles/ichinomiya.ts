@@ -3,46 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   // 1. 保活スケジュール完全ガイド
-  {
-    slug: "hokatsu-schedule",
-    citySlug: "ichinomiya",
-    title: "一宮市の保活スケジュール完全ガイド｜申込時期と準備の流れ",
-    description:
-      "一宮市の保育園入園申込スケジュールを時系列で解説。4月入園の1次・2次募集や途中入園の流れ、準備すべき書類をまとめました。",
-    category: "スケジュール",
-    categoryColor: "green",
-    image:
-      "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=800&h=400&fit=crop",
-    content: `<h2>一宮市の保活スケジュール</h2>
-<p>一宮市の保育園入園は「4月入園（当初入所）」と「途中入園（通年入所）」の2種類があります。それぞれ申込時期が異なるため、早めの準備が大切です。</p>
-
-<h2>4月入園のスケジュール</h2>
-<div class="step">
-<p><strong>STEP1：9月下旬</strong>　入所申込みの手引き配布開始・園見学</p>
-<p><strong>STEP2：10月上旬〜下旬</strong>　1次申込受付（第1希望園またはオンラインで提出）</p>
-<p><strong>STEP3：11月〜12月</strong>　面接・選考</p>
-<p><strong>STEP4：1月下旬〜2月</strong>　1次結果通知</p>
-<p><strong>STEP5：2月〜3月</strong>　2次募集・追加募集（空きがある場合）</p>
-</div>
-
-<h2>途中入園のスケジュール</h2>
-<p>途中入園は毎月受付しています。入園希望月の前月10日頃までに申込みが必要です。空き状況は一宮市公式サイトで随時確認できます。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>一宮市では「ぴったりサービス」を利用したオンライン申込みが可能です。来庁が難しい方は積極的に活用しましょう。</p>
-</div>
-
-<h2>準備すべき書類</h2>
-<p>就労証明書は勤務先に記入してもらう必要があるため、2〜3週間前には依頼しましょう。自営業の方は確定申告書や開業届のコピーも必要です。就労状況は過去3か月の実績で判定されます。</p>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>最新のスケジュールは<a href="https://www.city.ichinomiya.aichi.jp/kodomokatei/hoiku/1000155/1010629/index.html" target="_blank" rel="noopener">一宮市保育園等ページ</a>で確認できます。問い合わせ先：保育課入所グループ（0586-28-9024）</p>
-</div>`,
-    publishedAt: "2026-04-05",
-    popularity: 55,
-  },
 
   // 2. 点数の仕組みと計算方法
   {

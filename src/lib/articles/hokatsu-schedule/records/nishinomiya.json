@@ -1,0 +1,72 @@
+{
+  "citySlug": "nishinomiya",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "西宮市「令和9年4月1日入園等の認可保育施設利用申込について」",
+    "url": "https://www.nishi.or.jp/kosodate/hoikujo/hoikujo/riyotetsuzuki/riyomoshikomi.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年9月1日（火曜日）から申込書類の配布を開始",
+  "firstApply": "令和8年9月16日（水曜日）から令和8年10月16日（金曜日）の17時00分まで受付",
+  "applyMethods": "保育入所課（市役所本庁舎7階）に直接提出。0～1歳児クラスは電子申請も可能",
+  "firstResult": "令和9年1月21日（木曜日）予定に文書にて通知",
+  "secondApply": "令和9年1月29日（金曜日）17時00分まで",
+  "secondResult": "令和9年3月4日（木曜日）予定に文書にて通知",
+  "interview": "内定した認可保育施設での面接及び健康診断を実施",
+  "notes": [
+    "申込書類の提出に当たって、令和8年9月16日から令和8年10月16日は予約優先制を導入",
+    "北部地域での出張申込受付を実施。塩瀬センター令和8年9月28日、山口センター令和8年10月1日"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.nishi.or.jp/kosodate/hoikujo/hoikujo/riyotetsuzuki/riyomoshikomi.html",
+      "quote": "令和9年4月1日入園の認可保育施設利用申込については、令和8年9月1日（火曜日）から申込書類の配布を行い、令和8年9月16日（水曜日）から令和8年10月16日（金曜日）まで第1次申込の受付を行います。"
+    },
+    "guideRelease": {
+      "url": "https://www.nishi.or.jp/kosodate/hoikujo/hoikujo/riyotetsuzuki/riyomoshikomi.html",
+      "quote": "令和8年9月1日（火曜日）から申込書類の配布を行い"
+    },
+    "firstApply": {
+      "url": "https://www.nishi.or.jp/kosodate/hoikujo/hoikujo/riyotetsuzuki/riyomoshikomi.html",
+      "quote": "令和8年9月16日（水曜日）から令和8年10月16日（金曜日）まで第1次申込の受付を行います。"
+    },
+    "applyMethods": {
+      "url": "https://www.nishi.or.jp/kosodate/hoikujo/hoikujo/riyotetsuzuki/riyomoshikomi.html",
+      "quote": "保育入所課（市役所本庁舎7階）にお越しください。"
+    },
+    "firstResult": {
+      "url": "https://www.nishi.or.jp/kosodate/hoikujo/hoikujo/riyotetsuzuki/riyomoshikomi.html",
+      "quote": "令和9年4月1日入園の結果発表日（第1次申込）令和9年1月21日（木曜日）予定"
+    },
+    "secondApply": {
+      "url": "https://www.nishi.or.jp/kosodate/hoikujo/hoikujo/riyotetsuzuki/riyomoshikomi.html",
+      "quote": "令和9年4月1日入園の申込締切日時（第2次申込）令和9年1月29日（金曜日）17時00分"
+    },
+    "secondResult": {
+      "url": "https://www.nishi.or.jp/kosodate/hoikujo/hoikujo/riyotetsuzuki/riyomoshikomi.html",
+      "quote": "令和9年4月1日入園の結果発表日（第2次申込）令和9年3月4日（木曜日）予定"
+    },
+    "interview": {
+      "url": "https://www.nishi.or.jp/kosodate/hoikujo/hoikujo/riyotetsuzuki/moshikomi.html",
+      "quote": "認可保育施設の利用が内定となった方は、施設で面接及び健康診断を行います。"
+    },
+    "notes.0": {
+      "url": "https://www.nishi.or.jp/kosodate/hoikujo/hoikujo/riyotetsuzuki/riyomoshikomi.html",
+      "quote": "令和8年9月16日から令和8年10月16日については「窓口予約システム」を活用した事前予約を行います。"
+    },
+    "notes.1": {
+      "url": "https://www.nishi.or.jp/kosodate/hoikujo/hoikujo/riyotetsuzuki/riyomoshikomi.html",
+      "quote": "塩瀬センター：令和8年9月28日（月曜日）10時から16時まで（12時から13時を除く）"
+    }
+  },
+  "sources": [
+    {
+      "label": "西宮市「令和9年4月1日入園等の認可保育施設利用申込について」",
+      "url": "https://www.nishi.or.jp/kosodate/hoikujo/hoikujo/riyotetsuzuki/riyomoshikomi.html"
+    },
+    {
+      "label": "西宮市「認可保育施設の利用申込について」",
+      "url": "https://www.nishi.or.jp/kosodate/hoikujo/hoikujo/riyotetsuzuki/moshikomi.html"
+    }
+  ]
+}

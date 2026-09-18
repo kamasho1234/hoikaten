@@ -3,65 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "hikone",
-    title: "彦根市の保活スケジュール　令和8年度4月入園の流れ",
-    description:
-      "彦根市の認可保育所等の申込時期・選考の流れ・結果通知の時期をわかりやすく解説。令和8年度4月入園のスケジュールを中心にまとめました。",
-    image:
-      "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>令和8年度（2026年度）4月入園のスケジュール</h2>
-<p>彦根市の4月入園は一次選考と二次選考に分かれています。</p>
-
-<table>
-<tr><th>項目</th><th>日程</th></tr>
-<tr><td>一次申込受付期間</td><td>令和7年11月上旬〜12月上旬</td></tr>
-<tr><td>一次結果通知</td><td>令和8年1月中旬</td></tr>
-<tr><td>二次申込受付期間</td><td>令和8年1月下旬〜2月上旬</td></tr>
-<tr><td>二次結果通知</td><td>令和8年2月下旬</td></tr>
-</table>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>彦根市は滋賀県東部の中心都市です。彦根城周辺の観光地としても知られ、製造業・観光業に従事する共働き世帯が多い地域です。</p>
-</div>
-
-<h2>いつから動き始めるべき？</h2>
-
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content">
-<strong>4月〜6月：情報収集スタート</strong>
-<p>彦根市の保育施設の種類・エリアを調べましょう。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content">
-<strong>7月〜9月：保育園見学</strong>
-<p>気になる園に電話して見学予約。夏〜秋が見学のベストシーズンです。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content">
-<strong>10月：申込案内の入手</strong>
-<p>彦根市子ども・福祉部子育て支援課の申込案内を入手しましょう。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content">
-<strong>11月〜12月：申込書類の準備・提出</strong>
-<p>就労証明書などの書類を揃えて提出します。</p>
-</div>
-</div>`,
-    publishedAt: "2026-04-18",
-    popularity: 55,
-  },
-  {
     slug: "hokatsu-mistakes",
     citySlug: "hikone",
     title: "彦根市の保活でよくある失敗と対策5選",

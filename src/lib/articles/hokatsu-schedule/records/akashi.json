@@ -1,0 +1,132 @@
+{
+  "citySlug": "akashi",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "明石市「保育施設の申込み」",
+    "url": "https://www.city.akashi.lg.jp/kodomo/ikusei_shitsu/kodomo-kyoiku/kosodate/hoikujo/ikusei-shitsu-hoiku.html"
+  },
+  "fiscalYear": "R8",
+  "guideRelease": "令和7年10月1日（水曜日）以降から明石市役所こども育成室、あかし総合窓口、各市民センター及び各サービスコーナーにて配布",
+  "firstApply": "令和7年11月4日（火曜日）～11月25日（火曜日）。受付時間は9時30分～17時",
+  "applyMethods": "明石市役所議会棟1階こども育成室利用担当の窓口に持参するか、郵送、またはマイナポータルのぴったりサービスを利用した電子申請で申し込み。応募には申込関係書類とマイナンバーカード等の本人確認書類が必要",
+  "firstResult": "令和8年1月末ごろに郵送で通知する予定",
+  "secondApply": "令和8年2月2日（月曜日）～2月10日（火曜日）の平日。受付時間は9時30分～17時。受付場所は明石市役所議会棟1階こども育成室利用担当",
+  "secondResult": "令和8年3月中旬ごろに郵送で通知する予定",
+  "midYearDeadline": "利用希望月の前々月の末日（末日が土日祝日の場合はその直前の平日）。例えば5月からの入所を希望する場合は3月末日まで",
+  "documents": [
+    "認定申請書兼施設・事業所利用申込書",
+    "施設・事業所利用に関する同意書兼誓約書",
+    "保育施設申込時必要書類チェックシート",
+    "保育施設申込に関するチェックシート",
+    "保育が必要なことを証明する書類（就労証明書など。2026年1月選考から国様式に変更され、国様式以外の就労証明書では受付できない）",
+    "マイナンバーカード、運転免許証、健康保険証などの本人確認書類"
+  ],
+  "interview": "内定後、入所予定の保育施設で面接、健康診断、諸経費の支払等の入所手続を受けていただく。施設に連絡し面談日を調整してください",
+  "ikukyu": "保護者が育児休業中での利用に関しては加点対象外となります",
+  "notes": [
+    "2026年1月選考から就労証明書の書式が国様式へと変更となるため、それ以前の様式では受付できない",
+    "認可外施設等を月64時間以上利用した際の加点について、2025年12月選考から保護者が育児休業中での利用に関しては加点対象外となる",
+    "特に新年度の利用申込を行う場合、旧年度の書類で申込みはできない",
+    "申込書の記入漏れや当日相談のある場合は、当日中に受付が終わらないことがある"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.akashi.lg.jp/kodomo/ikusei_shitsu/kodomo-kyoiku/kosodate/hoikujo/ikusei-shitsu-hoiku.html",
+      "quote": "2026年（令和8年）4月入所をご希望の方"
+    },
+    "guideRelease": {
+      "url": "https://www.city.akashi.lg.jp/documents/15710/2026_hoikushisetunoshiori.pdf",
+      "quote": "10月1日以降に配付する2026年度用の申込書でお申し込み下さい"
+    },
+    "firstApply": {
+      "url": "https://www.city.akashi.lg.jp/kodomo/ikusei_shitsu/kodomo-kyoiku/kosodate/hoikujo/ikusei-shitsu-hoiku.html",
+      "quote": "11月4日（火曜日）～11月25日（火曜日）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.akashi.lg.jp/kodomo/ikusei_shitsu/kodomo-kyoiku/kosodate/hoikujo/ikusei-shitsu-hoiku.html",
+      "quote": "新規利用申込の受付はこども育成室の窓口、郵送、またはマイナポータルのぴったりサービスを利用した電子申請にて行います"
+    },
+    "firstResult": {
+      "url": "https://www.city.akashi.lg.jp/kodomo/ikusei_shitsu/kodomo-kyoiku/kosodate/hoikujo/ikusei-shitsu-hoiku.html",
+      "quote": "1次受付分の入所選考結果の通知は、1月末ごろに郵送で行う予定です"
+    },
+    "secondApply": {
+      "url": "https://www.city.akashi.lg.jp/kodomo/ikusei_shitsu/kodomo-kyoiku/kosodate/hoikujo/ikusei-shitsu-hoiku.html",
+      "quote": "2月2日（月曜日）～2月10日（火曜日）の平日"
+    },
+    "secondResult": {
+      "url": "https://www.city.akashi.lg.jp/kodomo/ikusei_shitsu/kodomo-kyoiku/kosodate/hoikujo/ikusei-shitsu-hoiku.html",
+      "quote": "2次受付分の入所選考結果の通知は、3月中旬ごろに郵送で行う予定です"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.akashi.lg.jp/kodomo/ikusei_shitsu/kodomo-kyoiku/kosodate/hoikujo/ikusei-shitsu-hoiku.html",
+      "quote": "利用希望月の前々月の末日（末日が土日祝日の場合はその直前の平日）が申込締切です。"
+    },
+    "documents.0": {
+      "url": "https://www.city.akashi.lg.jp/documents/15710/2026_hoikushisetunoshiori.pdf",
+      "quote": "認定申請書兼施設・事業所利用申込書"
+    },
+    "documents.1": {
+      "url": "https://www.city.akashi.lg.jp/documents/15710/2026_hoikushisetunoshiori.pdf",
+      "quote": "施設・事業所利用に関する同意書兼誓約書"
+    },
+    "documents.2": {
+      "url": "https://www.city.akashi.lg.jp/documents/15710/2026_hoikushisetunoshiori.pdf",
+      "quote": "保育施設申込時必要書類チェックシート"
+    },
+    "documents.3": {
+      "url": "https://www.city.akashi.lg.jp/documents/15710/2026_hoikushisetunoshiori.pdf",
+      "quote": "保育施設申込に関するチェックシート"
+    },
+    "documents.4": {
+      "url": "https://www.city.akashi.lg.jp/documents/15710/2026_hoikushisetunoshiori.pdf",
+      "quote": "保育が必要なことを証明する書類…セットに入っている書類の他に、状況によってはご自身でご用意いただく書類があります。"
+    },
+    "documents.5": {
+      "url": "https://www.city.akashi.lg.jp/kodomo/ikusei_shitsu/kodomo-kyoiku/kosodate/hoikujo/ikusei-shitsu-hoiku.html",
+      "quote": "申込関係書類 申請者のマイナンバーカード、運転免許証、健康保険証などの本人確認書類"
+    },
+    "interview": {
+      "url": "https://www.city.akashi.lg.jp/documents/15710/2026_hoikushisetunoshiori.pdf",
+      "quote": "入所予定の保育施設で面接、健康診断、諸経費の支払等の入所手続を受けていただきます。施設に連絡し面談日を調整してください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.akashi.lg.jp/documents/15710/2026_hoikushisetunoshiori.pdf",
+      "quote": "保護者が育児休業中での利用に関しては加点対象外となります"
+    },
+    "notes.0": {
+      "url": "https://www.city.akashi.lg.jp/documents/15710/2026_hoikushisetunoshiori.pdf",
+      "quote": "2026年1月選考から就労証明書の書式が国様式へと変更となります。国様式以外の就労証明書では受付できません。"
+    },
+    "notes.1": {
+      "url": "https://www.city.akashi.lg.jp/documents/15710/2026_hoikushisetunoshiori.pdf",
+      "quote": "認可外施設等を月６４時間以上利用した際の加点について、2025年12月選考から保護者が育児休業中での利用に関しては加点対象外となります。"
+    },
+    "notes.2": {
+      "url": "https://www.city.akashi.lg.jp/kodomo/ikusei_shitsu/kodomo-kyoiku/kosodate/hoikujo/ikusei-shitsu-hoiku.html",
+      "quote": "特に新年度の利用申込を行う場合、旧年度の書類で申込みはできませんのでご注意ください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.akashi.lg.jp/kodomo/ikusei_shitsu/kodomo-kyoiku/kosodate/hoikujo/ikusei-shitsu-hoiku.html",
+      "quote": "また、申込書の記入漏れや当日相談のある場合は、当日中に受付が終わらないことがあります。"
+    },
+    "documents.4#2": {
+      "url": "https://www.city.akashi.lg.jp/documents/15710/2026_hoikushisetunoshiori.pdf",
+      "quote": "2026年1月選考から就労証明書の書式が国様式へと変更となります。国様式以外の就労証明書では受付できません。"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.akashi.lg.jp/kodomo/ikusei_shitsu/kodomo-kyoiku/kosodate/hoikujo/ikusei-shitsu-hoiku.html",
+      "quote": "保育施設の利用申込関係書類は明石市役所こども育成室、あかし総合窓口、各市民センター及び各サービスコーナーにて配布しています。"
+    }
+  },
+  "sources": [
+    {
+      "label": "明石市「保育施設の申込み」",
+      "url": "https://www.city.akashi.lg.jp/kodomo/ikusei_shitsu/kodomo-kyoiku/kosodate/hoikujo/ikusei-shitsu-hoiku.html"
+    },
+    {
+      "label": "明石市「2026年度明石市保育施設利用のしおり」",
+      "url": "https://www.city.akashi.lg.jp/documents/15710/2026_hoikushisetunoshiori.pdf"
+    }
+  ]
+}

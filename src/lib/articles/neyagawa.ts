@@ -3,60 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "neyagawa",
-    title: "寝屋川市の保活スケジュール完全ガイド　申込から内定まで",
-    description:
-      "寝屋川市の認可保育園の申込時期・選考の流れをまとめました。令和8年度4月入園のスケジュールを解説します。",
-    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>寝屋川市の4月入園スケジュール</h2>
-<p>寝屋川市の認可保育園は毎年秋に翌年度4月入園の一斉申込を受付けます。寝屋川市こどもを守る課が窓口です。人口約23万人の北河内地域の中核都市として、認可保育園は約35か所あります。</p>
-
-<h3>保活の全体スケジュール</h3>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content">
-<strong>4月〜6月：情報収集</strong>
-<p>市のホームページで保育園一覧や空き状況を確認します。寝屋川市は京阪沿線に保育施設が集中しており、エリアごとの競争率を把握することが大切です。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content">
-<strong>6月〜9月：保育園見学</strong>
-<p>気になる園に連絡して見学を予約しましょう。寝屋川市内には認可保育所・認定こども園・小規模保育事業所など多くの施設があります。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content">
-<strong>9月〜10月：利用案内の入手・書類準備</strong>
-<p>就労証明書などの必要書類を準備します。こどもを守る課の窓口または市のホームページから入手できます。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content">
-<strong>10月〜11月：申込書類の提出</strong>
-<p>こどもを守る課の窓口で提出します。書類不備があると受付できないため、早めに準備しましょう。</p>
-</div>
-</div>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>寝屋川市は基本指数が父母各最大20点（合計40点満点）の制度です。フルタイム共働きで40点が基本ラインとなり、調整指数で差がつきます。</p>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.neyagawa.osaka.jp/organization_list/kodomo/hoikuka/index.html" target="_blank" rel="noopener">寝屋川市公式サイト</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-04-07",
-    popularity: 55,
-  },
-  {
     slug: "score-up-tips",
     citySlug: "neyagawa",
     title: "寝屋川市の加点のコツ　点数アップ戦略と調整指数の活用法",

@@ -1,0 +1,136 @@
+{
+  "citySlug": "kawagoe",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "川越市「令和9年度保育園等入園の受付日程・申請書類」",
+    "url": "https://www.city.kawagoe.saitama.jp/kosodate/azukeru/1004356/1013905.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "郵送受付は令和8年9月14日（月曜日）から令和8年10月16日（金曜日）まで。会場受付も行う",
+  "applyMethods": "郵送受付（簡易書留やレターパック等、追跡可能な郵便方法で送付）または会場受付",
+  "firstResult": "令和9年2月上旬頃に郵送にて通知",
+  "secondApply": "令和9年2月12日（金曜日）まで、郵送受付または保育課窓口",
+  "secondResult": "入所調整が可能な方に2月下旬から3月上旬にお電話でご連絡。入所保留の場合は令和9年3月上旬から中旬頃、郵送にて通知",
+  "interview": "実施期間は11月上旬から11月下旬、実施場所は第一希望の園。申込みをした方全員が対象（転園希望の方は除く）",
+  "ikukyu": "育児休業給付金の支給期間延長手続きの際は、保育利用申請書の写しが必要。申請書の「審査方法について」欄で『希望する保育所等に入所できない場合は、育児休業の延長も許容できる。』の選択肢にチェックがあった場合には、他の申請者よりも優先順位を下げて入所調整を行う",
+  "documents": [
+    "教育・保育給付認定申請書兼保育利用申請書",
+    "児童健康票",
+    "家庭状況調査票",
+    "代表保護者の個人番号（マイナンバー）確認書類",
+    "保育が必要な旨の証明書（父母それぞれ必要）。就労の場合は就労証明書（証明日は提出日から3か月以内に発行されたもの）",
+    "該当者のみ提出する書類（生活保護受給者証、離婚調停の証明など）"
+  ],
+  "notes": [
+    "郵送の場合は封筒に朱書きで「令和9年4月保育園入園申込み書類在中」とご記載ください",
+    "会場受付は大変混雑し待ち時間が長くなるため、極力郵送での申込みにご協力ください",
+    "11月中に面接を受けられない場合は、一次審査は保留となります",
+    "令和8年度の入園申込みをして入園が保留となっている方も、令和9年度の入園・転園を希望する場合には、新たに申込み手続きが必要",
+    "求職活動を理由として入園した場合、入園月の翌々月の10日までに就労証明書を提出しないと入園月の翌々月の末日で退園",
+    "育児休業を取得されている方は、入所決定月内で育児休業を終了することが入所決定に係る要件"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.kawagoe.saitama.jp/kosodate/azukeru/1004356/1013905.html",
+      "quote": "令和9年4月から認可保育園、認定こども園、小規模保育施設、事業所内保育施設への入園・転園を希望する場合は、市へ入園の申込みをする必要があります。"
+    },
+    "firstApply": {
+      "url": "https://www.city.kawagoe.saitama.jp/kosodate/azukeru/1004356/1013905.html",
+      "quote": "令和8年9月14日（月曜日）から令和8年10月16日（金曜日）まで"
+    },
+    "applyMethods": {
+      "url": "https://www.city.kawagoe.saitama.jp/kosodate/azukeru/1004356/1013905.html",
+      "quote": "簡易書留やレターパック等、追跡可能な郵便方法で送付してください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.kawagoe.saitama.jp/kosodate/azukeru/1004356/1013905.html",
+      "quote": "令和9年2月上旬頃に郵送にて通知します。"
+    },
+    "secondApply": {
+      "url": "https://www.city.kawagoe.saitama.jp/kosodate/azukeru/1004356/1013905.html",
+      "quote": "令和9年2月12日（金曜日）まで"
+    },
+    "secondResult": {
+      "url": "https://www.city.kawagoe.saitama.jp/kosodate/azukeru/1004356/1013905.html",
+      "quote": "入所調整が可能な方に、2月下旬から3月上旬にお電話でご連絡いたします。"
+    },
+    "secondResult#2": {
+      "url": "https://www.city.kawagoe.saitama.jp/kosodate/azukeru/1004356/1013905.html",
+      "quote": "令和9年3月上旬から中旬頃、郵送にて通知します。"
+    },
+    "interview": {
+      "url": "https://www.city.kawagoe.saitama.jp/kosodate/azukeru/1004356/1013905.html",
+      "quote": "実施期間：11月上旬から11月下旬"
+    },
+    "interview#2": {
+      "url": "https://www.city.kawagoe.saitama.jp/kosodate/azukeru/1004356/1013905.html",
+      "quote": "対象者：申込みをした方全員（転園希望の方は除く。）"
+    },
+    "ikukyu": {
+      "url": "https://www.city.kawagoe.saitama.jp/kosodate/azukeru/1004356/1013905.html",
+      "quote": "育児休業給付金の支給期間延長手続きの際は、保育利用申請書の写しが必要となります。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.kawagoe.saitama.jp/kosodate/azukeru/1004356/1013905.html",
+      "quote": "保育利用申請書の「審査方法について」欄で『希望する保育所等に入所できない場合は、育児休業の延長も許容できる。』の選択肢にチェックがあった場合には、他の申請者よりも優先順位を下げて入所調整を行います。"
+    },
+    "documents.0": {
+      "url": "https://www.city.kawagoe.saitama.jp/kosodate/azukeru/1004356/1013905.html",
+      "quote": "教育・保育給付認定申請書兼保育利用申請書"
+    },
+    "documents.1": {
+      "url": "https://www.city.kawagoe.saitama.jp/kosodate/azukeru/1004356/1013905.html",
+      "quote": "（3）児童健康票"
+    },
+    "documents.2": {
+      "url": "https://www.city.kawagoe.saitama.jp/kosodate/azukeru/1004356/1013905.html",
+      "quote": "（4）家庭状況調査票"
+    },
+    "documents.3": {
+      "url": "https://www.city.kawagoe.saitama.jp/kosodate/azukeru/1004356/1013905.html",
+      "quote": "（5）代表保護者の個人番号（マイナンバー）確認書類"
+    },
+    "documents.4": {
+      "url": "https://www.city.kawagoe.saitama.jp/kosodate/azukeru/1004356/1013905.html",
+      "quote": "就労証明書‥‥【川越市指定様式】（ダウンロード可能）（注意1）証明日は必ず記載（提出日から3か月以内に発行されたもの）"
+    },
+    "documents.5": {
+      "url": "https://www.city.kawagoe.saitama.jp/kosodate/azukeru/1004356/1013905.html",
+      "quote": "（7）該当者のみ提出する書類"
+    },
+    "notes.0": {
+      "url": "https://www.city.kawagoe.saitama.jp/kosodate/azukeru/1004356/1013905.html",
+      "quote": "※封筒に朱書きで「令和9年4月保育園入園申込み書類在中」とご記載ください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.kawagoe.saitama.jp/kosodate/azukeru/1004356/1013905.html",
+      "quote": "例年、会場受付は大変混雑し待ち時間が長くなります。極力郵送での申込みにご協力ください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.kawagoe.saitama.jp/kosodate/azukeru/1004356/1013905.html",
+      "quote": "（注意3）11月中に面接を受けられない場合は、一次審査は保留となります。"
+    },
+    "notes.3": {
+      "url": "https://www.city.kawagoe.saitama.jp/kosodate/azukeru/1004356/1013905.html",
+      "quote": "令和8年度の入園申込みをして入園が保留となっている方も、令和9年度の入園・転園を希望する場合には、新たに申込み手続きが必要です。"
+    },
+    "notes.4": {
+      "url": "https://www.city.kawagoe.saitama.jp/kosodate/azukeru/1004356/1004360.html",
+      "quote": "求職活動を理由として入園した場合、入園月の翌々月の10日（休日の場合は、その前日）までに就労（内定）証明書を提出（就労を開始）しないと入園月の翌々月の末日で退園となります。"
+    },
+    "notes.5": {
+      "url": "https://www.city.kawagoe.saitama.jp/kosodate/azukeru/1004356/1004360.html",
+      "quote": "育児休業を取得されている方は、入所決定月内で育児休業を終了することが入所決定に係る要件となります。"
+    }
+  },
+  "sources": [
+    {
+      "label": "川越市「令和9年度保育園等入園の受付日程・申請書類」",
+      "url": "https://www.city.kawagoe.saitama.jp/kosodate/azukeru/1004356/1013905.html"
+    },
+    {
+      "label": "川越市「保育園等の申し込み」",
+      "url": "https://www.city.kawagoe.saitama.jp/kosodate/azukeru/1004356/1004360.html"
+    }
+  ]
+}

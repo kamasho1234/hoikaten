@@ -1,0 +1,73 @@
+{
+  "citySlug": "tokorozawa",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "所沢市「令和8年度教育・保育施設・地域型保育事業のご案内」",
+    "url": "https://www.city.tokorozawa.saitama.jp/kosodatekyouiku/hoikuen/R8_hoiku.html"
+  },
+  "fiscalYear": "R8",
+  "firstApply": "令和7年11月1日（土）〜11月10日（月）（4月入園）。申請内容の変更締切は令和7年12月10日（水）",
+  "applyMethods": "市役所窓口・郵送・マイナポータル",
+  "documents": [
+    "教育・保育給付認定申請書兼現況届",
+    "保育の必要性を証する書類（就労証明書など。4月入園申請時は9月1日以降に作成したもの）",
+    "個人番号届出書"
+  ],
+  "interview": "内定後に内定施設で面接",
+  "notes": [
+    "令和9年度4月入園の申請期間は11月上旬の予定で、申請期間・申請場所・必要書類は令和8年10月1日から公開予定。この記事の日程は令和8年4月入園の実績",
+    "令和9年度4月入園の問い合わせは10月1日から10月30日の間に。準備に時間のかかる証明書類の様式は先行して公開されている"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.tokorozawa.saitama.jp/kosodatekyouiku/hoikuen/R8_hoiku.files/R8shiori3.pdf",
+      "quote": "令和８年度 入園のしおり"
+    },
+    "firstApply": {
+      "url": "https://www.city.tokorozawa.saitama.jp/kosodatekyouiku/hoikuen/R8_hoiku.files/R8shiori3.pdf",
+      "quote": "令和 ７年１１月１０日(月) ４月 令和 ７年１１月１日(土) （注タ） 変更締切 令和７年１２月１０日(水)"
+    },
+    "applyMethods": {
+      "url": "https://www.city.tokorozawa.saitama.jp/kosodatekyouiku/hoikuen/R8_hoiku.files/R8shiori3.pdf",
+      "quote": "市役所窓口での受付のほか、インターネット（マイナポータル）や郵送でも受け付け"
+    },
+    "documents.0": {
+      "url": "https://www.city.tokorozawa.saitama.jp/kosodatekyouiku/hoikuen/R8_hoiku.files/R8shiori3.pdf",
+      "quote": "教育・保育給付認定申請書兼現況届 必須"
+    },
+    "documents.1": {
+      "url": "https://www.city.tokorozawa.saitama.jp/kosodatekyouiku/hoikuen/R8_hoiku.files/R8shiori3.pdf",
+      "quote": "※4月入園申請時のみ９月１日以降"
+    },
+    "documents.2": {
+      "url": "https://www.city.tokorozawa.saitama.jp/kosodatekyouiku/hoikuen/R8_hoiku.files/R8shiori3.pdf",
+      "quote": "個人番号届出書 必須"
+    },
+    "interview": {
+      "url": "https://www.city.tokorozawa.saitama.jp/kosodatekyouiku/hoikuen/R8_hoiku.files/R8shiori3.pdf",
+      "quote": "内定後には内定施設で面接を行い"
+    },
+    "notes.0": {
+      "url": "https://www.city.tokorozawa.saitama.jp/kosodatekyouiku/hoikuen/R9_hoiku.html",
+      "quote": "教育・保育施設・地域型保育事業の令和9年度4月入園の申請期間は11月上旬を予定しております。詳しい申請期間、申請場所、必要書類等は10月1日より公開する予定です。"
+    },
+    "notes.1": {
+      "url": "https://www.city.tokorozawa.saitama.jp/kosodatekyouiku/hoikuen/R9_hoiku.html",
+      "quote": "令和9年度4月入園に関するお問い合わせは10月1日から10月30日の間にお願いいたします。"
+    }
+  },
+  "sources": [
+    {
+      "label": "所沢市教育・保育施設のご案内",
+      "url": "https://www.city.tokorozawa.saitama.jp/kosodatekyouiku/hoikuen/R8_hoiku.html"
+    },
+    {
+      "label": "所沢市入園のしおり",
+      "url": "https://www.city.tokorozawa.saitama.jp/kosodatekyouiku/hoikuen/R8_hoiku.files/R8shiori3.pdf"
+    },
+    {
+      "label": "所沢市「令和9年度教育・保育施設・地域型保育事業のご案内」",
+      "url": "https://www.city.tokorozawa.saitama.jp/kosodatekyouiku/hoikuen/R9_hoiku.html"
+    }
+  ]
+}

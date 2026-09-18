@@ -3,56 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "tokorozawa",
-    title: "所沢市の保活スケジュール完全ガイド　令和8年度4月入園の流れ",
-    description:
-      "所沢市の認可保育園の申込時期・選考の流れ・内定通知のタイミングをわかりやすく解説。令和8年度4月入園に向けたスケジュールをまとめました。",
-    image:
-      "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>所沢市の4月入園スケジュール</h2>
-<p>所沢市の認可保育園への4月入園は、毎年秋ごろに申込受付が始まります。窓口は所沢市こども未来部保育幼稚園課です。</p>
-
-<h3>大まかな流れ</h3>
-<table>
-<tr><th>時期</th><th>やること</th></tr>
-<tr><td>4月〜6月</td><td>情報収集・保育園見学の開始</td></tr>
-<tr><td>9月〜10月</td><td>入園申請書類の配布開始</td></tr>
-<tr><td>10月〜11月</td><td>一次申込の受付期間</td></tr>
-<tr><td>1月下旬〜2月</td><td>一次選考の結果通知</td></tr>
-<tr><td>2月〜3月</td><td>二次募集の受付・結果通知</td></tr>
-</table>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>所沢市では「保育園等入園のしおり」が毎年公開されます。最新のしおりは所沢市公式サイトからダウンロードできるので、必ず確認しましょう。</p>
-</div>
-
-<h2>年度途中の入園について</h2>
-<p>4月以外の月でも、空きがあれば毎月入園の申込が可能です。入園希望月の前月10日ごろが締切になることが多いため、早めに保育幼稚園課へ確認してください。</p>
-
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content"><strong>4月〜6月：情報収集</strong><p>所沢市の公式サイトで前年度の入園案内を参考に準備を始めます。航空記念公園周辺など人気エリアの園は早めにリサーチしておきましょう。</p></div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content"><strong>6月〜10月：保育園見学</strong><p>気になる園を5〜10園ほどリストアップし、見学の予約を入れましょう。所沢市は認可保育園が約50か所あるため、通園しやすいエリアで絞り込むのがコツです。</p></div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content"><strong>10月〜11月：書類準備・提出</strong><p>勤務先に就労証明書の作成を依頼し、申込書を保育幼稚園課に提出します。</p></div>
-</div>
-
-<div class="info-box">
-<p>所沢市の保育園の空き状況は市の公式サイトで毎月更新されています。希望する園に空きがあるかチェックしておきましょう。</p>
-</div>`,
-    publishedAt: "2026-04-07",
-    popularity: 60,
-  },
-  {
     slug: "work-points-detail",
     citySlug: "tokorozawa",
     title: "所沢市の就労点数を徹底解説　勤務日数と時間で何点になる？",

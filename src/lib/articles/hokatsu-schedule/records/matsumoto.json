@@ -1,0 +1,64 @@
+{
+  "citySlug": "matsumoto",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "松本市「令和8年度保育園入園のご案内」",
+    "url": "https://www.city.matsumoto.nagano.jp/site/kosodate/2428.html"
+  },
+  "fiscalYear": "R8",
+  "firstApply": "令和7年11月4日（火曜日）〜11月28日（金曜日）",
+  "applyMethods": "電子申請、保育課窓口、または郵送にてご申請ください",
+  "documents": [
+    "令和8年度入園申込書（電子申請の場合は不要）",
+    "新規入園面接票（3歳以上児用または3歳未満児用）",
+    "保育の必要性を証明する書類（就労証明書等、事由により異なります）"
+  ],
+  "ikukyu": "令和7年4月入園から、入所保留（不承諾）となることを希望する旨の意思表示が行われた保育園利用申込は受付不可。ただし、利用施設に空きがなく、育児休業を延長せざるを得ない場合は、保育所入所不承諾通知書を交付する",
+  "notes": [
+    "公式の令和9年4月入園案内は令和8年9月第4週から10月第1週の間に別途ご案内予定"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.matsumoto.nagano.jp/site/kosodate/2428.html",
+      "quote": "（参考：令和8年4月入園の一次受付は、令和7年11月4日から11月28日の間に行いました。）"
+    },
+    "firstApply": {
+      "url": "https://www.city.matsumoto.nagano.jp/site/kosodate/2428.html",
+      "quote": "令和8年4月入園の一次受付は、令和7年11月4日から11月28日の間に行いました。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.matsumoto.nagano.jp/site/kosodate/2428.html",
+      "quote": "5月以降の入園（途中入園）・転園 途中入園・・・電子申請、保育課窓口、または郵送にてご申請ください。"
+    },
+    "documents.0": {
+      "url": "https://www.city.matsumoto.nagano.jp/site/kosodate/2428.html",
+      "quote": "令和8年度入園申込書 [PDFファイル／3.81MB] ※電子申請の場合は不要です。（電子申請で必要な情報を入力していただきます。）"
+    },
+    "documents.1": {
+      "url": "https://www.city.matsumoto.nagano.jp/site/kosodate/2428.html",
+      "quote": "新規入園面接票（3歳以上児用） [PDFファイル／540KB] 新規入園面接票（3歳未満児用） [PDFファイル／491KB]"
+    },
+    "documents.2": {
+      "url": "https://www.city.matsumoto.nagano.jp/site/kosodate/2428.html",
+      "quote": "保育の必要性を証明する書類"
+    },
+    "ikukyu": {
+      "url": "https://www.city.matsumoto.nagano.jp/site/kosodate/2428.html",
+      "quote": "令和7年4月入園から、入所保留（不承諾）となることを希望する旨の意思表示が行われた保育園利用申込は受付不可となりましたので、ご注意ください。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.matsumoto.nagano.jp/site/kosodate/2428.html",
+      "quote": "利用施設に空きがなく、育児休業を延長せざるを得ない場合は、「保育所入所不承諾通知書」を交付しますので、入所申込み期間内に、保育課へ入園申請をしてください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.matsumoto.nagano.jp/site/kosodate/2428.html",
+      "quote": "令和9年4月入園の情報は、令和8年9月第4週から10月第1週の間に別途ご案内する予定です。"
+    }
+  },
+  "sources": [
+    {
+      "label": "松本市「令和8年度保育園入園のご案内」",
+      "url": "https://www.city.matsumoto.nagano.jp/site/kosodate/2428.html"
+    }
+  ]
+}

@@ -3,48 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   // 1. 保活スケジュール完全ガイド
-  {
-    slug: "hokatsu-schedule",
-    citySlug: "okazaki",
-    title: "岡崎市の保活スケジュール完全ガイド｜申込時期と準備の流れ",
-    description:
-      "岡崎市の保育園・認定こども園の入園申込スケジュールを時系列で解説。1次・2次申込の流れと準備すべきことをまとめました。",
-    category: "スケジュール",
-    categoryColor: "green",
-    image:
-      "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=800&h=400&fit=crop",
-    content: `<h2>岡崎市の保活スケジュール</h2>
-<p>岡崎市の保育園・認定こども園への入園は「4月1日入園（当初入園）」と「途中入園」の2種類があります。4月入園は1次・2次の2回に分かれています。</p>
-
-<h2>4月1日入園のスケジュール</h2>
-<div class="step">
-<p><strong>STEP1：9月</strong>　入園案内の配布開始・園見学</p>
-<p><strong>STEP2：9月中旬〜下旬</strong>　1次申込（電子申請が原則）</p>
-<p><strong>STEP3：11月中旬</strong>　1次選考結果通知</p>
-<p><strong>STEP4：11月〜12月</strong>　面接（各園に電話予約）</p>
-<p><strong>STEP5：1月上旬〜中旬</strong>　2次申込</p>
-<p><strong>STEP6：2月上旬</strong>　入園決定通知・2次結果通知</p>
-<p><strong>STEP7：3月上旬</strong>　2次入園決定通知</p>
-</div>
-
-<h2>途中入園について</h2>
-<p>途中入園は別途受付があります。空き状況により入園可能な園が限られるため、早めに保育課に確認しましょう。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>岡崎市では電子申請が原則です。必要書類のデータ（PDFや写真）を事前に準備しておくとスムーズに申込みできます。</p>
-</div>
-
-<h2>準備すべき書類</h2>
-<p>父母それぞれの保育事由証明書（就労証明書など）が必要です。雇用主に記入してもらうため、2〜3週間前には依頼しましょう。同居の祖父母がいる場合は、祖父母の保育事由証明書も必要です。</p>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>最新のスケジュールは<a href="https://www.city.okazaki.lg.jp/kosodate/kosodate/1012221/1012226/1003636.html" target="_blank" rel="noopener">岡崎市 令和8年度保育園等の4月1日入園ページ</a>で確認できます。</p>
-</div>`,
-    publishedAt: "2026-04-05",
-    popularity: 55,
-  },
 
   // 2. 点数の仕組みと計算方法
 

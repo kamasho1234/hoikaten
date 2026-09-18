@@ -3,61 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   // ========== 保活の基本 ==========
-  {
-    slug: "hokatsu-schedule",
-    citySlug: "kobe",
-    title: "神戸市の保活スケジュール　令和8年度4月入園の流れ",
-    description:
-      "神戸市の令和8年度（2026年度）4月入園の申込時期・書類配布・選考結果通知の時期をまとめました。初めての保活でも迷わないスケジュールガイドです。",
-    image:
-      "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>令和8年度（2026年度）4月入園のスケジュール</h2>
-<p>神戸市の4月入園申込は<strong>1次</strong>と<strong>2次</strong>の2回に分かれています。早めに動くことが保活成功のカギです。</p>
-
-<h3>1次申込</h3>
-<table>
-<tr><th>項目</th><th>日程</th></tr>
-<tr><td>申請書類配布開始</td><td>2025年9月19日（金）〜</td></tr>
-<tr><td>郵送受付</td><td>2025年10月20日（月）〜11月28日（金）必着</td></tr>
-<tr><td>電子申請（e-KOBE）</td><td>2025年10月20日（月）〜11月30日（日）23:59</td></tr>
-<tr><td>結果発送</td><td>2026年1月27日（火）頃</td></tr>
-</table>
-
-<h3>2次申込</h3>
-<p>1次で保留（不承諾）となった場合、2次選考にも申し込めます。2次の受付期間・結果通知日は1次の結果通知に同封されるお知らせで確認してください。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>神戸市では郵送のほか電子申請（e-KOBE）にも対応しています。窓口の混雑を避けたい場合は電子申請が便利です。</p>
-</div>
-
-<h2>いつから動き始めるべき？</h2>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content"><strong>4月〜6月：情報収集</strong><p>神戸市の「教育・保育施設利用ガイド」を確認し、保育の種類やエリアを把握します。</p></div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content"><strong>6月〜9月：保育園見学</strong><p>気になる園に直接電話して予約。夏場が予約しやすい時期です。</p></div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content"><strong>9月下旬〜：書類入手・準備</strong><p>申請書類を区役所で入手、または市公式サイトからダウンロードします。</p></div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content"><strong>10月〜11月：申込</strong><p>就労証明書等の必要書類を揃え、期限内に提出します。</p></div>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>申込方法の詳細は<a href="https://www.city.kobe.lg.jp/a65174/kosodate/shien/shinseido/riyomoshikomi/shinsehoho.html" target="_blank" rel="noopener">神戸市公式サイト「教育・保育給付認定の申請・利用申込」</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-03-28",
-    popularity: 55,
-  },
 
   // ========== 点数・選考 ==========
   {

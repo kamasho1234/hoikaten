@@ -1,0 +1,59 @@
+{
+  "citySlug": "okegawa",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "桶川市「令和9年度4月保育施設の入所申込みについて」",
+    "url": "https://www.city.okegawa.lg.jp/soshiki/fukushi/hoiku/hoikusho/nyusho/14289.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年10月15日（木曜日）～10月21日（水曜日）。郵送の場合は令和8年10月21日（水曜日）消印有効",
+  "secondApply": "令和8年10月22日（木曜日）から令和9年2月15日（月曜日）まで（土・日・祝日・年末年始を除く）",
+  "documents": [
+    "教育・保育給付認定申請書兼施設利用申込書（両面）",
+    "申請児童家庭状況書・兄弟入所にかかる意思確認票（両面）",
+    "保育が必要であることを証する書類（就労証明書、保育を必要とする状況申告書、介護・看護状況申告書、診断書など）",
+    "健康調査票（両面）",
+    "重要事項確認票（同意書）（両面）"
+  ],
+  "notes": [],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.okegawa.lg.jp/soshiki/fukushi/hoiku/hoikusho/nyusho/14289.html",
+      "quote": "令和9年度桶川市保育施設入所基準調査表"
+    },
+    "firstApply": {
+      "url": "https://www.city.okegawa.lg.jp/soshiki/fukushi/hoiku/hoikusho/nyusho/14289.html",
+      "quote": "【窓口】令和8年10月15日（木曜日）～10月21日（水曜日） 【郵送】令和8年10月21日（水曜日）消印有効"
+    },
+    "secondApply": {
+      "url": "https://www.city.okegawa.lg.jp/soshiki/fukushi/hoiku/hoikusho/nyusho/14289.html",
+      "quote": "令和8年10月22日（木曜日）から令和9年2月15日（月曜日）まで （土・日・祝日・年末年始を除く）"
+    },
+    "documents.0": {
+      "url": "https://www.city.okegawa.lg.jp/soshiki/fukushi/hoiku/hoikusho/nyusho/14289.html",
+      "quote": "教育・保育給付認定申請書兼施設利用申込書（両面）"
+    },
+    "documents.1": {
+      "url": "https://www.city.okegawa.lg.jp/soshiki/fukushi/hoiku/hoikusho/nyusho/14289.html",
+      "quote": "申請児童家庭状況書・兄弟入所にかかる意思確認票（両面）"
+    },
+    "documents.2": {
+      "url": "https://www.city.okegawa.lg.jp/soshiki/fukushi/hoiku/hoikusho/nyusho/14289.html",
+      "quote": "同時にきょうだいの保育施設や放課後児童クラブを申し込む場合、添付書類（就労証明書等）は申し込む児童全員分の枚数をご準備ください。"
+    },
+    "documents.3": {
+      "url": "https://www.city.okegawa.lg.jp/soshiki/fukushi/hoiku/hoikusho/nyusho/14289.html",
+      "quote": "健康調査票（両面）"
+    },
+    "documents.4": {
+      "url": "https://www.city.okegawa.lg.jp/soshiki/fukushi/hoiku/hoikusho/nyusho/14289.html",
+      "quote": "重要事項確認票(同意書）（両面）"
+    }
+  },
+  "sources": [
+    {
+      "label": "桶川市「令和9年度4月保育施設の入所申込みについて」",
+      "url": "https://www.city.okegawa.lg.jp/soshiki/fukushi/hoiku/hoikusho/nyusho/14289.html"
+    }
+  ]
+}

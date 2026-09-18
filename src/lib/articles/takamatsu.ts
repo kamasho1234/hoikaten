@@ -3,60 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "takamatsu",
-    title: "高松市の保活スケジュール　申込から内定までの流れ",
-    description:
-      "高松市の認可保育園の申込時期・選考の流れをまとめました。令和8年度4月入園の動き方を解説します。",
-    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>高松市の4月入園スケジュール</h2>
-<p>高松市の認可保育園は毎年秋に翌年度4月入園の申込を受付けます。利用調整基準表を理解して準備を進めましょう。</p>
-
-<h3>保活の全体スケジュール</h3>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content">
-<strong>4月〜6月：情報収集</strong>
-<p>市のホームページで保育施設等一覧と入所可能状況を確認します。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content">
-<strong>6月〜9月：保育園見学</strong>
-<p>気になる園に連絡して見学を予約しましょう。高松市内には認可保育所・認定こども園・小規模保育など多くの施設があります。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content">
-<strong>9月〜10月：書類準備</strong>
-<p>就労証明書などの必要書類を準備します。自営業の場合は就労証明書に加え実態確認書類も必要です。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content">
-<strong>10月〜11月：申込書類の提出</strong>
-<p>こども保育教育課の窓口で申込みます。</p>
-</div>
-</div>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>高松市は基本指数が父母各最大20点で、低い方の点数が採用されます。フルタイム共働きなら基本指数は20点です。</p>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.takamatsu.kagawa.jp/kurashi/kosodate/youchien_hoiku/kodomoen/hoiku/h29riyou.html" target="_blank" rel="noopener">高松市公式サイト</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-04-05",
-    popularity: 55,
-  },
-  {
     slug: "score-up-tips",
     citySlug: "takamatsu",
     title: "高松市で入園点数を上げるコツ　加点チェックリスト",

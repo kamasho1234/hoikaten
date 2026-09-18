@@ -3,57 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "iwaki",
-    title: "いわき市の保活スケジュール　令和8年度4月入園の流れ",
-    description:
-      "いわき市の令和8年度（2026年度）4月入園の申込時期・必要書類・結果通知の時期をまとめました。",
-    image:
-      "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>令和8年度（2026年度）4月入園のスケジュール</h2>
-<p>いわき市の4月入園は1次募集と2次募集の2回に分けて審査が行われます。</p>
-
-<h3>申込から入所までの流れ</h3>
-<table>
-<tr><th>募集</th><th>受付期間</th><th>結果通知</th></tr>
-<tr><td>1次募集</td><td>10月上旬〜11月上旬</td><td>1月下旬〜2月上旬</td></tr>
-<tr><td>2次募集</td><td>1月中旬〜2月上旬</td><td>2月下旬〜3月上旬</td></tr>
-<tr><td>途中入所</td><td>利用開始希望月の2か月前〜前月5日</td><td>審査後随時</td></tr>
-</table>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>いわき市は1次募集がもっとも枠が多く有利です。途中入所は毎月受け付けており、第1希望の保育所等を所管する地区保健福祉センターの窓口で手続きします。</p>
-</div>
-
-<h2>いつから動き始めるべき？</h2>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content"><strong>4月〜6月：情報収集</strong><p>いわき市の公式サイトで「保育所・幼稚園等ガイドブック」を入手し、施設情報を確認します。</p></div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content"><strong>6月〜9月：保育園見学</strong><p>気になる園に電話して見学予約を入れましょう。いわき市は広域なので通園ルートも要確認です。</p></div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content"><strong>9月〜10月：書類準備</strong><p>就労証明書を勤務先に依頼します。「子どものための教育・保育給付認定申請書 兼 保育施設等利用申請書」が必要です。</p></div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content"><strong>10月：1次募集に申込</strong><p>第1希望の保育所等を所管する地区保健福祉センターで書類を提出します。オンライン申請にも対応しています。</p></div>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>最新情報は<a href="https://www.city.iwaki.lg.jp/www/genre/1000100000225/index.html" target="_blank" rel="noopener">いわき市公式サイト「保育所・保育園」</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-04-05",
-    popularity: 55,
-  },
-  {
     slug: "katen-no-kotsu",
     citySlug: "iwaki",
     title: "いわき市で加点を最大化するコツ　調整指数を積み上げる方法",

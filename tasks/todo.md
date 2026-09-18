@@ -1,3 +1,30 @@
+## 2026-09-19 人気記事を重厚に（点数のしくみ 426自治体＋保活スケジュール 93自治体）
+
+計画: `~/.claude/plans/effervescent-popping-boot.md`。GSC 3か月のクリック上位は「◯◯市 保育園 点数」と「保活スケジュール」で、どちらも400字のテンプレ記事（令和8年4月入園のまま）だった
+
+- [x] A 点数のしくみ記事: `src/lib/data/<slug>.ts` の検証済みデータから `scoring-guide/build.ts` が生成（基本点数表・調整点数表・世帯タイプ別の計算例4つ・FAQ・出典）。出典URLが冒頭コメントにある426自治体だけ。旧記事134本を外し、URL（scoring-system / scoring-system-guide）と publishedAt は legacy.json で引き継ぎ。commit 9e25f3e、本番200、IndexNow 7,749
+- [x] B 保活スケジュール記事: レコード方式 `hokatsu-schedule/` の types・build・register + `records/<slug>.json`。`verify-fact-records.py hokatsu` に年の妥当性・値の月日が quote に無ければ弾く・補助キー `field#2`・`R7.11.4` 表記の読み替えを追加
+- [x] 収集: 上位100自治体を1体1自治体で → 照合○ 93件（R9 が約半分、残りは R8 実績で記事に「前回の実績」と明記）。私が全件「値 ← quote」で通読し、自分で作り直したのは 越谷・八尾・大分・長崎・帯広・浜松、値を quote の範囲に削ったのは 明石・下関・新潟・伊丹・熊谷・倉敷・高崎・水戸・寝屋川・我孫子・青森・久留米・草津・神戸・東広島・福井・高知・彦根・京都・高槻・豊橋
+- [x] 旧 hokatsu-schedule 記事 92本を外して legacy.json に記録、tsc / articles:verify（4451本）/ build / ローカル200 / push / 本番200 / IndexNow
+
+### 取れなかった自治体（8）と理由
+- 尼崎・宇都宮・奈良・江南・江戸川: 令和8年4月入園のページが消えていて、しおりPDFにも4月の受付期間が無い（令和9年の案内が出たら取る）
+- 船橋: 日程表PDFが画像で日付が文字として取れない（令和9年4月は 11月2日受付開始とだけ公表）
+- 市川・杉並: 案内未公表で受付期間が見つからない
+
+### 教訓（tasks/lessons.md 2026-09-18 に詳細）
+- PDF の「1 2月上旬」（12月）を「2月上旬」と読む（我孫子）。第1次の結果が第2次より後になっていたら原文に戻る
+- 照合を○にするために値を削って空にした体（八尾）。○でも 2KB 台は中身を見る
+- 通年受付ページの「12月入所」の日程を4月入園として書いた体（宇都宮）。R8 は quote に「4月入所」があるか見る
+- 手本 tsu.json の書類名（「保育が必要であることを証する書類（就労証明書等。事由により異なる）」）が7自治体に混入。全件照合の重複検出で見えた
+- エージェントが `git commit` してしまった（db605c2）。私の staged 分を巻き込んだので `git reset --soft` で整理してから本コミット
+- エージェントが Windows パスの `\` を落として repo 直下に迷子ファイルを作る（`CUserskamas...`）。commit 前に `git status` の `??` を見る
+- tailwind が `tasks/*.md` も走査するので、`\95b0c8d9` のようなバックスラッシュ＋16進のパスを書くとビルドが落ちる（Invalid code point）。md にはスラッシュで書く
+
+### 次にやるとよいこと
+- 残り196自治体の hokatsu-schedule も同じ方式で。令和9年4月の案内は10月に出そろうので、10月中旬に R8 の分を R9 に取り直す（`grep -l '"R8"' records/*.json`）
+- 点数のしくみ記事が無い127自治体は `src/lib/data/<slug>.ts` に出典URLが無い。`scoring-guide/sources-extra.json` にURLを足せば記事が出る（テンプレ疑いの98件はデータの再検証から）
+
 ## 2026-09-18 一時保育の共通ガイド2本＋自治体別記事43本（政令市20＋東京23区）
 
 計画: `~/.claude/plans/effervescent-popping-boot.md`。対象 `tasks/ichiji-hoiku/targets.tsv`、一次資料の抽出テキスト `tasks/ichiji-hoiku/`（一時預かり事業実施要綱、誰でも通園の手引）

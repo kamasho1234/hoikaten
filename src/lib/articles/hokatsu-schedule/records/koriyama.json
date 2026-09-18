@@ -1,0 +1,114 @@
+{
+  "citySlug": "koriyama",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "郡山市「令和8年4月1日付け郡山市認可保育施設入所申請について」",
+    "url": "https://www.city.koriyama.lg.jp/site/kosodate/7044.html"
+  },
+  "fiscalYear": "R8",
+  "guideRelease": "令和7年10月1日（水曜日）から申請書類等を配布。配布場所は各認可保育施設、郡山市役所保育課（西庁舎3階）、郡山市ウェブサイト（ダウンロード可）",
+  "firstApply": "令和7年11月4日（火曜日）～12月1日（月曜日）【郡山市保育課必着】",
+  "applyMethods": "マイナンバーカードでの電子申請、または保育課窓口の専用ボックスへの持参。郵送での申請も可能（宛先：963-8601 郡山市保育課 保育認定係）",
+  "firstResult": "令和8年2月上旬の予定に一次選考結果通知を発送",
+  "secondApply": "令和7年12月2日（火曜日）～12月15日（月曜日）【保育課必着】",
+  "secondResult": "令和8年2月下旬の予定に二次選考結果通知を発送",
+  "documents": [
+    "保育施設等利用申請書（指定様式）",
+    "教育・保育給付認定申請書（指定様式）",
+    "入所申請に関する確認票",
+    "保育を必要とすることを証明する書類（就労証明書等。証明年月日が令和7年10月1日以降のものが必要）",
+    "保育料の決定に必要な書類（対象者のみ）"
+  ],
+  "interview": "児童の心身の発達状況等を確認するため、保育施設で面談を行う。受付後に郡山市から受領確認と面談の予約期間や面談場所等のお知らせが郵送される",
+  "notes": [
+    "入所の決定は申請受付順ではなく、申請内容を審査した上で保育施設ごとに利用調整を行った後に決定される",
+    "申請内容に虚偽があった場合、入所が取消となる（入所決定後に虚偽が判明した場合も取消）",
+    "保育料は児童の年齢と父母（同居祖父母等も含む場合がある）の市町村民税所得割額により決定される",
+    "育児休業取得者は入所翌月の15日頃までに職場復帰することが入所の条件",
+    "空き待ち希望は令和9年3月入所選考まで有効"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.koriyama.lg.jp/uploaded/attachment/110837.pdf",
+      "quote": "令和８年度 ４月 郡山市認可保育施設入所案内"
+    },
+    "guideRelease": {
+      "url": "https://www.city.koriyama.lg.jp/site/kosodate/7044.html",
+      "quote": "＜配布開始＞ 令和7年10月1日（水曜日）"
+    },
+    "firstApply": {
+      "url": "https://www.city.koriyama.lg.jp/site/kosodate/7044.html",
+      "quote": "＜申請受付期間＞ 11月4日（火曜日）～12月1日（月曜日）【保育課必着】"
+    },
+    "applyMethods": {
+      "url": "https://www.city.koriyama.lg.jp/site/kosodate/7044.html",
+      "quote": "以下1・2のいずれかの方法により申請してください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.koriyama.lg.jp/uploaded/attachment/110837.pdf",
+      "quote": "入所の選考【一次選考】結果通知発送（2月上旬の予定）"
+    },
+    "secondApply": {
+      "url": "https://www.city.koriyama.lg.jp/site/kosodate/7044.html",
+      "quote": "＜予備受付期間＞ 12月2日（火曜日）～12月15日（月曜日）【保育課必着】"
+    },
+    "secondResult": {
+      "url": "https://www.city.koriyama.lg.jp/uploaded/attachment/110837.pdf",
+      "quote": "入所の選考【二次選考】結果通知発送（２月下旬の予定）"
+    },
+    "documents.0": {
+      "url": "https://www.city.koriyama.lg.jp/uploaded/attachment/110837.pdf",
+      "quote": "□ 保育施設等利用申請書〔指定様式〕 ・申請児童1人につき1枚"
+    },
+    "documents.1": {
+      "url": "https://www.city.koriyama.lg.jp/uploaded/attachment/110837.pdf",
+      "quote": "□ 教育・保育給付認定申請書〔指定様式〕（両面記入）"
+    },
+    "documents.2": {
+      "url": "https://www.city.koriyama.lg.jp/uploaded/attachment/110837.pdf",
+      "quote": "□ 入所申請に関する確認票"
+    },
+    "documents.3": {
+      "url": "https://www.city.koriyama.lg.jp/site/kosodate/7044.html",
+      "quote": "各種証明書や診断書等は、証明年月日が令和7年10月1日以降のものを受け付けます。"
+    },
+    "documents.4": {
+      "url": "https://www.city.koriyama.lg.jp/uploaded/attachment/110837.pdf",
+      "quote": "□ 保育料の決定などに必要な書類（以下の対象に当てはまる方のみ）"
+    },
+    "interview": {
+      "url": "https://www.city.koriyama.lg.jp/uploaded/attachment/110837.pdf",
+      "quote": "児童の面談 児童の心身の発達状況等を確認するため、保育施設で面談を行います。"
+    },
+    "notes.0": {
+      "url": "https://www.city.koriyama.lg.jp/uploaded/attachment/110837.pdf",
+      "quote": "入所の決定は、申請受付順ではありません。"
+    },
+    "notes.1": {
+      "url": "https://www.city.koriyama.lg.jp/uploaded/attachment/110837.pdf",
+      "quote": "・申請内容に虚偽があった場合、入所が取消となります（入所決定後に虚偽が判明した場合も取消となります）。"
+    },
+    "notes.2": {
+      "url": "https://www.city.koriyama.lg.jp/uploaded/attachment/110837.pdf",
+      "quote": "・保育料は、児童の年齢と父母(同居祖父母等も含む場合があります)の市町村民税所得割額により決定します。"
+    },
+    "notes.3": {
+      "url": "https://www.city.koriyama.lg.jp/uploaded/attachment/110837.pdf",
+      "quote": "「就労」で育児休業取得者の場合は、入所の翌月15日頃までの職場復帰が入所の条件となります。"
+    },
+    "notes.4": {
+      "url": "https://www.city.koriyama.lg.jp/uploaded/attachment/110837.pdf",
+      "quote": "・空き待ち希望は令和９年３月入所選考まで有効になります。"
+    }
+  },
+  "sources": [
+    {
+      "label": "郡山市「令和8年4月1日付け郡山市認可保育施設入所申請について」",
+      "url": "https://www.city.koriyama.lg.jp/site/kosodate/7044.html"
+    },
+    {
+      "label": "郡山市「令和8年4月郡山市認可保育施設入所案内」（PDF）",
+      "url": "https://www.city.koriyama.lg.jp/uploaded/attachment/110837.pdf"
+    }
+  ]
+}

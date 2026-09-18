@@ -3,47 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   // 1. 保活スケジュール完全ガイド
-  {
-    slug: "hokatsu-schedule",
-    citySlug: "toyokawa",
-    title: "豊川市の保活スケジュール完全ガイド｜申込時期と準備の流れ",
-    description:
-      "豊川市の保育園・認定こども園の入園申込スケジュールを時系列で解説。4月入園と途中入園の流れ、準備すべきことをまとめました。",
-    category: "スケジュール",
-    categoryColor: "green",
-    image:
-      "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=800&h=400&fit=crop",
-    content: `<h2>豊川市の保活スケジュール</h2>
-<p>豊川市の保育園・認定こども園への入園は「4月入園（年度当初入園）」と「途中入園」の2種類があります。4月入園は例年9〜10月頃に申込みが始まります。</p>
-
-<h2>4月入園のスケジュール</h2>
-<div class="step">
-<p><strong>STEP1：8月〜9月</strong>　入園案内の配布・園見学</p>
-<p><strong>STEP2：9月〜10月</strong>　1次申込受付（希望園または子ども健康部保育課へ提出）</p>
-<p><strong>STEP3：12月頃</strong>　1次選考結果通知</p>
-<p><strong>STEP4：1月〜2月</strong>　2次申込受付</p>
-<p><strong>STEP5：2月〜3月</strong>　2次結果通知・面接</p>
-<p><strong>STEP6：4月</strong>　入園</p>
-</div>
-
-<h2>途中入園について</h2>
-<p>途中入園は毎月受け付けています。入園希望月の前月までに必要書類を子ども健康部保育課（豊川市役所）へ提出します。空き状況により入園できない場合もあるため、早めの申込みが大切です。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>豊川市には認可保育園が約30か所あり、園ごとに教育・保育方針や受入可能月齢が異なります。申込み前に希望する園を見学しておきましょう。</p>
-</div>
-
-<h2>準備すべき書類</h2>
-<p>父母それぞれの保育事由証明書（就労証明書など）が必要です。雇用主に記入してもらうため、2〜3週間前には依頼しましょう。</p>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>最新のスケジュールは<a href="https://www.city.toyokawa.lg.jp/kosodate_kyoiku/hoikushisetsu/index.html" target="_blank" rel="noopener">豊川市 子ども健康部保育課のページ</a>で確認できます。</p>
-</div>`,
-    publishedAt: "2026-04-07",
-    popularity: 55,
-  },
 
   // 2. 点数の仕組みと計算方法
 

@@ -3,47 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   // 1. 保活スケジュール完全ガイド
-  {
-    slug: "hokatsu-schedule",
-    citySlug: "toyota",
-    title: "豊田市の保活スケジュール完全ガイド｜申込時期と準備の流れ",
-    description:
-      "豊田市のこども園・保育園の入園申込スケジュールを時系列で解説。当初入園の1次・2次申込、途中入園の流れと準備すべきことをまとめました。",
-    category: "スケジュール",
-    categoryColor: "green",
-    image:
-      "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=800&h=400&fit=crop",
-    content: `<h2>豊田市の保活スケジュール</h2>
-<p>豊田市では、こども園等への入園は「当初入園（4月入園）」と「途中入園（5月以降）」の2種類があります。それぞれ申込時期が異なるため、早めの準備が大切です。</p>
-
-<h2>当初入園（4月入園）のスケジュール</h2>
-<div class="step">
-<p><strong>STEP1：9月〜10月</strong>　入園案内の配布開始・園見学</p>
-<p><strong>STEP2：10月〜11月</strong>　1次申込（電子申請または園での受付）</p>
-<p><strong>STEP3：11月</strong>　面接</p>
-<p><strong>STEP4：1月〜2月</strong>　1次結果通知</p>
-<p><strong>STEP5：2月</strong>　2次申込（1次で内定しなかった方）</p>
-<p><strong>STEP6：3月</strong>　2次結果通知</p>
-</div>
-
-<h2>途中入園のスケジュール</h2>
-<p>途中入園は、就労等開始予定月の前々月15日から前々月最終開庁日までに申込みます。例えば7月入園なら5月15日〜5月末が受付期間です。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>豊田市では電子申請が利用できます。「豊田市電子申請・届出システム」から申込可能です。来庁が難しい方は積極的に活用しましょう。</p>
-</div>
-
-<h2>準備すべき書類</h2>
-<p>要件証明書（就労証明書など）は雇用主に記入してもらう必要があるため、2〜3週間前には依頼しましょう。自営業の方は確定申告書や開業届のコピーも必要です。</p>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>最新のスケジュールは<a href="https://www.city.toyota.aichi.jp/kurashi/kosodateshien/azukari/hoiku/1016131/index.html" target="_blank" rel="noopener">豊田市こども園等当初入園ページ</a>で確認できます。</p>
-</div>`,
-    publishedAt: "2026-04-04",
-    popularity: 55,
-  },
 
   // 2. 点数の仕組みと計算方法
   {

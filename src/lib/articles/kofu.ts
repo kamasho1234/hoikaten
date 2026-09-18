@@ -3,59 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "kofu",
-    title: "甲府市の保活スケジュール　令和8年度4月入園の流れ",
-    description:
-      "甲府市の令和8年度（2026年度）4月入園の申込時期・必要書類・結果通知の時期をまとめました。",
-    image:
-      "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>令和8年度（2026年度）4月入園のスケジュール</h2>
-<p>甲府市の認可保育園の4月入園申込は、例年10月〜11月に受付が行われます。甲府市子ども未来部子ども保育課が窓口です。</p>
-
-<h3>申込から入所までの流れ</h3>
-<table>
-<tr><th>時期</th><th>内容</th></tr>
-<tr><td>10月上旬</td><td>入所案内・申込書の配布開始</td></tr>
-<tr><td>10月〜11月</td><td>一次申込受付期間</td></tr>
-<tr><td>1月下旬〜2月上旬</td><td>一次選考の結果通知</td></tr>
-<tr><td>2月〜3月</td><td>二次申込受付・結果通知</td></tr>
-<tr><td>4月1日</td><td>入園</td></tr>
-</table>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>甲府市は山梨県の県庁所在地で人口約19万人。認可保育園は約25か所あります。一次選考で定員の大半が埋まるため、4月入園を目指すなら一次申込が重要です。</p>
-</div>
-
-<h2>いつから動き始めるべき？</h2>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content"><strong>4月〜6月：情報収集</strong><p>甲府市の公式サイトで前年度の入所案内を参考に準備を始めます。</p></div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content"><strong>6月〜9月：保育園見学</strong><p>気になる園に電話して見学予約を入れましょう。甲府市内の認可保育園約25か所から候補を絞ります。</p></div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content"><strong>9月〜10月：書類準備</strong><p>就労証明書を勤務先に依頼します。教育・保育給付認定申請書が必要です。</p></div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content"><strong>10月〜11月：一次申込</strong><p>子ども保育課の窓口で書類を提出します。</p></div>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>最新情報は<a href="https://www.city.kofu.yamanashi.jp/shisetsu/hoiku/index.html" target="_blank" rel="noopener">甲府市公式サイト 子育て・教育</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-04-07",
-    popularity: 55,
-  },
-  {
     slug: "katen-no-kotsu",
     citySlug: "kofu",
     title: "甲府市で加点を最大化するコツ　調整指数を積み上げる方法",

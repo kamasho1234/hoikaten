@@ -1,0 +1,43 @@
+{
+  "citySlug": "sendai",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "仙台市「保育施設等の利用を希望されるみなさまへ」",
+    "url": "https://www.city.sendai.jp/nintechosa/kurashi/kenkotofukushi/kosodate/hoikujo/annai/hoikushisetsu.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年10月13日（火曜日）から、区役所保育給付課・宮城総合支所保健福祉課窓口およびホームページで配布",
+  "firstApply": "【1次申込】令和8年11月2日（月曜日）から令和8年12月3日（木曜日）。【2次申込】令和8年12月4日（金曜日）から令和9年2月2日（火曜日）。土曜日・日曜日・祝日等を除く、9時から16時30分まで受付",
+  "applyMethods": "第1希望の保育施設等が所在する区の区役所保育給付課・宮城総合支所保健福祉課で受付（郵送および電子申請も可能）",
+  "notes": [
+    "申請時に添付する各申請書類は、令和8年10月1日以降の証明日のものが有効"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.sendai.jp/nintechosa/kurashi/kenkotofukushi/kosodate/hoikujo/annai/hoikushisetsu.html",
+      "quote": "令和9年度（令和9年4月1日入所）"
+    },
+    "guideRelease": {
+      "url": "https://www.city.sendai.jp/nintechosa/kurashi/kenkotofukushi/kosodate/hoikujo/annai/hoikushisetsu.html",
+      "quote": "令和8年10月13日（火曜日）から,区役所保育給付課・宮城総合支所保健福祉課窓口にて配布します。仙台市ホームページにも掲載します。"
+    },
+    "firstApply": {
+      "url": "https://www.city.sendai.jp/nintechosa/kurashi/kenkotofukushi/kosodate/hoikujo/annai/hoikushisetsu.html",
+      "quote": "【1次申込】令和8年11月2日（月曜日）から令和8年12月3日（木曜日）【2次申込】令和8年12月4日（金曜日）から令和9年2月2日（火曜日）※土曜日・日曜日・祝日等を除く、9時から16時30分まで受付"
+    },
+    "applyMethods": {
+      "url": "https://www.city.sendai.jp/nintechosa/kurashi/kenkotofukushi/kosodate/hoikujo/annai/hoikushisetsu.html",
+      "quote": "第1希望の保育施設等が所在する区の区役所保育給付課・宮城総合支所保健福祉課"
+    },
+    "notes.0": {
+      "url": "https://www.city.sendai.jp/nintechosa/kurashi/kenkotofukushi/kosodate/hoikujo/annai/hoikushisetsu.html",
+      "quote": "※申請時に添付する各申請書類は、令和8年10月1日以降の証明日のものが有効です。"
+    }
+  },
+  "sources": [
+    {
+      "label": "仙台市「保育施設等の利用を希望されるみなさまへ」",
+      "url": "https://www.city.sendai.jp/nintechosa/kurashi/kenkotofukushi/kosodate/hoikujo/annai/hoikushisetsu.html"
+    }
+  ]
+}

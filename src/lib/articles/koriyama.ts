@@ -3,59 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   // ===== 保活の基本 (1) =====
-  {
-    slug: "hokatsu-schedule",
-    citySlug: "koriyama",
-    title: "郡山市の保活スケジュール　令和8年度4月入園の流れ",
-    description:
-      "郡山市の令和8年度（2026年度）4月入園の申込時期・必要書類・結果通知の時期をまとめました。",
-    image:
-      "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>令和8年度（2026年度）4月入園のスケジュール</h2>
-<p>郡山市の4月入園は<strong>1次募集</strong>と<strong>2次募集</strong>の2段階で行われます。</p>
-
-<h3>申込から入所までの流れ</h3>
-<table>
-<tr><th>項目</th><th>日程</th></tr>
-<tr><td>1次申込受付</td><td>令和7年11月頃〜12月上旬</td></tr>
-<tr><td>1次結果通知</td><td>令和8年2月頃（郵送）</td></tr>
-<tr><td>2次申込受付</td><td>1次終了後〜令和8年2月頃</td></tr>
-<tr><td>2次結果通知</td><td>令和8年3月頃</td></tr>
-<tr><td>途中入所</td><td>利用開始希望日の4か月前から前月5日まで</td></tr>
-</table>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>郡山市では利用開始希望日の4か月前から前月5日までに申請が必要です。4月入園は1次で申し込むのがもっとも選択肢が多く有利です。途中入所は毎月受付しています。</p>
-</div>
-
-<h2>いつから動き始めるべき？</h2>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content"><strong>4月〜6月：情報収集</strong><p>郡山市の認可保育施設一覧や空き状況を公式サイトで確認しましょう。</p></div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content"><strong>7月〜9月：保育園見学</strong><p>気になる園に電話して見学予約を入れましょう。夏場がベストシーズンです。</p></div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content"><strong>10月〜11月：書類準備</strong><p>就労証明書を勤務先に依頼します。教育・保育給付認定申請書等が必要です。</p></div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content"><strong>11月〜12月：1次申込</strong><p>こども育成課窓口で書類を提出します。</p></div>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>最新情報は<a href="https://www.city.koriyama.lg.jp/site/kosodate/7048.html" target="_blank" rel="noopener">郡山市公式サイト「認可保育施設入所の案内」</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-04-05",
-    popularity: 60,
-  },
   // ===== 点数・選考 (2) =====
   // ===== 保活の基本 (3) =====
   {

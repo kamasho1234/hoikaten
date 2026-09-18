@@ -1,0 +1,122 @@
+{
+  "citySlug": "kumagaya",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "熊谷市「令和9年度 保育所（園）・認定こども園（保育利用）・地域型保育施設 新規入所申込みについて」",
+    "url": "https://www.city.kumagaya.lg.jp/kosodate/kodomoshisetsu/hoikunyusyo/R9hoiku.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年9月から申請書類等を配布。配布場所は保育課、各行政センター福祉担当係、市内保育施設。ホームページからのダウンロードも可能",
+  "firstApply": "令和8年10月15日（木曜日）から令和8年11月5日（木曜日）。当日消印有効",
+  "applyMethods": "第一希望園での対面受付（4月一次受付のみ）、保育課・各行政センター福祉担当係への窓口受付、郵送（当日消印有効）、コンシェルジュ相談での受付（予約制）",
+  "firstResult": "令和9年1月下旬に郵送で通知",
+  "secondApply": "令和8年11月6日（金曜日）から令和9年1月29日（金曜日）。当日消印有効",
+  "secondResult": "令和9年2月下旬に郵送で通知",
+  "documents": [
+    "教育・保育給付認定申請書（兼入所申込書兼保育児童台帳）。入所希望児童1人につき1枚",
+    "保育を必要とする事由を証する書類（就労証明書は証明日から3か月以内のもの。事由により異なる）",
+    "保護者のマイナンバーカードまたは個人番号を確認する書類（通知カード、個人番号が記載された住民票など）および保護者の身元確認書類（運転免許証、旅券、身体障害者手帳、精神障害者保健福祉手帳など）"
+  ],
+  "interview": "入所を希望する保育施設はすべて見学のうえで申請する。申請日までに見学が難しい場合は、申請書類の提出後すみやかに見学する",
+  "ikukyu": "育児休業復帰を理由に入所した場合は、入所月の翌月15日までに復帰し、復職後2週間以内に復職証明書を提出する。復職しない場合や職場復帰せず退職した場合は退園となる可能性がある",
+  "notes": [
+    "入所は毎月1日付け。月途中の入所は実施していない",
+    "申請書類を提出すると、令和9年度中は翌月以降も提出書類で入所審査を行うため再度の申請は不要（辞退の場合を除く）",
+    "4月二次受付は一次受付で異なる施設に限り申請可能。一次受付で入所決定後に二次受付の審査を行うため、募集が少ない",
+    "妊娠中の出産前申請は4月入所に限り可能。ただし施設の受入可能年齢に達していない場合は4月入所不可",
+    "熊谷市では子どもの年齢、人数、世帯所得に関係なく、令和7年4月から全ての子どもの保育料を無償化している",
+    "不足書類がある場合、4月一次受付のみ11月20日（金曜日）までの提出で対応可能。この期間に新たに申請書を提出する場合は4月二次受付となる"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.kumagaya.lg.jp/kosodate/kodomoshisetsu/hoikunyusyo/R9hoiku.html",
+      "quote": "令和9年度の保育施設入所申込みにおける受付についてお知らせします。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.kumagaya.lg.jp/kosodate/kodomoshisetsu/hoikunyusyo/R9hoiku.html",
+      "quote": "令和8年9月から配布をしています。配布場所は保育課、各行政センター福祉担当係、市内保育施設です。また、市ホームページから申請書類をダウンロードできますのでご利用ください。"
+    },
+    "firstApply": {
+      "url": "https://www.city.kumagaya.lg.jp/kosodate/kodomoshisetsu/hoikunyusyo/R9hoiku.html",
+      "quote": "4月一次受付期間 令和8年10月15日（木曜日）から令和8年11月5日（木曜日）　当日消印有効"
+    },
+    "applyMethods": {
+      "url": "https://www.city.kumagaya.lg.jp/kosodate/kodomoshisetsu/hoikunyusyo/R9hoiku.html",
+      "quote": "第一希望園で指定期日の受付時間帯に対面で受付を行います。市の職員が保育施設に出向き受付を実施します。受付時に市職員が書類の内容について確認を行います。"
+    },
+    "firstResult": {
+      "url": "https://www.city.kumagaya.lg.jp/kosodate/kodomoshisetsu/hoikunyusyo/R9hoiku.files/00R9annai.pdf",
+      "quote": "４月一次受付 令和９年1月下旬予定"
+    },
+    "secondApply": {
+      "url": "https://www.city.kumagaya.lg.jp/kosodate/kodomoshisetsu/hoikunyusyo/R9hoiku.html",
+      "quote": "4月二次受付期間 令和8年11月6日（金曜日）から令和9年1月29日（金曜日）　当日消印有効"
+    },
+    "secondResult": {
+      "url": "https://www.city.kumagaya.lg.jp/kosodate/kodomoshisetsu/hoikunyusyo/R9hoiku.files/00R9annai.pdf",
+      "quote": "二次受付 令和９年2月下旬予定"
+    },
+    "documents.0": {
+      "url": "https://www.city.kumagaya.lg.jp/kosodate/kodomoshisetsu/hoikunyusyo/R9hoiku.files/00R9annai.pdf",
+      "quote": "教育・保育給付認定申請書（兼入所申込書兼保育児童台帳） 入所希望児童１人につき１枚"
+    },
+    "documents.1": {
+      "url": "https://www.city.kumagaya.lg.jp/kosodate/kodomoshisetsu/hoikunyusyo/R9hoiku.files/00R9annai.pdf",
+      "quote": "○就労証明書 ※ 証明日から３か月以内のものをご提出"
+    },
+    "documents.2": {
+      "url": "https://www.city.kumagaya.lg.jp/kosodate/kodomoshisetsu/hoikunyusyo/R9hoiku.files/00R9annai.pdf",
+      "quote": "保護者のマイナンバー（個人番号）カード"
+    },
+    "interview": {
+      "url": "https://www.city.kumagaya.lg.jp/kosodate/kodomoshisetsu/hoikunyusyo/R9hoiku.html",
+      "quote": "入所を希望する保育施設すべてを見学の上、入所の申請をしてください。申請日までに施設見学が難しい場合は、申請書類提出後速やかに見学を実施ください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.kumagaya.lg.jp/kosodate/kodomoshisetsu/hoikunyusyo/R9hoiku.html",
+      "quote": "入所月の翌月15日までに復帰し、復職後2週間以内に復職証明書を提出する必要があります。復職しない場合や職場復帰せず退職などした場合は、退園となる可能性があります。"
+    },
+    "notes.0": {
+      "url": "https://www.city.kumagaya.lg.jp/kosodate/kodomoshisetsu/hoikunyusyo/R9hoiku.html",
+      "quote": "入所は毎月1日付けとなります。月途中の入所は実施していません。"
+    },
+    "notes.1": {
+      "url": "https://www.city.kumagaya.lg.jp/kosodate/kodomoshisetsu/hoikunyusyo/R9hoiku.html",
+      "quote": "申請書類を提出すると、令和9年度中は、翌月以降も提出いただいた申請書類で入所審査を行いますので、再度の申請は必要ありません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.kumagaya.lg.jp/kosodate/kodomoshisetsu/hoikunyusyo/R9hoiku.html",
+      "quote": "4月一次受付の入所決定後に、4月二次受付の入所審査を行います。そのため、4月二次受付は、4月一次受付で募集数に満たなかった施設や4月一次入所決定者が辞退した枠など、一次受付に比べ募集が少なくなります。"
+    },
+    "notes.3": {
+      "url": "https://www.city.kumagaya.lg.jp/kosodate/kodomoshisetsu/hoikunyusyo/R9hoiku.html",
+      "quote": "4月入所に限り、出生前のお子様の申請をすることが可能です。施設により受入可能年齢が異なりますのでご確認ください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.kumagaya.lg.jp/kosodate/kodomoshisetsu/hoikunyusyo/R9hoiku.html",
+      "quote": "熊谷市では子育て世帯の経済的な負担軽減と子どもを産み育てやすい環境の充実を図るため、子どもの年齢、人数、世帯の所得に関係なく、令和7年4月から保育施設に入園する全ての子どもの保育料を無償化しました。"
+    },
+    "notes.5": {
+      "url": "https://www.city.kumagaya.lg.jp/kosodate/kodomoshisetsu/hoikunyusyo/R9hoiku.html",
+      "quote": "4月一次受付のみ、申請受付期間内に書類提出したかたの不足書類（就労証明書など）を提出する期間を設けています。期間は4月一次受付終了後から令和8年11月20日（金曜日）です。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.kumagaya.lg.jp/kosodate/kodomoshisetsu/hoikunyusyo/R9hoiku.files/00R9annai.pdf",
+      "quote": "２ その他の申請方法 ⑴ 郵送申請 〒３６０－８６０１ 簡易書留など、記録が残る方法での送付 ※ 当日消印有効"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.kumagaya.lg.jp/kosodate/kodomoshisetsu/hoikunyusyo/R9hoiku.files/00R9annai.pdf",
+      "quote": "⑶ コンシェルジュ 受付期間内においてコンシェルジュ相談にて 10/1９(月)～10/3０(金)については、 受付（予約制） 書類の確認・受付を行います。"
+    }
+  },
+  "sources": [
+    {
+      "label": "熊谷市「令和9年度 保育所（園）・認定こども園（保育利用）・地域型保育施設 新規入所申込みについて」",
+      "url": "https://www.city.kumagaya.lg.jp/kosodate/kodomoshisetsu/hoikunyusyo/R9hoiku.html"
+    },
+    {
+      "label": "熊谷市「令和9年度熊谷市内保育所（園）・認定こども園（保育利用）・地域型保育施設入所の御案内（配布版）」",
+      "url": "https://www.city.kumagaya.lg.jp/kosodate/kodomoshisetsu/hoikunyusyo/R9hoiku.files/00R9annai.pdf"
+    }
+  ]
+}

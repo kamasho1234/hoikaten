@@ -1,0 +1,43 @@
+{
+  "citySlug": "kure",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "くれ子育てねっと「保育所等入所の手続きのご案内」",
+    "url": "https://kure-kosodate.com/service/3052.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年10月21日（水）～令和8年11月11日（水）",
+  "secondApply": "令和9年1月8日（金）～令和9年1月18日（月）",
+  "notes": [
+    "令和９年度４月入所の書類は、くれ子育てねっと掲載の様式、または各施設で配布している令和９年度の書類をご使用ください",
+    "空き状況につきましては、１０月２０日にくれ子育てねっとへ掲載予定です"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://kure-kosodate.com/service/3052.html",
+      "quote": "令和9年度4月の受付スケジュール"
+    },
+    "firstApply": {
+      "url": "https://kure-kosodate.com/service/3052.html",
+      "quote": "一次募集：令和８年１０月２１日（水）～令和８年１１月１１日（水）"
+    },
+    "secondApply": {
+      "url": "https://kure-kosodate.com/service/3052.html",
+      "quote": "二次募集：令和９年１月８日（金）～令和９年１月１８日（月）"
+    },
+    "notes.0": {
+      "url": "https://kure-kosodate.com/service/3052.html",
+      "quote": "※令和９年度４月入所の書類は、くれ子育てねっと掲載の様式、または各施設で配布している令和９年度の書類をご使用ください。"
+    },
+    "notes.1": {
+      "url": "https://kure-kosodate.com/service/3052.html",
+      "quote": "※空き状況につきましては、１０月２０日にくれ子育てねっとへ掲載予定です。"
+    }
+  },
+  "sources": [
+    {
+      "label": "くれ子育てねっと「保育所等入所の手続きのご案内」",
+      "url": "https://kure-kosodate.com/service/3052.html"
+    }
+  ]
+}

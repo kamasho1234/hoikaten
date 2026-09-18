@@ -1,0 +1,155 @@
+{
+  "citySlug": "obu",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "大府市「2027（令和9）年度保育園などの一斉申込のご案内」",
+    "url": "https://www.city.obu.aichi.jp/kosodate/hoikuen/1028109/index.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年7月28日から広報おおぶ・ウェブサイトで書類等の情報公開。令和8年9月1日から書類配布開始",
+  "firstApply": "一斉申込（一次募集）。オンライン申込は令和8年9月7日（月）9時～令和8年10月4日（日）17時。市役所での申込は令和8年10月1日（木）9時～12時、令和8年10月2日（金）9時～12時。不備解消期限は10月9日",
+  "applyMethods": "オンライン申込（来庁不要）、または市役所多目的ホールでの窓口申込。書類不備がある場合は10月9日までに再提出必要。市役所申込会場のほか、オンラインのどちらからでも申し込み可能",
+  "firstResult": "利用調整は～11月中旬に利用調整指数に基づき行う。内定通知は11月下旬に郵送。入園前面談（1次）は12月中に内定した保育園にて実施",
+  "secondApply": "追加募集（二次募集）。令和9年1月12日（火）9時00分～11時30分、13時30分～16時30分。令和9年1月13日（水）9時00分～11時30分、13時30分～16時30分。幼児教育保育課窓口に書類申込。オンライン申込は不可",
+  "secondResult": "一斉申込後の空き枠にて利用申込受付。令和9年1月14日から利用調整（入所日を基に調整）。結果は令和9年1月18日（月）に市ウェブサイトで発表",
+  "midYearDeadline": "随時募集は令和9年1月19日から。公立保育園へ入所希望の場合は入所月の前月10日まで、私立保育園等への入所希望の場合は入所月の前月20日までに書類提出",
+  "documents": [
+    "施設型給付費・地域型保育給付費等支給認定申請書兼保育所等入所申込書",
+    "入園申込用記入シート（オンライン申込の場合は入力）",
+    "入所申込児童質問票",
+    "保育を必要とすることを証明する書類（就労証明書等。保育を必要とする事由により異なる。記入日から3か月以内のもの。保護者全員分が必要）",
+    "大府市保育所等利用調整指数表（オンライン申込の場合はデータの添付）",
+    "提出書類等チェックリスト",
+    "その他世帯の状況等により提出が必要な書類（ひとり親等減免申請書、障害者手帳の写し、入園申込確約書など）",
+    "2人以上の子どもが同時に入所を申し込む場合は、一番下の子どもに原本、その他にはコピーを附付"
+  ],
+  "interview": "入園前面談。一斉申込で内定した場合は12月中に内定した保育園にて実施。追加募集で申し込みの場合は1月下旬～2月初旬に実施",
+  "notes": [
+    "先着順ではなく、指数の順に利用調整を行う",
+    "一斉申込で内定をした方は内定園の変更のために追加募集に申込をすることはできない",
+    "申込方法による結果への影響はない（オンライン、窓口申込のどちらでも同じ）",
+    "年度の途中でも保育を必要とする理由に該当しなくなった場合は退所となる",
+    "入園後、提出書類の内容に変更があった場合は速やかに幼児教育保育課へ届け出る必要がある。就労証明書の内容に変更があった場合は変更前の就労実績の証明も必要",
+    "原則として提出された書類等は返却されない"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.obu.aichi.jp/kosodate/hoikuen/1028109/index.html",
+      "quote": "2027（令和9）年4月～2028（令和10）年3月に、市内保育園などへ入園を希望する乳幼児を募集します。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.obu.aichi.jp/_res/projects/default_project/_page_/001/040/077/20260814_r9obu_nurseryschool.pdf",
+      "quote": "7月28日～ 広報おおぶ・ウェブサイトで書類等の情報公開 9月1日～ 書類配布"
+    },
+    "firstApply": {
+      "url": "https://www.city.obu.aichi.jp/_res/projects/default_project/_page_/001/040/077/20260814_r9obu_nurseryschool.pdf",
+      "quote": "＜オンライン申込＞ 令和８年９月７日（月）9:00～令和８年10月４日（日）17:00 ＜市役所での申込＞ 令和８年10月１日（木）9:00～12:00 令和８年10月２日（金）9:00～12:00 場所：市役所多目的ホール"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.obu.aichi.jp/_res/projects/default_project/_page_/001/040/077/20260814_r9obu_nurseryschool.pdf",
+      "quote": "10月9日 最終締切 ※不備解消期間です。締切日までに不備が解消されない方は受付できません。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.obu.aichi.jp/_res/projects/default_project/_page_/001/040/077/20260814_r9obu_nurseryschool.pdf",
+      "quote": "翌年度の募集を開始します。市役所申込会場・オンラインのどちらからでも申し込みが可能です。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.obu.aichi.jp/_res/projects/default_project/_page_/001/040/077/20260814_r9obu_nurseryschool.pdf",
+      "quote": "10月9日 最終締切 ※不備解消期間です。締切日までに不備が解消されない方は受付できません。"
+    },
+    "firstResult": {
+      "url": "https://www.city.obu.aichi.jp/_res/projects/default_project/_page_/001/040/077/20260814_r9obu_nurseryschool.pdf",
+      "quote": "～11月中旬 利用調整 ※利用調整指数に基づき調整を行います。 内定通知（郵送） 11月下旬 希望園へ入園できず 「入所保留」となった場合 ※発送前後における結果等の回答はできません。 お子様面談（１次） 12月中 最終決定"
+    },
+    "secondApply": {
+      "url": "https://www.city.obu.aichi.jp/_res/projects/default_project/_page_/001/040/077/20260814_r9obu_nurseryschool.pdf",
+      "quote": "1月12日.13日 追加募集（二次募集）"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.obu.aichi.jp/_res/projects/default_project/_page_/001/040/077/20260814_r9obu_nurseryschool.pdf",
+      "quote": "＜受付期間＞ 令和９年１月12日（火）9：00～11：30、13：30～16：30 令和９年１月13日（水）9：00～11：30、13：30～16：30 場所：幼児教育保育課 窓口"
+    },
+    "secondResult": {
+      "url": "https://www.city.obu.aichi.jp/_res/projects/default_project/_page_/001/040/077/20260814_r9obu_nurseryschool.pdf",
+      "quote": "1月14日～ 利用調整 ※入所日を用いて調整を行います。 結果発表（市ウェブサイト） 1月18日 ※結果は市ウェブサイトで発表します。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.obu.aichi.jp/_res/projects/default_project/_page_/001/040/077/20260814_r9obu_nurseryschool.pdf",
+      "quote": "●随時募集：１月19日～令和９年度末まで"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.obu.aichi.jp/_res/projects/default_project/_page_/001/040/077/20260814_r9obu_nurseryschool.pdf",
+      "quote": "※書類提出期限は、公立保育園へ入所希望の場合は入所月の前月 10 日まで、私立保育園等への入所希望の場合は入所月の前月20日までに幼児教育保育課窓口まで書類を提出してください。"
+    },
+    "documents.0": {
+      "url": "https://www.city.obu.aichi.jp/_res/projects/default_project/_page_/001/040/077/20260814_r9obu_nurseryschool.pdf",
+      "quote": "施設型給付費・地域型保育給付費等支給認定申請書 兼 保育所等入所申込書"
+    },
+    "documents.1": {
+      "url": "https://www.city.obu.aichi.jp/_res/projects/default_project/_page_/001/040/077/20260814_r9obu_nurseryschool.pdf",
+      "quote": "入園申込用記入シート"
+    },
+    "documents.2": {
+      "url": "https://www.city.obu.aichi.jp/_res/projects/default_project/_page_/001/040/077/20260814_r9obu_nurseryschool.pdf",
+      "quote": "入所申込児童質問票"
+    },
+    "documents.3": {
+      "url": "https://www.city.obu.aichi.jp/_res/projects/default_project/_page_/001/040/077/20260814_r9obu_nurseryschool.pdf",
+      "quote": "保育を必要とすることを証明する書類（表１－７を参照）"
+    },
+    "documents.4": {
+      "url": "https://www.city.obu.aichi.jp/_res/projects/default_project/_page_/001/040/077/20260814_r9obu_nurseryschool.pdf",
+      "quote": "大府市保育所等利用調整指数表"
+    },
+    "documents.5": {
+      "url": "https://www.city.obu.aichi.jp/_res/projects/default_project/_page_/001/040/077/20260814_r9obu_nurseryschool.pdf",
+      "quote": "提出書類等チェックリスト"
+    },
+    "documents.6": {
+      "url": "https://www.city.obu.aichi.jp/_res/projects/default_project/_page_/001/040/077/20260814_r9obu_nurseryschool.pdf",
+      "quote": "その他世帯の状況等により提出が必要な書類（表１－８を参照）"
+    },
+    "documents.7": {
+      "url": "https://www.city.obu.aichi.jp/_res/projects/default_project/_page_/001/040/077/20260814_r9obu_nurseryschool.pdf",
+      "quote": "２人以上の子どもが同時に入所を申し込む場合は、それぞれにおいて書類（証明書等）が必要です。なお、就労証明書等は、一番下の子どもに原本を、その他の子どもにはコピーを添付してください。"
+    },
+    "interview": {
+      "url": "https://www.city.obu.aichi.jp/_res/projects/default_project/_page_/001/040/077/20260814_r9obu_nurseryschool.pdf",
+      "quote": "お子様面談（１次） 12月中 最終決定 ※内定した保育園にて行います。 ※保育園によって実施日が異なるため詳細は別途通知します。"
+    },
+    "notes.0": {
+      "url": "https://www.city.obu.aichi.jp/_res/projects/default_project/_page_/001/040/077/20260814_r9obu_nurseryschool.pdf",
+      "quote": "※先着順ではありません。指数の順に利用調整を行います。"
+    },
+    "notes.1": {
+      "url": "https://www.city.obu.aichi.jp/_res/projects/default_project/_page_/001/040/077/20260814_r9obu_nurseryschool.pdf",
+      "quote": "※一斉申込で内定をした方は内定園の変更のために追加募集に申込をすることはできません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.obu.aichi.jp/_res/projects/default_project/_page_/001/040/077/20260814_r9obu_nurseryschool.pdf",
+      "quote": "申込方法による結果への影響はありません"
+    },
+    "notes.3": {
+      "url": "https://www.city.obu.aichi.jp/_res/projects/default_project/_page_/001/040/077/20260814_r9obu_nurseryschool.pdf",
+      "quote": "保育を必要とする理由」に該当しなくなった場合は、年度の途中でも退所していただきます。"
+    },
+    "notes.4": {
+      "url": "https://www.city.obu.aichi.jp/_res/projects/default_project/_page_/001/040/077/20260814_r9obu_nurseryschool.pdf",
+      "quote": "入所申込後、提出書類の内容に変更があった場合は、速やかに幼児教育保育課へ届け出てください。"
+    },
+    "notes.5": {
+      "url": "https://www.city.obu.aichi.jp/_res/projects/default_project/_page_/001/040/077/20260814_r9obu_nurseryschool.pdf",
+      "quote": "原則、提出された書類等はお返しできません。"
+    }
+  },
+  "sources": [
+    {
+      "label": "大府市「2027（令和9）年度保育園などの一斉申込のご案内」",
+      "url": "https://www.city.obu.aichi.jp/kosodate/hoikuen/1028109/index.html"
+    },
+    {
+      "label": "大府市「2027（令和9）年度 保育園等入園案内」（PDF）",
+      "url": "https://www.city.obu.aichi.jp/_res/projects/default_project/_page_/001/040/077/20260814_r9obu_nurseryschool.pdf"
+    }
+  ]
+}

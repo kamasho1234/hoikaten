@@ -1,0 +1,92 @@
+{
+  "citySlug": "kurashiki",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "倉敷市「令和8年度 入園・入所申込について」",
+    "url": "https://www.city.kurashiki.okayama.jp/kosodate/hoikuen/1012645/1021369.html"
+  },
+  "fiscalYear": "R8",
+  "guideRelease": "令和7年10月20日（月曜日）から申込案内等を配布。受取場所は認定こども園、公立幼稚園、保育所、小規模保育事業実施施設、事業所内保育事業実施施設、市役所担当窓口（本庁・水島・児島・玉島・真備）、庄・茶屋町・船穂支所",
+  "firstApply": "令和7年10月27日（月曜日）～11月17日（月曜日）",
+  "applyMethods": "第1希望の施設又は市役所担当窓口に提出。マイナポータル（ぴったりサービス）による電子申請も可能",
+  "firstResult": "認定こども園（保育部分）・保育所等は令和8年2月中旬予定",
+  "secondApply": "認定こども園（保育部分）・保育所等は令和8年2月16日（月曜日）～3月5日（木曜日）",
+  "documents": [
+    "子どものための教育・保育給付認定申請書（現況届）兼施設利用申込書（継続確認書）",
+    "保育が必要であることを証する書類（就労証明書など、保育事由により異なる）",
+    "個人番号（マイナンバー）又は住民税課税証明書（令和7年又は令和8年1月1日時点で倉敷市外に住所がある場合）"
+  ],
+  "ikukyu": "「育児休業の延長を希望している。」を選択した場合、基本的に保育所等の入所はできなくなる。産後休暇に引き続き育児休業を取得して継続利用を希望する場合は育児休業期間の記載のある就労証明書を提出するが、0〜2歳児クラスの児童は生まれた子が1歳になる誕生日までに入所と職場復帰を希望する場合に限り継続利用できる",
+  "notes": [
+    "申込書は申込案内等配布時期以降、各施設や市役所担当窓口で配布。ホームページからのダウンロードはできない",
+    "認定こども園（保育部分）・保育所等の利用を希望する場合は、年度ごとに申込みが必要"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.kurashiki.okayama.jp/kosodate/hoikuen/1012645/1021369.html",
+      "quote": "令和8年度　認定こども園、公立幼稚園、保育所等の利用申込みについて"
+    },
+    "guideRelease": {
+      "url": "https://www.city.kurashiki.okayama.jp/kosodate/hoikuen/1012645/1021369.html",
+      "quote": "令和7年10月20日（月曜日）～申込案内等配布場所 認定こども園、公立幼稚園、保育所、小規模保育事業実施施設、事業所内保育事業実施施設、市役所担当窓口（本庁・水島・児島・玉島・真備）、庄・茶屋町・船穂支所"
+    },
+    "firstApply": {
+      "url": "https://www.city.kurashiki.okayama.jp/kosodate/hoikuen/1012645/1021369.html",
+      "quote": "令和7年10月27日（月曜日）～11月17日（月曜日）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.kurashiki.okayama.jp/kosodate/hoikuen/1012645/1021369.html",
+      "quote": "受付場所 第1希望の施設　又は　市役所担当窓口"
+    },
+    "firstResult": {
+      "url": "https://www.city.kurashiki.okayama.jp/_res/projects/default_project/_page_/001/021/369/r8annai.pdf",
+      "quote": "認定こども園（保育部分）・保育所等 発送が遅くなることがあります ） …令和８年２月中旬予定"
+    },
+    "secondApply": {
+      "url": "https://www.city.kurashiki.okayama.jp/kosodate/hoikuen/1012645/1021369.html",
+      "quote": "【令和8年2月16日（月曜日）～3月5日（木曜日）】"
+    },
+    "documents.0": {
+      "url": "https://www.city.kurashiki.okayama.jp/kosodate/hoikuen/1012645/1021369.html",
+      "quote": "提出する書類 申込書"
+    },
+    "documents.1": {
+      "url": "https://www.city.kurashiki.okayama.jp/kosodate/hoikuen/1012645/1021369.html",
+      "quote": "保育を必要とする事由がわかる書類 要件によって提出していただく書類が異なります。"
+    },
+    "documents.2": {
+      "url": "https://www.city.kurashiki.okayama.jp/kosodate/hoikuen/1012645/1021369.html",
+      "quote": "個人番号（マイナンバー）又は住民税課税証明書等（令和7年又令和8年1月1日時点で倉敷市外に住所がある場合）"
+    },
+    "ikukyu": {
+      "url": "https://www.city.kurashiki.okayama.jp/_res/projects/default_project/_page_/001/021/369/r8annai.pdf",
+      "quote": "「育児休業の延長を希望している。」を選択した場合、基本的に保育所等の入所はできなくなります。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.kurashiki.okayama.jp/_res/projects/default_project/_page_/001/021/369/r8annai.pdf",
+      "quote": "マイナポータル（ぴったりサービス）による電子申請も可能です。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.kurashiki.okayama.jp/_res/projects/default_project/_page_/001/021/369/r8annai.pdf",
+      "quote": "産後休暇に引き続き、育児休業を取得し、継続して施設の利用を希望する場合は、育児休業期間の記載のある就労証明書を提出してください。ただし、０～２歳児クラスの児童については、生まれた子が１歳になる誕生日までに生まれた子の保育所等の入所及び保護者の職場復帰を希望する場合に限り、継続利用ができます。"
+    },
+    "notes.0": {
+      "url": "https://www.city.kurashiki.okayama.jp/kosodate/hoikuen/1012645/1021369.html",
+      "quote": "申込書　子ども1人につき1枚必要です。 ※上記配布場所で配布します。（ホームページからはダウンロードできません。）"
+    },
+    "notes.1": {
+      "url": "https://www.city.kurashiki.okayama.jp/_res/projects/default_project/_page_/001/021/369/r8annai.pdf",
+      "quote": "※認定こども園（保育部分）、保育所等の利用を希望される場合は、年度ごとに申込みが必要です。"
+    }
+  },
+  "sources": [
+    {
+      "label": "倉敷市「令和8年度 入園・入所申込について」",
+      "url": "https://www.city.kurashiki.okayama.jp/kosodate/hoikuen/1012645/1021369.html"
+    },
+    {
+      "label": "令和8年度子どものための教育・保育給付認定申請及び特定教育・保育施設等利用申込み案内（PDF）",
+      "url": "https://www.city.kurashiki.okayama.jp/_res/projects/default_project/_page_/001/021/369/r8annai.pdf"
+    }
+  ]
+}

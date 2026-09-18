@@ -3,58 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "morioka",
-    title: "盛岡市の保活スケジュール　令和8年度4月入園の流れ",
-    description:
-      "盛岡市の令和8年度（2026年度）4月入園の申込時期・必要書類・結果通知の時期をまとめました。",
-    image:
-      "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>令和8年度（2026年度）4月入園のスケジュール</h2>
-<p>盛岡市の4月入園申込は例年11月から受け付けられます。申込先は子育てあんしん課入園係です。</p>
-
-<h3>申込の流れ</h3>
-<table>
-<tr><th>項目</th><th>日程</th></tr>
-<tr><td>1次選考受付</td><td>2025年11月4日〜12月26日</td></tr>
-<tr><td>1次結果通知</td><td>2026年2月20日以降（郵送）</td></tr>
-<tr><td>2次選考受付</td><td>2026年1月5日〜2月27日</td></tr>
-<tr><td>2次結果通知</td><td>2026年3月中旬頃（郵送）</td></tr>
-</table>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>盛岡市では5月以降の年度途中入園も毎月受け付けています。入園希望月の前月上旬が締切で、結果は締切の約1週間後に電話で連絡されます。</p>
-</div>
-
-<h2>いつから動き始めるべき？</h2>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content"><strong>4月〜6月：情報収集</strong><p>盛岡市の公式サイトで前年度の入園申込案内を参考に準備を始めます。</p></div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content"><strong>6月〜10月：保育園見学</strong><p>気になる園に電話して見学予約を入れましょう。盛岡市内には認可保育所・認定こども園・小規模保育事業所があります。</p></div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content"><strong>10月〜11月：書類準備</strong><p>就労証明書を勤務先に依頼します。入園申込書・健康状態調査票・教育保育給付受給資格認定申請書・マイナンバー確認書類が必要です。</p></div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content"><strong>11月〜12月：申込</strong><p>子育てあんしん課の窓口または郵送で期限内に提出します。</p></div>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>最新情報は<a href="https://www.city.morioka.iwate.jp/kosodate/kodomo_azukeru/1053010.html" target="_blank" rel="noopener">盛岡市公式サイト「令和8年度 保育施設入園・転園申込みについて」</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-04-05",
-    popularity: 55,
-  },
-  {
     slug: "katen-no-kotsu",
     citySlug: "morioka",
     title: "盛岡市で加点を最大化するコツ　調整点数を積み上げる方法",

@@ -3,60 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "tokushima",
-    title: "徳島市の保活スケジュール　令和8年度4月入園の流れ",
-    description:
-      "徳島市の令和8年度（2026年度）4月入園の申込時期・必要書類・結果通知の時期をまとめました。",
-    image:
-      "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>令和8年度（2026年度）4月入園のスケジュール</h2>
-<p>徳島市の4月入園は例年10月〜11月に申込受付が行われます。徳島市子ども未来部子ども保育課が窓口です。</p>
-
-<h3>申込から入所までの流れ</h3>
-<table>
-<tr><th>時期</th><th>内容</th></tr>
-<tr><td>10月上旬</td><td>入所案内・申込書の配布開始</td></tr>
-<tr><td>10月中旬〜11月中旬</td><td>申込書受付期間（子ども保育課窓口）</td></tr>
-<tr><td>12月〜1月</td><td>利用調整（選考）</td></tr>
-<tr><td>2月上旬</td><td>結果通知</td></tr>
-<tr><td>3月</td><td>入所前面談・健康診断</td></tr>
-<tr><td>4月1日</td><td>入所</td></tr>
-</table>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>徳島市は約30か所の認可保育施設があります。申込時には第1希望から第5希望程度まで記入できるため、通園可能な範囲で複数の園を記入しましょう。年度途中の入所は毎月受付があり、空きがあれば随時入所可能です。</p>
-</div>
-
-<h2>いつから動き始めるべき？</h2>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content"><strong>4月〜6月：情報収集</strong><p>徳島市の公式サイトで前年度の入所案内を参考に準備を始めます。認可保育施設の一覧もダウンロードできます。</p></div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content"><strong>6月〜9月：保育園見学</strong><p>気になる園に電話して見学予約を入れましょう。徳島市は夏場が暑いため、秋口の見学もおすすめです。</p></div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content"><strong>9月〜10月：書類準備</strong><p>就労証明書を勤務先に依頼します。教育・保育給付認定申請書が必要です。</p></div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content"><strong>10月〜11月：申込</strong><p>子ども保育課の窓口で書類を提出します。記入漏れがないよう事前にチェックしましょう。</p></div>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>最新情報は<a href="https://www.city.tokushima.tokushima.jp/smph/kosodate/youchien_hoikujo/hoikusho_n-kodomoen/index.html" target="_blank" rel="noopener">徳島市公式サイト「保育所等について」</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-04-07",
-    popularity: 55,
-  },
-  {
     slug: "katen-no-kotsu",
     citySlug: "tokushima",
     title: "徳島市で加点を最大化するコツ　調整指数を積み上げる方法",

@@ -1,0 +1,112 @@
+{
+  "citySlug": "fukui",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "福井市「令和9年4月1日からの保育園・認定こども園の入園申込について」",
+    "url": "https://www.city.fukui.lg.jp/fukusi/kosodate/hoikuen/p071541.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年9月1日(火曜日)から10月20日(火曜日)、福井市役所こども保育課（別館2階）と各保育園・認定こども園で配布",
+  "firstApply": "令和8年10月1日(木曜日)から10月20日(火曜日)、福井市役所第11会議室B（別館中2階）または第一希望の園で受付。電子申請（マイナポータル）も可能",
+  "applyMethods": "窓口提出：福井市役所第11会議室B（別館中2階）、受付時間は9時から17時（土曜日、日曜日、祝日を除く）。園での受付：第一希望の各保育園・認定こども園。電子申請：マイナポータルを通じて申し込み可能（2・3号認定に限る）",
+  "firstResult": "令和9年2月中旬から下旬、入所内定通知書を送付。入園先は内定通知をもって決定",
+  "documents": [
+    "教育・保育給付認定申請書兼施設利用申込書",
+    "保育の必要性を証明する書類",
+    "健康状態等申告書",
+    "個人番号提供に係る委任状（申込者と書類を持参した方が異なる場合に必要）",
+    "マイナンバーカードまたはマイナンバー入りの住民票写し（またはそれに代わる書類）"
+  ],
+  "interview": "令和8年11月中旬に入園面接案内通知を発送。令和8年11月下旬から12月下旬に指定の面接会場にて入園面接を実施。第一希望園以外に案内する場合には事前に市から連絡があり、案内した園にて再度面接を実施",
+  "notes": [
+    "年度途中入園（5月以降）は申込方法が異なり、詳細は令和9年1月末ごろにホームページで公表予定",
+    "申し込みの先着順ではなく、保護者の保育を必要とする理由などを踏まえて公平に利用調整を行う。受入定員を超える場合には優先度合いにより希望園に入園できない場合がある",
+    "令和9年4月1日時点で保護者と入園希望児童の住民票が市内にあることが申込要件（転入予定でも申込可）",
+    "保護者が育児休業取得中（入園に伴って職場復帰）の場合、ならし保育で施設を利用できる期間は最長1カ月。そのため保育の利用開始日（4月1日）から1カ月以内（5月1日まで）に職場復帰することが必要",
+    "受付の開始当初と終盤は混み合う。不備等がある場合は再提出になるので余裕をもって提出する"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.fukui.lg.jp/fukusi/kosodate/hoikuen/p071541.html",
+      "quote": "令和9年4月1日からの保育園又は認定こども園への入園（転園）申込についてご案内します。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.fukui.lg.jp/fukusi/kosodate/hoikuen/p071541.html",
+      "quote": "令和8年9月1日(火曜日)から"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.fukui.lg.jp/fukusi/kosodate/hoikuen/p071541.html",
+      "quote": "10月20日(火曜日)"
+    },
+    "firstApply": {
+      "url": "https://www.city.fukui.lg.jp/fukusi/kosodate/hoikuen/p071541.html",
+      "quote": "令和8年10月1日(木曜日)から"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.fukui.lg.jp/fukusi/kosodate/hoikuen/p071541.html",
+      "quote": "10月20日(火曜日)"
+    },
+    "applyMethods": {
+      "url": "https://www.city.fukui.lg.jp/fukusi/kosodate/hoikuen/p071541.html",
+      "quote": "4月1日からの入園申込(2・3号認定に限る)は、「マイナポータル」を通じて、窓口に行かなくてもインターネット環境で申込をすることができます。"
+    },
+    "firstResult": {
+      "url": "https://www.city.fukui.lg.jp/fukusi/kosodate/hoikuen/p071541.html",
+      "quote": "令和9年2月中旬から下旬 入所内定通知書の送付（入園先は内定通知をもって決定します。）"
+    },
+    "documents.0": {
+      "url": "https://www.city.fukui.lg.jp/fukusi/kosodate/hoikuen/p071797.html",
+      "quote": "令和9年度教育・保育給付認定申請書 兼 施設利用申込書"
+    },
+    "documents.1": {
+      "url": "https://www.city.fukui.lg.jp/fukusi/kosodate/hoikuen/p071797.html",
+      "quote": "保育の必要性を証明する書類"
+    },
+    "documents.2": {
+      "url": "https://www.city.fukui.lg.jp/fukusi/kosodate/hoikuen/p071797.html",
+      "quote": "健康状態等申告書"
+    },
+    "documents.3": {
+      "url": "https://www.city.fukui.lg.jp/fukusi/kosodate/hoikuen/p071797.html",
+      "quote": "個人番号提供に係る委任状 ※申込者と書類を持参した方が異なる場合に必要となります。"
+    },
+    "documents.4": {
+      "url": "https://www.city.fukui.lg.jp/fukusi/kosodate/hoikuen/p071541.html",
+      "quote": "マイナンバーカード(顔写真入り)"
+    },
+    "interview": {
+      "url": "https://www.city.fukui.lg.jp/fukusi/kosodate/hoikuen/p071541.html",
+      "quote": "令和8年11月中旬 入園面接案内通知を順次発送（市⇒保護者） 令和8年11月下旬から12月下旬 指定の面接会場にて入園面接"
+    },
+    "notes.0": {
+      "url": "https://www.city.fukui.lg.jp/fukusi/kosodate/hoikuen/p071541.html",
+      "quote": "※令和9年5月以降の入園は年度途中の入園となりますので、申込方法が異なります。令和9年1月末ごろに詳細をホームページに公表しますので、お待ちください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.fukui.lg.jp/fukusi/kosodate/hoikuen/p071541.html",
+      "quote": "特定の園で利用希望者が受入定員を超える場合には、保護者の保育を必要とする理由などを踏まえて、公平に利用の調整を行います。申し込みの先着順や抽選ではありません。また、利用の調整は、各園が設定するクラス年齢の受入定員ごとに行います。受入定員を超える場合には、優先度合いにより希望園に入園できない場合があります。"
+    },
+    "notes.2": {
+      "url": "https://www.city.fukui.lg.jp/fukusi/kosodate/hoikuen/p071541.html",
+      "quote": "(1)令和9年4月1日時点で保護者と入園希望児童の住民票が市内にあること※転入予定でも申込可"
+    },
+    "notes.3": {
+      "url": "https://www.city.fukui.lg.jp/fukusi/kosodate/hoikuen/p071541.html",
+      "quote": "※保護者が育児休業取得中（入園に伴って職場復帰）の場合、職場復帰前に、ならし保育で施設を利用できる期間は最長1カ月です。そのため、保育の利用開始日（4月1日）から1カ月以内（5月1日まで）に職場復帰することが必要です。"
+    },
+    "notes.4": {
+      "url": "https://www.city.fukui.lg.jp/fukusi/kosodate/hoikuen/p071541.html",
+      "quote": "※例年、受付の開始当初および終盤は混み合います。入園の調整は、申込の先着順ではございませんが、不備等がある場合は再提出となりますので、余裕をもってご提出ください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "福井市「令和9年4月1日からの保育園・認定こども園の入園申込について」",
+      "url": "https://www.city.fukui.lg.jp/fukusi/kosodate/hoikuen/p071541.html"
+    },
+    {
+      "label": "福井市「保育園・認定こども園の入園申込書類（令和9年4月入園用）」",
+      "url": "https://www.city.fukui.lg.jp/fukusi/kosodate/hoikuen/p071797.html"
+    }
+  ]
+}

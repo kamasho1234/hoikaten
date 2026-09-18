@@ -1,0 +1,119 @@
+{
+  "citySlug": "misato",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "三郷市「保育施設の利用希望申込について」",
+    "url": "https://www.city.misato.lg.jp/soshiki/kodomomirai/sukoyaka/5/352.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年9月17日（木曜日）から令和8年10月15日（木曜日）※消印有効",
+  "firstResult": "令和9年2月上旬に選考結果を通知予定",
+  "secondApply": "令和8年11月9日（月曜日）～令和8年12月11日（金曜日）※消印有効",
+  "secondResult": "令和9年3月上旬に選考結果を通知予定",
+  "documents": [
+    "令和9年度教育・保育給付認定申請書",
+    "令和9年度施設等利用調整申込書",
+    "令和9年度教育・保育給付認定申請及び施設等利用調整申込に関する確認票",
+    "令和9年度質問票",
+    "令和9年度申請確認票（4月申込みのみ）",
+    "保育が必要な事由を確認する書類（就労証明書等）",
+    "マイナンバーが分かる書類の写し",
+    "本人確認ができる書類の写し"
+  ],
+  "notes": [
+    "0～2歳児（令和3年4月2日～令和8年9月1日生まれ）と3歳児（令和8年9月2日～令和9年1月1日生まれ）で申込み日程が異なる",
+    "0～2歳児は1次（受付9月17日～10月15日、面談10月25日～10月31日）と2次（受付11月9日～12月11日、面談12月25日・1月6日）",
+    "3歳児は申込みのみ（受付11月9日～1月6日、面談12月25日・1月6日）。2次申込みなし",
+    "申込み方法は郵送、窓口提出、電子申請の3つ",
+    "1次選考で保留となったかたは自動的に2次選考対象。改めて申込み不要",
+    "4月の2次選考は1次後に空きがある施設のみ対象"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.misato.lg.jp/soshiki/kodomomirai/sukoyaka/5/352.html",
+      "quote": "令和9年度保育施設等入所申込み受付"
+    },
+    "firstApply": {
+      "url": "https://www.city.misato.lg.jp/soshiki/kodomomirai/sukoyaka/5/352.html",
+      "quote": "令和8年9月17日（木曜日）から令和8年10月15日（木曜日）※消印有効"
+    },
+    "firstResult": {
+      "url": "https://www.city.misato.lg.jp/material/files/group/35/R9hoikutebiki.pdf",
+      "quote": "結果発送予定日：２月上旬"
+    },
+    "secondApply": {
+      "url": "https://www.city.misato.lg.jp/soshiki/kodomomirai/sukoyaka/5/352.html",
+      "quote": "令和8年11月9日（月曜日）～令和8年12月11日（金曜日）※消印有効"
+    },
+    "secondResult": {
+      "url": "https://www.city.misato.lg.jp/material/files/group/35/R9hoikutebiki.pdf",
+      "quote": "結果発送予定日：３月上旬"
+    },
+    "documents.0": {
+      "url": "https://www.city.misato.lg.jp/soshiki/kodomomirai/sukoyaka/5/352.html",
+      "quote": "令和9年度教育・保育給付認定申請書"
+    },
+    "documents.1": {
+      "url": "https://www.city.misato.lg.jp/soshiki/kodomomirai/sukoyaka/5/352.html",
+      "quote": "令和9年度施設等利用調整申込書"
+    },
+    "documents.2": {
+      "url": "https://www.city.misato.lg.jp/soshiki/kodomomirai/sukoyaka/5/352.html",
+      "quote": "令和9年度教育・保育給付認定申請及び施設等利用調整申込に関する確認票"
+    },
+    "documents.3": {
+      "url": "https://www.city.misato.lg.jp/soshiki/kodomomirai/sukoyaka/5/352.html",
+      "quote": "令和9年度質問票"
+    },
+    "documents.4": {
+      "url": "https://www.city.misato.lg.jp/soshiki/kodomomirai/sukoyaka/5/352.html",
+      "quote": "【4月申込みのみ提出】令和9年度申請確認票"
+    },
+    "documents.5": {
+      "url": "https://www.city.misato.lg.jp/soshiki/kodomomirai/sukoyaka/5/352.html",
+      "quote": "保育を必要とする事由を確認する書類など"
+    },
+    "documents.6": {
+      "url": "https://www.city.misato.lg.jp/material/files/group/35/R9hoikutebiki.pdf",
+      "quote": "マイナンバーが分かる書類の写し"
+    },
+    "documents.7": {
+      "url": "https://www.city.misato.lg.jp/material/files/group/35/R9hoikutebiki.pdf",
+      "quote": "本人確認ができる書類の写し"
+    },
+    "notes.0": {
+      "url": "https://www.city.misato.lg.jp/soshiki/kodomomirai/sukoyaka/5/352.html",
+      "quote": "令和3年4月2日から令和8年9月1日生まれのお子さん"
+    },
+    "notes.1": {
+      "url": "https://www.city.misato.lg.jp/soshiki/kodomomirai/sukoyaka/5/352.html",
+      "quote": "令和8年10月25日（日曜日）から令和8年10月31日（土曜日）"
+    },
+    "notes.2": {
+      "url": "https://www.city.misato.lg.jp/soshiki/kodomomirai/sukoyaka/5/352.html",
+      "quote": "令和8年12月25日（金曜日）、令和9年1月6日（水曜日）"
+    },
+    "notes.3": {
+      "url": "https://www.city.misato.lg.jp/soshiki/kodomomirai/sukoyaka/5/352.html",
+      "quote": "1次選考で保留となったかたは、申込みを取下げない限り自動的に2次選考の対象となります。"
+    },
+    "notes.4": {
+      "url": "https://www.city.misato.lg.jp/soshiki/kodomomirai/sukoyaka/5/352.html",
+      "quote": "4月の2次選考は1次選考後に空きがある施設のみ選考します。"
+    },
+    "notes.5": {
+      "url": "https://www.city.misato.lg.jp/soshiki/kodomomirai/sukoyaka/5/352.html",
+      "quote": "3つの方法でお申込みができます。"
+    }
+  },
+  "sources": [
+    {
+      "label": "三郷市「保育施設の利用希望申込について」",
+      "url": "https://www.city.misato.lg.jp/soshiki/kodomomirai/sukoyaka/5/352.html"
+    },
+    {
+      "label": "三郷市「令和9年度保育利用希望申込みのてびき」",
+      "url": "https://www.city.misato.lg.jp/material/files/group/35/R9hoikutebiki.pdf"
+    }
+  ]
+}

@@ -3,63 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "toyama",
-    title: "富山市の保活スケジュール完全ガイド｜申込時期と流れを解説",
-    description:
-      "富山市の認可保育園・認定こども園の申込時期・選考の流れ・結果通知時期をわかりやすく解説。令和8年度4月入園のスケジュールを中心にまとめました。",
-    image: "https://images.unsplash.com/photo-1596464716127-f2a82984de30?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>令和8年度（2026年度）4月入園のスケジュール</h2>
-<p>富山市の4月入園の申込みは、例年<strong>10月頃</strong>に受付が行われます。早めにスケジュールを把握して動き出しましょう。</p>
-
-<h3>4月入園の流れ</h3>
-<table>
-<tr><th>時期</th><th>やること</th></tr>
-<tr><td>9月頃</td><td>入所案内・申請書類の配布開始（各保育所・認定こども園・こども保育課・各行政サービスセンター）</td></tr>
-<tr><td>10月頃</td><td>利用申込受付期間</td></tr>
-<tr><td>1月〜2月頃</td><td>結果通知（郵送）</td></tr>
-<tr><td>2月〜3月</td><td>内定した園での面談・健康診断</td></tr>
-<tr><td>4月</td><td>入園</td></tr>
-</table>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>5月以降の途中入園の場合は、入園希望月の前月10日頃が申込締切です。こども保育課（076-443-2165）に確認しましょう。</p>
-</div>
-
-<h2>保活の理想的な進め方</h2>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content">
-<strong>4月〜6月：情報収集</strong>
-<p>「育さぽとやま」で園の一覧や申込方法を確認。富山市の保育施設等一覧表もダウンロードできます。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content">
-<strong>6月〜9月：保育園見学</strong>
-<p>気になる園に電話して見学予約。夏場は園の雰囲気が見やすい時期です。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content">
-<strong>9月末〜：書類準備・提出</strong>
-<p>就労証明書など必要書類を揃えて、期限内に提出します。</p>
-</div>
-</div>
-
-<div class="info-box">
-<p><strong>問い合わせ先</strong></p>
-<p>富山市 こども保育課 TEL：076-443-2165</p>
-</div>`,
-    publishedAt: "2026-04-05",
-    popularity: 55,
-  },
-  {
     slug: "score-up-tips",
     citySlug: "toyama",
     title: "富山市の保育園入園｜加点のコツ・点数アップ戦略",

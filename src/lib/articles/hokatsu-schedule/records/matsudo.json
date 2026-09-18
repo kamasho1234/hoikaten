@@ -1,0 +1,74 @@
+{
+  "citySlug": "matsudo",
+  "checkedAt": "2026-09-19",
+  "page": {
+    "label": "松戸市「保育施設（保育所・小規模保育施設・認定こども園）の利用案内」",
+    "url": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuusho_annai.html"
+  },
+  "fiscalYear": "R8",
+  "firstApply": "窓口及び郵送：令和7年11月28日（金曜）必着。マイナポータル：令和7年11月30日（日曜）。不備・不足書類提出期間は令和7年12月1日（月曜）から12月7日（金曜）まで",
+  "applyMethods": "保育課窓口、郵送（松戸市役所保育課　入所入園担当室）、またはマイナポータルを利用した電子申請。郵送の場合は〒271-8588 松戸市根本387番地の5松戸市役所保育課入所入園担当室に必着",
+  "documents": [
+    "様式1号～5号をマイナポータルから直接入力して申請、またはダウンロード提出",
+    "保育が必要であることを証する書類（就労証明書等）",
+    "通知カード及び顔写真付の身分証（マイナンバーカード、運転免許証等）のコピー"
+  ],
+  "notes": [
+    "年度ごとに申込案内は異なる。次年度も申込みを継続する場合は再申込みが必要",
+    "令和9年4月　医療的ケア児・障害児向けの先行受付は別途案内あり",
+    "窓口及び郵送での申込みは松戸市オンライン申請システムからの事前申請が必要",
+    "兄弟姉妹児同時申込みの場合は児童ごとに申請書の提出が必要"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuusho_annai.html",
+      "quote": "令和8年度松戸市保育所（園）等利用案内"
+    },
+    "firstApply": {
+      "url": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuusho_annai.html",
+      "quote": "令和8年4月 令和7年11月28日（金曜）不備・不足書類提出期間　令和7年12月1日（月曜）から12月7日（金曜）まで令和7年11月30日（日曜）不備・不足書類提出期間　令和7年12月1日（月曜）から12月7日（金曜）まで"
+    },
+    "applyMethods": {
+      "url": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuusho_annai.html",
+      "quote": "郵送の場合は、下記住所に送付してください（必着）。〒271-8588 松戸市根本387番地の5 松戸市役所 保育課　入所入園担当室"
+    },
+    "documents.0": {
+      "url": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuusho_annai.html",
+      "quote": "マイナポータルを利用した電子申請の場合、様式1号～5号まではマイナポータルから直接入力することで申請ができますが、その他必要な書類については、保育所（園）各種申請書からダウンロードして添付してください。"
+    },
+    "documents.1": {
+      "url": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuusho_annai.html",
+      "quote": "必要書類及びお手続等については、就労先またはハローワークへお問い合わせください。"
+    },
+    "documents.2": {
+      "url": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuusho_annai.html",
+      "quote": "個人番号（マイナンバー）の記載が必要となります。申込の際には、通知カード及び顔写真付の身分証（マイナンバーカード、運転免許証、パスポート等）のコピーを添付してください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuusho_annai.html",
+      "quote": "年度ごとに申込案内は異なります。次年度も申込みを継続する場合は再申込みが必要です。"
+    },
+    "notes.1": {
+      "url": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuusho_annai.html",
+      "quote": "医療的ケア児・障害児の4月申込みは、別途案内がございますのでホームページをご確認ください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuusho_annai.html",
+      "quote": "窓口及び郵送での申込みの場合、松戸市オンライン申請システムからの事前申請が必要となります。"
+    },
+    "notes.3": {
+      "url": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuusho_annai.html",
+      "quote": "保育所（園）等の利用申込については利用希望児童ごとに申請書の提出が必要です。"
+    }
+  },
+  "sources": [
+    {
+      "label": "松戸市「保育施設（保育所・小規模保育施設・認定こども園）の利用案内」",
+      "url": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuusho_annai.html"
+    },
+    {
+      "label": "松戸市「令和9年4月　医療的ケア児・障害児の保育施設の利用案内」",
+      "url": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuusho_annai_ikea.html"
+    }
+  ]
+}

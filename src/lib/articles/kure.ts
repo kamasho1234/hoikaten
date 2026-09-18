@@ -3,59 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "kure",
-    title: "呉市の保活スケジュール　令和8年度4月入園の流れ",
-    description:
-      "呉市の令和8年度（2026年度）4月入園の申込時期・必要書類・結果通知の時期をまとめました。",
-    image:
-      "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>令和8年度（2026年度）4月入園のスケジュール</h2>
-<p>呉市の4月入園申込は例年10月〜11月頃に受け付けられます。呉市は令和4年4月入所から<strong>電子申請（オンライン）</strong>での手続きに対応しています。</p>
-
-<h3>申込の流れ</h3>
-<table>
-<tr><th>項目</th><th>日程（目安）</th></tr>
-<tr><td>入所案内・申請書類配布</td><td>2025年10月頃〜</td></tr>
-<tr><td>4月入所 一次申込受付</td><td>2025年10月〜11月頃</td></tr>
-<tr><td>一次結果通知</td><td>2026年1月下旬〜2月頃</td></tr>
-<tr><td>二次募集（空きがある園のみ）</td><td>2026年2月頃</td></tr>
-<tr><td>途中入所（随時）</td><td>毎月受付（入所希望月の前月10日頃が締切目安）</td></tr>
-</table>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>呉市では「くれ子育てねっと」で入所案内や空き状況を確認できます。申込は電子申請が原則です。</p>
-</div>
-
-<h2>いつから動き始めるべき？</h2>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content"><strong>4月〜6月：情報収集</strong><p>くれ子育てねっとで前年度の案内を参考に準備を始めましょう。</p></div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content"><strong>7月〜9月：保育園見学</strong><p>気になる園に電話で見学予約を入れましょう。呉市内には公立・私立合わせて約120施設あります。</p></div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content"><strong>9月〜10月：書類準備</strong><p>就労証明書を勤務先に依頼します。様式はくれ子育てねっとからダウンロードできます。</p></div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content"><strong>10月〜11月：電子申請で申込</strong><p>期限内にオンラインで申請します。</p></div>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>最新情報は<a href="https://kure-kosodate.com/service/3639.html" target="_blank" rel="noopener">くれ子育てねっと「保育所等入所申込み」</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-04-05",
-    popularity: 60,
-  },
-  {
     slug: "fulltime-rank-a",
     citySlug: "kure",
     title: "フルタイム共働きでランクAは安心？呉市のボーダーライン事情",

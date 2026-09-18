@@ -3,59 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "obu",
-    title: "大府市の保活スケジュール　申込から内定までの流れ",
-    description:
-      "大府市の認可保育園の申込時期・選考の流れをまとめました。令和8年度4月入園の動き方を解説します。",
-    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>大府市の4月入園スケジュール</h2>
-<p>大府市の認可保育園は毎年秋に翌年度4月入園の一次申込を受付けます。基準点数・調整点数を理解して準備を進めましょう。</p>
-
-<h3>保活の全体スケジュール</h3>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content">
-<strong>4月〜6月：情報収集</strong>
-<p>大府市のホームページで保育園の一覧や前年度のボーダー（最低点数一覧）を確認します。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content">
-<strong>7月〜9月：保育園見学</strong>
-<p>大府市内の保育園を見学して、通勤経路との相性を確認しましょう。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content">
-<strong>9月〜10月：書類準備</strong>
-<p>月あたり就労時間は正確に記載してもらいましょう。点数に直結します。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content">
-<strong>11月：申込書類の提出</strong>
-<p>4月一次の申込期限は例年11月中旬です。期限厳守で提出しましょう。</p>
-</div>
-</div>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>大府市の基準点数は父母それぞれ最大11点（合計22点満点）です。月の就労時間で判定される制度です。</p>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.obu.aichi.jp/kosodate/hoikuen/index.html" target="_blank" rel="noopener">大府市公式サイト 保育施設</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-04-26",
-  },
-  {
     slug: "score-up-tips",
     citySlug: "obu",
     title: "大府市で入園点数を上げるコツ　調整点数チェックリスト",

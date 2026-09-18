@@ -1,0 +1,147 @@
+{
+  "citySlug": "oita",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "大分市「令和8年5月~令和9年3月の保育施設入所申込について」",
+    "url": "https://www.city.oita.oita.jp/o253/kosodate/hoiku/2025hoikusisetunyuyomousikominituite.html"
+  },
+  "fiscalYear": "R8",
+  "firstApply": "令和7年11月17日（月）〜令和7年12月15日（月）（土日祝日を除く）",
+  "applyMethods": "大分市役所子ども入園課（本庁舎別館3階）、東部・西部保健福祉センター、各支所（鶴崎・稙田支所を除く）、市内の各認可保育所（園）・認定こども園（保育部分）で配布・受付。マイナポータル（ぴったりサービス）によるオンライン申請もできる",
+  "firstResult": "受付期間内に申し込んだ人の利用調整（入所選考）結果は令和8年2月中旬までに文書を郵送で通知",
+  "secondApply": "受付期間以降の申込は2次選考で利用調整（1次選考の結果発送後に行う）。令和8年4月入所の2次選考の受付締切は令和8年2月20日（金曜日）",
+  "midYearDeadline": "5月〜12月の年度途中入所は入所希望月の前月の15日まで（15日が土日祝日の場合はその直前の開庁日）。1月〜3月の入所は令和8年12月15日（火）まで",
+  "documents": [
+    "教育・保育給付認定申請書兼現況届出書",
+    "保育施設入所申込書",
+    "保護者が保育を必要とすることを証明する書類",
+    "保育料算定のための資料（転入者は前住所地の市区町村民税の課税額・所得額が分かる証明書）",
+    "チェックリスト"
+  ],
+  "interview": "申込から入所までの流れでは、2月中旬頃の選考結果通知のあと、2月下旬〜3月に保育施設で親子面談がある",
+  "ikukyu": "育児休業等を取得中に新規に入所することはできない。育児休業等を取得中で就労証明書に育児休業期間等を記入して提出した人は「育児休業明けによる職場復帰」として利用調整され、職場復帰後かつ入所2か月以内に復職証明書を提出する",
+  "notes": [
+    "受付期間内の申込みであれば、申込みの順番は利用調整（入所選考）の優先度に影響しない",
+    "必要書類がすべて揃っていない場合や、教育・保育給付認定を受けていない場合は入所が保留になる",
+    "4月入所については「入所が困難と見込まれる施設」の一覧表を大分市ホームページで公開する",
+    "生後3か月未満の乳児や首の座っていない乳児は入所できない（3か月以上でも入所できない施設もある）",
+    "窓口手続きの際は本人確認書類（マイナンバーカード、運転免許証等）と個人番号の確認できるものを持参する",
+    "入所内定後の辞退は、その後の選考で不利になる"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.oita.oita.jp/o253/kosodate/hoiku/documents/r8nyusyomousikominotebiki.pdf",
+      "quote": "◆4月入所については、次の期間に受付を行います。"
+    },
+    "firstApply": {
+      "url": "https://www.city.oita.oita.jp/o253/kosodate/hoiku/documents/r8nyusyomousikominotebiki.pdf",
+      "quote": "受付期間 令和７年11月17日（月）～令和７年12月15日（月）（土日祝日を除く）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.oita.oita.jp/o253/kosodate/hoiku/2025hoikusisetunyuyomousikominituite.html",
+      "quote": "大分市役所子ども入園課（本庁舎別館3階） 東部保健福祉センター（鶴崎市民行政センター内）、西部保健福祉センター（稙田市民行政センター内） 各支所（鶴崎、稙田支所を除く） 大分市内の各認可保育所（園）、認定こども園(保育部分)"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.oita.oita.jp/o253/kosodate/hoiku/documents/r8nyusyomousikominotebiki.pdf",
+      "quote": "保育施設入所申込は書類提出のほかオンラインでも申請できます マイナポータル（ぴったりサービス）によるオンライン申請には、以下のものが必要です。"
+    },
+    "firstResult": {
+      "url": "https://www.city.oita.oita.jp/o253/kosodate/hoiku/documents/r8nyusyomousikominotebiki.pdf",
+      "quote": "受付期間内に申込みした方のうち、利用調整（入所選考）結果については、令和８年２月中旬までに文書 を郵送にてお知らせします。"
+    },
+    "secondApply": {
+      "url": "https://www.city.oita.oita.jp/o253/kosodate/hoiku/documents/r8nyusyomousikominotebiki.pdf",
+      "quote": "受付期間以降の申込みについては２次選考にて利用調整を行います。２次選考は１次選考の結果発送 後に行います。"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.oita.oita.jp/o253/2025hoiku2zisennkou.html",
+      "quote": "受付締切：令和8年2月20日(金曜日)"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.oita.oita.jp/o253/kosodate/hoiku/documents/r8nyusyomousikominotebiki.pdf",
+      "quote": "受付期間 入所希望月の前月の15日（ 15日が土日祝日の場合は、その直前の開庁日） まで"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.oita.oita.jp/o253/kosodate/hoiku/documents/r8nyusyomousikominotebiki.pdf",
+      "quote": "受付期間 令和８年12月15日（火）まで"
+    },
+    "documents.0": {
+      "url": "https://www.city.oita.oita.jp/o253/kosodate/hoiku/2025hoikusisetunyuyomousikominituite.html",
+      "quote": "教育・保育給付認定申請書兼現況届出書"
+    },
+    "documents.1": {
+      "url": "https://www.city.oita.oita.jp/o253/kosodate/hoiku/2025hoikusisetunyuyomousikominituite.html",
+      "quote": "保育施設入所申込書 保護者が保育を必要とすることを証明する書類"
+    },
+    "documents.2": {
+      "url": "https://www.city.oita.oita.jp/o253/kosodate/hoiku/2025hoikusisetunyuyomousikominituite.html",
+      "quote": "保護者が保育を必要とすることを証明する書類 保育料算定のための資料"
+    },
+    "documents.3": {
+      "url": "https://www.city.oita.oita.jp/o253/kosodate/hoiku/2025hoikusisetunyuyomousikominituite.html",
+      "quote": "令和8年1月1日時点で保護者の住民票があった市区町村での「令和8年度の市区町村民税の課税額および所得額が分かる証明書」"
+    },
+    "documents.4": {
+      "url": "https://www.city.oita.oita.jp/o253/kosodate/hoiku/2025hoikusisetunyuyomousikominituite.html",
+      "quote": "保育料算定のための資料 チェックリスト"
+    },
+    "interview": {
+      "url": "https://www.city.oita.oita.jp/o253/kosodate/hoiku/documents/r8nyusyomousikominotebiki.pdf",
+      "quote": "11/17～12/15 2月中旬頃 2月下旬～3月 4月1日 選考 内定 給教 保育施設 結果 親子 育 入 所 付 入所申込 通知 面談"
+    },
+    "ikukyu": {
+      "url": "https://www.city.oita.oita.jp/o253/kosodate/hoiku/documents/r8nyusyomousikominotebiki.pdf",
+      "quote": "◆育児休業等を取得中に、新規に入所することはできません。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.oita.oita.jp/o253/kosodate/hoiku/documents/r8nyusyomousikominotebiki.pdf",
+      "quote": "◆ 育児休業等を取得中で、就労証明書に育児休業期間等を記入して提出された方は、育児休業明けによる 職場復帰として利用調整（入所選考）します。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.oita.oita.jp/o253/kosodate/hoiku/documents/r8nyusyomousikominotebiki.pdf",
+      "quote": "◆ 育児休業明けの職場復帰を理由に入所した場合は、職場復帰後かつ入所２か月以内に復職証明書を提 出してください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.oita.oita.jp/o253/kosodate/hoiku/documents/r8nyusyomousikominotebiki.pdf",
+      "quote": "◆受付期間内の申込みであれば、申込みの順番は、利用調整（入所選考）の優先度には影響しません。"
+    },
+    "notes.1": {
+      "url": "https://www.city.oita.oita.jp/o253/kosodate/hoiku/documents/r8nyusyomousikominotebiki.pdf",
+      "quote": "必要書類がすべて揃っていない場合や、教育・保育給付認定を受けていない場合には、入所が保留にな ります。"
+    },
+    "notes.2": {
+      "url": "https://www.city.oita.oita.jp/o253/kosodate/hoiku/documents/r8nyusyomousikominotebiki.pdf",
+      "quote": "４月入所については「、入所が困難と見込まれる施設」を一覧表にし、大分市ホームページにて公開します。"
+    },
+    "notes.3": {
+      "url": "https://www.city.oita.oita.jp/o253/kosodate/hoiku/documents/r8nyusyomousikominotebiki.pdf",
+      "quote": "◆ 生後３か月未満の乳児や、首の座っていない乳児は入所できません。（一部、３か月以上でも入所できな い施設もあります。）"
+    },
+    "notes.4": {
+      "url": "https://www.city.oita.oita.jp/o253/kosodate/hoiku/2025hoikusisetunyuyomousikominituite.html",
+      "quote": "※窓口でのお手続きの際には、本人（身元）確認書類（マイナンバーカード、運転免許証等）と個人番号の確認できるもの（マイナンバーカード等）を提示いただきますのでご持参ください。"
+    },
+    "notes.5": {
+      "url": "https://www.city.oita.oita.jp/o253/kosodate/hoiku/documents/r8nyusyomousikominotebiki.pdf",
+      "quote": "※入所内定後の辞退は、その後の選考上、不利になります。"
+    },
+    "fiscalYear#2": {
+      "url": "https://www.city.oita.oita.jp/o253/kosodate/hoiku/documents/r8nyusyomousikominotebiki.pdf",
+      "quote": "⑴ 令和８年４月入所選考"
+    }
+  },
+  "sources": [
+    {
+      "label": "大分市「令和8年5月~令和9年3月の保育施設入所申込について」",
+      "url": "https://www.city.oita.oita.jp/o253/kosodate/hoiku/2025hoikusisetunyuyomousikominituite.html"
+    },
+    {
+      "label": "大分市「令和8年度教育・保育給付認定（2号・3号）兼保育施設入所申込のてびき（PDF）」",
+      "url": "https://www.city.oita.oita.jp/o253/kosodate/hoiku/documents/r8nyusyomousikominotebiki.pdf"
+    },
+    {
+      "label": "大分市「令和8年4月保育施設入所2次選考のお知らせ」",
+      "url": "https://www.city.oita.oita.jp/o253/2025hoiku2zisennkou.html"
+    }
+  ]
+}

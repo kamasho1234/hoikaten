@@ -3,63 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "kanazawa",
-    title: "金沢市の保活スケジュール完全ガイド｜申込時期と流れを解説",
-    description:
-      "金沢市の認可保育園・認定こども園の申込時期・選考の流れ・結果通知時期をわかりやすく解説。令和8年度4月入園のスケジュールを中心にまとめました。",
-    image: "https://images.unsplash.com/photo-1596464716127-f2a82984de30?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>令和8年度（2026年度）4月入園のスケジュール</h2>
-<p>金沢市の4月入園の申込みは、例年<strong>10月上旬〜下旬</strong>に受付が行われます。早めにスケジュールを把握して動き出しましょう。</p>
-
-<h3>4月入園の流れ</h3>
-<table>
-<tr><th>時期</th><th>やること</th></tr>
-<tr><td>9月下旬</td><td>パンフレット・申請書類の配布開始（市内各保育所・認定こども園・保育幼稚園課・各市民センター）</td></tr>
-<tr><td>10月上旬〜下旬</td><td>利用申込受付期間</td></tr>
-<tr><td>1月中旬頃</td><td>結果通知（郵送）</td></tr>
-<tr><td>2月〜3月</td><td>内定した園での面談・健康診断</td></tr>
-<tr><td>4月</td><td>入園</td></tr>
-</table>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>途中入園（5月以降）の場合は、入園希望月の前月10日頃が申込締切です。保育幼稚園課（076-220-2299）に確認しましょう。</p>
-</div>
-
-<h2>保活の理想的な進め方</h2>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content">
-<strong>4月〜6月：情報収集</strong>
-<p>金沢子育てお役立ちウェブ「のびのびビ〜ノ」で園の一覧や申込方法を確認。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content">
-<strong>6月〜9月：保育園見学</strong>
-<p>気になる園に電話して見学予約。夏場は園の雰囲気が見やすい時期です。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content">
-<strong>9月末〜：書類準備・提出</strong>
-<p>就労証明書など必要書類を揃えて、期限内に提出します。</p>
-</div>
-</div>
-
-<div class="info-box">
-<p><strong>問い合わせ先</strong></p>
-<p>金沢市 保育幼稚園課 TEL：076-220-2299</p>
-</div>`,
-    publishedAt: "2026-04-04",
-    popularity: 55,
-  },
-  {
     slug: "score-up-tips",
     citySlug: "kanazawa",
     title: "金沢市の保育園入園｜加点のコツ・点数アップ戦略",

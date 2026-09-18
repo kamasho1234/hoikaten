@@ -3,59 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "fukui",
-    title: "福井市の保活スケジュール　令和8年度4月入園の流れ",
-    description:
-      "福井市の令和8年度（2026年度）4月入園の申込時期・必要書類・結果通知の時期をまとめました。",
-    image:
-      "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>令和8年度（2026年度）4月入園のスケジュール</h2>
-<p>福井市の4月入園は例年10月〜11月頃に一斉受付が行われます。マイナポータルからの電子申請にも対応しています。</p>
-
-<h3>申込から入所までの流れ</h3>
-<table>
-<tr><th>時期</th><th>内容</th></tr>
-<tr><td>10月頃</td><td>入園案内・申込書類の配布開始</td></tr>
-<tr><td>10月〜11月</td><td>一斉受付（窓口またはマイナポータル）</td></tr>
-<tr><td>1月下旬〜2月</td><td>利用調整結果の通知</td></tr>
-<tr><td>3月</td><td>入園説明会・面談</td></tr>
-<tr><td>4月1日</td><td>入園</td></tr>
-</table>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>福井市では定員を超えた場合に利用調整（選考）が行われます。先着順ではなく、保護者の保育の必要度を点数化して判定します。5月以降の途中入園は別途手続きが必要です。</p>
-</div>
-
-<h2>いつから動き始めるべき？</h2>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content"><strong>4月〜6月：情報収集</strong><p>福井市の公式サイトで前年度の入所案内を参考に準備を始めます。</p></div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content"><strong>6月〜9月：保育園見学</strong><p>気になる園に電話して見学予約を入れましょう。</p></div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content"><strong>9月〜10月：書類準備</strong><p>就労証明書を勤務先に依頼します。教育・保育給付認定申請書が必要です。</p></div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content"><strong>10月〜11月：申込み</strong><p>こども保育課の窓口またはマイナポータルで書類を提出します。</p></div>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>最新情報は<a href="https://www.city.fukui.lg.jp/fukusi/kosodate/hoikuen/p015545.html" target="_blank" rel="noopener">福井市公式サイト「保育園・認定こども園の入園申込」</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-04-05",
-    popularity: 55,
-  },
-  {
     slug: "katen-no-kotsu",
     citySlug: "fukui",
     title: "福井市で加点を最大化するコツ　調整点数を積み上げる方法",

@@ -1,0 +1,89 @@
+{
+  "citySlug": "kofu",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "甲府市「令和９年度４月保育所等入所申込受付について」",
+    "url": "https://www.city.kofu.yamanashi.jp/jidohoiku/4gatunyuusyo.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和８年９月上旬以降に各施設にて配布予定",
+  "firstApply": "令和８年10月１９日（月曜日）〜10月３０日（金曜日）。10月２４日（土曜日）、１０月２５日（日曜日）も受け付け。10月１９日（月曜日）から１０月２１日（水曜日）の間のみ午後７時まで受け付け",
+  "applyMethods": "保育所等で申請書一式を受け取り、事前にご記入および準備していただいた上で受付会場にご持参ください。受付場所は甲府市役所本庁舎３階 子ども保育課および特設ブース（第1次）。受付時間は午前９時から午後４時（10月19-21日は午後7時まで）",
+  "secondApply": "令和９年1月2０日（水曜日）〜2月１９日（金曜日）（予定）。土曜日・日曜日・祝日は除く",
+  "midYearDeadline": "入所希望月の前々月の１１日から前月の10日までの営業日（土・日・祝日を除く）にお申込み",
+  "documents": [
+    "子どものための教育・保育給付認定申請書 兼 保育所等利用申請書（A3二つ折り）",
+    "提出書類チェックリスト・入所申請にかかる同意書",
+    "保育ができない状況を証明する要件書類（就労証明書の証明日が直近３か月以内のもの、かつ期間が有効とみなせるもの）"
+  ],
+  "notes": [
+    "必ず見学のうえお申込みをしてください。複数の施設を希望する場合、全ての施設の見学をしてください。内定後の辞退は、次回の選考時に不利になります",
+    "必要書類の不足や記入内容に不備等があった場合、入所選考における必要な事項を確認することができないため、申込みを受け付けられない場合や選考で不利になる場合があります。必要書類は記入内容をご確認の上、必ずご提出ください",
+    "入所選考においては、申込みの先着順ではなく、保育の必要性の高い児童から優先的に入所内定となります",
+    "第１次入所選考の結果、待機になった方については第２次入所以降も選考が継続されるため、再度申請は不要です。希望園・保育要件等に変更がある場合には、次の受付期間内に手続きが必要です"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.kofu.yamanashi.jp/jidohoiku/4gatunyuusyo.html",
+      "quote": "令和９年4月1日からの保育所（園）、認定こども園（保育所部分）及び地域型保育事業所の利用を希望される方は、受付を次のとおり行いますので、必ず期限内にお申込みください。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.kofu.yamanashi.jp/jidohoiku/4gatunyuusyo.html",
+      "quote": "令和９年度保育所等の利用申請書一式は、令和８年９月上旬以降に各施設にて配布予定です。"
+    },
+    "firstApply": {
+      "url": "https://www.city.kofu.yamanashi.jp/jidohoiku/4gatunyuusyo.html",
+      "quote": "■受付期間：令和８年10月１９日（月曜日）〜令和８年10月3０日（金曜日） ※１０月２４日（土曜日）、１０月２５日（日曜日）も受け付けます。 ■受付時間：午前９時から午後４時 ※１０月１９日（月曜日）から１０月２１日（水曜日）の間のみ午後７時まで受け付けています。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.kofu.yamanashi.jp/jidohoiku/4gatunyuusyo.html",
+      "quote": "保育所等で申請書一式を受け取り、事前にご記入および準備していただいた上で受付会場にご持参ください。"
+    },
+    "secondApply": {
+      "url": "https://www.city.kofu.yamanashi.jp/jidohoiku/4gatunyuusyo.html",
+      "quote": "■受付期間：令和９年1月2０日（水曜日）〜2月１９日（金曜日）（予定） ※土曜日・日曜日・祝日は除く。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.kofu.yamanashi.jp/jidohoiku/nyushomoshikomi.html",
+      "quote": "甲府市役所本庁舎3階・子ども保育課の窓口で、入所希望月の前々月の１１日から前月の10日までの営業日（土・日・祝日を除く）にお申込みください。"
+    },
+    "documents.0": {
+      "url": "https://www.city.kofu.yamanashi.jp/jidohoiku/nyushomoshikomi.html",
+      "quote": "【 １ 】子どものための教育・保育給付認定申請書 兼 保育所等利用申請書（A3二つ折り）※入所児童1人につき1枚"
+    },
+    "documents.1": {
+      "url": "https://www.city.kofu.yamanashi.jp/jidohoiku/nyushomoshikomi.html",
+      "quote": "【 ２ 】 提出書類チェックリスト・入所申請にかかる同意書（両面印刷）"
+    },
+    "documents.2": {
+      "url": "https://www.city.kofu.yamanashi.jp/jidohoiku/nyushomoshikomi.html",
+      "quote": "【 ３ 】 保育ができない状況を証明する要件書類 ※証明書類は証明日が直近３か月以内のもの、かつ期間が有効とみなせるものを提出してください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.kofu.yamanashi.jp/jidohoiku/4gatunyuusyo.html",
+      "quote": "お申込みの前に必ずお子様と希望する保育所等の見学をしてください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.kofu.yamanashi.jp/jidohoiku/4gatunyuusyo.html",
+      "quote": "必要書類の不足や記入内容に不備等があった場合、入所選考における必要な事項を確認することができないため、申込みを受け付けられない場合や選考で不利になる場合がありますので、必要書類は記入内容をご確認の上、必ずご提出ください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.kofu.yamanashi.jp/jidohoiku/4gatunyuusyo.html",
+      "quote": "入所選考においては、申込みの先着順ではなく、保育の必要性の高い児童から優先的に入所内定となります。"
+    },
+    "notes.3": {
+      "url": "https://www.city.kofu.yamanashi.jp/jidohoiku/4gatunyuusyo.html",
+      "quote": "※第１次入所選考の結果、待機になった方については第２次入所以降も選考が継続されるため、再度申請は不要です。希望園・保育要件等に変更がある場合には、次の受付期間内に手続きが必要です。"
+    }
+  },
+  "sources": [
+    {
+      "label": "甲府市「令和９年度４月保育所等入所申込受付について」",
+      "url": "https://www.city.kofu.yamanashi.jp/jidohoiku/4gatunyuusyo.html"
+    },
+    {
+      "label": "甲府市「保育所（園）・認定こども園（保育所部分）・地域型保育施設への入所申込みについて」",
+      "url": "https://www.city.kofu.yamanashi.jp/jidohoiku/nyushomoshikomi.html"
+    }
+  ]
+}

@@ -3,61 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   // ========== 保活の基本 ==========
-  {
-    slug: "hokatsu-schedule",
-    citySlug: "naha",
-    title: "那覇市の保活スケジュール　令和8年度4月入園の流れ",
-    description:
-      "那覇市の令和8年度（2026年度）4月入園の申込時期・書類準備・結果通知の時期をまとめました。初めての保活でも迷わないスケジュールガイドです。",
-    image:
-      "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>令和8年度（2026年度）4月入園のスケジュール</h2>
-<p>那覇市の4月入所の申込受付は<strong>12月</strong>に行われます。オンライン申請にも対応しているため、窓口に行かなくても手続きが可能です。</p>
-
-<h3>主なスケジュール</h3>
-<table>
-<tr><th>項目</th><th>日程（目安）</th></tr>
-<tr><td>入園申込みのご案内公開</td><td>2025年10月〜11月頃</td></tr>
-<tr><td>特別支援保育の面談申込</td><td>2025年10月下旬〜11月下旬</td></tr>
-<tr><td>4月入所の申込受付</td><td>2025年12月1日〜12月28日</td></tr>
-<tr><td>結果通知</td><td>2026年2月頃</td></tr>
-</table>
-
-<h3>5月以降の途中入所</h3>
-<p>年度途中の入所は随時申込みを受け付けています。毎月の締切日までに申込むと、翌月の利用調整の対象になります。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>那覇市ではオンライン申請が可能です。窓口での提出も引き続き受け付けています。問い合わせ先はこどもみらい課（098-861-6903）です。</p>
-</div>
-
-<h2>いつから動き始めるべき？</h2>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content"><strong>6月〜8月：情報収集</strong><p>那覇市の「認可保育園・認定こども園入園申込みのご案内」を市のホームページで確認します。</p></div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content"><strong>8月〜10月：保育園見学</strong><p>気になる園に直接電話して見学予約。那覇市内は約90園の認可保育施設があり、選択肢が豊富です。</p></div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content"><strong>10月〜11月：書類準備</strong><p>就労証明書などの必要書類を勤務先に依頼し、期限に余裕を持って準備します。</p></div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content"><strong>12月：申込</strong><p>必要書類を揃え、オンラインまたは窓口で期限内に提出します。</p></div>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>最新の申込方法は<a href="https://www.city.naha.okinawa.jp/child/hoikuen/ninteikodomoen/R6hoikuen_moushikomi.html" target="_blank" rel="noopener">那覇市公式サイト「認可保育園・認定こども園入園申込み」</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-04-04",
-    popularity: 55,
-  },
 
   // ========== 点数・選考 ==========
   {

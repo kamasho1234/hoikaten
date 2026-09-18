@@ -1,0 +1,38 @@
+{
+  "citySlug": "naha",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "那覇市「令和8年度　認可保育園・私立認定こども園(2号・3号)入園申込みのご案内」",
+    "url": "https://www.city.naha.okinawa.jp/child/hoikuen/1002762/1002783/1002785.html"
+  },
+  "fiscalYear": "R8",
+  "firstApply": "令和7年12月1日（月曜）～令和7年12月28日（日曜）",
+  "applyMethods": "オンライン申請、または窓口提出",
+  "notes": [
+    "土曜日・日曜日の受付はない。窓口に来られない方はオンライン申請をご利用ください。"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.naha.okinawa.jp/child/hoikuen/1002762/1002783/1002785.html",
+      "quote": "令和8年度（2026年）入園の申込み"
+    },
+    "firstApply": {
+      "url": "https://www.city.naha.okinawa.jp/child/hoikuen/1002762/1002783/1002785.html",
+      "quote": "【令和8年4月入所希望申込】令和7年12月1日（月曜）～令和7年12月28日（日曜）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.naha.okinawa.jp/child/hoikuen/1002762/1002783/1002785.html",
+      "quote": "オンライン申請、または窓口提出"
+    },
+    "notes.0": {
+      "url": "https://www.city.naha.okinawa.jp/child/hoikuen/1002762/1002783/1002785.html",
+      "quote": "土曜日・日曜日の受付はありません。窓口に来れない方はオンライン申請をご利用ください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "那覇市「令和8年度　認可保育園・私立認定こども園(2号・3号)入園申込みのご案内」",
+      "url": "https://www.city.naha.okinawa.jp/child/hoikuen/1002762/1002783/1002785.html"
+    }
+  ]
+}

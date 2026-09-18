@@ -1,0 +1,113 @@
+{
+  "citySlug": "kusatsu",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "草津市「令和9年度　認可保育施設の新規申込み（保育認定）」",
+    "url": "https://www.city.kusatsu.shiga.jp/kosodate/hoikukyoiku/hoikuen/hoikusyomousikomi.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年10月15日（木曜）から令和8年10月30日（金曜）　午後4時45分まで",
+  "applyMethods": "原則として保護者の方が直接提出してください。受付場所は草津市役所隣 さわやか保健センター2階 幼児課または第1希望の認可保育施設。電子申請、郵送対応あり。特別会場での受付あり",
+  "firstResult": "令和9年1月中旬頃に結果通知",
+  "secondApply": "令和8年10月31日（土曜）から令和8年12月15日（火曜）　午後4時45分まで",
+  "secondResult": "令和9年2月中旬頃に結果通知",
+  "documents": [
+    "保育所等入所（園）申込書",
+    "教育・保育給付認定申請書（法第19条第2号・第3号）兼児童台帳",
+    "保育を必要とする事由の証明書類（保護者いずれも必要）。就労の場合は市様式の就労証明書。自営業の場合は就労証明書及び確定申告書の写し等営業実態を確認できる書類",
+    "本人確認書類。申込の際に本人確認を行う。顔写真付の公的機関が発行した書類（個人番号カード（マイナンバーカード）、免許証やパスポート、身体障害者手帳など）、または顔写真なしの身分証明書2点以上"
+  ],
+  "ikukyu": "育児休業取得時に、既に保育を利用しているこどもがいて継続利用が必要であること。育児休業の期間、復帰予定日が明記された就労証明書（市様式）または育児休業の期間が確認できる書類が必要",
+  "notes": [
+    "草津市に在住し住民登録がある、または入所希望月の前月末までに転入予定のこどもが対象。生後2か月から6か月（施設により異なる）以上から就学前（一部2歳児までの場合あり）までのこども",
+    "教育・保育給付認定を受ける必要があり、保護者のいずれもが「保育を必要とする事由」を備えている場合に認定される",
+    "書類に不備がある場合、原則、受付できない。期日までに余裕をもってご提出ください",
+    "代理人による申請の場合は、委任状（保護者の方がご記入）及び申請者（保護者）の本人確認ができるものの写し、代理人の本人確認ができるものが必要",
+    "電子申請は保育を必要とする事由の証明書類（保護者いずれも必要）の画像（写真など）またはPDFのご準備が必要。パソコンやスマートフォンから24時間いつでもどこでも行うことが可能",
+    "第2次、第3次調整もある。第3次調整の受付期間は令和8年12月16日（水曜）から令和9年2月15日（月曜）午後4時45分まで、結果通知は令和9年3月10日頃"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.kusatsu.shiga.jp/kosodate/hoikukyoiku/hoikuen/hoikusyomousikomi.html",
+      "quote": "令和9年度　認可保育施設の新規入所申込について"
+    },
+    "firstApply": {
+      "url": "https://www.city.kusatsu.shiga.jp/kosodate/hoikukyoiku/hoikuen/hoikusyomousikomi.html",
+      "quote": "第1次調整 令和8年10月15日（木曜）から令和8年10月30日（金曜）　午後4時45分まで"
+    },
+    "applyMethods": {
+      "url": "https://www.city.kusatsu.shiga.jp/kosodate/hoikukyoiku/hoikuen/hoikusyomousikomi.html",
+      "quote": "以下の書類をご準備いただき、原則として保護者の方が直接提出してください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.kusatsu.shiga.jp/kosodate/hoikukyoiku/hoikuen/hoikusyomousikomi.html",
+      "quote": "草津市役所隣 さわやか保健センター 2階 幼児課　または　第1希望の認可保育施設"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.kusatsu.shiga.jp/kosodate/hoikukyoiku/hoikuen/hoikusyomousikomi.html",
+      "quote": "草津市電子申請サービスによる保育所等入所（園）申込が可能です。"
+    },
+    "firstResult": {
+      "url": "https://www.city.kusatsu.shiga.jp/kosodate/hoikukyoiku/hoikuen/hoikusyomousikomi.html",
+      "quote": "結果通知　令和9年1月中旬頃"
+    },
+    "secondApply": {
+      "url": "https://www.city.kusatsu.shiga.jp/kosodate/hoikukyoiku/hoikuen/hoikusyomousikomi.html",
+      "quote": "第2次調整 令和8年10月31日（土曜）から令和8年12月15日（火曜）　午後4時45分まで"
+    },
+    "secondResult": {
+      "url": "https://www.city.kusatsu.shiga.jp/kosodate/hoikukyoiku/hoikuen/hoikusyomousikomi.html",
+      "quote": "結果通知　令和9年2月中旬頃"
+    },
+    "documents.0": {
+      "url": "https://www.city.kusatsu.shiga.jp/kosodate/hoikukyoiku/hoikuen/hoikusyomousikomi.html",
+      "quote": "保育所等入所（園）申込書 教育・保育給付認定申請書（法第19条第2号・第3号）兼児童台帳"
+    },
+    "documents.1": {
+      "url": "https://www.city.kusatsu.shiga.jp/kosodate/hoikukyoiku/hoikuen/hoikusyomousikomi.html",
+      "quote": "教育・保育給付認定申請書（法第19条第2号・第3号）兼児童台帳"
+    },
+    "documents.2": {
+      "url": "https://www.city.kusatsu.shiga.jp/kosodate/hoikukyoiku/hoikuen/hoikusyomousikomi.html",
+      "quote": "保育を必要とする事由の証明書類（保護者いずれも必要）"
+    },
+    "documents.3": {
+      "url": "https://www.city.kusatsu.shiga.jp/kosodate/hoikukyoiku/hoikuen/hoikusyomousikomi.html",
+      "quote": "本人確認について 申込の際に本人確認を行っておりますので、以下の書類を提示していただくようお願いします。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.kusatsu.shiga.jp/kosodate/hoikukyoiku/hoikuen/hoikusyomousikomi.html",
+      "quote": "育児休業取得時に、既に保育を利用しているこどもがいて継続利用が必要であること （育児休業取得期間） 育児休業の期間、復帰予定日が明記された就労証明書（市様式）または 育児休業の期間が確認できる書類"
+    },
+    "notes.0": {
+      "url": "https://www.city.kusatsu.shiga.jp/kosodate/hoikukyoiku/hoikuen/hoikusyomousikomi.html",
+      "quote": "草津市に在住（転入の場合は実際に引っ越し）し、住民登録がある、または入所希望月の前月末までに草津市に在住（転入の場合は実際に引っ越し）し、住民登録がある生後2か月から6か月（施設により異なる）以上から就学前（一部2歳児までの場合あり）までのこども。"
+    },
+    "notes.1": {
+      "url": "https://www.city.kusatsu.shiga.jp/kosodate/hoikukyoiku/hoikuen/hoikusyomousikomi.html",
+      "quote": "教育・保育給付認定は、そのこどもを養育する保護者のいずれもが「保育を必要とする事由」を備えている場合に、保育の必要性について認定を受けるものです。"
+    },
+    "notes.2": {
+      "url": "https://www.city.kusatsu.shiga.jp/kosodate/hoikukyoiku/hoikuen/hoikusyomousikomi.html",
+      "quote": "書類に不備がある場合、原則、受付できません。期日までに余裕をもってご提出ください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.kusatsu.shiga.jp/kosodate/hoikukyoiku/hoikuen/hoikusyomousikomi.html",
+      "quote": "代理人による申請について 申請者（保護者）でない方が書類の提出に来られる場合は、必ず次のものを窓口までお持ちください。 委任状（保護者の方がご記入ください）"
+    },
+    "notes.4": {
+      "url": "https://www.city.kusatsu.shiga.jp/kosodate/hoikukyoiku/hoikuen/hoikusyomousikomi.html",
+      "quote": "草津市電子申請サービスによる保育所等入所（園）申込が可能です。 パソコンやスマートフォンから24時間いつでも、どこでも行うことが可能となります。"
+    },
+    "notes.5": {
+      "url": "https://www.city.kusatsu.shiga.jp/kosodate/hoikukyoiku/hoikuen/hoikusyomousikomi.html",
+      "quote": "第3次調整 令和8年12月16日（水曜）から令和9年2月15日（月曜）　午後4時45分まで　 結果通知　令和9年3月10日頃"
+    }
+  },
+  "sources": [
+    {
+      "label": "草津市「令和9年度　認可保育施設の新規申込み（保育認定）」",
+      "url": "https://www.city.kusatsu.shiga.jp/kosodate/hoikukyoiku/hoikuen/hoikusyomousikomi.html"
+    }
+  ]
+}

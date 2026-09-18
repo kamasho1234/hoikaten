@@ -1,0 +1,64 @@
+{
+  "citySlug": "yokkaichi",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "四日市市「令和９年度保育施設の申込案内」",
+    "url": "https://www.city.yokkaichi.lg.jp/www/contents/1783484965211/index.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和８年９月１日(火)から各保育施設および保育幼稚園課で配布（各保育施設での配布は令和８年９月３０日(水)までとなります）",
+  "firstApply": "令和８年９月８日(火)～令和８年９月３０日(水)。受付場所は第１希望の保育施設（９時～１６時）",
+  "applyMethods": "第１希望の保育施設に書類を提出する（１次受付）。面接は後日に実施",
+  "secondApply": "令和８年１０月１日(木)～令和９年１月２９日(金)。受付場所は保育幼稚園課（８時３０分～１７時１５分）",
+  "documents": [
+    "令和９年度 保育所・認定こども園 保育認定 入園・入所申込書",
+    "保育を必要とする事由を証明する書類（就労証明書等。事由により異なる）"
+  ],
+  "interview": "第１希望の保育施設に提出時に１次受付は後日行われ、２次受付は保育幼稚園課の窓口で申請書受付時に窓口で行う。入所希望の児童と一緒にお越しください",
+  "ikukyu": "利用調整の結果、保育所等に入れなかったことを理由に育児休業給付金の延長手続きをする場合、「入所申込書の写し」「保育利用保留通知書」が必要となります。初回の利用調整時にはご自宅へ郵送させていただきます",
+  "notes": [],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.yokkaichi.lg.jp/www/contents/1783484965211/index.html",
+      "quote": "令和９年度中（令和９年４月から令和１０年３月）に、保育所、認定こども園（保育認定）、地域型保育事業所への入所申込みをされる場合は"
+    },
+    "guideRelease": {
+      "url": "https://www.city.yokkaichi.lg.jp/www/contents/1783484965211/index.html",
+      "quote": "入所案内の配布は、令和８年９月１日(火)から各保育施設および保育幼稚園課で行います（各保育施設での配布は令和８年９月３０日(水)までとなります）。"
+    },
+    "firstApply": {
+      "url": "https://www.city.yokkaichi.lg.jp/www/contents/1783484965211/index.html",
+      "quote": "受付期間：令和８年９月８日(火) ～ 令和８年９月３０日(水) 受付場所：第１希望の保育施設（９時～１６時）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.yokkaichi.lg.jp/www/contents/1783484965211/index.html",
+      "quote": "面接 ：後日行います。"
+    },
+    "secondApply": {
+      "url": "https://www.city.yokkaichi.lg.jp/www/contents/1783484965211/index.html",
+      "quote": "受付期間：令和８年１０月１日(木) ～ 令和９年１月２９日(金) 受付場所：保育幼稚園課（８時３０分～１７時１５分）"
+    },
+    "documents.0": {
+      "url": "https://www.city.yokkaichi.lg.jp/www/contents/1783484965211/index.html",
+      "quote": "令和９年度 保育所・認定こども園 保育認定 入園・入所申込書"
+    },
+    "documents.1": {
+      "url": "https://www.city.yokkaichi.lg.jp/www/contents/1783484965211/index.html",
+      "quote": "保育を必要 とする事由を証明する書類"
+    },
+    "interview": {
+      "url": "https://www.city.yokkaichi.lg.jp/www/contents/1783484965211/index.html",
+      "quote": "面接 ：申請書受付時に保育幼稚園課の窓口で行います。 ※入所希望の児童と一緒にお越しください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.yokkaichi.lg.jp/www/contents/1783484965211/index.html",
+      "quote": "保育利用保留通知書は、初回の利用調整時にはご自宅へ郵送させていただきます（連絡不要）が、２回目以降必要な場合は、保育幼稚園課までご連絡ください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "四日市市「令和９年度保育施設の申込案内」",
+      "url": "https://www.city.yokkaichi.lg.jp/www/contents/1783484965211/index.html"
+    }
+  ]
+}

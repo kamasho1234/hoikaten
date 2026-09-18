@@ -12,62 +12,6 @@ const SOURCE_NOTE = `<div class="info-box">
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "ayase",
-    title: "綾瀬市の保活スケジュール　申込から内定までの流れ",
-    description:
-      "綾瀬市の認可保育園の申込時期・選考の流れをまとめました。基本指数は父母各最大100点（合計200点）です。令和8年度4月入園の動き方を解説します。",
-    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>綾瀬市の4月入園スケジュール</h2>
-<p>綾瀬市の認可保育園は毎年秋に翌年度4月入園の一次申込を受付けます。「保育所等入所選考基準」の基本指数・調整指数を理解して準備を進めましょう。</p>
-
-<h3>保活の全体スケジュール</h3>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content">
-<strong>4月〜6月：情報収集</strong>
-<p>綾瀬市のホームページで保育園の一覧や「保育所等利用のご案内」を確認します。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content">
-<strong>7月〜9月：保育園見学</strong>
-<p>綾瀬市内の保育園を見学して、通勤経路との相性を確認しましょう。綾瀬市では希望する保育施設の見学が確認できない場合、児童ごとの調整指数で-50点となるため、見学は必ず済ませてください。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content">
-<strong>9月〜10月：書類準備</strong>
-<p>月あたりの勤務時間は正確に記載してもらいましょう。指数に直結します。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content">
-<strong>11月：申込書類の提出</strong>
-<p>4月一次の申込期限は例年11月中旬です。期限厳守で提出しましょう。</p>
-</div>
-</div>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>綾瀬市の基本指数は父母各最大100点（合計200点満点）です。選考方法は「父母の基本指数の合計に、保護者ごと・世帯ごと・児童ごとの調整指数を加減算する」と定められています。</p>
-</div>
-
-<div class="warn-box">
-<p><strong>注意</strong></p>
-<p>綾瀬市の「勤務時間」は、出勤から退勤までの時間（休憩時間を含む）と通勤時間の合計が基本です。実働時間だけで判断しないよう注意しましょう。</p>
-</div>
-
-${SOURCE_NOTE}`,
-    publishedAt: "2026-07-28",
-    popularity: 55,
-  },
-  {
     slug: "score-up-tips",
     citySlug: "ayase",
     title: "綾瀬市で入園指数を上げるコツ　調整指数チェックリスト",

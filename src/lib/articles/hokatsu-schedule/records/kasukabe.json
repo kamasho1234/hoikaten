@@ -1,0 +1,110 @@
+{
+  "citySlug": "kasukabe",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "春日部市「令和9年度保育施設の4月入所の申請受付」",
+    "url": "https://www.city.kasukabe.lg.jp/kosodate_kyoiku_bunka/kasukabecosodateoensite/kodomowoazukeru_hoikushisetsu_jidoclubnado/1/38000.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年10月1日(木曜日)午前9時～令和8年11月2日(月曜日)午後5時",
+  "applyMethods": "マイナポータルの「ぴったりサービス」から電子申請、郵送（春日部市役所 こども未来部保育課 入所申請担当宛）、窓口（市役所本庁舎3階 保育課）",
+  "firstResult": "令和9年2月上旬ごろに郵送で通知",
+  "secondApply": "令和8年11月4日(水曜日)以降に入所申請を提出した人が対象。受付期間は令和8年11月4日(水曜日)午前9時～令和9年1月22日(金曜日)午後5時",
+  "secondResult": "令和9年3月上旬ごろに郵送で通知",
+  "documents": [
+    "教育・保育給付認定申請書 兼 保育施設入所申込書（台帳）",
+    "入所に係る確認書",
+    "入所面接予約申請書（1次選考用）",
+    "提出書類等チェックシート",
+    "保育を必要とする事由（申請事由）が確認できる書類（就労証明書等。事由により異なる）",
+    "その他、家庭の状況により必要な書類（該当者のみ）"
+  ],
+  "interview": "子どもの健康状態を確認するために、公立保育所の保育士と面接を行う。申請書類と一緒に提出した「入所面接予約申請書」をもとに後日面接の日時などをお知らせするので、面接当日は子どもと一緒にお越しください。育児休業延長を希望する方と令和8年10月以降に入所申請をし、面接を受けた方は省略させていただく",
+  "notes": [
+    "原則として1次受付期間中に申請してください。申請は原則として電子申請で受け付けます",
+    "保育施設等利用のてびき(令和9年度版)を必ず読んでから申請してください",
+    "認定こども園（保育部分）と地域型保育は、施設の見学と子どもの面接が必要です",
+    "入所の決定は先着順ではありません。保育の必要性の高い子どもから入所を決定します",
+    "春日部市に転入予定の場合も申請が可能ですので、事前に相談してください"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.kasukabe.lg.jp/kosodate_kyoiku_bunka/kasukabecosodateoensite/kodomowoazukeru_hoikushisetsu_jidoclubnado/1/38000.html",
+      "quote": "令和9年度4月入所を希望する方へ"
+    },
+    "firstApply": {
+      "url": "https://www.city.kasukabe.lg.jp/kosodate_kyoiku_bunka/kasukabecosodateoensite/kodomowoazukeru_hoikushisetsu_jidoclubnado/1/38000.html",
+      "quote": "令和8年10月1日(木曜日)午前9時～令和8年11月2日(月曜日)午後5時"
+    },
+    "applyMethods": {
+      "url": "https://www.city.kasukabe.lg.jp/kosodate_kyoiku_bunka/kasukabecosodateoensite/kodomowoazukeru_hoikushisetsu_jidoclubnado/1/38000.html",
+      "quote": "電子申請は、マイナポータルの「ぴったりサービス」から行います。"
+    },
+    "firstResult": {
+      "url": "https://www.city.kasukabe.lg.jp/kosodate_kyoiku_bunka/kasukabecosodateoensite/kodomowoazukeru_hoikushisetsu_jidoclubnado/1/38000.html",
+      "quote": "令和9年2月上旬ごろに、郵送で通知します。"
+    },
+    "secondApply": {
+      "url": "https://www.city.kasukabe.lg.jp/kosodate_kyoiku_bunka/kasukabecosodateoensite/kodomowoazukeru_hoikushisetsu_jidoclubnado/1/38000.html",
+      "quote": "令和8年11月4日(水曜日)午前9時～令和9年1月22日(金曜日)午後5時"
+    },
+    "secondResult": {
+      "url": "https://www.city.kasukabe.lg.jp/kosodate_kyoiku_bunka/kasukabecosodateoensite/kodomowoazukeru_hoikushisetsu_jidoclubnado/1/38000.html",
+      "quote": "令和9年3月上旬ごろに、郵送で通知します。"
+    },
+    "documents.0": {
+      "url": "https://www.city.kasukabe.lg.jp/kosodate_kyoiku_bunka/kasukabecosodateoensite/kodomowoazukeru_hoikushisetsu_jidoclubnado/1/38000.html",
+      "quote": "教育・保育給付認定申請書 兼 保育施設入所申込書（台帳）"
+    },
+    "documents.1": {
+      "url": "https://www.city.kasukabe.lg.jp/kosodate_kyoiku_bunka/kasukabecosodateoensite/kodomowoazukeru_hoikushisetsu_jidoclubnado/1/38000.html",
+      "quote": "入所に係る確認書"
+    },
+    "documents.2": {
+      "url": "https://www.city.kasukabe.lg.jp/kosodate_kyoiku_bunka/kasukabecosodateoensite/kodomowoazukeru_hoikushisetsu_jidoclubnado/1/38000.html",
+      "quote": "入所面接予約申請書（1次選考用）"
+    },
+    "documents.3": {
+      "url": "https://www.city.kasukabe.lg.jp/kosodate_kyoiku_bunka/kasukabecosodateoensite/kodomowoazukeru_hoikushisetsu_jidoclubnado/1/38000.html",
+      "quote": "提出書類等チェックシート"
+    },
+    "documents.4": {
+      "url": "https://www.city.kasukabe.lg.jp/kosodate_kyoiku_bunka/kasukabecosodateoensite/kodomowoazukeru_hoikushisetsu_jidoclubnado/1/38000.html",
+      "quote": "保育を必要とする事由（申請事由）が確認できる書類"
+    },
+    "documents.5": {
+      "url": "https://www.city.kasukabe.lg.jp/kosodate_kyoiku_bunka/kasukabecosodateoensite/kodomowoazukeru_hoikushisetsu_jidoclubnado/1/38000.html",
+      "quote": "その他、家庭の状況により必要な書類（該当者のみ）"
+    },
+    "interview": {
+      "url": "https://www.city.kasukabe.lg.jp/kosodate_kyoiku_bunka/kasukabecosodateoensite/kodomowoazukeru_hoikushisetsu_jidoclubnado/1/38000.html",
+      "quote": "子どもの健康状態を確認するために、公立保育所の保育士と面接を行います。申請書類と一緒に提出した「入所面接予約申請書」をもとに、後日面接の日時などをお知らせしますので、面接当日は子どもと一緒にお越しください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.kasukabe.lg.jp/kosodate_kyoiku_bunka/kasukabecosodateoensite/kodomowoazukeru_hoikushisetsu_jidoclubnado/1/38000.html",
+      "quote": "令和9年4月からの入所を希望する方は、原則として1次受付期間中に申請してください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.kasukabe.lg.jp/kosodate_kyoiku_bunka/kasukabecosodateoensite/kodomowoazukeru_hoikushisetsu_jidoclubnado/1/38000.html",
+      "quote": "必ず「保育施設等利用のてびき(令和9年度版)」を読んでから申請してください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.kasukabe.lg.jp/kosodate_kyoiku_bunka/kasukabecosodateoensite/kodomowoazukeru_hoikushisetsu_jidoclubnado/1/38000.html",
+      "quote": "認定こども園（保育部分）と地域型保育は、施設の見学と子どもの面接が必要です"
+    },
+    "notes.3": {
+      "url": "https://www.city.kasukabe.lg.jp/kosodate_kyoiku_bunka/kasukabecosodateoensite/kodomowoazukeru_hoikushisetsu_jidoclubnado/1/38000.html",
+      "quote": "入所の決定は先着順ではありません（保育の必要性の高い子どもから入所を決定します）"
+    },
+    "notes.4": {
+      "url": "https://www.city.kasukabe.lg.jp/kosodate_kyoiku_bunka/kasukabecosodateoensite/kodomowoazukeru_hoikushisetsu_jidoclubnado/1/38000.html",
+      "quote": "春日部市に転入予定の場合も申請が可能ですので、事前に相談してください"
+    }
+  },
+  "sources": [
+    {
+      "label": "春日部市「令和9年度保育施設の4月入所の申請受付」",
+      "url": "https://www.city.kasukabe.lg.jp/kosodate_kyoiku_bunka/kasukabecosodateoensite/kodomowoazukeru_hoikushisetsu_jidoclubnado/1/38000.html"
+    }
+  ]
+}

@@ -3,59 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "shimonoseki",
-    title: "下関市の保活スケジュール　令和8年度4月入園の流れ",
-    description:
-      "下関市の令和8年度（2026年度）4月入園の申込時期・必要書類・結果通知の時期をまとめました。",
-    image:
-      "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>令和8年度（2026年度）4月入園のスケジュール</h2>
-<p>下関市の4月入園申込は例年10月頃から書類配布が始まり、11月〜12月が受付期間です。通常募集と追加募集の2回に分けて利用調整が実施されます。</p>
-
-<h3>申込の流れ</h3>
-<table>
-<tr><th>項目</th><th>日程（目安）</th></tr>
-<tr><td>申請書類配布</td><td>2025年10月頃〜</td></tr>
-<tr><td>通常募集受付</td><td>2025年11月上旬〜12月上旬</td></tr>
-<tr><td>通常募集結果通知</td><td>2026年1月下旬〜2月上旬（郵送）</td></tr>
-<tr><td>追加募集受付</td><td>2026年1月〜2月</td></tr>
-<tr><td>追加募集結果通知</td><td>2026年2月下旬〜3月上旬（郵送）</td></tr>
-</table>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>下関市では年度途中の入所も毎月受け付けています。入所希望月の前月20日頃に利用調整が行われるため、早めの準備が大切です。</p>
-</div>
-
-<h2>いつから動き始めるべき？</h2>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content"><strong>4月〜6月：情報収集</strong><p>下関市幼児保育課の公式サイトで前年度の資料を参考に準備を始めます。</p></div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content"><strong>6月〜9月：保育園見学</strong><p>気になる園に電話して見学予約を入れましょう。下関市内には認可保育所・認定こども園・小規模保育事業所があります。</p></div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content"><strong>10月〜11月：書類準備</strong><p>就労証明書を勤務先に依頼します。保育の利用申込書と支給認定申請書が必要です。</p></div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content"><strong>11月〜12月：申込</strong><p>幼児保育課の窓口で期限内に必要書類を提出します。</p></div>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>最新情報は<a href="https://www.city.shimonoseki.lg.jp/soshiki/45/4626.html" target="_blank" rel="noopener">下関市公式サイト「保育園・こども園の入園手続きについて」</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-04-05",
-    popularity: 55,
-  },
-  {
     slug: "katen-no-kotsu",
     citySlug: "shimonoseki",
     title: "下関市で加点を最大化するコツ　調整指数を積み上げる方法",

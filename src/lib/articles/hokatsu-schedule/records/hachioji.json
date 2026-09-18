@@ -1,0 +1,72 @@
+{
+  "citySlug": "hachioji",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "八王子市「保育施設入園申込について」",
+    "url": "https://kosodate.city.hachioji.tokyo.jp/soshiki/hoikuyochienka/hoikuyochienka_nyushotanto/454.html"
+  },
+  "fiscalYear": "R8",
+  "firstApply": "一次受付：窓口は令和7年10月29日（水曜日）から令和7年11月14日（金曜日）。郵送は令和7年10月29日（水曜日）から令和7年11月5日（水曜日）必着。オンライン申請は令和7年10月29日（水曜日）から令和7年11月5日（水曜日）23時59分受信分まで",
+  "secondApply": "二次受付：窓口は令和7年11月16日（日曜日）から令和8年1月30日（金曜日）。オンライン申請は令和8年1月16日（金曜日）から令和8年1月23日（金曜日）23時59分受信分まで",
+  "applyMethods": "窓口での申込は市役所本庁舎4階保育幼稚園課（平日午前8時30分から午後5時）、八王子駅南口総合事務所（平日午前10時から午後7時、日曜日午前10時から午後5時）、市民部拠点事務所（平日午前9時から午後4時）、南大沢事務所（平日午前10時から午後5時、日曜日午前10時から午後5時）で受け付けます。郵送またはオンライン申請でも申し込み可能です",
+  "notes": [
+    "申込期限後に提出された書類は5月入園申込以降の情報反映となります",
+    "令和7年度申請者で保留（待機）となっている方も、この期間に改めて申し込みが必要です"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://kosodate.city.hachioji.tokyo.jp/soshiki/hoikuyochienka/hoikuyochienka_nyushotanto/1683.html",
+      "quote": "令和9年度 現在、準備中です。公開は、令和8年度（2026年度）秋頃を予定しています。"
+    },
+    "firstApply": {
+      "url": "https://kosodate.city.hachioji.tokyo.jp/soshiki/hoikuyochienka/hoikuyochienka_nyushotanto/454.html",
+      "quote": "窓口：令和7年10月29日（水曜日）から令和7年11月14日（金曜日）"
+    },
+    "firstApply#2": {
+      "url": "https://kosodate.city.hachioji.tokyo.jp/soshiki/hoikuyochienka/hoikuyochienka_nyushotanto/454.html",
+      "quote": "郵送：令和7年10月29日（水曜日）から令和7年11月5日（水曜日）必着"
+    },
+    "firstApply#3": {
+      "url": "https://kosodate.city.hachioji.tokyo.jp/soshiki/hoikuyochienka/hoikuyochienka_nyushotanto/454.html",
+      "quote": "オンライン：令和7年10月29日（水曜日）から令和7年11月5日（水曜日）23時59分受信分"
+    },
+    "secondApply": {
+      "url": "https://kosodate.city.hachioji.tokyo.jp/soshiki/hoikuyochienka/hoikuyochienka_nyushotanto/454.html",
+      "quote": "窓口：令和7年11月16日（日曜日）から令和8年1月30日（金曜日）"
+    },
+    "secondApply#2": {
+      "url": "https://kosodate.city.hachioji.tokyo.jp/soshiki/hoikuyochienka/hoikuyochienka_nyushotanto/454.html",
+      "quote": "オンライン：令和8年1月16日（金曜日）から令和8年1月23日（金曜日）23時59分受信分"
+    },
+    "applyMethods": {
+      "url": "https://kosodate.city.hachioji.tokyo.jp/soshiki/hoikuyochienka/hoikuyochienka_nyushotanto/454.html",
+      "quote": "八王子市役所本庁舎4階保育幼稚園課（土日・祝日は受付不可）午前8時30分から午後5時まで"
+    },
+    "applyMethods#2": {
+      "url": "https://kosodate.city.hachioji.tokyo.jp/soshiki/hoikuyochienka/hoikuyochienka_nyushotanto/454.html",
+      "quote": "八王子駅南口総合事務所（土曜日・祝日は受付不可）午前10時から午後7時まで（日曜日は午後5時まで）"
+    },
+    "applyMethods#3": {
+      "url": "https://kosodate.city.hachioji.tokyo.jp/soshiki/hoikuyochienka/hoikuyochienka_nyushotanto/454.html",
+      "quote": "市民部拠点事務所（浅川・由木・元八王子・北野）（土日、祝日は受付不可）午前9時から午後4時まで"
+    },
+    "applyMethods#4": {
+      "url": "https://kosodate.city.hachioji.tokyo.jp/soshiki/hoikuyochienka/hoikuyochienka_nyushotanto/454.html",
+      "quote": "南大沢事務所（土曜日・祝日は受付不可）午前10時から午後5時まで"
+    },
+    "notes.0": {
+      "url": "https://kosodate.city.hachioji.tokyo.jp/soshiki/hoikuyochienka/hoikuyochienka_nyushotanto/454.html",
+      "quote": "期限後に提出された書類は全て、5月入園（転園）申込以降の情報反映となります"
+    },
+    "notes.1": {
+      "url": "https://kosodate.city.hachioji.tokyo.jp/soshiki/hoikuyochienka/hoikuyochienka_nyushotanto/454.html",
+      "quote": "令和7年度（2025年度）申請者で保留（待機）となっている方も、この期間に改めて申し込みしてください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "八王子市「保育施設入園申込について」",
+      "url": "https://kosodate.city.hachioji.tokyo.jp/soshiki/hoikuyochienka/hoikuyochienka_nyushotanto/454.html"
+    }
+  ]
+}

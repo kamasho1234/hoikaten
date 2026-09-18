@@ -1,0 +1,73 @@
+{
+  "citySlug": "itami",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "伊丹市「令和9年度保育施設入所について」",
+    "url": "https://www.city.itami.lg.jp/SOSIKI/KODOMO/HOIKU/49261.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年9月15日から申請書一式の郵送・電話・電子請求を受付（このページからダウンロードもできる）。9月24日（木曜日）以降は伊丹市役所2階D-44（保育所・こども園・幼稚園）で窓口配布。支所・分室・保育施設での配布はない",
+  "firstApply": "郵送申請：令和8年9月15日（火曜日）～11月4日（水曜日）まで（消印有効）。窓口申請：11月16日（月曜日）～11月30日（月曜日）17時まで",
+  "applyMethods": "郵送または窓口（伊丹市役所2階D-44）で申請。市は郵送での申請を勧めている",
+  "documents": [
+    "保育施設入所申請書兼施設型給付費・地域型保育給付費等教育・保育給付認定申請書（2号・3号用）",
+    "保育の必要性確認書類（世帯状況により異なる。就労証明書の場合は証明年月日から3カ月以内のもの）"
+  ],
+  "notes": [
+    "申請に関する詳細は「保育施設利用申請のご案内」をご覧ください",
+    "書類に不備または不足がある場合や、受付期間を過ぎた申請は受理できません",
+    "西伊丹幼稚園、いずみ幼稚園、白ゆり幼稚園については、各施設への直接申請となります"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.itami.lg.jp/SOSIKI/KODOMO/HOIKU/49261.html",
+      "quote": "【重要】令和9年1月～令和9年4月入所希望の場合"
+    },
+    "guideRelease": {
+      "url": "https://www.city.itami.lg.jp/SOSIKI/KODOMO/HOIKU/49261.html",
+      "quote": "電子請求や電話（ 072-784-8035 ）での請求、郵送での請求が可能です。 また書類のデータを、 このページからダウンロードしていただくことも可能です。 9月15日以降、お問い合わせが増加する時期になります。"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.itami.lg.jp/SOSIKI/KODOMO/HOIKU/49261.html",
+      "quote": "9月24日（木曜日）以降 伊丹市役所2階D-44 保育所・こども園・幼稚園にて配布いたします。 ※支所、分室や保育施設での配布は行っておりません。"
+    },
+    "firstApply": {
+      "url": "https://www.city.itami.lg.jp/SOSIKI/KODOMO/HOIKU/49261.html",
+      "quote": "【重要】令和9年1月～令和9年4月入所希望の場合郵送申請：9月15日（火曜日）～11月 4日（水曜日）まで（消印有効）窓口申請：11月16日（月曜日）～11月30日（月曜日）17時まで"
+    },
+    "applyMethods": {
+      "url": "https://www.city.itami.lg.jp/SOSIKI/KODOMO/HOIKU/49261.html",
+      "quote": "郵送での申請にご協力のほど、よろしくお願いいたします。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.itami.lg.jp/SOSIKI/KODOMO/HOIKU/49261.html",
+      "quote": "窓口申請：11月16日（月曜日）～11月30日（月曜日）17時まで"
+    },
+    "documents.0": {
+      "url": "https://www.city.itami.lg.jp/SOSIKI/KODOMO/HOIKU/49261.html",
+      "quote": "保育施設入所申請書兼施設型給付費・地域型保育給付費等教育・保育給付認定申請書（2号・3号用）"
+    },
+    "documents.1": {
+      "url": "https://www.city.itami.lg.jp/SOSIKI/KODOMO/HOIKU/49261.html",
+      "quote": "各証明書の有効期間は以下の通りです。有効期限があるものは有効期限内のもの証明年月日から3カ月以内のもの"
+    },
+    "notes.0": {
+      "url": "https://www.city.itami.lg.jp/SOSIKI/KODOMO/HOIKU/49261.html",
+      "quote": "本ページは入所申請に必要な説明のみとなるため、「保育施設利用申請のご案内」は必ずご一読ください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.itami.lg.jp/SOSIKI/KODOMO/HOIKU/49261.html",
+      "quote": "書類に不備または不足がある場合や、受付期間を過ぎた申請は受理できませんので、余裕をもって申請ください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.itami.lg.jp/SOSIKI/KODOMO/HOIKU/49261.html",
+      "quote": "西伊丹幼稚園、いずみ幼稚園、白ゆり幼稚園については、各施設への直接申請となります（市外在住の方除く）。"
+    }
+  },
+  "sources": [
+    {
+      "label": "伊丹市「令和9年度保育施設入所について」",
+      "url": "https://www.city.itami.lg.jp/SOSIKI/KODOMO/HOIKU/49261.html"
+    }
+  ]
+}

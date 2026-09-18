@@ -1,0 +1,113 @@
+{
+  "citySlug": "yamagata",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "山形市「令和9年度 認可保育所等の利用申し込み受付について」",
+    "url": "https://www.city.yamagata-yamagata.lg.jp/kosodatekyoiku/hoiku/1007241/1019057.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "9月1日（火曜）から各施設及び保育育成課にて配布する。ダウンロードも可能",
+  "firstApply": "令和8年9月14日（月曜）～10月16日（金曜）。郵送による申請は締切日必着",
+  "applyMethods": "電子申請（原則）、市役所1階保育育成課11番窓口、郵送での申し込みを受け付ける",
+  "firstResult": "令和9年4月利用までのスケジュール表において、第1次利用調整の結果通知は12月",
+  "secondApply": "令和9年1月5日（火曜）まで。郵送による申請は締切日必着",
+  "secondResult": "利用調整の結果は、内定・保留いずれの場合についても保育育成課から通知される",
+  "documents": [
+    "令和9年度施設型給付費・地域型保育給付費教育・保育給付認定申請書兼児童台帳",
+    "保育の必要性を証明する書類（就労証明書等、保育を必要とする事由により異なる。就労の場合は就労証明書が必須。就労証明書は認可保育所申し込み前に市指定様式で作成される必要がある）",
+    "個人番号（マイナンバー）申告書"
+  ],
+  "interview": "申請方法により異なる。電子申請の場合は面接なし、窓口申請の場合は市役所1階保育育成課11番窓口で申請時に相談を受け付ける（市役所職員が対応）",
+  "ikukyu": "育児休業給付金の支給期間延長の手続きを行う際は、保育所等の利用申込書の写しが必要",
+  "notes": [
+    "原則として電子申請での申し込みとなるが、相談窓口があり市役所職員が対応する",
+    "郵送による申請は申請締切日必着となる",
+    "申し込み後に申請内容に変更がある場合は、保育育成課までご連絡が必要",
+    "出生前仮申請が可能。分娩予定日が令和9年3月5日までの場合は第1次申込期間に仮申請可能",
+    "市役所1階保育育成課に窓口での相談を行う際は、待ち時間が長くなる場合があるため時間にゆとりを持って来庁することが推奨される"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.yamagata-yamagata.lg.jp/kosodatekyoiku/hoiku/1007241/1019057.html",
+      "quote": "（前倒し利用1~3月を含む） 【第1次利用調整】令和8年9月14日（月曜）～　10月16日（金曜） ※令和9年1~3月前倒し利用可能"
+    },
+    "guideRelease": {
+      "url": "https://www.city.yamagata-yamagata.lg.jp/kosodatekyoiku/hoiku/1007241/1019057.html",
+      "quote": "9月1日（火曜）から各施設及び保育育成課にて配布します。"
+    },
+    "firstApply": {
+      "url": "https://www.city.yamagata-yamagata.lg.jp/kosodatekyoiku/hoiku/1007241/1019425.html",
+      "quote": "（1）申請受付期間　9月14日（月曜）～10月16日（金曜）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.yamagata-yamagata.lg.jp/kosodatekyoiku/hoiku/1007241/1019425.html",
+      "quote": "令和9年度の入所申し込みは、原則、電子申請での申し込みとなります。市役所1階保育育成課11番窓口または郵送での申し込みも受け付けています。"
+    },
+    "firstResult": {
+      "url": "https://www.city.yamagata-yamagata.lg.jp/kosodatekyoiku/hoiku/1007241/1019425.html",
+      "quote": "第1次利用調整 10月16日（金曜） 10月23日（金曜） 12月 1月・2月・3月"
+    },
+    "secondApply": {
+      "url": "https://www.city.yamagata-yamagata.lg.jp/kosodatekyoiku/hoiku/1007241/1019425.html",
+      "quote": "第2次利用調整（令和9年3月からの利用を含む）令和9年1月5日（火曜）まで　※申請締切日必着"
+    },
+    "secondResult": {
+      "url": "https://www.city.yamagata-yamagata.lg.jp/kosodatekyoiku/hoiku/1007241/1019425.html",
+      "quote": "利用調整の結果は、内定、保留いずれの場合についても保育育成課から通知します。"
+    },
+    "documents.0": {
+      "url": "https://www.city.yamagata-yamagata.lg.jp/_res/projects/default_project/_page_/001/019/057/r9riyouannnai.pdf",
+      "quote": "（1）令和９年度施設型給付費・地域型給付費教育・保育給付認定申請書兼児童台帳（２・３号用）"
+    },
+    "documents.1": {
+      "url": "https://www.city.yamagata-yamagata.lg.jp/_res/projects/default_project/_page_/001/019/057/r9riyouannnai.pdf",
+      "quote": "（２）保育の必要性を証明する書類（父母それぞれの分が必要）"
+    },
+    "documents.2": {
+      "url": "https://www.city.yamagata-yamagata.lg.jp/_res/projects/default_project/_page_/001/019/057/r9riyouannnai.pdf",
+      "quote": "（3）個人番号（マイナンバー）申告書"
+    },
+    "interview": {
+      "url": "https://www.city.yamagata-yamagata.lg.jp/kosodatekyoiku/hoiku/1007241/1019425.html",
+      "quote": "（2）相談窓口　市役所1階保育育成課（11番窓口）　（相談は市役所職員が行います。）"
+    },
+    "ikukyu": {
+      "url": "https://www.city.yamagata-yamagata.lg.jp/_res/projects/default_project/_page_/001/019/057/r9riyouannnai.pdf",
+      "quote": "育児休業給付金の支給期間延長の手続きを行う際、保育所等の利用申込書の写しが必要です。"
+    },
+    "notes.0": {
+      "url": "https://www.city.yamagata-yamagata.lg.jp/kosodatekyoiku/hoiku/1007241/1019425.html",
+      "quote": "令和9年度の入所申し込みは、原則、電子申請での申し込みとなります。"
+    },
+    "notes.1": {
+      "url": "https://www.city.yamagata-yamagata.lg.jp/kosodatekyoiku/hoiku/1007241/1019425.html",
+      "quote": "※郵送による申請は締切日必着となります。"
+    },
+    "notes.2": {
+      "url": "https://www.city.yamagata-yamagata.lg.jp/_res/projects/default_project/_page_/001/019/057/r9riyouannnai.pdf",
+      "quote": "申請書や提出した書類等の内容（世帯構成・住所・保育状況・就労状況・家庭状況等）に変更があった場合や希望する保育施設を変更する場合、申請自体を取り下げる場合は、必ず、保育育成課までご連絡ください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.yamagata-yamagata.lg.jp/_res/projects/default_project/_page_/001/019/057/r9riyouannnai.pdf",
+      "quote": "お子さんが生まれる前でも、認可保育所等の利用を仮申請することができます。①名前を「○○ ○○（保護者名）の子」とし、母子手帳の写し（分娩予定日が分かるもの）を添えて仮申請"
+    },
+    "notes.4": {
+      "url": "https://www.city.yamagata-yamagata.lg.jp/kosodatekyoiku/hoiku/1007241/1019425.html",
+      "quote": "※窓口で申請することもできますが、待ち時間が長くなる場合があります。時間にゆとりをもってお越しください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "山形市「令和9年度 認可保育所等の利用申し込み受付について」",
+      "url": "https://www.city.yamagata-yamagata.lg.jp/kosodatekyoiku/hoiku/1007241/1019057.html"
+    },
+    {
+      "label": "山形市「認可保育所等申し込み　-令和9年度　申請受付期間について-」",
+      "url": "https://www.city.yamagata-yamagata.lg.jp/kosodatekyoiku/hoiku/1007241/1019425.html"
+    },
+    {
+      "label": "山形市「令和9年度認可保育所等利用案内」（PDF）",
+      "url": "https://www.city.yamagata-yamagata.lg.jp/_res/projects/default_project/_page_/001/019/057/r9riyouannnai.pdf"
+    }
+  ]
+}

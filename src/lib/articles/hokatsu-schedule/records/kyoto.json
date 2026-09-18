@@ -1,0 +1,99 @@
+{
+  "citySlug": "kyoto",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "京都市「令和８年度 保育利用申込みの御案内」",
+    "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/R8_annnai.pdf"
+  },
+  "fiscalYear": "R8",
+  "guideRelease": "令和7年10月から申込案内冊子等を保育施設・事業所と各区役所・支所で配布",
+  "firstApply": "令和7年10月1日（水）～11月14日（金）必着。10月1日から10月31日までは第一希望の保育施設に直接提出、11月4日から11月14日までは区役所・支所子育て推進担当に提出",
+  "applyMethods": "保育施設・事業所への直接提出または区役所・支所への提出。第一希望の保育施設が4月開園予定の場合は10月1日から区役所・支所で受け付ける。就労証明書等が間に合わない場合は既に揃っている書類だけでも11月14日までに提出可能。書類提出時に窓口で対面面接実施",
+  "firstResult": "令和8年1月30日（金）に利用調整結果を発送予定",
+  "secondApply": "令和8年2月13日（金）までに必要書類を区役所・支所に提出（一次調整で保留となった方は申込内容に変更がなければ改めての書類提出は不要）",
+  "secondResult": "令和8年2月27日（金）に二次調整結果を発送予定",
+  "documents": [
+    "教育・保育給付認定申請書兼保育利用申込書",
+    "保育が必要な理由に応じた添付書類",
+    "マイナンバーカードまたはマイナンバー入りの住民票の写し（利用申込児童と保護者）、本人確認書類（窓口に来る人）"
+  ],
+  "interview": "書類提出時に窓口で面接を実施。3歳未満の児童は令和8年4月1日時点で健康診査が必要",
+  "notes": [
+    "希望する保育施設等については、事前に児童同伴で全て見学していただいたうえで、通園可能な保育施設等のみを御記入ください",
+    "11月14日（金）までに提出いただいた申込みのうち、不足書類や不備書類の再提出、希望園の変更等の締切は12月12日（金）までです",
+    "医療的ケアが必要な児童を希望する場合、申込前に事前相談が必要で、4月利用開始希望の方は11月7日までに書類提出が必要",
+    "11月15日（土）以降の申込みは一次調整の対象とはならず、二次調整以降の対象となり結果通知も2月末以降となります"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/R8_annnai.pdf",
+      "quote": "令和８年度 保育利用申込みの御案内 令和７年１０月"
+    },
+    "guideRelease": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/R8_annnai.pdf",
+      "quote": "令和７年１０月１日（水）～１０月３１日（金） 第一希望の保育施設・事業所"
+    },
+    "firstApply": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/R8_annnai.pdf",
+      "quote": "令和７年１０月１日（水）～１０月３１日（金） 第一希望の保育施設・事業所"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/R8_annnai.pdf",
+      "quote": "令和７年１１月４日（火）～１１月１４日（金） （子どもはぐくみ室子育て推進担当）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/R8_annnai.pdf",
+      "quote": "受付期間 提出先 令和７年１０月１日（水）～１０月３１日（金） 第一希望の保育施設・事業所 （上記期間に間に合わない場合） 第一希望の保育施設・事業所が 所在する地域の区役所・支所 令和７年１１月４日（火）～１１月１４日（金）"
+    },
+    "firstResult": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/R8_annnai.pdf",
+      "quote": "令和８年１月３０日（金）に発送予定です。"
+    },
+    "secondApply": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/R8_annnai.pdf",
+      "quote": "◆ 二次調整受付 ： ２月１３日（金）まで"
+    },
+    "secondResult": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/R8_annnai.pdf",
+      "quote": "◆ 二次調整結果通知発送： ２月２７日（金）発送予定"
+    },
+    "documents.0": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/R8_annnai.pdf",
+      "quote": "教育・保育給付認定申請書兼保育利用申込書"
+    },
+    "documents.1": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/R8_annnai.pdf",
+      "quote": "保育が必要な理由に応じた添付書類"
+    },
+    "documents.2": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/R8_annnai.pdf",
+      "quote": "窓口で、世帯全員の個人番号の確認書類（個人番号カード等）及び来庁される方の本人確認書類（運転免許証等）を確認します"
+    },
+    "interview": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/R8_annnai.pdf",
+      "quote": "令和８年４月１日時点で３歳未満の児童は、京都市指定の様式により健康診査を受けていただきます（別途料金が必要となります。）。"
+    },
+    "notes.0": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/R8_annnai.pdf",
+      "quote": "希望園の変更等がある場合には、同封している保育利用申込内容変更届（Ⅰ－１０）に必要事項を御記入いただき、申込先の区役所・支所へ御提出ください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/R8_annnai.pdf",
+      "quote": "１２月１２日（金）までです。"
+    },
+    "notes.2": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/R8_annnai.pdf",
+      "quote": "※ 令和８年度に医療的ケアが必要な児童の保育利用を希望される場合、申込前に事前相談が必要です。４月利用開始希望の方は、事前に区役所・支所まで御相談のうえ、令和７年１１月７日（金）までに医療的ケアに係る書類を御提出ください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/R8_annnai.pdf",
+      "quote": "● １１月１５日（土）以降にお申込みいただいた分は一次調整の対象とはならず、二次調整以降の対象となり、結果通知も２月末以降となるため御注意ください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "京都市「令和８年度 保育利用申込みの御案内」",
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/R8_annnai.pdf"
+    }
+  ]
+}

@@ -3,42 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "kawagoe",
-    title: "川越市の保活スケジュール完全ガイド",
-    description:
-      "川越市の認可保育園の申込時期・選考の流れ・内定通知のタイミングをわかりやすく解説。令和8年度4月入園に向けたスケジュールをまとめました。",
-    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>川越市の4月入園スケジュール</h2>
-<p>川越市の認可保育園への4月入園は、毎年秋ごろに申込受付が始まります。川越市こども未来部保育課が窓口です。</p>
-
-<h3>大まかな流れ</h3>
-<table>
-<tr><th>時期</th><th>やること</th></tr>
-<tr><td>4月〜6月</td><td>情報収集・保育園見学の開始</td></tr>
-<tr><td>9月〜10月</td><td>入園申請書類の配布開始</td></tr>
-<tr><td>10月〜11月</td><td>一次申込の受付期間</td></tr>
-<tr><td>1月下旬〜2月</td><td>一次選考の結果通知</td></tr>
-<tr><td>2月〜3月</td><td>二次募集の受付・結果通知</td></tr>
-</table>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>川越市では「保育園等入園の手引き」が毎年公開されます。最新の手引きは川越市公式サイトからダウンロードできるので、必ず確認しましょう。</p>
-</div>
-
-<h2>年度途中の入園について</h2>
-<p>4月以外の月でも、空きがあれば毎月入園の申込が可能です。入園希望月の前月10日ごろが締切になることが多いため、早めに保育課へ確認してください。</p>
-
-<div class="info-box">
-<p>川越市の保育園等の空き状況は、市の公式サイトで毎月更新されています。希望する園に空きがあるかチェックしておきましょう。</p>
-</div>`,
-    publishedAt: "2026-04-04",
-    popularity: 58,
-  },
-  {
     slug: "score-up-tips",
     citySlug: "kawagoe",
     title: "川越市で保育園の点数をアップするコツと加点戦略",

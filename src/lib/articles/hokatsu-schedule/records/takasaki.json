@@ -1,0 +1,107 @@
+{
+  "citySlug": "takasaki",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "高崎市「保育所（園）・認定こども園の入所申し込みについて」",
+    "url": "https://www.city.takasaki.gunma.jp/page/6308.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年8月20日（木）～9月17日（木）",
+  "applyMethods": "保育課（高松町35-1、市役所1階12番窓口）または各支所市民福祉課に書類を提出。申込書の受付場所は保育所等ではなく保育課か各支所。",
+  "firstResult": "令和8年10月5日（月）に結果通知を発送予定（8月20日〜9月17日受付分）",
+  "documents": [
+    "子どものための教育・保育給付認定申請書（2・3号認定用）（兼）保育所等利用申込書（保育児童台帳・家庭調査票）",
+    "保育が必要であることを証する書類（就労証明書等、事由により異なる。就労証明書は発行から3か月以内のもの）",
+    "利用申込に関する同意書",
+    "個人番号（マイナンバー）申告書",
+    "保育料決定に必要な書類（令和6年中、令和7年中の所得を確認するための書類）"
+  ],
+  "interview": "事前に希望する園の見学を済ませることが推奨されている。見学は保育所等に直接連絡して日程調整を行う。",
+  "ikukyu": "産後休暇または育児休業が終了次第復職する予定の場合は予約申込制度があり、全ての受付期間で申し込める。育児休業期間中の入所申込には就労証明書に加えて「保育を必要とする申立書」が必要",
+  "notes": [
+    "申し込みの通年化を実施中。複数の受付期間がある。",
+    "1人のお子さんにつき、複数の入所年月を同時に申し込むことはできない（別の受付期間であっても同様）。",
+    "申込書の有効期間は最初に申し込みをした受付期間を含め12回の受付期間が経過するまで。",
+    "内定後、入所日までにご提出いただいた証明書の内容に変更が生じる場合は、内定が無効となる場合がある。"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.takasaki.gunma.jp/uploaded/attachment/37309.pdf",
+      "quote": "R8年8月20日（木）～9月17日（木）の受付期間に、R9年4月入所希望（新規（通常））の申し込みを行う"
+    },
+    "firstApply": {
+      "url": "https://www.city.takasaki.gunma.jp/uploaded/attachment/37309.pdf",
+      "quote": "R8年8月20日（木）～9月17日（木）の受付期間に、R9年4月入所希望（新規（通常））の申し込みを行う"
+    },
+    "applyMethods": {
+      "url": "https://www.city.takasaki.gunma.jp/uploaded/attachment/37309.pdf",
+      "quote": "イ 申込書の受付場所 保育課・各支所市民福祉課（各保育所等では受付は行っていません。）"
+    },
+    "firstResult": {
+      "url": "https://www.city.takasaki.gunma.jp/uploaded/attachment/37309.pdf",
+      "quote": "受 付 期 間（注１・３） 結果通知 新規（通常）・転園 新規（予約） 〔募集状況公開予定日〕（注４） 発送予定日"
+    },
+    "documents.0": {
+      "url": "https://www.city.takasaki.gunma.jp/uploaded/attachment/37309.pdf",
+      "quote": "（１）「子どものための教育・保育給付認定申請書(２・３号認定用) （兼）保育所等利用申込書 (保育児童台帳・家庭調査票)」市指定様式"
+    },
+    "documents.1": {
+      "url": "https://www.city.takasaki.gunma.jp/page/6308.html",
+      "quote": "就労・就労予定 「就労証明書」 ※発行から3か月以内のもの"
+    },
+    "documents.2": {
+      "url": "https://www.city.takasaki.gunma.jp/uploaded/attachment/37309.pdf",
+      "quote": "（３）「利用申込に関する同意書」市指定様式"
+    },
+    "documents.3": {
+      "url": "https://www.city.takasaki.gunma.jp/uploaded/attachment/37309.pdf",
+      "quote": "（４）「個人番号（マイナンバー）申告書」市指定様式"
+    },
+    "documents.4": {
+      "url": "https://www.city.takasaki.gunma.jp/uploaded/attachment/37309.pdf",
+      "quote": "（５）保育料決定に必要な書類（令和６年中、令和７年中の所得を確認するための書類）"
+    },
+    "interview": {
+      "url": "https://www.city.takasaki.gunma.jp/uploaded/attachment/37309.pdf",
+      "quote": "□入所（園）申請にあたっては、事前に希望する園の見学を済ませ、保育内容などをご確認のうえお申し込みください（見学日時は直接施設へ連絡）。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.takasaki.gunma.jp/uploaded/attachment/37309.pdf",
+      "quote": "次の要件に該当する場合は、全ての受付期間において各要件に該当する入所年月を希望し、申し込みすることができます（父母いずれかが求職中の場合を除く） 【要 件】 ａ．産後休暇または育児休業が終了次第、復職する予定の方"
+    },
+    "notes.0": {
+      "url": "https://www.city.takasaki.gunma.jp/uploaded/attachment/37309.pdf",
+      "quote": "申し込みの通年化を実施中です！"
+    },
+    "notes.1": {
+      "url": "https://www.city.takasaki.gunma.jp/uploaded/attachment/37309.pdf",
+      "quote": "１人のお子さんにつき、複数の入所年月を同時に申し込むことはできません（別の受付期間であっても同様です）。"
+    },
+    "notes.2": {
+      "url": "https://www.city.takasaki.gunma.jp/uploaded/attachment/37309.pdf",
+      "quote": "保育所等の利用申込の有効期間は、最初に申し込みを行った受付期間を含め１２回の受付期間が経過するまで有効です。"
+    },
+    "notes.3": {
+      "url": "https://www.city.takasaki.gunma.jp/uploaded/attachment/37309.pdf",
+      "quote": "ただし、内定後、入所日までにご提出いただいた証明書の内容に変更が生じる場合は、内定が無効となる場合があります。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.takasaki.gunma.jp/uploaded/attachment/37309.pdf",
+      "quote": "8月20日（木）～9月17日（木） R8年12月 R8年11月 R9年4月 R9年5月 10月5日（月）"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.takasaki.gunma.jp/uploaded/attachment/37309.pdf",
+      "quote": "※育児休業期間中（復職時の申し込みを除く）の入所申し込みには、「就労証明書」に加えて「保育を必要とする申立書」(９ページ「８新規の申し込み時の提出書類」参照)の提出が必要です。"
+    }
+  },
+  "sources": [
+    {
+      "label": "高崎市「保育所（園）・認定こども園の入所申し込みについて」",
+      "url": "https://www.city.takasaki.gunma.jp/page/6308.html"
+    },
+    {
+      "label": "入所ガイド2026（令和8年度版）",
+      "url": "https://www.city.takasaki.gunma.jp/uploaded/attachment/37309.pdf"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "citySlug": "morioka",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "盛岡市「令和8年度 保育施設入園・転園申込みについて」",
+    "url": "https://www.city.morioka.iwate.jp/kosodate/kodomo_azukeru/1053010.html"
+  },
+  "fiscalYear": "R8",
+  "firstApply": "令和7年11月4日（火曜日）～令和7年12月26日（金曜日）郵送で17:30必着",
+  "applyMethods": "原則、郵送による申込。市外の施設の利用を希望される方、子どもの発達に不安をお持ちの方、その他特別な事情がある方については、子育てあんしん課入園係窓口（受付時間8:30～17:30）にて直接お申し込み",
+  "firstResult": "令和8年2月20日（金曜日）以降、郵送で通知",
+  "secondApply": "令和8年1月5日（月曜日）～令和8年2月27日（金曜日）郵送で17:30必着",
+  "secondResult": "令和8年3月11日（水）発送予定、郵送で通知",
+  "documents": [
+    "保育施設入園申込書（全4ページ）（申込をする子ども1人につき1部）",
+    "健康状態調査票（申込をする子ども1人につき1部）",
+    "教育・保育給付受給資格認定申請書（2・3号認定用）（申込をする子ども1人につき1部）",
+    "申込保護者（父または母のみ）のマイナンバーカード（両面）またはマイナンバー確認書類及び本人確認書類の写し",
+    "入園希望月時点の保育を必要とする事由を確認する書類（就労証明書等。保護者につき各1部）"
+  ],
+  "interview": "内定した保育施設から面談日程等の連絡があります",
+  "ikukyu": "保育施設等の利用調整の結果入園が保留となった場合、育児休業の延長を許容できる方",
+  "notes": [
+    "保育施設へ申し込みの際は、必ず保育施設入園申込案内をご覧ください",
+    "郵便物の土曜日配達及び翌日配達の休止に伴い、投函から到着までに1週間程度かかることがありますので、受付期間に間に合うよう、余裕を持って早めに発送してください",
+    "一次利用調整で保留となった方については、自動的に二次申込の利用調整にかかります（再度申し込む必要はありません）",
+    "育児休業取得中は、原則転園の申し込みはできません",
+    "申込後、申込内容に変更（希望施設の変更、申込の取下げ、保護者の状況の変更等）がある場合は、申込締め切り日までに、子育てあんしん課へご連絡ください"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/053/010/R8nyuuennannnai.pdf",
+      "quote": "令和８年度 保育施設入園申込案内 令和８年４月～令和９年３月入園"
+    },
+    "firstApply": {
+      "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/053/010/R8nyuuennannnai.pdf",
+      "quote": "一次申込 令和７年 11 月４日（火）～ 令和７年 12 月 2６日（金）17：30 必着"
+    },
+    "applyMethods": {
+      "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/053/010/R8nyuuennannnai.pdf",
+      "quote": "原則、郵送による申込をお願いしていますが、盛岡市外の保育施設の入園申込をする方、子どもの発達に不安をお持ちの方、その他特別な事情がある方については、子育てあんしん課入園係窓口（受付時間８：30～１７：３０）にて直接お申し込みください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.morioka.iwate.jp/kosodate/kodomo_azukeru/1053010.html",
+      "quote": "4月入園1次選考の結果は、2月20日(金曜日)以降に郵送で通知を送付します。"
+    },
+    "secondApply": {
+      "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/053/010/R8nyuuennannnai.pdf",
+      "quote": "二次申込 令和８年 1 月５日（月）～ 令和８年 2 月2７日（金）17：30 必着"
+    },
+    "secondResult": {
+      "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/053/010/R8nyuuennannnai.pdf",
+      "quote": "令和８年３月１１日（水）発送予定 二次申込 結果は郵送で通知します。"
+    },
+    "documents.0": {
+      "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/053/010/R8nyuuennannnai.pdf",
+      "quote": "保育施設入園申込書（全４ページ） 申込をする子ども１人につき１部"
+    },
+    "documents.1": {
+      "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/053/010/R8nyuuennannnai.pdf",
+      "quote": "健康状態調査票 申込をする子ども１人につき１部"
+    },
+    "documents.2": {
+      "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/053/010/R8nyuuennannnai.pdf",
+      "quote": "教育・保育給付受給資格認定申請書（２・３号認定用） 申込をする子ども１人につき１部"
+    },
+    "documents.3": {
+      "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/053/010/R8nyuuennannnai.pdf",
+      "quote": "申込保護者（父または母のみ）のマイナンバー（個人番号）確認書類及び本人確認書類の写し"
+    },
+    "documents.4": {
+      "url": "https://www.city.morioka.iwate.jp/kosodate/kodomo_azukeru/1053010.html",
+      "quote": "入園希望月時点の保育を必要とする事由を確認する書類（保護者につき各1部）"
+    },
+    "interview": {
+      "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/053/010/R8nyuuennannnai.pdf",
+      "quote": "内定した保育施設から面談日程等の連絡があります。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.morioka.iwate.jp/kosodate/kodomo_azukeru/1053010.html",
+      "quote": "保育施設等の利用調整の結果入園が保留となった場合、育児休業の延長を許容できる方"
+    },
+    "notes.0": {
+      "url": "https://www.city.morioka.iwate.jp/kosodate/kodomo_azukeru/1053010.html",
+      "quote": "保育施設へ申し込みの際は、必ず保育施設入園申込案内をご覧ください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/053/010/R8nyuuennannnai.pdf",
+      "quote": "郵便物の土曜日配達及び翌日配達の休止に伴い、投函から到着までに１週間程度かかることがありますので、受付期間に間に合うよう、余裕を持って早めに発送してください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/053/010/R8nyuuennannnai.pdf",
+      "quote": "一次利用調整で保留となった方については、自動的に二次申込の利用調整にかかります（再度申し込む必要はありません）。"
+    },
+    "notes.3": {
+      "url": "https://www.city.morioka.iwate.jp/kosodate/kodomo_azukeru/1053010.html",
+      "quote": "※育児休業取得中は、原則転園の申し込みはできません。"
+    },
+    "notes.4": {
+      "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/053/010/R8nyuuennannnai.pdf",
+      "quote": "申込後、申込内容に変更（希望施設の変更、申込の取下げ、保護者の状況の変更等）がある場合は、申込締め切り日までに、子育てあんしん課へご連絡ください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "盛岡市「令和8年度 保育施設入園・転園申込みについて」",
+      "url": "https://www.city.morioka.iwate.jp/kosodate/kodomo_azukeru/1053010.html"
+    },
+    {
+      "label": "盛岡市「令和8年度保育施設入園申込案内」（PDF）",
+      "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/053/010/R8nyuuennannnai.pdf"
+    }
+  ]
+}

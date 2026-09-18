@@ -1,0 +1,68 @@
+{
+  "citySlug": "fukuoka",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "福岡市「令和9年度福岡市保育施設等利用のご案内」",
+    "url": "https://kodomo.city.fukuoka.lg.jp/info/19149/"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年10月1日（木）より、配布およびホームページに掲載。配布場所は、各保育施設等、各区子育て支援課、入部出張所、西部出張所及び情報プラザ（市役所1階）",
+  "firstApply": "申込開始は令和8年10月1日（木）予定",
+  "applyMethods": "1次選考は第1希望の保育施設またはオンライン。2次選考・3次選考は第1希望の保育施設が所在する区の子育て支援課またはオンライン",
+  "firstResult": "1次選考の結果通知発送日は令和9年1月14日（木）",
+  "secondApply": "2次選考：令和9年1月27日（水）",
+  "secondResult": "2次選考の結果通知発送日は令和9年2月17日（水）",
+  "interview": "利用申込前に希望するすべての保育施設等へ直接予約の上、事前見学が必要です。事前見学は、申込開始前から可能です",
+  "notes": [
+    "就労証明書を勤務先等へ作成依頼される際は、9月1日以降の日付で作成いただくようご依頼ください",
+    "申込締切が近づくと見学希望者が集中し、ご希望の日程でご案内できない場合があります。余裕をもってできるだけ早めの見学をご検討ください"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://kodomo.city.fukuoka.lg.jp/info/19149/",
+      "quote": "令和９年（2027年）４月１日利用申込スケジュール"
+    },
+    "guideRelease": {
+      "url": "https://kodomo.city.fukuoka.lg.jp/info/19149/",
+      "quote": "利用のご案内（冊子）については、令和８年10月１日（木）より、配布およびホームページに掲載します。配布場所は、各保育施設等、各区子育て支援課、入部出張所、西部出張所及び情報プラザ（市役所１階）です。"
+    },
+    "firstApply": {
+      "url": "https://kodomo.city.fukuoka.lg.jp/info/19149/",
+      "quote": "申込開始は、令和８年10月１日（木）を予定しています。"
+    },
+    "applyMethods": {
+      "url": "https://kodomo.city.fukuoka.lg.jp/info/19149/",
+      "quote": "提出先１次選考第１希望の保育施設またはオンライン２次選考第１希望の保育施設が所在する区の子育て支援課またはオンライン３次選考第１希望の保育施設が所在する区の子育て支援課またはオンライン"
+    },
+    "firstResult": {
+      "url": "https://kodomo.city.fukuoka.lg.jp/info/19149/",
+      "quote": "令和９年１月14日（木）"
+    },
+    "secondApply": {
+      "url": "https://kodomo.city.fukuoka.lg.jp/info/19149/",
+      "quote": "令和９年１月27日（水）"
+    },
+    "secondResult": {
+      "url": "https://kodomo.city.fukuoka.lg.jp/info/19149/",
+      "quote": "令和９年２月17日（水）"
+    },
+    "interview": {
+      "url": "https://kodomo.city.fukuoka.lg.jp/info/19149/",
+      "quote": "福岡市では、利用申込前に希望するすべての保育施設等へ直接予約の上、事前見学が必要です。事前見学は、申込開始前から可能です。"
+    },
+    "notes.0": {
+      "url": "https://kodomo.city.fukuoka.lg.jp/info/19149/",
+      "quote": "就労証明書を勤務先等へ作成依頼される際は、9月1日以降の日付で作成いただくようご依頼ください。"
+    },
+    "notes.1": {
+      "url": "https://kodomo.city.fukuoka.lg.jp/info/19149/",
+      "quote": "申込締切が近づくと見学希望者が集中し、ご希望の日程でご案内できない場合があります。保育施設等の環境や保育内容をご確認いただくためにも、余裕をもってできるだけ早めの見学をご検討ください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "福岡市「令和9年度福岡市保育施設等利用のご案内」",
+      "url": "https://kodomo.city.fukuoka.lg.jp/info/19149/"
+    }
+  ]
+}

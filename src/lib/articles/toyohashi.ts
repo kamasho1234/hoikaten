@@ -3,47 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   // 1. 保活スケジュール完全ガイド
-  {
-    slug: "hokatsu-schedule",
-    citySlug: "toyohashi",
-    title: "豊橋市の保活スケジュール完全ガイド｜申込時期と準備の流れ",
-    description:
-      "豊橋市の保育園・認定こども園の入園申込スケジュールを時系列で解説。4月入園と途中入園の流れ、準備すべきことをまとめました。",
-    category: "スケジュール",
-    categoryColor: "green",
-    image:
-      "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=800&h=400&fit=crop",
-    content: `<h2>豊橋市の保活スケジュール</h2>
-<p>豊橋市の保育園・認定こども園への入園は「4月入園（年度当初入園）」と「途中入園」の2種類があります。4月入園は例年9〜10月頃に申込みが始まります。</p>
-
-<h2>4月入園のスケジュール</h2>
-<div class="step">
-<p><strong>STEP1：8月〜9月</strong>　入園案内の配布・園見学</p>
-<p><strong>STEP2：9月〜10月</strong>　1次申込受付（第1希望園または保育課へ提出）</p>
-<p><strong>STEP3：12月頃</strong>　1次選考結果通知</p>
-<p><strong>STEP4：1月〜2月</strong>　2次申込受付</p>
-<p><strong>STEP5：2月〜3月</strong>　2次結果通知・面接</p>
-<p><strong>STEP6：4月</strong>　入園</p>
-</div>
-
-<h2>途中入園について</h2>
-<p>途中入園は毎月受け付けています。入園希望月ごとに申込期間が決まっており、必要書類を第1希望園または保育課（豊橋市役所東館2階）へ提出します。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>豊橋市では「申し込むすべての園を見学してください」と案内されています。園の教育・保育方針や開所時間、実費負担の費用は園によって異なります。</p>
-</div>
-
-<h2>準備すべき書類</h2>
-<p>父母それぞれの保育事由証明書（就労証明書など）が必要です。雇用主に記入してもらうため、2〜3週間前には依頼しましょう。</p>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>最新のスケジュールは<a href="https://www.city.toyohashi.lg.jp/63210.htm" target="_blank" rel="noopener">豊橋市 令和8年度入園についてのページ</a>で確認できます。</p>
-</div>`,
-    publishedAt: "2026-04-05",
-    popularity: 55,
-  },
 
   // 2. 点数の仕組みと計算方法
 

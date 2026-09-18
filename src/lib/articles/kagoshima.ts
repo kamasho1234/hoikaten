@@ -3,60 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   // ========== 保活の基本 ==========
-  {
-    slug: "hokatsu-schedule",
-    citySlug: "kagoshima",
-    title: "鹿児島市の保活スケジュール　令和8年度4月入園の流れ",
-    description:
-      "鹿児島市の令和8年度（2026年度）4月入園の申込時期・書類配布・結果通知の時期をまとめました。初めての保活でも迷わないスケジュールガイドです。",
-    image:
-      "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>令和8年度（2026年度）4月入園のスケジュール</h2>
-<p>鹿児島市の4月入園申込は<strong>第1期</strong>と<strong>第2期</strong>の2回に分かれています。第1期で入れなかった場合も第2期で再度選考されます。</p>
-
-<h3>第1期</h3>
-<table>
-<tr><th>項目</th><th>日程（目安）</th></tr>
-<tr><td>申請書類配布開始</td><td>2025年9月頃〜</td></tr>
-<tr><td>申込受付</td><td>2025年10月〜11月頃</td></tr>
-<tr><td>結果通知</td><td>2026年1月下旬〜2月頃</td></tr>
-</table>
-
-<h3>第2期</h3>
-<p>第1期で保留となった場合、第2期の選考に進みます。第2期の受付期間・結果通知日は第1期の結果通知に同封されるお知らせで確認してください。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>鹿児島市では窓口での申込が基本です。こども未来局 保育幼稚園課（099-216-1258）に事前に電話確認してから訪問するとスムーズです。</p>
-</div>
-
-<h2>いつから動き始めるべき？</h2>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content"><strong>4月〜6月：情報収集</strong><p>鹿児島市の「認可保育所等利用案内」を市のホームページまたは窓口で入手します。</p></div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content"><strong>6月〜9月：保育園見学</strong><p>気になる園に直接電話して見学予約。夏場が比較的予約しやすい時期です。</p></div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content"><strong>9月〜10月：書類準備</strong><p>就労証明書などの必要書類を勤務先に依頼し、期限に余裕を持って準備します。</p></div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content"><strong>10月〜11月：申込</strong><p>必要書類を揃え、期限内に窓口へ提出します。</p></div>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>最新の申込方法は<a href="https://www.city.kagoshima.lg.jp/kosodate/kosodate/hoikusho/index.html" target="_blank" rel="noopener">鹿児島市公式サイト「保育所・幼稚園・認定こども園など」</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-03-28",
-    popularity: 55,
-  },
 
   // ========== 点数・選考 ==========
   {

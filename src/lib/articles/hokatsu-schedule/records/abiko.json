@@ -1,0 +1,170 @@
+{
+  "citySlug": "abiko",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "我孫子市「令和8年度保育園等入園のご案内」",
+    "url": "https://www.city.abiko.chiba.jp/kosodate/children/preschool/nursery/vacancy/nyuuennmousikomi.files/R8hoikuenn.pdf"
+  },
+  "fiscalYear": "R8",
+  "firstApply": "公立保育園：令和8年1月6日（火）～2月6日（金）（土日祝を除く）。私立保育園・幼保連携型認定こども園・小規模保育事業所は第1次が令和7年11月4日（火）～11月14日（金）、第2次が令和7年12月22日（月）～令和8年1月9日（金）（土日祝を除く）",
+  "applyMethods": "公立保育園は保育課に持参。書類不備がある場合郵送でも受付（簡易書留等の追跡可能な発送方法）。私立等の第1次は第1希望園に持参、第2次は保育課に持参",
+  "firstResult": "公立保育園は令和8年3月上旬に支給認定・入園決定（市から認定証等を送付）。私立保育園等は第1次が令和7年12月上旬、第2次が令和8年1月下旬に園から内諾の連絡があり、令和8年2月上旬に市から認定証等を送付",
+  "interview": "公立保育園のみ。申込時に必ず面接の予約が必要。面接日は令和8年2月9日（月）に我孫子市役所で実施。予備日2月13日（金）は体調不良で面接できなかった人が対象。面接時間は30分前後。子どもも同伴。保護者は父または母いずれかが来庁。母子健康手帳を持参",
+  "documents": [
+    "保育園入園申込書",
+    "子どものための教育・保育給付認定申請書",
+    "家庭状況調査票",
+    "重要事項確認及び同意書",
+    "保育を必要とする状況を証明する書類。就労の場合は就労証明書（証明日から6か月以内のもの）",
+    "該当する場合のみ必要となる資料（自営業者は開業届出書の写し、ひとり親は戸籍謄本など）",
+    "児童の健康状況調査票（4月入園のみ）",
+    "提出書類チェック表（4月入園のみ）",
+    "保育園生活説明書（公立保育園希望の方のみ）",
+    "面接記録表（公立保育園希望の方のみ）"
+  ],
+  "ikukyu": "育児休業を延長する場合も通常の入園申込みと同じ手続きが必要。入園希望前月20日（土日祝の場合は前平日）が締切。利用調整後、保留通知が発送される（25日頃）",
+  "notes": [
+    "令和9年度保育園等入園のご案内は令和8年10月上旬頃の公開予定。本レコードは令和8年度実績に基づく",
+    "私立保育園・幼保連携型認定こども園・小規模保育事業所の第1次申込みで内定した場合、当該内定園への入園になり、キャンセルして他の希望園を申込むことはできない",
+    "私立等の第2次申込みの対象は、第1次申込みで利用調整できなかった方及び第1次申込み期間に申込みをしていない方。第1次申込みで利用調整できなかった方を優先して利用調整",
+    "申込書に記載の施設以外の利用調整は行わない。複数園希望がある場合は第2希望以降についても記入が必要",
+    "書類が持参できない場合郵送でも受付けるが、必ず簡易書留等の追跡可能な発送方法を利用。申込み期間の締切日必着となり、締切日後の書類については審査しない",
+    "申込み前に、希望園を見学等に行ったうえで申込みをしてください。希望園の記載が少ない場合で利用調整できない事例が多数生じているため、入園を希望する園はすべて記入"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.abiko.chiba.jp/kosodate/children/preschool/nursery/vacancy/nyuuennmousikomi.files/R8hoikuenn.pdf",
+      "quote": "＜令和８年度入園申込みスケジュール＞"
+    },
+    "firstApply": {
+      "url": "https://www.city.abiko.chiba.jp/kosodate/children/preschool/nursery/vacancy/nyuuennmousikomi.files/R8hoikuenn.pdf",
+      "quote": "【受付期間】令和８年１月６日（火）～令和８年２月６日（金）（土日祝を除く）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.abiko.chiba.jp/kosodate/children/preschool/nursery/vacancy/nyuuennmousikomi.files/R8hoikuenn.pdf",
+      "quote": "＜第１次申込み＞令和７年１１月４日（火）～令和７年１１月１４日（金）（土日祝を除く）"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.abiko.chiba.jp/kosodate/children/preschool/nursery/vacancy/nyuuennmousikomi.files/R8hoikuenn.pdf",
+      "quote": "＜第２次申込み＞令和７年１２月２２日（月）～令和８年１月９日（金）（土日祝を除く）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.abiko.chiba.jp/kosodate/children/preschool/nursery/vacancy/nyuuennmousikomi.files/R8hoikuenn.pdf",
+      "quote": "３・４ページの【申込みに必要な書類】を保育課に持参してください"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.abiko.chiba.jp/kosodate/children/preschool/nursery/vacancy/nyuuennmousikomi.files/R8hoikuenn.pdf",
+      "quote": "※ 書類が持参できない場合、郵送でも受付けます。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.abiko.chiba.jp/kosodate/children/preschool/nursery/vacancy/nyuuennmousikomi.files/R8hoikuenn.pdf",
+      "quote": "第1次申込みは第１希望園 第2次申込みは保育課に持参してください"
+    },
+    "firstResult": {
+      "url": "https://www.city.abiko.chiba.jp/kosodate/children/preschool/nursery/vacancy/nyuuennmousikomi.files/R8hoikuenn.pdf",
+      "quote": "支給認定・入園決定 な理由・量」の認定証 ３月上旬 等を送付します。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.abiko.chiba.jp/kosodate/children/preschool/nursery/vacancy/nyuuennmousikomi.files/R8hoikuenn.pdf",
+      "quote": "〈第1次〉 1 2月上旬に園から連絡します。 〈 第2次〉 1月下旬に園から連絡します。 支給認定通知等 ２月上旬"
+    },
+    "interview": {
+      "url": "https://www.city.abiko.chiba.jp/kosodate/children/preschool/nursery/vacancy/nyuuennmousikomi.files/R8hoikuenn.pdf",
+      "quote": "※ 申込み時に必ず面接の予約をしてください。（面接日：令和８年２月９日（月））"
+    },
+    "interview#2": {
+      "url": "https://www.city.abiko.chiba.jp/kosodate/children/preschool/nursery/vacancy/nyuuennmousikomi.files/R8hoikuenn.pdf",
+      "quote": "※ 予備日：２月１３日（金）体調不良で面接ができなかった人のみ対象。"
+    },
+    "interview#3": {
+      "url": "https://www.city.abiko.chiba.jp/kosodate/children/preschool/nursery/vacancy/nyuuennmousikomi.files/R8hoikuenn.pdf",
+      "quote": "・面接時間は３０分前後です。（事務職＋看護職等保育園職員による面接）・入園するお子さんも同伴してください。・保護者の方は父または母、いずれかが来庁いただければ結構です"
+    },
+    "interview#4": {
+      "url": "https://www.city.abiko.chiba.jp/kosodate/children/preschool/nursery/vacancy/nyuuennmousikomi.files/R8hoikuenn.pdf",
+      "quote": "・我孫子市役所（会場は面接予約時にご確認ください）にて行います。"
+    },
+    "documents.0": {
+      "url": "https://www.city.abiko.chiba.jp/kosodate/children/preschool/nursery/vacancy/nyuuennmousikomi.files/R8hoikuenn.pdf",
+      "quote": "① 保育園入園申込書"
+    },
+    "documents.1": {
+      "url": "https://www.city.abiko.chiba.jp/kosodate/children/preschool/nursery/vacancy/nyuuennmousikomi.files/R8hoikuenn.pdf",
+      "quote": "② 子どものための教育・保育給付 認定申請書"
+    },
+    "documents.2": {
+      "url": "https://www.city.abiko.chiba.jp/kosodate/children/preschool/nursery/vacancy/nyuuennmousikomi.files/R8hoikuenn.pdf",
+      "quote": "③ 家庭状況調査票（１・２・３号共通）"
+    },
+    "documents.3": {
+      "url": "https://www.city.abiko.chiba.jp/kosodate/children/preschool/nursery/vacancy/nyuuennmousikomi.files/R8hoikuenn.pdf",
+      "quote": "④ 重要事項確認及び同意書"
+    },
+    "documents.4": {
+      "url": "https://www.city.abiko.chiba.jp/kosodate/children/preschool/nursery/vacancy/nyuuennmousikomi.files/R8hoikuenn.pdf",
+      "quote": "月６４時間以上の就労 就労証明書 ※証明日から６か月以内のもの"
+    },
+    "documents.5": {
+      "url": "https://www.city.abiko.chiba.jp/kosodate/children/preschool/nursery/vacancy/nyuuennmousikomi.files/R8hoikuenn.pdf",
+      "quote": "⑥ 該当する場合のみ必要となる資料"
+    },
+    "documents.6": {
+      "url": "https://www.city.abiko.chiba.jp/kosodate/children/preschool/nursery/vacancy/nyuuennmousikomi.files/R8hoikuenn.pdf",
+      "quote": "⑦ 児童の健康状況調査票（４月入園のみ）"
+    },
+    "documents.7": {
+      "url": "https://www.city.abiko.chiba.jp/kosodate/children/preschool/nursery/vacancy/nyuuennmousikomi.files/R8hoikuenn.pdf",
+      "quote": "⑧ 提出書類チェック表（４月入園のみ）"
+    },
+    "documents.8": {
+      "url": "https://www.city.abiko.chiba.jp/kosodate/children/preschool/nursery/vacancy/nyuuennmousikomi.files/R8hoikuenn.pdf",
+      "quote": "⑨ 保育園生活説明書（公立保育園希望の方のみ）"
+    },
+    "documents.9": {
+      "url": "https://www.city.abiko.chiba.jp/kosodate/children/preschool/nursery/vacancy/nyuuennmousikomi.files/R8hoikuenn.pdf",
+      "quote": "⑩ 面接記録表（公立保育園希望の方のみ）"
+    },
+    "ikukyu": {
+      "url": "https://www.city.abiko.chiba.jp/kosodate/children/preschool/nursery/vacancy/nyuuennmousikomi.files/R8hoikuenn.pdf",
+      "quote": "保育園の入園を希望したが定員超過などの理由で保育園に入れない場合など、やむを得ず、育児休業を延長する場合も通常の入園申込みと同じ手続きが必要です"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.abiko.chiba.jp/kosodate/children/preschool/nursery/vacancy/nyuuennmousikomi.files/R8hoikuenn.pdf",
+      "quote": "入園希望前月２０日（土日祝の場合は前平日）が締切です。利用調整後、保留通知が発送されます（２５日頃）"
+    },
+    "notes.0": {
+      "url": "https://www.city.abiko.chiba.jp/kosodate/children/preschool/nursery/vacancy/9nennyuuenannai.html",
+      "quote": "令和9年度保育園等入園のご案内　※令和8年10月上旬頃　公開予定"
+    },
+    "notes.1": {
+      "url": "https://www.city.abiko.chiba.jp/kosodate/children/preschool/nursery/vacancy/nyuuennmousikomi.files/R8hoikuenn.pdf",
+      "quote": "第1次申込みで内定した場合、当該内定園への入園になります。当該内定園をキャンセルして他の希望園を申込むことはできません"
+    },
+    "notes.2": {
+      "url": "https://www.city.abiko.chiba.jp/kosodate/children/preschool/nursery/vacancy/nyuuennmousikomi.files/R8hoikuenn.pdf",
+      "quote": "第１次申込みで利用調整できなかった方及び第１次申込み期間に申込みをしていない方が対象です。なお、第１次申込みで利用調整できなかった方を優先して利用調整します"
+    },
+    "notes.3": {
+      "url": "https://www.city.abiko.chiba.jp/kosodate/children/preschool/nursery/vacancy/nyuuennmousikomi.files/R8hoikuenn.pdf",
+      "quote": "申込書に記載の施設以外の利用調整は行いません。複数園希望がある場合は、第2希望以降についてもご記入ください"
+    },
+    "notes.4": {
+      "url": "https://www.city.abiko.chiba.jp/kosodate/children/preschool/nursery/vacancy/nyuuennmousikomi.files/R8hoikuenn.pdf",
+      "quote": "申込み期間の締切日必着になります。※締切日後の書類については審査いたしません"
+    },
+    "notes.5": {
+      "url": "https://www.city.abiko.chiba.jp/kosodate/children/preschool/nursery/vacancy/nyuuennmousikomi.files/R8hoikuenn.pdf",
+      "quote": "入園を希望する園は全て記入してください"
+    }
+  },
+  "sources": [
+    {
+      "label": "我孫子市「令和8年度保育園等入園のご案内」ダウンロードページ",
+      "url": "https://www.city.abiko.chiba.jp/kosodate/children/preschool/nursery/vacancy/nyuuennmousikomi.html"
+    },
+    {
+      "label": "我孫子市「令和9年度保育園等入園のご案内」（未公開）",
+      "url": "https://www.city.abiko.chiba.jp/kosodate/children/preschool/nursery/vacancy/9nennyuuenannai.html"
+    }
+  ]
+}

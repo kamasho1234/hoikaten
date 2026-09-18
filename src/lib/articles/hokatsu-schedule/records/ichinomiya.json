@@ -1,0 +1,80 @@
+{
+  "citySlug": "ichinomiya",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "一宮市「保育所等の2027年度入園募集について」",
+    "url": "https://www.city.ichinomiya.aichi.jp/kodomokatei/hoiku/1000155/1010629/1001422.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年9月30日（水曜日）から申込みに必要な書類を各園と保育課（本庁舎9階92番窓口）で配布",
+  "firstApply": "令和8年10月1日から第1希望の保育所等に提出",
+  "applyMethods": "申込みに必要な書類を、第1希望の保育所等に提出する",
+  "secondApply": "令和9年2月に申込みを再度受け付ける（定員に余裕がある場合に限り）",
+  "interview": "11月中旬から第1希望の園で実施予定。児童およびその保護者の方との面接",
+  "documents": [
+    "申込みに必要な書類（保育課および保育園からダウンロード可能）"
+  ],
+  "notes": [
+    "締切り後の必要書類の追加提出や希望園の変更はできない",
+    "各園で開園時間が異なるため注意が必要",
+    "2027年4月以降も引き続き入所を希望する方は、10月23日（金曜日）までに継続入所届を在園の園へ提出",
+    "転園を希望する方は、第1希望の園へ10月30日（金曜日）までに継続入所届を提出",
+    "育児休業取得時に、既に入園している児童について継続入所が必要な場合は別の要件あり"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.ichinomiya.aichi.jp/kodomokatei/hoiku/1000155/1010629/1001422.html",
+      "quote": "市では、2027年度新たに保育園（小規模保育事業所・事業所内保育事業所・認定こども園の保育部分を含む）への入園を希望する方の申し込みを10月1日から受け付けます。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.ichinomiya.aichi.jp/kodomokatei/hoiku/1000155/1010629/1001422.html",
+      "quote": "申込みに必要な書類は9月30日（水曜日）から、各園と保育課（本庁舎9階92番窓口）で配布"
+    },
+    "firstApply": {
+      "url": "https://www.city.ichinomiya.aichi.jp/kodomokatei/hoiku/1000155/1010629/1001422.html",
+      "quote": "市では、2027年度新たに保育園（小規模保育事業所・事業所内保育事業所・認定こども園の保育部分を含む）への入園を希望する方の申し込みを10月1日から受け付けます。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.ichinomiya.aichi.jp/kodomokatei/hoiku/1000155/1010629/1001422.html",
+      "quote": "第1希望の保育所等"
+    },
+    "secondApply": {
+      "url": "https://www.city.ichinomiya.aichi.jp/kodomokatei/hoiku/1000155/1010629/1001422.html",
+      "quote": "定員に余裕がある場合に限り、2月に申込みを再度受け付けます。"
+    },
+    "interview": {
+      "url": "https://www.city.ichinomiya.aichi.jp/kodomokatei/hoiku/1000155/1010629/1001422.html",
+      "quote": "11月中旬から第1希望の園で実施予定です。"
+    },
+    "documents.0": {
+      "url": "https://www.city.ichinomiya.aichi.jp/kodomokatei/hoiku/1000155/1010629/1001422.html",
+      "quote": "申込みに必要な書類は9月30日（水曜日）から、各園と保育課（本庁舎9階92番窓口）で配布または、下記から様式をダウンロードし、印刷してお使いいただくことができます"
+    },
+    "notes.0": {
+      "url": "https://www.city.ichinomiya.aichi.jp/kodomokatei/hoiku/1000155/1010629/1001422.html",
+      "quote": "締切り後の必要書類の追加提出や希望園の変更はできませんのでご注意ください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.ichinomiya.aichi.jp/kodomokatei/hoiku/1000155/1010629/1001422.html",
+      "quote": "各園で開園時間が異なりますのでご注意ください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.ichinomiya.aichi.jp/kodomokatei/hoiku/1000155/1010629/1001422.html",
+      "quote": "2027年4月以降も引き続き入所を希望する方は、10月23日（金曜日）までに継続入所届を在園の園へご提出ください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.ichinomiya.aichi.jp/kodomokatei/hoiku/1000155/1010629/1001422.html",
+      "quote": "ただし、転園を希望する方は、第1希望の園へ10月30日（金曜日）までに継続入所届をご提出ください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.ichinomiya.aichi.jp/kodomokatei/hoiku/1000155/1010629/1001422.html",
+      "quote": "育児休業取得時に、既に入園している児童について継続入所が必要な場合"
+    }
+  },
+  "sources": [
+    {
+      "label": "一宮市「保育所等の2027年度入園募集について」",
+      "url": "https://www.city.ichinomiya.aichi.jp/kodomokatei/hoiku/1000155/1010629/1001422.html"
+    }
+  ]
+}

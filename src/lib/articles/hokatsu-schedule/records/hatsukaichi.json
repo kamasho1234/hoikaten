@@ -1,0 +1,136 @@
+{
+  "citySlug": "hatsukaichi",
+  "checkedAt": "2026-09-19",
+  "page": {
+    "label": "廿日市市「はつかいちの保育園・こども園（認可）」",
+    "url": "https://www.city.hatsukaichi.hiroshima.jp/site/kosodate/115371.html"
+  },
+  "fiscalYear": "R8",
+  "guideRelease": "令和7年11月4日（火）から「入園申込のご案内」の配布開始。受取場所は各保育施設、山崎本社みんなのあいプラザ1階こども課、各支所福祉担当(大野支所は健康福祉担当)窓口で、廿日市市ホームページからもダウンロードできる",
+  "firstApply": "令和7年12月6日（土）から令和7年12月26日（金）。受付場所は山崎本社みんなのあいプラザ、友和保育園、大野支所など。児童と一緒に来庁のこと",
+  "applyMethods": "山崎本社みんなのあいプラザ1階こども課、各総合支所、友和保育園ほかの各保育施設での窓口申し込み。郵送も可（受付締切日必着）",
+  "firstResult": "令和8年2月中旬頃に入園の可否について自宅宛てに通知発送",
+  "secondApply": "令和8年2月2日（月）から令和8年2月27日（金）まで。1次調整後に空きがある保育施設でのみ2次申込を利用調整",
+  "midYearDeadline": "入園希望月の前月10日（閉庁日の場合は前の開庁日。ただし2月・3月の場合は別途指定）",
+  "documents": [
+    "保育の必要性の認定申請書（兼）保育利用希望申込書",
+    "児童調書",
+    "保育を必要とすることを証明する書類（就労証明書等。証明日が申込日から3か月以内のもの。65歳未満の祖父母等と同居の場合はその方についても証明書等が必要）",
+    "児童手当に係る滞納分の保育料および副食費の徴収等に関する申出書（廿日市市以外から児童手当を受給している場合を除く）",
+    "口座振替依頼書"
+  ],
+  "interview": "施設の見学は申込み前に推奨。書類審査及び保育所障がい児入所指導委員会判定あり（医療的ケア児・障がい児の場合）",
+  "ikukyu": "希望する保育施設に入園できない場合に育児休業の延長が許容できる方は、保育利用希望申込書の裏面で選択可。その場合は調整指数が著しく減点される。育児休業延長が許容できなくなった場合はすみやかに『入園申込内容変更届出書』をこども課へ提出する。入園が決定した場合は入園日から14日以内に復職が必要",
+  "notes": [
+    "保育を必要とする理由が就労等でも申込締切日までに就労証明書等の提出がない場合や書類に不備がある場合は、優先順位が低くなり入園調整会議を行う",
+    "廿日市市内に住民票がない場合でも、入園希望日までに転入することが確実なら申し込み可。ただし入園決定後に入園日までに転入されなかった場合は入園取消",
+    "提出書類の捏造・変造（無断作成・改変）等があった場合は、保育施設を利用（継続）できない場合がある。就労証明書の記載内容について事業所に問い合わせる場合あり",
+    "申込み前にご自身で必ず申込書の写し（コピー）を用意すること（一度提出いただいた申込書は返却できない。育児休業給付金申請に必要な場合あり）",
+    "1次申込で入園保留となった場合でも、希望園が「×」（空きなし）の表示でも希望する順番に第1希望から記入すること（急な退園により空きが生じる場合あり）",
+    "2次申込受付期間までに申し込みがない方は4月中の入園ができない"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/89007.pdf",
+      "quote": "令和８年４月 新規入園の場合"
+    },
+    "guideRelease": {
+      "url": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/89007.pdf",
+      "quote": "【令和７年１１月４日（火）から「入園申込のご案内」の配布開始】申込日程は、広報はつかいち１１月号及び廿日市市ホームページでお知らせします。また、入園案内及び申込書などの様式は各保育施設、山崎本社みんなのあいプラザ１階こども課、各支所福祉担当(大野支所は健康福祉担当)窓口で配布します。廿日市市ホームページからもダウンロードすることができます。"
+    },
+    "firstApply": {
+      "url": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/89007.pdf",
+      "quote": "【令和７年１２月６日（土）から令和７年１２月２６日（金）まで受付】令和８年４月に保育施設に入園を希望する方の申込受付を、次の日程で行います。入園を希望される方は、申込書など提出書類をご用意のうえ、児童と一緒に受付場所まで来ていただき、申込みの手続きをしてください。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/89007.pdf",
+      "quote": "申込みは、こども課への持参または郵送(受付締切日必着)で受付けます。郵送の場合は、期間に余裕をもって投函してください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/89007.pdf",
+      "quote": "令和８年２月中旬に通知発送"
+    },
+    "secondApply": {
+      "url": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/89007.pdf",
+      "quote": "上記で決定しなかった人を対象に、２次申込を行います。"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/89007.pdf",
+      "quote": "１次申込で入園保留となった方は、希望の保育施設を 令和8年2月2日(月)から"
+    },
+    "secondApply#3": {
+      "url": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/89007.pdf",
+      "quote": "令和8年2月27日(金)まで"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/89007.pdf",
+      "quote": "【入園を希望する月の前月の１０日まで申込み受付】１０日が閉庁日の場合は、１０日より前の閉庁日でない日が受付締切日となります。"
+    },
+    "documents.0": {
+      "url": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/89007.pdf",
+      "quote": "保育の必要性の認定申請書（兼）保育利用希望申込書 児童１人につき１枚ご記入ください。"
+    },
+    "documents.1": {
+      "url": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/89007.pdf",
+      "quote": "児童調書 児童１人につき１枚ご記入ください。"
+    },
+    "documents.2": {
+      "url": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/89007.pdf",
+      "quote": "保育を必要とすることを証明する書類 世帯につき1部提出してください。"
+    },
+    "documents.3": {
+      "url": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/89007.pdf",
+      "quote": "児童手当に係る滞納分の保育料および副食費の徴収等に関する申出書 世帯につき１部提出してください。※廿日市市以外から児童手当を受給している場合を除く"
+    },
+    "documents.4": {
+      "url": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/89007.pdf",
+      "quote": "口座振替依頼書 口座振替依頼書をお渡しします。※既に兄姉の申込時に手続きされている方は、(1)(2)ともに不要です"
+    },
+    "interview": {
+      "url": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/89007.pdf",
+      "quote": "入園申込みの前に、利用を希望する保育施設の見学を推奨しています。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/89007.pdf",
+      "quote": "希望する保育施設へ入園できない場合に育児休業の延長が許容できる方へ　保育利用希望申込書の裏面「希望する保育施設に入園できない場合は、育児休業の延長も許容できる。」を選択した場合は、他に保育を必要とする児童を優先するため、調整指数を著しく減点して入園調整します。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/89007.pdf",
+      "quote": "希望園の申込み状況によっては、入園が決定することがあります。この場合、入園日から14日以内に復職が必要です。事前に職場とよく調整のうえ、入園申込みをしてください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/89007.pdf",
+      "quote": "保育を必要とする理由が就労等であっても申込締切日までに就労証明書等の提出が無い場合や、書類に不備がある場合は、優先順位が低くなり、入園調整会議を行いますので、ご了承ください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/89007.pdf",
+      "quote": "申込書提出日において、廿日市市に住民票がない場合でも、入園希望日までに転入することが確実な場合は申し込みができます。ただし、入園決定後、入園日までに転入されなかった場合は、入園取り消しとなります。"
+    },
+    "notes.2": {
+      "url": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/89007.pdf",
+      "quote": "提出書類の捏造、変造（無断作成・改変）等あった場合は、保育施設を利用（継続）できない場合があります。また、就労証明書の記載内容の確認のため、事業所（記入者等）に問い合わせる場合があります。"
+    },
+    "notes.3": {
+      "url": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/89007.pdf",
+      "quote": "一度提出いただいた申込書は返却できませんので、申込み前にご自身で必ず申込書の写し（コピー）を用意してください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/89007.pdf",
+      "quote": "参考情報として捉えていただき、希望する園が「×」となっていても、希望する順番に第１希望からお書きください。"
+    },
+    "notes.5": {
+      "url": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/89007.pdf",
+      "quote": "２次申込受付期間までに申込をされていない方は、４月中の入園はできません。"
+    }
+  },
+  "sources": [
+    {
+      "label": "廿日市市「はつかいちの保育園・こども園（認可）」",
+      "url": "https://www.city.hatsukaichi.hiroshima.jp/site/kosodate/115371.html"
+    },
+    {
+      "label": "廿日市市「令和8年度廿日市市認可保育園 入園申込のご案内」PDF",
+      "url": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/89007.pdf"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "citySlug": "fujimino",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "ふじみ野市「令和9年度の保育所(園)入所申込のご案内」",
+    "url": "https://www.city.fujimino.saitama.jp/soshikiichiran/hoikuka/hoikugakari/nyusho/17370.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年9月28日（月曜日）から令和8年10月6日（火曜日）まで予約受付。令和8年10月19日（月曜日）から令和8年10月22日（木曜日）に申込受付",
+  "applyMethods": "ウェブフォームまたは電話で事前予約してから、指定日時に窓口で書類提出",
+  "interview": "令和9年度入所分から4月1次選考申し込みの当日面接は不要になりました",
+  "ikukyu": "令和9年度から育児休業認定による継続入所ルールが見直された。上の子が4歳児クラス・5歳児クラスの場合、保護者の育児休業中に上の子を保育所（園）に預けられる期間は最長で出産児の育児休業の終了日の月末までとなります（その後復職すれば卒園まで入所可）",
+  "notes": [
+    "必要書類は事前に全て記入の上、申し込みしてください。不備があると受け付けできないことがあります",
+    "準備に時間のかかる書類がある（就労証明書など）ため、早めに勤務先に依頼してください",
+    "予約の無い申し込みは受け付けしません",
+    "本年度に入所申込を行い、現在入所保留となっている人も、新たに申し込み手続きが必要です",
+    "令和8年10月23日（金曜日）以降の申し込みは、欠員が生じた場合の次回選考の取り扱いとなります",
+    "育児休業での継続利用には条件があります。詳しくは9月7日（月曜日）から配布予定の令和9年度申込書類冊子をご確認ください"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.fujimino.saitama.jp/soshikiichiran/hoikuka/hoikugakari/nyusho/17370.html",
+      "quote": "令和9年度4月入所申込予約フォーム"
+    },
+    "firstApply": {
+      "url": "https://www.city.fujimino.saitama.jp/soshikiichiran/hoikuka/hoikugakari/nyusho/17370.html",
+      "quote": "予約期間：令和8年9月28日（月曜日）から令和8年10月6日（火曜日）まで"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.fujimino.saitama.jp/soshikiichiran/hoikuka/hoikugakari/nyusho/17370.html",
+      "quote": "令和8年10月19日（月曜日）から令和8年10月22日（木曜日）の期間は、来年度4月入所申込の受付で窓口の混雑が想定されます。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.fujimino.saitama.jp/soshikiichiran/hoikuka/hoikugakari/nyusho/17370.html",
+      "quote": "下記の予約フォームから予約をお願いします。"
+    },
+    "interview": {
+      "url": "https://www.city.fujimino.saitama.jp/material/files/group/26/R8_9shihou.pdf",
+      "quote": "③令和9年度入所分から4月1次選考申し込みの当日面接および4月2次選考以降の事前面接は不要になりました。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.fujimino.saitama.jp/material/files/group/26/R8_9shihou.pdf",
+      "quote": "令和8年度までは保護者の育児休業中に、上の子を保育所（園）に預けられる期間は最長で出産児が1歳に到達した年度の3月末まででしたが、令和9年度からは上の子が4歳児クラス・5歳児クラスの場合、上の子を保育所（園）に預けられる期間は最長で出産児の育児休業の終了日の月末までとなります（その後復職すれば卒園まで入所可）。"
+    },
+    "notes.0": {
+      "url": "https://www.city.fujimino.saitama.jp/material/files/group/26/R8_9shihou.pdf",
+      "quote": "必要書類は必ず事前に全て記入の上、申し込みしてください。不備があると受け付けできないことがあります。"
+    },
+    "notes.1": {
+      "url": "https://www.city.fujimino.saitama.jp/material/files/group/26/R8_9shihou.pdf",
+      "quote": "※準備に時間のかかる書類があります（就労証明書など）。"
+    },
+    "notes.2": {
+      "url": "https://www.city.fujimino.saitama.jp/material/files/group/26/R8_9shihou.pdf",
+      "quote": "※予約の無い申し込みは受け付けしません。"
+    },
+    "notes.3": {
+      "url": "https://www.city.fujimino.saitama.jp/material/files/group/26/R8_9shihou.pdf",
+      "quote": "①本年度に入所申込を行い、現在入所保留となっている人も、新たに申し込み手続きが必要です。"
+    },
+    "notes.4": {
+      "url": "https://www.city.fujimino.saitama.jp/material/files/group/26/R8_9shihou.pdf",
+      "quote": "②10月２３日㈮以降の申し込みは、欠員が生じた場合の次回選考の取り扱いとなります。"
+    },
+    "notes.5": {
+      "url": "https://www.city.fujimino.saitama.jp/material/files/group/26/R8_9shihou.pdf",
+      "quote": "※育児休業での継続利用には条件があります。詳しくは、9月7日㈪から配布予定の令和9年度申込書類冊子をご確認ください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "ふじみ野市「令和9年度の保育所(園)入所申込のご案内」",
+      "url": "https://www.city.fujimino.saitama.jp/soshikiichiran/hoikuka/hoikugakari/nyusho/17370.html"
+    },
+    {
+      "label": "ふじみ野市「市報ふじみ野令和8年9月号」",
+      "url": "https://www.city.fujimino.saitama.jp/material/files/group/26/R8_9shihou.pdf"
+    }
+  ]
+}

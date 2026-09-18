@@ -3,60 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "mito",
-    title: "水戸市の保活スケジュール　令和8年度4月入園の流れ",
-    description:
-      "水戸市の令和8年度（2026年度）4月入園の申込時期・必要書類・結果通知の時期をまとめました。",
-    image:
-      "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>令和8年度（2026年度）4月入園のスケジュール</h2>
-<p>水戸市の4月入園の申込は例年10月〜11月頃に受け付けられます。令和8年度は完全予約・予約優先での受付となっています。</p>
-
-<h3>申込の流れ</h3>
-<table>
-<tr><th>項目</th><th>日程（目安）</th></tr>
-<tr><td>申請書類配布</td><td>2025年9月頃〜</td></tr>
-<tr><td>完全予約受付</td><td>2025年10月14日〜10月22日</td></tr>
-<tr><td>予約優先受付</td><td>2025年10月23日〜11月10日</td></tr>
-<tr><td>1次結果通知</td><td>2026年1月下旬〜2月頃</td></tr>
-<tr><td>2次申込受付</td><td>2026年2月頃</td></tr>
-<tr><td>2次結果通知</td><td>2026年3月頃</td></tr>
-</table>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>水戸市では令和8年度から完全予約・予約優先制を導入しています。早めに予約を取り、申込に備えましょう。</p>
-</div>
-
-<h2>いつから動き始めるべき？</h2>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content"><strong>4月〜6月：情報収集</strong><p>水戸市の幼児保育課窓口または公式サイトで「利用の御案内」を入手。</p></div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content"><strong>6月〜9月：保育園見学</strong><p>気になる園に電話して見学予約。複数園の見学がおすすめです。</p></div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content"><strong>9月〜10月：書類準備</strong><p>就労証明書を勤務先に依頼。余裕を持って準備しましょう。</p></div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content"><strong>10月〜11月：申込</strong><p>予約を取り、期限内に必要書類を提出します。</p></div>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>最新情報は<a href="https://www.city.mito.lg.jp/site/kosodate/107000.html" target="_blank" rel="noopener">水戸市公式サイト「令和8年度 保育利用申し込み」</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-04-05",
-    popularity: 55,
-  },
-  {
     slug: "fulltime-20-line",
     citySlug: "mito",
     title: "フルタイム共働き20点は安心？水戸市のボーダーライン事情",

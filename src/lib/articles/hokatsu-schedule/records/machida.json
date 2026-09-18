@@ -1,0 +1,119 @@
+{
+  "citySlug": "machida",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "町田市「2027年度の入園申込みについて」",
+    "url": "https://kosodate-machida.tokyo.jp/soshiki/4/3/nyuuen/hoiku/202704_1/14373.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年10月1日（木曜日）～11月5日（木曜日）必着",
+  "applyMethods": "オンライン申請または郵送申請。ただし窓口で申請が必要な場合があります",
+  "firstResult": "令和9年1月15日（金曜日）頃 到着予定に一次募集選考結果（内定・保留）通知書を郵送",
+  "secondApply": "令和8年11月6日（金曜日）～令和9年2月3日（水曜日）必着",
+  "secondResult": "令和9年3月10日（水曜日）頃 到着予定に二次募集選考結果（内定・保留）通知書を郵送。ただし一次選考で保留の方には、内定の場合のみ通知書を発送",
+  "documents": [
+    "子どもの教育・保育給付支給認定申請書（保育用）兼保育の利用申込書",
+    "保育の利用申込みに関する同意書（保育・幼稚園課提出用）",
+    "保育が必要であることを証する書類。就労証明書（令和8年9月1日以降に取得したものが有効）、出産予定日のわかる母子健康手帳のコピー、医師の診断書、在学証明書等。家庭の状況によって異なる"
+  ],
+  "interview": "入園が内定した保育園等で、入園月の前月までに入園説明会・健康診断を受ける",
+  "notes": [
+    "4月入園一次募集の募集人数公開日は令和8年9月1日（火曜日）",
+    "4月入園二次募集の募集人数公開日は令和9年1月8日（金曜日）",
+    "5月以降の募集人数公開日は前月の6日頃",
+    "就労証明書は【1-5】の町田市様式を使用すること。その他の様式や在籍証明書は無効となる",
+    "就労証明書の有効期間は証明日から3か月以内。医師の診断書の有効期間は証明日から6か月以内",
+    "認定こども園を第1希望とする2号児（3歳～5歳児クラス）は、希望園へ直接申請書類の提出が必要（申請期間は10月1日～10月14日）",
+    "一次募集で内定を辞退した方は、4月二次募集の選考対象にはならず、5月入園から対象となる",
+    "育児休業中で復帰予定により申請する場合、入園月の末日までに職場に復帰することを条件に選考。期限までに復帰しない場合は入園承認の取消し、または退園となる",
+    "求職中で入園した方は3か月間の期限付き入園となる"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://kosodate-machida.tokyo.jp/soshiki/4/3/nyuuen/hoiku/202704_1/14373.html",
+      "quote": "2027年度の入園申込みについて"
+    },
+    "firstApply": {
+      "url": "https://kosodate-machida.tokyo.jp/material/files/group/7/2027-nyuennoshiori.pdf",
+      "quote": "４月入園（一次募集）申請期間 202６年10月1日（木）～ 202６年11月5日（木）必着"
+    },
+    "applyMethods": {
+      "url": "https://kosodate-machida.tokyo.jp/material/files/group/7/2027-nyuennoshiori.pdf",
+      "quote": "● 申請方法：オンライン申請または郵送申請"
+    },
+    "firstResult": {
+      "url": "https://kosodate-machida.tokyo.jp/material/files/group/7/2027-nyuennoshiori.pdf",
+      "quote": "一次募集選考結果（内定・保留）通知書 2027年1月15日（金）頃 到着予定"
+    },
+    "secondApply": {
+      "url": "https://kosodate-machida.tokyo.jp/material/files/group/7/2027-nyuennoshiori.pdf",
+      "quote": "● 申請期間：202６年11月6日（金）～202７年2月3日（水）必着"
+    },
+    "secondResult": {
+      "url": "https://kosodate-machida.tokyo.jp/material/files/group/7/2027-nyuennoshiori.pdf",
+      "quote": "二次募集選考結果（内定・保留）通知書 2027年3月10日（水）頃 到着予定 ※一次選考で保留の方には、内定の場合のみ結果通知書を発送します。"
+    },
+    "documents.0": {
+      "url": "https://kosodate-machida.tokyo.jp/material/files/group/7/2027-nyuennoshiori.pdf",
+      "quote": "【1-1】202７年度町田市子どものための教育・保育給付支給認定申請書（保育用）兼保育の利用申込書"
+    },
+    "documents.1": {
+      "url": "https://kosodate-machida.tokyo.jp/material/files/group/7/2027-nyuennoshiori.pdf",
+      "quote": "【1-4】202７年度保育の利用申込みに関する同意書（保育・幼稚園課提出用）"
+    },
+    "documents.2": {
+      "url": "https://kosodate-machida.tokyo.jp/soshiki/4/3/nyuuen/hoiku/202704_1/14373.html",
+      "quote": "就労証明書などの「保育の必要性を確認する書類」等をご用意ください"
+    },
+    "interview": {
+      "url": "https://kosodate-machida.tokyo.jp/material/files/group/7/2027-nyuennoshiori.pdf",
+      "quote": "入園が内定した保育園等での入園説明会・健康診断の終了後、4月1日に承認通知書を発送します。"
+    },
+    "notes.0": {
+      "url": "https://kosodate-machida.tokyo.jp/soshiki/4/3/nyuuen/hoiku/202704_1/14373.html",
+      "quote": "※2027年4月（一次募集）の募集人数公開日：2026年9月1日（火曜日）"
+    },
+    "notes.1": {
+      "url": "https://kosodate-machida.tokyo.jp/soshiki/4/3/nyuuen/hoiku/202704_1/14373.html",
+      "quote": "※2027年4月（二次募集）の募集人数公開日：2027年1月8日（金曜日）"
+    },
+    "notes.2": {
+      "url": "https://kosodate-machida.tokyo.jp/soshiki/4/3/nyuuen/hoiku/202704_1/14373.html",
+      "quote": "※2027年5月以降の募集人数公開日：前月の6日頃"
+    },
+    "notes.3": {
+      "url": "https://kosodate-machida.tokyo.jp/material/files/group/7/2027-nyuennoshiori.pdf",
+      "quote": "就労証明書は【1-5】の様式を使用してください。その他の様式や在籍証明書等は無効となります。"
+    },
+    "notes.4": {
+      "url": "https://kosodate-machida.tokyo.jp/material/files/group/7/2027-nyuennoshiori.pdf",
+      "quote": "就労証明書の有効期間は、証明日から３か月以内です。"
+    },
+    "notes.5": {
+      "url": "https://kosodate-machida.tokyo.jp/material/files/group/7/2027-nyuennoshiori.pdf",
+      "quote": "認定こども園を第１希望とする２号児(３歳～５歳児クラス)の申請は、園へ直接申請書類の提出が必要です【申請期間】10月1日（木）から10月14日（水）【申請場所】第１希望の各認定こども園"
+    },
+    "notes.6": {
+      "url": "https://kosodate-machida.tokyo.jp/material/files/group/7/2027-nyuennoshiori.pdf",
+      "quote": "一次募集の選考における内定を辞退した方は、４月二次募集の選考対象にはならず、５月入園から対象となります。"
+    },
+    "notes.7": {
+      "url": "https://kosodate-machida.tokyo.jp/material/files/group/7/2027-nyuennoshiori.pdf",
+      "quote": "入園月の末日までに職場に復帰することを条件に選考をします。"
+    },
+    "notes.8": {
+      "url": "https://kosodate-machida.tokyo.jp/material/files/group/7/2027-nyuennoshiori.pdf",
+      "quote": "求職 なし 求職中で入園した方は３か月間の期限付き入園となります。"
+    }
+  },
+  "sources": [
+    {
+      "label": "町田市「2027年度の入園申込みについて」",
+      "url": "https://kosodate-machida.tokyo.jp/soshiki/4/3/nyuuen/hoiku/202704_1/14373.html"
+    },
+    {
+      "label": "町田市「2027年度入園のしおり」PDF",
+      "url": "https://kosodate-machida.tokyo.jp/material/files/group/7/2027-nyuennoshiori.pdf"
+    }
+  ]
+}

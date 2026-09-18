@@ -1,0 +1,95 @@
+{
+  "citySlug": "wakayama",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "和歌山市「保育所・認定こども園（保育部分）の利用案内」",
+    "url": "https://www.city.wakayama.wakayama.jp/_res/projects/default_project/_page_/001/001/801/R8riyoannai.pdf"
+  },
+  "fiscalYear": "R8",
+  "firstApply": "令和７年１１月７日（金）～１１月２８日（金）",
+  "applyMethods": "面接による家庭調査を行いますので、郵送での申込は受け付けていません。市役所東庁舎２階保育こども園課へ必要書類を提出。受付時間は８時３０分～１７時１５分",
+  "firstResult": "令和８年２月中旬までに文書で通知。利用内定の方は内定通知と支給認定証を送付、利用保留の方は保留通知と支給認定証を送付（保留通知は原則１度）",
+  "secondApply": "５月以降、毎月利用調整を行う。各月の受付期間は、利用希望月の前々月１６日～前月１５日（１６日が土・日・祝日の場合はその直後の平日、１５日が土・日・祝日の場合はその直前の平日）",
+  "secondResult": "利用開始月の前月２５日頃までに通知。利用内定の方は電話で連絡（支給認定証は施設を通じて配布）、利用保留の方は保留通知と支給認定証を送付",
+  "documents": [
+    "施設型給付費等教育・保育給付認定申請書、保育利用調整申込書",
+    "発達状況表",
+    "保育の利用を必要とする証明書（就労証明書等。父母それぞれに必要）",
+    "母子手帳",
+    "個人番号（マイナンバー）確認書類及び本人確認書類（個人番号カード、個人番号通知カード又は個人番号が記載された住民票写し等、免許証、パスポート、障害者手帳等）"
+  ],
+  "interview": "面接による家庭調査を行いますので、家庭事情に詳しい方（父、母等）が申込時に窓口へお越しください",
+  "notes": [
+    "就労証明書等、保育が必要であることを証する書類の発行には時間がかかる場合がありますので、余裕を持った準備をお願いします",
+    "各園の空き状況は毎月、月初めに和歌山市ホームページに掲載されます（４月の受入予定数は１１月初め頃に掲載）",
+    "４月入園申込の場合、初日はたいへん混み合いますので、初日を避けて期間内にお申込ください"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.wakayama.wakayama.jp/_res/projects/default_project/_page_/001/001/801/R8riyoannai.pdf",
+      "quote": "令和８年度 保育所・認定こども園（保育部分）利用申込ご案内"
+    },
+    "firstApply": {
+      "url": "https://www.city.wakayama.wakayama.jp/_res/projects/default_project/_page_/001/001/801/R8riyoannai.pdf",
+      "quote": "令和８年４月利用申込 ●受付期間 令和７年１１月７日（金）～１１月２８日（金）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.wakayama.wakayama.jp/_res/projects/default_project/_page_/001/001/801/R8riyoannai.pdf",
+      "quote": "面接による家庭調査を行いますので、郵送での申込は受け付けていません。"
+    },
+    "firstResult": {
+      "url": "https://www.city.wakayama.wakayama.jp/_res/projects/default_project/_page_/001/001/801/R8riyoannai.pdf",
+      "quote": "結果は、令和８年２月中旬までに文書で通知します。 利用内定の方・・・内定通知と支給認定証を送付します。 利用保留の方・・・保留通知と支給認定証を送付します。（保留通知は原則１度の送付となります。）"
+    },
+    "secondApply": {
+      "url": "https://www.city.wakayama.wakayama.jp/_res/projects/default_project/_page_/001/001/801/R8riyoannai.pdf",
+      "quote": "令和８年５月以降利用申込 ●受付期間 施設の利用開始日は毎月１日です。 利用希望月の前々月１６日～前月１５日の間が受付期間です。"
+    },
+    "secondResult": {
+      "url": "https://www.city.wakayama.wakayama.jp/_res/projects/default_project/_page_/001/001/801/R8riyoannai.pdf",
+      "quote": "結果は、 利用開始月の前月２５日頃までに通知します。 利用内定 の方・・・電話で連絡します。（支給認定証は施設を通じて配布します。） 利用保留 の方・・・保留通知と支給認定証を送付します。"
+    },
+    "documents.0": {
+      "url": "https://www.city.wakayama.wakayama.jp/_res/projects/default_project/_page_/001/001/801/R8riyoannai.pdf",
+      "quote": "（１） 施設型給付費等教育・保育給付認定申請書、保育利用調整申込書"
+    },
+    "documents.1": {
+      "url": "https://www.city.wakayama.wakayama.jp/_res/projects/default_project/_page_/001/001/801/R8riyoannai.pdf",
+      "quote": "（２） 発達状況表"
+    },
+    "documents.2": {
+      "url": "https://www.city.wakayama.wakayama.jp/_res/projects/default_project/_page_/001/001/801/R8riyoannai.pdf",
+      "quote": "（３） 保育の利用を必要とする証明書 証明書類は父母それぞれに必要です。父母ともに就労の理由であれば、それぞれの就労証明書が必要です。"
+    },
+    "documents.3": {
+      "url": "https://www.city.wakayama.wakayama.jp/_res/projects/default_project/_page_/001/001/801/R8riyoannai.pdf",
+      "quote": "（５） そのほか持参していただくもの 母子手帳"
+    },
+    "documents.4": {
+      "url": "https://www.city.wakayama.wakayama.jp/_res/projects/default_project/_page_/001/001/801/R8riyoannai.pdf",
+      "quote": "個人番号（マイナンバー）確認書類及び本人確認書類"
+    },
+    "interview": {
+      "url": "https://www.city.wakayama.wakayama.jp/_res/projects/default_project/_page_/001/001/801/R8riyoannai.pdf",
+      "quote": "面接による家庭調査を行いますので、郵送での申込は受け付けていません。 家庭事情に詳しい方（父、母等）がお越しください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.wakayama.wakayama.jp/_res/projects/default_project/_page_/001/001/801/R8riyoannai.pdf",
+      "quote": "就労証明書等、ご自分で記入することができない書類につきましては余裕を持った準備をお願いします。"
+    },
+    "notes.1": {
+      "url": "https://www.city.wakayama.wakayama.jp/_res/projects/default_project/_page_/001/001/801/R8riyoannai.pdf",
+      "quote": "各園の空き状況は毎月、月初めに和歌山市HPに掲載しております。参考までにご覧ください。 （４月の受入予定数は１１月初め頃）"
+    },
+    "notes.2": {
+      "url": "https://www.city.wakayama.wakayama.jp/_res/projects/default_project/_page_/001/001/801/R8riyoannai.pdf",
+      "quote": "初日はたいへん混み合います。 先着順ではありませんので、初日を 避けて期間内にお申込ください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "和歌山市「保育所・認定こども園（保育部分）利用申込ご案内」",
+      "url": "https://www.city.wakayama.wakayama.jp/_res/projects/default_project/_page_/001/001/801/R8riyoannai.pdf"
+    }
+  ]
+}

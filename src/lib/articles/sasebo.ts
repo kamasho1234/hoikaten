@@ -3,60 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   // ========== 保活の基本 ==========
-  {
-    slug: "hokatsu-schedule",
-    citySlug: "sasebo",
-    title: "佐世保市の保活スケジュール　令和8年度4月入園の流れ",
-    description:
-      "佐世保市の令和8年度（2026年度）4月入園の申込時期・書類準備・結果通知の流れをまとめました。初めての保活でも迷わないスケジュールガイドです。",
-    image:
-      "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>令和8年度（2026年度）4月入園のスケジュール</h2>
-<p>佐世保市の認可保育所・認定こども園の4月入園は、毎年11月に一斉受付が行われます。申込先は佐世保市役所の保育幼稚園課です。</p>
-
-<h3>スケジュールの目安</h3>
-<table>
-<tr><th>項目</th><th>日程（目安）</th></tr>
-<tr><td>申請書類配布開始</td><td>2025年10月頃〜</td></tr>
-<tr><td>一斉申込受付</td><td>2025年11月1日〜11月30日</td></tr>
-<tr><td>1次結果通知</td><td>2026年1月下旬〜2月頃</td></tr>
-<tr><td>2次募集（空きがある場合）</td><td>2026年2月〜3月頃</td></tr>
-</table>
-
-<p>年度途中（5月〜11月）の入園は利用開始希望月の前々月の初日から末日まで、12月〜翌年3月の入園は10月1日〜10月31日が受付期間です。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>佐世保市では申請書類に不備がある場合は受付されません。就労証明書や必要書類を事前に確認し、余裕を持って準備しましょう。</p>
-</div>
-
-<h2>いつから動き始めるべき？</h2>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content"><strong>4月〜6月：情報収集</strong><p>佐世保市の「乳幼児施設の利用のしおり」を市のホームページまたは保育幼稚園課で入手しましょう。</p></div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content"><strong>6月〜9月：保育園見学</strong><p>気になる園に電話して見学予約。佐世保市は市域が広いため、通園距離も重要な検討ポイントです。</p></div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content"><strong>9月〜10月：書類準備</strong><p>就労証明書を勤務先に依頼。自営業の場合は「就労証明書（自営業等）」が必要です。</p></div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content"><strong>11月：申込</strong><p>必要書類を揃え、保育幼稚園課へ提出します。</p></div>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>最新の申込方法は<a href="https://www.city.sasebo.lg.jp/kodomomirai/hoyou/0903mousikomi.html" target="_blank" rel="noopener">佐世保市公式サイト「保育所等の利用申込」</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-04-05",
-    popularity: 55,
-  },
 
   // ========== 点数・選考 ==========
 

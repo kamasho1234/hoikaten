@@ -1,0 +1,131 @@
+{
+  "citySlug": "joetsu",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "上越市「令和9年度4月入園　幼稚園・保育園・認定こども園の入園申し込み」",
+    "url": "https://www.city.joetsu.niigata.jp/soshiki/hoiku/nyuuenannai.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年8月25日頃に市ホームページ及び広報上越9月号に1次申し込みの概要を掲載。申込書類は希望する園で受け取る",
+  "firstApply": "令和8年9月1日～10月31日。第1希望の園で申込書類を受け取り、必要書類を全て揃え、書類を受け取った園に提出",
+  "applyMethods": "入園を希望する園（第一希望の園）で申込書類を受け取り、同園へ直接申し込む。郵送で提出する場合は申込書を提出される方の本人確認書類の写しを同封する",
+  "firstResult": "令和8年12月下旬頃に入園決定通知書を送付。公立保育園・私立保育園に入園決定した方は市から直接送付、認定こども園に入園決定した方は各園から送付するため送付時期が多少前後する可能性あり",
+  "secondApply": "令和9年2月1日～2月12日（予定）。第1希望の園で申込書類を受け取り、必要書類を全て揃え、書類を受け取った園に提出",
+  "secondResult": "令和9年2月中旬～下旬頃に入園調整終了後、入園決定通知書を送付",
+  "midYearDeadline": "令和9年3月1日～3月12日（予定）に随時申し込みを受け付ける。先着順のため入園調整は行わない",
+  "documents": [
+    "保育園・認定こども園入園申込書兼教育・保育給付認定申請書、発達状況調査票",
+    "就労証明書（A面）・申立書（B面）。保護者それぞれ各1枚を提出。自営業の場合は事業開始届・代表者の確定申告書・農家基本台帳・自営業等の就労を確認できる書類のいずれか1つ",
+    "保育を必要とする事由に応じた書類（妊娠中は母子手帳、傷病・障害は医師の診断書や手帳、介護は介護認定証など）、保育料算定基礎資料",
+    "本人確認書類。運転免許証、マイナンバーカード、パスポート、身体・精神・療育手帳、特別永住者証明書など顔写真付き。郵送の場合は写しを同封"
+  ],
+  "interview": "1月～2月頃に入園説明会を各園にて実施。開催日時等は各園から通知。5月1日までに育児休業から復帰予定として申し込まれた方のみ、入園説明会で復職（予定）証明書を配布し、3月中旬頃予定までに園へ提出",
+  "ikukyu": "令和8年11月～令和9年4月の間に育児休業を取得する場合、育児休業からの復職についての誓約書を入園申込時に提出。父母ともに取得する場合は2部必要。入園決定後に復職（予定）証明書を提出。令和9年5月1日までに育児休業から復帰予定として申し込まれた方のみが対象",
+  "notes": [
+    "1次申し込み期間中にまだ生まれていないお子さんは申し込みできない。出生後、2次申し込みまたは随時申し込みをすること",
+    "保護者のどちらかが育児休業を取得している場合で、令和9年4月以降、転職や辞職等を検討している場合は、保育を必要とする事由が求職活動となる",
+    "随時申し込みを受け付ける園は2月下旬頃に市ホームページに掲載",
+    "すでに他園に入園決定している場合、入園辞退届の提出が必要",
+    "市外から転入予定の方は3月31日までに必ず住民票を上越市に移す必要がある"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.joetsu.niigata.jp/uploaded/attachment/287042.pdf",
+      "quote": "令和９年度 4 月入園 保育園・認定こども園 入園手続きのご案内"
+    },
+    "guideRelease": {
+      "url": "https://www.city.joetsu.niigata.jp/uploaded/attachment/287042.pdf",
+      "quote": "８月２５日頃 市ホームページ及び広報上越９月号に１次申し込みの概要を掲載します。"
+    },
+    "firstApply": {
+      "url": "https://www.city.joetsu.niigata.jp/uploaded/attachment/287042.pdf",
+      "quote": "９月１日～１０月３１日 ※期限厳守≪期限を過ぎた場合、申込を受け付けることができません≫ １次申し込みを受け付けます。第１希望の園で申込書類を受け取り、必要書類を全て揃え、書類を受け取った園に提出してください。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.joetsu.niigata.jp/soshiki/hoiku/nyuuenannai.html",
+      "quote": "入園を希望する園（第一希望の園）で申込書類を受け取り、同園へ直接申し込んでください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.joetsu.niigata.jp/uploaded/attachment/287042.pdf",
+      "quote": "１２月下旬頃 入園調整終了後、入園決定通知書を送付します。 ◆公立保育園・私立保育園に入園決定した方…市から直接入園決定通知書を送付します。 ◆認定こども園に入園決定した方…各園から入園決定通知書を送付するため、送付時期が多少前後する可能性があります。"
+    },
+    "secondApply": {
+      "url": "https://www.city.joetsu.niigata.jp/uploaded/attachment/287042.pdf",
+      "quote": "２月１日～２月１２日 ※期限厳守≪期限を過ぎた場合、申込を受け付けることができません≫ ２次申し込みを受け付けます。第１希望の園で申込書類を受け取り、必要書類を全て揃え、書類を受け取った園に提出してください。"
+    },
+    "secondResult": {
+      "url": "https://www.city.joetsu.niigata.jp/uploaded/attachment/287042.pdf",
+      "quote": "２月中旬～下旬頃 各園における年齢別の定員を超過した場合、１次申し込みと同様の手順で入園調整を行います。 入園調整終了後、入園決定通知書を送付します。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.joetsu.niigata.jp/uploaded/attachment/287042.pdf",
+      "quote": "３月１日～３月１２日 ※期限厳守≪期限を過ぎた場合、4月2日以降の入園となります≫ 随時申し込みを受け付けます。入園希望の園にて申込書類を受け取り、必要書類を全て揃え、書類を受け取った園に提出してください。先着順のため入園調整は行いません。"
+    },
+    "documents.0": {
+      "url": "https://www.city.joetsu.niigata.jp/uploaded/attachment/287042.pdf",
+      "quote": "○ ○ 保育園・認定こども園入園申込書兼教育・保育給付認定申請書 ピンク厚紙"
+    },
+    "documents.0#2": {
+      "url": "https://www.city.joetsu.niigata.jp/uploaded/attachment/287042.pdf",
+      "quote": "○ ○ 発達状況調査票 白色厚紙"
+    },
+    "documents.1": {
+      "url": "https://www.city.joetsu.niigata.jp/uploaded/attachment/287042.pdf",
+      "quote": "就労証明書（A面）・申立書（B面） ○ ○ 2部配布 ※２人で両面を使用せず、保護者それぞれ各１枚を提出してください。"
+    },
+    "documents.2": {
+      "url": "https://www.city.joetsu.niigata.jp/uploaded/attachment/287042.pdf",
+      "quote": "○ ○ 保育料算定基礎資料 ★ 保育料算定基礎資料の添付書類 P12参照"
+    },
+    "documents.3": {
+      "url": "https://www.city.joetsu.niigata.jp/uploaded/attachment/287042.pdf",
+      "quote": "入園申込書類を園に提出する際には、申込書持参者の本人確認書類の提示が必要になります"
+    },
+    "documents.3#2": {
+      "url": "https://www.city.joetsu.niigata.jp/uploaded/attachment/287042.pdf",
+      "quote": "≪本人確認書類の例≫ マイナンバーカード、運転免許証、パスポート、身体・精神・療育手帳、特別永住者証明書 等"
+    },
+    "interview": {
+      "url": "https://www.city.joetsu.niigata.jp/uploaded/attachment/287042.pdf",
+      "quote": "１月～２月頃 入園説明会を各園にて実施します。開催日時等は各園から通知します。 ≪５月１日までに育児休業から復帰予定として申し込まれた方のみ≫ 入園説明会で「復職（予定）証明書」を配布します。期限（3月中旬頃予定）までに園へ提出してください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.joetsu.niigata.jp/uploaded/attachment/287042.pdf",
+      "quote": "育児休業からの復職についての誓約書 ※11月～4月の間に育児休業を取得する保護者それぞれが提出してください（父母ともに取得する場合は、園に申し出てください）。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.joetsu.niigata.jp/uploaded/attachment/287042.pdf",
+      "quote": "≪５月１日までに育児休業から復帰予定として申し込まれた方のみ≫ 入園説明会で「復職（予定）証明書」を配布します。"
+    },
+    "notes.0": {
+      "url": "https://www.city.joetsu.niigata.jp/uploaded/attachment/287042.pdf",
+      "quote": "≪１次申し込み時の注意事項≫ ◆１次申し込み期間中にまだ生まれていないお子さんは、申し込みはできません。出生後、2次申し込みまたは随時申し込みをしてください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.joetsu.niigata.jp/uploaded/attachment/287042.pdf",
+      "quote": "◆保護者のどちらかが育児休業を取得している場合で、令和９年４月以降、転職や辞職等を検討している場合は、「保育を必要とする事由」は「求職活動」となります。"
+    },
+    "notes.2": {
+      "url": "https://www.city.joetsu.niigata.jp/uploaded/attachment/287042.pdf",
+      "quote": "随時申し込みを受け付ける園は、２月下旬頃に市ホームページに掲載します。"
+    },
+    "notes.3": {
+      "url": "https://www.city.joetsu.niigata.jp/uploaded/attachment/287042.pdf",
+      "quote": "≪２次申し込み時の注意事項≫ ◆すでに他園に入園決定している場合、入園辞退届の提出が必要です。入園決定している園へ申し出てください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.joetsu.niigata.jp/uploaded/attachment/287042.pdf",
+      "quote": "３月３１日まで ≪市外から転入予定の方のみ≫ 市外から転入予定の方は、必ず住民票を上越市に移してください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "上越市「令和9年度4月入園　幼稚園・保育園・認定こども園の入園申し込み」",
+      "url": "https://www.city.joetsu.niigata.jp/soshiki/hoiku/nyuuenannai.html"
+    },
+    {
+      "label": "上越市「令和9年4月入園　保育園・認定こども園入園手続きのご案内」PDF",
+      "url": "https://www.city.joetsu.niigata.jp/uploaded/attachment/287042.pdf"
+    }
+  ]
+}

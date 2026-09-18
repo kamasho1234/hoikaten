@@ -3,58 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "higashiosaka",
-    title: "東大阪市の保活スケジュール　令和8年度4月入園の流れ",
-    description:
-      "東大阪市の令和8年度（2026年度）4月入園の申込時期・必要書類・結果通知の時期をまとめました。",
-    image:
-      "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>令和8年度（2026年度）4月入園のスケジュール</h2>
-<p>東大阪市の4月入園の申込は例年10月〜11月頃に受け付けられます。</p>
-
-<h3>申込の流れ</h3>
-<table>
-<tr><th>項目</th><th>日程（目安）</th></tr>
-<tr><td>申請書類配布</td><td>2025年9月頃〜</td></tr>
-<tr><td>1次申込受付</td><td>2025年10月〜11月頃</td></tr>
-<tr><td>1次結果通知</td><td>2026年1月下旬頃</td></tr>
-<tr><td>2次申込受付</td><td>2026年2月頃</td></tr>
-</table>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>東大阪市では施設利用相談課（06-4309-3202）に電話で事前相談ができます。不明点があれば申込前に確認しておきましょう。</p>
-</div>
-
-<h2>いつから動き始めるべき？</h2>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content"><strong>4月〜6月：情報収集</strong><p>東大阪市の公式サイトで入所案内を確認します。</p></div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content"><strong>6月〜9月：保育園見学</strong><p>気になる園に電話して見学予約。</p></div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content"><strong>9月〜10月：書類準備</strong><p>就労証明書を勤務先に依頼します。</p></div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content"><strong>10月〜11月：申込</strong><p>期限内に必要書類を提出します。</p></div>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>最新情報は<a href="https://www.city.higashiosaka.lg.jp/kosodate/0000015515.html" target="_blank" rel="noopener">東大阪市公式サイト「保育施設入所申込の手続き」</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-03-28",
-    popularity: 55,
-  },
-  {
     slug: "fulltime-90-line",
     citySlug: "higashiosaka",
     title: "フルタイム共働き90点は安心？東大阪市のボーダーライン事情",

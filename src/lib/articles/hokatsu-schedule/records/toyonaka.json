@@ -1,0 +1,75 @@
+{
+  "citySlug": "toyonaka",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "豊中市「【令和9年4月】保育施設入所申込みの手続き（オンライン申込・提出書類ダウンロード）」",
+    "url": "https://www.city.toyonaka.osaka.jp/kosodate/hoikusho/tetsuduki/r9mousikomitetuduki.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年10月1日（木曜）～10月20日（火曜）23時59分",
+  "applyMethods": "新規申込・申込み内容の変更手続きについてはオンラインのみの申込になります。電子申込システム（LoGoフォーム）を使用します",
+  "firstResult": "令和9年1月中旬",
+  "secondApply": "令和9年1月20日（水曜）～2月10日（水曜）23時59分",
+  "secondResult": "令和9年3月中旬",
+  "documents": [
+    "就労証明書（就労または育児休業の場合）。申込日から3ヶ月以内に発行されたもの。最新年度の確定申告の控えまたは税務署への開業届の写しも必要な場合がある",
+    "保育を必要とする事由証明書（その他の理由の場合）。申込日から3ヶ月以内に発行されたもの",
+    "先天性疾患（心室中隔欠損、川崎病、てんかん等）のあるお子さんの場合は保育実施についての意見書"
+  ],
+  "notes": [
+    "「令和8年度保育施設入所申込の手続き」をされた方について、自動的に令和9年4月の申込をしたことにはなりません。それぞれで申込が必要",
+    "令和9年4月入所において、0歳児の受入を一時停止する保育施設がある。幼保連携型認定こども園豊中愛光幼稚園、幼保連携型認定こども園ほうなん子ども園、あけぼのひだまり保育園、さくらんぼ保育園、にっこりことぶき園"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.toyonaka.osaka.jp/kosodate/hoikusho/tetsuduki/r9mousikomitetuduki.html",
+      "quote": "【一次選考】令和9年（2027年）1月中旬【二次選考】令和9年（2027年）3月中旬"
+    },
+    "firstApply": {
+      "url": "https://www.city.toyonaka.osaka.jp/kosodate/hoikusho/tetsuduki/r9mousikomitetuduki.html",
+      "quote": "【一次選考】令和8年10月1日（木曜）～10月20日（火曜）23時59分"
+    },
+    "applyMethods": {
+      "url": "https://www.city.toyonaka.osaka.jp/kosodate/hoikusho/tetsuduki/r9mousikomitetuduki.html",
+      "quote": "新規申込・申込み内容の変更手続きについてはオンラインのみの申込になります。"
+    },
+    "firstResult": {
+      "url": "https://www.city.toyonaka.osaka.jp/kosodate/hoikusho/tetsuduki/r9mousikomitetuduki.html",
+      "quote": "【一次選考】令和9年（2027年）1月中旬"
+    },
+    "secondApply": {
+      "url": "https://www.city.toyonaka.osaka.jp/kosodate/hoikusho/tetsuduki/r9mousikomitetuduki.html",
+      "quote": "【二次選考】令和9年1月20日（水曜）～2月10日（水曜）23時59分"
+    },
+    "secondResult": {
+      "url": "https://www.city.toyonaka.osaka.jp/kosodate/hoikusho/tetsuduki/r9mousikomitetuduki.html",
+      "quote": "【二次選考】令和9年（2027年）3月中旬"
+    },
+    "documents.0": {
+      "url": "https://www.city.toyonaka.osaka.jp/kosodate/hoikusho/tetsuduki/r9mousikomitetuduki.html",
+      "quote": "「就労証明書」「保育を必要とする事由証明書」は、申込日から3ヶ月以内に発行されたものを提出してください。"
+    },
+    "documents.1": {
+      "url": "https://www.city.toyonaka.osaka.jp/kosodate/hoikusho/tetsuduki/r9mousikomitetuduki.html",
+      "quote": "保育を必要とする事由が「就労」「育児休業」の場合は「就労証明書」を使用してください。"
+    },
+    "documents.2": {
+      "url": "https://www.city.toyonaka.osaka.jp/kosodate/hoikusho/tetsuduki/r9mousikomitetuduki.html",
+      "quote": "先天性疾患（心室中隔欠損、川崎病、てんかん等）のあるお子さんの場合は提出してください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.toyonaka.osaka.jp/kosodate/hoikusho/tetsuduki/r9mousikomitetuduki.html",
+      "quote": "「令和8年度保育施設入所申込の手続き」をされた方について、自動的に令和9年4月の申込をしたことにはなりません。"
+    },
+    "notes.1": {
+      "url": "https://www.city.toyonaka.osaka.jp/kosodate/hoikusho/tetsuduki/r9mousikomitetuduki.html",
+      "quote": "令和9年4月入所において、0歳児の受入を一時停止する保育施設は下記のとおりです。希望施設として選択できないのでご留意ください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "豊中市「【令和9年4月】保育施設入所申込みの手続き（オンライン申込・提出書類ダウンロード）」",
+      "url": "https://www.city.toyonaka.osaka.jp/kosodate/hoikusho/tetsuduki/r9mousikomitetuduki.html"
+    }
+  ]
+}

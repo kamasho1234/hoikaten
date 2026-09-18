@@ -1,0 +1,70 @@
+{
+  "citySlug": "ibaraki",
+  "checkedAt": "2026-09-19",
+  "page": {
+    "label": "茨木市「令和9年度 新規入所・転所（園）申込について」",
+    "url": "https://www.city.ibaraki.osaka.jp/kikou/kodomoikusei/jigyou/menu/hoikushokankei/nyuusyo/r9_nyuusyo_tensyo_1/69763.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年10月1日（木曜日）より、茨木市役所、保育所等で配布を開始するとともに、ホームページ上でも公開する",
+  "firstApply": "令和8年10月15日～11月5日",
+  "firstResult": "令和9年1月末頃に通知",
+  "secondApply": "令和8年11月20日～令和9年2月5日",
+  "secondResult": "令和9年3月初め頃に通知",
+  "documents": [
+    "保育が必要であることを証する書類（就労証明書等。事由により異なる。令和8年7月1日以降に発行されたものが有効）"
+  ],
+  "notes": [
+    "一次選考申込期間中にお申し込みいただいた場合でも、提出書類に不備があり修正が必要となった場合、修正後の書類が不備書類提出期限の11月30日までに提出されない場合には、一次選考での利用調整の対象外となる",
+    "令和9年度保育所等利用調整指数表について、調整指数の項目の変更があった。自営業の事業の内容を証明する書類の提出がない世帯に関する減点項目が削除された（提出がない場合は利用調整不可となる）",
+    "保護者が就労予定（内定）の世帯に関する減点項目が削除された"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.ibaraki.osaka.jp/kikou/kodomoikusei/jigyou/menu/hoikushokankei/nyuusyo/r9_nyuusyo_tensyo_1/69763.html",
+      "quote": "令和9年度 保育所等新規利用案内は、令和8年10月1日（木曜日）より配布を開始します。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.ibaraki.osaka.jp/kikou/kodomoikusei/jigyou/menu/hoikushokankei/nyuusyo/r9_nyuusyo_tensyo_1/69763.html",
+      "quote": "令和9年度 保育所等新規利用案内は、令和8年10月1日（木曜日）より配布を開始します。茨木市役所、保育所等で配布を開始するとともに、ホームページ上でも公開しますので、令和9年度入所申込をされる方は必ずご確認ください。"
+    },
+    "firstApply": {
+      "url": "https://www.city.ibaraki.osaka.jp/kikou/kodomoikusei/jigyou/menu/hoikushokankei/nyuusyo/r9_nyuusyo_tensyo_1/69763.html",
+      "quote": "一次選考申込期間：10月15日～11月5日"
+    },
+    "firstResult": {
+      "url": "https://www.city.ibaraki.osaka.jp/kikou/kodomoikusei/jigyou/menu/hoikushokankei/nyuusyo/r9_nyuusyo_tensyo_1/69763.html",
+      "quote": "一次選考結果通知：1月末頃"
+    },
+    "secondApply": {
+      "url": "https://www.city.ibaraki.osaka.jp/kikou/kodomoikusei/jigyou/menu/hoikushokankei/nyuusyo/r9_nyuusyo_tensyo_1/69763.html",
+      "quote": "二次選考申込期間：11月20日～2月5日"
+    },
+    "secondResult": {
+      "url": "https://www.city.ibaraki.osaka.jp/kikou/kodomoikusei/jigyou/menu/hoikushokankei/nyuusyo/r9_nyuusyo_tensyo_1/69763.html",
+      "quote": "二次選考結果通知：3月初め頃"
+    },
+    "documents.0": {
+      "url": "https://www.city.ibaraki.osaka.jp/kikou/kodomoikusei/jigyou/menu/hoikushokankei/nyuusyo/r9_nyuusyo_tensyo_1/69763.html",
+      "quote": "各種証明書類は、令和8年7月1日（水曜日）以降に発行されたものが必要です。"
+    },
+    "notes.0": {
+      "url": "https://www.city.ibaraki.osaka.jp/kikou/kodomoikusei/jigyou/menu/hoikushokankei/nyuusyo/r9_nyuusyo_tensyo_1/69763.html",
+      "quote": "一次選考申込期間中にお申し込みいただいた場合でも、提出書類に不備があり修正が必要となった場合、修正後の書類が不備書類提出期限の11月30日までに提出されない場合には、一次選考での利用調整の対象外となります"
+    },
+    "notes.1": {
+      "url": "https://www.city.ibaraki.osaka.jp/kikou/kodomoikusei/jigyou/menu/hoikushokankei/nyuusyo/r9_nyuusyo_tensyo_1/69763.html",
+      "quote": "1. 自営業の事業の内容を証明する書類の提出がない世帯に関する減点項目の削除"
+    },
+    "notes.2": {
+      "url": "https://www.city.ibaraki.osaka.jp/kikou/kodomoikusei/jigyou/menu/hoikushokankei/nyuusyo/r9_nyuusyo_tensyo_1/69763.html",
+      "quote": "2. 保護者が就労予定（内定）の世帯に関する減点項目の削除"
+    }
+  },
+  "sources": [
+    {
+      "label": "茨木市「令和9年度 新規入所・転所（園）申込について」",
+      "url": "https://www.city.ibaraki.osaka.jp/kikou/kodomoikusei/jigyou/menu/hoikushokankei/nyuusyo/r9_nyuusyo_tensyo_1/69763.html"
+    }
+  ]
+}

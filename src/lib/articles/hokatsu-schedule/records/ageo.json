@@ -1,0 +1,124 @@
+{
+  "citySlug": "ageo",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "上尾市「令和9年度4月1次の保育施設等の利用申込について」",
+    "url": "https://www.city.ageo.lg.jp/page/370863.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年10月1日（木曜日）〜10月15日（木曜日）",
+  "applyMethods": "原則電子申請（マイナポータル）。スマートフォン等がマイナポータルに対応できない場合は郵送で受付。窓口受付は原則行わない",
+  "firstResult": "令和9年2月上旬（予定）に郵送で通知",
+  "secondApply": "窓口受付：令和8年11月9日（月曜日）～令和9年2月5日（金曜日）。電子申請・郵送：令和8年12月14日（月曜日）～令和9年1月15日（金曜日）。不足書類提出期限は2月12日（金曜日）",
+  "secondResult": "令和9年3月中旬（予定）に郵送で通知",
+  "interview": "上尾市公式LINEで予約後、保育課（市役所5階）で実施。一次面接受付期間は10月23日（金曜日）～11月6日（金曜日）。原則面接必須（既に上尾市内認可保育施設を利用中等の場合は不要）。子どもと保護者が来庁、所要時間は15分程度",
+  "documents": [
+    "認定申請書兼家庭状況票",
+    "利用申込書兼希望先保育施設申請書",
+    "こどもの記録",
+    "重要事項チェックリスト",
+    "マイナンバー記入用紙（マイナンバーを記入する場合）及びマイナンバーが正しいことを確認する資料（マイナンバーカード、マイナンバー入り住民票等）",
+    "申請者の本人確認書類（顔写真付き1点または顔写真なし2点。マイナンバーカードで電子申請した場合は不要）",
+    "保育の必要性の事由を確認するための書類（就労証明書、診断書、母子健康手帳の写し等。保護者の状況に応じて異なる）"
+  ],
+  "ikukyu": "育児休業延長希望の場合、令和8年10月1日～令和9年3月31日の間に育児休業が終了する就労証明書を提出すると、4月入所選考に限り育児休業加点の対象となる。第2子出産で育児休業中の場合、第1子は第2子が1歳6か月に達する月末までの継続入所が可能",
+  "notes": [
+    "申込順は利用調整の結果に影響しない",
+    "必要に応じて申込内容について訪問・電話等により調査が行われることがある",
+    "虚偽の記載や利用調整後の申込内容変更があった場合、利用調整結果を取り消される場合がある",
+    "申込後、利用開始月の前月末までに市外へ転出した場合、入所が取り消される。市外転出時点で申請が取り消しになるため転出月の翌月以降の保留通知は交付されない",
+    "面接会場が手狭なためベビーカーでの来庁は控えることが望ましい"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.ageo.lg.jp/uploaded/attachment/122015.pdf",
+      "quote": "令和９年度 保育施設利用申込のてびき"
+    },
+    "firstApply": {
+      "url": "https://www.city.ageo.lg.jp/uploaded/attachment/122015.pdf",
+      "quote": "令和８年１０月１日㈭～１０月１５日㈭"
+    },
+    "applyMethods": {
+      "url": "https://www.city.ageo.lg.jp/uploaded/attachment/122015.pdf",
+      "quote": "申込方法 ①電子申請 ②郵送 ③保育課への申込書類持参"
+    },
+    "firstResult": {
+      "url": "https://www.city.ageo.lg.jp/uploaded/attachment/122015.pdf",
+      "quote": "４月一次 令和９年２月上旬 発送予定日"
+    },
+    "secondApply": {
+      "url": "https://www.city.ageo.lg.jp/uploaded/attachment/122015.pdf",
+      "quote": "二 次 窓口：令和８年11月９日㈪～令和９年2月５日㈮ 電子・郵送：令和８年１２月１４日㈪～令和９年１月１５日㈮ ※不足書類提出期間：令和９年２月１２日㈮まで"
+    },
+    "secondResult": {
+      "url": "https://www.city.ageo.lg.jp/uploaded/attachment/122015.pdf",
+      "quote": "令和９年３月中旬"
+    },
+    "interview": {
+      "url": "https://www.city.ageo.lg.jp/uploaded/attachment/122015.pdf",
+      "quote": "令和８年１０月２３日㈮～１１月６日㈮"
+    },
+    "documents.0": {
+      "url": "https://www.city.ageo.lg.jp/uploaded/attachment/122015.pdf",
+      "quote": "①認定申請書 兼 家庭状況票 ・こども一人につき1枚必要です。"
+    },
+    "documents.1": {
+      "url": "https://www.city.ageo.lg.jp/uploaded/attachment/122015.pdf",
+      "quote": "②利用申込書 兼 希望先保育施設申請書 ・こども一人につき1枚必要です。"
+    },
+    "documents.2": {
+      "url": "https://www.city.ageo.lg.jp/uploaded/attachment/122015.pdf",
+      "quote": "③こどもの記録 ・こども一人につき1枚必要です。"
+    },
+    "documents.3": {
+      "url": "https://www.city.ageo.lg.jp/uploaded/attachment/122015.pdf",
+      "quote": "④重要事項チェックリスト ・一世帯で1枚必要です。"
+    },
+    "documents.4": {
+      "url": "https://www.city.ageo.lg.jp/uploaded/attachment/122015.pdf",
+      "quote": "➄マイナンバー記入用紙 ・一世帯で1枚必要です。"
+    },
+    "documents.5": {
+      "url": "https://www.city.ageo.lg.jp/uploaded/attachment/122015.pdf",
+      "quote": "申請者本人の本人確認書類 ・顔写真付き証明書１点 又は ・顔写真無し証明書２点"
+    },
+    "documents.6": {
+      "url": "https://www.city.ageo.lg.jp/uploaded/attachment/122015.pdf",
+      "quote": "⑥保育の必要性の事由を確認するための書類（１６～１９ページ参照）・父母ともに提出が必要です。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.ageo.lg.jp/uploaded/attachment/122015.pdf",
+      "quote": "このため、4月入所選考に限り、令和８年１０月１日～令和９年3月31日の間に育児休業が終了する就労証明書を提出した場合は、育児休業加点の対象として選考をします。"
+    },
+    "notes.0": {
+      "url": "https://www.city.ageo.lg.jp/uploaded/attachment/122015.pdf",
+      "quote": "ア 申込順は利用調整（選考）の結果に影響しません。"
+    },
+    "notes.1": {
+      "url": "https://www.city.ageo.lg.jp/uploaded/attachment/122015.pdf",
+      "quote": "イ 必要に応じて、申込内容について訪問・電話等により調査を行う場合があります。"
+    },
+    "notes.2": {
+      "url": "https://www.city.ageo.lg.jp/uploaded/attachment/122015.pdf",
+      "quote": "ウ 虚偽の記載があったり、利用調整（選考）後に申込内容に変更が生じた場合は、利用調整（選考）結果を取消する場合があります。（入所後の場合は退所）"
+    },
+    "notes.3": {
+      "url": "https://www.city.ageo.lg.jp/uploaded/attachment/122015.pdf",
+      "quote": "エ 申込後、利用開始月の前月末時点で市外へ転出した場合、入所を取り消します。また、市外に転出した時点で申請が取り消しになりますので転出月の翌月以降の保留通知は交付することができません。"
+    },
+    "notes.4": {
+      "url": "https://www.city.ageo.lg.jp/uploaded/attachment/122015.pdf",
+      "quote": "ア 面接会場が手狭なため、ベビーカーでの来庁は極力控えていただきますようお願いします。"
+    }
+  },
+  "sources": [
+    {
+      "label": "上尾市「令和9年度4月1次の保育施設等の利用申込について」",
+      "url": "https://www.city.ageo.lg.jp/page/370863.html"
+    },
+    {
+      "label": "令和9年度保育施設利用申込のてびき",
+      "url": "https://www.city.ageo.lg.jp/uploaded/attachment/122015.pdf"
+    }
+  ]
+}

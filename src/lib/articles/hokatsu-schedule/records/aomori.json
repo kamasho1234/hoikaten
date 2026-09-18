@@ -1,0 +1,108 @@
+{
+  "citySlug": "aomori",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "青森市「令和8年度 保育所・認定こども園（保育部分）等への利用申込み」",
+    "url": "https://www.city.aomori.aomori.jp/kodomo_kyoiku/ninteikodomoen_youchien_hoikusho/1009841/1009844.html"
+  },
+  "fiscalYear": "R8",
+  "guideRelease": "令和7年12月1日から受付開始",
+  "firstApply": "令和7年12月1日（月）受付開始。令和8年4月入所の第1回目締切は令和8年2月2日（月）（市担当課への提出。希望保育所等への提出は締切日の前日まで）",
+  "applyMethods": "市担当課または希望保育所等に提出。電子申請も可能",
+  "firstResult": "利用決定通知書を送付。第1回目は3月上旬、第2回目は3月下旬",
+  "secondResult": "利用決定通知書を送付",
+  "documents": [
+    "教育・保育給付認定申請書兼保育所等利用申込書",
+    "保育所等見学チェック表（親子で見学した保育所等に記入してもらったもの）",
+    "保育が必要であることを証明する書類。会社などに勤務する場合は就労証明書。自営業、農・漁業の場合は就労証明書及び民生委員の状況確認報告書または就労状況申立書と開業届、確定申告書などの写し。内職の場合は就労証明書。妊娠・出産の場合は母子健康手帳の写し。病気や障がいの場合は医師の診断書または障害者手帳など。看護・介護の場合は医師の診断書または障害者手帳など。災害復旧の場合はり災証明書など。就学の場合は在学（籍）証明書及び受講期間が明記されたカリキュラム表など",
+    "食物アレルギー調査票（食物アレルギーがある場合のみ）"
+  ],
+  "interview": "利用が決定した子どもの保護者が利用決定保育所等に連絡のうえ、日程調整して各保育所等で行う",
+  "ikukyu": "育児休業中は保育の必要性が認められないため、育児休業の対象となっている子ども及びその兄姉が保育所等の利用を申込みすることはできない。ただし、育児休業開始前に、育児休業の対象となっている子どもの兄姉が、既に就労や出産等の事由で保育所等を利用している場合には、継続して利用することができる（利用できる期間は最長で、育児休業の対象となっている子どもが2歳に達する月の末日まで）",
+  "notes": [
+    "親子（祖父母等も可）で見学を受けた保育所等への希望のみ受付。事前見学は希望保育所等の変更や転所申込みの際にも必要",
+    "4月入所の第1回目締切は2月2日（月）、第2回目は3月2日（月）、第3回目は3月16日（月）。5月～3月入所は月ごとに異なる。希望保育所等への提出は市担当課締切の前日まで",
+    "4月入所の第1回目及び第2回目選考については、第1希望のみで選考を行う。第1希望のみ記載された方を優先することはない",
+    "求職活動を理由とした申込みは、保育の必要性の優先順位を考慮し、申込期日に関わらず最終締切分での選考対象となる"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.aomori.aomori.jp/_res/projects/default_project/_page_/001/009/844/r8riyouannnai.pdf",
+      "quote": "令和8年度保育所等新規利用申込の受付は、令和7年12月1日（月）から開始します"
+    },
+    "guideRelease": {
+      "url": "https://www.city.aomori.aomori.jp/_res/projects/default_project/_page_/001/009/844/r8riyouannnai.pdf",
+      "quote": "令和8年度保育所等新規利用申込の受付は、令和7年12月1日（月）から開始します"
+    },
+    "firstApply": {
+      "url": "https://www.city.aomori.aomori.jp/_res/projects/default_project/_page_/001/009/844/r8riyouannnai.pdf",
+      "quote": "令和8年度保育所等新規利用申込の受付は、令和7年12月1日（月）から開始します。下記の①または②のいずれかに申込書類を提出してください。① 市担当課…下記締切日までに申込書類を提出してください"
+    },
+    "applyMethods": {
+      "url": "https://www.city.aomori.aomori.jp/_res/projects/default_project/_page_/001/009/844/r8riyouannnai.pdf",
+      "quote": "必要書類を市担当課または保育所に提出します。電子申請も可能です"
+    },
+    "firstResult": {
+      "url": "https://www.city.aomori.aomori.jp/_res/projects/default_project/_page_/001/009/844/r8riyouannnai.pdf",
+      "quote": "選考後に利用が決定した子どもの保護者に対し送付し、利用期間などをお知らせします"
+    },
+    "secondResult": {
+      "url": "https://www.city.aomori.aomori.jp/_res/projects/default_project/_page_/001/009/844/r8riyouannnai.pdf",
+      "quote": "選考後に利用が決定した子どもの保護者に対し送付し、利用期間などをお知らせします"
+    },
+    "documents.0": {
+      "url": "https://www.city.aomori.aomori.jp/_res/projects/default_project/_page_/001/009/844/r8riyouannnai.pdf",
+      "quote": "教育・保育給付認定申請書兼保育所等利用申込書を提出して教育・保育給付認定を受ける必要があります"
+    },
+    "documents.1": {
+      "url": "https://www.city.aomori.aomori.jp/_res/projects/default_project/_page_/001/009/844/r8riyouannnai.pdf",
+      "quote": "親子（祖父母等も可）で見学をしたことの確認を受けていない保育所等への希望は、受付けることができません。希望保育所等には必ずお子様を連れて見学に行き、「保育所等見学チェック表」に確認を受けてください"
+    },
+    "documents.2": {
+      "url": "https://www.city.aomori.aomori.jp/_res/projects/default_project/_page_/001/009/844/r8riyouannnai.pdf",
+      "quote": "必要に応じて、勤務先や自宅に電話や訪問等で問い合わせを行い、申請内容に間違いが無いか確認します"
+    },
+    "documents.3": {
+      "url": "https://www.city.aomori.aomori.jp/_res/projects/default_project/_page_/001/009/844/r8riyouannnai.pdf",
+      "quote": "食物アレルギー調査票"
+    },
+    "interview": {
+      "url": "https://www.city.aomori.aomori.jp/_res/projects/default_project/_page_/001/009/844/r8riyouannnai.pdf",
+      "quote": "面接は、保護者から利用決定保育所等に連絡のうえ、日程調整し、各保育所等で行います"
+    },
+    "ikukyu": {
+      "url": "https://www.city.aomori.aomori.jp/_res/projects/default_project/_page_/001/009/844/r8riyouannnai.pdf",
+      "quote": "育児休業中は保育の必要性が認められないため、育児休業の対象となっている子ども及びその兄姉が保育所等の利用を申込みすることはできません"
+    },
+    "notes.0": {
+      "url": "https://www.city.aomori.aomori.jp/_res/projects/default_project/_page_/001/009/844/r8riyouannnai.pdf",
+      "quote": "親子（祖父母等も可）で見学をしたことの確認を受けていない保育所等への希望は、受付けることができません。希望保育所等には必ずお子様を連れて見学に行き、「保育所等見学チェック表」に確認を受けてください"
+    },
+    "notes.1": {
+      "url": "https://www.city.aomori.aomori.jp/_res/projects/default_project/_page_/001/009/844/r8riyouannnai.pdf",
+      "quote": "申込締切日が土日祝日にあたる場合は、その前の市役所開庁日が締切日となります"
+    },
+    "notes.2": {
+      "url": "https://www.city.aomori.aomori.jp/_res/projects/default_project/_page_/001/009/844/r8riyouannnai.pdf",
+      "quote": "選考は保育所等ごとに行います。第３希望まで記入した場合は、第１希望から順次選考を行います"
+    },
+    "notes.3": {
+      "url": "https://www.city.aomori.aomori.jp/_res/projects/default_project/_page_/001/009/844/r8riyouannnai.pdf",
+      "quote": "求職活動を理由とした申込みは、保育の必要性の優先順位を考慮し、申込期日に関わらず最終締切分での選考対象となります"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.aomori.aomori.jp/_res/projects/default_project/_page_/001/009/844/r8riyouannnai.pdf",
+      "quote": "締切日 令和 8 年 4 月入所 5 月～2 月入所 令和 9 年 3 月入所 第１回目 令和 8 年 2 月 2 日 (月) 入所希望月の前月10 日 令和 9 年 2 月 10 日 (水)"
+    }
+  },
+  "sources": [
+    {
+      "label": "青森市「令和8年度 保育所・認定こども園（保育部分）等への利用申込み」",
+      "url": "https://www.city.aomori.aomori.jp/kodomo_kyoiku/ninteikodomoen_youchien_hoikusho/1009841/1009844.html"
+    },
+    {
+      "label": "青森市「令和8年度 保育所等利用のご案内（PDF）」",
+      "url": "https://www.city.aomori.aomori.jp/_res/projects/default_project/_page_/001/009/844/r8riyouannnai.pdf"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "citySlug": "fukaya",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "深谷市「保育園・認定こども園・小規模保育室の入園について」",
+    "url": "https://www.city.fukaya.saitama.jp/soshiki/kodomomirai/hoiku/tanto/hoikushisetsu/hoikuen/1391407065674.html"
+  },
+  "fiscalYear": "R8",
+  "firstApply": "令和7年11月4日（火）〜11月28日（金）の期間内受付、または令和7年12月1日（月）〜令和8年2月18日（水）の期間外受付",
+  "firstResult": "令和8年2月中旬に内定通知を発送",
+  "midYearDeadline": "入園希望月の前月の10日まで（10日が土曜、日曜または祝日に当たる場合はその翌開庁日）",
+  "documents": [
+    "入園申込書（教育・保育給付認定申請書）",
+    "保育施設入園児童に関する確認書",
+    "認可保育園等申込みに関する確認書",
+    "保育の必要性の理由により提出していただく書類（保護者または同居人1人につき1枚提出）",
+    "就労の場合は就労証明書（証明日から3か月以内のもの）",
+    "育児休業中に申込をして入園が決定した場合は復職証明書（入園月の翌月10日までに提出）"
+  ],
+  "interview": "入園希望施設は、申込書提出前に必ず見学をしてください。保育園によっては見学ができない日もあるため、事前に見学できる日を直接施設へ確認して申込みをしてください。",
+  "ikukyu": "産休・育休明け等の理由で入園を希望するかたは、出生前であっても申込みを受け付けます。育児休業を取得した事業所に復職することを前提に審査を行い入園を決定します。",
+  "notes": [
+    "申請期間内（11月4日～28日）に申し込んだ場合は期間内受付として審査され、その期間を過ぎたかたの申し込みは期間外受付として期間内申請者の審査終了後に審査が行われます。",
+    "出産予定月から2か月を迎えた月の末日で退園となります。",
+    "求職活動を事由とする場合、入園月の翌々月10日までに就労証明書を提出してください。提出できない場合は、入園月より3か月の末日で退園となります。",
+    "利用者負担額（保育料）・学童保育料に滞納がある場合は大きく減点となり、納付相談をしていない場合は期間外審査に移行します。"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R8hoikuenntebuki.pdf",
+      "quote": "令和８年度 保育園・認定こども園・小規模保育室 入園手引き"
+    },
+    "firstApply": {
+      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R8hoikuenntebuki.pdf",
+      "quote": "受付 令和７年１１月４日（火） ～ 令和７年１１月２８日（金）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R8hoikuenntebuki.pdf",
+      "quote": "令和７年１２月１日（月） ～ 令和８年 ２月１８日（水） （期間内申請者の審査終了後に審査を行います。）"
+    },
+    "firstResult": {
+      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R8hoikuenntebuki.pdf",
+      "quote": "希望の保育園に入園が内定した場合は 、令和８年２月中旬に内定通知を発送します。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R8hoikuenntebuki.pdf",
+      "quote": "途中入園受付 （５月～３月） 希望する月の前月の１０日まで （１０日が土曜、日曜または祝日に当たる場合はその翌開庁日）"
+    },
+    "documents.0": {
+      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R8hoikuenntebuki.pdf",
+      "quote": "☐ ① 入園申込書（教育・保育給付認定申請書） 入園申込児童 1人につき1枚"
+    },
+    "documents.1": {
+      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R8hoikuenntebuki.pdf",
+      "quote": "☐ ② 保育施設入園児童に関する確認書"
+    },
+    "documents.2": {
+      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R8hoikuenntebuki.pdf",
+      "quote": "☐ ③ 認可保育園等申込みに関する確認書は必ずすべての事項を確認したうえで、チェックを入れてお持ちください。"
+    },
+    "documents.3": {
+      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R8hoikuenntebuki.pdf",
+      "quote": "保育の必要性の理由により提出していただく書類（保護者または同居人1人につき1枚提出）"
+    },
+    "documents.4": {
+      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R8hoikuenntebuki.pdf",
+      "quote": "☐ 就労の場合 就労証明書 証明日から3か月以内のもの"
+    },
+    "documents.5": {
+      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R8hoikuenntebuki.pdf",
+      "quote": "☐ 復職証明書 ※育児休業を取得した事業所（人事異動可）に復職することを前提に審査を行い入園を決定します。同一の事業所に入園月の翌月15日までに復職しない場合や、退職又は転職をした場合は退園となります。 入園月の翌月１０日までに提出（提出がない場合は退園）"
+    },
+    "interview": {
+      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R8hoikuenntebuki.pdf",
+      "quote": "入園希望施設は、申込書提出前に必ず見学をしてください。保育園によっては見学ができない日もあるため、事前に見学できる日を直接施設へ確認して申込みをしてください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R8hoikuenntebuki.pdf",
+      "quote": "産休・育休明け等の理由で入園を希望するかたは、出生前であっても申込みを受け付けます。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R8hoikuenntebuki.pdf",
+      "quote": "※育児休業を取得した事業所（人事異動可）に復職することを前提に審査を行い入園を決定します。"
+    },
+    "notes.0": {
+      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R8hoikuenntebuki.pdf",
+      "quote": "受付 令和７年１１月４日（火） ～ 令和７年１１月２８日（金） 期間外 受付 令和７年１２月１日（月） ～ 令和８年 ２月１８日（水） （期間内申請者の審査終了後に審査を行います。）"
+    },
+    "notes.1": {
+      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R8hoikuenntebuki.pdf",
+      "quote": "出産予定月から２か月を迎えた月の末日で退園"
+    },
+    "notes.2": {
+      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R8hoikuenntebuki.pdf",
+      "quote": "☐ 就労証明書 入園月の翌々月 10日までに提出（ 提出がない場合は退園）"
+    },
+    "notes.3": {
+      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R8hoikuenntebuki.pdf",
+      "quote": "利用者負担額(以下「保育料」)・学童保育料に滞納がある場合 は大きく減点となり、納付相談をしていない場合は期間外審査(１１月２８日までに申請したかたの審査終了後の空き状況 によ る審査)に移行しますのでご注意ください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "深谷市「保育園・認定こども園・小規模保育室の入園について」",
+      "url": "https://www.city.fukaya.saitama.jp/soshiki/kodomomirai/hoiku/tanto/hoikushisetsu/hoikuen/1391407065674.html"
+    },
+    {
+      "label": "深谷市「令和8年度保育園・認定こども園・小規模保育室 入園手引き」",
+      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R8hoikuenntebuki.pdf"
+    }
+  ]
+}

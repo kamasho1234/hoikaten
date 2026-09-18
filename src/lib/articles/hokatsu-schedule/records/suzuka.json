@@ -1,0 +1,87 @@
+{
+  "citySlug": "suzuka",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "鈴鹿市「保育所（園）・認定こども園案内」",
+    "url": "https://www.city.suzuka.lg.jp/kosodate/azukeru/1012741.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "1次募集：令和8年9月1日（火曜日）～9月14日（月曜日）。1次募集追加分：9月15日（火曜日）～10月30日（金曜日）",
+  "applyMethods": "1次募集は第1希望の保育所（園）・認定こども園に提出。1次募集追加分は市役所本館11階こども育成課に提出。提出の際には、お子さんと一緒に来園し、園で問診票の内容確認を受ける",
+  "interview": "4・5月入所（1次募集）を希望の方は11月上旬～12月中旬に保護者、お子さん、市職員で面接を行う。場所・日程は利用申込受付後、10月中旬～10月下旬に自宅へ郵送でお知らせ",
+  "midYearDeadline": "5月以降に中途入所を希望の場合、利用希望月の前月10日まで（土曜・日曜・祝日にあたる場合は直前の平日）",
+  "documents": [
+    "教育・保育給付認定申請書（施設型給付費・地域型保育給付費等）、保育所（園）・認定こども園利用申込書、問診票（こども1人につき各1部）",
+    "その他必要書類（保育が必要であることを証する書類、マイナンバーカードまたはマイナンバー入りの住民票写しなど）"
+  ],
+  "notes": [
+    "複数の施設を第1希望にすることはできない（第2希望以降に指定することは可能）",
+    "白子ひかり幼稚園は2歳児（令和6年4月2日～令和7年4月1日生まれ）から受入可能",
+    "1次募集及び1次募集追加分で申請した方については、選考で同点となった場合、1次募集（9月1日～9月14日）で申請した方を優先",
+    "1次募集追加分受付終了から2次募集受付開始までの期間（11月2日（月曜日）～令和9年1月12日（火曜日））は新年度入所の申請は受け付けない"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.suzuka.lg.jp/kosodate/azukeru/1012741.html",
+      "quote": "令和9年4月・5月からの利用を希望し、本市に居住の0歳から5歳までの乳幼児で保護者が就労や出産前後、疾病などで保育ができない方"
+    },
+    "firstApply": {
+      "url": "https://www.city.suzuka.lg.jp/kosodate/azukeru/1012741.html",
+      "quote": "1次募集：9月1日（火曜日）～9月14日（月曜日）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.suzuka.lg.jp/kosodate/azukeru/1012741.html",
+      "quote": "1次募集追加分：9月15日（火曜日）～10月30日（金曜日）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.suzuka.lg.jp/kosodate/azukeru/1012741.html",
+      "quote": "1次募集：第1希望の保育所（園）・認定こども園"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.suzuka.lg.jp/kosodate/azukeru/1012741.html",
+      "quote": "1次募集追加分：市役所本館11階こども育成課"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.suzuka.lg.jp/kosodate/azukeru/1012741.html",
+      "quote": "提出の際には、お子さんと一緒に来園し、園で問診票の内容確認を受けてください。"
+    },
+    "interview": {
+      "url": "https://www.city.suzuka.lg.jp/kosodate/azukeru/1012741.html",
+      "quote": "4・5月入所（1次募集）を御希望の方は11月上旬～12月中旬に保護者、お子さん、市職員で面接を行います。場所、日程につきましては利用申込受付後、10月中旬～10月下旬に自宅へ郵送でお知らせいたします。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.suzuka.lg.jp/kosodate/azukeru/1012741.html",
+      "quote": "5月以降に中途入所を御希望の場合、利用希望月の前月10日まで（土曜・日曜・祝日にあたる場合は直前の平日）"
+    },
+    "documents.0": {
+      "url": "https://www.city.suzuka.lg.jp/kosodate/azukeru/1012741.html",
+      "quote": "第1希望の園で配布する「教育・保育給付認定申請書（施設型給付費・地域型保育給付費等）」と「保育所（園）・認定こども園利用申込書」と「問診票」（こども1人につき各1部）"
+    },
+    "documents.1": {
+      "url": "https://www.city.suzuka.lg.jp/kosodate/azukeru/1012741.html",
+      "quote": "その他必要書類（下記の「必要書類について」を参照）"
+    },
+    "notes.0": {
+      "url": "https://www.city.suzuka.lg.jp/kosodate/azukeru/1012741.html",
+      "quote": "複数の施設を第1希望にすることはできません。第2希望以降に指定することは可能です。"
+    },
+    "notes.1": {
+      "url": "https://www.city.suzuka.lg.jp/kosodate/azukeru/1012741.html",
+      "quote": "白子ひかり幼稚園は2歳児（令和6年4月2日～令和7年4月1日生まれ）から受入可能です。"
+    },
+    "notes.2": {
+      "url": "https://www.city.suzuka.lg.jp/kosodate/azukeru/1012741.html",
+      "quote": "1次募集及び1次募集追加分で申請した方については、選考で同点となった場合、1次募集（9月1日～9月14日）で申請した方を優先します。"
+    },
+    "notes.3": {
+      "url": "https://www.city.suzuka.lg.jp/kosodate/azukeru/1012741.html",
+      "quote": "1次募集追加分受付終了から2次募集受付開始までの期間（11月2日（月曜日）～令和9年1月12日（火曜日））は新年度入所の申請は受け付けません。"
+    }
+  },
+  "sources": [
+    {
+      "label": "鈴鹿市「保育所（園）・認定こども園案内」",
+      "url": "https://www.city.suzuka.lg.jp/kosodate/azukeru/1012741.html"
+    }
+  ]
+}

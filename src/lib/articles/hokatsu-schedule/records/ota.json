@@ -1,0 +1,106 @@
+{
+  "citySlug": "ota",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "大田区「令和9年4月入園申込みについて」",
+    "url": "https://www.city.ota.tokyo.jp/seikatsu/kodomo/hoiku/topics/nyuuen_h30-01_h30-04.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年9月25日(金曜日)から窓口で申込書類の配布開始予定。大田区ホームページからもダウンロード可能",
+  "firstApply": "窓口・電子申請は令和8年10月1日(木曜日)から令和8年11月30日(月曜日)まで。郵送は令和8年10月1日(木曜日)から令和8年11月9日(月曜日)必着",
+  "applyMethods": "窓口（大田区役所保育サービス課3階21番窓口）、電子申請（大田区内在住で大田区内施設のみ希望の場合）、郵送（追跡可能な書留郵便等で、受付期間内必着）。休日受付は令和8年11月8日(日曜日)",
+  "documents": [
+    "大田区保育園申請書類確認チェックリスト",
+    "お子様の健康状況申告書",
+    "個人番号（マイナンバー）の提供のお願い",
+    "就労証明書等の保育の必要性を証明する書類"
+  ],
+  "notes": [
+    "就労証明書は押印がなくても受理される。ただし証明日、代表者名、電話番号、担当者名は記入必須",
+    "大田区では2月および3月の利用調整による入園は行わないため、当該月分の保留通知は発行されない",
+    "出産予定での申込みは4月入園のみで、例月入所は受付できない。出生前の保育所利用申込みに関する同意書の提出が必要",
+    "電子申請は他自治体の保育園等と併願する場合は利用できない",
+    "郵送の場合、消印は無効なので追跡可能な郵便で送付し、受付期間内必着の厳守が必要",
+    "お子様が2人以上の場合は電子申請で受付できない"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.ota.tokyo.jp/seikatsu/kodomo/hoiku/topics/nyuuen_h30-01_h30-04.html",
+      "quote": "令和9年4月（1次利用調整）申込み申請期間は、以下のとおりです。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.ota.tokyo.jp/seikatsu/kodomo/hoiku/topics/nyuuen_h30-01_h30-04.html",
+      "quote": "なお、窓口では 9月25日（金曜日）から配布開始予定です。"
+    },
+    "firstApply": {
+      "url": "https://www.city.ota.tokyo.jp/seikatsu/kodomo/hoiku/topics/nyuuen_h30-01_h30-04.html",
+      "quote": "【通常受付】令和8年10月1日(木曜日)から令和8年11月30日(月曜日)まで"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.ota.tokyo.jp/seikatsu/kodomo/hoiku/topics/nyuuen_h30-01_h30-04.html",
+      "quote": "郵送(追跡可能で配達完了の記録ができる書留郵便等)での申請を受付けます。締切日は令和8年11月9日（月曜日）必着です。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.ota.tokyo.jp/download/kodomo/hoikuen/moushikomi.html",
+      "quote": "保育サービス課保育利用支援担当の窓口、郵送、または電子申請にてお申込みください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.ota.tokyo.jp/download/kodomo/hoikuen/moushikomi.html",
+      "quote": "大田区役所保育サービス課保育利用支援（３階21番窓口）"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.ota.tokyo.jp/seikatsu/kodomo/hoiku/topics/nyuuen_h30-01_h30-04.html",
+      "quote": "【休日受付】令和8年11月8日(日曜日)"
+    },
+    "documents.0": {
+      "url": "https://www.city.ota.tokyo.jp/download/kodomo/hoikuen/moushikomi.html",
+      "quote": "大田区保育園申請書類確認チェックリスト"
+    },
+    "documents.1": {
+      "url": "https://www.city.ota.tokyo.jp/download/kodomo/hoikuen/moushikomi.html",
+      "quote": "お子様の健康状況申告書"
+    },
+    "documents.2": {
+      "url": "https://www.city.ota.tokyo.jp/download/kodomo/hoikuen/moushikomi.html",
+      "quote": "個人番号（マイナンバー）の提供のお願い"
+    },
+    "documents.3": {
+      "url": "https://www.city.ota.tokyo.jp/download/kodomo/hoikuen/moushikomi.html",
+      "quote": "記載項目説明を参考に、就労証明書をご記入ください。常勤、パート、内職等の方は「会社の方」がご記入ください。自営業の方は「ご自身」でご記入ください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.ota.tokyo.jp/seikatsu/kodomo/hoiku/topics/nyuuen_h30-01_h30-04.html",
+      "quote": "就労証明書（区様式）は、押印のない就労証明書を提出する場合でも受理します。なお、就労証明書の「証明日」「代表者名」、「電話番号」、「担当者名」は押印の有無にかかわらず記入が必要です"
+    },
+    "notes.1": {
+      "url": "https://www.city.ota.tokyo.jp/seikatsu/kodomo/hoiku/topics/nyuuen_h30-01_h30-04.html",
+      "quote": "大田区では2、3月の利用調整による入園は行っていないため、当該月分の保留通知の発行はいたしません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.ota.tokyo.jp/seikatsu/kodomo/hoiku/topics/nyuuen_h30-01_h30-04.html",
+      "quote": "【出産予定での申込み】出産予定での申込みは4月入園のみです。例月入所は受付できません。「出生前の保育所利用申込みに関する同意書」の提出が必要です。"
+    },
+    "notes.3": {
+      "url": "https://www.city.ota.tokyo.jp/seikatsu/kodomo/hoiku/topics/nyuuen_h30-01_h30-04.html",
+      "quote": "【電子での申込み】他自治体の保育園等と併願する場合は利用できません。"
+    },
+    "notes.4": {
+      "url": "https://www.city.ota.tokyo.jp/seikatsu/kodomo/hoiku/topics/nyuuen_h30-01_h30-04.html",
+      "quote": "【郵送での申込み】受付期間内必着です。消印は無効ですのでご注意ください。追跡可能な郵便(書留郵便等)で郵送ください。"
+    },
+    "notes.5": {
+      "url": "https://www.city.ota.tokyo.jp/download/kodomo/hoikuen/moushikomi.html",
+      "quote": "（注釈1）申込みを希望するお子様が2人以上の場合には電子申請で受付できませんのでご了承ください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "大田区「令和9年4月入園申込みについて」",
+      "url": "https://www.city.ota.tokyo.jp/seikatsu/kodomo/hoiku/topics/nyuuen_h30-01_h30-04.html"
+    },
+    {
+      "label": "大田区「申込書・証明書等」",
+      "url": "https://www.city.ota.tokyo.jp/download/kodomo/hoikuen/moushikomi.html"
+    }
+  ]
+}

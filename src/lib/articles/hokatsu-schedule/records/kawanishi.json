@@ -1,0 +1,119 @@
+{
+  "citySlug": "kawanishi",
+  "checkedAt": "2026-09-18",
+  "page": {
+    "label": "川西市「認可保育施設への令和9年4月（1月〜3月含む）入所手続き」",
+    "url": "https://www.city.kawanishi.hyogo.jp/kurashi/kosodate/hoikusyo/1000644.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年9月1日から申込書類等を配布。川西市ホームページでダウンロード可能",
+  "firstApply": "令和8年9月11日（金曜日）～令和8年11月10日（火曜日）午後5時必着",
+  "applyMethods": "川西市役所3階8番入園所相談課に提出。郵送の場合は特定記録など記録が残る方法を使用。電子申請も可能",
+  "firstResult": "令和9年1月20日頃に、内定・不内定ともに文書で通知",
+  "secondApply": "令和8年11月11日（水）～令和9年1月27日（水）午後5時必着",
+  "secondResult": "令和9年2月20日頃に、内定・不内定ともに文書で通知",
+  "documents": [
+    "認定申請書兼申込書（台帳）",
+    "健康票と保育施設利用申込に関する同意・誓約書",
+    "本人確認書類のコピーと提出書類チェックリスト",
+    "個人番号（マイナンバー）提供書。有効期限は証明日より3か月以内",
+    "保育の必要性を証明する書類（就労証明書など保護者全員分）",
+    "世帯全員分のマイナンバーが確認できる書類のコピーと代表保護者の本人確認書類のコピー"
+  ],
+  "interview": "保健師が子どもの健康状態等を確認するため面接することがある。内定後に各施設で入所説明会を実施",
+  "ikukyu": "希望する保育所等に入所できない場合は、育児休業の延長を許容する",
+  "notes": [
+    "就労証明書など必要な書類の準備に時間がかかるので、早めに勤務先に依頼する",
+    "保育施設利用申込書には希望順位を記入する欄があり、事前の施設見学が勧められている",
+    "出産予定の方も申し込みを受け付けるが、令和9年2月3日までに出生することが条件。出生前申し込みには母子手帳のコピーが必要",
+    "令和8年度に待機児童となっている方は改めて新規申請をする必要があり、1次選考締め切り日の令和8年11月10日までに提出が必須"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.kawanishi.hyogo.jp/kurashi/kosodate/hoikusyo/1000644.html",
+      "quote": "令和9年4月（1月〜3月含む）入所・入園の申し込みを開始します。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.kawanishi.hyogo.jp/_res/projects/default_project/_page_/001/000/644/R9siori.pdf",
+      "quote": "（窓口配布：令和8年9月1日～）"
+    },
+    "firstApply": {
+      "url": "https://www.city.kawanishi.hyogo.jp/_res/projects/default_project/_page_/001/000/644/R9siori.pdf",
+      "quote": "１次募集申込期間 令和8年９月11日（金）～令和8年11月10日（火）午後５時必着"
+    },
+    "applyMethods": {
+      "url": "https://www.city.kawanishi.hyogo.jp/kurashi/kosodate/hoikusyo/1000644.html",
+      "quote": "申し込み書類提出先 川西市役所3階8番の入園所相談課 郵送での提出も可能です。郵便事故などには対応できませんので、特定記録などの記録が残る方法でのみ受け付けします。"
+    },
+    "firstResult": {
+      "url": "https://www.city.kawanishi.hyogo.jp/_res/projects/default_project/_page_/001/000/644/R9siori.pdf",
+      "quote": "選考結果は令和9年1月20日頃に、内定、不内定問わず文書で通知します。"
+    },
+    "secondApply": {
+      "url": "https://www.city.kawanishi.hyogo.jp/_res/projects/default_project/_page_/001/000/644/R9siori.pdf",
+      "quote": "２次募集申込期間 令和8年11月11日（水）～令和9年１月27日（水）午後５時必着"
+    },
+    "secondResult": {
+      "url": "https://www.city.kawanishi.hyogo.jp/_res/projects/default_project/_page_/001/000/644/R9siori.pdf",
+      "quote": "選考結果は令和9年２月20日頃に、内定、不内定問わず文書で通知します。"
+    },
+    "documents.0": {
+      "url": "https://www.city.kawanishi.hyogo.jp/_res/projects/default_project/_page_/001/000/644/R9siori.pdf",
+      "quote": "（１）認定申請書 兼 申込書（台帳）《すべての方が必須》"
+    },
+    "documents.1": {
+      "url": "https://www.city.kawanishi.hyogo.jp/_res/projects/default_project/_page_/001/000/644/R9siori.pdf",
+      "quote": "１．健康票 ２．保育施設利用申込に関する同意・誓約書"
+    },
+    "documents.2": {
+      "url": "https://www.city.kawanishi.hyogo.jp/_res/projects/default_project/_page_/001/000/644/R9siori.pdf",
+      "quote": "３．本人確認書類のコピー（窓口提出の場合は原本提示） ４．提出書類チェックリスト"
+    },
+    "documents.3": {
+      "url": "https://www.city.kawanishi.hyogo.jp/_res/projects/default_project/_page_/001/000/644/R9siori.pdf",
+      "quote": "５．個人番号（マイナンバー）提供書 ※個人番号が確認できる添付書類が必要"
+    },
+    "documents.4": {
+      "url": "https://www.city.kawanishi.hyogo.jp/_res/projects/default_project/_page_/001/000/644/R9siori.pdf",
+      "quote": "６．保育の必要性を証明する書類（下記表参照）※保護者全員分が必要"
+    },
+    "documents.5": {
+      "url": "https://www.city.kawanishi.hyogo.jp/kurashi/kosodate/hoikusyo/1000644.html",
+      "quote": "世帯全員分のマイナンバーが確認できる書類のコピー、代表保護者の本人確認書類のコピーが必要です。"
+    },
+    "interview": {
+      "url": "https://www.city.kawanishi.hyogo.jp/_res/projects/default_project/_page_/001/000/644/R9siori.pdf",
+      "quote": "お子様の健康状態等を確認するため、保健師が面接させていただくことがあります。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.kawanishi.hyogo.jp/_res/projects/default_project/_page_/001/000/644/R9siori.pdf",
+      "quote": "希望する保育所等に入所できない場合は、育児休業の延長も許容できる"
+    },
+    "notes.0": {
+      "url": "https://www.city.kawanishi.hyogo.jp/_res/projects/default_project/_page_/001/000/644/R9siori.pdf",
+      "quote": "就労証明書など、予め添付書類をご準備ください"
+    },
+    "notes.1": {
+      "url": "https://www.city.kawanishi.hyogo.jp/kurashi/kosodate/hoikusyo/1000644.html",
+      "quote": "必要書類が揃っていない場合、申し込みができませんのでご注意ください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.kawanishi.hyogo.jp/kurashi/kosodate/hoikusyo/1000644.html",
+      "quote": "令和9年2月3日までに出産予定の子どもを含む）で、住所が川西市にあるかた。"
+    },
+    "notes.3": {
+      "url": "https://www.city.kawanishi.hyogo.jp/kurashi/kosodate/hoikusyo/1000644.html",
+      "quote": "令和9年4月以降の入所選考を継続して希望する場合、改めて新規申請をする必要があります。"
+    }
+  },
+  "sources": [
+    {
+      "label": "川西市「認可保育施設への令和9年4月（1月〜3月含む）入所手続き」",
+      "url": "https://www.city.kawanishi.hyogo.jp/kurashi/kosodate/hoikusyo/1000644.html"
+    },
+    {
+      "label": "令和9年度入園入所のしおり",
+      "url": "https://www.city.kawanishi.hyogo.jp/_res/projects/default_project/_page_/001/000/644/R9siori.pdf"
+    }
+  ]
+}

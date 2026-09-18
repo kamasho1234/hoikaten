@@ -3,60 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "machida",
-    title: "町田市の保活スケジュール　申込から内定までの流れ",
-    description:
-      "町田市の認可保育園の申込時期・選考の流れをまとめました。令和8年度4月入園の動き方を解説します。",
-    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>町田市の4月入園スケジュール</h2>
-<p>町田市の認可保育園は毎年秋に翌年度4月入園の申込を受付けます。入園のしおりで制度を確認しましょう。</p>
-
-<h3>保活の全体スケジュール</h3>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content">
-<strong>4月〜6月：情報収集</strong>
-<p>まちだ子育てサイトで保育園の一覧や前年度のしおりを確認します。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content">
-<strong>6月〜9月：保育園見学</strong>
-<p>気になる園に連絡して見学を予約しましょう。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content">
-<strong>9月〜10月：入園のしおり入手・書類準備</strong>
-<p>最新のしおりを入手し、就労証明書などを準備します。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content">
-<strong>10月〜11月：申込書類の提出</strong>
-<p>子どもセンターまたは郵送で提出します。オンライン申請も利用できます。</p>
-</div>
-</div>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>町田市は基礎指数が父母各最大10点（合計20点満点）です。勤務日数と1日あたりの勤務時間の組み合わせで判定されます。</p>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://kosodate-machida.tokyo.jp/soshiki/4/3/nyuuen/hoiku/index.html" target="_blank" rel="noopener">まちだ子育てサイト</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-03-28",
-    popularity: 60,
-  },
-  {
     slug: "scoring-system-guide",
     citySlug: "machida",
     title: "町田市の入園点数のしくみ　基礎指数と調整指数を解説",
