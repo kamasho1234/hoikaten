@@ -10,3 +10,5 @@ import "./nyuen-shugaku";
 import "./teate-iryou";
 import "./ikukyu-shussan";
 import "./ichiji-azukari";
+import "./ichiji-azukari-tsukaikata";
+import "./kodomo-daredemo-tsuen";

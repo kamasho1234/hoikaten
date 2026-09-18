@@ -1,0 +1,132 @@
+{
+  "citySlug": "shizuoka",
+  "checkedAt": "2026-09-18",
+  "azukariPage": {
+    "label": "静岡市「市立こども園における一時預かり」",
+    "url": "https://www.city.shizuoka.lg.jp/s8493/s002050.html"
+  },
+  "azukariReasons": "保護者の週2〜3日程度の就労など（週3日以内）、保護者の病気・出産・冠婚葬祭など（連続14日以内）、保護者の育児疲れの解消など（月3日以内）",
+  "azukariRefresh": "育児疲れの解消などの理由で月3日以内",
+  "azukariLimit": "就労などは週3日以内、病気・出産・冠婚葬祭などは連続14日以内、育児疲れの解消などは月3日以内",
+  "azukariAges": "こども園等に通っていない子ども（料金の年齢区分は利用日の年度の4月1日時点。満3歳未満と満3歳以上で異なる）",
+  "azukariFees": [
+    "満3歳未満: 1回2,000円（使用料1,750円、給食・おやつ代250円）",
+    "満3歳以上: 1回1,030円（使用料780円、給食・おやつ代250円）",
+    "給食・おやつは利用日の前月12日までの申込で提供可。提供希望がなければ使用料のみ。当日に現金かキャッシュレス決済で支払う"
+  ],
+  "azukariRegistration": "希望する市立こども園へ電話で申し込み。利用前に一度来園して手続き。緊急で当日利用の場合は印鑑・母子手帳・使用料を持参",
+  "azukariBooking": "各月1日より次月の予約を受け付ける（1日が土日祝の場合は翌開園日）。希望するこども園へ電話申し込み（月～金、8時30分～17時）",
+  "azukariFacilities": "市立こども園で実施（区ごとの空き状況PDFを掲載）。私立園の一時預かりは各施設に直接問い合わせ",
+  "daredemoPage": {
+    "label": "静岡市「こども誰でも通園制度 利用のご案内」",
+    "url": "https://www.city.shizuoka.lg.jp/s4936/s012276.html"
+  },
+  "daredemoHours": "月10時間",
+  "daredemoFee": "受入施設により異なり、各施設に直接支払う。減免申請をすれば1時間あたり生活保護世帯は最大300円、非課税世帯と年収360万円未満相当の世帯は最大200円が減免される",
+  "daredemoAges": "利用日時点で生後6か月から満3歳未満",
+  "daredemoApply": "区ごとの専用オンラインフォームで利用認定申請。認定後、こども誰でも通園制度総合支援システムから初回面談の予約と利用予約",
+  "daredemoFacilities": "2026年4月1日時点で市内16施設（葵区7・駿河区5・清水区4）。私立園は追加があり次第更新",
+  "daredemoStatus": "2026年4月から実施。施設の受入体制により利用可能",
+  "notes": [
+    "こども園等に入園されているお子さんは原則一時預かりを利用できない（里帰り出産等特別な場合を除く）",
+    "一時預かり利用時の幼児教育・保育無償化対象は、保育の必要性認定を受けた場合に限定",
+    "こども誰でも通園制度は1時間単位で、30分のみの利用でも1時間としてカウント",
+    "当日キャンセルの場合、予約していた時間分が月の利用可能時間から差し引かれる"
+  ],
+  "evidence": {
+    "azukariReasons": {
+      "url": "https://www.city.shizuoka.lg.jp/s8493/s002050.html",
+      "quote": "保護者の週2～3日程度の就労など【週3日以内】 保護者の病気・出産・冠婚葬祭など【連続14日以内】 保護者の育児疲れの解消など【月3日以内】"
+    },
+    "azukariLimit": {
+      "url": "https://www.city.shizuoka.lg.jp/s8493/s002050.html",
+      "quote": "保護者の病気・出産・冠婚葬祭など【連続14日以内】 保護者の育児疲れの解消など【月3日以内】"
+    },
+    "azukariAges": {
+      "url": "https://www.city.shizuoka.lg.jp/s8493/s002050.html",
+      "quote": "静岡市では、市立こども園において、こども園等に通っていないお子さんを次のような場合に、一時的にお預かりする「一時預かり」を行っています。"
+    },
+    "azukariFees.0": {
+      "url": "https://www.city.shizuoka.lg.jp/s8493/s002050.html",
+      "quote": "満3歳未満のお子さん：1回2,000円（使用料：1,750円、給食・おやつ代：250円）"
+    },
+    "azukariFees.1": {
+      "url": "https://www.city.shizuoka.lg.jp/s8493/s002050.html",
+      "quote": "満3歳以上のお子さん：1回1,030円（使用料：780円、給食・おやつ代：250円）"
+    },
+    "azukariFees.2": {
+      "url": "https://www.city.shizuoka.lg.jp/s8493/s002050.html",
+      "quote": "利用する日の前月12日までに申込みされた場合は、給食・おやつの提供が可能です。 給食の提供希望がなければ使用料のみいただきます。 使用料は、利用日の当日にいただきます。現金または以下のキャッシュレス決済でお支払いください。"
+    },
+    "azukariRegistration": {
+      "url": "https://www.city.shizuoka.lg.jp/s8493/s002050.html",
+      "quote": "希望する市立こども園へ電話でお申込みください。（月曜日～金曜日の8時30分～17時00分）手続き等がありますので、利用前に一度ご来園ください。"
+    },
+    "azukariBooking": {
+      "url": "https://www.city.shizuoka.lg.jp/s8493/s002050.html",
+      "quote": "各月1日より次月の予約を受け付けます。（例9月1日に10月の予約受付開始）ただし、1日が土曜日・日曜日・祝日のときは、翌開園日（土曜日を除く）から受け付けます。希望する市立こども園へ電話でお申込みください。"
+    },
+    "azukariFacilities": {
+      "url": "https://www.city.shizuoka.lg.jp/s8493/s002050.html",
+      "quote": "実施している市立こども園は、施設一覧表（PDF：620KB）をご覧ください。私立園の「一時預かり」は、各施設に直接お問い合わせください。"
+    },
+    "daredemoHours": {
+      "url": "https://www.city.shizuoka.lg.jp/s4936/s012276.html",
+      "quote": "お子さん一人につき月10時間"
+    },
+    "daredemoFee": {
+      "url": "https://www.city.shizuoka.lg.jp/s4936/s012276.html",
+      "quote": "1時間あたり減免金額(最大) 生活保護世帯：300円 非課税世帯及び年収360万円未満相当の世帯：200円"
+    },
+    "daredemoAges": {
+      "url": "https://www.city.shizuoka.lg.jp/s4936/s012276.html",
+      "quote": "利用日時点で生後6か月から満3歳未満のお子さん"
+    },
+    "daredemoApply": {
+      "url": "https://www.city.shizuoka.lg.jp/s4936/s012276.html",
+      "quote": "事業の対象となるお子さんであるかを確認するため、利用開始日より前に利用認定申請を行ってください。お住まいの区ごとに、専用の申請フォームから申請してください。"
+    },
+    "daredemoFacilities": {
+      "url": "https://www.city.shizuoka.lg.jp/s4936/s012276.html",
+      "quote": "2026年4月1日時点で、市内のこども園など16施設で実施します。 私立園については、追加があり次第、情報を更新します。 葵区(7施設)（PDF：270KB） 駿河区(5施設)（PDF：255KB） 清水区(4施設)（PDF：254KB）"
+    },
+    "daredemoStatus": {
+      "url": "https://www.city.shizuoka.lg.jp/s4936/s012276.html",
+      "quote": "施設の受入体制が整っている場合に限り利用できます。その日の予約状況や施設に配置されている職員数などにより、ご希望の日に利用できない場合があります。"
+    },
+    "notes.0": {
+      "url": "https://www.city.shizuoka.lg.jp/s8493/s002050.html",
+      "quote": "こども園等に入園されているお子さんは原則お預かりできません。（里帰り出産や保護者の入院等、特別な場合は除く。）"
+    },
+    "notes.1": {
+      "url": "https://www.city.shizuoka.lg.jp/s8493/s002050.html",
+      "quote": "令和元年10月1日からの幼児教育・保育の無償化により、利用前に保育の必要性の認定を受けていれば、使用料が無償化（償還払い）の対象となる場合があります。"
+    },
+    "notes.2": {
+      "url": "https://www.city.shizuoka.lg.jp/s4936/s012276.html",
+      "quote": "利用は1時間単位とし、1か月あたりの利用上限は10時間です。30分のみの利用であっても、1時間利用したものとしてカウントします。"
+    },
+    "notes.3": {
+      "url": "https://www.city.shizuoka.lg.jp/s4936/s012276.html",
+      "quote": "当日キャンセルの場合は、利用予定時間分が月の利用上限時間から差し引かれます。"
+    },
+    "azukariRefresh": {
+      "url": "https://www.city.shizuoka.lg.jp/s8493/s002050.html",
+      "quote": "保護者の育児疲れの解消など【月3日以内】"
+    }
+  },
+  "sources": [
+    {
+      "label": "静岡市「市立こども園における一時預かり」",
+      "url": "https://www.city.shizuoka.lg.jp/s8493/s002050.html"
+    },
+    {
+      "label": "静岡市「こども誰でも通園制度 利用のご案内」",
+      "url": "https://www.city.shizuoka.lg.jp/s4936/s012276.html"
+    },
+    {
+      "label": "静岡市「子育て支援」",
+      "url": "https://www.city.shizuoka.lg.jp/p000037.html"
+    }
+  ]
+}

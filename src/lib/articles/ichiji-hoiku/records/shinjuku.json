@@ -1,0 +1,132 @@
+{
+  "citySlug": "shinjuku",
+  "checkedAt": "2026-09-18",
+  "azukariPage": {
+    "label": "新宿区「認可保育園・認定こども園等の一時保育」",
+    "url": "https://www.city.shinjuku.lg.jp/kodomo/file04_07_00019.html"
+  },
+  "azukariReasons": "理由にかかわらず、一時的にお子さんの保育が必要な時にお預かりします。",
+  "azukariLimit": "区立園の専用室型は月7日以内（抽選は4日まで申込可）。緊急一時保育は1か月以内で必要な日数。ひろば型一時保育は1日最大4時間。私立園は施設により異なる",
+  "azukariAges": "区内在住で生後6か月以上の集団保育が可能な子ども（認可保育園・認定こども園等の在籍児は不可、幼稚園児は園の休業日のみ）。ひろば型一時保育は生後6か月から就学前",
+  "azukariFees": [
+    "区立認可保育園・認定こども園（専用室型）: 2,300円/日（食材料費300円含む）",
+    "私立認可保育園等: 保育料の額と支払方法は園によって異なる",
+    "ひろば型一時保育: 最初の1時間950円、以後30分ごとに350円（30分未満は切り上げ）"
+  ],
+  "azukariReduction": "生活保護世帯の保育料は無料です。",
+  "azukariRegistration": "事前の利用者登録が必要です。「ミチシルベ」でアカウント作成及び登録のための面談予約をしてください。面談にはお子さんと一緒に来園し、乳幼児医療証をご持参ください。",
+  "azukariBooking": "区立園の専用室型は「ミチシルベ」で利用希望月の前月1日9:15〜5日13:00に抽選申込（結果は締切2日後）、抽選後の空きは先着順。空き利用型は前月25日から利用希望日の3日前まで先着順。私立園は各実施園に問い合わせ。ひろば型は各施設に予約",
+  "azukariFacilities": "区立園の専用室型は富久町保育園・弁天町保育園。私立の専用室型・空き利用型の実施園もある。ひろば型一時保育は子ども総合センター、榎町・中落合子ども家庭支援センター、地域子育て支援センター二葉で実施",
+  "daredemoPage": {
+    "label": "新宿区「新宿区乳児等通園支援事業（認可保育園・認定こども園）」",
+    "url": "https://www.city.shinjuku.lg.jp/kodomo/kodomok01_000001_00025.html"
+  },
+  "daredemoHours": "月〜金のうち原則週2日または週3日の定期利用で、利用時間は午前9時〜午後5時の原則8時間（東京都の上乗せ事業を活用し、国の上限月10時間を超える対応）",
+  "daredemoFee": "無償（給食費を含む）。無償は区内在住者のみで、区外在住者は各実施園が設定した料金。行事等の費用が別途かかる場合がある",
+  "daredemoAges": "認可保育所・幼稚園・認定こども園・地域型保育事業・企業主導型保育事業所に在籍していない、生後6か月から年度末年齢満3歳の集団での預かりが可能な子ども",
+  "daredemoApply": "申請フォームで乳児等支援給付認定を区に申請（区内在住者のみ、認定まで2週間程度）。認定後につうえんポータルのアカウントが発行され、ログインして利用を希望する園に直接申し込み、事前面談・健康診断を経て利用開始",
+  "daredemoFacilities": "区立・私立の認可保育園・認定こども園（幼稚園は別ページ）。保育園・こども園の利用は子ども1人につき1園まで。空き定員が出た園はつうえんポータルで随時案内",
+  "daredemoStatus": "令和8年度は利用開始日から令和9年3月31日まで。利用期間中の曜日変更は原則不可。利用内定者は園の面談を受けてから正式決定",
+  "notes": [
+    "一時保育は認可保育園・認定こども園等に在籍している場合は利用できない。幼稚園在籍児は園の休業日のみ利用でき、在籍園で休業日に預かり保育を使える場合は除く",
+    "ひろば型一時保育は午前9時〜午後5時の利用時間で、食事やおやつの持参も可能",
+    "緊急一時保育は保護者の死亡・入院、家族の看護、災害復旧、裁判員選任の場合に1か月を限度に預かる（裁判員の場合は保育料無料）",
+    "乳児等通園支援事業は職員体制上安全に預かることが難しい場合、利用開始が遅れたり利用できないことがある。医療的ケア児も条件付きで対象"
+  ],
+  "evidence": {
+    "azukariReasons": {
+      "url": "https://www.city.shinjuku.lg.jp/kodomo/file04_07_00019.html",
+      "quote": "『一時保育』は、理由にかかわらず一時的にお子さんの保育が必要な時にお預かりする制度です。"
+    },
+    "azukariLimit": {
+      "url": "https://www.city.shinjuku.lg.jp/kodomo/file03_02_00005.html",
+      "quote": "上記の利用時間内で、最大4時間まで利用できます。"
+    },
+    "azukariAges": {
+      "url": "https://www.city.shinjuku.lg.jp/kodomo/file03_02_00005.html",
+      "quote": "区内在住で、生後 6 ヶ月から就学前の健康なお子さんです。"
+    },
+    "azukariFees.0": {
+      "url": "https://www.city.shinjuku.lg.jp/content/000447000.pdf",
+      "quote": "保 育 料 2，３００円/日（食材料費３００円含む）"
+    },
+    "azukariFees.2": {
+      "url": "https://www.city.shinjuku.lg.jp/kodomo/file03_02_00005.html",
+      "quote": "最初の1時間は「950 円」、以後 30 分ごとに「350 円」（30 分未満は、切り上げ）"
+    },
+    "azukariReduction": {
+      "url": "https://www.city.shinjuku.lg.jp/kodomo/file04_07_00019.html",
+      "quote": "なお、生活保護世帯の保育料は無料です。"
+    },
+    "azukariFees.1": {
+      "url": "https://www.city.shinjuku.lg.jp/kodomo/file04_07_00019.html",
+      "quote": "保育料の額、支払方法は、園によって異なります。なお、生活保護世帯の保育料は無料です。"
+    },
+    "azukariRegistration": {
+      "url": "https://www.city.shinjuku.lg.jp/kodomo/file04_07_00019.html",
+      "quote": "事前の利用者登録が必要です。「ミチシルベ」でアカウント作成及び登録のための面談予約をしてください。"
+    },
+    "azukariBooking": {
+      "url": "https://www.city.shinjuku.lg.jp/kodomo/file04_07_00019.html",
+      "quote": "利用希望日の前月25日（土・日・祝日の場合は翌平日）9:15から利用希望日の3日前（土・日・祝日・年末年始を除く）13:00まで先着順で受け付けます。"
+    },
+    "azukariFacilities": {
+      "url": "https://www.city.shinjuku.lg.jp/kodomo/file03_02_00005.html",
+      "quote": "「ひろば型一時保育」は、子ども総合センター、榎町子ども家庭支援センター、中落合子ども家庭支援センター、地域子育て支援センター二葉で行っております。"
+    },
+    "daredemoAges": {
+      "url": "https://www.city.shinjuku.lg.jp/kodomo/kodomok01_000001_00025.html",
+      "quote": "企業主導型保育事業所に在籍していない、生後6か月から年度末年齢満3歳の集団での預かりが可能なお子さん"
+    },
+    "daredemoFee": {
+      "url": "https://www.city.shinjuku.lg.jp/kodomo/kodomok01_000001_00025.html",
+      "quote": "無償（給食費を含む） ※無償となるのは区内在住の方のみです。区外在住の方は各実施園で設定した料金がかかります。"
+    },
+    "daredemoApply": {
+      "url": "https://www.city.shinjuku.lg.jp/kodomo/kodomok01_000001_00025.html",
+      "quote": "※区内在住の方が申請できます。区外在住の方は、お住まいの自治体へお問合せください。 ※申請から認定までに2週間程度かかります。"
+    },
+    "daredemoStatus": {
+      "url": "https://www.city.shinjuku.lg.jp/kodomo/kodomok01_000001_00025.html",
+      "quote": "原則、利用開始日から 年度末までの預かりです。（令和8年度は令和9年3月31日まで）"
+    },
+    "notes.0": {
+      "url": "https://www.city.shinjuku.lg.jp/content/000447000.pdf",
+      "quote": "認可保育園・認定こども園等に在籍している場合は、利用できません。"
+    },
+    "notes.1": {
+      "url": "https://www.city.shinjuku.lg.jp/kodomo/file03_02_00005.html",
+      "quote": "ひろば型一時保育は午前9時～午後5時までの利用時間で行っております。また、食事やおやつの持参も可能です。"
+    },
+    "daredemoHours": {
+      "url": "https://www.city.shinjuku.lg.jp/kodomo/kodomok01_000001_00025.html",
+      "quote": "月曜日～金曜日のうち、原則、週2日又は週3日の定期利用です。"
+    },
+    "daredemoFacilities": {
+      "url": "https://www.city.shinjuku.lg.jp/kodomo/kodomok01_000001_00025.html",
+      "quote": "保育園及び子ども園の利用については、お子さん1人につき1園までの利用としていますが、空き定員利用に係る申込みについては、複数園への申込みを可能とします。"
+    },
+    "notes.2": {
+      "url": "https://www.city.shinjuku.lg.jp/kodomo/file04_07_00019.html",
+      "quote": "お子さんを養育する人がいないため、緊急に保育が必要な場合に、1ゕ月を限度に必要に応じてお子さんをお預かりします。"
+    },
+    "notes.3": {
+      "url": "https://www.city.shinjuku.lg.jp/kodomo/kodomok01_000001_00025.html",
+      "quote": "職員体制上、お子さんを安全にお預かりすることが難しい場合は、利用開始が遅れる、または利用できないことがあります。"
+    }
+  },
+  "sources": [
+    {
+      "label": "新宿区「認可保育園・認定こども園等の一時保育」",
+      "url": "https://www.city.shinjuku.lg.jp/kodomo/file04_07_00019.html"
+    },
+    {
+      "label": "新宿区「ひろば型一時保育」",
+      "url": "https://www.city.shinjuku.lg.jp/kodomo/file03_02_00005.html"
+    },
+    {
+      "label": "新宿区「新宿区乳児等通園支援事業（認可保育園・認定こども園）」",
+      "url": "https://www.city.shinjuku.lg.jp/kodomo/kodomok01_000001_00025.html"
+    }
+  ]
+}

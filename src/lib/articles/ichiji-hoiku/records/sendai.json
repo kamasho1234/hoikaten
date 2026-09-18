@@ -1,0 +1,132 @@
+{
+  "citySlug": "sendai",
+  "checkedAt": "2026-09-18",
+  "azukariPage": {
+    "label": "仙台市「保育所等の一時預かり」",
+    "url": "https://www.city.sendai.jp/kodomo-kankyosebi/kurashi/kenkotofukushi/kosodate/azukari/azukari/hoikujonado.html"
+  },
+  "azukariReasons": "保護者がパート勤務、就労のための技能習得、就学などにより月64時間未満を限度として断続的に保育が必要な場合（非定型的保育）、傷病・災害・事故・出産・看護・介護・冠婚葬祭・裁判員制度など社会的にやむを得ない理由により緊急かつ一時的に保育が必要な場合（緊急保育）、育児に伴う心理的・肉体的負担を解消するなどの私的理由により一時的に保育が必要な場合（私的理由による保育）、就労などにより月64時間以上保育が必要となる場合（継続的利用）",
+  "azukariRefresh": "私的理由による保育サービスがあり、育児に伴う心理的・肉体的負担を解消するなど保護者のリフレッシュを目的とした利用が可能。利用は週3日を限度とする",
+  "azukariLimit": "非定型的保育は月64時間未満、緊急保育は2週間を限度、私的理由による保育は週3日を限度",
+  "azukariAges": "仙台市に居住し、原則として保育所の入所の対象とならない健康な就学前のお子さん。施設により受入月齢が異なる",
+  "azukariFees": [
+    "3歳未満児は日額2,400円（半日利用の場合は1,200円）、3歳以上児は日額1,200円（半日利用の場合は600円）。給食費は日額300円",
+    "生活保護世帯及び市町村民税非課税世帯は無料"
+  ],
+  "azukariReduction": "生活保護世帯及び市町村民税非課税世帯は利用料が無料。所定の要件に該当する場合は、幼児教育・保育の無償化や第2子以降の無償化の対象となる",
+  "azukariRegistration": "公立保育所用の申請書（一時預かり事業利用申請書、健康状態等調書、勤務証明書、事業状況申告書）を提出。提出書類は利用する内容によって異なり、私立保育所等は各施設に直接相談",
+  "azukariBooking": "実施施設へご相談いただく。相談の受付時間は原則として午前8時30分から午後5時までで、来園前に電話でご連絡が必要",
+  "daredemoPage": {
+    "label": "仙台市「こども誰でも通園制度（乳児等通園支援事業）を実施しています」",
+    "url": "https://www.city.sendai.jp/kodomo-kankyosebi/kodomodaredemo/tsuen.html"
+  },
+  "daredemoHours": "実施施設において月10時間以内。月10時間を超えて預かりを希望する場合は一時預かり事業に申し込める（予約制のため希望どおりとは限らない）",
+  "daredemoFee": "お子さん1人1時間あたり標準300円。実施事業所が定めた利用料のほか食費などの実費を負担。生活保護世帯と市町村民税所得割合算額77,101円未満の世帯は減免（別途申請）",
+  "daredemoAges": "仙台市内在住の生後6か月から満3歳未満（3歳の誕生日の前々日）までで、教育・保育施設・地域型保育事業・企業主導型保育事業を利用していない子ども",
+  "daredemoApply": "つうえんポータルの電子申請フォームで乳児等支援給付認定を申請（毎月15日までの申請は翌月1日から、末日までは翌月16日から有効）。認定後にログインIDが発行され、システムで事業所を検索して初回面談を申し込み、受入確定後に利用できる。利用開始日の30日前から予約可",
+  "daredemoFacilities": "区ごとの実施事業所（実施曜日・預かり時間）をページに掲載（令和8年7月27日時点）。受入可能年齢は各事業所に問い合わせ",
+  "daredemoStatus": "令和8年4月からの利用には乳児等支援給付認定が必要。令和8年9月1日から認定こども園ふくだまち幼稚園が預かり開始。認定を受けた時点で利用する施設が決まるものではなく、受入可否は各施設の状況による",
+  "notes": [
+    "一時預かりは施設により受入月齢が異なるため、利用予定の施設に直接問い合わせる",
+    "一時預かりの利用定員は施設ごとに異なる",
+    "公立保育所ではキャッシュレス決済、その他の施設では各施設の定める支払方法で利用料を負担",
+    "多胎児を育てる家庭は、パンフレット掲載の5施設で緊急保育と私的利用の場合、子どもの人数にかかわらず1名分の料金で利用できる",
+    "誰でも通園制度の減免判定に使う市町村民税は4〜8月分が前年度、9〜翌3月分が当年度"
+  ],
+  "evidence": {
+    "azukariReasons": {
+      "url": "https://www.city.sendai.jp/kodomo-kankyosebi/kurashi/kenkotofukushi/kosodate/azukari/azukari/hoikujonado.html",
+      "quote": "保護者が,パート勤務,傷病,冠婚葬祭,その他私的理由などにより,一時的にお子さんの保育ができないとき,また就労などにより月64時間以上お子さんの保育ができないときに,以下の実施施設でお子さんをお預かりします。"
+    },
+    "azukariRefresh": {
+      "url": "https://www.city.sendai.jp/kodomo-kankyosebi/kurashi/kenkotofukushi/kosodate/azukari/azukari/hoikujonado.html",
+      "quote": "保護者の育児に伴う心理的・肉体的負担を解消するなどの私的理由により,一時的に保育が必要となるお子さん（週3日を限度とします）"
+    },
+    "azukariLimit": {
+      "url": "https://www.city.sendai.jp/kodomo-kankyosebi/kurashi/kenkotofukushi/kosodate/azukari/azukari/hoikujonado.html",
+      "quote": "保護者の就労,職業訓練,就学などにより,月64時間未満を限度として断続的に保育が必要となるお子さん"
+    },
+    "azukariAges": {
+      "url": "https://www.city.sendai.jp/kodomo-kankyosebi/kurashi/kenkotofukushi/kosodate/azukari/azukari/hoikujonado.html",
+      "quote": "仙台市に居住し,原則として保育所の入所の対象とならない健康な就学前のお子さんが利用できます。"
+    },
+    "azukariFees.0": {
+      "url": "https://www.city.sendai.jp/kodomo-kankyosebi/kurashi/kenkotofukushi/kosodate/azukari/azukari/hoikujonado.html",
+      "quote": "3歳未満児　日額2,400円（半日利用の場合は1,200円）　3歳以上児　日額1,200円（半日利用の場合は600円）　給食費　日額300円"
+    },
+    "azukariFees.1": {
+      "url": "https://www.city.sendai.jp/kodomo-kankyosebi/kurashi/kenkotofukushi/kosodate/azukari/azukari/hoikujonado.html",
+      "quote": "生活保護世帯及び市町村民税非課税世帯は無料となります。"
+    },
+    "azukariReduction": {
+      "url": "https://www.city.sendai.jp/kodomo-kankyosebi/kurashi/kenkotofukushi/kosodate/azukari/azukari/hoikujonado.html",
+      "quote": "所定の要件に該当する場合は,一時預かりの利用料が幼児教育・保育の無償化や第2子以降の無償化の対象となります。"
+    },
+    "azukariRegistration": {
+      "url": "https://www.city.sendai.jp/kodomo-kankyosebi/kurashi/kenkotofukushi/kosodate/azukari/azukari/hoikujonado.html",
+      "quote": "公立保育所用の書類です。利用する内容によって提出書類が異なりますので、詳しくは利用予定の保育所にお問い合わせください。私立保育所等の申し込み関係書類は各施設へ直接お問い合わせください。"
+    },
+    "azukariBooking": {
+      "url": "https://www.city.sendai.jp/kodomo-kankyosebi/kurashi/kenkotofukushi/kosodate/azukari/azukari/hoikujonado.html",
+      "quote": "原則として,午前8時30分から午後5時までとなります。実施施設に来られる前に電話でご連絡ください。"
+    },
+    "daredemoHours": {
+      "url": "https://www.city.sendai.jp/kodomo-kankyosebi/kodomodaredemo/tsuen.html",
+      "quote": "仙台市では、実施施設において月10時間以内の預かりを行っています。"
+    },
+    "daredemoFee": {
+      "url": "https://www.city.sendai.jp/kodomo-kankyosebi/kodomodaredemo/tsuen.html",
+      "quote": "お子さん1人1時間あたり標準300円 ※実施事業所において定めた利用料のほか、食費などの実費をご負担いただきます。"
+    },
+    "daredemoAges": {
+      "url": "https://www.city.sendai.jp/nintechosa/kurashi/kenkotofukushi/kosodate/nintei.html",
+      "quote": "仙台市内にお住まいの、生後6か月から満3歳未満（3歳の誕生日の前々日）までのお子さん"
+    },
+    "daredemoApply": {
+      "url": "https://www.city.sendai.jp/nintechosa/kurashi/kenkotofukushi/kosodate/nintei.html",
+      "quote": "※ 令和8年4月利用分を除き、利用開始日の30日前から予約が可能となります。"
+    },
+    "daredemoStatus": {
+      "url": "https://www.city.sendai.jp/kodomo-kankyosebi/kodomodaredemo/tsuen.html",
+      "quote": "※令和8年9月1日から「認定こども園ふくだまち幼稚園」が預かり開始となります。令和8年8月3日（月曜日）より利用申込の受付を開始いたします。"
+    },
+    "notes.0": {
+      "url": "https://www.city.sendai.jp/kodomo-kankyosebi/kurashi/kenkotofukushi/kosodate/azukari/azukari/hoikujonado.html",
+      "quote": "実施施設により受入月齢が異なります。"
+    },
+    "notes.1": {
+      "url": "https://www.city.sendai.jp/kodomo-kankyosebi/kurashi/kenkotofukushi/kosodate/azukari/azukari/hoikujonado.html",
+      "quote": "実施施設により利用定員が異なります。詳しくは,実施施設へお問い合わせください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.sendai.jp/kodomo-kankyosebi/kurashi/kenkotofukushi/kosodate/azukari/azukari/hoikujonado.html",
+      "quote": "実施施設のうち,仙台市公立保育所では利用時にキャッシュレス決済により負担していただきます。その他の実施施設では各施設の定める支払方法にて負担していただきます。"
+    },
+    "notes.3": {
+      "url": "https://www.city.sendai.jp/kodomo-kankyosebi/kurashi/kenkotofukushi/kosodate/azukari/azukari/hoikujonado.html",
+      "quote": "以下パンフレットに掲載の5施設では,多胎児を育てるご家庭は,緊急保育サービスおよび私的利用による保育サービスでのご利用の場合,お子さんの人数にかかわらず1名分の料金で利用可能となっています。"
+    },
+    "daredemoFacilities": {
+      "url": "https://www.city.sendai.jp/kodomo-kankyosebi/kodomodaredemo/tsuen.html",
+      "quote": "※実施曜日及び預かり時間は令和8年7月27日時点の情報です。今後変更となる場合があります。"
+    },
+    "notes.4": {
+      "url": "https://www.city.sendai.jp/nintechosa/kurashi/kenkotofukushi/kosodate/nintei.html",
+      "quote": "・4～8月分：前年度の市町村民税（前々年1～12月収入分） ・9～翌3月分：当年度の市町村民税（前年1～12月収入分）"
+    }
+  },
+  "sources": [
+    {
+      "label": "仙台市「保育所等の一時預かり」",
+      "url": "https://www.city.sendai.jp/kodomo-kankyosebi/kurashi/kenkotofukushi/kosodate/azukari/azukari/hoikujonado.html"
+    },
+    {
+      "label": "仙台市「こども誰でも通園制度（乳児等通園支援事業）を実施しています」",
+      "url": "https://www.city.sendai.jp/kodomo-kankyosebi/kodomodaredemo/tsuen.html"
+    },
+    {
+      "label": "仙台市「こども誰でも通園制度（乳児等通園支援事業）の利用にかかる認定について」",
+      "url": "https://www.city.sendai.jp/nintechosa/kurashi/kenkotofukushi/kosodate/nintei.html"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "citySlug": "chiba",
+  "checkedAt": "2026-09-18",
+  "azukariPage": {
+    "label": "千葉市「一時預かり事業のご案内（保育）」",
+    "url": "https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/itijiazukari.html"
+  },
+  "azukariReasons": "定期利用は、就労・通学・職業訓練等により家庭での保育が1月あたり32時間以上困難な場合。不定期利用は、育児疲れ・育児不安、疾病・入院・出産・けが、看護・介護、災害・事故、冠婚葬祭・公的行事への参加、裁判員等により一時的に困難な場合",
+  "azukariRefresh": "育児疲れ・育児不安は不定期利用の理由になる（1月あたり7日まで）",
+  "azukariLimit": "定期利用は週2日または3日の特定の曜日（1人1園まで）。不定期利用は1月あたり7日まで",
+  "azukariAges": "主として保育所等に在籍していない、生後3か月から小学校就学前までの千葉市在住の児童（受入れ年齢は実施園により異なる）。一部の施設では四街道市・市原市の児童も利用可",
+  "azukariFees": [
+    "定期利用（月額）: 3歳未満児は週2日18,300円・週3日26,100円、3歳以上児は週2日9,400円・週3日13,500円。延長利用は月額3,000円（3歳以上児1,900円）",
+    "不定期利用（日額）: 3歳未満児は1日2,200円・半日1,100円、3歳以上児は1日1,200円・半日600円",
+    "公立保育所で3歳以上児の主食提供を希望する場合は加算（不定期利用は1回50円、定期利用は週2日月額400円・週3日月額600円）。3歳未満児は完全給食のため主食の料金はかからない"
+  ],
+  "azukariReduction": "3歳以上児と3歳未満児の住民税非課税世帯は、「保育の必要性の認定」を受けている場合に無償化の対象。食材料費は対象外",
+  "azukariRegistration": "申込書類（利用申請書・児童調査票、定期利用は就労証明書等）は実施施設にある。申込時に母子手帳と資格確認書等を持参。事前面談や登録が必要な施設がある",
+  "azukariBooking": "実施施設に直接申し込む。令和8年度4月からの定期利用は3月2日〜12日に一斉申込（終了）で、以後は定員に空きがあれば随時受付。不定期利用は随時",
+  "azukariFacilities": "一般型（基幹型を含む。専用の部屋で定期・不定期を受け入れ）と余裕活用型（空き枠で不定期のみ）があり、実施施設一覧はページの検索とPDFで確認できる。基幹型は1月1〜3日を除く祝日等も実施",
+  "daredemoPage": {
+    "label": "千葉市「乳児等通園支援事業（こども誰でも通園制度）について」",
+    "url": "https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/r8daretuu.html"
+  },
+  "daredemoHours": "月10時間まで（1回につき1時間以上、30分単位。翌月以降への繰り越し不可）",
+  "daredemoFee": "千葉市内の実施施設を利用する場合、1時間あたり一般世帯300円、市町村民税所得割合算額77,101円未満の世帯・要支援児童のいる世帯100円、生活保護世帯0円。市外の施設は各施設が定める料金",
+  "daredemoAges": "生後6か月から満3歳未満で、保育所・認定こども園・幼稚園等に在籍していない子ども（企業主導型以外の認可外保育施設の利用者は対象）",
+  "daredemoApply": "千葉市在住者が利用認定申請フォームから申請。認定後にこども誰でも通園制度総合支援システムのアカウントが発行され（申請からおおむね2週間）、システムから施設へ初回面談を申し込み、面談後に利用予約をする",
+  "daredemoFacilities": "市内19施設（中央区3・花見川区1・稲毛区3・若葉区3・緑区4・美浜区5）。住んでいる区に関係なく市内の実施施設を利用できる",
+  "daredemoStatus": "施設の受入体制等により希望どおりに利用できない場合がある。利用当日は施設の二次元コードで利用開始・終了の打刻をする",
+  "notes": [
+    "一時預かりは、年齢ごとの利用児童数に応じた保育士の配置が必要で申込も多いため、希望に応えられない場合がある",
+    "不定期利用の半日利用は8時〜12時30分または12時30分〜17時のいずれかの時間内での利用",
+    "不定期利用の延長は原則なし。保護者が裁判員またはその候補者に選任された場合のみ18時まで利用できる（延長料金なし）",
+    "誰でも通園制度は生後6か月未満でも認定申請はできるが、利用開始は生後6か月以降。利用月の途中で負担軽減対象や生活保護世帯に該当した場合は認定変更届が必要"
+  ],
+  "evidence": {
+    "azukariReasons": {
+      "url": "https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/itijiazukari.html",
+      "quote": "育児疲れ・育児不安、疾病・入院・出産・けが、看護・介護、災害・事故、冠婚葬祭・学校等における公的行事への参加、裁判員またはその候補者への選任等により、家庭における保育が一時的に困難となった場合です。"
+    },
+    "azukariLimit": {
+      "url": "https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/itijiazukari.html",
+      "quote": "週2日または3日の 特定の曜日 不定期利用 育児疲れ、入院、病気、介護、裁判員等により、家庭での保育が一時的に困難 1月あたり7日まで"
+    },
+    "azukariAges": {
+      "url": "https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/itijiazukari.html",
+      "quote": "一部の施設では四街道市・市原市にお住まいの児童も利用可。"
+    },
+    "azukariFees.0": {
+      "url": "https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/itijiazukari.html",
+      "quote": "週2日利用 18,300円 9,400円 週3日利用 26,100円 13,500円 延長利用（※2） 3,000円 1,900円"
+    },
+    "azukariFees.1": {
+      "url": "https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/itijiazukari.html",
+      "quote": "一日利用 2,200円 1,200円 半日利用（※2） 1,100円 600円"
+    },
+    "azukariBooking": {
+      "url": "https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/itijiazukari.html",
+      "quote": "一斉申込の期間以降、定員に空きがある場合は随時受け付けますので、希望する施設へお問い合わせください。"
+    },
+    "azukariFacilities": {
+      "url": "https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/itijiazukari.html",
+      "quote": "「一般型」のうち「基幹型」施設では、1月1日から1月3日を除く祝日等においても一時預かりを実施しています。"
+    },
+    "daredemoHours": {
+      "url": "https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/r8daretuu.html",
+      "quote": "利用は 1回につき1時間以上 、 30分単位 で利用できます。 ※利用しなかった時間を 翌月以降へ繰り越すことはできません。"
+    },
+    "daredemoAges": {
+      "url": "https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/r8daretuu.html",
+      "quote": "企業主導型保育施設以外の 認可外保育施設 を利用している場合"
+    },
+    "daredemoFee": {
+      "url": "https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/r8daretuu.html",
+      "quote": "一般世帯 300円 市町村民税所得割合算額77,101円未満の世帯 要支援児童のいる世帯 100円 生活保護世帯 0円"
+    },
+    "daredemoApply": {
+      "url": "https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/r8daretuu.html",
+      "quote": "アカウント発行には申請からおおむね2週間程度かかります ので、利用を希望する場合は、余裕をもって申請してください。"
+    },
+    "azukariRefresh": {
+      "url": "https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/itijiazukari.html",
+      "quote": "育児疲れ、入院、病気、介護、裁判員等により、家庭での保育が一時的に困難 1月あたり7日まで"
+    },
+    "azukariFees.2": {
+      "url": "https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/itijiazukari.html",
+      "quote": "3歳以上児の主食については、土曜日を除き、希望者に提供します。別途、1回あたり50円の料金がかかります。"
+    },
+    "azukariReduction": {
+      "url": "https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/itijiazukari.html",
+      "quote": "3歳以上児と3歳未満児の住民税非課税世帯は、「保育の必要性の認定」を受けている場合無償化の対象となります。 食材料費は無償化対象外です"
+    },
+    "azukariRegistration": {
+      "url": "https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/itijiazukari.html",
+      "quote": "事前面談や登録が必要な施設があります。詳細は実施施設にお問い合わせください"
+    },
+    "daredemoFacilities": {
+      "url": "https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/r8daretuu.html",
+      "quote": "※お住まいの区に関係なく、千葉市内の実施施設を利用できます。 中央区（3施設）"
+    },
+    "daredemoStatus": {
+      "url": "https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/r8daretuu.html",
+      "quote": "利用当日は、施設に設置されている二次元コードを読み取り、システムで利用開始・利用終了の打刻を行ってください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/itijiazukari.html",
+      "quote": "年齢ごとの利用児童数に応じた保育士の配置が必要であること、多くの方にお申込みいただいていることから、ご希望にお応えできない場合がございます"
+    },
+    "notes.1": {
+      "url": "https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/itijiazukari.html",
+      "quote": "半日利用は8時00分～12時30分または12時30分～17時00分のいずれかの時間内における利用。"
+    },
+    "notes.2": {
+      "url": "https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/itijiazukari.html",
+      "quote": "保護者が裁判員またはその候補者に選任された場合のみ18時00分まで利用可。（この場合は延長料金はかかりません。）"
+    },
+    "notes.3": {
+      "url": "https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/r8daretuu.html",
+      "quote": "生後6か月未満でも利用認定の申請は可能です。 ただし、 利用開始日は生後6か月以降 となります。"
+    }
+  },
+  "sources": [
+    {
+      "label": "千葉市「一時預かり事業のご案内（保育）」",
+      "url": "https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/itijiazukari.html"
+    },
+    {
+      "label": "千葉市「乳児等通園支援事業（こども誰でも通園制度）について」",
+      "url": "https://www.city.chiba.jp/kodomomirai/yojikyoiku/unei/r8daretuu.html"
+    }
+  ]
+}

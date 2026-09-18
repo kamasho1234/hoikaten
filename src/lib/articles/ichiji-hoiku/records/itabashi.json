@@ -1,0 +1,132 @@
+{
+  "citySlug": "itabashi",
+  "checkedAt": "2026-09-18",
+  "azukariPage": {
+    "label": "板橋区「一時保育」",
+    "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ichiji/1004448.html"
+  },
+  "azukariReasons": "私立保育園等は育児疲れ、入院、冠婚葬祭、家族の介護などで保育できないとき。区立赤塚・向原保育園は、リフレッシュ、ボランティア・裁判員、通院・入院・出産、冠婚葬祭、就職活動、その他家庭での保育が困難な場合",
+  "azukariRefresh": "区立保育園の一時保育は「一時的に育児を離れ、買物などで外出しリフレッシュしたいとき」に使える",
+  "azukariAges": "区立保育園は区内在住の生後6か月から就学前で、認可保育施設・認定こども園（保育枠）・企業主導型保育施設等に在籍していない健康な子ども（病児・病後児は不可）。私立保育園等は施設ごとに異なる",
+  "azukariFees": [
+    "私立保育園・小規模保育園等: 保育年齢・保育時間・利用料金は各施設によって異なる（区を介さないため施設に直接問い合わせ）",
+    "区立赤塚保育園・向原保育園: 1時間あたり600円。給食を提供する場合は別に1食450円（給食料金は無償化の対象外）"
+  ],
+  "azukariReduction": "一時保育利用者負担軽減事業として、区が支援が必要と認めた世帯に利用料の一部を助成。区立保育園は同一世帯で複数の子どもが利用する場合や裁判員制度の審理に参加する場合に減免があり、「すくすくカード」も使える",
+  "azukariRegistration": "私立保育園等は事前連絡・面談が必要な場合があるので希望する施設に直接申し込む。区立保育園は利用前日までに子どもと一緒に園で事前面接（概ね30分）を受け、一時保育児童票を提出",
+  "azukariBooking": "区立保育園は利用申請フォームから、利用希望日の前月1日から利用希望日の2日前まで申し込む（直接・電話での申込は原則不可、緊急時のみ電話）。定員3名で申込順",
+  "azukariFacilities": "区内の私立保育園・小規模保育園等（実施施設一覧PDF）と、区立の赤塚保育園・向原保育園の2園（月〜土 9時〜17時）",
+  "daredemoPage": {
+    "label": "板橋区「こども誰でも通園制度（乳児等通園支援事業）」",
+    "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/1060865/index.html"
+  },
+  "daredemoHours": "児童1人あたり月10時間まで。利用できる時間帯は実施施設が定める",
+  "daredemoFee": "児童1人1時間あたり300円（板橋区民は実質負担0円）。おやつや教材費など別途料金がかかる場合がある",
+  "daredemoAges": "0歳6か月から満3歳未満（3歳の誕生日の前々日まで）で、現在認可保育所・幼稚園・認定こども園・地域型保育施設・企業主導型保育施設に通っていないこども",
+  "daredemoApply": "こども誰でも通園制度総合支援システムで利用登録（令和8年3月5日受付開始、メールアドレスが必要）。原則毎週金曜日までの申請を翌週金曜日までに審査。初回面談でアレルギー等の聞き取りがある",
+  "daredemoFacilities": "私立保育園、認可外保育施設、私立幼稚園等。令和8年度からの実施施設が決定。各施設で受け入れクラス年齢が異なる（0歳児・1歳児・2歳児）",
+  "daredemoStatus": "令和8年度から実施。申込多数の場合は利用できない場合がある。板橋区民は区外の施設も月10時間まで利用できる",
+  "notes": [
+    "私立保育園等の一時保育は保育年齢・保育時間・利用料金が各施設で異なり、区を介さないため施設に直接問い合わせる",
+    "区立保育園の一時保育はアレルギー食・離乳食・宗教食に対応できないため、必要な場合はお弁当を持参する",
+    "区立保育園の一時保育は令和8年8月3日からキャッシュレス決済が使える（現金との併用は不可）",
+    "誰でも通園制度のクラスは4月1日現在の満年齢で決まり、年度途中に誕生日を迎えてもクラスは変わらない",
+    "誰でも通園制度は初回面談の結果、集団保育が著しく困難と判断された場合は利用できないことがある"
+  ],
+  "evidence": {
+    "azukariReasons": {
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ichiji/1004449.html",
+      "quote": "一時的に育児を離れ、買物などで外出しリフレッシュしたいとき ボランティア活動や裁判員制度の審理に参加するとき 通院や入院、出産のとき 冠婚葬祭のとき 就職活動をするとき"
+    },
+    "azukariFees.0": {
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ichiji/1004448.html",
+      "quote": "保育年齢・保育時間・利用料金について各施設によって異なり、区を介さないため、希望する施設へ直接お問い合わせください。"
+    },
+    "azukariRegistration": {
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ichiji/1004449.html",
+      "quote": "お子さんのご家庭での生活や健康状態を把握するために、事前に面接をさせていただきます（概ね30分）。"
+    },
+    "daredemoAges": {
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/1060865/index.html",
+      "quote": "0歳6か月から満3歳未満（3歳の誕生日の前々日まで）までのこども"
+    },
+    "daredemoFacilities": {
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/1060865/index.html",
+      "quote": "令和8年度からの実施施設が決定しました。"
+    },
+    "notes.0": {
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ichiji/1004448.html",
+      "quote": "保育年齢・保育時間・利用料金について各施設によって異なり、区を介さないため、希望する施設へ直接お問い合わせください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ichiji/1004449.html",
+      "quote": "（アレルギー食、離乳食、宗教食は対応できませんので、昼食が必要な場合はお弁当をご持参ください）"
+    },
+    "notes.2": {
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ichiji/1004449.html",
+      "quote": "キャッシュレス決済をご利用いただけます 利用開始日 令和8年8月3日"
+    },
+    "notes.3": {
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/1060865/index.html",
+      "quote": "クラスは4月1日現在の満年齢で決まります。年度途中に誕生日を迎えてもクラスは変わりません。"
+    },
+    "azukariRefresh": {
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ichiji/1004449.html",
+      "quote": "一時的に育児を離れ、買物などで外出しリフレッシュしたいとき"
+    },
+    "azukariAges": {
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ichiji/1004449.html",
+      "quote": "区内在住の生後6か月から就学前までの認可保育施設・認定こども園（保育枠）・企業主導型保育施設等に在籍していない健康なお子さんで、保護者が次のような場合に利用できます。 なお、病児、病後児はお預かりできません。"
+    },
+    "azukariFees.1": {
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ichiji/1004449.html",
+      "quote": "1時間あたり600円の利用料金がかかります。"
+    },
+    "azukariReduction": {
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ichiji/1004449.html",
+      "quote": "同一世帯で複数のお子さんが利用する場合や、保護者が裁判員制度による審理に参加する場合には、利用料金の減免制度がありますので、お申し出ください。"
+    },
+    "azukariBooking": {
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ichiji/1004449.html",
+      "quote": "利用希望日の前月の1日から、日曜祝日を除く利用希望日の2日前までお申込み可能です。"
+    },
+    "azukariFacilities": {
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ichiji/1004449.html",
+      "quote": "月曜日から土曜日（祝日、年末年始を除く）の午前9時から午後5時までの間で利用できます。"
+    },
+    "daredemoHours": {
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/1060865/index.html",
+      "quote": "実施施設が定める時間が利用可能です。詳細は利用施設にお問い合わせください。 児童1人あたり月10時間まで利用できます。"
+    },
+    "daredemoFee": {
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/1060865/index.html",
+      "quote": "児童1人1時間あたり300円（板橋区民は、実質負担0円） ※おやつや教材費など、別途料金がかかる場合があります。"
+    },
+    "daredemoApply": {
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/1060865/index.html",
+      "quote": "原則、毎週金曜日までに申請されたものを翌週金曜日までに処理・審査を行います。"
+    },
+    "daredemoStatus": {
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/1060865/index.html",
+      "quote": "板橋区民として、区外の施設を利用することも可能です。利用時間は月10時間、対象児童は0歳6か月から満3歳未満（3歳の誕生日の前々日まで）のこどもです。"
+    },
+    "notes.4": {
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/1060865/index.html",
+      "quote": "初回面談の結果、集団保育が著しく困難であると判断された場合は利用ができない場合があります。"
+    }
+  },
+  "sources": [
+    {
+      "label": "板橋区「板橋区内の私立保育園・小規模保育園等で、一時保育を実施しています」",
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ichiji/1004448.html"
+    },
+    {
+      "label": "板橋区「区立赤塚保育園・向原保育園で、一時保育を実施しています」",
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ichiji/1004449.html"
+    },
+    {
+      "label": "板橋区「こども誰でも通園制度（乳児等通園支援事業）」",
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/1060865/index.html"
+    }
+  ]
+}

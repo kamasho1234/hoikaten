@@ -1,0 +1,141 @@
+{
+  "citySlug": "shinagawa",
+  "checkedAt": "2026-09-18",
+  "azukariPage": {
+    "label": "品川区「一時保育」",
+    "url": "http://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-ichizi/hpg000033215.html"
+  },
+  "azukariReasons": "区立保育園の一時保育は保護者の出産・疾病などで保育できないとき。私立保育所等の一時預かりは出産・疾病のほか買い物・リフレッシュ等も可。オアシスルームは買い物・通院・リフレッシュ等の用件をすませる間",
+  "azukariRefresh": "オアシスルーム（生活支援型一時保育）は在宅で子育てをしている保護者が用件（買い物・通院・リフレッシュ等）をすませる間に使え、全施設あわせて年度内60回以内",
+  "azukariLimit": "利用開始日から2カ月以内。時間は午前7時30分から午後6時30分までの間で、必要な時間のみの利用",
+  "azukariAges": "区立保育園の一時保育は生後満4か月から就学前の集団保育可能な児童（0歳児保育を実施していない園は1歳児クラス以降）。オアシスルームは生後4か月から登録できる",
+  "azukariFees": [
+    "区立保育園の一時保育: 児童1人につき1日2,000円（各月の利用最終日に合計額を一括で園に支払う）",
+    "オアシスルーム: 1時間につき500円（お迎え時に支払い。現金のほかキャッシュレス決済も可）",
+    "私立保育所等の一時預かりは施設ごとに保育料金が異なる"
+  ],
+  "azukariReduction": "3歳児クラス以上の児童を対象に区立および区立民営保育園における一時保育の利用料は申請に基づき、一部無償化される",
+  "azukariRegistration": "区立保育園の一時保育は利用希望月の1か月前の月初から、出産で利用する場合は出産予定月の3か月前の月初から申請できる。オアシスルームは事前登録が必須で、子どもを連れて登録面談（登録は年度内のみ有効。1施設で登録すれば全施設で利用可）",
+  "azukariBooking": "区立保育園は電子申請または電話。オアシスルームはインターネット予約で、予約可能期間は利用予定日の1か月前の同日午前9時から前日午後3時まで",
+  "azukariFacilities": "区立保育園（全園）と区立民営保育園で実施（各園2人まで、在園児の状況により受入れ可能な範囲）。私立保育園・地域型保育事業の一部でも一時預かりを実施。オアシスルームは児童センター等に13か所",
+  "daredemoPage": {
+    "label": "品川区「【令和8年度】乳児等通園支援事業（こども誰でも通園制度）」",
+    "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/20251215111822.html"
+  },
+  "daredemoHours": "月30時間までの利用時間を上限に定期的な預かりを実施",
+  "daredemoFee": "1時間あたり300円。区内在住のお子様が区内施設を利用した場合の利用料金は無料",
+  "daredemoAges": "認可保育所・認定こども園・家庭的保育事業・小規模保育事業・居宅訪問型保育事業・事業所内保育事業・企業主導型保育事業に在籍していない0歳6か月〜2歳児クラス（満3歳に達した年度末まで）。認可外保育施設に通っている子どもは対象",
+  "daredemoApply": "品川区乳児等支援給付認定を受ける必要があり、原則マイナポータルで電子申請。認定後に予約システムのアカウントが発行され、システムで利用予定の施設に直接申し込む。満3歳以上は認定申請不要で施設に直接申し込む",
+  "daredemoFacilities": "実施予定施設27か所をページに掲載し、準備ができた施設から順次予約システムに掲載。受付状況は随時更新",
+  "daredemoStatus": "令和8年4月1日から実施。品川区では原則「定期利用」で実施。施設の空き状況によっては利用できないことがある",
+  "notes": [
+    "オアシスルームは認可保育園等に在籍している子どもは土曜日のみ利用できる",
+    "区立保育園の一時保育は日曜・祝日・年末年始を除き、利用開始日から2か月以内で必要な日のみの利用",
+    "オアシスルームは2施設目以降を使うときは初回利用直前までにその施設で簡易面談が必要",
+    "誰でも通園制度はキャンセルや延長利用のルールを区が定めているので利用前に確認する"
+  ],
+  "evidence": {
+    "azukariReasons": {
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/20220117164838.html",
+      "quote": "私立保育所等の一時預かりは、保護者が 出産、疾病などのためにお子様を保育できないときや お買い物 ・リフレッシュ等をすませる間、一時的にお子様をお預かりする事業です。"
+    },
+    "azukariRefresh": {
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/oashisuroom/hpg000033303.html",
+      "quote": "全施設あわせて年度内60回以内です。"
+    },
+    "azukariLimit": {
+      "url": "http://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-ichizi/hpg000033215.html",
+      "quote": "利用開始日から2カ月以内で、必要な日のみの利用となります。（日曜・祝日、年末年始は除く）"
+    },
+    "azukariAges": {
+      "url": "http://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-ichizi/hpg000033215.html",
+      "quote": "※0歳児保育を実施していない保育園は、1歳児クラス以降のお子様が利用できます。"
+    },
+    "azukariFees.0": {
+      "url": "http://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-ichizi/hpg000033215.html",
+      "quote": "児童1人につき1日　2,000円 各月の利用最終日に利用料の合計額を一括で保育園にお支払いいただきます。"
+    },
+    "azukariFees.1": {
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/oashisuroom/hpg000033303.html",
+      "quote": "1時間につき500円です。お迎えの時にお支払いいただきます。 現金支払いの他にキャッシュレス決済もご利用いただけます。"
+    },
+    "azukariReduction": {
+      "url": "http://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-ichizi/hpg000033215.html",
+      "quote": "3歳児クラス以上の児童を対象に区立および区立民営保育園における一時保育の利用料は申請に基づき、一部無償化されます。"
+    },
+    "azukariRegistration": {
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/oashisuroom/hpg000033303.html",
+      "quote": "※登録は年度内のみ有効です。翌年度4月以降利用される場合は、再度登録が必要となります。"
+    },
+    "azukariBooking": {
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/oashisuroom/hpg000033303.html",
+      "quote": "原則として、予約可能期間は利用予定日の1カ月前の同日午前9時から前日午後3時までです。"
+    },
+    "azukariFacilities": {
+      "url": "http://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-ichizi/hpg000033215.html",
+      "quote": "私立保育園・地域型保育事業の一部でも一時預かりを実施しています。"
+    },
+    "daredemoHours": {
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/20251215111822.html",
+      "quote": "月30時間までの利用時間を上限に定期的な預かりを行う「こども誰でも通園制度（乳児等通園支援事業）」を令和8年4月1日（水）から実施します。"
+    },
+    "daredemoFee": {
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/20251215111822.html",
+      "quote": "利用料金：1時間あたり300円　※区内在住のお子様が区内施設を利用した場合の利用料金は無料です。"
+    },
+    "daredemoAges": {
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/20251215111822.html",
+      "quote": "※認可外保育施設に通っている0歳6カ月～2歳児クラスのお子様は対象となります。"
+    },
+    "daredemoApply": {
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/20251215111822.html",
+      "quote": "※満3歳以上のお子様の場合は認定申請不要です。予約システムを使わず、直接利用予定の施設へお申し込みください。"
+    },
+    "daredemoStatus": {
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/20251215111822.html",
+      "quote": "品川区では原則「定期利用」での実施となります。あらかじめご了承ください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/oashisuroom/hpg000033303.html",
+      "quote": "認可保育園等に在籍しているお子様は、土曜日のみご利用いただけます。"
+    },
+    "notes.1": {
+      "url": "http://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-ichizi/hpg000033215.html",
+      "quote": "利用開始日から2カ月以内で、必要な日のみの利用となります。（日曜・祝日、年末年始は除く）"
+    },
+    "azukariFees.2": {
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/20220117164838.html",
+      "quote": "各施設ごとに申込方法・保育料金・保育内容等が異なります。"
+    },
+    "daredemoFacilities": {
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/20251215111822.html",
+      "quote": "※以下施設のうち、準備ができた施設から順次予約システムへ掲載されます。"
+    },
+    "notes.2": {
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/oashisuroom/hpg000033303.html",
+      "quote": "2施設目以降は初回利用直前までに該当の施設で 簡易 面談（ヒアリング）をしていただく必要がございます。"
+    },
+    "notes.3": {
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/20251215111822.html",
+      "quote": "※品川区ではキャンセルや延長利用などについてルールを定めています。"
+    }
+  },
+  "sources": [
+    {
+      "label": "品川区「一時保育」",
+      "url": "http://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-ichizi/hpg000033215.html"
+    },
+    {
+      "label": "品川区「私立保育所等の一時預かり事業について」",
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/20220117164838.html"
+    },
+    {
+      "label": "品川区「オアシスルーム(生活支援型一時保育)のご案内」",
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/oashisuroom/hpg000033303.html"
+    },
+    {
+      "label": "品川区「【令和8年度】乳児等通園支援事業（こども誰でも通園制度）」",
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/20251215111822.html"
+    }
+  ]
+}

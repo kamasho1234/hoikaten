@@ -1,0 +1,128 @@
+{
+  "citySlug": "bunkyo",
+  "checkedAt": "2026-09-18",
+  "azukariPage": {
+    "label": "文京区「リフレッシュ一時保育」",
+    "url": "https://www.city.bunkyo.lg.jp/b023/p001693.html"
+  },
+  "azukariReasons": "理由を問わない。区立保育園で緊急一時保育の定員に空きがある場合に、利用の理由を問わずに、一時的にお子さんをお預かりします",
+  "azukariRefresh": "理由を問わない「リフレッシュ一時保育」を区立保育園で実施（緊急一時保育の定員に空きがある場合のみ）。緊急一時保育と合わせて月10回まで",
+  "azukariLimit": "1か月の利用は緊急一時保育と合わせて10回まで。1回3時間以上8時間以内で1時間単位",
+  "azukariAges": "文京区に住所があり、生後4ヶ月から、又は満1歳から小学校就学前の家庭で保育している乳幼児",
+  "azukariFees": [
+    "リフレッシュ一時保育: 保育時間1時間につき800円（最低料金は3時間2,400円）",
+    "昼食等を利用する場合は別に、昼食300円、おやつ100円、ミルク又は離乳食1回200円"
+  ],
+  "azukariReduction": "生活保護世帯、区民税非課税世帯、区民税所得割合算額が77,101円未満の世帯は申請により免除",
+  "azukariRegistration": "利用に先立って各保育園で子どもと一緒に面談を受け、面談時に利用申請書を記入する。2回目からは面談を省略し、電話の後にリフレッシュ一時保育利用申請書の提出（郵送・FAX可）か電子申請で申し込める",
+  "azukariBooking": "利用日の14日前から2日前（土日祝・年末年始を除く）までに、各保育園にまず電話で申し込む。受付時間は午前10時から午後5時。緊急・リフレッシュ一時保育の空き状況は予約状況照会サイトで1日4回更新",
+  "azukariFacilities": "区立保育園17園で実施（定員は各園1〜2名、対象年齢は生後4か月からの園と満1歳からの園がある）",
+  "daredemoPage": {
+    "label": "文京区「こども誰でも通園制度（乳児等通園支援事業）」",
+    "url": "https://www.city.bunkyo.lg.jp/b023/shien/daretsu.html"
+  },
+  "daredemoFee": "文京区民は無料。文京区民以外は月額9,600円",
+  "daredemoAges": "保育所・認定こども園・地域型保育事業・企業主導型保育事業を利用していない、利用日現在0歳6か月〜2歳児クラスの子ども。実施園によって受入対象年齢が異なる",
+  "daredemoApply": "こども誰でも通園制度対象者確認申請フォームから利用登録（電子申請のみ）。区が要件を確認してこども誰でも通園制度総合支援システムのアカウントを発行。実施園への利用申込は別に必要で、申込者が定員を超える場合は抽選",
+  "daredemoFacilities": "区立保育園・グループ保育室こうらく・私立保育園・私立幼稚園で実施。実施園一覧はPDFで掲載",
+  "daredemoStatus": "令和8年度に実施（利用期間は令和9年3月31日まで）。週に1回の利用で、利用時間は9時から16時又は17時まで（実施園により異なる）。2026年9月時点で全ての区立園・曜日で利用者が決定している",
+  "notes": [
+    "リフレッシュ一時保育は在園児は原則利用できないが、幼稚園の夏休みなど園の都合で休園している場合は利用できる",
+    "リフレッシュ一時保育は土曜日は預からない。緊急一時保育の受付を優先するため、空きがある場合にのみ利用できる",
+    "利用日の2日前の午後5時以降にキャンセルすると、理由を問わず利用料金の50％のキャンセル料がかかる（園の感染症発生や臨時休園を除く）",
+    "令和7年4月から、リフレッシュ一時保育の利用料の支払いは原則オンライン決済。納付書を希望する場合は問い合わせ先に連絡",
+    "誰でも通園制度は同一月に複数の園を重複して利用できない。月に1度も利用がない、または月の利用日数が半分に満たない月が2か月続くと翌月から利用を断られることがある"
+  ],
+  "evidence": {
+    "azukariReasons": {
+      "url": "https://www.city.bunkyo.lg.jp/b023/p001693.html",
+      "quote": "利用の理由を問わずに、一時的にお子さんをお預かりします"
+    },
+    "azukariLimit": {
+      "url": "https://www.city.bunkyo.lg.jp/b023/p001693.html",
+      "quote": "利用は、1回3時間以上8時間以内で、1時間単位となります。 1か月のご利用は、 緊急一時保育 と合わせて10回までです。"
+    },
+    "azukariAges": {
+      "url": "https://www.city.bunkyo.lg.jp/b023/p001693.html",
+      "quote": "生後4ヶ月から、又は満1歳から"
+    },
+    "azukariFees.0": {
+      "url": "https://www.city.bunkyo.lg.jp/b023/p001693.html",
+      "quote": "保育時間1時間につき800円（最低料金は、3時間2,400円）"
+    },
+    "azukariFees.1": {
+      "url": "https://www.city.bunkyo.lg.jp/b023/p001693.html",
+      "quote": "ほかに、昼食等を利用される場合は、昼食300円、おやつ100円、ミルク又は離乳食1回200円がかかります。"
+    },
+    "azukariRegistration": {
+      "url": "https://www.city.bunkyo.lg.jp/b023/p001693.html",
+      "quote": "利用に先立って、各保育園でお子さんと一緒に面談を受けていただきます。面談時に利用申請書にご記入いただきます。"
+    },
+    "azukariBooking": {
+      "url": "https://www.city.bunkyo.lg.jp/b023/p001693.html",
+      "quote": "から2日前（ 土曜日・日曜日・祝日・年末年始を除く）までに、各保育園にまず電話でお申込みください。"
+    },
+    "azukariFacilities": {
+      "url": "https://www.city.bunkyo.lg.jp/b023/p001693.html",
+      "quote": "文京区に住所があり、生後4ヶ月から、又は満1歳から（上記対象年齢のとおり）小学校就学前の家庭で保育している乳幼児の保護者"
+    },
+    "daredemoFee": {
+      "url": "https://www.city.bunkyo.lg.jp/b023/shien/daretsu.html",
+      "quote": "文京区民 無料 文京区民以外 月額 9,600 円"
+    },
+    "daredemoAges": {
+      "url": "https://www.city.bunkyo.lg.jp/b023/shien/daretsu.html",
+      "quote": "保育所、認定こども園、地域型保育事業、企業主導型保育事業を利用していない、利用日現在0歳6か月～2歳児クラス（利用年度の4月1日時点で2歳の方）のお子さん"
+    },
+    "daredemoApply": {
+      "url": "https://www.city.bunkyo.lg.jp/b023/shien/daretsu.html",
+      "quote": "申込者が定員を超える場合、抽選で利用者を決定いたします。抽選に落選した場合、キャンセル待ちとなり、キャンセルが出た場合に繰り上がってご利用いただけます。"
+    },
+    "daredemoFacilities": {
+      "url": "https://www.city.bunkyo.lg.jp/b023/shien/daretsu.html",
+      "quote": "実施園の増減があった場合、随時事業実施園リストを更新します。"
+    },
+    "daredemoStatus": {
+      "url": "https://www.city.bunkyo.lg.jp/b023/shien/daretsu.html",
+      "quote": "週に1回ご利用いただけます。"
+    },
+    "notes.0": {
+      "url": "https://www.city.bunkyo.lg.jp/b023/p001693.html",
+      "quote": "在園児の方は原則お預かりできませんが、幼稚園の夏休みなど園の都合により休園している場合はご利用いただけます。"
+    },
+    "notes.1": {
+      "url": "https://www.city.bunkyo.lg.jp/b023/p001693.html",
+      "quote": "緊急一時保育 の受付を優先して行っていますので、空きがある場合にのみ、ご利用可能です。"
+    },
+    "notes.2": {
+      "url": "https://www.city.bunkyo.lg.jp/b023/p001693.html",
+      "quote": "の午後5時以降にキャンセルをされた場合は、理由の如何を問わず、利用料金の50％をキャンセル料としてお支払いいただきます。"
+    },
+    "notes.3": {
+      "url": "https://www.city.bunkyo.lg.jp/b023/p001693.html",
+      "quote": "納付書の同封を廃止し、原則オンライン決済によるお支払いをお願いすることといたします。"
+    },
+    "azukariRefresh": {
+      "url": "https://www.city.bunkyo.lg.jp/b023/p001693.html",
+      "quote": "区立保育園で実施している 緊急一時保育 の定員に空きがある場合に、利用の理由を問わずに、一時的にお子さんをお預かりします。"
+    },
+    "azukariReduction": {
+      "url": "https://www.city.bunkyo.lg.jp/b023/p001693.html",
+      "quote": "生活保護世帯、区民税非課税世帯、区民税所得割合算額が77,101円未満の世帯の方は、申請により免除を受けることができます。"
+    },
+    "notes.4": {
+      "url": "https://www.city.bunkyo.lg.jp/b023/shien/daretsu.html",
+      "quote": "月に1度も利用がない場合または月の利用日数が半分に満たない月が2か月続いた場合は、翌月からの利用をお断り（退園）とさせていただく場合がございます"
+    }
+  },
+  "sources": [
+    {
+      "label": "文京区「リフレッシュ一時保育」",
+      "url": "https://www.city.bunkyo.lg.jp/b023/p001693.html"
+    },
+    {
+      "label": "文京区「こども誰でも通園制度（乳児等通園支援事業）」",
+      "url": "https://www.city.bunkyo.lg.jp/b023/shien/daretsu.html"
+    }
+  ]
+}

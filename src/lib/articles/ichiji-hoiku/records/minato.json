@@ -1,0 +1,66 @@
+{
+  "citySlug": "minato",
+  "checkedAt": "2026-09-18",
+  "azukariPage": {
+    "label": "港区「芝浦アイランドこども園・神明保育園・たかはま保育園・元麻布保育園・神応保育園の一時保育」",
+    "url": "https://www.city.minato.tokyo.jp/kodomo/kodomo/kodomo/hoikuen/service/s-island.html"
+  },
+  "azukariReasons": "区立保育園5園の一時保育は、保護者の就労等により家庭での育児が一時的に困難な場合と、育児疲れ解消等の私的な理由で一時保育が必要な場合",
+  "azukariRefresh": "育児疲れ解消等の私的な理由で使える。月8回以内（就労等の理由なら就労証明書等を出して月9回以上も可）",
+  "azukariLimit": "月8回以内。就労等により家庭での育児が困難な場合は、就労証明書等を提出すれば月9回以上利用できる",
+  "azukariAges": "区内在住の生後4か月〜小学校就学前の集団保育が可能な子ども。利用登録と面談は生後4か月を迎えてから",
+  "azukariFees": [
+    "区立保育園5園の一時保育: 1日ひとり3,000円、5時間以内ひとり1,500円"
+  ],
+  "azukariReduction": "生活保護・住民税非課税世帯の子どもと、多胎児が同時に利用した場合の2人目以降は利用料免除。令和8年9月からは区独自に、一時保育・一時預かりの保育料と利用料を未就学児1人あたり年間144時間まで無償化（令和8年度は84時間。事前にクーポンを申請）。幼児教育・保育の無償化の給付対象でもある",
+  "azukariRegistration": "事前に利用登録（LINEのオンライン予約システムでアカウント作成）をしたうえで、実施園で利用面談が必要。面談には母子手帳を持参し、保健記録と自宅での食品確認票を園で記入",
+  "azukariBooking": "LINE予約を推奨（電話も可）。受付は利用日の31日前から利用日の2日前の17時まで（初回は1週間前までに事前面接が必要）",
+  "azukariFacilities": "区立の芝浦アイランドこども園・神明保育園・たかはま保育園・元麻布保育園・神応保育園の5園（月〜土 7時15分〜18時15分）。このほか「南青山ぱんだるーむ」などの一時保育室、私立保育園等の一時保育、区立保育園の緊急一時保育がある",
+  "daredemoPage": {
+    "label": "港区「令和8年度 港区版こども誰でも通園制度のお知らせ」",
+    "url": "https://www.city.minato.tokyo.jp/hoikusien/2025daretsu.html"
+  },
+  "daredemoHours": "原則、週2日の定期利用で、利用可能時間は月24時間を上限（週1日のみ利用の施設もある）。利用曜日は月〜金から固定で選び、利用時間は午前9時〜午後5時の範囲で固定",
+  "daredemoFee": "無料",
+  "daredemoAges": "生後6か月〜2歳児クラス（満3歳を迎える年度の年度末まで）で、幼稚園・認可保育園・認定こども園・地域型保育事業・企業主導型保育施設に在籍していない子ども。区内に住民登録があり現に居住している人を優先",
+  "daredemoApply": "申請締切までに郵送・窓口で提出するか電子申請（利用施設によって異なる）。前期（4〜9月）と後期（10月〜3月）に分けて募集し、申込多数の場合は抽選",
+  "daredemoFacilities": "認可保育園等と区立・私立幼稚園等のうち一部施設。実施園一覧はPDFで掲載",
+  "daredemoStatus": "令和8年4月から港区独自の制度として実施。利用可能期間は前期が令和8年4月1日〜9月30日、後期が10月1日〜令和9年3月31日で、後期分は追加募集中（2026年9月時点）",
+  "otherServices": [
+    "私立保育園等の一時保育、乳幼児ショートステイ、子育てひろばあっぴぃの一時預かり、派遣型一時保育事業（あい・ぽーと子育てサポート）、港区ベビーシッター利用支援（一時預かり利用支援）事業"
+  ],
+  "notes": [
+    "区独自の無償化（年間144時間）は令和8年9月1日以降の利用分が対象。利用にはクーポンの事前申請が必要で、発行まで2週間程度かかる",
+    "無償化の時間は1時間単位で管理し、1時間未満は切り上げ。クーポンは子どもごとに発行され、きょうだい間で共有できず、翌年度への繰り越しもできない。食事代・おやつ代などの実費は対象外",
+    "誰でも通園制度は利用期間中の利用曜日の変更はできない",
+    "誰でも通園制度の私立幼稚園の利用期間は各実施施設に確認"
+  ],
+  "evidence": {
+    "azukariReasons": { "url": "https://www.city.minato.tokyo.jp/kodomo/kodomo/kodomo/hoikuen/service/s-island.html", "quote": "1.保護者の就労等により、家庭における育児が一時的に困難な場合 2.保護者の育児疲れ解消等の私的な理由により、一時保育が必要な場合" },
+    "azukariRefresh": { "url": "https://www.city.minato.tokyo.jp/kodomo/kodomo/kodomo/hoikuen/service/s-island.html", "quote": "月8回以内 ※利用要件1.の場合は月9回以上利用できます（月9回以上利用する場合には就労証明書等を提出していただく必要があります）" },
+    "azukariLimit": { "url": "https://www.city.minato.tokyo.jp/kodomo/kodomo/kodomo/hoikuen/service/s-island.html", "quote": "月8回以内 ※利用要件1.の場合は月9回以上利用できます（月9回以上利用する場合には就労証明書等を提出していただく必要があります）" },
+    "azukariAges": { "url": "https://www.city.minato.tokyo.jp/kodomo/kodomo/kodomo/hoikuen/service/s-island.html", "quote": "区内にお住まいの生後4か月～小学校就学前の集団保育が可能なお子さん" },
+    "azukariFees.0": { "url": "https://www.city.minato.tokyo.jp/kodomo/kodomo/kodomo/hoikuen/service/s-island.html", "quote": "・1日ひとり 3,000円 ・5時間以内ひとり 1,500円" },
+    "azukariReduction": { "url": "https://www.city.minato.tokyo.jp/hoikusien/ichijihoikumushoka.html", "quote": "一時保育事業と一時預かり事業の保育料・利用料を、未就学児1人当たり年間144時間まで無償化します。（令和8年度は9月開始のため、84時間まで無償化します。）" },
+    "azukariRegistration": { "url": "https://www.city.minato.tokyo.jp/kodomo/kodomo/kodomo/hoikuen/service/s-island.html", "quote": "利用登録及び利用面談は、お子さまが生後4か月を迎えてから行うことができます。" },
+    "azukariBooking": { "url": "https://www.city.minato.tokyo.jp/kodomo/kodomo/kodomo/hoikuen/service/s-island.html", "quote": "利用日の31日前の9時から利用日の2日前の17時まで" },
+    "azukariFacilities": { "url": "https://www.city.minato.tokyo.jp/kodomo/kodomo/kodomo/hoikuen/service/s-island.html", "quote": "月曜日～土曜日（祝日、年末年始を除く） 7時15分から18時15分まで" },
+    "daredemoHours": { "url": "https://www.city.minato.tokyo.jp/hoikusien/2025daretsu.html", "quote": "原則、週2日の定期利用（利用可能時間は月24時間を上限とします。） ※週1日のみ利用の施設もあります。" },
+    "daredemoFee": { "url": "https://www.city.minato.tokyo.jp/hoikusien/2025daretsu.html", "quote": "利用料は無料です。" },
+    "daredemoAges": { "url": "https://www.city.minato.tokyo.jp/hoikusien/2025daretsu.html", "quote": "１ 生後6か月～2歳児クラス（満3歳を迎える年度の年度末まで）のお子さん" },
+    "daredemoApply": { "url": "https://www.city.minato.tokyo.jp/hoikusien/2025daretsu.html", "quote": "申請締切までに郵送または窓口で提出するか、電子申請をしてください。詳細は利用施設によって異なります。" },
+    "daredemoFacilities": { "url": "https://www.city.minato.tokyo.jp/hoikusien/2025daretsu.html", "quote": "認可保育園等、区立・私立幼稚園等のうち一部施設" },
+    "daredemoStatus": { "url": "https://www.city.minato.tokyo.jp/hoikusien/2025daretsu.html", "quote": "港区では、令和8年4月から、教育・保育施設を利用していない在宅子育て家庭のお子さんを対象に、家庭と異なる経験をする場を提供し、子どもの成長を促すことを目的として、決まった曜日に定期的な保育を行う、港区独自の「こども誰でも通園制度」を実施します。" },
+    "otherServices.0": { "url": "https://www.city.minato.tokyo.jp/hoikusien/ichijihoikumushoka.html", "quote": "・子育てひろばあっぴぃの一時預かり事業 ・みなと保育サポートのスポット利用保育 ・みなと子育てサポートハウス「あい・ぽーと」の一時預かり事業" },
+    "notes.0": { "url": "https://www.city.minato.tokyo.jp/hoikusien/ichijihoikumushoka.html", "quote": "・無償化が適用されるのは、 令和8年9月1日（火曜日）以降に利用した分となります。" },
+    "notes.1": { "url": "https://www.city.minato.tokyo.jp/hoikusien/ichijihoikumushoka.html", "quote": "・利用時間は1時間単位で管理し、1時間未満の端数は切り上げとなります。 ・クーポンはお子さんごとに発行され、きょうだい間で共有できません。" },
+    "notes.2": { "url": "https://www.city.minato.tokyo.jp/hoikusien/2025daretsu.html", "quote": "※利用期間中の利用曜日の変更はできません。" },
+    "notes.3": { "url": "https://www.city.minato.tokyo.jp/hoikusien/2025daretsu.html", "quote": "※私立幼稚園の利用期間については、各実施施設へご確認ください。" }
+  },
+  "sources": [
+    { "label": "港区「芝浦アイランドこども園・神明保育園・たかはま保育園・元麻布保育園・神応保育園の一時保育」", "url": "https://www.city.minato.tokyo.jp/kodomo/kodomo/kodomo/hoikuen/service/s-island.html" },
+    { "label": "港区「区立保育園の一時保育」", "url": "https://www.city.minato.tokyo.jp/hoikusien/index-kuritsu-ichiji.html" },
+    { "label": "港区「一時保育事業・一時預かり事業の保育料と利用料の一部無償化について」", "url": "https://www.city.minato.tokyo.jp/hoikusien/ichijihoikumushoka.html" },
+    { "label": "港区「令和8年度 港区版こども誰でも通園制度のお知らせ」", "url": "https://www.city.minato.tokyo.jp/hoikusien/2025daretsu.html" }
+  ]
+}

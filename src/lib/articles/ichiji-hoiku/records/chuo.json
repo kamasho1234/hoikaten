@@ -1,0 +1,128 @@
+{
+  "citySlug": "chuo",
+  "checkedAt": "2026-09-18",
+  "azukariPage": {
+    "label": "中央区「一時預かり保育」",
+    "url": "https://www.city.chuo.lg.jp/a0025/kosodate/kosodate/shien/azukeru/ichijiazukarihoiku.html"
+  },
+  "azukariReasons": "一時預かり保育は、冠婚葬祭や育児疲れなどの理由で家庭での保育が一時的に困難になった場合。緊急保育は、保護者の入院・不在・親族の看護介護などの緊急の理由（診断書など利用事由を確認できる書類が必要）",
+  "azukariRefresh": "育児疲れは一時預かり保育の理由になる。1時間単位（毎時00分か30分から）で利用でき、30分の利用も1時間分の料金",
+  "azukariLimit": "一時預かり保育は1時間単位で1か月先の日まで予約できる（日数の上限の記載なし）。緊急保育は原則として2日以上30日以内",
+  "azukariAges": "区内在住の生後57日目から5歳児（未就学児）まで。年齢は利用する年度の4月1日時点で扱う",
+  "azukariFees": [
+    "一時預かり保育: 1時間800円（30分の利用も1時間分の料金）",
+    "緊急保育: 1日2,000円"
+  ],
+  "azukariReduction": "緊急保育は生活保護世帯・住民税非課税世帯が全額免除、所得税非課税世帯が半額免除。裁判員候補者の呼び出しに応じる場合は一時預かり保育・緊急保育とも全額免除",
+  "azukariRegistration": "オンライン予約システムから利用登録を申請し（乳幼児医療証と子ども・送迎する保護者の写真のアップロードが必要）、施設で面談をしてから予約できる。1年以上利用がないと再度面談することがある",
+  "azukariBooking": "オンライン予約システムで予約（電話の予約・キャンセルは不可）。予約開始は利用日の1か月前の午前9時。受付締切は一時預かり保育が利用日の前営業日17時、緊急保育が前営業日の正午",
+  "azukariFacilities": "子ども家庭支援センター「きらら中央」の勝どき分室（毎日、定員20人）・日本橋分室・十思分室（月〜金、定員8人）。このほか昭和・京橋・阪本・晴海・晴海西こども園が運営事業者の独自事業として実施",
+  "daredemoPage": {
+    "label": "中央区「こども誰でも通園制度」",
+    "url": "https://www.city.chuo.lg.jp/a0021/kosodate/kosodate/keikaku/daretuu.html"
+  },
+  "daredemoHours": "月20時間（1日上限8時間）の枠内で定期的に利用。複数施設を使う場合は合計で月20時間。中央区外の施設を利用する場合は月10時間まで",
+  "daredemoFee": "原則として無料。利用する施設により実費負担・超過料金・キャンセル料が発生する場合がある。認可外保育施設を週5日かつ1日8時間以上利用している人は利用料金が発生",
+  "daredemoAges": "認可保育所・認定こども園・地域型保育事業・企業主導型保育施設等に通園していない、0歳6か月から2歳児クラス相当（3歳に達する年度の末日まで）の子ども",
+  "daredemoApply": "区の認定申請フォームで乳児等支援給付認定を申請（原則電子申請のみ）。区がつうえんポータルのアカウントを発行（1〜2週間）し、ポータルで事前面談を予約、面談後に施設が受け入れを確定してから利用申請する",
+  "daredemoFacilities": "区内5施設（認証保育所2、認可保育所3）で1歳児・2歳児クラスを受け入れ。区内では0歳児クラスの受け入れは行っていない。通常保育の子どもと同じ保育室で過ごす",
+  "daredemoStatus": "令和8年4月から実施。月を単位として複数月の利用契約とし、利用する曜日や時間帯を固定して預かる。事前面談は利用を確定するものではなく、枠の状況により断られることがある",
+  "notes": [
+    "裁判員制度の裁判員候補者の呼び出しなどに応じる場合、一時預かり保育の使用料は全額免除（裁判員制度に基づく呼出状が必要）",
+    "オンライン受付の締切を過ぎてキャンセルすると使用料は全額負担になる。一時預かり保育のキャンセル締切は利用開始日時の48時間前",
+    "子どもの健康状態（発熱、感染症など）によっては預けられない。解熱後24時間経過していない場合と予防接種当日は預けられない",
+    "誰でも通園制度で3歳に達した月の翌月からの利用は、中央区内の施設のみで月10時間まで"
+  ],
+  "evidence": {
+    "azukariReasons": {
+      "url": "https://www.city.chuo.lg.jp/a0025/kosodate/kosodate/shien/azukeru/ichijiazukarihoiku.html",
+      "quote": "保護者の出産や入院などの緊急の理由により、家庭での保育が一時的に困難になった場合に、お子さんをお預かりします。 ご利用にあたっては、診断書など利用事由を確認できる書類が必要です。"
+    },
+    "azukariAges": {
+      "url": "https://www.city.chuo.lg.jp/a0025/kosodate/kosodate/shien/azukeru/ichijiazukarihoiku.html",
+      "quote": "区内在住の生後57日目から5歳児（未就学児）までの子ども 注記：お子さまの年齢は、利用する年度の4月1日時点の年齢で取り扱います。"
+    },
+    "azukariFees.0": {
+      "url": "https://www.city.chuo.lg.jp/a0025/kosodate/kosodate/shien/azukeru/ichijiazukarihoiku.html",
+      "quote": "使用料 1時間800円"
+    },
+    "azukariRegistration": {
+      "url": "https://www.city.chuo.lg.jp/a0025/kosodate/kosodate/shien/azukeru/ichijiazukarihoiku.html",
+      "quote": "登録情報を入力します（乳幼児医療証、お子さまと送迎する保護者の写真のアップロードが必要です。）。 施設で面談を実施します。"
+    },
+    "azukariBooking": {
+      "url": "https://www.city.chuo.lg.jp/a0025/kosodate/kosodate/shien/azukeru/ichijiazukarihoiku.html",
+      "quote": "予約開始は、利用日の1カ月前の午前9時からです （例：4月1日は3月1日の午前9時から予約開始）。なお、 電話での予約、キャンセルはできません。"
+    },
+    "daredemoHours": {
+      "url": "https://www.city.chuo.lg.jp/a0021/kosodate/kosodate/keikaku/daretuu.html",
+      "quote": "注記1：複数の施設を利用した場合は、各施設の利用時間の合計が月20時間までとなります。 注記2：中央区外の施設を利用する場合は月10時間までとなります。"
+    },
+    "daredemoFee": {
+      "url": "https://www.city.chuo.lg.jp/a0021/kosodate/kosodate/keikaku/daretuu.html",
+      "quote": "注記1：利用する施設により実費負担、超過料金およびキャンセル料が発生する場合があります。 注記2：認可外保育施設（認証保育所含む。）を週5日かつ1日8時間以上利用している方は利用料金が発生します。"
+    },
+    "daredemoAges": {
+      "url": "https://www.city.chuo.lg.jp/a0021/kosodate/kosodate/keikaku/daretuu.html",
+      "quote": "認可保育所、認定こども園、地域型保育事業、企業主導型保育施設等に通園していない、0歳6か月から2歳児クラス相当（3歳に達する年度の末日まで）のこども"
+    },
+    "daredemoApply": {
+      "url": "https://www.city.chuo.lg.jp/a0021/kosodate/kosodate/keikaku/daretuu.html",
+      "quote": "区で申請の内容を確認し、対象児童の要件を満たしていることが確認できた場合、「つうえんポータル」のアカウントを発行します。"
+    },
+    "notes.0": {
+      "url": "https://www.city.chuo.lg.jp/a0025/kosodate/kosodate/shien/azukeru/ichijiazukarihoiku.html",
+      "quote": "裁判員制度における裁判員候補者の呼び出しなどに応じる場合は全額免除"
+    },
+    "notes.1": {
+      "url": "https://www.city.chuo.lg.jp/a0025/kosodate/kosodate/shien/azukeru/ichijiazukarihoiku.html",
+      "quote": "締切を過ぎてキャンセルする 場合、使用料は全額負担となります。1週間以内に施設窓口でお支払いください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.chuo.lg.jp/a0025/kosodate/kosodate/shien/azukeru/ichijiazukarihoiku.html",
+      "quote": "解熱後24時間経過していない場合は、お預かりできません。予防接種を受けた日の当日はお預かりできません。"
+    },
+    "notes.3": {
+      "url": "https://www.city.chuo.lg.jp/a0021/kosodate/kosodate/keikaku/daretuu.html",
+      "quote": "3歳に達した月の翌月からの利用は中央区内の施設のみで、月10時間までとなります。"
+    },
+    "azukariRefresh": {
+      "url": "https://www.city.chuo.lg.jp/a0025/kosodate/kosodate/shien/azukeru/ichijiazukarihoiku.html",
+      "quote": "1時間単位でのご利用 です（毎時00分または30分から1時間単位で予約できます。）。 30分でのご利用も可能ですが、1時間分の料金が発生します。"
+    },
+    "azukariLimit": {
+      "url": "https://www.city.chuo.lg.jp/a0025/kosodate/kosodate/shien/azukeru/ichijiazukarihoiku.html",
+      "quote": "利用期間 原則として2日以上30日以内"
+    },
+    "azukariFees.1": {
+      "url": "https://www.city.chuo.lg.jp/a0025/kosodate/kosodate/shien/azukeru/ichijiazukarihoiku.html",
+      "quote": "使用料 1日2,000円"
+    },
+    "azukariReduction": {
+      "url": "https://www.city.chuo.lg.jp/a0025/kosodate/kosodate/shien/azukeru/ichijiazukarihoiku.html",
+      "quote": "注記1：生活保護世帯・住民税非課税世帯は全額免除、所得税非課税世帯は半額免除"
+    },
+    "azukariFacilities": {
+      "url": "https://www.city.chuo.lg.jp/a0025/kosodate/kosodate/shien/azukeru/ichijiazukarihoiku.html",
+      "quote": "次の施設でも運営事業者の独自事業として一時預かり保育を実施しています。子ども家庭支援センターとは利用方法などが異なりますので、ご利用の際は施設に直接お問い合わせください。"
+    },
+    "daredemoFacilities": {
+      "url": "https://www.city.chuo.lg.jp/a0021/kosodate/kosodate/keikaku/daretuu.html",
+      "quote": "注記3：本区では0歳児クラスの受け入れを行っていませんが、中央区外の施設で受け入れができる場合があります。"
+    },
+    "daredemoStatus": {
+      "url": "https://www.city.chuo.lg.jp/a0021/kosodate/kosodate/keikaku/daretuu.html",
+      "quote": "注記3：事前面談は施設の利用を確定するものではありません。枠の状況等によっては、利用をお断りする場合があります。"
+    }
+  },
+  "sources": [
+    {
+      "label": "中央区「一時預かり保育」",
+      "url": "https://www.city.chuo.lg.jp/a0025/kosodate/kosodate/shien/azukeru/ichijiazukarihoiku.html"
+    },
+    {
+      "label": "中央区「こども誰でも通園制度」",
+      "url": "https://www.city.chuo.lg.jp/a0021/kosodate/kosodate/keikaku/daretuu.html"
+    }
+  ]
+}

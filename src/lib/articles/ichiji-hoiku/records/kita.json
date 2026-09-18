@@ -1,0 +1,113 @@
+{
+  "citySlug": "kita",
+  "checkedAt": "2026-09-18",
+  "azukariPage": {
+    "label": "北区「一時預かり保育」",
+    "url": "https://www.city.kita.lg.jp/children-edu/childcare/1002833/1003742/1003743.html"
+  },
+  "azukariAges": "北区内にお住まいの生後8か月から就学前までの健康で集団保育が可能なお子さん",
+  "azukariFees": [
+    "基本（4時間まで）2,000円。追加（1時間）500円。食費500円",
+    "キッズタウンうきま・キッズタウンうきま夜間保育園は基本（4時間まで）2,000円、追加（30分）250円、食事代1食につき500円"
+  ],
+  "azukariReduction": "3歳から5歳までのお子さんと住民税非課税世帯の0歳から2歳までのお子さんは保育料が無償化される。ただし事前に「保育の必要性の認定」が必須で、就労等の要件を満たす必要がある。無償化の対象となる場合でも保育園に利用料をお支払いいただき、別途還付のお手続きが必要",
+  "azukariRegistration": "初めて利用する場合は各保育園で事前に面接を行う",
+  "azukariBooking": "各一時預かり保育実施保育園に直接お申し込みください",
+  "azukariFacilities": "私立保育園および一部の区立保育園（指定管理者制度を導入している保育園のみ）で実施。実施園一覧は北区の一時預かり保育実施園一覧（PDF）で確認可能",
+  "daredemoPage": {
+    "label": "北区「こども誰でも通園制度について」",
+    "url": "https://www.city.kita.lg.jp/children-edu/childcare/1002833/1003742/1017246.html"
+  },
+  "daredemoHours": "児童1人あたり「月10時間」を上限にご利用いただけます。未利用時間は翌月以降に繰り越せない",
+  "daredemoFee": "北区にお住いの方が区内実施施設を利用した場合、利用料・給食費・おやつ代は無償化。キャンセル料・超過料金・イベント参加代は別途負担",
+  "daredemoAges": "北区在住で、0歳6か月～満3歳未満（3歳の誕生日の前々日まで）の児童",
+  "daredemoApply": "インターネットフォーム（https://logoform.jp/form/VNHo/1448684）から新規申請。令和7年度以前にご申請いただいた方は再度新規申請フォームに入力が必要",
+  "daredemoStatus": "北区では令和6年7月から試行的事業を実施、令和7年度から全国実施に先駆けて実施",
+  "notes": [
+    "一時預かり保育（第一子・第二子無償化適用外）",
+    "認可保育園等に入園していないお子さんが対象",
+    "保育園の行事や受け入れ体制により、お預かりできないことがある",
+    "土曜日は受け入れ体制等により、お預かりできないことがある",
+    "こども誰でも通園制度は保護者の就労要件を問わず実施"
+  ],
+  "evidence": {
+    "azukariAges": {
+      "url": "https://www.city.kita.lg.jp/children-edu/childcare/1002833/1003742/1003743.html",
+      "quote": "北区内にお住まいの生後8か月から就学前までの健康で集団保育が可能なお子さんをお預かりします。"
+    },
+    "azukariFees.0": {
+      "url": "https://www.city.kita.lg.jp/children-edu/childcare/1002833/1003742/1003743.html",
+      "quote": "基本（4時間まで）2,000円　追加（1時間）500円　食費（昼食・おやつ）500円"
+    },
+    "azukariFees.1": {
+      "url": "https://www.city.kita.lg.jp/children-edu/childcare/1002833/1003742/1003743.html",
+      "quote": "基本（4時間まで）2,000円　追加（30分）250円　食事代1食につき　500円"
+    },
+    "azukariReduction": {
+      "url": "https://www.city.kita.lg.jp/children-edu/childcare/1002833/1003742/1003743.html",
+      "quote": "3歳から5歳までのお子さんと住民税非課税世帯の0歳から2歳までのお子さんは、保育料が無償化されます。（月額上限あり）"
+    },
+    "azukariRegistration": {
+      "url": "https://www.city.kita.lg.jp/children-edu/childcare/1002833/1003742/1003743.html",
+      "quote": "初めて利用する場合は、各保育園で事前に面接を行います。"
+    },
+    "azukariBooking": {
+      "url": "https://www.city.kita.lg.jp/children-edu/childcare/1002833/1003742/1003743.html",
+      "quote": "各一時預かり保育実施保育園に直接、お申し込みください。"
+    },
+    "azukariFacilities": {
+      "url": "https://www.city.kita.lg.jp/children-edu/childcare/1002833/1003742/1003743.html",
+      "quote": "私立保育園および一部の区立保育園（指定管理者制度を導入している保育園のみ）で実施"
+    },
+    "daredemoHours": {
+      "url": "https://www.city.kita.lg.jp/children-edu/childcare/1002833/1003742/1017246.html",
+      "quote": "児童1人あたり「月10時間」を上限にご利用いただけます。"
+    },
+    "daredemoFee": {
+      "url": "https://www.city.kita.lg.jp/children-edu/childcare/1002833/1003742/1017246.html",
+      "quote": "※北区にお住いの方が、上記の区内実施施設を利用した場合の利用料、給食費、おやつ代は無償化となります。"
+    },
+    "daredemoAges": {
+      "url": "https://www.city.kita.lg.jp/children-edu/childcare/1002833/1003742/1017246.html",
+      "quote": "北区在住で、0歳6か月～満3歳未満（※3歳の誕生日の前々日まで）の児童"
+    },
+    "daredemoApply": {
+      "url": "https://www.city.kita.lg.jp/children-edu/childcare/1002833/1003742/1017246.html",
+      "quote": "下記のインターネットフォームから区に申請を行う。新規申請フォームURL：https://logoform.jp/form/VNHo/1448684"
+    },
+    "daredemoStatus": {
+      "url": "https://www.city.kita.lg.jp/children-edu/childcare/1002833/1003742/1017246.html",
+      "quote": "北区では、令和6年7月から北区で試行的事業を実施しており、令和7年度から全国実施に先駆けて実施しています。"
+    },
+    "notes.0": {
+      "url": "https://www.city.kita.lg.jp/children-edu/childcare/1002833/1003742/1003743.html",
+      "quote": "一時的に保育を必要とするお子さんをお預かりする制度です。（第一子・第二子無償化適用外です。）"
+    },
+    "notes.1": {
+      "url": "https://www.city.kita.lg.jp/children-edu/childcare/1002833/1003742/1003743.html",
+      "quote": "認可保育園等に入園していないお子さんが対象です。"
+    },
+    "notes.2": {
+      "url": "https://www.city.kita.lg.jp/children-edu/childcare/1002833/1003742/1003743.html",
+      "quote": "保育園の行事や受け入れ体制により、お預かりできないことがあります。"
+    },
+    "notes.3": {
+      "url": "https://www.city.kita.lg.jp/children-edu/childcare/1002833/1003742/1003743.html",
+      "quote": "土曜日は受け入れ体制等により、お預かりできないことがあります。"
+    },
+    "notes.4": {
+      "url": "https://www.city.kita.lg.jp/children-edu/childcare/1002833/1003742/1017246.html",
+      "quote": "保護者の就労要件を問わず、保育園等を利用していない未就園児が、月10時間を限度に、時間単位で保育園を利用できる事業です。"
+    }
+  },
+  "sources": [
+    {
+      "label": "北区「一時預かり保育」",
+      "url": "https://www.city.kita.lg.jp/children-edu/childcare/1002833/1003742/1003743.html"
+    },
+    {
+      "label": "北区「こども誰でも通園制度について」",
+      "url": "https://www.city.kita.lg.jp/children-edu/childcare/1002833/1003742/1017246.html"
+    }
+  ]
+}

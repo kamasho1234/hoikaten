@@ -1,0 +1,140 @@
+{
+  "citySlug": "edogawa",
+  "checkedAt": "2026-09-18",
+  "azukariPage": {
+    "label": "江戸川区「一時保育」",
+    "url": "https://www.city.edogawa.tokyo.jp/e047/kosodate/kosodate/hoiku/ichiji/ichijihoiku.html"
+  },
+  "azukariReasons": "通院、冠婚葬祭への出席、リフレッシュなど様々な理由",
+  "azukariRefresh": "リフレッシュも理由になる。区の補助で利用料を無償としている施設があり、無償になるのは子ども1人あたり月5回まで（複数施設の合計）",
+  "azukariLimit": "利用回数は実施施設によって異なる。区独自補助で無償になるのは子ども1人あたり月5回まで（複数の施設を含めて5回）",
+  "azukariAges": "就学前の健康で集団保育が可能な子ども（利用年齢は施設ごとに異なり、一覧に記載）",
+  "azukariFees": [
+    "各施設が設定した金額。区の補助を活用して利用料を無償としている施設がある（一覧に「利用料無償施設」と表示）",
+    "緊急一時保育（区立保育園）: 1日1,000円"
+  ],
+  "azukariReduction": "区独自補助の無償化は子ども1人あたり月5回まで。延長保育や用具などは対象外。区独自制度のない有料施設でも、条件を満たせば国制度の無償化に該当することがある",
+  "azukariRegistration": "利用には実施施設で事前登録が必要。実施施設に直接電話で確認のうえ登録する",
+  "azukariBooking": "利用の開始時期・可能な時間・回数は実施施設によって異なるので各施設に問い合わせる。緊急一時保育は利用希望期間の1か月前から窓口で受付",
+  "azukariFacilities": "小松川・中央・小岩・東部・葛西の5地区に私立保育施設等17施設（休止中の園あり）。各施設の定員・利用年齢・時間・無償かどうかはページの一覧に記載",
+  "daredemoPage": {
+    "label": "江戸川区「こども誰でも通園制度（乳児等通園支援事業）」",
+    "url": "https://www.city.edogawa.tokyo.jp/e047/kosodate/kosodate/hoiku/ichiji/kodomodaredemotsuen.html"
+  },
+  "daredemoHours": "子ども1人につき月24時間まで（全対象施設を通しての時間）。区民が区外施設を使う場合と、区外在住者が区内施設を使う場合は月10時間まで",
+  "daredemoFee": "江戸川区民が区内施設を利用した場合は無償（施設によって用具など実費がかかる場合がある）。区外施設や区外在住者は各施設が定める料金",
+  "daredemoAges": "保育所・認定こども園・地域型保育事業・企業主導型保育施設に通っていない、利用日現在0歳6か月〜2歳児の子ども（認可外保育施設に通っている子どもは対象）",
+  "daredemoApply": "こども誰でも通園制度総合支援システムで区にオンライン申請（原則オンラインのみ）。申請の受理から認定証発行まで1〜2週間程度。認定後にシステムで施設の事前面談から利用予約まで行う",
+  "daredemoFacilities": "令和8年度の認可予定事業者一覧をPDFで掲載。医療的ケア児が利用可能な施設（区立小松川第三保育園、満1歳児〜2歳児）がある",
+  "daredemoStatus": "令和8年度から実施（利用者認定の受付は令和8年3月4日開始）。利用日前日までにキャンセルの連絡がないと利用したものとみなされ利用可能枠を消費する",
+  "otherServices": [
+    "緊急一時保育（保護者の入院などで一時的に保育が必要なとき、区立保育園で実施。家族等の支援が得られない場合に限る）",
+    "ベビーシッター利用支援事業（一時預かり利用支援）（ベビーシッターによる一時預かりの利用料補助）"
+  ],
+  "notes": [
+    "区の補助により無償となる施設でも、延長保育や用具などは無償化の対象外",
+    "同月内に複数の施設を利用する場合は、月初めに利用する施設から「利用管理表」を発行してもらい、2回目以降の利用時に各施設に提示する",
+    "各子育てひろばで実施していた一時保育は「こども誰でも通園制度」へ移行した",
+    "緊急一時保育は区内や近隣に祖父母等が住んでいる場合は原則利用できず、4〜5月は受け入れが困難"
+  ],
+  "evidence": {
+    "azukariReasons": {
+      "url": "https://www.city.edogawa.tokyo.jp/e047/kosodate/kosodate/hoiku/ichiji/ichijihoiku.html",
+      "quote": "保護者の通院、冠婚葬祭への出席やリフレッシュなど様々な理由で一時的にお子さんを預けたいときに、ご利用いただけます。"
+    },
+    "azukariRefresh": {
+      "url": "https://www.city.edogawa.tokyo.jp/e047/kosodate/kosodate/hoiku/ichiji/ichijihoiku.html",
+      "quote": "利用上限：無償となる回数には上限があり、子ども一人当たり月5回まで無償となります。（複数の施設を含めて5回まで）"
+    },
+    "azukariLimit": {
+      "url": "https://www.city.edogawa.tokyo.jp/e047/kosodate/kosodate/hoiku/ichiji/ichijihoiku.html",
+      "quote": "利用回数 実施施設によって異なります。詳しくは各施設にお問い合わせください。"
+    },
+    "azukariAges": {
+      "url": "https://www.city.edogawa.tokyo.jp/e047/kosodate/kosodate/hoiku/ichiji/ichijihoiku.html",
+      "quote": "就学前の、健康で集団保育が可能なお子さんです。"
+    },
+    "azukariFees.0": {
+      "url": "https://www.city.edogawa.tokyo.jp/e047/kosodate/kosodate/hoiku/ichiji/ichijihoiku.html",
+      "quote": "利用料については、各施設が設定した金額の利用料となりますが、区の補助を活用し利用料を無償としている施設があります。"
+    },
+    "azukariReduction": {
+      "url": "https://www.city.edogawa.tokyo.jp/e047/kosodate/kosodate/hoiku/ichiji/ichijihoiku.html",
+      "quote": "なお、区独自制度を実施していない利用料がかかる施設においても条件を満たした場合は、国制度上の無償化に該当する場合があります。"
+    },
+    "azukariRegistration": {
+      "url": "https://www.city.edogawa.tokyo.jp/e047/kosodate/kosodate/hoiku/ichiji/ichijihoiku.html",
+      "quote": "ご利用には実施施設で事前登録が必要です。 実施施設に直接電話でご確認の上、登録ください。"
+    },
+    "azukariBooking": {
+      "url": "https://www.city.edogawa.tokyo.jp/e047/kosodate/kosodate/hoiku/ichiji/ichijihoiku.html",
+      "quote": "利用の開始時期、可能な時間などは実施施設によって異なります。詳しくは各施設にお問い合わせください。"
+    },
+    "azukariFacilities": {
+      "url": "https://www.city.edogawa.tokyo.jp/e047/kosodate/kosodate/hoiku/ichiji/ichijihoiku.html",
+      "quote": "以下の保育園については、当分の間、一時保育事業を休止いたします。再開が決まりましたら、ホームページ等でお知らせいたします。"
+    },
+    "otherServices.0": {
+      "url": "https://www.city.edogawa.tokyo.jp/e047/kosodate/kosodate/hoiku/ichiji/ichijihoiku.html",
+      "quote": "保護者が入院などで一時的に保育が必要なお子さんを対象に、区立保育園で緊急一時保育を行います。 利用はご家族等の支援が得られない場合に限ります。"
+    },
+    "otherServices.1": {
+      "url": "https://www.city.edogawa.tokyo.jp/e047/kosodate/kosodate/hoiku/ichiji/ichijihoiku.html",
+      "quote": "当事業とは別に、ベビーシッターによる一時預かりの利用料補助(注)を行っています。"
+    },
+    "notes.0": {
+      "url": "https://www.city.edogawa.tokyo.jp/e047/kosodate/kosodate/hoiku/ichiji/ichijihoiku.html",
+      "quote": "延長保育や用具などは無償化の対象外となります。"
+    },
+    "notes.1": {
+      "url": "https://www.city.edogawa.tokyo.jp/e047/kosodate/kosodate/hoiku/ichiji/ichijihoiku.html",
+      "quote": "同月内で複数の施設を利用される際は、月初めに利用する施設から「利用管理表」を発行しますので、予約時に「複数施設を利用する」予定である旨をお伝えください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.edogawa.tokyo.jp/e047/kosodate/kosodate/hoiku/ichiji/ichijihoiku.html",
+      "quote": "（注）各子育てひろばで実施していた一時保育は「こども誰でも通園制度」へ移行しました。"
+    },
+    "notes.3": {
+      "url": "https://www.city.edogawa.tokyo.jp/e047/kosodate/kosodate/hoiku/ichiji/ichijihoiku.html",
+      "quote": "緊急的な対応に限らせていただくため、区内及び近隣に祖父母等が在住の場合は、原則としてご利用できません。"
+    },
+    "azukariFees.1": {
+      "url": "https://www.city.edogawa.tokyo.jp/e047/kosodate/kosodate/hoiku/ichiji/ichijihoiku.html",
+      "quote": "利用料金 1日1,000円 保育時間 午前7時30分から午後6時30分の間で保育が必要な時間"
+    },
+    "daredemoHours": {
+      "url": "https://www.city.edogawa.tokyo.jp/e047/kosodate/kosodate/hoiku/ichiji/kodomodaredemotsuen.html",
+      "quote": "子ども1人につき月24時間まで （注）1施設当たりではなく、全対象施設を通しての利用可能時間です。"
+    },
+    "daredemoFee": {
+      "url": "https://www.city.edogawa.tokyo.jp/e047/kosodate/kosodate/hoiku/ichiji/kodomodaredemotsuen.html",
+      "quote": "（注）江戸川区民が区内施設を利用した場合が対象です。（区外施設を利用した場合は利用料金がかかる場合があります。） （注）施設によって用具など実費がかかる場合があります。"
+    },
+    "daredemoAges": {
+      "url": "https://www.city.edogawa.tokyo.jp/e047/kosodate/kosodate/hoiku/ichiji/kodomodaredemotsuen.html",
+      "quote": "保育所、認定こども園、地域型保育事業、企業主導型保育施設（注）に通っていない利用日現在 0歳6か月～2歳児 の子ども （注）認可外保育施設に通っている子どもは対象となります。"
+    },
+    "daredemoApply": {
+      "url": "https://www.city.edogawa.tokyo.jp/e047/kosodate/kosodate/hoiku/ichiji/kodomodaredemotsuen.html",
+      "quote": "申請の受理から認定証発行まで1週間から2週間程度の時間がかかります。申請が集中した際は、さらに時間を要する見込みです。"
+    },
+    "daredemoFacilities": {
+      "url": "https://www.city.edogawa.tokyo.jp/e047/kosodate/kosodate/hoiku/ichiji/kodomodaredemotsuen.html",
+      "quote": "医療的ケア児が利用可能な施設があります。 （区立）小松川第三保育園 （注）対象年齢は満1歳児（4月2日時点）～2歳児"
+    },
+    "daredemoStatus": {
+      "url": "https://www.city.edogawa.tokyo.jp/e047/kosodate/kosodate/hoiku/ichiji/kodomodaredemotsuen.html",
+      "quote": "利用日前日（利用当日の0時より前）までにキャンセルのご連絡をいただけない場合は、乳児等通園支援事業をご利用されたものとみなし、利用可能枠を消費させていただきます。"
+    }
+  },
+  "sources": [
+    {
+      "label": "江戸川区「一時保育」",
+      "url": "https://www.city.edogawa.tokyo.jp/e047/kosodate/kosodate/hoiku/ichiji/ichijihoiku.html"
+    },
+    {
+      "label": "江戸川区「こども誰でも通園制度（乳児等通園支援事業）」",
+      "url": "https://www.city.edogawa.tokyo.jp/e047/kosodate/kosodate/hoiku/ichiji/kodomodaredemotsuen.html"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "citySlug": "shibuya",
+  "checkedAt": "2026-09-18",
+  "azukariPage": {
+    "label": "渋谷区「一時保育制度」",
+    "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoiku-service/itiji.html"
+  },
+  "azukariReasons": "公立保育園の一時保育は子育てのリフレッシュを主な目的。民営の施設では施設ごとに異なる（問い合わせ要）",
+  "azukariRefresh": "公立保育園の一時保育はリフレッシュが主な目的。別途、リフレッシュ一時預かり保育「SKIP（スキップ）」がある",
+  "azukariLimit": "公立保育園および民営の多くの施設は月最大8日。施設により異なるため詳細は各施設に確認が必要",
+  "azukariAges": "公立保育園は生後57日目から小学校就学前（笹塚第二保育園のみ満1歳から）。民営施設は満3か月から満5か月など施設ごとに異なる",
+  "azukariFees": [
+    "公立保育園（恵比寿・富ヶ谷・新橋・大向・笹塚第二）の一時保育: 1日4時間以内2,000円、8時間以内3,000円",
+    "民営保育園（ベネッセ美竹の丘保育園など）: 4時間まで3,000円、8時間まで6,000円など施設ごとに異なる",
+    "1時間単位の施設もある（例: 西原りとるぱんぷきんず 1時間750円、給食・離乳食1食310円・おやつ100円。渋谷本町こども園 1時間800円）"
+  ],
+  "azukariRegistration": "公立保育園の一時保育：渋谷区LINE公式アカウントの友達追加のうえ、LINE上での利用登録と事前面談が必要。民営施設は各施設で登録方法が異なる（事前面談、事前登録など）",
+  "azukariBooking": "公立保育園：LINE公式アカウントで予約（利用日前月10日が予約受付日、受付時間9時～12時）。LINE以外の場合は各施設に電話。民営施設は電話、メール、システム（mitete、コドモン等）など施設ごとに異なる",
+  "azukariFacilities": "区内17か所の保育園で実施（公立保育園5園と民営の保育園・こども園）",
+  "daredemoPage": {
+    "label": "渋谷区「令和8年度こども誰でも通園制度（乳児等通園支援事業）」",
+    "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoiku-service/kodomodaredemotsuen.html"
+  },
+  "daredemoHours": "児童1人あたり最大月64時間（3歳の誕生日の前日からは月54時間）。受入可能な曜日・日数・時間は施設により異なり、未利用時間の繰り越しは不可",
+  "daredemoFee": "1時間あたり300円程度（都内在住者は原則無料。区外在住の場合、施設ごとに異なる）",
+  "daredemoAges": "保育所や保育事業を利用していない未就園児（0歳6か月～2歳児クラス）。生後6か月から2歳児クラス年齢まで",
+  "daredemoApply": "認定申請フォームで乳児等支援給付の認定を申請（電子申請のみ）。申請から約10営業日で受付完了メールが届く。区立保育園・保育室は区の選考があり、私立保育園は各施設に申し込む",
+  "daredemoStatus": "令和8年4月から実施。当面の間は区内在住者の利用を優先し、原則2か月以上の継続的な利用が前提。令和7年度の「ちょこっと通園事業」の利用者も改めて認定申請が必要",
+  "otherServices": [
+    "リフレッシュ一時預かり保育「SKIP（スキップ）」：生後3か月から就学前まで、1時間1,300円（登録手数料1,000円、食費・保育衛生用品代別途）"
+  ],
+  "notes": [
+    "一時保育の料金の支払方法や申込方法は施設により異なる",
+    "公立保育園の一時保育はアレルギー食に対応していない",
+    "誰でも通園制度は教材費などの実費や、利用時間が上限を超えた場合は施設が定める料金を負担する"
+  ],
+  "evidence": {
+    "azukariReasons": {
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoiku-service/itiji.html",
+      "quote": "子育てのリフレッシュを主な目的に、区内在住の小学校就学前までの子どもを預かる制度です。"
+    },
+    "azukariRefresh": {
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoiku-service/skip.html",
+      "quote": "保護者のリフレッシュを目的として、生後3か月から就学前の子どもを一時預かりする制度です。"
+    },
+    "azukariLimit": {
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoiku-service/itiji.html",
+      "quote": "お子さま1人あたり、1か月で最大8日"
+    },
+    "azukariAges": {
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoiku-service/itiji.html",
+      "quote": "渋谷区内に住んでいる生後57日目から小学校就学前までの健康で集団保育が可能な児童（注）笹塚第二保育園のみ満1歳から受け付けます。"
+    },
+    "azukariFees.0": {
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoiku-service/itiji.html",
+      "quote": "利用料金1日 4時間以内 2,000円、8時間以内 3,000円"
+    },
+    "azukariFees.1": {
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoiku-service/itiji.html",
+      "quote": "利用料金4時間まで3,000円、8時間まで6,000円"
+    },
+    "azukariFees.2": {
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoiku-service/itiji.html",
+      "quote": "1時間あたり 800円"
+    },
+    "azukariRegistration": {
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoiku-service/itiji.html",
+      "quote": "初回のご利用前には次の1から3が必要です。渋谷区LINE公式アカウントの友達追加 LINE上での一時保育利用登録 事前面談"
+    },
+    "azukariBooking": {
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoiku-service/itiji.html",
+      "quote": "予約受付日は利用日前月の原則10日です。（受付時間は9時から12時まで）渋谷区LINE公式アカウントの子育てメニュー、子ども・子育て関連手続からお申し込みください。"
+    },
+    "azukariFacilities": {
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoiku-service/itiji.html",
+      "quote": "区内17か所の保育園で実施しています。"
+    },
+    "daredemoHours": {
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoiku-service/kodomodaredemotsuen.html",
+      "quote": "（注）受入可能な曜日・日数・時間は、各施設により異なります。 （注）各月の上限であり、未利用時間を翌月以降に繰り越すことはできません。"
+    },
+    "daredemoFee": {
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoiku-service/kodomodaredemotsuen.html",
+      "quote": "1時間あたり300円程度（注）都内在住者は原則無料です。"
+    },
+    "daredemoAges": {
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoiku-service/kodomodaredemotsuen.html",
+      "quote": "次の保育所や保育事業を利用していない未就園児（0歳6か月～2歳児クラス）"
+    },
+    "daredemoApply": {
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoiku-service/kodomodaredemotsuen.html",
+      "quote": "申請から約10営業日程度で、区から以下「受付完了メール」をお送りします。"
+    },
+    "daredemoStatus": {
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoiku-service/kodomodaredemotsuen.html",
+      "quote": "（注）当面の間、区内在住者の利用を優先させていただきます。"
+    },
+    "otherServices.0": {
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoiku-service/skip.html",
+      "quote": "利用料金1時間あたり1,300円（利用は2時間以上8時間以内）（注）このほかに、登録時の手数料1,000円、食費、保育衛生用品代などが別途必要です。"
+    },
+    "notes.0": {
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoiku-service/itiji.html",
+      "quote": "料金の支払方法や申込方法が施設により異なります。"
+    },
+    "notes.1": {
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoiku-service/itiji.html",
+      "quote": "アレルギー食には対応しておりません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoiku-service/kodomodaredemotsuen.html",
+      "quote": "（注）教材費などの実費や、利用時間が上限を超えた場合については、施設が定める料金をご負担いただきます。"
+    }
+  },
+  "sources": [
+    {
+      "label": "渋谷区「一時保育制度」",
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoiku-service/itiji.html"
+    },
+    {
+      "label": "渋谷区「リフレッシュ一時預かり保育「SKIP（スキップ）」」",
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoiku-service/skip.html"
+    },
+    {
+      "label": "渋谷区「令和8年度こども誰でも通園制度（乳児等通園支援事業）」",
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoiku-service/kodomodaredemotsuen.html"
+    }
+  ]
+}

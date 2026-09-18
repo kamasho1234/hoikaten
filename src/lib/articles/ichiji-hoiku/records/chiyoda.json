@@ -1,0 +1,121 @@
+{
+  "citySlug": "chiyoda",
+  "checkedAt": "2026-09-18",
+  "azukariPage": {
+    "label": "千代田区「保育園・こども園の一時（いちじ）保育」",
+    "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/hoiku/ichijihoiku.html"
+  },
+  "azukariReasons": "保護者やその家族が傷病や出産などで入院または通院するため。拡大型一時預かり保育と一時（いっとき）預かり保育は通院、学校行事、講習会、リフレッシュなど、家庭において保育が困難になる場合",
+  "azukariRefresh": "拡大型一時預かり保育と一時（いっとき）預かり保育は、通院・学校行事・講習会・リフレッシュなど家庭で保育が困難になるときに使える",
+  "azukariLimit": "保育園・こども園の一時保育は原則1か月以内。拡大型一時預かり保育は1日8時間以内・月60時間以内（月〜土 午前8時〜午後7時）。一時（いっとき）預かり保育は月〜土 午前9時〜午後5時の短時間",
+  "azukariAges": "保育園・こども園の一時保育は生後57日〜小学校就学前（こども園は2歳児クラスまで）。拡大型一時預かり保育は保育園に入園していない満4か月〜小学校就学前。一時（いっとき）預かり保育は区内在住の生後6か月〜小学校就学前",
+  "azukariFees": [
+    "保育園・こども園の一時保育: 児童1人につき1日1,600円、延長保育は1時間につき200円加算",
+    "拡大型一時預かり保育: 午前9時～午後5時は1時間500円（4時間まで、4時間を超えた場合は1時間800円）。午前8時～午前9時、午後5時～午後7時は1時間800円"
+  ],
+  "azukariRegistration": "保育園・こども園の一時保育は書類提出後に受け入れ園で面接と健康診断。拡大型一時預かりは初回に乳幼児医療証と利用申請書・利用チェック表を持参。一時（いっとき）預かり（区立児童館）はポータルサイトにアカウント登録し、乳幼児医療証（減免申請者は非課税証明書等）を添付してオンライン申請",
+  "azukariBooking": "拡大型一時預かり保育は利用希望日の2日前までに利用場所へ電話等で予約。一時（いっとき）預かり保育は区立児童館はポータルサイトからオンライン予約、ポピンズキッズルーム一番町は電話",
+  "azukariFacilities": "保育園・こども園の一時保育は区内の保育園・こども園。拡大型一時預かり保育は富士見わんぱくひろば、いずみこどもプラザ、グローバルキッズ飯田橋保育ルーム。一時（いっとき）預かり保育は西神田児童センター・神田児童館・一番町児童館・ポピンズキッズルーム一番町",
+  "daredemoPage": {
+    "label": "千代田区「こども誰でも通園制度の利用案内」",
+    "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ichijiteki/daredemotsuen/riyoannai.html"
+  },
+  "daredemoHours": "1人あたり月10時間まで",
+  "daredemoFee": "区内施設は無料（給食を提供する場合は、給食費等も無料）。おやつ代等は別途費用が発生する場合がある。他自治体の施設については各施設にお問い合わせください",
+  "daredemoAges": "区内に居住し住民登録があり、利用日時点で生後0歳6か月から満3歳未満（3歳になる誕生日の前々日まで）で、認可保育所等に在籍していない子ども",
+  "daredemoApply": "こども誰でも通園制度総合支援システムにメールアドレスを登録し、保護者と子どもの情報を入力して利用認定申請。区の審査に1週間ほどかかり、アカウント発行後に初回面談を予約してから施設の利用予約ができる",
+  "notes": [
+    "保育園・こども園の一時保育は通常の入所選考に漏れた人は対象ではなく、園の定員に空きがない場合は利用できない。最初は短時間の慣らし保育になる",
+    "一時（いっとき）預かり保育は保育園に在籍している場合は原則利用できない",
+    "誰でも通園制度は未利用時間を翌月以降に繰り越せず、複数園を利用する場合も合計で月10時間まで",
+    "誰でも通園制度は初めて利用する園では利用前に初回面談を必ず実施する"
+  ],
+  "evidence": {
+    "azukariReasons": {
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/hoiku/ichijihoiku.html",
+      "quote": "保護者やその家族が傷病や出産などで入院または通院するため、一時的に児童の保育ができない場合"
+    },
+    "azukariLimit": {
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ichijiteki/kakudaigata/index.html",
+      "quote": "月曜日～土曜日、午前8時～午後7時 （1日8時間以内・月60時間以内）"
+    },
+    "azukariAges": {
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ichijiteki/kakudaigata/index.html",
+      "quote": "（区内在住で、保育園に入園していない満4か月～小学校就学前）を、一時的にお預かりします。"
+    },
+    "azukariFees.0": {
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/hoiku/ichijihoiku.html",
+      "quote": "児童1人につき、1日1,600円 延長保育は、1時間につき、200円加算"
+    },
+    "azukariFees.1": {
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ichijiteki/kakudaigata/index.html",
+      "quote": "午前9時～午後5時は1時間500円（4時間まで、4時間を超えた場合は1時間800円） 午前8時～午前9時、午後5時～午後7時は1時間800円"
+    },
+    "azukariRegistration": {
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ichijiteki/kakudaigata/index.html",
+      "quote": "初回時は、子どもが区民であることを証明できる書類（乳幼児医療証） 一時（いっとき）預かり保育事業利用申請書 一時（いっとき）預かり保育利用チェック表"
+    },
+    "daredemoHours": {
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ichijiteki/daredemotsuen/riyoannai.html",
+      "quote": "1人あたり月10時間まで"
+    },
+    "daredemoAges": {
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ichijiteki/daredemotsuen/riyoannai.html",
+      "quote": "区内に居住し、かつ、住民登録を有しているもの。 生後0歳6か月から満3歳未満（3歳になる誕生日の前々日まで）であること。"
+    },
+    "daredemoFee": {
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ichijiteki/daredemotsuen/riyoannai.html",
+      "quote": "区内施設は無料（給食を提供する場合は、給食費等も無料）"
+    },
+    "daredemoApply": {
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ichijiteki/daredemotsuen/riyoannai.html",
+      "quote": "初めにシステムにメールアドレスを登録し、保護者やお子さんの情報を入力のうえ、利用認定申請が必要です。区が審査を行います。審査は1週間ほど要します。"
+    },
+    "notes.0": {
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/hoiku/ichijihoiku.html",
+      "quote": "（注意）通常の入所選考に漏れた方は対象ではありません。"
+    },
+    "notes.1": {
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ichijiteki/ittoki.html",
+      "quote": "保育園に在籍している場合は、原則ご利用できません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ichijiteki/daredemotsuen/riyoannai.html",
+      "quote": "未利用時間があっても、翌月以降に繰り越すことはできません。"
+    },
+    "notes.3": {
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ichijiteki/daredemotsuen/riyoannai.html",
+      "quote": "利用前に初回面談を必ず実施してください。"
+    },
+    "azukariRefresh": {
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ichijiteki/kakudaigata/index.html",
+      "quote": "区内にお住まいの保護者の方が通院、学校行事はもちろん、講習会やリフレッシュなど、家庭において保育が困難になる乳幼児"
+    },
+    "azukariBooking": {
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ichijiteki/kakudaigata/index.html",
+      "quote": "利用希望日の2日前までに、利用場所へ申し込んでください。 （緊急の場合はご相談ください）"
+    },
+    "azukariFacilities": {
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ichijiteki/ittoki.html",
+      "quote": "西神田児童センター、神田児童館、一番町児童館をご利用の方は、下記にご案内のとおり ポータルサイト（外部サイトへリンク） からお申し込みください。 ポピンズキッズルーム一番町をご利用の方は、直接お電話でお申し込みください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "千代田区「保育園・こども園の一時（いちじ）保育」",
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/hoiku/ichijihoiku.html"
+    },
+    {
+      "label": "千代田区「拡大型一時預かり保育」",
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ichijiteki/kakudaigata/index.html"
+    },
+    {
+      "label": "千代田区「一時（いっとき）預かり保育」",
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ichijiteki/ittoki.html"
+    },
+    {
+      "label": "千代田区「こども誰でも通園制度の利用案内」",
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ichijiteki/daredemotsuen/riyoannai.html"
+    }
+  ]
+}

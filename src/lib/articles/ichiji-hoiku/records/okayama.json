@@ -1,0 +1,156 @@
+{
+  "citySlug": "okayama",
+  "checkedAt": "2026-09-18",
+  "azukariPage": {
+    "label": "岡山市「一時預かり事業について（公立園）」",
+    "url": "https://www.city.okayama.jp/kurashi/0000018418.html"
+  },
+  "azukariReasons": "保護者の就労・就学、職業訓練等（週3日以内）、疾病・災害・事故・出産・看護・介護（1か月以内）、保護者の心理的・肉体的負担を解消する等の私的理由",
+  "azukariRefresh": "保護者の保育等に伴う心理的・肉体的負担を解消する等の私的理由により、一時的に保育が必要な場合に利用可能",
+  "azukariLimit": "就労・就学等は週3日以内、疾病・災害・出産・看護・介護は1か月以内",
+  "azukariAges": "岡山市に在住している就学前児童で、満1歳以上（離乳食が完了していること）",
+  "azukariFees": [
+    "1・2歳児：4時間以上 1日3,000円、4時間未満 1日1,500円（給食費別）",
+    "3・4・5歳児：4時間以上 1日2,000円、4時間未満 1日1,000円（給食費別、主食は持参）",
+    "給食費：1・2歳児 1食270円、3・4・5歳児 1食240円（灘崎認定こども園は完全給食のため別途米代必要）",
+    "同一世帯で同日に2人以上預ける場合、第二子以降は利用料が半額"
+  ],
+  "azukariRegistration": "園に電話または訪問して一時預かりの説明を聞き、所定の書類に記入。園と相談して利用日や時間を決める",
+  "azukariBooking": "利用月の前月20日までに電話予約（9時～17時）。利用日に利用し、料金を支払う",
+  "azukariFacilities": "公立園4施設が実施。御津金川認定こども園、灘崎認定こども園、南方岡山中央認定こども園、千種認定こども園。各園の連絡先は別紙参照",
+  "daredemoPage": {
+    "label": "岡山市「こども誰でも通園制度について」",
+    "url": "https://www.city.okayama.jp/kurashi/0000077889.html"
+  },
+  "daredemoHours": "1人あたり月10時間が上限（1回の利用時間は1時間以上、以降30分単位）",
+  "daredemoFee": "1時間300円〜（施設により異なる）。給食代等の実費負担が発生する場合がある。減免申請をすれば生活保護世帯は1時間300円、市区町村民税非課税世帯は1時間200円が減免される（申請日以降に適用）",
+  "daredemoAges": "0歳6か月から満3歳未満のこども（認可保育所、幼稚園、認定こども園、地域型保育事業所、企業主導型保育施設に通っている子どもは対象外）",
+  "daredemoApply": "岡山市ホームページより電子申請で利用認定申請。認定完了後に『つうえんポータル』にログインし、利用者・児童の情報登録。初回面談申し込み後に利用予約",
+  "daredemoFacilities": "実施事業所一覧（令和8年5月20日現在）をPDFで掲載。岡山市外の事業所も利用できる",
+  "daredemoStatus": "電子申請で利用認定を申請し、事前に初回面談が必要なので利用希望日から余裕をもって申請する。利用日当日のキャンセルは利用していなくても予約時間分が月10時間から差し引かれる",
+  "otherServices": [],
+  "notes": [
+    "公立園の一時預かりは体調が悪い時や感染性の病気にかかっている時は預かれない",
+    "灘崎認定こども園は完全給食（主食を提供）のため、別途米代が必要",
+    "アレルギーのある子の除去食や離乳食には対応していないため、お弁当・おやつを持参する",
+    "一時預かりのキャンセルは早めに連絡する",
+    "こども誰でも通園制度は利用の理由が必要ない。一時預かり事業との併用も可能",
+    "誰でも通園制度で市外に転出して引き続き利用する場合は、転居先の市区町村で再申請が必要。認可保育所等への通園が決まった場合は消滅届を出す"
+  ],
+  "evidence": {
+    "azukariReasons": {
+      "url": "https://www.city.okayama.jp/cmsfiles/contents/0000018/18418/ichijiazukari.pdf",
+      "quote": "保護者の就労・就学、職業訓練等〔週３日以内〕②保護者の疾病、災害、事故、出産、看護、介護 〔１か月以内〕③保護者の保育等に伴う心理的・肉体的負担を解消する等の私的理由"
+    },
+    "azukariRefresh": {
+      "url": "https://www.city.okayama.jp/cmsfiles/contents/0000018/18418/ichijiazukari.pdf",
+      "quote": "保護者の保育等に伴う心理的・肉体的負担を解消する等の私的理由により、一時的に保育が必要な場合"
+    },
+    "azukariLimit": {
+      "url": "https://www.city.okayama.jp/cmsfiles/contents/0000018/18418/ichijiazukari.pdf",
+      "quote": "① 保護者の就労・就学、職業訓練等〔週３日以内〕② 保護者の疾病、災害、事故、出産、看護、介護 〔１か月以内〕"
+    },
+    "azukariAges": {
+      "url": "https://www.city.okayama.jp/cmsfiles/contents/0000018/18418/ichijiazukari.pdf",
+      "quote": "岡山市に在住している就学前児童 年齢 満1 歳以上（離乳食が完了していること）"
+    },
+    "azukariFees.0": {
+      "url": "https://www.city.okayama.jp/cmsfiles/contents/0000018/18418/ichijiazukari.pdf",
+      "quote": "１・２歳児 ４時間以上 日額 ３，０００円 ４時間未満 日額 １，５００円"
+    },
+    "azukariFees.1": {
+      "url": "https://www.city.okayama.jp/cmsfiles/contents/0000018/18418/ichijiazukari.pdf",
+      "quote": "３・４・５・歳児 ４時間以上 日額 ２，０００円 ４時間未満 日額 １，０００円"
+    },
+    "azukariFees.2": {
+      "url": "https://www.city.okayama.jp/cmsfiles/contents/0000018/18418/ichijiazukari.pdf",
+      "quote": "給食費 １食あたり（令和7年度現在） １・２歳児：２７０円 ３・４・５歳児：２４０円（主食は持参）"
+    },
+    "azukariFees.3": {
+      "url": "https://www.city.okayama.jp/cmsfiles/contents/0000018/18418/ichijiazukari.pdf",
+      "quote": "同一世帯で同日に２人以上預ける場合、第二子以降は利用料が半額になります。"
+    },
+    "azukariRegistration": {
+      "url": "https://www.city.okayama.jp/kurashi/0000018418.html",
+      "quote": "園に行き、一時預かりの説明を聞き、所定の書類に記入する。園と相談して、利用日や時間を決める。"
+    },
+    "azukariBooking": {
+      "url": "https://www.city.okayama.jp/cmsfiles/contents/0000018/18418/ichijiazukari.pdf",
+      "quote": "利用を希望される場合は、下記枠内の１・２を済ませた上で、利用月の前月の２０日までに予約してください。（9 時～17 時 電話可）"
+    },
+    "azukariFacilities": {
+      "url": "https://www.city.okayama.jp/kurashi/0000018418.html",
+      "quote": "岡山市御津金川認定こども園"
+    },
+    "daredemoHours": {
+      "url": "https://www.city.okayama.jp/kurashi/0000077889.html",
+      "quote": "1人あたり月10時間が上限となります。※1回の利用時間は1時間以上、以降30分単位"
+    },
+    "daredemoFee": {
+      "url": "https://www.city.okayama.jp/kurashi/0000077889.html",
+      "quote": "(1)生活保護法による被保護世帯：児童一人あたり1時間300円 (2)市区町村民税非課税世帯：児童一人あたり1時間200円"
+    },
+    "daredemoAges": {
+      "url": "https://www.city.okayama.jp/kurashi/0000077889.html",
+      "quote": "0歳6か月から満3歳未満の子ども※事業所により対象年齢が異なります。"
+    },
+    "daredemoApply": {
+      "url": "https://www.city.okayama.jp/kurashi/0000077889.html",
+      "quote": "以下のページより利用認定の申請をおこなってください。【電子申請】こども誰でも通園制度利用認定申請"
+    },
+    "daredemoFacilities": {
+      "url": "https://www.city.okayama.jp/kurashi/0000077889.html",
+      "quote": "岡山市外の事業所も利用できます。"
+    },
+    "daredemoStatus": {
+      "url": "https://www.city.okayama.jp/kurashi/0000077889.html",
+      "quote": "●利用日当日のキャンセルは、利用していなくても利用可能時間（月10時間）から予約時間分が差し引かれます。"
+    },
+    "notes.0": {
+      "url": "https://www.city.okayama.jp/cmsfiles/contents/0000018/18418/ichijiazukari.pdf",
+      "quote": "＊体調が悪い時や感染性の病気にかかっている時はお預かりできません。"
+    },
+    "notes.1": {
+      "url": "https://www.city.okayama.jp/cmsfiles/contents/0000018/18418/ichijiazukari.pdf",
+      "quote": "※灘崎認定こども園は完全給食（主食を提供）のため、別途米代が必要です。"
+    },
+    "notes.2": {
+      "url": "https://www.city.okayama.jp/cmsfiles/contents/0000018/18418/ichijiazukari.pdf",
+      "quote": "※アレルギーのある方の除去食や離乳食には対応しておりませんので、お弁当・おやつを持ってきてください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.okayama.jp/cmsfiles/contents/0000018/18418/ichijiazukari.pdf",
+      "quote": "・キャンセルの場合は早めにご連絡ください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.okayama.jp/kurashi/0000077889.html",
+      "quote": "こども誰でも通園制度では利用の理由は必要ありません。家庭にいるだけでは得られない様々な経験を通じて、こどもの育ちを応援することが主な目的です。"
+    },
+    "notes.5": {
+      "url": "https://www.city.okayama.jp/kurashi/0000077889.html",
+      "quote": "市外に転出し、引き続き本制度を利用される場合、転居先の市区町村で再申請が必要になります。"
+    }
+  },
+  "sources": [
+    {
+      "label": "岡山市「一時預かり事業について（公立園）」",
+      "url": "https://www.city.okayama.jp/kurashi/0000018418.html"
+    },
+    {
+      "label": "岡山市「一時預かり事業チラシ」",
+      "url": "https://www.city.okayama.jp/cmsfiles/contents/0000018/18418/ichijiazukari.pdf"
+    },
+    {
+      "label": "岡山市「こども誰でも通園制度について」",
+      "url": "https://www.city.okayama.jp/kurashi/0000077889.html"
+    },
+    {
+      "label": "岡山市「こども誰でも通園制度ご案内チラシ」",
+      "url": "https://www.city.okayama.jp/cmsfiles/contents/0000077/77889/R8chirashi.pdf"
+    },
+    {
+      "label": "岡山市「こども誰でも通園制度実施事業所一覧」",
+      "url": "https://www.city.okayama.jp/cmsfiles/contents/0000077/77889/20260520jigyoushoitiran.pdf"
+    }
+  ]
+}

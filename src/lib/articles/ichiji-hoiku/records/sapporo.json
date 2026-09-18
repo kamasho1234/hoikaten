@@ -1,0 +1,130 @@
+{
+  "citySlug": "sapporo",
+  "checkedAt": "2026-09-18",
+  "azukariPage": {
+    "label": "札幌市「認定こども園・幼稚園・保育所での一時的な預かり」",
+    "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/ichiji/927.html"
+  },
+  "azukariReasons": "保護者の就労、就学等により保育が必要なとき。保護者の通院や入院、一時的な体調不良、親族の介護または看護、ボランティア等の社会的活動、冠婚葬祭等により保育が必要なとき。保護者の育児等に伴う心理的又は肉体的負担の解消（リフレッシュ）等により保育が必要なとき",
+  "azukariRefresh": "保護者の育児等に伴う心理的又は肉体的負担の解消（リフレッシュ）等で利用でき、料金の上限は就労等の理由より高い（3歳未満2,700円、3歳以上1,600円）",
+  "azukariLimit": "利用日数の上限は公式ページに記載がなく、事前登録の必要性など運用は施設ごとに異なる。利用できる日は原則月〜土（日・祝、年末年始は閉園日）",
+  "azukariAges": "保育所、認定こども園、特定地域型保育事業及び幼稚園に在籍していない就学前児童（施設により対象年齢が異なる）",
+  "azukariFees": [
+    "就労・就学・通院や入院・体調不良・介護看護・社会的活動・冠婚葬祭等の理由: 1日の上限が3歳未満2,000円、3歳以上1,200円（施設がこの範囲で料金を決める）",
+    "リフレッシュ等の理由: 1日の上限が3歳未満2,700円、3歳以上1,600円",
+    "給食を希望する場合は昼食代が別。別途実費徴収がある場合もある"
+  ],
+  "azukariRegistration": "保育を必要とする理由を証明する書類の提出が必要。事前登録の必要性など運用の詳細は施設によって異なるので各施設に問い合わせる",
+  "azukariBooking": "利用する施設に直接問い合わせて予約する",
+  "azukariFacilities": "一時預かり（非在園児向け）事業実施施設の一覧（PDF）で探し、施設へ直接問い合わせる",
+  "daredemoPage": {
+    "label": "札幌市「札幌市こども誰でも通園制度」",
+    "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/13027.html"
+  },
+  "daredemoHours": "月10時間まで",
+  "daredemoFee": "1時間300円（生活保護法による被保護世帯は無料、市町村民税非課税世帯及び市町村民税所得割合算額が77,101円未満の世帯は100円）",
+  "daredemoAges": "生後6ヶ月から満3歳未満（3歳の誕生日の前々日まで）。施設ごとに受入れ年齢が異なるため確認が必要",
+  "daredemoApply": "給付認定申請フォームで申請（随時受付、決定まで1か月ほど）。決定後に認定証と利用予約システムのアカウントが発行され、面談希望日の7日前までに事前面談を予約し、面談（30〜60分）後に利用予約ができる",
+  "daredemoFacilities": "複数の保育所、認定こども園、地域型保育等で実施。施設一覧で受入れ年齢などを確認できる",
+  "daredemoStatus": "利用できる日は月〜金（一部土曜可の施設あり）。令和8年10月の利用から国の総合支援システム（つうえんポータル）へ移行。定員に達した場合など希望日に利用できないことがある",
+  "otherServices": [
+    "子どもショートステイ（保護者の疾病、出産等の理由で家庭での保育が困難な場合）"
+  ],
+  "notes": [
+    "一時預かりは施設ごとに対象年齢、営業日、事前登録の方法が異なるため、直接施設へ確認が必須",
+    "札幌市外の保育施設に在籍する児童が札幌市内の施設で一時預かりを利用することも可能",
+    "こども誰でも通園制度は保育所等の施設に在籍していない児童が対象（保育所等の定義に注意）"
+  ],
+  "evidence": {
+    "azukariReasons": {
+      "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/ichiji/927.html",
+      "quote": "保護者の就労、就学等により保育が必要なとき。保護者の通院や入院、一時的な体調不良、親族の介護または看護、ボランティア等の社会的活動、冠婚葬祭等により保育が必要なとき。保護者の育児等に伴う心理的又は肉体的負担の解消（リフレッシュ）等により保育が必要なとき。"
+    },
+    "azukariRefresh": {
+      "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/ichiji/927.html",
+      "quote": "保護者の育児等に伴う心理的又は肉体的負担の解消（リフレッシュ）等 3歳未満 2,700円 3歳以上 1,600円"
+    },
+    "azukariAges": {
+      "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/ichiji/927.html",
+      "quote": "保育所、認定こども園、特定地域型保育事業及び幼稚園に在籍していない就学前児童"
+    },
+    "azukariFees.0": {
+      "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/ichiji/927.html",
+      "quote": "ボランティア等の社会的活動、冠婚葬祭等 3歳未満 2,000円 3歳以上 1,200円"
+    },
+    "azukariFees.1": {
+      "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/ichiji/927.html",
+      "quote": "保護者の育児等に伴う心理的又は肉体的負担の解消（リフレッシュ）等 3歳未満 2,700円 3歳以上 1,600円"
+    },
+    "azukariFees.2": {
+      "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/ichiji/927.html",
+      "quote": "なお、給食を希望する場合は、下記料金とは別に昼食代の負担があります。また、別途実費徴収を行う場合がありますので、詳細は施設にお問い合わせください。"
+    },
+    "azukariRegistration": {
+      "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/ichiji/927.html",
+      "quote": "保育を必要とする理由を証明する書類の提出をお願いしております。事前登録の必要性など利用にあたっての運用等の詳細は、施設によって異なりますので、各施設へ直接お問い合わせください。"
+    },
+    "azukariBooking": {
+      "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/ichiji/927.html",
+      "quote": "次のリンクを開き 、施設へ直接お問い合わせください。"
+    },
+    "azukariLimit": {
+      "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/ichiji/927.html",
+      "quote": "事前登録の必要性など利用にあたっての運用等の詳細は、施設によって異なりますので、各施設へ直接お問い合わせください。"
+    },
+    "azukariFacilities": {
+      "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/ichiji/927.html",
+      "quote": "次のリンクを開き 、施設へ直接お問い合わせください。"
+    },
+    "daredemoHours": {
+      "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/13027.html",
+      "quote": "お子さん１人につき　月１０時間まで"
+    },
+    "daredemoFee": {
+      "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/13027.html",
+      "quote": "お子さん1人につき　１時間３００円　※生活保護法による被保護世帯：０円、市町村民税非課税世帯及び市町村民税所得割合算額が77,101円未満の世帯：１００円"
+    },
+    "daredemoAges": {
+      "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/13027.html",
+      "quote": "1.生後６か月から満３歳未満（３歳の誕生日の前々日まで）"
+    },
+    "daredemoApply": {
+      "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/13027.html",
+      "quote": "事前面談予約は面談希望日の７日前まで予約申請が可能です。"
+    },
+    "daredemoFacilities": {
+      "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/13027.html",
+      "quote": "施設一覧における「受入れ年齢」は「クラス年齢（学齢）」で「クラス年齢は４月１日時点の満年齢」で判断します。"
+    },
+    "daredemoStatus": {
+      "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/13027.html",
+      "quote": "月曜日から金曜日（一部、土曜日の利用が可能な施設があります。）"
+    },
+    "otherServices.0": {
+      "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/ichiji/3196.html",
+      "quote": "保護者が、病気・出産・看護・事故・出張・冠婚葬祭などで一時的に子どもを養育できない場合、児童養護施設等で短期間（原則7日以内）お預かりします。"
+    },
+    "notes.0": {
+      "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/ichiji/927.html",
+      "quote": "事前登録の必要性など利用にあたっての運用等の詳細は、施設によって異なりますので、各施設へ直接お問い合わせください。"
+    },
+    "notes.1": {
+      "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/ichiji/927.html",
+      "quote": "帰省や出張、里帰り出産など、札幌市外の保育所等に在籍する児童が札幌市内の保育所等で保育を必要とする場合"
+    },
+    "notes.2": {
+      "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/13027.html",
+      "quote": "2.保育所等の施設に在籍していない　※上記２の「保育所等の施設」とは保育所、認定こども園、幼稚園、地域型保育事業所及び企業主導型保育施設です。"
+    }
+  },
+  "sources": [
+    {
+      "label": "札幌市「認定こども園・幼稚園・保育所での一時的な預かり」",
+      "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/ichiji/927.html"
+    },
+    {
+      "label": "札幌市「札幌市こども誰でも通園制度」",
+      "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/13027.html"
+    }
+  ]
+}

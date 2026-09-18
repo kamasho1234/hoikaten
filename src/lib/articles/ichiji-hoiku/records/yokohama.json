@@ -1,0 +1,177 @@
+{
+  "citySlug": "yokohama",
+  "checkedAt": "2026-09-18",
+  "azukariPage": {
+    "label": "横浜市「一時保育のご案内」",
+    "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/hoikuseido/ichiji/ichijiannai.html"
+  },
+  "azukariReasons": "非定型的保育（保護者等の就労、職業訓練や就学等により家庭での保育が断続的に困難となる場合）、緊急保育（疾病、入院、冠婚葬祭などやむを得ない理由で緊急一時的に保育が必要となる場合）、リフレッシュ保育（育児に伴う保護者の身体的、心理的負担を解消する場合）。また乳幼児一時預かり事業では理由を問わず利用できる",
+  "azukariRefresh": "一時保育のリフレッシュ保育区分、および乳幼児一時預かり事業（理由を問わず利用可能）で対応。児童一人当たり月120時間以内",
+  "azukariLimit": "一時保育は月に合計120時間以内（児童一人当たり、複数園利用時は合計）。乳幼児一時預かり事業は児童1人につき月に120時間まで（複数施設利用時は合算）",
+  "azukariAges": "一時保育は認可保育所等に在籍していない未就学児童。乳幼児一時預かり事業は生後57日から小学校就学前まで市内居住児童（市外在住者の里帰り出産等での一時利用も可能）",
+  "azukariFees": [
+    "一時保育（0～2歳児クラス）：1時間あたり300円（1人あたり）、日額上限2,400円",
+    "一時保育（3～5歳児クラス）：1時間あたり160円（1人あたり）、日額上限1,300円",
+    "一時保育の給食・おやつ代：1日あたり500円（全児童合計、1人あたり）",
+    "乳幼児一時預かり事業：1時間あたり300円を上限に施設ごとに設定。おやつ代などの実費相当額がかかる場合がある"
+  ],
+  "azukariReduction": "横浜市在住の生活保護世帯・市民税非課税世帯・ひとり親世帯・多胎児（緊急・リフレッシュ利用目的）は利用料全額減免、市町村民税所得割合算額77,101円未満の世帯は利用料の2/3減免（食費等の実費は除く）。証明書類の提出が必要で、里帰り出産等は対象外",
+  "azukariRegistration": "横浜市一時預かり・病児保育WEB予約システムで面談申込を行い、施設に電話して面談の日程調整をする。面談後、施設から利用許可のメールが届いたらWEB予約システムから利用予約。施設によって登録方法・利用申込方法、予約可能期間が異なる場合がある",
+  "azukariBooking": "横浜市一時預かり・病児保育WEB予約システムから予約（一部施設のみ予約機能あり。乳幼児一時預かり事業は全施設がWEB予約可）",
+  "azukariFacilities": "一時保育は市内の認可保育所、幼保連携型認定こども園、小規模保育事業、家庭的保育事業の一部施設で実施。乳幼児一時預かり事業は市内複数施設で実施。施設一覧は横浜市一時預かり・病児保育WEB予約システムで確認可能。実施施設は横浜市一時預かり・病児保育WEB予約システムから検索可能",
+  "daredemoPage": {
+    "label": "横浜市「こども誰でも通園制度（乳児等通園支援事業）について」",
+    "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/kosodateshien/azukari/daredemotsuuenn.html"
+  },
+  "daredemoHours": "一人あたり月10時間まで（毎週同じ曜日・時間帯に利用する定期利用を推奨）。利用時間・対象年齢は実施施設により異なる",
+  "daredemoFee": "1時間あたり300円程度（施設によって異なる場合がある）。給食やおやつ等がある場合は別途料金",
+  "daredemoAges": "0歳6か月から満3歳未満（利用日時点で基準。誕生日の前々日で利用終了）。幼稚園、保育所、認定こども園、地域型保育事業、企業主導型保育施設に在籍していないお子さん",
+  "daredemoApply": "利用前に横浜市から乳児等支援給付認定を受ける。認定後にこども誰でも通園制度総合支援システムのアカウントが発行され、保護者と子どもの情報を登録して施設に面談を申し込み、面談後にシステムで利用予約。初回または慣れるまでの複数回は親子通園になる場合がある",
+  "daredemoFacilities": "市内の保育所、幼稚園、認定こども園（幼保連携型、幼稚園型）、小規模保育事業、地域子育て支援拠点等36か所で実施。実施施設の詳細情報はHP上の実施施設一覧で確認可能",
+  "daredemoStatus": "月10時間を超えての利用はできない。満3歳（誕生日の前々日）まで利用できる。実施施設は市内36か所",
+  "otherServices": [
+    "休日保育・休日の一時保育（土日祝日の利用）",
+    "24時間いつでも預かり保育（夜間・宿泊対応）",
+    "はじめてのおあずかり券（新規利用者向けのクーポン）"
+  ],
+  "notes": [
+    "利用料は30分単位で徴収され、10円未満は切り上げ。キャンセル料の有無、実施時間外の料金は各施設によって異なるため施設に直接確認が必要",
+    "市外にお住まいの児童の場合は、上記の上限金額にかかわらず、施設が自由に設定",
+    "乳幼児一時預かり事業で減免を受ける場合、施設を利用する前に該当する証明書類（個人番号の記載がないもの）の写しを施設へ提出。年度または有効期限ごとに提出が必要",
+    "一時保育の利用人員によっては、利用が制限されることがある",
+    "保育所等の利用申請において、有償で64時間以上一時保育等を利用している場合、おあずかり券による利用時間は対象外となる",
+    "横浜市民以外の利用については利用料や受入可否が各施設により異なるため、直接施設への問い合わせが必要"
+  ],
+  "evidence": {
+    "azukariReasons": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/hoikuseido/ichiji/ichijiannai.html",
+      "quote": "保護者等の就労、職業訓練や就学等により、家庭での保育が断続的に困難となる児童をお預かりします。"
+    },
+    "azukariRefresh": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/kosodateshien/azukari/nyuyoji-ichiji/nyuyoji-ichiji.html",
+      "quote": "用事を済ませたい、少しだけリフレッシュしたい、急に仕事が入った・・・など、子育て中には誰かの手を借りて子どもを見てもらうことが必要なときがあります。そんなとき、理由を問わずお子さんをお預かりします。"
+    },
+    "azukariLimit": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/hoikuseido/ichiji/ichijiannai.html",
+      "quote": "児童一人当たり、ひと月の利用限度は120時間（※利用した園の合計）です。"
+    },
+    "azukariAges": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/kosodateshien/azukari/nyuyoji-ichiji/nyuyoji-ichiji.html",
+      "quote": "生後57日から小学校就学前まで市内居住児童"
+    },
+    "azukariFees.0": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/hoikuseido/ichiji/ichijiannai.html",
+      "quote": "０～２歳児クラス 300円（１時間・１人あたり） ※日額上限は2,400円"
+    },
+    "azukariFees.1": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/hoikuseido/ichiji/ichijiannai.html",
+      "quote": "３～５歳児クラス160円（１時間・１人あたり）※日額上限は1,300円"
+    },
+    "azukariFees.2": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/hoikuseido/ichiji/ichijiannai.html",
+      "quote": "給食・おやつ代全児童合計500円（１日・１人あたり）"
+    },
+    "azukariFees.3": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/kosodateshien/azukari/nyuyoji-ichiji/nyuyoji-ichiji.html",
+      "quote": "1時間あたり300円を上限に、施設ごとに設定しています。このほか、おやつ代などの実費相当額がかかる場合があります。"
+    },
+    "azukariReduction": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/kosodateshien/azukari/nyuyoji-ichiji/nyuyoji-ichiji.html",
+      "quote": "1～4：全額減免（ただし、食費等の実費負担分は除く） ５：利用料総額の２/３減免（ただし、食費等の実費負担分は除く） ※いずれも里帰り出産、海外からの一時的な帰国等の場合は、対象外です。"
+    },
+    "azukariRegistration": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/kosodateshien/azukari/nyuyoji-ichiji/nyuyoji-ichiji.html",
+      "quote": "横浜市一時預かり・病児保育WEB予約システムで面談申込を行ったうえで、施設に電話して面談の日程調整をする。面談後、施設から利用許可のメールが届いたら、WEB予約システムから利用予約する。"
+    },
+    "azukariBooking": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/hoikuseido/ichiji/ichijiannai.html",
+      "quote": "実施施設は横浜市一時預かり・病児保育WEB予約システムから検索※できます。"
+    },
+    "azukariFacilities": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/hoikuseido/ichiji/ichijiannai.html",
+      "quote": "市内の認可保育所、幼保連携型認定こども園、小規模保育事業、家庭的保育事業の一部施設にて実施しています。"
+    },
+    "daredemoHours": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/kosodateshien/azukari/daredemotsuuenn.html",
+      "quote": "※毎週同じ曜日、時間帯に利用する方法（定期利用）を推奨しています。"
+    },
+    "daredemoFee": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/kosodateshien/azukari/daredemotsuuenn.html",
+      "quote": "１時間あたり300円程度※利用料金は施設によって異なる場合があります。※給食やおやつ等がある場合は、別途料金がかかります。"
+    },
+    "daredemoAges": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/kosodateshien/azukari/daredemotsuuenn.html",
+      "quote": "（１）０歳６か月から満３歳未満まで（利用日時点を基準とします。）（２）幼稚園、保育所、認定こども園、地域型保育事業、企業主導型保育施設に在籍していない"
+    },
+    "daredemoApply": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/kosodateshien/azukari/daredemotsuuenn.html",
+      "quote": "初回もしくは慣れるまでの複数回、親子通園となる場合があります。"
+    },
+    "daredemoFacilities": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/kosodateshien/azukari/daredemotsuuenn.html",
+      "quote": "実施施設は市内の保育所、幼稚園、認定こども園（幼保連携型、幼稚園型）、小規模保育事業、地域子育て支援拠点等36か所で実施します。"
+    },
+    "daredemoStatus": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/kosodateshien/azukari/daredemotsuuenn.html",
+      "quote": "月10時間を超えての利用はできません。こども誰でも通園制度は、満３歳（誕生日の前々日）まで利用できます。"
+    },
+    "otherServices.0": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/hoikuseido/ichiji/kyuujitsu.html",
+      "quote": "お仕事の都合などにより、日曜や祝日にご家庭でお子さまの保育ができないとき、保育所でお子さまをお預かりする「休日保育」「休日の一時保育」をご利用ください。"
+    },
+    "otherServices.1": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/hoikuseido/ichiji/24ichijihoiku.html",
+      "quote": "保護者の方が就労・入院・通院・冠婚葬祭・親族の介護などで、緊急にお子さんを預けなければならなくなった時、保育所で一時的にお預かりします。夜間・宿泊も含め、24時間365日対応します。"
+    },
+    "otherServices.2": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/kosodateshien/azukari/nyuyoji-ichiji/nyuyoji-ichiji.html",
+      "quote": "はじめてのおあずかり券 はじめてのおあずかり券をご利用いただけます。"
+    },
+    "notes.0": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/hoikuseido/ichiji/ichijiannai.html",
+      "quote": "利用料は30分単位で徴収され、10円未満は切り上げです。"
+    },
+    "notes.1": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/hoikuseido/ichiji/ichijiannai.html",
+      "quote": "※市外にお住まいの児童の場合は、上記の上限金額にかかわらず、施設が自由に設定します。"
+    },
+    "notes.2": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/kosodateshien/azukari/nyuyoji-ichiji/nyuyoji-ichiji.html",
+      "quote": "施設を利用する前に、該当する証明書類（個人番号の記載がないもの）の写しを１点、施設へ提出してください。年度又は有効期限ごとに提出が必要です。"
+    },
+    "notes.3": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/hoikuseido/ichiji/ichijiannai.html",
+      "quote": "利用人員によっては、利用を制限させていただくことがあります。"
+    },
+    "notes.4": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/kosodateshien/azukari/nyuyoji-ichiji/nyuyoji-ichiji.html",
+      "quote": "保育所等の利用申請において、有償で64時間以上一時保育等を利用している場合に提出する「在園（利用）証明書」では、おあずかり券のように無料で利用できるクーポン券による利用時間は対象外となります。"
+    },
+    "notes.5": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/hoikuseido/ichiji/ichijiannai.html",
+      "quote": "横浜市民以外の利用については、利用料や受入可否について、各施設によってことなりますので、直接施設にお問い合わせください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "横浜市「一時保育のご案内」",
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/hoikuseido/ichiji/ichijiannai.html"
+    },
+    {
+      "label": "横浜市「乳幼児一時預かり事業」",
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/kosodateshien/azukari/nyuyoji-ichiji/nyuyoji-ichiji.html"
+    },
+    {
+      "label": "横浜市「こども誰でも通園制度（乳児等通園支援事業）について」",
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/kosodateshien/azukari/daredemotsuuenn.html"
+    },
+    {
+      "label": "横浜市「休日保育・休日の一時保育のご案内」",
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/hoikuseido/ichiji/kyuujitsu.html"
+    },
+    {
+      "label": "横浜市「24時間いつでも預かり保育について」",
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/hoikuseido/ichiji/24ichijihoiku.html"
+    }
+  ]
+}

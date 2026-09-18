@@ -1,0 +1,130 @@
+{
+  "citySlug": "sakai",
+  "checkedAt": "2026-09-18",
+  "azukariPage": {
+    "label": "堺市「認定こども園、保育所、地域型保育事業等で利用できる保育サービス」",
+    "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/hoikuservice/service/index.html"
+  },
+  "azukariReasons": "パート就労（平均週3日程度）、疾病、介護、冠婚葬祭、その他の理由（育児疲れ解消のためのリフレッシュなど）で、家庭での保育に困ったとき",
+  "azukariRefresh": "育児疲れ解消のためのリフレッシュなど「その他の理由」で利用できる",
+  "azukariLimit": "一時預かり事業はパート就労（平均週3日程度）などで利用（日数の上限は施設に確認）。緊急一時保育は30日以内で、必要と認められれば30日を限度に延長可",
+  "azukariAges": "認定こども園等に在園していない就学前のこども。預かれる年齢（月齢）は施設ごとに異なる",
+  "azukariFees": [
+    "平日（月〜土）3歳未満児: 8時間2,700円、4時間1,500円",
+    "平日（月〜土）3歳以上児: 8時間1,900円、4時間1,100円",
+    "休日（日曜・祝日等）3歳未満児: 8時間3,200円、3歳以上児: 8時間2,200円",
+    "市の補助金を使う施設の標準的な料金で、詳細は施設に確認。自主事業の一時保育は異なる"
+  ],
+  "azukariBooking": "年齢・保育時間・定員・利用料・希望日に預かれるかなどを、事前に希望する施設に直接問い合わせる",
+  "azukariFacilities": "認定こども園・保育所（民間・公立）と小規模保育事業で実施。区ごとの施設一覧PDF（令和8年6月1日時点）を掲載",
+  "daredemoPage": {
+    "label": "堺市「令和8年度当初からの利用に向けた実施の概要」",
+    "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/kodomo-daredemo-tsuen/r8/gaiyo.html"
+  },
+  "daredemoHours": "月10時間まで",
+  "daredemoFee": "1時間あたり300円程度（給食費やおやつ代等の実費は別途）",
+  "daredemoAges": "0歳6か月から満3歳未満で、認定こども園、保育所、幼稚園、地域型保育事業、企業主導型保育事業に通っていないこと",
+  "daredemoFacilities": "堺市内36施設で実施（令和8年度実施施設一覧PDF）。市外の施設も利用できるが堺市への認定申請が必要",
+  "daredemoStatus": "令和7年度から実施し、令和8年度は実施施設を拡充。令和8年度当初の受付は終了し、年度途中の利用は別の案内による。利用料の減免は詳細が決まり次第お知らせ",
+  "otherServices": [
+    "緊急一時保育（保護者の出産・入院・災害などで家庭での保育が困難なとき。各区子育て支援課に問い合わせ）",
+    "休日保育、さかいマイ保育園事業"
+  ],
+  "notes": [
+    "一時預かり事業には、認定こども園等に在園していない就学前のこどもを対象とする事業のほか、各施設が定めた要件に基づく一時保育（自主事業）もあり、対象年齢や利用要件が異なります",
+    "こども誰でも通園制度の利用時間は、各月1日から末日まででカウントされ、未利用時間が発生しても翌月に繰り越すことはできません",
+    "こども誰でも通園制度は市外の施設も利用可能ですが、堺市への申請（認定）が必要です"
+  ],
+  "evidence": {
+    "azukariReasons": {
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/hoikuservice/service/index.html",
+      "quote": "パート就労（平均週3日程度）や疾病、介護、冠婚葬祭、その他の理由（育児疲れ解消のためのリフレッシュなど）で、家庭での保育に困ったとき、一時的に、就学前のこどもを認定こども園等に預けることができます。"
+    },
+    "azukariLimit": {
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/hoikuservice/service/index.html",
+      "quote": "利用期間は30日以内です。引き続き利用が必要と認められたときには、30日を限度に延長することができます。"
+    },
+    "azukariAges": {
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/hoikuservice/service/index.html",
+      "quote": "お預かりできるこどもの年齢（月齢）、保育時間、定員、利用料、保育を希望する日にお預かりできるかどうかなど、詳細につきましては、事前に希望する施設へ直接お問合せください。"
+    },
+    "azukariFees.0": {
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/hoikuservice/service/index.html",
+      "quote": "【平日（月曜日～土曜日）】3歳未満児（8時間）2,700円（4時間）1,500円"
+    },
+    "azukariFees.1": {
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/hoikuservice/service/index.html",
+      "quote": "3歳以上児（8時間）1,900円（4時間）1,100円"
+    },
+    "azukariFees.2": {
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/hoikuservice/service/index.html",
+      "quote": "3歳未満児 （8時間）3,200円 3歳以上児 （8時間）2,200 円"
+    },
+    "azukariFees.3": {
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/hoikuservice/service/index.html",
+      "quote": "以下の利用料は、本市における一時預かり事業補助金を利用し、事業を行っている施設における標準的な料金となります。"
+    },
+    "daredemoHours": {
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/kodomo-daredemo-tsuen/r8/gaiyo.html",
+      "quote": "こども一人につき、月10時間まで利用可能です。"
+    },
+    "daredemoFee": {
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/kodomo-daredemo-tsuen/r8/gaiyo.html",
+      "quote": "基本利用料1時間あたり300円程度・給食費やおやつ代等の実費が別途必要となる場合があります。"
+    },
+    "daredemoAges": {
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/kodomo-daredemo-tsuen/r8/gaiyo.html",
+      "quote": "0歳6か月から満3歳未満であること・現在、認定こども園、保育所、幼稚園、地域型保育事業、企業主導型保育事業に通っていないこと"
+    },
+    "notes.0": {
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/hoikuservice/service/index.html",
+      "quote": "各施設が定めた要件、基準等に基づき、こどもを一時的に預けることができます。対象となるこども、対象年齢、利用要件等、各施設によって異なります"
+    },
+    "notes.1": {
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/kodomo-daredemo-tsuen/r8/gaiyo.html",
+      "quote": "月10時間は、各月1日から末日まででカウントします。・未利用時間が発生しても、翌月に繰り越すことはできません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/kodomo-daredemo-tsuen/r8/gaiyo.html",
+      "quote": "市外の施設も利用することができますが、その場合でも堺市への申請（認定）が必要です。"
+    },
+    "azukariRefresh": {
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/hoikuservice/service/index.html",
+      "quote": "その他の理由（育児疲れ解消のためのリフレッシュなど）で、家庭での保育に困ったとき"
+    },
+    "azukariBooking": {
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/hoikuservice/service/index.html",
+      "quote": "お預かりできるこどもの年齢（月齢）、保育時間、定員、利用料、保育を希望する日にお預かりできるかどうかなど、詳細につきましては、事前に希望する施設へ直接お問合せください。"
+    },
+    "azukariFacilities": {
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/hoikuservice/service/index.html",
+      "quote": "※令和8年6月1日時点の情報です。施設の状況により変更となっている可能性もありますので、事前に施設へお問合せください。"
+    },
+    "daredemoFacilities": {
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/kodomo-daredemo-tsuen/r8/gaiyo.html",
+      "quote": "堺市内36施設で実施します。"
+    },
+    "daredemoStatus": {
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/kodomo-daredemo-tsuen/r8/gaiyo.html",
+      "quote": "堺市では、令和7年度から「こども誰でも通園制度」を実施しています。 令和8年度は実施施設を拡充して実施します。"
+    },
+    "otherServices.0": {
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/hoikuservice/service/index.html",
+      "quote": "保護者が出産・入院・災害などで、家庭での保育が困難になったとき、認定こども園・保育所などを一時的に利用できるよう調整を行います。"
+    },
+    "otherServices.1": {
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/hoikuservice/service/index.html",
+      "quote": "さかいマイ保育園事業"
+    }
+  },
+  "sources": [
+    {
+      "label": "堺市「認定こども園、保育所、地域型保育事業等で利用できる保育サービス」",
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/hoikuservice/service/index.html"
+    },
+    {
+      "label": "堺市「令和8年度当初からの利用に向けた実施の概要」",
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/kodomo-daredemo-tsuen/r8/gaiyo.html"
+    }
+  ]
+}

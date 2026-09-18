@@ -1,0 +1,130 @@
+{
+  "citySlug": "suginami",
+  "checkedAt": "2026-09-18",
+  "azukariPage": {
+    "label": "杉並区「一時的にあずけたいとき（緊急一時保育、一時保育、一時預かり、ひととき保育等）」",
+    "url": "https://www.city.suginami.tokyo.jp/s058/1075.html"
+  },
+  "azukariReasons": "緊急一時保育は病気や出産などで世話ができず親族の協力も得られない場合。一時保育（私立保育園）・一時預かり（子ども・子育てプラザ）・ひととき保育は通院、PTAの会議、仕事、リフレッシュなどの用事があるとき",
+  "azukariRefresh": "一時保育・一時預かり・ひととき保育はリフレッシュの理由で使える（一時預かり・ひととき保育は1施設につき同一月内に原則10回まで）",
+  "azukariLimit": "一時預かり（プラザ）とひととき保育は1施設につき同一月内に原則10回まで（1時間単位）。緊急一時保育は最長1か月。私立保育園の一時保育は施設に確認",
+  "azukariAges": "緊急一時保育は生後4カ月から就学前。一時保育（私立保育園）は1歳から就学前。一時預かり（プラザ）は生後6カ月から小学校就学前。ひととき保育は生後6か月から就学前。",
+  "azukariFees": [
+    "一時預かり（子ども・子育てプラザ）: 1時間800円（お迎え時にプラザで支払い。杉並子育て応援券・キャッシュレス決済・現金が使える）",
+    "ひととき保育: 1時間800円（お迎え時に施設へ現金で支払い。杉並子育て応援券も使える）",
+    "一時保育（私立保育園）の利用料は施設ごとに異なる（『保育施設などでの一時保育』で確認）"
+  ],
+  "azukariRegistration": "一時預かり（プラザ）は登録・面談が必要で、杉並区一時預かり利用申込みシステムを使う。ひととき保育は初回のみ事前面接。私立保育園の面談・利用申込は各施設が定める方法",
+  "azukariBooking": "一時預かり（プラザ）は利用申込みシステムから。ひととき保育は利用日の1か月前から予約でき、方法は各施設に問い合わせ。緊急一時保育は保育課保育支援係に電話で相談",
+  "azukariFacilities": "一時保育は一部の私立保育園（一覧をページに掲載）。一時預かりは子ども・子育てプラザ（和泉・高円寺など）。ひととき保育は区内5か所",
+  "daredemoPage": {
+    "label": "杉並区「こども誰でも通園制度（乳児等通園支援事業）」",
+    "url": "https://www.city.suginami.tokyo.jp/s058/24087.html"
+  },
+  "daredemoHours": "月10時間。ただし前の月に未利用の時間が残っていても翌月に繰り越しはできない。",
+  "daredemoFee": "1時間あたり300円程度。杉並区内に在住の方は利用料金の無償化を実施。実費負担（給食代・おやつ代等）は無償化の対象外。",
+  "daredemoAges": "利用日現在0歳6か月～2歳（3歳の誕生日の2日前まで）。保育所、認定こども園、地域型保育事業、企業主導型保育事業を利用していない者。",
+  "daredemoApply": "乳児等支援給付認定申請フォームから利用登録（電子申請のみ）。令和7年度以前に登録した人も改めて登録が必要。認定後にこども誰でも通園制度総合支援システムのアカウントで利用申込（時期・方法は実施園により異なる）",
+  "daredemoStatus": "令和8年度から実施。",
+  "otherServices": [
+    "杉並区ベビーシッター利用支援事業（一時預かり利用支援）"
+  ],
+  "notes": [
+    "一時預かり（プラザ）は月曜日から土曜日（日曜日、祝日、12月29日から1月3日を除く）午前9時から午後5時まで（土曜日は4時まで）に実施。",
+    "ひととき保育は原則、杉並区在住の生後6か月から就学前までのお子さんが対象。",
+    "ひととき保育の『ひととき保育上荻』『ひととき保育宮前』『ひととき保育八成』には『つどいの広場』を併設。",
+    "一時預かり、ひととき保育共に、予約後にキャンセルする場合は当日キャンセル料が発生する可能性あり。"
+  ],
+  "evidence": {
+    "azukariReasons": {
+      "url": "https://www.city.suginami.tokyo.jp/s058/1075.html",
+      "quote": "一時保育とは、ご家庭で育児をしている方が、通院、PTAの会議、仕事、リフレッシュなどの用事があるときに、お子さんをお預かりし、保育する制度です。"
+    },
+    "azukariLimit": {
+      "url": "https://www.city.suginami.tokyo.jp/s058/1075.html",
+      "quote": "対象は、生後4カ月から就学前までの、集団保育が可能な健康な児童で、最長1カ月まで利用できます。"
+    },
+    "azukariAges": {
+      "url": "https://www.city.suginami.tokyo.jp/s058/1075.html",
+      "quote": "生後4カ月から就学前までの、集団保育が可能な健康な児童"
+    },
+    "azukariFees.0": {
+      "url": "https://www.city.suginami.tokyo.jp/s058/1075.html",
+      "quote": "1時間800円 お迎え時に、子ども・子育てプラザでお支払いください。 お支払いには杉並子育て応援券、キャッシュレス決済（PayPay等）、現金が利用できます。"
+    },
+    "azukariFees.1": {
+      "url": "https://www.city.suginami.tokyo.jp/s058/1075.html",
+      "quote": "1時間800円 お迎え時に、施設へ現金でお支払いください。 （注）お支払いには「杉並子育て応援券」が使用できます。"
+    },
+    "azukariFacilities": {
+      "url": "https://www.city.suginami.tokyo.jp/s058/1075.html",
+      "quote": "区内に5か所設置しています。"
+    },
+    "azukariBooking": {
+      "url": "https://www.city.suginami.tokyo.jp/s058/1075.html",
+      "quote": "予約は利用日の1か月前からできます。初回のみ事前面接が必要です。利用申し込み方法などの詳細は各施設へ直接お問い合わせください。"
+    },
+    "azukariRegistration": {
+      "url": "https://www.city.suginami.tokyo.jp/s058/1075.html",
+      "quote": "区内私立保育園への面談申し込みおよび利用申し込みは、従来どおり各施設が定める方法により行っていただくこととなります。"
+    },
+    "daredemoHours": {
+      "url": "https://www.city.suginami.tokyo.jp/s058/24087.html",
+      "quote": "月10時間を上限に利用ができます"
+    },
+    "daredemoFee": {
+      "url": "https://www.city.suginami.tokyo.jp/s058/24087.html",
+      "quote": "1時間あたり300円程度"
+    },
+    "daredemoAges": {
+      "url": "https://www.city.suginami.tokyo.jp/s058/24087.html",
+      "quote": "利用日現在0歳6か月～2歳"
+    },
+    "daredemoApply": {
+      "url": "https://www.city.suginami.tokyo.jp/s058/24087.html",
+      "quote": "乳児等支援給付認定申請フォーム から利用登録を行ってください。（登録は電子申請のみで行っています。）"
+    },
+    "daredemoStatus": {
+      "url": "https://www.city.suginami.tokyo.jp/s058/24087.html",
+      "quote": "令和8年度から子ども・子育て支援法に基づく給付制度となった"
+    },
+    "otherServices.0": {
+      "url": "https://www.city.suginami.tokyo.jp/s058/1075.html",
+      "quote": "杉並区ベビーシッター利用支援事業"
+    },
+    "notes.0": {
+      "url": "https://www.city.suginami.tokyo.jp/s058/1075.html",
+      "quote": "月曜日から土曜日（日曜日、祝日、12月29日から1月3日を除く）"
+    },
+    "notes.1": {
+      "url": "https://www.city.suginami.tokyo.jp/s058/1075.html",
+      "quote": "原則、杉並区在住の生後6か月から就学前までのお子さんです"
+    },
+    "notes.2": {
+      "url": "https://www.city.suginami.tokyo.jp/s058/1075.html",
+      "quote": "ひととき保育上荻」、「ひととき保育宮前」、「ひととき保育八成」には、乳幼児親子がいつでも安心して集い、交流したり、育児などの相談ができる「つどいの広場」を併設"
+    },
+    "notes.3": {
+      "url": "https://www.city.suginami.tokyo.jp/s058/24087.html",
+      "quote": "当日キャンセルされた場合は、キャンセル料が発生"
+    },
+    "azukariRefresh": {
+      "url": "https://www.city.suginami.tokyo.jp/s058/1075.html",
+      "quote": "保護者の方が通院、仕事、リフレッシュ等で一時的にお子さんを預けたいときに、1時間単位でお子さんをお預かりします。"
+    },
+    "azukariFees.2": {
+      "url": "https://www.city.suginami.tokyo.jp/s058/1075.html",
+      "quote": "利用可能年齢、利用方法、利用時間、利用料については『 保育施設などでの一時保育 』をご確認ください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "杉並区「一時的にあずけたいとき（緊急一時保育、一時保育、一時預かり、ひときき保育等）」",
+      "url": "https://www.city.suginami.tokyo.jp/s058/1075.html"
+    },
+    {
+      "label": "杉並区「こども誰でも通園制度（乳児等通園支援事業）」",
+      "url": "https://www.city.suginami.tokyo.jp/s058/24087.html"
+    }
+  ]
+}

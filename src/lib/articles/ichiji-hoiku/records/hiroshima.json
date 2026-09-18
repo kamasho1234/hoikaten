@@ -1,0 +1,134 @@
+{
+  "citySlug": "hiroshima",
+  "checkedAt": "2026-09-18",
+  "azukariPage": {
+    "label": "広島市「一時預かり事業について」",
+    "url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025849/1025846/1003128.html"
+  },
+  "azukariReasons": "非定型的保育（パートなどの勤めや職業訓練、学校に通っているため）、緊急保育（保護者の病気、災害、事故、出産、看護、介護、冠婚葬祭等社会的にやむを得ない理由）、私的理由による保育（育児疲れのリフレッシュやボランティア活動への参加）、待機児童等対応保育（月10日以上の勤めがあるとき、就労により保育園等の入園申し込みをしたが入園保留となっている場合）",
+  "azukariRefresh": "私的理由による保育（育児疲れのリフレッシュ、ボランティア活動への参加など）で利用でき、月9日以内",
+  "azukariLimit": "非定型的保育は月9日以内、緊急保育は原則14日以内、私的理由による保育は月9日以内、待機児童等対応保育は月10日以上で必要最小限の日数。いずれも乳幼児1人あたりで、複数施設を利用する場合は合計",
+  "azukariAges": "対象は主として保育園、認定こども園等に通っていない、または在籍していないこども。施設ごとに対象年齢が異なる",
+  "azukariFees": [
+    "利用料は各実施施設によって異なる（施設一覧で確認）"
+  ],
+  "azukariReduction": "施設等利用給付認定（2号・3号）を受けた子どもが一時預かり実施施設を利用した場合、上限額の範囲内で無償化される（一覧の掲載施設はすべて無償化の対象）",
+  "azukariRegistration": "事前に実施施設で登録等の手続きが必要。オンライン予約の施設は、広島市へ利用者登録を申請し、面談予約フォームで施設と日時を申請して子どもと面談する。面談後に利用できる日数分のチケットが月ごとに発行される",
+  "azukariBooking": "実施園に直接申し込む。オンライン欄に○がある施設はオンライン予約システム（予約枠は毎月21日に翌月分を公開、希望日の概ね4日前まで）、空欄の施設は電話",
+  "daredemoPage": {
+    "label": "広島市「広島市こども誰でも通園制度(乳児等通園支援事業)のご案内」",
+    "url": "https://www.city.hiroshima.lg.jp/soshiki/83/374410.html"
+  },
+  "daredemoHours": "月10時間",
+  "daredemoFee": "1時間あたり300円（おやつ代などの実費が別途必要な場合がある）。減免後の料金は生活保護世帯0円、市民税非課税世帯60円、市民税所得割合算額77,101円未満世帯とDV被害等世帯100円",
+  "daredemoAges": "広島市に住所を有し、保育園、幼稚園、認定こども園、地域型保育事業所、企業主導型保育事業所に通っていない0歳6か月～3歳未満のこども",
+  "daredemoApply": "令和8年4月から面談・利用予約はこども誰でも通園制度総合支援システム（国システム）。電子申請フォームで利用者登録し、随時受付中。減免対象者は市の審査完了後に利用可能",
+  "daredemoFacilities": "令和8年度の実施施設一覧をPDFで掲載（受入予定年齢はクラス年齢で表記）",
+  "daredemoStatus": "令和8年4月から実施。希望多数の場合は希望日時に利用できないことがある",
+  "otherServices": [
+    "ファミリー・サポート・センター",
+    "病児・病後児保育事業"
+  ],
+  "notes": [
+    "利用手続き、利用内容（年齢、時間）、利用料などは実施施設によって異なり、施設の状況によっては希望に添えない場合がある",
+    "保育園・認定こども園の保育園部分・企業主導型保育施設に在籍している子どもは施設等利用給付認定を受けられず、一時預かりの利用料は無償化されない",
+    "待機児童等対応保育は就労証明書などの証明が必要",
+    "裁判員候補者または裁判員として裁判所に行く場合は、保育時間の延長について実施施設にあらかじめ相談する"
+  ],
+  "evidence": {
+    "azukariReasons": {
+      "url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025849/1025846/1003128.html",
+      "quote": "保護者が、次のような理由により、こどもを一時的にご家庭で保育できない場合など、そのこどもを広島市が認可した保育園等でお預かりしています。"
+    },
+    "azukariRefresh": {
+      "url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025849/1025846/1003128.html",
+      "quote": "育児疲れのリフレッシュをしたいため ボランティア活動へ参加するため など 広島市または近隣市町(※) 月9日以内"
+    },
+    "azukariLimit": {
+      "url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025849/1025846/1003128.html",
+      "quote": "※2 乳幼児1人当たりの日数で、複数の施設を利用する場合は、その合計となります。"
+    },
+    "azukariAges": {
+      "url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025849/1025846/1003128.html",
+      "quote": "対象は、主として、保育園、認定こども園等に通っていない、または在籍していないこどもです。"
+    },
+    "azukariBooking": {
+      "url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025849/1025846/1003128.html",
+      "quote": "予約可能枠は毎月21日に翌月（1日～末日）の予約枠が公開され、希望日の概ね4日前まで予約申請が可能です。"
+    },
+    "daredemoHours": {
+      "url": "https://www.city.hiroshima.lg.jp/soshiki/83/374410.html",
+      "quote": "月10時間を上限として、保育園等に通園できる制度を実施しています。"
+    },
+    "daredemoFee": {
+      "url": "https://www.city.hiroshima.lg.jp/soshiki/83/374410.html",
+      "quote": "※世帯状況によって利用料金の減免があります。 ※おやつ代などの実費が別途必要となる場合があります。"
+    },
+    "daredemoAges": {
+      "url": "https://www.city.hiroshima.lg.jp/soshiki/83/374410.html",
+      "quote": "0歳6か月～3歳未満のこどもを対象に"
+    },
+    "daredemoApply": {
+      "url": "https://www.city.hiroshima.lg.jp/soshiki/83/374410.html",
+      "quote": "申請期間 随時受付中"
+    },
+    "daredemoStatus": {
+      "url": "https://www.city.hiroshima.lg.jp/soshiki/83/374410.html",
+      "quote": "希望多数の場合は、希望日時に利用できないことがあります。"
+    },
+    "otherServices.0": {
+      "url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021253/hiromaru/1032109/1032106/azukari/1008340.html",
+      "quote": "広島市ファミリー・サポート・センター"
+    },
+    "otherServices.1": {
+      "url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021253/hiromaru/1032109/1032106/azukari/1008340.html",
+      "quote": "病児・病後児保育事業"
+    },
+    "notes.0": {
+      "url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025849/1025846/1003128.html",
+      "quote": "利用手続き、利用内容(年齢、時間)、利用料などは、各一時預かり事業実施施設によって異なります。"
+    },
+    "notes.1": {
+      "url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025849/1025846/1003128.html",
+      "quote": "保育園、認定こども園の保育園部分または企業主導型保育施設に在籍しているこどもは、施設等利用給付認定を受けることができませんので、一時預かりの利用料は無償化されません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021253/hiromaru/1032109/1032106/azukari/1008340.html",
+      "quote": "このサービスの利用には在職証明書(一時預かり用)などの証明書類が必要です。"
+    },
+    "azukariFees.0": {
+      "url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025849/1025846/1003128.html",
+      "quote": "利用手続き、利用内容(年齢、時間)、利用料などは、各一時預かり事業実施施設によって異なります。"
+    },
+    "azukariReduction": {
+      "url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025849/1025846/1003128.html",
+      "quote": "下の「一時預かり実施施設一覧」の掲載施設については、すべて無償化の対象となります。"
+    },
+    "azukariRegistration": {
+      "url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025849/1025846/1003128.html",
+      "quote": "面談完了後、利用するサービスに応じた利用できる日数分のチケットを月毎に発行します。"
+    },
+    "daredemoFacilities": {
+      "url": "https://www.city.hiroshima.lg.jp/soshiki/83/374410.html",
+      "quote": "※受入予定年齢はクラス年齢（学齢）で表記しています。"
+    },
+    "notes.3": {
+      "url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025849/1025846/1003128.html",
+      "quote": "裁判員候補者または裁判員として裁判所に行くため保育を必要とする方は、保育時間の延長について一時預かり事業実施施設にあらかじめご相談ください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "広島市「一時預かり事業について」",
+      "url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025849/1025846/1003128.html"
+    },
+    {
+      "label": "広島市「一時預かり事業（一般型）」",
+      "url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021253/hiromaru/1032109/1032106/azukari/1008340.html"
+    },
+    {
+      "label": "広島市「広島市こども誰でも通園制度(乳児等通園支援事業)のご案内」",
+      "url": "https://www.city.hiroshima.lg.jp/soshiki/83/374410.html"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "citySlug": "sagamihara",
+  "checkedAt": "2026-09-18",
+  "azukariPage": {
+    "label": "相模原市「一時保育」",
+    "url": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kosodate/1026604/1018656/1006693.html"
+  },
+  "azukariReasons": "特定保育型は就労、職業訓練、就学が対象。一時預かり型は通院・入院・出産、家族等の看護又は介護、親族等の冠婚葬祭、災害又は事故、社会福祉施設への援助等の社会的奉仕活動、保護者の就労等、リフレッシュ・体調不良、その他",
+  "azukariLimit": "特定保育型は原則として継続的に週3日以内。一時預かり型は原則として1カ月あたり14日まで",
+  "azukariAges": "保育が必要な小学校就学前までの市内在住の乳幼児（里帰り出産中で親の住所が市内にある保護者の子も対象）",
+  "azukariFees": [
+    "特定保育型（公立施設）1日 3歳未満児 2,070円（給食費（主食・副食）含む）",
+    "特定保育型（公立施設）1日 3歳以上児 1,220円（副食費含む。主食費を追加希望時は50円）",
+    "一時預かり型（公立施設）4時間（4時間を超える毎に同額を加算）3歳未満児 900円。給食費（主食・副食）を希望時は270円追加",
+    "一時預かり型（公立施設）4時間（4時間を超える毎に同額を加算）3歳以上児 500円。主食費を希望時は50円、副食費を希望時は220円追加",
+    "民間施設の料金は各施設で異なる"
+  ],
+  "azukariBooking": "利用手続や受入状況の確認は各施設と直接。民間保育所では手続きの流れや金額が各々異なる",
+  "azukariFacilities": "公立施設と民間施設がある。実施施設一覧はPDF参照",
+  "otherServices": [
+    "さがみはら休日一時保育事業（休日保育の要件に該当しない就学前の子が日曜・祝日に使える「休日一時保育」は1時間あたり300円、最長9時間。リフレッシュや冠婚葬祭の理由でも可）",
+    "ファミリー・サポート・センター（子育ての手助けを受けたい人と行いたい人の会員組織）",
+    "病児・病後児保育事業（病気中や回復期で集団保育が困難なときの一時預かり）"
+  ],
+  "notes": [
+    "民間施設では手続きの流れや金額が各々異なるため確認が必要",
+    "公立施設の保育時間は月曜日から金曜日（休日及び年末年始を除く）午前8時30分から午後4時30分まで。民間施設は施設により異なる"
+  ],
+  "evidence": {
+    "azukariReasons": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kosodate/1026604/1018656/1006693.html",
+      "quote": "保護者の就労など次の事由に当てはまり、家庭保育が困難な場合に、原則として継続的に週3日以内でお子さまをお預かりします。"
+    },
+    "azukariLimit": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kosodate/1026604/1018656/1006693.html",
+      "quote": "お預かりできる日数は、原則として1カ月あたり14日までとします。"
+    },
+    "azukariAges": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kosodate/1026604/1018656/1006693.html",
+      "quote": "注：只し、里帰り出産中で、親の住所が市内にある保護者の子の場合は対象です。"
+    },
+    "azukariFees.0": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kosodate/1026604/1018656/1006693.html",
+      "quote": "特定保育型 1日 3歳未満児 2,070円 ※給食費（主食・副食）含む"
+    },
+    "azukariFees.1": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kosodate/1026604/1018656/1006693.html",
+      "quote": "特定保育型 1日 3歳以上児 1,220円 ※副食費含む 主食費：50円"
+    },
+    "azukariFees.2": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kosodate/1026604/1018656/1006693.html",
+      "quote": "一時預かり型 4時間（4時間を超える毎に同額を加算） 3歳未満児 900円 給食費（主食・副食）：270円"
+    },
+    "azukariFees.3": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kosodate/1026604/1018656/1006693.html",
+      "quote": "一時預かり型 4時間（4時間を超える毎に同額を加算） 3歳以上児 500円 主食費：50円 副食費：220円"
+    },
+    "azukariFees.4": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kosodate/1026604/1018656/1006693.html",
+      "quote": "民間施設の利用料金 各施設で異なります。直接お問い合わせください。"
+    },
+    "azukariBooking": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kosodate/1026604/1018656/1006693.html",
+      "quote": "利用手続や受入状況の確認は、各施設と直接していただきます。利用を希望される場合には、次の実施施設一覧をご覧いただき、園にお問い合わせください。"
+    },
+    "azukariFacilities": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kosodate/1026604/1018656/1006693.html",
+      "quote": "実施施設は、次の一時保育実施施設一覧をご参照ください。（令和8年7月時点）"
+    },
+    "otherServices.0": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kosodate/1026606/hoikuen/1029794.html",
+      "quote": "休日一時保育 最長9時間（1時間単位） 各保育施設にご確認ください。 利用料金 休日保育 利用料はかかりません。（在園中の保育所等の保育料に含まれるため） 休日一時保育 1時間あたり300円"
+    },
+    "otherServices.1": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kosodate/1026604/1018656/index.html",
+      "quote": "地域において、子育ての手助けを受けたい人と行いたい人が会員となり、子育てについて助け合う会員組織です。"
+    },
+    "otherServices.2": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kosodate/1026604/1018656/index.html",
+      "quote": "保育園に通うお子さん等を対象に病気中や病気の回復期で集団保育が困難であり、仕事などの事情で保護者が家庭で育児できないときに、一時的にお預かりする保育事業です。"
+    },
+    "notes.0": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kosodate/1026604/1018656/1006693.html",
+      "quote": "民間保育所では、手続きの流れや金額が各々異なりますのでご確認ください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kosodate/1026604/1018656/1006693.html",
+      "quote": "月曜日から金曜日（休日及び年末年始を除く）までの午前8時30分から午後4時30分まで"
+    }
+  },
+  "sources": [
+    {
+      "label": "相模原市「一時保育」",
+      "url": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kosodate/1026604/1018656/1006693.html"
+    },
+    {
+      "label": "相模原市「さがみはら休日一時保育事業の利用について」",
+      "url": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kosodate/1026606/hoikuen/1029794.html"
+    },
+    {
+      "label": "相模原市「預ける」",
+      "url": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kosodate/1026604/1018656/index.html"
+    }
+  ]
+}

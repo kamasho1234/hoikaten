@@ -1,0 +1,112 @@
+{
+  "citySlug": "saitama",
+  "checkedAt": "2026-09-18",
+  "azukariPage": {
+    "label": "さいたま市「一時預かり（一時保育）」",
+    "url": "https://www.city.saitama.lg.jp/kosodate/shiritai/category8/p105045.html"
+  },
+  "azukariReasons": "両親の病気や入院、災害、事故等による緊急・一時的な保育。週3日以内の仕事（断続的な保育）。リフレッシュ（月1回のみ）",
+  "azukariRefresh": "リフレッシュは月1回のみ",
+  "azukariLimit": "週3日以内（リフレッシュは月1回のみ）",
+  "azukariFees": [
+    "公立保育園: 1日 2,000円（1～2歳児）、1日 1,950円（3～5歳児）",
+    "私立保育園: 施設による"
+  ],
+  "azukariBooking": "直接施設に申込み",
+  "azukariFacilities": "公立保育園と私立の実施園。一覧（令和8年6月1日現在、利用料等）はPDFで掲載",
+  "daredemoPage": {
+    "label": "さいたま市「令和8年度こども誰でも通園制度の利用について」",
+    "url": "https://www.city.saitama.lg.jp/003/001/012/p127567.html"
+  },
+  "daredemoHours": "こども1人につき月10時間まで（未利用時間の翌月への繰り越しは不可）",
+  "daredemoFee": "こども1人1時間あたり300円程度（施設によって異なる場合がある。昼食代・おやつ代などの実費相当額が別途かかる場合がある）。負担軽減の上限は生活保護世帯300円、市区町村民税所得割合算額77,101円未満（政令指定都市で課税の場合は102,801円未満）の世帯と要支援家庭200円",
+  "daredemoAges": "0歳6か月から満3歳未満（3歳の誕生日の前々日まで）で、認可保育所・認定こども園・地域型保育事業・企業主導型保育事業所を利用していないこども（認可外保育施設の利用者は可）",
+  "daredemoApply": "利用前にさいたま市から乳児等支援給付認定を受ける。こども誰でも通園制度総合支援システムのポータルサイトから申請し、認定まで約2〜3週間。負担軽減は申請が必要",
+  "daredemoFacilities": "保育所等で実施するものと幼稚園で実施するもの（さいたま市幼稚園＜子育て応援こどもテラス＞）があり、対象者や実施内容が異なる。令和8年度実施予定施設をPDFで掲載",
+  "daredemoStatus": "令和8年度に実施。居住区以外の施設も利用できるが、施設の受入体制等により利用できないことがある。余裕活用型は施設の定員に空きがある場合に実施",
+  "notes": [
+    "一時保育のリフレッシュ利用は月1回のみ",
+    "誰でも通園制度の負担軽減は施設によって受けられない場合があるので、利用前に対象施設か確認する",
+    "誰でも通園制度の負担軽減は9月から算定基準年度が切り替わるため、9月以降も適用したい場合は8月までに変更申請が必要"
+  ],
+  "evidence": {
+    "azukariReasons": {
+      "url": "https://www.city.saitama.lg.jp/kosodate/shiritai/category8/p105045.html",
+      "quote": "両親の病気や入院、災害、事故等により、緊急・一時的に家庭での保育ができないときや、週3日以内の仕事を持ち断続的に保育ができないとき、リフレッシュ（月1回のみ）したいときにお子さんをお預かりします。"
+    },
+    "azukariLimit": {
+      "url": "https://www.city.saitama.lg.jp/kosodate/shiritai/category8/p105045.html",
+      "quote": "週3日以内の仕事を持ち断続的に保育ができないとき、リフレッシュ（月1回のみ）"
+    },
+    "azukariFees.0": {
+      "url": "https://www.city.saitama.lg.jp/kosodate/shiritai/category8/p105045.html",
+      "quote": "公立：2,000円／日（1～2歳児） 1,950円／日（3～5歳児）"
+    },
+    "azukariFees.1": {
+      "url": "https://www.city.saitama.lg.jp/kosodate/shiritai/category8/p105045.html",
+      "quote": "私立：施設によって異なります"
+    },
+    "azukariBooking": {
+      "url": "https://www.city.saitama.lg.jp/kosodate/shiritai/category8/p105045.html",
+      "quote": "直接施設に申込み"
+    },
+    "azukariFacilities": {
+      "url": "https://www.city.saitama.lg.jp/kosodate/shiritai/category8/p105045.html",
+      "quote": "※実施状況は適宜更新しておりますので、ご利用の際はあらかじめご確認ください。"
+    },
+    "daredemoHours": {
+      "url": "https://www.city.saitama.lg.jp/003/001/012/p127567.html",
+      "quote": "こども1人につき月10時間まで ※未利用時間があっても、翌月などへ繰り越すことはできません。"
+    },
+    "daredemoAges": {
+      "url": "https://www.city.saitama.lg.jp/003/001/012/p127567.html",
+      "quote": "3．保育所、認定こども園、地域型保育事業、企業主導型保育事業所の 利用がない こと。（認可外保育施設の場合は、利用できます。）"
+    },
+    "daredemoApply": {
+      "url": "https://www.city.saitama.lg.jp/003/001/012/p127567.html",
+      "quote": "※認定までに約2～3週間ほど要しますので、予めご了承ください。"
+    },
+    "azukariRefresh": {
+      "url": "https://www.city.saitama.lg.jp/kosodate/shiritai/category8/p105045.html",
+      "quote": "リフレッシュ（月1回のみ）したいときにお子さんをお預かりします。"
+    },
+    "daredemoFee": {
+      "url": "https://www.city.saitama.lg.jp/003/001/012/p127567.html",
+      "quote": "こども1人1時間あたり300円程度 ※施設によって異なる場合があります。 ※昼食代やおやつ代などの実費相当額をお支払いいただく場合があります。"
+    },
+    "daredemoFacilities": {
+      "url": "https://www.city.saitama.lg.jp/003/001/012/p127567.html",
+      "quote": "さいたま市では、保育所等で実施するものと幼稚園で実施するものとがあり、それぞれ対象者や実施内容が異なります。"
+    },
+    "daredemoStatus": {
+      "url": "https://www.city.saitama.lg.jp/003/001/012/p119804.html",
+      "quote": "※居住区以外の施設をご利用いただくことは可能です。 ※施設の受入体制等の事情により、利用できないことがあります。"
+    },
+    "notes.0": {
+      "url": "https://www.city.saitama.lg.jp/kosodate/shiritai/category8/p105045.html",
+      "quote": "リフレッシュ（月1回のみ）"
+    },
+    "notes.1": {
+      "url": "https://www.city.saitama.lg.jp/003/001/012/p127567.html",
+      "quote": "※施設によっては、負担軽減を受けられない場合があります。施設を利用する前に、負担軽減の対象施設かどうか必ずご確認ください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.saitama.lg.jp/003/001/012/p127567.html",
+      "quote": "※9月から負担軽減の算定基準年度が切り替わるため、9月以降も引き続き負担軽減を適用したい、または9月からの適用を希望する場合は、 8月まで に変更申請により"
+    }
+  },
+  "sources": [
+    {
+      "label": "さいたま市「一時預かり（一時保育）」",
+      "url": "https://www.city.saitama.lg.jp/kosodate/shiritai/category8/p105045.html"
+    },
+    {
+      "label": "さいたま市「令和8年度こども誰でも通園制度の利用について」",
+      "url": "https://www.city.saitama.lg.jp/003/001/012/p127567.html"
+    },
+    {
+      "label": "さいたま市「保育所等におけるこども誰でも通園制度」",
+      "url": "https://www.city.saitama.lg.jp/003/001/012/p119804.html"
+    }
+  ]
+}

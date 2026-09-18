@@ -1,0 +1,133 @@
+{
+  "citySlug": "arakawa",
+  "checkedAt": "2026-09-18",
+  "azukariPage": {
+    "label": "荒川区「一時保育」",
+    "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/hoikuen/ichijihoiku.html"
+  },
+  "azukariReasons": "冠婚葬祭への出席、地域・学校等の行事への参加、研修・講習への参加、育児疲れの解消等の理由で、一時的に保育を必要とする場合",
+  "azukariLimit": "一世帯につき1か月あたり10回まで（複数園を利用する場合も合計で10回まで）",
+  "azukariAges": "区内在住で集団保育が可能な生後6か月から小学校就学前の子ども（実施園により1歳から）",
+  "azukariFees": [
+    "4時間以内の利用 2,000円",
+    "4時間超6時間以内の利用 3,000円",
+    "6時間超の利用 4,000円",
+    "いずれも昼食・おやつ・ミルク等の給食費300円を含む。兄弟・姉妹が同時に同じ園を利用するときは2人目から半額"
+  ],
+  "azukariReduction": "幼児教育・保育無償化の対象事業。0〜2歳児は住民税非課税世帯かつ保育の必要性の認定、3〜5歳児は保育の必要性の認定が条件",
+  "azukariRegistration": "一時保育申込書の提出が必要。初めて利用する園では利用日前日の午前中までに面接があり、子どもと一緒に行く。私立園・公設民営園は前払いか当日払い、区立園は納付書で後払い",
+  "azukariBooking": "利用希望日の1週間前の9時30分から前日の午前中までに、利用したい保育園に直接申し込む。土曜利用はその週の月曜9時30分から前日午前中まで",
+  "azukariFacilities": "専用スペースで実施する園（月曜〜土曜）と、クラスの定員に空きがある場合のみ実施する園（月曜〜金曜）があり、一覧はページに掲載",
+  "daredemoPage": {
+    "label": "荒川区「荒川区乳児等通園支援事業（こども誰でも通園制度）」",
+    "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/hoikuen/kodomodaredemo.html"
+  },
+  "daredemoHours": "子ども1人につき1か月あたり10時間まで",
+  "daredemoFee": "子ども1人1時間あたり300円程度（施設によって異なる）",
+  "daredemoAges": "0歳6か月〜満3歳未満で、保育園・認定こども園・地域型保育事業・企業主導型保育事業に通っていない、集団保育が可能な子ども",
+  "daredemoApply": "利用認定申請は電子申請。利用には事前に実施園での面談が必須で、こども誰でも通園制度総合支援システムで面談予約をし、面談後にシステムで利用予約をする",
+  "daredemoFacilities": "一般型（専用スペース等）は区立第二東日暮里保育園。余裕活用型（クラスの定員に空きがある場合）は実施園が決まり次第掲載",
+  "daredemoStatus": "令和8年4月1日から実施。面談の結果、実施施設の状況や子どもの心身の状況等により利用を断られることがある",
+  "notes": [
+    "実施園により利用可能年齢が異なる（生後6か月からの園と1歳からの園がある）",
+    "予約の状況により希望に添えないことがあるので、日程に余裕をもって申し込む",
+    "誰でも通園制度は日曜・祝日に予約の確定ができず、直前の予約は確定されないことがある。予約が確定していないと利用できない",
+    "一時保育とは別に、緊急一時保育、子育て交流サロンの一時預かり、ベビーシッター利用支援事業の補助金がある"
+  ],
+  "evidence": {
+    "azukariReasons": {
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/hoikuen/ichijihoiku.html",
+      "quote": "冠婚葬祭への出席、地域・学校等の行事への参加、研修・講習への参加、育児疲れ"
+    },
+    "azukariLimit": {
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/hoikuen/ichijihoiku.html",
+      "quote": "複数園利用の場合、そのトータル回数が一世帯につき1か月あたり10回までです。"
+    },
+    "azukariAges": {
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/hoikuen/ichijihoiku.html",
+      "quote": "区内在住で集団保育が可能な生後6か月から小学校就学前のお子さん（実施園により1歳から）"
+    },
+    "azukariFees.0": {
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/hoikuen/ichijihoiku.html",
+      "quote": "4時間以内の利用　2,000円"
+    },
+    "azukariFees.1": {
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/hoikuen/ichijihoiku.html",
+      "quote": "4時間超6時間以内の利用　3,000円"
+    },
+    "azukariFees.2": {
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/hoikuen/ichijihoiku.html",
+      "quote": "6時間超の利用　4,000円"
+    },
+    "azukariFees.3": {
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/hoikuen/ichijihoiku.html",
+      "quote": "（昼食、おやつ、ミルク等の給食費300円を含む。）※注釈1 兄弟・姉妹が同時に同じ園を利用するときは、2人目からは半額です。"
+    },
+    "azukariReduction": {
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/hoikuen/ichijihoiku.html",
+      "quote": "幼児教育・保育無償化の対象事業であり、以下の条件を満たすお子さんが対象です。0から2歳児：住民税非課税世帯かつ保育の必要性の認定 3から5歳児：保育の必要性の認定"
+    },
+    "azukariRegistration": {
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/hoikuen/ichijihoiku.html",
+      "quote": "初めて利用する園においては、利用日前日の午前中までに面接を実施し、職員が直接お子様の体調や食生活等についてお話を伺います。お子さんと一緒においでください。"
+    },
+    "azukariBooking": {
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/hoikuen/ichijihoiku.html",
+      "quote": "利用希望日の1週間前の9時30分から前日の午前中までに、 利用したい保育園に直接 お申込みください。"
+    },
+    "azukariFacilities": {
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/hoikuen/ichijihoiku.html",
+      "quote": "専用スペースで実施する園 ：月曜から土曜 クラスの定員に空きがある場合のみ実施する園 ：月曜から金曜"
+    },
+    "daredemoHours": {
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/hoikuen/kodomodaredemo.html",
+      "quote": "子ども1人につき1か月あたり10時間まで"
+    },
+    "daredemoFee": {
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/hoikuen/kodomodaredemo.html",
+      "quote": "子ども1人1時間当たり300円程度 ※注釈1 施設によって利用料金は異なります。"
+    },
+    "daredemoAges": {
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/hoikuen/kodomodaredemo.html",
+      "quote": "保育園、認定こども園、地域型保育事業、企業主導型保育事業に通っていない、集団保育が可能な子ども"
+    },
+    "daredemoApply": {
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/hoikuen/kodomodaredemo.html",
+      "quote": "こども誰でも通園制度の利用には、事前に実施園での面談が必須となります。"
+    },
+    "daredemoFacilities": {
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/hoikuen/kodomodaredemo.html",
+      "quote": "余裕活用型（クラスの定員に空きがある場合に保育を行います） 実施園が決まり次第、掲載します。"
+    },
+    "daredemoStatus": {
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/hoikuen/kodomodaredemo.html",
+      "quote": "面談の結果、実施施設の状況や子どもの心身の状況等により、利用をお断りさせていただくことがあります。"
+    },
+    "notes.0": {
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/hoikuen/ichijihoiku.html",
+      "quote": "区内在住で集団保育が可能な生後6か月から小学校就学前のお子さん（実施園により1歳から）"
+    },
+    "notes.1": {
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/hoikuen/kodomodaredemo.html",
+      "quote": "予約の状況によりご希望に添えない場合があります。利用希望日までにゆとりのある日程でお申し込みください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/hoikuen/kodomodaredemo.html",
+      "quote": "日曜日や祝日は、予約の確定ができません。直前の予約は確定されないこともあります。予約は、日程に余裕をもって行ってください。予約が確定されていない場合、ご利用できません。"
+    },
+    "notes.3": {
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/hoikuen/ichijihoiku.html",
+      "quote": "ベビーシッター利用支援事業（一時預かり利用支援）補助金（令和8年度）"
+    }
+  },
+  "sources": [
+    {
+      "label": "荒川区「一時保育」",
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/hoikuen/ichijihoiku.html"
+    },
+    {
+      "label": "荒川区「荒川区乳児等通園支援事業（こども誰でも通園制度）」",
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/hoikuen/kodomodaredemo.html"
+    }
+  ]
+}

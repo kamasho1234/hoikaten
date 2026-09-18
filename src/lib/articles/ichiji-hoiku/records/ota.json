@@ -1,0 +1,69 @@
+{
+  "citySlug": "ota",
+  "checkedAt": "2026-09-18",
+  "azukariPage": {
+    "label": "大田区「一時預かり事業」",
+    "url": "https://www.city.ota.tokyo.jp/seikatsu/kodomo/hoiku/hoikushisetsu_nyukibo/itijiazuketai/ichijiazukari/index.html"
+  },
+  "azukariReasons": "通院やPTAの会合、リフレッシュ等、理由を問わず時間単位で利用できる",
+  "azukariRefresh": "理由を問わない（区の一時預かり保育室「キッズなルーム」は急な用事やリフレッシュでも利用可）",
+  "azukariLimit": "施設ごとに異なる。区の一時保育室「キッズなルーム大森」は連続利用4日まで（午前9時〜午後6時、月〜土）",
+  "azukariAges": "施設ごとに対象年齢が異なる。「キッズなルーム大森」は区内在住の生後5か月から就学前。保育園等の実施施設は保育所・幼稚園等に在籍していない場合のみ利用可",
+  "azukariFees": [
+    "各施設ごとに保育料金が異なる（施設に問い合わせ）",
+    "一時保育室「キッズなルーム大森」: 1時間あたり500円（1時間に満たない分は1時間。同一世帯で2人目以降は250円）。食事やおやつの提供はない",
+    "「キッズなルーム大森」でお迎えが遅れた場合は30分あたり250円"
+  ],
+  "azukariReduction": "「キッズなルーム大森」は裁判員等選任の呼出しがあった人や裁判員・補充裁判員として裁判に関わる区民の利用は保育料金が免除",
+  "azukariRegistration": "「キッズなルーム大森」は初めて利用する前に来所して事前登録（連絡票と乳幼児医療証を持参）。11〜13時は避けて来所する",
+  "azukariBooking": "各施設に直接申し込む。「キッズなルーム大森」は利用したい日の前月1日から電話・FAXで受付（毎月1日9〜10時は電子申請が可能、一度に申込できる予約は10件まで）",
+  "azukariFacilities": "一時預かり保育室「キッズなルーム大森」「キッズなルーム六郷」、保育室サン御園、萩中児童館の4か所と、保育所・幼稚園等に在籍していない場合のみ使える私立保育園・小規模保育所など21施設",
+  "daredemoPage": {
+    "label": "大田区「大田区こども誰でも通園制度「おててひろば」」",
+    "url": "https://www.city.ota.tokyo.jp/seikatsu/kodomo/shien/otetehiroba.html"
+  },
+  "daredemoHours": "国制度の月10時間に加え、区内の同一施設で10時間を使った場合はその施設で追加150時間（都制度）が使え、合計で最大月160時間。月10時間を複数施設で使った場合は追加利用できない。利用は最低1時間から",
+  "daredemoAges": "保育所・認定こども園・地域型保育事業・企業主導型保育事業を利用していない0歳6か月〜2歳児（満3歳児は対象外）。認可外保育施設に通っている子どもは対象",
+  "daredemoApply": "住んでいる市区町村で利用申請（電子申請・窓口・郵送）。区の審査・認定後にこども誰でも通園制度総合支援システムのアカウントが発行され（約2週間）、システムで事前面談を予約（必須）してから利用予約",
+  "daredemoFacilities": "実施施設はページに掲載。0歳児クラスは生後6か月から、2歳児クラスは3歳の誕生日の前々日まで。利用は先着順",
+  "daredemoStatus": "令和8年4月から「おててひろば」として実施。令和8年4月1日現在で待機児童が発生しているため、保育の定員確保を最優先としたうえで施設の追加を検討。10時間を超える追加利用は施設と別途契約が必要",
+  "otherServices": [
+    "緊急一時保育、病児・病後児保育、ショートステイ・トワイライトステイ・休日デイサービス、大田区ベビーシッター利用支援事業（一時預かり利用支援）",
+    "乳幼児のための幼稚園プラザ事業（1〜2歳が対象。おててひろばとの併用は不可）"
+  ],
+  "notes": [
+    "「キッズなルーム大森」は令和8年9月24日からスマイル大森（大森北四丁目複合施設）4階に移転",
+    "「キッズなルーム大森」は実際の利用時間が予定より短くても料金は返金されない。キャンセルや時間変更は事前に連絡（FAX不可）",
+    "誰でも通園制度は大田区外で利用申請済みでも、大田区に転入した場合は再度利用申請が必要",
+    "誰でも通園制度の月10時間分の利用時間枠は、キャンセルや延長の取扱いを定めた利用ポリシーに同意して利用する。文具等のその他費用がかかる場合がある"
+  ],
+  "evidence": {
+    "azukariReasons": { "url": "https://www.city.ota.tokyo.jp/seikatsu/kodomo/hoiku/hoikushisetsu_nyukibo/itijiazuketai/ichijiazukari/index.html", "quote": "一時預かり事業は、通院やPTAの会合、リフレッシュ等理由を問わず時間単位でご利用いただけます。" },
+    "azukariRefresh": { "url": "https://www.city.ota.tokyo.jp/seikatsu/kodomo/shien/kodomo_katei_shien_c/itijihoikusitu.html", "quote": "お母さん、お父さんの急な用事やリフレッシュにもご利用できます。" },
+    "azukariLimit": { "url": "https://www.city.ota.tokyo.jp/seikatsu/kodomo/shien/kodomo_katei_shien_c/itijihoikusitu.html", "quote": "午前9時から午後6時まで。連続利用は4日までとなります。" },
+    "azukariAges": { "url": "https://www.city.ota.tokyo.jp/seikatsu/kodomo/hoiku/hoikushisetsu_nyukibo/itijiazuketai/ichijiazukari/index.html", "quote": "各施設ごとに対象年齢・保育料金・保育内容等が異なります。詳細については各施設にお問い合わせください。" },
+    "azukariFees.0": { "url": "https://www.city.ota.tokyo.jp/seikatsu/kodomo/hoiku/hoikushisetsu_nyukibo/itijiazuketai/ichijiazukari/index.html", "quote": "各施設ごとに対象年齢・保育料金・保育内容等が異なります。" },
+    "azukariFees.1": { "url": "https://www.city.ota.tokyo.jp/seikatsu/kodomo/shien/kodomo_katei_shien_c/itijihoikusitu.html", "quote": "1時間あたり 500円（1時間に満たない分は1時間とします） （同一世帯で2人目以降 250円）" },
+    "azukariFees.2": { "url": "https://www.city.ota.tokyo.jp/seikatsu/kodomo/shien/kodomo_katei_shien_c/itijihoikusitu.html", "quote": "30分あたり 250円（30分に満たない分は30分とします）" },
+    "azukariReduction": { "url": "https://www.city.ota.tokyo.jp/seikatsu/kodomo/shien/kodomo_katei_shien_c/itijihoikusitu.html", "quote": "裁判員等選任の呼出しがあった者又は裁判員若しくは補充裁判員として裁判に関わる区民が利用する場合。" },
+    "azukariRegistration": { "url": "https://www.city.ota.tokyo.jp/seikatsu/kodomo/shien/kodomo_katei_shien_c/itijihoikusitu.html", "quote": "初めて利用する方は、利用する前に来所のうえ登録をお願いします。" },
+    "azukariBooking": { "url": "https://www.city.ota.tokyo.jp/seikatsu/kodomo/shien/kodomo_katei_shien_c/itijihoikusitu.html", "quote": "利用したい日の前月の1日から電話･FAXで受け付けております" },
+    "azukariFacilities": { "url": "https://www.city.ota.tokyo.jp/seikatsu/kodomo/hoiku/hoikushisetsu_nyukibo/itijiazuketai/ichijiazukari/index.html", "quote": "保育所・幼稚園等に在籍又は通っていない場合のみ利用可能な施設一覧" },
+    "daredemoHours": { "url": "https://www.city.ota.tokyo.jp/seikatsu/kodomo/shien/otetehiroba.html", "quote": "大田区内の同一施設で月10時間（国制度）を利用した場合、当該施設において追加で150時間の利用が可能です。" },
+    "daredemoAges": { "url": "https://www.city.ota.tokyo.jp/seikatsu/kodomo/shien/otetehiroba.html", "quote": "企業主導型保育事業を利用していない0歳6か月～2歳児（満3歳児は対象外） （注釈1）認可外保育施設に通っている0歳6か月から満3歳未満は対象となります。" },
+    "daredemoApply": { "url": "https://www.city.ota.tokyo.jp/seikatsu/kodomo/shien/otetehiroba.html", "quote": "（注釈1）事前面談は必須です。施設によって面接の方法は異なりますが、事前面談30分、事後面談10分を目安に実施します。" },
+    "daredemoFacilities": { "url": "https://www.city.ota.tokyo.jp/seikatsu/kodomo/shien/otetehiroba.html", "quote": "0歳児クラスは生後6か月から利用可能です。 2歳児クラスは3歳の誕生日の前々日まで利用可能です。 （注釈1）利用は先着順となります。" },
+    "daredemoStatus": { "url": "https://www.city.ota.tokyo.jp/seikatsu/kodomo/shien/otetehiroba.html", "quote": "大田区では令和8年4月1日現在、待機児童が発生しております。これを踏まえ、区では保育の定員確保を 最優先とした上で、今後ご利用の状況も見ながら施設の追加についても検討してまいります。" },
+    "otherServices.0": { "url": "https://www.city.ota.tokyo.jp/seikatsu/kodomo/hoiku/hoikushisetsu_nyukibo/itijiazuketai/ichijiazukari/index.html", "quote": "緊急一時保育 病児・病後児保育 ショートステイ・トワイライトステイ・休日デイサービス" },
+    "otherServices.1": { "url": "https://www.city.ota.tokyo.jp/seikatsu/kodomo/shien/otetehiroba.html", "quote": "大田区こども誰でも通園制度「おててひろば」の他、1～2歳のお子様を対象とする「乳幼児のための幼稚園プラザ事業」もございます。" },
+    "notes.0": { "url": "https://www.city.ota.tokyo.jp/seikatsu/kodomo/shien/kodomo_katei_shien_c/itijihoikusitu.html", "quote": "大森北四丁目複合施設（スマイル大森）4階 キッズな大森" },
+    "notes.1": { "url": "https://www.city.ota.tokyo.jp/seikatsu/kodomo/shien/kodomo_katei_shien_c/itijihoikusitu.html", "quote": "実際の利用時間が、予定時間より短かった場合は、お支払いただいた料金はお返しできません。ご了承ください。" },
+    "notes.2": { "url": "https://www.city.ota.tokyo.jp/seikatsu/kodomo/shien/otetehiroba.html", "quote": "（注釈1）大田区外で利用申請済みで、大田区へ転入された場合も再度利用申請が必要となります。" },
+    "notes.3": { "url": "https://www.city.ota.tokyo.jp/seikatsu/kodomo/shien/otetehiroba.html", "quote": "月10時間分の利用時間枠について、利用時間枠の消費に関わる取り決め、予約のキャンセル及び延長利用の取扱いについて定めたものです。同意のうえご利用ください。" }
+  },
+  "sources": [
+    { "label": "大田区「一時預かり事業」", "url": "https://www.city.ota.tokyo.jp/seikatsu/kodomo/hoiku/hoikushisetsu_nyukibo/itijiazuketai/ichijiazukari/index.html" },
+    { "label": "大田区「一時保育室『キッズなルーム大森』」", "url": "https://www.city.ota.tokyo.jp/seikatsu/kodomo/shien/kodomo_katei_shien_c/itijihoikusitu.html" },
+    { "label": "大田区「大田区こども誰でも通園制度「おててひろば」」", "url": "https://www.city.ota.tokyo.jp/seikatsu/kodomo/shien/otetehiroba.html" }
+  ]
+}

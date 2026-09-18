@@ -1,4 +1,4 @@
-// このファイルは scripts/gen-shurou-index.py が作る。手で編集しない
+// このファイルは scripts/gen-fact-index.py が作る。手で編集しない
 import type { ShurouRecord } from "../types";
 
 import arao from "./arao.json";
@@ -90,7 +90,7 @@ import yokohama from "./yokohama.json";
 import yokote from "./yokote.json";
 
 // JSON の文字列は union 型に狭まらないので、ここで型を付ける。
-// 値の検査は scripts/verify-shurou-records.py が行う
+// 値の検査は scripts/verify-fact-records.py が行う
 export const shurouRecords: ShurouRecord[] = [
   arao as ShurouRecord,
   chiba as ShurouRecord,

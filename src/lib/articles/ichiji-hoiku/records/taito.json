@@ -1,0 +1,183 @@
+{
+  "citySlug": "taito",
+  "checkedAt": "2026-09-18",
+  "azukariPage": {
+    "label": "台東区「あずかりすくすくサポート」",
+    "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/ichijiazukari/sukusapo.html"
+  },
+  "azukariReasons": "サポート1（出産、病気による入院、看護、介護、裁判員）、サポート2（就労、通学、職業訓練、疾病、講演会・学校行事、冠婚葬祭、通院、求職活動）、なんでもサポート（育児疲れのリフレッシュなど理由を問わない）",
+  "azukariRefresh": "「なんでもサポート」は育児疲れの解消やリフレッシュ等、理由を問わず利用でき、ひと月12日以内（サポート2との併用は合計12日が上限）",
+  "azukariLimit": "サポート1（出産・入院等）は原則1か月以内（出産は出産予定日の42日前から出産後56日の間）。サポート2（就労等）となんでもサポートはひと月12日以内で、併用は合計12日まで（ほうらい子育てサポートセンターの生後6か月〜1歳未満はひと月8日以内）",
+  "azukariAges": "サポート1は生後満8か月～小学校就学前（谷中子ども家庭支援センターは満1歳～）、サポート2となんでもサポートは満1歳～小学校就学前（ほうらい子育てサポートセンターは生後満6か月～）",
+  "azukariFees": [
+    "サポート1（出産・看護等）：1時間150円（里帰り出産対象は1時間300円）、昼食250円、おやつ50円/食（1日最大2食）",
+    "サポート2（就労等）：1時間150円、昼食250円、おやつ50円/食（1日最大2食）",
+    "なんでもサポート（リフレッシュ）：1時間300円、昼食250円、おやつ50円/食（1日最大2食）"
+  ],
+  "azukariReduction": "住民税非課税世帯は利用料免除、住民税のうち均等割のみの課税世帯（所得割非課税）は利用料半額。昼食代、おやつ代は減免の対象外",
+  "azukariRegistration": "初回利用時に面接が必要。利用希望日の10営業日前（土日祝を除く）までに申込が必要。面接時には年齢確認書類、健康記録票、生活記録票、食材摂取確認表兼同意書を持参",
+  "azukariBooking": "サポート1は電話で申込（03-5246-1228）。サポート2となんでもサポートはオンライン申請（Logoフォーム）。まずは利用者登録をした後に、サポート2は抽選申込または仮予約、なんでもサポートは仮予約を行う",
+  "azukariFacilities": "9施設で実施（坂本保育園、東上野保育園、一時保育室あさくさばし、ことぶきこども園、たいとうこども園などは月〜土、谷中子ども家庭支援センターとほうらい子育てサポートセンターは1月1〜3日を除く毎日）。施設マップと定員をページに掲載",
+  "daredemoPage": {
+    "label": "台東区「乳児等通園支援事業（こども誰でも通園制度）」",
+    "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/daretsu.html"
+  },
+  "daredemoHours": "児童1人あたり月10時間まで（未利用時間の翌月以降への繰り越し不可）。1回あたり最低1時間以上で、1時間を超える場合は30分単位",
+  "daredemoFee": "児童1人あたり1時間300円（1時間を超える利用は30分150円）。減免は生活保護世帯が1時間0円、非課税世帯と区市町村民税所得割合算額77,101円未満の世帯が1時間100円",
+  "daredemoAges": "生後6か月～満3歳未満（3歳の誕生日の前々日まで）。認可保育所、認定こども園、地域型保育事業、企業主導型保育施設に在籍していないこと",
+  "daredemoApply": "給付認定を台東区民専用の申請フォームで申請し、認定証の郵送と総合支援システムの利用者アカウント発行（2〜3週間程度）。システムから事業所ごとに事前面談を申し込み、子どもと一緒に面談してから空き状況を見て利用申請",
+  "daredemoStatus": "令和8年4月から実施。各園の空き定員を活用するため、保育を必要とする児童の入園で定員が埋まった場合は利用できない。面談の結果や健康状態により受け入れできない場合がある",
+  "otherServices": [
+    "トワイライトステイ（夜間預かり、保護者が仕事や病気などで家庭での養育が困難な場合）",
+    "乳幼児ショートステイ（0歳～2歳未満。保護者が仕事や病気などで家庭での養育が困難な場合、泊まりで預かる）",
+    "ショートステイ（2歳～18歳に達した日以降の最初の3月31日まで。保護者が仕事や病気などで家庭での養育が困難な場合、泊まりで預かる）",
+    "台東区ファミリー・サポート・センター（提供会員と依頼会員のマッチング）",
+    "リフレッシュ等を目的としたベビーシッター利用支援事業（東京都認定ベビーシッター事業者の利用料補助）",
+    "病後児保育（病気の回復期に子どもを預かる）",
+    "居宅訪問型病児・病後児保育利用料助成"
+  ],
+  "notes": [
+    "令和8年4月から、一時保育、いっとき保育、休日・年末一時保育が「あずかりすくすくサポート」として一つの事業になった",
+    "私立保育所の一時預かりは別にあり、康保会保育園（1歳6か月〜5歳）、家庭的保育室ふわふわ（生後57日〜2歳）などが各施設で受け付ける",
+    "あずかりすくすくサポートの利用時間は15分を超えたら繰り上げ（7時間15分以上は8時間分の料金）",
+    "面接の結果、集団保育が困難と判断された場合は預かれない",
+    "開所時間は午前9時〜午後5時で、申請時間を超えての利用はできず、お迎え時刻は時間厳守",
+    "保護者の里帰り出産で区内の祖父母宅から通う場合は、満1歳〜就学前の区外の児童もサポート1を利用できる"
+  ],
+  "evidence": {
+    "azukariReasons": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/ichijiazukari/sukusapo.html",
+      "quote": "保護者の出産、病気による入院、看護、介護、裁判員として刑事裁判に参加など"
+    },
+    "azukariRefresh": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/ichijiazukari/sukusapo.html",
+      "quote": "※サポート2となんでもサポートの併用は、合計で12日が上限です。"
+    },
+    "azukariLimit": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/ichijiazukari/sukusapo.html",
+      "quote": "ひと月12日以内 ※ほうらい子育てサポートセンターを利用する生後満6か月から1歳未満までの児童はひと月8日以内"
+    },
+    "azukariAges": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/ichijiazukari/sukusapo.html",
+      "quote": "生後満8か月から小学校就学前まで※谷中子ども家庭支援センターは満1歳から"
+    },
+    "azukariFees.0": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/ichijiazukari/sukusapo.html",
+      "quote": "利用料　　150円/時間（里帰り出産対象の方は300円/時間）昼食代　　250円おやつ代　50円/1食（1日最大2食）"
+    },
+    "azukariFees.1": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/ichijiazukari/sukusapo.html",
+      "quote": "利用料　　150円/時間昼食代　　250円おやつ代　50円/1食（1日最大2食）"
+    },
+    "azukariFees.2": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/ichijiazukari/sukusapo.html",
+      "quote": "利用料　　300円/時間昼食代　　250円おやつ代　50円/1食（1日最大2食）"
+    },
+    "azukariReduction": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/ichijiazukari/sukusapo.html",
+      "quote": "住民税非課税世帯　利用料免除住民税のうち均等割のみの課税世帯(所得割非課税世帯)　利用料半額※昼食代、おやつ代は減免の対象外です。"
+    },
+    "azukariRegistration": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/ichijiazukari/sukusapo.html",
+      "quote": "初めてご利用される場合には利用前の面接が必要になりますので、利用希望日の10日前（土日祝を除いた日数）までのお申込が必要です。"
+    },
+    "azukariBooking": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/ichijiazukari/sukusapo.html",
+      "quote": "お電話にてお申込みください。"
+    },
+    "azukariFacilities": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/ichijiazukari/sukusapo.html",
+      "quote": "一時保育室あさくさばし 住所 浅草橋2丁目15番5号 電話番号 03-3862-0160 定員 10名"
+    },
+    "daredemoHours": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/daretsu.html",
+      "quote": "※1回あたり最低1時間以上の利用で、1時間を超える場合は30分単位での利用が可能です。"
+    },
+    "daredemoFee": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/daretsu.html",
+      "quote": "■（1）の場合：1時間あたり0円 ■（2）および（3）の場合：1時間あたり100円"
+    },
+    "daredemoAges": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/daretsu.html",
+      "quote": "0歳6か月から満3歳未満（3歳の誕生日の前々日まで）"
+    },
+    "daredemoApply": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/daretsu.html",
+      "quote": "※認定証の交付・利用者アカウントの発行には申請から2～3週間程度かかる場合があります。"
+    },
+    "daredemoStatus": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/daretsu.html",
+      "quote": "※各園の空き定員を活用して実施しますので、保育を必要とする児童の入園で定員が埋まった場合は利用できません。"
+    },
+    "otherServices.0": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/ichijiazukari/index.html",
+      "quote": "保護者が仕事や病気など（感染症を除く）で家庭での養育が困難となった場合に、子供を夜間預かります。"
+    },
+    "otherServices.1": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/ichijiazukari/index.html",
+      "quote": "保護者が仕事や病気など（感染症を除く）で家庭での養育が困難となった場合に、子供を泊まりで預かります。"
+    },
+    "otherServices.2": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/ichijiazukari/index.html",
+      "quote": "保護者が仕事や病気など（感染症を除く）で家庭での養育が困難となった場合に、子供を泊まりで預かります。"
+    },
+    "otherServices.3": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/ichijiazukari/index.html",
+      "quote": "ファミリー・サポート・センターは、育児の手助けができる人（提供会員）と育児の手助けが必要な人（依頼会員）を会員として募集・登録し、依頼会員からの依頼に応じて、育児の手助け（援助活動）を行える提供会員を紹介します。"
+    },
+    "otherServices.4": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/ichijiazukari/index.html",
+      "quote": "リフレッシュ等を目的とした一時的保育利用の保護者に対し、東京都が認定したベビーシッター事業者を利用した際の利用料の一部を補助します。"
+    },
+    "otherServices.5": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/ichijiazukari/index.html",
+      "quote": "子供が病気の回復期にあり、集団保育の困難な期間等において一時的にその子供を専用施設で預かることにより、保護者の子育てと就労の両立を支援します。"
+    },
+    "otherServices.6": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/ichijiazukari/index.html",
+      "quote": "子供が、病気やけがなどで、保育園や小学校に登園・登校することができないときに、ベビーシッターなどの派遣による保育サービスを利用した保護者に対して、利用料の一部を助成します。"
+    },
+    "notes.0": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/ichijiazukari/sukusapo.html",
+      "quote": "令和8年4月から、一時保育、いっとき保育、休日・年末一時保育が一つの事業として生まれ変わりました。"
+    },
+    "notes.1": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/ichijiazukari/ichijihoiku/shirituazukari.html",
+      "quote": "保護者の就労・病気・出産・リフレッシュ等の事由により、お子さんを一時的にお預かりできる私立保育所をご案内いたします"
+    },
+    "notes.2": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/ichijiazukari/sukusapo.html",
+      "quote": "利用時間が15分を超えたら、繰り上げになります。例：利用時間が7時間15分以上の場合、8時間分の料金で料金徴収いたします。"
+    },
+    "notes.3": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/ichijiazukari/sukusapo.html",
+      "quote": "面接の結果、集団保育が困難であると判断された場合はお預かりできませんのであらかじめご了承ください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/ichijiazukari/sukusapo.html",
+      "quote": "午前9時から午後5時まで※申請時間を越えての利用はできません。お迎えの時刻は時間厳守となります。"
+    },
+    "notes.5": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/ichijiazukari/sukusapo.html",
+      "quote": "保護者の里帰り出産で区内の祖父母宅から通う場合は、満1歳から小学校就学前の台東区内に住所がない児童もサポート1の利用が可能です。"
+    }
+  },
+  "sources": [
+    {
+      "label": "台東区「あずかりすくすくサポート」",
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/ichijiazukari/sukusapo.html"
+    },
+    {
+      "label": "台東区「一時預かり」",
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/ichijiazukari/index.html"
+    },
+    {
+      "label": "台東区「私立保育所で行う一時預かり事業」",
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/ichijiazukari/ichijihoiku/shirituazukari.html"
+    },
+    {
+      "label": "台東区「乳児等通園支援事業（こども誰でも通園制度）」",
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/daretsu.html"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "citySlug": "kitakyushu",
+  "checkedAt": "2026-09-18",
+  "azukariPage": {
+    "label": "北九州市「保育所の一時保育について」",
+    "url": "https://www.city.kitakyushu.lg.jp/contents/924_10176.html"
+  },
+  "azukariReasons": "断続的保育（保護者の短期の仕事など）、緊急保育（保護者の病気、出産など）、育児リフレッシュ保育（保護者の育児に伴う心理的、肉体的負担の解消）",
+  "azukariRefresh": "育児リフレッシュ保育サービスで利用でき、週3日を限度としている",
+  "azukariLimit": "断続的保育は週3日を限度、緊急保育は利用する日から14日を限度、育児リフレッシュ保育は週3日を限度",
+  "azukariAges": "保育所、認定こども園、地域型保育及び幼稚園に在籍していない小学校就学前子ども。原則、生後6ヶ月から",
+  "azukariFees": [
+    "3歳未満児は日額2,000円",
+    "3歳以上児は日額1,500円",
+    "生活保護世帯は日額500円"
+  ],
+  "azukariBooking": "事前の登録が必要。利用希望日の一週間前（緊急保育利用は前日）までにお住まいの区の区役所保健福祉課に申請",
+  "azukariFacilities": "59か所の実施施設がある",
+  "daredemoPage": {
+    "label": "北九州市「こども誰でも通園制度（乳児等通園支援事業）」",
+    "url": "https://www.city.kitakyushu.lg.jp/contents/28800075.html"
+  },
+  "daredemoHours": "月10時間を上限に利用可能（翌月への繰り越しはできない）",
+  "daredemoFee": "1時間あたり300円（生活保護世帯は無料、住民税非課税世帯及び世帯の市町村民税所得割課税額合計が77,100円以下の世帯は100円に減免される）。給食やおやつの提供により別途実費分の負担が発生する場合がある",
+  "daredemoAges": "北九州市内に居住していて、0歳6か月から満3歳未満で、保育所、幼稚園、認定こども園、地域型保育事業所等に通っていないこども",
+  "daredemoApply": "こども誰でも通園制度総合支援システムで乳児等支援給付認定を受けるための申請を行う",
+  "daredemoStatus": "市で資格確認後、「アカウント発行のお知らせ」メールが届き、システムへログインして利用が可能になる",
+  "notes": [
+    "断続的な保育利用・育児リフレッシュ保育利用は、登録制で有効期限が3月末日のため、更新が必要",
+    "市外居住の方は緊急保育サービスのみお預かり",
+    "認定には2週間程度かかる場合があるため、申込みには余裕を持つ必要がある"
+  ],
+  "evidence": {
+    "azukariReasons": {
+      "url": "https://www.city.kitakyushu.lg.jp/contents/924_10176.html",
+      "quote": "保護者などのパート就労や疾病、出産及び育児リフレッシュなどの理由により、一時的に家庭での保育が難しくなったお子さんを、保育所でおあずかりする制度です。"
+    },
+    "azukariRefresh": {
+      "url": "https://www.city.kitakyushu.lg.jp/contents/924_10176.html",
+      "quote": "育児リフレッシュ保育サービス　：　保護者の育児に伴う心理的、肉体的負担の解消・・・週3日を限度"
+    },
+    "azukariLimit": {
+      "url": "https://www.city.kitakyushu.lg.jp/contents/924_10176.html",
+      "quote": "断続的保育サービス　：　保護者の短期の仕事などの場合・・・週3日を限度"
+    },
+    "azukariAges": {
+      "url": "https://www.city.kitakyushu.lg.jp/contents/924_10176.html",
+      "quote": "対象となる子ども・・・保育所、認定こども園、地域型保育（家庭的保育・小規模保育など）及び幼稚園に在籍していない小学校就学前子ども。（注）原則、生後6ヶ月から）"
+    },
+    "azukariFees.0": {
+      "url": "https://www.city.kitakyushu.lg.jp/contents/924_10176.html",
+      "quote": "3歳未満児 日額　　　2,000円"
+    },
+    "azukariFees.1": {
+      "url": "https://www.city.kitakyushu.lg.jp/contents/924_10176.html",
+      "quote": "3歳以上児 日額　　　1,500円"
+    },
+    "azukariFees.2": {
+      "url": "https://www.city.kitakyushu.lg.jp/contents/924_10176.html",
+      "quote": "生活保護世帯 日額　　　　500円"
+    },
+    "azukariBooking": {
+      "url": "https://www.city.kitakyushu.lg.jp/contents/924_10176.html",
+      "quote": "ご利用については、事前の登録が必要です。「一時保育申込書」に必要事項を記入し、利用を希望する日の一週間前（緊急保育利用は前日）までに、お住まいの区の区役所保健福祉課に申請してください。"
+    },
+    "azukariFacilities": {
+      "url": "https://www.city.kitakyushu.lg.jp/contents/924_10176.html",
+      "quote": "実施施設・・・59か所"
+    },
+    "daredemoHours": {
+      "url": "https://www.city.kitakyushu.lg.jp/contents/28800075.html",
+      "quote": "お子さま一人あたり月10時間を上限に利用可能です。"
+    },
+    "daredemoFee": {
+      "url": "https://www.city.kitakyushu.lg.jp/contents/28800075.html",
+      "quote": "お子さま一人1時間あたり300円"
+    },
+    "daredemoAges": {
+      "url": "https://www.city.kitakyushu.lg.jp/contents/28800075.html",
+      "quote": "北九州市内に居住していること。 0歳6か月から満3歳未満であること。"
+    },
+    "daredemoApply": {
+      "url": "https://www.city.kitakyushu.lg.jp/contents/28800075.html",
+      "quote": "下記リンクあるいは二次元コードよりこども誰でも通園制度総合支援システムへアクセスし、乳児等支援給付認定を受けるための申請を行ってください。"
+    },
+    "daredemoStatus": {
+      "url": "https://www.city.kitakyushu.lg.jp/contents/28800075.html",
+      "quote": "市で資格確認後、「アカウント発行のお知らせ」メールが届きます。（届きましたら、認定を受けたということになります。）"
+    },
+    "notes.0": {
+      "url": "https://www.city.kitakyushu.lg.jp/contents/924_10176.html",
+      "quote": "（注）断続的な保育利用・育児リフレッシュ保育利用は、登録制（有効期限3月末日）のため、更新が必要です。"
+    },
+    "notes.1": {
+      "url": "https://www.city.kitakyushu.lg.jp/contents/924_10176.html",
+      "quote": "（注）市外居住の方は、緊急保育サービスのみお預かりします。"
+    },
+    "notes.2": {
+      "url": "https://www.city.kitakyushu.lg.jp/contents/28800075.html",
+      "quote": "（注）認定には2週間程度かかる場合がありますので、お時間に余裕を持ってお申込みください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "北九州市「保育所の一時保育について」",
+      "url": "https://www.city.kitakyushu.lg.jp/contents/924_10176.html"
+    },
+    {
+      "label": "北九州市「こども誰でも通園制度（乳児等通園支援事業）」",
+      "url": "https://www.city.kitakyushu.lg.jp/contents/28800075.html"
+    }
+  ]
+}

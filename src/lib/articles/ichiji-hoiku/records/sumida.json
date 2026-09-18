@@ -1,0 +1,136 @@
+{
+  "citySlug": "sumida",
+  "checkedAt": "2026-09-18",
+  "azukariPage": {
+    "label": "墨田区「一時保育」",
+    "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoiku_service/ichijihoiku.html"
+  },
+  "azukariReasons": "保護者の所用での外出や、育児負担を軽減したい場合。また、一時預かりは施設ごとに対象年齢が異なる",
+  "azukariLimit": "一時保育は保育園ごとに子ども1人につき同一月4日以内。一時預かり（子育てひろば）は子ども1人につき同一月4回まで",
+  "azukariAges": "一時保育は施設により異なる（横川さくら保育園：生後6か月～2歳児クラス、押上保育園・亀沢保育園：生後6か月～小学校就学前）。一時預かりは生後6か月～小学校就学前",
+  "azukariFees": [
+    "一時保育：5時間以内は2,000円、5時間超（1日以内）は3,000円。裁判員制度への参加に伴う利用は無料",
+    "一時預かり（両国子育てひろば）：1時間以内600円、1時間超3時間まで1,500円、3時間超5時間まで2,000円、5時間超3,000円。昼食・おやつ代含む",
+    "一時預かり（文花子育てひろば）：1時間以内500円、2時間以内1,000円、3時間以内1,500円、4～5時間以内2,000円、6時間以上3,000円。昼食・おやつ提供なし（持参）"
+  ],
+  "azukariReduction": "一時保育は区民税非課税・区民税均等割のみ課税の世帯に減免制度（利用する保育園に申し出）。一時預かりも減免制度があり、文花子育てひろばは兄弟姉妹で利用する場合2人目から半額",
+  "azukariRegistration": "一時保育は電話で申込後に申込書を提出。一時預かり（両国）は電話予約後に子どもと一緒に登録面接。一時預かり（文花）は事前の登録面接が必要で、登録面接も利用予約もWEB予約",
+  "azukariBooking": "一時保育：利用日の属する週の2週間前の水曜日から利用日の3日前（土日祝祭日年末年始除く）までに実施園に電話申込み（受付平日午後1時～午後4時）。一時預かり（両国）：2週間前の週の水曜日から利用日の2日前（日祝除く）に電話申込み。一時預かり（文花）：WEB予約",
+  "azukariFacilities": "一時保育は3園（横川さくら保育園、押上保育園、亀沢保育園）。一時預かりは2施設（両国子育てひろば保育室、文花子育てひろば）",
+  "daredemoPage": {
+    "label": "墨田区「令和8年度乳児等通園支援事業（こども誰でも通園制度）」",
+    "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoiku_service/daredemotsuen.html"
+  },
+  "daredemoHours": "月10時間を上限（翌月への繰り越しなし）",
+  "daredemoFee": "無償。ただし実施施設によって延長料金等をご負担いただく場合がある",
+  "daredemoAges": "0歳6か月から満3歳未満（3歳の誕生日の前々日まで）",
+  "daredemoApply": "乳児等支援給付認定を電子申請し、こども誰でも通園制度総合支援システムのアカウントを登録。定期利用枠（例: 1日2.5時間×月4日）は利用開始月の前月1〜8日に区ホームページから1施設のみ申請し、多数の場合は抽選。柔軟利用枠はシステムで空き枠のある施設に直接申込",
+  "daredemoFacilities": "認可保育園・認定こども園・小規模保育事業所等で実施し、対象施設一覧をPDFで掲載（R8.9.9更新）。一般型（専用室・在園児合同）は入所定員とは別に定員を設定、余裕活用型は入所定員の空きを活用",
+  "daredemoStatus": "令和8年4月から開始（開始日は施設によって異なる）。余裕活用型は在園児の人数で募集人数が変動し、当初から空きがない場合や年度途中で終了する場合がある。一般型も職員体制等で年度途中に終了することがある",
+  "notes": [
+    "墨田区内の認可保育所・小規模保育所・家庭的保育者に在園している児童は一時保育をご利用できません",
+    "認証保育所・認可外保育所・幼稚園に在園している児童及び定期利用保育に預けている児童は契約時間以外の時間にご利用できます",
+    "一時預かりと一時保育は実施施設ごとの事業名称の違いで、サービス内容に大きな違いはない",
+    "文花子育てひろばはWEB予約で、事前に登録面接が必要です"
+  ],
+  "evidence": {
+    "azukariReasons": {
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoiku_service/ichijihoiku.html",
+      "quote": "保護者の所用での外出や、育児負担を軽減したい場合等、お子さんを一時的に保育園でお預かりします"
+    },
+    "azukariLimit": {
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoiku_service/itiji_azukari/itiziazukari.html",
+      "quote": "お子さん一人につき、同一月4回まで"
+    },
+    "azukariAges": {
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoiku_service/ichijihoiku.html",
+      "quote": "（1）横川さくら保育園墨田区内に住所のある生後6か月から2歳児クラスまでのお子さん各日先着4人（2）押上保育園墨田区内に住所のある生後6か月から小学校就学前までのお子さん各日先着4人（3）亀沢保育園墨田区内に住所のある生後6か月から小学校就学前までのお子さん各日先着3人"
+    },
+    "azukariFees.0": {
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoiku_service/ichijihoiku.html",
+      "quote": "5時間以内は2,000円 5時間超（1日以内）は3,000円"
+    },
+    "azukariFees.1": {
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoiku_service/itiji_azukari/itiziazukari.html",
+      "quote": "1時間以内600円 1時間超から3時間まで1,500円 3時間超から5時間まで2,000円 5時間超3,000円 ※昼食代、おやつ代が含まれます"
+    },
+    "azukariFees.2": {
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoiku_service/itiji_azukari/itiziazukari.html",
+      "quote": "1時間以内500円 2時間以内1,000円 3時間以内1,500円 4～5時間以内2,000円 6時間以上3,000円 ※昼食・おやつの提供はありません"
+    },
+    "azukariReduction": {
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoiku_service/itiji_azukari/itiziazukari.html",
+      "quote": "※減免制度があります。 ※兄弟姉妹でご利用の場合、2人目のお子さんから半額となります。"
+    },
+    "azukariRegistration": {
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoiku_service/itiji_azukari/itiziazukari.html",
+      "quote": "ご利用にあたり、事前に登録面接が必要です。 登録面接、利用予約ともに WEB予約 となります。"
+    },
+    "azukariBooking": {
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoiku_service/ichijihoiku.html",
+      "quote": "利用日の属する週の2週間前の水曜日から利用日の3日前（土・日・祝祭日・年末年始を除く）までに、実施園にお申し込みください"
+    },
+    "azukariFacilities": {
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoiku_service/ichijihoiku.html",
+      "quote": "1.横川さくら保育園（横川五丁目9番1号）2.押上保育園（押上二丁目10番17号）3.亀沢保育園（亀沢一丁目27番5号）"
+    },
+    "daredemoHours": {
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoiku_service/daredemotsuen.html",
+      "quote": "月10時間を上限に利用ができます。ただし、前の月に未利用の時間が残っている場合であっても、翌月に繰り越して利用することはできません"
+    },
+    "daredemoFee": {
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoiku_service/daredemotsuen.html",
+      "quote": "無償です。※ただし実施施設によって延長料金等をご負担いただく場合があります"
+    },
+    "daredemoAges": {
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoiku_service/daredemotsuen.html",
+      "quote": "0歳6ヶ月から満3歳未満（3歳の誕生日の前々日）までの児童"
+    },
+    "daredemoApply": {
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoiku_service/daredemotsuen.html",
+      "quote": "利用開始月の前月1～8日の間に区ホームページから申込み(1施設のみ)となります。原則、区民が優先です。"
+    },
+    "daredemoFacilities": {
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoiku_service/daredemotsuen.html",
+      "quote": "専用室が基本(一時預かりと同室の場合あり) 施設の入所定員とは別に設定"
+    },
+    "daredemoStatus": {
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoiku_service/daredemotsuen.html",
+      "quote": "「余裕活用型」は施設の入所定員の空きを活用しているため、在園児の人数によって募集人数が変動し、当初から空きがない場合や、年度途中で利用が終了となる場合があります。"
+    },
+    "notes.0": {
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoiku_service/ichijihoiku.html",
+      "quote": "墨田区内の認可保育所・小規模保育所・家庭的保育者（以下保育ママ）に在園している児童は、ご利用できません"
+    },
+    "notes.1": {
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoiku_service/ichijihoiku.html",
+      "quote": "墨田区内の認証保育所・認可外保育所・幼稚園に在園している児童及び定期利用保育に預けている児童で、契約時間以外の時間はご利用できます"
+    },
+    "notes.2": {
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoiku_service/itiji_azukari/itiziazukari.html",
+      "quote": "実施施設ごとの事業名称の違いで、サービス内容に大きな違いはありません"
+    },
+    "notes.3": {
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoiku_service/itiji_azukari/itiziazukari.html",
+      "quote": "ご利用にあたり、事前に登録面接が必要です。登録面接、利用予約ともにWEB予約となります"
+    }
+  },
+  "sources": [
+    {
+      "label": "墨田区「一時保育」",
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoiku_service/ichijihoiku.html"
+    },
+    {
+      "label": "墨田区「一時預かり」",
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoiku_service/itiji_azukari/index.html"
+    },
+    {
+      "label": "墨田区「一時預かり（詳細）」",
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoiku_service/itiji_azukari/itiziazukari.html"
+    },
+    {
+      "label": "墨田区「令和8年度乳児等通園支援事業（こども誰でも通園制度）」",
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoiku_service/daredemotsuen.html"
+    }
+  ]
+}

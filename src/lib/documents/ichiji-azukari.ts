@@ -238,9 +238,11 @@ const guides: DocumentGuide[] = [
       "施設等利用給付による利用料の無償化（認定を受けている場合）",
     ],
     order: 102,
-    updatedAt: "2026-08-25",
+    updatedAt: "2026-09-18",
     content: `
 <p>一時預かりは、<strong>保育園に通っていない子どもを、必要なときだけ預けられる</strong>しくみです。子ども・子育て支援法にもとづく地域子ども・子育て支援事業のひとつです。</p>
+
+<div class="info-box"><p>理由の区分・月の上限・料金の決まり方と、公式ページで確かめた自治体ごとの条件は<a href="/documents/ichiji-azukari-tsukaikata">一時預かりの使い方</a>に、2026年度から全自治体で始まった就労要件のない通園は<a href="/documents/kodomo-daredemo-tsuen">こども誰でも通園制度</a>にまとめています。</p></div>
 
 <h2>どんなときに使えるか</h2>
 

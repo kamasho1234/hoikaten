@@ -1,0 +1,143 @@
+{
+  "citySlug": "nakano",
+  "checkedAt": "2026-09-18",
+  "azukariPage": {
+    "label": "中野区「一時保育・短期特例保育」",
+    "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/ichijihoiku/azukari/ichijihoiku.html"
+  },
+  "azukariReasons": "家庭で養育している保護者が用事やリフレッシュ等で一時的に保育が困難になり、同居の親族に保育できる人がいない場合",
+  "azukariRefresh": "リフレッシュも理由になる（区立保育園は2園合わせて月5日間まで）",
+  "azukariLimit": "区立保育園2園合わせて月5日間まで",
+  "azukariAges": "生後57日から小学校就学前",
+  "azukariFees": [
+    "区立保育園（本町・中野）: 1時間650円。食事代は給食の提供の有無にかかわらず徴収しない",
+    "私立保育園: 利用料1人1時間あたり600円〜。給食・離乳食300円程度、おやつ100〜150円程度"
+  ],
+  "azukariReduction": "3〜5歳児クラスで保育の必要性があり保育所等を利用していない場合、幼児教育・保育の無償化で月額37,000円を上限に利用料を扶助（2026年10月からは月額40,300円）",
+  "azukariRegistration": "年度毎に登録申請が必要。中野区公式LINEを友だち登録し、トーク画面のメニューからお子さまの登録手続きをする",
+  "azukariBooking": "中野区公式LINEで予約申請。予約受付は毎月10日午前8時30分より、翌月1ヶ月分の予約の受付が開始され、予約は先着順",
+  "azukariFacilities": "区立保育園2園（本町保育園、中野保育園）および私立保育園。実施施設一覧はウェブサイト参照",
+  "daredemoPage": {
+    "label": "中野区「中野区乳児等通園支援事業（こども誰でも通園制度）」",
+    "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/shisetsu/kodomodaredemo.html"
+  },
+  "daredemoHours": "子ども1人あたり月10時間まで（複数施設・区内外を通算）。ただし中野区民が区の選定を受けた区内施設を利用する場合は、各実施施設が設定する利用可能上限まで（認証保育所に在籍する子どもは月10時間まで）",
+  "daredemoFee": "中野区民が区の選定を受けた区内施設を利用する場合は0円。選定を受けていない区内施設・区外施設、区民以外は実施施設が定めた料金。給食費・おやつ代等の実費は別",
+  "daredemoAges": "生後6か月から満3歳未満で、保育所、幼稚園、認定こども園、地域型保育事業等に在園していないこと",
+  "daredemoApply": "乳児等支援給付認定申請フォームからお子さんごとに申請。認定は生後6か月以降に取得でき、生後5か月以降から申請を受け付ける",
+  "otherServices": [
+    "短期特例保育（保護者が病気・出産・親族の付き添い等で日中一時的に保育できないとき。世帯の課税状況により基本時間内1日あたり0円〜1,200円、時間外は朝夕各250円、給食300円、おやつ100円）",
+    "病児・病後児保育",
+    "ベビーシッター利用支援事業"
+  ],
+  "notes": [
+    "区立保育園の一時保育は2園合わせて月5日間まで",
+    "一時保育の予約は毎月10日午前8時30分から翌月分の受付が始まり先着順。利用前日の正午から当日9時までは当日予約となり給食が提供されない",
+    "私立保育園の一時保育は利用希望の保育園に直接連絡して登録手続きをする。登録までに時間がかかることがあり、保育園により登録料がかかる",
+    "誰でも通園制度で複数施設を利用する場合は利用施設に伝え、上限を超えた時間は通常の利用料のほか高額の自己負担が発生する場合がある"
+  ],
+  "evidence": {
+    "azukariReasons": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/ichijihoiku/azukari/ichijihoiku.html",
+      "quote": "用事やリフレッシュ等で一時的に家庭で保育することが困難となり、かつ、同居の親族の中に保育できる方がいない場合に、保護者に代わって保育園でお預かりします。"
+    },
+    "azukariLimit": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/ichijihoiku/azukari/ichijihoiku.html",
+      "quote": "区立保育園2園合わせて月5日間まで"
+    },
+    "azukariAges": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/ichijihoiku/azukari/ichijihoiku.html",
+      "quote": "区内在住で生後57日から小学校就学前までの保育可能なお子さんです。"
+    },
+    "azukariFees.0": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/ichijihoiku/azukari/ichijihoiku.html",
+      "quote": "650円/1時間 食事代については、給食の提供の有無にかかわらず一律徴収いたしません。"
+    },
+    "azukariFees.1": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/ichijihoiku/azukari/ichijihoiku.html",
+      "quote": "利用料1人1時間あたり600円～ 給食・離乳食300円程度おやつ100円から150円程度"
+    },
+    "azukariReduction": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/hoikuen/hoikuryohojyo/musyoka.html",
+      "quote": "月額37,000円を上限として利用料を扶助 ※左記は2026年9月まで。2026年10月からは月額40,300円。"
+    },
+    "azukariRegistration": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/ichijihoiku/azukari/ichijihoiku.html",
+      "quote": "年度毎に登録申請が必要です。中野区公式LINEを友だち登録し、トーク画面のメニューからお子さまの登録手続きにお進みください。"
+    },
+    "azukariBooking": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/ichijihoiku/azukari/ichijihoiku.html",
+      "quote": "毎月10日午前8時30分より、翌月1ヶ月分の予約の受付が開始します。予約は先着順です。"
+    },
+    "daredemoHours": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/shisetsu/kodomodaredemo.html",
+      "quote": "ただし、中野区民の方が中野区の選定（※1）を受けた区内施設を利用する場合は、各実施施設が設定する利用可能上限まで利用可能です（認証保育所に在籍している場合を除く）。"
+    },
+    "daredemoFee": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/shisetsu/kodomodaredemo.html",
+      "quote": "中野区の選定（※1）を受けた区内施設を利用する場合 0円 中野区の選定を受けていない区内施設を利用する場合 実施施設が定めた料金"
+    },
+    "daredemoAges": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/shisetsu/kodomodaredemo.html",
+      "quote": "生後6か月から満3歳未満の子どもであること"
+    },
+    "daredemoApply": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/shisetsu/kodomodaredemo.html",
+      "quote": "なお、本認定は 生後6か月以降に取得可能 です。このため、 生後5か月以降のお子さんから申請の受付を開始 しますので"
+    },
+    "otherServices.0": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/ichijihoiku/azukari/ichijihoiku.html",
+      "quote": "世帯の課税状況により、基本時間内1日あたり0円から1,200円、時間外は朝夕それぞれ250円、給食300円、おやつ100円"
+    },
+    "otherServices.1": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/ichijihoiku/azukari/index.html",
+      "quote": "病児・病後児保育"
+    },
+    "otherServices.2": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/ichijihoiku/azukari/index.html",
+      "quote": "ベビーシッター利用支援事業"
+    },
+    "azukariFacilities": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/ichijihoiku/azukari/ichijihoiku.html",
+      "quote": "一時保育専用の部屋を持つ保育園等です。生後57日からのお子さんをお預かりします。"
+    },
+    "notes.0": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/ichijihoiku/azukari/ichijihoiku.html",
+      "quote": "区立保育園2園合わせて月5日間まで"
+    },
+    "notes.1": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/ichijihoiku/azukari/ichijihoiku.html",
+      "quote": "※利用前日の正午から利用当日の午前9時までの期間は、当日予約となるため、給食の提供ができません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/ichijihoiku/azukari/ichijihoiku.html",
+      "quote": "利用希望の保育園に直接連絡し、登録の手続きを行ってください。登録までに時間がかかることがあります。また保育園により登録料がかかります。"
+    },
+    "azukariRefresh": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/ichijihoiku/azukari/ichijihoiku.html",
+      "quote": "区立保育園2園合わせて月5日間まで"
+    },
+    "notes.3": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/shisetsu/kodomodaredemo.html",
+      "quote": "上限を超過した時間については、通常の利用料の他、高額の自己負担が発生する場合がございます。"
+    }
+  },
+  "sources": [
+    {
+      "label": "中野区「一時保育・短期特例保育」",
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/ichijihoiku/azukari/ichijihoiku.html"
+    },
+    {
+      "label": "中野区「一時的な預かり」",
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/ichijihoiku/azukari/index.html"
+    },
+    {
+      "label": "中野区「幼児教育・保育の無償化」",
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/hoikuen/hoikuryohojyo/musyoka.html"
+    },
+    {
+      "label": "中野区「中野区乳児等通園支援事業（こども誰でも通園制度）」",
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/shisetsu/kodomodaredemo.html"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "citySlug": "osaka",
+  "checkedAt": "2026-09-18",
+  "azukariPage": {
+    "label": "大阪市「一時預かり」",
+    "url": "https://www.city.osaka.lg.jp/kodomo/page/0000370649.html"
+  },
+  "azukariReasons": "労働、職業訓練、就学のためのやむを得ない理由、疾病・入院などのやむを得ない理由で緊急一時的に保育が必要となるとき、育児に伴う保護者の身体的・心理的負担を解消するため一時的に保育が必要となるとき。里帰り出産・介護、裁判員制度、災害避難者のお子さんは、市外居住者でも利用可",
+  "azukariLimit": "緊急・一時的に利用する場合は2週間以内、断続的に利用する場合は週3日以内",
+  "azukariAges": "原則、市内に居住する小学校就学前までのお子さん",
+  "azukariFees": [
+    "平日（月曜日～土曜日）：0歳児1日2,700円、1・2歳児1日2,000円、3歳児以上1日1,200円（別途昼食代等が必要）",
+    "休日（日曜日・国民の祝日等）：0歳児1日3,600円、1・2歳児1日2,700円、3歳児以上1日1,600円（別途昼食代等が必要）"
+  ],
+  "azukariReduction": "生活保護世帯は無料。市民税非課税世帯のうち、ひとり親世帯または障がい児（者）のいる世帯は無料。市民税非課税世帯は半額減免（平日の0歳児は1,300円、休日の1・2歳児は1,300円）",
+  "azukariRegistration": "事前登録が必要。利用を希望する保育所等に直接お申し込みください。面談等を行います。施設によって手続きや詳細が異なるため、利用前に必ず施設へご確認ください",
+  "azukariFacilities": "一時預かり事業実施施設一覧をご覧ください。利用する施設によって人数制限がありますので、利用状況の関係ですぐにご利用できない場合があります",
+  "daredemoPage": {
+    "label": "大阪市「大阪市こども誰でも通園制度について」",
+    "url": "https://www.city.osaka.lg.jp/kodomo/page/0000643027.html"
+  },
+  "daredemoHours": "こども1人あたり1か月10時間まで",
+  "daredemoFee": "利用料は施設へ直接お支払いください。生活保護法による被保護世帯や市民税非課税世帯等への負担軽減があります。給食費・おやつ代など別途実費負担が必要な場合があります",
+  "daredemoAges": "利用日時点で、0歳6か月から満3歳未満のこども（ただし、認定こども園、保育所、地域型保育事業、企業主導型保育事業を利用しているこどもを除く）",
+  "daredemoApply": "利用にあたり、事前に市町村の認定を受ける必要があります。認定申請後、こども誰でも通園制度総合支援システムから利用申込をしてください。利用を希望する施設へお問い合わせください",
+  "daredemoFacilities": "令和8年10月に民間施設28施設、公立施設6施設で実施。実施施設の一覧は公式ページのPDFをご参照ください",
+  "daredemoStatus": "令和8年10月に実施施設が民間28施設・公立6施設に増え、今後も順次拡充予定。休止する施設もある（下福島幼稚園は令和8年4月から、聖愛園・あすなろは令和8年9月から休止）",
+  "notes": [
+    "保護者が一時的に本市の実家へ里帰りする場合（出産・介護）や、裁判員制度へ従事する場合、災害避難者のお子さんは市外居住者でも利用できますが、市外居住者は利用料減免の対象外です",
+    "一時預かり事業（幼稚園型以外）における無償化について、認可外保育施設等における幼児教育・保育の無償化についてもご確認ください"
+  ],
+  "evidence": {
+    "azukariReasons": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000370649.html",
+      "quote": "保護者の傷病、介護、冠婚葬祭又は労働・職業訓練・就学あるいは育児負担の軽減などのために、緊急・一時的（2週間以内）又は断続的（週3日以内）に家庭での保育が困難となるお子さんを対象とします。"
+    },
+    "azukariLimit": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000370649.html",
+      "quote": "緊急・一時的（2週間以内）又は断続的（週3日以内）に家庭での保育が困難となるお子さんを対象とします。"
+    },
+    "azukariAges": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000370649.html",
+      "quote": "原則、市内に住所を有し、保育所等を利用していない小学校就学前までのお子さん"
+    },
+    "azukariFees.0": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000370649.html",
+      "quote": "【平日（月曜日～土曜日）】0歳児　　　　　日額2,700円1・2歳児　　　 日額2,000円3歳児以上　　日額1,200円"
+    },
+    "azukariFees.1": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000370649.html",
+      "quote": "【休日（日曜日・国民の祝日等）】0歳児　　　　　日額3,600円1・2歳児　　　 日額2,700円3歳児以上　　日額1,600円"
+    },
+    "azukariReduction": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000370649.html",
+      "quote": "※生活保護世帯は無料※市民税非課税世帯のうち、ひとり親世帯または障がい児（者）のいる世帯は無料※市民税非課税世帯は半額減免"
+    },
+    "azukariRegistration": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000370649.html",
+      "quote": "事前登録が必要となりますので、利用を希望する保育所等に直接お申し込みください。（面談等をおこないます。）"
+    },
+    "azukariFacilities": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000370649.html",
+      "quote": "実施場所一時預かり事業実施施設一覧をご覧ください。"
+    },
+    "daredemoHours": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000643027.html",
+      "quote": "こども1人あたり1か月10時間まで"
+    },
+    "daredemoAges": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000643027.html",
+      "quote": "利用日時点で、0歳6か月から満3歳未満のこども　ただし、認定こども園、保育所、地域型保育事業、企業主導型保育事業を利用しているこどもを除く。"
+    },
+    "daredemoApply": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000643027.html",
+      "quote": "※利用にあたり、事前に市町村の認定を受ける必要があります。"
+    },
+    "daredemoFee": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000643027.html",
+      "quote": "（注1）生活保護法による被保護世帯や市民税非課税世帯等への負担軽減があります。（注2）給食費・おやつ代など別途実費負担が必要な場合もあります。"
+    },
+    "daredemoFacilities": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000643027.html",
+      "quote": "本事業を実施する施設が令和8年10月に民間施設28施設、公立施設6施設に増え、今後も順次実施施設を拡充してまいります。"
+    },
+    "daredemoStatus": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000643027.html",
+      "quote": "「17【東淀川区】聖愛園」は、令和8年9月から休止"
+    },
+    "notes.0": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000370649.html",
+      "quote": "保護者が一時的に本市の実家へ里帰りする場合（出産・介護）や、裁判員制度へ従事する場合および災害避難者のお子さんは、市外居住者であってもご利用いただけます。（別途、証明書類の提出が必要となります。）但し、市外居住者は利用料減免の対象外です。"
+    },
+    "notes.1": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000370649.html",
+      "quote": "※一時預かり事業（幼稚園型以外）における無償化については、認可外保育施設等における幼児教育・保育の無償化についてをご確認ください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "大阪市「一時預かり」",
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000370649.html"
+    },
+    {
+      "label": "大阪市「大阪市こども誰でも通園制度について」",
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000643027.html"
+    }
+  ]
+}

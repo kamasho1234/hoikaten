@@ -1,0 +1,169 @@
+{
+  "citySlug": "kobe",
+  "checkedAt": "2026-09-18",
+  "azukariPage": {
+    "label": "神戸市「一時保育」",
+    "url": "https://www.city.kobe.lg.jp/a36812/kosodate/yochien/hoikujo/nursery/ichijihoiku.html"
+  },
+  "azukariReasons": "非定型保育（パート就労や技能習得学校への通学など）、緊急保育（保護者の病気、出産、家族の看護、冠婚葬祭や学校行事など）、リフレッシュ保育（育児での心理的、肉体的な負担を軽減するため）",
+  "azukariRefresh": "リフレッシュ保育（育児での心理的・肉体的な負担の軽減。慣らし保育や体験入所も含む）で1か月あたり7日まで",
+  "azukariLimit": "非定型保育は1週間あたり平均3日まで、緊急保育は保育が必要な事情ごとに14日まで、リフレッシュ保育は1か月あたり7日まで。複数施設を使っても類型ごとの合計がこの範囲",
+  "azukariAges": "満1歳から就学前",
+  "azukariFees": [
+    "非定型保育：日額2,400円（4時間以下1,200円）",
+    "緊急保育：日額2,400円（4時間以下1,200円）",
+    "リフレッシュ保育：日額3,600円（4時間以下1,800円）",
+    "利用料には給食費を含む"
+  ],
+  "azukariReduction": "第2子または第3子以降の児童が一時保育を利用した場合、支払った利用料の半額または全額を後日市が支払う多子軽減補助金がある（四半期ごとに申請）。生活保護世帯は非定型保育と緊急保育の利用料が無料（適用証明書の提出が必要）",
+  "azukariRegistration": "各施設での手続きが必要。お申し込み後、施設において利用日までの間に事前面接を行う",
+  "azukariBooking": "原則、利用希望日の1週間前までに、希望の施設へ直接連絡する",
+  "azukariFacilities": "市内の認可保育施設（認可保育所、認定こども園、小規模保育事業所、事業所内保育事業所、家庭的保育事業所）で実施。実施施設は施設一覧ページの「2・3号施設一覧表」内の「一時保育」欄で確認可能",
+  "daredemoPage": {
+    "label": "神戸市「神戸市こども誰でも通園制度」",
+    "url": "https://www.city.kobe.lg.jp/z/kodomokatekyoku/kosodateshien/daredemotuen.html"
+  },
+  "daredemoHours": "こども1人につき、月10時間まで利用可能",
+  "daredemoFee": "こども1人1時間あたり300円（給食やおやつがある場合は別途実費）。減免後は生活保護世帯0円、世帯の市民税所得割課税額合計が77,101円未満の世帯と市が特に支援が必要と認めた世帯100円",
+  "daredemoAges": "利用開始日時点で、生後6か月から2歳（3歳の誕生日の前々日まで利用可能）",
+  "daredemoApply": "事前に認定申請と初回面談を行い、つうえんポータルで利用予約をする。市内在住者は利用日の30日前（市外在住者は25日前）から、余裕活用型の施設は10日前（市外は5日前）から予約できる",
+  "daredemoFacilities": "認定こども園・保育所・幼稚園・小規模保育事業・家庭的保育事業など市内の137施設（2026年7月時点）。実施施設一覧はPDF・EXCEL形式で公式サイトに掲載",
+  "daredemoStatus": "2026年度は5期制で実施（第3期は7〜9月）。2026年7月から実施施設が44施設から137施設に増加。誰でも通園制度には一時保育のような多子世帯の利用料軽減措置はない",
+  "otherServices": [
+    "育休明け乳幼児定期預かり（KOBEはじめルーム）",
+    "子育てリフレッシュステイ",
+    "ファミリーサポートセンター",
+    "病児保育事業"
+  ],
+  "notes": [
+    "複数の保育施設も利用できるが、利用日数の合計は利用類型ごとに定められた範囲までの制限がある",
+    "非定型保育または緊急保育での利用は、申し込み時に証明書類の提出が必要なことがある（例：雇用証明書、診断書、冠婚葬祭の案内状、学校行事の案内通知など）",
+    "利用時間に関わらず、1回の利用＝1日とカウントされる",
+    "幼稚園や認定こども園（幼稚園部分）に在籍する児童が一時預かり等を使う場合は、在籍する幼稚園等の預かり保育との併用はできない",
+    "一時保育には就労や病気等、利用にあたり保護者の理由が必要だが、誰でも通園制度では利用の理由は必要ない"
+  ],
+  "evidence": {
+    "azukariReasons": {
+      "url": "https://www.city.kobe.lg.jp/a36812/kosodate/yochien/hoikujo/nursery/ichijihoiku.html",
+      "quote": "保護者がパート就労や病気等で一時的に家庭で保育することができない場合や、保護者の育児負担を減らす場合に、市内の認可保育施設で一時的に児童をお預かりする制度です。"
+    },
+    "azukariLimit": {
+      "url": "https://www.city.kobe.lg.jp/a36812/kosodate/yochien/hoikujo/nursery/ichijihoiku.html",
+      "quote": "利用可能日数：保育が必要な事情ごとに14日まで"
+    },
+    "azukariAges": {
+      "url": "https://www.city.kobe.lg.jp/a36812/kosodate/yochien/hoikujo/nursery/ichijihoiku.html",
+      "quote": "児童の年齢が満1歳から就学前であること"
+    },
+    "azukariFees.0": {
+      "url": "https://www.city.kobe.lg.jp/a36812/kosodate/yochien/hoikujo/nursery/ichijihoiku.html",
+      "quote": "非定型保育 日額2,400円（4時間以下1,200円）"
+    },
+    "azukariFees.1": {
+      "url": "https://www.city.kobe.lg.jp/a36812/kosodate/yochien/hoikujo/nursery/ichijihoiku.html",
+      "quote": "緊急保育 日額2,400円（4時間以下1,200円）"
+    },
+    "azukariFees.2": {
+      "url": "https://www.city.kobe.lg.jp/a36812/kosodate/yochien/hoikujo/nursery/ichijihoiku.html",
+      "quote": "リフレッシュ保育 日額3,600円（4時間以下1,800円）"
+    },
+    "azukariFees.3": {
+      "url": "https://www.city.kobe.lg.jp/a36812/kosodate/yochien/hoikujo/nursery/ichijihoiku.html",
+      "quote": "利用料には給食費を含みます。"
+    },
+    "azukariReduction": {
+      "url": "https://www.city.kobe.lg.jp/a36812/kosodate/yochien/hoikujo/nursery/ichijihoiku-tashikeigen.html",
+      "quote": "第2子または第3子以降の児童が一時保育を利用した場合に、保護者が施設に支払った利用料の半額または全額を、後日、神戸市から保護者に支払います。"
+    },
+    "azukariRegistration": {
+      "url": "https://www.city.kobe.lg.jp/a36812/kosodate/yochien/hoikujo/nursery/ichijihoiku.html",
+      "quote": "お申し込み後、施設において、利用日までの間に事前面接を行います。"
+    },
+    "azukariBooking": {
+      "url": "https://www.city.kobe.lg.jp/a36812/kosodate/yochien/hoikujo/nursery/ichijihoiku.html",
+      "quote": "原則、利用希望日の1週間前までに、希望の施設へ直接連絡してください。"
+    },
+    "azukariFacilities": {
+      "url": "https://www.city.kobe.lg.jp/a36812/kosodate/yochien/hoikujo/nursery/ichijihoiku.html",
+      "quote": "一時保育の申し込みは、各施設での手続きが必要です。（実施施設は、施設一覧ページの「2・3号施設一覧表」内の「一時保育」欄を確認してください）"
+    },
+    "daredemoHours": {
+      "url": "https://www.city.kobe.lg.jp/z/kodomokatekyoku/kosodateshien/daredemotuen.html",
+      "quote": "こども1人につき、月10時間まで利用可能です。"
+    },
+    "daredemoFee": {
+      "url": "https://www.city.kobe.lg.jp/z/kodomokatekyoku/kosodateshien/daredemotuen.html",
+      "quote": "2.世帯の当該年度市民税所得割課税額合計が77,101円未満の世帯 200円／時間 100円／時間"
+    },
+    "daredemoAges": {
+      "url": "https://www.city.kobe.lg.jp/z/kodomokatekyoku/kosodateshien/daredemotuen.html",
+      "quote": "利用開始日時点で、0歳6か月から2歳（3歳の誕生日の前々日まで利用可）"
+    },
+    "daredemoApply": {
+      "url": "https://www.city.kobe.lg.jp/z/kodomokatekyoku/kosodateshien/daredemotuen.html",
+      "quote": "市内の施設一律で、神戸市内在住の方は利用日の 30日前 （神戸市外在住の方は 25日前 ）から予約が可能です。"
+    },
+    "daredemoFacilities": {
+      "url": "https://www.city.kobe.lg.jp/z/kodomokatekyoku/kosodateshien/daredemotuen.html",
+      "quote": "神戸市では、2026年7月より、実施施設が44施設から137施設へ大幅に増え、より身近な施設を利用できるようになりました。"
+    },
+    "daredemoStatus": {
+      "url": "https://www.city.kobe.lg.jp/z/kodomokatekyoku/kosodateshien/daredemotuen.html",
+      "quote": "一時保育には多子世帯の利用料軽減措置がありますが、誰でも通園制度にはありません。"
+    },
+    "otherServices.0": {
+      "url": "https://www.city.kobe.lg.jp/a36812/kosodate/yochien/hoikujo/nursery/ichijihoiku.html",
+      "quote": "育休明け乳幼児定期預かり(KOBEはじめルーム)"
+    },
+    "otherServices.1": {
+      "url": "https://www.city.kobe.lg.jp/a36812/kosodate/yochien/hoikujo/nursery/ichijihoiku.html",
+      "quote": "子育てリフレッシュステイ"
+    },
+    "otherServices.2": {
+      "url": "https://www.city.kobe.lg.jp/a36812/kosodate/yochien/hoikujo/nursery/ichijihoiku.html",
+      "quote": "ファミリーサポートセンター"
+    },
+    "otherServices.3": {
+      "url": "https://www.city.kobe.lg.jp/a36812/kosodate/yochien/hoikujo/nursery/ichijihoiku.html",
+      "quote": "病児保育事業"
+    },
+    "notes.0": {
+      "url": "https://www.city.kobe.lg.jp/a36812/kosodate/yochien/hoikujo/nursery/ichijihoiku.html",
+      "quote": "複数の保育施設も利用できますが、利用日数の合計は利用類型ごとに定められた範囲までです"
+    },
+    "notes.1": {
+      "url": "https://www.city.kobe.lg.jp/a36812/kosodate/yochien/hoikujo/nursery/ichijihoiku.html",
+      "quote": "(1)非定型保育または(2)緊急保育での利用は、申し込み時に証明書類の提出が必要なことがあります（例：雇用証明書、診断書、冠婚葬祭の案内状、学校行事の案内通知など）"
+    },
+    "notes.2": {
+      "url": "https://www.city.kobe.lg.jp/a36812/kosodate/yochien/hoikujo/nursery/ichijihoiku.html",
+      "quote": "利用時間に関わらず、1回の利用＝1日とします"
+    },
+    "notes.3": {
+      "url": "https://www.city.kobe.lg.jp/a36812/kosodate/yochien/hoikujo/nursery/ichijihoiku.html",
+      "quote": "幼稚園や認定こども園（幼稚園部分）に在籍する児童が、在籍する幼稚園等で預かり保育を実施していない日に保育を必要とする場合"
+    },
+    "notes.4": {
+      "url": "https://www.city.kobe.lg.jp/z/kodomokatekyoku/kosodateshien/daredemotuen.html",
+      "quote": "一時保育には就労や病気等、利用にあたり保護者の理由が必要ですが、誰でも通園制度では利用の理由は必要ありません。"
+    },
+    "azukariRefresh": {
+      "url": "https://www.city.kobe.lg.jp/a36812/kosodate/yochien/hoikujo/nursery/ichijihoiku.html",
+      "quote": "育児での心理的、肉体的な負担を軽減するため（慣らし保育や体験入所も含む） 利用可能日数：1か月あたり7日まで"
+    }
+  },
+  "sources": [
+    {
+      "label": "神戸市「一時保育」",
+      "url": "https://www.city.kobe.lg.jp/a36812/kosodate/yochien/hoikujo/nursery/ichijihoiku.html"
+    },
+    {
+      "label": "神戸市「一時保育利用料の多子軽減補助金」",
+      "url": "https://www.city.kobe.lg.jp/a36812/kosodate/yochien/hoikujo/nursery/ichijihoiku-tashikeigen.html"
+    },
+    {
+      "label": "神戸市「神戸市こども誰でも通園制度」",
+      "url": "https://www.city.kobe.lg.jp/z/kodomokatekyoku/kosodateshien/daredemotuen.html"
+    }
+  ]
+}

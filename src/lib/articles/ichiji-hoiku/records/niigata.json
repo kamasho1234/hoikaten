@@ -1,0 +1,118 @@
+{
+  "citySlug": "niigata",
+  "checkedAt": "2026-09-18",
+  "azukariPage": {
+    "label": "新潟市「一時預かりについて」",
+    "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/takuji/ichiji.html"
+  },
+  "azukariReasons": "育児による疲労・ストレスからリフレッシュしたいとき、お子さんを連れて行けない用事のときなど、保育が必要な理由があるとき",
+  "azukariRefresh": "リフレッシュ目的での利用が可能。上限は月14日まで（原則）",
+  "azukariLimit": "拠点園は月14日まで（原則）、緊急園は月7日まで（原則）。複数施設併用の場合でも利用上限は月14日",
+  "azukariAges": "小学校就学前までの市内在住の乳幼児（市外の人でも出産・看護等の理由で里帰りしている場合に利用可能な場合あり）",
+  "azukariFees": [
+    "基本料金：午前8時半から午後4時までの利用時間が4時間以内は900円、4時間超は1,800円。午後4時以降のみ利用の場合は900円",
+    "延長料金：午後4時から午後8時までは30分ごと100円。午後8時以降は30分ごと200円",
+    "飲食物費等：実費（公立は3歳未満児クラス400円、3歳以上児クラス300円）"
+  ],
+  "azukariReduction": "生活保護世帯、市民税非課税世帯（4月から8月までの利用は前年度分、9月から翌年3月までの利用は当年度分）は無料（事前の申し込みが必要）。幼児教育保育の無償化により、無料となる場合があります（保育の必要性や施設の利用状況の確認と、事前の認定申請が必要）",
+  "azukariBooking": "利用希望施設に直接お申込み。申込方法は施設にご確認ください",
+  "azukariFacilities": "拠点園と緊急園（左記以外の認可保育施設、一部施設を除く）で実施。実施施設一覧はPDFで区ごとに提供（北区、東区、中央区、江南区、秋葉区、南区、西区、西蒲区）",
+  "daredemoPage": {
+    "label": "新潟市「こども誰でも通園制度（乳児等通園支援事業）について」",
+    "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/takuji/hoiku_daredemo.html"
+  },
+  "daredemoHours": "月10時間（国の制度基準）",
+  "daredemoFee": "原則1時間300円。ほかに給食費、雑費が必要となる場合があります（私立の場合、各施設で異なる場合があります）",
+  "daredemoAges": "生後6か月から2歳までで保育所、幼稚園、認定こども園、地域型保育事業所、企業主導型保育施設に通っていないお子様（3歳の誕生日の前々日まで利用可能）",
+  "daredemoApply": "ポータルサイトから認定申請が必要。認定申請から認定証の発行まで2～3週間程度かかります",
+  "daredemoFacilities": "令和8年度実施施設あり（PDF：561KB、令和8年4月8日現在の情報）",
+  "notes": [
+    "複数の施設を併用する場合でも、利用上限は原則月14日です",
+    "市外在住者でも非課税証明書または生活保護受給者証の画像をアップロードすることで利用料が減免になる場合があります（市内に住民票がある場合は施設の窓口で申し出ていただければ市の担当者が税データ等を確認します）",
+    "わいわいひろば（東区プラザ内）、子育て応援ひろば（Co-C.G.ビル4階）、寺山公園子育て交流施設「い～てらす」でも短時間保育を実施しています"
+  ],
+  "evidence": {
+    "azukariReasons": {
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/takuji/ichiji.html",
+      "quote": "育児による疲労・ストレスからリフレッシュしたいとき、お子さんを連れて行けない用事のときなど、市内の保育施設では一時的にお子さんをお預かりします。"
+    },
+    "azukariRefresh": {
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/takuji/ichiji.html",
+      "quote": "育児による疲労・ストレスからリフレッシュしたいとき、お子さんを連れて行けない用事のときなど"
+    },
+    "azukariLimit": {
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/takuji/ichiji.html",
+      "quote": "※複数の施設を併用する場合でも、利用上限は原則月14日です。"
+    },
+    "azukariAges": {
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/takuji/ichiji.html",
+      "quote": "対象 保育が必要な、小学校就学前までの市内在住の乳幼児"
+    },
+    "azukariFees.0": {
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/takuji/ichiji.html",
+      "quote": "基本料金 午前8時半から午後4時までの利用時間が 4時間以内… 900円 4時間超… 1,800円 午後4時以降のみ利用の場合… 900円"
+    },
+    "azukariFees.1": {
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/takuji/ichiji.html",
+      "quote": "延長料金 午後4時以降の利用には、基本料金に加えて延長料金がかかります。 午後4時から午後8時まで 30分ごと 100円 午後8時以降 30分ごと 200円"
+    },
+    "azukariFees.2": {
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/takuji/ichiji.html",
+      "quote": "飲食物費等 実費（利用する施設にご確認ください） 注釈：公立は3歳未満児クラス400円、3歳以上児クラス300円"
+    },
+    "azukariReduction": {
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/takuji/ichiji.html",
+      "quote": "注釈1：生活保護世帯、市民税非課税世帯（4月から8月までの利用は前年度分、9月から翌年3月までの利用は当年度分）は無料です（事前の申し込みが必要）。 注釈2： 幼児教育保育の無償化 により、無料となる場合があります（保育の必要性や施設の利用状況の確認と、事前の認定申請が必要）。"
+    },
+    "azukariBooking": {
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/takuji/ichiji.html",
+      "quote": "利用希望施設に直接お申込みください。 申込方法は施設にご確認ください。"
+    },
+    "azukariFacilities": {
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/takuji/ichiji.html",
+      "quote": "実施施設 拠点園 緊急園（左記以外の認可保育施設） ※一部施設を除く"
+    },
+    "daredemoHours": {
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/takuji/hoiku_daredemo.html",
+      "quote": "月一定時間（月10時間）のなかで保護者の就労要件などにかかわらず生後6か月～2歳のお子様を預かる制度です。"
+    },
+    "daredemoFee": {
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/takuji/hoiku_daredemo.html",
+      "quote": "原則1時間300円。ほかに給食費、雑費が必要となる場合があります。"
+    },
+    "daredemoAges": {
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/takuji/hoiku_daredemo.html",
+      "quote": "生後6か月から2歳までで保育所、幼稚園、認定こども園、地域型保育事業所、企業主導型保育施設に通っていないお子様が対象です。 ※3歳の誕生日の前々日まで利用できます。"
+    },
+    "daredemoApply": {
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/takuji/hoiku_daredemo.html",
+      "quote": "ポータルサイトでの申請から認定証の発行まで２～３週間程度かかりますので、あらかじめご了承ください。"
+    },
+    "daredemoFacilities": {
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/takuji/hoiku_daredemo.html",
+      "quote": "令和8年4月8日現在の情報です。"
+    },
+    "notes.0": {
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/takuji/ichiji.html",
+      "quote": "※複数の施設を併用する場合でも、利用上限は原則月14日です。"
+    },
+    "notes.1": {
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/takuji/ichiji.html",
+      "quote": "市外在住者の減免確認について 現在、新潟市外に住民票がある方、または新潟市内に住んでいるが1月1日時点で他市町村に居住していた方のうち、当該住所地で非課税世帯または生活保護世帯に当たる方は非課税証明書または生活保護受給者証の画像を以下のリンクよりアップロードしていただくことで利用料が減免になる場合があります。"
+    },
+    "notes.2": {
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/takuji/ichiji.html",
+      "quote": "関連施設 わいわいひろば（東区プラザ内）、子育て応援ひろば（Co-C.Gビル4階）、寺山公園子育て交流施設「い～てらす」でも短時間保育を実施しています"
+    }
+  },
+  "sources": [
+    {
+      "label": "新潟市「一時預かりについて」",
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/takuji/ichiji.html"
+    },
+    {
+      "label": "新潟市「こども誰でも通園制度（乳児等通園支援事業）について」",
+      "url": "https://www.city.niigata.lg.jp/kosodate/ninshin/life_stage/azuketai/takuji/hoiku_daredemo.html"
+    }
+  ]
+}

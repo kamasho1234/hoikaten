@@ -1,0 +1,136 @@
+{
+  "citySlug": "toshima",
+  "checkedAt": "2026-09-18",
+  "azukariPage": {
+    "label": "豊島区「一時預かり事業」",
+    "url": "https://www.city.toshima.lg.jp/267/kosodate/kosodate/ichijiazukari/index.html"
+  },
+  "azukariReasons": "通院、PTA、仕事、リフレッシュなど、理由は問わない",
+  "azukariRefresh": "通院・PTA・仕事・リフレッシュなど、用事を済ませたいときに時間単位で使える（理由は問わない）",
+  "azukariLimit": "区立保育園一時保育は予約回数に制限がないが、一度に3回分まで予約可能。子ども家庭支援センターは週3回まで",
+  "azukariAges": "認可保育所・認定こども園・地域型保育事業・認証保育所・臨時保育所を利用していない集団保育が可能な子ども。区立保育園の一時保育は満1歳以上〜就学前、子ども家庭支援センターは満10か月〜就学前",
+  "azukariFees": [
+    "区立保育園一時保育：1時間500円（端数切り上げ）、給食希望時は別途300円。お迎え時に直接支払い",
+    "子ども家庭支援センター一時保育：500円（1時間単位）。お迎え時に窓口で支払い"
+  ],
+  "azukariRegistration": "区立保育園一時保育：希望園に事前連絡後、親子で来所し登録申請。初回申請時に乳児医療証を持参。申請書は実施園・保育課で配布またはダウンロード可能。子ども家庭支援センター：東部・西部センターで登録申請。初回申請時に乳児医療証を持参",
+  "azukariBooking": "区立保育園の一時保育は登録後、1か月前の同日から前日までに実施園に直接申し込む。子ども家庭支援センターは母子手帳アプリ「母子モ」で予約できる（令和5年4月から）",
+  "azukariFacilities": "区立保育園8園（駒込第一・巣鴨第一・東池袋第二・池袋第二・池袋第五・目白第二・南長崎第二・高松第二）、子ども家庭支援センター2か所（東部・西部）、私立認可保育所、地域型保育事業（余裕活用型）で実施",
+  "daredemoPage": {
+    "label": "豊島区「豊島区こどもつながる定期預かり事業(こども誰でも通園制度)」",
+    "url": "https://www.city.toshima.lg.jp/608/2604171041.html"
+  },
+  "daredemoHours": "区内在住者が区内施設を使う場合は月16時間まで（8時間×2日、4時間×4日など内訳は施設による。区立保育園は原則4時間×4日）。区外施設や区外在住者は月10時間まで",
+  "daredemoFee": "区内在住者が区内施設を使う場合は無償（施設によって実費徴収あり）。区外施設や区外在住者は利用施設による。負担軽減対象者は生活保護世帯・住民税非課税世帯・区市町村民税所得割額77,101円未満の世帯",
+  "daredemoAges": "0歳6か月〜2歳児クラスで、認可保育所・幼稚園・地域型保育事業・認定こども園・認証保育所・企業主導型保育事業を利用していない子ども（区外の人は満3歳に達する日の前日まで）",
+  "daredemoApply": "乳児等支援給付認定申請フォームで利用認定を申請（認定証の発行に14日程度）。総合支援システムのアカウント発行後、一斉申込期間に子ども1人につき1園に申し込み、募集人数を超えると抽選。仮決定後に事前面談をして正式決定",
+  "daredemoFacilities": "区立保育園、私立保育園、地域型保育事業で実施。実施予定施設一覧（募集対象年齢を含む）を別ページに掲載",
+  "daredemoStatus": "令和8年度から国のこども誰でも通園制度として実施。区立は年4期、私立・地域型は上半期・下半期で募集し、下半期（10月〜3月）の申込は9月14〜23日。区外の人は区民の利用待機者がいない場合のみ利用でき、区民の希望があれば当月で終了",
+  "notes": [
+    "区立保育園の一時保育で利用時間が午前11時を過ぎる場合はお弁当持参。給食希望時は別途300円",
+    "区立保育園の一時保育は原則として各園1日1名で、当日の予約時間延長はできない",
+    "子ども家庭支援センターの一時保育は当日の予約・時間変更ができず、東部・西部合わせて週3回までが原則",
+    "一部の認可外保育施設は区の制度とは別に独自に一時預かりを実施している",
+    "つながる定期預かり事業は施設により利用時間を徐々に長くしたり親子通園を導入している施設がある"
+  ],
+  "evidence": {
+    "azukariReasons": {
+      "url": "https://www.city.toshima.lg.jp/268/kosodate/kosodate/ichijiazukari/001998.html",
+      "quote": "通院、PTA、仕事、リフレッシュなど、お子さんを預けて用事を済ませたい時"
+    },
+    "azukariRefresh": {
+      "url": "https://www.city.toshima.lg.jp/267/kosodate/kosodate/ichijiazukari/index.html",
+      "quote": "お子さんを預けて用事（通院、PTA、仕事、リフレッシュなど）を済ませたい時、お子さんを時間単位でお預かりして保育する制度です。"
+    },
+    "azukariLimit": {
+      "url": "https://www.city.toshima.lg.jp/268/kosodate/kosodate/ichijiazukari/001998.html",
+      "quote": "利用回数は制限がありませんが、一度に予約できるのは3回分までです。"
+    },
+    "azukariAges": {
+      "url": "https://www.city.toshima.lg.jp/265/kosodate/kosodate/shiencenter/001749/index.html",
+      "quote": "満10か月から就学前の児童"
+    },
+    "azukariFees.0": {
+      "url": "https://www.city.toshima.lg.jp/268/kosodate/kosodate/ichijiazukari/001998.html",
+      "quote": "1時間500円（端数切り上げ）。"
+    },
+    "azukariFees.1": {
+      "url": "https://www.city.toshima.lg.jp/265/kosodate/kosodate/shiencenter/001749/index.html",
+      "quote": "500円（1時間単位）料金は、お迎え時に窓口でお支払いください。"
+    },
+    "azukariBooking": {
+      "url": "https://www.city.toshima.lg.jp/265/kosodate/kosodate/shiencenter/001749/index.html",
+      "quote": "令和5年4月1日より、子ども家庭支援センターの一時保育を母子手帳アプリ「母子モ」でご予約いただけます。"
+    },
+    "azukariRegistration": {
+      "url": "https://www.city.toshima.lg.jp/268/kosodate/kosodate/ichijiazukari/001998.html",
+      "quote": "希望する園に事前に連絡の上、親子で来所し、登録申請手続きをしてください"
+    },
+    "azukariFacilities": {
+      "url": "https://www.city.toshima.lg.jp/267/kosodate/kosodate/ichijiazukari/index.html",
+      "quote": "また令和5年4月から、地域型保育事業の空き定員を活用した一時保育（余裕活用型）を新たに開始しました。"
+    },
+    "notes.0": {
+      "url": "https://www.city.toshima.lg.jp/268/kosodate/kosodate/ichijiazukari/001998.html",
+      "quote": "利用時間が午前11時を過ぎる場合は、お弁当をお持ちください。給食を希望される場合は、別途300円必要となります。"
+    },
+    "notes.1": {
+      "url": "https://www.city.toshima.lg.jp/268/kosodate/kosodate/ichijiazukari/001998.html",
+      "quote": "原則として各園1日1名"
+    },
+    "notes.2": {
+      "url": "https://www.city.toshima.lg.jp/265/kosodate/kosodate/shiencenter/001749/index.html",
+      "quote": "当日の予約・時間変更はできません。原則として、東部子ども家庭支援センター・西部子ども家庭支援センター合わせて週3回までのご利用となります。"
+    },
+    "notes.3": {
+      "url": "https://www.city.toshima.lg.jp/267/kosodate/kosodate/ichijiazukari/index.html",
+      "quote": "一部の認可外保育施設においては、区の制度とは別に独自に一時預かりを実施しています。"
+    },
+    "notes.4": {
+      "url": "https://www.city.toshima.lg.jp/608/2604171041.html",
+      "quote": "施設により、お子さんの状況を勘案しながら、利用時間を徐々に長くしていく形や、親子通園を導入している施設もございます。"
+    },
+    "daredemoHours": {
+      "url": "https://www.city.toshima.lg.jp/608/2604171041.html",
+      "quote": "※1 16時間の内訳(8時間×2日、4時間×4日等)は、各施設によって異なります。区立保育園は原則4時間×4日の利用です。"
+    },
+    "daredemoFee": {
+      "url": "https://www.city.toshima.lg.jp/608/2604171041.html",
+      "quote": "＊負担軽減対象者：生活保護世帯、住民税非課税世帯、区市町村民税所得割額が77,101円未満の世帯"
+    },
+    "daredemoAges": {
+      "url": "https://www.city.toshima.lg.jp/608/2604171041.html",
+      "quote": "認可保育所、幼稚園、地域型保育事業、認定こども園、認証保育所、企業主導型保育事業の利用がないこと"
+    },
+    "daredemoApply": {
+      "url": "https://www.city.toshima.lg.jp/608/2604171041.html",
+      "quote": "一斉申込期間は区立保育園を含め、お子様1名につき1園のお申込みに限ります。"
+    },
+    "daredemoFacilities": {
+      "url": "https://www.city.toshima.lg.jp/608/2604171041.html",
+      "quote": "※各施設の概要や募集をおこなう対象年齢も掲載しておりますのでご確認ください。"
+    },
+    "daredemoStatus": {
+      "url": "https://www.city.toshima.lg.jp/608/2604171041.html",
+      "quote": "また、期間中であっても、豊島区民の利用希望があった場合、当月で利用終了となります。"
+    }
+  },
+  "sources": [
+    {
+      "label": "豊島区「一時預かり事業」",
+      "url": "https://www.city.toshima.lg.jp/267/kosodate/kosodate/ichijiazukari/index.html"
+    },
+    {
+      "label": "豊島区「区立保育園の一時保育」",
+      "url": "https://www.city.toshima.lg.jp/268/kosodate/kosodate/ichijiazukari/001998.html"
+    },
+    {
+      "label": "豊島区「子ども家庭支援センターの一時保育」",
+      "url": "https://www.city.toshima.lg.jp/265/kosodate/kosodate/shiencenter/001749/index.html"
+    },
+    {
+      "label": "豊島区「豊島区こどもつながる定期預かり事業(こども誰でも通園制度)」",
+      "url": "https://www.city.toshima.lg.jp/608/2604171041.html"
+    }
+  ]
+}

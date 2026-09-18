@@ -1,0 +1,148 @@
+{
+  "citySlug": "nagoya",
+  "checkedAt": "2026-09-18",
+  "azukariPage": {
+    "label": "名古屋市「一時保育事業について」",
+    "url": "https://kodomokosodate.city.nagoya.jp/firstuse/service/7-3.html"
+  },
+  "azukariReasons": "非定型保育（就労・職業訓練・就学で週3日の範囲で家庭保育が困難）、緊急保育（傷病・災害・事故・出産・看護・介護などやむを得ない事由）、リフレッシュ保育（育児に向き合うため）",
+  "azukariRefresh": "あり。1か月3日以内（公立保育所のリフレッシュ預かり保育事業と合わせて1か月3日以内）",
+  "azukariLimit": "非定型保育は週3日以内で最長6ヶ月；緊急保育は連続14日以内（年度内1回、再申請1回可）；リフレッシュ保育は1か月3日以内",
+  "azukariAges": "保育園・幼稚園等に在籍していない就学前のお子さん",
+  "azukariFees": [
+    "市町村民税所得割額40,800円以上の世帯: 6時間まで1,200円、8時間まで1,600円、10時間まで2,000円",
+    "市町村民税均等割のみ・所得割額40,800円未満の世帯: 6時間まで600円、8時間まで800円、10時間まで1,000円",
+    "生活保護・市町村民税非課税世帯: 0円",
+    "いずれも飲食物費として別途300円"
+  ],
+  "azukariReduction": "生活保護世帯、市町村民税非課税世帯は無償",
+  "azukariRegistration": "お住まいの区の区役所民生子ども課で「利用申請書」に必要事項を記入し、資格要件を証明する書類を添えて窓口に提出。緊急保育・リフレッシュ保育については一時保育事業実施施設でも受け付け可（健康保険証と母子手帳を持参）",
+  "azukariBooking": "申込みは原則、利用開始日の1週間前まで。利用要件によっては一時保育事業実施施設ごとに受付の方法が異なる場合があるため事前に施設へお問い合わせください",
+  "azukariFacilities": "71か所で実施",
+  "daredemoPage": {
+    "label": "名古屋市「名古屋市こども誰でも通園制度（保護者の方へのご案内）」",
+    "url": "https://www.city.nagoya.jp/kodomo/kosodate/1009115/1009125/1033528/1036127.html"
+  },
+  "daredemoHours": "子ども1人あたり1か月10時間まで（1回1時間以上、30分単位。未利用時間の翌月への繰り越し不可）",
+  "daredemoFee": "利用料は各事業者が設定（利用前に事業者に確認）。給食費・おやつ代などの実費が別途必要な場合がある。生活保護世帯や市民税非課税世帯等は減免制度あり",
+  "daredemoAges": "利用日時点で生後6か月から満3歳未満（満3歳に達する日の前々日まで）で、保育所等（保育所・認定こども園・地域型保育事業所・企業主導型保育事業所）に通っていない名古屋市在住の子ども。就労要件は問わない",
+  "daredemoApply": "最初の利用申請は市システム（名古屋市こども誰でも通園制度オンライン申請システム）で行い、1〜2週間でつうえんポータルにログインできる（認定通知書の郵送は2〜3週間）。ポータルで事業所ごとに事前面談を予約し、面談後に利用予約",
+  "daredemoFacilities": "令和8年4月時点で市内23か所。令和8年10月から新たに22か所増え、市内45か所で利用できる予定",
+  "daredemoStatus": "令和8年度に実施中（令和8年10月から施設が22か所増える）。利用予約を忘れて利用予定時間が過ぎた場合は当日キャンセル扱いで、予約時間分が当月の利用可能時間から差し引かれる",
+  "notes": [
+    "一時保育は利用定員が1日あたり概ね6人（小規模保育事業所の場合は3人）のため、申込みをされても希望の日に利用できないことがあります",
+    "市町村民税額は当該年度分（4月から8月（非定型保育については4月から9月）までにあっては前年度分）で判定されます",
+    "幼稚園在籍児については、長期休暇期間に疾病や出産等の緊急要件がある場合に限り、緊急保育の利用が可能です",
+    "一時保育のリフレッシュ保育と公立保育所によるリフレッシュ預かり保育事業の利用合計は1か月3日以内です",
+    "こども誰でも通園制度はさまざまな働き方やライフスタイルに関わらず支援するもので、保護者の就労要件は問いません",
+    "こども誰でも通園制度の利用料には減免制度があり、生活保護世帯や市民税非課税世帯等は減免対象となる場合があります"
+  ],
+  "evidence": {
+    "azukariReasons": {
+      "url": "https://kodomokosodate.city.nagoya.jp/firstuse/service/7-3.html",
+      "quote": "保護者の就労、職業訓練、就学などにより、週3日を限度として断続的に家庭保育が困難になる就学前のお子さんが利用できます。"
+    },
+    "azukariRefresh": {
+      "url": "https://kodomokosodate.city.nagoya.jp/firstuse/service/7-3.html",
+      "quote": "新たな気持ちで育児に取り組むための理由で利用ができます。期間は1ヶ月に3日以内です。"
+    },
+    "azukariLimit": {
+      "url": "https://kodomokosodate.city.nagoya.jp/firstuse/service/7-3.html",
+      "quote": "週3日を限度として断続的に家庭保育が困難になる就学前のお子さんが利用できます。期間は最長で6ヶ月で、継続して利用を希望される場合は再申請できます。"
+    },
+    "azukariAges": {
+      "url": "https://kodomokosodate.city.nagoya.jp/firstuse/service/7-3.html",
+      "quote": "利用されるお子さんが、特定教育・保育施設等において保育の利用をしている教育・保育給付2号認定子ども及び3号認定子どもでないこと。"
+    },
+    "azukariFees.0": {
+      "url": "https://kodomokosodate.city.nagoya.jp/firstuse/service/7-3.html",
+      "quote": "市町村民税所得割額40,800円以上の世帯 1,200円 1,600円 2,000円"
+    },
+    "azukariFees.1": {
+      "url": "https://kodomokosodate.city.nagoya.jp/firstuse/service/7-3.html",
+      "quote": "市町村民税均等割のみ・市町村民税所得割額40,800円未満の世帯 600円 800円 1,000円"
+    },
+    "azukariFees.2": {
+      "url": "https://kodomokosodate.city.nagoya.jp/firstuse/service/7-3.html",
+      "quote": "生活保護・市町村民税非課税世帯 0円 0円 0円"
+    },
+    "azukariReduction": {
+      "url": "https://kodomokosodate.city.nagoya.jp/firstuse/service/7-3.html",
+      "quote": "生活保護・市町村民税非課税世帯0円"
+    },
+    "azukariRegistration": {
+      "url": "https://kodomokosodate.city.nagoya.jp/firstuse/service/7-3.html",
+      "quote": "お住まいの区の区役所民生子ども課で、「利用申請書」に必要事項を記入し、資格要件等を証明する書類を添えて窓口に提出してください。"
+    },
+    "azukariBooking": {
+      "url": "https://kodomokosodate.city.nagoya.jp/firstuse/service/7-3.html",
+      "quote": "原則、利用開始日の1週間前まで"
+    },
+    "azukariFacilities": {
+      "url": "https://kodomokosodate.city.nagoya.jp/firstuse/service/7-3.html",
+      "quote": "71か所で実施しています。"
+    },
+    "daredemoHours": {
+      "url": "https://www.city.nagoya.jp/kodomo/kosodate/1009115/1009125/1033528/1036127.html",
+      "quote": "子ども1人あたり 1か月10時間 まで利用できます。（1回1時間以上、30分単位で利用可） （注）未利用時間を翌月へ繰り越すことはできません。"
+    },
+    "daredemoFee": {
+      "url": "https://www.city.nagoya.jp/kodomo/kosodate/1009115/1009125/1033528/1036127.html",
+      "quote": "利用料は、各事業者により設定されます。利用前に事業者に利用料をご確認いただくようお願いします。 生活保護世帯や市民税非課税世帯等、世帯の状況により減免制度があります。"
+    },
+    "daredemoAges": {
+      "url": "https://www.city.nagoya.jp/kodomo/kosodate/1009115/1009125/1033528/1036127.html",
+      "quote": "利用日時点で 生後6か月から満3歳未満 （満3歳に達する日の前々日まで）であること"
+    },
+    "daredemoApply": {
+      "url": "https://www.city.nagoya.jp/kodomo/kosodate/1009115/1009125/1033528/1036127.html",
+      "quote": "利用申請からログイン可能になるまでには1週間から2週間 程度かかるため、申請後すぐにはログインできません。"
+    },
+    "notes.0": {
+      "url": "https://kodomokosodate.city.nagoya.jp/firstuse/service/7-3.html",
+      "quote": "定員は1日あたり概ね6人(小規模保育事業所の場合は3人)となります。"
+    },
+    "notes.1": {
+      "url": "https://kodomokosodate.city.nagoya.jp/firstuse/service/7-3.html",
+      "quote": "市町村民税額は当該年度分（4月から8月（非定型保育については4月から9月）までにあっては前年度分）です。"
+    },
+    "notes.2": {
+      "url": "https://kodomokosodate.city.nagoya.jp/firstuse/service/7-3.html",
+      "quote": "幼稚園在籍児については、長期休暇期間に疾病や出産等の緊急要件がある場合、緊急保育の利用可。"
+    },
+    "notes.3": {
+      "url": "https://kodomokosodate.city.nagoya.jp/firstuse/service/7-3.html",
+      "quote": "リフレッシュ保育、公立保育所によるリフレッシュ預かり保育の利用できる期間は、合わせて1ヶ月に3日以内です。"
+    },
+    "notes.4": {
+      "url": "https://kodomokosodate.city.nagoya.jp/firstuse/service/7-10.html",
+      "quote": "全ての子どもの育ちを応援し、子育て家庭に対して多様な働き方やライフスタイルにかかわらない形での支援を強化するため、月一定時間まで保育所等へ通園することができる制度です。"
+    },
+    "notes.5": {
+      "url": "https://kodomokosodate.city.nagoya.jp/firstuse/service/7-10.html",
+      "quote": "生活保護世帯や市民税非課税世帯等、世帯の状況により減免制度があります。"
+    },
+    "azukariFees.3": {
+      "url": "https://kodomokosodate.city.nagoya.jp/firstuse/service/7-3.html",
+      "quote": "飲食物費として別途300円かかります。"
+    },
+    "daredemoFacilities": {
+      "url": "https://www.city.nagoya.jp/kodomo/kosodate/1009115/1009125/1033528/1036127.html",
+      "quote": "令和8年4月時点において、名古屋市内では23か所でこども誰でも通園制度を実施しています。"
+    },
+    "daredemoStatus": {
+      "url": "https://www.city.nagoya.jp/kodomo/kosodate/1009115/1009125/1033528/1036127.html",
+      "quote": "当日キャンセルの扱い となり、予約時間分は当月の利用可能時間から差し引かれます。"
+    }
+  },
+  "sources": [
+    {
+      "label": "名古屋市 教育・保育情報サイト ここなご「一時保育事業について」",
+      "url": "https://kodomokosodate.city.nagoya.jp/firstuse/service/7-3.html"
+    },
+    {
+      "label": "名古屋市「名古屋市こども誰でも通園制度（保護者の方へのご案内）」",
+      "url": "https://www.city.nagoya.jp/kodomo/kosodate/1009115/1009125/1033528/1036127.html"
+    }
+  ]
+}

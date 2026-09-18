@@ -1,0 +1,123 @@
+{
+  "citySlug": "koto",
+  "checkedAt": "2026-09-18",
+  "azukariPage": {
+    "label": "江東区「非定型一時保育（子育てサポート一時保育）」",
+    "url": "https://www.city.koto.lg.jp/280307/kodomo/kosodate/service/ichijihoiku/5924.html"
+  },
+  "azukariReasons": "パート就労等の勤務、就労のための技能取得、通院・通学、親族の介護・看護（週3日まで）。死亡・離別・失踪等で不在、傷病・出産等による入院、親族の入院に伴う看護、災害復旧活動（20日以内）。育児疲れによるリフレッシュ、体験入所・ならし保育、その他私的な理由（月3日まで）",
+  "azukariRefresh": "育児疲れによるリフレッシュ目的、体験入所・集団へのならし保育、その他私的な理由で月3日まで",
+  "azukariLimit": "理由によって異なる。就労・技能取得・通院・通学・介護看護は週3日まで、不在・入院・災害復旧は20日以内（特例で30日まで延長可）、リフレッシュ・ならし保育・私的理由は月3日まで。保育時間は開所時間のうち4時間以内か8時間以内",
+  "azukariAges": "江東区内に住所があり保育施設を利用していない、0歳児（生後6か月以上）と1歳児〜就学前の子ども。幼稚園児は幼稚園が休みのときのみ",
+  "azukariFees": [
+    "0歳児: 4時間以内2,000円、8時間以内4,000円（食事代を含む）",
+    "1歳児以上: 4時間以内1,500円、8時間以内3,000円（食事代を含む）。延長料金は各園に確認"
+  ],
+  "azukariReduction": "江東区一時預かり事業等利用者負担軽減事業により、生活保護世帯・住民税非課税世帯・住民税所得割合算額77,101円未満世帯は利用料が減免。3〜5歳クラスや0〜2歳クラスの非課税世帯は教育・保育の無償化の対象になる場合がある",
+  "azukariRegistration": "事前登録が必要な園があるので注意。南砂第五保育園は専用の書類をページからダウンロード",
+  "azukariBooking": "利用の申込と空き状況は実施園へ直接問い合わせる。職員の配置状況によっては定員どおり受け入れできない場合がある",
+  "azukariFacilities": "認可保育所の一時保育室で実施する園が19園（受け入れを休止中の園あり。南砂第五保育園は令和8年11月〜令和10年1月は仮園舎）。このほか児童館一時保育サービス、リフレッシュひととき保育、認証保育所等の自主事業がある",
+  "daredemoPage": {
+    "label": "江東区「こども誰でも通園制度（あずかーる）」",
+    "url": "https://www.city.koto.lg.jp/285002/daretsuu.html"
+  },
+  "daredemoHours": "江東区民が区内施設を利用する場合、児童1人あたり月40時間（全国共通の月10時間に区独自で30時間を上乗せ）。満3歳の誕生日の前日以降は月30時間。区民が区外施設を使う場合と区外在住者は月10時間。未利用時間の繰り越しは不可",
+  "daredemoFee": "江東区在住は無料、区外在住は子ども1人あたり1時間300円。利用施設により別途実費負担がある場合がある",
+  "daredemoAges": "保育施設を利用していない、生後6か月以上～満3歳を迎えた年度末までのお子さん",
+  "daredemoApply": "こども誰でも通園制度総合支援システムで区へオンライン利用認定申請をし、認定後にシステムで施設を探して初回面談（事前予約が必要）を受けてから利用予約。区立施設はシステム経由の外部フォーム、私立施設は施設ごとに予約方法が異なる",
+  "daredemoFacilities": "保育所・幼稚園等で専用保育室や空き定員を活用して受け入れ。受入れ対象年齢は施設ごとに異なる",
+  "daredemoStatus": "令和6年7月から試行的事業「未就園児の定期的な預かり事業（あずかーる）」を実施し、令和8年度から「江東区こども誰でも通園制度『あずかーる』」として本格実施。利用当日0時以降のキャンセルや遅刻・早退は予約時間分の利用可能時間が消費される",
+  "notes": [
+    "一時保育は多くの人が利用できるよう複数園での利用は遠慮するよう求められている",
+    "不在・入院・災害復旧の理由で利用する場合は「緊急一時保育」も利用できる",
+    "誰でも通園制度のキャンセル料はかからないが、事業所によって実費分が請求されることがある。区外の事業所を使う場合はキャンセル料が発生することがある"
+  ],
+  "evidence": {
+    "azukariReasons": {
+      "url": "https://www.city.koto.lg.jp/280307/kodomo/kosodate/service/ichijihoiku/5924.html",
+      "quote": "育児疲れによるリフレッシュ目的 月3日まで 体験入所・集団へのならし保育 月3日まで その他私的な理由 月3日まで"
+    },
+    "azukariRefresh": {
+      "url": "https://www.city.koto.lg.jp/280307/kodomo/kosodate/service/ichijihoiku/5924.html",
+      "quote": "育児疲れによるリフレッシュ目的 月3日まで"
+    },
+    "azukariLimit": {
+      "url": "https://www.city.koto.lg.jp/280307/kodomo/kosodate/service/ichijihoiku/5924.html",
+      "quote": "傷病・出産等による入院 20日以内（特例として30日まで延長可）"
+    },
+    "azukariAges": {
+      "url": "https://www.city.koto.lg.jp/280307/kodomo/kosodate/service/ichijihoiku/5924.html",
+      "quote": "江東区内に住所のあるお子さんで、保育施設を利用していない方 （幼稚園に通われているお子さんは、幼稚園がお休みのときのみ利用できます。）"
+    },
+    "azukariFees.0": {
+      "url": "https://www.city.koto.lg.jp/280307/kodomo/kosodate/service/ichijihoiku/5924.html",
+      "quote": "0歳児 4時間以内2,000円、8時間以内4,000円"
+    },
+    "azukariFees.1": {
+      "url": "https://www.city.koto.lg.jp/280307/kodomo/kosodate/service/ichijihoiku/5924.html",
+      "quote": "1歳児以上 4時間以内1,500円、8時間以内3,000円 （注釈）延長料金については、各園にお問合せください。"
+    },
+    "azukariBooking": {
+      "url": "https://www.city.koto.lg.jp/280307/kodomo/kosodate/service/ichijihoiku/5924.html",
+      "quote": "実施園へ直接お問合せください。 事前登録が必要な園もございますので、ご注意ください。 職員の配置状況によっては、定員どおりの受入ができない場合があります。"
+    },
+    "azukariFacilities": {
+      "url": "https://www.city.koto.lg.jp/280307/kodomo/kosodate/service/ichijihoiku/5924.html",
+      "quote": "南砂第五保育園は大規模改修に伴い、令和８年１１月から令和１０年１月まで仮園舎（南砂２－３－２３）で保育する予定です。"
+    },
+    "daredemoHours": {
+      "url": "https://www.city.koto.lg.jp/285002/daretsuu.html",
+      "quote": "国が定める「乳児等のための支援給付」による全国共通の月10時間の利用時間に加え、区独自の取り組みとして、30時間を上乗せし、最大で月40時間までご利用いただけます。"
+    },
+    "daredemoFee": {
+      "url": "https://www.city.koto.lg.jp/285002/daretsuu.html",
+      "quote": "江東区在住の方：無料 江東区外在住の方：こども1人あたり1時間300円 （注釈）利用施設により、別途実費負担が必要となる場合があります。"
+    },
+    "daredemoAges": {
+      "url": "https://www.city.koto.lg.jp/285002/daretsuu.html",
+      "quote": "生後6か月以上～満3歳を迎えた年度末までのお子さん"
+    },
+    "daredemoApply": {
+      "url": "https://www.city.koto.lg.jp/285002/daretsuu.html",
+      "quote": "初めて利用する施設については、初回面談が必要です。また、面談には事前予約が必要です。"
+    },
+    "daredemoStatus": {
+      "url": "https://www.city.koto.lg.jp/285002/daretsuu.html",
+      "quote": "キャンセル期限を超過してキャンセル（＝当日キャンセル）をした場合は、事業の利用があったものとみなし、当初の予約時間に基づき利用児童の利用可能時間が消費されます。"
+    },
+    "notes.0": {
+      "url": "https://www.city.koto.lg.jp/280307/kodomo/kosodate/service/ichijihoiku/5924.html",
+      "quote": "多くの方がご利用できるよう、複数園でのご利用はご遠慮ください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.koto.lg.jp/280307/kodomo/kosodate/service/ichijihoiku/5924.html",
+      "quote": "（注釈）この要件で利用する場合は、「緊急一時保育」も利用できます。"
+    },
+    "azukariReduction": {
+      "url": "https://www.city.koto.lg.jp/280307/kodomo/kosodate/service/ichijihoiku/5924.html",
+      "quote": "生活保護世帯 住民税非課税世帯 住民税所得割合算額77,101円未満世帯（給与所得360万円未満相当世帯）"
+    },
+    "azukariRegistration": {
+      "url": "https://www.city.koto.lg.jp/280307/kodomo/kosodate/service/ichijihoiku/5924.html",
+      "quote": "事前登録が必要な園もございますので、ご注意ください。"
+    },
+    "daredemoFacilities": {
+      "url": "https://www.city.koto.lg.jp/285002/daretsuu.html",
+      "quote": "（受入れ対象年齢は施設ごとに異なりますのでご注意ください。）"
+    },
+    "notes.2": {
+      "url": "https://www.city.koto.lg.jp/285002/daretsuu.html",
+      "quote": "キャンセル料はかかりませんが、事業所によって実費分がキャンセル時に請求されることがあります。"
+    }
+  },
+  "sources": [
+    {
+      "label": "江東区「非定型一時保育（子育てサポート一時保育）」",
+      "url": "https://www.city.koto.lg.jp/280307/kodomo/kosodate/service/ichijihoiku/5924.html"
+    },
+    {
+      "label": "江東区「こども誰でも通園制度（あずかーる）」",
+      "url": "https://www.city.koto.lg.jp/285002/daretsuu.html"
+    }
+  ]
+}

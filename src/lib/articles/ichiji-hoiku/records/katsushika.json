@@ -1,0 +1,117 @@
+{
+  "citySlug": "katsushika",
+  "checkedAt": "2026-09-18",
+  "azukariPage": {
+    "label": "葛飾区「一時保育」",
+    "url": "https://www.city.katsushika.lg.jp/kosodate/1000056/1002333/1002377.html"
+  },
+  "azukariReasons": "買い物、通院、就学、介護等により家庭での保育が一時的に困難になった場合",
+  "azukariLimit": "事前の利用登録をすれば随時利用でき、数時間から数日単位で利用できる（日数の上限の記載なし）。同じ日に複数の施設を予約しないよう求められている",
+  "azukariAges": "保育園や幼稚園に通っていない就学前のお子さん（幼稚園に通っている方で預かり保育を実施していない時間帯はご利用可能）",
+  "azukariFees": [
+    "保育料金は無料（食材料費・おやつ含む）"
+  ],
+  "azukariRegistration": "事前に利用登録が必要。登録料がかかる施設もあり、登録時に簡単な面談を行う場合あり",
+  "azukariBooking": "各保育施設にお電話等でお問い合わせの上、利用予約をお申込み",
+  "azukariFacilities": "区内の私立保育園・認定こども園等36施設（受入年齢は施設ごとに生後2か月〜満1歳などと異なり、休止中の園が複数ある）。詳細は一時保育案内（令和8年度版）PDF",
+  "daredemoPage": {
+    "label": "葛飾区「こども誰でも通園制度 事業概要」",
+    "url": "https://www.city.katsushika.lg.jp/kosodate/1000056/1041271/1041333.html"
+  },
+  "daredemoHours": "子ども1人あたり月10時間。都民であれば施設の空き状況により10時間を超える利用が可能な場合がある（区が国の月10時間に一定程度継続的に利用できる枠を上乗せ）。施設によって利用可能時間が異なる",
+  "daredemoFee": "葛飾区民は区内・区外の施設とも無償（区が負担、上限額48,000円/月。区外施設は一度支払って後日助成金）。区民以外が区内施設を使う場合は1時間あたり300円（施設によって異なる）。おむつ代などの実費は対象外",
+  "daredemoAges": "原則0歳から3歳の年度末までで保育所等に通っていない子ども（企業主導型を除く認可外保育施設に通っている子どもは対象）。対象年齢は施設ごとに異なる",
+  "daredemoApply": "利用認定申請フォーム（電子申請）で申請し、承認後にこども誰でも通園制度総合支援システムから利用者アカウントが届く。システムで施設を検索して事前面談を申し込み、面談後に利用前健診を受けてから予約・利用",
+  "daredemoFacilities": "余裕活用型・一般型（在園児合同）・一般型（専用室独立）があり、定期利用・柔軟利用・組み合わせから選べる。実施施設一覧（令和8年8月）をPDFで掲載し、実施体制が整った施設から順次公開",
+  "daredemoStatus": "令和8年4月1日から実施。一覧に掲載されていても定員上限で受け入れできない場合がある。一時預かり事業との併用も可能",
+  "notes": [
+    "一時保育は数時間から数日単位で利用できる",
+    "一時保育の予約が取りにくい状況が生じているため、同じ日に複数の施設を予約することは控えるよう求められている",
+    "幼稚園に通っている子どもは、預かり保育を実施していない時間帯や幼稚園が休みの場合に一時保育を利用できる",
+    "誰でも通園制度の月10時間までの定期利用は年間を通しての申込受付も可能。月10時間以上の定期利用は利用を希望する施設に問い合わせる"
+  ],
+  "evidence": {
+    "azukariReasons": {
+      "url": "https://www.city.katsushika.lg.jp/kosodate/1000056/1002333/1002377.html",
+      "quote": "買い物・通院・就学・介護等により家庭での保育が一時的に困難となった就学前のお子さんを保育施設でお預かりする制度です。"
+    },
+    "azukariAges": {
+      "url": "https://www.city.katsushika.lg.jp/kosodate/1000056/1002333/1002377.html",
+      "quote": "区内にお住まいで、買い物・通院・就学・介護等により家庭での保育が一時的に困難となった就学前のお子さん"
+    },
+    "azukariFees.0": {
+      "url": "https://www.city.katsushika.lg.jp/kosodate/1000056/1002333/1002377.html",
+      "quote": "保育料金および食材料費（おやつ含む）は無料です。"
+    },
+    "azukariRegistration": {
+      "url": "https://www.city.katsushika.lg.jp/kosodate/1000056/1002333/1002377.html",
+      "quote": "事前に利用登録を済ませてください。※　登録料がかかる施設もあります。※　お子さんの状況をお伺いするために、登録時に簡単な面談を行う場合があります。"
+    },
+    "azukariBooking": {
+      "url": "https://www.city.katsushika.lg.jp/kosodate/1000056/1002333/1002377.html",
+      "quote": "各保育施設にお電話等でお問い合わせください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.katsushika.lg.jp/kosodate/1000056/1002333/1002377.html",
+      "quote": "数時間から数日単位でのご利用が可能です。"
+    },
+    "notes.1": {
+      "url": "https://www.city.katsushika.lg.jp/kosodate/1000056/1002333/1002377.html",
+      "quote": "現在、一時保育の予約が取りにくい状況が生じています。一人でも多くの方にご利用いただくため、同じ日に複数の施設を予約することはお控えください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.katsushika.lg.jp/kosodate/1000056/1002333/1002377.html",
+      "quote": "幼稚園に通っている方で、預かり保育を実施していない時間帯や幼稚園がお休みの場合はご利用できます。"
+    },
+    "azukariLimit": {
+      "url": "https://www.city.katsushika.lg.jp/kosodate/1000056/1002333/1002377.html",
+      "quote": "事前の利用登録をしていただいた後は、随時ご利用いただけます。 数時間から数日単位でのご利用が可能です。"
+    },
+    "azukariFacilities": {
+      "url": "https://www.city.katsushika.lg.jp/kosodate/1000056/1002333/1002377.html",
+      "quote": "その他利用にあたっての詳細は、添付ファイルをご覧ください。"
+    },
+    "daredemoHours": {
+      "url": "https://www.city.katsushika.lg.jp/kosodate/1000056/1041271/1041333.html",
+      "quote": "お子さん一人当たり月10時間。 （ただし都民の方であれば、施設の空き状況により、10時間を超える利用が可能な場合があります。）"
+    },
+    "daredemoFee": {
+      "url": "https://www.city.katsushika.lg.jp/kosodate/1000056/1041271/1041333.html",
+      "quote": "区内の施設を利用した場合 無償（葛飾区が負担） ※上限額48,000円/月 区外の施設を利用した場合 無償（葛飾区が負担） ※利用施設に一度お支払いいただき、後日区が助成金をお支払いします。"
+    },
+    "daredemoAges": {
+      "url": "https://www.city.katsushika.lg.jp/kosodate/1000056/1041271/1041333.html",
+      "quote": "原則、0歳から3歳の年度末までで、保育所等に通っていないお子さん ※認可外保育施設（企業主導型保育事業所を除く。）に通っているお子さんは対象です。 ※対象年齢は、上記の範囲内で施設ごとに異なります。"
+    },
+    "daredemoApply": {
+      "url": "https://www.city.katsushika.lg.jp/kosodate/1000056/1041271/1041333.html",
+      "quote": "なお、事前面談が終わった施設について、利用が可能となります。システム上で施設の空き状況を確認しながら予約を行います。"
+    },
+    "daredemoFacilities": {
+      "url": "https://www.city.katsushika.lg.jp/kosodate/1000056/1041271/1041333.html",
+      "quote": "実施施設は、システム登録後に、システム上で確認することができます。 ※実施体制が整った施設から順次公開します。"
+    },
+    "daredemoStatus": {
+      "url": "https://www.city.katsushika.lg.jp/kosodate/1000056/1041271/1041333.html",
+      "quote": "本事業と一時預かり事業は、趣旨・目的が異なります。利用目的に応じて適切に使い分けてください。なお、両事業を併用して利用することも可能です。"
+    },
+    "notes.3": {
+      "url": "https://www.city.katsushika.lg.jp/kosodate/1000056/1041271/1041333.html",
+      "quote": "月10時間までの定期利用は年間を通しての申込受付も可能です。月10時間以上の定期利用については、利用を希望する施設にお問い合わせください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "葛飾区「一時保育」",
+      "url": "https://www.city.katsushika.lg.jp/kosodate/1000056/1002333/1002377.html"
+    },
+    {
+      "label": "葛飾区「こども誰でも通園制度 事業概要」",
+      "url": "https://www.city.katsushika.lg.jp/kosodate/1000056/1041271/1041333.html"
+    },
+    {
+      "label": "葛飾区「こども誰でも通園制度 各種認定申請」",
+      "url": "https://www.city.katsushika.lg.jp/kosodate/1000056/1041271/1041239.html"
+    }
+  ]
+}

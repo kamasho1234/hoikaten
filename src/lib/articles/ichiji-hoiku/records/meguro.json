@@ -1,0 +1,108 @@
+{
+  "citySlug": "meguro",
+  "checkedAt": "2026-09-18",
+  "azukariPage": {
+    "label": "目黒区「一時保育」",
+    "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/kosodate/itaku_ichijihoiku.html"
+  },
+  "azukariReasons": "保護者の育児の負担を軽減するため、休養や通院・用事などの理由で一時的に保育が必要な場合",
+  "azukariLimit": "認可保育所は原則1人につき（認可保育所全体で）週2回まで、小規模保育所は各施設で週2回まで。1回あたり2時間以上",
+  "azukariAges": "目黒区に住所があり、生後4か月以上の未就学児で健康で集団保育が可能、日中の保育が主として保護者により行われている児童。認可外を含む保育所等に在籍している場合は不可",
+  "azukariFees": [
+    "1時間500円。原則事前払いで、キャンセル料・超過料金等がかかる場合がある",
+    "食事・おやつは実費負担。おむつ等は持参"
+  ],
+  "azukariRegistration": "事前に利用者登録が必要。施設ごとに登録するので、利用したい施設に電話で問い合わせ、登録日時を打ち合わせて子ども同伴で行き、一時保育利用登録票を提出",
+  "azukariBooking": "完全予約制で、利用したい施設に申し込む。令和6年5月から目黒区公式LINEアカウントで利用者登録・利用予約ができる試行を3園で実施",
+  "azukariFacilities": "区内の認可保育所14か所・小規模保育所7か所の計21か所で実施（休止中の園あり）。保育時間は月〜金の午前8時〜午後5時（小規模保育所は午後6時まで）",
+  "daredemoPage": {
+    "label": "目黒区「こども誰でも通園制度『はじめのいっぽ』」",
+    "url": "https://www.city.meguro.tokyo.jp/hoikukeikaku/kosodatekyouiku/kosodate/daredemotuuen.html"
+  },
+  "daredemoHours": "子ども1人当たり、最大月10時間まで",
+  "daredemoFee": "目黒区民は無償。利用する施設によって手続きが異なる場合がある",
+  "daredemoAges": "0歳6か月から2歳の乳幼児（3歳の誕生日の2日前まで）で、保育施設を利用していない子ども",
+  "daredemoApply": "オンラインの認定申請フォームで乳児等通園支援給付認定を申請（0歳5か月から受付）。1〜15日の申請は月末まで、16日以降は翌月15日までに認定。認定後にこども誰でも通園制度総合支援システムのアカウントが発行され、施設で事前面談をしてからシステムで予約",
+  "daredemoStatus": "区は「はじめのいっぽ」と名付けて実施。面談の受付を一時停止している施設もあるので、あらかじめ各施設に問い合わせることが勧められている",
+  "notes": [
+    "一時保育は完全予約制で、施設ごとの事前の利用者登録が必要",
+    "インターナショナルアンジェリカ下目黒2丁目保育園と小規模保育所は、当該年度4月1日時点の年齢が2歳以下の児童のみ利用できる",
+    "一時保育の実施園には休止中の園がある（不動さつき保育園、HOPPA中町保育園、双葉の園保育園、インターナショナルアンジェリカ下目黒2丁目保育園。桑の実中目黒保育園は令和8年6月8日に再開）"
+  ],
+  "evidence": {
+    "azukariReasons": {
+      "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/kosodate/itaku_ichijihoiku.html",
+      "quote": "保護者の育児の負担を軽減するため、休養や通院・用事などの理由で一時的に保育が必要な場合"
+    },
+    "azukariLimit": {
+      "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/kosodate/itaku_ichijihoiku.html",
+      "quote": "小規模保育所：原則としてお一人につき（各施設で）週2回まで。1回あたり2時間以上。"
+    },
+    "azukariAges": {
+      "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/kosodate/itaku_ichijihoiku.html",
+      "quote": "日中の保育が主として保護者により行われている児童 注記 認可外保育施設含む保育所等に在籍している場合はご利用いただけません。"
+    },
+    "azukariFees.0": {
+      "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/kosodate/itaku_ichijihoiku.html",
+      "quote": "1時間500円。原則事前払いです。キャンセル料、超過料金等がかかる場合があります。"
+    },
+    "azukariFees.1": {
+      "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/kosodate/itaku_ichijihoiku.html",
+      "quote": "食事・おやつは実費負担。おむつ等は持参してください。"
+    },
+    "azukariBooking": {
+      "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/kosodate/itaku_ichijihoiku.html",
+      "quote": "令和6年5月1日より目黒区公式LINEアカウントから一時保育の利用予約の受付を開始します。"
+    },
+    "azukariFacilities": {
+      "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/kosodate/itaku_ichijihoiku.html",
+      "quote": "区内の認可保育所（14か所）小規模保育所（7か所）の計21か所で実施しています。"
+    },
+    "daredemoHours": {
+      "url": "https://www.city.meguro.tokyo.jp/hoikukeikaku/kosodatekyouiku/kosodate/daredemotuuen.html",
+      "quote": "子ども1人当たり、最大月10時間まで"
+    },
+    "daredemoFee": {
+      "url": "https://www.city.meguro.tokyo.jp/hoikukeikaku/kosodatekyouiku/kosodate/daredemotuuen.html",
+      "quote": "目黒区民は無償となります。"
+    },
+    "daredemoAges": {
+      "url": "https://www.city.meguro.tokyo.jp/hoikukeikaku/kosodatekyouiku/kosodate/daredemotuuen.html",
+      "quote": "0歳6か月から2歳の乳幼児（3歳の誕生日の2日前まで）"
+    },
+    "daredemoApply": {
+      "url": "https://www.city.meguro.tokyo.jp/hoikukeikaku/kosodatekyouiku/kosodate/daredemotuuen.html",
+      "quote": "認定申請を1日から15日までに行った場合は、月末までには、認定します。 16日から月末までに申請された場合は、翌月15日までには、認定します。"
+    },
+    "notes.0": {
+      "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/kosodate/itaku_ichijihoiku.html",
+      "quote": "ご利用にあたっては、事前に利用者登録が必要です。施設ごとに登録を行っていますので"
+    },
+    "notes.1": {
+      "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/kosodate/itaku_ichijihoiku.html",
+      "quote": "インターナショナルアンジェリカ下目黒2丁目保育園及び小規模保育所では、生後4か月以上で、当該年度4月1日時点の年齢が2歳以下の児童のみ"
+    },
+    "azukariRegistration": {
+      "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/kosodate/itaku_ichijihoiku.html",
+      "quote": "ご利用にあたっては、事前に利用者登録が必要です。施設ごとに登録を行っていますので、まずは利用したい施設にお電話にてお問い合わせください。"
+    },
+    "daredemoStatus": {
+      "url": "https://www.city.meguro.tokyo.jp/hoikukeikaku/kosodatekyouiku/kosodate/daredemotuuen.html",
+      "quote": "面談の受付を一時停止している施設もあるため、あらかじめ各施設へお問い合わせいただくことをおすすめします。"
+    },
+    "notes.2": {
+      "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/kosodate/itaku_ichijihoiku.html",
+      "quote": "桑の実中目黒保育園は 令和8年6月8日より再開 しました。"
+    }
+  },
+  "sources": [
+    {
+      "label": "目黒区「一時保育」",
+      "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/kosodate/itaku_ichijihoiku.html"
+    },
+    {
+      "label": "目黒区「こども誰でも通園制度『はじめのいっぽ』」",
+      "url": "https://www.city.meguro.tokyo.jp/hoikukeikaku/kosodatekyouiku/kosodate/daredemotuuen.html"
+    }
+  ]
+}

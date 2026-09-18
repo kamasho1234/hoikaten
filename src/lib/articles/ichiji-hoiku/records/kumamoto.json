@@ -1,0 +1,103 @@
+{
+  "citySlug": "kumamoto",
+  "checkedAt": "2026-09-18",
+  "azukariPage": {
+    "label": "熊本市「一時預かり保育」",
+    "url": "https://www.city.kumamoto.jp/kiji00351284/index.html"
+  },
+  "azukariReasons": "保護者の就労、病気、看病、冠婚葬祭等で、乳幼児を一時的にご家庭で保育できない場合に利用可能",
+  "azukariRefresh": "公立保育園でリフレッシュ目的の一時預かりを利用する場合は、一か月あたり5日以内の利用となる",
+  "azukariLimit": "1か月に13日以内（週3日程度）。公立保育園でリフレッシュ目的の場合は一か月あたり5日以内",
+  "azukariAges": "保育園、認定こども園、地域型保育事業に在籍していない乳幼児",
+  "azukariFees": [
+    "1日当たり2000円程度（各保育園等によって違う）"
+  ],
+  "azukariRegistration": "保育園等で事前に面談の上、登録を行う必要がある",
+  "azukariFacilities": "各区校区・事業毎施設一覧の中の「一時預かり」の欄に☆、◆、◇の記号が入っている保育園等が一時預かりを実施している",
+  "daredemoPage": {
+    "label": "熊本市「令和8年度（2026年度）こども誰でも通園制度を利用する方の手続きについて」",
+    "url": "https://www.city.kumamoto.jp/kiji00367889/index.html"
+  },
+  "daredemoHours": "月10時間を上限",
+  "daredemoFee": "1時間あたり300円程度（施設ごとに異なる）。給食代やおやつ代などの実費は別途。減免申請をすれば生活保護世帯は1時間あたり300円、市町村民税所得割合算額が77,101円未満の世帯は200円が減免される（減免額が利用料より高い場合は利用料は発生しない）",
+  "daredemoAges": "熊本市民で、0歳6か月〜2歳（3歳の誕生日の前々日まで）、認可保育所・幼稚園・認定こども園・地域型保育事業・企業主導型保育施設に在籍していない子ども",
+  "daredemoApply": "乳児等支援給付認定を申請（オンライン申請フォーム。難しい場合は保育幼稚園課・区役所保健こども課で書面申請）。認定後にこども誰でも通園制度総合支援システムのログインIDが発行され、システムで初回面談を予約。柔軟利用は面談後に自分で利用予約、定期利用は面談で決めた日程を事業所が登録",
+  "notes": [
+    "一時預かりは保育園等の受入状況によっては預かれない場合があるので、各保育園等に直接確認する",
+    "誰でも通園制度は申込状況や施設の受入体制により希望に沿った利用ができない場合がある",
+    "誰でも通園制度は満3歳になった場合や熊本市外に転出した場合は認定終了。市外に住民登録がある場合は申請できない",
+    "誰でも通園制度の利用料減免を令和8年4〜8月に受けた場合、9月以降も減免を希望するなら8月までに再度減免申請が必要"
+  ],
+  "evidence": {
+    "azukariReasons": {
+      "url": "https://www.city.kumamoto.jp/kiji00351284/index.html",
+      "quote": "保護者の就労、病気、看病、冠婚葬祭等で、乳幼児を一時的にご家庭で保育できない場合、1か月に13日以内（週3日程度）まで、その乳幼児を保育園、認定こども園、地域型保育事業でお預かりしています。"
+    },
+    "azukariRefresh": {
+      "url": "https://www.city.kumamoto.jp/kiji00351284/index.html",
+      "quote": "公立保育園でリフレッシュ目的の一時預かりを利用される場合は、一か月あたり5日以内の利用となります。"
+    },
+    "azukariLimit": {
+      "url": "https://www.city.kumamoto.jp/kiji00351284/index.html",
+      "quote": "1か月に13日以内（週3日程度）まで、その乳幼児を保育園、認定こども園、地域型保育事業でお預かりしています。"
+    },
+    "azukariAges": {
+      "url": "https://www.city.kumamoto.jp/kiji00351284/index.html",
+      "quote": "保育園、認定こども園、地域型保育事業に在籍していない乳幼児。"
+    },
+    "azukariFees.0": {
+      "url": "https://www.city.kumamoto.jp/kiji00351284/index.html",
+      "quote": "料金は、1日当たり2000円程度（各保育園等によって違います）"
+    },
+    "azukariRegistration": {
+      "url": "https://www.city.kumamoto.jp/kiji00351284/index.html",
+      "quote": "一時預かりの利用に際しては、事前に保育園等で面談の上、登録を行っていただく必要があります。"
+    },
+    "azukariFacilities": {
+      "url": "https://www.city.kumamoto.jp/kiji00351284/index.html",
+      "quote": "各区校区・事業毎施設一覧の中の、「一時預かり」の欄に☆、◆、◇の記号が入っている保育園等が一時預かりを実施しています。"
+    },
+    "daredemoHours": {
+      "url": "https://www.city.kumamoto.jp/kiji00367889/index.html",
+      "quote": "利用時間ひと月あたり10時間を上限"
+    },
+    "daredemoFee": {
+      "url": "https://www.city.kumamoto.jp/kiji00367889/index.html",
+      "quote": "※利用料よりも1時間あたりの減免金額が高い場合は、利用料は発生いたしません。"
+    },
+    "daredemoAges": {
+      "url": "https://www.city.kumamoto.jp/kiji00367889/index.html",
+      "quote": "3 認可保育所・幼稚園・認定こども園・地域型保育事業・企業主導型保育施設に在籍していないこと"
+    },
+    "daredemoApply": {
+      "url": "https://www.city.kumamoto.jp/kiji00367889/index.html",
+      "quote": "柔軟利用(※1)の場合、初回面談実施後、ご自身で総合支援システムにて利用予約を行います。 定期利用(※2)の場合、初回面談で決定した日程を事業所がシステムに登録をします。"
+    },
+    "notes.0": {
+      "url": "https://www.city.kumamoto.jp/kiji00351284/index.html",
+      "quote": "保育園等の受入状況によってはお預かりできない場合もありますので、詳細は各保育園等に直接ご確認ください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.kumamoto.jp/kiji00367889/index.html",
+      "quote": "申込状況や施設の受入体制等の事情により、ご希望に沿った利用ができない場合もございますので、予めご了承願います。"
+    },
+    "notes.2": {
+      "url": "https://www.city.kumamoto.jp/kiji00367889/index.html",
+      "quote": "・満3歳になった場合や、熊本市外に転出された場合は認定終了となります。"
+    },
+    "notes.3": {
+      "url": "https://www.city.kumamoto.jp/kiji00367889/index.html",
+      "quote": "令和8年(2026年)4～8月に減免認定を受けた場合で、令和8年(2026年)9月以降の減免認定を希望される場合においても、令和8年(2026年)8月までに再度「減免申請」が必要です。"
+    }
+  },
+  "sources": [
+    {
+      "label": "熊本市「一時預かり保育」",
+      "url": "https://www.city.kumamoto.jp/kiji00351284/index.html"
+    },
+    {
+      "label": "熊本市「令和8年度（2026年度）こども誰でも通園制度を利用する方の手続きについて」",
+      "url": "https://www.city.kumamoto.jp/kiji00367889/index.html"
+    }
+  ]
+}

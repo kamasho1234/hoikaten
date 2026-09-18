@@ -1,0 +1,132 @@
+{
+  "citySlug": "adachi",
+  "checkedAt": "2026-09-18",
+  "azukariPage": {
+    "label": "足立区「一時保育」",
+    "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/ichiji-ichiji.html"
+  },
+  "azukariReasons": "理由を問わず利用可能。通院、カルチャースクールへの通学、買い物、リフレッシュなど。既に教育・保育施設に入園しているお子さんは原則利用できない",
+  "azukariRefresh": "理由を問わず、時間単位で利用できる（通院、カルチャースクール、買い物、リフレッシュなど）",
+  "azukariLimit": "利用できる日は施設の開園日で受け入れ可能な日。利用可能時間は施設によって異なる（日数の上限の記載なし）",
+  "azukariAges": "就学前の子ども。区立認可保育園は区内在住の満1歳から就学前の集団保育が可能な子ども（出産で足立区に里帰りしている子も可）。家庭的保育（保育ママ）は生後57日から2歳児クラスまで",
+  "azukariFees": [
+    "一般：1人あたり1時間500円（給食代・おやつ代別途）",
+    "裁判員の場合：無料（給食代・おやつ代別途）"
+  ],
+  "azukariRegistration": "施設によっては事前登録が必要（方法は施設に確認）。区立認可保育園14園は事前（仮）登録をオンライン申請システムか電話で行い、面談日に子どもと来園して面談後に本登録（登録は4月〜翌年3月の一年更新）",
+  "azukariBooking": "すべての施設で事前予約が必要で、利用を希望する施設に電話で予約。区立認可保育園は保護者の入院・出産の場合は利用希望日の3か月前の1日から、それ以外は前月の1日から予約できる",
+  "azukariFacilities": "区立認可保育園14園、一部の私立認可保育園（一時保育専用室）、認証保育所・小規模保育施設（空き定員を活用）、家庭的保育（保育ママ、令和3年10月から）、子育てサロンで実施。一覧はページに掲載",
+  "daredemoPage": {
+    "label": "足立区「令和8年度足立区こども誰でも通園制度」",
+    "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/daredemo-riyousya1.html"
+  },
+  "daredemoHours": "対象児童1人あたり月10時間まで。私立幼稚園と私立認定こども園の2歳児クラスに限り月10時間を超えて利用できる。未利用時間の翌月以降への繰り越しは不可",
+  "daredemoFee": "無料（足立区民が足立区内施設を利用する場合）。区民以外が区内施設を利用する場合や区外施設を利用する場合は補助対象外。ただし、区外施設を利用する場合は別途利用料補助制度あり",
+  "daredemoAges": "認可保育所、幼稚園、認定こども園、小規模保育事業所、保育ママ、企業主導型保育事業所を利用していない、利用日現在0歳6か月から3歳（満3歳到達後、最初の3月31日）までのお子さま",
+  "daredemoApply": "事前に足立区オンライン申請システムまたは窓口から利用登録申請を行い、認定を受ける必要がある。認定後、こども誰でも通園制度総合支援システムのアカウントが発行される。その後、実施施設に事前面談予約をし、面談実施後に利用予約をして利用開始",
+  "daredemoStatus": "定期利用に限定し、同一施設の継続利用をお願いしている。複数施設の利用はできない。各実施施設により受け入れ対象年齢が異なる",
+  "otherServices": [
+    "ベビーシッター利用支援事業（一時預かり利用支援）: 未就学児等を対象にベビーシッターの保育料の一部を補助。児童1人につき年度あたり144時間まで"
+  ],
+  "notes": [
+    "既に教育・保育施設に入園しているお子さんは一時保育を原則利用できない。ただし幼稚園の全園休業日等を除く",
+    "一時保育には定員があり、ご希望に添えない場合がある",
+    "区外施設を利用する場合のこども誰でも通園制度の利用料補助上限は月10時間まで"
+  ],
+  "evidence": {
+    "azukariReasons": {
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/ichiji-ichiji.html",
+      "quote": "護者が通院やカルチャースクールへの通学、買い物、リフレッシュしたい時など、理由を問わず、就学前のお子さんを保育施設等でお預かりします。"
+    },
+    "azukariFees.0": {
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/ichiji-ichiji.html",
+      "quote": "一人あたり1時間500円（給食代・おやつ代別途）"
+    },
+    "azukariFees.1": {
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/ichiji-ichiji.html",
+      "quote": "※裁判員の場合は無料（給食代・おやつ代別途）"
+    },
+    "azukariAges": {
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/ichiji-ichiji.html",
+      "quote": "理由を問わず、1時間単位で生後57日から2歳児クラスまでのお子さんをお預かりします。"
+    },
+    "azukariBooking": {
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/ichiji-ichiji.html",
+      "quote": "予約開始日：利用希望日の ３か月前 の１日から。"
+    },
+    "azukariRegistration": {
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/ichiji-ichiji.html",
+      "quote": "区立認可保育園14園の一時保育利用の 事前（仮）登録 をホームページから行えます。"
+    },
+    "azukariFacilities": {
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/ichiji-ichiji.html",
+      "quote": "認証保育所や小規模保育施設では、空いている月極め定員や当日の休園児の定員枠を活用して一時保育を実施しています。"
+    },
+    "daredemoHours": {
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/daredemo-riyousya1.html",
+      "quote": "なお、私立幼稚園及び私立認定こども園の２歳児クラスに限り、月１０時間を超えて利用することが可能です。"
+    },
+    "daredemoFee": {
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/daredemo-riyousya1.html",
+      "quote": "無料※無料の対象は足立区民に限ります。"
+    },
+    "daredemoAges": {
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/daredemo-riyousya1.html",
+      "quote": "利用日現在０歳６か月から３歳（満3歳到達後、最初の３月３１日）までのお子さま"
+    },
+    "daredemoApply": {
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/daredemo-riyousya1.html",
+      "quote": "利用を希望される場合、事前に区に対し利用登録申請を行い、認定を受ける必要があります。"
+    },
+    "daredemoStatus": {
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/daredemo-riyousya1.html",
+      "quote": "足立区では定期利用に限定し、同一施設の継続利用をお願いしています。"
+    },
+    "otherServices.0": {
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/babysitter_itiziazukari.html",
+      "quote": "児童１人につき年度あたり１４４時間まで"
+    },
+    "notes.0": {
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/ichiji-ichiji.html",
+      "quote": "既に教育・保育施設に入園しているお子さんは利用できません。（※ただし幼稚園の全園休業日等を除く）"
+    },
+    "notes.1": {
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/ichiji-ichiji.html",
+      "quote": "各施設とも、一時保育には定員がありますので、ご希望に添えない場合があります。"
+    },
+    "notes.2": {
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/kugai-daretsu.html",
+      "quote": "利用料補助の上限時間 月１０時間まで"
+    },
+    "azukariRefresh": {
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/ichiji-ichiji.html",
+      "quote": "理由を問わず、就学前のお子さんを保育施設等でお預かりします。時間単位での利用が可能です。"
+    },
+    "azukariLimit": {
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/ichiji-ichiji.html",
+      "quote": "施設の開園日で、施設が受け入れ可能な日 利用可能時間 施設によって異なりますので、利用を希望する施設にお問い合わせください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "足立区「一時保育」",
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/ichiji-ichiji.html"
+    },
+    {
+      "label": "足立区「令和8年度足立区こども誰でも通園制度」",
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/daredemo-riyousya1.html"
+    },
+    {
+      "label": "足立区「子どもの一時あずかり」",
+      "url": "https://www.city.adachi.tokyo.jp/k-kyoiku/kosodate/ichijiazukari/index.html"
+    },
+    {
+      "label": "足立区「【こども誰でも通園制度】区外施設を利用する場合の利用料補助について」",
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/kugai-daretsu.html"
+    },
+    {
+      "label": "足立区「ベビーシッター利用支援事業（一時預かり利用支援）」",
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/babysitter_itiziazukari.html"
+    }
+  ]
+}

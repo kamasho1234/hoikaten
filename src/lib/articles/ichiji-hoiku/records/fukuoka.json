@@ -1,0 +1,118 @@
+{
+  "citySlug": "fukuoka",
+  "checkedAt": "2026-09-18",
+  "azukariPage": {
+    "label": "福岡市「一時預かり事業」",
+    "url": "https://www.city.fukuoka.lg.jp/kodomo-mirai/jigyo-tyosei/child/itijiazukari01_2.html"
+  },
+  "azukariReasons": "保護者が冠婚葬祭や通院など必要なときのほか、リフレッシュの理由でも利用できます。",
+  "azukariLimit": "月14回まで利用できます",
+  "azukariAges": "福岡市内に居住する生後6か月から小学校就学前の乳幼児（病児・病気回復期は利用できません）",
+  "azukariFees": [
+    "利用料は施設によって異なる（1時間あたり。例: こどものもり 3歳未満400円・3歳以上300円、多くの施設は3歳未満600円・3歳以上500円）。年齢は利用する年度の4月1日時点",
+    "認可保育所の一時預かりは施設ごとに設定（例: 志賀島保育園 0〜2歳児 4時間以内2,000円・4時間超3,000円、3歳以上児 4時間以内1,000円・4時間超2,000円。昼食代別）"
+  ],
+  "azukariReduction": "生活保護世帯と市町村民税非課税世帯は利用料が半額（実施施設へ確認できる書類を持参）",
+  "azukariRegistration": "事前に利用登録が必要です。児童の住所が確認できるもの（健康保険証等）、保護者の確認ができるもの（健康保険証、母子手帳、自動車運転免許証等）を持参してください。",
+  "azukariBooking": "利用日前日までに利用申込みが必要です。電話で申し込みができます。",
+  "azukariFacilities": "一時預かり専用の実施施設が各区に13か所（東区2・博多区1・中央区3・南区1・城南区1・早良区2・西区3）。このほか空き状況によって一時預かりが可能な認可保育所が一覧に掲載",
+  "daredemoPage": {
+    "label": "福岡市「令和８年度「福岡市型」こども誰でも通園制度について」",
+    "url": "https://kodomo.city.fukuoka.lg.jp/info/25384/"
+  },
+  "daredemoHours": "週に1回（固定の曜日）の定期利用が原則。1日の利用時間は施設ごとに異なる（月の時間数の記載なし）",
+  "daredemoFee": "1時間300円（無料や1時間250円の事業所もある）。利用料のほかに給食費・雑費が必要。生活保護世帯は無料、住民税非課税世帯と市町村民税所得割合算額77,101円未満の世帯は1時間100円",
+  "daredemoAges": "保育所・幼稚園・認定こども園・地域型保育事業所・企業主導型保育施設に通っていない生後6か月から2歳児（令和8年度中に3歳になった場合は年度末まで）。認可外保育施設や幼稚園のプレ通園の利用者は対象",
+  "daredemoApply": "こども誰でも通園制度総合支援システムで認定申請し、認定証が発行されたら実施施設に直接申し込む（利用申込書と必要書類）。初回面談で週1回の固定曜日を決め、事業者がシステムに利用登録する",
+  "daredemoFacilities": "各区の実施施設と受入開始時期・空き情報をページに掲載（令和8年9月14日時点の空き状況）。受け入れ年齢と利用時間は施設により異なる",
+  "daredemoStatus": "令和6年度から「福岡市型」として先行実施し、令和8年度も実施。障がい・ひとり親・多胎児・生活保護世帯などは優先利用者になる。複数施設の利用は可能だが週1回の定期利用が原則",
+  "notes": [
+    "「中央児童会館あいくる」と「南区おおはし子どもプラザ」は市外居住者も利用できるが、当日空きがある場合に限る",
+    "一時預かりの利用料の年齢区分は利用する年度の4月1日時点の年齢",
+    "誰でも通園制度の利用料減免の算定に用いる市町村民税は、住宅借入金等特別税額控除などを行う前の額"
+  ],
+  "evidence": {
+    "azukariReasons": {
+      "url": "https://www.city.fukuoka.lg.jp/kodomo-mirai/jigyo-tyosei/child/itijiazukari01_2.html",
+      "quote": "保護者が冠婚葬祭や通院、リフレッシュなど必要なときに、お子さんを一時的にお預かりします。"
+    },
+    "azukariLimit": {
+      "url": "https://www.city.fukuoka.lg.jp/kodomo-mirai/jigyo-tyosei/child/itijiazukari01_2.html",
+      "quote": "月14回まで利用できます。"
+    },
+    "azukariAges": {
+      "url": "https://www.city.fukuoka.lg.jp/kodomo-mirai/jigyo-tyosei/child/itijiazukari01_2.html",
+      "quote": "福岡市内に居住する生後6か月から小学校就学前の乳幼児。ただし、病児・病気回復期は利用できません。"
+    },
+    "azukariFees.0": {
+      "url": "https://www.city.fukuoka.lg.jp/kodomo-mirai/jigyo-tyosei/child/itijiazukari01_2.html",
+      "quote": "利用料（１時間あたり）： 3歳未満 400円、3歳以上 300円"
+    },
+    "azukariReduction": {
+      "url": "https://www.city.fukuoka.lg.jp/kodomo-mirai/jigyo-tyosei/child/itijiazukari01_2.html",
+      "quote": "以下の（１）～（2）に該当する方は利用料が半額になります。（実施施設へ確認できる書類を持参してください。） （１）生活保護世帯 （２）市町村民税非課税世帯"
+    },
+    "azukariRegistration": {
+      "url": "https://www.city.fukuoka.lg.jp/kodomo-mirai/jigyo-tyosei/child/itijiazukari01_2.html",
+      "quote": "事前に利用登録が必要です。児童の住所が確認できるもの（健康保険証等）、保護者の確認ができるもの（健康保険証、母子手帳、自動車運転免許証等）を持参してください。"
+    },
+    "azukariBooking": {
+      "url": "https://www.city.fukuoka.lg.jp/kodomo-mirai/jigyo-tyosei/child/itijiazukari01_2.html",
+      "quote": "利用日前日までに利用申込みが必要です。（電話可）"
+    },
+    "azukariFacilities": {
+      "url": "https://www.city.fukuoka.lg.jp/kodomo-mirai/jigyo-tyosei/child/itijiazukari01_2.html",
+      "quote": "上記施設のほかに、空き状況によっては一時預かりが可能な施設があります。"
+    },
+    "daredemoHours": {
+      "url": "https://kodomo.city.fukuoka.lg.jp/info/25384/",
+      "quote": "複数施設のご利用は可能ですが、週に１回の定期利用をしていただくことを原則としています。"
+    },
+    "daredemoFee": {
+      "url": "https://kodomo.city.fukuoka.lg.jp/info/25384/",
+      "quote": "生活保護世帯は無料、住民税非課税世帯および 市町村民税所得割合算額が7万7,101円未満世帯は1時間100円となる利用料の減免制度があります。"
+    },
+    "daredemoAges": {
+      "url": "https://kodomo.city.fukuoka.lg.jp/info/25384/",
+      "quote": "令和８年度中に3歳になった場合は年度末まで利用できます。 認可外保育施設、幼稚園のプレ通園を利用されている場合は利用可能です。"
+    },
+    "daredemoApply": {
+      "url": "https://kodomo.city.fukuoka.lg.jp/info/25384/",
+      "quote": "初回面談で決定した日程（週に１回、固定の曜日）を事業者がシステムに登録（利用登録）します。"
+    },
+    "daredemoFacilities": {
+      "url": "https://kodomo.city.fukuoka.lg.jp/info/25384/",
+      "quote": "空き状況は令和８年度からの受け入れ状況（令和８年９月14日時点）を掲載しております。"
+    },
+    "notes.0": {
+      "url": "https://www.city.fukuoka.lg.jp/kodomo-mirai/jigyo-tyosei/child/itijiazukari01_2.html",
+      "quote": "「中央児童会館あいくる」及び「南区おおはし子どもプラザ」は、市外居住者も利用できます。ただし、当日空きがある場合に限ります。"
+    },
+    "notes.1": {
+      "url": "https://www.city.fukuoka.lg.jp/kodomo-mirai/jigyo-tyosei/child/itijiazukari01_2.html",
+      "quote": "※利用する年度の4月1日時点の年齢です。"
+    },
+    "azukariFees.1": {
+      "url": "https://www.city.fukuoka.lg.jp/kodomo-mirai/jigyo-tyosei/child/itijiazukari01_2.html",
+      "quote": "0～2歳児 2,000円/４時間以内、3,000円/４時間超え"
+    },
+    "daredemoStatus": {
+      "url": "https://kodomo.city.fukuoka.lg.jp/info/25384/",
+      "quote": "〇以下に該当する方は優先利用者とさせていただきます。 ・お子様に障がいがある場合"
+    },
+    "notes.2": {
+      "url": "https://kodomo.city.fukuoka.lg.jp/info/25384/",
+      "quote": "利用料減免の算定に用いる市町村民税は、住宅借入金等特別税額控除や配当控除、外国税額控除、 寄付金控除等を行う前の額を適用するものとします。"
+    }
+  },
+  "sources": [
+    {
+      "label": "福岡市「一時預かり事業」",
+      "url": "https://www.city.fukuoka.lg.jp/kodomo-mirai/jigyo-tyosei/child/itijiazukari01_2.html"
+    },
+    {
+      "label": "福岡市「令和８年度「福岡市型」こども誰でも通園制度について」",
+      "url": "https://kodomo.city.fukuoka.lg.jp/info/25384/"
+    }
+  ]
+}

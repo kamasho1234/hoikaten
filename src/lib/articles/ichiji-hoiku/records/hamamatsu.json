@@ -1,0 +1,159 @@
+{
+  "citySlug": "hamamatsu",
+  "checkedAt": "2026-09-18",
+  "azukariPage": {
+    "label": "浜松市「認定こども園・認可保育園・地域型保育事業の一時預かり事業（一時保育）」",
+    "url": "https://www.hamamatsu-pippi.net/contents/7780.html"
+  },
+  "azukariReasons": "仕事・出産・病気・介護・冠婚葬祭などで子どもを保育できない場合、または保護者が育児に負担を感じリフレッシュしたい場合",
+  "azukariRefresh": "「育児に伴う負担の解消」が保育を必要とする事由に含まれ、週3日以内で年度ごとの申請",
+  "azukariLimit": "妊娠・出産は週5日以内（産前6週間〜産後8週間）、入院は入院期間中（入院初日から2か月まで）、就労・就学・疾病・介護・育児負担の解消などは週3日以内（就労は年度ごと、就学・求職活動などは3か月ごとに更新）。当該月は同一施設を利用",
+  "azukariAges": "0～5歳児",
+  "azukariFees": [
+    "0〜2歳児: 4時間以上 1回2,000円、4時間未満 1回1,200円",
+    "3〜5歳児: 4時間以上 1回800円、4時間未満 1回500円。副食費が別に200円",
+    "1回1人あたりの金額。年齢区分は預ける年度の4月1日前日現在の年齢。給食の有無は園に確認"
+  ],
+  "azukariReduction": "浜松市民のうち生活保護世帯・市町村民税非課税世帯・里親に養護されている児童は利用料免除（利用日までにオンライン申請、適用は申請日以降）。市外の人には免除制度がない",
+  "azukariRegistration": "浜松市一般型一時預かり事業等利用申出書を提出。週4日以上利用する場合は母子健康手帳や入院を証する書類の写しが必要",
+  "azukariBooking": "利用希望日の前日までに各施設に電話等で申込み",
+  "azukariFacilities": "148施設で実施（専任の保育士が在籍する一般型と一部の余裕活用型の空き状況検索可能）",
+  "daredemoPage": {
+    "label": "浜松市子育て情報サイト「こども誰でも通園制度（乳児等通園支援事業）」",
+    "url": "https://www.hamamatsu-pippi.net/contents/40619.html"
+  },
+  "daredemoHours": "子ども1人あたり1日1回（2時間、発達に応じて連続2回4時間まで）、1か月に5回まで（最大10時間）",
+  "daredemoFee": "1回あたり600円（食事・おやつ・制作活動の実費が別にかかる場合がある）。生活保護世帯は1回600円減免、市町村民税所得割額77,101円未満の世帯は1回400円減免",
+  "daredemoAges": "生後6か月から満3歳未満で、幼稚園・認可保育所・認定こども園・地域型保育事業・企業主導型保育事業に通っていない子ども",
+  "daredemoApply": "つうえんポータル（こども誰でも通園制度総合支援システム）で利用認定を申請し、市の審査後にアカウント登録、ポータルでオンライン予約。初回利用時は全施設で事前面談",
+  "daredemoFacilities": "浜松市内の77施設で実施。施設ごとに利用可能な曜日・時間帯が設定されている",
+  "daredemoStatus": "施設の職員配置等によっては希望どおり利用できない場合がある。キャンセルポリシーの期日を過ぎたキャンセルは利用時間枠が消費される",
+  "otherServices": [
+    "ファミリー・サポート・センター",
+    "子育て支援ひろばの一時預かり",
+    "病児・病後児保育事業",
+    "保育ママ（天竜区のみ）"
+  ],
+  "notes": [
+    "定員に達しているなどの理由で、どの施設でも預けられない場合がある。早めに施設に電話して確認する",
+    "認定こども園（保育所機能）・認可保育園・地域型保育事業を利用している場合は一時預かりを利用できない",
+    "幼稚園・認定こども園（幼稚園機能）の利用者は在籍園の預かり保育を優先し、やむを得ず預け先がない場合に利用できる",
+    "誰でも通園制度で2時間または4時間を超えて利用した場合や同月10時間を超えた場合は、追加で一時預かりの利用料がかかる"
+  ],
+  "evidence": {
+    "azukariReasons": {
+      "url": "https://www.hamamatsu-pippi.net/contents/7780.html",
+      "quote": "仕事・出産・病気・介護・冠婚葬祭などで子どもを保育できない場合、または保護者が育児に負担を感じリフレッシュしたい場合に、一時的に施設で子どもを預かり、保育してくれるというサービスがあります。"
+    },
+    "azukariRefresh": {
+      "url": "https://www.hamamatsu-pippi.net/contents/7780.html",
+      "quote": "就労 週3日以内 年度ごとの申請"
+    },
+    "azukariLimit": {
+      "url": "https://www.hamamatsu-pippi.net/contents/7780.html",
+      "quote": "注 当該月においては、同一施設を利用してください。"
+    },
+    "azukariAges": {
+      "url": "https://www.hamamatsu-pippi.net/contents/7793.html",
+      "quote": "家庭での保育が一時的に困難となった0～5歳児"
+    },
+    "azukariFees.0": {
+      "url": "https://www.hamamatsu-pippi.net/contents/7780.html",
+      "quote": "0～2歳児 4時間以上 2,000円 - 0～2歳児 4時間未満 1,200円"
+    },
+    "azukariFees.1": {
+      "url": "https://www.hamamatsu-pippi.net/contents/7780.html",
+      "quote": "3～5歳児 4時間以上 800円 200円 3～5歳児 4時間未満 500円 200円"
+    },
+    "azukariFacilities": {
+      "url": "https://www.hamamatsu-pippi.net/contents/7780.html",
+      "quote": "実施施設のうち、専任の保育士が在籍する一般型と一部の余裕活用型の空き状況を検索できます。"
+    },
+    "azukariBooking": {
+      "url": "https://www.hamamatsu-pippi.net/contents/7780.html",
+      "quote": "利用希望日の前日までに、各施設に電話等で申込みを行う必要があります。"
+    },
+    "azukariRegistration": {
+      "url": "https://www.hamamatsu-pippi.net/contents/7780.html",
+      "quote": "注2 週4日以上利用の場合は、申込時に親子（母子）健康手帳の写しが必要です。"
+    },
+    "daredemoHours": {
+      "url": "https://www.hamamatsu-pippi.net/contents/40619.html",
+      "quote": "1か月に子ども1人あたり5回まで（最大10時間）"
+    },
+    "daredemoFee": {
+      "url": "https://www.hamamatsu-pippi.net/contents/40619.html",
+      "quote": "生活保護世帯：1回（2時間あたり）600円減免 市町村民税所得割額77,101円未満の世帯：1回（2時間）あたり400円減免"
+    },
+    "daredemoAges": {
+      "url": "https://www.hamamatsu-pippi.net/contents/40619.html",
+      "quote": "幼稚園、認可保育所、認定こども園、地域型保育事業（小規模保育事業・事業所内保育事業）、企業主導型保育事業に通っていない"
+    },
+    "daredemoStatus": {
+      "url": "https://www.hamamatsu-pippi.net/contents/40619.html",
+      "quote": "に定められた期日を過ぎた場合は、利用時間枠が消費されます。"
+    },
+    "otherServices.0": {
+      "url": "https://www.hamamatsu-pippi.net/contents/7793.html",
+      "quote": "ファミリー・サポート・センター"
+    },
+    "otherServices.1": {
+      "url": "https://www.hamamatsu-pippi.net/contents/7793.html",
+      "quote": "子育て支援ひろばの一時預かり（一時保育）"
+    },
+    "otherServices.2": {
+      "url": "https://www.hamamatsu-pippi.net/contents/7793.html",
+      "quote": "病児・病後児保育"
+    },
+    "otherServices.3": {
+      "url": "https://www.hamamatsu-pippi.net/contents/7793.html",
+      "quote": "保育ママ（天竜区のみ）"
+    },
+    "notes.0": {
+      "url": "https://www.hamamatsu-pippi.net/contents/7780.html",
+      "quote": "ただし、どの施設でも、定員に達しているなどの理由で預けられない場合もあります。"
+    },
+    "notes.1": {
+      "url": "https://www.hamamatsu-pippi.net/contents/7780.html",
+      "quote": "下表に定める利用要件・期間で利用ができます。ただし、施設の職員配置等によっては、希望どおり預けられない場合があります。"
+    },
+    "notes.2": {
+      "url": "https://www.hamamatsu-pippi.net/contents/7780.html",
+      "quote": "注 認定こども園（幼稚園機能）または幼稚園利用者は、在籍園の預かり保育を優先して利用し、やむを得ず預け先がない場合は利用することができます。"
+    },
+    "notes.3": {
+      "url": "https://www.hamamatsu-pippi.net/contents/40619.html",
+      "quote": "注）2時間または4時間を超えて利用した場合や、同月10時間を超えて利用した場合は、追加で一時預かり事業（一時保育）の利用料が発生します。"
+    },
+    "azukariFees.2": {
+      "url": "https://www.hamamatsu-pippi.net/contents/7780.html",
+      "quote": "注1）1回1人あたりの金額です。 注2）年齢区分は子どもを預ける年度の4月1日前日現在の年齢とします。 注3) 給食の有無は園へお問い合わせください。"
+    },
+    "azukariReduction": {
+      "url": "https://www.hamamatsu-pippi.net/contents/7780.html",
+      "quote": "免除を受けようとする場合は、一時預かり事業（一時保育）を利用する日までに、オンライン申請フォームから申請してください。 注）免除が適用となる日は、申請日以降となります。"
+    },
+    "daredemoApply": {
+      "url": "https://www.hamamatsu-pippi.net/contents/40619.html",
+      "quote": "利用を希望する場合は事前に利用認定申請をし、利用したい施設に事前面談と利用予約をしてください。"
+    },
+    "daredemoFacilities": {
+      "url": "https://www.hamamatsu-pippi.net/contents/40619.html",
+      "quote": "浜松市内の77施設で実施されています。"
+    }
+  },
+  "sources": [
+    {
+      "label": "浜松市子育て情報サイト「認定こども園・認可保育園・地域型保育事業の一時預かり事業（一時保育）」",
+      "url": "https://www.hamamatsu-pippi.net/contents/7780.html"
+    },
+    {
+      "label": "浜松市子育て情報サイト「子どもを一時的に預けることができるサービス」",
+      "url": "https://www.hamamatsu-pippi.net/contents/7793.html"
+    },
+    {
+      "label": "浜松市子育て情報サイト「こども誰でも通園制度（乳児等通園支援事業）」",
+      "url": "https://www.hamamatsu-pippi.net/contents/40619.html"
+    }
+  ]
+}

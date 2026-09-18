@@ -1,0 +1,118 @@
+{
+  "citySlug": "nerima",
+  "checkedAt": "2026-09-18",
+  "azukariPage": {
+    "label": "練馬区「一時預かり」",
+    "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/itijiteki_hoiku/ichijiazukari301130.html"
+  },
+  "azukariReasons": "保護者の育児疲れ解消、急病や出産など様々な理由で一時的にお子さんを預けたいとき",
+  "azukariRefresh": "保護者の育児疲れ解消も理由になる",
+  "azukariAges": "生まれた日を含めて58日目から小学校就学前までの集団保育可能なお子さん（利用年齢は各園毎に異なる）",
+  "azukariFees": [
+    "保育料は実施保育園ごとに異なる（登録方法・利用方法とあわせて実施保育園に問い合わせ）。多くの園で練馬区の子育てスタート応援券が使える"
+  ],
+  "azukariReduction": "実施保育園はすべて幼児教育・保育無償化の対象施設としての確認を区から受けている",
+  "azukariRegistration": "利用には事前に各施設への登録が必要。健康診断書の提出が必要な場合がある（費用は自己負担）",
+  "azukariBooking": "予約方法は実施保育園ごとに異なる（電話、メールで受け付ける園など）",
+  "azukariFacilities": "区立・私立の保育園18園で実施（一覧に保育利用時間・利用年齢・応援券の可否を記載）。専用保育室で実施する園と空き定員で実施する園がある",
+  "daredemoPage": {
+    "label": "練馬区「こども誰でも通園事業」",
+    "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/daredemo.html"
+  },
+  "daredemoHours": "週1回程度、1日8時間まで（上限は月48時間。10時間が全国で使える国制度、38時間が練馬区内の園で使える区の上乗せ）。1日の利用時間は園により異なる",
+  "daredemoFee": "無償（当分の間。区内施設に限る）。給食等は別途自己負担。区外施設に利用料を支払った場合は1時間300円を上限に月10時間分まで区に助成を申請できる",
+  "daredemoAges": "練馬区在住で、0歳6か月～2歳児までの未就園児",
+  "daredemoApply": "原則、ぴったりサービス（児童のマイナンバーカード）から認定申請（カードがなければLoGoフォーム）。認定まで3週間程度。総合支援システムでは区の上乗せの適用が難しいため区内施設の予約はできず、実施施設一覧に記載の申込先に申し込む",
+  "daredemoFacilities": "実施予定施設一覧（令和8年度）をページに掲載。開始時期は施設により異なり、空き定員を活用する施設は空きが無くなると申込後でも利用できない",
+  "daredemoStatus": "令和8年度に実施中。令和7年度の試行実施の利用者も改めて認定申請が必要。区内施設は週1回程度の定期的な利用が基本",
+  "notes": [
+    "一時預かりの利用希望日の空き状況等によっては、記載の曜日・時間・利用年齢の受け入れができない場合がある",
+    "一時預かりの利用年齢は園ごとに異なる（生後2か月から、1歳の誕生日からなど）",
+    "誰でも通園制度は月10時間・満3歳未満まで区外の施設を広域利用できる",
+    "誰でも通園制度で無断キャンセルや直前の変更をすると、施設によってはキャンセル料が必要で、度重なる場合は利用を断られることがある"
+  ],
+  "evidence": {
+    "azukariReasons": {
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/itijiteki_hoiku/ichijiazukari301130.html",
+      "quote": "保護者の育児疲れ解消、急病や出産など様々な理由で一時的にお子さんを預けたいときに、保育園の専用保育室等でお預かりする制度です。"
+    },
+    "azukariAges": {
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/itijiteki_hoiku/ichijiazukari301130.html",
+      "quote": "生まれた日を含めて58日目から小学校就学前までの集団保育可能なお子さんです。"
+    },
+    "notes.0": {
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/itijiteki_hoiku/ichijiazukari301130.html",
+      "quote": "利用には事前に各施設への登録が必要です。登録方法、利用方法や保育料など詳細は、実施保育園にお問い合わせください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/itijiteki_hoiku/ichijiazukari301130.html",
+      "quote": "利用年齢は各園毎に異なります。ご利用になりたい保育園へ直接お問い合わせください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/daredemo.html",
+      "quote": "月10時間、満3歳未満まで、区外の施設を広域利用することが可能です。"
+    },
+    "azukariFacilities": {
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/itijiteki_hoiku/ichijiazukari301130.html",
+      "quote": "保育園の専用保育室等でお預かりする制度です。"
+    },
+    "daredemoHours": {
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/daredemo.html",
+      "quote": "月48時間のうち、10時間が全国で利用できる国制度、38時間が練馬区内の園で使える区の上乗せです。"
+    },
+    "daredemoFee": {
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/daredemo.html",
+      "quote": "1時間あたり300円を上限に月10時間分まで（おやつ代など実費負担は除く）"
+    },
+    "daredemoAges": {
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/daredemo.html",
+      "quote": "練馬区在住で、0歳6か月～2歳児までの未就園児"
+    },
+    "azukariRefresh": {
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/itijiteki_hoiku/ichijiazukari301130.html",
+      "quote": "保護者の育児疲れ解消、急病や出産など様々な理由で一時的にお子さんを預けたいときに"
+    },
+    "azukariFees.0": {
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/itijiteki_hoiku/ichijiazukari301130.html",
+      "quote": "登録方法、利用方法や保育料など詳細は、実施保育園にお問い合わせください。"
+    },
+    "azukariReduction": {
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/itijiteki_hoiku/ichijiazukari301130.html",
+      "quote": "以下の施設は全て、幼児教育・保育無償化の対象施設としての確認を練馬区から受けています。"
+    },
+    "azukariRegistration": {
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/itijiteki_hoiku/ichijiazukari301130.html",
+      "quote": "利用には事前に各施設への登録が必要です。"
+    },
+    "azukariBooking": {
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/itijiteki_hoiku/ichijiazukari301130.html",
+      "quote": "予約、問い合わせはメール（kotake-ichiji@machihoiku.jp）でお願いします"
+    },
+    "daredemoApply": {
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/daredemo.html",
+      "quote": "総合支援システムでは区が上乗せしている年齢・時間数の適用が困難なため、現時点では区内施設の予約はできません。"
+    },
+    "daredemoFacilities": {
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/daredemo.html",
+      "quote": "以下施設は、施設の空き定員を活用して実施します。そのため、空き定員が無くなった場合は、お申込後であっても利用できません。"
+    },
+    "daredemoStatus": {
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/daredemo.html",
+      "quote": "令和7年度の試行実施を利用していた方も、認定申請が必要です。"
+    },
+    "notes.3": {
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/daredemo.html",
+      "quote": "度重なる無断キャンセルがあった場合、実施施設の判断により、その後の利用をお断りする場合があります。"
+    }
+  },
+  "sources": [
+    {
+      "label": "練馬区「一時預かり」",
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/itijiteki_hoiku/ichijiazukari301130.html"
+    },
+    {
+      "label": "練馬区「こども誰でも通園事業」",
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/daredemo.html"
+    }
+  ]
+}

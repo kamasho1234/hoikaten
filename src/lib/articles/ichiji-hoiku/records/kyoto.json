@@ -1,0 +1,145 @@
+{
+  "citySlug": "kyoto",
+  "checkedAt": "2026-09-18",
+  "azukariPage": {
+    "label": "京都市「一時預かりの御案内」",
+    "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000054150.html"
+  },
+  "azukariReasons": "就労等による利用（パート勤務、専門学校通学、定期的な通院や看護など週1～3日程度）、緊急時の利用（出産や家族の急病など）、私的理由による利用（ボランティア活動への参加や育児リフレッシュなど）、裁判員制度による利用",
+  "azukariRefresh": "私的理由による利用（ボランティア活動への参加、育児リフレッシュ＝育児疲れの解消、児童の体験入所など）で利用できる",
+  "azukariLimit": "就労等による利用は週に1〜3日程度。緊急時・私的理由の利用日数の上限は公式ページに記載なし。利用時間はおおむね月〜土の午前8時30分〜午後5時（施設により異なる）",
+  "azukariAges": "生後57日目以降の児童で、小学校就学前まで。ただし、保育園や認定こども園、幼稚園に通っている児童は原則対象外",
+  "azukariFees": [
+    "市営保育所の標準日額利用料: 3歳未満児 2,100円/日、3歳以上児 1,200円/日（市民税非課税世帯は800円/日・500円/日、生活保護受給世帯は0円）",
+    "裁判員制度による利用（市営保育所）: 市内在住は3歳未満児2,300円/日・3歳以上児1,400円/日、市外在住は4,300円/日・3,400円/日（非課税世帯は1,000円/日・700円/日）",
+    "民営保育園・認定こども園は施設によって多少異なる。年齢区分は利用する年度の前年度3月31日時点の年齢"
+  ],
+  "azukariReduction": "市営保育所は生活保護受給世帯が0円、市民税非課税世帯が減額（世帯全員が非課税であることが確認できる証明書を施設に提出）。課税の有無は4〜6月の利用は前年度分、7月以降は当該年度分",
+  "azukariRegistration": "直接、実施施設に申し込む。利用には事前の登録や予約が必要で、受入可能人数・事前登録の有無・必要書類は施設により異なる",
+  "azukariBooking": "直接、実施施設に申し込む。事前の登録や予約が必要なので早めに手続きする",
+  "azukariFacilities": "市営保育所と民営保育園・認定こども園で実施。実施施設一覧はページからリンク",
+  "daredemoPage": {
+    "label": "京都市「こども誰でも通園制度（乳児等通園支援事業）のご案内」",
+    "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000349886.html"
+  },
+  "daredemoHours": "お子さん1人当たり月12時間を上限に利用可能。国の上限利用時間である10時間に本市が独自に2時間を上乗せし、合計12時間。未使用時間は翌月以降に繰り越すことはできない",
+  "daredemoFee": "徴収の有無や金額は利用する施設に問い合わせる。減免はスマート申請時に併せて申請し、生活保護世帯は300円（上限）、市民税所得割合算額77,101円未満の世帯は200円（上限）が減免される。減免を受けられない施設もある",
+  "daredemoAges": "0歳6か月から満3歳未満で、保育園等に在籍していない児童。3歳の誕生日の前々日まで利用可能",
+  "daredemoApply": "「京都市スマート申請」で利用申込を行い、申請から利用決定までおおむね2〜3週間",
+  "daredemoFacilities": "実施施設一覧をPDFで掲載。令和8年度から市外の市区町村が認可・確認した施設も利用できるが、市独自の上乗せ2時間は市が認可・確認した施設でのみ使える",
+  "daredemoStatus": "令和8年度から国の上限10時間に市が独自に2時間を上乗せし月12時間。上乗せ分がシステムに反映されるのは毎年3月末頃になる可能性がある。複数施設を利用しても合計12時間が上限",
+  "otherServices": [
+    "裁判員制度による一時預かり（裁判員のみ市外在住者も利用可。利用は午後6時まで）",
+    "休日保育（保護者の就労等により日曜・祝日等に家庭で保育ができない場合、保育所・認定こども園で保育）"
+  ],
+  "notes": [
+    "保育所・認定こども園・地域型保育事業所（認可外保育施設を除く）・幼稚園に通っている児童は原則一時預かりの対象外",
+    "里帰り出産などで一定期間京都市に居住する場合は、住民票が他都市でも一時預かりを利用できる",
+    "一時預かり事業とこども誰でも通園制度の併用は可能",
+    "誰でも通園制度の課税状況による減免の適用可否は毎年9月1日に切り替わる"
+  ],
+  "evidence": {
+    "azukariReasons": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000054150.html",
+      "quote": "保護者の方の就労や通院、又は育児リフレッシュ（育児疲れの解消）などで、一時的に保育が必要な場合、保育所で児童をお預かりする保育サービスです。"
+    },
+    "azukariRefresh": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000054150.html",
+      "quote": "ボランティア活動への参加や育児リフレッシュ（育児疲れの解消、又は児童の体験入所などの理由で一時的に保育が必要な場合に利用できます。"
+    },
+    "azukariLimit": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000054150.html",
+      "quote": "おおむね月曜日から土曜日の午前8時30分～午後5時まで ※実施施設によって多少異なります。"
+    },
+    "azukariAges": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000054150.html",
+      "quote": "京都市内に在住する、生後57日目以降の児童（小学校就学前まで）"
+    },
+    "azukariFees.0": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000054150.html",
+      "quote": "市民税非課税世帯 800円/日 500円/日 上記以外の世帯 2,100円/日 1,200円/日"
+    },
+    "azukariFees.1": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000054150.html",
+      "quote": "生活保護受給世帯 0円/日 4,300円/日 0円/日 3,400円/日 市民税非課税世帯 1,000円/日 700円/日 上記以外の世帯 2,300円/日 1,400円/日"
+    },
+    "azukariFees.2": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000054150.html",
+      "quote": "※年齢の区分は、利用する年度の前年度の3月31日時点の年齢です。（満年齢ではありません）"
+    },
+    "azukariReduction": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000054150.html",
+      "quote": "※市民税課税の有無は、4月から6月までの利用は前年度分、7月以降は当該年度分の課税状況によります。"
+    },
+    "azukariRegistration": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000054150.html",
+      "quote": "※ 実施施設により、受入可能人数や事前登録の有無、必要な提出書類等が異なります。直接実施施設にお問い合わせください。"
+    },
+    "azukariBooking": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000054150.html",
+      "quote": "なお、利用には事前の登録や予約が必要ですので、お早めにお手続きいただきますようお願いいたします。"
+    },
+    "azukariFacilities": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000054150.html",
+      "quote": "民営保育園、認定こども園については、施設によって多少異なりますので、実施施設にお問い合わせください。"
+    },
+    "daredemoHours": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000349886.html",
+      "quote": "お子さん1人当たり月12時間を上限に利用可能です。"
+    },
+    "daredemoFee": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000349886.html",
+      "quote": "生活保護世帯 ：300円（上限） 市民税所得割合算額77,101円未満（概ね世帯年収360万円未満） ：200円（上限）"
+    },
+    "daredemoAges": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000349886.html",
+      "quote": "0歳6か月から満3歳未満（※1）で、「こども誰でも通園制度」の利用時点で保育園等（※2）に在籍していないお子さん"
+    },
+    "daredemoApply": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000349886.html",
+      "quote": "※ 申請から利用決定までおおむね2～3週間程度を要しますので、ご留意ください。"
+    },
+    "daredemoFacilities": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000349886.html",
+      "quote": "令和8年度から、本市以外の市区町村から認可・確認を受けた施設もご利用いただけますが、本市の基準等と異なる可能性がありますので、詳しくは当該施設にお問い合わせください。"
+    },
+    "daredemoStatus": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000349886.html",
+      "quote": "「こども誰でも通園制度総合支援システム」に当該2時間が反映されるのは、毎年3月末頃となる可能性があります。"
+    },
+    "otherServices.0": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000054150.html",
+      "quote": "裁判員として刑事裁判に参加する方で一時的に保育が必要な場合に利用できます。（裁判員のみ市外在住者も利用できます。） ※裁判員制度に伴う利用は午後6時までとします。"
+    },
+    "otherServices.1": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000002625.html",
+      "quote": "保護者の就労等により、日曜・祝日等に家庭で保育ができない場合に、保護者に代わって保育所、認定こども園で保育します。"
+    },
+    "notes.0": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000054150.html",
+      "quote": "保育所、認定こども園、地域型保育事業所（認可外保育施設を除く）、幼稚園に通っている児童は原則対象外です。"
+    },
+    "notes.1": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000054150.html",
+      "quote": "※里帰り出産の場合などで、一定期間、京都市に居住する場合は、住民票が他都市の場合でも、利用可能です。"
+    },
+    "notes.2": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000349886.html",
+      "quote": "一時預かり事業と併用してご利用いただくことは可能です。"
+    },
+    "notes.3": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000349886.html",
+      "quote": "課税状況による減免の適用可否は毎年9月1日が切り替えとなります"
+    }
+  },
+  "sources": [
+    {
+      "label": "京都市「一時預かりの御案内」",
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000054150.html"
+    },
+    {
+      "label": "京都市「こども誰でも通園制度（乳児等通園支援事業）のご案内」",
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000349886.html"
+    }
+  ]
+}
