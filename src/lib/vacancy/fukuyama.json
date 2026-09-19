@@ -2,11 +2,11 @@
   "municipalitySlug": "fukuyama",
   "municipalityName": "福山市",
   "asOf": "2026-09-18",
-  "fetchedAt": "2026-09-18",
+  "fetchedAt": "2026-09-19",
   "sourceName": "福山市「保育所等空き状況」",
   "sourceUrl": "https://www.city.fukuyama.hiroshima.jp/soshiki/hoikushisetsu/347755.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.fukuyama.hiroshima.jp/uploaded/life/412807_2560649_misc.pdf"
+    "vacancy": "https://www.city.fukuyama.hiroshima.jp/uploaded/life/412997_2561912_misc.pdf"
   },
   "metrics": [
     "symbol"
@@ -188,7 +188,7 @@
     {"id":"長和保育所","name":"長和保育所","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":[null,"×","×","×","○","○"]},
     {"id":"ももやまこども園","name":"ももやまこども園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
     {"id":"西山手保育所","name":"西山手保育所","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","○"]},
-    {"id":"ゆりかごこども園","name":"ゆりかごこども園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"ゆりかごこども園","name":"ゆりかごこども園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
     {"id":"まつばこども園","name":"まつばこども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","△"]},
     {"id":"若竹園","name":"若竹園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
     {"id":"みどりこども園","name":"みどりこども園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
