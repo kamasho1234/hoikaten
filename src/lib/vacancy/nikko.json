@@ -3,11 +3,11 @@
   "municipalityName": "日光市",
   "prefecture": "栃木県",
   "asOf": "2026-08-20",
-  "fetchedAt": "2026-09-23",
+  "fetchedAt": "2026-09-24",
   "sourceName": "日光市「利用調整後の空き状況」",
   "sourceUrl": "https://www.city.nikko.lg.jp/kosodate_kyoiku/hoikuen_yochien/10/7309.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.nikko.lg.jp/material/files/group/22/akijoukyou.pdf"
+    "vacancy": "https://www.city.nikko.lg.jp/material/files/group/22/202609akijoukyou.pdf"
   },
   "metrics": [
     "symbol"

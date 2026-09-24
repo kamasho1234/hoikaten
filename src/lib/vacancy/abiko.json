@@ -1,8 +1,8 @@
 {
   "municipalitySlug": "abiko",
   "municipalityName": "我孫子市",
-  "asOf": "2026-09-04",
-  "fetchedAt": "2026-09-04",
+  "asOf": "2026-09-24",
+  "fetchedAt": "2026-09-24",
   "sourceName": "我孫子市「保育施設の空き状況」",
   "sourceUrl": "https://www.city.abiko.chiba.jp/kosodate/children/preschool/nursery/vacancy/hoikuen_aki.html",
   "sourceFiles": {
@@ -11,7 +11,7 @@
   "metrics": [
     "symbol"
   ],
-  "subtitle": "10月入園の空き状況",
+  "subtitle": "11月入園の空き状況",
   "notes": [
     "我孫子市は空き状況を人数ではなく記号で公表しています。当サイトでも公式の記号のまま載せています。",
     "空きがあっても入園を保証するものではありません。多くの方の申請が予想されるため、保育の必要性や緊急性の高い家庭からの入園になります。",
@@ -45,7 +45,7 @@
     }
   ],
   "facilities": [
-    {"id":"寿","name":"寿","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","△"]},
+    {"id":"寿","name":"寿","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","△"]},
     {"id":"湖北台","name":"湖北台","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","△","×"]},
     {"id":"つくし野","name":"つくし野","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","△","〇","×"]},
     {"id":"湖北","name":"湖北","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
@@ -55,9 +55,9 @@
     {"id":"川村学園女子大学附属","name":"川村学園女子大学附属","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
     {"id":"アンジェリカ","name":"アンジェリカ","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
     {"id":"つばめ","name":"つばめ","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
-    {"id":"禮和","name":"禮和","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△","△","△","△"]},
-    {"id":"ぽけっとランドあびこ","name":"ぽけっとランドあびこ","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
-    {"id":"天王台さくら","name":"天王台さくら","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
+    {"id":"禮和","name":"禮和","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","△","×"]},
+    {"id":"ぽけっとランドあびこ","name":"ぽけっとランドあびこ","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"天王台さくら","name":"天王台さくら","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
     {"id":"めばえの森","name":"めばえの森","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","△","×"]},
     {"id":"あびこ菜の花","name":"あびこ菜の花","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
     {"id":"聖華みどり","name":"聖華みどり","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},

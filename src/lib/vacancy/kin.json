@@ -2,12 +2,12 @@
   "municipalitySlug": "kin",
   "municipalityName": "金武町",
   "prefecture": "沖縄県",
-  "asOf": "2026-08-18",
-  "fetchedAt": "2026-09-23",
+  "asOf": "2026-09-17",
+  "fetchedAt": "2026-09-24",
   "sourceName": "金武町「認可保育施設空き状況」",
   "sourceUrl": "https://www.town.kin.okinawa.jp/soshiki/kodomoshienka/gyomuannai/hoiku_kosodateshien/1466.html",
   "sourceFiles": {
-    "vacancy": "https://www.town.kin.okinawa.jp/material/files/group/6/akijoukyou20260818.pdf"
+    "vacancy": "https://www.town.kin.okinawa.jp/material/files/group/6/akijoukyou20260917.pdf"
   },
   "metrics": [
     "symbol"
@@ -51,7 +51,7 @@
       ],
       "symbols": [
         "×",
-        "○",
+        "×",
         "×",
         "○",
         "○",
@@ -116,9 +116,9 @@
         null
       ],
       "symbols": [
+        "○",
         "×",
-        "○",
-        "○",
+        "×",
         "○",
         "○",
         "○"
@@ -139,7 +139,7 @@
       ],
       "symbols": [
         "×",
-        "○",
+        "×",
         "×",
         "×",
         "○",
@@ -161,7 +161,7 @@
       ],
       "symbols": [
         "×",
-        "○",
+        "×",
         "×",
         "×",
         "○",
@@ -228,7 +228,7 @@
       "symbols": [
         "×",
         "○",
-        "×",
+        "○",
         null,
         null,
         null
