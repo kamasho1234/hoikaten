@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "satsumasendai",
   "municipalityName": "薩摩川内市",
-  "asOf": "2026-08-25",
-  "fetchedAt": "2026-09-24",
+  "asOf": "2026-09-25",
+  "fetchedAt": "2026-09-25",
   "sourceName": "薩摩川内市「保育施設等空き状況」",
   "sourceUrl": "https://www.city.satsumasendai.lg.jp/kosodate_kyoiku/kosodate/4/18166.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.satsumasendai.lg.jp/material/files/group/20/20260825.pdf"
+    "vacancy": "https://www.city.satsumasendai.lg.jp/material/files/group/20/20200925.pdf"
   },
   "metrics": [
     "vacancy"
@@ -32,8 +32,8 @@
       "w": null,
       "c": 0,
       "vacancy": [
-        1,
-        1,
+        0,
+        0,
         0,
         1,
         0,
@@ -47,7 +47,7 @@
       "c": 1,
       "vacancy": [
         0,
-        2,
+        1,
         2,
         4,
         0,
@@ -60,7 +60,7 @@
       "w": null,
       "c": 2,
       "vacancy": [
-        2,
+        0,
         1,
         0,
         null,
@@ -74,8 +74,8 @@
       "w": null,
       "c": 1,
       "vacancy": [
-        2,
         0,
+        2,
         0,
         0,
         0,
@@ -88,7 +88,7 @@
       "w": null,
       "c": 1,
       "vacancy": [
-        1,
+        0,
         0,
         0,
         0,
@@ -103,8 +103,8 @@
       "c": 3,
       "vacancy": [
         null,
-        3,
         1,
+        0,
         null,
         null,
         null
@@ -116,7 +116,7 @@
       "w": null,
       "c": 0,
       "vacancy": [
-        3,
+        2,
         3,
         3,
         2,
@@ -130,9 +130,9 @@
       "w": null,
       "c": 0,
       "vacancy": [
-        2,
         0,
         0,
+        1,
         0,
         0,
         0
@@ -173,7 +173,7 @@
       "c": 2,
       "vacancy": [
         0,
-        0,
+        1,
         0,
         null,
         null,
@@ -200,9 +200,9 @@
       "w": null,
       "c": 2,
       "vacancy": [
-        3,
-        3,
         0,
+        2,
+        1,
         null,
         null,
         null
@@ -216,7 +216,7 @@
       "vacancy": [
         3,
         2,
-        1,
+        0,
         null,
         null,
         null
@@ -229,8 +229,8 @@
       "c": 0,
       "vacancy": [
         0,
+        2,
         1,
-        0,
         1,
         0,
         0
@@ -259,7 +259,7 @@
         0,
         1,
         0,
-        2,
+        1,
         0,
         0
       ]
@@ -301,7 +301,7 @@
         0,
         0,
         0,
-        0,
+        1,
         0,
         0
       ]
@@ -369,7 +369,7 @@
       "c": 0,
       "vacancy": [
         0,
-        1,
+        0,
         0,
         0,
         0,
@@ -382,7 +382,7 @@
       "w": null,
       "c": 1,
       "vacancy": [
-        0,
+        1,
         0,
         0,
         0,
@@ -399,7 +399,7 @@
         0,
         1,
         1,
-        1,
+        0,
         1,
         1
       ]
@@ -411,7 +411,7 @@
       "c": 1,
       "vacancy": [
         null,
-        0,
+        1,
         1,
         2,
         2,
@@ -424,7 +424,7 @@
       "w": null,
       "c": 1,
       "vacancy": [
-        2,
+        3,
         4,
         0,
         0,
@@ -442,7 +442,7 @@
         1,
         1,
         0,
-        1,
+        0,
         0
       ]
     },
@@ -457,7 +457,7 @@
         1,
         0,
         0,
-        1
+        0
       ]
     },
     {
@@ -466,9 +466,9 @@
       "w": null,
       "c": 1,
       "vacancy": [
-        0,
-        0,
         1,
+        0,
+        0,
         0,
         0,
         0
@@ -480,7 +480,7 @@
       "w": null,
       "c": 0,
       "vacancy": [
-        1,
+        0,
         0,
         0,
         0,
@@ -494,12 +494,12 @@
       "w": null,
       "c": 0,
       "vacancy": [
-        2,
-        2,
+        0,
+        0,
         0,
         2,
         0,
-        2
+        0
       ]
     },
     {
@@ -565,7 +565,7 @@
       "c": 1,
       "vacancy": [
         1,
-        3,
+        2,
         1,
         1,
         1,
@@ -581,7 +581,7 @@
         0,
         2,
         2,
-        6,
+        5,
         0,
         1
       ]
@@ -592,7 +592,7 @@
       "w": null,
       "c": 1,
       "vacancy": [
-        1,
+        0,
         5,
         2,
         4,
@@ -606,8 +606,8 @@
       "w": null,
       "c": 0,
       "vacancy": [
-        1,
         2,
+        1,
         1,
         1,
         1,
@@ -620,7 +620,7 @@
       "w": null,
       "c": 1,
       "vacancy": [
-        2,
+        1,
         1,
         1,
         1,

@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "ikeda",
   "municipalityName": "池田市",
-  "asOf": "2026-08-25",
-  "fetchedAt": "2026-09-24",
+  "asOf": "2026-09-25",
+  "fetchedAt": "2026-09-25",
   "sourceName": "池田市「保育所等入所空き見込み表」",
   "sourceUrl": "https://www.city.ikeda.osaka.jp/soshiki/kodomo/youjihoiku/hoikusyoto/hoikushotou/1447398882437.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.ikeda.osaka.jp/material/files/group/60/akimikomi202610.pdf"
+    "vacancy": "https://www.city.ikeda.osaka.jp/material/files/group/60/akimikomi202611.pdf"
   },
   "metrics": [
     "symbol"
@@ -80,8 +80,8 @@
       ],
       "symbols": [
         "×",
-        "△",
-        "△",
+        "×",
+        "×",
         "×",
         "×",
         "×"
@@ -128,7 +128,7 @@
         "×",
         "×",
         "×",
-        "×"
+        "△"
       ]
     },
     {
@@ -148,9 +148,9 @@
         "×",
         "×",
         "×",
-        "◎",
-        "△",
-        "○"
+        "×",
+        "×",
+        "×"
       ]
     },
     {
@@ -235,7 +235,7 @@
       "symbols": [
         "×",
         "×",
-        "×",
+        "△",
         null,
         null,
         null
@@ -255,7 +255,7 @@
         null
       ],
       "symbols": [
-        "△",
+        "×",
         "×",
         "×",
         null,
@@ -344,11 +344,11 @@
       ],
       "symbols": [
         "×",
+        "△",
         "×",
         "×",
         "×",
-        "×",
-        "△"
+        "×"
       ]
     },
     {
@@ -411,7 +411,7 @@
       "symbols": [
         "×",
         "×",
-        "×",
+        "△",
         "×",
         "×",
         "×"
@@ -498,7 +498,7 @@
       ],
       "symbols": [
         "×",
-        "×",
+        "○",
         "×",
         "×",
         "×",
@@ -541,9 +541,9 @@
         null
       ],
       "symbols": [
+        "×",
+        "×",
         "△",
-        "×",
-        "×",
         "×",
         "×",
         "×"
@@ -652,7 +652,7 @@
       ],
       "symbols": [
         "×",
-        "△",
+        "×",
         "×",
         null,
         null,
@@ -695,7 +695,7 @@
         null
       ],
       "symbols": [
-        "△",
+        "×",
         "×",
         "×",
         null,
