@@ -2,11 +2,11 @@
   "municipalitySlug": "moriyama",
   "municipalityName": "守山市",
   "asOf": "2026-09-25",
-  "fetchedAt": "2026-09-25",
+  "fetchedAt": "2026-09-26",
   "sourceName": "守山市「認可保育施設等の空き状況」",
   "sourceUrl": "https://www.city.moriyama.lg.jp/kosodatekyouiku/kodomoshisetsu/1002259/1002346.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.moriyama.lg.jp/_res/projects/default_project/_page_/001/002/346/akijoukyo20260925.pdf"
+    "vacancy": "https://www.city.moriyama.lg.jp/_res/projects/default_project/_page_/001/002/346/akijokyou202609252.pdf"
   },
   "metrics": [
     "symbol"
@@ -61,7 +61,7 @@
     {"id":"若鮎こども園","name":"若鮎こども園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
     {"id":"速野カナリヤこども園","name":"速野カナリヤこども園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","▲","▲","▲"]},
     {"id":"もりの風こども園","name":"もりの風こども園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
-    {"id":"カナリヤ第二保育園","name":"カナリヤ第二保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"カナリヤ第二保育園","name":"カナリヤ第二保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","▲","×","×"]},
     {"id":"ふるたか虹のはし保育園","name":"ふるたか虹のはし保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","△"]},
     {"id":"滋賀短期大学附属すみれ保育園","name":"滋賀短期大学附属すみれ保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
     {"id":"洛和みずのさと保育園","name":"洛和みずのさと保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
