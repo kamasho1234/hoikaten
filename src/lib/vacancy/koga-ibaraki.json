@@ -2,12 +2,12 @@
   "municipalitySlug": "koga-ibaraki",
   "municipalityName": "古河市",
   "prefecture": "茨城県",
-  "asOf": "2026-08-19",
-  "fetchedAt": "2026-09-27",
+  "asOf": "2026-09-24",
+  "fetchedAt": "2026-09-28",
   "sourceName": "古河市「空き状況一覧表」",
   "sourceUrl": "https://www.city.ibaraki-koga.lg.jp/soshiki/hoiku/2/14130.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.ibaraki-koga.lg.jp/material/files/group/92/R8_10muke.pdf"
+    "vacancy": "https://www.city.ibaraki-koga.lg.jp/material/files/group/92/R8_11muke.pdf"
   },
   "metrics": [
     "symbol"
@@ -145,7 +145,7 @@
         "×",
         "×",
         "△",
-        "×",
+        "△",
         "×",
         "×"
       ]
@@ -187,8 +187,8 @@
       ],
       "symbols": [
         "×",
-        "△",
         "×",
+        "△",
         "×",
         "×",
         "×"
@@ -340,12 +340,12 @@
         null
       ],
       "symbols": [
-        "×",
+        "△",
         "×",
         "△",
         "×",
         "×",
-        "×"
+        "△"
       ]
     },
     {
@@ -362,7 +362,7 @@
         null
       ],
       "symbols": [
-        "△",
+        "×",
         "×",
         "×",
         "×",
@@ -475,7 +475,7 @@
         null,
         null,
         null,
-        "×",
+        "△",
         "×",
         "×"
       ]
@@ -540,7 +540,7 @@
       "symbols": [
         "×",
         "×",
-        "△",
+        "×",
         "×",
         "×",
         "×"
@@ -561,7 +561,7 @@
       ],
       "symbols": [
         "×",
-        "×",
+        "△",
         "×",
         "×",
         "×",
@@ -605,7 +605,7 @@
       ],
       "symbols": [
         "△",
-        "△",
+        "〇",
         "△",
         "△",
         "△",
@@ -648,7 +648,7 @@
         null
       ],
       "symbols": [
-        "△",
+        "×",
         "△",
         "〇",
         "△",
@@ -671,7 +671,7 @@
       ],
       "symbols": [
         "△",
-        "×",
+        "△",
         "△",
         "△",
         "×",
@@ -692,12 +692,12 @@
         null
       ],
       "symbols": [
-        "△",
+        "×",
         "△",
         "△",
         "△",
         "×",
-        "△"
+        "×"
       ]
     },
     {
@@ -716,10 +716,10 @@
       "symbols": [
         "〇",
         "△",
-        "×",
-        "〇",
         "△",
-        "△"
+        "△",
+        "△",
+        "×"
       ]
     },
     {
@@ -737,7 +737,7 @@
       ],
       "symbols": [
         "×",
-        "△",
+        "×",
         "△",
         "×",
         "×",
@@ -825,7 +825,7 @@
       ],
       "symbols": [
         "×",
-        "×",
+        "△",
         "△",
         null,
         null,
@@ -833,8 +833,8 @@
       ]
     },
     {
-      "id": "KOYOナーサーリーキッズ",
-      "name": "KOYOナーサーリーキッズ",
+      "id": "KOYOナーサリーキッズ",
+      "name": "KOYOナーサリーキッズ",
       "w": null,
       "c": null,
       "vacancy": [
@@ -848,7 +848,7 @@
       "symbols": [
         "×",
         "×",
-        "×",
+        "△",
         null,
         null,
         null
@@ -892,7 +892,7 @@
       "symbols": [
         "×",
         "×",
-        "×",
+        "△",
         null,
         null,
         null

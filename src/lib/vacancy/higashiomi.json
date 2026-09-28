@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "higashiomi",
   "municipalityName": "東近江市",
-  "asOf": "2026-08-25",
-  "fetchedAt": "2026-09-27",
+  "asOf": "2026-09-25",
+  "fetchedAt": "2026-09-28",
   "sourceName": "東近江市「保育所などの空き状況」",
   "sourceUrl": "https://www.city.higashiomi.shiga.jp/kosodate_kyouiku/youchien_hoikusho_ninteikodomoen/1011262/1002316.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.higashiomi.shiga.jp/_res/projects/default_project/_page_/001/002/316/r810akijyoukyou.pdf"
+    "vacancy": "https://www.city.higashiomi.shiga.jp/_res/projects/default_project/_page_/001/002/316/r811akijyoukyou.pdf"
   },
   "metrics": [
     "symbol"
@@ -185,8 +185,8 @@
       ],
       "symbols": [
         "×",
-        "×",
         "△",
+        "×",
         "×",
         "×",
         "×"
@@ -210,7 +210,7 @@
         "×",
         "×",
         "×",
-        "×",
+        "△",
         "×"
       ]
     },
@@ -231,7 +231,7 @@
         "×",
         "×",
         "×",
-        "×",
+        "△",
         "×",
         "×"
       ]
@@ -251,7 +251,7 @@
       ],
       "symbols": [
         "×",
-        "×",
+        "△",
         "×",
         null,
         null,
