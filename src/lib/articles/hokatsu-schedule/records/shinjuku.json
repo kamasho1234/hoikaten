@@ -1,0 +1,158 @@
+{
+  "citySlug": "shinjuku",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "新宿区「認可保育園・認定こども園［保育園機能］・地域型保育事業 入園（転園）申込み」",
+    "url": "https://www.city.shinjuku.lg.jp/kodomo/hoiku01_002099_00001.html"
+  },
+  "fiscalYear": "R8",
+  "firstApply": "令和7年10月28日（火曜日）〜令和7年12月5日（金曜日）。郵送は締切日必着、電子申請は締切日の23時59分まで",
+  "applyMethods": "郵送か電子申請（マイナポータルのぴったりサービス）での申込みが求められている。窓口で申し込む場合は、事前に電話で保育課入園・認定係に来庁日時を予約して申込書類を持参する。特別出張所や認可保育園・認定こども園では受け付けない",
+  "firstResult": "令和8年2月13日（金曜日）に結果発表（予定）",
+  "secondApply": "令和7年12月6日（土曜日）〜令和8年2月3日（火曜日）。1次申込みができなかった人が対象で、2次用の募集枠は無く、1次申込みの利用調整後の選考になる",
+  "secondResult": "令和8年2月27日（金曜日）に結果発表（予定）",
+  "midYearDeadline": "入園希望月ごとに申込締切日がある（令和8年度は5月入園が4月6日、6月入園が5月7日締切）。3月入園は無い",
+  "documents": [
+    "入園（転園）申込書一式",
+    "保育の必要性を確認できる書類（就労証明書（区様式）、診断書（区様式）、在学証明書等）",
+    "状況により必要となる書類等",
+    "申込み時に産前・産後休業または育児休業を取得中の人は「復職に関する申告書」",
+    "出産前の仮申込みをする場合は「出産前の仮申込みに関する確認書」"
+  ],
+  "interview": "内定した場合、内定した園での面接・健康診断を経て入園が決まる",
+  "notes": [
+    "4月入園に限り、出生前の仮申込みを受け付けている",
+    "申込者が募集人数を超えた場合は、申込締切日までに提出された書類を基に世帯の状況を指数化し、指数の高い人から内定する（先着順や抽選ではない）",
+    "希望できる園の数に制限は無く、希望園の順番は入園のしやすさに関係しない",
+    "4月入園で不承諾になった場合は申込みが継続しているものとみなされ、次は5月入園の利用調整の対象になる",
+    "申込みの手引き（冊子）は保育課入園・認定係（区役所本庁舎2階14番窓口）、区立・私立の認可保育園と認定こども園、特別出張所で配布している"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.shinjuku.lg.jp/kodomo/hoiku01_002099_00001.html",
+      "quote": "令和8年4月【1次】 令和7年12月5日（金曜日） 令和8年2月13日（金曜日）"
+    },
+    "firstApply": {
+      "url": "https://www.city.shinjuku.lg.jp/kodomo/hoiku01_002099_00001.html",
+      "quote": "［1次］申込み 受付期間 令和7年10月28日（火曜日） から 令和7年12月5日（金曜日） まで"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.shinjuku.lg.jp/kodomo/hoiku01_002099_00002.html",
+      "quote": "（注意）電子申請の締め切りは、申込締切日の23時59分までです。"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.shinjuku.lg.jp/kodomo/hoiku01_002099_00001.html",
+      "quote": "郵送または電子申請（締切日必着）による申込み（新規ウィンドウ表示）にご協力ください。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.shinjuku.lg.jp/kodomo/hoiku01_002099_00001.html",
+      "quote": "郵送または電子申請（締切日必着）による申込み（新規ウィンドウ表示）にご協力ください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.shinjuku.lg.jp/kodomo/hoiku01_002099_00001.html",
+      "quote": "窓口での申込み・相談をご希望の場合は、事前に、電話にて保育課入園・認定係（電話：03-5273-4527）に、来庁する日時をご予約上、申込書類をご持参ください。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.shinjuku.lg.jp/kodomo/hoiku01_002099_00001.html",
+      "quote": "特別出張所、認可保育園・認定こども園等では申込みの受付はできません。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.shinjuku.lg.jp/kodomo/hoiku01_002099_00002.html",
+      "quote": "認可保育園・認定こども園等の入園（転園）申込み、教育・保育給付認定申請、現況届などの手続きはマイナポータルの「ぴったりサービス」から電子申請（オンライン申請）ができます。"
+    },
+    "firstResult": {
+      "url": "https://www.city.shinjuku.lg.jp/kodomo/hoiku01_002099_00001.html",
+      "quote": "令和7年12月5日（金曜日） まで 結果発表日［予定］ 令和8年2月13日（金曜日）"
+    },
+    "secondApply": {
+      "url": "https://www.city.shinjuku.lg.jp/kodomo/hoiku01_002099_00001.html",
+      "quote": "［2次］申込み 受付期間 令和7年12月6日（土曜日） から 令和8年2月3日（火曜日） まで"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.shinjuku.lg.jp/kodomo/hoiku01_002099_00001.html",
+      "quote": "1次申込みができなかった方が対象です。 2次申込み用の募集枠を設けているわけではありません。 1次申込みの方の利用調整後の選考となります。"
+    },
+    "secondResult": {
+      "url": "https://www.city.shinjuku.lg.jp/kodomo/hoiku01_002099_00001.html",
+      "quote": "令和8年2月3日（火曜日） まで 結果発表日［予定］ 令和8年2月27日（金曜日）"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.shinjuku.lg.jp/kodomo/hoiku01_002099_00001.html",
+      "quote": "5月 4月6日（月曜日） 4月15日（水曜日） 6月 5月7日（木曜日） 5月18日（月曜日）"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.shinjuku.lg.jp/kodomo/hoiku01_002099_00001.html",
+      "quote": "3月 3月入園はありません"
+    },
+    "documents.0": {
+      "url": "https://www.city.shinjuku.lg.jp/kodomo/hoiku01_002099_00001.html",
+      "quote": "申込みに必要な書類 入園(転園)申込書一式"
+    },
+    "documents.1": {
+      "url": "https://www.city.shinjuku.lg.jp/kodomo/hoiku01_002099_00001.html",
+      "quote": "保育の必要性を確認できる書類［就労証明書（区様式）、診断書（区様式）、在学証明書等］"
+    },
+    "documents.2": {
+      "url": "https://www.city.shinjuku.lg.jp/kodomo/hoiku01_002099_00001.html",
+      "quote": "在学証明書等］ 状況により必要となる書類等"
+    },
+    "documents.3": {
+      "url": "https://www.city.shinjuku.lg.jp/kodomo/file18_00002.html",
+      "quote": "申込み時に、産前・産後休業または育児休業を取得中の方は、ご提出ください。"
+    },
+    "documents.4": {
+      "url": "https://www.city.shinjuku.lg.jp/kodomo/file18_00002.html",
+      "quote": "4月入園に限り、生まれる前に「0歳児クラス（生後43日以降）」の仮申込みを受け付けます。 出産予定のお子さんの仮申込みを行う場合に、ご提出ください。"
+    },
+    "interview": {
+      "url": "https://www.city.shinjuku.lg.jp/kodomo/file04_07_00024.html",
+      "quote": "内定した園での面接・健康診断を経て入園を決定します。"
+    },
+    "notes.0": {
+      "url": "https://www.city.shinjuku.lg.jp/kodomo/file04_07_00024.html",
+      "quote": "お子さんが生まれてから、入園を希望する月の申込締切日までに、お申込みください。4月入園に限り、出生前の仮申込みを受け付けています。"
+    },
+    "notes.1": {
+      "url": "https://www.city.shinjuku.lg.jp/kodomo/file04_07_00024.html",
+      "quote": "区が定める基準に基づき、申込締切日までに提出された申込書類を基に世帯の状況を指数化し、指数の高い方から順次内定者を決定していきます。先着順や抽選ではありません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.shinjuku.lg.jp/content/000450447.pdf",
+      "quote": "希望できる園の数に制限はありません。"
+    },
+    "notes.2#2": {
+      "url": "https://www.city.shinjuku.lg.jp/content/000450447.pdf",
+      "quote": "希望園の順番は入園(転園)のしやすさに関係しません。"
+    },
+    "notes.3": {
+      "url": "https://www.city.shinjuku.lg.jp/content/000450447.pdf",
+      "quote": "「不承諾」となった場合は、申込みの有効期間中（申込日から起算して6か月以内）は申込みが継続しているものとみなします。次は、5月入園(転園)の利用調整の対象となります。"
+    },
+    "notes.4": {
+      "url": "https://www.city.shinjuku.lg.jp/kodomo/hoiku01_002099_00001.html",
+      "quote": "保育課入園・認定係（区役所本庁舎2階14番窓口） 認可保育園〔区立・私立〕 認定こども園〔区立・私立〕 特別出張所"
+    }
+  },
+  "sources": [
+    {
+      "label": "新宿区「認可保育園・認定こども園［保育園機能］・地域型保育事業 入園（転園）申込み」",
+      "url": "https://www.city.shinjuku.lg.jp/kodomo/hoiku01_002099_00001.html"
+    },
+    {
+      "label": "新宿区「認可保育園・認定こども園等の入園申込み等の電子申請」",
+      "url": "https://www.city.shinjuku.lg.jp/kodomo/hoiku01_002099_00002.html"
+    },
+    {
+      "label": "新宿区「申請書のダウンロード」",
+      "url": "https://www.city.shinjuku.lg.jp/kodomo/file18_00002.html"
+    },
+    {
+      "label": "新宿区「よくあるご質問（認可保育園・認定こども園［保育園機能］・地域型保育事業）」",
+      "url": "https://www.city.shinjuku.lg.jp/kodomo/file04_07_00024.html"
+    },
+    {
+      "label": "新宿区「入園（転園）申込み後の確認事項【令和8年度版】」",
+      "url": "https://www.city.shinjuku.lg.jp/content/000450447.pdf"
+    }
+  ]
+}

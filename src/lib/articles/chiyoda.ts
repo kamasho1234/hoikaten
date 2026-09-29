@@ -3,60 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "chiyoda",
-    title: "千代田区の保活スケジュール　申込から内定までの流れ",
-    description:
-      "千代田区の認可保育園・こども園の申込時期と流れをまとめました。令和8年度4月入園の動き方を解説します。",
-    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>千代田区の4月入園スケジュール</h2>
-<p>千代田区は人口が少ない分、認可保育園の数も限られています。早めの情報収集がカギです。</p>
-
-<h3>保活の全体スケジュール</h3>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content">
-<strong>4月〜6月：情報収集</strong>
-<p>区のホームページで「保育園・こども園等の入園案内」を確認します。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content">
-<strong>6月〜9月：保育園見学</strong>
-<p>園の数が限られるため、早めに見学予約を入れましょう。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content">
-<strong>9月〜10月：案内を入手・書類準備</strong>
-<p>最新の入園案内を入手し、就労証明書などを揃えます。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content">
-<strong>10月〜11月：申込書類の提出</strong>
-<p>窓口または郵送で提出。締切を厳守しましょう。</p>
-</div>
-</div>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>千代田区は基本指数が父母各最大10点（合計20点満点）です。園の数が少ないため、通園可能な園はすべて希望に入れるのが鉄則です。</p>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.chiyoda.lg.jp/koho/kosodate/hoiku/ninka/index.html" target="_blank" rel="noopener">千代田区公式サイト</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-03-28",
-    popularity: 55,
-  },
-  {
     slug: "scoring-system-guide",
     citySlug: "chiyoda",
     title: "千代田区の入園点数のしくみ　基準指数と調整指数を解説",

@@ -1,0 +1,179 @@
+{
+  "citySlug": "chiyoda",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "千代田区「令和8年4月入園の園児募集」",
+    "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/hoiku/uketsukekikankohyo.html"
+  },
+  "fiscalYear": "R8",
+  "firstApply": "令和7年11月20日（木曜日）〜12月19日（金曜日）（窓口）。オンライン申請は令和7年12月12日（金曜日）締め切り",
+  "applyMethods": "区役所2階の子ども支援課の窓口（平日午前8時30分〜午後5時）か、マイナポータルの「ぴったりサービス」からのオンライン申請。郵送・ファクスでは申し込めない。オンライン申請は締め切り日の23時59分が期限",
+  "firstResult": "令和8年2月6日（金曜日）が結果発表予定日。内定の連絡は通常は電話だが、4月入園のみ文書で通知",
+  "secondApply": "令和8年1月5日（月曜日）〜2月13日（金曜日）（窓口）。オンライン申請は令和8年2月6日（金曜日）締め切り",
+  "secondResult": "令和8年2月27日（金曜日）が結果発表予定日",
+  "midYearDeadline": "年度途中の入園は月ごとに受付期間があり、例えば令和8年6月入園は4月1日〜4月30日（オンラインは4月23日締め切り）。令和9年2月・3月入園の募集は行わない",
+  "documents": [
+    "教育・保育給付認定申請書（「番号確認」書類と「本人確認」書類を添付または提示）",
+    "保育所等入所・転所申込書（全園希望の場合は全園希望者用別紙も必ず提出）",
+    "児童の状況（入園後の保育に必要な情報。記入内容は選考に影響しない）",
+    "保育ができない状況を証明する書類（父・母・65歳未満の同居者の全員分。就労の場合は就労証明書（区様式））。各種証明書類は入園受付期間の開始日からさかのぼって3か月以内に発行されたものが有効",
+    "居住を確認できる書類（全園希望の方、区立こども園・幼保一体施設を希望する方のみ。3か月以内に発行された電気・ガス・水道いずれかの領収書・検針票）"
+  ],
+  "interview": "内定後、内定園と日程調整のうえ面接と健康診断を受けて正式に入園決定。入園月の前月末日までに受けられない場合は原則として内定辞退の扱い",
+  "ikukyu": "令和7年4月入所選考から、育児休業延長希望者用の入園順位と加算調整指数（減点）を廃止した。入所保留通知の送付は最初の選考月のみ",
+  "notes": [
+    "出生前に4月入園を希望する場合は「仮申込」が必要で、仮申込がないと4月入所選考の対象にならない",
+    "二次締め切りの選考は、一次締め切りの選考後の空き枠に対して行う",
+    "4月入園（一次）で申し込み、入園・転園の意思がなくなった場合は令和8年1月9日（金）までに取下書を提出する",
+    "内定した園への入園を辞退すると、内定月の翌月から6か月間は入園順位が下がる",
+    "園の見学の有無・見学回数は入園選考に影響しない"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/hoiku/uketsukekikankohyo.html",
+      "quote": "保育園・こども園等の令和8年4月入園の申し込み受付期間は以下のとおりです。"
+    },
+    "firstApply": {
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/hoiku/uketsukekikankohyo.html",
+      "quote": "一次締め切り【終了しました】 令和7年11月20日（木曜日）～12月19日（金曜日） 令和7年12月12日（金曜日）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/hoiku/uketsukekikankohyo.html",
+      "quote": "区役所2階 子ども支援課（郵送・ファクスでの申し込みはできません）"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/hoiku/uketsukekikankohyo.html",
+      "quote": "オンライン申請の場合は、マイナポータルの「ぴったりサービス」から申請可能です。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.chiyoda.lg.jp/documents/32102/r804nyuenannai.pdf",
+      "quote": "※ オンライン申請の場合は、締め切り日の２３時５９分が期限です。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/hoiku/uketsukekikankohyo.html",
+      "quote": "午前8時30分～午後5時（土曜日・日曜日・祝日を除く）"
+    },
+    "firstResult": {
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/hoiku/uketsukekikankohyo.html",
+      "quote": "選考結果発表予定日 一次締め切り：令和8年2月6日（金曜日）"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/hoiku/moshikomi-nyuen.html",
+      "quote": "入園が内定した場合は、結果発表予定日前後に申込者へ電話で連絡します（4月入園のみ文書で通知）。"
+    },
+    "secondApply": {
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/hoiku/uketsukekikankohyo.html",
+      "quote": "二次締め切り 令和8年1月5日（月曜日）～2月13日（金曜日） 令和8年2月6日（金曜日）"
+    },
+    "secondResult": {
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/hoiku/uketsukekikankohyo.html",
+      "quote": "二次締め切り：令和8年2月27日（金曜日）"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.chiyoda.lg.jp/documents/1346/r8nyuemmoshikomi-kikan.pdf",
+      "quote": "令和 8 年 6 月 4 月 1 日（水曜日）～4 月 30 日（木曜日） 4 月 23 日（木曜日）"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/hoiku/moshikomi-nyuen.html",
+      "quote": "（注意） 令和9年2月・3月入園の募集は行いません。"
+    },
+    "documents.0": {
+      "url": "https://www.city.chiyoda.lg.jp/documents/32102/r804nyuenannai.pdf",
+      "quote": "（１）教育・保育給付認定申請書 （添付または提示：「番号確認」書類＋「本人確認」書類）"
+    },
+    "documents.1": {
+      "url": "https://www.city.chiyoda.lg.jp/documents/32102/r804nyuenannai.pdf",
+      "quote": "※ 全園希望の方は、全園希望者用別紙（区ホームページからダウンロードできます。）を必ずご提出ください。"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.chiyoda.lg.jp/documents/32102/r804nyuenannai.pdf",
+      "quote": "（２）保育所等入所・転所申込書"
+    },
+    "documents.2": {
+      "url": "https://www.city.chiyoda.lg.jp/documents/32102/r804nyuenannai.pdf",
+      "quote": "入園後の保育に必要な情報の記入をお願いします。 記入内容が入所選考に影響することはありません。"
+    },
+    "documents.3": {
+      "url": "https://www.city.chiyoda.lg.jp/documents/32102/r804nyuenannai.pdf",
+      "quote": "（４）保育ができない状況を証明する書類（父・母・６５歳未満の同居者（※１）、全員分）"
+    },
+    "documents.3#2": {
+      "url": "https://www.city.chiyoda.lg.jp/documents/32102/r804nyuenannai.pdf",
+      "quote": "※ 各種証明書類は、入園受付期間の開始日からさかのぼって３か月以内に発行されたものが有効です。"
+    },
+    "documents.3#3": {
+      "url": "https://www.city.chiyoda.lg.jp/documents/32102/r804nyuenannai.pdf",
+      "quote": "就労証明書（区様式） ○ ○ ○"
+    },
+    "documents.4": {
+      "url": "https://www.city.chiyoda.lg.jp/documents/32102/r804nyuenannai.pdf",
+      "quote": "（必要な方：全園希望で申し込まれる方または、区立こども園・幼保一体施設を希望する方）"
+    },
+    "documents.4#2": {
+      "url": "https://www.city.chiyoda.lg.jp/documents/32102/r804nyuenannai.pdf",
+      "quote": "３か月以内に発行された電気・ガス・水道いずれかの領収書・検針票（名義人および住所の記載のあるもの）。"
+    },
+    "interview": {
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/hoiku/moshikomi-nyuen.html",
+      "quote": "入園が内定した場合は、内定した園との日程調整のうえ、面接と健康診断を受けた後、正式に入園を決定します。"
+    },
+    "interview#2": {
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/hoiku/moshikomi-nyuen.html",
+      "quote": "入園月の前月末日までに面接と健康診断を受けられない場合は、原則として「入園内定を辞退した場合」のとおり取り扱います。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/hoiku/kyufukin-senkohoho.html",
+      "quote": "令和7年4月入所選考から育児休業延長希望者用の入園順位および加算調整指数（減点）を廃止しました。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/hoiku/moshikomi-nyuen.html",
+      "quote": "入所保留通知の送付は最初の選考月のみです。"
+    },
+    "notes.0": {
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/hoiku/shusseimae-karimoshikomi.html",
+      "quote": "出生前に4月入園を希望される方は、「仮申込」として申込書をお預かりします。仮申込がない場合、4月入所選考の対象とはなりません。"
+    },
+    "notes.1": {
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/hoiku/uketsukekikankohyo.html",
+      "quote": "二次締め切りの選考は、一次締め切りの選考後の空き枠に対して行います。"
+    },
+    "notes.2": {
+      "url": "https://www.city.chiyoda.lg.jp/documents/32102/r804nyuenannai.pdf",
+      "quote": "※ ４月入園（一次）で申し込みをし、入園や転園の意思がなくなった場合は、令和８年１月９日（金）までに"
+    },
+    "notes.3": {
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/hoiku/moshikomi-nyuen.html",
+      "quote": "内定した園への入園を辞退すると、内定月の翌月から6か月間は、年度の切り替えに関わらず入園順位が下がります。"
+    },
+    "notes.4": {
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/hoiku/moshikomi-nyuen.html",
+      "quote": "なお、見学の有無・見学回数は入園選考には影響しません。"
+    }
+  },
+  "sources": [
+    {
+      "label": "千代田区「令和8年4月入園の園児募集」",
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/hoiku/uketsukekikankohyo.html"
+    },
+    {
+      "label": "千代田区「申込から入園までの流れ」",
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/hoiku/moshikomi-nyuen.html"
+    },
+    {
+      "label": "千代田区「令和8年度保育園・こども園等の入園案内」",
+      "url": "https://www.city.chiyoda.lg.jp/documents/32102/r804nyuenannai.pdf"
+    },
+    {
+      "label": "千代田区「令和8年度 入園申込受付期間」",
+      "url": "https://www.city.chiyoda.lg.jp/documents/1346/r8nyuemmoshikomi-kikan.pdf"
+    },
+    {
+      "label": "千代田区「育児休業給付金の支給期間の延長にかかる見直しに伴う選考方法の変更」",
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/hoiku/kyufukin-senkohoho.html"
+    },
+    {
+      "label": "千代田区「出生前児童の仮申込（4月一次のみ）」",
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/hoiku/shusseimae-karimoshikomi.html"
+    }
+  ]
+}

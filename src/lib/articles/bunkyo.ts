@@ -3,63 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "bunkyo",
-    title: "文京区の保活スケジュール　いつから何を始める？",
-    description:
-      "文京区の認可保育園の申込時期・選考スケジュールをわかりやすく解説。令和8年度4月入園に向けた動き方をまとめました。",
-    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>文京区の4月入園スケジュール</h2>
-<p>文京区の認可保育園は、毎年秋に翌年度4月入園の申込を受付けます。「ぶんきょう保育パンフレット」を入手して情報を整理するところからスタートしましょう。</p>
-
-<h3>保活の全体スケジュール</h3>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content">
-<strong>4月〜6月：情報収集</strong>
-<p>区のホームページや前年度のパンフレットで保育園の種類・場所を把握します。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content">
-<strong>6月〜9月：保育園見学</strong>
-<p>気になる園に電話予約して見学へ。夏場は予約が取りやすい時期です。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content">
-<strong>9月〜10月：パンフレット入手・書類準備</strong>
-<p>最新の「ぶんきょう保育パンフレット」を入手し、就労証明書などの書類を準備します。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content">
-<strong>10月〜11月：申込書類の提出</strong>
-<p>窓口または郵送で提出します。締切日を必ず確認しましょう。</p>
-</div>
-</div>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>文京区は基本指数が父母各最大10点（合計20点満点）のシンプルな制度です。調整指数の加点が合否を左右します。</p>
-</div>
-
-<h2>途中入園について</h2>
-<p>5月以降の途中入園は、入園希望月の前月に申込を行います。空きがある園のみ選考が行われるため、4月入園に比べて選択肢は限られます。</p>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.bunkyo.lg.jp/b023/p001786.html" target="_blank" rel="noopener">文京区公式サイト「保育園入園のご案内」</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-03-28",
-    popularity: 55,
-  },
-  {
     slug: "score-up-tips",
     citySlug: "bunkyo",
     title: "文京区で入園点数を上げるコツ　調整指数の加点を活用しよう",

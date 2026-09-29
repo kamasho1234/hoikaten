@@ -1,0 +1,217 @@
+{
+  "citySlug": "fuchu",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "府中市「保育所等入所のしおり・すくすく保育入所申込みのご案内・申込書類について」",
+    "url": "https://www.city.fuchu.tokyo.jp/kosodate/shussan/hoikujo/siorikoukai.html"
+  },
+  "fiscalYear": "R8",
+  "firstApply": "令和7年10月1日（水）〜11月13日（木）23時59分（オンライン）。郵送は令和7年10月1日（水）〜10月31日（金）必着。窓口は令和7年11月1日（土）〜13日（木）で、平日受付は11月4日（火）〜7日（金）・10日（月）〜13日（木）、休日受付は11月1日（土）・9日（日）",
+  "applyMethods": "オンライン（マイナポータルの電子申請「ぴったりサービス」）、郵送（簡易書留等の記録が残る方法で市役所保育支援課入所認定係へ）、窓口（市役所府中駅北第2庁舎3階会議室。保育所等では受け付けない）のいずれかで申し込む",
+  "firstResult": "令和8年2月3日（火）に認定証と利用調整結果の通知を発送予定（到着まで2営業日程度）。内定が出た場合は園から電話か手紙で連絡がある",
+  "secondApply": "令和8年1月14日（水）〜2月9日（月）（土日を除く。窓口は市役所おもや3階保育支援課）。2月8日（日）は休日受付で、市役所おもや1階障害者福祉課窓口で受け付ける",
+  "secondResult": "令和8年3月3日（火）に認定証と利用調整結果の通知を発送予定（到着まで2営業日程度）",
+  "midYearDeadline": "5月以降の入所は各月1日入所で、入所月ごとに受付期間がある（例：6月入所は令和8年4月13日〜5月8日、7月入所は5月11日〜6月10日）。結果は入所希望月の前月20日頃に発送。3月入所の利用調整は例年行わない",
+  "documents": [
+    "認定申請書兼保育所等利用調整申込書（世帯につき1枚）",
+    "児童票（申込児童1人につき1枚）",
+    "チェックシート（世帯につき1枚）",
+    "保育要件確認のための書類（父母それぞれ。就労の場合は就労証明書で、申込締切日から6か月以上前の証明日のものは使えない）",
+    "税資料（父母それぞれ）",
+    "マイナンバーの確認書類と本人確認書類（郵送の場合はそれぞれの写しを添付）"
+  ],
+  "interview": "利用調整で決まった利用可能な保育所等で面接と健康診断を受ける。その結果、入所不承諾となる場合がある。3月中に面接と健康診断を受けられないと入所が取消しになることがある",
+  "ikukyu": "申込書の「希望する保育所等に入所できない場合は、育児休業の延長も許容できる」に☑があれば、繰上げで利用可能となった園を辞退しても減点されない。令和8年4月入所の施設利用保留証明書は令和8年3月13日（金）頃から発行。内定を辞退した場合は保留証明書は発行されない。オンライン申込みは受理票が出ないため、育児休業給付金の延長に備えて送信時のデータを控えとして保存することが勧められている",
+  "notes": [
+    "令和9年度の「保育所等入所のしおり」は令和8年10月1日から配布・ダウンロード開始。申込受付期間や利用調整の基準はしおりと同時に公表され、それまでの問合せには回答しない",
+    "すくすく保育（障害児等保育）・医療的ケア児の申込みや、府中市に転入予定がなく市外から申し込む場合は、オンライン・郵送では受け付けない",
+    "11月の窓口受付は原則受付のみで、相談が必要な場合は10月中に相談する",
+    "1次募集のオンライン申込みは、令和7年11月10日以降に送ると不足書類があっても受け付けた書類で利用調整され、減点や却下の可能性がある",
+    "1次募集で待機となった人は2次募集も利用調整の対象になるので、改めて申し込む必要はない",
+    "0歳児クラスの4月入所に限り、令和8年2月3日までに出産予定であることが確認できる児童の申込みを受け付ける"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.fuchu.tokyo.jp/kosodate/shussan/hoikujo/siorikoukai.files/R8shiori.pdf",
+      "quote": "令和８年度４月の申込書類は１１～１４㌻をご確認ください。"
+    },
+    "firstApply": {
+      "url": "https://www.city.fuchu.tokyo.jp/kosodate/shussan/hoikujo/siorikoukai.files/R8shiori.pdf",
+      "quote": "オンライン受付 受付期間 ： 令和７年１０月１日(水)～１１月１３日(木)２３時５９分"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.fuchu.tokyo.jp/kosodate/shussan/hoikujo/siorikoukai.files/R8shiori.pdf",
+      "quote": "受付期間 ： 令和７年１０月１日(水)～１０月３１日(金)必着 郵 送 受 付"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.fuchu.tokyo.jp/kosodate/shussan/hoikujo/siorikoukai.files/R8shiori.pdf",
+      "quote": "受付期間 ： 令和７年１１月１日(土)～１３日(木) 平日受付 ： 令和７年１１月４日(火)～７日(金)・１０日（月）～１３日(木)"
+    },
+    "firstApply#4": {
+      "url": "https://www.city.fuchu.tokyo.jp/kosodate/shussan/hoikujo/siorikoukai.files/R8shiori.pdf",
+      "quote": "窓 口 受 付 休日受付 ： 令和７年１１月１日(土)・９日(日)"
+    },
+    "applyMethods": {
+      "url": "https://www.city.fuchu.tokyo.jp/kosodate/shussan/hoikujo/siorikoukai.files/R8shiori.pdf",
+      "quote": "マイナポータルによる電子申請である「ぴったりサービス」で保育所等の入所申込みが可能です。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.fuchu.tokyo.jp/kosodate/shussan/hoikujo/siorikoukai.files/R8shiori.pdf",
+      "quote": "郵送の際には、簡易書留等、郵送記録が残る郵送方法をご利用ください。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.fuchu.tokyo.jp/kosodate/shussan/hoikujo/siorikoukai.files/R8shiori.pdf",
+      "quote": "受付場所 市役所府中駅北第２庁舎３階会議室(保育所等では受け付けません。)"
+    },
+    "firstResult": {
+      "url": "https://www.city.fuchu.tokyo.jp/kosodate/shussan/hoikujo/siorikoukai.files/R8shiori.pdf",
+      "quote": "●認定証及び利用調整の結果の通知は、令和８年２月３日(火)に発送する予定です（発送から到着まで２営業日程度かかります。）。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.fuchu.tokyo.jp/kosodate/shussan/hoikujo/siorikoukai.files/R8shiori.pdf",
+      "quote": "●内定が出た場合、園から電話または手紙でご連絡いたします。"
+    },
+    "secondApply": {
+      "url": "https://www.city.fuchu.tokyo.jp/kosodate/shussan/hoikujo/siorikoukai.files/R8shiori.pdf",
+      "quote": "令和８年１月１４日(水)～令和８年２月９日(月) (土日除く。)"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.fuchu.tokyo.jp/kosodate/shussan/hoikujo/siorikoukai.files/R8shiori.pdf",
+      "quote": "令和８年２月８日(日)は市役所おもや１階障害者福祉課窓口"
+    },
+    "secondApply#3": {
+      "url": "https://www.city.fuchu.tokyo.jp/kosodate/shussan/hoikujo/siorikoukai.files/R8shiori.pdf",
+      "quote": "市役所おもや３階保育支援課 受付場所 令和８年２月８日(日)は市役所おもや１階障害者福祉課窓口"
+    },
+    "secondResult": {
+      "url": "https://www.city.fuchu.tokyo.jp/kosodate/shussan/hoikujo/siorikoukai.files/R8shiori.pdf",
+      "quote": "●認定証及び利用調整の結果の通知は、令和８年３月３日(火)に発送する予定です（発送から到着まで２営業日程度かかります。）。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.fuchu.tokyo.jp/kosodate/shussan/hoikujo/siorikoukai.files/R8shiori.pdf",
+      "quote": "６月 令和８年４月１３日(月) ～ ５月 ８日(金)"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.fuchu.tokyo.jp/kosodate/shussan/hoikujo/siorikoukai.files/R8shiori.pdf",
+      "quote": "７月 令和８年５月１１日(月) ～ ６月１０日(水)"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.fuchu.tokyo.jp/kosodate/shussan/hoikujo/siorikoukai.files/R8shiori.pdf",
+      "quote": "●認定証及び利用調整の結果の通知は、入所希望月の前月２０日頃に発送する予定です"
+    },
+    "midYearDeadline#4": {
+      "url": "https://www.city.fuchu.tokyo.jp/kosodate/shussan/hoikujo/siorikoukai.files/R8shiori.pdf",
+      "quote": "※例年３月入所の利用調整は行いません。"
+    },
+    "midYearDeadline#5": {
+      "url": "https://www.city.fuchu.tokyo.jp/kosodate/shussan/hoikujo/siorikoukai.files/R8shiori.pdf",
+      "quote": "各月スケジュール ※各月１日からの入所となります。"
+    },
+    "documents.0": {
+      "url": "https://www.city.fuchu.tokyo.jp/kosodate/shussan/hoikujo/siorikoukai.files/R8shiori.pdf",
+      "quote": "認定申請書兼保育所等利用調整申込書 世帯につき１枚"
+    },
+    "documents.1": {
+      "url": "https://www.city.fuchu.tokyo.jp/kosodate/shussan/hoikujo/siorikoukai.files/R8shiori.pdf",
+      "quote": "児童票 申込児童1人につき１枚"
+    },
+    "documents.2": {
+      "url": "https://www.city.fuchu.tokyo.jp/kosodate/shussan/hoikujo/siorikoukai.files/R8shiori.pdf",
+      "quote": "チェックシート 世帯につき１枚"
+    },
+    "documents.3": {
+      "url": "https://www.city.fuchu.tokyo.jp/kosodate/shussan/hoikujo/siorikoukai.files/R8shiori.pdf",
+      "quote": "保育要件確認のための書類（表１） 父母それぞれ"
+    },
+    "documents.3#2": {
+      "url": "https://www.city.fuchu.tokyo.jp/kosodate/shussan/hoikujo/siorikoukai.files/R8shiori.pdf",
+      "quote": "※１ 申込締切日から６か月以上前の証明日の場合は使用できません。"
+    },
+    "documents.4": {
+      "url": "https://www.city.fuchu.tokyo.jp/kosodate/shussan/hoikujo/siorikoukai.files/R8shiori.pdf",
+      "quote": "税資料は、父母それぞれについて必要です。"
+    },
+    "documents.5": {
+      "url": "https://www.city.fuchu.tokyo.jp/kosodate/shussan/hoikujo/siorikoukai.files/R8shiori.pdf",
+      "quote": "記入されたマイナンバーを確認するために、申請時には申請に来庁する保護者のマイナンバーの提示（Ⅰ）とマイナンバー法に基づく本人確認（Ⅱ）が必要です。"
+    },
+    "documents.5#2": {
+      "url": "https://www.city.fuchu.tokyo.jp/kosodate/shussan/hoikujo/siorikoukai.files/R8shiori.pdf",
+      "quote": "郵送受付の場合は、個人番号確認書類及び本人確認書類の写しを添付してください。"
+    },
+    "interview": {
+      "url": "https://www.city.fuchu.tokyo.jp/kosodate/shussan/hoikujo/siorikoukai.files/R8shiori.pdf",
+      "quote": "●利用調整により決定した利用可能な保育所等で、面接及び健康診断を受けていただきます。なお、その結果、入所不承諾となる場合があります。"
+    },
+    "interview#2": {
+      "url": "https://www.city.fuchu.tokyo.jp/kosodate/shussan/hoikujo/siorikoukai.files/R8shiori.pdf",
+      "quote": "●３月中に面接及び健康診断を受けられない場合、入所が取消しになることがあります。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.fuchu.tokyo.jp/kosodate/shussan/hoikujo/siorikoukai.files/R8shiori.pdf",
+      "quote": "●令和８年４月入所の施設利用保留証明書は、令和８年３月１３日(金)頃から発行可能です。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.fuchu.tokyo.jp/kosodate/shussan/hoikujo/siorikoukai.files/R8shiori.pdf",
+      "quote": "利用可能な保育所等の決定後に辞退された方は、再度申込みをする際、翌年同月分まで利用調整において減点となります（ただし、「希望する保育所等に入所できない場合は、育児休業の延長も許容できる」に☑がある場合、繰上げで利用可能となった場合を除く。）。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.fuchu.tokyo.jp/kosodate/shussan/hoikujo/siorikoukai.files/R8shiori.pdf",
+      "quote": "なお、辞退した場合は、施設利用保留証明書を発行することはできません。"
+    },
+    "ikukyu#4": {
+      "url": "https://www.city.fuchu.tokyo.jp/kosodate/shussan/hoikujo/siorikoukai.files/R8shiori.pdf",
+      "quote": "オンライン受付の場合、利用調整申込書受理票は発行しません。送信時のデータを控えとしてダウンロードすることをおすすめします（仮に利用不可となり、育児休業給付金の支給対象期間の延長を行う場合に必要となります。）。"
+    },
+    "notes.0": {
+      "url": "https://www.city.fuchu.tokyo.jp/kosodate/shussan/hoikujo/shiori-haihu.html",
+      "quote": "注記：申込受付期間や利用調整の基準は、しおりと同時に公表します。公表前のお問合せには回答できませんので、ご了承ください。"
+    },
+    "notes.0#2": {
+      "url": "https://www.city.fuchu.tokyo.jp/kosodate/shussan/hoikujo/shiori-haihu.html",
+      "quote": "配布開始日 令和8年10月1日（木曜日）"
+    },
+    "notes.0#3": {
+      "url": "https://www.city.fuchu.tokyo.jp/kosodate/shussan/hoikujo/shiori-haihu.html",
+      "quote": "注記：府中市ホームページでも10月1日からダウンロードできます。"
+    },
+    "notes.1": {
+      "url": "https://www.city.fuchu.tokyo.jp/kosodate/shussan/hoikujo/siorikoukai.files/R8shiori.pdf",
+      "quote": "次のいずれかに該当する場合は、オンライン・郵送での受付はできません。"
+    },
+    "notes.1#2": {
+      "url": "https://www.city.fuchu.tokyo.jp/kosodate/shussan/hoikujo/siorikoukai.files/R8shiori.pdf",
+      "quote": "府中市に転入予定がなく、市外から、府中市内の保育所等を申し込む場合"
+    },
+    "notes.2": {
+      "url": "https://www.city.fuchu.tokyo.jp/kosodate/shussan/hoikujo/siorikoukai.files/R8shiori.pdf",
+      "quote": "※１１月の窓口受付は原則受付のみとなります。ご相談が必要な場合は、１０月中にご相談ください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.fuchu.tokyo.jp/kosodate/shussan/hoikujo/siorikoukai.files/R8shiori.pdf",
+      "quote": "４月申込(１次募集)では、令和７年１１月１０日（月）以降のオンライン申込みは、不足書類等があった場合でも受け付けた書類で利用調整を行います。減点や却下となる可能性がありますので、ご承知おきください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.fuchu.tokyo.jp/kosodate/shussan/hoikujo/siorikoukai.files/R8shiori.pdf",
+      "quote": "１次募集の利用調整で待機となった方は、２次募集も利用調整の対象となるため、改めて申し込む必要はありません。"
+    },
+    "notes.5": {
+      "url": "https://www.city.fuchu.tokyo.jp/kosodate/shussan/hoikujo/siorikoukai.files/R8shiori.pdf",
+      "quote": "０歳児クラスの４月入所に限り、令和８年２月３日(火)までに出産予定であることが確認できる児童の申込みを受け付けます。"
+    }
+  },
+  "sources": [
+    {
+      "label": "府中市「保育所等入所のしおり・すくすく保育入所申込みのご案内・申込書類について」",
+      "url": "https://www.city.fuchu.tokyo.jp/kosodate/shussan/hoikujo/siorikoukai.html"
+    },
+    {
+      "label": "府中市「令和8年度保育所等入所のしおり」（PDF）",
+      "url": "https://www.city.fuchu.tokyo.jp/kosodate/shussan/hoikujo/siorikoukai.files/R8shiori.pdf"
+    },
+    {
+      "label": "府中市「令和9年度保育所等入所のしおりの配布開始日について」",
+      "url": "https://www.city.fuchu.tokyo.jp/kosodate/shussan/hoikujo/shiori-haihu.html"
+    }
+  ]
+}

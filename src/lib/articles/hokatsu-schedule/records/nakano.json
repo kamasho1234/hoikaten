@@ -1,0 +1,181 @@
+{
+  "citySlug": "nakano",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "中野区「2027年4月認可保育所入園申込みについて」",
+    "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/hoikuen/nyuuen/dai1jisenko.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "2026年10月2日（金曜日）〜2026年10月30日（金曜日）。締切日の17時までに不備なく申し込んだ人だけが4月一次の利用調整の対象",
+  "applyMethods": "原則は電子申請。郵送（中野区役所 子ども教育部保育園・幼稚園課保育入園係あて）や区役所窓口でも出せる。締切日17時までに保育入園係に届いたものが対象で、電子申請も同じ",
+  "firstResult": "2027年1月29日（金曜日）に公表。決定・保留とも文書を自宅に郵送し、4月入所の結果は区ホームページでも確認できる",
+  "secondApply": "2026年11月2日（月曜日）〜2027年2月10日（水曜日）。一次で決まらなかった人は自動的に二次の選考にもかかる",
+  "secondResult": "2027年3月10日（水曜日）17時15分頃に公表",
+  "midYearDeadline": "3月入所を除き毎月募集。入所希望月ごとの締切日17時までに保育入園係に届くように出す（電子申請も同じ）",
+  "documents": [
+    "教育・保育給付支給認定申請書兼保育所等利用申込書",
+    "家庭状況書",
+    "保育所等利用申込みに関する確認票",
+    "保育の必要性を確認できる書類（保護者それぞれ1部。両親とも就労なら就労証明書を1部ずつ）",
+    "自営業の場合は就労証明書に加えて、直近の所得税の確定申告書（一表・二表）か源泉徴収票のコピー",
+    "出生前に申し込む場合（4月入園のみ）は母子手帳の出産予定日が書かれたページのコピー",
+    "中野区へ転入予定の場合は、申込み時点で住んでいる自治体の住民票（世帯全員分）など"
+  ],
+  "interview": "入所が決まったら、園で面接・健康診断等を行ってから利用開始",
+  "ikukyu": "「調整指数に関する申立書」を申込書類と一緒に出すと合計指数が大幅に減点される。ただし希望園に空きがあれば内定になり、その場合は保留通知は出ない。育休給付金の延長手続き用に申込書の控えを手元に残しておく",
+  "notes": [
+    "4月入園に限り出生前の仮申込みができ、2027年2月3日までに生まれた子が対象",
+    "締切間際の提出だと不備の再提出が間に合わないことがあるため、締切日の10日前までの提出が勧められている",
+    "一次で決まった園を確保したまま二次に申し込むことはできない。二次に申し込むには一次の決定を辞退して再申請する",
+    "区役所窓口に持参する場合は土日祝は開庁していないので開庁日に行く。電子申請は曜日を問わない",
+    "ハローワークや会社から特定の子の申込み状況を照会されても、区は一切答えない"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/hoikuen/nyuuen/dai1jisenko.html",
+      "quote": "このページでは、2027年4月入園申込みの方に向けての情報を掲載します。"
+    },
+    "firstApply": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/hoikuen/nyuuen/dai1jisenko.html",
+      "quote": "申込期間：2026年10月2日（金曜日）から2026年10月30日（金曜日）まで"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/hoikuen/nyuuen/dai1jisenko.html",
+      "quote": "10月30日17時までに不備なく申込みをいただいた方のみ4月1次利用調整の対象となります。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/hoikuen/nyuuen/dai1jisenko.html",
+      "quote": "中野区では、保育園利用申込みについて、原則電子申請でのご提出をお願いしております。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/hoikuen/nyuuen/dai1jisenko.html",
+      "quote": "※申込締切日17時までに中野区役所保育入園係に到着したものが利用調整の対象となります（電子申請も同様）。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/hoikuen/nyuuen/hoikusyo-annai.html",
+      "quote": "中野区役所　子ども教育部保育園・幼稚園課保育入園係"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/hoikuen/nyuuen/hoikusyo-annai.html",
+      "quote": "区役所窓口へ直接申請書類を提出する場合、受付開始日の曜日が土日祝であっても、開庁しておりませんので必ず開庁日にお越しください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/hoikuen/nyuuen/dai1jisenko.html",
+      "quote": "結果公表：2027年1月29日（金曜日）17時15分頃"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/hoikuen/nyuuen/dai1jisenko.html",
+      "quote": "2027年1月29日の公表を予定しています。結果は決定した場合も保留の場合も、文書をご自宅住所にお送りいたします。"
+    },
+    "firstResult#3": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/hoikuen/nyuuen/dai1jisenko.html",
+      "quote": "また、4月入所選考結果に限り、すべての4月入所選考対象者が区ホームページ上で結果を確認できるようにいたします。"
+    },
+    "secondApply": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/hoikuen/nyuuen/dai1jisenko.html",
+      "quote": "申込期間：2026年11月2日（月曜日）から2027年2月10日（水曜日）まで"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/hoikuen/nyuuen/dai1jisenko.html",
+      "quote": "※10月中に4月入園に申し込まれた方で、一次募集で保育園が決まらなかった場合、自動的に二次募集にも選考がかけられます。"
+    },
+    "secondResult": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/hoikuen/nyuuen/dai1jisenko.html",
+      "quote": "結果公表：2027年3月10日 (水曜日)　17時15分頃"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/hoikuen/nyuuen/hoikusyo-annai.html",
+      "quote": "中野区では、3月入所分を除き毎月入所募集を行っております。"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/hoikuen/nyuuen/hoikusyo-annai.html",
+      "quote": "入所希望月ごとに締め切り日を設けておりますので、締め切り日17時までに中野区役所保育入園係に到着するようご提出ください。"
+    },
+    "documents.0": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/hoikuen/nyuuen/hoikusyo-annai.html",
+      "quote": "1.教育・保育給付支給認定申請書兼保育所等利用申込書"
+    },
+    "documents.1": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/hoikuen/nyuuen/hoikusyo-annai.html",
+      "quote": "2.家庭状況書"
+    },
+    "documents.2": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/hoikuen/nyuuen/hoikusyo-annai.html",
+      "quote": "3.保育所等利用申込みに関する確認票"
+    },
+    "documents.3": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/hoikuen/nyuuen/hoikusyo-annai.html",
+      "quote": "4.保育の必要性を確認できる書類（保護者ともに一部ずつ）"
+    },
+    "documents.3#2": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/hoikuen/nyuuen/hoikusyo-annai.html",
+      "quote": "保護者ともに就労されている場合は、保護者一部ずつ就労証明書をご提出ください。"
+    },
+    "documents.4": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/hoikuen/nyuuen/dai1jisenko.html",
+      "quote": "自営業の場合、就労証明書に合わせて直近の所得税の確定申告書（一表・二表）または源泉徴収票のコピーが必要です。"
+    },
+    "documents.5": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/hoikuen/nyuuen/dai1jisenko.html",
+      "quote": "母子手帳のコピー（出産予定日が記入してあるページ）"
+    },
+    "documents.6": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/hoikuen/nyuuen/dai1jisenko.html",
+      "quote": "2.申込み時点でお住まいの自治体の住民票（世帯全員分が記載されたもの）"
+    },
+    "interview": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/hoikuen/nyuuen/dai1jisenko.html",
+      "quote": "結果通知を郵送にて連絡し、入所が決定した場合、園で面接・健康診断等を行ったうえで、利用ができます。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/hoikuen/nyuuen/dai1jisenko.html",
+      "quote": "『調整指数に関する申立書』を入園申込み書類一式とともにご提出いただくことで合計指数を大幅に減点する取り扱いを導入しております。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/hoikuen/nyuuen/dai1jisenko.html",
+      "quote": "入園を希望された保育所等に空きがあったときには利用承諾（内定）となることがありますのでご注意ください。利用承諾になった場合、保留通知は発行できません。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/hoikuen/nyuuen/dai1jisenko.html",
+      "quote": "入園申し込みを提出する前に必ず控えをお手元に残しておくようお願いいたします"
+    },
+    "notes.0": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/hoikuen/nyuuen/dai1jisenko.html",
+      "quote": "4月入園申込みに限り、出生前のお子さんについて仮申し込みができます。"
+    },
+    "notes.0#2": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/hoikuen/nyuuen/dai1jisenko.html",
+      "quote": "ただし、生まれた日は0として、57日目が4月1日になるため、2027年2月3日までに生まれたお子さんが対象となります。"
+    },
+    "notes.1": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/hoikuen/nyuuen/dai1jisenko.html",
+      "quote": "そのため、締切日の10日前までには申込み書類をご提出いただくことを推奨しております。"
+    },
+    "notes.1#2": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/hoikuen/nyuuen/dai1jisenko.html",
+      "quote": "ご連絡がつかない場合や締切日間際でのご提出の場合、依頼をしても締切日に再提出が間に合わず、利用調整の対象とならないこともあります。"
+    },
+    "notes.2": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/hoikuen/nyuuen/dai1jisenko.html",
+      "quote": "できません。4月2次に申請したい場合、4月1次の決定を辞退し、4月2次に再申請していただくことになります。"
+    },
+    "notes.3": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/hoikuen/nyuuen/hoikusyo-annai.html",
+      "quote": "区役所窓口へ直接申請書類を提出する場合、受付開始日の曜日が土日祝であっても、開庁しておりませんので必ず開庁日にお越しください。なお、電子申請の場合は曜日問わず申請可能です。"
+    },
+    "notes.4": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/hoikuen/nyuuen/dai1jisenko.html",
+      "quote": "中野区は、ハローワーク・会社から特定の児童に対して保育園の申込みに関する照会（入園申込みの有無・申請中の希望園の確認等）があったとしても、個人情報保護の観点から一切お答えしません。"
+    }
+  },
+  "sources": [
+    {
+      "label": "中野区「2027年4月認可保育所入園申込みについて」",
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/hoikuen/nyuuen/dai1jisenko.html"
+    },
+    {
+      "label": "中野区「保育所等についてのご案内（入園・転園申請について）」",
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/hoikuen/nyuuen/hoikusyo-annai.html"
+    }
+  ]
+}

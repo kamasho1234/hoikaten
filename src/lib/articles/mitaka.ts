@@ -3,67 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "mitaka",
-    title: "三鷹市の保活スケジュール　申込から内定までの流れ",
-    description:
-      "三鷹市の認可保育園の申込時期・選考の流れをまとめました。令和8年度4月入園の動き方を解説します。",
-    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>三鷹市の4月入園スケジュール</h2>
-<p>三鷹市の認可保育園は毎年秋に翌年度4月入園の申込を受付けます。子ども政策部保育園管理運営課が窓口です。</p>
-
-<h3>保活の全体スケジュール</h3>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content">
-<strong>4月〜6月：情報収集</strong>
-<p>三鷹市の公式サイトで保育園の一覧や前年度の入園のしおりを確認します。市内には認可保育園が約40か所あります。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content">
-<strong>6月〜9月：保育園見学</strong>
-<p>気になる園に電話して見学を予約しましょう。三鷹市は住宅街に園が点在しているため、自宅からの距離を実際に確認することが大切です。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content">
-<strong>9月〜10月：入園のしおり入手・書類準備</strong>
-<p>最新のしおりを入手し、就労証明書や課税証明書などを準備します。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content">
-<strong>10月〜11月：申込書類の提出</strong>
-<p>子ども政策部保育園管理運営課の窓口または郵送で提出します。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">5</div>
-<div class="step-content">
-<strong>1月下旬〜2月：選考結果の通知</strong>
-<p>内定または不承諾の通知が届きます。不承諾の場合は二次募集に申し込めます。</p>
-</div>
-</div>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>三鷹市は基本指数が父母各最大10点（合計20点満点）です。週あたりの勤務日数と勤務時間の組み合わせで判定されます。</p>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.mitaka.lg.jp/c_categories/index03003001.html" target="_blank" rel="noopener">三鷹市公式サイト 保育園入園案内</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-04-07",
-    popularity: 60,
-  },
-  {
     slug: "scoring-system-guide",
     citySlug: "mitaka",
     title: "三鷹市の入園点数のしくみ　基本指数と調整指数を解説",

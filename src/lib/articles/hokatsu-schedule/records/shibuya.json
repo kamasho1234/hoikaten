@@ -1,0 +1,166 @@
+{
+  "citySlug": "shibuya",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "渋谷区「令和9年度4月(一次募集)スケジュールについて」",
+    "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoikuen-nyuen/hoikuen_202704mo1.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "入園案内などの書類は令和8年10月から配布予定（区役所本庁舎4階保育課、各認可保育園、区立幼保一元化施設、各子育て支援センター、各保健相談所、各出張所、区民サービスセンター。区ホームページでもダウンロード可）。就労証明書だけは令和8年9月16日（水曜日）から区ホームページでダウンロードできる",
+  "firstApply": "オンライン・郵送は令和8年10月1日（木曜日）〜11月20日（金曜日）（郵送は消印有効）。窓口は事前予約制で令和8年10月22日（木曜日）〜11月27日（金曜日）の9時〜16時（土日祝を除く）。令和8年11月3日（祝日）と11月21日（土曜日）にも休日受付を行う",
+  "applyMethods": "オンライン申請、郵送、窓口（渋谷区役所本庁舎4階保育課入園相談係窓口、LINE・電話・窓口での事前予約制）。郵送は原則区外在住の人が対象で、区内在住で郵送を希望する人は相談する",
+  "firstResult": "令和9年2月3日（水曜日）予定に利用調整結果を公表し、同日に結果通知を発送（届くまで最大1週間かかる）",
+  "secondApply": "4月二次募集の郵送受付は令和8年12月1日（火曜日）〜令和9年2月9日（火曜日）（消印有効）",
+  "documents": [
+    "保護者と申込児の個人番号確認書類（通知カード、個人番号カード、個人番号が表示された住民票の写しなど）",
+    "来庁する人の本人確認書類（運転免許証など。写真付きなら1点、写真なしなら2点）",
+    "就労証明書（保育の必要性が「就労」の場合。勤務先で作成し、オンライン申請でも必要。証明日が令和8年9月15日以降のものが有効）",
+    "教育・保育給付認定申請兼保育所等利用申込書（転園の場合は転園申込書）",
+    "家庭状況票と児童状況票（児童状況票は申し込む子ども1人につき1枚）",
+    "復職・復学に関する申立書（育児休業等を取得している保護者は必須。取得する人1人につき1枚）"
+  ],
+  "notes": [
+    "申し込み時の不足書類は令和8年12月4日（金曜日）必着で、それ以降に届いた書類は利用調整の対象にならない",
+    "11月下旬は窓口が混雑するので、11月中旬までの来庁への協力が求められている",
+    "令和9年4月1日（木曜日）までに出産予定の人の申し込みも同じ日程で受け付ける",
+    "予約による窓口受付は1世帯30分まで。事前の説明や相談を希望する場合は10月21日（水曜日）以前に来庁する",
+    "区外在住の人は、令和9年3月31日（水曜日）までに渋谷区に転入予定がなければ4月一次募集に申し込めない",
+    "令和9年度版の申込書類は10月1日（木曜日）に区ホームページで公開予定"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoikuen-nyuen/hoikuen_202704mo1.html",
+      "quote": "令和9年度4月一次募集（保育園利用申し込み）に関するページです。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoikuen-nyuen/hoikuen_202704mo1.html",
+      "quote": "令和8年10月から（予定）"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoikuen-nyuen/hoikuen_202704mo1.html",
+      "quote": "令和8年9月16日（水曜日）から下記よりダウンロード可能"
+    },
+    "guideRelease#3": {
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoikuen-nyuen/hoikuen_202704mo1.html",
+      "quote": "区役所本庁舎4階保育課、各認可保育園（認定こども園を含む）、区立幼保一元化施設、各子育て支援センター、各保健相談所、各出張所、区民サービスセンター"
+    },
+    "firstApply": {
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoikuen-nyuen/hoikuen_202704mo1.html",
+      "quote": "令和8年10月1日（木曜日）～11月20日（金曜日）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoikuen-nyuen/hoikuen_202704mo1.html",
+      "quote": "令和8年10月22日（木曜日）～11月27日（金曜日）（ただし、土曜日・日曜日、祝日を除く9時～16時）（予約最終時間は15時30分）です。"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoikuen-nyuen/hoikuen_202704mo1.html",
+      "quote": "（注）令和8年11月3日（祝日・火曜日）、11月21日（土曜日）に休日受け付けを行います。"
+    },
+    "firstApply#4": {
+      "url": "https://files.city.shibuya.tokyo.jp/assets/12995aba8b194961be709ba879857f70/37df369b6dcd40b4960d5064241a5f3b/R9_yuusoumousikomi.pdf",
+      "quote": "４月一次募集：令和8年10月1日（木）～ 令和８年11月20日（金）（消印有効）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoikuen-nyuen/hoikuen_202704mo1.html",
+      "quote": "詳しくは10月1日（木曜日）公開予定の保育園入所オンライン申請のページをご確認ください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoikuen-nyuen/hoikuen_202704mo1.html",
+      "quote": "（注）原則、区外在住の人が対象です。区内在住で郵送申し込みを希望する人は、相談してください。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoikuen-nyuen/hoikuen_202704mo1.html",
+      "quote": "渋谷区役所本庁舎4階保育課入園相談係窓口"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoikuen-nyuen/hoikuen_202704mo1.html",
+      "quote": "窓口の混雑を緩和するため、事前予約制をとります。事前にLINE、電話または窓口でご来庁の日時を予約することで、申し込みの際の待ち時間が短くなりますので、ぜひご利用ください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoikuen-nyuen/hoikuen_202704mo1.html",
+      "quote": "令和9年2月3日（水曜日）予定"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoikuen-nyuen/hoikuen_202704mo1.html",
+      "quote": "（注）結果通知は、利用調整結果公表日に発送します。お手元に届くまで最大1週間かかります。"
+    },
+    "secondApply": {
+      "url": "https://files.city.shibuya.tokyo.jp/assets/12995aba8b194961be709ba879857f70/37df369b6dcd40b4960d5064241a5f3b/R9_yuusoumousikomi.pdf",
+      "quote": "４月二次募集：令和8年12月1日（火）～ 令和９年 2月 9日（火）（消印有効）"
+    },
+    "documents.0": {
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoikuen-nyuen/hoikuen_202704mo1.html",
+      "quote": "保護者と申し込みの個人番号確認書類（通知カード、個人番号カード、個人番号が表示された住民票の写しなど）"
+    },
+    "documents.1": {
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoikuen-nyuen/hoikuen_202704mo1.html",
+      "quote": "来庁する人の本人確認書類（運転免許証など、写真付きの場合は1点、写真付きでない場合は2点）"
+    },
+    "documents.2": {
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoikuen-nyuen/hoikuen_202704mo1.html",
+      "quote": "保育の必要性が「就労」の場合に必要な書類になります。勤務先で作成が必要な書類ですので、事前にご準備ください。"
+    },
+    "documents.2#2": {
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoikuen-nyuen/hoikuen_202704mo1.html",
+      "quote": "（注）証明日は令和8（2026）年9月15日以降のものが有効です。"
+    },
+    "documents.2#3": {
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoikuen-nyuen/hoikuen_202704mo1.html",
+      "quote": "オンライン申請の場合も必要です。"
+    },
+    "documents.3": {
+      "url": "https://files.city.shibuya.tokyo.jp/assets/12995aba8b194961be709ba879857f70/37df369b6dcd40b4960d5064241a5f3b/R9_yuusoumousikomi.pdf",
+      "quote": "教育・保育給付認定申請兼保育所等利用申込書 または 転園申込書"
+    },
+    "documents.4": {
+      "url": "https://files.city.shibuya.tokyo.jp/assets/12995aba8b194961be709ba879857f70/37df369b6dcd40b4960d5064241a5f3b/R9_yuusoumousikomi.pdf",
+      "quote": "児童状況票 ※申込みするお子さん一人につき1枚ご用意ください"
+    },
+    "documents.4#2": {
+      "url": "https://files.city.shibuya.tokyo.jp/assets/12995aba8b194961be709ba879857f70/37df369b6dcd40b4960d5064241a5f3b/R9_yuusoumousikomi.pdf",
+      "quote": "② 家庭状況票"
+    },
+    "documents.5": {
+      "url": "https://files.city.shibuya.tokyo.jp/assets/12995aba8b194961be709ba879857f70/37df369b6dcd40b4960d5064241a5f3b/R9_yuusoumousikomi.pdf",
+      "quote": "※育児休業等を取得の保護者は必須です。取得の人 一人につき1枚ご用意ください"
+    },
+    "documents.5#2": {
+      "url": "https://files.city.shibuya.tokyo.jp/assets/12995aba8b194961be709ba879857f70/37df369b6dcd40b4960d5064241a5f3b/R9_yuusoumousikomi.pdf",
+      "quote": "復職・復学に関する申立書"
+    },
+    "notes.0": {
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoikuen-nyuen/hoikuen_202704mo1.html",
+      "quote": "申し込みの際の不足書類は、令和8年12月4日（金曜日）（必着）までに提出してください。それ以降に到着した書類については利用調整の対象にはなりません。"
+    },
+    "notes.1": {
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoikuen-nyuen/hoikuen_202704mo1.html",
+      "quote": "（注）11月下旬は窓口が混雑しますので、11月中旬までの来庁にご協力をお願いします。"
+    },
+    "notes.2": {
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoikuen-nyuen/hoikuen_202704mo1.html",
+      "quote": "（注）令和9年4月1日（木曜日）までに出産予定の人の利用申し込みも上記日程で受け付けます。"
+    },
+    "notes.3": {
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoikuen-nyuen/hoikuen_202704mo1.html",
+      "quote": "（注）予約による受け付けは1世帯30分までです。事前の説明や相談を希望する場合は、10月21日（水曜日）以前に来庁してください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoikuen-nyuen/hoikuen_202704mo1.html",
+      "quote": "（注）令和9年3月31日（水曜日）までに渋谷区に転入予定がない人は、4月一次募集には申し込みできません。"
+    },
+    "notes.5": {
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoikuen-nyuen/hoikuen_202704mo1.html",
+      "quote": "（注）令和9年度版の書類は10月1日（木曜日）に区ホームページに公開予定です。"
+    }
+  },
+  "sources": [
+    {
+      "label": "渋谷区「令和9年度4月(一次募集)スケジュールについて」",
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoikuen-nyuen/hoikuen_202704mo1.html"
+    },
+    {
+      "label": "渋谷区「令和9年度 保育園利用申込み（郵送）について」",
+      "url": "https://files.city.shibuya.tokyo.jp/assets/12995aba8b194961be709ba879857f70/37df369b6dcd40b4960d5064241a5f3b/R9_yuusoumousikomi.pdf"
+    }
+  ]
+}

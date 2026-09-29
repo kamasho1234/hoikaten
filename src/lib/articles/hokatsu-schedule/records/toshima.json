@@ -1,0 +1,200 @@
+{
+  "citySlug": "toshima",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "豊島区「令和8年度保育園入園案内」",
+    "url": "https://www.city.toshima.lg.jp/260/2508071138.html"
+  },
+  "fiscalYear": "R8",
+  "guideRelease": "「豊島区認可保育施設入園・転園・延長保育利用のしおり」を保育課入園グループ、区内各認可保育施設、東・西子ども家庭支援センター、東・西区民事務所、池袋保健所、児童相談所、長崎健康相談所で配布し、区ホームページでも公開（配布開始日の記載なし。令和8年4月入園の申込み受付開始は令和7年10月1日）",
+  "firstApply": "令和7年10月1日（水曜）〜11月21日（金曜）。1・2月入園希望の人も同じ締切。医療的ケアが必要な児童の申込みは令和7年11月7日（金曜）まで",
+  "applyMethods": "電子申請・郵送申請・窓口申請のいずれか（FAX・メールは不可）。郵送は締切日必着で、簡易書留やレターパック等の追跡可能な郵便で保育課入園グループへ送る。窓口は豊島区役所4階9番窓口の保育課入園グループで平日8時30分〜17時",
+  "firstResult": "令和8年2月2日（月曜）・3日（火曜）18時00分までに、内定者にのみ電話で連絡。内定が出なかった場合は「保留通知書」の郵送で知らされる（電話連絡はない）",
+  "secondApply": "第2次選考（1次選考の欠員分）の受付は令和8年2月10日（火曜）まで",
+  "secondResult": "令和8年2月27日（金曜）に2次選考の内定連絡",
+  "midYearDeadline": "5月以降の入園申込みは年間を通じて受け付け、締切日は入園希望月の前月の初旬",
+  "documents": [
+    "保育を必要とする状況を証明する書類（父母両方。働いている場合は就労証明書、自営業などは別途「自営業であることが客観的にわかる書類」）",
+    "教育・保育給付認定申請書兼認可保育施設入所申込書",
+    "家庭の状況",
+    "申込みチェックシート・提出書類チェックシート",
+    "マイナンバーを確認できる書類と本人確認書類（申込み方法によって提出方法が異なる）",
+    "就労証明書の有効期限は、証明日時点で申込み可能な月から数えて6か月間"
+  ],
+  "interview": "内定した園で、集団保育が可能かどうか面接・健康診断を行う。入園月の前月末までに受けられない場合は内定取消しとなる",
+  "ikukyu": "希望園に入れない場合に育休延長を許容できる人は、チェックシートに記載し、育児休業期間が記載された就労証明書と育児休業給付金支給通知等の写しを出した場合のみ調整指数（−40点）の対象。4月の選考では第2次選考から選考対象（第1次選考対象外）。3月入園は実施していないため、3月分の保留通知等が必要な人は2月からの入園申込みが必要",
+  "notes": [
+    "令和9年4月入園の申込み締切日は令和8年11月20日（金曜日）で、内定連絡日は令和9年度のしおりに掲載予定",
+    "父母が育児休業を取得している期間は、復職を伴わない新規入園・転園はできない。入園月の翌月1日までに復職が必要",
+    "出産予定が令和7年11月7日〜令和8年2月17日の人は、出生前でも4月入園の申込みができる",
+    "認可保育施設は第9希望まで選択できる。見学の有無・見学回数は入園選考に影響しない",
+    "利用申込み書類の有効期限は、申込み日時点で申込み可能な月から数えて6カ月間。期限が切れても通知はない",
+    "締切直前は窓口が大変混雑し、書類不備の場合は受付ができないため早めに申し込む"
+  ],
+  "evidence": {
+    "page": {
+      "url": "https://www.city.toshima.lg.jp/260/2508071138.html",
+      "quote": "令和8年4月の第1次申込みは10月1日（水曜日）から11月21日（金曜日）"
+    },
+    "fiscalYear": {
+      "url": "https://www.city.toshima.lg.jp/260/2508071138.html",
+      "quote": "令和8年4月の第1次申込みは10月1日（水曜日）から11月21日（金曜日）"
+    },
+    "guideRelease": {
+      "url": "https://www.city.toshima.lg.jp/260/2508071138.html",
+      "quote": "しおりは、当グループ、区内各認可保育施設、東・西子ども家庭支援センター、東・西区民事務所、池袋保健所、児童相談所、長崎健康相談所で配布しています。"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.toshima.lg.jp/260/kosodate/kosodate/hoikuen/nyuen/002006.html",
+      "quote": "第一次選考：令和7年11月21日（金曜） ※申込み受付開始は令和7年10月1日（水曜）"
+    },
+    "firstApply": {
+      "url": "https://www.city.toshima.lg.jp/260/kosodate/kosodate/hoikuen/nyuen/002006.html",
+      "quote": "第一次選考：令和7年11月21日（金曜） ※申込み受付開始は令和7年10月1日（水曜）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.toshima.lg.jp/260/2508071138.html",
+      "quote": "第1次選考受付…11月21日（金曜日）まで(1・2月入園希望の方も同日)"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.toshima.lg.jp/260/2508071138.html",
+      "quote": "医療的ケアが必要な児童の申込みは11月7日（金曜日）まで"
+    },
+    "applyMethods": {
+      "url": "https://www.city.toshima.lg.jp/260/kosodate/kosodate/hoikuen/nyuen/2010191308.html",
+      "quote": "必要書類は、電子申請、郵送申請または窓口申請でお受付いたします。FAX・メールでは受付できません。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.toshima.lg.jp/260/kosodate/kosodate/hoikuen/nyuen/2010191308.html",
+      "quote": "簡易書留やレターパック等、追跡可能な郵便で送付してください。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.toshima.lg.jp/260/kosodate/kosodate/hoikuen/nyuen/2010191308.html",
+      "quote": "申込み先：豊島区役所4階9番窓口　保育課入園グループ 受付時間：平日8時30分～17時"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.toshima.lg.jp/260/kosodate/kosodate/hoikuen/nyuen/2010191308.html",
+      "quote": "提出書類は郵送で届け出ることができます（締切日必着）。"
+    },
+    "firstResult": {
+      "url": "https://www.city.toshima.lg.jp/260/kosodate/kosodate/hoikuen/nyuen/002006.html",
+      "quote": "第一次選考：令和8年2月2日（月曜）・3日（火曜）18時00分まで"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.toshima.lg.jp/260/2508071138.html",
+      "quote": "内定連絡日※内定者のみに電話連絡します。"
+    },
+    "firstResult#3": {
+      "url": "https://www.city.toshima.lg.jp/260/kosodate/kosodate/hoikuen/nyuen/002006.html",
+      "quote": "内定が出なかった場合、「保留通知書」の郵送にて、入園できなかった旨をお知らせします。（電話連絡はいたしません。）"
+    },
+    "secondApply": {
+      "url": "https://www.city.toshima.lg.jp/260/2508071138.html",
+      "quote": "第2次選考受付(1次選考欠員分)受付…令和8年2月10日（火曜日）まで"
+    },
+    "secondResult": {
+      "url": "https://www.city.toshima.lg.jp/260/2508071138.html",
+      "quote": "2次選考内定…令和8年2月27日（金曜日）"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.toshima.lg.jp/260/2508071138.html",
+      "quote": "年間を通じて受け付けます。締切日は入園希望月の前月の初旬。"
+    },
+    "documents.0": {
+      "url": "https://www.city.toshima.lg.jp/260/kosodate/kosodate/hoikuen/nyuen/1809261433.html",
+      "quote": "※自営業・経営者・親族経営会社での就労の方は、別途「自営業であることが客観的にわかる書類」が必要です。"
+    },
+    "documents.0#2": {
+      "url": "https://www.city.toshima.lg.jp/260/kosodate/kosodate/hoikuen/nyuen/1809261433.html",
+      "quote": "（父母両方の書類が必要です。また、事実婚の方でも必要となります。）"
+    },
+    "documents.1": {
+      "url": "https://www.city.toshima.lg.jp/260/kosodate/kosodate/hoikuen/nyuen/1809261433.html",
+      "quote": "2.教育・保育給付認定申請書兼認可保育施設入所申込書"
+    },
+    "documents.2": {
+      "url": "https://www.city.toshima.lg.jp/260/kosodate/kosodate/hoikuen/nyuen/1809261433.html",
+      "quote": "[申請書ダウンロード]　家庭の状況"
+    },
+    "documents.3": {
+      "url": "https://www.city.toshima.lg.jp/260/kosodate/kosodate/hoikuen/nyuen/1809261433.html",
+      "quote": "[申請書ダウンロード]　申込みチェックシート・提出書類チェックシート"
+    },
+    "documents.4": {
+      "url": "https://www.city.toshima.lg.jp/260/kosodate/kosodate/hoikuen/nyuen/1809261433.html",
+      "quote": "申込み方法によって、マイナンバーを確認できる書類の提出方法が異なります。"
+    },
+    "documents.5": {
+      "url": "https://www.city.toshima.lg.jp/documents/1921/r8-nyuuennoshiori.pdf",
+      "quote": "また、就労証明書の有効期限は、証明日時点で申込み可能な月から数えて６か月間です。"
+    },
+    "interview": {
+      "url": "https://www.city.toshima.lg.jp/260/kosodate/kosodate/hoikuen/nyuen/002006.html",
+      "quote": "入園内定園で、集団保育が可能かどうか面接・健康診断を行います。"
+    },
+    "interview#2": {
+      "url": "https://www.city.toshima.lg.jp/documents/1921/r8-nyuuennoshiori.pdf",
+      "quote": "この面接・健康診断を入園月の前月末までに受けられない場合や集団保育に適さないと判断され"
+    },
+    "ikukyu": {
+      "url": "https://www.city.toshima.lg.jp/documents/1921/r8-nyuuennoshiori.pdf",
+      "quote": "できる場合」に育児休業の延長も許容できる旨の記載があり、下記必要書類の提出がある場合のみ調整指数１２（－４０点）適用対象となります。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.toshima.lg.jp/documents/1921/r8-nyuuennoshiori.pdf",
+      "quote": "育児休業期間が記載された『就労証明書』および「育児休業給付金支給通知等の写し」の提出が必要です。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.toshima.lg.jp/documents/1921/r8-nyuuennoshiori.pdf",
+      "quote": "４月の選考では第２次選考から選考対象となります。（第１次選考対象外）"
+    },
+    "ikukyu#4": {
+      "url": "https://www.city.toshima.lg.jp/documents/1921/r8-nyuuennoshiori.pdf",
+      "quote": "豊島区では、３月入園は実施していないため、３月分保留通知等が必要な方は２月からの入園申込みが必要となります。"
+    },
+    "notes.0": {
+      "url": "https://www.city.toshima.lg.jp/260/kosodate/kosodate/hoikuen/nyuen/002006.html",
+      "quote": "令和9年4月 令和8年11月20日（金曜日） 令和9年度のしおりに掲載します"
+    },
+    "notes.1": {
+      "url": "https://www.city.toshima.lg.jp/260/kosodate/kosodate/hoikuen/nyuen/004463.html",
+      "quote": "父母が育児休業を取得している期間は、復職を伴わない新規入園・転園はできません。"
+    },
+    "notes.1#2": {
+      "url": "https://www.city.toshima.lg.jp/260/kosodate/kosodate/hoikuen/nyuen/004463.html",
+      "quote": "その際は、入園月の翌月1日までに復職が必要です。"
+    },
+    "notes.2": {
+      "url": "https://www.city.toshima.lg.jp/260/2508071138.html",
+      "quote": "出産予定が令和7年11月7日（金曜日）～令和8年2月17日（火曜日）までの方は4月入園の申込みができます。"
+    },
+    "notes.3": {
+      "url": "https://www.city.toshima.lg.jp/260/kosodate/kosodate/hoikuen/nyuen/002006.html",
+      "quote": "なお、見学の有無・見学回数は入園選考には影響しません。"
+    },
+    "notes.3#2": {
+      "url": "https://www.city.toshima.lg.jp/260/kosodate/kosodate/hoikuen/nyuen/002006.html",
+      "quote": "認可保育施設は、第9希望まで選択できます。"
+    },
+    "notes.4": {
+      "url": "https://www.city.toshima.lg.jp/260/kosodate/kosodate/hoikuen/nyuen/002006.html",
+      "quote": "有効期限が切れた場合、改めて入園申込みが必要です。有効期限が切れても通知はいたしませんのでご注意ください。"
+    },
+    "notes.4#2": {
+      "url": "https://www.city.toshima.lg.jp/260/kosodate/kosodate/hoikuen/nyuen/002006.html",
+      "quote": "利用申込み書類には有効期限があります。（申込み日時点で申込み可能な月から数えて6カ月間です。）"
+    },
+    "notes.5": {
+      "url": "https://www.city.toshima.lg.jp/260/2508071138.html",
+      "quote": "締切り直前は大変混雑します。書類不備の場合、受付ができないため、早めにお申込みください。"
+    }
+  },
+  "sources": [
+    {"label": "豊島区「令和8年度保育園入園案内」", "url": "https://www.city.toshima.lg.jp/260/2508071138.html"},
+    {"label": "豊島区「申込みから入園までの流れ」", "url": "https://www.city.toshima.lg.jp/260/kosodate/kosodate/hoikuen/nyuen/002006.html"},
+    {"label": "豊島区「入園申込み方法」", "url": "https://www.city.toshima.lg.jp/260/kosodate/kosodate/hoikuen/nyuen/2010191308.html"},
+    {"label": "豊島区「申込みに必要な書類」", "url": "https://www.city.toshima.lg.jp/260/kosodate/kosodate/hoikuen/nyuen/1809261433.html"},
+    {"label": "豊島区「就労内定・求職・育児休業明けで入園の場合」", "url": "https://www.city.toshima.lg.jp/260/kosodate/kosodate/hoikuen/nyuen/004463.html"},
+    {"label": "豊島区「令和8年度豊島区認可保育施設入園・転園・延長保育利用のしおり」（PDF）", "url": "https://www.city.toshima.lg.jp/documents/1921/r8-nyuuennoshiori.pdf"}
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "citySlug": "taito",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "台東区「令和9年4月保育園入園の申込について」",
+    "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年10月1日（木）から。窓口申請は令和8年11月27日（金）まで、郵送・電子申請は令和8年11月13日（金）必着。希望園の変更・追加と不足書類（就労証明書／産休・育休復帰確認書／受託証明書のみ）の提出は令和8年12月4日（金）まで。区外在住で台東区在勤を理由に申し込む場合は、窓口が令和8年11月26日（木）まで、郵送・電子が令和8年11月12日（木）必着",
+  "applyMethods": "窓口申請（台東区役所本庁舎6階3番窓口 保育課認定・入園担当、平日8時30分〜17時15分。11月8日（日）は日曜開庁）、郵送申請（書留など到着確認ができる方法で、締切日必着）、電子申請のいずれか。FAX・メールでは受け付けない",
+  "firstResult": "令和9年2月2日（火）発送予定。利用可・不可いずれかの通知書を申請者全員に送る",
+  "secondApply": "令和8年11月30日（月）から。窓口申請は令和9年2月12日（金）まで、郵送・電子申請は令和9年1月29日（金）必着。一次調整で申し込まなかった人と内定しなかった人が対象で、一次で内定しなかった人は自動的に二次調整の対象になる",
+  "secondResult": "令和9年2月下旬。内定した人には電話で連絡し、二次調整に新規申請した人には利用不可の通知書を送る",
+  "midYearDeadline": "入園希望月ごとに締切がある（例: 5月入園は窓口4月12日（月）、郵送・電子4月5日（月））。年度途中入園の結果は入園希望月の前月20日頃",
+  "documents": [
+    "子どものための教育・保育給付認定申請書（区指定様式。転園申請・再申請、区外在住で区内の認可保育園を希望する場合は不要）",
+    "保育所・認定こども園（長時間）・地域型保育事業利用申請書（区指定様式）",
+    "お子さまの健康状況申告書（区指定様式）",
+    "確認票（区指定様式）",
+    "きょうだい同時申請条件確認書（区指定様式。複数の子の入園を同時に申し込む場合のみ）",
+    "申請書類チェックリスト（区指定様式）",
+    "保育の必要性が確認できる書類（保護者全員分。就労証明書（区指定様式）、診断書、在学証明書など。証明書類は提出日前3か月以内に発行されたものに限る）",
+    "令和8年度住民税課税（非課税）証明書など令和8年度住民税の額がわかる書類（令和8年1月1日に台東区に住民登録がなかった人のみ。保護者全員分で、内定後の提出でもよい）"
+  ],
+  "interview": "4月入園は3月上旬に、内定した保育園等で面接・健康診断を行う（園から事前に日程調整の電話がある）。入所前月の末日までに受けられない場合は原則内定取消",
+  "ikukyu": "希望する保育所等に入所できないときに育児休業の延長を許容できる場合は「育児休業延長許容に関する確認書」（区指定様式）を出す。4月入園一次調整の結果は、入園申請が有効なすべての人に送られる",
+  "notes": [
+    "申込期間中は窓口が混むため窓口予約ができる（予約可能期間は令和8年10月9日〜11月6日、土日祝と10月15日・16日を除く）",
+    "入園申込の前に保育園を見学するよう強く勧められている",
+    "入園調整は先着順ではなく、申込期間内ならいつ申し込んでも同じ",
+    "希望園の数に上限はない",
+    "令和9年2月3日までに生まれる予定の子は出生前申込ができる",
+    "内定を辞退・取消（自己都合を含む）になると、その入園月の翌月から6か月間、調整指数が-5点になる"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.html",
+      "quote": "令和9年4月の保育園（認可保育園・こども園（長時間）・地域型保育事業）の入園申込について掲載しています。"
+    },
+    "firstApply": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.html",
+      "quote": "窓口で申請の場合：令和8年10月1日（木曜日）から令和8年11月27日（金曜日）まで"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.html",
+      "quote": "郵送・電子で申請の場合：令和8年10月1日（木曜日）から令和8年11月13日（金曜日）まで(必着)"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.html",
+      "quote": "◎希望園（入園を希望する保育園）の変更・追加、不足書類（就労証明書/産休・育休復帰確認書/受託証明書のみ）の提出は、令和8年12月4日（金曜日）まで、電子申請または来庁で受付けます。"
+    },
+    "firstApply#4": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.html",
+      "quote": "窓口で申請の場合：令和8年10月1日（木曜日）から令和8年11月26日（木曜日）まで"
+    },
+    "firstApply#5": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.html",
+      "quote": "郵送・電子で申請の場合：令和8年10月1日（木曜日）から令和8年11月12日（木曜日）まで(必着)"
+    },
+    "firstApply#6": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.html",
+      "quote": "在勤要件の場合、締切日が異なります。（転入予定の方は、台東区民の方の受付期間と同じです）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.html",
+      "quote": "必要書類は、窓口申請、郵送申請または電子申請で受付いたします。※FAX・メールでの受付は行いません。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.html",
+      "quote": "申込先：台東区役所本庁舎6階3番窓口　保育課認定・入園担当"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.html",
+      "quote": "受付時間：平日8時30分から17時15分まで　※11月8日（日曜日）は日曜開庁を行います。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.html",
+      "quote": "◎書類は到着確認ができる郵送方法（書留等）で提出下さい。"
+    },
+    "applyMethods#5": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.html",
+      "quote": "◎申請締切日が窓口申請と異なります。郵送締切日必着で送付してください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.files/shinR9hoikuriyounogoannai.pdf",
+      "quote": "令和９年２月２日（火）発送予定"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.files/shinR9hoikuriyounogoannai.pdf",
+      "quote": "※利用可・不可いずれかの通知書を申請された方全員に送付します。"
+    },
+    "secondApply": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.html",
+      "quote": "窓口で申請の場合：令和8年11月30日（月曜日）から令和9年2月12日（金曜日）まで"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.html",
+      "quote": "郵送・電子で申請の場合：令和8年11月30日（月曜日）から令和9年1月29日（金曜日）まで(必着)"
+    },
+    "secondApply#3": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.html",
+      "quote": "◎「一次調整でお申込みをされなかった方、一次調整で内定が出なかった方」が対象になります。"
+    },
+    "secondApply#4": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.files/shinR9hoikuriyounogoannai.pdf",
+      "quote": "※一次調整で内定しなかった方は自動的に二次調整の対象となります。"
+    },
+    "secondResult": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.files/shinR9hoikuriyounogoannai.pdf",
+      "quote": "令和９年２月下旬"
+    },
+    "secondResult#2": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.files/shinR9hoikuriyounogoannai.pdf",
+      "quote": "※内定した方には電話連絡し、２次調整に新規申請した方には利用不可の通知書を"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.files/shinR9hoikuriyounogoannai.pdf",
+      "quote": "５月入園 ４月１２日（月） ４月 ５日（月）"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.files/shinR9hoikuriyounogoannai.pdf",
+      "quote": "（４月入園：２月２日頃 年度途中入園：前月２０日頃）"
+    },
+    "documents.0": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.html",
+      "quote": "1.子どものための教育・保育給付認定申請書（★）　・・・転園申請、再申請及び区外の方が台東区内の認可保育園を希望する場合は不要"
+    },
+    "documents.1": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.html",
+      "quote": "2.保育所・認定こども園（長時間）・地域型保育事業利用申請書（★）"
+    },
+    "documents.2": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.html",
+      "quote": "3.お子さまの健康状況申告書（★）"
+    },
+    "documents.3": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.html",
+      "quote": "※★については台東区指定の様式でお申込みください。以下よりダウンロードできます。"
+    },
+    "documents.3#2": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.html",
+      "quote": "4.確認票（★）"
+    },
+    "documents.4": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.html",
+      "quote": "5.きょうだい同時申請条件確認書（★）　・・・ごきょうだい等、複数のお子さまの入園を同時にお申込みになる場合のみ"
+    },
+    "documents.5": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.html",
+      "quote": "6.申請書類チェックリスト（★）"
+    },
+    "documents.6": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.html",
+      "quote": "7.保育の必要性が確認できる書類（保護者全員分。下記参照） （就労証明書（★）、診断書、在学証明書など）"
+    },
+    "documents.6#2": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.files/shinR9hoikuriyounogoannai.pdf",
+      "quote": "※証明書類は、提出日前３か月以内に発行されたものに限ります。"
+    },
+    "documents.7": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.html",
+      "quote": "9.令和8年度住民税課税（非課税）証明書等、令和8年度住民税の額がわかる書類　・・・令和8年1月1日に台東区に住民登録がなかった方のみ"
+    },
+    "documents.7#2": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.html",
+      "quote": "（保育料に係る金額を決定するための書類です。保護者全員分必要です。内定後の提出でも構いません。）"
+    },
+    "interview": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.files/shinR9hoikuriyounogoannai.pdf",
+      "quote": "（4月入園：3月上旬 年度途中入園：前月末）"
+    },
+    "interview#2": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.files/shinR9hoikuriyounogoannai.pdf",
+      "quote": "内定した保育園等で面接・健康診断を行ないます。"
+    },
+    "interview#3": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.files/shinR9hoikuriyounogoannai.pdf",
+      "quote": "（園より事前に日程調整の電話連絡があります。）"
+    },
+    "interview#4": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.files/shinR9hoikuriyounogoannai.pdf",
+      "quote": "◎ 内定後に受けていただく面接、健康診断、体験保育等の結果により、内定を取り消すことがあります。また面接、健康診断を受けられない場合は、内定取り消しとなります。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.html",
+      "quote": "希望する保育所等に入所できない時に、育児休業の延長を許容できる場合"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.html",
+      "quote": "育児休業延長許容に関する確認書（★）"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.files/shinR9hoikuriyounogoannai.pdf",
+      "quote": "（４月入園１次調整の結果は入園申請が有効なすべての方に送付いたします）"
+    },
+    "notes.0": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.html",
+      "quote": "予約可能期間：令和8年10月9日（金曜日）から11月6日（金曜日）まで（土日祝祭日、10月15日、10月16日を除く）"
+    },
+    "notes.1": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.html",
+      "quote": "※入園申込に先立ち、保育園の見学を強くお勧めしています。"
+    },
+    "notes.2": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.html",
+      "quote": "調整について、申込日の先後で優劣がつくことはありません。申込期間内であれば、いつお申込み頂いても同じです。"
+    },
+    "notes.3": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.files/shinR9hoikuriyounogoannai.pdf",
+      "quote": "なお、希望園の数に上限はありません。"
+    },
+    "notes.4": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.html",
+      "quote": "◎令和9年2月3日（水曜日）までに生まれる予定のお子さまについては、出生前申込ができます。"
+    },
+    "notes.5": {
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.files/shinR9hoikuriyounogoannai.pdf",
+      "quote": "◎内定を辞退又は取消（自己都合を含む）になった場合、辞退・取消になった入園月の翌月から起算して６ヶ月間、調整指数が－５点となります"
+    }
+  },
+  "sources": [
+    {
+      "label": "台東区「令和9年4月保育園入園の申込について」",
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.html"
+    },
+    {
+      "label": "台東区「令和9年度 保育利用のご案内」",
+      "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennyuen/hoikuenmousikomi.files/shinR9hoikuriyounogoannai.pdf"
+    }
+  ]
+}

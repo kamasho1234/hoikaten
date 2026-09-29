@@ -1,0 +1,194 @@
+{
+  "citySlug": "chofu",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "調布市「令和9年度保育園入園案内・入園(転園)申込時の必要書類(様式)」",
+    "url": "https://www.city.chofu.lg.jp/050020/p028147.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年10月2日（金）〜10月22日（木）（一次募集。受付期間中に必着）",
+  "applyMethods": "マイナンバーカードを使った電子申請（推奨）、郵送（受付期間中に必着。1日でも過ぎると次回の選考の対象）、市役所3階保育課前の専用BOXへの投函（4月入園分のみ。平日の午前8時30分から午後5時まで）。4月入園分は保育課窓口では受け付けない",
+  "firstResult": "令和9年1月13日（水）以降（予定）に一次結果発表。内定しなかった場合は保育課から「利用不承認決定通知書」を発送",
+  "secondApply": "令和8年10月23日（金）〜令和9年1月22日（金）（二次募集。必着）。一次選考で内定しなかった人は全員が二次選考の対象で、改めて申し込む必要はない",
+  "secondResult": "令和9年2月9日（火）以降（予定）に二次結果発表",
+  "midYearDeadline": "入園希望月ごとに受付期間が決まっている（例：令和9年5月入園は令和9年3月3日〜4月1日）。令和9年度の申込みは令和10年3月入園分まで有効で、内定が出るまで自動的に継続する",
+  "documents": [
+    "調布市子どもの保育の利用申込書、児童状況報告書、令和9年度申込確認票（すべての人）",
+    "調布市子どものための教育・保育給付認定申請書（調布市に住民票があり、初めて調布市の認可保育園を申し込む子のみ）",
+    "就労証明書（勤務先が記入。保護者本人や親族が書いたものは無効。証明日が提出日から3か月以内のもの）",
+    "自営業の場合は保護者が記入した就労証明書に加えて、直近の確定申告書（第1・2表）のコピーなどのいずれか1つ",
+    "令和8年1月1日に調布市以外（国内）に住んでいた場合は、令和8年度（令和7年分）住民税課税証明書または非課税証明書（父母分）",
+    "認可外保育施設（幼稚園の預かり保育を含む）に月ぎめ契約で子どもを預けている場合は保育受託証明書",
+    "求職中の場合は保育が必要なことを証明する書類は不要"
+  ],
+  "interview": "内定後、令和9年3月上旬以降に順次面接・健康診断を受ける。面接・健康診断で集団生活が困難と判断された場合は入園できないことがある",
+  "ikukyu": "申込確認票で「希望する保育園等に入所できない場合、育児休業の延長も許容できるため、優先順位を下げた利用調整となることを了承」を選ぶと、基準指数を2点に下げて選考する（内定の可能性は低くなるが、希望園に空きがあれば内定する）。育児休業給付金の延長手続きには申込書類の写しが必要なので、提出前にコピーを取っておく",
+  "notes": [
+    "令和8年10月27日（火）17時以降（予定）に申込状況がホームページで発表される",
+    "一次募集の追加書類の提出と希望園の変更は令和8年11月16日（月）まで",
+    "一次選考の取下げは令和8年12月7日（月）まで。それ以降に内定が出て入園しない場合は辞退扱い（調整指数で-5点）",
+    "希望園は新規申込みで最大6園、転園申込みで最大3園まで書ける",
+    "令和9年2月4日以降に生まれた子は4月に入園できない",
+    "育児休業明け入園予約制度（0歳児クラス、4園で各園1人）の前期は令和8年10月2日〜10月22日に申し込み、結果連絡は令和8年11月下旬。電子申請では受け付けない"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.chofu.lg.jp/050020/p028147.html",
+      "quote": "封筒には、住所・保護者氏名・「令和9年4月入園分申込書在中」と記載してください。"
+    },
+    "firstApply": {
+      "url": "https://www.city.chofu.lg.jp/050020/p028147.html",
+      "quote": "令和9年4月一次募集 令和8年10月2日(金曜日)から令和8年10月22日(木曜日)まで"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.chofu.lg.jp/050020/p028147.html",
+      "quote": "受付期間中に必着です。1日でも過ぎた場合は、次回の選考(利用調整)の対象となります。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.chofu.lg.jp/050020/p028010.html",
+      "quote": "認可保育園の入園申込みは、来庁不要で便利な電子申請をご利用ください。保護者どちらかのマイナンバーカードがあれば申請可能です。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.chofu.lg.jp/050020/p028147.html",
+      "quote": "受付期間中に必着です。1日でも過ぎた場合は、次回の選考(利用調整)の対象となります。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.chofu.lg.jp/050020/p028147.html",
+      "quote": "専用BOXへ投函の場合(4月入園分のみ。5月入園分以降は窓口で受付します。) 設置場所 調布市役所3階保育課前(緑色のボックス) 設置時間 午前8時30分から午後5時まで(土曜日、日曜日、祝日を除く)"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.chofu.lg.jp/documents/12792/r9nyuuennannnai.pdf",
+      "quote": "令和９年度４月入園希望の場合 保育課窓口では受付けません。"
+    },
+    "firstResult": {
+      "url": "https://www.city.chofu.lg.jp/documents/12792/r9nyuuennannnai.pdf",
+      "quote": "令和９年１月１３日（水）以降（予定） 電話での問合せには原則お答えできません。 一次結果発表"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.chofu.lg.jp/documents/12792/r9nyuuennannnai.pdf",
+      "quote": "保育課から「利用不承認決定通知書」を発送"
+    },
+    "secondApply": {
+      "url": "https://www.city.chofu.lg.jp/050020/p028147.html",
+      "quote": "令和9年4月二次募集 令和8年10月23日(金曜日)から令和9年1月22日(金曜日)まで"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.chofu.lg.jp/documents/12792/r9nyuuennannnai.pdf",
+      "quote": "一次選考で内定しなかった方は、全員が二次選考の対象となるため、改めての申込みは不要です。"
+    },
+    "secondResult": {
+      "url": "https://www.city.chofu.lg.jp/documents/12792/r9nyuuennannnai.pdf",
+      "quote": "令和９年２月９日（火）以降（予定） 一次選考から引き続き不承諾の場合は、 二次結果発表"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.chofu.lg.jp/050020/p028147.html",
+      "quote": "令和9年5月 令和9年3月3日(水曜日)から令和9年4月1日(木曜日)まで"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.chofu.lg.jp/050020/p028147.html",
+      "quote": "(注)令和9年度の申込みは、令和10年3月入園分まで有効です。内定が出るまでは申込みが自動的に継続します。"
+    },
+    "documents.0": {
+      "url": "https://www.city.chofu.lg.jp/documents/12792/r9nyuuennannnai.pdf",
+      "quote": "１ 調布市子どもの保育の利用申込書（記入例：P.29） ２ 児童状況報告書 ３ 令和９年度 申込確認票（記入例：P.31）"
+    },
+    "documents.1": {
+      "url": "https://www.city.chofu.lg.jp/documents/12792/r9nyuuennannnai.pdf",
+      "quote": "４ 調布市子どものための教育・保育給付 認定申請書（記入例：P.30） （調布市に住民票があり、初めて調布市の認可保育園を申込むお子さまのみ。）"
+    },
+    "documents.2": {
+      "url": "https://www.city.chofu.lg.jp/050020/p028147.html",
+      "quote": "(注)勤務先が記入。保護者本人や親族が書いたものは無効。 (注)証明日が提出日から3か月以内のもの。"
+    },
+    "documents.3": {
+      "url": "https://www.city.chofu.lg.jp/050020/p028147.html",
+      "quote": "(注)すべて保護者が記入。 (注)従前の就労証明書(項目No.14までのもの)も使用可とします。 次のいずれかのうち一つ 直近の個人の確定申告書(第1・2表)のコピー"
+    },
+    "documents.4": {
+      "url": "https://www.city.chofu.lg.jp/050020/p028147.html",
+      "quote": "令和8年1月1日に調布市以外に住んでいた(国内) 令和8年度(令和7年分)住民税課税証明書または非課税証明書(父母分)(コピーでも可)"
+    },
+    "documents.5": {
+      "url": "https://www.city.chofu.lg.jp/050020/p028147.html",
+      "quote": "認可外保育施設(幼稚園の預かり保育含む)に月ぎめ契約で申込児童を預けている"
+    },
+    "documents.6": {
+      "url": "https://www.city.chofu.lg.jp/050020/p028147.html",
+      "quote": "求職中の場合 書類は不要です。"
+    },
+    "interview": {
+      "url": "https://www.city.chofu.lg.jp/documents/12792/r9nyuuennannnai.pdf",
+      "quote": "令和９年３月上旬以降順次 面接・健康診断で、集団生活が困難と判断 された場合は、入園できないことがあります。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.chofu.lg.jp/documents/12792/a1-3.pdf",
+      "quote": "希望する保育園等に入所できない場合、育児休業の延長も許容できるため、優先順位を下げた利用調整となることを了承します。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.chofu.lg.jp/documents/12792/a1-3.pdf",
+      "quote": "基準指数を２点に下げて選考します（例：基準指数が６０点となる世帯の場合は５８点減点されて、基準指数が２点になります）。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.chofu.lg.jp/documents/12792/a1-3.pdf",
+      "quote": "「いいえ」を選択するより入園内定する可能性は低くなりますが、希望園の定員に空きがある場合は、入園内定となります。"
+    },
+    "ikukyu#4": {
+      "url": "https://www.city.chofu.lg.jp/documents/12792/r9nyuuennannnai.pdf",
+      "quote": "育児休業給付金の延長手続き（P.32参照）には、認可保育園の申込書類の写しが必要です。延長の可能性がある方は、書類一式を提出前に必ずコピーをお取りください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.chofu.lg.jp/documents/12792/r9nyuuennannnai.pdf",
+      "quote": "令和８年１０月２７日（火）１７時以降（予定） 申込状況発表（ホームページ）"
+    },
+    "notes.1": {
+      "url": "https://www.city.chofu.lg.jp/documents/12792/r9nyuuennannnai.pdf",
+      "quote": "４月一次募集における項目１の締切とは、追加書類提出・希望園変更の受付期限である令和８年１１月１６日（月）を指します。"
+    },
+    "notes.2": {
+      "url": "https://www.city.chofu.lg.jp/documents/12792/r9nyuuennannnai.pdf",
+      "quote": "一次選考の取下げは令和８年１２月７日（月）まで 可能です。それ以降、内定が出ても入園を希望しない"
+    },
+    "notes.2#2": {
+      "url": "https://www.city.chofu.lg.jp/documents/12792/r9nyuuennannnai.pdf",
+      "quote": "場合は、辞退（調整指数で-5点）になります。"
+    },
+    "notes.3": {
+      "url": "https://www.city.chofu.lg.jp/documents/12792/r9nyuuennannnai.pdf",
+      "quote": "転園申込みの場合は、希望園を最大3園記載可能です（新規申込みの場合は最大6園）。"
+    },
+    "notes.4": {
+      "url": "https://www.city.chofu.lg.jp/documents/12792/r9nyuuennannnai.pdf",
+      "quote": "令和９年２月４日以降に生まれたお子さまは４月に入園することはできません。"
+    },
+    "notes.5": {
+      "url": "https://www.city.chofu.lg.jp/documents/12792/r9nyuuennannnai.pdf",
+      "quote": "申込み期間 令和８年10月２日（金）～令和８年10月2２日（木） 令和９年５月2４日（月）～令和９年６月1１日（金） 結果連絡 令和８年11月下旬 令和９年６月下旬"
+    },
+    "notes.5#2": {
+      "url": "https://www.city.chofu.lg.jp/documents/12792/r9nyuuennannnai.pdf",
+      "quote": "郵送または専用BOX（前期のみ）で提出する 場合、封筒の表面に「予約」と赤字で大きく記入してください。電子申請での受付はできません。"
+    },
+    "notes.5#3": {
+      "url": "https://www.city.chofu.lg.jp/documents/12792/r9nyuuennannnai.pdf",
+      "quote": "実施園 第五保育園・神代保育園 富士見保育園・東部保育園 募集人数 各園１人（０歳児クラス）"
+    }
+  },
+  "sources": [
+    {
+      "label": "調布市「令和9年度保育園入園案内・入園(転園)申込時の必要書類(様式)」",
+      "url": "https://www.city.chofu.lg.jp/050020/p028147.html"
+    },
+    {
+      "label": "調布市「令和9年度調布市保育施設入園案内」",
+      "url": "https://www.city.chofu.lg.jp/documents/12792/r9nyuuennannnai.pdf"
+    },
+    {
+      "label": "調布市「令和9年度申込確認票」",
+      "url": "https://www.city.chofu.lg.jp/documents/12792/a1-3.pdf"
+    },
+    {
+      "label": "調布市「認可保育園入園申込みの電子申請」",
+      "url": "https://www.city.chofu.lg.jp/050020/p028010.html"
+    }
+  ]
+}

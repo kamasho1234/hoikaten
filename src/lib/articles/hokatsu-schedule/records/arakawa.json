@@ -1,0 +1,153 @@
+{
+  "citySlug": "arakawa",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "荒川区「令和9年（2027年）4月保育園入園申込みスケジュール」",
+    "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/r0704.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年10月1日（木曜）から申込書類を配布。区ホームページ、窓口、区内の認可保育園で受け取れる",
+  "firstApply": "令和8年10月27日（火曜）〜11月10日（火曜）。希望園の変更と不足書類の締切は令和8年12月10日（木曜）",
+  "applyMethods": "電子申請、窓口（荒川区役所本庁舎2階14番窓口）、郵送（荒川区保育課入園相談係宛）のいずれかで申し込む。ファクスでは受け付けない",
+  "firstResult": "令和9年1月29日（金曜）が4月1次の入園結果回答日。1次の利用調整結果は郵送で知らせる",
+  "secondApply": "令和8年11月11日（水曜）〜令和9年1月22日（金曜）。希望園の変更と不足書類の締切は令和9年2月10日（水曜）",
+  "secondResult": "令和9年2月22日（月曜）が4月2次の入園結果回答日",
+  "midYearDeadline": "入園を希望する月の前月の10日まで（2月・3月の新入園の受付はない）",
+  "documents": [
+    "保育所入所申込書",
+    "教育・保育給付認定申請書（申し込む子ども1人につき1枚）",
+    "重要事項確認書兼同意書",
+    "申込児童の健康状況等について",
+    "保育を必要とする状況を証明する書類（就労証明書など。区指定の様式で、提出日の2か月以内に発行されたもの）",
+    "育児休業中の場合は就労証明書に加えて育児休業給付金支給決定通知書の写し"
+  ],
+  "interview": "内定した人には電話と文書で面接・健康診断の連絡があり、指定の日時に内定した保育園で集団保育が可能かどうかの面接・健康診断を受ける",
+  "notes": [
+    "申込み後、入園相談係の職員が家庭や勤務先に電話するなどして状況を確認する。申込内容に虚偽があれば審査の対象にならない",
+    "出生予定の子どもの申込みは4月申込みだけ受け付けている",
+    "求職中の人は、4月入園の場合、申込日にかかわらず原則4月2次の利用調整の対象になる",
+    "4月1次の内定を取り下げた場合、4月2次からの申込みはできない",
+    "4月の募集枠は前年の10月1日に公開される"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/r0704.html",
+      "quote": "令和9年(2027年)4月1次申込み 令和8年(2026年)10月1日（木曜） 申込書類配布開始（HP・窓口・区内認可保育園）"
+    },
+    "guideRelease": {
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/r0704.html",
+      "quote": "令和8年(2026年)10月1日（木曜） 申込書類配布開始（HP・窓口・区内認可保育園）"
+    },
+    "firstApply": {
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/r0704.html",
+      "quote": "令和8年(2026年)10月27日（火曜） 4月1次申込み受付開始 令和8年(2026年)11月10日（火曜） 4月1次申込み受付終了"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/r0704.html",
+      "quote": "令和8年(2026年)12月10日（木曜） 4月1次希望園変更締切り、不足書類締切り"
+    },
+    "applyMethods": {
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/r0704.html",
+      "quote": "窓口 荒川区役所本庁舎2階14番窓口 郵送 〒116-8501荒川区荒川2-2-3 荒川区保育課入園相談係宛"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/hoikuen/shodaku.html",
+      "quote": "必要書類一式を揃えて、保育課入園相談係へ郵送または受付窓口で直接もしくは電子申請でご提出ください。（ファクスでは受け付けておりません）"
+    },
+    "firstResult": {
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/r0704.html",
+      "quote": "令和9年(2027年)1月29日（金曜） 4月1次入園結果回答日"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/hoikuen/faq.html",
+      "quote": "なお、4月1次の利用調整結果は、郵送でお知らせいたします。"
+    },
+    "secondApply": {
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/r0704.html",
+      "quote": "令和8年(2026年)11月11日（水曜） 4月2次申込み受付開始 令和9年(2027年)1月22日（金曜） 4月2次申込み受付終了"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/r0704.html",
+      "quote": "令和9年(2027年)2月10日（水曜） 4月2次希望園変更締切り、不足書類締切り"
+    },
+    "secondResult": {
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/r0704.html",
+      "quote": "令和9年(2027年)2月22日（月曜） 4月2次入園結果回答日"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/hoikuen/shodaku.html",
+      "quote": "入園を希望する月の前月の10日までに申込んでください。"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/hoikuen/shodaku.html",
+      "quote": "ただし、2月・3月分の新入園児受付と入園審査会はありません。"
+    },
+    "documents.0": {
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/hoikuen/shorui.html",
+      "quote": "保育所入所申込書 入園の願書です。世帯状況や希望園などをご記入いただく書類です。"
+    },
+    "documents.1": {
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/hoikuen/shorui.html",
+      "quote": "教育・保育給付認定申請書は、お申込みをするお子様ひとりにつき1枚ご提出ください。"
+    },
+    "documents.2": {
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/hoikuen/shorui.html",
+      "quote": "重要事項確認書兼同意書 保育園をご利用いただくにあたって、重要事項を確認し同意いただく書類です。"
+    },
+    "documents.3": {
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/hoikuen/shorui.html",
+      "quote": "申込児童の健康状況等について 保育園をご利用いただくにあたって、アレルギーの有無等の健康状況や保育状況を確認いただく書類です。"
+    },
+    "documents.4": {
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/hoikuen/shorui.html",
+      "quote": "各書類については、提出日の2か月以内に発行された書類を用意してください。"
+    },
+    "documents.4#2": {
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/hoikuen/shorui.html",
+      "quote": "就労中 就労証明書（区指定の様式でご用意ください）"
+    },
+    "documents.5": {
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/hoikuen/shorui.html",
+      "quote": "就労証明書に加え、育児休業給付金支給決定通知書の写し、育児休業申請中等で支給決定通知書の提出ができない場合は雇用保険被保険者証、育児休業給付金支給申請書などの写しを提出してください。"
+    },
+    "interview": {
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/hoikuen/shodaku.html",
+      "quote": "審査会終了後、内定した方には、電話及び文書で、面接と健康診断の連絡をします。"
+    },
+    "interview#2": {
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/hoikuen/shodaku.html",
+      "quote": "指定された日時に、内定した保育園までお越しください。 面接・健康診断 集団保育が可能かどうか面接・健康診断を行います。"
+    },
+    "notes.0": {
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/hoikuen/shodaku.html",
+      "quote": "入園の申込みがありますと、入園相談係の職員がご家庭や勤務先へお電話をさせていただく等状況の確認をさせていただきます。"
+    },
+    "notes.0#2": {
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/hoikuen/shodaku.html",
+      "quote": "申込の内容（勤務証明書等）に虚偽があった場合は、審査の対象にはなりませんのでご留意ください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/hoikuen/faq.html",
+      "quote": "4月申込みのみ、出生予定のお子さんの申込みができます。"
+    },
+    "notes.2": {
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/hoikuen/faq.html",
+      "quote": "求職中の方は、4月入園の場合、申込日に関わらず、原則4月2次の利用調整の対象となります。"
+    },
+    "notes.3": {
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/onlineshinsei.html",
+      "quote": "4月1次の内定を取下げた場合、4月2次からの申込みはできません。"
+    },
+    "notes.4": {
+      "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/hoikuen/faq.html",
+      "quote": "4月の募集枠は、前年の10月1日に公開します。"
+    }
+  },
+  "sources": [
+    {"label": "荒川区「令和9年（2027年）4月保育園入園申込みスケジュール」", "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/r0704.html"},
+    {"label": "荒川区「保育園入園申込みから入園承諾まで」", "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/hoikuen/shodaku.html"},
+    {"label": "荒川区「保育園入園申込みに必要な書類」", "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/hoikuen/shorui.html"},
+    {"label": "荒川区「保育園入園QA（よくあるご質問）」", "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/hoikuen/faq.html"},
+    {"label": "荒川区「認可保育園の入園・転園に関する電子申請のご案内」", "url": "https://www.city.arakawa.tokyo.jp/a037/kosodate/onlineshinsei.html"}
+  ]
+}

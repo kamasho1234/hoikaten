@@ -1,0 +1,136 @@
+{
+  "citySlug": "sumida",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "墨田区「令和9年1月から4月の入所・転所をご希望の方へ」",
+    "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoikuen/nyuuen/ta8032002017101616.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "申込書類を含む「【認可】保育施設利用申込みのご案内」は令和8年10月30日（金）から配布（予定）。配布場所は子ども施設課入園係（区役所4階）、区内の認可保育施設、各出張所、子育て支援総合センター。新しい就労証明書だけは令和8年10月1日（木）から区のホームページで先に公開",
+  "firstApply": "窓口は令和8年11月27日（金）〜12月10日（木）。電子申請・郵送は令和8年11月19日（木）〜12月3日（木）（電子申請は午後11時59分まで、郵送は消印有効）",
+  "applyMethods": "窓口（墨田区役所2階 21会議室、平日午前9時〜午後5時。12月2日（第1水曜日）は午後7時まで）、郵送、電子申請（マイナポータルのぴったりサービス。マイナンバーカードが必要）で申し込む。区は窓口の混雑緩和のため電子申請や郵送での申込みを呼びかけている",
+  "firstResult": "令和9年2月上旬ごろ（予定）に、内定の有無にかかわらず通知を発送する。電話での問い合わせには答えない",
+  "secondResult": "4月（一次）で内定しなかった人はそのまま4月（二次）の利用調整の対象になり、内定した場合は令和9年3月上旬ごろ電話で連絡がある",
+  "midYearDeadline": "年度途中（5〜12月）の入所は、入所希望月の前月10日（土日祝の場合は直前の開庁日）が申込締切日",
+  "interview": "内定したら、必ず3月末までに内定施設の面接・健康診断を受ける。受けられない場合は内定が取り消される。見学は申込みの条件ではなく、見学の有無で選考が有利・不利になることはない",
+  "notes": [
+    "令和9年2月17日までに出生（分娩）予定の子どもも出生前申込みとなり、同じ受付期間に申し込む",
+    "「令和9年1月から3月までの保育施設入所希望確認書」は、1〜3月の入所を希望しない人も含めて全員が提出する",
+    "申込み後に希望施設を追加・変更する場合は、令和8年12月10日（木）午後5時までに「希望認可保育施設（希望園）変更届」を出すか電子申請する（電話では受け付けない）",
+    "4月（一次）の申込みで希望できる施設は7か所まで",
+    "4月に内定しなかった場合、申込書は令和9年11月30日（12月入所選考）まで有効",
+    "転所で内定した後は、内定を辞退して元の認可保育施設に戻ることはできない"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoikuen/nyuuen/ta8032002017101616.files/2026.1-4nyuusyo.pdf",
+      "quote": "※令和９年１月～４月（一次）入所（転所）申込については出生前申込みを行うため、令和９年２月１７日までに出生（分娩）予定の方も、上記の受付期間となります。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoikuen/nyuuen/ta8032002017101616.files/2026.1-4nyuusyo.pdf",
+      "quote": "・配布開始 令和８年10月3０日（金）"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoikuen/nyuuen/ta8032002017101616.files/2026.1-4nyuusyo.pdf",
+      "quote": "・配布場所 子ども施設課入園係（区役所4階）、区内の認可保育施設、各出張所、子育て支援総合センター（すみだ保健子育て総合センター内4階）"
+    },
+    "guideRelease#3": {
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoikuen/nyuuen/ta8032002017101616.files/2026.1-4nyuusyo.pdf",
+      "quote": "※令和９年用就労証明書のみ、令和８年１０月１日（木）から墨田区のホームページで公開いたします。"
+    },
+    "firstApply": {
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoikuen/nyuuen/ta8032002017101616.files/2026.1-4nyuusyo.pdf",
+      "quote": "＜ 窓口 ＞令和８年１１月２７日（金）から令和８年１２月１０日（木）まで"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoikuen/nyuuen/ta8032002017101616.files/2026.1-4nyuusyo.pdf",
+      "quote": "＜電子申請・郵送＞令和８年１１月１９日（木）から令和８年１２月 ３日（木）まで"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoikuen/nyuuen/ta8032002017101616.files/2026.1-4nyuusyo.pdf",
+      "quote": "※電子申請：午後１１時５９分まで、郵送：消印有効"
+    },
+    "applyMethods": {
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoikuen/nyuuen/ta8032002017101616.files/2026.1-4nyuusyo.pdf",
+      "quote": "墨田区役所２階 午前９時～午後５時"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoikuen/nyuuen/ta8032002017101616.files/2026.1-4nyuusyo.pdf",
+      "quote": "２１会議室 ※第１水曜日（１２月２日）は、午後７時まで"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoikuen/nyuuen/ta8032002017101616.files/2026.1-4nyuusyo.pdf",
+      "quote": "電子申請での申込みも可能です。窓口の混雑緩和のため、電子申請や郵送による申込みにご協力ください。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoikuen/nyuuen/denshishinsei.html",
+      "quote": "※ 申請にはマイナンバーカードとパソコン（ICカードリーダライタを含む）又はスマートフォン（一部機種のみ）が必要です。"
+    },
+    "firstResult": {
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoikuen/nyuuen/ta8032002017101616.files/2026.1-4nyuusyo.pdf",
+      "quote": "令和９年２月上旬ごろ（予定）に、内定の有無に関わらず通知を発送します。電話でのお問合せにはお答えできませんのでご了承ください。"
+    },
+    "secondResult": {
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoikuen/nyuuen/ta8032002017101616.files/2026.1-4nyuusyo.pdf",
+      "quote": "４月（一次）で内定しなかった方は、そのまま二次募集の対象となります。"
+    },
+    "secondResult#2": {
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoikuen/nyuuen/ta8032002017101616.files/2026.1-4nyuusyo.pdf",
+      "quote": "内定した場合、電話でご連絡します（令和９年３月上旬ごろ）。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoikuen/hokatsu.html",
+      "quote": "前月10日（土日祝の場合は、直前の開庁日）が申込締切日です。"
+    },
+    "interview": {
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoikuen/nyuuen/ta8032002017101616.files/2026.1-4nyuusyo.pdf",
+      "quote": "※必ず３月末までに面接・健康診断を受けてください。受けられない場合は内定が取り消しになります。"
+    },
+    "interview#2": {
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoikuen/hokatsu.html",
+      "quote": "また、見学の有無が選考において有利、不利になることはありません。"
+    },
+    "notes.0": {
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoikuen/nyuuen/ta8032002017101616.files/2026.1-4nyuusyo.pdf",
+      "quote": "※令和９年１月～４月（一次）入所（転所）申込については出生前申込みを行うため、令和９年２月１７日までに出生（分娩）予定の方も、上記の受付期間となります。"
+    },
+    "notes.1": {
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoikuen/nyuuen/ta8032002017101616.files/2026.1-4nyuusyo.pdf",
+      "quote": "１月から３月までの申込みを希望しない方にもご提出いただきます。"
+    },
+    "notes.2": {
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoikuen/nyuuen/ta8032002017101616.files/2026.1-4nyuusyo.pdf",
+      "quote": "申込み後、希望施設を追加・変更したい場合は、令和８年１２月１０日（木）午後５時までに、「希望認可保育施設（希望園）変更届」を子ども施設課入園係にご提出いただくか、"
+    },
+    "notes.3": {
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoikuen/hokatsu.html",
+      "quote": "4月（一次）の入所申込み時は7か所まで希望可能です。"
+    },
+    "notes.4": {
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoikuen/nyuuen/ta8032002017101616.files/2026.1-4nyuusyo.pdf",
+      "quote": "申込書は令和９年１１月３０日（１２月入所選考）まで有効です。"
+    },
+    "notes.5": {
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoikuen/nyuuen/ta8032002017101616.files/2026.1-4nyuusyo.pdf",
+      "quote": "内定後は、内定を辞退して転所前の認可保育施設へ戻ることはできません。"
+    }
+  },
+  "sources": [
+    {
+      "label": "墨田区「令和9年1月から4月の入所・転所をご希望の方へ」",
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoikuen/nyuuen/ta8032002017101616.html"
+    },
+    {
+      "label": "墨田区「令和9年1月から4月の入所・転所をご希望の方へ」（PDF）",
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoikuen/nyuuen/ta8032002017101616.files/2026.1-4nyuusyo.pdf"
+    },
+    {
+      "label": "墨田区「初めて保活をする方へ（保育施設の利用申込みから入所までの流れ）」",
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoikuen/hokatsu.html"
+    },
+    {
+      "label": "墨田区「認可保育施設入所に係る電子申請の手続き」",
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoikuen/nyuuen/denshishinsei.html"
+    }
+  ]
+}

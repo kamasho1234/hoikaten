@@ -3,60 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "taito",
-    title: "台東区の保活スケジュール　申込から内定までの流れ",
-    description:
-      "台東区の認可保育園の申込時期・選考の流れをわかりやすくまとめました。令和8年度4月入園に向けた動き方を解説します。",
-    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>台東区の4月入園スケジュール</h2>
-<p>台東区の認可保育園は毎年秋に翌年度4月入園の申込を受付けます。「保育利用のご案内」を入手して制度を理解するところから始めましょう。</p>
-
-<h3>保活の全体スケジュール</h3>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content">
-<strong>4月〜6月：情報収集</strong>
-<p>区のホームページで保育園の一覧や前年度の案内を確認します。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content">
-<strong>6月〜9月：保育園見学</strong>
-<p>気になる園に連絡して見学を予約しましょう。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content">
-<strong>9月〜10月：案内を入手・書類準備</strong>
-<p>「保育利用のご案内」を入手し、就労証明書などを準備します。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content">
-<strong>10月〜11月：申込書類の提出</strong>
-<p>締切に余裕をもって提出しましょう。</p>
-</div>
-</div>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>台東区は基本指数が父母各最大20点（合計40点満点）の制度です。勤務時間の細かい区分があるので、就労証明書の記載内容をよく確認しましょう。</p>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/hoikuen/hoikuennogoannai/nyushokijyun.html" target="_blank" rel="noopener">台東区公式サイト</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-03-28",
-    popularity: 55,
-  },
-  {
     slug: "score-up-tips",
     citySlug: "taito",
     title: "台東区で入園点数を上げるコツ　加点チェックリスト",

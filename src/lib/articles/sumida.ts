@@ -3,43 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "sumida",
-    title: "墨田区の保活スケジュール　令和8年度4月入園の流れ",
-    description:
-      "墨田区の認可保育園の申込時期・選考の流れ・結果通知の時期をわかりやすく解説します。",
-    image:
-      "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>令和8年度4月入園のスケジュール</h2>
-<p>墨田区の4月入園は<strong>一次利用調整</strong>と<strong>二次利用調整</strong>の2回に分かれています。</p>
-
-<h3>一次利用調整</h3>
-<table>
-<tr><th>項目</th><th>日程</th></tr>
-<tr><td>申込受付期間</td><td>令和7年11月上旬～12月上旬</td></tr>
-<tr><td>結果通知</td><td>令和8年1月下旬</td></tr>
-</table>
-
-<h3>二次利用調整</h3>
-<table>
-<tr><th>項目</th><th>日程</th></tr>
-<tr><td>申込受付期間</td><td>令和8年1月下旬～2月中旬</td></tr>
-<tr><td>結果通知</td><td>令和8年2月下旬</td></tr>
-</table>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>一次で不承諾だった方は自動的に二次の対象になります。希望園の変更も可能です。</p>
-</div>
-
-<h2>いつから動き始めるべき？</h2>
-<p>見学のベストシーズンは<span class="highlight">6月～9月</span>です。10月以降は混み合うため、早めに動きましょう。</p>`,
-    publishedAt: "2026-03-28",
-    popularity: 55,
-  },
-  {
     slug: "scoring-system-guide",
     citySlug: "sumida",
     title: "墨田区の入園点数のしくみ　基準指数と調整指数をやさしく解説",

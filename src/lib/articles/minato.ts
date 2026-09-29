@@ -3,29 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "minato",
-    title: "港区の保活スケジュール　令和8年度4月入園の流れ",
-    description: "港区の認可保育園の申込時期・選考の流れを解説します。",
-    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>令和8年度4月入園のスケジュール</h2>
-<p>港区の4月入園は<strong>一次利用調整</strong>と<strong>二次利用調整</strong>の2回です。</p>
-<h3>一次利用調整</h3>
-<table>
-<tr><th>項目</th><th>日程</th></tr>
-<tr><td>申込受付期間</td><td>令和7年11月上旬～12月上旬</td></tr>
-<tr><td>結果通知</td><td>令和8年1月下旬</td></tr>
-</table>
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>港区では郵送申請・電子申請にも対応しています。窓口混雑を避けたい方はぜひ活用しましょう。</p>
-</div>`,
-    publishedAt: "2026-03-28",
-    popularity: 55,
-  },
-  {
     slug: "scoring-system-guide",
     citySlug: "minato",
     title: "港区の入園点数のしくみ　基準指数と調整指数を解説",

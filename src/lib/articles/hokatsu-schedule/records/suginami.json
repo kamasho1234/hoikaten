@@ -1,0 +1,178 @@
+{
+  "citySlug": "suginami",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "杉並区「認可保育園（区立・私立保育園）」",
+    "url": "https://www.city.suginami.tokyo.jp/s058/1096.html"
+  },
+  "fiscalYear": "R8",
+  "guideRelease": "「保育施設利用のご案内」（今回の4月入所向けの版）は令和7年10月発行。配布場所は保育課認定・入園係（区役所東棟3階）と子どもセンター（荻窪・高井戸・上井草・和泉の各保健センター、高円寺子ども家庭支援センター）で、区民事務所では配布しない",
+  "firstApply": "令和7年10月1日（水）〜令和7年12月1日（月）午後5時締切",
+  "applyMethods": "原則は電子申請。電子申請が難しい場合は郵送か窓口で提出する。窓口は保育課認定・入園係と子どもセンター",
+  "firstResult": "令和8年1月15日（木）頃に、内定の有無にかかわらず結果のお知らせを郵送",
+  "secondApply": "令和7年12月2日（火）〜令和8年2月2日（月）午後5時締切",
+  "secondResult": "令和8年2月20日（金）頃に結果のお知らせを発送。内定しなかった場合は3月下旬頃に「保育所等利用調整結果通知書（利用不可通知）」を発送",
+  "midYearDeadline": "入所希望月の前月10日（閉庁日の場合は翌開庁日）午後5時まで。1月・2月・4月入所は締切が早まる",
+  "documents": [
+    "保育所等利用申込書 兼 教育・保育給付認定・施設等利用給付認定申請書（4月入所は右上に「4月入所用」と印字された用紙に記入）",
+    "児童の状況（申込児童1人につき1枚）と確認書",
+    "マイナンバー記入用紙（2回目以降の申込みで保育の必要性の認定が有効な場合は不要。電子申請では出せないので窓口か郵送）",
+    "保育の必要性を確認する書類（父母それぞれ1部。就労証明書・診断書・在学証明書などは申込日の前月1日以降に証明・取得したもの）",
+    "育児休業中（取得予定）の場合は育児休業確認書",
+    "これから生まれる予定の児童を申し込む場合（1月・2月・4月入所のみ）は母子健康手帳のコピー（表紙と分娩予定日のページ）"
+  ],
+  "interview": "内定した保育施設で面接と健康診断を受ける。3月末日までに面接と健康診断ができない場合や、健康診断の結果によっては内定が取り消されることがある",
+  "ikukyu": "育児休業給付金の延長のために申し込む場合、何月入所で申し込むかは勤務先担当者かハローワークに確認する。入所希望月の申込締切日までに申し込んでいないと、その月の保育所等利用調整結果通知書は発行されない",
+  "notes": [
+    "障害児保育等の相談・申込みは令和7年10月15日（水）〜10月21日（火）で、二次元コードから事前予約する（1世帯45分以内）",
+    "各施設の募集予定人数は一次が10月15日（水）から窓口・区ホームページで確認でき、二次は1月16日（金）頃に区ホームページで知らせる予定",
+    "やむを得ず申込みを取り下げる場合は12月12日（金）までに取下届を出す",
+    "一次で内定しなかった場合は自動的に二次の利用調整の対象になる",
+    "利用調整は書類に基づく指数で行い、先着順や抽選ではない",
+    "12月・1月・2月の利用調整で内定が出ると、その施設に入所となり4月入所の申込みは取下げ扱いになる"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.suginami.tokyo.jp/documents/1061/20260803r8goannai.pdf",
+      "quote": "ただし、令和8年4月入所分については、審査事務を11月～12月に集中して行うことから、令和8年1月頃の交付となりますので、ご了承ください。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.suginami.tokyo.jp/documents/1061/20260803r8goannai.pdf",
+      "quote": "令和７年１０月発行「令和８年度保育施設利用のご案内」の内容に変更・誤り等がありましたのでお知らせいたします。"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.suginami.tokyo.jp/s058/1096.html",
+      "quote": "保育課 認定・入園係（区役所東棟3階） 子どもセンター 荻窪保健センター4階 高井戸保健センター1階 高円寺子ども家庭支援センター1階 上井草保健センター1階 和泉保健センター1階"
+    },
+    "guideRelease#3": {
+      "url": "https://www.city.suginami.tokyo.jp/s058/1096.html",
+      "quote": "（注意）区民事務所では「保育施設利用のご案内」を配布していませんのでご注意ください。"
+    },
+    "firstApply": {
+      "url": "https://www.city.suginami.tokyo.jp/documents/1061/20260803r8goannai.pdf",
+      "quote": "4 月入所申込受付期間 締切午後5時 一次 令和7年10月 1日（水）〜 令和7年12月 1日（月）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.suginami.tokyo.jp/documents/1061/20260803r8goannai.pdf",
+      "quote": "●原則電子申請で申込みをお願いします。電子申請でのお手続きが難しい場合は、郵送または窓口"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.suginami.tokyo.jp/documents/1061/20260803r8goannai.pdf",
+      "quote": "●保育課認定・入園係と子どもセンターで受け付けております。"
+    },
+    "firstResult": {
+      "url": "https://www.city.suginami.tokyo.jp/documents/1061/20260803r8goannai.pdf",
+      "quote": "1月15日（木）頃に結果のお知らせを発送します。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.suginami.tokyo.jp/s058/1096.html",
+      "quote": "4月入所申し込み：内定の有無にかかわらず結果のお知らせを発送します。（郵送）"
+    },
+    "firstResult#3": {
+      "url": "https://www.city.suginami.tokyo.jp/documents/1061/20260803r8goannai.pdf",
+      "quote": "【1】令和8年4月入所 令和7年 令和8年 10月 12月 1月 2月 3月"
+    },
+    "secondApply": {
+      "url": "https://www.city.suginami.tokyo.jp/documents/1061/20260803r8goannai.pdf",
+      "quote": "二次 令和7年12月 2日（火）〜 令和8年 2月2日（月）"
+    },
+    "secondResult": {
+      "url": "https://www.city.suginami.tokyo.jp/documents/1061/20260803r8goannai.pdf",
+      "quote": "2月20日（金）頃に結果のお知らせを発送します。"
+    },
+    "secondResult#2": {
+      "url": "https://www.city.suginami.tokyo.jp/documents/1061/20260803r8goannai.pdf",
+      "quote": "●3月下旬頃に「保育所等利用調整結果通知書（」利用不可通知）を発送します。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.suginami.tokyo.jp/s058/1096.html",
+      "quote": "入所を希望する月の前月10日（閉庁日の場合は翌開庁日）午後5時までに必要な書類をそろえてお申し込みください。なお、1月、2月と4月の入所については、締め切り日が早まりますのでご注意ください。"
+    },
+    "documents.0": {
+      "url": "https://www.city.suginami.tokyo.jp/documents/1061/20260803r8goannai.pdf",
+      "quote": "※ ４月入所を申し込む方は、右上に４月入所用と印字されたNo.１「保育所等利用申込書 兼 教育保育 給付認定・施設等利用給付認定申請書」に記入してください。"
+    },
+    "documents.1": {
+      "url": "https://www.city.suginami.tokyo.jp/documents/1061/20260803r8goannai.pdf",
+      "quote": "② 児童の状況 ※申込児童1人につき1枚ご用意ください。 ③ 確認書"
+    },
+    "documents.2": {
+      "url": "https://www.city.suginami.tokyo.jp/documents/1061/20260803r8goannai.pdf",
+      "quote": "④ マイナンバー記入用紙 ※２回目以降の申込みで、保育の必要性の認定が有効な方は不要です。"
+    },
+    "documents.2#2": {
+      "url": "https://www.city.suginami.tokyo.jp/documents/1061/20260803r8goannai.pdf",
+      "quote": "なお④は電子申請で提出できないため、窓口へ持参または郵送での提 出をお願いします。"
+    },
+    "documents.3": {
+      "url": "https://www.city.suginami.tokyo.jp/documents/1061/20260803r8goannai.pdf",
+      "quote": "[注意] 就労証明書、診断書（保育の必要性の認定用）、在学証明書、就学証明書等は、申込日の前月1日以降に証明 ･取得したものを提出してください。"
+    },
+    "documents.3#2": {
+      "url": "https://www.city.suginami.tokyo.jp/documents/1061/20260803r8goannai.pdf",
+      "quote": "保護者(父･母)ともに各1部ずつご用意ください。"
+    },
+    "documents.4": {
+      "url": "https://www.city.suginami.tokyo.jp/documents/1061/20260803r8goannai.pdf",
+      "quote": "※育児休業中（取得予定）の方は、【5】その他必要書類の育児休業確認書を提出してください。"
+    },
+    "documents.5": {
+      "url": "https://www.city.suginami.tokyo.jp/documents/1061/20260803r8goannai.pdf",
+      "quote": "これから生まれる予定の児童の申込みをする ・母子健康手帳のコピー（表紙と分娩予定日が記載されているページ） ※P33参照 方（1月、2月、4月入所申込希望の場合のみ）"
+    },
+    "interview": {
+      "url": "https://www.city.suginami.tokyo.jp/documents/1061/20260803r8goannai.pdf",
+      "quote": "●内定した保育施設で、面接と健康診断を受けていただきます。3月末日までに面接と健康診断ができ ない場合や、健康診断の結果によっては、内定が取消しになることがあります。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.suginami.tokyo.jp/documents/1061/20260803r8goannai.pdf",
+      "quote": "Ｑ⑨：育児休業給付金の延長のため、保育園の申込みをする予定ですが、何月入所の申込みをすればよいですか？ Ａ：勤務先担当者またはハローワークにご確認ください。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.suginami.tokyo.jp/documents/1061/20260803r8goannai.pdf",
+      "quote": "入所希望月の申込締切日までに入所申込みを行っていない場合、その月の「保育所等利用調整結果通知書」を 発行することができません。"
+    },
+    "notes.0": {
+      "url": "https://www.city.suginami.tokyo.jp/documents/1061/20260803r8goannai.pdf",
+      "quote": "障害児保育等の相談・申込みの方 令和7年10月15日（水）〜 令和7年10月 21日（火） ※障害児保育等の申込みの方は右の二次元コードから事前予約してください。 （1世帯45分以内）"
+    },
+    "notes.1": {
+      "url": "https://www.city.suginami.tokyo.jp/documents/1061/20260803r8goannai.pdf",
+      "quote": "●各施設の募集予定人数は10月15日（水）から窓口または区ホームページで確認できます。"
+    },
+    "notes.1#2": {
+      "url": "https://www.city.suginami.tokyo.jp/documents/1061/20260803r8goannai.pdf",
+      "quote": "●二次の募集予定人数は1月16日（金）頃に区ホームページでお知らせする予定です。"
+    },
+    "notes.2": {
+      "url": "https://www.city.suginami.tokyo.jp/documents/1061/20260803r8goannai.pdf",
+      "quote": "●やむを得ず、入所・転園申込みを取下げる場合は、12月12日（金）までに取下届を提出してください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.suginami.tokyo.jp/documents/1061/20260803r8goannai.pdf",
+      "quote": "●利用調整（一次）で内定しなかった場合は、自動的に利用調整（二次）の対象となります。"
+    },
+    "notes.4": {
+      "url": "https://www.city.suginami.tokyo.jp/documents/1061/20260803r8goannai.pdf",
+      "quote": "●提出された書類に基づき、指数をつけ、利用調整を行います（。先着順や抽選ではありません。）"
+    },
+    "notes.5": {
+      "url": "https://www.city.suginami.tokyo.jp/documents/1061/20260803r8goannai.pdf",
+      "quote": "●12月、1月、2月の利用調整で内定が出ると、その内定した施設に入所となるため、4月入所申込みは取下げ扱いと"
+    }
+  },
+  "sources": [
+    {
+      "label": "杉並区「認可保育園（区立・私立保育園）」",
+      "url": "https://www.city.suginami.tokyo.jp/s058/1096.html"
+    },
+    {
+      "label": "杉並区「保育施設利用のご案内」",
+      "url": "https://www.city.suginami.tokyo.jp/s058/1061.html"
+    },
+    {
+      "label": "杉並区「令和8年度 保育施設利用のご案内・正誤表」（PDF）",
+      "url": "https://www.city.suginami.tokyo.jp/documents/1061/20260803r8goannai.pdf"
+    }
+  ]
+}

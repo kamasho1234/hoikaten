@@ -7,12 +7,18 @@ import ageo from "./ageo.json";
 import akashi from "./akashi.json";
 import akita from "./akita.json";
 import aomori from "./aomori.json";
+import arakawa from "./arakawa.json";
 import asahikawa from "./asahikawa.json";
 import atsugi from "./atsugi.json";
 import ayase from "./ayase.json";
+import bunkyo from "./bunkyo.json";
 import chigasaki from "./chigasaki.json";
 import chikushino from "./chikushino.json";
+import chiyoda from "./chiyoda.json";
+import chofu from "./chofu.json";
+import chuo from "./chuo.json";
 import edogawa from "./edogawa.json";
+import fuchu from "./fuchu.json";
 import fuji from "./fuji.json";
 import fujimino from "./fujimino.json";
 import fujisawa from "./fujisawa.json";
@@ -75,7 +81,10 @@ import matsudo from "./matsudo.json";
 import matsue from "./matsue.json";
 import matsumoto from "./matsumoto.json";
 import matsuyama from "./matsuyama.json";
+import meguro from "./meguro.json";
+import minato from "./minato.json";
 import misato from "./misato.json";
+import mitaka from "./mitaka.json";
 import mito from "./mito.json";
 import miyazaki from "./miyazaki.json";
 import moriguchi from "./moriguchi.json";
@@ -85,6 +94,7 @@ import nagaokakyo from "./nagaokakyo.json";
 import nagasaki from "./nagasaki.json";
 import nagoya from "./nagoya.json";
 import naha from "./naha.json";
+import nakano from "./nakano.json";
 import nara from "./nara.json";
 import nasushiobara from "./nasushiobara.json";
 import nerima from "./nerima.json";
@@ -115,18 +125,24 @@ import sayama from "./sayama.json";
 import sendai from "./sendai.json";
 import setagaya from "./setagaya.json";
 import settsu from "./settsu.json";
+import shibuya from "./shibuya.json";
 import shimonoseki from "./shimonoseki.json";
 import shinagawa from "./shinagawa.json";
+import shinjuku from "./shinjuku.json";
 import shizuoka from "./shizuoka.json";
 import soka from "./soka.json";
+import suginami from "./suginami.json";
 import suita from "./suita.json";
+import sumida from "./sumida.json";
 import suzuka from "./suzuka.json";
+import taito from "./taito.json";
 import takamatsu from "./takamatsu.json";
 import takarazuka from "./takarazuka.json";
 import takasaki from "./takasaki.json";
 import takatsuki from "./takatsuki.json";
 import tokorozawa from "./tokorozawa.json";
 import tokushima from "./tokushima.json";
+import toshima from "./toshima.json";
 import tottori from "./tottori.json";
 import toyama from "./toyama.json";
 import toyohashi from "./toyohashi.json";
@@ -153,12 +169,18 @@ export const hokatsuRecords: HokatsuRecord[] = [
   akashi as HokatsuRecord,
   akita as HokatsuRecord,
   aomori as HokatsuRecord,
+  arakawa as HokatsuRecord,
   asahikawa as HokatsuRecord,
   atsugi as HokatsuRecord,
   ayase as HokatsuRecord,
+  bunkyo as HokatsuRecord,
   chigasaki as HokatsuRecord,
   chikushino as HokatsuRecord,
+  chiyoda as HokatsuRecord,
+  chofu as HokatsuRecord,
+  chuo as HokatsuRecord,
   edogawa as HokatsuRecord,
+  fuchu as HokatsuRecord,
   fuji as HokatsuRecord,
   fujimino as HokatsuRecord,
   fujisawa as HokatsuRecord,
@@ -221,7 +243,10 @@ export const hokatsuRecords: HokatsuRecord[] = [
   matsue as HokatsuRecord,
   matsumoto as HokatsuRecord,
   matsuyama as HokatsuRecord,
+  meguro as HokatsuRecord,
+  minato as HokatsuRecord,
   misato as HokatsuRecord,
+  mitaka as HokatsuRecord,
   mito as HokatsuRecord,
   miyazaki as HokatsuRecord,
   moriguchi as HokatsuRecord,
@@ -231,6 +256,7 @@ export const hokatsuRecords: HokatsuRecord[] = [
   nagasaki as HokatsuRecord,
   nagoya as HokatsuRecord,
   naha as HokatsuRecord,
+  nakano as HokatsuRecord,
   nara as HokatsuRecord,
   nasushiobara as HokatsuRecord,
   nerima as HokatsuRecord,
@@ -261,18 +287,24 @@ export const hokatsuRecords: HokatsuRecord[] = [
   sendai as HokatsuRecord,
   setagaya as HokatsuRecord,
   settsu as HokatsuRecord,
+  shibuya as HokatsuRecord,
   shimonoseki as HokatsuRecord,
   shinagawa as HokatsuRecord,
+  shinjuku as HokatsuRecord,
   shizuoka as HokatsuRecord,
   soka as HokatsuRecord,
+  suginami as HokatsuRecord,
   suita as HokatsuRecord,
+  sumida as HokatsuRecord,
   suzuka as HokatsuRecord,
+  taito as HokatsuRecord,
   takamatsu as HokatsuRecord,
   takarazuka as HokatsuRecord,
   takasaki as HokatsuRecord,
   takatsuki as HokatsuRecord,
   tokorozawa as HokatsuRecord,
   tokushima as HokatsuRecord,
+  toshima as HokatsuRecord,
   tottori as HokatsuRecord,
   toyama as HokatsuRecord,
   toyohashi as HokatsuRecord,

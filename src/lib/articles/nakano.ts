@@ -407,64 +407,6 @@ const articles: Article[] = [
     popularity: 60,
   },
   {
-    slug: "hokatsu-schedule",
-    citySlug: "nakano",
-    title: "中野区の保活スケジュール　令和8年度4月入園の流れ",
-    description:
-      "中野区の認可保育園の申込時期・選考の流れ・結果通知の時期をわかりやすく解説します。",
-    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>令和8年度（2026年度）4月入園のスケジュール</h2>
-<p>中野区の4月入園は<strong>一次選考</strong>と<strong>二次選考</strong>の2回に分かれています。</p>
-
-<h3>一次選考</h3>
-<table>
-<tr><th>項目</th><th>日程</th></tr>
-<tr><td>申込受付期間</td><td>令和7年11月上旬〜12月上旬</td></tr>
-<tr><td>結果通知</td><td>令和8年1月下旬</td></tr>
-</table>
-
-<h3>二次選考</h3>
-<table>
-<tr><th>項目</th><th>日程</th></tr>
-<tr><td>申込受付期間</td><td>令和8年1月下旬〜2月中旬</td></tr>
-<tr><td>結果通知</td><td>令和8年2月下旬〜3月上旬</td></tr>
-</table>
-
-<h2>いつから動き始めるべき？</h2>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content">
-<strong>4月〜5月：情報収集スタート</strong>
-<p>中野区の「保育所等のごあんない」を入手し、制度を理解しましょう。</p>
-</div>
-</div>
-
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content">
-<strong>6月〜9月：保育園見学</strong>
-<p>気になる園に電話して見学予約。この時期がベストシーズンです。</p>
-</div>
-</div>
-
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content">
-<strong>10月〜11月：書類準備・提出</strong>
-<p>就労証明書などの書類を揃えて提出します。</p>
-</div>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>最新スケジュールは<a href="https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/hoikuen/nyuuen/dai1jisenko.html" target="_blank" rel="noopener">中野区公式サイト「4月入園申込みについて」</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-03-28",
-    popularity: 55,
-  },
-  {
     slug: "hoikuryo-keisan",
     citySlug: "nakano",
     title: "中野区の保育料計算【令和8年度版】年収別シミュレーション・早見表",

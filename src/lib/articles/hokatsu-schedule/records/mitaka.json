@@ -1,0 +1,223 @@
+{
+  "citySlug": "mitaka",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "三鷹市「令和9年4月1日保育園入園・転園申込みについて」",
+    "url": "https://www.city.mitaka.lg.jp/c_service/120/120690.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "4月入所の保育所等入所案内を9月1日（火曜日）から市役所の子ども育成課 保育園入所・認定係（本庁舎4階45番窓口）などで配布。みたかきっずナビからもダウンロードできる",
+  "firstApply": "令和8年9月24日（木曜日）〜令和8年10月19日（月曜日）。紙申込みは10月19日必着、電子申込みは10月19日午後5時までに送信完了。不足・追加書類の提出期限は令和8年10月30日（金曜日）（紙は必着、電子は午後5時までに送信完了）",
+  "applyMethods": "紙の申込書を郵送するか、子ども育成課（市役所本庁舎4階45番窓口）の「認可保育所入所申込箱」に投函する。またはLoGoフォームで電子申込み（申込時点で三鷹市に住民登録がある世帯のみ）。窓口での書類確認は行わず、夜間休日窓口・市政窓口では受け付けない",
+  "firstResult": "令和9年1月中旬に郵送予定。内定の有無にかかわらず送付され、内定していない場合は2次入所選考のお知らせが届く",
+  "secondApply": "令和9年1月7日（木曜日）〜2月5日（金曜日）。紙申込みは2月5日必着、電子申込みは2月5日午後5時までに送信完了。1次で申し込んだ人は再申込み不要（希望園を変える場合は期間内に保育所等入所申込変更届を提出）",
+  "secondResult": "令和9年2月26日（金曜日）に内定者のみ郵送予定。内定しなかった人には3月下旬に「保育所等入所（転所）不承諾通知書」を郵送予定",
+  "midYearDeadline": "5月〜翌年3月の入所は、入所希望月の前月10日まで（郵送は必着。10日が閉庁日なら次の開庁日）。入所は毎月1日付のみ",
+  "documents": [
+    "保育所等入所（転所）申込書 兼 三鷹市子どものための教育・保育給付認定申請書",
+    "児童状況書（申込時点で子どもが出生前の場合は、出生後に提出）",
+    "入所・転所に関する確認票",
+    "マイナンバー関係書類貼付台紙",
+    "三鷹市保育所等入所申込み提出書類添付票",
+    "保育の必要性が確認できる書類（就労の場合は国の様式の就労証明書を入所時点の状況で記入。保護者1・保護者2それぞれ必要。就労先などが発行する証明書の有効期限は発行日から3か月以内）",
+    "前年度分の住民税を証明する書類（令和8年1月1日時点で住民票が三鷹市外にある人のみ）"
+  ],
+  "interview": "内定後に保育所から連絡があり、嘱託医による健康診断・観察保育・面接を行って集団保育に支障がないか確認する。支障があると判断されると内定が取り消されることがある",
+  "ikukyu": "申込書の【育児休業中の方の入所申請確認】で「希望する保育所等に入所できない場合は、育児休業の延長も許容できる」を選ぶと、調整点数で減点される。育休中に申し込んだ場合は、休業前と同じ勤務条件で入所した月の翌月1日までに復職することが入所の条件",
+  "notes": [
+    "令和9年2月12日頃までに出産予定なら、出産予定として4月1日入所に申し込める。ただし出生日が令和9年2月4日以降になると4月1日入所の選考対象外",
+    "令和8年度の入園申込みで待機中の人も、令和9年4月1日からの入園には再度の申込みが必要",
+    "令和9年度4月入所選考から、4・5歳児の選考と内定発表も1次から行う",
+    "1次の内定を持ったまま2次の選考対象にはなれない。2次で改めて選考を希望する場合は、令和9年2月5日までに内定辞退届を出す",
+    "保育方針は園ごとに異なるため、事前の問い合わせや見学が勧められている",
+    "1次入所選考の募集人数は10月1日（木曜日）に子ども育成課窓口と市ホームページで公表予定"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.mitaka.lg.jp/c_service/120/120690.html",
+      "quote": "令和  9  年  4  月  1  日からの入園（転園）を希望する方は、必ず申し込んでください。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.mitaka.lg.jp/c_service/120/120690.html",
+      "quote": "令和9年度保育所等入所案内は、 9 月 1 日（火曜日）から次の場所で配布しています。"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.mitaka.lg.jp/c_service/120/120690.html",
+      "quote": "子ども育成課 保育園入所・認定係（本庁舎 4 階 45 番窓口）"
+    },
+    "guideRelease#3": {
+      "url": "https://www.city.mitaka.lg.jp/c_service/120/120690.html",
+      "quote": "みたかきっずナビ（外部リンク）  からもダウンロードできます。"
+    },
+    "firstApply": {
+      "url": "https://www.city.mitaka.lg.jp/c_service/120/120690.html",
+      "quote": "令和8年9月24日（木曜日）から令和8年10月19日（月曜日）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.mitaka.lg.jp/c_service/120/120690.html",
+      "quote": "令和8年10月19日（月曜日）午後5時までに送信完了"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.mitaka.lg.jp/c_service/120/attached/attach_120615_1.pdf",
+      "quote": "提出期限 令和８年10月30日（金）必着 令和８年10月30日（金）午後5時までに送信完了"
+    },
+    "applyMethods": {
+      "url": "https://www.city.mitaka.lg.jp/c_service/120/120690.html",
+      "quote": "令和9年4月1日1次入所選考の入園・転園申込みは、  紙申込みによる郵送または子ども育成課にある「認可保育所入所申込箱」への提出、もしくはLoGoフォームでの電子申込み（申込時点で三鷹市に住民登録がある世帯が対象）  にてご提出ください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.mitaka.lg.jp/c_service/120/120690.html",
+      "quote": "子ども育成課備え付けの申込箱に直接投函（市役所本庁舎4階 45 番窓口）"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.mitaka.lg.jp/c_service/120/attached/attach_120615_1.pdf",
+      "quote": "なお、窓口での書類確認は行っていません。夜間休日窓口・市政窓口では受付できません。"
+    },
+    "firstResult": {
+      "url": "https://www.city.mitaka.lg.jp/c_service/120/attached/attach_120615_1.pdf",
+      "quote": "（内定の有無に関わらず送付） 令和９年１月中旬郵送予定"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.mitaka.lg.jp/c_service/120/attached/attach_120615_1.pdf",
+      "quote": "＜内定していない場合＞ ２次入所選考のお知らせ"
+    },
+    "secondApply": {
+      "url": "https://www.city.mitaka.lg.jp/c_service/120/120690.html",
+      "quote": "令和9  年  1  月  7  日（木曜日）から令和  9  年  2  月  5  日（金曜日）"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.mitaka.lg.jp/c_service/120/120690.html",
+      "quote": "令和9年2月5日（金曜日）午後5時までに送信完了"
+    },
+    "secondApply#3": {
+      "url": "https://www.city.mitaka.lg.jp/c_service/120/120690.html",
+      "quote": "1次入所選考で申込みをされている方は再度の申込みは不要です。ただし、希望保育所等を変更する場合は、受付期間内に「保育所等入所申込変更届」（三鷹市様式）の提出が必要です。"
+    },
+    "secondApply#4": {
+      "url": "https://www.city.mitaka.lg.jp/c_service/120/120690.html",
+      "quote": "令和9年2月5日（金曜日）必着"
+    },
+    "secondResult": {
+      "url": "https://www.city.mitaka.lg.jp/c_service/120/120690.html",
+      "quote": "令和9年2月26日（金曜日）内定者のみ郵送予定"
+    },
+    "secondResult#2": {
+      "url": "https://www.city.mitaka.lg.jp/c_service/120/120690.html",
+      "quote": "内定しなかった方は 3 月下旬に「保育所等入所（転所）不承諾通知書」を郵送予定"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.mitaka.lg.jp/c_service/120/attached/attach_120615_1.pdf",
+      "quote": "前月申込み期限翌日から入所希望月の前月の 10 日まで（郵送の場合は"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.mitaka.lg.jp/c_service/120/attached/attach_120615_1.pdf",
+      "quote": "（10日が閉庁日にあたる場合は、次の開庁日）"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.mitaka.lg.jp/c_service/120/attached/attach_120615_1.pdf",
+      "quote": "入所は毎月１日付のみで月途中の入所はありません。"
+    },
+    "midYearDeadline#4": {
+      "url": "https://www.city.mitaka.lg.jp/c_service/120/attached/attach_120615_1.pdf",
+      "quote": "１-２ 毎月の入所申込みのながれ（５月～翌年３月）"
+    },
+    "documents.0": {
+      "url": "https://www.city.mitaka.lg.jp/c_service/120/120615.html",
+      "quote": "保育所等入所（転所）申込書　兼　三鷹市子どものための教育・保育給付認定申請書"
+    },
+    "documents.1": {
+      "url": "https://www.city.mitaka.lg.jp/c_service/120/120615.html",
+      "quote": "児童状況書（申込時点で申込児が出生前の場合は、出生後にご提出ください）"
+    },
+    "documents.2": {
+      "url": "https://www.city.mitaka.lg.jp/c_service/120/attached/attach_120615_1.pdf",
+      "quote": "３ 入所・転所に関する確認票（所定様式）"
+    },
+    "documents.3": {
+      "url": "https://www.city.mitaka.lg.jp/c_service/120/attached/attach_120615_1.pdf",
+      "quote": "４ マイナンバー関係書類貼付台紙（所定書式）"
+    },
+    "documents.4": {
+      "url": "https://www.city.mitaka.lg.jp/c_service/120/attached/attach_120615_1.pdf",
+      "quote": "５ 三鷹市保育所等入所申込み提出書類添付票（所定書式）"
+    },
+    "documents.5": {
+      "url": "https://www.city.mitaka.lg.jp/c_service/120/attached/attach_120615_1.pdf",
+      "quote": "就労先などが発行する証明書の有効期限は、発行日から３か月以内です。"
+    },
+    "documents.5#2": {
+      "url": "https://www.city.mitaka.lg.jp/c_service/120/attached/attach_120615_1.pdf",
+      "quote": "保護者１、保護者２それぞれ必要です。保護者２が不存在の場合は、保護者１の書類に加え、ひとり親であることがわかる書類の提出が必要です。"
+    },
+    "documents.5#3": {
+      "url": "https://www.city.mitaka.lg.jp/c_service/120/attached/attach_120615_1.pdf",
+      "quote": "就労証明書 所定様式（国）→入所時点での状況でご記入ください。"
+    },
+    "documents.6": {
+      "url": "https://www.city.mitaka.lg.jp/c_service/120/attached/attach_120615_1.pdf",
+      "quote": "７ 前年度分の住民税を証明する書類（令和８年1月1日時点で住民票が三鷹市外にある方のみ）"
+    },
+    "interview": {
+      "url": "https://www.city.mitaka.lg.jp/c_service/120/attached/attach_120615_1.pdf",
+      "quote": "保育所から内定した児童の保護者へご連絡し、嘱託医による健康診断及び観察保育、面接を実施し、集団保育に支障がないか確認します。"
+    },
+    "interview#2": {
+      "url": "https://www.city.mitaka.lg.jp/c_service/120/attached/attach_120615_1.pdf",
+      "quote": "※ 集団保育に支障があると判断された場合は、内定を取り消すことがあります。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.mitaka.lg.jp/c_service/120/attached/attach_120615_1.pdf",
+      "quote": "『２ 希望する保育所等に入所できない場合は、育児休業の延長も許容できる』を選択している場合、調整点数にて減点されます。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.mitaka.lg.jp/c_service/120/attached/attach_120615_1.pdf",
+      "quote": "申込みをしている児童の育児休業を取得している場合は、休業前と同じ勤務条件（就労規則上の通常勤務日数・時間）で入所した月の翌月１日までに復職することが入所の条件です。"
+    },
+    "notes.0": {
+      "url": "https://www.city.mitaka.lg.jp/c_service/120/120690.html",
+      "quote": "令和9年2月12日（金曜日）頃までに出産予定で、4月1日入所の申込みをご希望の方については、上記の一斉受付期間内に出産予定として申込受付を行います。"
+    },
+    "notes.0#2": {
+      "url": "https://www.city.mitaka.lg.jp/c_service/120/120690.html",
+      "quote": "ただし、出産予定で申込みをした方については、その後出産された日が令和9年2月4日（木曜日）以降になった場合、令和9年度4月1日入所の申込みについては選考対象外となります。"
+    },
+    "notes.1": {
+      "url": "https://www.city.mitaka.lg.jp/c_service/120/120690.html",
+      "quote": "また、令和  8  年度の入園（転園）申込みをされていて待機中の方も再度申込みが必要になります。"
+    },
+    "notes.2": {
+      "url": "https://www.city.mitaka.lg.jp/c_service/120/attached/attach_120615_1.pdf",
+      "quote": "※ 令和９年度４月入所選考より、４、５歳児の選考と内定発表も１次より行います。"
+    },
+    "notes.3": {
+      "url": "https://www.city.mitaka.lg.jp/c_service/120/attached/attach_120615_1.pdf",
+      "quote": "２次で再度選考を希望する場合には、「内定辞退届」（所定様式Ｐ66）を令和９年２月５日（金）までに提出する必要があります。"
+    },
+    "notes.3#2": {
+      "url": "https://www.city.mitaka.lg.jp/c_service/120/attached/attach_120615_1.pdf",
+      "quote": "１次の内定を保持しつつ、２次入所選考の対象となることはできません。"
+    },
+    "notes.4": {
+      "url": "https://www.city.mitaka.lg.jp/c_service/120/attached/attach_120615_1.pdf",
+      "quote": "各保育所等によって保育方針が異なりますので、事前に問い合わせや見学することをお勧めします。"
+    },
+    "notes.5": {
+      "url": "https://www.city.mitaka.lg.jp/c_service/120/120690.html",
+      "quote": "募集人数の公表について、1次入所選考は 10 月 1 日（木曜日）、2次入所選考は 1 月下旬に三鷹市子ども育成課窓口及び三鷹市ホームページにて公表予定です。"
+    }
+  },
+  "sources": [
+    {
+      "label": "三鷹市「令和9年4月1日保育園入園・転園申込みについて」",
+      "url": "https://www.city.mitaka.lg.jp/c_service/120/120690.html"
+    },
+    {
+      "label": "三鷹市「令和9年度 保育所等入所案内 申請書類ダウンロード」",
+      "url": "https://www.city.mitaka.lg.jp/c_service/120/120615.html"
+    },
+    {
+      "label": "三鷹市「令和9年度保育所等入所案内」",
+      "url": "https://www.city.mitaka.lg.jp/c_service/120/attached/attach_120615_1.pdf"
+    }
+  ]
+}

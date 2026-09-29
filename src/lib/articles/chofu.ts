@@ -3,60 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "chofu",
-    title: "調布市の保活スケジュール　申込から内定までの流れ",
-    description:
-      "調布市の認可保育園の申込時期・選考の流れをまとめました。令和8年度4月入園の動き方を解説します。",
-    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>調布市の4月入園スケジュール</h2>
-<p>調布市の認可保育園は毎年10月に翌年度4月入園の一次募集を受付けます。入園案内で制度を確認しましょう。</p>
-
-<h3>保活の全体スケジュール</h3>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content">
-<strong>4月〜6月：情報収集</strong>
-<p>調布市公式サイトや子育て応援サイト「コサイト」で保育園の一覧や前年度の入園案内を確認します。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content">
-<strong>6月〜9月：保育園見学</strong>
-<p>気になる園に連絡して見学を予約しましょう。調布市には認可保育園が多数あります。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content">
-<strong>9月〜10月：入園案内入手・書類準備</strong>
-<p>最新の入園案内を入手し、就労証明書などを準備します。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content">
-<strong>10月：申込書類の提出</strong>
-<p>調布市子ども生活部保育課へ提出します。令和8年度は10月6日から受付開始です。</p>
-</div>
-</div>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>調布市は基本指数が父母各最大30点（合計60点満点）です。週あたりの就労時間を約2時間刻みで判定します。</p>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.chofu.lg.jp/kosodatekyouiku/hoikuservice/index.html" target="_blank" rel="noopener">調布市公式サイト 保育園入園案内</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-04-07",
-    popularity: 60,
-  },
-  {
     slug: "scoring-system-guide",
     citySlug: "chofu",
     title: "調布市の入園点数のしくみ　基本指数と調整指数を解説",

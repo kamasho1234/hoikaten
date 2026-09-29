@@ -1,0 +1,199 @@
+{
+  "citySlug": "chuo",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "中央区「認可保育所　申し込み手続き」",
+    "url": "https://www.city.chuo.lg.jp/a0021/kosodate/kosodate/hoikuen/hoiku/ninkahoiku/ninkahoikujo.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年11月2日（月曜日）〜11月30日（月曜日）（令和9年4月入園の第1回受付）",
+  "applyMethods": "窓口（中央区役所6階保育課保育入園係、日本橋・月島・晴海特別出張所、中央区保健所、日本橋・月島・晴海保健センター、区内認可保育所・認定こども園・小規模保育事業所・事業所内保育事業所。受付時間は午前8時30分〜午後5時）、郵送（中央区役所保育課保育入園係宛て。受付期間最終日必着で消印有効ではない）、電子申請（受付期間終了日の午後11時59分まで）。ファックス・メールでは受け付けない",
+  "secondApply": "令和9年2月1日（月曜日）〜2月12日（金曜日）（令和9年4月入園の第2回受付）",
+  "documents": [
+    "子どものための教育・保育給付認定申請書 兼 保育所入所申込書（全員）",
+    "保育の必要性を証明する書類（全員。利用希望月の初日から半年以内に発行されたものが有効）",
+    "就労の場合は就労証明書（区指定の書式で作成するよう就労先に依頼する。就労先が複数あれば1カ所につき1枚）",
+    "兄弟姉妹入所（転園）条件確認表（兄弟姉妹で入所・転園を申し込む場合）",
+    "マイナンバー制度に伴う確認書類（全員）",
+    "提出書類チェックシート（全員）",
+    "中央区に転入予定の場合は、転入の予定を確認できる書類、申込児童の生年月日が確認できる書類、住民税課税（非課税）証明書"
+  ],
+  "interview": "内定すると郵送または電話で内定園と利用前の面接・健康診断が知らされ、利用開始前に子どもの面接・健康診断を保育園で受ける。園の見学は月〜金曜日（祝日・年末年始を除く）の午前10時〜午後4時の間で、直接園に問い合わせる",
+  "ikukyu": "申込書の「希望する保育所等に入所できない場合は、育児休業の延長も許容できる。」欄は、保護者の意思で利用調整の順位を下げる取り扱いになる。入所保留通知書は申込み初月のみ発行し、翌月以降の分が必要なら発行依頼書を出す。育児休業給付金の期間延長申請では申込書の全ページの写しが必要になるので、区に出す前に写しを取っておく",
+  "notes": [
+    "受付期間外に申請すると、入所希望月の翌月からの入所選考対象になる",
+    "4月入所の申込期間中は窓口が大変混み合うため、郵送か電子申請が勧められている",
+    "受付期間最終日の時点で申請書と保育の必要性を証明する書類が出ていないと、利用調整の対象にならない",
+    "希望する保育園の順位は入りやすさに影響せず、複数の希望園を書くほど内定の可能性が高くなる",
+    "中央区内の認可保育施設であれば、希望できる園の地域や数に制限はない",
+    "3月利用は取り扱わない"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.chuo.lg.jp/a0021/kosodate/kosodate/hoikuen/hoiku/ninkahoiku/ninkahoikujo.html",
+      "quote": "令和8年11月から令和9年4月入園の申込受付期間は下表のとおりです。"
+    },
+    "firstApply": {
+      "url": "https://www.city.chuo.lg.jp/a0021/kosodate/kosodate/hoikuen/hoiku/ninkahoiku/ninkahoikujo.html",
+      "quote": "令和9年4月 第1回：令和8年11月2日（月曜日）から30日（月曜日）まで"
+    },
+    "secondApply": {
+      "url": "https://www.city.chuo.lg.jp/a0021/kosodate/kosodate/hoikuen/hoiku/ninkahoiku/ninkahoikujo.html",
+      "quote": "第1回：令和8年11月2日（月曜日）から30日（月曜日）まで 第2回：令和9年  2月1日（月曜日）から12日（金曜日）まで"
+    },
+    "applyMethods": {
+      "url": "https://www.city.chuo.lg.jp/documents/4723/qa.pdf",
+      "quote": "窓口での受付けは、中央区役所６階保育課保育入園係、日本橋・月島・晴海特別出張所、中央区保健所、日本橋・月島・晴海保健センターで行っています。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.chuo.lg.jp/documents/4723/qa.pdf",
+      "quote": "また、区内認可保育所・認定こども園、小規模保育事業所、事業所内保育事業所でもお申込みいただけます。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.chuo.lg.jp/a0021/kosodate/kosodate/hoikuen/hoiku/ninkahoiku/ninkahoikujo.html",
+      "quote": "受付時間は、午前8時30分から午後5時までです。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.chuo.lg.jp/a0021/kosodate/kosodate/hoikuen/hoiku/ninkahoiku/ninkahoikujo.html",
+      "quote": "注記2：郵送提出は、受付期間最終日必着です。消印有効ではありません。"
+    },
+    "applyMethods#5": {
+      "url": "https://www.city.chuo.lg.jp/a0021/kosodate/kosodate/hoikuen/hoiku/ninkahoiku/ninkahoikujo.html",
+      "quote": "（令和8年1・2・4月から受付期間終了日の午後11時59分までとなります。）"
+    },
+    "applyMethods#6": {
+      "url": "https://www.city.chuo.lg.jp/a0021/kosodate/kosodate/hoikuen/hoiku/ninkahoiku/ninkahoikujo.html",
+      "quote": "ファックス・メールでの受け付けは行っていません。"
+    },
+    "applyMethods#7": {
+      "url": "https://www.city.chuo.lg.jp/a0021/kosodate/kosodate/hoikuen/hoiku/ninkahoiku/ninkahoikujo.html",
+      "quote": "中央区役所保育課保育入園係　宛"
+    },
+    "documents.0": {
+      "url": "https://www.city.chuo.lg.jp/documents/4723/p13~18.pdf",
+      "quote": "①◆子どものための教育・保育給付認定申請書 兼 保育所入所申込書 全 員"
+    },
+    "documents.1": {
+      "url": "https://www.city.chuo.lg.jp/documents/4723/p13~18.pdf",
+      "quote": "②保育の必要性を証明する書類 全 員"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.chuo.lg.jp/documents/4723/p13~18.pdf",
+      "quote": "有 効 期 間 :利用希望月の初日から半年以内に発行された書類"
+    },
+    "documents.2": {
+      "url": "https://www.city.chuo.lg.jp/documents/4723/p13~18.pdf",
+      "quote": "・区指定の書式で作成するよう就労先に依頼してください（P112に記入例があります。）。"
+    },
+    "documents.2#2": {
+      "url": "https://www.city.chuo.lg.jp/documents/4723/p13~18.pdf",
+      "quote": "・就労先が複数ある場合は、就労先1カ所につき１枚ずつご提出ください。"
+    },
+    "documents.3": {
+      "url": "https://www.city.chuo.lg.jp/documents/4723/p13~18.pdf",
+      "quote": "③◆兄弟姉妹入所（転園）条件確認表 兄弟姉妹で入所（転園）を申し込む方"
+    },
+    "documents.4": {
+      "url": "https://www.city.chuo.lg.jp/documents/4723/p13~18.pdf",
+      "quote": "⑨マイナンバー制度に伴う確認書類 全 員"
+    },
+    "documents.5": {
+      "url": "https://www.city.chuo.lg.jp/documents/4723/p13~18.pdf",
+      "quote": "⑩◆提出書類チェックシート 全 員"
+    },
+    "documents.6": {
+      "url": "https://www.city.chuo.lg.jp/documents/4723/p13~18.pdf",
+      "quote": "◎中央区に転入予定で申し込む方は⑥〜⑧を必ずご提出ください。"
+    },
+    "documents.6#2": {
+      "url": "https://www.city.chuo.lg.jp/documents/4723/p13~18.pdf",
+      "quote": "⑥転入の予定を確認できる書類 中央区に転入予定の方"
+    },
+    "documents.6#3": {
+      "url": "https://www.city.chuo.lg.jp/documents/4723/p13~18.pdf",
+      "quote": "⑦申込児童の生年月日が確認できる書類 中央区に転入予定の方"
+    },
+    "documents.6#4": {
+      "url": "https://www.city.chuo.lg.jp/documents/4723/p13~18.pdf",
+      "quote": "⑧住民税課税（非課税）証明書"
+    },
+    "interview": {
+      "url": "https://www.city.chuo.lg.jp/documents/16297/r8goannnai.pdf",
+      "quote": "郵送または電話で内定した園および利用前の面接・健康診断についてお知らせします。"
+    },
+    "interview#2": {
+      "url": "https://www.city.chuo.lg.jp/documents/16297/r8goannnai.pdf",
+      "quote": "利用開始前にお子さんの面接・健康診断を保育園で受けていただきます。"
+    },
+    "interview#3": {
+      "url": "https://www.city.chuo.lg.jp/documents/4723/qa.pdf",
+      "quote": "月～金曜日（祝日・年末年始を除く）の午前１０時～午後４時の間で、直接園にお問い合わせください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.chuo.lg.jp/documents/4723/qa.pdf",
+      "quote": "申込書の「希望する保育所等に入所できない場合は、育児休業の延長も許容できる。」欄については、保護者の意思で利用調整の順位を下げる取り扱いをするものであり"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.chuo.lg.jp/a0021/kosodate/kosodate/hoikuen/hoiku/ninkahoiku/sinki.html",
+      "quote": "入所保留通知書は申込み初月のみ発行いたします。翌月以降の入所保留通知書が必要な場合は、保留通知書・徴収証明書等発行依頼書"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.chuo.lg.jp/a0021/kosodate/kosodate/hoikuen/hoiku/ninkahoiku/ikukyuuenntyou.html",
+      "quote": "育児休業給付金の期間延長申請において、就労先またはハローワークへ「子どものための教育・保育給付認定申請書 兼 保育所入所申込書」の全ページの写しの提出が必要になるため、事前に写しを取った上で区へご提出ください"
+    },
+    "notes.0": {
+      "url": "https://www.city.chuo.lg.jp/a0021/kosodate/kosodate/hoikuen/hoiku/ninkahoiku/ninkahoikujo.html",
+      "quote": "なお、受付期間外に申請された場合は、入所希望月の翌月からの入所選考対象となります"
+    },
+    "notes.1": {
+      "url": "https://www.city.chuo.lg.jp/a0021/kosodate/kosodate/hoikuen/hoiku/ninkahoiku/ninkahoikujo.html",
+      "quote": "4月入所の申し込み期間中は、窓口が大変混み合いますので、郵送による提出または電子申請をおすすめします。"
+    },
+    "notes.2": {
+      "url": "https://www.city.chuo.lg.jp/documents/4723/p13~18.pdf",
+      "quote": "◎受付期間最終日時点で①と②の書類の提出がない場合は利用調整の対象になりません。"
+    },
+    "notes.3": {
+      "url": "https://www.city.chuo.lg.jp/documents/4723/qa.pdf",
+      "quote": "中央区の利用調整の方法（Q4-2参照）では、複数の希望園名を記入することで内定する可能性が高くなります。"
+    },
+    "notes.3#2": {
+      "url": "https://www.city.chuo.lg.jp/documents/4723/qa.pdf",
+      "quote": "中央区の利用調整の方法（Q4-2参照）では、希望する保育園の順位は、入所しやすさには影響しません。"
+    },
+    "notes.4": {
+      "url": "https://www.city.chuo.lg.jp/documents/4723/qa.pdf",
+      "quote": "中央区内の認可保育施設であれば、希望できる保育園の地域や数に制限はありません。"
+    },
+    "notes.5": {
+      "url": "https://www.city.chuo.lg.jp/a0021/kosodate/kosodate/hoikuen/hoiku/ninkahoiku/ninkahoikujo.html",
+      "quote": "なお、3月利用は取り扱いません。"
+    }
+  },
+  "sources": [
+    {
+      "label": "中央区「認可保育所　申し込み手続き」",
+      "url": "https://www.city.chuo.lg.jp/a0021/kosodate/kosodate/hoikuen/hoiku/ninkahoiku/ninkahoikujo.html"
+    },
+    {
+      "label": "中央区「令和8年度保育園のごあんない」P13〜P18",
+      "url": "https://www.city.chuo.lg.jp/documents/4723/p13~18.pdf"
+    },
+    {
+      "label": "中央区「令和8年度保育園のごあんない」",
+      "url": "https://www.city.chuo.lg.jp/documents/16297/r8goannnai.pdf"
+    },
+    {
+      "label": "中央区「申し込みに関するQ＆A」",
+      "url": "https://www.city.chuo.lg.jp/documents/4723/qa.pdf"
+    },
+    {
+      "label": "中央区「保育所入所(転園)を申し込んだ方へ」",
+      "url": "https://www.city.chuo.lg.jp/a0021/kosodate/kosodate/hoikuen/hoiku/ninkahoiku/sinki.html"
+    },
+    {
+      "label": "中央区「育児休業給付金について」",
+      "url": "https://www.city.chuo.lg.jp/a0021/kosodate/kosodate/hoikuen/hoiku/ninkahoiku/ikukyuuenntyou.html"
+    }
+  ]
+}
