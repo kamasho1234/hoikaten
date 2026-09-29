@@ -1,0 +1,195 @@
+{
+  "citySlug": "numazu",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "沼津市「保育所等利用申込みのご案内」",
+    "url": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/topics/nyuusho/index.htm"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "2026年9月30日（水）〜10月2日（金）は市役所1階多目的スペースで、10月5日（月）からは市役所1階こども未来創造課で申込用紙を配布",
+  "firstApply": "2026年10月19日（月）〜10月30日（金）（第1次募集。対象は新規入所または転園を希望する人で、求職要件の人は除く）",
+  "applyMethods": "市役所1階こども未来創造課と戸田こども園の窓口で受付（9時〜16時30分）。マイナポータルの電子申請も使え、受付開始は2026年10月19日。電子申請は内容確認のため各締切日の前日までの申請に協力を求めている",
+  "firstResult": "1月上旬（予定）に結果通知書を送付。4月入所の内定は書面で知らせる",
+  "secondApply": "2026年11月2日（月）〜2027年1月15日（金）（第2次募集。対象は第1次募集で利用保留となった人（転園を除く）と第1次募集に間に合わなかった人。求職要件の人は第2次選考から申込みできる）",
+  "secondResult": "2月下旬（予定）に結果通知書を送付",
+  "midYearDeadline": "入所を希望する月の前月15日（休日の場合は前開庁日）の17時まで",
+  "documents": [
+    "2027年度施設利用申込書兼児童台帳兼現況届（世帯につき1部）",
+    "教育・保育給付認定申請書（児童1人につき1部）",
+    "児童の状況調査票（児童1人につき1部）",
+    "保育を必要とする状況の確認書類（就労証明書など。保護者1人につき1部。父母と、申込児童と同居している60歳未満の祖父母が提出）",
+    "児童手当に係る学校給食費等の徴収（支払）等に関する申出書（世帯につき1部）",
+    "申請にあたっての誓約書（世帯につき1部）",
+    "父・母・申込児童の個人番号カード、通知カードまたは個人番号の記載がある住民票（写しでも可）。通知カードの場合は申請者の身分証明書も持参"
+  ],
+  "interview": "申込み前に希望施設を見学し、実際に通園が可能かどうか確認するよう求めている",
+  "ikukyu": "育休中の人は職場復帰月の前月からに限り保育施設を利用できる。利用が決まったら入所月の翌月末までに職場復帰が必要",
+  "notes": [
+    "選考は先着順ではない。配布開始日・受付開始日は窓口が混雑するので、期間内の都合のよいときに行くよう案内している",
+    "第3次募集は2027年1月18日（月）〜2月26日（金）で、結果通知書の送付は3月下旬予定",
+    "転園の申込みは第1次募集のみ対象",
+    "希望施設は何か所でも申し込めるが、第一希望以外に内定しても辞退しないように選ぶ",
+    "締切後に希望園は変更できない。第1次選考で利用保留となった場合は第2次選考締切日まで変更できる",
+    "選考期間内の保留通知の発行には別途申請が必要"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/topics/nyuusho/doc/goannai.pdf",
+      "quote": "2027年４月入所（園）分の認定証については、審査事務が集中し時間を要することから、審査結果は 2027年１月上旬頃の発送となりますので、ご了承ください。"
+    },
+    "fiscalYear#2": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/topics/nyuusho/index.htm",
+      "quote": "2027年度（令和9年度）保育所等利用申込のご案内の「８.保育施設の利用申込みに必要な書類について（9～10ページ）」をご確認の上お手続きをしてください。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/topics/nyuusho/doc/goannai.pdf",
+      "quote": "202６年9月30日（水）～10月 ２日（金） 市役所1階多目的スペース"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/topics/nyuusho/doc/goannai.pdf",
+      "quote": "202６年10月 ５日（月）～ 市役所1階こども未来創造課"
+    },
+    "firstApply": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/topics/nyuusho/doc/goannai.pdf",
+      "quote": "受付期間 202６年10月19日（月）～202６年10月30日（金）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/topics/nyuusho/doc/goannai.pdf",
+      "quote": "対象者 新規入所（園）または転園を希望する方（求職要件は除く）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/topics/nyuusho/doc/goannai.pdf",
+      "quote": "受付場所 市役所１階こども未来創造課 及び 戸田こども園"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/topics/nyuusho/doc/goannai.pdf",
+      "quote": "受付時間 ９時～16時30分"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/topics/nyuusho/doc/goannai.pdf",
+      "quote": "保育施設の利用申込みは、電子申請（マイナポータル）でもご利用いただくことができます。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/topics/nyuusho/doc/goannai.pdf",
+      "quote": "受付開始日：2026年10月19日（月）"
+    },
+    "applyMethods#5": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/topics/nyuusho/doc/goannai.pdf",
+      "quote": "各締切日の前日までの申請にご協力ください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/topics/nyuusho/doc/goannai.pdf",
+      "quote": "結果通知書の送付 １月上旬予定"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/topics/nyuusho/doc/goannai.pdf",
+      "quote": "※４月入所（園）は書面、５月以降は電話連絡でのお知らせとなります。"
+    },
+    "secondApply": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/topics/nyuusho/doc/goannai.pdf",
+      "quote": "受付期間 202６年11月 ２日（月）～202７年 1月15日（金）"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/topics/nyuusho/doc/goannai.pdf",
+      "quote": "対象者 第１次募集で利用保留となった方（転園を除く） 第１次募集受付期間に申込みが間に合わなかった方"
+    },
+    "secondApply#3": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/topics/nyuusho/doc/goannai.pdf",
+      "quote": "求職要件の方は、第２次選考から申込みが可能となりますので、第１次選考締切日後から第２次選考締切日までにお申込みください。"
+    },
+    "secondResult": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/topics/nyuusho/doc/goannai.pdf",
+      "quote": "結果通知書の送付 ２月下旬予定"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/topics/nyuusho/doc/goannai.pdf",
+      "quote": "入所（園）を希望する月の前月 15 日（休日の場合は前開庁日）の 17 時まで"
+    },
+    "documents.0": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/topics/nyuusho/doc/goannai.pdf",
+      "quote": "2027年度施設利用申込書兼児童台帳兼現況届 世帯につき１部"
+    },
+    "documents.1": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/topics/nyuusho/doc/goannai.pdf",
+      "quote": "教育・保育給付認定申請書 児童1人につき１部"
+    },
+    "documents.2": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/topics/nyuusho/doc/goannai.pdf",
+      "quote": "児童の状況調査票 児童1人につき１部"
+    },
+    "documents.3": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/topics/nyuusho/doc/goannai.pdf",
+      "quote": "保育を必要とする状況の確認書類 保護者1人につき1部"
+    },
+    "documents.3#2": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/topics/nyuusho/doc/goannai.pdf",
+      "quote": "提出が必要な方は、申込児童の父母、申込児童と同居している６０歳未満（202７年 4月 1日現在）の祖父母です。"
+    },
+    "documents.4": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/topics/nyuusho/doc/goannai.pdf",
+      "quote": "児童手当に係る学校給食費等の徴収(支払)等に関する申出書 世帯につき1部"
+    },
+    "documents.5": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/topics/nyuusho/doc/goannai.pdf",
+      "quote": "申請にあたっての誓約書 世帯につき1部"
+    },
+    "documents.6": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/topics/nyuusho/doc/goannai.pdf",
+      "quote": "□父、母及び申込児童の個人番号カード又は通知カードもしくは個人番号の記載がある住民票（写しでも可）"
+    },
+    "documents.6#2": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/topics/nyuusho/doc/goannai.pdf",
+      "quote": "□通知カードをお持ちの方は、申請者の身分証明書(写真入り)1点又は身分証明書(写真無し)2点"
+    },
+    "interview": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/topics/nyuusho/doc/goannai.pdf",
+      "quote": "事前に希望施設の見学を行い、実際に通園が可能かどうか確認をしてから申込みをしてください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/topics/nyuusho/doc/goannai.pdf",
+      "quote": "就労予定及び育休中の方は勤務開始（復帰）月の前月からに限り、保育施設を利用できます。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/topics/nyuusho/doc/goannai.pdf",
+      "quote": "利用が決まった場合、入所（園）月の翌月末までに勤務開始又は職場復帰することが必要です。"
+    },
+    "notes.0": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/topics/nyuusho/index.htm",
+      "quote": "※例年、配布開始日、受付開始日に窓口が混雑しております。選考は先着順ではありませんので、期間内のご都合のよいときにお越しください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/topics/nyuusho/doc/goannai.pdf",
+      "quote": "受付期間 202７年 １月18日（月）～202７年 ２月26日（金）"
+    },
+    "notes.1#2": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/topics/nyuusho/doc/goannai.pdf",
+      "quote": "結果通知書の送付 ３月下旬予定"
+    },
+    "notes.2": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/topics/nyuusho/doc/goannai.pdf",
+      "quote": "※転園は、第１次募集のみ対象となります。"
+    },
+    "notes.3": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/topics/nyuusho/doc/goannai.pdf",
+      "quote": "希望施設は何か所でも申込むことができます。ただし、第一希望以外に内定した場合でも辞退することがないように選んでください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/topics/nyuusho/doc/goannai.pdf",
+      "quote": "締切後に希望園の変更はできませんが、第１次選考で「利用保留」となった場合は、第２次選考締切日まで変更が可能です。"
+    },
+    "notes.5": {
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/topics/nyuusho/doc/goannai.pdf",
+      "quote": "選考期間内の保留通知発行については、別途申請が必要となります。"
+    }
+  },
+  "sources": [
+    {
+      "label": "沼津市「保育所等利用申込みのご案内」",
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/topics/nyuusho/index.htm"
+    },
+    {
+      "label": "沼津市「2027年度（令和9年度）保育施設利用申込みのご案内」",
+      "url": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/topics/nyuusho/doc/goannai.pdf"
+    }
+  ]
+}

@@ -3,60 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "yokosuka",
-    title: "横須賀市の保活スケジュール　申込から内定までの流れ",
-    description:
-      "横須賀市の認可保育園の申込時期・選考の流れをまとめました。令和8年度4月入園の動き方を解説します。",
-    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>横須賀市の4月入園スケジュール</h2>
-<p>横須賀市の認可保育園は毎年10月に翌年度4月入園の申込を受付けます。「保育施設入園案内」を入手して準備しましょう。</p>
-
-<h3>保活の全体スケジュール</h3>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content">
-<strong>4月〜6月：情報収集</strong>
-<p>市のホームページで保育園の一覧を確認します。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content">
-<strong>6月〜9月：保育園見学</strong>
-<p>気になる園に連絡して見学を予約しましょう。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content">
-<strong>9月〜10月：入園案内の入手・書類準備</strong>
-<p>就労証明書などの必要書類を準備します。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content">
-<strong>10月：申込書類の提出</strong>
-<p>子育て支援課の窓口で提出します。申請期間は10月1日〜31日です。</p>
-</div>
-</div>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>横須賀市は「基本指数」（5〜70点）と「優先利用指数」（0〜50点）の合算で選考されます。父母のうち低い方の基本指数がお子さんの指数になる「低い方採用」の制度です。</p>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.yokosuka.kanagawa.jp/2645/nyuuenn.html" target="_blank" rel="noopener">横須賀市公式サイト</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-03-28",
-    popularity: 55,
-  },
-  {
     slug: "scoring-system-guide",
     citySlug: "yokosuka",
     title: "横須賀市の入園点数のしくみ　基本指数と優先利用指数を解説",

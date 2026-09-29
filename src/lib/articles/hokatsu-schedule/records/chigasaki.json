@@ -1,0 +1,198 @@
+{
+  "citySlug": "chigasaki",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "茅ヶ崎市「令和9年度の認可保育所等入所申請について」",
+    "url": "https://www.city.chigasaki.kanagawa.jp/kosodate/1024751/hoikuen/1067792.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年9月11日発行の「保育所等のしおり」に令和9年4月入所の申請内容を掲載。しおりは市役所保育課・各出張所（辻堂駅前含む）・子育て支援センターで配布",
+  "firstApply": "令和9年4月1次は、電子申請が令和8年10月11日（日曜日）〜11月1日（日曜日）、郵送が令和8年10月12日（月曜日）〜10月30日（金曜日）保育課必着。不足書類などの追加提出は令和8年11月10日（17時必着）まで",
+  "applyMethods": "電子申請（市民のみ。保護者のマイナンバーカードと署名用電子証明書の暗証番号が必要）か郵送（茅ヶ崎市保育課 認定給付担当宛て）。窓口での申請書の受付は行わない（保護者が外国籍、保護者に疾病・障がいがある、子どもに障がい・発達の課題がある場合を除く）。転園申請は電子申請の対象外で郵送のみ",
+  "firstResult": "令和9年1月中旬頃に郵送で結果通知。内定は「保育所入所承諾通知書」、待機は4月1次の「保育所入所待機通知書」を送付",
+  "secondApply": "4月2次は令和8年11月2日（月曜日）〜令和9年2月1日（月曜日）。追加書類は令和9年2月10日（水曜日）17時まで",
+  "secondResult": "4月2次は令和9年3月10日以降に結果発送",
+  "midYearDeadline": "年度途中（5月以降）の入所は、入所希望月の前月1日が受付終了",
+  "documents": [
+    "教育・保育給付認定（変更）申請書",
+    "認可保育所等利用申請書",
+    "児童状況確認票（電子申請の場合は申請フォームで入力）",
+    "認可保育所等入所申請に関する同意書",
+    "マイナンバー提出用紙",
+    "保護者ひとりずつの「保育を必要とする事由」がわかる書類（就労証明書など。令和8年8月1日以降に証明されたものが有効）",
+    "申請する児童や世帯の状況で必要になる書類（就労状況等に応じた加点申出書など）"
+  ],
+  "interview": "内定した場合は保育所との入園前面談を済ませ、慣らし保育の日程調整を行う。家庭的保育事業は申請前の見学が必須",
+  "ikukyu": "申請時に「B.希望する認可保育所等に入所できない場合は、育児休業の延長も許容できるため、利用調整点数が下がってもよい」を選択できる。この選択をした人も待機児童数に含めて公表される",
+  "notes": [
+    "申請書類の様式は令和8年度入所申請用から変更されているので、令和9年度入所申請用の書類を使う",
+    "就労証明書などの要件書類は、審査基準日（令和8年11月1日）時点の状況を証明するものを用意する",
+    "郵送申請には110円切手付きの返信用封筒を同封する。同封がないと「郵送受付確認書」が送られない",
+    "入所を希望する施設は最大6施設まで選べる。審査は点数順で先着順ではない",
+    "育児休業中の方は、申請時期を就労先や管轄のハローワークなどに自分で確認する"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.chigasaki.kanagawa.jp/kosodate/1024751/hoikuen/1067792.html",
+      "quote": "令和9年4月1次入所申請の受付を、以下の通りといたします。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.chigasaki.kanagawa.jp/_res/projects/default_project/_page_/001/058/018/oshirase0911.pdf",
+      "quote": "令和９年４月入所申請についての詳しい内容は、令和８年９月11日発行の「保育所等のしおり」をご覧ください。"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.chigasaki.kanagawa.jp/kosodate/1024751/hoikuen/1058018.html",
+      "quote": "市役所保育課・各出張所（辻堂駅前含む）・子育て支援センター"
+    },
+    "firstApply": {
+      "url": "https://www.city.chigasaki.kanagawa.jp/kosodate/1024751/hoikuen/1067792.html",
+      "quote": "申請受付期間（電子）：令和8年10月11日（日曜日）～令和8年11月1日（日曜日）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.chigasaki.kanagawa.jp/kosodate/1024751/hoikuen/1067792.html",
+      "quote": "申請受付期間（郵送）：令和8年10月12日（月曜日）～令和8年10月30日（金曜日）保育課必着"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.chigasaki.kanagawa.jp/kosodate/1024751/hoikuen/1067792.html",
+      "quote": "申請内容の不足・不備により、書類を追加提出する場合は、令和8年11月10日（17時までに必着）まで提出することが可能です。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.chigasaki.kanagawa.jp/kosodate/1024751/hoikuen/1067792.html",
+      "quote": "申請方法：電子（市民のみ）または郵送"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.chigasaki.kanagawa.jp/kosodate/1024751/hoikuen/1067792.html",
+      "quote": "申請をする保護者のマイナンバーカードが必要です。また、署名用電子証明書の暗証番号（英数字6～16桁）も必要です。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.chigasaki.kanagawa.jp/kosodate/1024751/hoikuen/1067792.html",
+      "quote": "茅ヶ崎市茅ヶ崎1－1－1　茅ヶ崎市保育課　認定給付担当　宛"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.chigasaki.kanagawa.jp/kosodate/1024751/hoikuen/1067792.html",
+      "quote": "「申請する保護者が外国籍である場合」「申請する保護者に疾病・障がいがある場合」「入所を希望するお子さんに障がい・発達の課題がある場合」"
+    },
+    "applyMethods#5": {
+      "url": "https://www.city.chigasaki.kanagawa.jp/kosodate/1024751/hoikuen/1067792.html",
+      "quote": "転園申請については電子申請の対象外であるため、郵送での申請が必要です。"
+    },
+    "applyMethods#6": {
+      "url": "https://www.city.chigasaki.kanagawa.jp/kosodate/1024751/hoikuen/1067792.html",
+      "quote": "窓口での申請書の受付は行いません。"
+    },
+    "firstResult": {
+      "url": "https://www.city.chigasaki.kanagawa.jp/_res/projects/default_project/_page_/001/058/018/oshirase0911.pdf",
+      "quote": "結果発送時期 令和９年１月中旬頃に郵送予定"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.chigasaki.kanagawa.jp/_res/projects/default_project/_page_/001/058/018/shiori_20260911.pdf",
+      "quote": "【内定の方】「保育所入所承諾通知書」を送付（入所月は通知に記載あり）"
+    },
+    "firstResult#3": {
+      "url": "https://www.city.chigasaki.kanagawa.jp/_res/projects/default_project/_page_/001/058/018/shiori_20260911.pdf",
+      "quote": "【待機の方】４月１次の「保育所入所待機通知書」を送付"
+    },
+    "secondApply": {
+      "url": "https://www.city.chigasaki.kanagawa.jp/_res/projects/default_project/_page_/001/058/018/shiori_20260911.pdf",
+      "quote": "４月２次 令和８年11月２日（月）～令和９年２月１日（月）23:59までに送信完了"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.chigasaki.kanagawa.jp/kosodate/1024751/hoikuen/1067792.html",
+      "quote": "申請内容変更連絡届（不足書類等の追加提出など）は、【2月2次】令和9年1月8日（金曜日）17時まで、【3月2次・4月2次】令和9年2月10日（水曜日）17時まで、受付を行います。"
+    },
+    "secondResult": {
+      "url": "https://www.city.chigasaki.kanagawa.jp/_res/projects/default_project/_page_/001/058/018/oshirase0911.pdf",
+      "quote": "４月２次 令和９年３月10日以降"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.chigasaki.kanagawa.jp/kosodate/1024751/hoikuen/1067792.html",
+      "quote": "受付終了 入所希望月の前月1日"
+    },
+    "documents.0": {
+      "url": "https://www.city.chigasaki.kanagawa.jp/_res/projects/default_project/_page_/001/058/018/oshirase0911.pdf",
+      "quote": "□ １ 教育・保育給付認定（変更）申請書"
+    },
+    "documents.1": {
+      "url": "https://www.city.chigasaki.kanagawa.jp/_res/projects/default_project/_page_/001/058/018/oshirase0911.pdf",
+      "quote": "□ ２ 認可保育所等利用申請書"
+    },
+    "documents.2": {
+      "url": "https://www.city.chigasaki.kanagawa.jp/_res/projects/default_project/_page_/001/058/018/oshirase0911.pdf",
+      "quote": "□ ３ 児童状況確認票 電子申請の場合は書類提出に代わり、申請フォームでの入力が必要"
+    },
+    "documents.3": {
+      "url": "https://www.city.chigasaki.kanagawa.jp/_res/projects/default_project/_page_/001/058/018/oshirase0911.pdf",
+      "quote": "□ ４ 認可保育所等入所申請に関する同意書"
+    },
+    "documents.4": {
+      "url": "https://www.city.chigasaki.kanagawa.jp/_res/projects/default_project/_page_/001/058/018/oshirase0911.pdf",
+      "quote": "□ ５ マイナンバー提出用紙"
+    },
+    "documents.5": {
+      "url": "https://www.city.chigasaki.kanagawa.jp/_res/projects/default_project/_page_/001/058/018/oshirase0911.pdf",
+      "quote": "□ 保護者ひとりずつの「保育を必要とする事由」がわかる書類 ※令和8年８月1日以降に証明されたものが有効"
+    },
+    "documents.6": {
+      "url": "https://www.city.chigasaki.kanagawa.jp/_res/projects/default_project/_page_/001/058/018/oshirase0911.pdf",
+      "quote": "□ 申請する児童や世帯の状況で必要になる書類（就労状況等に応じた加点申出書など）"
+    },
+    "interview": {
+      "url": "https://www.city.chigasaki.kanagawa.jp/_res/projects/default_project/_page_/001/058/018/shiori_20260911.pdf",
+      "quote": "内定になった場合は保育所との入園前面談を済ませ、慣らし保育の日程調整を行ってください。"
+    },
+    "interview#2": {
+      "url": "https://www.city.chigasaki.kanagawa.jp/_res/projects/default_project/_page_/001/058/018/shiori_20260911.pdf",
+      "quote": "申請前の見学が必須です。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.chigasaki.kanagawa.jp/kosodate/1024751/hoikuen/1004777.html",
+      "quote": "待機児童数には、申請時に「B.希望する認可保育所等に入所できない場合は、育児休業の延長も許容できるため、利用調整点数が下がってもよい」を選択した人数も含まれます。"
+    },
+    "notes.0": {
+      "url": "https://www.city.chigasaki.kanagawa.jp/kosodate/1024751/hoikuen/1067792.html",
+      "quote": "申請書類の様式は、令和8年度入所申請用から変更になっています。令和9年度入所申請用の書類をご利用ください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.chigasaki.kanagawa.jp/kosodate/1024751/hoikuen/1067792.html",
+      "quote": "就労証明書などの要件書類は、審査基準日時点（電子申請受付終了日）の状況を証明する書類を用意してください。"
+    },
+    "notes.1#2": {
+      "url": "https://www.city.chigasaki.kanagawa.jp/kosodate/1024751/hoikuen/1067792.html",
+      "quote": "令和9年4月1次審査基準日：令和8年11月1日(日曜日）"
+    },
+    "notes.2": {
+      "url": "https://www.city.chigasaki.kanagawa.jp/kosodate/1024751/hoikuen/1067792.html",
+      "quote": "110円切手付の返信用封筒を同封してください。同封がない場合、「郵送受付確認書」の郵送はできません。"
+    },
+    "notes.3": {
+      "url": "https://www.city.chigasaki.kanagawa.jp/_res/projects/default_project/_page_/001/058/018/shiori_20260911.pdf",
+      "quote": "先着順ではありません。入所希望する施設は最大6施設まで選択できるので、なるべく多くの施設に入所希望するよう検討してください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.chigasaki.kanagawa.jp/kosodate/1024751/hoikuen/1067792.html",
+      "quote": "育児休業中の方の申請は、必ず、就労先や管轄のハローワークなどに申請時期等をご自身でご確認いただき、漏れや間違いがないよう手続きをしてください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "茅ヶ崎市「令和9年度の認可保育所等入所申請について」",
+      "url": "https://www.city.chigasaki.kanagawa.jp/kosodate/1024751/hoikuen/1067792.html"
+    },
+    {
+      "label": "茅ヶ崎市「保育所等のしおりについて」",
+      "url": "https://www.city.chigasaki.kanagawa.jp/kosodate/1024751/hoikuen/1058018.html"
+    },
+    {
+      "label": "茅ヶ崎市「令和9年4月入所申請等について」（令和8年9月11日）",
+      "url": "https://www.city.chigasaki.kanagawa.jp/_res/projects/default_project/_page_/001/058/018/oshirase0911.pdf"
+    },
+    {
+      "label": "茅ヶ崎市「保育所等のしおり」（令和8年9月11日発行）",
+      "url": "https://www.city.chigasaki.kanagawa.jp/_res/projects/default_project/_page_/001/058/018/shiori_20260911.pdf"
+    },
+    {
+      "label": "茅ヶ崎市「市内の保育所等の待機・空き状況（毎月下旬に更新）」",
+      "url": "https://www.city.chigasaki.kanagawa.jp/kosodate/1024751/hoikuen/1004777.html"
+    }
+  ]
+}

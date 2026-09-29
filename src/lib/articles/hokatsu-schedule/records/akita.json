@@ -1,0 +1,162 @@
+{
+  "citySlug": "akita",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "秋田市「令和8年度保育所などの入所手続きについて」",
+    "url": "https://www.city.akita.lg.jp/kurashi/kosodate/1005999/1009962/1047377.html"
+  },
+  "fiscalYear": "R8",
+  "firstApply": "令和7年11月4日〜11月28日（第1回目審査の申請期間）",
+  "applyMethods": "教育・保育給付認定申請書（兼保育利用申込書）などを受付場所（子ども育成課、子育て相談支援課（アルヴェ5階）、各市民サービスセンター、各公立保育所）に提出する。様式は受付場所と市ホームページにあり、マイナンバーカードを使った電子申請もできる",
+  "firstResult": "第1回目審査は令和8年1月5日から行い、1月下旬に結果を文書で通知",
+  "secondApply": "第2回目審査は令和7年12月1日〜令和8年1月30日。以降、第3回目は令和8年2月2日〜2月27日、第4回目は令和8年3月2日〜3月9日",
+  "secondResult": "第2回目審査は令和8年2月2日から行い、2月下旬に通知",
+  "midYearDeadline": "年度途中審査は原則毎月10日・25日。各審査の申込み期限は審査日の前日（休日の場合は直前の平日）まで。実際の入所日は原則として審査日から約3週間経過後の1日または15日",
+  "documents": [
+    "教育・保育給付認定申請書（兼保育利用申込書）と健康等調査票",
+    "保育の必要性を証明する書類（就労は就労証明書、妊娠・出産は母子健康手帳の写しなど）",
+    "61歳未満の同居祖父母がいる場合は、その人の保育の必要性を証明する書類も必要",
+    "世帯全員のマイナンバー番号確認書類（写し不可）と保護者の身元確認書類",
+    "ひとり親世帯は戸籍全部事項証明書"
+  ],
+  "ikukyu": "育休給付金の延長手続きには、入所申込みで使う教育・保育給付認定申請書（兼保育利用申込書）の写しと、市が発行する「保育所等の利用ができない旨の通知」が必要（発行は子ども育成課に問い合わせ）。入所の意思がないのに延長目的で申し込んだり、やむを得ない理由なく決定（内定）を辞退したりすると、延長が認められない場合がある",
+  "notes": [
+    "入所が決まらなかった場合は年度内に限り継続して審査し、その結果は決定したときだけ通知される",
+    "希望の施設や入所日を変更すると、変更した日が申込日になる",
+    "入所決定後に入所日は変更できず、取下げて申し込み直す必要がある",
+    "育休明けや就労開始の場合は「ならし保育」として職場復帰日（就労開始日）を含む14日前から入所できる",
+    "妊娠中で産休・育休後に職場復帰する人は出産前に仮申込みができ、出産後1か月以内に教育・保育給付認定申請書を出す"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.akita.lg.jp/kurashi/kosodate/1005999/1009962/1047377.html",
+      "quote": "令和8年4月1日以降に、保育所、認定こども園（保育部分）、小規模保育、事業所内保育へ入所を希望するかたの申込みを、次のとおり受付します。"
+    },
+    "firstApply": {
+      "url": "https://www.city.akita.lg.jp/kurashi/kosodate/1005999/1009962/1047377.html",
+      "quote": "第1回目審査 令和7年11月4日～7年11月28日 令和8年1月5日～ 1月下旬"
+    },
+    "applyMethods": {
+      "url": "https://www.city.akita.lg.jp/_res/projects/default_project/_page_/001/047/377/r8nyuusyoannai07.pdf",
+      "quote": "これらの様式は、表紙に記載した受付場所に備え付けているほか、秋田市ホームページにも掲載しています。また、電子申請も可能です。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.akita.lg.jp/kurashi/kosodate/1005999/1009962/1047377.html",
+      "quote": "子育て相談支援課（アルヴェ5階） 9時00分～17時15分 西部市民サービスセンター"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.akita.lg.jp/kurashi/kosodate/1005999/1009962/1047377.html",
+      "quote": "各公立保育所（4カ所） 8時30分～17時00分"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.akita.lg.jp/_res/projects/default_project/_page_/001/047/377/r8nyuusyoannai07.pdf",
+      "quote": "申請は、マイナンバーカードを利用した手続きとなり、専用アプリのインストール等、事前準備が必要となる場合があります。"
+    },
+    "firstResult": {
+      "url": "https://www.city.akita.lg.jp/kurashi/kosodate/1005999/1009962/1047377.html",
+      "quote": "第1回目審査 令和7年11月4日～7年11月28日 令和8年1月5日～ 1月下旬"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.akita.lg.jp/_res/projects/default_project/_page_/001/047/377/r8nyuusyoannai07.pdf",
+      "quote": "利用調整（審査）結果は、文書で通知します。"
+    },
+    "secondApply": {
+      "url": "https://www.city.akita.lg.jp/kurashi/kosodate/1005999/1009962/1047377.html",
+      "quote": "第2回目審査 令和7年12月1日～8年1月30日 令和8年2月2日～ 2月下旬"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.akita.lg.jp/kurashi/kosodate/1005999/1009962/1047377.html",
+      "quote": "第3回目審査 令和8年2月2日～8年2月27日 令和8年3月2日～ 3月上旬"
+    },
+    "secondApply#3": {
+      "url": "https://www.city.akita.lg.jp/kurashi/kosodate/1005999/1009962/1047377.html",
+      "quote": "第4回目審査 令和8年3月2日～8年3月9日 令和8年3月10日～ 3月中旬"
+    },
+    "secondResult": {
+      "url": "https://www.city.akita.lg.jp/kurashi/kosodate/1005999/1009962/1047377.html",
+      "quote": "第2回目審査 令和7年12月1日～8年1月30日 令和8年2月2日～ 2月下旬"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.akita.lg.jp/_res/projects/default_project/_page_/001/047/377/r8nyuusyoannai07.pdf",
+      "quote": "年度途中審査 令和８年３月10日以降、随時受付 原則10日・25日 審査後随時"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.akita.lg.jp/_res/projects/default_project/_page_/001/047/377/r8nyuusyoannai07.pdf",
+      "quote": "各審査の申込み期限は審査日の前日（休日の場合は直前の平日）までとします。"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.akita.lg.jp/kurashi/kosodate/1005999/1009962/1047377.html",
+      "quote": "施設の受入準備のため、年度途中審査による実際の入所日は、審査日から約3週間経過後の1日または15日になります。"
+    },
+    "documents.0": {
+      "url": "https://www.city.akita.lg.jp/_res/projects/default_project/_page_/001/047/377/r8nyuusyoannai07.pdf",
+      "quote": "認定の申請および施設への入所申込みを行うには、「教育・保育給付認定申請書（兼保育利用申込書）」、健康等調査票および必要書類（Ｐ４～５参照）の提出が必要です。"
+    },
+    "documents.1": {
+      "url": "https://www.city.akita.lg.jp/_res/projects/default_project/_page_/001/047/377/r8nyuusyoannai07.pdf",
+      "quote": "就 労 就労証明書 妊娠・出産 母子健康手帳の写し（表紙と出産予定日が確認できる部分）"
+    },
+    "documents.2": {
+      "url": "https://www.city.akita.lg.jp/_res/projects/default_project/_page_/001/047/377/r8nyuusyoannai07.pdf",
+      "quote": "※６１歳未満の同居祖父母がいる場合は、そのかたの分も必要です。"
+    },
+    "documents.3": {
+      "url": "https://www.city.akita.lg.jp/_res/projects/default_project/_page_/001/047/377/r8nyuusyoannai07.pdf",
+      "quote": "世帯全員の番号確認書類（写し不可） 保護者の身元確認書類"
+    },
+    "documents.4": {
+      "url": "https://www.city.akita.lg.jp/_res/projects/default_project/_page_/001/047/377/r8nyuusyoannai07.pdf",
+      "quote": "ひとり親世帯のかた 戸籍全部事項証明書"
+    },
+    "ikukyu": {
+      "url": "https://www.city.akita.lg.jp/kurashi/kosodate/1005999/1009962/1047377.html",
+      "quote": "手続きには、入所申込みで使用する「教育・保育給付認定申請書（兼保育利用申込書）」の写しが必要です。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.akita.lg.jp/kurashi/kosodate/1005999/1009962/1047377.html",
+      "quote": "また、「市区町村が発行する保育所等の利用ができない旨の通知」も併せて必要となります。発行を希望するかたは、子ども育成課までお問い合わせください。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.akita.lg.jp/_res/projects/default_project/_page_/001/047/377/r8nyuusyoannai07.pdf",
+      "quote": "保育所に入所する意思がないのにもかかわらず、育児休業給付金の延長を目的に保育所への申込みを行う場合や、やむを得ない理由なく決定（内定）を辞退した場合は"
+    },
+    "notes.0": {
+      "url": "https://www.city.akita.lg.jp/_res/projects/default_project/_page_/001/047/377/r8nyuusyoannai07.pdf",
+      "quote": "入所が決定しなかったかたは、年度内に限り継続して審査を行います。"
+    },
+    "notes.0#2": {
+      "url": "https://www.city.akita.lg.jp/_res/projects/default_project/_page_/001/047/377/r8nyuusyoannai07.pdf",
+      "quote": "入所が決定しなかったかたの継続審査の結果は、決定したときのみ通知します。"
+    },
+    "notes.1": {
+      "url": "https://www.city.akita.lg.jp/_res/projects/default_project/_page_/001/047/377/r8nyuusyoannai07.pdf",
+      "quote": "希望の施設や入所日を変更した場合は、変更した日が申込日となります。"
+    },
+    "notes.2": {
+      "url": "https://www.city.akita.lg.jp/_res/projects/default_project/_page_/001/047/377/r8nyuusyoannai07.pdf",
+      "quote": "入所決定後の入所日変更はできません。（取下げし、再度申込みが必要です。）"
+    },
+    "notes.3": {
+      "url": "https://www.city.akita.lg.jp/_res/projects/default_project/_page_/001/047/377/r8nyuusyoannai07.pdf",
+      "quote": "育休から復帰したかたや就労が決まったかたは、「ならし保育」として、職場復帰日または就労開始日を含む１４日前から入所することができます。"
+    },
+    "notes.4": {
+      "url": "https://www.city.akita.lg.jp/_res/projects/default_project/_page_/001/047/377/r8nyuusyoannai07.pdf",
+      "quote": "現在妊娠中で、産休・育休取得後に職場復帰するかたは、仮申込みができます。"
+    },
+    "notes.4#2": {
+      "url": "https://www.city.akita.lg.jp/_res/projects/default_project/_page_/001/047/377/r8nyuusyoannai07.pdf",
+      "quote": "※出産後、１か月以内に教育・保育給付認定申請書を提出してください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "秋田市「令和8年度保育所などの入所手続きについて」",
+      "url": "https://www.city.akita.lg.jp/kurashi/kosodate/1005999/1009962/1047377.html"
+    },
+    {
+      "label": "秋田市「令和8年度 教育・保育施設等入所案内（2号・3号認定）」",
+      "url": "https://www.city.akita.lg.jp/_res/projects/default_project/_page_/001/047/377/r8nyuusyoannai07.pdf"
+    }
+  ]
+}

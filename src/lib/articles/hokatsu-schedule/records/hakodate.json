@@ -1,0 +1,144 @@
+{
+  "citySlug": "hakodate",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "函館市「保育所・認定こども園（保育所機能）を利用するときの手続き」",
+    "url": "https://www.city.hakodate.hokkaido.jp/docs/2017051700061/"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年11月16日（月曜日）〜令和8年12月25日（金曜日）。電子申請は12月25日の15時まで。先着順ではないが、最終週（12月21日〜25日）は混雑が予想される",
+  "applyMethods": "申請書を持参するか郵送するほか、マイナポータルの電子申請でも申し込める。提出先は函館市福祉事務所 子どもサービス課で、亀田福祉課と湯川福祉課の窓口でも受け付ける（つつじ保育園は恵山福祉課、南かやべ認定こども園は南茅部福祉課）",
+  "midYearDeadline": "年度途中の入園は利用希望月の2か月前に申請書類を受け付け、利用調整は利用希望月の1か月前に行って結果を知らせる",
+  "documents": [
+    "教育・保育給付認定等申請書（2号・3号認定）。きょうだいで申し込む場合は子どもごとに提出",
+    "保育所および認定こども園（保育所機能）利用申込みにおける確認書",
+    "保護者の保育の利用を必要とする事由を確認するための書類（被雇用者は勤務先に記入を依頼した就労証明書の原本など）",
+    "郵送で提出する場合は本人確認書類の写し（運転免許証やマイナンバーカード、パスポート等）"
+  ],
+  "interview": "申し込む前に、利用を希望する園に直接問い合わせ、子どもと一緒に園を見学する",
+  "ikukyu": "育児休業を切り上げて入所を希望する場合は、就労証明書のほかに申立書（育休切り上げ）を提出する。育休明けや就労が決まっている人は「就労開始予定日の1週間前」の日を入園日として申し込める",
+  "notes": [
+    "書類が不足していると受付ができない",
+    "4月1日から就労や就学が決まっていて、受付期間内に各種証明書を出すのが難しい場合は事前に相談する",
+    "いま保育を利用していて転園を希望する場合も利用調整の対象になるので、受付期間内に書類を出す",
+    "第1希望園を必ず利用できるわけではないので、他に希望する園があれば第3希望まで書く",
+    "「介護等」「災害復旧」「その他」の事由の場合は電子申請の対象にならない",
+    "4月1日入所の利用調整で入所が決まらなかった場合は申請が取り下げとなり、利用調整は継続されない"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2017051700061/",
+      "quote": "令和9年4月1日から新たに保育の利用を希望される場合は， お申込み前の確認事項について をご確認の上，下記「 提出書類 」をそろえてご提出ください。"
+    },
+    "firstApply": {
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2017051700061/",
+      "quote": "令和8年11月16日（月曜日）から令和8年12月25日（金曜日）まで"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2017051700061/",
+      "quote": "※電子申請受付時間は， 令和8年11月16日（月曜日）～令和8年12月25日（金曜日）15時 まで となりますので，ご注意ください。"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2017051700061/",
+      "quote": "先着順ではありませんが ， 最終週（12月21日（月曜日）から12月25日（金曜日）まで）は混雑することが予想されますので，お早めにお申込みください 。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2017051700061/",
+      "quote": "教育・保育給付認定の申請や保育の利用申込みは，申請書の持参や郵送の方法によるほか，政府が運営するマイナポータルの機能を活用した電子申請も可能です。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2017051700061/",
+      "quote": "（亀田福祉課と湯川福祉課の窓口でも申請書類の配布と受付を行っています。）"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2017051700061/",
+      "quote": "認定こども園つつじ保育園 ： 函館市福祉事務所 恵山福祉課 ( 0138-85-2335 ）"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2017051700061/",
+      "quote": "南かやべ認定こども園：函館市福祉事務所 南茅部福祉課（ 0138-25-6045 ）"
+    },
+    "applyMethods#5": {
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2017051700061/",
+      "quote": "函館市福祉事務所 子どもサービス課（ 0138-21-3270 ）"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2017051700061/",
+      "quote": "利用希望月の2か月前に申請書類の受付を行います。"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2017051700061/",
+      "quote": "利用園を決定する利用調整は，利用希望月の1か月前に行い，結果をお知らせいたします。"
+    },
+    "documents.0": {
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2017051700061/",
+      "quote": "また，きょうだいでお申込みされる場合，子どもごとに下記「 1 教育・保育給付認定等申請書（2号・3号認定）」をご提出ください。"
+    },
+    "documents.1": {
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2017051700061/",
+      "quote": "２ 保育所および認定こども園（保育所機能）利用申込みにおける確認書"
+    },
+    "documents.2": {
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2017051700061/",
+      "quote": "→勤務先に記入を依頼し, 原本を提出してください。"
+    },
+    "documents.2#2": {
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2017051700061/",
+      "quote": "３ 保護者（父母等）の保育の利用を必要とする事由を確認するための書類"
+    },
+    "documents.3": {
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2017051700061/",
+      "quote": "本人確認書類の写し（運転免許証やマイナンバーカード，パスポート等）"
+    },
+    "interview": {
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2017051700061/",
+      "quote": "お申込み前に，利用を希望する園に直接お問合せの上，お子さまと一緒に園を見学してください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2017051700061/",
+      "quote": "※育児休業を切り上げて，入所を希望する場合は，就労証明書のほか， ５その他の添付書類（該当する場合のみ） の申立書を提出してください。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2017051700061/",
+      "quote": "なお，育児休業明けの方や就労が決定している方については，「就労開始予定日の1週間前」の日を，入園日として利用申込みをすることが可能です。"
+    },
+    "notes.0": {
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2017051700061/",
+      "quote": "※ 不足書類があった場合，受付ができません のでご注意ください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2017051700061/",
+      "quote": "4月1日から就労や就学が決まっていて，受付期間内に各種証明書を提出することが難しい場合等については，事前にご相談ください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2017051700061/",
+      "quote": "また，現在，保育を利用している方が転園を希望する場合も，利用調整の対象となりますので， 受付期間内に書類を提出してください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2017051700061/",
+      "quote": "必ずしも第1希望園を利用できるわけではありません。第1希望園の利用が不可となった際，他に利用を希望される園がある場合は，必ず第3希望までご記入ください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2017051700061/",
+      "quote": "保育の利用を必要とする事由が「介護等」，「災害復旧」および「その他」の場合は電子申請の対象となりません。"
+    },
+    "notes.5": {
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2017051700061/file_contents/file_202511263142920_1.pdf",
+      "quote": "４月１日入所の利用調整で入所が決まらなかった方は，申請が取り下げとなります。"
+    },
+    "notes.5#2": {
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2017051700061/file_contents/file_202511263142920_1.pdf",
+      "quote": "利用調整の継続は行われませんので，年度途中の入所を希望する方は，あらためて申請が必要です。"
+    }
+  },
+  "sources": [
+    {
+      "label": "函館市「保育所・認定こども園（保育所機能）を利用するときの手続き」",
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2017051700061/"
+    },
+    {
+      "label": "函館市「令和8年度 4月1日入所 入所申込のしおり」",
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2017051700061/file_contents/file_202511263142920_1.pdf"
+    }
+  ]
+}

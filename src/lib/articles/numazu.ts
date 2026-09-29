@@ -3,35 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "numazu",
-    title: "沼津市の保活スケジュール完全ガイド｜いつから何をすべき？",
-    description: "沼津市で認可保育所への入所を目指すための保活スケジュールをわかりやすく解説。見学開始時期から申込締切まで、月単位でやるべきことをまとめました。",
-    category: "保活の基本",
-    categoryColor: "green",
-    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    publishedAt: "2025-06-01",
-    content: `<h2>沼津市の保活スケジュール</h2>
-<p>沼津市の認可保育所は、毎年11月頃に翌年4月入所の一次申込が締め切られます。早めに動き出すことが保活成功の鍵です。</p>
-
-<table>
-<tr><th>時期</th><th>やること</th></tr>
-<tr><td>4〜6月</td><td>保育所見学開始・施設の雰囲気確認</td></tr>
-<tr><td>7〜9月</td><td>点数の確認・書類収集</td></tr>
-<tr><td>10月</td><td>申込書類の取得・記入</td></tr>
-<tr><td>11月上旬</td><td>一次申込締切（例年）</td></tr>
-<tr><td>1〜2月</td><td>内定通知</td></tr>
-<tr><td>3月</td><td>入所前オリエンテーション</td></tr>
-<tr><td>4月</td><td>入所</td></tr>
-</table>
-
-<h2>優先度の高い施設を絞り込む</h2>
-<p>沼津市は申込時に希望順位を複数記入できます。第1希望〜第5希望程度まで記入しておくと選考の幅が広がります。</p>
-
-<h2>点数シミュレーターで事前確認</h2>
-<p>入所点数（利用基準指数）を事前に試算してから申込むことで、内定可能性をある程度把握できます。当サイトのシミュレーターで手軽に確認してみましょう。</p>`,
-  },
-  {
     slug: "scoring-system-guide",
     citySlug: "numazu",
     title: "沼津市の保育所入所点数のしくみ｜利用基準指数を徹底解説",

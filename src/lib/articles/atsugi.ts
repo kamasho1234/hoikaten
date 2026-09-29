@@ -3,60 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "atsugi",
-    title: "厚木市の保活スケジュール　申込から内定までの流れ",
-    description:
-      "厚木市の認可保育園の申込時期・選考の流れをまとめました。令和8年度4月入園の動き方を解説します。",
-    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>厚木市の4月入園スケジュール</h2>
-<p>厚木市の認可保育園は毎年秋に翌年度4月入園の申込を受付けます。厚木市こども未来部保育課の案内を確認して準備を進めましょう。</p>
-
-<h3>保活の全体スケジュール</h3>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content">
-<strong>4月〜6月：情報収集</strong>
-<p>厚木市のホームページで認可保育園（約30か所）の一覧を確認します。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content">
-<strong>6月〜9月：保育園見学</strong>
-<p>気になる園に連絡して見学を予約しましょう。厚木市は本厚木駅周辺に園が集中しています。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content">
-<strong>9月〜10月：申込書類の準備</strong>
-<p>就労証明書などの必要書類を準備します。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content">
-<strong>10月〜11月：申込書類の提出</strong>
-<p>こども未来部保育課の窓口または郵送で提出します。</p>
-</div>
-</div>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>厚木市は基本指数が父母のうち低い方で最大10点です。フルタイム共働きでも基本指数は10点で、差がつくのは調整指数になります。</p>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.atsugi.kanagawa.jp/kosodate_kyoiku/hoikuen_yochien/index.html" target="_blank" rel="noopener">厚木市こども未来部保育課</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-04-07",
-    popularity: 55,
-  },
-  {
     slug: "score-up-tips",
     citySlug: "atsugi",
     title: "厚木市で入園点数を上げるコツ　加点を最大化する方法",

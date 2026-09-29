@@ -1,0 +1,191 @@
+{
+  "citySlug": "hiratsuka",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "平塚市「保育所等入所手続きの流れ」",
+    "url": "https://www.city.hiratsuka.kanagawa.jp/kodomo/page-c_00210.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年10月7日（水曜日）〜令和8年11月6日（金曜日）。土曜日・日曜日・祝日を除く午前8時30分〜午後5時",
+  "applyMethods": "保育課保育担当窓口（平塚市役所本館1階101番窓口）へ持参するか、e-kanagawaで電子申請する。郵送は不可。電子申請の受付期間は窓口と同じで、締切日は17時まで",
+  "firstResult": "内定・保留に関わらず令和9年1月21日（木）以降に文書で通知。電話等での結果の問い合わせは受け付けていない",
+  "secondApply": "令和8年11月9日（月曜日）〜令和9年1月29日（金曜日）。土曜日・日曜日・祝日と令和8年12月29日〜令和9年1月1日を除く",
+  "secondResult": "令和9年3月2日（火）以降に文書で通知。4月2次から申し込んだ人は内定・保留に関わらず、4月1次から申し込んだ人は内定した場合のみ通知",
+  "midYearDeadline": "入所月ごとに受付期間を設定。例：令和9年5月入所は令和9年2月1日〜4月15日、令和9年6月入所は令和9年3月1日〜5月14日",
+  "documents": [
+    "保育所（園）等入所申込書 兼 子どものための教育・保育給付認定申請書（令和8年度中の入所と併願する場合は令和9年度分と令和8年度分を1部ずつ。それ以外の書類は令和9年度の書式で1部）",
+    "保育所（園）等入所申込調査書（入所希望の子ども1人につき1枚）",
+    "保育所等入所に関する確認書（1世帯につき1枚。令和9年度入所の申込みでは、復職に関する申立書と「妊娠・出産」理由の同意書は確認書に同じ内容が含まれるため不要）",
+    "保育が必要な事由を証明するための書類（就労証明書など。証明の有効期限は証明日から6か月だが、4月入所の申込みに限り前年9月以降の証明日が有効）",
+    "窓口に来る人の本人確認書類と、個人番号（マイナンバー）の記載に係る確認書類（保護者・子）"
+  ],
+  "interview": "内定した人は結果通知に同封の面接日程を確認して手続きを進める。内定後に保育所等から連絡があり、入所前に保育所等で面談を行う。健康診断は入所後に実施",
+  "ikukyu": "申込み時に「希望する保育所等に入所できない場合は、育児休業の延長も許容できる」を選ぶことができ、その場合は利用調整中の調整指数が全て加算されない。保留通知書は初回の申込み月に保留となった場合のみ発行され、それ以外の月の保留の証明は別途申請が必要。育児休業の延長手続きで申込書の写しを求められることがあるので、必要なら自分で写しを取っておく",
+  "notes": [
+    "4月入所の1次申込み期間中は、予約サイトから窓口の事前予約ができる",
+    "4月1次調整で内定を辞退すると、改めて4月2次の申込みはできない",
+    "4月1次申込で保留となった人は、再度申し込まなくても4月2次の入所調整の対象になる",
+    "園見学は必須ではないが、事前に希望園の様子を確認するよう勧められている。見学は希望園へ直接連絡して申し込む",
+    "平塚市に転入予定の人は直接平塚市へ、平塚市から転出予定の人は直接転出先の自治体へ申し込む（お住まいの自治体を経由する方法は廃止）"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.hiratsuka.kanagawa.jp/common/200208311.pdf",
+      "quote": "令和９年４月入所と令和８年１１月入所以降は、申込み期間が重複する間は併願（まとめて申込み）を行うことができます。"
+    },
+    "firstApply": {
+      "url": "https://www.city.hiratsuka.kanagawa.jp/kodomo/page-c_00210.html",
+      "quote": "受付期間：令和8年10月7日（水曜日）から令和8年11月6日（金曜日）（注釈）土曜日・日曜日・祝日を除く"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.hiratsuka.kanagawa.jp/kodomo/page-c_00210.html",
+      "quote": "受付時間：午前8時30分から午後5時"
+    },
+    "applyMethods": {
+      "url": "https://www.city.hiratsuka.kanagawa.jp/common/200208311.pdf",
+      "quote": "●提出方法（Ｐ７〜８）：窓口へ持参又は電子申請 ※郵送不可"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.hiratsuka.kanagawa.jp/common/200208311.pdf",
+      "quote": "● 電子申請システムe-kanagawaで、保育所等入所申込等の各種手続きをオンラインで申請できます。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.hiratsuka.kanagawa.jp/common/200208311.pdf",
+      "quote": "● 電子申請での申込受付期間は窓口と同じです（Ｐ３。申込締切日は１７：００まで）。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.hiratsuka.kanagawa.jp/kodomo/page-c_00210.html",
+      "quote": "受付場所：保育課保育担当窓口（平塚市役所本館1階101番窓口）"
+    },
+    "firstResult": {
+      "url": "https://www.city.hiratsuka.kanagawa.jp/common/200208311.pdf",
+      "quote": "● 入所内定・保留に関わらず令和９年１月２１日（木）以降に文書で通知します。※電話等での結果のお問合せはお受けできません。"
+    },
+    "secondApply": {
+      "url": "https://www.city.hiratsuka.kanagawa.jp/kodomo/page-c_00210.html",
+      "quote": "受付期間：令和8年11月9日（月曜日）から令和9年1月29日（金曜日）（注釈）土曜日・日曜日・祝日・令和8年12月29日（火曜日）から令和9年1月1日（金曜日）を除く"
+    },
+    "secondResult": {
+      "url": "https://www.city.hiratsuka.kanagawa.jp/common/200208311.pdf",
+      "quote": "［４月２次から申込みの方］入所内定・保留に関わらず令和９年３月２日（火）以降に通知"
+    },
+    "secondResult#2": {
+      "url": "https://www.city.hiratsuka.kanagawa.jp/common/200208311.pdf",
+      "quote": "［４月１次から申込みの方］入所が内定した場合のみ令和９年３月２日（火）以降に通知"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.hiratsuka.kanagawa.jp/common/200208311.pdf",
+      "quote": "●受付期間（Ｐ３）：入所月ごとに設定"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.hiratsuka.kanagawa.jp/common/200208311.pdf",
+      "quote": "令和９年５月 令和９年２月１日（月） 〜 令和９年４月１５日（木）"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.hiratsuka.kanagawa.jp/common/200208311.pdf",
+      "quote": "令和９年６月 令和９年３月１日（月） 〜 令和９年５月１４日（金）"
+    },
+    "documents.0": {
+      "url": "https://www.city.hiratsuka.kanagawa.jp/common/200208311.pdf",
+      "quote": "併願する場合は「保育所（園）等入所申込書 兼 子どものための教育・保育給付認定申請書」のみ令和９年度分と令和８年度分を１部ずつ、それ以外の書類は令和９年度の書式で１部ご用意ください。"
+    },
+    "documents.1": {
+      "url": "https://www.city.hiratsuka.kanagawa.jp/kodomo/page-c_00199.html",
+      "quote": "（注釈）入所希望のお子さん1人につき1枚必要です。"
+    },
+    "documents.2": {
+      "url": "https://www.city.hiratsuka.kanagawa.jp/common/200208311.pdf",
+      "quote": "３ 保育所等入所に関する確認書 １世帯につき１枚ずつ必要"
+    },
+    "documents.2#2": {
+      "url": "https://www.city.hiratsuka.kanagawa.jp/kodomo/page-c_00199.html",
+      "quote": "（注釈）令和9年度入所申込の方は「保育所等入所に関する確認書」に同じ内容が含まれているため、不要となります。"
+    },
+    "documents.3": {
+      "url": "https://www.city.hiratsuka.kanagawa.jp/common/200208311.pdf",
+      "quote": "※証明の有効期限は証明日から６か月（４月入所の申込みに限り前年９月以降の証明日が有効）。"
+    },
+    "documents.4": {
+      "url": "https://www.city.hiratsuka.kanagawa.jp/common/200208311.pdf",
+      "quote": "・窓口に来る方の本人確認書類（身分証明書）・個人番号(マイナンバー)の記載に係る確認書類（保護者・子）"
+    },
+    "interview": {
+      "url": "https://www.city.hiratsuka.kanagawa.jp/common/200208311.pdf",
+      "quote": "● 結果通知に同封されている面接日程を確認いただき手続きを進めてください。"
+    },
+    "interview#2": {
+      "url": "https://www.city.hiratsuka.kanagawa.jp/kodomo/page-c_00210.html",
+      "quote": "面談：内定後に保育所等から連絡があり、入所前に保育所等で実施します。"
+    },
+    "interview#3": {
+      "url": "https://www.city.hiratsuka.kanagawa.jp/kodomo/page-c_00210.html",
+      "quote": "健康診断：入所後に実施"
+    },
+    "ikukyu": {
+      "url": "https://www.city.hiratsuka.kanagawa.jp/common/200208311.pdf",
+      "quote": "「希望する保育所等に入所できない場合は、育児休業の延長も許容できる」"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.hiratsuka.kanagawa.jp/common/200208311.pdf",
+      "quote": "・育児休業延長可能で利用調整を行っている間については、全ての調整指数を加算しません。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.hiratsuka.kanagawa.jp/kodomo/page82_00341.html",
+      "quote": "「保育所（園）等入所（転園）保留通知書」は、初回入所申し込み月に入所保留となった場合のみ発行しています。"
+    },
+    "ikukyu#4": {
+      "url": "https://www.city.hiratsuka.kanagawa.jp/common/200208311.pdf",
+      "quote": "※１ 育児休業の延長手続きの際には、提出先からこちらの書類の写しを求められる可能性があります。"
+    },
+    "notes.0": {
+      "url": "https://www.city.hiratsuka.kanagawa.jp/common/200208311.pdf",
+      "quote": "４月入所の１次申込み期間中は、下記予約サイトから窓口の事前予約が出来ます。"
+    },
+    "notes.1": {
+      "url": "https://www.city.hiratsuka.kanagawa.jp/common/200208311.pdf",
+      "quote": "※４月１次調整で内定を辞退した場合、再度４月２次申込みを行うことはできません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.hiratsuka.kanagawa.jp/kodomo/page-c_00210.html",
+      "quote": "（注釈）4月1次申込で保留となった方は再度申し込みを行わなくても入所調整をします。"
+    },
+    "notes.3": {
+      "url": "https://www.city.hiratsuka.kanagawa.jp/common/200208311.pdf",
+      "quote": "園見学は必須ではありませんが、事前に希望園の雰囲気や気になる点等をご確認いただくようお願いして"
+    },
+    "notes.3#2": {
+      "url": "https://www.city.hiratsuka.kanagawa.jp/common/200208311.pdf",
+      "quote": "●園見学の申込み方法：希望園へ直接連絡"
+    },
+    "notes.4": {
+      "url": "https://www.city.hiratsuka.kanagawa.jp/common/200208311.pdf",
+      "quote": "・ 平塚市に転入予定の場合は直に平塚市へ、平塚市から転出予定の場合は直に転出先自治体へ申込みをしてください。"
+    },
+    "notes.4#2": {
+      "url": "https://www.city.hiratsuka.kanagawa.jp/common/200208311.pdf",
+      "quote": "転入又は転出予定の方が、お住まいの自治体を経由して申込みを行う方法を廃止します。"
+    }
+  },
+  "sources": [
+    {
+      "label": "平塚市「保育所等入所手続きの流れ」",
+      "url": "https://www.city.hiratsuka.kanagawa.jp/kodomo/page-c_00210.html"
+    },
+    {
+      "label": "平塚市「保育所等利用案内・申込書類について」",
+      "url": "https://www.city.hiratsuka.kanagawa.jp/kodomo/page-c_00197.html"
+    },
+    {
+      "label": "平塚市「令和9年度 平塚市保育所等利用案内」（PDF）",
+      "url": "https://www.city.hiratsuka.kanagawa.jp/common/200208311.pdf"
+    },
+    {
+      "label": "平塚市「申込に必要な書類」",
+      "url": "https://www.city.hiratsuka.kanagawa.jp/kodomo/page-c_00199.html"
+    },
+    {
+      "label": "平塚市「入所保留であることの証明が必要な方」",
+      "url": "https://www.city.hiratsuka.kanagawa.jp/kodomo/page82_00341.html"
+    }
+  ]
+}

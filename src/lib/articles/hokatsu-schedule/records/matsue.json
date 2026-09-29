@@ -1,0 +1,192 @@
+{
+  "citySlug": "matsue",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "松江市「令和8年度保育所等入所申込について（4月入所）」",
+    "url": "https://www.city.matsue.lg.jp/soshikikarasagasu/kosodatebu_hoikushoyoutienka/2_1/3/hoikusyoannai/16643.html"
+  },
+  "fiscalYear": "R8",
+  "firstApply": "窓口は令和7年12月10日（水曜）〜12月19日（金曜）。オンライン（スマート申請）は令和7年12月10日（水曜）〜令和8年1月9日（金曜）。郵送は窓口と同じ令和7年12月19日必着",
+  "applyMethods": "スマート申請（オンライン）での申込が勧められている。窓口は保育所幼稚園課認定入所係（本庁）、各支所市民生活課、こども家庭支援課家庭支援係（乃白町）で、8時30分〜17時15分（土・日・祝日を除く）。来庁もスマート申請も難しい場合は郵送（簡易書留またはレターパックプラス）で受け付ける",
+  "firstResult": "令和8年2月4日（水曜）にデジタル通知で送信予定",
+  "secondApply": "令和8年2月27日（金曜）〜3月10日（火曜）（窓口・オンライン）",
+  "secondResult": "令和8年3月17日（火曜）にデジタル通知で送信予定",
+  "midYearDeadline": "申込期間は入所希望月の前々月の6日から前月の5日まで（例：令和8年11月入所は令和8年9月5日〜10月5日）。結果は入所希望月前月の20日頃にデジタル通知で送信",
+  "documents": [
+    "子どものための教育・保育給付認定・変更申請書（用紙番号A。こども1人につき1枚）",
+    "保育所等入所申込書（用紙番号B。こども1人につき1枚）",
+    "保育を必要とする証明書類（就労証明書等。父母それぞれ1部）",
+    "就労証明書は雇用主が作成する（被用者は作成しない）。育児休業終了後に短時間勤務制度などの利用を検討中なら、利用の有無を決めてから作成する",
+    "郵送で申し込む場合は、個人番号を証明する書類の写しと本人確認書類の写しを同封する"
+  ],
+  "interview": "入所が決まると「保育所等入所決定通知書」が郵送され、面接に必要な書類が同封されている。通知書を受け取った日から2日以内に決定した保育所等へ連絡し、面接の日程を調整する",
+  "ikukyu": "入所が決まらなかった場合は「保育所等入所保留(不承諾)通知書」が郵送されるが、郵送は入所申込後の最初の1回のみなので保管しておく。申込書の写しは、紙で申請した人は窓口で写し交付申請書を出すと交付され、スマート申請の人は完了メールのURLから見られる申請基本情報と申請内容が写しの代わりになる。2025年4月から育児休業給付金の延長手続きが変わっている",
+  "notes": [
+    "4月入所申込の結果通知を受け取るにはデジタル通知の登録が必要",
+    "1次募集の窓口受付は12月19日で終わり、以降はスマート申請で令和8年1月9日までに申し込む",
+    "AI入所選考システムを導入しており、指数が同点の場合はランダムに付番された番号の高い順に利用調整する",
+    "現年度2月入所と新年度4月入所（1次募集）を併願する場合は、それぞれの年度の申込手続きが要る",
+    "2月入所と4月1次がともに不承諾の場合は、3月入所と4月2次の審査が自動的に行われる",
+    "育児休業から復帰予定で申し込む場合は、入所月または入所翌月に必ず復職する"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.matsue.lg.jp/soshikikarasagasu/kosodatebu_hoikushoyoutienka/2_1/3/hoikusyoannai/16643.html",
+      "quote": "（注意）令和8年4月入所申込の結果通知の受け取りにはデジタル通知の登録が必要です。"
+    },
+    "firstApply": {
+      "url": "https://www.city.matsue.lg.jp/soshikikarasagasu/kosodatebu_hoikushoyoutienka/2_1/3/hoikusyoannai/16643.html",
+      "quote": "窓口 令和7年12月10日（水曜） 令和7年12月19日（金曜） オンライン 令和7年12月10日（水曜） 令和8年1月9日（金曜）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.matsue.lg.jp/soshikikarasagasu/kosodatebu_hoikushoyoutienka/2_1/3/hoikusyoannai/16643.html",
+      "quote": "(注意)郵送での申込締切は、窓口での申込締切と同様に令和7年12月19日必着です。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.matsue.lg.jp/soshikikarasagasu/kosodatebu_hoikushoyoutienka/2_1/3/hoikusyoannai/16643.html",
+      "quote": "松江市役所保育所幼稚園課認定入所係(本庁)、各支所市民生活課、こども家庭支援課家庭支援係(乃白町)で、必要書類の配布および申込受付を行っています。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.matsue.lg.jp/soshikikarasagasu/kosodatebu_hoikushoyoutienka/2_1/3/hoikusyoannai/16643.html",
+      "quote": "入所申込受付時間は8時30分～17時15分です。（土・日・祝日を除く）"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.matsue.lg.jp/soshikikarasagasu/kosodatebu_hoikushoyoutienka/2_1/3/hoikusyoannai/16643.html",
+      "quote": "ご自宅からお好きな時間に申請可能なスマート申請（オンライン）での申込をおすすめします。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.matsue.lg.jp/soshikikarasagasu/kosodatebu_hoikushoyoutienka/2_1/3/hoikusyoannai/16643.html",
+      "quote": "市外の遠隔地に居住しているなど市役所に来庁することが困難で、オンライン「スマート申請」の利用も難しい場合は、入所申込書類を郵送で受け付けます。"
+    },
+    "applyMethods#5": {
+      "url": "https://www.city.matsue.lg.jp/material/files/group/131/R8yuusou.pdf",
+      "quote": "・簡易書留またはレターパックプラス"
+    },
+    "firstResult": {
+      "url": "https://www.city.matsue.lg.jp/soshikikarasagasu/kosodatebu_hoikushoyoutienka/2_1/3/hoikusyoannai/16643.html",
+      "quote": "結果はデジタル通知で令和8年2月4日（水曜）に送信予定です。"
+    },
+    "secondApply": {
+      "url": "https://www.city.matsue.lg.jp/soshikikarasagasu/kosodatebu_hoikushoyoutienka/2_1/3/hoikusyoannai/16643.html",
+      "quote": "窓口 オンライン 令和8年2月27日（金曜） 令和8年3月10日（火曜）"
+    },
+    "secondResult": {
+      "url": "https://www.city.matsue.lg.jp/soshikikarasagasu/kosodatebu_hoikushoyoutienka/2_1/3/hoikusyoannai/16643.html",
+      "quote": "結果はデジタル通知で令和8年3月17日（火曜）に送信予定です。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.matsue.lg.jp/soshikikarasagasu/kosodatebu_hoikushoyoutienka/2_1/3/hoikusyoannai/16643.html",
+      "quote": "11月 令和8年9月5日(土曜) 令和8年10月5日(月曜)"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.matsue.lg.jp/soshikikarasagasu/kosodatebu_hoikushoyoutienka/2_1/3/hoikusyoannai/16643.html",
+      "quote": "結果はデジタル通知で入所希望月前月の20日頃に送信予定です。"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.matsue.lg.jp/soshikikarasagasu/kosodatebu_hoikushoyoutienka/2_1/3/hoikusyoannai/3998.html",
+      "quote": "申込み期間は、入所希望月の前々月の6日から前月の5日までです。"
+    },
+    "documents.0": {
+      "url": "https://www.city.matsue.lg.jp/soshikikarasagasu/kosodatebu_hoikushoyoutienka/2_1/3/hoikusyoannai/4259.html",
+      "quote": "（注意）「子どものための教育・保育給付認定・変更申請書」及び「保育所等入所申込書」は、こども1人につき1枚ずつ提出する必要があります。"
+    },
+    "documents.1": {
+      "url": "https://www.city.matsue.lg.jp/soshikikarasagasu/kosodatebu_hoikushoyoutienka/2_1/3/hoikusyoannai/4259.html",
+      "quote": "（注意）「子どものための教育・保育給付認定・変更申請書」及び「保育所等入所申込書」は、こども1人につき1枚ずつ提出する必要があります。"
+    },
+    "documents.2": {
+      "url": "https://www.city.matsue.lg.jp/soshikikarasagasu/kosodatebu_hoikushoyoutienka/2_1/3/hoikusyoannai/4259.html",
+      "quote": "（注意）保育を必要とする証明書類（就労証明書等）は1世帯につき父母それぞれ1部提出する必要があります。"
+    },
+    "documents.3": {
+      "url": "https://www.city.matsue.lg.jp/soshikikarasagasu/kosodatebu_hoikushoyoutienka/2_1/3/hoikusyoannai/4259.html",
+      "quote": "就労証明書は雇用主が作成してください。被用者が作成しないでください。"
+    },
+    "documents.3#2": {
+      "url": "https://www.city.matsue.lg.jp/soshikikarasagasu/kosodatebu_hoikushoyoutienka/2_1/3/hoikusyoannai/4259.html",
+      "quote": "育児休業終了後に短時間勤務制度などの利用を検討中の方は、利用の有無を決定した上で就労証明書を作成してください。"
+    },
+    "documents.4": {
+      "url": "https://www.city.matsue.lg.jp/material/files/group/131/R8yuusou.pdf",
+      "quote": "・個人番号を証明する書類の写し及び本人確認書類の写し"
+    },
+    "interview": {
+      "url": "https://www.city.matsue.lg.jp/soshikikarasagasu/kosodatebu_hoikushoyoutienka/2_1/3/hoikusyoannai/3998.html",
+      "quote": "面接時に必要な書類を同封しておりますので、面接までにご準備ください。"
+    },
+    "interview#2": {
+      "url": "https://www.city.matsue.lg.jp/soshikikarasagasu/kosodatebu_hoikushoyoutienka/2_1/3/hoikusyoannai/3998.html",
+      "quote": "保育所等入所決定通知書を受け取った日から2日以内に入所が決定した保育所等に連絡をして、面接の日程調整をしてください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.matsue.lg.jp/soshikikarasagasu/kosodatebu_hoikushoyoutienka/2_1/3/hoikusyoannai/3998.html",
+      "quote": "保育所等入所保留(不承諾)通知書を郵送するのは、入所申込後の最初の1回のみとなりますので、入所が決定するまで、必ず保管してください。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.matsue.lg.jp/soshikikarasagasu/kosodatebu_hoikushoyoutienka/2_1/3/hoikusyoannai/21025.html",
+      "quote": "松江市役所保育所幼稚園課の窓口にて、「保育所等入所申込書の写し交付申請書」をご提出いただきますと、窓口で申請書の写しを交付いたします。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.matsue.lg.jp/soshikikarasagasu/kosodatebu_hoikushoyoutienka/2_1/3/hoikusyoannai/21025.html",
+      "quote": "申請基本情報（対応ステータスが「完了」に限る）及び申請内容を合わせて申請書の写しの代替となります。"
+    },
+    "ikukyu#4": {
+      "url": "https://www.city.matsue.lg.jp/soshikikarasagasu/kosodatebu_hoikushoyoutienka/2_1/3/hoikusyoannai/21652.html",
+      "quote": "2025年4月から保育所等に入所できなかったことを理由とする育児休業給付金の支給対象期間延長手続きが変わります。"
+    },
+    "notes.0": {
+      "url": "https://www.city.matsue.lg.jp/soshikikarasagasu/kosodatebu_hoikushoyoutienka/2_1/3/hoikusyoannai/16643.html",
+      "quote": "（注意）令和8年4月入所申込の結果通知の受け取りにはデジタル通知の登録が必要です。"
+    },
+    "notes.1": {
+      "url": "https://www.city.matsue.lg.jp/soshikikarasagasu/kosodatebu_hoikushoyoutienka/2_1/3/hoikusyoannai/16643.html",
+      "quote": "1次募集の窓口受付は、12月19日（金曜）で終了します。以降は窓口受付はいたしませんので、オンライン「スマート申請」で、令和8年1月9日（金曜）までに申込をしてください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.matsue.lg.jp/soshikikarasagasu/kosodatebu_hoikushoyoutienka/2_1/3/hoikusyoannai/3998.html",
+      "quote": "松江市はAI入所選考システムを導入しており、指数が同点となった場合はランダムに付番された番号の高い順に入所利用調整を行います。"
+    },
+    "notes.3": {
+      "url": "https://www.city.matsue.lg.jp/material/files/group/131/R8juuyoujikou.pdf",
+      "quote": "※現年度２月と新年度４月入所（１次募集）を併願する場合は、それぞれの年度の申込手続きをしてください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.matsue.lg.jp/material/files/group/131/R8juuyoujikou.pdf",
+      "quote": "２月と４月（１次）が不承諾の場合は、３月と４月（２次）の審査を自動的に行います。"
+    },
+    "notes.5": {
+      "url": "https://www.city.matsue.lg.jp/material/files/group/131/R8juuyoujikou.pdf",
+      "quote": "‣申請児童の入所月または入所翌月に必ず復職してください。（転園の場合は入所月に復帰してください。）"
+    }
+  },
+  "sources": [
+    {
+      "label": "松江市「令和8年度保育所等入所申込について（4月入所）」",
+      "url": "https://www.city.matsue.lg.jp/soshikikarasagasu/kosodatebu_hoikushoyoutienka/2_1/3/hoikusyoannai/16643.html"
+    },
+    {
+      "label": "松江市「入所申込における重要項目」",
+      "url": "https://www.city.matsue.lg.jp/material/files/group/131/R8juuyoujikou.pdf"
+    },
+    {
+      "label": "松江市「郵送での入所申込」",
+      "url": "https://www.city.matsue.lg.jp/material/files/group/131/R8yuusou.pdf"
+    },
+    {
+      "label": "松江市「入所までの流れ」",
+      "url": "https://www.city.matsue.lg.jp/soshikikarasagasu/kosodatebu_hoikushoyoutienka/2_1/3/hoikusyoannai/3998.html"
+    },
+    {
+      "label": "松江市「保育所等に係る必要書類について」",
+      "url": "https://www.city.matsue.lg.jp/soshikikarasagasu/kosodatebu_hoikushoyoutienka/2_1/3/hoikusyoannai/4259.html"
+    },
+    {
+      "label": "松江市「保育施設等入所に関する申請書の写しの交付について」",
+      "url": "https://www.city.matsue.lg.jp/soshikikarasagasu/kosodatebu_hoikushoyoutienka/2_1/3/hoikusyoannai/21025.html"
+    },
+    {
+      "label": "松江市「育児休業給付金の延長手続きについてのお知らせ」",
+      "url": "https://www.city.matsue.lg.jp/soshikikarasagasu/kosodatebu_hoikushoyoutienka/2_1/3/hoikusyoannai/21652.html"
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "citySlug": "yamaguchi",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "山口市「令和8年度保育施設の申込から入園までの流れ」",
+    "url": "https://www.city.yamaguchi.lg.jp/site/kodomo/184229.html"
+  },
+  "fiscalYear": "R8",
+  "firstApply": "令和7年11月17日（月曜日）〜12月26日（金曜日）。求職活動中の人は令和8年3月2日（月曜日）から受付（4月以降の就労が内定し就労予定証明書を出せる場合は11月17日から）",
+  "applyMethods": "申込書と必要書類を市役所本庁（保育幼稚園課）または小郡・秋穂・阿知須・徳地・阿東の各総合支所に提出する（受付時間は8時30分から17時15分）。地域交流センターでは書類配布・申込受付をしていない",
+  "firstResult": "令和8年2月上旬から中旬に各世帯へ郵送",
+  "secondApply": "令和8年1月5日（月曜日）〜2月13日（金曜日）。三次は令和8年2月16日（月曜日）〜3月13日（金曜日）",
+  "secondResult": "令和8年2月20日前後に郵送（三次は令和8年3月20日前後）",
+  "midYearDeadline": "5月以降の入所は入所希望月の前々月1日から受付、締切は入園希望月の前月15日（15日が閉庁日の場合は直前の開庁日）",
+  "documents": [
+    "教育・保育給付認定申請書(兼)保育利用申込書（申し込む子ども1人につき1枚）",
+    "家庭状況申立書（きょうだいで1枚）",
+    "保育利用申込補助票（きょうだい3人まで1枚に記入可能）",
+    "保育が必要な理由を証明する書類（就労証明書など。ひとり親世帯を除き父母それぞれ。発行・記入日は申込日より1か月以内のもの）",
+    "利用者負担額を決定する書類等（該当者のみ）",
+    "同居家族全員の個人番号が確認できるものと、保護者（認定者）の身元確認ができるものの提示（原本）"
+  ],
+  "notes": [
+    "期限までに申込書と必要書類がすべてそろっていないと利用調整と入園の対象にならない",
+    "北東部・中央部・小郡・川西地域は申込が定員を上回っているので、通園可能な範囲でできる限り多くの施設を希望欄に書く",
+    "一次または二次の時点で定員に達する施設もあるので、求職活動中の人以外はできる限り早めに申し込む",
+    "育児休業から復帰する日が月の前半（15日以前）なら復帰前月から、後半（16日以降）なら復帰月からの入園申込になる",
+    "4月の一次・二次の入園決定者は結果通知に同封の仮入園一覧の日時に仮入園に参加する。三次の決定者は施設に連絡して面談に参加する",
+    "入園が決まらなかった場合も原則として毎月利用調整にかけ、入園可能になったときだけ前月の20日前後に郵送か電話で知らせる"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.yamaguchi.lg.jp/site/kodomo/184229.html",
+      "quote": "４月入所希望 令和７年１１月１７日(月曜日)から"
+    },
+    "firstApply": {
+      "url": "https://www.city.yamaguchi.lg.jp/site/kodomo/184229.html",
+      "quote": "４月入所希望 令和７年１１月１７日(月曜日)から ※求職活動中の方は令和８年３月２日(月曜日)から受付を開始します。"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.yamaguchi.lg.jp/site/kodomo/184229.html",
+      "quote": "４月入所希望 一次：令和７年１２月２６日(金曜日)"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.yamaguchi.lg.jp/site/kodomo/184229.html",
+      "quote": "ただし、求職活動中であっても、４月以降の就労が内定しており、就労予定証明書を提出できる場合は１１月１７日(月曜日)から受け付けます。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.yamaguchi.lg.jp/site/kodomo/184301.html",
+      "quote": "山口市役所本庁 山口市亀山町2番1号 8時30分から17時15分 小郡総合支所"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.yamaguchi.lg.jp/site/kodomo/184301.html",
+      "quote": "※地域交流センターでは、書類配布・申込受付を行っていません。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.yamaguchi.lg.jp/site/kodomo/184301.html",
+      "quote": "秋穂総合支所 山口市秋穂東6570番地 8時30分から17時15分 阿知須総合支所 山口市阿知須2743番地 8時30分から17時15分 徳地総合支所 山口市徳地堀1561番地1 8時30分から17時15分 阿東総合支所"
+    },
+    "firstResult": {
+      "url": "https://www.city.yamaguchi.lg.jp/site/kodomo/184229.html",
+      "quote": "利用調整の結果は下記の申込時期に合わせ、それぞれの時期に各世帯に郵送でお届けします。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.yamaguchi.lg.jp/site/kodomo/184229.html",
+      "quote": "４月入所希望 一次：令和８年２月上旬から中旬"
+    },
+    "secondApply": {
+      "url": "https://www.city.yamaguchi.lg.jp/uploaded/attachment/114848.pdf",
+      "quote": "二次 令和８年１月５日(月) 令和８年２月１３日(金)"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.yamaguchi.lg.jp/uploaded/attachment/114848.pdf",
+      "quote": "三次 令和８年２月１６日(月) 令和８年３月１３日(金)"
+    },
+    "secondResult": {
+      "url": "https://www.city.yamaguchi.lg.jp/site/kodomo/184229.html",
+      "quote": "二次：令和８年２月２０日前後 三次：令和８年３月２０日前後"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.yamaguchi.lg.jp/site/kodomo/184229.html",
+      "quote": "５月以降の入所希望 入所希望月の前々月１日から"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.yamaguchi.lg.jp/site/kodomo/184229.html",
+      "quote": "５月以降の入所希望 入園希望月の前月１５日(※１５日が閉庁日の場合は直前の開庁日)"
+    },
+    "documents.0": {
+      "url": "https://www.city.yamaguchi.lg.jp/site/kodomo/184230.html",
+      "quote": "教育・保育給付認定申請書(兼)保育利用申込書(必須)・・・申込む子ども1人につき1枚"
+    },
+    "documents.1": {
+      "url": "https://www.city.yamaguchi.lg.jp/site/kodomo/184230.html",
+      "quote": "家庭状況申立書(必須)・・・きょうだいで1枚"
+    },
+    "documents.2": {
+      "url": "https://www.city.yamaguchi.lg.jp/site/kodomo/184230.html",
+      "quote": "保育利用申込補助票(必須)・・・きょうだい3人まで1枚に記入可能"
+    },
+    "documents.3": {
+      "url": "https://www.city.yamaguchi.lg.jp/site/kodomo/184230.html",
+      "quote": "保育が必要な理由を証明する書類（必須）・・・下記参照（ひとり親世帯を除き、父母それぞれのものが必要です。）"
+    },
+    "documents.3#2": {
+      "url": "https://www.city.yamaguchi.lg.jp/site/kodomo/184230.html",
+      "quote": "※保育が必要な理由を証明する書類の発行・記入日は、申込日より1か月以内のものに限ります。"
+    },
+    "documents.4": {
+      "url": "https://www.city.yamaguchi.lg.jp/site/kodomo/184230.html",
+      "quote": "利用者負担額を決定する書類等（該当者のみ）・・・下記参照"
+    },
+    "documents.5": {
+      "url": "https://www.city.yamaguchi.lg.jp/site/kodomo/184230.html",
+      "quote": "申請の際に同居の家族全員の個人番号が確認できるものと、教育・保育給付認定保護者（認定者）の身元確認ができるものの提示をお願いします。"
+    },
+    "notes.0": {
+      "url": "https://www.city.yamaguchi.lg.jp/site/kodomo/184229.html",
+      "quote": "※期限までに申込書および必要書類すべてがそろっていない場合は利用調整および入園の対象となりませんので、お早めの提出をお願いいたします。"
+    },
+    "notes.1": {
+      "url": "https://www.city.yamaguchi.lg.jp/site/kodomo/184229.html",
+      "quote": "現在、山口市は北東部・中央部・小郡・川西地域において申込が定員を上回っている状態ですので、通園可能な範囲内で、できる限り多くの施設を申込書の希望欄に記入してください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.yamaguchi.lg.jp/site/kodomo/184229.html",
+      "quote": "一次または二次の時点で定員に達する施設もありますので、求職活動中の方以外はできる限りお早めにお申し込みください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.yamaguchi.lg.jp/site/kodomo/184229.html",
+      "quote": "育児休業から復帰する日が月の前半(１５日以前)の場合は復帰前月からの入園申込が可能です。月の後半(１６日以降)の場合は復帰月からの入園申込となります。"
+    },
+    "notes.4": {
+      "url": "https://www.city.yamaguchi.lg.jp/site/kodomo/184229.html",
+      "quote": "結果通知に同封の仮入園一覧に記載されている日時に仮入園に参加してください。"
+    },
+    "notes.4#2": {
+      "url": "https://www.city.yamaguchi.lg.jp/site/kodomo/184229.html",
+      "quote": "結果通知に同封のお知らせに記載されている日時に決定した保育施設に連絡し、日程を調整の上、面談に参加してください。"
+    },
+    "notes.5": {
+      "url": "https://www.city.yamaguchi.lg.jp/site/kodomo/184229.html",
+      "quote": "入園が決まらなかった場合は原則としてその後も毎月利用調整にかけ、入園可能となった場合に限り、前月の20日前後に郵送もしくはお電話でお知らせします。"
+    }
+  },
+  "sources": [
+    {
+      "label": "山口市「令和8年度保育施設の申込から入園までの流れ」",
+      "url": "https://www.city.yamaguchi.lg.jp/site/kodomo/184229.html"
+    },
+    {
+      "label": "山口市「令和8年度保育施設入園の申し込みについて」",
+      "url": "https://www.city.yamaguchi.lg.jp/site/kodomo/184301.html"
+    },
+    {
+      "label": "山口市「令和8年度保育施設入園の申込に必要な書類（記入例有）」",
+      "url": "https://www.city.yamaguchi.lg.jp/site/kodomo/184230.html"
+    },
+    {
+      "label": "山口市「令和8年度保育施設入園のご案内」（PDF）",
+      "url": "https://www.city.yamaguchi.lg.jp/uploaded/attachment/114848.pdf"
+    }
+  ]
+}

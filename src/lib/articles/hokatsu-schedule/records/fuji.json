@@ -1,0 +1,209 @@
+{
+  "citySlug": "fuji",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "富士市「令和9年度幼稚園・保育園・認定こども園等の入園申込」",
+    "url": "https://www.city.fuji.shizuoka.jp/1023100000/p007692.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年9月10日（木曜日）から保育幼稚園課と保育園等で申込書を配布",
+  "firstApply": "一次利用調整は令和8年10月1日（木曜日）〜10月23日（金曜日）17時00分（土曜日・日曜日・祝日を除く）。第一希望の保育園等での受付は10月9日（金曜日）までで、それ以降は保育幼稚園課のみ。期限に間に合わない場合は二次の受付になる",
+  "applyMethods": "保育幼稚園課（市庁舎4階南側）または第一希望の保育園等の窓口に提出する。受付時間は月曜日〜金曜日の8時30分〜17時00分。家庭的保育事業・てんまっこ・みなみっこ・市外の園への申込は保育幼稚園課でのみ受け付ける",
+  "firstResult": "一次利用調整の結果は令和9年1月上旬に発送予定（入園のご案内の流れ図）。市のページでは1月中旬に通知予定と案内している",
+  "secondApply": "二次利用調整（申込受付・希望園変更）は令和8年10月26日（月）〜令和9年1月20日（水）。三次利用調整は令和9年1月21日（木）〜2月15日（月）。いずれも保育幼稚園課で受け付ける",
+  "secondResult": "二次利用調整の結果は令和9年2月上旬に発送予定",
+  "midYearDeadline": "令和9年5月以降の入園は、入園を希望する月の前々月11日から前月10日まで（土曜日・日曜日・祝日を除く。10日が休日の場合は翌営業日まで）に保育幼稚園課で申し込む",
+  "documents": [
+    "入園申込書兼教育・保育給付認定申請書",
+    "「保育の必要性の事由」を証明する書類（就労証明書等）。申込み受付時点で原則3か月以内に証明された書類が有効",
+    "個人番号（マイナンバー）貼付書類",
+    "児童の健康状況調査票",
+    "個人事業主は確定申告書の第一表と第二表（開業後1年未満の場合は開業を証明する書類）を追加で提出"
+  ],
+  "interview": "一次利用調整の申込者には子どもの健康状況等を確認する面接を令和8年11月中旬〜12月上旬に第一希望の保育園等または富士市役所で行う予定で、場所と日程は11月上旬に通知予定。二次・三次利用調整は受付時に保育幼稚園課の窓口で面接する（母子健康手帳を持って子どもと一緒に行く）",
+  "ikukyu": "育児休業中に申し込む場合は、入園月の翌月末までに職場復帰することが条件（例: 4月1日入園なら5月31日までに復帰）。3歳児クラス以上で入園し入園した翌年度4月30日までに復帰予定の場合などは例外。保育幼稚園課では入所保留となるための説明はしない",
+  "notes": [
+    "令和9年4月以降、就労による保育の必要性の認定条件が「月16日以上かつ1日4時間以上」から「月64時間以上の就労」に変わる",
+    "希望園は入園したい順に通園可能な園を多く書くことが勧められており、第1希望だけ書いても優先的に入園が決まることはない",
+    "もりっこは令和9年4月から6月までの入園申込みを受け付けない",
+    "令和8年度の入園を申請済みでまだ入園できていない場合も、令和9年度の入園には改めて申込みが必要",
+    "必要書類が足りない場合や面接を受けていない場合は、保育園等に空きがあっても内定を出せない",
+    "4月入園は認定事務が集中するため、教育・保育給付認定の結果は申請年度の3月末までに通知される"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.fuji.shizuoka.jp/1023100000/p007692.html",
+      "quote": "令和8年度の入園を申請済みで、まだ入園できておらず、令和9年度も入園を希望する場合には、改めて申込みが必要です。"
+    },
+    "fiscalYear#2": {
+      "url": "https://www.city.fuji.shizuoka.jp/documents/16668/r9annnai.pdf",
+      "quote": "令和９年４月 令和８年１０月２６日（月） ～ 令和９年１月２０日（水） （２次利用調整）"
+    },
+    "guideRelease": {
+      "url": "https://www.city.fuji.shizuoka.jp/1023100000/p007692.html",
+      "quote": "令和8年9月10日（木曜日）から保育幼稚園課及び保育園等で配布"
+    },
+    "firstApply": {
+      "url": "https://www.city.fuji.shizuoka.jp/1023100000/p007692.html",
+      "quote": "一次利用調整：令和8年10月1日（木曜日）～令和8年10月23日（金曜日）（土曜日、日曜日、祝日を除く）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.fuji.shizuoka.jp/1023100000/p007692.html",
+      "quote": "申請書類の提出が申込期限（令和８年10月23日17時00分）に間に合わない場合は、二次の受付となります。"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.fuji.shizuoka.jp/1023100000/p007692.html",
+      "quote": "ただし、第一希望の保育園等の受付は、令和8年10月9日（金曜日）まで"
+    },
+    "applyMethods": {
+      "url": "https://www.city.fuji.shizuoka.jp/documents/16668/r9annnai.pdf",
+      "quote": "保育幼稚園課（市庁舎４階南側） 第１希望の園（令和８年１０月１日（木）～ 令和８年10月９日（金）まで）"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.fuji.shizuoka.jp/1023100000/p007692.html",
+      "quote": "保育幼稚園課　月曜日～金曜日　8時30分～17時00分"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.fuji.shizuoka.jp/documents/16668/r9annnai.pdf",
+      "quote": "（家庭的保育事業（※１）、てんまっこ・みなみっこ、市外の園（※２）への申込は保育幼稚園課でのみ受付けします。）"
+    },
+    "firstResult": {
+      "url": "https://www.city.fuji.shizuoka.jp/documents/16668/r9annnai.pdf",
+      "quote": "令和９年１月上旬発送予定"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.fuji.shizuoka.jp/documents/16668/r9annnai.pdf",
+      "quote": "【利用調整結果通知】１次利用調整"
+    },
+    "firstResult#3": {
+      "url": "https://www.city.fuji.shizuoka.jp/1023100000/p007692.html",
+      "quote": "一次利用調整の結果は、1月中旬に通知予定です。"
+    },
+    "secondApply": {
+      "url": "https://www.city.fuji.shizuoka.jp/documents/16668/r9annnai.pdf",
+      "quote": "令和９年４月 令和８年１０月２６日（月） ～ 令和９年１月２０日（水） （２次利用調整）"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.fuji.shizuoka.jp/documents/16668/r9annnai.pdf",
+      "quote": "令和９年４月 令和９年１月２１日（木） ～ 令和９年２月１５日（月） （３次利用調整）"
+    },
+    "secondApply#3": {
+      "url": "https://www.city.fuji.shizuoka.jp/documents/16668/r9annnai.pdf",
+      "quote": "【申込受付・希望園変更】２次利用調整"
+    },
+    "secondResult": {
+      "url": "https://www.city.fuji.shizuoka.jp/documents/16668/r9annnai.pdf",
+      "quote": "【利用調整結果通知】２次利用調整 令和９年２月上旬発送予定"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.fuji.shizuoka.jp/documents/16668/r9annnai.pdf",
+      "quote": "入園を希望する月の前々月１１日から前月１０日まで ※土・日、祝日を除く。"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.fuji.shizuoka.jp/documents/16668/r9annnai.pdf",
+      "quote": "※１０日が土・日、祝日の場合は、翌営業日までの受付となります。"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.fuji.shizuoka.jp/documents/16668/r9annnai.pdf",
+      "quote": "令和９年５月から令和１０年３月までに入園を希望する方の申込みです。"
+    },
+    "documents.0": {
+      "url": "https://www.city.fuji.shizuoka.jp/1023100000/p007692.html",
+      "quote": "入園申込書兼教育・保育給付認定申請書 「保育の必要性の事由」を証明する書類（就労証明書等）"
+    },
+    "documents.1": {
+      "url": "https://www.city.fuji.shizuoka.jp/1023100000/p007692.html",
+      "quote": "「保育の必要性の事由」を証明する書類（就労証明書等） 個人番号（マイナンバー）貼付書類"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.fuji.shizuoka.jp/documents/16668/r9annnai.pdf",
+      "quote": "・申込み受付時点で、原則３か月以内に証明された書類が有効となります。"
+    },
+    "documents.2": {
+      "url": "https://www.city.fuji.shizuoka.jp/1023100000/p007692.html",
+      "quote": "個人番号（マイナンバー）貼付書類 児童の健康状況調査票 その他状況に応じて提出する書類（該当する場合のみ）"
+    },
+    "documents.3": {
+      "url": "https://www.city.fuji.shizuoka.jp/1023100000/p007692.html",
+      "quote": "児童の健康状況調査票 その他状況に応じて提出する書類（該当する場合のみ）"
+    },
+    "documents.4": {
+      "url": "https://www.city.fuji.shizuoka.jp/1023100000/p007692.html",
+      "quote": "※個人事業主の方は、確定申告書の第一表と第二表（開業後1年未満の場合は開業を証明する書類）を追加で提出してください。"
+    },
+    "interview": {
+      "url": "https://www.city.fuji.shizuoka.jp/1023100000/p007692.html",
+      "quote": "11月中旬から12月上旬に、第一希望の保育園等または富士市役所で面接を行う予定です。"
+    },
+    "interview#2": {
+      "url": "https://www.city.fuji.shizuoka.jp/1023100000/p007692.html",
+      "quote": "面接場所や日程については、11月上旬に通知予定です。"
+    },
+    "interview#3": {
+      "url": "https://www.city.fuji.shizuoka.jp/documents/16668/r9annnai.pdf",
+      "quote": "令和８年１１月中旬～１２月上旬"
+    },
+    "interview#4": {
+      "url": "https://www.city.fuji.shizuoka.jp/documents/16668/r9annnai.pdf",
+      "quote": "・２次利用調整・３次利用調整に申し込む場合、受付時に保育幼稚園課窓口にて面接を 行います。母子健康手帳をお持ちになり、お子様と一緒にお越しください。"
+    },
+    "interview#5": {
+      "url": "https://www.city.fuji.shizuoka.jp/1023100000/p007692.html",
+      "quote": "入園を希望されるお子様の健康状況等を確認する面接を行います。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.fuji.shizuoka.jp/documents/16668/r9annnai.pdf",
+      "quote": "育児休業中に申込みされる方は、入園月の翌月末までに職場復帰することが条件 となります。 （例 ４月１日入園の場合、５月３１日までに復帰）"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.fuji.shizuoka.jp/documents/16668/r9annnai.pdf",
+      "quote": "・３歳児クラス以上で入園し、入園した翌年度４月３０日までに復帰予定の場合"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.fuji.shizuoka.jp/documents/16668/r9annnai.pdf",
+      "quote": "保育幼稚園課では入所保留となるためのご説明は致しかねます。"
+    },
+    "notes.0": {
+      "url": "https://www.city.fuji.shizuoka.jp/1023100000/p007692.html",
+      "quote": "令和9年４月以降、保育の必要性の事由における就労の認定条件を、以下のとおり変更いたします。"
+    },
+    "notes.0#2": {
+      "url": "https://www.city.fuji.shizuoka.jp/1023100000/p007692.html",
+      "quote": "新：月６４時間以上の就労 旧：月１６日以上かつ１日４時間以上の就労"
+    },
+    "notes.1": {
+      "url": "https://www.city.fuji.shizuoka.jp/documents/16668/r9annnai.pdf",
+      "quote": "・希望園は入園したい順番で、通園可能な園を多く記入することをお勧めします。"
+    },
+    "notes.1#2": {
+      "url": "https://www.city.fuji.shizuoka.jp/documents/16668/r9annnai.pdf",
+      "quote": "・第１希望だけ記入しても、優先的に入園決定することはありません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.fuji.shizuoka.jp/documents/16668/r9annnai.pdf",
+      "quote": "※もりっこは、令和９年４月から令和９年６月までの入園申込みの受付けはありません。"
+    },
+    "notes.3": {
+      "url": "https://www.city.fuji.shizuoka.jp/1023100000/p007692.html",
+      "quote": "令和8年度の入園を申請済みで、まだ入園できておらず、令和9年度も入園を希望する場合には、改めて申込みが必要です。"
+    },
+    "notes.4": {
+      "url": "https://www.city.fuji.shizuoka.jp/documents/16668/r9annnai.pdf",
+      "quote": "・必要書類の不足や面接を受けていない場合、保育園等に空きがあっても内定を出 すことができません。"
+    },
+    "notes.5": {
+      "url": "https://www.city.fuji.shizuoka.jp/documents/16668/r9annnai.pdf",
+      "quote": "※4月入園は認定事務が集中するため、教育・保育給付認定の結果は、申請年度の3月末 までに通知します。"
+    }
+  },
+  "sources": [
+    {
+      "label": "富士市「令和9年度幼稚園・保育園・認定こども園等の入園申込」",
+      "url": "https://www.city.fuji.shizuoka.jp/1023100000/p007692.html"
+    },
+    {
+      "label": "富士市「令和9年度保育園・認定こども園等入園のご案内」（PDF）",
+      "url": "https://www.city.fuji.shizuoka.jp/documents/16668/r9annnai.pdf"
+    }
+  ]
+}

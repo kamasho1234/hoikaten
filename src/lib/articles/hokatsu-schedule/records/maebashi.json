@@ -1,0 +1,217 @@
+{
+  "citySlug": "maebashi",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "前橋市「令和9年度保育関係施設入所申し込みのご案内」",
+    "url": "https://www.city.maebashi.gunma.jp/soshiki/kodomomiraibu/kodomoshisetsu/gyomu/8/2/20836.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年9月1日（火曜日）〜10月15日（木曜日）必着。第一希望の保育関係施設に提出する",
+  "applyMethods": "「令和9年度施設型給付費・地域型保育給付費 教育・保育給付認定申請書兼保育関係施設入所申込書」に保育の必要性を証明する書類を添付し、第一希望の保育関係施設に提出する。申込書は前橋市保健センター2階こども施設課、各保育関係施設、前橋市役所2階25番窓口、大胡・宮城・粕川・富士見支所、ハローワークまえばし マザーズコーナーで配布しており、ダウンロードはできない",
+  "firstResult": "令和8年12月下旬に自宅へ郵送",
+  "secondApply": "令和9年1月4日（月曜日）〜1月15日（金曜日）必着。一次募集の結果、まだ受け入れ可能な歳児クラスがある保育関係施設だけに申し込める（空き状況は市ホームページとこども施設課窓口で公表）",
+  "secondResult": "2月中旬に自宅へ郵送",
+  "midYearDeadline": "令和9年5月1日以降の途中入所・転所は入所希望月の前月15日（15日が土日祝日の場合はその前の開庁日）までに、希望の保育関係施設か前橋市こども施設課に提出（締切日までにこども施設課必着）。結果は入所希望月の前月20日前後に電話で連絡",
+  "documents": [
+    "令和9年度 施設型給付費・地域型保育給付費 教育・保育給付認定申請書兼保育関係施設入所申込書（児童1人につき1枚）",
+    "保護者の保育の必要性を証明する書類（外勤は事業主が発行する就労証明書、求職活動は保育関係施設入所に関する申立書など。保育要件は保護者1人につき1つ）",
+    "産休・育休中で復職日に合わせた入所を希望する場合は、復職（予定）年月日が明記された就労証明書",
+    "出産前に申し込む場合は、母子健康手帳の表紙の写し",
+    "世帯の状況により必要な書類（ひとり親世帯は離婚日または未婚であることが分かる公的書類など）",
+    "父母と申込児童の個人番号が分かる書類（マイナンバーカード等）と、提出者の本人確認書類（運転免許証等顔写真が載っているもの）。代理人が提出する場合は委任状も必要（同一世帯の親族でも必要）"
+  ],
+  "interview": "4月入所の説明会・健康診断の日程は結果通知と一緒に知らせる。年度途中入所の個人面談・健康診断は保育関係施設と直接日程を調整する",
+  "ikukyu": "入所希望月の申込締切日までに提出した申込書で選考の結果入所保留になった場合は、入所保留通知書を発行できる（希望する場合はこども施設課に相談）。入所決定・内定後に育休の延長など自己都合で入所日を変更することはできず、決定した施設を辞退して改めて申し込むことになる",
+  "notes": [
+    "第一希望だけを書いて選考の結果入所できなかった場合、他の施設に空きがあっても入所保留になるので、第二・第三希望も書く（通所できる施設に限る）",
+    "できる限り第一希望から第三希望まで見学する。日程は保育関係施設と直接連絡をとる",
+    "審査は申込期間内に提出された証明書で行い、証明内容の変更も申込期間内しか受け付けない",
+    "月の就労時間が48時間未満の場合は求職活動と同じ扱いになり、保育関係施設入所に関する申立書を出す",
+    "育休明けで内定していても、就労証明書に記載の職場に復職しない場合や、入所内定月の1日時点で前橋市に住民登録がない場合は内定取り消しになる",
+    "二次募集を行わない保育関係施設の歳児クラスを希望する場合は、4月からの入所はできない"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.maebashi.gunma.jp/soshiki/kodomomiraibu/kodomoshisetsu/gyomu/8/2/20836.html",
+      "quote": "令和9年4月1日からの入所を希望する方又は令和9年度中に産休・育休からの職場復帰で年度途中からの入所を希望する方は、新年度入所の申し込みをすることができます。"
+    },
+    "firstApply": {
+      "url": "https://www.city.maebashi.gunma.jp/soshiki/kodomomiraibu/kodomoshisetsu/gyomu/8/2/20836.html",
+      "quote": "期        間 ： 令和8年9月1日（火曜日）～10月15日（木曜日）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.maebashi.gunma.jp/material/files/group/187/R9nyuusyonotebiki1.pdf",
+      "quote": "１０月１５日（木）必着 １月１５日（金）必着"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.maebashi.gunma.jp/soshiki/kodomomiraibu/kodomoshisetsu/gyomu/8/2/20836.html",
+      "quote": "申  込  先 ： 第一希望の保育関係施設"
+    },
+    "applyMethods": {
+      "url": "https://www.city.maebashi.gunma.jp/soshiki/kodomomiraibu/kodomoshisetsu/gyomu/8/2/20836.html",
+      "quote": "「令和9年度施設型給付費・地域型保育給付費 教育・保育給付認定申請書兼保育関係施設入所申込書」（以下「申込書」）に保育の必要性を証明する書類を添付し、上記のとおり提出してください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.maebashi.gunma.jp/soshiki/kodomomiraibu/kodomoshisetsu/gyomu/8/2/20836.html",
+      "quote": "（注）「申込書」は、前橋市保健センター2階こども施設課、各保育関係施設、前橋市役所2階25番窓口、大胡・宮城・粕川・富士見支所、ハローワークまえばし マザーズコーナー（"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.maebashi.gunma.jp/soshiki/kodomomiraibu/kodomoshisetsu/gyomu/8/2/20836.html",
+      "quote": "（「申込書」は、ダウンロードできない書式のため、ファイルの掲載はしていません。）"
+    },
+    "firstResult": {
+      "url": "https://www.city.maebashi.gunma.jp/soshiki/kodomomiraibu/kodomoshisetsu/gyomu/8/2/20836.html",
+      "quote": "結果通知 ： 12月下旬に自宅へ郵送"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.maebashi.gunma.jp/material/files/group/187/R9nyuusyonotebiki1.pdf",
+      "quote": "フォームは令和９年度一次募集の結果通知（令和８年１２月下旬）以降入力可能となります。"
+    },
+    "secondApply": {
+      "url": "https://www.city.maebashi.gunma.jp/soshiki/kodomomiraibu/kodomoshisetsu/gyomu/8/2/20836.html",
+      "quote": "期        間 ： 令和9年1月4日（月曜日）～1月15日（金曜日）"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.maebashi.gunma.jp/material/files/group/187/R9nyuusyonotebiki1.pdf",
+      "quote": "１０月１５日（木）必着 １月１５日（金）必着"
+    },
+    "secondApply#3": {
+      "url": "https://www.city.maebashi.gunma.jp/material/files/group/187/R9nyuusyonotebiki1.pdf",
+      "quote": "一次募集の結果、まだ受け入れ可能な歳児クラスがある保育関係施設のみ申し込みが可能です。"
+    },
+    "secondApply#4": {
+      "url": "https://www.city.maebashi.gunma.jp/material/files/group/187/R9nyuusyonotebiki1.pdf",
+      "quote": "空き状況は、前橋市ホームページや前橋市こども施設課窓口で公表します。"
+    },
+    "secondResult": {
+      "url": "https://www.city.maebashi.gunma.jp/soshiki/kodomomiraibu/kodomoshisetsu/gyomu/8/2/20836.html",
+      "quote": "結果通知 ： 2月中旬に自宅へ郵送"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.maebashi.gunma.jp/material/files/group/187/R9nyuusyonotebiki1.pdf",
+      "quote": "③ 令和９年５月１日以降の途中入所・転所希望の方 入所希望月の前月１５日"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.maebashi.gunma.jp/material/files/group/187/R9nyuusyonotebiki1.pdf",
+      "quote": "（１５日が土日祝日の場合はその前開庁日） 希望の保育関係施設又は前橋市こども施設課"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.maebashi.gunma.jp/material/files/group/187/R9nyuusyonotebiki1.pdf",
+      "quote": "（締切日までに前橋市こども施設課必着）"
+    },
+    "midYearDeadline#4": {
+      "url": "https://www.city.maebashi.gunma.jp/material/files/group/187/R9nyuusyonotebiki1.pdf",
+      "quote": "入所希望月の前月２０日前後に電話で連絡"
+    },
+    "documents.0": {
+      "url": "https://www.city.maebashi.gunma.jp/material/files/group/187/R9nyuusyonotebiki1.pdf",
+      "quote": "① 「令和９年度 施設型給付費・地域型保育給付費 教育・保育給付認定申請書兼保育関係施設入所申込書」（以下「申込書」）"
+    },
+    "documents.0#2": {
+      "url": "https://www.city.maebashi.gunma.jp/material/files/group/187/R9nyuusyonotebiki1.pdf",
+      "quote": "●申込書は児童１人につき１枚必要です。"
+    },
+    "documents.1": {
+      "url": "https://www.city.maebashi.gunma.jp/material/files/group/187/R9nyuusyonotebiki1.pdf",
+      "quote": "② 保護者の保育の必要性を証明する書類（p.6表４を参照） ※保育要件は保護者一人につき一つとなります。"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.maebashi.gunma.jp/material/files/group/187/R9nyuusyonotebiki1.pdf",
+      "quote": "外 勤 事業主が発行する就労証明書"
+    },
+    "documents.1#3": {
+      "url": "https://www.city.maebashi.gunma.jp/material/files/group/187/R9nyuusyonotebiki1.pdf",
+      "quote": "求 職 活 動 保育関係施設入所に関する申立書"
+    },
+    "documents.2": {
+      "url": "https://www.city.maebashi.gunma.jp/material/files/group/187/R9nyuusyonotebiki1.pdf",
+      "quote": "※復職（予定）年月日が明記された就労証明書を添付してください。"
+    },
+    "documents.3": {
+      "url": "https://www.city.maebashi.gunma.jp/material/files/group/187/R9nyuusyonotebiki1.pdf",
+      "quote": "出産前に申し込む場合は、申込書に母子健康手帳の表紙の写しを添付してください。"
+    },
+    "documents.4": {
+      "url": "https://www.city.maebashi.gunma.jp/material/files/group/187/R9nyuusyonotebiki1.pdf",
+      "quote": "③ 世帯の状況により必要な書類（p.6表5を参照）"
+    },
+    "documents.4#2": {
+      "url": "https://www.city.maebashi.gunma.jp/material/files/group/187/R9nyuusyonotebiki1.pdf",
+      "quote": "ひとり親世帯 離婚日又は未婚であることが分かる公的書類"
+    },
+    "documents.5": {
+      "url": "https://www.city.maebashi.gunma.jp/soshiki/kodomomiraibu/kodomoshisetsu/gyomu/8/2/20836.html",
+      "quote": "(1)父母と申込児童の個人番号が分かる下記の書類のいずれかを提示してください。"
+    },
+    "documents.5#2": {
+      "url": "https://www.city.maebashi.gunma.jp/soshiki/kodomomiraibu/kodomoshisetsu/gyomu/8/2/20836.html",
+      "quote": "(2)提出者の本人確認ができるもの（運転免許証等顔写真が載っているもの）"
+    },
+    "documents.5#3": {
+      "url": "https://www.city.maebashi.gunma.jp/soshiki/kodomomiraibu/kodomoshisetsu/gyomu/8/2/20836.html",
+      "quote": "※申込者の同一世帯の親族であっても委任状が必要です。"
+    },
+    "interview": {
+      "url": "https://www.city.maebashi.gunma.jp/material/files/group/187/R9nyuusyonotebiki1.pdf",
+      "quote": "説明会・ 日程は結果通知と一緒にお知らせいたします 健康診断"
+    },
+    "interview#2": {
+      "url": "https://www.city.maebashi.gunma.jp/material/files/group/187/R9nyuusyonotebiki1.pdf",
+      "quote": "個人面談・ 保育関係施設と直接日程調整してください 健康診断"
+    },
+    "ikukyu": {
+      "url": "https://www.city.maebashi.gunma.jp/material/files/group/187/R9nyuusyonotebiki1.pdf",
+      "quote": "※入所希望月の申し込み締め切り日までに提出された申込書のうち、選考の結果入所保留となった場合には入所保留通知書を発行することが出来ます。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.maebashi.gunma.jp/material/files/group/187/R9nyuusyonotebiki1.pdf",
+      "quote": "発行を希望される場合には前橋市こども施設課までご相談ください。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.maebashi.gunma.jp/material/files/group/187/R9nyuusyonotebiki1.pdf",
+      "quote": "自己都合（育休の延長等）による入所日の変更はできません。"
+    },
+    "ikukyu#4": {
+      "url": "https://www.city.maebashi.gunma.jp/material/files/group/187/R9nyuusyonotebiki1.pdf",
+      "quote": "その場合、すでに決定している保育関係施設を辞退後、改めて申し込みをしていただくことになります。"
+    },
+    "notes.0": {
+      "url": "https://www.city.maebashi.gunma.jp/material/files/group/187/R9nyuusyonotebiki1.pdf",
+      "quote": "● 第一希望のみを記載され、選考の結果入所不可となった場合、他の施設に空きがあっても入所保留となります。ご希望がありましたら、必ず第二、第三希望を記載してください。ただし、入所が決定した場合に通所ができる施設を記載するようお願いします。"
+    },
+    "notes.1": {
+      "url": "https://www.city.maebashi.gunma.jp/material/files/group/187/R9nyuusyonotebiki1.pdf",
+      "quote": "できる限り、第一希望から第三希望まで見学をしてください。"
+    },
+    "notes.1#2": {
+      "url": "https://www.city.maebashi.gunma.jp/material/files/group/187/R9nyuusyonotebiki1.pdf",
+      "quote": "・日程は、直接保育関係施設と連絡をとってください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.maebashi.gunma.jp/material/files/group/187/R9nyuusyonotebiki1.pdf",
+      "quote": "● 申込期間内に提出された証明書での審査になります。証明内容を変更する場合は、申込期間内のみ受け付けます。"
+    },
+    "notes.3": {
+      "url": "https://www.city.maebashi.gunma.jp/material/files/group/187/R9nyuusyonotebiki1.pdf",
+      "quote": "● 月の就労時間が４８時間未満の場合は求職活動と同じ扱いになります。申し込みの際には「保育関係施設入所に関する申立書」を提出してください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.maebashi.gunma.jp/material/files/group/187/R9nyuusyonotebiki1.pdf",
+      "quote": "● 育休明けの入所希望で内定していても、就労証明書に記載の職場に復職をしない場合や、入所内定月の１日時点で前橋市に住民登録がない場合、内定は取り消しになります。"
+    },
+    "notes.5": {
+      "url": "https://www.city.maebashi.gunma.jp/material/files/group/187/R9nyuusyonotebiki1.pdf",
+      "quote": "二次募集を行わない保育関係施設の歳児クラスを希望する場合は、４月からの入所はできません。"
+    }
+  },
+  "sources": [
+    {
+      "label": "前橋市「令和9年度保育関係施設入所申し込みのご案内」",
+      "url": "https://www.city.maebashi.gunma.jp/soshiki/kodomomiraibu/kodomoshisetsu/gyomu/8/2/20836.html"
+    },
+    {
+      "label": "前橋市「令和9年度保育関係施設入所の手引き」",
+      "url": "https://www.city.maebashi.gunma.jp/material/files/group/187/R9nyuusyonotebiki1.pdf"
+    }
+  ]
+}

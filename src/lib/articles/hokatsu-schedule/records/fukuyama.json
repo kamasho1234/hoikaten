@@ -1,0 +1,196 @@
+{
+  "citySlug": "fukuyama",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "福山市「２０２６年度（令和８年度）保育所等入所申し込みについて」",
+    "url": "https://www.city.fukuyama.hiroshima.jp/soshiki/hoikushisetsu/347755.html"
+  },
+  "fiscalYear": "R8",
+  "guideRelease": "令和7年11月21日（金）から、申込書類を市内158か所の保育所・認定こども園・地域型保育事業、本庁保育施設課、ネウボラセンターで配付",
+  "firstApply": "第一次は令和7年12月1日（月）〜12月15日（月）。保育所等ごとに受付日が決まっている。電子申請は令和7年12月1日（月）〜12月14日（日）",
+  "applyMethods": "第1希望の保育所等に提出する（支所・分室では受け付けない）。転入予定などで保育所等に直接出せない場合は保育施設課へ郵送でき、郵送は締切日必着。電子申請もでき、窓口とは締切日が異なる",
+  "firstResult": "電子申請の案内では、4月入所・第一次の通知発送予定日は令和8年2月9日（月）で、通知は郵送",
+  "secondApply": "第二次は令和7年12月16日（火）〜令和8年1月14日（水）で、第一次の入所決定状況で審査する（電子申請は令和8年1月13日（火）まで）",
+  "secondResult": "電子申請の案内では、4月入所・第二次の通知発送予定日は令和8年2月26日（木）",
+  "midYearDeadline": "年度途中の入所日は毎月1日。窓口申請の提出期限は入所希望月の前月10日（10日が土・日・祝日の場合はその前の市役所の開庁日）で、電子申請の締切はこれと異なる",
+  "documents": [
+    "教育・保育認定申請及び保育所等入所申込書（2枚目のマイナンバー記入欄も記入して提出）",
+    "就労証明書（保護者が月48時間以上働いていることを理由に申し込む場合。育休からの復帰に伴う申込みも含む。勤務先の事業者が作成したもので、押印は原則不要）",
+    "申込者の番号確認書類・身元確認書類",
+    "妊娠出産・病気などの要件で申し込む場合は申立書と、親子健康手帳（母子健康手帳）のコピー、診断書・障がい者手帳等のコピー、在学証明書・時間割等",
+    "求職活動を理由に申し込む場合は申立書（求職活動要件）・求職活動報告書と、ハローワークの受付票のコピー、雇用保険受給資格者証のコピー"
+  ],
+  "ikukyu": "育児休業給付金の支給期間を延長する手続では、保育所等の入所申込書の写し（両面）が必要になるため、申込書を出す前に写しをとって保管しておく（電子申請なら申込内容を印刷したもの）。申込期限までに申し込んでいない場合や、合理的な理由なく片道30分以上かかる施設だけを申し込んだ場合などは延長が認められないことがある",
+  "notes": [
+    "支所・分室では申込みも「保育所等入所のご案内」の配付も行っていない",
+    "締切日を過ぎた申込みは、次の利用調整（同年度内の入所に限る）の対象になる",
+    "4月入所には第三次の受付（令和8年2月27日〜3月5日）もあり、第二次の入所決定状況で審査する。利用調整のたびに空きは通常減っていく",
+    "育休を取って休業前の職場に復帰する場合は年度途中の入所予約ができることがあるが、受付は第一次受付期間だけで、4月1日入所枠などとの調整があるため必ず予約できるわけではない。育児休業給付金（手当金）支給決定通知書のコピーが要る",
+    "保育所等の見学は、必ず事前に連絡してから行う",
+    "福山市へ転入予定の場合は、福山市での住所が確定していないと申し込めない"
+  ],
+  "evidence": {
+    "page": {
+      "url": "https://www.city.fukuyama.hiroshima.jp/soshiki/hoikushisetsu/347755.html",
+      "quote": "「保育所等入所のご案内」の配付(１１月２１日配付開始）、入所申し込み受付は、市内１５８か所の保育所等で行います。"
+    },
+    "fiscalYear": {
+      "url": "https://www.city.fukuyama.hiroshima.jp/koho-detail06/koho-202511/343971.html",
+      "quote": "２０２６年４月から保育所等に入所を希望する場合は、申し込み手続が必要です。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.fukuyama.hiroshima.jp/soshiki/hoikushisetsu/347755.html",
+      "quote": "申込書類配付開始日：２０２５年１１月２１日（金曜日）"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.fukuyama.hiroshima.jp/soshiki/hoikushisetsu/347755.html",
+      "quote": "申込書類配付場所 ：市内１５８か所の保育所、認定こども園、地域型保育事業、本庁保育施設課、ネウボラセンター"
+    },
+    "firstApply": {
+      "url": "https://www.city.fukuyama.hiroshima.jp/soshiki/hoikushisetsu/347755.html",
+      "quote": "第一次：１２月１日（月曜日）～１２月１５日（月曜日） 保育所等ごとに、受付日を定めています。"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.fukuyama.hiroshima.jp/soshiki/hoikushisetsu/301526.html",
+      "quote": "※２０２６年度（令和８年度）入所申込みについては、２０２５年（令和７年）１２月１日から受付を開始します。"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.fukuyama.hiroshima.jp/soshiki/hoikushisetsu/301526.html",
+      "quote": "２０２６年４月 第一次 ２０２５年１２月１日（月） ～１２月１４日（日）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.fukuyama.hiroshima.jp/soshiki/hoikushisetsu/347755.html",
+      "quote": "第１希望の保育所等(転入予定等で、直接保育所等に提出できない場合は、保育施設課に郵送可）"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.fukuyama.hiroshima.jp/soshiki/hoikushisetsu/347755.html",
+      "quote": "※郵送は、受付締切日までに保育施設課に届いていることが必要です。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.fukuyama.hiroshima.jp/soshiki/hoikushisetsu/347755.html",
+      "quote": "※電子申請の場合はこちらをご確認ください。窓口申請と申込締切日等が異なりますのでご注意ください。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.fukuyama.hiroshima.jp/soshiki/hoikushisetsu/347755.html",
+      "quote": "支所・分室では申し込み等はできません。保育所等で受け付けます。"
+    },
+    "firstResult": {
+      "url": "https://www.city.fukuyama.hiroshima.jp/soshiki/hoikushisetsu/301526.html",
+      "quote": "２０２６年４月 第一次 ２０２５年１２月１日（月） ～１２月１４日（日） ２月９日(月)"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.fukuyama.hiroshima.jp/soshiki/hoikushisetsu/301526.html",
+      "quote": "※通知発送は郵送のみです。電子でお送りすることはできません。"
+    },
+    "secondApply": {
+      "url": "https://www.city.fukuyama.hiroshima.jp/soshiki/hoikushisetsu/347755.html",
+      "quote": "第二次：１２月１６日（火曜日）～１月１４日（水曜日） 第二次は第一次の入所決定状況で審査を行います。"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.fukuyama.hiroshima.jp/soshiki/hoikushisetsu/301526.html",
+      "quote": "２０２６年４月 第二次 ２０２５年１２月１６日（火） ​～２０２６年１月１３日（火）"
+    },
+    "secondResult": {
+      "url": "https://www.city.fukuyama.hiroshima.jp/soshiki/hoikushisetsu/301526.html",
+      "quote": "２０２６年４月 第二次 ２０２５年１２月１６日（火） ​～２０２６年１月１３日（火） ２​月２６日(木)"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.fukuyama.hiroshima.jp/soshiki/hoikushisetsu/347755.html",
+      "quote": "入所日は毎月１日です。"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.fukuyama.hiroshima.jp/soshiki/hoikushisetsu/301526.html",
+      "quote": "窓口申請の場合の提出期限（入所希望月の前月１０日（ただし、１０日が土・日・祝日の場合はその前の市役所の開庁日））"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.fukuyama.hiroshima.jp/soshiki/hoikushisetsu/301526.html",
+      "quote": "電子申請の申込締切日は、窓口での申込締切日と異なりますのでご注意ください。"
+    },
+    "documents.0": {
+      "url": "https://www.city.fukuyama.hiroshima.jp/site/kosodate/314593.html",
+      "quote": "教育・保育認定申請及び保育所等入所申込書（２０２６年度（令和８年度）用）※必ず2枚目も記入して提出してください。）"
+    },
+    "documents.1": {
+      "url": "https://www.city.fukuyama.hiroshima.jp/soshiki/hoikushisetsu/347755.html",
+      "quote": "保護者が月４８時間以上の仕事をしている場合（就労要件）で入所申し込みをする際は、就労証明書の提出が必要です（育休からの復帰に伴う入所申し込みを含む）。"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.fukuyama.hiroshima.jp/soshiki/hoikushisetsu/347755.html",
+      "quote": "就労証明書の押印は原則不要となります。就労証明書の提出に当たっては、これまでと同様、必ず勤務先の事業者が作成した証明書を提出してください。"
+    },
+    "documents.2": {
+      "url": "https://www.city.fukuyama.hiroshima.jp/site/kosodate/314593.html",
+      "quote": "必要な添付書類 申込者の番号確認書類・身元確認書類"
+    },
+    "documents.3": {
+      "url": "https://www.city.fukuyama.hiroshima.jp/site/kosodate/314593.html",
+      "quote": "必要な添付書類 親子健康手帳（母子健康手帳）のコピー、診断書・障がい者手帳等のコピー、在学証明書・時間割等"
+    },
+    "documents.4": {
+      "url": "https://www.city.fukuyama.hiroshima.jp/site/kosodate/314593.html",
+      "quote": "必要な添付書類 ハローワークの受付票のコピー、雇用保険受給資格者証のコピー"
+    },
+    "ikukyu": {
+      "url": "https://www.city.fukuyama.hiroshima.jp/soshiki/hoikushisetsu/347755.html",
+      "quote": "保育所等の入所申し込みを行う際は、提出前に必ず申込書（教育・保育給付認定申請及び保育所等入所申込書の両面）の写しをとって保管しておいてください（電子申請で申し込みを行った場合は、申込内容を印刷したもの、または、申し込みを行った画面を印刷したもの）。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.fukuyama.hiroshima.jp/soshiki/hoikushisetsu/347755.html",
+      "quote": "申込期限までに入所申し込みを行っていない場合や、申込んだ保育所等が合理的な理由なく自宅から通所に片道３０分以上要する施設のみの場合など、給付金の延長が認められない場合がある"
+    },
+    "notes.0": {
+      "url": "https://www.city.fukuyama.hiroshima.jp/soshiki/hoikushisetsu/347755.html",
+      "quote": "支所・分室等では「保育所等入所のご案内」の配付は行っていません。"
+    },
+    "notes.1": {
+      "url": "https://www.city.fukuyama.hiroshima.jp/soshiki/hoikushisetsu/347755.html",
+      "quote": "締切日を過ぎた場合は、次の利用調整（同年度内の入所に限る。）の対象とします。"
+    },
+    "notes.2": {
+      "url": "https://www.city.fukuyama.hiroshima.jp/soshiki/hoikushisetsu/347755.html",
+      "quote": "第三次：２月２７日（金曜日）～３月５日（木曜日） 第三次は第二次の入所決定状況で審査を行います。"
+    },
+    "notes.2#2": {
+      "url": "https://www.city.fukuyama.hiroshima.jp/soshiki/hoikushisetsu/347755.html",
+      "quote": "なお、通常は、利用調整ごとに空き（入所可能人数）は減少します。"
+    },
+    "notes.3": {
+      "url": "https://www.city.fukuyama.hiroshima.jp/soshiki/hoikushisetsu/347755.html",
+      "quote": "※育休予約は、４月１日入所枠等との調整を行うため、必ず育休予約ができるわけではありません。"
+    },
+    "notes.3#2": {
+      "url": "https://www.city.fukuyama.hiroshima.jp/soshiki/hoikushisetsu/347755.html",
+      "quote": "・育休予約申し込みは、復帰日にかかわらず、上記の第一次受付期間のみの受付となります。"
+    },
+    "notes.3#3": {
+      "url": "https://www.city.fukuyama.hiroshima.jp/soshiki/hoikushisetsu/347755.html",
+      "quote": "・申し込みには育児休業給付金（手当金）支給決定通知書のコピーの添付が必要です。"
+    },
+    "notes.4": {
+      "url": "https://www.city.fukuyama.hiroshima.jp/soshiki/hoikushisetsu/347755.html",
+      "quote": "保育所等の見学について　※必ず事前に連絡のうえ、見学してください。"
+    },
+    "notes.5": {
+      "url": "https://www.city.fukuyama.hiroshima.jp/soshiki/hoikushisetsu/347755.html",
+      "quote": "福山市へ転入予定の場合の申し込みについて（福山市での住所が未確定の場合は、申し込みできません。）"
+    }
+  },
+  "sources": [
+    {
+      "label": "福山市「２０２６年度（令和８年度）保育所等入所申し込みについて」",
+      "url": "https://www.city.fukuyama.hiroshima.jp/soshiki/hoikushisetsu/347755.html"
+    },
+    {
+      "label": "福山市「教育・保育給付認定申請及び保育所等入所申込に係る電子申請について」",
+      "url": "https://www.city.fukuyama.hiroshima.jp/soshiki/hoikushisetsu/301526.html"
+    },
+    {
+      "label": "福山市「入所申込書等ダウンロード（２０２６年度（令和８年度）用）」",
+      "url": "https://www.city.fukuyama.hiroshima.jp/site/kosodate/314593.html"
+    },
+    {
+      "label": "福山市 広報ふくやま「保育所等入所申し込み」",
+      "url": "https://www.city.fukuyama.hiroshima.jp/koho-detail06/koho-202511/343971.html"
+    }
+  ]
+}

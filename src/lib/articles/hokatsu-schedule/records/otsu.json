@@ -1,0 +1,182 @@
+{
+  "citySlug": "otsu",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "大津市「令和9年度 保育所等利用案内」",
+    "url": "https://www.city.otsu.lg.jp/soshiki/015/1410/g/hn/76148.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年9月7日（月曜）〜10月9日（金曜）。郵送の場合は締切日必着",
+  "applyMethods": "大津市役所保育入所課の窓口に持参（令和9年4月の申込は窓口に設置する提出用BOXに提出）するか、レターパックか簡易書留で郵送する（締切日必着）。支所（市民センター）や保育施設では受け付けない。申込方法による入所調整時の加点・減点はない",
+  "firstResult": "令和9年1月29日に結果通知を発送予定",
+  "secondApply": "令和9年2月1日（月曜）〜2月12日（金曜）。一次申込をした人は改めて二次申込をする必要はない",
+  "secondResult": "令和9年3月中旬に結果通知を発送予定",
+  "midYearDeadline": "令和9年3月1日以降、入所希望月の前月1日まで（1日が土曜・日曜・祝日の場合は翌開庁日まで）。結果通知は入所希望月の前月20日頃に発送予定",
+  "documents": [
+    "施設型給付費・地域型保育給付費等教育・保育給付認定申請書",
+    "保育所等利用希望申込書",
+    "保育の必要性の確認書類（父母それぞれ。就労の場合は就労証明書。写しの提出も可で、発行日が手続き日の3ヶ月前の日の属する月以内のものに限る）",
+    "個人番号（マイナンバー）提供書",
+    "個人番号（マイナンバー）提供用身元確認書類及び番号確認書類貼付台紙",
+    "チェックシート",
+    "申請保護者以外の人が申し込む場合は委任状（郵送の場合は不要）"
+  ],
+  "interview": "申込期間中の平日（9月7日〜10月9日、9:00〜16:30）に保育入所課窓口で令和9年4月の利用希望相談（1組約30分、予約制）を実施。入所が決まった場合は、結果通知で案内される保育施設に保護者から連絡を取り、面談等を受ける",
+  "ikukyu": "保育所等利用希望申込書の「保育施設に入所できない場合、育休延長も許容できる。」欄にチェックを入れると、利用調整が最低点数になる（確実に不承諾になる約束ではない）。育児休業給付金の延長手続に書類のコピーが要るかは自分で職場に確認する",
+  "notes": [
+    "令和8年度の年度途中の申請をしている人も、令和9年4月入所には別途申請が必要",
+    "新規開所予定園は一次申込では受け付けない。希望園に書いた場合は希望園が1園分減り、以降の希望順位を繰り上げて調整する",
+    "締切日以降の希望施設の追加や希望順位の変更は受け付けない",
+    "三次申込（令和9年2月15日〜3月12日）は、急な転居で令和9年2月13日以降に住民票を異動する人だけが対象",
+    "育休復帰で申し込む場合は、入所希望月の翌月1日までの復帰が申込みの要件。育児休業中のままでは申し込めない",
+    "出生前は申し込めない。申込期日までに出生し、出生届を出していれば受け付ける"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.otsu.lg.jp/material/files/group/10/R9tebiki.pdf",
+      "quote": "令和９年４月入所申込については、令和８年度途中の申請をしている方も、別途申請が必要です。"
+    },
+    "firstApply": {
+      "url": "https://www.city.otsu.lg.jp/soshiki/015/1410/g/hn/76148.html",
+      "quote": "令和8年9月7日(月曜)～令和8年10月9日(金曜)"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.otsu.lg.jp/soshiki/015/1410/g/hn/76148.html",
+      "quote": "申込期間中に、レターパック又は簡易書留にて申込書類をご郵送ください。（締切日必着）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.otsu.lg.jp/soshiki/015/1410/g/hn/76148.html",
+      "quote": "申込期間中に、大津市役所保育入所課窓口へお持ちください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.otsu.lg.jp/soshiki/015/1410/g/hn/76148.html",
+      "quote": "令和9年4月の利用希望申込受付については、窓口に設置している提出用BOXをご利用ください。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.otsu.lg.jp/soshiki/015/1410/g/hn/76148.html",
+      "quote": "支所（市民センター）や保育施設では、受付できませんので、ご注意ください。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.otsu.lg.jp/soshiki/015/1410/g/hn/76148.html",
+      "quote": "申込方法によって、入所調整時の加点や減点はありません。"
+    },
+    "firstResult": {
+      "url": "https://www.city.otsu.lg.jp/soshiki/015/1410/g/hn/76148.html",
+      "quote": "結果通知は、令和9年1月29日の発送を予定しています。"
+    },
+    "secondApply": {
+      "url": "https://www.city.otsu.lg.jp/soshiki/015/1410/g/hn/76148.html",
+      "quote": "令和9年2月1日(月曜)～令和9年2月12日(金曜)"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.otsu.lg.jp/soshiki/015/1410/g/hn/76148.html",
+      "quote": "一次申込をされた方は、改めて二次申込の必要はございません。"
+    },
+    "secondResult": {
+      "url": "https://www.city.otsu.lg.jp/soshiki/015/1410/g/hn/76148.html",
+      "quote": "結果通知は、令和9年3月中旬の発送を予定しています。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.otsu.lg.jp/soshiki/015/1410/g/hn/76148.html",
+      "quote": "令和9年3月1日以降 ～入所希望月の前月1日まで"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.otsu.lg.jp/soshiki/015/1410/g/hn/76148.html",
+      "quote": "(ただし、1日が土曜・日曜・祝日の場合は、翌開庁日まで)"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.otsu.lg.jp/soshiki/015/1410/g/hn/76148.html",
+      "quote": "結果通知は、入所希望月の前月20日頃の発送を予定しています。"
+    },
+    "documents.0": {
+      "url": "https://www.city.otsu.lg.jp/soshiki/015/1410/g/hn/76148.html",
+      "quote": "施設型給付費・地域型保育給付費等教育・保育給付認定申請書"
+    },
+    "documents.1": {
+      "url": "https://www.city.otsu.lg.jp/soshiki/015/1410/g/hn/76148.html",
+      "quote": "保育所等利用希望申込書"
+    },
+    "documents.2": {
+      "url": "https://www.city.otsu.lg.jp/material/files/group/10/R9tebiki.pdf",
+      "quote": "就労証明書等の「保育の必要性の確認書類」については、写し（発行日が、手続き日の３ヶ月前の日の属する月以内のものに限る）のご提出が可能です。"
+    },
+    "documents.2#2": {
+      "url": "https://www.city.otsu.lg.jp/material/files/group/10/R9tebiki.pdf",
+      "quote": "父母それぞれについて、下表の保育の必要性にそって、必要書類をご提出ください。"
+    },
+    "documents.3": {
+      "url": "https://www.city.otsu.lg.jp/soshiki/015/1410/g/hn/76148.html",
+      "quote": "個人番号（マイナンバー）提供書"
+    },
+    "documents.4": {
+      "url": "https://www.city.otsu.lg.jp/soshiki/015/1410/g/hn/76148.html",
+      "quote": "個人番号（マイナンバー）提供用身元確認書類及び番号確認書類貼付台紙"
+    },
+    "documents.5": {
+      "url": "https://www.city.otsu.lg.jp/material/files/group/10/R9tebiki.pdf",
+      "quote": "チェックシートにて重要事項の確認、提出書類"
+    },
+    "documents.6": {
+      "url": "https://www.city.otsu.lg.jp/soshiki/015/1410/g/hn/76148.html",
+      "quote": "保護者（入園申請書類の申請保護者欄に記載いただいている方）以外の方が申込をされる場合、委任状が必要になります。（郵送の場合は不要。）"
+    },
+    "interview": {
+      "url": "https://www.city.otsu.lg.jp/material/files/group/10/R9tebiki.pdf",
+      "quote": "結果の通知に決定した保育施設の連絡先等をご案内していますので、保護者様より連絡をお取りいただき、面談等を受け、入所に備えていただきます。"
+    },
+    "interview#2": {
+      "url": "https://www.city.otsu.lg.jp/material/files/group/10/R9tebiki.pdf",
+      "quote": "令和９年４月の利用希望相談を下記のとおり（１組約３０分）実施します。"
+    },
+    "interview#3": {
+      "url": "https://www.city.otsu.lg.jp/material/files/group/10/R9tebiki.pdf",
+      "quote": "【平日】９月７日（月）～１０月９日（金） 9:00～16:30（保育入所課窓口）"
+    },
+    "ikukyu": {
+      "url": "https://www.city.otsu.lg.jp/material/files/group/10/R9tebiki.pdf",
+      "quote": "「保育所等利用希望申込書」の「保育施設に入所できない場合、育休延長も許容できる。」欄にチェックを入れた場合、利用調整が最低点数となります。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.otsu.lg.jp/material/files/group/10/R9tebiki.pdf",
+      "quote": "ただし、確実に不承諾をお約束するものではありません。また、育児休業給付金の延長手続に係る書類コピーの必要性についてはご自身で職場にご確認ください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.otsu.lg.jp/material/files/group/10/R9tebiki.pdf",
+      "quote": "令和９年４月入所申込については、令和８年度途中の申請をしている方も、別途申請が必要です。"
+    },
+    "notes.1": {
+      "url": "https://www.city.otsu.lg.jp/material/files/group/10/R9tebiki.pdf",
+      "quote": "新規開所予定園は一次申込での受付はいたしません。希望園に記載された場合は希望園が１園分減り、以降の希望順位を繰り上げて調整します。"
+    },
+    "notes.2": {
+      "url": "https://www.city.otsu.lg.jp/material/files/group/10/R9tebiki.pdf",
+      "quote": "締切日以降の希望施設追加や希望順位の変更については、受付できません。"
+    },
+    "notes.3": {
+      "url": "https://www.city.otsu.lg.jp/soshiki/015/1410/g/hn/76148.html",
+      "quote": "急遽転居が決まり、保育施設の申込が必要になった方（令和9年2月13日以降に住民票の異動となる方）が対象です。"
+    },
+    "notes.3#2": {
+      "url": "https://www.city.otsu.lg.jp/soshiki/015/1410/g/hn/76148.html",
+      "quote": "令和9年2月15日(月曜)～令和9年3月12日(金曜)"
+    },
+    "notes.4": {
+      "url": "https://www.city.otsu.lg.jp/material/files/group/10/R9tebiki.pdf",
+      "quote": "入所希望月の翌月１日までの復帰が、申込みの要件となります。慣らし保育等もありますので、就労先とご相談の上調整してください。なお、育児休業中での申込みはできません。"
+    },
+    "notes.5": {
+      "url": "https://www.city.otsu.lg.jp/material/files/group/10/R9tebiki.pdf",
+      "quote": "できません。申込期日までに出生され、出生届を提出されていれば受付可能です。"
+    }
+  },
+  "sources": [
+    {
+      "label": "大津市「令和9年度 保育所等利用案内」",
+      "url": "https://www.city.otsu.lg.jp/soshiki/015/1410/g/hn/76148.html"
+    },
+    {
+      "label": "大津市「令和9年度 保育所・認定こども園・地域型保育施設 利用申込の手引き」",
+      "url": "https://www.city.otsu.lg.jp/material/files/group/10/R9tebiki.pdf"
+    }
+  ]
+}

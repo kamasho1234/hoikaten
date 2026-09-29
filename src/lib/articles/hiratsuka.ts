@@ -3,60 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "hiratsuka",
-    title: "平塚市の保活スケジュール　申込から内定までの流れ",
-    description:
-      "平塚市の認可保育園の申込時期・選考の流れをまとめました。令和8年度4月入園の動き方を解説します。",
-    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>平塚市の4月入園スケジュール</h2>
-<p>平塚市の認可保育園は毎年秋に翌年度4月入園の申込を受付けます。平塚市こども家庭課が窓口です。</p>
-
-<h3>保活の全体スケジュール</h3>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content">
-<strong>4月〜6月：情報収集</strong>
-<p>平塚市のホームページで認可保育園の一覧を確認します。市内には約40か所の認可保育園があります。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content">
-<strong>6月〜9月：保育園見学</strong>
-<p>気になる園に連絡して見学を予約しましょう。平塚市は湘南地域ならではの開放的な園が多いのが特徴です。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content">
-<strong>10月〜11月：申込書類の準備・提出</strong>
-<p>就労証明書などの必要書類を準備し、こども家庭課窓口に提出します。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content">
-<strong>2月上旬：選考結果の通知</strong>
-<p>内定または不承諾の通知が届きます。不承諾の場合は二次募集や途中入園を検討しましょう。</p>
-</div>
-</div>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>平塚市は基本指数が父母各最大20点（合計40点満点）です。月あたりの勤務日数と1日の勤務時間で判定されます。</p>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.hiratsuka.kanagawa.jp/kodomo/page82_00017.html" target="_blank" rel="noopener">平塚市こども家庭課</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-04-07",
-    popularity: 60,
-  },
-  {
     slug: "scoring-system-guide",
     citySlug: "hiratsuka",
     title: "平塚市の入園点数のしくみ　基本指数と調整指数を解説",

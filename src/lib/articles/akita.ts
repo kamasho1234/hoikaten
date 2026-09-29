@@ -3,59 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "akita",
-    title: "秋田市の保活スケジュール　令和8年度4月入園の流れ",
-    description:
-      "秋田市の令和8年度（2026年度）4月入園の申込時期・必要書類・結果通知の時期をまとめました。",
-    image:
-      "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>令和8年度（2026年度）4月入園のスケジュール</h2>
-<p>秋田市の4月入園は第1回〜第4回の複数回にわたって審査が行われます。</p>
-
-<h3>申込から入所までの流れ</h3>
-<table>
-<tr><th>審査回</th><th>受付期間</th><th>結果通知</th></tr>
-<tr><td>第1回</td><td>11月4日〜28日</td><td>1月下旬</td></tr>
-<tr><td>第2回</td><td>12月1日〜1月30日</td><td>2月下旬</td></tr>
-<tr><td>第3回</td><td>2月2日〜27日</td><td>3月上旬</td></tr>
-<tr><td>第4回</td><td>3月2日〜9日</td><td>3月中旬</td></tr>
-<tr><td>途中入所</td><td>3月10日以降随時</td><td>審査後随時</td></tr>
-</table>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>秋田市は4回の審査があるのが特徴です。第1回に申し込むのがもっとも選択肢が多く有利です。年度途中入所は毎月2回の審査があり、審査日からおおむね3週間後の1日または15日が入所日になります。</p>
-</div>
-
-<h2>いつから動き始めるべき？</h2>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content"><strong>4月〜6月：情報収集</strong><p>秋田市の公式サイトで前年度の入所案内を参考に準備を始めます。</p></div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content"><strong>6月〜10月：保育園見学</strong><p>気になる園に電話して見学予約を入れましょう。</p></div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content"><strong>10月〜11月：書類準備</strong><p>就労証明書を勤務先に依頼します。教育・保育給付認定申請書（兼保育利用申込書）が必要です。</p></div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content"><strong>11月：第1回申込</strong><p>子ども育成課の窓口や市民サービスセンターで書類を提出します。電子申請にも一部対応しています。</p></div>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>最新情報は<a href="https://www.city.akita.lg.jp/kurashi/kosodate/1005999/1009962/1047377.html" target="_blank" rel="noopener">秋田市公式サイト「令和8年度保育所などの入所手続きについて」</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-04-05",
-    popularity: 55,
-  },
-  {
     slug: "katen-no-kotsu",
     citySlug: "akita",
     title: "秋田市で加点を最大化するコツ　調整指数を積み上げる方法",

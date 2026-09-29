@@ -1,0 +1,190 @@
+{
+  "citySlug": "yamato",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "大和市「保育所・幼稚園入所までの流れ ６．保育所等の入所申し込みをする」",
+    "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/purpose/O/O00007.html"
+  },
+  "fiscalYear": "R8",
+  "firstApply": "令和7年11月4日（火）〜11月28日（金）。11月22日（土）・23日（日）も受付。郵送での申し込みや大和市外在住の場合は11月12日（水）必着。申込内容の変更申請は11月28日（金）まで",
+  "applyMethods": "大和市保健福祉センター2階のほいく課の窓口で受け付け。郵送申込もできるが、窓口より締切が早い。申込書はマイナポータルの電子申請でも出せるが、申込書以外の必要書類は期日（必着）までに郵送か窓口で提出する。1次申込の受付時間は8:30〜11:30、13:00〜16:30",
+  "firstResult": "令和8年1月下旬に通知（認定通知書も同時期に発送）。内定の場合は「保育所等利用調整結果」、保留の場合は「保育所等利用保留通知書」が届く",
+  "secondApply": "12月1日（月）〜2月2日（月）（令和8年4月入所の2次申込）。郵送の場合は12月1日（月）〜1月16日（金）必着。1次申込で空きが生じた場合に利用調整を行う",
+  "midYearDeadline": "5月以降の入所は入所希望月ごとに受付期間が決まっている（例：令和8年6月入所は4月2日（木）〜5月1日（金）、郵送は4月20日（月）必着）",
+  "documents": [
+    "子どものための教育・保育給付認定申請書兼保育所等利用申込書（同居する全ての家族の個人番号を記入）",
+    "保育所等利用申込補助票（親子健康手帳（母子健康手帳）をあわせて持参）",
+    "保育所等利用申込に関する確認書（確認事項の全てにチェックを付け、裏面に署名）",
+    "保育を必要とする保護者の状況が分かる書類（就労証明書など。利用希望月から起算して6か月以内のものが有効で、4月申込なら10月1日以降の証明日が有効）",
+    "郵送申込の場合は、直近の乳幼児健診結果の写し、郵送受付確認票、本人確認書類（写）添付台紙を同封"
+  ],
+  "interview": "内定した場合は、入所月の前月末までに内定した保育所等で面接を受ける。面接を受けない場合や、健康面・発達面から安全に預かることが困難と判断された場合は内定取消の可能性がある",
+  "ikukyu": "希望する保育所等に入所できない時は育児休業等の延長も許容できる場合、調整指数が-20となる。育児休業延長手続き等で必要な保育所等利用保留証明書は、利用保留となった場合のみ、交付申請書を市ほいく課に出して発行を受ける（原則1週間程度で自宅に郵送）",
+  "notes": [
+    "申込期間内に書類を早く提出しても有利・不利はない",
+    "大和市外在住の場合、1次申込は転入予定または市内保育士等（加点対象）のみが対象で、その他の在勤要件の人は2次申込から受け付け",
+    "郵送申込は、配慮が必要な児童や大和市外の保育所を1園でも希望する人、これから生まれる児童の申し込みなどの場合はできず、窓口への直接提出のみ",
+    "希望する保育所等には事前に日程を調整して見学し、保育内容や実費負担等を確認する",
+    "令和9年4月入所申込のスケジュールは、利用ガイド（令和8年度版）の時点で未定とされている"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/purpose/O/O00046.html",
+      "quote": "令和８年４月１日以降に入所希望の方はこちらをご参照ください。"
+    },
+    "fiscalYear#2": {
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/public/download/202606kyouikuhoikusisetu_riyouguide.pdf",
+      "quote": "申込受付期間：令和7年11月4日（火）～1１月28日（金）"
+    },
+    "firstApply": {
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/public/download/202606kyouikuhoikusisetu_riyouguide.pdf",
+      "quote": "申込受付期間：令和7年11月4日（火）～1１月28日（金）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/public/download/202606kyouikuhoikusisetu_riyouguide.pdf",
+      "quote": "※11月22日（土）・ 23日（日）も受け付けしています。（これ以外の土日祝日は受け付けておりません）"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/public/download/202606kyouikuhoikusisetu_riyouguide.pdf",
+      "quote": "※郵送での申し込みや大和市外にお住まいの場合、11月12日（水）必着（申込内容の変更申請は、11月28日（金）まで受付）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/public/download/202606kyouikuhoikusisetu_riyouguide.pdf",
+      "quote": "・大和市保健福祉センター２階のほいく課の窓口で受け付けしています。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/public/download/202606kyouikuhoikusisetu_riyouguide.pdf",
+      "quote": "・郵送申込の場合は窓口申込よりも締切期限が早くなっているため、ご注意ください。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/purpose/O/O00007.html",
+      "quote": "電子申請（マイナポータル）による申し込みも可能です。なお、申込書以外の必要書類は電子申請ができないため、期日（必着）までに郵送または、直接保健福祉センターの窓口で提出が必要です。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/public/download/202606kyouikuhoikusisetu_riyouguide.pdf",
+      "quote": "受 付 時 間 ：8：３０～11：３０、1３：００～１６：３０"
+    },
+    "firstResult": {
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/public/download/202606kyouikuhoikusisetu_riyouguide.pdf",
+      "quote": "通知時期：令和8年１月下旬（認定通知書も同時期に発送）"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/purpose/O/O00007.html",
+      "quote": "“保育所等利用調整結果”が届きます。"
+    },
+    "firstResult#3": {
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/purpose/O/O00007.html",
+      "quote": "“保育所等利用保留通知書”が届きます。"
+    },
+    "secondApply": {
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/public/download/202606kyouikuhoikusisetu_riyouguide.pdf",
+      "quote": "令和8年4月 2次申込 12月1日（月）～2月2日（月） ※郵送申込の場合は、12月1日（月）～1月16日（金）必着"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/public/download/202606kyouikuhoikusisetu_riyouguide.pdf",
+      "quote": "・1次申込で空きが生じた場合に利用調整を行います。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/public/download/202606kyouikuhoikusisetu_riyouguide.pdf",
+      "quote": "令和8年6月 4月2日（木）～5月1日（金） 郵送申込は4月20日（月）必着"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/purpose/O/O00007.html",
+      "quote": "下記のとおり希望月により、申し込み期間および時間は異なりますのでご注意ください。"
+    },
+    "documents.0": {
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/public/download/202606kyouikuhoikusisetu_riyouguide.pdf",
+      "quote": "・子どものための教育・保育給付認定申請書兼保育所等利用申込書 ・同居する全ての家族の個人番号を記入してください。"
+    },
+    "documents.1": {
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/public/download/202606kyouikuhoikusisetu_riyouguide.pdf",
+      "quote": "・保育所等利用申込補助票 ・親子健康手帳（母子健康手帳）をあわせてご持参ください。"
+    },
+    "documents.2": {
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/public/download/202606kyouikuhoikusisetu_riyouguide.pdf",
+      "quote": "・保育所等利用申込に関する確認書 ・確認事項の全てにチェックを付け、裏面に署名してください。"
+    },
+    "documents.3": {
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/public/download/202606kyouikuhoikusisetu_riyouguide.pdf",
+      "quote": "※利用希望月から起算して６か月以内のものが有効です。 （例：4 月申込の場合、10 月 1 日以降の証明日が有効）"
+    },
+    "documents.3#2": {
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/public/download/202606kyouikuhoikusisetu_riyouguide.pdf",
+      "quote": "・保育を必要とする保護者の状況が分かる書類(次の A～F のいずれかが必要)"
+    },
+    "documents.4": {
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/public/download/202606kyouikuhoikusisetu_riyouguide.pdf",
+      "quote": "① 直近の乳幼児健診結果の写し ② 郵送受付確認票 ③ 本人確認書類（写）添付台紙"
+    },
+    "documents.4#2": {
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/public/download/202606kyouikuhoikusisetu_riyouguide.pdf",
+      "quote": "・通常の申請書類一式（P.4 参照）に加えて、次の書類を同封してください。"
+    },
+    "interview": {
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/public/download/202606kyouikuhoikusisetu_riyouguide.pdf",
+      "quote": "・内定者面接について：利用申込の結果として内定した場合は、入所月の前月末までに、内定した保育所等で面接を受ける必要があります。"
+    },
+    "interview#2": {
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/public/download/202606kyouikuhoikusisetu_riyouguide.pdf",
+      "quote": "面接を受けない場合や、面接の結果、お子さんの健康面や発達面の状況により、受入先の保育所等においてお子さんを安全に預かることが困難であると判断された場合は、内定が取消となる可能性があります。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/public/download/202606kyouikuhoikusisetu_riyouguide.pdf",
+      "quote": "希望する保育所等に入所できない時は、育児休業等延長も許容できる場合 -20"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/purpose/O/O00038.html",
+      "quote": "育児休業延長手続き等で書類が必要な方に対し、保育所等利用保留証明書を発行しています。"
+    },
+    "notes.0": {
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/public/download/202606kyouikuhoikusisetu_riyouguide.pdf",
+      "quote": "※申込期間内に書類を早く提出しても有利、不利はありません。"
+    },
+    "notes.1": {
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/public/download/202606kyouikuhoikusisetu_riyouguide.pdf",
+      "quote": "・大和市外にお住まいの場合、１次申込では、転入予定または 市内保育士等(P.14 にある加点対象のみ)が対象となります。 ・ その他の在勤要件の方は２次申込からの受け付けとなります。"
+    },
+    "notes.2": {
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/public/download/202606kyouikuhoikusisetu_riyouguide.pdf",
+      "quote": "以下の①～⑤のいずれかに該当する場合は 窓口への直接提出のみとさせていただきますので、ご了承ください。"
+    },
+    "notes.2#2": {
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/public/download/202606kyouikuhoikusisetu_riyouguide.pdf",
+      "quote": "④ 大和市外の保育所を１園でも希望される方 ⑤ これから生まれてくる児童の保育所等の申し込みをされる方"
+    },
+    "notes.3": {
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/purpose/O/O00007.html",
+      "quote": "市内の保育所等を希望する場合、希望する保育所等に事前に日程の調整を行い見学し、保育内容の確認や実費負担等についての説明を受けてください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/public/download/202606kyouikuhoikusisetu_riyouguide.pdf",
+      "quote": "※ 令 和 ９ 年 ４ 月 入 所 申 込 の ス ケ ジ ュ ー ル は 未 定 で す"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/purpose/O/O00038.html",
+      "quote": "保育所等利用保留証明書は、保育所等の利用調整の結果、利用保留となった場合のみ発行することができます。"
+    },
+    "ikukyu#4": {
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/purpose/O/O00038.html",
+      "quote": "原則として、申請書を受理してから1週間程度で、ご自宅に郵送いたします。"
+    }
+  },
+  "sources": [
+    {
+      "label": "大和市「保育所・幼稚園入所までの流れ ６．保育所等の入所申し込みをする」",
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/purpose/O/O00007.html"
+    },
+    {
+      "label": "大和市「子どものための教育・保育施設等利用ガイド」",
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/purpose/O/O00046.html"
+    },
+    {
+      "label": "大和市「令和8年度 教育・保育施設等利用ガイド」（PDF）",
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/public/download/202606kyouikuhoikusisetu_riyouguide.pdf"
+    },
+    {
+      "label": "大和市「保育所等利用保留証明交付申請について」",
+      "url": "https://www.city.yamato.lg.jp/section/ehon_no_machi/purpose/O/O00038.html"
+    }
+  ]
+}

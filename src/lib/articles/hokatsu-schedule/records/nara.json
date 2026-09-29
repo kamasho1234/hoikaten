@@ -1,0 +1,150 @@
+{
+  "citySlug": "nara",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "奈良市「保育所・幼稚園・認定こども園・小規模保育事業利用等の手引き（入園のしおり）」",
+    "url": "https://www.city.nara.lg.jp/site/kosodate/261513.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年12月7日〜令和8年12月18日（予定。土日祝を除く。受付期間は今後変更となる場合がある）",
+  "applyMethods": "申請先は子ども給付課で、原則として電子申請（LoGoフォーム）での提出を求めている。窓口の受付時間は午前9時〜午後5時",
+  "firstResult": "令和9年2月16日頃に郵送で案内（予定）。内定・保留（不可）とも同じ時期",
+  "midYearDeadline": "入所希望月の3か月前から前月10日まで（10日が閉庁日の場合は直前の開庁日まで）",
+  "documents": [
+    "教育・保育給付認定申請書兼施設利用申込書（転園の場合は転所申請書）",
+    "保護者（申請者）の本人確認ができる書類",
+    "保護者全員分の保育必要性の理由証明書または申立書と確認書類等（65歳未満の同居祖父母の分も必要）",
+    "利用調整調査書と子どもの健康調査票",
+    "確認書及び同意書",
+    "就労証明書・医師の診断書等は証明日から3か月以内のものが有効"
+  ],
+  "interview": "入園が内定したら各施設で面談（子ども同伴）を行う。面談日は個別に案内され、面談・健康診断で集団保育に適さないと判断されると内定取消になる場合がある",
+  "ikukyu": "育児休業期間中の人は、育児休業期間満了日の当月1日の利用開始希望で申し込む。育児休業期間を短縮して申し込むこともできるが、利用決定したら入所月か翌月1日に職場へ復帰することが条件",
+  "notes": [
+    "入園の順番は先着順ではなく、指数表の合計点数（締切日までに提出された書類で算出）で保育の必要度が高い人から利用調整する",
+    "内定を辞退すると次回の審査から減点になる",
+    "利用保留になった場合、利用保留通知に書かれた有効期限の月まで自動的に利用調整が続く",
+    "2月・3月・4月入所希望で、締切後に生まれた子どもは相談に応じる",
+    "施設の見学は各施設へ直接問い合わせる"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.nara.lg.jp/uploaded/attachment/212153.pdf",
+      "quote": "令和9年4月入所希望 令和8年12月7日 から 令和8年12月18日 まで ※予定"
+    },
+    "firstApply": {
+      "url": "https://www.city.nara.lg.jp/uploaded/attachment/212153.pdf",
+      "quote": "令和9年4月入所希望 令和8年12月7日 から 令和8年12月18日 まで ※予定"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.nara.lg.jp/uploaded/attachment/212153.pdf",
+      "quote": "受付期間は今後変更となる場合があります。"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.nara.lg.jp/uploaded/attachment/212153.pdf",
+      "quote": "土日祝除く。閉庁日の場合は、その直前の開庁日 （窓口の受付時間は午前9時～午後5時）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.nara.lg.jp/uploaded/attachment/212153.pdf",
+      "quote": "申請は、原則電子申請によるご提出をお願いしております。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.nara.lg.jp/uploaded/attachment/212153.pdf",
+      "quote": "子ども給付課 （電子申請は電子申請可能な手続きを確認してください。）"
+    },
+    "firstResult": {
+      "url": "https://www.city.nara.lg.jp/uploaded/attachment/212153.pdf",
+      "quote": "令和９年４月➡令和９年２月１６日頃 郵送案内予定 令和９年４月➡令和９年 ２月１６日頃 郵送案内予定"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.nara.lg.jp/site/kosodate/245396.html",
+      "quote": "入所希望月の3ヶ月前 から 入所希望月の前月10日 まで （10日が閉庁日の場合は、直前の開庁日まで）"
+    },
+    "documents.0": {
+      "url": "https://www.city.nara.lg.jp/uploaded/attachment/212153.pdf",
+      "quote": "教育・保育給付認定申請書兼施設利用申込書 （転園の場合は、転所申請書）"
+    },
+    "documents.1": {
+      "url": "https://www.city.nara.lg.jp/uploaded/attachment/212153.pdf",
+      "quote": "保護者（申請者）の本人確認できる書類"
+    },
+    "documents.2": {
+      "url": "https://www.city.nara.lg.jp/uploaded/attachment/212153.pdf",
+      "quote": "（６５歳未満の同居祖父母も必要です。祖父母の保育必要性がなくても申請は可能です。）"
+    },
+    "documents.2#2": {
+      "url": "https://www.city.nara.lg.jp/uploaded/attachment/212153.pdf",
+      "quote": "保護者全員分の保育必要性の理由証明書又は申立書と確認書類等"
+    },
+    "documents.3": {
+      "url": "https://www.city.nara.lg.jp/uploaded/attachment/212153.pdf",
+      "quote": "利用調整調査書 及び 子どもの健康調査票"
+    },
+    "documents.4": {
+      "url": "https://www.city.nara.lg.jp/site/kosodate/10822.html",
+      "quote": "備考：保育所等を申込するにあたって重要な内容を確認していただいているか確認する書類。"
+    },
+    "documents.5": {
+      "url": "https://www.city.nara.lg.jp/uploaded/attachment/212153.pdf",
+      "quote": "就労証明書・医師の診断書等は、証明日から３ヶ月以内のものが有効となります。"
+    },
+    "interview": {
+      "url": "https://www.city.nara.lg.jp/uploaded/attachment/212153.pdf",
+      "quote": "入園が内定した場合は、各施設で面談（対象児童同伴）を行います。"
+    },
+    "interview#2": {
+      "url": "https://www.city.nara.lg.jp/uploaded/attachment/212153.pdf",
+      "quote": "面談日は個別に案内します。なお、面談・健康診断で集団保育に適さないと判断された場合は、内定"
+    },
+    "ikukyu": {
+      "url": "https://www.city.nara.lg.jp/uploaded/attachment/212153.pdf",
+      "quote": "育児休業期間満了日の当月１日利用開始希望で申込みをするようにしてください。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.nara.lg.jp/uploaded/attachment/212153.pdf",
+      "quote": "育児休業期間を短縮して申込みを行うことはできますが、利用決定した場合、職場には入所月もしくは翌月１"
+    },
+    "notes.0": {
+      "url": "https://www.city.nara.lg.jp/uploaded/attachment/212153.pdf",
+      "quote": "入園する順番は、先着順ではありません。奈良市にて保育の必要度が高い人から順に利用調整しています。"
+    },
+    "notes.0#2": {
+      "url": "https://www.city.nara.lg.jp/uploaded/attachment/212153.pdf",
+      "quote": "育の必要度とは、指数表の合計点数（締切日までに提出された書類で算出）で判断しています。"
+    },
+    "notes.1": {
+      "url": "https://www.city.nara.lg.jp/uploaded/attachment/212153.pdf",
+      "quote": "※内定辞退した場合次回審査から減点になります。"
+    },
+    "notes.2": {
+      "url": "https://www.city.nara.lg.jp/uploaded/attachment/212153.pdf",
+      "quote": "利用保留になった場合、利用保留通知に有効期限が記載されておりますので、有効期限の当月まで自動的に利"
+    },
+    "notes.3": {
+      "url": "https://www.city.nara.lg.jp/uploaded/attachment/212153.pdf",
+      "quote": "２月・３月・４月入所希望で、締切後に生まれたお子様はご相談ください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.nara.lg.jp/uploaded/attachment/212153.pdf",
+      "quote": "見学は各施設へ直接お問い合わせください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "奈良市「保育所・幼稚園・認定こども園・小規模保育事業利用等の手引き（入園のしおり）」",
+      "url": "https://www.city.nara.lg.jp/site/kosodate/261513.html"
+    },
+    {
+      "label": "奈良市「保育所・認定こども園（保育部分）・小規模保育事業利用の手引き（令和8年度版）」",
+      "url": "https://www.city.nara.lg.jp/uploaded/attachment/212153.pdf"
+    },
+    {
+      "label": "奈良市「教育・保育給付認定申請兼施設利用申込（保育所等の申込）」",
+      "url": "https://www.city.nara.lg.jp/site/kosodate/245396.html"
+    },
+    {
+      "label": "奈良市「幼稚園・保育所・こども園等の利用手続について」",
+      "url": "https://www.city.nara.lg.jp/site/kosodate/10822.html"
+    }
+  ]
+}

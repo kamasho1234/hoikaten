@@ -1,0 +1,196 @@
+{
+  "citySlug": "kishiwada",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "岸和田市「岸和田市保育施設のお申し込みについて」",
+    "url": "https://www.city.kishiwada.lg.jp/page/35-hoikumoushikomi.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年9月1日（火曜日）から、市役所本館地下1階の子育て施設課、市内各サービスセンター・支所、市内各保育施設で入所案内・申込書を配布",
+  "firstApply": "令和8年9月1日（火曜日）〜10月30日（金曜日）の9時00分〜17時30分。10月30日17時30分を過ぎると1次選考の申込は一切受け付けない",
+  "applyMethods": "申込書類を市役所本館地下1階の子育て施設課の窓口に直接提出する（各サービスセンター・支所では受け付けない）。夜間受付は令和8年10月19日（月曜日）・20日（火曜日）の17時30分〜19時00分、休日受付は10月18日（日曜日）の9時00分〜17時00分。令和8年9月7日〜10月9日は町名ごとのグループに分けて受け付けるが、指定期間以外でも事前連絡なしで受け付ける。今年度から申請受付窓口の一部に予約枠がある",
+  "secondApply": "令和8年11月2日（月曜日）〜令和9年2月1日（月曜日）の9時00分〜17時30分。2月1日17時30分を過ぎると2次選考の申込は一切受け付けない。グループ分けや夜間・休日受付は行わない",
+  "midYearDeadline": "年度途中の入所日は5月から3月までの毎月1日で、締切は入所を希望する日の前月10日（10日が土・日・祝日の場合は前開庁日）の17時30分",
+  "documents": [
+    "施設型給付費・地域型保育給付費支給認定申請書 兼 保育施設利用申込書（兼保育台帳）。ホームページでは配布しておらず、子育て施設課・各保育施設・各市民センター・山滝支所で配布。申し込みに必要な書類は申込書に挟み込まれている",
+    "保育を必要とする理由を証明する書類（外勤の場合の雇用主の在職（就労）証明など、申請者本人では記入できない書類が必要になる場合がある）",
+    "申込締切日時点で未出生で、入所希望日までに出生予定の場合は「出生前の保育施設入所申込みに関する誓約書」",
+    "疾病のある子どもの場合は市指定様式の医師の診断書"
+  ],
+  "notes": [
+    "発達支援のための保育を希望する場合の申込締切は令和8年10月23日（金曜日）",
+    "令和8年度にすでに申し込んでいる人も、年度ごとに改めて申し込みが必要",
+    "利用調整は基本点数の高い順に決め、同点の場合は付加点数を加えた総合点の高い順に決める",
+    "保育施設の希望順位は選考の点数（入所のしやすさ）に影響しないので、入所したい順に希望順位を書く",
+    "保育施設と市立幼稚園の併願を希望する場合は、それぞれの申込期間内に申請が必要",
+    "申込を取り下げると、取下日以降は利用調整の対象にならず保留通知も発行されない"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.kishiwada.lg.jp/site/kouhou/202608p9.html",
+      "quote": "来年4月1日入所の保育施設の入所申し込みを地区別で受け付けます。"
+    },
+    "fiscalYear#2": {
+      "url": "https://www.city.kishiwada.lg.jp/page/35-hoikumoushikomi.html",
+      "quote": "令和8年10月30日（金曜日）の17時30分を過ぎると、一切の1次選考申込受付ができません。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.kishiwada.lg.jp/page/35-hoikumoushikomi.html",
+      "quote": "岸和田市役所本館地下1階　子育て施設課 令和8年9月1日（火曜日）"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.kishiwada.lg.jp/page/35-hoikumoushikomi.html",
+      "quote": "市内各サービスセンター・支所 令和8年9月1日（火曜日）"
+    },
+    "guideRelease#3": {
+      "url": "https://www.city.kishiwada.lg.jp/page/35-hoikumoushikomi.html",
+      "quote": "市内各保育施設 令和8年9月1日（火曜日）"
+    },
+    "guideRelease#4": {
+      "url": "https://www.city.kishiwada.lg.jp/page/35-hoikumoushikomi.html",
+      "quote": "配布開始日以降は、随時各窓口にて入所案内・申込書を配布しております。"
+    },
+    "firstApply": {
+      "url": "https://www.city.kishiwada.lg.jp/page/35-hoikumoushikomi.html",
+      "quote": "令和8年9月1日（火曜日）～令和8年10月30日（金曜日） 9時00分～17時30分"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.kishiwada.lg.jp/page/35-hoikumoushikomi.html",
+      "quote": "令和8年10月30日（金曜日）の17時30分を過ぎると、一切の1次選考申込受付ができません。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.kishiwada.lg.jp/page/35-hoikumoushikomi.html",
+      "quote": "受付場所は岸和田市役所本館地下1階　子育て施設課　窓口です。（各サービスセンター・支所での受付は行っておりません。）"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.kishiwada.lg.jp/site/kouhou/202609p6.html",
+      "quote": "申込・問合せ　期限までに申込書類を直接、子育て施設課保育・幼稚園担当へ"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.kishiwada.lg.jp/page/35-hoikumoushikomi.html",
+      "quote": "【夜間受付】令和8年10月19日（月曜日）・20日（火曜日） 17時30分～19時00分"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.kishiwada.lg.jp/page/35-hoikumoushikomi.html",
+      "quote": "【休日受付】令和8年10月18日（日曜日） 9時00分～17時00分"
+    },
+    "applyMethods#5": {
+      "url": "https://www.city.kishiwada.lg.jp/page/35-hoikumoushikomi.html",
+      "quote": "また、混雑緩和のため、令和8年9月7日（月曜日）～令和8年10月9日（金曜日）の期間については受付日をグループ分けしています。"
+    },
+    "applyMethods#6": {
+      "url": "https://www.city.kishiwada.lg.jp/page/35-hoikumoushikomi.html",
+      "quote": "※ご都合の悪い場合は、指定されたグループの期間以外でも事前連絡なしで受付可能です。"
+    },
+    "applyMethods#7": {
+      "url": "https://www.city.kishiwada.lg.jp/site/kouhou/202609p6.html",
+      "quote": "※今年度から申請受付窓口の一部に予約枠を設けます。"
+    },
+    "secondApply": {
+      "url": "https://www.city.kishiwada.lg.jp/page/35-hoikumoushikomi.html",
+      "quote": "令和8年11月2日（月曜日）～令和9年2月1日（月曜日） 9時00分～17時30分"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.kishiwada.lg.jp/page/35-hoikumoushikomi.html",
+      "quote": "令和9年2月1日（月曜日）の17時30分を過ぎると、一切の2次選考申込受付ができません。"
+    },
+    "secondApply#3": {
+      "url": "https://www.city.kishiwada.lg.jp/page/35-hoikumoushikomi.html",
+      "quote": "2次選考はグループ分けを行いません。 ご都合の良い日にお越しください。夜間及び休日受付は行いません。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.kishiwada.lg.jp/page/35-hoikumoushikomi.html",
+      "quote": "年度途中における入所日は、5月から3月までの毎月1日です。"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.kishiwada.lg.jp/page/35-hoikumoushikomi.html",
+      "quote": "締切日は入所を希望する日の前月10日です。（10日が土・日・祝日の場合は前開庁日となります。）"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.kishiwada.lg.jp/page/35-hoikumoushikomi.html",
+      "quote": "※　締切日の17時30分を過ぎると、申込受付・希望変更を含む内容変更はできません。"
+    },
+    "documents.0": {
+      "url": "https://www.city.kishiwada.lg.jp/page/35-nyusyokankei.html",
+      "quote": "施設型給付費・地域型保育給付費支給認定申請書　兼　保育施設利用申込書（兼保育台帳） 子育て施設課・各保育施設・各市民センター、山滝支所にて配布しています。"
+    },
+    "documents.0#2": {
+      "url": "https://www.city.kishiwada.lg.jp/page/35-nyusyokankei.html",
+      "quote": "※保育施設申し込みに必要な書類は配布されている申込書（兼保育台帳）に挟み込みを行っていますので、各配布場所にて一式揃った状態で受け取ってください。"
+    },
+    "documents.1": {
+      "url": "https://www.city.kishiwada.lg.jp/page/35-hoikumoushikomi.html",
+      "quote": "また、お申し込み時に必要となる書類のうち、外勤の場合の雇用主の在職（就労）証明等、申請者本人では記入できない書類が必要となる場合があります。"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.kishiwada.lg.jp/page/35-hoikumoushikomi.html",
+      "quote": "保育所（園）、認定こども園（2号および3号）の利用申し込みを行う場合は、「保育を必要とする理由」を証明し、支給認定を受ける必要があります。"
+    },
+    "documents.2": {
+      "url": "https://www.city.kishiwada.lg.jp/uploaded/attachment/166027.pdf",
+      "quote": "申込み締切日時点で未出生であっても、入所希望日までに出生予定であれば申込みは可能です。"
+    },
+    "documents.2#2": {
+      "url": "https://www.city.kishiwada.lg.jp/uploaded/attachment/166027.pdf",
+      "quote": "申込み時に「出生前の保育施設入所申込みに関する誓約書」をご提出いただく必要があります。"
+    },
+    "documents.3": {
+      "url": "https://www.city.kishiwada.lg.jp/uploaded/attachment/166027.pdf",
+      "quote": "岸和田市では、安全な集団保育を行うために、疾病のある児童の利用申込みの際に本市指定様式の医師の診断書のご提出をお願いしています。"
+    },
+    "notes.0": {
+      "url": "https://www.city.kishiwada.lg.jp/page/35-hoikumoushikomi.html",
+      "quote": "発達支援のための保育を希望される場合の申込締切日は令和8年10月23日（金曜日）です。"
+    },
+    "notes.1": {
+      "url": "https://www.city.kishiwada.lg.jp/page/35-hoikumoushikomi.html",
+      "quote": "※令和8年度にすでにお申し込みされている方についても、年度ごとに改めてお申し込みが必要です。"
+    },
+    "notes.2": {
+      "url": "https://www.city.kishiwada.lg.jp/page/35-hoikumoushikomi.html",
+      "quote": "2、1の点数が同点の場合は、付加点数を加点し、総合点の高い順に決定します。"
+    },
+    "notes.2#2": {
+      "url": "https://www.city.kishiwada.lg.jp/page/35-hoikumoushikomi.html",
+      "quote": "家庭・児童の状況等を審査基準に基づく点数表に当てはめて利用調整します。"
+    },
+    "notes.2#3": {
+      "url": "https://www.city.kishiwada.lg.jp/page/35-hoikumoushikomi.html",
+      "quote": "1、基本点数の高い順に決定します。"
+    },
+    "notes.3": {
+      "url": "https://www.city.kishiwada.lg.jp/page/35-hoikumoushikomi.html",
+      "quote": "保育施設の希望順位は選考の点数（＝入所のしやすさ）に影響しません。入所したい順に希望順位を設定してください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.kishiwada.lg.jp/site/kouhou/202609p6.html",
+      "quote": "保育施設と市立幼稚園の併願を希望する場合は、それぞれの申込期間内に申請が必要です。"
+    },
+    "notes.5": {
+      "url": "https://www.city.kishiwada.lg.jp/page/35-hoikumoushikomi.html",
+      "quote": "取下げに関する注意点：取下日以降、利用調整の対象とはなりませんので保留通知は発行できません。"
+    }
+  },
+  "sources": [
+    {
+      "label": "岸和田市「岸和田市保育施設のお申し込みについて」",
+      "url": "https://www.city.kishiwada.lg.jp/page/35-hoikumoushikomi.html"
+    },
+    {
+      "label": "岸和田市「保育施設利用申込関係書類」",
+      "url": "https://www.city.kishiwada.lg.jp/page/35-nyusyokankei.html"
+    },
+    {
+      "label": "岸和田市「発達に支援が必要な児童の入所について」（PDF）",
+      "url": "https://www.city.kishiwada.lg.jp/uploaded/attachment/166027.pdf"
+    },
+    {
+      "label": "広報きしわだ 令和8年（2026年）8月号9面",
+      "url": "https://www.city.kishiwada.lg.jp/site/kouhou/202608p9.html"
+    },
+    {
+      "label": "広報きしわだ 令和8年（2026年）9月号6面",
+      "url": "https://www.city.kishiwada.lg.jp/site/kouhou/202609p6.html"
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "citySlug": "yokosuka",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "横須賀市「【新年度】令和9年4月の保育施設の新規入園」",
+    "url": "https://www.city.yokosuka.kanagawa.jp/2645/nyuuenn.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "申請書類（令和8年10月版）の配布は令和8年10月1日から。申請書類は保育施設で受け取る。入園案内の冊子は子育て支援課窓口でも配布している",
+  "firstApply": "令和8年10月1日（木曜日）〜10月30日（金曜日）。締切日までに申請して就労証明書などが間に合わなかった場合は、11月12日（木曜日）までに子育て支援課入園係へ届いた書類で審査する",
+  "applyMethods": "保育施設で申請書類（利用申込書・給付認定申請書・保育を必要とする事由の証明書など）を受け取り、第1希望の施設へ提出する。マイナポータル（ぴったりサービス）で一部の書類の電子申請もできる（マイナンバーカードと署名用暗証番号が必要）",
+  "firstResult": "令和9年1月22日以降に入園審査の結果（内定通知または保留通知）を発送予定",
+  "secondApply": "令和9年1月27日（水曜日）〜2月5日（金曜日）。3次募集は令和9年3月1日（月曜日）〜3月8日（月曜日）",
+  "secondResult": "令和9年2月24日以降に結果（内定通知または保留通知）を発送予定。3次募集の結果は令和9年3月23日以降に発送予定",
+  "midYearDeadline": "令和9年5月入園の受付は令和9年3月25日〜4月5日で、以降も入園月ごとに受付期間がある（毎月1日入園）。締切日を過ぎた申請は翌月分として扱う",
+  "documents": [
+    "利用申込書（白いA3用紙）",
+    "給付認定申請書（ピンクのA3用紙）",
+    "保育を必要とする事由の証明書（就労の場合は就労証明書）",
+    "マイナンバー記入用紙",
+    "育休（産休）後復職誓約書（申請時に育児休業中または産休中の人）",
+    "在園中で転園を希望する場合は在園施設の退園届（退園日は令和9年3月末）"
+  ],
+  "interview": "施設の見学を求めている。見学できなかった場合も希望施設として申請できるが、申請後すみやかに見学する",
+  "ikukyu": "育児休業中の人が内定した場合は令和9年5月1日までに復職が必要。利用申込書で「育休延長の許容」を選ぶと利用調整の指数が下がる取り扱いになる",
+  "notes": [
+    "利用申込書は第1希望の施設へ出せばよく、第2希望以下の施設に出す必要はない。希望施設は第6希望まで書ける",
+    "申請受付期間の終了後は、その募集での希望園の変更はできない",
+    "1次募集で保留になった人は、希望施設を変えなければ2次募集に改めて申請する必要はない",
+    "内定を辞退すると、令和9年度入園の審査で優先順位が下がる",
+    "育児休業給付金の手続きに申請書類の写しが要る場合があるので、提出前に自分でコピーを取る",
+    "締め切り時点で添付書類が未提出だと指数が低くなる"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.yokosuka.kanagawa.jp/2645/nyuuenn.html",
+      "quote": "令和9年4月の保育施設(※)への入園申請については、次のとおりです。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.yokosuka.kanagawa.jp/2645/nyuuenn.html",
+      "quote": "※申請書類(令和8年10月版)の配布は10月1日からです。"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.yokosuka.kanagawa.jp/2645/nyuuenn.html",
+      "quote": "保育施設で申請書類〈①利用申込書(白いA3用紙)、②給付認定申請書(ピンクのA3用紙)、③保育を必要とする事由の証明書、④その他必要書類等、⑤マイナンバー記入用紙〉を受け取り、第1希望の施設へ提出してください。"
+    },
+    "guideRelease#3": {
+      "url": "https://www.city.yokosuka.kanagawa.jp/2645/nyuuenn.html",
+      "quote": "内容をよく読んで申請してください。子育て支援課窓口でも配布しています。"
+    },
+    "firstApply": {
+      "url": "https://www.city.yokosuka.kanagawa.jp/2645/nyuuenn.html",
+      "quote": "令和8年10月1日(木曜日)から令和8年10月30日(金曜日)まで"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.yokosuka.kanagawa.jp/2645/nyuuenn.html",
+      "quote": "10月30日(金曜日)までに申請してください。締切日までに申請した方で、就労証明書などが間に合わなかった場合は、11月12日(木曜日)までに子育て支援課入園係へ到着した書類で審査を行います。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.yokosuka.kanagawa.jp/2645/nyuuenn.html",
+      "quote": "保育施設で申請書類〈①利用申込書(白いA3用紙)、②給付認定申請書(ピンクのA3用紙)、③保育を必要とする事由の証明書、④その他必要書類等、⑤マイナンバー記入用紙〉を受け取り、第1希望の施設へ提出してください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.yokosuka.kanagawa.jp/2645/nyuuenn.html",
+      "quote": "国が運用しているマイナポータル(ぴったりサービス)を活用した電子申請が可能です。入園申請に必要な書類の一部を電子申請で行うことができます。電子申請を行う場合は案内を必ずご確認ください。電子申請には、マイナンバーカードと署名用暗証番号が必要です。"
+    },
+    "firstResult": {
+      "url": "https://www.city.yokosuka.kanagawa.jp/2645/nyuuenn.html",
+      "quote": "令和9年1月22日以降に入園審査の結果(内定通知または保留通知)発送予定。"
+    },
+    "secondApply": {
+      "url": "https://www.city.yokosuka.kanagawa.jp/2645/nyuuenn.html",
+      "quote": "令和9年1月27日(水曜日)から令和9年2月5日(金曜日)まで"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.yokosuka.kanagawa.jp/2645/nyuuenn.html",
+      "quote": "令和9年3月1日(月曜日)から令和9年3月8日(月曜日)まで"
+    },
+    "secondResult": {
+      "url": "https://www.city.yokosuka.kanagawa.jp/2645/nyuuenn.html",
+      "quote": "令和9年2月24日以降に入園審査の結果(内定通知または保留通知）発送予定です。"
+    },
+    "secondResult#2": {
+      "url": "https://www.city.yokosuka.kanagawa.jp/2645/nyuuenn.html",
+      "quote": "令和9年3月23日以降に入園審査の結果（内定通知または保留通知）発送予定です。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.yokosuka.kanagawa.jp/2645/documents/r9nyuuenannai.pdf",
+      "quote": "5月入園 令和９年３月25日(木)～ 令和９年４月５日(月)まで"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.yokosuka.kanagawa.jp/2645/documents/r9nyuuenannai.pdf",
+      "quote": "・締切日を過ぎて申請があった場合は、翌月分の申請として取り扱います。"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.yokosuka.kanagawa.jp/2645/documents/r9nyuuenannai.pdf",
+      "quote": "毎月１日入園となります。"
+    },
+    "documents.0": {
+      "url": "https://www.city.yokosuka.kanagawa.jp/2645/nyuuenn.html",
+      "quote": "保育施設で申請書類〈①利用申込書(白いA3用紙)、②給付認定申請書(ピンクのA3用紙)、③保育を必要とする事由の証明書、④その他必要書類等、⑤マイナンバー記入用紙〉を受け取り、第1希望の施設へ提出してください。"
+    },
+    "documents.1": {
+      "url": "https://www.city.yokosuka.kanagawa.jp/2645/nyuuenn.html",
+      "quote": "保育施設で申請書類〈①利用申込書(白いA3用紙)、②給付認定申請書(ピンクのA3用紙)、③保育を必要とする事由の証明書、④その他必要書類等、⑤マイナンバー記入用紙〉を受け取り、第1希望の施設へ提出してください。"
+    },
+    "documents.2": {
+      "url": "https://www.city.yokosuka.kanagawa.jp/2645/nyuuenn.html",
+      "quote": "保育施設で申請書類〈①利用申込書(白いA3用紙)、②給付認定申請書(ピンクのA3用紙)、③保育を必要とする事由の証明書、④その他必要書類等、⑤マイナンバー記入用紙〉を受け取り、第1希望の施設へ提出してください。"
+    },
+    "documents.2#2": {
+      "url": "https://www.city.yokosuka.kanagawa.jp/2645/nyuuenn.html",
+      "quote": "・就労証明書(記載要領付)（エクセル：62KB） （PDF版（PDF：107KB））英語記入例（PDF：194KB）"
+    },
+    "documents.3": {
+      "url": "https://www.city.yokosuka.kanagawa.jp/2645/nyuuenn.html",
+      "quote": "保育施設で申請書類〈①利用申込書(白いA3用紙)、②給付認定申請書(ピンクのA3用紙)、③保育を必要とする事由の証明書、④その他必要書類等、⑤マイナンバー記入用紙〉を受け取り、第1希望の施設へ提出してください。"
+    },
+    "documents.4": {
+      "url": "https://www.city.yokosuka.kanagawa.jp/2645/nyuuenn.html",
+      "quote": "・育休(産休)後復職誓約書（PDF：43KB）(申請時に育児休業中(※入園希望日までに取得予定の方も含む)または産休中の方)"
+    },
+    "documents.5": {
+      "url": "https://www.city.yokosuka.kanagawa.jp/2645/nyuuenn.html",
+      "quote": "現在市内の保育施設に在園している方が4月入園の申請をする(転園を希望している)場合、在園施設の退園届（PDF：56KB）(退園日:令和9年3月末)を提出していただく必要があります。"
+    },
+    "interview": {
+      "url": "https://www.city.yokosuka.kanagawa.jp/2645/nyuuenn.html",
+      "quote": "※見学ができなかった場合でも希望施設として申請は可能ですが、申請後、すみやかに見学をしてください。"
+    },
+    "interview#2": {
+      "url": "https://www.city.yokosuka.kanagawa.jp/2645/nyuuenn.html",
+      "quote": "施設の見学をお願いしています。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.yokosuka.kanagawa.jp/2645/nyuuenn.html",
+      "quote": "育児休業中の方が内定した場合、令和9年5月1日までに復職していただく必要があります。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.yokosuka.kanagawa.jp/2645/documents/r9nyuuenannai.pdf",
+      "quote": "利用調整の指数が下がってもよい。(以下「育休延長の許容」)」を選択した場合は、利用調整の指数を下げる取り扱いを導入しています。"
+    },
+    "notes.0": {
+      "url": "https://www.city.yokosuka.kanagawa.jp/2645/nyuuenn.html",
+      "quote": "利用申込書は、第1希望の施設へ提出すれば、第2希望以下の施設それぞれに提出する必要はありません。申請書には希望施設を第6希望まで記入できますが"
+    },
+    "notes.1": {
+      "url": "https://www.city.yokosuka.kanagawa.jp/2645/nyuuenn.html",
+      "quote": "申請受付期間終了後、その募集での希望園の変更は出来ません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.yokosuka.kanagawa.jp/2645/nyuuenn.html",
+      "quote": "2次募集でも入園審査(1次募集で希望した施設の審査)の対象となりますので、希望施設の変更・追加がない場合は、再度申請する必要はありません。"
+    },
+    "notes.3": {
+      "url": "https://www.city.yokosuka.kanagawa.jp/2645/nyuuenn.html",
+      "quote": "※内定を辞退した場合、令和9年度入園の審査で優先順位が下がります。"
+    },
+    "notes.4": {
+      "url": "https://www.city.yokosuka.kanagawa.jp/2645/nyuuenn.html",
+      "quote": "※育児休業給付金の手続きには、保育所等の利用申請をした際の申請書類の写しが必要となります。利用申請書類の写しが必要になる可能性のある方は、必ず提出前にご自身でコピーを取るようにお願いいたします。"
+    },
+    "notes.5": {
+      "url": "https://www.city.yokosuka.kanagawa.jp/2645/nyuuenn.html",
+      "quote": "締め切り時点で添付書類が未提出の場合、指数は低くなります。"
+    }
+  },
+  "sources": [
+    {
+      "label": "横須賀市「【新年度】令和9年4月の保育施設の新規入園」",
+      "url": "https://www.city.yokosuka.kanagawa.jp/2645/nyuuenn.html"
+    },
+    {
+      "label": "横須賀市「令和9年度横須賀市保育施設入園案内」（PDF）",
+      "url": "https://www.city.yokosuka.kanagawa.jp/2645/documents/r9nyuuenannai.pdf"
+    }
+  ]
+}

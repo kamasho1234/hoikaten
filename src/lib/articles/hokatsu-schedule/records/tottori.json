@@ -1,0 +1,185 @@
+{
+  "citySlug": "tottori",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "鳥取市「令和9年度 保育所等入所申込みのご案内」",
+    "url": "https://www.city.tottori.lg.jp/site/kosodate/47165.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年9月28日（月曜日）から入所案内を各保育所等・幼児保育課・各総合支所で配布",
+  "firstApply": "令和8年10月9日（金曜日）〜令和8年11月2日（月曜日）。申込期間を過ぎてからの申し込みはできない",
+  "applyMethods": "とっとり電子申請サービス（鳥取市）で申し込む（マイナンバーカード読み取りあり・なしの2通り）。郵送・FAXでの申込みは受け付けていない。電子申請ができない人と医療的ケアが必要な児童は事前に幼児保育課に相談する",
+  "firstResult": "令和8年12月末予定",
+  "secondApply": "令和8年12月1日（火曜日）〜令和9年1月6日（水曜日）",
+  "secondResult": "令和9年2月中旬予定",
+  "midYearDeadline": "年度途中の入所は入所希望月ごとに申込期間がある（例：5月入所は令和9年2月26日〜3月25日）。結果は入所希望月の前月15日までに郵送または電話で知らせる",
+  "documents": [
+    "子どものための教育・保育給付認定申請書兼保育所等入所申込書（電子申請の場合は添付不要）",
+    "家庭状況調査書（電子申請の場合は添付不要）",
+    "保育所等の利用に関する確認書（電子申請の場合は添付不要）",
+    "保育ができないことを証明する書類（就労証明書等。証明日が申請日より3カ月以上前のものは無効）",
+    "マイナンバー関係書類（電子申請では提出できないため、申請者のマイナンバーを確認できる書類等を申込期間中に郵送または窓口で幼児保育課に別途提出）",
+    "育児休業から復帰する場合は育児休業復職誓約書"
+  ],
+  "interview": "4月1日入所申込で内定した人には、内定通知書と一緒に面接・健康診断等の日時のお知らせを保育所等から郵送する。面接・健診の結果、集団生活が困難と判断された場合は入所できないことがある",
+  "ikukyu": "育児休業中は休業期間中「家庭で保育ができる」として扱うため預けられず、預けられるのは仕事復帰日から。育児休業中を理由とした新規入所申込みはできない。ならし保育を希望する場合は復帰日が属する月の申込期間中に申し込む",
+  "notes": [
+    "添付書類等に不備がある場合は、必要な書類が揃うまで受理されない",
+    "きょうだいの申込みをする場合は、それぞれの児童について申込みが必要",
+    "入所の内定・承諾は申込の受付順ではなく、書類審査や状況調査等により希望順位や保育の必要性の高い人から順に行う",
+    "希望する保育所等に入所できなかった場合に備え、通園可能な範囲で希望する保育所等を複数選ぶことが勧められている",
+    "年度途中の転園は転居で通うのが著しく困難な場合を除き原則認められず、転園ができるのは4月1日の申込に限られる"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.tottori.lg.jp/site/kosodate/47162.html",
+      "quote": "令和9年4月1日入所第1次申込"
+    },
+    "fiscalYear#2": {
+      "url": "https://www.city.tottori.lg.jp/site/kosodate/47165.html",
+      "quote": "令和9年度の入所の申込みについては、下記の内容をご確認ください。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.tottori.lg.jp/site/kosodate/47165.html",
+      "quote": "なお、入所案内は各保育所等・幼児保育課・各総合支所で令和8年9月28日（月曜日）から配布しております。"
+    },
+    "firstApply": {
+      "url": "https://www.city.tottori.lg.jp/site/kosodate/47165.html",
+      "quote": "1次申込 令和8年10月9日（金曜日） ～ 令和8年11月2日（月曜日）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.tottori.lg.jp/site/kosodate/47165.html",
+      "quote": "※申込期間を過ぎてからの申し込みはできません。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.tottori.lg.jp/site/kosodate/47165.html",
+      "quote": "とっとり電子申請サービス（鳥取市）　より申込みしてください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.tottori.lg.jp/uploaded/attachment/52976.pdf",
+      "quote": "郵送・FAXでの申込は受付けておりません"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.tottori.lg.jp/site/kosodate/47165.html",
+      "quote": "医療的ケアが必要な児童は、電子申請ではなく紙での受付となりますので、事前に幼児保育課または入所希望保育所等にご相談ください。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.tottori.lg.jp/site/kosodate/47165.html",
+      "quote": "※電子申請による申請ができない方は、幼児保育課にご相談ください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.tottori.lg.jp/site/kosodate/47165.html",
+      "quote": "1次申込 令和8年10月9日（金曜日） ～ 令和8年11月2日（月曜日） 令和8年12月末予定"
+    },
+    "secondApply": {
+      "url": "https://www.city.tottori.lg.jp/site/kosodate/47165.html",
+      "quote": "2次申込 令和8年12月1日（火曜日） ～ 令和9年1月6日（水曜日）"
+    },
+    "secondResult": {
+      "url": "https://www.city.tottori.lg.jp/site/kosodate/47165.html",
+      "quote": "2次申込 令和8年12月1日（火曜日） ～ 令和9年1月6日（水曜日） 令和9年2月中旬予定"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.tottori.lg.jp/site/kosodate/47165.html",
+      "quote": "5月 令和9年 2月26日（金曜日） ～ 令和9年 3月25日（木曜日）"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.tottori.lg.jp/site/kosodate/47165.html",
+      "quote": "入所希望月の前月15日までに郵送または電話でお知らせします。"
+    },
+    "documents.0": {
+      "url": "https://www.city.tottori.lg.jp/site/kosodate/47165.html",
+      "quote": "1. 子どものための教育・保育給付認定申請書兼保育所等入所申込書　※"
+    },
+    "documents.0#2": {
+      "url": "https://www.city.tottori.lg.jp/site/kosodate/47165.html",
+      "quote": "※印のついた書類について、電子申請の場合は添付不要です。"
+    },
+    "documents.1": {
+      "url": "https://www.city.tottori.lg.jp/site/kosodate/47165.html",
+      "quote": "2. 家庭状況調査書・・・"
+    },
+    "documents.2": {
+      "url": "https://www.city.tottori.lg.jp/site/kosodate/47165.html",
+      "quote": "3. 保育所等の利用に関する確認書・・・"
+    },
+    "documents.3": {
+      "url": "https://www.city.tottori.lg.jp/site/kosodate/47165.html",
+      "quote": "4. 保育ができないことを証明する書類・・・詳しくは"
+    },
+    "documents.3#2": {
+      "url": "https://www.city.tottori.lg.jp/site/kosodate/35086.html",
+      "quote": "※各種証明書類は、証明日が申請日より３カ月以上前のものは無効となります。"
+    },
+    "documents.4": {
+      "url": "https://www.city.tottori.lg.jp/site/kosodate/47165.html",
+      "quote": "電子申請では、マイナンバーを確認できる書類を提出できないため、申請者（代表保護者）のマイナンバーを確認できる書類等は申込期間中に郵送または窓口にて別途幼児保育課にご提出ください。"
+    },
+    "documents.5": {
+      "url": "https://www.city.tottori.lg.jp/site/kosodate/47165.html",
+      "quote": "育児休業から復帰する場合 育児休業復職誓約書"
+    },
+    "interview": {
+      "url": "https://www.city.tottori.lg.jp/uploaded/attachment/52976.pdf",
+      "quote": "4月1日入所申込で内定の方には、内定通知書と一緒に面接・健康診断等の日時のお知らせを保育所等から郵送します。"
+    },
+    "interview#2": {
+      "url": "https://www.city.tottori.lg.jp/uploaded/attachment/52976.pdf",
+      "quote": "※面接、健診の結果、集団生活が困難であると判断された場合は入所できないことがあります。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.tottori.lg.jp/uploaded/attachment/52976.pdf",
+      "quote": "育児休業中の方は休業の期間中「家庭で保育ができる」として扱うため、保育所等に預けることはできません。預けることができるのは、仕事復帰日からとなります"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.tottori.lg.jp/site/kosodate/47165.html",
+      "quote": "育児休業中（育児休業中を理由とした新規入所申込みはできません）"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.tottori.lg.jp/site/kosodate/47165.html",
+      "quote": "※育児休業中でならし保育を希望される方は、復帰日が属する月の申込期間中にご提出ください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.tottori.lg.jp/site/kosodate/47165.html",
+      "quote": "添付書類等に不備がある場合は、必要な書類が揃うまで受理できません。"
+    },
+    "notes.1": {
+      "url": "https://www.city.tottori.lg.jp/site/kosodate/47165.html",
+      "quote": "きょうだいの申込みをする場合は、それぞれの児童について申込みが必要です。"
+    },
+    "notes.2": {
+      "url": "https://www.city.tottori.lg.jp/uploaded/attachment/52976.pdf",
+      "quote": "入所の内定・承諾は申込の受付順ではなく、書類審査や状況調査等により、希望順位や保育の必要性の高い方から順に行います。"
+    },
+    "notes.3": {
+      "url": "https://www.city.tottori.lg.jp/uploaded/attachment/52976.pdf",
+      "quote": "希望する保育所等に入所できなかった場合に、他の保育所等への入所を希望される方は、通園可能な範囲で希望する保育所等を複数選択することをおすすめします。"
+    },
+    "notes.4": {
+      "url": "https://www.city.tottori.lg.jp/uploaded/attachment/52976.pdf",
+      "quote": "なお、４月１日の申込に限り、転園が可能です。"
+    },
+    "notes.4#2": {
+      "url": "https://www.city.tottori.lg.jp/uploaded/attachment/52976.pdf",
+      "quote": "利用開始後、自己都合等により年度途中に利用施設を変えること（転園）は、転居の理由により通うことが著しく困難な場合（例：青谷町から用瀬町への転居）を除き、原則として認められません。"
+    }
+  },
+  "sources": [
+    {
+      "label": "鳥取市「令和9年度 保育所等入所申込みのご案内」",
+      "url": "https://www.city.tottori.lg.jp/site/kosodate/47165.html"
+    },
+    {
+      "label": "鳥取市「電子申請リンク（令和9年度保育所等入所申込）」",
+      "url": "https://www.city.tottori.lg.jp/site/kosodate/47162.html"
+    },
+    {
+      "label": "鳥取市「令和9年度保育所入所案内」（PDF）",
+      "url": "https://www.city.tottori.lg.jp/uploaded/attachment/52976.pdf"
+    },
+    {
+      "label": "鳥取市「保育所等の利用に係る「保育ができないことを証明する書類」について」",
+      "url": "https://www.city.tottori.lg.jp/site/kosodate/35086.html"
+    }
+  ]
+}

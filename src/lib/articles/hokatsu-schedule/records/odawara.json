@@ -1,0 +1,242 @@
+{
+  "citySlug": "odawara",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "小田原市「令和9年度 保育所等の利用申込みについて ≪保育所、認定こども園(保育部)、小規模保育事業≫」",
+    "url": "https://www.city.odawara.kanagawa.jp/field/edu-ch/kosodate/nursery/nursery/process/p42339.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年9月16日から市役所5階保育課、各タウンセンター住民窓口・アークロード市民窓口、各子育て支援センターで申込書を配布。手引きや申込書は市ホームページからもダウンロードできる",
+  "firstApply": "令和8年10月13日（火）〜10月30日（金）。郵送は10月30日（金）必着。令和9年度から1次募集の不足書類受付期間が廃止され、10月30日までに全ての書類を出す",
+  "applyMethods": "保育課窓口（市役所5階、平日8時30分から17時）に持参するか郵送。各タウンセンターやアークロード市民窓口では提出できない。郵送は締切日必着で、書留郵便など配達記録が残る方法で送る",
+  "firstResult": "令和8年12月上旬頃に書類選考の結果（受入枠が確保できた場合は「内定通知」、できなかった場合は「不可通知」と「不承諾通知」）を郵送。保育の実施決定通知の発送は令和9年1月下旬頃",
+  "secondApply": "令和8年11月2日（月）〜12月25日（金）。郵送は12月25日（金）必着。1次選考で入所に至らなかった人は申込書を出し直さなくても2次選考の対象になる",
+  "secondResult": "令和9年1月下旬頃に書類選考の結果を郵送。保育の実施決定通知の発送は令和9年2月下旬頃",
+  "midYearDeadline": "5月以降の利用は、利用を希望する月の前月10日（10日が休みの場合は前の開庁日）までに提出。郵送は10日必着",
+  "documents": [
+    "保育所等利用申込書（太枠の中を記入漏れなく書き、手引きの「保育所等申込み・利用にかかる確認書」を確認して署名する）",
+    "利用児童・世帯状況調査票（病気の履歴や生活状況、アレルギー等を書く。出産前に申し込む場合は出産後2か月以内に提出）",
+    "「保育を必要とする事由」を証明する書類（就労証明書、母子手帳の写し、障がい者手帳の写し、診断書など）。ひとり親世帯以外は両親とも必要",
+    "就労証明書は年度ごとに決められた様式（令和9年度様式）で出す。有効期限は証明日から3か月以内",
+    "申込児童と保護者のマイナンバーがわかる書類。郵送の場合はマイナンバーカードの写し等を同封せず、後日マイナンバー確認書類を提出する",
+    "利用者負担金（保育料）算定と副食費徴収対象判定の基礎となる書類（市外に住民票がある（あった）人のみ）"
+  ],
+  "interview": "申込みをする保育所等への見学が必須で、申込書に見学日を書く。内定したら速やかに内定先の保育所等に連絡して面談を受け、集団保育への参加に問題がないと確認できれば利用が正式に決定する",
+  "ikukyu": "不承諾の場合、育児休業給付金の申請時に保育所等利用申込書の写しが必要になるため、提出前にコピーか写真撮影をしておく。内定した施設を辞退すると入所不承諾通知書は発行されず、紛失した不承諾通知書は再発行されない",
+  "notes": [
+    "令和8年度に利用申込みをしている人も、令和9年度の利用には改めて手続きが必要",
+    "4月利用の3次募集は令和9年2月8日（月）〜2月26日（金）。2次選考で内定辞退などにより追加募集が出た場合だけ行い、空きのない施設・クラスには申し込めない。結果通知は令和9年3月上旬頃",
+    "小田原市外に住んでいて令和9年3月末までに転入する予定のない人は1次募集に申し込めない（市内の保育所等で働く保育士は申し込める）",
+    "保育所等利用判定基準表（令和9年度）は令和8年10月13日に市ホームページで公開予定",
+    "1次申込の期限が近い10月下旬は窓口が特に混むので、余裕をもって申し込むよう案内されている",
+    "4月2次選考で入所できなかった人が5月以降も選考を続けるには「5月以降保育所等利用希望確認票」の提出が必要で、出さないと5月以降の希望は自動で取り下げになる"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.odawara.kanagawa.jp/field/edu-ch/kosodate/nursery/nursery/process/p42339.html",
+      "quote": "令和９年度に保育所等の利用を希望される場合は、以下のとおりお手続きください。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.odawara.kanagawa.jp/field/edu-ch/kosodate/nursery/nursery/process/p42339.html",
+      "quote": "市役所5階保育課（令和8年9月16日から）"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.odawara.kanagawa.jp/field/edu-ch/kosodate/nursery/nursery/process/p42339.html",
+      "quote": "各タウンセンター住民窓口、アークロード市民窓口（令和8年9月16日から）"
+    },
+    "guideRelease#3": {
+      "url": "https://www.city.odawara.kanagawa.jp/field/edu-ch/kosodate/nursery/nursery/process/p42339.html",
+      "quote": "各子育て支援センター（令和8年9月16日から）"
+    },
+    "guideRelease#4": {
+      "url": "https://www.city.odawara.kanagawa.jp/field/edu-ch/kosodate/nursery/nursery/process/p42339.html",
+      "quote": "以下のリンク先より、手引きや申込書等のダウンロードが可能です。"
+    },
+    "firstApply": {
+      "url": "https://www.city.odawara.kanagawa.jp/field/edu-ch/kosodate/nursery/nursery/process/p42339.html",
+      "quote": "１次募集：令和８年10月13日（火）　～　令和８年10月30日（金）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.odawara.kanagawa.jp/field/edu-ch/kosodate/nursery/nursery/process/p42339.html",
+      "quote": "※郵送での申込みも可能です。郵送の場合は、10月30日(金)必着となりますのでご注意ください。"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.odawara.kanagawa.jp/global-image/units/747834/1-20260831191119_b6a95534762604.pdf",
+      "quote": "１次募集の不足書類受付期間が廃止されます。10月30日（金）までに全ての書類をご提出ください。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.odawara.kanagawa.jp/field/edu-ch/kosodate/nursery/nursery/process/p42339.html",
+      "quote": "※各タウンセンターやアークロード市民窓口での提出はできません。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.odawara.kanagawa.jp/field/edu-ch/kosodate/nursery/nursery/process/p42339.html",
+      "quote": "※締切日必着となります。書留郵便等配達記録が残る方法で郵送してください。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.odawara.kanagawa.jp/field/edu-ch/kosodate/nursery/nursery/process/p42339.html",
+      "quote": "窓口受付時間 平日8時30分から17時 提出先 保育課窓口（市役所5階）"
+    },
+    "firstResult": {
+      "url": "https://www.city.odawara.kanagawa.jp/global-image/units/747834/1-20260831191119_b6a95534762604.pdf",
+      "quote": "・令和9年4月利用 1次判定・・・・・令和8年12月上旬頃"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.odawara.kanagawa.jp/global-image/units/747834/1-20260831191119_b6a95534762604.pdf",
+      "quote": "保育所等の受入枠が確保できた児童に対して「内定通知」を、できなかった児童には「不可通知」及び「不承諾通知」を選考結果として郵送にて通知します。"
+    },
+    "firstResult#3": {
+      "url": "https://www.city.odawara.kanagawa.jp/global-image/units/747834/1-20260831191119_b6a95534762604.pdf",
+      "quote": "・令和9年4月利用 1次判定・・・・・令和9年１月下旬頃"
+    },
+    "secondApply": {
+      "url": "https://www.city.odawara.kanagawa.jp/field/edu-ch/kosodate/nursery/nursery/process/p42339.html",
+      "quote": "２次募集：令和８年11月２日（月）　～　令和８年12月25日（金）"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.odawara.kanagawa.jp/field/edu-ch/kosodate/nursery/nursery/process/p42339.html",
+      "quote": "※郵送での申込みも可能です。郵送の場合は、１２月２５日(金)必着となりますのでご注意ください。"
+    },
+    "secondApply#3": {
+      "url": "https://www.city.odawara.kanagawa.jp/field/edu-ch/kosodate/nursery/nursery/process/p42339.html",
+      "quote": "1次選考で入所に至らなかった方は改めて申込書を提出する必要はありませんが"
+    },
+    "secondResult": {
+      "url": "https://www.city.odawara.kanagawa.jp/global-image/units/747834/1-20260831191119_b6a95534762604.pdf",
+      "quote": "・令和9年4月利用 2次判定・・・・・令和9年１月下旬頃"
+    },
+    "secondResult#2": {
+      "url": "https://www.city.odawara.kanagawa.jp/global-image/units/747834/1-20260831191119_b6a95534762604.pdf",
+      "quote": "・令和9年4月利用 2次判定・・・・・令和9年２月下旬頃"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.odawara.kanagawa.jp/field/edu-ch/kosodate/nursery/nursery/process/p42339.html",
+      "quote": "※5月以降の提出期限は、利用を希望する月の前月10日(10日が休みの場合は前の開庁日)です。"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.odawara.kanagawa.jp/global-image/units/747834/1-20260831191119_b6a95534762604.pdf",
+      "quote": "利用を希望する月の前月１０日まで（郵送の場合、１０日必着）"
+    },
+    "documents.0": {
+      "url": "https://www.city.odawara.kanagawa.jp/global-image/units/747834/1-20260831191119_b6a95534762604.pdf",
+      "quote": "太枠の中を記入漏れのないように記入してください。また、手引きの P２「保育所等申込み・利用にかかる確認書」の内容を確認したうえで、署名欄に署名してください。"
+    },
+    "documents.1": {
+      "url": "https://www.city.odawara.kanagawa.jp/global-image/units/747834/1-20260831191119_b6a95534762604.pdf",
+      "quote": "お子様の病気履歴や生活状況、アレルギー等について事前に調査させていただき、保育所等に共有します。"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.odawara.kanagawa.jp/global-image/units/747834/1-20260831191119_b6a95534762604.pdf",
+      "quote": "※出産前に入所申込みをする場合は、出産後2か月以内にご提出ください。"
+    },
+    "documents.2": {
+      "url": "https://www.city.odawara.kanagawa.jp/field/edu-ch/kosodate/nursery/nursery/process/p42339.html",
+      "quote": "就労証明書、母子手帳の写し、障がい者手帳の写し、診断書など"
+    },
+    "documents.2#2": {
+      "url": "https://www.city.odawara.kanagawa.jp/global-image/units/747834/1-20260831191119_b6a95534762604.pdf",
+      "quote": "※ひとり親世帯以外の場合は、両親ともに書類が必要です。"
+    },
+    "documents.3": {
+      "url": "https://www.city.odawara.kanagawa.jp/global-image/units/747834/1-20260831191119_b6a95534762604.pdf",
+      "quote": "就労証明書の有効期限は、証明日から３か月以内です。これを過ぎた場合は無効となります。"
+    },
+    "documents.3#2": {
+      "url": "https://www.city.odawara.kanagawa.jp/global-image/units/747834/1-20260831191119_b6a95534762604.pdf",
+      "quote": "原則として年度ごとに決められた様式による就労証明書の提出が必要です。"
+    },
+    "documents.4": {
+      "url": "https://www.city.odawara.kanagawa.jp/field/edu-ch/kosodate/nursery/nursery/process/p42339.html",
+      "quote": "※郵送の場合、マイナンバーのわかる書類（マイナンバーカードの写し等）は同封しないでください。"
+    },
+    "documents.4#2": {
+      "url": "https://www.city.odawara.kanagawa.jp/global-image/units/747834/1-20260831191119_b6a95534762604.pdf",
+      "quote": "※保育所等利用申込書を郵送の場合は、後日マイナンバー確認書類を提出してください。"
+    },
+    "documents.5": {
+      "url": "https://www.city.odawara.kanagawa.jp/field/edu-ch/kosodate/nursery/nursery/process/p42339.html",
+      "quote": "利用者負担金(保育料)算定及び副食費徴収対象判定の基礎となる書類 ・市外に住民票がある(あった)方のみ"
+    },
+    "interview": {
+      "url": "https://www.city.odawara.kanagawa.jp/field/edu-ch/kosodate/nursery/nursery/process/p42339.html",
+      "quote": "なお、申込みをする保育所等への見学を必須としています。事前に保育所等へ連絡の上、必ず見学をしてください。"
+    },
+    "interview#2": {
+      "url": "https://www.city.odawara.kanagawa.jp/field/edu-ch/kosodate/nursery/nursery/process/p42339.html",
+      "quote": "※申込書に見学日をご記入ください。"
+    },
+    "interview#3": {
+      "url": "https://www.city.odawara.kanagawa.jp/global-image/units/747834/1-20260831191119_b6a95534762604.pdf",
+      "quote": "速やかに内定先保育所等に連絡していただき、面談を行ってください。"
+    },
+    "interview#4": {
+      "url": "https://www.city.odawara.kanagawa.jp/global-image/units/747834/1-20260831191119_b6a95534762604.pdf",
+      "quote": "保育所等との面談の結果、集団保育への参加に問題がないと確認できた場合、正式に保育所等の利用が決定します。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.odawara.kanagawa.jp/global-image/units/747834/1-20260831191119_b6a95534762604.pdf",
+      "quote": "不承諾の場合、育児休業給付金申請時に保育所等利用申込書の写しの提出が必要です。コピーや写真撮影は、提出前におこなってください。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.odawara.kanagawa.jp/global-image/units/747834/1-20260831191119_b6a95534762604.pdf",
+      "quote": "選考の結果、内定した施設を辞退すると、それ以降の選考指数が減点されます。また、入所不承諾通知書は発行されません。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.odawara.kanagawa.jp/global-image/units/747834/1-20260831191119_b6a95534762604.pdf",
+      "quote": "入所不承諾通知書を紛失した場合、再発行できません。"
+    },
+    "notes.0": {
+      "url": "https://www.city.odawara.kanagawa.jp/field/edu-ch/kosodate/nursery/nursery/process/p42339.html",
+      "quote": "令和８年度に利用申込みをしている方も、改めて手続きが必要です。"
+    },
+    "notes.1": {
+      "url": "https://www.city.odawara.kanagawa.jp/field/edu-ch/kosodate/nursery/nursery/process/p42339.html",
+      "quote": "３次募集：令和９年２月８日（月）　～　令和９年２月26日（金）"
+    },
+    "notes.1#2": {
+      "url": "https://www.city.odawara.kanagawa.jp/field/edu-ch/kosodate/nursery/nursery/process/p42339.html",
+      "quote": "※2次選考で内定辞退等により、追加募集が発生した場合にのみ3次募集を行います。"
+    },
+    "notes.1#3": {
+      "url": "https://www.city.odawara.kanagawa.jp/field/edu-ch/kosodate/nursery/nursery/process/p42339.html",
+      "quote": "空きのない施設・クラスへの申込みはできません。"
+    },
+    "notes.1#4": {
+      "url": "https://www.city.odawara.kanagawa.jp/global-image/units/747834/1-20260831191119_b6a95534762604.pdf",
+      "quote": "・令和9年4月利用 3次判定・・・・・令和9年３月上旬頃"
+    },
+    "notes.2": {
+      "url": "https://www.city.odawara.kanagawa.jp/field/edu-ch/kosodate/nursery/nursery/process/p42339.html",
+      "quote": "※小田原市外にお住まいで、令和９年３月末までに小田原市に転入予定のない方は４月１次募集への申込みはできません。"
+    },
+    "notes.2#2": {
+      "url": "https://www.city.odawara.kanagawa.jp/field/edu-ch/kosodate/nursery/nursery/process/p42339.html",
+      "quote": "（小田原市市外にお住まいで、小田原市内の保育所等で勤務する保育士の方の申込みは可能です。）"
+    },
+    "notes.3": {
+      "url": "https://www.city.odawara.kanagawa.jp/global-image/units/747834/1-20260831191119_b6a95534762604.pdf",
+      "quote": "令和９年度は、令和８年 10 月 13 日にホームページにて公開予定です。"
+    },
+    "notes.4": {
+      "url": "https://www.city.odawara.kanagawa.jp/field/edu-ch/kosodate/nursery/nursery/process/p42339.html",
+      "quote": "※4月1次申込期限間近(10月下旬)は特に混雑が予想されます。期限に余裕をもってお申込みください。"
+    },
+    "notes.5": {
+      "url": "https://www.city.odawara.kanagawa.jp/global-image/units/747834/1-20260831191119_b6a95534762604.pdf",
+      "quote": "引き続き利用選考を希望する方は、５月以降保育所等利用希望確認票を提出してください。提出がない場合は、5 月以降の利用希望は自動で取り下げとなります。"
+    }
+  },
+  "sources": [
+    {
+      "label": "小田原市「令和9年度 保育所等の利用申込みについて ≪保育所、認定こども園(保育部)、小規模保育事業≫」",
+      "url": "https://www.city.odawara.kanagawa.jp/field/edu-ch/kosodate/nursery/nursery/process/p42339.html"
+    },
+    {
+      "label": "小田原市「【令和9年度】保育所等利用の手引き・利用申込書類集」",
+      "url": "https://www.city.odawara.kanagawa.jp/field/edu-ch/kosodate/nursery/nursery/guide_necessarydocuments/p42373.html"
+    },
+    {
+      "label": "小田原市「令和9年度 保育所等利用の手引き」（PDF）",
+      "url": "https://www.city.odawara.kanagawa.jp/global-image/units/747834/1-20260831191119_b6a95534762604.pdf"
+    }
+  ]
+}

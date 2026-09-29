@@ -1,0 +1,166 @@
+{
+  "citySlug": "tsukuba",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "つくば市「保育所の申込み（令和9年度（2027年度）4月入所）」",
+    "url": "https://www.city.tsukuba.lg.jp/soshikikarasagasu/kodomobuyojihoikuka/gyomuannai/5/2/1015515.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年（2026年）11月1日（日曜日）〜11月13日（金曜日）16時30分まで",
+  "applyMethods": "原則として電子申請で申し込む。特別な事情等で電子申請が難しい場合は幼児保育課に相談する。マイナンバーカードを読み取らずに申請する場合は、個人番号（マイナンバー）記入用紙に確認書類を貼って幼児保育課へ郵送する（締切日必着）",
+  "firstResult": "令和9年（2027年）1月27日（水曜日）に送付予定。電子申請の申込みには、電子署名付きのPDFをメールで送る予定（システムの都合で書面になる場合あり）",
+  "secondApply": "令和9年（2027年）1月6日（水曜日）〜2月5日（金曜日）16時30分まで",
+  "secondResult": "令和9年（2027年）3月3日（水曜日）に送付予定",
+  "midYearDeadline": "4月以外の入所は入所希望月ごとに申込期間があり、たとえば5月入所は令和9年3月5日〜4月5日（必着）。各締切日は16時30分で受付終了",
+  "documents": [
+    "就労証明書や診断書などの「保育にあたれない証明書」（証明日が申込日から3か月以内のもの）",
+    "育児休業中に申し込んだ場合は、入所後に復職したら1か月以内に復職日の記載のある就労証明書を提出",
+    "マイナンバーカードを読み取らずに申請する場合は、個人番号（マイナンバー）記入用紙（裏面にマイナンバー確認書類と代表保護者の本人確認書類を貼付）",
+    "申込年度の4月1日時点で65歳未満の同居祖父母も証明書が必要"
+  ],
+  "interview": "公立保育所に内定した場合は、内定通知に同封の「入所前身体検査票」を記入して保育所の指示で健康診断を受け、その後保育所で面談する。民間保育園・認定こども園・小規模保育事業所に内定した場合は、入所前に施設との面談や健康診断を受ける",
+  "ikukyu": "育児休業中に4月入所を申し込んで内定した場合は5月1日までに復職が必要（令和9年4月入所から、入所月の翌月1日までの復職に変更）。申込みの「育児休業の延長許容」欄で「許容できる」を選ぶと9点減点になり、取り消すときは取下書を出す",
+  "notes": [
+    "第1次申込みの選考で入所保留になった場合は結果通知が出ず、そのまま第2次申込みの選考の対象になる",
+    "第2次申込受付期間までに申し込んでいないと、4月中の入所はできない",
+    "産休明け（生後57日目）から受け入れる施設の場合、令和9年3月4日以前の出産予定なら4月入所を申し込める。出産日が3月5日以降になると内定は取り消される",
+    "入所保留になった場合、申込みを取り下げない限り令和10年3月入所まで毎月の選考の対象になる",
+    "4月入所の証明書は4月1日以降の保護者の状況で用意する。申込時に就労していても4月1日までに退職する場合は就労として申し込めない"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.tsukuba.lg.jp/soshikikarasagasu/kodomobuyojihoikuka/gyomuannai/5/2/1015515.html",
+      "quote": "令和9年度（2027年度）4月入所の情報は、このページで随時公開します。"
+    },
+    "firstApply": {
+      "url": "https://www.city.tsukuba.lg.jp/soshikikarasagasu/kodomobuyojihoikuka/gyomuannai/5/2/1015515.html",
+      "quote": "第1次申込 2026年11月1日（日曜日）から 11月13日（金曜日）16時30分まで"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.tsukuba.lg.jp/material/files/group/65/R09goannnai.pdf",
+      "quote": "第1次：令和8年11月1日（日）～令和8年11月13日（金）16時30分"
+    },
+    "applyMethods": {
+      "url": "https://www.city.tsukuba.lg.jp/soshikikarasagasu/kodomobuyojihoikuka/gyomuannai/5/2/1015515.html",
+      "quote": "原則、電子申請でお申し込みください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.tsukuba.lg.jp/soshikikarasagasu/kodomobuyojihoikuka/gyomuannai/5/2/1015515.html",
+      "quote": "特別な事情等により電子申請が困難である場合は、幼児保育課へご相談ください。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.tsukuba.lg.jp/soshikikarasagasu/kodomobuyojihoikuka/gyomuannai/5/2/1015515.html",
+      "quote": "「個人番号（マイナンバー）記入用紙」の裏面に、個人番号（マイナンバー）確認書類と代表保護者の本人確認書類を貼付の上、以下へ郵送してください。（締切日必着）"
+    },
+    "firstResult": {
+      "url": "https://www.city.tsukuba.lg.jp/soshikikarasagasu/kodomobuyojihoikuka/gyomuannai/5/2/1015515.html",
+      "quote": "11月13日（金曜日）16時30分まで 2027年1月27日（水曜日） 送付予定"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.tsukuba.lg.jp/soshikikarasagasu/kodomobuyojihoikuka/gyomuannai/5/2/1015515.html",
+      "quote": "電子申請で受付した申込みに対する結果通知（施設利用内定通知書又は保育所入所保留通知書）については、書面に代えて、電子署名を付したPDFファイルをメールで送付する予定です。"
+    },
+    "firstResult#3": {
+      "url": "https://www.city.tsukuba.lg.jp/soshikikarasagasu/kodomobuyojihoikuka/gyomuannai/5/2/1015515.html",
+      "quote": "なお、システムの都合上、書面での送付となる場合があります。"
+    },
+    "secondApply": {
+      "url": "https://www.city.tsukuba.lg.jp/soshikikarasagasu/kodomobuyojihoikuka/gyomuannai/5/2/1015515.html",
+      "quote": "第2次申込 2027年1月6日（水曜日）から 2月5日（金曜日）16時30分まで"
+    },
+    "secondResult": {
+      "url": "https://www.city.tsukuba.lg.jp/soshikikarasagasu/kodomobuyojihoikuka/gyomuannai/5/2/1015515.html",
+      "quote": "2月5日（金曜日）16時30分まで 2027年3月3日（水曜日） 送付予定"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.tsukuba.lg.jp/material/files/group/65/R09goannnai.pdf",
+      "quote": "5月 令和9年 3月 5日（金） ～ 4月 5日（月）"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.tsukuba.lg.jp/material/files/group/65/R09goannnai.pdf",
+      "quote": "※各締切日のみ16時30分に受付終了します。"
+    },
+    "documents.0": {
+      "url": "https://www.city.tsukuba.lg.jp/soshikikarasagasu/kodomobuyojihoikuka/gyomuannai/5/2/1015515.html",
+      "quote": "就労証明書や診断書などの「保育にあたれない証明書」の添付が必要です。"
+    },
+    "documents.0#2": {
+      "url": "https://www.city.tsukuba.lg.jp/soshikikarasagasu/kodomobuyojihoikuka/gyomuannai/5/2/1015515.html",
+      "quote": "証明書等は、申込日から3か月以内の証明日のものをご提出ください。"
+    },
+    "documents.1": {
+      "url": "https://www.city.tsukuba.lg.jp/soshikikarasagasu/kodomobuyojihoikuka/gyomuannai/5/2/1015515.html",
+      "quote": "復職後1か月以内に就労証明書（復職日の記載のあるもの）をご用意いただき、以下のリンクからご提出ください。"
+    },
+    "documents.2": {
+      "url": "https://www.city.tsukuba.lg.jp/soshikikarasagasu/kodomobuyojihoikuka/gyomuannai/5/2/1015515.html",
+      "quote": "「個人番号（マイナンバー）記入用紙」の裏面に、個人番号（マイナンバー）確認書類と代表保護者の本人確認書類を貼付の上、以下へ郵送してください。"
+    },
+    "documents.3": {
+      "url": "https://www.city.tsukuba.lg.jp/material/files/group/65/R09goannnai.pdf",
+      "quote": "※申込年度の４月１日時点で65歳未満の同居祖父母も証明書が必要です。"
+    },
+    "interview": {
+      "url": "https://www.city.tsukuba.lg.jp/material/files/group/65/R09goannnai.pdf",
+      "quote": "「施設利用内定通知書」に同封した「入所前身体検査票」に記入の上、保育所からの指示に従い健康診断を受けてください。"
+    },
+    "interview#2": {
+      "url": "https://www.city.tsukuba.lg.jp/material/files/group/65/R09goannnai.pdf",
+      "quote": "その後保育所で面談を行い、集団保育が可能であれば入所承諾となります。"
+    },
+    "interview#3": {
+      "url": "https://www.city.tsukuba.lg.jp/material/files/group/65/R09goannnai.pdf",
+      "quote": "入所の前に施設との面談や健康診断を受けてください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.tsukuba.lg.jp/soshikikarasagasu/kodomobuyojihoikuka/gyomuannai/5/2/1015515.html",
+      "quote": "育児休業中に4月入所の申込みをした方は、保育所に入所内定した場合、5月1日までに復職する必要があります。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.tsukuba.lg.jp/soshikikarasagasu/kodomobuyojihoikuka/gyomuannai/5/2/1015515.html",
+      "quote": "令和9年4月入所から：入所した月の翌月の1日までに復職"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.tsukuba.lg.jp/soshikikarasagasu/kodomobuyojihoikuka/gyomuannai/1/1002907.html",
+      "quote": "「育児休業の延長許容」欄において「許容できる」を選択（9点減点）していた方について、減点の適用を取り消す（9点減点せず、通常どおり選考を希望する）場合は提出してください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.tsukuba.lg.jp/material/files/group/65/R09goannnai.pdf",
+      "quote": "第1次申込みの選考で入所保留となった場合は、結果通知は発行されず、第2次申込みの選考の対象となります"
+    },
+    "notes.1": {
+      "url": "https://www.city.tsukuba.lg.jp/material/files/group/65/R09goannnai.pdf",
+      "quote": "※第2次申込受付期間までに申込みをされていない方は、4月中の入所はできません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.tsukuba.lg.jp/soshikikarasagasu/kodomobuyojihoikuka/gyomuannai/5/2/1015515.html",
+      "quote": "産休明け（生後57日目）から受入可能な施設の場合、令和9年3月4日以前の出産予定であれば4月入所をお申し込みいただけます。出産日が令和9年3月5日以降となった場合、内定は取り消されます。"
+    },
+    "notes.3": {
+      "url": "https://www.city.tsukuba.lg.jp/soshikikarasagasu/kodomobuyojihoikuka/gyomuannai/5/2/1015515.html",
+      "quote": "入所保留となった場合は、申込みを取り下げない限り、年度末まで（令和9年5月入所から令和10年3月入所まで）、利用調整（選考）の対象となります。"
+    },
+    "notes.4": {
+      "url": "https://www.city.tsukuba.lg.jp/material/files/group/65/R09goannnai.pdf",
+      "quote": "例えば、申込みの時点では就労していても、４月１日までに仕事を退職する場合、就労として申し込めません。"
+    },
+    "notes.4#2": {
+      "url": "https://www.city.tsukuba.lg.jp/material/files/group/65/R09goannnai.pdf",
+      "quote": "４月入所に申込みの際は、４月１日以降の保護者の状況をもとに証明書等をご準備ください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "つくば市「保育所の申込み（令和9年度（2027年度）4月入所）」",
+      "url": "https://www.city.tsukuba.lg.jp/soshikikarasagasu/kodomobuyojihoikuka/gyomuannai/5/2/1015515.html"
+    },
+    {
+      "label": "つくば市「令和9年度（2027年度版）保育所入所のご案内」",
+      "url": "https://www.city.tsukuba.lg.jp/material/files/group/65/R09goannnai.pdf"
+    },
+    {
+      "label": "つくば市「保育所入所に関する申請書」",
+      "url": "https://www.city.tsukuba.lg.jp/soshikikarasagasu/kodomobuyojihoikuka/gyomuannai/1/1002907.html"
+    }
+  ]
+}

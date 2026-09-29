@@ -3,59 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "maebashi",
-    title: "前橋市の保活スケジュール　令和8年度4月入園の流れ",
-    description:
-      "前橋市の令和8年度（2026年度）4月入園の申込時期・必要書類・結果通知の時期をまとめました。",
-    image:
-      "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>令和8年度（2026年度）4月入園のスケジュール</h2>
-<p>前橋市の4月入園の申込は例年10月〜11月頃に受け付けられます。</p>
-
-<h3>申込の流れ</h3>
-<table>
-<tr><th>項目</th><th>日程（目安）</th></tr>
-<tr><td>申請書類配布</td><td>2025年9月頃〜</td></tr>
-<tr><td>申込受付（1次）</td><td>2025年10月〜11月頃</td></tr>
-<tr><td>1次結果通知</td><td>2026年1月下旬〜2月頃</td></tr>
-<tr><td>2次申込受付</td><td>2026年2月頃</td></tr>
-<tr><td>2次結果通知</td><td>2026年3月頃</td></tr>
-</table>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>前橋市では「保育関係施設入所の手引き」が公式サイトからダウンロードできます。申込前に必ず目を通しましょう。</p>
-</div>
-
-<h2>いつから動き始めるべき？</h2>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content"><strong>4月〜6月：情報収集</strong><p>前橋市こども施設課の窓口または公式サイトで入所の手引きを入手。</p></div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content"><strong>6月〜9月：保育園見学</strong><p>気になる園に電話して見学予約。複数園の見学がおすすめです。</p></div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content"><strong>9月〜10月：書類準備</strong><p>就労証明書を勤務先に依頼。余裕を持って準備しましょう。</p></div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content"><strong>10月〜11月：申込</strong><p>期限内に必要書類を提出します。</p></div>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>最新情報は<a href="https://www.city.maebashi.gunma.jp/soshiki/kodomomiraibu/kodomoshisetsu/gyomu/8/2/20836.html" target="_blank" rel="noopener">前橋市公式サイト「保育関係施設入所申し込みのご案内」</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-04-05",
-    popularity: 55,
-  },
-  {
     slug: "fulltime-20-line",
     citySlug: "maebashi",
     title: "フルタイム共働き20点は安心？前橋市のボーダーライン事情",

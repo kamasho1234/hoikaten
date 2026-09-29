@@ -98,66 +98,6 @@ const articles: Article[] = [
 
   // ===== 保活の基本 (3) =====
   {
-    slug: "hokatsu-schedule",
-    citySlug: "fukuyama",
-    title: "福山市の保活スケジュール｜入園申込みの流れと時期",
-    description:
-      "福山市の保育園4月入園に向けた申込時期・選考・結果通知の流れを時系列でまとめました。",
-    image:
-      "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>4月入園の申込スケジュール</h2>
-<p>福山市の4月入園は<strong>第一次受付</strong>と<strong>第二次受付</strong>に分かれています。第一次で定員に達しなかった園のみ第二次で追加募集されます。</p>
-
-<h3>主な日程の目安</h3>
-<table>
-<tr><th>項目</th><th>時期</th></tr>
-<tr><td>入所案内の配布開始</td><td>10月頃</td></tr>
-<tr><td>第一次受付期間</td><td>11月上旬〜12月上旬</td></tr>
-<tr><td>第一次結果通知</td><td>翌年2月頃</td></tr>
-<tr><td>第二次受付期間</td><td>2月頃</td></tr>
-</table>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>第一次受付で枠の大部分が埋まります。4月入園を目指すなら第一次の締切に必ず間に合わせましょう。</p>
-</div>
-
-<h2>提出先</h2>
-<p>申込書類は<strong>第一希望の保育所等</strong>または<strong>保育施設課</strong>（本庁舎7階）に提出します。</p>
-
-<h2>いつから動くべき？</h2>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content">
-<strong>4月〜6月：情報収集</strong>
-<p>保育所等の種類やエリアを調べ、見学の予約を始めましょう。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content">
-<strong>7月〜9月：施設見学</strong>
-<p>気になる園を実際に見学。保育方針や通いやすさを確認します。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content">
-<strong>10月〜11月：書類準備・申込</strong>
-<p>就労証明書など必要書類を揃え、受付期間内に提出します。</p>
-</div>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>最新の申込スケジュールは<a href="https://www.city.fukuyama.hiroshima.jp/soshiki/hoikushisetsu/347755.html" target="_blank" rel="noopener">福山市公式サイト「保育所等入所申込みについて」</a>でご確認ください。</p>
-</div>`,
-    publishedAt: "2026-04-05",
-    popularity: 45,
-  },
-  {
     slug: "required-documents",
     citySlug: "fukuyama",
     title: "福山市の保育園申込みに必要な書類一覧",

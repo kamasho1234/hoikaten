@@ -1,0 +1,156 @@
+{
+  "citySlug": "atsugi",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "厚木市「令和9年度4月入所申込みの手続と日程について(お知らせ)」",
+    "url": "https://www.city.atsugi.kanagawa.jp/soshiki/hoikuka/7/8427.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "保育のしおりと申込書類は令和8年10月13日（火曜日）から配布（厚木市ホームページでは令和8年10月1日（木曜日）からデータを公開）。保育課、保育所、公民館、駅連絡所等で配布し、保育所・公民館は部数に限りがあるので事前に電話で確認する",
+  "firstApply": "令和8年11月1日（日曜日）〜令和8年11月13日（金曜日）。郵送は必着、電子申請は締切日23時59分受信分まで",
+  "applyMethods": "郵送（送付先：厚木市役所 保育課）か電子申請（e-kanagawa電子申請）で受け付ける。土曜日・日曜日・祝日の窓口受付はなく、ファクスでの申込みはできない。令和9年度から郵送は消印有効から必着に変更",
+  "firstResult": "一次申込受付分の結果通知は令和9年1月15日頃に発送予定",
+  "secondApply": "令和8年11月16日（月曜日）〜令和9年2月10日（水曜日）",
+  "secondResult": "二次申込受付分の結果通知は令和9年2月25日頃に発送予定",
+  "midYearDeadline": "令和9年5月以降の入所申込みは令和9年2月11日から受付開始予定。締切日は入所希望月の前月10日（10日が土日祝日の場合は直前の開庁日）",
+  "documents": [
+    "教育・保育給付認定申請書（兼）利用申込書を含む申込書類一式",
+    "各種証明書（証明日が令和8年10月1日以降のものが有効）"
+  ],
+  "interview": "入所前の園見学が必要で、期限は原則として4月一次申込が令和8年11月27日（金曜日）まで、4月二次申込が令和9年2月16日（火曜日）まで。指定期間内に見学しないと審査できない。4月一次申込で厚南幼児園・依知保育園・妻田保育園・愛歩保育園・おひさまっこ保育園・翼咲保育園を第一希望にした人は令和8年11月25日（水曜日）〜11月26日（木曜日）に面接がある",
+  "notes": [
+    "4月一次入所に限り、各保育園・クラス年齢ごとの申込状況を電話で問い合わせられる（令和8年11月4日〜13日。ホームページでは公開しない）",
+    "令和9年3月31日までに厚木市へ転入予定の人は直接厚木市へ申請し、厚木市民と同様に選考される",
+    "医療的ケアが必要な場合は申込み前に保育課への事前相談が必要で、相談後に一次申込みをする",
+    "在園児が4月から転園を希望する場合は、一次または二次申込期間内に転園申請手続をする",
+    "年度内（令和8年12月から令和9年3月まで）の入所希望の申込みも郵送受付と電子申請"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.atsugi.kanagawa.jp/soshiki/hoikuka/7/8427.html",
+      "quote": "令和9年度4月入所申込みについて、次の日程で申込書類の配布と受付をします。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.atsugi.kanagawa.jp/soshiki/hoikuka/7/8427.html",
+      "quote": "保育のしおりと申込書類の配布開始日：令和8年10月13日（火曜日）"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.atsugi.kanagawa.jp/soshiki/hoikuka/7/8427.html",
+      "quote": "※厚木市ホームページにおいては、令和8年10月1日（木曜日）からデータを公開します。"
+    },
+    "guideRelease#3": {
+      "url": "https://www.city.atsugi.kanagawa.jp/soshiki/hoikuka/7/8427.html",
+      "quote": "申込書類は、保育課、保育所、公民館、駅連絡所等で配布します。保育所、公民館の配布部数には限りがありますので、事前に電話で確認してください。"
+    },
+    "firstApply": {
+      "url": "https://www.city.atsugi.kanagawa.jp/soshiki/hoikuka/7/8427.html",
+      "quote": "一次申込受付期間：令和8年11月1日（日曜日）から令和8年11月13日（金曜日）まで"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.atsugi.kanagawa.jp/soshiki/hoikuka/7/8427.html",
+      "quote": "郵送（必着）又は電子申請（締切日23時59分受信分まで）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.atsugi.kanagawa.jp/soshiki/hoikuka/7/8427.html",
+      "quote": "郵送受付（送付先：郵便番号243-8511 厚木市役所 保育課）"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.atsugi.kanagawa.jp/soshiki/hoikuka/7/8427.html",
+      "quote": "電子申請（e-kanagawa電子申請）"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.atsugi.kanagawa.jp/soshiki/hoikuka/7/8427.html",
+      "quote": "土曜日、日曜日、祝日の窓口受付はありません。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.atsugi.kanagawa.jp/soshiki/hoikuka/7/8427.html",
+      "quote": "ファクスでの申込みはできません。"
+    },
+    "applyMethods#5": {
+      "url": "https://www.city.atsugi.kanagawa.jp/soshiki/hoikuka/7/8427.html",
+      "quote": "※令和9年度から郵送の取り扱いが、消印有効から必着に変更となっています。"
+    },
+    "firstResult": {
+      "url": "https://www.city.atsugi.kanagawa.jp/soshiki/hoikuka/7/8427.html",
+      "quote": "申込み後の結果通知は、一次申込受付分が令和9年1月15日頃、二次申込受付分は令和9年2月25日頃の発送を予定しています。"
+    },
+    "secondApply": {
+      "url": "https://www.city.atsugi.kanagawa.jp/soshiki/hoikuka/7/8427.html",
+      "quote": "二次申込受付期間：令和8年11月16日（月曜日）から令和9年2月10日（水曜日）まで"
+    },
+    "secondResult": {
+      "url": "https://www.city.atsugi.kanagawa.jp/soshiki/hoikuka/7/8427.html",
+      "quote": "申込み後の結果通知は、一次申込受付分が令和9年1月15日頃、二次申込受付分は令和9年2月25日頃の発送を予定しています。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.atsugi.kanagawa.jp/soshiki/hoikuka/7/8427.html",
+      "quote": "令和9年5月以降の入所申込みは、令和9年2月11日から受付開始予定です。"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.atsugi.kanagawa.jp/soshiki/hoikuka/7/8427.html",
+      "quote": "締切日は、入所希望月の前月10日（10日が土日祝日の場合は直前の開庁日）です。"
+    },
+    "documents.0": {
+      "url": "https://www.city.atsugi.kanagawa.jp/soshiki/hoikuka/7/8427.html",
+      "quote": "教育・保育給付認定申請書（兼）利用申込書の「支援が必要な児童の特別支援枠欄」に記入の上、申込書類一式と上記要件の確認書類を提出してください。"
+    },
+    "documents.1": {
+      "url": "https://www.city.atsugi.kanagawa.jp/soshiki/hoikuka/7/8427.html",
+      "quote": "各種証明書の証明日は令和8年10月1日以降のものが有効です。"
+    },
+    "interview": {
+      "url": "https://www.city.atsugi.kanagawa.jp/soshiki/hoikuka/7/8427.html",
+      "quote": "4月一次申込：原則、令和8年11月27日(金曜日)まで"
+    },
+    "interview#2": {
+      "url": "https://www.city.atsugi.kanagawa.jp/soshiki/hoikuka/7/8427.html",
+      "quote": "4月二次申込：原則、令和9年2月16日(火曜日)まで"
+    },
+    "interview#3": {
+      "url": "https://www.city.atsugi.kanagawa.jp/soshiki/hoikuka/7/8427.html",
+      "quote": "指定期間内に入所前の園見学をしなかった場合、審査できません。"
+    },
+    "interview#4": {
+      "url": "https://www.city.atsugi.kanagawa.jp/soshiki/hoikuka/7/8427.html",
+      "quote": "4月一次申込で次の施設を第一希望にした方は、令和8年11月25日(水曜日)から11月26日(木曜日)までに面接がありますので、参加してください。"
+    },
+    "interview#5": {
+      "url": "https://www.city.atsugi.kanagawa.jp/soshiki/hoikuka/7/8427.html",
+      "quote": "面談実施施設：厚南幼児園、依知保育園、妻田保育園、愛歩保育園、おひさまっこ保育園、翼咲保育園"
+    },
+    "notes.0": {
+      "url": "https://www.city.atsugi.kanagawa.jp/soshiki/hoikuka/7/8427.html",
+      "quote": "4月一次入所に限り、各保育園とクラス年齢ごとの前日までの申込状況を集計し、翌日13時に更新します。"
+    },
+    "notes.0#2": {
+      "url": "https://www.city.atsugi.kanagawa.jp/soshiki/hoikuka/7/8427.html",
+      "quote": "電話で問い合わせてください（ホームページで公開はしません。）。令和8年11月4日～13日までの対応となります。"
+    },
+    "notes.1": {
+      "url": "https://www.city.atsugi.kanagawa.jp/soshiki/hoikuka/7/8427.html",
+      "quote": "他市区町村に在住で、厚木市へ令和9年3月31日までに転入予定の方は、直接厚木市へ申請してください。厚木市民と同様に選考します。"
+    },
+    "notes.2": {
+      "url": "https://www.city.atsugi.kanagawa.jp/soshiki/hoikuka/7/8427.html",
+      "quote": "申込み前に、事前相談が必要です。保育課へ連絡してください。"
+    },
+    "notes.2#2": {
+      "url": "https://www.city.atsugi.kanagawa.jp/soshiki/hoikuka/7/8427.html",
+      "quote": "4月入所が原則のため、相談後に一次申込みが必要です。"
+    },
+    "notes.3": {
+      "url": "https://www.city.atsugi.kanagawa.jp/soshiki/hoikuka/7/8427.html",
+      "quote": "在園児で4月からの転園を希望する場合、一次又は二次申込期間内に転園申請手続をしてください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.atsugi.kanagawa.jp/soshiki/hoikuka/7/8427.html",
+      "quote": "年度内（令和8年12月から令和9年3月まで）入所希望の申込みも郵送受付及び電子申請です。"
+    }
+  },
+  "sources": [
+    {
+      "label": "厚木市「令和9年度4月入所申込みの手続と日程について(お知らせ)」",
+      "url": "https://www.city.atsugi.kanagawa.jp/soshiki/hoikuka/7/8427.html"
+    }
+  ]
+}

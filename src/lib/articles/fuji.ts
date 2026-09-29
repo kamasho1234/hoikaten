@@ -3,18 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "fuji",
-    title: "富士市の保活スケジュール　申込から内定までの流れ",
-    description: "富士市の認可保育園の申込時期・選考の流れをまとめました。令和8年度4月入園の動き方を解説します。",
-    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>富士市の4月入園スケジュール</h2><p>富士市の認可保育園は毎年秋に翌年度4月入園の一次申込を受付けます。実施基準指数表を理解して準備を進めましょう。</p><h3>保活の全体スケジュール</h3><div class="step"><div class="step-num">1</div><div class="step-content"><strong>4月〜6月：情報収集</strong><p>富士市のホームページで保育園の一覧や前年度のボーダー（最低指数一覧）を確認します。</p></div></div><div class="step"><div class="step-num">2</div><div class="step-content"><strong>7月〜9月：保育園見学</strong><p>富士市内の保育園を見学して、通勤経路との相性を確認しましょう。</p></div></div><div class="step"><div class="step-num">3</div><div class="step-content"><strong>9月〜10月：書類準備</strong><p>就労証明書の月あたり就労時間は正確に記載してもらいましょう。指数に直結します。</p></div></div><div class="step"><div class="step-num">4</div><div class="step-content"><strong>11月：申込書類の提出</strong><p>4月一次の申込期限は例年11月中旬です。期限厳守で提出しましょう。</p></div></div><div class="point-box"><p><strong>ポイント</strong></p><p>富士市の基準指数は父母各最大20点（合計40点満点）です。月の就労時間で判定される制度です。</p></div>`,
-    publishedAt: "2026-04-12",
-    popularity: 55,
-  },
-  {
     slug: "hokatsu-mistakes",
     citySlug: "fuji",
     title: "富士市の保活でよくある失敗と対策",

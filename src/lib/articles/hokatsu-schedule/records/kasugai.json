@@ -1,0 +1,144 @@
+{
+  "citySlug": "kasugai",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "春日井市「令和9年4月入園を希望する場合」",
+    "url": "https://www.city.kasugai.lg.jp/kosodate/hoikuen/hoikuen/1002326/1002330.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "保育園・小規模保育園は令和8年10月1日（木曜日）から保育課窓口、市ホームページからのダウンロード、保育課からの郵送で配布。認定こども園は令和8年9月1日（火曜日）から第一希望の認定こども園で配布",
+  "firstApply": "保育園・小規模保育園は令和8年10月1日（木曜日）から受付、1次受付は令和8年11月30日（月曜日）締め切り",
+  "applyMethods": "保育園・小規模保育園は保育課へ郵送（必着）または持参。認定こども園（2号・3号）は園が指定する日時に第一希望の認定こども園で受付・面接。入園申込書類一式の郵送依頼はあいち電子申請・届出システムからできる",
+  "firstResult": "1次受付分の入園承諾・保留の通知書は令和9年2月上旬に発送予定",
+  "secondApply": "2次受付は令和9年2月上旬締め切り（3次受付は令和9年3月3日（水曜日）締め切り）",
+  "secondResult": "2次受付分の通知書は令和9年2月下旬、3次受付分は令和9年3月中旬に発送予定",
+  "midYearDeadline": "途中入園は入園希望月の前月10日（10日が土曜・日曜日、祝休日の場合はその前日）までに保育課へ持参または郵送",
+  "documents": [
+    "就労証明書（保育園用）。必ず証明者（雇用主）が記入する",
+    "自営業・農業の人は就労証明書に加えて直近の所得税確定申告書の写し（開業初年度は開業届の写し）",
+    "認可保育施設・認可外保育施設に在園していて新規に申し込む場合は在園証明書"
+  ],
+  "interview": "認定こども園（2号・3号）は、園が指定する日時に第一希望の認定こども園で受付と面接を行う",
+  "notes": [
+    "1次受付の締め切り直前は窓口が混雑するので、早めの提出が勧められている",
+    "申込書を郵送する場合は、簡易書留・レターパックなど配達状況を確認できる方法での提出を検討するよう案内されている",
+    "令和9年4月入園の申込書類の郵送依頼は令和8年10月1日からできる。認定こども園が第一希望の場合は希望の園へ直接問い合わせる",
+    "全ての様式で押印は廃止。訂正は修正液を使わず二重線で消して空いているスペースに書く"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.kasugai.lg.jp/kosodate/hoikuen/hoikuen/1002326/1002330.html",
+      "quote": "※令和9年4月入園の申込書類は、10月1日から依頼ができます。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.kasugai.lg.jp/kosodate/hoikuen/hoikuen/1002326/1002330.html",
+      "quote": "令和8年10月1日(木曜日)から、保育課窓口、市ホームページからダウンロード又は保育課から郵送で配布します。"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.kasugai.lg.jp/kosodate/hoikuen/hoikuen/1002326/1002330.html",
+      "quote": "令和8年9月1日(火曜日)から、第一希望の認定こども園で配布します。"
+    },
+    "firstApply": {
+      "url": "https://www.city.kasugai.lg.jp/kosodate/hoikuen/hoikuen/1002326/1002330.html",
+      "quote": "令和8年10月1日(木曜日)から、保育課まで郵送(必着)又は持参"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.kasugai.lg.jp/kosodate/hoikuen/hoikuen/1002326/1002330.html",
+      "quote": "1次受付　令和8年11月30日(月曜日)締め切り"
+    },
+    "applyMethods": {
+      "url": "https://www.city.kasugai.lg.jp/kosodate/hoikuen/hoikuen/1002326/1002330.html",
+      "quote": "令和8年10月1日(木曜日)から、保育課まで郵送(必着)又は持参"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.kasugai.lg.jp/kosodate/hoikuen/hoikuen/1002326/1002330.html",
+      "quote": "園が指定する日時に第一希望の認定こども園で受付・面接を行います。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.kasugai.lg.jp/kosodate/hoikuen/hoikuen/1002326/1002330.html",
+      "quote": "あいち電子申請・届出システムより、入園申込書類一式の郵送依頼ができます。"
+    },
+    "firstResult": {
+      "url": "https://www.city.kasugai.lg.jp/kosodate/hoikuen/hoikuen/1002326/1002330.html",
+      "quote": "入園の承諾・保留については、次の日程で通知書の発送を予定しています。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.kasugai.lg.jp/kosodate/hoikuen/hoikuen/1002326/1002330.html",
+      "quote": "1次受付分：令和9年2月上旬"
+    },
+    "secondApply": {
+      "url": "https://www.city.kasugai.lg.jp/kosodate/hoikuen/hoikuen/1002326/1002330.html",
+      "quote": "2次受付　令和9年2月上旬締め切り"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.kasugai.lg.jp/kosodate/hoikuen/hoikuen/1002326/1002330.html",
+      "quote": "3次受付　令和9年3月3日(水曜日)締め切り"
+    },
+    "secondResult": {
+      "url": "https://www.city.kasugai.lg.jp/kosodate/hoikuen/hoikuen/1002326/1002330.html",
+      "quote": "2次受付分：令和9年2月下旬"
+    },
+    "secondResult#2": {
+      "url": "https://www.city.kasugai.lg.jp/kosodate/hoikuen/hoikuen/1002326/1002330.html",
+      "quote": "3次受付分：令和9年3月中旬"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.kasugai.lg.jp/kosodate/hoikuen/hoikuen/1002326/1002328.html",
+      "quote": "入園希望前月の10日(10日が土曜・日曜日、祝休日の場合はその前日)までに、保育課まで持参または郵送で提出してください。"
+    },
+    "documents.0": {
+      "url": "https://www.city.kasugai.lg.jp/kosodate/hoikuen/hoikuen/1002326/1022097.html",
+      "quote": "就労証明書は、必ず証明者(雇用主)が記入してください。"
+    },
+    "documents.1": {
+      "url": "https://www.city.kasugai.lg.jp/kosodate/hoikuen/hoikuen/1002326/1022097.html",
+      "quote": "自営業・農業の方については、就労証明書に加え、直近の所得税確定申告書の写しを提出してください(開業初年度の場合は開業届の写し)。"
+    },
+    "documents.2": {
+      "url": "https://www.city.kasugai.lg.jp/kosodate/hoikuen/hoikuen/1002326/1022097.html",
+      "quote": "認可保育施設・認可外保育施設に在園しており、新規に申し込みをする場合は、在園証明書を提出してください。"
+    },
+    "interview": {
+      "url": "https://www.city.kasugai.lg.jp/kosodate/hoikuen/hoikuen/1002326/1002330.html",
+      "quote": "園が指定する日時に第一希望の認定こども園で受付・面接を行います。"
+    },
+    "notes.0": {
+      "url": "https://www.city.kasugai.lg.jp/kosodate/hoikuen/hoikuen/1002326/1002330.html",
+      "quote": "特に1次受付の締め切り直前は、窓口が混雑しますので、早めの提出をおすすめします。"
+    },
+    "notes.1": {
+      "url": "https://www.city.kasugai.lg.jp/kosodate/hoikuen/hoikuen/1002326/1002330.html",
+      "quote": "申込書を郵送する場合は、簡易書留・レターパック等、配達状況を確認できる方法での提出をご検討ください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.kasugai.lg.jp/kosodate/hoikuen/hoikuen/1002326/1002330.html",
+      "quote": "※令和9年4月入園の申込書類は、10月1日から依頼ができます。"
+    },
+    "notes.2#2": {
+      "url": "https://www.city.kasugai.lg.jp/kosodate/hoikuen/hoikuen/1002326/1002330.html",
+      "quote": "※認定こども園が第一希望の場合は、希望の園へ直接お問い合わせください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.kasugai.lg.jp/kosodate/hoikuen/hoikuen/1002326/1022097.html",
+      "quote": "訂正する場合は、修正液等を使用せず、訂正箇所を二重線で消し、空いているスペースに正しいものを記載してください。"
+    },
+    "notes.3#2": {
+      "url": "https://www.city.kasugai.lg.jp/kosodate/hoikuen/hoikuen/1002326/1022097.html",
+      "quote": "全ての様式で押印を廃止しました。"
+    }
+  },
+  "sources": [
+    {
+      "label": "春日井市「令和9年4月入園を希望する場合」",
+      "url": "https://www.city.kasugai.lg.jp/kosodate/hoikuen/hoikuen/1002326/1002330.html"
+    },
+    {
+      "label": "春日井市「保育園入園申込みのための必要書類(令和9年4月から令和10年3月入園用)」",
+      "url": "https://www.city.kasugai.lg.jp/kosodate/hoikuen/hoikuen/1002326/1022097.html"
+    },
+    {
+      "label": "春日井市「令和8年5月～令和9年3月入園(途中入園)を希望する場合」",
+      "url": "https://www.city.kasugai.lg.jp/kosodate/hoikuen/hoikuen/1002326/1002328.html"
+    }
+  ]
+}

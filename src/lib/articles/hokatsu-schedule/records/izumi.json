@@ -1,0 +1,158 @@
+{
+  "citySlug": "izumi",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "和泉市「令和9年度保育園・認定こども園等（2号・3号認定）の入園受付」",
+    "url": "https://www.city.osaka-izumi.lg.jp/kakukano/kosodatekenkobu/kodomomirai/gyoumu/hoikuyou/nyuuennkankei/5424.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "1次選考の締切は、窓口が令和8年10月30日（金曜日）、郵送（必着）と電子申請が令和8年10月16日（金曜日）。受付開始はいずれも令和8年10月1日（木曜日）。窓口は市役所本庁こども未来室（平日9時〜17時15分、10月25日（日曜日）も受付）のほか、和泉シティプラザでも令和8年10月4日（日曜日）と10月23日（金曜日）に受け付ける",
+  "applyMethods": "窓口申請・郵送申請・電子申請のいずれかで申し込む。郵送は簡易書留や特定記録郵便など記録に残る方法で送る。申込児童が未出生、代表保護者が父母以外、転園希望、特別支援児保育を希望する場合などは必ず窓口で申請する",
+  "secondApply": "2次選考の締切は、電子申請が令和9年2月5日（金曜日）、窓口が令和9年2月10日（水曜日）。3次選考の締切は電子申請が令和9年3月4日（木曜日）、窓口が令和9年3月5日（金曜日）",
+  "midYearDeadline": "利用を希望する月の前月10日までに窓口へ提出（土日祝日なら前開庁日）。電子申請と郵送（必着）は前月5日まで（土日祝日なら前開庁日）",
+  "documents": [
+    "教育・保育支給認定申請書兼保育施設等利用（調整）申込書（利用希望年度の用紙を使う）",
+    "児童を保育できないことを証明する書類（就労の場合は就労証明書。妊娠・出産は申立書と母子健康手帳の写しなど、事由により異なる）",
+    "入園前確認票（子どもの健康状態を記入）",
+    "マイナンバーの番号確認と申請に来る人の本人確認ができる書類",
+    "提出書類確認票（チェック項目に必ずチェックする。チェックが無いと不備となり選考できない場合がある）",
+    "令和8年1月2日以降に和泉市へ転入した人は、父母などの令和8年度課税証明書"
+  ],
+  "interview": "特別支援児保育を希望する場合は別途面談が必要なので、窓口で予約する",
+  "notes": [
+    "利用案内はこども未来室・保健福祉センターと市内各保育施設で配布している",
+    "他市町村の園を希望する場合は、希望先の市町村の締切を確認し、その締切の1週間前には和泉市こども未来室の窓口で申し込む",
+    "オンライン申請は令和8年10月1日から受け付け、令和8年9月末までの申請は無効",
+    "入園前確認票の内容について問い合わせることがあるので、申込書には日中でもつながる電話番号を書く",
+    "生後9週目からの保育は、原則として産休・育休明けに職場へ復帰する人が対象",
+    "申込締切日までに課税証明書の提出がない場合、利用調整で優先順位が下がることがある"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.osaka-izumi.lg.jp/kakukano/kosodatekenkobu/kodomomirai/gyoumu/hoikuyou/nyuuennkankei/5424.html",
+      "quote": "令和9年4月～令和10年3月までの入園受付のご案内となります。"
+    },
+    "firstApply": {
+      "url": "https://www.city.osaka-izumi.lg.jp/kakukano/kosodatekenkobu/kodomomirai/gyoumu/hoikuyou/nyuuennkankei/17529.html",
+      "quote": "（1次選考締切） 電子申請・・・令和8年10月16日（金曜日） 窓口受付・・・令和8年10月30日（金曜日）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.osaka-izumi.lg.jp/kakukano/kosodatekenkobu/kodomomirai/gyoumu/hoikuyou/nyuuennkankei/5424.html",
+      "quote": "令和8年10月1日（木曜日）から10月30日（金曜日） 9時から17時15分 令和8年10月25日（日曜日）"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.osaka-izumi.lg.jp/kakukano/kosodatekenkobu/kodomomirai/gyoumu/hoikuyou/nyuuennkankei/5424.html",
+      "quote": "令和8年10月1日（木曜日）から10月16日（金曜日） 【必着】"
+    },
+    "firstApply#4": {
+      "url": "https://www.city.osaka-izumi.lg.jp/kakukano/kosodatekenkobu/kodomomirai/gyoumu/hoikuyou/nyuuennkankei/5424.html",
+      "quote": "令和8年10月1日（木曜日）から10月16日（金曜日） 【期日内申込完了が必要】"
+    },
+    "firstApply#5": {
+      "url": "https://www.city.osaka-izumi.lg.jp/kakukano/kosodatekenkobu/kodomomirai/gyoumu/hoikuyou/nyuuennkankei/5424.html",
+      "quote": "令和8年10月4日（日曜日） 午前の部（10時から12時） 午後の部（13時から16時） 和泉シティプラザ2階研修室1A、1B 令和8年10月23日（金曜日）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.osaka-izumi.lg.jp/kakukano/kosodatekenkobu/kodomomirai/gyoumu/hoikuyou/nyuuennkankei/5424.html",
+      "quote": "下記1～3いずれかの方法でお申し込みできます。郵送申請、電子申請については、下記の注意事項をご確認ください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.osaka-izumi.lg.jp/kakukano/kosodatekenkobu/kodomomirai/gyoumu/hoikuyou/nyuuennkankei/5424.html",
+      "quote": "簡易書留や特定記録郵便など記録に残る方法で郵送をお願いします。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.osaka-izumi.lg.jp/kakukano/kosodatekenkobu/kodomomirai/gyoumu/hoikuyou/nyuuennkankei/5424.html",
+      "quote": "【注意】次に当てはまる場合は、必ず窓口で申請してください。 ・申請時点で申込児童が未出生の方"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.osaka-izumi.lg.jp/kakukano/kosodatekenkobu/kodomomirai/gyoumu/hoikuyou/nyuuennkankei/5424.html",
+      "quote": "・申込書の代表保護者が父母以外の方 ・転園を希望される方 ・特別支援児保育を希望される方"
+    },
+    "secondApply": {
+      "url": "https://www.city.osaka-izumi.lg.jp/kakukano/kosodatekenkobu/kodomomirai/gyoumu/hoikuyou/nyuuennkankei/17529.html",
+      "quote": "（2次選考締切） 電子申請・・・令和9年2月5日（金曜日） 窓口受付・・・令和9年2月10日（水曜日）"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.osaka-izumi.lg.jp/kakukano/kosodatekenkobu/kodomomirai/gyoumu/hoikuyou/nyuuennkankei/17529.html",
+      "quote": "（3次選考締切） 電子申請・・・令和9年3月4日（木曜日） 窓口受付・・・令和9年3月5日（金曜日）"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.osaka-izumi.lg.jp/kakukano/kosodatekenkobu/kodomomirai/gyoumu/hoikuyou/nyuuennkankei/5424.html",
+      "quote": "利用を希望する月の前月の10日までにこども未来室窓口へ必要書類を提出してください。（10日が土曜日・日曜日・祝日の場合は10日の前開庁日まで）"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.osaka-izumi.lg.jp/kakukano/kosodatekenkobu/kodomomirai/gyoumu/hoikuyou/nyuuennkankei/5424.html",
+      "quote": "郵送申請の場合は、利用を希望する月の前月の5日（土曜日・日曜日・祝日の場合は5日の前開庁日）までに、必着で市役所本庁こども未来室まで送付してください。"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.osaka-izumi.lg.jp/kakukano/kosodatekenkobu/kodomomirai/gyoumu/hoikuyou/nyuuennkankei/5424.html",
+      "quote": "電子申請の場合は、利用を希望する月の前月の5日（土曜日・日曜日・祝日の場合は5日の前開庁日）までに、申込を完了してください。"
+    },
+    "documents.0": {
+      "url": "https://www.city.osaka-izumi.lg.jp/kakukano/kosodatekenkobu/kodomomirai/gyoumu/hoikuyou/1322095540173.html",
+      "quote": "保育園・認定こども園（2号・3号認定）・小規模保育園の申込用紙です。利用希望年度の申込み用紙をご利用ください。"
+    },
+    "documents.1": {
+      "url": "https://www.city.osaka-izumi.lg.jp/kakukano/kosodatekenkobu/kodomomirai/gyoumu/hoikuyou/1322095540173.html",
+      "quote": "就労 就労証明書 妊娠・出産 申立書と母子健康手帳の写し（母の氏名を記載したページと分娩予定日を記載したページ）"
+    },
+    "documents.2": {
+      "url": "https://www.city.osaka-izumi.lg.jp/kakukano/kosodatekenkobu/kodomomirai/gyoumu/hoikuyou/1322095540173.html",
+      "quote": "3.入園前確認票 お子様の健康状態をご記入ください。"
+    },
+    "documents.3": {
+      "url": "https://www.city.osaka-izumi.lg.jp/kakukano/kosodatekenkobu/kodomomirai/gyoumu/hoikuyou/1322095540173.html",
+      "quote": "申請書に記載している世帯員全員のマイナンバーの「番号確認」と申請に来る方の「本人確認」が必要です。"
+    },
+    "documents.4": {
+      "url": "https://www.city.osaka-izumi.lg.jp/kakukano/kosodatekenkobu/kodomomirai/gyoumu/hoikuyou/1322095540173.html",
+      "quote": "チェック項目については、必ず確認していただきチェックをお願いします。チェックがない場合、不備となり選考できない場合があります。"
+    },
+    "documents.5": {
+      "url": "https://www.city.osaka-izumi.lg.jp/kakukano/kosodatekenkobu/kodomomirai/gyoumu/hoikuyou/1322095540173.html",
+      "quote": "令和8年1月2日以降に和泉市へ転入 令和8年度課税証明書 課税証明書については、父母及びそれ以外の扶養義務者の方のものを提出してください。"
+    },
+    "interview": {
+      "url": "https://www.city.osaka-izumi.lg.jp/kakukano/kosodatekenkobu/kodomomirai/gyoumu/hoikuyou/nyuuennkankei/5424.html",
+      "quote": "・特別支援児保育を希望される方 （別途面談が必要になりますので窓口にてご予約ください。）"
+    },
+    "notes.0": {
+      "url": "https://www.city.osaka-izumi.lg.jp/kakukano/kosodatekenkobu/kodomomirai/gyoumu/hoikuyou/nyuuennkankei/5424.html",
+      "quote": "（利用案内はこども未来室・保健福祉センター及び市内各保育施設で配布しております。）"
+    },
+    "notes.1": {
+      "url": "https://www.city.osaka-izumi.lg.jp/kakukano/kosodatekenkobu/kodomomirai/gyoumu/hoikuyou/nyuuennkankei/5424.html",
+      "quote": "他市町村の園を希望される方は、和泉市とは異なる申込締切日を設けている場合がありますので、希望される市町村に確認のうえ、締切の1週間前には和泉市こども未来室窓口にお申し込みください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.osaka-izumi.lg.jp/kakukano/kosodatekenkobu/kodomomirai/gyoumu/hoikuyou/nyuuennkankei/17529.html",
+      "quote": "・令和9年度 オンライン申請は、令和8年10月1日から受け付けています。令和8年9月末までの申請は無効となるのでご注意ください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.osaka-izumi.lg.jp/kakukano/kosodatekenkobu/kodomomirai/gyoumu/hoikuyou/nyuuennkankei/5424.html",
+      "quote": "入園前確認票の記載内容についてお伺いする場合があります。申込書には日中でもつながる電話番号の記入をお願いします"
+    },
+    "notes.4": {
+      "url": "https://www.city.osaka-izumi.lg.jp/kakukano/kosodatekenkobu/kodomomirai/gyoumu/hoikuyou/nyuuennkankei/5424.html",
+      "quote": "9週目からの保育は、原則、産休・育休明けに職場へ復帰される方のみ対象ですが、事情によっては入園の対象となる場合がありますので、お問い合わせください。"
+    },
+    "notes.5": {
+      "url": "https://www.city.osaka-izumi.lg.jp/kakukano/kosodatekenkobu/kodomomirai/gyoumu/hoikuyou/1322095540173.html",
+      "quote": "申込締切日までに課税証明書の提出がない方は、利用調整で優先順位が下がる場合があります。"
+    }
+  },
+  "sources": [
+    {
+      "label": "和泉市「令和9年度保育園・認定こども園等（2号・3号認定）の入園受付」",
+      "url": "https://www.city.osaka-izumi.lg.jp/kakukano/kosodatekenkobu/kodomomirai/gyoumu/hoikuyou/nyuuennkankei/5424.html"
+    },
+    {
+      "label": "和泉市「保育所等へのオンライン申請用ページ」",
+      "url": "https://www.city.osaka-izumi.lg.jp/kakukano/kosodatekenkobu/kodomomirai/gyoumu/hoikuyou/nyuuennkankei/17529.html"
+    },
+    {
+      "label": "和泉市「保育施設提出書類等一覧」",
+      "url": "https://www.city.osaka-izumi.lg.jp/kakukano/kosodatekenkobu/kodomomirai/gyoumu/hoikuyou/1322095540173.html"
+    }
+  ]
+}

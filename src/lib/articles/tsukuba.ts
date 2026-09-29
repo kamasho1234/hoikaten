@@ -3,65 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "tsukuba",
-    title: "つくば市の保活スケジュール　令和8年度4月入所の流れ",
-    description:
-      "つくば市の認可保育所の申込時期・選考の流れ・結果通知の時期をわかりやすく解説。令和8年度4月入所のスケジュールを中心にまとめました。",
-    image:
-      "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>令和8年度（2026年度）4月入所のスケジュール</h2>
-<p>つくば市の4月入所は一次と二次に分かれています。</p>
-
-<table>
-<tr><th>項目</th><th>日程</th></tr>
-<tr><td>一次申込受付期間</td><td>令和7年10月〜11月上旬</td></tr>
-<tr><td>一次結果通知</td><td>令和7年12月〜令和8年1月</td></tr>
-<tr><td>二次申込受付期間</td><td>令和8年1月〜2月上旬</td></tr>
-<tr><td>二次結果通知</td><td>令和8年2月下旬〜3月</td></tr>
-</table>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>つくば市は研究学園都市で、共働きの研究者・技術者世帯が多い地域です。人口増加が続いており、保育需要が高い市の一つです。</p>
-</div>
-
-<h2>いつから動き始めるべき？</h2>
-
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content">
-<strong>4月〜6月：情報収集スタート</strong>
-<p>つくば市の保育施設の種類・エリアを調べましょう。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content">
-<strong>7月〜9月：保育園見学</strong>
-<p>気になる園に電話して見学予約。夏〜秋が見学のベストシーズンです。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content">
-<strong>9月〜10月：申込案内の入手</strong>
-<p>つくば市幼児保育課の申込案内を入手しましょう。電子申請も対応しています。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content">
-<strong>10月〜11月：申込書類の準備・提出</strong>
-<p>就労証明書などの書類を揃えて提出します。</p>
-</div>
-</div>`,
-    publishedAt: "2026-04-18",
-    popularity: 60,
-  },
-  {
     slug: "hokatsu-mistakes",
     citySlug: "tsukuba",
     title: "つくば市の保活でよくある失敗と対策5選",

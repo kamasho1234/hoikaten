@@ -3,57 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "tottori",
-    title: "鳥取市の保活スケジュール　令和8年度4月入園の流れ",
-    description:
-      "鳥取市の令和8年度（2026年度）4月入園の申込時期・必要書類・結果通知の時期をまとめました。",
-    image:
-      "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>令和8年度（2026年度）4月入園のスケジュール</h2>
-<p>鳥取市の4月入園は2回の選考で実施されます。電子申請での申込みが基本です。</p>
-
-<h3>申込から入所までの流れ</h3>
-<table>
-<tr><th>選考回</th><th>受付期間</th><th>結果通知</th></tr>
-<tr><td>第1回</td><td>10月14日〜11月5日</td><td>12月下旬</td></tr>
-<tr><td>第2回</td><td>12月1日〜1月7日</td><td>2月中旬</td></tr>
-<tr><td>途中入所</td><td>希望月の30〜40日前まで</td><td>審査後随時</td></tr>
-</table>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>鳥取市は令和8年度から電子申請が基本になりました。第1回に申し込むのがもっとも枠が多く有利です。途中入所は毎月の受付で空き状況に応じて審査が行われます。</p>
-</div>
-
-<h2>いつから動き始めるべき？</h2>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content"><strong>4月〜6月：情報収集</strong><p>鳥取市の子育てポータルサイトで前年度の入所案内を参考に準備を始めます。</p></div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content"><strong>6月〜9月：保育園見学</strong><p>気になる園に電話して見学予約を入れましょう。</p></div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content"><strong>9月〜10月：書類準備</strong><p>就労証明書を勤務先に依頼します。教育・保育給付認定申請書（兼入所申込書）が必要です。</p></div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content"><strong>10月：第1回申込（電子申請）</strong><p>鳥取市の電子申請システムからオンラインで書類を提出します。窓口での相談も予約制で利用可能です。</p></div>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>最新情報は<a href="https://www.city.tottori.lg.jp/site/kosodate/20071.html" target="_blank" rel="noopener">鳥取市公式サイト「令和8年度 保育所等入所申込みのご案内」</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-04-05",
-    popularity: 55,
-  },
-  {
     slug: "katen-no-kotsu",
     citySlug: "tottori",
     title: "鳥取市で加点を最大化するコツ　調整指数を積み上げる方法",

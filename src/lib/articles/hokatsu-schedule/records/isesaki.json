@@ -1,0 +1,150 @@
+{
+  "citySlug": "isesaki",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "伊勢崎市「令和9年度保育施設への入所(一斉入所)」",
+    "url": "https://www.city.isesaki.lg.jp/soshiki/hukusiko/kodomo/ninteikyuhu/hoikusho/12128.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "申込みに必要な書類は第1希望の保育施設で受け取る。書類受取・提出期間は令和8年9月7日（月）から9月30日（水）",
+  "firstApply": "令和8年9月7日（月曜日）〜9月30日（水曜日）の午前8時30分〜午後5時（土曜日は午前中のみ、日曜日・祝日は除く）。保育を必要とすることを証明する書類と追加書類は、間に合わなければ11月6日（金曜日）まで受け付ける",
+  "applyMethods": "第1希望の施設から申込みに必要な書類を受け取り、必要書類を揃えて申込期間内に第1希望の施設に提出する",
+  "firstResult": "令和9年1月15日（金曜日）ころに利用調整の結果を郵送で通知（郵便局への持込み日のため、届くまで数日かかる場合がある）",
+  "secondApply": "令和9年1月15日（金曜日）〜2月5日（金曜日）の午前8時30分〜午後5時15分（土曜日・日曜日は除く）。空きのある施設のみが対象で、市こども保育課または各支所市民サービス課に提出する",
+  "secondResult": "令和9年2月26日（金曜日）ころに利用調整の結果を郵送で通知",
+  "documents": [
+    "施設型給付費・地域型保育給付費等認定申請書 兼 保育施設入所申込書",
+    "保育を必要とすることを証明する書類（保護者全員分。就労の場合は就労証明書）",
+    "問診票/同意書",
+    "その他追加で提出が必要な書類（仮承諾を希望する場合の社会保険加入がわかる書類のコピー、アレルギー検査票のコピーなど）"
+  ],
+  "interview": "申込書類の提出時に第1希望の施設から面接日時を指定される（10月初旬〜11月初旬ころ）。必ず子どもを連れて第1希望の施設で面接を受ける",
+  "ikukyu": "育児休業取得者（出産予定含む）は、令和9年4月1日時点で市内に住所があり、本人名義で社会保険に加入し、令和10年1月14日までに復職する場合、一斉入所で復職日に応じた令和9年5月〜12月入所の仮承諾（内定）を受けられる。仮承諾は本決定ではなく、復職日が延期になると取り消しになる",
+  "notes": [
+    "認定こども園と一部の保育園は見学が申込みの必須条件",
+    "施設見学会は令和8年9月2日（水曜日）〜9月4日（金曜日）の午前9時30分〜正午",
+    "都合で面接に来られない場合は、市こども保育課または各支所市民サービス課と希望施設に連絡し、11月6日（金曜日）までに面接を受ける",
+    "就労証明書と病状内容証明書は伊勢崎市指定の様式がある",
+    "1次選考で入所不可となり引き続き入所を希望する場合、2次選考か随時入所に申し込まないと利用調整は行われない"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.isesaki.lg.jp/soshiki/hukusiko/kodomo/ninteikyuhu/hoikusho/12128.html",
+      "quote": "令和9年度の保育施設入所(一斉入所)について、申込みを受け付けます。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.isesaki.lg.jp/soshiki/hukusiko/kodomo/ninteikyuhu/hoikusho/12128.html",
+      "quote": "第1希望の施設から、申込みに必要な書類を受け取ってください。"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.isesaki.lg.jp/soshiki/hukusiko/kodomo/ninteikyuhu/hoikusho/12128.html",
+      "quote": "令和8年9月7日(月曜日)から9月30日(水曜日) 午前8時30分から午後5時"
+    },
+    "firstApply": {
+      "url": "https://www.city.isesaki.lg.jp/soshiki/hukusiko/kodomo/ninteikyuhu/hoikusho/12128.html",
+      "quote": "令和8年9月7日(月曜日)から9月30日(水曜日) 午前8時30分から午後5時"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.isesaki.lg.jp/soshiki/hukusiko/kodomo/ninteikyuhu/hoikusho/12128.html",
+      "quote": "については、提出が間に合わない場合は、11月6日(金曜日)まで受け付けますので、書類提出の際に、第1希望の保育施設にその旨を伝えてください。"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.isesaki.lg.jp/soshiki/hukusiko/kodomo/ninteikyuhu/hoikusho/12128.html",
+      "quote": "(注意)土曜日は午前中のみとなります(土曜日閉所施設は除きます)"
+    },
+    "applyMethods": {
+      "url": "https://www.city.isesaki.lg.jp/soshiki/hukusiko/kodomo/ninteikyuhu/hoikusho/12128.html",
+      "quote": "必要書類を揃えたら、申込期間内に第1希望の施設に提出してください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.isesaki.lg.jp/soshiki/hukusiko/kodomo/ninteikyuhu/hoikusho/12128.html",
+      "quote": "令和9年1月15日(金曜日)ころに利用調整の結果を郵送にて通知します。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.isesaki.lg.jp/soshiki/hukusiko/kodomo/ninteikyuhu/hoikusho/12128.html",
+      "quote": "(注意)上記は郵便局への持込み日のため、各家庭に届くまでに数日かかる場合があります。"
+    },
+    "secondApply": {
+      "url": "https://www.city.isesaki.lg.jp/soshiki/hukusiko/kodomo/ninteikyuhu/hoikusho/12128.html",
+      "quote": "令和9年1月15日(金曜日)から2月5日(金曜日) 午前8時30分から午後5時15分"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.isesaki.lg.jp/soshiki/hukusiko/kodomo/ninteikyuhu/hoikusho/12128.html",
+      "quote": "市こども保育課、各支所市民サービス課で申込みに必要な書類を受け取り、必要書類を揃えて、申込期間内に市こども保育課または各支所市民サービス課に提出してください。"
+    },
+    "secondApply#3": {
+      "url": "https://www.city.isesaki.lg.jp/soshiki/hukusiko/kodomo/ninteikyuhu/hoikusho/12128.html",
+      "quote": "1次選考終了後に、入所可能数に余裕のある施設のみ2次選考を行います。"
+    },
+    "secondResult": {
+      "url": "https://www.city.isesaki.lg.jp/soshiki/hukusiko/kodomo/ninteikyuhu/hoikusho/12128.html",
+      "quote": "令和9年2月26日(金曜日)ころに利用調整の結果を郵送にて通知します。"
+    },
+    "documents.0": {
+      "url": "https://www.city.isesaki.lg.jp/soshiki/hukusiko/kodomo/ninteikyuhu/hoikusho/12128.html",
+      "quote": "施設型給付費・地域型保育給付費等認定申請書 兼 保育施設入所申込書"
+    },
+    "documents.1": {
+      "url": "https://www.city.isesaki.lg.jp/soshiki/hukusiko/kodomo/ninteikyuhu/hoikusho/12128.html",
+      "quote": "保育を必要とすることを証明する書類(保護者全員分)"
+    },
+    "documents.2": {
+      "url": "https://www.city.isesaki.lg.jp/soshiki/hukusiko/kodomo/ninteikyuhu/hoikusho/12128.html",
+      "quote": "保育を必要とすることを証明する書類(保護者全員分) 問診票/同意書"
+    },
+    "documents.3": {
+      "url": "https://www.city.isesaki.lg.jp/material/files/group/37/2026_hoikusyosiori_sakurasyuusei.pdf",
+      "quote": "④その他、追加で必要となる書類（アレルギー検査表、社会保険加入状況のわかる書類など）"
+    },
+    "interview": {
+      "url": "https://www.city.isesaki.lg.jp/soshiki/hukusiko/kodomo/ninteikyuhu/hoikusho/12128.html",
+      "quote": "申込書類の提出時に、第1希望の施設から面接日時を指定されます。(10月初旬～11月初旬ころ)"
+    },
+    "interview#2": {
+      "url": "https://www.city.isesaki.lg.jp/soshiki/hukusiko/kodomo/ninteikyuhu/hoikusho/12128.html",
+      "quote": "必ずお子さんを連れて 、第1希望の施設で面接を受けてください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.isesaki.lg.jp/soshiki/hukusiko/kodomo/ninteikyuhu/hoikusho/12128.html",
+      "quote": "この申込みでは、復職日に応じた利用開始月入所の仮承諾(内定)を受けることができます。ただし、仮承諾は令和9年5月入所から12月入所(令和10年1月14日までに復職する人)までの間に限ります。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.isesaki.lg.jp/soshiki/hukusiko/kodomo/ninteikyuhu/hoikusho/12128.html",
+      "quote": "令和9年4月1日時点で伊勢崎市に保護者及び児童の住所があること 社会保険またはそれに類する保険に本人名義で加入していること"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.isesaki.lg.jp/soshiki/hukusiko/kodomo/ninteikyuhu/hoikusho/12128.html",
+      "quote": "(注意)仮承諾は入所についての本決定ではありません。会社または自己都合で復職日が延期となった場合などは、仮承諾による内定が取り消しとなります。"
+    },
+    "notes.0": {
+      "url": "https://www.city.isesaki.lg.jp/soshiki/hukusiko/kodomo/ninteikyuhu/hoikusho/12128.html",
+      "quote": "認定こども園および一部の保育園は見学が申込みの必須条件となっていますので、施設見学会等での見学が済んでない場合には、お子さんを連れての施設見学をお願いします。"
+    },
+    "notes.1": {
+      "url": "https://www.city.isesaki.lg.jp/soshiki/hukusiko/kodomo/ninteikyuhu/hoikusho/12128.html",
+      "quote": "令和8年9月2日(水曜日)から9月4日(金曜日)の午前9時30分から正午まで"
+    },
+    "notes.2": {
+      "url": "https://www.city.isesaki.lg.jp/soshiki/hukusiko/kodomo/ninteikyuhu/hoikusho/12128.html",
+      "quote": "都合により面接に来られない場合は、希望する保育施設を担当する市こども保育課または各支所市民サービス課及び希望する保育施設に必ず連絡し、日程調整のうえ11月6日(金曜日)までに面接を受けてください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.isesaki.lg.jp/soshiki/hukusiko/kodomo/ninteikyuhu/hoikusho/12128.html",
+      "quote": "就労証明書と病状内容証明書は、伊勢崎市指定の様式があります。"
+    },
+    "notes.4": {
+      "url": "https://www.city.isesaki.lg.jp/material/files/group/37/2026_hoikusyosiori_sakurasyuusei.pdf",
+      "quote": "申し込みを行わなかった場合は、２次選考や随時入所での利用調整は行われません。"
+    }
+  },
+  "sources": [
+    {
+      "label": "伊勢崎市「令和9年度保育施設への入所(一斉入所)」",
+      "url": "https://www.city.isesaki.lg.jp/soshiki/hukusiko/kodomo/ninteikyuhu/hoikusho/12128.html"
+    },
+    {
+      "label": "伊勢崎市「令和9年度 教育・保育施設利用のしおり」",
+      "url": "https://www.city.isesaki.lg.jp/material/files/group/37/2026_hoikusyosiori_sakurasyuusei.pdf"
+    }
+  ]
+}

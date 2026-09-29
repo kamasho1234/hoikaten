@@ -59,45 +59,6 @@ const articles: Article[] = [
   // 2. 入園点数のしくみ
 
   // 3. 保活スケジュール
-  {
-    slug: "hokatsu-schedule",
-    citySlug: "hakodate",
-    title: "函館市の保活スケジュール　申込みから入園までの流れ",
-    description:
-      "函館市で保育園に入園するための保活スケジュールを時系列でまとめました。いつまでに何をすべきか確認できます。",
-    image:
-      "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=800&h=400&fit=crop",
-    category: "スケジュール",
-    categoryColor: "green",
-    content: `<h2>函館市の4月入園スケジュール</h2>
-<p>函館市の4月一斉入所に向けた一般的なスケジュールです。年度によって日程が変わる場合があるため、必ず公式情報で確認しましょう。</p>
-
-<table>
-<tr><th>時期</th><th>やること</th></tr>
-<tr><td>4月〜8月</td><td>保育園の情報収集・見学</td></tr>
-<tr><td>9月〜10月</td><td>入所申込書の配布開始・申込準備</td></tr>
-<tr><td>10月〜11月</td><td>4月一斉入所の申込受付期間</td></tr>
-<tr><td>12月〜1月</td><td>利用調整（選考）</td></tr>
-<tr><td>2月</td><td>内定通知・面談</td></tr>
-<tr><td>3月</td><td>入園準備</td></tr>
-<tr><td>4月</td><td>入園</td></tr>
-</table>
-
-<h3>年度途中の入園</h3>
-<p>空きがあれば年度途中でも入園できます。希望月の前月10日頃までに申込みが必要です。</p>
-
-<div class="warn-box">
-<p><strong>注意</strong></p>
-<p>人気園は4月一斉入所でも定員を超えることがあります。第3希望まで記入できるので、通える範囲の園を複数検討しておきましょう。</p>
-</div>
-
-<div class="info-box">
-<p><strong>問い合わせ先</strong></p>
-<p>函館市 子ども未来部 子どもサービス課<br>電話: 0138-21-3270</p>
-</div>`,
-    publishedAt: "2026-04-05",
-    popularity: 50,
-  },
 
   // 4. 認可 vs 認可外
   {

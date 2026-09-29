@@ -1,0 +1,156 @@
+{
+  "citySlug": "nagano",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "長野市「令和9年度保育施設の利用申し込み」",
+    "url": "https://www.city.nagano.nagano.jp/n117000/kosodate/p006219.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "申し込みの手続きや必要書類を載せた「保育利用版利用のご案内」を令和8年10月1日（木曜日）以降に保育・幼稚園課（市役所第二庁舎2階）と各保育施設で配布予定",
+  "firstApply": "4月入所（1次）は令和8年10月20日（火曜日）〜令和8年11月10日（火曜日）",
+  "applyMethods": "利用を希望する第1希望の施設に申し込む。長野市外に住んでいて書類の郵送を希望する場合は保育・幼稚園課に電話する",
+  "firstResult": "4月入所（1次）の入所決定は令和9年2月上旬予定。利用調整結果の通知は自宅に郵送され、到着が入所決定予定日の2〜3日後になることがある",
+  "secondApply": "4月入所（2次）は令和9年2月25日（木曜日）〜令和9年3月5日（金曜日）",
+  "secondResult": "4月入所（2次）の入所決定は令和9年3月15日（月曜日）前後",
+  "midYearDeadline": "入所希望月ごとに申し込み期間が決まっている（例：5月入所は令和9年3月25日〜令和9年4月5日、入所決定は令和9年4月15日前後）",
+  "documents": [
+    "給付認定申請書兼利用申込書",
+    "マイナンバー記入用紙",
+    "父母それぞれの「保育を必要とする理由を証明する書類」（理由ごとに異なり、申し込み期間内に間に合わないと申し込みを受け付けない）",
+    "就労の場合は就労証明書（様式は令和8年10月1日公開予定）",
+    "妊娠・出産の場合は母子手帳の写し（表紙・出産予定日記載の箇所）"
+  ],
+  "interview": "施設見学を希望する場合は、事前に希望施設へ連絡し見学が可能か確認してから行く",
+  "ikukyu": "希望の施設に空きがなく育児休業を延長せざるを得ない場合は「保育施設の利用ができない旨の通知書」（不承諾通知書）を申し込める。子が1歳（再延長は1歳6か月）に達する日が属する月を入所希望月として、その月の申し込み期間中に保育・幼稚園課へ窓口か郵送で申請し、通知書は入所希望月の前月中旬ごろ自宅に郵送される",
+  "notes": [
+    "空きのある施設にしか申し込めず、4月入所でも受け入れ予定がない施設には申し込めない",
+    "申し込みが受入可能人数を上回ると利用調整基準に基づいて利用調整を行い、先着順ではない",
+    "申込書に書いた施設の中で内定しなかった場合、他に入所可能な施設があっても案内されず、利用調整で決まった施設は変更できない",
+    "入所が決まらなかった場合、取り下げない限り年度内の給付認定の有効期限中は以後の利用調整の対象になる（自動エントリー）",
+    "令和9年5月〜9月に育児休業が終わり復職予定の人は、一部の施設で入所予約ができる（申し込みは令和8年10月20日〜11月10日、内定日は令和8年12月11日）"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.nagano.nagano.jp/n117000/kosodate/p006219.html",
+      "quote": "令和9年度に保育所・認定こども園（保育利用）・地域型保育事業所への入所を希望される方は、こちらをご覧いただいた上で、手続きをしてください。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.nagano.nagano.jp/n117000/kosodate/p006219.html",
+      "quote": "「保育利用版」は、令和8年10月1日（木曜日）以降に保育・幼稚園課（市役所第二庁舎2階）及び各保育施設で配布予定です。"
+    },
+    "firstApply": {
+      "url": "https://www.city.nagano.nagano.jp/n117000/kosodate/p006219.html",
+      "quote": "4月入所 （1次） 令和8年10月20日（火曜日）～令和8年11月10日（火曜日）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.nagano.nagano.jp/n117000/kosodate/p006219.html",
+      "quote": "申し込み先 利用を希望する第1希望の施設"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.nagano.nagano.jp/n117000/kosodate/p006219.html",
+      "quote": "長野市外にお住まいの方で、書類の郵送を希望する場合は、保育・幼稚園課（026-224-8031）までお電話ください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.nagano.nagano.jp/n117000/kosodate/p006219.html",
+      "quote": "令和8年10月1日 （木曜日）公開予定 令和9年2月上旬 予定"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.nagano.nagano.jp/n117000/kosodate/p006219.html",
+      "quote": "利用調整結果の通知はご自宅に郵送します。郵便事情により、通知到着が入所決定予定日の2～3日後となることがありますが、ご了承ください。"
+    },
+    "secondApply": {
+      "url": "https://www.city.nagano.nagano.jp/n117000/kosodate/p006219.html",
+      "quote": "4月入所 （2次） 令和9年2月25日（木曜日） ～令和9年3月5日（金曜日）"
+    },
+    "secondResult": {
+      "url": "https://www.city.nagano.nagano.jp/n117000/kosodate/p006219.html",
+      "quote": "令和9年2月25日 （木曜日）公開予定 令和9年3月15日 （月曜日）前後"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.nagano.nagano.jp/n117000/kosodate/p006219.html",
+      "quote": "5月入所 令和9年3月25日（木曜日） ～令和9年4月5日（月曜日） 令和9年3月25日 （木曜日）公開予定 令和9年4月15日 （木曜日）前後"
+    },
+    "documents.0": {
+      "url": "https://www.city.nagano.nagano.jp/n117000/kosodate/p006219.html",
+      "quote": "提出書類 給付認定申請書兼利用申込書 マイナンバー記入用紙"
+    },
+    "documents.1": {
+      "url": "https://www.city.nagano.nagano.jp/n117000/kosodate/p006219.html",
+      "quote": "給付認定申請書兼利用申込書 マイナンバー記入用紙 父母それぞれの「保育を必要とする理由を証明する書類」"
+    },
+    "documents.2": {
+      "url": "https://www.city.nagano.nagano.jp/n117000/kosodate/p006219.html",
+      "quote": "次のように理由ごと提出書類が異なります。理由を証明する書類の提出が申し込み期間内に間に合わない場合は、保育の必要性が確認できないため、申し込みを受け付けることができません。"
+    },
+    "documents.3": {
+      "url": "https://www.city.nagano.nagano.jp/n117000/kosodate/p006219.html",
+      "quote": "1.就労 就労証明書（PDF） 就労証明書（電子入力用）（エクセル） 令和8年10月1日（木曜日）公開予定"
+    },
+    "documents.4": {
+      "url": "https://www.city.nagano.nagano.jp/n117000/kosodate/p006219.html",
+      "quote": "2.妊娠、出産 母子手帳の写し（表紙・出産予定日記載の箇所）"
+    },
+    "interview": {
+      "url": "https://www.city.nagano.nagano.jp/n117000/kosodate/p006219.html",
+      "quote": "見学を希望される場合は、事前に希望施設へ連絡をし、見学が可能かどうか確認してからお出かけください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.nagano.nagano.jp/n117000/kosodate/p001514.html",
+      "quote": "ご希望の保育施設に空きがなく、育児休業を延長せざるを得ない場合は「保育施設の利用ができない旨の通知書」（不承諾通知書）の交付（申し込み）が可能です。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.nagano.nagano.jp/n117000/kosodate/p001514.html",
+      "quote": "育児休業の対象となるお子さんが1歳（再延長の場合は1歳6か月）に達する日 注1 が属する月を入所希望月として、該当月の申し込み期間中に申請が必要です。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.nagano.nagano.jp/n117000/kosodate/p001514.html",
+      "quote": "入所希望月に利用希望施設の空きがない場合は、次のとおり窓口または郵送にて申請してください。"
+    },
+    "ikukyu#4": {
+      "url": "https://www.city.nagano.nagano.jp/n117000/kosodate/p001514.html",
+      "quote": "入所希望月の前月中旬ごろに、「保育施設の利用ができない旨の通知書」・「給付認定申請書兼利用申込書の写し」をご自宅へ郵送"
+    },
+    "ikukyu#5": {
+      "url": "https://www.city.nagano.nagano.jp/n117000/kosodate/p001514.html",
+      "quote": "申請場所 保育・幼稚園課（市役所第二庁舎2階）"
+    },
+    "notes.0": {
+      "url": "https://www.city.nagano.nagano.jp/n117000/kosodate/p006219.html",
+      "quote": "空きのある施設にのみ申し込みが可能 です。4月入所の場合も、受け入れ予定がない施設には申し込みをすることができませんのでご注意ください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.nagano.nagano.jp/n117000/kosodate/p006219.html",
+      "quote": "申し込み期間中に受入可能人数を上回る申し込みがあった場合は、「長野市保育施設等利用調整基準」（令和8年10月1日公開予定）に基づき長野市で利用調整を行います （先着順ではありません） 。"
+    },
+    "notes.2": {
+      "url": "https://www.city.nagano.nagano.jp/n117000/kosodate/p006219.html",
+      "quote": "記入いただいた施設の中で内定とならなかった場合、他に入所可能な施設があってもご案内はいたしません。"
+    },
+    "notes.2#2": {
+      "url": "https://www.city.nagano.nagano.jp/n117000/kosodate/p006219.html",
+      "quote": "記入いただいた施設は全て通所可能かつ利用意思があるものと判断し取り扱いますので、利用調整で決定した施設を変更することはできません。"
+    },
+    "notes.3": {
+      "url": "https://www.city.nagano.nagano.jp/n117000/kosodate/p006219.html",
+      "quote": "申し込みの取り下げをしない限り、年度内の給付認定の有効期限中は繰り返し以後の利用調整の対象となります。（自動エントリー）"
+    },
+    "notes.4": {
+      "url": "https://www.city.nagano.nagano.jp/n117000/kosodate/p006219.html",
+      "quote": "対象者 令和9年5月から令和9年9月までに育児休業が終了し、かつ復職予定の方 申し込み期間 令和8年10月20日（火曜日）～令和8年11月10日（火曜日） 内定日 令和8年12月11日（金曜日）"
+    },
+    "notes.4#2": {
+      "url": "https://www.city.nagano.nagano.jp/n117000/kosodate/p006219.html",
+      "quote": "育児休業明けで復職することを条件に、年度途中の入所予約が可能な施設があります。提出書類を揃えて、申し込み期間内に施設へお申し込みください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "長野市「令和9年度保育施設の利用申し込み」",
+      "url": "https://www.city.nagano.nagano.jp/n117000/kosodate/p006219.html"
+    },
+    {
+      "label": "長野市「ご希望の保育施設に空きがない場合の申し込み」",
+      "url": "https://www.city.nagano.nagano.jp/n117000/kosodate/p001514.html"
+    }
+  ]
+}

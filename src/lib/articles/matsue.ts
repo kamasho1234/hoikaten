@@ -3,60 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "matsue",
-    title: "松江市の保活スケジュール　申込から内定までの流れ",
-    description:
-      "松江市の認可保育園の申込時期・選考の流れをまとめました。令和8年度4月入園の動き方を解説します。",
-    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>松江市の4月入園スケジュール</h2>
-<p>松江市の認可保育園は毎年秋〜冬に翌年度4月入園の一斉申込を受付けます。電子申請（スマート申請）にも対応しています。</p>
-
-<h3>保活の全体スケジュール</h3>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content">
-<strong>4月〜6月：情報収集</strong>
-<p>市のホームページで「保育所等入所のてびき」や保育施設一覧を確認します。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content">
-<strong>6月〜9月：保育園見学</strong>
-<p>気になる園に連絡して見学を予約しましょう。松江市では保育園一斉開放も実施されます。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content">
-<strong>10月〜11月：書類準備</strong>
-<p>就労証明書などの必要書類を勤務先に依頼します。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content">
-<strong>12月：申込書類の提出</strong>
-<p>保育所幼稚園課窓口・各支所・電子申請で申込みます。</p>
-</div>
-</div>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>松江市は基本指数が父母各最大50点（合計100点満点）です。月の就労時間で判定される制度です。</p>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.matsue.lg.jp/soshikikarasagasu/kosodatebu_hoikushoyoutienka/2_1/3/hoikusyoannai/16643.html" target="_blank" rel="noopener">松江市公式サイト</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-04-05",
-    popularity: 55,
-  },
-  {
     slug: "score-up-tips",
     citySlug: "matsue",
     title: "松江市で入園点数を上げるコツ　加点チェックリスト",
