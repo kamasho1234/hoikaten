@@ -8,8 +8,8 @@
 - 画像にしか無い日程: 札幌（一次結果 令和9年1月下旬・二次締切 1月下旬・二次結果 3月上旬、R09-1senko_schedule.png）、練馬（R9 一次締切 令和8年11月6日、mousikomisimekiribi.jpg）。quote にできないので未掲載
 - 10月中旬の取り直し: 名古屋・練馬・江戸川・柏（R8）、松山（R9 詳細が10月中旬公表）、宇都宮
 - [ ] 残り約195自治体（targets2.tsv から done を引く）。Agent は model: "opus"
-- [ ] 受け取り: 報告を読まずに `verify-fact-records.py hokatsu <slug>` と `wc -c`、○は即 `git add`。全件「値 ← quote」で通読
-- [ ] 旧記事を外す（`remove-old-articles.py hokatsu-schedule ...`）→ tsc / articles:verify / build / ローカル200 → push → 本番200 → IndexNow
+- [x] 受け取り: 報告を読まずに `verify-fact-records.py hokatsu <slug>` と `wc -c`、○は即 `git add`。全件「値 ← quote」で通読
+- [x] 公開: commit f5d96fc5、本番200（24/24）、IndexNow 7,749。コミットメッセージの「R9 19件・R8 5件」は誤りで、正しくは R9 20件・R8 4件
 - [ ] 10月中旬: R8 の分を R9 に取り直す
 
 ## 2026-09-19 人気記事を重厚に（点数のしくみ 426自治体＋保活スケジュール 93自治体）
