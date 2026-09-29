@@ -1,0 +1,132 @@
+{
+  "citySlug": "sakai",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "堺市「令和9年度　保育施設などへの利用申込み【認定こども園（保育部分）・保育所・地域型保育事業を希望される方へ】」",
+    "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/moushikomi/r9/riyoumousikomi9.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年9月1日から利用のご案内（受付期間・申込方法を記載）を配布",
+  "firstApply": "令和8年10月1日（木曜）〜10月16日（金曜）23時59分受信分まで",
+  "applyMethods": "原則、堺市電子申請システムからオンラインで申し込む。申込み方法によって受付終了日が異なる",
+  "firstResult": "令和9年1月8日（金曜）に利用決定",
+  "secondApply": "令和8年10月17日（土曜）〜令和9年1月18日（月曜）23時59分受信分まで。窓口（各区役所子育て支援課）は令和8年10月19日（月曜）〜令和9年1月18日（月曜）",
+  "secondResult": "令和9年2月12日（金曜）に利用決定",
+  "midYearDeadline": "利用希望日の前々月6日〜前月5日に、オンライン申請または窓口（各区役所子育て支援課）で申し込む。利用決定は利用希望日の前月25日頃",
+  "documents": [
+    "就労証明書（令和9年4月入所の場合は令和8年8月以降に発行されたもの）",
+    "申請者の本人確認書類（申請方法により確認の方法が異なり、窓口では各区役所子育て支援課の職員へ提示）",
+    "教育・保育給付認定申請書兼利用（調整）申込書（オンライン申請の場合は提出不要、窓口申請の場合のみ）"
+  ],
+  "notes": [
+    "3次申込の受付は令和9年1月19日（火曜）〜3月1日（月曜）23時59分受信分まで、利用決定は令和9年3月12日（金曜）",
+    "1次で保留となった方は自動的に2次の利用調整の対象になる。希望施設の変更は令和9年1月22日（金曜）23時59分までにオンラインで申請",
+    "妊娠・出産が事由で4月からの利用を希望する場合、出産前でも申込みができるので10月の受付期間内に申し込む",
+    "令和9年4月の待機証明書は令和9年3月12日（金曜）12時45分以降に発行可能（オンラインで申請）",
+    "令和9年4月入所に限り、入所調整結果通知をスマートフォンでも受け取れる"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/moushikomi/r9/riyoumousikomi9.html",
+      "quote": "令和9年度からの認定こども園（保育部分）・保育所・地域型保育事業（以下「保育施設など」といいます。）への利用申込みに関するお知らせです。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/moushikomi/r9/riyoumousikomi9.html",
+      "quote": "令和8年9月1日より、令和9年度からの認定こども園・保育所・幼稚園などの利用のご案内を配布しています。このご案内には、申込みの受付期間や申込方法などの情報を記載しています。"
+    },
+    "firstApply": {
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/moushikomi/r9/riyoumousikomi9.html",
+      "quote": "受付期間：令和8年10月1日（木曜）～10月16日（金曜）≪23時59分受信分まで≫"
+    },
+    "applyMethods": {
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/moushikomi/r9/riyoumousikomi9.html",
+      "quote": "原則、堺市電子申請システムからオンラインで申し込みしてください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/moushikomi/r9/riyoumousikomi9.html",
+      "quote": "1次申込み 利用決定：令和9年1月8日（金曜）"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/moushikomi/r9/riyoumousikomi9.html",
+      "quote": "なお、申込み方法によって、受付終了日が異なりますので、下記を参照ください。"
+    },
+    "secondApply": {
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/moushikomi/r9/riyoumousikomi9.html",
+      "quote": "受付期間 ：令和8年10月17日（土曜）～令和9年1月18日（月曜）≪23時59分受信分まで≫"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/moushikomi/r9/riyoumousikomi9.html",
+      "quote": "※窓口（各区役所子育て支援課）の場合、令和8年10月19日（月曜）～令和9年1月18日（月曜）"
+    },
+    "secondResult": {
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/moushikomi/r9/riyoumousikomi9.html",
+      "quote": "2次申込み 利用決定：令和9年2月12日（金曜）"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/moushikomi/r9/riyoumousikomi9.html",
+      "quote": "前々月6日～前月5日（※）まで"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/moushikomi/r9/riyoumousikomi9.html",
+      "quote": "利用決定：利用希望日の前月25日頃"
+    },
+    "documents.0": {
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/moushikomi/r9/mousikomihituyounasyorui9.html",
+      "quote": "＊令和9年4月入所の場合は、令和8年8月以降に発行されているもの。"
+    },
+    "documents.1": {
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/moushikomi/r9/mousikomihituyounasyorui9.html",
+      "quote": "申請方法により確認の方法が異なります。"
+    },
+    "documents.2": {
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/moushikomi/r9/mousikomihituyounasyorui9.html",
+      "quote": "1．教育・保育給付認定申請書兼利用（調整）申込書"
+    },
+    "documents.2#2": {
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/moushikomi/r9/mousikomihituyounasyorui9.html",
+      "quote": "※オンライン申請の場合は提出不要。"
+    },
+    "notes.0": {
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/moushikomi/r9/riyoumousikomi9.html",
+      "quote": "受付期間 ：令和9年1月19日（火曜）～令和9年3月1日（月曜）≪23時59分受信分まで≫"
+    },
+    "notes.0#2": {
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/moushikomi/r9/riyoumousikomi9.html",
+      "quote": "3次申込み 利用決定：令和9年3月12日（金曜）"
+    },
+    "notes.1": {
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/moushikomi/r9/riyoumousikomi9.html",
+      "quote": "保留となった方は、自動的に利用調整（2次）の対象となります。利用希望の保育施設に変更がある場合は、令和9年1月22日（金曜）23時59分までにオンラインで変更の申請をしてください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/moushikomi/r9/riyoumousikomi9.html",
+      "quote": "4月からの利用を希望する場合は、出産前でも申込みが可能ですので、10月の受付期間内にお申し込みください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/moushikomi/r9/riyoumousikomi9.html",
+      "quote": "令和9年3月12日（金曜）12時45分以降発行可能です。"
+    },
+    "notes.4": {
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/moushikomi/r9/riyoumousikomi9.html",
+      "quote": "令和9年4月入所に限り、入所調整結果通知をスマートフォンでも受け取ることができます。"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/moushikomi/r9/mousikomihituyounasyorui9.html",
+      "quote": "B．窓口：窓口で各区役所子育て支援課職員へ提示"
+    }
+  },
+  "sources": [
+    {
+      "label": "堺市「令和9年度　保育施設などへの利用申込み【認定こども園（保育部分）・保育所・地域型保育事業を希望される方へ】」",
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/moushikomi/r9/riyoumousikomi9.html"
+    },
+    {
+      "label": "堺市「令和9年度　利用申込に必要な書類」",
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/moushikomi/r9/mousikomihituyounasyorui9.html"
+    },
+    {
+      "label": "堺市「令和9年度　利用申込」",
+      "url": "https://www.city.sakai.lg.jp/kosodate/hughug/hoiku/moushikomi/r9/index.html"
+    }
+  ]
+}

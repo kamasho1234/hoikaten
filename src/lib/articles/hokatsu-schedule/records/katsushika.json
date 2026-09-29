@@ -1,0 +1,103 @@
+{
+  "citySlug": "katsushika",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "葛飾区「令和9年度保育施設利用案内の配布日について」",
+    "url": "https://www.city.katsushika.lg.jp/kosodate/1000056/1002333/1039890.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "新年度の保育施設利用案内を令和8年10月22日（木曜日）から配布開始予定。配布場所は保育課（区役所4階401番）、区民事務所・区民サービスコーナー、公立・私立保育所、認定こども園、家庭的保育事業所、小規模保育事業所、児童館、子ども未来プラザ、子ども総合センター、金町子どもセンター",
+  "firstApply": "1次募集は令和8年11月18日（水曜日）〜12月10日（木曜日）予定。オンライン・郵送は11月18日〜12月3日（木曜日）、窓口申請は11月20日（金曜日）〜12月10日",
+  "applyMethods": "オンライン申請・郵送・窓口申請のいずれか。オンライン申請は申請締切日の17時までに区が受信した分までが選考対象で、締切後に受信したものは2次または3次の選考対象になる",
+  "secondApply": "2次募集は令和9年2月9日（火曜日）〜2月19日（金曜日）予定",
+  "documents": [
+    "教育・保育給付認定申請書兼保育園等入園申込書、児童の健康状況表、重要事項確認及び同意書（オンライン申請では内容を入力するので添付不要）",
+    "マイナンバー記入用紙と本人確認書類（オンライン申請の場合も郵送または窓口で別途提出）"
+  ],
+  "notes": [
+    "令和9年3月末日までに葛飾区に転入する予定がない人は1次選考に申し込めない",
+    "兄弟姉妹で同時に申請する場合は人数分の申請が必要",
+    "マイナンバーカードはオンライン申請にアップロードしない",
+    "区外から申し込む人や、区民で区外の保育施設を検討している人は別の案内ページを確認する"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.katsushika.lg.jp/kosodate/1000056/1002333/1039890.html",
+      "quote": "「令和9年度保育施設利用案内」は令和8年10月22日（木曜日）から配布開始の予定です。"
+    },
+    "fiscalYear#2": {
+      "url": "https://www.city.katsushika.lg.jp/kosodate/1000056/1002333/1039890.html",
+      "quote": "4月入所の募集時期（詳細は令和9年度保育施設利用案内にてご確認ください）"
+    },
+    "guideRelease": {
+      "url": "https://www.city.katsushika.lg.jp/kosodate/1000056/1002333/1039890.html",
+      "quote": "「令和9年度保育施設利用案内」は令和8年10月22日（木曜日）から配布開始の予定です。"
+    },
+    "firstApply": {
+      "url": "https://www.city.katsushika.lg.jp/kosodate/1000056/1002333/1039890.html",
+      "quote": "【1次募集】令和8年11月18日（水曜日）～令和8年12月10日（木曜日）予定"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.katsushika.lg.jp/kosodate/1000056/1002333/1039890.html",
+      "quote": "オンライン・郵送：令和8年11月18日（水曜日）～令和8年12月3日（木曜日）"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.katsushika.lg.jp/kosodate/1000056/1002333/1039890.html",
+      "quote": "窓　口　申　請　：令和8年11月20日（金曜日）～令和8年12月10日（木曜日）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.katsushika.lg.jp/kosodate/1000056/1002333/1036394.html",
+      "quote": "オンライン申請では、入所希望月の申請締切日の17時までに葛飾区が受信した分までを選考対象とします。締切後に受信した申請は、翌月（4月申請のみ2次または3次）の入所選考対象とします。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.katsushika.lg.jp/kosodate/1000056/1002333/1039890.html",
+      "quote": "オンライン・郵送：令和8年11月18日（水曜日）～令和8年12月3日（木曜日）"
+    },
+    "secondApply": {
+      "url": "https://www.city.katsushika.lg.jp/kosodate/1000056/1002333/1039890.html",
+      "quote": "【2次募集】令和9年2月9日（火曜日）～令和9年2月19日（金曜日）予定"
+    },
+    "documents.0": {
+      "url": "https://www.city.katsushika.lg.jp/kosodate/1000056/1002333/1036394.html",
+      "quote": "以下の書類はオンライン申請で内容を入力するため、添付は不要です。"
+    },
+    "documents.0#2": {
+      "url": "https://www.city.katsushika.lg.jp/kosodate/1000056/1002333/1036394.html",
+      "quote": "教育・保育給付認定申請書兼保育園等入園申込書"
+    },
+    "documents.1": {
+      "url": "https://www.city.katsushika.lg.jp/kosodate/1000056/1002333/1036394.html",
+      "quote": "マイナンバー記入用紙と本人確認書類の郵送または窓口へのご提出が必要です。"
+    },
+    "notes.0": {
+      "url": "https://www.city.katsushika.lg.jp/kosodate/1000056/1002333/1039890.html",
+      "quote": "※令和9年3月末日までに葛飾区に転入予定がない方は1次選考に申込むことができません。"
+    },
+    "notes.1": {
+      "url": "https://www.city.katsushika.lg.jp/kosodate/1000056/1002333/1036394.html",
+      "quote": "兄弟姉妹で同時に申請する場合は、その人数分の申請が必要です。"
+    },
+    "notes.2": {
+      "url": "https://www.city.katsushika.lg.jp/kosodate/1000056/1002333/1036394.html",
+      "quote": "マイナンバーカードは、オンライン申請にはアップロードしないでください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.katsushika.lg.jp/kosodate/1000056/1002333/1039890.html",
+      "quote": "葛飾区外から申込みを予定されている方や葛飾区民で区外の保育施設の申込みを検討している場合は、以下のリンク先をご確認ください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "葛飾区「令和9年度保育施設利用案内の配布日について」",
+      "url": "https://www.city.katsushika.lg.jp/kosodate/1000056/1002333/1039890.html"
+    },
+    {
+      "label": "葛飾区「保育園等入所申請はこちらから」",
+      "url": "https://www.city.katsushika.lg.jp/kosodate/1000056/1002333/1036394.html"
+    },
+    {
+      "label": "葛飾区「令和8年度 保育施設利用案内」",
+      "url": "https://www.city.katsushika.lg.jp/kosodate/1000056/1002333/1039860.html"
+    }
+  ]
+}

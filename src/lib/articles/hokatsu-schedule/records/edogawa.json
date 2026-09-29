@@ -1,0 +1,228 @@
+{
+  "citySlug": "edogawa",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "江戸川区「入園案内」",
+    "url": "https://www.city.edogawa.tokyo.jp/e048/kosodate/kosodate/hoiku/nitijou/hoikuen/nyuenannai.html"
+  },
+  "fiscalYear": "R8",
+  "firstApply": "【私立1回目】（私立の保育施設の1〜5歳児クラス）令和7年11月1日（土）〜11月10日（月）。土日祝日はオンライン申請のみ。郵送は11月10日必着",
+  "applyMethods": "4月入園の【私立1回目】は区役所窓口では受け付けず、オンライン申請、保育課保育係への郵送、第1希望の保育施設への提出のいずれか。年度途中や【区立・私立2回目】などは、保育課保育係（区役所2階5番窓口）でも受け付ける。郵送は消印有効ではなく締切日必着",
+  "firstResult": "【私立1回目】の結果は令和7年12月中旬（予定）に郵送で通知",
+  "secondApply": "【区立・私立2回目・区立延長保育】（区立保育園と私立の保育施設の0〜5歳児クラス）令和7年12月19日（金）〜12月25日（木）。区立保育園と0歳児クラスはこの日程で利用調整する。オンライン申請・郵送（締切日必着）のほか、区役所本庁舎の会場（12月21日は除く）や第1希望の認可保育施設でも受け付け、12月21日（日）はタワーホール船堀で受け付ける",
+  "secondResult": "【区立・私立2回目・区立延長保育】の結果は令和8年2月中旬（予定）に郵送で通知。最終利用調整の結果は3月中旬",
+  "midYearDeadline": "入園希望月の前月10日まで（土曜日・日曜日・祝日の場合はその前日）",
+  "documents": [
+    "教育・保育給付認定申請書兼保育施設入園(転園)申込書（表・裏）",
+    "家庭状況書（表・裏）",
+    "児童状況申告書",
+    "提出書類確認書",
+    "保護者の保育の必要性を確認する書類（別住所の保護者や内縁者等を含む保護者全員分）。江戸川区様式の就労証明書等は、提出時に3か月以内の証明日が明記されたもの",
+    "育児休業中で入園月に復職予定の場合も江戸川区様式の就労証明書を出し、復職後2週間以内に就労証明書を再提出する"
+  ],
+  "interview": "園長や嘱託医等が面接と健康診断を行い、その結果集団保育が困難と判断されると入園できないことがある。事前準備として、希望する保育施設へ連絡のうえ子どもと一緒に見学か説明を受ける",
+  "ikukyu": "育児休業中の子は原則として復職予定月（翌月1日付を含む）を入園希望月として申し込む。入園できずに育児休業を延長する場合は「育児休業の取得に関する教育・保育給付認定変更申請書」を出す。申し込みが無い月については入所結果の通知書は発行できない",
+  "notes": [
+    "【私立1回目】では区立保育園の利用調整をしない。結果が入所保留なら、書類を出し直さずに【区立・私立2回目・区立延長保育】で引き続き利用調整する",
+    "【私立1回目】で内定したまま私立2回目・区立1回目の利用調整は受けられない。内定辞退届と再申請が必要",
+    "申込期間の後も【最終利用調整】として追加入園の調整を続ける（令和8年4月入園では締切が令和8年2月28日、結果通知は3月13日予定）",
+    "出産予定日が令和8年2月4日までなら、出産前の仮申込みで私立2回目の期間に申し込めた",
+    "令和9年度版の入園案内は令和8年10月1日（木）に発行予定（この時点では令和9年4月入園の日程は未掲載）"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.edogawa.tokyo.jp/documents/56054/nyuenannai20260205.pdf",
+      "quote": "令和8年4月入園の申込受付は、以下の日程で行います（郵送の場合は締切日必着）。"
+    },
+    "firstApply": {
+      "url": "https://www.city.edogawa.tokyo.jp/documents/56054/nyuenannai20260205.pdf",
+      "quote": "申申込込受受付付期期間間 令令和和77年年1111月月11日日((土土))～～1111月月1100日日((月月)) ※※土土日日祝祝日日ははオオンンラライインン申申請請ののみみ受受付付"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.edogawa.tokyo.jp/documents/56054/nyuenannai20260205.pdf",
+      "quote": "※郵送は11月10日(月)必着。"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.edogawa.tokyo.jp/documents/56054/nyuenannai20260205.pdf",
+      "quote": "◆◆【【私私立立11回回目目】】……私私立立のの保保育育施施設設のの11歳歳かからら55歳歳児児ククララスス"
+    },
+    "applyMethods": {
+      "url": "https://www.city.edogawa.tokyo.jp/documents/56054/nyuenannai20260205.pdf",
+      "quote": "4月入園【私立1回目】の申し込みは窓口の受付を行っていません。オンライン申請又は郵送、第1希望の保育施設に提出してください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.edogawa.tokyo.jp/documents/56054/nyuenannai20260205.pdf",
+      "quote": "各入園希望月の受付締切日までに保育課保育係（区役所2階5番窓口）に提出してください。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.edogawa.tokyo.jp/e048/kosodate/kosodate/hoiku/nitijou/hoikuen/teisyutsu.html",
+      "quote": "消印有効ではありません。保育課への到着をもって受付日の取扱いとなります。"
+    },
+    "firstResult": {
+      "url": "https://www.city.edogawa.tokyo.jp/documents/56054/nyuenannai20260205.pdf",
+      "quote": "結結果果通通知知予予定定日日 令令和和77年年1122月月1199日日((金金))予予定定 ※郵送通知のみ。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.edogawa.tokyo.jp/e048/qa/kosodate/kosodate/hoiku/moushikomi/riyochosei/sonota.html",
+      "quote": "4月入園の結果は、1回目選考が12月中旬、2回目選考が2月中旬、最終選考が3月中旬です。"
+    },
+    "secondApply": {
+      "url": "https://www.city.edogawa.tokyo.jp/documents/56054/nyuenannai20260205.pdf",
+      "quote": "申申込込受受付付期期間間 令令和和77年年1122月月1199日日((金金))～～1122月月2255日日((木木))"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.edogawa.tokyo.jp/documents/56054/nyuenannai20260205.pdf",
+      "quote": "◆◆【【区区立立・・私私立立22回回目目・・区区立立延延長長保保育育】】……区区立立保保育育園園、、私私立立のの保保育育施施設設のの00歳歳かからら55歳歳児児ククララスス"
+    },
+    "secondApply#3": {
+      "url": "https://www.city.edogawa.tokyo.jp/documents/56054/nyuenannai20260205.pdf",
+      "quote": "クラスは上記の日程で、0歳児クラスは【区立・私立2回目・区立延長保育】の日程で利用調整を行います。"
+    },
+    "secondApply#4": {
+      "url": "https://www.city.edogawa.tokyo.jp/documents/56054/nyuenannai20260205.pdf",
+      "quote": "※12月21日(日)を除く"
+    },
+    "secondApply#5": {
+      "url": "https://www.city.edogawa.tokyo.jp/documents/56054/nyuenannai20260205.pdf",
+      "quote": "タタワワーーホホーールル船船堀堀((33階階330033会会議議室室)) 1122月月2211日日((日日))"
+    },
+    "secondApply#6": {
+      "url": "https://www.city.edogawa.tokyo.jp/documents/56054/nyuenannai20260205.pdf",
+      "quote": "【私立1回目】では、区立保育園の利用調整を行いません。"
+    },
+    "secondResult": {
+      "url": "https://www.city.edogawa.tokyo.jp/documents/56054/nyuenannai20260205.pdf",
+      "quote": "結結果果通通知知予予定定日日 令令和和88年年22月月1177日日((火火))予予定定 ※郵送通知のみ。"
+    },
+    "secondResult#2": {
+      "url": "https://www.city.edogawa.tokyo.jp/e048/qa/kosodate/kosodate/hoiku/moushikomi/riyochosei/sonota.html",
+      "quote": "4月入園の結果は、1回目選考が12月中旬、2回目選考が2月中旬、最終選考が3月中旬です。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.edogawa.tokyo.jp/e048/qa/kosodate/kosodate/hoiku/moushikomi/riyochosei/sonota.html",
+      "quote": "申し込みの締切日は利用希望月の前月10日（土曜日・日曜日・祝日の場合はその前日）までとなっています。"
+    },
+    "documents.0": {
+      "url": "https://www.city.edogawa.tokyo.jp/documents/56054/nyuenannai20260205.pdf",
+      "quote": "①  教育・保育給付認定申請書兼保育施設入園(転園)申込書（表・裏）"
+    },
+    "documents.1": {
+      "url": "https://www.city.edogawa.tokyo.jp/documents/56054/nyuenannai20260205.pdf",
+      "quote": "② 家庭状況書（表・裏）"
+    },
+    "documents.2": {
+      "url": "https://www.city.edogawa.tokyo.jp/documents/56054/nyuenannai20260205.pdf",
+      "quote": "③ 児童状況申告書"
+    },
+    "documents.3": {
+      "url": "https://www.city.edogawa.tokyo.jp/documents/56054/nyuenannai20260205.pdf",
+      "quote": "④ 提出書類確認書"
+    },
+    "documents.4": {
+      "url": "https://www.city.edogawa.tokyo.jp/documents/56054/nyuenannai20260205.pdf",
+      "quote": "⑤ 保護者の保育の必要性を確認する書類(別住所の保護者や内縁者等を含む保護者全員分)"
+    },
+    "documents.4#2": {
+      "url": "https://www.city.edogawa.tokyo.jp/documents/56054/nyuenannai20260205.pdf",
+      "quote": "「「江江戸戸川川区区様様式式のの就就労労証証明明書書」」等等はは、、提提出出時時にに 33 かか月月以以内内のの証証明明日日がが明明記記さされれたたもものの)。"
+    },
+    "documents.5": {
+      "url": "https://www.city.edogawa.tokyo.jp/documents/56054/nyuenannai20260205.pdf",
+      "quote": "e 育児休業中 →入園月に復職予定 江戸川区様式の就労証明書(※1)"
+    },
+    "documents.5#2": {
+      "url": "https://www.city.edogawa.tokyo.jp/documents/56054/nyuenannai20260205.pdf",
+      "quote": "→復職後 2 週間以内に、就労証明書(※1)を再提出"
+    },
+    "interview": {
+      "url": "https://www.city.edogawa.tokyo.jp/documents/56054/nyuenannai20260205.pdf",
+      "quote": "園長や嘱託医等が面接及び健康診断を行います。面接や健康診断の結果、集団保育が困難と判断された場合は、入園できないことがあります。"
+    },
+    "interview#2": {
+      "url": "https://www.city.edogawa.tokyo.jp/documents/56054/nyuenannai20260205.pdf",
+      "quote": "希望する保育施設へご連絡のうえ、お子さんと一緒に見学、又は説明を受けてください"
+    },
+    "ikukyu": {
+      "url": "https://www.city.edogawa.tokyo.jp/documents/56054/nyuenannai20260205.pdf",
+      "quote": "育児休業の対象児は、原則として育児休業からの復職予定月( 翌月 1 日付を含む)を入園希望月として申し込むことができます。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.edogawa.tokyo.jp/documents/56054/nyuenannai20260205.pdf",
+      "quote": "①育児休業を延長…「育児休業の取得に関する教育・保育給付認定変更申請書」"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.edogawa.tokyo.jp/e048/qa/kosodate/kosodate/hoiku/moushikomi/riyochosei/sonota.html",
+      "quote": "また、申し込みがない月については入所結果に関する通知書の発行は一切できません。"
+    },
+    "notes.0": {
+      "url": "https://www.city.edogawa.tokyo.jp/documents/56054/nyuenannai20260205.pdf",
+      "quote": "【私立1回目】では、区立保育園の利用調整を行いません。"
+    },
+    "notes.0#2": {
+      "url": "https://www.city.edogawa.tokyo.jp/e048/qa/kosodate/kosodate/hoiku/moushikomi/riyochosei/sonota.html",
+      "quote": "私立保育園に入園できなかった場合は、書類を再提出することなく私立2回目・区立1回目の選考対象になります。"
+    },
+    "notes.1": {
+      "url": "https://www.city.edogawa.tokyo.jp/e048/qa/kosodate/kosodate/hoiku/moushikomi/riyochosei/sonota.html",
+      "quote": "内定を確保したまま私立2回目・区立1回目の利用調整を受けることはできません。内定辞退届の提出と再申請が必要です。"
+    },
+    "notes.2": {
+      "url": "https://www.city.edogawa.tokyo.jp/documents/56054/nyuenannai20260205.pdf",
+      "quote": "上記の申込受付期間終了後も、追加入園が可能なことがあるため、引き続き利用調整を行います。"
+    },
+    "notes.2#2": {
+      "url": "https://www.city.edogawa.tokyo.jp/documents/56054/nyuenannai20260205.pdf",
+      "quote": "申申込込受受付付締締切切日日 令令和和88年年22月月2288日日((土土))"
+    },
+    "notes.2#3": {
+      "url": "https://www.city.edogawa.tokyo.jp/documents/56054/nyuenannai20260205.pdf",
+      "quote": "結結果果通通知知予予定定日日 令令和和88年年33月月1133日日((金金))予予定定 ※郵送通知のみ。"
+    },
+    "notes.3": {
+      "url": "https://www.city.edogawa.tokyo.jp/e048/kosodate/kosodate/hoiku/azukeru/shussanmaemousikomi.html",
+      "quote": "出産（予定）日が令和8年2月4日までのお子さんの令和8年4月入園申し込みを希望するかたは、出産前に仮申し込みを行い"
+    },
+    "notes.4": {
+      "url": "https://www.city.edogawa.tokyo.jp/e048/kosodate/kosodate/hoiku/nitijou/hoikuen/31nyuuen.html",
+      "quote": "令和9年度版の入園案内は10月1日（木曜日）に発行予定です。"
+    },
+    "notes.4#2": {
+      "url": "https://www.city.edogawa.tokyo.jp/e047/kosodate/kosodate/keikaku/shinsetsukekaku/r9moshikomi.html",
+      "quote": "詳細は10月1日（木曜日）発行の「令和9年度版認可保育施設入園のご案内」をご確認ください。"
+    },
+    "secondApply#7": {
+      "url": "https://www.city.edogawa.tokyo.jp/e048/kosodate/kosodate/hoiku/azukeru/shussanmaemousikomi.html",
+      "quote": "令和7年12月19日（金曜日）から令和7年12月25日（木曜日）"
+    }
+  },
+  "sources": [
+    {
+      "label": "江戸川区「入園案内」",
+      "url": "https://www.city.edogawa.tokyo.jp/e048/kosodate/kosodate/hoiku/nitijou/hoikuen/nyuenannai.html"
+    },
+    {
+      "label": "江戸川区「令和8年度版 認可保育施設入園のご案内」（PDF）",
+      "url": "https://www.city.edogawa.tokyo.jp/documents/56054/nyuenannai20260205.pdf"
+    },
+    {
+      "label": "江戸川区「認可保育施設への入園申し込み」",
+      "url": "https://www.city.edogawa.tokyo.jp/e048/kosodate/kosodate/hoiku/nitijou/hoikuen/31nyuuen.html"
+    },
+    {
+      "label": "江戸川区「書類の提出方法・提出先」",
+      "url": "https://www.city.edogawa.tokyo.jp/e048/kosodate/kosodate/hoiku/nitijou/hoikuen/teisyutsu.html"
+    },
+    {
+      "label": "江戸川区「保育園に関するよくある質問（その他）」",
+      "url": "https://www.city.edogawa.tokyo.jp/e048/qa/kosodate/kosodate/hoiku/moushikomi/riyochosei/sonota.html"
+    },
+    {
+      "label": "江戸川区「出産予定のお子さんの4月入園申し込み」",
+      "url": "https://www.city.edogawa.tokyo.jp/e048/kosodate/kosodate/hoiku/azukeru/shussanmaemousikomi.html"
+    },
+    {
+      "label": "江戸川区「令和9年4月開園予定の認可保育施設の入園申込」",
+      "url": "https://www.city.edogawa.tokyo.jp/e047/kosodate/kosodate/keikaku/shinsetsukekaku/r9moshikomi.html"
+    }
+  ]
+}

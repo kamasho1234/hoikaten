@@ -1,0 +1,192 @@
+{
+  "citySlug": "ichikawa",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "市川市「令和8年度・令和9年度保育施設利用の申込みについて」",
+    "url": "https://www.city.ichikawa.lg.jp/page/3705.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年11月11日（水）〜11月30日（月）（必着）。この期間は1〜3月入園と4月（1次）入園の申込みを兼ねる",
+  "applyMethods": "LoGoフォームで受付番号を取得して保育所等利用申込書の表紙右上に記入し、書類一式をレターパックや簡易書留など追跡できる方法で郵送する（締切日必着）。窓口（こども施設入園課・子育てナビ行徳）に持参する場合も同じ手続きをしてから出し、窓口では書類の受領のみで内容確認はしない",
+  "firstResult": "令和9年1月29日（金）に結果通知を発送予定。結果は郵送で通知",
+  "secondApply": "令和9年2月8日（月）〜2月19日（金）（必着）",
+  "secondResult": "令和9年3月8日（月）に結果通知を発送予定",
+  "midYearDeadline": "入園希望月ごとに申込み期間が決まっている（例: 令和9年5月入園は3月9日〜3月31日、6月入園は4月13日〜4月30日）",
+  "documents": [
+    "教育・保育給付認定申請書（市指定の様式）",
+    "保育所等利用申込書（市指定の様式）。表紙右上にLoGoフォームで取得した受付番号を記入",
+    "保育の必要性を確認する書類（就労の場合は就労証明書など）。申込みを受け付けた時点で3か月以内に証明された書類が有効",
+    "母子健康手帳のコピー（最新の健康診査結果のページ）",
+    "個人番号（マイナンバー）確認書類のコピー",
+    "育児休業・産後休業から復職予定の人は、育児休業（産後休業）からの復職に関する申告書および誓約書"
+  ],
+  "interview": "申込み書類を出すまでに、子どもと一緒に希望施設を見学しておく。入園内定後に内定した保育施設で面接があり、日時は内定通知に書かれる",
+  "ikukyu": "入園できなかったときに育児休業を延長できる場合は、復職に関する申告書および誓約書の1.の②にチェックして出す。復職の加点をつけず優先順位を下げての利用調整になり、それでも内定したときは保留通知書は発行されない。保留通知書が必要なときは保留通知申請書を出すかLoGoフォームで申請し、発行には約1週間かかる",
+  "notes": [
+    "令和8年11月16日以降に生まれた子は出生前の申込みができず、出生届を出してから申し込む",
+    "1〜3月入園に申し込むときに4月入園の書類も同時に出せる。1〜3月で内定すると4月（1次）の申込みは自動的に取り下げになる",
+    "申込み締切日までに書類が届かない場合は利用調整の対象にならない",
+    "郵送の到着確認の問い合わせには答えていない。LoGoフォームの送信完了メールから申請状況を照会できる",
+    "保留になった場合、同じ年度内は毎月引き続き利用調整されるので申込書を毎月出す必要はない"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.ichikawa.lg.jp/page/3705.html",
+      "quote": "令和9年4月の受入れ（入園内定）予定人数は11月上旬公開予定です。"
+    },
+    "firstApply": {
+      "url": "https://www.city.ichikawa.lg.jp/uploaded/attachment/56459.pdf",
+      "quote": "１１月１１日（水）※ ～ １１月３０日（月）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.ichikawa.lg.jp/uploaded/attachment/56459.pdf",
+      "quote": "※ １～３月入園の申込みの際、４月入園の申込み書類を同時に提出することができます。"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.ichikawa.lg.jp/uploaded/attachment/56459.pdf",
+      "quote": "入園を希望する月により利用申込みができる期間を定めています。申込みに係る書類は申込み期間中に市に届くように提出してください。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.ichikawa.lg.jp/uploaded/attachment/55953.pdf",
+      "quote": "※ 保育所等利用申込書の表紙右上にLoGoフォームで取得した受付番号を記入してください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.ichikawa.lg.jp/uploaded/attachment/55953.pdf",
+      "quote": "⑤ 提出書類一式をレターパック、簡易書留等にて郵送（締切日必着）"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.ichikawa.lg.jp/uploaded/attachment/55953.pdf",
+      "quote": "窓口に持参される場合はp.9①から④までの手続きをした上で、提出書類一式をお持ちください。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.ichikawa.lg.jp/uploaded/attachment/55953.pdf",
+      "quote": "※窓口では書類の受領のみとなります。窓口で内容の確認は行いません。"
+    },
+    "applyMethods#5": {
+      "url": "https://www.city.ichikawa.lg.jp/page/3705.html",
+      "quote": "市川市役所こども施設入園課 所在地：市川市八幡1-1-1"
+    },
+    "applyMethods#6": {
+      "url": "https://www.city.ichikawa.lg.jp/page/3705.html",
+      "quote": "子育てナビ行徳（行徳支所2階）所在地：市川市末広1-1-31"
+    },
+    "firstResult": {
+      "url": "https://www.city.ichikawa.lg.jp/uploaded/attachment/56459.pdf",
+      "quote": "４月（１次） １月２９日（金）"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.ichikawa.lg.jp/uploaded/attachment/55958.pdf",
+      "quote": "●利用調整の結果を郵送にて通知します。通知の発送予定日については、p.7をご参照ください。"
+    },
+    "secondApply": {
+      "url": "https://www.city.ichikawa.lg.jp/uploaded/attachment/56459.pdf",
+      "quote": "４月（２次） ２月 ８日（月） ～ ２月１９日（金） ３月 ８日（月）"
+    },
+    "secondResult": {
+      "url": "https://www.city.ichikawa.lg.jp/uploaded/attachment/56459.pdf",
+      "quote": "４月（２次） ２月 ８日（月） ～ ２月１９日（金） ３月 ８日（月）"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.ichikawa.lg.jp/uploaded/attachment/56459.pdf",
+      "quote": "５月 ３月 ９日（火） ～ ３月３１日（水） ４月１２日（月）"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.ichikawa.lg.jp/uploaded/attachment/56459.pdf",
+      "quote": "６月 ４月１３日（火） ～ ４月３０日（金） ５月１３日（木）"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.ichikawa.lg.jp/uploaded/attachment/56459.pdf",
+      "quote": "入園を希望する月により利用申込みができる期間を定めています。"
+    },
+    "documents.0": {
+      "url": "https://www.city.ichikawa.lg.jp/uploaded/attachment/55953.pdf",
+      "quote": "① 教育・保育給付認定申請書 （市指定の様式）"
+    },
+    "documents.1": {
+      "url": "https://www.city.ichikawa.lg.jp/uploaded/attachment/55953.pdf",
+      "quote": "② 保育所等利用申込書 （市指定の様式） ※ 保育所等利用申込書の表紙右上にLoGoフォームで取得した受付番号を記入してください。"
+    },
+    "documents.2": {
+      "url": "https://www.city.ichikawa.lg.jp/uploaded/attachment/55953.pdf",
+      "quote": "●申込みを受け付けた時点で、３か月以内に証明された書類が有効となります。"
+    },
+    "documents.3": {
+      "url": "https://www.city.ichikawa.lg.jp/uploaded/attachment/55953.pdf",
+      "quote": "④ 母子健康手帳のコピー（最新の健康診査結果のページ）"
+    },
+    "documents.4": {
+      "url": "https://www.city.ichikawa.lg.jp/uploaded/attachment/55953.pdf",
+      "quote": "⑤ 個人番号（マイナンバー）確認書類のコピー"
+    },
+    "documents.5": {
+      "url": "https://www.city.ichikawa.lg.jp/uploaded/attachment/55953.pdf",
+      "quote": "育児休業・産後休業から復職予定の方 育児休業（産後休業）からの復職に関する申告書お"
+    },
+    "interview": {
+      "url": "https://www.city.ichikawa.lg.jp/uploaded/attachment/55958.pdf",
+      "quote": "●入園内定後、保育施設で面接を行います（日時は、内定通知に記載されます）。"
+    },
+    "interview#2": {
+      "url": "https://www.city.ichikawa.lg.jp/uploaded/attachment/55954.pdf",
+      "quote": "利用申込みにあたっては、入園を希望する保育施設を必ずお子さんと一緒にご見学いただき、お子さんの状況を施設にお伝えください。"
+    },
+    "interview#3": {
+      "url": "https://www.city.ichikawa.lg.jp/uploaded/attachment/55954.pdf",
+      "quote": "申込み書類の提出までには希望施設の見学を済ませてください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.ichikawa.lg.jp/uploaded/attachment/55954.pdf",
+      "quote": "●入園できなかった際の育児休業の延長が可能等の場合は、「育児休業（産後休業）からの復職に関する申告書および誓約書」の１．の②にチェックをしてご提出ください。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.ichikawa.lg.jp/uploaded/attachment/55954.pdf",
+      "quote": "復職の加点をつけず、優先順位を下げての利用調整となります。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.ichikawa.lg.jp/uploaded/attachment/55954.pdf",
+      "quote": "入園内定となった場合は、「保留通知書」の発行はできませんので、ご注意ください。"
+    },
+    "ikukyu#4": {
+      "url": "https://www.city.ichikawa.lg.jp/uploaded/attachment/55958.pdf",
+      "quote": "●育児休業延長の手続き等で「保留通知書」が必要な場合は、「保留通知申請書」をご提出するか、表紙裏の二次元コードからLoGoフォームにて申請できます。（発行には約１週間かかります。）"
+    },
+    "notes.0": {
+      "url": "https://www.city.ichikawa.lg.jp/uploaded/attachment/56459.pdf",
+      "quote": "【令和８年１１月１６日以降に生まれたお子さん】 出生前の申込みはできません。出生届提出後にお申込みください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.ichikawa.lg.jp/uploaded/attachment/56459.pdf",
+      "quote": "※ １～３月入園内定した場合は、４月(１次)入園申込みは自動的に取下げとなります。"
+    },
+    "notes.1#2": {
+      "url": "https://www.city.ichikawa.lg.jp/uploaded/attachment/56459.pdf",
+      "quote": "※ １～３月入園の申込みの際、４月入園の申込み書類を同時に提出することができます。"
+    },
+    "notes.2": {
+      "url": "https://www.city.ichikawa.lg.jp/page/7597.html",
+      "quote": "申込み締切日までに申込み書類が到着しない場合は、利用調整の対象となりません。"
+    },
+    "notes.3": {
+      "url": "https://www.city.ichikawa.lg.jp/page/3705.html",
+      "quote": "郵送の到着確認の問い合わせにはお答えしておりません。Logoフォームを送信した際に届く送信完了メールから申請状況の照会をしていただき、「対応完了」となっていたら書類の受理が終わっています。"
+    },
+    "notes.4": {
+      "url": "https://www.city.ichikawa.lg.jp/page/3705.html",
+      "quote": "年度内は 翌月以降も引き続き利用調整をしていきますので、申込書を毎月ご提出していただく必要はありません。"
+    }
+  },
+  "sources": [
+    {
+      "label": "市川市「令和8年度・令和9年度保育施設利用の申込みについて」",
+      "url": "https://www.city.ichikawa.lg.jp/page/3705.html"
+    },
+    {
+      "label": "市川市「保育施設利用のご案内」",
+      "url": "https://www.city.ichikawa.lg.jp/page/3859.html"
+    },
+    {
+      "label": "市川市「認可保育施設等利用申込みの郵送受付について」",
+      "url": "https://www.city.ichikawa.lg.jp/page/7597.html"
+    }
+  ]
+}

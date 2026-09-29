@@ -1,0 +1,111 @@
+{
+  "citySlug": "matsuyama",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "松山市「令和9年度(2027年度)入園申込みについて」",
+    "url": "https://www.city.matsuyama.ehime.jp/kurashi/kosodate/boshi/R2nen4gatsu-shinki/r9nyuuenn.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年10月下旬（予定）に申込書の配布を開始。申請書兼入園申込書の原本は保育・幼稚園課の窓口と、認可の保育所・認定こども園・地域型保育事業所で配布している",
+  "firstApply": "令和8年11月20日（金）〜12月11日（金）（予定）",
+  "applyMethods": "市立・私立の保育所への入園申込みはマイナポータルの「ぴったりサービス」からオンライン申請もできる。認定こども園・地域型保育事業所（小規模保育事業、事業所内保育事業）を希望する場合は、希望する施設へ申請書を提出する",
+  "documents": [
+    "教育・保育給付認定申請書兼入園申込書（ホームページは見本のみで、原本は保育・幼稚園課の窓口か認可の保育所・認定こども園・地域型保育事業所で受け取る）",
+    "就労証明書（縦型の様式。入園申込書を提出する月の3か月以内に発行されたものが有効で、12月に提出する場合は9月1日以降に発行されたもの）"
+  ],
+  "notes": [
+    "対象施設は保育所、認定こども園（保育所部分のみ。1号認定は除く）、地域型保育事業所",
+    "詳しい内容は令和8年10月中旬頃に市のホームページ等で知らせる予定とされている",
+    "就労証明書は横型（旧様式の就労・内職証明書）は使えない",
+    "就労証明書の「9．育児休業の取得」を書くときは「15．入所内定時育休短縮可否」の欄も記入する",
+    "園によって施設や周辺の状況が違うので、事前の見学が勧められている"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.matsuyama.ehime.jp/kurashi/kosodate/boshi/R2nen4gatsu-shinki/r9nyuuenn.html",
+      "quote": "令和9年(2027年)4月の保育所等新規入園申込みは、次の期間で実施する予定です。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.matsuyama.ehime.jp/kurashi/kosodate/boshi/R2nen4gatsu-shinki/r9nyuuenn.files/20260803.pdf",
+      "quote": "令和８年１０月下旬 予定 【申込書配布開始】"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.matsuyama.ehime.jp/kurashi/kosodate/boshi/R2nen4gatsu-shinki/hoikusyorui.html",
+      "quote": "原本は、保育・幼稚園課の窓口もしくは、認可の保育所・認定こども園・地域型保育事業所にて配布しています。"
+    },
+    "firstApply": {
+      "url": "https://www.city.matsuyama.ehime.jp/kurashi/kosodate/boshi/R2nen4gatsu-shinki/r9nyuuenn.files/20260803.pdf",
+      "quote": "令和８年１１月２０日（金） 【入園受付期間】 ～令和８年１２月１１日（金）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.matsuyama.ehime.jp/kurashi/kosodate/boshi/R2nen4gatsu-shinki/r9nyuuenn.html",
+      "quote": "令和9年(2027年)4月の保育所等新規入園申込みは、次の期間で実施する予定です。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.matsuyama.ehime.jp/kurashi/kosodate/boshi/R2nen4gatsu-shinki/online.html",
+      "quote": "政府が運営するマイナポータルの「ぴったりサービス（外部サイト）」にアクセスし、トップページから、"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.matsuyama.ehime.jp/kurashi/kosodate/boshi/R2nen4gatsu-shinki/online.html",
+      "quote": "・市立（公立）保育所・（私立）保育所の入園申込み"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.matsuyama.ehime.jp/kurashi/kosodate/boshi/R2nen4gatsu-shinki/online.html",
+      "quote": "※認定こども園・地域型保育事業所（小規模保育事業、事業所内保育事業）への入園を希望される方は、希望する施設へ申請書を提出するようご協力をお願いします。"
+    },
+    "documents.0": {
+      "url": "https://www.city.matsuyama.ehime.jp/kurashi/kosodate/boshi/R2nen4gatsu-shinki/hoikusyorui.html",
+      "quote": "※教育・保育給付認定申請書兼入園申込書は、見本のみ掲載しています。"
+    },
+    "documents.0#2": {
+      "url": "https://www.city.matsuyama.ehime.jp/kurashi/kosodate/boshi/R2nen4gatsu-shinki/hoikusyorui.html",
+      "quote": "原本は、保育・幼稚園課の窓口もしくは、認可の保育所・認定こども園・地域型保育事業所にて配布しています。"
+    },
+    "documents.1": {
+      "url": "https://www.city.matsuyama.ehime.jp/kurashi/kosodate/boshi/R2nen4gatsu-shinki/hoikusyorui.html",
+      "quote": "入園申込書提出月の3か月以内に発行された証明書を提出してください。（入園申込書を12月に提出する場合、9月1日以降に発行された証明書が有効になります。）"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.matsuyama.ehime.jp/kurashi/kosodate/boshi/R2nen4gatsu-shinki/hoikusyorui.html",
+      "quote": "※就労証明書（縦型）の記載時注意事項"
+    },
+    "notes.0": {
+      "url": "https://www.city.matsuyama.ehime.jp/kurashi/kosodate/boshi/R2nen4gatsu-shinki/r9nyuuenn.files/20260803.pdf",
+      "quote": "・保育所 ・認定こども園（保育所部分のみ、１号認定を除く） ・地域型保育事業所"
+    },
+    "notes.1": {
+      "url": "https://www.city.matsuyama.ehime.jp/kurashi/kosodate/boshi/R2nen4gatsu-shinki/r9nyuuenn.html",
+      "quote": "詳しい内容については、令和8年(2026年)10月中旬頃にホームページ等でお知らせします。"
+    },
+    "notes.2": {
+      "url": "https://www.city.matsuyama.ehime.jp/kurashi/kosodate/boshi/R2nen4gatsu-shinki/hoikusyorui.html",
+      "quote": "※就労証明書の様式は、お示ししている通りです。横型(旧様式の就労・内職証明書)はご使用いただけません。"
+    },
+    "notes.3": {
+      "url": "https://www.city.matsuyama.ehime.jp/kurashi/kosodate/boshi/R2nen4gatsu-shinki/hoikusyorui.html",
+      "quote": "「9．育児休業の取得」を記載いただく際には、「15．入所内定時育休短縮可否」の欄もご記載ください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.matsuyama.ehime.jp/kurashi/kosodate/boshi/R2nen4gatsu-shinki/online.html",
+      "quote": "また、園によって施設や周辺の状況も違いますので、事前に確認も含めて見学をおすすめします。"
+    }
+  },
+  "sources": [
+    {
+      "label": "松山市「令和9年度(2027年度)入園申込みについて」",
+      "url": "https://www.city.matsuyama.ehime.jp/kurashi/kosodate/boshi/R2nen4gatsu-shinki/r9nyuuenn.html"
+    },
+    {
+      "label": "松山市「令和9年度 新規入園申込みについて」（PDF）",
+      "url": "https://www.city.matsuyama.ehime.jp/kurashi/kosodate/boshi/R2nen4gatsu-shinki/r9nyuuenn.files/20260803.pdf"
+    },
+    {
+      "label": "松山市「保育園入園申込み及び入園後必要な書類について」",
+      "url": "https://www.city.matsuyama.ehime.jp/kurashi/kosodate/boshi/R2nen4gatsu-shinki/hoikusyorui.html"
+    },
+    {
+      "label": "松山市「認可保育所等入園申込のオンライン申請について」",
+      "url": "https://www.city.matsuyama.ehime.jp/kurashi/kosodate/boshi/R2nen4gatsu-shinki/online.html"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "citySlug": "nerima",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "練馬区「保育利用のご案内（申込みに向けた各種情報）」",
+    "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/nyuuen/moushikomi/siori-sisetu.html"
+  },
+  "fiscalYear": "R8",
+  "firstApply": "令和7年10月1日（水）〜令和7年11月7日（金）17時15分まで。郵送の場合は11月4日（火）までの消印が有効",
+  "applyMethods": "原則オンライン申請。ほかに郵送（練馬区役所 保育課 入園相談係あて）、練馬区役所本庁舎10階の保育課入園相談係の窓口、光が丘・石神井・大泉の各総合福祉事務所に設置の回収ボックスへの投函でも提出できる",
+  "firstResult": "令和8年2月13日（金）に利用調整対象者全員へ通知を発送",
+  "secondApply": "令和7年11月10日（月）〜令和8年2月20日（金）17時15分まで",
+  "secondResult": "令和8年3月11日（水）に内定した人にのみ通知を発送",
+  "midYearDeadline": "令和8年5月入園以降の申込みは令和8年2月24日（火）から受付。締切は入園月ごとに決まっており、例えば5月入園は令和8年4月10日（金）",
+  "documents": [
+    "教育・保育給付認定申請書兼保育園等利用申込書（①〜⑤で一組）",
+    "就労証明書（申込日の前月1日以降に証明されたもの。産前産後休業中・育児休業中の人も提出が必要）",
+    "令和6年1月1日時点で練馬区に住民登録がない人は、令和6年度住民税納税通知書または課税（非課税）証明書のコピー（入所年月が令和8年8月入園までの場合）"
+  ],
+  "interview": "内定した保育園等で面接・健康診断を行い、集団生活ができないと判断された場合は入園できない。申込み前の園見学が勧められている",
+  "ikukyu": "育児休業給付金の支給延長を希望する場合は『育児休業延長許容の申出書』を提出する（オンライン申請にも対応）。父母とも保育指数10点で利用調整するが、保育利用保留通知書の交付は保証されず、内定を辞退しても保育利用保留通知書は交付されない",
+  "notes": [
+    "保育園は最大13園まで申し込める",
+    "希望順位が高いことによる優先や選考上の有利・不利はない",
+    "指数の高い児童から内定し、抽選や先着順ではない",
+    "保育園等に内定した場合、入園月の末日までに元の勤務先に復職する必要がある",
+    "出生前の仮申込みは4月入園の1次利用調整の申込みに限った制度"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/nyuuen/moushikomi/siori-sisetu.files/R8_hoikuriyounogoannai02.pdf",
+      "quote": "令和８年４月入園を同時に希望する場合は、同締切日までに令和８年４月入園の申込書①を提出する必要があります。"
+    },
+    "firstApply": {
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/nyuuen/moushikomi/siori-sisetu.files/R8_hoikuriyounogoannai02.pdf",
+      "quote": "令和7年10月１日（水）～令和7年11月7日（金）17時15分まで"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/nyuuen/moushikomi/siori-sisetu.files/R8_hoikuriyounogoannai02.pdf",
+      "quote": "1月、2月、4月1次の申込みに限り、郵送で提出された申込みは11月４日（火）までの消印が有効となります。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/nyuuen/moushikomi/siori-sisetu.files/R8_hoikuriyounogoannai02.pdf",
+      "quote": "郵送に時間がかかり、締切日までに届かないケースが見受けられます。原則、オンライン申請をご利用ください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/nyuuen/moushikomi/siori-sisetu.files/R8_hoikuriyounogoannai02.pdf",
+      "quote": "宛先：〒176-8501 練馬区豊玉北６－12－１ 練馬区役所 保育課 入園相談係"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/nyuuen/moushikomi/siori-sisetu.files/R8_hoikuriyounogoannai02.pdf",
+      "quote": "所 在 地：練馬区豊玉北６－12－１ 練馬区役所本庁舎10階 保育課 入園相談係"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/nyuuen/moushikomi/siori-sisetu.files/R8_hoikuriyounogoannai02.pdf",
+      "quote": "３か所の総合福祉事務所に設置の回収ボックスへ投函してください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/nyuuen/moushikomi/siori-sisetu.files/R8_hoikuriyounogoannai02.pdf",
+      "quote": "１次内定発表 令和8年2月13日（金）利用調整対象者全員へ通知発送"
+    },
+    "secondApply": {
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/nyuuen/moushikomi/siori-sisetu.files/R8_hoikuriyounogoannai02.pdf",
+      "quote": "令和7年11月10日（月）～令和8年2月20日（金）17時15分まで"
+    },
+    "secondResult": {
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/nyuuen/moushikomi/siori-sisetu.files/R8_hoikuriyounogoannai02.pdf",
+      "quote": "２次内定発表 令和8年3月11日（水）内定した方にのみ通知発送"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/nyuuen/moushikomi/siori-sisetu.files/R8_hoikuriyounogoannai02.pdf",
+      "quote": "令和８年５月入園以降の申込みは令和８年２月24日（火）から受け付けます"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/nyuuen/moushikomi/siori-sisetu.files/R8_hoikuriyounogoannai02.pdf",
+      "quote": "令和８年 ５月 令和８年 ４月 10日（金）"
+    },
+    "documents.0": {
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/nyuuen/moushikomi/siori-sisetu.files/R8_hoikuriyounogoannai02.pdf",
+      "quote": "『 教育・保育給付認定申請書兼保育園等利用申込書』（ ※①～⑤で一組です）"
+    },
+    "documents.1": {
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/nyuuen/moushikomi/siori-sisetu.files/R8_hoikuriyounogoannai02.pdf",
+      "quote": "『就労証明書』（申込日の前月１日以降に証明されたもの）・ 産前産後休業中の方、育児休業中の方も提出が必要です。"
+    },
+    "documents.2": {
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/nyuuen/moushikomi/siori-sisetu.files/4_hitsuyoushoruinyumon.pdf",
+      "quote": "入所年月が令和8年8月入園までで、令和6年1月1日時点で練馬区に住民登録がない方は、令和6年度住民税納税通知書または課税（非課税）証明書のコピーを提出してください。"
+    },
+    "interview": {
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/nyuuen/moushikomi/siori-sisetu.files/R8_hoikuriyounogoannai02.pdf",
+      "quote": "内定した保育園等で、面接・健康診断を行います。"
+    },
+    "interview#2": {
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/nyuuen/moushikomi/siori-sisetu.files/R8_hoikuriyounogoannai02.pdf",
+      "quote": "面接・健康診断で集団生活ができないと判断された場合は入園できません。"
+    },
+    "interview#3": {
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/nyuuen/moushikomi/siori-sisetu.files/R8_hoikuriyounogoannai02.pdf",
+      "quote": "希望する保育園が決まったら、申込み前に見学することをお勧めします。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/nyuuen/moushikomi/siori-sisetu.files/R8_hoikuriyounogoannai02.pdf",
+      "quote": "育児休業給付金の支給延長を希望される方は『育児休業延長許容の申出書』をご提出ください。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/nyuuen/moushikomi/siori-sisetu.files/R8_hoikuriyounogoannai02.pdf",
+      "quote": "『育児休業延長許容の申出書』はオンライン申請にも対応しています。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/nyuuen/moushikomi/siori-sisetu.files/R8_hoikuriyounogoannai02.pdf",
+      "quote": "父母ともに保育指数10点で利用調整を行いますが、『保育利用保留通知書』の交付を保証するものではありません。"
+    },
+    "ikukyu#4": {
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/nyuuen/moushikomi/siori-sisetu.files/R8_hoikuriyounogoannai02.pdf",
+      "quote": "内定を辞退されたとしても『保育利用保留通知書』を交付することはできません。"
+    },
+    "notes.0": {
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/nyuuen/moushikomi/siori-sisetu.files/R8_hoikuriyounogoannai02.pdf",
+      "quote": "保育園は最大で13園まで申し込むことができます。"
+    },
+    "notes.1": {
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/nyuuen/moushikomi/siori-sisetu.files/R8_hoikuriyounogoannai02.pdf",
+      "quote": "希望順位が高いことによる優先や、選考上の有利・不利はありませんので、通園できる無理のない範囲で、利用したい順に選びましょう。"
+    },
+    "notes.2": {
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/nyuuen/moushikomi/siori-sisetu.files/R8_hoikuriyounogoannai02.pdf",
+      "quote": "指数の高い児童から内定します。抽選や先着順ではありません。"
+    },
+    "notes.3": {
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/nyuuen/moushikomi/siori-sisetu.files/R8_hoikuriyounogoannai02.pdf",
+      "quote": "保育園等に内定した場合、入園月の末日までに元の勤務先に復職することが必要です"
+    },
+    "notes.4": {
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/nyuuen/moushikomi/siori-sisetu.files/R8_hoikuriyounogoannai02.pdf",
+      "quote": "出生前の仮申込みは、4月入園の1次利用調整の申込みに限っての制度です。"
+    }
+  },
+  "sources": [
+    {
+      "label": "練馬区「保育利用のご案内（申込みに向けた各種情報）」",
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/nyuuen/moushikomi/siori-sisetu.html"
+    },
+    {
+      "label": "練馬区「【令和8年度】保育利用のご案内（第2版）」",
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/nyuuen/moushikomi/siori-sisetu.files/R8_hoikuriyounogoannai02.pdf"
+    },
+    {
+      "label": "練馬区「【保育園等】令和9年4月からの利用申込みについて」",
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/nyuuen/moushikomi/R704HoikuenMoshikomi.html"
+    }
+  ]
+}

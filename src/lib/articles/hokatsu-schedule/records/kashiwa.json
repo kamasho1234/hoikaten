@@ -1,0 +1,174 @@
+{
+  "citySlug": "kashiwa",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "柏市「令和8年度保育園等申込みのご案内」",
+    "url": "https://www.city.kashiwa.lg.jp/hoikuunei/haguhagu/navi/nyuennyugaku/hoikuen/r8kakushuyousiki.html"
+  },
+  "fiscalYear": "R8",
+  "firstApply": "令和7年11月4日（火）〜12月8日（月）。4月1日入園は当日消印有効",
+  "applyMethods": "第1希望が認可保育園・小規模認可保育の場合は申請書類を保育運営課へ郵送する。第1希望が認定こども園の場合はその園へ直接持参する。沼南支所・出張所・保育園等では受け付けない",
+  "firstResult": "令和8年2月4日（水）が結果回答予定日。結果は自宅へ郵送される",
+  "midYearDeadline": "5月以降の入園は入園希望月ごとに受付期間が決まっていて、締切日必着（例: 5月1日入園は令和8年3月16日〜4月3日）",
+  "documents": [
+    "子どものための教育・保育給付認定申請書兼保育園等利用申込書【2・3号（保育利用）用】",
+    "子どものための教育・保育給付認定申請書兼調査書",
+    "申請書類確認票と返信用封筒（110円切手を貼って同封）",
+    "就労証明書（令和7年7月1日以降に証明されたもの。保護者それぞれに1枚）",
+    "妊娠・出産が事由の場合は、出産する子の母子健康手帳の写し（保護者氏名・分娩予定日・妊娠中の経過のページ）"
+  ],
+  "interview": "子どもが障害者手帳を持っている場合や、申込書の「児童の健康状態」が「有」の場合は、事前予約のうえ保育運営課で子どもの面接を受ける（4月1日入園は電子申請フォームで予約）。事前面接が済んでいない子の面接は内定先の施設が行い、健康診断票は入園日前日までに内定先へ提出する",
+  "ikukyu": "調査書で「希望する保育園等に入園できない場合は、育児休業の延長も許容できる」にチェックすると、当該年度内に限り40点減点して利用調整される。希望園に空きがあれば内定となり、保留通知書は発行されない",
+  "notes": [
+    "書類に不備があると利用調整できないことがあるので、できるだけ締切日の2週間前までに申し込む",
+    "入園内定は先着順ではない",
+    "令和9年4月1日入園の受付は令和8年11月2日（月）から（締切は未定）。詳細は令和8年11月1日に市ホームページと広報かしわで知らされる",
+    "4月の入園申込みに限り、出産前でも申し込める（4月1日時点で生後57日を経過する子が対象。仮受付なので事前に保育運営課へ連絡）",
+    "希望園はすべて書く必要はなく、上限は20園",
+    "育児休業給付金の延長手続きには申込書一式の写しが要る。提出した申込書は返却されないので、提出前に自分で写しを取る"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.kashiwa.lg.jp/hoikuunei/haguhagu/hokatsu/joho/r84gatunyuuenn.html",
+      "quote": "なお、令和8年4月1日入園の申込受付期間は令和7年11月4日(火曜日)~12月8日(月曜日)です。"
+    },
+    "firstApply": {
+      "url": "https://www.city.kashiwa.lg.jp/hoikuunei/haguhagu/hokatsu/joho/r84gatunyuuenn.html",
+      "quote": "なお、令和8年4月1日入園の申込受付期間は令和7年11月4日(火曜日)~12月8日(月曜日)です。"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.kashiwa.lg.jp/hoikuunei/haguhagu/navi/nyuennyugaku/hoikuen/r8kakushuyousiki.html",
+      "quote": "受付期間【締切日必着】（令和8年4月1日入園のみ当日消印有効）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.kashiwa.lg.jp/hoikuunei/haguhagu/navi/nyuennyugaku/hoikuen/r8kakushuyousiki.html",
+      "quote": "保育運営課へ、申請書類を郵送してください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.kashiwa.lg.jp/hoikuunei/haguhagu/navi/nyuennyugaku/hoikuen/r8kakushuyousiki.html",
+      "quote": "第1希望の認定こども園へ、直接申請書類を持参してください。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.kashiwa.lg.jp/hoikuunei/faq1.html",
+      "quote": "申請書類一式を揃えて、保育運営課まで郵送してください。沼南支所、出張所及び保育園等での受付はできません。"
+    },
+    "firstResult": {
+      "url": "https://www.city.kashiwa.lg.jp/hoikuunei/haguhagu/navi/nyuennyugaku/hoikuen/r8kakushuyousiki.html",
+      "quote": "結果回答予定日 令和8年4月1日入園 令和7年11月4日（火曜日）～12月8日（月曜日） 令和8年2月4日（水曜日）"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.kashiwa.lg.jp/hoikuunei/faq1.html",
+      "quote": "各月の結果回答予定日までに、ご自宅へ郵送します。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.kashiwa.lg.jp/hoikuunei/haguhagu/navi/nyuennyugaku/hoikuen/r8kakushuyousiki.html",
+      "quote": "5月1日入園 令和8年3月16日（月曜日）～4月3日（金曜日）"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.kashiwa.lg.jp/documents/43671/r8goannai040101.pdf",
+      "quote": "令和８年５月１日以降の入園・転園は申込締切日必着での受付となります"
+    },
+    "documents.0": {
+      "url": "https://www.city.kashiwa.lg.jp/hoikuunei/haguhagu/hokatsu/joho/r8kakusyuyousiki.html",
+      "quote": "子どものための教育・保育給付認定申請書兼保育園等利用申込書【2・3号（保育利用）用】"
+    },
+    "documents.1": {
+      "url": "https://www.city.kashiwa.lg.jp/hoikuunei/haguhagu/hokatsu/joho/r8kakusyuyousiki.html",
+      "quote": "子どものための教育・保育給付認定申請書兼調査書"
+    },
+    "documents.2": {
+      "url": "https://www.city.kashiwa.lg.jp/documents/43671/r8goannai040101.pdf",
+      "quote": "※返信用封筒に110円切手を貼った状態で，申請書類に同封してください。"
+    },
+    "documents.3": {
+      "url": "https://www.city.kashiwa.lg.jp/documents/43671/r8goannai040101.pdf",
+      "quote": "該当のものをご用意ください（令和７年７月１日以降に証明されたもの。）。保護者それぞれに１枚必要です。"
+    },
+    "documents.4": {
+      "url": "https://www.city.kashiwa.lg.jp/documents/43671/r8goannai040101.pdf",
+      "quote": "保護者氏名，分娩予定日，妊娠中の経過のページが必要です"
+    },
+    "interview": {
+      "url": "https://www.city.kashiwa.lg.jp/hoikuunei/haguhagu/navi/nyuennyugaku/hoikuen/r8kakushuyousiki.html",
+      "quote": "の項目において、「有」に該当する方は事前予約の上、お子さんの面接を行います。"
+    },
+    "interview#2": {
+      "url": "https://www.city.kashiwa.lg.jp/documents/43671/r8goannai040101.pdf",
+      "quote": "□４月１日入園をご希望の方のみ，電子申請フォームよりご予約ください（P.３９参照）。"
+    },
+    "interview#3": {
+      "url": "https://www.city.kashiwa.lg.jp/documents/43671/r8goannai040101.pdf",
+      "quote": "□事前面接が済んでいないお子さんの面接は内定先の施設が行います"
+    },
+    "interview#4": {
+      "url": "https://www.city.kashiwa.lg.jp/documents/43671/r8goannai040101.pdf",
+      "quote": "□健康診断票は，入園日前日までに内定先にご提出ください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.kashiwa.lg.jp/documents/43671/r8goannai040101.pdf",
+      "quote": "休業の延長も許容できる」にチェックした場合，当該年度内に限り，減点（－４０点）をして利用調整を行います。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.kashiwa.lg.jp/documents/43671/r8goannai040101.pdf",
+      "quote": "希望園に空きがある場合は利用内定となり，保留通知書は発行できません。"
+    },
+    "notes.0": {
+      "url": "https://www.city.kashiwa.lg.jp/hoikuunei/haguhagu/navi/nyuennyugaku/hoikuen/r8kakushuyousiki.html",
+      "quote": "日にちに余裕を持って、可能な限り締切日2週間前までに申込みいただきますようお願いします。"
+    },
+    "notes.1": {
+      "url": "https://www.city.kashiwa.lg.jp/hoikuunei/faq1.html",
+      "quote": "入園内定は、先着順ではありません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.kashiwa.lg.jp/hoikuunei/haguhagu/navi/nyuennyugaku/hoikuen/r8kakushuyousiki.html",
+      "quote": "4月1日入園※1 令和8年11月2日（月曜日）～未定"
+    },
+    "notes.2#2": {
+      "url": "https://www.city.kashiwa.lg.jp/hoikuunei/haguhagu/navi/nyuennyugaku/hoikuen/r8kakushuyousiki.html",
+      "quote": "詳細は令和8年11月1日に柏市のホームページ及び広報かしわにてお知らせします。"
+    },
+    "notes.3": {
+      "url": "https://www.city.kashiwa.lg.jp/hoikuunei/faq1.html",
+      "quote": "4月の入園申込みに限り、申込対象のお子さんが出産前であってもお申込みが可能です。"
+    },
+    "notes.3#2": {
+      "url": "https://www.city.kashiwa.lg.jp/hoikuunei/faq1.html",
+      "quote": "なお、対象となるのは、4月1日時点で生後57日を経過しているお子さんとなります。"
+    },
+    "notes.3#3": {
+      "url": "https://www.city.kashiwa.lg.jp/hoikuunei/faq1.html",
+      "quote": "あくまでも仮受付となりますので、事前に保育運営課までご連絡ください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.kashiwa.lg.jp/hoikuunei/faq1.html",
+      "quote": "すべて記入する必要はありません。希望する保育園等のみ記入してください。なお、上限は20園までとなります。"
+    },
+    "notes.5": {
+      "url": "https://www.city.kashiwa.lg.jp/documents/43671/r8goannai040101.pdf",
+      "quote": "一度提出した申込書等は返却できないため，手続きされる方は，提出する前に必ずご自身で写しをお取りください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "柏市「令和8年度保育園等申込みのご案内」",
+      "url": "https://www.city.kashiwa.lg.jp/hoikuunei/haguhagu/navi/nyuennyugaku/hoikuen/r8kakushuyousiki.html"
+    },
+    {
+      "label": "柏市「《参考》令和8年4月1日入園申込みをご検討の方」",
+      "url": "https://www.city.kashiwa.lg.jp/hoikuunei/haguhagu/hokatsu/joho/r84gatunyuuenn.html"
+    },
+    {
+      "label": "柏市「令和8年度 保育園等利用申込みのご案内」（PDF）",
+      "url": "https://www.city.kashiwa.lg.jp/documents/43671/r8goannai040101.pdf"
+    },
+    {
+      "label": "柏市「保育園等に関わる各種様式ダウンロード(令和8年度用)」",
+      "url": "https://www.city.kashiwa.lg.jp/hoikuunei/haguhagu/hokatsu/joho/r8kakusyuyousiki.html"
+    },
+    {
+      "label": "柏市「これから認可保育園等の利用をお考えの方」",
+      "url": "https://www.city.kashiwa.lg.jp/hoikuunei/faq1.html"
+    }
+  ]
+}

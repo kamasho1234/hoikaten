@@ -1,0 +1,191 @@
+{
+  "citySlug": "funabashi",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "船橋市「認可保育所等の利用手続きに関するＱ＆Ａ」",
+    "url": "https://www.city.funabashi.lg.jp/kodomo/hoiku/002/p020873.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "「船橋市保育所等利用のご案内」（冊子）は10月中旬発行予定。申請書類入りの冊子を保育入園課窓口・認可保育所等・船橋駅前総合窓口センター・出張所・連絡所で配布し、申込書はホームページからもダウンロードできる",
+  "firstApply": "令和8年11月2日（月曜日）〜11月30日（令和9年2月〜4月の利用希望はいずれも11月30日締切）",
+  "applyMethods": "ぴったりサービス（マイナポータル）からの電子申請、保育入園課への郵送（簡易書留・特定記録郵便・レターパックなど追跡可能な方法に限る。市はできるだけ郵送を求めている）、保育入園課窓口での提出。出張所・連絡所では受け付けない",
+  "firstResult": "4月の利用調整の結果通知書は2月中旬頃に発送。4月は申請したすべての人に結果通知を送る",
+  "midYearDeadline": "5月〜翌年1月の利用希望は、希望月の前々月の25日（土日・祝日の場合はその前日）が締切",
+  "documents": [
+    "船橋市教育・保育給付認定申請書（兼）船橋市保育所等利用申込書",
+    "児童の健康状況調書（表）・育児（産後）休業明けでの利用申込に関する申告・誓約書（裏）",
+    "マイナンバー確認書類",
+    "保育を必要とする事由を確認するための書類（就労証明書など）",
+    "児童・保護者・祖父母が要件に該当する場合のみ必要となる資料"
+  ],
+  "interview": "一部の保育所と家庭的保育事業者は見学が必須条件（見学前の申請は可）。見学は事前に施設へ電話予約する。発達面などで支援が必要な可能性がある場合は、書類の手続きとは別に保育運営課が面談等を行うことがある",
+  "ikukyu": "育休明けの申請は入所した月の翌月15日までの復職が必要（4月入所なら5月15日まで）。市外居住者は令和8年4月から「希望保育所等が利用不承諾であれば育児休業の延長も許容できる」での申請を受け付けない。ハローワークでの育児休業給付金の延長手続きには利用不承諾通知書（または証明書）に加えて利用申込書の写し（両面）が必要で、市は写しを発行しない",
+  "notes": [
+    "4月の利用申請に限り、出産前でも「出生前予約申請」ができる（4月1日時点で生後57日目を迎える子が対象）",
+    "利用決定は先着順ではなく、申請日によって点数に差は生じない",
+    "4月利用申込の受付期間中（11月）は窓口が曜日・時間帯によらず終日混雑する",
+    "令和9年4月以降も申請する場合は、4月利用申込の期間中に改めて申請が必要",
+    "希望保育園以外は、空きがあっても利用調整の対象にならない",
+    "初めて申し込む保護者向けの利用申込み事前説明会があり、参加しなくても申込みはできる"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.funabashi.lg.jp/kodomo/hoiku/002/p149525.html",
+      "quote": "令和9年4月からの認可保育所等の利用申込が令和8年11月2日(月曜日)から開始することに伴い、利用申込みの事前説明会を開催します。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.funabashi.lg.jp/kodomo/hoiku/002/p149525.html",
+      "quote": "※10月中旬に発行します「船橋市保育所等利用のご案内（冊子パンフレット）」を活用しての説明になります。"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.funabashi.lg.jp/kodomo/hoiku/002/p054970.html",
+      "quote": "また、保育入園課窓口と認可保育所等のほか、船橋駅前総合窓口センター、出張所、連絡所にて、申請書類が差し込まれた案内パンフレット「保育所等利用のご案内」をご用意しております"
+    },
+    "guideRelease#3": {
+      "url": "https://www.city.funabashi.lg.jp/kodomo/hoiku/002/p054970.html",
+      "quote": "利用申込書（認定申請書）はホームページからダウンロードすることができます。"
+    },
+    "firstApply": {
+      "url": "https://www.city.funabashi.lg.jp/kodomo/hoiku/002/p149525.html",
+      "quote": "令和9年4月からの認可保育所等の利用申込が令和8年11月2日(月曜日)から開始することに伴い、利用申込みの事前説明会を開催します。"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.funabashi.lg.jp/kodomo/hoiku/002/p020873.html",
+      "quote": "利用希望月が令和9年2月から令和9年4月の場合は、11月30日が締切日となっております。"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.funabashi.lg.jp/kodomo/hoiku/002/p020873.html",
+      "quote": "4月からの保育園の利用申請の場合、11月2日から受付開始し11月30日に締め切りとなっております。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.funabashi.lg.jp/kodomo/hoiku/002/p020873.html",
+      "quote": "ぴったりサービス（オンライン申請）、郵送、保育入園課窓口で受付けております。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.funabashi.lg.jp/kodomo/hoiku/002/p054970.html",
+      "quote": "保育入園課に郵送　※できるだけ郵送での申請にご協力ください。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.funabashi.lg.jp/kodomo/hoiku/002/p054970.html",
+      "quote": "（簡易書留、特定記録郵便、レターパックなど追跡可能な方法に限ります。）"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.funabashi.lg.jp/kodomo/hoiku/002/p020873.html",
+      "quote": "※出張所、連絡所等では申請書は受付できません。"
+    },
+    "firstResult": {
+      "url": "https://www.city.funabashi.lg.jp/kodomo/hoiku/002/p020873.html",
+      "quote": "ただし、4月の利用調整の結果通知書については、利用調整会議日ではなく2月中旬頃の発送となります。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.funabashi.lg.jp/kodomo/hoiku/002/p020873.html",
+      "quote": "また、4月については申請されたすべての方に結果通知を発送いたしますので、原則、お電話での利用の可否に関するお問い合わせはお受けできません。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.funabashi.lg.jp/kodomo/hoiku/002/p020873.html",
+      "quote": "利用申請の締切日は、5月～翌年1月が利用希望月の場合、希望月の前々月の25日（土日・祝日の場合はその前日）が締切日となります。"
+    },
+    "documents.0": {
+      "url": "https://www.city.funabashi.lg.jp/kodomo/hoiku/002/p020873.html",
+      "quote": "船橋市教育・保育給付認定申請書（兼）船橋市保育所等利用申込書"
+    },
+    "documents.1": {
+      "url": "https://www.city.funabashi.lg.jp/kodomo/hoiku/002/p020873.html",
+      "quote": "児童の健康状況調書（表）・育児（産後）休業明けでの利用申込に関する申告・誓約書 （裏）"
+    },
+    "documents.2": {
+      "url": "https://www.city.funabashi.lg.jp/kodomo/hoiku/002/p054970.html",
+      "quote": "マイナンバー確認書類"
+    },
+    "documents.3": {
+      "url": "https://www.city.funabashi.lg.jp/kodomo/hoiku/002/p020873.html",
+      "quote": "保育を必要とする事由を確認するための書類（就労証明書など）"
+    },
+    "documents.4": {
+      "url": "https://www.city.funabashi.lg.jp/kodomo/hoiku/002/p020873.html",
+      "quote": "児童・保護者・祖父母が要件に該当する場合のみ必要となる資料"
+    },
+    "interview": {
+      "url": "https://www.city.funabashi.lg.jp/kodomo/hoiku/002/p020873.html",
+      "quote": "見学が必須の施設であっても、見学前に申請することは可能です。ただし、一部の保育所と家庭的保育事業者については見学が必須条件となります。"
+    },
+    "interview#2": {
+      "url": "https://www.city.funabashi.lg.jp/kodomo/hoiku/002/p020873.html",
+      "quote": "なお、見学される際は、事前に希望施設に電話予約してください。"
+    },
+    "interview#3": {
+      "url": "https://www.city.funabashi.lg.jp/kodomo/hoiku/002/p020873.html",
+      "quote": "お子さまの発達状況により、集団保育にあたり支援を必要とする可能性のある場合は、書類のお手続きとは別に保育運営課において面談等を行う場合があります。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.funabashi.lg.jp/kodomo/hoiku/002/p020873.html",
+      "quote": "育児休業（休暇）明けでの利用申請の場合は、入所した月の翌月15日までの復職が必要です。例えば、 4月に入所した場合は5月15日までに復職する必要があります。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.funabashi.lg.jp/kodomo/hoiku/002/p020873.html",
+      "quote": "市外居住の方でも、ご申請は可能です（令和8年4月より「希望保育所等が利用不承諾であれば育児休業の延長も許容できる」でのご申請は受け付けません）。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.funabashi.lg.jp/kodomo/hoiku/002/p131365.html",
+      "quote": "ハローワークでの育児休業給付金の支給期間延長手続きの際は、市の発行する船橋市保育所等利用不承諾通知書（または保育所等利用不承諾証明書）が必要となります。"
+    },
+    "ikukyu#4": {
+      "url": "https://www.city.funabashi.lg.jp/kodomo/hoiku/002/p131365.html",
+      "quote": "これに加え、令和7年4月からは保育所等の利用申込書の写し（両面）が必要となります（市の収受印は不要です）。"
+    },
+    "ikukyu#5": {
+      "url": "https://www.city.funabashi.lg.jp/kodomo/hoiku/002/p131365.html",
+      "quote": "※船橋市では、「保育所等利用申込書」及び「希望保育所等追加・変更届」の写しの発行を承っておりません。"
+    },
+    "notes.0": {
+      "url": "https://www.city.funabashi.lg.jp/kodomo/hoiku/002/p020873.html",
+      "quote": "4月の利用申請に限り、申請対象のお子さまが出産前であってもご申請いただけます（「出生前予約申請」といいます。）。"
+    },
+    "notes.0#2": {
+      "url": "https://www.city.funabashi.lg.jp/kodomo/hoiku/002/p020873.html",
+      "quote": "なお、申請対象となるのは、4月1日時点で生後57日目を迎えるお子さまとなります。"
+    },
+    "notes.1": {
+      "url": "https://www.city.funabashi.lg.jp/kodomo/hoiku/002/p020873.html",
+      "quote": "利用調整に関する規定に基づき父母の就労時間などを点数化し、この点数の高い方から順に決定しており、申請日によって点数に差は生じません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.funabashi.lg.jp/kodomo/hoiku/002/p020873.html",
+      "quote": "4月利用申込受付期間中（11月）は曜日・時間帯によらず終日混雑します。"
+    },
+    "notes.3": {
+      "url": "https://www.city.funabashi.lg.jp/kodomo/hoiku/002/p020873.html",
+      "quote": "（令和9年4月以降も申請する場合は4月利用申込の期間中に再度申請が必要となります。）"
+    },
+    "notes.4": {
+      "url": "https://www.city.funabashi.lg.jp/kodomo/hoiku/002/p020873.html",
+      "quote": "なお、希望保育園以外は、空きがあっても利用調整の対象外となります。"
+    },
+    "notes.5": {
+      "url": "https://www.city.funabashi.lg.jp/kodomo/hoiku/002/p149525.html",
+      "quote": "・説明会に参加しないと申込みができないわけではありません。"
+    },
+    "notes.5#2": {
+      "url": "https://www.city.funabashi.lg.jp/kodomo/hoiku/002/p149525.html",
+      "quote": "・初めて申込みをする保護者向けの内容になりますので、申込み経験のある保護者の皆様にはすでに知っている内容になります。"
+    }
+  },
+  "sources": [
+    {
+      "label": "船橋市「認可保育所等の利用手続きに関するＱ＆Ａ」",
+      "url": "https://www.city.funabashi.lg.jp/kodomo/hoiku/002/p020873.html"
+    },
+    {
+      "label": "船橋市「令和9年度向け保育所等利用申込み事前説明会の開催」",
+      "url": "https://www.city.funabashi.lg.jp/kodomo/hoiku/002/p149525.html"
+    },
+    {
+      "label": "船橋市「認可保育所等の利用手続き」",
+      "url": "https://www.city.funabashi.lg.jp/kodomo/hoiku/002/p054970.html"
+    },
+    {
+      "label": "船橋市「ハローワークでの育児休業給付金の支給対象期間延長手続きが変わります（市からのお願い）」",
+      "url": "https://www.city.funabashi.lg.jp/kodomo/hoiku/002/p131365.html"
+    }
+  ]
+}

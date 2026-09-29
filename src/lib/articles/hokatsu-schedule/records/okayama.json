@@ -1,0 +1,86 @@
+{
+  "citySlug": "okayama",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "岡山市「令和9年4月入園手続きについて（認可保育園、認定こども園（保育利用）、地域型保育事業）」",
+    "url": "https://www.city.okayama.jp/kurashi/0000016996.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "保育利用ガイドを令和8年10月14日（水曜日）から配布",
+  "firstApply": "令和8年10月19日（月曜日）から11月4日（水曜日）まで必着。電子申請・郵送による受付は令和8年10月14日（水曜日）から開始",
+  "applyMethods": "窓口は就園管理課（一次募集期間中は臨時受付窓口）・各福祉事務所・各支所総務民生課。電子申請・郵送でも受け付ける。臨時受付窓口は10月31日（土曜日）・11月1日（日曜日）も受付",
+  "firstResult": "令和9年1月中旬に通知",
+  "documents": [
+    "教育・保育給付認定申請書兼保育利用申込書",
+    "就労証明書（証明日が9月11日以降のもの）"
+  ],
+  "notes": [
+    "郵送の際は特定記録郵便や簡易書留の利用を推奨",
+    "保育利用ガイドは10月14日(水曜日)公表予定で詳しい内容はそちらを参照",
+    "令和8年10月の現況届に添付する就労証明書も、証明日が9月11日以降である必要がある"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.okayama.jp/kurashi/0000016996.html",
+      "quote": "令和9年4月から新たに、認可保育園、認定こども園（保育利用）、地域型保育事業の保育利用を希望される方の申し込みを、以下のとおり受け付けます。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.okayama.jp/kurashi/0000016996.html",
+      "quote": "また、令和9年度保育利用ガイドを10月14日(水曜日)より配布いたします。"
+    },
+    "firstApply": {
+      "url": "https://www.city.okayama.jp/kurashi/0000016996.html",
+      "quote": "一次募集受付期間：令和8年10月19日（月曜日）から11月4日（水曜日）まで〈必着〉"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.okayama.jp/kurashi/0000016996.html",
+      "quote": "電子申請や郵送による受付は令和8年10月14日（水曜日）からとなります。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.okayama.jp/kurashi/0000016996.html",
+      "quote": "就園管理課（一次募集期間中は旧本庁舎1階臨時受付窓口）各福祉事務所、各支所総務民生課"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.okayama.jp/kurashi/0000016996.html",
+      "quote": "臨時受付窓口のみ、10月31日(土曜日)と11月1日(日曜日)(各日午前8時30分から午後5時15分まで)も受付を行います。"
+    },
+    "firstResult": {
+      "url": "https://www.city.okayama.jp/kurashi/0000016996.html",
+      "quote": "一次利用調整の結果は、令和9年1月中旬に通知します。"
+    },
+    "documents.0": {
+      "url": "https://www.city.okayama.jp/kurashi/0000016996.html",
+      "quote": "令和9年度教育・保育給付認定申請書兼保育利用申込書は10月14日（水曜日）からダウンロードできます。"
+    },
+    "documents.1": {
+      "url": "https://www.city.okayama.jp/kurashi/0000016996.html",
+      "quote": "令和9年4月申し込みや令和8年10月の現況届に添付する就労証明書は、証明日が9月11日以降である必要があります。"
+    },
+    "notes.0": {
+      "url": "https://www.city.okayama.jp/kurashi/0000016996.html",
+      "quote": "郵送の際は、特定記録郵便や簡易書留の利用を推奨します。受付は必着となりますので、日にちに余裕をもって発送してください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.okayama.jp/kurashi/0000016996.html",
+      "quote": "申込方法や新規開園情報など、詳しくは10月14日(水曜日)公表の「令和9年度保育利用ガイド」をご覧ください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.okayama.jp/kurashi/0000016996.html",
+      "quote": "令和9年4月申し込みや令和8年10月の現況届に添付する就労証明書は、証明日が9月11日以降である必要があります。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.okayama.jp/kurashi/0000016996.html",
+      "quote": "電子申請や郵送による受付は令和8年10月14日（水曜日）からとなります。"
+    }
+  },
+  "sources": [
+    {
+      "label": "岡山市「令和9年4月入園手続きについて（認可保育園、認定こども園（保育利用）、地域型保育事業）」",
+      "url": "https://www.city.okayama.jp/kurashi/0000016996.html"
+    },
+    {
+      "label": "岡山市「保育・幼児教育施設の受入見込み情報」",
+      "url": "https://www.city.okayama.jp/kurashi/0000012977.html"
+    }
+  ]
+}

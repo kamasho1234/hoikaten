@@ -1,0 +1,215 @@
+{
+  "citySlug": "kita",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "北区「保育園の入園申請（申請締切日と結果公表日）」",
+    "url": "https://www.city.kita.lg.jp/children-edu/childcare/1002975/1002976/1002977/1026492.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年12月1日が申請書一式と「希望園変更届」の締切（受付は午後5時まで）。追加書類の締切は令和8年12月8日",
+  "applyMethods": "保育課入園相談係（北区役所第一庁舎2階1番）の窓口、郵送、電子申請で受け付ける。窓口は予約不要で、月曜日から金曜日（祝日・年末年始を除く）の午前8時30分から午後5時まで。郵送・電子申請は締切日の17時必着で、過ぎたものはまだ締切日がきていない翌月以降の申請として扱われる",
+  "firstResult": "令和9年2月8日（予定）に結果公表。4月入園の一次・二次の結果は、入園内定しなかった人全員に通知が送られる",
+  "secondApply": "令和9年2月15日が申請書一式・「希望園変更届」・追加書類の締切",
+  "secondResult": "令和9年3月5日（予定）に結果公表",
+  "midYearDeadline": "入園希望月ごとに締切日と結果公表日が決まっている。3月入園の利用調整は行わない",
+  "documents": [
+    "保育所等利用申請書と子どものための教育・保育給付認定(変更)申請書（保育認定用）",
+    "家庭状況調査書、児童の状況、同意書兼重要事項確認書",
+    "保育を必要とすることを証明する書類（児童の父母と、児童と同居する60歳未満の祖父母の分。就労の場合は就労証明書）",
+    "複数の職場で働いている場合は、すべての就労先の就労証明書"
+  ],
+  "interview": "入園が内定したら面接・健康診断を受ける。日程は内定連絡の際に保育園から伝えられる",
+  "ikukyu": "育休延長に必要な「保育利用保留通知書」を受けるには、入園希望月の申請締切日までに必ず利用申請をする。利用申請の際に「復職に関する申出書」を出すと、希望する期間は世帯の保育指数を「2」として利用調整される（保育指数「2」での調整を希望しないなら申出書は不要）",
+  "notes": [
+    "令和9年5月入園分以降のスケジュールは、令和9年度版の保育利用案内の発行後に案内される",
+    "利用調整は保育指数の高い順で、抽選や先着順ではない。希望順位は利用調整に影響しないので、本当に通いたい園から順に書く",
+    "4月入所に向けた申請が集中する11月から12月上旬や、12時から13時前後は窓口が大変混雑する",
+    "郵送は申請書類の到着まで数営業日かかるので締切日に余裕を持つ。保育園経由で申請書類を提出することはできない",
+    "クラブ保育園は、令和9年4月以降の入園児から延長保育が1時間になる",
+    "申請書には受付月に応じた有効期限があり、有効期限内の入園希望月については重複して申請する必要はない"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.kita.lg.jp/children-edu/childcare/1002975/1002976/1002977/1002978.html",
+      "quote": "令和9年度版の保育利用案内は令和8年10月頃発行予定ですが、区民サービス向上のため、申請締切日・結果公表日などスケジュールのみ、令和9年4月（二次）入園分まで予定より早く公開することとしました。"
+    },
+    "firstApply": {
+      "url": "https://www.city.kita.lg.jp/_res/projects/default_project/_page_/001/026/492/r9.4.pdf",
+      "quote": "令和9年4月1日(1次) 令和8年12月 1日 令和8年12月 8日 令和9年 2月 8日"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.kita.lg.jp/_res/projects/default_project/_page_/001/026/492/r9.4.pdf",
+      "quote": "入園希望年月日 申請書一式の締切日 「希望園変更届」締切日 追加書類の締切日 結果公表日(予定)"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.kita.lg.jp/children-edu/childcare/1002975/1002976/1002977/1026492.html",
+      "quote": "なお、申請の受付は、各締切日の午後5時までです。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.kita.lg.jp/children-edu/childcare/1002975/1002976/1002977/1002992.html",
+      "quote": "保育課入園相談係の窓口、郵送、電子申請で受付します。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.kita.lg.jp/children-edu/childcare/1002975/1002976/1002977/1002992.html",
+      "quote": "保育課入園相談係（北区役所第一庁舎2階1番）"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.kita.lg.jp/children-edu/childcare/1002975/1002976/1002977/1002992.html",
+      "quote": "以下の受付窓口に申請に必要な書類を直接ご提出ください。ご予約は必要ありません。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.kita.lg.jp/children-edu/childcare/1002975/1002976/1002977/1002992.html",
+      "quote": "月曜日から金曜日（祝日・年末年始を除く）の午前8時30分から午後5時まで"
+    },
+    "applyMethods#5": {
+      "url": "https://www.city.kita.lg.jp/children-edu/childcare/1002975/1002976/1002977/1002992.html",
+      "quote": "なお、各月の締切日（17時必着）を過ぎて送信された申請は、まだ締切日がきていない翌月以降の申請から有効な書類として取り扱います。"
+    },
+    "applyMethods#6": {
+      "url": "https://www.city.kita.lg.jp/children-edu/childcare/1002975/1002976/1002977/1002992.html",
+      "quote": "各月の締切日（17時必着）を過ぎて到着した場合、まだ締切日がきていない翌月以降の申請から有効な書類として取り扱います。"
+    },
+    "firstResult": {
+      "url": "https://www.city.kita.lg.jp/_res/projects/default_project/_page_/001/026/492/r9.4.pdf",
+      "quote": "令和9年4月1日(1次) 令和8年12月 1日 令和8年12月 8日 令和9年 2月 8日"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.kita.lg.jp/_res/projects/default_project/_page_/001/026/492/r9.4.pdf",
+      "quote": "入園希望年月日 申請書一式の締切日 「希望園変更届」締切日 追加書類の締切日 結果公表日(予定)"
+    },
+    "firstResult#3": {
+      "url": "https://www.city.kita.lg.jp/_res/projects/default_project/_page_/001/002/978/r8hoikuriyouannnai080702.pdf",
+      "quote": "ただし、４月入園の一次及び二次申請の結果については、入園内定しなかった方全員に通知を送付します。"
+    },
+    "secondApply": {
+      "url": "https://www.city.kita.lg.jp/_res/projects/default_project/_page_/001/026/492/r9.4.pdf",
+      "quote": "令和9年4月1日(2次) 令和9年 2月15日 令和9年 2月15日 令和9年 ３月 5日"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.kita.lg.jp/_res/projects/default_project/_page_/001/026/492/r9.4.pdf",
+      "quote": "入園希望年月日 申請書一式の締切日 「希望園変更届」締切日 追加書類の締切日 結果公表日(予定)"
+    },
+    "secondResult": {
+      "url": "https://www.city.kita.lg.jp/_res/projects/default_project/_page_/001/026/492/r9.4.pdf",
+      "quote": "令和9年4月1日(2次) 令和9年 2月15日 令和9年 2月15日 令和9年 ３月 5日"
+    },
+    "secondResult#2": {
+      "url": "https://www.city.kita.lg.jp/_res/projects/default_project/_page_/001/026/492/r9.4.pdf",
+      "quote": "入園希望年月日 申請書一式の締切日 「希望園変更届」締切日 追加書類の締切日 結果公表日(予定)"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.kita.lg.jp/children-edu/childcare/1002975/1002976/1002977/1026492.html",
+      "quote": "認可保育園の利用申請は、入園希望年月日によって締切日や結果公表日が異なります。"
+    },
+    "documents.0": {
+      "url": "https://www.city.kita.lg.jp/_res/projects/default_project/_page_/001/002/992/r8checklist.pdf",
+      "quote": "□「保育所等利用申請書」 □「子どものための教育・保育給付認定(変更)申請書（保育認定用）」"
+    },
+    "documents.1": {
+      "url": "https://www.city.kita.lg.jp/_res/projects/default_project/_page_/001/002/992/r8checklist.pdf",
+      "quote": "□｢家庭状況調査書｣ □｢児童の状況｣ □｢同意書兼重要事項確認書｣"
+    },
+    "documents.2": {
+      "url": "https://www.city.kita.lg.jp/_res/projects/default_project/_page_/001/002/992/r8checklist.pdf",
+      "quote": "児童の父母、児童と同居する60歳未満の祖父母の分が必要です。"
+    },
+    "documents.2#2": {
+      "url": "https://www.city.kita.lg.jp/_res/projects/default_project/_page_/001/002/992/r8checklist.pdf",
+      "quote": "就労の方（就労予定を含む） □父 □母 □祖父 □祖母 □「就労証明書」"
+    },
+    "documents.3": {
+      "url": "https://www.city.kita.lg.jp/_res/projects/default_project/_page_/001/002/992/r8checklist.pdf",
+      "quote": "複数箇所就労の方 □父 □母 □祖父 □祖母 □すべての就労先の「就労証明書」"
+    },
+    "interview": {
+      "url": "https://www.city.kita.lg.jp/_res/projects/default_project/_page_/001/002/978/r8hoikuriyouannnai080702.pdf",
+      "quote": "入園内定した場合には、面接・健康診断を受けていただきます。面接・健康診断の日程は、内定連絡の際に園からお伝えします。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.kita.lg.jp/_res/projects/default_project/_page_/001/002/978/r8hoikuriyouannnai080702.pdf",
+      "quote": "「保育利用保留通知書」が必要な方は、各入園希望月の申請の締切日（７ページ参照）までに必ず利用申請を行ってください。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.kita.lg.jp/_res/projects/default_project/_page_/001/002/978/r8hoikuriyouannnai080702.pdf",
+      "quote": "希望する期間、世帯の保育指数（選考指数・調整指数）を「2」として利用調整を行います。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.kita.lg.jp/_res/projects/default_project/_page_/001/002/978/r8hoikuriyouannnai080702.pdf",
+      "quote": "※世帯の保育指数「2」による利用調整を希望しない場合は、「復職に関する申出書」の提出は不要です。"
+    },
+    "notes.0": {
+      "url": "https://www.city.kita.lg.jp/children-edu/childcare/1002975/1002976/1002977/1002978.html",
+      "quote": "令和9年5月入園分以降のスケジュールは、令和9年度版の保育利用案内の発行をお待ちください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.kita.lg.jp/children-edu/childcare/1002975/1002976/1002977/1002982.html",
+      "quote": "入園可能数以上に申請があった場合、保育指数の高い順に利用調整を行います。抽選や先着順ではありません。"
+    },
+    "notes.1#2": {
+      "url": "https://www.city.kita.lg.jp/children-edu/childcare/1002975/1002976/1002977/1002982.html",
+      "quote": "また、希望順位は利用調整に影響しませんので、希望園を決める際は本当に通いたい保育園から順番に希望してください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.kita.lg.jp/children-edu/childcare/1002975/1002976/1002977/1002992.html",
+      "quote": "各月の入所締切日の直前や4月入所に向けた申請が集中する11月から12月上旬、窓口の受付体制を縮小する12時から13時前後の時間帯は窓口が大変混雑します。"
+    },
+    "notes.3": {
+      "url": "https://www.city.kita.lg.jp/children-edu/childcare/1002975/1002976/1002977/1002992.html",
+      "quote": "郵送の場合、申請書類が到着するまで数営業日かかりますので、締切日に余裕を持ってご申請ください。"
+    },
+    "notes.3#2": {
+      "url": "https://www.city.kita.lg.jp/children-edu/childcare/1002975/1002976/1002977/1002992.html",
+      "quote": "保育園経由で申請書類を提出することはできません。"
+    },
+    "notes.4": {
+      "url": "https://www.city.kita.lg.jp/children-edu/childcare/1002975/1002976/1002977/1002978.html",
+      "quote": "※クラブ保育園は、令和9年4月以降の入園児から延長保育が1時間になります。"
+    },
+    "notes.5": {
+      "url": "https://www.city.kita.lg.jp/children-edu/childcare/1002975/1002976/1002977/1002992.html",
+      "quote": "※有効期限内の入園希望月については、重複して申請する必要はありません。"
+    },
+    "notes.5#2": {
+      "url": "https://www.city.kita.lg.jp/children-edu/childcare/1002975/1002976/1002977/1002992.html",
+      "quote": "保育課で申請受付した月に応じて、申請書の有効期限を設けています。"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.kita.lg.jp/children-edu/childcare/1002975/1002976/1002977/1026492.html",
+      "quote": "また、3月入園の利用調整は行っていませんのでご注意ください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "北区「保育園の入園申請（申請締切日と結果公表日）」",
+      "url": "https://www.city.kita.lg.jp/children-edu/childcare/1002975/1002976/1002977/1026492.html"
+    },
+    {
+      "label": "北区「令和9年4月（一次・二次）のスケジュール」",
+      "url": "https://www.city.kita.lg.jp/_res/projects/default_project/_page_/001/026/492/r9.4.pdf"
+    },
+    {
+      "label": "北区「保育園 保育利用案内」",
+      "url": "https://www.city.kita.lg.jp/children-edu/childcare/1002975/1002976/1002977/1002978.html"
+    },
+    {
+      "label": "北区「令和8年度 保育利用案内（令和7年10月発行）」",
+      "url": "https://www.city.kita.lg.jp/_res/projects/default_project/_page_/001/002/978/r8hoikuriyouannnai080702.pdf"
+    },
+    {
+      "label": "北区「保育園の入園申請（申請方法）」",
+      "url": "https://www.city.kita.lg.jp/children-edu/childcare/1002975/1002976/1002977/1002992.html"
+    },
+    {
+      "label": "北区「提出書類チェックリスト」",
+      "url": "https://www.city.kita.lg.jp/_res/projects/default_project/_page_/001/002/992/r8checklist.pdf"
+    },
+    {
+      "label": "北区「保育園の入園申請（利用調整方法）」",
+      "url": "https://www.city.kita.lg.jp/children-edu/childcare/1002975/1002976/1002977/1002982.html"
+    },
+    {
+      "label": "北区「保育園の入園申請（各保育園の空き人数及び申込状況）」",
+      "url": "https://www.city.kita.lg.jp/children-edu/childcare/1002975/1002976/1002977/1018588.html"
+    }
+  ]
+}

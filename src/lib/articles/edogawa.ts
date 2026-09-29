@@ -3,47 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "edogawa",
-    title: "江戸川区の保活、いつから始める？スケジュール完全ガイド",
-    description:
-      "江戸川区の認可保育園の申込時期・選考の流れ・内定通知時期をわかりやすく解説します。",
-    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>令和8年度（2026年度）4月入園のスケジュール</h2>
-<p>江戸川区の4月入園は、<strong>一次利用調整</strong>と<strong>二次利用調整</strong>の2回に分かれています。</p>
-
-<h3>一次利用調整</h3>
-<table>
-<tr><th>項目</th><th>日程</th></tr>
-<tr><td>申込期間</td><td>令和7年10月上旬〜11月中旬</td></tr>
-<tr><td>結果通知</td><td>令和8年1月下旬〜2月上旬</td></tr>
-</table>
-
-<h3>二次利用調整</h3>
-<table>
-<tr><th>項目</th><th>日程</th></tr>
-<tr><td>申込期間</td><td>令和8年1月下旬〜2月中旬</td></tr>
-<tr><td>結果通知</td><td>令和8年3月上旬</td></tr>
-</table>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>江戸川区では「認可保育施設入園のご案内」が毎年発行されます。最新の利用調整指数表も掲載されているので必ず入手しましょう。</p>
-</div>
-
-<h2>保育園見学は早めに</h2>
-<p>6月〜9月に見学を済ませておくのがおすすめです。江戸川区は保育園の数が多いエリアです。</p>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.edogawa.tokyo.jp/e048/qa/kosodate/kosodate/hoiku/moushikomi/riyochosei/riyochoseikihon.html" target="_blank" rel="noopener">江戸川区公式サイト「利用調整の基本」</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-03-28",
-    popularity: 55,
-  },
-  {
     slug: "scoring-system-guide",
     citySlug: "edogawa",
     title: "江戸川区の入園点数のしくみ　基準指数と調整指数をやさしく解説",

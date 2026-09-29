@@ -1,0 +1,127 @@
+{
+  "citySlug": "sapporo",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "札幌市「令和9年4月1日から、新たに保育所・認定こども園の利用を希望される方へ」",
+    "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/8935.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "1次調整の受付締切は令和8年11月30日17時15分（郵送は締切必着）。締切より後の申込みは2次調整の対象になる",
+  "applyMethods": "お住まいの区の保健センター（健康・子ども課子ども家庭福祉係）に原則郵送で申請する。郵送は担当係に届いた日が受付日で、不備がある場合は原則不備解消後の受付になる",
+  "midYearDeadline": "年度途中の利用申込みは随時受付。調整は毎週金曜日が締切で、締切日から2か月先までの利用希望について翌週以降に調整する",
+  "documents": [
+    "給付認定等申請書（教育・保育給付2号・3号認定用）、保育を必要とする理由を確認できる書類、利用調整及び利用者負担額等の決定に必要な書類（一部の人のみ）、マイナンバー記入・貼付用紙",
+    "保育を必要とする事由を確認できる書類は、保護者それぞれの入所希望日時点のものを用意する",
+    "育児休業からの復職を前提に申し込む場合は、勤務先の就労証明書のほかに保護者が書いた「申立書」",
+    "申請者の身元確認書類と番号確認書類のコピー"
+  ],
+  "ikukyu": "入所が決まったら、入所日の翌月前日までに育児休業を終了し、入所日の翌月同日までに復職する（4月1日入所なら4月1日〜4月30日に育休を終え、5月1日までに復職）。育休明けの加点は、就労証明書No.9の記載と申立書で復職の意思を確認できる場合に行う",
+  "notes": [
+    "郵送申請は締切必着で、郵送の不着・遅延の責任は市が負わないので余裕をもって手続きする",
+    "調整はその時点の申込者を対象に行うので、先着による優先はない",
+    "令和8年11月以降、令和9年4月1日入所に向けた施設別の受入予定数・申込数を公表する（1回目は受入予定数のみで申込数は出さない）",
+    "育児休業給付金の延長手続きに保育所等の利用申請書類の写しが要るので、申請前に自分でコピーを取っておく",
+    "9月以降に年度途中の申込みをする場合は、次年度の希望園を確認する「希望園確認票」も出す",
+    "随時調整の各施設の受け入れ状況はホームページで公表しないので、希望施設のある区の健康・子ども課に電話等で確認する"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/7656.html",
+      "quote": "このページでは、令和8年11月以降に「令和9年4月1日入所に向けた各施設の受入予定数・申込数」を公表します。"
+    },
+    "firstApply": {
+      "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/8935.html",
+      "quote": "1次調整の受付締切（令和8年11月30日17時15分）より後にお申込みいただいた場合は、1次調整の対象とすることができず、2次調整の対象となります。"
+    },
+    "firstApply#2": {
+      "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/8935.html",
+      "quote": "原則、郵送による申請を受け付けていますが、締切必着となります。"
+    },
+    "applyMethods": {
+      "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/835.html",
+      "quote": "認可保育所等の入所申込等の手続きについては、お住まいの区の保健センター（健康・子ども課　子ども家庭福祉係）に原則、郵送により申請いただくようお願いいたします。"
+    },
+    "applyMethods#2": {
+      "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/835.html",
+      "quote": "なお、郵送の場合は、担当係に郵送物が届いた日を受付日といたしますが、不備がある場合は、原則不備解消後の受付となりますのでご了承ください。"
+    },
+    "midYearDeadline": {
+      "url": "https://kosodate.city.sapporo.jp/material/files/group/1/nyusyoannai_R0809.pdf",
+      "quote": "利用申込みは随時受け付け、内容を審査の上、調整を行います。調整は毎週金曜日を締切とし、締切日から２か月先までの利用希望について翌週以降に行います"
+    },
+    "documents.0": {
+      "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/8935.html",
+      "quote": "提出書類は、申込用紙（給付認定等申請書＜教育・保育給付２号・３号認定用＞）のほか、「保育を必要とする理由を確認できる書類」・「利用調整及び利用者負担額等の決定に必要な書類（一部の方のみ）」・「マイナンバー記入・貼付用紙」です。"
+    },
+    "documents.1": {
+      "url": "https://kosodate.city.sapporo.jp/material/files/group/1/nyusyoannai_R0809.pdf",
+      "quote": "必ず、保護者それぞれの入所希望日時点の保育を必要とする事由を確認できる書類をご用意ください。"
+    },
+    "documents.2": {
+      "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/835.html",
+      "quote": "育児休業からの復職を前提として、認可保育所等の入所を希望する場合は、勤務先からの就労証明書のほかに、保護者の方が記載した「申立書」の添付が必要です。"
+    },
+    "documents.3": {
+      "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/835.html",
+      "quote": "申請者の身元確認書類と番号確認書類のコピーが必要です。"
+    },
+    "ikukyu": {
+      "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/8935.html",
+      "quote": "認可保育所等に入所する日を1日目として、その翌月前日までに育児休業を終了し、入所する日の翌月同日までに復職する必要があります。"
+    },
+    "ikukyu#2": {
+      "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/8935.html",
+      "quote": "４月１日から４月30日までの間に育児休業を終了し、５月１日までに復職する必要があります。"
+    },
+    "ikukyu#3": {
+      "url": "https://kosodate.city.sapporo.jp/material/files/group/1/nyusyoannai_R0809.pdf",
+      "quote": "就労証明書の№9の記載および申立書により「認可保育所等の入所に伴い育児休業から復職する意思があること」を確認できる場合に、育児休業明けの加点を行います。"
+    },
+    "notes.0": {
+      "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/8935.html",
+      "quote": "また、郵送の不着・遅延等の責任は一切負えませんので、余裕をもってお手続きいただきますようお願いいたします。"
+    },
+    "notes.1": {
+      "url": "https://kosodate.city.sapporo.jp/material/files/group/1/nyusyoannai_R0809.pdf",
+      "quote": "調整の度にその時点の申込者を対象にするため、先着による優先はありません。"
+    },
+    "notes.2": {
+      "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/7656.html",
+      "quote": "このページでは、令和8年11月以降に「令和9年4月1日入所に向けた各施設の受入予定数・申込数」を公表します。"
+    },
+    "notes.2#2": {
+      "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/7656.html",
+      "quote": "なお、1回目は受入予定数のみ公表し、申込数は公表しません。"
+    },
+    "notes.3": {
+      "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/835.html",
+      "quote": "育児休業給付金の手続きには、市区町村に保育所等の利用申請をした際の申請書類の写しが 必要となりましたので、申請前にご自身でコピーを取るようお願いいたします。"
+    },
+    "notes.4": {
+      "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/835.html",
+      "quote": "9月以降に年度途中の保育所等の申込みを行う場合、次年度の希望園を合わせて確認いたしますので、以下の希望園確認票もご提出ください。"
+    },
+    "notes.5": {
+      "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/8935.html",
+      "quote": "ホームページでは公表いたしませんので、希望する施設のある区の健康・子ども課子ども家庭福祉（担当）係に直接、電話等でご確認いただきますようお願いいたします。"
+    }
+  },
+  "sources": [
+    {
+      "label": "札幌市「令和9年4月1日から、新たに保育所・認定こども園の利用を希望される方へ」",
+      "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/8935.html"
+    },
+    {
+      "label": "札幌市「認可保育所等への入所手続きについて」",
+      "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/835.html"
+    },
+    {
+      "label": "札幌市「令和9年4月1日入所に向けた各施設の受入予定数・申込数について」",
+      "url": "https://kosodate.city.sapporo.jp/mokuteki/azukeru/hoiku/ninka/7656.html"
+    },
+    {
+      "label": "札幌市「札幌市 認可保育所等入所案内」（PDF）",
+      "url": "https://kosodate.city.sapporo.jp/material/files/group/1/nyusyoannai_R0809.pdf"
+    }
+  ]
+}

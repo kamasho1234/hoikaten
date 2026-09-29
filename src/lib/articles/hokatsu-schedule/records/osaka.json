@@ -1,0 +1,167 @@
+{
+  "citySlug": "osaka",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "大阪市「令和9年度　保育施設・事業の利用申込書の配付・受付期間等について」",
+    "url": "https://www.city.osaka.lg.jp/kodomo/page/0000683147.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年9月4日（金）から申込書類を配付。大阪市ホームページからダウンロードすることもできる",
+  "firstApply": "令和8年10月1日（木）〜10月15日（木）。受付期間に申し込んだ人の希望施設等の変更と不足書類等の追加提出期限は令和8年11月16日（月）",
+  "applyMethods": "お住まいの区の保健福祉センター保育担当に申し込む（他の区の施設を希望する場合も同じ）。1次調整の受付は「大阪市行政オンラインシステム」で受付日時の事前予約が必要で、予約は令和8年9月9日（水）9時から",
+  "firstResult": "令和9年1月25日（月）に結果通知を発送、1月27日（水）以降順次到着予定",
+  "secondApply": "令和9年1月8日（金）〜2月5日（金）。2次調整の希望施設の変更と不足書類等の提出期限も2月5日（金）",
+  "secondResult": "令和9年2月26日（金）に結果通知を発送、3月2日（火）以降順次到着予定",
+  "midYearDeadline": "利用開始希望月の前月の5日（閉庁日の場合は翌開庁日）まで",
+  "documents": [
+    "子どものための教育・保育給付保育認定（変更）申請書兼保育施設・事業利用調整申込書、利用調整調査票（その1）",
+    "利用調整調査票（その2）",
+    "個人情報に係る同意書及び利用申込みに係る確認書",
+    "個人番号記載用紙（保護者と子どもを含む世帯員のマイナンバーを記入）",
+    "就労証明書（会社員・公務員・パート・派遣社員等は雇用主が記入・証明したもの）",
+    "自営業・自営専従者は就労証明書に必要事項を記入し、指定の書類のいずれかを添付",
+    "求職活動中は求職活動状況申告書",
+    "受付時に本人確認をするための証明書等"
+  ],
+  "interview": "利用申込みの受付と併せて面接を行うので、申込みの際は必ず子どもと一緒に行く",
+  "ikukyu": "利用開始前に育児休業を取得している保護者は、原則として利用開始月中に復職し、翌月末までに復職（予定）証明書を提出する。提出がない場合や期日を過ぎた場合は決定等を取り消し、退所となることがある",
+  "notes": [
+    "2次調整以降の申込受付は区によって異なるので、お住まいの区の保健福祉センター保育担当に問い合わせる",
+    "各区の実情に合わせて、保健福祉センター以外（保育施設・事業所等）に受付会場を設ける場合もある",
+    "予約なしで行くと長時間待つことがあり、予約状況によっては後日の受付になる場合もある",
+    "募集予定人数は令和8年9月9日（水）に公表",
+    "令和8年9月から保育料無償化の対象が第1子まで拡充され、認可保育施設を利用するすべての子どもの保育料は無償"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000683147.html",
+      "quote": "令和9年4月1日からの保育所、認定こども園（保育所機能部分：2号認定子ども、3号認定子ども）、地域型保育事業の利用について、次のとおり申込書の配付及び受付を行います。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000682656.html",
+      "quote": "令和8年9月4日（金曜日）　申込書類の配付開始"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000683147.html",
+      "quote": "大阪市ホームページからダウンロードすることも可能です。（9月4日（金曜日）公開予定）"
+    },
+    "firstApply": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000683147.html",
+      "quote": "令和8年10月1日（木曜日）から令和8年10月15日（木曜日） まで"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000682656.html",
+      "quote": "令和8年11月16日（月曜日）　希望施設等の変更及び不足書類等の追加提出期限"
+    },
+    "applyMethods": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000683147.html",
+      "quote": "複数の区の保育施設を希望する場合であっても、お住まいの区の保健福祉センター保育担当へご提出ください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000683147.html",
+      "quote": "1次調整での申込受付については、事前に「大阪市行政オンラインシステム」での日時予約が必要となります。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000683147.html",
+      "quote": "利用申込受付のオンライン予約は令和8年9月9日（水曜日）の9時から開始します。"
+    },
+    "firstResult": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000682656.html",
+      "quote": "令和9年1月25日（月曜日）　結果通知発送　27日（水曜日）以降順次到着予定"
+    },
+    "secondApply": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000682656.html",
+      "quote": "令和9年1月8日（金曜日）～2月5日（金曜日）　受付期間"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000683147.html",
+      "quote": "2次調整における希望施設の変更及び不足書類等の提出期限は令和9年2月5日（金曜日）となります。"
+    },
+    "secondResult": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000682656.html",
+      "quote": "令和9年2月26日（金曜日）　結果通知発送　3月2日（火曜日）以降順次到着予定"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000682656.html",
+      "quote": "利用開始希望月の前月の5日（閉庁日の場合は翌開庁日）までにお申し込みください。"
+    },
+    "documents.0": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000682656.html",
+      "quote": "「1.子どものための教育・保育給付保育認定（変更）申請書兼保育施設・事業利用調整申込書、利用調整調査票（その1）」、"
+    },
+    "documents.1": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000682656.html",
+      "quote": "「2.利用調整調査票（その2）」、"
+    },
+    "documents.2": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000682656.html",
+      "quote": "「3.個人情報に係る同意書及び利用申込みに係る確認書」、"
+    },
+    "documents.3": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000682656.html",
+      "quote": "「4.個人番号記載用紙」に、保護者、子どもを含む世帯員の個人番号（マイナンバー）をご記入ください。"
+    },
+    "documents.4": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000682977.html",
+      "quote": "会社員・公務員・パート・派遣社員等雇用主がある場合は、雇用主が必要事項を記入・証明した「就労証明書」を提出してください。"
+    },
+    "documents.5": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000682977.html",
+      "quote": "自営業の方、自営専従者の方は、「就労証明書」に必要事項を記入し、次のいずれかの書類を添付してください。"
+    },
+    "documents.6": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000682977.html",
+      "quote": "求職活動中の方は、「求職活動状況申告書」を記載し、提出してください。"
+    },
+    "documents.7": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000682656.html",
+      "quote": "また、受付時には、各種証明書等により本人確認を行います。"
+    },
+    "interview": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000682656.html",
+      "quote": "また、利用申込みの受付と併せて面接を行います。申込みの際には、必ず児童と一緒にお越しください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000682656.html",
+      "quote": "利用開始前に育児休業を取得しているすべての保護者は、原則として利用開始月中に復職し、翌月末までに「復職（予定）証明書」を提出してください。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000682656.html",
+      "quote": "提出がない場合や、期日を過ぎてから提出された場合、決定等を取り消し、退所となることがあります。"
+    },
+    "notes.0": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000683147.html",
+      "quote": "2次調整以降の申込受付は区によって異なります。詳細はお住まいの区の保健福祉センター保育担当へお問い合わせください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000683147.html",
+      "quote": "各区の実情に合わせて、保健福祉センター以外に受付会場を設ける場合もあります。（保育施設・事業所等）"
+    },
+    "notes.2": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000683147.html",
+      "quote": "予約なしでの受付の場合、長時間お待ちいただく場合があります。また、予約状況によっては後日の受付となる場合もあります。"
+    },
+    "notes.3": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000682656.html",
+      "quote": "令和8年9月9日（水曜日）　募集予定人数の公表、受付日時のオンライン予約開始"
+    },
+    "notes.4": {
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000682656.html",
+      "quote": "大阪市では、令和8年9月から保育料無償化の対象を第1子まで拡充しているため、認可保育施設を利用するすべての子どもの保育料は無償です。"
+    }
+  },
+  "sources": [
+    {
+      "label": "大阪市「令和9年度　保育施設・事業の利用申込書の配付・受付期間等について」",
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000683147.html"
+    },
+    {
+      "label": "大阪市「令和9年度　保育施設・保育事業利用の案内について」",
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000682656.html"
+    },
+    {
+      "label": "大阪市「令和9年度　保育施設・事業の利用申込みに係る各種証明様式について」",
+      "url": "https://www.city.osaka.lg.jp/kodomo/page/0000682977.html"
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "citySlug": "itabashi",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "板橋区「令和9年度4月入所 認可保育施設申込み案内」",
+    "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ninka/1064903/1064905.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年9月11日（金曜日）から4月入所の申込み手続きを載せた「幼稚園・保育園のご案内」（保育利用の手引き）を配布。配布場所は保育サービス課（区役所南館3階23番窓口）、志村福祉課、赤塚福祉課、区内の各認可保育施設、各区民事務所、区立児童館・図書館など。区ホームページでも閲覧できる。新年度入所版の就労証明書は令和8年8月26日（水曜日）から先行配布",
+  "firstApply": "令和8年10月1日（木曜日）〜令和8年10月23日（金曜日）必着。不足書類の提出と希望施設の変更は令和8年10月30日（金曜日）まで",
+  "applyMethods": "マイナポータルからマイナンバーカードを使った電子申請、郵送（書留など追跡できる方法で、保育サービス課入園相談係あて。締切日必着）、窓口（保育サービス課入園相談係・志村福祉課・赤塚福祉課、平日午前8時30分〜午後5時）。夜間受付は令和8年10月6日（火曜日）・10月13日（火曜日）の午後5時〜7時、休日受付は10月18日（日曜日）の午前9時〜午後5時（いずれも保育サービス課入園相談係）",
+  "firstResult": "令和9年2月5日（金曜日）に結果を通知。通知の到着より前に内定施設から連絡が来ることもある",
+  "secondApply": "令和8年10月26日（月曜日）〜令和9年2月12日（金曜日）必着。保育の必要性を証明する書類は11月12日以降に作成されたものが必要",
+  "secondResult": "令和9年3月12日（金曜日）に結果を通知",
+  "midYearDeadline": "年度途中（令和9年5月〜12月）入所は月ごとに申込締切日がある（例: 令和9年6月入所の一次選考は5月10日締切）。令和10年1・2・3月入所の申込締切日は原則12月10日",
+  "documents": [
+    "教育・保育給付認定申請書兼保育施設利用申込書／申込児童の健康状況等について（申込児童1人につき1枚・年度ごとに1枚）",
+    "家庭状況届出書／提出物チェックリスト（1世帯で1部）",
+    "エントリーシート（重要事項確認）。署名・日付を記入する",
+    "個人番号（マイナンバー）の提供について（保護者のマイナンバーと令和8年1月1日時点の居住地を記入）",
+    "おやこ健康手帳（母子健康手帳）の直近に受けた健康診査のページのコピー（A4サイズ）",
+    "本人確認書類（郵送の場合は運転免許証や保険証などのコピー。窓口ではマイナンバーカードを持参）",
+    "就労証明書（就労・就労内定・育児休業中の保護者それぞれに必要。育児休業中の方は産休・育休の欄の証明が必要）",
+    "就労証明書は令和9年度用の様式で提出する。旧様式で作成済みの場合も使えるが、入所希望月の申込み締切日から起算して3か月以内の証明に限る",
+    "求職中の方は求職活動申告書（求職活動中の場合は裏面の求職活動記録表も記入）"
+  ],
+  "interview": "内定した保育施設で面接と健康診断を受ける。申込み前の園見学は可能であれば勧められているが必須ではない",
+  "ikukyu": "令和7年度から入所保留希望での申込みはできない。申請書の育児休業に関する項目で「希望する施設に入所できない場合は、育児休業の延長も許容できる」を選ぶと、選考指数を10点に減点して利用調整する。希望する施設に欠員があれば内定となり、内定した場合は入所保留通知を発行できない。この選択ができるのは板橋区民（転入予定を含む）のみ。育児休業給付金の延長手続きには入所申込書全ての写しが必要なので、提出前に自分で写しを取っておく",
+  "notes": [
+    "入所選考は先着順や抽選ではなく、希望園が選考に有利・不利になることもない。希望した園すべてで選考し、候補が複数なら最も希望順の高い園が内定園になる",
+    "令和8年10月12日〜令和9年2月17日に出生予定の子は、特例として出生前に4月一次・二次の申込みができる（分娩予定日のページのコピーと誓約書を提出し、出生後2週間以内に出生届出済証明のページのコピーを提出）",
+    "希望施設は最大20園まで書ける。第17希望以降は「希望施設追加用紙」を使う",
+    "受付期間中は窓口が大変混雑するので、申込みの相談・質問は可能なかぎり9月30日（水）までに電話・窓口・オンライン相談で済ませるよう求められている",
+    "4月三次申込は令和9年2月15日（月曜日）〜3月24日（水曜日）必着",
+    "申請書類がすべて揃っていなくても受付は可能で、不足書類は令和8年10月30日（金）までに提出する"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ninka/1064903/1064905.html",
+      "quote": "令和9年度「幼稚園・保育園のご案内」（保育利用の手引き）には、令和9年4月入所の申込み手続きに関する情報を掲載しています。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ninka/1064903/1064905.html",
+      "quote": "令和8年9月11日（金曜日）より配布開始を予定しております。"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ninka/1064903/1064905.html",
+      "quote": "保育サービス課（区役所南館3階23番窓口）、志村福祉課、赤塚福祉課、区内の各認可保育施設、各区民事務、各区立児童館、各区立図書館"
+    },
+    "guideRelease#3": {
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ninka/1064903/1064905.html",
+      "quote": "また、ホームページからも閲覧可能です。"
+    },
+    "guideRelease#4": {
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ninka/1064903/1064905.html",
+      "quote": "令和8年8月26日（水曜日）より、令和9年度入所版の就労証明書を先行配布いたします。"
+    },
+    "firstApply": {
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ninka/1064903/1064905.html",
+      "quote": "令和8年10月1日（木曜日）～令和8年10月23日（金曜日） 必着"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ninka/1064903/1064905.html",
+      "quote": "※不足書類、希望施設の変更締切日は令和8年10月30日（金曜日）までです。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ninka/1064903/1064905.html",
+      "quote": "スマートフォンなどを使って国が運営するオンラインサービス「マイナポータル」から、マイナンバーカードを使った電子申請ができます。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ninka/1064903/1064905.html",
+      "quote": "・書留などの追跡可能な方法でご郵送ください。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ninka/1064903/1064905.html",
+      "quote": "保育サービス課入園相談係（区役所南館3階23番窓口）、志村福祉課、赤塚福祉課"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ninka/1064903/1064905.html",
+      "quote": "実施日：令和8年10月6日（火曜日）、令和8年10月13日（火曜日） 時間 ：午後5時～午後7時"
+    },
+    "applyMethods#5": {
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ninka/1064903/1064905.html",
+      "quote": "実施日：令和8年10月18日（日曜日） 時間 ：午前9時～午後5時"
+    },
+    "applyMethods#6": {
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ninka/1064903/1064905.html",
+      "quote": "午前8時30分～午後5時（平日のみ）"
+    },
+    "firstResult": {
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ninka/1064903/1064905.html",
+      "quote": "4月一次結果通知日 令和9年2月5日（金曜日）"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ninka/1064903/1064905.html",
+      "quote": "※郵便事情により、通知の到着が前後する場合があります。また、到着より前に内定施設から連絡することがあります。"
+    },
+    "secondApply": {
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ninka/1064903/1064905.html",
+      "quote": "令和8年10月26日（月曜日）～令和9年2月12日（金曜日） 必着"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.itabashi.tokyo.jp/_res/projects/default_project/_page_/001/066/134/r8/r9tebikiallpage.pdf",
+      "quote": "ついては、11月12日以降に作成されたものが必要になります。"
+    },
+    "secondResult": {
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ninka/1064903/1064905.html",
+      "quote": "4月二次結果通知日 令和9年3月12日（金曜日）"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.itabashi.tokyo.jp/_res/projects/default_project/_page_/001/066/134/r8/r9tebikiallpage.pdf",
+      "quote": "令和９年６月 ５月10日（月） ５月20日（木） ５月24日（月）"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.itabashi.tokyo.jp/_res/projects/default_project/_page_/001/066/134/r8/r9tebikiallpage.pdf",
+      "quote": "※ １・２・３月入所の申込み締切日は、原則12月10日ですが、締切日以降に板橋区民になる予定ができた等、"
+    },
+    "documents.0": {
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ninka/1064903/1065165.html",
+      "quote": "「教育・保育給付認定申請書兼保育施設利用申込書／申込児童の健康状況等について」は、申込児童1人につき1枚・年度ごとに1枚ご提出ください。"
+    },
+    "documents.1": {
+      "url": "https://www.city.itabashi.tokyo.jp/_res/projects/default_project/_page_/001/066/134/r8/r9tebikiallpage.pdf",
+      "quote": "2 家庭状況届出書/提出物 チェックリスト １世帯で１部 ご提出ください。"
+    },
+    "documents.2": {
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ninka/1064903/1065165.html",
+      "quote": "3 エントリーシート（重要事項確認） 署名・日付を忘れずにご記入ください。"
+    },
+    "documents.3": {
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ninka/1064903/1065165.html",
+      "quote": "保護者のマイナンバーをご記入ください。 令和8年1月1日時点の居住地を忘れずにご記入ください。"
+    },
+    "documents.4": {
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ninka/1064903/1065165.html",
+      "quote": "直近に受けた健康診査のページをコピー（A4サイズ）してご提出ください。"
+    },
+    "documents.5": {
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ninka/1064903/1065165.html",
+      "quote": "本人確認書類として、運転免許証や保険証などのコピーを提出してください。 受付窓口で申込みをされる方へ マイナンバーカードを持参してください。"
+    },
+    "documents.6": {
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ninka/1064903/1065165.html",
+      "quote": "該当する保護者それぞれに必要です。 育児休業中の方は、産休・育休の欄を証明していただく必要があります。"
+    },
+    "documents.7": {
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ninka/1064903/1064905.html",
+      "quote": "すでに旧様式で就労先に作成を依頼している場合は旧様式での提出でも構いません。ただし、入所希望月の申込み締切日から起算して3か月以内の証明に限ります。"
+    },
+    "documents.8": {
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ninka/1064903/1065165.html",
+      "quote": "求職活動中の場合は、裏面（2ページ目）の求職活動記録表もご記入ください。"
+    },
+    "interview": {
+      "url": "https://www.city.itabashi.tokyo.jp/_res/projects/default_project/_page_/001/066/134/r8/r9tebikiallpage.pdf",
+      "quote": "内定した保育施設で面接と健康診断を受"
+    },
+    "interview#2": {
+      "url": "https://www.city.itabashi.tokyo.jp/_res/projects/default_project/_page_/001/066/134/r8/r9tebikiallpage.pdf",
+      "quote": "希望施設を決める前に可能であれば園見学をしましょう（※必須ではありません）。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.itabashi.tokyo.jp/_res/projects/default_project/_page_/001/066/134/r8/r9tebikiallpage.pdf",
+      "quote": "令和７年度から、入所保留希望での申込みはできなくなりました。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.itabashi.tokyo.jp/_res/projects/default_project/_page_/001/066/134/r8/r9tebikiallpage.pdf",
+      "quote": "希望する施設に入所できない場合は、育児休業の延長も許容できる」に□した場合、選考指数を減点し、10点で利用調整を行います。しかし、希望する施設に欠員がある場合は、内定となります。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.itabashi.tokyo.jp/_res/projects/default_project/_page_/001/066/134/r8/r9tebikiallpage.pdf",
+      "quote": "内定した場合、入所保留通知を発行することはできません。"
+    },
+    "ikukyu#4": {
+      "url": "https://www.city.itabashi.tokyo.jp/_res/projects/default_project/_page_/001/066/134/r8/r9tebikiallpage.pdf",
+      "quote": "択しての申込みができるのは、板橋区民のみです（転入予定を含む）。"
+    },
+    "ikukyu#5": {
+      "url": "https://www.city.itabashi.tokyo.jp/_res/projects/default_project/_page_/001/066/134/r8/r9tebikiallpage.pdf",
+      "quote": "令和7年4月から、育児休業給付金の支給期間延長手続きの際は、入所申込書全ての写し（区の受領印は不要）が必要になりました。"
+    },
+    "notes.0": {
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ninka/1064903/1064905.html",
+      "quote": "入所選考は先着順や抽選ではありません。また、希望園が入所選考に有利・不利となることもありません。希望した園すべてで選考され、内定候補園が複数となった場合、最も希望順の高い園が内定園となります。"
+    },
+    "notes.1": {
+      "url": "https://www.city.itabashi.tokyo.jp/_res/projects/default_project/_page_/001/066/134/r8/r9tebikiallpage.pdf",
+      "quote": "令和８年10月12日～令和９年２月17日の間に出生予定のお子さんの場合は、特例として出生前に４月入所の申込みをすることができます。"
+    },
+    "notes.2": {
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ninka/1064903/1065165.html",
+      "quote": "希望施設の上限は20園です。第17希望以降の園がある場合は、「希望施設追加用紙」をご利用ください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.itabashi.tokyo.jp/_res/projects/default_project/_page_/001/066/134/r8/r9tebikiallpage.pdf",
+      "quote": "申込みに関するご相談・ご質問は、可能なかぎり９月30日（水）までに電話や窓口、オンライン相談でお済ませください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ninka/1064903/1064905.html",
+      "quote": "4月三次申込 令和9年2月15日（月曜日）～令和9年3月24日（水曜日） 必着"
+    },
+    "notes.5": {
+      "url": "https://www.city.itabashi.tokyo.jp/_res/projects/default_project/_page_/001/066/134/r8/r9tebikiallpage.pdf",
+      "quote": "申請書類がすべて揃っていなくても、受付は可能です。 不足書類は、令和８年10月30日（金）までにご提出ください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "板橋区「令和9年度4月入所 認可保育施設申込み案内」",
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ninka/1064903/1064905.html"
+    },
+    {
+      "label": "板橋区「申込み手続きに必要な書類一覧 (令和9年度)」",
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ninka/1064903/1065165.html"
+    },
+    {
+      "label": "板橋区「令和9年度 幼稚園・保育園のご案内（保育利用の手引）」",
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ninka/1064903/1066134.html"
+    },
+    {
+      "label": "板橋区「電子申請について」",
+      "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/ninka/1053474.html"
+    }
+  ]
+}

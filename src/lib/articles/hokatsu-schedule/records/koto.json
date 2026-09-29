@@ -1,0 +1,215 @@
+{
+  "citySlug": "koto",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "江東区「令和9年度保育園等入園の申込み手続きについて」",
+    "url": "https://www.city.koto.lg.jp/280308/hoikuenmoushikomi-r9.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "入園のしおりと申込み書類は保育支援課保育サービス係（江東区役所3階12番）、豊洲特別出張所、各出張所、区内の認可保育園等、各子ども家庭支援センター、各保健相談所、区内の認証保育所で配布し、区ホームページからもダウンロードできる。各出張所と各子ども家庭支援センターでの配布期間は9月15日〜12月2日",
+  "firstApply": "郵送・電子申請は令和8年10月13日（火曜日）〜11月19日（木曜日）（郵送は必着）。窓口は令和8年10月20日（火曜日）〜10月23日（金曜日）が豊洲シビックセンター11階区民広場、令和8年11月8日（日曜日）〜11月19日（木曜日）が江東区役所7階71〜73会議室（11月8日以外の土・日曜日は除く）",
+  "applyMethods": "窓口、郵送（保育支援課保育サービス係あて・締切日必着。窓口と締切日が異なる）、電子申請（マイナポータルのぴったりサービス。受付締切日23時59分までに届いたものが有効）の3通り",
+  "firstResult": "令和9年1月25日（月曜日）に郵送で発送予定",
+  "secondApply": "令和8年11月20日（金曜日）〜令和9年2月12日（金曜日）。窓口は江東区役所3階12番窓口（土・日曜日、祝日を除く）で、郵送・電子申請も同じ期間",
+  "secondResult": "令和9年3月1日（月曜日）に郵送で発送予定",
+  "midYearDeadline": "5月以降の入園は利用開始希望月ごとに受付期間があり、受付締切日が指数基準日になる（例：5月入園は令和9年3月8日〜4月5日）。2・3月入園の受付はしない",
+  "documents": [
+    "利用申込書",
+    "家庭状況届",
+    "児童の健康状況申告書",
+    "保育の必要性を証明する書類（父・母ともに就労証明書、診断書等）",
+    "提出書類確認票",
+    "本人確認書類（写）貼付台紙（郵送申込みの場合のみ）",
+    "出生前申込みの場合は母子手帳の写し（表紙と分娩（出産）予定日が記載されているページ）"
+  ],
+  "interview": "内定後、各施設で面談と健康診断を行う",
+  "ikukyu": "育児休業の延長も許容できる場合は「育児休業延長許容届（区様式）」を申込書類と同時に出す。調整指数で減算して利用調整するため入所の可能性が著しく低くなる。4月入園では一次募集では出せず、二次募集から受け付ける",
+  "notes": [
+    "出産予定が令和9年2月3日までなら、4月入園一次募集の受付期間内に出生前申込みができる（生後4か月からの園を希望する場合は出産予定日が令和8年12月1日まで）",
+    "一次募集で書類に不備・不足があったときの追加書類は、申込後〜令和8年12月2日（水曜日）必着",
+    "4月入園一次募集の窓口受付は、来庁日時をオンラインで事前予約できる（予約は必須ではない）",
+    "窓口受付で書類の先着順により選考が有利になることはない",
+    "郵送は区役所に届いた日が申請日になり、書類の到着確認の電話には対応しないため、簡易書留・レターパック等の追跡できる郵便で送る",
+    "4月入園二次募集の終了時点で待機でも、希望園に辞退者がいれば繰上げ内定となる場合があり、対象者には3月5日に電話で知らせる"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.koto.lg.jp/280308/hoikuenmoushikomi-r9.html",
+      "quote": "入園及び転園の申込方法は、令和9年度江東区保育園等入園のしおりに記載されております。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.koto.lg.jp/280308/hoikuenmoushikomi-r9.html",
+      "quote": "入園のしおりと申込み書類は、保育支援課保育サービス係（江東区役所3階12番）、豊洲特別出張所、各出張所、江東区内の認可保育園等、各子ども家庭支援センター、各保健相談所、江東区内の認証保育所にて配布いたします。"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.koto.lg.jp/280308/hoikuenmoushikomi-r9.html",
+      "quote": "各出張所と各子ども家庭支援センターでの配布期間は、入園のしおり配布開始日から4月入園一次募集追加書類受付締切まで（9月15日～12月2日）です。"
+    },
+    "firstApply": {
+      "url": "https://www.city.koto.lg.jp/280308/20230301.html",
+      "quote": "4月入園一次募集の受付期間は令和8年10月13日（火曜日）～11月19日（木曜日）です。"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.koto.lg.jp/280308/hoikuenmoushikomi-r9.html",
+      "quote": "一次募集：令和8年10月13日（火曜日）～11月19日（木曜日）必着"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.koto.lg.jp/280308/documents/nyuuennoshiori_r9.pdf",
+      "quote": "窓口受付❶期：令和８年10月20日（火） ～ 10月23日（金）"
+    },
+    "firstApply#4": {
+      "url": "https://www.city.koto.lg.jp/280308/documents/nyuuennoshiori_r9.pdf",
+      "quote": "窓口受付❷期：令和８年11月８日（日） ～ 11月19日（木）"
+    },
+    "firstApply#5": {
+      "url": "https://www.city.koto.lg.jp/280308/hoikuenmoushikomi-r9.html",
+      "quote": "（注釈）11月8日（日曜日）以外の土・日曜日は除く"
+    },
+    "applyMethods": {
+      "url": "https://www.city.koto.lg.jp/280308/hoikuenmoushikomi-r9.html",
+      "quote": "区役所にお越しいただくことなく、郵便でのお申込みを承っております。窓口での受付と締切日が異なりますので、ご注意ください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.koto.lg.jp/280308/20230301.html",
+      "quote": "国が運営するマイナポータルにおけるぴったりサービスによりお手続きができます。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.koto.lg.jp/280308/20230301.html",
+      "quote": "受付締切日23時59分までに正常に江東区へ申請データが届いたもののみ有効となります。"
+    },
+    "firstResult": {
+      "url": "https://www.city.koto.lg.jp/280308/hoikuenmoushikomi-r9.html",
+      "quote": "令和9年4月入園一次募集：令和9年1月25日（月曜日）発送予定"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.koto.lg.jp/280308/hoikuenmoushikomi-r9.html",
+      "quote": "郵送によりお知らせいたします。当日の電話でのお問い合わせはご遠慮ください。"
+    },
+    "secondApply": {
+      "url": "https://www.city.koto.lg.jp/280308/20230301.html",
+      "quote": "4月入園二次募集の受付期間は令和8年11月20日（金曜日）～令和9年2月12日（金曜日）です。"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.koto.lg.jp/280308/documents/nyuuennoshiori_r9.pdf",
+      "quote": "窓口受付：令和８年11月20日（金）～令和９年２月12日（金） ８：30～17：00 江東区役所３階12番窓口"
+    },
+    "secondResult": {
+      "url": "https://www.city.koto.lg.jp/280308/hoikuenmoushikomi-r9.html",
+      "quote": "令和9年4月入園二次募集：令和9年3月1日（月曜日）発送予定"
+    },
+    "secondResult#2": {
+      "url": "https://www.city.koto.lg.jp/280308/hoikuenmoushikomi-r9.html",
+      "quote": "郵送によりお知らせいたします。当日の電話でのお問い合わせはご遠慮ください。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.koto.lg.jp/280308/documents/nyuuennoshiori_r9.pdf",
+      "quote": "５月入園 令和９年３月８日（月）～ ４月５日（月）"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.koto.lg.jp/280308/documents/nyuuennoshiori_r9.pdf",
+      "quote": "各月の受付締切日が利用指数の指数基準日です。"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.koto.lg.jp/280308/documents/nyuuennoshiori_r9.pdf",
+      "quote": "２・３月入園の受付は実施しておりません。"
+    },
+    "documents.0": {
+      "url": "https://www.city.koto.lg.jp/280308/hoikuenmoushikomi-r9.html",
+      "quote": "利用申込書、家庭状況届、児童の健康状況申告書、保育の必要性を証明する書類（父・母ともに就労証明書、診断書等）"
+    },
+    "documents.1": {
+      "url": "https://www.city.koto.lg.jp/280308/hoikuenmoushikomi-r9.html",
+      "quote": "利用申込書、家庭状況届、児童の健康状況申告書、保育の必要性を証明する書類（父・母ともに就労証明書、診断書等）"
+    },
+    "documents.2": {
+      "url": "https://www.city.koto.lg.jp/280308/hoikuenmoushikomi-r9.html",
+      "quote": "利用申込書、家庭状況届、児童の健康状況申告書、保育の必要性を証明する書類（父・母ともに就労証明書、診断書等）"
+    },
+    "documents.3": {
+      "url": "https://www.city.koto.lg.jp/280308/hoikuenmoushikomi-r9.html",
+      "quote": "利用申込書、家庭状況届、児童の健康状況申告書、保育の必要性を証明する書類（父・母ともに就労証明書、診断書等）"
+    },
+    "documents.4": {
+      "url": "https://www.city.koto.lg.jp/280308/hoikuenmoushikomi-r9.html",
+      "quote": "提出書類確認票、本人確認書類（写）貼付台紙（郵送申込みの場合のみ）、その他世帯の状況に応じて必要な書類を揃えてお申込みください。"
+    },
+    "documents.5": {
+      "url": "https://www.city.koto.lg.jp/280308/hoikuenmoushikomi-r9.html",
+      "quote": "提出書類確認票、本人確認書類（写）貼付台紙（郵送申込みの場合のみ）、その他世帯の状況に応じて必要な書類を揃えてお申込みください。"
+    },
+    "documents.6": {
+      "url": "https://www.city.koto.lg.jp/280308/hoikuenmoushikomi-r9.html",
+      "quote": "申込み時に、「母子手帳の写し（表紙＋分娩（出産）予定日が記載されているページ）」が必要です。"
+    },
+    "interview": {
+      "url": "https://www.city.koto.lg.jp/280308/documents/nyuuennoshiori_r9.pdf",
+      "quote": "内定後、各施設で面談と健康診断を行います。各施設から日程等の連絡があります。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.koto.lg.jp/280308/documents/nyuuennoshiori_r9.pdf",
+      "quote": "育児休業延長許容届を提出すると、保育所等の入所の可能性が著しく低くなります。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.koto.lg.jp/280308/documents/nyuuennoshiori_r9.pdf",
+      "quote": "本届出を提出する場合、４月入園二次募集から申込みを受付します。（一次募集では提出不可）"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.koto.lg.jp/280308/documents/nyuuennoshiori_r9.pdf",
+      "quote": "本届出を提出した場合、調整指数17番（P.37調整指数表）のとおり、減算したうえで、保育所等の利用調整を行います。"
+    },
+    "notes.0": {
+      "url": "https://www.city.koto.lg.jp/280308/hoikuenmoushikomi-r9.html",
+      "quote": "出産予定が令和9年2月3日（水曜日）までの方（入所可能月齢が4か月からの園を希望される場合は、出産予定日が令和8年12月1日までの方）は、4月入園一次募集の受付期間内に申込むことができます。"
+    },
+    "notes.1": {
+      "url": "https://www.city.koto.lg.jp/280308/hoikuenmoushikomi-r9.html",
+      "quote": "一次募集の追加書類提出期間は、申込後～令和8年12月2日（水曜日）必着。"
+    },
+    "notes.2": {
+      "url": "https://www.city.koto.lg.jp/280308/yoyakuuketsuke-r9.html",
+      "quote": "（注釈）予約は必須ではありません。当日窓口で順番待ちをすることもできますが、予約済の方を優先させていただきますので、待ち時間が発生する可能性があります。"
+    },
+    "notes.2#2": {
+      "url": "https://www.city.koto.lg.jp/280308/yoyakuuketsuke-r9.html",
+      "quote": "窓口の来庁日時を事前にオンラインにて予約することができます。"
+    },
+    "notes.3": {
+      "url": "https://www.city.koto.lg.jp/280308/documents/nyuuennoshiori_r9.pdf",
+      "quote": "書類の先着順で選考が有利になることはありません。"
+    },
+    "notes.4": {
+      "url": "https://www.city.koto.lg.jp/280308/hoikuenmoushikomi-r9.html",
+      "quote": "お電話による書類の到着確認の対応は致しかねます。簡易書留・レターパック等の追跡可能な郵便で送付をお願いいたします。"
+    },
+    "notes.4#2": {
+      "url": "https://www.city.koto.lg.jp/280308/hoikuenmoushikomi-r9.html",
+      "quote": "郵送によるお手続きの場合は、郵便が区役所へ到着した日を申請日として取り扱います。"
+    },
+    "notes.5": {
+      "url": "https://www.city.koto.lg.jp/280308/documents/nyuuennoshiori_r9.pdf",
+      "quote": "４月入園二次募集終了時点で待機となっている場合でも、希望園に辞退者がいた場合に繰上げ内定となる場合があります。"
+    },
+    "notes.5#2": {
+      "url": "https://www.city.koto.lg.jp/280308/documents/nyuuennoshiori_r9.pdf",
+      "quote": "対象者には、３月５日（金）に電話でお知らせいたします。"
+    }
+  },
+  "sources": [
+    {
+      "label": "江東区「令和9年度保育園等入園の申込み手続きについて」",
+      "url": "https://www.city.koto.lg.jp/280308/hoikuenmoushikomi-r9.html"
+    },
+    {
+      "label": "江東区「令和9年度江東区保育園等入園のしおり」（PDF）",
+      "url": "https://www.city.koto.lg.jp/280308/documents/nyuuennoshiori_r9.pdf"
+    },
+    {
+      "label": "江東区「保育の電子申請受付について」",
+      "url": "https://www.city.koto.lg.jp/280308/20230301.html"
+    },
+    {
+      "label": "江東区「令和9年度4月入園一次募集の窓口受付における日時予約受付について」",
+      "url": "https://www.city.koto.lg.jp/280308/yoyakuuketsuke-r9.html"
+    }
+  ]
+}

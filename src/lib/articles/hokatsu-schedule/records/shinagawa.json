@@ -1,0 +1,164 @@
+{
+  "citySlug": "shinagawa",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "品川区「保育園入(転)園の手続について」",
+    "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/hpg000027973.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "翌年度4月入園の申請書類は区ホームページに掲載済み。手続きの詳細は令和8年10月頃公開予定の「保育園のご案内（令和8年10月版）」で案内される",
+  "firstApply": "令和9年4月1次の申請締切日は11月20日（金）（令和9年度入園選考予定）。電子申請は締切日の午後11時59分まで",
+  "applyMethods": "電子申請（マイナポータル）、郵送（簡易書留）、区役所の保育入園調整課入園相談担当窓口のいずれか。窓口の受付は平日午前8時30分〜午後5時で、区は電子申請・郵送での手続きを求めている。電子申請の締切は申請締切日の午後11時59分",
+  "firstResult": "結果発表日は2月2日（火）。利用調整結果は文書で通知し、結果発表日に到着予定。4月入園の結果は申請者全員に文書で通知される",
+  "secondApply": "令和9年4月2次の申請締切日は2月9日（火）",
+  "secondResult": "結果発表日は3月9日（火）",
+  "documents": [
+    "保育認定申請書 兼 保育所等利用希望申請書（申請者全員）",
+    "保育が必要な状況を証明する書類（雇用されている場合は品川区所定様式の就労証明書。所定様式以外だと利用調整上不利になるか再提出を依頼される可能性がある）",
+    "必要書類は令和8年9月1日（火）以降に発行されたものが有効。申請書類一式が令和9年度入園用の書式でない場合は再提出を依頼される",
+    "自営・経営者・役員等は就労証明書に加えて、開業届・前年分の確定申告書・源泉徴収票・オフィスの契約書・登記事項証明書などの就労を証明する書類",
+    "出生前に申請した場合は、出生後14日以内に出生届の手続きを済ませ、出生に伴う申請書を保育入園調整課入園相談担当に提出する"
+  ],
+  "interview": "心身に障害のある子や発育・発達上の配慮が要る子（早産児を含む）は、特別支援保育審査会で集団保育の可否などを書類または面接で審査したうえで入園選考を行う",
+  "ikukyu": "育児休業の延長も許容できる場合は、入園申請書類一式の「入転園確認表」でその旨を申告する。その場合、入園選考での優先順位は一番低い扱いになる",
+  "notes": [
+    "出産予定（出生前）での申請ができるのは2月入園と4月入園の1次利用調整だけ",
+    "申請書は当該年度の2月入園の利用調整まで有効。4月入園を希望する場合は申請書と就労証明書等をあらためて提出する",
+    "不足書類や書類の不備があると入園選考の対象外になる",
+    "令和9年4月1次の入園可能数は10月7日（水）に公開予定",
+    "希望園は第8希望まで書ける。希望順位が選考に影響することはない",
+    "入園予約と品川区外への入園申請は電子申請ができない"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/hpg000027973.html",
+      "quote": "令和9年4月1次 11月20日（金） 2月2日（火） 10月7日（水）"
+    },
+    "guideRelease": {
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/20240726160011.html",
+      "quote": "手続きの詳細は、令和8年10月頃に公開を予定している「保育園のご案内（令和8年10月版）」ご確認ください。"
+    },
+    "firstApply": {
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/hpg000027973.html",
+      "quote": "令和9年4月1次 11月20日（金） 2月2日（火） 10月7日（水）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/hpg000027973.html",
+      "quote": "※電子申請の締め切りは申請締切日の午後11時59分までとなります。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/hpg000027973.html",
+      "quote": "窓口混雑緩和のため、電子申請（マイナポータル）・郵送（簡易書留）での手続きにご協力お願いします。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/hpg000027973.html",
+      "quote": "※窓口での申請受付の場合、受付時間は平日の午前8時30分から午後5時までです。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/hpg000027973.html",
+      "quote": "※電子申請の締め切りは申請締切日の午後11時59分までとなります。"
+    },
+    "firstResult": {
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/hpg000027973.html",
+      "quote": "令和9年4月1次 11月20日（金） 2月2日（火） 10月7日（水）"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/hpg000027973.html",
+      "quote": "利用調整結果は文書で通知します。結果通知は結果発表日に到着予定です。"
+    },
+    "firstResult#3": {
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/20250922155841.html",
+      "quote": "なお、4月入園の結果については、申請している方全員に文書で通知いたします。"
+    },
+    "secondApply": {
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/hpg000027973.html",
+      "quote": "令和9年4月2次 2月9日（火） 3月9日（火） 2月2日（火）"
+    },
+    "secondResult": {
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/hpg000027973.html",
+      "quote": "令和9年4月2次 2月9日（火） 3月9日（火） 2月2日（火）"
+    },
+    "documents.0": {
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/20240726160011.html",
+      "quote": "・保育認定申請書 兼 保育所等利用希望申請書"
+    },
+    "documents.1": {
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/20240726160011.html",
+      "quote": "品川区所定様式以外で提出された場合、利用調整上不利になるまたは再提出を依頼する可能性がありますので、ご注意ください。"
+    },
+    "documents.2": {
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/20240726160011.html",
+      "quote": "必要書類は、令和8年9月1日（火）以降に発行された書類が有効です。"
+    },
+    "documents.2#2": {
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/20240726160011.html",
+      "quote": "特に、申請書類一式が令和9年度入園用の書式ではない場合、再提出を依頼します。"
+    },
+    "documents.3": {
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/20240726160011.html",
+      "quote": "開業届、前年分の確定申告書、源泉徴収票、オフィスの契約書、登記事項証明書、"
+    },
+    "documents.4": {
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/20240726160011.html",
+      "quote": "出生後14日以内に出生届の手続きを完了し、本書を保育入園調整課入園相談担当あてにご提出ください。"
+    },
+    "interview": {
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/20250922155841.html",
+      "quote": "児童を集団でお預かりするうえでの配慮および集団保育の可否等について、書類または面接にて審査をし、集団保育が可能と判断された児童は、"
+    },
+    "interview#2": {
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/20250922155841.html",
+      "quote": "発育・発達に考慮しながら集団でのよりよい保育を行うために、特別支援保育審査会（以後、審査会）を実施します。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/20250922155841.html",
+      "quote": "育児休業の延長も許容できる方については、入園申請書類一式の中の「入転園確認表」にて育児休業の延長も許容できる旨を申告してください。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/20250922155841.html",
+      "quote": "この場合、入園選考における優先順位は、一番低いものとして取り扱います。"
+    },
+    "notes.0": {
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/hpg000027973.html",
+      "quote": "2月および4月入園の1次利用調整のみ、出産予定での申請が可能です。"
+    },
+    "notes.1": {
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/hpg000027973.html",
+      "quote": "4月入園を希望する場合は、改めて申請書（および就労証明書等の保育を必要とする根拠書類等）の提出が必要です。"
+    },
+    "notes.2": {
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/hpg000027973.html",
+      "quote": "※不足書類がある場合や書類の内容に不備がある場合は、入園選考の対象外となりますのでご了承ください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/hpg000027973.html",
+      "quote": "令和9年4月1次 11月20日（金） 2月2日（火） 10月7日（水）"
+    },
+    "notes.4": {
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/20250922155841.html",
+      "quote": "希望園は第8希望まで記入することができますので、通園可能な範囲内で利用したい順にご記入ください。"
+    },
+    "notes.4#2": {
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/20250922155841.html",
+      "quote": "保育園の希望順位が選考に影響することはありません。"
+    },
+    "notes.5": {
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/hpg000027973.html",
+      "quote": "※入園予約・品川区外への入園申請については、電子申請ができません。"
+    }
+  },
+  "sources": [
+    {
+      "label": "品川区「保育園入(転)園の手続について」",
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/hpg000027973.html"
+    },
+    {
+      "label": "品川区「【令和9年度入園】申請に関する書類」",
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/20240726160011.html"
+    },
+    {
+      "label": "品川区「保育園のご案内（令和8年4月版）」",
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/20250922155841.html"
+    }
+  ]
+}

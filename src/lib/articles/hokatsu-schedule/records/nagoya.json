@@ -1,0 +1,159 @@
+{
+  "citySlug": "nagoya",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "名古屋市「保育所等のオンライン利用申込み」",
+    "url": "https://www.city.nagoya.jp/kodomo/kosodate/1009115/1009125/1009270/1009274.html"
+  },
+  "fiscalYear": "R8",
+  "firstApply": "区役所等窓口は令和7年10月15日（水）〜12月10日（水）。オンライン申込みは令和7年10月15日（水）〜11月26日（水）",
+  "applyMethods": "お住まいの区の区役所民生子ども課または支所区民福祉課へ必要書類を提出する。令和8年4月の1次申込みは市の電子申請システムからオンラインでも申し込める（2次申込みや年度途中の申込みは窓口のみ）",
+  "firstResult": "令和8年2月中旬頃に通知",
+  "secondApply": "1次申込み受付終了後から令和8年3月10日（火）まで追加の申込み（2次申込み）を受け付ける",
+  "secondResult": "令和8年3月下旬頃に通知",
+  "midYearDeadline": "利用開始希望日の前月15日（休庁日の場合は翌開庁日）まで。結果は前月22日頃に通知",
+  "documents": [
+    "教育・保育給付認定申請書兼保育利用申込書（オンライン申込みの場合は不要で直接入力）",
+    "保育所等利用申込に係る申込児童等の状況確認票",
+    "家庭でお子さんの保育ができない状況を確認できる書類（いずれの保護者も提出。就労の場合は就労証明書か内職証明書など。証明書類は証明日から3か月以内のもの）",
+    "収入・税額の確認できる書類（いずれの保護者も。名古屋市在住なら特に提出書類は無い）"
+  ],
+  "interview": "申込前に希望する施設と見学日時を調整し、子どもと一緒に見学して保育時間や保育内容を確かめる",
+  "ikukyu": "申込書の「育児休業からの復職意思の確認」欄で「希望する保育所等に入所できない場合は育児休業の延長も許容できる」を選ぶと、ランクを下げる取扱い（Iランク）となり、原則同一世帯の同一年度内の申込みすべてに適用される。Iランクでも希望施設の定員に空きがあれば利用決定される",
+  "notes": [
+    "発達の遅れや医療的配慮など特別な支援が必要な子どもは受付期間が異なり、広報なごや区版の9月号または10月号で案内される",
+    "申込書の希望施設欄には保育所・認定こども園・地域型保育事業を第6希望まで書ける",
+    "必要書類は申込締切日までに提出（必着）。遅れると本来のランクや調整指数で利用調整できないことがある",
+    "利用開始希望日時点で受入月齢を超える見込みなら、出生前でも申し込める",
+    "1次申込みの結果が保留の場合、2次のための再度の申込みは不要",
+    "令和9年4月利用申込みは、窓口が令和8年10月中旬から12月上旬頃まで、オンラインが10月中旬から11月下旬頃まで（予定）で、日程は確定次第公表される"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.nagoya.jp/_res/projects/default_project/_page_/001/009/274/r8riyounogoannnai.pdf",
+      "quote": "令和８年４月１次申込みについては、本市電子申請システムからオンライン申込みが可能です。"
+    },
+    "firstApply": {
+      "url": "https://www.city.nagoya.jp/_res/projects/default_project/_page_/001/009/274/r8riyounogoannnai.pdf",
+      "quote": "区役所等窓口 令和７年１０月１５日（水）から令和７年１２月１０日（水）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.nagoya.jp/_res/projects/default_project/_page_/001/009/274/r8riyounogoannnai.pdf",
+      "quote": "オンライン 令和７年１０月１５日（水）から令和７年１１月２６日（水）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.nagoya.jp/_res/projects/default_project/_page_/001/009/274/r8riyounogoannnai.pdf",
+      "quote": "お住まいの区の区役所民生子ども課または支所区民福祉課へ必要書類をご提出ください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.nagoya.jp/_res/projects/default_project/_page_/001/009/274/r8riyounogoannnai.pdf",
+      "quote": "ただし、令和８年４月２次申込みや年度途中からの利用開始を希望する場合の利用申込み、連携施設（卒園した後の保育利用）への利用申込みの場合は、「①区役所等窓口持参申込み」に限られます。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.nagoya.jp/_res/projects/default_project/_page_/001/009/274/r8riyounogoannnai.pdf",
+      "quote": "令和８年４月１次申込みについては、本市電子申請システムからオンライン申込みが可能です。"
+    },
+    "firstResult": {
+      "url": "https://www.city.nagoya.jp/_res/projects/default_project/_page_/001/009/274/r8riyounogoannnai.pdf",
+      "quote": "結果は、令和８年２月中旬頃に通知します。"
+    },
+    "secondApply": {
+      "url": "https://www.city.nagoya.jp/_res/projects/default_project/_page_/001/009/274/r8riyounogoannnai.pdf",
+      "quote": "また、１次申込み受付終了後令和８年３月１０日（火）まで、追加の申込み（2 次申込み）を受付けます。"
+    },
+    "secondResult": {
+      "url": "https://www.city.nagoya.jp/_res/projects/default_project/_page_/001/009/274/r8riyounogoannnai.pdf",
+      "quote": "結果は、令和８年３月下旬頃に通知します。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.nagoya.jp/_res/projects/default_project/_page_/001/009/274/r8riyounogoannnai.pdf",
+      "quote": "利用開始希望日の前月の１５日（休庁日の場合は、翌開庁日）までにお申込みください。結果は、利用開始希望日の前月の２２日頃に通知します。"
+    },
+    "documents.0": {
+      "url": "https://www.city.nagoya.jp/_res/projects/default_project/_page_/001/009/274/r8riyounogoannnai.pdf",
+      "quote": "① 教育・保育給付認定申請書兼保育利用申込書（※1）：オンライン申込みの場合は不要（直接入力）"
+    },
+    "documents.1": {
+      "url": "https://www.city.nagoya.jp/_res/projects/default_project/_page_/001/009/274/r8riyounogoannnai.pdf",
+      "quote": "② 保育所等利用申込に係る申込児童等の状況確認票（※１）"
+    },
+    "documents.2": {
+      "url": "https://www.city.nagoya.jp/_res/projects/default_project/_page_/001/009/274/r8riyounogoannnai.pdf",
+      "quote": "③ 家庭でお子さんの保育ができない状況を確認できる書類（いずれの保護者も提出が必要です。）"
+    },
+    "documents.2#2": {
+      "url": "https://www.city.nagoya.jp/_res/projects/default_project/_page_/001/009/274/r8riyounogoannnai.pdf",
+      "quote": "就労証明書（※１）、内職証明書（※１） のいずれかと"
+    },
+    "documents.2#3": {
+      "url": "https://www.city.nagoya.jp/_res/projects/default_project/_page_/001/009/274/r8riyounogoannnai.pdf",
+      "quote": "◎ 証明書類は、証明日から3か月以内のものをご提出ください。"
+    },
+    "documents.3": {
+      "url": "https://www.city.nagoya.jp/_res/projects/default_project/_page_/001/009/274/r8riyounogoannnai.pdf",
+      "quote": "④ 収入・税額の確認できる書類 （いずれの保護者も提出が必要です。）"
+    },
+    "documents.3#2": {
+      "url": "https://www.city.nagoya.jp/_res/projects/default_project/_page_/001/009/274/r8riyounogoannnai.pdf",
+      "quote": "名古屋市 特にご提出いただく書類はございません。"
+    },
+    "interview": {
+      "url": "https://www.city.nagoya.jp/_res/projects/default_project/_page_/001/009/274/r8riyounogoannnai.pdf",
+      "quote": "申込前に、希望する施設と見学日時等調整のうえで、お子さんと一緒に見学を行い、保育時間や保育内容をご確認ください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.nagoya.jp/_res/projects/default_project/_page_/001/009/274/r8riyounogoannnai.pdf",
+      "quote": "「希望する保育所等に入所できない場合は育児休業の延長も許容できる」を選択した場合は、ランクを下げる取扱い（Ｉランク）とし、原則同一世帯からの同一年度内の申込みすべてに適用します。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.nagoya.jp/_res/projects/default_project/_page_/001/009/274/r8riyounogoannnai.pdf",
+      "quote": "Iランクの場合も希望する施設の定員に空きがある等の場合には利用決定します。"
+    },
+    "notes.0": {
+      "url": "https://www.city.nagoya.jp/_res/projects/default_project/_page_/001/009/274/r8riyounogoannnai.pdf",
+      "quote": "特別な支援が必要な場合には、受付期間が上記と異なります。詳細については、「広報なごや」区版の９月号または１０月号をご確認ください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.nagoya.jp/_res/projects/default_project/_page_/001/009/274/r8riyounogoannnai.pdf",
+      "quote": "申込書の希望施設・事業所欄には保育所・認定こども園・地域型保育事業を第6希望まで記入できます。"
+    },
+    "notes.2": {
+      "url": "https://www.city.nagoya.jp/_res/projects/default_project/_page_/001/009/274/r8riyounogoannnai.pdf",
+      "quote": "申込締切日までにご提出ください（必着）。なお、ご提出が遅れた場合には本来のランクや調整指数で利用調整できないことがありますので、あらかじめご了承ください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.nagoya.jp/_res/projects/default_project/_page_/001/009/274/r8riyounogoannnai.pdf",
+      "quote": "利用開始希望日時点でお子さんが受入月齢を超える見込みの場合は、出生前でも申込みは可能です。"
+    },
+    "notes.4": {
+      "url": "https://www.city.nagoya.jp/_res/projects/default_project/_page_/001/009/274/r8riyounogoannnai.pdf",
+      "quote": "１次申込みの結果が保留の場合には、再度の申込みは不要です。"
+    },
+    "notes.5": {
+      "url": "https://www.city.nagoya.jp/kodomo/kosodate/1009115/1009125/1009270/1009274.html",
+      "quote": "窓口での申込みの場合：令和8年10月中旬から令和8年12月上旬頃まで（予定）"
+    },
+    "notes.5#2": {
+      "url": "https://www.city.nagoya.jp/kodomo/kosodate/1009115/1009125/1009270/1009274.html",
+      "quote": "オンライン申請の場合：令和8年10月中旬から令和8年11月下旬頃まで（予定）"
+    },
+    "notes.5#3": {
+      "url": "https://www.city.nagoya.jp/kodomo/kosodate/1009115/1009125/1009270/1009274.html",
+      "quote": "（注）令和9年4月利用申込みのスケジュールは確定次第公表します。"
+    }
+  },
+  "sources": [
+    {
+      "label": "名古屋市「保育所等のオンライン利用申込み」",
+      "url": "https://www.city.nagoya.jp/kodomo/kosodate/1009115/1009125/1009270/1009274.html"
+    },
+    {
+      "label": "名古屋市「令和8年度保育所・認定こども園・小規模保育事業・家庭的保育事業等の利用のご案内」（PDF）",
+      "url": "https://www.city.nagoya.jp/_res/projects/default_project/_page_/001/009/274/r8riyounogoannnai.pdf"
+    },
+    {
+      "label": "名古屋市「保育所等の利用を希望される方の手続き」",
+      "url": "https://www.city.nagoya.jp/kodomo/kosodate/1009115/1009125/1009270/1034086.html"
+    }
+  ]
+}

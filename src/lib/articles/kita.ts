@@ -387,64 +387,6 @@ const articles: Article[] = [
     popularity: 60,
   },
   {
-    slug: "hokatsu-schedule",
-    citySlug: "kita",
-    title: "北区の保活スケジュール　令和8年度4月入園の流れ",
-    description:
-      "北区の認可保育園の申込時期・選考の流れ・結果通知の時期を解説します。",
-    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>令和8年度4月入園のスケジュール</h2>
-<p>北区の4月入園は<strong>一次選考</strong>と<strong>二次選考</strong>の2回に分かれています。</p>
-
-<h3>一次選考</h3>
-<table>
-<tr><th>項目</th><th>日程</th></tr>
-<tr><td>申込受付期間</td><td>令和7年11月上旬〜12月上旬</td></tr>
-<tr><td>結果通知</td><td>令和8年1月下旬</td></tr>
-</table>
-
-<h3>二次選考</h3>
-<table>
-<tr><th>項目</th><th>日程</th></tr>
-<tr><td>申込受付期間</td><td>令和8年1月下旬〜2月中旬</td></tr>
-<tr><td>結果通知</td><td>令和8年2月下旬</td></tr>
-</table>
-
-<h2>いつから動き始めるべき？</h2>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content">
-<strong>4月〜6月：情報収集</strong>
-<p>北区の「保育利用案内」を入手しましょう。</p>
-</div>
-</div>
-
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content">
-<strong>6月〜10月：保育園見学</strong>
-<p>気になる園に電話して見学予約をしましょう。</p>
-</div>
-</div>
-
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content">
-<strong>10月〜12月：書類準備・提出</strong>
-<p>就労証明書などの書類を揃えて提出します。</p>
-</div>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>最新スケジュールは<a href="https://www.city.kita.lg.jp/children-edu/childcare/1002975/1002976/1002977/1002982.html" target="_blank" rel="noopener">北区公式サイト</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-03-28",
-    popularity: 55,
-  },
-  {
     slug: "hoikuryo-keisan",
     citySlug: "kita",
     title: "北区の保育料計算【令和8年度版】年収別シミュレーション・早見表",

@@ -3,67 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   // ===== 保活の基本 (1) =====
-  {
-    slug: "hokatsu-schedule",
-    citySlug: "hiroshima",
-    title: "広島市の保活スケジュール　令和8年度4月入園の流れ",
-    description:
-      "広島市の認可保育園の4月入園に向けた申込時期・選考・結果通知の流れを時系列でまとめました。",
-    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>令和8年度（2026年度）4月入園のスケジュール</h2>
-<p>広島市の4月入園は<strong>一次受付</strong>と<strong>二次受付</strong>に分かれています。一次で定員に達しなかった園のみ二次で追加募集されます。</p>
-
-<h3>一次受付</h3>
-<table>
-<tr><th>項目</th><th>日程</th></tr>
-<tr><td>申込書ダウンロード開始</td><td>令和7年11月21日（金）</td></tr>
-<tr><td>申込期間</td><td>令和7年11月21日（金）〜令和8年1月13日（火）</td></tr>
-<tr><td>結果通知発送</td><td>令和8年2月20日（金）〜2月27日（金）</td></tr>
-</table>
-
-<h3>二次受付</h3>
-<p>一次選考後に空きがある園について追加募集が行われます。日程は一次結果通知後に公表されます。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>申込書はお住まいの区の福祉課窓口で受け取るか、広島市公式サイトからダウンロードできます。電子申請（ぴったりサービス）も利用可能です。</p>
-</div>
-
-<h2>いつから動き始めるべき？</h2>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content">
-<strong>4月〜6月：情報収集</strong>
-<p>広島市の「保育園等のごあんない」を確認し、ランク制度を理解しましょう。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content">
-<strong>7月〜10月：保育園見学</strong>
-<p>気になる園に電話で見学予約。複数園を比較しましょう。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content">
-<strong>11月〜1月：申込書類の準備・提出</strong>
-<p>就労証明書などを揃え、区の福祉課へ提出します。</p>
-</div>
-</div>
-
-<h2>途中入園（5月〜3月）の申込</h2>
-<p>毎月の途中入園も可能です。入園希望月の<span class="highlight">前月10日</span>が締切の目安ですが、月ごとに異なる場合があるため、区の福祉課に確認してください。</p>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025852/1003487.html" target="_blank" rel="noopener">広島市公式サイト「保育園等の入園について」</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-03-28",
-    popularity: 55,
-  },
 
   // ===== 選考のしくみ (3) =====
   {

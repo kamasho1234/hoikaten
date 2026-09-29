@@ -1,0 +1,203 @@
+{
+  "citySlug": "hiroshima",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "広島市「保育園等の入園について（保育園等のごあんない）」",
+    "url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025852/1003487.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年11月24日（火曜日）から申請（申込）書を配布。配布場所は区福祉課・区出張所・保育園等で、同日から市ホームページでもダウンロードできる",
+  "firstApply": "令和8年11月24日（火曜日）〜令和9年1月12日（火曜日）。郵送は締切日必着。夜間受付（午後8時まで）は令和8年12月22日（火曜日）と令和9年1月5日（火曜日）、休日受付は令和8年12月13日（日曜日）午前9時半〜午後4時。電子申請（ぴったりサービス）の申請期間は令和8年11月24日〜12月20日で、窓口と締切が異なる",
+  "applyMethods": "申請（申込）書と必要書類を区役所福祉課の窓口に提出する（郵送も可、締切日必着）。希望園の所在区と違う区でも申請でき、複数区の併願も近くの区役所福祉課1か所で手続きできる。マイナポータルからの電子申請（ぴったりサービス）も可能だが、締切日が窓口と異なる",
+  "firstResult": "令和9年2月16日（火曜日）に、一次選考を申請したすべての人へ郵送で結果を通知",
+  "secondApply": "令和9年2月19日（金曜日）〜2月26日（金曜日）。夜間受付（午後8時まで）は令和9年2月24日（水曜日）。電子申請の申請期間は令和9年2月19日〜2月21日。申請できるのは一次選考を申請していなかった人と一次選考で保留になった人だけ",
+  "secondResult": "令和9年3月9日（火曜日）に郵送で通知。一次選考から申請していて二次選考も保留になった場合は送付しない",
+  "midYearDeadline": "入園を希望する月の前月10日（10日が土日祝日なら直後の開庁日）。結果は前月20日頃に発送",
+  "documents": [
+    "令和9年度（2027年度）教育・保育給付認定申請書兼保育所等入所・延長保育申込書",
+    "保育を必要とする理由を証明する書類（就労証明書など。申請締切日の3か月前の月の初日以降の証明日のもの。令和9年4月一次受付なら令和8年10月1日以降の証明日）",
+    "世帯状況により必要となる書類",
+    "利用者負担額（保育料）と保育園等副食費免除を決めるための書類"
+  ],
+  "interview": "申請の前に原則、子どもを連れて希望する保育園・認定こども園等を見学し、子どもの状況を施設と相談する（見学は各園に直接問い合わせる）",
+  "ikukyu": "育児休業給付金の支給対象期間延長の手続きには保育の利用申請書の写しが必要になるため、申し込む前に自分で申込書の写しを用意する。入所保留通知書は年度に1回だけ送付される",
+  "notes": [
+    "申請書類が揃っていないと受け付けられず、不足書類を締切日以降に出すと二次選考からの対象になる",
+    "入所は先着順ではなく、保育の必要性の状況に応じて調整される",
+    "1次受付で保留になった人は、保育園等の空き状況を参考に希望園を変えて2次受付に申し込める",
+    "保留になっても申請内容に変更がなく保育の必要性が確認できれば、翌月以降も希望園の選考対象になる",
+    "待機（保留）中の人は、年に1回（11月下旬ごろ）現況届と保育の必要性が確認できる書類の提出が必要"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025852/1003487.html",
+      "quote": "令和9年4月一次受付の場合、令和9年1月12日締切のため、令和8年10月1日以降の証明日のものが必要です。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025852/1003487.html",
+      "quote": "令和9年度の申請（申込）書については、令和8年11月24日（火曜日）より、下の「ダウンロード」からダウンロードして使用できます。"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025852/1003487.html",
+      "quote": "令和8年11月24日（火曜日）から配布 配布場所：区福祉課、区出張所及び保育園等"
+    },
+    "firstApply": {
+      "url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025852/1003487.html",
+      "quote": "令和9年度4月一次申請受付期間 令和8年11月24日（火曜日）から令和9年1月12日（火曜日）まで"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025852/1003487.html",
+      "quote": "【夜間受付】令和8年12月22日(火曜日)、令和9年1月5日(火曜日)は午後8時まで延長 【休日受付】令和8年12月13日(日曜日)は午前9時半～午後4時受付"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.hiroshima.lg.jp/soshiki/83/417993.html",
+      "quote": "令和9年4月入所一次受付 令和8年11月24日～令和8年12月20日"
+    },
+    "firstApply#4": {
+      "url": "https://www.city.hiroshima.lg.jp/_res/projects/default_project/_page_/001/003/487/shinnseiannnai_r9.pdf",
+      "quote": "※締切日以降の提出は一次選考の対象外となります。郵送の場合は、必着です。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025852/1003487.html",
+      "quote": "申請（申込）書と必要な書類を、区福祉課へ提出してください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.hiroshima.lg.jp/_res/projects/default_project/_page_/001/003/487/shinnseiannnai_r9.pdf",
+      "quote": "マイナポータルからの電子申請（ぴったりサービス）も可能です。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025852/1003487.html",
+      "quote": "電子申請（ぴったりサービス）の締切日は、窓口締切日と異なります。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.hiroshima.lg.jp/_res/projects/default_project/_page_/001/003/487/shinnseiannnai_r9.pdf",
+      "quote": "複数区の併願申請は可能か。 可能です。お近くの区役所福祉課でお手続きをお願いします。"
+    },
+    "applyMethods#5": {
+      "url": "https://www.city.hiroshima.lg.jp/_res/projects/default_project/_page_/001/003/487/shinnseiannnai_r9.pdf",
+      "quote": "※締切日以降の提出は一次選考の対象外となります。郵送の場合は、必着です。"
+    },
+    "applyMethods#6": {
+      "url": "https://www.city.hiroshima.lg.jp/_res/projects/default_project/_page_/001/003/487/shinnseiannnai_r9.pdf",
+      "quote": "可能です。お近くの区役所福祉課で申請してください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.hiroshima.lg.jp/_res/projects/default_project/_page_/001/003/487/shinnseiannnai_r9.pdf",
+      "quote": "※一次選考の入所申請をされたすべての方に、郵送で結果を通知します。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025852/1003487.html",
+      "quote": "令和9年4月 （1次受付） 令和9年1月12日(火曜日)まで（※1） 令和9年2月16日(火曜日)"
+    },
+    "secondApply": {
+      "url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025852/1003487.html",
+      "quote": "令和9年度4月二次申請受付期間 令和9年2月19日（金曜日）から令和9年2月26日（金曜日）まで"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025852/1003487.html",
+      "quote": "【夜間受付】令和9年2月24日(水曜日)は、午後8時まで延長"
+    },
+    "secondApply#3": {
+      "url": "https://www.city.hiroshima.lg.jp/soshiki/83/417993.html",
+      "quote": "令和9年4月入所二次受付 令和9年2月19日～令和9年2月21日"
+    },
+    "secondApply#4": {
+      "url": "https://www.city.hiroshima.lg.jp/_res/projects/default_project/_page_/001/003/487/shinnseiannnai_r9.pdf",
+      "quote": "※二次選考の申請ができるのは、一次選考の申請をしていなかった方および一次選考で保留になった方のみです"
+    },
+    "secondResult": {
+      "url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025852/1003487.html",
+      "quote": "令和9年2月19日(金曜日)～2月26日(金曜日)（※3） 令和9年3月9日(火曜日)"
+    },
+    "secondResult#2": {
+      "url": "https://www.city.hiroshima.lg.jp/_res/projects/default_project/_page_/001/003/487/shinnseiannnai_r9.pdf",
+      "quote": "※二次選考の入所申請をされたすべての方に、郵送で結果を通知します。"
+    },
+    "secondResult#3": {
+      "url": "https://www.city.hiroshima.lg.jp/_res/projects/default_project/_page_/001/003/487/shinnseiannnai_r9.pdf",
+      "quote": "（一次選考から申請をしており、二次選考も保留となった場合は送付しません。）"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025852/1003487.html",
+      "quote": "令和9年5月以降 入園を希望する月の前月の10日。10日が休み（土曜・日曜日、祝・休日）の場合は、直後の開庁日 入園を希望する月の前月の20日頃"
+    },
+    "documents.0": {
+      "url": "https://www.city.hiroshima.lg.jp/_res/projects/default_project/_page_/001/003/487/shinnseiannnai_r9.pdf",
+      "quote": "①令和9年度（2027年度）教育・保育給付認定申請書兼保育所等入所・延長保育申込書（以下、申請書）"
+    },
+    "documents.1": {
+      "url": "https://www.city.hiroshima.lg.jp/_res/projects/default_project/_page_/001/003/487/shinnseiannnai_r9.pdf",
+      "quote": "②保育を必要とする理由を証明する書類（表１参照）"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025852/1003487.html",
+      "quote": "就労証明書等の提出する証明書類の有効期間は、提出締切日の3か月前の月の初日からです。令和9年4月一次受付の場合、令和9年1月12日締切のため、令和8年10月1日以降の証明日のものが必要です。"
+    },
+    "documents.2": {
+      "url": "https://www.city.hiroshima.lg.jp/_res/projects/default_project/_page_/001/003/487/shinnseiannnai_r9.pdf",
+      "quote": "③世帯状況により必要となる書類（表２参照）"
+    },
+    "documents.3": {
+      "url": "https://www.city.hiroshima.lg.jp/_res/projects/default_project/_page_/001/003/487/shinnseiannnai_r9.pdf",
+      "quote": "④利用者負担額（保育料）及び保育園等副食費免除決定のための書類（表３参照）"
+    },
+    "interview": {
+      "url": "https://www.city.hiroshima.lg.jp/_res/projects/default_project/_page_/001/003/487/shinnseiannnai_r9.pdf",
+      "quote": "申請の前に原則、お子さんを連れて利用を希望する保育園・認定こども園等を見学し、お子さんの状況について施設とご相談ください。"
+    },
+    "interview#2": {
+      "url": "https://www.city.hiroshima.lg.jp/_res/projects/default_project/_page_/001/003/487/shinnseiannnai_r9.pdf",
+      "quote": "見学については、事前に保育園・認定こども園等へ直接お問合せください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.hiroshima.lg.jp/_res/projects/default_project/_page_/001/003/487/shinnseiannnai_r9.pdf",
+      "quote": "対象期間の延長手続きに加えこれまで必要だった書類に加えて、保育希望利用申請書の写しが必要になると公表しています。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.hiroshima.lg.jp/_res/projects/default_project/_page_/001/003/487/shinnseiannnai_r9.pdf",
+      "quote": "申し込み前にご自身で必ず申込書の写しを用意してください。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.hiroshima.lg.jp/_res/projects/default_project/_page_/001/003/487/shinnseiannnai_r9.pdf",
+      "quote": "※保留通知書は、年度に１回のみ送付します。"
+    },
+    "notes.0": {
+      "url": "https://www.city.hiroshima.lg.jp/_res/projects/default_project/_page_/001/003/487/shinnseiannnai_r9.pdf",
+      "quote": "なお、不足書類を締切日以降に提出した場合は、二次選考からの対象となります。"
+    },
+    "notes.0#2": {
+      "url": "https://www.city.hiroshima.lg.jp/_res/projects/default_project/_page_/001/003/487/shinnseiannnai_r9.pdf",
+      "quote": "※書類が揃わない場合は、受け付けることができません。"
+    },
+    "notes.1": {
+      "url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025852/1003487.html",
+      "quote": "定員の空きに対して、希望する人数が多い場合は、先着順ではなく、保育の必要性の状況に応じて調整を行います。"
+    },
+    "notes.2": {
+      "url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025852/1003487.html",
+      "quote": "1次受付で入園保留となった方は、保育園等の空き状況を参考に、希望園を変更して第2次受付に申し込みができます。"
+    },
+    "notes.3": {
+      "url": "https://www.city.hiroshima.lg.jp/_res/projects/default_project/_page_/001/003/487/shinnseiannnai_r9.pdf",
+      "quote": "申請内容に変更がなく、保育を必要とする理由が確認できた場合は、翌月以降も希望保育園等の利用調整（選考）の対象となります。"
+    },
+    "notes.4": {
+      "url": "https://www.city.hiroshima.lg.jp/_res/projects/default_project/_page_/001/003/487/shinnseiannnai_r9.pdf",
+      "quote": "年に1回（１１月下旬ごろ）、「現況届」及び「保育の必要性が確認できる書類」の提出が必要です。"
+    }
+  },
+  "sources": [
+    {
+      "label": "広島市「保育園等の入園について（保育園等のごあんない）」",
+      "url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021251/1025852/1003487.html"
+    },
+    {
+      "label": "広島市「令和9年度（2027年度）広島市保育園・認定こども園等申請案内」",
+      "url": "https://www.city.hiroshima.lg.jp/_res/projects/default_project/_page_/001/003/487/shinnseiannnai_r9.pdf"
+    },
+    {
+      "label": "広島市「電子申請のご案内（保育園等関係手続き）」",
+      "url": "https://www.city.hiroshima.lg.jp/soshiki/83/417993.html"
+    }
+  ]
+}

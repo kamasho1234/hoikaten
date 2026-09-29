@@ -1,0 +1,189 @@
+{
+  "citySlug": "fujisawa",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "藤沢市「令和9年度4月認可保育施設の入所申し込みについて」",
+    "url": "https://www.city.fujisawa.kanagawa.jp/hoiku/kenko/kosodate/hoikuen/hoikuen2017-4.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "2026年10月5日（月）〜10月23日（金）。郵送のみで締切日必着（消印有効ではない）。市外在住の人は10月16日（金）までに住んでいる市町村の窓口へ提出。不足書類・再提出書類のみを受け付ける期間を令和8年10月26日（月）〜11月13日（火）に別途設ける",
+  "applyMethods": "4月1次は郵送のみの受付（保育課窓口・電子申請は不可）。4月2次と5月以降は保育課（本庁舎3階）窓口・郵送・e-kanagawa電子申請のいずれかで、いずれも締切日必着。認可保育施設・市民センターでは受け付けない",
+  "firstResult": "2027年1月最終週ごろに発送予定",
+  "secondApply": "締切日は2027年2月8日（月）。4月1次の審査後も空きのあるクラスが対象で、4月1次を取下げ可能期間外に取り下げた人などは申し込めない",
+  "secondResult": "2027年2月末ごろに発送予定。4月1次から継続して申し込んでいる人には、内定した場合のみ通知を発送",
+  "midYearDeadline": "入所希望月の前々月末日（月末日が土日祝日の場合は翌開庁日）",
+  "documents": [
+    "教育・保育給付支給認定申請書 兼 保育施設利用申込書（各家庭につき1枚）",
+    "保育施設利用申込みの児童調査書（申込児童の人数分）",
+    "日中保育できない状況が分かる書類（会社勤めの人は市の所定用紙の就労証明書。育児休業中・就労内定・テレワークの人も提出が必要）",
+    "誓約書・申込受理通知（提出の控えとなる）",
+    "代表者の本人確認書類と家族全員のマイナンバー確認書類",
+    "郵送で申し込む場合は、切手を貼った返信用封筒（長3型）を同封する"
+  ],
+  "interview": "入所内定後、入所前に児童と一緒に保育施設で面接を受ける。見学は必須ではないが事前見学を推奨",
+  "ikukyu": "育児休業中の申込みは、申請書の確認事項⑪でAかBを選ぶ。B（育休B申込み）は入所保留となった場合に育児休業の延長も許容できる人向けで、審査時の基礎点数が30点減算される。Bを選んだ人は4月2次からの審査となる",
+  "notes": [
+    "令和8年度に申し込んでいる人も、令和9年度の申し込みが必要",
+    "4月1次は締切日必着で、2026年10月24日以降に保育課に到着した申込みは、いかなる理由でも4月2次審査からの対象となる",
+    "郵便代が不足していると封筒を開封せずに返送され、締切日までに届かなかった場合は受付できない",
+    "申し込み順による入所内定者決定ではなく、藤沢市保育施設入所選考基準に基づき入所審査会で内定者を決める",
+    "明治保育園は令和9年4月の0歳児クラスの受入れを停止する",
+    "ふじさわ認可保育施設申込ナビと申込書類は、藤沢市ホームページ・保育課窓口・各市民センターで配布している（配布開始日の記載なし）"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.fujisawa.kanagawa.jp/hoiku/kenko/kosodate/hoikuen/hoikuen2017-4.html",
+      "quote": "令和9年(2027年)4月の入所申し込みの日程等の概要は次のとおりです。"
+    },
+    "firstApply": {
+      "url": "https://www.city.fujisawa.kanagawa.jp/hoiku/kenko/kosodate/hoikuen/hoikuen2017-4.html",
+      "quote": "受付期間：2026年10月5日(月)　から　2026年10月23日(金)まで"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.fujisawa.kanagawa.jp/hoiku/kenko/kosodate/hoikuen/hoikuen2017-4.html",
+      "quote": "※郵送のみの受付、締切日必着です。（消印有効ではありません）"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.fujisawa.kanagawa.jp/hoiku/kenko/kosodate/hoikuen/hoikuen2017-4.html",
+      "quote": "※市外在住の方は10月16日(金)までにお住まいの市町村の窓口へご提出ください。"
+    },
+    "firstApply#4": {
+      "url": "https://www.city.fujisawa.kanagawa.jp/hoiku/kenko/kosodate/hoikuen/download.html",
+      "quote": "【不足書類・再提出書類のみを受付する期間＜令和8年10月26日（月）～11月13日（火）＞を別途設けます】"
+    },
+    "applyMethods": {
+      "url": "https://www.city.fujisawa.kanagawa.jp/hoiku/kenko/kosodate/hoikuen/hoikuen2017-4.html",
+      "quote": "※4月1次申し込みは郵送のみでの受付です。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.fujisawa.kanagawa.jp/hoiku/kenko/kosodate/hoikuen/nagare.html",
+      "quote": "入所希望月の締切日までに保育課窓口・郵送・電子申請のいずれかでお申し込みください。いずれも締切日必着です。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.fujisawa.kanagawa.jp/hoiku/kenko/kosodate/hoikuen/hoikuen2017-4.html",
+      "quote": "※認可保育施設・市民センターでは受付していません。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.fujisawa.kanagawa.jp/hoiku/kenko/kosodate/hoikuen/nagare.html",
+      "quote": "・電子申請は e-kanagawa電子申請から申請してください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.fujisawa.kanagawa.jp/hoiku/kenko/kosodate/hoikuen/hoikuen2017-4.html",
+      "quote": "4月1次入所審査結果 2027年1月最終週ごろ発送予定"
+    },
+    "secondApply": {
+      "url": "https://www.city.fujisawa.kanagawa.jp/hoiku/kenko/kosodate/hoikuen/hoikuen2017-4.html",
+      "quote": "締切日：2027年2月8日(月)"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.fujisawa.kanagawa.jp/hoiku/kenko/kosodate/hoikuen/hoikuen2017-4.html",
+      "quote": "※4月1次の入所審査後も空きのあるクラスを対象に審査を行うものです。"
+    },
+    "secondApply#3": {
+      "url": "https://www.city.fujisawa.kanagawa.jp/hoiku/kenko/kosodate/hoikuen/hoikuen2017-4.html",
+      "quote": "※4月1次審査において内定・内定辞退・申込取下げ可能期間外に4月1次申込を取下げている方は、4月2次のお申込みをすることはできません。"
+    },
+    "secondResult": {
+      "url": "https://www.city.fujisawa.kanagawa.jp/hoiku/kenko/kosodate/hoikuen/hoikuen2017-4.html",
+      "quote": "4月2次入所審査結果 2027年2月末ごろ発送予定"
+    },
+    "secondResult#2": {
+      "url": "https://www.city.fujisawa.kanagawa.jp/hoiku/kenko/kosodate/hoikuen/hoikuen2017-4.html",
+      "quote": "※4月1次入所審査から継続でお申し込みをしている方については、内定した場合のみ通知を発送します。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.fujisawa.kanagawa.jp/hoiku/kenko/kosodate/hoikuen/hoikuen2017-4.html",
+      "quote": "締切日：入所希望月の前々月末日（月末日が土日祝日の場合は翌開庁日）"
+    },
+    "documents.0": {
+      "url": "https://www.city.fujisawa.kanagawa.jp/hoiku/kenko/kosodate/hoikuen/shorui.html",
+      "quote": "各家庭につき1枚ご用意ください（同居のごきょうだいで同時に申し込む場合も1枚のみで構いません）。"
+    },
+    "documents.1": {
+      "url": "https://www.city.fujisawa.kanagawa.jp/hoiku/kenko/kosodate/hoikuen/shorui.html",
+      "quote": "(2)保育施設利用申込みの児童調査書 申込児童の人数分必要です。"
+    },
+    "documents.2": {
+      "url": "https://www.city.fujisawa.kanagawa.jp/hoiku/kenko/kosodate/hoikuen/shorui.html",
+      "quote": "※育児休業中の方、就労内定のある方、テレワークで業務をしている方もこちらの証明書のご提出が必要です。"
+    },
+    "documents.3": {
+      "url": "https://www.city.fujisawa.kanagawa.jp/hoiku/kenko/kosodate/hoikuen/shorui.html",
+      "quote": "(4)誓約書・申込受理通知 提出の控えとなります。必ずご記入ください。"
+    },
+    "documents.4": {
+      "url": "https://www.city.fujisawa.kanagawa.jp/hoiku/kenko/kosodate/hoikuen/shorui.html",
+      "quote": "申込児童及び同居の家族全員のマイナンバーカード（写真付き）のコピーを「本人確認書類・マイナンバー確認書類貼付台紙」に貼り付けるか、原本を窓口でご提出ください。"
+    },
+    "documents.5": {
+      "url": "https://www.city.fujisawa.kanagawa.jp/hoiku/kenko/kosodate/hoikuen/shorui.html",
+      "quote": "上記(1)～(8)のうち、該当する書類と切手を貼った返信用封筒（長3型）を同封の上、必要額の切手を貼ってご郵送ください。"
+    },
+    "interview": {
+      "url": "https://www.city.fujisawa.kanagawa.jp/hoiku/kenko/kosodate/hoikuen/nagare.html",
+      "quote": "入所前に、児童と一緒に保育施設で面接を受けてください。"
+    },
+    "interview#2": {
+      "url": "https://www.city.fujisawa.kanagawa.jp/hoiku/kenko/kosodate/hoikuen/nagare.html",
+      "quote": "藤沢市では、見学をしていない保育施設もお申込みは可能ですが、事前見学を推奨します。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.fujisawa.kanagawa.jp/documents/9836/r9moushikomi_navi.pdf",
+      "quote": "→入所保留となった場合、育児休業の延長も許容できる(基礎点数を減算してもよい)といった方が対象です。こちらを選択した場合、審査時の基礎点数が減算(-30 点)されます。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.fujisawa.kanagawa.jp/documents/9836/r9moushikomi_navi.pdf",
+      "quote": "※申請書の確認事項⑪で、B（-３０）を選択した方は、４月２次からの審査となります。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.fujisawa.kanagawa.jp/documents/9836/r9moushikomi_navi.pdf",
+      "quote": "かを選択する必要があります。ご自身の復職の予定に合わせ、お申込みをご検討ください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.fujisawa.kanagawa.jp/hoiku/kenko/kosodate/hoikuen/hoikuen2017-4.html",
+      "quote": "※令和8年度に申し込みされている方につきましても、令和9年度の申し込みが必要となります。"
+    },
+    "notes.1": {
+      "url": "https://www.city.fujisawa.kanagawa.jp/documents/9836/r9moushikomi_navi.pdf",
+      "quote": "2026年10月24日以降に保育課に到着した申込みは、いかなる理由であっても4月2次審査からの対象となります。"
+    },
+    "notes.2": {
+      "url": "https://www.city.fujisawa.kanagawa.jp/documents/9836/r9moushikomi_navi.pdf",
+      "quote": "・申込書類の郵便代が不足している場合は、封筒の開封及び受取りをせずに返送いたします。"
+    },
+    "notes.3": {
+      "url": "https://www.city.fujisawa.kanagawa.jp/hoiku/kenko/kosodate/hoikuen/nagare.html",
+      "quote": "保育施設の入所状況により「藤沢市保育施設入所選考基準」（ふじさわ認可保育施設申込ナビに掲載）に基づき入所審査会で入所内定者を決定します。なお、申し込み順による入所内定者決定ではありません。"
+    },
+    "notes.4": {
+      "url": "https://www.city.fujisawa.kanagawa.jp/hoiku/kenko/kosodate/hoikuen/download.html",
+      "quote": "このため、令和９年４月の０歳児クラスの受入れは停止いたします。"
+    },
+    "notes.5": {
+      "url": "https://www.city.fujisawa.kanagawa.jp/hoiku/kenko/kosodate/hoikuen/hoikuen2017-4.html",
+      "quote": "藤沢市ホームページ、保育課窓口、各市民センターにて配布しています。"
+    }
+  },
+  "sources": [
+    {
+      "label": "藤沢市「令和9年度4月認可保育施設の入所申し込みについて」",
+      "url": "https://www.city.fujisawa.kanagawa.jp/hoiku/kenko/kosodate/hoikuen/hoikuen2017-4.html"
+    },
+    {
+      "label": "藤沢市「保育施設入所申込み案内（はじめに）」",
+      "url": "https://www.city.fujisawa.kanagawa.jp/hoiku/kenko/kosodate/hoikuen/download.html"
+    },
+    {
+      "label": "藤沢市「認可保育施設の申込から入所まで」",
+      "url": "https://www.city.fujisawa.kanagawa.jp/hoiku/kenko/kosodate/hoikuen/nagare.html"
+    },
+    {
+      "label": "藤沢市「認可保育施設の利用申込に必要な書類について」",
+      "url": "https://www.city.fujisawa.kanagawa.jp/hoiku/kenko/kosodate/hoikuen/shorui.html"
+    },
+    {
+      "label": "藤沢市「令和9年度ふじさわ認可保育施設申込ナビ」",
+      "url": "https://www.city.fujisawa.kanagawa.jp/documents/9836/r9moushikomi_navi.pdf"
+    }
+  ]
+}

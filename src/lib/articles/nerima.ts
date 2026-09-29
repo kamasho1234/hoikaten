@@ -3,67 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "nerima",
-    title: "練馬区の保活、いつから始める？スケジュール完全ガイド",
-    description:
-      "練馬区の認可保育園の申込時期・選考の流れ・内定通知時期をわかりやすく解説。令和8年度4月入園のスケジュールを中心にまとめました。",
-    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>令和8年度（2026年度）4月入園のスケジュール</h2>
-<p>練馬区の4月入園は、<strong>一次選考</strong>と<strong>二次選考</strong>の2回に分かれています。早めにスケジュールを把握して動き出すのが保活成功のカギです。</p>
-
-<h3>一次選考</h3>
-<table>
-<tr><th>項目</th><th>日程</th></tr>
-<tr><td>申込期間</td><td>令和7年10月上旬〜11月下旬</td></tr>
-<tr><td>結果通知</td><td>令和8年1月下旬〜2月上旬</td></tr>
-</table>
-
-<h3>二次選考</h3>
-<table>
-<tr><th>項目</th><th>日程</th></tr>
-<tr><td>申込期間</td><td>令和8年1月下旬〜2月上旬</td></tr>
-<tr><td>結果通知</td><td>令和8年3月上旬</td></tr>
-</table>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>一次で不承諾だった方は自動的に二次選考の対象になります。希望園の追加・変更は別途手続きが必要です。</p>
-</div>
-
-<h2>いつから動き始めるべき？</h2>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content">
-<strong>4月〜5月：情報収集スタート</strong>
-<p>練馬区は「保育利用のご案内」を毎年発行しています。前年度版でも大まかな流れは掴めます。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content">
-<strong>6月〜9月：保育園見学</strong>
-<p>気になる園に電話して見学を予約しましょう。練馬区にはLINE保活支援サービスもあります。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content">
-<strong>10月〜11月：申込書類の準備・提出</strong>
-<p>就労証明書などの書類を揃えて提出します。練馬区は電子申請にも対応しています。</p>
-</div>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/nyuuen/moushikomi/siori-sisetu.html" target="_blank" rel="noopener">練馬区公式サイト「保育利用のご案内」</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-03-28",
-    popularity: 55,
-  },
-  {
     slug: "scoring-system-guide",
     citySlug: "nerima",
     title: "練馬区の入園点数のしくみ　保育指数と調整指数をやさしく解説",

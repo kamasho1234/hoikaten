@@ -1,0 +1,216 @@
+{
+  "citySlug": "shizuoka",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "静岡市「令和9年度認定こども園・保育園・幼稚園等の入園受付」",
+    "url": "https://www.city.shizuoka.lg.jp/s5783/s013086.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年9月15日（火曜日）から募集要項・申込書を配布。入園申込みのしおりや申込書は第一希望の園または各区子育て支援課入園係で受け取れる",
+  "firstApply": "令和8年10月1日（木曜日）〜11月2日（月曜日）必着。児童面接の日程を知らせるため、できるだけ10月15日（木曜日）までに申し込むよう求められている",
+  "applyMethods": "準備した書類を第一希望の園または各区子育て支援課に提出する。事前に配布された児童面接調書は申込時ではなく、面接当日に園に直接出す（4月選考のみ）",
+  "firstResult": "令和9年1月中旬に郵送で通知（予定）。登録した電話番号あてに、郵送より前にSMSで結果の速報が届く",
+  "secondApply": "令和8年11月4日（水曜日）〜令和9年2月5日（金曜日）必着。二次選考はこの期間に申し込んだ人と、一次選考で入園保留になった人が対象",
+  "secondResult": "令和9年2月下旬に郵送で通知（予定）",
+  "midYearDeadline": "令和9年5月〜令和10年3月の入園は毎月締切がある（5月入園は4月5日（月）、6月は5月6日（木）、7月は6月7日（月）、8月は7月5日（月）、9月は8月5日（木）、10月は9月6日（月）、11月は10月5日（火）、12月は11月5日（金）、令和10年1月は12月6日（月）、2月は1月5日（水）、3月は2月7日（月））。利用開始は毎月1日",
+  "documents": [
+    "教育・保育給付認定申請書 兼 保育利用申込書",
+    "児童世帯状況調査票（きょうだいで申し込む場合、下の子にはコピーを添付）",
+    "個人番号（マイナンバー）申告書（現在市外に住民票がある人は転入後に提出）",
+    "保育を必要とする事由を証明する書類（保護者ごとに必要。就労の場合は就労証明書（市指定様式）で、令和8年9月15日以降かつ申込日から3か月以内の証明日のもの）"
+  ],
+  "interview": "一次選考は11月中旬〜12月上旬に第一希望の園で児童面接。二次選考は令和9年2月上旬ごろまでに第一希望の園で面接し、二次から申し込んだ人は園と日程を調整して随時受ける。面接当日は事前に配布された面接調書に記入して園に持参する",
+  "ikukyu": "育児休業中は原則新規申込みできないが、入園月の翌月末までに復職する場合に限り申込み可能。入園後に復職証明書（市様式）か就労開始が確認できるもの（就労証明書等）を出し、翌月末までに復帰しなかったときは退園になる場合がある。0〜2歳児クラスは育児休業給付金の支給対象期間延長手続きに使うため、申込書の1、2ページの写しを保管する",
+  "notes": [
+    "集団生活で配慮が必要な子・医療的ケアが必要な子が市立こども園に申し込む場合は、令和8年9月30日（水曜日）までに体験保育が必要で、入園開始は4月のみ（年度途中の入園はできない）",
+    "配慮が必要な子の市立こども園への申込みは令和8年10月1日（木）〜10月9日（金）、医療的ケアが必要な子は10月1日（木）〜10月5日（月）までに書類を出す",
+    "一次選考の児童面接（令和8年11月実施）の日程は原則郵送せず、電子通知（Speed Letter Plus）で知らせる。登録期間は令和8年9月17日（木曜日）〜11月2日（月曜日）",
+    "二次選考結果のSMS速報を希望する場合は別に申し込む。申込期間は令和8年11月4日（水曜日）〜令和9年2月5日（金曜日）",
+    "入園保留になった人は令和9年度内（令和10年3月入園まで）毎月選考の対象になり、新規申込をし直す必要はない",
+    "各園の一次選考後の空き枠は、1月中旬に市ホームページに掲載する予定"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.shizuoka.lg.jp/s5783/s013086.html",
+      "quote": "静岡市では令和9年4月入園申込みにおいて、一次選考における希望園との児童面接日程の通知"
+    },
+    "guideRelease": {
+      "url": "https://www.city.shizuoka.lg.jp/s5783/s013086.html",
+      "quote": "令和9年4月入園募集要項・申込書配布開始日 令和8年9月15日（火曜日）"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.shizuoka.lg.jp/s5783/s013086.html",
+      "quote": "入園申込みのしおりや各種申込書は第一希望の園または各区子育て支援課入園係でもお配りします。"
+    },
+    "firstApply": {
+      "url": "https://www.city.shizuoka.lg.jp/s5783/s013086.html",
+      "quote": "一次選考申込み 令和8年10月1日（木曜日）から11月2日（月曜日）必着"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.shizuoka.lg.jp/s5783/s013086.html",
+      "quote": "（注）児童面接の日程をお知らせするため、できるだけ10月15日（木曜日）までにお申し込みください。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.shizuoka.lg.jp/documents/58809/23gou-shiori.pdf",
+      "quote": "ご準備いただいた書類を第一希望園または各区子育て支援課までご提出ください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.shizuoka.lg.jp/documents/58809/23gou-shiori.pdf",
+      "quote": "※事前に配布した「児童面接調書」については、申込時ではなく面接当日に直接、園にご提出ください。（4月選考のみ）"
+    },
+    "firstResult": {
+      "url": "https://www.city.shizuoka.lg.jp/documents/58809/23gou-shiori.pdf",
+      "quote": "令和９年１月中旬通知予定 （郵 送 ） ※右上の二次元コードで登録された電話番号あてに結果の速報通知"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.shizuoka.lg.jp/s5783/s013086.html",
+      "quote": "一次選考結果、二次選考結果について郵送での通知書が届くより前にお手持ちの携帯電話にて結果が確認できるSMS結果配信を実施します。"
+    },
+    "secondApply": {
+      "url": "https://www.city.shizuoka.lg.jp/s5783/s013086.html",
+      "quote": "二次選考申込み 令和8年11月4日（水曜日）から令和9年2月5日（金曜日）必着"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.shizuoka.lg.jp/documents/58809/23gou-shiori.pdf",
+      "quote": "※二次選考は、「下記受付期間に申込みをした方」 及び 「一次選考で入園保留となった方」を対象に行います。"
+    },
+    "secondResult": {
+      "url": "https://www.city.shizuoka.lg.jp/documents/58809/23gou-shiori.pdf",
+      "quote": "令和９年２月下旬通知予定 （郵送）"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.shizuoka.lg.jp/documents/58809/23gou-shiori.pdf",
+      "quote": "（２）令和９年５月～令和１０年３月の入園 毎月の申込み締切日は下表のとおりです。利用開始日は、毎月1日からとなります。"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.shizuoka.lg.jp/documents/58809/23gou-shiori.pdf",
+      "quote": "５月 ４月５日（月） ９月 ８月５日（木） 令和１０年１月 12月6日（月）"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.shizuoka.lg.jp/documents/58809/23gou-shiori.pdf",
+      "quote": "６月 ５月６日（木） 10月 ９月６日（月） 令和１０年２月 １月５日（水）"
+    },
+    "midYearDeadline#4": {
+      "url": "https://www.city.shizuoka.lg.jp/documents/58809/23gou-shiori.pdf",
+      "quote": "７月 ６月７日（月） 11月 10月５日（火） 令和10年３月 ２月７日（月）"
+    },
+    "midYearDeadline#5": {
+      "url": "https://www.city.shizuoka.lg.jp/documents/58809/23gou-shiori.pdf",
+      "quote": "８月 ７月５日（月） 12月 11月５日（金）"
+    },
+    "documents.0": {
+      "url": "https://www.city.shizuoka.lg.jp/documents/58809/23gou-shiori.pdf",
+      "quote": "「教育・保育給付認定申請書 兼 保育利用申込書」等の必要書類は各園及び各区子育て支援課にて配布しています。"
+    },
+    "documents.1": {
+      "url": "https://www.city.shizuoka.lg.jp/documents/58809/23gou-shiori.pdf",
+      "quote": "② 児童世帯状況調査票 きょうだいで申込みの場合、下の子にはコピーを添付してください。"
+    },
+    "documents.2": {
+      "url": "https://www.city.shizuoka.lg.jp/documents/58809/23gou-shiori.pdf",
+      "quote": "③ 個人番号（マイナンバー）申告書 ※現在市外にお住まいの方（住民票が市外にある方）は、転入後に提出し"
+    },
+    "documents.3": {
+      "url": "https://www.city.shizuoka.lg.jp/documents/58809/23gou-shiori.pdf",
+      "quote": "「保育を必要とする事由」を証明する書類 ・保護者（父母等）ごとの書類が必要です。"
+    },
+    "documents.3#2": {
+      "url": "https://www.city.shizuoka.lg.jp/documents/58809/23gou-shiori.pdf",
+      "quote": "就 労 就労証明書（市指定様式）※１"
+    },
+    "documents.3#3": {
+      "url": "https://www.city.shizuoka.lg.jp/documents/58809/23gou-shiori.pdf",
+      "quote": "※１ 就労証明書は、令和８年９月15日以降かつ申込日から３か月以内の証明日のものを提出してください。"
+    },
+    "interview": {
+      "url": "https://www.city.shizuoka.lg.jp/documents/58809/23gou-shiori.pdf",
+      "quote": "11月中旬～12月上旬に、第一希望の園において面接を実施します。"
+    },
+    "interview#2": {
+      "url": "https://www.city.shizuoka.lg.jp/documents/58809/23gou-shiori.pdf",
+      "quote": "令和９年２月上旬ごろまでに、第一希望の園において面接を実施します。"
+    },
+    "interview#3": {
+      "url": "https://www.city.shizuoka.lg.jp/documents/58809/23gou-shiori.pdf",
+      "quote": "※二次選考から申込みされた方は、第一希望園と日程調整のうえ、随時面接を受けてください。"
+    },
+    "interview#4": {
+      "url": "https://www.city.shizuoka.lg.jp/documents/58809/23gou-shiori.pdf",
+      "quote": "面接当日は、事前に配布した面接調書に記入した上で、園にご持参ください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.shizuoka.lg.jp/documents/58809/23gou-shiori.pdf",
+      "quote": "〇原則、育児休業中は新規申込みできませんが、入園月の翌月末までに復職する場合に限り、新規申込みが可能です。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.shizuoka.lg.jp/documents/58809/23gou-shiori.pdf",
+      "quote": "○入園後、「復職証明書（市様式）」又は就労開始が確認できるもの（就労証明書等）の提出が必要です。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.shizuoka.lg.jp/documents/58809/23gou-shiori.pdf",
+      "quote": "〇入園月の翌月末までに復帰しなかったときは、退園していただく場合があります。"
+    },
+    "ikukyu#4": {
+      "url": "https://www.city.shizuoka.lg.jp/documents/58809/23gou-shiori.pdf",
+      "quote": "※育児休業給付金の支給対象期間延長手続きで必要となるため、０～２歳児クラスの申込みの方は必ず申込書の１、２ページの"
+    },
+    "notes.0": {
+      "url": "https://www.city.shizuoka.lg.jp/s5783/s013086.html",
+      "quote": "集団生活において配慮が必要なお子さんや医療的ケアを必要とするお子さんの入園申込みについては、次の各ページをご確認ください。"
+    },
+    "notes.0#2": {
+      "url": "https://www.city.shizuoka.lg.jp/s5783/s013086.html",
+      "quote": "なお、市立こども園へ入園申込みにあたり、令和8年9月30日（水曜日）までに体験保育を行う必要があります。"
+    },
+    "notes.0#3": {
+      "url": "https://www.city.shizuoka.lg.jp/s5783/s013086.html",
+      "quote": "また、入園開始時期は4月のみです。年度途中の入園はできませんので、ご注意ください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.shizuoka.lg.jp/documents/58809/23gou-shiori.pdf",
+      "quote": "令和8年１０月１日（木）～１０月９日（金）までに第一希望の市立こども園または各区子育て支援課へ"
+    },
+    "notes.1#2": {
+      "url": "https://www.city.shizuoka.lg.jp/documents/58809/23gou-shiori.pdf",
+      "quote": "令和８年１０月１日（木）～１０月５日（月）までに第一希望の市立こども園へ申請書類等をご提出ください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.shizuoka.lg.jp/s5783/s013086.html",
+      "quote": "一次選考をお申し込みされたお子さまの児童面接(令和8年11月実施)の詳細日程について、電子通知にてお知らせを行います。"
+    },
+    "notes.2#2": {
+      "url": "https://www.city.shizuoka.lg.jp/s5783/s013086.html",
+      "quote": "原則紙郵送での通知は行わず、「Speed Letter Plus」サービスを通じての通知となりますので、チラシに記載の手順について、期日までに実施をお願いします。"
+    },
+    "notes.2#3": {
+      "url": "https://www.city.shizuoka.lg.jp/s5783/s013086.html",
+      "quote": "登録期間：令和8年9月17日（木曜日）～令和8年11月2日（月曜日）"
+    },
+    "notes.3": {
+      "url": "https://www.city.shizuoka.lg.jp/s5783/s013086.html",
+      "quote": "二次選考結果を希望される方は、下記申込フォームからお申し込みください。"
+    },
+    "notes.3#2": {
+      "url": "https://www.city.shizuoka.lg.jp/s5783/s013086.html",
+      "quote": "申込期間：令和8年11月4日（水曜日）～令和9年2月5日（金曜日）"
+    },
+    "notes.4": {
+      "url": "https://www.city.shizuoka.lg.jp/documents/58809/23gou-shiori.pdf",
+      "quote": "※ 入園保留となった方は、引き続き令和９年度内（令和１０年3月入園まで）は毎月選考の対象となります。（再度の新規申込は不要）"
+    },
+    "notes.5": {
+      "url": "https://www.city.shizuoka.lg.jp/documents/58809/23gou-shiori.pdf",
+      "quote": "※各園の一次選考後の空き枠は、１月中旬に市ホームページに掲載する予定です。"
+    }
+  },
+  "sources": [
+    {
+      "label": "静岡市「令和9年度認定こども園・保育園・幼稚園等の入園受付」",
+      "url": "https://www.city.shizuoka.lg.jp/s5783/s013086.html"
+    },
+    {
+      "label": "静岡市「【2・3号認定用】入園申込みのしおり（こども園・私立保育所・小規模保育施設等保育認定）」",
+      "url": "https://www.city.shizuoka.lg.jp/documents/58809/23gou-shiori.pdf"
+    }
+  ]
+}

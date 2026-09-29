@@ -3,60 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "kawaguchi",
-    title: "川口市の保活スケジュール　申込から内定までの流れ",
-    description:
-      "川口市の認可保育園の申込時期・選考の流れをまとめました。令和8年度4月入園の動き方を解説します。",
-    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>川口市の4月入園スケジュール</h2>
-<p>川口市の認可保育園は毎年秋に翌年度4月入園の申込を受付けます。選考基準指数表を理解して準備を進めましょう。</p>
-
-<h3>保活の全体スケジュール</h3>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content">
-<strong>4月〜6月：情報収集</strong>
-<p>市のホームページで保育園の一覧と空き状況を確認します。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content">
-<strong>6月〜9月：保育園見学</strong>
-<p>気になる園に連絡して見学を予約しましょう。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content">
-<strong>9月〜10月：書類準備</strong>
-<p>就労証明書などの必要書類を準備します。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content">
-<strong>10月〜11月：申込書類の提出</strong>
-<p>保育幼稚園課窓口で申込みます。</p>
-</div>
-</div>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>川口市は基本指数が父母各最大20点（合計40点満点）です。月の就労時間で判定される制度です。</p>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.kawaguchi.lg.jp/soshiki/01080/050/4/49308.html" target="_blank" rel="noopener">川口市公式サイト</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-03-28",
-    popularity: 55,
-  },
-  {
     slug: "scoring-system-guide",
     citySlug: "kawaguchi",
     title: "川口市の入園点数のしくみ　基本指数と調整指数を解説",

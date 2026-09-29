@@ -1,3 +1,17 @@
+## 2026-09-29 保活スケジュール 残り220自治体をレコード方式に
+
+旧テンプレの hokatsu-schedule が残っているのは 220 自治体（メモの196より多い）。一覧は `tasks/hokatsu-schedule/targets2.tsv`。前回取れなかった8（尼崎・宇都宮・奈良・江南・江戸川・船橋・市川・杉並）も含む
+
+- [x] 1陣 24自治体（札幌・さいたま・横浜・名古屋・大阪・堺・広島・岡山・熊本・静岡・練馬・江戸川・船橋・板橋・川口・市川・姫路・葛飾・江東・品川・北区・柏・松山・藤沢）。照合○＋全件「値 ← quote」通読。直したのは 堺・岡山・熊本（自分で書き直し）、大阪・川口・横浜・葛飾・北区（値を quote の範囲に）。葛飾・北区は年度途中の締切が令和8年度の例だったので外した
+- [x] 旧記事24本を外して legacy.json（117件）、tsc / articles:verify / build / ローカル200（開始日の無い札幌・品川も文が崩れない）
+- 宇都宮は保留（日付の根拠が広報の記事見出しで年も推定）。レコードは scratchpad の utsunomiya.hold.json。10月に R9 で取り直す
+- 画像にしか無い日程: 札幌（一次結果 令和9年1月下旬・二次締切 1月下旬・二次結果 3月上旬、R09-1senko_schedule.png）、練馬（R9 一次締切 令和8年11月6日、mousikomisimekiribi.jpg）。quote にできないので未掲載
+- 10月中旬の取り直し: 名古屋・練馬・江戸川・柏（R8）、松山（R9 詳細が10月中旬公表）、宇都宮
+- [ ] 残り約195自治体（targets2.tsv から done を引く）。Agent は model: "opus"
+- [ ] 受け取り: 報告を読まずに `verify-fact-records.py hokatsu <slug>` と `wc -c`、○は即 `git add`。全件「値 ← quote」で通読
+- [ ] 旧記事を外す（`remove-old-articles.py hokatsu-schedule ...`）→ tsc / articles:verify / build / ローカル200 → push → 本番200 → IndexNow
+- [ ] 10月中旬: R8 の分を R9 に取り直す
+
 ## 2026-09-19 人気記事を重厚に（点数のしくみ 426自治体＋保活スケジュール 93自治体）
 
 計画: `~/.claude/plans/effervescent-popping-boot.md`。GSC 3か月のクリック上位は「◯◯市 保育園 点数」と「保活スケジュール」で、どちらも400字のテンプレ記事（令和8年4月入園のまま）だった

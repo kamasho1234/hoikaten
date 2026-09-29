@@ -4,69 +4,6 @@ import { registerArticles } from "./index";
 const articles: Article[] = [
   // ===== 保活の基本 (2) =====
   {
-    slug: "hokatsu-schedule",
-    citySlug: "osaka",
-    title: "大阪市の保活スケジュール完全ガイド｜令和8年度4月入園",
-    description:
-      "大阪市の認可保育園の申込時期・選考の流れ・結果通知の時期をわかりやすく解説。令和8年度4月入園のスケジュールを中心にまとめました。",
-    image:
-      "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>令和8年度（2026年度）4月入園のスケジュール</h2>
-<p>大阪市の4月一斉入所は、<strong>1次調整</strong>と<strong>2次調整</strong>の2段階で行われます。申込は各区の保健福祉センターで受け付けています。</p>
-
-<h3>1次調整</h3>
-<table>
-<tr><th>項目</th><th>日程</th></tr>
-<tr><td>申込書配付開始</td><td>令和7年9月4日</td></tr>
-<tr><td>募集予定人数の公表</td><td>令和7年9月8日</td></tr>
-<tr><td>申込受付期間</td><td>令和7年10月1日〜10月15日</td></tr>
-<tr><td>結果通知発送</td><td>令和8年1月26日</td></tr>
-</table>
-
-<h3>2次調整</h3>
-<table>
-<tr><th>項目</th><th>日程</th></tr>
-<tr><td>空き情報の公表</td><td>令和8年1月26日</td></tr>
-<tr><td>希望変更・不足書類提出期限</td><td>令和8年2月6日</td></tr>
-<tr><td>結果通知発送</td><td>令和8年2月27日</td></tr>
-</table>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>1次調整で不承諾だった方は、自動的に2次調整の対象となります。ただし希望施設の変更は2月6日までに手続きが必要です。</p>
-</div>
-
-<h2>いつから動き始めるべき？</h2>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content"><strong>4月〜6月：情報収集</strong><p>大阪市の保育施設の種類やエリアごとの特徴を調べましょう。</p></div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content"><strong>6月〜9月：保育園見学</strong><p>気になる園に電話して見学予約。夏場が見学のベストシーズンです。</p></div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content"><strong>9月：「利用の案内」を入手</strong><p>大阪市が発行する保活ガイド。区の窓口または市の公式サイトで入手できます。</p></div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content"><strong>10月上旬：申込書類の提出</strong><p>就労証明書などを揃えて、お住まいの区の保健福祉センターに提出します。</p></div>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>申込受付は事前にオンライン予約が必要です。大阪市行政オンラインシステムで予約してから窓口に行きましょう。詳しくは<a href="https://www.city.osaka.lg.jp/kodomo/page/0000682977.html" target="_blank" rel="noopener">大阪市公式サイト</a>をご確認ください。</p>
-</div>
-
-<h2>途中入園（5月〜3月）の申込</h2>
-<p>途中入園の申込は随時受け付けています。空き状況は大阪市の公式サイトで毎月更新されますので、こまめにチェックしましょう。</p>`,
-    publishedAt: "2026-03-28",
-    popularity: 55,
-  },
-  {
     slug: "ward-characteristics",
     citySlug: "osaka",
     title: "大阪市24区の保活事情｜区別の特徴と入りやすさ",

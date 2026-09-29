@@ -3,60 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "koto",
-    title: "江東区の保活スケジュール　申込から内定までの流れ",
-    description:
-      "江東区の認可保育園の申込時期と選考の流れをまとめました。令和8年度4月入園の動き方を解説します。",
-    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>江東区の4月入園スケジュール</h2>
-<p>江東区は湾岸エリアのマンション開発で子育て世帯が急増しており、保活の準備は早めに始めることが重要です。</p>
-
-<h3>保活の全体スケジュール</h3>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content">
-<strong>4月〜6月：情報収集</strong>
-<p>区のホームページで「入園のしおり」の前年度版を確認します。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content">
-<strong>6月〜9月：保育園見学</strong>
-<p>気になる園に電話予約して見学へ。湾岸エリアは見学予約が埋まりやすいので早めに動きましょう。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content">
-<strong>9月〜10月：入園のしおりを入手・書類準備</strong>
-<p>最新の「入園のしおり」を入手し、就労証明書などを準備します。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content">
-<strong>10月〜11月：申込書類の提出</strong>
-<p>窓口または郵送で提出します。</p>
-</div>
-</div>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>江東区は基準指数が父母各最大12点（合計24点満点）です。就労時間は「週の合計時間」で判定される点が特徴です。</p>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.koto.lg.jp/kodomo/hoiku/index.html" target="_blank" rel="noopener">江東区公式サイト</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-03-28",
-    popularity: 55,
-  },
-  {
     slug: "scoring-system-guide",
     citySlug: "koto",
     title: "江東区の入園点数のしくみ　基準指数と調整指数を解説",

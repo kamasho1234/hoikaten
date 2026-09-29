@@ -1,0 +1,216 @@
+{
+  "citySlug": "yokohama",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "横浜市「令和９年度に保育所等の利用を希望する方へ」",
+    "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/hoikuriyou/R9hoikuriyou.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年10月1日（木曜日）から横浜市保育所等利用案内の紙冊子を配布。各区の利用案内は各区のホームページからダウンロードでき、令和8年10月1日から各区役所で配布",
+  "firstApply": "令和8年10月1日（木）〜令和8年10月28日（水）。オンライン申請は23時59分までの送信分が有効。希望園の追加・順位変更と不足書類のみ令和8年11月20日（金）まで追加の申請を受け付ける",
+  "applyMethods": "原則としてマイナンバーカードを使ったオンライン申請（マイナポータル）。オンライン申請ができない人は横浜市こども青少年局 認定・利用調整事務センター宛に郵送（4月一次申請は締切日消印有効、4月二次申請はお住まいの区の区役所こども家庭支援課へ締切日必着）。個別に支援を必要とする子どもや、市外の保育所等を希望する場合は区役所こども家庭支援課の窓口で申請",
+  "firstResult": "4月一次利用調整の結果は令和9年1月下旬までに「施設・事業利用調整結果通知書」または保留通知書で知らせる。結果は区役所こども家庭支援課から郵便で届く",
+  "secondApply": "令和8年12月23日（水）〜令和9年2月2日（火）。希望園の追加・順位変更と不足書類のみ令和9年2月3日（水）まで受け付ける。一次利用調整で保留になった人は自動的に二次利用調整の対象",
+  "secondResult": "4月二次利用調整の結果は令和9年3月4日前後に知らせる",
+  "midYearDeadline": "年度途中（令和9年5月以降）は利用開始月ごとに申請期間が異なる。例えば令和9年5月利用開始は令和9年3月8日〜4月5日、6月利用開始は4月6日〜5月6日。締切日後に提出したものは翌月の利用調整からの対象",
+  "documents": [
+    "就労証明書（横浜市が公開している様式。証明日が提出日から6か月より前のものだと給付認定・利用調整上不利になることがある）",
+    "常態的に月2回以上の夜勤・宿泊を含む出張がある場合は、就労証明書とは別の様式の夜勤証明書（就労証明書の備考欄（No.18）に「月2回以上の夜勤あり」と書いてもらうことでも可）",
+    "保育士等の子どもの優先的取扱いを希望する場合は、就労先の証明を受けた保育士等就労に関する誓約書兼証明書",
+    "郵送・窓口で申請する場合は、A給付認定申請書、B利用申請書（保育所等）、Dマイナンバー記入用紙・本人確認書類、提出書類確認票、返信用封筒（長3サイズ程度・110円切手貼付）",
+    "出生前に申請する場合は母子健康手帳の写し（表紙と分娩（出産）予定日が確認できるページ）"
+  ],
+  "interview": "申請の前に原則として利用を希望する保育所等を見学する。見学は事前に保育所等へ直接問い合わせる",
+  "ikukyu": "利用申請で「育休延長の許容」を選ぶと利用調整の優先順位を下げる取扱い（最低ランク、調整指数I-10）になる。希望園に空きがあれば内定となり、内定後に辞退しても保留通知書は発行されない。育児休業給付金の延長手続きには利用申請書類の写しが必要なので、オンライン申請では申請データ（控え）を必ずダウンロードする",
+  "notes": [
+    "原則オンライン申請のため、紙冊子の利用案内には就労証明書以外の申請書類を同封していない",
+    "令和9年4月一次申請の基準日は令和8年9月30日。基準日はご家庭の状況などを判断する時点",
+    "一次利用調整で内定した場合は二次利用調整の対象にならず、内定を辞退しても二次申請はできない",
+    "保留になると、利用が内定するまで自動的に翌月以降の利用調整の対象になる（令和10年3月まで有効）",
+    "結果通知は給付認定保護者の住所に郵便で送り、Eメールでの通知は行わない"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/hoikuriyou/R9hoikuriyou.html",
+      "quote": "このページには、令和９年度に保育所等の利用を希望する方へのご案内を掲載しています。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/hoikuriyou/R9hoikuriyou.html",
+      "quote": "紙冊子での配布は令和８年10月１日（木曜日）より開始します。"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/hoikuriyou/R9hoikuriyou.html",
+      "quote": "各区のホームページからダウンロードできるほか、令和８年10月１日（木曜日）より各区役所で配布します。"
+    },
+    "firstApply": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/hoikuriyou/R9hoikuriyou.files/R9_hoikusyoriyouannai.pdf",
+      "quote": "令和 8 年 10 月 1 日（木)～令和 8 年 10 月 28 日(水)"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/hoikuriyou/R9hoikuriyou.html",
+      "quote": "オンライン申請は23時59分までの送信分が有効となります。"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/hoikuriyou/R9hoikuriyou.html",
+      "quote": "希望園の追加・順位変更や不足書類のみ 令和８年11月20日(金曜日)まで追加の申請を受け付けます。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/hoikuriyou/R9hoikuriyou.html",
+      "quote": "横浜市内の保育所等の利用申請は、原則としてマイナンバーカードを使ったオンライン申請となります。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/hoikuriyou/R9hoikuriyou.files/R9_hoikusyoriyouannai.pdf",
+      "quote": "４月一次申請・不足書類（消印有効） 〒２３１－８３５０"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/hoikuriyou/R9hoikuriyou.files/R9_hoikusyoriyouannai.pdf",
+      "quote": "４月二次申請・不足書類（締切日必着） お住まいの区の区役所こども家庭支援課"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/hoikuriyou/R9hoikuriyou.html",
+      "quote": "以下に該当する場合、お住まいの区の区役所こども家庭支援課（窓口）で申請してください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/hoikuriyou/R9hoikuriyou.files/R9_hoikusyoriyouannai.pdf",
+      "quote": "＜結果通知＞令和９年１月下旬までにお知らせします。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/hoikuriyou/R9hoikuriyou.files/R9_hoikusyoriyouannai.pdf",
+      "quote": "利用調整の結果は「施設・事業利用調整結果通知書」または「施設・事業利用調整結果（保留）通知書」"
+    },
+    "firstResult#3": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/hoikuriyou/online-r9.html",
+      "quote": "利用調整の結果は、お住まいの区（または利用決定した保育所等がある区）の区役所こども家庭支援課から郵便で連絡します。"
+    },
+    "secondApply": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/hoikuriyou/R9hoikuriyou.files/R9_hoikusyoriyouannai.pdf",
+      "quote": "12月23日(水) ２月２日(火) お住まいの区の区役所"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/hoikuriyou/R9hoikuriyou.files/R9_hoikusyoriyouannai.pdf",
+      "quote": "【注意事項】希望園の追加・順位変更や不足書類のみ令和９年２月３日(水)まで追加の申請を受け付けます。"
+    },
+    "secondApply#3": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/hoikuriyou/R9hoikuriyou.files/R9_hoikusyoriyouannai.pdf",
+      "quote": "います。一次利用調整で保留になった方は、自動的に二次利用調整の対象となります。"
+    },
+    "secondResult": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/hoikuriyou/R9hoikuriyou.files/R9_hoikusyoriyouannai.pdf",
+      "quote": "令和９年３月４日前後にお知らせします。"
+    },
+    "secondResult#2": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/hoikuriyou/R9hoikuriyou.files/R9_hoikusyoriyouannai.pdf",
+      "quote": "※ 一次利用調整の結果保留となり、二次利用調整において"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/hoikuriyou/R9hoikuriyou.files/R9_hoikusyoriyouannai.pdf",
+      "quote": "利用を希望する月により申請期間が異なります。利用開始日は原則、各月１日です。締切日後に提出"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/hoikuriyou/R9hoikuriyou.files/R9_hoikusyoriyouannai.pdf",
+      "quote": "令和 9年 5月 令和 9年 3月 8日 （月） 令和 9年 4月 5日 （月）"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/hoikuriyou/R9hoikuriyou.files/R9_hoikusyoriyouannai.pdf",
+      "quote": "令和 9年 6月 令和 9年 4月 6日 （火） 令和 9年 5月 6日 （木）"
+    },
+    "midYearDeadline#4": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/hoikuriyou/R9hoikuriyou.files/R9_hoikusyoriyouannai.pdf",
+      "quote": "されたものは翌月の利用調整からの対象となりますので、必ず余裕をもって申請してください。"
+    },
+    "documents.0": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/hoikuriyou/R9hoikuriyou.files/R9_hoikusyoriyouannai.pdf",
+      "quote": "ものを提出してください。証明日が、提出日から６か月より前のものである場合、給付認定及び利用調整上"
+    },
+    "documents.0#2": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/hoikuriyou/R9hoikuriyou.files/R9_hoikusyoriyouannai.pdf",
+      "quote": "就労証明書（横浜市が公開している様式で、提出日時点の雇用状況（内定等の予定含む）等を証明する"
+    },
+    "documents.1": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/hoikuriyou/R9hoikuriyou.html",
+      "quote": "「常態的に月２回以上の夜勤・宿泊含む出張がある」場合には、就労証明書とは別の様式（夜勤証明書）にて証明いただく必要があります。"
+    },
+    "documents.2": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/hoikuriyou/R9hoikuriyou.html",
+      "quote": "様式には就労先記入欄があります。就労先の証明を受けたうえで提出してください。"
+    },
+    "documents.3": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/hoikuriyou/R9hoikuriyou.files/R9_hoikusyoriyouannai.pdf",
+      "quote": "A給付認定申請書、B 利用申請書（保育所等）、D マイナンバー記入用紙・本人確認書類（P19参照）"
+    },
+    "documents.3#2": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/hoikuriyou/R9hoikuriyou.files/R9_hoikusyoriyouannai.pdf",
+      "quote": "提出書類確認票（兼重要事項確認票）、返信用封筒※（長３サイズ程度・110円切手貼付）"
+    },
+    "documents.4": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/hoikuriyou/R9hoikuriyou.files/R9_hoikusyoriyouannai.pdf",
+      "quote": "出生前に利用申請をする方 母子健康手帳の写し （「表紙」と「分娩（出産）予定日が確認できるページ」の写し）"
+    },
+    "interview": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/hoikuriyou/R9hoikuriyou.files/R9_hoikusyoriyouannai.pdf",
+      "quote": "申請の前に原則、利用を希望する保育所等を見学し、利用が決まった場合に通えるか、条件や"
+    },
+    "interview#2": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/hoikuriyou/R9hoikuriyou.files/R9_hoikusyoriyouannai.pdf",
+      "quote": "見学については、事前に保育所等へ直接お問合せください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/hoikuriyou/R9hoikuriyou.files/R9_hoikusyoriyouannai.pdf",
+      "quote": "の優先順位を下げる取扱い（最低ランク、調整指数（Ｉ－10）、類型間の優先順位⑧求職中）を"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/hoikuriyou/R9hoikuriyou.files/R9_hoikusyoriyouannai.pdf",
+      "quote": "・希望する保育所等の定員に空きがある場合は利用内定となります。利用内定となった後に内定を辞退したとしても保留通知書の発行はできません。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/hoikuriyou/R9hoikuriyou.html",
+      "quote": "育児休業給付金の延長手続きには、市区町村に保育所等の利用申請をした際の申請書類の写しが必要となりました。オンライン申請した際には、必ず申請データ（控え）をダウンロードしてください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/hoikuriyou/R9hoikuriyou.html",
+      "quote": "原則オンライン申請となるため、紙冊子の利用案内には就労証明書以外の申請書類を同封していません。"
+    },
+    "notes.1": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/hoikuriyou/R9hoikuriyou.html",
+      "quote": "基準日・・・保育所等の利用調整にあたって、ご家庭の状況などを判断する時点のこと。"
+    },
+    "notes.1#2": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/hoikuriyou/R9hoikuriyou.html",
+      "quote": "令和９年４月一次申請の基準日 令和８年９月30日（水曜日）"
+    },
+    "notes.2": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/hoikuriyou/R9hoikuriyou.files/R9_hoikusyoriyouannai.pdf",
+      "quote": "・一次利用調整で内定した場合、二次利用調整の対象とはなりません。"
+    },
+    "notes.2#2": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/hoikuriyou/R9hoikuriyou.files/R9_hoikusyoriyouannai.pdf",
+      "quote": "・内定を辞退しても、二次申請はできません。"
+    },
+    "notes.3": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/hoikuriyou/R9hoikuriyou.files/R9_hoikusyoriyouannai.pdf",
+      "quote": "利用が内定するまで、自動的に翌月以降の利用調整の対象になります（令和10年３月まで有効）。"
+    },
+    "notes.4": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/hoikuriyou/online-r9.html",
+      "quote": "給付認定保護者の住所に郵便でお送りします。Eメールでの通知は行っていません。"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/hoikuriyou/R9hoikuriyou.html",
+      "quote": "なお、様式の作成に代わり、就労証明書の備考欄（No.18）に「⽉２回以上の夜勤あり」と記載いただくことも可能としています。"
+    }
+  },
+  "sources": [
+    {
+      "label": "横浜市「令和９年度に保育所等の利用を希望する方へ」",
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/hoikuriyou/R9hoikuriyou.html"
+    },
+    {
+      "label": "横浜市「令和９年度 横浜市保育所等利用案内」",
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/hoikuriyou/R9hoikuriyou.files/R9_hoikusyoriyouannai.pdf"
+    },
+    {
+      "label": "横浜市「【令和９年４月一次申請】保育所等利用のオンライン申請」",
+      "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/hoiku-yoji/shisetsu/riyou/hoikuriyou/online-r9.html"
+    }
+  ]
+}

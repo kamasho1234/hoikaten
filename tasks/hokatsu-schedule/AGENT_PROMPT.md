@@ -4,7 +4,7 @@
 C:\Users\kamas\projects\webapps\hoikuen-simulator\src\lib\articles\hokatsu-schedule\records\<slug>.json を作る。
 形の手本は同じフォルダの tsu.json（文や値は流用禁止）。型は src\lib\articles\hokatsu-schedule\types.ts。
 作業ファイル（curl で保存した HTML/PDF とテキスト化したもの）は
-C:/Users/kamas/AppData/Local/Temp/claude/C--Users-kamas/95b0c8d9-b0dc-40cd-a282-5bf430205605/scratchpad/hk/<slug>/ に置く。
+C:/Users/kamas/AppData/Local/Temp/claude/C--Users-kamas/eea2418d-70b7-463c-925f-f6d32349f9a2/scratchpad/hk/<slug>/ に置く。
 
 守ること:
 - サブエージェントは使わない。自分で curl（Chrome UA）で取り、テキスト化して grep してから必要な行だけ読む
