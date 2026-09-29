@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "rifu",
   "municipalityName": "利府町",
-  "asOf": "2026-08-26",
-  "fetchedAt": "2026-09-28",
+  "asOf": "2026-09-28",
+  "fetchedAt": "2026-09-29",
   "sourceName": "利府町「選考後の各保育施設の空き状況」",
   "sourceUrl": "https://www.town.rifu.miyagi.jp/kosodatesite/oyakudati/7944.html",
   "sourceFiles": {
-    "vacancy": "https://www.town.rifu.miyagi.jp/material/files/group/46/akizyoukyou826.pdf"
+    "vacancy": "https://www.town.rifu.miyagi.jp/material/files/group/46/20260928akijyoukyou2.pdf"
   },
   "metrics": [
     "vacancy"
@@ -96,8 +96,8 @@
       "c": null,
       "vacancy": [
         3,
-        4,
-        0,
+        3,
+        1,
         2,
         0,
         0
@@ -111,7 +111,7 @@
       "vacancy": [
         0,
         0,
-        1,
+        0,
         0,
         0,
         0
@@ -124,7 +124,7 @@
       "c": null,
       "vacancy": [
         3,
-        6,
+        5,
         4,
         3,
         4,
@@ -151,9 +151,9 @@
       "w": null,
       "c": null,
       "vacancy": [
-        3,
+        2,
         0,
-        1,
+        0,
         0,
         0,
         1
@@ -183,7 +183,7 @@
         0,
         0,
         1,
-        0,
+        1,
         0
       ]
     },
@@ -235,11 +235,11 @@
       "w": null,
       "c": null,
       "vacancy": [
-        8,
+        7,
         1,
-        1,
+        0,
         3,
-        2,
+        3,
         2
       ]
     },

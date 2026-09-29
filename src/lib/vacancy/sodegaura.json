@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "sodegaura",
   "municipalityName": "袖ケ浦市",
-  "asOf": "2026-08-28",
-  "fetchedAt": "2026-09-28",
+  "asOf": "2026-09-28",
+  "fetchedAt": "2026-09-29",
   "sourceName": "袖ケ浦市「保育所・認定こども園等 受入可能状況一覧」",
   "sourceUrl": "https://www.city.sodegaura.lg.jp/soshiki/hoiku/ukeire.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.sodegaura.lg.jp/uploaded/attachment/46968.pdf"
+    "vacancy": "https://www.city.sodegaura.lg.jp/uploaded/attachment/47329.pdf"
   },
   "metrics": [
     "symbol"
@@ -133,7 +133,7 @@
         "×",
         "×",
         "×",
-        "△",
+        "×",
         "×"
       ]
     },
@@ -175,7 +175,7 @@
       "symbols": [
         "×",
         "×",
-        "△",
+        "×",
         "×",
         "×",
         "×"
@@ -219,7 +219,7 @@
       "symbols": [
         "×",
         "×",
-        "×",
+        "△",
         "×",
         "×",
         "×"
@@ -483,7 +483,7 @@
       "symbols": [
         "×",
         "×",
-        "×",
+        "△",
         null,
         null,
         null
@@ -505,7 +505,7 @@
       "symbols": [
         "×",
         "×",
-        "△",
+        "×",
         null,
         null,
         null
@@ -570,8 +570,8 @@
       ],
       "symbols": [
         "×",
-        "△",
         "〇",
+        "×",
         null,
         null,
         null
@@ -592,8 +592,8 @@
       ],
       "symbols": [
         "×",
+        "×",
         "△",
-        "〇",
         null,
         null,
         null

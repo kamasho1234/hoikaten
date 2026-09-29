@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "honjo",
   "municipalityName": "本庄市",
-  "asOf": "2026-08-27",
-  "fetchedAt": "2026-09-28",
+  "asOf": "2026-09-29",
+  "fetchedAt": "2026-09-29",
   "sourceName": "本庄市「保育所（園）受入人数一覧」",
   "sourceUrl": "https://www.city.honjo.lg.jp/kosodate_kyoiku/kosodate/hoikusho_kodomoen_yochien/1554375865978.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.honjo.lg.jp/material/files/group/50/hoikuen_aki_R8_10_.pdf"
+    "vacancy": "https://www.city.honjo.lg.jp/material/files/group/50/hoikuen_aki_R8_11_.pdf"
   },
   "metrics": [
     "vacancy"
@@ -58,10 +58,10 @@
       "w": null,
       "c": 1,
       "vacancy": [
-        5,
+        2,
         0,
         0,
-        3,
+        1,
         3,
         3
       ]
@@ -114,7 +114,7 @@
       "w": null,
       "c": 1,
       "vacancy": [
-        1,
+        0,
         0,
         0,
         1,
@@ -143,7 +143,7 @@
       "c": 1,
       "vacancy": [
         2,
-        0,
+        2,
         0,
         0,
         0,
@@ -170,23 +170,9 @@
       "w": null,
       "c": 1,
       "vacancy": [
-        3,
+        5,
         1,
-        3,
-        2,
-        0,
-        0
-      ]
-    },
-    {
-      "id": "ほほえみ子どもの国保育園",
-      "name": "ほほえみ子どもの国保育園",
-      "w": null,
-      "c": 1,
-      "vacancy": [
-        0,
-        0,
-        0,
+        1,
         0,
         0,
         0
@@ -198,7 +184,7 @@
       "w": null,
       "c": 1,
       "vacancy": [
-        3,
+        2,
         2,
         2,
         1,
@@ -212,7 +198,7 @@
       "w": null,
       "c": 1,
       "vacancy": [
-        1,
+        0,
         0,
         0,
         0,
@@ -227,7 +213,7 @@
       "c": 1,
       "vacancy": [
         1,
-        1,
+        0,
         1,
         0,
         1,
@@ -243,7 +229,7 @@
         1,
         1,
         0,
-        1,
+        0,
         0,
         0
       ]
@@ -282,7 +268,7 @@
       "w": null,
       "c": 2,
       "vacancy": [
-        1,
+        0,
         0,
         1,
         0,
@@ -311,10 +297,10 @@
       "c": 2,
       "vacancy": [
         1,
-        1,
-        5,
-        11,
+        2,
         4,
+        11,
+        5,
         9
       ]
     },
@@ -324,8 +310,8 @@
       "w": null,
       "c": 2,
       "vacancy": [
-        2,
-        6,
+        1,
+        5,
         3,
         8,
         5,
@@ -352,7 +338,7 @@
       "w": null,
       "c": 2,
       "vacancy": [
-        2,
+        1,
         1,
         3,
         3,
@@ -366,9 +352,9 @@
       "w": null,
       "c": 2,
       "vacancy": [
-        1,
         3,
-        1,
+        3,
+        3,
         0,
         0,
         0
@@ -380,7 +366,7 @@
       "w": null,
       "c": 3,
       "vacancy": [
-        1,
+        0,
         null,
         null,
         null,
@@ -394,9 +380,9 @@
       "w": null,
       "c": 3,
       "vacancy": [
-        3,
-        3,
         2,
+        2,
+        1,
         null,
         null,
         null
