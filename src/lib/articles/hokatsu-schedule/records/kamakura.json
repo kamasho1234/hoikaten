@@ -1,0 +1,169 @@
+{
+  "citySlug": "kamakura",
+  "checkedAt": "2026-09-30",
+  "page": {
+    "label": "鎌倉市「令和9年度認可保育所等入所申込みのご案内」",
+    "url": "https://www.city.kamakura.kanagawa.jp/hoiku/r9hoikuen-nyusyo.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "電子申請（e-kanagawa）は令和8年10月1日〜10月31日。郵送は令和8年10月31日（消印有効）まで。不足書類の提出期限は令和8年11月20日（金曜日）",
+  "applyMethods": "4月入所の一次審査は郵送かe-kanagawa電子申請のみで、窓口受付は行わない（窓口は相談のみ）。二次審査からは郵送・電子申請のほか、鎌倉市役所本庁舎1階保育・幼稚園課（31番窓口）でも申し込める",
+  "firstResult": "令和9年1月下旬頃（予定）に郵送で通知",
+  "secondApply": "令和8年11月2日（月曜日）〜令和9年2月10日（水曜日）（消印有効）",
+  "secondResult": "令和9年3月中旬頃（予定）に郵送で通知",
+  "midYearDeadline": "5月以降の入所は、原則として入所希望月の前月1日が申込締切（郵送は必着）",
+  "documents": [
+    "教育・保育給付認定申請書（兼）入所申込書（2号・3号用）",
+    "児童調査票",
+    "保育所等入所に関する確認票",
+    "申込書補助票",
+    "マイナンバー・本人確認票（マイナンバーカードが無い場合は通知カードの写しか個人番号記載の住民票の写しでもよい）",
+    "保育の必要性を確認する書類（会社員は就労証明書。締切日より3か月以内に取得したもの）"
+  ],
+  "interview": "公立保育園に内定した人には後日面接のお知らせを郵送する。申込の前に施設の見学を行うよう求められている",
+  "ikukyu": "申込書補助票で「希望する保育所等に入所できない場合は、育児休業の延長も許容できるため、利用調整の優先順位が下がってもよい」を選ぶと、調整点数は適用されず0点で審査される。一次審査で内定を辞退した場合、二次審査ではこの選択での申込みは受け付けない",
+  "notes": [
+    "4月入所の一次審査に限り、出生前の申込みを受け付ける（郵送のみ）",
+    "令和8年度に申し込んでいる人も、年度ごとに改めて申込みが必要",
+    "書類に不備や不足がある場合は、締切日時点で揃っている書類だけで審査する",
+    "提出した書類は返却されないので、育児休業給付金の手続き等に備えて提出前に自宅保管用のコピーを取る",
+    "育児休業中に入所する場合は、入所後2か月以内に復職することが必要",
+    "市外に住む人の4月入所一次審査は、令和9年4月1日までに転入予定の人か市内保育所等で保育士等として就労する人のみ。それ以外は二次審査からの受付"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.kamakura.kanagawa.jp/hoiku/documents/r9_nyusho_shiori.pdf",
+      "quote": "令和９年４月の入所については、一次審査と二次審査に分けて受付を行います。"
+    },
+    "firstApply": {
+      "url": "https://www.city.kamakura.kanagawa.jp/hoiku/r9hoikuen-nyusyo.html",
+      "quote": "令和8年（2026年）10月1日（木曜日）～令和8年（2026年）10月31日（土曜日）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.kamakura.kanagawa.jp/hoiku/documents/r9_nyusho_shiori.pdf",
+      "quote": "郵送またはe-kanagawa電子申請による受付けとし、締め切りを令和８年（2026 年）10 月 31 日（郵送の場合は消印有効）とします。"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.kamakura.kanagawa.jp/hoiku/r9hoikuen-nyusyo.html",
+      "quote": "令和8年（2026年）11月20日（金曜日）（消印有効）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.kamakura.kanagawa.jp/hoiku/r9hoikuen-nyusyo.html",
+      "quote": "4月入所一次審査は窓口受付は行っていません。郵送又はe-kanagawa電子申請でお申し込みください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.kamakura.kanagawa.jp/hoiku/r9hoikuen-nyusyo.html",
+      "quote": "二次審査から、郵送、e-kanagawa電子申請のほか、窓口でも申し込みができます。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.kamakura.kanagawa.jp/hoiku/r9hoikuen-nyusyo.html",
+      "quote": "鎌倉市役所本庁舎1階保育・幼稚園課（31番窓口）"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.kamakura.kanagawa.jp/hoiku/documents/r9_nyusho_shiori.pdf",
+      "quote": "一次審査の受付期間は、窓口は相談専用としています。"
+    },
+    "firstResult": {
+      "url": "https://www.city.kamakura.kanagawa.jp/hoiku/documents/r9_nyusho_shiori.pdf",
+      "quote": "令和９年１月下旬頃（予定）、郵送により通知"
+    },
+    "secondApply": {
+      "url": "https://www.city.kamakura.kanagawa.jp/hoiku/r9hoikuen-nyusyo.html",
+      "quote": "令和8年（2026年）11月2日（月曜日）～令和9年（2027年）2月10日（水曜日）"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.kamakura.kanagawa.jp/hoiku/r9hoikuen-nyusyo.html",
+      "quote": "令和9年（2027年）2月10日（水曜日）（消印有効）"
+    },
+    "secondResult": {
+      "url": "https://www.city.kamakura.kanagawa.jp/hoiku/documents/r9_nyusho_shiori.pdf",
+      "quote": "令和９年３月中旬頃（予定）、郵送により通知"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.kamakura.kanagawa.jp/hoiku/documents/r9_nyusho_shiori.pdf",
+      "quote": "入所を希望する月によって、申込み締切日が異なります（原則、入所希望月の前月１日）。"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.kamakura.kanagawa.jp/hoiku/documents/r9_nyusho_shiori.pdf",
+      "quote": "余裕をもってお申込みください。郵送の場合必着です。"
+    },
+    "documents.0": {
+      "url": "https://www.city.kamakura.kanagawa.jp/hoiku/documents/r9_nyusho_shiori.pdf",
+      "quote": "教育・保育給付認定申請書（兼）入所申込書（２号・３号用）"
+    },
+    "documents.1": {
+      "url": "https://www.city.kamakura.kanagawa.jp/hoiku/documents/r9_nyusho_shiori.pdf",
+      "quote": "B □ 児童調査票"
+    },
+    "documents.2": {
+      "url": "https://www.city.kamakura.kanagawa.jp/hoiku/documents/r9_nyusho_shiori.pdf",
+      "quote": "C □ 保育所等入所に関する確認票"
+    },
+    "documents.3": {
+      "url": "https://www.city.kamakura.kanagawa.jp/hoiku/documents/r9_nyusho_shiori.pdf",
+      "quote": "D □ 申込書補助票"
+    },
+    "documents.4": {
+      "url": "https://www.city.kamakura.kanagawa.jp/hoiku/documents/r9_nyusho_shiori.pdf",
+      "quote": "マイナンバーカードがない場合、通知カードの写し又は個人番号記載のある住民票の写しでも構いません。"
+    },
+    "documents.5": {
+      "url": "https://www.city.kamakura.kanagawa.jp/hoiku/documents/r9_nyusho_shiori.pdf",
+      "quote": "就労証明書（締切日より３か月以内に取得したもの）"
+    },
+    "interview": {
+      "url": "https://www.city.kamakura.kanagawa.jp/hoiku/documents/r9_nyusho_shiori.pdf",
+      "quote": "公立保育園に内定された方は、面接のお知らせを後日郵送します。"
+    },
+    "interview#2": {
+      "url": "https://www.city.kamakura.kanagawa.jp/hoiku/documents/r9_nyusho_shiori.pdf",
+      "quote": "申込を行う前に、施設の見学を行ってください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.kamakura.kanagawa.jp/hoiku/documents/r9_nyusho_shiori.pdf",
+      "quote": "「希望する保育所等に入所できない場合は、育児休業の延長も許容できるため、利用調整の優先順位が下がってもよい」を選択した場合、調整点数は適用されず、０点で審査をします。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.kamakura.kanagawa.jp/hoiku/documents/r9_nyusho_shiori.pdf",
+      "quote": "一次審査で内定辞退をした場合は、「D 申込書補助票」設問１で、「希望する保育所等に入所できない場合は、育児休業の延長も許容できるため、利用調整の順位が下がってもよい」とする入所申込みは受け付けません。"
+    },
+    "notes.0": {
+      "url": "https://www.city.kamakura.kanagawa.jp/hoiku/documents/r9_nyusho_shiori.pdf",
+      "quote": "４月入所一次審査にて出生前の申込みを受付けます。申込方法は郵送のみです。"
+    },
+    "notes.1": {
+      "url": "https://www.city.kamakura.kanagawa.jp/hoiku/r9hoikuen-nyusyo.html",
+      "quote": "令和8年度の入所申込みを行っている方についても、年度ごとに改めてお申込みが必要となります。"
+    },
+    "notes.2": {
+      "url": "https://www.city.kamakura.kanagawa.jp/hoiku/r9hoikuen-nyusyo.html",
+      "quote": "不備や不足がある場合は、締切日時点で揃っている書類のみで審査を行います。"
+    },
+    "notes.3": {
+      "url": "https://www.city.kamakura.kanagawa.jp/hoiku/r9hoikuen-nyusyo.html",
+      "quote": "育児休業給付金の手続等で必要となります。必ず書類提出前に自宅保管用のコピーをお取りください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.kamakura.kanagawa.jp/hoiku/documents/r9_nyusho_shiori.pdf",
+      "quote": "入所申請時点で、申請児童のための育児休業※中である場合は、入所後２か月以内に復職することが必要です。"
+    },
+    "notes.5": {
+      "url": "https://www.city.kamakura.kanagawa.jp/hoiku/r9hoikuen-nyusyo.html",
+      "quote": "転入の予定のない方は、4月入所二次審査からの受付となります。"
+    },
+    "notes.5#2": {
+      "url": "https://www.city.kamakura.kanagawa.jp/hoiku/r9hoikuen-nyusyo.html",
+      "quote": "4月入所一次審査は、令和9年4月1日までに転入予定の方、または鎌倉市内の保育所等で保育士等として就労する方"
+    }
+  },
+  "sources": [
+    {
+      "label": "鎌倉市「令和9年度認可保育所等入所申込みのご案内」",
+      "url": "https://www.city.kamakura.kanagawa.jp/hoiku/r9hoikuen-nyusyo.html"
+    },
+    {
+      "label": "鎌倉市「令和9年度保育所等の入所申込のしおり」",
+      "url": "https://www.city.kamakura.kanagawa.jp/hoiku/documents/r9_nyusho_shiori.pdf"
+    }
+  ]
+}

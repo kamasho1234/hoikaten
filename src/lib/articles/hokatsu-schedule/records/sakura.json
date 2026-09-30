@@ -1,0 +1,140 @@
+{
+  "citySlug": "sakura",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "佐倉市「令和9年度保育園・認定こども園・地域型保育事業の入園受付のお知らせ」",
+    "url": "https://www.city.sakura.lg.jp/soshiki/kodomohoikuka/7/15811.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年10月1日から翌年度の保育施設利用のご案内の冊子（入園申込書・就労証明書などを折り込み）を配布予定。配布場所は佐倉市役所こども保育課、各認可保育施設、各出張所、各児童センター、各地域子育て支援センター",
+  "firstApply": "令和8年11月16日（月曜日）〜令和8年12月9日（水曜日）。土・日は11月28日・11月29日のみ受付。申込日時の事前予約が必須",
+  "applyMethods": "佐倉市役所2号館1階のこども保育課の窓口で受付（午前9時〜午後4時30分）。4月入園は申込日時の事前予約が必須で、インターネット予約が優先。「ぴったりサービス」でオンライン申込みもできる",
+  "firstResult": "令和9年2月中旬に支給認定証と利用の承諾・保留通知を発送（利用調整会議は令和9年2月上旬、いずれも予定）",
+  "secondApply": "令和9年2月17日（水曜日）〜令和9年3月2日（火曜日）（土・日・祝日を除く）",
+  "secondResult": "令和9年3月下旬に支給認定証と利用の承諾・保留通知を発送（利用調整会議は令和9年3月中旬、いずれも予定）",
+  "midYearDeadline": "5月入園以降は、入園希望月の前々月の25日から前月10日まで受付（土・日・祝日を除く）",
+  "documents": [
+    "マイナンバー確認書類（必要書類の詳細は「令和9年度保育施設利用のご案内」）",
+    "4月入園を希望していて、まだ出産していない場合は母子手帳"
+  ],
+  "interview": "4月入園は令和9年3月中に入所施設との面接がある（予定）",
+  "notes": [
+    "4月入園（1次）の申込日時の予約は、インターネット予約が令和8年10月1日〜11月30日、窓口予約が令和8年12月1日〜12月9日（原則、当日受付不可）",
+    "不足書類の提出と希望園の追加・変更の締め切りは令和8年12月18日（4月1次）",
+    "4月1次で入園できなかった（入所保留の）場合は、自動的に4月2次の選考対象になる",
+    "4月2次は、4月1次の選考で定員に満たなかった園（1次で定員に達した園に空きが生じた場合はその園も）だけが選考の対象",
+    "医療的ケアが必要な子どもは、一部の公立保育施設と私立教育・保育施設に優先枠がある。申請前にこども保育課入園管理班へ必ず連絡する"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.sakura.lg.jp/soshiki/kodomohoikuka/7/15811.html",
+      "quote": "お申込みについては、「令和9年度保育施設利用のご案内」をご確認いただきまして、マイナンバー確認書類を持参してください。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.sakura.lg.jp/soshiki/kodomohoikuka/7/15811.html",
+      "quote": "「令和9年度保育施設利用のご案内」の冊子を令和8年10月1日から下記の各施設で配布予定です。"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.sakura.lg.jp/soshiki/kodomohoikuka/7/15811.html",
+      "quote": "入園申込書や就労証明書など申込に必要な書類を折り込んでおりますので、保育施設の利用を検討されている方は、必ずご確認ください。"
+    },
+    "guideRelease#3": {
+      "url": "https://www.city.sakura.lg.jp/soshiki/kodomohoikuka/7/15811.html",
+      "quote": "佐倉市役所 こども保育課 各認可保育施設 各出張所 各児童センター 各地域子育て支援センター"
+    },
+    "firstApply": {
+      "url": "https://www.city.sakura.lg.jp/soshiki/kodomohoikuka/7/15811.html",
+      "quote": "令和8年11月16日（月曜日）～令和8年12月9日（水曜日）（土・日は11月28日、11月29日のみ。）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.sakura.lg.jp/soshiki/kodomohoikuka/7/15811.html",
+      "quote": "※インターネット予約優先。4月入園は予約必須。5月入園以降は予約不要。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.sakura.lg.jp/soshiki/kodomohoikuka/7/15811.html",
+      "quote": "佐倉市役所2号館1階 こども保育課 受付時間 【4月入園（1次・2次受付）】 受付時間：午前9時～午後4時30分まで"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.sakura.lg.jp/soshiki/kodomohoikuka/7/15811.html",
+      "quote": "「ぴったりサービス」において、オンラインでも申込みの受付を行います。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.sakura.lg.jp/soshiki/kodomohoikuka/7/15811.html",
+      "quote": "※インターネット予約優先。4月入園は予約必須。5月入園以降は予約不要。"
+    },
+    "firstResult": {
+      "url": "https://www.city.sakura.lg.jp/soshiki/kodomohoikuka/7/15811.html",
+      "quote": "支給認定証 利用の承諾・保留通知発送 令和9年2月中旬 令和9年3月下旬 毎月中旬頃"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.sakura.lg.jp/soshiki/kodomohoikuka/7/15811.html",
+      "quote": "利用調整会議 令和9年2月上旬 令和9年3月中旬 毎月15日頃"
+    },
+    "firstResult#3": {
+      "url": "https://www.city.sakura.lg.jp/soshiki/kodomohoikuka/7/15811.html",
+      "quote": "※上記日程は予定のため、変更となる場合があります。"
+    },
+    "secondApply": {
+      "url": "https://www.city.sakura.lg.jp/soshiki/kodomohoikuka/7/15811.html",
+      "quote": "令和9年2月17日（水曜日）～令和9年3月2日（火曜日）（※土・日・祝日は除く。）"
+    },
+    "secondResult": {
+      "url": "https://www.city.sakura.lg.jp/soshiki/kodomohoikuka/7/15811.html",
+      "quote": "支給認定証 利用の承諾・保留通知発送 令和9年2月中旬 令和9年3月下旬 毎月中旬頃"
+    },
+    "secondResult#2": {
+      "url": "https://www.city.sakura.lg.jp/soshiki/kodomohoikuka/7/15811.html",
+      "quote": "利用調整会議 令和9年2月上旬 令和9年3月中旬 毎月15日頃"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.sakura.lg.jp/soshiki/kodomohoikuka/7/15811.html",
+      "quote": "入園希望月の前々月の25日～前月10日（※土・日・祝日は除く。）"
+    },
+    "documents.0": {
+      "url": "https://www.city.sakura.lg.jp/soshiki/kodomohoikuka/7/15811.html",
+      "quote": "お申込みについては、「令和9年度保育施設利用のご案内」をご確認いただきまして、マイナンバー確認書類を持参してください。"
+    },
+    "documents.1": {
+      "url": "https://www.city.sakura.lg.jp/soshiki/kodomohoikuka/7/15811.html",
+      "quote": "※4月に入園を希望しており、お子さまを未だ出産していない方は母子手帳をお持ちください。"
+    },
+    "interview": {
+      "url": "https://www.city.sakura.lg.jp/soshiki/kodomohoikuka/7/15811.html",
+      "quote": "入所施設との面接 令和9年3月中 毎月下旬頃"
+    },
+    "notes.0": {
+      "url": "https://www.city.sakura.lg.jp/soshiki/kodomohoikuka/7/15811.html",
+      "quote": "(1)インターネット予約 令和8年10月1日（木曜日）～11月30日（月曜日）"
+    },
+    "notes.0#2": {
+      "url": "https://www.city.sakura.lg.jp/soshiki/kodomohoikuka/7/15811.html",
+      "quote": "(2)窓口予約 令和8年12月1日（火曜日）～12月9日（水曜日） ※原則、当日受付不可"
+    },
+    "notes.1": {
+      "url": "https://www.city.sakura.lg.jp/soshiki/kodomohoikuka/7/15811.html",
+      "quote": "不足書類提出 希望園の追加・変更の締め切り 令和8年12月18日"
+    },
+    "notes.2": {
+      "url": "https://www.city.sakura.lg.jp/soshiki/kodomohoikuka/7/15811.html",
+      "quote": "4月1次のお申込みをされて、入園ができなかった場合（入所保留の場合）、自動的に4月2次の選考対象となります。"
+    },
+    "notes.3": {
+      "url": "https://www.city.sakura.lg.jp/soshiki/kodomohoikuka/7/15811.html",
+      "quote": "4月2次は4月1次受付分の入園選考で定員に満たなかった園のみ入園選考の対象となります。ただし、4月1次で定員に達した園に空きが生じた場合は、その園も4月2次の入園選考の対象となります。"
+    },
+    "notes.4": {
+      "url": "https://www.city.sakura.lg.jp/soshiki/kodomohoikuka/7/15811.html",
+      "quote": "佐倉市では、医療的ケアが必要なお子様の保育施設等での受け入れに際し、一部の公立保育施設及び私立教育・保育施設において優先枠を設けております。"
+    },
+    "notes.4#2": {
+      "url": "https://www.city.sakura.lg.jp/soshiki/kodomohoikuka/7/15811.html",
+      "quote": "申請をお考えの方は、下記担当まで必ず申請前にご連絡ください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "佐倉市「令和9年度保育園・認定こども園・地域型保育事業の入園受付のお知らせ」",
+      "url": "https://www.city.sakura.lg.jp/soshiki/kodomohoikuka/7/15811.html"
+    }
+  ]
+}

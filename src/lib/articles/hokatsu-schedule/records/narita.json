@@ -1,0 +1,159 @@
+{
+  "citySlug": "narita",
+  "checkedAt": "2026-09-30",
+  "page": {
+    "label": "成田市「保育所等の入所申込・保育料のご案内」",
+    "url": "https://www.city.narita.chiba.jp/kosodate/page140300.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "4月入所（1次受付）は、面接の予約受付が10月1日（木）から、申込み書類の提出と児童面接が11月2日（月）〜11月30日（月）",
+  "applyMethods": "保育課で保護者面接・児童面接を行って入所申込を受け付ける。面接は予約制で、LoGoフォーム（しおり表紙の二次元コード）から予約する。持ち物は記入済みの必要書類一式、母子手帳、マイナンバーカード",
+  "midYearDeadline": "入所したい月の2か月前に保育課で面接を行って申し込む。面接の予約は2か月前の月初から受け付ける（例: 5月入所は3月1日から予約、3月15日〜31日に面接）",
+  "documents": [
+    "子どものための教育・保育給付に係る認定兼支給認定証交付申請書",
+    "保育所等利用希望申込書（表面・中面・裏面のすべての項目を記入。保育課と市内各園で配布）",
+    "児童の成育状況（子どもの年齢により様式が異なる）",
+    "就労証明書（就労予定を含む。個人事業主以外は就労先が記入。新様式だが、発行日が令和7年10月1日以降の旧様式も提出できる）",
+    "母子手帳（児童面接で使う）",
+    "マイナンバーカード（書類提出時に、同一住所に住む人のマイナンバー確認と本人確認を行う）",
+    "乳幼児健康診断書（入所を希望する月の初日に満1歳に達しない場合。医師記入）",
+    "保育園における食物アレルギー疾患生活管理指導表（給食で食物の除去が必要と診断されている場合。保育課か市内各園で配布）"
+  ],
+  "interview": "申込み書類の提出と併せて、成田市役所保育課（2階）で子どもの成育状況等を確認する児童面接を行うので、子どもと一緒に行く。書類の受付と面接は30分程度",
+  "ikukyu": "育休中の人は入所月の翌月10日までに復帰することを条件に申し込める（入所したら復帰後10日以内に就労証明書を提出）。育休延長を希望する人が申込書の「育児休業の状況」で「入所が保留となった場合、育児休業の延長を許容できる」にチェックすると、入所協議で指数が大幅に減点される（必ず保留になるわけではない）",
+  "notes": [
+    "1月・2月・3月・4月入所は、ほかの月と予約受付・面接期間の時期が大きく異なる",
+    "必要書類が受付期間内に提出されないと、優先度が低くなったり入所協議の対象にならなかったりすることがある",
+    "同一住所に入所希望日時点で20歳以上65歳未満の人が住んでいる場合、父母と同じく保育を必要とする理由の証明書類が必要",
+    "保育所等の見学はできる。希望する園へ事前に連絡する",
+    "成田市外の保育所等に申し込む場合、必要書類や締切日は市区町村により異なるので、事前に確認のうえ早めに成田市保育課へ相談する"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.narita.chiba.jp/content/000102911.pdf",
+      "quote": "※令和８年度２月・３月入所、令和９年度４月（１次）入所申込みの面接の時間は以下を予定しております。"
+    },
+    "firstApply": {
+      "url": "https://www.city.narita.chiba.jp/content/000102911.pdf",
+      "quote": "4 月入所 (1 次受付) 10 月 1 日(木) 11 月 2 日(月) ～ 11 月 30 日(月)"
+    },
+    "applyMethods": {
+      "url": "https://www.city.narita.chiba.jp/kosodate/page140300.html",
+      "quote": "保育課で面接（保護者面接、児童面接）を行い、入所申込を受け付けます。面接には、予約が必要となりますので、事前に以下のURLからご予約をお願いします。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.narita.chiba.jp/content/000102911.pdf",
+      "quote": "なお、予約制のため、4ページの申込み期間をご確認のうえ、LoGoフォーム(表紙に記載の二次元コード)で児童面接の予約をしてください。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.narita.chiba.jp/content/000102911.pdf",
+      "quote": "●持ち物 記入済みの必要書類一式(6・7ページ参照)、母子手帳、マイナンバーカード"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.narita.chiba.jp/kosodate/page140300.html",
+      "quote": "入所したい月の2か月前に保育課で面接を行い、入所申込をする必要があります。面接の予約については、入所したい月の2カ月前の月初から受け付けます。"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.narita.chiba.jp/kosodate/page140300.html",
+      "quote": "例えば5月入所（5月からの入所を希望する場合）については、3月1日から開始する予約受付に申込をしていただき、3月15日から31日までの間に面接を受けていただくことになります。"
+    },
+    "documents.0": {
+      "url": "https://www.city.narita.chiba.jp/content/000102911.pdf",
+      "quote": "✿子どものための教育・保育給付に係る認定兼支給認定証交付申請書"
+    },
+    "documents.1": {
+      "url": "https://www.city.narita.chiba.jp/content/000102911.pdf",
+      "quote": "✿保育所等利用希望申込書 表面・中面・裏面のすべての項目について記入してください。"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.narita.chiba.jp/download/page285100.html",
+      "quote": "申請書は、「保育所等利用希望申込書」です。保育課のほか、市内各園で配布しています。"
+    },
+    "documents.2": {
+      "url": "https://www.city.narita.chiba.jp/content/000102911.pdf",
+      "quote": "✿児童の成育状況 令和 8 年 4 月 1 日時点の年齢により様式が異なります。"
+    },
+    "documents.3": {
+      "url": "https://www.city.narita.chiba.jp/content/000102911.pdf",
+      "quote": "✿就労証明書(就労予定を含む)"
+    },
+    "documents.3#2": {
+      "url": "https://www.city.narita.chiba.jp/content/000102911.pdf",
+      "quote": "※個人事業主を除いて、就労先の人が記入するものです。"
+    },
+    "documents.3#3": {
+      "url": "https://www.city.narita.chiba.jp/download/page285100.html",
+      "quote": "1-1および1-2の「就労証明書」は新様式となります。発行日が令和7年10月1日以降の就労証明書（旧様式）を提出することも可能です。"
+    },
+    "documents.4": {
+      "url": "https://www.city.narita.chiba.jp/download/page285100.html",
+      "quote": "22の「母子手帳」は、児童面接の際に必要になります。"
+    },
+    "documents.5": {
+      "url": "https://www.city.narita.chiba.jp/content/000102911.pdf",
+      "quote": "書類の提出の際に、申請書に記載された同一住所地に住む方のマイナンバーの確認と本人確認を行います。"
+    },
+    "documents.6": {
+      "url": "https://www.city.narita.chiba.jp/content/000102911.pdf",
+      "quote": "保育所等に入所を希望する月の初日に満1歳に達しない場合 ✿乳幼児健康診断書(医師記入)"
+    },
+    "documents.7": {
+      "url": "https://www.city.narita.chiba.jp/download/page285100.html",
+      "quote": "6の「保育園における食物アレルギー疾患生活管理指導表」は新規に入所申込をする際、食物アレルギー等により、給食にて食物の除去が必要であると診断されている場合に提出が必要です。書類は保育課または市内各園にて配布しています。"
+    },
+    "interview": {
+      "url": "https://www.city.narita.chiba.jp/content/000102911.pdf",
+      "quote": "申込み書類の提出と併せてお子さまの成育状況等の確認のため実施します。当日はお子さまと一緒にお越しください。"
+    },
+    "interview#2": {
+      "url": "https://www.city.narita.chiba.jp/content/000102911.pdf",
+      "quote": "●面接場所 成田市役所保育課(2階)"
+    },
+    "interview#3": {
+      "url": "https://www.city.narita.chiba.jp/content/000102911.pdf",
+      "quote": "※申込み書類の受付、面接は30分程度を予定しています。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.narita.chiba.jp/content/000102911.pdf",
+      "quote": "入所月の翌月10日までに復帰することを条件に、申込みをすることができます。入所した場合は、復帰後10日以内に、就労証明書を提出してください。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.narita.chiba.jp/content/000102911.pdf",
+      "quote": "なお、育児休業の延長を希望する人は、「保育所等利用希望申込書」の「育児休業の状況」にて、「入所が保留となった場合、育児休業の延長を許容できる」にチェックをつけていただくと、入所協議において指数が大幅に減点されます。ただし、必ず入所が保留となるものではありません。"
+    },
+    "notes.0": {
+      "url": "https://www.city.narita.chiba.jp/kosodate/page140300.html",
+      "quote": "なお、1月・2月・3月・4月入所は、予約受付・面接期間の時期が大幅に異なりますのでご注意ください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.narita.chiba.jp/content/000102911.pdf",
+      "quote": "なお、必要書類が受付期間内に提出されない場合、優先度が低くなることや、入所協議の対象とならないことがあります。"
+    },
+    "notes.2": {
+      "url": "https://www.city.narita.chiba.jp/content/000102911.pdf",
+      "quote": "※同一住所地に、入所希望日時点において20歳以上65歳未満の人が居住している場合、父母と同じく、上記理由を証明する書類の提出が必要です。"
+    },
+    "notes.3": {
+      "url": "https://www.city.narita.chiba.jp/content/000102911.pdf",
+      "quote": "A17．可能です。見学を希望する保育所等へ事前にご連絡をお願いします。"
+    },
+    "notes.4": {
+      "url": "https://www.city.narita.chiba.jp/kosodate/page140300.html",
+      "quote": "市区町村により、必要な書類や締切日が異なりますので、関係する市区町村に事前に確認の上、お早めに成田市の保育課へご相談ください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "成田市「保育所等の入所申込・保育料のご案内」",
+      "url": "https://www.city.narita.chiba.jp/kosodate/page140300.html"
+    },
+    {
+      "label": "成田市「令和8年度 保育所等利用のしおり（令和8年7月1日現在）」",
+      "url": "https://www.city.narita.chiba.jp/content/000102911.pdf"
+    },
+    {
+      "label": "成田市「保育所等の入退所、在園中に必要な書類」",
+      "url": "https://www.city.narita.chiba.jp/download/page285100.html"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "citySlug": "nagareyama",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "流山市「令和8年度 保育施設入所申し込みについて」",
+    "url": "https://www.city.nagareyama.chiba.jp/life/1001107/1001162/1051203.html"
+  },
+  "fiscalYear": "R8",
+  "firstApply": "令和7年10月15日（水）〜11月14日（金）。郵送（書類申請）・電子申請とも同じ期間で、電子申請は最終日の23時59分までに送信完了した分まで受け付ける",
+  "applyMethods": "郵送（締切日までに流山市役所保育課に届いたもののみ受付。間に合わなければ次回分）か電子申請（締切日の23時59分までに送信完了）のみ。保育課の窓口に行っても申込は受け付けない。医療的ケアを要する児童、障害者手帳等を持つ児童、複雑な事情を抱えた世帯は保育課窓口で相談・提出できる",
+  "firstResult": "令和8年2月中旬頃に郵送で通知",
+  "secondApply": "令和7年11月17日（月）〜令和8年1月30日（金）",
+  "secondResult": "令和8年3月上旬頃に通知",
+  "midYearDeadline": "毎月受付。締切は利用希望月の前月の5日頃（1月〜4月入所は別の受付期間）",
+  "documents": [
+    "流山市教育・保育給付認定申請書（兼）保育所等利用申込書",
+    "児童連絡票",
+    "保育所入所申込調査書",
+    "健康連絡票（1）（2）",
+    "チェックリスト",
+    "保育料算定に係る世帯状況申告書",
+    "入所申込み確認表",
+    "提出書類確認票",
+    "保育を必要とする事由の確認書類（父母それぞれの就労証明書など）。就労証明書や診断書などの有効期間は証明日から6か月間",
+    "該当者のみ必要となる書類（戸籍謄本など）"
+  ],
+  "interview": "一般の申込に面接の記載はない。児童本人が障害者手帳等を取得している・療育施設に通所している場合は、入所申請に先立ち事前面談が必要で、保育課に面談日程を予約する。園の見学は必須ではないが、事前に確認することが勧められている",
+  "ikukyu": "「育児休業延長許容届」を出すと利用指数を2点として審査するため入所の可能性は著しく低くなるが、必ず保留になるわけではなく、希望した施設に空きがあれば入所決定となる。育児休業延長の手続き用に、入所申請書類一式のコピーを手元に残すよう案内されている",
+  "notes": [
+    "希望した施設だけで審査し、希望しなかった施設の審査は行わないので、送迎できる保育所はすべて希望することが勧められている",
+    "4月1次申請に限り、出生前の子どもの仮申請ができる（1月末までに生まれる予定の子が対象。出生後に本申請が必要）",
+    "2次審査の受付期間は、急に転入が決まった人など1次審査に申し込めなかった人に向けたもの",
+    "保留になった場合は年度内（令和9年3月入所まで）毎月継続して審査する。結果は初回審査時と入所承諾時にだけ送られる",
+    "正当な理由なく入所を辞退すると、再度申し込むときに原則として減点される"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.nagareyama.chiba.jp/_res/projects/default_project/_page_/001/051/203/r8nyusyoannai.pdf",
+      "quote": "※２次審査：令和８年４月１次審査で保留となった申込と、２次審査の新規申込を取りまとめ、１次審査後の空きについて審査します。"
+    },
+    "firstApply": {
+      "url": "https://www.city.nagareyama.chiba.jp/_res/projects/default_project/_page_/001/051/203/r8nyusyoannai.pdf",
+      "quote": "【１次審査】令和７年１０月１５日(水)～令和７年１１月１４日(金)"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.nagareyama.chiba.jp/_res/projects/default_project/_page_/001/051/203/r8nyusyoannai.pdf",
+      "quote": "※電子申請の受付期間は１次審査・２次審査ともに左記受付期間と同様です（最終日は２３時５９分までに送信完了した分まで受付）。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.nagareyama.chiba.jp/life/1001107/1001162/1051203.html",
+      "quote": "郵送または電子申請のみの受付といたします。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.nagareyama.chiba.jp/_res/projects/default_project/_page_/001/051/203/r8nyusyoannai.pdf",
+      "quote": "郵送の場合締切日までに流山市役所保育課に到達したもののみ受付し、間に合わなかった場合は次回分として受付いたします。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.nagareyama.chiba.jp/_res/projects/default_project/_page_/001/051/203/r8nyusyoannai.pdf",
+      "quote": "また、電子申請の場合締切日の２３時５９分までに送信完了する必要があります。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.nagareyama.chiba.jp/life/1001107/1001162/1051203.html",
+      "quote": "保育課窓口に来庁された場合でも、入所申込を受け付けることはいたしかねます。"
+    },
+    "applyMethods#5": {
+      "url": "https://www.city.nagareyama.chiba.jp/life/1001107/1001162/1051203.html",
+      "quote": "ただし次に当てはまる場合は、保育課窓口でのご相談および申込書類の提出を受け付けいたします。"
+    },
+    "firstResult": {
+      "url": "https://www.city.nagareyama.chiba.jp/_res/projects/default_project/_page_/001/051/203/r8nyusyoannai.pdf",
+      "quote": "４月入所１次審査令和８年２月中旬頃"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.nagareyama.chiba.jp/life/1001107/1001162/1051203.html",
+      "quote": "4月入所1次審査は2月中旬に、5月入所審査以降は入所希望月前月の20日頃に結果を郵送します。"
+    },
+    "secondApply": {
+      "url": "https://www.city.nagareyama.chiba.jp/_res/projects/default_project/_page_/001/051/203/r8nyusyoannai.pdf",
+      "quote": "【２次審査】令和７年１１月１７日(月)～令和８年１月３０日(金)"
+    },
+    "secondResult": {
+      "url": "https://www.city.nagareyama.chiba.jp/_res/projects/default_project/_page_/001/051/203/r8nyusyoannai.pdf",
+      "quote": "２次審査令和８年３月上旬頃"
+    },
+    "secondResult#2": {
+      "url": "https://www.city.nagareyama.chiba.jp/life/1001107/1001162/1028014/index.html",
+      "quote": "ただし、4月入所一次審査は2月の中旬頃、4月入所二次審査は3月上旬頃、1月～3月入所は12月20日頃に結果通知書の発送を予定しております。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.nagareyama.chiba.jp/life/1001107/1001162/1028014/index.html",
+      "quote": "A8：認可保育施設の入所申込みは、毎月受け付けております。入所申込みの締切日は、利用希望月の前月の5日頃（詳細な日程は「流山市 市内認可保育施設入所案内」をご覧ください）が締切日となります。"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.nagareyama.chiba.jp/life/1001107/1001162/1028014/index.html",
+      "quote": "ただし、1月入所～4月入所は、通常と異なる申込受付期間となっておりますので、ご注意ください。"
+    },
+    "documents.0": {
+      "url": "https://www.city.nagareyama.chiba.jp/life/1001107/1001162/1028014/index.html",
+      "quote": "1．流山市教育・保育給付認定申請書（兼）保育所等利用申込書"
+    },
+    "documents.1": {
+      "url": "https://www.city.nagareyama.chiba.jp/life/1001107/1001162/1028014/index.html",
+      "quote": "2．児童連絡票"
+    },
+    "documents.2": {
+      "url": "https://www.city.nagareyama.chiba.jp/life/1001107/1001162/1028014/index.html",
+      "quote": "3．保育所入所申込調査書"
+    },
+    "documents.3": {
+      "url": "https://www.city.nagareyama.chiba.jp/life/1001107/1001162/1028014/index.html",
+      "quote": "4．健康連絡票（1）、（2）"
+    },
+    "documents.4": {
+      "url": "https://www.city.nagareyama.chiba.jp/life/1001107/1001162/1028014/index.html",
+      "quote": "5．チェックリスト"
+    },
+    "documents.5": {
+      "url": "https://www.city.nagareyama.chiba.jp/life/1001107/1001162/1028014/index.html",
+      "quote": "6．保育料算定に係る世帯状況申告書"
+    },
+    "documents.6": {
+      "url": "https://www.city.nagareyama.chiba.jp/life/1001107/1001162/1028014/index.html",
+      "quote": "7．入所申込み確認表"
+    },
+    "documents.7": {
+      "url": "https://www.city.nagareyama.chiba.jp/life/1001107/1001162/1028014/index.html",
+      "quote": "8.  提出書類確認票"
+    },
+    "documents.8": {
+      "url": "https://www.city.nagareyama.chiba.jp/life/1001107/1001162/1028014/index.html",
+      "quote": "9．保育を必要とする事由の確認書類（父母それぞれの就労証明書など）"
+    },
+    "documents.8#2": {
+      "url": "https://www.city.nagareyama.chiba.jp/life/1001107/1001162/1028014/index.html",
+      "quote": "保育を必要とする事由の確認書類としてご提出いただく就労証明書や診断書などの有効期間は、証明日から6カ月間となります。"
+    },
+    "documents.9": {
+      "url": "https://www.city.nagareyama.chiba.jp/life/1001107/1001162/1028014/index.html",
+      "quote": "10.該当者のみ必要となる書類（戸籍謄本など）"
+    },
+    "interview": {
+      "url": "https://www.city.nagareyama.chiba.jp/_res/projects/default_project/_page_/001/051/203/r8nyusyoannai.pdf",
+      "quote": "児童本人が下記の要件に該当している場合、入所申請に先立ち事前面談が必要となりますので、保育課まで面談日程の予約をお願いいたします。"
+    },
+    "interview#2": {
+      "url": "https://www.city.nagareyama.chiba.jp/life/1001107/1001162/1028014/index.html",
+      "quote": "A12：認可保育施設の見学を行っていなくとも、申請書の希望園に記載することは可能です。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.nagareyama.chiba.jp/_res/projects/default_project/_page_/001/051/203/r8nyusyoannai.pdf",
+      "quote": "「育児休業延長許容届」を提出いただくことで、利用調整における利用指数を２点として審査を行うため、入所の可能性が著しく低くなります。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.nagareyama.chiba.jp/_res/projects/default_project/_page_/001/051/203/r8nyusyoannai.pdf",
+      "quote": "「育児休業延長許容届」を提出した場合であっても、必ず保留となることを約束するものではなく、入所を希望した保育施設等に空きがあれば入所決定となります。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.nagareyama.chiba.jp/_res/projects/default_project/_page_/001/051/203/r8nyusyoannai.pdf",
+      "quote": "育児休業延長の手続きのために、入所申請書類一式のコピーが必要です（松戸公共職業安定所確認済）。"
+    },
+    "notes.0": {
+      "url": "https://www.city.nagareyama.chiba.jp/life/1001107/1001162/1051203.html",
+      "quote": "市は希望された施設のみで入所審査を行い、希望されなかった施設の入所審査は行いませんので、保護者の方が送迎可能な保育所はすべて希望していただくことを推奨いたします。"
+    },
+    "notes.1": {
+      "url": "https://www.city.nagareyama.chiba.jp/_res/projects/default_project/_page_/001/051/203/r8nyusyoannai.pdf",
+      "quote": "※４月１次申請時に限り、出生前児童の仮申請を受け付けます。"
+    },
+    "notes.1#2": {
+      "url": "https://www.city.nagareyama.chiba.jp/_res/projects/default_project/_page_/001/051/203/r8nyusyoannai.pdf",
+      "quote": "対象は、１月末までに生まれる予定のお子様です。"
+    },
+    "notes.2": {
+      "url": "https://www.city.nagareyama.chiba.jp/_res/projects/default_project/_page_/001/051/203/r8nyusyoannai.pdf",
+      "quote": "２次審査の受付期間は急遽転入が決まった方等、１次審査に申し込めなかった方に向けたものです。"
+    },
+    "notes.3": {
+      "url": "https://www.city.nagareyama.chiba.jp/life/1001107/1001162/1051203.html",
+      "quote": "・保留の場合、年度内に限り（令和9年3月入所まで）毎月継続して入所審査を行います。"
+    },
+    "notes.3#2": {
+      "url": "https://www.city.nagareyama.chiba.jp/life/1001107/1001162/1051203.html",
+      "quote": "・審査結果は初回審査のみ送付します。次回審査以降の結果については、入所承諾時のみ送付します。"
+    },
+    "notes.4": {
+      "url": "https://www.city.nagareyama.chiba.jp/_res/projects/default_project/_page_/001/051/203/r8nyusyoannai.pdf",
+      "quote": "正当な理由なく入所辞退された場合、再度の申込み時には原則として減点となります"
+    }
+  },
+  "sources": [
+    {
+      "label": "流山市「令和8年度 保育施設入所申し込みについて」",
+      "url": "https://www.city.nagareyama.chiba.jp/life/1001107/1001162/1051203.html"
+    },
+    {
+      "label": "流山市「令和8年度 入所案内」（PDF）",
+      "url": "https://www.city.nagareyama.chiba.jp/_res/projects/default_project/_page_/001/051/203/r8nyusyoannai.pdf"
+    },
+    {
+      "label": "流山市「認可保育施設の入所申込みに関するQ&A」",
+      "url": "https://www.city.nagareyama.chiba.jp/life/1001107/1001162/1028014/index.html"
+    },
+    {
+      "label": "流山市「令和9年度 保育施設入所に関する詳細の公開について」",
+      "url": "https://www.city.nagareyama.chiba.jp/life/1001107/1001162/1055461.html"
+    }
+  ]
+}

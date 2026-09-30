@@ -37,6 +37,7 @@ import higashihiroshima from "./higashihiroshima.json";
 import higashiosaka from "./higashiosaka.json";
 import hikone from "./hikone.json";
 import himeji from "./himeji.json";
+import hino from "./hino.json";
 import hirakata from "./hirakata.json";
 import hiratsuka from "./hiratsuka.json";
 import hiroshima from "./hiroshima.json";
@@ -51,6 +52,7 @@ import izumi from "./izumi.json";
 import joetsu from "./joetsu.json";
 import kagoshima from "./kagoshima.json";
 import kakogawa from "./kakogawa.json";
+import kamakura from "./kamakura.json";
 import kanazawa from "./kanazawa.json";
 import kashiwa from "./kashiwa.json";
 import kasugai from "./kasugai.json";
@@ -64,6 +66,7 @@ import kita from "./kita.json";
 import kitakyushu from "./kitakyushu.json";
 import kobe from "./kobe.json";
 import kochi from "./kochi.json";
+import kodaira from "./kodaira.json";
 import kofu from "./kofu.json";
 import koriyama from "./koriyama.json";
 import koshigaya from "./koshigaya.json";
@@ -91,11 +94,14 @@ import moriguchi from "./moriguchi.json";
 import morioka from "./morioka.json";
 import nagano from "./nagano.json";
 import nagaokakyo from "./nagaokakyo.json";
+import nagareyama from "./nagareyama.json";
 import nagasaki from "./nagasaki.json";
 import nagoya from "./nagoya.json";
 import naha from "./naha.json";
 import nakano from "./nakano.json";
 import nara from "./nara.json";
+import narashino from "./narashino.json";
+import narita from "./narita.json";
 import nasushiobara from "./nasushiobara.json";
 import nerima from "./nerima.json";
 import neyagawa from "./neyagawa.json";
@@ -103,6 +109,7 @@ import niigata from "./niigata.json";
 import nishinomiya from "./nishinomiya.json";
 import nishitokyo from "./nishitokyo.json";
 import nisshin from "./nisshin.json";
+import noda from "./noda.json";
 import numazu from "./numazu.json";
 import obihiro from "./obihiro.json";
 import obu from "./obu.json";
@@ -119,6 +126,7 @@ import saga from "./saga.json";
 import sagamihara from "./sagamihara.json";
 import saitama from "./saitama.json";
 import sakai from "./sakai.json";
+import sakura from "./sakura.json";
 import sapporo from "./sapporo.json";
 import sasebo from "./sasebo.json";
 import sayama from "./sayama.json";
@@ -151,7 +159,9 @@ import toyonaka from "./toyonaka.json";
 import toyota from "./toyota.json";
 import tsu from "./tsu.json";
 import tsukuba from "./tsukuba.json";
+import urayasu from "./urayasu.json";
 import wakayama from "./wakayama.json";
+import yachiyo from "./yachiyo.json";
 import yamagata from "./yamagata.json";
 import yamaguchi from "./yamaguchi.json";
 import yamato from "./yamato.json";
@@ -199,6 +209,7 @@ export const hokatsuRecords: HokatsuRecord[] = [
   higashiosaka as HokatsuRecord,
   hikone as HokatsuRecord,
   himeji as HokatsuRecord,
+  hino as HokatsuRecord,
   hirakata as HokatsuRecord,
   hiratsuka as HokatsuRecord,
   hiroshima as HokatsuRecord,
@@ -213,6 +224,7 @@ export const hokatsuRecords: HokatsuRecord[] = [
   joetsu as HokatsuRecord,
   kagoshima as HokatsuRecord,
   kakogawa as HokatsuRecord,
+  kamakura as HokatsuRecord,
   kanazawa as HokatsuRecord,
   kashiwa as HokatsuRecord,
   kasugai as HokatsuRecord,
@@ -226,6 +238,7 @@ export const hokatsuRecords: HokatsuRecord[] = [
   kitakyushu as HokatsuRecord,
   kobe as HokatsuRecord,
   kochi as HokatsuRecord,
+  kodaira as HokatsuRecord,
   kofu as HokatsuRecord,
   koriyama as HokatsuRecord,
   koshigaya as HokatsuRecord,
@@ -253,11 +266,14 @@ export const hokatsuRecords: HokatsuRecord[] = [
   morioka as HokatsuRecord,
   nagano as HokatsuRecord,
   nagaokakyo as HokatsuRecord,
+  nagareyama as HokatsuRecord,
   nagasaki as HokatsuRecord,
   nagoya as HokatsuRecord,
   naha as HokatsuRecord,
   nakano as HokatsuRecord,
   nara as HokatsuRecord,
+  narashino as HokatsuRecord,
+  narita as HokatsuRecord,
   nasushiobara as HokatsuRecord,
   nerima as HokatsuRecord,
   neyagawa as HokatsuRecord,
@@ -265,6 +281,7 @@ export const hokatsuRecords: HokatsuRecord[] = [
   nishinomiya as HokatsuRecord,
   nishitokyo as HokatsuRecord,
   nisshin as HokatsuRecord,
+  noda as HokatsuRecord,
   numazu as HokatsuRecord,
   obihiro as HokatsuRecord,
   obu as HokatsuRecord,
@@ -281,6 +298,7 @@ export const hokatsuRecords: HokatsuRecord[] = [
   sagamihara as HokatsuRecord,
   saitama as HokatsuRecord,
   sakai as HokatsuRecord,
+  sakura as HokatsuRecord,
   sapporo as HokatsuRecord,
   sasebo as HokatsuRecord,
   sayama as HokatsuRecord,
@@ -313,7 +331,9 @@ export const hokatsuRecords: HokatsuRecord[] = [
   toyota as HokatsuRecord,
   tsu as HokatsuRecord,
   tsukuba as HokatsuRecord,
+  urayasu as HokatsuRecord,
   wakayama as HokatsuRecord,
+  yachiyo as HokatsuRecord,
   yamagata as HokatsuRecord,
   yamaguchi as HokatsuRecord,
   yamato as HokatsuRecord,

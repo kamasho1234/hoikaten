@@ -1,0 +1,187 @@
+{
+  "citySlug": "yachiyo",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "八千代市「令和８年度４月の保育園等利用申し込みについて」",
+    "url": "https://www.city.yachiyo.lg.jp/site/kosodate/3268.html"
+  },
+  "fiscalYear": "R8",
+  "guideRelease": "新年度の保育園等利用案内を10月3日（金）から各保育園等と子ども保育課で配布。市ホームページからもダウンロードできる",
+  "firstApply": "令和7年11月1日（土）〜12月10日（水）17時まで（土日祝日を除く）。令和8年1月〜3月入園の申込み期限も12月10日",
+  "applyMethods": "原則として第1希望の保育園等で申し込む（園ごとに受付日があり、一部は事前予約が必要）。園での申込みが難しい場合は予約制で保健センターで受け付け、受付期間内の平日なら子ども保育課窓口でも申し込める。電子申請（ぴったりサービス）もあるが、別に子どもとの面談と母子健康手帳等の確認が必要。郵送は不可",
+  "firstResult": "令和8年2月4日（水）に1次選考の結果を発送（申込者全員に発送）",
+  "secondApply": "1次選考で保留になった人、第2希望以降の園で決定した人（希望者のみ）、市外から在勤要件で申し込んだ人が対象。希望園の変更・書類提出の期限は令和8年2月18日（水）17時",
+  "secondResult": "令和8年2月27日（金）に、1次選考結果から変更となる人にだけ発送",
+  "midYearDeadline": "5月〜12月入園は入園希望月の前月10日まで（土日祝日の場合は直前の平日）。1月〜3月入園は次年度4月入園の申込締切と同じ日",
+  "documents": [
+    "八千代市保育園等利用申込書、八千代市教育・保育給付認定申請書、児童健康状況調査書、保育園等入園に関する確認票",
+    "保育の必要性を証明する書類（就労証明書・診断書は八千代市所定の様式）。証明書類は申込み時点で証明日が3か月以内のものが有効",
+    "母子健康手帳とマイナンバー確認資料（申込み時に持参）",
+    "自営業（個人事業主）の場合は、直近3か月の売上金額が分かる書類（支払明細書、出納帳、通帳のコピーなど）"
+  ],
+  "interview": "申込み当日は申込書一式と母子健康手帳を持って、申込み児童と一緒に行く。認定こども園は事前に見学・説明を受ける必要がある",
+  "ikukyu": "育児休業明けの申込みで「希望する保育園等に入園できない場合は育児休業の延長も許容できる」を選ぶと、年度内は世帯合計指数を0にして審査される。育休延長や育児休業給付金の手続きで審査結果の送付を希望する場合は、希望月の前月10日までに子ども保育課へ連絡する",
+  "notes": [
+    "育児休業中（入園希望月中に職場へ復帰しない場合）での新規入園はできない",
+    "第2希望以降の園を書いていても、申込みは第1希望の保育園だけで行えばよい",
+    "希望順位が高い人（第一希望の人）が優先されるわけではなく、先着順でもない",
+    "2次選考でも保留になった人は自動的に待機児童として登録され、令和8年5月から令和9年3月まで毎月選考されるので再度の申込書提出は不要",
+    "育児休業給付金の延長手続きで入園申込書の写しが必要な場合は、申込み前に自分で写しを取っておく"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.yachiyo.lg.jp/site/kosodate/3268.html",
+      "quote": "令和８年度４月入園の受付期間は11月１日（土）～12月10日（水）になります。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.yachiyo.lg.jp/site/kosodate/3269.html",
+      "quote": "令和８年度の利用案内は，10月３日（金）から各保育園等と子ども保育課で配布しています。ダウンロードも可能です。"
+    },
+    "firstApply": {
+      "url": "https://www.city.yachiyo.lg.jp/site/kosodate/3268.html",
+      "quote": "令和８年度４月入園の受付期間は11月１日（土）～12月10日（水）になります。"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.yachiyo.lg.jp/uploaded/attachment/40146.pdf",
+      "quote": "令和７年11月１日（土）から"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.yachiyo.lg.jp/site/kosodate/3268.html",
+      "quote": "令和８年４月入園申込受付期間（11月１日～12月10日（土日祝日除く））であれば子ども保育課窓口で受付いたしますので，"
+    },
+    "firstApply#4": {
+      "url": "https://www.city.yachiyo.lg.jp/site/kosodate/3268.html",
+      "quote": "※令和８年１月から３月入園の申し込み期限も12月10日（水）となります。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.yachiyo.lg.jp/uploaded/attachment/49778.pdf",
+      "quote": "令和８年度４月入園の申込みにつきましては，原則として第１希望の保育園にて行ってください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.yachiyo.lg.jp/site/kosodate/3268.html",
+      "quote": "第1希望の保育園等の受付日時にご都合がつかない場合には，土日祝日を除く受付期間内であれば子ども保育課窓口での申込受付も可能ですが，"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.yachiyo.lg.jp/site/kosodate/3268.html",
+      "quote": "令和８年４月入園申込受付期間のうち，第１希望の保育園での申し込みが難しい場合は以下の日程で行います。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.yachiyo.lg.jp/uploaded/attachment/49778.pdf",
+      "quote": "電子申請で申込みの場合，別途お子さまとの面談や母子手帳等の確認が必要となります。"
+    },
+    "applyMethods#5": {
+      "url": "https://www.city.yachiyo.lg.jp/uploaded/attachment/49778.pdf",
+      "quote": "※申込み締切日までに必要書類がそろっての受付となります。（郵送不可）"
+    },
+    "firstResult": {
+      "url": "https://www.city.yachiyo.lg.jp/site/kosodate/3268.html",
+      "quote": "令和８年度４月１次選考の結果は 令和８年２月４日（水） に発送いたしました。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.yachiyo.lg.jp/uploaded/attachment/49778.pdf",
+      "quote": "一次審査 結果通知発送（申込みされている方全員に発送します）"
+    },
+    "secondApply": {
+      "url": "https://www.city.yachiyo.lg.jp/site/kosodate/3268.html",
+      "quote": "令和８年度４月１次選考で入園保留となった方，第２希望以降の園で決定した方（希望者のみ），市外から在勤要件でお申し込みの方を対象に２次選考を行います。"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.yachiyo.lg.jp/site/kosodate/3268.html",
+      "quote": "希望園等の変更・書類提出期限 令和８年２月１８日（水）１７時まで"
+    },
+    "secondResult": {
+      "url": "https://www.city.yachiyo.lg.jp/site/kosodate/3268.html",
+      "quote": "１次選考結果から変更となる方のみを対象に， 令和８年２月２７日（金） に発送いたしました。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.yachiyo.lg.jp/site/kosodate/3269.html",
+      "quote": "５月～12月入園：入園希望月の前月10日まで（土曜・日曜・祝日（振替休日含む）の場合は直前の平日）"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.yachiyo.lg.jp/site/kosodate/3269.html",
+      "quote": "１月～３月入園：次年度４月入園申込締切と同日"
+    },
+    "documents.0": {
+      "url": "https://www.city.yachiyo.lg.jp/site/kosodate/3269.html",
+      "quote": "申請の際は，下記の書類が必要になります。 八千代市保育園等利用申込書 八千代市教育・保育給付認定申請書 児童健康状況調査書"
+    },
+    "documents.0#2": {
+      "url": "https://www.city.yachiyo.lg.jp/uploaded/attachment/49778.pdf",
+      "quote": "4.保育園等入園に関する確認票 利用申込み児童１名につき１部必要。"
+    },
+    "documents.1": {
+      "url": "https://www.city.yachiyo.lg.jp/site/kosodate/3269.html",
+      "quote": "保育の必要性を証明する書類（就労証明書・診断書は八千代市所定の様式）"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.yachiyo.lg.jp/uploaded/attachment/49778.pdf",
+      "quote": "（証明書類は申込み時点で３か月以内の証明日のものを有効とします。）"
+    },
+    "documents.2": {
+      "url": "https://www.city.yachiyo.lg.jp/site/kosodate/3269.html",
+      "quote": "母子健康手帳・マイナンバー確認資料を持参し，お子様と一緒にお越しください"
+    },
+    "documents.3": {
+      "url": "https://www.city.yachiyo.lg.jp/uploaded/attachment/49778.pdf",
+      "quote": "②直近３か月の売上金額が分かる書類（支払明細書，出納帳，通帳のコピーなど）"
+    },
+    "interview": {
+      "url": "https://www.city.yachiyo.lg.jp/site/kosodate/3268.html",
+      "quote": "・申込当日は申込書一式と母子健康手帳をお持ちのうえ，申し込み児童と一緒にお越しください。"
+    },
+    "interview#2": {
+      "url": "https://www.city.yachiyo.lg.jp/site/kosodate/3268.html",
+      "quote": "※認定こども園は事前に見学・説明を受ける必要があります。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.yachiyo.lg.jp/uploaded/attachment/49778.pdf",
+      "quote": "※「希望する保育園等に入園できない場合は育児休業の延長も許容できる」を選択した方は，年度内は減点して審査を行います。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.yachiyo.lg.jp/uploaded/attachment/49778.pdf",
+      "quote": "・世帯合計指数を０にして，審査を行います。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.yachiyo.lg.jp/uploaded/attachment/49778.pdf",
+      "quote": "育児休業延長や育児休業給付金の手続きで審査結果の送付を希望される場合はご希望月の前月１０日（土日・祝日の場合はその前日）までに子ども保育課までご連絡ください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.yachiyo.lg.jp/site/kosodate/3269.html",
+      "quote": "※育児休業中（入園希望月中に職場へ復帰しない場合）での新規入園はできません。"
+    },
+    "notes.1": {
+      "url": "https://www.city.yachiyo.lg.jp/site/kosodate/3268.html",
+      "quote": "※第２希望以降の希望園を記載している場合でも，申し込みは第１希望の保育園のみで行っていただければ問題ございません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.yachiyo.lg.jp/uploaded/attachment/49778.pdf",
+      "quote": "※第一希望の方（希望順位が高い方）が優先されるわけではありません。 ※先着順ではありません。"
+    },
+    "notes.3": {
+      "url": "https://www.city.yachiyo.lg.jp/site/kosodate/3268.html",
+      "quote": "自動的に待機児童として登録され、令和８年度（令和８年５月から令和９年３月）の間については毎月入園選考を行いますので、再度の申込書の提出は不要です。"
+    },
+    "notes.4": {
+      "url": "https://www.city.yachiyo.lg.jp/uploaded/attachment/49778.pdf",
+      "quote": "お手続きの際に，入園申込書の写しが必要な場合には，申込み前にご自身で写しをお取りいただくようお願いいたします。"
+    }
+  },
+  "sources": [
+    {
+      "label": "八千代市「令和８年度４月の保育園等利用申し込みについて」",
+      "url": "https://www.city.yachiyo.lg.jp/site/kosodate/3268.html"
+    },
+    {
+      "label": "八千代市「保育園等の入園申し込み」",
+      "url": "https://www.city.yachiyo.lg.jp/site/kosodate/3269.html"
+    },
+    {
+      "label": "八千代市「令和８年度八千代市保育園等利用案内」（PDF）",
+      "url": "https://www.city.yachiyo.lg.jp/uploaded/attachment/49778.pdf"
+    },
+    {
+      "label": "八千代市「令和８年度４月入園受付日一覧」（PDF）",
+      "url": "https://www.city.yachiyo.lg.jp/uploaded/attachment/40146.pdf"
+    }
+  ]
+}

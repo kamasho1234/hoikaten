@@ -1,0 +1,197 @@
+{
+  "citySlug": "noda",
+  "checkedAt": "2026-09-30",
+  "page": {
+    "label": "野田市「令和8年度4月　保育所等入所申し込みと、申し込みされた方の結果通知までの流れ」",
+    "url": "https://www.city.noda.chiba.jp/kurashi/kosodate/hoiku/1009310.html"
+  },
+  "fiscalYear": "R8",
+  "guideRelease": "令和7年10月15日（水曜日）から各認可保育所など、子ども保育課、関宿支所、各出張所で申込書を配布",
+  "firstApply": "令和7年11月4日（火曜日）〜令和7年12月15日（月曜日）の8時30分〜17時15分（土曜日・日曜日・祝日と年末年始を除く）。令和7年11月16日と12月7日の日曜日には臨時窓口を開設",
+  "applyMethods": "受付場所は野田市役所子ども保育課、関宿支所、各出張所、各保育所（求職が理由の場合は保育所では受け付けない）。子育てワンストップサービスによる電子申請もでき、電子申請後は別途添付書類の提出と市役所での面談が必要",
+  "firstResult": "令和8年2月中旬に通知する予定。利用決定・保留にかかわらず新たに申し込んだ人に結果通知を送付し、電話での連絡はしない",
+  "secondApply": "令和7年12月16日（火曜日）〜令和8年2月5日（木曜日）の予定",
+  "secondResult": "令和8年3月中旬に通知する予定",
+  "midYearDeadline": "毎月1日付けの入所で、受付は入所希望日の前月5日まで（5日が土日・祝日の場合は直後の平日が締切日）",
+  "documents": [
+    "保育所等利用申込書・教育・保育給付認定申請書（児童1人につき1枚）",
+    "児童の健康調査（児童1人につき1枚）",
+    "家庭状況等調査（児童1人につき1枚）",
+    "教育・保育給付認定及び利用者負担額（保育料等）算定のための同意書（児童1人につき1枚）",
+    "保育所利用申込みにおける注意事項の同意書（児童1人につき1枚）",
+    "母子手帳（必要なページを市がコピーする）",
+    "就労証明書（新様式）など保育を必要とする事由を示す書類。発行から3か月以内のもので、父母それぞれ提出",
+    "求職活動申告書（現に就労はしていないが就労の意思がある場合）",
+    "個人番号記載の人の番号確認書類と保護者の本人確認書類（提示）"
+  ],
+  "interview": "利用決定後に保育所で入所説明会があり、子どもの面接などもあるため子どもと一緒に参加する。0歳児は利用決定後に健康診断書を提出する。電子申請の場合は市役所での面談が必要",
+  "ikukyu": "利用申込書の「育児休業の状況」で「希望する保育所等に入所できない場合は、育児休業の延長も許容できる」を選ぶと調整点数が減点され、保留となる可能性が高くなる。保留通知書は初回のみ送付。育児休業給付金の延長手続きには利用申込書等の写し（受領印不要）が必要なので、提出前にコピーを取る",
+  "notes": [
+    "令和8年4月入所は、出産予定日が令和8年2月4日までであれば出産前でも申し込める。出産後に所定の手続きが必要",
+    "申込書に書いた保育所等以外は利用調整しないので、複数希望がある場合は第2希望以下も記入する",
+    "保留の場合は、教育・保育給付認定期間か2027年（令和9年）3月のどちらか短い期間まで毎月利用調整が行われる",
+    "育児休業明けの申込みでは、利用開始日の翌月15日までに育児休業から職場に復帰する必要がある",
+    "求職中でも申し込めるが、就労等の保育を必要とする事由のある人が優先される",
+    "書類が不足していると受付ができない場合や利用調整で不利になる場合がある"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.noda.chiba.jp/kurashi/kosodate/hoiku/1009310.html",
+      "quote": "市では、保育所などの令和8年4月入所児童を募集します。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.noda.chiba.jp/kurashi/kosodate/hoiku/1009310.html",
+      "quote": "申込書は、令和7年10月15日（水曜日）から各認可保育所などや子ども保育課、関宿支所、各出張所で配布し、"
+    },
+    "firstApply": {
+      "url": "https://www.city.noda.chiba.jp/kurashi/kosodate/hoiku/1009310.html",
+      "quote": "一次受付は、令和7年11月4日（火曜日）から令和7年12月15日（月曜日）までの8時30分から17時15分まで（土曜日・日曜日(注3）・祝日と年末年始を除く）行います。"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.noda.chiba.jp/kurashi/kosodate/hoiku/1009310.html",
+      "quote": "注3：日曜日については令和7年11月16日、令和7年12月7日に臨時窓口を開設します。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.noda.chiba.jp/kurashi/kosodate/hoiku/1011759.html",
+      "quote": "受付場所：野田市役所子ども保育課、関宿支所、各出張所、各保育所（求職が理由の場合、保育所での受付は行いません）"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.noda.chiba.jp/kurashi/kosodate/hoiku/1011759.html",
+      "quote": "子育てワンストップサービスによる電子申請受付がはじまりました。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.noda.chiba.jp/kurashi/kosodate/hoiku/1011759.html",
+      "quote": "電子申請後、別途添付書類の提出と市役所での面談が必要となります。"
+    },
+    "firstResult": {
+      "url": "https://www.city.noda.chiba.jp/kurashi/kosodate/hoiku/1009310.html",
+      "quote": "なお、結果は、一次受付が令和8年2月中旬、二次受付が令和8年3月中旬に通知する予定です。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.noda.chiba.jp/_res/projects/default_project/_page_/001/009/310/2026nyuusyoannai.pdf",
+      "quote": "・利用決定・保留にかかわらず、新たに申込みをされた方については、結果通知を送付します。（電話での連絡はしていません）"
+    },
+    "secondApply": {
+      "url": "https://www.city.noda.chiba.jp/kurashi/kosodate/hoiku/1009310.html",
+      "quote": "二次受付は、令和7年12月16日（火曜日）から令和8年2月5日（木曜日）までの期間で行う予定です。"
+    },
+    "secondResult": {
+      "url": "https://www.city.noda.chiba.jp/kurashi/kosodate/hoiku/1009310.html",
+      "quote": "なお、結果は、一次受付が令和8年2月中旬、二次受付が令和8年3月中旬に通知する予定です。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.noda.chiba.jp/kurashi/kosodate/hoiku/1011759.html",
+      "quote": "原則的に毎月1日付けの入所となり、受付は入所希望日の前月5日まで。"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.noda.chiba.jp/kurashi/kosodate/hoiku/1011759.html",
+      "quote": "注：5日が土日、祝日の場合は直後の平日が締め切り日となります。"
+    },
+    "documents.0": {
+      "url": "https://www.city.noda.chiba.jp/_res/projects/default_project/_page_/001/009/310/2026nyuusyoannai.pdf",
+      "quote": "□保育所等利用申込書、児童１人につき１枚必要です。教育・保育給付認定申請書（※）"
+    },
+    "documents.1": {
+      "url": "https://www.city.noda.chiba.jp/_res/projects/default_project/_page_/001/009/310/2026nyuusyoannai.pdf",
+      "quote": "□児童の健康調査（※） 児童１人につき１枚必要です。"
+    },
+    "documents.2": {
+      "url": "https://www.city.noda.chiba.jp/_res/projects/default_project/_page_/001/009/310/2026nyuusyoannai.pdf",
+      "quote": "□家庭状況等調査（※） 児童１人につき１枚必要です。"
+    },
+    "documents.3": {
+      "url": "https://www.city.noda.chiba.jp/_res/projects/default_project/_page_/001/009/310/2026nyuusyoannai.pdf",
+      "quote": "□教育・保育給付認定及び利用者負担額 児童１人につき１枚必要です。 （保育料等）算定のための同意書（※）"
+    },
+    "documents.4": {
+      "url": "https://www.city.noda.chiba.jp/_res/projects/default_project/_page_/001/009/310/2026nyuusyoannai.pdf",
+      "quote": "□保育所利用申込みにおける注意事項の 児童１人につき１枚必要です。 同意書（※）"
+    },
+    "documents.5": {
+      "url": "https://www.city.noda.chiba.jp/_res/projects/default_project/_page_/001/009/310/2026nyuusyoannai.pdf",
+      "quote": "□母子手帳 母子手帳の必要なページを、市がコピーします。"
+    },
+    "documents.6": {
+      "url": "https://www.city.noda.chiba.jp/_res/projects/default_project/_page_/001/009/310/2026nyuusyoannai.pdf",
+      "quote": "該当するもので、発行から３か月以内のものを提出してください。 父母それぞれで提出が必要です。 ・就労証明書（新様式）"
+    },
+    "documents.7": {
+      "url": "https://www.city.noda.chiba.jp/_res/projects/default_project/_page_/001/009/310/2026nyuusyoannai.pdf",
+      "quote": "求職活動 □求職活動申告書（※） 現に就労はしていないが就労の意思がある場合"
+    },
+    "documents.8": {
+      "url": "https://www.city.noda.chiba.jp/_res/projects/default_project/_page_/001/009/310/2026nyuusyoannai.pdf",
+      "quote": "□個人番号記載の方の番号確認書類と保護者の本人確認書類。"
+    },
+    "interview": {
+      "url": "https://www.city.noda.chiba.jp/_res/projects/default_project/_page_/001/009/310/2026nyuusyoannai.pdf",
+      "quote": "・保育所で入所後の生活や持ち物などの説明を行います。 お子さんの面接などもありますので、必ずお子さんと一緒にご参加ください。"
+    },
+    "interview#2": {
+      "url": "https://www.city.noda.chiba.jp/_res/projects/default_project/_page_/001/009/310/2026nyuusyoannai.pdf",
+      "quote": "・０歳児については、利用決定後、健康診断書を提出していただきます。"
+    },
+    "interview#3": {
+      "url": "https://www.city.noda.chiba.jp/kurashi/kosodate/hoiku/1011759.html",
+      "quote": "電子申請後、別途添付書類の提出と市役所での面談が必要となります。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.noda.chiba.jp/_res/projects/default_project/_page_/001/009/310/2026nyuusyoannai.pdf",
+      "quote": "「希望する保育所等に入所できない場合は、育児休業の延長も許容できる」を選択すると、利用調整における調整点数が減点となるため、保留となる可能性が高くなります。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.noda.chiba.jp/_res/projects/default_project/_page_/001/009/310/2026nyuusyoannai.pdf",
+      "quote": "※保留だった場合に通知される保留通知書は、初回のみの送付となります。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.noda.chiba.jp/kurashi/kosodate/hoiku/1009310.html",
+      "quote": "保育所等に入れなかったことを理由とする育児休業給付金の申請手続きには、保育所等の利用申込書等の写し（受領印不要）が必要となります。必要な方は、窓口へご提出する前にコピーをお取りください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.noda.chiba.jp/kurashi/kosodate/hoiku/1024282.html",
+      "quote": "令和8年度4月入所の保育所利用申し込みについては、受付期間から利用開始日までの期間があるため、申込時点では出産前であっても、出産予定日が令和8年2月4日までであれば申し込みが可能です。"
+    },
+    "notes.0#2": {
+      "url": "https://www.city.noda.chiba.jp/kurashi/kosodate/hoiku/1024282.html",
+      "quote": "なお、本申し込みについては、出産後に所定の手続きが必要となりますのでご注意ください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.noda.chiba.jp/_res/projects/default_project/_page_/001/009/310/2026nyuusyoannai.pdf",
+      "quote": "※申込書に記載された保育所等以外は、利用調整いたしません。複数の保育所等の希望がある場合は、第２希望以下についても申込書へご記入ください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.noda.chiba.jp/_res/projects/default_project/_page_/001/009/310/2026nyuusyoannai.pdf",
+      "quote": "・保留の場合には、『教育・保育給付認定期間』または『２０２７年（令和９年）３月』のうち、どちらか短い期間までは、毎月利用調整を行います。"
+    },
+    "notes.3": {
+      "url": "https://www.city.noda.chiba.jp/_res/projects/default_project/_page_/001/009/310/2026nyuusyoannai.pdf",
+      "quote": "●野田市では利用開始日の翌月１５日までに育児休業から職場に復帰していただく必要があります。"
+    },
+    "notes.4": {
+      "url": "https://www.city.noda.chiba.jp/_res/projects/default_project/_page_/001/009/310/2026nyuusyoannai.pdf",
+      "quote": "Ａ２：求職中であっても保育所等の申込みは可能ですが、就労等の保育を必要とする事由のある方が優先となります。"
+    },
+    "notes.5": {
+      "url": "https://www.city.noda.chiba.jp/_res/projects/default_project/_page_/001/009/310/2026nyuusyoannai.pdf",
+      "quote": "書類が不足していると、受付が出来ない場合や利用調整で不利になる場合がありますので、ご注意ください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "野田市「令和8年度4月　保育所等入所申し込みと、申し込みされた方の結果通知までの流れ」",
+      "url": "https://www.city.noda.chiba.jp/kurashi/kosodate/hoiku/1009310.html"
+    },
+    {
+      "label": "野田市「2026年度（令和8年度）保育所等入所案内」",
+      "url": "https://www.city.noda.chiba.jp/_res/projects/default_project/_page_/001/009/310/2026nyuusyoannai.pdf"
+    },
+    {
+      "label": "野田市「野田市の認可保育所・認定こども園（利用申込等）」",
+      "url": "https://www.city.noda.chiba.jp/kurashi/kosodate/hoiku/1011759.html"
+    },
+    {
+      "label": "野田市「令和8年度4月　出産前申し込みのご案内」",
+      "url": "https://www.city.noda.chiba.jp/kurashi/kosodate/hoiku/1024282.html"
+    }
+  ]
+}

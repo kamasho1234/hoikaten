@@ -1,0 +1,190 @@
+{
+  "citySlug": "narashino",
+  "checkedAt": "2026-09-30",
+  "page": {
+    "label": "習志野市「令和8年度保育所等の入所申込み」",
+    "url": "https://www.city.narashino.lg.jp/soshiki/kodomo_hoiku/gyomu/hoikugakko/R8nyusyo.html"
+  },
+  "fiscalYear": "R8",
+  "guideRelease": "令和7年10月22日（水曜日）から申込書類を配布。こども保育課窓口と認可保育施設（小規模保育事業を除く）で受け取れ、市ホームページからもダウンロードできる",
+  "firstApply": "令和7年11月6日（木曜日）〜12月5日（金曜日）（1次募集）。郵送は締切日当日消印有効、電子申請は締切日23時59分受信分まで",
+  "applyMethods": "ちば電子申請サービスまたはぴったりサービスによる電子申請（習志野市に転入予定のない人は不可）、こども保育課への郵送（申込締切日消印有効）、こども保育課窓口（4月1次申込みは要予約）",
+  "firstResult": "令和8年2月上旬に発送予定。選考結果にかかわらず郵送で通知",
+  "secondApply": "令和7年12月8日（月曜日）〜令和8年1月30日（金曜日）（2次募集。1次募集で定員に満たなかった枠の選考）",
+  "secondResult": "令和8年3月上旬に発送予定（郵送）",
+  "midYearDeadline": "5月以降の入所は、入所希望月の前々月6日から前月5日まで（閉庁日の場合は翌開庁日から前開庁日まで）",
+  "documents": [
+    "教育・保育給付認定・変更申請書（2号・3号認定用）兼保育所等入所申込書",
+    "同意書（兄弟姉妹同時申込みの場合に限り、児童氏名連名可）",
+    "母子手帳（「出産の状態」のページと直近の検診のページ）の写し",
+    "保護者全員分のマイナンバー確認書類の写し（マイナンバーカード・通知カード等）",
+    "保護者全員分の本人確認書類の写し（運転免許証・パスポート等）",
+    "就労証明書（国が定める標準的な様式）。以前に提出した書類の証明日から6か月以内で内容に変更がなければ省略できる場合がある",
+    "育児休業から復職する場合は育児休業後復職誓約書"
+  ],
+  "interview": "看護師・保育士面談は原則実施しない。医療的ケアが必要な場合や障害者手帳を持っている場合、健康状況に不安があり希望する場合は、電話で予約して児童同伴で面談（1次募集は令和7年11月27日（木曜日）か12月3日（水曜日））",
+  "ikukyu": "申込書で『育児休業の延長も許容できる』を選ぶと利用調整の優先順位が下がり、4月入所は1次では調整せず2次募集からの受け付け。入所保留を希望する申込みは受け付けていない。育児休業給付金の延長手続きのため、提出前に申込書の全ページの写しを取って保管する",
+  "notes": [
+    "申込書類は混雑防止のため、できるだけ市ホームページからダウンロードするよう求められている",
+    "入所申込みを受け付けたことについて、こども保育課からの通知は行っていない",
+    "医療的ケアが必要な児童の申込みは1次募集で行う",
+    "1次選考で入所不承諾となった人は、申込み内容に変更がなければ追加の手続きなしで2次選考の対象になる",
+    "4月1次申込みの不足書類の提出期限は令和7年12月19日（金曜日）当日消印有効"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.narashino.lg.jp/soshiki/kodomo_hoiku/gyomu/hoikugakko/R8nyusyo.html",
+      "quote": "令和8年4月の入所を希望する場合は、こども保育課窓口または、小規模保育事業を除く認可保育施設にて申込書類をお受け取りください。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.narashino.lg.jp/soshiki/kodomo_hoiku/gyomu/hoikugakko/R8nyusyo.html",
+      "quote": "令和8年4月からの保育所（保育園）、こども園（長時間児）、小規模保育事業の入所申込書類の配布を令和7年10月22日（水曜日）から開始しました。"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.narashino.lg.jp/soshiki/kodomo_hoiku/gyomu/hoikugakko/R8nyusyo.html",
+      "quote": "また、申込書類は市ホームページからもダウンロードが可能です。"
+    },
+    "firstApply": {
+      "url": "https://www.city.narashino.lg.jp/soshiki/kodomo_hoiku/gyomu/hoikugakko/R8nyusyo.html",
+      "quote": "受付期間：令和7年11月6日（木曜日）から令和7年12月5日（金曜日）まで"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.narashino.lg.jp/material/files/group/136/R8_nyusyoannai_ver2.pdf",
+      "quote": "電子申請の場合、締切日23時59分受信分まで有効です。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.narashino.lg.jp/soshiki/kodomo_hoiku/gyomu/hoikugakko/R8nyusyo.html",
+      "quote": "ちば電子申請サービスまたはぴったりサービスによる電子申請（習志野市に転入予定のない方は不可）"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.narashino.lg.jp/soshiki/kodomo_hoiku/gyomu/hoikugakko/R8nyusyo.html",
+      "quote": "郵送（申込締切日消印有効）"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.narashino.lg.jp/soshiki/kodomo_hoiku/gyomu/hoikugakko/R8nyusyo.html",
+      "quote": "こども保育課窓口（4月1次申込みの場合は要予約）"
+    },
+    "firstResult": {
+      "url": "https://www.city.narashino.lg.jp/material/files/group/136/R8_nyusyoannai_ver2.pdf",
+      "quote": "１次：令和８年２月上旬発送予定"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.narashino.lg.jp/material/files/group/136/R8_nyusyoannai_ver2.pdf",
+      "quote": "選考結果にかかわらず、郵送にて通知します。"
+    },
+    "secondApply": {
+      "url": "https://www.city.narashino.lg.jp/soshiki/kodomo_hoiku/gyomu/hoikugakko/R8nyusyo.html",
+      "quote": "受付期間：令和7年12月8日（月曜日）から令和8年1月30日（金曜日）まで"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.narashino.lg.jp/soshiki/kodomo_hoiku/gyomu/hoikugakko/R8nyusyo.html",
+      "quote": "1次募集で定員に満たなかった枠について選考を実施します。"
+    },
+    "secondResult": {
+      "url": "https://www.city.narashino.lg.jp/material/files/group/136/R8_nyusyoannai_ver2.pdf",
+      "quote": "２次：令和８年３月上旬発送予定"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.narashino.lg.jp/soshiki/kodomo_hoiku/gyomu/hoikugakko/R8nyusyo.html",
+      "quote": "入所希望月の前々月6日から前月5日まで"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.narashino.lg.jp/soshiki/kodomo_hoiku/gyomu/hoikugakko/R8nyusyo.html",
+      "quote": "（前々月6日が閉庁日の場合は翌開庁日から。前月5日が閉庁日の場合は前開庁日まで）"
+    },
+    "documents.0": {
+      "url": "https://www.city.narashino.lg.jp/soshiki/kodomo_hoiku/gyomu/hoikugakko/R8nyusyo.html",
+      "quote": "教育・保育給付認定・変更申請書（2号・3号認定用）兼保育所等入所申込書"
+    },
+    "documents.1": {
+      "url": "https://www.city.narashino.lg.jp/material/files/group/136/R8_nyusyoannai_ver2.pdf",
+      "quote": "同意書（兄弟姉妹同時申込みの場合に限り、児童氏名連名可）"
+    },
+    "documents.2": {
+      "url": "https://www.city.narashino.lg.jp/soshiki/kodomo_hoiku/gyomu/hoikugakko/R8nyusyo.html",
+      "quote": "母子手帳（1．「出産の状態」のページ、2．直近の検診のページ）の写し"
+    },
+    "documents.3": {
+      "url": "https://www.city.narashino.lg.jp/soshiki/kodomo_hoiku/gyomu/hoikugakko/R8nyusyo.html",
+      "quote": "保護者全員分のマイナンバー確認書類の写し（マイナンバーカード・通知カード 等）"
+    },
+    "documents.4": {
+      "url": "https://www.city.narashino.lg.jp/soshiki/kodomo_hoiku/gyomu/hoikugakko/R8nyusyo.html",
+      "quote": "保護者全員分の本人確認書類の写し（運転免許証・パスポート 等）"
+    },
+    "documents.5": {
+      "url": "https://www.city.narashino.lg.jp/soshiki/kodomo_hoiku/gyomu/hoikugakko/R8nyusyo.html",
+      "quote": "就労証明書(国が定める標準的な様式)"
+    },
+    "documents.5#2": {
+      "url": "https://www.city.narashino.lg.jp/soshiki/kodomo_hoiku/gyomu/hoikugakko/R8nyusyo.html",
+      "quote": "なお、以前に提出された書類の証明日から6か月以内で、内容に変更がなければ省略できる場合があります。"
+    },
+    "documents.6": {
+      "url": "https://www.city.narashino.lg.jp/material/files/group/136/R8_nyusyoannai_ver2.pdf",
+      "quote": "また、「育児休業後復職誓約書」を必ずご提出ください。"
+    },
+    "interview": {
+      "url": "https://www.city.narashino.lg.jp/soshiki/kodomo_hoiku/gyomu/hoikugakko/R8nyusyo.html",
+      "quote": "看護師・保育士面談については、原則実施いたしません。"
+    },
+    "interview#2": {
+      "url": "https://www.city.narashino.lg.jp/soshiki/kodomo_hoiku/gyomu/hoikugakko/R8nyusyo.html",
+      "quote": "予約制で面談を実施します（児童同伴）。"
+    },
+    "interview#3": {
+      "url": "https://www.city.narashino.lg.jp/soshiki/kodomo_hoiku/gyomu/hoikugakko/R8nyusyo.html",
+      "quote": "日程（1次募集） : 令和7年11月27日（木曜日）、12月3日（水曜日）のいずれか"
+    },
+    "interview#4": {
+      "url": "https://www.city.narashino.lg.jp/soshiki/kodomo_hoiku/gyomu/hoikugakko/R8nyusyo.html",
+      "quote": "面談申込方法：事前にこども保育課へ電話"
+    },
+    "ikukyu": {
+      "url": "https://www.city.narashino.lg.jp/material/files/group/136/R8_nyusyoannai_ver2.pdf",
+      "quote": "利用調整の優先順位を下げて利用調整を行いますので、認可保育施設に入所できる可能性が低くなります。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.narashino.lg.jp/material/files/group/136/R8_nyusyoannai_ver2.pdf",
+      "quote": "４月入所に限り、１次では利用調整を行わず、２次からの利用調整となります。申込みは2次募集からの受け付けです。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.narashino.lg.jp/material/files/group/136/R8_nyusyoannai_ver2.pdf",
+      "quote": "入所保留を希望する申込みは受け付けておりません。"
+    },
+    "ikukyu#4": {
+      "url": "https://www.city.narashino.lg.jp/soshiki/kodomo_hoiku/gyomu/hoikugakko/R8nyusyo.html",
+      "quote": "市区町村に提出する前に、必ず申込書の全てのページの写しをとって保管をしてください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.narashino.lg.jp/soshiki/kodomo_hoiku/gyomu/hoikugakko/R8nyusyo.html",
+      "quote": "混雑防止のため、可能な限り市ホームページからのダウンロードをお願いいたします。"
+    },
+    "notes.1": {
+      "url": "https://www.city.narashino.lg.jp/soshiki/kodomo_hoiku/gyomu/hoikugakko/R8nyusyo.html",
+      "quote": "入所申込みの受付をした場合の習志野市こども保育課からの通知は行っていません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.narashino.lg.jp/soshiki/kodomo_hoiku/gyomu/hoikugakko/R8nyusyo.html",
+      "quote": "医療的ケアが必要な児童の申し込みは1次募集となります。"
+    },
+    "notes.3": {
+      "url": "https://www.city.narashino.lg.jp/soshiki/kodomo_hoiku/gyomu/hoikugakko/R8nyusyo.html",
+      "quote": "1次選考にて入所不承諾となった方は、2次選考も行います。申込み内容に変更がなければ追加の手続きは不要です。"
+    },
+    "notes.4": {
+      "url": "https://www.city.narashino.lg.jp/soshiki/kodomo_hoiku/gyomu/hoikugakko/R8nyusyo.html",
+      "quote": "4月1次申込み：令和7年12月19日（金曜日）当日消印有効"
+    }
+  },
+  "sources": [
+    {
+      "label": "習志野市「令和8年度保育所等の入所申込み」",
+      "url": "https://www.city.narashino.lg.jp/soshiki/kodomo_hoiku/gyomu/hoikugakko/R8nyusyo.html"
+    },
+    {
+      "label": "習志野市「令和8年度 認可保育施設入所・入園案内」（PDF）",
+      "url": "https://www.city.narashino.lg.jp/material/files/group/136/R8_nyusyoannai_ver2.pdf"
+    }
+  ]
+}

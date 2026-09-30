@@ -1,0 +1,217 @@
+{
+  "citySlug": "hino",
+  "checkedAt": "2026-09-29",
+  "page": {
+    "label": "日野市「保育施設の利用申込・受付期間・入所の決定について（令和9年度）」",
+    "url": "https://www.city.hino.lg.jp/kosodate/1028734/1029009/1029053/1031875.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年9月1日に「保育施設利用のしおり」を市ホームページで公開。紙のしおりは9月下旬から保育課（子ども包括支援センターみらいく1階）、市役所1階庁舎案内窓口、市内認可保育園・認定こども園・小規模保育所などで配布",
+  "firstApply": "令和8年10月5日（月曜）〜10月30日（金曜）午後4時30分まで。追加書類等の提出期限は令和8年11月6日（金曜）午後4時30分まで",
+  "applyMethods": "必要な書類をそろえて専用の申込フォーム（インターネット）から申し込む。本人確認書類や就労証明書などの紙資料は写真を撮って画像データで添付する。日野市外の保育施設を希望する場合や申込時点で市外に住む転入予定者は申込フォームを使えず、書類を保育課窓口に持参か郵送する。保育課窓口は平日のみ",
+  "firstResult": "令和9年1月22日（金曜）頃に郵送で発送",
+  "secondApply": "令和8年11月9日（月曜）〜令和9年2月3日（水曜）午後4時30分まで。1次利用調整で入所できなかった人は申込不要で引き続き2次の対象（希望施設の変更や追加書類は締切日までに手続き）",
+  "secondResult": "令和9年2月19日（金曜）頃に郵送で発送。1次から申し込んだ人には入所が決定した場合のみ通知",
+  "midYearDeadline": "5月以降は各月1日付入所で、各月の申込締切日までに申し込む（例: 5月入園は3月11日〜4月9日、6月入園は4月10日〜5月10日。最終日は午後4時30分まで）。結果通知は毎月20日頃",
+  "documents": [
+    "子どものための教育・保育給付認定申請書兼施設利用申込書",
+    "就労証明書（市所定様式・父母それぞれ）。勤務先に記入を依頼する。証明日から3か月を経過したものは無効（申込時点）。産前産後休業・育児休業などを取得した場合は休業期間の記載が必要",
+    "自営業・内職の人は直近の確定申告書（第一面および第二面）の写しなど",
+    "代表保護者の本人確認書類（運転免許証、健康保険証、住民票、マイナンバーカード（表面））",
+    "母子健康手帳（子どもの健康状況を入力する項目がある）"
+  ],
+  "interview": "入所決定後に入所説明会（保育施設との面談）があり、日程・場所は決定者に別途案内される。申込前の保育施設見学が勧められているが、見学の有無は利用調整に影響しない",
+  "ikukyu": "入所保留の場合の「施設利用保留通知書」は1回のみの発行。育休延長手続きなどで申込内容の写しが必要な場合は、申込入力後の送信完了画面の「入力内容を印刷する」から印刷する。入所保留の証明書が必要な場合は別途申請が必要",
+  "notes": [
+    "申込みの取下げをせずに入所決定を辞退すると、令和9年度と令和10年度の入所申込みで施設利用の優先順位が下がる。4月1次申込者の施設利用調整申込取下書の提出期限は令和8年12月24日",
+    "現在待機中の人も改めて利用申込が必要",
+    "1児童につき1回しか申込み（入力）できず、申込完了後は入力内容を修正できない。完了後に希望園を変える場合は希望園変更届を出す",
+    "書類に不備・不足があると、申込みを受理できない場合や利用調整基準指数が減点になる場合がある",
+    "兄弟姉妹同時の申込みは子ども1人ずつ手続きが必要",
+    "保育施設利用の決定は先着順や抽選ではなく、提出書類を審査して保育の必要度合の高い人から決定する"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.hino.lg.jp/kosodate/1028734/1029009/1029053/1031875.html",
+      "quote": "令和9年度に保育施設を利用希望の方へのご案内です。"
+    },
+    "fiscalYear#2": {
+      "url": "https://www.city.hino.lg.jp/kosodate/1028734/1029009/1029053/1031875.html",
+      "quote": "4月利用調整（1次） 受付期間 令和8年10月5日（月曜）から令和8年10月30日（金曜）午後4時30分まで"
+    },
+    "guideRelease": {
+      "url": "https://www.city.hino.lg.jp/kosodate/1028734/1029009/1029053/1031875.html",
+      "quote": "※令和8年9月1日に公開しました『令和9年度　保育施設利用のしおり』に一部誤りがありましたのでデータの更新を行いました。"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.hino.lg.jp/kosodate/1028734/1029009/1029053/1031875.html",
+      "quote": "※紙のしおりは、9月下旬に配布開始となります。"
+    },
+    "guideRelease#3": {
+      "url": "https://www.city.hino.lg.jp/kosodate/1028734/1029009/1029053/1031875.html",
+      "quote": "保育施設利用のしおりは以下の場所でも配布しています。 ※紙のしおりは、9月下旬に配布開始となります。 保育課（子ども包括支援センターみらいく1階） 市役所1階　庁舎案内窓口"
+    },
+    "guideRelease#4": {
+      "url": "https://www.city.hino.lg.jp/kosodate/1028734/1029009/1029053/1031875.html",
+      "quote": "市内認可保育園 ・認定こども園・小規模保育所"
+    },
+    "firstApply": {
+      "url": "https://www.city.hino.lg.jp/kosodate/1028734/1029009/1029053/1031875.html",
+      "quote": "4月利用調整（1次） 受付期間 令和8年10月5日（月曜）から令和8年10月30日（金曜）午後4時30分まで"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.hino.lg.jp/kosodate/1028734/1029009/1029053/1031875.html",
+      "quote": "追加書類等の提出期限 令和8年11月6日（金曜）午後4時30分まで"
+    },
+    "applyMethods": {
+      "url": "https://www.city.hino.lg.jp/kosodate/1028734/1029009/1029053/1031875.html",
+      "quote": "必要な書類を揃えて、専用の申込フォーム（インターネット）からお手続きください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.hino.lg.jp/_res/projects/default_project/_page_/001/031/875/r9siori3.pdf",
+      "quote": "本人確認書類や就労証明書など、紙資料は写真を撮り、画像データとして申込フォームに添付してください。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.hino.lg.jp/kosodate/1028734/1029009/1029053/1031875.html",
+      "quote": "※日野市外の保育施設を希望する場合や、日野市に転入予定がある方（申込時点で日野市外にお住まいの方）は申込フォームからお手続きができません。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.hino.lg.jp/kosodate/1028734/1029009/1029053/1031875.html",
+      "quote": "申込みに必要な書類を揃えて、保育課窓口に持参または郵送をしてください。"
+    },
+    "applyMethods#5": {
+      "url": "https://www.city.hino.lg.jp/kosodate/1028734/1029009/1029053/1031875.html",
+      "quote": "※保育課窓口は、平日のみの開庁となります。"
+    },
+    "firstResult": {
+      "url": "https://www.city.hino.lg.jp/kosodate/1028734/1029009/1029053/1031875.html",
+      "quote": "結果通知 令和9年1月22日（金曜）頃発送　(郵送)"
+    },
+    "secondApply": {
+      "url": "https://www.city.hino.lg.jp/kosodate/1028734/1029009/1029053/1031875.html",
+      "quote": "4月利用調整（2次） 受付期間 令和8年11月9日（月曜）から令和9年2月3日（水曜）午後4時30分まで"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.hino.lg.jp/kosodate/1028734/1029009/1029053/1031875.html",
+      "quote": "※1次利用調整で入所ができなかった方は、引き続き2次の対象となりますのでお申込みは不要です。ただし、希望施設の変更や追加書類等がある場合は受付締切日までに手続きをお願いします。"
+    },
+    "secondResult": {
+      "url": "https://www.city.hino.lg.jp/kosodate/1028734/1029009/1029053/1031875.html",
+      "quote": "結果通知 令和9年2月19日（金曜）頃発送　(郵送)"
+    },
+    "secondResult#2": {
+      "url": "https://www.city.hino.lg.jp/kosodate/1028734/1029009/1029053/1031875.html",
+      "quote": "※1次からお申込みの方は、入所が決定になった場合のみ通知を発送します。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.hino.lg.jp/kosodate/1028734/1029009/1029053/1031875.html",
+      "quote": "5月以降利用調整 入所日 各月1日付入所 受付締切は、下記「各月申込締切日」を参照してください。"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.hino.lg.jp/kosodate/1028734/1029009/1029053/1031875.html",
+      "quote": "5月入園 3/11（木曜日）～4/9（金曜日） 6月入園 4/10（土曜日）～5/10（月曜日）"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.hino.lg.jp/kosodate/1028734/1029009/1029053/1031875.html",
+      "quote": "※いずれも最終日は午後4時30分まで"
+    },
+    "midYearDeadline#4": {
+      "url": "https://www.city.hino.lg.jp/kosodate/1028734/1029009/1029053/1031875.html",
+      "quote": "毎月20日頃（入所決定者には電話、未決定者には通知発送）"
+    },
+    "documents.0": {
+      "url": "https://www.city.hino.lg.jp/_res/projects/default_project/_page_/001/031/875/r9siori3.pdf",
+      "quote": "（1）子どものための教育・保育給付認定申請書兼施設利用申込書（★）"
+    },
+    "documents.1": {
+      "url": "https://www.city.hino.lg.jp/_res/projects/default_project/_page_/001/031/875/r9siori3.pdf",
+      "quote": "①「就労証明書」（市所定様式） ※勤務先に記入を依頼してください（内定も含む）。 ※証明日から3か月を経過したものは無効です（申込時点）。"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.hino.lg.jp/_res/projects/default_project/_page_/001/031/875/r9siori3.pdf",
+      "quote": "※産前産後休業・育児休業・その他休業を取得した（している）場合、休業期間の記載が必要です。"
+    },
+    "documents.2": {
+      "url": "https://www.city.hino.lg.jp/_res/projects/default_project/_page_/001/031/875/r9siori3.pdf",
+      "quote": "□「確定申告書」（直近のもの。第一面および第二面）"
+    },
+    "documents.3": {
+      "url": "https://www.city.hino.lg.jp/_res/projects/default_project/_page_/001/031/875/r9siori3.pdf",
+      "quote": "□ 代表保護者の本人確認書類 ➡ 運転免許証、健康保険証、住民票、マイナンバーカード（表面）"
+    },
+    "documents.4": {
+      "url": "https://www.city.hino.lg.jp/_res/projects/default_project/_page_/001/031/875/r9siori3.pdf",
+      "quote": "□ 母子健康手帳（お子さまの健康状況を入力する項目があります）"
+    },
+    "interview": {
+      "url": "https://www.city.hino.lg.jp/kosodate/1028734/1029009/1029053/1031875.html",
+      "quote": "決定後に入所説明会（保育施設との面談）を行います。"
+    },
+    "interview#2": {
+      "url": "https://www.city.hino.lg.jp/kosodate/1028734/1029009/1029053/1031875.html",
+      "quote": "詳しい日程・場所等につきましては、決定者に別途ご案内いたします。"
+    },
+    "interview#3": {
+      "url": "https://www.city.hino.lg.jp/_res/projects/default_project/_page_/001/031/875/r9siori3.pdf",
+      "quote": "※申込前に保育施設の見学をお勧めします。"
+    },
+    "interview#4": {
+      "url": "https://www.city.hino.lg.jp/_res/projects/default_project/_page_/001/031/875/r9siori3.pdf",
+      "quote": "※見学の有無は、利用調整に影響はありません。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.hino.lg.jp/_res/projects/default_project/_page_/001/031/875/r9siori3.pdf",
+      "quote": "入所保留の場合にお知らせする「施設利用保留通知書」は、一回のみの発行となります。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.hino.lg.jp/_res/projects/default_project/_page_/001/031/875/r9siori3.pdf",
+      "quote": "育休延長手続き等のため申込内容の写しが必要な場合は、申込入力後【送信完了】画面の【入力内容を印刷する】から印刷してください。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.hino.lg.jp/_res/projects/default_project/_page_/001/031/875/r9siori3.pdf",
+      "quote": "お勤め先などへの申告のため、認可保育施設を利用できていないこと（入所保留）の証明書が必要な場合は、別途申請が必要です"
+    },
+    "notes.0": {
+      "url": "https://www.city.hino.lg.jp/kosodate/1028734/1029009/1029053/1031875.html",
+      "quote": "※申込みの取下げを行わず入所決定を辞退した場合は、令和9年度および令和10年度の入所申込みについて、施設利用の優先順位が下がりますのでご注意ください。"
+    },
+    "notes.0#2": {
+      "url": "https://www.city.hino.lg.jp/kosodate/1028734/1029009/1029053/1031875.html",
+      "quote": "4月1次申込みをされた方の「施設利用調整申込取下書」の提出期限は、令和8年12月24日までとなります。"
+    },
+    "notes.1": {
+      "url": "https://www.city.hino.lg.jp/kosodate/1028734/1029009/1029053/1031875.html",
+      "quote": "※現在、待機中の方も改めて利用申込が必要です。"
+    },
+    "notes.2": {
+      "url": "https://www.city.hino.lg.jp/_res/projects/default_project/_page_/001/031/875/r9siori3.pdf",
+      "quote": "申込みが完了すると、入力内容の修正はできません。申込完了後に希望園を変更する場合は希望園変更届を記入し、下記追加書類等の提出フォームからご提出ください。"
+    },
+    "notes.2#2": {
+      "url": "https://www.city.hino.lg.jp/_res/projects/default_project/_page_/001/031/875/r9siori3.pdf",
+      "quote": "1児童につき、1回の申込み（入力）しかできません。"
+    },
+    "notes.3": {
+      "url": "https://www.city.hino.lg.jp/_res/projects/default_project/_page_/001/031/875/r9siori3.pdf",
+      "quote": "申込みに必要な書類に不備・不足があると、申込みを受理できない場合や利用調整基準指数が減点になる場合があります"
+    },
+    "notes.4": {
+      "url": "https://www.city.hino.lg.jp/_res/projects/default_project/_page_/001/031/875/r9siori3.pdf",
+      "quote": "②兄弟姉妹同時でのお申込みの場合は、お子さまお一人ずつのお手続きが必要です。"
+    },
+    "notes.5": {
+      "url": "https://www.city.hino.lg.jp/kosodate/1028734/1029009/1029053/1031875.html",
+      "quote": "保育施設利用の決定は先着順や抽選ではありません。申込締切日までに提出された書類の審査（就労証明書の発行元等に照会を行う場合があります。）を行い、保育の必要度合の高い方から決定します。"
+    }
+  },
+  "sources": [
+    {
+      "label": "日野市「保育施設の利用申込・受付期間・入所の決定について（令和9年度）」",
+      "url": "https://www.city.hino.lg.jp/kosodate/1028734/1029009/1029053/1031875.html"
+    },
+    {
+      "label": "日野市「令和9年度保育施設利用のしおり」",
+      "url": "https://www.city.hino.lg.jp/_res/projects/default_project/_page_/001/031/875/r9siori3.pdf"
+    }
+  ]
+}

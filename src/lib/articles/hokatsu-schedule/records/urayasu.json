@@ -1,0 +1,245 @@
+{
+  "citySlug": "urayasu",
+  "checkedAt": "2026-09-30",
+  "page": {
+    "label": "浦安市「令和9年度4月認可保育園・認定こども園などの入所申し込み手続きスケジュール」",
+    "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033745.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年10月23日（金曜日）予定。入所申込書と入所ガイドブックを保育幼稚園課窓口（市役所2階）と各園で配布",
+  "firstApply": "令和8年10月23日（金曜日）〜11月10日（火曜日）。郵送（原則）は11月10日必着、電子申請は11月10日午後5時まで、市役所窓口は11月4日（水曜日）〜11月10日の午前8時30分〜午後5時。受付後の不足書類は12月2日（水曜日）必着まで",
+  "applyMethods": "郵送が原則。ほかに電子申請（新規入所はマイナポータル、転園はちば電子申請サービス）と市役所窓口で受け付ける",
+  "firstResult": "令和9年1月27日（水曜日）予定",
+  "secondApply": "令和9年1月27日（水曜日）〜2月10日（水曜日）。郵送は必着、電子申請は午後5時まで、市役所窓口は午前8時30分〜午後5時",
+  "secondResult": "令和9年3月10日（水曜日）予定",
+  "midYearDeadline": "利用開始希望月の前月10日まで（必着。10日が土曜日・日曜日・祝日のときは直前の開庁日）",
+  "documents": [
+    "保育所等入所申込書（各年度の浦安市様式。申請児童1人につき1部。マイナポータルで電子申請する場合は不要）",
+    "転園申請書（市内の認可保育施設の在園児が別の認可保育施設への入所を希望する場合のみ）",
+    "個人番号（マイナンバー）提出用紙（新規申し込みのみ。保護者全員・申請児童・同居者全員の番号を記入し、番号が確認できる書類の写しを添付）",
+    "本人確認書類（保護者のうち1人分。顔写真付きなら1通、顔写真なしなら2通）",
+    "就労証明書（令和8年度と同様の様式を使用）",
+    "就労以外の事由の証明書類（診断書、就学状況報告書、介護状況報告書など）",
+    "浦安市保育所申し込み郵送受付チェックリスト（郵送で申請する場合は必ず提出）"
+  ],
+  "interview": "求職中・就労内定で申し込んだ人は、就労に関する承諾書を入園前の面接時に提出する",
+  "ikukyu": "申し込み後初回の利用調整に限り保留通知が届く。育児休業の延長などで保留通知が必要な場合は電子申請が必要。育休復職を条件に申し込んだ人は、育休を取得した事業所に申込時と同じかそれ以上の就労時間数で、利用開始月の翌月10日までに復職する（4月利用開始なら5月10日復職が期限）",
+  "notes": [
+    "4月入所の受付期間中は窓口が大変混雑するため、郵送や電子申請の利用が勧められている",
+    "郵送で申し込んだ場合、保育幼稚園課からの受付連絡や通知は無い。レターパック・特定記録・簡易書留など追跡できる方法での送付が推奨されている",
+    "きょうだいで同時に申し込む場合、内容によって電子申請を使えないことがあり、新規入所申し込みと転園申し込みが混在する場合は電子申請できない",
+    "申し込み後に自己都合で内定を辞退すると、その年度内の利用調整で減点になる"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033745.html",
+      "quote": "令和9年4月入所申し込みのスケジュールや「令和9年度認可保育所・認定こども園入所ガイドブック」の配布時期につきまして、以下のとおりお知らせします。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033745.html",
+      "quote": "配布開始時期：10月23日（金曜日）予定"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033745.html",
+      "quote": "配布予定場所：保育幼稚園課窓口（市役所2階）・各園"
+    },
+    "guideRelease#3": {
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033745.html",
+      "quote": "令和9年4月入所申し込みのスケジュールや「令和9年度認可保育所・認定こども園入所ガイドブック」の配布時期につきまして、以下のとおりお知らせします。"
+    },
+    "firstApply": {
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033745.html",
+      "quote": "郵送受付（原則）：10月23日（金曜日）から11月10日（火曜日）（必着）まで"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033745.html",
+      "quote": "電子申請受付（マイナポータル・ちば電子申請サービス）：10月23日（金曜日）から11月10日（火曜日）午後5時まで"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033745.html",
+      "quote": "市役所窓口受付：11月4日（水曜日）から11月10日（火曜日）午前8時30分から午後5時まで"
+    },
+    "firstApply#4": {
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033745.html",
+      "quote": "申し込み受け付け後の不足書類の提出は、12月2日（水曜日）（必着）まで受け付けます"
+    },
+    "applyMethods": {
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033745.html",
+      "quote": "マイナポータルからの申請は、新規の入所申し込みの方、ちば電子申請サービスからの申請は、転園申し込みの方がご利用いただけます"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033745.html",
+      "quote": "毎年、4月入所申し込み受け付け期間中、窓口が大変混雑します。郵送や電子申請でのお申し込みをご利用ください"
+    },
+    "firstResult": {
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033745.html",
+      "quote": "令和9年1月27日（水曜日）予定"
+    },
+    "secondApply": {
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033745.html",
+      "quote": "郵送受付（原則）：令和9年1月27日（水曜日）から2月10日（水曜日）（必着）まで"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033745.html",
+      "quote": "電子申請受付（マイナポータル・ちば電子申請サービス）：令和9年1月27日（水曜日）から2月10日（水曜日）午後5時まで"
+    },
+    "secondApply#3": {
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033745.html",
+      "quote": "市役所窓口受付：令和9年1月27日（水曜日）から2月10日（水曜日）午前8時30分から午後5時まで"
+    },
+    "secondResult": {
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033745.html",
+      "quote": "令和9年3月10日（水曜日）予定"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033663/1046825.html",
+      "quote": "締め切り日：利用開始希望月の前月10日まで（必着。10日が土曜日・日曜日、祝日のときは、直前の開庁日）"
+    },
+    "documents.0": {
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033663/1033673/1033674.html",
+      "quote": "必ず、各年度の浦安市様式をご使用ください。記載事項は、「申込書の書き方」をご覧のうえ、漏れのないよう記入してください。"
+    },
+    "documents.0#2": {
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033663/1033673/1033674.html",
+      "quote": "申請児童1人につき1部必要です。2人以上で同時に申請する場合は、内定条件を決める必要があります。市外の認可保育施設から移る場合も新規申請です。"
+    },
+    "documents.0#3": {
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033663/1033673/1033674.html",
+      "quote": "マイナポータル（ぴったりサービス）による電子申請をする場合は、不要です。"
+    },
+    "documents.1": {
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033663/1033673/1033674.html",
+      "quote": "転園申請書は、市内の認可保育施設在園児が、別の認可保育施設へ入所を希望する場合のみ使用する用紙です。"
+    },
+    "documents.2": {
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033663/1033673/1043599.html",
+      "quote": "保護者全員、申請児童、同居者全員の個人番号（マイナンバー）を記入してください。"
+    },
+    "documents.2#2": {
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033663/1033673/1043599.html",
+      "quote": "提出用紙に記入した方全員それぞれ、次のいずれか1通の写しを準備し、提出用紙に添付してください。"
+    },
+    "documents.2#3": {
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033663/1033673/1043599.html",
+      "quote": "新規で、保育施設の利用を希望する方は、マイナンバーの提示が必要です。"
+    },
+    "documents.3": {
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033663/1033673/1043599.html",
+      "quote": "保護者のうち1人分の次の本人確認ができる書類を提出用紙に添付してください。保護者の指定はありません。"
+    },
+    "documents.3#2": {
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033663/1033673/1043599.html",
+      "quote": "顔写真付きの場合：1通"
+    },
+    "documents.3#3": {
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033663/1033673/1043599.html",
+      "quote": "顔写真なしの場合：2通"
+    },
+    "documents.4": {
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033745.html",
+      "quote": "次の添付ファイルをダウンロードしてご利用ください。令和8年度と同様の就労証明書を使用しています。"
+    },
+    "documents.5": {
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033663/1033673/1033676.html",
+      "quote": "被介護者の証明書類（診断書や介護保険被保険者証のコピー）を添付してください。"
+    },
+    "documents.5#2": {
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033663/1033673/1033676.html",
+      "quote": "浦安市書式の内容が含まれていれば、様式は問いません。"
+    },
+    "documents.5#3": {
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033663/1033673/1033676.html",
+      "quote": "在学証明書とカリキュラム表を添付してください。"
+    },
+    "documents.6": {
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033663/1033673/1043598.html",
+      "quote": "必要な書類を確認することができるものです。提出書類が漏れることのないよう必ずご確認ください。"
+    },
+    "documents.6#2": {
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033663/1033673/1043598.html",
+      "quote": "郵送で申請する方は必ず提出してください。"
+    },
+    "interview": {
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033663/1037820.html",
+      "quote": "就労に関する承諾書：入園前の面接時"
+    },
+    "ikukyu": {
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033663/1037820.html",
+      "quote": "申し込み後初回の利用調整に限り、保留通知がお手元に届きます。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033663/1037820.html",
+      "quote": "育児休業の延長などで保留通知が必要な方は、電子申請が必要です。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033663/1043596.html",
+      "quote": "必ず、入所申し込みのときに提出した就労証明書と就労時間数と同じまたはそれ以上の時間数で復職してください。"
+    },
+    "ikukyu#4": {
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033663/1043596.html",
+      "quote": "上記2点の要件を満たしたうえで、利用開始月の翌月10日までに復職してください。"
+    },
+    "ikukyu#5": {
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033663/1043596.html",
+      "quote": "復職日例：4月利用開始の場合、5月9日まで育児休業、5月10日復職が期限"
+    },
+    "ikukyu#6": {
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033663/1043596.html",
+      "quote": "必ず、育児休業を取得した事業所へ復職してください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033745.html",
+      "quote": "毎年、4月入所申し込み受け付け期間中、窓口が大変混雑します。郵送や電子申請でのお申し込みをご利用ください"
+    },
+    "notes.1": {
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033745.html",
+      "quote": "郵送でお申し込みの場合、保育幼稚園課からの受付連絡や通知は行いません。追跡可能な方法（レターパック、特定記録、簡易書留など）での送付を推奨します"
+    },
+    "notes.2": {
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033745.html",
+      "quote": "特に、新規入所申し込みと転園申し込みが混在する場合は電子申請をご利用いただけません。"
+    },
+    "notes.2#2": {
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033745.html",
+      "quote": "注記：電子申請において、きょうだいで同時に申し込む場合は、申し込み内容や希望条件によって電子申請をご利用いただけない場合があります。"
+    },
+    "notes.3": {
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033663/1037820.html",
+      "quote": "利用調整の結果、自己都合により内定辞退をされた場合は、当該年度内の利用調整で減点になりますので、ご注意ください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "浦安市「令和9年度4月認可保育園・認定こども園などの入所申し込み手続きスケジュール」",
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033745.html"
+    },
+    {
+      "label": "浦安市「令和8年5月から令和9年3月の入所・転園申し込み受け付け」",
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033663/1046825.html"
+    },
+    {
+      "label": "浦安市「保育所等入所申込書または転園申請書」",
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033663/1033673/1033674.html"
+    },
+    {
+      "label": "浦安市「個人番号（マイナンバー）提出用紙」",
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033663/1033673/1043599.html"
+    },
+    {
+      "label": "浦安市「保育の必要性の認定にかかる証明書（就労証明書など）」",
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033663/1033673/1033676.html"
+    },
+    {
+      "label": "浦安市「浦安市保育所申し込み受付チェックリスト」",
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033663/1033673/1043598.html"
+    },
+    {
+      "label": "浦安市「申し込み後・保留中の方の注意事項」",
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033663/1037820.html"
+    },
+    {
+      "label": "浦安市「育児休業から就労復帰するときは」",
+      "url": "https://www.city.urayasu.lg.jp/kodomo/hoiku/hoikuen/1033663/1043596.html"
+    }
+  ]
+}
