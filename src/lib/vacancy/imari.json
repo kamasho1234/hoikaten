@@ -2,12 +2,12 @@
   "municipalitySlug": "imari",
   "municipalityName": "伊万里市",
   "prefecture": "佐賀県",
-  "asOf": "2026-08-25",
-  "fetchedAt": "2026-09-29",
+  "asOf": "2026-09-28",
+  "fetchedAt": "2026-09-30",
   "sourceName": "伊万里市「保育所等入所可能状況」",
   "sourceUrl": "https://www.city.imari.lg.jp/26653.htm",
   "sourceFiles": {
-    "vacancy": "https://www.city.imari.lg.jp/secure/38416/r8.10nyuen.pdf"
+    "vacancy": "https://www.city.imari.lg.jp/secure/38416/r8.11nyuen.pdf"
   },
   "metrics": [
     "vacancy"
@@ -22,7 +22,8 @@
     "公立",
     "私立",
     "認定こども園",
-    "小規模"
+    "小規模",
+    "事業所内"
   ],
   "facilities": [
     {
@@ -33,10 +34,10 @@
       "vacancy": [
         0,
         0,
-        1,
-        1,
         0,
-        0
+        0,
+        1,
+        2
       ]
     },
     {
@@ -45,7 +46,7 @@
       "w": null,
       "c": 0,
       "vacancy": [
-        1,
+        0,
         0,
         0,
         1,
@@ -59,26 +60,12 @@
       "w": null,
       "c": 0,
       "vacancy": [
-        1,
-        2,
-        2,
-        2,
+        0,
+        0,
+        0,
+        0,
         2,
         2
-      ]
-    },
-    {
-      "id": "みなみ",
-      "name": "みなみ",
-      "w": null,
-      "c": 1,
-      "vacancy": [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1
       ]
     },
     {
@@ -124,30 +111,16 @@
       ]
     },
     {
-      "id": "南波多",
-      "name": "南波多",
-      "w": null,
-      "c": 1,
-      "vacancy": [
-        null,
-        null,
-        null,
-        1,
-        2,
-        null
-      ]
-    },
-    {
       "id": "いまり",
       "name": "いまり",
       "w": null,
       "c": 1,
       "vacancy": [
-        1,
         0,
         0,
+        0,
         1,
-        1,
+        0,
         1
       ]
     },
@@ -157,12 +130,12 @@
       "w": null,
       "c": 1,
       "vacancy": [
-        0,
+        null,
         1,
         1,
         1,
         1,
-        1
+        3
       ]
     },
     {
@@ -172,7 +145,7 @@
       "c": 1,
       "vacancy": [
         1,
-        2,
+        1,
         0,
         2,
         2,
@@ -199,12 +172,12 @@
       "w": null,
       "c": 1,
       "vacancy": [
+        1,
         2,
-        2,
         1,
         1,
         1,
-        1
+        0
       ]
     },
     {
@@ -215,7 +188,7 @@
       "vacancy": [
         1,
         1,
-        1,
+        0,
         1,
         1,
         1
@@ -243,10 +216,10 @@
       "vacancy": [
         1,
         1,
-        2,
-        3,
+        1,
         5,
-        3
+        null,
+        5
       ]
     },
     {
@@ -269,11 +242,11 @@
       "w": null,
       "c": 2,
       "vacancy": [
+        1,
+        1,
+        0,
+        1,
         2,
-        1,
-        0,
-        1,
-        0,
         2
       ]
     },
@@ -283,9 +256,9 @@
       "w": null,
       "c": 2,
       "vacancy": [
+        2,
         1,
-        1,
-        1,
+        3,
         1,
         1,
         3
@@ -300,8 +273,8 @@
         0,
         0,
         0,
-        0,
-        0,
+        null,
+        null,
         2
       ]
     },
@@ -315,21 +288,35 @@
         2,
         1,
         2,
-        1,
+        null,
         null
       ]
     },
     {
-      "id": "牧島こども園",
-      "name": "牧島こども園",
+      "id": "楠久こども園",
+      "name": "楠久こども園",
       "w": null,
       "c": 2,
       "vacancy": [
-        0,
-        0,
-        0,
+        2,
+        2,
         1,
-        5,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "にこにこ",
+      "name": "にこにこ",
+      "w": null,
+      "c": 3,
+      "vacancy": [
+        0,
+        null,
+        0,
+        null,
+        null,
         null
       ]
     },
@@ -339,9 +326,9 @@
       "w": null,
       "c": 3,
       "vacancy": [
-        2,
-        1,
-        0,
+        3,
+        null,
+        null,
         null,
         null,
         null
@@ -353,23 +340,9 @@
       "w": null,
       "c": 3,
       "vacancy": [
-        1,
         0,
         0,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "おりこうさん",
-      "name": "おりこうさん",
-      "w": null,
-      "c": 3,
-      "vacancy": [
-        1,
-        2,
-        1,
+        0,
         null,
         null,
         null
@@ -381,7 +354,7 @@
       "w": null,
       "c": 3,
       "vacancy": [
-        2,
+        1,
         0,
         0,
         null,
@@ -397,7 +370,21 @@
       "vacancy": [
         2,
         0,
-        1,
+        0,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "ＳＵＭＣＯいまり",
+      "name": "ＳＵＭＣＯいまり",
+      "w": null,
+      "c": 4,
+      "vacancy": [
+        5,
+        5,
+        5,
         null,
         null,
         null

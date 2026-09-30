@@ -1,8 +1,8 @@
 {
   "municipalitySlug": "abiko",
   "municipalityName": "我孫子市",
-  "asOf": "2026-09-24",
-  "fetchedAt": "2026-09-24",
+  "asOf": "2026-09-30",
+  "fetchedAt": "2026-09-30",
   "sourceName": "我孫子市「保育施設の空き状況」",
   "sourceUrl": "https://www.city.abiko.chiba.jp/kosodate/children/preschool/nursery/vacancy/hoikuen_aki.html",
   "sourceFiles": {
@@ -55,7 +55,7 @@
     {"id":"川村学園女子大学附属","name":"川村学園女子大学附属","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
     {"id":"アンジェリカ","name":"アンジェリカ","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
     {"id":"つばめ","name":"つばめ","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
-    {"id":"禮和","name":"禮和","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","△","×"]},
+    {"id":"禮和","name":"禮和","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","△","△","×"]},
     {"id":"ぽけっとランドあびこ","name":"ぽけっとランドあびこ","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
     {"id":"天王台さくら","name":"天王台さくら","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
     {"id":"めばえの森","name":"めばえの森","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","△","×"]},

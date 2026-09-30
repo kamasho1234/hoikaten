@@ -2,12 +2,12 @@
   "municipalitySlug": "izunokuni",
   "municipalityName": "伊豆の国市",
   "prefecture": "静岡県",
-  "asOf": "2026-08-25",
-  "fetchedAt": "2026-09-29",
+  "asOf": "2026-09-29",
+  "fetchedAt": "2026-09-30",
   "sourceName": "伊豆の国市「保育園等の受入予定状況」",
   "sourceUrl": "https://www.city.izunokuni.shizuoka.jp/youji/manabi/hoikuen/index.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.izunokuni.shizuoka.jp/youji/manabi/hoikuen/documents/jyuugatuukeire.pdf"
+    "vacancy": "https://www.city.izunokuni.shizuoka.jp/youji/manabi/hoikuen/documents/11gatuukeire.pdf"
   },
   "metrics": [
     "symbol"
@@ -57,8 +57,8 @@
         null
       ],
       "symbols": [
-        "△",
         "×",
+        "△",
         "×",
         "×",
         "×",
@@ -189,7 +189,7 @@
         null
       ],
       "symbols": [
-        "○",
+        "△",
         "×",
         "×",
         "○",
@@ -234,7 +234,7 @@
       ],
       "symbols": [
         "×",
-        "×",
+        "△",
         "×",
         null,
         null,
