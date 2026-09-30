@@ -1,0 +1,157 @@
+{
+  "citySlug": "izumisano",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "泉佐野市「令和8年度認定こども園(保育部分)等児童入園受付」",
+    "url": "https://www.city.izumisano.lg.jp/kakuka/kodomo/kosodate/menu/hoikusho/hoikusyobosyuu.html"
+  },
+  "fiscalYear": "R8",
+  "guideRelease": "令和7年10月1日（水曜日）から申込用紙を配布。配布場所は各保育園・認定こども園（平日午前10時〜午後4時、土曜日10時〜正午。土曜日は事前に電話）と市役所子育て支援課（平日午前9時〜午後5時）",
+  "firstApply": "窓口は各保育園・認定こども園ごとに決められた受付日（10月18日（土曜日）から園ごとに1日ずつ、午前10時〜午後2時）に、原則第1希望の園で申し込む。その日に都合が悪い人は令和7年11月8日（土曜日）・9日（日曜日）に市役所で受付。電子申請（一次申込）は令和7年10月1日（水曜日）8時45分〜11月4日（火曜日）23時59分で、行く予定の入園受付日の4開庁日前までに申請が必要",
+  "applyMethods": "各保育園・認定こども園の受付日に、原則第1希望の園へ申し込む（予約制の園は事前に電話等で受付予約）。マイナポータルのぴったりサービスで電子申請もできるが、申込時点で未出生の児童、希望する園に市外の園を含む人、代表保護者が父母でない人は電子申請できない",
+  "secondApply": "電子申請の二次申込は令和7年11月5日（水曜日）0時00分〜令和8年2月3日（火曜日）23時59分、三次申込は令和8年2月4日（水曜日）0時00分〜令和8年3月3日（火曜日）23時59分",
+  "midYearDeadline": "年度途中の入園は、電子申請の場合、入園希望日が属する月の前月4日23時59分まで（育休制度があり育休から復帰する人は前々月4日まででも受け付け）。入園が決まった場合のみ、入園希望月の前月20日までに連絡がある",
+  "documents": [
+    "保育の必要性を証明する書類（就労証明書・医師の診断書・就学証明書・就労誓約書）。複数の児童を申し込む場合も1部でよい",
+    "保育園入園児童問診票",
+    "申込時点で出産予定の場合は出産予定日のわかるもの"
+  ],
+  "interview": "申込時に簡単な面接があるので、必ず児童同伴で行く。申込時点で4か月未満の児童は面接を行わない",
+  "ikukyu": "育児・介護休業法に基づく産後休暇・育児休業明けの人は、年度途中（令和8年5月〜令和9年3月）の入園希望も4月入園と同じ時期に申し込める。育児・介護休業法に基づかない産休・育休明けの人は年度途中の申込ができない",
+  "notes": [
+    "令和7年度に待機登録をしている人も、令和8年度の入園を希望するなら改めて新規申込が必要。転園希望も新規申込が必要",
+    "希望する園に泉佐野市外の園を含む場合は、その園の所在地の市町村の締切を確かめ、締切の10日前までに市役所子育て支援課保育係の窓口で紙の申請をする",
+    "0歳児で入園希望日時点で生後6か月を経過していないときは入園できない場合があるので、希望園の入所可能月齢を確かめる",
+    "希望月に入園できなかった場合は当該年度3月まで途中入園の利用調整対象になり、改めて申し込む必要はないが、次年度の申込みは改めて必要",
+    "例年10月初旬に次年度の申込用紙を配布し、10月中旬から11月中旬に受け付ける予定",
+    "利用調整（選考）基準は令和9年4月入所選考から一部変更される"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.izumisano.lg.jp/kakuka/kodomo/kosodate/menu/hoikusho/hoikusyobosyuu.html",
+      "quote": "令和8年4月入園の申込受付です。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.izumisano.lg.jp/kakuka/kodomo/kosodate/menu/hoikusho/hoikusyobosyuu.html",
+      "quote": "令和7年10月1日（水曜日）から"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.izumisano.lg.jp/kakuka/kodomo/kosodate/menu/hoikusho/hoikusyobosyuu.html",
+      "quote": "平日：午前10時～午後4時、土曜日：10時～正午"
+    },
+    "firstApply": {
+      "url": "https://www.city.izumisano.lg.jp/kakuka/kodomo/kosodate/menu/hoikusho/hoikusyobosyuu.html",
+      "quote": "令和7年10月1日（水曜日）8時45分から11月4日（火曜日）23時59分まで"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.izumisano.lg.jp/kakuka/kodomo/kosodate/menu/hoikusho/hoikusyobosyuu.html",
+      "quote": "受付日：令和7年11月8日（土曜日）、9日（日曜日）"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.izumisano.lg.jp/kakuka/kodomo/kosodate/menu/hoikusho/hoikusyobosyuu.html",
+      "quote": "（例）10月18日（土曜日）の入園受付日に行く場合は、10月14日（火曜日）23時59分までにオンライン申請が必要となります。"
+    },
+    "firstApply#4": {
+      "url": "https://www.city.izumisano.lg.jp/kakuka/kodomo/kosodate/menu/hoikusho/hoikusyobosyuu.html",
+      "quote": "※新規入園申込（一次申込）のオンライン申請では、入園受付日の4開庁日前までに申込が必要となります。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.izumisano.lg.jp/kakuka/kodomo/kosodate/menu/hoikusho/hoikusyobosyuu.html",
+      "quote": "原則第1希望の保育園・認定こども園で申込してください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.izumisano.lg.jp/kakuka/kodomo/kosodate/menu/hoikusho/hoikusyobosyuu.html",
+      "quote": "※予約制となっている園へ申込される場合、事前に電話等で受付予約をお願いします。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.izumisano.lg.jp/kakuka/kodomo/kosodate/menu/hoikusho/hoikusyobosyuu.html",
+      "quote": "保育園・認定こども園（保育所部門）入園申込について、マイナポータルのぴったりサービスを使ったオンライン手続（電子申請）が可能です。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.izumisano.lg.jp/kakuka/kodomo/kosodate/menu/hoikusho/hoikusyobosyuu.html",
+      "quote": "また、次の方はオンライン申請いただくことができませんので、ご注意ください。"
+    },
+    "secondApply": {
+      "url": "https://www.city.izumisano.lg.jp/kakuka/kodomo/kosodate/menu/hoikusho/hoikusyobosyuu.html",
+      "quote": "令和7年11月5日（水曜日）0時00分から令和8年2月3日（火曜日）23時59分まで"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.izumisano.lg.jp/kakuka/kodomo/kosodate/menu/hoikusho/hoikusyobosyuu.html",
+      "quote": "令和8年2月4日（水曜日）0時00分から令和8年3月3日（火曜日）23時59分まで"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.izumisano.lg.jp/kakuka/kodomo/kosodate/menu/hoikusho/hoikusyobosyuu.html",
+      "quote": "※ただし、育休制度が有り育休復帰の方は入園希望日が属する月の前々月4日まででも受け付けています。"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.izumisano.lg.jp/kakuka/kodomo/kosodate/menu/hoikusho/hoikusyobosyuu.html",
+      "quote": "年度途中の入園希望申込の場合は、入園希望月の前月20日までに、入園が決定した場合のみ連絡させていただきます。"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.izumisano.lg.jp/kakuka/kodomo/kosodate/menu/hoikusho/hoikusyobosyuu.html",
+      "quote": "入園希望日が属する月の前月4日23時59分まで"
+    },
+    "documents.0": {
+      "url": "https://www.city.izumisano.lg.jp/kakuka/kodomo/kosodate/menu/hoikusho/1513823050212.html",
+      "quote": "なお、複数の児童の入園申込を行う場合、就労証明書、医師の診断書、就学証明書、就労誓約書は1部の提出で構いません。"
+    },
+    "documents.1": {
+      "url": "https://www.city.izumisano.lg.jp/kakuka/kodomo/kosodate/menu/hoikusho/hoikusyobosyuu.html",
+      "quote": "添付書類（就労証明書、問診票等）は必ずデータで全て添付してください。"
+    },
+    "documents.2": {
+      "url": "https://www.city.izumisano.lg.jp/kakuka/kodomo/kosodate/menu/hoikusho/hoikusyobosyuu.html",
+      "quote": "3）申込時点で出産予定の場合も受付可能です。出産予定日のわかるものを持参してください。"
+    },
+    "interview": {
+      "url": "https://www.city.izumisano.lg.jp/kakuka/kodomo/kosodate/menu/hoikusho/hoikusyobosyuu.html",
+      "quote": "2）申込時に簡単な面接を行いますので、必ず児童同伴でお越しください。ただし、申込時点で4か月未満の児童については、面接は行いません。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.izumisano.lg.jp/kakuka/kodomo/kosodate/menu/hoikusho/hoikusyobosyuu.html",
+      "quote": "ただし、育児・介護休業法に基づかない産後休暇・育児休業明けの方については、年度途中（令和8年5月～令和9年3月）の申込受付はできません。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.izumisano.lg.jp/kakuka/kodomo/kosodate/menu/hoikusho/hoikusyobosyuu.html",
+      "quote": "育児・介護休業法に基づく産後休暇・育児休業明けの、年度途中（令和8年5月～令和9年3月）に入園希望の申込も受付します。"
+    },
+    "notes.0": {
+      "url": "https://www.city.izumisano.lg.jp/kakuka/kodomo/kosodate/menu/hoikusho/hoikusyobosyuu.html",
+      "quote": "1）令和7年度待機登録をしている方で令和8年度の入園を希望する方は、再度、新規申込が必要です。また、転園希望についても希望する保育園・認定こども園への新規申込が必要です。"
+    },
+    "notes.1": {
+      "url": "https://www.city.izumisano.lg.jp/kakuka/kodomo/kosodate/menu/hoikusho/hoikusyobosyuu.html",
+      "quote": "希望する園に泉佐野市外の園を含む方（※希望する園の所在地の市町村に締切をご確認いただき、その締切の10日前には泉佐野市役所子育て支援課保育係の窓口にて紙媒体で申請してください。）"
+    },
+    "notes.2": {
+      "url": "https://www.city.izumisano.lg.jp/kakuka/kodomo/kosodate/menu/hoikusho/hoikusyobosyuu.html",
+      "quote": "0歳児(令和7年4月2日以降の出生児）で入園希望日時点の月齢が生後6ヶ月を経過していない時は、入園できない場合があります。希望保育園の入所可能月齢をご確認ください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.izumisano.lg.jp/kakuka/kodomo/kosodate/menu/hoikusho/hoikusyobosyuu.html",
+      "quote": "希望月に入園いただけない場合、当該年度3月まで途中入園の利用調整対象となりますので、改めて申込みいただく必要はありません。ただし、次年度の申込みは改めて必要です。"
+    },
+    "notes.4": {
+      "url": "https://www.city.izumisano.lg.jp/kakuka/kodomo/kosodate/menu/hoikusho/hoikusyobosyuu.html",
+      "quote": "例年10月初旬に次年度申込用紙の配布、10月中旬から11月中旬に受付予定です。"
+    },
+    "notes.5": {
+      "url": "https://www.city.izumisano.lg.jp/kakuka/kodomo/kosodate/menu/hoikusho/1596012030245.html",
+      "quote": "利用調整（選考）基準を令和9年4月入所選考より下記のとおり変更します。"
+    }
+  },
+  "sources": [
+    {
+      "label": "泉佐野市「令和8年度認定こども園(保育部分)等児童入園受付」",
+      "url": "https://www.city.izumisano.lg.jp/kakuka/kodomo/kosodate/menu/hoikusho/hoikusyobosyuu.html"
+    },
+    {
+      "label": "泉佐野市「各種証明書（就労証明書・医師の診断書・就学証明書・就労誓約書）、保育園入園児童問診票」",
+      "url": "https://www.city.izumisano.lg.jp/kakuka/kodomo/kosodate/menu/hoikusho/1513823050212.html"
+    },
+    {
+      "label": "泉佐野市「認定こども園等の利用調整(選考)基準について」",
+      "url": "https://www.city.izumisano.lg.jp/kakuka/kodomo/kosodate/menu/hoikusho/1596012030245.html"
+    }
+  ]
+}

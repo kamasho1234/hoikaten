@@ -190,6 +190,7 @@ def to_text(body):
 
 def norm(s):
     s = unicodedata.normalize("NFKC", s)
+    s = s.replace("條", "条")  # 四條畷市の公式ページは旧字で、データは「四条畷市」
     return re.sub(r"\s+", "", s)
 
 

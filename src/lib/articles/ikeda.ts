@@ -3,60 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "ikeda",
-    title: "池田市の保活スケジュール　申込から内定までの流れ",
-    description:
-      "池田市の認可保育園の申込時期・選考の流れをまとめました。令和8年度4月入園の動き方を解説します。",
-    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>池田市の4月入園スケジュール</h2>
-<p>池田市の認可保育園は毎年秋に翌年度4月入園の一斉申込を受付けます。子ども・健康部子育て支援課が窓口です。</p>
-
-<h3>保活の全体スケジュール</h3>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content">
-<strong>4月〜6月：情報収集</strong>
-<p>市のホームページで保育園の一覧や空き状況を確認します。池田市には認可保育園が約15か所あります。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content">
-<strong>6月〜9月：保育園見学</strong>
-<p>気になる園に連絡して見学を予約しましょう。阪急宝塚線沿線の園は人気があります。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content">
-<strong>9月〜10月：利用案内の入手・書類準備</strong>
-<p>就労証明書などの必要書類を準備します。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content">
-<strong>10月〜11月：申込書類の提出</strong>
-<p>子育て支援課の窓口で提出します。</p>
-</div>
-</div>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>池田市は基準指数が父母各最大20点（合計40点満点）です。フルタイム共働きで40点が出発点になります。</p>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.ikeda.osaka.jp/soshiki/kodomo/youjihoiku/hoikusyoto/index.html" target="_blank" rel="noopener">池田市公式サイト</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-04-07",
-    popularity: 55,
-  },
-  {
     slug: "scoring-system-guide",
     citySlug: "ikeda",
     title: "池田市の入園点数のしくみ　基準指数と調整指数を解説",

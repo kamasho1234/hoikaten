@@ -18,6 +18,7 @@ import chikushino from "./chikushino.json";
 import chiyoda from "./chiyoda.json";
 import chofu from "./chofu.json";
 import chuo from "./chuo.json";
+import daito from "./daito.json";
 import edogawa from "./edogawa.json";
 import fuchu from "./fuchu.json";
 import fuji from "./fuji.json";
@@ -30,6 +31,7 @@ import fukushima from "./fukushima.json";
 import fukuyama from "./fukuyama.json";
 import funabashi from "./funabashi.json";
 import gifu from "./gifu.json";
+import habikino from "./habikino.json";
 import hachioji from "./hachioji.json";
 import hakodate from "./hakodate.json";
 import hamamatsu from "./hamamatsu.json";
@@ -47,19 +49,23 @@ import hitachinaka from "./hitachinaka.json";
 import ibaraki from "./ibaraki.json";
 import ichikawa from "./ichikawa.json";
 import ichinomiya from "./ichinomiya.json";
+import ikeda from "./ikeda.json";
 import isesaki from "./isesaki.json";
 import itabashi from "./itabashi.json";
 import itami from "./itami.json";
 import iwaki from "./iwaki.json";
 import izumi from "./izumi.json";
+import izumisano from "./izumisano.json";
 import joetsu from "./joetsu.json";
 import kagoshima from "./kagoshima.json";
 import kakogawa from "./kakogawa.json";
 import kamakura from "./kamakura.json";
 import kanazawa from "./kanazawa.json";
 import kashiwa from "./kashiwa.json";
+import kashiwara from "./kashiwara.json";
 import kasugai from "./kasugai.json";
 import kasukabe from "./kasukabe.json";
+import katano from "./katano.json";
 import katsushika from "./katsushika.json";
 import kawagoe from "./kawagoe.json";
 import kawaguchi from "./kawaguchi.json";
@@ -84,6 +90,7 @@ import kusatsu from "./kusatsu.json";
 import kyoto from "./kyoto.json";
 import machida from "./machida.json";
 import maebashi from "./maebashi.json";
+import matsubara from "./matsubara.json";
 import matsudo from "./matsudo.json";
 import matsue from "./matsue.json";
 import matsumoto from "./matsumoto.json";
@@ -141,6 +148,7 @@ import sendai from "./sendai.json";
 import setagaya from "./setagaya.json";
 import settsu from "./settsu.json";
 import shibuya from "./shibuya.json";
+import shijonawate from "./shijonawate.json";
 import shimonoseki from "./shimonoseki.json";
 import shinagawa from "./shinagawa.json";
 import shinjuku from "./shinjuku.json";
@@ -158,6 +166,7 @@ import takatsuki from "./takatsuki.json";
 import tochigiCity from "./tochigi-city.json";
 import tokorozawa from "./tokorozawa.json";
 import tokushima from "./tokushima.json";
+import tondabayashi from "./tondabayashi.json";
 import toride from "./toride.json";
 import toshima from "./toshima.json";
 import tottori from "./tottori.json";
@@ -200,6 +209,7 @@ export const hokatsuRecords: HokatsuRecord[] = [
   chiyoda as HokatsuRecord,
   chofu as HokatsuRecord,
   chuo as HokatsuRecord,
+  daito as HokatsuRecord,
   edogawa as HokatsuRecord,
   fuchu as HokatsuRecord,
   fuji as HokatsuRecord,
@@ -212,6 +222,7 @@ export const hokatsuRecords: HokatsuRecord[] = [
   fukuyama as HokatsuRecord,
   funabashi as HokatsuRecord,
   gifu as HokatsuRecord,
+  habikino as HokatsuRecord,
   hachioji as HokatsuRecord,
   hakodate as HokatsuRecord,
   hamamatsu as HokatsuRecord,
@@ -229,19 +240,23 @@ export const hokatsuRecords: HokatsuRecord[] = [
   ibaraki as HokatsuRecord,
   ichikawa as HokatsuRecord,
   ichinomiya as HokatsuRecord,
+  ikeda as HokatsuRecord,
   isesaki as HokatsuRecord,
   itabashi as HokatsuRecord,
   itami as HokatsuRecord,
   iwaki as HokatsuRecord,
   izumi as HokatsuRecord,
+  izumisano as HokatsuRecord,
   joetsu as HokatsuRecord,
   kagoshima as HokatsuRecord,
   kakogawa as HokatsuRecord,
   kamakura as HokatsuRecord,
   kanazawa as HokatsuRecord,
   kashiwa as HokatsuRecord,
+  kashiwara as HokatsuRecord,
   kasugai as HokatsuRecord,
   kasukabe as HokatsuRecord,
+  katano as HokatsuRecord,
   katsushika as HokatsuRecord,
   kawagoe as HokatsuRecord,
   kawaguchi as HokatsuRecord,
@@ -266,6 +281,7 @@ export const hokatsuRecords: HokatsuRecord[] = [
   kyoto as HokatsuRecord,
   machida as HokatsuRecord,
   maebashi as HokatsuRecord,
+  matsubara as HokatsuRecord,
   matsudo as HokatsuRecord,
   matsue as HokatsuRecord,
   matsumoto as HokatsuRecord,
@@ -323,6 +339,7 @@ export const hokatsuRecords: HokatsuRecord[] = [
   setagaya as HokatsuRecord,
   settsu as HokatsuRecord,
   shibuya as HokatsuRecord,
+  shijonawate as HokatsuRecord,
   shimonoseki as HokatsuRecord,
   shinagawa as HokatsuRecord,
   shinjuku as HokatsuRecord,
@@ -340,6 +357,7 @@ export const hokatsuRecords: HokatsuRecord[] = [
   tochigiCity as HokatsuRecord,
   tokorozawa as HokatsuRecord,
   tokushima as HokatsuRecord,
+  tondabayashi as HokatsuRecord,
   toride as HokatsuRecord,
   toshima as HokatsuRecord,
   tottori as HokatsuRecord,

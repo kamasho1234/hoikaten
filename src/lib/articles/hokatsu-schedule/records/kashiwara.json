@@ -1,0 +1,177 @@
+{
+  "citySlug": "kashiwara",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "柏原市「令和9年4月からの保育所、認定こども園（保育所部分）等の利用申込み」",
+    "url": "https://www.city.kashiwara.lg.jp/docs/2017092200025/"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年10月1日（木）から申込書を配布。配布場所は市内の公立保育所・民間保育園・認定こども園・小規模保育事業所、各子育て支援施設、国分出張所、市役所こども施設課（窓口24番）。様式は市ホームページからダウンロードもできる",
+  "firstApply": "一次選考は令和8年11月2日（月）〜11月17日（火）の平日のみ、9時15分〜16時30分（11時45分〜13時を除く）。受付は事前予約制",
+  "applyMethods": "市役所こども施設課（窓口24番）の窓口で申し込む。4月入所の一次選考は予約フォームからの事前予約が必要（予約期間は10月1日〜11月16日）。二次選考以降と年度途中入所の申込は予約不要で開庁時間内に来庁する",
+  "firstResult": "2月上旬頃に郵送で結果を通知",
+  "secondApply": "二次選考は令和8年11月18日（水）〜令和9年2月12日（金）の平日のみ。予約不要",
+  "secondResult": "3月上旬頃に郵送で結果を通知",
+  "midYearDeadline": "入所希望月の前月10日（土日祝の場合は翌開庁日）が提出期限",
+  "documents": [
+    "教育・保育給付認定申請書兼保育利用申込書（児童1人につき1部。世帯全員のマイナンバーの記載が必要）",
+    "就労証明書（令和8年10月1日以降に証明を受けたもの）",
+    "現況届出書（令和8年10月1日以降に記入したもの）",
+    "提出書類チェックリスト（申請書兼申込書と必ず一緒に提出）",
+    "受付当日は保育利用申込書一式・顔写真付き身分証明書・マイナンバーカード・母子手帳を持参"
+  ],
+  "interview": "受付は利用を希望する児童と一緒に来庁する。内定施設での入園説明会・入園前面接は、一次選考の内定者は3月上旬頃（施設によって異なる）",
+  "ikukyu": "入所申込の結果待機となった場合は保留通知書を発行するが、内定を辞退した選考については発行しない。申込期限を過ぎた月は後から申込を受け付けず、保留通知書も発行できない。育児休業給付金等の手続きに使う申込書類の写しは、市へ提出する前に自分でコピーしておく",
+  "notes": [
+    "一次・二次のあとに最終選考があり、申込期間は令和9年2月15日（月）〜3月10日（水）の平日のみ",
+    "年度内に限り、一度の申込で毎月継続して選考される（翌4月以降は新たに申込が必要）",
+    "希望施設の数は利用調整の有利不利に影響しないので、通える範囲で複数の施設を希望することが勧められている",
+    "入所月に生後3か月を経過している・首がすわっている・哺乳瓶からミルクが飲めるの3点が必要",
+    "申込期間を過ぎた受付は次の選考の対象になる（一次選考の期間に間に合わなければ二次選考以降の対象）",
+    "就労証明書は受け取りまでに時間がかかることがあるので、前もって作成を依頼する"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.kashiwara.lg.jp/docs/2017092200025/",
+      "quote": "保育所・保育園、認定こども園（保育所部分）、小規模保育事業所を令和９年４月から利用希望される場合のお申込み方法です。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.kashiwara.lg.jp/docs/2017092200025/",
+      "quote": "配布開始日：令和８年１０月１日（木）～"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.kashiwara.lg.jp/docs/2017092200025/",
+      "quote": "配布場所　：市内の公立保育所、民間保育園、認定こども園、小規模保育事業所、各子育て支援施設、国分出張所、市役所こども施設課（窓口２４番）"
+    },
+    "guideRelease#3": {
+      "url": "https://www.city.kashiwara.lg.jp/docs/2017092200025/",
+      "quote": "各自ダウンロードしてお使いください。"
+    },
+    "firstApply": {
+      "url": "https://www.city.kashiwara.lg.jp/docs/2017092200025/",
+      "quote": "期間：令和８年１１月２日（月）～令和８年１１月１７日（火）（平日のみ）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.kashiwara.lg.jp/docs/2017092200025/",
+      "quote": "時間：９：１５～１６：３０（１１：４５～１３：００を除く）"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.kashiwara.lg.jp/docs/2017092200025/",
+      "quote": "予約：申込受付には事前予約が必要になります。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.kashiwara.lg.jp/docs/2017092200025/",
+      "quote": "場所：市役所こども施設課（窓口２４番）"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.kashiwara.lg.jp/docs/2017092200025/file_contents/file_202691639926_1.pdf",
+      "quote": "４月入所の二次選考以降の申込や、年度途中入所の申込については予約制ではありませんので開庁時間内にご来庁ください。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.kashiwara.lg.jp/docs/2017092200025/file_contents/file_202691639926_1.pdf",
+      "quote": "予約期間 10 月 1 日(木)～11 月 16 日(月)"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.kashiwara.lg.jp/docs/2017092200025/file_contents/file_202691639926_1.pdf",
+      "quote": "予約フォームから申込日の予約を行ってください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.kashiwara.lg.jp/docs/2017092200025/file_contents/file_202691639926_1.pdf",
+      "quote": "【一次選考】２月上旬頃（郵送） 【二次選考】３月上旬頃（郵送） 【最終選考】３月中旬頃（内定者のみ電話連絡）"
+    },
+    "secondApply": {
+      "url": "https://www.city.kashiwara.lg.jp/docs/2017092200025/",
+      "quote": "期間：令和８年１１月１８日（水）～令和９年２月１２日（金）（平日のみ）"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.kashiwara.lg.jp/docs/2017092200025/",
+      "quote": "予約：予約不要（随時窓口にて受付）"
+    },
+    "secondResult": {
+      "url": "https://www.city.kashiwara.lg.jp/docs/2017092200025/file_contents/file_202691639926_1.pdf",
+      "quote": "【一次選考】２月上旬頃（郵送） 【二次選考】３月上旬頃（郵送） 【最終選考】３月中旬頃（内定者のみ電話連絡）"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.kashiwara.lg.jp/docs/2017092200025/file_contents/file_202691639926_1.pdf",
+      "quote": "年度途中の申込の場合は、入所希望月の前月10日（土日祝の場合は翌開庁日）が提出期限です。"
+    },
+    "documents.0": {
+      "url": "https://www.city.kashiwara.lg.jp/docs/2017092200025/file_contents/file_202691639926_1.pdf",
+      "quote": "児童１人につき、１部必要です。世帯全員のマイナンバーの記載が必要です。"
+    },
+    "documents.1": {
+      "url": "https://www.city.kashiwara.lg.jp/docs/2017092200025/",
+      "quote": "令和8年10月1日以降に証明を受けたものをご提出ください。"
+    },
+    "documents.2": {
+      "url": "https://www.city.kashiwara.lg.jp/docs/2017092200025/",
+      "quote": "令和8年10月1日以降に記入されたものをご提出ください。"
+    },
+    "documents.3": {
+      "url": "https://www.city.kashiwara.lg.jp/docs/2017092200025/",
+      "quote": "教育・保育給付認定申請書兼保育利用申込書を提出する際は必ず一緒にご提出ください。"
+    },
+    "documents.4": {
+      "url": "https://www.city.kashiwara.lg.jp/docs/2017092200025/",
+      "quote": "当日、「保育利用申込書一式」「顔写真付き身分証明書」「マイナンバーカード」「母子手帳」をご持参ください。"
+    },
+    "interview": {
+      "url": "https://www.city.kashiwara.lg.jp/docs/2017092200025/",
+      "quote": "下記の日程で受付を行いますので、利用を希望している児童と一緒にお越しください。"
+    },
+    "interview#2": {
+      "url": "https://www.city.kashiwara.lg.jp/docs/2017092200025/file_contents/file_202691639926_1.pdf",
+      "quote": "【一次選考】3月上旬頃（施設によって異なる） 【年度途中の入所】前月末までに個別に日程調整"
+    },
+    "ikukyu": {
+      "url": "https://www.city.kashiwara.lg.jp/docs/2017092200025/file_contents/file_202691639926_1.pdf",
+      "quote": "入所申込の結果待機となった場合は保留通知書を発行しますが、内定を辞退した選考については発行できません。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.kashiwara.lg.jp/docs/2017092200025/file_contents/file_202691639926_1.pdf",
+      "quote": "また、申込期限を過ぎた月について後から入所申込を受付することはできず、保留通知書の発行もできませんので、前もって手続きの準備を進めてください。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.kashiwara.lg.jp/docs/2020061000014/",
+      "quote": "また、育児休業給付金等の手続きには入所申込で提出した書類の写しも必要となりますので、市へ提出する前にご自身でコピーしておいてください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.kashiwara.lg.jp/docs/2017092200025/",
+      "quote": "期間：令和９年２月１５日（月）～令和９年３月１０日（水）（平日のみ）"
+    },
+    "notes.1": {
+      "url": "https://www.city.kashiwara.lg.jp/docs/2017092200025/file_contents/file_202691639926_1.pdf",
+      "quote": "年度内に限り、一度の申込で毎月継続して選考することが可能です。"
+    },
+    "notes.2": {
+      "url": "https://www.city.kashiwara.lg.jp/docs/2017092200025/file_contents/file_202691639926_1.pdf",
+      "quote": "希望施設の数は利用調整の有利不利に一切影響しません。"
+    },
+    "notes.3": {
+      "url": "https://www.city.kashiwara.lg.jp/docs/2017092200025/file_contents/file_202691639926_1.pdf",
+      "quote": "入所月に「生後 3 か月を経過している」「首がすわっている」「哺乳瓶からミルクが飲める」という 3 点が必要です。"
+    },
+    "notes.4": {
+      "url": "https://www.city.kashiwara.lg.jp/docs/2017092200025/file_contents/file_202691639926_1.pdf",
+      "quote": "たとえば、一次選考の申込期間内に手続きができなかった場合は、二次選考以降の選考の対象となります。"
+    },
+    "notes.5": {
+      "url": "https://www.city.kashiwara.lg.jp/docs/2017092200025/file_contents/file_202691639926_1.pdf",
+      "quote": "就労証明書は受け取りまでに時間を要する場合もありますので、前もって作成を依頼してください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "柏原市「令和9年4月からの保育所、認定こども園（保育所部分）等の利用申込み」",
+      "url": "https://www.city.kashiwara.lg.jp/docs/2017092200025/"
+    },
+    {
+      "label": "柏原市「令和９年度保育所等利用案内」（PDF）",
+      "url": "https://www.city.kashiwara.lg.jp/docs/2017092200025/file_contents/file_202691639926_1.pdf"
+    },
+    {
+      "label": "柏原市「保育利用保留通知書」",
+      "url": "https://www.city.kashiwara.lg.jp/docs/2020061000014/"
+    }
+  ]
+}

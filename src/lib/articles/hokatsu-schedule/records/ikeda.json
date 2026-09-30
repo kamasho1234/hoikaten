@@ -1,0 +1,105 @@
+{
+  "citySlug": "ikeda",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "池田市「令和9年度保育所等入所・転所申込」",
+    "url": "https://www.city.ikeda.osaka.jp/soshiki/kodomo/youjihoiku/hoikusyoto/hoikushotou/21528.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "一次利用調整申込は令和8年11月2日（月曜日）〜令和8年11月30日（月曜日）に市役所窓口で受付",
+  "applyMethods": "必要書類をすべてそろえて、受付期間中に幼児保育課（市役所4階14番窓口）に提出する。受付時間は午前9時から午後5時まで",
+  "secondApply": "申込期間後に生まれる人など期間中に申込ができない人は、令和9年1月29日（金曜日）までを2次募集として受付（詳細は後日掲載）",
+  "midYearDeadline": "市役所窓口では入所希望日の2か月前から前月の5日まで（5日が土日祝の場合は直前の平日）",
+  "ikukyu": "育児休業等の延長を希望する場合は、子どもが1歳に達する日（1歳の誕生日の前日）までの保育所入所を希望する必要がある。育休中の人が復職せずに新たに保育所等を利用することはできない",
+  "notes": [
+    "申込は先着順ではなく、期間中いつ申し込んでも利用調整に影響はない",
+    "受付期間を過ぎた提出や、提出書類・記載内容に不備がある場合は受付を行わない",
+    "令和9年度の申込書類と保育施設入所ガイドは10月下旬頃に配布予定",
+    "令和9年4月の入所申込を考えている人向けに、利用調整スケジュールや必要書類の説明会を実施する。申込み希望日の前々日までに予約が必要",
+    "育休中の人が下の子を入所させる場合、保育所等入所月の末日までに育休から復職し、復職した日から2週間以内に勤務先の復職証明書を出す"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.ikeda.osaka.jp/soshiki/kodomo/youjihoiku/hoikusyoto/hoikushotou/21528.html",
+      "quote": "令和9年度の保育所等入所申込み書類と、保育施設入所ガイドは10月下旬頃配布予定です。"
+    },
+    "fiscalYear#2": {
+      "url": "https://www.city.ikeda.osaka.jp/soshiki/kodomo/youjihoiku/oshirase/21422.html",
+      "quote": "令和9年4月保育所等入所申込みを検討している方向けに、利用調整スケジュールや必要書類についての説明会を実施します。"
+    },
+    "firstApply": {
+      "url": "https://www.city.ikeda.osaka.jp/soshiki/kodomo/youjihoiku/hoikusyoto/hoikushotou/21528.html",
+      "quote": "受付期間：令和8年11月2日（月曜日）から令和8年11月30日（月曜日）まで"
+    },
+    "applyMethods": {
+      "url": "https://www.city.ikeda.osaka.jp/soshiki/kodomo/youjihoiku/hoikusyoto/hoikushotou/21528.html",
+      "quote": "必要書類がすべてそろった状態で、上記期間中に幼児保育課（市役所4階14番窓口）にご提出ください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.ikeda.osaka.jp/soshiki/kodomo/youjihoiku/hoikusyoto/hoikushotou/21528.html",
+      "quote": "受付時間：午前9時から午後5時まで"
+    },
+    "secondApply": {
+      "url": "https://www.city.ikeda.osaka.jp/soshiki/kodomo/youjihoiku/hoikusyoto/hoikushotou/21528.html",
+      "quote": "（注）申込期間後に生まれる方など、期間中に申込ができない方は、令和9年1月29日（金曜日）までを2次募集として受付ます。詳細は後日掲載します。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.ikeda.osaka.jp/soshiki/kodomo/youjihoiku/hoikusyoto/hoikushotou/20122.html",
+      "quote": "受付期間：入所希望日の2か月前から前月の5日まで (5日が土日祝の場合、直前の平日）"
+    },
+    "ikukyu": {
+      "url": "https://www.city.ikeda.osaka.jp/soshiki/kodomo/youjihoiku/hoikusyoto/hoikushotou/1415933399185.html",
+      "quote": "育児休業等の延長を希望される場合、児童が1歳に達する日（1歳の誕生日の前日）までの保育所入所を希望する必要があります。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.ikeda.osaka.jp/soshiki/kodomo/youjihoiku/hoikusyoto/hoikushotou/1415933399185.html",
+      "quote": "育児休業を取得中の方が、復職等をせずに、新たに保育所等を利用又は転所することはできません。"
+    },
+    "notes.0": {
+      "url": "https://www.city.ikeda.osaka.jp/soshiki/kodomo/youjihoiku/hoikusyoto/hoikushotou/21528.html",
+      "quote": "お申込は先着順ではありませんので、期間中いつお申込いただいても、利用調整に影響はありません。"
+    },
+    "notes.1": {
+      "url": "https://www.city.ikeda.osaka.jp/soshiki/kodomo/youjihoiku/hoikusyoto/hoikushotou/21528.html",
+      "quote": "受付期間を過ぎてのご提出や、提出書類及び記載内容に不備がある場合は、受付を行いませんので予めご了承ください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.ikeda.osaka.jp/soshiki/kodomo/youjihoiku/hoikusyoto/hoikushotou/21528.html",
+      "quote": "令和9年度の保育所等入所申込み書類と、保育施設入所ガイドは10月下旬頃配布予定です。"
+    },
+    "notes.3": {
+      "url": "https://www.city.ikeda.osaka.jp/soshiki/kodomo/youjihoiku/oshirase/21422.html",
+      "quote": "令和9年4月保育所等入所申込みを検討している方向けに、利用調整スケジュールや必要書類についての説明会を実施します。"
+    },
+    "notes.3#2": {
+      "url": "https://www.city.ikeda.osaka.jp/soshiki/kodomo/youjihoiku/oshirase/21422.html",
+      "quote": "申込み希望日の前々日までに、こちらから予約をお願いします。"
+    },
+    "notes.4": {
+      "url": "https://www.city.ikeda.osaka.jp/soshiki/kodomo/youjihoiku/hoikusyoto/hoikushotou/1415933399185.html",
+      "quote": "育児休業を取得されている方が、下の子を保育所等に入所させる場合、保育所等入所月の末日までに育児休業から復職いただきますよう、お願いします。"
+    },
+    "notes.4#2": {
+      "url": "https://www.city.ikeda.osaka.jp/soshiki/kodomo/youjihoiku/hoikusyoto/hoikushotou/1415933399185.html",
+      "quote": "復職した日から2週間以内に復職証明書の提出が必要です。（勤務先の証明）"
+    }
+  },
+  "sources": [
+    {
+      "label": "池田市「令和9年度保育所等入所・転所申込」",
+      "url": "https://www.city.ikeda.osaka.jp/soshiki/kodomo/youjihoiku/hoikusyoto/hoikushotou/21528.html"
+    },
+    {
+      "label": "池田市「令和9年4月保育所等入所申込についての説明会を実施します！」",
+      "url": "https://www.city.ikeda.osaka.jp/soshiki/kodomo/youjihoiku/oshirase/21422.html"
+    },
+    {
+      "label": "池田市「令和8年度保育所等入所・転所申込」",
+      "url": "https://www.city.ikeda.osaka.jp/soshiki/kodomo/youjihoiku/hoikusyoto/hoikushotou/20122.html"
+    },
+    {
+      "label": "池田市「入所の流れ」",
+      "url": "https://www.city.ikeda.osaka.jp/soshiki/kodomo/youjihoiku/hoikusyoto/hoikushotou/1415933399185.html"
+    }
+  ]
+}

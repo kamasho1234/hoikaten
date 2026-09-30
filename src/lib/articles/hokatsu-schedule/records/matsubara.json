@@ -1,0 +1,171 @@
+{
+  "citySlug": "matsubara",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "松原市「保育の利用申込について」",
+    "url": "https://www.city.matsubara.lg.jp/docs/page2525.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年10月1日（木曜日）から松原市役所1階子ども施設課で入所申込書を配布。4月入所の申請書類は市ホームページからもダウンロードできる",
+  "firstApply": "令和8年11月2日（月曜日）〜11月13日（金曜日）（1次選考）。郵送は締切日の11月13日（金曜日）の消印有効。土日祝日は11月8日（日曜日）のみ受付",
+  "applyMethods": "松原市役所1階子ども施設課の窓口（午前9時〜午後4時30分）か郵送（〒580-8501 松原市阿保1丁目1番1号 子ども施設課入所係あて）。窓口は事前予約サイトで予約でき、予約受付は10月19日（月曜日）正午から。電話での予約はできない",
+  "firstResult": "令和9年1月より順次通知。4月利用の場合、利用できないときは保留通知を送付",
+  "midYearDeadline": "令和9年度5月以降の入所は、令和9年4月1日から入所希望月の前月10日までの平日に受付（10日が土日祝日の場合はその前の平日が締切）。年度途中の申請は郵送受付を行わない予定",
+  "documents": [
+    "子どものための教育・保育給付認定申請書兼子育てのための施設等利用給付認定申請書（申込児童それぞれに必要）",
+    "保育所等における保育の利用申込書（申込児童それぞれに必要）",
+    "保育の必要な事由の証明書（保護者は必ず必要。同居の18歳以上65歳未満の人も該当すれば提出。就労は就労証明書で、月64時間以上の就労が必要。内定の証明でも受付可）",
+    "保護者と申込児童のマイナンバーの分かるもの（郵送の場合は不要）",
+    "ひとり親であることが確認できる書類（児童扶養手当証書、ひとり親医療証、戸籍謄本等。対象者のみ）",
+    "令和8年1月2日以降に松原市に転入し、利用希望月が令和9年4月〜8月の人は令和8年度住民税課税証明書"
+  ],
+  "interview": "利用前に施設との面談がある（詳細は施設による）。希望園は見学したうえで決めるよう案内されている",
+  "notes": [
+    "令和9年4月からの利用は郵送受付ができ、受付期間は窓口が大変混雑すると予想されるため、できる限り郵送での申込みへの協力が求められている",
+    "郵送で書類に不備がある場合は電話連絡のうえ来庁して訂正する必要があり、不備がなくなった時点で受付完了。簡易書留など追跡できる方法での郵送が勧められている",
+    "療育手帳を持っているなど保育に配慮が必要な子どもの申込期間は令和8年10月8日（木曜日）〜10月16日（金曜日）",
+    "受付期間終了後も受け付けるが、期間内に申し込んだ人を優先して利用調整する",
+    "4月入所希望に限り出生前の子どもの申込みができるが、一部の施設を除き1月2日以降に生まれた場合は4月入所の対象外",
+    "鉛筆や消えるボールペンで記入した書類は受け付けできない"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.matsubara.lg.jp/docs/page2525.html",
+      "quote": "令和9年度4月利用申し込みについては郵送での受付を可能とします。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.matsubara.lg.jp/docs/page2525.html",
+      "quote": "令和8年10月1日（木曜日）から松原市役所1階子ども施設課で配布開始です。"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.matsubara.lg.jp/docs/page2525.html",
+      "quote": "なお、令和9年度4月入所申請書類は下記リンクからダウンロードできます。"
+    },
+    "firstApply": {
+      "url": "https://www.city.matsubara.lg.jp/docs/page2525.html",
+      "quote": "令和8年11月2日（月曜日）から令和8年11月13日（金曜日）まで （郵送の場合は、締切日（令和8年11月13日（金曜日））の消印有効です。）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.matsubara.lg.jp/docs/page2525.html",
+      "quote": "(注意)土・日・祝日は11月8日（日曜日）のみ受け付けしています。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.matsubara.lg.jp/docs/page2525.html",
+      "quote": "待ち時間短縮のため、利用申込にかかる受付の事前予約（10月19日（月曜日）正午から受付開始）を実施します。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.matsubara.lg.jp/docs/page2525.html",
+      "quote": "送付先：〒580-8501 大阪府松原市阿保1丁目1番1号 松原市福祉部子ども未来室 子ども施設課入所係"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.matsubara.lg.jp/docs/page2525.html",
+      "quote": "受付時間 午前9時から午後4時30分 受付場所 松原市役所1階 子ども施設課"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.matsubara.lg.jp/docs/page2525.html",
+      "quote": "なお、事前予約は電話による受付は行っていませんので、以下の「事前予約サイト」から申し込みをお願いします。"
+    },
+    "firstResult": {
+      "url": "https://www.city.matsubara.lg.jp/fs/3/6/0/3/1/2/_/__9_____________.pdf",
+      "quote": "令和８年１１月１３日(金) 令和９年１月より順次通知"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.matsubara.lg.jp/fs/3/6/0/3/1/2/_/__9_____________.pdf",
+      "quote": "4月利用の場合、保留通知を送付します。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.matsubara.lg.jp/docs/page2525.html",
+      "quote": "受付期間（令和9年度5月以降入所） 令和9年4月1日から前月10日までの平日 (注意)前月10日が土・日・祝日の場合は10日までの平日が締め切りとなります。 (注意)令和9年度途中の申請については、郵送受付は行わない予定です。"
+    },
+    "documents.0": {
+      "url": "https://www.city.matsubara.lg.jp/fs/3/6/0/3/1/2/_/__9_____________.pdf",
+      "quote": "① 子どものための教育・保育給付認定申請書兼子育てのための施設等利用給付認定申請書 （申込児童それぞれに必要）"
+    },
+    "documents.1": {
+      "url": "https://www.city.matsubara.lg.jp/fs/3/6/0/3/1/2/_/__9_____________.pdf",
+      "quote": "② 保育所等における保育の利用申込書（申込児童それぞれに必要）"
+    },
+    "documents.2": {
+      "url": "https://www.city.matsubara.lg.jp/docs/page2525.html",
+      "quote": "保護者の方は必ず必要です。また、同居（世帯分離含む18歳以上65歳未満）の方で、下の表のいずれかに該当する方は各書類を提出してください。"
+    },
+    "documents.2#2": {
+      "url": "https://www.city.matsubara.lg.jp/fs/3/6/0/3/1/2/_/__9_____________.pdf",
+      "quote": "・就労証明書（※月64時間以上就労している必要があります。）"
+    },
+    "documents.2#3": {
+      "url": "https://www.city.matsubara.lg.jp/fs/3/6/0/3/1/2/_/__9_____________.pdf",
+      "quote": "※勤務する事が内定している証明でも受け付けできます。"
+    },
+    "documents.3": {
+      "url": "https://www.city.matsubara.lg.jp/docs/page2525.html",
+      "quote": "保護者及び申込児童の下記1・2・3のいずれかの書類が必要です。 （郵送の場合は漏洩防止のため不要です。）"
+    },
+    "documents.4": {
+      "url": "https://www.city.matsubara.lg.jp/docs/page2525.html",
+      "quote": "5.ひとり親であることが確認できる書類（児童扶養手当証書やひとり親医療証、戸籍謄本等） 対象の方のみ必要です。"
+    },
+    "documents.5": {
+      "url": "https://www.city.matsubara.lg.jp/docs/page4848.html",
+      "quote": "令和8年1月2日以降に松原市に転入され、利用希望月が令和9年4月～同年8月の方 令和8年度住民税課税証明書（令和8年1月1日の居住地の市区町村が発行するもの）"
+    },
+    "interview": {
+      "url": "https://www.city.matsubara.lg.jp/fs/3/6/0/3/1/2/_/__9_____________.pdf",
+      "quote": "利用前に施設との面談があります。詳細は施設によります。"
+    },
+    "interview#2": {
+      "url": "https://www.city.matsubara.lg.jp/fs/3/6/0/3/1/2/_/__9_____________.pdf",
+      "quote": "市役所子ども施設課で受け付けます。※希望園は見学のうえ、お決めください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.matsubara.lg.jp/fs/3/6/0/3/1/2/_/__9_____________.pdf",
+      "quote": "※令和９年４月からの利用については、郵送受付可（受付期間は大変混雑することが予"
+    },
+    "notes.0#2": {
+      "url": "https://www.city.matsubara.lg.jp/fs/3/6/0/3/1/2/_/__9_____________.pdf",
+      "quote": "できる限り郵送でのお申込みにご協力ください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.matsubara.lg.jp/docs/page2525.html",
+      "quote": "記入漏れ等申込書類に不備がある場合は、お電話にて連絡しますので、来庁のうえ訂正していただくことになります。"
+    },
+    "notes.1#2": {
+      "url": "https://www.city.matsubara.lg.jp/docs/page2525.html",
+      "quote": "郵送事故等不着についての責任は負いかねますので、簡易書留等郵便物の追跡ができる方法での郵送をおすすめします。"
+    },
+    "notes.2": {
+      "url": "https://www.city.matsubara.lg.jp/docs/page2525.html",
+      "quote": "療育手帳をお持ちなどで、保育に配慮の必要なお子さんの保育所などの利用を希望される場合の申し込み期間は、令和8年10月8日（木曜日）から10月16日（金曜日）までです。"
+    },
+    "notes.3": {
+      "url": "https://www.city.matsubara.lg.jp/fs/3/6/0/3/1/2/_/__9_____________.pdf",
+      "quote": "受付期間終了後も受け付けますが、期間内に申し込まれた方を優先して利用調整を行います。"
+    },
+    "notes.4": {
+      "url": "https://www.city.matsubara.lg.jp/fs/3/6/0/3/1/2/_/__9_____________.pdf",
+      "quote": "４月入所希望の場合に限り、出生前の児童のお申込みを受け付けします。"
+    },
+    "notes.4#2": {
+      "url": "https://www.city.matsubara.lg.jp/fs/3/6/0/3/1/2/_/__9_____________.pdf",
+      "quote": "ただし、一部の施設を除き、1月2日以降に出生した場合は４月入所の対象外となりますので、ご了承ください。"
+    },
+    "notes.5": {
+      "url": "https://www.city.matsubara.lg.jp/fs/3/6/0/3/1/2/_/__9_____________.pdf",
+      "quote": "注）鉛筆、消えるボールペンで記入された書類は受け付けできませんので、ご注意ください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "松原市「保育の利用申込について」",
+      "url": "https://www.city.matsubara.lg.jp/docs/page2525.html"
+    },
+    {
+      "label": "松原市「保育の利用申請に必要な書類」",
+      "url": "https://www.city.matsubara.lg.jp/docs/page4848.html"
+    },
+    {
+      "label": "松原市「令和9年度保育利用案内」（PDF）",
+      "url": "https://www.city.matsubara.lg.jp/fs/3/6/0/3/1/2/_/__9_____________.pdf"
+    }
+  ]
+}

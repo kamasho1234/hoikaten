@@ -1,0 +1,167 @@
+{
+  "citySlug": "tondabayashi",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "富田林市「令和9年度 保育所・認定こども園(2号/3号)・家庭的保育事業の利用申請」",
+    "url": "https://www.city.tondabayashi.lg.jp/soshiki/109/129578.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年10月26日（月曜日）〜11月13日（金曜日）。土・日・祝日は除く。11月8日（日曜日）は市役所地下会議室で臨時受付あり",
+  "applyMethods": "対面窓口のみ。受付場所は市役所4階こども育成課（21番窓口）で、受付時間は月〜金曜日（祝日・年末年始を除く）の午前9時〜午後5時",
+  "firstResult": "令和8年12月末に結果を送付",
+  "secondApply": "令和9年1月4日（月曜日）〜2月12日（金曜日）。土・日・祝日は除く",
+  "secondResult": "令和9年2月下旬に結果を送付",
+  "midYearDeadline": "年度途中の入所は、1日入所なら前月20日まで、16日入所なら当月5日まで（閉庁日の場合は直前の開庁日）",
+  "documents": [
+    "教育・保育給付認定（変更）申請書 兼 保育所等入所申込書",
+    "就労証明書（65歳未満の同居の祖父母についても必要）。自営業の人は営業証明書や開業届、直近の確定申告書控えなど営業の事実がわかるものを添付",
+    "申立書（求職活動、妊娠・出産、疾病・障がい、就学など）",
+    "児童健康問診票（0・1・2歳児用と3・4・5歳児用がある）",
+    "家庭等の状況届",
+    "母子健康手帳",
+    "個人番号の確認できる書類（同居家族全員分。個人番号カード、個人番号の通知カードなど）",
+    "本人確認書類（顔写真付きの証明は1点、母子健康手帳など顔写真のない証明は2点）",
+    "不動産契約書等の写し（申し込み時点で富田林市に住民票がなく、入所希望日までに転入予定の人のみ）"
+  ],
+  "interview": "子どもの健康上などの理由で集団保育になじみにくいなどの不安がある場合は個別に面談する（日程調整可、事前に問い合わせ）。施設見学は事前に希望する保育所等へ電話で確認する",
+  "ikukyu": "育児休業中は保育所等に入所できず、利用するには育休から復帰する必要がある。育休中の申請は、在籍中の子の転園申し込みやその他事情がある場合に限られる",
+  "notes": [
+    "第2次受付も行うが、第1次受付分から順次選考するため残りの枠での選考になる",
+    "令和8年度から待機している子どもも、令和9年4月以降の入所を希望する場合は再度申し込みが必要",
+    "入所は希望した施設の中から選考するため、希望していない施設には入所できない",
+    "申し込み結果は初回選考時と入所が決まった時のみ送付され、待機が続いても2回目以降の通知はない",
+    "特別な理由なく入所を辞退し、同一年度内に再度利用を希望すると利用調整でマイナス点が付く"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.tondabayashi.lg.jp/uploaded/attachment/115652.pdf",
+      "quote": "令和８年度から待機されているお子さんについて、令和９年4月以降に入所を希望される場合は、再度申し込みが必要です。"
+    },
+    "fiscalYear#2": {
+      "url": "https://www.city.tondabayashi.lg.jp/uploaded/attachment/115652.pdf",
+      "quote": "≪令和９年４月からの入所を希望される場合≫ 受け付け期間 結果送付時期"
+    },
+    "firstApply": {
+      "url": "https://www.city.tondabayashi.lg.jp/soshiki/109/129578.html",
+      "quote": "第一次受付：令和8年10月26日（月曜日）〜令和8年11月13日（金曜日） ※土・日・祝は除く ※11月8日（日曜日）は地下会議室で臨時受付"
+    },
+    "applyMethods": {
+      "url": "https://www.city.tondabayashi.lg.jp/soshiki/109/129578.html",
+      "quote": "申請方法 対面窓口のみ 申請場所 市役所4階21番窓口"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.tondabayashi.lg.jp/uploaded/attachment/115652.pdf",
+      "quote": "・受付時間：月～金曜日（祝日、年末年始は除く）の午前9時～午後5時 ・受付場所：市役所４階こども育成課（21番窓口）"
+    },
+    "firstResult": {
+      "url": "https://www.city.tondabayashi.lg.jp/uploaded/attachment/115652.pdf",
+      "quote": "※１１月８日（日）臨時受け付け有り 令和８年 １２月末"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.tondabayashi.lg.jp/uploaded/attachment/115652.pdf",
+      "quote": "≪令和９年４月からの入所を希望される場合≫ 受け付け期間 結果送付時期 第１次受け付け"
+    },
+    "secondApply": {
+      "url": "https://www.city.tondabayashi.lg.jp/soshiki/109/129578.html",
+      "quote": "第二次受付：令和9年1月4日（月曜日）〜令和9年2月12日（金曜日）"
+    },
+    "secondResult": {
+      "url": "https://www.city.tondabayashi.lg.jp/uploaded/attachment/115652.pdf",
+      "quote": "第２次受け付け 令和９年 1 月４日（月）～２月１２日（金） 令和９年 ２月下旬"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.tondabayashi.lg.jp/uploaded/attachment/115652.pdf",
+      "quote": "１日入所 前月の20日（20日が閉庁日の場合は、直前の開庁日） １６日入所 当月の5日（5日が閉庁日の場合は、直前の開庁日）"
+    },
+    "documents.0": {
+      "url": "https://www.city.tondabayashi.lg.jp/soshiki/109/129578.html",
+      "quote": "教育・保育給付認定（変更）申請書　兼　保育所等入所申込書"
+    },
+    "documents.1": {
+      "url": "https://www.city.tondabayashi.lg.jp/soshiki/109/129578.html",
+      "quote": "（65歳未満の同居の祖父母についても必要）"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.tondabayashi.lg.jp/soshiki/109/129578.html",
+      "quote": "※自営業の方は営業証明書や開業届、直近の確定申告書控えなど営業の事実がわかるものを添付してください。"
+    },
+    "documents.2": {
+      "url": "https://www.city.tondabayashi.lg.jp/soshiki/109/129578.html",
+      "quote": "（求職活動、妊娠・出産、疾病・障がい、就学など）"
+    },
+    "documents.3": {
+      "url": "https://www.city.tondabayashi.lg.jp/soshiki/109/129578.html",
+      "quote": "4 児童健康問診票（0・1・2歳児）"
+    },
+    "documents.3#2": {
+      "url": "https://www.city.tondabayashi.lg.jp/soshiki/109/129578.html",
+      "quote": "児童健康問診票（3・4・5歳児）"
+    },
+    "documents.4": {
+      "url": "https://www.city.tondabayashi.lg.jp/soshiki/109/129578.html",
+      "quote": "5 家庭等の状況届"
+    },
+    "documents.5": {
+      "url": "https://www.city.tondabayashi.lg.jp/soshiki/109/129578.html",
+      "quote": "6 母子健康手帳"
+    },
+    "documents.6": {
+      "url": "https://www.city.tondabayashi.lg.jp/soshiki/109/129578.html",
+      "quote": "7 個人番号の確認できる書類（ご同居家族全員分）（個人番号カード、個人番号の通知カードなど）"
+    },
+    "documents.7": {
+      "url": "https://www.city.tondabayashi.lg.jp/soshiki/109/129578.html",
+      "quote": "8 本人確認書類（個人番号カード、運転免許証、パスポートなど、顔写真付きの証明は1点、母子健康手帳などの顔写真のない証明は2点必要）"
+    },
+    "documents.8": {
+      "url": "https://www.city.tondabayashi.lg.jp/soshiki/109/129578.html",
+      "quote": "※申し込み時点で富田林市に住民票がなく、入所希望日までに富田林市に転入予定の方のみ"
+    },
+    "interview": {
+      "url": "https://www.city.tondabayashi.lg.jp/uploaded/attachment/115652.pdf",
+      "quote": "お子さんの健康上またはその他の理由により、保育所等における集団保育になじみにくいなど不安に思われる場合は、個別で面談をさせていただきます。面談の日程調整も可能ですので、事前にお問い合わせください。"
+    },
+    "interview#2": {
+      "url": "https://www.city.tondabayashi.lg.jp/uploaded/attachment/115652.pdf",
+      "quote": "施設の見学をしていただくことができますので、事前に見学を希望される保育所等に電話で確認をしてください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.tondabayashi.lg.jp/uploaded/attachment/115652.pdf",
+      "quote": "育児休業中に保育所等へ入所はしていただけません。ご利用されたい場合は、育児休業から復帰していただく必要がございます。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.tondabayashi.lg.jp/uploaded/attachment/115652.pdf",
+      "quote": "育児休業中に保育所等への入所申請が可能な場合は、現在保育所等に在籍しているお子さんの転園申し込みの場合やその他事情がある場合のみとなります。"
+    },
+    "notes.0": {
+      "url": "https://www.city.tondabayashi.lg.jp/uploaded/attachment/115652.pdf",
+      "quote": "第2次受け付けも実施しますが、第1次受け付け分から順次選考していくため、残りの枠での選考となりますのでご注意ください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.tondabayashi.lg.jp/uploaded/attachment/115652.pdf",
+      "quote": "令和８年度から待機されているお子さんについて、令和９年4月以降に入所を希望される場合は、再度申し込みが必要です。"
+    },
+    "notes.2": {
+      "url": "https://www.city.tondabayashi.lg.jp/uploaded/attachment/115652.pdf",
+      "quote": "入所の決定は、希望された施設の中から選考しますので、希望されていない施設への入所はできません。"
+    },
+    "notes.3": {
+      "url": "https://www.city.tondabayashi.lg.jp/uploaded/attachment/115652.pdf",
+      "quote": "保育所等入所申し込みの結果については、初回選考時及び入所が決まった時のみ送付いたします。 ・待機状態が続く場合、２回目以降通知はございません。"
+    },
+    "notes.4": {
+      "url": "https://www.city.tondabayashi.lg.jp/uploaded/attachment/115652.pdf",
+      "quote": "特別な理由なく入所を辞退され、同一年度内に再度保育所等の利用を希望する場合、利用調整においてマイナス点が付与されます。"
+    }
+  },
+  "sources": [
+    {
+      "label": "富田林市「令和9年度 保育所・認定こども園(2号/3号)・家庭的保育事業の利用申請」",
+      "url": "https://www.city.tondabayashi.lg.jp/soshiki/109/129578.html"
+    },
+    {
+      "label": "富田林市「令和9年度 保育所等利用ガイドブック（2・3号認定希望者向け）」",
+      "url": "https://www.city.tondabayashi.lg.jp/uploaded/attachment/115652.pdf"
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "citySlug": "habikino",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "羽曳野市「令和9年度　保育施設等の入園申請について」",
+    "url": "https://www.city.habikino.lg.jp/soshiki/kodomoegao/kodomohoiku/hoikushisetsunonyuen/17671.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "オンライン申請は令和8年10月1日（木）9時〜10月15日（木）12時。窓口申請（事前予約制）は令和8年10月8日（木）・9日（金）9時40分〜15時40分と10月10日（土）9時20分〜15時40分（いずれも12時〜13時20分を除く）",
+  "applyMethods": "原則オンライン申請。オンライン申請が難しい場合は事前予約のうえ、申請期間内にこども保育課（本館1階1番窓口）で申請する。希望施設に羽曳野市外の施設が含まれる場合はオンライン申請できず窓口申請のみ",
+  "firstResult": "令和9年1月初旬頃に【my door OSAKA】（大阪総合行政ポータル）を通じてデジタル通知（申請者全員）。郵送通知を希望した場合は令和9年1月中旬頃",
+  "secondApply": "令和8年12月1日（火）9時〜令和9年2月5日（金）15時（オンライン・窓口とも。窓口は予約不要）",
+  "secondResult": "令和9年2月下旬頃（利用可の人にのみ郵送で通知）",
+  "midYearDeadline": "令和9年5月以降の入園は、令和9年3月1日から各利用希望月の前月5日17時30分まで（閉庁日の場合は翌開庁日）に申請",
+  "documents": [
+    "保育を必要とすることを証明する書類（就労証明書など）。オンライン申請ではPDFかスマートフォンで撮影した画像をステップ4で添付する",
+    "職場や医療機関等に書いてもらう証明書（就労証明書、疾病・障がい証明書、介護・看護証明書等）は、提出日時点で記入日から3か月以内のものが有効",
+    "自営の場合は直近の確定申告書の写しも必要",
+    "令和8年1月1日現在の住所が羽曳野市以外の場合は保護者の課税証明書",
+    "同じ住所に生計が別の65歳未満の祖父母がいる場合、申立書（祖父母別居）を出せば祖父母の就労証明書等は不要"
+  ],
+  "interview": "入園申請の際の児童の面接は行わないが、病気や発達、医療的ケア等について個別に面接をする場合がある（1次申請の面接予定期間は令和8年11月4日（水）〜11月13日（金））",
+  "ikukyu": "育児休業の延長や育児休業給付金の受給に必要な「待機証明書」を発行している（入園申請が必要）。育児休業中の人は、入園日から1か月以内に育児休業を終了して復職できる場合にのみ入園の対象",
+  "notes": [
+    "1次申請の対象は令和8年10月15日（木）までに生まれた児童",
+    "オンラインの1次申請は、令和8年10月16日（金）17時30分まで変更申請で内容を変更できる",
+    "希望施設はいくつでも選べ、第1希望のみの記載や希望施設の数で選考上有利になることはない",
+    "入園決定後の施設変更はできないので、希望する園の事前見学が勧められている",
+    "1次選考で利用不可となり2次選考でも調整を希望する場合は、2次申請期間内に変更申請の手続きが必要",
+    "令和9年4月入園が保留となっても、原則として5月入園以降も選考の対象となり、再申請は不要"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.habikino.lg.jp/soshiki/kodomoegao/kodomohoiku/hoikushisetsunonyuen/17671.html",
+      "quote": "令和9年4月入園の利用調整結果は、【my door OSAKA】(大阪総合行政ポータル）を通じたデジタル通知になりますので、事前に「登録」をお願いします。"
+    },
+    "firstApply": {
+      "url": "https://www.city.habikino.lg.jp/soshiki/kodomoegao/kodomohoiku/hoikushisetsunonyuen/17671.html",
+      "quote": "令和8年10月1日（木曜日）9：00から令和8年10月15日（木曜日）12：00まで"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.habikino.lg.jp/soshiki/kodomoegao/kodomohoiku/hoikushisetsunonyuen/17671.html",
+      "quote": "〇令和8年10月8日（木曜日）、9日（金曜日）9：40から15：40（12：00から13：20を除く）"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.habikino.lg.jp/soshiki/kodomoegao/kodomohoiku/hoikushisetsunonyuen/17671.html",
+      "quote": "〇令和8年10月10日（土曜日）9：20から15：40（12：00から13：20を除く）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.habikino.lg.jp/soshiki/kodomoegao/kodomohoiku/hoikushisetsunonyuen/17671.html",
+      "quote": "オンライン申請が難しい場合は、事前予約のうえ、下記の申請期間内にこども保育課（本館1階1番窓口）へお越し下さい。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.habikino.lg.jp/soshiki/kodomoegao/kodomohoiku/hoikushisetsunonyuen/17671.html",
+      "quote": "原則　オンライン申請となります。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.habikino.lg.jp/soshiki/kodomoegao/kodomohoiku/hoikushisetsunonyuen/17671.html",
+      "quote": "※利用を希望している施設に羽曳野市外の施設が含まれている場合、オンライン申請はできません。窓口にて申請してください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.habikino.lg.jp/material/files/group/123/Q25.pdf",
+      "quote": "令和9年1月初旬頃デジタル通知（申請者全員に通知）"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.habikino.lg.jp/material/files/group/123/Q25.pdf",
+      "quote": "〈郵送での通知を希望された場合は、令和9年1月中旬頃〉"
+    },
+    "firstResult#3": {
+      "url": "https://www.city.habikino.lg.jp/soshiki/kodomoegao/kodomohoiku/hoikushisetsunonyuen/17671.html",
+      "quote": "令和9年4月入園の利用調整結果は、【my door OSAKA】(大阪総合行政ポータル）を通じたデジタル通知になりますので、事前に「登録」をお願いします。"
+    },
+    "secondApply": {
+      "url": "https://www.city.habikino.lg.jp/soshiki/kodomoegao/kodomohoiku/hoikushisetsunonyuen/17671.html",
+      "quote": "令和8年12月1日（火曜日）9：00から令和9年2月5日（金曜日）15：00まで"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.habikino.lg.jp/soshiki/kodomoegao/kodomohoiku/hoikushisetsunonyuen/17671.html",
+      "quote": "【2次申請期間】<事前予約不要>"
+    },
+    "secondResult": {
+      "url": "https://www.city.habikino.lg.jp/soshiki/kodomoegao/kodomohoiku/hoikushisetsunonyuen/17671.html",
+      "quote": "令和9年2月下旬頃（利用可のみ郵送通知）"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.habikino.lg.jp/material/files/group/123/Q25.pdf",
+      "quote": "令和9年3月1日（月）9：00から利用希望月の前月5日17：30まで（閉庁日の場合は翌開庁日）"
+    },
+    "documents.0": {
+      "url": "https://www.city.habikino.lg.jp/soshiki/kodomoegao/kodomohoiku/hoikushisetsunonyuen/17671.html",
+      "quote": "※下記の「全ての方が準備するもの」と「対象となる方のみ準備するもの」については、事前にご準備いただき、PDFまたはスマートフォンで 撮影した画像を「ステップ4」で添付してください。"
+    },
+    "documents.1": {
+      "url": "https://www.city.habikino.lg.jp/material/files/group/123/Q25.pdf",
+      "quote": "職場や医療機関等に記載してもらった証明書は､提出日時点で記入日から3ヶ月以内のものが有効となります｡"
+    },
+    "documents.2": {
+      "url": "https://www.city.habikino.lg.jp/material/files/group/123/Q25.pdf",
+      "quote": "〇直近の確定申告書の写し（自営の方のみ）"
+    },
+    "documents.3": {
+      "url": "https://www.city.habikino.lg.jp/material/files/group/123/Q25.pdf",
+      "quote": "〇保護者の課税証明書（令和8年1月1日現在の住所が羽曳野市以外の場合）"
+    },
+    "documents.4": {
+      "url": "https://www.city.habikino.lg.jp/soshiki/kodomoegao/kodomohoiku/hoikushisetsunonyuen/17671.html",
+      "quote": "※申立書を提出することで、65歳未満の祖父母の「就労証明書」または「就労以外の事由による証明」が不要となります。"
+    },
+    "interview": {
+      "url": "https://www.city.habikino.lg.jp/material/files/group/123/Q25.pdf",
+      "quote": "入園申請の際の｢児童の面接｣は行っていませんが､病気や発達､医療的ケア等､児童の様子について個別に面接をさせていただく場合がある"
+    },
+    "interview#2": {
+      "url": "https://www.city.habikino.lg.jp/material/files/group/123/Q25.pdf",
+      "quote": "面接の予定期間･･･令和8年11月4日（水）から11月13日（金）まで（1次申請）"
+    },
+    "ikukyu": {
+      "url": "https://www.city.habikino.lg.jp/material/files/group/123/Q25.pdf",
+      "quote": "羽曳野市では｢待機証明書｣を発行していますが､取得には､保育園･こども園の入園申請が必要になります｡"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.habikino.lg.jp/material/files/group/123/Q25.pdf",
+      "quote": "育児休業の延長や育児休業給付金の受給のために､｢入園できていない証明｣が必要な場合があります｡"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.habikino.lg.jp/material/files/group/123/Q25.pdf",
+      "quote": "育児休業期間中の方は､入園日から1か月以内に育児休業を終了し､復職できる場合にのみ入園の対象となります｡"
+    },
+    "notes.0": {
+      "url": "https://www.city.habikino.lg.jp/material/files/group/123/Q25.pdf",
+      "quote": "※1次申請については､令和8年10月15日（木）までに生まれた児童が対象となります。"
+    },
+    "notes.1": {
+      "url": "https://www.city.habikino.lg.jp/material/files/group/123/Q25.pdf",
+      "quote": "ただし､1次申請は､令和8年10月16日（金）17:30まで変更が可能です｡"
+    },
+    "notes.2": {
+      "url": "https://www.city.habikino.lg.jp/material/files/group/123/Q25.pdf",
+      "quote": "〇第1希望のみの記載や希望施設の数によって選考上､有利ということはありません｡"
+    },
+    "notes.3": {
+      "url": "https://www.city.habikino.lg.jp/material/files/group/123/Q25.pdf",
+      "quote": "そのため､入園申請にあたり､希望される園の事前見学をおすすめします｡"
+    },
+    "notes.4": {
+      "url": "https://www.city.habikino.lg.jp/material/files/group/123/Q25.pdf",
+      "quote": "1 次選考で｢利用不可｣となった世帯で､2 次選考においても､引き続き調整が必要な場合は､2 次申請期間内（令和 8 年 12 月 1日（火）9：00から、令和9年2月5日（金）15：00まで）に、P7の｢変更申請｣より手続きが必要です。"
+    },
+    "notes.5": {
+      "url": "https://www.city.habikino.lg.jp/material/files/group/123/Q25.pdf",
+      "quote": "〇一度申請されると､年度内、原則として 5 月入園以降も利用調整（選考）の対象となります｡入園が保留となった場合､再申請は不要です。"
+    }
+  },
+  "sources": [
+    {
+      "label": "羽曳野市「令和9年度　保育施設等の入園申請について」",
+      "url": "https://www.city.habikino.lg.jp/soshiki/kodomoegao/kodomohoiku/hoikushisetsunonyuen/17671.html"
+    },
+    {
+      "label": "羽曳野市「令和９年度保育園･認定こども園の利用案内書」",
+      "url": "https://www.city.habikino.lg.jp/material/files/group/123/Q25.pdf"
+    }
+  ]
+}

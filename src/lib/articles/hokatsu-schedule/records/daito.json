@@ -1,0 +1,218 @@
+{
+  "citySlug": "daito",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "大東市「保育所等入所の申込について」",
+    "url": "https://www.city.daito.lg.jp/soshiki/60/21911.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年10月1日（木）から、こども家庭室保育幼稚園グループ窓口（本庁西別館1階）で入所申込書等を配布（予定）。市ホームページからもダウンロードできる",
+  "firstApply": "令和8年11月2日（月）〜11月30日（月）",
+  "applyMethods": "市役所こども家庭室（保育幼稚園グループ、市役所西別館1階）の窓口で受け付ける（午前9時〜午後5時30分、土日祝日を除く）。郵送・電話では申し込めない。マイナンバーカードを持つ大東市在住の保護者はマイナポータル（ぴったりサービス）で電子申請もできるが、電子申請のあと受付期間内に窓口へ来庁しないと受付が完了しない",
+  "firstResult": "令和9年4月入所希望の結果（入所内定通知または入所保留通知）は2月上旬ごろに文書で送付。内定者には入所手続きの書類も同封",
+  "secondApply": "一次の利用調整で入所枠に余裕がある場合に二回目の利用調整を行い、受付は令和9年1月29日（金）まで。さらに余裕があれば最終の利用調整を行い、受付は令和9年2月26日（金）まで",
+  "secondResult": "二回目・最終の利用調整の申込期間に新たに申し込んだ人には、各利用調整の後に結果の書類を送付（電話で連絡する場合もある）",
+  "midYearDeadline": "令和9年5月以降の入所は入所希望月の2か月前の月の末日まで。令和10年2月・3月入所の希望は別途問い合わせ",
+  "documents": [
+    "教育・保育給付認定申請書兼入所申込書（保護者（父）と保護者（母）それぞれ自署。子ども2人以上の申込みは人数分）",
+    "子どもの健康状況等確認シート",
+    "誓約書兼同意書（保護者（父）と保護者（母）それぞれ自署）",
+    "入所理由証明書（大東市様式。保護者（父）と保護者（母）それぞれ必要）。外勤・内職の場合は国の標準様式の就労証明書でもよいが、その場合も通勤状況を記入した入所理由証明書を合わせて提出",
+    "教育・保育給付認定等に係る個人番号提供書（同居している人全員分、子どもも含む）",
+    "大東市へ転入予定の場合は転入誓約書と、転入予定先の住所がわかる証明書類（売買契約書、賃貸借契約書など）",
+    "令和8年度市町村民税課税証明書は原則不要（マイナンバーで課税額を確認するが、詳細の確認が必要なときは別途提出を求める場合がある）"
+  ],
+  "interview": "入所内定者は所定の医療機関で健康診断（有料）を受け、指定する日時に保育所等が行う入所説明会に参加する",
+  "notes": [
+    "必要書類に不備等がある場合や受付期間を過ぎた場合は受け付けない",
+    "利用調整は入所選考基準表に基づいて保育の必要性等から優先順位をつけて行い、申請の受付順や抽選ではない",
+    "入所（内定を含む）を辞退すると、次回以降の利用調整で優先度が調整される場合がある",
+    "大東市外に住んでいても、転入予定を書面（住宅の購入に関する契約書等）で確認できれば申し込める（入所希望日の前日までに転入する場合に限る）",
+    "通園は毎日のことなので、園の所在地の確認や園見学（各園に事前連絡が必要）が勧められている",
+    "入所後の一定期間は子どもの環境変化の緩和のため保育時間を短縮する場合があるので、職場と事前に調整しておく"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.daito.lg.jp/soshiki/60/21911.html",
+      "quote": "令和9年度4月入所希望の受付期間：令和8年11月2日（月）から令和8年11月30日(月)"
+    },
+    "guideRelease": {
+      "url": "https://www.city.daito.lg.jp/site/kosodate/55246.html",
+      "quote": "配布時期　：　令和８年１０月１日（木）からを予定しています。"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.daito.lg.jp/site/kosodate/55246.html",
+      "quote": "配布場所　：　こども家庭室保育幼稚園グループ窓口（本庁西別館１階）にて配布します。"
+    },
+    "guideRelease#3": {
+      "url": "https://www.city.daito.lg.jp/site/kosodate/55246.html",
+      "quote": "※ホームページからのダウンロードも可能です。"
+    },
+    "firstApply": {
+      "url": "https://www.city.daito.lg.jp/soshiki/60/21911.html",
+      "quote": "令和9年度4月入所希望の受付期間：令和8年11月2日（月）から令和8年11月30日(月)"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.daito.lg.jp/uploaded/attachment/44828.pdf",
+      "quote": "⇒ 令和８年１１月２日（月）～１１月３０日（月）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.daito.lg.jp/uploaded/attachment/44828.pdf",
+      "quote": "１．入所申込みの受付は、市役所こども家庭室（保育幼稚園グループ）の窓口で行います。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.daito.lg.jp/uploaded/attachment/44828.pdf",
+      "quote": "※郵送、電話での入所申込みはできませんので、ご注意ください。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.daito.lg.jp/soshiki/60/21911.html",
+      "quote": "受付時間：午前9時～午後5時30分（土曜日・日曜日、祝日を除く）"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.daito.lg.jp/soshiki/60/21911.html",
+      "quote": "受付場所：こども家庭室　保育幼稚園グループ（市役所西別館1階）"
+    },
+    "applyMethods#5": {
+      "url": "https://www.city.daito.lg.jp/soshiki/60/21911.html",
+      "quote": "マイナンバーカードを取得している保護者の方は、ICカードリーダライタまたは、マイナポータルアプリがインストールされているスマートフォン等を利用して電子申請を行うことができます。"
+    },
+    "applyMethods#6": {
+      "url": "https://www.city.daito.lg.jp/soshiki/60/21911.html",
+      "quote": "※電子申請のあと、受付期間内にこども家庭室　保育幼稚園グループへの来庁が必要です。受付期間内に来庁されない場合は、受付が完了しませんので、ご注意ください。"
+    },
+    "applyMethods#7": {
+      "url": "https://www.city.daito.lg.jp/soshiki/60/21911.html",
+      "quote": "※本市にお住まいでない方は電子申請をご利用いただけませんので、ご了承ください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.daito.lg.jp/uploaded/attachment/44828.pdf",
+      "quote": "②利用調整に係る結果の通知（入所内定通知若しくは入所保留通知）及び入所の手続きに関する書類(内定となった方のみ)を、２月上旬ごろに送付します。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.daito.lg.jp/soshiki/60/21911.html",
+      "quote": "4月入所希望に係る利用調整の結果は、2月上旬に文書にて通知します。"
+    },
+    "secondApply": {
+      "url": "https://www.city.daito.lg.jp/uploaded/attachment/44828.pdf",
+      "quote": "※利用調整を行った結果、入所枠に余裕のある場合は、二回目の利用調整を行います。"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.daito.lg.jp/uploaded/attachment/44828.pdf",
+      "quote": "二回目の利用調整に係る受付期間は、令和９年１月２９日（金）までとなります。"
+    },
+    "secondApply#3": {
+      "url": "https://www.city.daito.lg.jp/uploaded/attachment/44828.pdf",
+      "quote": "※二回目の利用調整を行った結果、入所枠に余裕がある場合は最終の利用調整を行います。"
+    },
+    "secondApply#4": {
+      "url": "https://www.city.daito.lg.jp/uploaded/attachment/44828.pdf",
+      "quote": "最終の利用調整に係る受付期間は、令和９年２月２６日（金）までとなります。"
+    },
+    "secondResult": {
+      "url": "https://www.city.daito.lg.jp/uploaded/attachment/44828.pdf",
+      "quote": "※二回目及び最終の利用調整の申込期間内に新規に申込みされた方については、各利用調整後に上記の書類を送付します。なお、書類の送付に替えてお電話にてご連絡する場合がありますのでご了承ください。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.daito.lg.jp/uploaded/attachment/44828.pdf",
+      "quote": "⇒ 入所希望月の２か月前の月の末日まで"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.daito.lg.jp/uploaded/attachment/44828.pdf",
+      "quote": "※令和１０年２月または３月入所希望の方は、別途お問い合わせください。"
+    },
+    "documents.0": {
+      "url": "https://www.city.daito.lg.jp/uploaded/attachment/44828.pdf",
+      "quote": "書類① 教育・保育給付認定申請書兼入所申込書（保護者（父）と保護者（母）それぞれ自署してください。）"
+    },
+    "documents.0#2": {
+      "url": "https://www.city.daito.lg.jp/soshiki/60/21911.html",
+      "quote": "2人以上のお申込の場合は、人数分の提出が必要となります。"
+    },
+    "documents.1": {
+      "url": "https://www.city.daito.lg.jp/uploaded/attachment/44828.pdf",
+      "quote": "書類② 子どもの健康状況等確認シート"
+    },
+    "documents.2": {
+      "url": "https://www.city.daito.lg.jp/uploaded/attachment/44828.pdf",
+      "quote": "書類③ 誓約書兼同意書（保護者（父）と保護者（母）それぞれ自署してください。）"
+    },
+    "documents.3": {
+      "url": "https://www.city.daito.lg.jp/uploaded/attachment/44828.pdf",
+      "quote": "書類 ④ 入所理由証明書（大東市様式）（保護者（父）と保護者（母）それぞれ必要です。）"
+    },
+    "documents.3#2": {
+      "url": "https://www.city.daito.lg.jp/soshiki/60/21911.html",
+      "quote": "なお、令和７年２月から、外勤または内職の方については、国の標準様式の就労証明書を使用することも可能となりました。"
+    },
+    "documents.3#3": {
+      "url": "https://www.city.daito.lg.jp/soshiki/60/21911.html",
+      "quote": "国の標準様式の就労証明書を使用される方は、保護者の方の通勤状況を把握するために、合わせて入所理由証明書もご提出ください。"
+    },
+    "documents.4": {
+      "url": "https://www.city.daito.lg.jp/uploaded/attachment/44828.pdf",
+      "quote": "※同居されている方全員について記入してください。（お子様も含みます。）"
+    },
+    "documents.5": {
+      "url": "https://www.city.daito.lg.jp/soshiki/60/21911.html",
+      "quote": "※大東市へ転入予定の方に関しては、入所申込書と併せてのご提出が必要となります。"
+    },
+    "documents.5#2": {
+      "url": "https://www.city.daito.lg.jp/soshiki/60/21911.html",
+      "quote": "※転入誓約書のご提出と併せて転入予定先の住所がわかる証明書類（例：売買契約書、賃貸借契約書など）の提出も必要となります。"
+    },
+    "documents.6": {
+      "url": "https://www.city.daito.lg.jp/uploaded/attachment/44828.pdf",
+      "quote": "書類⑥ 令和８年度市町村民税課税証明書（※原則不要）"
+    },
+    "documents.6#2": {
+      "url": "https://www.city.daito.lg.jp/uploaded/attachment/44828.pdf",
+      "quote": "詳細の確認が必要となった際に、別途提出を求める場合があります。"
+    },
+    "interview": {
+      "url": "https://www.city.daito.lg.jp/soshiki/60/21911.html",
+      "quote": "入所内定者は所定の医療機関にて、健康診断（有料）を受診していただき、指定する日時に保育所等が行う入所説明会に参加していただくことになります。"
+    },
+    "notes.0": {
+      "url": "https://www.city.daito.lg.jp/soshiki/60/21911.html",
+      "quote": "※必要書類に不備等がある場合や受付期間を超過している場合は受付できませんので、ご注意ください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.daito.lg.jp/soshiki/60/21911.html",
+      "quote": "利用調整は入所選考基準表に基づき、保育の必要性等から優先順位をつけ、希望先の保育所等の入所状況等を考慮しながら行います。申請受付順や抽選ではありません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.daito.lg.jp/uploaded/attachment/44828.pdf",
+      "quote": "３．入所（内定を含む）を辞退された場合は、次回以降の入所の利用調整において優先度が調整される場合があります。"
+    },
+    "notes.3": {
+      "url": "https://www.city.daito.lg.jp/uploaded/attachment/44828.pdf",
+      "quote": "※住宅の購入、賃貸借などにより大東市内への転入を予定しており、その事実を書面（住宅の購入に関する契約書等）で確認できる場合は、大東市外に在住している児童も入所申込みができます。"
+    },
+    "notes.3#2": {
+      "url": "https://www.city.daito.lg.jp/uploaded/attachment/44828.pdf",
+      "quote": "（※入所希望日の前日までに転入する場合に限ります。）"
+    },
+    "notes.4": {
+      "url": "https://www.city.daito.lg.jp/soshiki/60/21911.html",
+      "quote": "通園は毎日のことなので、希望する保育所等を決める際には、所在地の確認や、園見学（各園に事前連絡要）をされることをおすすめします。"
+    },
+    "notes.5": {
+      "url": "https://www.city.daito.lg.jp/uploaded/attachment/44828.pdf",
+      "quote": "４．入所後の一定期間については、お子様の急な環境変化の緩和などのために保育の時間を短縮する場合がありますので、職場との事前の調整をお願いします。"
+    }
+  },
+  "sources": [
+    {
+      "label": "大東市「保育所等入所の申込について」",
+      "url": "https://www.city.daito.lg.jp/soshiki/60/21911.html"
+    },
+    {
+      "label": "大東市「令和９年４月保育所等入所申込書の配布及び受付期間について」",
+      "url": "https://www.city.daito.lg.jp/site/kosodate/55246.html"
+    },
+    {
+      "label": "大東市「令和９年度入所申込み手続きのご案内」（PDF）",
+      "url": "https://www.city.daito.lg.jp/uploaded/attachment/44828.pdf"
+    }
+  ]
+}

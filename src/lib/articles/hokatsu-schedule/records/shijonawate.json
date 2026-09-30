@@ -1,0 +1,176 @@
+{
+  "citySlug": "shijonawate",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "四條畷市「令和9年度 保育園・認定こども園等申込受付について（2・3号認定）」",
+    "url": "https://www.city.shijonawate.lg.jp/site/kosodate/32659.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年9月15日（火曜日）から入所案内・申請用紙をこども政策課と田原支所で配布。市ホームページからもダウンロードできる",
+  "firstApply": "令和8年11月2日（月曜日）〜11月30日（月曜日）。受付時間は午前9時〜午後4時30分（土曜日・日曜日・祝日を除く）。郵送はこども政策課必着",
+  "applyMethods": "こども政策課と田原支所の窓口で受け付け、郵送の場合はこども政策課必着。子育てワンストップサービスでの電子申請もでき、添付書類は郵送か窓口へ持参し、書類がそろった時点で受付となる",
+  "firstResult": "令和9年1月上旬頃に発送予定（事前の問い合わせには答えない）",
+  "secondApply": "2次選考として令和8年12月1日（火曜日）〜令和9年1月29日（金曜日）",
+  "secondResult": "令和9年2月中旬頃に発送予定",
+  "midYearDeadline": "利用希望月の前々月の1日から前月9日まで（土曜日・日曜日・祝日の場合は前開庁日）。提出が遅れると次の月の選考になる",
+  "documents": [
+    "保育施設等利用申込書（児童ひとりにつき1枚。育児休業から復職する人は、育児休業給付金の手続きに必要となる場合があるので提出前に両面をコピーしておく）",
+    "子どものための教育・保育給付支給認定申請書",
+    "子どもの健康・発達状況確認票（児童ひとりにつき1枚）",
+    "マイナンバー確認書類（世帯全員の個人番号カードか個人番号の記載がある住民票のいずれかと、申込書提出者本人の本人確認書類。個人番号カードの場合は本人確認書類は不要）",
+    "保育が必要な理由に応じた書類（複数の事由に該当する人はそれぞれの書類が必要）"
+  ],
+  "ikukyu": "育児休業の延長が可能で、他の申込者より後の順位付けでの利用調整を希望する人は、就労状況や世帯状況に関わらず指数を1点として選考する。入所申込時に「育児休業の延長が可能な場合の取扱いに関する誓約書」を提出する。入所保留になった場合は初回のみ保留通知を郵送",
+  "notes": [
+    "受付期間内の申込順は選考基準に影響しない",
+    "産休・育児休業明けの令和9年度途中の入所も、一斉受付の期間に申し込める",
+    "3次選考は令和9年2月1日（月曜日）〜2月26日（金曜日）で、結果は3月中旬頃に発送予定",
+    "一斉受付の終了後、保育施設に空きがある場合のみ令和9年3月1日（月曜日）〜3月15日（月曜日）に先着順の随時選考を行う（こども政策課窓口のみ）",
+    "郵送でも提出できるが、書類に不備がある場合は正しい状態になった日が受付日になる",
+    "育児休業明けの入所は、ならし保育の期間が長くなるよう入所月の翌月1日までに復職することとしている"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.shijonawate.lg.jp/site/kosodate/32659.html",
+      "quote": "令和9年度2・3号認定（保育所利用）の入所申込の受付を行います。"
+    },
+    "fiscalYear#2": {
+      "url": "https://www.city.shijonawate.lg.jp/site/kosodate/32659.html",
+      "quote": "(1)令和9年4月1日からの入所を希望する場合(一斉受付)"
+    },
+    "guideRelease": {
+      "url": "https://www.city.shijonawate.lg.jp/site/kosodate/32659.html",
+      "quote": "入所案内・申請用紙は令和8年9月15日（火曜日）からこども政策課及び田原支所で配布します（市ホームページからもダウンロードできます）。"
+    },
+    "firstApply": {
+      "url": "https://www.city.shijonawate.lg.jp/site/kosodate/32659.html",
+      "quote": "令和8年11月2日（月曜日）から11月30日（月曜日）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.shijonawate.lg.jp/site/kosodate/32659.html",
+      "quote": "午前9時00分～午後4時30分（土曜日・日曜日・祝日を除く）"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.shijonawate.lg.jp/site/kosodate/32659.html",
+      "quote": "こども政策課及び田原支所窓口（郵送の場合はこども政策課必着）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.shijonawate.lg.jp/site/kosodate/32659.html",
+      "quote": "こども政策課及び田原支所窓口（郵送の場合はこども政策課必着）"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.shijonawate.lg.jp/site/kosodate/32659.html",
+      "quote": "子育てワンストップサービスにおける電子申請が可能です。添付書類は郵送もしくは窓口までお持ちください。書類がそろった時点で受付とします。"
+    },
+    "firstResult": {
+      "url": "https://www.city.shijonawate.lg.jp/site/kosodate/32659.html",
+      "quote": "令和9年1月上旬頃発送予定(事前のお問い合わせにはお答えできません)"
+    },
+    "secondApply": {
+      "url": "https://www.city.shijonawate.lg.jp/site/kosodate/32659.html",
+      "quote": "2次選考：令和8年12月1日（火曜日）から令和9年1月29日（金曜日）→2月中旬頃結果発送予定"
+    },
+    "secondResult": {
+      "url": "https://www.city.shijonawate.lg.jp/site/kosodate/32659.html",
+      "quote": "2次選考：令和8年12月1日（火曜日）から令和9年1月29日（金曜日）→2月中旬頃結果発送予定"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.shijonawate.lg.jp/site/kosodate/32659.html",
+      "quote": "利用希望月の前々月の1日から利用希望月の前月9日"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.shijonawate.lg.jp/site/kosodate/32659.html",
+      "quote": "(土曜日・日曜日・祝日の場合前開庁日)"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.shijonawate.lg.jp/site/kosodate/32659.html",
+      "quote": "※提出が遅れた場合、次の月の選考となりますので、ご注意ください。"
+    },
+    "documents.0": {
+      "url": "https://www.city.shijonawate.lg.jp/site/kosodate/32659.html",
+      "quote": "※育児休業から復職される方は、育児休業給付金の手続きのために必要となる場合がありますので、お申込み前に保育施設等利用申込書の両面をコピーしてから提出してください。"
+    },
+    "documents.0#2": {
+      "url": "https://www.city.shijonawate.lg.jp/uploaded/attachment/38593.pdf",
+      "quote": "□保育施設等利用申込書（児童ひとりにつき1枚）"
+    },
+    "documents.1": {
+      "url": "https://www.city.shijonawate.lg.jp/uploaded/attachment/38593.pdf",
+      "quote": "□子どものための教育・保育給付支給認定申請書"
+    },
+    "documents.2": {
+      "url": "https://www.city.shijonawate.lg.jp/uploaded/attachment/38593.pdf",
+      "quote": "□子どもの健康・発達状況確認票（児童ひとりにつき1枚）"
+    },
+    "documents.3": {
+      "url": "https://www.city.shijonawate.lg.jp/site/kosodate/32659.html",
+      "quote": "ア　個人番号確認書類（世帯全員の個人番号カード・個人番号の記載がある住民票のいずれか）"
+    },
+    "documents.3#2": {
+      "url": "https://www.city.shijonawate.lg.jp/site/kosodate/32659.html",
+      "quote": "イ　本人確認書類（申込書提出者本人の運転免許証・個人番号カード等顔写真付本人確認書類1点または、健康保険証・公共料金の領収証等顔写真のない本人確認書類2点）"
+    },
+    "documents.3#3": {
+      "url": "https://www.city.shijonawate.lg.jp/site/kosodate/32659.html",
+      "quote": "マイナンバー確認書類（個人番号カードの場合はイは不要です。）"
+    },
+    "documents.4": {
+      "url": "https://www.city.shijonawate.lg.jp/site/kosodate/32659.html",
+      "quote": "保育が必要な理由に応じた書類    ※複数の事由に該当する方はそれぞれの書類が必要です。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.shijonawate.lg.jp/site/kosodate/32659.html",
+      "quote": "このため、育児休業の延長が可能で、他の申込者よりも後の順位付けで利用調整を希望される方は、就労状況や世帯状況に関わらず指数を1点とし、他の申請者よりも後の順位付けで入所選考を行います。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.shijonawate.lg.jp/site/kosodate/32659.html",
+      "quote": "ただし、著しく入所が困難になるため、内容をよくご理解いただいたうえで、「育児休業の延長が可能な場合の取扱いに関する誓約書」を入所申込時に提出ください。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.shijonawate.lg.jp/site/kosodate/32659.html",
+      "quote": "入所保留になった場合は、初回の保留の場合のみ保留通知を郵送します。"
+    },
+    "notes.0": {
+      "url": "https://www.city.shijonawate.lg.jp/site/kosodate/32659.html",
+      "quote": "※受付期間内の申込順は選考基準に影響しません！！"
+    },
+    "notes.1": {
+      "url": "https://www.city.shijonawate.lg.jp/site/kosodate/32659.html",
+      "quote": "産休・育児休業明けの令和9年度途中の入所については、上記受付期間に申込が可能です。"
+    },
+    "notes.2": {
+      "url": "https://www.city.shijonawate.lg.jp/site/kosodate/32659.html",
+      "quote": "3次選考：令和9年2月1日（月曜日）から2月26日（金曜日）→3月中旬頃結果発送予定"
+    },
+    "notes.3": {
+      "url": "https://www.city.shijonawate.lg.jp/site/kosodate/32659.html",
+      "quote": "受付期間：令和9年3月1日(月曜日)から3月15日(月曜日)まで"
+    },
+    "notes.3#2": {
+      "url": "https://www.city.shijonawate.lg.jp/site/kosodate/32659.html",
+      "quote": "※ 一斉受付終了後、新規申込の方(希望施設追加を含む)を対象に保育施設に空きがある場合のみ"
+    },
+    "notes.3#3": {
+      "url": "https://www.city.shijonawate.lg.jp/site/kosodate/32659.html",
+      "quote": "受付場所：こども政策課窓口のみ"
+    },
+    "notes.4": {
+      "url": "https://www.city.shijonawate.lg.jp/site/kosodate/32659.html",
+      "quote": "郵送による提出も可能ですが、書類に不備がある場合は正しい状態になった日を受付日とします。"
+    },
+    "notes.5": {
+      "url": "https://www.city.shijonawate.lg.jp/site/kosodate/32659.html",
+      "quote": "育児休業明けの入所の場合、ならし保育を利用できる期間が長くなるよう、入所月の翌月1日までに復職することとします。"
+    }
+  },
+  "sources": [
+    {
+      "label": "四條畷市「令和9年度 保育園・認定こども園等申込受付について（2・3号認定）」",
+      "url": "https://www.city.shijonawate.lg.jp/site/kosodate/32659.html"
+    },
+    {
+      "label": "四條畷市「令和9年度四條畷市特定教育・保育施設等利用のご案内」",
+      "url": "https://www.city.shijonawate.lg.jp/uploaded/attachment/38593.pdf"
+    }
+  ]
+}

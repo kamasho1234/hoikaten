@@ -1,0 +1,161 @@
+{
+  "citySlug": "katano",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "交野市「保育所のページ」",
+    "url": "https://www.city.katano.osaka.jp/docs/2011061000043/"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "認可保育施設の入所申込は随時受付。令和9年4月入所の1次選考の申込期限は令和8年11月30日（月）",
+  "applyMethods": "窓口（こども園課、ゆうゆうセンター2階、平日9:00〜17:00）、郵送（交野市天野が原町5-5-1 交野市こども園課あて）、マイナポータルの電子申請のいずれか。令和8年度の入所案内では、郵送は締切日必着、電子申請は締切日の23:59送信分まで受付",
+  "secondApply": "令和9年4月入所の2次選考の申込期限は令和9年2月5日（金）",
+  "midYearDeadline": "5月〜翌3月入所の選考は、入所希望月の前々月末の開庁日（土日祝日を除く）が申込期限（例: 6月入所選考は4月末）",
+  "documents": [
+    "支給認定申請書 兼 入所申込書（提出必須）",
+    "保育の利用を必要とする証明書（提出必須・保護者全員分。就労の場合は就労証明書。令和8年度の入所案内では、提出時点で発行日から6か月以内のもののみ有効）",
+    "育児休業明けで入所を申し込む場合は「育児休業明け入所申込みについての誓約書」",
+    "個人番号（マイナンバー）提供書（提出必須）と本人確認書類の提示・添付（電子申請の場合は不要）",
+    "代理申請の場合は委任状。代理申請・郵送申請の場合は本人確認書類の写しを添付台紙に貼って提出"
+  ],
+  "interview": "令和8年度の入所案内では、入所内定後に内定施設と面談等を行う流れ。申込前に施設見学等で情報収集するよう勧められている",
+  "ikukyu": "入所できない場合に育児休業の延長も許容できる人は「育児休業中の利用調整に係るマイナス調整点適用に関する同意書」を提出すると、マイナス調整点（-200点）を適用して選考される。4月1次選考では保留通知を発行するため入所保留証明書は発行しない（令和8年度の入所案内）",
+  "notes": [
+    "2月・3月入所希望者は、4月選考の申込期限までに申し込まないと4月選考に参加できない",
+    "令和9年度の入所案内は令和8年10月中に市ホームページに掲載予定",
+    "令和9年4月に小規模保育施設2園の開設を目指して整備を進めている",
+    "育児休業明けの申込者は、同年度内に限り入所希望月のひと月前の選考に参加できる（マイナス調整点の同意書を出した人は対象外）",
+    "産後休暇・育児休業明け入所は、復職日が入所月の翌月1日まででなければその月の入所を希望できない（4月1日入所なら復職期限は5月1日）"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.katano.osaka.jp/docs/2026082000033/",
+      "quote": "※令和９年４月入所の申込期限は令和８年１１月末を予定しています。"
+    },
+    "firstApply": {
+      "url": "https://www.city.katano.osaka.jp/docs/2011061000043/",
+      "quote": "令和９年４月入所選考の申込期限 【１次選考】令和８年１１月３０日（月）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.katano.osaka.jp/docs/2011061000043/",
+      "quote": "認可保育施設（認定こども園の保育所部分・保育所・小規模保育施設）の入所申込は随時受け付けています。"
+    },
+    "secondApply": {
+      "url": "https://www.city.katano.osaka.jp/docs/2011061000043/",
+      "quote": "【１次選考】令和８年１１月３０日（月） 【２次選考】令和９年２月５日（金）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.katano.osaka.jp/docs/2011061000043/",
+      "quote": "こども園課（ゆうゆうセンター２階／平日９：００〜１７：００）"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.katano.osaka.jp/docs/2011061000043/",
+      "quote": "郵送 交野市天野が原町５−５−１　交野市こども園課あて 電子申請（マイナポータル上）"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.katano.osaka.jp/docs/2011061000043/file_contents/file_20251022315298_1.pdf",
+      "quote": "交野市健やか部こども園課 締切日必着"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.katano.osaka.jp/docs/2011061000043/file_contents/file_20251022315298_1.pdf",
+      "quote": "締切日は23:59送信分"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.katano.osaka.jp/docs/2011061000043/",
+      "quote": "入所選考月（＝入所希望月）の前々月末の開庁日（土日祝日を除く日） 【例】６月入所選考の場合、申込期限は４月末です。"
+    },
+    "documents.0": {
+      "url": "https://www.city.katano.osaka.jp/docs/2011061000043/",
+      "quote": "入所申込書 【提出必須】 支給認定申請書 兼 入所申込書"
+    },
+    "documents.1": {
+      "url": "https://www.city.katano.osaka.jp/docs/2011061000043/",
+      "quote": "保育の利用を必要とする証明書 【提出必須：保護者全員分】 ①就労の場合"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.katano.osaka.jp/docs/2011061000043/file_contents/file_20251022315298_1.pdf",
+      "quote": "証明書類は、交野市への提出時点で発行日より6ヶ月以内のもののみ有効です。"
+    },
+    "documents.2": {
+      "url": "https://www.city.katano.osaka.jp/docs/2011061000043/",
+      "quote": "※育児休業明けでの入所申し込みの方は誓約書が必要です。"
+    },
+    "documents.3": {
+      "url": "https://www.city.katano.osaka.jp/docs/2011061000043/",
+      "quote": "※提供書２ページ目に記載の本人確認書類の提示・添付が必要です（電子申請の場合は不要）。"
+    },
+    "documents.3#2": {
+      "url": "https://www.city.katano.osaka.jp/docs/2011061000043/",
+      "quote": "個人番号（マイナンバー）提供書 【提出必須】"
+    },
+    "documents.4": {
+      "url": "https://www.city.katano.osaka.jp/docs/2011061000043/",
+      "quote": "※代理申請の場合は委任状が必要です。"
+    },
+    "documents.4#2": {
+      "url": "https://www.city.katano.osaka.jp/docs/2011061000043/",
+      "quote": "※代理申請・郵送申請の場合、本人確認書類の写しを下の台紙に貼り付けて提出してください。"
+    },
+    "interview": {
+      "url": "https://www.city.katano.osaka.jp/docs/2011061000043/file_contents/file_20251022315298_1.pdf",
+      "quote": "内定施設と面談等を実施"
+    },
+    "interview#2": {
+      "url": "https://www.city.katano.osaka.jp/docs/2011061000043/file_contents/file_20251022315298_1.pdf",
+      "quote": "見学等を行い、情報収集してください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.katano.osaka.jp/docs/2011061000043/file_contents/mainasutyousei.pdf",
+      "quote": "同意書の提出によりマイナス調整点（-200点）を適用します。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.katano.osaka.jp/docs/2011061000043/file_contents/mainasutyousei.pdf",
+      "quote": "育児休業明け入所を希望する方で、保育施設に入所できない場合には育児休業の延長も許容できる方については、マイナス"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.katano.osaka.jp/docs/2011061000043/file_contents/file_20251022315298_1.pdf",
+      "quote": "※４月１次選考は保留通知を発行するため、入所保留証明書の発行は行いません。"
+    },
+    "notes.0": {
+      "url": "https://www.city.katano.osaka.jp/docs/2011061000043/",
+      "quote": "※ただし、２月・３月入所希望者は、４月選考の申込期限（上記）までに申し込まないと４月選考に参加できませんので、４月選考に参加しない場合を除き、４月選考の申込期限までに申込を行ってください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.katano.osaka.jp/docs/2011061000043/",
+      "quote": "※令和９年度の入所案内については、令和８年１０月中に掲載予定です。"
+    },
+    "notes.2": {
+      "url": "https://www.city.katano.osaka.jp/docs/2026082000033/",
+      "quote": "令和９年４月に小規模保育施設２園の開設を目指して整備を進めています"
+    },
+    "notes.3": {
+      "url": "https://www.city.katano.osaka.jp/docs/2011061000043/file_contents/file_20251022315298_1.pdf",
+      "quote": "育児休業明けでの入所申込者は、同年度内に限り入所希望月のひと月前の選考に参加できます。"
+    },
+    "notes.3#2": {
+      "url": "https://www.city.katano.osaka.jp/docs/2011061000043/file_contents/file_20251022315298_1.pdf",
+      "quote": "「育児休業中の利用調整に係るマイナス調整点適用に関する同意書」を提出している方は本特例の対象外です"
+    },
+    "notes.4": {
+      "url": "https://www.city.katano.osaka.jp/docs/2011061000043/file_contents/file_20251022315298_1.pdf",
+      "quote": "※4月1日入所の場合、復職の期限は5月1日（復職が5月2日以降になる場合は4月入所不可）"
+    }
+  },
+  "sources": [
+    {
+      "label": "交野市「保育所のページ」",
+      "url": "https://www.city.katano.osaka.jp/docs/2011061000043/"
+    },
+    {
+      "label": "交野市「令和９年４月に開設予定の小規模保育施設について」",
+      "url": "https://www.city.katano.osaka.jp/docs/2026082000033/"
+    },
+    {
+      "label": "交野市「入所案内（令和８年度）」",
+      "url": "https://www.city.katano.osaka.jp/docs/2011061000043/file_contents/file_20251022315298_1.pdf"
+    },
+    {
+      "label": "交野市「育児休業の延長も許容できる方へのマイナス調整点適用のご案内」",
+      "url": "https://www.city.katano.osaka.jp/docs/2011061000043/file_contents/mainasutyousei.pdf"
+    }
+  ]
+}

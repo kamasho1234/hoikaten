@@ -1066,5 +1066,59 @@
     "title": "土浦市の保活スケジュール　令和8年度4月入園の流れ",
     "publishedAt": "2026-05-12",
     "popularity": 36
+  },
+  "daito": {
+    "slug": "hokatsu-schedule",
+    "title": "大東市の保活スケジュール　申込から内定までの流れ",
+    "publishedAt": "2026-04-12",
+    "popularity": 55
+  },
+  "habikino": {
+    "slug": "hokatsu-schedule",
+    "title": "羽曳野市の保活スケジュール　申込から内定までの流れ",
+    "publishedAt": "2026-04-26",
+    "popularity": 55
+  },
+  "ikeda": {
+    "slug": "hokatsu-schedule",
+    "title": "池田市の保活スケジュール　申込から内定までの流れ",
+    "publishedAt": "2026-04-07",
+    "popularity": 55
+  },
+  "izumisano": {
+    "slug": "hokatsu-schedule",
+    "title": "泉佐野市の保活スケジュール　令和8年度4月入園の流れ",
+    "publishedAt": "2026-05-15",
+    "popularity": 38
+  },
+  "kashiwara": {
+    "slug": "hokatsu-schedule",
+    "title": "柏原市の保活スケジュール　令和8年度4月入園の流れ",
+    "publishedAt": "2026-05-15",
+    "popularity": 36
+  },
+  "katano": {
+    "slug": "hokatsu-schedule",
+    "title": "交野市の保活スケジュール完全ガイド　申込から内定まで",
+    "publishedAt": "2026-04-26",
+    "popularity": 55
+  },
+  "matsubara": {
+    "slug": "hokatsu-schedule",
+    "title": "松原市の保活スケジュール　申込から内定までの流れ",
+    "publishedAt": "2026-04-12",
+    "popularity": 55
+  },
+  "shijonawate": {
+    "slug": "hokatsu-schedule",
+    "title": "四条畷市の保活スケジュール　令和8年度4月入園の流れ",
+    "publishedAt": "2026-05-15",
+    "popularity": 37
+  },
+  "tondabayashi": {
+    "slug": "hokatsu-schedule",
+    "title": "富田林市の保活スケジュール　申込から内定までの流れ",
+    "publishedAt": "2026-04-26",
+    "popularity": null
   }
 }
