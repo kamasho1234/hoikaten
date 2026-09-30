@@ -1,0 +1,210 @@
+{
+  "citySlug": "tochigi-city",
+  "checkedAt": "2026-09-30",
+  "page": {
+    "label": "栃木市「令和９年度 保育園、認定こども園、小規模保育施設の入園を希望する方へ」",
+    "url": "https://www.city.tochigi.lg.jp/site/kosodatekyouiku/91694.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "入園案内は8月上旬から配布し、市ホームページにも掲載。配布場所は本庁保育課（本庁2階2A-5番窓口）、各総合支所地域づくり推進課、各保育施設",
+  "firstApply": "令和8年9月1日（火）〜9月30日（水）。令和9年4月から翌年3月までの一年度間の利用を受け付ける（年度途中からの入園希望も含む）。求職活動を事由とする申込は一次選考ではできない",
+  "applyMethods": "第一希望の施設により申込先が異なる。保育園が第一希望なら保育課・各総合支所地域づくり推進課（さくら第２保育園は園に直接）、認定こども園（保育園部分）・小規模保育施設が第一希望なら第一希望の施設に直接申し込む（認定西方なかよしこども園は保育課または各総合支所）",
+  "firstResult": "令和8年11月30日（月）に市から通知を発送。認定こども園・小規模保育施設に申し込んで内定した場合は施設から通知",
+  "secondApply": "令和8年12月7日（月）〜12月21日（月）。空きのある園のみ受け付ける。求職活動を事由とする場合は令和9年4月から利用開始を希望する人のみこの期間に申し込める",
+  "secondResult": "令和9年1月29日（金）に市から通知を発送",
+  "midYearDeadline": "令和9年5月以降の入園は、入園を希望する月の2か月前から1か月間に申し込む（入園希望月12月以降は期間が異なる）。4月入園の最終受付は令和9年2月1日（月）〜2月15日（月）で、結果は3月上旬に発送",
+  "documents": [
+    "保育所等利用申込書（第５希望までの希望園を申し込める）",
+    "教育・保育給付認定申請書",
+    "家庭状況調査票",
+    "保育施設入所申込に関する確認票および同意書",
+    "就労証明書（勤務先が記入・証明。同居している65歳未満の大人全員分が必要）",
+    "育児休業中の場合も就労証明書（復職後の就労時間を勤務先と調整の上で証明を受ける）",
+    "出生前の場合は母子健康手帳（親子健康手帳）の表紙と分娩（出産）予定日を記載したページの写し"
+  ],
+  "interview": "一次選考の面接は令和8年10月中下旬に各地域の会場または各園で、保育園の保育士と親子面接（日時と場所は申込時に案内）。0歳児クラスの面接はなく、入所内定後、入所月前に入園前面談を行う。二次選考の面接は1月6日（水）〜1月14日（木）に各園で",
+  "ikukyu": "入園が保留となり年度内の入園の見込みがないことを証明する保留証明書を、育児休業の延長手続き等で書類が必要な人に発行する。利用申込みをしていない場合や内定辞退の場合は発行できない",
+  "notes": [
+    "申込書類が申込期間内にすべて用意できないときは申し込めない",
+    "保留となった場合、令和9年度の認定期間中は継続して毎月の入園調整を行うので、利用申込書を毎月提出する必要はない",
+    "育休から復帰せずに退職すると内定取り消しとなる。就労・復職予定で内定した場合は、就労・復職後に就労証明書を提出する",
+    "一次選考保留の場合は、二次選考申込期間中に施設の追加変更ができる（保育課に連絡）",
+    "栃木市では利用開始月以前のならし保育は実施していない。慣らし保育は入園後1〜2週間程度で行う"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.tochigi.lg.jp/site/kosodatekyouiku/91694.html",
+      "quote": "令和８年９月から、保育園、認定こども園（保育園部分）、小規模保育施設の令和9年度入園申し込みを受け付けます。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.tochigi.lg.jp/site/kosodatekyouiku/91694.html",
+      "quote": "入園案内は、本庁保育課（本庁2階2A-5番窓口）、各総合支所地域づくり推進課、各保育施設でもお配りしています。"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.tochigi.lg.jp/uploaded/attachment/70830.pdf",
+      "quote": "8月上旬から入園案内を配布します（市ホームページにも掲載いたします）。"
+    },
+    "firstApply": {
+      "url": "https://www.city.tochigi.lg.jp/site/kosodatekyouiku/91694.html",
+      "quote": "○一次選考申込期間　：令和８年　９月１日（火曜日）～令和８年　９月３０日（水曜日）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.tochigi.lg.jp/site/kosodatekyouiku/91694.html",
+      "quote": "一次選考及び二次選考：一年度間（令和９年４月から令和１０年３月）のお申し込み"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.tochigi.lg.jp/site/kosodatekyouiku/91694.html",
+      "quote": "ただし、求職活動を事由とするお申し込みについては、二次選考（１２月）において『４月からの入所を希望する方のみ』、お申し込みが可能です。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.tochigi.lg.jp/site/kosodatekyouiku/91694.html",
+      "quote": "○一次選考および二次選考は、第一希望の施設により申し込み先が異なります。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.tochigi.lg.jp/site/kosodatekyouiku/91694.html",
+      "quote": "・保育園が第一希望の方・・・保育課・各総合支所地域づくり推進課"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.tochigi.lg.jp/site/kosodatekyouiku/91694.html",
+      "quote": "（注）さくら第２保育園については、園に直接申し込んでください。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.tochigi.lg.jp/site/kosodatekyouiku/91694.html",
+      "quote": "・認定こども園（保育園部分）・小規模保育施設が第一希望の方・・・第一希望の施設に直接申し込み"
+    },
+    "applyMethods#5": {
+      "url": "https://www.city.tochigi.lg.jp/site/kosodatekyouiku/91694.html",
+      "quote": "（注）認定西方なかよしこども園（保育園部分）については、保育課または各総合支所地域づくり推進課に申込んでください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.tochigi.lg.jp/uploaded/attachment/70830.pdf",
+      "quote": "１１月 一次申込選考結果通知（11月30 日(月)発送）"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.tochigi.lg.jp/uploaded/attachment/70830.pdf",
+      "quote": "令和８年 9月 ◎ 一次申込受付（9 月1日(火)～30日(水)）"
+    },
+    "firstResult#3": {
+      "url": "https://www.city.tochigi.lg.jp/uploaded/attachment/70830.pdf",
+      "quote": "※認定こども園・小規模保育施設にお申込みし内定された方は、施設から通知いたします。"
+    },
+    "secondApply": {
+      "url": "https://www.city.tochigi.lg.jp/site/kosodatekyouiku/91694.html",
+      "quote": "○二次選考申込期間　：令和８年１２月７日（月曜日）～令和８年１２月２１日（月曜日）"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.tochigi.lg.jp/uploaded/attachment/70830.pdf",
+      "quote": "※空きのある園のみ申込みを受付けます（市ホームページに掲載します）。"
+    },
+    "secondApply#3": {
+      "url": "https://www.city.tochigi.lg.jp/uploaded/attachment/70830.pdf",
+      "quote": "※求職活動を事由とする方は、令和９年4月から利用開始を希望する方のみ、この期間にお申込みください。"
+    },
+    "secondResult": {
+      "url": "https://www.city.tochigi.lg.jp/uploaded/attachment/70830.pdf",
+      "quote": "令和９年 1月 二次申込選考結果通知（1月29 日(金)発送）"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.tochigi.lg.jp/uploaded/attachment/70830.pdf",
+      "quote": "令和9年5月以降の年度中の入園を希望する方は、入園希望月毎に申込期間を定め、以下のとおり受付いたします。"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.tochigi.lg.jp/uploaded/attachment/70830.pdf",
+      "quote": "入園を希望する月の2ヵ月前から1か月間（右表参照） ※入園希望月12月以降は期間が異なりますのでご注意ください。"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.tochigi.lg.jp/uploaded/attachment/70830.pdf",
+      "quote": "受付期間：令和9年２月１日（月）～２月１５日（月）"
+    },
+    "midYearDeadline#4": {
+      "url": "https://www.city.tochigi.lg.jp/uploaded/attachment/70830.pdf",
+      "quote": "2月 ◎ ４月利用開始分の最終申込受付（2月１日(月)～１5日(月)） ４月入園選考結果通知（３月上旬発送）"
+    },
+    "documents.0": {
+      "url": "https://www.city.tochigi.lg.jp/uploaded/attachment/70830.pdf",
+      "quote": "保育所等利用申込書 第５希望までの希望園をお申込みできます。"
+    },
+    "documents.1": {
+      "url": "https://www.city.tochigi.lg.jp/uploaded/attachment/70830.pdf",
+      "quote": "教育・保育給付認定申請書 保育園、認定こども園、小規模保育施設を利用する場合、保育認定を受ける必要があります。"
+    },
+    "documents.2": {
+      "url": "https://www.city.tochigi.lg.jp/uploaded/attachment/70830.pdf",
+      "quote": "家庭状況調査票 ご家庭の状況について、また、裏面のお子さんの健康状態や発育についてご記入ください。"
+    },
+    "documents.3": {
+      "url": "https://www.city.tochigi.lg.jp/uploaded/attachment/70830.pdf",
+      "quote": "必ず内容を確認し、チェック欄、氏名を記入し押印（自署する場合不要）し"
+    },
+    "documents.4": {
+      "url": "https://www.city.tochigi.lg.jp/uploaded/attachment/70830.pdf",
+      "quote": "※同居している65歳未満の大人の方全員分が必要です。 世帯ではなく、同じ住居に居住している方全員分が必要となります。"
+    },
+    "documents.5": {
+      "url": "https://www.city.tochigi.lg.jp/uploaded/attachment/70830.pdf",
+      "quote": "育児休業中 就労証明書（勤務先が記入・証明） ※復職後の就労時間を勤務先と調整の上、証明を受けて下さい。"
+    },
+    "documents.6": {
+      "url": "https://www.city.tochigi.lg.jp/uploaded/attachment/70830.pdf",
+      "quote": "出生前の方 母子健康手帳（親子健康手帳）の表紙及び分娩（出産）予定日を記載したページの写し"
+    },
+    "interview": {
+      "url": "https://www.city.tochigi.lg.jp/uploaded/attachment/70830.pdf",
+      "quote": "面接期間：令和８年１０月中下旬 面接場所：各地域の会場または各園 （日時と場所は、お申込み時にお知らせいたします） 内 容：保育園の保育士と親子面接"
+    },
+    "interview#2": {
+      "url": "https://www.city.tochigi.lg.jp/uploaded/attachment/70830.pdf",
+      "quote": "また、0歳児クラスの面接はありません。入所内定後、入所月前に入園前面談をいたします。"
+    },
+    "interview#3": {
+      "url": "https://www.city.tochigi.lg.jp/uploaded/attachment/70830.pdf",
+      "quote": "…１月６日（水）～１月１４日（木） 申込後、１２月２４日（木）以降に第一希望園に連絡し、期間内に面接を受けてください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.tochigi.lg.jp/uploaded/attachment/70830.pdf",
+      "quote": "保育園の入園が保留となり、年度内の入園の見込みがないことを証明するものです。育児休業の延長手続き等で書類が必要な方に対して発行しています。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.tochigi.lg.jp/uploaded/attachment/70830.pdf",
+      "quote": "※利用申込みをしていない場合及び内定辞退の場合は、証明書の発行はできません。"
+    },
+    "notes.0": {
+      "url": "https://www.city.tochigi.lg.jp/site/kosodatekyouiku/91694.html",
+      "quote": "※申込書類が申込期間内にすべてご用意できない時は、お申し込みできません。"
+    },
+    "notes.1": {
+      "url": "https://www.city.tochigi.lg.jp/uploaded/attachment/70830.pdf",
+      "quote": "なお、保留となった場合、令和9年度の認定期間中は継続して毎月の入園調整を行いますので、利用申込書を毎月提出していただく必要はありません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.tochigi.lg.jp/uploaded/attachment/70830.pdf",
+      "quote": "また、就労・復職予定で内定した方は、就労・復職後に就労証明書を提出してください。"
+    },
+    "notes.2#2": {
+      "url": "https://www.city.tochigi.lg.jp/uploaded/attachment/70830.pdf",
+      "quote": "※育休から復帰せずに退職する方は、内定取り消しとなりますので、内定園又は保育課へご連"
+    },
+    "notes.3": {
+      "url": "https://www.city.tochigi.lg.jp/uploaded/attachment/70830.pdf",
+      "quote": "一次選考保留の方は、二次選考申込期間中に施設の追加変更ができますので、保育課ま"
+    },
+    "notes.4": {
+      "url": "https://www.city.tochigi.lg.jp/uploaded/attachment/70830.pdf",
+      "quote": "なお、栃木市では、利用開始月以前のならし保育は実施していません。"
+    },
+    "notes.4#2": {
+      "url": "https://www.city.tochigi.lg.jp/uploaded/attachment/70830.pdf",
+      "quote": "慣らし保育については、入園後1～2週間程度の間で徐々に時間を長くしながら行いますのでご協力をお願いします。"
+    }
+  },
+  "sources": [
+    {
+      "label": "栃木市「令和９年度 保育園、認定こども園、小規模保育施設の入園を希望する方へ」",
+      "url": "https://www.city.tochigi.lg.jp/site/kosodatekyouiku/91694.html"
+    },
+    {
+      "label": "栃木市「令和９年度 保育園・認定こども園・小規模保育施設 入園案内」（PDF）",
+      "url": "https://www.city.tochigi.lg.jp/uploaded/attachment/70830.pdf"
+    }
+  ]
+}

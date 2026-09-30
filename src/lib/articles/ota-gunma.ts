@@ -3,59 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "ota-gunma",
-    title: "太田市の保活スケジュール　令和8年度4月入園の流れ",
-    description:
-      "太田市の認可保育園の申込時期・選考の流れ・結果通知の時期をわかりやすく解説。令和8年度4月入園のスケジュールを中心にまとめました。",
-    image:
-      "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>令和8年度（2026年度）4月入園のスケジュール</h2>
-<p>太田市の4月入園は<strong>一次利用調整</strong>と<strong>二次利用調整</strong>の2回に分かれています。申込先は太田市子育て支援課です。</p>
-
-<h3>一次利用調整</h3>
-<table>
-<tr><th>項目</th><th>日程</th></tr>
-<tr><td>申込受付期間</td><td>令和7年11月上旬〜12月上旬</td></tr>
-<tr><td>結果通知</td><td>令和8年1月下旬</td></tr>
-</table>
-
-<h2>いつから動き始めるべき？</h2>
-
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content">
-<strong>4月〜5月：情報収集スタート</strong>
-<p>太田市の認可保育園は約35か所。東部と西部のエリア分けをして調べましょう。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content">
-<strong>6月〜9月：保育園見学</strong>
-<p>気になる園に電話して見学予約。見学のベストシーズンです。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content">
-<strong>10月：申込案内の入手</strong>
-<p>太田市が発行する「保育施設利用のご案内」を入手しましょう。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content">
-<strong>11月〜12月：申込書類の準備・提出</strong>
-<p>就労証明書などの書類を揃えて子育て支援課へ提出します。</p>
-</div>
-</div>`,
-    publishedAt: "2026-04-29",
-    popularity: 50,
-  },
-  {
     slug: "hokatsu-mistakes",
     citySlug: "ota-gunma",
     title: "太田市の保活でよくある失敗と対策5選",

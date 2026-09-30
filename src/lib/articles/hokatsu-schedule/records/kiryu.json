@@ -1,0 +1,178 @@
+{
+  "citySlug": "kiryu",
+  "checkedAt": "2026-09-30",
+  "page": {
+    "label": "桐生市「令和9年度4月入園　保育施設申し込み」",
+    "url": "https://www.city.kiryu.lg.jp/kosodate/1009669/hoikuen/1017423.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年10月1日（木曜日）〜令和8年11月30日（月曜日）。間に合わなかった場合は追加期間1（令和8年12月1日〜令和9年2月15日）と追加期間2（令和9年2月16日〜3月15日）があり、4月入園の申込最終期限は令和9年3月15日（月曜日）",
+  "applyMethods": "保健福祉会館1階子育て支援課、新里支所市民生活課、公立保育施設（公立保育施設入園希望者に限る）の窓口で、午前8時30分〜午後5時15分に受け付ける。マイナンバーカードがあればマイナポータルからも一部手続きできるが、申込期間内に子育て支援課窓口でマイナンバーの原本確認が必要",
+  "firstResult": "12月下旬に施設利用承諾通知書（保育園）または施設利用内定通知書（認定こども園）を保護者へ発送（予定）",
+  "secondApply": "追加期間1：令和8年12月1日（火曜日）〜令和9年2月15日（月曜日）",
+  "secondResult": "2月下旬に通知書を発送（予定）",
+  "midYearDeadline": "5月以降の入園は毎月1日入園で、入園を希望する月の前月15日まで（15日が土日祝日なら直前の平日）。前月の利用調整締め切り後から受付",
+  "documents": [
+    "子どものための教育・保育給付認定申請書",
+    "保育園入園申込書（保育園希望者のみ）",
+    "こども園入園申込書（公立認定こども園希望者のみ）",
+    "保育が必要な事由を証する書類（就労証明書や母子手帳等の写し、求職を証明する届出書など）。入園を希望する月に保育が必要である状況を証明する",
+    "同居家族全員の通知カード、個人番号カード、特定在留カード、特定特別永住者証明書またはマイナンバーが記載された住民票の写し・住民票記載事項証明書のいずれかの原本",
+    "書類提出者の顔写真付きの身分証明書",
+    "委任状（認定申請書の保護者氏名欄に記載されていない人が窓口に来る場合）",
+    "障害者手帳、特別児童扶養手当、障害基礎年金証書等の写し（該当者のみ）"
+  ],
+  "interview": "保育所・認定こども園（保育部分）は、申請の前に園見学をするよう案内されている",
+  "notes": [
+    "申込期間・追加期間1・追加期間2のそれぞれの期間ごとに入園を決めるため、希望者が多い場合は申込期間中の申込みでも希望する施設に入園できないことがある",
+    "保育認定は第1希望の施設ごとに取りまとめ、保育の必要指数の高い順に入園を決める。先着順ではない",
+    "保護者ともに求職活動での認定はできない（起業準備を除く）",
+    "マイナポータルで申請した場合、原本での確認がとれないと入園取消となる場合がある。市外在住で転入予定の人はマイナポータルでは受け付けず窓口での手続きになる",
+    "育休から復職する場合は、復職の1か月前から新規入所できる",
+    "教育・保育給付認定申請書などを各保育施設、保健福祉会館1階の子育て支援課と両支所で配布。各施設の保育方針や保育内容を載せたガイドブックも配布している"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.kiryu.lg.jp/kosodate/1009669/hoikuen/1017423.html",
+      "quote": "令和9年4月から、保育施設に入園を希望する人、在園中の施設から別の施設に転園を希望する人は、入園申込み・相談を保健福祉会館と新里支所で受け付けます。"
+    },
+    "firstApply": {
+      "url": "https://www.city.kiryu.lg.jp/kosodate/1009669/hoikuen/1017423.html",
+      "quote": "令和8年10月1日（木曜日）〜令和8年11月30日（月曜日）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.kiryu.lg.jp/kosodate/1009669/hoikuen/1017423.html",
+      "quote": "追加期間1：令和8年12月1日（火曜日）から令和9年2月15日（月曜日）"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.kiryu.lg.jp/kosodate/1009669/hoikuen/1017423.html",
+      "quote": "追加期間2：令和9年2月16日（火曜日）から令和9年3月15日（月曜日）"
+    },
+    "firstApply#4": {
+      "url": "https://www.city.kiryu.lg.jp/kosodate/1009669/hoikuen/1017423.html",
+      "quote": "注：令和9年4月入園の申込最終期限は令和9年3月15日（月曜日）となりますが、申込期間、追加期間1、追加期間2のそれぞれの期間ごとに入園を決定しますので、希望者が多数いる場合等は、申込期間中の申込みであっても希望する施設に入園できないことがあります。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.kiryu.lg.jp/kosodate/1009669/hoikuen/1017423.html",
+      "quote": "受付場所：保健福祉会館1階子育て支援課、新里支所市民生活課、公立保育施設（公立保育施設入園希望者に限る）"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.kiryu.lg.jp/kosodate/1009669/hoikuen/1017423.html",
+      "quote": "受付時間：午前8時30分〜午後5時15分"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.kiryu.lg.jp/kosodate/1009669/hoikuen/1017423.html",
+      "quote": "マイナンバーカードをお持ちの方は、マイナポータルからの入園の手続きが一部可能となりました。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.kiryu.lg.jp/kosodate/1009669/hoikuen/1017423.html",
+      "quote": "申請後、マイナンバーの原本確認が必要となりますので、申込期間内に必ず子育て支援課窓口までお越しください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.kiryu.lg.jp/kosodate/1009669/hoikuen/1017423.html",
+      "quote": "12月下旬（申込期間：令和8年10月1日～令和8年11月30日）"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.kiryu.lg.jp/kosodate/1009669/hoikuen/1017423.html",
+      "quote": "4月入園の決定は、申込期間・追加期間ごとに行い、入園の決定を行います。施設利用承諾通知書（保育園入園者）、または施設利用内定通知書（認定こども園入園者）を保護者へ発送いたします。"
+    },
+    "secondApply": {
+      "url": "https://www.city.kiryu.lg.jp/kosodate/1009669/hoikuen/1017423.html",
+      "quote": "追加期間1：令和8年12月1日（火曜日）から令和9年2月15日（月曜日）"
+    },
+    "secondResult": {
+      "url": "https://www.city.kiryu.lg.jp/kosodate/1009669/hoikuen/1017423.html",
+      "quote": "2月下旬（追加期間1：令和8年12月1日～令和9年2月15日）"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.kiryu.lg.jp/kosodate/1009669/hoikuen/1017423.html",
+      "quote": "申込期限　入園を希望する月の前月の15日まで（15日が土曜日、日曜日、祝日の場合は直前の平日）"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.kiryu.lg.jp/kosodate/1009669/hoikuen/1017423.html",
+      "quote": "入園は、必ず毎月1日での入園となります。"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.kiryu.lg.jp/kosodate/1009669/hoikuen/1017423.html",
+      "quote": "前月利用調整締め切り後から受付となります。"
+    },
+    "documents.0": {
+      "url": "https://www.city.kiryu.lg.jp/kosodate/1009669/hoikuen/1017423.html",
+      "quote": "子どものための教育・保育給付認定申請書"
+    },
+    "documents.1": {
+      "url": "https://www.city.kiryu.lg.jp/kosodate/1009669/hoikuen/1017423.html",
+      "quote": "保育園入園申込書（保育園希望者のみ）"
+    },
+    "documents.2": {
+      "url": "https://www.city.kiryu.lg.jp/kosodate/1009669/hoikuen/1017423.html",
+      "quote": "こども園入園申込書（公立認定こども園希望者のみ）"
+    },
+    "documents.3": {
+      "url": "https://www.city.kiryu.lg.jp/kosodate/1009669/hoikuen/1017423.html",
+      "quote": "保育が必要な事由を証する書類（就労証明書や母子手帳等の写し、求職を証明する届出書など）"
+    },
+    "documents.3#2": {
+      "url": "https://www.city.kiryu.lg.jp/kosodate/1009669/hoikuen/1017423.html",
+      "quote": "保育が必要な事由を証する書類においては、入園を希望する月に保育が必要である状況を証明していただきます。"
+    },
+    "documents.4": {
+      "url": "https://www.city.kiryu.lg.jp/kosodate/1009669/hoikuen/1017423.html",
+      "quote": "同居家族全員の通知カード、個人番号カード、特定在留カード、特定特別永住者証明書またはマイナンバーが記載された住民票の写し・住民票記載事項証明書のいずれかの原本"
+    },
+    "documents.5": {
+      "url": "https://www.city.kiryu.lg.jp/kosodate/1009669/hoikuen/1017423.html",
+      "quote": "書類提出者の顔写真付の身分証明書"
+    },
+    "documents.6": {
+      "url": "https://www.city.kiryu.lg.jp/kosodate/1009669/hoikuen/1017423.html",
+      "quote": "委任状（認定申請書の保護者氏名欄に記載されていない人が窓口に来る場合）"
+    },
+    "documents.7": {
+      "url": "https://www.city.kiryu.lg.jp/kosodate/1009669/hoikuen/1017423.html",
+      "quote": "障害者手帳、特別児童扶養手当、障害基礎年金証書等の写し（該当者のみ）"
+    },
+    "interview": {
+      "url": "https://www.city.kiryu.lg.jp/_res/projects/default_project/_page_/001/017/423/202609nyuen.pdf",
+      "quote": "○ 保育所・認定こども園（保育部分）は、申請の前に園見学をしてください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.kiryu.lg.jp/kosodate/1009669/hoikuen/1017423.html",
+      "quote": "注：令和9年4月入園の申込最終期限は令和9年3月15日（月曜日）となりますが、申込期間、追加期間1、追加期間2のそれぞれの期間ごとに入園を決定しますので、希望者が多数いる場合等は、申込期間中の申込みであっても希望する施設に入園できないことがあります。"
+    },
+    "notes.1": {
+      "url": "https://www.city.kiryu.lg.jp/_res/projects/default_project/_page_/001/017/423/202609nyuen.pdf",
+      "quote": "保育認定については、第１希望の施設ごとに取りまとめ、保育の必要指数の高い順に入園を決定します。先着順ではありません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.kiryu.lg.jp/kosodate/1009669/hoikuen/1017423.html",
+      "quote": "注：保護者ともに求職活動での認定はできません。（起業準備を除く）"
+    },
+    "notes.3": {
+      "url": "https://www.city.kiryu.lg.jp/kosodate/1009669/hoikuen/1017423.html",
+      "quote": "原本での確認がとれない場合には入園取消となる場合がありますのでご注意ください。"
+    },
+    "notes.3#2": {
+      "url": "https://www.city.kiryu.lg.jp/kosodate/1009669/hoikuen/1017423.html",
+      "quote": "注：市外在住で、転入予定の方は、受付できません。窓口でのお手続きをお願いします。"
+    },
+    "notes.4": {
+      "url": "https://www.city.kiryu.lg.jp/_res/projects/default_project/_page_/001/017/423/202609nyuen.pdf",
+      "quote": "※1 育休から復職する場合は、復職の 1か月前より新規入所可能です。"
+    },
+    "notes.5": {
+      "url": "https://www.city.kiryu.lg.jp/kosodate/1009669/hoikuen/1017423.html",
+      "quote": "子どものための教育・保育給付認定申請書などは各保育施設、保健福祉会館1階の子育て支援課及び両支所で配布しています。また、各保育施設の保育方針や保育内容などの情報を記載したガイドブックも配布しています。"
+    }
+  },
+  "sources": [
+    {
+      "label": "桐生市「令和9年度4月入園　保育施設申し込み」",
+      "url": "https://www.city.kiryu.lg.jp/kosodate/1009669/hoikuen/1017423.html"
+    },
+    {
+      "label": "桐生市「令和9年度 入園ガイドブック」（PDF）",
+      "url": "https://www.city.kiryu.lg.jp/_res/projects/default_project/_page_/001/017/423/202609nyuen.pdf"
+    }
+  ]
+}

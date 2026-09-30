@@ -1,0 +1,170 @@
+{
+  "citySlug": "toride",
+  "checkedAt": "2026-09-30",
+  "page": {
+    "label": "取手市「【令和8年度】保育施設等利用のお申込み」",
+    "url": "https://www.city.toride.ibaraki.jp/kosodate/kurashi/kosodate/hoikujo/r3hoikuriyou.html"
+  },
+  "fiscalYear": "R8",
+  "firstApply": "令和7年11月19日（水曜日）〜令和7年12月10日（水曜日）（令和8年4月入所の一次受付）",
+  "applyMethods": "取手市に住民登録があるか転入予定の人はオンライン申請で受け付け、24時間いつでも申し込める。取手市に転入せず市外から申し込む人はオンライン申請を使えない",
+  "firstResult": "一次受付分は令和8年1月14日（水）の入所判定会議で判定し、結果はオンライン申請時に登録したメールアドレスへ連絡",
+  "secondApply": "令和8年2月1日（日曜日）〜令和8年3月10日（火曜日）午後5時15分まで",
+  "secondResult": "二次受付分は令和8年3月17日（火）の入所判定会議で判定し、結果はメールで連絡",
+  "midYearDeadline": "5月以降の入所は入所希望月の前月10日の午後5時15分まで（10日が土日祝日の場合はその直前の平日まで）",
+  "documents": [
+    "申請者本人の確認書類（運転免許証、パスポート、マイナンバーカードなどのいずれか）",
+    "個人番号（マイナンバー）がわかる書類（個人番号カード、通知カード、個人番号が記載されている住民票のいずれか）",
+    "保護者（父母）と60歳未満の同居祖父母の保育にあたれない証明書。就労している人は就労証明書（証明日から3か月以内のもの）",
+    "疾病の人は保育ができないことが明記された診断書（発行日から3か月以内のもの）"
+  ],
+  "interview": "入所内定者には保育施設での面接日時が知らされ、面接は母子手帳を持って子ども同伴で出席する。施設によっては面接日と同じ日に健康診断を行う",
+  "ikukyu": "育休延長に不承諾通知書が必要な人には、入所判定会議の終了後（22日頃）に自宅へ送る。申請を取り下げた場合は不承諾通知を出せない。利用調整では、希望園に入れなかった場合に育児休業の延長を許容できる世帯は60点減点される",
+  "notes": [
+    "令和9年4月入所の申請は、令和9年1月から3月入所の受付（令和8年11月11日〜12月10日）とほぼ同時期に始まる予定で、申請フォームは別になる",
+    "認定こども園を希望する場合は必ず園を見学する",
+    "申込みが完了すると受け付けお知らせメールが自動送信されるので、届かない場合は申込みが完了していない可能性がある",
+    "きょうだいで申し込む場合は一人ずつ申請が必要",
+    "取手市に転入予定のない人は4月一次入所の申請ができない（市内の認可保育施設で保育士としてフルタイム勤務する場合を除く）"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.toride.ibaraki.jp/kosodate/kurashi/kosodate/hoikujo/r3hoikuriyou.html",
+      "quote": "令和8年度（令和8年4月から令和9年3月まで）の公立保育所・私立保育園・認定こども園（保育所部）の申込みについてのご案内です。"
+    },
+    "firstApply": {
+      "url": "https://www.city.toride.ibaraki.jp/kosodate/kurashi/kosodate/hoikujo/r3hoikuriyou.html",
+      "quote": "【受付終了】【一次受付】令和7年11月19日（水曜日）から令和7年12月10日（水曜日）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.toride.ibaraki.jp/kosodate/kurashi/kosodate/hoikujo/documents/r8nyuushoannnai_1119shuusei.pdf",
+      "quote": "令和8年 4月1日 利用希望 → 11/19(水) → 12/10(水) 一次受付分 1/14(水)"
+    },
+    "applyMethods": {
+      "url": "https://www.city.toride.ibaraki.jp/kosodate/kurashi/kosodate/hoikujo/r3hoikuriyou.html",
+      "quote": "取手市の保育施設を希望されるかたのうち、お申込み時点で取手市に住民登録があるかた、もしくは取手市に転入予定のかたは、オンライン申請での受付となります。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.toride.ibaraki.jp/kosodate/kurashi/kosodate/hoikujo/r3hoikuriyou.html",
+      "quote": "の申請フォームに移動します。24時間いつでもお申込みが可能です。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.toride.ibaraki.jp/kosodate/kurashi/kosodate/hoikujo/r3hoikuriyou.html",
+      "quote": "以下に該当するかたは、オンライン申請でのお申込みができません。"
+    },
+    "firstResult": {
+      "url": "https://www.city.toride.ibaraki.jp/kosodate/kurashi/kosodate/hoikujo/documents/r8nyuushoannnai_1119shuusei.pdf",
+      "quote": "令和8年 4月1日 利用希望 → 11/19(水) → 12/10(水) 一次受付分 1/14(水)"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.toride.ibaraki.jp/kosodate/kurashi/kosodate/hoikujo/r3hoikuriyou.html",
+      "quote": "入所判定会議の結果は、オンライン申請時に登録したメールアドレスへご連絡します。"
+    },
+    "secondApply": {
+      "url": "https://www.city.toride.ibaraki.jp/kosodate/kurashi/kosodate/hoikujo/r3hoikuriyou.html",
+      "quote": "【受付終了】【二次受付】令和8年2月1日（日曜日）から令和8年3月10日（火曜日）の午後5時15分まで"
+    },
+    "secondResult": {
+      "url": "https://www.city.toride.ibaraki.jp/kosodate/kurashi/kosodate/hoikujo/documents/r8nyuushoannnai_1119shuusei.pdf",
+      "quote": "（2026年） → 2/1(日) → 3/10(火) 二次受付分 3/17(火)"
+    },
+    "secondResult#2": {
+      "url": "https://www.city.toride.ibaraki.jp/kosodate/kurashi/kosodate/hoikujo/r3hoikuriyou.html",
+      "quote": "入所判定会議の結果は、オンライン申請時に登録したメールアドレスへご連絡します。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.toride.ibaraki.jp/kosodate/kurashi/kosodate/hoikujo/r3hoikuriyou.html",
+      "quote": "入所希望月の前月10日の 午後5時15分 まで"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.toride.ibaraki.jp/kosodate/kurashi/kosodate/hoikujo/r3hoikuriyou.html",
+      "quote": "10日が土曜、日曜、祝日の場合はその直前の平日までになります。"
+    },
+    "documents.0": {
+      "url": "https://www.city.toride.ibaraki.jp/kosodate/kurashi/kosodate/hoikujo/r3hoikuriyou.html",
+      "quote": "申請者本人の確認書類として、次のいずれかを添付してください。"
+    },
+    "documents.1": {
+      "url": "https://www.city.toride.ibaraki.jp/kosodate/kurashi/kosodate/hoikujo/r3hoikuriyou.html",
+      "quote": "個人番号（マイナンバー）がわかる次のいずれかの書類を添付してください"
+    },
+    "documents.2": {
+      "url": "https://www.city.toride.ibaraki.jp/kosodate/kurashi/kosodate/hoikujo/r3hoikuriyou.html",
+      "quote": "保護者（父母）と60歳未満の同居祖父母は、下記のいずれかの証明書が必要です。"
+    },
+    "documents.2#2": {
+      "url": "https://www.city.toride.ibaraki.jp/kosodate/kurashi/kosodate/hoikujo/r3hoikuriyou.html",
+      "quote": "（証明日から3か月以内のもの）"
+    },
+    "documents.3": {
+      "url": "https://www.city.toride.ibaraki.jp/kosodate/kurashi/kosodate/hoikujo/r3hoikuriyou.html",
+      "quote": "診断書（ 保育ができないことが明記 されている発行日から3か月以内のもの）"
+    },
+    "interview": {
+      "url": "https://www.city.toride.ibaraki.jp/kosodate/kurashi/kosodate/hoikujo/r3hoikuriyou.html",
+      "quote": "面接は母子手帳をお持ちの上、お子さん同伴でご出席ください。"
+    },
+    "interview#2": {
+      "url": "https://www.city.toride.ibaraki.jp/kosodate/kurashi/kosodate/hoikujo/r3hoikuriyou.html",
+      "quote": "施設によって、面接日同日に健康診断を実施する場合もあります。"
+    },
+    "interview#3": {
+      "url": "https://www.city.toride.ibaraki.jp/kosodate/kurashi/kosodate/hoikujo/r3hoikuriyou.html",
+      "quote": "入所内定者には保育施設での面接日時もお知らせします。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.toride.ibaraki.jp/kosodate/kurashi/kosodate/hoikujo/hoikujo-qa.html",
+      "quote": "不承諾通知が必要なかたは、入所判定会議終了後（22日頃）にご自宅へお送りします。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.toride.ibaraki.jp/kosodate/kurashi/kosodate/hoikujo/hoikujo-qa.html",
+      "quote": "ただし、申請を取り下げた場合、不承諾通知ををお出しすることはできませんので、ご注意ください。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.toride.ibaraki.jp/kosodate/kurashi/kosodate/hoikujo/documents/r8nyuushoannnai_1119shuusei.pdf",
+      "quote": "希望園に入所（園）できなかった場合は、育児休業の延長を許容できる -60"
+    },
+    "notes.0": {
+      "url": "https://www.city.toride.ibaraki.jp/kosodate/kurashi/kosodate/hoikujo/r3hoikuriyou.html",
+      "quote": "ほぼ同時期に令和9年4月入所の申請も開始予定です。1月から3月入所申請と4月入所申請は別の申請フォームとなり、それぞれ申請が必要となりますのでご注意ください。"
+    },
+    "notes.0#2": {
+      "url": "https://www.city.toride.ibaraki.jp/kosodate/kurashi/kosodate/hoikujo/r3hoikuriyou.html",
+      "quote": "令和8年11月11日（水曜日）から令和8年12月10日（木曜日）"
+    },
+    "notes.1": {
+      "url": "https://www.city.toride.ibaraki.jp/kosodate/kurashi/kosodate/hoikujo/r3hoikuriyou.html",
+      "quote": "保育施設の見学は直接各園へお問い合わせください。認定こども園を希望される際は、必ず園を見学するようにしてください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.toride.ibaraki.jp/kosodate/kurashi/kosodate/hoikujo/r3hoikuriyou.html",
+      "quote": "メールが届かない場合はお申込みが完了していない可能性があるため、必ずご確認ください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.toride.ibaraki.jp/kosodate/kurashi/kosodate/hoikujo/r3hoikuriyou.html",
+      "quote": "きょうだいで保育施設のお申込みをする場合は、一人ずつ申請が必要となります"
+    },
+    "notes.4": {
+      "url": "https://www.city.toride.ibaraki.jp/kosodate/kurashi/kosodate/hoikujo/documents/r8nyuushoannnai_1119shuusei.pdf",
+      "quote": "4月一次入所申請については、受付けできません。※"
+    },
+    "notes.4#2": {
+      "url": "https://www.city.toride.ibaraki.jp/kosodate/kurashi/kosodate/hoikujo/documents/r8nyuushoannnai_1119shuusei.pdf",
+      "quote": "※ただし、取手市内の認可保育施設の保育士としてフルタイムで勤務する場合、この制限はありません。"
+    }
+  },
+  "sources": [
+    {
+      "label": "取手市「【令和8年度】保育施設等利用のお申込み」",
+      "url": "https://www.city.toride.ibaraki.jp/kosodate/kurashi/kosodate/hoikujo/r3hoikuriyou.html"
+    },
+    {
+      "label": "取手市「保育施設利用のご案内（令和8年度）」PDF",
+      "url": "https://www.city.toride.ibaraki.jp/kosodate/kurashi/kosodate/hoikujo/documents/r8nyuushoannnai_1119shuusei.pdf"
+    },
+    {
+      "label": "取手市「保育施設に関するQ＆A」",
+      "url": "https://www.city.toride.ibaraki.jp/kosodate/kurashi/kosodate/hoikujo/hoikujo-qa.html"
+    }
+  ]
+}

@@ -101,7 +101,7 @@ KINDS = {
         "main_page": "page",
         "link_fields": ("page",),
         "files_field": None,
-        "keyword": r"(入園|入所|利用)(の)?(申込|申し込み|申請|案内)",
+        "keyword": r"(入園|入所|利用)(\(園\))?(の)?(申込|申し込み|申請|案内)",  # 「入所（園）申込み」（足利）も通す
         "keyword_label": "入園申込",
         "dup_fields": ("notes", "documents"),
         "filename_ok": (),

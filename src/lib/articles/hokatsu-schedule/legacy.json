@@ -1006,5 +1006,65 @@
     "title": "八千代市の保活スケジュール　申込から内定までの流れ",
     "publishedAt": "2026-04-07",
     "popularity": 55
+  },
+  "ashikaga": {
+    "slug": "hokatsu-schedule",
+    "title": "足利市の保活スケジュール　令和8年度4月入園の流れ",
+    "publishedAt": "2026-04-29",
+    "popularity": 49
+  },
+  "hitachi": {
+    "slug": "hokatsu-schedule",
+    "title": "日立市の保活スケジュール　令和8年度4月入園の流れ",
+    "publishedAt": "2026-04-29",
+    "popularity": 51
+  },
+  "hitachinaka": {
+    "slug": "hokatsu-schedule",
+    "title": "ひたちなか市の保活スケジュール　令和8年度4月入園の流れ",
+    "publishedAt": "2026-04-29",
+    "popularity": 50
+  },
+  "kiryu": {
+    "slug": "hokatsu-schedule",
+    "title": "桐生市の保活スケジュール　令和8年度4月入園の流れ",
+    "publishedAt": "2026-04-29",
+    "popularity": 49
+  },
+  "ota-gunma": {
+    "slug": "hokatsu-schedule",
+    "title": "太田市の保活スケジュール　令和8年度4月入園の流れ",
+    "publishedAt": "2026-04-29",
+    "popularity": 50
+  },
+  "oyama": {
+    "slug": "hokatsu-schedule",
+    "title": "小山市の保活スケジュール　令和8年度4月入園の流れ",
+    "publishedAt": "2026-04-29",
+    "popularity": 52
+  },
+  "sano": {
+    "slug": "hokatsu-schedule",
+    "title": "佐野市の保活スケジュール　令和8年度4月入園の流れ",
+    "publishedAt": "2026-04-29",
+    "popularity": 43
+  },
+  "tochigi-city": {
+    "slug": "hokatsu-schedule",
+    "title": "栃木市の保活スケジュール　令和8年度4月入園の流れ",
+    "publishedAt": "2026-04-29",
+    "popularity": 51
+  },
+  "toride": {
+    "slug": "hokatsu-schedule",
+    "title": "取手市の保活スケジュール　令和8年度4月入園の流れ",
+    "publishedAt": "2026-04-29",
+    "popularity": 51
+  },
+  "tsuchiura": {
+    "slug": "hokatsu-schedule",
+    "title": "土浦市の保活スケジュール　令和8年度4月入園の流れ",
+    "publishedAt": "2026-05-12",
+    "popularity": 36
   }
 }

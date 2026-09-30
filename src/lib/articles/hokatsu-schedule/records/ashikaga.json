@@ -1,0 +1,156 @@
+{
+  "citySlug": "ashikaga",
+  "checkedAt": "2026-09-30",
+  "page": {
+    "label": "足利市「令和9年度幼稚園・認定こども園・保育所（園）の一次募集について」",
+    "url": "https://www.city.ashikaga.tochigi.jp/health/000046/000225/000653/p008412.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年9月1日（火曜日）〜9月18日（金曜日）",
+  "applyMethods": "申込書類を持って、子どもと一緒に入所（園）を希望する施設へ直接申し込む。申込書類は各教育・保育施設、各子育て支援センター、保育課で配布",
+  "firstResult": "保育認定の場合、11月末頃までに内定通知書を送付する予定。内定に至らなかった人には2次募集のお知らせを送付",
+  "midYearDeadline": "入園希望月の前月20日まで（20日が土日祝日の場合は前営業日）に希望施設へ申し込む",
+  "documents": [
+    "教育・保育給付認定申請書（申込児童1人につき1枚）",
+    "保育利用に関する同意書、提出書類チェックリスト（保育認定の場合）",
+    "保育実施認定調査書（月64時間以上認可外保育施設やベビーシッターを利用している人、市外の保育施設から市内に転園を希望する人は利用施設名等を記入）",
+    "保育所入所申込書（公立・民間保育所（園）のみ。一斉申込みでは内定後に保育課から用紙が送付される）",
+    "就労証明書（指定の様式。勤務先の雇用主や所属長から証明を受ける。自分で書いたものは無効）"
+  ],
+  "notes": [
+    "1次募集は第1希望のみの受付で、複数の施設に申し込むことはできない",
+    "公立保育所は1次募集以外での申込みを受け付けていない",
+    "公立保育所の再編に伴い、令和5年度から一部の公立保育所で入所制限を行っている",
+    "2次募集は11月下旬から12月上旬頃の予定（1次募集の審査状況により決定）。日程は1次募集審査終了後にホームページに掲載され、広報紙では知らせない",
+    "令和9年度途中に育児休業が終わり復職する時点で預ける人も一斉申込みの対象（令和10年3月31日までに復職する人のみ）",
+    "各施設に申込期間中の集中受付日があり、なるべく集中受付日に行くよう求められている（集中受付日以外でも募集期間中は申込み可能）"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.ashikaga.tochigi.jp/health/000046/000225/000653/p008581.html",
+      "quote": "令和9年度中（令和9年4月～令和10年3月）に足利市の教育・保育施設に入所（園）を希望する方 は、生まれる前（出生予定）のお子さまも含め、一斉申込みでの申込みが必要になります。"
+    },
+    "firstApply": {
+      "url": "https://www.city.ashikaga.tochigi.jp/health/000046/000225/000653/p008581.html",
+      "quote": "募集期間は令和8年9月1日（火曜日）から令和8年9月18日（金曜日） です。"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.ashikaga.tochigi.jp/health/000046/000225/000653/p008412.html",
+      "quote": "令和8年9月1日（火曜日）から9月18日（金曜日）まで"
+    },
+    "applyMethods": {
+      "url": "https://www.city.ashikaga.tochigi.jp/health/000046/000225/000653/p008412.html",
+      "quote": "※申込書類をお持ちになり、お子さまと一緒に直接お越しください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.ashikaga.tochigi.jp/health/000046/000225/000653/p008412.html",
+      "quote": "入所（園）を希望する施設"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.ashikaga.tochigi.jp/health/000046/000225/000653/p008412.html",
+      "quote": "各教育・保育施設\n各子育て支援センター\n保育課"
+    },
+    "firstResult": {
+      "url": "https://www.city.ashikaga.tochigi.jp/health/000046/000225/000653/p008412.html",
+      "quote": "11月末頃までに入所（園）申込者へ内定通知書を送付する予定です。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.ashikaga.tochigi.jp/health/000046/000225/000653/p008412.html",
+      "quote": "その結果、内定に至らなかった方には、2次募集のお知らせを送付しますので、再度申込みを受付けします。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.ashikaga.tochigi.jp/health/000046/000225/000653/p008581.html",
+      "quote": "令和8年度中（令和8年4月～令和9年3月）に足利市の教育・保育施設に入所（園）を希望する方は、入園希望月の前月1日時点の受け入れ状況を確認し、前月20日までに希望施設に申し込みをしてください。"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.ashikaga.tochigi.jp/health/000046/000225/000653/p008581.html",
+      "quote": "※20日が土日祝日の場合は、前営業日"
+    },
+    "documents.0": {
+      "url": "https://www.city.ashikaga.tochigi.jp/manage/contents/upload/6a5f06a80037e.pdf",
+      "quote": "教育‧保育給付認定申請書 【 記⼊例 P24〜25】\n〇 〇 〇\n※申込児童１⼈につき１枚必要。"
+    },
+    "documents.1": {
+      "url": "https://www.city.ashikaga.tochigi.jp/manage/contents/upload/6a5f06a80037e.pdf",
+      "quote": "保育利⽤に関する同意書 ― 〇 〇\n提出書類チェックリスト ― 〇 〇"
+    },
+    "documents.2": {
+      "url": "https://www.city.ashikaga.tochigi.jp/manage/contents/upload/6a5f06a80037e.pdf",
+      "quote": "保育実施認定調査書 【 記⼊例 P26】 ※以下に該当する⽅は利⽤施設名等を記⼊してください。"
+    },
+    "documents.2#2": {
+      "url": "https://www.city.ashikaga.tochigi.jp/manage/contents/upload/6a5f06a80037e.pdf",
+      "quote": "①現在就労しており、⽉64時間以上認可外保育施設やベビーシッターを ― 〇 〇"
+    },
+    "documents.2#3": {
+      "url": "https://www.city.ashikaga.tochigi.jp/manage/contents/upload/6a5f06a80037e.pdf",
+      "quote": "②市外の保育施設を利⽤しており、市内保育施設に転園を希望する⽅"
+    },
+    "documents.3": {
+      "url": "https://www.city.ashikaga.tochigi.jp/manage/contents/upload/6a5f06a80037e.pdf",
+      "quote": "※⼀⻫申込みの場合は、内定後、保育課から⽤紙が送付されます。"
+    },
+    "documents.4": {
+      "url": "https://www.city.ashikaga.tochigi.jp/manage/contents/upload/6a5f06a80037e.pdf",
+      "quote": "就労証明書 ※指定の様式あり"
+    },
+    "documents.4#2": {
+      "url": "https://www.city.ashikaga.tochigi.jp/manage/contents/upload/6a5f06a80037e.pdf",
+      "quote": "※ 勤 務先の雇⽤主や所属⻑の⽅から証明を受けてください。"
+    },
+    "documents.4#3": {
+      "url": "https://www.city.ashikaga.tochigi.jp/manage/contents/upload/6a5f06a80037e.pdf",
+      "quote": "※ ご ⾃⾝で書いたものは無効 です。"
+    },
+    "notes.0": {
+      "url": "https://www.city.ashikaga.tochigi.jp/health/000046/000225/000653/p008412.html",
+      "quote": "1次募集は 第1希望のみの受け付け となります。複数の施設に申込みをすることはできません。"
+    },
+    "notes.1": {
+      "url": "https://www.city.ashikaga.tochigi.jp/health/000046/000225/000653/p008412.html",
+      "quote": "公立保育所は、1次募集以外での申込みは受け付けておりませんのでご注意ください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.ashikaga.tochigi.jp/health/000046/000225/000653/p008412.html",
+      "quote": "公立保育所の再編に伴い、令和5年度から一部の公立保育所で入所制限を行っています。"
+    },
+    "notes.3": {
+      "url": "https://www.city.ashikaga.tochigi.jp/health/000046/000225/000653/p008581.html",
+      "quote": "11月下旬から12月上旬頃を予定しています。（1次募集の審査状況により決定します。）"
+    },
+    "notes.3#2": {
+      "url": "https://www.city.ashikaga.tochigi.jp/health/000046/000225/000653/p008412.html",
+      "quote": "2次募集の日程については、1次募集審査終了後にホームページへ掲載します。広報紙でのお知らせはいたしませんのでご注意ください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.ashikaga.tochigi.jp/health/000046/000225/000653/p008581.html",
+      "quote": "※令和9年度途中に育児休業期間が終了し、復職をする時点でお子さまをお預けする方も申込み対象です。（令和10年3月31日までに復職をする方のみ対象）"
+    },
+    "notes.5": {
+      "url": "https://www.city.ashikaga.tochigi.jp/health/000046/000225/000653/p008412.html",
+      "quote": "集中受付日：各施設には上記日程の中で集中受付日があります。"
+    },
+    "notes.5#2": {
+      "url": "https://www.city.ashikaga.tochigi.jp/manage/contents/upload/6a5f060c47d75.pdf",
+      "quote": "は、各施設に直接ご確認ください。ただし、集中受付⽇以外でも募集期間中は申込みが可能です。"
+    }
+  },
+  "sources": [
+    {
+      "label": "足利市「令和9年度幼稚園・認定こども園・保育所（園）の一次募集について」",
+      "url": "https://www.city.ashikaga.tochigi.jp/health/000046/000225/000653/p008412.html"
+    },
+    {
+      "label": "足利市「入園について」",
+      "url": "https://www.city.ashikaga.tochigi.jp/health/000046/000225/000653/p008581.html"
+    },
+    {
+      "label": "足利市「申込みに必要な書類について」（PDF）",
+      "url": "https://www.city.ashikaga.tochigi.jp/manage/contents/upload/6a5f06a80037e.pdf"
+    },
+    {
+      "label": "足利市「集中受付日、公立保育所の入所制限について」（PDF）",
+      "url": "https://www.city.ashikaga.tochigi.jp/manage/contents/upload/6a5f060c47d75.pdf"
+    }
+  ]
+}

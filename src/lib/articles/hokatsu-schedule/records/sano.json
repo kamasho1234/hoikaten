@@ -1,0 +1,158 @@
+{
+  "citySlug": "sano",
+  "checkedAt": "2026-09-30",
+  "page": {
+    "label": "佐野市「保育施設入園手続き」",
+    "url": "https://www.city.sano.lg.jp/soshikiichiran/kodomo/hoikuka/gyomuannai/5/3992.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "第1希望が保育所・地域型保育事業の場合は令和8年10月1日（木曜日）〜10月15日（木曜日）（日曜日・祝日を除く）。このほか令和8年10月3日（土曜日）午前9時〜午後1時に保育課で受付。第1希望が認定こども園の場合は令和8年9月1日（火曜日）〜10月15日（木曜日）。郵送（市外在住の方）は締切日必着",
+  "applyMethods": "第1希望が保育所・地域型保育事業の方は第1希望の施設または保育課、認定こども園の方は認定こども園に申し込む（10月3日の土曜受付は保育課）。市外在住の方は郵送でも受け付け、申込書類にマイナンバーが分かる書類と本人確認書類の写しを添えて簡易書留等で保育課あてに送る",
+  "firstResult": "12月下旬（予定）に教育・保育給付認定決定通知書と利用調整結果通知書を送付",
+  "secondApply": "2次申込みは令和8年10月16日（金曜日）〜12月28日（月曜日）、3次申込みは令和9年1月4日（月曜日）〜2月26日（金曜日）。いずれも保育課",
+  "midYearDeadline": "5月〜翌年3月の途中入園は入園希望月の前月の10日まで（10日が土日祝の場合は直前の平日）",
+  "documents": [
+    "教育・保育給付認定（変更）申請書（マイナンバーの記入が必要）",
+    "就労証明書等（勤務先の就労証明。就労以外の理由の場合はそのほかに必要な書類を添付）",
+    "家庭状況等調査票",
+    "申込みの際に持参するもの: 申込みする児童の母子手帳、申請者の個人番号カードや通知カードまたはその写し、申請者の顔写真付きの確認書類1点または顔写真のない確認書類2点"
+  ],
+  "interview": "1次申込みをした方の面接は10月下旬から11月上旬に佐野市役所で行う（こども園が第1希望の方はこども園で面接）。指定された日時に子どもと一緒に行く",
+  "ikukyu": "「入園保留」を希望する入園申請は受け付けない",
+  "notes": [
+    "令和8年度と令和9年度の入園申込では様式が異なる",
+    "1次で申し込んだ内容に追加や変更がある場合は令和8年11月6日（金）までに保育課で手続きする。これ以降の変更は1次審査に反映されない",
+    "利用調整結果通知書に入所可能な保育施設が記載されていた場合は、令和9年1月8日（金）までに入園の申込みをする",
+    "令和9年3月1日以降に申し込むと令和9年度途中入園申請となり、5月以降の入園の審査対象になる",
+    "令和8年度の入園を申し込んで現在入園保留の方も、令和9年4月からの入園を希望する場合は再度申込みが必要",
+    "審査は「認定調書評点基準表」に基づく（R9年度版は11月頃公表予定）"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.sano.lg.jp/soshikiichiran/kodomo/hoikuka/gyomuannai/5/3992.html",
+      "quote": "令和9年度の保育園、認定こども園（保育所部分）、地域型保育事業（小規模保育事業・事業所内保育事業）への入園の申込みは次のとおりです。"
+    },
+    "firstApply": {
+      "url": "https://www.city.sano.lg.jp/soshikiichiran/kodomo/hoikuka/gyomuannai/5/3992.html",
+      "quote": "第1希望が保育所・地域型保育事業の方 1次申込み (4月入園、育児休業明けで5月以降に入園希望） 令和8年10月1日(木曜日)から10月15日(木曜日)まで"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.sano.lg.jp/soshikiichiran/kodomo/hoikuka/gyomuannai/5/3992.html",
+      "quote": "令和8年10月3日(土曜日)のみ 午前9時から午後1時まで 保育課"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.sano.lg.jp/soshikiichiran/kodomo/hoikuka/gyomuannai/5/3992.html",
+      "quote": "第1希望が認定こども園の方 1次申込み (4月入園、育児休業明けで5月以降に入園希望) 令和8年9月1日(火曜日)から10月15日(木曜日)まで"
+    },
+    "firstApply#4": {
+      "url": "https://www.city.sano.lg.jp/soshikiichiran/kodomo/hoikuka/gyomuannai/5/3992.html",
+      "quote": "市外在住の方は郵送でも申込みの受付をします。 (各申込み締切日必着)"
+    },
+    "firstApply#5": {
+      "url": "https://www.city.sano.lg.jp/soshikiichiran/kodomo/hoikuka/gyomuannai/5/3992.html",
+      "quote": "（注意）日曜日・祝日は除きます。(土曜日は10月3日のみ受付)"
+    },
+    "applyMethods": {
+      "url": "https://www.city.sano.lg.jp/soshikiichiran/kodomo/hoikuka/gyomuannai/5/3992.html",
+      "quote": "令和8年10月1日(木曜日)から10月15日(木曜日)まで 第1希望の施設 または保育課"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.sano.lg.jp/soshikiichiran/kodomo/hoikuka/gyomuannai/5/3992.html",
+      "quote": "令和8年9月1日(火曜日)から10月15日(木曜日)まで 認定こども園"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.sano.lg.jp/soshikiichiran/kodomo/hoikuka/gyomuannai/5/3992.html",
+      "quote": "申込み書類のほかに、申請者のマイナンバーが分かる書類の写し、申請者の顔写真付きの確認書類1点または顔写真のない確認書類2点の写しを添付し、簡易書留等で保育課あてに郵送してください。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.sano.lg.jp/soshikiichiran/kodomo/hoikuka/gyomuannai/5/3992.html",
+      "quote": "令和8年10月3日(土曜日)のみ 午前9時から午後1時まで 保育課"
+    },
+    "firstResult": {
+      "url": "https://www.city.sano.lg.jp/material/files/group/42/R9nyuentebiki.pdf",
+      "quote": "⑶ 保護者へ教育・保育給付認定決定通知書と利用調整結果通知書を送付 （１２月下旬送付予定）"
+    },
+    "secondApply": {
+      "url": "https://www.city.sano.lg.jp/soshikiichiran/kodomo/hoikuka/gyomuannai/5/3992.html",
+      "quote": "2次申込み (4月入園、育児休業明けで5月以降に入園希望) 令和8年10月16日(金曜日)から12月28日(月曜日)まで 保育課"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.sano.lg.jp/soshikiichiran/kodomo/hoikuka/gyomuannai/5/3992.html",
+      "quote": "3次申込み (4月入園、育児休業明けで5月以降に入園希望) 令和9年1月4日(月曜日)から2月26日(金曜日)まで 保育課"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.sano.lg.jp/soshikiichiran/kodomo/hoikuka/gyomuannai/5/3992.html",
+      "quote": "途中入園の申込み (5月～翌年3月入園) 入園希望月の前月の10日まで (土日祝の場合は、直前の平日)"
+    },
+    "documents.0": {
+      "url": "https://www.city.sano.lg.jp/soshikiichiran/kodomo/hoikuka/gyomuannai/5/3992.html",
+      "quote": "1 教育・保育給付認定（変更）申請書 マイナンバーの記入が必要です。"
+    },
+    "documents.1": {
+      "url": "https://www.city.sano.lg.jp/soshikiichiran/kodomo/hoikuka/gyomuannai/5/3992.html",
+      "quote": "勤務先からの就労証明が必要です。「就労」以外の理由の方は、そのほかに必要な書類を添付してください。"
+    },
+    "documents.2": {
+      "url": "https://www.city.sano.lg.jp/soshikiichiran/kodomo/hoikuka/gyomuannai/5/3992.html",
+      "quote": "3 家庭状況等調査票 4 その他"
+    },
+    "documents.3": {
+      "url": "https://www.city.sano.lg.jp/soshikiichiran/kodomo/hoikuka/gyomuannai/5/3992.html",
+      "quote": "申込みする児童の母子手帳 申請者の個人番号カードや通知カードまたはその写し 申請者の顔写真付きの確認書類1点または顔写真のない確認書類2点"
+    },
+    "interview": {
+      "url": "https://www.city.sano.lg.jp/material/files/group/42/R9nyuentebiki.pdf",
+      "quote": "１次申込みをした方の面接  期間：１０月下旬から１１月上旬 会場：佐野市役所"
+    },
+    "interview#2": {
+      "url": "https://www.city.sano.lg.jp/material/files/group/42/R9nyuentebiki.pdf",
+      "quote": "面接の通知や持参するものなどの案内をご確認の上、 保護者の方は、 指定された日時に指定 された会場へお子さんと一緒にお越しください。"
+    },
+    "interview#3": {
+      "url": "https://www.city.sano.lg.jp/soshikiichiran/kodomo/hoikuka/gyomuannai/5/3992.html",
+      "quote": "申込みの際に、以下のものをご持参ください。面接のときはお子さまも一緒にお越しください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.sano.lg.jp/soshikiichiran/kodomo/hoikuka/gyomuannai/5/3992.html",
+      "quote": "「入園保留」を希望する入園申請は受付いたしません。"
+    },
+    "notes.0": {
+      "url": "https://www.city.sano.lg.jp/soshikiichiran/kodomo/hoikuka/gyomuannai/5/3992.html",
+      "quote": "(注意1)令和8年度入園申込と令和9年度入園申込では、様式が異なりますのでご注意ください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.sano.lg.jp/material/files/group/42/R9nyuentebiki.pdf",
+      "quote": "令和８年１１月６日（金）までに保育課で手続きをしてください。"
+    },
+    "notes.1#2": {
+      "url": "https://www.city.sano.lg.jp/material/files/group/42/R9nyuentebiki.pdf",
+      "quote": "これ以降の変更手続きは、１次審査に反映することはできません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.sano.lg.jp/material/files/group/42/R9nyuentebiki.pdf",
+      "quote": "利用調整結果通知書に入所可能な保育施設が記載されていた場合、 令和９年 1 月８日 （金） までに入園の申込みをしてください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.sano.lg.jp/soshikiichiran/kodomo/hoikuka/gyomuannai/5/3992.html",
+      "quote": "(注意1)令和9年3月1日（月曜日）以降に申込みする場合は、令和9年度途中入園申請として、5月以降の入園の審査対象となります。"
+    },
+    "notes.4": {
+      "url": "https://www.city.sano.lg.jp/soshikiichiran/kodomo/hoikuka/gyomuannai/5/3992.html",
+      "quote": "(注意3)令和8年度の入園を申し込み、現在入園保留になっている方のうち、令和9年4月からの入園を希望する方は、再度申込みが必要です。"
+    },
+    "notes.5": {
+      "url": "https://www.city.sano.lg.jp/soshikiichiran/kodomo/hoikuka/gyomuannai/5/3992.html",
+      "quote": "申込みの書類から「認定調書評点基準表」に基づき、審査します(R9年度版は11月頃公表予定）。"
+    }
+  },
+  "sources": [
+    {
+      "label": "佐野市「保育施設入園手続き」",
+      "url": "https://www.city.sano.lg.jp/soshikiichiran/kodomo/hoikuka/gyomuannai/5/3992.html"
+    },
+    {
+      "label": "佐野市「令和9年度入園の手引」",
+      "url": "https://www.city.sano.lg.jp/material/files/group/42/R9nyuentebiki.pdf"
+    }
+  ]
+}

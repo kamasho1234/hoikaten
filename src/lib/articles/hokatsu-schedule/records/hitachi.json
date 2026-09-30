@@ -1,0 +1,183 @@
+{
+  "citySlug": "hitachi",
+  "checkedAt": "2026-09-30",
+  "page": {
+    "label": "日立市「保育園等の申込みの流れ」",
+    "url": "https://www.city.hitachi.lg.jp/kosodateoen/mokuteki_sagasu/1007349/1001986/1001988.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年11月2日（月曜日）〜11月30日（月曜日）（土曜日・日曜日、祝日を除く）。受付時間は午前8時30分〜正午、午後1時〜午後5時15分。オンライン申請の場合はマイナンバー記入用紙の郵送も11月30日必着",
+  "applyMethods": "市役所本庁の子ども施設課の窓口（支所では受け付けない。郵送不可）かオンライン申請。オンラインで申し込んだ場合は、申請期限前に申請状況の照会で受付完了になっているか確かめる",
+  "firstResult": "令和9年2月初旬（予定）に、入園できたかどうかに関わらず全員に郵送",
+  "midYearDeadline": "年度途中は毎月1日入園で、申込期限は前月5日",
+  "documents": [
+    "子どものための教育・保育給付認定申請書（個人番号の記載が必要。兄弟の人数分。オンライン申請の場合は不要）",
+    "家庭状況調査票",
+    "保育利用に関する確認票及び同意書",
+    "就労証明書（令和6年8月から変更となった新様式のみ。代表者または従業員情報を所管する担当部署が証明し、保護者の代筆は無効）",
+    "保育の必要性や課税・収入を証明する書類は、4月1日入園の申請では10月1日以降の証明日のものが必要",
+    "オンライン申請の場合のみ、個人番号（マイナンバー）記入用紙に申請者のマイナンバーカードの両面コピーを貼って子ども施設課に郵送（締切日必着）"
+  ],
+  "interview": "申込前に子どもと一緒に園を見学して希望園を決める。入園が決まったら、入園前に決定した園で子どもと一緒に面談（母子手帳持参）を受け、園が指定する病院等で健康診断を受ける",
+  "ikukyu": "4月1日入園は、利用調整結果通知書を結果に関わらず全員に郵送する。利用調整結果通知書が必要な場合はオンラインで申請できる",
+  "notes": [
+    "保育の利用の決定は先着順ではない",
+    "窓口での相談は要予約（電話不可）で、子ども施設課で令和8年10月16日〜11月30日に受け付ける。相談の有無は優先順位に影響しない",
+    "保育園等での医療的ケアを希望する場合は、令和8年7月31日までに子ども施設課へ相談する",
+    "日立市外に住所がある人は住所地の市区町村に申し込み、申込書が令和8年11月30日までに日立市子ども施設課に届いていることが条件。希望園は第3希望まで",
+    "4月1日の入園を希望する場合は、出生前に申し込むことができる",
+    "育休復帰を理由に申し込んだ人が入園決定前に復帰すると、育休復帰の利用調整指数の加点が無くなる"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.hitachi.lg.jp/kosodateoen/mokuteki_sagasu/1007349/1001986/1014787.html",
+      "quote": "令和9年4月1日保育園等入園相談・申請受付の日程について"
+    },
+    "firstApply": {
+      "url": "https://www.city.hitachi.lg.jp/kosodateoen/mokuteki_sagasu/1007349/1001986/1014787.html",
+      "quote": "令和8年11月2日（月曜日）～11月30日（月曜日）（土曜日・日曜日、祝日を除く） 午前8時30分～正午、午後1時～午後5時15分"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.hitachi.lg.jp/kosodateoen/mokuteki_sagasu/1007349/1001986/1014787.html",
+      "quote": "※オンライン申請の場合、マイナンバー記入用紙のご提出（郵送）も11月30日（月曜日）必着とします。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.hitachi.lg.jp/kosodateoen/mokuteki_sagasu/1007349/1001986/1001988.html",
+      "quote": "確認した書類を揃えて日立市役所子ども施設課（支所での受付不可）の窓口またはオンラインで申込みをします。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.hitachi.lg.jp/_res/projects/default_project/_page_/001/001/988/0804annnai.pdf",
+      "quote": "【窓口】子ども施設課の窓口に書類を直接お持ちください。（郵送不可）"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.hitachi.lg.jp/kosodateoen/mokuteki_sagasu/1007349/1001986/1001988.html",
+      "quote": "オンラインで申込みをした場合は必ず申請期限前に受付完了となっているか申請状況の照会を行ってください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.hitachi.lg.jp/kosodateoen/mokuteki_sagasu/1007349/1001986/1014787.html",
+      "quote": "入園可否に関わらず全員に郵送します。（令和9年2月初旬予定）"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.hitachi.lg.jp/kosodateoen/mokuteki_sagasu/1007349/1001986/1001988.html",
+      "quote": "令和8年度から入園日が変わり、毎月1日入園となりました。（前月5日締切）"
+    },
+    "documents.0": {
+      "url": "https://www.city.hitachi.lg.jp/_res/projects/default_project/_page_/001/001/988/0804annnai.pdf",
+      "quote": "□ 子どものための教育・保育給付認定申請書（個人番号（12桁）の記載が必要です。）"
+    },
+    "documents.0#2": {
+      "url": "https://www.city.hitachi.lg.jp/kosodateoen/mokuteki_sagasu/1007349/1001986/1013832.html",
+      "quote": "兄弟の人数分用意してください。オンライン申請をする場合は不要です。"
+    },
+    "documents.1": {
+      "url": "https://www.city.hitachi.lg.jp/_res/projects/default_project/_page_/001/001/988/0804annnai.pdf",
+      "quote": "□ 家庭状況調査票 □ 子どものための教育・保育給付認定申請書"
+    },
+    "documents.2": {
+      "url": "https://www.city.hitachi.lg.jp/_res/projects/default_project/_page_/001/001/988/0804annnai.pdf",
+      "quote": "□ 保育利用に関する確認票及び同意書"
+    },
+    "documents.3": {
+      "url": "https://www.city.hitachi.lg.jp/_res/projects/default_project/_page_/001/001/988/0804annnai.pdf",
+      "quote": "〇就労証明書（令和６年８月から変更となった新様式のみ受け付けます。）"
+    },
+    "documents.3#2": {
+      "url": "https://www.city.hitachi.lg.jp/kosodateoen/mokuteki_sagasu/1007349/1001986/1013832.html",
+      "quote": "就労証明書は代表者又は従業員情報を所管する担当部署で証明してください。保護者の代筆は証明書が無効となります。"
+    },
+    "documents.4": {
+      "url": "https://www.city.hitachi.lg.jp/kosodateoen/mokuteki_sagasu/1007349/1001986/1001991.html",
+      "quote": "保育の必要性を証明する書類や課税又は収入情報を証明する書類は提出日を基準として3か月以内が有効です。 (4月1日入園申請の場合は、10月1日以降の証明日の書類が必要)"
+    },
+    "documents.5": {
+      "url": "https://www.city.hitachi.lg.jp/kosodateoen/mokuteki_sagasu/1007349/1001986/1013832.html",
+      "quote": "※オンライン申請をする場合のみ、提出が必要となります。必要事項記入後、申請者（代表保護者）のマイナンバーカードの両面コピーを貼付の上、子ども施設課に郵送してください。（締切日必着）"
+    },
+    "interview": {
+      "url": "https://www.city.hitachi.lg.jp/kosodateoen/mokuteki_sagasu/1007349/1001986/1001988.html",
+      "quote": "必ずお子さんと一緒に見学したうえで、希望する保育園等を決めるようにしてください。"
+    },
+    "interview#2": {
+      "url": "https://www.city.hitachi.lg.jp/_res/projects/default_project/_page_/001/001/988/0804annnai.pdf",
+      "quote": "決定した保育園等でお子さんと一緒に面談を受けてください。（母子手帳持参）"
+    },
+    "interview#3": {
+      "url": "https://www.city.hitachi.lg.jp/_res/projects/default_project/_page_/001/001/988/0804annnai.pdf",
+      "quote": "必ず入園前に、保育園等が指定する病院等で健康診断を受けてください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.hitachi.lg.jp/_res/projects/default_project/_page_/001/001/988/0804annnai.pdf",
+      "quote": "〇 ４月１日は利用調整結果通知書を結果に関わらず全員に郵送します。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.hitachi.lg.jp/kosodateoen/mokuteki_sagasu/1007349/1001986/1001988.html",
+      "quote": "利用調整結果通知書が必要な方は下記から申請することができます。"
+    },
+    "notes.0": {
+      "url": "https://www.city.hitachi.lg.jp/kosodateoen/mokuteki_sagasu/1007349/1001986/1014787.html",
+      "quote": "保育園・認定こども園（保育部分）・家庭的保育事業所の利用を希望される方は、期間内に下記のとおり手続きが必要です。（保育の利用の決定は先着順ではありません。）"
+    },
+    "notes.1": {
+      "url": "https://www.city.hitachi.lg.jp/kosodateoen/mokuteki_sagasu/1007349/1001986/1014787.html",
+      "quote": "ご相談を希望する場合、全ての会場、日時で予約フォームからの事前予約が必要です。"
+    },
+    "notes.1#2": {
+      "url": "https://www.city.hitachi.lg.jp/kosodateoen/mokuteki_sagasu/1007349/1001986/1014787.html",
+      "quote": "子ども施設課（市役所本庁） 令和8年10月16日（金曜日）～11月30日（月曜日）（土曜日・日曜日、祝日を除く）"
+    },
+    "notes.1#3": {
+      "url": "https://www.city.hitachi.lg.jp/kosodateoen/mokuteki_sagasu/1007349/1001986/1014787.html",
+      "quote": "窓口での相談の有無が優先順位に影響することはありません。"
+    },
+    "notes.1#4": {
+      "url": "https://www.city.hitachi.lg.jp/kosodateoen/mokuteki_sagasu/1007349/1001986/1014787.html",
+      "quote": "窓口でのご相談を希望される場合は、下記からご予約下さい。（電話不可）"
+    },
+    "notes.2": {
+      "url": "https://www.city.hitachi.lg.jp/kosodateoen/mokuteki_sagasu/1007349/1001986/1014787.html",
+      "quote": "保育園等での医療的ケアを希望する方については、令和8年7月31日（金曜日）までに子ども施設課へご相談ください。（予約不要）"
+    },
+    "notes.3": {
+      "url": "https://www.city.hitachi.lg.jp/kosodateoen/mokuteki_sagasu/1007349/1001986/1014787.html",
+      "quote": "申込書が令和8年11月30日（月曜日）までに日立市子ども施設課に届いていることが条件となります。"
+    },
+    "notes.3#2": {
+      "url": "https://www.city.hitachi.lg.jp/kosodateoen/mokuteki_sagasu/1007349/1001986/1014787.html",
+      "quote": "希望園は第3希望までの受付となります。第4希望以降を記載した場合は無効となりますのでご注意ください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.hitachi.lg.jp/kosodateoen/mokuteki_sagasu/1007349/1001986/1014371.html",
+      "quote": "4月1日の入園を希望する場合は、出生前に申込みすることができます。"
+    },
+    "notes.5": {
+      "url": "https://www.city.hitachi.lg.jp/kosodateoen/mokuteki_sagasu/1007349/1001986/1014371.html",
+      "quote": "ただし、育休復帰を理由に入園申込みをしていた方が入園決定前に復帰をした場合、育休復帰に伴う利用調整指数の加点が無くなりますので御注意ください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "日立市「令和9年4月1日保育園等入園相談・申請受付の日程」",
+      "url": "https://www.city.hitachi.lg.jp/kosodateoen/mokuteki_sagasu/1007349/1001986/1014787.html"
+    },
+    {
+      "label": "日立市「保育園等の申込みの流れ」",
+      "url": "https://www.city.hitachi.lg.jp/kosodateoen/mokuteki_sagasu/1007349/1001986/1001988.html"
+    },
+    {
+      "label": "日立市「保育園・認定こども園(保育部分) 家庭的保育利用についてのご案内」（令和8年度 第2版）",
+      "url": "https://www.city.hitachi.lg.jp/_res/projects/default_project/_page_/001/001/988/0804annnai.pdf"
+    },
+    {
+      "label": "日立市「保育園等の申込みに必要な書類の確認」",
+      "url": "https://www.city.hitachi.lg.jp/kosodateoen/mokuteki_sagasu/1007349/1001986/1001991.html"
+    },
+    {
+      "label": "日立市「保育園等の申請書類ダウンロード」",
+      "url": "https://www.city.hitachi.lg.jp/kosodateoen/mokuteki_sagasu/1007349/1001986/1013832.html"
+    },
+    {
+      "label": "日立市「よくある質問（保育園）」",
+      "url": "https://www.city.hitachi.lg.jp/kosodateoen/mokuteki_sagasu/1007349/1001986/1014371.html"
+    }
+  ]
+}

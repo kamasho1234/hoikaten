@@ -1,0 +1,170 @@
+{
+  "citySlug": "oyama",
+  "checkedAt": "2026-09-30",
+  "page": {
+    "label": "小山市「保育園・認定こども園・保育所のご案内」",
+    "url": "https://www.city.oyama.tochigi.jp/kosodate-kyouiku/mokuteki/azukeru/page000429.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年10月19日（月）〜10月30日（金）。受付は月〜金曜日（祝日を除く）の8時30分〜17時15分",
+  "applyMethods": "公立保育所が第一希望なら保育課窓口（小山市役所3階）、それ以外は第一希望の施設で受け付ける。書類をそろえ、子どもと一緒に受付場所へ行く",
+  "firstResult": "令和9年1月29日（金）に通知を発送",
+  "secondApply": "令和9年1月4日（月）〜2月5日（金）。受付場所は保育課窓口（小山市役所3階）",
+  "secondResult": "令和9年2月26日（金）に通知を発送",
+  "midYearDeadline": "令和9年5月以降の入所は、基本的に入所希望月の2か月前から前月5日まで（1〜3月の利用調整は同時に行う）",
+  "documents": [
+    "教育・保育の必要性認定申請書（1，2，3号） 兼 保育所入所申込書 兼 児童台帳（2，3号）",
+    "入所申込みに関する調査票",
+    "育児休業に係る入所申し込み誓約書",
+    "児童の心身発育状況調査票",
+    "保育料等納付誓約書",
+    "入所申込みに関する確認事項及び同意書",
+    "申請者（保護者）1名分の個人番号（マイナンバー）カードと、申込児童の母子（親子）健康手帳",
+    "保育を必要とする事由を証明する書類（会社勤めなら就労証明書、育児休業中なら育児休業期間・復職日が記載された就労証明書）。証明書・診断書等は証明日から3か月以内に受理したものが有効"
+  ],
+  "interview": "申請受付の際に子どもの面接を行うので、子どもも一緒に窓口へ行く。希望する施設は申請前に必ず見学する（見学した施設だけを希望先にできる）",
+  "ikukyu": "「入所保留」を希望する申込みは受け付けない。育児休業中の申請は、育児休業を終了し休業開始時と同じ就労先に復職することが前提",
+  "notes": [
+    "必要書類に不備がある場合は申請の受付ができないので、余裕をもって申請する",
+    "希望施設・保育事由の変更は令和8年11月16日（月）〜12月4日（金）に受け付け、4月の1次利用調整に反映される",
+    "4月の1次申請は市民（転入予定者を含む）のみの調整で、勤務先要件などによる市外からの申請は受け付けない",
+    "65歳以下の同居者がいる場合、保育を必要とする理由を証明する書類を出さないと利用調整で減点になる",
+    "2次調整で入所保留になった場合は、令和9年度の入所希望月にあらためて申込みが必要"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.oyama.tochigi.jp/data/doc/1787279980_doc_480_0.pdf",
+      "quote": "令和９年（２０２７年）４月１日現在の年齢で利用する施設のクラスが決まります。"
+    },
+    "firstApply": {
+      "url": "https://www.city.oyama.tochigi.jp/data/doc/1787279980_doc_480_0.pdf",
+      "quote": "令和８年１０月１９日（月） ～ 令和８年１０月３０日（金）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.oyama.tochigi.jp/data/doc/1787279980_doc_480_0.pdf",
+      "quote": "月～金曜日（祝日を除く）の８：３０～１７：１５"
+    },
+    "applyMethods": {
+      "url": "https://www.city.oyama.tochigi.jp/data/doc/1787279980_doc_480_0.pdf",
+      "quote": "公立保育所第一希望 保育課窓口（小山市役所３階）"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.oyama.tochigi.jp/data/doc/1787279980_doc_480_0.pdf",
+      "quote": "上記以外 第一希望の施設にて受付"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.oyama.tochigi.jp/kosodate-nicomaru/azukeru/hoikuen/page011762.html",
+      "quote": "1から8までの書類をすべて揃えていただき、母子（親子）健康手帳、申請者の個人番号カード等をお持ちいただき、お子さまと一緒に受付場所にお越しください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.oyama.tochigi.jp/data/doc/1787279980_doc_480_0.pdf",
+      "quote": "結果発送 令和９年１月２９日（金）に通知発送"
+    },
+    "secondApply": {
+      "url": "https://www.city.oyama.tochigi.jp/data/doc/1787279980_doc_480_0.pdf",
+      "quote": "令和９年１月４日（月） ～ 令和９年２月５日（金）"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.oyama.tochigi.jp/data/doc/1787279980_doc_480_0.pdf",
+      "quote": "受付場所 保育課窓口（小山市役所３階）"
+    },
+    "secondResult": {
+      "url": "https://www.city.oyama.tochigi.jp/data/doc/1787279980_doc_480_0.pdf",
+      "quote": "結果発送 令和９年２月２６日（金）に通知発送"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.oyama.tochigi.jp/data/doc/1787279980_doc_480_0.pdf",
+      "quote": "基本的には入所希望月の２ヶ月前～入所希望月の前月５日（下表参照）"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.oyama.tochigi.jp/data/doc/1787279980_doc_480_0.pdf",
+      "quote": "※１～３月の利用調整は同時に行いますので締切にご注意ください。"
+    },
+    "documents.0": {
+      "url": "https://www.city.oyama.tochigi.jp/data/doc/1787279980_doc_480_0.pdf",
+      "quote": "教育・保育の必要性認定申請書（１，２，３号） 兼 保育所入所申込書 兼 児童台帳（２，３号）"
+    },
+    "documents.1": {
+      "url": "https://www.city.oyama.tochigi.jp/kosodate-nicomaru/azukeru/hoikuen/page011762.html",
+      "quote": "入所申し込みに関する調査票 育児休業に係る入所申し込み誓約書"
+    },
+    "documents.2": {
+      "url": "https://www.city.oyama.tochigi.jp/kosodate-nicomaru/azukeru/hoikuen/page011762.html",
+      "quote": "入所申し込みに関する調査票 育児休業に係る入所申し込み誓約書"
+    },
+    "documents.3": {
+      "url": "https://www.city.oyama.tochigi.jp/kosodate-nicomaru/azukeru/hoikuen/page011762.html",
+      "quote": "育児休業に係る入所申し込み誓約書 児童の心身発育状況調査票 保育料納付誓約書"
+    },
+    "documents.4": {
+      "url": "https://www.city.oyama.tochigi.jp/data/doc/1787279980_doc_480_0.pdf",
+      "quote": "保育料等納付誓約書 入所申込みに関する確認事項及び同意書"
+    },
+    "documents.5": {
+      "url": "https://www.city.oyama.tochigi.jp/data/doc/1787279980_doc_480_0.pdf",
+      "quote": "保育料等納付誓約書 入所申込みに関する確認事項及び同意書"
+    },
+    "documents.6": {
+      "url": "https://www.city.oyama.tochigi.jp/kosodate-nicomaru/azukeru/hoikuen/page011762.html",
+      "quote": "1から8までの書類をすべて揃えていただき、母子（親子）健康手帳、申請者の個人番号カード等をお持ちいただき、お子さまと一緒に受付場所にお越しください。"
+    },
+    "documents.7": {
+      "url": "https://www.city.oyama.tochigi.jp/data/doc/1787279980_doc_480_0.pdf",
+      "quote": "・証明書・診断書等の書類は、証明日から起算して３か月以内に受理したものが有効となります。"
+    },
+    "documents.7#2": {
+      "url": "https://www.city.oyama.tochigi.jp/data/doc/1787279980_doc_480_0.pdf",
+      "quote": "育児休業中 就労証明書（育児休業期間・復職日が記載されているもの）"
+    },
+    "interview": {
+      "url": "https://www.city.oyama.tochigi.jp/data/doc/1787279980_doc_480_0.pdf",
+      "quote": "申請受付の際に、お子様の面接を行いますので、お子様も一緒に窓口にお越しください。"
+    },
+    "interview#2": {
+      "url": "https://www.city.oyama.tochigi.jp/data/doc/1787279980_doc_480_0.pdf",
+      "quote": "事前に見学を行った施設のみ希望先に入れて申請することができます。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.oyama.tochigi.jp/data/doc/1787279980_doc_480_0.pdf",
+      "quote": "※「入所保留」を希望する利用の申込みは受付できません。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.oyama.tochigi.jp/data/doc/1787279980_doc_480_0.pdf",
+      "quote": "育児休業中に保育所等の利用申請を行う場合は、育児休業を終了し、休業開始時と同一の就労先に復職することを前提とした申請となります。"
+    },
+    "notes.0": {
+      "url": "https://www.city.oyama.tochigi.jp/data/doc/1787279980_doc_480_0.pdf",
+      "quote": "※P８～９記載の必要書類に不備がある場合は申請の受付ができません。余裕をもってご申請ください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.oyama.tochigi.jp/data/doc/1787279980_doc_480_0.pdf",
+      "quote": "令和８年１１月１６日（月） ～ 令和８年１２月４日（金） 変更受付期間 ⇒令和９年４月の１次利用調整に反映"
+    },
+    "notes.2": {
+      "url": "https://www.city.oyama.tochigi.jp/data/doc/1787279980_doc_480_0.pdf",
+      "quote": "※４月（１次申請）の受付は、市民（転入予定者含む）のみ調整となるため、勤務先要件等で申請される場合"
+    },
+    "notes.3": {
+      "url": "https://www.city.oyama.tochigi.jp/data/doc/1787279980_doc_480_0.pdf",
+      "quote": "合、保育を必要とする理由を証明する書類の提出がないと利用調整の際に減点対象となります。"
+    },
+    "notes.4": {
+      "url": "https://www.city.oyama.tochigi.jp/data/doc/1787279980_doc_480_0.pdf",
+      "quote": "※２次調整で入所保留となった方については、令和９年度の入所希望月に再度、申し込みが必要となります。"
+    }
+  },
+  "sources": [
+    {
+      "label": "小山市「保育園・認定こども園・保育所のご案内」",
+      "url": "https://www.city.oyama.tochigi.jp/kosodate-kyouiku/mokuteki/azukeru/page000429.html"
+    },
+    {
+      "label": "小山市「令和９年度 保育園・認定こども園・保育所 入所のご案内」",
+      "url": "https://www.city.oyama.tochigi.jp/data/doc/1787279980_doc_480_0.pdf"
+    },
+    {
+      "label": "小山市「令和９年度保育園（所）入所申込書関係」",
+      "url": "https://www.city.oyama.tochigi.jp/kosodate-nicomaru/azukeru/hoikuen/page011762.html"
+    }
+  ]
+}

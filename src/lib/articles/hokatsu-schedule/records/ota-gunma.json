@@ -1,0 +1,178 @@
+{
+  "citySlug": "ota-gunma",
+  "checkedAt": "2026-09-30",
+  "page": {
+    "label": "太田市「（令和9年度入園）新年度の当初入園申し込みと募集状況」",
+    "url": "https://www.city.ota.gunma.jp/site/kosodate/1021.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "第1次募集のWeb申し込みは令和8年9月16日（水曜日）9時〜令和8年10月19日（月曜日）17時15分。窓口（対面）申し込みは令和8年10月13日（火曜日）〜10月22日（木曜日）で、土日祝を除き予約必須",
+  "applyMethods": "原則としてWeb申し込みフォームから申し込む。Web申し込みに対応していない内容の人やWebが難しい人は、太田市公式LINEで日時を予約して太田市役所3階こども課窓口へ行く（窓口予約は令和8年10月8日（木曜日）9時から開始予定）",
+  "firstResult": "第1次募集の結果は12月中旬ごろに郵送（選考状況によって前後する）",
+  "secondApply": "第2次募集の日程は未定（決定次第、ホームページや太田市LINEで知らせる）。目安は1月末〜2月上旬にWeb申し込み、2月上旬に窓口申し込み",
+  "secondResult": "第2次募集の結果は3月中に郵送。市外の保育施設に申し込んだ人は1次・2次とも3月中",
+  "midYearDeadline": "随時（途中）入園は窓口（対面）申し込みのみで、土・日・祝を除く入園希望月の前月1日〜10日まで",
+  "documents": [
+    "「保育の利用が必要な事由」を証明する書類（すべての保護者の分。就労は勤務先の事業所が作成した就労証明書）",
+    "証明書や申立書は、申し込み日まで3か月以内の証明日・申立て日のものが有効。就労証明書は申し込む子の出生後に証明されたものが有効",
+    "育児休業後に復帰して入園を希望する人は、育児休業取得期間と復職（予定）年月日の記載がある就労証明書",
+    "個人事業主・個人農業者・業務委託で働く人は、本人が作成した就労証明書と、事業（農業）を行っていることの客観的な確認（確定申告書で確認できなければ開業届の写しなど）"
+  ],
+  "interview": "希望する施設への申し込み前の見学を強く求めている（見学は各施設に直接連絡して日程を調整する）",
+  "ikukyu": "育児休業から復帰する人は、新年度5月以降の予約入園も新年度の当初入園申し込みでできる。第1希望のみ（または第1・2希望のみ）で募集0人の施設だけを希望し不承諾通知が必要な場合はWeb申し込みに対応しておらず、窓口に申し込む（LINE予約は不要）",
+  "notes": [
+    "0歳児で入園時点の月齢が6か月未満の子を第2次募集で申し込む予定なら、申し込み前に必ず希望施設へ見学・相談して受け入れの可否を確かめる。対応不可とされた施設は希望できない",
+    "募集のある施設・歳児クラスにだけ申し込める",
+    "申し込みの際に希望できる施設は最大3つまで",
+    "選考は点数化して優先度が高い順に決め、先着順や抽選ではない",
+    "不承諾通知に有効期間は記載されず、入園できなかった人が引き続き希望する場合は募集期間ごとに毎回申し込みが必要"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.ota.gunma.jp/site/kosodate/1021.html",
+      "quote": "※ 令和9年4月入園希望者、育児休業から復帰する方の令和9年5月以降の予約入園希望者が対象となります。"
+    },
+    "firstApply": {
+      "url": "https://www.city.ota.gunma.jp/site/kosodate/1021.html",
+      "quote": "令和8年9月16日（水曜日）9時から 令和8年10月19日（月曜日）17時15分まで"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.ota.gunma.jp/site/kosodate/1021.html",
+      "quote": "令和8年10月13日（火曜日）から令和8年10月22日（木曜日）まで【予約必須】"
+    },
+    "applyMethods": {
+      "url": "https://www.city.ota.gunma.jp/site/kosodate/1021.html",
+      "quote": "上記のWeb申し込みに対応していない内容の方、Web申し込みが難しい方は、太田市公式LINEで予約のうえ窓口へお越しください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.ota.gunma.jp/site/kosodate/1021.html",
+      "quote": "●予約開始：令和8年10月8日（木曜日）9時〜（予定）※"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.ota.gunma.jp/site/kosodate/1021.html",
+      "quote": "新年度の当初入園は、原則としてWeb申し込みフォームからの申し込みです。"
+    },
+    "firstResult": {
+      "url": "https://www.city.ota.gunma.jp/site/kosodate/1021.html",
+      "quote": "第1次募集の結果は12月中旬ごろ、第2次募集の結果は3月中に郵送します。"
+    },
+    "secondApply": {
+      "url": "https://www.city.ota.gunma.jp/site/kosodate/1021.html",
+      "quote": "未定（決定次第、ホームページや太田市LINEでお知らせいたします。）"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.ota.gunma.jp/uploaded/attachment/41815.pdf",
+      "quote": "二次募集 Web申し込み期間 １月末～２月上旬"
+    },
+    "secondResult": {
+      "url": "https://www.city.ota.gunma.jp/site/kosodate/1021.html",
+      "quote": "第1次募集の結果は12月中旬ごろ、第2次募集の結果は3月中に郵送します。"
+    },
+    "secondResult#2": {
+      "url": "https://www.city.ota.gunma.jp/site/kosodate/1021.html",
+      "quote": "※市外保育施設申し込み者は1次・2次ともに3月中に郵送"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.ota.gunma.jp/uploaded/attachment/41815.pdf",
+      "quote": "窓口（対面）申し込み期間 土・日・祝を除く前月の１日～１０日まで"
+    },
+    "documents.0": {
+      "url": "https://www.city.ota.gunma.jp/site/kosodate/1030.html",
+      "quote": "就労中（育児休業中）の方の「保育の利用が必要な事由」を証明する書類として、就労証明書を提出してください。"
+    },
+    "documents.1": {
+      "url": "https://www.city.ota.gunma.jp/site/kosodate/1030.html",
+      "quote": "※提出書類のうち証明書や申立書は、申し込み日まで3か月以内の証明日・申立て日のものが有効です。"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.ota.gunma.jp/uploaded/attachment/41815.pdf",
+      "quote": "※就労証明書は申し込むお子様の出生後に証明されたものが有効です。"
+    },
+    "documents.2": {
+      "url": "https://www.city.ota.gunma.jp/site/kosodate/1030.html",
+      "quote": "※育児休業中の方は、育児休業取得期間と復職（予定）年月日の記載がある就労証明書を提出してください。"
+    },
+    "documents.3": {
+      "url": "https://www.city.ota.gunma.jp/site/kosodate/1030.html",
+      "quote": "個人事業主、個人農業者、業務委託契約で働いている方は、本人自身が就労証明書を作成し提出することになりますが、別途「本人が事業（農業）を行っていることの確認が客観的にできること」の確認が必要となります。"
+    },
+    "documents.3#2": {
+      "url": "https://www.city.ota.gunma.jp/site/kosodate/1030.html",
+      "quote": "事情により、申し込み時に確定申告書が確認できない場合は、「開業届の写し」などの客観的な証明の提出が必要です。"
+    },
+    "interview": {
+      "url": "https://www.city.ota.gunma.jp/uploaded/attachment/41815.pdf",
+      "quote": "太田市では、全ての希望施設の申し込み前の見学を強くお願いしております。"
+    },
+    "interview#2": {
+      "url": "https://www.city.ota.gunma.jp/site/kosodate/1021.html",
+      "quote": "見学は、各施設に直接お申し込みください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.ota.gunma.jp/site/kosodate/1021.html",
+      "quote": "※ 育児休業から復帰する方の新年度5月以降の予約入園申し込みも可能です。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.ota.gunma.jp/site/kosodate/1021.html",
+      "quote": "特定施設希望者（第1希望のみ、または第1・2希望のみ）で、募集が無い(0人)施設のみを希望し、保育所入所不承諾通知が必要な場合"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.ota.gunma.jp/site/kosodate/1021.html",
+      "quote": "※「特定施設希望者（第1希望のみ、または第1・2希望のみ）で、募集が無い(0人)施設のみを希望し、保育所入所不承諾通知が必要な場合」は予約不要です。"
+    },
+    "notes.0": {
+      "url": "https://www.city.ota.gunma.jp/site/kosodate/1021.html",
+      "quote": "0歳児で入園時点で月齢の若い（6か月未満）お子さまを申し込む予定の保護者様は、お申し込みの前に必ず受け入れの可否について希望予定の施設に見学・相談をしてください。"
+    },
+    "notes.0#2": {
+      "url": "https://www.city.ota.gunma.jp/site/kosodate/1021.html",
+      "quote": "なお、対応不可とされた施設は申し込み時に希望できませんのでご注意ください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.ota.gunma.jp/site/kosodate/1021.html",
+      "quote": "募集のある施設・歳児クラスのみ、申し込みできます。"
+    },
+    "notes.2": {
+      "url": "https://www.city.ota.gunma.jp/uploaded/attachment/41815.pdf",
+      "quote": "申し込みの際に、最大３つの施設まで希望することができます。"
+    },
+    "notes.3": {
+      "url": "https://www.city.ota.gunma.jp/uploaded/attachment/41815.pdf",
+      "quote": "※選考は、先着順や抽選ではありません。"
+    },
+    "notes.4": {
+      "url": "https://www.city.ota.gunma.jp/uploaded/attachment/41815.pdf",
+      "quote": "太田市では「通知の有効期間」は不承諾通知に記載されません。"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.ota.gunma.jp/site/kosodate/1021.html",
+      "quote": "※土曜日・日曜日・祝日を除く"
+    },
+    "secondApply#3": {
+      "url": "https://www.city.ota.gunma.jp/uploaded/attachment/41815.pdf",
+      "quote": "窓口（対面）申し込み期間 ２月上旬"
+    },
+    "notes.3#2": {
+      "url": "https://www.city.ota.gunma.jp/uploaded/attachment/41815.pdf",
+      "quote": "入所選考基準に基づき、「保育の利用が必要な事由」やご家庭の状況を点数化、優先度が高い児童"
+    },
+    "notes.4#2": {
+      "url": "https://www.city.ota.gunma.jp/uploaded/attachment/41815.pdf",
+      "quote": "継続して入園を希望する場合は募集期間ごとに毎回申し込みが必要となります"
+    }
+  },
+  "sources": [
+    {
+      "label": "太田市「（令和9年度入園）新年度の当初入園申し込みと募集状況」",
+      "url": "https://www.city.ota.gunma.jp/site/kosodate/1021.html"
+    },
+    {
+      "label": "太田市「保育施設への入園申し込みに必要な書類（様式ダウンロード）」",
+      "url": "https://www.city.ota.gunma.jp/site/kosodate/1030.html"
+    },
+    {
+      "label": "太田市「教育・保育施設 入園申し込み／利用の手引き（令和9年度版）」",
+      "url": "https://www.city.ota.gunma.jp/uploaded/attachment/41815.pdf"
+    }
+  ]
+}
