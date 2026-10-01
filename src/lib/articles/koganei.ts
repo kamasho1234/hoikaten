@@ -3,60 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "koganei",
-    title: "小金井市の保活スケジュール　申込から内定までの流れ",
-    description:
-      "小金井市の認可保育園の申込時期・選考の流れをまとめました。令和8年度4月入園の動き方を解説します。",
-    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>小金井市の4月入園スケジュール</h2>
-<p>小金井市の認可保育園は毎年11月ごろに翌年度4月入園の一次募集を受付けます。小金井市子ども家庭部保育課が窓口です。</p>
-
-<h3>保活の全体スケジュール</h3>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content">
-<strong>4月〜6月：情報収集</strong>
-<p>小金井市公式サイトで保育園の一覧や前年度の入園案内を確認します。小金井市には認可保育園が約20か所あります。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content">
-<strong>6月〜9月：保育園見学</strong>
-<p>気になる園に連絡して見学を予約しましょう。小金井公園や武蔵小金井駅周辺に園が集中しています。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content">
-<strong>10月〜11月：入園案内入手・書類準備</strong>
-<p>最新の入園案内を入手し、就労証明書などの必要書類を準備します。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content">
-<strong>11月：申込書類の提出</strong>
-<p>小金井市子ども家庭部保育課へ提出します。郵送・窓口のいずれかで受付けます。</p>
-</div>
-</div>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>小金井市は基本指数が父母各最大20点（合計40点満点）です。月あたりの就労日数と1日の就労時間で判定されます。</p>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/" target="_blank" rel="noopener">小金井市公式サイト 保育園入園案内</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-04-07",
-    popularity: 60,
-  },
-  {
     slug: "scoring-system-guide",
     citySlug: "koganei",
     title: "小金井市の入園点数のしくみ　基本指数と調整指数を解説",

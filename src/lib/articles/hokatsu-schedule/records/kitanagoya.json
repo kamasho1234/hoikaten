@@ -1,0 +1,203 @@
+{
+  "citySlug": "kitanagoya",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "北名古屋市「令和9年度保育所等入所申込み(4月入所)」",
+    "url": "https://www.city.kitanagoya.lg.jp/kosodate/azukeru/1002322/1007694.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "9月25日（金）は市役所東庁舎2階大会議室で午前10時〜午後4時に配布、9月30日（水）以降は東庁舎2階保育課で配布。市内の認可保育施設を利用中の児童のきょうだいは、9月25日以降に利用中の施設でも受け取れる。一部書類を除き市のページからダウンロードもできる",
+  "firstApply": "令和9年4月入所（1次）は10月23日（金）〜10月30日（金）の指定日に受付（10月28日（水）は午後1時からの受付で、午前の受付は無い）",
+  "applyMethods": "申込書はLoGoフォーム（電子申請）で受付日（来庁日）の前日17時までに作成し、受付期間内に来庁して就労証明書などの添付書類を提出する（会場は市役所東庁舎2階大会議室）。電子申請だけでは手続きは完了しない。電子申請ができない場合は紙の申込書に記入して持参する",
+  "firstResult": "令和8年12月下旬に結果を郵送予定（電話での結果の問い合わせには答えない）",
+  "secondApply": "令和9年1月14日（木）〜2月5日（金）に保育課（東庁舎2階）で受付。1次申込の利用調整の結果、定員に空きのある施設のみが対象",
+  "secondResult": "2月中旬に結果を送付予定",
+  "midYearDeadline": "5月以降の入所は原則として入所希望月の前月5日までに東庁舎2階保育課で受付（電子申請は使えず、紙の申込書）",
+  "documents": [
+    "子どものための教育・保育給付認定申請書兼保育利用申込み書（令和9年4月入所はLoGoフォームの電子申請で作成）",
+    "保育を必要とする事由を証明する書類（就労証明書など。父母それぞれ。就労証明書は勤務先が記入し、自営業等を除き保護者が記入・加筆・訂正したものは受付不可）",
+    "育児休業が事由の場合は就労証明書（指定様式、発行日から3か月以内のもの）",
+    "世帯状況によって必要な書類（案内冊子5ページで確認）",
+    "児童調査書（申込み児童1人につき1枚）",
+    "保育所等入所申込み時チェックシート兼同意書（申込み児童1人につき1枚）",
+    "身元確認資料（来庁する保護者の顔写真付きの公的身分証明。無い場合は年金手帳などから2点）",
+    "マイナンバー確認資料（父母と申込み児童のもの）"
+  ],
+  "interview": "申込受付時に児童の面接は行わない。利用調整の結果は内定で、内定施設での面接と各園での健康診断・入園説明会の後に利用が決定する",
+  "ikukyu": "申込書に「希望する保育所等に入所できない場合は、育児休業も許容できる」の欄があり、選ぶと利用調整の順番が最後になって入園の可能性が著しく低くなる。育児休業から復職予定で申し込んだ場合、内定後に改めて就労証明書の提出を求められ、4月入所なら4月中の復職が必要",
+  "notes": [
+    "入所調整は先着順ではない",
+    "民間の保育施設（私立保育園・認定こども園・小規模保育事業所）は、施設ごとに保育料・給食費以外の実費負担額に大きな違いがあるので、申込み前に各施設に確認する",
+    "LoGoフォーム入力後の取消は保育課への連絡が必要で、インターネット上では取り消せない",
+    "令和9年4月から鹿田北保育園は民間に移管され、北なごや保育園として開園する",
+    "市外から転入予定で内定した場合、4月中に転入が確認できないと内定は取り消される"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.kitanagoya.lg.jp/kosodate/azukeru/1002322/1007694.html",
+      "quote": "令和9年4月から保育施設への入所を希望する児童の、入所申込みについてご案内します。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.kitanagoya.lg.jp/kosodate/azukeru/1002322/1007694.html",
+      "quote": "※市内の認可保育施設を利用している児童のきょうだいが入所を希望する場合、9月25日（金曜日）以降に利用中の保育施設で書類を受け取ることができます。"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.kitanagoya.lg.jp/kosodate/azukeru/1002322/1007694.html",
+      "quote": "9月25日（金曜日） 午前10時〜午後4時 市役所東庁舎2階大会議室"
+    },
+    "guideRelease#3": {
+      "url": "https://www.city.kitanagoya.lg.jp/kosodate/azukeru/1002322/1007694.html",
+      "quote": "9月30日（水曜日）以降 午前8時30分〜午後5時15分 市役所東庁舎2階保育課"
+    },
+    "guideRelease#4": {
+      "url": "https://www.city.kitanagoya.lg.jp/kosodate/azukeru/1002322/1007694.html",
+      "quote": "※一部書類を除き、本ページでも入所関係書類のダウンロードが可能です。"
+    },
+    "firstApply": {
+      "url": "https://www.city.kitanagoya.lg.jp/_res/projects/default_project/_page_/001/007/694/pamphlet_r9.pdf",
+      "quote": "要とする事由を問わず、全て10月23日（金）～10月30日（金）の指定日で、受付を行います。"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.kitanagoya.lg.jp/kosodate/azukeru/1002322/1007694.html",
+      "quote": "※10月28日(水曜日)は、午後1時からの受付です（午前の受付は行いません）。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.kitanagoya.lg.jp/kosodate/azukeru/1002322/1007694.html",
+      "quote": "電子申請のみでは手続きは完了しません。申込みには、電子申請に加えて受付期間内の来庁と添付書類の提出が必要です。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.kitanagoya.lg.jp/kosodate/azukeru/1002322/1007694.html",
+      "quote": "フォームの入力は、受付日（来庁される日）の前日17時までの入力が必要です。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.kitanagoya.lg.jp/_res/projects/default_project/_page_/001/007/694/pamphlet_r9.pdf",
+      "quote": "※電子申請ができない場合は、紙の申込書（所定用紙）に記入してください。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.kitanagoya.lg.jp/kosodate/azukeru/1002322/1007694.html",
+      "quote": "10月23日（金曜日） 午前9時〜午後4時 市役所東庁舎2階大会議室"
+    },
+    "firstResult": {
+      "url": "https://www.city.kitanagoya.lg.jp/kosodate/azukeru/1002322/1007694.html",
+      "quote": "令和9年4月入所（1次）の申込みをされた方には12月下旬に結果を郵送予定です。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.kitanagoya.lg.jp/_res/projects/default_project/_page_/001/007/694/pamphlet_r9.pdf",
+      "quote": "利用調整結果送付 令和８年１２月下旬"
+    },
+    "firstResult#3": {
+      "url": "https://www.city.kitanagoya.lg.jp/kosodate/azukeru/1002322/1007694.html",
+      "quote": "※電話での結果の問い合わせにはお答えできません。"
+    },
+    "secondApply": {
+      "url": "https://www.city.kitanagoya.lg.jp/_res/projects/default_project/_page_/001/007/694/pamphlet_r9.pdf",
+      "quote": "令和９年１月１４日（木）～２月５日（金）に保育課（東庁舎２階）で受付を行います。"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.kitanagoya.lg.jp/_res/projects/default_project/_page_/001/007/694/pamphlet_r9.pdf",
+      "quote": "ただし、１次申込期間中に申込みをされた児童の利用調整の結果、定員に空きのある施設のみが対象となります。"
+    },
+    "secondResult": {
+      "url": "https://www.city.kitanagoya.lg.jp/_res/projects/default_project/_page_/001/007/694/pamphlet_r9.pdf",
+      "quote": "結果の送付は２月中旬を予定しています。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.kitanagoya.lg.jp/_res/projects/default_project/_page_/001/007/694/pamphlet_r9.pdf",
+      "quote": "・受付期間：原則、入所希望月の前月５日まで(Ｐ13をご参照ください。）"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.kitanagoya.lg.jp/kosodate/azukeru/1002322/1007694.html",
+      "quote": "フォームを利用しての申込み書の作成は、4月入所（1次・2次）の申込みのみです。年度途中入所については、紙の申込み書の提出が必要です。"
+    },
+    "documents.0": {
+      "url": "https://www.city.kitanagoya.lg.jp/kosodate/azukeru/1002322/1007694.html",
+      "quote": "令和9年4月入所申込みのみ、LoGoフォーム（電子申請フォーム）を用いて申込み書の作成を行います。"
+    },
+    "documents.1": {
+      "url": "https://www.city.kitanagoya.lg.jp/kosodate/azukeru/1002322/1007694.html",
+      "quote": "保護者(父・母など)それぞれの保育を必要とする事由を証明する書類の添付が必要です。"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.kitanagoya.lg.jp/kosodate/azukeru/1002322/1007694.html",
+      "quote": "自営業等の場合を除き、保護者が記入・加筆・訂正等している場合、受付できません。"
+    },
+    "documents.2": {
+      "url": "https://www.city.kitanagoya.lg.jp/_res/projects/default_project/_page_/001/007/694/pamphlet_r9.pdf",
+      "quote": "育児休業 「就労証明書」（指定様式）（発行日から３か月以内のもの）"
+    },
+    "documents.3": {
+      "url": "https://www.city.kitanagoya.lg.jp/kosodate/azukeru/1002322/1007694.html",
+      "quote": "保育の必要性判断などに活用するため、ご案内冊子（5ページ）を必ずご確認ください。"
+    },
+    "documents.4": {
+      "url": "https://www.city.kitanagoya.lg.jp/kosodate/azukeru/1002322/1007694.html",
+      "quote": "健康状態や発達状態を確認するため、申込み児童1人につき1枚記入・提出をお願いします。"
+    },
+    "documents.5": {
+      "url": "https://www.city.kitanagoya.lg.jp/kosodate/azukeru/1002322/1007694.html",
+      "quote": "記載内容を確認し、確認欄および署名欄の記入をお願いします。申込み児童1人につき1枚記入・提出をお願いします。"
+    },
+    "documents.6": {
+      "url": "https://www.city.kitanagoya.lg.jp/kosodate/azukeru/1002322/1007694.html",
+      "quote": "申請をする保護者（来庁される方のみ）の顔写真付きの公的身分証明（運転免許証、マイナンバーカードなど)をお持ちください。顔写真付身分証明書をお持ちでない場合、各種年金手帳などから2点お持ちください。"
+    },
+    "documents.7": {
+      "url": "https://www.city.kitanagoya.lg.jp/kosodate/azukeru/1002322/1007694.html",
+      "quote": "申請をされる保護者(父・母いずれも)と申請児童のマイナンバーが確認できる書類"
+    },
+    "interview": {
+      "url": "https://www.city.kitanagoya.lg.jp/_res/projects/default_project/_page_/001/007/694/pamphlet_r9.pdf",
+      "quote": "なお、児童の面接は、受付時には行いません。"
+    },
+    "interview#2": {
+      "url": "https://www.city.kitanagoya.lg.jp/_res/projects/default_project/_page_/001/007/694/pamphlet_r9.pdf",
+      "quote": "利用調整の結果は内定です。児童の面接や健康診断等の後に保育の利用決定を行います。"
+    },
+    "interview#3": {
+      "url": "https://www.city.kitanagoya.lg.jp/_res/projects/default_project/_page_/001/007/694/pamphlet_r9.pdf",
+      "quote": "各園での健康診断・入園説明会にご参加ください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.kitanagoya.lg.jp/_res/projects/default_project/_page_/001/007/694/pamphlet_r9.pdf",
+      "quote": "希望する保育所等に入所できない場合は、育児休業も許容できる"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.kitanagoya.lg.jp/_res/projects/default_project/_page_/001/007/694/pamphlet_r9.pdf",
+      "quote": "（利用調整の順番が最後となり、入園の可能性が著しく低くなります。）"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.kitanagoya.lg.jp/_res/projects/default_project/_page_/001/007/694/pamphlet_r9.pdf",
+      "quote": "入所内定後に改めて就労証明書の提出を依頼します。４月入所される場合、４月中に育児休業から復職していただくことが必要です。"
+    },
+    "notes.0": {
+      "url": "https://www.city.kitanagoya.lg.jp/kosodate/azukeru/1002322/1007694.html",
+      "quote": "入所調整は先着順ではありません。"
+    },
+    "notes.1": {
+      "url": "https://www.city.kitanagoya.lg.jp/kosodate/azukeru/1002322/1007694.html",
+      "quote": "特に民間の保育施設（私立保育園・認定こども園・小規模保育事業所）では、施設ごとに保育料・給食費の他にかかる実費負担額に大きな違いがあります。申込みの前に、各施設にご確認ください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.kitanagoya.lg.jp/kosodate/azukeru/1002322/1007694.html",
+      "quote": "フォームの入力後、取消をしたい場合は保育課への連絡が必要です。インターネット上での取消手続きはできません。"
+    },
+    "notes.3": {
+      "url": "https://www.city.kitanagoya.lg.jp/kosodate/azukeru/1002322/1007694.html",
+      "quote": "※令和9年4月から、鹿田北保育園は民間に移管となり、新たに北なごや保育園として開園します。"
+    },
+    "notes.4": {
+      "url": "https://www.city.kitanagoya.lg.jp/_res/projects/default_project/_page_/001/007/694/pamphlet_r9.pdf",
+      "quote": "→４月中に転入が確認できない場合、内定を取り消します。"
+    }
+  },
+  "sources": [
+    {
+      "label": "北名古屋市「令和9年度保育所等入所申込み(4月入所)」",
+      "url": "https://www.city.kitanagoya.lg.jp/kosodate/azukeru/1002322/1007694.html"
+    },
+    {
+      "label": "北名古屋市「令和9年度 北名古屋市 保育所等入所のご案内」（PDF）",
+      "url": "https://www.city.kitanagoya.lg.jp/_res/projects/default_project/_page_/001/007/694/pamphlet_r9.pdf"
+    }
+  ]
+}

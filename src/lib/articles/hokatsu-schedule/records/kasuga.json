@@ -1,0 +1,134 @@
+{
+  "citySlug": "kasuga",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "春日市「令和9年度保育所（園）等の入所・申し込み」",
+    "url": "https://www.city.kasuga.fukuoka.jp/kosodate/kosodate/hoikusho/1018787.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年10月5日（月曜日）からかすが保育ガイドを配布。春日市ウェブサイトのほか、こども未来課（市役所2階）、各保育所（園）等、いきいきプラザ、市民図書館、各児童センターで入手できる",
+  "firstApply": "一斉入所申込は令和8年10月13日（火曜日）〜11月30日（月曜日）。郵送・電子申請で11月30日以降に届いたものは一斉申込ではなく随時入所申込の扱い",
+  "applyMethods": "窓口（春日市役所2階こども未来課保育担当）、郵送（こども未来課へ事前連絡の上、締切日必着）、電子申請（ぴったりサービス）のいずれか",
+  "midYearDeadline": "随時入所は入所希望日の前々月の月末まで（土曜日・日曜日・祝日に当たる場合は前開庁日）",
+  "documents": [
+    "保育所等見学済証明書（入所を希望する子どもと一緒に見学して受け取る。原則、令和8年10月13日以降の令和9年度見学済証のみ有効）",
+    "転入予定の場合は、春日市内に居住する予定が分かる書類（住宅賃貸契約書の写しなど）",
+    "育児休業から職場復帰する場合は、入所決定後に復職証明書（復職日か入所日から3週間のどちらか遅い方までに提出）"
+  ],
+  "interview": "申込前に希望する保育所（園）等の見学が必要（園へ電話予約し、子どもと一緒に見学する）。見学は令和8年10月13日から。入所前に健康診断が必要で、詳細は入所が決まった園に確認する",
+  "notes": [
+    "令和8年度に申し込んで入所できていない人も、令和9年度に引き続き希望する場合は一斉受付期間に改めて申し込む必要がある",
+    "出産予定で申し込む場合は仮受け付け。事前に保護者のみで見学して申し込み、出産後に子どもと再度見学して見学済証明書を提出すると正式な受け付けになる",
+    "入所は申し込み順ではなく、入所判定指数の高い人から順に決定する",
+    "郵送申込の不備書類は郵送で返却されず、本人確認書類を持って窓口で受け取るか新たに提出し直す必要がある",
+    "求職活動中の事由で入所した場合、入所日から最長90日目の日が属する月末までに就労証明書などを出さないと退所になる"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.kasuga.fukuoka.jp/kosodate/kosodate/hoikusho/1018787.html",
+      "quote": "申し込みを行う際は、令和9年度かすが保育ガイド（令和8年10月5日公開予定）をよく読み、必ず詳細を確認してください。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.kasuga.fukuoka.jp/kosodate/kosodate/hoikusho/1018787.html",
+      "quote": "令和8年10月5日（月曜日） 見学予約受付開始 かすが保育ガイド配布開始"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.kasuga.fukuoka.jp/kosodate/kosodate/hoikusho/1018787.html",
+      "quote": "かすが保育ガイドは春日市ウェブサイトから入手できる他、こども未来課（市役所2階）、各保育所（園）等、いきいきプラザ、市民図書館、各児童センターで配布します。"
+    },
+    "firstApply": {
+      "url": "https://www.city.kasuga.fukuoka.jp/kosodate/kosodate/hoikusho/1018787.html",
+      "quote": "令和8年10月13日（火曜日） 見学開始 一斉受付開始"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.kasuga.fukuoka.jp/kosodate/kosodate/hoikusho/1018787.html",
+      "quote": "令和8年11月30日（月曜日） 一斉受付終了"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.kasuga.fukuoka.jp/kosodate/kosodate/hoikusho/1018787.html",
+      "quote": "郵送および電子申請の場合、一斉受付期間終了後（令和8年11月30日以降）に届いたものは、一斉申込期間の受け付けではなく、随時入所申込での受け付けとなります。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.kasuga.fukuoka.jp/kosodate/kosodate/hoikusho/1018787.html",
+      "quote": "窓口、郵送、電子申請のいずれかで申し込む"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.kasuga.fukuoka.jp/kosodate/kosodate/hoikusho/1018787.html",
+      "quote": "必要書類を春日市役所2階こども未来課保育担当に提出する"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.kasuga.fukuoka.jp/kosodate/kosodate/hoikusho/1018787.html",
+      "quote": "郵送での申し込みをする場合は、こども未来課へ事前連絡の上、締切日（必着）までに申請書一式を提出してください。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.kasuga.fukuoka.jp/kosodate/kosodate/hoikusho/1018787.html",
+      "quote": "ぴったりサービスから申請する"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.kasuga.fukuoka.jp/kosodate/kosodate/hoikusho/1018787.html",
+      "quote": "入所希望日前々月の月末まで（土曜日・日曜日・祝日に当たる場合は前開庁日）"
+    },
+    "documents.0": {
+      "url": "https://www.city.kasuga.fukuoka.jp/kosodate/kosodate/hoikusho/1018787.html",
+      "quote": "必ず入所を希望する子どもと一緒に見学して、見学済証（必要書類）を受け取ってください。原則、令和8年10月13日以降の令和9年度見学済証のみ有効です。"
+    },
+    "documents.1": {
+      "url": "https://www.city.kasuga.fukuoka.jp/kosodate/kosodate/hoikusho/1018787.html",
+      "quote": "春日市に転入予定で申し込みを行う場合は、春日市内に居住する予定が分かる書類（住宅賃貸契約書の写しなど）があれば、市内住民とみなして利用調整を行うことができます。"
+    },
+    "documents.2": {
+      "url": "https://www.city.kasuga.fukuoka.jp/kosodate/kosodate/hoikusho/1018787.html",
+      "quote": "育児休業取得後に職場復帰をする場合は、入所決定後に「復職証明書」の提出が必要です。"
+    },
+    "documents.2#2": {
+      "url": "https://www.city.kasuga.fukuoka.jp/kosodate/kosodate/hoikusho/1018787.html",
+      "quote": "復職した日から3週間もしくは入所日から3週間のどちらか遅い方までに提出してください。"
+    },
+    "interview": {
+      "url": "https://www.city.kasuga.fukuoka.jp/kosodate/kosodate/hoikusho/1018787.html",
+      "quote": "入所希望の子どもを連れて、希望する保育所等を見学（要電話予約）し、保育所等見学済証明書を受け取ってください。"
+    },
+    "interview#2": {
+      "url": "https://www.city.kasuga.fukuoka.jp/kosodate/kosodate/hoikusho/1018787.html",
+      "quote": "令和8年10月13日（火曜日） 見学開始 一斉受付開始"
+    },
+    "interview#3": {
+      "url": "https://www.city.kasuga.fukuoka.jp/kosodate/kosodate/hoikusho/1018787.html",
+      "quote": "入所前に健康診断が必要です。詳しくは、入所が決まった園に確認してください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.kasuga.fukuoka.jp/kosodate/kosodate/hoikusho/1018787.html",
+      "quote": "令和8年度に申し込み、現在入所できていない人で、令和9年度も引き続き入所を希望する場合は、改めてこの期間に申し込みをする必要があります。"
+    },
+    "notes.1": {
+      "url": "https://www.city.kasuga.fukuoka.jp/kosodate/kosodate/hoikusho/1018787.html",
+      "quote": "出産予定で保育所等の申し込みを行う場合は、仮受け付けとなります。事前に保護者のみで見学をした上で、申し込みをしてください。"
+    },
+    "notes.1#2": {
+      "url": "https://www.city.kasuga.fukuoka.jp/kosodate/kosodate/hoikusho/1018787.html",
+      "quote": "出産後、再度子どもと一緒に見学をし、改めて見学済証明書をこども未来課に提出することで、正式な受け付けとなります。"
+    },
+    "notes.2": {
+      "url": "https://www.city.kasuga.fukuoka.jp/kosodate/kosodate/hoikusho/1018787.html",
+      "quote": "入所申込者全体で入所判定指数の高い人から、順次入所を決定していきます（利用調整）。入所申し込みを行った順ではありません。"
+    },
+    "notes.3": {
+      "url": "https://www.city.kasuga.fukuoka.jp/kosodate/kosodate/hoikusho/1018787.html",
+      "quote": "郵送申込の不備書類については、郵送での返却は対応していません。本人確認書類を持参の上、窓口に受け取りに来るか、再度新たに提出する必要があります。"
+    },
+    "notes.4": {
+      "url": "https://www.city.kasuga.fukuoka.jp/kosodate/kosodate/hoikusho/1018787.html",
+      "quote": "求職活動中の事由で申し込み、入所が決定した場合は、入所日から最長90日目の日が属する月末までに就労証明書などの提出がないときは退所となります。"
+    }
+  },
+  "sources": [
+    {
+      "label": "春日市「令和9年度保育所（園）等の入所・申し込み」",
+      "url": "https://www.city.kasuga.fukuoka.jp/kosodate/kosodate/hoikusho/1018787.html"
+    },
+    {
+      "label": "春日市「かすが保育ガイド（様式など）」",
+      "url": "https://www.city.kasuga.fukuoka.jp/kosodate/kosodate/hoikusho/1001522.html"
+    }
+  ]
+}

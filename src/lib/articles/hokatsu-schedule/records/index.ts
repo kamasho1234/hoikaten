@@ -77,19 +77,39 @@ import iida from "./iida.json";
 import iizuka from "./iizuka.json";
 import ikeda from "./ikeda.json";
 import ikoma from "./ikoma.json";
+import imabari from "./imabari.json";
+import iruma from "./iruma.json";
+import isahaya from "./isahaya.json";
+import ise from "./ise.json";
 import isesaki from "./isesaki.json";
+import ishigaki from "./ishigaki.json";
+import ishinomaki from "./ishinomaki.json";
 import itabashi from "./itabashi.json";
 import itami from "./itami.json";
+import itoman from "./itoman.json";
+import itoshima from "./itoshima.json";
 import iwaki from "./iwaki.json";
+import iwakuni from "./iwakuni.json";
+import iwata from "./iwata.json";
 import izumi from "./izumi.json";
+import izumiotsu from "./izumiotsu.json";
 import izumisano from "./izumisano.json";
+import izumo from "./izumo.json";
 import joetsu from "./joetsu.json";
 import kagoshima from "./kagoshima.json";
+import kakamigahara from "./kakamigahara.json";
+import kakegawa from "./kakegawa.json";
 import kakogawa from "./kakogawa.json";
+import kamagaya from "./kamagaya.json";
 import kamakura from "./kamakura.json";
 import kanazawa from "./kanazawa.json";
+import kani from "./kani.json";
+import kanoya from "./kanoya.json";
+import kashiba from "./kashiba.json";
+import kashihara from "./kashihara.json";
 import kashiwa from "./kashiwa.json";
 import kashiwara from "./kashiwara.json";
+import kasuga from "./kasuga.json";
 import kasugai from "./kasugai.json";
 import kasukabe from "./kasukabe.json";
 import katano from "./katano.json";
@@ -97,23 +117,34 @@ import katsushika from "./katsushika.json";
 import kawagoe from "./kawagoe.json";
 import kawaguchi from "./kawaguchi.json";
 import kawanishi from "./kawanishi.json";
+import kazo from "./kazo.json";
+import kirishima from "./kirishima.json";
 import kiryu from "./kiryu.json";
+import kisarazu from "./kisarazu.json";
 import kishiwada from "./kishiwada.json";
 import kita from "./kita.json";
+import kitahiroshima from "./kitahiroshima.json";
+import kitakami from "./kitakami.json";
 import kitakyushu from "./kitakyushu.json";
+import kitami from "./kitami.json";
+import kitanagoya from "./kitanagoya.json";
 import kobe from "./kobe.json";
 import kochi from "./kochi.json";
 import kodaira from "./kodaira.json";
 import kofu from "./kofu.json";
+import koganei from "./koganei.json";
+import konosu from "./konosu.json";
 import koriyama from "./koriyama.json";
 import koshigaya from "./koshigaya.json";
 import koto from "./koto.json";
+import kuki from "./kuki.json";
 import kumagaya from "./kumagaya.json";
 import kumamoto from "./kumamoto.json";
 import kurashiki from "./kurashiki.json";
 import kure from "./kure.json";
 import kurume from "./kurume.json";
 import kusatsu from "./kusatsu.json";
+import kushiro from "./kushiro.json";
 import kyoto from "./kyoto.json";
 import machida from "./machida.json";
 import maebashi from "./maebashi.json";
@@ -121,6 +152,7 @@ import matsubara from "./matsubara.json";
 import matsudo from "./matsudo.json";
 import matsue from "./matsue.json";
 import matsumoto from "./matsumoto.json";
+import matsusaka from "./matsusaka.json";
 import matsuyama from "./matsuyama.json";
 import meguro from "./meguro.json";
 import minato from "./minato.json";
@@ -295,19 +327,39 @@ export const hokatsuRecords: HokatsuRecord[] = [
   iizuka as HokatsuRecord,
   ikeda as HokatsuRecord,
   ikoma as HokatsuRecord,
+  imabari as HokatsuRecord,
+  iruma as HokatsuRecord,
+  isahaya as HokatsuRecord,
+  ise as HokatsuRecord,
   isesaki as HokatsuRecord,
+  ishigaki as HokatsuRecord,
+  ishinomaki as HokatsuRecord,
   itabashi as HokatsuRecord,
   itami as HokatsuRecord,
+  itoman as HokatsuRecord,
+  itoshima as HokatsuRecord,
   iwaki as HokatsuRecord,
+  iwakuni as HokatsuRecord,
+  iwata as HokatsuRecord,
   izumi as HokatsuRecord,
+  izumiotsu as HokatsuRecord,
   izumisano as HokatsuRecord,
+  izumo as HokatsuRecord,
   joetsu as HokatsuRecord,
   kagoshima as HokatsuRecord,
+  kakamigahara as HokatsuRecord,
+  kakegawa as HokatsuRecord,
   kakogawa as HokatsuRecord,
+  kamagaya as HokatsuRecord,
   kamakura as HokatsuRecord,
   kanazawa as HokatsuRecord,
+  kani as HokatsuRecord,
+  kanoya as HokatsuRecord,
+  kashiba as HokatsuRecord,
+  kashihara as HokatsuRecord,
   kashiwa as HokatsuRecord,
   kashiwara as HokatsuRecord,
+  kasuga as HokatsuRecord,
   kasugai as HokatsuRecord,
   kasukabe as HokatsuRecord,
   katano as HokatsuRecord,
@@ -315,23 +367,34 @@ export const hokatsuRecords: HokatsuRecord[] = [
   kawagoe as HokatsuRecord,
   kawaguchi as HokatsuRecord,
   kawanishi as HokatsuRecord,
+  kazo as HokatsuRecord,
+  kirishima as HokatsuRecord,
   kiryu as HokatsuRecord,
+  kisarazu as HokatsuRecord,
   kishiwada as HokatsuRecord,
   kita as HokatsuRecord,
+  kitahiroshima as HokatsuRecord,
+  kitakami as HokatsuRecord,
   kitakyushu as HokatsuRecord,
+  kitami as HokatsuRecord,
+  kitanagoya as HokatsuRecord,
   kobe as HokatsuRecord,
   kochi as HokatsuRecord,
   kodaira as HokatsuRecord,
   kofu as HokatsuRecord,
+  koganei as HokatsuRecord,
+  konosu as HokatsuRecord,
   koriyama as HokatsuRecord,
   koshigaya as HokatsuRecord,
   koto as HokatsuRecord,
+  kuki as HokatsuRecord,
   kumagaya as HokatsuRecord,
   kumamoto as HokatsuRecord,
   kurashiki as HokatsuRecord,
   kure as HokatsuRecord,
   kurume as HokatsuRecord,
   kusatsu as HokatsuRecord,
+  kushiro as HokatsuRecord,
   kyoto as HokatsuRecord,
   machida as HokatsuRecord,
   maebashi as HokatsuRecord,
@@ -339,6 +402,7 @@ export const hokatsuRecords: HokatsuRecord[] = [
   matsudo as HokatsuRecord,
   matsue as HokatsuRecord,
   matsumoto as HokatsuRecord,
+  matsusaka as HokatsuRecord,
   matsuyama as HokatsuRecord,
   meguro as HokatsuRecord,
   minato as HokatsuRecord,

@@ -3,34 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "itoshima",
-    title: "糸島市の保活スケジュール完全ガイド｜いつから何をすべき？",
-    description: "糸島市で認可保育所・認定こども園への入所を目指す保活スケジュールを解説。見学開始時期から申込締切まで、月単位でやるべきことをまとめました。",
-    category: "保活の基本",
-    categoryColor: "green",
-    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    publishedAt: "2025-06-01",
-    content: `<h2>糸島市の保活スケジュール</h2>
-<p>糸島市の認可保育所・認定こども園は毎年11月頃に翌年4月入所の一次申込を受け付けます。</p>
-
-<table>
-<tr><th>時期</th><th>やること</th></tr>
-<tr><td>4〜6月</td><td>保育所・認定こども園の見学開始</td></tr>
-<tr><td>7〜9月</td><td>指数（点数）の確認・就労証明書等の書類収集</td></tr>
-<tr><td>10月</td><td>申込書類の取得・記入</td></tr>
-<tr><td>11月</td><td>一次申込締切（例年）</td></tr>
-<tr><td>翌年1〜2月</td><td>結果通知</td></tr>
-<tr><td>3月</td><td>入所前オリエンテーション</td></tr>
-<tr><td>4月</td><td>入所開始</td></tr>
-</table>
-
-<div class="point-box">
-<p><strong>糸島市の特徴</strong></p>
-<p>糸島市は福岡市に隣接する住宅地・農業・観光地が融合した市です。人口増加が続く人気エリアで、保育所の競争率が高い地域もあります。当サイトのシミュレーターで事前に指数を確認しましょう。</p>
-</div>`,
-  },
-  {
     slug: "scoring-system-guide",
     citySlug: "itoshima",
     title: "糸島市の保育所入所指数のしくみ｜基礎点・加点を徹底解説",

@@ -1,0 +1,165 @@
+{
+  "citySlug": "izumiotsu",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "泉大津市「令和9年度 保育所・認定こども園（保育園部）・小規模保育事業所の入園所申込みについて」",
+    "url": "https://www.city.izumiotsu.lg.jp/kakuka/kenko/kodomoikusei/osirase/16037.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "9月15日（火）から、こども育成課（市役所1階2番窓口）と保育所・認定こども園・小規模保育事業所で申込書等を配布。市ホームページからもダウンロードできる",
+  "firstApply": "令和9年4月入園所の申込期間は10月21日（水）〜10月30日（金）。オンライン申請は10月21日（水）午前9時から10月30日（金）午後5時まで。書類不備による再提出は令和8年11月13日（金）まで",
+  "applyMethods": "新規申込（他市園希望・継続児の転園希望を除く）はオンライン申請を使う（マイナンバーカードと読み取れる機器・スマートフォンが必要）。市役所でも10月21日〜23日・10月26日〜30日（1階101会議室、9時〜17時）と10月25日（日）（1階ロビー、9時〜12時）に受け付ける。郵送での申請はできない",
+  "firstResult": "2月中旬（予定）に「支給認定証」と「利用調整結果通知書」または「待機通知書」を保護者あてに送付",
+  "secondApply": "2次調整は、1次調整で待機になった人・1次の内定を辞退した人と、令和8年11月2日（月）から令和9年1月29（金）までに申し込んだ人が対象。1次の内定を辞退して2次にかける場合は令和9年2月12日（金）までに連絡",
+  "secondResult": "3月中旬に、内定者にのみ電話か郵送で通知",
+  "midYearDeadline": "前月10日締切（10日が閉庁日の場合は前開庁日）。こども育成課の窓口で受け付ける",
+  "documents": [
+    "子どものための教育・保育給付認定申請書兼保育所・認定こども園（保育園部）等入園所申込書（兼保育児童台帳）。入園所希望児童1名につき1部",
+    "就労の場合は就労証明書（すでに就労を開始していて3か月の就労実績がない場合は就労時間誓約書）",
+    "求職中の場合は求職活動状況申立書（入園所後90日以内に就労証明書を提出）",
+    "出産の場合は出産予定日のわかるもの（母子手帳の写しまたは医師の証明書）",
+    "病気の場合は診断書（申込日の3か月以内のもの）"
+  ],
+  "interview": "新規入園所予定児童は各園所で説明会・面談がある。入園所前に各自で健康診断を受け、診断結果を入園所施設に提出する",
+  "ikukyu": "「育児休業の延長を許容」は利用調整申立書を提出した場合に-60点の減点。減点を撤回する場合は選考月の前月10日（閉庁日なら前開庁日）までに申し出る",
+  "notes": [
+    "利用調整は希望施設に挙げた施設だけで行い、空きのある施設を後から市があっせんすることはない",
+    "令和9年4月の審査にかかる希望施設の変更は令和8年11月30日を過ぎると受け付けられない",
+    "加点・減点に関する書類の提出は令和8年12月11日（金）まで",
+    "育児休業から復職する場合は、提出した就労証明書と同じ事業所に令和9年4月中に復職する必要がある",
+    "待機中の児童も新たに申し込む必要がある",
+    "例年、申込初日は大変混み合い、長い待ち時間が発生する可能性がある"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.izumiotsu.lg.jp/kakuka/kenko/kodomoikusei/osirase/16037.html",
+      "quote": "令和9年度4月からの保育所・認定こども園（保育園部）・小規模保育事業所への入園所申込書等の配布及び受付を以下のとおり実施いたします。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.izumiotsu.lg.jp/kakuka/kenko/kodomoikusei/osirase/16037.html",
+      "quote": "9月15日（火曜日）から、こども育成課（市役所1階 2番窓口）および保育所・認定こども園・小規模保育事業所で配布しています。 また、以下からダウンロードできます。"
+    },
+    "firstApply": {
+      "url": "https://www.city.izumiotsu.lg.jp/material/files/group/21/R9FAQ.pdf",
+      "quote": "令和９年４月入園所につきましては、申込期間１０月２１日 １０月３０日の間に申請してください。"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.izumiotsu.lg.jp/material/files/group/21/R9FAQ.pdf",
+      "quote": "１０月２１日（水）午前９時から１０月３０日（金）午後５時まで利用できるオンライン申請をご利用ください。"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.izumiotsu.lg.jp/material/files/group/21/R9FAQ.pdf",
+      "quote": "〇書類不備による再提出 ：令和８年１１月１３日（金）まで"
+    },
+    "applyMethods": {
+      "url": "https://www.city.izumiotsu.lg.jp/kakuka/kenko/kodomoikusei/osirase/16037.html",
+      "quote": "新規入園所申込み（他市園希望者、継続児の転園希望者は除く）については、オンライン申請を利用してください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.izumiotsu.lg.jp/kakuka/kenko/kodomoikusei/osirase/16037.html",
+      "quote": "10月21日（水曜日）～23日（金曜日） 10月26日（月曜日）～30日（金曜日） 市役所1階 101会議室 9時～17時 10月25日（日曜日） 市役所1階 ロビー 9時～12時"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.izumiotsu.lg.jp/material/files/group/21/R9FAQ.pdf",
+      "quote": "なお、申込みの際には、マイナンバーカードとそれを読み取れる機器・スマートフォンが必要です。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.izumiotsu.lg.jp/material/files/group/21/R9FAQ.pdf",
+      "quote": "郵送で申請することはできるか。 できません。"
+    },
+    "firstResult": {
+      "url": "https://www.city.izumiotsu.lg.jp/material/files/group/21/R9nyuuennsyopannhuretto.pdf",
+      "quote": "2月中旬(予定)に、保護者あてに「支給認定証」および「利用調整結果通知書」または「待機通知書」を送付いたします。"
+    },
+    "secondApply": {
+      "url": "https://www.city.izumiotsu.lg.jp/material/files/group/21/R9FAQ.pdf",
+      "quote": "２次調整につきましては、１次調整にて待機児童になられた方、１次調整の内定を辞退された方、令和８年１１月２日（月）から令和９年１月２９（金）までにお申込された方で入所調整を行います。"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.izumiotsu.lg.jp/material/files/group/21/R9FAQ.pdf",
+      "quote": "１次調整での内定を辞退し、２次調整にかける場合は、令和９年２月１２日（金）までに、辞退の連絡をこども育成課までお願いいたします。"
+    },
+    "secondResult": {
+      "url": "https://www.city.izumiotsu.lg.jp/material/files/group/21/R9FAQ.pdf",
+      "quote": "２次調整の結果は、３月中旬に内定者の方にのみ、お電話か郵送にてご通知いたします。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.izumiotsu.lg.jp/kakuka/kenko/kodomoikusei/osirase/16037.html",
+      "quote": "年度途中入園所申込の受付は、前月10日締切（10日が閉庁日の場合は前開庁日）で、こども育成課の窓口で行います。"
+    },
+    "documents.0": {
+      "url": "https://www.city.izumiotsu.lg.jp/material/files/group/21/R9nyuuennsyopannhuretto.pdf",
+      "quote": "①子どものための教育・保育給付認定申請書兼保育所・認定こども園(保育園部)等入園所申込書(兼保育児童台帳)入園所希望児童1名につき1部"
+    },
+    "documents.1": {
+      "url": "https://www.city.izumiotsu.lg.jp/material/files/group/21/R9nyuuennsyopannhuretto.pdf",
+      "quote": "就労の場合 就労証明書 ※すでに就労を開始していて３ヶ月の就労実績がない場合は、「就労時間誓約書」を提出してください。"
+    },
+    "documents.2": {
+      "url": "https://www.city.izumiotsu.lg.jp/material/files/group/21/R9nyuuennsyopannhuretto.pdf",
+      "quote": "求職中の場合 求職活動状況申立書 ※入園所後90日以内に就労証明書を提出。"
+    },
+    "documents.3": {
+      "url": "https://www.city.izumiotsu.lg.jp/material/files/group/21/R9nyuuennsyopannhuretto.pdf",
+      "quote": "出産の場合 出産予定日のわかるもの：母子手帳の写しまたは医師の証明書"
+    },
+    "documents.4": {
+      "url": "https://www.city.izumiotsu.lg.jp/material/files/group/21/R9nyuuennsyopannhuretto.pdf",
+      "quote": "病気の場合 診断書(申込日の3ヶ月以内のもの)"
+    },
+    "interview": {
+      "url": "https://www.city.izumiotsu.lg.jp/material/files/group/21/R9nyuuennsyopannhuretto.pdf",
+      "quote": "新規入園所予定児童については、各園所にて説明会・面談を行います。また、入園所前に各自で健康診断を受けていただき、診断結果を入園所施設にご提出いただきます。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.izumiotsu.lg.jp/material/files/group/21/R9nyuuennsyopannhuretto.pdf",
+      "quote": "育児休業の延長を許容（注７） －60"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.izumiotsu.lg.jp/material/files/group/21/R9nyuuennsyopannhuretto.pdf",
+      "quote": "利用調整申立書を提出した場合に減点する。育児休業の減点を撤回する場合は、選考月の前月10日（10日が閉庁日の場合、前開庁日）までに申し出るものとする。"
+    },
+    "notes.0": {
+      "url": "https://www.city.izumiotsu.lg.jp/material/files/group/21/R9nyuuennsyopannhuretto.pdf",
+      "quote": "※利用調整は入園所希望施設に挙げていただいた施設のみで行います。空きのある施設に後から市があっせんすることはありませんのでご注意ください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.izumiotsu.lg.jp/material/files/group/21/R9nyuuennsyopannhuretto.pdf",
+      "quote": "※令和9年4月の入園所審査にかかる入園所希望施設の変更は、令和8年11月30日を過ぎますと受け付けすることができません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.izumiotsu.lg.jp/material/files/group/21/R9FAQ.pdf",
+      "quote": "〇加点・減点に関する書類：令和８年１２月１１日（金）まで"
+    },
+    "notes.3": {
+      "url": "https://www.city.izumiotsu.lg.jp/material/files/group/21/R9ryuuijikou.pdf",
+      "quote": "●ご提出された就労証明書と同じ事業所に復職が必要です ●令和９年４月中に復職いただく必要があります"
+    },
+    "notes.4": {
+      "url": "https://www.city.izumiotsu.lg.jp/kakuka/kenko/kodomoikusei/osirase/16037.html",
+      "quote": "(注1)待機中の児童についても、新たに申込みしていただく必要があります。"
+    },
+    "notes.5": {
+      "url": "https://www.city.izumiotsu.lg.jp/material/files/group/21/R9FAQ.pdf",
+      "quote": "例年、初日は大変混み合いますので、長い待ち時間が発生する可能性があります。"
+    }
+  },
+  "sources": [
+    {
+      "label": "泉大津市「令和9年度 保育所・認定こども園（保育園部）・小規模保育事業所の入園所申込みについて」",
+      "url": "https://www.city.izumiotsu.lg.jp/kakuka/kenko/kodomoikusei/osirase/16037.html"
+    },
+    {
+      "label": "泉大津市「令和9年度入所・入園のご案内」",
+      "url": "https://www.city.izumiotsu.lg.jp/material/files/group/21/R9nyuuennsyopannhuretto.pdf"
+    },
+    {
+      "label": "泉大津市「FAQ－よくある質問－」",
+      "url": "https://www.city.izumiotsu.lg.jp/material/files/group/21/R9FAQ.pdf"
+    },
+    {
+      "label": "泉大津市「令和9年度4月入園所申込～留意事項～」",
+      "url": "https://www.city.izumiotsu.lg.jp/material/files/group/21/R9ryuuijikou.pdf"
+    }
+  ]
+}

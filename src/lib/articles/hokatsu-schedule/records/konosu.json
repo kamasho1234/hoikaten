@@ -1,0 +1,184 @@
+{
+  "citySlug": "konosu",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "鴻巣市「令和9年度保育施設入所案内」",
+    "url": "https://www.city.kounosu.saitama.jp/page/44325.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年10月14日（水曜日）〜10月21日（水曜日）。土曜・日曜は受付なし。郵送は受付期間内の当日消印有効",
+  "applyMethods": "1次受付は市役所会議室棟1001会議室（平日9時〜12時、13時30分〜16時30分）か吹上支所・川里支所の福祉グループ（8時30分〜17時）の窓口で受け付ける。郵送でも申し込める（受付期間内の当日消印有効）",
+  "firstResult": "1次受付申請分は令和8年12月末頃（予定）に郵送で通知",
+  "secondApply": "令和8年10月22日（木曜日）〜令和9年2月5日（金曜日）。土曜・日曜・祝日は受付なし。1次入所選考後に空きのある施設で利用調整する",
+  "secondResult": "2次受付申請分は令和9年2月末頃（予定）に通知",
+  "midYearDeadline": "年度途中の入所は入所月ごとに受付期間が決まっていて（例: 5月入所は令和9年3月8日〜4月5日）、期間外の受付はしない",
+  "documents": [
+    "教育・保育給付認定申請書（兼入所申込書兼保育児童台帳）",
+    "保育施設入所児童家庭状況表／入所希望に関する確認書",
+    "保育を必要とする証明。就労の場合は保育課所定の様式の就労証明書（有効期限は申請日時点で証明日から3か月）",
+    "求職活動の場合は就労確約書（保育課所定の様式）",
+    "利用申込に関する重要事項の同意書",
+    "申込書類チェックシート",
+    "申請者のマイナンバーがわかるものと身元がわかるもの（マイナンバーカードや運転免許証等）。郵送の場合は身元のわかるものの写しをつけた本人確認書類を同封する",
+    "令和8年1月1日時点で鴻巣市に住民票がなく、4月〜8月の入所を希望する場合は令和8年度市民税課税（非課税）証明書（父母それぞれの分）",
+    "入所予約をする場合は育児休業明け保育所入所予約申込書（所定の様式）"
+  ],
+  "interview": "希望する保育施設は事前に見学して決める（施設に連絡してから訪問）。入所前に健康診断を受ける（詳細は各施設に問い合わせる）",
+  "ikukyu": "不承諾通知を出すためだけの申込みは受け付けていない。申込みを受け付けた場合は入所希望があるものとして、希望施設に空きがあればその施設で入所調整を行う",
+  "notes": [
+    "1次受付の場所は保育課ではなく市役所の1001会議室",
+    "入所は先着順ではなく、入所選考時に合計指数の高い人から決まる",
+    "令和9年5月中（6月1日含む）に産育休から復職する場合の5月入所も、4月入所と同じ日程で申し込める",
+    "入所予約制の申込みは1次受付のみ",
+    "1次受付で4月入所が承諾となった施設を変更したい場合に限り、2次受付期間に同じ入所月で再度申し込める",
+    "提出書類に不備がある場合、再提出の期限もそれぞれの受付期間内"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.kounosu.saitama.jp/page/44325.html",
+      "quote": "令和9年度4月から入所を希望する児童の申請受付をします。"
+    },
+    "firstApply": {
+      "url": "https://www.city.kounosu.saitama.jp/page/44325.html",
+      "quote": "受付期間・場所/令和8年10月14日（水曜日）～令和8年10月21日（水曜日）　※土曜、日曜は受付なし"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.kounosu.saitama.jp/page/44325.html",
+      "quote": "受付期間　4月入所、年度途中入所の受付期間をご確認ください。（当日消印有効）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.kounosu.saitama.jp/page/44325.html",
+      "quote": "平日9時00分～12時00分、13時30分～16時30分に市役所会議室棟1001会議室、8時30分～17時00分に吹上支所福祉グループ・川里支所福祉グループで受付"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.kounosu.saitama.jp/page/44325.html",
+      "quote": "4月入所、年度途中入所ともに郵送での受付を行います。"
+    },
+    "firstResult": {
+      "url": "https://www.city.kounosu.saitama.jp/uploaded/attachment/27875.pdf",
+      "quote": "１次受付申請分：令和８年１２月末頃（予定）"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.kounosu.saitama.jp/uploaded/attachment/27875.pdf",
+      "quote": "○結果については郵送にて通知します。"
+    },
+    "secondApply": {
+      "url": "https://www.city.kounosu.saitama.jp/page/44325.html",
+      "quote": "受付期間・場所/令和8年10月22日（木曜日）～令和9年2月5日（金曜日）　※土曜、日曜及び祝日は受付なし"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.kounosu.saitama.jp/page/44325.html",
+      "quote": "2次受付は1次入所選考後空きのある施設で利用調整します。"
+    },
+    "secondResult": {
+      "url": "https://www.city.kounosu.saitama.jp/uploaded/attachment/27875.pdf",
+      "quote": "２次受付申請分：令和９年 ２月末頃（予定）"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.kounosu.saitama.jp/page/44325.html",
+      "quote": "入所月の受付期間以外での受付は行いません。"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.kounosu.saitama.jp/uploaded/attachment/27875.pdf",
+      "quote": "５月 令和９年３月８日（月） ～ 令和９年４月５日（月）"
+    },
+    "documents.0": {
+      "url": "https://www.city.kounosu.saitama.jp/page/44326.html",
+      "quote": "教育・保育給付認定申請書(兼入所申込書兼保育児童台帳)"
+    },
+    "documents.1": {
+      "url": "https://www.city.kounosu.saitama.jp/page/44326.html",
+      "quote": "保育施設入所児童家庭状況表/入所希望に関する確認書"
+    },
+    "documents.2": {
+      "url": "https://www.city.kounosu.saitama.jp/page/44326.html",
+      "quote": "就労証明書（保育課所定の様式）"
+    },
+    "documents.2#2": {
+      "url": "https://www.city.kounosu.saitama.jp/uploaded/attachment/27875.pdf",
+      "quote": "① 就労証明書の有効期限は申請日時点で証明日から３ヶ月です。"
+    },
+    "documents.3": {
+      "url": "https://www.city.kounosu.saitama.jp/page/44326.html",
+      "quote": "就労確約書（保育課所定の様式）"
+    },
+    "documents.4": {
+      "url": "https://www.city.kounosu.saitama.jp/page/44326.html",
+      "quote": "利用申込に関する重要事項の同意書"
+    },
+    "documents.5": {
+      "url": "https://www.city.kounosu.saitama.jp/page/44326.html",
+      "quote": "申込書類チェックシート"
+    },
+    "documents.6": {
+      "url": "https://www.city.kounosu.saitama.jp/page/44326.html",
+      "quote": "申請者のマイナンバーのわかるものと身元のわかるもの（マイナンバーカードや運転免許証等）をそれぞれご持参ください。"
+    },
+    "documents.6#2": {
+      "url": "https://www.city.kounosu.saitama.jp/page/44326.html",
+      "quote": "郵送で申請する場合は、身元のわかるもの（運転免許証等）の写しをつけた「本人確認書類」を申請書に同封してください。"
+    },
+    "documents.7": {
+      "url": "https://www.city.kounosu.saitama.jp/page/44326.html",
+      "quote": "令和8年1月1日時点で鴻巣市に住民票がなく、令和9年度4月～8月の入所希望の場合"
+    },
+    "documents.8": {
+      "url": "https://www.city.kounosu.saitama.jp/page/44326.html",
+      "quote": "育児休業明け保育所入所予約申込書（所定の様式）"
+    },
+    "interview": {
+      "url": "https://www.city.kounosu.saitama.jp/uploaded/attachment/27875.pdf",
+      "quote": "○希望する保育施設を必ず事前に見学して決めてください。"
+    },
+    "interview#2": {
+      "url": "https://www.city.kounosu.saitama.jp/uploaded/attachment/27875.pdf",
+      "quote": "○入所前に健康診断を受けていただきます。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.kounosu.saitama.jp/uploaded/attachment/27875.pdf",
+      "quote": "また不承諾通知を出すための申込みは受け付けておりません。入所申込みを受け付けた場合は入所希望があるものとし、希望施設に空きがあればその施設で入所調整を行います。"
+    },
+    "notes.0": {
+      "url": "https://www.city.kounosu.saitama.jp/uploaded/attachment/27875.pdf",
+      "quote": "●１次受付場所は保育課ではなく１００１会議室です。"
+    },
+    "notes.1": {
+      "url": "https://www.city.kounosu.saitama.jp/page/44325.html",
+      "quote": "先着順ではなく、毎月の入所選考時に合計指数の高い方からの入所となります。"
+    },
+    "notes.2": {
+      "url": "https://www.city.kounosu.saitama.jp/page/44325.html",
+      "quote": "令和9年5月中（6月1日含む）に産育休から復職する場合の令和9年度5月入所も下記の日程で受け付けます。"
+    },
+    "notes.3": {
+      "url": "https://www.city.kounosu.saitama.jp/page/44325.html",
+      "quote": "入所予約制のお申し込み（1次受付のみ）、市外の保育施設のお申込みについての詳細は、入所案内（P16）をご覧ください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.kounosu.saitama.jp/uploaded/attachment/27875.pdf",
+      "quote": "１次受付で４月入所（５月産育休明け入所）が承諾となった施設を変更したい場合に限り、同じ入所月での再度の申込みを受け付けます。"
+    },
+    "notes.5": {
+      "url": "https://www.city.kounosu.saitama.jp/page/44325.html",
+      "quote": "提出書類に不備等がある場合、再提出の期限もそれぞれの受付期間内となります。"
+    },
+    "notes.4#2": {
+      "url": "https://www.city.kounosu.saitama.jp/uploaded/attachment/27875.pdf",
+      "quote": "・受付期間：２次受付期間"
+    }
+  },
+  "sources": [
+    {
+      "label": "鴻巣市「令和9年度保育施設入所案内」",
+      "url": "https://www.city.kounosu.saitama.jp/page/44325.html"
+    },
+    {
+      "label": "鴻巣市「令和9年度保育施設入所申請書類」",
+      "url": "https://www.city.kounosu.saitama.jp/page/44326.html"
+    },
+    {
+      "label": "鴻巣市「令和9年度保育施設入所案内」（冊子PDF）",
+      "url": "https://www.city.kounosu.saitama.jp/uploaded/attachment/27875.pdf"
+    }
+  ]
+}

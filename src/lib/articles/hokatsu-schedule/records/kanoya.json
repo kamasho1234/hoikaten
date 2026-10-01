@@ -1,0 +1,175 @@
+{
+  "citySlug": "kanoya",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "鹿屋市「令和9年度鹿屋市保育所・認定こども園等利用申込み」",
+    "url": "https://www.city.kanoya.lg.jp/kokanri/kyoiku/kosodate/shisetsu/r5nendoriyoumoudhikomi.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年11月2日（月曜日）〜令和8年11月20日（金曜日）（令和9年4月1日〜6月1日から利用を始める人の1次選考分。在園児の継続利用も含む）。郵送は受付終了日までに必着",
+  "applyMethods": "持参か郵送で申し込む。提出先は市こども政策課（17番窓口）か各総合支所住民サービス課の窓口。在園児と在園児のきょうだいは入所施設にも提出できる（在園児の継続利用は原則入所施設へ）。市役所・総合支所の受付は8時30分から17時15分まで",
+  "firstResult": "1次選考の結果は1月下旬頃（予定）に郵送で通知。保育の必要性の高い人から選考し、申込順ではない",
+  "secondApply": "受付期間後の申込みは令和8年11月21日（土）から受け付ける。受付期間内に申し込んだ人の後で、申込日が早い人から選考（申込順）",
+  "secondResult": "受付期間後の申込み分は2月下旬（予定）に選考し、3月上旬（予定）に郵送で通知。2月中旬以降に申し込んだ場合は通知が3月中旬以降になる",
+  "midYearDeadline": "年度途中（令和9年6月2日以降）から利用する人は令和8年11月2日以降いつでも申し込める。利用開始希望日の2か月前から申込順に利用調整を行う",
+  "documents": [
+    "マイナンバー利用に関する同意書（個人番号確認書類と本人確認書類を添付）",
+    "転入前の保育所等利用申込みに係る誓約書（鹿屋市へ転入予定の児童のみ）",
+    "施設型給付費・地域型保育給付費等支給認定申請書兼利用申込書（教育・保育施設）兼現況届（申込書【C】）",
+    "同意書兼誓約書とアレルギー等調査票（児童1人につき1部）",
+    "保護者（父母等）の保育の必要性の証明書類（保護者ごとに1部）"
+  ],
+  "interview": "アレルギーや障がい、療育等で配慮が必要な児童は、入所内定前に面談を行う。見学は子どもと一緒に行くことが勧められており、事前に保育所等へ直接問い合わせる",
+  "ikukyu": "入所保留（空き待ち）になった場合は市から「入所保留通知」が郵送され、育児休業給付金の延長申請の書類として使える。再発行はできない",
+  "notes": [
+    "1次選考で内定しなかった人には、選考後の空き状況の案内と、希望施設で空きを待つか変更するかの2次選考希望調査が郵送される（1月末締切予定）。2次選考の結果通知は2月中旬予定",
+    "書類に不備があった場合、受付終了日以降の申込みは入所選考の対象外になる",
+    "入所申込みは令和9年度中（令和10年3月末日まで）有効で、空きが出たら市から連絡がある",
+    "認可施設に入所しながら空き待ちをすることはできない",
+    "就労証明書は就労予定日を書いてもらうこともできるので、就労先に相談する"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.kanoya.lg.jp/kokanri/kyoiku/kosodate/shisetsu/r5nendoriyoumoudhikomi.html",
+      "quote": "令和9年度の認可保育所・認定こども園・地域型保育事業所の利用申込みについてご案内します。"
+    },
+    "fiscalYear#2": {
+      "url": "https://www.city.kanoya.lg.jp/kokanri/kyoiku/kosodate/shisetsu/r5nendoriyoumoudhikomi.html",
+      "quote": "年度当初（令和9年4月1日～6月1日）から利用申込みの方（在園児童の継続利用含む。）"
+    },
+    "firstApply": {
+      "url": "https://www.city.kanoya.lg.jp/kokanri/kyoiku/kosodate/shisetsu/r5nendoriyoumoudhikomi.html",
+      "quote": "令和8年11月2日（月曜日）から  令和8年11月20日（金曜日） まで"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.kanoya.lg.jp/documents/8795/mousikomiannnai.pdf",
+      "quote": "※郵送の場合は、受付終了日までの必着となります。"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.kanoya.lg.jp/kokanri/kyoiku/kosodate/shisetsu/r5nendoriyoumoudhikomi.html",
+      "quote": "年度当初（令和9年4月1日～6月1日）から利用申込みの方（在園児童の継続利用含む。）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.kanoya.lg.jp/documents/8795/mousikomiannnai.pdf",
+      "quote": "〇申込みは、持参・郵送で受付けます。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.kanoya.lg.jp/kokanri/kyoiku/kosodate/shisetsu/r5nendoriyoumoudhikomi.html",
+      "quote": "市こども政策課（17番窓口）又は各総合支所住民サービス課窓口"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.kanoya.lg.jp/documents/8795/mousikomiannnai.pdf",
+      "quote": "○在園児童・在園児童のきょうだい ⇒ 入所施設 又は 以下窓口"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.kanoya.lg.jp/documents/8795/mousikomiannnai.pdf",
+      "quote": "〇市役所、各総合支所での受付は、『８：30から17：15まで』"
+    },
+    "firstResult": {
+      "url": "https://www.city.kanoya.lg.jp/documents/8795/mousikomiannnai.pdf",
+      "quote": "選考結果通知(郵送) ２次選考希望調査 【１月下旬頃予定】 【１月末締切予定】"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.kanoya.lg.jp/documents/8795/mousikomiannnai.pdf",
+      "quote": "保育の必要性の高い方から選考します。 １次選考 申込順ではありません。"
+    },
+    "secondApply": {
+      "url": "https://www.city.kanoya.lg.jp/documents/8795/mousikomiannnai.pdf",
+      "quote": "受付期間後に提出 申込受付【令和８年11月21日(土)～】 【選考の優先順位】 １ 受付期間内に、申込みをした方"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.kanoya.lg.jp/documents/8795/mousikomiannnai.pdf",
+      "quote": "２ 申込日が早い方（申込順）"
+    },
+    "secondResult": {
+      "url": "https://www.city.kanoya.lg.jp/documents/8795/mousikomiannnai.pdf",
+      "quote": "入所選考【２月下旬予定】"
+    },
+    "secondResult#2": {
+      "url": "https://www.city.kanoya.lg.jp/documents/8795/mousikomiannnai.pdf",
+      "quote": "選考結果通知【３月上旬予定】(郵送)"
+    },
+    "secondResult#3": {
+      "url": "https://www.city.kanoya.lg.jp/documents/8795/mousikomiannnai.pdf",
+      "quote": "２月中旬以降に申込みした場合は通知が３月中旬以降になります。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.kanoya.lg.jp/kokanri/kyoiku/kosodate/shisetsu/r5nendoriyoumoudhikomi.html",
+      "quote": "年度途中（令和9年6月2日～）から利用申込みの方 受付期間 令和8年11月2日（月曜日）以降随時受付"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.kanoya.lg.jp/kokanri/kyoiku/kosodate/shisetsu/r5nendoriyoumoudhikomi.html",
+      "quote": "※利用開始希望日の2か月前から申込順に利用調整を行います。"
+    },
+    "documents.0": {
+      "url": "https://www.city.kanoya.lg.jp/kokanri/kyoiku/kosodate/shisetsu/r5nendoriyoumoudhikomi.html",
+      "quote": "マイナンバー利用に関する同意書 ※個人番号確認書類及び本人確認書類を添付すること"
+    },
+    "documents.1": {
+      "url": "https://www.city.kanoya.lg.jp/kokanri/kyoiku/kosodate/shisetsu/r5nendoriyoumoudhikomi.html",
+      "quote": "≪鹿屋市へ転入予定児童のみ≫ 転入前の保育所等利用申込みに係る誓約書"
+    },
+    "documents.2": {
+      "url": "https://www.city.kanoya.lg.jp/kokanri/kyoiku/kosodate/shisetsu/r5nendoriyoumoudhikomi.html",
+      "quote": "施設型給付費・地域型保育給付費等支給認定申請書兼利用申込書（教育・保育施設）兼現況届（申込書【C】)"
+    },
+    "documents.3": {
+      "url": "https://www.city.kanoya.lg.jp/documents/8795/mousikomiannnai.pdf",
+      "quote": "※○同意書兼誓約書、○アレルギー等調査票 含む。"
+    },
+    "documents.3#2": {
+      "url": "https://www.city.kanoya.lg.jp/documents/8795/mousikomiannnai.pdf",
+      "quote": "児童1人につき１部 同意書兼誓約書 全員 アレルギー等調査票"
+    },
+    "documents.4": {
+      "url": "https://www.city.kanoya.lg.jp/documents/8795/mousikomiannnai.pdf",
+      "quote": "保護者（父母等）の保育の必要性の証明書類 保護者毎１部"
+    },
+    "interview": {
+      "url": "https://www.city.kanoya.lg.jp/documents/8795/mousikomiannnai.pdf",
+      "quote": "安全な保育を行うために入所内定 前に面談を行っていただきます。"
+    },
+    "interview#2": {
+      "url": "https://www.city.kanoya.lg.jp/documents/8795/mousikomiannnai.pdf",
+      "quote": "・利用申込みに際しては、お子様と一緒にご希望の保育所等を見学し ていただくことをおすすめします。なお、見学を希望される際には、 事前に保育所等へ直接お問い合わせください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.kanoya.lg.jp/documents/8795/mousikomiannnai.pdf",
+      "quote": "入所保留（空き待ち）となった場合は、市から「入所保留通知」を郵送します。職場やハローワークか ら育児休業給付金の延長申請に係る書類の提出を求められた際にご利用ください。※再発行不可"
+    },
+    "notes.0": {
+      "url": "https://www.city.kanoya.lg.jp/documents/8795/mousikomiannnai.pdf",
+      "quote": "・希望施設で空きを待つか、希望施設の変更 ２ を行うか調査を行います。"
+    },
+    "notes.0#2": {
+      "url": "https://www.city.kanoya.lg.jp/documents/8795/mousikomiannnai.pdf",
+      "quote": "選考結果通知(郵送)【２月中旬予定】"
+    },
+    "notes.1": {
+      "url": "https://www.city.kanoya.lg.jp/documents/8795/mousikomiannnai.pdf",
+      "quote": "・書類に不備があった場合、受付終了日以降の申込みは入所選考の対 象外となります。"
+    },
+    "notes.2": {
+      "url": "https://www.city.kanoya.lg.jp/documents/8795/mousikomiannnai.pdf",
+      "quote": "入所申込みは、令和９年度中（令和10年３月末日まで）は有効です。 施設に受入が可能となった際に市から連絡します。"
+    },
+    "notes.3": {
+      "url": "https://www.city.kanoya.lg.jp/documents/8795/mousikomiannnai.pdf",
+      "quote": "・認可施設（保育所、認定こども園（教育枠・保育枠）、地域型保育事業所、幼稚園）に入所 しながら空き待ちをすることはできません。"
+    },
+    "notes.4": {
+      "url": "https://www.city.kanoya.lg.jp/documents/8795/mousikomiannnai.pdf",
+      "quote": "なお、就労証明書は、就労予定日を記 載していただくことが可能ですので就労先へご相談ください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "鹿屋市「令和9年度鹿屋市保育所・認定こども園等利用申込み」",
+      "url": "https://www.city.kanoya.lg.jp/kokanri/kyoiku/kosodate/shisetsu/r5nendoriyoumoudhikomi.html"
+    },
+    {
+      "label": "鹿屋市「令和9年度鹿屋市保育所・認定こども園等利用のご案内」（PDF）",
+      "url": "https://www.city.kanoya.lg.jp/documents/8795/mousikomiannnai.pdf"
+    }
+  ]
+}

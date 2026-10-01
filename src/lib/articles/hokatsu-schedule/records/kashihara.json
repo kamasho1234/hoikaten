@@ -1,0 +1,154 @@
+{
+  "citySlug": "kashihara",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "橿原市「令和9年度保育所・認定こども園・小規模保育事業への入所」",
+    "url": "https://www.city.kashihara.nara.jp/soshiki/1036/gyomu/5/3/20919.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年9月1日（火曜日）から、こども未来課と私立の保育所・認定こども園・小規模保育事業で申込書を配布",
+  "firstApply": "令和8年10月1日（木曜日）〜10月21日（水曜日）。出生・市内転入等のやむを得ない理由がある場合を除き、期間外の申込みは5月以降の申請として扱われ、4月から入所できない",
+  "applyMethods": "第一希望が市立認定こども園または市外施設の場合はこども未来課（市役所分庁舎2階5番窓口）、第一希望が市内私立施設（保育所・認定こども園・小規模保育事業）の場合は希望する園かこども未来課に申請書を提出する。こども未来課の窓口は土・日・祝日を除く9時〜16時30分",
+  "midYearDeadline": "5月以降の入所は随時申請で、入所希望月の2か月前の1日（土・日・祝日の場合は翌開庁日）まで。令和9年5月入所の締切は令和9年3月1日（月曜日）",
+  "documents": [
+    "令和9年度 施設型給付費・地域型保育給付費等 保育給付認定申請書 兼 施設利用申請書",
+    "保育の利用に関する確認票 兼 同意書（申請児童につき1部）",
+    "調査票、個人番号申告書",
+    "保育の必要性の確認書類（就労の場合は就労証明書で、月64時間以上の就労が必要。就労証明書・疾病・負傷状況証明書・介護・看護状況証明書は証明日から3か月以内のものが有効）",
+    "育児休業を取得している場合は育児休業からの復職意思に関する申出書",
+    "橿原市に転入予定の場合は転入に関する申立書（入所日の前月末までの転入が必要）"
+  ],
+  "ikukyu": "育児休業の延長を許容できる場合は、入所保留通知書にそのことが記載される。期限後申請の場合も、育児休業の延長給付に係る保留通知書に期限後申請である旨が記載される。すでに入所済の子どもがいない場合は、入所開始月の翌月1日までに復職する必要がある",
+  "notes": [
+    "入所が内定したら内定施設の「重要事項説明書」への同意が必要で、同意しないと内定取消しになるため、申請前に希望施設の重要事項説明書を確認する",
+    "市立認定こども園は調整による入所枠を限定しているので、市内私立施設を含めて希望園を広く選ぶよう案内されている",
+    "希望施設は21施設まで書くことができ、希望順位は指数に影響しない",
+    "令和8年度の申請では約3割の人が入所できず待機になった",
+    "市内施設から市内施設への転園申請は指数が減点される",
+    "第一希望が橿原北やまとこども園の場合は、耳成西幼稚園でも申請を受け付ける"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.kashihara.nara.jp/soshiki/1036/gyomu/5/3/20919.html",
+      "quote": "令和9年4月入所を希望される場合 入所を希望される方は申込書を提出ください。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.kashihara.nara.jp/soshiki/1036/gyomu/5/3/20919.html",
+      "quote": "配布場所 こども未来課 私立の保育所、認定こども園または小規模保育事業 配布期間 令和8年9月1日（火曜日）～"
+    },
+    "firstApply": {
+      "url": "https://www.city.kashihara.nara.jp/soshiki/1036/gyomu/5/3/20919.html",
+      "quote": "受付期間 令和8年10月1日（木曜日）～21日（水曜日）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.kashihara.nara.jp/soshiki/1036/gyomu/5/3/20919.html",
+      "quote": "※申請期間を超えた場合は、出生等のやむを得ない理由がある場合を除き、5月以降の申請として取り扱います。その場合、4月から入所することはできません。"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.kashihara.nara.jp/soshiki/1036/gyomu/5/3/20919.html",
+      "quote": "※出生や市内転入等のやむを得ない理由がある場合を除き、原則として受付期間外の申込みは5月以降の申請として取り扱います。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.kashihara.nara.jp/soshiki/1036/gyomu/5/3/20919.html",
+      "quote": "【第一希望が市立認定こども園】 こども未来課 【第一希望が私立保育所、私立認定こども園、小規模保育事業】 希望する園 または こども未来課"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.kashihara.nara.jp/material/files/group/37/tebikir09.pdf",
+      "quote": "市立認定こども園、又は市外施設：こども未来課"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.kashihara.nara.jp/soshiki/1036/gyomu/5/3/20919.html",
+      "quote": "※こども未来課の窓口は、配布期間・受付期間ともに、土・日・祝日を除く9時～16時30分です。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.kashihara.nara.jp/soshiki/1036/gyomu/5/3/20919.html",
+      "quote": "※こども未来課の所在地（市役所分庁舎2階5番窓口）"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.kashihara.nara.jp/soshiki/1036/gyomu/5/3/20919.html",
+      "quote": "5月以降の入所分は、随時申請として入所希望月の2か月前の1日（1日が土・日・祝日の場合は翌開庁日）までに提出してください。"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.kashihara.nara.jp/soshiki/1036/gyomu/5/3/20919.html",
+      "quote": "令和9年5月 令和9年3月1日（月曜日）"
+    },
+    "documents.0": {
+      "url": "https://www.city.kashihara.nara.jp/material/files/group/37/tebikir09.pdf",
+      "quote": "令和９年度 施設型給付費・地域型保育給付費等 ① 保育給付認定申請書 兼 施設利用申請書"
+    },
+    "documents.1": {
+      "url": "https://www.city.kashihara.nara.jp/material/files/group/37/tebikir09.pdf",
+      "quote": "② 保育の利用に関する確認票 兼 同意書 申請児童につき１部"
+    },
+    "documents.2": {
+      "url": "https://www.city.kashihara.nara.jp/material/files/group/37/tebikir09.pdf",
+      "quote": "③ 調査票 ④ 個人番号申告書"
+    },
+    "documents.3": {
+      "url": "https://www.city.kashihara.nara.jp/material/files/group/37/tebikir09.pdf",
+      "quote": "※就労証明書、疾病・負傷状況証明書、介護・看護状況証明書は、証明日から3か月以内のものが有効です。"
+    },
+    "documents.3#2": {
+      "url": "https://www.city.kashihara.nara.jp/material/files/group/37/tebikir09.pdf",
+      "quote": "就労 月64時間以上の就労が必要です"
+    },
+    "documents.4": {
+      "url": "https://www.city.kashihara.nara.jp/material/files/group/37/tebikir09.pdf",
+      "quote": "育児休業からの復職意思に関する ⑥ 育児休業を取得している場合"
+    },
+    "documents.5": {
+      "url": "https://www.city.kashihara.nara.jp/soshiki/1036/gyomu/5/3/20919.html",
+      "quote": "橿原市に転入予定の場合 転入に関する申立書"
+    },
+    "documents.5#2": {
+      "url": "https://www.city.kashihara.nara.jp/material/files/group/37/tebikir09.pdf",
+      "quote": "※入所日の前月末までの転入が必要"
+    },
+    "ikukyu": {
+      "url": "https://www.city.kashihara.nara.jp/material/files/group/37/tebikir09.pdf",
+      "quote": "※育児休業の延長を許容できる場合、入所保留通知書にそのことが記載されます。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.kashihara.nara.jp/soshiki/1036/gyomu/5/3/20919.html",
+      "quote": "※育児休業の延長給付に係る保留通知書にも、期限後申請である旨が記載されます。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.kashihara.nara.jp/material/files/group/37/tebikir09.pdf",
+      "quote": "入所開始月の翌月１日までに復職する必要があります。"
+    },
+    "notes.0": {
+      "url": "https://www.city.kashihara.nara.jp/soshiki/1036/gyomu/5/3/20919.html",
+      "quote": "入所が内定となった場合、内定施設の「重要事項説明書」への同意が必要です。その同意をしなかった場合は内定の取消しとなりますので、ご心配な場合は、申請前に希望施設の「重要事項説明書」を確認するようにしてください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.kashihara.nara.jp/soshiki/1036/gyomu/5/3/20919.html",
+      "quote": "市立認定こども園は、公立施設としての役割に鑑みて、調整による入所枠を限定します。希望園の選択に当たっては、市内私立施設をはじめ、選択肢を広くお持ちください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.kashihara.nara.jp/material/files/group/37/tebikir09.pdf",
+      "quote": "※希望施設は、２１施設まで記入することができます。希望された全ての施設について、利用調整を行います。希望順位は、指数には影響しません。"
+    },
+    "notes.3": {
+      "url": "https://www.city.kashihara.nara.jp/material/files/group/37/tebikir09.pdf",
+      "quote": "令和８年度の申請においては、約３割の方が入所することができず、待機となっています。"
+    },
+    "notes.4": {
+      "url": "https://www.city.kashihara.nara.jp/material/files/group/37/tebikir09.pdf",
+      "quote": "市内施設から市内施設への転園申請をされる場合は指数が減点されます。"
+    },
+    "notes.5": {
+      "url": "https://www.city.kashihara.nara.jp/soshiki/1036/gyomu/5/3/20919.html",
+      "quote": "第一希望が橿原北やまとこども園の方は、耳成西幼稚園でも申請を受付けます。"
+    }
+  },
+  "sources": [
+    {
+      "label": "橿原市「令和9年度保育所・認定こども園・小規模保育事業への入所」",
+      "url": "https://www.city.kashihara.nara.jp/soshiki/1036/gyomu/5/3/20919.html"
+    },
+    {
+      "label": "橿原市「令和9年度 橿原市 保育施設入所申請の手引き」",
+      "url": "https://www.city.kashihara.nara.jp/material/files/group/37/tebikir09.pdf"
+    }
+  ]
+}

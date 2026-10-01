@@ -1,0 +1,169 @@
+{
+  "citySlug": "kitahiroshima",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "北広島市「保育施設の入所手続き」",
+    "url": "https://www.city.kitahiroshima.hokkaido.jp/kosodate/detail/00125797.html"
+  },
+  "fiscalYear": "R8",
+  "firstApply": "第1次調整は令和7年12月1日（月）〜令和7年12月26日（金）",
+  "applyMethods": "申請書類を窓口（市子ども家庭課または西部・大曲・西の里出張所）に持参するか、郵送で提出する",
+  "firstResult": "2月下旬頃に通知を郵送（記入したいずれかの施設に内定した場合。電話連絡はしない）。記入したどの施設にも入所できない場合は1月中を目途に電話で連絡",
+  "secondApply": "第2次調整は令和8年1月5日（月）〜令和8年2月27日（金）",
+  "secondResult": "3月中旬。2次調整の結果は電話で伝える",
+  "midYearDeadline": "入所日は毎月1日と15日。入所希望日の一か月前までに市役所子ども家庭課または各出張所で手続きする",
+  "documents": [
+    "子どものための教育・保育給付認定申請書(現況届)兼入園(所)申込書",
+    "家族状況調書",
+    "認可保育所等の入所（転園）申請に関する確認書",
+    "保育を必要とする事由を確認できる書類（保護者全員分。雇用されている場合は就労証明書、自営業の場合は事業状況申告書と開業届等）",
+    "育児休業の場合は、育児休業期間が明記された就労証明書",
+    "申請時に北広島市に住民登録していない保護者は、転入申立書と転入予定を確認できる書類（賃貸契約書の写しなど）"
+  ],
+  "interview": "入所が決まると保育施設で面接（4月入所時は「入所説明会」）があり、必ず入所児童と一緒に参加する",
+  "ikukyu": "産休や育休からの復職は入所日から1か月以内に行う。申込み時に実際に復帰できるかを確かめて入所希望日を決める",
+  "notes": [
+    "4月1日入所は第1次調整で申請された児童を優先的に調整する",
+    "保育の必要度が高い方から入所を決め、先着順や希望順（第1希望〜第3希望）による優先はない",
+    "入所保留となっても年度内は次回以降も選考されるので、再度申し込む必要はない",
+    "保護者が保育士等の資格者で、市内の保育施設・幼稚園・学童クラブ・児童センターに就労中または就労予定の場合は点数に加点がある",
+    "出産前の子どもの申込みは受け付けていない",
+    "申請後に希望の施設を変える場合は市子ども家庭課の窓口で変更希望を記入する。出張所や電話では変更できない"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.kitahiroshima.hokkaido.jp/hotnews/files/00125700/00125797/20251104164135.pdf",
+      "quote": "令和8年４月1日入所用 (12月1日～26日受付)"
+    },
+    "fiscalYear#2": {
+      "url": "https://www.city.kitahiroshima.hokkaido.jp/hotnews/files/00125700/00125797/r8nyusyogaido.pdf",
+      "quote": "・4月1日入所の申込み 区分 申請期間 結果通知時期 第1次調整 令和7年12月１日（月）～ 令和7年12月26日（金） 2月下旬"
+    },
+    "firstApply": {
+      "url": "https://www.city.kitahiroshima.hokkaido.jp/hotnews/files/00125700/00125797/r8nyusyogaido.pdf",
+      "quote": "第1次調整 令和7年12月１日（月）～ 令和7年12月26日（金） 2月下旬"
+    },
+    "applyMethods": {
+      "url": "https://www.city.kitahiroshima.hokkaido.jp/hotnews/files/00125700/00125797/r8nyusyogaido.pdf",
+      "quote": "申請書類を窓口（市子ども家庭課または西部・大曲・西の里出張所）や郵送にて提出することで受付しています。"
+    },
+    "firstResult": {
+      "url": "https://www.city.kitahiroshima.hokkaido.jp/hotnews/files/00125700/00125797/r8nyusyogaido.pdf",
+      "quote": "第1次調整 令和7年12月１日（月）～ 令和7年12月26日（金） 2月下旬"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.kitahiroshima.hokkaido.jp/hotnews/files/00125700/00125797/20251104164135.pdf",
+      "quote": "申請書にご記入いただいたいずれかの施設に内定した場合は、2月下旬頃に通知を郵送"
+    },
+    "firstResult#3": {
+      "url": "https://www.city.kitahiroshima.hokkaido.jp/hotnews/files/00125700/00125797/20251104164135.pdf",
+      "quote": "申請書にご記入いただいたいずれの施設にも入所できない場合は、1月中を目途に電話"
+    },
+    "secondApply": {
+      "url": "https://www.city.kitahiroshima.hokkaido.jp/hotnews/files/00125700/00125797/r8nyusyogaido.pdf",
+      "quote": "第2次調整 令和8年1月5日（月）～ 令和8年2月27日（金） 3月中旬"
+    },
+    "secondResult": {
+      "url": "https://www.city.kitahiroshima.hokkaido.jp/hotnews/files/00125700/00125797/r8nyusyogaido.pdf",
+      "quote": "第2次調整 令和8年1月5日（月）～ 令和8年2月27日（金） 3月中旬"
+    },
+    "secondResult#2": {
+      "url": "https://www.city.kitahiroshima.hokkaido.jp/hotnews/files/00125700/00125797/r8nyusyogaido.pdf",
+      "quote": "・２次調整の結果については電話でお伝えします。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.kitahiroshima.hokkaido.jp/kosodate/detail/00125797.html",
+      "quote": "入所希望日の一か月前までに市役所子ども家庭課または各出張所で手続きしてください。"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.kitahiroshima.hokkaido.jp/kosodate/detail/00125797.html",
+      "quote": "入所日は、毎月1日と15日です。"
+    },
+    "documents.0": {
+      "url": "https://www.city.kitahiroshima.hokkaido.jp/hotnews/files/00125700/00125797/r8nyusyogaido.pdf",
+      "quote": "① 子どものための教育・保育給付認定申請書(現況届)兼入園(所)申込書 ② 家族状況調書 ③ 認可保育所等の入所（転園）申請に関する確認書"
+    },
+    "documents.1": {
+      "url": "https://www.city.kitahiroshima.hokkaido.jp/hotnews/files/00125700/00125797/r8nyusyogaido.pdf",
+      "quote": "① 子どものための教育・保育給付認定申請書(現況届)兼入園(所)申込書 ② 家族状況調書 ③ 認可保育所等の入所（転園）申請に関する確認書"
+    },
+    "documents.2": {
+      "url": "https://www.city.kitahiroshima.hokkaido.jp/hotnews/files/00125700/00125797/r8nyusyogaido.pdf",
+      "quote": "① 子どものための教育・保育給付認定申請書(現況届)兼入園(所)申込書 ② 家族状況調書 ③ 認可保育所等の入所（転園）申請に関する確認書"
+    },
+    "documents.3": {
+      "url": "https://www.city.kitahiroshima.hokkaido.jp/hotnews/files/00125700/00125797/r8nyusyogaido.pdf",
+      "quote": "□保育を必要とする事由を確認できる書類（保護者全員分必要です）"
+    },
+    "documents.3#2": {
+      "url": "https://www.city.kitahiroshima.hokkaido.jp/hotnews/files/00125700/00125797/r8nyusyogaido.pdf",
+      "quote": "①雇用されている場合→就労証明書※"
+    },
+    "documents.3#3": {
+      "url": "https://www.city.kitahiroshima.hokkaido.jp/hotnews/files/00125700/00125797/r8nyusyogaido.pdf",
+      "quote": "②自営業の場合→事業状況申告書※及び開業届 等"
+    },
+    "documents.4": {
+      "url": "https://www.city.kitahiroshima.hokkaido.jp/hotnews/files/00125700/00125797/r8nyusyogaido.pdf",
+      "quote": "⑨ 育児休業 就労証明書※ （育児休業期間が明記されているもの）"
+    },
+    "documents.5": {
+      "url": "https://www.city.kitahiroshima.hokkaido.jp/hotnews/files/00125700/00125797/r8nyusyogaido.pdf",
+      "quote": "□北広島市に転入予定の方（※申請時に北広島市に住民登録していない保護者のみ必要です）"
+    },
+    "documents.5#2": {
+      "url": "https://www.city.kitahiroshima.hokkaido.jp/hotnews/files/00125700/00125797/r8nyusyogaido.pdf",
+      "quote": "転入申立書※及び賃貸契約書の写し（住所・入居日の記載がある箇所"
+    },
+    "interview": {
+      "url": "https://www.city.kitahiroshima.hokkaido.jp/kosodate/detail/00125797.html",
+      "quote": "入所が決定されると、保育施設での面接（4月入所時は、「入所説明会」）を行います。"
+    },
+    "interview#2": {
+      "url": "https://www.city.kitahiroshima.hokkaido.jp/kosodate/detail/00125797.html",
+      "quote": "面接(入所説明会)では、入所前に用意する持ち物や、保育の内容等の説明がありますので必ず入所児童といっしょに参加してください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.kitahiroshima.hokkaido.jp/hotnews/files/00125700/00125797/r8nyusyogaido.pdf",
+      "quote": "⑧ 産休や育休からの復職は、入所日から１か月以内に行ってください。入所の申込みをする際は、実際に復帰可能かを確認したうえで入所希望日を設定してください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.kitahiroshima.hokkaido.jp/hotnews/files/00125700/00125797/r8nyusyogaido.pdf",
+      "quote": "※第1次調整で申請された児童を優先的に調整します。"
+    },
+    "notes.1": {
+      "url": "https://www.city.kitahiroshima.hokkaido.jp/hotnews/files/00125700/00125797/r8nyusyogaido.pdf",
+      "quote": "調整の度にその時点の申込者を対象とするため、先着による優先はありません。また、希望順（第1希望～第3希望）による優先もありません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.kitahiroshima.hokkaido.jp/hotnews/files/00125700/00125797/r8nyusyogaido.pdf",
+      "quote": "④ 入所保留となった方でも、年度内であれば次回以降も選考をしますので、再度申込みをしていただく必要はありません。"
+    },
+    "notes.3": {
+      "url": "https://www.city.kitahiroshima.hokkaido.jp/hotnews/files/00125700/00125797/r8nyusyogaido.pdf",
+      "quote": "⑤ 北広島市では、保護者の方が保育士等の資格者で、市内の保育施設、幼稚園、学童クラブ、児童センターに就労中又は就労予定の場合は、保育入所選考基準による点数に加点しています。"
+    },
+    "notes.4": {
+      "url": "https://www.city.kitahiroshima.hokkaido.jp/hotnews/files/00125700/00125797/r8nyusyogaido.pdf",
+      "quote": "⑥ 出産前の子どもの申込みは受付していません。"
+    },
+    "notes.5": {
+      "url": "https://www.city.kitahiroshima.hokkaido.jp/hotnews/files/00125700/00125797/r8nyusyogaido.pdf",
+      "quote": "③ 申請書類を提出後に希望の施設を変更する場合は、市子ども家庭課窓口で変更希望をご記入ください。出張所及び電話での変更は受けられませんので、ご了承ください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "北広島市「保育施設の入所手続き」",
+      "url": "https://www.city.kitahiroshima.hokkaido.jp/kosodate/detail/00125797.html"
+    },
+    {
+      "label": "北広島市「令和8年度入所ガイド」",
+      "url": "https://www.city.kitahiroshima.hokkaido.jp/hotnews/files/00125700/00125797/r8nyusyogaido.pdf"
+    },
+    {
+      "label": "北広島市「認可保育所等の入所（転園）申請に関する確認書兼同意書（令和8年4月1日入所用）」",
+      "url": "https://www.city.kitahiroshima.hokkaido.jp/hotnews/files/00125700/00125797/20251104164135.pdf"
+    }
+  ]
+}

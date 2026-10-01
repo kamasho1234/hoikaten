@@ -1,0 +1,166 @@
+{
+  "citySlug": "kitakami",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "北上市「保育所等の保育利用申込」",
+    "url": "https://www.city.kitakami.iwate.jp/life/soshikikarasagasu/kosodateshienka/hoiku/9/6308.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "保育所・小規模保育事業所が第1希望の場合は令和8年11月2日（月曜日）〜11月7日（土曜日）。私立認定こども園（保育利用）が第1希望の場合は令和8年11月2日（月曜日）及び11月4日（水曜日）〜11月7日（土曜日）に各認定こども園で受付",
+  "applyMethods": "第1希望の施設で申込場所が異なる。保育所・小規模保育事業所が第1希望なら北上市保健・子育て支援複合施設hoKkoで受付（保育所・小規模保育事業所では受付しない）。11月2日・4日〜6日は8時30分〜17時15分に2階ほっこオフィス、11月3日は13時〜18時、11月7日は10時〜15時に1階けんしんホール。私立認定こども園が第1希望なら各認定こども園へ。マイナポータル（ぴったりサービス）でのオンライン申請もできる",
+  "firstResult": "12月上旬から中旬頃に内定の通知（保育所等利用内定通知書）と面接日程表を送付。利用できない場合は保育所等利用調整結果通知書（利用不可）を送付",
+  "secondApply": "2次調整の申込期限は令和9年1月15日（金曜日）、申込場所はhoKko 2階ほっこオフィス。3次調整の申込期限は令和9年3月15日（月曜日）",
+  "secondResult": "受付期間以降の申込は令和9年1月頃に2次調整、令和9年3月に3次調整を行う予定で、その後の内定連絡などの流れは1次と同じ",
+  "midYearDeadline": "入所希望月の前月15日（15日が閉庁日の場合は前開庁日）までに子育て支援課へ申込書等を提出",
+  "documents": [
+    "子どものための教育・保育給付認定申請書及び保育所等利用申込書（児童ごと）",
+    "保育を必要とする事由を確認する書類（会社勤めは就労証明書、自営・農業は就労状況申告書、病気は診断書、介護は介護申告書など）。就労証明書は発行から3か月以内のもの",
+    "マイナンバーの確認に必要な書類（マイナンバーカード等の提示。申請する保護者本人分のみ）",
+    "利用者負担額（保育料）等の算定に必要な書類（障がい者手帳の写し、生活保護受給証明書、転入者の課税証明書など。該当する人のみ）"
+  ],
+  "interview": "保育利用の内定後に面接を行う。4月からの利用希望者は12月上旬から中旬頃に送られる面接日程表を確認し、子どもと一緒に内定した施設へ行く",
+  "notes": [
+    "入所者の選考は申込書に基づいて決めた指数で行い、申込書の先着順ではない",
+    "上記の申込期間以降でも子育て支援課で申込できるが、定員に達している施設は利用できない場合がある",
+    "利用申込書に「空き待ちをする」と書いた人は、希望施設に欠員が出たとき利用調整の対象になる（申込の有効期間は令和9年度末まで）",
+    "新たに入所する子どもの育児休業中の場合は、入所日から45日以内に職場復帰する必要がある",
+    "北上市外の施設を希望する場合は、相手先市区町村の募集時期（申込締切日）を確認して余裕をもって申し込む",
+    "受付の際に家庭で保育ができない状況等を確認し、後日担当者が電話などで問い合わせることがある"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.kitakami.iwate.jp/life/soshikikarasagasu/kosodateshienka/hoiku/9/6308.html",
+      "quote": "令和9年4月入所の利用申込 第1希望の入所希望施設によって、申込期間及び申込場所が異なりますので、ご注意ください。"
+    },
+    "firstApply": {
+      "url": "https://www.city.kitakami.iwate.jp/material/files/group/32/R9riyouannai.pdf",
+      "quote": "・受付期間 令和８年11月２日（月）～11月７日（土）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.kitakami.iwate.jp/life/soshikikarasagasu/kosodateshienka/hoiku/9/6308.html",
+      "quote": "【申込期間】令和8年11月2日(月曜日)及び令和8年11月4日(水曜日)～令和8年11月7日(土曜日)"
+    },
+    "applyMethods": {
+      "url": "https://www.city.kitakami.iwate.jp/life/soshikikarasagasu/kosodateshienka/hoiku/9/6308.html",
+      "quote": "申込期間及び申込場所は次のとおりとなります。（保育所、小規模保育事業所では受付しません。）"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.kitakami.iwate.jp/material/files/group/32/R9riyouannai.pdf",
+      "quote": "２日（月）、４日（水）～６日（金） 8：30～17：15 ２F ほっこオフィス"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.kitakami.iwate.jp/life/soshikikarasagasu/kosodateshienka/hoiku/9/6308.html",
+      "quote": "令和8年11月3日（火曜日） 13時00分～18時00分 北上市保健・子育て支援複合施設 hoKko 1階 けんしんホール1,2"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.kitakami.iwate.jp/life/soshikikarasagasu/kosodateshienka/hoiku/9/6308.html",
+      "quote": "令和8年11月7日（土曜日） 10時00分～15時00分 北上市保健・子育て支援複合施設 hoKko 1階 けんしんホール1,2"
+    },
+    "applyMethods#5": {
+      "url": "https://www.city.kitakami.iwate.jp/life/soshikikarasagasu/kosodateshienka/hoiku/9/6308.html",
+      "quote": "マイナンバーカードを使ったオンライン申請ができるようになりました。"
+    },
+    "firstResult": {
+      "url": "https://www.city.kitakami.iwate.jp/material/files/group/32/R9riyouannai.pdf",
+      "quote": "４月からの利用希望の方については、１２月上旬から中旬頃に内定の通知と面接日程表を送付しますので確認の上、保育利用希望児童と一緒に施設へお越しください。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.kitakami.iwate.jp/material/files/group/32/R9riyouannai.pdf",
+      "quote": "保育所等利用内定通知書を送付します。"
+    },
+    "firstResult#3": {
+      "url": "https://www.city.kitakami.iwate.jp/material/files/group/32/R9riyouannai.pdf",
+      "quote": "保育所等利用調整結果通知書(利用不可)を送付します。"
+    },
+    "secondApply": {
+      "url": "https://www.city.kitakami.iwate.jp/life/soshikikarasagasu/kosodateshienka/hoiku/9/6308.html",
+      "quote": "【申込期限】令和9年1月15日（金曜日）"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.kitakami.iwate.jp/life/soshikikarasagasu/kosodateshienka/hoiku/9/6308.html",
+      "quote": "【申込期限】令和9年3月15日（月曜日）"
+    },
+    "secondApply#3": {
+      "url": "https://www.city.kitakami.iwate.jp/life/soshikikarasagasu/kosodateshienka/hoiku/9/6308.html",
+      "quote": "【申込場所】北上市保健・子育て支援複合施設hoKko 2階 ほっこオフィス"
+    },
+    "secondResult": {
+      "url": "https://www.city.kitakami.iwate.jp/material/files/group/32/R9riyouannai.pdf",
+      "quote": "※①内の受付期間以降の申込は、令和９年１月頃に2次調整、令和９年３月に３次調整を実施する予定です。利用調整後の流れは上記の③以降と同様となります。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.kitakami.iwate.jp/life/soshikikarasagasu/kosodateshienka/hoiku/9/6308.html",
+      "quote": "入所希望月の前月15日（15日が閉庁日の場合は前開庁日）までに北上市子育て支援課へ申込書等を提出してください。"
+    },
+    "documents.0": {
+      "url": "https://www.city.kitakami.iwate.jp/material/files/group/32/R9riyouannai.pdf",
+      "quote": "（１） 子どものための教育・保育給付認定申請書及び保育所等利用申込書（各児童ごと）"
+    },
+    "documents.1": {
+      "url": "https://www.city.kitakami.iwate.jp/life/soshikikarasagasu/kosodateshienka/hoiku/9/25501.html",
+      "quote": "会社に勤めている場合… 就労証明書"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.kitakami.iwate.jp/material/files/group/32/R9riyouannai.pdf",
+      "quote": "※2 発行から３か月以内のもの。"
+    },
+    "documents.2": {
+      "url": "https://www.city.kitakami.iwate.jp/material/files/group/32/R9riyouannai.pdf",
+      "quote": "マイナンバー（個人番号）の確認のために、マイナンバーカード等の提示が必要になります。"
+    },
+    "documents.3": {
+      "url": "https://www.city.kitakami.iwate.jp/material/files/group/32/R9riyouannai.pdf",
+      "quote": "（４） 利用者負担額（保育料）等の算定に必要な書類（必要な方のみ）"
+    },
+    "interview": {
+      "url": "https://www.city.kitakami.iwate.jp/material/files/group/32/R9riyouannai.pdf",
+      "quote": "保育利用内定後に面接を行います。"
+    },
+    "interview#2": {
+      "url": "https://www.city.kitakami.iwate.jp/material/files/group/32/R9riyouannai.pdf",
+      "quote": "４月からの利用希望の方については、１２月上旬から中旬頃に内定の通知と面接日程表を送付しますので確認の上、保育利用希望児童と一緒に施設へお越しください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.kitakami.iwate.jp/life/soshikikarasagasu/kosodateshienka/hoiku/9/6308.html",
+      "quote": "入所者の選考は、申込書に基づいて決定した指数を基準に行います。申込書の先着順ではありません。"
+    },
+    "notes.1": {
+      "url": "https://www.city.kitakami.iwate.jp/life/soshikikarasagasu/kosodateshienka/hoiku/9/6308.html",
+      "quote": "なお、上記の申込期間以降でも子育て支援課にて申込可能ですが、定員に達している施設は利用できない場合があります。"
+    },
+    "notes.2": {
+      "url": "https://www.city.kitakami.iwate.jp/material/files/group/32/R9riyouannai.pdf",
+      "quote": "●利用申込書に「空き待ちをする」と記入して いる方は、希望の施設に欠員が出た場合、利 用調整の対象となります。"
+    },
+    "notes.2#2": {
+      "url": "https://www.city.kitakami.iwate.jp/material/files/group/32/R9riyouannai.pdf",
+      "quote": "※申込の有効期間は令和９年度末まで"
+    },
+    "notes.3": {
+      "url": "https://www.city.kitakami.iwate.jp/material/files/group/32/R9riyouannai.pdf",
+      "quote": "※1 新たに入所する児童に係る育児休業期間中にある場合は、入所日から45日以内に職場復帰する必要があります。"
+    },
+    "notes.4": {
+      "url": "https://www.city.kitakami.iwate.jp/material/files/group/32/R9riyouannai.pdf",
+      "quote": "あらかじめ相手先市区町村の募集時期（申込締切日）を確認の上、余裕をもって申込してください。"
+    },
+    "notes.5": {
+      "url": "https://www.city.kitakami.iwate.jp/material/files/group/32/R9riyouannai.pdf",
+      "quote": "※受付の際、家庭で保育ができない状況等を確認します。後日担当者が、電話などで問い合わせすることがあります。"
+    }
+  },
+  "sources": [
+    {
+      "label": "北上市「保育所等の保育利用申込」",
+      "url": "https://www.city.kitakami.iwate.jp/life/soshikikarasagasu/kosodateshienka/hoiku/9/6308.html"
+    },
+    {
+      "label": "北上市「令和9年度北上市認可保育施設利用案内」",
+      "url": "https://www.city.kitakami.iwate.jp/material/files/group/32/R9riyouannai.pdf"
+    },
+    {
+      "label": "北上市「保育所等の利用関係書類」",
+      "url": "https://www.city.kitakami.iwate.jp/life/soshikikarasagasu/kosodateshienka/hoiku/9/25501.html"
+    }
+  ]
+}

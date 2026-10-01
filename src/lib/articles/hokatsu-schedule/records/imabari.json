@@ -1,0 +1,187 @@
+{
+  "citySlug": "imabari",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "今治市「保育所（園）・幼稚園の申込み」",
+    "url": "https://imakoso-imabari.jp/service/hoiku-mosikomi/"
+  },
+  "fiscalYear": "R8",
+  "guideRelease": "11月1日（土曜日）から、申請書や証明書などの用紙を各施設と保育幼稚園課で配布",
+  "firstApply": "令和7年11月14日（金曜日）〜12月10日（水曜日）",
+  "applyMethods": "保育所・認定こども園・地域型保育事業所のうち第1希望の施設に提出する。今治市へ転入予定の人は、事前に保育幼稚園課に連絡すれば郵送でも申し込める",
+  "firstResult": "第1希望の施設に入所できる場合は、2月10日までに連絡が無ければ第1希望で内定。第1希望に入所できない場合は第2希望以下で調整を進め、2月10日までに順次連絡",
+  "secondApply": "令和8年2月12日（木曜日）〜令和8年2月28日（土曜日）。一次募集の入所調整後に受け入れ可能数を超えていない施設のみ受け付ける",
+  "secondResult": "3月1日以降に調整し、3月中旬頃までに連絡",
+  "midYearDeadline": "5月以降の入所は、入所希望月の2か月前の月初日〜月末日に保育幼稚園課か各施設へ申し込む（例: 9月入所なら7月1日〜7月末日）。月末が土日祝日なら前の開庁日が締切",
+  "documents": [
+    "教育・保育給付認定申請書兼施設利用申込書",
+    "就労の場合は就労証明書（父母それぞれ。1か月に64時間以上の就労が必要）",
+    "自営業主・自営専従者・農業・漁業・内職の場合は、就労証明書に加えて営業許可証、登記事項証明書、青色申告開業届、確定申告書などの写し",
+    "妊娠・出産の場合は母子健康手帳（表紙と予定日のページのコピー）",
+    "保護者の病気・障がいの場合は診断書（保育幼稚園課指定の様式）か障害者手帳等のコピー",
+    "求職活動の場合は求職申立書と状況確認の書類（ハローワークカードの写しなど）",
+    "就学の場合は就学申立書、学生証コピーまたは在学証明等、カリキュラム（時間割）",
+    "申請者（保護者）の番号確認書類と身元確認書類の提示"
+  ],
+  "ikukyu": "育休復帰のために入所を希望する場合は、受付期間が始まる前から申し込めるが予約ではない。入所は復帰する月の初日から（例: 7月入所なら7月中に復帰する人）",
+  "notes": [
+    "令和8年3月1日以降の申し込みは5月入所の申込になる",
+    "令和7年度に入所できずに保留となっている人も、新たに申し込みが必要",
+    "二次募集の受入可能施設の情報は2月10日頃にホームページに掲載予定",
+    "転入予定の人は、入所希望月の前月末までに今治市への転入が確認できないと入所できない",
+    "保育が必要な3歳以上で1号認定施設と2号認定施設を併願する場合は、両方の施設に申し込み、市の調整結果を見て最終的な入所施設を保育幼稚園課に連絡する",
+    "妊娠・出産を理由に入所し、産後に別の理由で継続を希望する場合は再度調整になり、同じ施設を続けて利用できるとは限らない"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://imakoso-imabari.jp/file/2025/12/hoikutebiki.pdf",
+      "quote": "保育所・認定こども園(保育所部分)の入園申込をされる方へ(令和8年度)"
+    },
+    "fiscalYear#2": {
+      "url": "https://imakoso-imabari.jp/service/hoiku-mosikomi/",
+      "quote": "令和8年3月1日以降の申し込みは5月入所（園）申込となります。"
+    },
+    "guideRelease": {
+      "url": "https://imakoso-imabari.jp/service/hoiku-mosikomi/",
+      "quote": "申請書や証明書などの用紙は各施設や保育幼稚園課で、11月1日（土曜日）から配布します。"
+    },
+    "firstApply": {
+      "url": "https://imakoso-imabari.jp/service/hoiku-mosikomi/",
+      "quote": "一次募集令和7年11月14日（金曜日）～12月10日（水曜日）"
+    },
+    "applyMethods": {
+      "url": "https://imakoso-imabari.jp/service/hoiku-mosikomi/",
+      "quote": "提出場所保育所、認定こども園、地域型保育事業所のうち第1希望の施設"
+    },
+    "applyMethods#2": {
+      "url": "https://imakoso-imabari.jp/service/mosikomi-notion/",
+      "quote": "転入予定の方は郵送でも申し込み可能です。（事前に保育幼稚園課に連絡してください。）"
+    },
+    "firstResult": {
+      "url": "https://imakoso-imabari.jp/file/2025/12/hoikutebiki.pdf",
+      "quote": "２月10日までに連絡のない場合は、第１希望で内定となります。"
+    },
+    "firstResult#2": {
+      "url": "https://imakoso-imabari.jp/file/2025/12/hoikutebiki.pdf",
+      "quote": "２月10日までに、順次、連絡させていただきます。"
+    },
+    "secondApply": {
+      "url": "https://imakoso-imabari.jp/service/hoiku-mosikomi/",
+      "quote": "二次募集令和8年2月12日（木曜日）～令和8年2月28日（土曜日）"
+    },
+    "secondApply#2": {
+      "url": "https://imakoso-imabari.jp/service/hoiku-mosikomi/",
+      "quote": "※二次募集の受付は一次募集の入所調整終了後に受け入れ可能数を超えていない施設のみおこないます。"
+    },
+    "secondResult": {
+      "url": "https://imakoso-imabari.jp/file/2025/12/hoikutebiki.pdf",
+      "quote": "３月１日以降に調整し、３月中旬頃までに連絡"
+    },
+    "midYearDeadline": {
+      "url": "https://imakoso-imabari.jp/file/2025/12/hoikutebiki.pdf",
+      "quote": "入所希望月の２か月前の月初日～月末日 保育幼稚園課又は各施設"
+    },
+    "midYearDeadline#2": {
+      "url": "https://imakoso-imabari.jp/service/hoiku-mosikomi/",
+      "quote": "※例えば9月入所希望の場合は、7月1日〜7月末日までが受付期間です。"
+    },
+    "midYearDeadline#3": {
+      "url": "https://imakoso-imabari.jp/file/2025/12/hoikutebiki.pdf",
+      "quote": "※月末が土日祝日の場合は前の開庁日が締切日となります。"
+    },
+    "documents.0": {
+      "url": "https://imakoso-imabari.jp/service/teisyutu-shorui/",
+      "quote": "提出資料は「教育・保育給付認定申請書兼施設利用申込書」又は「子育てのための施設等利用給付認定申請書」と一緒に提出してください。"
+    },
+    "documents.1": {
+      "url": "https://imakoso-imabari.jp/file/2025/12/hoikutebiki.pdf",
+      "quote": "会社等に常勤・ﾊﾟｰﾄ等で勤務 ⇒ 就労証明書"
+    },
+    "documents.1#2": {
+      "url": "https://imakoso-imabari.jp/service/teisyutu-shorui/",
+      "quote": "・1か月に64時間以上の就労が必要です。"
+    },
+    "documents.1#3": {
+      "url": "https://imakoso-imabari.jp/file/2025/12/hoikutebiki.pdf",
+      "quote": "下記の理由より、該当する項目の証明を父母それぞれ揃えて、申請書に添付してください。"
+    },
+    "documents.2": {
+      "url": "https://imakoso-imabari.jp/service/teisyutu-shorui/",
+      "quote": "（例）営業許可証、登記事項証明書、青色申告開業届、確定申告書、売上伝票、売買契約書などの写し"
+    },
+    "documents.3": {
+      "url": "https://imakoso-imabari.jp/service/teisyutu-shorui/",
+      "quote": "母子健康手帳（表紙と予定日のページのコピー）"
+    },
+    "documents.4": {
+      "url": "https://imakoso-imabari.jp/service/teisyutu-shorui/",
+      "quote": "・診断書は保育幼稚園課指定の様式を使用してください。"
+    },
+    "documents.5": {
+      "url": "https://imakoso-imabari.jp/service/teisyutu-shorui/",
+      "quote": "状況確認の書類（ハローワークカードの写しなど）"
+    },
+    "documents.6": {
+      "url": "https://imakoso-imabari.jp/file/2025/12/hoikutebiki.pdf",
+      "quote": "就学申立書 ＋ 学生証ｺﾋﾟｰまたは在学証明等"
+    },
+    "documents.7": {
+      "url": "https://imakoso-imabari.jp/service/mosikomi-notion/",
+      "quote": "また、本人確認として、申請者（申請書の「保護者」欄に記載された方）の①番号確認書類と②身元確認書類の提示が必要です。"
+    },
+    "ikukyu": {
+      "url": "https://imakoso-imabari.jp/service/hoiku-mosikomi/",
+      "quote": "育休復帰のため入所（園）を希望する場合は、受付期間が始まる前から申込みできますが予約ではありません。"
+    },
+    "ikukyu#2": {
+      "url": "https://imakoso-imabari.jp/service/mosikomi-notion/",
+      "quote": "復帰する月の初日から入所が可能です。たとえば、7月入所の場合は7月中に復帰する方です。"
+    },
+    "notes.0": {
+      "url": "https://imakoso-imabari.jp/service/hoiku-mosikomi/",
+      "quote": "令和8年3月1日以降の申し込みは5月入所（園）申込となります。"
+    },
+    "notes.1": {
+      "url": "https://imakoso-imabari.jp/service/hoiku-mosikomi/",
+      "quote": "令和7年度に入所できずに保留となっている方は、新たに申し込みが必要です。"
+    },
+    "notes.2": {
+      "url": "https://imakoso-imabari.jp/service/hoiku-mosikomi/",
+      "quote": "2月10日頃に二次募集受入可能施設の情報をホームページに掲載予定です。"
+    },
+    "notes.3": {
+      "url": "https://imakoso-imabari.jp/service/mosikomi-notion/",
+      "quote": "ただし、入所希望月の前月末までに今治市に転入済みの確認ができない場合は入所できません。"
+    },
+    "notes.4": {
+      "url": "https://imakoso-imabari.jp/service/hoiku-mosikomi/",
+      "quote": "③市で入所調整した結果をお知らせしますので、最終的な入所施設を決定し保育幼稚園課まで連絡してください。"
+    },
+    "notes.4#2": {
+      "url": "https://imakoso-imabari.jp/service/hoiku-mosikomi/",
+      "quote": "②並行して、教育・保育給付認定2号の施設に認定申請・入所申し込みをしてください。"
+    },
+    "notes.5": {
+      "url": "https://imakoso-imabari.jp/service/mosikomi-notion/",
+      "quote": "保育の必要理由が「妊娠・出産」で入所し、産後は別の理由で入所を継続希望する場合は再度調整になります。そのため、これまでの保育所等を継続的に利用できるとは限りません。"
+    }
+  },
+  "sources": [
+    {
+      "label": "今治市「保育所（園）・幼稚園の申込み」",
+      "url": "https://imakoso-imabari.jp/service/hoiku-mosikomi/"
+    },
+    {
+      "label": "今治市「令和8年度 保育所・認定こども園（保育所部分）用入所手引き」",
+      "url": "https://imakoso-imabari.jp/file/2025/12/hoikutebiki.pdf"
+    },
+    {
+      "label": "今治市「保育所（園）・幼稚園の提出書類」",
+      "url": "https://imakoso-imabari.jp/service/teisyutu-shorui/"
+    },
+    {
+      "label": "今治市「保育所（園）・幼稚園の申し込みに関する注意事項」",
+      "url": "https://imakoso-imabari.jp/service/mosikomi-notion/"
+    }
+  ]
+}

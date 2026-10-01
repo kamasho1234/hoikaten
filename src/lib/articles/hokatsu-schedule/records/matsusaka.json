@@ -1,0 +1,188 @@
+{
+  "citySlug": "matsusaka",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "松阪市「令和9年度保育園・認定こども園（保育園※2号・3号認定）入園申込について」",
+    "url": "https://www.city.matsusaka.mie.jp/site/youho/hoiku-mousikomishinki.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年9月1日（火曜日）〜10月15日（木曜日）は第一希望の園またはこども未来課・各振興局地域住民課で申込書類を配布。10月15日以降はこども未来課・各振興局地域住民課で配布。市ホームページからもダウンロードできる",
+  "firstApply": "オンラインは令和8年9月1日（火曜日）〜10月15日（木曜日）（24時間受付）。窓口は令和8年10月1日（木曜日）〜10月15日（木曜日）の午前9時〜午後4時30分（土日祝日を除く）。郵送は10月15日必着",
+  "applyMethods": "原則オンライン申込。窓口は第一希望の園、市役所こども未来課、各地域振興局地域住民課。郵送は市役所こども未来課宛てで、受付期間内に到着したものを受け付ける",
+  "firstResult": "令和8年12月下旬頃（予定）に結果を郵送で通知。内定は「入所承諾通知書」、待機は「入所保留通知書」",
+  "secondApply": "第二次募集は令和9年1月12日（火曜日）〜1月22日（金曜日）。第三次募集は令和9年3月1日（月曜日）〜3月8日（月曜日）（第一次・第二次に申し込んでいない人のみ）",
+  "secondResult": "第二次募集は令和9年2月下旬頃（予定）、第三次募集は令和9年3月下旬頃（予定）に通知",
+  "midYearDeadline": "令和9年5月以降の途中入園は入園希望月の前月1日〜15日に申込（オンラインは前月10日まで、郵送は15日必着）",
+  "documents": [
+    "教育・保育給付認定申請書 兼 保育園等入園申込書",
+    "保育を必要とする理由に応じた書類（就労は事業主が証明した就労証明書、自営業は就労証明書・自営業申告書・自営の証明書類の写しなど。児童1人につき父・母それぞれ必要）",
+    "証明書は証明日が入園申込月の前月または当月に発行されたものに限る",
+    "本人確認書類（免許証、マイナンバーカード等の顔写真側）"
+  ],
+  "interview": "新規申込者は全員面接調査と健康チェックを受ける。第一次募集の面接は令和8年11月上旬〜中旬頃（予定）で、日時は令和8年10月下旬頃（予定）に代表保護者へ通知",
+  "ikukyu": "入園できなかった場合は理由を記載した「入所保留通知書」を発行できる（初回の利用調整で入園できなかった人には自宅に郵送）。育児休業の延長に入園申込書の写しが必要な人は、提出前に自分で写しを保管しておく",
+  "notes": [
+    "令和9年4月中に育児休業から復帰する人は、令和9年4月の入園申込ができる",
+    "松阪市へ転入予定の人は、令和9年3月31日までに松阪市に住民登録をすることが4月入園の前提条件",
+    "妊娠中で生まれてくる子の入園を希望する場合は、出生届を出してから申し込む",
+    "第一次・第二次・第三次募集の順に入園調整を行うので、なるべく第一次募集で申し込む",
+    "第一次募集では受入枠の状況を公開しておらず、第二次募集から公開する",
+    "加配保育士や看護師の配置を希望する人は、必ず第一次募集で窓口で申し込む"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.matsusaka.mie.jp/site/youho/hoiku-mousikomishinki.html",
+      "quote": "※令和9年4月中に育児休業から復帰される方は、令和9年4月の入園申込ができます。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.matsusaka.mie.jp/site/youho/hoiku-mousikomishinki.html",
+      "quote": "令和8年9月1日（火曜日）～10月15日（木曜日） 第一希望の園またはこども未来課・各振興局地域住民課 令和8年10月15日（木曜日）以降 こども未来課・各振興局地域住民課"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.matsusaka.mie.jp/site/youho/hoiku-mousikomishinki.html",
+      "quote": "入園申込に必要な書類は市役所こども未来課、各地域振興局地域住民課窓口、またはこのページの下部に電子データで公開しています。"
+    },
+    "firstApply": {
+      "url": "https://www.city.matsusaka.mie.jp/site/youho/hoiku-mousikomishinki.html",
+      "quote": "【オンライン】 令和8年9月1日（火曜日）～10月15日（木曜日)"
+    },
+    "firstApply#4": {
+      "url": "https://www.city.matsusaka.mie.jp/site/youho/hoiku-mousikomishinki.html",
+      "quote": "令和8年10月1日(木曜日)　～10月15日(木曜日)"
+    },
+    "firstApply#5": {
+      "url": "https://www.city.matsusaka.mie.jp/uploaded/attachment/106952.pdf",
+      "quote": "９：００～１６：３０（土曜・日曜・祝日を除く）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.matsusaka.mie.jp/uploaded/attachment/106952.pdf",
+      "quote": "令和８年１０月１日（木）～１０月１５日（木） 郵送 市役所こども未来課宛 ※１０月１５日(木)必着"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.matsusaka.mie.jp/uploaded/attachment/106952.pdf",
+      "quote": "オンライン 令和８年９月１日(火)～１０月１５日（木）（２４時間受付）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.matsusaka.mie.jp/site/youho/hoiku-mousikomishinki.html",
+      "quote": "郵送での申込については、申込受付期間内に市役所こども未来課へ到着した分について受け付けます。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.matsusaka.mie.jp/site/youho/hoiku-mousikomishinki.html",
+      "quote": "※入園申込は原則、オンラインでの手続きをお願いいたします。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.matsusaka.mie.jp/uploaded/attachment/106952.pdf",
+      "quote": "必要書類を準備し、入園希望（第一希望）の園、こども未来課、各地域振興局へ提出してください。（郵送でも可）"
+    },
+    "firstResult": {
+      "url": "https://www.city.matsusaka.mie.jp/uploaded/attachment/106952.pdf",
+      "quote": "在園児童の入園調整後に第一次募集申込者を調整し、結果は令和８年１２月下旬頃に通知予定です。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.matsusaka.mie.jp/uploaded/attachment/106952.pdf",
+      "quote": "内定時は「入所承諾通知書」、待機時は「入所保留通知書」が郵送で届きます。"
+    },
+    "secondApply": {
+      "url": "https://www.city.matsusaka.mie.jp/site/youho/hoiku-mousikomishinki.html",
+      "quote": "第二次募集 令和9年1月12日(火曜日)～1月22日(金曜日)​ 午前9時00分～午後4時30分 第三次募集 令和9年3月1日(月曜日)～3月8日(月曜日)"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.matsusaka.mie.jp/site/youho/hoiku-mousikomishinki.html",
+      "quote": "※第三次募集は、第一次募集、第二次募集に申込みをされていない方のみ、入園申込できます。"
+    },
+    "secondResult": {
+      "url": "https://www.city.matsusaka.mie.jp/site/youho/hoiku-mousikomishinki.html",
+      "quote": "第二次募集　：　令和9年2月下旬頃(予定) 第三次募集　：　令和9年3月下旬頃(予定)"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.matsusaka.mie.jp/uploaded/attachment/106952.pdf",
+      "quote": "オンライン 入園希望月（５月～３月）の前月の１日～１０日（２４時間受付）"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.matsusaka.mie.jp/uploaded/attachment/106952.pdf",
+      "quote": "入園希望月（５月～３月）の前月の１日～１５日まで 郵送 市役所こども未来課宛 ※１５日必着"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.matsusaka.mie.jp/uploaded/attachment/106952.pdf",
+      "quote": "７.年度途中入園の手続き(令和９年５月～令和１０年３月入園)"
+    },
+    "documents.0": {
+      "url": "https://www.city.matsusaka.mie.jp/uploaded/attachment/106952.pdf",
+      "quote": "教育・保育給付認定申請書 兼 保育園等入園申込書"
+    },
+    "documents.1": {
+      "url": "https://www.city.matsusaka.mie.jp/uploaded/attachment/106952.pdf",
+      "quote": "自営業・農業 「就労証明書」+「自営業申告書」+「自営の証明書類の写し」"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.matsusaka.mie.jp/uploaded/attachment/106952.pdf",
+      "quote": "※児童１人につき父・母それぞれの書類が必要です。"
+    },
+    "documents.2": {
+      "url": "https://www.city.matsusaka.mie.jp/uploaded/attachment/106952.pdf",
+      "quote": "※証明書の有効日付は、証明日が入園申込月の前月または当月に発行されたものに限ります。"
+    },
+    "documents.3": {
+      "url": "https://www.city.matsusaka.mie.jp/uploaded/attachment/106952.pdf",
+      "quote": "・本人確認書類（免許証、マイナンバーカード等の顔写真側）"
+    },
+    "interview": {
+      "url": "https://www.city.matsusaka.mie.jp/uploaded/attachment/106952.pdf",
+      "quote": "令和８年１１月上旬～中旬頃（予定）に面接を行います。"
+    },
+    "interview#2": {
+      "url": "https://www.city.matsusaka.mie.jp/uploaded/attachment/106952.pdf",
+      "quote": "※面接実施日時等の通知は、令和８年１０月下旬頃（予定）に代表保護者へ通知します。"
+    },
+    "interview#3": {
+      "url": "https://www.city.matsusaka.mie.jp/site/youho/hoiku-mousikomishinki.html",
+      "quote": "新規申込者は全員、面接調査を行います。この面接調査及び面接時に行う健康チェックを受けられない場合や、健康チェックの結果によっては内定が取り消しになる場合があります。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.matsusaka.mie.jp/uploaded/attachment/106952.pdf",
+      "quote": "利用調整の結果、入園できなかった場合、その理由を記載した「入所保留通知書」を発行することができます。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.matsusaka.mie.jp/uploaded/attachment/106952.pdf",
+      "quote": "※初回の利用調整時に入園できなかった方へは、ご自宅に郵送させていただきます。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.matsusaka.mie.jp/uploaded/attachment/106952.pdf",
+      "quote": "※育児休業の延長に際し、入所保留通知書とあわせて入園申込書の写しが必要な方は、入園申込書を提出する前に、ご自身で入園申込書の写しを保管しておいてください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.matsusaka.mie.jp/site/youho/hoiku-mousikomishinki.html",
+      "quote": "※令和9年4月中に育児休業から復帰される方は、令和9年4月の入園申込ができます。"
+    },
+    "notes.1": {
+      "url": "https://www.city.matsusaka.mie.jp/site/youho/hoiku-mousikomishinki.html",
+      "quote": "※松阪市へ転入予定で入園申込される方は、入園月の前月末（令和9年3月31日）までに松阪市に住民登録をしていただくことが令和9年4月入園の前提条件となります（転入手続きは入園決定後でもかまいません）。"
+    },
+    "notes.2": {
+      "url": "https://www.city.matsusaka.mie.jp/site/youho/hoiku-mousikomishinki.html",
+      "quote": "※妊娠中の方で、今度産まれてくる児童の入園を希望される場合は、児童の出生届を提出後に入園申込が可能です。"
+    },
+    "notes.3": {
+      "url": "https://www.city.matsusaka.mie.jp/uploaded/attachment/106952.pdf",
+      "quote": "※第一次・第二次・第三次募集の順に入園調整を行います。なるべく第一次募集の受付期間にお申し込みください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.matsusaka.mie.jp/uploaded/attachment/106952.pdf",
+      "quote": "※第一次募集では、受入枠の状況を公開しておりません。第二次募集から受入枠の状況を公開します。"
+    },
+    "notes.5": {
+      "url": "https://www.city.matsusaka.mie.jp/uploaded/attachment/106952.pdf",
+      "quote": "加配保育士や看護師の配置を希望される方は、必ず第一次募集で窓口にてお申し込みください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "松阪市「令和9年度保育園・認定こども園（保育園※2号・3号認定）入園申込について」",
+      "url": "https://www.city.matsusaka.mie.jp/site/youho/hoiku-mousikomishinki.html"
+    },
+    {
+      "label": "松阪市「令和9年度 幼稚園・保育園等 入園案内」（PDF）",
+      "url": "https://www.city.matsusaka.mie.jp/uploaded/attachment/106952.pdf"
+    }
+  ]
+}

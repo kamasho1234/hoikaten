@@ -3,18 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "kitakami",
-    title: "北上市の保活スケジュール　令和8年度4月入園の流れ",
-    description: "北上市の認可保育園の申込時期・選考の流れ・結果通知の時期をわかりやすく解説。令和8年度4月入園のスケジュールを中心にまとめました。",
-    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>令和8年度4月入園のスケジュール</h2><p>北上市は岩手県中部に位置する人口約9万人の都市です。自動車産業が盛んで、製造業の従業員が多いのが特徴です。申込先は北上市子ども課です。</p><h2>一次利用調整</h2><table><tr><th>項目</th><th>日程</th></tr><tr><td>申込受付期間</td><td>令和7年10月下旬〜11月中旬</td></tr><tr><td>結果通知</td><td>令和8年1月中旬</td></tr></table><h2>二次利用調整</h2><table><tr><th>項目</th><th>日程</th></tr><tr><td>申込受付期間</td><td>令和8年2月上旬〜2月中旬</td></tr><tr><td>結果通知</td><td>令和8年3月中旬</td></tr></table><div class="point-box"><p><strong>ポイント</strong></p><p>北上市は岩手県内でも早めのスケジュールです。一次で不承諾だった方は自動的に二次の対象になります。</p></div>`,
-    publishedAt: "2026-05-08",
-    popularity: 40,
-  },
-  {
     slug: "hokatsu-mistakes",
     citySlug: "kitakami",
     title: "北上市の保活でよくある失敗と対策5選",

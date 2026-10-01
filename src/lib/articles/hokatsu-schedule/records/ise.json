@@ -1,0 +1,174 @@
+{
+  "citySlug": "ise",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "伊勢市「保育所・認定こども園等への入所手続き」",
+    "url": "https://www.city.ise.mie.jp/kosodate/gyosei/azukeru/1013686.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "申込書類一式は毎年9月1日から各保育所（園）、保育課、各総合支所生活福祉課で配布",
+  "firstApply": "令和8年10月1日（木曜）〜10月20日（火曜）（1次募集）",
+  "applyMethods": "1次募集は申込書類一式を第一希望の施設に提出する。2次募集は公立なら各施設に直接、私立なら保育課に提出する。年度途中の申込みは、公立が第一希望なら第一希望の施設か駅前子育て支援センター、私立が第一希望なら保育課窓口か駅前子育て支援センターに提出する",
+  "firstResult": "令和8年12月28日（月曜）に結果通知を発送予定",
+  "secondApply": "令和9年1月15日（金曜）〜1月29日（金曜）（2次募集）",
+  "secondResult": "令和9年2月26日（金曜）に結果通知を発送予定",
+  "midYearDeadline": "入所希望月の前月15日まで（15日が土曜日・日曜日・祝日の場合はその直前の平日まで）",
+  "documents": [
+    "施設型給付費・地域型保育給付費等教育・保育給付認定申請書 兼 特定教育・保育施設等入所（園）申込書",
+    "児童の状況（子どもの保育状況や健康状態、祖父母の状況等を確認する書類）",
+    "就労証明書または家庭状況申告書（保護者1人につき1枚ずつ）",
+    "同意書（保育料算定のため世帯員の住民税の課税状況などを確認することへの同意）",
+    "委任状（保護者以外が代理で申請する場合のみ）",
+    "マイナンバーカード、母子手帳（提出・面接時に持参）"
+  ],
+  "interview": "1次募集の面接は11月上旬に別途行う。2次募集と年度途中の申込みは提出の際に面接を同時に行う。いずれも入所予定の子どもを連れて行き、マイナンバーカードと母子手帳を持参する",
+  "ikukyu": "産後休暇・育児休業中の場合は休暇明け月の初日から入所できる。育児休業は別の要件で入所後に変更して継続利用する場合にのみ認定するので、育児休業を理由とした入所はできない",
+  "notes": [
+    "例年、年度当初（4月）からの入所が最も希望の施設に入りやすい",
+    "2次募集の期間終了後も申し込めるが、期間内に申し込んだ人が優先される",
+    "入所申込書には第6希望まで施設を書ける",
+    "12月から3月に新規・転園で入所した場合は同一年度の3月までの期間限定になるので、4月以降も続けるには次年度入所の申込みが必要",
+    "転園が決定した後は、どのような理由があっても転園を取りやめて元の施設に通い続けることはできない",
+    "結果の通知書発送前の問い合わせには答えられない"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.ise.mie.jp/kosodate/shisetsu/hoiku/1007775.html",
+      "quote": "保育所等の令和9年度入所に関する案内です。"
+    },
+    "fiscalYear#2": {
+      "url": "https://www.city.ise.mie.jp/kosodate/gyosei/azukeru/1013686.html",
+      "quote": "4月入所（年度当初）の申込みは前年度10月から始まります。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.ise.mie.jp/kosodate/gyosei/azukeru/1013686.html",
+      "quote": "申込書類一式については、毎年9月1日から、各保育所(園)、保育課、各総合支所生活福祉課で配布します。"
+    },
+    "firstApply": {
+      "url": "https://www.city.ise.mie.jp/kosodate/gyosei/azukeru/1013686.html",
+      "quote": "〔1次募集〕令和8年10月1日（木曜）から10月20日（火曜）まで（令和8年12月28日（月曜）結果通知発送予定）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.ise.mie.jp/kosodate/gyosei/azukeru/1013686.html",
+      "quote": "1次募集では、申込書類一式をそろえ、第一希望の各施設に提出していただきます。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.ise.mie.jp/kosodate/gyosei/azukeru/1013686.html",
+      "quote": "2次募集では、申込書類一式をそろえ、公立であれば各施設に直接、私立であれば保育課まで提出していただきます。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.ise.mie.jp/kosodate/gyosei/azukeru/1013686.html",
+      "quote": "公立を第一希望とする場合　「第一希望の施設」または「駅前子育て支援センター」"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.ise.mie.jp/kosodate/gyosei/azukeru/1013686.html",
+      "quote": "私立を第一希望とする場合　「保育課窓口」または「駅前子育て支援センター」"
+    },
+    "firstResult": {
+      "url": "https://www.city.ise.mie.jp/kosodate/gyosei/azukeru/1013686.html",
+      "quote": "〔1次募集〕令和8年10月1日（木曜）から10月20日（火曜）まで（令和8年12月28日（月曜）結果通知発送予定）"
+    },
+    "secondApply": {
+      "url": "https://www.city.ise.mie.jp/kosodate/gyosei/azukeru/1013686.html",
+      "quote": "〔2次募集〕令和9年1月15日（金曜）から1月29日（金曜）まで（令和9年2月26日（金曜）結果通知発送予定）"
+    },
+    "secondResult": {
+      "url": "https://www.city.ise.mie.jp/kosodate/gyosei/azukeru/1013686.html",
+      "quote": "〔2次募集〕令和9年1月15日（金曜）から1月29日（金曜）まで（令和9年2月26日（金曜）結果通知発送予定）"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.ise.mie.jp/kosodate/gyosei/azukeru/1013686.html",
+      "quote": "申し込みは、前月の15日までに行ってください。"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.ise.mie.jp/kosodate/gyosei/azukeru/1013686.html",
+      "quote": "15日が土曜日・日曜日・祝日の場合はその直前の平日までとなります。"
+    },
+    "documents.0": {
+      "url": "https://www.city.ise.mie.jp/_res/projects/default_project/_page_/001/013/686/r9nyusyo.pdf",
+      "quote": "（１）施設型給付費・地域型保育給付費等教育・保育給付認定申請書 兼 特定教育・保育施設等入所(園)申込書"
+    },
+    "documents.1": {
+      "url": "https://www.city.ise.mie.jp/_res/projects/default_project/_page_/001/013/686/r9nyusyo.pdf",
+      "quote": "（２）児童の状況…お子さまの保育状況や健康状態、祖父母の状況等を確認するための書類です。"
+    },
+    "documents.2": {
+      "url": "https://www.city.ise.mie.jp/_res/projects/default_project/_page_/001/013/686/r9nyusyo.pdf",
+      "quote": "（３）就労証明書または家庭状況申告書(保護者1人につき1枚ずつ必要)…教育・保育給付認定要件を確認するための書類です。"
+    },
+    "documents.3": {
+      "url": "https://www.city.ise.mie.jp/_res/projects/default_project/_page_/001/013/686/r9nyusyo.pdf",
+      "quote": "（４）同意書…利用者負担額（保育料）算定のために世帯員の住民税の課税状況や障がいに関する手帳の保持状況などを確認させていただくことに同意をお願いします。"
+    },
+    "documents.4": {
+      "url": "https://www.city.ise.mie.jp/_res/projects/default_project/_page_/001/013/686/r9nyusyo.pdf",
+      "quote": "（５）委任状…保護者以外の方が代理で申請される場合のみ必要です。"
+    },
+    "documents.5": {
+      "url": "https://www.city.ise.mie.jp/kosodate/gyosei/azukeru/1013686.html",
+      "quote": "提出の際には面接を同時に行いますので、入所予定のお子さんをお連れいただき、マイナンバーカード、母子手帳をご持参ください。"
+    },
+    "interview": {
+      "url": "https://www.city.ise.mie.jp/kosodate/gyosei/azukeru/1013686.html",
+      "quote": "面接は11月上旬に別途行います。入所予定のお子さんをお連れいただき、マイナンバーカード、母子手帳をご持参ください。"
+    },
+    "interview#2": {
+      "url": "https://www.city.ise.mie.jp/kosodate/gyosei/azukeru/1013686.html",
+      "quote": "提出の際には面接を同時に行いますので、入所予定のお子さんをお連れいただき、マイナンバーカード、母子手帳をご持参ください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.ise.mie.jp/_res/projects/default_project/_page_/001/007/775/r9guidebook.pdf",
+      "quote": "※産後休暇・育児休業中の場合は、休暇明け月の初日から入所できます。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.ise.mie.jp/kosodate/shisetsu/hoiku/1007775.html",
+      "quote": "育児休業は別の要件で入所後、変更により継続して施設を利用する場合にのみ認定しますので、育児休業を理由とした入所はできません。"
+    },
+    "notes.0": {
+      "url": "https://www.city.ise.mie.jp/kosodate/gyosei/azukeru/1013686.html",
+      "quote": "例年、年度当初からの入所が最も希望の施設に入りやすくなっています。"
+    },
+    "notes.1": {
+      "url": "https://www.city.ise.mie.jp/kosodate/gyosei/azukeru/1013686.html",
+      "quote": "2次募集申し込み期間終了後も申し込みは可能ですが、期間内に申し込んだ人が優先となります。"
+    },
+    "notes.2": {
+      "url": "https://www.city.ise.mie.jp/kosodate/gyosei/azukeru/1013686.html",
+      "quote": "保育所・認定こども園等の入所申込書には第6希望まで施設を記入することができます。"
+    },
+    "notes.3": {
+      "url": "https://www.city.ise.mie.jp/_res/projects/default_project/_page_/001/007/775/r9guidebook.pdf",
+      "quote": "※１２月から３月に新規・転園で入所を希望される方につきましては、入所できたとしても、同一年度の３月までの期間限定となります。"
+    },
+    "notes.3#2": {
+      "url": "https://www.city.ise.mie.jp/_res/projects/default_project/_page_/001/007/775/r9guidebook.pdf",
+      "quote": "次年度４月以降も継続して入所を希望される場合は、必ず次年度入所(１０月から受付開始)にて申込みをしてください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.ise.mie.jp/_res/projects/default_project/_page_/001/013/686/r9nyusyo.pdf",
+      "quote": "決定後はどのような理由があっても、転園を取りやめ元の施設に通い続けるということはできませんのでご了承ください。"
+    },
+    "notes.5": {
+      "url": "https://www.city.ise.mie.jp/_res/projects/default_project/_page_/001/013/686/r9nyusyo.pdf",
+      "quote": "通知書発送以前のお問い合わせにはお答えできませんので、ご了承ください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "伊勢市「保育所・認定こども園等への入所手続き」",
+      "url": "https://www.city.ise.mie.jp/kosodate/gyosei/azukeru/1013686.html"
+    },
+    {
+      "label": "伊勢市「令和9年度保育所等入所手続き」（PDF）",
+      "url": "https://www.city.ise.mie.jp/_res/projects/default_project/_page_/001/013/686/r9nyusyo.pdf"
+    },
+    {
+      "label": "伊勢市「保育所・認定こども園等入所申込書類等」",
+      "url": "https://www.city.ise.mie.jp/kosodate/shisetsu/hoiku/1007775.html"
+    },
+    {
+      "label": "伊勢市「令和9年度 保育所・認定こども園・幼稚園・小規模保育事業所ご利用ガイドブック」（PDF）",
+      "url": "https://www.city.ise.mie.jp/_res/projects/default_project/_page_/001/007/775/r9guidebook.pdf"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "citySlug": "kakegawa",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "掛川市「新年度　保育所等の入園申請手続き」",
+    "url": "https://www.city.kakegawa.shizuoka.jp/kakekko/docs/458842.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "9月24日（木曜日）から申込書を配付。配布・受付場所はこども保育支援課 園運営支援係（市役所本庁舎1階南側）、大東ふくしあ（大東支所内）、大須賀ふくしあ（大須賀支所内）",
+  "firstApply": "令和8年10月1日（木曜日）〜10月30日（金曜日）。土曜日・日曜日・祝日を除く午前9時〜午後4時（期間内の木曜日はこども保育支援課で午後7時まで）。電子申請は令和8年10月1日午前9時から受付。郵送は10月30日までの消印有効",
+  "applyMethods": "窓口（こども保育支援課 園運営支援係、大東ふくしあ、大須賀ふくしあ）、郵送（記入漏れや不備がなければ可）、電子申請（スマートフォン・パソコン。現在掛川市に住民登録があり来年4月以降も掛川市在住の人に限る）",
+  "firstResult": "4月入園希望者には令和9年1月末頃に自宅へ文書を郵送",
+  "midYearDeadline": "途中入園は原則月の初日の入園で、入園希望月の2カ月前の15日までに申し込む（例：5月入園は令和9年3月15日まで）。令和9年5月以降の入園申し込みは令和9年1月4日から随時受付",
+  "documents": [
+    "施設型給付費（地域型保育給付費）教育・保育給付認定申請書 兼 保育所等入所申込書（入園申込書が認定申請を兼ねる）",
+    "就労証明書（自営業者・農業従事者は確定申告書の写し等も添付）",
+    "求職中の場合は「確認書」",
+    "同居または50メートル以内に住む65歳未満の祖父母が勤務している場合は、祖父母の就労証明書"
+  ],
+  "notes": [
+    "就労証明書等の差し替えは11月末まで。求職中の人も11月末までに就労証明書を出せば入所選考に反映される",
+    "4月入園の希望園の変更は10月30日（金曜日）まで。それ以降の変更は受け付けない",
+    "希望園は3園以内で、確実に通える園を書く。希望園が1園だけでも基準点は変わらず、入りやすくはならない",
+    "内定した園を辞退すると、次回以降の入所選考で減点される",
+    "下の子の育児休業中は上の子の入園申込みはできない。きょうだい同時に申し込み、入園後翌月15日までに職場復帰する場合は申込み可能",
+    "令和8年度に入園待機中の人も、令和9年度の入園には再度の申込みが必要"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.kakegawa.shizuoka.jp/kakekko/docs/458842.html",
+      "quote": "令和9年度保育園・認定こども園（保育利用）入園申し込みの受付についてご案内します。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.kakegawa.shizuoka.jp/kakekko/docs/458842.html",
+      "quote": "配付　9月24日（木曜日）から"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.kakegawa.shizuoka.jp/kakekko/docs/458842.html",
+      "quote": "こども保育支援課　園運営支援係（市役所本庁舎1階南側）"
+    },
+    "guideRelease#3": {
+      "url": "https://www.city.kakegawa.shizuoka.jp/kakekko/docs/458842.html",
+      "quote": "大東ふくしあ（大東支所内）"
+    },
+    "guideRelease#4": {
+      "url": "https://www.city.kakegawa.shizuoka.jp/kakekko/docs/458842.html",
+      "quote": "大須賀ふくしあ（大須賀支所内）"
+    },
+    "firstApply": {
+      "url": "https://www.city.kakegawa.shizuoka.jp/kakekko/docs/458842.html",
+      "quote": "受付　10月1日(木曜日)から10月30日(金曜日)【土曜日・日曜日・祝日を除く】 午前9時から午後4時まで"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.kakegawa.shizuoka.jp/kakekko/docs/458842.html",
+      "quote": "令和9年度の保育所等の入園申し込みは、令和8年10月1日（木）午前9時から電子申請の受付を開始します。"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.kakegawa.shizuoka.jp/kakekko/docs/458842.html",
+      "quote": "注 期間内の木曜日は、こども保育支援課で午後7時まで受け付けます。"
+    },
+    "firstApply#4": {
+      "url": "https://www.city.kakegawa.shizuoka.jp/fs/6/3/9/1/9/7/_/__9____________Q_A_.pdf",
+      "quote": "提出は、記入漏れや不備がなければ郵送でもかまいませんが、10月30日までの消印が有効となります。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.kakegawa.shizuoka.jp/fs/6/3/9/1/9/7/_/__9____________Q_A_.pdf",
+      "quote": "現在掛川市に住民登録しており、来年の4月以降も掛川市在住の方に限ります。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.kakegawa.shizuoka.jp/fs/6/3/9/1/9/7/_/__9____________Q_A_.pdf",
+      "quote": "スマートフォンやパソコンからも申込みができます。"
+    },
+    "firstResult": {
+      "url": "https://www.city.kakegawa.shizuoka.jp/fs/6/3/9/1/9/7/_/__9____________Q_A_.pdf",
+      "quote": "４月入園希望者への連絡は、令和９年１月末頃にご自宅に文書を郵送します。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.kakegawa.shizuoka.jp/kakekko/docs/458842.html",
+      "quote": "途中入園については、基本的に「月の初日の入園」となりますので、入園希望月の「2カ月前の15日まで」に申し込みをしてください。"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.kakegawa.shizuoka.jp/kakekko/docs/458842.html",
+      "quote": "注 令和9年5月以降の入園申し込みは、令和9年1月4日(月曜日)から随時受け付けます。"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.kakegawa.shizuoka.jp/kakekko/docs/458842.html",
+      "quote": "5月\n令和9年3月15日（月曜日）"
+    },
+    "documents.0": {
+      "url": "https://www.city.kakegawa.shizuoka.jp/kakekko/docs/458842.html",
+      "quote": "入園申込書が認定申請を兼ねたものになっておりますので、入園申込と同時に手続きができます。"
+    },
+    "documents.1": {
+      "url": "https://www.city.kakegawa.shizuoka.jp/fs/6/3/9/1/9/7/_/__9____________Q_A_.pdf",
+      "quote": "「就労証明書」を提出してください。確定申告書の写し等も添付してください。"
+    },
+    "documents.2": {
+      "url": "https://www.city.kakegawa.shizuoka.jp/fs/6/3/9/1/9/7/_/__9____________Q_A_.pdf",
+      "quote": "求職中の場合は、「確認書」をご記入いただき、申し込みをしてください。"
+    },
+    "documents.3": {
+      "url": "https://www.city.kakegawa.shizuoka.jp/fs/6/3/9/1/9/7/_/__9____________Q_A_.pdf",
+      "quote": "65 歳未満の祖父母の就労有無を入所選考に反映するため、祖父母が勤務されている場合は就労証明書の提出をお願いしています。"
+    },
+    "notes.0": {
+      "url": "https://www.city.kakegawa.shizuoka.jp/fs/6/3/9/1/9/7/_/__9____________Q_A_.pdf",
+      "quote": "就労証明書等の差し替えは、11月末までとします。"
+    },
+    "notes.0#2": {
+      "url": "https://www.city.kakegawa.shizuoka.jp/fs/6/3/9/1/9/7/_/__9____________Q_A_.pdf",
+      "quote": "11 月末までに就労証明書を提出いただければ入所選考に反映させていただきます。"
+    },
+    "notes.1": {
+      "url": "https://www.city.kakegawa.shizuoka.jp/kakekko/docs/303927.html",
+      "quote": "注 4月入園希望者の希望園の変更は10月30日（金曜日）までです。それ以降の変更は受付できませんのでご注意ください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.kakegawa.shizuoka.jp/fs/6/3/9/1/9/7/_/__9____________Q_A_.pdf",
+      "quote": "希望園が１園のみの場合でも、基準点は変わりませんので、入りやすくなることはありません。"
+    },
+    "notes.2#2": {
+      "url": "https://www.city.kakegawa.shizuoka.jp/fs/6/3/9/1/9/7/_/__9____________Q_A_.pdf",
+      "quote": "入園決定した際に、確実に通える園を、３園以内でご記入ください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.kakegawa.shizuoka.jp/kakekko/docs/303927.html",
+      "quote": "内定した園を辞退した場合は、次回以降の入所選考で減点されます。"
+    },
+    "notes.4": {
+      "url": "https://www.city.kakegawa.shizuoka.jp/fs/6/3/9/1/9/7/_/__9____________Q_A_.pdf",
+      "quote": "育児休業中に入園申込みはできません。ただし、きょうだい同時に入園申込みをして、入園後翌月15日までに職場復帰する場合は入園申込みが可能です。"
+    },
+    "notes.5": {
+      "url": "https://www.city.kakegawa.shizuoka.jp/fs/6/3/9/1/9/7/_/__9____________Q_A_.pdf",
+      "quote": "再度の申込みが必要です。就労状況も変わるため、年度ごと申込みが必要です。"
+    }
+  },
+  "sources": [
+    {
+      "label": "掛川市「新年度　保育所等の入園申請手続き」",
+      "url": "https://www.city.kakegawa.shizuoka.jp/kakekko/docs/458842.html"
+    },
+    {
+      "label": "掛川市「令和9年度保育園申込について(Q&A)」",
+      "url": "https://www.city.kakegawa.shizuoka.jp/fs/6/3/9/1/9/7/_/__9____________Q_A_.pdf"
+    },
+    {
+      "label": "掛川市「令和9年度保育園・こども園（保育利用）等の入園申込参考情報」",
+      "url": "https://www.city.kakegawa.shizuoka.jp/kakekko/docs/303927.html"
+    }
+  ]
+}

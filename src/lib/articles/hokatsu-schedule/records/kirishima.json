@@ -1,0 +1,149 @@
+{
+  "citySlug": "kirishima",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "霧島市「令和8年度教育・保育施設（保育園・幼稚園・認定こども園等）の利用申込み」",
+    "url": "https://www.city-kirishima.jp/jidou/hoikuen/r8riyoumousikomi.html"
+  },
+  "fiscalYear": "R8",
+  "firstApply": "令和7年11月7日（金曜日）8時15分〜令和7年12月5日（金曜日）17時まで（土・日・祝日は除く）。先着順ではない。期限後も随時受け付けるが、令和8年4月1日からの利用は期限内の申込分を優先",
+  "applyMethods": "窓口で申し込む。受付場所は本庁子育て支援課保育・幼稚園グループ（本庁別館1階）、隼人市民福祉課福祉グループ、各総合支所市民生活課市民福祉グループ。申込時にマイナンバー確認書類と運転免許証などの本人確認書類を持参する",
+  "firstResult": "1月末を目途に一次利用調整の結果を郵送（電話での問い合わせには答えられない）",
+  "secondResult": "二次利用調整（一次で入園できず、案内通知に書かれた期限までに申込書を出し直した人が対象）の結果は2月末までに郵送",
+  "midYearDeadline": "入園希望日の2か月前の月末まで（4月途中入園は令和8年2月20日まで）",
+  "documents": [
+    "施設型給付費・地域型保育給付費等支給認定（2・3号認定）申請書兼利用申込書（児童1人につき1部）",
+    "保育所等利用申込補助票",
+    "保育を必要とする理由を証明する書類（就労証明書など。父・母それぞれ必要。証明日・発行日が令和7年10月1日以降のものが有効）",
+    "妊娠・出産の場合は出産に伴う入所願と母子健康手帳の写し",
+    "兄・姉が企業主導型保育事業所や児童発達支援などを利用している場合は入所（利用）状況証明書"
+  ],
+  "ikukyu": "育児休業・給付の延長手続きに使う「保育施設に入園できていない旨の証明書」は子育て支援課窓口で発行（事前に連絡）。延長手続きには入所申込みの写しが要るので、申込み前に申込書（両面）を自分でコピーしておく。申込書で育休延長も検討しているため合計指数が下がってもよいを選ぶと、基本点と加算は0になる",
+  "notes": [
+    "必要な書類（特に保育を必要とする理由を証明する書類）が揃っていないと受け付けてもらえない",
+    "一次利用調整では第2希望・第3希望の施設に決まることもあり、事前に保護者への確認は行われない",
+    "入園後の転園は容易にはできないので、施設に直接連絡して事前に見学するよう求められている",
+    "育児休業中の人は入園日から1か月以内に職場復帰する必要がある。復職予定日が令和8年5月2日以降でも、育休を短縮して4月1日〜5月1日に復帰できれば4月1日入所に申し込める",
+    "4月1日入所を希望する施設の募集状況は、見学のときなどに直接施設へ確認する"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city-kirishima.jp/jidou/hoikuen/r8riyoumousikomi.html",
+      "quote": "（※）申込期限後も申込みは随時受け付けますが、令和8年4月1日から利用を希望する場合は、期限内の申込分を優先します。"
+    },
+    "firstApply": {
+      "url": "https://www.city-kirishima.jp/jidou/hoikuen/r8riyoumousikomi.html",
+      "quote": "令和7年11月7日(金曜日)8時15分～令和7年12月5日(金曜日)17時まで"
+    },
+    "firstApply#2": {
+      "url": "https://www.city-kirishima.jp/jidou/hoikuen/r8riyoumousikomi.html",
+      "quote": "（※）先着順ではありません"
+    },
+    "firstApply#3": {
+      "url": "https://www.city-kirishima.jp/jidou/hoikuen/r8riyoumousikomi.html",
+      "quote": "（※）ただし土・日・祝日は除く"
+    },
+    "firstApply#4": {
+      "url": "https://www.city-kirishima.jp/jidou/hoikuen/r8riyoumousikomi.html",
+      "quote": "（※）申込期限後も申込みは随時受け付けますが、令和8年4月1日から利用を希望する場合は、期限内の申込分を優先します。"
+    },
+    "applyMethods": {
+      "url": "https://www.city-kirishima.jp/jidou/hoikuen/r8riyoumousikomi.html",
+      "quote": "本庁子育て支援課保育・幼稚園グループ（本庁別館1F） 隼人市民福祉課福祉グループ 各総合支所市民生活課市民福祉グループ"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city-kirishima.jp/jidou/hoikuen/r8riyoumousikomi.html",
+      "quote": "（注）番号法施行に伴い、申込時にマイナンバーの確認を行いますので個人番号確認書類（マイナンバーカード、通知カード等）と運転免許証などの本人確認書類を必ず持参してください。"
+    },
+    "firstResult": {
+      "url": "https://www.city-kirishima.jp/jidou/hoikuen/documents/annai.pdf",
+      "quote": "利用調整の結果は、１月末を目途に郵送します（電話でのお問い合わせはお答えできません。）。"
+    },
+    "secondResult": {
+      "url": "https://www.city-kirishima.jp/jidou/hoikuen/documents/annai.pdf",
+      "quote": "利用調整の結果は、２月末までに郵送します。"
+    },
+    "secondResult#2": {
+      "url": "https://www.city-kirishima.jp/jidou/hoikuen/documents/annai.pdf",
+      "quote": "二次利用調整…一次利用調整にて入所保留となり、再度の利用調整を希望する者を対象に行う利用調整をいう。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city-kirishima.jp/jidou/hoikuen/documents/annai.pdf",
+      "quote": "申込期限：入園希望日の２か月前の月末まで ※4月途中入園は令和８年２月２０日（金）まで"
+    },
+    "documents.0": {
+      "url": "https://www.city-kirishima.jp/jidou/hoikuen/documents/annai.pdf",
+      "quote": "①施設型給付費・地域型保育給付費等支給認定（２・３号認定）申請書兼利用申込書"
+    },
+    "documents.1": {
+      "url": "https://www.city-kirishima.jp/jidou/hoikuen/documents/annai.pdf",
+      "quote": "②保育所等利用申込補助票"
+    },
+    "documents.2": {
+      "url": "https://www.city-kirishima.jp/jidou/hoikuen/r8riyoumousikomi.html",
+      "quote": "証明書・診断書等は証明日・発行日が令和7年10月1日以降のものが有効です。"
+    },
+    "documents.2#2": {
+      "url": "https://www.city-kirishima.jp/jidou/hoikuen/r8riyoumousikomi.html",
+      "quote": "父・母それぞれ提出が必要です。（同居祖父母等の就労証明書の提出は不要です。）"
+    },
+    "documents.3": {
+      "url": "https://www.city-kirishima.jp/jidou/hoikuen/r8riyoumousikomi.html",
+      "quote": "出産に伴う入所願（PDF：61KB） 母子健康手帳の写し 原則産前8週、産後8週の入所期間となります。"
+    },
+    "documents.4": {
+      "url": "https://www.city-kirishima.jp/jidou/hoikuen/r8riyoumousikomi.html",
+      "quote": "（※）教育・保育施設の申込みをする児童と同一世帯の小学校就学前の兄・姉で、企業主導型保育事業所、特別支援学校幼稚部、児童発達支援、医療型児童発達支援、居宅訪問型児童発達支援、児童心理治療施設を利用している場合は提出してください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city-kirishima.jp/jidou/hoikuen/documents/annai.pdf",
+      "quote": "本証明書は子育て支援課窓口にて発行しますのでご希望の際は事前にご連絡ください。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city-kirishima.jp/jidou/hoikuen/documents/annai.pdf",
+      "quote": "なお、延長手続きでは入所申込みの写しが必要になりますので、育児休業中の方は申込み前に必ずご自身で申込書（両面）をコピーするようお願いします。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city-kirishima.jp/jidou/hoikuen/documents/annai.pdf",
+      "quote": "申込書の「希望する保育施設に入所できない場合は、育児休業の延長も検討しているため、利用調整に当たり、保育施設利用調整基準表に基づく合計指数が下がっても良い。」を選択した場合は、基本点及び加算は０とする。"
+    },
+    "notes.0": {
+      "url": "https://www.city-kirishima.jp/jidou/hoikuen/r8riyoumousikomi.html",
+      "quote": "（※）必要な書類（特に保育を必要とする理由を証明する書類）が揃っていない場合は受け付けることができません。"
+    },
+    "notes.1": {
+      "url": "https://www.city-kirishima.jp/jidou/hoikuen/documents/annai.pdf",
+      "quote": "また、この時点の利用調整では、第２希望または第３希望の施設に決定することもありますが、事前に保護者への確認は行いませんので、ご了承ください。"
+    },
+    "notes.2": {
+      "url": "https://www.city-kirishima.jp/jidou/hoikuen/documents/annai.pdf",
+      "quote": "入園後の利用施設の変更（以下「転園」といいます。）は、容易にはできません。"
+    },
+    "notes.2#2": {
+      "url": "https://www.city-kirishima.jp/jidou/hoikuen/documents/annai.pdf",
+      "quote": "なお、見学する場合は、施設に直接連絡していただき、日程調整を行ってください。"
+    },
+    "notes.3": {
+      "url": "https://www.city-kirishima.jp/jidou/hoikuen/documents/annai.pdf",
+      "quote": "育児休業中の方は、入園日から１か月以内（ならし保育を勘案）に職場復帰をする必要があります。"
+    },
+    "notes.3#2": {
+      "url": "https://www.city-kirishima.jp/jidou/hoikuen/documents/annai.pdf",
+      "quote": "育児休業短縮可能で令和８年４月１日から５月１日の間に職場復帰できる場合は４月１日入所の申込み可能です。"
+    },
+    "notes.4": {
+      "url": "https://www.city-kirishima.jp/jidou/hoikuen/r8riyoumousikomi.html",
+      "quote": "4月1日入所（転所）を希望する保育施設の募集状況については、見学等される際に必ず直接施設へご確認ください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "霧島市「令和8年度教育・保育施設（保育園・幼稚園・認定こども園等）の利用申込み」",
+      "url": "https://www.city-kirishima.jp/jidou/hoikuen/r8riyoumousikomi.html"
+    },
+    {
+      "label": "霧島市「令和8年度保育施設入園のご案内」（PDF）",
+      "url": "https://www.city-kirishima.jp/jidou/hoikuen/documents/annai.pdf"
+    }
+  ]
+}

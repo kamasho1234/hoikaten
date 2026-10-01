@@ -1,0 +1,143 @@
+{
+  "citySlug": "kani",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "可児市「幼稚園、保育所、小規模保育事業所、認定こども園の令和９年4月入園手続き（新入園）」",
+    "url": "https://www.city.kani.lg.jp/19865.htm"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年10月1日（木曜日）から申込要項を保育課で配布。市ホームページにも申込要項・申込書等を掲載",
+  "firstApply": "令和8年11月2日（月曜日）〜11月30日（月曜日）の平日、8時30分〜17時15分。令和9年2月19日まで申込みは受け付けるが、11月の申込者が優先される",
+  "applyMethods": "保育課（可児市子育て健康プラザ マーノ2階）の窓口に申込書類を提出する",
+  "midYearDeadline": "年度途中の入園は入園月ごとに受付期間が決まっており（例: 令和9年5月入園は3月1日〜3月19日、10月入園は8月2日〜8月20日）、その期間の市役所開庁日に申し込む",
+  "documents": [
+    "教育・保育給付認定申請書 兼 入園申込書",
+    "調査票（表面）・入園にあたっての確認事項（裏面）",
+    "保育園等入園調整基準表（申込児童の氏名・生年月日と調整基準の太枠の中を記入）",
+    "保育を必要とする理由を証明する書類（就労の場合は就労証明書。勤務先の担当者が記入したもので、記載内容に変更がない場合に限り3か月以内に証明されたものが有効）",
+    "同意書（マイナンバーを利用した情報連携のため、申請者以外の保護者の同意が必要な場合）",
+    "申請者の身分証明書（マイナンバーカード、運転免許証など。写真付きでないものは2点）"
+  ],
+  "interview": "申込みの際に、子どもの状況の聞き取りを行う",
+  "ikukyu": "育児休業から復帰して申し込むが育休の延長も許容できる場合は、希望により合計指数を0点として申し込める（0点でも状況により入園が決まることがある）。1歳または1歳半の誕生日以降の日を書いて保留になった場合、勤務先によっては育休を延長できなくなることがあるので事前に勤務先へ確認する",
+  "notes": [
+    "市が実施する乳幼児（4か月児・1歳6か月児・3歳児）健康診査を必ず受診・予約する",
+    "新入園で受付期間を過ぎて申し込んだ場合は、期間内の申込者の利用調整を終えた後に調整される",
+    "入園日から1、2週間程度「ならし保育」を行うことがあり、入園当初は希望する時間まで預かれない場合がある",
+    "4月1日入園は4月1日から園児として在籍するという意味で、実際の通園開始日は園ごとに異なる",
+    "認定こども園の教育認定、幼稚園、企業主導型保育園などの認可外保育園は、希望する園へ直接申し込む",
+    "新年度から転園を希望する場合は、新入園申込と同じ11月中に入園申込書・調査票と在園中の園の退園届を保育課窓口に出す"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.kani.lg.jp/secure/21058/01-1mousikomiyoukou.pdf",
+      "quote": "・年齢は、令和９年４月１日時点の年齢を記入してください。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.kani.lg.jp/19865.htm",
+      "quote": "令和８年１０月１日（木曜日）から保育課で配布します。"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.kani.lg.jp/19865.htm",
+      "quote": "配布資料は以下より入手いただけます。必ず要項をよくお読みのうえ申込みをお願いします。"
+    },
+    "firstApply": {
+      "url": "https://www.city.kani.lg.jp/19865.htm",
+      "quote": "令和８年11月２日（月曜日）から30日（月曜日）の平日　８時３０分から１７時１５分まで"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.kani.lg.jp/secure/21058/01-1mousikomiyoukou.pdf",
+      "quote": "令和９年２月19日まで申込みを受付けますが、11月申込者が優先されます。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.kani.lg.jp/secure/21058/01-1mousikomiyoukou.pdf",
+      "quote": "【受付場所】 保育課（可児市子育て健康プラザ マーノ２階）"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.kani.lg.jp/secure/21058/01-1mousikomiyoukou.pdf",
+      "quote": "下表の受付期間のうち、市役所開庁日に入園申込みを提出することができます。"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.kani.lg.jp/secure/21058/01-1mousikomiyoukou.pdf",
+      "quote": "令和９年５月 ３月１日～３月19日 令和９年10月 ８月２日～８月20日"
+    },
+    "documents.0": {
+      "url": "https://www.city.kani.lg.jp/secure/21058/01-1mousikomiyoukou.pdf",
+      "quote": "教育・保育給付認定申請書 兼 入園申込書"
+    },
+    "documents.1": {
+      "url": "https://www.city.kani.lg.jp/secure/21058/01-1mousikomiyoukou.pdf",
+      "quote": "調査票（表面）・入園にあたっての確認事項（裏面）"
+    },
+    "documents.2": {
+      "url": "https://www.city.kani.lg.jp/secure/21058/01-1mousikomiyoukou.pdf",
+      "quote": "保育園等入園調整基準表（申込児童氏名・生年月日・⑧調整基準の太枠の中を記入）"
+    },
+    "documents.3": {
+      "url": "https://www.city.kani.lg.jp/secure/21058/01-1mousikomiyoukou.pdf",
+      "quote": "・就労証明書は、必ず勤務先の担当者が記入したものをご提出ください。"
+    },
+    "documents.3#2": {
+      "url": "https://www.city.kani.lg.jp/10418.htm",
+      "quote": "有効期限は記載内容に変更がない場合に限り、３か月以内に証明されたものを有効としています。"
+    },
+    "documents.4": {
+      "url": "https://www.city.kani.lg.jp/secure/21058/01-1mousikomiyoukou.pdf",
+      "quote": "同意書･･･マイナンバーを利用した情報連携にあたり、申請書の申請者以外の保護者の同意が必要となります。"
+    },
+    "documents.5": {
+      "url": "https://www.city.kani.lg.jp/secure/21058/01-1mousikomiyoukou.pdf",
+      "quote": "（マイナンバーカード、運転免許証など。なお、写真付でない証明書等は２点必要）"
+    },
+    "interview": {
+      "url": "https://www.city.kani.lg.jp/secure/21058/01-1mousikomiyoukou.pdf",
+      "quote": "５ お申込みの際は、お子さんの状況の聞き取りを行います。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.kani.lg.jp/secure/21058/01-1mousikomiyoukou.pdf",
+      "quote": "希望により、入園調整基準表に基づいて算出する合計指数を 0 点として申込むことも可能です。ただし、合計指数が0点であっても、状況によっては入園が決定することもあります。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.kani.lg.jp/secure/21058/01-1mousikomiyoukou.pdf",
+      "quote": "１歳もしくは1歳半の誕生日以降の日を記載し保留となった場合、お勤め先によっては育児休業を延長できなくなる場合がありますので、事前にお勤め先によく確認することをお勧めします。"
+    },
+    "notes.0": {
+      "url": "https://www.city.kani.lg.jp/secure/21058/01-1mousikomiyoukou.pdf",
+      "quote": "市が実施する乳幼児（４か月児・１歳６か月児・３歳児）健康診査を必ず受診・予約してください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.kani.lg.jp/secure/21058/01-1mousikomiyoukou.pdf",
+      "quote": "・（新入園の場合）上記受付期間を過ぎて申し込みした場合は、受付期間内の申込者の利用調整を終えた後に調整します。"
+    },
+    "notes.2": {
+      "url": "https://www.city.kani.lg.jp/secure/21058/01-1mousikomiyoukou.pdf",
+      "quote": "・入園日から１、2週間程度『ならし保育』を実施することがあるため、入園当初は希望する時間まで預かることができない場合があります。"
+    },
+    "notes.3": {
+      "url": "https://www.city.kani.lg.jp/secure/21058/01-1mousikomiyoukou.pdf",
+      "quote": "新入園（４月１日入園）として入園する場合、４月１日からその園の園児として在籍することになりますが、実際の通園開始日は園ごとに異なります。"
+    },
+    "notes.4": {
+      "url": "https://www.city.kani.lg.jp/secure/21058/01-1mousikomiyoukou.pdf",
+      "quote": "・認定こども園の『教育認定』、幼稚園または、企業主導型保育園などの認可外保育園の入園を希望される方は、希望する園へ直接お申し込みください。"
+    },
+    "notes.5": {
+      "url": "https://www.city.kani.lg.jp/10418.htm",
+      "quote": "新年度から転園を希望される場合は、新入園申込と同じ11月中に、保育課窓口へ「保育園入園申込書」「調査票」と在園中の園の「退園届」を提出してください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "可児市「幼稚園、保育所、小規模保育事業所、認定こども園の令和９年4月入園手続き（新入園）」",
+      "url": "https://www.city.kani.lg.jp/19865.htm"
+    },
+    {
+      "label": "可児市「令和９年度入園申込要項」（PDF）",
+      "url": "https://www.city.kani.lg.jp/secure/21058/01-1mousikomiyoukou.pdf"
+    },
+    {
+      "label": "可児市「保育園に関するQ＆A」",
+      "url": "https://www.city.kani.lg.jp/10418.htm"
+    }
+  ]
+}

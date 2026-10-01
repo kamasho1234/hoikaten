@@ -1,0 +1,167 @@
+{
+  "citySlug": "kazo",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "加須市「令和9年度保育所（園）・認定こども園(保育所部分)入所案内」",
+    "url": "https://www.city.kazo.lg.jp/soshiki/hoikuyouchien/kosodate_1/45207.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年10月1日（木曜日）から、こども保育課（本庁舎）と各総合支所福祉健康担当窓口で申請書等を配布。加須市ホームページからもダウンロードできる",
+  "firstApply": "令和8年11月2日（月曜日）〜11月13日（金曜日）（土日祝日を除く）。11月8日（日曜日）は9時〜17時に本庁舎5階でのみ受付",
+  "applyMethods": "入所申込書に必要書類を添えて、受付期間内に本庁舎5階（こども保育課）か各総合支所福祉健康担当窓口に提出する（8時30分〜17時15分）。入所は先着順ではない",
+  "firstResult": "令和9年1月末日〜2月上旬に通知を発送",
+  "secondApply": "2次募集がある場合は2月上旬に加須市ホームページ等で知らせる。入所枠がない場合は2次募集はない",
+  "midYearDeadline": "年度途中（毎月1日入所、5月〜翌年3月）は入所希望月の3か月前から前々月末日（休日の場合はその前日）まで。1月〜3月の途中入所は新年度受付期間中に申し込む",
+  "documents": [
+    "施設型給付費・地域型保育給付費等支給認定申請書（入所申込書）",
+    "家庭状況調査表",
+    "保育所等入所申込意向確認書",
+    "保育所等利用申込に関する確認票",
+    "保育の必要性を証する書類（18歳（高校生除く）以上65歳未満の同居の方全員）"
+  ],
+  "interview": "申込みに当たっては保育施設の見学（予約）が必須。希望する保育施設へ事前に連絡し、子どもと一緒に見学する",
+  "ikukyu": "入所できない場合に育児休業の延長を許容できる人は「育児休業延長の許容に関する申出書」を出す。利用調整（選考）で指数が減点される。入所できなかった場合、保留通知書は初回のみ送付",
+  "notes": [
+    "本庁舎の受付初日の午前中は例年大変混雑し、1時間以上待つ場合がある",
+    "他市区町村から加須市への管外協議の受付期間は11月13日（金曜日）まで",
+    "既に入所申込をしている人が希望園の変更や追加をする場合は「保育施設利用申込変更届」を出す",
+    "内定を辞退した年度内の入所選考は減点して選考される。希望順位が低い施設でも、内定したら入所する前提で申し込む",
+    "育児休業延長を目的とした申込はできない（令和7年4月申込から育児休業給付金の要件が変わったため）"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.kazo.lg.jp/material/files/group/25/1-2.pdf",
+      "quote": "令和９年４月入所 令和９年１月末日～２月上旬に通知を発送します。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.kazo.lg.jp/soshiki/hoikuyouchien/kosodate_1/45207.html",
+      "quote": "令和8年10月1日（木曜日）からこども保育課（本庁舎）および各総合支所福祉健康担当窓口で配布しています。加須市ホームページからもダウンロード可能です。"
+    },
+    "firstApply": {
+      "url": "https://www.city.kazo.lg.jp/soshiki/hoikuyouchien/kosodate_1/45207.html",
+      "quote": "令和8年11月2日（月曜日）から11月13日（金曜日）（土日祝日を除く）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.kazo.lg.jp/soshiki/hoikuyouchien/kosodate_1/45207.html",
+      "quote": "ただし、11月8日（日曜日） は9時から17時まで、本庁舎5階でのみ受付けます。"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.kazo.lg.jp/material/files/group/25/1-2.pdf",
+      "quote": "令和８年１１月２日（月）～令和８年１１月１３日（金）（土日祝日を除く）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.kazo.lg.jp/soshiki/hoikuyouchien/kosodate_1/45207.html",
+      "quote": "入所申込書に必要書類（下記「申込み時に必要な書類」を参照）を添えて、受付期間内にお申込みください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.kazo.lg.jp/soshiki/hoikuyouchien/kosodate_1/45207.html",
+      "quote": "本庁舎5階及び各総合支所福祉健康担当窓口 8時30分から17時15分"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.kazo.lg.jp/soshiki/hoikuyouchien/kosodate_1/45207.html",
+      "quote": "保育施設の入所は先着順ではありません。"
+    },
+    "firstResult": {
+      "url": "https://www.city.kazo.lg.jp/material/files/group/25/1-2.pdf",
+      "quote": "令和９年４月入所 令和９年１月末日～２月上旬に通知を発送します。"
+    },
+    "secondApply": {
+      "url": "https://www.city.kazo.lg.jp/soshiki/hoikuyouchien/kosodate_1/45207.html",
+      "quote": "2次募集がある場合は、2月上旬に加須市ホームページ等でお知らせします。入所枠がない場合、2次募集はありません。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.kazo.lg.jp/soshiki/hoikuyouchien/kosodate_1/45207.html",
+      "quote": "入所希望月の3か月前から前々月末日（休日の場合はその前日）"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.kazo.lg.jp/soshiki/hoikuyouchien/kosodate_1/45207.html",
+      "quote": "1月から3月の途中入所を希望する方は、新年度受付期間中に申込みをしてください。"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.kazo.lg.jp/soshiki/hoikuyouchien/kosodate_1/45207.html",
+      "quote": "年度途中（毎月1日）入所（5月～翌年3月入所）"
+    },
+    "documents.0": {
+      "url": "https://www.city.kazo.lg.jp/soshiki/hoikuyouchien/kosodate_1/45207.html",
+      "quote": "施設型給付費・地域型保育給付費等支給認定申請書（入所申込書）"
+    },
+    "documents.1": {
+      "url": "https://www.city.kazo.lg.jp/soshiki/hoikuyouchien/kosodate_1/45207.html",
+      "quote": "家庭状況調査表"
+    },
+    "documents.2": {
+      "url": "https://www.city.kazo.lg.jp/soshiki/hoikuyouchien/kosodate_1/45207.html",
+      "quote": "保育所等入所申込意向確認書"
+    },
+    "documents.3": {
+      "url": "https://www.city.kazo.lg.jp/soshiki/hoikuyouchien/kosodate_1/45207.html",
+      "quote": "保育所等利用申込に関する確認票"
+    },
+    "documents.4": {
+      "url": "https://www.city.kazo.lg.jp/soshiki/hoikuyouchien/kosodate_1/45207.html",
+      "quote": "保育の必要性を証する書類（18歳（高校生除く）以上65歳未満の同居の方全員）（入所案内参照）"
+    },
+    "interview": {
+      "url": "https://www.city.kazo.lg.jp/soshiki/hoikuyouchien/kosodate_1/45207.html",
+      "quote": "入所申込みに当たっては、保育施設への見学（予約）が必須となっております。希望する保育施設へ事前に連絡をし、児童同伴のうえ見学をしてください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.kazo.lg.jp/material/files/group/25/16-2_1.pdf",
+      "quote": "希望する保育所等に入所できない場合は、育児休業の延長も許容できることを申し出ます。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.kazo.lg.jp/material/files/group/25/16-2_1.pdf",
+      "quote": "利用調整（選考）において、指数が減点されます。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.kazo.lg.jp/material/files/group/25/16-2_1.pdf",
+      "quote": "保育所等に入所できなかった場合は、初回のみ「保留通知書」を送付します。"
+    },
+    "notes.0": {
+      "url": "https://www.city.kazo.lg.jp/soshiki/hoikuyouchien/kosodate_1/45207.html",
+      "quote": "本庁舎の受付初日の午前中は例年大変混雑するため、1時間以上お待ちいただく場合もございます。"
+    },
+    "notes.1": {
+      "url": "https://www.city.kazo.lg.jp/soshiki/hoikuyouchien/kosodate_1/45207.html",
+      "quote": "他市区町村から加須市への管外協議の受付期間は11月13日（金曜日）までです。"
+    },
+    "notes.2": {
+      "url": "https://www.city.kazo.lg.jp/soshiki/hoikuyouchien/kosodate_1/45207.html",
+      "quote": "なお、既に入所申込をされている方で、希望園の変更や追加等をする場合は「保育施設利用申込変更届」を提出してください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.kazo.lg.jp/material/files/group/25/1-2.pdf",
+      "quote": "内定を辞退した年度内の入所選考については、減点して選考いたします。"
+    },
+    "notes.3#2": {
+      "url": "https://www.city.kazo.lg.jp/material/files/group/25/1-2.pdf",
+      "quote": "希望順位が低い保育施設でも、内定した場合は入所することを前提にお申込みください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.kazo.lg.jp/material/files/group/25/1-2.pdf",
+      "quote": "育児休業延長を目的とした申込はできません。"
+    },
+    "notes.4#2": {
+      "url": "https://www.city.kazo.lg.jp/material/files/group/25/1-2.pdf",
+      "quote": "令和７年４月申込より育児休業給付金を受給するためには“保育所等の利用申し込みが、速やかな職場復帰のために行われたものであることが必要”になりました。"
+    }
+  },
+  "sources": [
+    {
+      "label": "加須市「令和9年度保育所（園）・認定こども園(保育所部分)入所案内」",
+      "url": "https://www.city.kazo.lg.jp/soshiki/hoikuyouchien/kosodate_1/45207.html"
+    },
+    {
+      "label": "加須市「令和9年度保育所（園）・認定こども園入所申請書類」",
+      "url": "https://www.city.kazo.lg.jp/soshiki/hoikuyouchien/shinseisho/45101.html"
+    },
+    {
+      "label": "加須市「令和9年度保育所・認定こども園入所案内」（PDF）",
+      "url": "https://www.city.kazo.lg.jp/material/files/group/25/1-2.pdf"
+    },
+    {
+      "label": "加須市「育児休業延長の許容に関する申出書」（PDF）",
+      "url": "https://www.city.kazo.lg.jp/material/files/group/25/16-2_1.pdf"
+    }
+  ]
+}

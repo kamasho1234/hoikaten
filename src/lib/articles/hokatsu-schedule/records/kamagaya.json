@@ -1,0 +1,204 @@
+{
+  "citySlug": "kamagaya",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "鎌ケ谷市「保育関連（幼児保育課）」",
+    "url": "https://www.city.kamagaya.chiba.jp/download_menu/download_fukushi/hoiku.html"
+  },
+  "fiscalYear": "R8",
+  "guideRelease": "令和7年10月27日（月）から案内・申請書等を配布",
+  "firstApply": "令和7年11月10日（月）〜12月12日（金）。11月28日（金）17:15〜20:00に夜間受付、12月6日（土）9:00〜12:00に休日受付を実施",
+  "applyMethods": "入園を希望する子どもを連れて、必要書類をすべてそろえて幼児保育課（総合福祉保健センター2階）の窓口に持参する。郵送・FAXでは受け付けない",
+  "firstResult": "1次利用調整の結果を2月下旬頃に全員へ文書で通知（教育・保育給付認定の結果も内定通知と一緒に通知）。結果の電話・窓口での問い合わせには答えない",
+  "secondApply": "1次で内定しなかった人は全員が再申込み不要で2次利用調整の対象。2次利用調整の締切は令和8年3月5日（木）で、1次の受付期間に転入が決まっていなかった人の申込みや、就労・家庭の状況・希望園の変更の書類提出もこの日まで",
+  "secondResult": "3月中旬に2次利用調整を行い、内定した人には市役所から保護者に電話で連絡",
+  "midYearDeadline": "年間を通して受付。締切は入園希望月の前月5日（5月を除き、土・日・祝日の場合は直前の平日）",
+  "documents": [
+    "【様式1】教育・保育給付認定申請書兼保育の利用申込書",
+    "【様式2】家族の状況調書",
+    "【様式3】提出書類の確認票",
+    "【様式4】児童の健康状況調書",
+    "【様式5】教育・保育給付認定、保育の利用申込みに関する確認票及び同意書",
+    "保育を必要とする事由を確認するための書類（父・母）。就労の場合は就労証明書で、育児休業中の人は育児休業に関する項目が記載されたもの。証明書類は希望入園月から6か月以内に証明されたもののみ有効",
+    "マイナンバー確認書類（申請者のマイナンバーカードまたはマイナンバーの分かるものと、来庁者の身分証明書）",
+    "4月申込みの人のみ：兄弟姉妹が新年度から新しく幼稚園へ入園する場合は入園証明書等（任意の書式可）"
+  ],
+  "interview": "内定した人は各保育園等で説明会と面接を行う（2次で内定した人は市からの電話連絡のあと各園で個別に面接）。内定した園で面接・健康チェック・重要事項の説明を受けない場合は内定取消になることがある",
+  "ikukyu": "利用申込書の「※育児休業中の方」で「育児休業の延長を許容する」にチェックすると、利用調整の点数を減点して優先順位を下げられる。ただしチェックしても必ず保留になるとは限らない",
+  "notes": [
+    "締切日までに全ての書類を提出しないと教育・保育給付認定の対象外となり、利用調整（入園選考）を受けられない",
+    "すでに申し込んだ内容（希望園の追加等）を変更する場合も、締切は12月12日（金）",
+    "保育園等を申し込むときは見学をして施設の説明を聞き、運営規程等（開園日、開園時間、職員体制など）を確認するよう求められている",
+    "受付期間に出生前でも、入園希望月の1日に受入年齢に達していれば申し込める",
+    "育児休業明けの申込みでは、入園となった月の翌月15日までに復職する必要がある",
+    "申込書の有効期限は年度末の3月入園分まで（この令和8年度版の案内では申込日から令和9年3月入園分まで）。翌年度4月以降も入園を希望する場合は別途申込みが必要"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.kamagaya.chiba.jp/download_menu/download_fukushi/hoiku.files/R8annnai2han.pdf",
+      "quote": "令和８年 ４月 令和 ７年１１月１０日（月）～１２月１２日（金）"
+    },
+    "guideRelease": {
+      "url": "https://www.city.kamagaya.chiba.jp/download_menu/download_fukushi/hoiku.files/R8annnai2han.pdf",
+      "quote": "ご案内・申請書等 配布 令和７年１０月２７日（月）"
+    },
+    "firstApply": {
+      "url": "https://www.city.kamagaya.chiba.jp/download_menu/download_fukushi/hoiku.files/R8annnai2han.pdf",
+      "quote": "令和８年 ４月 令和 ７年１１月１０日（月）～１２月１２日（金）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.kamagaya.chiba.jp/download_menu/download_fukushi/hoiku.files/R8annnai2han.pdf",
+      "quote": "※１１月２８日（金）17：15～20：00に夜間受付を行います。"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.kamagaya.chiba.jp/download_menu/download_fukushi/hoiku.files/R8annnai2han.pdf",
+      "quote": "※１2月 ６日（土） 9：00～1２：00に休日受付を行います。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.kamagaya.chiba.jp/download_menu/download_fukushi/hoiku.files/R8annnai2han.pdf",
+      "quote": "入園希望のお子様を同伴（※）の上、「申込みの必要書類」を全てそろえてご持参ください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.kamagaya.chiba.jp/download_menu/download_fukushi/hoiku.files/R8annnai2han.pdf",
+      "quote": "※郵送・ＦＡＸでの受付はしていませんので、ご注意ください。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.kamagaya.chiba.jp/download_menu/download_fukushi/hoiku.files/R8annnai2han.pdf",
+      "quote": "○受付場所 鎌ケ谷市幼児保育課（総合福祉保健センター２階）"
+    },
+    "firstResult": {
+      "url": "https://www.city.kamagaya.chiba.jp/download_menu/download_fukushi/hoiku.files/R8annnai2han.pdf",
+      "quote": "１次利用調整の結果を全員に文書で通知します。（２月下旬頃）"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.kamagaya.chiba.jp/download_menu/download_fukushi/hoiku.files/R8annnai2han.pdf",
+      "quote": "教育・保育給付認定の結果は、認定事務に時間を要することから、保育園等の利用の内定通知と一緒に通知します。"
+    },
+    "firstResult#3": {
+      "url": "https://www.city.kamagaya.chiba.jp/download_menu/download_fukushi/hoiku.files/R8annnai2han.pdf",
+      "quote": "※結果については電話や窓口でのお問い合わせにはお答えしませんので、ご了承ください。"
+    },
+    "secondApply": {
+      "url": "https://www.city.kamagaya.chiba.jp/download_menu/download_fukushi/hoiku.files/R8annnai2han.pdf",
+      "quote": "２次利用調整 締切 令和８年３月 5日（木）"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.kamagaya.chiba.jp/download_menu/download_fukushi/hoiku.files/R8annnai2han.pdf",
+      "quote": "１次利用調整で内定されなかった方については、全員２次利用調整の対象となりますので、再度の申込みは不要です。"
+    },
+    "secondApply#3": {
+      "url": "https://www.city.kamagaya.chiba.jp/download_menu/download_fukushi/hoiku.files/R8annnai2han.pdf",
+      "quote": "１次利用調整で内定されなかった方または１次利用調整の受付期間に転入が決定していなかった方（急な転勤等）が対象になります。"
+    },
+    "secondApply#4": {
+      "url": "https://www.city.kamagaya.chiba.jp/download_menu/download_fukushi/hoiku.files/R8annnai2han.pdf",
+      "quote": "また、１次利用調整で内定されなかった方で、就労や家庭の状況、希望園等に変更があったときには、３月5日（木）までに書類（就労証明書等）を提出してください。"
+    },
+    "secondResult": {
+      "url": "https://www.city.kamagaya.chiba.jp/download_menu/download_fukushi/hoiku.files/R8annnai2han.pdf",
+      "quote": "３月中旬に２次利用調整を行います。"
+    },
+    "secondResult#2": {
+      "url": "https://www.city.kamagaya.chiba.jp/download_menu/download_fukushi/hoiku.files/R8annnai2han.pdf",
+      "quote": "ただし、２次利用調整で内定された方は、市役所から保護者の方へ電話連絡をしますので、その後各保育園等で個別に面接を行っていただきます。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.kamagaya.chiba.jp/download_menu/download_fukushi/hoiku.files/R8annnai2han.pdf",
+      "quote": "○受付締切 入園希望月の前月 5日（5月を除いて土・日・祝日の場合は直前の平日）"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.kamagaya.chiba.jp/download_menu/download_fukushi/hoiku.files/R8annnai2han.pdf",
+      "quote": "教育・保育給付認定、入園申込み 年間を通して受付をしています。"
+    },
+    "documents.0": {
+      "url": "https://www.city.kamagaya.chiba.jp/download_menu/download_fukushi/hoiku.files/R8annnai2han.pdf",
+      "quote": "□【様式1】教育・保育給付認定申請書兼保育の利用申込書 DL可"
+    },
+    "documents.1": {
+      "url": "https://www.city.kamagaya.chiba.jp/download_menu/download_fukushi/hoiku.files/R8annnai2han.pdf",
+      "quote": "□【様式2】家族の状況調書 DL可"
+    },
+    "documents.2": {
+      "url": "https://www.city.kamagaya.chiba.jp/download_menu/download_fukushi/hoiku.files/R8annnai2han.pdf",
+      "quote": "□【様式3】提出書類の確認票 DL可"
+    },
+    "documents.3": {
+      "url": "https://www.city.kamagaya.chiba.jp/download_menu/download_fukushi/hoiku.files/R8annnai2han.pdf",
+      "quote": "□【様式4】児童の健康状況調書（※１） DL可"
+    },
+    "documents.4": {
+      "url": "https://www.city.kamagaya.chiba.jp/download_menu/download_fukushi/hoiku.files/R8annnai2han.pdf",
+      "quote": "□【様式5】教育・保育給付認定、保育の利用申込みに関する確認票 及び同意書 DL可"
+    },
+    "documents.5": {
+      "url": "https://www.city.kamagaya.chiba.jp/download_menu/download_fukushi/hoiku.files/R8annnai2han.pdf",
+      "quote": "□ 保育を必要とする事由を確認するための書類（父・母）"
+    },
+    "documents.5#2": {
+      "url": "https://www.city.kamagaya.chiba.jp/download_menu/download_fukushi/hoiku.files/R8annnai2han.pdf",
+      "quote": "・就労証明書（※２ ※３） DL可 注）育児休業を取得中の方は、育児休業に関する項目が記載されたもの"
+    },
+    "documents.5#3": {
+      "url": "https://www.city.kamagaya.chiba.jp/download_menu/download_fukushi/hoiku.files/R8annnai2han.pdf",
+      "quote": "※書類は返却できません。証明書類は、希望入園月から６か月以内に証明されたもののみ有効です。"
+    },
+    "documents.6": {
+      "url": "https://www.city.kamagaya.chiba.jp/download_menu/download_fukushi/hoiku.files/R8annnai2han.pdf",
+      "quote": "・申請者のマイナンバーカードまたは申請者のマイナンバーの 分かるものと来庁者の身分証明書"
+    },
+    "documents.7": {
+      "url": "https://www.city.kamagaya.chiba.jp/download_menu/download_fukushi/hoiku.files/R8annnai2han.pdf",
+      "quote": "□ ＜４月申し込みの方のみ＞ 兄弟姉妹が新年度から新しく幼稚園へ入園する場合 ・入園証明書等 ※任意の書式可（入園許可証写し等も可）"
+    },
+    "interview": {
+      "url": "https://www.city.kamagaya.chiba.jp/download_menu/download_fukushi/hoiku.files/R8annnai2han.pdf",
+      "quote": "内定された方は、各保育園等で説明会と面接を行います。"
+    },
+    "interview#2": {
+      "url": "https://www.city.kamagaya.chiba.jp/download_menu/download_fukushi/hoiku.files/R8annnai2han.pdf",
+      "quote": "面接・健康チェック・説明を受けない場合は、内定取消となることがあります。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.kamagaya.chiba.jp/download_menu/download_fukushi/hoiku.files/R8annnai2han.pdf",
+      "quote": "「保育の利用申込書」の中の「※育児休業中の方」で、「育児休業の延長を許容する」にチェックを記載した場合、利用調整の点数を減点し、優先順位を下げることができます。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.kamagaya.chiba.jp/download_menu/download_fukushi/hoiku.files/R8annnai2han.pdf",
+      "quote": "※チェックを記載しても必ずしも保留が確定するものではありません。"
+    },
+    "notes.0": {
+      "url": "https://www.city.kamagaya.chiba.jp/download_menu/download_fukushi/hoiku.files/R8annnai2han.pdf",
+      "quote": "締切日までに全ての書類の提出がないと、教育・保育給付認定の対象外となるため、利用調整（入園選考）できませんのでお気をつけください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.kamagaya.chiba.jp/download_menu/download_fukushi/hoiku.files/R8annnai2han.pdf",
+      "quote": "また、すでに申し込んでいる内容（希望園の追加等）を変更する場合も、12月１２日（金）が締切となります。"
+    },
+    "notes.2": {
+      "url": "https://www.city.kamagaya.chiba.jp/download_menu/download_fukushi/hoiku.files/R8annnai2han.pdf",
+      "quote": "保育園等を申込む時は、見学をして施設の説明を聞き、運営規程等（開園日、開園時間、職員体制など）の確認をしてください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.kamagaya.chiba.jp/download_menu/download_fukushi/hoiku.files/R8annnai2han.pdf",
+      "quote": "※受付期間には出生前でも、入園希望月の１日には受入年齢に達していれば申込みできます。"
+    },
+    "notes.4": {
+      "url": "https://www.city.kamagaya.chiba.jp/download_menu/download_fukushi/hoiku.files/R8annnai2han.pdf",
+      "quote": "・入園となった月の翌月15日までに復職していただきます。"
+    },
+    "notes.5": {
+      "url": "https://www.city.kamagaya.chiba.jp/download_menu/download_fukushi/hoiku.files/R8annnai2han.pdf",
+      "quote": "申込書の有効期限は、申込日から令和９年３月入園分までです。令和９年４月以降も入園を希望する方は別途申込みが必要です。"
+    }
+  },
+  "sources": [
+    {
+      "label": "鎌ケ谷市「保育関連（幼児保育課）」",
+      "url": "https://www.city.kamagaya.chiba.jp/download_menu/download_fukushi/hoiku.html"
+    },
+    {
+      "label": "鎌ケ谷市「令和8年度保育園等利用申込みのご案内」",
+      "url": "https://www.city.kamagaya.chiba.jp/download_menu/download_fukushi/hoiku.files/R8annnai2han.pdf"
+    }
+  ]
+}

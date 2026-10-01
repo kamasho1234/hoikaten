@@ -3,18 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "kani",
-    title: "可児市の保活スケジュール　令和8年度4月入園の流れ",
-    description: "可児市の認可保育施設の申込時期・選考の流れ・結果通知の時期をわかりやすく解説。令和8年度4月入園のスケジュールを中心にまとめました。",
-    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>令和8年度4月入園のスケジュール</h2><p>可児市は岐阜県中部に位置し、人口約10万人の市です。名古屋への通勤圏として知られるベッドタウンです。花フェスタ記念公園が有名で、観光地としても知られています。申込先は可児市こども課です。</p><h3>一次利用調整</h3><table><tr><th>項目</th><th>日程</th></tr><tr><td>申込受付期間</td><td>令和7年10月中旬〜11月上旬</td></tr><tr><td>結果通知</td><td>令和8年1月中旬</td></tr></table><h3>二次利用調整</h3><table><tr><th>項目</th><th>日程</th></tr><tr><td>申込受付期間</td><td>令和8年2月上旬〜2月中旬</td></tr><tr><td>結果通知</td><td>令和8年3月上旬</td></tr></table><div class="point-box"><p><strong>ポイント</strong></p><p>可児市は20点制（父母各10点最大）で選考します。名古屋通勤圏のベッドタウンで、家族層が多く流入しています。フルタイム就労で10点が基本ラインとなります。</p></div>`,
-    publishedAt: "2026-06-01",
-    popularity: 40,
-  },
-  {
     slug: "hokatsu-mistakes",
     citySlug: "kani",
     title: "可児市の保活でよくある失敗と対策5選",

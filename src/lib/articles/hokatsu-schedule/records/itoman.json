@@ -1,0 +1,202 @@
+{
+  "citySlug": "itoman",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "糸満市「令和8年度 教育・保育施設等の利用申込について」",
+    "url": "https://www.city.itoman.lg.jp/soshiki/17/32254.html"
+  },
+  "fiscalYear": "R8",
+  "guideRelease": "利用案内冊子（令和7年9月作成）を保育こども園課で配布し、冊子の内容を市ホームページにも掲載。申請書様式は保育こども園課のホームページからダウンロードできる",
+  "firstApply": "令和7年10月14日（火）〜令和7年11月2日（日）。受付は平日の午前9時〜11時・午後1時〜4時で、11月2日（日）に限り休日受付。郵送は締切日消印有効",
+  "applyMethods": "糸満市役所2階市民ギャラリーの申込会場に直接持参するか、郵送（締切日消印有効）。郵送でも書類不備があると受理されない",
+  "firstResult": "令和8年2月中旬（予定）に封書で内定通知または保留通知を送付。利用決定通知は令和8年3月下旬",
+  "secondApply": "二次調整として令和7年11月4日（火）〜令和8年1月30日（金）に受付。二次調整後の辞退者等で生じた枠の追加調整は令和8年3月6日（金）まで",
+  "midYearDeadline": "5月以降入所は令和7年11月4日以降随時受付。締切は入所希望月の前々月の末日（例: 令和8年5月1日入所は令和8年3月末日）で、郵送は期限内の消印が必要",
+  "documents": [
+    "支給認定申請書 兼 施設利用申込書",
+    "利用希望施設チェックシート",
+    "生育状況調査票",
+    "教育・保育施設等利用における重要確認事項",
+    "マイナンバー届出書",
+    "保育が必要な理由を証明する書類（雇用されている方は就労証明書。育児休業から復帰する場合は復帰日の記載が必要。自営業の方は自営業（内職等）申立書と税申告書等の写し）",
+    "各種証明書の有効期限は証明日から3か月"
+  ],
+  "interview": "入所内定後に医療機関で健康診断を受け、内定施設との面談日に健康診断書を提出する。面談日は施設と直接調整する",
+  "ikukyu": "申込児童の育児休業中の申込は復職が前提で、4月利用なら5月1日までに復職が必要。内定後に辞退した場合は待機証明書ではなく入所保留通知書が発行され、保留理由の欄に内定を辞退した旨が記載される（辞退1回につき1点減点）",
+  "notes": [
+    "希望順位は調整に影響せず、希望園を1園に絞っても優先されない。希望する施設数に制限は無い",
+    "書類に不備があり期限内に解消されない場合は利用調整されない",
+    "就労先の本社が県外にある等で就労証明書の取得に時間がかかる人は早めに準備する",
+    "出生届の提出後に申し込む。受け入れは入所決定月初日の月齢で6か月（一部施設は5か月）から",
+    "申込は年度末まで有効で、翌年度も利用を希望する場合は改めて申込が必要",
+    "私立認定こども園・私立幼稚園（1号）は各施設で申込を受け付ける"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.itoman.lg.jp/soshiki/17/32254.html",
+      "quote": "（令和8年4月入所（一次調整、二次調整）の申込は、終了いたしました。）"
+    },
+    "guideRelease": {
+      "url": "https://www.city.itoman.lg.jp/soshiki/17/32254.html",
+      "quote": "パンフレット（利用案内冊子）は、保育こども園課にて配布しております。"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.itoman.lg.jp/uploaded/attachment/19326.pdf",
+      "quote": "第１版(令和７年９月作成)"
+    },
+    "guideRelease#3": {
+      "url": "https://www.city.itoman.lg.jp/uploaded/attachment/19326.pdf",
+      "quote": "※申請書様式は、糸満市保育こども園課のホームページよりダウンロードできます。"
+    },
+    "firstApply": {
+      "url": "https://www.city.itoman.lg.jp/uploaded/attachment/19326.pdf",
+      "quote": "受付期間： 令和７年１０月１４日（火）～令和７年１１月２日（日）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.itoman.lg.jp/uploaded/attachment/19326.pdf",
+      "quote": "◆令和７年１１月２日（日）に限り休日受付します。"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.itoman.lg.jp/uploaded/attachment/19326.pdf",
+      "quote": "4月1日入所 午前：9時から11時、午後：13時から16時"
+    },
+    "firstApply#4": {
+      "url": "https://www.city.itoman.lg.jp/uploaded/attachment/19326.pdf",
+      "quote": "または郵送（締切日消印有効）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.itoman.lg.jp/uploaded/attachment/19326.pdf",
+      "quote": "糸満市役所２階市民ギャラリー申込会場に直接持参"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.itoman.lg.jp/uploaded/attachment/19326.pdf",
+      "quote": "郵送での受付を行っておりますが、書類不備がある場合は受理できませんので、お早めにお手続きください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.itoman.lg.jp/uploaded/attachment/19326.pdf",
+      "quote": "４月入所希望で利用申込をした方（一次調整）については、２月中旬（予定）に封書で内定通知又は保留通知をお送りします。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.itoman.lg.jp/uploaded/attachment/19326.pdf",
+      "quote": "令和7年11月2日（日） 内定: 令和8年2月中旬"
+    },
+    "firstResult#3": {
+      "url": "https://www.city.itoman.lg.jp/uploaded/attachment/19326.pdf",
+      "quote": "※16時00分まで 令和8年3月下旬"
+    },
+    "secondApply": {
+      "url": "https://www.city.itoman.lg.jp/soshiki/17/32254.html",
+      "quote": "令和7年11月4日（火曜日）　から　令和8年1月30日（金曜日）　まで"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.itoman.lg.jp/soshiki/17/32254.html",
+      "quote": "二次調整後の辞退者等により生じた受入枠での追加調整となります。"
+    },
+    "secondApply#3": {
+      "url": "https://www.city.itoman.lg.jp/soshiki/17/32254.html",
+      "quote": "令和8年3月6日（金曜日）までにお申し込みください。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.itoman.lg.jp/soshiki/17/32254.html",
+      "quote": "令和7年11月4日（火曜日）以降随時受付中です。"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.itoman.lg.jp/uploaded/attachment/19326.pdf",
+      "quote": "令和8年5月1日 令和8年3月末日 令和8年4月下旬"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.itoman.lg.jp/uploaded/attachment/19326.pdf",
+      "quote": "※郵送は各受付期限内の消印が必要となります。"
+    },
+    "documents.0": {
+      "url": "https://www.city.itoman.lg.jp/uploaded/attachment/19326.pdf",
+      "quote": "◆支給認定申請書 兼 施設利用申込書 ①"
+    },
+    "documents.1": {
+      "url": "https://www.city.itoman.lg.jp/uploaded/attachment/19326.pdf",
+      "quote": "◆利用希望施設チェックシート ※私立こども園(１号)、幼稚園(１号)希望者は提出不要です"
+    },
+    "documents.2": {
+      "url": "https://www.city.itoman.lg.jp/uploaded/attachment/19326.pdf",
+      "quote": "◆生育状況調査票 ②"
+    },
+    "documents.3": {
+      "url": "https://www.city.itoman.lg.jp/uploaded/attachment/19326.pdf",
+      "quote": "◆教育・保育施設等利用における重要確認事項 ③"
+    },
+    "documents.4": {
+      "url": "https://www.city.itoman.lg.jp/uploaded/attachment/19326.pdf",
+      "quote": "◆マイナンバー届出書 ③‐マ"
+    },
+    "documents.5": {
+      "url": "https://www.city.itoman.lg.jp/uploaded/attachment/19326.pdf",
+      "quote": "※育児休業から復帰する場合は、復帰日の記載が必要"
+    },
+    "documents.5#2": {
+      "url": "https://www.city.itoman.lg.jp/uploaded/attachment/19326.pdf",
+      "quote": "・自営業収入の分かる税申告書、開業届、営業許可"
+    },
+    "documents.6": {
+      "url": "https://www.city.itoman.lg.jp/uploaded/attachment/19326.pdf",
+      "quote": "各種証明書の有効期限は証明日から３か月です。"
+    },
+    "interview": {
+      "url": "https://www.city.itoman.lg.jp/uploaded/attachment/19326.pdf",
+      "quote": "□医療機関で健康診断を受け、面談日に内定施設へご提出ください。"
+    },
+    "interview#2": {
+      "url": "https://www.city.itoman.lg.jp/uploaded/attachment/19326.pdf",
+      "quote": "※面談日については、直接施設と調整を行ってください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.itoman.lg.jp/uploaded/attachment/19326.pdf",
+      "quote": "利用開始日の翌月１日までに復職が必要です。よって、４月利用については５月1日までに復職する必要があります。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.itoman.lg.jp/uploaded/attachment/19326.pdf",
+      "quote": "利用内定後に入所を辞退した場合は、辞退１回につき１点の減点となります。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.itoman.lg.jp/uploaded/attachment/19326.pdf",
+      "quote": "なお、入所保留となった理由の欄に「内定を辞退した」旨を記載いたします。"
+    },
+    "notes.0": {
+      "url": "https://www.city.itoman.lg.jp/uploaded/attachment/19326.pdf",
+      "quote": "希望園を１園のみに絞ったからといって優先されるということはありません。"
+    },
+    "notes.1": {
+      "url": "https://www.city.itoman.lg.jp/uploaded/attachment/19326.pdf",
+      "quote": "期限内に不備が解消さ れない場合は利用調整いたしません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.itoman.lg.jp/uploaded/attachment/19326.pdf",
+      "quote": "□就労先の本社が県外にある等の理由により就労証明書の取得に時間がかかる方は、早めの"
+    },
+    "notes.3": {
+      "url": "https://www.city.itoman.lg.jp/uploaded/attachment/19326.pdf",
+      "quote": "ただし、受け入れは入所決定月初日の月齢で６ヶ月（一部施設では５ヶ月）からとなるため、利用調整もその受け入れ可能月からが"
+    },
+    "notes.3#2": {
+      "url": "https://www.city.itoman.lg.jp/uploaded/attachment/19326.pdf",
+      "quote": "保育の必要性の認定を受ける必要がありますので、お子さんが生まれて、出生届を提出した後にお申し込みください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.itoman.lg.jp/uploaded/attachment/19326.pdf",
+      "quote": "○提出した申込書は年度内の調整において継続して有効です。次の年度の入所は改めて申込みが必要です。"
+    },
+    "notes.5": {
+      "url": "https://www.city.itoman.lg.jp/uploaded/attachment/19326.pdf",
+      "quote": "私立認定こども園・幼稚園（１号）の新規及び在園継続の申込は各施設にて受け付けます。"
+    }
+  },
+  "sources": [
+    {
+      "label": "糸満市「令和8年度 教育・保育施設等の利用申込について」",
+      "url": "https://www.city.itoman.lg.jp/soshiki/17/32254.html"
+    },
+    {
+      "label": "糸満市「令和8年度 教育・保育施設等利用案内（P01-P27_封筒・表紙・利用案内）」",
+      "url": "https://www.city.itoman.lg.jp/uploaded/attachment/19326.pdf"
+    }
+  ]
+}

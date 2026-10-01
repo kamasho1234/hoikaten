@@ -1,0 +1,222 @@
+{
+  "citySlug": "koganei",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "小金井市「令和9年度の保育施設等の入所申請について」",
+    "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoiku-nyuusyo/4nyuusyo/nyuusyo.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年10月14日（水）〜11月4日（水）午後5時（保育課必着）。変更・不足書類の提出期限は令和8年11月20日（金）午後5時（保育課必着）",
+  "applyMethods": "電子申請か郵送で保育課（〒184-8504 小金井市本町6-6-3 子ども家庭部保育課保育係宛）に提出する。保育課窓口での申請はできない。市役所第二庁舎1階エントランスホールの受付ポストにも提出できる。受付後に「受付確認票」が郵送される",
+  "firstResult": "令和9年1月末（予定）に郵送。発送日は小金井市公式LINE・保育課Xで知らせる",
+  "secondApply": "令和9年2月1日（月）〜2月15日（月）午後5時必着（予定）。一次募集の結果、空きが生じた場合のみ実施",
+  "secondResult": "令和9年3月上旬から随時。内定者には電話で連絡し、利用保留（入所待機）の人には郵送する",
+  "midYearDeadline": "年度途中の入所は各月1日入所のみで、締切は月ごとに決まっている（例: 令和9年5月入所は4月9日、6月入所は5月10日、7月入所は6月10日。いずれも午後5時必着）",
+  "documents": [
+    "提出書類確認票（電子申請の場合は不要）",
+    "教育・保育給付認定申請書兼保育施設等利用申請書と児童状況申告書（申請する子どもごとに1部）",
+    "重要事項確認書と個人番号（マイナンバー）関係書類貼付台紙（世帯で1部。マイナンバーの台紙は申請者となる保護者分のみ）",
+    "郵送で申請する場合は返信用封筒（長3封筒に返送先住所・氏名を記載。切手は不要）",
+    "就労証明書（発行日から3か月以内のもの。就労先、派遣社員は派遣元に発行を依頼する）",
+    "自営の場合は就労状況申告書（自営用）と、自営での就労内容を証明できる書類（登記簿謄本、個人事業主の開廃業届出書、営業許可証等の写し）",
+    "基準日に育休（産休）中の場合は「育児休業（産前・産後休業）中の利用申請にかかる確認書」"
+  ],
+  "interview": "申請前に子どもを連れて希望する保育園を見学することが勧められている（見学方法は各保育園に問い合わせる）。内定後、内定した保育園で面談と健康診断がある",
+  "ikukyu": "「育児休業（産前・産後休業）中の利用申請にかかる確認書」の【育児休業延長の許容について】欄で「はい」にチェックすると、利用調整で「世帯調整指数－100」が適用される。利用保留を約束するものではなく、希望園に空きがあれば内定となる。結果通知（利用保留）は申請した最初の月のみ発行",
+  "notes": [
+    "小金井市に転入予定がない市外在住者は、令和9年4月入所の一次募集には申請できず、二次募集から申請できる",
+    "4月入所（一次募集）に限り出生前の仮申請ができる。出産予定日が令和9年2月22日までの人に限り、4月入所ができるのは令和9年2月3日までに生まれた場合のみ",
+    "募集人数は令和8年10月9日に市報と市HPで公表され、倍率は令和8年11月10日に市HPで公表予定",
+    "育休中に申請した場合、令和9年4月入所なら令和9年4月30日までに育児休業を終了し、令和9年5月1日までに復職する必要がある",
+    "入所案内と申請書類は市HPからダウンロードできるほか、保育課窓口や東小金井駅開設記念会館（マロンホール）等で配布している",
+    "令和9年2月2日（火）までの内定辞退で空いた枠は、待機者から繰上げ内定を行い、電話で連絡する"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoiku-nyuusyo/4nyuusyo/nyuusyo.html",
+      "quote": "令和9年度（令和9年4月から令和10年3月まで）に保育施設の利用を希望される方は、令和9年度保育施設等入所案内をご確認のうえ"
+    },
+    "firstApply": {
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoiku-nyuusyo/4nyuusyo/nyuusyo.files/R9annai.pdf",
+      "quote": "一次 令和8年10月14日（水） ～ 11月4日（水）午後5時必着"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoiku-nyuusyo/4nyuusyo/nyuusyo.files/R9annai.pdf",
+      "quote": "令和8年11月20日(金)午後５時まで(保育課必着)"
+    },
+    "applyMethods": {
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoiku-nyuusyo/4nyuusyo/nyuusyo.html",
+      "quote": "申請書類を揃えて、受付期間内に保育課まで郵送または電子にてご申請ください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoiku-nyuusyo/4nyuusyo/nyuusyo.files/R9annai.pdf",
+      "quote": "※保育課窓口での申請はできません。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoiku-nyuusyo/4nyuusyo/nyuusyo.files/R9annai.pdf",
+      "quote": "小金井市役所第二庁舎1階エントランスホールに受付ポストを設置しますので、そちらにご提出いただくことも可能です。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoiku-nyuusyo/4nyuusyo/nyuusyo.files/R9annai.pdf",
+      "quote": "保育課にて申請受付後、「受付確認票」を郵送します。必ずご確認ください。"
+    },
+    "applyMethods#5": {
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoiku-nyuusyo/4nyuusyo/nyuusyo.files/R9annai.pdf",
+      "quote": "東京都小金井市本町６丁目６番３号 小金井市子ども家庭部保育課保育係 宛"
+    },
+    "firstResult": {
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoiku-nyuusyo/4nyuusyo/nyuusyo.files/R9annai.pdf",
+      "quote": "郵送いたします。※郵送後、発送日を小金井市公式LINE・保育課Xでお知らせいたします。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoiku-nyuusyo/4nyuusyo/nyuusyo.files/R9annai.pdf",
+      "quote": "令和９年１月末（予定）"
+    },
+    "secondApply": {
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoiku-nyuusyo/4nyuusyo/nyuusyo.files/R9annai.pdf",
+      "quote": "二次 令和9年2月1日（月） ～ 2月15日（月）午後5時必着"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoiku-nyuusyo/4nyuusyo/nyuusyo.files/R9annai.pdf",
+      "quote": "(4)二次募集（一次募集の結果、空きが生じた場合のみ実施）"
+    },
+    "secondApply#3": {
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoiku-nyuusyo/4nyuusyo/nyuusyo.files/R9annai.pdf",
+      "quote": "【予定】令和9年2月1日(月)"
+    },
+    "secondResult": {
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoiku-nyuusyo/4nyuusyo/nyuusyo.files/R9annai.pdf",
+      "quote": "内定者には電話で連絡いたします。"
+    },
+    "secondResult#2": {
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoiku-nyuusyo/4nyuusyo/nyuusyo.files/R9annai.pdf",
+      "quote": "令和９年３月上旬から随時 利用保留（入所待機）の方には郵送いたします。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoiku-nyuusyo/4nyuusyo/nyuusyo.files/R9annai.pdf",
+      "quote": "年度途中の入所申請は、各月１日入所のみです。月途中の選考は行っておりません。"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoiku-nyuusyo/4nyuusyo/nyuusyo.files/R9annai.pdf",
+      "quote": "令和９年５月 4/1(木)～4/9(金)午後5時必着"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoiku-nyuusyo/4nyuusyo/nyuusyo.files/R9annai.pdf",
+      "quote": "６月 4/12(月)～5/10(月)午後5時必着"
+    },
+    "midYearDeadline#4": {
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoiku-nyuusyo/4nyuusyo/nyuusyo.files/R9annai.pdf",
+      "quote": "７月 5/11(火)～6/10(木)午後5時必着"
+    },
+    "documents.0": {
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoiku-nyuusyo/4nyuusyo/nyuusyo.html",
+      "quote": "提出書類確認票（電子申請の場合は不要）"
+    },
+    "documents.1": {
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoiku-nyuusyo/4nyuusyo/nyuusyo.files/R9annai.pdf",
+      "quote": "※②③は申請するお子様ごとに1部ずつ必要です。"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoiku-nyuusyo/4nyuusyo/nyuusyo.files/R9annai.pdf",
+      "quote": "教育・保育給付認定申請書兼保育施設等利用申請書"
+    },
+    "documents.1#3": {
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoiku-nyuusyo/4nyuusyo/nyuusyo.files/R9annai.pdf",
+      "quote": "③ 児童状況申告書 P78、79"
+    },
+    "documents.2": {
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoiku-nyuusyo/4nyuusyo/nyuusyo.files/R9annai.pdf",
+      "quote": "①④⑤⑥は世帯で1部で結構です。"
+    },
+    "documents.2#2": {
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoiku-nyuusyo/4nyuusyo/nyuusyo.files/R9annai.pdf",
+      "quote": "個人番号（マイナンバー）関係書類貼付台紙 P81"
+    },
+    "documents.2#3": {
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoiku-nyuusyo/4nyuusyo/nyuusyo.files/R9annai.pdf",
+      "quote": "（申請者となる保護者分のみで結構です。）"
+    },
+    "documents.3": {
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoiku-nyuusyo/4nyuusyo/nyuusyo.html",
+      "quote": "郵送申請をされる場合は、1から5までの書類と併せて、返信用封筒（長3封筒（横12センチメートル、縦23.5センチメートル）で返送先住所、氏名を記載したもの）を提出してください。切手貼付は不要です。"
+    },
+    "documents.4": {
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoiku-nyuusyo/4nyuusyo/nyuusyo.files/R9annai.pdf",
+      "quote": "就労証明書（発行日から3か月以内のもの） P83"
+    },
+    "documents.4#2": {
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoiku-nyuusyo/4nyuusyo/nyuusyo.files/R9annai.pdf",
+      "quote": "※就労先（派遣社員の方は派遣元）に発行を依頼してください。"
+    },
+    "documents.5": {
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoiku-nyuusyo/4nyuusyo/nyuusyo.html",
+      "quote": "自営の場合は、併せて下記の「8　就労状況申告書（自営用）」及び自営での就労内容を証明できる書類（登記簿謄本、個人事業主の開廃業届出書、営業許可証等の写し）を提出してください。"
+    },
+    "documents.6": {
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoiku-nyuusyo/4nyuusyo/nyuusyo.files/R9annai.pdf",
+      "quote": "①育児休業（産前・産後休業）中の利用申請にかかる確認書"
+    },
+    "interview": {
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoiku-nyuusyo/4nyuusyo/nyuusyo.files/R9annai.pdf",
+      "quote": "大切なお子様を預ける上で、事前に希望する保育園にお子様を連れて見学に行くことをおすすめしています。"
+    },
+    "interview#2": {
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoiku-nyuusyo/4nyuusyo/nyuusyo.files/R9annai.pdf",
+      "quote": "見学方法等は各保育園にお問合せください。"
+    },
+    "interview#3": {
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoiku-nyuusyo/4nyuusyo/nyuusyo.files/R9annai.pdf",
+      "quote": "内定した保育園で 利用不可 面談 健康診断"
+    },
+    "ikukyu": {
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoiku-nyuusyo/4nyuusyo/nyuusyo.files/R9annai.pdf",
+      "quote": "【育児休業延長の許容について】欄の「はい」にチェックをした場合、利用調整において「世帯調整指数－１００」を適用します。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoiku-nyuusyo/4nyuusyo/nyuusyo.files/R9annai.pdf",
+      "quote": "「はい」にチェックをしていただいても、利用保留（入所待機）を約束するものではありません。（希望保育園に空きがある場合は、内定となります。）"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoiku-nyuusyo/4nyuusyo/nyuusyo.files/R9annai.pdf",
+      "quote": "結果通知（利用保留）は申請を行った最初の月のみ発行しております。"
+    },
+    "notes.0": {
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoiku-nyuusyo/4nyuusyo/nyuusyo.html",
+      "quote": "令和9年4月入所の一次募集は申請いただけません。二次募集から申請が可能となります。"
+    },
+    "notes.1": {
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoiku-nyuusyo/4nyuusyo/nyuusyo.files/R9annai.pdf",
+      "quote": "仮申請が出来るのは、出産予定日が令和9年2月22日までの方に限ります。ただし、令和9年2月3日までに生まれた場合のみ、4月入所が可能です。"
+    },
+    "notes.2": {
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoiku-nyuusyo/4nyuusyo/nyuusyo.files/R9annai.pdf",
+      "quote": "※募集人数は令和8年10月9日に市報及び市HPにてお知らせいたします。"
+    },
+    "notes.2#2": {
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoiku-nyuusyo/4nyuusyo/nyuusyo.files/R9annai.pdf",
+      "quote": "令和8年11月10日(火) 倍率発表（市HPで公表予定）"
+    },
+    "notes.3": {
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoiku-nyuusyo/4nyuusyo/nyuusyo.files/R9annai.pdf",
+      "quote": "※令和9年4月入所の場合、令和9年4月30日までに育児休業を終了し、令和9年5月1日までに復職"
+    },
+    "notes.4": {
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoiku-nyuusyo/4nyuusyo/nyuusyo.html",
+      "quote": "入所案内及び申請書類は、下記からデータをダウンロードできるほか、保育課窓口及び東小金井駅開設記念会館（ マロンホール）等にて配布しています。"
+    },
+    "notes.5": {
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoiku-nyuusyo/4nyuusyo/nyuusyo.files/R9annai.pdf",
+      "quote": "令和９年２月２日（火）までの内定辞退による空きについては、待機者から繰上げ内定を行います。繰上げ内定の連絡は、電話にて行います。"
+    }
+  },
+  "sources": [
+    {
+      "label": "小金井市「令和9年度の保育施設等の入所申請について」",
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoiku-nyuusyo/4nyuusyo/nyuusyo.html"
+    },
+    {
+      "label": "小金井市「令和9年度保育施設等入所案内（案内編）」",
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoiku-nyuusyo/4nyuusyo/nyuusyo.files/R9annai.pdf"
+    }
+  ]
+}

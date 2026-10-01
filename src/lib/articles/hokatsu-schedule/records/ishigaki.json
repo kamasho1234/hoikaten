@@ -1,0 +1,164 @@
+{
+  "citySlug": "ishigaki",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "石垣市「令和9年度 幼稚園・認定こども園・保育所等入園（所）申込について」",
+    "url": "https://www.city.ishigaki.okinawa.jp/soshiki/kosodate_shien/1/2/11409.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "保育所・認定こども園等（2号・3号）は令和8年10月1日（木曜日）〜10月16日（金曜日）。10月11日（日曜日）に休日受付あり。公立認定こども園・公立幼稚園（1号）は令和8年10月1日（木曜日）〜10月30日（金曜日）",
+  "applyMethods": "受付期間内に必要書類をそろえて石垣市子育て支援課（57〜60番窓口）に提出する。受付時間は9時〜17時。郵送での受付は原則行わない（転入予定の場合を除く）",
+  "firstResult": "新規・転園は令和9年1月中旬（予定）に通知。継続の場合は内定通知の発行はない",
+  "secondApply": "令和9年2月中旬以降（定員に空きがある場合）。詳細は石垣市ホームページに掲載",
+  "midYearDeadline": "5月以降の入所は希望月ごとに受付期限がある（例: 5月入所は令和9年3月1日〜4月1日、6月入所は令和9年4月1日〜5月6日）",
+  "documents": [
+    "支給認定書兼特定教育・保育施設入園（所）申込書（2号・3号、両面）",
+    "利用希望施設記入用紙（2号・3号のみ）",
+    "重要事項確認及び同意書（両面）",
+    "保育の必要性を証明する書類（就労証明書・就労状況申告書、求職活動申立書、診断書など）。令和9年4月時点の保護者の状況がわかるものを保護者ごとに1つ以上",
+    "マイナンバーカードまたはマイナンバーが確認できる書類と、身分を証明する書類の写し",
+    "各種証明書類の有効期限は発効日（証明日）から3か月以内"
+  ],
+  "interview": "入所内定者（新規・転園）には各施設から面談等の日時の知らせがあり、面接の際に健康診断書等を提出する。施設の見学は事前に施設へ連絡が必要",
+  "ikukyu": "育児休業を要件とする場合、入所した翌月以内に休業前と同じ勤務条件で復職することが入所の条件。保育所等に入れなかったことを理由とする育児休業給付金の延長手続きは厚生労働省の案内を参照するよう案内している",
+  "notes": [
+    "現在の園の継続を希望する人、転園希望、新規、令和8年度入所保留中の人も申込みが必要",
+    "書類不備の場合は受付できない。きょうだいで申請する場合は人数分の添付書類が必要で、窓口でのコピーは行わない",
+    "1号と2号・3号の併願はできない",
+    "申込後の利用希望施設の変更（追加・削除）は令和8年10月16日（金曜日）17時15分まで",
+    "申込受付後に保育を必要とする要件や世帯状況が変わった場合は令和8年12月1日（火）までに変更申請する。2日以降の変更は1次選考の点数に反映されない",
+    "4月入所の一次選考で内定した施設を辞退すると、二次選考終了後に希望施設に空きがある場合に限り利用調整となる"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.ishigaki.okinawa.jp/soshiki/kosodate_shien/1/2/11409.html",
+      "quote": "受付期間内にお申込みいただいた方が令和9年4月1日入所審査の対象となります。"
+    },
+    "firstApply": {
+      "url": "https://www.city.ishigaki.okinawa.jp/soshiki/kosodate_shien/1/2/11409.html",
+      "quote": "令和8年10月1日（木曜日） ～10月16日（金曜日) 【休日受付】 10月11日（日曜日） 令和8年10月1日（木曜日） ～10月30日（金曜日）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.ishigaki.okinawa.jp/soshiki/kosodate_shien/1/2/11409.html",
+      "quote": "2号・3号 1号（公立） 認定こども園・保育園（所）等 認定こども園 幼稚園"
+    },
+    "applyMethods": {
+      "url": "https://www.city.ishigaki.okinawa.jp/soshiki/kosodate_shien/1/2/11409.html",
+      "quote": "受付時間 9：00～17：00 受付場所 石垣市子育て支援課（57～60番窓口）"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.ishigaki.okinawa.jp/material/files/group/22/R9_annai_zempen.pdf",
+      "quote": "◆原則、郵送での受付は行っていません（転入予定を除く）。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.ishigaki.okinawa.jp/material/files/group/22/R9_annai_zempen.pdf",
+      "quote": "受付期間内に必要書類を揃えて、子育て支援課窓口に提出します。"
+    },
+    "firstResult": {
+      "url": "https://www.city.ishigaki.okinawa.jp/soshiki/kosodate_shien/1/2/11409.html",
+      "quote": "通知時期(予定) 新規・転園：令和9年1月中旬 継続：内定通知の発行はありません。"
+    },
+    "secondApply": {
+      "url": "https://www.city.ishigaki.okinawa.jp/soshiki/kosodate_shien/1/2/11409.html",
+      "quote": "2次受付 (定員に空きがある場合) 令和9年2月中旬以降 ※詳細は石垣市ホームページに掲載します"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.ishigaki.okinawa.jp/material/files/group/22/R9_annai_zempen.pdf",
+      "quote": "5月 令和9年 3月 1日（月） 令和９年 4月 1日（木）"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.ishigaki.okinawa.jp/material/files/group/22/R9_annai_zempen.pdf",
+      "quote": "6月 令和9年 4月 1日（木） 令和９年 5月 ６日（木）"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.ishigaki.okinawa.jp/material/files/group/22/R9_annai_zempen.pdf",
+      "quote": "入所希望月 申込受付開始日 申込受付期限 結果通知時期"
+    },
+    "documents.0": {
+      "url": "https://www.city.ishigaki.okinawa.jp/soshiki/kosodate_shien/1/2/11409.html",
+      "quote": "【2号・3号】支給認定書兼特定教育・保育施設入園（所）申込書（両面）"
+    },
+    "documents.1": {
+      "url": "https://www.city.ishigaki.okinawa.jp/soshiki/kosodate_shien/1/2/11409.html",
+      "quote": "【2・3号のみ】利用希望施設記入用紙"
+    },
+    "documents.2": {
+      "url": "https://www.city.ishigaki.okinawa.jp/soshiki/kosodate_shien/1/2/11409.html",
+      "quote": "【共通】重要事項確認及び同意書（両面）"
+    },
+    "documents.3": {
+      "url": "https://www.city.ishigaki.okinawa.jp/soshiki/kosodate_shien/1/2/11409.html",
+      "quote": "2号・3号認定を希望の方は、令和9年4月時点の保護者の状況を確認できる書類(下記よりいずれか1つ以上)の提出が、保護者ごとに必要です。"
+    },
+    "documents.4": {
+      "url": "https://www.city.ishigaki.okinawa.jp/soshiki/kosodate_shien/1/2/11409.html",
+      "quote": "●マイナンバーカードまたはマイナンバーが確認できる書類・身分を証明する書類の写し"
+    },
+    "documents.5": {
+      "url": "https://www.city.ishigaki.okinawa.jp/material/files/group/22/R9_annai_zempen.pdf",
+      "quote": "◆各種証明書類の有効期限は発効日（証明日）から３ヶ月以内です。"
+    },
+    "interview": {
+      "url": "https://www.city.ishigaki.okinawa.jp/material/files/group/22/R9_annai_zempen.pdf",
+      "quote": "・入所内定者には、各施設から面談等の日時のお知らせがあります。"
+    },
+    "interview#2": {
+      "url": "https://www.city.ishigaki.okinawa.jp/material/files/group/22/R9_annai_zempen.pdf",
+      "quote": "・面接の際に、健康診断書等の提出が必要になります。"
+    },
+    "interview#3": {
+      "url": "https://www.city.ishigaki.okinawa.jp/material/files/group/22/R9_annai_zempen.pdf",
+      "quote": "見学をする際は、事前に施設への連絡が必要です。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.ishigaki.okinawa.jp/material/files/group/22/R9_annai_zempen.pdf",
+      "quote": "育児休業を要件とする場合、入所した翌月以内に休業前と同じ勤務条件で復職することが入所の"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.ishigaki.okinawa.jp/soshiki/kosodate_shien/1/2/11409.html",
+      "quote": "厚生労働省より保育所等に入れなかったことを理由とする育児休業給付金の支給対象期間延長手続きについて案内があります。"
+    },
+    "notes.0": {
+      "url": "https://www.city.ishigaki.okinawa.jp/soshiki/kosodate_shien/1/2/11409.html",
+      "quote": "現在利用している園の継続を希望される方、転園を希望される方、新規申込の方、令和8年度入所保留中となっている方も申込みが必要です。"
+    },
+    "notes.1": {
+      "url": "https://www.city.ishigaki.okinawa.jp/soshiki/kosodate_shien/1/2/11409.html",
+      "quote": "■きょうだいで申請する場合は人数分の添付書類が必要です。窓口でのコピーは行わないため、ご自身でのご用意をお願いします。"
+    },
+    "notes.1#2": {
+      "url": "https://www.city.ishigaki.okinawa.jp/soshiki/kosodate_shien/1/2/11409.html",
+      "quote": "■提出の際には必要書類が揃っているかご確認ください。書類不備の場合は受付できませんので、早めのお申込みをお願いします。"
+    },
+    "notes.2": {
+      "url": "https://www.city.ishigaki.okinawa.jp/soshiki/kosodate_shien/1/2/11409.html",
+      "quote": "■【1号】と【2号・3号】の併願はできませんので、ご注意ください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.ishigaki.okinawa.jp/soshiki/kosodate_shien/1/2/11409.html",
+      "quote": "※変更受付期間は申込受付期間の令和8年10月16日（金曜日）17時15分までです。"
+    },
+    "notes.4": {
+      "url": "https://www.city.ishigaki.okinawa.jp/material/files/group/22/R9_annai_zempen.pdf",
+      "quote": "申込受付後に保育を必要とする要件や世帯状況が変わった場合は令和8年（2026年）12月1日（火）までに変更申請を行ってください。"
+    },
+    "notes.4#2": {
+      "url": "https://www.city.ishigaki.okinawa.jp/material/files/group/22/R9_annai_zempen.pdf",
+      "quote": "2日以降も変更申請は受付けますが、1次選考時の点数の変更は致しかねます（2次選考から変更）。"
+    },
+    "notes.5": {
+      "url": "https://www.city.ishigaki.okinawa.jp/material/files/group/22/R9_annai_zempen.pdf",
+      "quote": "年度開始選考（４月入所）の一次選考で内定した施設を辞退された方については、二次選考終了後、ご希望の施設に空きがある場合に限り、利用調整を行います。"
+    }
+  },
+  "sources": [
+    {
+      "label": "石垣市「令和9年度 幼稚園・認定こども園・保育所等入園（所）申込について」",
+      "url": "https://www.city.ishigaki.okinawa.jp/soshiki/kosodate_shien/1/2/11409.html"
+    },
+    {
+      "label": "石垣市「令和9年度幼稚園・認定こども園・保育所等入園・入所申込案内冊子【全編】」",
+      "url": "https://www.city.ishigaki.okinawa.jp/material/files/group/22/R9_annai_zempen.pdf"
+    }
+  ]
+}

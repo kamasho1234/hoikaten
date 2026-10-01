@@ -1,0 +1,104 @@
+{
+  "citySlug": "izumo",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "出雲市「令和９年度保育所入所申込みの受付について」",
+    "url": "https://www.city.izumo.shimane.jp/www/contents/1787013469951/index.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "入所に必要な書類等の詳細は令和8年10月15日（木）に公開予定",
+  "firstApply": "令和9年4月入所（5月以降に産休・育休から復帰する人を除く）の1次募集。オンラインは令和8年11月11日（水）〜11月30日（月）、窓口は令和8年11月16日（月）〜11月30日（月）",
+  "applyMethods": "オンライン申請、または市役所保育幼稚園課・各行政センターの窓口で申し込む",
+  "secondApply": "令和9年4月入所と5月以降の産休・育休復帰予約の2次募集。オンラインは令和9年1月4日（月）〜1月21日（木）、窓口は令和9年1月7日（木）〜1月21日（木）",
+  "midYearDeadline": "入所希望月の前月の締切日までに申し込む",
+  "ikukyu": "施設利用保留通知書は初回審査と申込内容の変更手続き後の初回審査のときだけ送付される。2回目以降の審査で未決定となった保留通知書が必要な場合は電子申請で請求する",
+  "notes": [
+    "掲載の日程は予定で、決定内容は広報や市ホームページ等で改めて確認するよう案内されている",
+    "令和8年10月20日発行の広報11月号に入所申込受付案内が掲載される予定",
+    "内定した人には内定施設名を記載した施設利用内定通知書が郵送され、内定者の問い合わせIDが市ホームページで公開される"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.izumo.shimane.jp/www/contents/1787013469951/index.html",
+      "quote": "令和９年度の出雲市認可保育所・認定こども園（保育所部分） ・小規模保育事業施設（合わせて「保育所」といいます。） の入所申込みを、下記の日程でオンライン申請または市役所保育幼稚園課・各行政センターで受け付けます。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.izumo.shimane.jp/www/contents/1787013469951/index.html",
+      "quote": "入所に必要な書類等の詳細は、令和８年１０月１５日（木） に公開しますので、しばらくお待ちください。"
+    },
+    "firstApply": {
+      "url": "https://www.city.izumo.shimane.jp/www/contents/1787013469951/index.html",
+      "quote": "令和9年４月入所（５月以降産休育休復帰除く）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.izumo.shimane.jp/www/contents/1787013469951/index.html",
+      "quote": "オンライン：　 令和８年１１月１１日（水）～１１月３０日（月）"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.izumo.shimane.jp/www/contents/1787013469951/index.html",
+      "quote": "窓口：      　 令和８年１１月１６日（月）～１１月３０日（月）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.izumo.shimane.jp/www/contents/1787013469951/index.html",
+      "quote": "の入所申込みを、下記の日程でオンライン申請または市役所保育幼稚園課・各行政センターで受け付けます。"
+    },
+    "secondApply": {
+      "url": "https://www.city.izumo.shimane.jp/www/contents/1787013469951/index.html",
+      "quote": "令和９年４月入所及び５月以降産休育休復帰予約"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.izumo.shimane.jp/www/contents/1787013469951/index.html",
+      "quote": "オンライン：　　　　令和９年１月４日（月）～１月２１日（木）"
+    },
+    "secondApply#3": {
+      "url": "https://www.city.izumo.shimane.jp/www/contents/1787013469951/index.html",
+      "quote": "窓口：       　　　　令和９年１月７日（木）～１月２１日（木）"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.izumo.shimane.jp/www/contents/1207018418050/index.html",
+      "quote": "必要書類をそろえて、入所希望月の前月の締切日までに申し込んでください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.izumo.shimane.jp/www/contents/1768553110715/index.html",
+      "quote": "「施設利用保留通知書」は、初回審査及び申込内容の変更手続き後の初回審査のみ送付します。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.izumo.shimane.jp/www/contents/1768553110715/index.html",
+      "quote": "２回目以降の審査で未決定となった「施設利用保留通知書」が必要な場合には、下記のリンク先から電子申請をしてください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.izumo.shimane.jp/www/contents/1787011679764/files/9_sukej.pdf",
+      "quote": "上記日程は予定です。決定内容は広報や市ホームページ等で再度ご確認ください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.izumo.shimane.jp/www/contents/1787011679764/files/9_sukej.pdf",
+      "quote": "併せて、令和８年10月20日発行の広報11月号にて入所申込受付案内を掲載予定"
+    },
+    "notes.2": {
+      "url": "https://www.city.izumo.shimane.jp/www/contents/1768553110715/index.html",
+      "quote": "内定された方には、内定施設名を記載した施設利用内定通知書を郵送します。"
+    },
+    "notes.2#2": {
+      "url": "https://www.city.izumo.shimane.jp/www/contents/1768553110715/index.html",
+      "quote": "保育所入所申込結果につきまして、令和8年度以降、選考の結果、内定された方のＩＤを以下のとおり公開します。"
+    }
+  },
+  "sources": [
+    {
+      "label": "出雲市「令和９年度保育所入所申込みの受付について」",
+      "url": "https://www.city.izumo.shimane.jp/www/contents/1787013469951/index.html"
+    },
+    {
+      "label": "出雲市「令和９年度保育所入所及び幼稚園入園に関する書類の配布について」",
+      "url": "https://www.city.izumo.shimane.jp/www/contents/1787011679764/index.html"
+    },
+    {
+      "label": "出雲市「保育所入所申込結果の公開について」",
+      "url": "https://www.city.izumo.shimane.jp/www/contents/1768553110715/index.html"
+    },
+    {
+      "label": "出雲市「保育所入所（よくある質問Ｑ＆Ａ）」",
+      "url": "https://www.city.izumo.shimane.jp/www/contents/1207018418050/index.html"
+    }
+  ]
+}

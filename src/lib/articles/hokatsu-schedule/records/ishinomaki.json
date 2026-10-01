@@ -1,0 +1,166 @@
+{
+  "citySlug": "ishinomaki",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "石巻市「令和9年度 保育施設等利用申込みについて」",
+    "url": "https://www.city.ishinomaki.lg.jp/kosodate/002/2505/20220905155843.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年10月2日から（申込受付と同じ期間）。入所案内は第1希望の保育所で受け取るか、石巻市ホームページからダウンロードする。市役所（各総合支所・支所を含む）での配布や郵送による配布はしていない",
+  "firstApply": "令和8年10月2日（金曜日）〜10月16日（金曜日）必着。日曜日・祝日等の休日を除く。受付時間は平日午前8時30分〜午後5時、土曜午前8時30分〜正午（施設により異なる場合あり）",
+  "applyMethods": "第1希望の保育所（認定こども園・小規模保育事業所を含む）で申込書を受け取り、必要書類を添えて第1希望の施設に提出する。郵送・FAX・電子メールでの申込みは不可",
+  "firstResult": "利用調整は1月下旬〜2月上旬（案内の流れ図。年の記載なし）。入所が決まれば入所・入園承諾通知書、決まらなければ入所・入園保留通知書を文書で送付する。電話での問い合わせには応じていない",
+  "midYearDeadline": "年度途中の入所は原則毎月1日からで随時受付。入所したい月の前月10日までに申込書類一式を子ども保育課か各総合支所市民福祉課に提出する",
+  "documents": [
+    "教育・保育給付認定申請書兼保育利用申込書（個人番号確認書類を貼り付ける。通知カードや住民票の写しの場合は顔写真付証明書の写しも）",
+    "保育の必要性が分かる書類（父母それぞれ。単身赴任等で別居していても必要）",
+    "就労の場合は就労証明書（証明日から3か月以内のもの）",
+    "お子さんの状況について（入所希望児童1人につき1部）"
+  ],
+  "interview": "新規申込みの児童は、利用が見込まれる施設で面接を行う。面接は12月ごろから保育の必要性が高い人から順次案内し、指定の面接日に児童と一緒に行く。面接時点では入所は決定していない",
+  "ikukyu": "育児休業中は原則申込みできず、復職を前提とした申請になる。利用が決まったら利用開始月中に育休を終え、利用開始日の翌月1日までに復職する（4月1日入所なら5月1日まで）。復職後2週間以内に復職の状況が記載された就労証明書を提出する",
+  "notes": [
+    "期間を過ぎて申し込んだ場合は、期間内の申込者の入所決定後の審査（二次利用調整の対象）になる",
+    "複数の保育所に第1希望として提出すると、全ての申込みが無効になる",
+    "希望する保育所が1か所だけなら第2希望以降は書かない",
+    "出産前の申込みは、出産予定日が令和9年1月31日以前の子が対象",
+    "他の市町村からの転入予定者は、令和9年3月31日までに石巻市への転入手続を完了できる場合のみ直接申し込める",
+    "就労を理由とする場合、1か月当たりの就労時間が48時間未満だと「就労」で申し込めない"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.ishinomaki.lg.jp/kosodate/002/2505/R9riyouannai.pdf",
+      "quote": "① 対 象 令和９年４月１日又は５月１日からの入所を希望される方"
+    },
+    "guideRelease": {
+      "url": "https://www.city.ishinomaki.lg.jp/kosodate/002/2505/20220905155843.html",
+      "quote": "入所案内の配布並びに申込書類受付期間 令和8年10月2日（金曜日）から令和8年10月16日（金曜日）まで"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.ishinomaki.lg.jp/kosodate/002/2505/R9riyouannai.pdf",
+      "quote": "④ 入所案内の配布場所 第１希望の保育所から受け取り、又は石巻市ホームページからダウンロードしてください。"
+    },
+    "guideRelease#3": {
+      "url": "https://www.city.ishinomaki.lg.jp/kosodate/002/2505/20220905155843.html",
+      "quote": "（注）市役所（各総合支所、支所含む。）での配布や郵送などによる配布・受付は、実施しておりません。"
+    },
+    "firstApply": {
+      "url": "https://www.city.ishinomaki.lg.jp/kosodate/002/2505/20220905155843.html",
+      "quote": "令和8年10月2日（金曜日）から令和8年10月16日（金曜日）まで　◎日曜日、国民の祝日等の休日は除く。"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.ishinomaki.lg.jp/kosodate/002/2505/R9riyouannai.pdf",
+      "quote": "② 申込期間 令和８年１０月２日（金）～１０月１６日（金） 必着"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.ishinomaki.lg.jp/kosodate/002/2505/20220905155843.html",
+      "quote": "平日　午前8時30分から午後5時まで 土曜　午前8時30分から正午まで 施設・曜日などにより異なる場合があります。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.ishinomaki.lg.jp/kosodate/002/2505/20220905155843.html",
+      "quote": "「第一希望」の各保育所（園）・認定こども園・小規模保育事業所にて申込書を受取り、 必要事項に記入の上、添付書類と併せて第一希望の施設まで申込んでください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.ishinomaki.lg.jp/kosodate/002/2505/R9riyouannai.pdf",
+      "quote": "「第１希望の保育所」に必要書類（Ｐ１４を参照ください。）を御提出ください（郵送、FAX、電子メール不可）。"
+    },
+    "firstResult": {
+      "url": "https://www.city.ishinomaki.lg.jp/kosodate/002/2505/R9riyouannai.pdf",
+      "quote": "利 用 調 整 １月下旬～２月上旬 （保留） （入所決定） 入所・入園承諾通知"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.ishinomaki.lg.jp/kosodate/002/2505/20220905155843.html",
+      "quote": "（注）利用調整の結果については文書で通知します。電話でのお問い合わせは受付けておりませんので、あらかじめ御了承願います。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.ishinomaki.lg.jp/kosodate/002/2505/R9riyouannai.pdf",
+      "quote": "入所したい月の前月１０ 日までに、申込書類一式を石巻市子ども保育課又は各総合支所市民福祉課に提出してください。"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.ishinomaki.lg.jp/kosodate/002/2505/R9riyouannai.pdf",
+      "quote": "「途中入所」として、原則毎月１日からの入所の申込みを随時受け付けています。"
+    },
+    "documents.0": {
+      "url": "https://www.city.ishinomaki.lg.jp/kosodate/002/2505/R9riyouannai.pdf",
+      "quote": "教育・保育給付認定申請書兼保育利用申込書に添付する個人番号確認書類については、以下のいずれかを貼り付けてください。"
+    },
+    "documents.1": {
+      "url": "https://www.city.ishinomaki.lg.jp/kosodate/002/2505/R9riyouannai.pdf",
+      "quote": "※単身赴任等で父母が別居していても、保育を必要とする事由の書類は、父母それぞれ提出が必要です。"
+    },
+    "documents.2": {
+      "url": "https://www.city.ishinomaki.lg.jp/kosodate/002/2505/R9riyouannai.pdf",
+      "quote": "・就労証明書 ・証明日から３か月"
+    },
+    "documents.3": {
+      "url": "https://www.city.ishinomaki.lg.jp/kosodate/002/2505/R9riyouannai.pdf",
+      "quote": "入所希望児童１人につき１部提出してください。３ お子さんの状況について"
+    },
+    "interview": {
+      "url": "https://www.city.ishinomaki.lg.jp/kosodate/002/2505/R9riyouannai.pdf",
+      "quote": "新規申込みの児童の場合、利用が見込まれる施設において面接を行います。"
+    },
+    "interview#2": {
+      "url": "https://www.city.ishinomaki.lg.jp/kosodate/002/2505/R9riyouannai.pdf",
+      "quote": "面接の時期ですが、１２月ごろから行い、保育の必要性が高い方から順次御案内をしております。"
+    },
+    "interview#3": {
+      "url": "https://www.city.ishinomaki.lg.jp/kosodate/002/2505/R9riyouannai.pdf",
+      "quote": "指定の面接日に児童と一緒にお越しください。"
+    },
+    "interview#4": {
+      "url": "https://www.city.ishinomaki.lg.jp/kosodate/002/2505/R9riyouannai.pdf",
+      "quote": "※面接時点では入所は決定していません。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.ishinomaki.lg.jp/kosodate/002/2505/R9riyouannai.pdf",
+      "quote": "保育所等の利用が決まった場合には、利用開始月中に育児休業を終了し、利用開始日の翌月1日までに復職していただく必要があります。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.ishinomaki.lg.jp/kosodate/002/2505/R9riyouannai.pdf",
+      "quote": "※４月１日入所の場合は５月１日までに復職してください。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.ishinomaki.lg.jp/kosodate/002/2505/R9riyouannai.pdf",
+      "quote": "そのため、育児休業中に保育所の利用申込みを行う場合は、育児休業から復職することを前提とした申請となります。"
+    },
+    "ikukyu#4": {
+      "url": "https://www.city.ishinomaki.lg.jp/kosodate/002/2505/R9riyouannai.pdf",
+      "quote": "復職後、２週間以内に「復職の状況が記載された就労証明書」を提出してください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.ishinomaki.lg.jp/kosodate/002/2505/R9riyouannai.pdf",
+      "quote": "申込期間を過ぎた提出の場合は、二次利用調整の対象となることがあります。"
+    },
+    "notes.1": {
+      "url": "https://www.city.ishinomaki.lg.jp/kosodate/002/2505/R9riyouannai.pdf",
+      "quote": "なお、複数の保育所に第１希望として提出した場合、正しい審査ができないため、全ての利用申込みを無効といたします。"
+    },
+    "notes.2": {
+      "url": "https://www.city.ishinomaki.lg.jp/kosodate/002/2505/R9riyouannai.pdf",
+      "quote": "入所を希望する保育所が１か所のみの場合は、第２希望以降は記入しないでください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.ishinomaki.lg.jp/kosodate/002/2505/20220905155843.html",
+      "quote": "出産予定日が令和9年1月31日以前のお子さんが対象となります。"
+    },
+    "notes.4": {
+      "url": "https://www.city.ishinomaki.lg.jp/kosodate/002/2505/20220905155843.html",
+      "quote": "他の市町村から石巻市へ転入予定の方は、令和9年3月31日までに石巻市への転入手続き（転入届出書の提出）を完了できる方のみ、石巻市へ直接入所申込をすることができます。"
+    },
+    "notes.5": {
+      "url": "https://www.city.ishinomaki.lg.jp/kosodate/002/2505/R9riyouannai.pdf",
+      "quote": "※就労を理由とした認可保育施設の利用に関して、１か月当たりの就労時間が４８時間未満の場合は、「保育を必要とする理由」を「就労」としてお申込みできません。"
+    }
+  },
+  "sources": [
+    {
+      "label": "石巻市「令和9年度 保育施設等利用申込みについて」",
+      "url": "https://www.city.ishinomaki.lg.jp/kosodate/002/2505/20220905155843.html"
+    },
+    {
+      "label": "石巻市「令和9年度保育施設等利用案内」（PDF）",
+      "url": "https://www.city.ishinomaki.lg.jp/kosodate/002/2505/R9riyouannai.pdf"
+    }
+  ]
+}

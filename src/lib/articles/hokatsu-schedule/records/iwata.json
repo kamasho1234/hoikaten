@@ -1,0 +1,170 @@
+{
+  "citySlug": "iwata",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "磐田市「令和9年4月入園の保育園等入園申込み」",
+    "url": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/hoikuen_youchien_kodomoen/hoikuen/1012764.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年9月18日（金）から幼児教育保育課、各支所市民生活課、ひと・ほんの庭にこっとで申込み書類を配布",
+  "firstApply": "令和8年10月1日（木）〜10月30日（金）、午前8時30分〜午後5時（土・日曜日、祝日を除く）。申請後の希望園変更期間は令和8年11月20日（金）〜11月30日（月）で、期間外の変更は一次募集の入園調整に反映されない",
+  "applyMethods": "必要書類をそろえて幼児教育保育課へ提出するか、電子申請で申し込む。各支所市民生活課とひと・ほんの庭にこっとでは申請を受け付けない。電子申請では保育の必要性を証明する書類（就労証明書など）のアップロードが必要で、市外の保育園の申請は電子申請ではできない",
+  "firstResult": "令和9年1月末に入園調整結果を郵送",
+  "secondApply": "令和8年11月2日（月）〜令和9年1月29日（金）、午前9時〜午後4時30分（土・日曜日、祝日を除く）。申請後の希望園変更期間は令和9年2月8日（月）〜2月12日（金）",
+  "secondResult": "令和9年2月末に入園調整結果を郵送",
+  "midYearDeadline": "令和9年5月以降の入園は、令和9年2月以降に入園希望月の3か月前に申し込む",
+  "documents": [
+    "保育園等入園申込書（希望園は第1希望から第5希望まで記入欄がある）",
+    "個人番号確認書類（父母のマイナンバーカード、通知カードなど）",
+    "本人確認書類（運転免許証、マイナンバーカード、在留カード等）",
+    "磐田市保育園等入園調査書（子ども1人につき1枚）",
+    "お申込み確認シート（確認後、項目にチェックして署名する）",
+    "保育を必要とすることを証明する書類（就労証明書など）。原則として内容に変更がない場合に限り、証明日から6か月以内が有効"
+  ],
+  "interview": "面接は内定者のみ。保育園入園準備のための面接や入園に必要な手続きを行う",
+  "ikukyu": "育児休業中の人は、入園月の翌月末日までに復職することを条件に申し込める。申込書で「希望する保育園等に入園できない場合は育児休業の延長も許容できる」を選ぶと利用調整で減点（−20点）になる",
+  "notes": [
+    "入園は先着順ではなく、世帯の状況や保育を必要とする理由などを考慮して必要性の高い人から決まる",
+    "園ごとに保育内容が違うため、入園申込み前に原則として園を見学する",
+    "内定を辞退すると、令和10年3月（令和9年度中）までの入園調整で減点（−5点）される",
+    "同居している65歳未満の祖父母の書類の提出がない場合、調整点数の減点がある",
+    "「育児休業」を事由とした新規入園はできない。育児休業明けの「就労」で申し込む",
+    "保留の場合、「保育園等入園保留通知書」が郵送されるのは初回のみ"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/hoikuen_youchien_kodomoen/hoikuen/1012764.html",
+      "quote": "令和9年4月から入園を希望する方が対象です。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/hoikuen_youchien_kodomoen/hoikuen/1012764.html",
+      "quote": "令和8年9月18日（金曜）から幼児教育保育課、各支所市民生活課、ひと・ほんの庭にこっとで配布します。"
+    },
+    "firstApply": {
+      "url": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/hoikuen_youchien_kodomoen/hoikuen/1012764.html",
+      "quote": "一次募集 令8年10月1日（木曜）～令和8年10月30日（金曜） 午前8時30分～午後5時（土・日曜日、祝日を除く）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/hoikuen_youchien_kodomoen/hoikuen/1012764.html",
+      "quote": "申請後の希望園変更期間：令和8年11月20日（金曜）～令和8年11月30日（月曜） ※変更期間外は、一次募集での入園調整には反映できません。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/hoikuen_youchien_kodomoen/hoikuen/1012764.html",
+      "quote": "必要書類を揃えて、幼児教育保育課へ提出してください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/hoikuen_youchien_kodomoen/hoikuen/1012764.html",
+      "quote": "※各支所市民生活課、ひと・ほんの庭にこっとでは、申請受付を行っていません。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/hoikuen_youchien_kodomoen/hoikuen/1012764.html",
+      "quote": "入園申込みを電子申請でも受け付けています。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/hoikuen_youchien_kodomoen/hoikuen/1012764.html",
+      "quote": "保育の必要性を証明する書類（就労証明書など）のアップロードが必要です。"
+    },
+    "applyMethods#5": {
+      "url": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/hoikuen_youchien_kodomoen/hoikuen/1012764.html",
+      "quote": "市外の保育園の申請は、電子申請ではできません。"
+    },
+    "firstResult": {
+      "url": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/hoikuen_youchien_kodomoen/hoikuen/1012764.html",
+      "quote": "一次募集 令和9年1月末に入園調整結果を郵送します。"
+    },
+    "secondApply": {
+      "url": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/hoikuen_youchien_kodomoen/hoikuen/1012764.html",
+      "quote": "二次募集 令和8年11月2日（月曜）～令和9年1月29日（金曜） 午前9時～午後4時30分（土・日曜日、祝日を除く）"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/hoikuen_youchien_kodomoen/hoikuen/1012764.html",
+      "quote": "申請後の希望園変更期間：令和9年2月8日（月曜）～令和9年2月12日（金曜）"
+    },
+    "secondResult": {
+      "url": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/hoikuen_youchien_kodomoen/hoikuen/1012764.html",
+      "quote": "二次募集 令和9年2月末に入園調整結果を郵送します。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/hoikuen_youchien_kodomoen/hoikuen/1012764.html",
+      "quote": "※令和9年5月以降の入園希望者は、令和9年2月以降、入園希望月の3か月前に申込みください。"
+    },
+    "documents.0": {
+      "url": "https://www.city.iwata.shizuoka.jp/_res/projects/default_project/_page_/001/012/764/2027annai.pdf",
+      "quote": "入園申込書に記載欄を第１希望から第５希望まで設けています。"
+    },
+    "documents.1": {
+      "url": "https://www.city.iwata.shizuoka.jp/_res/projects/default_project/_page_/001/012/764/2027annai.pdf",
+      "quote": "① 個人番号確認…マイナンバーカード(父母)、通知カード(父母)、"
+    },
+    "documents.2": {
+      "url": "https://www.city.iwata.shizuoka.jp/_res/projects/default_project/_page_/001/012/764/2027annai.pdf",
+      "quote": "② 本人確認…運転免許証、マイナンバーカード、在留カード等"
+    },
+    "documents.3": {
+      "url": "https://www.city.iwata.shizuoka.jp/_res/projects/default_project/_page_/001/012/764/2027annai.pdf",
+      "quote": "磐田市保育園等入園調査書 お子様１名に付き１枚必要です。"
+    },
+    "documents.4": {
+      "url": "https://www.city.iwata.shizuoka.jp/_res/projects/default_project/_page_/001/012/764/2027annai.pdf",
+      "quote": "お申込み確認シート 確認後、項目にチェックのうえ署名してください。"
+    },
+    "documents.5": {
+      "url": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/hoikuen_youchien_kodomoen/hoikuen/1012764.html",
+      "quote": "保育の必要性を証明する書類（就労証明書など）のアップロードが必要です。"
+    },
+    "documents.5#2": {
+      "url": "https://www.city.iwata.shizuoka.jp/_res/projects/default_project/_page_/001/012/764/2027annai.pdf",
+      "quote": "※１ 原則、内容に変更がない場合に限り、証明日から６か月以内が有効期限です。"
+    },
+    "interview": {
+      "url": "https://www.city.iwata.shizuoka.jp/_res/projects/default_project/_page_/001/012/764/2027annai.pdf",
+      "quote": "面接(内定者のみ) 保育園入園準備のための面接や入園に必要な手続きを行います。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.iwata.shizuoka.jp/_res/projects/default_project/_page_/001/012/764/2027annai.pdf",
+      "quote": "育児休業取得中の方は、入園月の翌月末日までに復職することを条件として、認定申請及び入園申込みをすることができます。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.iwata.shizuoka.jp/_res/projects/default_project/_page_/001/012/764/2027annai.pdf",
+      "quote": "希望する保育園等に入園できない場合は、育児休業の延長も許容できる。(※２)"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.iwata.shizuoka.jp/_res/projects/default_project/_page_/001/012/764/2027annai.pdf",
+      "quote": "(※２)利用調整に当たり減点(－20点)となります。"
+    },
+    "notes.0": {
+      "url": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/hoikuen_youchien_kodomoen/hoikuen/1012764.html",
+      "quote": "世帯の状況や保育を必要とする理由などを考慮し、必要性の高い方からの入園となります。"
+    },
+    "notes.1": {
+      "url": "https://www.city.iwata.shizuoka.jp/_res/projects/default_project/_page_/001/012/764/2027annai.pdf",
+      "quote": "園ごとに保育内容に違いがあるため、入園申込みをする前に原則、園を見学してください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.iwata.shizuoka.jp/_res/projects/default_project/_page_/001/012/764/2027annai.pdf",
+      "quote": "内定を辞退すると、令和10年3月（令和9年度中）までの入園調整上で減点（－５点）されますので、希望園選びには十分御注意ください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.iwata.shizuoka.jp/_res/projects/default_project/_page_/001/012/764/2027annai.pdf",
+      "quote": "同居している65歳未満の祖父母の書類の提出がない場合、調整点数の減点があります。"
+    },
+    "notes.4": {
+      "url": "https://www.city.iwata.shizuoka.jp/_res/projects/default_project/_page_/001/012/764/2027annai.pdf",
+      "quote": "「育児休業」が事由での新規入園はできません。 → 育児休業明けの「就労」で申込みください。"
+    },
+    "notes.5": {
+      "url": "https://www.city.iwata.shizuoka.jp/_res/projects/default_project/_page_/001/012/764/2027annai.pdf",
+      "quote": "初回のみ「保育園等入園保留通知書」を郵送します。"
+    }
+  },
+  "sources": [
+    {
+      "label": "磐田市「令和9年4月入園の保育園等入園申込み」",
+      "url": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/hoikuen_youchien_kodomoen/hoikuen/1012764.html"
+    },
+    {
+      "label": "磐田市「令和9年度磐田市保育園等入園案内」",
+      "url": "https://www.city.iwata.shizuoka.jp/_res/projects/default_project/_page_/001/012/764/2027annai.pdf"
+    }
+  ]
+}

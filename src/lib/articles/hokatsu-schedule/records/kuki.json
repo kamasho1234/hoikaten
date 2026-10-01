@@ -1,0 +1,183 @@
+{
+  "citySlug": "kuki",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "久喜市「令和9年4月保育所等の利用申し込み」",
+    "url": "https://www.city.kuki.lg.jp/kosodate/hoikusho/hoiku/1003547.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年10月20日〜11月6日。10月25日（日）の日曜受付は久喜市役所（本庁舎）保育幼稚園課のみ",
+  "applyMethods": "窓口（保育幼稚園課、各行政センターこども未来係）または電子申請。先着順ではなく、受付期間内の申請を選考する",
+  "firstResult": "令和9年1月下旬に通知を発送",
+  "secondApply": "令和9年1月20日〜2月1日",
+  "secondResult": "令和9年3月上旬に通知を送付",
+  "midYearDeadline": "令和9年5月以降の入所は、入所希望月の前月10日まで（10日が土日祝日の場合はその前日）。二次選考の受付期間を過ぎた申請は令和9年5月入所の選考になる",
+  "documents": [
+    "教育・保育給付認定（変更）・（現況）申請書兼施設利用申込書",
+    "利用を希望する施設名（表）・兄弟姉妹の同時申込における入所条件について（裏）",
+    "個人番号（マイナンバー）記入用紙",
+    "家庭状況等申告書（表）・施設利用に関する確認票及び同意書（裏）",
+    "施設利用調査票（新規）",
+    "健診等確認票（新規）",
+    "保育所等見学チェック表（有効期限は発行日から6か月）",
+    "育児休業中の方への確認票",
+    "保育を必要とする事由を確認するための書類（会社員・パート等は職場で証明を受けた市指定様式の就労証明書。育児休業からの復職予定の場合も就労証明書を提出）"
+  ],
+  "interview": "申込みの前に、子どもと一緒に入所を希望する保育所等を見学し、保育所等見学チェック表を提示して見学完了のチェックを受ける。見学をしない場合は選考ができない場合がある",
+  "ikukyu": "育児休業中の方への確認票を提出する。確認票は保育の必要性が高い人を把握するためのもので、入所保留や育児休業給付金の延長を保証するものではなく、希望施設に空きがあれば利用内定となる",
+  "notes": [
+    "提出書類の有効期限は3か月",
+    "保育を必要とする事由の書類は、18歳以上（高校生を除く）65歳未満の同居家族（祖父母等）全員分が必要",
+    "育児休業明けで申し込む場合は、利用を開始する月の翌月15日までの職場復帰が利用の条件（4月入所なら5月15日まで）",
+    "電話での結果連絡はしない（随時入所の入所保留通知書は郵送）",
+    "久喜市への転入予定に伴う申込みは、令和9年4月申込から市民と同じ手続き方法になる"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.kuki.lg.jp/kosodate/hoikusho/hoiku/1003547.html",
+      "quote": "久喜市への転入予定に伴う利用申し込みにつきましては、令和9年4月申込より久喜市民の方と同じ手続き方法になります。"
+    },
+    "firstApply": {
+      "url": "https://www.city.kuki.lg.jp/kosodate/hoikusho/hoiku/1003547.html",
+      "quote": "一次選考受付期間：令和8年10月20日から令和8年11月6日"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.kuki.lg.jp/_res/projects/default_project/_page_/001/003/547/29_r9hoikuzyoannnai23gou.pdf",
+      "quote": "日曜受付 令和８年１０月２５日（日） 久喜市役所保育幼稚園課のみ受付"
+    },
+    "applyMethods": {
+      "url": "https://www.city.kuki.lg.jp/_res/projects/default_project/_page_/001/003/547/29_r9hoikuzyoannnai23gou.pdf",
+      "quote": "受付場所 保育幼稚園課、各行政センターこども未来係、電子申請"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.kuki.lg.jp/kosodate/hoikusho/hoiku/1003547.html",
+      "quote": "※先着順ではありません。受付期間内に申請いただいたものを選考させていただきます。"
+    },
+    "firstResult": {
+      "url": "https://www.city.kuki.lg.jp/_res/projects/default_project/_page_/001/003/547/29_r9hoikuzyoannnai23gou.pdf",
+      "quote": "※４月一次選考の結果は、令和９年１月下旬に通知を発送します。"
+    },
+    "secondApply": {
+      "url": "https://www.city.kuki.lg.jp/kosodate/hoikusho/hoiku/1003547.html",
+      "quote": "二次選考受付期間：令和9年1月20日から令和9年2月1日"
+    },
+    "secondResult": {
+      "url": "https://www.city.kuki.lg.jp/_res/projects/default_project/_page_/001/003/547/29_r9hoikuzyoannnai23gou.pdf",
+      "quote": "月二次選考の結果は、令和９年３月上旬に通知を送付します。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.kuki.lg.jp/kosodate/hoikusho/hoiku/1003547.html",
+      "quote": "入所希望月の前月の10日（10日が土曜日・日曜日・祝日の場合はその前日が締め切りです。)"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.kuki.lg.jp/kosodate/hoikusho/hoiku/1003547.html",
+      "quote": "二次選考の受付期間を過ぎた場合、令和9年5月入所選考になります。"
+    },
+    "documents.0": {
+      "url": "https://www.city.kuki.lg.jp/kosodate/hoikusho/hoiku/1003547.html",
+      "quote": "教育・保育給付認定（変更）・（現況）申請書兼施設利用申込書"
+    },
+    "documents.1": {
+      "url": "https://www.city.kuki.lg.jp/kosodate/hoikusho/hoiku/1003547.html",
+      "quote": "利用を希望する施設名（表）・兄弟姉妹の同時申込における入所条件について（裏）"
+    },
+    "documents.2": {
+      "url": "https://www.city.kuki.lg.jp/kosodate/hoikusho/hoiku/1003547.html",
+      "quote": "個人番号（マイナンバー）記入用紙"
+    },
+    "documents.3": {
+      "url": "https://www.city.kuki.lg.jp/kosodate/hoikusho/hoiku/1003547.html",
+      "quote": "家庭状況等申告書（表）・施設利用に関する確認票及び同意書（裏）"
+    },
+    "documents.4": {
+      "url": "https://www.city.kuki.lg.jp/kosodate/hoikusho/hoiku/1003547.html",
+      "quote": "施設利用調査票（新規）（表・裏）"
+    },
+    "documents.5": {
+      "url": "https://www.city.kuki.lg.jp/kosodate/hoikusho/hoiku/1003547.html",
+      "quote": "健診等確認票（新規）"
+    },
+    "documents.6": {
+      "url": "https://www.city.kuki.lg.jp/kosodate/hoikusho/hoiku/1003547.html",
+      "quote": "保育所等見学チェック表　※有効期限は、発行日から6か月"
+    },
+    "documents.7": {
+      "url": "https://www.city.kuki.lg.jp/kosodate/hoikusho/hoiku/1003547.html",
+      "quote": "育児休業中の方への確認票"
+    },
+    "documents.8": {
+      "url": "https://www.city.kuki.lg.jp/kosodate/hoikusho/hoiku/1003547.html",
+      "quote": "就労証明書（職場で証明を受けてください）〔市指定様式〕"
+    },
+    "documents.8#2": {
+      "url": "https://www.city.kuki.lg.jp/kosodate/hoikusho/hoiku/1003547.html",
+      "quote": "育児休業からの復職予定の場合も就労証明書を提出してください。"
+    },
+    "interview": {
+      "url": "https://www.city.kuki.lg.jp/_res/projects/default_project/_page_/001/003/547/29_r9hoikuzyoannnai23gou.pdf",
+      "quote": "入所申込みの前に、必ずお子様と一緒に入所を希望する保育所等を見学してください。"
+    },
+    "interview#2": {
+      "url": "https://www.city.kuki.lg.jp/_res/projects/default_project/_page_/001/003/547/29_r9hoikuzyoannnai23gou.pdf",
+      "quote": "保育所等の見学終了後に、保育所等の担当者から見学完了のチェックを受けてください。"
+    },
+    "interview#3": {
+      "url": "https://www.city.kuki.lg.jp/_res/projects/default_project/_page_/001/003/547/29_r9hoikuzyoannnai23gou.pdf",
+      "quote": "※ 保育所等の見学を行わない場合、選考ができない場合がありますのでご了承ください。"
+    },
+    "interview#4": {
+      "url": "https://www.city.kuki.lg.jp/_res/projects/default_project/_page_/001/003/547/29_r9hoikuzyoannnai23gou.pdf",
+      "quote": "○ 保育所等見学にあたっては、保育所等見学チェック表を提示してください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.kuki.lg.jp/kosodate/hoikusho/hoiku/1003547.html",
+      "quote": "確認票は、保育の公平な利用調整に向けて、保育の必要性が高い方を把握するためのものです。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.kuki.lg.jp/kosodate/hoikusho/hoiku/1003547.html",
+      "quote": "入所保留及び育児休業給付金延長を保証するものではありません。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.kuki.lg.jp/kosodate/hoikusho/hoiku/1003547.html",
+      "quote": "利用調整の結果、希望保育施設に空きがある場合には、利用内定となります。"
+    },
+    "notes.0": {
+      "url": "https://www.city.kuki.lg.jp/kosodate/hoikusho/hoiku/1003547.html",
+      "quote": "提出書類の有効期限は3か月となります。"
+    },
+    "notes.1": {
+      "url": "https://www.city.kuki.lg.jp/kosodate/hoikusho/hoiku/1003547.html",
+      "quote": "書類は、18歳以上（高校生を除く）65歳未満の同居家族(祖父母等）全員分が必要です。"
+    },
+    "notes.2": {
+      "url": "https://www.city.kuki.lg.jp/_res/projects/default_project/_page_/001/003/547/29_r9hoikuzyoannnai23gou.pdf",
+      "quote": "育児休業明けでお子様の入所申込みをする場合、利用を開始する月の翌月１５日までの職場復帰が、利用の条件となります。"
+    },
+    "notes.2#2": {
+      "url": "https://www.city.kuki.lg.jp/_res/projects/default_project/_page_/001/003/547/29_r9hoikuzyoannnai23gou.pdf",
+      "quote": "（例）４月入所の場合５月１５日までに職場復帰。"
+    },
+    "notes.3": {
+      "url": "https://www.city.kuki.lg.jp/_res/projects/default_project/_page_/001/003/547/29_r9hoikuzyoannnai23gou.pdf",
+      "quote": "「入所保留通知書」の郵送にてお知らせします。（申込月のみ）"
+    },
+    "notes.3#2": {
+      "url": "https://www.city.kuki.lg.jp/_res/projects/default_project/_page_/001/003/547/29_r9hoikuzyoannnai23gou.pdf",
+      "quote": "※ 電話での連絡はいたしません。"
+    },
+    "notes.4": {
+      "url": "https://www.city.kuki.lg.jp/kosodate/hoikusho/hoiku/1003547.html",
+      "quote": "久喜市への転入予定に伴う利用申し込みにつきましては、令和9年4月申込より久喜市民の方と同じ手続き方法になります。"
+    }
+  },
+  "sources": [
+    {
+      "label": "久喜市「令和9年4月保育所等の利用申し込み」",
+      "url": "https://www.city.kuki.lg.jp/kosodate/hoikusho/hoiku/1003547.html"
+    },
+    {
+      "label": "久喜市「令和9年度 保育所等利用手続きのご案内」（PDF）",
+      "url": "https://www.city.kuki.lg.jp/_res/projects/default_project/_page_/001/003/547/29_r9hoikuzyoannnai23gou.pdf"
+    }
+  ]
+}

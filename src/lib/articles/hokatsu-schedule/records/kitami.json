@@ -1,0 +1,149 @@
+{
+  "citySlug": "kitami",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "北見市「令和９年度 北見市教育・保育施設の利用申込みの受付日程（新年度入園案内）」",
+    "url": "https://www.city.kitami.lg.jp/administration/life/detail.php?content=7171"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "申込書等の必要書類は10月1日（木）から、案内ページに載っている受付施設（保育園・認定こども園・小規模保育事業所・へき地保育所）で配布",
+  "firstApply": "令和8年11月2日（月）〜令和8年12月10日（木）。第1希望の保育所・認定こども園等に提出（各総合支所では受付できない）",
+  "applyMethods": "1次受付は第1希望の保育所・認定こども園等、2次受付は保育課、随時受付は保育所・認定こども園等または保育課に提出。利用申込書と教育・保育給付認定申請書は電子申請もでき（マイナンバーカードが必要）、添付書類はデータ添付か窓口等で提出する",
+  "firstResult": "4月から利用する2号・3号認定は、2月上旬から3月中旬にかけて書面で順次通知（必要に応じて事前に電話連絡あり）",
+  "secondApply": "令和8年12月11日（金）〜令和9年1月29日（金）。保育課に提出",
+  "midYearDeadline": "年度途中の利用は、利用開始を希望する月の前月10日まで（10日が土日・祝日なら前の開庁日まで）",
+  "documents": [
+    "教育・保育施設等利用申込書",
+    "子どものための教育・保育給付認定申請書",
+    "保育の必要性を証明する書類（就労なら月15日以上かつ月60時間以上の就労を証明する就労証明書など）"
+  ],
+  "interview": "申込みにあたっては必ず希望する施設を見学する（見学は各施設へ直接問い合わせる）",
+  "notes": [
+    "随時受付は令和9年2月1日（月）〜3月10日（水）",
+    "令和9年3月11日以降の申込みは5月以降の入園になる",
+    "土曜日・日曜日・祝日と年末年始（12月29日〜1月3日）は受付をしない",
+    "令和8年度中に申し込んで利用を待機している人も、年度ごとの申込みのため再度申込みが必要",
+    "子どもに心身の障がい（病気療養中、通院中、経過観察中を含む）がある場合は、申込みの際に必ず知らせる",
+    "保育課からの認定結果の通知は、入園の有無によらず3月中旬までに届く（4月から利用の場合）"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.kitami.lg.jp/administration/life/detail.php?content=7171",
+      "quote": "令和9年3月11日以降の申込みについては、5月以降の入園となります。"
+    },
+    "fiscalYear#2": {
+      "url": "https://www.city.kitami.lg.jp/administration/life/detail.php?content=7171",
+      "quote": "新年度4月入園の利用申込みの受付は、以下のとおりです。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.kitami.lg.jp/administration/life/detail.php?content=7171",
+      "quote": "申込書等の必要書類は、10月1日(木)より下記1～4の施設で配布します。"
+    },
+    "firstApply": {
+      "url": "https://www.city.kitami.lg.jp/administration/life/detail.php?content=7171",
+      "quote": "令和8年11月2日(月)　～　令和8年12月10日(木)"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.kitami.lg.jp/administration/life/detail.php?content=7171",
+      "quote": "第１希望の保育所・認定こども園等に提出してください。"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.kitami.lg.jp/administration/life/detail.php?content=7171",
+      "quote": "各総合支所では受付できません。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.kitami.lg.jp/administration/life/detail.php?content=7171",
+      "quote": "パソコンやスマートフォンから申請可能で、添付書類(保育の必要性を証明する書類等)は電子申請にデータ添付または窓口等による提出が必要です。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.kitami.lg.jp/administration/life/detail.php?content=7171",
+      "quote": "電子申請には、マイナンバーカード(電子証明書付き)が必要です。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.kitami.lg.jp/administration/life/detail.php?content=7171",
+      "quote": "保育所・認定こども園等または保育課に提出してください。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.kitami.lg.jp/administration/life/detail.php?content=7171",
+      "quote": "受付期間ごとで提出先が異なりますので、ご注意ください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.kitami.lg.jp/administration/life/detail.php?content=7203",
+      "quote": "2月上旬から3月中旬にかけて、書面により順次通知します。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.kitami.lg.jp/administration/life/detail.php?content=7203",
+      "quote": "※必要に応じて事前にお電話でご連絡する場合があります。"
+    },
+    "secondApply": {
+      "url": "https://www.city.kitami.lg.jp/administration/life/detail.php?content=7171",
+      "quote": "令和8年12月11日(金)　～　令和9年1月29日(金)"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.kitami.lg.jp/administration/life/detail.php?content=7171",
+      "quote": "保育課に提出してください。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.kitami.lg.jp/administration/life/detail.php?content=7203",
+      "quote": "利用開始を希望する月の前月10日まで"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.kitami.lg.jp/administration/life/detail.php?content=7203",
+      "quote": "※10日が土日・祝日の場合は、前開庁日までに提出してください。"
+    },
+    "documents.0": {
+      "url": "https://www.city.kitami.lg.jp/administration/life/detail.php?content=7171",
+      "quote": "・教育・保育施設等利用申込書"
+    },
+    "documents.1": {
+      "url": "https://www.city.kitami.lg.jp/administration/life/detail.php?content=7171",
+      "quote": "・子どものための教育・保育給付認定申請書"
+    },
+    "documents.2": {
+      "url": "https://www.city.kitami.lg.jp/administration/life/detail.php?content=7203",
+      "quote": "・月１５日以上かつ月６０時間以上の就労を証明する書類（下記ファイル参照）を提出してください。"
+    },
+    "interview": {
+      "url": "https://www.city.kitami.lg.jp/administration/life/detail.php?content=7171",
+      "quote": "申込みにあたっては、必ず希望する施設の見学を行ってください。"
+    },
+    "interview#2": {
+      "url": "https://www.city.kitami.lg.jp/administration/life/detail.php?content=7171",
+      "quote": "※見学については、各施設へ直接お問い合わせください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.kitami.lg.jp/administration/life/detail.php?content=7171",
+      "quote": "令和9年2月1日(月)　～　令和9年3月10日(水)"
+    },
+    "notes.1": {
+      "url": "https://www.city.kitami.lg.jp/administration/life/detail.php?content=7171",
+      "quote": "令和9年3月11日以降の申込みについては、5月以降の入園となります。"
+    },
+    "notes.2": {
+      "url": "https://www.city.kitami.lg.jp/administration/life/detail.php?content=7171",
+      "quote": "土曜日、日曜日、祝日および年末年始(12月29日～1月3日)の受付は行っておりません。"
+    },
+    "notes.3": {
+      "url": "https://www.city.kitami.lg.jp/administration/life/detail.php?content=7171",
+      "quote": "令和８年度中に利用申込みをして、現在利用を待機されている方についても、再度利用申込みが必要となります。(年度ごとの申込みになるため)"
+    },
+    "notes.4": {
+      "url": "https://www.city.kitami.lg.jp/administration/life/detail.php?content=7171",
+      "quote": "児童に心身の障がい(病気療養中、通院中、経過観察中を含む。)がある場合は、申込みの際に必ずお知らせください。"
+    },
+    "notes.5": {
+      "url": "https://www.city.kitami.lg.jp/administration/life/detail.php?content=7203",
+      "quote": "保育課より入園の有無によらず3月中旬までに通知します。"
+    }
+  },
+  "sources": [
+    {
+      "label": "北見市「令和９年度 北見市教育・保育施設の利用申込みの受付日程（新年度入園案内）」",
+      "url": "https://www.city.kitami.lg.jp/administration/life/detail.php?content=7171"
+    },
+    {
+      "label": "北見市「教育・保育施設等の利用に係る認定（教育・保育給付認定）および利用申込み」",
+      "url": "https://www.city.kitami.lg.jp/administration/life/detail.php?content=7203"
+    }
+  ]
+}

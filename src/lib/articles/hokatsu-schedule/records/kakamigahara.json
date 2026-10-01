@@ -1,0 +1,220 @@
+{
+  "citySlug": "kakamigahara",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "各務原市「年度当初の保育所等への入所および転所の申込方法」",
+    "url": "https://www.city.kakamigahara.lg.jp/kodomo/hoiku/1002269/1002270.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年10月1日〜10月30日（窓口）。マイナポータルによるオンライン申請は令和8年10月1日〜10月20日",
+  "applyMethods": "必要書類をこども政策課に提出する（申込書等はこども政策課窓口で配布、市ウェブサイトからもダウンロードできる）。1次募集では出張受付があり、かわしま子ども館は令和8年10月9日午後2時〜4時、うぬま子ども館は令和8年10月16日午後2時〜4時。マイナポータルによるオンライン申請もできる。認定こども園の幼稚園部分（教育認定）は入所希望施設へ直接申し込む",
+  "firstResult": "4月入所の1次募集は12月初旬頃に入所承諾通知書を送付。求職活動で申し込んだ人には「内定のお知らせ」を送付し、1月末までに就労証明書の提出が必要",
+  "secondApply": "令和9年2月22日〜3月5日（オンラインは令和9年2月22日〜2月28日）。1次募集の入所内定者が2次募集で別の施設に申し込む場合は、令和9年2月4日〜2月12日に1次募集の内定施設を取り下げる必要がある（2次募集で決まらなくても1次の内定施設には入所できない）",
+  "secondResult": "4月入所の2次募集は、入所希望月の前月15日頃に入所承諾通知書を発送",
+  "midYearDeadline": "年度途中の入所は、入所を希望する月の前々月20日〜前月5日（土日・祝日の場合は翌日）に申し込む。オンライン申請は前々月20日〜前々月の末日",
+  "documents": [
+    "施設等利用申込書 兼 子どものための教育・保育給付認定申請書（2号・3号用）",
+    "子どもの健康調査票",
+    "重要事項確認書",
+    "必要書類チェックリスト（太枠内を記入して必ず提出）",
+    "保育の必要な理由を確認するための書類（会社員等は就労証明書、求職活動は求職活動状況申告書など。保護者それぞれ1部ずつ）",
+    "申込時に持参するもの: 本人確認書類（顔写真付きで有効期限内の官公署発行の証明書）とマイナンバーを確認できる書類"
+  ],
+  "interview": "4月1次募集で入所が決まった人には、入所決定通知書に同封して健康診断と説明会の日時が案内される。健康診断は園が指定する施設で受ける",
+  "ikukyu": "入所不可証明書は入所申込の結果入所できなかった場合のみ発行され、4月入所を希望する場合は2次募集期間中に申請する。証明書に有効期限は書かれない。入所できず継続して希望する場合は申込期間ごとに毎回申込が必要（翌月以降に自動で選考されない）。証明書は入所希望月の前月15日ころ郵送",
+  "notes": [
+    "書類に不足・不備があると受付できないので、期日に余裕をもって申し込む",
+    "利用調整の結果は入所承諾通知書で知らされ、電話等で問い合わせても回答されない",
+    "求職活動で令和9年4月入所（1次募集）に申し込む場合は、令和9年1月末までに就労証明書の提出が必須",
+    "発達の遅れや病気・障がいなどで特別な支援が必要な児童は、必ず事前にこども政策課へ相談する",
+    "令和9年4月入所1次募集の空き状況は9月下旬公開予定、2次募集は2月4日に仮空き状況を公開"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.kakamigahara.lg.jp/kodomo/hoiku/1002269/1002270.html",
+      "quote": "令和9年4月入所の1次募集にて入所内定した方が、2次募集にて別の施設への申込をされる場合は、1次募集の入所内定施設の取下げが必要です。"
+    },
+    "firstApply": {
+      "url": "https://www.city.kakamigahara.lg.jp/kodomo/hoiku/1002269/1002270.html",
+      "quote": "1次募集：令和8年10月1日~令和8年10月30日"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.kakamigahara.lg.jp/kodomo/hoiku/1002269/1021664/index.html",
+      "quote": "令和9年4月(1次) 令和8年10月1日～10月20日"
+    },
+    "applyMethods": {
+      "url": "https://www.city.kakamigahara.lg.jp/kodomo/hoiku/1002269/1002270.html",
+      "quote": "下記の期間内に必要な書類をこども政策課に提出してください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.kakamigahara.lg.jp/_res/projects/default_project/_page_/001/002/270/r9nyuusyonituite.pdf",
+      "quote": "申込書等は、こども政策課窓口で配布している他、市ウェブサイトからもダウンロードできます。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.kakamigahara.lg.jp/kodomo/hoiku/1002269/1002270.html",
+      "quote": "かわしま子ども館：令和8年10月9日（金曜日）午後2時～4時"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.kakamigahara.lg.jp/kodomo/hoiku/1002269/1002270.html",
+      "quote": "うぬま子ども館：令和8年10月16日（金曜日）午後2時～4時"
+    },
+    "applyMethods#5": {
+      "url": "https://www.city.kakamigahara.lg.jp/kodomo/hoiku/1002269/1021664/index.html",
+      "quote": "本市ではマイナポータルを活用し、保育所等入所申込のオンライン申請が可能です。"
+    },
+    "applyMethods#6": {
+      "url": "https://www.city.kakamigahara.lg.jp/kodomo/hoiku/1002269/1002270.html",
+      "quote": "認定こども園の幼稚園部分（教育認定）で申し込みをする方は、入所希望施設へ直接申し込みください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.kakamigahara.lg.jp/_res/projects/default_project/_page_/001/002/270/r9nyuusyonituite.pdf",
+      "quote": "４月入所の１次募集は、１２月初旬頃 に入所承諾通知書を送付します。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.kakamigahara.lg.jp/_res/projects/default_project/_page_/001/002/270/r9nyuusyonituite.pdf",
+      "quote": "※１次募集を求職活動で申し込まれた方は”内定のお知らせ”を送付します。1月末までに就労証明書を提出してください"
+    },
+    "secondApply": {
+      "url": "https://www.city.kakamigahara.lg.jp/kodomo/hoiku/1002269/1002270.html",
+      "quote": "2次募集：令和9年2月22日~令和9年3月5日"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.kakamigahara.lg.jp/kodomo/hoiku/1002269/1021664/index.html",
+      "quote": "令和9年4月(2次) 令和9年2月22日～2月28日"
+    },
+    "secondApply#3": {
+      "url": "https://www.city.kakamigahara.lg.jp/kodomo/hoiku/1002269/1002270.html",
+      "quote": "入所内定取下げ期間 令和9年2月4日（木曜日） ⇩ 令和9年2月12日（金曜日）"
+    },
+    "secondApply#4": {
+      "url": "https://www.city.kakamigahara.lg.jp/kodomo/hoiku/1002269/1002270.html",
+      "quote": "（注）2次募集で希望した施設へ入所決定しない場合であっても、1次募集の内定施設には入所することはできません。"
+    },
+    "secondResult": {
+      "url": "https://www.city.kakamigahara.lg.jp/_res/projects/default_project/_page_/001/002/270/r9nyuusyonituite.pdf",
+      "quote": "４月入所の２次募集および５月入所以降は、入所希望月の前月１５日頃に入所承諾通知書を発送します。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.kakamigahara.lg.jp/kodomo/hoiku/1020311.html",
+      "quote": "申込期間は、入所を希望する前々月の20日(土曜日・日曜日、祝日の場合は翌日)～前月の5日(土曜日・日曜日、祝日の場合は翌日)です。"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.kakamigahara.lg.jp/kodomo/hoiku/1002269/1021664/index.html",
+      "quote": "申込期間は入所を希望する前々月の20日（土曜日・日曜日、祝日の場合は翌日）～前々月の末日までになります。"
+    },
+    "documents.0": {
+      "url": "https://www.city.kakamigahara.lg.jp/_res/projects/default_project/_page_/001/002/270/tyekkurisuto2.3.pdf",
+      "quote": "施設等利用申込書 兼 子どものための教育・保育給付認定申請書（2号・3号用） ★1"
+    },
+    "documents.1": {
+      "url": "https://www.city.kakamigahara.lg.jp/kodomo/hoiku/1002269/1002270.html",
+      "quote": "（★2）子どもの健康調査票"
+    },
+    "documents.2": {
+      "url": "https://www.city.kakamigahara.lg.jp/_res/projects/default_project/_page_/001/002/270/tyekkurisuto2.3.pdf",
+      "quote": "重要事項確認書 ★3"
+    },
+    "documents.3": {
+      "url": "https://www.city.kakamigahara.lg.jp/_res/projects/default_project/_page_/001/002/270/tyekkurisuto2.3.pdf",
+      "quote": "※太枠内を記入し、必ずこの用紙も提出してください。"
+    },
+    "documents.4": {
+      "url": "https://www.city.kakamigahara.lg.jp/_res/projects/default_project/_page_/001/002/270/tyekkurisuto2.3.pdf",
+      "quote": "就労（会社員等 居宅外労働の方） ● 就労証明書"
+    },
+    "documents.4#2": {
+      "url": "https://www.city.kakamigahara.lg.jp/_res/projects/default_project/_page_/001/002/270/tyekkurisuto2.3.pdf",
+      "quote": "求職活動 ● 求職活動状況申告書 ★8"
+    },
+    "documents.4#3": {
+      "url": "https://www.city.kakamigahara.lg.jp/_res/projects/default_project/_page_/001/002/270/tyekkurisuto2.3.pdf",
+      "quote": "※保護者それぞれについて1部ずつ必要です。"
+    },
+    "documents.5": {
+      "url": "https://www.city.kakamigahara.lg.jp/_res/projects/default_project/_page_/001/002/270/tyekkurisuto2.3.pdf",
+      "quote": "公署発行の顔写真付証明書で有効期限内のもの【申請者のもの】"
+    },
+    "documents.5#2": {
+      "url": "https://www.city.kakamigahara.lg.jp/_res/projects/default_project/_page_/001/002/270/tyekkurisuto2.3.pdf",
+      "quote": "マイナンバーを確認できる書類"
+    },
+    "interview": {
+      "url": "https://www.city.kakamigahara.lg.jp/_res/projects/default_project/_page_/001/002/270/r9nyuusyonituite.pdf",
+      "quote": "入所決定通知書に同封して健康診断と説明会の日時をご案内しますので"
+    },
+    "interview#2": {
+      "url": "https://www.city.kakamigahara.lg.jp/_res/projects/default_project/_page_/001/002/270/r9nyuusyonituite.pdf",
+      "quote": "⑥園が指定する施設で健康診断"
+    },
+    "ikukyu": {
+      "url": "https://www.city.kakamigahara.lg.jp/kodomo/hoiku/1020311.html",
+      "quote": "4月入所を希望する場合は、2次募集期間中に申請してください。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.kakamigahara.lg.jp/kodomo/hoiku/1020311.html",
+      "quote": "各務原市では、「証明書の有効期限」は証明書に記載されません。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.kakamigahara.lg.jp/kodomo/hoiku/1020311.html",
+      "quote": "各務原市の保育所等入所申込では、入所できなかった方について、継続して入所を希望する場合は入所申込期間ごとに毎回申込が必要です。"
+    },
+    "ikukyu#4": {
+      "url": "https://www.city.kakamigahara.lg.jp/kodomo/hoiku/1020311.html",
+      "quote": "入所希望月の前月15日ころ、郵送します。"
+    },
+    "ikukyu#5": {
+      "url": "https://www.city.kakamigahara.lg.jp/kodomo/hoiku/1020311.html",
+      "quote": "保育所入所不可証明書の発行は、各務原市の申込ルールに基づき、現に保育所等への入所が叶わない場合のみ発行いたします。"
+    },
+    "notes.0": {
+      "url": "https://www.city.kakamigahara.lg.jp/_res/projects/default_project/_page_/001/002/270/r9nyuusyonituite.pdf",
+      "quote": "書類に不足、不備等があると受付ができません。期日に余裕をもって申込をお願いします。"
+    },
+    "notes.1": {
+      "url": "https://www.city.kakamigahara.lg.jp/_res/projects/default_project/_page_/001/002/270/r9nyuusyonituite.pdf",
+      "quote": "お電話等でお問い合わせいただいても回答はできませんのでご了承ください。"
+    },
+    "notes.1#2": {
+      "url": "https://www.city.kakamigahara.lg.jp/_res/projects/default_project/_page_/001/002/270/r9nyuusyonituite.pdf",
+      "quote": "※利用調整の結果は、入所承諾通知書でお知らせします。"
+    },
+    "notes.2": {
+      "url": "https://www.city.kakamigahara.lg.jp/_res/projects/default_project/_page_/001/002/270/r9nyuusyonituite.pdf",
+      "quote": "（令和９年４月入所(１次募集)の申請の場合は令和９年１月末までに就労証明書の提出が必須）"
+    },
+    "notes.3": {
+      "url": "https://www.city.kakamigahara.lg.jp/kodomo/hoiku/1002269/1002270.html",
+      "quote": "集団保育が可能な児童で、発達の遅れや病気・障がいなどによる特別の支援が必要な場合には、現在通っている児童発達支援事業所などに入所の希望を伝えたうえで、必ず事前に、事業所の職員からこども政策課へご相談ください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.kakamigahara.lg.jp/_res/projects/default_project/_page_/001/002/270/r9nyuusyonituite.pdf",
+      "quote": "令和9年4月入所1次募集：9月下旬公開予定"
+    },
+    "notes.4#2": {
+      "url": "https://www.city.kakamigahara.lg.jp/_res/projects/default_project/_page_/001/002/270/r9nyuusyonituite.pdf",
+      "quote": "令和9年4月入所2次募集：2月4日 仮空き状況公開"
+    }
+  },
+  "sources": [
+    {
+      "label": "各務原市「年度当初の保育所等への入所および転所の申込方法」",
+      "url": "https://www.city.kakamigahara.lg.jp/kodomo/hoiku/1002269/1002270.html"
+    },
+    {
+      "label": "各務原市「保育所（園）・認定こども園の入所（転所）について」（令和9年度、PDF）",
+      "url": "https://www.city.kakamigahara.lg.jp/_res/projects/default_project/_page_/001/002/270/r9nyuusyonituite.pdf"
+    },
+    {
+      "label": "各務原市「令和9年度必要書類チェックリスト（2・3号）」（PDF）",
+      "url": "https://www.city.kakamigahara.lg.jp/_res/projects/default_project/_page_/001/002/270/tyekkurisuto2.3.pdf"
+    },
+    {
+      "label": "各務原市「マイナポータルによるオンライン申請」",
+      "url": "https://www.city.kakamigahara.lg.jp/kodomo/hoiku/1002269/1021664/index.html"
+    },
+    {
+      "label": "各務原市「入所不可証明書の発行」",
+      "url": "https://www.city.kakamigahara.lg.jp/kodomo/hoiku/1020311.html"
+    }
+  ]
+}

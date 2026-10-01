@@ -1,0 +1,139 @@
+{
+  "citySlug": "iwakuni",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "岩国市「令和9年度の幼稚園・認定こども園・保育園・小規模保育事業所の利用手続きについて」",
+    "url": "https://www.city.iwakuni.lg.jp/soshiki/127/81165.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年12月1日（火曜日）〜12月23日（水曜日）",
+  "applyMethods": "給付認定申請書・保育利用申請書を、市保育幼稚園課・各総合支所・支所か、入園を希望する市立保育園・認定こども園・小規模保育事業所に提出する。原則として私立保育園では提出できない",
+  "firstResult": "令和9年2月に保育の利用承諾決定通知書を保護者あてに郵送（一次受付分の給付認定申請の結果は令和9年2月までに送付）",
+  "secondApply": "令和9年1月4日（月曜日）〜2月10日（水曜日）",
+  "secondResult": "令和9年3月までに二次受付分の給付認定申請の結果を送付",
+  "midYearDeadline": "5月以降の毎月1日利用開始は、利用希望月の前月10日まで（10日が土・日・祝休日の場合はその直前の平日まで）",
+  "documents": [
+    "子どものための教育・保育給付認定申請書（2・3号認定用）",
+    "給付認定理由申立書（2・3号）",
+    "保育を必要とすることを証明する書類（就労の場合は就労証明書。有効期間は提出締切日の3か月前の月の初日からで、令和9年4月入園申請は令和8年9月1日以降の証明日のものが必要）",
+    "マイナンバーカード等（マイナンバーの番号確認と身元確認の書類）",
+    "保育園等利用申請書（2・3号）"
+  ],
+  "ikukyu": "育児休業中の場合は、職場復帰月の前月から利用申込みができる",
+  "notes": [
+    "二次受付期間を過ぎても随時受け付けるが、利用の優先順位は低くなる",
+    "岩国市に転入する場合は、保育園等の利用開始月の1日に岩国市に住民票があることが条件",
+    "第一希望の園に入園できない場合は、電話等で連絡がある",
+    "入園先が認定こども園・小規模保育事業所の場合は、3月に園と入園契約を結ぶ（保育園は不要）",
+    "証明書類の提出がない場合は、求職活動中と同じ扱いになる",
+    "就労・介護・看護・就学等の事由で認定を受けるには、月64時間以上の従事が必要"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.iwakuni.lg.jp/uploaded/attachment/64916.pdf",
+      "quote": "※ 令和９年４月利用開始の場合は、認定事務が集中し審査等に時間を要するため、給付認定申請の結果は、一次受付分は令和９年２月までに、二次受付分以降は令和９年３月までに送付します。"
+    },
+    "firstApply": {
+      "url": "https://www.city.iwakuni.lg.jp/soshiki/127/81165.html",
+      "quote": "【一次受付期間】令和8年12月1日（火曜日）から12月23日（水曜日）まで。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.iwakuni.lg.jp/uploaded/attachment/64909.pdf",
+      "quote": "【一次】R8.12.1～12.23 給付認定申請書・保育利用申請書を、保育幼稚園課又は入園"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.iwakuni.lg.jp/uploaded/attachment/64916.pdf",
+      "quote": "保育幼稚園課、各総合支所・各支所または利用を希望する市立保育園、認定こども園及び小規模保育事業所。（※原則、私立保育園では入園の受付ができません。）"
+    },
+    "firstResult": {
+      "url": "https://www.city.iwakuni.lg.jp/uploaded/attachment/64909.pdf",
+      "quote": "【一次】２月 保育の利用承諾決定通知書を保護者あてに郵送"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.iwakuni.lg.jp/uploaded/attachment/64916.pdf",
+      "quote": "※ 令和９年４月利用開始の場合は、認定事務が集中し審査等に時間を要するため、給付認定申請の結果は、一次受付分は令和９年２月までに、二次受付分以降は令和９年３月までに送付します。"
+    },
+    "secondApply": {
+      "url": "https://www.city.iwakuni.lg.jp/soshiki/127/81165.html",
+      "quote": "【二次受付期間】令和9年  1月4日（月曜日）から  2月10日（水曜日）まで。"
+    },
+    "secondResult": {
+      "url": "https://www.city.iwakuni.lg.jp/uploaded/attachment/64909.pdf",
+      "quote": "※ 令和９年４月利用開始の場合は、認定事務が集中し審査等に時間を要するため、給付認定申請の結果は、一次受付は令和９年２月までに、二次受付は令和９年３月までに送付します。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.iwakuni.lg.jp/uploaded/attachment/64916.pdf",
+      "quote": "利用希望月の前月１０日まで（10日が土・日・祝休日の場合、その直前の平日まで）"
+    },
+    "documents.0": {
+      "url": "https://www.city.iwakuni.lg.jp/uploaded/attachment/64916.pdf",
+      "quote": "（１） 子どものための教育・保育給付認定申請書（2・3号認定用）"
+    },
+    "documents.1": {
+      "url": "https://www.city.iwakuni.lg.jp/uploaded/attachment/64916.pdf",
+      "quote": "（２） 給付認定理由申立書（2号・3号）"
+    },
+    "documents.2": {
+      "url": "https://www.city.iwakuni.lg.jp/soshiki/127/81165.html",
+      "quote": "（令和9年4月入園申請の場合、令和8年12月締切のため9月1日以降の証明日のものが必要です。）"
+    },
+    "documents.2#2": {
+      "url": "https://www.city.iwakuni.lg.jp/soshiki/127/81165.html",
+      "quote": "※有効期間は、提出締切日の3か月前の月の初日の日付からです。"
+    },
+    "documents.3": {
+      "url": "https://www.city.iwakuni.lg.jp/uploaded/attachment/64916.pdf",
+      "quote": "※ 給付認定には、マイナンバーの番号確認と身元確認が必要です。"
+    },
+    "documents.4": {
+      "url": "https://www.city.iwakuni.lg.jp/uploaded/attachment/64916.pdf",
+      "quote": "申請時に必要な書類は次のとおりです。なお、提出された書類はお返しできません。 （１） 保育園等利用申請書"
+    },
+    "ikukyu": {
+      "url": "https://www.city.iwakuni.lg.jp/uploaded/attachment/64916.pdf",
+      "quote": "②育児休業中の場合 職場復帰月の前月から利用申込みが可能。"
+    },
+    "notes.0": {
+      "url": "https://www.city.iwakuni.lg.jp/uploaded/attachment/64916.pdf",
+      "quote": "※1 二次受付期間を過ぎても、随時、受け付けますが、利用の優先順位は低くなります。"
+    },
+    "notes.1": {
+      "url": "https://www.city.iwakuni.lg.jp/uploaded/attachment/64916.pdf",
+      "quote": "保育園等利用開始月の１日に、岩国市に住民票がある場合に限る。"
+    },
+    "notes.2": {
+      "url": "https://www.city.iwakuni.lg.jp/uploaded/attachment/64909.pdf",
+      "quote": "※ 第一希望園に入園できない場合は、電話等で連絡します。"
+    },
+    "notes.3": {
+      "url": "https://www.city.iwakuni.lg.jp/uploaded/attachment/64909.pdf",
+      "quote": "入園が認定こども園、小規模保育事業所の場合、園と入園契約を"
+    },
+    "notes.3#2": {
+      "url": "https://www.city.iwakuni.lg.jp/uploaded/attachment/64909.pdf",
+      "quote": "3月 締結 ※詳細は、各園にお問合せください。（保育園は必要ありません。）"
+    },
+    "notes.4": {
+      "url": "https://www.city.iwakuni.lg.jp/uploaded/attachment/64916.pdf",
+      "quote": "※ 証明書類の提出がない場合には、求職活動中と同様の取扱いとなります。"
+    },
+    "notes.5": {
+      "url": "https://www.city.iwakuni.lg.jp/uploaded/attachment/64916.pdf",
+      "quote": "※就労、介護・看護、就学等の事由による認定には、月 64時間以上の従事が必要です。"
+    }
+  },
+  "sources": [
+    {
+      "label": "岩国市「令和9年度の幼稚園・認定こども園・保育園・小規模保育事業所の利用手続きについて」",
+      "url": "https://www.city.iwakuni.lg.jp/soshiki/127/81165.html"
+    },
+    {
+      "label": "岩国市「令和9年度 保育園等利用の手引き」",
+      "url": "https://www.city.iwakuni.lg.jp/uploaded/attachment/64916.pdf"
+    },
+    {
+      "label": "岩国市「令和9年度 保育園等の新規利用のあんない（2号・3号認定用）」",
+      "url": "https://www.city.iwakuni.lg.jp/uploaded/attachment/64909.pdf"
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "citySlug": "kushiro",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "釧路市「令和8年度　保育施設利用受付」",
+    "url": "https://www.city.kushiro.lg.jp/kosodatekyouiku/kosodate/1008292/1005300/1005301/1017790.html"
+  },
+  "fiscalYear": "R8",
+  "guideRelease": "令和7年11月4日から「保育施設利用のしおり」と申込関係書類を、こども育成課・阿寒町行政センター保健福祉課・認可保育所・認定こども園・地域型保育事業施設で配布",
+  "firstApply": "令和7年12月1日（月曜日）〜令和7年12月12日（金曜日）（土日を除く）",
+  "applyMethods": "必要な書類をそろえて提出する。第1次は市役所こども育成課（午前9時30分〜午後4時30分）か、認可保育所・認定こども園・地域型保育事業施設（午前9時30分〜午後4時、事前に施設への連絡が必要）で受け付け",
+  "firstResult": "2月上旬に自宅へ郵送予定（転入予定の場合は電話連絡になることがある）",
+  "secondApply": "令和8年1月29日（木曜日）〜令和8年2月4日（水曜日）（土日を除く）。第1次受付期間に申し込んだ人は新たに申し込む必要はない",
+  "secondResult": "2月下旬に自宅へ郵送予定（転入予定の場合は電話連絡になることがある）",
+  "midYearDeadline": "利用希望月の2か月前の初日から、利用希望月の前の月の15日まで（15日が土日祝日の場合はその前の平日）",
+  "documents": [
+    "保育の必要性の認定申請書兼保育施設利用申込書、児童状況申告書",
+    "保育を必要とする事由を示す書類（就労は就労証明書、個人事業主は開業届・営業許可証・確定申告書の写し等を添付）。新年度（4月）の申込では書類配布日（11月4日）以前のものは無効",
+    "就労証明書は原本を提出する",
+    "家族に障がいのある人がいる場合は、障がいにかかる手帳等の写し",
+    "単身赴任等で釧路市以外で課税されている場合は、市区町村が発行する課税証明書",
+    "マイナンバー確認のため、通知カードまたは個人番号カード、顔写真付きの運転免許証・パスポート等"
+  ],
+  "interview": "第1次申込では受付時に面談を行うので、利用希望の子どもと一緒に行く。施設で受け付けてもらう場合は事前に施設へ連絡してから子どもと一緒に行く",
+  "ikukyu": "育児休業からの復職にあたって申し込む場合、保育施設の利用が決まったら必ず育児休業を短縮し、利用開始月中に復職する",
+  "notes": [
+    "4月1日付の利用申込は決められた受付期間内だけで、その期間以外の受付はしていない",
+    "書類の不足や不備があって第1次受付期間内に再提出できない場合は、第1次選考の対象にならない",
+    "第3次（最終）申込の受付期間は令和8年2月5日（木曜日）〜令和8年3月13日（金曜日）",
+    "利用を希望する施設は必ず事前に見学する",
+    "希望する施設の数に制限はなく1か所でもよいが、複数希望する場合は送迎できる施設だけを希望する",
+    "釧路市へ転入予定で、利用希望月の1日までに住民登録をする場合は、転入前でも利用申込ができる"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.kushiro.lg.jp/kosodatekyouiku/kosodate/1008292/1005300/1005301/1017790.html",
+      "quote": "2026（令和8）年4月1日付の利用申込は、下記のいずれかの期間内に行ってください。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.kushiro.lg.jp/kosodatekyouiku/kosodate/1008292/1005300/1005301/1017790.html",
+      "quote": "「保育施設利用のしおり」や申込関係書類は、2025（令和7）年11月4日より、こども育成課、阿寒町行政センター保健福祉課、認可保育所、認定こども園、地域型保育事業施設で配布しています。"
+    },
+    "firstApply": {
+      "url": "https://www.city.kushiro.lg.jp/kosodatekyouiku/kosodate/1008292/1005300/1005301/1017790.html",
+      "quote": "受付期間 令和7年12月1日（月曜日）～令和7年12月12日（金曜日） ※土日を除く"
+    },
+    "applyMethods": {
+      "url": "https://www.city.kushiro.lg.jp/kosodatekyouiku/kosodate/1008292/1005300/1005301/1017790.html",
+      "quote": "市役所こども育成課 午前9時30分～午後4時30分 認可保育所、認定こども園、地域型保育事業施設 午前9時30分～午後4時　（事前に施設への連絡が必要です）"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.kushiro.lg.jp/kosodatekyouiku/kosodate/1008292/1005300/1005301/1017790.html",
+      "quote": "各申込期間内に、必要な書類をそろえて提出してください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.kushiro.lg.jp/kosodatekyouiku/kosodate/1008292/1005300/1005301/1017790.html",
+      "quote": "2月上旬にご自宅へ郵送予定です。（転入予定の場合は電話連絡になることがあります）"
+    },
+    "secondApply": {
+      "url": "https://www.city.kushiro.lg.jp/kosodatekyouiku/kosodate/1008292/1005300/1005301/1017790.html",
+      "quote": "受付期間 令和8年1月29日（木曜日）～令和8年2月4日（水曜日） ※土日を除く"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.kushiro.lg.jp/kosodatekyouiku/kosodate/1008292/1005300/1005301/1017790.html",
+      "quote": "第1次受付期間に申込みを行っている方は、新たに申し込みをする必要はありません。"
+    },
+    "secondResult": {
+      "url": "https://www.city.kushiro.lg.jp/kosodatekyouiku/kosodate/1008292/1005300/1005301/1017790.html",
+      "quote": "2月下旬にご自宅へ郵送予定です。（転入予定の場合は電話連絡になることがあります）"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.kushiro.lg.jp/kosodatekyouiku/kosodate/1008292/1005300/1005301/1017790.html",
+      "quote": "利用希望月の2か月前の初日から、利用希望月の前の月の15日（15日が土日祝日の場合はその前の平日）"
+    },
+    "documents.0": {
+      "url": "https://www.city.kushiro.lg.jp/_res/projects/default_project/_page_/001/005/304/r8siori0601.pdf",
+      "quote": "① 保育の必要性の認定申請書兼保育施設利用申込書 ② 児童状況申告書 ③ 保育を必要とする事由を示す書類"
+    },
+    "documents.1": {
+      "url": "https://www.city.kushiro.lg.jp/_res/projects/default_project/_page_/001/005/304/r8siori0601.pdf",
+      "quote": "新年度（４月）の利用申込の場合、書類配布日（11月4日）以前のものは無効です。"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.kushiro.lg.jp/_res/projects/default_project/_page_/001/005/304/r8siori0601.pdf",
+      "quote": "就労証明書※１ 就労 開業届、営業許可証、確定申告書の写し等を添付 （個人事業主）"
+    },
+    "documents.2": {
+      "url": "https://www.city.kushiro.lg.jp/_res/projects/default_project/_page_/001/017/790/tyuuijikou.pdf",
+      "quote": "就労証明書は原本の提出をお願いします。"
+    },
+    "documents.3": {
+      "url": "https://www.city.kushiro.lg.jp/_res/projects/default_project/_page_/001/005/304/r8siori0601.pdf",
+      "quote": "④ （ご家族に障がいのある方がいる場合）障がいにかかる手帳等の写し"
+    },
+    "documents.4": {
+      "url": "https://www.city.kushiro.lg.jp/_res/projects/default_project/_page_/001/005/304/r8siori0601.pdf",
+      "quote": "⑤ 単身赴任等により釧路市以外で課税されている場合、市区町村が発行する課税証明書"
+    },
+    "documents.5": {
+      "url": "https://www.city.kushiro.lg.jp/_res/projects/default_project/_page_/001/005/304/r8siori0601.pdf",
+      "quote": "個人番号確認のため、通知カード又は個人番号カード、顔写真が表示された運転免許証、パスポート等が必要となります。"
+    },
+    "interview": {
+      "url": "https://www.city.kushiro.lg.jp/kosodatekyouiku/kosodate/1008292/1005300/1005301/1017790.html",
+      "quote": "受付時に面談を行いますので、利用希望のお子さんと一緒にお越しください。"
+    },
+    "interview#2": {
+      "url": "https://www.city.kushiro.lg.jp/kosodatekyouiku/kosodate/1008292/1005300/1005301/1017790.html",
+      "quote": "認可保育所、認定こども園、地域型保育事業施設での受付を希望される方は、事前に各施設へ連絡のうえ、お子さんと一緒にお越しください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.kushiro.lg.jp/_res/projects/default_project/_page_/001/005/304/r8siori0601.pdf",
+      "quote": "保育施設の利用が決まった場合は、必ず育児休業を短縮し利用開始月中に復職してください。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.kushiro.lg.jp/_res/projects/default_project/_page_/001/005/304/r8siori0601.pdf",
+      "quote": "育児休業からの復職にあたり利用申込をする場合は、必ずお読みの上☑をしてください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.kushiro.lg.jp/kosodatekyouiku/kosodate/1008292/1005300/1005301/1017790.html",
+      "quote": "2026（令和8）年4月1日付の利用申込は、下記のいずれかの期間内に行ってください。（この期間以外の受付はしておりません）"
+    },
+    "notes.1": {
+      "url": "https://www.city.kushiro.lg.jp/kosodatekyouiku/kosodate/1008292/1005300/1005301/1017790.html",
+      "quote": "書類の不足や不備があり、受付期間内に再提出等ができない場合は、第1次選考の対象となりませんのでご注意ください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.kushiro.lg.jp/kosodatekyouiku/kosodate/1008292/1005300/1005301/1017790.html",
+      "quote": "受付期間令和8年2月5日（木曜日）～令和8年3月13日（金曜日）"
+    },
+    "notes.3": {
+      "url": "https://www.city.kushiro.lg.jp/_res/projects/default_project/_page_/001/005/304/r8siori0601.pdf",
+      "quote": "利用を希望する施設は、必ず事前に見学をしてください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.kushiro.lg.jp/_res/projects/default_project/_page_/001/005/304/r8siori0601.pdf",
+      "quote": "利用を希望する保育施設の数に制限はありませんので、一か所でも構いません。"
+    },
+    "notes.4#2": {
+      "url": "https://www.city.kushiro.lg.jp/_res/projects/default_project/_page_/001/005/304/r8siori0601.pdf",
+      "quote": "複数の施設を利用希望とする場合は、必ず送迎が可能な施設のみを希望してください。"
+    },
+    "notes.5": {
+      "url": "https://www.city.kushiro.lg.jp/_res/projects/default_project/_page_/001/005/304/r8siori0601.pdf",
+      "quote": "釧路市へ転入予定の方で、利用希望月の１日までに釧路市への住民登録をする場合は、転入前でも利用申込をすることができます。"
+    }
+  },
+  "sources": [
+    {
+      "label": "釧路市「令和8年度　保育施設利用受付」",
+      "url": "https://www.city.kushiro.lg.jp/kosodatekyouiku/kosodate/1008292/1005300/1005301/1017790.html"
+    },
+    {
+      "label": "釧路市「令和8年度　保育施設利用申込書の配布について」",
+      "url": "https://www.city.kushiro.lg.jp/kosodatekyouiku/kosodate/1008292/1005300/1005301/1017623.html"
+    },
+    {
+      "label": "釧路市「認可保育施設の利用をするには？」",
+      "url": "https://www.city.kushiro.lg.jp/kosodatekyouiku/kosodate/1008292/1005300/1005301/1005304.html"
+    },
+    {
+      "label": "釧路市「2026(R8)年度　保育施設利用のしおり」（PDF）",
+      "url": "https://www.city.kushiro.lg.jp/_res/projects/default_project/_page_/001/005/304/r8siori0601.pdf"
+    },
+    {
+      "label": "釧路市「就労証明書に関する注意事項」（PDF）",
+      "url": "https://www.city.kushiro.lg.jp/_res/projects/default_project/_page_/001/017/790/tyuuijikou.pdf"
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "citySlug": "kisarazu",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "木更津市「令和9年度4月入園申請のご案内」",
+    "url": "https://www.city.kisarazu.lg.jp/soshiki/kenkokodomo/kodomohoiku/1/4345.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年10月1日（木曜日）から入園申請書類を配布。10月1日〜10月9日は会議室2-7（朝日庁舎2階）、10月13日以降はこども保育課（朝日庁舎1階）で配布",
+  "firstApply": "令和8年11月2日（月曜日）〜11月27日（金曜日）。郵送は11月27日必着、電子申請は11月27日16時30分まで",
+  "applyMethods": "こども保育課（木更津市役所朝日庁舎）に直接持参、電子申請（マイナポータルのぴったりサービス）、郵送のいずれか。1次受付の窓口は原則予約優先で、受付日（第1希望園ごとの日程表）によって受付場所が異なる。電子申請・郵送の場合も、子どもの面談のため締切日までに来庁が必要",
+  "firstResult": "令和8年12月下旬頃",
+  "secondApply": "令和8年11月30日（月曜日）〜令和9年2月16日（火曜日）。3次受付は実施しない",
+  "secondResult": "令和9年3月中旬頃",
+  "midYearDeadline": "5月〜3月入園は、入園希望月の前月10日（10日が土日・祝日の場合はそれ以前の直近の平日）が受付締切",
+  "documents": [
+    "教育・保育給付認定申請書兼施設（事業）利用申請書（児童1人につき1通）",
+    "施設（事業）利用希望届兼マイナンバー（個人番号）申告書",
+    "個人番号が確認できるもの（世帯全員分）と保護者の本人確認書類",
+    "健康状態確認書（児童1人につき1通）と母子健康手帳",
+    "入園申請確認書",
+    "家庭で保育ができない状況を証明する書類（就労証明（申立）書、申立書と診断書など。令和8年10月1日以降に作成された書類が有効）"
+  ],
+  "interview": "申込時は子どもと一緒に来庁する。電子申請・郵送で申し込んだ場合も、子どもの面談のため締切日までに来庁が必要",
+  "ikukyu": "育児休業中は原則として入園対象外。ただし仕事復帰予定日の1か月前の人などは対象で、4月1日入園には4月中または5月1日付での仕事復帰が条件（期限までに復帰できない場合は内定取消しまたは入園月末日退園）",
+  "notes": [
+    "4月入園一次受付の判定は、申請書に記載された希望園の中で点数の高い順に内定し、希望順位は考慮されない",
+    "一次申込で保留になった場合は引き続き二次申込に回るため、再度の申請は不要",
+    "1次受付は原則予約優先。日程表を確認し、都合がつく限り第1希望園の日に来庁する",
+    "医療的ケアが必要な子どもの令和9年4月入園を希望する場合は、令和8年10月15日（木曜日）までに必ず相談する",
+    "郵送の場合は、封筒に宛先（こども保育課）、送り主（申請者）、内容（保育園申請）を必ず記載する"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.kisarazu.lg.jp/soshiki/kenkokodomo/kodomohoiku/1/4345.html",
+      "quote": "入園希望の方は、必ず「令和9年度木更津市保育施設入園のご案内」をご一読ください。"
+    },
+    "fiscalYear#2": {
+      "url": "https://www.city.kisarazu.lg.jp/soshiki/kenkokodomo/kodomohoiku/1/4345.html",
+      "quote": "※令和9年4月入園をご希望の方は、令和8年10月15日（木曜日）までに必ずご相談ください。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.kisarazu.lg.jp/soshiki/kenkokodomo/kodomohoiku/1/4345.html",
+      "quote": "令和8年10月1日（木曜日）から令和8年10月9日（金曜日）：会議室2-7（朝日庁舎2階）"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.kisarazu.lg.jp/soshiki/kenkokodomo/kodomohoiku/1/4345.html",
+      "quote": "令和8年10月13日（月曜日）以降：こども保育課（朝日庁舎1階）"
+    },
+    "firstApply": {
+      "url": "https://www.city.kisarazu.lg.jp/soshiki/kenkokodomo/kodomohoiku/1/4345.html",
+      "quote": "1次受付：令和8年11月2日（月曜日）～令和8年11月27日（金曜日）まで"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.kisarazu.lg.jp/material/files/group/26/pannhu2027.pdf",
+      "quote": "※締切日：令和８年１１月２７日(金)（郵送の場合は必着）（電子申請の場合は１６時３０分まで）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.kisarazu.lg.jp/material/files/group/26/pannhu2027.pdf",
+      "quote": "・申込方法：こども保育課に直接持参、電子申請もしくは郵送"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.kisarazu.lg.jp/soshiki/kenkokodomo/kodomohoiku/1/4345.html",
+      "quote": "1次受付は、原則予約優先で受付します。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.kisarazu.lg.jp/soshiki/kenkokodomo/kodomohoiku/1/4345.html",
+      "quote": "受付日によって受付場所が異なります。下記の日程表をご確認ください。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.kisarazu.lg.jp/soshiki/kenkokodomo/kodomohoiku/1/4353.html",
+      "quote": "保育施設の入園申し込みについては、マイナポータルの「ぴったりサービス」を用いたオンライン申請が可能です。"
+    },
+    "applyMethods#5": {
+      "url": "https://www.city.kisarazu.lg.jp/material/files/group/26/pannhu2027.pdf",
+      "quote": "※電子申請または郵送の場合、お子さんの面談のため締切日までに来庁してください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.kisarazu.lg.jp/soshiki/kenkokodomo/kodomohoiku/1/4345.html",
+      "quote": "1次受付：令和8年12月下旬頃"
+    },
+    "secondApply": {
+      "url": "https://www.city.kisarazu.lg.jp/soshiki/kenkokodomo/kodomohoiku/1/4353.html",
+      "quote": "令和8年11月30日（月曜日）～令和9年2月16日（火曜日）"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.kisarazu.lg.jp/soshiki/kenkokodomo/kodomohoiku/1/4345.html",
+      "quote": "※3次受付は実施しません。"
+    },
+    "secondResult": {
+      "url": "https://www.city.kisarazu.lg.jp/soshiki/kenkokodomo/kodomohoiku/1/4345.html",
+      "quote": "2次受付：令和9年3月中旬頃"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.kisarazu.lg.jp/material/files/group/26/pannhu2027.pdf",
+      "quote": "・受付締切日：入園希望月の前月１０日（１０日が土日･祝日の場合は、１０日以前の直近の平日）"
+    },
+    "documents.0": {
+      "url": "https://www.city.kisarazu.lg.jp/material/files/group/26/pannhu2027.pdf",
+      "quote": "① 教育・保育給付認定申請書兼施設（事業）利用申請書（児童１人につき１通）"
+    },
+    "documents.1": {
+      "url": "https://www.city.kisarazu.lg.jp/material/files/group/26/pannhu2027.pdf",
+      "quote": "② 施設（事業）利用希望届兼マイナンバー（個人番号）申告書"
+    },
+    "documents.2": {
+      "url": "https://www.city.kisarazu.lg.jp/material/files/group/26/pannhu2027.pdf",
+      "quote": "③ 個人番号が確認できるもの（世帯全員分）及び保護者の本人確認書類"
+    },
+    "documents.3": {
+      "url": "https://www.city.kisarazu.lg.jp/material/files/group/26/pannhu2027.pdf",
+      "quote": "④ 健康状態確認書（児童１人につき１通）・母子健康手帳"
+    },
+    "documents.4": {
+      "url": "https://www.city.kisarazu.lg.jp/material/files/group/26/pannhu2027.pdf",
+      "quote": "⑤ 入園申請確認書"
+    },
+    "documents.5": {
+      "url": "https://www.city.kisarazu.lg.jp/material/files/group/26/pannhu2027.pdf",
+      "quote": "⑥ 家庭で保育ができない状況を証明する書類（下表参照）"
+    },
+    "documents.5#2": {
+      "url": "https://www.city.kisarazu.lg.jp/soshiki/kenkokodomo/kodomohoiku/1/4345.html",
+      "quote": "※令和8年10月1日以降に作成された書類が有効となります。先述の日付以前に作成された書類は令和9年度に使用できません。"
+    },
+    "interview": {
+      "url": "https://www.city.kisarazu.lg.jp/material/files/group/26/pannhu2027.pdf",
+      "quote": "９ 入園申込時に必要な書類（申込時はお子さんと一緒にお越しください）"
+    },
+    "interview#2": {
+      "url": "https://www.city.kisarazu.lg.jp/material/files/group/26/pannhu2027.pdf",
+      "quote": "※電子申請または郵送の場合、お子さんの面談のため締切日までに来庁してください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.kisarazu.lg.jp/material/files/group/26/pannhu2027.pdf",
+      "quote": "育児休業中の方は、保育施設の入園対象外です。ただし、下記に該当する場合は、保育施設に入園できる対象になります。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.kisarazu.lg.jp/material/files/group/26/pannhu2027.pdf",
+      "quote": "(1) 仕事復帰予定日の１ヶ月前の方（例：５月１日復帰予定の方の場合、４月１日入園の申込みが可能です。）"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.kisarazu.lg.jp/material/files/group/26/pannhu2027.pdf",
+      "quote": "(1)(2)いずれの場合も、新年度（４月１日）に入園するためには、４月中または５月１日付けで仕事に復帰していただくことが条件です（期限までに復帰できない場合は、内定取消しまたは入園月末日退園となります）。"
+    },
+    "notes.0": {
+      "url": "https://www.city.kisarazu.lg.jp/material/files/group/26/pannhu2027.pdf",
+      "quote": "各保育施設を希望している方（第何希望でも、申請書に記載のある方）の中で、判定表（次頁参照）に基づいて、点数の高い方から順に内定していきます。"
+    },
+    "notes.0#2": {
+      "url": "https://www.city.kisarazu.lg.jp/material/files/group/26/pannhu2027.pdf",
+      "quote": "※希望順位は内定判定に考慮されません。"
+    },
+    "notes.1": {
+      "url": "https://www.city.kisarazu.lg.jp/material/files/group/26/pannhu2027.pdf",
+      "quote": "※一次申込で、保留になった場合は、引き続き二次申込に回るため再度の申請は必要ありません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.kisarazu.lg.jp/soshiki/kenkokodomo/kodomohoiku/1/4345.html",
+      "quote": "下記の日程表をご確認のうえ、都合がつく限り、第1希望園の日にちにお越しください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.kisarazu.lg.jp/soshiki/kenkokodomo/kodomohoiku/1/4345.html",
+      "quote": "※令和9年4月入園をご希望の方は、令和8年10月15日（木曜日）までに必ずご相談ください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.kisarazu.lg.jp/soshiki/kenkokodomo/kodomohoiku/1/4345.html",
+      "quote": "郵送の場合は、封筒に宛先（こども保育課）、送り主（申請者）、内容（保育園申請）を必ず記載してください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "木更津市「令和9年度4月入園申請のご案内」",
+      "url": "https://www.city.kisarazu.lg.jp/soshiki/kenkokodomo/kodomohoiku/1/4345.html"
+    },
+    {
+      "label": "木更津市「令和9年度木更津市保育施設入園のご案内」（PDF）",
+      "url": "https://www.city.kisarazu.lg.jp/material/files/group/26/pannhu2027.pdf"
+    },
+    {
+      "label": "木更津市「保育施設入園申し込みに関するオンライン申請」",
+      "url": "https://www.city.kisarazu.lg.jp/soshiki/kenkokodomo/kodomohoiku/1/4353.html"
+    }
+  ]
+}

@@ -3,18 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "ishigaki",
-    title: "石垣市の保活スケジュール　令和8年度4月入園の流れ",
-    description: "石垣市の認可保育園の申込時期・選考の流れ・結果通知の時期をわかりやすく解説。令和8年度4月入園のスケジュールを中心にまとめました。",
-    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>令和8年度4月入園のスケジュール</h2><p>石垣市は沖縄県八重山地方の中心都市で、日本最南端・最西端の自治体として知られています。離島という特性から保育施設の選択肢は限られますが、独自の入所選考基準が設けられています。申込先は石垣市こどもみらい課です。</p><h2>一次申込</h2><table><tr><th>項目</th><th>日程</th></tr><tr><td>申込受付期間</td><td>令和7年10月下旬〜11月下旬</td></tr><tr><td>結果通知</td><td>令和8年1月下旬</td></tr></table><div class="point-box"><p><strong>ポイント</strong></p><p>石垣市は離島のため、保育施設の絶対数が少ないです。第1希望だけでなく複数希望を出すことが重要です。</p></div>`,
-    publishedAt: "2026-05-08",
-    popularity: 40,
-  },
-  {
     slug: "hokatsu-mistakes",
     citySlug: "ishigaki",
     title: "石垣市の保活でよくある失敗と対策5選",
