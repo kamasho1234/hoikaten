@@ -2,8 +2,8 @@
   "municipalitySlug": "sammu",
   "municipalityName": "山武市",
   "prefecture": "千葉県",
-  "asOf": "2026-09-01",
-  "fetchedAt": "2026-09-30",
+  "asOf": "2026-10-01",
+  "fetchedAt": "2026-10-01",
   "sourceName": "山武市「こども園・保育園等受入状況一覧」",
   "sourceUrl": "https://www.city.sammu.lg.jp/kosodate-sammu/kodomo/page001277.html",
   "sourceFiles": {
@@ -146,7 +146,7 @@
         "○",
         "△",
         "○",
-        "△",
+        "×",
         "△"
       ]
     },
@@ -166,7 +166,7 @@
       "symbols": [
         "×",
         "○",
-        "△",
+        "○",
         "△",
         "△",
         "△"

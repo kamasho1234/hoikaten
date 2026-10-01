@@ -2,12 +2,12 @@
   "municipalitySlug": "bando",
   "municipalityName": "坂東市",
   "prefecture": "茨城県",
-  "asOf": "2026-09-01",
-  "fetchedAt": "2026-09-30",
+  "asOf": "2026-10-01",
+  "fetchedAt": "2026-10-01",
   "sourceName": "坂東市「保育施設等の空き状況」",
   "sourceUrl": "https://www.city.bando.lg.jp/page/page001636.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.bando.lg.jp/data/doc/1788225187_doc_23_0.pdf"
+    "vacancy": "https://www.city.bando.lg.jp/data/doc/1790758172_doc_23_0.pdf"
   },
   "metrics": [
     "symbol"
@@ -123,7 +123,7 @@
         "×",
         "○",
         "○",
-        "×",
+        "○",
         "○"
       ]
     },
@@ -144,9 +144,9 @@
         "×",
         "×",
         "×",
-        "○",
         "×",
-        "×"
+        "×",
+        "○"
       ]
     },
     {

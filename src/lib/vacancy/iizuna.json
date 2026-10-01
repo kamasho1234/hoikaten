@@ -2,12 +2,12 @@
   "municipalitySlug": "iizuna",
   "municipalityName": "飯綱町",
   "prefecture": "長野県",
-  "asOf": "2026-09-01",
-  "fetchedAt": "2026-09-24",
+  "asOf": "2026-10-01",
+  "fetchedAt": "2026-10-01",
   "sourceName": "飯綱町「町立保育園入所空き情報」",
   "sourceUrl": "https://www.town.iizuna.nagano.jp/kosodatesite/docs/10839.html",
   "sourceFiles": {
-    "vacancy": "https://www.town.iizuna.nagano.jp/fs/8/8/8/1/4/_/R8.11___________.pdf"
+    "vacancy": "https://www.town.iizuna.nagano.jp/fs/8/9/2/2/1/_/R8.12_____________.pdf"
   },
   "metrics": [
     "symbol"
@@ -54,7 +54,7 @@
         "×",
         "×",
         "×",
-        "○",
+        "△",
         "△",
         "○"
       ]

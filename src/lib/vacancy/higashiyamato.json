@@ -1,8 +1,8 @@
 {
   "municipalitySlug": "higashiyamato",
   "municipalityName": "東大和市",
-  "asOf": "2026-09-01",
-  "fetchedAt": "2026-09-06",
+  "asOf": "2026-10-01",
+  "fetchedAt": "2026-10-01",
   "sourceName": "東大和市「市内保育施設空き状況」",
   "sourceUrl": "https://www.city.higashiyamato.lg.jp/kosodatekyoiku/hoiku/1007370.html",
   "sourceFiles": {
@@ -140,7 +140,7 @@
       "vacancy": [
         0,
         0,
-        0,
+        1,
         0,
         1,
         0
@@ -168,7 +168,7 @@
       "vacancy": [
         0,
         0,
-        0,
+        1,
         2,
         0,
         0
@@ -195,7 +195,7 @@
       "c": null,
       "vacancy": [
         0,
-        1,
+        0,
         0,
         0,
         0,
@@ -225,7 +225,7 @@
         0,
         0,
         4,
-        1,
+        0,
         0,
         2
       ]
@@ -308,8 +308,8 @@
       "vacancy": [
         null,
         0,
-        1,
-        2,
+        0,
+        3,
         1,
         0
       ]

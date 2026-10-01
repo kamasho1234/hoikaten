@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "kanuma",
   "municipalityName": "鹿沼市",
-  "asOf": "2026-09-01",
-  "fetchedAt": "2026-09-30",
+  "asOf": "2026-10-01",
+  "fetchedAt": "2026-10-01",
   "sourceName": "鹿沼市「認可保育施設受入れ状況一覧」",
   "sourceUrl": "https://www.city.kanuma.tochigi.jp/0192/info-0000010787-0.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.kanuma.tochigi.jp/manage/contents/upload/6a868b52ef54d.pdf"
+    "vacancy": "https://www.city.kanuma.tochigi.jp/manage/contents/upload/6ab60fd2e57b1.pdf"
   },
   "metrics": [
     "symbol"
@@ -53,7 +53,7 @@
       ],
       "symbols": [
         "×",
-        "×",
+        "△",
         "×",
         "△",
         "×",
@@ -145,7 +145,7 @@
         "△",
         "△",
         "△",
-        "△"
+        "×"
       ]
     },
     {
@@ -162,8 +162,8 @@
         null
       ],
       "symbols": [
-        "△",
-        "△",
+        "×",
+        "×",
         "×",
         "×",
         "×",
@@ -187,7 +187,7 @@
         "×",
         "×",
         "×",
-        "×",
+        "△",
         null,
         null
       ]
@@ -251,7 +251,7 @@
       ],
       "symbols": [
         "×",
-        "△",
+        "×",
         "×",
         "△",
         "△",
@@ -273,7 +273,7 @@
       ],
       "symbols": [
         "×",
-        "×",
+        "△",
         "×",
         "△",
         "△",
@@ -383,9 +383,9 @@
       ],
       "symbols": [
         "×",
-        "△",
         "×",
-        "△",
+        "×",
+        "×",
         "×",
         "×"
       ]
@@ -492,7 +492,7 @@
         null
       ],
       "symbols": [
-        "△",
+        "×",
         "×",
         "×",
         null,
@@ -514,7 +514,7 @@
         null
       ],
       "symbols": [
-        "×",
+        "△",
         "×",
         "×",
         null,
@@ -602,7 +602,7 @@
         null
       ],
       "symbols": [
-        "△",
+        "×",
         "△",
         "△",
         null,
@@ -647,7 +647,7 @@
       ],
       "symbols": [
         "×",
-        "×",
+        "△",
         "×",
         "△",
         "×",
@@ -757,9 +757,9 @@
       ],
       "symbols": [
         null,
-        "△",
-        "△",
-        "△",
+        "×",
+        "×",
+        "×",
         "△",
         "△"
       ]

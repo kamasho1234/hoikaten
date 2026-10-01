@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "kashiba",
   "municipalityName": "香芝市",
-  "asOf": "2026-09-01",
-  "fetchedAt": "2026-09-24",
+  "asOf": "2026-10-01",
+  "fetchedAt": "2026-10-01",
   "sourceName": "香芝市「保育所・認定こども園（2・3号）等空き状況」",
   "sourceUrl": "https://www.city.kashiba.lg.jp/site/kosodate/56063.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.kashiba.lg.jp/uploaded/attachment/33538.pdf"
+    "vacancy": "https://www.city.kashiba.lg.jp/uploaded/attachment/33744.pdf"
   },
   "metrics": [
     "symbol"
@@ -130,9 +130,9 @@
         "×",
         "×",
         "×",
+        "△",
         "×",
-        "×",
-        "×"
+        "△"
       ]
     },
     {
@@ -174,7 +174,7 @@
         null,
         null,
         null,
-        "△",
+        "×",
         "×",
         "△"
       ]
@@ -259,7 +259,7 @@
         null
       ],
       "symbols": [
-        "※",
+        "×",
         "※",
         "※",
         "×",
@@ -281,7 +281,7 @@
         null
       ],
       "symbols": [
-        "※",
+        "×",
         "×",
         "×",
         "×",
@@ -325,7 +325,7 @@
         null
       ],
       "symbols": [
-        "△",
+        "×",
         "×",
         "×",
         "×",
@@ -369,9 +369,9 @@
         null
       ],
       "symbols": [
-        "△",
         "×",
         "×",
+        "※",
         "×",
         "×",
         "×"

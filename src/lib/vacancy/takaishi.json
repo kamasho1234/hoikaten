@@ -2,12 +2,12 @@
   "municipalitySlug": "takaishi",
   "municipalityName": "高石市",
   "prefecture": "大阪府",
-  "asOf": "2026-09-01",
-  "fetchedAt": "2026-09-05",
+  "asOf": "2026-10-01",
+  "fetchedAt": "2026-10-01",
   "sourceName": "高石市「受け入れ可能枠一覧表」",
   "sourceUrl": "https://www.city.takaishi.lg.jp/kakuka/kyouiku/kosodatesien_ka/hoiku/ukeire.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.takaishi.lg.jp/material/files/group/19/ukeireR8_9.pdf"
+    "vacancy": "https://www.city.takaishi.lg.jp/material/files/group/19/ukeireR8_10.pdf"
   },
   "metrics": [
     "symbol"
@@ -46,10 +46,10 @@
     {"id":"羽衣保育園","name":"羽衣保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","○","△","×"]},
     {"id":"加茂保育園","name":"加茂保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
     {"id":"たかいし保育園","name":"たかいし保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","△"]},
-    {"id":"東羽衣こども園","name":"東羽衣こども園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","△","×"]},
-    {"id":"南海愛児園","name":"南海愛児園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","○","△","△","△","×"]},
+    {"id":"東羽衣こども園","name":"東羽衣こども園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×","△","△","×"]},
+    {"id":"南海愛児園","name":"南海愛児園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","○","△","△","△","×"]},
     {"id":"取石南こども園","name":"取石南こども園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","△"]},
-    {"id":"取石認定こども園","name":"取石認定こども園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"取石認定こども園","name":"取石認定こども園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","×"]},
     {"id":"清高幼稚園","name":"清高幼稚園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","△","×","×","×"]},
     {"id":"浜寺幼稚園","name":"浜寺幼稚園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","△","×"]},
     {"id":"ルミナス保育園","name":"ルミナス保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":[null,"△","×",null,null,null]}

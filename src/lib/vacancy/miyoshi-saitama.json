@@ -2,8 +2,8 @@
   "municipalitySlug": "miyoshi-saitama",
   "municipalityName": "三芳町",
   "prefecture": "埼玉県",
-  "asOf": "2026-09-01",
-  "fetchedAt": "2026-09-30",
+  "asOf": "2026-10-01",
+  "fetchedAt": "2026-10-01",
   "sourceName": "三芳町「保育所の空き状況」",
   "sourceUrl": "https://www.town.saitama-miyoshi.lg.jp/kosodate/mokuteki/hoikusho/teiin.html",
   "sourceFiles": {
@@ -31,7 +31,7 @@
         0,
         0,
         null,
-        3,
+        2,
         1
       ]
     },
@@ -72,7 +72,7 @@
         0,
         0,
         0,
-        1,
+        0,
         2,
         0
       ]
@@ -86,7 +86,7 @@
         0,
         0,
         0,
-        0,
+        1,
         0,
         0
       ]

@@ -2,8 +2,8 @@
   "municipalitySlug": "chino",
   "municipalityName": "茅野市",
   "prefecture": "長野県",
-  "asOf": "2026-09-01",
-  "fetchedAt": "2026-09-30",
+  "asOf": "2026-10-01",
+  "fetchedAt": "2026-10-01",
   "sourceName": "茅野市「保育園等空き状況」",
   "sourceUrl": "https://www.city.chino.lg.jp/site/kids/1712.html",
   "sourceFiles": {
@@ -117,8 +117,8 @@
         null
       ],
       "symbols": [
-        "○",
-        "○",
+        "×",
+        "×",
         "○",
         "×",
         "○",
@@ -141,7 +141,7 @@
       "symbols": [
         "×",
         "×",
-        "○",
+        "×",
         "○",
         "○",
         "×"
@@ -295,7 +295,7 @@
       "symbols": [
         "×",
         "×",
-        "○",
+        "×",
         "○",
         "○",
         "○"
@@ -383,8 +383,8 @@
       "symbols": [
         "×",
         "×",
-        "×",
-        "×",
+        "○",
+        "○",
         "×",
         "×"
       ]

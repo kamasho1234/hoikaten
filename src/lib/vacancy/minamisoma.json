@@ -2,12 +2,12 @@
   "municipalitySlug": "minamisoma",
   "municipalityName": "南相馬市",
   "prefecture": "福島県",
-  "asOf": "2026-09-01",
-  "fetchedAt": "2026-09-30",
+  "asOf": "2026-10-01",
+  "fetchedAt": "2026-10-01",
   "sourceName": "南相馬市「認可保育施設の空き状況・申込み状況」",
   "sourceUrl": "https://www.city.minamisoma.lg.jp/portal/childcare/shussan_kosodate/5/5838.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.minamisoma.lg.jp/material/files/group/42/akijoukyou9gatu.pdf"
+    "vacancy": "https://www.city.minamisoma.lg.jp/material/files/group/42/akijoukyou10gatu.pdf"
   },
   "metrics": [
     "vacancy",
@@ -56,7 +56,7 @@
         0
       ],
       "waiting": [
-        3,
+        5,
         0,
         1,
         0,
@@ -79,7 +79,7 @@
       ],
       "waiting": [
         null,
-        0,
+        1,
         0,
         0,
         0,
@@ -100,7 +100,7 @@
         0
       ],
       "waiting": [
-        3,
+        5,
         1,
         0,
         0,
@@ -114,7 +114,7 @@
       "w": null,
       "c": null,
       "vacancy": [
-        1,
+        0,
         0,
         0,
         0,
@@ -122,9 +122,9 @@
         0
       ],
       "waiting": [
-        5,
+        6,
         0,
-        3,
+        2,
         1,
         0,
         0
@@ -141,7 +141,7 @@
         0,
         0,
         0,
-        0
+        1
       ],
       "waiting": [
         null,
@@ -166,7 +166,7 @@
         0
       ],
       "waiting": [
-        5,
+        6,
         0,
         0,
         1,
@@ -183,7 +183,7 @@
         null,
         null,
         0,
-        2,
+        5,
         0,
         0
       ],
@@ -204,7 +204,7 @@
       "vacancy": [
         0,
         0,
-        1,
+        0,
         null,
         null,
         null
@@ -224,15 +224,15 @@
       "w": null,
       "c": null,
       "vacancy": [
-        1,
         0,
+        5,
         null,
         null,
         null,
         null
       ],
       "waiting": [
-        2,
+        1,
         0,
         null,
         null,
@@ -254,7 +254,7 @@
         0
       ],
       "waiting": [
-        1,
+        2,
         0,
         0,
         0,
@@ -276,7 +276,7 @@
         0
       ],
       "waiting": [
-        0,
+        1,
         2,
         0,
         0,
@@ -291,7 +291,7 @@
       "c": null,
       "vacancy": [
         0,
-        1,
+        0,
         0,
         null,
         null,
@@ -313,7 +313,7 @@
       "c": null,
       "vacancy": [
         null,
-        2,
+        1,
         1,
         null,
         null,
@@ -321,7 +321,7 @@
       ],
       "waiting": [
         null,
-        1,
+        0,
         0,
         null,
         null,
@@ -342,7 +342,7 @@
         null
       ],
       "waiting": [
-        0,
+        1,
         0,
         0,
         null,

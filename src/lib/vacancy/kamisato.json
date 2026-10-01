@@ -2,12 +2,12 @@
   "municipalitySlug": "kamisato",
   "municipalityName": "上里町",
   "prefecture": "埼玉県",
-  "asOf": "2026-10-01",
-  "fetchedAt": "2026-09-30",
+  "asOf": "2026-11-01",
+  "fetchedAt": "2026-10-01",
   "sourceName": "上里町「保育所（園）等空き状況一覧」",
   "sourceUrl": "https://www.town.kamisato.saitama.jp/item/12892.htm",
   "sourceFiles": {
-    "vacancy": "https://www.town.kamisato.saitama.jp/secure/12892/202610.pdf"
+    "vacancy": "https://www.town.kamisato.saitama.jp/secure/12892/202611.pdf"
   },
   "metrics": [
     "symbol"
@@ -104,7 +104,7 @@
       "symbols": [
         "×",
         "×",
-        "○",
+        "×",
         "○",
         "○",
         "○"
@@ -151,7 +151,7 @@
         "×",
         "×",
         "×",
-        "△"
+        "×"
       ]
     },
     {
@@ -194,7 +194,7 @@
         "×",
         "×",
         "△",
-        "△",
+        "×",
         "△"
       ]
     }
