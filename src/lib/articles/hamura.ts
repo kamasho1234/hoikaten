@@ -3,18 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "hamura",
-    title: "羽村市の保活スケジュール　令和8年度4月入園の流れ",
-    description: "羽村市の認可保育施設の申込時期・選考の流れ・結果通知の時期をわかりやすく解説。令和8年度4月入園のスケジュールを中心にまとめました。",
-    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>令和8年度4月入園のスケジュール</h2><p>羽村市は東京都西部、多摩川沿いに位置し、人口約5万7千人の都市です。JR青梅線が通り、羽村堰（玉川上水の取水口）がある歴史的な地域です。桜の名所としても知られています。福生市・青梅市に隣接しています。申込先は羽村市子ども家庭部保育課です。</p><h3>一次利用調整</h3><table><tr><th>項目</th><th>日程</th></tr><tr><td>申込受付期間</td><td>令和7年10月中旬〜11月上旬</td></tr><tr><td>結果通知</td><td>令和8年1月中旬</td></tr></table><h3>二次利用調整</h3><table><tr><th>項目</th><th>日程</th></tr><tr><td>申込受付期間</td><td>令和8年2月上旬〜2月中旬</td></tr><tr><td>結果通知</td><td>令和8年3月上旬</td></tr></table><div class="point-box"><p><strong>ポイント</strong></p><p>羽村市の選考指数は基準指数（最大20点）＋調整指数で決まります（min方式）。フルタイム共働き両親で基準指数20点が基本ラインです。</p></div>`,
-    publishedAt: "2026-05-15",
-    popularity: 36,
-  },
-  {
     slug: "hokatsu-mistakes",
     citySlug: "hamura",
     title: "羽村市の保活でよくある失敗と対策5選",

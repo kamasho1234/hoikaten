@@ -1,0 +1,182 @@
+{
+  "citySlug": "dazaifu",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "太宰府市「令和9年度認可保育所申込から入所までの流れ」",
+    "url": "https://www.city.dazaifu.lg.jp/soshiki/16/50960.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年9月上旬から入所案内の配付を開始",
+  "firstApply": "令和8年11月2日（月）〜11月30日（月）、平日の午前8時30分〜午後5時。11月14日（土）・11月28日（土）は午前9時〜正午も受付。期間内に申し込んだ人が当初審査の対象で、先着順ではない",
+  "applyMethods": "必要書類を保育児童課窓口（市役所1階13番窓口）に提出する。県外在住で書類を郵送する場合は令和8年11月30日（月）必着",
+  "firstResult": "令和9年1月中旬に、内定なら「入所承諾通知書」、保留なら「入所保留通知書」を送付",
+  "secondApply": "令和8年12月以降は随時受付（平日の午前8時30分〜午後5時）。第1次で保留になった人は再提出不要で第2次の審査対象になる",
+  "secondResult": "令和9年2月から毎月1日（土日祝は翌開庁日）に審査し、内定した人にのみ当月中旬に文書か電話で連絡",
+  "midYearDeadline": "年度途中の入所は入所希望日の前々月の審査から対象になり、審査日（毎月1日）の前開庁日までに申込が必要",
+  "documents": [
+    "保育所等利用申込書兼教育・保育給付認定申請書",
+    "保育料納付誓約書（3〜5歳児クラスの児童は不要）",
+    "子どもの健康チェック表",
+    "見学済証明書（見学時に保育所から確認印等をもらう）",
+    "保育の必要性を証明する書類（父・母それぞれ。就労・自営業・内職・産休育休の人は就労証明書を就労先・事業主に証明してもらう）",
+    "育児休業についての申立書（育休延長を許容でき、利用調整で減点となってもよい場合のみ）"
+  ],
+  "interview": "申込前に希望する全ての保育所を子どもと一緒に見学（要予約）し、見学済証明書に確認印等をもらう。確認印等が無いと希望園として受け付けられない場合がある",
+  "ikukyu": "希望園に入れなければ育休延長も許容できる人は「育児休業についての申立書」を出せるが、利用調整で-10の減点になる。第1次で保留になった人には入所保留通知書が送付される",
+  "notes": [
+    "令和8年度の申込で入所保留になっている人も、改めて令和9年度の申込期間内に申し込む必要がある",
+    "令和9年度の年度途中に入所を希望する場合もこの申込の対象",
+    "入所内定後は入所希望日を変更できないので、ならし保育の期間を含めて入所可能な日を設定する",
+    "申込後の変更（希望園・入所希望日・保育の必要性）を第1次の利用調整に反映させるには11月30日までに申し出る",
+    "全員共通の書類（1〜5）が揃わないと受付できない。書類の日付は受付時点で2か月前以降のものが必要",
+    "求職活動で入所した場合は入所日から3か月以内に就業し就労証明書を出す必要があり、決まらなければ原則退所"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.dazaifu.lg.jp/soshiki/16/50960.html",
+      "quote": "令和9年度（令和9年4月1日から令和10年3月31日まで）の間に太宰府市の認可保育所、認定こども園、小規模保育所への入所を希望する人"
+    },
+    "guideRelease": {
+      "url": "https://www.city.dazaifu.lg.jp/soshiki/16/50960.html",
+      "quote": "令和8年9月上旬から、「令和9年度太宰府市認可保育所入所案内」の配付を開始しています。"
+    },
+    "firstApply": {
+      "url": "https://www.city.dazaifu.lg.jp/soshiki/16/50960.html",
+      "quote": "令和8年11月2日（月曜日）から11月30日（月曜日）　午前8時30分から午後5時まで"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.dazaifu.lg.jp/soshiki/16/50960.html",
+      "quote": "土曜日・日曜日・祝日を除く。ただし、11月14日（土曜日）、11月28日（土曜日）は午前9時から正午まで受付します。"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.dazaifu.lg.jp/site/navi/50399.html",
+      "quote": "申し込み期間が1ヶ月間となっておりますのでご注意ください。（先着順ではありません。）"
+    },
+    "firstApply#4": {
+      "url": "https://www.city.dazaifu.lg.jp/site/navi/50399.html",
+      "quote": "上記期間内に申し込みをした人が、当初審査の対象となります。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.dazaifu.lg.jp/site/navi/50399.html",
+      "quote": "保育児童課窓口（市役所1階13番窓口）"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.dazaifu.lg.jp/site/navi/50399.html",
+      "quote": "県外にお住まいで書類を郵送する場合、令和8年11月30日（月曜日）必着。"
+    },
+    "firstResult": {
+      "url": "https://www.city.dazaifu.lg.jp/soshiki/16/50960.html",
+      "quote": "選考の結果、入所が内定した場合は「入所承諾通知書」を、保留となった場合は「入所保留通知書」を令和9年1月中旬に送付します。"
+    },
+    "secondApply": {
+      "url": "https://www.city.dazaifu.lg.jp/soshiki/16/50960.html",
+      "quote": "令和8年12月以降随時　午前8時30分から午後5時まで"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.dazaifu.lg.jp/soshiki/16/50960.html",
+      "quote": "第1次利用申込を取り下げされない限りは、引き続き令和9年度の第2次利用調整の審査対象となります。再度申込書類を提出いただく必要はありません。"
+    },
+    "secondResult": {
+      "url": "https://www.city.dazaifu.lg.jp/soshiki/16/50960.html",
+      "quote": "令和9年2月から、毎月1日（土曜日・日曜日・祝日の場合、翌開庁日）に審査を実施します。"
+    },
+    "secondResult#2": {
+      "url": "https://www.city.dazaifu.lg.jp/soshiki/16/50960.html",
+      "quote": "選考の結果、入所が内定した人にのみ、当月中旬に文書もしくは電話で連絡します。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.dazaifu.lg.jp/soshiki/16/50960.html",
+      "quote": "令和8年12月以降に利用申込を行った人で年度途中に入所希望の場合、入所希望日の前々月から審査対象となります。審査日の前開庁日までに申込が必要です。"
+    },
+    "documents.0": {
+      "url": "https://www.city.dazaifu.lg.jp/site/navi/50399.html",
+      "quote": "1.保育所等利用申込書兼教育・保育給付認定申請書"
+    },
+    "documents.1": {
+      "url": "https://www.city.dazaifu.lg.jp/site/navi/50399.html",
+      "quote": "2.保育料納付誓約書(3～5歳児クラスの児童は不要）"
+    },
+    "documents.2": {
+      "url": "https://www.city.dazaifu.lg.jp/site/navi/50399.html",
+      "quote": "3.子どもの健康チェック表"
+    },
+    "documents.3": {
+      "url": "https://www.city.dazaifu.lg.jp/site/navi/50399.html",
+      "quote": "入所申込前に希望する全ての保育所に児童と一緒に見学へ行き（要予約）、保育所から見学済証明書に確認印等をもらってください。"
+    },
+    "documents.4": {
+      "url": "https://www.city.dazaifu.lg.jp/site/navi/50399.html",
+      "quote": "就労の方、自営業の方、内職の方、産休・育休取得（予定）の方の証明書です（就労先・事業主に証明してもらいます）"
+    },
+    "documents.4#2": {
+      "url": "https://www.city.dazaifu.lg.jp/site/navi/50399.html",
+      "quote": "利用希望児童の父および母"
+    },
+    "documents.5": {
+      "url": "https://www.city.dazaifu.lg.jp/site/navi/50399.html",
+      "quote": "希望する保育所等に入所できない場合は、育児休業の延長も許容できるため、利用調整において減点となってもよい場合"
+    },
+    "interview": {
+      "url": "https://www.city.dazaifu.lg.jp/soshiki/16/50960.html",
+      "quote": "入所申込前に希望する全ての保育所に児童と一緒に見学へ行き（要予約）、保育所から見学済証明書に確認印等をもらってください。"
+    },
+    "interview#2": {
+      "url": "https://www.city.dazaifu.lg.jp/soshiki/16/50960.html",
+      "quote": "確認印等がない場合は、入所希望保育所として受け付けができない場合があります。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.dazaifu.lg.jp/site/navi/50399.html",
+      "quote": "注意：育児休業についての申立書を提出した場合-10の減点対象となります"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.dazaifu.lg.jp/site/navi/50399.html",
+      "quote": "希望する保育所等に入所できない場合は、育児休業の延長も許容できるため、利用調整において減点となってもよい場合"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.dazaifu.lg.jp/uploaded/attachment/30639.pdf",
+      "quote": "入所保留通知は一次利用調整の結果、待機となった場合は市から通知します。"
+    },
+    "notes.0": {
+      "url": "https://www.city.dazaifu.lg.jp/soshiki/16/50960.html",
+      "quote": "令和8年度の入所申込をすでに行い入所保留になっている方も、あらためて令和9年度の入所申込期間内の申込が必要です。"
+    },
+    "notes.1": {
+      "url": "https://www.city.dazaifu.lg.jp/soshiki/16/50960.html",
+      "quote": "年度途中に入所を希望する場合も含みます。"
+    },
+    "notes.2": {
+      "url": "https://www.city.dazaifu.lg.jp/soshiki/16/50960.html",
+      "quote": "入所内定後は入所希望日の変更ができません。ならし保育の期間を含めて、必ず入所可能な日を設定してください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.dazaifu.lg.jp/soshiki/16/50960.html",
+      "quote": "なお、一次利用調整に反映させる場合は、第1次申込受付期間中（11月30日まで）に申出が必要です。"
+    },
+    "notes.4": {
+      "url": "https://www.city.dazaifu.lg.jp/site/navi/50399.html",
+      "quote": "全員共通の1・2・3・4・5については、すべて揃わなければ申し込みの受付ができません。"
+    },
+    "notes.4#2": {
+      "url": "https://www.city.dazaifu.lg.jp/uploaded/attachment/30639.pdf",
+      "quote": "◆申込の受付時点で書類の日付が２ヶ月前以降のものを受け付けます。"
+    },
+    "notes.5": {
+      "url": "https://www.city.dazaifu.lg.jp/soshiki/16/50960.html",
+      "quote": "求職活動で入所決定した場合は、必ず入所日から3か月以内に就業（月64時間以上の就労）し、保育児童課へ就労証明書を提出してください。就労が決まらなければ原則退所になります。"
+    }
+  },
+  "sources": [
+    {
+      "label": "太宰府市「令和9年度認可保育所申込から入所までの流れ」",
+      "url": "https://www.city.dazaifu.lg.jp/soshiki/16/50960.html"
+    },
+    {
+      "label": "太宰府市「令和9年度保育所入所案内を配付します」",
+      "url": "https://www.city.dazaifu.lg.jp/site/navi/50399.html"
+    },
+    {
+      "label": "太宰府市「令和9年度入所案内」（PDF）",
+      "url": "https://www.city.dazaifu.lg.jp/uploaded/attachment/30639.pdf"
+    }
+  ]
+}

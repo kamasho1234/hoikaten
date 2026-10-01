@@ -2,7 +2,6 @@ import type { Article } from "./types";
 import { registerArticles } from "./index";
 
 const articles: Article[] = [
-  { slug: "hokatsu-schedule", citySlug: "iizuka", title: "飯塚市の保活スケジュール　令和8年度4月入園の流れ", description: "飯塚市の保活スケジュール。", image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop", category: "保活の基本", categoryColor: "green", content: `<h2>飯塚市について</h2><p>飯塚市は人口約13万人で、福岡県筑豊地域の中心都市です。</p>`, publishedAt: "2026-04-29", popularity: 43 },
   { slug: "hokatsu-mistakes", citySlug: "iizuka", title: "飯塚市の保活でよくある失敗と対策5選", description: "失敗パターン。", image: "https://images.unsplash.com/photo-1476703993599-0035a21b17a9?w=800&h=400&fit=crop", category: "保活の基本", categoryColor: "green", content: `<h2>失敗対策</h2><p>飯塚市での保活で気をつけること。</p>`, publishedAt: "2026-04-29", popularity: 39 },
   { slug: "hokatsu-basics", citySlug: "iizuka", title: "飯塚市での保活、いつから始めるべき？", description: "初心者向け。", image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop", category: "保活の基本", categoryColor: "green", content: `<h2>保活の流れ</h2><p>準備は早めが大切です。</p>`, publishedAt: "2026-04-29", popularity: 37 },
   { slug: "point-system", citySlug: "iizuka", title: "飯塚市の基本指数システム　40点満点の仕組み", description: "基本指数。", image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop", category: "保活の基本", categoryColor: "green", content: `<h2>基本指数の仕組み</h2><p>40点満点で競争が決まります。</p>`, publishedAt: "2026-04-29", popularity: 51 },

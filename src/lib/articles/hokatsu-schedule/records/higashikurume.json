@@ -1,0 +1,141 @@
+{
+  "citySlug": "higashikurume",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "東久留米市「令和9年度4月（一次）教育・保育給付認定申請及び認可保育施設への入所申し込みのご案内」",
+    "url": "https://www.city.higashikurume.lg.jp/kurashi/kosodate/hoiku/1005391.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年10月23日（金曜日）から、新年度の「入園のしおり」と申請書類を保育幼稚園課（市役所2階）で配付し、市ホームページでも公開",
+  "firstApply": "郵送・保育幼稚園課設置ポストへの投函は令和8年11月2日（月曜日）〜11月24日（火曜日）必着（オンライン申請は最終日の午後11時59分まで）。窓口での対面申請（事前予約制）は令和8年11月6日（金曜日）〜11月11日（水曜日）、11月7日・8日を除く",
+  "applyMethods": "郵送、保育幼稚園課窓口に設置する申請書受付ポストへの投函（予約不要）、窓口での対面申請（事前予約制。予約のない来庁による窓口申請は受け付けない）、マイナポータル「ぴったりサービス」によるオンライン申請。電子メール・ファクスでは申し込めない",
+  "firstResult": "4月（一次）入所申請者の利用調整結果通知は1月下旬ごろ発送予定",
+  "documents": [
+    "東久留米市 子どものための教育・保育給付認定申請書兼利用申込書（市様式）",
+    "健康状況等調査書（市様式。申請児童1人につき1枚）",
+    "確認票（市様式）",
+    "就労の場合は就労証明書（市様式）。自営業等はあわせて直近の確定申告書の写し等とタイムスケジュール表（市様式）",
+    "令和9年4月1日までに転入予定で申請する場合は、転入誓約書（市様式）、賃貸契約書や土地売買契約書の写し、世帯全員記載の住民票の写し、住民税（非）課税証明書（父母ともに）"
+  ],
+  "interview": "入所が内定したら、健康診断の受診と内定した施設での面接を受ける",
+  "ikukyu": "育児休業取得中で申請書裏面の「保育を希望するが申し込んだ園に落選した場合は育休延長等も可」にチェックし、就労証明書で育休中と確認された場合は、利用調整指数が著しく減点される。空きがあり希望者がほかにいなければ内定する場合もあり、内定を取り下げても「入所保留通知書」は発行されない",
+  "notes": [
+    "令和8年度の入所申請をして決定を待っている人も、令和9年4月1日以降の入所を希望するなら受付期間中に改めて申し込む",
+    "入所利用調整は先着順ではない",
+    "4月（一次）申請の希望施設の追加・変更は「入所希望保育施設変更届」で令和8年11月30日（月曜日）必着（窓口は午後5時まで）。それ以降の提出は4月（二次）の利用調整から反映",
+    "0歳児（出産予定）は仮申請ができるが、内定しても実際の出生日が令和9年2月4日以降だと4月1日に生後57日目に達しないため、仮申請と内定は取り消しになる",
+    "要支援児保育の申請は一次申請期間（令和8年11月2日〜11月24日）だけ受け付ける"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.higashikurume.lg.jp/kurashi/kosodate/hoiku/1005391.html",
+      "quote": "既に令和8年度の入所申し込みをして決定を待っている方で、令和9年4月1日以降も引き続き入所を希望する方は、受付期間中に必要書類を添付して、申し込んでください。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.higashikurume.lg.jp/kurashi/kosodate/hoiku/1005391.html",
+      "quote": "令和9年度の「入園のしおり」と申請書類を、令和8年10月23日（金曜日）から保育幼稚園課（市役所2階）で配付及び市ホームページで公開します"
+    },
+    "firstApply": {
+      "url": "https://www.city.higashikurume.lg.jp/kurashi/kosodate/hoiku/1005391.html",
+      "quote": "令和8年11月2日（月曜日）から令和8年11月24日（火曜日）まで　※必着"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.higashikurume.lg.jp/kurashi/kosodate/hoiku/1005391.html",
+      "quote": "令和8年11月6日（金曜日）から令和8年11月11日（水曜日）まで　＜※11月7日（土曜日）、11月8日（日曜日）は除く＞"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.higashikurume.lg.jp/kurashi/kosodate/hoiku/1021180.html",
+      "quote": "オンライン申請の締め切りは受付期間終了日の午後11時59分までとなります。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.higashikurume.lg.jp/kurashi/kosodate/hoiku/1005391.html",
+      "quote": "上記期間中、保育幼稚園課窓口に申請書受付ポストを設置します。受付ポストは予約不要で投函が可能です。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.higashikurume.lg.jp/kurashi/kosodate/hoiku/1005391.html",
+      "quote": "事前予約がない方の来庁による窓口申請はお受け付けできません。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.higashikurume.lg.jp/kurashi/kosodate/hoiku/1005391.html",
+      "quote": "マイナポータルの「ぴったりサービス」を用いたオンライン申請については、以下のページをご覧ください。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.higashikurume.lg.jp/kurashi/kosodate/hoiku/1005391.html",
+      "quote": "申請の際は郵送、保育幼稚園課設置の申請書受付ポスト、オンライン申請をぜひご活用ください。"
+    },
+    "applyMethods#5": {
+      "url": "https://www.city.higashikurume.lg.jp/kurashi/kosodate/hoiku/1005391.html",
+      "quote": "電子メール、ファクス等での入所申し込みはできません。"
+    },
+    "firstResult": {
+      "url": "https://www.city.higashikurume.lg.jp/kurashi/kosodate/hoiku/1005391.html",
+      "quote": "4月（一次）入所申請者の、利用調整結果通知は1月下旬ごろ発送予定です。"
+    },
+    "documents.0": {
+      "url": "https://www.city.higashikurume.lg.jp/kurashi/kosodate/hoiku/1005391.html",
+      "quote": "東久留米市 子どものための教育・保育給付認定申請書兼利用申込書[市様式]"
+    },
+    "documents.1": {
+      "url": "https://www.city.higashikurume.lg.jp/kurashi/kosodate/hoiku/1005391.html",
+      "quote": "健康状況等調査書[市様式]　※申請児童1人につき1枚必要です"
+    },
+    "documents.2": {
+      "url": "https://www.city.higashikurume.lg.jp/kurashi/kosodate/hoiku/1005391.html",
+      "quote": "確認票[市様式]"
+    },
+    "documents.3": {
+      "url": "https://www.city.higashikurume.lg.jp/kurashi/kosodate/hoiku/1005391.html",
+      "quote": "直近の確定申告書の写し等（電子申請の場合は「受信通知の写し」も合わせてご提出ください。）"
+    },
+    "documents.4": {
+      "url": "https://www.city.higashikurume.lg.jp/kurashi/kosodate/hoiku/1005391.html",
+      "quote": "4月1日までに東久留米市へ転入予定の方は、対象となっている必要書類を添付し締切日までに東久留米市保育幼稚園課へ直接提出してください。"
+    },
+    "interview": {
+      "url": "https://www.city.higashikurume.lg.jp/_res/projects/default_project/_page_/001/001/551/mapnasi.pdf",
+      "quote": "健康診断の受診と施設での面接を受けていただきます。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.higashikurume.lg.jp/_res/projects/default_project/_page_/001/001/551/mapnasi.pdf",
+      "quote": "就労証明書で育児休業取得中であることが確認された場合は、利用調整指数が著しく減点され入所内定しづらくなりますが、"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.higashikurume.lg.jp/_res/projects/default_project/_page_/001/001/551/mapnasi.pdf",
+      "quote": "入所内定した場合、内定を取り下げても「入所保留通知書」は発行できませんのでご了承ください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.higashikurume.lg.jp/kurashi/kosodate/hoiku/1005391.html",
+      "quote": "既に令和8年度の入所申し込みをして決定を待っている方で、令和9年4月1日以降も引き続き入所を希望する方は、受付期間中に必要書類を添付して、申し込んでください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.higashikurume.lg.jp/kurashi/kosodate/hoiku/1005391.html",
+      "quote": "入所利用調整は先着順ではありません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.higashikurume.lg.jp/kurashi/kosodate/hoiku/1005391.html",
+      "quote": "締切日以降に「入所希望保育施設変更届」を提出された場合は、4月（二次）の利用調整分から反映となります。"
+    },
+    "notes.3": {
+      "url": "https://www.city.higashikurume.lg.jp/kurashi/kosodate/hoiku/1005391.html",
+      "quote": "仮申請された方で入所内定した場合でも、実際の出生日が令和9年2月4日（木曜日）以降の場合は、令和9年4月1日に生後57日目に達しないため、仮申請と内定は取り消しになります。"
+    },
+    "notes.4": {
+      "url": "https://www.city.higashikurume.lg.jp/kurashi/kosodate/hoiku/1005391.html",
+      "quote": "要支援児保育申請の受け付けは一次申請期間のみとなります。希望する方は上記期間に必ず申請してください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "東久留米市「令和9年度4月（一次）教育・保育給付認定申請及び認可保育施設への入所申し込みのご案内」",
+      "url": "https://www.city.higashikurume.lg.jp/kurashi/kosodate/hoiku/1005391.html"
+    },
+    {
+      "label": "東久留米市「保育所・幼稚園等に関するオンライン申請」",
+      "url": "https://www.city.higashikurume.lg.jp/kurashi/kosodate/hoiku/1021180.html"
+    },
+    {
+      "label": "東久留米市「保育施設入園のしおり・保育施設紹介のしおり」（入園のしおり 令和8年度）",
+      "url": "https://www.city.higashikurume.lg.jp/_res/projects/default_project/_page_/001/001/551/mapnasi.pdf"
+    }
+  ]
+}

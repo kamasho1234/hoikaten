@@ -1,0 +1,188 @@
+{
+  "citySlug": "higashimatsuyama",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "東松山市「保育施設(保育園等)入所のご案内」",
+    "url": "https://www.city.higashimatsuyama.lg.jp/soshiki/58/46589.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年10月16日（金曜日）〜10月30日（金曜日）の平日午前9時〜午後4時30分（正午〜午後1時30分を除く）と、10月24日（土曜日）午前9時〜午後0時30分。出生日が令和8年10月1日〜12月1日の0歳児は、入園年齢を満たす施設に限り令和8年12月24日（木曜日）まで受け付ける",
+  "applyMethods": "1次申込みは東松山市総合会館地下1階AV会議室で受付（2次申込みは総合会館2階の保育課窓口）。書類は保育課へ持参し郵送は不可。電子申請でも受け付ける（リンクは10月16日公開予定）",
+  "firstResult": "2月中旬以降を目安に郵送で通知",
+  "secondApply": "令和8年12月1日（火曜日）〜令和9年1月21日（木曜日）。1次申込みをしていない人が対象で、1次の結果が保留の人は自動的に対象になる",
+  "secondResult": "3月上旬以降を目安に郵送で通知",
+  "midYearDeadline": "令和9年度の年度途中（令和9年5月以降）の入所は、希望月の前々月末（土日・祝日の場合は前の平日）までに保育課へ申請書を提出。令和9年5月入所分は令和9年3月1日から受付",
+  "documents": [
+    "教育・保育給付認定申請書",
+    "保育を必要とする証明書類（労働・育児休業は就労証明書など、事由ごと。64歳以下（令和9年4月1日時点）の同居祖父母の分も必要）",
+    "家庭状況調査票",
+    "保育施設利用申込書",
+    "児童の健康に関する質問票",
+    "世帯全員分のマイナンバーカードと窓口来庁者の本人確認書類、母子健康手帳"
+  ],
+  "interview": "申込み当日に書類受付の後、お子さんを交えた保護者（父又は母）との面談がある。お子さんと一緒に来庁する。2次申込みの面談は毎週火曜日・木曜日の13時〜15時",
+  "ikukyu": "入所できなかったときの「施設利用保留通知書」は申込みのあった当月のみ発行される。育休延長を許容できる場合は申込時に「育児休業の延長に伴う入所選考順位に係る申出書」を提出し、入所選考順位が引き下げられる",
+  "notes": [
+    "希望する施設は事前に見学する。6園以上の選考を希望する場合は申請の際に申し出る",
+    "育児休業給付金の期間延長手続き等で申請書の写しが必要な場合は、申請前に自分でコピーを取っておく",
+    "産休・育休明けでの申込みは、入所日が属する月の翌月15日までに職場に復帰することが条件",
+    "利用調整は希望施設として記入された範囲で行い、記入が無い施設は定員に空きがあっても調整しない",
+    "1次申込みで内定した場合は2次申込みの対象にならない"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.higashimatsuyama.lg.jp/uploaded/attachment/20715.pdf",
+      "quote": "【令和９年度４月入所希望の場合】【１次申込み】"
+    },
+    "firstApply": {
+      "url": "https://www.city.higashimatsuyama.lg.jp/soshiki/58/46589.html",
+      "quote": "令和8年10月16日(金曜日)から令和8年10月30日(金曜日)までのうち平日午前9時から午後4時30分まで(正午から午後1時30分を除く)"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.higashimatsuyama.lg.jp/soshiki/58/46589.html",
+      "quote": "令和8年10月24日(土曜日)午前9時から午後0時30分まで"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.higashimatsuyama.lg.jp/soshiki/58/46589.html",
+      "quote": "出生日が令和8年10月1日から令和8年12月1日までのお子さん（0歳児）については、入園年齢を満たす施設に限り、令和8年12月24日（木曜日）まで申請を受け付けます。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.higashimatsuyama.lg.jp/uploaded/attachment/20715.pdf",
+      "quote": "受 付 場 所 東松山市総合会館地下１階（市役所前建物） ＡＶ会議室"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.higashimatsuyama.lg.jp/uploaded/attachment/20715.pdf",
+      "quote": "必要事項をご記入の上、保育課までご持参ください。（郵送不可）"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.higashimatsuyama.lg.jp/soshiki/58/46589.html",
+      "quote": "電子申請による受付も行っております。（リンク先は10月16日公開予定）"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.higashimatsuyama.lg.jp/uploaded/attachment/20715.pdf",
+      "quote": "受 付 場 所 東松山市総合会館２階 保育課窓口（時間は８時３０分から１７時１５分まで、土日祝日は除く。）"
+    },
+    "firstResult": {
+      "url": "https://www.city.higashimatsuyama.lg.jp/uploaded/attachment/20715.pdf",
+      "quote": "利用調整結果は以下の日程を目安に郵送で通知します。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.higashimatsuyama.lg.jp/uploaded/attachment/20715.pdf",
+      "quote": "４月入所 【１次申込み】⇒２月中旬以降 【２次申込み】⇒３月上旬以降"
+    },
+    "secondApply": {
+      "url": "https://www.city.higashimatsuyama.lg.jp/soshiki/58/46589.html",
+      "quote": "令和8年12月1日(火曜日)から令和9年1月21日(木曜日)まで"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.higashimatsuyama.lg.jp/soshiki/58/46589.html",
+      "quote": "1次申込みをしていない方が対象（(注意)1次申込みの結果、保留の方は自動的に対象となります）"
+    },
+    "secondResult": {
+      "url": "https://www.city.higashimatsuyama.lg.jp/uploaded/attachment/20715.pdf",
+      "quote": "４月入所 【１次申込み】⇒２月中旬以降 【２次申込み】⇒３月上旬以降"
+    },
+    "secondResult#2": {
+      "url": "https://www.city.higashimatsuyama.lg.jp/uploaded/attachment/20715.pdf",
+      "quote": "利用調整結果は以下の日程を目安に郵送で通知します。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.higashimatsuyama.lg.jp/soshiki/58/46589.html",
+      "quote": "令和9年度の年度途中(令和9年5月以降)の入所希望の場合、希望月の前々月末(土曜日・日曜日、祝日の場合は前の平日)までに、保育課へ各種申請書を提出してください。"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.higashimatsuyama.lg.jp/soshiki/58/46589.html",
+      "quote": "なお、令和9年5月入所分については、令和9年3月1日(月曜日)から受付いたします。"
+    },
+    "documents.0": {
+      "url": "https://www.city.higashimatsuyama.lg.jp/uploaded/attachment/20715.pdf",
+      "quote": "①教育・保育給付認定申請書 ②保育を必要とする証明書類"
+    },
+    "documents.1": {
+      "url": "https://www.city.higashimatsuyama.lg.jp/uploaded/attachment/20715.pdf",
+      "quote": "保護者及び６４歳以下（令和９年４月１日時点）の同居祖父母（別世帯含む）について、８ページの"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.higashimatsuyama.lg.jp/uploaded/attachment/20715.pdf",
+      "quote": "○労働、育児休業･･･････就労証明書（★）"
+    },
+    "documents.2": {
+      "url": "https://www.city.higashimatsuyama.lg.jp/uploaded/attachment/20715.pdf",
+      "quote": "③家庭状況調査票 ④保育施設利用申込書 ⑤児童の健康に関する質問票"
+    },
+    "documents.3": {
+      "url": "https://www.city.higashimatsuyama.lg.jp/uploaded/attachment/20715.pdf",
+      "quote": "③家庭状況調査票 ④保育施設利用申込書 ⑤児童の健康に関する質問票"
+    },
+    "documents.4": {
+      "url": "https://www.city.higashimatsuyama.lg.jp/uploaded/attachment/20715.pdf",
+      "quote": "③家庭状況調査票 ④保育施設利用申込書 ⑤児童の健康に関する質問票"
+    },
+    "documents.5": {
+      "url": "https://www.city.higashimatsuyama.lg.jp/uploaded/attachment/20573.pdf",
+      "quote": "申込書類一式、マイナンバーカード、本人確認書類、母子健康手帳"
+    },
+    "documents.5#2": {
+      "url": "https://www.city.higashimatsuyama.lg.jp/soshiki/58/46589.html",
+      "quote": "つきましては、「世帯全員分のマイナンバーカード（注意1）」及び「窓口来庁者の本人確認書類（注意2）」を窓口にて御提示いただきますようお願いします。"
+    },
+    "interview": {
+      "url": "https://www.city.higashimatsuyama.lg.jp/uploaded/attachment/20715.pdf",
+      "quote": "申込みの受付は、①申込書類の受付→②お子さんを交えた保護者との面談という流れで行います。"
+    },
+    "interview#2": {
+      "url": "https://www.city.higashimatsuyama.lg.jp/uploaded/attachment/20715.pdf",
+      "quote": "書類受付後、面談を実施しますので、お子さんと一緒にご来庁ください。"
+    },
+    "interview#3": {
+      "url": "https://www.city.higashimatsuyama.lg.jp/soshiki/58/46589.html",
+      "quote": "毎週火曜日、木曜日の午後1時から3時の間に、お子さんと一緒にご来庁ください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.higashimatsuyama.lg.jp/uploaded/attachment/20715.pdf",
+      "quote": "東松山市では、保育施設に入所できない場合に「施設利用保留通知書」を発行していますが、この通知は申込みのあった当月のみ発行するものであり"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.higashimatsuyama.lg.jp/uploaded/attachment/20715.pdf",
+      "quote": "申込時点で育児休業の延長に許容できる場合は、入所のご希望のある方を優先して利用調整を行いますので、申込時に「育児休業の延長に伴う入所選考順位に係る申出書」を提出してください。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.higashimatsuyama.lg.jp/uploaded/attachment/20715.pdf",
+      "quote": "① 利用調整（選考）において、入所選考順位を引き下げます。"
+    },
+    "notes.0": {
+      "url": "https://www.city.higashimatsuyama.lg.jp/uploaded/attachment/20573.pdf",
+      "quote": "希望する施設は事前に見学をしてください。詳細は別紙「保育施設利用申込書」をご確認ください。６園以上選考を希望する場合は申請の際にお申し出ください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.higashimatsuyama.lg.jp/uploaded/attachment/20573.pdf",
+      "quote": "育児休業給付金の期間延長手続き等のため、保育施設の利用申込みを行ったときの申請書の写しが必要な場合は、申請前に必ずご自身でコピーを取ってから申込みをしてください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.higashimatsuyama.lg.jp/uploaded/attachment/20715.pdf",
+      "quote": "入所日が属する月の翌月の１５日までに職場に復帰することが申込みの条件となります。"
+    },
+    "notes.3": {
+      "url": "https://www.city.higashimatsuyama.lg.jp/uploaded/attachment/20715.pdf",
+      "quote": "利用調整は希望施設として記入されている範囲で行います。記入がない施設は、定員に空きがあっても利用調整を行いませんので、ご注意ください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.higashimatsuyama.lg.jp/uploaded/attachment/20715.pdf",
+      "quote": "※１次申込みで内定した場合、２次申込みの対象とはなりません。"
+    }
+  },
+  "sources": [
+    {
+      "label": "東松山市「保育施設(保育園等)入所のご案内」",
+      "url": "https://www.city.higashimatsuyama.lg.jp/soshiki/58/46589.html"
+    },
+    {
+      "label": "東松山市「令和9年度東松山市保育施設利用の手引き」",
+      "url": "https://www.city.higashimatsuyama.lg.jp/uploaded/attachment/20715.pdf"
+    },
+    {
+      "label": "東松山市「令和9年度保育施設4月入所の申込み受付について（概要）」",
+      "url": "https://www.city.higashimatsuyama.lg.jp/uploaded/attachment/20573.pdf"
+    }
+  ]
+}

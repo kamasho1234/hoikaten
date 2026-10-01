@@ -1,0 +1,151 @@
+{
+  "citySlug": "beppu",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "別府市「令和8年度 認可保育所・認定こども園・公私立幼稚園などの利用」",
+    "url": "https://www.city.beppu.oita.jp/kosodate/hoiku/r08annai.html"
+  },
+  "fiscalYear": "R8",
+  "guideRelease": "令和7年11月4日（火曜日）から申込書類を配布。配布場所は市役所1階 子育て支援課と各出張所（南部・亀川・朝日）",
+  "firstApply": "令和7年12月1日（月曜日）から受付開始。4月入所希望の1次締め切りは令和7年12月18日（木曜日）",
+  "applyMethods": "受付場所は市役所1階の子育て支援課のみで、郵送による受付も可能。マイナンバーカードがあれば「ぴったりサービス」で電子申請もできるが、就労証明書等の原本は申込締め切り日までに子育て支援課へ別途提出（郵送可）する",
+  "firstResult": "4月希望（1次締め切り分）は3月上旬までに文書で結果を通知",
+  "secondApply": "4月希望の最終締め切りは令和8年3月5日（木曜日）。1次締め切り後の申込分はすべて最終締め切り後の利用調整（2次・最終調整）になる",
+  "secondResult": "4月希望（最終締め切り分）は申込締め切り後、利用が可能な場合は電話で連絡し、利用できない場合は月末までに文書で通知",
+  "midYearDeadline": "5月以降の入所希望は入所希望月の前月の15日まで（閉庁日の場合はその前の開庁日まで）",
+  "documents": [
+    "教育・保育給付認定申請書",
+    "保育ができない理由を証明する書類（父親・母親と祖父母等65歳未満の同居家族全員分）。就労の場合は就労証明書で、育児休業から復帰する場合は育児休業の欄を必ず記入する",
+    "令和8年度保育利用申込書",
+    "転入に関する誓約書（入所希望日までに別府市に転入予定で申し込む人のみ）",
+    "郵送申込確認書と本人確認書類（マイナンバーカード・運転免許証等）の写し（郵送で提出する人のみ）"
+  ],
+  "ikukyu": "育児休業から復帰する場合、その月の20日までに復帰するなら前月1日から、21日以降に復帰するならその月から申込ができる",
+  "notes": [
+    "書類がそろっていない場合は保育の必要性の認定ができず、入所決定ができない場合がある",
+    "利用調整後の希望施設の変更や辞退は次の利用調整から適用されるため、事前によく検討して希望施設を書く",
+    "希望月に利用できなかった場合は、翌月以降も毎月利用調整が行われる",
+    "入所はおおむね生後6か月以降の児童が可能（一部の園では児童の状態により6か月未満児も可）",
+    "市外の施設を希望する場合は、施設の所在市町村の申込締切日に間に合うように別府市に申し込む"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.beppu.oita.jp/kosodate/hoiku/r08annai.html",
+      "quote": "令和8年4月1日以降の入所を希望する小学校就学前の児童"
+    },
+    "guideRelease": {
+      "url": "https://www.city.beppu.oita.jp/kosodate/hoiku/r08annai.html",
+      "quote": "令和7年11月4日（火曜日）から"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.beppu.oita.jp/kosodate/hoiku/r08annai.html",
+      "quote": "市役所1階　子育て支援課　または　各出張所（南部・亀川・朝日）"
+    },
+    "firstApply": {
+      "url": "https://www.city.beppu.oita.jp/kosodate/hoiku/r08nyusho04.html",
+      "quote": "令和8年度の申込は令和7年12月1日（月曜日）から受付を開始します。"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.beppu.oita.jp/kosodate/hoiku/r08annai.html",
+      "quote": "【1次締め切り】令和7年12月18日（木曜日）※1次調整の対象"
+    },
+    "applyMethods": {
+      "url": "https://www.city.beppu.oita.jp/kosodate/hoiku/r08nyusho04.html",
+      "quote": "受付場所：子育て支援課のみ（市役所1階）※郵送による受付も可能とします。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.beppu.oita.jp/kosodate/hoiku/r08nyusho04.html",
+      "quote": "※電子申請を利用いただいた場合も、入所希望日の申込締め切り日までに、保育ができない理由を証明する書類（就労証明証等）の原本を、子育て支援課の窓口に別途提出していただく必要がありますのでご注意ください（郵送可。申請者がわかるようにして提出してください）。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.beppu.oita.jp/kosodate/hoiku/r08nyusho04.html",
+      "quote": "インターネットによる申請は「ぴったりサービス」で行います。"
+    },
+    "firstResult": {
+      "url": "https://www.city.beppu.oita.jp/kosodate/hoiku/r08nyusho04.html",
+      "quote": "3月上旬までに文書にて結果を通知します。"
+    },
+    "secondApply": {
+      "url": "https://www.city.beppu.oita.jp/kosodate/hoiku/r08nyusho04.html",
+      "quote": "※令和8年4月希望の申込は、令和8年3月5日（木曜日）を最終締め切りとします。1次締め切り後の申込分はすべて最終締め切り後の利用調整となりますのでご了承ください。"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.beppu.oita.jp/kosodate/hoiku/r08annai.html",
+      "quote": "【最終締め切り】令和8年3月5日（木曜日）※2次（最終）調整の対象"
+    },
+    "secondResult": {
+      "url": "https://www.city.beppu.oita.jp/kosodate/hoiku/r08nyusho04.html",
+      "quote": "申込締め切り後に、利用が可能な場合には電話でご連絡します。利用ができない場合は、月末までに文書で通知します。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.beppu.oita.jp/kosodate/hoiku/r08annai.html",
+      "quote": "入所希望月の前月の15日まで（閉庁日の場合は、その前の開庁日まで）"
+    },
+    "documents.0": {
+      "url": "https://www.city.beppu.oita.jp/kosodate/hoiku/r08nyusho01.html",
+      "quote": "1　教育・保育給付認定申請書"
+    },
+    "documents.1": {
+      "url": "https://www.city.beppu.oita.jp/kosodate/hoiku/r08nyusho01.html",
+      "quote": "（父親・母親及び祖父母等65歳未満の同居の家族全員分が必要です。）"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.beppu.oita.jp/kosodate/hoiku/r08nyusho01.html",
+      "quote": "事業主の証明が必要です。育児休業から復帰の場合は育児休業の欄を必ず記入してください。"
+    },
+    "documents.2": {
+      "url": "https://www.city.beppu.oita.jp/kosodate/hoiku/r08nyusho01.html",
+      "quote": "3　令和8年度保育利用申込書"
+    },
+    "documents.3": {
+      "url": "https://www.city.beppu.oita.jp/kosodate/hoiku/r08nyusho01.html",
+      "quote": "（入所希望日までに別府市に転入予定で申し込む方のみ）"
+    },
+    "documents.4": {
+      "url": "https://www.city.beppu.oita.jp/kosodate/hoiku/r08nyusho01.html",
+      "quote": "6　郵送申込確認書・本人確認書類（マイナンバーカード・運転免許証等）の写し"
+    },
+    "ikukyu": {
+      "url": "https://www.city.beppu.oita.jp/kosodate/hoiku/r08nyusho04.html",
+      "quote": "育児休業から復帰する場合の申込は、その月の20日までに復帰の場合は前月1日から、21日以降に復帰の場合はその月から申込が可能です。"
+    },
+    "notes.0": {
+      "url": "https://www.city.beppu.oita.jp/kosodate/hoiku/r08nyusho01.html",
+      "quote": "※書類がそろっていない場合は、保育の必要性の認定ができず、入所決定ができない場合があります。"
+    },
+    "notes.1": {
+      "url": "https://www.city.beppu.oita.jp/kosodate/hoiku/r08nyusho04.html",
+      "quote": "利用調整後の希望施設の変更や辞退は、次の利用調整から適用するため、保育の必要度が高い場合でも利用できなくなる場合がありますので、事前によく検討のうえ、希望施設をご記入ください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.beppu.oita.jp/kosodate/hoiku/r08nyusho04.html",
+      "quote": "※希望月に利用できなかった場合は、翌月以降も令和9年3月入所まで毎月利用調整を行います。"
+    },
+    "notes.3": {
+      "url": "https://www.city.beppu.oita.jp/kosodate/hoiku/r08nyusho04.html",
+      "quote": "おおむね生後6か月以降の児童の入所が可能です。"
+    },
+    "notes.3#2": {
+      "url": "https://www.city.beppu.oita.jp/kosodate/hoiku/r08nyusho04.html",
+      "quote": "あおばこども園、朝日こども園では児童の状態により6か月未満児の入所も可能です。"
+    },
+    "notes.4": {
+      "url": "https://www.city.beppu.oita.jp/kosodate/hoiku/r08nyusho04.html",
+      "quote": "別府市に住民登録がある方で市外の施設の利用を希望する場合は、施設が所在する市町村の申込締切日、必要書類等を確認のうえ、その締切日に間に合うように別府市に申込をしてください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "別府市「令和8年度 認可保育所・認定こども園・公私立幼稚園などの利用」",
+      "url": "https://www.city.beppu.oita.jp/kosodate/hoiku/r08annai.html"
+    },
+    {
+      "label": "別府市「認可保育所、認定こども園（保育所機能部分）、地域型保育事業を利用する」",
+      "url": "https://www.city.beppu.oita.jp/kosodate/hoiku/r08nyusho04.html"
+    },
+    {
+      "label": "別府市「教育・保育給付認定」",
+      "url": "https://www.city.beppu.oita.jp/kosodate/hoiku/r08nyusho01.html"
+    }
+  ]
+}

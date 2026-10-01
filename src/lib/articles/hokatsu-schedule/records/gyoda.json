@@ -1,0 +1,188 @@
+{
+  "citySlug": "gyoda",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "行田市「令和9年4月入所の保育施設の入所申請について」",
+    "url": "https://www.city.gyoda.lg.jp/soshiki/kenkouhukushibu/kodomomirai/gyomu/ikuzi_misyugaku/hoikusho_kodomoen/hoikusho/11477.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和9年4月入所の申込書類は子ども未来課と市内保育施設で配布。紙の申請書類は子ども未来課でも配布している",
+  "firstApply": "電子申請は令和8年9月24日（木）〜10月21日（水）。子ども未来課での面談受付は令和8年10月1日（木）〜21日（水）の平日8時30分〜16時30分と、休日受付の10月18日（日）8時30分〜11時30分（4日・11日の日曜日は受付なし）",
+  "applyMethods": "「電子申請・届出サービス」で申請したあと、紙の申請書類一式を持ってお子様と一緒に行田市役所子ども未来課5番窓口へ行き、職員と面談する。電子申請だけでは受付完了にならない",
+  "firstResult": "令和9年4月入所の入所承諾通知書は1月下旬〜2月上旬（予定）に送付。入所保留の場合は保留通知書を送付する",
+  "midYearDeadline": "入所希望月の前月10日まで（10日までに電子申請と面談が完了していること）",
+  "documents": [
+    "保育所等提出書類チェックリスト",
+    "保育施設の見学のときに確認していただきたいこと",
+    "保育所等入所申請にあたっての確認事項",
+    "父母（同居祖父母）のマイナンバー確認書",
+    "保育所利用申込に関する確認書及び質問票",
+    "保育の必要性を証明する書類（父母それぞれについて1つ。就労の場合は就労証明書、出産前後は母子健康手帳の写し、求職中は就労確約書など）",
+    "証明書類等は発行から3か月以内のものに限る"
+  ],
+  "interview": "申請書類を持参し、お子様と一緒に子ども未来課で面談を受ける（予約不要、15分程度）。申込前にお子様と一緒に希望する保育施設を見学することが必要で、見学が済んでいなければ原則として入所確定できない",
+  "ikukyu": "育児休業中の場合は入所月の翌月10日までに職場復帰することが必要（4月1日入所なら5月10日までに復帰）。就労証明書に復職年月日や入所内定時の育休短縮の可否が記入されているか確認する",
+  "notes": [
+    "令和8年度に入所が保留になっている人も、新たに申請が必要",
+    "締切日が近くなると窓口が大変混雑するため、早めの面談に協力を求めている",
+    "市外の保育施設を希望する場合は、各市町村の利用調整締切日の1週間前までに子ども未来課へ申請書類を提出する",
+    "市外在住で行田市内の保育施設を希望する場合、行田市の利用調整の締切日は令和8年10月21日（水曜日）",
+    "お子様に食物アレルギーがある場合は見学時に施設へ説明し、利用申請時に医師による生活管理指導表とアレルゲン検査結果表を提出する"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.gyoda.lg.jp/soshiki/kenkouhukushibu/kodomomirai/gyomu/ikuzi_misyugaku/hoikusho_kodomoen/hoikusho/11477.html",
+      "quote": "令和9年4月から保育所や地域型保育事業所、認定こども園の保育部分（以下「保育施設」とする。）への入所を希望される方へ、申請方法等についてお知らせします。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.gyoda.lg.jp/material/files/group/22/R9shiori.pdf",
+      "quote": "令和９年４月 子ども未来課、市内保育施設"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.gyoda.lg.jp/soshiki/kenkouhukushibu/kodomomirai/gyomu/ikuzi_misyugaku/hoikusho_kodomoen/hoikusho/11477.html",
+      "quote": "申請書類（紙）については、子ども未来課でも配布します。"
+    },
+    "firstApply": {
+      "url": "https://www.city.gyoda.lg.jp/material/files/group/22/R9annai.pdf",
+      "quote": "電子申請受付期間（令和８年９月２４日（木）～１０月２１日（水））"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.gyoda.lg.jp/material/files/group/22/R9annai.pdf",
+      "quote": "受付日時 【平 日】令和８年１０月 １日（木）～２１日（水）８時３０分～１６時３０分"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.gyoda.lg.jp/material/files/group/22/R9annai.pdf",
+      "quote": "【休日受付】令和８年１０月１８日（日） ８時３０分～１１時３０分"
+    },
+    "firstApply#4": {
+      "url": "https://www.city.gyoda.lg.jp/material/files/group/22/R9annai.pdf",
+      "quote": "※４日（日）、１１日（日）は受付は行いません。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.gyoda.lg.jp/soshiki/kenkouhukushibu/kodomomirai/gyomu/ikuzi_misyugaku/hoikusho_kodomoen/hoikusho/11477.html",
+      "quote": "申請書類をご持参いただき、子ども未来課で保護者様とお子様、子ども未来課職員で面談を行います。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.gyoda.lg.jp/soshiki/kenkouhukushibu/kodomomirai/gyomu/ikuzi_misyugaku/hoikusho_kodomoen/hoikusho/11477.html",
+      "quote": "※電子申請のみでは受付完了となりません。必ず面談をお願いします。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.gyoda.lg.jp/soshiki/kenkouhukushibu/kodomomirai/gyomu/ikuzi_misyugaku/hoikusho_kodomoen/hoikusho/11477.html",
+      "quote": "「電子申請・届出サービス」により申請をお願いします。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.gyoda.lg.jp/soshiki/kenkouhukushibu/kodomomirai/gyomu/ikuzi_misyugaku/hoikusho_kodomoen/hoikusho/11477.html",
+      "quote": "行田市役所子ども未来課5番窓口"
+    },
+    "firstResult": {
+      "url": "https://www.city.gyoda.lg.jp/material/files/group/22/R9shiori.pdf",
+      "quote": "入所希望月によって入所承諾通知書の送付時期が異なります。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.gyoda.lg.jp/material/files/group/22/R9shiori.pdf",
+      "quote": "令和９年４月 １月下旬～2月上旬（予定）"
+    },
+    "firstResult#3": {
+      "url": "https://www.city.gyoda.lg.jp/material/files/group/22/R9shiori.pdf",
+      "quote": "・保留通知書を送付いたします。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.gyoda.lg.jp/soshiki/kenkouhukushibu/kodomomirai/gyomu/ikuzi_misyugaku/hoikusho_kodomoen/hoikusho/11711.html",
+      "quote": "入所希望月の前月10日まで（10日までに電子申請及び面談が完了していること）"
+    },
+    "documents.0": {
+      "url": "https://www.city.gyoda.lg.jp/material/files/group/22/R9annai.pdf",
+      "quote": "・保育所等提出書類チェックリスト"
+    },
+    "documents.1": {
+      "url": "https://www.city.gyoda.lg.jp/material/files/group/22/R9annai.pdf",
+      "quote": "・保育施設の見学のときに確認していただきたいこと"
+    },
+    "documents.2": {
+      "url": "https://www.city.gyoda.lg.jp/material/files/group/22/R9annai.pdf",
+      "quote": "・保育所等入所申請にあたっての確認事項"
+    },
+    "documents.3": {
+      "url": "https://www.city.gyoda.lg.jp/material/files/group/22/R9annai.pdf",
+      "quote": "・父母（同居祖父母）のマイナンバー確認書"
+    },
+    "documents.4": {
+      "url": "https://www.city.gyoda.lg.jp/material/files/group/22/R9annai.pdf",
+      "quote": "・保育所等利用申込に関する確認書（表面）及び質問票（裏面）"
+    },
+    "documents.5": {
+      "url": "https://www.city.gyoda.lg.jp/soshiki/kenkouhukushibu/kodomomirai/gyomu/ikuzi_misyugaku/hoikusho_kodomoen/hoikusho/11477.html",
+      "quote": "6．保育の必要性を証明する書類（父母それぞれについて、以下のいずれか1つ）"
+    },
+    "documents.5#2": {
+      "url": "https://www.city.gyoda.lg.jp/soshiki/kenkouhukushibu/kodomomirai/gyomu/ikuzi_misyugaku/hoikusho_kodomoen/hoikusho/11477.html",
+      "quote": "・出産前後の場合：母子健康手帳の写し（表紙及び出産予定日のページ）"
+    },
+    "documents.6": {
+      "url": "https://www.city.gyoda.lg.jp/material/files/group/22/R9shiori.pdf",
+      "quote": "また、証明書類等は、発行から３ヵ月以内のものに限ります。"
+    },
+    "interview": {
+      "url": "https://www.city.gyoda.lg.jp/material/files/group/22/R9annai.pdf",
+      "quote": "予約不要ですが、15分程度のお時間がかかりますので、お時間に余裕を持ってお越しください。"
+    },
+    "interview#2": {
+      "url": "https://www.city.gyoda.lg.jp/soshiki/kenkouhukushibu/kodomomirai/gyomu/ikuzi_misyugaku/hoikusho_kodomoen/hoikusho/11477.html",
+      "quote": "原則として、施設見学がお済でなければ入所確定はできません。"
+    },
+    "interview#3": {
+      "url": "https://www.city.gyoda.lg.jp/soshiki/kenkouhukushibu/kodomomirai/gyomu/ikuzi_misyugaku/hoikusho_kodomoen/hoikusho/11477.html",
+      "quote": "入所申し込み前に、お子様と一緒に希望する保育施設の見学を必ずお願いします。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.gyoda.lg.jp/material/files/group/22/R9shiori.pdf",
+      "quote": "育児休業中の場合、入所月の翌月１０日までに職場復帰することが必要です（例えば、４月１日入所の場合、５月１０日までに復帰）。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.gyoda.lg.jp/material/files/group/22/R9shiori.pdf",
+      "quote": "また、「就労証明書」に復職年月日（予定含む）や入所内定時育休短縮可否について記入があるか確認してください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.gyoda.lg.jp/soshiki/kenkouhukushibu/kodomomirai/gyomu/ikuzi_misyugaku/hoikusho_kodomoen/hoikusho/11477.html",
+      "quote": "令和8年度に入所が保留になっている方も、新たに申請が必要です。"
+    },
+    "notes.1": {
+      "url": "https://www.city.gyoda.lg.jp/material/files/group/22/R9annai.pdf",
+      "quote": "締切日が近くなると大変混雑しますので、お早目の面談にご協力ください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.gyoda.lg.jp/soshiki/kenkouhukushibu/kodomomirai/gyomu/ikuzi_misyugaku/hoikusho_kodomoen/hoikusho/11477.html",
+      "quote": "各市町村の利用調整締切日の1週間前までに、子ども未来課へ申請書類をご提出ください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.gyoda.lg.jp/soshiki/kenkouhukushibu/kodomomirai/gyomu/ikuzi_misyugaku/hoikusho_kodomoen/hoikusho/11477.html",
+      "quote": "行田市の利用調整の締切日は令和8年10月21日（水曜日）です。"
+    },
+    "notes.4": {
+      "url": "https://www.city.gyoda.lg.jp/soshiki/kenkouhukushibu/kodomomirai/gyomu/ikuzi_misyugaku/hoikusho_kodomoen/hoikusho/11477.html",
+      "quote": "お子様に食物アレルギーがある場合は、保育施設の見学時に説明してください。"
+    },
+    "notes.4#2": {
+      "url": "https://www.city.gyoda.lg.jp/material/files/group/22/R9shiori.pdf",
+      "quote": "施設の利用申請時に医師による「生活管理指導表」及び「アレルゲン検査結果表」を提出いただきます。"
+    }
+  },
+  "sources": [
+    {
+      "label": "行田市「令和9年4月入所の保育施設の入所申請について」",
+      "url": "https://www.city.gyoda.lg.jp/soshiki/kenkouhukushibu/kodomomirai/gyomu/ikuzi_misyugaku/hoikusho_kodomoen/hoikusho/11477.html"
+    },
+    {
+      "label": "行田市「令和9年4月入所申請受付について（案内）」",
+      "url": "https://www.city.gyoda.lg.jp/material/files/group/22/R9annai.pdf"
+    },
+    {
+      "label": "行田市「令和9年度保育所等入所のしおり」",
+      "url": "https://www.city.gyoda.lg.jp/material/files/group/22/R9shiori.pdf"
+    },
+    {
+      "label": "行田市「令和8年5月～令和9年3月入所の保育施設の入所申請について」",
+      "url": "https://www.city.gyoda.lg.jp/soshiki/kenkouhukushibu/kodomomirai/gyomu/ikuzi_misyugaku/hoikusho_kodomoen/hoikusho/11711.html"
+    }
+  ]
+}

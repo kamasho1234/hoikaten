@@ -1,0 +1,157 @@
+{
+  "citySlug": "iida",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "飯田市「保育所や認定こども園等の入所手続きをご案内します」",
+    "url": "https://www.city.iida.lg.jp/site/kosodate/nyuushotetuduki.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年10月中に各園で入所説明会を行い、入所申込書を配布する。都合がつかない場合は後日、各施設か保育家庭課窓口（本庁舎A11）で受け取る",
+  "firstApply": "令和8年11月2日（月曜日）〜11月30日（月曜日）必着",
+  "applyMethods": "一次受付は第1希望の保育所・認定こども園・地域型保育事業施設に提出する（2号・3号認定は利用申込書・個人番号記載様式・各種証明書）。二次受付は保育家庭課窓口（本庁舎A11）に提出する",
+  "firstResult": "利用調整の対象とならない家庭には12月下旬に仮決定を通知。第1希望の施設が定員を超えて入所できない家庭には市から直接連絡する",
+  "secondApply": "令和9年1月19日（火曜日）から。一次受付で定員に達しなかった保育所・認定こども園のみで、各園の定員に達した時点で終了する",
+  "midYearDeadline": "年度途中の入所（2号・3号認定）は、利用希望月の3か月前の初日から前月15日までに保育家庭課へ申し込む。毎月15日・末日が締切で翌日に審査し、結果は電話で知らせる",
+  "documents": [
+    "利用申込書",
+    "個人番号記載様式（世帯全員の個人番号を記入。本人確認書類・番号確認書類も必要）",
+    "保育を必要とする理由の証明書（就労証明書・診断書・就学証明書など。就労証明書は国が定めた様式で、社印等の押印は不要）"
+  ],
+  "interview": "令和9年1月に、入所が決まった子どもについて各園で入所面接を行う。各施設の指定日に子どもと保護者が行く。2月ごろから各施設で一日入園がある",
+  "notes": [
+    "2号・3号認定で利用する場合は、保護者（父・母）それぞれに保育を必要とする理由が必要",
+    "二次受付は一次受付で定員に達しなかった園だけなので、特別な理由がない限り一次受付で申し込むよう求めている",
+    "4月1日から利用する場合は利用から2週間程度ならし保育を行うため、育休明けの職場復帰は就労開始日を4月中旬・下旬にするなどの注意が必要",
+    "4月1日からの転園の申し込みは、新年度入所の一次受付と同じ時期に受け付ける",
+    "支給認定決定通知書等は、2月に行われる一日入園のときに各施設で渡される",
+    "各保育所・認定こども園等は随時見学を受け付けているが、見学できない日もあるので事前に各園へ問い合わせる"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.iida.lg.jp/uploaded/attachment/83191.pdf",
+      "quote": "令和９年４月１日から新規に施設を利用したいときの申込み手順は、次のとおりです。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.iida.lg.jp/site/kosodate/nyuushotetuduki.html",
+      "quote": "各園10月中に入所説明会を実施します。入所申込書を配布し、手続きの方法や保育・教育の内容について説明します。"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.iida.lg.jp/uploaded/attachment/83191.pdf",
+      "quote": "令和８年10月、各園にて実施"
+    },
+    "guideRelease#3": {
+      "url": "https://www.city.iida.lg.jp/site/kosodate/nyuushotetuduki.html",
+      "quote": "当日都合がつかない場合は、後日、各施設または保育家庭課窓口（本庁舎A11）にて申込書をお受け取りください。"
+    },
+    "firstApply": {
+      "url": "https://www.city.iida.lg.jp/site/kosodate/nyuushotetuduki.html",
+      "quote": "令和8年11月2日（月曜日）～令和8年11月30日（月曜日）必着"
+    },
+    "applyMethods": {
+      "url": "https://www.city.iida.lg.jp/site/kosodate/nyuushotetuduki.html",
+      "quote": "第1希望の保育所・認定こども園・地域型保育事業施設"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.iida.lg.jp/uploaded/attachment/83191.pdf",
+      "quote": "●２号・３号認定…利用希望施設へ、「利用申込書」・「個人番号記載様式」・「各種証明書※」を提出"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.iida.lg.jp/uploaded/attachment/83191.pdf",
+      "quote": "●保育所・認定こども園（２・３号認定）は保育家庭課へ、②１次受付と同様の書類を提出"
+    },
+    "firstResult": {
+      "url": "https://www.city.iida.lg.jp/uploaded/attachment/83191.pdf",
+      "quote": "調整対象以外のご家庭には、12月下旬に仮決定の通知を行います。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.iida.lg.jp/uploaded/attachment/83191.pdf",
+      "quote": "※利用希望児童数が定員を超え、第１希望の施設に入所できないご家庭には直接連絡いたします。"
+    },
+    "secondApply": {
+      "url": "https://www.city.iida.lg.jp/site/kosodate/nyuushotetuduki.html",
+      "quote": "令和9年１月19日（火曜日）～"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.iida.lg.jp/site/kosodate/nyuushotetuduki.html",
+      "quote": "また、二次受付は各園の定員に到達した時点で終了させていただきます。"
+    },
+    "secondApply#3": {
+      "url": "https://www.city.iida.lg.jp/site/kosodate/nyuushotetuduki.html",
+      "quote": "※二次受付は一次受付にて申し込みが定員に達しなかった保育所・認定こども園のみ実施します。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.iida.lg.jp/uploaded/attachment/83191.pdf",
+      "quote": "利用希望月の３か月前の初日から利用希望月の前月15日まで"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.iida.lg.jp/uploaded/attachment/83191.pdf",
+      "quote": "②毎月15日・末日が締切となり、その翌日に審査を行います。"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.iida.lg.jp/uploaded/attachment/83191.pdf",
+      "quote": "③審査結果について電話でお知らせします。"
+    },
+    "documents.0": {
+      "url": "https://www.city.iida.lg.jp/uploaded/attachment/83191.pdf",
+      "quote": "●２号・３号認定…利用希望施設へ、「利用申込書」・「個人番号記載様式」・「各種証明書※」を提出"
+    },
+    "documents.1": {
+      "url": "https://www.city.iida.lg.jp/uploaded/attachment/83191.pdf",
+      "quote": "専用様式に世帯全員の個人番号を記入のうえ、利用申込書と合わせてご提出ください。"
+    },
+    "documents.2": {
+      "url": "https://www.city.iida.lg.jp/site/kosodate/nyuushotetuduki.html",
+      "quote": "※就労証明書は、国が定めた様式です。この様式は、会社にお勤めの方と自営業等の方との兼用様式です。社印等の押印が不要です。"
+    },
+    "interview": {
+      "url": "https://www.city.iida.lg.jp/site/kosodate/nyuushotetuduki.html",
+      "quote": "令和9年1月に入所が決定したお子さんについて、各園で入所面接を行います。"
+    },
+    "interview#2": {
+      "url": "https://www.city.iida.lg.jp/uploaded/attachment/83191.pdf",
+      "quote": "※面接会場へは、各施設の指定日に、利用予定児童と保護者がお越しください。"
+    },
+    "interview#3": {
+      "url": "https://www.city.iida.lg.jp/site/kosodate/nyuushotetuduki.html",
+      "quote": "2月ごろから各施設で一日入園を実施します。"
+    },
+    "notes.0": {
+      "url": "https://www.city.iida.lg.jp/site/kosodate/nyuushotetuduki.html",
+      "quote": "また、各施設で保育を受ける場合（2号・3号認定）は、保護者の方（父・母）それぞれに保育を必要とする理由が必要です。"
+    },
+    "notes.1": {
+      "url": "https://www.city.iida.lg.jp/site/kosodate/nyuushotetuduki.html",
+      "quote": "特別な理由がない限り、一次受付時に申し込みをしてください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.iida.lg.jp/uploaded/attachment/83191.pdf",
+      "quote": "育児休業明けの職場復帰などで４月１日から施設を利用したい場合は、就労開始日を４月中旬・下旬にするなど注意が必要です。"
+    },
+    "notes.2#2": {
+      "url": "https://www.city.iida.lg.jp/uploaded/attachment/83191.pdf",
+      "quote": "※４月１日利用の場合は、利用から２週間程度「ならし保育」を行います。"
+    },
+    "notes.3": {
+      "url": "https://www.city.iida.lg.jp/uploaded/attachment/83191.pdf",
+      "quote": "新年度入所の１次受付と同時期に、新年度からの転園の申し込みを受け付けます。"
+    },
+    "notes.4": {
+      "url": "https://www.city.iida.lg.jp/uploaded/attachment/83191.pdf",
+      "quote": "支給認定決定通知書等につきましては、２月に行われる１日入園の折に、各施設にてお渡しします。"
+    },
+    "notes.5": {
+      "url": "https://www.city.iida.lg.jp/site/kosodate/nyuushotetuduki.html",
+      "quote": "各保育所・認定こども園等では、随時見学を受け付けています。園行事などで見学できない日もありますので、事前に各園へお問い合わせください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "飯田市「保育所や認定こども園等の入所手続きをご案内します」",
+      "url": "https://www.city.iida.lg.jp/site/kosodate/nyuushotetuduki.html"
+    },
+    {
+      "label": "飯田市「令和9年度飯田市保育所・認定こども園等利用案内」",
+      "url": "https://www.city.iida.lg.jp/uploaded/attachment/83191.pdf"
+    }
+  ]
+}

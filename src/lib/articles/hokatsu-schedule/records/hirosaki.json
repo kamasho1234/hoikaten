@@ -1,0 +1,174 @@
+{
+  "citySlug": "hirosaki",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "弘前市「利用手続きの流れ」",
+    "url": "https://www.city.hirosaki.aomori.jp/kyouiku/kosodate/2021-0329-1614-30.html"
+  },
+  "fiscalYear": "R8",
+  "firstApply": "令和7年12月1日（月）〜12月26日（金）（土・日・祝日を除く。12月13日（土）・14日（日）はこども家庭課でのみ受付）。令和8年2・3・4月からの利用希望が対象。郵送の締切は1週間前まで（必着）",
+  "applyMethods": "書類不備防止のため原則として窓口で受け付ける（受付は午前8時30分〜午後5時）。やむを得ない場合は郵送でも受け付け、郵送の締切は各締切日の1週間前まで（必着）。受付場所は弘前市役所こども家庭課保育係、岩木総合支所民生課健康福祉係、相馬総合支所民生課健康福祉係",
+  "firstResult": "2月中旬に、利用の承諾・保留にかかわらず認定結果とあわせて郵送で通知",
+  "secondResult": "保留となった場合は追加受付の申込みも含めて4月利用の利用調整（2回目）を行い、承諾となった場合のみ2月下旬に郵送で通知。その後に空きが出れば利用調整（3回目）を行い、承諾の場合のみ令和8年3月下旬に郵送で通知",
+  "midYearDeadline": "利用希望月の前月15日午後5時まで（15日が土・日・祝休日の場合はその直前の開庁日）。16日以降の申込みは翌々月の利用申込み扱い",
+  "documents": [
+    "教育・保育給付認定申請書兼保育利用申込書と確認同意書（申込児童1人につき1部）",
+    "保育が必要であることを証明する書類（父母それぞれ。就労の場合は就労証明書で、就労時間は月48時間以上。産休・育休明けの申込みは期間と復職年月日の記入が必要）",
+    "教育・保育施設見学チェック表（見学の記録まで記入したもの）",
+    "マイナンバーが確認できる書類（マイナンバーカード・個人番号通知カード・個人番号が記載された住民票の写しのいずれか1つ）",
+    "来庁した人の本人確認書類（運転免許証など）。申込書に記載のない人が提出する場合は委任状も必要"
+  ],
+  "interview": "申込みの前に、申込みする子どもと一緒に希望施設を必ず事前見学する。見学チェック表を記入したうえで、希望施設に直接連絡して日程を調整する",
+  "ikukyu": "利用保留で育児休業を延長する場合、ハローワークでの育児休業給付金の申請に保育所等の利用申込書の写しが必要。受付後は申込書を返却できないので、受付前にコピーをとっておく",
+  "notes": [
+    "書類はすべてそろえてから申し込む。書類が不足していると申込みを受け付けない",
+    "4月の申込みは12月26日で締め切るが、利用調整後に定員の空きがあれば追加の申込みを受け付ける。実施する場合は広報ひろさきや市ホームページで知らせる",
+    "利用調整は保育の優先度を点数化して点数の高い順に行い、先着順や抽選ではない",
+    "育児休業期間中は、育児休業の対象の子どもとその兄弟姉妹は保育所・認定こども園（1号認定を除く）の利用申込みができない",
+    "保留となった場合は年度末（3月入園）まで毎月利用調整の対象になるが、初回の通知以降は入園が決まるまで結果は郵送されない"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.hirosaki.aomori.jp/kurashi/todoke/shinsei/2026riyounogoannai.pdf",
+      "quote": "利用申込み自体は、利用が決定するまで年度内は有効です。（令和８年４月の利用申込みを行った場合、最長で令和９年３月まで有効）"
+    },
+    "firstApply": {
+      "url": "https://www.city.hirosaki.aomori.jp/kurashi/todoke/shinsei/2026riyounogoannai.pdf",
+      "quote": "令和７年１２月１日（月） から １２月２６日（金） （土・日・祝除く） ※ 令和７年１２月１３日（土）・１４日（日）は、こども家庭課でのみ受付を行います。"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.hirosaki.aomori.jp/kurashi/todoke/shinsei/2026riyounogoannai.pdf",
+      "quote": "＜令和８年２・３・４月から利用を希望する場合＞"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.hirosaki.aomori.jp/kurashi/todoke/shinsei/2026riyounogoannai.pdf",
+      "quote": "郵送の場合の締切は、上記の各締切日の 1 週間前まで（必着）となります。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.hirosaki.aomori.jp/kurashi/todoke/shinsei/2026riyounogoannai.pdf",
+      "quote": "利用申込みの受付は、書類不備防止のため原則窓口で行いますが、やむを得ない場合は郵送での申込みを受け付けます。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.hirosaki.aomori.jp/kurashi/todoke/shinsei/2026riyounogoannai.pdf",
+      "quote": "郵送の場合の締切は、上記の各締切日の 1 週間前まで（必着）となります。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.hirosaki.aomori.jp/kurashi/todoke/shinsei/2026riyounogoannai.pdf",
+      "quote": "○ 弘前市役所 こども家庭課保育係 ○ 岩木総合支所 民生課健康福祉係 ○ 相馬総合支所 民生課健康福祉係"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.hirosaki.aomori.jp/kurashi/todoke/shinsei/2026riyounogoannai.pdf",
+      "quote": "利用申込み締切日 （受付時間はいずれの日も午前８時３０分から午後５時まで）"
+    },
+    "firstResult": {
+      "url": "https://www.city.hirosaki.aomori.jp/kurashi/todoke/shinsei/2026riyounogoannai.pdf",
+      "quote": "利用の承諾（あっせん可）・保留（あっせん不可）にかかわらず、認定結果とあわせて２月中旬に郵送で通知します。"
+    },
+    "secondResult": {
+      "url": "https://www.city.hirosaki.aomori.jp/kurashi/todoke/shinsei/2026riyounogoannai.pdf",
+      "quote": "なお、利用が「保留」となった場合、追加受付申込み児童も含め４月利用の「利用調整（２回目）」を行い、利用承諾（あっせん可）となった場合のみ、２月下旬に郵送で改めて通知します。"
+    },
+    "secondResult#2": {
+      "url": "https://www.city.hirosaki.aomori.jp/kurashi/todoke/shinsei/2026riyounogoannai.pdf",
+      "quote": "利用調整（２回目）後に、急な退所や申し込みを取り下げ等により保育施設の定員に空きが生じた場合は、追加受付分も含め再度利用調整（３回目）を行い、利用承諾（あっせん可）となった場合のみ、令和８年３月下旬に郵送で改めて通知します。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.hirosaki.aomori.jp/kurashi/todoke/shinsei/2026riyounogoannai.pdf",
+      "quote": "利用希望月の前月１５日、午後５時まで （１５日が土・日・祝休日の場合はその直前の開庁日。）"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.hirosaki.aomori.jp/kurashi/todoke/shinsei/2026riyounogoannai.pdf",
+      "quote": "※ １６日以降に申込みをした方は、翌々月の利用申込み扱いとなりますのでご注意ください。"
+    },
+    "documents.0": {
+      "url": "https://www.city.hirosaki.aomori.jp/kyouiku/kosodate/2021-0402-1430-30.html",
+      "quote": "（1）「教育・保育給付認定申請書兼保育利用申込書」および「確認同意書」 弘前市所定の様式。申込児童一人につき一部必要です。"
+    },
+    "documents.1": {
+      "url": "https://www.city.hirosaki.aomori.jp/kyouiku/kosodate/2021-0402-1430-30.html",
+      "quote": "（2）保育が必要であることを証明する書類（次表のうちいずれか） 父母それぞれの分が必要です。"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.hirosaki.aomori.jp/kyouiku/kosodate/2021-0402-1430-30.html",
+      "quote": "就労証明書 ※就労時間が月48時間以上であること ※産休・育休明けの利用申込みの場合は、期間および復職年月日の記入が必要です。"
+    },
+    "documents.2": {
+      "url": "https://www.city.hirosaki.aomori.jp/kyouiku/kosodate/2021-0329-1614-30.html",
+      "quote": "すべて記入された見学チェック表を、利用申込みの際に市窓口へ提出してください。"
+    },
+    "documents.2#2": {
+      "url": "https://www.city.hirosaki.aomori.jp/kyouiku/kosodate/2021-0329-1614-30.html",
+      "quote": "見学時に、見学チェック表裏面の「見学の記録」を記入してください。"
+    },
+    "documents.3": {
+      "url": "https://www.city.hirosaki.aomori.jp/kurashi/todoke/shinsei/2026riyounogoannai.pdf",
+      "quote": "下記書類のうちいずれか１つを持参 ・マイナンバーカード（コピーの場合は、両面のコピーが必要） ・個人番号通知カード（氏名・住所等が正しく変更されているものに限る） ・個人番号が記載された住民票の写し"
+    },
+    "documents.4": {
+      "url": "https://www.city.hirosaki.aomori.jp/kurashi/todoke/shinsei/2026riyounogoannai.pdf",
+      "quote": "申込みの際に本人確認を行いますので、次の書類を必ずお持ちのうえ、受付場所へお越しください。"
+    },
+    "documents.4#2": {
+      "url": "https://www.city.hirosaki.aomori.jp/kurashi/todoke/shinsei/2026riyounogoannai.pdf",
+      "quote": "①委任状（申込む保護者と来庁される方が記入済みのもの） ②来庁した方の本人確認ができる書類（運転免許証など）"
+    },
+    "interview": {
+      "url": "https://www.city.hirosaki.aomori.jp/kyouiku/kosodate/2021-0329-1614-30.html",
+      "quote": "利用申込みを行う前に、必ず申込みするお子さんとともに、希望施設を事前見学してください。"
+    },
+    "interview#2": {
+      "url": "https://www.city.hirosaki.aomori.jp/kyouiku/kosodate/2021-0329-1614-30.html",
+      "quote": "事前見学は、市が定める見学チェック表を記載した上で、希望する施設へ直接連絡して日程を調整してください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.hirosaki.aomori.jp/kurashi/todoke/shinsei/2026riyounogoannai.pdf",
+      "quote": "利用保留となったことにより育児休業期間が延長となった場合、ハローワークでの育児休業給付金の申請に「保育所等の利用申込書の写し」が必要となります。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.hirosaki.aomori.jp/kurashi/todoke/shinsei/2026riyounogoannai.pdf",
+      "quote": "受付後に利用申込書を返却することはできかねますので、必ず受付前に利用申込書のコピーをとってください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.hirosaki.aomori.jp/kurashi/todoke/shinsei/2026riyounogoannai.pdf",
+      "quote": "※すべて の書類を揃えてからお申込みください。書類不足の場合、申込み受付はできません。"
+    },
+    "notes.1": {
+      "url": "https://www.city.hirosaki.aomori.jp/kurashi/todoke/shinsei/2026riyounogoannai.pdf",
+      "quote": "※ ４月の利用申込みは、12月 2６日で受付を終了しますが、利用調整後の時点で保育施設の定員に空きがある場合や、利用調整で利用決定した児童が事情により申し込みを取り下げ保育施設の定員に空きが生じた場合は、追加の申込み受付を行うこととします。"
+    },
+    "notes.1#2": {
+      "url": "https://www.city.hirosaki.aomori.jp/kurashi/todoke/shinsei/2026riyounogoannai.pdf",
+      "quote": "なお、追加受付を実施する場合は、あらかじめ広報ひろさきや市ホームページでお知らせします。"
+    },
+    "notes.2": {
+      "url": "https://www.city.hirosaki.aomori.jp/kyouiku/kosodate/2021-0329-1614-30.html",
+      "quote": "保護者の希望、施設の利用状況などに基づき調整しますが、市の利用調整基準に基づき、世帯の状況や現在の児童保育状況などにより保育の優先度を点数化したうえで、点数の高い順に利用調整を行います。"
+    },
+    "notes.2#2": {
+      "url": "https://www.city.hirosaki.aomori.jp/kyouiku/kosodate/2021-0329-1614-30.html",
+      "quote": "先着順や抽選制ではありません。なお、定員超過などにより、利用できない場合もあります。"
+    },
+    "notes.3": {
+      "url": "https://www.city.hirosaki.aomori.jp/kyouiku/kosodate/2021-0329-1614-30.html",
+      "quote": "〇育児休業期間中は、家庭で保育できる状況にあるため、育児休業の対象となっている子ども及びその兄弟姉妹が保育所（園）または認定こども園（1号認定を除く）の利用申込みをすることはできません。"
+    },
+    "notes.4": {
+      "url": "https://www.city.hirosaki.aomori.jp/kurashi/todoke/shinsei/2026riyounogoannai.pdf",
+      "quote": "・申込みの結果、保留となった場合は、年度の最終入園（3月入園）まで毎月利用調整の対象となりますが、初回の結果通知以降は入園が決まるまで結果は郵送しませんのでご了承ください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "弘前市「利用手続きの流れ」",
+      "url": "https://www.city.hirosaki.aomori.jp/kyouiku/kosodate/2021-0329-1614-30.html"
+    },
+    {
+      "label": "弘前市「令和8年度 保育所・認定こども園・幼稚園 利用のご案内」（令和7年10月作成）",
+      "url": "https://www.city.hirosaki.aomori.jp/kurashi/todoke/shinsei/2026riyounogoannai.pdf"
+    },
+    {
+      "label": "弘前市「利用申込みに必要な書類について」",
+      "url": "https://www.city.hirosaki.aomori.jp/kyouiku/kosodate/2021-0402-1430-30.html"
+    }
+  ]
+}

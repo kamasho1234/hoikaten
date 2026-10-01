@@ -1,0 +1,184 @@
+{
+  "citySlug": "fussa",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "福生市「保育園の令和9年4月入園の申込みについて」",
+    "url": "https://www.city.fussa.tokyo.jp/life/child/nursery/1002584.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年11月5日（木曜日）〜11月20日（金曜日）（窓口）。申込フォーム・郵送申請は各申込期限の5日前必着",
+  "applyMethods": "市役所1階8番子ども育成課窓口（保育・幼稚園係）か、申込フォーム（電子申請）・郵送で申し込む。申込フォーム・郵送は市内保育園のみ希望の場合に限り、市外の保育園を希望する場合（市内と市外のミックスを含む）は窓口で申請する",
+  "firstResult": "令和9年1月中旬に郵送で通知",
+  "secondApply": "令和9年1月18日（月曜日）〜1月29日（金曜日）",
+  "secondResult": "令和9年2月中旬に郵送で通知",
+  "midYearDeadline": "5月以降の入園は入園希望月の前月15日まで（窓口）。申込フォーム・郵送申請は入園希望月の前月10日必着",
+  "documents": [
+    "教育・保育給付認定申請書兼保育所等利用申込書（A4両面1枚）",
+    "保育の必要性を証明する書類（父母それぞれ。同じ建物に住む65歳未満の祖父母も必要）。就労の場合は就労証明書で、提出時において6か月以内に証明されたもの",
+    "保育所等入所希望児童の健康状況表（申し込む子ども1人につき1枚）",
+    "ひとり親世帯の状況申告書（申告する場合のみ）",
+    "窓口で申請する場合は令和9年度保育所等入所申込 窓口用申込みチェックシートもあわせて提出"
+  ],
+  "interview": "入園先が決まったら、入園先の保育園で入園の説明・面談・健康診断等を受ける。1次募集・2次募集で入園決定した場合、日程は各保育園から連絡がある",
+  "ikukyu": "育児休業給付金の延長手続きを行う可能性のある人は、延長手続きに必要なため事前に自分で申請書のコピーを取っておく（市は申請書の写しを渡さない）。保留の場合は「施設利用保留通知書」を最初の入園希望月分のみ通知する",
+  "notes": [
+    "3次募集は2次募集終了後から令和9年3月10日（水曜日）まで受け付け、結果は令和9年3月下旬に通知",
+    "令和8年度の申込みが保留で令和9年度も継続して希望する場合は、新たに申込みが必要",
+    "入園のしおりは無い。申請書や就労証明書等の様式はホームページからダウンロードするか、子ども育成課窓口で受け取る（学童クラブ申請用の勤務証明書は使えない）",
+    "窓口での申込みは待ち時間に加えて手続きに30分以上かかることがある",
+    "市外在住で福生市へ転入予定のない人は、4月入園は2次募集からの申込み（福生市内の保育施設等に勤務する人は1次募集から可能）",
+    "結果について電話での問合せには答えていない"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.fussa.tokyo.jp/life/child/nursery/1002584.html",
+      "quote": "令和9年4月入園の申込み受付期間などをお知らせします。"
+    },
+    "firstApply": {
+      "url": "https://www.city.fussa.tokyo.jp/life/child/nursery/1002584.html",
+      "quote": "【1次募集】令和8年11月5日（木曜日）から11月20日（金曜日）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.fussa.tokyo.jp/life/child/nursery/1016832.html",
+      "quote": "・4月入園の場合、各申込期限の5日前必着。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.fussa.tokyo.jp/life/child/nursery/1002584.html",
+      "quote": "〇窓口　市役所1階8番子ども育成課窓口（保育・幼稚園係）"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.fussa.tokyo.jp/life/child/nursery/1002584.html",
+      "quote": "ただし、申込フォーム・郵送申請はできません。市内と市外保育園のミックスでの申込みの方も同様です。そのため、窓口で申請してください。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.fussa.tokyo.jp/life/child/nursery/1016832.html",
+      "quote": "市内保育園のみ希望の場合に限ります"
+    },
+    "firstResult": {
+      "url": "https://www.city.fussa.tokyo.jp/life/child/nursery/1002584.html",
+      "quote": "募集期間により、次の時期に郵送でお知らせします。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.fussa.tokyo.jp/life/child/nursery/1002584.html",
+      "quote": "【1次募集】令和9年1月中旬"
+    },
+    "secondApply": {
+      "url": "https://www.city.fussa.tokyo.jp/life/child/nursery/1002584.html",
+      "quote": "【2次募集】令和9年1月18日（月曜日）から1月29日（金曜日）"
+    },
+    "secondResult": {
+      "url": "https://www.city.fussa.tokyo.jp/life/child/nursery/1002584.html",
+      "quote": "【2次募集】令和9年2月中旬"
+    },
+    "secondResult#2": {
+      "url": "https://www.city.fussa.tokyo.jp/life/child/nursery/1002584.html",
+      "quote": "募集期間により、次の時期に郵送でお知らせします。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.fussa.tokyo.jp/life/child/nursery/1018667.html",
+      "quote": "入園希望月の前月15日まで（窓口申請の場合）"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.fussa.tokyo.jp/life/child/nursery/1018667.html",
+      "quote": "電子申請（申込フォーム）・郵送申請の場合は、入園希望月の前月10日必着（土曜日または閉庁日の場合はその直前の開庁日までに必着）。"
+    },
+    "documents.0": {
+      "url": "https://www.city.fussa.tokyo.jp/life/child/nursery/1018667.html",
+      "quote": "教育・保育給付認定申請書兼保育所等利用申込書（A4両面1枚）"
+    },
+    "documents.1": {
+      "url": "https://www.city.fussa.tokyo.jp/life/child/nursery/1018667.html",
+      "quote": "（注意）同一建物内に居住する65歳未満（入園希望月の属する年度の4月1日時点）の祖父母について、それぞれ提出が必要です。"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.fussa.tokyo.jp/life/child/nursery/1018667.html",
+      "quote": "・父母それぞれの提出が必要です。提出されない場合、利用調整において不利になります。"
+    },
+    "documents.1#3": {
+      "url": "https://www.city.fussa.tokyo.jp/life/child/nursery/1018667.html",
+      "quote": "提出時において6か月以内に証明されたもの"
+    },
+    "documents.2": {
+      "url": "https://www.city.fussa.tokyo.jp/life/child/nursery/1018667.html",
+      "quote": "3.保育所等入所希望児童の健康状況表（申込みをする児童につき1枚）"
+    },
+    "documents.3": {
+      "url": "https://www.city.fussa.tokyo.jp/life/child/nursery/1018667.html",
+      "quote": "4.ひとり親世帯の状況申告書　※申告する場合のみ"
+    },
+    "documents.4": {
+      "url": "https://www.city.fussa.tokyo.jp/life/child/nursery/1002584.html",
+      "quote": "窓口で申請する場合は、以下の書類もあわせて提出してください。"
+    },
+    "documents.4#2": {
+      "url": "https://www.city.fussa.tokyo.jp/life/child/nursery/1002584.html",
+      "quote": "令和9年度保育所等入所申込　窓口用申込みチェックシート"
+    },
+    "interview": {
+      "url": "https://www.city.fussa.tokyo.jp/life/child/nursery/1018667.html",
+      "quote": "入園先の保育園で、入園の説明、面談、健康診断等を受けていただきます。"
+    },
+    "interview#2": {
+      "url": "https://www.city.fussa.tokyo.jp/life/child/nursery/1018667.html",
+      "quote": "・1次募集または2次募集で入園決定した場合、日程は各保育園から連絡します。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.fussa.tokyo.jp/life/child/nursery/1002584.html",
+      "quote": "育児休業給付金の延長手続きに必要となるため、事前にご自身で申請書のコピーをお取りください。市では申請書の写しのお渡しはしません。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.fussa.tokyo.jp/life/child/nursery/1018667.html",
+      "quote": "「施設利用保留通知書」により、申込みをした最初の入園希望月のみ通知します。"
+    },
+    "notes.0": {
+      "url": "https://www.city.fussa.tokyo.jp/life/child/nursery/1002584.html",
+      "quote": "【3次募集】2次募集終了後から令和9年3月10日（水曜日）"
+    },
+    "notes.0#2": {
+      "url": "https://www.city.fussa.tokyo.jp/life/child/nursery/1002584.html",
+      "quote": "【3次募集】令和9年3月下旬"
+    },
+    "notes.1": {
+      "url": "https://www.city.fussa.tokyo.jp/life/child/nursery/1002584.html",
+      "quote": "・令和8年度の新規または転園の申込みが保留となっていて、令和9年度も継続して申込みを希望する方は、新たに申込みが必要です。"
+    },
+    "notes.2": {
+      "url": "https://www.city.fussa.tokyo.jp/life/child/nursery/1002584.html",
+      "quote": "申請書や就労証明書等の様式は、ホームページからダウンロードしていただくか、市役所1階8番子ども育成課窓口で配布しています。"
+    },
+    "notes.2#2": {
+      "url": "https://www.city.fussa.tokyo.jp/life/child/nursery/1002584.html",
+      "quote": "※学童クラブ申請用の勤務証明書は使用できません。"
+    },
+    "notes.2#3": {
+      "url": "https://www.city.fussa.tokyo.jp/life/child/nursery/1002584.html",
+      "quote": "※入園のしおりはありません。"
+    },
+    "notes.3": {
+      "url": "https://www.city.fussa.tokyo.jp/life/child/nursery/1002584.html",
+      "quote": "※窓口での申込みには、待ち時間に加え、手続きに30分以上かかることがありますので、時間に余裕をもってお越しください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.fussa.tokyo.jp/life/child/nursery/1002584.html",
+      "quote": "福生市へ転入予定のない方は、2次募集からの申込みとなります。ただし、福生市内の保育施設等に勤務されている方は、1次募集から申込み可能です。"
+    },
+    "notes.5": {
+      "url": "https://www.city.fussa.tokyo.jp/life/child/nursery/1002584.html",
+      "quote": "※電話での問合せにはお答えできません。"
+    }
+  },
+  "sources": [
+    {
+      "label": "福生市「保育園の令和9年4月入園の申込みについて」",
+      "url": "https://www.city.fussa.tokyo.jp/life/child/nursery/1002584.html"
+    },
+    {
+      "label": "福生市「保育園の入園申込み」",
+      "url": "https://www.city.fussa.tokyo.jp/life/child/nursery/1018667.html"
+    },
+    {
+      "label": "福生市「保育園関係の電子申請・郵送申請について」",
+      "url": "https://www.city.fussa.tokyo.jp/life/child/nursery/1016832.html"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "citySlug": "ikoma",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "生駒市「【令和9年4月】保育所等入所申込みについて（一斉入所分は10月13日受付開始）」",
+    "url": "https://www.city.ikoma.lg.jp/0000042489.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年10月13日（火曜日）9時〜10月27日（火曜日）16時30分（4月一斉入所の電子申請期間）",
+  "applyMethods": "市ホームページの申請フォームから電子申請する。個人番号提供書とマイナンバー確認書類だけは郵送か窓口持参で、4月一斉入所は11月20日（金）までに必着（窓口持参は16時30分まで）。生駒市民で市外の保育所を希望する場合は紙での申請",
+  "firstResult": "令和9年1月下旬頃に、入所内定・入所保留とも郵送で通知",
+  "secondApply": "令和9年1月12日（火曜日）9時〜2月1日（月曜日）16時30分（4月二次選考）",
+  "secondResult": "令和9年3月上旬頃に、入所内定となった人にのみ電話で連絡（13時頃から順次）",
+  "midYearDeadline": "5月以降の入所は、入所希望月の前月5日の23時59分までに電子申請",
+  "documents": [
+    "保育が必要な事由に応じた添付書類の画像データ（家庭外就労なら就労証明書）",
+    "保護者①・②の源泉徴収票または所得税の確定申告書第1・2表（4月〜8月入所の申込みは令和7年分）",
+    "個人番号提供書とマイナンバー確認書類（郵送か窓口持参。以前に同居する家族全員分を提出済みなら不要）",
+    "添付書類は、4月入所の申込みでは9月1日以降のものが有効",
+    "65歳未満の同居の祖父母がいる場合は、保護者と同様に保育ができないことがわかる書類"
+  ],
+  "interview": "内定後に、子どもと保護者が保育所等で面接を行い、子どもは嘱託医の健康診断を受ける。面接や健康診断の結果、内定が取り消される場合がある",
+  "ikukyu": "育児休業の延長に入所保留通知書が必要な場合は、勤務先に確認の上で通知書が必要な月に申し込む。保留通知書は申請フォームで希望した人にだけ郵送される。令和9年度から、理由なく希望園を1園しか書かないと選考順位が最下位になる。入所内定後に辞退すると保留通知書は発行されない",
+  "notes": [
+    "求職活動中の人（ひとり親世帯・生活保護受給世帯を除く）や、令和9年4月1日時点で生駒市に住民票がなく生駒市の施設を希望する人は、4月一斉入所に申し込めず4月二次選考からの受付になる",
+    "4月一斉入所の申込状況は令和8年11月20日（金曜日）9時に公開され、希望園変更・申込取下げは11月20日9時〜11月30日16時30分に受け付ける。この期間を過ぎて取り下げると令和9年度中の申請で減点対象",
+    "10月27日16時31分以降は申請内容を変更できない（選考基準点数を減らす申請のみ11月30日まで受付）",
+    "待機児童が増加傾向にあるため、希望園は慎重に選び、必要に応じて希望園を増やすよう呼びかけている",
+    "準備の目安として、申込締切日の2〜3か月前に希望園の見学と入所案内の確認をするよう示している"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.ikoma.lg.jp/0000042489.html",
+      "quote": "令和9年4月の入所申込みも引き続き、申請方法は電子申請です。"
+    },
+    "firstApply": {
+      "url": "https://www.city.ikoma.lg.jp/0000042489.html",
+      "quote": "4月一斉入所電子申請期間： 令和8年10月13日（火曜日）9時から令和8年10月27日（火曜日）16時30分"
+    },
+    "applyMethods": {
+      "url": "https://www.city.ikoma.lg.jp/0000042489.html",
+      "quote": "令和9年4月の入所申込みも引き続き、申請方法は電子申請です。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.ikoma.lg.jp/0000042489.html",
+      "quote": "個人番号提供書と確認書類のみ郵送か窓口持参となります。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.ikoma.lg.jp/cmsfiles/contents/0000042/42489/R9nyusyoannai.pdf",
+      "quote": "※4月一斉入所のみ、11月20日（金）までに必着（窓口持参は16時30分まで）。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.ikoma.lg.jp/0000042489.html",
+      "quote": "（注意）生駒市民で生駒市外の保育所をご希望される方は紙での申請となります。"
+    },
+    "firstResult": {
+      "url": "https://www.city.ikoma.lg.jp/cmsfiles/contents/0000042/42489/R9nyusyoannai.pdf",
+      "quote": "選考結果の通知 （令和9年1月下旬頃） ※入所内定・入所保留とも郵送による通知"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.ikoma.lg.jp/0000042719.html",
+      "quote": "4月一斉入所分については、入所内定・入所保留にかかわらず1月下旬頃に郵送で通知します。"
+    },
+    "secondApply": {
+      "url": "https://www.city.ikoma.lg.jp/0000042489.html",
+      "quote": "令和9年4月二次選考申込受付期間： 令和9年1月12日（火曜日）9時から2月1日（月曜日）16時30分"
+    },
+    "secondResult": {
+      "url": "https://www.city.ikoma.lg.jp/cmsfiles/contents/0000042/42489/R9nyusyoannai.pdf",
+      "quote": "選考結果の通知 （令和9年3月上旬頃） ※入所内定となった方のみ電話連絡（13時頃から順次）"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.ikoma.lg.jp/cmsfiles/contents/0000042/42489/R9nyusyoannai.pdf",
+      "quote": "☆申込締切日は、入所希望月の前月5日の23時59分まで"
+    },
+    "documents.0": {
+      "url": "https://www.city.ikoma.lg.jp/cmsfiles/contents/0000042/42489/R9nyusyoannai.pdf",
+      "quote": "１-４．添付資料一覧（全員いずれかに該当）※画像データを添付してください。"
+    },
+    "documents.0#2": {
+      "url": "https://www.city.ikoma.lg.jp/cmsfiles/contents/0000042/42489/R9nyusyoannai.pdf",
+      "quote": "家庭外就労 就労証明書 なし なし"
+    },
+    "documents.1": {
+      "url": "https://www.city.ikoma.lg.jp/cmsfiles/contents/0000042/42489/R9nyusyoannai.pdf",
+      "quote": "・保護者①・②の源泉徴収票又は所得税の確定申告書第1・2表（P26 Q9参照）"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.ikoma.lg.jp/cmsfiles/contents/0000042/42489/R9nyusyoannai.pdf",
+      "quote": "※4月〜8月入所申込みは令和7年分、9月以降の入所申込みは令和8年分の源泉徴収票又は所得税"
+    },
+    "documents.2": {
+      "url": "https://www.city.ikoma.lg.jp/0000042489.html",
+      "quote": "個人番号提供書と確認書類のみ郵送か窓口持参となります。ただし、以前に、現在同居する家族全員分の個人番号提供書を提出されている方は提出不要です。"
+    },
+    "documents.3": {
+      "url": "https://www.city.ikoma.lg.jp/cmsfiles/contents/0000042/42489/R9nyusyoannai.pdf",
+      "quote": "ただし、4月入所・1〜3月入所申込みの添付書類は9月1日以降のものが有効です。"
+    },
+    "documents.4": {
+      "url": "https://www.city.ikoma.lg.jp/cmsfiles/contents/0000042/42489/R9nyusyoannai.pdf",
+      "quote": "② 65歳未満の同居の祖父母がいる場合は、保護者と同様に保育のできないことがわかる書類"
+    },
+    "interview": {
+      "url": "https://www.city.ikoma.lg.jp/cmsfiles/contents/0000042/42489/R9nyusyoannai.pdf",
+      "quote": "内定後、こどもと保護者は保育所等で面接 を行い、こどもは嘱託医の健康診断を受診"
+    },
+    "interview#2": {
+      "url": "https://www.city.ikoma.lg.jp/cmsfiles/contents/0000042/42489/R9nyusyoannai.pdf",
+      "quote": "② 面接や健康診断の結果、入所内定が取り消される場合があります。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.ikoma.lg.jp/0000042719.html",
+      "quote": "保育所等に入所できなかった場合に発行される入所保留通知書が必要な場合があります。お勤め先にお問い合わせの上、入所保留通知書が必要な月にお申込みください。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.ikoma.lg.jp/0000042719.html",
+      "quote": "なお、令和9年度より、入所の意思にかかわらず、理由がなく希望園を1園しか記載しない場合、選考順位が最下位となります。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.ikoma.lg.jp/0000042719.html",
+      "quote": "入所内定後に辞退をされた場合、入所保留通知書は発行できません。"
+    },
+    "ikukyu#4": {
+      "url": "https://www.city.ikoma.lg.jp/0000042719.html",
+      "quote": "「保育所入所保留通知書」は、入所申込の際に、申請フォーム上で希望をいただいている方のみ入所選考日から市役所の閉庁日を除いた3日後以降に、申請フォームに入力された住所へ郵送します。"
+    },
+    "notes.0": {
+      "url": "https://www.city.ikoma.lg.jp/0000042489.html",
+      "quote": "4月一斉入所でお申込み出来ない方（4月二次選考からの受付となります） ・求職活動中の方（ひとり親世帯や生活保護受給世帯の方を除く）"
+    },
+    "notes.0#2": {
+      "url": "https://www.city.ikoma.lg.jp/0000042489.html",
+      "quote": "・令和9年4月1日時点で生駒市に住民票がなく（転入予定がなく）、生駒市の施設を希望する方"
+    },
+    "notes.1": {
+      "url": "https://www.city.ikoma.lg.jp/0000042489.html",
+      "quote": "4月一斉入所申込状況公開： 令和8年11月20日（金曜日）9時"
+    },
+    "notes.1#2": {
+      "url": "https://www.city.ikoma.lg.jp/0000042489.html",
+      "quote": "4月一斉入所希望園変更・申込取下げ受付期間： 令和8年11月20日（金曜日）9時から11月30日（月曜日）16時30分 （注意）上記期間を超えて取下げした場合は、令和9年度中の申請において減点対象"
+    },
+    "notes.2": {
+      "url": "https://www.city.ikoma.lg.jp/0000042489.html",
+      "quote": "（注意）10月27日16時31分以降、申請内容を変更することはできませんが、選考基準点数を減らす申請のみ11月30日まで受け付けます。"
+    },
+    "notes.3": {
+      "url": "https://www.city.ikoma.lg.jp/0000042489.html",
+      "quote": "入所結果のとおり、待機児童が増加している傾向にあります。そのため、希望園は慎重に選択いただき、必要に応じて希望園を増やす等をご検討ください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.ikoma.lg.jp/cmsfiles/contents/0000042/42489/R9nyusyoannai.pdf",
+      "quote": "申込締切日 2〜3 か月前 希望園の見学、保育所等入所案内（2・3号認定用）の確認"
+    }
+  },
+  "sources": [
+    {
+      "label": "生駒市「【令和9年4月】保育所等入所申込みについて（一斉入所分は10月13日受付開始）」",
+      "url": "https://www.city.ikoma.lg.jp/0000042489.html"
+    },
+    {
+      "label": "生駒市「令和9年度入所用 生駒市保育所等入所案内（2・3号認定用）」",
+      "url": "https://www.city.ikoma.lg.jp/cmsfiles/contents/0000042/42489/R9nyusyoannai.pdf"
+    },
+    {
+      "label": "生駒市「保育所等入所に関するよくある問合せ（令和9年度版）」",
+      "url": "https://www.city.ikoma.lg.jp/0000042719.html"
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "citySlug": "fujieda",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "藤枝市「令和9年度保育所等の入所申込みについて」",
+    "url": "https://www.city.fujieda.shizuoka.jp/soshiki/kodomomirai/jido/gyomu/6/27596.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年8月5日（水曜日）以降、藤枝市役所こども課と岡部支所で申込用紙等を配布",
+  "firstApply": "令和8年9月1日（火曜日）〜10月3日（土曜日）。令和9年4月〜12月の入所希望が対象",
+  "applyMethods": "申込用紙に記入し、藤枝市役所こども課の窓口へ直接持参する。郵送やメールでの提出はできない。受付は平日8時30分〜11時30分・13時〜16時30分で、9月13日（日曜日）と10月3日（土曜日）は午前中（8時30分〜正午）のみ受付",
+  "firstResult": "令和9年1月下旬に結果通知を発送予定。認可保育所・小規模保育所の内定はこども課から、認定こども園の内定はこども園から自宅へ郵送。保留の場合はこども課から「保育所入所保留通知書」を郵送",
+  "secondApply": "令和8年10月5日（月曜日）〜令和9年1月22日（金曜日）。一次申請をしていない人で令和9年4月〜12月の入所希望が対象",
+  "secondResult": "入所が可能な場合のみ、令和9年2月8日（月曜日）〜16日（火曜日）にこども課から電話連絡",
+  "midYearDeadline": "一次・二次申請をしていない人は三次申請として、入所希望月ごとの申請締切日までにこども課へ直接申請する（締切日厳守）。令和9年4月入所は令和9年2月26日、5月入所は令和9年3月31日が締切",
+  "documents": [
+    "教育・保育給付認定申請書兼保育の利用申込書（児童1人につき1枚）",
+    "保育所入所申込みにかかる世帯状況等調査票および同意書（1世帯につき1枚）",
+    "就労証明書（児童の保護者と、世帯分離にかかわらず同住所に住む65歳未満で就労している人全員分。発行から3か月以内のものが有効）",
+    "児童の状況調査票（入所希望年度の初日現在の年齢の様式。市外から藤枝市の園を希望する場合も必要）",
+    "医師意見書（病気などにより保育ができない人）",
+    "保育を必要とする理由の調査書（自営業として農業をしている場合はこれを出し、就労証明書は不要）",
+    "独自利用事務の情報連携に関する申告書・同意書（令和8年1月1日と令和9年1月1日時点で住民票が藤枝市になかった場合）",
+    "転入確約書（市外から申し込み、藤枝市に転入予定の場合）"
+  ],
+  "interview": "入園説明会は令和9年2月下旬〜3月上旬で、園によっては親子面接を行う。園によっては見学を必須としている",
+  "ikukyu": "育休延長に必要な入所保留の通知は、保育園に申し込んで入所できなかった場合に発行されるので、入所希望月（復帰予定月）の申請締切日までに申し込む。申込書で「育児休業の延長も許容できる」を選ぶと利用調整で減点になる。育休中の申込は入園希望月が育休復帰予定月かその前月の場合のみ。入所が決定した場合のキャンセルはできない",
+  "notes": [
+    "必要書類をすべて準備してから提出する。記入漏れがあると受付できない",
+    "第1希望の人や1つの施設だけを希望している人が優先されることはない",
+    "保留通知後に希望園を増やせるが空き枠がないこともあるので、最初の申込で園見学をして、通える範囲で希望園をできるだけ多く書くよう勧めている",
+    "内定後のキャンセルは、引越しや転職などやむを得ない理由以外は受け付けない",
+    "令和10年1月〜3月の入所希望は一次・二次申請では受け付けず、三次申請から受付",
+    "入所後1週間程度は午前中のみの保育で、3週間程度で1日保育へ移行する（慣らし保育）"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.fujieda.shizuoka.jp/soshiki/kodomomirai/jido/gyomu/6/27596.html",
+      "quote": "令和9年4月～令和10年3月に、1.認可保育所、2.認定こども園（保育認定）3.小規模保育所、4.家庭的保育所、5.事業所内保育所への入園を希望する場合は、こども課への申込みが必要です。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.fujieda.shizuoka.jp/soshiki/kodomomirai/jido/gyomu/6/27596.html",
+      "quote": "令和8年8月5日（水曜日）以降、藤枝市役所こども課、岡部支所で申込用紙等の配布を行っています。"
+    },
+    "firstApply": {
+      "url": "https://www.city.fujieda.shizuoka.jp/soshiki/kodomomirai/jido/gyomu/6/27596.html",
+      "quote": "令和8年9月1日（火曜日）～10月3日（土曜日）の期間内に、申込用紙に必要事項を記入し、直接、こども課へお越しください。"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.fujieda.shizuoka.jp/material/files/group/110/R9nyuusyonogoannai2.pdf",
+      "quote": "令和８年10月3日（一次申請締切）までにこども課へ申請をご提出されていない方で、令和９年4月～令和９年12月※に入所を希望されている場合は、二次申請にてお申し込みいただくことになります。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.fujieda.shizuoka.jp/soshiki/kodomomirai/jido/gyomu/6/27596.html",
+      "quote": "ただし、9月13日（日曜日）および10月3日(土曜日)は午前中（8時30分～正午）のみ受付を行います。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.fujieda.shizuoka.jp/soshiki/kodomomirai/jido/gyomu/6/27596.html",
+      "quote": "受付は平日のみです。平日の受付時間につきましては8時30分～11時30分、13時～16時30分です。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.fujieda.shizuoka.jp/material/files/group/110/R9nyuusyonogoannai2.pdf",
+      "quote": "※郵送やメールでの提出はできません。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.fujieda.shizuoka.jp/material/files/group/110/R9nyuusyonogoannai2.pdf",
+      "quote": "受付窓口：藤枝市役所 こども課（所要時間：約20～30分）"
+    },
+    "firstResult": {
+      "url": "https://www.city.fujieda.shizuoka.jp/material/files/group/110/R9nyuusyonogoannai2.pdf",
+      "quote": "１次選考の結果は、令和９年１月下旬頃にこども課又は、こども園から通知を発送する予定です。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.fujieda.shizuoka.jp/material/files/group/110/R9nyuusyonogoannai2.pdf",
+      "quote": "【認可保育所・小規模保育所に内定した場合】 こども課から結果通知をご自宅へ郵送します。 【認定こども園に内定した場合】 こども園から結果通知がご自宅へ郵送されます。"
+    },
+    "firstResult#3": {
+      "url": "https://www.city.fujieda.shizuoka.jp/material/files/group/110/R9nyuusyonogoannai2.pdf",
+      "quote": "こども課から「保育所入所保留通知書」をご自宅へ郵送します。"
+    },
+    "secondApply": {
+      "url": "https://www.city.fujieda.shizuoka.jp/soshiki/kodomomirai/jido/gyomu/6/27596.html",
+      "quote": "令和8年10月5日(月曜日)～令和9年1月22日(金曜日)に、こども課・岡部支所で配布、または下記でダウンロードした申込用紙に必要事項を記入し、直接、こども課へお越しください。"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.fujieda.shizuoka.jp/material/files/group/110/R9nyuusyonogoannai2.pdf",
+      "quote": "令和８年10月3日（一次申請締切）までにこども課へ申請をご提出されていない方で、令和９年4月～令和９年12月※に入所を希望されている場合は、二次申請にてお申し込みいただくことになります。"
+    },
+    "secondResult": {
+      "url": "https://www.city.fujieda.shizuoka.jp/soshiki/kodomomirai/jido/gyomu/6/27596.html",
+      "quote": "入所が可能な場合のみ、令和9年2月8日(月曜日)～16日(火曜日)にこども課より電話連絡をします。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.fujieda.shizuoka.jp/soshiki/kodomomirai/jido/gyomu/6/27596.html",
+      "quote": "下記各入所希望月申請締切日までに、こども課・岡部支所で配布、または下記でダウンロードした申込用紙に必要事項を記入し、直接、こども課へお越しください。（締切日厳守）"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.fujieda.shizuoka.jp/material/files/group/110/R9nyuusyonogoannai2.pdf",
+      "quote": "令和９年４月 令和9年2月26日 令和９年３月２日～８日"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.fujieda.shizuoka.jp/material/files/group/110/R9nyuusyonogoannai2.pdf",
+      "quote": "令和９年５月 令和9年3月31日 令和９年４月２日～８日"
+    },
+    "documents.0": {
+      "url": "https://www.city.fujieda.shizuoka.jp/soshiki/kodomomirai/jido/gyomu/6/27596.html",
+      "quote": "・令和9年度教育・保育給付認定申請書兼保育の利用申込書（児童1人につき1枚）"
+    },
+    "documents.1": {
+      "url": "https://www.city.fujieda.shizuoka.jp/soshiki/kodomomirai/jido/gyomu/6/27596.html",
+      "quote": "・令和9年度保育所入所申込みにかかる世帯状況等調査票および同意書（1世帯につき1枚）"
+    },
+    "documents.2": {
+      "url": "https://www.city.fujieda.shizuoka.jp/soshiki/kodomomirai/jido/gyomu/6/27596.html",
+      "quote": "・令和9年度就労証明書（児童の保護者・世帯分離にかかわらず、同住所に住んでいる65歳未満で就労している方全員）"
+    },
+    "documents.2#2": {
+      "url": "https://www.city.fujieda.shizuoka.jp/material/files/group/110/R9nyuusyonogoannai2.pdf",
+      "quote": "※就労証明書は発行から３か月以内のものが有効になります"
+    },
+    "documents.3": {
+      "url": "https://www.city.fujieda.shizuoka.jp/soshiki/kodomomirai/jido/gyomu/6/27596.html",
+      "quote": "・令和9年度児童の状況調査票（入所希望年度の初日現在の年齢のものをお使いください。市外から藤枝市の園を希望される場合もこの書類が必要です。）"
+    },
+    "documents.4": {
+      "url": "https://www.city.fujieda.shizuoka.jp/soshiki/kodomomirai/jido/gyomu/6/27596.html",
+      "quote": "・令和9年度医師意見書（病気などにより保育ができない方）"
+    },
+    "documents.5": {
+      "url": "https://www.city.fujieda.shizuoka.jp/material/files/group/110/R9nyuusyonogoannai2.pdf",
+      "quote": "※自営業として農業をされている場合は、保育を必要とする理由の調査書をご提出ください（就労証明書は不要です）"
+    },
+    "documents.6": {
+      "url": "https://www.city.fujieda.shizuoka.jp/soshiki/kodomomirai/jido/gyomu/6/27596.html",
+      "quote": "・令和9年度独自利用事務の情報連携に関する申告書・同意書（令和8年1月1日及び令和9年1月1日時点で住民票が藤枝市になかった場合）"
+    },
+    "documents.7": {
+      "url": "https://www.city.fujieda.shizuoka.jp/soshiki/kodomomirai/jido/gyomu/6/27596.html",
+      "quote": "・令和9年度転入確約書（市外からお申込みの方で、藤枝市に転入予定の場合）"
+    },
+    "interview": {
+      "url": "https://www.city.fujieda.shizuoka.jp/material/files/group/110/R9nyuusyonogoannai2.pdf",
+      "quote": "令和９年２月下旬～３月上旬 ※園によっては親子面接を実施する場合があります。"
+    },
+    "interview#2": {
+      "url": "https://www.city.fujieda.shizuoka.jp/material/files/group/110/R9nyuusyonogoannai2.pdf",
+      "quote": "★園によっては見学を必須とするところもありますので、12～15ページをご確認ください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.fujieda.shizuoka.jp/material/files/group/110/R9nyuusyonogoannai2.pdf",
+      "quote": "保育園の申し込みをし、入所できなかった場合に発行ができるため、必ず入所希望月（復帰予定月）の申請締切日までに保育園の申し込みをしてください。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.fujieda.shizuoka.jp/material/files/group/110/R9nyuusyonogoannai2.pdf",
+      "quote": "育児休業の延長も許容できる。(※利用調整にあたり減点となります。)"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.fujieda.shizuoka.jp/material/files/group/110/R9nyuusyonogoannai2.pdf",
+      "quote": "入園希望月が育休復帰予定月、またはその前月である場合のみ申し込み可能です。"
+    },
+    "ikukyu#4": {
+      "url": "https://www.city.fujieda.shizuoka.jp/material/files/group/110/R9nyuusyonogoannai2.pdf",
+      "quote": "なお、審査の結果、入所が決定した場合のキャンセルはできませんのでご了承ください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.fujieda.shizuoka.jp/material/files/group/110/R9nyuusyonogoannai2.pdf",
+      "quote": "必要書類を全てご準備してから提出してください。また、記入漏れがあると受付できません。"
+    },
+    "notes.1": {
+      "url": "https://www.city.fujieda.shizuoka.jp/material/files/group/110/R9nyuusyonogoannai2.pdf",
+      "quote": "第１希望の人や、１つの保育施設のみを希望している人が優先ということはありません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.fujieda.shizuoka.jp/material/files/group/110/R9nyuusyonogoannai2.pdf",
+      "quote": "そのため、最初の申し込み段階で園見学をして、希望園をできるだけ多く（ただし通える範囲内で）記載することを強くお勧めします。"
+    },
+    "notes.3": {
+      "url": "https://www.city.fujieda.shizuoka.jp/material/files/group/110/R9nyuusyonogoannai2.pdf",
+      "quote": "引越しや転職、その他やむを得ない理由でのキャンセル以外は一切受け付けできません。"
+    },
+    "notes.4": {
+      "url": "https://www.city.fujieda.shizuoka.jp/soshiki/kodomomirai/jido/gyomu/6/27596.html",
+      "quote": "※令和10年1月～令和10年3月に入所を希望される方は三次申請から受付をします。"
+    },
+    "notes.5": {
+      "url": "https://www.city.fujieda.shizuoka.jp/material/files/group/110/R9nyuusyonogoannai2.pdf",
+      "quote": "通常、入所後の１週間程度は午前中のみの保育となり、徐々に保育時間を長くしていき、３週間程度で１日保育へと移行します。"
+    }
+  },
+  "sources": [
+    {
+      "label": "藤枝市「令和9年度保育所等の入所申込みについて」",
+      "url": "https://www.city.fujieda.shizuoka.jp/soshiki/kodomomirai/jido/gyomu/6/27596.html"
+    },
+    {
+      "label": "藤枝市「令和9年度幼児教育・保育施設入所のご案内」",
+      "url": "https://www.city.fujieda.shizuoka.jp/material/files/group/110/R9nyuusyonogoannai2.pdf"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "citySlug": "hakusan",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "白山市「新年度 保育所・認定こども園・小規模保育所の申込みのご案内」",
+    "url": "https://www.city.hakusan.lg.jp/kosodate/1012908/hoikujyo/1002060.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年10月1日（木）〜10月15日（木）（日曜・祝日を除く）。受付時間は午前9時〜午後5時（土曜日は午後0時30分まで）",
+  "applyMethods": "受付期間中に第一希望の施設で提出書類の用紙を受け取り、第三希望まで記入して第一希望の施設に提出する。市外の施設を希望する場合は保育こども園課で用紙を受け取り、保育こども園課に提出する。提出書類が不足していると受け付けられない",
+  "firstResult": "令和9年2月頃に、通常は入所施設を通じて「利用承諾通知書」で通知（入所承諾書は令和9年2月中に発行予定）",
+  "documents": [
+    "令和9年度施設（事業所）利用申込書兼施設型給付費・地域型保育給付費等支給認定申請書（現況届）",
+    "就労証明書（就労・就労予定の場合。65歳未満の同居の祖父母で就労している人も提出。標準様式（社印不要）のほか法人企業等の独自様式も可）",
+    "妊娠・出産の場合は母子手帳の写し（表紙および出産予定日のページ）",
+    "疾病・障害、介護・看護の場合は診断書、障害者手帳等の写し（介護・看護は介護保険証の写しも可）",
+    "就学の場合は在学証明書およびカリキュラムのわかるもの（職業訓練の場合は訓練内容を確認できる書類）",
+    "求職活動の場合は保育所・認定こども園の利用に関する申立書とハローワークカードの写し（持っている人）",
+    "育児休業中の継続利用の場合は育児休業期間のわかる書類または就労証明書"
+  ],
+  "ikukyu": "育児休業後に職場復帰する人など（妊娠中の人を含む）で年度途中（令和9年5月〜令和10年3月）の入所を希望する場合も、4月入所と同じ受付期間に申請する。職場復帰による事由の場合は育児休業証明書等が必要",
+  "notes": [
+    "年度途中の申し込みでは、空きがなく入所できない場合がある",
+    "年度途中（令和9年5月〜令和10年3月）に入所する人には、入所前月に施設を通して「利用承諾通知書」を通知する",
+    "同居の祖父母が保育できる場合は、入所の優先度を調整することがある",
+    "求職中で入所した場合、入所後3か月以内に就労証明書を出さないと原則退所となる",
+    "虚偽の申請が判明した場合は、却下または退所（園）となる"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.hakusan.lg.jp/kosodate/1012908/hoikujyo/1002060.html",
+      "quote": "市内の公立・私立すべての保育所（園）、認定こども園、小規模保育所における令和9年4月1日からの入所（園）申し込みの受け付けを下記のとおり行います。"
+    },
+    "firstApply": {
+      "url": "https://www.city.hakusan.lg.jp/_res/projects/default_project/_page_/001/002/060/r9shiori.pdf",
+      "quote": "令和 8 年 10 月 1 日（木） 〜 10 月 15 日（木）（日曜・祝日を除く。）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.hakusan.lg.jp/kosodate/1012908/hoikujyo/1002060.html",
+      "quote": "午前9時00分から午後5時00分まで　※土曜日は午後0時30分まで"
+    },
+    "applyMethods": {
+      "url": "https://www.city.hakusan.lg.jp/kosodate/1012908/hoikujyo/1002060.html",
+      "quote": "（1）の期間中に、第一希望の施設で提出書類の用紙を受け取り、受付期間内に第一希望の施設に提出してください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.hakusan.lg.jp/kosodate/1012908/hoikujyo/1002060.html",
+      "quote": "申込書（申請書）には第三希望の施設まで記入してください。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.hakusan.lg.jp/kosodate/1012908/hoikujyo/1002060.html",
+      "quote": "市外の施設を希望される方は、保育こども園課で提出書類の用紙を受け取り、受付期間内に、保育こども園課へ提出してください。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.hakusan.lg.jp/kosodate/1012908/hoikujyo/1002060.html",
+      "quote": "提出書類が不足していると受付ができませんのでご注意ください"
+    },
+    "firstResult": {
+      "url": "https://www.city.hakusan.lg.jp/kosodate/1012908/hoikujyo/1002060.html",
+      "quote": "新年度、4月入所を希望する方には、入所基準に基づき審査のうえ、令和9年2月頃に、通常は入所施設を通じて「利用承諾通知書」にて通知します。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.hakusan.lg.jp/_res/projects/default_project/_page_/001/002/060/r9shiori.pdf",
+      "quote": "施設（事業所）利用申込書に基づき入所（園）の調整を行い、令和９年２月中に入所承諾書を発行する予定です。"
+    },
+    "documents.0": {
+      "url": "https://www.city.hakusan.lg.jp/_res/projects/default_project/_page_/001/002/060/r9shiori.pdf",
+      "quote": "令和９年度施設（事業所）利用申込書 兼 施設型給付費・地域型保育給付費等 支給認定申請書（現況届）"
+    },
+    "documents.1": {
+      "url": "https://www.city.hakusan.lg.jp/_res/projects/default_project/_page_/001/002/060/r9shiori.pdf",
+      "quote": "就労または就労予定 就労証明書（別紙様式あり）"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.hakusan.lg.jp/kosodate/1012908/hoikujyo/1002060.html",
+      "quote": "65歳未満の同居の祖父母で就労している方がいる場合は、その方も提出してください。"
+    },
+    "documents.1#3": {
+      "url": "https://www.city.hakusan.lg.jp/kosodate/1012908/hoikujyo/1002060.html",
+      "quote": "令和4年度より「標準様式（社印不要）」を採用しております。法人企業等の独自様式も利用できます。"
+    },
+    "documents.2": {
+      "url": "https://www.city.hakusan.lg.jp/kosodate/1012908/hoikujyo/1002060.html",
+      "quote": "妊娠・出産 母子手帳の写し （表紙および出産予定日のページ）"
+    },
+    "documents.3": {
+      "url": "https://www.city.hakusan.lg.jp/kosodate/1012908/hoikujyo/1002060.html",
+      "quote": "介護・看護 診断書、障害者手帳等の写し、介護保険証の写し"
+    },
+    "documents.4": {
+      "url": "https://www.city.hakusan.lg.jp/kosodate/1012908/hoikujyo/1002060.html",
+      "quote": "在学証明書およびカリキュラムのわかるもの 職業訓練の場合は訓練内容を確認できる書類"
+    },
+    "documents.5": {
+      "url": "https://www.city.hakusan.lg.jp/_res/projects/default_project/_page_/001/002/060/r9shiori.pdf",
+      "quote": "求職中 求職中の申立書（別紙様式あり）、ハローワークカードの写し（お持ちの方）"
+    },
+    "documents.6": {
+      "url": "https://www.city.hakusan.lg.jp/kosodate/1012908/hoikujyo/1002060.html",
+      "quote": "育児休業中の継続利用 育児休業期間のわかる書類 または就労証明書"
+    },
+    "ikukyu": {
+      "url": "https://www.city.hakusan.lg.jp/kosodate/1012908/hoikujyo/1002060.html",
+      "quote": "※育児休業後に職場復帰する方など（現在、妊娠中の方も含む）で、年度途中（令和9年5月～令和10年3月）に入所を希望される方も、この期間に申請してください。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.hakusan.lg.jp/kosodate/1012908/hoikujyo/1002060.html",
+      "quote": "なお、職場復帰による事由の場合は、育児休業証明書等の提出が必要となります。"
+    },
+    "notes.0": {
+      "url": "https://www.city.hakusan.lg.jp/kosodate/1012908/hoikujyo/1002060.html",
+      "quote": "年度途中の申し込みでは、空きがなく、入所できない場合があります。"
+    },
+    "notes.1": {
+      "url": "https://www.city.hakusan.lg.jp/kosodate/1012908/hoikujyo/1002060.html",
+      "quote": "年度途中（令和9年5月～令和10年3月）入所の方については、入所前月に、同じく施設を通して「利用承諾通知書」を通知します。"
+    },
+    "notes.2": {
+      "url": "https://www.city.hakusan.lg.jp/kosodate/1012908/hoikujyo/1002060.html",
+      "quote": "同居の祖父母が保育できる場合は、入所の優先度を調整することがあります。"
+    },
+    "notes.3": {
+      "url": "https://www.city.hakusan.lg.jp/_res/projects/default_project/_page_/001/002/060/r9shiori.pdf",
+      "quote": "入所後３ケ月以内に就労証明書が提出されない場合は、原則退所となります。"
+    },
+    "notes.4": {
+      "url": "https://www.city.hakusan.lg.jp/kosodate/1012908/hoikujyo/1002060.html",
+      "quote": "虚偽の申請が判明した場合は、却下または退所（園）となります。"
+    }
+  },
+  "sources": [
+    {
+      "label": "白山市「新年度 保育所・認定こども園・小規模保育所の申込みのご案内」",
+      "url": "https://www.city.hakusan.lg.jp/kosodate/1012908/hoikujyo/1002060.html"
+    },
+    {
+      "label": "白山市「令和9年度 施設型給付費・地域型保育給付費等支給認定申請のしおり」（PDF）",
+      "url": "https://www.city.hakusan.lg.jp/_res/projects/default_project/_page_/001/002/060/r9shiori.pdf"
+    }
+  ]
+}

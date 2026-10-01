@@ -1,0 +1,162 @@
+{
+  "citySlug": "iga",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "伊賀市「令和9年度 保育所(園)・認定こども園の入所申し込み」",
+    "url": "https://www.city.iga.lg.jp/igakids/0000010447.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年10月1日（木）から申込書を配布。配布場所は市内各保育施設、子育て支援センター、市役所保育幼稚園課、各支所で、伊賀市ホームページからもダウンロードできる",
+  "firstApply": "令和8年10月5日（月）〜10月30日（金）の午前8時30分〜午後5時（土曜日・日曜日・祝日を除く）。育休明け予約入所も同じ期間",
+  "applyMethods": "一斉申込は利用第1希望の保育所（園）・認定こども園に申込書類を提出する（施設経由で保育幼稚園課へ）。みらいにんにん保育園が第1希望の場合のみ保育幼稚園課へ提出。オンライン申請は年度途中の入所申込のみで、10月の一斉申込は書類を提出する",
+  "firstResult": "令和8年12月中旬に、保育幼稚園課から「保育所入所内定のお知らせ」または「保育所入所保留のお知らせ」を送付。4月入所の「入所承諾書」は令和9年2月中旬頃に送付",
+  "midYearDeadline": "令和9年度の途中入所（育休明け以外）は令和9年3月1日（月）〜11月19日（金）に市役所保育幼稚園課で受付（オンライン申請可）。入所希望月ごとに受付期限がある",
+  "documents": [
+    "伊賀市保育所（園）・幼稚園・認定こども園・地域型保育事業利用申込兼教育・保育給付認定申請書（児童1名ごと）",
+    "利用調整調査票",
+    "マイナンバー（個人番号）申告書。マイナンバーを証明する書類と本人確認書類を添える",
+    "保育が必要な事由を証明する書類（就労なら就労証明書。育児休業から復帰する場合は就労証明書の育児休業に係る欄を就労先が記載）",
+    "自営業（農業含む）の場合は就労証明書に加えて添付書類が必要"
+  ],
+  "interview": "申込み書類の提出時に、各提出場所で申込み内容の聞き取りがある。特に申し出たい事項がある場合は市役所保育幼稚園課で別途面接。新規入所者向けに令和9年3月に各保育所（園）で入所説明会がある",
+  "ikukyu": "令和9年度の途中に育児休業が終了する人は「育休明け予約入所」として令和8年10月の一斉申込期間に申し込む。育児休業給付金の支給期間延長に申込書の写しが必要なため、提出前に各自でコピーする。入所保留通知書の交付には、入所手続きと保育所（園）入所保留通知書発行申請書の事前提出が必要",
+  "notes": [
+    "一斉申込期間を過ぎた場合は、期間内に申請した人よりも入所調整の優先度が下がる",
+    "出産予定の児童の申請では、児童の氏名欄に「○○（名字）ベビー」、生年月日欄に出産予定日を書く",
+    "申込書には第1希望〜第6希望の保育所（園）を書けるので、できる限り多くの園を検討する",
+    "申込み時点で伊賀市に住民登録がなくても申し込めるが、令和9年3月31日までに転入する必要がある",
+    "児童1名につき保育所申込は1件まで"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.iga.lg.jp/igakids/0000010447.html",
+      "quote": "4月新規入所（令和9年4月1日から保育を受けたい方）・育休明け予約入所（令和9年度の途中に育児休業が終了するため保育を受けたい方）"
+    },
+    "guideRelease": {
+      "url": "https://www.city.iga.lg.jp/igakids/cmsfiles/contents/0000010/10447/R9riyouannnai.pdf",
+      "quote": "令和8年10月1日（木）～ 市内各保育施設、子育て支援センター、市役所保育幼稚園課、各支所で配布"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.iga.lg.jp/igakids/cmsfiles/contents/0000010/10447/R9riyouannnai.pdf",
+      "quote": "※伊賀市ホームページからもダウンロード可能です"
+    },
+    "firstApply": {
+      "url": "https://www.city.iga.lg.jp/igakids/0000010447.html",
+      "quote": "令和8年10月5日（月）～30日（金） 午前8時30分～午後5時まで（土曜日、日曜日、祝日を除く。）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.iga.lg.jp/igakids/cmsfiles/contents/0000010/10447/R9riyouannnai.pdf",
+      "quote": "〇令和 9年度の途中に育児休業が終了するため保育を受けたい方 受付期間 令和 8 年10 月5 日（月）から令和 8 年10月 30 日（金）まで"
+    },
+    "applyMethods": {
+      "url": "https://www.city.iga.lg.jp/igakids/cmsfiles/contents/0000010/10447/R9riyouannnai.pdf",
+      "quote": "受付場所 利用第1 希望の保育施設へお申込みください(施設経由で保育幼稚園課)"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.iga.lg.jp/igakids/cmsfiles/contents/0000010/10447/R9riyouannnai.pdf",
+      "quote": "※施設改修の都合上、みらいにんにん保育園が第１希望の場合のみ保育幼稚園課まで提出"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.iga.lg.jp/igakids/0000010447.html",
+      "quote": "※毎年10月の一斉申込は従来どおり希望する保育所（園）等に申込書類を提出してください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.iga.lg.jp/igakids/cmsfiles/contents/0000010/10447/R9riyouannnai.pdf",
+      "quote": "4月新規入所（一斉申込） 令和8年12月中旬"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.iga.lg.jp/igakids/cmsfiles/contents/0000010/10447/R9riyouannnai.pdf",
+      "quote": "利用調整結果は、市役所保育幼稚園課からの文書「保育所入所内定のお知らせ」又は「保育所入所保留のお知らせ」にて通知します。"
+    },
+    "firstResult#3": {
+      "url": "https://www.city.iga.lg.jp/igakids/0000010447.html",
+      "quote": "令和9年4月からの入所が決定した場合は、令和9年2月中旬頃に「入所承諾書」を送付します。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.iga.lg.jp/igakids/cmsfiles/contents/0000010/10447/R9riyouannnai.pdf",
+      "quote": "受付期間 令和9年 3月 1日（月）から令和 9年11月19 日（金）まで 受付場所 伊賀市役所 保育幼稚園課（直接）※オンライン申請可"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.iga.lg.jp/igakids/cmsfiles/contents/0000010/10447/R9riyouannnai.pdf",
+      "quote": "途中入所希望月により下記の予定で受付いたします。"
+    },
+    "documents.0": {
+      "url": "https://www.city.iga.lg.jp/igakids/cmsfiles/contents/0000010/10447/R9riyouannnai.pdf",
+      "quote": "伊賀市保育所（園）・幼稚園・認定こども園・地域型保育事業利用申込兼教育・保育給付認定申請書"
+    },
+    "documents.0#2": {
+      "url": "https://www.city.iga.lg.jp/igakids/0000010447.html",
+      "quote": "児童1名ごとに申請いただきます。"
+    },
+    "documents.1": {
+      "url": "https://www.city.iga.lg.jp/igakids/cmsfiles/contents/0000010/10447/R9riyouannnai.pdf",
+      "quote": "認定申請書  利用調整調査票  保育を必要とする事由に関する証明書等（P.4参照）"
+    },
+    "documents.2": {
+      "url": "https://www.city.iga.lg.jp/igakids/0000010447.html",
+      "quote": "マイナンバーを証明する書類と本人確認書類を添えて提出してください。"
+    },
+    "documents.3": {
+      "url": "https://www.city.iga.lg.jp/igakids/0000010447.html",
+      "quote": "※育児休業から復帰する場合は 「育児休業証明」 が必要となります。就労証明書中の「9」・「10」・「11」・「12」欄の育児休業に係る事項について、保護者の就労先事業者等にて記載が必要です。"
+    },
+    "documents.4": {
+      "url": "https://www.city.iga.lg.jp/igakids/0000010447.html",
+      "quote": "※自営業（農業含む）の場合は、就労証明書に加えて添付書類が必要です。"
+    },
+    "interview": {
+      "url": "https://www.city.iga.lg.jp/igakids/cmsfiles/contents/0000010/10447/R9riyouannnai.pdf",
+      "quote": "保育を必要とする事由や家庭状況等の確認のため、申込み書類等の提出時に、各提出場所で申込み内容についての聞き取りをします。"
+    },
+    "interview#2": {
+      "url": "https://www.city.iga.lg.jp/igakids/cmsfiles/contents/0000010/10447/R9riyouannnai.pdf",
+      "quote": "また、申込み内容について特に申し出たい事項等がある場合は、市役所保育幼稚園課にて別途面接による聞き取りを行います。"
+    },
+    "interview#3": {
+      "url": "https://www.city.iga.lg.jp/igakids/0000010447.html",
+      "quote": "※新規入所の人を対象に、令和9年3月に各保育所（園）で入所説明会を開催します。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.iga.lg.jp/igakids/0000010447.html",
+      "quote": "※令和9年4月からの入所、または令和9年度中に育児休業が終了するため入所を希望する人（現在妊娠中で、出産予定の児童の入所をこの期間中に希望する場合も含む。）は必ずこの期間中に申し込んでください。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.iga.lg.jp/igakids/0000010447.html",
+      "quote": "※育児休業を延長し、育児休業給付金の支給期間を延長する際は、「伊賀市保育所（園）・幼稚園・認定こども園利用申込兼教育・保育給付認定申請書」の写しが必要となるため、必ず提出前に各自でコピーをしてください。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.iga.lg.jp/igakids/cmsfiles/contents/0000010/10447/R9riyouannnai.pdf",
+      "quote": "そのため、保育所（園）入所保留通知書の交付については、事前に保育所等の入所手続きと保育所（園）入所保留通知書発行申請書の提出が必要です。"
+    },
+    "notes.0": {
+      "url": "https://www.city.iga.lg.jp/igakids/0000010447.html",
+      "quote": "一斉申込期間を過ぎた場合は、期間内に申請をされた方よりも入所調整の優先度が下がりますので、ご注意ください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.iga.lg.jp/igakids/0000010447.html",
+      "quote": "※出産予定の児童の入所申請をする場合は、児童の氏名欄には「○○（名字）ベビー」と記入し、生年月日欄には出産予定日を記入してください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.iga.lg.jp/igakids/cmsfiles/contents/0000010/10447/R9riyouannnai.pdf",
+      "quote": "申込書は第１希望～第６希望の保育所（園）を記載できる様式になっています。できる限り多くの保育所（園）を検討してください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.iga.lg.jp/igakids/cmsfiles/contents/0000010/10447/R9riyouannnai.pdf",
+      "quote": "申込み時点で伊賀市に住民登録がなくても申込むことができます。ただし、令和9年3月31日までに伊賀市に転入する必要があります。"
+    },
+    "notes.4": {
+      "url": "https://www.city.iga.lg.jp/igakids/cmsfiles/contents/0000010/10447/R9riyouannnai.pdf",
+      "quote": "児童1名につき、保育所申込は1件までです。"
+    }
+  },
+  "sources": [
+    {
+      "label": "伊賀市「令和9年度 保育所(園)・認定こども園の入所申し込み」",
+      "url": "https://www.city.iga.lg.jp/igakids/0000010447.html"
+    },
+    {
+      "label": "伊賀市「令和9年度保育所（園）・幼稚園・認定こども園利用案内」（PDF）",
+      "url": "https://www.city.iga.lg.jp/igakids/cmsfiles/contents/0000010/10447/R9riyouannnai.pdf"
+    }
+  ]
+}

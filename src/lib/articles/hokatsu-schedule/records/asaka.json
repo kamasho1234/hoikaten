@@ -1,0 +1,152 @@
+{
+  "citySlug": "asaka",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "朝霞市「令和9年度保育園等入所申請」",
+    "url": "https://www.city.asaka.lg.jp/site/kosodate/r9-hoikusinsei.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "利用案内冊子と申請書類は9月25日に市ホームページで公開。冊子は9月29日以降に市役所保育課窓口（2階24番）で配布（申請不要）。郵送での送付も申し込める",
+  "firstApply": "電子申請は令和8年10月1日（木曜日）〜10月31日（土曜日）。郵送は令和8年10月1日（木曜日）〜10月16日（金曜日）消印有効。窓口は令和8年10月14日（水曜日）〜10月30日（金曜日）正午まで",
+  "applyMethods": "電子申請・郵送・窓口で受け付ける。窓口は平日午前8時45分〜午後4時（土日祝日を除く）。電子申請のリンクは令和8年10月1日（木曜日）9時から公開",
+  "firstResult": "令和9年1月12日（火曜日）頃に結果を発送予定",
+  "secondApply": "令和8年11月2日から4月2次申請の受付開始",
+  "documents": [
+    "教育・保育給付認定申請書 兼 保育所等利用（調整）申請書（令和9年度申請用）",
+    "保育の必要な事由の証明書（就労証明書等）。父母と同一世帯の祖父母（70歳未満）が対象",
+    "市外から朝霞市に申請する場合は「市外からの申請に関する確認票」"
+  ],
+  "interview": "利用内定となった場合、集団保育の可否を判断するため、内定した施設などで子どもの面談がある（必ず出席）。面談だけで判断できないときは2日間程度の体験保育（保護者同伴）",
+  "ikukyu": "育児休業の延長に使う書類は「保育所等利用 調整結果通知書（利用保留）」。指数の減算（－100）を希望できるが、空き施設があれば利用内定となることもある",
+  "notes": [
+    "郵送で提出した書類に不備・不足があれば市から連絡があり、令和8年11月12日（木曜日）必着で修正すれば4月1次申請として受け付ける",
+    "窓口受付には修正期間がなく、10月30日までに不備・不足が解消できない場合は4月2次申請の受付になる",
+    "育児休業中の申請は、入所月の月末までに育児休業を満了できる場合に「労働」を理由に申請できる。満了できない場合は退園となる",
+    "令和8年度の入園選考から、前年度保留に伴う加点は完全廃止された",
+    "きょうだいで申請する場合、就労証明書は1部でよく、下の子に原本、上の子にコピーを添付する"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.asaka.lg.jp/site/kosodate/r9-hoikusinsei.html",
+      "quote": "令和9年4月からの保育園等の入所申請についてお知らせします。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.asaka.lg.jp/site/kosodate/hoiku-shiryouseikyu.html",
+      "quote": "令和9年度の「幼稚園・認定こども園・保育園等の利用案内」冊子および申請書類は、9月25日にホームページにて公開を予定しています。"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.asaka.lg.jp/site/kosodate/hoiku-shiryouseikyu.html",
+      "quote": "9月29日以降に、朝霞市役所保育課窓口（2階24番）にて配布します。（申請不要）"
+    },
+    "firstApply": {
+      "url": "https://www.city.asaka.lg.jp/site/kosodate/r9-hoikusinsei.html",
+      "quote": "電子申請受付　令和8年10月1日（木曜日）～10月31日（土曜日）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.asaka.lg.jp/site/kosodate/r9-hoikusinsei.html",
+      "quote": "郵送受付　令和8年10月1日（木曜日）～10月16日（金曜日）消印有効"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.asaka.lg.jp/site/kosodate/r9-hoikusinsei.html",
+      "quote": "窓口受付　令和8年10月14日（水曜日）～10月30日（金曜日）正午まで"
+    },
+    "applyMethods": {
+      "url": "https://www.city.asaka.lg.jp/site/kosodate/r9-hoikusinsei.html",
+      "quote": "※電子申請のリンクは令和8年10月1日（木曜日）9時から公開します。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.asaka.lg.jp/site/kosodate/r9-hoikusinsei.html",
+      "quote": "窓口受付日時：　平日　午前8時45分　から　午後4時　まで（土日祝日を除く）"
+    },
+    "firstResult": {
+      "url": "https://www.city.asaka.lg.jp/site/kosodate/nyushosinsei.html",
+      "quote": "※令和9年度4月1次申請の結果は令和9年1月12日（火曜日）頃発送予定です。"
+    },
+    "secondApply": {
+      "url": "https://www.city.asaka.lg.jp/site/kosodate/r9-hoikusinsei.html",
+      "quote": "令和8年11月2日　4月2次申請受付開始"
+    },
+    "documents.0": {
+      "url": "https://www.city.asaka.lg.jp/site/kosodate/yousiki-r9.html",
+      "quote": "保育所等利用（調整）申請書および保育の必要な事由の証明書をダウンロードできます。"
+    },
+    "documents.0#2": {
+      "url": "https://www.city.asaka.lg.jp/site/kosodate/yousiki-r9.html",
+      "quote": "【令和9年度申請】教育・保育給付認定申請書 兼 保育所等利用（調整）申請書（両面印刷して使用してください）"
+    },
+    "documents.1": {
+      "url": "https://www.city.asaka.lg.jp/site/kosodate/yousiki-r9.html",
+      "quote": "保育を必要な事由の証明書は、父母および同一世帯の祖父母（70歳未満※）が対象となります。"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.asaka.lg.jp/site/kosodate/r9-hoikusinsei.html",
+      "quote": "保育の必要な事由の証明書（就労証明書等）は、「保育園等申請様式（令和9年度用）」をご確認ください。"
+    },
+    "documents.2": {
+      "url": "https://www.city.asaka.lg.jp/site/kosodate/yousiki-r9.html",
+      "quote": "市外から朝霞市に申請する場合は「市外からの申請に関する確認票」を必ず提出してください。"
+    },
+    "interview": {
+      "url": "https://www.city.asaka.lg.jp/site/kosodate/nyushosinsei.html",
+      "quote": "利用調整の結果、利用内定となった場合には、集団保育の可否を判断するため、お子さまの面談を利用内定された施設などで行いますので、必ず出席してください。"
+    },
+    "interview#2": {
+      "url": "https://www.city.asaka.lg.jp/site/kosodate/nyushosinsei.html",
+      "quote": "また、面談だけでは集団保育の可否を判断できなかった場合には、利用内定された保育園等で、2日間程度の体験保育を行います。体験保育は、保護者の方の同伴が必要となります。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.asaka.lg.jp/site/kosodate/nyushosinsei.html",
+      "quote": "育児休業の延長のため、保育園等に入所できないことを証明する書類としては、「保育所等利用　調整結果通知書（利用保留）」を使用していただいています。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.asaka.lg.jp/site/kosodate/nyushosinsei.html",
+      "quote": "利用保留の結果になりやすくなるよう、指数の減算（－100）も希望できますが、必ず利用保留となるわけではなく、空き施設がある場合には利用内定となることもあります。"
+    },
+    "notes.0": {
+      "url": "https://www.city.asaka.lg.jp/site/kosodate/r9-hoikusinsei.html",
+      "quote": "郵送で提出された書類に不備・不足があった場合は、市から連絡を行います。修正締切日までに修正がされたものは、4月1次申請として受け付けます。"
+    },
+    "notes.0#2": {
+      "url": "https://www.city.asaka.lg.jp/site/kosodate/r9-hoikusinsei.html",
+      "quote": "修正締切日　令和8年11月12日（木曜日）必着"
+    },
+    "notes.1": {
+      "url": "https://www.city.asaka.lg.jp/site/kosodate/r9-hoikusinsei.html",
+      "quote": "窓口受付には、修正期間はありません。10月30日までに不備・不足が解消できない場合は、4月2次申請の受付となります。"
+    },
+    "notes.2": {
+      "url": "https://www.city.asaka.lg.jp/site/kosodate/nyushosinsei.html",
+      "quote": "ただし、入所月の月末までに育児休業の満了が可能な場合は、「労働」を理由に申請することが可能です。「労働」を理由に利用調整を受けた方が入所月の月末までに育児休業を満了できない場合は、退園となります。"
+    },
+    "notes.3": {
+      "url": "https://www.city.asaka.lg.jp/site/kosodate/nyushosinsei.html",
+      "quote": "令和8年度の入園選考より保留に伴う加点は完全廃止となりました。"
+    },
+    "notes.4": {
+      "url": "https://www.city.asaka.lg.jp/site/kosodate/yousiki-r9.html",
+      "quote": "※　きょうだいで申請する場合、就労証明書は1部作成してもらうだけで問題ありません。申請書には、下の子に原本を、上の子にコピーをそれぞれ添付して提出してください。"
+    },
+    "guideRelease#3": {
+      "url": "https://www.city.asaka.lg.jp/site/kosodate/hoiku-shiryouseikyu.html",
+      "quote": "冊子および申請書類は9月29日以降順次発送します。"
+    }
+  },
+  "sources": [
+    {
+      "label": "朝霞市「令和9年度保育園等入所申請」",
+      "url": "https://www.city.asaka.lg.jp/site/kosodate/r9-hoikusinsei.html"
+    },
+    {
+      "label": "朝霞市「保育園等に入所申請された方へ」",
+      "url": "https://www.city.asaka.lg.jp/site/kosodate/nyushosinsei.html"
+    },
+    {
+      "label": "朝霞市「保育園等入所申請様式ダウンロード（令和9年度用）」",
+      "url": "https://www.city.asaka.lg.jp/site/kosodate/yousiki-r9.html"
+    },
+    {
+      "label": "朝霞市「次年度保育園等入園申請書類の資料請求」",
+      "url": "https://www.city.asaka.lg.jp/site/kosodate/hoiku-shiryouseikyu.html"
+    }
+  ]
+}

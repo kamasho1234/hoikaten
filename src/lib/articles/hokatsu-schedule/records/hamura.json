@@ -1,0 +1,177 @@
+{
+  "citySlug": "hamura",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "羽村市「保育施設等の令和8年度利用申込みについて」",
+    "url": "https://www.city.hamura.tokyo.jp/0000020148.html"
+  },
+  "fiscalYear": "R8",
+  "firstApply": "令和7年12月1日（月）〜12月12日（金）の午前8時30分〜午後5時。12月6日（土）も受け付け、12月12日（金）は午後7時まで受け付ける",
+  "applyMethods": "受付期間内に羽村市役所西庁舎2階4番窓口（子ども家庭部 子育て支援課 保育・幼稚園係）へ書類を提出する。郵送での提出は受け付けない",
+  "firstResult": "一次募集の結果は1月下旬（予定）に、利用決定通知または保留通知を送付",
+  "secondApply": "令和8年1月21日（水）〜2月3日（火）の午前8時30分〜午後5時。市外在住者も対象",
+  "secondResult": "二次募集の結果は3月中旬に通知",
+  "midYearDeadline": "5月以降の入所は利用希望月ごとの受付期間に申し込む（令和8年度は、例えば11月入所なら10月1日〜10月15日、12月入所なら11月2日〜11月13日）",
+  "documents": [
+    "教育・保育給付認定申請書 兼 令和8年度保育施設等利用申込書",
+    "申込み児童に関する健康状況等について",
+    "教育・保育給付認定及び保育施設等利用申込に係る確認・同意書（同意欄に署名すればマイナンバーの記入は不要）",
+    "就労の場合は就労証明書（産前産後休業中・育児休業取得中である証明を含む。羽村市の様式で、証明日から3か月以内のもの）",
+    "妊娠・出産の場合は母子手帳のコピー（表紙と出産予定日の記載がある部分）",
+    "保護者の疾病・障害の場合は医師の診断書または治療計画書、各種手帳のコピー"
+  ],
+  "interview": "入所が決まったら、入所前に決定施設で面接を受ける。日程は施設に問い合わせる",
+  "ikukyu": "申込時に「育児休業の延長を許容できる」を選ぶと調整点数が20点減点される。これを選んで辞退した場合も、その後の利用調整で不利になる",
+  "notes": [
+    "4月入所は、入所決定の公平のため受付期間以外は申込みを受け付けない",
+    "羽村市外に住み転入予定のない人は、4月入所は二次募集からの対象になる",
+    "一度申し込めば同じ年度の3月入所まで継続して利用調整の対象になるが、次年度4月入所は別に申し込む必要があり、その受付期間は11月以降に問い合わせる",
+    "育児休業中に入所が決まった場合は、入所決定月の翌月1日までに復職することが条件",
+    "アレルギーや持病などで個別の配慮が必要な場合や月齢が低い場合は、必ず子どもと一緒に申請する施設へ事前見学に行く",
+    "4月1日入所は、2月3日（うるう年は4日）までに生まれる子なら一次募集の受付期間後に生まれる場合でも申し込める"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.hamura.tokyo.jp/0000020148.html",
+      "quote": "令和8年4月入所の募集受付は終了しました。"
+    },
+    "firstApply": {
+      "url": "https://www.city.hamura.tokyo.jp/cmsfiles/contents/0000020/20148/r8guidebook.pdf",
+      "quote": "●令和8年４月からの利用を希望する場合 一次募集 令和7年１2月 1日（月）～１2月1２日（金） 午前8時30分～午後5時"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.hamura.tokyo.jp/cmsfiles/contents/0000020/20148/r8guidebook.pdf",
+      "quote": "※１２月6日のみ土曜日も受け付けます。（午前11時45分～午後１時は受け付けできません）"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.hamura.tokyo.jp/cmsfiles/contents/0000020/20148/r8guidebook.pdf",
+      "quote": "※１２月１2日（金）のみ午後７時まで受け付けます。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.hamura.tokyo.jp/cmsfiles/contents/0000020/20148/r8guidebook.pdf",
+      "quote": "受付期間内に書類を上記の窓口までご提出ください。郵送での提出は受け付けていません。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.hamura.tokyo.jp/cmsfiles/contents/0000020/20148/r8guidebook.pdf",
+      "quote": "羽村市役所西庁舎2階4番窓口 子ども家庭部 子育て支援課 保育・幼稚園係"
+    },
+    "firstResult": {
+      "url": "https://www.city.hamura.tokyo.jp/cmsfiles/contents/0000020/20148/r8guidebook.pdf",
+      "quote": "利用決定通知を送付します。 保留通知を送付します。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.hamura.tokyo.jp/cmsfiles/contents/0000020/20148/r8guidebook.pdf",
+      "quote": "一次募集 １月下旬（予定） 一次募集 １月下旬（予定）"
+    },
+    "secondApply": {
+      "url": "https://www.city.hamura.tokyo.jp/cmsfiles/contents/0000020/20148/r8guidebook.pdf",
+      "quote": "二次募集 令和8年 1月２1日（水）～ 2月 3日（火） 午前8時30分～午後5時"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.hamura.tokyo.jp/cmsfiles/contents/0000020/20148/r8guidebook.pdf",
+      "quote": "※対象：羽村市在住者、羽村市へ転入予定者、市外在住者（11ページ参照）"
+    },
+    "secondResult": {
+      "url": "https://www.city.hamura.tokyo.jp/cmsfiles/contents/0000020/20148/r8guidebook.pdf",
+      "quote": "二次募集 ３月中旬 二次募集 ３月中旬"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.hamura.tokyo.jp/0000020148.html",
+      "quote": "令和8年5月から新たに保育施設等（保育園、認定こども園（保育部分）および家庭的保育）の利用を希望する方や、現在利用している保育施設等の変更（転園）を希望する方は、次の期間に申し込んでください。"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.hamura.tokyo.jp/0000020148.html",
+      "quote": "11月 10月1日（木曜日）から 10月15日（木曜日）"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.hamura.tokyo.jp/0000020148.html",
+      "quote": "12月 11月2日（月曜日）から 11月13日（金曜日）"
+    },
+    "documents.0": {
+      "url": "https://www.city.hamura.tokyo.jp/cmsfiles/contents/0000020/20148/r8guidebook.pdf",
+      "quote": "「教育・保育給付認定申請書 兼 令和8年度保育施設等利用申込書」の同意欄にご署名いただければ、保育・幼稚園係が確認しますのでマイナンバーの記入、および窓口での提示は不要です。"
+    },
+    "documents.1": {
+      "url": "https://www.city.hamura.tokyo.jp/0000020148.html",
+      "quote": "申込み児童に関する健康状況等について"
+    },
+    "documents.2": {
+      "url": "https://www.city.hamura.tokyo.jp/0000020148.html",
+      "quote": "紛失手続き中や持参忘れ等、マイナンバーの提供が困難な場合は、教育・保育給付認定申請書 兼 令和8年度保育施設等利用申込に係る確認・同意書の「同意欄」にご署名いただければ、保育・幼稚園係がマイナンバーの確認を行いますので、マイナンバーの記入は不要です。"
+    },
+    "documents.3": {
+      "url": "https://www.city.hamura.tokyo.jp/0000020148.html",
+      "quote": "就労による場合…就労証明書（産前産後休業中・育児休業取得中である証明を含む）"
+    },
+    "documents.3#2": {
+      "url": "https://www.city.hamura.tokyo.jp/cmsfiles/contents/0000020/20148/r8guidebook.pdf",
+      "quote": "・証明日から３ヶ月以内のもの"
+    },
+    "documents.3#3": {
+      "url": "https://www.city.hamura.tokyo.jp/cmsfiles/contents/0000020/20148/r8guidebook.pdf",
+      "quote": "・羽村市の様式をご利用ください"
+    },
+    "documents.4": {
+      "url": "https://www.city.hamura.tokyo.jp/0000020148.html",
+      "quote": "妊娠・出産による場合…母子手帳（表紙、出産予定日の記載がある部分のコピー）"
+    },
+    "documents.5": {
+      "url": "https://www.city.hamura.tokyo.jp/0000020148.html",
+      "quote": "保護者の疾病、障害による場合…医師の診断書または治療計画書、各種手帳のコピー"
+    },
+    "interview": {
+      "url": "https://www.city.hamura.tokyo.jp/cmsfiles/contents/0000020/20148/r8guidebook.pdf",
+      "quote": "入所前に決定施設で面接を受けていただきます。日程は施設にお問い合せください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.hamura.tokyo.jp/cmsfiles/contents/0000020/20148/r8guidebook.pdf",
+      "quote": "保護者が育児休業の延長を許容できる場合 世帯 －２０"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.hamura.tokyo.jp/cmsfiles/contents/0000020/20148/r8guidebook.pdf",
+      "quote": "A11 調整点数の減点はありませんが、利用調整の際に不利になります。また育児休業中の方で、申請の際に「育児休業の延長を許容できる」を選択し辞退した場合も同様です。"
+    },
+    "notes.0": {
+      "url": "https://www.city.hamura.tokyo.jp/cmsfiles/contents/0000020/20148/r8guidebook.pdf",
+      "quote": "※入所決定に公平を期すため、上記の受付期間以外は申し込みを受け付けません。ご了承ください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.hamura.tokyo.jp/cmsfiles/contents/0000020/20148/r8guidebook.pdf",
+      "quote": "◇転入予定のない方について、毎月入所の受付期間は同じですが、4月入所を希望する場合は、二次募集から対象となりますのでご了承ください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.hamura.tokyo.jp/cmsfiles/contents/0000020/20148/r8guidebook.pdf",
+      "quote": "なお、継続的に利用調整の対象となるのは3月入所までですので、次年度4月の申込は別途必要となります。次年度4月入所の受付期間については、１１月以降にお問い合わせください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.hamura.tokyo.jp/cmsfiles/contents/0000020/20148/r8guidebook.pdf",
+      "quote": "育児休業取得中で保育施設の入所が決定した場合は、入所が決定した月の翌月1日までに育児休業から復職していただくことが条件です。"
+    },
+    "notes.4": {
+      "url": "https://www.city.hamura.tokyo.jp/cmsfiles/contents/0000020/20148/r8guidebook.pdf",
+      "quote": "・下記に該当する場合は、必ずお子さんと一緒に申請する施設へ事前見学に行ってください。"
+    },
+    "notes.4#2": {
+      "url": "https://www.city.hamura.tokyo.jp/cmsfiles/contents/0000020/20148/r8guidebook.pdf",
+      "quote": "◇アレルギーや持病、障害などで個別の配慮が必要な場合"
+    },
+    "notes.4#3": {
+      "url": "https://www.city.hamura.tokyo.jp/cmsfiles/contents/0000020/20148/r8guidebook.pdf",
+      "quote": "◇入所可能な月齢だが、まだ月齢自体が低い（３～４か月程度）場合"
+    },
+    "notes.5": {
+      "url": "https://www.city.hamura.tokyo.jp/cmsfiles/contents/0000020/20148/r8guidebook.pdf",
+      "quote": "A9 申し込み可能です。4月1日入所の場合、2月3日（うるう年は4日）までに生まれれば4月1日が生後56日経過後の翌月一日となり、受入可能となります。"
+    }
+  },
+  "sources": [
+    {
+      "label": "羽村市「保育施設等の令和8年度利用申込みについて」",
+      "url": "https://www.city.hamura.tokyo.jp/0000020148.html"
+    },
+    {
+      "label": "羽村市「令和8年度 羽村市 保育園・幼稚園等ガイドブック」",
+      "url": "https://www.city.hamura.tokyo.jp/cmsfiles/contents/0000020/20148/r8guidebook.pdf"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "citySlug": "chita",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "知多市「令和９年度 保育所等入所案内（一斉入所申込）」",
+    "url": "https://www.city.chita.lg.jp/docs/2024070400018/"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "9月1日（火）〜11日（金）に第1希望の園で申込書を配布（平日9時〜17時、土曜9時〜12時。てらもと保育園が第1希望の場合は知多市立寺本保育園）",
+  "firstApply": "令和8年9月28日（月）〜30日（水）に知多市役所多目的会議室で受付（申込日時は申込書配布時に指定）。電子申請（ぴったりサービス）は9月24日（木）から。一斉入所受付の最終締め切りは10月9日（金）午後4時、電子申請は10月10日（土）午後11時59分",
+  "applyMethods": "市役所での申込み（知多市役所多目的会議室・1階、日時は申込書配布時に指定）か、オンライン（ぴったりサービス）申込み（9月24日（木）から受付）のいずれか",
+  "firstResult": "11月上旬頃に申込者全員に内定通知書を送付（受付後の案内では10月28日（水）までに選考結果（内定）通知書を発送）",
+  "midYearDeadline": "年度途中の随時入所は入所希望月の前月に申し込む。受付は毎月1日〜10日（土日祝除く）",
+  "documents": [
+    "施設型給付費・地域型保育給付費等支給認定申請書（申請者のマイナンバー等本人確認が確認できるもの）",
+    "保育施設等の利用申込書",
+    "保育を必要とする証明書等（父と母の分が必要）",
+    "市税・料金口座振替依頼書（要通帳印。保育園に申し込む場合。電子申請の場合は施設での面接時に提出）",
+    "転入予定で申し込む場合は「転入誓約書」と、工事契約書・売買契約書・賃貸契約書の写しなど"
+  ],
+  "interview": "内定した園で11月9日（月）〜11月13日（金）に面接（詳細な日時は内定通知書に記載）。子ども同伴で、入所児童調査表と申込児童の母子手帳を持参",
+  "ikukyu": "育休明け予約で入所枠を確保できる（年度内の職場復帰が条件、復帰日の最大2週間前から慣らし保育）。公立園は全園、私立は一部の園で、私立は入所日が4〜6月の1日の場合に限る。令和9年度分は令和8年9月から始まる一斉入所で受け付ける",
+  "notes": [
+    "申込書は第1希望の園で受け取る。オンラインで申し込む場合も第1希望の園に書類を取りに行く",
+    "同点の場合は幼児保育課による抽選で優先順位を決める",
+    "内定後に取り下げると、次回申請時（きょうだい児を含む）の選考で指数を下げることがある",
+    "入所月の前月20日までに知多市に転入を届け出ない場合、申込みは無効になる"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.chita.lg.jp/docs/2024070400018/",
+      "quote": "令和９年度に保育所・認定こども園（保育利用分のみ）へ入所する乳幼児を募集します。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.chita.lg.jp/docs/2024070400018/",
+      "quote": "日時　９月１日（火）～１１日（金）　（平日）９：００～１７：００"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.chita.lg.jp/docs/2024070400018/",
+      "quote": "場所　第１希望の園（てらもと保育園が第１希望の方は知多市立寺本保育園へ）"
+    },
+    "firstApply": {
+      "url": "https://www.city.chita.lg.jp/docs/2024070400018/",
+      "quote": "日時　９月２８日（月）～３０日（水）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.chita.lg.jp/docs/2024070400018/file_contents/R9senkoukekka.pdf",
+      "quote": "一斉入所受付の最終締め切りは１０月９日（金）午後４時（電子申請の最終締め切りは１０月１０日（土）午後１１時５９分）です。"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.chita.lg.jp/docs/2026080600020/",
+      "quote": "令和９年度の育休明け予約については、令和８年９月から開始する一斉入所で受け付けます。"
+    },
+    "firstApply#4": {
+      "url": "https://www.city.chita.lg.jp/docs/2024070400018/",
+      "quote": "受付開始　９月２４日（木）から"
+    },
+    "applyMethods": {
+      "url": "https://www.city.chita.lg.jp/docs/2024070400018/",
+      "quote": "場所　知多市役所多目的会議室（１階）"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.chita.lg.jp/docs/2024070400018/",
+      "quote": "（２）オンライン（ぴったりサービス）申込み 受付開始　９月２４日（木）から"
+    },
+    "firstResult": {
+      "url": "https://www.city.chita.lg.jp/docs/2024070400018/",
+      "quote": "保育を必要とする状況等を考慮した指数により選考を行い、１１月上旬頃に申込者全員に内定通知書を送付します。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.chita.lg.jp/docs/2024070400018/file_contents/R9senkoukekka.pdf",
+      "quote": "10/28(水) ①選考結果発送 この日までに指数による選考結果（内定）通知書を発送します。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.chita.lg.jp/docs/2024070400018/file_contents/R9nyushoannai.pdf",
+      "quote": "随 時 入 所（入所希望月の前月に申し込み）"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.chita.lg.jp/docs/2024070400018/file_contents/R9nyushoannai.pdf",
+      "quote": "・期間：毎月１日～１０日（土日祝除く）"
+    },
+    "documents.0": {
+      "url": "https://www.city.chita.lg.jp/docs/2024070400018/file_contents/R9nyushoannai.pdf",
+      "quote": "施設型給付費・地域型保育給付費等支給認定申請書（申請者のマイナンバー等本人確認が確認できるもの）"
+    },
+    "documents.1": {
+      "url": "https://www.city.chita.lg.jp/docs/2024070400018/file_contents/R9nyushoannai.pdf",
+      "quote": "□ 保育施設等の利用申込書"
+    },
+    "documents.2": {
+      "url": "https://www.city.chita.lg.jp/docs/2024070400018/file_contents/R9nyushoannai.pdf",
+      "quote": "□ 保育を必要とする証明書等 （父と母の分が必要）"
+    },
+    "documents.3": {
+      "url": "https://www.city.chita.lg.jp/docs/2024070400018/file_contents/R9nyushoannai.pdf",
+      "quote": "１ 申込み施設が保育園の方（電子申請の場合は施設での面接時に提出）"
+    },
+    "documents.3#2": {
+      "url": "https://www.city.chita.lg.jp/docs/2024070400018/file_contents/R9nyushoannai.pdf",
+      "quote": "□ 市税・料金口座振替依頼書（要通帳印）"
+    },
+    "documents.4": {
+      "url": "https://www.city.chita.lg.jp/docs/2024070400018/file_contents/R9nyushoannai.pdf",
+      "quote": "「転入誓約書」に、以下の書類又はそれに代わるものを添付してください。"
+    },
+    "interview": {
+      "url": "https://www.city.chita.lg.jp/docs/2024070400018/",
+      "quote": "日時　１１月９日（月）～１１月１３日（金）"
+    },
+    "interview#2": {
+      "url": "https://www.city.chita.lg.jp/docs/2024070400018/",
+      "quote": "※　詳細な日時は内定通知書に記載します。"
+    },
+    "interview#3": {
+      "url": "https://www.city.chita.lg.jp/docs/2024070400018/",
+      "quote": "持ち物　入所児童調査表、申込児童の母子手帳"
+    },
+    "interview#4": {
+      "url": "https://www.city.chita.lg.jp/docs/2024070400018/file_contents/R9nyushoannai.pdf",
+      "quote": "◆ 入所予定のお子さま同伴で出席してください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.chita.lg.jp/docs/2026080600020/",
+      "quote": "年度内に職場復帰することを条件に、入所枠を予約（確保）する制度です。職場復帰日の最大２週間前から慣らし保育が可能で、慣らし保育開始日が入所日です。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.chita.lg.jp/docs/2026080600020/",
+      "quote": "私立園…令和９年度からは一部の私立園でも実施します。私立園の場合、入所日（慣らし保育開始日）が４～６月の１日からの場合に限ります。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.chita.lg.jp/docs/2026080600020/",
+      "quote": "令和９年度の育休明け予約については、令和８年９月から開始する一斉入所で受け付けます。"
+    },
+    "notes.0": {
+      "url": "https://www.city.chita.lg.jp/docs/2024070400018/",
+      "quote": "※　オンラインで申込む場合も第１希望の園に書類を取りに行ってください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.chita.lg.jp/docs/2024070400018/file_contents/R9nyushoannai.pdf",
+      "quote": "※ 同点の場合は、幼児保育課による抽選で優先順位を決定します。"
+    },
+    "notes.2": {
+      "url": "https://www.city.chita.lg.jp/docs/2024070400018/file_contents/R9nyushoannai.pdf",
+      "quote": "◎内定後に取り下げられた場合、次回申請時（きょうだい児を含む）の選考における指数を下げることがあります。"
+    },
+    "notes.3": {
+      "url": "https://www.city.chita.lg.jp/docs/2024070400018/file_contents/R9nyushoannai.pdf",
+      "quote": "※ 入所月の前月２０日までに知多市に転入を届け出ない場合、申込みは無効となります。"
+    }
+  },
+  "sources": [
+    {
+      "label": "知多市「令和９年度 保育所等入所案内（一斉入所申込）」",
+      "url": "https://www.city.chita.lg.jp/docs/2024070400018/"
+    },
+    {
+      "label": "知多市「令和９年度 保育所等入所案内」（PDF）",
+      "url": "https://www.city.chita.lg.jp/docs/2024070400018/file_contents/R9nyushoannai.pdf"
+    },
+    {
+      "label": "知多市「令和９年度一斉入所 受付後の注意点及び今後の予定について」（PDF）",
+      "url": "https://www.city.chita.lg.jp/docs/2024070400018/file_contents/R9senkoukekka.pdf"
+    },
+    {
+      "label": "知多市「育休明け予約について」",
+      "url": "https://www.city.chita.lg.jp/docs/2026080600020/"
+    }
+  ]
+}

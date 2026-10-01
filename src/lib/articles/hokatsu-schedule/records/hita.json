@@ -1,0 +1,117 @@
+{
+  "citySlug": "hita",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "日田市「令和8年度 認定こども園・保育園等の利用申請」",
+    "url": "https://www.city.hita.oita.jp/site/kosodate/1570.html"
+  },
+  "fiscalYear": "R8",
+  "guideRelease": "令和7年11月14日（金曜日）から申請書等を配布。配布場所はこども事業課、各振興局、各施設",
+  "firstApply": "基本受付は令和7年12月1日（月曜日）〜12月26日（金曜日）（土曜日・日曜日、祝日を除く。午前9時〜午後5時）。令和8年1月5日（月曜日）からは随時受付",
+  "applyMethods": "新規（水色の用紙）は市役所2階201会議室または各振興局で受け付ける。マイナポータルからの電子申請もできる（マイナンバーカード等が必要）。現在の施設を引き続き利用する場合（オレンジ色の用紙）は、現在利用している施設に提出する",
+  "midYearDeadline": "年度内の入園は、入園希望月の前月15日まで（15日が土日祝日の場合は直前の平日まで）",
+  "documents": [
+    "窓口に来た人の本人確認書類（官公庁が発行した顔写真付きの書類1点、または顔写真なしの書類2点）",
+    "マイナンバーの確認書類（マイナンバーカード、個人番号が記載された住民票の写しなど）"
+  ],
+  "notes": [
+    "必要書類は世帯の状況等によって異なり、申請書等の配布時に説明される",
+    "出産前でも、母子健康手帳等の確認ができれば利用申請ができる",
+    "令和8年5月以降に利用を希望する場合も、基本受付・随時受付の期間に申請できる",
+    "翌年度の入園は今年度の12月中に申し込む。12月以降も随時受付はあるが、優先順位が下がる",
+    "転園を希望する場合は新規の申込み手続をする",
+    "1号認定（認定こども園の幼稚園部分）を希望する場合は、入園を希望する施設へ直接申し込む"
+  ],
+  "evidence": {
+    "page": {
+      "url": "https://www.city.hita.oita.jp/site/kosodate/1570.html",
+      "quote": "令和8年度の認定こども園・保育園等の利用申請の受付を行っています。認定こども園・保育園等の利用を希望する人は、期間内に申請してください。"
+    },
+    "fiscalYear": {
+      "url": "https://www.city.hita.oita.jp/site/kosodate/1570.html",
+      "quote": "令和8年度の認定こども園・保育園等の利用申請の受付を行っています。"
+    },
+    "fiscalYear#2": {
+      "url": "https://www.city.hita.oita.jp/site/kosodate/1570.html",
+      "quote": "令和8年5月以降に利用を希望する場合も、上記の期間に利用申請ができます。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.hita.oita.jp/site/kosodate/1570.html",
+      "quote": "配布開始日 令和7年11月14日（金曜日） 配布場所 こども事業課、各振興局、各施設"
+    },
+    "firstApply": {
+      "url": "https://www.city.hita.oita.jp/site/kosodate/1570.html",
+      "quote": "基本受付期間：令和7年12月1日（月曜日）から12月26日（金曜日） 時間：午前9時から午後5時"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.hita.oita.jp/site/kosodate/1570.html",
+      "quote": "随時受付 令和8年1月5日（月曜日）から 【注意】 土曜日・日曜日、祝日を除く。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.hita.oita.jp/site/kosodate/1570.html",
+      "quote": "新規の場合(水色の用紙) 受付場所：市役所2階 201会議室又は各振興局"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.hita.oita.jp/site/kosodate/1570.html",
+      "quote": "マイナポータルからの電子申請も可能です。電子申請には、マイナンバーカード等が必要になります。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.hita.oita.jp/site/kosodate/1570.html",
+      "quote": "現在の施設を引き続き利用する場合(オレンジ色の用紙) 現在利用している施設に提出"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.hita.oita.jp/soshiki/fukushihokenbu/kodomomiraishitsu/kosodateshien/kenko_fukushi/kosodate/kosodateshien/11919.html",
+      "quote": "年度内の入園を希望される場合は、入園の希望月の前月15日まで。 （15日が土日祝日の場合は直前の平日まで。）"
+    },
+    "documents.0": {
+      "url": "https://www.city.hita.oita.jp/soshiki/fukushihokenbu/kodomomiraishitsu/kosodateshien/kenko_fukushi/kosodate/kosodateshien/11919.html",
+      "quote": "ア．1点確認書類（官公庁が発行した顔写真付きの書類1点）"
+    },
+    "documents.0#2": {
+      "url": "https://www.city.hita.oita.jp/soshiki/fukushihokenbu/kodomomiraishitsu/kosodateshien/kenko_fukushi/kosodate/kosodateshien/11919.html",
+      "quote": "イ．2点確認書類（官公庁が発行した顔写真なしの書類2点）"
+    },
+    "documents.1": {
+      "url": "https://www.city.hita.oita.jp/soshiki/fukushihokenbu/kodomomiraishitsu/kosodateshien/kenko_fukushi/kosodate/kosodateshien/11919.html",
+      "quote": "（例）マイナンバーカード、個人番号が記載された住民票の写し など"
+    },
+    "notes.0": {
+      "url": "https://www.city.hita.oita.jp/site/kosodate/1570.html",
+      "quote": "必要書類は世帯の状況等によって異なりますので、申請書等の配布時に説明します。"
+    },
+    "notes.1": {
+      "url": "https://www.city.hita.oita.jp/site/kosodate/1570.html",
+      "quote": "出産前であっても母子健康手帳等の確認ができれば、利用申請ができます。"
+    },
+    "notes.2": {
+      "url": "https://www.city.hita.oita.jp/site/kosodate/1570.html",
+      "quote": "令和8年5月以降に利用を希望する場合も、上記の期間に利用申請ができます。"
+    },
+    "notes.3": {
+      "url": "https://www.city.hita.oita.jp/soshiki/fukushihokenbu/kodomomiraishitsu/kosodateshien/kenko_fukushi/kosodate/kosodateshien/11919.html",
+      "quote": "翌年度の入園を希望される場合は、今年度の12月中。"
+    },
+    "notes.3#2": {
+      "url": "https://www.city.hita.oita.jp/soshiki/fukushihokenbu/kodomomiraishitsu/kosodateshien/kenko_fukushi/kosodate/kosodateshien/11919.html",
+      "quote": "（年度によって締切日が異なります。また、12月以降も随時受付は行っていますが、優先順位が下がります。）"
+    },
+    "notes.4": {
+      "url": "https://www.city.hita.oita.jp/site/kosodate/1570.html",
+      "quote": "転園を希望する場合は新規の申込み手続を行ってください。"
+    },
+    "notes.5": {
+      "url": "https://www.city.hita.oita.jp/soshiki/fukushihokenbu/kodomomiraishitsu/kosodateshien/kenko_fukushi/kosodate/kosodateshien/11919.html",
+      "quote": "【注意1】1号認定（認定こども園の幼稚園部分）の利用を希望される場合は、入園を希望する施設へ直接お申し込みください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "日田市「令和8年度 認定こども園・保育園等の利用申請」",
+      "url": "https://www.city.hita.oita.jp/site/kosodate/1570.html"
+    },
+    {
+      "label": "日田市「保育園等への入園や各種保育サービスの利用手続き」",
+      "url": "https://www.city.hita.oita.jp/soshiki/fukushihokenbu/kodomomiraishitsu/kosodateshien/kenko_fukushi/kosodate/kosodateshien/11919.html"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "citySlug": "iizuka",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "飯塚市「保育所（園）・認定こども園（保育認定）の申込」",
+    "url": "https://www.city.iizuka.lg.jp/hoiku/kenko/hoiku/hoikuen/nyusyo.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年11月2日（月曜日）〜令和8年11月30日（月曜日）",
+  "applyMethods": "教育・保育給付認定の申請と保育施設の利用申込みを同時に、第1希望の保育施設に提出する。提出は施設の開所時間内（延長保育の時間を除く）",
+  "firstResult": "令和9年2月上旬に入所承諾書（入所決定通知）を発送予定。4月1日入所の利用調整の結果は、入所できなかった人も含め申込者全員に通知する。新規入所の人には郵送",
+  "midYearDeadline": "入所希望月の前々月11日から前月10日まで（締切日が土日・祝日ならその前の開庁日）。受付は入所を希望する保育施設、保育課、各支所市民窓口課",
+  "documents": [
+    "教育・保育給付認定申請書兼保育施設入所申込書（児童ごと）",
+    "保育の必要事由を確認するための資料（会社等に勤務している場合は就労証明書など）と、該当する場合のみ必要となる書類",
+    "個人番号届出書、番号確認書類と身元確認書類の写し（初めて申請する人のみ）"
+  ],
+  "interview": "施設の利用が決まった後に施設で入所説明会があり、子どもの面接などもあるので必ず子どもと一緒に参加する",
+  "ikukyu": "申込書に育児休業を取得中の人だけが記入する欄があり、「直ちに復職を希望する」か「希望する保育所等に入所できない場合は、育児休業の延長も可能である」を選ぶ。利用調整の結果、入所が可能な場合は入所が決定となる",
+  "notes": [
+    "申込書類は飯塚市本庁保育課と各支所市民窓口課で配布しており、市ホームページの「申請書等一式」からも取得できる",
+    "入所決定後に保育方針の違いですぐ退園するケースを防ぐため、希望する保育施設への事前の見学が求められている",
+    "必要書類が揃わない場合は教育・保育給付認定ができないため、申込みを受け付けてもらえない",
+    "利用の可否は申込みの順番ではなく、保育の必要性の高い子どもから決まる。第2希望以降の施設に入所する場合がある",
+    "求職・内定で入所した場合は、勤務確認のため3か月間給与明細の写しを提出する",
+    "転園申込みは新規児童と一緒に選考するので、元の保育施設にそのまま通えない場合がある"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.iizuka.lg.jp/uploaded/attachment/17767.pdf",
+      "quote": "令和９年４月１日から（最長）令和１０年３月３１日まで"
+    },
+    "firstApply": {
+      "url": "https://www.city.iizuka.lg.jp/hoiku/kenko/hoiku/hoikuen/nyusyo.html",
+      "quote": "令和8年11月2日(月曜日)～令和8年11月30日(月曜日)"
+    },
+    "applyMethods": {
+      "url": "https://www.city.iizuka.lg.jp/hoiku/kenko/hoiku/hoikuen/nyusyo.html",
+      "quote": "第1希望の保育施設の開所時間内に提出ください(※延長保育の時間を除く)。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.iizuka.lg.jp/uploaded/attachment/17767.pdf",
+      "quote": "教育・保育給付認定と保育施設利用の申込みは、同時に行っていただきます。"
+    },
+    "firstResult": {
+      "url": "https://www.city.iizuka.lg.jp/uploaded/attachment/17767.pdf",
+      "quote": "令和９年 2月上旬 発送予定 （保育料の通知及び保育料納付書は４月送付予定）"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.iizuka.lg.jp/uploaded/attachment/17767.pdf",
+      "quote": "2月上旬ごろ、４月１日入所の利用調整の結果については、入所できなかった方も含め申込者全員に通知します。"
+    },
+    "firstResult#3": {
+      "url": "https://www.city.iizuka.lg.jp/uploaded/attachment/17767.pdf",
+      "quote": "入所承諾書は、継続入所の方は保育施設より配付、新規入所の方は郵送になります。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.iizuka.lg.jp/hoiku/kenko/hoiku/hoikuen/nyusyo.html",
+      "quote": "入所希望月の前々月11日から入所希望月の前月10日(注1)"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.iizuka.lg.jp/hoiku/kenko/hoiku/hoikuen/nyusyo.html",
+      "quote": "注1:締切日が土日、祝日の場合その前開庁日が締切日となります。"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.iizuka.lg.jp/hoiku/kenko/hoiku/hoikuen/nyusyo.html",
+      "quote": "入所を希望する保育施設、または保育課、各支所市民窓口課"
+    },
+    "documents.0": {
+      "url": "https://www.city.iizuka.lg.jp/uploaded/attachment/17767.pdf",
+      "quote": "①教育・保育給付認定申請書兼保育施設入所申込書（児童ごと）"
+    },
+    "documents.1": {
+      "url": "https://www.city.iizuka.lg.jp/uploaded/attachment/17767.pdf",
+      "quote": "②保育の必要事由を確認するための資料及び該当する場合のみ必要となる書類"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.iizuka.lg.jp/uploaded/attachment/17767.pdf",
+      "quote": "会社等に勤務している （会社・事業主が記入したもの。）"
+    },
+    "documents.2": {
+      "url": "https://www.city.iizuka.lg.jp/uploaded/attachment/17767.pdf",
+      "quote": "③個人番号届出書、番号確認書類及び身元確認書類の写し 初めて申請される方のみ提出してください。"
+    },
+    "interview": {
+      "url": "https://www.city.iizuka.lg.jp/uploaded/attachment/17767.pdf",
+      "quote": "施設の利用が決定後、施設で説明会があります。 お子さんの面接などもありますので、必ずお子さんと一緒にご参加ください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.iizuka.lg.jp/uploaded/attachment/17768.pdf",
+      "quote": "育児休業を取得中の方のみ記入してください。 □直ちに復職を希望する。 □希望する保育所等に入所できない場合は、育児休業の延長も可能である。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.iizuka.lg.jp/uploaded/attachment/17768.pdf",
+      "quote": "※利用調整の結果、入所が可能な場合（希望保育施設等に空きがある等）は入所が決定となります。"
+    },
+    "notes.0": {
+      "url": "https://www.city.iizuka.lg.jp/hoiku/kenko/hoiku/hoikuen/nyusyo.html",
+      "quote": "申込書類は、飯塚市本庁保育課、各支所市民窓口課で配布しています。"
+    },
+    "notes.0#2": {
+      "url": "https://www.city.iizuka.lg.jp/hoiku/kenko/hoiku/hoikuen/nyusyo.html",
+      "quote": "下記「申請書等一式」からも保育所(園)、こども園入所に関する書類を取得することもできます。"
+    },
+    "notes.1": {
+      "url": "https://www.city.iizuka.lg.jp/hoiku/kenko/hoiku/hoikuen/nyusyo.html",
+      "quote": "入所決定後に保育方針が違うことによりすぐに退園する等のケースを防ぐため、入所を希望される保育施設への事前の見学をお願いしています。"
+    },
+    "notes.2": {
+      "url": "https://www.city.iizuka.lg.jp/uploaded/attachment/17767.pdf",
+      "quote": "「必要書類」が揃わない場合は、教育・保育給付認定ができないため申込受付ができません。"
+    },
+    "notes.3": {
+      "url": "https://www.city.iizuka.lg.jp/uploaded/attachment/17767.pdf",
+      "quote": "また、お子さんの利用の可否は、申込みの順番で決定するものではありません。"
+    },
+    "notes.3#2": {
+      "url": "https://www.city.iizuka.lg.jp/uploaded/attachment/17767.pdf",
+      "quote": "入所調整により第２希望以降の保育施設に入所していただく場合があります。"
+    },
+    "notes.4": {
+      "url": "https://www.city.iizuka.lg.jp/uploaded/attachment/17767.pdf",
+      "quote": "求職・内定で入所した際は勤務確認のため３ヶ月間給与明細の写しをご提出ください。"
+    },
+    "notes.5": {
+      "url": "https://www.city.iizuka.lg.jp/uploaded/attachment/17767.pdf",
+      "quote": "転園申込においては、新規児童と一緒に選考を行うので、元の保育施設にそのまま通えない場合があります。"
+    }
+  },
+  "sources": [
+    {
+      "label": "飯塚市「保育所（園）・認定こども園（保育認定）の申込」",
+      "url": "https://www.city.iizuka.lg.jp/hoiku/kenko/hoiku/hoikuen/nyusyo.html"
+    },
+    {
+      "label": "飯塚市「保育施設利用のご案内（令和9年度版）」",
+      "url": "https://www.city.iizuka.lg.jp/uploaded/attachment/17767.pdf"
+    },
+    {
+      "label": "飯塚市「令和9年度版教育・保育給付認定申請書(2・3号)兼保育施設入所申込書」",
+      "url": "https://www.city.iizuka.lg.jp/uploaded/attachment/17768.pdf"
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "citySlug": "higashimurayama",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "東村山市「来年度4月から保育園・認定こども園（保育枠）を利用される方」",
+    "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/nyuusyotetsuduki/hoikushinnendo04shinsei.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年9月14日から翌年度の保育園入園のしおりと申請書を窓口で配布。配布場所は保育幼稚園課（JMいきいきプラザ2階）・市内保育施設・市内公民館で、オンラインにも掲載",
+  "firstApply": "令和8年10月14日（水曜）〜10月26日（月曜）の平日午前9時〜午後5時。休日受付は令和8年10月25日（日曜）午前9時〜正午。不備・不足書類の提出期限は令和8年12月10日（木曜）必着",
+  "applyMethods": "オンライン申請（マイナンバーカードを持つ申請者向け。ぴったりサービスのカテゴリ「子育て」から「保育園申請」）、窓口（保育幼稚園課。申請期間内は提出専用ポストへの投函のみで、書類確認や相談は事前予約制）、郵送（保育幼稚園課 認定係あて、受付期日必着）のいずれか",
+  "firstResult": "一次選考結果通知は令和9年2月上旬に郵送（市のページの日程表では2月1日（月曜）頃、しおりでは2月2日（火）予定の発送日。到達日ではない）",
+  "secondApply": "令和8年11月4日（水曜）〜令和9年2月10日（水曜）（一次入園申請をしていない人）。不備・不足書類の提出期限も令和9年2月10日（水曜）必着",
+  "secondResult": "二次選考結果通知は令和9年2月26日（金曜）頃に発送（到達日ではない）",
+  "midYearDeadline": "年度途中も月ごとに欠員での入園受付があり、入園したい月の前月10日が締め切り",
+  "documents": [
+    "申請書「子どものための教育・保育給付認定兼保育施設等の利用申請書」",
+    "個人番号（マイナンバー等）が記載されている書類の写し（申請者分のみ）",
+    "保育を必要とする事由を確認するための書類（保護者にあたる人全員分。就労証明書は市の所定書式。各書類は証明日が申請書受付日から遡って3か月以内のものに限る）",
+    "住民税を確認するための書類（保護者のうち令和8年1月1日に東村山市以外に住民票をおいていた人）",
+    "その他必要書類（ひとり親、離婚調停中の場合など）"
+  ],
+  "interview": "内定後に、内定先の施設から入園前面談・健康診断の日程調整の連絡があり、面談・健康診断ののちに園で利用手続きをする",
+  "ikukyu": "育児休業給付金の支給対象期間延長手続きには入園申請書の写し（全ページ）が必要で、提出した書類は返却されないため提出前に自分で写しを取る。内定に至らなかった人には「保育園等利用調整結果通知書（入園保留）」が交付されるが、入園を希望した最初の月の分だけで、翌月以降の分は交付申請が要る",
+  "notes": [
+    "育児休業中でも、入園した翌月1日までに復職することを条件に「就労」の事由で申請でき、復職日から2週間以内に復職証明書を出す",
+    "出生前の申請は0歳を受け入れる施設に限り、出生予定日が2月3日以前であることが条件。出生後すみやかに出生届の写しを出す",
+    "不備・不足書類の提出期日（令和8年12月10日）と入所日（令和9年4月1日）の時点で申請時と同様の雇用条件で就労している場合のみ、申請時点と同じ状況として選考される",
+    "必要書類の提出がない場合や提出が遅れた場合、選考で不利になることがある。書類の不備はSMSで連絡することがある",
+    "入園が叶わなかった場合は保留となり、令和10年3月まで申請が有効で、再度の申請手続きは要らない",
+    "申請期間中の窓口相談は事前予約制（一次相談期間の予約開始は令和8年10月1日（木曜）午前9時）"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/nyuusyotetsuduki/hoikushinnendo04shinsei.html",
+      "quote": "令和9年4月から保育施設への入園・転園を希望する方、そのほか下記のかたにつきましても、期間中の申し込みが必要です。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/nyuusyotetsuduki/hoikushinnendo04shinsei.html",
+      "quote": "窓口配布開始日：令和8年9月14日 配布場所 ・保育幼稚園課（JMいきいきプラザ2階） ・市内保育施設 ・市内公民館 オンラインでも掲載しています"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/nyuusyotetsuduki/hoikushinnendo04shinsei.html",
+      "quote": "入園の申請にあたり以下のものを配布します。 ・令和9年度　東村山市　保育園入園のしおり"
+    },
+    "firstApply": {
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/nyuusyotetsuduki/hoikushinnendo04shinsei.html",
+      "quote": "令和8年10月14日（水曜） から令和8年10月26日（月曜） 午前9時から午後5時 （注記）土曜・日曜・祝日を除く 休日 令和8年10月25日（日曜） 午前9時から正午 不備不足書類の提出期限 令和8年12月10日（木曜）必着"
+    },
+    "applyMethods": {
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/nyuusyotetsuduki/hoikushinnendo04shinsei.html",
+      "quote": "なお申請期間内はポストへの投函のみ行っています。書類の確認や相談をしたうえでご提出を希望される場合は事前に予約が必要となりますので、詳細はこちらをご確認ください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/nyuusyotetsuduki/hoikushinnendo04shinsei.html",
+      "quote": "カテゴリ「子育て」で検索のうえ、「保育園申請」を選択してください。兄弟姉妹は3人まで同時に申請できます。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/nyuusyotetsuduki/hoikushinnendo04shinsei.html",
+      "quote": "以下の宛先に申請期間中にご提出ください。なお受付期日必着となります。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/nyuusyotetsuduki/hoikushinnendo04shinsei.html",
+      "quote": "申請者（保護者のかた）がマイナンバーカードをお持ちの場合、オンラインでの申請が便利です。"
+    },
+    "firstResult": {
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/nyuusyotetsuduki/hoikushinnendo04shinsei.html",
+      "quote": "一次選考結果通知　発送日 令和9年2月1日（月曜）頃 （注記）結果通知日は発送日です。到達日ではありません。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/nyuusyotetsuduki/files/2026hoikusiori.pdf",
+      "quote": "一次選考結果通知 発送日 令和９年２月２日（火）予定（※到達日ではありません）"
+    },
+    "firstResult#3": {
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/nyuusyotetsuduki/files/2026hoikusiori.pdf",
+      "quote": "● 選考の結果通知を郵送いたします"
+    },
+    "secondApply": {
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/nyuusyotetsuduki/hoikushinnendo04shinsei.html",
+      "quote": "令和8年11月4日（水曜） から令和9年2月10日（水曜） 午前9時から午後5時 （注記）土曜・日曜・祝日を除く 不備不足書類の提出期限 令和9年2月10日（水曜）必着"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/nyuusyotetsuduki/files/2026hoikusiori.pdf",
+      "quote": "令和９年４月二次入園申請スケジュール ※一次入園申請をしていないかた"
+    },
+    "secondResult": {
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/nyuusyotetsuduki/hoikushinnendo04shinsei.html",
+      "quote": "二次選考結果通知　発送日 令和9年2月26日（金曜）頃 （注記）結果通知日は発送日です。到達日ではありません。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/nyuusyotetsuduki/files/2026hoikusiori.pdf",
+      "quote": "※年度途中、各月ごとに欠員での入園受付も行っています（入園したい月の前月１０日が締め切りです）。"
+    },
+    "documents.0": {
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/nyuusyotetsuduki/hoikushinnendo04shinsei.html",
+      "quote": "申請書「子どものための教育・保育給付認定兼保育施設等の利用申請書」"
+    },
+    "documents.1": {
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/nyuusyotetsuduki/hoikushinnendo04shinsei.html",
+      "quote": "個人番号（マイナンバー等）に記載されている書類の写し（申請者分のみ）"
+    },
+    "documents.2": {
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/nyuusyotetsuduki/hoikushinnendo04shinsei.html",
+      "quote": "保育を必要とする事由を確認するための書類（保護者にあたるかた全員分）"
+    },
+    "documents.2#2": {
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/nyuusyotetsuduki/files/2026hoikusiori.pdf",
+      "quote": "【別表】※各書類は、証明日が申請書受付日から遡って過去３か月以内のものに限ります。"
+    },
+    "documents.3": {
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/nyuusyotetsuduki/hoikushinnendo04shinsei.html",
+      "quote": "住民税を確認するための書類（保護者にあたる方のうち、令和8年1月1日に東村山市以外に住民票をおいていた方）"
+    },
+    "documents.4": {
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/nyuusyotetsuduki/hoikushinnendo04shinsei.html",
+      "quote": "その他必要書類（ひとり親、離婚調停中の場合など）"
+    },
+    "interview": {
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/nyuusyotetsuduki/files/2026hoikusiori.pdf",
+      "quote": "入園前面談・健康診断：内定後に、内定先の施設より面談・健康診断の日程調整の連絡があります。"
+    },
+    "interview#2": {
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/nyuusyotetsuduki/files/2026hoikusiori.pdf",
+      "quote": "入園決定(契約)：面談・健康診断ののち、当該保育園等で利用手続きをします。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/nyuusyotetsuduki/files/2026hoikusiori.pdf",
+      "quote": "令和７年４月から育児休業給付金の支給対象期間延長手続きの際は、保育園等の入園申請書の写し(全てのページ)が必要となりました。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/nyuusyotetsuduki/files/2026hoikusiori.pdf",
+      "quote": "保育幼稚園課では、提出いただいた書類は返却できませんので、育児休業給付金の支給対象期間延長手続きを予定されているかたは、提出前に必ずご自身で写しをお取りください。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/nyuusyotetsuduki/files/2026hoikusiori.pdf",
+      "quote": "この通知書は、入園を希望した最初の月のみ交付します。翌月以降の結果が必要な場合は、必要な利用調整月の分、交付申請を行ってください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/nyuusyotetsuduki/hoikushinnendo04shinsei.html",
+      "quote": "育児休業中であっても保育所等に入園となった際に入所月の翌月1日までに復職することを条件として、「就労」を要件として入所・転園申請することができます。"
+    },
+    "notes.0#2": {
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/nyuusyotetsuduki/hoikushinnendo04shinsei.html",
+      "quote": "入所月翌月1日までに復職し、復職日から2週間以内に「復職証明書」を保育幼稚園課にご提出ください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/nyuusyotetsuduki/hoikushinnendo04shinsei.html",
+      "quote": "受け入れ可能年齢が0歳である施設について、出生予定日が2月3日以前であることを条件に申請が可能です。"
+    },
+    "notes.1#2": {
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/nyuusyotetsuduki/hoikushinnendo04shinsei.html",
+      "quote": "出生後すみやかに出生届の写しをご提出ください。提出がない場合は内定取り消しとなることがあります。"
+    },
+    "notes.2": {
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/nyuusyotetsuduki/hoikushinnendo04shinsei.html",
+      "quote": "「不備・不足書類の提出期日時点（令和8年12月10日（木曜））」と「入所日時点（令和9年4月1日（木曜））」で申請日時点の就労状況と同様の雇用条件で就労されている場合のみ、申請時点と同じ状況として入所選考を行います。"
+    },
+    "notes.3": {
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/nyuusyotetsuduki/hoikushinnendo04shinsei.html",
+      "quote": "必要書類の提出がない場合や提出が遅れた場合、選考の際に不利になることがあります。"
+    },
+    "notes.3#2": {
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/nyuusyotetsuduki/hoikushinnendo04shinsei.html",
+      "quote": "書類に不備があった場合など、SMS（ショートメッセージサービス）を通じて、申請者へ連絡をすることがあります。"
+    },
+    "notes.4": {
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/nyuusyotetsuduki/files/2026hoikusiori.pdf",
+      "quote": "入園が叶わなかった場合は保留となります。令和10年3月まで申請は有効です。 再度、入園申請の手続きの必要はありません。"
+    },
+    "notes.5": {
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/nyuusyotetsuduki/hoikushinnendo04shinsei.html",
+      "quote": "申請期間中の窓口相談は事前予約制となります。"
+    },
+    "notes.5#2": {
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/nyuusyotetsuduki/hoikushinnendo04shinsei.html",
+      "quote": "一次相談期間 令和8年10月14日（水曜） から令和8年10月26日（月曜） 令和8年10月1日（木曜） 午前9時から"
+    }
+  },
+  "sources": [
+    {
+      "label": "東村山市「来年度4月から保育園・認定こども園（保育枠）を利用される方」",
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/nyuusyotetsuduki/hoikushinnendo04shinsei.html"
+    },
+    {
+      "label": "東村山市「令和9年度 東村山市 保育園入園のしおり」（PDF）",
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/nyuusyotetsuduki/files/2026hoikusiori.pdf"
+    },
+    {
+      "label": "東村山市「保育所等の利用申請手続きについて」",
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/nyuusyotetsuduki/hoiku20220915.html"
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "citySlug": "ashiya",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "芦屋市「令和9年度保育所等入所の申し込み受付」",
+    "url": "https://www.city.ashiya.lg.jp/kodomo/nyusyo/kodomonyusyo9.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "窓口は令和8年11月6日（金曜日）締切。電子申請は令和8年10月1日午前9時〜11月6日（金曜日）午後5時",
+  "applyMethods": "申請書類は保護者がほいく課（南館1階16番窓口）に提出する。受付時間は平日午前9時〜午後5時。土・日・祝日は10月24日（土曜日）と11月1日（日曜日）の午前9時〜正午のみ事前予約制で受け付ける。4月入所の申請に限り電子申請もできる",
+  "firstResult": "一次審査の結果は12月下旬ごろに文書で通知",
+  "secondApply": "窓口は令和9年1月8日（金曜日）締切（一次募集の欠員の募集）。電子申請は令和8年11月9日午前9時〜令和9年1月8日（金曜日）午後5時",
+  "secondResult": "二次審査の結果は2月中旬ごろに文書で通知",
+  "midYearDeadline": "入所を希望する月の前月10日（土日祝日の場合はその前日）まで。4月入所は別に定めた期間に受け付ける",
+  "documents": [
+    "教育・保育給付認定申請書兼利用申請書（児童台帳）。入所希望児童1人につき1通（指定様式）",
+    "会社等にお勤めの方（常勤・パートタイム・内職など）は就労証明書（指定様式）。就労証明書等の証明書類は締切月から3か月以内のものが有効",
+    "自営の場合は就労証明書（指定様式）と、事業開始届等の自営がわかる客観的書類",
+    "育児休業から復職する場合は、産休・育休欄に記載のある就労証明書",
+    "復職後2週間以内に復職証明書の提出が必要",
+    "妊娠中・出産後間がない場合は母子健康手帳のコピー（表紙と分娩予定日の記載ページ）",
+    "仕事を探している場合は求職状況申立書と、求職中であることが分かるもの（ハローワークカード等）",
+    "祖父母・親族等と同居している場合は同居の祖父母等に関する申立書（指定様式）",
+    "就労などのため認可外保育施設を利用中の場合は在園証明書（週4日以上かつ1日4時間以上利用の場合。指定様式）"
+  ],
+  "interview": "内定すると電話（4月入所の内定は文書）で知らされ、その際に面接と健康診断の案内がある。一次の内定者の各保育施設での面接は2月以降の予定（園により異なる）。かかりつけ医等で健康診断を受け、面接時に診断書を提出する（有料）",
+  "ikukyu": "職場復帰の意思がなく育児休業給付金の延長を目的とした申請はできない。施設利用保留通知書は申請月以降のものしか発行できず、二次審査の締切に間に合わなかった場合は5月申請となるため4月の保留通知書は発行できない",
+  "notes": [
+    "令和8年12月から令和9年3月に入所を希望する人は、4月入所と一緒に申し込む",
+    "二次募集の締め切りを過ぎると、4月入所の申し込みはできない",
+    "11月2日から11月6日は受付の最終週で混雑が予想されるため、早めの来庁が勧められている",
+    "入所は申し込み順ではなく、保護者の状況を点数化して選考会議で決める",
+    "精道こども園と緑保育所は、こども誰でも通園制度の利用枠（0歳児3名、1・2歳児各1名）を確保するため、通常保育の定員枠を調整している"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.ashiya.lg.jp/kodomo/nyusyo/documents/r9siori.pdf",
+      "quote": "令和9年1月入所申請が初回申請の方で、令和9年4月入所申請も行う方については"
+    },
+    "firstApply": {
+      "url": "https://www.city.ashiya.lg.jp/kodomo/nyusyo/kodomonyusyo9.html",
+      "quote": "一次募集締め切り：令和8年11月6日（金曜日）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.ashiya.lg.jp/kodomo/nyusyo/kodomonyusyo9.html",
+      "quote": "一次申請（令和8年10月1日午前9時～令和8年11月6日午後5時）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.ashiya.lg.jp/kodomo/nyusyo/kodomonyusyo9.html",
+      "quote": "受付場所：ほいく課（南館1階16番窓口）"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.ashiya.lg.jp/kodomo/nyusyo/kodomonyusyo9.html",
+      "quote": "受付時間：平日午前9時から午後5時"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.ashiya.lg.jp/kodomo/nyusyo/kodomonyusyo9.html",
+      "quote": "土・日・祝日につきましては、10月24日（土曜日）および11月1日（日曜日）の午前9時から正午（12時）のみ受け付けいたします。事前予約のうえ、お越しください。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.ashiya.lg.jp/kodomo/nyusyo/kodomonyusyo9.html",
+      "quote": "4月入所申請のみ、電子申請も可能です。下記フォームよりご申請ください。"
+    },
+    "applyMethods#5": {
+      "url": "https://www.city.ashiya.lg.jp/kodomo/nyusyo/documents/r9siori.pdf",
+      "quote": "保護者の方が、申請書を窓口に提出してください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.ashiya.lg.jp/kodomo/nyusyo/documents/r9siori.pdf",
+      "quote": "審査の結果を文書で通知します。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.ashiya.lg.jp/kodomo/nyusyo/documents/r9siori.pdf",
+      "quote": "【一次】…12月下旬ごろ"
+    },
+    "secondApply": {
+      "url": "https://www.city.ashiya.lg.jp/kodomo/nyusyo/kodomonyusyo9.html",
+      "quote": "二次募集締め切り：令和9年1月8日（金曜日）"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.ashiya.lg.jp/kodomo/nyusyo/kodomonyusyo9.html",
+      "quote": "二次申請（令和8年11月9日午前9時～令和9年1月8日午後5時）"
+    },
+    "secondApply#3": {
+      "url": "https://www.city.ashiya.lg.jp/kodomo/nyusyo/kodomonyusyo9.html",
+      "quote": "二次募集は、一次募集の欠員の募集となります。"
+    },
+    "secondResult": {
+      "url": "https://www.city.ashiya.lg.jp/kodomo/nyusyo/documents/r9siori.pdf",
+      "quote": "審査の結果を文書で通知します。"
+    },
+    "secondResult#2": {
+      "url": "https://www.city.ashiya.lg.jp/kodomo/nyusyo/documents/r9siori.pdf",
+      "quote": "【二次】… 2月中旬ごろ"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.ashiya.lg.jp/kodomo/nyusyo/kodomonyusyo9.html",
+      "quote": "入所を希望する月の前月10日（土日祝日の場合はその前日） までにお申し込みください。（4月入所は別に定めた期間に受け付けます。）"
+    },
+    "documents.0": {
+      "url": "https://www.city.ashiya.lg.jp/kodomo/nyusyo/kodomonyusyo9.html",
+      "quote": "教育・保育給付認定申請書兼利用申請書（児童台帳） 入所希望児童1人につき1通必要です。【指定様式あり】"
+    },
+    "documents.1": {
+      "url": "https://www.city.ashiya.lg.jp/kodomo/nyusyo/kodomonyusyo9.html",
+      "quote": "会社等にお勤めの方（常勤・パートタイム勤務・内職など）： 就労証明書【指定様式あり】"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.ashiya.lg.jp/kodomo/nyusyo/kodomonyusyo9.html",
+      "quote": "また、就労証明書等の証明書類は、締切月から3か月以内のものが有効です。"
+    },
+    "documents.2": {
+      "url": "https://www.city.ashiya.lg.jp/kodomo/nyusyo/kodomonyusyo9.html",
+      "quote": "自営の場合： 就労証明書【指定様式あり】、事業開始届等自営がわかる客観的書類"
+    },
+    "documents.3": {
+      "url": "https://www.city.ashiya.lg.jp/kodomo/nyusyo/kodomonyusyo9.html",
+      "quote": "育児休業が終了し、仕事に復職する場合：「就労証明書」の産休・育休欄に記載があるものをご提出ください。"
+    },
+    "documents.4": {
+      "url": "https://www.city.ashiya.lg.jp/kodomo/nyusyo/kodomonyusyo9.html",
+      "quote": "復職後2週間以内に「復職証明書」の提出が必要です。"
+    },
+    "documents.5": {
+      "url": "https://www.city.ashiya.lg.jp/kodomo/nyusyo/kodomonyusyo9.html",
+      "quote": "妊娠中及び出産後間がない場合： 母子健康手帳のコピー（表紙と分娩予定日の記載ページ）"
+    },
+    "documents.6": {
+      "url": "https://www.city.ashiya.lg.jp/kodomo/nyusyo/kodomonyusyo9.html",
+      "quote": "仕事を探している場合： 求職状況申立書、求職中であることが分かるもの（ハローワークカード等）"
+    },
+    "documents.7": {
+      "url": "https://www.city.ashiya.lg.jp/kodomo/nyusyo/kodomonyusyo9.html",
+      "quote": "祖父母、親族等と同居されている方 ：同居の祖父母等に関する申立書【指定様式あり】"
+    },
+    "documents.8": {
+      "url": "https://www.city.ashiya.lg.jp/kodomo/nyusyo/kodomonyusyo9.html",
+      "quote": "就労などのため認可外保育施設を利用中の方 ：在園証明書（週4日以上かつ1日4時間以上利用の場合）【指定様式あり】"
+    },
+    "interview": {
+      "url": "https://www.city.ashiya.lg.jp/kodomo/nyusyo/kodomonyusyo9.html",
+      "quote": "内定 ：内定した児童には電話でお知らせします。（4月入所の内定は文書でお知らせします）。その際に面接と健康診断についてお知らせします。"
+    },
+    "interview#2": {
+      "url": "https://www.city.ashiya.lg.jp/kodomo/nyusyo/documents/r9siori.pdf",
+      "quote": "【一次】…２月以降を予定しています。"
+    },
+    "interview#3": {
+      "url": "https://www.city.ashiya.lg.jp/kodomo/nyusyo/documents/r9siori.pdf",
+      "quote": "かかりつけ医等で健康診断を受け、面接時に診断書の提出をお願いします。（有料）"
+    },
+    "ikukyu": {
+      "url": "https://www.city.ashiya.lg.jp/kodomo/nyusyo/documents/r9siori.pdf",
+      "quote": "職場復帰の意思がなく、育児休業給付金の延長を目的とした入所（園）の申請はできません。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.ashiya.lg.jp/kodomo/nyusyo/documents/r9siori.pdf",
+      "quote": "施設利用保留通知書は、申請月以降のものしか発行できません。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.ashiya.lg.jp/kodomo/nyusyo/documents/r9siori.pdf",
+      "quote": "４月入所（園）を希望していたが二次審査の〆切に間に合わなかった場合、５月申請となるため、４月の施設利用保留通知書は発行できません。"
+    },
+    "notes.0": {
+      "url": "https://www.city.ashiya.lg.jp/kodomo/nyusyo/kodomonyusyo9.html",
+      "quote": "令和8年12月から令和9年3月に入所希望の方は、4月入所と一緒にお申し込みください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.ashiya.lg.jp/kodomo/nyusyo/kodomonyusyo9.html",
+      "quote": "二次募集の締め切りを過ぎた場合は、4月入所の申し込みはできません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.ashiya.lg.jp/kodomo/nyusyo/kodomonyusyo9.html",
+      "quote": "11月2日から11月6日は最終週となり、混雑が予想されますので、できるだけ早めにご来庁ください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.ashiya.lg.jp/kodomo/nyusyo/kodomonyusyo9.html",
+      "quote": "選考 ：申請書等による保護者の状況を点数化したもので判断し、選考会議で決定します。"
+    },
+    "notes.3#2": {
+      "url": "https://www.city.ashiya.lg.jp/kodomo/nyusyo/kodomonyusyo9.html",
+      "quote": "児童の家庭の状況等から保育が困難と認められた場合、必要とする児童から入所の決定をします。申し込み順ではありません。"
+    },
+    "notes.4": {
+      "url": "https://www.city.ashiya.lg.jp/kodomo/nyusyo/kodomonyusyo9.html",
+      "quote": "0歳児3名、1・2歳児各1名をこども誰でも通園制度の利用枠として確保するため、通常保育の定員枠を以下のとおり入所調整しています。"
+    }
+  },
+  "sources": [
+    {
+      "label": "芦屋市「令和9年度保育所等入所の申し込み受付」",
+      "url": "https://www.city.ashiya.lg.jp/kodomo/nyusyo/kodomonyusyo9.html"
+    },
+    {
+      "label": "芦屋市「令和9年度保育所・認定こども園等のしおり」",
+      "url": "https://www.city.ashiya.lg.jp/kodomo/nyusyo/documents/r9siori.pdf"
+    }
+  ]
+}

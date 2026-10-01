@@ -1,0 +1,175 @@
+{
+  "citySlug": "fujinomiya",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "富士宮市「令和9年4月の保育所入所手続きのご案内」",
+    "url": "https://www.city.fujinomiya.lg.jp/1035460000/p002587.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "第1次募集の申込書は令和8年10月8日（木）から、市内の入所第1希望の保育施設で配布。保育所の案内冊子は市役所保育支援課の窓口で配布",
+  "firstApply": "令和8年11月4日（水）〜11月27日（金）。集中受付日は令和8年11月6日（金）と11月9日（月）（施設によって変更する場合あり）",
+  "applyMethods": "第1次募集は市内の入所第1希望の保育施設で申込書を受け取り、同じ施設に提出する（受付時間9:00〜16:00）。第2次・第3次募集は富士宮市役所保育支援課窓口（8:30〜17:15）",
+  "firstResult": "第1希望の園に入所できる人には令和9年2月上旬に利用調整結果通知書（園の決定通知書）を郵送（事前連絡なし）。第1希望の園に入所できない人には1月に電話で入所可能な園を知らせて調整する",
+  "secondApply": "書類配布開始は令和8年11月30日（月）、申込書受付終了日は令和9年1月29日（金）。配布・提出は富士宮市役所保育支援課窓口",
+  "secondResult": "第2次・第3次募集は選考結果にかかわらず電話で知らせる",
+  "midYearDeadline": "入所を希望する月の前月15日の正午が締切（土日・祝日の場合はその前日の開庁日の正午）。育休明けで職場復帰する人は復帰月の3か月前の16日から前月15日まで受付",
+  "documents": [
+    "支給認定申請書兼入所申込書（子ども1人につき1部）",
+    "保育の必要性の事由を証明する書類（父母それぞれ。会社等に勤務・経営の場合は就労証明書（A）で、育児休業から復帰する人は復帰予定日を必ず記入）",
+    "求職活動の場合は求職活動申告書兼誓約書（D）（入所期間は1か月）",
+    "個人番号（マイナンバー）提供書（必要な書類を貼り付けて提出）"
+  ],
+  "interview": "4月入所は申込書提出後に親子と園の面談がある。第1希望以外の園に調整された場合は、その園で改めて面談をしたうえで入所決定となる",
+  "notes": [
+    "令和9年度から、保育の必要性の事由が「求職活動」の場合でも第1次募集から申し込める",
+    "育児休業から復帰して4月に入所する場合、復帰日は4月1日から5月15日までに限られる（5月16日以降の復帰は退所となる可能性がある）",
+    "現在保留児童になっている人も、新年度の入所申請を改めて行う必要がある",
+    "第2次募集は第1次募集の申込者を審査・調整した後に審査する",
+    "第3次募集は令和9年2月1日（月）に書類配布開始、申込書受付終了日は令和9年2月12日（金）",
+    "事前に希望する保育所へ問い合わせや見学をして、開園時間などの条件や送迎が可能かを確認する"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.fujinomiya.lg.jp/1035460000/p002587.html",
+      "quote": "令和9年4月の保育所の入所手続きについて紹介しています。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.fujinomiya.lg.jp/documents/7244/r9nen4gatu1nichinyuenmousikomi.pdf",
+      "quote": "書類配布開始日 令和8年10月8日（木）"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.fujinomiya.lg.jp/documents/7244/r9nen4gatu1nichinyuenmousikomi.pdf",
+      "quote": "申込書配布場所 申込書提出場所 （ 受付時間 ） 市内の入所第1希望の 保育施設 （ 9：00～16：00 ）"
+    },
+    "guideRelease#3": {
+      "url": "https://www.city.fujinomiya.lg.jp/1035460000/p002587.html",
+      "quote": "市役所保育支援課の窓口で配布している保育所の案内です。"
+    },
+    "firstApply": {
+      "url": "https://www.city.fujinomiya.lg.jp/documents/7244/r9nen4gatu1nichinyuenmousikomi.pdf",
+      "quote": "書類受付開始日 令和8年11月4日（水）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.fujinomiya.lg.jp/documents/7244/r9nen4gatu1nichinyuenmousikomi.pdf",
+      "quote": "申込書受付終了日 令和8年11月27日（金）"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.fujinomiya.lg.jp/documents/7244/r9nen4gatu1nichinyuenmousikomi.pdf",
+      "quote": "集中受付日 令和8年11月6日（金） 令和8年11月9日（月）"
+    },
+    "firstApply#4": {
+      "url": "https://www.city.fujinomiya.lg.jp/documents/7244/r9nen4gatu1nichinyuenmousikomi.pdf",
+      "quote": "※集中受付日は、施設によって変更する場合があります。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.fujinomiya.lg.jp/documents/7244/r9nen4gatu1nichinyuenmousikomi.pdf",
+      "quote": "申込書配布場所 申込書提出場所 （ 受付時間 ） 市内の入所第1希望の 保育施設 （ 9：00～16：00 ） 富士宮市役所 保育支援課窓口 （ 8：30～17：15 ）"
+    },
+    "firstResult": {
+      "url": "https://www.city.fujinomiya.lg.jp/documents/7244/r9nendohoikunyuusyoanbnai.pdf",
+      "quote": "1次募集で第1希望の園に入所可能な方には、2月に決定通知を郵送します。事前連絡などはありません。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.fujinomiya.lg.jp/documents/7244/r9nendohoikunyuusyoanbnai.pdf",
+      "quote": "1次募集で第1希望の園に入所できない方には、1月に電話で入所可能な園をお知らせし、調整します。"
+    },
+    "firstResult#3": {
+      "url": "https://www.city.fujinomiya.lg.jp/documents/7244/r9nen4gatu1nichinyuenmousikomi.pdf",
+      "quote": "利用調整結果通知書 （園の決定通知書）の送付 令和9年2月上旬"
+    },
+    "secondApply": {
+      "url": "https://www.city.fujinomiya.lg.jp/documents/7244/r9nen4gatu1nichinyuenmousikomi.pdf",
+      "quote": "書類配布開始日 令和8年10月8日（木） 令和8年11月30日（月）"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.fujinomiya.lg.jp/documents/7244/r9nen4gatu1nichinyuenmousikomi.pdf",
+      "quote": "申込書受付終了日 令和8年11月27日（金） 令和9年1月29日（金）"
+    },
+    "secondApply#3": {
+      "url": "https://www.city.fujinomiya.lg.jp/documents/7244/r9nen4gatu1nichinyuenmousikomi.pdf",
+      "quote": "保育施設 （ 9：00～16：00 ） 富士宮市役所 保育支援課窓口 （ 8：30～17：15 ）"
+    },
+    "secondResult": {
+      "url": "https://www.city.fujinomiya.lg.jp/documents/7244/r9nendohoikunyuusyoanbnai.pdf",
+      "quote": "2次、3次募集では、選考結果にかかわらず、電話でお知らせ致します。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.fujinomiya.lg.jp/documents/7244/r9nendohoikunyuusyoanbnai.pdf",
+      "quote": "入所を希望する月の前月15日の正午（土日、祝日の場合はその前日の開庁日の正午）が締切日となります。"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.fujinomiya.lg.jp/documents/7244/r9nendohoikunyuusyoanbnai.pdf",
+      "quote": "受付期間：復帰月の3か月前の16日から前月15日まで （当日が土日、祝日の場合は直前の開庁日）"
+    },
+    "documents.0": {
+      "url": "https://www.city.fujinomiya.lg.jp/documents/7244/r9nendohoikunyuusyoanbnai.pdf",
+      "quote": "支給認定申請書兼入所申込書 申請するこども一人につき1部必要です。"
+    },
+    "documents.1": {
+      "url": "https://www.city.fujinomiya.lg.jp/documents/7244/r9nendohoikunyuusyoanbnai.pdf",
+      "quote": "保育の必要性の事由を証明する書類 下記◆別表のとおり 提出していただく方は、申請するこどもの父母になります。"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.fujinomiya.lg.jp/documents/7244/r9nendohoikunyuusyoanbnai.pdf",
+      "quote": "勤務・経営 □ 就労証明書（A） 育児休業から復帰される方は、復帰予定日を必ず記入してください。"
+    },
+    "documents.2": {
+      "url": "https://www.city.fujinomiya.lg.jp/documents/7244/r9nendohoikunyuusyoanbnai.pdf",
+      "quote": "6 求職活動 □ 求職活動申告書兼誓約書（Ｄ） 入所期間：1か月"
+    },
+    "documents.3": {
+      "url": "https://www.city.fujinomiya.lg.jp/documents/7244/r9nendohoikunyuusyoanbnai.pdf",
+      "quote": "個人番号（マイナンバー）提供書 必要な書類を貼り付けて提出してください。"
+    },
+    "interview": {
+      "url": "https://www.city.fujinomiya.lg.jp/documents/7244/r9nendohoikunyuusyoanbnai.pdf",
+      "quote": "申込書提出後に親子と園の面談があります。"
+    },
+    "interview#2": {
+      "url": "https://www.city.fujinomiya.lg.jp/documents/7244/r9nendohoikunyuusyoanbnai.pdf",
+      "quote": "調整した園で改めて面談をしたうえで、入所決定となります。"
+    },
+    "notes.0": {
+      "url": "https://www.city.fujinomiya.lg.jp/1035460000/p002587.html",
+      "quote": "令和9年度より保育の必要性の事由が「求職活動」の場合でも、第1次募集から申し込みができます。"
+    },
+    "notes.1": {
+      "url": "https://www.city.fujinomiya.lg.jp/1035460000/p002587.html",
+      "quote": "育児休業復帰による4月入所の場合は、復帰日が4月1日から5月15日までに限ります。（5月16日以降に復帰の場合は退所となる可能性があります。）"
+    },
+    "notes.2": {
+      "url": "https://www.city.fujinomiya.lg.jp/1035460000/p002587.html",
+      "quote": "現時点で保留児童となっている方につきましても、新年度の入所申請を改めて行う必要があります。"
+    },
+    "notes.3": {
+      "url": "https://www.city.fujinomiya.lg.jp/documents/7244/r9nen4gatu1nichinyuenmousikomi.pdf",
+      "quote": "第２次募集は、第１次募集で申し込みされた方を審査、調整した後に審査します。"
+    },
+    "notes.4": {
+      "url": "https://www.city.fujinomiya.lg.jp/documents/7244/r9nen4gatu1nichinyuenmousikomi.pdf",
+      "quote": "令和8年11月30日（月） 令和9年2月1日（月）"
+    },
+    "notes.4#2": {
+      "url": "https://www.city.fujinomiya.lg.jp/documents/7244/r9nen4gatu1nichinyuenmousikomi.pdf",
+      "quote": "令和8年11月27日（金） 令和9年1月29日（金） 令和9年2月12日（金）"
+    },
+    "notes.5": {
+      "url": "https://www.city.fujinomiya.lg.jp/documents/7244/r9nendohoikunyuusyoanbnai.pdf",
+      "quote": "あらかじめ希望する保育所への問い合わせや見学等を行い、開園時間等の条件、送迎が可能か等を確認してください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "富士宮市「令和9年4月の保育所入所手続きのご案内」",
+      "url": "https://www.city.fujinomiya.lg.jp/1035460000/p002587.html"
+    },
+    {
+      "label": "富士宮市「令和9年4月1日の入所申し込みについて」（PDF）",
+      "url": "https://www.city.fujinomiya.lg.jp/documents/7244/r9nen4gatu1nichinyuenmousikomi.pdf"
+    },
+    {
+      "label": "富士宮市「令和9年度保育園・認定こども園・小規模保育所のご案内」（PDF）",
+      "url": "https://www.city.fujinomiya.lg.jp/documents/7244/r9nendohoikunyuusyoanbnai.pdf"
+    }
+  ]
+}

@@ -3,18 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "iga",
-    title: "伊賀市の保活スケジュール　令和8年度4月入園の流れ",
-    description: "伊賀市の認可保育施設の申込時期・選考の流れ・結果通知の時期をわかりやすく解説。令和8年度4月入園のスケジュールを中心にまとめました。",
-    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>令和8年度4月入園のスケジュール</h2><p>伊賀市は三重県北西部に位置する忍者の里です。人口約8万5千人で、2004年に上野市・阿山郡4町1村が合併して誕生しました。伊賀忍者・伊賀上野城が有名で、伊賀鉄道（旧近鉄伊賀線）があり、津市・名張市に隣接しています。申込先は伊賀市子育て支援課です。</p><h3>一次利用調整</h3><table><tr><th>項目</th><th>日程</th></tr><tr><td>申込受付期間</td><td>令和7年10月中旬〜11月上旬</td></tr><tr><td>結果通知</td><td>令和8年1月中旬</td></tr></table><h3>二次利用調整</h3><table><tr><th>項目</th><th>日程</th></tr><tr><td>申込受付期間</td><td>令和8年2月上旬〜2月中旬</td></tr><tr><td>結果通知</td><td>令和8年3月上旬</td></tr></table><div class="point-box"><p><strong>ポイント</strong></p><p>伊賀市は基本指数が高い自治体です。フルタイム共働きで世帯最大110点（1人最大55点）の指数が付きます。</p></div>`,
-    publishedAt: "2026-05-15",
-    popularity: 46,
-  },
-  {
     slug: "hokatsu-mistakes",
     citySlug: "iga",
     title: "伊賀市の保活でよくある失敗と対策5選",

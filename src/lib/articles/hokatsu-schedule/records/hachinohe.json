@@ -1,0 +1,177 @@
+{
+  "citySlug": "hachinohe",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "八戸市「令和9年度 認定こども園・幼稚園・保育所の申込について」",
+    "url": "https://www.city.hachinohe.aomori.jp/soshikikarasagasu/kodomomiraika/kosodate/1/hoikuriyou/26625.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年10月21日（水曜日）から利用案内を配布。申請書類の様式は市窓口や施設で入手でき、市ホームページからもダウンロードできる",
+  "firstApply": "令和8年11月2日（月曜日）から令和9年度の予約申込・通常申込の受付を開始（申込順ではない）",
+  "applyMethods": "保育所等（2号・3号認定）は、利用を希望する施設かこども未来課窓口に書類一式を提出する（施設に出すときは市配布の専用封筒に入れる）。郵送で申し込む場合は事前にこども未来課へ連絡し、申込締切日必着",
+  "documents": [
+    "教育・保育給付認定申請書兼現況届（子ども1人につき1枚）",
+    "申請する保護者の個人番号（マイナンバー）確認書類と本人確認書類（施設や郵送で出す場合は写し）",
+    "保育利用申込書（希望施設は最大3施設まで）",
+    "重要事項確認書",
+    "保育が必要なことを証明する書類（就労証明書など。父母それぞれについて必要）"
+  ],
+  "interview": "申込の前に、入園する子どもと一緒に希望する園を見学する。見学が難しい場合は電話等で保育内容を十分確認してから申し込む",
+  "ikukyu": "育児休業を保育が必要な事由とする新規申込はできない。育休明けの場合は復職予定日の前2か月に含まれる入園日から申し込め、入園が決まったら入園日の後2か月以内に休業前の職場へ復職する必要がある。産休・育休から復職する人は、通常申込より結果が早く分かる保育利用予約（予約申込）もできる",
+  "notes": [
+    "選考は申込順ではない",
+    "11月初旬は窓口が大変混み合うので、時間に余裕を持って行く",
+    "郵送の場合、訂正や不足書類の用意に時間がかかることがあるため、申込締切日の7開庁日前を目安に提出する",
+    "書類に不備があると審査対象外や利用調整点数の減点になることがある",
+    "申込書を出した後に希望園や入園時期を変えるときは、申込締切日までに内容変更の申込書を出す（電話や口頭での変更は不可）",
+    "医療的ケアが必要な子どもは、遅くとも入園希望日の約半年前までにこども未来課へ問い合わせる"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.hachinohe.aomori.jp/soshikikarasagasu/kodomomiraika/kosodate/1/hoikuriyou/26625.html",
+      "quote": "また、令和8年11月2日（月曜日）より、令和9年度予約・通常申込を受付いたします。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.hachinohe.aomori.jp/soshikikarasagasu/kodomomiraika/kosodate/1/hoikuriyou/26625.html",
+      "quote": "令和8年10月21日（水曜日）より、利用案内の配布を行います。"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.hachinohe.aomori.jp/soshikikarasagasu/kodomomiraika/kosodate/1/hoikuriyou/24538.html",
+      "quote": "市窓口や施設で入手することができます。"
+    },
+    "guideRelease#3": {
+      "url": "https://www.city.hachinohe.aomori.jp/soshikikarasagasu/kodomomiraika/kosodate/1/hoikuriyou/24538.html",
+      "quote": "また、市ホームページからダウンロードすることもできます。"
+    },
+    "firstApply": {
+      "url": "https://www.city.hachinohe.aomori.jp/soshikikarasagasu/kodomomiraika/kosodate/1/hoikuriyou/26625.html",
+      "quote": "また、令和8年11月2日（月曜日）より、令和9年度予約・通常申込を受付いたします。"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.hachinohe.aomori.jp/soshikikarasagasu/kodomomiraika/kosodate/1/hoikuriyou/26625.html",
+      "quote": "申込順ではございません。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.hachinohe.aomori.jp/soshikikarasagasu/kodomomiraika/kosodate/1/hoikuriyou/24538.html",
+      "quote": "利用を希望する施設、または、こども未来課窓口 へ提出してください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.hachinohe.aomori.jp/soshikikarasagasu/kodomomiraika/kosodate/1/hoikuriyou/24538.html",
+      "quote": "施設へ提出する場合、書類一式を封筒（市配布の専用封筒）に入れて提出してください。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.hachinohe.aomori.jp/soshikikarasagasu/kodomomiraika/kosodate/1/hoikuriyou/24538.html",
+      "quote": "郵送で申し込みたい場合は、事前にこども未来課へ御連絡ください。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.hachinohe.aomori.jp/soshikikarasagasu/kodomomiraika/kosodate/1/hoikuriyou/24538.html",
+      "quote": "郵送の場合は申込締切日必着です。"
+    },
+    "documents.0": {
+      "url": "https://www.city.hachinohe.aomori.jp/material/files/group/34/R0810riyouannnai1.pdf",
+      "quote": "① 教育･保育給付認定申請書兼現況届【市様式】 必要 必要 ７ページ"
+    },
+    "documents.0#2": {
+      "url": "https://www.city.hachinohe.aomori.jp/material/files/group/34/R0810riyouannnai1.pdf",
+      "quote": "申請書は児童１人につき、１枚記入が必要です。"
+    },
+    "documents.1": {
+      "url": "https://www.city.hachinohe.aomori.jp/material/files/group/34/R0810riyouannnai1.pdf",
+      "quote": "➁ 個人番号・本人確認書類（申請する保護者） 必要 必要 ７ページ"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.hachinohe.aomori.jp/soshikikarasagasu/kodomomiraika/kosodate/1/hoikuriyou/24538.html",
+      "quote": "施設または郵送にて提出する場合、写しを提出してください。"
+    },
+    "documents.2": {
+      "url": "https://www.city.hachinohe.aomori.jp/material/files/group/34/R0810riyouannnai1.pdf",
+      "quote": "➂ 保育利用申込書【市様式】 不要 必要 ７ページ"
+    },
+    "documents.2#2": {
+      "url": "https://www.city.hachinohe.aomori.jp/material/files/group/34/R0810riyouannnai1.pdf",
+      "quote": "希望施設は最大３施設までです。施設名の記入誤りがないようご注意ください。"
+    },
+    "documents.3": {
+      "url": "https://www.city.hachinohe.aomori.jp/material/files/group/34/R0810riyouannnai1.pdf",
+      "quote": "④ 重要事項確認書【市様式】 不要 必要 ７ページ"
+    },
+    "documents.4": {
+      "url": "https://www.city.hachinohe.aomori.jp/soshikikarasagasu/kodomomiraika/kosodate/1/hoikuriyou/24597.html",
+      "quote": "保育が必要なことを証明する書類…父母それぞれについて必要。"
+    },
+    "documents.4#2": {
+      "url": "https://www.city.hachinohe.aomori.jp/soshikikarasagasu/kodomomiraika/kosodate/1/hoikuriyou/24597.html",
+      "quote": "父母のうち産休又は育休を取得していない保護者についても、保育が必要なことを証明する書類（就労証明書等）が必要です。"
+    },
+    "interview": {
+      "url": "https://www.city.hachinohe.aomori.jp/soshikikarasagasu/kodomomiraika/kosodate/1/hoikuriyou/24538.html",
+      "quote": "申込の前に、 必ず入園する児童と一緒に 希望する園を見学してください。"
+    },
+    "interview#2": {
+      "url": "https://www.city.hachinohe.aomori.jp/soshikikarasagasu/kodomomiraika/kosodate/1/hoikuriyou/24538.html",
+      "quote": "感染症等の影響等で見学が難しい場合は、電話等で保育内容等を十分確認してお申し込みください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.hachinohe.aomori.jp/soshikikarasagasu/kodomomiraika/kosodate/1/hoikuriyou/24538.html",
+      "quote": "（注意）育児休業を保育が必要な事由とする新規・転園の申込は出来ません。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.hachinohe.aomori.jp/material/files/group/34/R0810riyouannnai1.pdf",
+      "quote": "育児休業明けの場合、復職（予定）日の前２か月に含まれる入園日から申込ができます。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.hachinohe.aomori.jp/material/files/group/34/R0810riyouannnai1.pdf",
+      "quote": "入園が決定した場合、入園日の後２か月以内（※）に休業前の職場へ復職することが必要です。"
+    },
+    "ikukyu#4": {
+      "url": "https://www.city.hachinohe.aomori.jp/soshikikarasagasu/kodomomiraika/kosodate/1/hoikuriyou/24538.html",
+      "quote": "通常申込より結果が早く分かる保育利用予約（予約申込）ができます。"
+    },
+    "notes.0": {
+      "url": "https://www.city.hachinohe.aomori.jp/soshikikarasagasu/kodomomiraika/kosodate/1/hoikuriyou/26625.html",
+      "quote": "申込順ではございません。"
+    },
+    "notes.1": {
+      "url": "https://www.city.hachinohe.aomori.jp/soshikikarasagasu/kodomomiraika/kosodate/1/hoikuriyou/26625.html",
+      "quote": "11月初旬は、窓口が大変混み合いますので、お時間に余裕を持って来課していただきますようお願いいたします。"
+    },
+    "notes.2": {
+      "url": "https://www.city.hachinohe.aomori.jp/soshikikarasagasu/kodomomiraika/kosodate/1/hoikuriyou/24538.html",
+      "quote": "記載事項の訂正や不足書類の提出が必要となる際は、書類の用意に時間を要する場合がありますので、申込締切日の7開庁日前を目安として余裕を持って提出してください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.hachinohe.aomori.jp/soshikikarasagasu/kodomomiraika/kosodate/1/hoikuriyou/24538.html",
+      "quote": "不備があった場合は、審査対象外、または、利用調整点数が減点となることがあります。"
+    },
+    "notes.4": {
+      "url": "https://www.city.hachinohe.aomori.jp/soshikikarasagasu/kodomomiraika/kosodate/1/hoikuriyou/24538.html",
+      "quote": "（注意）申込書提出後に希望園や入園時期等を変更したい場合、申込締切日までに内容変更の申込書を提出していただく必要があります。"
+    },
+    "notes.4#2": {
+      "url": "https://www.city.hachinohe.aomori.jp/soshikikarasagasu/kodomomiraika/kosodate/1/hoikuriyou/24538.html",
+      "quote": "電話や口頭での変更は受け付けしておりませんのでご注意ください。"
+    },
+    "notes.5": {
+      "url": "https://www.city.hachinohe.aomori.jp/soshikikarasagasu/kodomomiraika/kosodate/1/hoikuriyou/24538.html",
+      "quote": "遅くとも入園希望日の約半年前までにこども未来課へお問い合わせください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "八戸市「令和9年度 認定こども園・幼稚園・保育所の申込について」",
+      "url": "https://www.city.hachinohe.aomori.jp/soshikikarasagasu/kodomomiraika/kosodate/1/hoikuriyou/26625.html"
+    },
+    {
+      "label": "八戸市「令和8年度 認定こども園・幼稚園・保育所 利用案内」",
+      "url": "https://www.city.hachinohe.aomori.jp/soshikikarasagasu/kodomomiraika/kosodate/1/hoikuriyou/24538.html"
+    },
+    {
+      "label": "八戸市「令和8年度認定こども園・幼稚園・保育所利用案内（通常申込）」PDF",
+      "url": "https://www.city.hachinohe.aomori.jp/material/files/group/34/R0810riyouannnai1.pdf"
+    },
+    {
+      "label": "八戸市「令和8年度 保育利用予約」",
+      "url": "https://www.city.hachinohe.aomori.jp/soshikikarasagasu/kodomomiraika/kosodate/1/hoikuriyou/24597.html"
+    }
+  ]
+}

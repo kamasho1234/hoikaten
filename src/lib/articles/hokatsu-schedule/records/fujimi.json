@@ -1,0 +1,208 @@
+{
+  "citySlug": "fujimi",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "富士見市「令和9年4月入所を希望する場合」",
+    "url": "https://www.city.fujimi.saitama.jp/kosodate_kyoiku/kosodate_oen/yochien_hoikusho/hoikusho/hoikusyonyusyo/r4_4gatsunyuusyo.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年11月5日（木）・6日（金）・7日（土）・9日（月）・10日（火）の5日間、午前9時〜11時30分と午後1時〜5時に市役所1階全員協議会室で受付（事前予約制）。転入予定者は令和8年11月10日富士見市保育課必着。一次受付に来場した人の不足書類の再提出は令和8年11月11日〜11月30日",
+  "applyMethods": "市内在住で市内施設のみを希望する場合は、市ホームページで事前予約（令和8年10月21日午前10時〜11月9日午後5時。保育課窓口・電話での予約は不可）のうえ会場に来場して申し込む。市外施設も併せて希望する場合は電話予約のうえ子ども同伴で保育課に申し込み、期限は令和8年11月4日か希望施設のある自治体の締切日の2週間前のどちらか早い方。転入予定者は令和8年11月10日富士見市保育課必着",
+  "firstResult": "令和9年2月上旬に郵送で発送予定",
+  "secondApply": "令和9年2月12日（金）〜2月18日（木）（土日を除く）、午後1時〜5時15分に市役所1階保育課で受付。市外在住者・転入予定者は令和9年2月18日富士見市保育課必着",
+  "secondResult": "令和9年3月上旬に発送予定",
+  "midYearDeadline": "令和9年5月以降の入所は入所月ごとに受付期間があり、5月入所は3月5日〜4月5日（開庁日のみ）。保育課窓口のほか郵送も可（期間内必着）",
+  "documents": [
+    "保育施設入所申込書、家庭状況調査票、児童健康票、重要事項確認票、保育を必要とする理由の証明書、教育・保育給付認定申請書",
+    "保育を必要とする理由の証明書は父母それぞれの分が必要（月64時間以上の就労なら就労証明書、就労先が複数なら就労状況申告書も。おおむね2か月以内に記入されたもの）",
+    "申込み当日の持ち物として母子健康手帳、マイナンバーの確認ができる書類、申請に来た保護者の本人確認ができる書類",
+    "認可外保育施設等を利用中の場合は認可外保育施設等利用証明書（専用様式）",
+    "市外在住者と転入予定者は令和8年度課税証明書（父母それぞれ）"
+  ],
+  "interview": "申込み時に児童面接を行うので申込児童を同伴する。申込受付日時点で生後6か月未満の児童（一次受付では令和8年5月4日以降、二次受付では令和8年8月11日以降に出生した児童）は入所した施設で後日面接するので同伴不要。市外施設のみを希望する場合は面接なし",
+  "ikukyu": "育児休業の延長を許容できる場合は「育児休業延長の許容に関する申出書」（専用様式）を出すと、調整点数を減点（-30）して利用調整する。保留通知（施設利用保留通知書）は申込みの初月のみ送付。育児休業給付金の延長手続きにはすべての申込書類が必要なので、事前にコピーをとっておく",
+  "notes": [
+    "一次受付は事前予約制だが、受付日や受付の順番は利用調整に一切影響しない",
+    "一次受付の期間中に申し込めなかった場合や、再提出期間中に書類を出せなかった場合は二次受付以降の申込みになる",
+    "令和9年4月入所の一次受付に限り、受付期間までに子どもが生まれていなくても申し込める",
+    "市外在住者（転入予定なし）は二次受付から利用調整を行う",
+    "令和9年1月〜3月分の入所申込みも受け付けるが、必要書類は令和8年度と令和9年度の両年度分が要る",
+    "施設見学の有無は利用調整に一切影響しない"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.fujimi.saitama.jp/kosodate_kyoiku/kosodate_oen/yochien_hoikusho/hoikusho/hoikusyonyusyo/r4_4gatsunyuusyo.html",
+      "quote": "令和9年4月保育施設入所一次受付については、事前予約制となります。"
+    },
+    "firstApply": {
+      "url": "https://www.city.fujimi.saitama.jp/kosodate_kyoiku/kosodate_oen/yochien_hoikusho/hoikusho/hoikusyonyusyo/r4_4gatsunyuusyo.html",
+      "quote": "令和8年11月5日（木曜日） 午前9時～11時30分、午後1時～5時 市役所1階 全員協議会室"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.fujimi.saitama.jp/kosodate_kyoiku/kosodate_oen/yochien_hoikusho/hoikusho/hoikusyonyusyo/r4_4gatsunyuusyo.html",
+      "quote": "令和8年11月6日（金曜日） 令和8年11月7日（土曜日） 令和8年11月9日（月曜日） 令和8年11月10日（火曜日）"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.fujimi.saitama.jp/kosodate_kyoiku/kosodate_oen/yochien_hoikusho/hoikusho/hoikusyonyusyo/r4_4gatsunyuusyo.html",
+      "quote": "令和8年11月10日（火曜日）富士見市保育課必着"
+    },
+    "firstApply#4": {
+      "url": "https://www.city.fujimi.saitama.jp/kosodate_kyoiku/kosodate_oen/yochien_hoikusho/hoikusho/hoikusyonyusyo/hoiku2023090818.html",
+      "quote": "再提出期間：令8年11月11日（水曜日）～11月30日（月曜日）市役所開庁時間"
+    },
+    "applyMethods": {
+      "url": "https://www.city.fujimi.saitama.jp/kosodate_kyoiku/kosodate_oen/yochien_hoikusho/hoikusho/hoikusyonyusyo/hoiku2023090818.html",
+      "quote": "予約受付期間：令和8年10月21日（水曜日）午前10時～11月9日（月曜日）午後5時"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.fujimi.saitama.jp/kosodate_kyoiku/kosodate_oen/yochien_hoikusho/hoikusho/hoikusyonyusyo/hoiku2023090818.html",
+      "quote": "・保育課窓口や電話での予約受付はしていません。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.fujimi.saitama.jp/kosodate_kyoiku/kosodate_oen/yochien_hoikusho/hoikusho/hoikusyonyusyo/hoiku2023090818.html",
+      "quote": "電話予約のうえ、富士見市保育課にお子様同伴でお申し込みください。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.fujimi.saitama.jp/kosodate_kyoiku/kosodate_oen/yochien_hoikusho/hoikusho/hoikusyonyusyo/r4_4gatsunyuusyo.html",
+      "quote": "令和8年11月4日（水曜日）又は希望施設が所在する自治体の締切日の2週間前のどちらか早い方"
+    },
+    "applyMethods#5": {
+      "url": "https://www.city.fujimi.saitama.jp/kosodate_kyoiku/kosodate_oen/yochien_hoikusho/hoikusho/hoikusyonyusyo/r4_4gatsunyuusyo.html",
+      "quote": "令和8年11月10日（火曜日）富士見市保育課必着"
+    },
+    "applyMethods#6": {
+      "url": "https://www.city.fujimi.saitama.jp/kosodate_kyoiku/kosodate_oen/yochien_hoikusho/hoikusho/hoikusyonyusyo/r4_4gatsunyuusyo.html",
+      "quote": "事前予約のうえ、次のいずれかの日程に会場に来場してお申し込みください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.fujimi.saitama.jp/kosodate_kyoiku/kosodate_oen/yochien_hoikusho/hoikusho/hoikusyonyusyo/r4_4gatsunyuusyo.html",
+      "quote": "結果通知 令和9年2月上旬に発送予定"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.fujimi.saitama.jp/45online/2011-1004-1554-126/hoiku/hoiku01202009.files/R9nyusyoannai.pdf",
+      "quote": "●４月入所については、郵送で結果を通知します（P１７参照）。"
+    },
+    "secondApply": {
+      "url": "https://www.city.fujimi.saitama.jp/kosodate_kyoiku/kosodate_oen/yochien_hoikusho/hoikusho/hoikusyonyusyo/r4_4gatsunyuusyo.html",
+      "quote": "令和9年2月12日（金曜日）～2月18日（木曜日）(土曜日､日曜日を除く) 午後1時～午後5時15分 市役所1階保育課"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.fujimi.saitama.jp/kosodate_kyoiku/kosodate_oen/yochien_hoikusho/hoikusho/hoikusyonyusyo/r4_4gatsunyuusyo.html",
+      "quote": "令和9年2月18日（木曜日）富士見市保育課必着"
+    },
+    "secondResult": {
+      "url": "https://www.city.fujimi.saitama.jp/kosodate_kyoiku/kosodate_oen/yochien_hoikusho/hoikusho/hoikusyonyusyo/r4_4gatsunyuusyo.html",
+      "quote": "結果通知 令和9年3月上旬に発送予定"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.fujimi.saitama.jp/45online/2011-1004-1554-126/hoiku/hoiku01202009.files/R9nyusyoannai.pdf",
+      "quote": "５月 ３月５日(金)～４月５日(月)"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.fujimi.saitama.jp/45online/2011-1004-1554-126/hoiku/hoiku01202009.files/R9nyusyoannai.pdf",
+      "quote": "受付場所／富士見市役所 保育課窓口 ※郵送可（期間内必着）"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.fujimi.saitama.jp/45online/2011-1004-1554-126/hoiku/hoiku01202009.files/R9nyusyoannai.pdf",
+      "quote": "（２）令和９年５月以降入所の申込み（郵送可。期間内必着）"
+    },
+    "documents.0": {
+      "url": "https://www.city.fujimi.saitama.jp/kosodate_kyoiku/kosodate_oen/yochien_hoikusho/hoikusho/hoikusyonyusyo/r4_4gatsunyuusyo.html",
+      "quote": "●保育施設入所申込書 ●家庭状況調査票 ●児童健康票 ●重要事項確認票 ●保育を必要とする理由の証明書 ●教育・保育給付認定申請書"
+    },
+    "documents.1": {
+      "url": "https://www.city.fujimi.saitama.jp/kosodate_kyoiku/kosodate_oen/yochien_hoikusho/hoikusho/hoikusyonyusyo/r4_4gatsunyuusyo.html",
+      "quote": "月64時間以上の就労 就労証明書 就労状況申告書（就労先が複数ある方は就労証明書と併せて要提出）"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.fujimi.saitama.jp/45online/2011-1004-1554-126/hoiku/hoiku01202009.files/R9nyusyoannai.pdf",
+      "quote": "〇保育理由の証明書（おおむね２か月以内に記入されたもの。同居・別居を問わず、父親母親それぞれの分が必要です。）"
+    },
+    "documents.2": {
+      "url": "https://www.city.fujimi.saitama.jp/kosodate_kyoiku/kosodate_oen/yochien_hoikusho/hoikusho/hoikusyonyusyo/r4_4gatsunyuusyo.html",
+      "quote": "申込書類一式、母子健康手帳、マイナンバーの確認ができる書類、申請に来た保護者の本人確認ができる書類"
+    },
+    "documents.3": {
+      "url": "https://www.city.fujimi.saitama.jp/kosodate_kyoiku/kosodate_oen/yochien_hoikusho/hoikusho/hoikusyonyusyo/r4_4gatsunyuusyo.html",
+      "quote": "認可外保育施設等を利用中の児童の場合 認可外保育施設等利用証明書（専用様式）"
+    },
+    "documents.4": {
+      "url": "https://www.city.fujimi.saitama.jp/kosodate_kyoiku/kosodate_oen/yochien_hoikusho/hoikusho/hoikusyonyusyo/r4_4gatsunyuusyo.html",
+      "quote": "市外在住者及び転入予定者が必要な書類（父母それぞれの分が必要） ●令和8年度課税証明書"
+    },
+    "interview": {
+      "url": "https://www.city.fujimi.saitama.jp/kosodate_kyoiku/kosodate_oen/yochien_hoikusho/hoikusho/hoikusyonyusyo/r4_4gatsunyuusyo.html",
+      "quote": "児童面接を行うため、申込児童同伴でお越しください。"
+    },
+    "interview#2": {
+      "url": "https://www.city.fujimi.saitama.jp/kosodate_kyoiku/kosodate_oen/yochien_hoikusho/hoikusho/hoikusyonyusyo/r4_4gatsunyuusyo.html",
+      "quote": "(注記)申込受付日時点で生後6か月未満の児童は、入所した施設で後日面接を行いますので、同伴の必要はありません。"
+    },
+    "interview#3": {
+      "url": "https://www.city.fujimi.saitama.jp/45online/2011-1004-1554-126/hoiku/hoiku01202009.files/R9nyusyoannai.pdf",
+      "quote": "・一次受付では令和８年５月４日以降、二次受付では令和８年８月１１日以降に出生した児童（母子健康手帳は持参してください）"
+    },
+    "interview#4": {
+      "url": "https://www.city.fujimi.saitama.jp/kosodate_kyoiku/kosodate_oen/yochien_hoikusho/hoikusho/hoikusyonyusyo/r4_4gatsunyuusyo.html",
+      "quote": "(注記)市外施設のみを希望する場合は、面接は行いませんので、同伴の必要はありません。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.fujimi.saitama.jp/kosodate_kyoiku/kosodate_oen/yochien_hoikusho/hoikusho/hoikusyonyusyo/r4_4gatsunyuusyo.html",
+      "quote": "育児休業の延長を許容できる場合 （調整点数を減点して利用調整します） 育児休業延長の許容に関する申出書（専用様式）"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.fujimi.saitama.jp/45online/2011-1004-1554-126/hoiku/hoiku01202009.files/R9nyusyoannai.pdf",
+      "quote": "育児休業の延長を許容でき、申出書を提出した -30"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.fujimi.saitama.jp/45online/2011-1004-1554-126/hoiku/hoiku01202009.files/R9nyusyoannai.pdf",
+      "quote": "●申込みの初月のみ、施設利用保留通知書（保留通知）を送付します。"
+    },
+    "ikukyu#4": {
+      "url": "https://www.city.fujimi.saitama.jp/45online/2011-1004-1554-126/hoiku/hoiku01202009.files/R9nyusyoannai.pdf",
+      "quote": "育児休業給付金の延長手続きに、「すべての申込書類」が必要となりました。手続きの可能性がある場合は、事前に書類のコピーをおとりください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.fujimi.saitama.jp/kosodate_kyoiku/kosodate_oen/yochien_hoikusho/hoikusho/hoikusyonyusyo/hoiku2023090818.html",
+      "quote": "・受付日や受付の順番が利用調整に影響することは一切ありません。"
+    },
+    "notes.1": {
+      "url": "https://www.city.fujimi.saitama.jp/kosodate_kyoiku/kosodate_oen/yochien_hoikusho/hoikusho/hoikusyonyusyo/hoiku2023090818.html",
+      "quote": "・一次受付の期間中に申込みができなかった場合や、以下の再提出期間中に申込書類が提出できなかった場合は二次受付以降の申込みとなりますので、あらかじめご了承ください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.fujimi.saitama.jp/kosodate_kyoiku/kosodate_oen/yochien_hoikusho/hoikusho/hoikusyonyusyo/r4_4gatsunyuusyo.html",
+      "quote": "(注記)令和9年4月入所の一次受付に限り、申込受付期間までに申込児童が生まれていなくても申込みが可能です。"
+    },
+    "notes.3": {
+      "url": "https://www.city.fujimi.saitama.jp/kosodate_kyoiku/kosodate_oen/yochien_hoikusho/hoikusho/hoikusyonyusyo/r4_4gatsunyuusyo.html",
+      "quote": "(注記)市外在住者（転入予定なし）については、二次受付から利用調整を行います。"
+    },
+    "notes.4": {
+      "url": "https://www.city.fujimi.saitama.jp/kosodate_kyoiku/kosodate_oen/yochien_hoikusho/hoikusho/hoikusyonyusyo/r4_4gatsunyuusyo.html",
+      "quote": "(注記)令和9年1月～3月分の入所申込みも受け付けますが、必要書類は令和8年度と令和9年度の両年度分が必要です。"
+    },
+    "notes.5": {
+      "url": "https://www.city.fujimi.saitama.jp/45online/2011-1004-1554-126/hoiku/hoiku01202009.files/R9nyusyoannai.pdf",
+      "quote": "※施設見学の有無は、利用調整に一切影響しません。"
+    }
+  },
+  "sources": [
+    {
+      "label": "富士見市「令和9年4月入所を希望する場合」",
+      "url": "https://www.city.fujimi.saitama.jp/kosodate_kyoiku/kosodate_oen/yochien_hoikusho/hoikusho/hoikusyonyusyo/r4_4gatsunyuusyo.html"
+    },
+    {
+      "label": "富士見市「令和9年4月保育施設入所一次申込受付における事前予約について」",
+      "url": "https://www.city.fujimi.saitama.jp/kosodate_kyoiku/kosodate_oen/yochien_hoikusho/hoikusho/hoikusyonyusyo/hoiku2023090818.html"
+    },
+    {
+      "label": "富士見市「保育施設・放課後児童クラブに関する申請書類（令和9年度入所・入室用）」",
+      "url": "https://www.city.fujimi.saitama.jp/45online/2011-1004-1554-126/hoiku/hoiku01202009.html"
+    },
+    {
+      "label": "富士見市「令和9年度（2027年度）保育施設入所案内」",
+      "url": "https://www.city.fujimi.saitama.jp/45online/2011-1004-1554-126/hoiku/hoiku01202009.files/R9nyusyoannai.pdf"
+    }
+  ]
+}
