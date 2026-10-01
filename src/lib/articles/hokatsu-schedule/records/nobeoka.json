@@ -1,0 +1,193 @@
+{
+  "citySlug": "nobeoka",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "延岡市「令和8年度4月入所分から、保育所・認定こども園などへの入所申請は、オンラインによる受付に変更となります。」",
+    "url": "https://www.city.nobeoka.miyazaki.jp/soshiki/30/44856.html"
+  },
+  "fiscalYear": "R8",
+  "firstApply": "希望施設での「施設番号」の取得は令和7年11月1日から、「のべおかポータル」アプリでのオンライン申請は令和7年12月1日〜12月24日",
+  "applyMethods": "「のべおかポータル」アプリによる原則オンライン申請。希望施設に就労証明書などを持参して「施設番号」を受け取ってから、アプリで申請する。保護者のいずれかのマイナンバーカードが必要。延岡市外の保育施設への広域入所は従来どおり紙で申請する",
+  "firstResult": "1月末に、入所決定通知書を「のべおかポータル」アプリで通知",
+  "secondApply": "令和8年2月2日〜3月10日（申請状況を踏まえ、当初の2月20日までから延長された）",
+  "secondResult": "3月中旬に「のべおかポータル」アプリで通知",
+  "midYearDeadline": "随時受付。入所希望日の1か月前までに入所申請する（施設に空きがあれば年度途中でも入所できる）",
+  "documents": [
+    "就労の場合は就労証明書（証明日が令和7年9月1日以降のもの。勤め先の証明で、内定通知書を含む）",
+    "自営業の場合は、自分で記入した就労証明書と、開業届や確定申告書の写しなど営業実態が確認できる書類",
+    "妊娠・出産の場合は母子手帳の写し（出産予定日記載ページ）",
+    "疾病等の場合は診断名と療養期間がわかる医師の診断書",
+    "看護・介護の場合は、看護が必要な人の診断名と療養期間がわかる医師の診断書や介護サービスの計画書など",
+    "就学の場合は合格通知書と在学証明書"
+  ],
+  "interview": "新たに入所する人は、施設番号を受け取る前に希望施設に見学や面談を申し込み、施設の環境や方針、保育内容などを確認する",
+  "ikukyu": "育児休業給付金の支給延長には、まず希望する保育施設3か所に復帰予定日の概ね1か月前に入所の可否を問い合わせる。利用定員の理由で入所できなかったときは、こども保育課にできる限り復帰予定日の1か月前までに支給延長に係る申請をすると、入所の可否が記載された申込書の写しと保育施設入所不可の証明書が発行される（復帰予定日の1か月前からの発行で、遡っての発行や再発行はできない）",
+  "notes": [
+    "入所の選考は、保育が必要な理由により施設が利用者の優先度を採点して行う",
+    "「施設番号」を受け取っても入所が決定したわけではない。正式な決定は市からの入所決定通知書で確認する",
+    "「入所不可」の通知を受け取った場合は、第二希望の施設で「施設番号」をもらい、再申請する",
+    "一次受付期間中に不備書類の再提出が間に合わない場合は、二次受付期間以降の入所決定になる",
+    "就労証明書の雇用期限が令和8年3月31日までの場合は、項目14の「満了後の更新の有無」が「有」になっているか、備考欄に契約更新有りの記入が必要",
+    "二次受付のあとの最終受付は3月11日〜3月31日で、決定は3月下旬以降随時"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.nobeoka.miyazaki.jp/soshiki/30/44856.html",
+      "quote": "延岡市では、令和8年度4月入所分から「のべおかポータル」アプリを使ったオンライン入所申請受付を始めます。"
+    },
+    "firstApply": {
+      "url": "https://www.city.nobeoka.miyazaki.jp/uploaded/attachment/24813.pdf",
+      "quote": "一次受付 令和７年12月１日～12月24日 １月末"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.nobeoka.miyazaki.jp/soshiki/30/44856.html",
+      "quote": "一次受付 11月1日～ 12月1日～12月24日 1月末"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.nobeoka.miyazaki.jp/uploaded/attachment/24813.pdf",
+      "quote": "令和７年 11月１日～"
+    },
+    "applyMethods": {
+      "url": "https://www.city.nobeoka.miyazaki.jp/soshiki/30/44856.html",
+      "quote": "入所の申請受付は、「施設番号の取得」 → 「オンライン入所申請」 → 「入所決定通知の確認」の順序となります。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.nobeoka.miyazaki.jp/soshiki/30/44856.html",
+      "quote": "オンライン入所申請には、保護者のいずれかのマイナンバーカードが必要です。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.nobeoka.miyazaki.jp/soshiki/30/44856.html",
+      "quote": "延岡市外の保育施設に入所（広域入所）を希望される方は、従来通り、紙での申請となります"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.nobeoka.miyazaki.jp/soshiki/30/44856.html",
+      "quote": "（4）施設による必要書類の確認を受けた後に、就労証明書などの返却と「施設番号」を受け取ってください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.nobeoka.miyazaki.jp/uploaded/attachment/24813.pdf",
+      "quote": "一次受付 令和７年12月１日～12月24日 １月末"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.nobeoka.miyazaki.jp/soshiki/30/44856.html",
+      "quote": "（2）市から、「入所決定通知書」を「のべおかポータル」アプリにて、保護者に通知しますので、ご確認ください。"
+    },
+    "secondApply": {
+      "url": "https://www.city.nobeoka.miyazaki.jp/soshiki/30/44856.html",
+      "quote": "変更後 令和8年2月2日（月曜日）～3月10日（火曜日）まで"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.nobeoka.miyazaki.jp/soshiki/30/44856.html",
+      "quote": "変更前 令和8年2月2日（月曜日）～2月20日（金曜日）まで"
+    },
+    "secondApply#3": {
+      "url": "https://www.city.nobeoka.miyazaki.jp/soshiki/30/44856.html",
+      "quote": "新年度入所の申請状況を踏まえ、受付期間を下記の通り変更しました。"
+    },
+    "secondResult": {
+      "url": "https://www.city.nobeoka.miyazaki.jp/soshiki/30/44856.html",
+      "quote": "二次受付 2月2日～3月10日 3月中旬"
+    },
+    "secondResult#2": {
+      "url": "https://www.city.nobeoka.miyazaki.jp/soshiki/30/44856.html",
+      "quote": "変更後 令和8年2月2日（月曜日）～3月10日（火曜日）まで"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.nobeoka.miyazaki.jp/soshiki/30/44856.html",
+      "quote": "年度途中の入所手続きは、随時受け付けておりますが、入所希望日の1ヶ月前までに入所申請していただく必要があります。"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.nobeoka.miyazaki.jp/soshiki/30/44856.html",
+      "quote": "施設に空きがあれば、年度途中で入所可能ですので、ご希望の施設にお早めにご相談ください。"
+    },
+    "documents.0": {
+      "url": "https://www.city.nobeoka.miyazaki.jp/soshiki/30/44856.html",
+      "quote": "就労証明書（証明日：令和7年9月1日以降）※令和8年度4月入所の場合 ・勤めている方は、就労している事業所からの証明（内定通知書を含む）"
+    },
+    "documents.1": {
+      "url": "https://www.city.nobeoka.miyazaki.jp/soshiki/30/44856.html",
+      "quote": "・自営業の方は、ご自身で記入した就労証明書と、開業届や確定申告書の写しなど、営業実態が確認できる書類"
+    },
+    "documents.2": {
+      "url": "https://www.city.nobeoka.miyazaki.jp/soshiki/30/44856.html",
+      "quote": "妊娠・出産 母子手帳の写し（出産予定日記載ページ）"
+    },
+    "documents.3": {
+      "url": "https://www.city.nobeoka.miyazaki.jp/soshiki/30/44856.html",
+      "quote": "疾病等 診断名及び療養期間がわかる医師の診断書"
+    },
+    "documents.4": {
+      "url": "https://www.city.nobeoka.miyazaki.jp/soshiki/30/44856.html",
+      "quote": "看護が必要となる方の診断名及び療養期間がわかる医師の診断書や介護サービスの計画書など"
+    },
+    "documents.5": {
+      "url": "https://www.city.nobeoka.miyazaki.jp/soshiki/30/44856.html",
+      "quote": "就学 合格通知書及び在学証明書"
+    },
+    "interview": {
+      "url": "https://www.city.nobeoka.miyazaki.jp/soshiki/30/44856.html",
+      "quote": "（2）新たに入所される方は、施設に見学や面談を申し込み、施設の環境や方針、保育内容などをご確認ください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.nobeoka.miyazaki.jp/soshiki/30/40967.html",
+      "quote": "保護者の方から直接、ご希望の保育施設3か所へ、復帰予定日の概ね1か月ほど前に入所の可否についてお問い合わせください。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.nobeoka.miyazaki.jp/soshiki/30/40967.html",
+      "quote": "ご希望の保育施設に利用定員の理由で入所できなかった場合は、こども保育課にできる限り復帰予定日の1か月前までに育児休業給付金の支給延長に係る申請を行ってください。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.nobeoka.miyazaki.jp/soshiki/30/40967.html",
+      "quote": "育児休業給付金の支給延長に係る下記の書類を発行します。 入所の可否が記載された申込書の写し 保育施設入所不可の証明書"
+    },
+    "ikukyu#4": {
+      "url": "https://www.city.nobeoka.miyazaki.jp/soshiki/30/40967.html",
+      "quote": "育児休業給付金の支給延長に係る書類は、復帰予定日の1か月前からの発行としています。また、日付を遡っての発行や再発行等はできかねますので、十分ご注意の上、手続きを行ってください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.nobeoka.miyazaki.jp/soshiki/30/44856.html",
+      "quote": "（1）新たに入所する場合は、保育が必要な理由に、施設において利用者の優先度を採点し、選考します。"
+    },
+    "notes.1": {
+      "url": "https://www.city.nobeoka.miyazaki.jp/soshiki/30/44856.html",
+      "quote": "「施設番号」の通知は、入所決定を意味するものではありません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.nobeoka.miyazaki.jp/soshiki/30/44856.html",
+      "quote": "※「入所不可」の通知を受け取った場合は、第二希望の施設に「施設番号」をもらい、再申請してください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.nobeoka.miyazaki.jp/soshiki/30/44856.html",
+      "quote": "※オンライン申請の一次受付期間中に、再提出が間に合わない場合は、二次受付期間以降の入所決定となりますので、ご了承ください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.nobeoka.miyazaki.jp/uploaded/attachment/24813.pdf",
+      "quote": "◆就労証明書の雇用期限が令和８年３月31日までの場合は、次のような記入がされているかご確認ください。"
+    },
+    "notes.4#2": {
+      "url": "https://www.city.nobeoka.miyazaki.jp/soshiki/30/44856.html",
+      "quote": "項目14「（雇用契約の）満了後の更新の有無」→「有」にチェックが入っている"
+    },
+    "notes.4#3": {
+      "url": "https://www.city.nobeoka.miyazaki.jp/soshiki/30/44856.html",
+      "quote": "備考欄 →「次年度4月1日からの契約更新有り」と記入がある"
+    },
+    "notes.5": {
+      "url": "https://www.city.nobeoka.miyazaki.jp/soshiki/30/44856.html",
+      "quote": "最終受付 3月11日～3月31日 3月下旬以降随時"
+    }
+  },
+  "sources": [
+    {
+      "label": "延岡市「令和8年度4月入所分から、保育所・認定こども園などへの入所申請は、オンラインによる受付に変更となります。」",
+      "url": "https://www.city.nobeoka.miyazaki.jp/soshiki/30/44856.html"
+    },
+    {
+      "label": "延岡市「認可保育所・認定こども園・幼稚園 入園に関するご案内」（2025年9月1日発行）",
+      "url": "https://www.city.nobeoka.miyazaki.jp/uploaded/attachment/24813.pdf"
+    },
+    {
+      "label": "延岡市「育児休業給付金の支給延長を申請する場合、「保育施設の利用ができない旨の通知」が必要となります」",
+      "url": "https://www.city.nobeoka.miyazaki.jp/soshiki/30/40967.html"
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "citySlug": "niiza",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "新座市「令和9年度 認可保育施設利用申込みのご案内」",
+    "url": "https://www.city.niiza.lg.jp/site/kosodate/hoikusisetugoannai9.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年9月14日（月曜日）に新年度分の情報をホームページに掲載。申請書などの様式は市役所本庁舎2階保育課と市内認可保育施設でも入手できる（保育施設では在庫によって渡せないことがある）",
+  "firstApply": "郵送・電子申請は令和8年9月1日（火曜日）〜11月19日（木曜日）（保育課必着）。窓口受付（予約制）は令和8年11月16日（月曜日）〜11月19日（木曜日）の午前9時〜午後4時（正午〜午後1時を除く）",
+  "applyMethods": "一次選考は郵送か電子申請（ぴったりサービス）が原則。窓口は申請に不安のある人向けの予約制で、予約は令和8年10月13日（火曜日）午前10時から電子申請のみで先着順。窓口受付期間中は保育課窓口の申請書提出ボックスにも直接提出できる。電子申請の締切は期間終了日の午後11時59分",
+  "firstResult": "令和9年1月25日（月）に郵送で発送予定",
+  "secondApply": "令和9年1月4日（月曜日）〜1月29日（金曜日）。窓口・郵送・電子申請とも同じ期間（郵送・電子は保育課必着、窓口は平日のみ）。一次選考で保留となった人は再申請不要",
+  "secondResult": "令和9年2月22日（月）に郵送で発送予定",
+  "midYearDeadline": "入所希望月の前々月6日から前月5日まで（5日が閉庁日なら次の開庁日まで）。5月入所は令和9年3月8日〜4月5日。1月〜3月入所は選考なし",
+  "documents": [
+    "教育・保育給付認定申請書兼保育施設利用申込書（窓口・郵送の人）",
+    "令和9年度新座市保育施設利用申込確認票（全員）",
+    "マイナンバーを確認できる書類（窓口・郵送の人）",
+    "保育を必要とする事由を確認するための書類（就労証明書・診断書は証明日から3か月以内のもの）",
+    "令和8年1月1日時点で新座市に住民登録がない人は課税（非課税）証明書",
+    "郵送で出す人は郵送用確認票、電子申請の人は電子申請用確認票"
+  ],
+  "interview": "入所内定後、内定した保育施設で面談を行う（案内は内定通知の中にある）。面談の結果、子どもの健康状態等によっては入所できない場合がある",
+  "ikukyu": "育児休業給付金の延長手続きをする人は「育児休業延長を許容できる旨の申立書」を出すと、入所選考で優先度を下げて選考される（入所保留を保証するものではない）。入所保留通知が必要な月は申込みの際に伝える",
+  "notes": [
+    "電子申請はマイナンバーカードと暗証番号、読み取りに対応したスマートフォン（またはパソコンとICカードリーダライタ）が必要で、入力に約30分〜60分かかる",
+    "医療的ケアが必要な子どもや、他市町村の認可保育施設を希望する人は電子申請できず、郵送か窓口での申請になる",
+    "一次選考の希望園の変更は令和8年11月26日（木）までに保育課へ連絡するか電子申請で行う",
+    "内定を一度辞退すると、その年度内の入所選考で保育指数が7点減点される",
+    "保育指数が同じ場合は前年度の保護者の市区町村民税所得割額が判断基準になるため、課税証明書が必要なのに期日までに出さないと不利になる場合がある"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.niiza.lg.jp/site/kosodate/hoikusisetugoannai9.html",
+      "quote": "令和9年4月1日から、新たに市内認可保育施設への入所を希望する児童を募集します。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.niiza.lg.jp/site/kosodate/hoikusisetugoannai9.html",
+      "quote": "令和9年度の情報は令和8年9月14日(月曜日)に更新しました。"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.niiza.lg.jp/site/kosodate/hoikusisetugoannai9.html",
+      "quote": "各様式は、市役所本庁舎2階保育課及び市内認可保育施設からも入手できます。"
+    },
+    "firstApply": {
+      "url": "https://www.city.niiza.lg.jp/uploaded/attachment/73942.pdf",
+      "quote": "【１次選考】郵送・電子受付：令和８年９月１日（火）から１１月１９日（木）まで≪保育課必着≫"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.niiza.lg.jp/uploaded/attachment/73942.pdf",
+      "quote": "窓口受付（予約制）：令和８年１１月１６日（月）から１１月１９日（木）まで"
+    },
+    "applyMethods": {
+      "url": "https://www.city.niiza.lg.jp/site/kosodate/hoikusisetugoannai9.html",
+      "quote": "令和9年4月の認可保育施設入所申請【一次選考】は、郵送または電子による申請受付を原則とします。窓口での受付は、申請に対して不安のある方を対象とし、予約制とします。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.niiza.lg.jp/site/kosodate/hoikusisetugoannai9.html",
+      "quote": "予約の申し込みは電子申請のみです。電話では予約できないのでご注意ください。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.niiza.lg.jp/site/kosodate/hoikusisetugoannai9.html",
+      "quote": "令和8年10月13日（火曜日）午前10時　※先着順"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.niiza.lg.jp/site/kosodate/hoikusisetugoannai9.html",
+      "quote": "※最終締切は申請期間終了日の午後11時59分までとなります。"
+    },
+    "applyMethods#5": {
+      "url": "https://www.city.niiza.lg.jp/uploaded/attachment/73942.pdf",
+      "quote": "※受付期間中、保育課窓口に申請書を直接提出できる申請書提出ボックスを設置します。"
+    },
+    "firstResult": {
+      "url": "https://www.city.niiza.lg.jp/uploaded/attachment/73942.pdf",
+      "quote": "■ １次選考結果発送：令和９年１月２５日（月）発送予定（郵送により通知）"
+    },
+    "secondApply": {
+      "url": "https://www.city.niiza.lg.jp/uploaded/attachment/73942.pdf",
+      "quote": "【２次選考】郵送・電子受付：令和９年１月４日（月）から１月２９日（金）まで ≪保育課必着≫"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.niiza.lg.jp/uploaded/attachment/73942.pdf",
+      "quote": "窓口受付：令和９年１月４日（月）～１月２９日（金）の平日（土日祝日の受付なし）"
+    },
+    "secondApply#3": {
+      "url": "https://www.city.niiza.lg.jp/uploaded/attachment/73942.pdf",
+      "quote": "※１次選考から既に申込みしていて、入所保留となった方は、再度の申請は不要です。"
+    },
+    "secondResult": {
+      "url": "https://www.city.niiza.lg.jp/uploaded/attachment/73942.pdf",
+      "quote": "■ ２次選考結果発送：令和９年２月２２日（月）発送予定（郵送により通知）"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.niiza.lg.jp/uploaded/attachment/73942.pdf",
+      "quote": "希望月の前々月６日から前月５日まで【５日が閉庁日に当たる場合は、その次の開庁日まで】。"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.niiza.lg.jp/uploaded/attachment/73942.pdf",
+      "quote": "５月 令和９年３月８日（月）～４月５日（月）"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.niiza.lg.jp/uploaded/attachment/73942.pdf",
+      "quote": "１月～３月 選考なし"
+    },
+    "documents.0": {
+      "url": "https://www.city.niiza.lg.jp/uploaded/attachment/73942.pdf",
+      "quote": "（１） ≪【窓口又は郵送の方】≫教育・保育給付認定申請書兼保育施設利用申込書【市指定の様式】"
+    },
+    "documents.1": {
+      "url": "https://www.city.niiza.lg.jp/uploaded/attachment/73942.pdf",
+      "quote": "（２） ≪【全ての方】≫令和９年度新座市保育施設利用申込確認票【市指定の様式】"
+    },
+    "documents.2": {
+      "url": "https://www.city.niiza.lg.jp/uploaded/attachment/73942.pdf",
+      "quote": "（３） ≪【窓口又は郵送の方】≫マイナンバーを確認できる書類"
+    },
+    "documents.3": {
+      "url": "https://www.city.niiza.lg.jp/site/kosodate/hoikusisetugoannai9.html",
+      "quote": "就労（内定）証明書及び診断書については、証明日から3か月以内のものとします。3か月を過ぎているものは受付できません。"
+    },
+    "documents.4": {
+      "url": "https://www.city.niiza.lg.jp/uploaded/attachment/73942.pdf",
+      "quote": "（５） ≪令和８年１月１日時点で新座市に住民登録がない方≫課税（非課税）証明書"
+    },
+    "documents.5": {
+      "url": "https://www.city.niiza.lg.jp/uploaded/attachment/73942.pdf",
+      "quote": "（８） ≪郵送提出する方≫郵送用確認票"
+    },
+    "documents.5#2": {
+      "url": "https://www.city.niiza.lg.jp/uploaded/attachment/73942.pdf",
+      "quote": "（９） ≪電子申請で提出する方≫電子申請用確認票"
+    },
+    "interview": {
+      "url": "https://www.city.niiza.lg.jp/uploaded/attachment/73942.pdf",
+      "quote": "◆ 入所内定したら、内定した保育施設で面談を実施しますので、内定通知の中の案内をご確認ください。"
+    },
+    "interview#2": {
+      "url": "https://www.city.niiza.lg.jp/uploaded/attachment/73942.pdf",
+      "quote": "◆ 面談の結果、お子様の健康状態等によっては、入所できない場合があります。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.niiza.lg.jp/uploaded/attachment/73942.pdf",
+      "quote": "することで入所選考の際に入所の優先度を下げて選考を行うことが可能です（本申立書を提出しても、"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.niiza.lg.jp/uploaded/attachment/73942.pdf",
+      "quote": "ただし、申立書を提出しても、入所保留することを保証するものではありません。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.niiza.lg.jp/uploaded/attachment/73942.pdf",
+      "quote": "育児休業給付金の支給期間の延長に必要で通知書を希望の方は申込みの際に発行希望の対象月をお伝えください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.niiza.lg.jp/site/kosodate/hoikusisetugoannai9.html",
+      "quote": "入力情報は重要な情報となります。項目が多く時間がかかります（約30分から60分）ので、あらかじめご了承ください。"
+    },
+    "notes.0#2": {
+      "url": "https://www.city.niiza.lg.jp/site/kosodate/hoikusisetugoannai9.html",
+      "quote": "「マイナンバーカード」、「暗証番号」及び「マイナンバーカードの読み取りに対応したスマートフォン」又は「パソコンとICカードリーダライタ」が必要となります。"
+    },
+    "notes.1": {
+      "url": "https://www.city.niiza.lg.jp/site/kosodate/hoikusisetugoannai9.html",
+      "quote": "医療的ケアが必要なお子様や、他市町村の認可保育施設の利用を希望される方については、郵送又は窓口での申請となります。"
+    },
+    "notes.2": {
+      "url": "https://www.city.niiza.lg.jp/uploaded/attachment/73942.pdf",
+      "quote": "●希望園を変更する場合：令和８年１１月２６日（木）までに保育課へ連絡又は電子申請でお願いします。"
+    },
+    "notes.3": {
+      "url": "https://www.city.niiza.lg.jp/uploaded/attachment/73942.pdf",
+      "quote": "１度内定を辞退すると当該年度内の入所選考において保育指数が減点（－７）となります。"
+    },
+    "notes.4#2": {
+      "url": "https://www.city.niiza.lg.jp/site/kosodate/hoikusisetugoannai9.html",
+      "quote": "利用調整において保育指数が同一であった場合の判断基準として、前年度の保護者の市区町村民税所得割額が影響します。"
+    },
+    "notes.4": {
+      "url": "https://www.city.niiza.lg.jp/site/kosodate/hoikusisetugoannai9.html",
+      "quote": "課税証明書の提出が必要にもかかわらず、期日までに提出が無い場合は利用調整の際に不利になる場合がございますので、ご注意ください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "新座市「令和9年度 認可保育施設利用申込みのご案内」",
+      "url": "https://www.city.niiza.lg.jp/site/kosodate/hoikusisetugoannai9.html"
+    },
+    {
+      "label": "新座市「令和9年度保育施設利用申込みのご案内」（PDF）",
+      "url": "https://www.city.niiza.lg.jp/uploaded/attachment/73942.pdf"
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "citySlug": "osakasayama",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "大阪狭山市「令和9年度 保育所等入所申込について」",
+    "url": "https://www.city.osakasayama.osaka.jp/sosiki/kodomoseisakubu/kodomoikusei/2/1/7797.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年10月1日（木）から申込書を配布。配布場所は市内の各保育所・認定こども園、小規模保育事業所、市役所こども育成グループ、ぽっぽえん、UPっぷ、子育てひろば「くみのき」で、市ホームページにも案内・申請書を掲載",
+  "firstApply": "令和8年11月2日（月）〜11月12日（木）の午前9時〜午後4時30分（3日・8日の日曜・祝日を除く。11月7日（土）は土曜開庁日で午前9時〜正午）。郵送は11月12日（木）必着",
+  "applyMethods": "大阪狭山市役所1階こども育成グループの窓口か郵送で提出する。窓口受付はすべて事前予約制で、予約は令和8年10月12日（月）午前9時から市の予約フォームで受け付ける。保育所等入所申請はオンライン申請できない",
+  "firstResult": "令和9年1月中旬頃に利用調整結果（入所可否）を知らせる。利用可は利用承諾書・利用者負担額決定通知書等の書類、利用保留は利用調整結果通知書（利用保留）で通知",
+  "secondApply": "令和8年11月13日（金）〜11月30日（月）（令和9年4月1日入所の2次受付）。最終受付は令和9年2月26日（金）締切で、3月9日（火）に利用調整（空きがある場合のみ）",
+  "midYearDeadline": "入所は原則毎月1日からで、入所希望月ごとに申込締切日がある（例: 5月1日入所は令和9年4月15日締切）。締切を過ぎて提出すると翌月からの申込として受け付ける",
+  "documents": [
+    "教育・保育給付認定申請書兼特定教育・保育施設及び特定地域型保育事業利用（調整・あっせん）申込書（利用を希望する子ども1人につき1枚）",
+    "家族状況票（利用を希望する子どもが複数いる場合は世帯で1枚）",
+    "子どもの状況票（令和9年度から提出。入所選考には反映せず、健康状態の確認に使う）",
+    "保育を必要とすることを証明する書類（就労の場合は就労証明書。必ず勤務先の人事担当者に記入してもらう）",
+    "生活保護受給証明書（生活保護受給世帯のみ）",
+    "支給認定保護者となる人の個人番号（マイナンバー）確認書類と身元確認書類（窓口で確認するのでコピーの提出は不要）"
+  ],
+  "interview": "申込を受理した後、市担当者が電話で子どもの保育状況等を聞き取る。利用が決まった後は施設ごとに利用（入所）に関する説明や面談がある",
+  "ikukyu": "育休から復職して利用する場合、1〜15日に復職するなら復職月の1日から、16日以降に復職するなら復職月の16日から申込できる。育休を切り上げて利用する場合は切り上げる旨の証明か申立書が必要で、1日入所となり、入所が決まった月の15日までに復職する必要がある",
+  "notes": [
+    "市外の保育所・認定こども園を希望する場合は別の受付で、令和8年9月1日〜10月2日に申し込む（郵送は10月2日必着）",
+    "利用調整は選考基準点数の高い子どもから決め、早く申し込んだ人が有利になることはない（ただし各月の締切日に注意）",
+    "同点者が多く全員が第1希望を利用できないときは、くじによる抽選の順位で入所を決める",
+    "保育所等の見学ができ、希望する施設に直接連絡して日程を調整する",
+    "令和9年3月31日までに転入予定の場合も申し込めるが、転入を証明できる書類等の写しが必要",
+    "利用保留となった場合も令和9年3月入所までは毎月利用調整を行い、利用可となれば電話で連絡する"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.osakasayama.osaka.jp/sosiki/kodomoseisakubu/kodomoikusei/2/1/7797.html",
+      "quote": "令和9年4月から市内の保育所・認定こども園に入所を希望される2・3号認定のこどもの申し込みを下記により受け付けます。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.osakasayama.osaka.jp/sosiki/kodomoseisakubu/kodomoikusei/2/1/7797.html",
+      "quote": "配布期間  令和8年10月1日（木曜日）から"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.osakasayama.osaka.jp/sosiki/kodomoseisakubu/kodomoikusei/2/1/7797.html",
+      "quote": "配布場所  市内の各保育所・認定こども園、小規模保育事業所、 市役所こども育成グループ、ぽっぽえん、UPっぷ、子育てひろば“くみのき"
+    },
+    "firstApply": {
+      "url": "https://www.city.osakasayama.osaka.jp/sosiki/kodomoseisakubu/kodomoikusei/2/1/7797.html",
+      "quote": "受付期間  令和8年11月2日（月曜日）から12日（木曜日）午前9時から午後4時30分まで。 3･8日（日･祝日）を除く。"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.osakasayama.osaka.jp/sosiki/kodomoseisakubu/kodomoikusei/2/1/7797.html",
+      "quote": "（注意1）令和8年11月7日（土曜日）は土曜開庁日のため、午前9時から正午まで受付"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.osakasayama.osaka.jp/sosiki/kodomoseisakubu/kodomoikusei/2/1/7797.html",
+      "quote": "（注意2）郵送の場合は11月12日（木曜日）必着。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.osakasayama.osaka.jp/sosiki/kodomoseisakubu/kodomoikusei/2/1/7797.html",
+      "quote": "受付場所  大阪狭山市役所 1階こども育成グループ または郵送"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.osakasayama.osaka.jp/sosiki/kodomoseisakubu/kodomoikusei/2/1/7797.html",
+      "quote": "窓口での受付については、すべて事前予約制です。 予約開始日は令和8年10月12日（月曜日）午前9時からです。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.osakasayama.osaka.jp/material/files/group/54/R9riyouannnaipdf.pdf",
+      "quote": "※保育所等入所申請についてはオンライン申請が できませんのでご注意ください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.osakasayama.osaka.jp/sosiki/kodomoseisakubu/kodomoikusei/2/1/7797.html",
+      "quote": "利用調整結果（入所可否の決定） 令和9年1月中旬頃"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.osakasayama.osaka.jp/material/files/group/54/R9riyouannnaipdf.pdf",
+      "quote": "・「利用可」となった場合 ･･･利用承諾書、利用者負担額決定通知書等の書類により、利用に 関してお知らせします。"
+    },
+    "firstResult#3": {
+      "url": "https://www.city.osakasayama.osaka.jp/material/files/group/54/R9riyouannnaipdf.pdf",
+      "quote": "･･･利用調整結果通知書（利用保留）によりお知らせします。"
+    },
+    "secondApply": {
+      "url": "https://www.city.osakasayama.osaka.jp/material/files/group/54/R9riyouannnaipdf.pdf",
+      "quote": "令和８年１１月１３日（金） 令和９年４月１日【２次】 ～１１月３０日（月）"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.osakasayama.osaka.jp/material/files/group/54/R9riyouannnaipdf.pdf",
+      "quote": "令和９年４月１日【最終】 令和９年 ２月２６日（金） ３月 ９日（火） （空きがある場合のみ）"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.osakasayama.osaka.jp/material/files/group/54/R9riyouannnaipdf.pdf",
+      "quote": "・利用（入所）は、原則として毎月１日からです。"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.osakasayama.osaka.jp/material/files/group/54/R9riyouannnaipdf.pdf",
+      "quote": "５月１日 令和９年 ４月１５日（木） ４月２２日（木）"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.osakasayama.osaka.jp/material/files/group/54/R9riyouannnaipdf.pdf",
+      "quote": "からの申込は不可となり、翌月からの利用申込として受付します。"
+    },
+    "documents.0": {
+      "url": "https://www.city.osakasayama.osaka.jp/material/files/group/54/R9riyouannnaipdf.pdf",
+      "quote": "（１） 教育・保育給付認定申請書兼特定教育・保育施設及び特定地域型保育事業利用 （調整・あっせん）申込書 ＊保育所等の施設の利用を希望する子ども１人につき、１枚必要です。"
+    },
+    "documents.1": {
+      "url": "https://www.city.osakasayama.osaka.jp/material/files/group/54/R9riyouannnaipdf.pdf",
+      "quote": "（２） 家族状況票 ＊保育所等の施設の利用を希望する子どもが複数いる場合には、世帯で１枚 提出してください。"
+    },
+    "documents.2": {
+      "url": "https://www.city.osakasayama.osaka.jp/sosiki/kodomoseisakubu/kodomoikusei/2/1/7797.html",
+      "quote": "この取り組みは、入所選考に反映するものではなく、安全に保育を実施するため、身体・発育状態を含めた健康状態を確認させていただくものです。"
+    },
+    "documents.3": {
+      "url": "https://www.city.osakasayama.osaka.jp/material/files/group/54/R9riyouannnaipdf.pdf",
+      "quote": "・就労証明書 ※必ず勤務先の人事担当者に記入し"
+    },
+    "documents.4": {
+      "url": "https://www.city.osakasayama.osaka.jp/material/files/group/54/R9riyouannnaipdf.pdf",
+      "quote": "（４） 生活保護受給証明書（生活保護受給世帯のみ）"
+    },
+    "documents.5": {
+      "url": "https://www.city.osakasayama.osaka.jp/material/files/group/54/R9riyouannnaipdf.pdf",
+      "quote": "支給認定保護者となる人について、申請書に記載の個人番号（マイナンバー）の確認と 身元確認が必要となりますので、次の書類を持参してください。"
+    },
+    "documents.5#2": {
+      "url": "https://www.city.osakasayama.osaka.jp/material/files/group/54/R9riyouannnaipdf.pdf",
+      "quote": "※窓口で書類を確認しますので、コピー等の提出は必要ありません。"
+    },
+    "interview": {
+      "url": "https://www.city.osakasayama.osaka.jp/sosiki/kodomoseisakubu/kodomoikusei/2/1/7797.html",
+      "quote": "（注意4）申込を受理後、市担当者から電話でお子さまの保育状況等について聞き取りを行 いますので、ご協力をお願いします。"
+    },
+    "interview#2": {
+      "url": "https://www.city.osakasayama.osaka.jp/material/files/group/54/R9riyouannnaipdf.pdf",
+      "quote": "・利用決定した施設ごとに利用（入所）に関する説明や面談を行います。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.osakasayama.osaka.jp/material/files/group/54/R9riyouannnaipdf.pdf",
+      "quote": "＊１～１５日に復職する場合・・・復職月の１日からの利用申込が可能 ＊１６日以降に復職する場合・・・復職月の１６日からの利用申込が可能"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.osakasayama.osaka.jp/material/files/group/54/R9riyouannnaipdf.pdf",
+      "quote": "〇 育児休業中で、休業期間を切り上げて利用を希望する場合は、育児休業を切り上げる旨の証明 または申立書が必要です。ただし、その場合は１日入所となり、入所が決定した場合はその月の １５日までに復職する必要があります。"
+    },
+    "notes.0": {
+      "url": "https://www.city.osakasayama.osaka.jp/sosiki/kodomoseisakubu/kodomoikusei/2/1/7686.html",
+      "quote": "受付期間  令和8年9月1日（火曜日）から令和8年10月2日（金曜日）まで。"
+    },
+    "notes.0#2": {
+      "url": "https://www.city.osakasayama.osaka.jp/sosiki/kodomoseisakubu/kodomoikusei/2/1/7686.html",
+      "quote": "（注意3）郵送の場合は10月2日（金曜日）必着。"
+    },
+    "notes.0#3": {
+      "url": "https://www.city.osakasayama.osaka.jp/sosiki/kodomoseisakubu/kodomoikusei/2/1/7686.html",
+      "quote": "令和9年4月から大阪狭山市外の保育所・認定こども園に入所を希望される2・3号認定のこどもの申し込みを下記により受け付けます。"
+    },
+    "notes.1": {
+      "url": "https://www.city.osakasayama.osaka.jp/material/files/group/54/R9riyouannnaipdf.pdf",
+      "quote": "（２） 選考基準点数の高い（保育の必要性が高い）子どもから順番に保育所等の利用を決定 します（早く申込した人が有利ということはありません。ただし、各月の締切日に注意 してください）。"
+    },
+    "notes.2": {
+      "url": "https://www.city.osakasayama.osaka.jp/material/files/group/54/R9riyouannnaipdf.pdf",
+      "quote": "（３） 同点者が多く、その全員が第１希望の保育所等の利用ができないときは、同点者の中で くじによる抽選を行い、抽選順位により入所を決定します。"
+    },
+    "notes.3": {
+      "url": "https://www.city.osakasayama.osaka.jp/material/files/group/54/R9riyouannnaipdf.pdf",
+      "quote": "・保育所等の見学もできます（希望する施設に直接連絡し、日程を 調整してください）。"
+    },
+    "notes.4": {
+      "url": "https://www.city.osakasayama.osaka.jp/sosiki/kodomoseisakubu/kodomoikusei/2/1/7797.html",
+      "quote": "注意：令和9年3月31日までに転入を予定している場合も申込みできます。ただし、転入を 証明できる書類等の写しが必要です。"
+    },
+    "notes.5": {
+      "url": "https://www.city.osakasayama.osaka.jp/material/files/group/54/R9riyouannnaipdf.pdf",
+      "quote": "（※翌月以降、令和９年３月入所までは毎月利用調整を行い、 利用可となったときは電話連絡します。"
+    }
+  },
+  "sources": [
+    {
+      "label": "大阪狭山市「令和9年度 保育所等入所申込について」",
+      "url": "https://www.city.osakasayama.osaka.jp/sosiki/kodomoseisakubu/kodomoikusei/2/1/7797.html"
+    },
+    {
+      "label": "大阪狭山市「令和9年度 保育所・認定こども園等利用のご案内」（PDF）",
+      "url": "https://www.city.osakasayama.osaka.jp/material/files/group/54/R9riyouannnaipdf.pdf"
+    },
+    {
+      "label": "大阪狭山市「（市外園のみ）令和9年度 保育所等入所申込について」",
+      "url": "https://www.city.osakasayama.osaka.jp/sosiki/kodomoseisakubu/kodomoikusei/2/1/7686.html"
+    }
+  ]
+}

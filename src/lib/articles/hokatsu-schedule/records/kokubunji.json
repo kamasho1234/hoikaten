@@ -1,0 +1,216 @@
+{
+  "citySlug": "kokubunji",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "国分寺市「令和9年4月 保育所等入所・転所申込受付」",
+    "url": "https://www.city.kokubunji.tokyo.jp/kodomo-kyouiku/kosodate-shien/hoiku/1014555.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年9月15日（火曜日）から配布（閉庁日・休園日を除く）。配布場所は保育幼稚園課（市役所2階）、cocobunjiプラザ総合案内、国立駅前市民サービスコーナー、こども家庭センター、社会教育課、市内認可保育所等で、市ホームページからも閲覧・ダウンロードできる",
+  "firstApply": "オンライン申請は令和8年10月1日（木曜日）〜10月31日（土曜日）午後11時59分まで。郵送は令和8年10月1日（木曜日）〜10月30日（金曜日）必着",
+  "applyMethods": "原則LoGoフォームによるオンライン申請（電子申請をした場合は同じ内容の紙書類は不要）。郵送は市役所保育幼稚園課入園相談係あて。市役所2階の保育幼稚園課の受付カウンターに申請用タブレットを置く予定",
+  "firstResult": "令和9年1月27日（水曜日）に内定・保留とも全員に文書で発送予定。届くのは翌々日以降で、電話での結果回答はしない",
+  "secondApply": "オンライン申請は令和9年2月2日（火曜日）〜2月13日（土曜日）23時59分まで。郵送は2月12日（金曜日）必着、窓口は2月2日（火曜日）〜2月12日（金曜日）午後5時まで",
+  "secondResult": "内定は令和9年3月上旬頃、保留は令和9年3月中旬頃に発送予定。一次選考から申込みが続いていて二次選考でも保留の人には通知は送られない",
+  "midYearDeadline": "5月〜翌年2月入所は原則オンライン申請で、入所希望月の2か月前から前月10日の23時59分まで（窓口申請は前月10日の午後5時まで）。3月入所の取扱いはない",
+  "documents": [
+    "施設型給付費・地域型保育給付費等教育・保育給付認定申請書兼保育所等入所申込書、保育所等入所申込調査書、お申込みチェックシート（紙で申請する場合、各世帯1枚。オンライン申請では様式の添付は不要）",
+    "保育の必要性を証明する書類（就労証明書・診断書など）。父母と、児童と同居する20歳以上65歳未満の人の全員分",
+    "就労証明書・診断書・在学証明書は、4月入所の場合は令和8年9月15日以降に証明されたものが有効",
+    "復職証明書（外勤で育児休業中の人は入所月の翌月1日までに復職し、復職後2週間以内に提出）",
+    "出生前に申し込む場合は母子健康手帳の写し（交付日記載の表紙と出産予定日のわかるページ）"
+  ],
+  "interview": "内定した保育所等で面接・健康診断を行い、入所基準日（毎月1日）の前日までに受けないと内定取消しになる。希望園の見学が勧められている",
+  "ikukyu": "申込書（LoGoフォームまたは保育所等入所申込調査書）で「希望する保育所に入所できない場合は、育児休業の延長も許容できる」にチェックすると、就労証明書は不要で、求職活動中の要件書類未提出者として選考され、調整指数は16番（-15点）だけが対象になる。入所保留を確約するものではなく、希望園に空きがあれば内定が出ることもある",
+  "notes": [
+    "今年度から不足書類等の受付期間は設けないので、期日までに申込みを完了させる",
+    "令和9年4月入所に限り、令和9年4月1日までに出産予定の子も申し込めるが、令和9年2月4日以降に生まれた場合は5月入所以降の選考対象になる",
+    "令和8年度に弾力的受入れをしている施設があり、持ち上がる在籍児の数で新規受入人数が変わるので、最新の入所状況を確認する",
+    "希望園は申込時点で空きがない園でも書けるので、入所したい順番で記入する（希望数の制限なし）",
+    "有効期限切れの資料を添付しても選考には反映されない"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.kokubunji.tokyo.jp/kodomo-kyouiku/kosodate-shien/hoiku/1014555.html",
+      "quote": "令和9年4月に保育所等へ入所・転所を希望する方は、受付期間内に申請してください。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.kokubunji.tokyo.jp/kodomo-kyouiku/kosodate-shien/hoiku/1014555.html",
+      "quote": "令和8年9月15日（火曜日）より、下記施設にて配布します。（閉庁日・休園日を除く）"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.kokubunji.tokyo.jp/kodomo-kyouiku/kosodate-shien/hoiku/1028829.html",
+      "quote": "保育幼稚園課窓口（市役所2階）のほか、cocobunjiプラザ総合案内（cocobunji WEST5階）、国立駅前市民サービスコーナー（国立駅前くにたち・こくぶんじ市民プラザ内）、こども家庭センター（いずみプラザ1階）、社会教育課（ひかりプラザ1階）、市内認可保育所等で配布しています。"
+    },
+    "guideRelease#3": {
+      "url": "https://www.city.kokubunji.tokyo.jp/kodomo-kyouiku/kosodate-shien/hoiku/1014555.html",
+      "quote": "また、市ホームページからも閲覧・ダウンロードできます。"
+    },
+    "firstApply": {
+      "url": "https://www.city.kokubunji.tokyo.jp/kodomo-kyouiku/kosodate-shien/hoiku/1014555.html",
+      "quote": "令和8年10月1日（木曜日）～令和8年10月31日（土曜日）午後11時59分まで"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.kokubunji.tokyo.jp/kodomo-kyouiku/kosodate-shien/hoiku/1014555.html",
+      "quote": "令和8年10月1日（木曜日）～令和8年10月30日（金曜日）必着"
+    },
+    "applyMethods": {
+      "url": "https://www.city.kokubunji.tokyo.jp/_res/projects/default_project/_page_/001/028/829/r9riyouannai.pdf",
+      "quote": "申込みは、原則「LoGo フォーム」によるオンライン申請でお願いします。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.kokubunji.tokyo.jp/kodomo-kyouiku/kosodate-shien/hoiku/1014555.html",
+      "quote": "（注釈）電子申請をした場合、同一内容の紙書類を重複提出する必要はありません。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.kokubunji.tokyo.jp/kodomo-kyouiku/kosodate-shien/hoiku/1014555.html",
+      "quote": "国分寺市役所　保育幼稚園課　入園相談係　宛"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.kokubunji.tokyo.jp/kodomo-kyouiku/kosodate-shien/hoiku/1014555.html",
+      "quote": "市役所2階 保育幼稚園課の受付カウンターに、申請用タブレットを設置予定です。"
+    },
+    "firstResult": {
+      "url": "https://www.city.kokubunji.tokyo.jp/kodomo-kyouiku/kosodate-shien/hoiku/1014555.html",
+      "quote": "結果は、令和9年1月27日（水曜日）に文書で発送を予定しています。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.kokubunji.tokyo.jp/kodomo-kyouiku/kosodate-shien/hoiku/1014555.html",
+      "quote": "この日に市役所から通知を発送するため、お手元に届くのは翌々日以降になります。内定・保留に関わらず、全ての方に通知を発送します。"
+    },
+    "firstResult#3": {
+      "url": "https://www.city.kokubunji.tokyo.jp/kodomo-kyouiku/kosodate-shien/hoiku/1014555.html",
+      "quote": "お問い合わせいただいても、電話での結果回答はできません。"
+    },
+    "secondApply": {
+      "url": "https://www.city.kokubunji.tokyo.jp/kodomo-kyouiku/kosodate-shien/hoiku/1014555.html",
+      "quote": "令和9年2月2日（火曜日）～ 令和9年2月13日（土曜日）23時59分まで"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.kokubunji.tokyo.jp/kodomo-kyouiku/kosodate-shien/hoiku/1014555.html",
+      "quote": "令和9年2月2日（火曜日）～ 令和9年2月12日（金曜日）必着"
+    },
+    "secondApply#3": {
+      "url": "https://www.city.kokubunji.tokyo.jp/_res/projects/default_project/_page_/001/028/829/r9riyouannai.pdf",
+      "quote": "※窓口申込みは令和9年2月2日（火）～2月12日（金） 午後５時まで。"
+    },
+    "secondResult": {
+      "url": "https://www.city.kokubunji.tokyo.jp/kodomo-kyouiku/kosodate-shien/hoiku/1014555.html",
+      "quote": "内定：令和9年3月上旬頃発送予定"
+    },
+    "secondResult#2": {
+      "url": "https://www.city.kokubunji.tokyo.jp/kodomo-kyouiku/kosodate-shien/hoiku/1014555.html",
+      "quote": "保留：令和9年3月中旬頃発送予定"
+    },
+    "secondResult#3": {
+      "url": "https://www.city.kokubunji.tokyo.jp/kodomo-kyouiku/kosodate-shien/hoiku/1014555.html",
+      "quote": "一次選考で既に申込みをしており二次選考で内定となった場合は通知が発送され、保留となった場合、通知は発送されません。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.kokubunji.tokyo.jp/_res/projects/default_project/_page_/001/028/829/r9riyouannai.pdf",
+      "quote": "受付期間：入所希望月の 2 か月前から 入所希望月の前月 10 日の 23：59 まで"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.kokubunji.tokyo.jp/_res/projects/default_project/_page_/001/028/829/r9riyouannai.pdf",
+      "quote": "※オンラインではなく窓口での申請の場合、申請期間は「入所希望月の前月10日 （閉庁日の場合は前開庁日）の午後５時まで」となりますのでご注意ください。"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.kokubunji.tokyo.jp/_res/projects/default_project/_page_/001/028/829/r9riyouannai.pdf",
+      "quote": "原則オンライン申請となり、郵送・メールでの申込みは受付できません。"
+    },
+    "midYearDeadline#4": {
+      "url": "https://www.city.kokubunji.tokyo.jp/_res/projects/default_project/_page_/001/028/829/r9riyouannai.pdf",
+      "quote": "３月入所の取扱いはありません。"
+    },
+    "documents.0": {
+      "url": "https://www.city.kokubunji.tokyo.jp/_res/projects/default_project/_page_/001/028/829/r9riyouannai.pdf",
+      "quote": "すべての方 保育所等入所申込調査書 - 要 世帯につき１枚 お申込みチェックシート - 要 世帯につき１枚"
+    },
+    "documents.0#2": {
+      "url": "https://www.city.kokubunji.tokyo.jp/kurashi/online/download/kodomo/index.html",
+      "quote": "令和9年度に保育所等に入所を希望される場合に提出してください。オンライン申請の場合本様式の添付は不要ですが、就労証明書等の添付書類は作成の上、オンライン申請フォームでアップロードしてください。"
+    },
+    "documents.1": {
+      "url": "https://www.city.kokubunji.tokyo.jp/_res/projects/default_project/_page_/001/028/829/r9riyouannai.pdf",
+      "quote": "※父母（事実婚関係である者を含む）及び児童と同居する 20歳以上 65 歳未満の方、全員分が必要です。"
+    },
+    "documents.2": {
+      "url": "https://www.city.kokubunji.tokyo.jp/_res/projects/default_project/_page_/001/028/829/r9riyouannai.pdf",
+      "quote": "※就労証明書及び診断書、在学証明書は、入所希望月初日から３か月以内（４月入所希望の場合のみ前年の９月 15日以降）に証明されたものが有効です。"
+    },
+    "documents.2#2": {
+      "url": "https://www.city.kokubunji.tokyo.jp/kodomo-kyouiku/kosodate-shien/hoiku/1032563.html",
+      "quote": "令和9年4月選考において、就労証明書は令和8年度9月15日以降に発行されたものが有効となります。"
+    },
+    "documents.3": {
+      "url": "https://www.city.kokubunji.tokyo.jp/kurashi/online/download/kodomo/index.html",
+      "quote": "外勤の方で、入所する前に育児休業を取得している場合は、入所月の翌月1日までに復職する必要があります。復職後2週間以内に提出してください。"
+    },
+    "documents.4": {
+      "url": "https://www.city.kokubunji.tokyo.jp/_res/projects/default_project/_page_/001/028/829/r9riyouannai.pdf",
+      "quote": "申請時に「母子健康手帳の写し（①交付日記載の表紙②出産予定日のわかるページ）」を必ず提出"
+    },
+    "interview": {
+      "url": "https://www.city.kokubunji.tokyo.jp/_res/projects/default_project/_page_/001/028/829/r9riyouannai.pdf",
+      "quote": "入所が内定した保育所等で面接・健康診断を行います。健康診断の結果次第では入所できない場合があります。また、入所基準日（毎月１日）の前日までに面接・健康診断を受けない場合、内定取消しとなります。"
+    },
+    "interview#2": {
+      "url": "https://www.city.kokubunji.tokyo.jp/_res/projects/default_project/_page_/001/028/829/r9riyouannai.pdf",
+      "quote": "希望園については見学をおすすめします。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.kokubunji.tokyo.jp/_res/projects/default_project/_page_/001/028/829/r9riyouannai.pdf",
+      "quote": "求職活動中の要件書類未提出者として選考され、『調整指数表』16番（－15点）のみ対象となり、その他の調整指数は対象外となります。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.kokubunji.tokyo.jp/_res/projects/default_project/_page_/001/028/829/r9riyouannai.pdf",
+      "quote": "入所保留を確約するものではないため、希望園に空きがある場合には、内定が出る可能性があります。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.kokubunji.tokyo.jp/_res/projects/default_project/_page_/001/028/829/r9riyouannai.pdf",
+      "quote": "「希望する保育所に入所できない場合は、育児休業の延長も許容できる」にチェックした方は、保育の必要性の書類（就労証明書）は不要です。"
+    },
+    "notes.0": {
+      "url": "https://www.city.kokubunji.tokyo.jp/kodomo-kyouiku/kosodate-shien/hoiku/1014555.html",
+      "quote": "今年度より、不足書類等の受付期間は設けておりません。期日までにお申込みを完了させていただきますよう、お願いいたします。"
+    },
+    "notes.1": {
+      "url": "https://www.city.kokubunji.tokyo.jp/kodomo-kyouiku/kosodate-shien/hoiku/1014555.html",
+      "quote": "令和9年4月入所の申込みに限り、令和9年4月1日までに出産予定のお子さんも受付けます。ただし、保育所は出生後57日からの受け入れとなります（0歳児保育開始月齢は園によっても変わります）ので、令和9年2月4日以降生まれのお子さんは、5月入所以降の選考対象に移行します。"
+    },
+    "notes.2": {
+      "url": "https://www.city.kokubunji.tokyo.jp/kodomo-kyouiku/kosodate-shien/hoiku/1014555.html",
+      "quote": "持ち上がる在籍児童の人数によって新規受入人数が変わることもありますので、必ず最新の入所状況をご確認ください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.kokubunji.tokyo.jp/_res/projects/default_project/_page_/001/028/829/r9riyouannai.pdf",
+      "quote": "希望園は、申込時点で空きがない園でも希望できますので、入所したい順番で記入してください。（希望数の制限はありません。"
+    },
+    "notes.4": {
+      "url": "https://www.city.kokubunji.tokyo.jp/kodomo-kyouiku/kosodate-shien/hoiku/1014555.html",
+      "quote": "なお、有効期限切れの資料を添付されても選考に反映はいたしません。"
+    }
+  },
+  "sources": [
+    {
+      "label": "国分寺市「令和9年4月 保育所等入所・転所申込受付」",
+      "url": "https://www.city.kokubunji.tokyo.jp/kodomo-kyouiku/kosodate-shien/hoiku/1014555.html"
+    },
+    {
+      "label": "国分寺市「令和9年度保育所等入所案内（PDF版）」",
+      "url": "https://www.city.kokubunji.tokyo.jp/kodomo-kyouiku/kosodate-shien/hoiku/1028829.html"
+    },
+    {
+      "label": "国分寺市「令和9年度保育所等入所案内≪利用案内編≫」",
+      "url": "https://www.city.kokubunji.tokyo.jp/_res/projects/default_project/_page_/001/028/829/r9riyouannai.pdf"
+    },
+    {
+      "label": "国分寺市「【令和9年度入所】「保育所等入所案内」の配布開始時期 及び 4月入所(一次選考）申込方法・期間について」",
+      "url": "https://www.city.kokubunji.tokyo.jp/kodomo-kyouiku/kosodate-shien/hoiku/1032563.html"
+    },
+    {
+      "label": "国分寺市「申請書ダウンロード 子ども（保育所等）」",
+      "url": "https://www.city.kokubunji.tokyo.jp/kurashi/online/download/kodomo/index.html"
+    }
+  ]
+}

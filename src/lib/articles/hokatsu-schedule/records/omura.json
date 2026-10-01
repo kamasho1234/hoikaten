@@ -1,0 +1,129 @@
+{
+  "citySlug": "omura",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "大村市「【令和9年度】保育所等への4月入所」",
+    "url": "https://www.city.omura.nagasaki.jp/kodomoriyo/kenko/kosodate/hoikujo/nyusyo/isseinyusyo.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "一次選考は令和8年11月2日（月曜日）〜11月30日（金曜日）17時15分必着",
+  "applyMethods": "期間内に大村市こどもセンターへ書類を提出する。郵送でも申請でき、その場合は保護者のマイナンバーカード両面のコピーを同封する。先着順ではない",
+  "firstResult": "入所が決定した場合は2月下旬ごろに認定証（支給認定証）・入所決定通知書・利用者負担額決定通知書を送付。入所保留（落選）の場合は入所保留通知を送付",
+  "secondApply": "二次選考は令和9年1月4日（月曜日）〜1月15日（金曜日）17時15分必着。希望先を変更する場合は申請書を再提出",
+  "documents": [
+    "支給認定申請書（兼保育所等利用申込書）",
+    "マイナンバー記入用紙（提出時に保護者のマイナンバーの提示が必要。郵送ならカード両面のコピー）",
+    "保育の理由別関係書類（父・母・同居の祖父母（65歳未満）がそれぞれ該当する書類）",
+    "利用者負担額（保育料）関係書類（令和8年1月1日時点で市外在住の人は令和8年度市民税決定通知書または市民税課税（非課税）証明書）",
+    "保育所等の入所に係る誓約書"
+  ],
+  "interview": "入所決定後、入所前に保育施設との面談がある（保育内容の確認・重要事項の説明・子どもの健康面の確認）。面談は3月上旬ごろから始まり、入所施設から連絡がある",
+  "ikukyu": "育児休業取得中に新規入所・転園はできない",
+  "notes": [
+    "書類選考で入所者を決める。先着順ではないので、不備や不足がないように提出する",
+    "4月1日入所で3月から慣らし保育を始めることは原則できない。3月から慣らし保育をしたい場合は「令和9年3月入所」で申請する",
+    "申請時点で市外在住でも、大村市に3月転入予定なら4月入所の申請ができる",
+    "令和9年4月から教育・保育施設が新設される予定で、新設施設は一次選考から受付を始める",
+    "医療的ケアが必要な子どもの受け入れは各施設の判断なので、事前に各施設へ問い合わせる"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.omura.nagasaki.jp/kodomoriyo/kenko/kosodate/hoikujo/nyusyo/isseinyusyo.html",
+      "quote": "令和9年4月1日時点で0歳～5歳の乳幼児で、保護者が次のいずれかの事由により、保育を必要とする人が対象です。"
+    },
+    "firstApply": {
+      "url": "https://www.city.omura.nagasaki.jp/kodomoriyo/kenko/kosodate/hoikujo/nyusyo/isseinyusyo.html",
+      "quote": "一次選考：令和8年11月2日（月曜日）～30日（金曜日）17時15分必着"
+    },
+    "applyMethods": {
+      "url": "https://www.city.omura.nagasaki.jp/kodomoriyo/kenko/kosodate/hoikujo/nyusyo/isseinyusyo.html",
+      "quote": "期間内にこどもセンターに書類を提出してください。先着順ではありませんので、書類に不備や不足がないようにご提出ください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.omura.nagasaki.jp/kodomoriyo/kenko/kosodate/hoikujo/nyusyo/isseinyusyo.html",
+      "quote": "提出時に保護者のマイナンバーの提示が必要です。郵送で申請する場合は、カード両面のコピーを提出してください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.omura.nagasaki.jp/kodomoriyo/kenko/kosodate/hoikujo/nyusyo/isseinyusyo.html",
+      "quote": "選考の結果、入所が決定した場合は2月下旬ごろに次の書類を送付します。入所の際に必要となりますので、大切に保管ください。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.omura.nagasaki.jp/kodomoriyo/kenko/kosodate/hoikujo/nyusyo/isseinyusyo.html",
+      "quote": "選考の結果、入所保留（落選）となった場合は入所保留通知を送付します。"
+    },
+    "secondApply": {
+      "url": "https://www.city.omura.nagasaki.jp/kodomoriyo/kenko/kosodate/hoikujo/nyusyo/isseinyusyo.html",
+      "quote": "二次選考：令和9年1月4日（月曜日）～15日（金曜日）17時15分必着"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.omura.nagasaki.jp/kodomoriyo/kenko/kosodate/hoikujo/nyusyo/isseinyusyo.html",
+      "quote": "二次選考に向けて希望先の変更がある場合は、再度申請書を提出してください。"
+    },
+    "documents.0": {
+      "url": "https://www.city.omura.nagasaki.jp/kodomoriyo/kenko/kosodate/hoikujo/nyusyo/isseinyusyo.html",
+      "quote": "1.支給認定申請書（兼保育所等利用申込書）"
+    },
+    "documents.1": {
+      "url": "https://www.city.omura.nagasaki.jp/kodomoriyo/kenko/kosodate/hoikujo/nyusyo/isseinyusyo.html",
+      "quote": "提出時に保護者のマイナンバーの提示が必要です。郵送で申請する場合は、カード両面のコピーを提出してください。"
+    },
+    "documents.2": {
+      "url": "https://www.city.omura.nagasaki.jp/kodomoriyo/kenko/kosodate/hoikujo/nyusyo/isseinyusyo.html",
+      "quote": "父・母・同居の祖父母（65歳未満）がそれぞれ該当する書類を提出してください。"
+    },
+    "documents.3": {
+      "url": "https://www.city.omura.nagasaki.jp/kodomoriyo/kenko/kosodate/hoikujo/nyusyo/isseinyusyo.html",
+      "quote": "【令和8年1月1日時点で市外在住の人】令和8年度市民税決定通知書または市民税課税（非課税）証明書"
+    },
+    "documents.4": {
+      "url": "https://www.city.omura.nagasaki.jp/kodomoriyo/kenko/kosodate/hoikujo/nyusyo/isseinyusyo.html",
+      "quote": "5.保育所等の入所に係る誓約書"
+    },
+    "interview": {
+      "url": "https://www.city.omura.nagasaki.jp/kodomoriyo/kenko/kosodate/hoikujo/nyusyo/isseinyusyo.html",
+      "quote": "入所前に、保育施設との面談があります。保育内容の確認や重要事項の説明、お子さんの健康面などを確認します。面談は3月上旬ごろから始まりますので、入所施設からの連絡をお待ちください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.omura.nagasaki.jp/kodomoriyo/kenko/kosodate/hoikujo/nyusyo/isseinyusyo.html",
+      "quote": "育児休業取得中に新規入所、転園はできません。"
+    },
+    "notes.0": {
+      "url": "https://www.city.omura.nagasaki.jp/kodomoriyo/kenko/kosodate/hoikujo/nyusyo/isseinyusyo.html",
+      "quote": "書類選考により入所者を決定します。ただし、保育の利用が認められる場合でも保育所などの空きがない場合は入所できないことがあります。"
+    },
+    "notes.0#2": {
+      "url": "https://www.city.omura.nagasaki.jp/kodomoriyo/kenko/kosodate/hoikujo/nyusyo/isseinyusyo.html",
+      "quote": "期間内にこどもセンターに書類を提出してください。先着順ではありませんので、書類に不備や不足がないようにご提出ください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.omura.nagasaki.jp/kodomoriyo/kenko/kosodate/hoikujo/nyusyo/isseinyusyo.html",
+      "quote": "原則不可です。3月からの慣らし保育を希望する場合は、「令和9年3月入所」で申請をする必要があります。"
+    },
+    "notes.2": {
+      "url": "https://www.city.omura.nagasaki.jp/kodomoriyo/kenko/kosodate/hoikujo/nyusyo/isseinyusyo.html",
+      "quote": "申請時点で市外在住で、大村市に3月転入予定ですが、4月入所の申請はできますか"
+    },
+    "notes.3": {
+      "url": "https://www.city.omura.nagasaki.jp/kodomoriyo/kenko/kosodate/hoikujo/nyusyo/documents/shinkishisetsunitsuite.pdf",
+      "quote": "令和９年４月から下記の施設が新設される予定です。"
+    },
+    "notes.3#2": {
+      "url": "https://www.city.omura.nagasaki.jp/kodomoriyo/kenko/kosodate/hoikujo/nyusyo/documents/shinkishisetsunitsuite.pdf",
+      "quote": "○一次選考から受付開始"
+    },
+    "notes.4": {
+      "url": "https://www.city.omura.nagasaki.jp/kodomoriyo/kenko/kosodate/hoikujo/nyusyo/isseinyusyo.html",
+      "quote": "医療的ケアが必要な児童の受け入れは、各施設の判断となります。事前に各施設にお問い合わせください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "大村市「【令和9年度】保育所等への4月入所」",
+      "url": "https://www.city.omura.nagasaki.jp/kodomoriyo/kenko/kosodate/hoikujo/nyusyo/isseinyusyo.html"
+    },
+    {
+      "label": "大村市「新規施設について」（PDF）",
+      "url": "https://www.city.omura.nagasaki.jp/kodomoriyo/kenko/kosodate/hoikujo/nyusyo/documents/shinkishisetsunitsuite.pdf"
+    }
+  ]
+}

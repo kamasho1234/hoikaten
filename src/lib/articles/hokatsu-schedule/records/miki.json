@@ -1,0 +1,190 @@
+{
+  "citySlug": "miki",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "三木市「令和9年度　認定こども園・保育所等の入園申込について」",
+    "url": "https://www.city.miki.lg.jp/soshiki/64/94977.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年10月1日（木曜日）〜10月30日（金曜日）必着。受付は平日の午前9時〜午後4時30分",
+  "applyMethods": "三木市役所5階の教育・保育課に郵送か窓口で提出するか、吉川支所市民生活課の窓口に提出する。マイナンバーカードを持っていて、三木市に住民票があり市内の園を希望する人はマイナポータルからオンライン申請もできる",
+  "firstResult": "1月下旬ごろに郵便で発送（令和9年4月入園希望者）",
+  "secondApply": "令和8年11月2日（月曜日）〜12月28日（月曜日）必着。令和9年4月入園の最終申込受付は令和8年12月28日",
+  "secondResult": "2月下旬ごろに郵便で発送（令和9年4月入園希望者）",
+  "midYearDeadline": "入園希望月の前々月の末日（末日が閉庁日なら直前の開庁日）。令和10年3月入園は令和9年12月28日",
+  "documents": [
+    "入園申込書（ホームページからはダウンロードできない。電話・窓口かインターネットの請求フォームで請求する）",
+    "就労証明書など保育が必要なことを証明する書類（様式は市のホームページからダウンロードできる）",
+    "育児休業から復職して入園する場合は、復職後2週間以内に復職証明書"
+  ],
+  "interview": "申込前にできるだけ施設見学に行く（見学時は必ず施設へ事前連絡）。入園が決まったら、入園予定の施設で入園説明会・健康診断・諸経費の支払などの入園手続きを受ける",
+  "ikukyu": "育休延長を希望する場合は、入園申込書の「④保育を必要とする理由」欄の「育児休業の延長を予定（又は希望）している」にチェックを入れる。チェックすると審査で大幅に減点されて入所保留になる可能性が高くなり、希望月が属する年度（3月末まで）は基本的に入園できない。育児休業給付金を受給できない可能性もある。保留通知は申し込んだ入園希望月以降の分だけ発行される",
+  "notes": [
+    "申込は先着順ではない",
+    "1次審査枠は市内全施設・年齢区分の受入可能枠の8割程度で、2次審査枠が全体の2割程度設けられている",
+    "1次の受付期間が終わった後の申込も可能だが、1次審査ではなく2次審査の対象になる",
+    "1号認定申込と2号認定申込の併願はできない",
+    "市内施設を希望する場合に限り、出生前でも申込を受け付ける",
+    "申込書類に不備があると全ての書類が返されるので、修正して受付期間に間に合うように出す"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.miki.lg.jp/soshiki/64/94977.html",
+      "quote": "令和9年4月から令和10年3月の間に認定こども園・保育所・幼稚園等に入園を希望する児童について、下記の方法で申込の受付を行います。"
+    },
+    "firstApply": {
+      "url": "https://www.city.miki.lg.jp/soshiki/64/94977.html",
+      "quote": "1次審査：令和8年10月1日（木曜日）から令和8年10月30日（金曜日）　※必着"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.miki.lg.jp/soshiki/64/94977.html",
+      "quote": "午前9時00分から午後4時30分（平日のみ）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.miki.lg.jp/soshiki/64/94977.html",
+      "quote": "・三木市役所5階　教育・保育課（郵送もしくは窓口提出）"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.miki.lg.jp/soshiki/64/94977.html",
+      "quote": "・吉川支所　市民生活課（窓口提出のみ）"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.miki.lg.jp/soshiki/64/94977.html",
+      "quote": "マイナンバーカードを持っており、以下に該当する方は、マイナポータルからオンライン申請が可能です。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.miki.lg.jp/soshiki/64/94977.html",
+      "quote": "・申請時点で住民票が三木市にある方"
+    },
+    "applyMethods#5": {
+      "url": "https://www.city.miki.lg.jp/soshiki/64/94977.html",
+      "quote": "・三木市内の認定こども園・保育所等に入園希望の方"
+    },
+    "firstResult": {
+      "url": "https://www.city.miki.lg.jp/uploaded/attachment/58589.pdf",
+      "quote": "１次審査の結果を１月下旬ごろに郵便にて発送します。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.miki.lg.jp/uploaded/attachment/58589.pdf",
+      "quote": "①令和９年４月入園希望者について"
+    },
+    "secondApply": {
+      "url": "https://www.city.miki.lg.jp/soshiki/64/94977.html",
+      "quote": "2次審査：令和8年11月2日（月曜日）から令和8年12月28日（月曜日）　※必着"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.miki.lg.jp/soshiki/64/94977.html",
+      "quote": "※令和9年4月入園の最終申込受付は令和8年12月28日（月曜日）です。ご注意ください。"
+    },
+    "secondResult": {
+      "url": "https://www.city.miki.lg.jp/uploaded/attachment/58589.pdf",
+      "quote": "２次審査の結果を２月下旬ごろに郵便にて発送します。"
+    },
+    "secondResult#2": {
+      "url": "https://www.city.miki.lg.jp/uploaded/attachment/58589.pdf",
+      "quote": "①令和９年４月入園希望者について"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.miki.lg.jp/soshiki/64/94977.html",
+      "quote": "令和9年5月から令和10年2月入園：入園希望月の前々月末日"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.miki.lg.jp/soshiki/64/94977.html",
+      "quote": "※末日が閉庁日の場合は直前の開庁日が期限となります。"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.miki.lg.jp/soshiki/64/94977.html",
+      "quote": "令和10年3月入園：令和9年12月28日（火曜日）"
+    },
+    "documents.0": {
+      "url": "https://www.city.miki.lg.jp/soshiki/64/94977.html",
+      "quote": "申込書はホームページからダウンロードできませんのでご注意ください。"
+    },
+    "documents.0#2": {
+      "url": "https://www.city.miki.lg.jp/soshiki/64/94977.html",
+      "quote": "電話または窓口　　市役所5階　教育・保育課　／　吉川支所　市民生活課"
+    },
+    "documents.0#3": {
+      "url": "https://www.city.miki.lg.jp/soshiki/64/94977.html",
+      "quote": "認定こども園等（2・3号認定）申込書類請求フォーム（12月20日まで請求可能）"
+    },
+    "documents.1": {
+      "url": "https://www.city.miki.lg.jp/soshiki/64/94977.html",
+      "quote": "就労証明書等の様式は次のページからダウンロードが可能です。"
+    },
+    "documents.2": {
+      "url": "https://www.city.miki.lg.jp/uploaded/attachment/58589.pdf",
+      "quote": "（復職後２週間以内に復職証明書の提出が必要です。）"
+    },
+    "interview": {
+      "url": "https://www.city.miki.lg.jp/soshiki/64/94977.html",
+      "quote": "申込をする前に可能な限り施設見学に行きましょう。"
+    },
+    "interview#2": {
+      "url": "https://www.city.miki.lg.jp/soshiki/64/94977.html",
+      "quote": "見学に行く際は、必ず施設に事前連絡をしてください。"
+    },
+    "interview#3": {
+      "url": "https://www.city.miki.lg.jp/uploaded/attachment/58589.pdf",
+      "quote": "入園予定の施設で入園説明会や健康診断・諸経費の支払などの入園手続きを受けていただきます。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.miki.lg.jp/uploaded/attachment/58589.pdf",
+      "quote": "入園申込書の右側「④保育を必要とする理由」欄の「育児休業の延長を予定（又は希望）している」にチェックを入れてください。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.miki.lg.jp/uploaded/attachment/58589.pdf",
+      "quote": "チェックを入れると、入所審査において大幅な減点となるため、入所保留になる可能性が高くなります。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.miki.lg.jp/uploaded/attachment/58589.pdf",
+      "quote": "また、希望月が属する年度（３月末まで）は、基本的には入園できません。"
+    },
+    "ikukyu#4": {
+      "url": "https://www.city.miki.lg.jp/uploaded/attachment/58589.pdf",
+      "quote": "チェックを入れると、育児休業給付金を受給できない可能性があります。"
+    },
+    "ikukyu#5": {
+      "url": "https://www.city.miki.lg.jp/uploaded/attachment/58589.pdf",
+      "quote": "保留通知は、申し込まれた入園希望月以降分のみ発行可能です。"
+    },
+    "notes.0": {
+      "url": "https://www.city.miki.lg.jp/uploaded/attachment/58589.pdf",
+      "quote": "申込は、先着順ではありません。"
+    },
+    "notes.1": {
+      "url": "https://www.city.miki.lg.jp/uploaded/attachment/58589.pdf",
+      "quote": "１次審査枠は、市内全施設・年齢区分の８割程度を設定します。"
+    },
+    "notes.1#2": {
+      "url": "https://www.city.miki.lg.jp/uploaded/attachment/58589.pdf",
+      "quote": "２次審査枠を全体の 2 割程度設けています。"
+    },
+    "notes.2": {
+      "url": "https://www.city.miki.lg.jp/uploaded/attachment/58589.pdf",
+      "quote": "１次申込受付期間終了後も申込は可能ですが、１次審査ではなく、２次審査の対象とします。"
+    },
+    "notes.3": {
+      "url": "https://www.city.miki.lg.jp/soshiki/64/94977.html",
+      "quote": "1号認定申込と2号認定申込の併願は出来ません。"
+    },
+    "notes.4": {
+      "url": "https://www.city.miki.lg.jp/uploaded/attachment/58589.pdf",
+      "quote": "市内施設を希望される場合に限り、出生前でも申込を受け付けます。"
+    },
+    "notes.5": {
+      "url": "https://www.city.miki.lg.jp/soshiki/64/94977.html",
+      "quote": "申込書類に不備がある場合、全ての書類をお返しします。修正の上、受付期間に間に合うようにご提出ください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "三木市「令和9年度　認定こども園・保育所等の入園申込について」",
+      "url": "https://www.city.miki.lg.jp/soshiki/64/94977.html"
+    },
+    {
+      "label": "三木市「令和9年度三木市保育所・認定こども園等利用のしおり」",
+      "url": "https://www.city.miki.lg.jp/uploaded/attachment/58589.pdf"
+    }
+  ]
+}

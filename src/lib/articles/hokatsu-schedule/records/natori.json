@@ -1,0 +1,241 @@
+{
+  "citySlug": "natori",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "名取市「令和9年度　保育所・認定こども園・幼稚園の利用手続きについて」",
+    "url": "https://www.city.natori.miyagi.jp/site/kosodate/44432.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年10月15日（木曜日）〜11月11日（水曜日）、平日9時00分〜16時30分。郵送は11月11日までに到着した書類が有効。電子申請は締切日の16時30分までに申請を完了する",
+  "applyMethods": "名取市役所1階こども支援課の窓口のほか、郵送とマイナポータル（ぴったりサービス）の電子申請で受け付ける。郵送は簡易書留など追跡できる方法が勧められている",
+  "firstResult": "一次調整の結果は1月下旬に発送。利用が見込まれる場合は面接のお知らせと利用調整結果通知書、見込まれない場合は入所保留通知書が届く。入所承諾書と支給認定証は2月下旬頃に発送",
+  "secondApply": "令和8年11月12日（木曜日）〜令和9年2月5日（金曜日）、平日9時00分〜16時30分、名取市役所1階こども支援課窓口。一次調整で保留になった人は自動的に二次調整の対象になり、希望先の変更・追加は2月5日（金曜日）までに連絡する",
+  "secondResult": "二次調整の結果は2月下旬に発送（調整結果と支給認定証を郵送）。入所承諾書は3月下旬頃に発送",
+  "midYearDeadline": "入所希望月の2か月前の月末までに申し込む（例：9月1日入所希望なら7月末日まで）。令和9年2月6日以降の令和9年度分の申込は随時調整になる",
+  "documents": [
+    "支給認定申請書兼認可保育施設利用申込書",
+    "児童の健康状況申告書",
+    "認可保育施設入所に関する留意事項の確認書（兄弟同時申込は1枚でよい）",
+    "支給認定に係る個人番号（マイナンバー）申告書",
+    "保育の必要性・優先度を確認する書類（就労なら父・母それぞれの就労証明書）。父母と60歳未満の同居の祖父母の分を出す。証明書等の日付は一斉申込受付の場合9月以降のもの",
+    "転入予定で申し込む場合は「転入に関する申立書」と賃貸借・売買契約書等の写し（祖父母の実家で同居する場合は「同居に関する申立書」も）"
+  ],
+  "interview": "利用調整結果通知書が届いた人は、利用が見込まれる保育施設で面接を受ける（一次調整は2月中旬頃、二次調整は3月中旬頃）。子どもと保護者で出席する。面接の時点では利用の可否は未定",
+  "ikukyu": "入所保留通知は初回の調整分だけ一律で発行（4月入所申込なら4月分）。翌月以降の分はフォームから発行を申請する。希望する市内認可保育施設に入れない場合は育児休業の延長も可能で、利用調整の順位を下げてよい場合は「保育施設等利用調整に係る申立書」を出す",
+  "notes": [
+    "11月生まれの子は令和8年12月9日（水）まで受け付ける（一次調整の対象。こども支援課窓口に行く）",
+    "申込書類に不備がある場合は12月9日（水）までに出す。書類不備のままだと利用調整の対象外になる",
+    "入所選考は先着順ではない。受付開始直後は窓口が混むので、来庁不要の電子申請や郵送が勧められている",
+    "さぽーとぷらす保育（障がいや発達の遅れがある子への支援）の申請は一次調整期間だけ受け付ける",
+    "令和9年度分の申込を一度でもした人は、令和10年3月まで保留児童として扱われ、空きが出ると点数順に案内される",
+    "育児休業中に慣らし保育で入所する場合も就労での認定で、有効期間開始日の2か月後までに復職する"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.natori.miyagi.jp/site/kosodate/44432.html",
+      "quote": "令和9年度の保育所・認定こども園・幼稚園の利用をお考えの方へ手続きの概要についてお知らせします。"
+    },
+    "fiscalYear#2": {
+      "url": "https://www.city.natori.miyagi.jp/uploaded/attachment/25733.pdf",
+      "quote": "【一次調整期間】10月15日（木）～ 11月11日（水） ９時～16時30分"
+    },
+    "firstApply": {
+      "url": "https://www.city.natori.miyagi.jp/site/kosodate/44432.html",
+      "quote": "受付日時　令和8年10月15日（木曜日）～令和8年11月11日（水曜日）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.natori.miyagi.jp/site/kosodate/44432.html",
+      "quote": "※郵送受付は締切日（一次調整は11月11日）までに到着した書類が有効です。"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.natori.miyagi.jp/uploaded/attachment/26162.pdf",
+      "quote": "申込締切日の16時30分までに申請を完了していただく必要があります。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.natori.miyagi.jp/site/kosodate/44432.html",
+      "quote": "認可保育施設入所申込について、マイナポータル（ぴったりサービス）を利用した電子申請・郵送の受付を開始します。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.natori.miyagi.jp/site/kosodate/44432.html",
+      "quote": "受付場所　名取市役所1階こども支援課窓口"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.natori.miyagi.jp/site/kosodate/44432.html",
+      "quote": "※郵送で申請する場合は、簡易書留等、追跡可能な方法を推奨します。"
+    },
+    "firstResult": {
+      "url": "https://www.city.natori.miyagi.jp/uploaded/attachment/25733.pdf",
+      "quote": "【一次調整】 1月下旬 発送"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.natori.miyagi.jp/uploaded/attachment/25733.pdf",
+      "quote": "面接のお知らせと利用調整結果通知書を発送します。"
+    },
+    "firstResult#3": {
+      "url": "https://www.city.natori.miyagi.jp/uploaded/attachment/25733.pdf",
+      "quote": "入所保留通知書を発送します。"
+    },
+    "firstResult#4": {
+      "url": "https://www.city.natori.miyagi.jp/uploaded/attachment/25733.pdf",
+      "quote": "【一次調整】 2月下旬頃発送 入所承諾書、支給認定証"
+    },
+    "secondApply": {
+      "url": "https://www.city.natori.miyagi.jp/site/kosodate/44432.html",
+      "quote": "受付日時　令和8年11月12日（木曜日）～令和9年2月5日（金曜日）"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.natori.miyagi.jp/site/kosodate/44432.html",
+      "quote": "※一次調整で入所が保留となった方は、自動的に二次調整の対象となります。希望先の変更や追加は2月5日（金曜日）までにこども支援課までご連絡ください。"
+    },
+    "secondApply#3": {
+      "url": "https://www.city.natori.miyagi.jp/site/kosodate/44432.html",
+      "quote": "受付時間　9時00分～16時30分（平日のみの受付）"
+    },
+    "secondResult": {
+      "url": "https://www.city.natori.miyagi.jp/uploaded/attachment/25733.pdf",
+      "quote": "【二次調整】 2月下旬 発送"
+    },
+    "secondResult#2": {
+      "url": "https://www.city.natori.miyagi.jp/uploaded/attachment/25733.pdf",
+      "quote": "※1 調整結果と「支給認定証」を郵送いたします。"
+    },
+    "secondResult#3": {
+      "url": "https://www.city.natori.miyagi.jp/uploaded/attachment/25733.pdf",
+      "quote": "【二次調整】 3月下旬頃発送 入所承諾書"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.natori.miyagi.jp/site/kosodate/44432.html",
+      "quote": "希望入所月の2か月前の月末までに、こども支援課に支給認定の申請・保育利用の申込"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.natori.miyagi.jp/uploaded/attachment/25733.pdf",
+      "quote": "例：9月1日入所希望の場合⇒7月末日まで提出"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.natori.miyagi.jp/site/kosodate/44432.html",
+      "quote": "令和9年2月6日以降の令和9年度分の申し込みについては、随時調整を行います。"
+    },
+    "documents.0": {
+      "url": "https://www.city.natori.miyagi.jp/uploaded/attachment/25733.pdf",
+      "quote": "① 支給認定申請書 兼 認可保育施設利用申込書"
+    },
+    "documents.1": {
+      "url": "https://www.city.natori.miyagi.jp/uploaded/attachment/25733.pdf",
+      "quote": "② 児童の健康状況申告書"
+    },
+    "documents.2": {
+      "url": "https://www.city.natori.miyagi.jp/uploaded/attachment/25733.pdf",
+      "quote": "③ 認可保育施設入所に関する留意事項の確認書 ※兄弟同時申込の場合は1枚の提出で構いません。"
+    },
+    "documents.3": {
+      "url": "https://www.city.natori.miyagi.jp/uploaded/attachment/25733.pdf",
+      "quote": "④ 支給認定に係る個人番号（マイナンバー）申告書"
+    },
+    "documents.4": {
+      "url": "https://www.city.natori.miyagi.jp/uploaded/attachment/25733.pdf",
+      "quote": "父母、60歳未満の同居の祖父母について、提出願います。"
+    },
+    "documents.4#2": {
+      "url": "https://www.city.natori.miyagi.jp/uploaded/attachment/25733.pdf",
+      "quote": "証明書等の日付は一斉申込受付の場合 9 月以降、それ以外は申込日より、概ね 2 ヶ月以内の日付の書類をご提出ください。"
+    },
+    "documents.4#3": {
+      "url": "https://www.city.natori.miyagi.jp/uploaded/attachment/25737.pdf",
+      "quote": "就労 ◆就労証明書2部（父・母分）"
+    },
+    "documents.5": {
+      "url": "https://www.city.natori.miyagi.jp/uploaded/attachment/25733.pdf",
+      "quote": "「転入に関する申立書」及び賃貸借・売買契約書等の書類の写し、祖父母の実家にて同居の場合は「転入に関する申立書」「同居に関する申立書」を提出してください。"
+    },
+    "interview": {
+      "url": "https://www.city.natori.miyagi.jp/uploaded/attachment/25733.pdf",
+      "quote": "利用調整結果通知書が届いた方は、利用が見込まれる保育施設で面接を行います。"
+    },
+    "interview#2": {
+      "url": "https://www.city.natori.miyagi.jp/uploaded/attachment/25733.pdf",
+      "quote": "【一次調整】 2月中旬頃"
+    },
+    "interview#3": {
+      "url": "https://www.city.natori.miyagi.jp/uploaded/attachment/25733.pdf",
+      "quote": "【二次調整】 3月中旬頃"
+    },
+    "interview#4": {
+      "url": "https://www.city.natori.miyagi.jp/uploaded/attachment/25733.pdf",
+      "quote": "お子さんの発達・健康状況や日常等についてお話を伺うため、お子さんと保護者で出席してください。"
+    },
+    "interview#5": {
+      "url": "https://www.city.natori.miyagi.jp/uploaded/attachment/25733.pdf",
+      "quote": "※ 面接の時点では利用の可否は未定です。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.natori.miyagi.jp/site/kosodate/44432.html",
+      "quote": "※入所申込に対する保留通知は、初回調整分のみ一律で発行します。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.natori.miyagi.jp/site/kosodate/44432.html",
+      "quote": "例）4月入所申込の場合、4月分の保留通知書"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.natori.miyagi.jp/site/kosodate/44432.html",
+      "quote": "なお、翌月以降の保留通知書の発行を希望される場合は、下記フォームより発行申請を行ってください。"
+    },
+    "ikukyu#4": {
+      "url": "https://www.city.natori.miyagi.jp/uploaded/attachment/25733.pdf",
+      "quote": "希望する市内認可保育施設に入所出来ない場合は、育児休業の延長も可能であり、利用調整における順位を下げることを許容できる場合に提出いただく申立書です。"
+    },
+    "notes.0": {
+      "url": "https://www.city.natori.miyagi.jp/uploaded/attachment/25733.pdf",
+      "quote": "・11月生まれのお子さんに関しては、令和8年12月9日（水）まで受付します。期間内にこども支援課窓口にお越しください。（一次調整対象）"
+    },
+    "notes.1": {
+      "url": "https://www.city.natori.miyagi.jp/uploaded/attachment/25733.pdf",
+      "quote": "・申込書類の不備がある場合、12月9日（水）までにご提出ください。"
+    },
+    "notes.1#2": {
+      "url": "https://www.city.natori.miyagi.jp/uploaded/attachment/25733.pdf",
+      "quote": "※書類不備の場合、利用調整の対象外となります。"
+    },
+    "notes.2": {
+      "url": "https://www.city.natori.miyagi.jp/site/kosodate/44432.html",
+      "quote": "※受付開始直後は窓口が大変混雑し、待ち時間の発生が予測されるため、来庁不要な電子申請や郵送での手続きをおすすめします。"
+    },
+    "notes.2#2": {
+      "url": "https://www.city.natori.miyagi.jp/site/kosodate/44432.html",
+      "quote": "※入所選考は先着順ではありません。"
+    },
+    "notes.3": {
+      "url": "https://www.city.natori.miyagi.jp/uploaded/attachment/25733.pdf",
+      "quote": "※さぽーとぷらす保育事業については、一次調整期間のみ受付となります。"
+    },
+    "notes.3#2": {
+      "url": "https://www.city.natori.miyagi.jp/site/kosodate/44432.html",
+      "quote": "名取市では、障がいや心身の発達に遅れなどがあるお子さんに対し、発達状況や個性を踏まえながら児童の成長を支援できるよう、さぽーとぷらす保育を実施しています。"
+    },
+    "notes.4": {
+      "url": "https://www.city.natori.miyagi.jp/site/kosodate/44432.html",
+      "quote": "※令和9年度分の入所申込を一度でもされた方は、令和10年3月までは保留児童としての扱いになりますので、施設に空きがでた場合、点数順にご案内させていただきます。"
+    },
+    "notes.5": {
+      "url": "https://www.city.natori.miyagi.jp/site/kosodate/44432.html",
+      "quote": "※1　育児休業期間中に慣らし保育を行う場合についても就労での認定となりますが、有効期間開始日の2か月後までに復職していただきます。"
+    }
+  },
+  "sources": [
+    {
+      "label": "名取市「令和9年度　保育所・認定こども園・幼稚園の利用手続きについて」",
+      "url": "https://www.city.natori.miyagi.jp/site/kosodate/44432.html"
+    },
+    {
+      "label": "名取市「令和9年度　保育施設入所のしおり」",
+      "url": "https://www.city.natori.miyagi.jp/uploaded/attachment/25733.pdf"
+    },
+    {
+      "label": "名取市「名取市認可保育施設入所の申込みをする際の提出書類等について」",
+      "url": "https://www.city.natori.miyagi.jp/uploaded/attachment/25737.pdf"
+    },
+    {
+      "label": "名取市「認可保育施設入所申込みの電子申請受付について」",
+      "url": "https://www.city.natori.miyagi.jp/uploaded/attachment/26162.pdf"
+    }
+  ]
+}

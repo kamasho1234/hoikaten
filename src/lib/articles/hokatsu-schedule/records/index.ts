@@ -133,6 +133,8 @@ import kochi from "./kochi.json";
 import kodaira from "./kodaira.json";
 import kofu from "./kofu.json";
 import koganei from "./koganei.json";
+import kokubunji from "./kokubunji.json";
+import konan from "./konan.json";
 import konosu from "./konosu.json";
 import koriyama from "./koriyama.json";
 import koshigaya from "./koshigaya.json";
@@ -145,6 +147,7 @@ import kure from "./kure.json";
 import kurume from "./kurume.json";
 import kusatsu from "./kusatsu.json";
 import kushiro from "./kushiro.json";
+import kuwana from "./kuwana.json";
 import kyoto from "./kyoto.json";
 import machida from "./machida.json";
 import maebashi from "./maebashi.json";
@@ -155,14 +158,23 @@ import matsumoto from "./matsumoto.json";
 import matsusaka from "./matsusaka.json";
 import matsuyama from "./matsuyama.json";
 import meguro from "./meguro.json";
+import mihara from "./mihara.json";
+import miki from "./miki.json";
 import minato from "./minato.json";
 import misato from "./misato.json";
+import mishima from "./mishima.json";
 import mitaka from "./mitaka.json";
 import mito from "./mito.json";
 import miyazaki from "./miyazaki.json";
+import moka from "./moka.json";
 import moriguchi from "./moriguchi.json";
 import morioka from "./morioka.json";
+import moriya from "./moriya.json";
+import munakata from "./munakata.json";
+import musashino from "./musashino.json";
+import nagahama from "./nagahama.json";
 import nagano from "./nagano.json";
+import nagaoka from "./nagaoka.json";
 import nagaokakyo from "./nagaokakyo.json";
 import nagareyama from "./nagareyama.json";
 import nagasaki from "./nagasaki.json";
@@ -173,12 +185,16 @@ import nara from "./nara.json";
 import narashino from "./narashino.json";
 import narita from "./narita.json";
 import nasushiobara from "./nasushiobara.json";
+import natori from "./natori.json";
 import nerima from "./nerima.json";
 import neyagawa from "./neyagawa.json";
 import niigata from "./niigata.json";
+import niihama from "./niihama.json";
+import niiza from "./niiza.json";
 import nishinomiya from "./nishinomiya.json";
 import nishitokyo from "./nishitokyo.json";
 import nisshin from "./nisshin.json";
+import nobeoka from "./nobeoka.json";
 import noda from "./noda.json";
 import numazu from "./numazu.json";
 import obihiro from "./obihiro.json";
@@ -189,9 +205,18 @@ import oita from "./oita.json";
 import okayama from "./okayama.json";
 import okazaki from "./okazaki.json";
 import okegawa from "./okegawa.json";
+import okinawa from "./okinawa.json";
+import ome from "./ome.json";
+import omura from "./omura.json";
+import omuta from "./omuta.json";
+import onomichi from "./onomichi.json";
 import osaka from "./osaka.json";
+import osakasayama from "./osakasayama.json";
+import osaki from "./osaki.json";
+import oshu from "./oshu.json";
 import ota from "./ota.json";
 import otaGunma from "./ota-gunma.json";
+import otaru from "./otaru.json";
 import otsu from "./otsu.json";
 import oyama from "./oyama.json";
 import saga from "./saga.json";
@@ -383,6 +408,8 @@ export const hokatsuRecords: HokatsuRecord[] = [
   kodaira as HokatsuRecord,
   kofu as HokatsuRecord,
   koganei as HokatsuRecord,
+  kokubunji as HokatsuRecord,
+  konan as HokatsuRecord,
   konosu as HokatsuRecord,
   koriyama as HokatsuRecord,
   koshigaya as HokatsuRecord,
@@ -395,6 +422,7 @@ export const hokatsuRecords: HokatsuRecord[] = [
   kurume as HokatsuRecord,
   kusatsu as HokatsuRecord,
   kushiro as HokatsuRecord,
+  kuwana as HokatsuRecord,
   kyoto as HokatsuRecord,
   machida as HokatsuRecord,
   maebashi as HokatsuRecord,
@@ -405,14 +433,23 @@ export const hokatsuRecords: HokatsuRecord[] = [
   matsusaka as HokatsuRecord,
   matsuyama as HokatsuRecord,
   meguro as HokatsuRecord,
+  mihara as HokatsuRecord,
+  miki as HokatsuRecord,
   minato as HokatsuRecord,
   misato as HokatsuRecord,
+  mishima as HokatsuRecord,
   mitaka as HokatsuRecord,
   mito as HokatsuRecord,
   miyazaki as HokatsuRecord,
+  moka as HokatsuRecord,
   moriguchi as HokatsuRecord,
   morioka as HokatsuRecord,
+  moriya as HokatsuRecord,
+  munakata as HokatsuRecord,
+  musashino as HokatsuRecord,
+  nagahama as HokatsuRecord,
   nagano as HokatsuRecord,
+  nagaoka as HokatsuRecord,
   nagaokakyo as HokatsuRecord,
   nagareyama as HokatsuRecord,
   nagasaki as HokatsuRecord,
@@ -423,12 +460,16 @@ export const hokatsuRecords: HokatsuRecord[] = [
   narashino as HokatsuRecord,
   narita as HokatsuRecord,
   nasushiobara as HokatsuRecord,
+  natori as HokatsuRecord,
   nerima as HokatsuRecord,
   neyagawa as HokatsuRecord,
   niigata as HokatsuRecord,
+  niihama as HokatsuRecord,
+  niiza as HokatsuRecord,
   nishinomiya as HokatsuRecord,
   nishitokyo as HokatsuRecord,
   nisshin as HokatsuRecord,
+  nobeoka as HokatsuRecord,
   noda as HokatsuRecord,
   numazu as HokatsuRecord,
   obihiro as HokatsuRecord,
@@ -439,9 +480,18 @@ export const hokatsuRecords: HokatsuRecord[] = [
   okayama as HokatsuRecord,
   okazaki as HokatsuRecord,
   okegawa as HokatsuRecord,
+  okinawa as HokatsuRecord,
+  ome as HokatsuRecord,
+  omura as HokatsuRecord,
+  omuta as HokatsuRecord,
+  onomichi as HokatsuRecord,
   osaka as HokatsuRecord,
+  osakasayama as HokatsuRecord,
+  osaki as HokatsuRecord,
+  oshu as HokatsuRecord,
   ota as HokatsuRecord,
   otaGunma as HokatsuRecord,
+  otaru as HokatsuRecord,
   otsu as HokatsuRecord,
   oyama as HokatsuRecord,
   saga as HokatsuRecord,

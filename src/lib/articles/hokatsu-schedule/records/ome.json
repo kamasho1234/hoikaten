@@ -1,0 +1,194 @@
+{
+  "citySlug": "ome",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "青梅市「青梅市 保育所等利用のご案内（パンフレット）」",
+    "url": "https://www.city.ome.tokyo.jp/soshiki/33/80487.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年11月18日（水）〜令和8年12月11日（金）（4月一次入所。窓口の受付期間）。電子申請（Logoフォーム）と郵送は申込締切日の5日前必着（該当日が土・日・祝日の場合は前開庁日必着）",
+  "applyMethods": "窓口（青梅市こども育成課、市役所1階12B窓口）、Logoフォームによる電子申請、郵送（青梅市役所こども育成課保育・幼稚園係あて）の3通り。窓口の受付時間は午前8時30分から午後5時まで（木曜日は午後8時まで）で、土日祝日・年末年始は窓口受付なし。電子・郵送で申し込んだ場合は、こども育成課保育・幼稚園係へ連絡が必要",
+  "firstResult": "4月一次入所は1月末ごろに利用調整結果通知書・給付認定通知書を発送",
+  "secondApply": "令和9年2月1日（月）〜令和9年3月10日（水）（4月二次入所）",
+  "secondResult": "4月二次入所は3月下旬ごろに通知を発送。4月二次の保留通知は一次で保留となった人にも送る",
+  "midYearDeadline": "5月以降の入所は月ごとに申込締切日がある（例: 5月入所は令和9年4月15日（木）、11月入所は令和9年10月15日（金））。結果は申込月の下旬ごろに通知",
+  "documents": [
+    "令和9年度 教育・保育給付認定申請書 兼 保育所等利用申込書（該当する項目を全て記入）",
+    "同意書（全項目を確認し、内容確認欄に✔して署名）",
+    "保育を必要とする事由を証明する書類。就労・育児休業は就労証明書で、4月入所は令和8年9月以降に発行されたもの（それ以外は3か月以内に発行されたもの）",
+    "出産の場合は母子手帳の写しと出産（予定）日報告書",
+    "保育所等入所事前連絡票（入所を希望する子に障害やアレルギー、集団保育で配慮が必要な疾病がある場合）",
+    "転入に関する誓約書（転入予定の場合のみ）",
+    "申請者の本人確認書類の写し（電子申請・郵送申請の場合のみ。顔写真付き1点または顔写真なし2点）"
+  ],
+  "interview": "認定こども園・小規模保育事業・家庭的保育事業を希望する場合は、申込み前の見学が必須",
+  "ikukyu": "入所申込みをして入所が決まらなかった場合に「保育所等利用調整結果通知書（保留）」を送付する。保留の通知は初回のみで、翌月以降も通知が必要な場合はその都度こども育成課の窓口で申請する。申込みを取り下げるとそれ以降の保留通知は発行されない",
+  "notes": [
+    "希望園は認可保育所・認定こども園・小規模保育事業・家庭的保育事業の事業ごとに3つ（最大10施設）まで選べる",
+    "食物アレルギー等のある子は、申込み前に子どもと一緒に希望する全ての保育所等へ見学・相談に行く。見学に行っていない場合は申込みを受け付けない",
+    "不足書類の提出締切日は申込締切日で、提出がない場合はその月の利用調整の対象にならない",
+    "育児休業から復帰する場合、4月入所を希望するなら5月31日までに職場に復帰することが証明されている必要がある",
+    "一度申し込むと、取下げがない場合は年度内に限り毎月の選考対象になる",
+    "空きのある施設を上位に希望しても選考上有利にはならない"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.ome.tokyo.jp/soshiki/33/80487.html",
+      "quote": "令和9年度保育所等利用のご案内（パンフレット）のデータです。"
+    },
+    "firstApply": {
+      "url": "https://www.city.ome.tokyo.jp/uploaded/attachment/82127.pdf",
+      "quote": "４月一次入所 令和８年１１月１8日（水） ～ 令和８年１２月１1日（金）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.ome.tokyo.jp/uploaded/attachment/82127.pdf",
+      "quote": "①に記載の申込締切日の５日前必着です（該当日が土・日・祝日の場合には、前開庁日必着）。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.ome.tokyo.jp/uploaded/attachment/82127.pdf",
+      "quote": "受付場所 青梅市こども育成課（市役所１階１２B窓口）"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.ome.tokyo.jp/uploaded/attachment/82127.pdf",
+      "quote": "※受付時間は午前８時３０分から午後５時まで（木曜日は午後８時まで）"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.ome.tokyo.jp/uploaded/attachment/82127.pdf",
+      "quote": "※土曜日、日曜日、祝日、年末年始は窓口での申請を受け付けておりません（電子申請は期間中いつでも申請を受け付けております）。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.ome.tokyo.jp/uploaded/attachment/82127.pdf",
+      "quote": "郵送先は、【〒198-8701 青梅市東青梅1-11-1 青梅市役所こども育成課保育・幼稚園係】です。"
+    },
+    "applyMethods#5": {
+      "url": "https://www.city.ome.tokyo.jp/uploaded/attachment/82127.pdf",
+      "quote": "※電子で申込みをされた場合には、お手数をおかけいたしますが、必ず青梅市こども育成課保育・幼稚園係までご連絡いただきますようお願いいたします。"
+    },
+    "applyMethods#6": {
+      "url": "https://www.city.ome.tokyo.jp/uploaded/attachment/82127.pdf",
+      "quote": "※郵送で申込みをされた場合には、お手数をおかけいたしますが、必ず青梅市こども育成課保育・幼稚園係までご連絡いただきますようお願いいたします。"
+    },
+    "firstResult": {
+      "url": "https://www.city.ome.tokyo.jp/uploaded/attachment/82127.pdf",
+      "quote": "４月一次入所：１月末ごろ ／ ４月二次入所：３月下旬ごろ ／ ５月～３月入所：申込月下旬ごろ"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.ome.tokyo.jp/uploaded/attachment/82127.pdf",
+      "quote": "利用調整結果通知書・給付認定通知書の発送"
+    },
+    "secondApply": {
+      "url": "https://www.city.ome.tokyo.jp/uploaded/attachment/82127.pdf",
+      "quote": "４月二次入所 令和９年２月１日（月） ～ 令和９年３月１０日（水）"
+    },
+    "secondResult": {
+      "url": "https://www.city.ome.tokyo.jp/uploaded/attachment/82127.pdf",
+      "quote": "４月一次入所：１月末ごろ ／ ４月二次入所：３月下旬ごろ ／ ５月～３月入所：申込月下旬ごろ"
+    },
+    "secondResult#2": {
+      "url": "https://www.city.ome.tokyo.jp/uploaded/attachment/82127.pdf",
+      "quote": "※保留となった場合は初回のみ通知します（４月二次保留通知については、一次で保留となった方にも通知します）。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.ome.tokyo.jp/uploaded/attachment/82127.pdf",
+      "quote": "５月入所 令和９年４月１５日（木） １１月入所 令和９年１０月１５日（金）"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.ome.tokyo.jp/uploaded/attachment/82127.pdf",
+      "quote": "４月一次入所：１月末ごろ ／ ４月二次入所：３月下旬ごろ ／ ５月～３月入所：申込月下旬ごろ"
+    },
+    "documents.0": {
+      "url": "https://www.city.ome.tokyo.jp/uploaded/attachment/82135.pdf",
+      "quote": "令和９年度 教育・保育給付認定申請書 兼 保育所等利用申込書 該当する項目を全て記入してください。"
+    },
+    "documents.1": {
+      "url": "https://www.city.ome.tokyo.jp/uploaded/attachment/82135.pdf",
+      "quote": "同意書 該当しない項目を含めて全て確認し、内容確認欄に✔した上で署名してください。"
+    },
+    "documents.2": {
+      "url": "https://www.city.ome.tokyo.jp/uploaded/attachment/82126.pdf",
+      "quote": "就労証明 書 （４月入所申込みは令和８年９月以降、それ以外は３か月以内に発行されたもの）"
+    },
+    "documents.2#2": {
+      "url": "https://www.city.ome.tokyo.jp/uploaded/attachment/82135.pdf",
+      "quote": "□ □ 育児休業 就労証明書"
+    },
+    "documents.3": {
+      "url": "https://www.city.ome.tokyo.jp/uploaded/attachment/82135.pdf",
+      "quote": "出産 ・母子手帳の写し ・出産（予定）日報告書"
+    },
+    "documents.4": {
+      "url": "https://www.city.ome.tokyo.jp/uploaded/attachment/82135.pdf",
+      "quote": "保育所等入所事前連絡票 入所を希望している子が障害やアレルギー、集団保育において配慮が必要な疾病を有する等の場合"
+    },
+    "documents.5": {
+      "url": "https://www.city.ome.tokyo.jp/uploaded/attachment/82135.pdf",
+      "quote": "転入に関する誓約書 転入予定の場合のみ"
+    },
+    "documents.6": {
+      "url": "https://www.city.ome.tokyo.jp/uploaded/attachment/82135.pdf",
+      "quote": "※電子申請・郵送申請の場合のみ必要 申請者の本人確認書類の写し ※(1)または(2)のいずれかの書類を添付してください。"
+    },
+    "interview": {
+      "url": "https://www.city.ome.tokyo.jp/uploaded/attachment/82127.pdf",
+      "quote": "認定こども園、小規模保育事業、家庭的保育事業を希望する場合は、申込み前に必ず見学をしてください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.ome.tokyo.jp/uploaded/attachment/82128.pdf",
+      "quote": "保育所等の入所申込みをしていただき、入所が決まらなかった場合に「保育所等利用調整結果通知書（保留）」を送付します。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.ome.tokyo.jp/uploaded/attachment/82128.pdf",
+      "quote": "また、保留となった場合の通知は初回のみとなりますので、翌月以降も通知が必要な場合は、その都度こども育成課の窓口で申請してください。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.ome.tokyo.jp/uploaded/attachment/82128.pdf",
+      "quote": "申込みの取下げ手続をされますと、それ以降の選考についての保留通知は発行されませんので御注意ください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.ome.tokyo.jp/uploaded/attachment/82127.pdf",
+      "quote": "認可保育所、認定こども園、小規模保育事業、家庭的保育事業の事業ごとに３つ（最大１0施設）まで選ぶことができます。"
+    },
+    "notes.1": {
+      "url": "https://www.city.ome.tokyo.jp/uploaded/attachment/82127.pdf",
+      "quote": "申込み時にも改めて市から希望園へ受入れ可能かの確認を取りますので、見学に行っていない場合は申込みを受け付けできません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.ome.tokyo.jp/uploaded/attachment/82127.pdf",
+      "quote": "不足書類の提出締切日は①に記載の申込締切日となりますので、必ず提出してください。提出がない場合は、入所・転園希望月の利用調整の対象にはなりません。"
+    },
+    "notes.3": {
+      "url": "https://www.city.ome.tokyo.jp/uploaded/attachment/82126.pdf",
+      "quote": "(４月入所を希望される場合は、５月３１日までに職場に復帰することが証明されていること。)"
+    },
+    "notes.4": {
+      "url": "https://www.city.ome.tokyo.jp/uploaded/attachment/82128.pdf",
+      "quote": "一度お申込みいただくと、取下げがない場合は年度内に限り毎月の選考対象となります。"
+    },
+    "notes.5": {
+      "url": "https://www.city.ome.tokyo.jp/uploaded/attachment/82128.pdf",
+      "quote": "基準点により選考しているため、空きのある施設を上位に希望しても選考上、有利になるということではありません。"
+    }
+  },
+  "sources": [
+    {
+      "label": "青梅市「青梅市 保育所等利用のご案内（パンフレット）」",
+      "url": "https://www.city.ome.tokyo.jp/soshiki/33/80487.html"
+    },
+    {
+      "label": "青梅市「令和9年度保育所等利用のご案内 P6-9 入所申込みから入所までの流れ」（PDF）",
+      "url": "https://www.city.ome.tokyo.jp/uploaded/attachment/82127.pdf"
+    },
+    {
+      "label": "青梅市「令和9年度保育所等利用のご案内 P4-5 保育の必要性の認定について」（PDF）",
+      "url": "https://www.city.ome.tokyo.jp/uploaded/attachment/82126.pdf"
+    },
+    {
+      "label": "青梅市「令和9年度保育所等利用のご案内 P10-11 よくある問い合わせ」（PDF）",
+      "url": "https://www.city.ome.tokyo.jp/uploaded/attachment/82128.pdf"
+    },
+    {
+      "label": "青梅市「令和9年度 提出書類関係」（PDF）",
+      "url": "https://www.city.ome.tokyo.jp/uploaded/attachment/82135.pdf"
+    }
+  ]
+}

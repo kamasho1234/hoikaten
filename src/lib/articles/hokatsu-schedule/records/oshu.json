@@ -1,0 +1,120 @@
+{
+  "citySlug": "oshu",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "奥州市「保育所・認定こども園・幼稚園などの利用についてのご案内」",
+    "url": "https://www.city.oshu.iwate.jp/soshiki/9/1066/10803.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年10月19日（月曜日）から申込書類を配布。配布場所は住所地によって異なる（水沢は本庁 保育こども園課、江刺・前沢・胆沢・衣川は各総合支所）。新年度入所の「しおり」も10月19日から市のページに掲載予定",
+  "firstApply": "令和8年11月16日（月曜日）〜11月30日（月曜日）",
+  "applyMethods": "住所地ごとに決められた受付場所に申込書類を提出する。水沢は本庁 保育こども園課、江刺は江刺総合支所 健康福祉グループ、前沢は前沢総合支所 市民福祉グループ、胆沢は胆沢総合支所 健康福祉グループ（健康増進プラザ悠悠館）、衣川は衣川総合支所 市民福祉グループ。郵送事故の責任は負えないため直接持参が勧められている",
+  "documents": [
+    "子ども・子育て支援給付費等教育・保育給付認定申請書（兼 保育所等入所（利用調整）申込書）。子ども1人につき1部",
+    "保育所等入所補助票",
+    "保育を必要とする事由の証明書（保護者それぞれ）。就労証明書は申し込み日（書類提出日）に証明日から3か月以内のものが有効"
+  ],
+  "interview": "申し込み前に担当窓口で事前相談をし、並行して希望する保育施設等に直接問い合わせて見学する。4月入所の場合は、結果連絡のあと保育施設等から連絡があり、面談などを経て利用が始まる",
+  "notes": [
+    "必要書類は世帯の状況等によって異なるため、配布開始の10月19日以降に配布場所へ相談に行く（なるべく10月中）",
+    "混雑状況によっては待ち時間が発生するので、時間に余裕をもって行く",
+    "令和9年1月〜3月入所は、令和9年度4月入所の申し込みと併せて手続きする（令和8年12月までの入所とは締め切りが異なる）",
+    "書類に不備や不足があると受付できない場合がある。入所調整は先着順ではないが、締め切りに余裕をもって提出することが勧められている"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.oshu.iwate.jp/soshiki/9/1066/10803.html",
+      "quote": "令和9年度4月入所についての情報を掲載しました"
+    },
+    "guideRelease": {
+      "url": "https://www.city.oshu.iwate.jp/soshiki/9/1066/10803.html",
+      "quote": "申込書類の「配布」 令和8年10月19日（月曜日）から開始"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.oshu.iwate.jp/soshiki/9/1066/10803.html",
+      "quote": "新年度入所についての「しおり」は、10月19日から本ページに掲載する予定です。"
+    },
+    "guideRelease#3": {
+      "url": "https://www.city.oshu.iwate.jp/soshiki/9/1066/10803.html",
+      "quote": "配布（受付）場所    住所地によって異なり次のとおりです"
+    },
+    "firstApply": {
+      "url": "https://www.city.oshu.iwate.jp/soshiki/9/1066/10803.html",
+      "quote": "申込書類の「受付」 令和8年11月16日（月曜日）から11月30日（月曜日）まで"
+    },
+    "applyMethods": {
+      "url": "https://www.city.oshu.iwate.jp/soshiki/9/1066/10803.html",
+      "quote": "[江刺]  江刺総合支所  健康福祉グループ"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.oshu.iwate.jp/soshiki/9/1066/10803.html",
+      "quote": "[胆沢]  胆沢総合支所  健康福祉グループ（健康増進プラザ悠悠館）"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.oshu.iwate.jp/material/files/group/67/01_R08shiori_23.pdf",
+      "quote": "郵送事故等の責任は負いかねますので、直接ご持参いただくことをお勧めします。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.oshu.iwate.jp/soshiki/9/1066/10803.html",
+      "quote": "[水沢]  本庁  保育こども園課"
+    },
+    "applyMethods#5": {
+      "url": "https://www.city.oshu.iwate.jp/soshiki/9/1066/10803.html",
+      "quote": "[前沢]  前沢総合支所  市民福祉グループ"
+    },
+    "applyMethods#6": {
+      "url": "https://www.city.oshu.iwate.jp/soshiki/9/1066/10803.html",
+      "quote": "[衣川]  衣川総合支所  市民福祉グループ"
+    },
+    "documents.0": {
+      "url": "https://www.city.oshu.iwate.jp/material/files/group/67/01_R08shiori_23.pdf",
+      "quote": "（兼 保育所等入所（利用調整）申込書） 子ども１人につき１部"
+    },
+    "documents.1": {
+      "url": "https://www.city.oshu.iwate.jp/material/files/group/67/01_R08shiori_23.pdf",
+      "quote": "保育所等入所補助票 保育を必要とする事由の証明書 保護者それぞれ（※）"
+    },
+    "documents.2": {
+      "url": "https://www.city.oshu.iwate.jp/material/files/group/67/01_R08shiori_23.pdf",
+      "quote": "（※１）申し込み日（書類提出日）において、証明日から３か月以内のものが有効です。"
+    },
+    "interview": {
+      "url": "https://www.city.oshu.iwate.jp/material/files/group/67/01_R08shiori_23.pdf",
+      "quote": "事前相談と並行して、希望する保育施設等へ直接お問い合わせのうえ見学をしてください。"
+    },
+    "interview#2": {
+      "url": "https://www.city.oshu.iwate.jp/material/files/group/67/01_R08shiori_23.pdf",
+      "quote": "【４月入所の場合のみ】保育施設等から連絡がありますので、お待ちください。"
+    },
+    "interview#3": {
+      "url": "https://www.city.oshu.iwate.jp/material/files/group/67/01_R08shiori_23.pdf",
+      "quote": "保育施設等との面談などを経て、利用が開始されます。"
+    },
+    "notes.0": {
+      "url": "https://www.city.oshu.iwate.jp/soshiki/9/1066/10803.html",
+      "quote": "詳しい状況を聞き取らせていただきながら必要書類を案内しますので、申し込み書類の配布開始となる10月19日以降に、下記配布場所へご相談にお越しください。（なるべく10月中にお越しください）"
+    },
+    "notes.1": {
+      "url": "https://www.city.oshu.iwate.jp/soshiki/9/1066/10803.html",
+      "quote": "なお、混雑状況によっては待ち時間も発生しますので、お時間に余裕をもってお越しいただくようお願いします。"
+    },
+    "notes.2": {
+      "url": "https://www.city.oshu.iwate.jp/soshiki/9/1066/10803.html",
+      "quote": "※ 令和9年1月～3月入所については、令和9年度4月入所の申し込みと併せてお手続きください。令和8年12月までの入所とは申し込み締め切りが異なりますので、ご注意ください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.oshu.iwate.jp/material/files/group/67/01_R08shiori_23.pdf",
+      "quote": "そのため、入所調整は先着順ではありませんが、締め切りに余裕をもってご提出いただくことをお勧めします。"
+    }
+  },
+  "sources": [
+    {
+      "label": "奥州市「保育所・認定こども園・幼稚園などの利用についてのご案内」",
+      "url": "https://www.city.oshu.iwate.jp/soshiki/9/1066/10803.html"
+    },
+    {
+      "label": "奥州市「令和8年度 奥州市保育施設等利用のしおり（2・3号用）」",
+      "url": "https://www.city.oshu.iwate.jp/material/files/group/67/01_R08shiori_23.pdf"
+    }
+  ]
+}

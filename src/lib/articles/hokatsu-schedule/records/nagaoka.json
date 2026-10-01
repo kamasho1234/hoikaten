@@ -1,0 +1,180 @@
+{
+  "citySlug": "nagaoka",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "長岡市「保育園等の入園手続きについて」",
+    "url": "https://www.city.nagaoka.niigata.jp/kosodate/cate02/h29riyou.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年9月1日（火）から認定申請書（藤色）を各園、保育課、各支所地域振興・市民生活課、アオーレ長岡窓口、子育ての駅（てくてく、ぐんぐん、ちびっこ広場、すくすく）で配付。入園申込書（クリーム色）は認定申請書を提出したときに引き換えで渡される",
+  "firstApply": "入園申込みは令和8年10月30日（金）〜11月6日（金）（期間が短いので提出漏れに注意）。その前に認定申請（令和8年9月1日〜9月18日）をして認定を受けた人のみ申し込める",
+  "applyMethods": "認定申請書は第1希望（予定）の園または保育課・各支所に提出し、令和8年10月下旬に市から認定証が交付される。入園申込書は第1希望の園に提出する（認定申請書を出した園と違ってもよい）",
+  "firstResult": "令和9年1月上旬に、園を通じて入園の承諾通知を交付",
+  "secondApply": "2次募集（1次募集後に空きのある園のみ）の入園申込みは令和9年1月8日（金）〜1月15日（金）（予定）。1次で認定未申請の人の認定申請は令和8年12月1日（火）〜12月15日（火）。実施園は1月7日頃に市ホームページに掲載",
+  "secondResult": "2次募集の結果は2月下旬に園を通じて通知",
+  "midYearDeadline": "年度途中の入園は定員に空きがある園のみ。入園申込みは入園希望月の前月10日頃までに希望園で手続きする（新規の認定申請は前々月20日を目途）",
+  "documents": [
+    "認定申請書（藤色）と、認定事由に応じた添付書類",
+    "保護者の個人番号・身元が確認できる書類（マイナンバーカードなど）",
+    "令和9年度 認可保育園・施設型幼稚園・認定こども園・地域型保育入園申込書（クリーム色）",
+    "入園申込児童健康状況等調査票（希望の園に初めて申し込む場合のみ）"
+  ],
+  "interview": "希望の園に初めて入園する場合は、日常生活や健康状態、家庭での状況などを聞く面談を各園で行う。日時は園から別途通知される",
+  "ikukyu": "育児休業中の人が対象の子の入園を希望する場合、令和9年5月6日（木）までに職場復帰することが条件。5月7日以降まで育休予定なら勤務先と調整し、就労証明書の育児休業の短縮可否欄を「可」にしてもらう（「否」だと申し込めない）",
+  "notes": [
+    "認定申請書と入園申込書は第1希望の園にのみ提出する。複数の入園申込書の提出が確認されると、全ての申し込みが無効になる",
+    "利用調整で第2〜5希望の園に調整される場合があるので、第2〜5希望には通園可能な園を書く。第1希望者で受入可能人数に達した園では第2〜5希望での調整は行わない",
+    "0〜2歳児クラスで求職活動中の人の選考は、優先度の高い人の利用調整後に行う",
+    "求職活動の認定を受けた人でも、就労先が決まって就労証明書を11月6日までに第1希望の園に出せば入園選考に反映される",
+    "令和9年4月1日時点で長岡市に転入することが確実な人も申し込める（転入が確認できなければ入園取消し）",
+    "市が行う入園調整は2次募集まで。その後は各自で空き状況を確認して申し込む"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.nagaoka.niigata.jp/kosodate/cate02/h29riyou.html",
+      "quote": "認定申請時点で長岡市に住所がない人も、令和9年4月1日時点で長岡市に転入することが確実な場合は申し込みができます。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.nagaoka.niigata.jp/kosodate/cate02/h29riyou.html",
+      "quote": "各園、保育課、各支所地域振興・市民生活課、アオーレ長岡窓口、子育ての駅（てくてく、ぐんぐん、ちびっこ広場、すくすく）で、令和8年9月1日（火）から配付します。"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.nagaoka.niigata.jp/kosodate/cate02/h29riyou.html",
+      "quote": "認定申請書を提出した際に、引き換えにお渡しします。"
+    },
+    "firstApply": {
+      "url": "https://www.city.nagaoka.niigata.jp/kosodate/cate02/h29riyou.html",
+      "quote": "【受付期間】令和8年10月30日（金）～令和8年11月6日（金）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.nagaoka.niigata.jp/kosodate/cate02/h29riyou.html",
+      "quote": "※期間が短いため、提出漏れにご注意ください"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.nagaoka.niigata.jp/kosodate/cate02/file/nyuen-shiori.pdf",
+      "quote": "認定申請期間（令和８年9月１日～9月18日）時点で長岡市に住所がない人も、令和９年4月１日時点で転入することが確実な人は、長岡市で入園申し込みができます。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.nagaoka.niigata.jp/kosodate/cate02/file/nyuen-shiori.pdf",
+      "quote": "第１希望園に入園申込書を提出してください。認定申請書を提出"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.nagaoka.niigata.jp/kosodate/cate02/file/nyuen-shiori.pdf",
+      "quote": "第１希望（予定）の園または保育課・各支所に認定申請書を提出"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.nagaoka.niigata.jp/kosodate/cate02/h29riyou.html",
+      "quote": "【結果の通知】令和8年10月下旬　市から認定証を交付"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.nagaoka.niigata.jp/kosodate/cate02/file/status-report09.pdf",
+      "quote": "第１希望の園 ※認定申請書を提出した園と違っても構いません。"
+    },
+    "firstResult": {
+      "url": "https://www.city.nagaoka.niigata.jp/kosodate/cate02/h29riyou.html",
+      "quote": "【結果の通知】令和9年1月上旬　園を通じて入園の承諾通知を交付"
+    },
+    "secondApply": {
+      "url": "https://www.city.nagaoka.niigata.jp/kosodate/cate02/file/status-report09.pdf",
+      "quote": "令和９年１月８日（金曜日）から１月１５日（金曜日）まで（予定）"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.nagaoka.niigata.jp/kosodate/cate02/h29riyou.html",
+      "quote": "【受付期間】令和8年12月1日（火）～令和8年12月15日（火）"
+    },
+    "secondApply#3": {
+      "url": "https://www.city.nagaoka.niigata.jp/kosodate/cate02/file/status-report09.pdf",
+      "quote": "※２次募集の実施園は、１月７日（木曜日）頃に市ホームページに掲載します。"
+    },
+    "secondResult": {
+      "url": "https://www.city.nagaoka.niigata.jp/kosodate/cate02/h29riyou.html",
+      "quote": "【結果の通知】2次募集の結果は、園を通じて2月下旬に通知"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.nagaoka.niigata.jp/kosodate/cate02/h29riyou.html",
+      "quote": "・入園申し込みは、入園希望月の前月10日頃までに希望園で手続きをしてください"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.nagaoka.niigata.jp/kosodate/cate02/h29riyou.html",
+      "quote": "年度途中の入園は、定員に空きがある園でのみ受け付けます。"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.nagaoka.niigata.jp/kosodate/cate02/h29riyou.html",
+      "quote": "・新規で認定申請をする場合は、入園したい月の前々月20日を目途に希望園または保育課、各支所地域振興・市民生活課で手続きをしてください"
+    },
+    "documents.0": {
+      "url": "https://www.city.nagaoka.niigata.jp/kosodate/cate02/file/nyuen-shiori.pdf",
+      "quote": "□認定申請書（藤色） ※認定事由に応じた添付書類が必要P.3へ"
+    },
+    "documents.1": {
+      "url": "https://www.city.nagaoka.niigata.jp/kosodate/cate02/file/nyuen-shiori.pdf",
+      "quote": "□保護者の個人番号・身元が確認できる書類（マイナンバーカードなど）"
+    },
+    "documents.2": {
+      "url": "https://www.city.nagaoka.niigata.jp/kosodate/cate02/file/nyuen-shiori.pdf",
+      "quote": "□令和９年度 認可保育園・施設型幼稚園・認定こども園・地域型保育入園申込書"
+    },
+    "documents.3": {
+      "url": "https://www.city.nagaoka.niigata.jp/kosodate/cate02/file/nyuen-shiori.pdf",
+      "quote": "□入園申込児童健康状況等調査票（希望の園に初めて申し込む場合のみ）"
+    },
+    "interview": {
+      "url": "https://www.city.nagaoka.niigata.jp/kosodate/cate02/file/status-report09.pdf",
+      "quote": "希望の園に初めて入園される場合は、日常生活や健康状態及び家庭での状況等をお聞きする面談を各園で行います。日時については、別途園から通知します。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.nagaoka.niigata.jp/kosodate/cate02/file/nyuen-shiori.pdf",
+      "quote": "令和９年５月６日（木）までに職場へ就労復帰することを条件に入園申し込みができます。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.nagaoka.niigata.jp/kosodate/cate02/file/nyuen-shiori.pdf",
+      "quote": "かどうか必ず勤務先へ確認・調整をした上で、就労証明書の育児休業の短縮可否欄を「可」として証明してもらってください。「否」となっている場合は申し込みできません。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.nagaoka.niigata.jp/kosodate/cate02/file/nyuen-shiori.pdf",
+      "quote": "令和９年５月７日（金）以降まで育児休業を取得予定の場合は、５月６日までの復帰が可能"
+    },
+    "notes.0": {
+      "url": "https://www.city.nagaoka.niigata.jp/kosodate/cate02/file/nyuen-shiori.pdf",
+      "quote": "認定申請書および入園申込書は第１希望の園にのみご提出ください。複数の入園申込書の提出が確認された場合、全ての申し込みが無効になります。"
+    },
+    "notes.1": {
+      "url": "https://www.city.nagaoka.niigata.jp/kosodate/cate02/file/status-report09.pdf",
+      "quote": "各園での入園選考の後、市全体での利用調整として、第２～５希望の園へ調整となる場合がありますので、第２～５希望の欄には通園可能な園を記載してください。"
+    },
+    "notes.1#2": {
+      "url": "https://www.city.nagaoka.niigata.jp/kosodate/cate02/file/status-report09.pdf",
+      "quote": "ただし、第２～５希望を記載しても、その施設が第１希望者で受入可能人数に達している場合は、第２～５希望での調整は行いません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.nagaoka.niigata.jp/kosodate/cate02/file/nyuen-shiori.pdf",
+      "quote": "※０～２歳児クラスで求職活動中の人は、優先度の高い人の利用調整後に選考を行います"
+    },
+    "notes.3": {
+      "url": "https://www.city.nagaoka.niigata.jp/kosodate/cate02/file/nyuen-shiori.pdf",
+      "quote": "※求職活動の認定を受けた人でも、就労先が決まった場合は就労証明書を11月６日までに第１希望の園に提出すると入園選考に反映します"
+    },
+    "notes.4": {
+      "url": "https://www.city.nagaoka.niigata.jp/kosodate/cate02/h29riyou.html",
+      "quote": "※令和9年4月1日時点で長岡市への転入が確認できなかった場合、入園を取り消します。"
+    },
+    "notes.5": {
+      "url": "https://www.city.nagaoka.niigata.jp/kosodate/cate02/file/nyuen-shiori.pdf",
+      "quote": "※市が行う入園調整は２次募集まで。その後は各自で空き状況を確認し、入園を申し込んでください"
+    }
+  },
+  "sources": [
+    {
+      "label": "長岡市「保育園等の入園手続きについて」",
+      "url": "https://www.city.nagaoka.niigata.jp/kosodate/cate02/h29riyou.html"
+    },
+    {
+      "label": "長岡市「令和9年度 入園のしおり」",
+      "url": "https://www.city.nagaoka.niigata.jp/kosodate/cate02/file/nyuen-shiori.pdf"
+    },
+    {
+      "label": "長岡市「令和9年度入園案内（2号・3号認定を受けた方）」",
+      "url": "https://www.city.nagaoka.niigata.jp/kosodate/cate02/file/status-report09.pdf"
+    }
+  ]
+}

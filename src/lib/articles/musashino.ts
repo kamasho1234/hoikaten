@@ -3,60 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "musashino",
-    title: "武蔵野市の保活スケジュール　申込から内定までの流れ",
-    description:
-      "武蔵野市の認可保育園の申込時期・選考の流れをまとめました。令和8年度4月入園のスケジュールを中心に解説します。",
-    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>武蔵野市の4月入園スケジュール</h2>
-<p>武蔵野市の認可保育園は毎年秋に翌年度4月入園の申込を受付けます。子ども家庭部子ども育成課が窓口です。市内には認可保育園が約35か所あり、毎年多くの家庭が保活に取り組んでいます。</p>
-
-<h3>保活の全体スケジュール</h3>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content">
-<strong>4月〜6月：情報収集</strong>
-<p>武蔵野市の公式サイトや「保育園入園のご案内」で保育園の一覧や制度を確認します。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content">
-<strong>6月〜9月：保育園見学</strong>
-<p>気になる園に連絡して見学を予約しましょう。吉祥寺エリアは人気が高いため早めの行動が大切です。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content">
-<strong>9月〜10月：入園案内の入手・書類準備</strong>
-<p>最新の入園案内を入手し、就労証明書などの書類を準備します。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content">
-<strong>10月〜11月：申込書類の提出</strong>
-<p>子ども育成課の窓口または郵送で提出します。</p>
-</div>
-</div>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>武蔵野市は基本指数が父母各最大12点（合計24点満点）です。週あたりの勤務日数と時間の組み合わせで判定されます。</p>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/hoikuen_yochien_kodomoen/index.html" target="_blank" rel="noopener">武蔵野市公式サイト</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-04-07",
-    popularity: 60,
-  },
-  {
     slug: "scoring-system-guide",
     citySlug: "musashino",
     title: "武蔵野市の入園点数のしくみ　基本指数と調整指数を解説",

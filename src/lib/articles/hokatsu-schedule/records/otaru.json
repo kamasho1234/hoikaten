@@ -1,0 +1,136 @@
+{
+  "citySlug": "otaru",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "小樽市「【新年度】保育所等の利用申込みについて」",
+    "url": "https://www.city.otaru.lg.jp/docs/2021122100018/"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和9年1月4日（月）〜2月15日（月）。郵送の場合は申込期間内必着（消印無効）",
+  "applyMethods": "必要書類と印鑑を用意し、小樽市役所別館5階の子育て支援課教育保育係窓口に提出する。郵送も可能だが、担当係に届いた日が受付日で、書類に不備があると不備解消後の受付になる",
+  "firstResult": "令和9年3月11日頃から、市（子育て支援課教育保育係）の電話番号から電話で連絡",
+  "secondApply": "令和9年2月16日（火）〜3月15日（月）。1次調整で申し込んだ人の利用調整が終わってから2次の利用調整を行う",
+  "midYearDeadline": "5月以降の入所は、利用を希望する月の前々月16日から前月15日まで（15日が土・日曜日、祝日の場合はその前日まで）",
+  "documents": [
+    "教育・保育給付認定申請書兼現況届",
+    "保育所等利用申込書（認定申請書兼現況届とともに、利用を希望する子ども1人につき1枚ずつ必要）",
+    "保育を必要とする事由を証明するための書類（就労は就労証明書など。必要書類の有効期間は証明日から原則2か月以内）",
+    "利用者負担額（保育料）を決定するための書類（令和8年1月2日以降に小樽市へ転入した場合の所得・課税証明書など、該当する世帯のみ）"
+  ],
+  "interview": "入所日より前に施設で面談を行う。面談日は利用調整の結果を連絡するときに伝えられる",
+  "notes": [
+    "世帯の状況によって必要書類が異なるため、事前に子育て支援課教育保育係窓口へ行って書類を受け取る（小樽市公式LINEでも必要書類を確認できる）",
+    "申込期間内に必要書類がすべて揃わない場合は利用調整の対象にならない",
+    "利用調整の優先度は申込書の提出順ではなく、保育を必要とする順番で決まる",
+    "認定こども園は、市への申込み前に施設へ直接連絡し、事前に見学して費用負担などを確認するよう求められている",
+    "入所が決まり次第育児休業を短縮して復帰する場合は、就労証明書への記載が必要"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.otaru.lg.jp/docs/2021122100018/",
+      "quote": "市内の保育所等【認可保育所、認定こども園（保育部分）】の令和９年４月からの利用を希望する場合、申込みが必要です。"
+    },
+    "firstApply": {
+      "url": "https://www.city.otaru.lg.jp/docs/2021122100018/",
+      "quote": "１次：令和９年１月４日（月）から２月１５日（月）まで"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.otaru.lg.jp/docs/2021122100018/",
+      "quote": "郵送の場合、申込期間内必着です。消印は無効ですので御注意ください。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.otaru.lg.jp/docs/2021122100018/",
+      "quote": "必要書類と印鑑をご用意のうえ、子育て支援課教育保育係窓口に書類を提出してください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.otaru.lg.jp/docs/2021122100018/",
+      "quote": "郵送の場合、担当係に郵便物が届いた日を受付日としますが、書類に不備がある場合、不備解消後の受付となります。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.otaru.lg.jp/docs/2021122100018/",
+      "quote": "小樽市役所別館５階　子育て支援課教育保育係窓口"
+    },
+    "firstResult": {
+      "url": "https://www.city.otaru.lg.jp/docs/2020111000414/file_contents/0809.pdf",
+      "quote": "毎月２５日頃に表紙の電話番号から連絡します（新年度４月１次調整については３月１１日頃より連絡します。）。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.otaru.lg.jp/docs/2020111000414/file_contents/0809.pdf",
+      "quote": "R９.４月（1次調整） １月４日（月）～２月１５日（月）"
+    },
+    "secondApply": {
+      "url": "https://www.city.otaru.lg.jp/docs/2021122100018/",
+      "quote": "２次：令和９年２月１６日（火）から３月１５日（月）まで"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.otaru.lg.jp/docs/2020111000414/file_contents/0809.pdf",
+      "quote": "※４月（２次調整）は１次調整で申込んだ方の利用調整終了後に利用調整を行います。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.otaru.lg.jp/docs/2020111000414/",
+      "quote": "（２）５月以降の利用申込みについては、利用を希望する月の前々月１６日から前月１５日までです。（１５日が土・日曜日、祝日の場合はその前日まで）"
+    },
+    "documents.0": {
+      "url": "https://www.city.otaru.lg.jp/docs/2020111000414/file_contents/0809.pdf",
+      "quote": "□１ 教育・保育給付認定申請書兼現況届"
+    },
+    "documents.1": {
+      "url": "https://www.city.otaru.lg.jp/docs/2020111000414/file_contents/0809.pdf",
+      "quote": "（１及び２の書類は【利用を希望する子ども１人につき、１枚ずつ必要】です。）"
+    },
+    "documents.2": {
+      "url": "https://www.city.otaru.lg.jp/docs/2020111000414/file_contents/0809.pdf",
+      "quote": "※必要書類の有効期間は証明日から原則２か月以内です。"
+    },
+    "documents.2#2": {
+      "url": "https://www.city.otaru.lg.jp/docs/2020111000414/file_contents/0809.pdf",
+      "quote": "会社勤務、自営業（法人）、内職 就労証明書 勤務先"
+    },
+    "documents.3": {
+      "url": "https://www.city.otaru.lg.jp/docs/2020111000414/file_contents/0809.pdf",
+      "quote": "世帯の状況が下表に当てはまる場合は、必要書類を提出してください。"
+    },
+    "interview": {
+      "url": "https://www.city.otaru.lg.jp/docs/2020111000414/file_contents/0809.pdf",
+      "quote": "・入所日より前に、施設で面談を行います。 （面談日は、利用調整の結果連絡の際にお伝えします。）"
+    },
+    "notes.0": {
+      "url": "https://www.city.otaru.lg.jp/docs/2021122100018/",
+      "quote": "利用を希望される世帯の状況によって必要書類が異なりますので、事前に子育て支援課教育保育係窓口へお越しください。"
+    },
+    "notes.0#2": {
+      "url": "https://www.city.otaru.lg.jp/docs/2021122100018/",
+      "quote": "小樽市公式LINEからも必要書類の確認ができるようになりました。"
+    },
+    "notes.1": {
+      "url": "https://www.city.otaru.lg.jp/docs/2020111000414/",
+      "quote": "上記申込期間内に必要書類が揃わない場合、利用調整の対象とはなりませんのでご了承ください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.otaru.lg.jp/docs/2020111000414/file_contents/0809.pdf",
+      "quote": "利用調整（選考）の優先度は、申込書が提出された順番ではなく、保育を必要とする順番（世帯の就労状況や家族構成等）によって決まります"
+    },
+    "notes.3": {
+      "url": "https://www.city.otaru.lg.jp/docs/2020111000414/file_contents/0809.pdf",
+      "quote": "認定こども園については、市への申込み前に直接施設へ連絡し、必ず事前に見学された上で費用負担等について御確認いただきますようお願いいたします。"
+    },
+    "notes.4": {
+      "url": "https://www.city.otaru.lg.jp/docs/2020111000414/file_contents/0809.pdf",
+      "quote": "保育所等への入所が決定次第、育児休業を短縮して復帰する場合、就労証明書への記載が必要になります。"
+    }
+  },
+  "sources": [
+    {
+      "label": "小樽市「【新年度】保育所等の利用申込みについて」",
+      "url": "https://www.city.otaru.lg.jp/docs/2021122100018/"
+    },
+    {
+      "label": "小樽市「保育所・幼稚園等の利用について」",
+      "url": "https://www.city.otaru.lg.jp/docs/2020111000414/"
+    },
+    {
+      "label": "小樽市「保育所等利用申込みの御案内」（令和8年9月1日改訂）",
+      "url": "https://www.city.otaru.lg.jp/docs/2020111000414/file_contents/0809.pdf"
+    }
+  ]
+}

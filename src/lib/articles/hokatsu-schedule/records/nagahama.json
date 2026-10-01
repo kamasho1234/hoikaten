@@ -1,0 +1,212 @@
+{
+  "citySlug": "nagahama",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "長浜市「令和9年度 保育所・認定こども園(長時部)の利用(入所)申込案内」",
+    "url": "https://www.city.nagahama.lg.jp/0000017088.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年9月7日（月曜日）から申込書類を配布",
+  "firstApply": "令和8年10月6日（火曜日）〜10月16日（金曜日）（第1次募集）。電子申込フォームは初日午前9時から最終日午後4時45分まで、書類持参は期間中の平日午前9時〜午後4時45分、郵送（簡易書留）は期間内必着",
+  "applyMethods": "電子申込フォーム、書類持参、郵送（簡易書留で幼児課へ）の3つ。第1次募集の書類持参は第一希望の園に、事前に予約した日時に保護者が書類一式を持参する（市立園はWeb予約、私立園は電話予約）。園に提出できない場合は幼児課（本庁舎5階）かくらし窓口課（北部合同庁舎1階）でも受付",
+  "firstResult": "定員超過で第1希望施設に入所できない人には令和8年12月初旬に結果通知を送付。利用が決定した人には令和8年12月末に「支給認定証」と「利用承諾通知書」を送付",
+  "secondApply": "令和9年2月2日（火曜日）〜2月12日（金曜日）（第2次募集）。第1次で決まらず希望園を変更する人はこの受付期限までに「希望変更届」を提出",
+  "secondResult": "令和9年2月下旬に郵送",
+  "midYearDeadline": "5月以降の入所は月ごとに受付期間が異なる（例: 令和9年5月入所は令和9年2月26日〜3月10日）。申込予定園への事前連絡が必要",
+  "documents": [
+    "認定申請書兼利用申込書（子どものための教育・保育給付認定申請書 兼 特定教育・保育施設等利用申込書）",
+    "保育の必要性がわかる書類（保育が必要な理由によって異なる）",
+    "個人番号申告書（令和8年1月1日時点で長浜市外に住所があった場合）",
+    "本人確認書類（電子申込フォームでの申込みでは、データ化して準備する）",
+    "申込時点で未出生の子どもの場合は、出産予定日のわかる書類（母子手帳等）"
+  ],
+  "interview": "特に私立園を希望する場合は、申込みの前に園見学をするよう求められている。見学日時の予約は直接園へ連絡する",
+  "ikukyu": "申込書の「希望する施設を利用できない場合は、育児休業の延長を許容できる」にチェックすると、利用調整の優先順位が下がる（マイナス20点）",
+  "notes": [
+    "すでに保育所・認定こども園（長時部）に在園中の0歳児〜新3歳児も、あらためて申込みが必要（自動的に進級できない）",
+    "申込書に書いたすべての園（最大第3希望まで）を対象に利用調整を行う",
+    "令和8年度に利用を待っている人も、改めて申込みが必要",
+    "転入予定（転入先住所が確定している場合のみ）でも申込みできるが、利用月の前月末までに転入手続きが完了していないと利用決定は無効になる",
+    "提出した書類の返却やコピーの受け渡しはできないので、控えが必要なら事前に自分でコピーを取る"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.nagahama.lg.jp/0000017088.html",
+      "quote": "申込時において、出生前であっても令和9年4月利用(入所)を希望される場合は、上記受付期間中に申し込んでください。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.nagahama.lg.jp/0000017088.html",
+      "quote": "申込書類の配布開始は令和8年9月7日(月曜日)です。"
+    },
+    "firstApply": {
+      "url": "https://www.city.nagahama.lg.jp/0000017088.html",
+      "quote": "・令和9年4月利用(入所)希望【第1次募集】：令和8年10月6日(火曜日)から令和8年10月16日(金曜日)"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.nagahama.lg.jp/0000017088.html",
+      "quote": "申込受付期間初日の午前9時から申込受付期間最終日の午後4時45分まで"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.nagahama.lg.jp/0000017088.html",
+      "quote": "申込受付期間中の平日午前9時から午後4時45分まで"
+    },
+    "firstApply#4": {
+      "url": "https://www.city.nagahama.lg.jp/0000017088.html",
+      "quote": "申込受付期間内必着で幼児課へ送付してください。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.nagahama.lg.jp/0000017088.html",
+      "quote": "◇電子申込フォームによる申込み手続きや注意事項などについては「電子申込フォームはこちら別ウィンドウで開く」をご確認ください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.nagahama.lg.jp/0000017088.html",
+      "quote": "※事前に受付日時の予約が必要です。予約された日時に保護者が申込受付場所へ申込書類一式をお持ちください。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.nagahama.lg.jp/0000017088.html",
+      "quote": "〇申込受付場所：第一希望の園"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.nagahama.lg.jp/0000017088.html",
+      "quote": "※市立園の場合、Web予約となります。(9月24日以降、事前予約はこちら別ウィンドウで開くから予約いただけます。）"
+    },
+    "applyMethods#5": {
+      "url": "https://www.city.nagahama.lg.jp/0000017088.html",
+      "quote": "私立園の場合、電話予約となります。"
+    },
+    "applyMethods#6": {
+      "url": "https://www.city.nagahama.lg.jp/0000017088.html",
+      "quote": "※園に提出できない場合は、幼児課(本庁舎5階)またはくらし窓口課(北部合同庁舎1階)でも受付します。"
+    },
+    "applyMethods#7": {
+      "url": "https://www.city.nagahama.lg.jp/0000017088.html",
+      "quote": "郵送(簡易書留)でも受け付けます。"
+    },
+    "firstResult": {
+      "url": "https://www.city.nagahama.lg.jp/0000017088.html",
+      "quote": "定員を超える申込があり、第1希望施設に入所できない方には、令和8年12月初旬に結果通知を送付します。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.nagahama.lg.jp/0000017088.html",
+      "quote": "利用(入所)が決定した方には、令和8年12月末に「支給認定証」と「利用承諾通知書」を送付します。"
+    },
+    "secondApply": {
+      "url": "https://www.city.nagahama.lg.jp/0000017088.html",
+      "quote": "・令和9年4月利用(入所)希望【第2次募集】：令和9年2月2日(火曜日)から令和9年2月12日(金曜日)"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.nagahama.lg.jp/0000017088.html",
+      "quote": "【第2次調整】第1次調整で利用(入所)が決定しなかった方で、希望園を変更される場合は、第2次募集の受付期限までに「希望変更届」を提出してください。"
+    },
+    "secondResult": {
+      "url": "https://www.city.nagahama.lg.jp/0000017088.html",
+      "quote": "第2次調整の結果通知は2月下旬に郵送いたします。"
+    },
+    "secondResult#2": {
+      "url": "https://www.city.nagahama.lg.jp/0000017088.html",
+      "quote": "・令和9年4月利用(入所)希望【第2次募集】：令和9年2月2日(火曜日)から令和9年2月12日(金曜日)"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.nagahama.lg.jp/0000017088.html",
+      "quote": "・令和9年度の5月以降の利用（入所）希望：月ごとに受付期間が異なります。"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.nagahama.lg.jp/0000017088.html",
+      "quote": "令和9年5月入所：令和9年2月26日(金曜日)から令和9年3月10日(水曜日)"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.nagahama.lg.jp/0000017088.html",
+      "quote": "ただし、年間の受入計画に必要ですので、申込予定園へ連絡をしてください。"
+    },
+    "documents.0": {
+      "url": "https://www.city.nagahama.lg.jp/0000017088.html",
+      "quote": "認定申請書兼利用申込書をダウンロードいただけます。"
+    },
+    "documents.0#2": {
+      "url": "https://www.city.nagahama.lg.jp/cmsfiles/contents/0000017/17088/30R9guidebook.pdf",
+      "quote": "①子どものための教育・保育給付認定申請書兼特定教育・保育施設等利用申込書"
+    },
+    "documents.1": {
+      "url": "https://www.city.nagahama.lg.jp/0000017088.html",
+      "quote": "◇事前に「保育の必要性がわかる書類」をお手元にご準備いただく必要があります。"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.nagahama.lg.jp/0000017088.html",
+      "quote": "※保育が必要な理由等によって必要な書類が異なります。"
+    },
+    "documents.2": {
+      "url": "https://www.city.nagahama.lg.jp/0000017088.html",
+      "quote": "令和8年1月1日時点で長浜市外に住所があった方はこちらも提出してください。"
+    },
+    "documents.2#2": {
+      "url": "https://www.city.nagahama.lg.jp/cmsfiles/contents/0000017/17088/30R9guidebook.pdf",
+      "quote": "令和8年1月1日時点の住所が長浜市外に該当する方がおられる場合は、別紙「個人番号申告書」を添付してください。"
+    },
+    "documents.3": {
+      "url": "https://www.city.nagahama.lg.jp/cmsfiles/contents/0000017/17088/30R9guidebook.pdf",
+      "quote": "本人確認書類を準備し、データ化してください。"
+    },
+    "documents.4": {
+      "url": "https://www.city.nagahama.lg.jp/cmsfiles/contents/0000017/17088/30R9guidebook.pdf",
+      "quote": "また、申込時点で未出生のお子さまの申込みをされる場合は、出産予定日のわかる書類（母子手帳等）の提出が必要です。"
+    },
+    "interview": {
+      "url": "https://www.city.nagahama.lg.jp/cmsfiles/contents/0000017/17088/30R9guidebook.pdf",
+      "quote": "また、申込みにあたり、とくに私立園を希望される場合は、事前に園見学をしていただきますよ"
+    },
+    "ikukyu": {
+      "url": "https://www.city.nagahama.lg.jp/cmsfiles/contents/0000017/17088/1.R9hoikusyomousikomi(2.3gou).pdf",
+      "quote": "下記項目にチェックした場合、利用調整の優先順位が下がります。（マイナス20点）"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.nagahama.lg.jp/cmsfiles/contents/0000017/17088/1.R9hoikusyomousikomi(2.3gou).pdf",
+      "quote": "□希望する施設を利用できない場合は、育児休業の延長を許容できる"
+    },
+    "notes.0": {
+      "url": "https://www.city.nagahama.lg.jp/0000017088.html",
+      "quote": "既に保育所または認定こども園(長時部)に在園中の0歳児から新3歳児(令和9年4月時点)の児童も、あらためて利用(入所)申込が必要です。自動的に進級できるものではありません。"
+    },
+    "notes.1": {
+      "url": "https://www.city.nagahama.lg.jp/0000017088.html",
+      "quote": "利用申込書に記載いただいたすべての園(最大第3希望まで)を対象として利用調整を行うことから、第1希望園の利用(入所)ができない場合は、第2希望園以降も含めて調整を行います。"
+    },
+    "notes.2": {
+      "url": "https://www.city.nagahama.lg.jp/0000017088.html",
+      "quote": "令和8年度において、利用(入所)をお待ちいただいている場合も、改めて申込みが必要です。"
+    },
+    "notes.3": {
+      "url": "https://www.city.nagahama.lg.jp/0000017088.html",
+      "quote": "ただし、利用(入所)が決定していても、利用(入所)月の前月末までに転入の手続きが完了していない場合は、利用(入所)決定が無効となりますのでご注意ください。"
+    },
+    "notes.3#2": {
+      "url": "https://www.city.nagahama.lg.jp/0000017088.html",
+      "quote": "申込時において、長浜市への転入を予定されている場合(転入先住所が確定している場合のみ)も受け付けます。"
+    },
+    "notes.4": {
+      "url": "https://www.city.nagahama.lg.jp/0000017088.html",
+      "quote": "申請書類等、提出した書類の返却やコピーのお渡しはできませんので、控えが必要な方は必ず事前にご自身でコピーを取るようお願いいたします。"
+    },
+    "documents.3#2": {
+      "url": "https://www.city.nagahama.lg.jp/0000017088.html",
+      "quote": "STEP.1　申込書以外の提出書類を準備しデータ化してください。"
+    },
+    "interview#2": {
+      "url": "https://www.city.nagahama.lg.jp/cmsfiles/contents/0000017/17088/30R9guidebook.pdf",
+      "quote": "※見学日時の予約などは、直接、園へ連絡してください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "長浜市「令和9年度 保育所・認定こども園(長時部)の利用(入所)申込案内」",
+      "url": "https://www.city.nagahama.lg.jp/0000017088.html"
+    },
+    {
+      "label": "長浜市「令和9年度 長浜市幼稚園・保育所・認定こども園ガイドブック」",
+      "url": "https://www.city.nagahama.lg.jp/cmsfiles/contents/0000017/17088/30R9guidebook.pdf"
+    },
+    {
+      "label": "長浜市「子どものための教育・保育給付認定申請書 兼 特定教育・保育施設等利用申込書（2・3号用）」",
+      "url": "https://www.city.nagahama.lg.jp/cmsfiles/contents/0000017/17088/1.R9hoikusyomousikomi(2.3gou).pdf"
+    }
+  ]
+}

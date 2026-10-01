@@ -1,0 +1,222 @@
+{
+  "citySlug": "kuwana",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "桑名市「令和9年度の保育施設入所（園）募集について」",
+    "url": "https://www.city.kuwana.lg.jp/hoiku/kosodatekyouiku/kosodate/2026r9b.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年9月1日〜9月30日（LINEの「写真で申請」と郵送。LINEは9月1日10時から送信でき、締切はいずれも9月30日16時30分）。市役所窓口への来庁（LINE予約・一般受付）は令和8年9月15日〜9月30日",
+  "applyMethods": "桑名市LINE公式アカウントの専用フォームから書類の写真を送る（受付番号の発行で完了）、郵送（簡易書留を推奨。〒511-8601 桑名市中央町二丁目37番地 桑名市役所 幼保支援課 保育施設入所担当宛）、または桑名市役所2階 幼保支援課の窓口に来庁して提出（LINEでの事前予約が必要。予約が難しい場合は予約なしの一般受付も可）。各保育所（園）・地区市民センター（大山田・多度・長島）・サンファーレサテライトオフィスでは受け付けない。土日祝日の受付は無い",
+  "firstResult": "令和9年1月中旬に利用調整の結果（入所可・不可）を幼保支援課から郵送で通知。利用可の場合は決定した保育施設で説明会がある",
+  "secondApply": "令和9年2月1日〜2月10日（電子・郵送・来庁予約・一般受付。電子申請の締切は2月10日午後4時30分）。二次募集は一次募集の欠員募集で、一次募集で園が決まった人が申し込むには取下げが必要",
+  "secondResult": "令和9年2月下旬に利用調整の結果を通知",
+  "midYearDeadline": "令和9年5月〜令和10年3月の入所は、入所希望月の前月の受付期間に申し込む（例: 令和9年5月入所は令和9年4月1日〜4月9日）。4月入所で利用不可だった人も、入所希望月の前月1日から10日に改めて申し込む",
+  "documents": [
+    "桑名市保育施設等入所（園）申請書、桑名市施設型給付費・地域型保育給付費等教育・保育給付認定申請書、家庭状況書",
+    "保育の必要性を確認する書類（父母それぞれ）。就労の場合は就労証明書（申込日より3か月以内に証明されたもの）と直近の給料明細",
+    "求職、妊娠・出産、育休復帰、年度内育休復帰で申し込む場合は誓約書",
+    "転園する人、一次募集で決定した園を取り下げる人などは、現在の園を令和9年3月31日で退園する旨を書いた特定教育・保育施設等退所（園）届兼施設型給付費等支給認定取下届"
+  ],
+  "interview": "窓口で申請する3〜5歳児は受付時にその場で面接があり、子どもの同伴が必須。0〜2歳児は原則書類確認のみで面接・同伴は不要。LINE・郵送で申請する3〜5歳児は申込時に面接の希望を聞かれ、希望者には後日面接がある。全年齢とも、保育に配慮が必要な場合は後日聞き取りや面接を依頼されることがある",
+  "notes": [
+    "4月入所の一次募集は半年前の申込で空き状況が確定していないため、空き状況の公開は無い",
+    "LINEでの申請は締め切り直前にアクセスが集中してつながりにくくなる恐れがあり、締め切り時間を過ぎた申請は受け付けない",
+    "令和9年4月中に育休復帰予定で申し込んだ場合は、4月中に復帰したことが分かる復帰証明書を就労先に書いてもらい、令和9年5月末までに提出する",
+    "年度内育休復帰予定で申し込んだ場合は、令和9年度内に育休から復帰する必要がある",
+    "育休復帰は育児休業を取った就労先に戻ること。職場に戻らず退職して別の会社で働く場合は育休復帰と判断されない",
+    "消えるボールペンや修正テープを使った書類は不備として受け付けない"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.kuwana.lg.jp/documents/12449/sassi.pdf",
+      "quote": "令和９年４月入所（園）一次募集 （電子・郵送申請） 令和８年９月１日～９月 30 日"
+    },
+    "firstApply": {
+      "url": "https://www.city.kuwana.lg.jp/documents/12449/sassi.pdf",
+      "quote": "令和９年４月入所（園）一次募集 （電子・郵送申請） 令和８年９月１日～９月 30 日 （来庁予約・一般受付） 令和８年９月 15 日～９月 30 日"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.kuwana.lg.jp/hoiku/kosodatekyouiku/kosodate/2026r9b.html",
+      "quote": "1次募集  ：9月1日10時00分〜9月30日16時30分（先行受付）"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.kuwana.lg.jp/hoiku/kosodatekyouiku/kosodate/2026r9b.html",
+      "quote": "1次募集  ：9月1日〜9月30日16時30分（先行受付）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.kuwana.lg.jp/hoiku/kosodatekyouiku/kosodate/2026r9b.html",
+      "quote": "写真で申請  ：専用フォームから送信（トーク画面への直接投稿は不可）。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.kuwana.lg.jp/hoiku/kosodatekyouiku/kosodate/2026r9b.html",
+      "quote": "申請完了  ：受付番号の発行をもって完了となります。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.kuwana.lg.jp/hoiku/kosodatekyouiku/kosodate/2026r9b.html",
+      "quote": "市役所に行かずに郵送で申請できます（簡易書留を推奨）。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.kuwana.lg.jp/hoiku/kosodatekyouiku/kosodate/2026r9b.html",
+      "quote": "〒511-8601桑名市中央町二丁目37番地　桑名市役所　幼保支援課　保育施設入所担当宛"
+    },
+    "applyMethods#5": {
+      "url": "https://www.city.kuwana.lg.jp/hoiku/kosodatekyouiku/kosodate/2026r9b.html",
+      "quote": "市役所の窓口で直接提出します。LINEでの事前予約が必要です。"
+    },
+    "applyMethods#6": {
+      "url": "https://www.city.kuwana.lg.jp/hoiku/kosodatekyouiku/kosodate/2026r9b.html",
+      "quote": "LINE予約が難しい場合は、予約なしの一般受付も可能です。"
+    },
+    "applyMethods#7": {
+      "url": "https://www.city.kuwana.lg.jp/hoiku/kosodatekyouiku/kosodate/2026r9b.html",
+      "quote": "各保育所（園）、各地区市民センター（大山田・多度・長島）、サンファーレサテライトオフィスでは受付できません。"
+    },
+    "applyMethods#8": {
+      "url": "https://www.city.kuwana.lg.jp/hoiku/kosodatekyouiku/kosodate/2026r9b.html",
+      "quote": "土日祝日の受付はありません。"
+    },
+    "applyMethods#9": {
+      "url": "https://www.city.kuwana.lg.jp/hoiku/kosodatekyouiku/kosodate/2026r9b.html",
+      "quote": "場所  ：桑名市役所2階　幼保支援課"
+    },
+    "firstResult": {
+      "url": "https://www.city.kuwana.lg.jp/documents/12449/tyuijikou1-1.pdf",
+      "quote": "令和９年１月中旬 利用調整結果通知（入所（園）可・不可）"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.kuwana.lg.jp/documents/12449/sassi.pdf",
+      "quote": "令和９年４月入所（園）希望 一次募集 ／ 令和９年１月中旬"
+    },
+    "firstResult#3": {
+      "url": "https://www.city.kuwana.lg.jp/documents/12449/sassi.pdf",
+      "quote": "幼保支援課より通知を郵送"
+    },
+    "firstResult#4": {
+      "url": "https://www.city.kuwana.lg.jp/documents/12449/sassi.pdf",
+      "quote": "決定した保育施設で説明会が行われますので 参加してください。"
+    },
+    "secondApply": {
+      "url": "https://www.city.kuwana.lg.jp/documents/12449/sassi.pdf",
+      "quote": "〃     二次募集 （電子・郵送申請 ・来庁予約・一般受付） 令和９年２月１日～２月 10 日"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.kuwana.lg.jp/documents/12449/sassi.pdf",
+      "quote": "（電子申請の締切は一次募集が９月 30 日午後４時 30 分 二次募集が２月 10 日午後４時 30 分）"
+    },
+    "secondApply#3": {
+      "url": "https://www.city.kuwana.lg.jp/hoiku/kosodatekyouiku/kosodate/2026r9b.html",
+      "quote": "二次募集は一次募集の欠員募集です。一次募集で園が決まった方が申し込む場合は取下げが必要です。"
+    },
+    "secondResult": {
+      "url": "https://www.city.kuwana.lg.jp/documents/12449/sassi.pdf",
+      "quote": "一次募集 ／ 令和９年１月中旬 二次募集 ／ 令和９年２月下旬"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.kuwana.lg.jp/documents/12449/sassi.pdf",
+      "quote": "令和９年５月入所（園）募集 令和９年４月１日～４月９日 令和９年３月 31 日(水)"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.kuwana.lg.jp/documents/12449/sassi.pdf",
+      "quote": "入所（園）希望月の前月１日から 10 日（上部参 照）に再度お申込みください。"
+    },
+    "documents.0": {
+      "url": "https://www.city.kuwana.lg.jp/hoiku/kosodatekyouiku/kosodate/2026r9b.html",
+      "quote": "保育施設入所（園）申込には次の（1）及び該当する場合（2）及び（3）の書類が必要となりますので、ご確認ください。"
+    },
+    "documents.0#2": {
+      "url": "https://www.city.kuwana.lg.jp/hoiku/kosodatekyouiku/kosodate/2026r9b.html",
+      "quote": "桑名市保育施設等入所（園）申請書"
+    },
+    "documents.0#3": {
+      "url": "https://www.city.kuwana.lg.jp/hoiku/kosodatekyouiku/kosodate/2026r9b.html",
+      "quote": "桑名市施設型給付費・地域型保育給付費等教育・保育給付認定申請書"
+    },
+    "documents.0#4": {
+      "url": "https://www.city.kuwana.lg.jp/hoiku/kosodatekyouiku/kosodate/2026r9b.html",
+      "quote": "家庭状況書（ （PDF：230KB） ワード：49KB）（ワード：49KB） 記入例 （PDF：223KB）"
+    },
+    "documents.1": {
+      "url": "https://www.city.kuwana.lg.jp/hoiku/kosodatekyouiku/kosodate/2026r9b.html",
+      "quote": "保育の必要性を確認する資料（母・父ともに確認が必要）"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.kuwana.lg.jp/hoiku/kosodatekyouiku/kosodate/2026r9b.html",
+      "quote": "就労証明書（申込日より3か月以内に証明されたもの）"
+    },
+    "documents.1#3": {
+      "url": "https://www.city.kuwana.lg.jp/documents/12449/sassi.pdf",
+      "quote": "例：就労の場合 → 「就労証明書」（P21・23 様式④－1）＋「直近の給料明細」"
+    },
+    "documents.2": {
+      "url": "https://www.city.kuwana.lg.jp/documents/12449/sassi.pdf",
+      "quote": "□ 求職、妊娠・出産、育休復帰、年度内育休復帰の方・・・誓約書（Ｐ29）"
+    },
+    "documents.3": {
+      "url": "https://www.city.kuwana.lg.jp/hoiku/kosodatekyouiku/kosodate/2026r9b.html",
+      "quote": "「現在通う保育施設等を令和9年3月31日で退園する」旨を記述した次の書類を提出していただく必要があります。"
+    },
+    "documents.3#2": {
+      "url": "https://www.city.kuwana.lg.jp/hoiku/kosodatekyouiku/kosodate/2026r9b.html",
+      "quote": "（3）「転園する方」、「一次募集で決定した保育所を取下げたい方」、「一次募集で決定した保育所とは別の保育所を二次募集で申し込みたい方」が必要な書類"
+    },
+    "documents.3#3": {
+      "url": "https://www.city.kuwana.lg.jp/hoiku/kosodatekyouiku/kosodate/2026r9b.html",
+      "quote": "特定教育・保育施設等退所（園）届兼施設型給付費等支給認定取下届"
+    },
+    "interview": {
+      "url": "https://www.city.kuwana.lg.jp/hoiku/kosodatekyouiku/kosodate/2026r9b.html",
+      "quote": "3歳〜5歳児  ：受付時にその場で面接を行います。 必ずお子様同伴  でお越しください。"
+    },
+    "interview#2": {
+      "url": "https://www.city.kuwana.lg.jp/hoiku/kosodatekyouiku/kosodate/2026r9b.html",
+      "quote": "0歳〜2歳児  ：原則、書類確認のみで 面接・お子様の同伴は不要  です。"
+    },
+    "interview#3": {
+      "url": "https://www.city.kuwana.lg.jp/hoiku/kosodatekyouiku/kosodate/2026r9b.html",
+      "quote": "3歳〜5歳児  ：申込時に面接の希望を伺い、希望者には後日面接を行います（日程は後日連絡）。"
+    },
+    "interview#4": {
+      "url": "https://www.city.kuwana.lg.jp/hoiku/kosodatekyouiku/kosodate/2026r9b.html",
+      "quote": "※ただし、全ての年齢において、保育に配慮が必要な場合は後日、聞き取りや面接をお願いすることがあります。"
+    },
+    "notes.0": {
+      "url": "https://www.city.kuwana.lg.jp/documents/12449/sassi.pdf",
+      "quote": "なお、４月入所（園）一次募集は半 年前の申込により空き状況が確定していないため、公開はありません。"
+    },
+    "notes.1": {
+      "url": "https://www.city.kuwana.lg.jp/hoiku/kosodatekyouiku/kosodate/2026r9b.html",
+      "quote": "※LINEから申請される場合、締め切り直前はアクセスが集中し、つながりにくくなる恐れがあります。締め切り時間を過ぎた申請はお受けできませんので、お時間に余裕をもってご申請ください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.kuwana.lg.jp/hoiku/kosodatekyouiku/kosodate/2026r9b.html",
+      "quote": "令和9年4月中に育休復帰予定で申し込みの方については、4月中に復帰した事が分かる「復帰証明書」を就労先に記入いただき、令和9年5月末までに提出する必要がありますのでご注意ください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.kuwana.lg.jp/hoiku/kosodatekyouiku/kosodate/2026r9b.html",
+      "quote": "年度内育休復帰予定で申し込みの方については、令和9年度内に育休復帰する必要がありますのでご注意ください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.kuwana.lg.jp/hoiku/kosodatekyouiku/kosodate/2026r9b.html",
+      "quote": "育休復帰とは、育児休業を取得した就労先に行うものです。職場復帰せず退職し、別会社へ就労した場合等は、育休復帰と判断できませんので、十分にご注意ください。"
+    },
+    "notes.5": {
+      "url": "https://www.city.kuwana.lg.jp/documents/12449/sassi.pdf",
+      "quote": "○消えるボールペンや修正テープを使用している場合は、不備として受付できません。"
+    }
+  },
+  "sources": [
+    {
+      "label": "桑名市「令和9年度の保育施設入所（園）募集について」",
+      "url": "https://www.city.kuwana.lg.jp/hoiku/kosodatekyouiku/kosodate/2026r9b.html"
+    },
+    {
+      "label": "桑名市「令和9年度保育施設入所（園）申込案内」",
+      "url": "https://www.city.kuwana.lg.jp/documents/12449/sassi.pdf"
+    },
+    {
+      "label": "桑名市「申込受付後の注意事項（R9.4入所一次募集）」",
+      "url": "https://www.city.kuwana.lg.jp/documents/12449/tyuijikou1-1.pdf"
+    }
+  ]
+}

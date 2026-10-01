@@ -1,0 +1,180 @@
+{
+  "citySlug": "okinawa",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "沖縄市「R9年度保育所等入所、公立（沖縄市立）幼稚園入園及び預かり保育のご案内」",
+    "url": "https://www.city.okinawa.okinawa.jp/k027-003/kosodate/hoikuen/nyuusho/p00011.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年10月7日（水曜日）〜10月23日（金曜日）。窓口は令和8年10月14日（水曜日）と10月20日（火曜日）のみ午後7時まで受付",
+  "applyMethods": "電子申請（マイナポータルぴったりサービス、令和8年10月7日公開予定）が基本で、24時間受付。電子申請が難しい場合は沖縄市役所地下2階大ホールの窓口で申請できる（午前9時30分〜11時30分、午後1時〜4時）",
+  "firstResult": "1月下旬（予定）に「施設利用内定通知書」と「健康診断書（様式）」が郵送で届く。保留の場合は「入所保留通知」が送られる",
+  "secondApply": "令和8年10月26日（月曜日）〜12月28日（月曜日）。沖縄市役所2階保育・幼稚園課で受付（午前9時〜午後4時）。対象は12月28日までに認定・利用申込申請をした人",
+  "secondResult": "利用可能となった場合は、内定者へ直接電話で連絡し、入所希望を確認（打診）する",
+  "midYearDeadline": "入所希望月の2か月前までに申し込む（例: 令和9年5月1日入所希望は令和9年3月31日締切）",
+  "documents": [
+    "利用申込書（児童1人につき1枚）",
+    "保育所・幼稚園受付調査票（世帯で1枚）",
+    "保育を必要とする事由を証明する書類（就労証明書など。一斉申込期間中は記入日が令和8年7月1日以降のものが有効、それ以降は申請日の3か月以内に作成されたもの）",
+    "公立（沖縄市立）幼稚園に申し込む場合は「保育所等及び市立幼稚園について（お知らせ）」の写し",
+    "沖縄市へ転入予定の場合は「賃貸借契約書」の写しなど、転入先の住所と転入予定日が確認できるもの"
+  ],
+  "interview": "内定後、保護者が内定施設に直接連絡して三者面談の日程を調整する。面談の際に内定施設へ健康診断書を提出する",
+  "ikukyu": "育休延長を希望する場合は、利用申込書1ページ目下部の「育休延長により他の入園希望者を優先的に案内することに了承できます。」欄にチェックを入れる。チェックがあると他の入園希望者が優先されるが、空きがあれば通常どおり入所調整が行われる",
+  "notes": [
+    "すでに保育施設を利用していて継続を希望する人や、令和8年度の申込で待機になっている人も、改めて入所申込が必要",
+    "申込書は黒か青のペンで記入する。消せるペンや鉛筆で書いたものは受け付けない",
+    "4月入園の一斉申込期限を過ぎても受付はされるが、二次選考の対象になる",
+    "育児休業中で就労を理由に申し込む場合、原則として入所月の翌月1日までに職場復帰することが入所要件",
+    "胡屋あけぼの保育所は令和10年度末に閉所する予定で、令和11年4月1日に転園することを条件に受け入れる",
+    "育児休業給付金の延長手続きで保育所等の利用申込書の写しが必要になるため、提出前にコピーをとって保管しておく"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.okinawa.okinawa.jp/k027-003/kosodate/hoikuen/nyuusho/p00011.html",
+      "quote": "※令和9年4月入所希望の場合、一斉申込期間（令和8年10月7日（水曜日）～10月23日（金曜日））までに電子申請または窓口申込が必要です。"
+    },
+    "firstApply": {
+      "url": "https://www.city.okinawa.okinawa.jp/k027-003/kosodate/hoikuen/nyuusho/p00011.html",
+      "quote": "受付期間：令和8年10月7日（水曜日）～10月23日（金曜日）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.okinawa.okinawa.jp/k027-003/kosodate/hoikuen/nyuusho/p00011.html",
+      "quote": "ただし、令和8年10月14日（水曜日）と10月20日（火曜日）は午後7時まで受付します。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.okinawa.okinawa.jp/k027-003/kosodate/hoikuen/nyuusho/p00011.html",
+      "quote": "令和9年度の申込みは、電子申請（マイナポータルぴったりサービス）をご利用ください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.okinawa.okinawa.jp/k027-003/kosodate/hoikuen/nyuusho/p00011.html",
+      "quote": "やむを得ず電子申請が難しい方は、窓口申請も可能です。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.okinawa.okinawa.jp/k027-003/kosodate/hoikuen/nyuusho/p00011.html",
+      "quote": "受付場所：沖縄市役所地下2階大ホール"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.okinawa.okinawa.jp/k027-003/kosodate/hoikuen/nyuusho/p00011.html",
+      "quote": "受付時間：午前9時30分～11時30分、午後1時～4時"
+    },
+    "applyMethods#5": {
+      "url": "https://www.city.okinawa.okinawa.jp/k027-003/kosodate/hoikuen/nyuusho/p00011.html",
+      "quote": "新規申込（電子申請）は、末日が土日祝日にあたる場合も申請可能です。（24時間受付）"
+    },
+    "applyMethods#6": {
+      "url": "https://www.city.okinawa.okinawa.jp/k027-003/kosodate/hoikuen/nyuusho/p00011.html",
+      "quote": "※令和8年10月7日（水曜日）公開予定"
+    },
+    "firstResult": {
+      "url": "https://www.city.okinawa.okinawa.jp/k027-003/kosodate/hoikuen/nyuusho/p00011.html",
+      "quote": "希望園変更は一斉申込期間内および、一次調整結果後（1月下旬予定）に、沖縄市HPに公開される「空き枠状況一覧」に記載されている期間内のみ受付"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.okinawa.okinawa.jp/k027-003/kosodate/hoikuen/nyuusho/p00011.html",
+      "quote": "「施設利用内定通知書」及び「健康診断書（様式）」が郵送で届きます。"
+    },
+    "firstResult#3": {
+      "url": "https://www.city.okinawa.okinawa.jp/k027-003/kosodate/hoikuen/nyuusho/p00011.html",
+      "quote": "保留の場合「入所保留通知」を送付します。"
+    },
+    "secondApply": {
+      "url": "https://www.city.okinawa.okinawa.jp/k027-003/kosodate/hoikuen/nyuusho/p00011.html",
+      "quote": "受付期間：令和8年10月26日（月曜日）～12月28日（月曜日）"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.okinawa.okinawa.jp/k027-003/kosodate/hoikuen/nyuusho/p00011.html",
+      "quote": "対象者：令和8年12月28日（月曜日）までに「認定・利用申込申請」した方"
+    },
+    "secondApply#3": {
+      "url": "https://www.city.okinawa.okinawa.jp/k027-003/kosodate/hoikuen/nyuusho/p00011.html",
+      "quote": "受付場所：沖縄市役所2階保育・幼稚園課"
+    },
+    "secondApply#4": {
+      "url": "https://www.city.okinawa.okinawa.jp/k027-003/kosodate/hoikuen/nyuusho/p00011.html",
+      "quote": "受付時間：午前9時～午後4時"
+    },
+    "secondResult": {
+      "url": "https://www.city.okinawa.okinawa.jp/k027-003/kosodate/hoikuen/nyuusho/p00011.html",
+      "quote": "利用可能となった場合は、内定者へ直接電話にて連絡。入所希望確認（打診）を行います。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.okinawa.okinawa.jp/k027-003/kosodate/hoikuen/nyuusho/p00011.html",
+      "quote": "受付期間：入所希望月の2か月前までに申込みをお願いします"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.okinawa.okinawa.jp/k027-003/kosodate/hoikuen/nyuusho/p00011.html",
+      "quote": "例）令和9年5月1日入所希望の場合、受付締切は令和9年3月31日"
+    },
+    "documents.0": {
+      "url": "https://www.city.okinawa.okinawa.jp/documents/24475/r9nyuusyoannaisaisyuukou_1.pdf",
+      "quote": "１． 利用申込書 児童1人につき１枚"
+    },
+    "documents.1": {
+      "url": "https://www.city.okinawa.okinawa.jp/documents/24475/r9nyuusyoannaisaisyuukou_1.pdf",
+      "quote": "２. 保育所・幼稚園受付調査票 世帯で１枚"
+    },
+    "documents.2": {
+      "url": "https://www.city.okinawa.okinawa.jp/k027-003/kosodate/hoikuen/nyuusho/p00011.html",
+      "quote": "保育の事由を証明するものは、一斉申込期間中は、記入日が、令和8年7月1日以降の書類が有効となり、一斉申込期間以降は、申請日の3か月以内に作成されたものが有効になります。"
+    },
+    "documents.3": {
+      "url": "https://www.city.okinawa.okinawa.jp/k027-003/kosodate/hoikuen/nyuusho/p00011.html",
+      "quote": "保育所等及び市立幼稚園について（お知らせ）写し（公立（沖縄市立）幼稚園申込の場合）"
+    },
+    "documents.4": {
+      "url": "https://www.city.okinawa.okinawa.jp/k027-003/kosodate/hoikuen/nyuusho/p00011.html",
+      "quote": "2.「賃貸借契約書」の写しなど、転入先の住所、転入予定日が確認できるもの。"
+    },
+    "interview": {
+      "url": "https://www.city.okinawa.okinawa.jp/k027-003/kosodate/hoikuen/nyuusho/p00011.html",
+      "quote": "保護者が内定施設に直接連絡し、三者面談の日程調整を行ってください。"
+    },
+    "interview#2": {
+      "url": "https://www.city.okinawa.okinawa.jp/documents/24475/r9nyuusyoannaisaisyuukou_1.pdf",
+      "quote": "その際に、内定施設への健康診断書の提出が必要です。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.okinawa.okinawa.jp/documents/24475/r9nyuusyoannaisaisyuukou_1.pdf",
+      "quote": "利用申込書１ページ目下部にあります「育休延長により他の入園希望者を優先的に案内することに了承できます。」の欄へチェックマークを入れてください。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.okinawa.okinawa.jp/documents/24475/r9nyuusyoannaisaisyuukou_1.pdf",
+      "quote": "こちらにチェックが入っている場合は、他の入園希望者を優先します。ただし、空きがあれば通常通り入所調整をおこないます。"
+    },
+    "notes.0": {
+      "url": "https://www.city.okinawa.okinawa.jp/k027-003/kosodate/hoikuen/nyuusho/p00011.html",
+      "quote": "現在、既に保育施設を利用しており継続利用を希望する方や、令和8年度入所申込をしており待機になっている方も改めて入所申込が必要です。"
+    },
+    "notes.1": {
+      "url": "https://www.city.okinawa.okinawa.jp/k027-003/kosodate/hoikuen/nyuusho/p00011.html",
+      "quote": "黒か青のペンでご記入下さい。消せるペンや鉛筆で記入した場合は受付できません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.okinawa.okinawa.jp/documents/24475/r9nyuusyoannaisaisyuukou_1.pdf",
+      "quote": "４月入園一斉申込の場合、申込期限を過ぎても受付は可能ですが二次選考の対象となります"
+    },
+    "notes.3": {
+      "url": "https://www.city.okinawa.okinawa.jp/k027-003/kosodate/hoikuen/nyuusho/p00011.html",
+      "quote": "就労での入所要件は、原則として「入所月の翌月1日までに職場復帰すること」となります。"
+    },
+    "notes.4": {
+      "url": "https://www.city.okinawa.okinawa.jp/k027-003/kosodate/hoikuen/nyuusho/p00011.html",
+      "quote": "胡屋あけぼの保育所は、令和10年度末に閉所する予定です。令和8年度および、令和9年度以降の入所に関しては、令和11年4月1日に転園することを条件に受入れを行います。"
+    },
+    "notes.5": {
+      "url": "https://www.city.okinawa.okinawa.jp/k027-003/kosodate/hoikuen/nyuusho/p00011.html",
+      "quote": "そのため保育所等の利用申込書の写しが必要となります。提出する前に事前にコピーをとって保管しておいてください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "沖縄市「R9年度保育所等入所、公立（沖縄市立）幼稚園入園及び預かり保育のご案内」",
+      "url": "https://www.city.okinawa.okinawa.jp/k027-003/kosodate/hoikuen/nyuusho/p00011.html"
+    },
+    {
+      "label": "沖縄市「令和9年度（令和9年4月入園）保育所等及び公立（沖縄市立）幼稚園申込案内」",
+      "url": "https://www.city.okinawa.okinawa.jp/documents/24475/r9nyuusyoannaisaisyuukou_1.pdf"
+    }
+  ]
+}

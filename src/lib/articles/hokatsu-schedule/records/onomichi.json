@@ -1,0 +1,215 @@
+{
+  "citySlug": "onomichi",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "尾道市「令和8年度保育所（園）・認定こども園の新規入園・転園手続について」",
+    "url": "https://www.city.onomichi.hiroshima.jp/site/onohug/86036.html"
+  },
+  "fiscalYear": "R8",
+  "firstApply": "令和7年11月10日（月）〜12月10日（水）。受付時間は平日9時〜16時、土曜9時〜12時（土曜日休園の園は除く）",
+  "applyMethods": "1次受付は第1希望の保育施設に提出する（みなり認定こども園を希望する場合は子育て支援課）。2次受付は子育て支援課・各支所（浦崎・百島は除く）の窓口。尾道市外からの転入予定者は郵送でも申請でき、各受付の締切日までの消印有効",
+  "firstResult": "令和8年2月中旬ごろに決定を通知",
+  "secondApply": "令和8年1月5日（月）〜1月9日（金）。8時30分〜17時15分に子育て支援課・各支所（浦崎・百島は除く）の窓口で受付。1次受付の人を優先的に審査したうえで、残った定員枠に対する申込になる",
+  "secondResult": "令和8年3月上旬ごろに決定を通知",
+  "midYearDeadline": "5月以降の随時入所は、希望月の2か月前から前月10日まで（10日が土日祝日の場合は直前の開庁日）に子育て支援課または各支所（浦崎・百島を除く）へ申し込む。決定は入所希望月の前月20日前後に通知",
+  "documents": [
+    "保育所（園）・認定こども園入所申込書（兼教育・保育給付認定申請書）（A-1）",
+    "保育所（園）・認定こども園入所申込書【補助票】（A-2）",
+    "児童の健康状況申告書（B-2）",
+    "家庭状況書（B-1。世帯で1枚）",
+    "保育を必要とする理由に応じた証明書類（就労は就労証明書。保護者（父母）分が必須で、同居する祖父母が65歳未満の場合も必須）。1次受付期間中に提出する場合は令和7年10月17日以降発行のものが有効",
+    "書類を提出する人の本人確認書類と、申込者のマイナンバーが確認できるもの",
+    "提出者が保護者・同居者以外の場合は委任状",
+    "転入予定の場合は転入が確実であることを証明する書類（不動産売買契約書・賃貸契約書等の写し）"
+  ],
+  "interview": "申込前に保育施設の見学ができる。見学を希望する場合は各施設に直接問い合わせる",
+  "ikukyu": "令和8年度中に育児休業から復職するための入所は、入所希望月を問わず新年度入所申込受付期間以降いつでも申し込め、復職日の最大1か月前を入所日にできる。入所保留通知を受け取るには入所申込が必要。復職後2週間以内に復職日を記入した就労証明書を提出する",
+  "notes": [
+    "入所申込書には第6希望まで書く欄があり、利用調整は原則として記入した保育施設だけで行う",
+    "同じ施設を複数書いても、1施設だけ書いても入所しやすくなることはなく、1施設の希望として扱われる",
+    "1次受付期間に求職中として出した後に就労が決まり、追加書類が1次受付期間に間に合わなかった場合は、12月26日（金）までに子育て支援課か各支所に出せば1次受付と同じ扱いになる",
+    "12月11日（木）から1月4日（日）までは申込書類一式を受け付けない",
+    "同居する65歳未満の祖父母が保育できる場合は入所の優先順位が低くなる",
+    "就労証明書に担当者以外の加筆や申請者本人が記入した恐れがあるものは無効"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.onomichi.hiroshima.jp/site/onohug/86036.html",
+      "quote": "令和8年度の保育所（園）・認定こども園の入所（新規・転園）申し込み受付を次のとおり行います。"
+    },
+    "fiscalYear#2": {
+      "url": "https://www.city.onomichi.hiroshima.jp/uploaded/life/86101_238717_misc.pdf",
+      "quote": "※注）４月入所の申し込みは1次受付、2次受付の期間内のみです。"
+    },
+    "firstApply": {
+      "url": "https://www.city.onomichi.hiroshima.jp/site/onohug/86036.html",
+      "quote": "受付期間：令和7年11月10日（月）～12月10日（水）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.onomichi.hiroshima.jp/site/onohug/86036.html",
+      "quote": "受付時間：平日9時～16時、土曜9時～12時まで※土曜日休園の園は除く"
+    },
+    "applyMethods": {
+      "url": "https://www.city.onomichi.hiroshima.jp/site/onohug/86036.html",
+      "quote": "受付場所：第1希望の保育施設 ※みなり認定こども園に申し込みたい方は、子育て支援課に提出してください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.onomichi.hiroshima.jp/site/onohug/86036.html",
+      "quote": "受付場所：子育て支援課・各支所（浦崎・百島は除く）窓口"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.onomichi.hiroshima.jp/site/onohug/86036.html",
+      "quote": "尾道市外からの転入予定者については、郵送での申請も可能です。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.onomichi.hiroshima.jp/uploaded/life/86101_238723_misc.pdf",
+      "quote": "1次受付、2次受付、随時受付の期間に応じます。（各受付の締切日までの消印有効。）"
+    },
+    "firstResult": {
+      "url": "https://www.city.onomichi.hiroshima.jp/uploaded/life/86101_238717_misc.pdf",
+      "quote": "受付場所 第１希望の保育施設 決定通知時期 令和8 年2月中旬ごろ"
+    },
+    "secondApply": {
+      "url": "https://www.city.onomichi.hiroshima.jp/site/onohug/86036.html",
+      "quote": "受付期間：令和8年1月5日（月）～1月9日（金） 受付時間：8時30分～17時15分 受付場所：子育て支援課・各支所（浦崎・百島は除く）窓口"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.onomichi.hiroshima.jp/uploaded/life/86101_238717_misc.pdf",
+      "quote": "２次受付は１次受付の方を優先的に審査したうえで、残った定員枠に対"
+    },
+    "secondResult": {
+      "url": "https://www.city.onomichi.hiroshima.jp/uploaded/life/86101_238717_misc.pdf",
+      "quote": "受付場所 子育て支援課・各支所（浦崎・百島は除く）窓口 決定通知時期 令和８年３月上旬ごろ"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.onomichi.hiroshima.jp/site/onohug/86036.html",
+      "quote": "年度途中での入所（随時入所）を希望する場合は、希望月の2か月前から前月10日までの間に、子育て支援課または各支所（浦崎・百島を除く）へ申し込んでください。"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.onomichi.hiroshima.jp/uploaded/life/86101_238717_misc.pdf",
+      "quote": "※１０日が土日祝日の場合は直前の開庁日が〆切となります。"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.onomichi.hiroshima.jp/uploaded/life/86101_238717_misc.pdf",
+      "quote": "決定通知時期 入所希望月の前月２０日前後にお知らせします。"
+    },
+    "documents.0": {
+      "url": "https://www.city.onomichi.hiroshima.jp/uploaded/life/86101_238720_misc.pdf",
+      "quote": "Ａ-1（表面） 保育所（園）・認定こども園入所申込書（兼教育・保育給付認定申請書）"
+    },
+    "documents.1": {
+      "url": "https://www.city.onomichi.hiroshima.jp/uploaded/life/86101_238720_misc.pdf",
+      "quote": "Ａ-2（裏面） 保育所（園）・認定こども園入所申込書【補助票】"
+    },
+    "documents.2": {
+      "url": "https://www.city.onomichi.hiroshima.jp/uploaded/life/86101_238720_misc.pdf",
+      "quote": "Ｂ-2（裏面）児童の健康状況申告書"
+    },
+    "documents.3": {
+      "url": "https://www.city.onomichi.hiroshima.jp/uploaded/life/86101_238720_misc.pdf",
+      "quote": "２）世帯で１枚必要な書類"
+    },
+    "documents.3#2": {
+      "url": "https://www.city.onomichi.hiroshima.jp/uploaded/life/86101_238720_misc.pdf",
+      "quote": "□ Ｂ-1（表面）家庭状況書"
+    },
+    "documents.4": {
+      "url": "https://www.city.onomichi.hiroshima.jp/uploaded/life/86101_238720_misc.pdf",
+      "quote": "※保護者（父母）分が必須。同居する祖父母が６５歳未満の場合も必須。"
+    },
+    "documents.4#2": {
+      "url": "https://www.city.onomichi.hiroshima.jp/uploaded/life/86101_238717_misc.pdf",
+      "quote": "２ 育児休業取得者は就労要件での入所となるため、就労証明書の様式を提出してください。"
+    },
+    "documents.4#3": {
+      "url": "https://www.city.onomichi.hiroshima.jp/uploaded/life/86101_238718_misc.pdf",
+      "quote": "1次受付期間中に提出する場合 … 発行日が令和7 年10月17日以降発行のもの。"
+    },
+    "documents.5": {
+      "url": "https://www.city.onomichi.hiroshima.jp/uploaded/life/86101_238720_misc.pdf",
+      "quote": "①書類を提出する方の本人確認書類、申込者のマイナンバーが確認できるもの"
+    },
+    "documents.6": {
+      "url": "https://www.city.onomichi.hiroshima.jp/uploaded/life/86101_238720_misc.pdf",
+      "quote": "②委任状（※提出者が保護者もしくは同居者以外の場合に必要です。この裏面にあります。）"
+    },
+    "documents.7": {
+      "url": "https://www.city.onomichi.hiroshima.jp/uploaded/life/86101_238720_misc.pdf",
+      "quote": "□転入予定の場合 ： 転入が確実であることを証明する書類（不動産売買契約書・賃貸契約書等の写し）"
+    },
+    "interview": {
+      "url": "https://www.city.onomichi.hiroshima.jp/uploaded/life/86101_238718_misc.pdf",
+      "quote": "申込前に保育施設の見学が可能です。"
+    },
+    "interview#2": {
+      "url": "https://www.city.onomichi.hiroshima.jp/uploaded/life/86101_238718_misc.pdf",
+      "quote": "見学を希望される場合は、各施設に直接お問い合わせください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.onomichi.hiroshima.jp/uploaded/life/86101_238717_misc.pdf",
+      "quote": "令和８年度中に育児休業から復職するために入所を希望される場合は、入所希望月を問わず、新年度入所申込受付期間以降であれば、いつでも申し込みが可能です。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.onomichi.hiroshima.jp/uploaded/life/86101_238717_misc.pdf",
+      "quote": "育児休業からの復帰による入所の場合は、復職日の最大1か月前を入所日として申込が可能です。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.onomichi.hiroshima.jp/uploaded/life/86101_238717_misc.pdf",
+      "quote": "なお、入所保留通知を受け取るには、必ず入所申込をする必要があります。"
+    },
+    "ikukyu#4": {
+      "url": "https://www.city.onomichi.hiroshima.jp/uploaded/life/86101_238717_misc.pdf",
+      "quote": "復職後、２週間以内に復職日が記入された「就労証明書」を必ず提出してください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.onomichi.hiroshima.jp/uploaded/life/86101_238717_misc.pdf",
+      "quote": "入所申込書には第６希望まで記入ができる欄を設けています。入所調整は原則、記入されている保育施設のみで行います。"
+    },
+    "notes.1": {
+      "url": "https://www.city.onomichi.hiroshima.jp/uploaded/life/86101_238717_misc.pdf",
+      "quote": "「同じ施設を複数記入すれば希望が通りやすくなる」、「１施設のみ書けば希望どおり入所しやすい」ということはなく、１施設の希望として取り扱います。"
+    },
+    "notes.2": {
+      "url": "https://www.city.onomichi.hiroshima.jp/uploaded/life/86101_238718_misc.pdf",
+      "quote": "１次受付期間に求職中として提出後に就労が決定し、追加書類を提出する方で、１次受付期間に間に合わなかった場合は、１２月２６日（金）までに子育て支援課または各支所に提出いただいた場合に限り、１次受付期間に提出した方と同等の取り扱いとします。"
+    },
+    "notes.3": {
+      "url": "https://www.city.onomichi.hiroshima.jp/uploaded/life/86101_238718_misc.pdf",
+      "quote": "１２月１１日（木）から１月４日（日）までの間、申込書類一式の提出は受け付けません。"
+    },
+    "notes.4": {
+      "url": "https://www.city.onomichi.hiroshima.jp/uploaded/life/86101_238717_misc.pdf",
+      "quote": "同居の６５歳未満の祖父母が、児童の保育ができる場合は、入所の優先順位が低くなります。"
+    },
+    "notes.5": {
+      "url": "https://www.city.onomichi.hiroshima.jp/uploaded/life/86101_238718_misc.pdf",
+      "quote": "就労証明書に担当者以外の加筆および申請者本人が記入した恐れのあるものは無効です。"
+    }
+  },
+  "sources": [
+    {
+      "label": "尾道市「令和8年度保育所（園）・認定こども園の新規入園・転園手続について」",
+      "url": "https://www.city.onomichi.hiroshima.jp/site/onohug/86036.html"
+    },
+    {
+      "label": "尾道市「令和8年度尾道市認可保育施設等入園案内」",
+      "url": "https://www.city.onomichi.hiroshima.jp/uploaded/life/86101_238717_misc.pdf"
+    },
+    {
+      "label": "尾道市「（補足説明）保育所（園）・認定こども園入所について」",
+      "url": "https://www.city.onomichi.hiroshima.jp/uploaded/life/86101_238718_misc.pdf"
+    },
+    {
+      "label": "尾道市「入所申込に必要な書類一覧」",
+      "url": "https://www.city.onomichi.hiroshima.jp/uploaded/life/86101_238720_misc.pdf"
+    },
+    {
+      "label": "尾道市「保育所入所申込郵送受付について」",
+      "url": "https://www.city.onomichi.hiroshima.jp/uploaded/life/86101_238723_misc.pdf"
+    },
+    {
+      "label": "尾道市「認可保育施設手続にかかる様式一覧」",
+      "url": "https://www.city.onomichi.hiroshima.jp/site/onohug/68719.html"
+    }
+  ]
+}

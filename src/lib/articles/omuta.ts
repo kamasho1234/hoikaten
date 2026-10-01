@@ -3,60 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   // ========== 保活の基本 ==========
-  {
-    slug: "hokatsu-schedule",
-    citySlug: "omuta",
-    title: "大牟田市の保活スケジュール　令和8年度4月入園の流れ",
-    description:
-      "大牟田市の令和8年度（2026年度）4月入園の申込時期・書類準備・結果通知の流れをまとめました。初めての保活でも迷わないスケジュールガイドです。",
-    image:
-      "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>令和8年度（2026年度）4月入園のスケジュール</h2>
-<p>大牟田市の認可保育所・認定こども園の4月入園は、毎年11月頃に一斉受付が行われます。申込先は大牟田市子ども未来室です。</p>
-
-<h3>スケジュールの目安</h3>
-<table>
-<tr><th>項目</th><th>日程（目安）</th></tr>
-<tr><td>申請書類配布開始</td><td>2025年10月頃〜</td></tr>
-<tr><td>一斉申込受付</td><td>2025年11月上旬〜11月下旬</td></tr>
-<tr><td>1次結果通知</td><td>2026年1月下旬〜2月頃</td></tr>
-<tr><td>2次募集（空きがある場合）</td><td>2026年2月〜3月頃</td></tr>
-</table>
-
-<p>年度途中の入園は、利用開始希望月の前月10日頃までに申込が必要です。大牟田市子ども未来室に直接確認しましょう。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>大牟田市は人口約11万人の都市で、認可保育園は約20か所あります。福岡市や北九州市に比べると競争は緩やかですが、人気園では定員を超える申込があるため、早めの準備が重要です。</p>
-</div>
-
-<h2>いつから動き始めるべき？</h2>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content"><strong>4月〜6月：情報収集</strong><p>大牟田市の「保育所等利用のご案内」を子ども未来室の窓口または市のホームページで入手しましょう。</p></div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content"><strong>6月〜9月：保育園見学</strong><p>気になる園に電話して見学予約。大牟田市内の認可保育園は約20か所で、地域によって特色が異なります。</p></div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content"><strong>9月〜10月：書類準備</strong><p>就労証明書を勤務先に依頼。自営業の場合は就労状況申告書が必要です。</p></div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content"><strong>11月：申込</strong><p>必要書類を揃え、大牟田市子ども未来室へ提出します。</p></div>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>最新の申込方法は<a href="https://www.city.omuta.lg.jp/" target="_blank" rel="noopener">大牟田市公式サイト</a>の子ども未来室のページをご確認ください。</p>
-</div>`,
-    publishedAt: "2026-04-07",
-    popularity: 55,
-  },
 
   // ========== 点数・選考 ==========
 

@@ -1,0 +1,226 @@
+{
+  "citySlug": "konan",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "江南市「保育園などの令和9年度4月入園案内について」",
+    "url": "https://www.city.konan.lg.jp/kurashi/1009685/1011199/1003360/1007750.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年10月1日（木）〜10月9日（金）は各保育園など、10月1日（木）〜10月30日（金）はこども未来課で申請書を配布（午前9時〜午後4時、土・日・祝除く）。申請書類は市ホームページの入園申請書類一覧からもダウンロードできる",
+  "firstApply": "令和8年10月1日（木）〜10月30日（金）（午前9時〜午後4時、土・日・祝除く）。教育・保育給付認定申請書は10月30日（金）16時までに提出。郵送は10月30日の消印有効。期日までに出せない就労証明書などの書類や変更のある書類は11月13日（金）まで",
+  "applyMethods": "申請書類をこども未来課、各保育園、布袋ぽっぽ園、アイグラン保育園江南中央、グレイス、みどりの風幼稚園、布袋駅ぽっぽ園みなみ、布袋駅ぽっぽ園きたに提出するか郵送する。郵送料は本人負担で、提出期日の消印有効",
+  "firstResult": "2月中旬に1次申込の結果を通知（江南市在住者には入園決定通知、入れなかった場合は保留（不承諾）通知を送付）",
+  "secondResult": "3月上旬に2次申込の結果を通知",
+  "midYearDeadline": "年度途中の入所は、入所希望月の前々月21日〜前々月末日に申し込む（土日・祝日を除く）",
+  "documents": [
+    "教育・保育給付認定申請書（兼 施設利用申込書）",
+    "保育を必要とする事由を証明する書類（就労証明書、申立書、入院（通院）証明書など）。父・母と同居の満65歳未満の祖父母の分が必要で、就労証明書は令和8年9月以降の証明日のもの",
+    "保育園等入園申込に係る確認書",
+    "家庭での生活状況（令和9年4月1日現在の年齢に合った用紙）",
+    "税関係書類（令和8年1月2日以降に江南市に転入した人のみ。令和8年1月1日の住所が国内ならマイナンバーによる情報連携で提出不要）",
+    "きょうだいがこれから幼稚園等へ入園予定の場合は入園許可書等のコピー（該当者のみ）",
+    "同居家族が障害者手帳等を持っている場合はその写し"
+  ],
+  "interview": "2歳児〜5歳児は面談がある。10月16日（金）までに面談日希望調査ツールで希望日を入力し、決定した面談日は郵送で通知。面談は11月13日（金）〜11月18日（水）（日曜除く）に防災センター2階防災セミナー室で1人15分程度",
+  "ikukyu": "下の子の育児休業の取得は3歳以上児に限り保育を必要とする事由になる（就労証明書の育児休業の取得（予定）期間欄を必ず記載）。育児休業中で4月に復帰する場合は、令和9年4月復帰を記載した就労証明書をもらって申し込み、復帰後に復帰を証明する書類を出す",
+  "notes": [
+    "利用調整の結果、第1希望園に入園できないことがある",
+    "11月14日（土）以降は提出書類の変更・追加や入園の要件の変更はできない",
+    "必要な書類に不備・不足があると、求職活動と同じ扱いになる",
+    "令和8年12月〜令和9年3月に入園した人の入園期間は令和9年3月末までで、4月以降も続けるには4月入園の申込が必要",
+    "希望施設を第6希望まで書くと、第6希望までに入れなかった場合に空きのある別の施設への入園の意向確認がある",
+    "認定江南こども園グレイスと認定こども園みどりの風幼稚園は、0歳児〜2歳児と年少児のみの募集"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.konan.lg.jp/kurashi/1009685/1011199/1003360/1007750.html",
+      "quote": "令和9年4月から新しく乳幼児の入園を希望する家庭を対象に、入園申し込みを受け付けます。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.konan.lg.jp/kurashi/1009685/1011199/1003360/1007750.html",
+      "quote": "10月1日（木曜日）～10月9日（金曜日）（午前9時00分～午後4時00分。土・日・祝除く。）各保育園、布袋ぽっぽ園"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.konan.lg.jp/kurashi/1009685/1011199/1003360/1007750.html",
+      "quote": "10月1日（木曜日）～10月30日（金曜日）（午前9時00分～午後4時00分。土・日・祝除く。）こども未来課※申請書類は"
+    },
+    "guideRelease#3": {
+      "url": "https://www.city.konan.lg.jp/kurashi/1009685/1011199/1003360/1007750.html",
+      "quote": "※申請書類は、「令和9年度4月入園申請書類一覧」をダウンロードして、ご利用いただけます。"
+    },
+    "guideRelease#4": {
+      "url": "https://www.city.konan.lg.jp/_res/projects/default_project/_page_/001/007/750/r9nyuengoannai.pdf",
+      "quote": "申込書類の提出期日は 令和８年１０月３０日（金） です。"
+    },
+    "firstApply": {
+      "url": "https://www.city.konan.lg.jp/kurashi/1009685/1011199/1003360/1007750.html",
+      "quote": "10月1日（木曜日）～10月30日（金曜日）（午前9時00分～午後4時00分。土・日・祝除く。）こども未来課、各保育園"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.konan.lg.jp/_res/projects/default_project/_page_/001/007/750/r9nyuengoannai.pdf",
+      "quote": "申込書類の提出期日は 令和８年１０月３０日（金） です。"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.konan.lg.jp/_res/projects/default_project/_page_/001/007/750/r9nyuengoannai.pdf",
+      "quote": "「教育・保育給付認定申請書」は必ず1０月３０日（金）16：00までに提出してください。"
+    },
+    "firstApply#4": {
+      "url": "https://www.city.konan.lg.jp/_res/projects/default_project/_page_/001/007/750/r9nyuengoannai.pdf",
+      "quote": "※就労証明書、入院（通院）証明書、課税証明書など、1０月３０日（金）までに提出が できない場合や、各種変更のある書類は、１１月１３日（金）までに提出してください。"
+    },
+    "firstApply#5": {
+      "url": "https://www.city.konan.lg.jp/kurashi/1009685/1011199/1003360/1007750.html",
+      "quote": "郵送で提出の場合、郵送料は本人負担となります。提出期日の消印有効です。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.konan.lg.jp/kurashi/1009685/1011199/1003360/1007750.html",
+      "quote": "こども未来課、各保育園、布袋ぽっぽ園、アイグラン保育園江南中央、グレイス、みどりの風幼稚園、布袋駅ぽっぽ園みなみ、布袋駅ぽっぽ園きた、又は郵送"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.konan.lg.jp/kurashi/1009685/1011199/1003360/1007750.html",
+      "quote": "郵送で提出の場合、郵送料は本人負担となります。提出期日の消印有効です。"
+    },
+    "firstResult": {
+      "url": "https://www.city.konan.lg.jp/_res/projects/default_project/_page_/001/007/750/r9nyuengoannai.pdf",
+      "quote": "２月中旬 １次申込の結果通知"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.konan.lg.jp/_res/projects/default_project/_page_/001/007/750/r9nyuengoannai.pdf",
+      "quote": "・入園決定通知の送付（江南市在住者） ・保留（不承諾）通知の送付"
+    },
+    "secondResult": {
+      "url": "https://www.city.konan.lg.jp/_res/projects/default_project/_page_/001/007/750/r9nyuengoannai.pdf",
+      "quote": "３月上旬 ２次申込の結果通知"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.konan.lg.jp/_res/projects/default_project/_page_/001/007/750/r9siryou.pdf",
+      "quote": "入所希望月の前々月21日～前々月月末までに申し込みをしてください。（土日・祝日を除きます。）"
+    },
+    "documents.0": {
+      "url": "https://www.city.konan.lg.jp/_res/projects/default_project/_page_/001/007/750/r9nyuengoannai.pdf",
+      "quote": "「教育・保育給付認定申請書」は必ず1０月３０日（金）16：00までに提出してください。"
+    },
+    "documents.1": {
+      "url": "https://www.city.konan.lg.jp/_res/projects/default_project/_page_/001/007/750/r9nyuengoannai.pdf",
+      "quote": "・父・母及び同居の祖父・祖母（満６５歳未満 昭和３７年４月2日以降に生まれた方）は 提出が必要です。"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.konan.lg.jp/_res/projects/default_project/_page_/001/007/750/r9nyuengoannai.pdf",
+      "quote": "・ 令和８年９月以降の証明日のものを提出してください。"
+    },
+    "documents.2": {
+      "url": "https://www.city.konan.lg.jp/_res/projects/default_project/_page_/001/007/750/r9nyuengoannai.pdf",
+      "quote": "③ 保育園等入園申込に係る確認書 確認事項をよく読みチェックをしてください。"
+    },
+    "documents.3": {
+      "url": "https://www.city.konan.lg.jp/_res/projects/default_project/_page_/001/007/750/r9nyuengoannai.pdf",
+      "quote": "令和９年４月１日現在の年齢を確認し、対象の年齢の用紙に記入してください。"
+    },
+    "documents.4": {
+      "url": "https://www.city.konan.lg.jp/_res/projects/default_project/_page_/001/007/750/r9nyuengoannai.pdf",
+      "quote": "・令和８年１月２日以降に江南市に転入の方は、令和８年度の市町村民税額が分かる 書類が必要です。"
+    },
+    "documents.4#2": {
+      "url": "https://www.city.konan.lg.jp/_res/projects/default_project/_page_/001/007/750/r9nyuengoannai.pdf",
+      "quote": "マイナンバーを利用して令和８年１月１日に住民登録のある市町村と情報連携が 可能であるため、書類の提出は不要です。"
+    },
+    "documents.5": {
+      "url": "https://www.city.konan.lg.jp/_res/projects/default_project/_page_/001/007/750/r9nyuengoannai.pdf",
+      "quote": "・きょうだいがこれから幼稚園等へ入園予定の場合は、「入園許可書等」のコピーを 提出してください。"
+    },
+    "documents.6": {
+      "url": "https://www.city.konan.lg.jp/kurashi/1009685/1011199/1003360/1007751.html",
+      "quote": "同居家族で障害者手帳等をお持ちの場合は写しを提出してください。"
+    },
+    "interview": {
+      "url": "https://www.city.konan.lg.jp/kurashi/1009685/1011199/1003360/1007750.html",
+      "quote": "2歳児～5歳児（令和7年4月1日以前に生まれた児童）は、以下の日程で面談を行います。"
+    },
+    "interview#2": {
+      "url": "https://www.city.konan.lg.jp/kurashi/1009685/1011199/1003360/1007750.html",
+      "quote": "10月16日（金曜日）までに予約された情報により調整し、決定した面談日を郵送にてお知らせします。"
+    },
+    "interview#3": {
+      "url": "https://www.city.konan.lg.jp/kurashi/1009685/1011199/1003360/1007750.html",
+      "quote": "11月13日（金曜日） 防災センター2階防災セミナー室（江南市赤童子町大堀90番地）"
+    },
+    "interview#4": {
+      "url": "https://www.city.konan.lg.jp/kurashi/1009685/1011199/1003360/1007750.html",
+      "quote": "11月16日（月曜日） ～11月18日（水曜日） 防災センター2階防災セミナー室"
+    },
+    "interview#5": {
+      "url": "https://www.city.konan.lg.jp/_res/projects/default_project/_page_/001/007/750/r9nyuengoannai.pdf",
+      "quote": "～ ２歳児～５歳児面談（※日曜日除く）"
+    },
+    "interview#6": {
+      "url": "https://www.city.konan.lg.jp/_res/projects/default_project/_page_/001/007/750/r9nyuengoannai.pdf",
+      "quote": "※面談時間は一人１５分程度を予定しています。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.konan.lg.jp/kurashi/1009685/1011199/1003360/1007750.html",
+      "quote": "（3歳以上児対象）会社の休業制度を利用し、下の子の育児休業を取得している。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.konan.lg.jp/_res/projects/default_project/_page_/001/007/750/r9nyuengoannai.pdf",
+      "quote": "（項目13育児休業の取得（予定）期間欄を必ず記載のこと）"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.konan.lg.jp/_res/projects/default_project/_page_/001/007/750/r9siryou.pdf",
+      "quote": "職場で令和９年４月復帰の内容を記載した就労証明書 を職場でもらったうえで、入所申込をしてください。"
+    },
+    "ikukyu#4": {
+      "url": "https://www.city.konan.lg.jp/_res/projects/default_project/_page_/001/007/750/r9siryou.pdf",
+      "quote": "なお、復帰後には、復帰したことを証明する書類の提 出が必要です。"
+    },
+    "notes.0": {
+      "url": "https://www.city.konan.lg.jp/_res/projects/default_project/_page_/001/007/750/r9nyuengoannai.pdf",
+      "quote": "・ 利用調整の結果、第１希望園に入園できないことがあります。"
+    },
+    "notes.1": {
+      "url": "https://www.city.konan.lg.jp/_res/projects/default_project/_page_/001/007/750/r9nyuengoannai.pdf",
+      "quote": "・ １１月14 日（土）以降は提出書類の変更・追加、入園の要件の変更はできません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.konan.lg.jp/_res/projects/default_project/_page_/001/007/750/r9nyuengoannai.pdf",
+      "quote": "必要な書類が不備不足の場合は、求職活動と同等の扱いとさせていただきます。"
+    },
+    "notes.3": {
+      "url": "https://www.city.konan.lg.jp/_res/projects/default_project/_page_/001/007/750/r9nyuengoannai.pdf",
+      "quote": "・ 令和８年１２月～令和９年３月に入園された方の入園期間は令和９年３月末までです。"
+    },
+    "notes.3#2": {
+      "url": "https://www.city.konan.lg.jp/_res/projects/default_project/_page_/001/007/750/r9nyuengoannai.pdf",
+      "quote": "令和９年４月以降も利用継続を希望する場合は、4月入園の申込が必要となります。"
+    },
+    "notes.4": {
+      "url": "https://www.city.konan.lg.jp/_res/projects/default_project/_page_/001/007/750/r9siryou.pdf",
+      "quote": "第６希望まで希望施設が記入してあり、第6希望までに入園ができなかった場合は、第１～第６希望園以外 で空きのある施設で、入園の意向確認をさせていただきます。"
+    },
+    "notes.5": {
+      "url": "https://www.city.konan.lg.jp/kurashi/1009685/1011199/1003360/1007750.html",
+      "quote": "認定江南こども園グレイスは、0歳児～2歳児、年少児のみの募集です。"
+    },
+    "notes.5#2": {
+      "url": "https://www.city.konan.lg.jp/kurashi/1009685/1011199/1003360/1007750.html",
+      "quote": "認定こども園みどりの風幼稚園は、0歳児～2歳児、年少児のみの募集です。"
+    }
+  },
+  "sources": [
+    {
+      "label": "江南市「保育園などの令和9年度4月入園案内について」",
+      "url": "https://www.city.konan.lg.jp/kurashi/1009685/1011199/1003360/1007750.html"
+    },
+    {
+      "label": "江南市「令和9年度4月入園 入園申込手続きのご案内」（PDF）",
+      "url": "https://www.city.konan.lg.jp/_res/projects/default_project/_page_/001/007/750/r9nyuengoannai.pdf"
+    },
+    {
+      "label": "江南市「令和9年度4月入園 資料編」（PDF）",
+      "url": "https://www.city.konan.lg.jp/_res/projects/default_project/_page_/001/007/750/r9siryou.pdf"
+    },
+    {
+      "label": "江南市「令和9年度入園申請書類一覧」",
+      "url": "https://www.city.konan.lg.jp/kurashi/1009685/1011199/1003360/1007751.html"
+    }
+  ]
+}

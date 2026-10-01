@@ -1,0 +1,143 @@
+{
+  "citySlug": "munakata",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "宗像市「令和9年4月 保育所・認定こども園・幼稚園の入所申し込み」",
+    "url": "https://www.city.munakata.lg.jp/kiji0037611/index.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年10月23日（金曜日）9時頃から「入所申込みのご案内」と申請書を配布。窓口で受け取るか、市ホームページからダウンロードできる",
+  "firstApply": "令和8年11月2日（月曜日）〜11月30日（月曜日）。窓口は11月2日9時から11月30日16時まで、郵送は11月30日必着",
+  "applyMethods": "宗像市役所西館1階の子ども育成課の窓口に提出する（窓口手続きは原則予約制で、予約は10月19日から専用フォームで受付）。令和9年度4月入所の申込みに限り郵送でも提出できる",
+  "firstResult": "2月上旬ごろに結果を通知",
+  "secondResult": "1次で内定しなかった場合は2次調整を行い、3月上旬ごろに結果を通知",
+  "midYearDeadline": "入所は毎月1日。入所希望月の前月10日まで（10日が土・日・祝日の場合は直前の平日まで）に子ども育成課へ必要書類を提出する",
+  "documents": [
+    "入所申込書兼支給認定申請書（全員必要）",
+    "保育を必要とする事由を証明する書類（全員必要。就労なら就労証明書等、自営業は別途証明する書類など事由により異なる）",
+    "家庭状況に応じた必要書類（必要な人のみ）",
+    "窓口提出の場合：同一住所全員分のマイナンバーカード・通知カード・個人番号が記載された住民票等のいずれか1点と、顔写真付きの身分証明書",
+    "郵送の場合：同一住所全員分のマイナンバーカード等のいずれか1点のコピーと、保護者一方の顔写真付きの身分証明証のコピー",
+    "窓口で保護者以外の人が提出する場合は委任状"
+  ],
+  "interview": "入所内定後に内定園で面談・健康診断等を受ける。申込前に各園へ問い合わせて園見学をするよう求められている",
+  "notes": [
+    "市外から転入予定の場合は、入所希望月の前月末までに宗像市に転入する必要があり、転入しなかった場合は入所と翌月以降の申込みが無効になる",
+    "受付時に書類の不備があると申込みができないので、早めの申請が求められている",
+    "在園中のきょうだい児と同じ園を希望する場合は園を通じて申し込む（在園児が年長の場合を除く）",
+    "2次調整でも内定しなかった場合は、引き続き5月以降の入所調整を行う",
+    "求職活動を事由とする場合は、入所から3か月目の15日までに就労証明書等の提出が必要"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.munakata.lg.jp/kiji0037611/index.html",
+      "quote": "令和9年度4月入所申込の案内期間中は、予約専用窓口（1枠30分）を設置します。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.munakata.lg.jp/kiji0037611/index.html",
+      "quote": "「入所申込みのご案内」及び申請書の配布開始 令和8年10月23日（金曜日）9時頃～"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.munakata.lg.jp/kiji0037611/index.html",
+      "quote": "配布場所：窓口で配布、または こちら でダウンロード可能です。"
+    },
+    "firstApply": {
+      "url": "https://www.city.munakata.lg.jp/kiji0037611/index.html",
+      "quote": "申込期間： 令和8年11月2日（月曜日）～11月30日（月曜日）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.munakata.lg.jp/kiji0037611/index.html",
+      "quote": "窓口受付： 11月2日（月曜日）9時から11月30日（月曜日）16時まで 郵送： 11月30日（月曜日）必着"
+    },
+    "applyMethods": {
+      "url": "https://www.city.munakata.lg.jp/kiji0037611/index.html",
+      "quote": "令和9年度4月入所申込みに限り郵送での提出を受け付けます。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.munakata.lg.jp/kiji0037611/index.html",
+      "quote": "場所 宗像市役所西館1階　子ども育成課"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.munakata.lg.jp/kiji0037611/index.html",
+      "quote": "入所申込に関する窓口手続きは 原則予約制 です。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.munakata.lg.jp/kiji0037611/index.html",
+      "quote": "予約受付は 10月19日（月曜日） から開始します。"
+    },
+    "firstResult": {
+      "url": "https://www.city.munakata.lg.jp/kiji0037611/index.html",
+      "quote": "申込書類を提出する 結果通知（2月上旬ごろ）"
+    },
+    "secondResult": {
+      "url": "https://www.city.munakata.lg.jp/kiji0037611/index.html",
+      "quote": "※内定しなかった場合、2次調整を行い、3月上旬ごろに2次調整の結果を通知します。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.munakata.lg.jp/kosodate/w051/010/020/020/21401.html",
+      "quote": "認可保育所の入所は、毎月1日です。入園を希望する場合は、前の月の10日まで（10日が土・日・祝日の場合は直前の平日まで）に子ども育成課に申込に必要な書類を提出し、手続きを完了してください。"
+    },
+    "documents.0": {
+      "url": "https://www.city.munakata.lg.jp/kiji0037611/index.html",
+      "quote": "全員必要 入所申込書兼支給認定申請書 保育を必要とする事由を証明する書類"
+    },
+    "documents.1": {
+      "url": "https://www.city.munakata.lg.jp/kiji0037611/index.html",
+      "quote": "月60時間以上就労している （翌月の14日までに復職を予定している） 就労期間中 就労証明書等 自営業の場合は別途証明する書類"
+    },
+    "documents.2": {
+      "url": "https://www.city.munakata.lg.jp/kiji0037611/index.html",
+      "quote": "家庭状況に応じた必要書類（必要な方のみ）"
+    },
+    "documents.3": {
+      "url": "https://www.city.munakata.lg.jp/kiji0037611/index.html",
+      "quote": "窓口提出の場合 同一住所全員分のマイナンバーカード（個人番号カード）、通知カードまたは個人番号が記載された住民票等のいずれか1点 顔写真付きの身分証明書"
+    },
+    "documents.4": {
+      "url": "https://www.city.munakata.lg.jp/kiji0037611/index.html",
+      "quote": "同一住所全員分のマイナンバーカード（個人番号カード）、通知カードまたは個人番号が記載された住民票等のいずれか1点のコピー 保護者一方の顔写真付きの身分証明証のコピー"
+    },
+    "documents.5": {
+      "url": "https://www.city.munakata.lg.jp/kiji0037611/index.html",
+      "quote": "窓口で保護者以外の方が提出する場合は 委任状（PDF：113.4キロバイト） が必要です。"
+    },
+    "interview": {
+      "url": "https://www.city.munakata.lg.jp/kiji0037611/index.html",
+      "quote": "結果通知（2月上旬ごろ） 内定園で面談・健康診断等を受ける"
+    },
+    "interview#2": {
+      "url": "https://www.city.munakata.lg.jp/kiji0037611/index.html",
+      "quote": "事前に園見学をお願いします。 申込手続き前に園の見学を行うことで、入所後のミスマッチを防ぐことになります。 見学する際は、事前に各園に問い合わせてください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.munakata.lg.jp/kiji0037611/index.html",
+      "quote": "宗像市外から転入予定の場合：入所希望月の前月末までに宗像市に転入してくる（住民票で宗像市への転入日が確認できる）こと 前月末までに転入しなかった場合、入所及び翌月以降の申込みが無効となります。"
+    },
+    "notes.1": {
+      "url": "https://www.city.munakata.lg.jp/kiji0037611/index.html",
+      "quote": "※受付時に不備がある場合は申込みができませんので、早めの申請をお願いします。"
+    },
+    "notes.2": {
+      "url": "https://www.city.munakata.lg.jp/kiji0037611/index.html",
+      "quote": "※在園中のきょうだい児と同じ園に入所を希望する人は、園を通じて申込みが必要です。ただし、在園児が年長（5歳児）の場合を除きます。"
+    },
+    "notes.3": {
+      "url": "https://www.city.munakata.lg.jp/kiji0037611/index.html",
+      "quote": "※2次調整でも内定しなかった場合、引き続き5月以降の入所調整を行います。"
+    },
+    "notes.4": {
+      "url": "https://www.city.munakata.lg.jp/kiji0037611/index.html",
+      "quote": "入所から3か月 注：入所から3か月目の15日までに就労証明書等の提出が必要です 誓約書兼求職活動の申立書"
+    }
+  },
+  "sources": [
+    {
+      "label": "宗像市「令和9年4月 保育所・認定こども園・幼稚園の入所申し込み」",
+      "url": "https://www.city.munakata.lg.jp/kiji0037611/index.html"
+    },
+    {
+      "label": "宗像市「認可保育所の利用について」",
+      "url": "https://www.city.munakata.lg.jp/kosodate/w051/010/020/020/21401.html"
+    }
+  ]
+}

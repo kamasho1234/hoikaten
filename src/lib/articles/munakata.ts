@@ -2,7 +2,6 @@ import type { Article } from "./types";
 import { registerArticles } from "./index";
 
 const articles: Article[] = [
-  { slug: "hokatsu-schedule", citySlug: "munakata", title: "宗像市の保活スケジュール　令和8年度4月入園の流れ", description: "宗像市の保活スケジュール。", image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop", category: "保活の基本", categoryColor: "green", content: `<h2>宗像市について</h2><p>宗像市は人口約9万人で、福岡県北部に位置する地域です。</p>`, publishedAt: "2026-04-29", popularity: 40 },
   { slug: "hokatsu-mistakes", citySlug: "munakata", title: "宗像市の保活でよくある失敗と対策5選", description: "失敗パターン。", image: "https://images.unsplash.com/photo-1476703993599-0035a21b17a9?w=800&h=400&fit=crop", category: "保活の基本", categoryColor: "green", content: `<h2>失敗対策</h2><p>宗像市での保活で気をつけること。</p>`, publishedAt: "2026-04-29", popularity: 36 },
   { slug: "hokatsu-basics", citySlug: "munakata", title: "宗像市での保活、いつから始めるべき？", description: "初心者向け。", image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop", category: "保活の基本", categoryColor: "green", content: `<h2>保活の準備</h2><p>早めの情報収集が大切です。</p>`, publishedAt: "2026-04-29", popularity: 34 },
   { slug: "point-system", citySlug: "munakata", title: "宗像市の基本指数システム　40点満点の仕組み", description: "基本指数。", image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop", category: "保活の基本", categoryColor: "green", content: `<h2>基本指数の仕組み</h2><p>40点満点でランク付けされます。</p>`, publishedAt: "2026-04-29", popularity: 50 },

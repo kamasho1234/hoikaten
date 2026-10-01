@@ -1,0 +1,149 @@
+{
+  "citySlug": "niihama",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "新居浜市「令和8年4月1日からの保育所等の新園児募集について」",
+    "url": "https://www.city.niihama.lg.jp/soshiki/128/bosyuu4.html"
+  },
+  "fiscalYear": "R8",
+  "firstApply": "令和7年11月21日（金曜日）〜12月5日（金曜日）。受付期間後の不備書類などの提出は、園では12月22日（月曜日）まで、最終締切は12月26日（金曜日）こども保育課必着",
+  "applyMethods": "申込に必要な書類は受付期間内に第1希望の施設で受け取り、その施設に提出する。複数の施設への申込はできない",
+  "firstResult": "令和8年2月下旬に郵送予定。入所保留となった場合は入所承諾保留通知と入所申込書の写しが送られ、その後は毎月入所調整を行い、入所可能となったら連絡がある",
+  "midYearDeadline": "入所希望月の前月10日まで（土曜・日曜・祝日を除く。10日が土曜・祝日の場合はその前日、日曜の場合はその前々日まで）。結果の通知は入所希望月の前月20日頃に発送",
+  "documents": [
+    "教育・保育給付認定申請書兼入所（園）申込書（入所を希望する子ども1人につき1枚）",
+    "保育の必要性を証明する書類（就労証明書など。就労証明書は令和7年11月1日以降に証明されたものが有効）",
+    "マイナンバーに関する書類（マイナンバーカードがある場合は両面のコピー）",
+    "問診票（0歳児は母子手帳の検診の記録）"
+  ],
+  "interview": "提出の際に簡単な面接を行うので、子どもと一緒に第1希望の施設へ行く",
+  "ikukyu": "入所承諾保留通知は希望施設に入所できなかった場合に発行され、入所を辞退した場合や受付期間に申込がなかった場合は発行されない。令和7年4月から育児休業給付金の支給対象期間延長の手続きに入所申請書の写しが必要",
+  "notes": [
+    "12月5日以降の申込は期間外受付となり、受付期間内に申し込んだ人の入所調整が終わった後に調整される",
+    "4月入所の最終受付は令和8年2月27日（金曜日）で、それ以降は5月以降の入所調整になる",
+    "入所調整で同点になった場合、「希望園のみ入所を希望」より「他園の紹介を希望」する人が優先される",
+    "4月入所を希望する子どもが申込時点で生まれていなくても、原則として令和8年1月末までに出産予定なら申込できる",
+    "65歳未満の祖父母と同居していて、祖父母が保育が必要な事由に該当しない場合は入所調整で減点になる",
+    "保育の必要性を証明する書類（添付書類を含む）の提出が期日までにない場合は、入所調整で減点される"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.niihama.lg.jp/soshiki/128/bosyuu4.html",
+      "quote": "令和8年4月からの入所を希望する場合は、以下の内容をよくご確認の上お申し込みください。"
+    },
+    "firstApply": {
+      "url": "https://www.city.niihama.lg.jp/soshiki/128/bosyuu4.html",
+      "quote": "●受付期間は令和7年11月21日（金曜日）～令和7年12月5日（金曜日）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.niihama.lg.jp/soshiki/128/bosyuu4.html",
+      "quote": "・受付期間後の不備書類などの提出は、園での受付は12月22日（月曜日）まで、最終締切は12月26日（金曜日）までにこども保育課必着です。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.niihama.lg.jp/soshiki/128/bosyuu4.html",
+      "quote": "申し込みに必要な書類は、受付期間内に第1希望の施設で受け取り、その施設に提出してください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.niihama.lg.jp/soshiki/128/bosyuu4.html",
+      "quote": "複数の施設への申し込みはできません。"
+    },
+    "firstResult": {
+      "url": "https://www.city.niihama.lg.jp/uploaded/attachment/78099.pdf",
+      "quote": "令和８年２月下旬に郵送予定"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.niihama.lg.jp/uploaded/attachment/78099.pdf",
+      "quote": "※入所保留となった場合は、入所承諾保留通知及び入所申込書の写しを送ります。"
+    },
+    "firstResult#3": {
+      "url": "https://www.city.niihama.lg.jp/uploaded/attachment/78099.pdf",
+      "quote": "入所調整を行い、入所可能となった場合に連絡します。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.niihama.lg.jp/soshiki/128/hoikusisetunonyuushomousikomihouhou.html",
+      "quote": "入所（園）希望月の前月10日まで　※土曜・日曜・祝日は除く"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.niihama.lg.jp/soshiki/128/hoikusisetunonyuushomousikomihouhou.html",
+      "quote": "（10日が土曜・祝日の場合はその前日まで、日曜の場合はその前々日まで）"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.niihama.lg.jp/soshiki/128/hoikusisetunonyuushomousikomihouhou.html",
+      "quote": "入所希望月の前月20日頃に入所など結果に関する通知を発送します。"
+    },
+    "documents.0": {
+      "url": "https://www.city.niihama.lg.jp/uploaded/attachment/78099.pdf",
+      "quote": "・教育・保育給付認定申請書兼入所（園）申込書（入所を希望する子ども一人につき１枚必要です。）"
+    },
+    "documents.1": {
+      "url": "https://www.city.niihama.lg.jp/soshiki/128/bosyuu4.html",
+      "quote": "・就労証明書は、令和7年11月1日以降に証明されたものを有効とします。"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.niihama.lg.jp/uploaded/attachment/78099.pdf",
+      "quote": "・保育の必要性を証明する書類（P６）"
+    },
+    "documents.2": {
+      "url": "https://www.city.niihama.lg.jp/uploaded/attachment/78099.pdf",
+      "quote": "１．マイナンバーカードがある場合 マイナンバーカードの両面コピーを提出してください。"
+    },
+    "documents.3": {
+      "url": "https://www.city.niihama.lg.jp/uploaded/attachment/78099.pdf",
+      "quote": "・問診票（０歳児は母子手帳の検診の記録）"
+    },
+    "interview": {
+      "url": "https://www.city.niihama.lg.jp/soshiki/128/bosyuu4.html",
+      "quote": "提出の際、簡単な面接を行いますので、お子様と一緒にお越しください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.niihama.lg.jp/uploaded/attachment/78099.pdf",
+      "quote": "●保育施設へ入所できなかった場合に発行する入所承諾保留通知は、希望施設に入所できなかった場合に発行する書類です。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.niihama.lg.jp/uploaded/attachment/78099.pdf",
+      "quote": "入所辞退した場合や受付期間に入所申込がなかった場合は発行できません。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.niihama.lg.jp/uploaded/attachment/78099.pdf",
+      "quote": "※令和７年４月より、育児休業給付金の支給対象期間延長の手続きに、入所申請書の写しが必要となります。"
+    },
+    "notes.0": {
+      "url": "https://www.city.niihama.lg.jp/soshiki/128/bosyuu4.html",
+      "quote": "・12月5日以降の入所申込は期間外受付となります。期間外受付は、受付期間内に入所申込があった方の入所調整が終わった後の入所調整となります。"
+    },
+    "notes.1": {
+      "url": "https://www.city.niihama.lg.jp/soshiki/128/bosyuu4.html",
+      "quote": "4月入所の最終受付は、令和8年2月27日（金曜日）です。以降は5月以降の入所調整となります。"
+    },
+    "notes.2": {
+      "url": "https://www.city.niihama.lg.jp/soshiki/128/bosyuu4.html",
+      "quote": "また、入所調整において同点になった場合、「希望園のみ入所を希望」より「他園の紹介を希望」する方を優先します。"
+    },
+    "notes.3": {
+      "url": "https://www.city.niihama.lg.jp/uploaded/attachment/78099.pdf",
+      "quote": "４月入所を希望する児童が申込時点で生まれていない場合、原則として令和８年１月末までに出産予定の方は入所申込が可能です"
+    },
+    "notes.4": {
+      "url": "https://www.city.niihama.lg.jp/soshiki/128/bosyuu4.html",
+      "quote": "ただし、65歳未満の祖父母で、保育が必要な事由に該当しない場合は、入所調整の際に減点となります。"
+    },
+    "notes.5": {
+      "url": "https://www.city.niihama.lg.jp/uploaded/attachment/78099.pdf",
+      "quote": "・保育の必要性を証明する書類（添付書類含む。）の提出が期日までにない場合は、入所調整において減点します。"
+    }
+  },
+  "sources": [
+    {
+      "label": "新居浜市「令和8年4月1日からの保育所等の新園児募集について」",
+      "url": "https://www.city.niihama.lg.jp/soshiki/128/bosyuu4.html"
+    },
+    {
+      "label": "新居浜市「令和8年度 保育施設入所の手引き」",
+      "url": "https://www.city.niihama.lg.jp/uploaded/attachment/78099.pdf"
+    },
+    {
+      "label": "新居浜市「年度途中の保育施設の入所（園）申込方法について」",
+      "url": "https://www.city.niihama.lg.jp/soshiki/128/hoikusisetunonyuushomousikomihouhou.html"
+    }
+  ]
+}

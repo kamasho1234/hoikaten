@@ -1,0 +1,157 @@
+{
+  "citySlug": "mishima",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "三島市「保育園等入園申込み（令和8年4月1日入園）について」",
+    "url": "https://www.city.mishima.shizuoka.jp/site/hoikuen/5723.html"
+  },
+  "fiscalYear": "R8",
+  "guideRelease": "令和7年9月19日（金曜日）から入園案内を配布。配布場所は三島市役所こども保育課（本館2階）、各保育園など",
+  "firstApply": "令和7年10月17日（金曜日）〜10月30日（木曜日）",
+  "applyMethods": "申込に必要な書類を揃えて三島市こども保育課に申し込む。申込は予約制で、9月25日（木曜日）からWebフォームまたは電話で予約を受け付けた",
+  "firstResult": "令和8年1月下旬に結果通知を郵送（内定は保育所等入所内定通知書、保留は一次選考保留通知書）",
+  "secondApply": "令和7年11月10日（月曜日）〜令和8年1月30日（金曜日）。二次募集の申込に予約は不要",
+  "secondResult": "令和8年2月下旬に結果通知を郵送",
+  "midYearDeadline": "利用開始月の前月10日（土日祝日の場合はその前日）",
+  "documents": [
+    "保育所入所申込書兼保育児童台帳（各世帯につき1枚。兄弟で別の園を希望する場合は子ども1人につき1枚）",
+    "教育・保育給付認定申請書（子ども1人につき1枚）",
+    "入所希望児童調査票",
+    "児童手当に係る学校給食費等の徴収等に関する申出書",
+    "保育所等入所に関する同意書（各世帯につき1枚）",
+    "保育を必要とする事由を証明する書類（就労の場合は就労証明書。自営業の人は就労状況申告書も提出）"
+  ],
+  "interview": "一次募集は各保育所等で面接を実施予定で、時期は令和7年11月下旬〜12月中旬ごろ。日時は申込後に郵送で知らされる",
+  "ikukyu": "入園できなかったことで育児休業を延長する場合、ハローワークの手続きに保育所等の利用申込書類の写しと施設利用保留通知書が必要。保留通知書は初回調整の入園希望月は保留の人全員に発行し、2回目以降は希望者のみ発行（必要な月の前月20日ごろ以降にこども保育課へ問い合わせる）",
+  "notes": [
+    "保育所等ごとに理念や費用が異なるため、申込みの前に実際に見学するよう求められている",
+    "4月入園の一次募集が、1年を通じて最も受入見込の多い募集になる",
+    "「保育を必要とする事由」を証明する書類は、父母と、子どもと同居している65歳未満（令和8年4月1日現在）の祖父母が提出する",
+    "市外在住でも保護者の通勤先が三島市内なら申込できるが、三島市民を優先するため調整指数を下げて調整する",
+    "申込内容に変更があった場合は遅滞なくこども保育課へ連絡する。入園決定後に申込内容と実際の状況に著しい乖離があれば入園を取り消す場合がある"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.mishima.shizuoka.jp/site/hoikuen/5723.html",
+      "quote": "令和8年4月1日の保育園入園について、下記のとおり募集を行いますので、お知らせいたします。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.mishima.shizuoka.jp/site/hoikuen/5723.html",
+      "quote": "入園案内の配布は、令和7年9月19日（金曜日）より、以下の場所で配布します。"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.mishima.shizuoka.jp/site/hoikuen/5723.html",
+      "quote": "配布場所 ・三島市役所こども保育課（本館2階） ・各保育園"
+    },
+    "firstApply": {
+      "url": "https://www.city.mishima.shizuoka.jp/uploaded/attachment/11938.pdf",
+      "quote": "〇 申込 （申込期間 令和7年10月17日（金）～30日（木））"
+    },
+    "applyMethods": {
+      "url": "https://www.city.mishima.shizuoka.jp/site/hoikuen/5723.html",
+      "quote": "申込に必要な書類を揃え、こども保育課に申込をします。 申込は予約制で、9月25日（木曜日）よりwebフォーム＜外部リンク＞または電話にて予約を受付します。"
+    },
+    "firstResult": {
+      "url": "https://www.city.mishima.shizuoka.jp/site/hoikuen/5723.html",
+      "quote": "一次募集で入園が内定した方および入園が保留になった方に、それぞれ結果通知を郵送させていただきます。 時期　令和8年1月下旬"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.mishima.shizuoka.jp/uploaded/attachment/11938.pdf",
+      "quote": "内定の場合：保育所等入所内定通知書 保留の場合：一次選考保留通知書"
+    },
+    "secondApply": {
+      "url": "https://www.city.mishima.shizuoka.jp/site/hoikuen/5723.html",
+      "quote": "二次募集の申込には、予約は必要ありません。 申込期間・場所 申込期間 令和7年11月10日（月曜日）～令和8年1月30日（金曜日）"
+    },
+    "secondResult": {
+      "url": "https://www.city.mishima.shizuoka.jp/site/hoikuen/5723.html",
+      "quote": "二次募集で入園が内定した方および入園が保留になった方に、それぞれ結果通知を郵送させてい ただきます。 時期　令和8年2月下旬"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.mishima.shizuoka.jp/uploaded/attachment/11938.pdf",
+      "quote": "〇 申込 （申込期限：利用開始月の前月10日（土日祝日の場合はその前日））"
+    },
+    "documents.0": {
+      "url": "https://www.city.mishima.shizuoka.jp/site/hoikuen/5723.html",
+      "quote": "保育所入所申込書兼保育児童台帳 各世帯につき1枚必要 ※兄弟で別の園を希望する場合はお子さん1名につき1枚必要"
+    },
+    "documents.1": {
+      "url": "https://www.city.mishima.shizuoka.jp/site/hoikuen/5723.html",
+      "quote": "教育・保育給付認定申請書 保育を必要とする事由の認定申請書 （お子さん1名につき1枚必要）"
+    },
+    "documents.2": {
+      "url": "https://www.city.mishima.shizuoka.jp/site/hoikuen/5723.html",
+      "quote": "入所希望児童調査票 入園希望時の状況調査票"
+    },
+    "documents.3": {
+      "url": "https://www.city.mishima.shizuoka.jp/site/hoikuen/5723.html",
+      "quote": "児童手当に係る学校給食費等の徴収等に関する申出書 ※原則、入所希望児童分提出いただいております"
+    },
+    "documents.4": {
+      "url": "https://www.city.mishima.shizuoka.jp/site/hoikuen/5723.html",
+      "quote": "保育所等入所に関する同意書 各世帯につき1枚必要"
+    },
+    "documents.5": {
+      "url": "https://www.city.mishima.shizuoka.jp/site/hoikuen/5723.html",
+      "quote": "就労証明書（自営業の方は就労状況申告書も併せてご提出ください）"
+    },
+    "interview": {
+      "url": "https://www.city.mishima.shizuoka.jp/site/hoikuen/5723.html",
+      "quote": "各保育所等で面接を実施予定です。 日時は申込後郵送にてお知らせします。 時期　令和7年11月下旬～12月中旬ごろ"
+    },
+    "ikukyu": {
+      "url": "https://www.city.mishima.shizuoka.jp/uploaded/attachment/11938.pdf",
+      "quote": "保育園に入園が叶わなかったことにより育児休業を延長する場合、ハローワークへの手続きにおいて以下の書類が必要となります。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.mishima.shizuoka.jp/uploaded/attachment/11938.pdf",
+      "quote": "保育所等の利用申込書類の写し 申込の前にご家庭でコピーを保管するようお願いします。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.mishima.shizuoka.jp/uploaded/attachment/11938.pdf",
+      "quote": "初回調整を行う入園希望月は保留の方全員へ発行しますが、2回目以降は希望者のみ発行しますので、必要な月の前月２０日ごろ以降に、こども保育課までお問合せください。"
+    },
+    "ikukyu#4": {
+      "url": "https://www.city.mishima.shizuoka.jp/uploaded/attachment/11938.pdf",
+      "quote": "施設利用保留通知書 保育所等の入園申込をして、入園が叶わなかった場合、"
+    },
+    "notes.0": {
+      "url": "https://www.city.mishima.shizuoka.jp/site/hoikuen/5723.html",
+      "quote": "そのため、保育所等の利用の申込みの前に、実際に見学するようお願いいたします。"
+    },
+    "notes.1": {
+      "url": "https://www.city.mishima.shizuoka.jp/uploaded/attachment/11938.pdf",
+      "quote": "4月入園の一次募集が、1年を通じて最も受入見込の多い募集になります。"
+    },
+    "notes.2": {
+      "url": "https://www.city.mishima.shizuoka.jp/site/hoikuen/5723.html",
+      "quote": "提出していただく方は、お子さんの父母、お子さんと同居している65歳未満（令和8年4月1日現在）の祖父母です"
+    },
+    "notes.3": {
+      "url": "https://www.city.mishima.shizuoka.jp/site/hoikuen/5723.html",
+      "quote": "なお、入園は三島市民を優先とするため、2については調整指数を下げて調整いたします。"
+    },
+    "notes.3#2": {
+      "url": "https://www.city.mishima.shizuoka.jp/site/hoikuen/5723.html",
+      "quote": "保護者のいずれか（または両方）の通勤先が三島市内である"
+    },
+    "notes.4": {
+      "url": "https://www.city.mishima.shizuoka.jp/site/hoikuen/5723.html",
+      "quote": "申込内容に変更があった場合は遅滞なくこども保育課へご連絡ください。"
+    },
+    "notes.4#2": {
+      "url": "https://www.city.mishima.shizuoka.jp/site/hoikuen/5723.html",
+      "quote": "なお、保育園入園決定後に、申込内容と実際の状況に著しい乖離が認められる場合、事実が判明した時点で入園を取り消しさせていただく場合があります。"
+    }
+  },
+  "sources": [
+    {
+      "label": "三島市「保育園等入園申込み（令和8年4月1日入園）について」",
+      "url": "https://www.city.mishima.shizuoka.jp/site/hoikuen/5723.html"
+    },
+    {
+      "label": "三島市「令和8年度三島市保育所等入園案内」",
+      "url": "https://www.city.mishima.shizuoka.jp/uploaded/attachment/11938.pdf"
+    }
+  ]
+}

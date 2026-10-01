@@ -1,0 +1,141 @@
+{
+  "citySlug": "moka",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "真岡市「来年度の入所申込み」",
+    "url": "https://www.city.moka.lg.jp/kakuka/hoiku/gyomu/kosodate/hoikusho_yochien/Nyuuennkibou/14151.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年10月1日（木曜日）〜11月30日（月曜日）。この期間の申請が一次選考の対象",
+  "applyMethods": "公立保育所・私立保育園は市役所保育課の窓口で受け付け、オンライン申請もできる。認定こども園・小規模保育施設・家庭的保育施設は各施設に直接申し込む",
+  "secondApply": "令和8年12月1日（火曜日）〜令和9年1月29日（金曜日）。この期間を過ぎても令和9年2月26日（金曜日）までは来年度の入所申込を受け付ける",
+  "midYearDeadline": "令和9年3月以降の申請は随時募集で、入所希望月の前々月末日までに提出する",
+  "documents": [
+    "入所申込書類（1〜4）に必要事項を記入したもの",
+    "保育を必要とする理由を確認するための「保護者等の状況を証明する書類」（就労証明書等）",
+    "家族全員のマイナンバーカード（個人番号通知カード）",
+    "申請者の身分証明書（運転免許証、パスポート等の写真付きのもの）",
+    "出生前に申し込む場合は母子手帳のコピー（保護者氏名のページと予定日のページ）"
+  ],
+  "interview": "保育所（園）・認定こども園・小規模保育施設の見学は、事前に各施設に問い合わせて見学日を調整する",
+  "notes": [
+    "一次選考期間を過ぎた申請は二次選考の対象となり、一次選考の終了後に選考される",
+    "令和8年度の入所が保留になっている人も再度申請が必要。令和8年4月以降の証明日の就労証明書などを提出済みで内容に変更がなければ添付を省略できる",
+    "出生前の申込みは、令和9年度中に職場復帰する人か就労予定の人だけ受け付ける",
+    "認定こども園・家庭的保育施設は9月1日（火曜日）から各施設で入所申込を受け付けている。小規模保育施設は施設ごとに申込開始日が異なる",
+    "保育所（園）は第3希望まで申請できるが、いくつ希望しても審査上の有利・不利には影響しない",
+    "転入予定の場合は、入所希望月の前月末日までに真岡市への転入手続きが完了していることが基本的な条件"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.moka.lg.jp/kakuka/hoiku/gyomu/kosodate/hoikusho_yochien/Nyuuennkibou/14151.html",
+      "quote": "令和9年度（令和9年4月～令和10年3月の期間に入所を希望される方）の保育所入所申込みを受付します。"
+    },
+    "firstApply": {
+      "url": "https://www.city.moka.lg.jp/kakuka/hoiku/gyomu/kosodate/hoikusho_yochien/Nyuuennkibou/14151.html",
+      "quote": "令和8年10月1日（木曜日）～11月30日（月曜日）の申請は、一次選考といたします。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.moka.lg.jp/kakuka/hoiku/gyomu/kosodate/hoikusho_yochien/Nyuuennkibou/14151.html",
+      "quote": "公立保育所、私立保育園の入所申込は保育課窓口にて受け付けます。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.moka.lg.jp/kakuka/hoiku/gyomu/kosodate/hoikusho_yochien/Nyuuennkibou/14151.html",
+      "quote": "市内保育所・保育園への入所申込を、オンライン申請でも受け付けております。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.moka.lg.jp/kakuka/hoiku/gyomu/kosodate/hoikusho_yochien/Nyuuennkibou/14151.html",
+      "quote": "認定こども園、小規模保育施設、家庭的保育施設の入所申込先は各施設となります。"
+    },
+    "secondApply": {
+      "url": "https://www.city.moka.lg.jp/kakuka/hoiku/gyomu/kosodate/hoikusho_yochien/Nyuuennkibou/14151.html",
+      "quote": "※2次選考申込期間は、令和8年12月1日（火曜日）から令和9年1月29日（金曜日）となります。"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.moka.lg.jp/kakuka/hoiku/gyomu/kosodate/hoikusho_yochien/Nyuuennkibou/14151.html",
+      "quote": "2次選考申込期間を過ぎても令和9年2月26日（金曜日）までは、来年度の入所申込を受け付けます。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.moka.lg.jp/kakuka/hoiku/gyomu/kosodate/hoikusho_yochien/Nyuuennkibou/14151.html",
+      "quote": "なお、令和9年3月以降に申請する場合は随時募集となります。入所希望月の前々月末日までにご提出ください。"
+    },
+    "documents.0": {
+      "url": "https://www.city.moka.lg.jp/kakuka/hoiku/gyomu/kosodate/hoikusho_yochien/Nyuuennkibou/15351.html",
+      "quote": "下記の入所申込書類（1～4）に必要事項を記入し、併せて保育を必要とする理由確認のため、「保護者等の状況を証明する書類」も提出してください。"
+    },
+    "documents.1": {
+      "url": "https://www.city.moka.lg.jp/material/files/group/44/202209295.pdf",
+      "quote": "７）保護者等の状況を証明する書類（就労証明書等）"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.moka.lg.jp/kakuka/hoiku/gyomu/kosodate/hoikusho_yochien/Nyuuennkibou/15351.html",
+      "quote": "下記の入所申込書類（1～4）に必要事項を記入し、併せて保育を必要とする理由確認のため、「保護者等の状況を証明する書類」も提出してください。"
+    },
+    "documents.2": {
+      "url": "https://www.city.moka.lg.jp/material/files/group/44/202209295.pdf",
+      "quote": "３）家族全員のマイナンバーカード（個人番号通知カード）"
+    },
+    "documents.3": {
+      "url": "https://www.city.moka.lg.jp/material/files/group/44/202209295.pdf",
+      "quote": "４）申請者の身分証明書（運転免許証、パスポート等の写真付のもの）"
+    },
+    "documents.4": {
+      "url": "https://www.city.moka.lg.jp/kakuka/hoiku/gyomu/kosodate/hoikusho_yochien/Nyuuennkibou/15351.html",
+      "quote": "出生前に保育所を申し込む場合は、母子手帳のコピー（保護者氏名のページと予定日のページ）が必要です。"
+    },
+    "interview": {
+      "url": "https://www.city.moka.lg.jp/material/files/group/44/202209295.pdf",
+      "quote": "A：事前に各保育施設にお問い合わせの上、見学日を調整してください。"
+    },
+    "interview#2": {
+      "url": "https://www.city.moka.lg.jp/material/files/group/44/202209295.pdf",
+      "quote": "Q７：保育所（園）、認定こども園、小規模保育施設を見学したいのですが。"
+    },
+    "notes.0": {
+      "url": "https://www.city.moka.lg.jp/kakuka/hoiku/gyomu/kosodate/hoikusho_yochien/Nyuuennkibou/14151.html",
+      "quote": "この期間経過後の申請は二次選考の対象となり、一次選考終了後に選考します。"
+    },
+    "notes.1": {
+      "url": "https://www.city.moka.lg.jp/kakuka/hoiku/gyomu/kosodate/hoikusho_yochien/Nyuuennkibou/14151.html",
+      "quote": "また、現在令和8年度の入所が保留となっている方に関しても、再度申請が必要となりますので、ご留意ください。"
+    },
+    "notes.1#2": {
+      "url": "https://www.city.moka.lg.jp/kakuka/hoiku/gyomu/kosodate/hoikusho_yochien/Nyuuennkibou/14151.html",
+      "quote": "ただし、保護者などの状況を証明する書類（就労証明書など）は、令和8年4月以降の証明日の証明書をすでに提出していて、証明内容に変更がない場合のみ、添付を省略することができます。"
+    },
+    "notes.2": {
+      "url": "https://www.city.moka.lg.jp/kakuka/hoiku/gyomu/kosodate/hoikusho_yochien/Nyuuennkibou/14151.html",
+      "quote": "出生前の申し込みは、令和9年度中に職場復帰する方または就労予定の方のみ受け付けます。"
+    },
+    "notes.3": {
+      "url": "https://www.city.moka.lg.jp/kakuka/hoiku/gyomu/kosodate/hoikusho_yochien/Nyuuennkibou/14151.html",
+      "quote": "認定こども園、家庭的保育施設では、9月1日（火曜日）より、各施設にて入所申込受付を開始いたします。"
+    },
+    "notes.3#2": {
+      "url": "https://www.city.moka.lg.jp/kakuka/hoiku/gyomu/kosodate/hoikusho_yochien/Nyuuennkibou/14151.html",
+      "quote": "小規模保育施設は、各施設により申込開始日が異なるためご注意ください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.moka.lg.jp/material/files/group/44/202209295.pdf",
+      "quote": "A：保育所（園）は第３希望まで申請できますが、いくつ希望しても審査上の有利・不利には影響しません。"
+    },
+    "notes.5": {
+      "url": "https://www.city.moka.lg.jp/kakuka/hoiku/gyomu/kosodate/hoikusho_yochien/Nyuuennkibou/15351.html",
+      "quote": "転入予定の方は基本的に、入所希望月の前月末日までに真岡市への転入手続きが完了していることが保育施設入所の条件となります。"
+    }
+  },
+  "sources": [
+    {
+      "label": "真岡市「来年度の入所申込み」",
+      "url": "https://www.city.moka.lg.jp/kakuka/hoiku/gyomu/kosodate/hoikusho_yochien/Nyuuennkibou/14151.html"
+    },
+    {
+      "label": "真岡市「保育所・認定こども園等の入所について」",
+      "url": "https://www.city.moka.lg.jp/kakuka/hoiku/gyomu/kosodate/hoikusho_yochien/Nyuuennkibou/15351.html"
+    },
+    {
+      "label": "真岡市「保育所（保育園）・認定こども園その他保育施設に関するQ&A」",
+      "url": "https://www.city.moka.lg.jp/material/files/group/44/202209295.pdf"
+    }
+  ]
+}

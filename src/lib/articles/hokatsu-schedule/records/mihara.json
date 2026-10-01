@@ -1,0 +1,185 @@
+{
+  "citySlug": "mihara",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "三原市「保育所（園）・認定こども園の入所申し込みができます【5～3月入所】」",
+    "url": "https://www.city.mihara.hiroshima.jp/site/kosodate/199276.html"
+  },
+  "fiscalYear": "R8",
+  "firstApply": "令和7年12月1日（月）〜12月19日（金）の開庁日、8時30分〜17時15分",
+  "applyMethods": "保育利用（2・3号認定）はこども保育課（市役所2階7番窓口）か各支所地域振興課に提出する。教育利用（1号認定）は入所を希望する認定こども園に提出する。マイナポータルの電子申請（ぴったりサービス）でも申し込め、各月の提出期限日の17時15分までの提出を受け付ける",
+  "firstResult": "4月入所の結果は3月上旬に発送。入所施設が決まれば「利用施設決定通知書」、決まらなければ「施設利用保留通知書」が届く",
+  "secondApply": "一次の受付期間を過ぎて受け付けたものは二次募集の対象で、受付は令和8年1月30日（金）まで。二次募集では求職活動要件での申し込みはできない",
+  "midYearDeadline": "5月以降の入所は入所希望月ごとに申込期間がある（令和8年5月入所は3月9日〜4月7日、6月入所は4月8日〜5月7日など）。結果は入所希望月の前月17日頃に発送",
+  "documents": [
+    "支給認定申請書兼入所申込書（黄色）",
+    "児童の発育・発達状況調査票",
+    "三原市料金等口座振替依頼書（3枚複写。市立・私立保育所、市立こども園を希望する場合のみ）",
+    "個人番号確認書類（マイナンバーカードなど）を申込に来る保護者1人分",
+    "申込児童の母子健康手帳（発育・発達状況調査票に記入漏れがあったときの確認用）",
+    "保育を必要とする理由を証明する書類（会社員・自営業の方は就労証明書）",
+    "求職活動の場合は申立書（求職活動要件）とハローワーク受付票のコピーなど"
+  ],
+  "interview": "申請の前に利用を希望する施設を見学し、保育内容や送り迎えが可能かを確かめるよう勧められている。見学は各施設に直接問い合わせる",
+  "ikukyu": "育児休業を延長する場合で育児休業給付金の受給申請のため「入所できなかった証明」を求められるときは、入所できなかった場合に保留通知を送付する。入所決定後に辞退しても保留通知は発行できない。給付金の受給申請を行う可能性がある人は、事前に支給認定申請書兼入所申込書をコピーして保管する",
+  "notes": [
+    "申込は先着順ではない",
+    "必要書類がすべてそろっていない場合や申込期間を過ぎた場合は受付できない",
+    "父母と同居の65歳未満の祖父母の書類が必要。父母以外の書類が無くても申し込めるが、入所調整で優先順位が低くなる",
+    "就労証明書は雇用主が記入・証明する書類なので、早めに作成を依頼する",
+    "入所決定後に正当な理由なく取り下げると、次回の入所審査で優先順位が低くなる",
+    "令和9年4月入所の申込は令和8年12月上旬〜中旬を予定（日程は未公表）"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/164208.pdf",
+      "quote": "（１）令和８年4月入所の申し込み ①受付期間 令和７年１２月１日（月）から令和７年１２月１９日（金）までの開庁日"
+    },
+    "firstApply": {
+      "url": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/164208.pdf",
+      "quote": "令和７年１２月１日（月）から令和７年１２月１９日（金）までの開庁日 8：30～17：15"
+    },
+    "applyMethods": {
+      "url": "https://www.city.mihara.hiroshima.jp/site/kosodate/199276.html",
+      "quote": "こども保育課（２階７番窓口）、各支所地域振興課 (2)教育認定（１号認定） 入所を希望する認定こども園"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/164208.pdf",
+      "quote": "「ぴったりサービス（マイナポータルの電子申請機能）」の電子申請をご利用できます。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/164208.pdf",
+      "quote": "※各月提出期限日の17時15分までにご提出があったものを受け付けます。"
+    },
+    "firstResult": {
+      "url": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/164208.pdf",
+      "quote": "４月入所希望の場合は３月上旬、５月入所以降は入所希望月前月の１７日頃発送します。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/164208.pdf",
+      "quote": "入所施設が決定した場合は「利用施設決定通知書」、決定しなかった場合は「施設利用保留通知書」を送付します。"
+    },
+    "secondApply": {
+      "url": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/164208.pdf",
+      "quote": "※二次募集：上記期間を過ぎ受け付けたものは、二次募集の対象となります。 受付期間は令和８年１月３０日（金）までです。"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/164208.pdf",
+      "quote": "二次募集では、求職活動要件での申し込みはできません。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/164208.pdf",
+      "quote": "令和８年5月 ３月９日～４月７日 10月 8月１０日～9月７日 6月 ４月８日～5月７日"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/164208.pdf",
+      "quote": "４月入所希望の場合は３月上旬、５月入所以降は入所希望月前月の１７日頃発送します。"
+    },
+    "documents.0": {
+      "url": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/164208.pdf",
+      "quote": "支給認定申請書兼入所申込書（黄色）"
+    },
+    "documents.1": {
+      "url": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/164208.pdf",
+      "quote": "児童の発育・発達状況調査票 ※尾道市、福山市、府中市、竹原市、世羅町、神石高原町、"
+    },
+    "documents.2": {
+      "url": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/164208.pdf",
+      "quote": "三原市料金等口座振替依頼書（３枚複写）"
+    },
+    "documents.2#2": {
+      "url": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/164208.pdf",
+      "quote": "※市立・私立保育所、市立こども園を希望される場合のみ"
+    },
+    "documents.3": {
+      "url": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/164208.pdf",
+      "quote": "個人番号確認書類 マイナンバーカード（顔写真つき）"
+    },
+    "documents.3#2": {
+      "url": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/164208.pdf",
+      "quote": "申込に来る保護者1人分 個人番号記載の住民票および運転免許証（顔写真つき）など"
+    },
+    "documents.4": {
+      "url": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/164208.pdf",
+      "quote": "申込児童の母子健康手帳（児童の発育・発達状況調査に記入漏れがあった際に確認します）"
+    },
+    "documents.5": {
+      "url": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/164208.pdf",
+      "quote": "会社員の方 １.就労証明書"
+    },
+    "documents.5#2": {
+      "url": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/164208.pdf",
+      "quote": "自営業の方 １.就労証明書"
+    },
+    "documents.6": {
+      "url": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/164208.pdf",
+      "quote": "求職活動 １.申立書（求職活動要件） ２.ハローワーク受付票のコピー など"
+    },
+    "interview": {
+      "url": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/164208.pdf",
+      "quote": "お子さんを長時間安心して預けるため、申請の前に利用を希望する施設を見学し、保育内容や送り迎えが可能か等を確認してください。"
+    },
+    "interview#2": {
+      "url": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/164208.pdf",
+      "quote": "見学をする際は、各施設へ直接お問い合わせください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/164208.pdf",
+      "quote": "入所申し込みをしたけれども、入所できなかった場合は、保留通知を送付します。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/164208.pdf",
+      "quote": "なお、入所決定後に、入所を辞退しても保留通知は発行できません。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/164208.pdf",
+      "quote": "育児休業給付金の受給申請を行なう可能性がある人は、必ず事前に支給認定申請書兼入所申込書をコピーし、保管してください。"
+    },
+    "ikukyu#4": {
+      "url": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/164208.pdf",
+      "quote": "やむを得ず育児休業を延長する場合で、育児休業給付金の受給申請のため「入所できなかった証明」を求められる場合"
+    },
+    "notes.0": {
+      "url": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/164208.pdf",
+      "quote": "申込期間内に必要書類を提出しましょう。 ③ 入所申し込み 先着順ではありません。"
+    },
+    "notes.1": {
+      "url": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/164208.pdf",
+      "quote": "入所申し込みは、必要書類がすべてそろっていない場合や、申込期間を過ぎた場合、受付ができません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/164208.pdf",
+      "quote": "父母および同居の65歳未満の祖父母の書類が必要です。世帯分離していても同居している場合は必要です。"
+    },
+    "notes.2#2": {
+      "url": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/164208.pdf",
+      "quote": "父母以外の書類の提出がなくても申し込みはできますが、入所調整において優先順位が低くなります。"
+    },
+    "notes.3": {
+      "url": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/164208.pdf",
+      "quote": "「就労証明書」は雇用主が記入・証明する書類ですので、早めに作成を依頼しましょう。"
+    },
+    "notes.4": {
+      "url": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/164208.pdf",
+      "quote": "他の入所希望者や各施設に迷惑をかけることになりますので、正当な理由がなく取り下げた場合は、次回の入所審査では優先順位が低くなります。"
+    },
+    "notes.5": {
+      "url": "https://www.city.mihara.hiroshima.jp/site/kosodate/132862.html",
+      "quote": "令和９年４月入所の申し込みは、令和８年１２月上旬～中旬を予定しています。"
+    }
+  },
+  "sources": [
+    {
+      "label": "三原市「保育所（園）・認定こども園の入所申し込みができます【5～3月入所】」",
+      "url": "https://www.city.mihara.hiroshima.jp/site/kosodate/199276.html"
+    },
+    {
+      "label": "三原市「令和８年度入所のご案内」",
+      "url": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/164208.pdf"
+    },
+    {
+      "label": "三原市「保育所等の入所申込期間」",
+      "url": "https://www.city.mihara.hiroshima.jp/site/kosodate/132862.html"
+    }
+  ]
+}

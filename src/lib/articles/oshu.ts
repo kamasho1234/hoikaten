@@ -3,18 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "oshu",
-    title: "奥州市の保活スケジュール　令和8年度4月入園の流れ",
-    description: "奥州市の認可保育施設の申込時期・選考の流れ・結果通知の時期をわかりやすく解説。令和8年度4月入園のスケジュールを中心にまとめました。",
-    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>令和8年度4月入園のスケジュール</h2><p>奥州市は岩手県南部に位置し、2006年に水沢市・江刺市・前沢町・胆沢町・衣川村が合併して誕生しました。人口約11万5千人で、東北新幹線水沢江刺駅があり、農業と製造業が基幹産業です。申込先は奥州市子ども未来部保育課です。</p><h3>一次利用調整</h3><table><tr><th>項目</th><th>日程</th></tr><tr><td>申込受付期間</td><td>令和7年10月中旬〜11月上旬</td></tr><tr><td>結果通知</td><td>令和8年1月中旬</td></tr></table><h3>二次利用調整</h3><table><tr><th>項目</th><th>日程</th></tr><tr><td>申込受付期間</td><td>令和8年2月上旬〜2月中旬</td></tr><tr><td>結果通知</td><td>令和8年3月上旬</td></tr></table><div class="point-box"><p><strong>ポイント</strong></p><p>奥州市の基本指数は、父母の低い方の点数を採用する方式です。最大10点（1人あたり）で、フルタイム共働き（月140時間以上）で親の片方が9点となるのが基本ラインです。</p></div>`,
-    publishedAt: "2026-05-15",
-    popularity: 42,
-  },
-  {
     slug: "hokatsu-mistakes",
     citySlug: "oshu",
     title: "奥州市の保活でよくある失敗と対策5選",

@@ -1,0 +1,165 @@
+{
+  "citySlug": "omuta",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "大牟田市「令和9年度の保育所・認定こども園・幼稚園の入所申込について」",
+    "url": "https://www.city.omuta.lg.jp/kiji00313411/index.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年10月1日（木）から申込書類を配布。保育所希望は市内の保育所と子ども育成課、認定こども園希望は市内の認定こども園と子ども育成課で受け取る",
+  "firstApply": "第1次申込期間は令和8年11月2日（月）〜11月30日（月）",
+  "applyMethods": "保育所希望は大牟田市役所保健センター1階の子ども育成課に提出（8:30〜17:15、土日祝を除く。第1次申込期間中の11月10日・24日は19:00まで受付）。認定こども園希望は希望の認定こども園に開園時間中に提出",
+  "firstResult": "第1次申込で第1希望の施設に入所できない人には12月下旬に連絡。入所決定者には2月中旬に市から支給認定証と入所承諾通知書（認定こども園は利用調整結果通知書）を通知",
+  "secondApply": "第2次申込期間は令和8年12月1日（火）〜12月28日（月）。第2次申込期間後も受付は可能",
+  "secondResult": "第2次申込で第1希望の施設に入所できない人には1月下旬に連絡。入所決定者への通知は2月中旬",
+  "documents": [
+    "教育・保育給付認定申請書兼入所申込書（兼児童台帳）兼施設等利用給付認定申請書",
+    "保育の必要性がわかる証明等（入所・入園予定日以降の必要性がわかるもの。証明書類等は10月以降の証明日でなければ受付できない）",
+    "個人番号届出書（提出する人の顔写真付き本人確認書類と、保護者と入所する児童の個人番号がわかるものを持参）"
+  ],
+  "interview": "申込の前に、希望施設へ電話で日時を相談し、入所を希望する児童と一緒に見学と先生との面談を行う。見学と面談をしていないと申込を受け付けない",
+  "ikukyu": "育児休業延長の手続きに必要な書類は勤務先に確認する。待機する人には申請により待機証明を交付（子ども育成課で申請、交付まで1週間程度）",
+  "notes": [
+    "新年度入所は期間中に申し込んだ人の中で選考するため、先着順ではない",
+    "市からの個別連絡は入所できない人にだけ行い、入所できる人の入所確認の問い合わせには答えない",
+    "妊娠中（出生前）は申し込めない。出生後に子どもと一緒に見学を済ませてから申し込む",
+    "消えるボールペンや鉛筆で書いたもの、修正液・修正テープで直したものは受け付けない",
+    "大牟田市に転入予定の人も、転入する日付と住所が確定していれば申し込める"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.omuta.lg.jp/kiji00313411/index.html",
+      "quote": "令和9年4月1日～5月1日の期間に入所を希望する方の入所申込の受付を開始します。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.omuta.lg.jp/kiji00313411/index.html",
+      "quote": "【申込書類の配布期間】令和8年10月1日（木）～"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.omuta.lg.jp/kiji00313411/index.html",
+      "quote": "○保育所を希望→大牟田市内の保育所、子ども育成課○認定こども園を希望→大牟田市内の認定こども園、子ども育成課"
+    },
+    "firstApply": {
+      "url": "https://www.city.omuta.lg.jp/kiji00313411/index.html",
+      "quote": "○第1次申込期間令和8年11月2日（月）～11月30日（月）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.omuta.lg.jp/kiji00313411/index.html",
+      "quote": "○保育所を希望→大牟田市役所 保健センター1階 子ども育成課8：30～17：15（土日祝を除く）"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.omuta.lg.jp/kiji00313411/index.html",
+      "quote": "※第1次申込期間中の第2、第4火曜日（11月10日、24日）は19：00まで受付"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.omuta.lg.jp/kiji00313411/index.html",
+      "quote": "○認定こども園を希望→希望の認定こども園　開園時間中"
+    },
+    "firstResult": {
+      "url": "https://www.city.omuta.lg.jp/kiji00313411/index.html",
+      "quote": "第1次申込期間申込者で第1希望の施設に入園ができない方は12月下旬に連絡します。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.omuta.lg.jp/kiji00313411/index.html",
+      "quote": "（2）2月中旬に入所決定者へ以下のものを市より通知します。"
+    },
+    "firstResult#3": {
+      "url": "https://www.city.omuta.lg.jp/kiji00313411/3_13411_132659_up_mhzi0czy.pdf",
+      "quote": "＊保 育 所 → 市が「支給認定証」と「入所承諾通知書」を交付します。"
+    },
+    "firstResult#4": {
+      "url": "https://www.city.omuta.lg.jp/kiji00313411/3_13411_132659_up_mhzi0czy.pdf",
+      "quote": "＊認定こども園 → 園を通じて市が「支給認定証」と「利用調整結果通知書」を交付します。"
+    },
+    "secondApply": {
+      "url": "https://www.city.omuta.lg.jp/kiji00313411/index.html",
+      "quote": "○第2次申込期間令和8年12月1日（火）～12月28日（月）※第2次申込期間後も受付は可能です。"
+    },
+    "secondResult": {
+      "url": "https://www.city.omuta.lg.jp/kiji00313411/index.html",
+      "quote": "第2次申込期間申込者で第1希望の施設に入園ができない方は1月下旬に連絡します。"
+    },
+    "secondResult#2": {
+      "url": "https://www.city.omuta.lg.jp/kiji00313411/index.html",
+      "quote": "（2）2月中旬に入所決定者へ以下のものを市より通知します。"
+    },
+    "documents.0": {
+      "url": "https://www.city.omuta.lg.jp/kiji00313411/3_13411_132113_up_54sebe2i.pdf",
+      "quote": "□教育・保育給付認定申請書兼入所申込書（兼児童台帳）兼施設等利用給付認定申請書"
+    },
+    "documents.1": {
+      "url": "https://www.city.omuta.lg.jp/kiji00313411/3_13411_132113_up_54sebe2i.pdf",
+      "quote": "□保育の必要性がわかる証明等（入所・入園予定日以降の必要性がわかるもの）"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.omuta.lg.jp/kiji00320728/index.html",
+      "quote": "なお、証明書類等は10月以降の証明日でなければ受付けることができませんのでご注意ください。"
+    },
+    "documents.2": {
+      "url": "https://www.city.omuta.lg.jp/kiji00313411/3_13411_132113_up_54sebe2i.pdf",
+      "quote": "□個人番号届出書 ・・・提出する人の顔写真が付いた本人確認書類と、保護者と入所する児童の個人番号がわかるものをお持ちください。"
+    },
+    "interview": {
+      "url": "https://www.city.omuta.lg.jp/kiji00313411/index.html",
+      "quote": "（1）入所希望の施設に事前に電話連絡を行い、見学と先生との面談の日時をご相談ください。"
+    },
+    "interview#2": {
+      "url": "https://www.city.omuta.lg.jp/kiji00313411/index.html",
+      "quote": "（2）入所を希望する児童と一緒に見学に行き、面談を行ってください。"
+    },
+    "interview#3": {
+      "url": "https://www.city.omuta.lg.jp/kiji0031042/index.html",
+      "quote": "この見学と面談が実施されていなければ受付はできません。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.omuta.lg.jp/kiji00313411/3_13411_132113_up_54sebe2i.pdf",
+      "quote": "育児休業延長の手続きに必要な書類については、勤務先にご確認ください。なお、待機をされる場合に、申請された方には待機証明を交付しています。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.omuta.lg.jp/kiji00313411/3_13411_132113_up_54sebe2i.pdf",
+      "quote": "待機証明が必要な方は、子ども育成課で申請をしてください。交付には、１週間程度かかります。"
+    },
+    "notes.0": {
+      "url": "https://www.city.omuta.lg.jp/kiji00320728/index.html",
+      "quote": "新年度入所については期間中に申込みされた方の中で選考を行うため先着順ではありません。"
+    },
+    "notes.1": {
+      "url": "https://www.city.omuta.lg.jp/kiji00313411/index.html",
+      "quote": "※入所ができない方のみ個別連絡します。入所ができる方の入所確認の問合せには対応できません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.omuta.lg.jp/kiji00313411/3_13411_132113_up_54sebe2i.pdf",
+      "quote": "できません。出生後、お子さんと一緒に見学を済ませたうえでお申し込みください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.omuta.lg.jp/kiji00313411/3_13411_132113_up_54sebe2i.pdf",
+      "quote": "〇消えるボールペンや鉛筆で記入したもの、修正液や修正テープで修正したものは受付できません。"
+    },
+    "notes.4": {
+      "url": "https://www.city.omuta.lg.jp/kiji00320728/index.html",
+      "quote": "大牟田市に転入する日付と住所が確定している場合は申込みできます。"
+    }
+  },
+  "sources": [
+    {
+      "label": "大牟田市「令和9年度の保育所・認定こども園・幼稚園の入所申込について」",
+      "url": "https://www.city.omuta.lg.jp/kiji00313411/index.html"
+    },
+    {
+      "label": "大牟田市「令和9年度保育所 認定こども園 幼稚園 入所・入園のしおり」（PDF）",
+      "url": "https://www.city.omuta.lg.jp/kiji00313411/3_13411_132113_up_54sebe2i.pdf"
+    },
+    {
+      "label": "大牟田市「R9新年度入所のお知らせ」（PDF）",
+      "url": "https://www.city.omuta.lg.jp/kiji00313411/3_13411_132659_up_mhzi0czy.pdf"
+    },
+    {
+      "label": "大牟田市「保育所（保育園）に入所するには」",
+      "url": "https://www.city.omuta.lg.jp/kiji0031042/index.html"
+    },
+    {
+      "label": "大牟田市「保育所・幼稚園・認定こども園についてよくある質問まとめました」",
+      "url": "https://www.city.omuta.lg.jp/kiji00320728/index.html"
+    }
+  ]
+}

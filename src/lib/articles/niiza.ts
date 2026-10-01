@@ -5,60 +5,6 @@ const articles: Article[] = [
   // =========================================================================
   // 1. 保活スケジュール
   // =========================================================================
-  {
-    slug: "hokatsu-schedule",
-    citySlug: "niiza",
-    title: "新座市の保活スケジュール　申込から内定までの流れ",
-    description:
-      "新座市の認可保育園の申込時期・選考の流れをまとめました。令和8年度4月入園の動き方を解説します。",
-    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>新座市の4月入園スケジュール</h2>
-<p>新座市の認可保育園は毎年秋に翌年度4月入園の申込を受付けます。新座市こども未来部保育課の案内を確認して準備を進めましょう。</p>
-
-<h3>保活の全体スケジュール</h3>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content">
-<strong>4月〜6月：情報収集</strong>
-<p>新座市のホームページで認可保育園（約25か所）の一覧を確認します。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content">
-<strong>6月〜9月：保育園見学</strong>
-<p>気になる園に連絡して見学を予約しましょう。新座市は志木駅・新座駅周辺に園が集中しています。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content">
-<strong>9月〜10月：申込書類の準備</strong>
-<p>就労証明書などの必要書類を準備します。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content">
-<strong>10月〜11月：申込書類の提出</strong>
-<p>こども未来部保育課の窓口または郵送で提出します。</p>
-</div>
-</div>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>新座市は基本指数が父母各最大30点（合計60点満点）です。フルタイム共働きで60点が基本ラインになります。</p>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.niiza.lg.jp/soshiki/93/" target="_blank" rel="noopener">新座市こども未来部保育課</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-04-07",
-    popularity: 55,
-  },
 
   // =========================================================================
   // 2. 入園点数のしくみ

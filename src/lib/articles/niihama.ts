@@ -3,18 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "niihama",
-    title: "新居浜市の保活スケジュール　令和8年度4月入園の流れ",
-    description: "新居浜市の認可保育園の申込時期・選考の流れ・結果通知の時期をわかりやすく解説。令和8年度4月入園のスケジュールを中心にまとめました。",
-    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>令和8年度4月入園のスケジュール</h2><p>新居浜市は愛媛県東予地方に位置する人口約11万人の都市です。住友グループの企業城下町として知られ、共働き世帯が多いため保育需要は旺盛です。申込先は新居浜市こども育て課です。</p><h2>一次申込</h2><table><tr><th>項目</th><th>日程</th></tr><tr><td>申込受付期間</td><td>令和7年11月上旬〜11月下旬</td></tr><tr><td>結果通知</td><td>令和8年2月上旬</td></tr></table><h2>二次申込・随時申込</h2><table><tr><th>項目</th><th>日程</th></tr><tr><td>申込受付期間</td><td>令和8年2月中旬〜</td></tr><tr><td>結果通知</td><td>随時通知</td></tr></table><div class="point-box"><p><strong>ポイント</strong></p><p>新居浜市は企業城下町のため、大手企業の育休明けが集中する4月の競争率が高いのが特徴です。早めの申込を心がけましょう。</p></div>`,
-    publishedAt: "2026-05-08",
-    popularity: 40,
-  },
-  {
     slug: "hokatsu-mistakes",
     citySlug: "niihama",
     title: "新居浜市の保活でよくある失敗と対策5選",

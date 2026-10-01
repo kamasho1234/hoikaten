@@ -1,0 +1,162 @@
+{
+  "citySlug": "moriya",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "守谷市「保育所のご案内」",
+    "url": "https://www.city.moriya.ibaraki.jp/kosodate/service/1002439/1002440.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "入所のご案内の冊子と申込書類は市ホームページからダウンロードできる。すくすく保育課窓口での配布は10月1日（木曜）から開始予定",
+  "firstApply": "令和8年11月5日（木曜）〜令和8年11月17日（火曜）。受付時間は午前9時から午後3時30分。土日祝日は11月8日（日曜）だけ受け付ける（午前9時〜11時30分、午後1時〜3時30分）",
+  "applyMethods": "申込書類に記入し必要書類を添えて、受付期間内にすくすく保育課窓口に出す。手続きナビ（書かない窓口）で作った申請書のQRコードを持参してもよい。マイナポータルでの電子申請もでき、その場合は就労証明書等をPDFで添付し、受付後に原本を郵送等で出す",
+  "firstResult": "令和9年2月上旬に結果を通知",
+  "secondApply": "令和9年2月1日（月曜）〜令和9年2月16日（火曜）。土日祝日は受け付けない。第2回利用調整は第1回の後に空きがある施設だけで行う",
+  "secondResult": "令和9年3月中旬に結果を通知",
+  "midYearDeadline": "随時受付は令和9年3月1日（月曜）から。各回に締切日があり、5月〜3月入所の第3回は令和9年3月31日（水）締切、最終締切日は令和9年12月24日（金曜）",
+  "documents": [
+    "子どものための教育・保育給付認定申請書（児童1名につき1枚）",
+    "施設等利用申込書（児童1名につき1枚）",
+    "保育所入所申込み確認票（児童1名につき1枚、両面）",
+    "個人番号（マイナンバー）申告書（1世帯につき1枚、世帯全員分の個人番号を記載）",
+    "保育を必要とする証明書類（就労証明書等。父母1枚ずつ。就労証明書の有効期間は証明日から6か月間で、一次受付だけは証明日が令和8年4月以降のものを有効とする）",
+    "申込者の本人確認・個人番号（マイナンバー）確認の資料（提出時に窓口で提示）"
+  ],
+  "interview": "希望施設は事前に見学することが勧められている（見学は施設に直接問い合わせる）。加配が必要になる可能性があると市が認める場合は、入所決定前に施設と面接をして入所の可否を決めることがある",
+  "ikukyu": "育児休業の延長手続き用の「利用保留通知書」は、締切日までに入所申込みをして利用調整を受けた人の結果通知として出る。申込みの無い期間の分を遡って発行することはできない",
+  "notes": [
+    "入所予約制のため、令和9年4月から令和10年3月までに入所を希望する人は一次受付から申し込める（在園児の転園は令和9年4月転園希望だけが対象）",
+    "受付期間後に不足書類や希望園の変更を追加で出す期間は無い",
+    "書類に不備がある場合や、申込者の本人確認資料の提示が無い場合は受け付けない",
+    "受付は申込児童1人あたり概ね20分程度かかる見込みで、きょうだい同時の申込みはさらに時間がかかる",
+    "希望施設は最大第10希望まで書ける",
+    "令和8年10月26日（月曜）・27日（火曜）に申込書類記入説明会がある（予約不要）"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.moriya.ibaraki.jp/kosodate/service/1002439/1002440.html",
+      "quote": "守谷市では「入所予約制」を採用しているため、入所希望月が令和9年4月から令和10年3月までのかたが、一次受付から申し込むことができます。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.moriya.ibaraki.jp/kosodate/service/1002439/1002440.html",
+      "quote": "市ホームページにてダウンロード可能です。すくすく保育課窓口での配布は、10月1日（木曜）から開始する予定です。"
+    },
+    "firstApply": {
+      "url": "https://www.city.moriya.ibaraki.jp/kosodate/service/1002439/1002440.html",
+      "quote": "令和8年11月5日（木曜）から令和8年11月17日（火曜） 土日祝日は、11月8日（日曜）のみ受付します。 受付時間 午前9時から午後3時30分 まで 11月8日（日曜）は、午前9時から午前11時30分、午後1時から午後3時30分のみ受付します。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.moriya.ibaraki.jp/kosodate/service/1002439/1002440.html",
+      "quote": "申込書類に必要事項を記入し、必要書類を添付のうえ、受付期間内にすくすく保育課窓口にてお申し込みください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.moriya.ibaraki.jp/kosodate/service/1002439/1002440.html",
+      "quote": "パソコンやスマートフォンから申請書を作成することが可能です。作成した申請書ごとのQRコードをお持ちください。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.moriya.ibaraki.jp/_res/projects/default_project/_page_/001/002/440/r9_nyuusyoannai.pdf",
+      "quote": "●保育を必要とする証明書類（就労証明書等）は、PDFデータのみ添付可能です。また、電子申請受付後、別途原本を郵送等でご提出いただきます。"
+    },
+    "firstResult": {
+      "url": "https://www.city.moriya.ibaraki.jp/_res/projects/default_project/_page_/001/002/440/r9_nyuusyoannai.pdf",
+      "quote": "令和８年11月５日（木）～ 令和８年11月1７日（火） 9：00 ～ 1５：３0 令和９年2月上旬"
+    },
+    "secondApply": {
+      "url": "https://www.city.moriya.ibaraki.jp/kosodate/service/1002439/1002440.html",
+      "quote": "受付期間 令和9年2月1日（月曜）から令和9年2月16日（火曜） 土日祝日の受付は行いません。"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.moriya.ibaraki.jp/kosodate/service/1002439/1002440.html",
+      "quote": "第2回利用調整は、第1回利用調整終了後に空きがある施設のみ実施します。"
+    },
+    "secondResult": {
+      "url": "https://www.city.moriya.ibaraki.jp/_res/projects/default_project/_page_/001/002/440/r9_nyuusyoannai.pdf",
+      "quote": "令和９年2月１日（月）～ 令和９年2月1６日（火） 9：00 ～ 15：30 令和９年3月中旬"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.moriya.ibaraki.jp/kosodate/service/1002439/1002440.html",
+      "quote": "受付開始日 令和9年3月1日（月曜） 最終締切日 令和9年12月24日（金曜）"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.moriya.ibaraki.jp/_res/projects/default_project/_page_/001/002/440/r9_zuiziuketuke.pdf",
+      "quote": "第3回利用調整 （4月上旬実施予定） 令和9年3月31日（水） 5月 ～ 3月入所"
+    },
+    "documents.0": {
+      "url": "https://www.city.moriya.ibaraki.jp/_res/projects/default_project/_page_/001/002/440/r9_nyuusyoannai.pdf",
+      "quote": "① 子どものための教育・保育給付認定申請書 児童1名につき1枚必要"
+    },
+    "documents.1": {
+      "url": "https://www.city.moriya.ibaraki.jp/_res/projects/default_project/_page_/001/002/440/r9_nyuusyoannai.pdf",
+      "quote": "② 施設等利用申込書 児童1名につき1枚必要"
+    },
+    "documents.2": {
+      "url": "https://www.city.moriya.ibaraki.jp/_res/projects/default_project/_page_/001/002/440/r9_nyuusyoannai.pdf",
+      "quote": "④ 保育所入所申込み確認票 児童1名につき1枚（両面）必要"
+    },
+    "documents.3": {
+      "url": "https://www.city.moriya.ibaraki.jp/_res/projects/default_project/_page_/001/002/440/r9_nyuusyoannai.pdf",
+      "quote": "⑤ 個人番号（マイナンバー）申告書 1世帯につき1枚必要 ※世帯全員分の個人番号の記載が必要"
+    },
+    "documents.4": {
+      "url": "https://www.city.moriya.ibaraki.jp/_res/projects/default_project/_page_/001/002/440/r9_nyuusyoannai.pdf",
+      "quote": "⑥ 保育を必要とする証明書類 1世帯につき父母1枚ずつ必要"
+    },
+    "documents.4#2": {
+      "url": "https://www.city.moriya.ibaraki.jp/_res/projects/default_project/_page_/001/002/440/r9_nyuusyoannai.pdf",
+      "quote": "Ａ．就労証明書の有効期間は、就労先の証明日から６か月間とします。（注：提出日から６か月間ではありません。） ただし一次受付のみ、証明日が令和8年４月以降の就労証明書を有効とします。"
+    },
+    "documents.5": {
+      "url": "https://www.city.moriya.ibaraki.jp/_res/projects/default_project/_page_/001/002/440/r9_nyuusyoannai.pdf",
+      "quote": "※ 申込者の本人確認・個人番号(マイナンバー)確認の資料を、提出時に窓口で提示が必要です。"
+    },
+    "interview": {
+      "url": "https://www.city.moriya.ibaraki.jp/_res/projects/default_project/_page_/001/002/440/r9_nyuusyoannai.pdf",
+      "quote": "●利用希望施設については、事前に施設を見学することをお勧めします。保育方針や送迎が可能かなどを確認のうえ、申し込んでください。（施設の見学を希望する場合は、直接施設あてにお問い合わせください。）"
+    },
+    "interview#2": {
+      "url": "https://www.city.moriya.ibaraki.jp/_res/projects/default_project/_page_/001/002/440/r9_nyuusyoannai.pdf",
+      "quote": "加配が必要になる可能性があると市が認める場合には、（周りのお子さんも含め）お子さんを安全にお預かりできるかについて、入所決定前に施設と面接を実施し、最終的な入所の可否を決定する場合がありますので、ご協力をお願いします。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.moriya.ibaraki.jp/_res/projects/default_project/_page_/001/002/440/r9_nyuusyoannai.pdf",
+      "quote": "市役所で発行するのは、締切日までに入所申込みをした方で利用調整を実施した結果の通知となりますので、入所申込みのない期間の「利用保留通知書」を遡って発行することは、いかなる理由があってもできません。"
+    },
+    "notes.0": {
+      "url": "https://www.city.moriya.ibaraki.jp/kosodate/service/1002439/1002440.html",
+      "quote": "ただし、在園児の転園希望の申し込みについては、入所予約の対象外となるため、令和9年4月転園希望のかたのみが対象になります。"
+    },
+    "notes.1": {
+      "url": "https://www.city.moriya.ibaraki.jp/kosodate/service/1002439/1002440.html",
+      "quote": "受付期間後の追加提出期間（不足書類や希望園等変更）は特にありませんので、ご注意ください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.moriya.ibaraki.jp/kosodate/service/1002439/1002440.html",
+      "quote": "書類に不備がある場合、または 申込者の本人確認資料の提示がない場合には受付できません ので、ご注意ください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.moriya.ibaraki.jp/kosodate/service/1002439/1002440.html",
+      "quote": "申込児童お一人あたりの受付にかかる時間は、 概ね20分程度 と見込まれます。 （きょうだい同時で申し込む等の場合は、さらに時間を要します。）"
+    },
+    "notes.4": {
+      "url": "https://www.city.moriya.ibaraki.jp/_res/projects/default_project/_page_/001/002/440/r9_nyuusyoannai.pdf",
+      "quote": "●最大第１０希望まで申し込むことができますが、必ずしもすべて記入する必要はありません。"
+    },
+    "notes.5": {
+      "url": "https://www.city.moriya.ibaraki.jp/kosodate/service/1002439/1002440.html",
+      "quote": "予約不要です。 開催日 令和8年10月26日（月曜） 令和8年10月27日（火曜）"
+    }
+  },
+  "sources": [
+    {
+      "label": "守谷市「保育所のご案内」",
+      "url": "https://www.city.moriya.ibaraki.jp/kosodate/service/1002439/1002440.html"
+    },
+    {
+      "label": "守谷市「令和9年度 保育所入所のご案内」",
+      "url": "https://www.city.moriya.ibaraki.jp/_res/projects/default_project/_page_/001/002/440/r9_nyuusyoannai.pdf"
+    },
+    {
+      "label": "守谷市「令和9年度 保育所申込み 随時受付分 各回の締切日一覧」",
+      "url": "https://www.city.moriya.ibaraki.jp/_res/projects/default_project/_page_/001/002/440/r9_zuiziuketuke.pdf"
+    }
+  ]
+}
