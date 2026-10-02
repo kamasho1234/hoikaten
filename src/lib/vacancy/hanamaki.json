@@ -2,12 +2,12 @@
   "municipalitySlug": "hanamaki",
   "municipalityName": "花巻市",
   "prefecture": "岩手県",
-  "asOf": "2026-09-03",
-  "fetchedAt": "2026-10-01",
+  "asOf": "2026-10-02",
+  "fetchedAt": "2026-10-02",
   "sourceName": "花巻市「花巻市内認可保育施設の受入可能人数」",
   "sourceUrl": "https://www.city.hanamaki.iwate.jp/kosodate_kyoiku/kosodate/hoikuen_yochien/shisetsu_nyusho/hoikuen/1017811.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.hanamaki.iwate.jp/_res/projects/default_project/_page_/001/017/811/aki202610.pdf"
+    "vacancy": "https://www.city.hanamaki.iwate.jp/_res/projects/default_project/_page_/001/017/811/aki202611.pdf"
   },
   "metrics": [
     "vacancy"
@@ -31,7 +31,7 @@
       "w": null,
       "c": 0,
       "vacancy": [
-        1,
+        0,
         0,
         0,
         0,
@@ -45,7 +45,7 @@
       "w": null,
       "c": 0,
       "vacancy": [
-        1,
+        0,
         0,
         0,
         0,
@@ -75,9 +75,9 @@
       "vacancy": [
         0,
         0,
+        1,
         0,
-        0,
-        0,
+        1,
         0
       ]
     },
@@ -101,7 +101,7 @@
       "w": null,
       "c": 0,
       "vacancy": [
-        0,
+        1,
         1,
         1,
         0,
@@ -117,9 +117,9 @@
       "vacancy": [
         null,
         0,
-        1,
         0,
-        1,
+        0,
+        0,
         0
       ]
     },
@@ -129,7 +129,7 @@
       "w": null,
       "c": 0,
       "vacancy": [
-        2,
+        1,
         0,
         null,
         null,
@@ -143,7 +143,7 @@
       "w": null,
       "c": 0,
       "vacancy": [
-        1,
+        0,
         0,
         0,
         0,
@@ -157,7 +157,7 @@
       "w": null,
       "c": 0,
       "vacancy": [
-        1,
+        0,
         0,
         0,
         0,
@@ -171,7 +171,7 @@
       "w": null,
       "c": 0,
       "vacancy": [
-        1,
+        0,
         0,
         0,
         0,
@@ -257,8 +257,8 @@
       "vacancy": [
         0,
         0,
-        1,
-        1,
+        2,
+        0,
         0,
         0
       ]
@@ -269,8 +269,8 @@
       "w": null,
       "c": 1,
       "vacancy": [
-        1,
-        1,
+        0,
+        0,
         0,
         0,
         0,
@@ -297,7 +297,7 @@
       "w": null,
       "c": 1,
       "vacancy": [
-        0,
+        1,
         0,
         0,
         0,
@@ -325,7 +325,7 @@
       "w": null,
       "c": 1,
       "vacancy": [
-        0,
+        1,
         0,
         0,
         0,
@@ -339,12 +339,12 @@
       "w": null,
       "c": 1,
       "vacancy": [
-        1,
+        0,
+        0,
+        0,
         0,
         1,
-        0,
-        0,
-        0
+        1
       ]
     },
     {
@@ -367,7 +367,7 @@
       "w": null,
       "c": 1,
       "vacancy": [
-        2,
+        0,
         0,
         0,
         0,
@@ -409,9 +409,9 @@
       "w": null,
       "c": 2,
       "vacancy": [
-        0,
+        1,
         2,
-        2,
+        3,
         null,
         null,
         null
@@ -493,12 +493,12 @@
       "w": null,
       "c": 0,
       "vacancy": [
+        1,
         0,
         0,
         0,
         0,
-        0,
-        0
+        1
       ]
     },
     {
@@ -507,11 +507,11 @@
       "w": null,
       "c": 0,
       "vacancy": [
-        2,
         0,
         0,
         0,
         0,
+        1,
         0
       ]
     },
@@ -521,11 +521,11 @@
       "w": null,
       "c": 0,
       "vacancy": [
+        1,
         0,
-        0,
         1,
-        1,
-        1,
+        2,
+        2,
         0
       ]
     },
@@ -535,7 +535,7 @@
       "w": null,
       "c": 0,
       "vacancy": [
-        1,
+        0,
         0,
         0,
         0,
@@ -565,7 +565,7 @@
       "vacancy": [
         0,
         0,
-        1,
+        0,
         1,
         1,
         1
@@ -577,12 +577,12 @@
       "w": null,
       "c": 0,
       "vacancy": [
+        0,
+        0,
         1,
-        0,
         1,
-        0,
-        0,
-        0
+        1,
+        1
       ]
     },
     {
@@ -591,7 +591,7 @@
       "w": null,
       "c": 1,
       "vacancy": [
-        0,
+        1,
         0,
         0,
         0,

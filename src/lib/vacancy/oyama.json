@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "oyama",
   "municipalityName": "小山市",
-  "asOf": "2026-09-29",
-  "fetchedAt": "2026-09-29",
+  "asOf": "2026-10-02",
+  "fetchedAt": "2026-10-02",
   "sourceName": "小山市「保育園（所）・認定こども園の空き状況」",
   "sourceUrl": "https://www.city.oyama.tochigi.jp/kosodate-nicomaru/azukeru/page008962.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.oyama.tochigi.jp/data/doc/1790658416_doc_480_0.pdf"
+    "vacancy": "https://www.city.oyama.tochigi.jp/data/doc/1790901673_doc_480_0.pdf"
   },
   "metrics": [
     "symbol"
@@ -72,7 +72,7 @@
     {"id":"栗の実保育園","name":"栗の実保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","ー","ー","ー"]},
     {"id":"ひまわり保育園","name":"ひまわり保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","ー","ー","ー"]},
     {"id":"にこにこ保育園","name":"にこにこ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","ー","ー","ー"]},
-    {"id":"木の実保育園","name":"木の実保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×","×","×","×"]},
+    {"id":"木の実保育園","name":"木の実保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
     {"id":"こひつじ保育園","name":"こひつじ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
     {"id":"静林保育園","name":"静林保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","ー","ー","ー"]},
     {"id":"こばとキッズ","name":"こばとキッズ","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","△","×","×","×"]},

@@ -2,7 +2,7 @@
   "municipalitySlug": "fukuoka",
   "municipalityName": "福岡市",
   "asOf": "2026-10-01",
-  "fetchedAt": "2026-10-01",
+  "fetchedAt": "2026-10-02",
   "sourceName": "福岡市「ふくおか保育所案内板〈空きマップ〉」",
   "sourceUrl": "https://kodomo-hoiku.city.fukuoka.lg.jp/",
   "sourceFiles": {
@@ -182,7 +182,7 @@
     {"id":"125","name":"清水博多駅東保育園（認定こども園清水保育園分園）","w":1,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["◎","○","×","×","×","×"]},
     {"id":"126","name":"しあわせな木保育園","w":1,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["○","◎","△","×","×","×"],"site":{"url":"http://www.shiawasenaki.com","type":"facility"}},
     {"id":"127","name":"大井保育園","w":1,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["◎","◎","△","×","×","×"],"site":{"url":"https://ooi-hoikuen.com","type":"facility"}},
-    {"id":"128","name":"恵愛ソレイユ保育園","w":1,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["◎","△","○","×","×","×"],"site":{"url":"https://www.instagram.com/kisoleil/","type":"facility"}},
+    {"id":"128","name":"恵愛ソレイユ保育園","w":1,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["◎","×","○","×","×","×"],"site":{"url":"https://www.instagram.com/kisoleil/","type":"facility"}},
     {"id":"129","name":"わかな保育園","w":1,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["◎","◎","×","△","△","△"],"site":{"url":"https://wakanahoikuen.jp/","type":"facility"}},
     {"id":"130","name":"たんすい保育園","w":1,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["◎","○","×","△","×","×"]},
     {"id":"131","name":"アスク東比恵保育園","w":1,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["◎","◎","○","×","×","×"]},
