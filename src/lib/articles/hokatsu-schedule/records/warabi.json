@@ -1,0 +1,189 @@
+{
+  "citySlug": "warabi",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "蕨市「令和9年度保育園入園手続き」",
+    "url": "https://www.city.warabi.saitama.jp/kosodate/hoiku/hoikuen/1013269.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "保育園入園のてびきを令和8年10月1日（木曜日）から配布。各保育園、東公民館、子ども未来課保育係で配布し、市ホームページからもダウンロードできる",
+  "firstApply": "令和8年10月1日（木曜日）〜令和8年11月20日（金曜日）。土・日・祝日は受付しない",
+  "applyMethods": "必要書類をそろえて子ども未来課の窓口へ直接提出する。郵送・ファクス・メールでは受け付けない",
+  "firstResult": "令和9年2月上旬に内定通知と面接の案内を送付。内定しなかった場合は認定証と入園保留通知書を令和9年2月上旬に送付",
+  "secondApply": "令和8年11月24日（火曜日）〜令和9年2月10日（水曜日）",
+  "secondResult": "令和9年3月上旬に内定通知と面接の案内を送付。内定しなかった場合は認定証と入園保留通知書を令和9年3月上旬に送付",
+  "midYearDeadline": "5月〜12月入園の申込みは、入園希望月の3か月前の11日から前月10日まで",
+  "documents": [
+    "保育園入園申込書（蕨市指定様式）",
+    "教育・保育給付認定申請書（蕨市指定様式）",
+    "確認書1・2（蕨市指定様式）",
+    "保育ができない状況等を証明するもの（外勤の方は就労証明書（国の標準的な様式））。保護者（父母）と同居の方全員（65歳以上、就学中の兄弟姉妹を除く）の分が必要",
+    "就労証明書・診断書・在学証明書・在園証明書・戸籍謄本・戸籍届出受理証明は申込日の3か月以内に発行されたものに限る",
+    "個人番号確認と身元確認のための書類（マイナンバーカード等）"
+  ],
+  "interview": "申込時の児童面接は無く、児童同伴は不要。内定者は内定した保育園で子どもと保護者の面接を受ける（4月入園一次受付は令和9年2月中旬に実施予定）。面接を受けないと内定取り消し",
+  "ikukyu": "確認書1で「希望する保育所等に入所できない場合は、育児休業の延長も許容できる」にチェックすると利用調整指数が0点になる（希望園に空きがあれば0点でも内定することがある）。入園保留通知書は申込みをした最初の月のみ発行し、内定を辞退した場合は発行されない",
+  "notes": [
+    "受付の順番は利用調整に一切関係しない",
+    "申込書類・添付書類に不備・不足があると受付できない",
+    "4月入園一次受付の内定を辞退すると、4月入園二次受付には申し込めない",
+    "一次受付で内定しなかった場合、申込みを取り下げない限り二次受付の利用調整の対象になる",
+    "申込書はその年度の3月入園選考まで有効で、再度の申込みは不要"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.warabi.saitama.jp/kosodate/hoiku/hoikuen/1013269.html",
+      "quote": "令和9年度の保育園入園に必要な手続きについてお知らせします。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.warabi.saitama.jp/kosodate/hoiku/hoikuen/1010848.html",
+      "quote": "令和9年度保育園入園のてびきは、令和8年10月1日（木曜日）に配布開始いたします。"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.warabi.saitama.jp/kosodate/hoiku/hoikuen/1013268.html",
+      "quote": "また、各保育園、東公民館、子ども未来課保育係でも配布しております。"
+    },
+    "guideRelease#3": {
+      "url": "https://www.city.warabi.saitama.jp/kosodate/hoiku/hoikuen/1010848.html",
+      "quote": "※ホームページからダウンロードすることもできます。"
+    },
+    "firstApply": {
+      "url": "https://www.city.warabi.saitama.jp/kosodate/hoiku/hoikuen/1013269.html",
+      "quote": "令和9年4月入園（一次受付） 令和8年10月1日（木曜日）～令和8年11月20日（金曜日）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.warabi.saitama.jp/kosodate/hoiku/hoikuen/1010848.html",
+      "quote": "※土、日、祝日は受付しておりません。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.warabi.saitama.jp/kosodate/hoiku/hoikuen/1013269.html",
+      "quote": "期限までに必要書類を揃えて、子ども未来課窓口へ直接ご提出ください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.warabi.saitama.jp/kosodate/hoiku/hoikuen/1013269.html",
+      "quote": "※郵送・ファクス・メールでの受付は行いません。"
+    },
+    "firstResult": {
+      "url": "https://www.city.warabi.saitama.jp/kosodate/hoiku/hoikuen/1013269.html",
+      "quote": "令和9年4月（一次受付） 令和9年2月上旬に、内定通知および面接の案内を送付します。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.warabi.saitama.jp/kosodate/hoiku/hoikuen/1013269.html",
+      "quote": "認定証および入園保留通知書を令和9年2月上旬に送付します。"
+    },
+    "secondApply": {
+      "url": "https://www.city.warabi.saitama.jp/kosodate/hoiku/hoikuen/1013269.html",
+      "quote": "令和9年4月入園（二次受付） 令和8年11月24日（火曜日）～令和9年2月10日（水曜日）"
+    },
+    "secondResult": {
+      "url": "https://www.city.warabi.saitama.jp/kosodate/hoiku/hoikuen/1013269.html",
+      "quote": "令和9年4月（二次受付） 令和9年3月上旬に、内定通知および面接の案内を送付します。"
+    },
+    "secondResult#2": {
+      "url": "https://www.city.warabi.saitama.jp/kosodate/hoiku/hoikuen/1013269.html",
+      "quote": "認定証および入園保留通知書を令和9年3月上旬に送付します。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.warabi.saitama.jp/_res/projects/default_project/_page_/001/013/269/r9tebiki.pdf",
+      "quote": "5月～12月の入園申込みは、入園希望月の３か月前の11日から前月10日までとなります。"
+    },
+    "documents.0": {
+      "url": "https://www.city.warabi.saitama.jp/kosodate/hoiku/hoikuen/1013269.html",
+      "quote": "（1）保育園入園申込書（蕨市指定様式）"
+    },
+    "documents.1": {
+      "url": "https://www.city.warabi.saitama.jp/kosodate/hoiku/hoikuen/1013269.html",
+      "quote": "（2）教育・保育給付認定申請書（蕨市指定様式）"
+    },
+    "documents.2": {
+      "url": "https://www.city.warabi.saitama.jp/kosodate/hoiku/hoikuen/1013269.html",
+      "quote": "（3）確認書1・2（蕨市指定様式）"
+    },
+    "documents.3": {
+      "url": "https://www.city.warabi.saitama.jp/kosodate/hoiku/hoikuen/1013269.html",
+      "quote": "保護者（父母）の分と、同居の方全員（65歳以上、就学中の兄弟姉妹除く）の分が必要です。"
+    },
+    "documents.3#2": {
+      "url": "https://www.city.warabi.saitama.jp/kosodate/hoiku/hoikuen/1013269.html",
+      "quote": "外勤の方 就労証明書（国の標準的な様式）"
+    },
+    "documents.4": {
+      "url": "https://www.city.warabi.saitama.jp/kosodate/hoiku/hoikuen/1013269.html",
+      "quote": "（就労証明書、診断書、在学証明書、在園証明書、戸籍謄本、戸籍届出受理証明は、申込日の3か月以内に発行されたものに限ります。）"
+    },
+    "documents.5": {
+      "url": "https://www.city.warabi.saitama.jp/kosodate/hoiku/hoikuen/1013269.html",
+      "quote": "申請の際「個人番号確認」と「身元確認」を行いますので、下記の書類をお持ちください。"
+    },
+    "interview": {
+      "url": "https://www.city.warabi.saitama.jp/kosodate/hoiku/hoikuen/1010848.html",
+      "quote": "※申込時の児童面接はありません。児童同伴不要です。"
+    },
+    "interview#2": {
+      "url": "https://www.city.warabi.saitama.jp/kosodate/hoiku/hoikuen/1013269.html",
+      "quote": "内定者は内定した保育園でお子さんおよび保護者の面接を行います。"
+    },
+    "interview#3": {
+      "url": "https://www.city.warabi.saitama.jp/kosodate/hoiku/hoikuen/1013269.html",
+      "quote": "令和9年4月（一次受付） 令和9年2月中旬に面接実施予定"
+    },
+    "interview#4": {
+      "url": "https://www.city.warabi.saitama.jp/kosodate/hoiku/hoikuen/1013269.html",
+      "quote": "面接を受けなかった場合は、内定の取り消しとなります。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.warabi.saitama.jp/_res/projects/default_project/_page_/001/013/269/r9tebiki.pdf",
+      "quote": "「確認書１」の「育児休業中の方」の選択肢のうち、「希望する保育所等に入所できない場合は、育児休業の延長も許容できる」の□欄にチェックをした場合は、利用調整指数が０点となります。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.warabi.saitama.jp/_res/projects/default_project/_page_/001/013/269/r9tebiki.pdf",
+      "quote": "※ 希望園に空きがある場合は、０点でも内定となる場合があります。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.warabi.saitama.jp/kosodate/hoiku/hoikuen/1013269.html",
+      "quote": "※入園保留通知書は申込みをした最初の月のみ発行します。"
+    },
+    "ikukyu#4": {
+      "url": "https://www.city.warabi.saitama.jp/kosodate/hoiku/hoikuen/1013269.html",
+      "quote": "※内定を辞退した方は、申込みの取下げとして扱いますので、入園保留通知書は発行されません。"
+    },
+    "notes.0": {
+      "url": "https://www.city.warabi.saitama.jp/kosodate/hoiku/hoikuen/1010848.html",
+      "quote": "※受付の順番は、利用調整には一切関係ありません。"
+    },
+    "notes.1": {
+      "url": "https://www.city.warabi.saitama.jp/kosodate/hoiku/hoikuen/1013269.html",
+      "quote": "申込書類、添付書類に不備・不足がある場合は、受付ができません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.warabi.saitama.jp/kosodate/hoiku/hoikuen/1013269.html",
+      "quote": "※4月入園一次受付の内定を辞退した場合、4月入園二次受付に申込みすることはできません。"
+    },
+    "notes.3": {
+      "url": "https://www.city.warabi.saitama.jp/kosodate/hoiku/hoikuen/1013269.html",
+      "quote": "申込みの取下げをしない限り、二次受付の利用調整の対象となります。"
+    },
+    "notes.4": {
+      "url": "https://www.city.warabi.saitama.jp/kosodate/hoiku/hoikuen/1013269.html",
+      "quote": "※申込書はその年度の3月入園選考まで有効です。（再度の申込みは不要）"
+    }
+  },
+  "sources": [
+    {
+      "label": "蕨市「令和9年度保育園入園手続き」",
+      "url": "https://www.city.warabi.saitama.jp/kosodate/hoiku/hoikuen/1013269.html"
+    },
+    {
+      "label": "蕨市「令和9年4月 認可保育園・小規模保育園入園申込みについて（一次受付）」",
+      "url": "https://www.city.warabi.saitama.jp/kosodate/hoiku/hoikuen/1010848.html"
+    },
+    {
+      "label": "蕨市「令和9年度 保育園申込書類」",
+      "url": "https://www.city.warabi.saitama.jp/kosodate/hoiku/hoikuen/1013268.html"
+    },
+    {
+      "label": "蕨市「令和9年度保育園入園のてびき」（PDF）",
+      "url": "https://www.city.warabi.saitama.jp/_res/projects/default_project/_page_/001/013/269/r9tebiki.pdf"
+    }
+  ]
+}

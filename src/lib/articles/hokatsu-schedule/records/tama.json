@@ -1,0 +1,166 @@
+{
+  "citySlug": "tama",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "多摩市「令和8年度保育所等の入所申請について」",
+    "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008034/1018508.html"
+  },
+  "fiscalYear": "R8",
+  "guideRelease": "令和7年10月3日（金曜日）に保育所等入所のしおり（申請書類はさみ込み）を発行・公開。子ども・若者政策課窓口、聖蹟桜ヶ丘駅・多摩センター駅出張所、永山公民館（ベルブ永山）、健康センター、地域子育て支援拠点施設で配布",
+  "firstApply": "4月1次受付は、郵送・電子申請が令和7年10月20日（月曜日）9時〜令和7年11月5日（水曜日）23時59分（郵送は当日消印有効、電子申請は締切までに申請完了）。窓口は令和7年10月29日（水曜日）〜11月5日（水曜日）（土日祝除く）",
+  "applyMethods": "郵送、電子申請、または窓口へ直接持参。窓口は多摩市役所4階子ども・若者政策課前の受付スペースで9時〜17時。窓口は大変混み合うため、原則郵送・電子での提出が求められている",
+  "firstResult": "令和8年2月3日（火曜日）に郵送で発送予定",
+  "secondApply": "4月2次は郵送・電子・窓口とも1月5日（月曜日）9時〜2月13日（金曜日）23時59分（郵送は必着、電子申請は締切までに申請完了）",
+  "midYearDeadline": "5月以降の入所は、入所月の前々月16日〜前月15日が受付期間（例: 6月入所は4月16日〜5月15日）。2月・3月入所はどちらも12月16日〜1月12日。結果は入所希望月の前月25日頃に封書で発送",
+  "documents": [
+    "送付先宛名記載用紙（郵送で申請する場合のみ。窓口申請・電子申請では不要）",
+    "教育・保育給付認定及び保育所等入所申込書（表面・裏面）",
+    "令和8年度保育所等申込承諾書（表・裏面）",
+    "児童状況票（表・裏面）",
+    "保護者の保育の必要性の事由を証明する書類。同居の親族（20歳以上65歳未満）の分も必要"
+  ],
+  "ikukyu": "希望する保育所等に入所できない場合に待機できる人は「保育所等入所申請における調整指数26番適用の同意書」を出す。子の1歳の誕生月から適用され、育児休業の取得を就労証明書で確認できないと適用されない。同意書を出しても選考結果によって入所可になることがある",
+  "notes": [
+    "入所申請書に書けるのは第1〜第5希望までで、第6希望以上は任意様式の記入用紙を使う",
+    "電話等による結果の問い合わせには一切答えない",
+    "市外在住で住所地の自治体を通して申請する場合も、11月5日（水曜日）必着で多摩市に届くよう提出する",
+    "取下げをせずに入所決定後に辞退すると、辞退のマイナスの指数がつく",
+    "育児休業中に認可保育所等に通うきょうだいがいる場合、申請児が満1歳を迎えた最初の4月以降は調整指数26番の同意書の対象にならない"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008034/1018508.html",
+      "quote": "令和8年度保育所等入所のしおりは、令和7年10月3日（金曜日）に公開します。入所申請される際には、必ずしおりの内容を確認してください。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008034/1018508.html",
+      "quote": "令和8年度保育所等入所のしおりは、令和7年10月3日（金曜日）に公開します。入所申請される際には、必ずしおりの内容を確認してください。申請書類はしおりにホチキス止めではさみ込んであります。"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008034/1018508.html",
+      "quote": "・配布場所：子ども・若者政策課窓口、聖蹟桜ヶ丘駅・多摩センター駅出張所、永山公民館（ベルブ永山）、健康センター、地域子育て支援拠点施設(※1)"
+    },
+    "firstApply": {
+      "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008034/1018508.html",
+      "quote": "郵送・電子申請：令和7年10月20日（月曜日）9時から令和7年11月5日（水曜日）23時59分まで※郵送の場合消印有効、電子申請は締切期間までに申請完了"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008034/1018508.html",
+      "quote": "窓口：令和7年10月29日（水曜日）から令和7年11月5日（水曜日）※窓口申請の場合は土日祝除く"
+    },
+    "applyMethods": {
+      "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008034/1018508.html",
+      "quote": "郵送、電子または窓口へ直接持参　※窓口は大変混み合うため、郵送・電子での受付にご協力ください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008034/1018508.html",
+      "quote": "窓口の場合：多摩市役所4階子ども・若者政策課前受付スペース"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008034/1018508.html",
+      "quote": "受付時間は9時00分～17時00分となります。窓口は大変混み合うため、原則郵送・電子での提出にご協力をお願いします。"
+    },
+    "firstResult": {
+      "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008034/1018508.html",
+      "quote": "4月1次入所の結果通知は令和8年2月3日（火曜日）郵送にて発送予定です。"
+    },
+    "secondApply": {
+      "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008034/1018508.html",
+      "quote": "郵送・電子・窓口：令和7年1月5日（月曜日）9時から令和7年2月13日（金曜日）23時59分まで※郵送の場合必着、電子申請は締切期間までに申請完了"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008034/1018508.html",
+      "quote": "6月入所 4月16日（木曜日）～5月15日（金曜日）"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008034/1018508.html",
+      "quote": "3月入所 12月16日（水曜日）～1月12日（火曜日）"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008034/1018508.html",
+      "quote": "5月入所以降の年度途中に申請された方につきましては、入所希望月の前月25日頃に封書にて発送します。"
+    },
+    "documents.0": {
+      "url": "https://www.city.tama.lg.jp/_res/projects/default_project/_page_/001/018/508/r8souhusaki.pdf",
+      "quote": "※窓口申請または電子申請での申請の場合、提出の必要はありません。"
+    },
+    "documents.1": {
+      "url": "https://www.city.tama.lg.jp/_res/projects/default_project/_page_/001/018/508/r8souhusaki.pdf",
+      "quote": "教育・保育給付認定及び保育所等入所申込書(表面・裏面)"
+    },
+    "documents.2": {
+      "url": "https://www.city.tama.lg.jp/_res/projects/default_project/_page_/001/018/508/r8souhusaki.pdf",
+      "quote": "令和8年度保育所等申込承諾書（表・裏面）"
+    },
+    "documents.3": {
+      "url": "https://www.city.tama.lg.jp/_res/projects/default_project/_page_/001/018/508/r8souhusaki.pdf",
+      "quote": "児童状況票（表・裏面）"
+    },
+    "documents.4": {
+      "url": "https://www.city.tama.lg.jp/_res/projects/default_project/_page_/001/018/508/nyuusyo.pdf",
+      "quote": "※保護者及び同居の親族（20歳以上65歳未満）は、保育の必要性の事由を証明する書類の提出が必要です。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.tama.lg.jp/_res/projects/default_project/_page_/001/018/508/r8tyousei26.pdf",
+      "quote": "私は、希望する保育所等に入所できない場合は、待機することが可能です。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.tama.lg.jp/_res/projects/default_project/_page_/001/018/508/r8tyousei26.pdf",
+      "quote": "本同意書は、お子さんの一歳の誕生月からの適用となります。それ以前に提出いただいたとしても適用になりません。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.tama.lg.jp/_res/projects/default_project/_page_/001/018/508/r8tyousei26.pdf",
+      "quote": "育児休業を取得している証明をもって適用となりますので、育児休業を取っていることを就労証明書で確認できなければ本内容は適用しません。"
+    },
+    "ikukyu#4": {
+      "url": "https://www.city.tama.lg.jp/_res/projects/default_project/_page_/001/018/508/r8tyousei26.pdf",
+      "quote": "本同意書を適用しますが、選考結果によっては入所可となる場合があります。"
+    },
+    "notes.0": {
+      "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008034/1018508.html",
+      "quote": "入所申請書には第1希望～第5希望の園のみ記入し、第6希望以上の希望園がある場合は使用してください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008034/1018508.html",
+      "quote": "電話等による結果の問い合わせには、一切お答えできません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008034/1018508.html",
+      "quote": "また、在住の自治体で受付する場合、11 月 5 日（水曜日）（必着）までに多摩市に到着するようご提出ください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008034/1003528.html",
+      "quote": "取下をせず、入所決定後に辞退された方には、辞退のマイナスの指数がつきます。"
+    },
+    "notes.4": {
+      "url": "https://www.city.tama.lg.jp/_res/projects/default_project/_page_/001/018/508/r8tyousei26.pdf",
+      "quote": "育児休業中に認可保育所等に通っているきょうだいがいる場合は申請児が満１歳を迎えた最初の４月以降は本同意書の対象にはならず、提出いただいたとしても適用は行いません。"
+    }
+  },
+  "sources": [
+    {
+      "label": "多摩市「令和8年度保育所等の入所申請について」",
+      "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008034/1018508.html"
+    },
+    {
+      "label": "多摩市「令和8年度 送付先宛名記載用紙」",
+      "url": "https://www.city.tama.lg.jp/_res/projects/default_project/_page_/001/018/508/r8souhusaki.pdf"
+    },
+    {
+      "label": "多摩市「令和8年度 教育・保育給付認定及び保育所等入所申込書」",
+      "url": "https://www.city.tama.lg.jp/_res/projects/default_project/_page_/001/018/508/nyuusyo.pdf"
+    },
+    {
+      "label": "多摩市「令和8年度 保育所等入所申請における調整指数26番適用の同意書」",
+      "url": "https://www.city.tama.lg.jp/_res/projects/default_project/_page_/001/018/508/r8tyousei26.pdf"
+    },
+    {
+      "label": "多摩市「保育所等入所関連の届出様式」",
+      "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008034/1003528.html"
+    },
+    {
+      "label": "多摩市「令和9年度認可保育所等の入所申請について」",
+      "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008034/hoiku.html"
+    }
+  ]
+}

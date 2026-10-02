@@ -1,0 +1,165 @@
+{
+  "citySlug": "yashio",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "八潮市「令和9年度入所の保育所・認定こども園・小規模保育施設の申請」",
+    "url": "https://www.city.yashio.lg.jp/kosodate/kosodate/hoikujo/r9_shinseihoiku.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "保育のしおりと申請書類は10月1日（木曜日）から配布。市役所2階 保育幼稚園課窓口のほか、令和8年10月1日（木曜日）〜令和8年11月12日（木曜日）はやわた子育てひろばなどでも配布",
+  "firstApply": "一次受付は令和8年11月5日（木曜日）から9日（月曜日）の5日間、午前9時30分から午後4時まで、市役所3階 大会議室",
+  "applyMethods": "申請書類を持参して受付会場・窓口に提出する。郵送での申請は受け付けない",
+  "firstResult": "4月入所の支給認定証と入所選考結果は令和9年2月中旬頃に郵送で通知する予定",
+  "secondApply": "二次受付は一次受付期間終了後から令和8年12月25日（金曜日）まで、午前9時から午後4時30分まで、市役所2階 保育幼稚園課窓口。対象は一次受付期間中に申請できなかった児童で、一次受付の選考後に空きがあった場合のみ選考する",
+  "midYearDeadline": "5月から2月入所は入所希望月ごとに受付締切がある（令和9年5月入所は令和9年4月12日（月曜日）締切）。受付は市役所2階 保育幼稚園課窓口で、郵送での申請はできない",
+  "documents": [
+    "子どものための教育・保育給付認定申請書 兼 保育の利用申込書",
+    "個人番号（マイナンバー）申告書（提出時に本人確認が必要）",
+    "保育を必要とする事由が確認できる書類（児童と同じ住所で暮らす18歳以上65歳未満の全員分。証明書類は申込日より3か月以内に発行されたものに限る）",
+    "就労の場合は就労証明書（変則就労はシフト表、自営業は営業許可証・開業届・最新の確定申告書の写しのいずれかを添付）"
+  ],
+  "interview": "一次受付当日、1歳児クラス以上の入所を希望する児童は面接を行うので、児童同伴で母子健康手帳を持参する。0歳児クラスは内定後に内定した施設で面接（希望すれば受付時に申し出る）",
+  "ikukyu": "育児休業給付の延長などのために「保育所等入所保留通知書」が必要な場合は、児童が1歳になる月の1日入所の手続きをしている必要がある。申込時に「希望する保育所等に入所できない場合は、育児休業の延長も許容できる」を選ぶと、調整指数24が適用され40点の減点となる",
+  "notes": [
+    "例年、受付初日や午前中は大変混み合うが、施設への入所決定は受付順ではない",
+    "利用申請は当該年度内（2月入所まで）有効で、毎月の選考の対象となる",
+    "3月の入所選考は行っていないため、3月に1歳を迎える児童は2月入所の手続きが必要",
+    "転出・転入を伴う入所申請は転出・転入先への直接の申請となり、広域入所の受付期間は通常の受付期間と異なる"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.yashio.lg.jp/kosodate/kosodate/hoikujo/r9_shinseihoiku.html",
+      "quote": "保育所・認定こども園・小規模保育施設の令和9年度の入所申請についてご案内します。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.yashio.lg.jp/kosodate/kosodate/hoikujo/r9_shinseihoiku.html",
+      "quote": "令和9年度保育のしおりと申請書類などは、10月1日（木曜日）から配布を開始しました。"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.yashio.lg.jp/kosodate/kosodate/hoikujo/r9_shinseihoiku.html",
+      "quote": "やわた子育てひろば 令和8年10月1日（木曜日）～令和8年11月12日（木曜日）まで"
+    },
+    "guideRelease#3": {
+      "url": "https://www.city.yashio.lg.jp/kosodate/kosodate/hoikujo/r9_shinseihoiku.html",
+      "quote": "市役所2階　保育幼稚園課窓口 月～金（祝日を除く）午前9時から午後4時30分まで"
+    },
+    "firstApply": {
+      "url": "https://www.city.yashio.lg.jp/kosodate/kosodate/hoikujo/r9_shinseihoiku.html",
+      "quote": "一次受付 令和8年11月5日（木曜日）から 9日（月曜日）の5日間 午前9時30分から午後4時まで 市役所3階　大会議室"
+    },
+    "applyMethods": {
+      "url": "https://www.city.yashio.lg.jp/kosodate/kosodate/hoikujo/r9_shinseihoiku.html",
+      "quote": "4月入所について、次の日時場所で申請を受け付けます。（郵送での申請は受け付けません）"
+    },
+    "firstResult": {
+      "url": "https://www.city.yashio.lg.jp/kosodate/kosodate/hoikujo/r9_shinseihoiku.html",
+      "quote": "支給認定証の交付および入所選考結果は、郵送で通知する予定です。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.yashio.lg.jp/kosodate/kosodate/hoikujo/r9_shinseihoiku.html",
+      "quote": "4月入所 令和9年2月中旬頃"
+    },
+    "secondApply": {
+      "url": "https://www.city.yashio.lg.jp/kosodate/kosodate/hoikujo/r9_shinseihoiku.html",
+      "quote": "ニ次受付 一次受付期間終了後、 令和8年12月25日（金曜日）まで 午前9時から午後4時30分まで 市役所2階　保育幼稚園課窓口"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.yashio.lg.jp/kosodate/kosodate/hoikujo/r9_shinseihoiku.html",
+      "quote": "二次受付の対象となるのは、一次受付期間中に申請ができなかった児童です。"
+    },
+    "secondApply#3": {
+      "url": "https://www.city.yashio.lg.jp/kosodate/kosodate/hoikujo/r9_shinseihoiku.html",
+      "quote": "一次受付の児童の選考後に、入所枠に空きがあった場合のみ二次受付の児童の選考を行います。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.yashio.lg.jp/kosodate/kosodate/hoikujo/r9_shinseihoiku.html",
+      "quote": "5月から2月入所について、受付締切は以下のとおりです。"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.yashio.lg.jp/kosodate/kosodate/hoikujo/r9_shinseihoiku.html",
+      "quote": "令和9年5月 令和9年4月12日（月曜日） 市役所2階　保育幼稚園課窓口"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.yashio.lg.jp/kosodate/kosodate/hoikujo/r9_shinseihoiku.html",
+      "quote": "なお、郵送での申請はできません。"
+    },
+    "documents.0": {
+      "url": "https://www.city.yashio.lg.jp/kosodate/kosodate/hoikujo/r9_shinseihoiku.files/r9hoikunoshiori.pdf",
+      "quote": "１ 子どものための教育・保育給付認定申請書 兼 保育の利用申込書"
+    },
+    "documents.1": {
+      "url": "https://www.city.yashio.lg.jp/kosodate/kosodate/hoikujo/r9_shinseihoiku.files/r9hoikunoshiori.pdf",
+      "quote": "２ 個人番号（マイナンバー）申告書 ※ ※提出時に、本人確認（番号確認及び身元確認）が必要となります。"
+    },
+    "documents.2": {
+      "url": "https://www.city.yashio.lg.jp/kosodate/kosodate/hoikujo/r9_shinseihoiku.files/r9hoikunoshiori.pdf",
+      "quote": "で暮らす１８歳以上６５歳未満である全ての方の書類が必要です。また、証明書類は申込日より３か月以内に発行されたものに限ります。"
+    },
+    "documents.2#2": {
+      "url": "https://www.city.yashio.lg.jp/kosodate/kosodate/hoikujo/r9_shinseihoiku.files/r9hoikunoshiori.pdf",
+      "quote": "保育を必要とする事由（本冊子２ページ）が確認できる書類については、申請する児童と同じ住所"
+    },
+    "documents.3": {
+      "url": "https://www.city.yashio.lg.jp/kosodate/kosodate/hoikujo/r9_shinseihoiku.files/r9hoikunoshiori.pdf",
+      "quote": "就労証明書（変則就労の場合はシフト表を添付すること、また自営業の場合は、営業許可証・"
+    },
+    "documents.3#2": {
+      "url": "https://www.city.yashio.lg.jp/kosodate/kosodate/hoikujo/r9_shinseihoiku.files/r9hoikunoshiori.pdf",
+      "quote": "開業届・最新の確定申告書の写しのいずれかひとつを添付すること）"
+    },
+    "interview": {
+      "url": "https://www.city.yashio.lg.jp/kosodate/kosodate/hoikujo/r9_shinseihoiku.html",
+      "quote": "一次受付当日は、1歳児クラス以上の入所を希望する児童については面接を行いますので、児童同伴で母子健康手帳をお持ちください。"
+    },
+    "interview#2": {
+      "url": "https://www.city.yashio.lg.jp/kosodate/kosodate/hoikujo/r9_shinseihoiku.html",
+      "quote": "0歳児クラスについては、内定後、内定した施設で面接を行います。"
+    },
+    "interview#3": {
+      "url": "https://www.city.yashio.lg.jp/kosodate/kosodate/hoikujo/r9_shinseihoiku.html",
+      "quote": "なお、0歳児クラスで面接を希望される場合は、受付時にお申し出ください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.yashio.lg.jp/kosodate/kosodate/hoikujo/r9_shinseihoiku.html",
+      "quote": "育児休業給付の延長などの申請のために「保育所等入所保留通知書」が必要な場合は、児童が1歳になる月の1日入所の手続きをしている必要があります。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.yashio.lg.jp/kosodate/kosodate/hoikujo/r9_shinseihoiku.files/r9hoikunoshiori.pdf",
+      "quote": "② 「希望する保育所等に入所できない場合は、育児休業の延長も許容できる」"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.yashio.lg.jp/kosodate/kosodate/hoikujo/r9_shinseihoiku.files/r9hoikunoshiori.pdf",
+      "quote": "⇒令和９年度八潮市保育所入所選考基準の調整指数２４が適用され、４０点の減点となります。"
+    },
+    "notes.0": {
+      "url": "https://www.city.yashio.lg.jp/kosodate/kosodate/hoikujo/r9_shinseihoiku.html",
+      "quote": "注意： 例年、初日や午前中は大変混み合いますが、施設への入所決定は、受付順ではありません。"
+    },
+    "notes.1": {
+      "url": "https://www.city.yashio.lg.jp/kosodate/kosodate/hoikujo/r9_shinseihoiku.html",
+      "quote": "利用申請は、当該年度内（2月入所まで）有効となり、毎月の選考の対象となります。"
+    },
+    "notes.2": {
+      "url": "https://www.city.yashio.lg.jp/kosodate/kosodate/hoikujo/r9_shinseihoiku.html",
+      "quote": "なお、3月の入所選考は行っていないため、3月に1歳を迎える児童の場合には、2月入所の手続きが必要となります。"
+    },
+    "notes.3": {
+      "url": "https://www.city.yashio.lg.jp/kosodate/kosodate/hoikujo/r9_shinseihoiku.html",
+      "quote": "転出・転入を伴う保育所などへの入所申請は、転出・転入先への直接の申請となりますので、ご注意ください。"
+    },
+    "notes.3#2": {
+      "url": "https://www.city.yashio.lg.jp/kosodate/kosodate/hoikujo/r9_shinseihoiku.html",
+      "quote": "広域入所の場合の受付期間と通常の受付期間は異なりますので、ご注意ください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "八潮市「令和9年度入所の保育所・認定こども園・小規模保育施設の申請」",
+      "url": "https://www.city.yashio.lg.jp/kosodate/kosodate/hoikujo/r9_shinseihoiku.html"
+    },
+    {
+      "label": "八潮市「令和9年度保育のしおり」",
+      "url": "https://www.city.yashio.lg.jp/kosodate/kosodate/hoikujo/r9_shinseihoiku.files/r9hoikunoshiori.pdf"
+    }
+  ]
+}

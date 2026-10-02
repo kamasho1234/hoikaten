@@ -3,60 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "sakado",
-    title: "坂戸市の保活スケジュール　申込から内定までの流れ",
-    description:
-      "坂戸市の認可保育園の申込時期・選考の流れをまとめました。令和8年度4月入園の動き方を解説します。",
-    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>坂戸市の4月入園スケジュール</h2>
-<p>坂戸市の認可保育園は毎年秋に翌年度4月入園の申込を受付けます。選考基準表に基づき利用調整が行われます。</p>
-
-<h3>保活の全体スケジュール</h3>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content">
-<strong>4月～6月：情報収集</strong>
-<p>坂戸市のホームページで保育園の一覧や前年度のボーダーを確認します。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content">
-<strong>7月～9月：保育園見学</strong>
-<p>坂戸市内の保育園を見学して、通勤経路との相性を確認しましょう。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content">
-<strong>9月～10月：書類準備</strong>
-<p>就労証明書の月あたり就労時間は正確に記載してもらいましょう。指数に直結します。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content">
-<strong>11月：申込書類の提出</strong>
-<p>4月申込の期限は例年11月中旬です。期限厳守で提出しましょう。</p>
-</div>
-</div>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>坂戸市は基準指数で父母各最大25点（合計50点満点）です。月の就労時間で判定される制度です。</p>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.sakado.lg.jp/site/sakado-kosodate/724.html" target="_blank" rel="noopener">坂戸市 4月保育園児募集のお知らせ</a>をご確認ください。</p>
-</div>`,
-    publishedAt: "2026-04-26",
-    popularity: 50,
-  },
-  {
     slug: "score-up-tips",
     citySlug: "sakado",
     title: "坂戸市で入園点数を上げるコツ　加点チェックリスト",

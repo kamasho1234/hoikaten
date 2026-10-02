@@ -1,0 +1,180 @@
+{
+  "citySlug": "sakado",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "坂戸市「令和9年度4月保育園児を募集します」",
+    "url": "https://www.city.sakado.lg.jp/soshiki/32/61264.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "11月10日（火）〜11月14日（土）。原則として第1希望の保育施設ごとに決められた申込受付・面接日（11月10日〜11月13日）に受け付け、その日に都合がつかない人は11月14日（土）。受付時間は午前9時30分〜11時30分、午後13時30分〜15時30分。地域型保育施設のみ希望する場合は11月13日（金）16時30分までに保育課へ直接提出",
+  "applyMethods": "原則として第1希望の保育施設の受付日に、提出書類と筆記用具を持って会場の坂戸市文化施設オルモ（芦山町1-2）へ行く。地域型保育施設のみ希望する場合は保育課へ直接提出、認定こども園のみ希望する場合は施設が定めた期限までに施設へ提出",
+  "firstResult": "令和9年2月中旬頃に郵送で通知",
+  "midYearDeadline": "5月以降の入所は、入所を希望する月の前月10日まで（10日が閉庁日の場合は直前の開庁日まで）。期限を過ぎた申込みや希望園の変更は受け付けない",
+  "documents": [
+    "教育・保育給付認定申請書兼保育所入所等申込書（児童1人につき1枚）",
+    "保育を必要とする証明書（児童の父・母それぞれ1通。就労・自営業・育児休業中の場合は就労証明書で、証明日が申込日より3か月以内のもの）",
+    "誓約書（児童1人につき1枚）",
+    "個人番号（マイナンバー）確認書類と身元確認書類（運転免許証等）",
+    "出産予定の場合は母子健康手帳の写し（出産予定日が記載されているページ）",
+    "坂戸市に転入予定の場合は転入誓約書と、居住予定の住所地と住居の引き渡し予定日がわかる書類",
+    "一時預かり・認可外保育施設・市外保育所等を利用している場合は利用証明書（証明日が申込日より3か月以内のもの）"
+  ],
+  "interview": "申込受付の際に会場で面接を行うので、母子健康手帳を持ち、子どもを連れて行く。地域型保育施設のみ希望する場合は、面接が必要なときに後日市から連絡がある",
+  "ikukyu": "「希望する保育所等に入所できない場合は、育児休業の延長を許容できる」に該当する人は、申込書の「11 確認事項」の該当欄にチェックする。その場合も希望した保育施設に空きがあれば入所承諾となる。保育所入所保留通知書は入所を希望した初めの月のみ発行され、保留の間に毎月発行されるものではない",
+  "notes": [
+    "現在保育施設に通っている在園児も申込手続が必要",
+    "令和8年度中に申し込んで入所決定が保留になっている人も、令和9年4月からの入所を希望する場合は申込手続が必要",
+    "受付日程（最終受付日11月14日）を過ぎると、5月からの入所選考になる",
+    "受付開始直後は混雑して待ち時間が長くなることがあるが、受付順は入所選考に影響しない",
+    "坂戸市外に住民票がある人が坂戸市内の保育施設を希望する場合は、住んでいる市区町村経由で原則坂戸市の受付期限の2週間前までに申し込む。利用調整は坂戸市に住民票がある人が優先",
+    "育児休業中に申し込んだ新園児の保護者は、入所した月の翌月10日までに復職し、復職した月中に復職証明書を提出する"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.sakado.lg.jp/soshiki/32/61264.html",
+      "quote": "令和9年4月から、坂戸市内保育施設の入所を希望される方は"
+    },
+    "firstApply": {
+      "url": "https://www.city.sakado.lg.jp/soshiki/32/61264.html",
+      "quote": "受付日程（最終受付日：11月14日土曜日）を過ぎると、5月からの入所選考となりますのでご注意ください。"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.sakado.lg.jp/soshiki/32/61264.html",
+      "quote": "さつき保育園 新堀271－1 288－7715 随時 要 11月10日火曜日 午後"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.sakado.lg.jp/soshiki/32/61264.html",
+      "quote": "上記申込受付・面接日で都合のつかない方 11月14日土曜日 午前"
+    },
+    "firstApply#4": {
+      "url": "https://www.city.sakado.lg.jp/soshiki/32/61264.html",
+      "quote": "※　午前：9時30分～11時30分　午後：13時30分～15時30分"
+    },
+    "firstApply#5": {
+      "url": "https://www.city.sakado.lg.jp/soshiki/32/61264.html",
+      "quote": "地域型保育施設のみのご希望の場合は、11月13日金曜日 16時30分までに保育課へ直接提出してください。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.sakado.lg.jp/soshiki/32/61264.html",
+      "quote": "原則、第1希望の保育施設の受付日に 提出書類と筆記用具 を持参し、会場（文化施設オルモ）にお越しください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.sakado.lg.jp/soshiki/32/61264.html",
+      "quote": "会場 坂戸市文化施設オルモ（芦山町1-2）"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.sakado.lg.jp/soshiki/32/61264.html",
+      "quote": "認定こども園のみのご希望の場合は、施設へ施設の定めた期限までに提出してください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.sakado.lg.jp/soshiki/32/61264.html",
+      "quote": "選考結果については、令和9年2月中旬頃に郵送にて通知します。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.sakado.lg.jp/uploaded/attachment/36819.pdf",
+      "quote": "入所を希望する各月の前月１０日まで ※期限を過ぎた申込み、希望園の変更は受け付けません。"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.sakado.lg.jp/uploaded/attachment/36819.pdf",
+      "quote": "※１０日が閉庁日の場合は、直前の開庁日までとなります。"
+    },
+    "documents.0": {
+      "url": "https://www.city.sakado.lg.jp/soshiki/32/61264.html",
+      "quote": "教育・保育給付認定申請書兼保育所入所等申込書：児童1人につき1枚"
+    },
+    "documents.1": {
+      "url": "https://www.city.sakado.lg.jp/soshiki/32/61264.html",
+      "quote": "保育を必要とする証明書（【表1】の中から児童の保護者それぞれ該当の証明書を提出してください。）：児童の父、母各1通ずつ"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.sakado.lg.jp/soshiki/32/61264.html",
+      "quote": "就労している場合 自営業をしている場合 就労証明書 ※証明日が申込日より3か月以内のもの"
+    },
+    "documents.1#3": {
+      "url": "https://www.city.sakado.lg.jp/soshiki/32/61264.html",
+      "quote": "育児休業中の場合 就労証明書 ※証明日が申込日より3か月以内のもの"
+    },
+    "documents.2": {
+      "url": "https://www.city.sakado.lg.jp/soshiki/32/61264.html",
+      "quote": "誓約書：児童1人につき1枚"
+    },
+    "documents.3": {
+      "url": "https://www.city.sakado.lg.jp/soshiki/32/61264.html",
+      "quote": "個人番号（マイナンバー）確認書類及び身元確認書類（運転免許証等）"
+    },
+    "documents.4": {
+      "url": "https://www.city.sakado.lg.jp/soshiki/32/61264.html",
+      "quote": "出産予定の場合 母子健康手帳の写し（出産予定日が記載されているページ）"
+    },
+    "documents.5": {
+      "url": "https://www.city.sakado.lg.jp/soshiki/32/61264.html",
+      "quote": "坂戸市に転入予定の場合 転入誓約書及び居住予定の住所地と住居の引き渡し予定日がわかる書類"
+    },
+    "documents.6": {
+      "url": "https://www.city.sakado.lg.jp/soshiki/32/61264.html",
+      "quote": "一時預かり・認可外保育施設・市外保育所等を利用している場合 利用証明書 ※証明日が申込日より3か月以内のもの"
+    },
+    "interview": {
+      "url": "https://www.city.sakado.lg.jp/soshiki/32/61264.html",
+      "quote": "併せて、面接を実施しますので、 母子健康手帳 を持参のうえ、お子様同伴でお越しください。"
+    },
+    "interview#2": {
+      "url": "https://www.city.sakado.lg.jp/soshiki/32/61264.html",
+      "quote": "面接については必要な場合、後日、市から連絡いたします。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.sakado.lg.jp/uploaded/attachment/36819.pdf",
+      "quote": "「希望する保育所等に入所できない場合は、育児休業の延長を許容できる」に該当する方は、申込書内の「１１ 確認事項」の該当欄にチェックをしてください。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.sakado.lg.jp/uploaded/attachment/36819.pdf",
+      "quote": "なお、その場合も入所を希望した保育施設に空きがある場合は入所承諾となります。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.sakado.lg.jp/uploaded/attachment/36819.pdf",
+      "quote": "この通知書は、入所を希望された初めの月のみ発行するもので、保留となっている間、毎月発行されるものではありません。"
+    },
+    "notes.0": {
+      "url": "https://www.city.sakado.lg.jp/soshiki/32/61264.html",
+      "quote": "現在保育施設に通っている在園児も申込手続が必要です。"
+    },
+    "notes.1": {
+      "url": "https://www.city.sakado.lg.jp/soshiki/32/61264.html",
+      "quote": "令和8年度中に申込をしており、現在入所決定が保留となっている方も、令和9年4月からの入所を希望する場合は、申込手続が必要です。"
+    },
+    "notes.2": {
+      "url": "https://www.city.sakado.lg.jp/soshiki/32/61264.html",
+      "quote": "受付日程（最終受付日：11月14日土曜日）を過ぎると、5月からの入所選考となりますのでご注意ください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.sakado.lg.jp/soshiki/32/61264.html",
+      "quote": "受付開始直後は混雑するため、お待ちいただく時間が長くなる場合があります。入所選考に際し、受付順は影響ありません。"
+    },
+    "notes.4": {
+      "url": "https://www.city.sakado.lg.jp/soshiki/32/61264.html",
+      "quote": "坂戸市内の保育施設を希望する場合は、原則坂戸市の受付期限の2週間前までにお住まいの市区町村経由で申し込みをしてください。"
+    },
+    "notes.4#2": {
+      "url": "https://www.city.sakado.lg.jp/soshiki/32/61264.html",
+      "quote": "利用調整につきましては、坂戸市に住民票がある方を優先的に行います。"
+    },
+    "notes.5": {
+      "url": "https://www.city.sakado.lg.jp/uploaded/attachment/36819.pdf",
+      "quote": "新園児の保護者は入所した月の翌月１０日までに復職し、復職した月中に復職証明書を提出してください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "坂戸市「令和9年度4月保育園児を募集します」",
+      "url": "https://www.city.sakado.lg.jp/soshiki/32/61264.html"
+    },
+    {
+      "label": "坂戸市「令和9年度 保育所入所等申込のてびき」（PDF）",
+      "url": "https://www.city.sakado.lg.jp/uploaded/attachment/36819.pdf"
+    },
+    {
+      "label": "坂戸市「令和9年度 保育所入所申込受付・面接日及び見学会日程」（PDF）",
+      "url": "https://www.city.sakado.lg.jp/uploaded/attachment/36818.pdf"
+    }
+  ]
+}

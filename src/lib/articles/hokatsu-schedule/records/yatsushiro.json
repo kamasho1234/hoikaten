@@ -1,0 +1,168 @@
+{
+  "citySlug": "yatsushiro",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "八代市「令和８年度　保育所等の入所申込み」",
+    "url": "https://www.city.yatsushiro.lg.jp/kiji00326000/index.html"
+  },
+  "fiscalYear": "R8",
+  "firstApply": "令和7年11月4日（火）〜11月28日（金）。窓口は11月28日17時15分まで、郵送は11月28日必着。マイナポータルの電子申込は11月4日〜11月21日（金）までに入力を完了する",
+  "applyMethods": "窓口（こども未来課（八代市役所2階）、各支所、各保育所）または郵送（こども未来課あて）で申し込む。1次選考はマイナポータルの電子申込もできる。窓口の受付は平日8時30分〜17時15分（木曜は19時まで）。八代市外の保育所等を希望する場合は電子申込ではなくこども未来課窓口で申し込む",
+  "firstResult": "令和8年2月下旬に入所決定通知書を送付。希望の保育所等に入れない場合は令和8年1月中に電話連絡があり、空きのある保育所等について協議する",
+  "secondApply": "令和7年12月1日（月）〜令和8年1月23日（金）。窓口申込のみ",
+  "secondResult": "令和8年3月上旬に入所決定通知書を送付。希望の保育所等に入れない場合は令和8年2月中に電話連絡があり、空きのある保育所等について協議する",
+  "midYearDeadline": "5月以降の入所は入所希望月の前月15日まで（土日祝日の場合は翌開庁日）。入所希望月の2か月前から申し込める",
+  "documents": [
+    "保育所等入所申請書 兼 特定教育・保育給付認定申請書（新規で入所する場合）",
+    "保育の必要性の事由を証明する書類（就労証明書等。保護者の人数分）",
+    "育児休業が事由の場合は、育児休業期間が記載された就労証明書（育児休業取得の場合）",
+    "保護者全員のマイナンバー確認書類（窓口申込では令和7年1月1日以降に転入した人のみ）",
+    "申込保護者の本人確認書類（運転免許証等の顔写真付きなら1点、保険証等なら2点）",
+    "転入前に申し込む場合は転入確約書"
+  ],
+  "interview": "申込前に第一希望の保育所等を見学するよう求められている",
+  "ikukyu": "ならし保育が職場復帰前に終わるよう、育休復帰日が1日〜15日なら育休終了月の前月1日から、16日〜末日なら育休終了月の1日から入所希望日にできる",
+  "notes": [
+    "希望の保育所等に入所できず、そのまま空き待ちを希望する場合は「入所保留通知書」が送られる",
+    "転入や入院等のやむを得ない理由で期間内に申し込めない場合は、期限後も随時受け付ける",
+    "ならし保育は利用開始月から概ね2週間程度で、その間は早めのお迎えが必要",
+    "求職活動が事由の場合、入所後3か月以内に求職活動以外の事由に変わらなければ退所になる",
+    "八代市は令和5年9月からすべての子どもの保育料を無償にしている"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.yatsushiro.lg.jp/kiji00326000/3_26000_154551_up_6cwam7ls.pdf",
+      "quote": "令和８年４月入所 令和７年１１月４日～令和７年１１月２８日 令和８年２月下旬"
+    },
+    "firstApply": {
+      "url": "https://www.city.yatsushiro.lg.jp/kiji00326000/index.html",
+      "quote": "窓口申込の場合：令和７年１１月４日（火曜日）～令和７年１１月２８日（金曜日）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.yatsushiro.lg.jp/kiji00326000/index.html",
+      "quote": "マイナポータルによる電子申込の場合：令和７年１１月４日（火曜日）～令和７年１１月２１日（金曜日）"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.yatsushiro.lg.jp/kiji00326000/3_26000_154551_up_6cwam7ls.pdf",
+      "quote": "窓口申込の場合 令和７年１１月２８日（金）１７時１５分までに提出 ※郵送の場合は、八代市役所こども未来課へ１１月２８日（金）必着"
+    },
+    "applyMethods": {
+      "url": "https://www.city.yatsushiro.lg.jp/kiji00326000/3_26000_154551_up_6cwam7ls.pdf",
+      "quote": "受付時間 平日のみ ８：３０～１７：１５（木曜１９：００） 受付場所 こども未来課（八代市役所２階）、各支所、各保育所"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.yatsushiro.lg.jp/kiji00326000/3_26000_154551_up_6cwam7ls.pdf",
+      "quote": "※八代市外の保育所等を希望する場合は、電子申込ではなくこども未来課窓口にて申込手続きをしてください。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.yatsushiro.lg.jp/kiji00326000/3_26000_154551_up_6cwam7ls.pdf",
+      "quote": "※1次選考については電子申込も可能です。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.yatsushiro.lg.jp/kiji00326000/3_26000_154551_up_6cwam7ls.pdf",
+      "quote": "※郵送の場合は、八代市役所こども未来課へ１１月２８日（金）必着"
+    },
+    "firstResult": {
+      "url": "https://www.city.yatsushiro.lg.jp/kiji00326000/3_26000_154551_up_6cwam7ls.pdf",
+      "quote": "入所決定の場合 令和８年２月下旬に入所決定通知書を送付"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.yatsushiro.lg.jp/kiji00326000/3_26000_154551_up_6cwam7ls.pdf",
+      "quote": "① 希望の保育所等に入所できない場合、令和８年１月中に保護者に電話連絡し、他の空きがある保育所等をお伝えし、協議します。"
+    },
+    "secondApply": {
+      "url": "https://www.city.yatsushiro.lg.jp/kiji00326000/index.html",
+      "quote": "窓口申込のみ：令和７年１２月１日（月曜日）～令和８年１月２３日（金曜日）"
+    },
+    "secondResult": {
+      "url": "https://www.city.yatsushiro.lg.jp/kiji00326000/3_26000_154551_up_6cwam7ls.pdf",
+      "quote": "入所決定の場合 令和８年３月上旬に入所決定通知書を送付"
+    },
+    "secondResult#2": {
+      "url": "https://www.city.yatsushiro.lg.jp/kiji00326000/3_26000_154551_up_6cwam7ls.pdf",
+      "quote": "(ア)希望の保育所等に入所できない場合、令和８年２月中に保護者に電話連絡し、他の空きがある保育所等をお伝えし、協議します。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.yatsushiro.lg.jp/kiji00326000/index.html",
+      "quote": "申込期限：入所希望月の前月１５日まで（土日祝日の場合は翌開庁日）"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.yatsushiro.lg.jp/kiji00326000/3_26000_154551_up_6cwam7ls.pdf",
+      "quote": "※入所希望月の２か月前から申込できます。"
+    },
+    "documents.0": {
+      "url": "https://www.city.yatsushiro.lg.jp/kiji00326000/3_26000_154551_up_6cwam7ls.pdf",
+      "quote": "（1）新規で入所する場合：保育所等入所申請書 兼 特定教育・保育給付認定申請書"
+    },
+    "documents.1": {
+      "url": "https://www.city.yatsushiro.lg.jp/kiji00326000/3_26000_154551_up_6cwam7ls.pdf",
+      "quote": "（2）保育の必要性の事由を証明する書類（保護者の人数分）"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.yatsushiro.lg.jp/kiji00326000/3_26000_154551_up_6cwam7ls.pdf",
+      "quote": "（２）保育の必要性の事由を証明する書類（就労証明書等）"
+    },
+    "documents.2": {
+      "url": "https://www.city.yatsushiro.lg.jp/kiji00326000/3_26000_154551_up_6cwam7ls.pdf",
+      "quote": "育児・育児休業 ●「就労証明書（育児休業取得の場合）」 育児休業期間が記載されたもの"
+    },
+    "documents.3": {
+      "url": "https://www.city.yatsushiro.lg.jp/kiji00326000/3_26000_154551_up_6cwam7ls.pdf",
+      "quote": "（3）保護者全員のマイナンバー確認書類（令和７年１月１日以降転入の方のみ）"
+    },
+    "documents.4": {
+      "url": "https://www.city.yatsushiro.lg.jp/kiji00326000/3_26000_154551_up_6cwam7ls.pdf",
+      "quote": "（4）申込保護者の本人確認書類（運転免許証等）の顔写真付きの場合は、１点で可 その他（保険証等）の場合は、２点必要"
+    },
+    "documents.5": {
+      "url": "https://www.city.yatsushiro.lg.jp/kiji00326000/3_26000_154551_up_6cwam7ls.pdf",
+      "quote": "（5）その他の必要書類（転入前の申込の場合は、転入確約書を添付）"
+    },
+    "interview": {
+      "url": "https://www.city.yatsushiro.lg.jp/kiji00326000/3_26000_154551_up_6cwam7ls.pdf",
+      "quote": "申込前に第一希望の保育所等の見学をしていただきますようお願いします。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.yatsushiro.lg.jp/kiji00326000/3_26000_154551_up_6cwam7ls.pdf",
+      "quote": "八代市では、職場復帰前にならし保育期間が終わるよう入所希望月を設定しています。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.yatsushiro.lg.jp/kiji00326000/3_26000_154551_up_6cwam7ls.pdf",
+      "quote": "育休復帰日が、１日～１５日の場合 入所希望日を、育休終了月の前月１日からできます。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.yatsushiro.lg.jp/kiji00326000/3_26000_154551_up_6cwam7ls.pdf",
+      "quote": "育休復帰日が、１６日～末日の場合 入所希望日を、育休終了月の１日からできます。"
+    },
+    "notes.0": {
+      "url": "https://www.city.yatsushiro.lg.jp/kiji00326000/3_26000_154551_up_6cwam7ls.pdf",
+      "quote": "② そのまま空き待ちを希望される場合は、「入所保留通知書」を送付します。"
+    },
+    "notes.1": {
+      "url": "https://www.city.yatsushiro.lg.jp/kiji00326000/3_26000_154551_up_6cwam7ls.pdf",
+      "quote": "転入や入院等のやむを得ない理由で期間内に申込ができない方は、上記期限後も随時申込を受け付けます。"
+    },
+    "notes.2": {
+      "url": "https://www.city.yatsushiro.lg.jp/kiji00326000/3_26000_154551_up_6cwam7ls.pdf",
+      "quote": "ならし保育は、個人差はありますが、入所決定後の利用開始月から概ね２週間程度です。この期間中は、早めのお迎えが必要となりますのでご注意ください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.yatsushiro.lg.jp/kiji00326000/3_26000_154551_up_6cwam7ls.pdf",
+      "quote": "※入所３か月後以内に「求職活動」以外への保育の事由の変更がなければ退所となります。"
+    },
+    "notes.4": {
+      "url": "https://www.city.yatsushiro.lg.jp/kiji00326000/3_26000_154551_up_6cwam7ls.pdf",
+      "quote": "八代市では令和５年９月から「子育て世代に選ばれるまち やつしろ」を目指す取り組みとして、すべての子どもの保育料を無償としています。"
+    }
+  },
+  "sources": [
+    {
+      "label": "八代市「令和８年度　保育所等の入所申込み」",
+      "url": "https://www.city.yatsushiro.lg.jp/kiji00326000/index.html"
+    },
+    {
+      "label": "八代市「令和8年度八代市保育所等入所案内」（PDF）",
+      "url": "https://www.city.yatsushiro.lg.jp/kiji00326000/3_26000_154551_up_6cwam7ls.pdf"
+    }
+  ]
+}

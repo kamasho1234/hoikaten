@@ -1,0 +1,175 @@
+{
+  "citySlug": "shiki",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "志木市「保育園・学童保育クラブ令和9年度からの新規入園・入所のお知らせ」",
+    "url": "https://www.city.shiki.lg.jp/kosodate/shikikko/41635.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "電子申請は令和8年10月1日0時00分〜10月23日23時59分、郵送は令和8年10月1日〜10月23日必着、窓口（要予約）は令和8年10月26日〜11月11日（土日祝除く）",
+  "applyMethods": "原則として郵送（志木市保育課宛て、締切日必着）または電子申請。窓口（保育課）で申請する場合は4月一次受付のみ事前予約が必要で、予約期間は令和8年10月13日12時00分〜11月11日15時30分（先着順）",
+  "secondApply": "4月二次受付は、電子申請・郵送が令和8年11月12日〜令和9年1月15日、窓口が令和8年11月12日〜令和9年1月29日（窓口予約不要）",
+  "midYearDeadline": "年度途中は入園月ごとに受付期間が決まっている。例として5月入園は令和9年3月1日から、電子申請・郵送は3月26日まで、窓口は3月31日まで",
+  "documents": [
+    "施設型給付費・地域型保育給付費等支給認定申請書兼施設利用申込書（お子様分）",
+    "児童等状況調査票（お子様分）",
+    "重要事項確認票（新規入園申請のみ、お子様分）",
+    "児童手当に係る保育園保護者負担金・給食費等の徴収に関する申出書（市から児童手当を受給している方）",
+    "保育の必要性を証する書類。働いている場合は就労証明書（証明日が提出日より3か月経っていないもの）",
+    "令和8年1月1日時点で志木市に住民登録がない方などは、当該年度の市県民税課税証明書（又は非課税証明書）"
+  ],
+  "interview": "内定すると、通知文で指定された園へ入園前面接を受けに行く（入園月の前月中）。入園前健康診断もすべての子どもが入園月の前月中に受ける。健康診断・面接後、入園決定通知書が入園前月の末日までに発送される",
+  "ikukyu": "育児休業給付金の延長に使う書類は「保育園入園不承諾通知書」。育休中に申請して入園した場合は、入園月の末日までに申請時と同じ勤務先へ復職する必要がある",
+  "notes": [
+    "4月入園は一次審査で内定を辞退すると二次審査での選考は行われず、4月の不承諾通知も発行できない",
+    "電子申請・郵送で不備があった場合、令和8年11月11日までに追加書類の提出がないと受付できない場合がある",
+    "4月一次受付は市外からの申請は対象外。入園の前月までに志木市に転入予定の方は4月一次受付に申し込める",
+    "保育課窓口・市民サービスステーション・柳瀬川駅前出張所での書類配布は行っていない",
+    "障がい児保育（ひまわり保育）と医療的ケア児は4月入園一次受付期間のみの受付",
+    "4月の転園申請のみ、令和8年9月30日までに書類提出が必要"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.shiki.lg.jp/kosodate/shikikko/41635.html",
+      "quote": "令和9年4月一次申請のみ、窓口申請は窓口予約フォーム＜外部リンク＞より予約が必要です。"
+    },
+    "firstApply": {
+      "url": "https://www.city.shiki.lg.jp/kosodate/shikikko/41635.html",
+      "quote": "令和8年10月1日（木曜日）00時00分から令和8年10月23日（金曜日）23時59分"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.shiki.lg.jp/kosodate/shikikko/41635.html",
+      "quote": "令和8年10月1日（木曜日）から令和8年10月23日（金曜日）必着"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.shiki.lg.jp/kosodate/shikikko/41635.html",
+      "quote": "令和8年10月26日（月曜日）から令和8年11月11日（水曜日）"
+    },
+    "firstApply#4": {
+      "url": "https://www.city.shiki.lg.jp/uploaded/attachment/23898.pdf",
+      "quote": "受付期間：令和８年１０月２６日（月）～ 令和８年１１月１１日（水） ※土曜日、日曜日、祝日は除く"
+    },
+    "applyMethods": {
+      "url": "https://www.city.shiki.lg.jp/kosodate/shikikko/41635.html",
+      "quote": "申し込みは、原則として郵送または電子申請です。窓口での申請を希望する場合は、予約が必要です。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.shiki.lg.jp/kosodate/shikikko/41635.html",
+      "quote": "予約期間：令和8年10月13日（火曜日）12時00分から令和8年11月11日（水曜日）15時30分 （先着順）"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.shiki.lg.jp/kosodate/shikikko/41635.html",
+      "quote": "申請書一式を志木市保育課宛てに郵送可能です。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.shiki.lg.jp/kosodate/shikikko/41635.html",
+      "quote": "各締切日必着です。締切日より前に発送されたものでも、締切後に保育課に届いたものは受付できません。"
+    },
+    "secondApply": {
+      "url": "https://www.city.shiki.lg.jp/uploaded/attachment/23898.pdf",
+      "quote": "令和 ８年１１月１２日（木） 令和 ８年１１月１２日（木） ４月二次受付 ～令和 ９年 １月１５日（金） ～令和 ９年 １月２９日（金）"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.shiki.lg.jp/uploaded/attachment/23898.pdf",
+      "quote": "入園月 電子申請・郵送受付期間 窓口受付期間（土日祝除く）"
+    },
+    "secondApply#3": {
+      "url": "https://www.city.shiki.lg.jp/kosodate/shikikko/41635.html",
+      "quote": "※4月一次受付のみ、窓口で申請する場合は、事前予約が必要です。（4月二次以降の受付は予約不要です。）"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.shiki.lg.jp/uploaded/attachment/23898.pdf",
+      "quote": "令和 ９年 ３月 １日（月） 令和 ９年 ３月 １日（月） ５月 ～令和 ９年 ３月２６日（金） ～令和 ９年 ３月３１日（水）"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.shiki.lg.jp/uploaded/attachment/23898.pdf",
+      "quote": "入園月 電子申請・郵送受付期間 窓口受付期間（土日祝除く）"
+    },
+    "documents.0": {
+      "url": "https://www.city.shiki.lg.jp/uploaded/attachment/23838.pdf",
+      "quote": "１ 施設型給付費・地域型保育給付費等支給認定申請書兼施設利用申込書 DL可 お子様分"
+    },
+    "documents.1": {
+      "url": "https://www.city.shiki.lg.jp/uploaded/attachment/23838.pdf",
+      "quote": "２ 児童等状況調査票 DL可 お子様分"
+    },
+    "documents.2": {
+      "url": "https://www.city.shiki.lg.jp/uploaded/attachment/23838.pdf",
+      "quote": "３ 重要事項確認票（※新規入園申請のみ必要） DL可 お子様分"
+    },
+    "documents.3": {
+      "url": "https://www.city.shiki.lg.jp/uploaded/attachment/23838.pdf",
+      "quote": "４ 児童手当に係る保育園保護者負担金・給食費等の徴収に関する申出書 市より児童手当を受給している方"
+    },
+    "documents.4": {
+      "url": "https://www.city.shiki.lg.jp/uploaded/attachment/23838.pdf",
+      "quote": "働いている場合 就労証明書 D L可 （証明日が提出日より３か月経っていないもの）"
+    },
+    "documents.5": {
+      "url": "https://www.city.shiki.lg.jp/uploaded/attachment/23838.pdf",
+      "quote": "令和８年１月１日時点で志木市に 当該年度の市県民税課税証明書"
+    },
+    "interview": {
+      "url": "https://www.city.shiki.lg.jp/uploaded/attachment/23898.pdf",
+      "quote": "れた園へ面接を受けに行ってくださ い。必ず入園月の前月中に受けてい"
+    },
+    "interview#2": {
+      "url": "https://www.city.shiki.lg.jp/uploaded/attachment/23898.pdf",
+      "quote": "◎すべてのお子様に、必ず入園月の前月中に受 けていただきます。"
+    },
+    "interview#3": {
+      "url": "https://www.city.shiki.lg.jp/uploaded/attachment/23898.pdf",
+      "quote": "◎健康診断・面接後、入園決定通知書を、入園前月の末日までに発送いたします。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.shiki.lg.jp/uploaded/attachment/23898.pdf",
+      "quote": "育児休業給付金の延長に使用する、保育園に入園できないことを証明する書類としては、「保育園入園不 承諾通知書」をご使用ください。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.shiki.lg.jp/kosodate/shikikko/41635.html",
+      "quote": "育児休業取得中に申請し、入園した場合、以下の条件を満たす必要があります。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.shiki.lg.jp/kosodate/shikikko/41635.html",
+      "quote": "入園月の末日までの復職 申請時と同じ勤務先での復職"
+    },
+    "notes.0": {
+      "url": "https://www.city.shiki.lg.jp/kosodate/shikikko/41635.html",
+      "quote": "4月入園は一次審査で内定を辞退した場合、二次審査での選考は行いません。その場合は4月不承諾通知の発行ができないため、注意してください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.shiki.lg.jp/kosodate/shikikko/41635.html",
+      "quote": "申請期間内に申し込んだ場合でも、令和8年11月11日（水曜日）までに追加書類の提出がない場合、受付できない場合があります。"
+    },
+    "notes.2": {
+      "url": "https://www.city.shiki.lg.jp/uploaded/attachment/23898.pdf",
+      "quote": "４月一次受付は、市外からの申請は受付対象外です。入園の前月までに志木市に 転入予定の方は、４月一次受付への申し込みが可能です。"
+    },
+    "notes.3": {
+      "url": "https://www.city.shiki.lg.jp/kosodate/shikikko/41635.html",
+      "quote": "※本年度より、保育課窓口・市民サービスステーション・柳瀬川駅前出張所での書類配布は行っておりません。"
+    },
+    "notes.4": {
+      "url": "https://www.city.shiki.lg.jp/uploaded/attachment/23898.pdf",
+      "quote": "◎障がい児保育（ひまわり保育）及び医療的ケア児は4月入園一次受付期間のみ の受付となります。"
+    },
+    "notes.5": {
+      "url": "https://www.city.shiki.lg.jp/kosodate/shikikko/41635.html",
+      "quote": "4月での転園申請のみ、令和8年9月30日（水曜日）までに書類提出が必要です。"
+    }
+  },
+  "sources": [
+    {
+      "label": "志木市「保育園・学童保育クラブ令和9年度からの新規入園・入所のお知らせ」",
+      "url": "https://www.city.shiki.lg.jp/kosodate/shikikko/41635.html"
+    },
+    {
+      "label": "志木市「令和9年度版志木市保育施設利用案内」",
+      "url": "https://www.city.shiki.lg.jp/uploaded/attachment/23898.pdf"
+    },
+    {
+      "label": "志木市「保育施設申請時の必要書類（利用案内より抜粋）」",
+      "url": "https://www.city.shiki.lg.jp/uploaded/attachment/23838.pdf"
+    }
+  ]
+}

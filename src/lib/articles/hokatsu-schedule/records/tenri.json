@@ -1,0 +1,159 @@
+{
+  "citySlug": "tenri",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "天理市「令和9年度の保育所（園）・認定こども園等の申請について」",
+    "url": "https://www.city.tenri.nara.jp/kakuka/kenkoukodomokateikyoku/youhokodomoennka/hoikusho_kodomoen/15815.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年10月1日（木曜日）〜11月6日（金曜日）。窓口は平日の開庁時間内（8時30分〜17時15分）のみ。郵送・オンラインも締切日必着",
+  "applyMethods": "「令和9年度天理市保育所等利用案内」を読んで必要書類を準備し、幼保こども園課窓口（市役所2階）、郵送またはオンラインで申請する。郵送は簡易書留など配達の事実が証明できる方法が勧められている",
+  "firstResult": "令和9年2月中旬までに、内定者へ書面で通知する予定。利用が決まらなかった人には保育施設入所保留通知書を送付",
+  "secondApply": "令和8年11月9日（月）〜令和9年1月15日（金）。一次選考の受付期間後に申請した場合は二次選考から選考される",
+  "midYearDeadline": "入所希望月ごとに申請期限がある（例: 令和9年5月入所は令和9年2月26日、6月入所は3月31日。令和10年2月・3月入所はどちらも令和9年11月30日）",
+  "documents": [
+    "こどものための教育・保育給付認定（変更）申請書兼保育施設・事業利用申請書（令和9年度用）と同意書",
+    "個人番号（マイナンバー）が確認できる書類と申請者の本人確認ができる書類（郵送の場合は写しを添付）",
+    "保育施設を6施設以上希望する場合は希望順位表（第6希望以上）",
+    "就労が理由の場合は就労証明書。自営業主（農業含む）は確定申告書の写し・営業許可書の写し・開業届の写しなどのいずれかを併せて提出",
+    "同一地番に住む65歳未満の祖父母（世帯分離している場合も含む）がいる場合は、その人の保育が必要な事由を証明するものも必要（提出がなければ入所選考で減算）"
+  ],
+  "interview": "申請前に希望する施設の見学をするよう求められている",
+  "ikukyu": "育児休業を延長する場合は、施設等利用給付認定（2号・3号認定）は行われない。希望の保育所等の利用が決まらなかった人には保育施設入所保留通知書が送付される",
+  "notes": [
+    "令和9年4月の入所申請は、受付開始直後や申請期間終了日付近に窓口が大変混み合うと予想されている",
+    "令和8年度の申請をしていて入所保留中の人も、令和9年度も継続して利用を希望する場合は受付期間内にあらためて申請が必要",
+    "書類不備の場合は利用申請を受付できず、原則として書類不備解消後の受付になる",
+    "入所申請はできる限り第5希望まで記入するよう求められている",
+    "提出した申請書は令和10年3月31日まで有効",
+    "認定こども園（教育部分）を希望する場合は各園に問い合わせる"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.tenri.nara.jp/kakuka/kenkoukodomokateikyoku/youhokodomoennka/hoikusho_kodomoen/15815.html",
+      "quote": "令和9年4月入所申請の受付期間は、令和8年10月1日（木曜日）～11月6日（金曜日）まで（窓口は平日・開庁時間内のみ）です。"
+    },
+    "firstApply": {
+      "url": "https://www.city.tenri.nara.jp/kakuka/kenkoukodomokateikyoku/youhokodomoennka/hoikusho_kodomoen/15815.html",
+      "quote": "令和9年4月入所申請の受付期間は、令和8年10月1日（木曜日）～11月6日（金曜日）まで（窓口は平日・開庁時間内のみ）です。"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.tenri.nara.jp/material/files/group/75/R9riyouannnai2.pdf",
+      "quote": "幼保こども園課 令和８年10月1日（木）～11月６日（金） 8:30～17:15"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.tenri.nara.jp/kakuka/kenkoukodomokateikyoku/youhokodomoennka/hoikusho_kodomoen/15815.html",
+      "quote": "必要書類を準備の上、期限までに幼保こども園課窓口、郵送またはオンラインで申請してください（〆切日必着）。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.tenri.nara.jp/kakuka/kenkoukodomokateikyoku/youhokodomoennka/hoikusho_kodomoen/15815.html",
+      "quote": "「令和9年度天理市保育所等利用案内」をご覧いただき、必要書類を準備の上、期限までに幼保こども園課窓口、郵送またはオンラインで申請してください（〆切日必着）。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.tenri.nara.jp/kakuka/kenkoukodomokateikyoku/youhokodomoennka/hoikusho_kodomoen/15815.html",
+      "quote": "〒632-8555 奈良県天理市川原城町605番地 市役所2階"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.tenri.nara.jp/material/files/group/75/R9riyouannnai2.pdf",
+      "quote": "また、簡易書留等、配達の事実が証明できる方法で送付してください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.tenri.nara.jp/material/files/group/75/R9riyouannnai2.pdf",
+      "quote": "令和９年４月入所希望者の調整の結果に関しては、内定者の方へ令和９年2月中旬までに、書面にてお知らせする予定です。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.tenri.nara.jp/material/files/group/75/R9riyouannnai2.pdf",
+      "quote": "また、希望の保育所等の利用が決まらなかった方（入所保留）には、保育施設入所保留通知書を送付します。"
+    },
+    "secondApply": {
+      "url": "https://www.city.tenri.nara.jp/material/files/group/75/R9riyouannnai2.pdf",
+      "quote": "幼保こども園課 令和８年11月９日（月）～令和９年1月15日（金） 8:30～17:15"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.tenri.nara.jp/material/files/group/75/R9riyouannnai2.pdf",
+      "quote": "・一次選考受付期間後に申請された場合、二次選考から選考を行います。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.tenri.nara.jp/material/files/group/75/R9riyouannnai2.pdf",
+      "quote": "令和９年５月 令和９年２月26 日 令和９年11月 令和９年８月31 日"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.tenri.nara.jp/material/files/group/75/R9riyouannnai2.pdf",
+      "quote": "令和９年６月 令和９年３月31 日 令和９年12月 令和９年９月30 日"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.tenri.nara.jp/material/files/group/75/R9riyouannnai2.pdf",
+      "quote": "令和９年８月 令和９年５月31 日 令和10年２月 ★令和９年 11 月30日"
+    },
+    "midYearDeadline#4": {
+      "url": "https://www.city.tenri.nara.jp/material/files/group/75/R9riyouannnai2.pdf",
+      "quote": "令和９年９月 令和９年６月30 日 令和10年３月 ★令和９年 11 月30日"
+    },
+    "documents.0": {
+      "url": "https://www.city.tenri.nara.jp/material/files/group/75/R9riyouannnai2.pdf",
+      "quote": "保育施設・事業利用申請書 （令和9年度用）"
+    },
+    "documents.1": {
+      "url": "https://www.city.tenri.nara.jp/material/files/group/75/R9riyouannnai2.pdf",
+      "quote": "申請者の本人確認ができる書類（※郵送の場合は写しを"
+    },
+    "documents.2": {
+      "url": "https://www.city.tenri.nara.jp/material/files/group/75/R9riyouannnai2.pdf",
+      "quote": "保育施設を６施設以上希望する方のみ 希望順位表（第６希望以上）"
+    },
+    "documents.3": {
+      "url": "https://www.city.tenri.nara.jp/kakuka/kenkoukodomokateikyoku/youhokodomoennka/hoikusho_kodomoen/15815.html",
+      "quote": "（注）自営業主の方（農業含む）は、就労証明書と併せて下記添付資料のうちいずれかを提出してください。"
+    },
+    "documents.4": {
+      "url": "https://www.city.tenri.nara.jp/material/files/group/75/R9riyouannnai2.pdf",
+      "quote": "提出がなければ、入所選考で減算となります。"
+    },
+    "interview": {
+      "url": "https://www.city.tenri.nara.jp/material/files/group/75/R9riyouannnai2.pdf",
+      "quote": "申請前に希望される施設の見学をお願いします。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.tenri.nara.jp/kakuka/kenkoukodomokateikyoku/youhokodomoennka/hoikusho_kodomoen/15815.html",
+      "quote": "ただし、求職中で保育施設入所日から求職活動される場合や育児休業を延長する場合などは、施設等利用給付認定（2号・3号認定）は行いません。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.tenri.nara.jp/material/files/group/75/R9riyouannnai2.pdf",
+      "quote": "また、希望の保育所等の利用が決まらなかった方（入所保留）には、保育施設入所保留通知書を送付します。"
+    },
+    "notes.0": {
+      "url": "https://www.city.tenri.nara.jp/material/files/group/75/R9riyouannnai2.pdf",
+      "quote": "令和９年 4 月の入所申請につきましては、受付開始直後や申請期間終了日付近で、窓口が大変混み合うことが予想されます。"
+    },
+    "notes.1": {
+      "url": "https://www.city.tenri.nara.jp/material/files/group/75/R9riyouannnai2.pdf",
+      "quote": "令和８年度の申請をしているが、入所保留中で、令和９年度も継続して利用を希望される場合も、下記の受付期間内にあらためて申請が必要です。"
+    },
+    "notes.2": {
+      "url": "https://www.city.tenri.nara.jp/material/files/group/75/R9riyouannnai2.pdf",
+      "quote": "書類不備の場合は、利用申請を受付できません。原則として書類不備解消後の受付になります。"
+    },
+    "notes.3": {
+      "url": "https://www.city.tenri.nara.jp/material/files/group/75/R9riyouannnai2.pdf",
+      "quote": "入所申請につきましては、可能な限り第５希望までご記入いただきますようお願いします。"
+    },
+    "notes.4": {
+      "url": "https://www.city.tenri.nara.jp/material/files/group/75/R9riyouannnai2.pdf",
+      "quote": "（６）提出していただいた申請書は、令和10年３月31 日まで有効です。"
+    },
+    "notes.5": {
+      "url": "https://www.city.tenri.nara.jp/kakuka/kenkoukodomokateikyoku/youhokodomoennka/hoikusho_kodomoen/15815.html",
+      "quote": "認定こども園（教育部分）を希望される方は、各園にお問い合わせください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "天理市「令和9年度の保育所（園）・認定こども園等の申請について」",
+      "url": "https://www.city.tenri.nara.jp/kakuka/kenkoukodomokateikyoku/youhokodomoennka/hoikusho_kodomoen/15815.html"
+    },
+    {
+      "label": "天理市「令和9年度天理市保育所等利用案内」",
+      "url": "https://www.city.tenri.nara.jp/material/files/group/75/R9riyouannnai2.pdf"
+    }
+  ]
+}

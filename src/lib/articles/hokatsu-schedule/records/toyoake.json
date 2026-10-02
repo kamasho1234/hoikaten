@@ -1,0 +1,227 @@
+{
+  "citySlug": "toyoake",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "豊明市「令和9年度保育所等利用申し込みのご案内」",
+    "url": "https://www.city.toyoake.lg.jp/24702.htm"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年10月1日以降に申込書類一式を配布。こども保育課窓口（豊明市役所新館2階）で11月20日（金曜日）まで配布し、市ホームページからもダウンロードできる。公立保育園7園では10月1日（木曜日）〜8日（木曜日）に各園で配布",
+  "firstApply": "令和8年10月20日以降、第1希望施設ごとに決められた受付日（各園10月20日〜11月6日のうちの指定日）に各園で申込書類を提出する。地域型保育事業が第1希望の場合は10月20日（火曜日）午前9時から11月20日（金曜日）午後4時45分までこども保育課で受付。最終締切は令和8年11月20日（金曜日）午後4時45分で、面接ありの場合は令和8年11月25日（水曜日）までに第1希望施設で子どもの面接を受ける",
+  "applyMethods": "第1希望施設の受付日に各園で申込書類を提出し、その場で同一指数の人の優先順位を決めるくじを引く。受付日に都合が悪い場合は受付日の翌日から最終締切（11月20日午後4時45分）までに市役所こども保育課へ提出する。郵送も可（11月20日必着。くじは職員が引く）",
+  "firstResult": "利用調整結果（利用承諾）の通知は1回目が令和9年1月頃（予定）、2回目が令和9年2月頃（予定）。利用の案内ができない場合は利用保留通知で知らせる",
+  "secondApply": "令和9年4月1日入園の随時申込みは令和9年1月13日から受付、締切は令和9年1月29日",
+  "secondResult": "令和9年4月1日入園の随時申込みの利用調整結果は令和9年2月頃に通知",
+  "midYearDeadline": "令和9年5月1日以降入園の随時申込みは利用希望月の前々月末が締切で、結果は利用希望月の前月下旬頃に通知。保留中は申込みを取り下げない限り毎月自動で利用調整される",
+  "documents": [
+    "保育所等利用申込書",
+    "教育・保育給付認定・施設等利用給付認定申請書",
+    "保護者（父・母）それぞれの認定事由を確認するための書類（事由に応じて用意。各証明書類は発行日から3か月以内に提出）",
+    "入園希望調査表",
+    "保育所等利用申込に関する確認書",
+    "令和10年1〜3月入所案内希望確認書",
+    "マイナンバーを確認できる書類（申込時に窓口に来る保護者の分。個人番号カードがあればそれのみでよい）"
+  ],
+  "interview": "面接実施「有」の園では申込書類の提出と同時に子どもの面接を行うので子どもと一緒に行く（面接無の園では子どもは一緒でなくてよい）。面接は令和8年11月25日（水曜日）までに第1希望施設で受ける",
+  "ikukyu": "育児休業の認定事由で申し込めるのは、育児休業に係る子ども以外の子どもが3〜5歳児クラスに入園を希望する場合。入所希望月中に復職予定の人は就労証明書を出す",
+  "notes": [
+    "一斉入所申込の説明は10月1日から公開の説明動画で行い、各園の保育所等説明会では申込みの説明は行わない",
+    "窓口優先予約では一斉申込みの予約は受け付けていないので、一斉申込受付日程の日時に各園へ行く",
+    "就労の認定事由での一斉申込みは、就労開始日（復職日）が4月中である必要がある",
+    "同じ指数の場合は申込受付時に引いたくじの順位で決め、先着順ではない",
+    "希望する保育所等をできる限り多く書くと入園できる可能性が高くなる",
+    "令和8年11月20日（金曜日）午後4時45分以降は申込みの受付も希望保育所等の変更もできない"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.toyoake.lg.jp/secure/35185/R9riyouannnai.pdf",
+      "quote": "① 一斉申込み・・・【令和９年４月１日入園】"
+    },
+    "guideRelease": {
+      "url": "https://www.city.toyoake.lg.jp/secure/35185/R9riyouannnai.pdf",
+      "quote": "1. 申込書類一式配布 令和8年10月1日以降 令和８年１２月１日以降"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.toyoake.lg.jp/24702.htm",
+      "quote": "A1.申込書類は、10月1日(木曜日)～11月20日(金曜日)までの間、こども保育課窓口（豊明市役所新館2階）にて配布します。また、10月1日(木曜日)以降に3.保育所等利用案内・申込必要書類のダウンロードからも印刷していただけます。公立保育園7園では、10月1日(木曜日)～8日(木曜日)の期間のみ各園で申込書類を配布します。"
+    },
+    "firstApply": {
+      "url": "https://www.city.toyoake.lg.jp/secure/35185/R9riyouannnai.pdf",
+      "quote": "令和8年１０月２0日以降 2. 申込受付 令和９年１月１３日～ 一斉申込配布資料に記載"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.toyoake.lg.jp/secure/35185/R9tyuuijikou.pdf",
+      "quote": "❶ 申込書類提出：令和8年11月20日(金)午後4時45分までにこども保育課へ"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.toyoake.lg.jp/secure/35185/R9tyuuijikou.pdf",
+      "quote": "❷ お子さんの面接：令和8年11月25日(水)までに第1希望施設にて"
+    },
+    "firstApply#4": {
+      "url": "https://www.city.toyoake.lg.jp/secure/35185/R9tyuuijikou.pdf",
+      "quote": "❶ 10月20日(火)午前９時から11月２0日(金)の午後4時45分まで(市役所開庁時間に限る。)に、"
+    },
+    "firstApply#5": {
+      "url": "https://www.city.toyoake.lg.jp/24702.htm",
+      "quote": "暁幼稚園 10月20日(火) 10月20日(火)"
+    },
+    "firstApply#6": {
+      "url": "https://www.city.toyoake.lg.jp/24702.htm",
+      "quote": "からたけ 11月6日(金) 無 11月6日(金)"
+    },
+    "applyMethods": {
+      "url": "https://www.city.toyoake.lg.jp/24702.htm",
+      "quote": "また、申込書類の提出時に同一指数の人の優先順位を決定するためのくじ引きを行います（利用調整は市の基準による優先順位の高い人から行います）。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.toyoake.lg.jp/24702.htm",
+      "quote": "A2.各施設の申込受付日で都合が悪い場合は、各施設の受付日の翌日からこども保育課にて申込書類の提出を受け付けますので、最終締切日(11月20日(金曜日))の午後4時45分まで(市役所開庁時間に限る)に提出してください。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.toyoake.lg.jp/secure/35185/R9tyuuijikou.pdf",
+      "quote": "※ 郵送による提出も可能です(１１月２0日(金)必着)。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.toyoake.lg.jp/secure/35185/R9tyuuijikou.pdf",
+      "quote": "※ 郵送による提出の場合、優先順位を決定するためのくじ引きは職員が行います。"
+    },
+    "firstResult": {
+      "url": "https://www.city.toyoake.lg.jp/secure/35185/R9tyuuijikou.pdf",
+      "quote": "4. 利用調整結果 【１回目】令和9年１月頃（予定）"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.toyoake.lg.jp/secure/35185/R9tyuuijikou.pdf",
+      "quote": "（利用承諾）の通知 【２回目】令和9年２月頃（予定）"
+    },
+    "firstResult#3": {
+      "url": "https://www.city.toyoake.lg.jp/secure/35185/R9riyouannnai.pdf",
+      "quote": "(※１) 利用承諾または利用保留の通知です。利用のご案内ができない場合、その旨を利用保留通知にてお知らせします。"
+    },
+    "secondApply": {
+      "url": "https://www.city.toyoake.lg.jp/secure/35185/R9riyouannnai.pdf",
+      "quote": "② 随時申込み・・・【令和９年４月１日入園】"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.toyoake.lg.jp/secure/35185/R9riyouannnai.pdf",
+      "quote": "2. 申込受付 令和９年１月１３日～"
+    },
+    "secondApply#3": {
+      "url": "https://www.city.toyoake.lg.jp/secure/35185/R9riyouannnai.pdf",
+      "quote": "3. 申込受付締切日 令和9年１月29日 利用希望月の前々月末"
+    },
+    "secondResult": {
+      "url": "https://www.city.toyoake.lg.jp/secure/35185/R9riyouannnai.pdf",
+      "quote": "令和9年２月頃 利用希望月の前月下旬頃"
+    },
+    "secondResult#2": {
+      "url": "https://www.city.toyoake.lg.jp/secure/35185/R9riyouannnai.pdf",
+      "quote": "② 随時申込み・・・【令和９年４月１日入園】"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.toyoake.lg.jp/secure/35185/R9riyouannnai.pdf",
+      "quote": "③ 随時申込み・・・【令和９年５月１日以降入園】"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.toyoake.lg.jp/secure/35185/R9riyouannnai.pdf",
+      "quote": "3. 申込受付締切日 令和9年１月29日 利用希望月の前々月末"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.toyoake.lg.jp/secure/35185/R9riyouannnai.pdf",
+      "quote": "また、同一年度内においては、利用申込みを取り下げない限り自動的に毎月利用調整を行いますので、再度の申込手続きは不要です。"
+    },
+    "documents.0": {
+      "url": "https://www.city.toyoake.lg.jp/secure/35185/R9tyuuijikou.pdf",
+      "quote": "1. 保育所等利用申込書"
+    },
+    "documents.1": {
+      "url": "https://www.city.toyoake.lg.jp/secure/35185/R9tyuuijikou.pdf",
+      "quote": "2. 教育・保育給付認定・施設等利用給付認定申請書"
+    },
+    "documents.2": {
+      "url": "https://www.city.toyoake.lg.jp/24702.htm",
+      "quote": "認定事由を確認するための書類については、保護者の方それぞれの分が必要になります。事由に応じてご用意ください。各証明書類は発行日から3か月以内に提出してください。"
+    },
+    "documents.3": {
+      "url": "https://www.city.toyoake.lg.jp/secure/35185/R9tyuuijikou.pdf",
+      "quote": "4. 入園希望調査表"
+    },
+    "documents.4": {
+      "url": "https://www.city.toyoake.lg.jp/secure/35185/R9tyuuijikou.pdf",
+      "quote": "5. 保育所等利用申込に関する確認書"
+    },
+    "documents.5": {
+      "url": "https://www.city.toyoake.lg.jp/secure/35185/R9tyuuijikou.pdf",
+      "quote": "6. 令和10年1～3月入所案内希望確認書"
+    },
+    "documents.6": {
+      "url": "https://www.city.toyoake.lg.jp/secure/35185/R9tyuuijikou.pdf",
+      "quote": "7. マイナンバーを確認できる書類（申込時窓口に来る保護者の分が次のとおり必要です。）"
+    },
+    "documents.6#2": {
+      "url": "https://www.city.toyoake.lg.jp/secure/35185/R9tyuuijikou.pdf",
+      "quote": "①は番号と身元両方を確認することができるので、個人番号カードのみお持ちください。"
+    },
+    "interview": {
+      "url": "https://www.city.toyoake.lg.jp/24702.htm",
+      "quote": "※面接有の場合は、お子さんと一緒にお出かけください（面接無の場合は、お子さんは一緒でなくても構いません）。"
+    },
+    "interview#2": {
+      "url": "https://www.city.toyoake.lg.jp/secure/35185/R9tyuuijikou.pdf",
+      "quote": "❷ お子さんの面接：令和8年11月25日(水)までに第1希望施設にて"
+    },
+    "ikukyu": {
+      "url": "https://www.city.toyoake.lg.jp/secure/35185/R9tyuuijikou.pdf",
+      "quote": "育児休業に係る子ども以外の子どもの入園を希望する場合、３～５歳児クラスであれば、育児休業の認定事由で申込みが可能です。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.toyoake.lg.jp/24702.htm",
+      "quote": "※入所希望月中に復職される予定の方は就労証明書をご提出ください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.toyoake.lg.jp/24702.htm",
+      "quote": "10月1日(木曜日)から一斉入所申込の説明動画を公開します。"
+    },
+    "notes.0#2": {
+      "url": "https://www.city.toyoake.lg.jp/24702.htm",
+      "quote": "申し込みの説明は行いません。詳細は各園へお問い合わせください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.toyoake.lg.jp/24702.htm",
+      "quote": "※窓口優先予約では2027年度保育所等入園申込手続き（一斉申込み）の予約は受け付けていません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.toyoake.lg.jp/secure/35185/R9tyuuijikou.pdf",
+      "quote": "一斉申込みでは、就労開始日(復職日)が４月中である必要があります。"
+    },
+    "notes.3": {
+      "url": "https://www.city.toyoake.lg.jp/secure/35185/R9riyouannnai.pdf",
+      "quote": "一斉申込み及び令和９年４月１日入園の随時申込み…申込受付時に引いたくじの順位にて決定します。"
+    },
+    "notes.3#2": {
+      "url": "https://www.city.toyoake.lg.jp/24702.htm",
+      "quote": "※利用調整は、先着順ではありませんので該当の時間内にお越しください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.toyoake.lg.jp/24702.htm",
+      "quote": "なお、希望の保育所等をできる限り多くされると入園できる可能性も高くなりますので、ご家族でご相談の上、お申し込みください。"
+    },
+    "notes.5": {
+      "url": "https://www.city.toyoake.lg.jp/secure/35185/R9tyuuijikou.pdf",
+      "quote": "・ 令和８年１１月２０日（金）午後４時４５分以降は申込みの受付、希望保育所等の変更はできません。"
+    }
+  },
+  "sources": [
+    {
+      "label": "豊明市「令和9年度保育所等利用申し込みのご案内」",
+      "url": "https://www.city.toyoake.lg.jp/24702.htm"
+    },
+    {
+      "label": "豊明市「R9保育所等利用案内」（PDF）",
+      "url": "https://www.city.toyoake.lg.jp/secure/35185/R9riyouannnai.pdf"
+    },
+    {
+      "label": "豊明市「令和9年度一斉申込手続きの注意事項」（PDF）",
+      "url": "https://www.city.toyoake.lg.jp/secure/35185/R9tyuuijikou.pdf"
+    }
+  ]
+}

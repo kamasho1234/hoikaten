@@ -1,0 +1,207 @@
+{
+  "citySlug": "sanda",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "三田市「令和9年度 保育所・認定こども園・小規模保育の利用申し込みのご案内」",
+    "url": "https://www.city.sanda.lg.jp/soshiki/24/gyomu/ikuji_mishugakuji/hoikusho_kodomoen_yochien/6/36074.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年11月2日（月曜日）〜11月30日（月曜日）の9時〜16時30分（B日程。土曜日・日曜日・祝日を除く。市役所本庁舎2階 保育振興課）。休日受付日は令和8年11月15日（日曜日）の13時〜16時（市役所本庁舎1階ロビー）",
+  "applyMethods": "申込書に必要書類を添えて市保育振興課に提出する（保育所・小規模保育と、A日程以外の認定こども園はB日程・C日程に保育振興課で受付）。日程により受付時間・場所が異なる",
+  "firstResult": "令和9年2月上旬頃に『内定通知書』か『入所保留通知書』を文書で通知",
+  "secondApply": "令和8年12月1日（火曜日）〜令和9年1月29日（金曜日）の9時〜16時30分（C日程・追加受付。土曜日・日曜日・祝日・年末年始を除く。市役所本庁舎2階 保育振興課）",
+  "secondResult": "令和9年3月上旬頃に文書で通知。B日程で保留となりC日程以降も保留の場合は通知されない",
+  "midYearDeadline": "入所希望月の前々月末日（末日が土曜日・日曜日・祝日の場合はその前の平日）。4月入所は締切が早くなる",
+  "documents": [
+    "令和9年度 保育所等利用申込必要書類チェックリスト",
+    "令和9年度 教育・保育給付認定申請書（2・3号認定用）兼保育利用（入所等）申込書",
+    "保育施設等利用調整申込書（児童1人につき1枚）とお子さんの状況",
+    "保育を必要とする事由の証明書（保護者全員分）。就労の場合は就労証明書（有効期限3か月）",
+    "自営業の場合は最新の確定申告書の写し、開業届の写し、店舗紹介のパンフレットなど事業の実態を証明する添付資料",
+    "妊娠・出産の場合は母子手帳の写し（表紙と出産予定日がわかるページ）",
+    "求職活動（起業準備を含む）の場合は勤務（就労）予定申立書と求職カード",
+    "保護者の疾病・障害の場合は診断書兼疾病・障害状況申告書、親族の介護・看護の場合は介護・看護申立書（添付資料が必要な場合あり）",
+    "令和8年1月1日時点で三田市に住民登録がない場合は、個人番号申告書を出していなければ市民税の税額が確認できる書類"
+  ],
+  "ikukyu": "申込書で「希望する保育所等に入所できない場合は、育児休業の延長を許容できる」を選んだ人が「直ちに復職希望」へ変えるときは、育児休業からの復職に関する申立書を入所希望月の申請締め切りまでに出す。入所保留通知書は入力フォームで希望でき、入所希望月の前月20日〜25日に発送予定（選考にかかっていない月・辞退した月は発行できない）",
+  "notes": [
+    "認定こども園を第1希望する3歳児以上（令和6年4月1日以前生まれ）の2号認定子どもはA日程で先行して受付・利用調整を行うが、第1希望の認定こども園しか調整せず、保留なら第2希望以降はB日程受付終了後に保育所希望者と一緒に調整する",
+    "A日程の受付は令和8年10月1日（木曜日）〜10月3日（土曜日）に第1希望の認定こども園で、結果通知は令和8年10月末頃（予定）。ゆうかりフレンズ、若草幼稚舎、ほしのさとこども園はA日程での受付が無い",
+    "A日程を申し込む場合は、必ず希望する認定こども園の説明会に参加する",
+    "4月入所はB日程までの申込者で入所者のほぼ全員を決める。受付は先着順ではない",
+    "C日程（追加受付）は、希望する施設で辞退や退所がない限り内定者が出ない可能性がある",
+    "希望変更等の受付もB日程・C日程の申込期間と同じ"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.sanda.lg.jp/soshiki/24/gyomu/ikuji_mishugakuji/hoikusho_kodomoen_yochien/6/36074.html",
+      "quote": "(注意)令和9年5月以降の入所希望の方は、下記「令和9年度保育所・認定こども園・小規模保育入所のしおり」をご覧ください。"
+    },
+    "fiscalYear#2": {
+      "url": "https://www.city.sanda.lg.jp/soshiki/24/gyomu/ikuji_mishugakuji/hoikusho_kodomoen_yochien/6/36074.html",
+      "quote": "(注意)4月入所はB日程までの申込者で入所者のほぼ全員を決めます!!"
+    },
+    "firstApply": {
+      "url": "https://www.city.sanda.lg.jp/soshiki/24/gyomu/ikuji_mishugakuji/hoikusho_kodomoen_yochien/6/36074.html",
+      "quote": "通常受付期間 令和8年11月2日(月曜日)～11月30日(月曜日) (注意)土曜日、日曜日、祝日除く いずれも9時～16時30分 市役所本庁舎2階 保育振興課"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.sanda.lg.jp/soshiki/24/gyomu/ikuji_mishugakuji/hoikusho_kodomoen_yochien/6/36074.html",
+      "quote": "休日受付日 令和8年11月15日(日曜日) 13時～16時 (注意)午後のみ 市役所本庁舎1階 ロビー"
+    },
+    "applyMethods": {
+      "url": "https://www.city.sanda.lg.jp/soshiki/24/faq/faq_kosodate_kyoiku/kosodate/1333.html",
+      "quote": "申込書に必要書類を添付して、保育振興課に提出してください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.sanda.lg.jp/soshiki/24/gyomu/ikuji_mishugakuji/hoikusho_kodomoen_yochien/6/36074.html",
+      "quote": "下記のB日程・C日程に市保育振興課で受付"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.sanda.lg.jp/soshiki/24/gyomu/ikuji_mishugakuji/hoikusho_kodomoen_yochien/6/36074.html",
+      "quote": "(注意2)B日程からは市保育振興課で受付"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.sanda.lg.jp/soshiki/24/gyomu/ikuji_mishugakuji/hoikusho_kodomoen_yochien/6/36074.html",
+      "quote": "(注意)日程により受付時間・場所が異なりますのでご注意ください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.sanda.lg.jp/soshiki/24/gyomu/ikuji_mishugakuji/hoikusho_kodomoen_yochien/6/36074.html",
+      "quote": "【 B日程 】 令和8年11月2日(月曜日)～令和8年11月30日(月曜日) 令和9年2月上旬頃"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.sanda.lg.jp/soshiki/24/gyomu/ikuji_mishugakuji/hoikusho_kodomoen_yochien/6/36074.html",
+      "quote": "『内定通知書』もしくは『入所保留通知書』により文書で通知します。"
+    },
+    "secondApply": {
+      "url": "https://www.city.sanda.lg.jp/soshiki/24/gyomu/ikuji_mishugakuji/hoikusho_kodomoen_yochien/6/36074.html",
+      "quote": "受付期間 令和8年12月1日(火曜日)～令和9年1月29日(金曜日) (注意)土曜日、日曜日、祝日、年末年始は除く いずれも9時～16時30分 市役所本庁舎2階 保育振興課"
+    },
+    "secondResult": {
+      "url": "https://www.city.sanda.lg.jp/soshiki/24/gyomu/ikuji_mishugakuji/hoikusho_kodomoen_yochien/6/36074.html",
+      "quote": "【 C日程(追加受付) 】 令和8年12月1日(火曜日)～令和9年1月29日(金曜日) 令和9年3月上旬頃"
+    },
+    "secondResult#2": {
+      "url": "https://www.city.sanda.lg.jp/soshiki/24/gyomu/ikuji_mishugakuji/hoikusho_kodomoen_yochien/6/36074.html",
+      "quote": "ただし、B日程の審査が保留となりC日程の審査以降も保留の場合、通知はいたしません。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.sanda.lg.jp/soshiki/24/faq/faq_kosodate_kyoiku/kosodate/1333.html",
+      "quote": "また、申込みの締切は入所希望月の前々月末日（末日が土曜日、日曜日、祝日の場合は、その前の平日）になります。なお、4月入所については、締切が早くなります。"
+    },
+    "documents.0": {
+      "url": "https://www.city.sanda.lg.jp/material/files/group/156/20_R9tyekurisuto.pdf",
+      "quote": "１．すべての申請者が提出する書類 □令和９年度 保育所等利用申込必要書類チェックリスト（本書）"
+    },
+    "documents.1": {
+      "url": "https://www.city.sanda.lg.jp/material/files/group/156/20_R9tyekurisuto.pdf",
+      "quote": "□令和９年度 教育・保育給付認定申請書(2・3号認定用)兼保育利用(入所等)申込書"
+    },
+    "documents.2": {
+      "url": "https://www.city.sanda.lg.jp/material/files/group/156/20_R9tyekurisuto.pdf",
+      "quote": "□保育施設等利用調整申込書 ※児童1人につき1枚 □お子さんの状況"
+    },
+    "documents.3": {
+      "url": "https://www.city.sanda.lg.jp/material/files/group/156/20_R9tyekurisuto.pdf",
+      "quote": "４．保育を必要とする事由の証明書について(※保護者全員分が必要です。)"
+    },
+    "documents.3#2": {
+      "url": "https://www.city.sanda.lg.jp/material/files/group/156/20_R9tyekurisuto.pdf",
+      "quote": "①就労 □ 就労証明書(有効期限3か月) □ □"
+    },
+    "documents.4": {
+      "url": "https://www.city.sanda.lg.jp/soshiki/24/gyomu/ikuji_mishugakuji/hoikusho_kodomoen_yochien/6/36074.html",
+      "quote": "(注意)自営業の場合は 最新の確定申告書の写し 開業届の写し 店舗紹介のパンフレット など事業の実態を証明する添付資料が必要です"
+    },
+    "documents.5": {
+      "url": "https://www.city.sanda.lg.jp/material/files/group/156/20_R9tyekurisuto.pdf",
+      "quote": "③妊娠・出産 □ 母子手帳の写し(表紙と出産予定日がわかるページ)"
+    },
+    "documents.6": {
+      "url": "https://www.city.sanda.lg.jp/material/files/group/156/20_R9tyekurisuto.pdf",
+      "quote": "⑦求職活動(起業準備含む) □ 勤務(就労)予定申立書、求職カード"
+    },
+    "documents.7": {
+      "url": "https://www.city.sanda.lg.jp/material/files/group/156/20_R9tyekurisuto.pdf",
+      "quote": "診断書兼疾病・障害状況申告書(添付資料必要な場合有)"
+    },
+    "documents.7#2": {
+      "url": "https://www.city.sanda.lg.jp/material/files/group/156/20_R9tyekurisuto.pdf",
+      "quote": "介護・看護申立書(添付資料必要な場合有)"
+    },
+    "documents.8": {
+      "url": "https://www.city.sanda.lg.jp/soshiki/24/gyomu/ikuji_mishugakuji/hoikusho_kodomoen_yochien/6/36074.html",
+      "quote": "(注意)令和8年1月1日時点(令和9年9月以降入所の場合は令和9年1月1日時点)、三田市に住民登録がなく、個人番号申告書未提出の方は市民税の税額が確認できる書類の提出が必要です。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.sanda.lg.jp/soshiki/24/gyomu/ikuji_mishugakuji/hoikusho_kodomoen_yochien/6/36074.html",
+      "quote": "「2.希望する保育所等に入所できない場合は、育児休業の延長を許容できる」を選択された方で、「1.直ちに復職希望」へ変更される方は、育児休業からの復職に関する申立書を入所希望月の申請締め切りまでにご提出ください。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.sanda.lg.jp/soshiki/24/gyomu/ikuji_mishugakuji/hoikusho_kodomoen_yochien/6/36074.html",
+      "quote": "入所保留通知書をご希望される方は、以下のリンクから受付できます。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.sanda.lg.jp/soshiki/24/gyomu/ikuji_mishugakuji/hoikusho_kodomoen_yochien/6/36074.html",
+      "quote": "(注意)入所希望月の前月20日～25日に発送予定。 (注意)選考にかかっていない月、辞退された月については発行することはできません。"
+    },
+    "notes.0": {
+      "url": "https://www.city.sanda.lg.jp/soshiki/24/gyomu/ikuji_mishugakuji/hoikusho_kodomoen_yochien/6/36074.html",
+      "quote": "認定こども園を第1希望する方のみを先行して、受付・利用調整を行います。ただし、第1希望の認定こども園しか利用調整を行いません。"
+    },
+    "notes.0#2": {
+      "url": "https://www.city.sanda.lg.jp/soshiki/24/gyomu/ikuji_mishugakuji/hoikusho_kodomoen_yochien/6/36074.html",
+      "quote": "A日程で保留となった場合、第2希望以降はB日程受付終了後、保育所も希望する方たちと一緒に利用調整を行います。"
+    },
+    "notes.0#3": {
+      "url": "https://www.city.sanda.lg.jp/soshiki/24/gyomu/ikuji_mishugakuji/hoikusho_kodomoen_yochien/6/36074.html",
+      "quote": "認定こども園を第1希望する2号認定こども (※1)ゆうかりフレンズ、若草幼稚舎、ほしのさとこども園を除く (※2)令和6年4月1日以前生まれ"
+    },
+    "notes.1": {
+      "url": "https://www.city.sanda.lg.jp/soshiki/24/gyomu/ikuji_mishugakuji/hoikusho_kodomoen_yochien/6/36074.html",
+      "quote": "令和8年10月1日(木曜日) 令和8年10月2日(金曜日) 令和8年10月3日(土曜日) ※受付時間は提出先の園にお問い合わせください。"
+    },
+    "notes.1#2": {
+      "url": "https://www.city.sanda.lg.jp/soshiki/24/gyomu/ikuji_mishugakuji/hoikusho_kodomoen_yochien/6/36074.html",
+      "quote": "(※2)令和6年4月1日以前生まれ 第1希望の認定こども園 令和8年10月末頃"
+    },
+    "notes.1#3": {
+      "url": "https://www.city.sanda.lg.jp/soshiki/24/gyomu/ikuji_mishugakuji/hoikusho_kodomoen_yochien/6/36074.html",
+      "quote": "(注意)ゆうかりフレンズ、若草幼稚舎、ほしのさとこども園は認定こども園ですが、A日程での受付はありません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.sanda.lg.jp/soshiki/24/gyomu/ikuji_mishugakuji/hoikusho_kodomoen_yochien/6/36074.html",
+      "quote": "(注意)必ず、ご希望の認定こども園の説明会に参加してください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.sanda.lg.jp/soshiki/24/gyomu/ikuji_mishugakuji/hoikusho_kodomoen_yochien/6/36074.html",
+      "quote": "(注意)4月入所はB日程までの申込者で入所者のほぼ全員を決めます!!"
+    },
+    "notes.3#2": {
+      "url": "https://www.city.sanda.lg.jp/soshiki/24/gyomu/ikuji_mishugakuji/hoikusho_kodomoen_yochien/6/36074.html",
+      "quote": "(注意)先着順ではありませんので、ご安心ください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.sanda.lg.jp/soshiki/24/gyomu/ikuji_mishugakuji/hoikusho_kodomoen_yochien/6/36074.html",
+      "quote": "(注意)C日程(追加受付)に関しては、希望する施設で辞退や退所がない限り、内定者がでない可能性があります。"
+    },
+    "notes.5": {
+      "url": "https://www.city.sanda.lg.jp/soshiki/24/gyomu/ikuji_mishugakuji/hoikusho_kodomoen_yochien/6/36074.html",
+      "quote": "(注意)希望変更等の受付も上記期間と同様になります。"
+    }
+  },
+  "sources": [
+    {
+      "label": "三田市「令和9年度 保育所・認定こども園・小規模保育の利用申し込みのご案内」",
+      "url": "https://www.city.sanda.lg.jp/soshiki/24/gyomu/ikuji_mishugakuji/hoikusho_kodomoen_yochien/6/36074.html"
+    },
+    {
+      "label": "三田市「令和9年度 保育所等利用申込必要書類チェックリスト」",
+      "url": "https://www.city.sanda.lg.jp/material/files/group/156/20_R9tyekurisuto.pdf"
+    },
+    {
+      "label": "三田市「保育所等に入所したいのですが。」",
+      "url": "https://www.city.sanda.lg.jp/soshiki/24/faq/faq_kosodate_kyoiku/kosodate/1333.html"
+    }
+  ]
+}

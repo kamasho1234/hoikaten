@@ -2,7 +2,6 @@ import type { Article } from "./types";
 import { registerArticles } from "./index";
 
 const articles: Article[] = [
-  { slug: "hokatsu-schedule", citySlug: "sakata", title: "酒田市の保活スケジュール　令和8年度4月入園の流れ", description: "酒田市の保活スケジュール。", image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop", category: "保活の基本", categoryColor: "green", content: `<h2>酒田市について</h2><p>酒田市は人口約10万人で、山形県庄内地域の主要都市です。</p>`, publishedAt: "2026-04-29", popularity: 42 },
   { slug: "hokatsu-mistakes", citySlug: "sakata", title: "酒田市の保活でよくある失敗と対策5選", description: "失敗パターン。", image: "https://images.unsplash.com/photo-1476703993599-0035a21b17a9?w=800&h=400&fit=crop", category: "保活の基本", categoryColor: "green", content: `<h2>失敗対策</h2><p>酒田市での保活に気をつけること。</p>`, publishedAt: "2026-04-29", popularity: 38 },
   { slug: "hokatsu-basics", citySlug: "sakata", title: "酒田市での保活、いつから始めるべき？", description: "初心者向けガイド。", image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop", category: "保活の基本", categoryColor: "green", content: `<h2>準備ステップ</h2><p>妊娠中から情報収集を始めましょう。</p>`, publishedAt: "2026-04-29", popularity: 36 },
   { slug: "point-system", citySlug: "sakata", title: "酒田市の基本指数システム　40点満点の仕組み", description: "基本指数。", image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop", category: "保活の基本", categoryColor: "green", content: `<h2>基本指数</h2><p>40点満点の仕組みを理解しましょう。</p>`, publishedAt: "2026-04-29", popularity: 49 },

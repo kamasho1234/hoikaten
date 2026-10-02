@@ -1,0 +1,156 @@
+{
+  "citySlug": "seki",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "関市「令和9年度4月新規入園」",
+    "url": "https://www.city.seki.lg.jp/0000018621.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年9月1日（火）から申請書を配布。配布場所は関市役所子ども家庭課、各地域事務所、各市内保育園（西部支所では配布しない）",
+  "firstApply": "一次募集は令和8年10月1日（木）〜10月30日（金）",
+  "applyMethods": "関市役所子ども家庭課か各地域事務所（西部支所は除く）に提出する。受付時間は午前8時30分〜午後5時15分。10月には各保育園・認定こども園で日を決めて出張受付も行う",
+  "firstResult": "10月中に申し込んだ人に、1月中旬までに内定通知書と支給認定通知書を発送（転入予定の人や書類が整っていない人は遅くなることがある）",
+  "secondApply": "10月の受付で定員に達しなかった保育園について、令和9年1月12日から入園受付を再開",
+  "midYearDeadline": "5月〜3月の入園は入園月の前月1日からおおむね15日までが受付期間（例: 令和9年5月1日入園は令和9年4月1日〜15日）。入園を希望する園に事前に連絡してから提出する",
+  "documents": [
+    "保育給付認定申請書兼施設利用申込書（園児1人につき1枚）",
+    "就労証明書／家族の状況証明書（就労以外）（両親とも必要。兄弟同時入所の場合は世帯で1部）。就労証明書は保護者本人ではなく就労先の事業者等が作成する",
+    "保育料等納付誓約書（兄弟同時入所の場合は世帯で1部）",
+    "アレルギー等確認票（園児1人につき1枚）"
+  ],
+  "notes": [
+    "先着順ではないので、書類に不備がないことを確認して受付期間内に提出する。希望する保育園は事前の見学が勧められている",
+    "定員を超えた場合は利用調整表に従って選考し、利用調整は11〜12月中に行う。選考で漏れた人には子ども家庭課から連絡があり、第2希望以降の園で調整する",
+    "申込時点で関市に住んでいなくても申し込めるが、令和9年3月末までに関市に転入することが条件",
+    "仕事の都合などで市外の保育園を希望する場合も受付期間内に申請書を出す。相手の市町村と調整するため内定は市内の園より遅くなる",
+    "虹ケ丘幼稚園は令和9年4月から認定こども園に移行する予定で、一次募集から保育認定での入園受付を始める"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.seki.lg.jp/cmsfiles/contents/0000000/985/R9tsuika.pdf",
+      "quote": "つきましては、令和９年度４月入園の出張受付を下記の日程にて実施します。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.seki.lg.jp/0000018621.html",
+      "quote": "配布開始日　　令和8年9月1日（火）"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.seki.lg.jp/0000018621.html",
+      "quote": "配布場所　　　関市役所子ども家庭課、各地域事務所、各市内保育園"
+    },
+    "firstApply": {
+      "url": "https://www.city.seki.lg.jp/0000018621.html",
+      "quote": "受付期間　　令和8年10月1日（木）～10月30日（金）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.seki.lg.jp/0000018621.html",
+      "quote": "受付場所　　関市役所子ども家庭課、各地域事務所（西部支所は除く）"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.seki.lg.jp/0000018621.html",
+      "quote": "受付時間　　午前8時30分～午後5時15分"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.seki.lg.jp/cmsfiles/contents/0000000/985/R9tsuika.pdf",
+      "quote": "つきましては、令和９年度４月入園の出張受付を下記の日程にて実施します。"
+    },
+    "firstResult": {
+      "url": "https://www.city.seki.lg.jp/0000018621.html",
+      "quote": "10月中に申込みをした保護者に対して、1月中旬までに内定通知書と支給認定通知書を発送します。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.seki.lg.jp/0000018621.html",
+      "quote": "※転入予定の方は、転入（住民票）の確認ができた後に発送となりますので、発送時期が遅くなることがあります。"
+    },
+    "firstResult#3": {
+      "url": "https://www.city.seki.lg.jp/0000018621.html",
+      "quote": "※必要書類が整っていない場合も発送時期が遅くなることがあります。"
+    },
+    "secondApply": {
+      "url": "https://www.city.seki.lg.jp/0000018621.html",
+      "quote": "※10月受付で定員に達しなかった保育園について、令和9年1月12日より入園受付を再開します。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.seki.lg.jp/0000018622.html",
+      "quote": "以下のような日程で入園受付を開始します。必要書類を記入の上、子ども家庭課または地域事務所までご提出ください。"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.seki.lg.jp/0000018622.html",
+      "quote": "令和9年5月1日 令和9年4月1日～15日"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.seki.lg.jp/0000018622.html",
+      "quote": "※入園を希望する園に事前連絡をしてから申請書を提出してください。"
+    },
+    "documents.0": {
+      "url": "https://www.city.seki.lg.jp/0000000985.html",
+      "quote": "保育給付認定申請書兼施設利用申込書・・・園児1人につき1枚必要"
+    },
+    "documents.1": {
+      "url": "https://www.city.seki.lg.jp/0000000985.html",
+      "quote": "就労証明書/家族の状況証明書（就労以外）・・・両親とも必要。兄弟同時入所場合、世帯で1部必要。"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.seki.lg.jp/0000000985.html",
+      "quote": "就労証明書は保護者本人ではなく、保護者の就労先事業者等にて作成してください。"
+    },
+    "documents.2": {
+      "url": "https://www.city.seki.lg.jp/0000000985.html",
+      "quote": "保育料等納付誓約書・・・兄弟同時入所の場合、世帯で1部必要"
+    },
+    "documents.3": {
+      "url": "https://www.city.seki.lg.jp/0000000985.html",
+      "quote": "アレルギー等確認票・・・園児1人につき1枚必要"
+    },
+    "notes.0": {
+      "url": "https://www.city.seki.lg.jp/0000018621.html",
+      "quote": "※先着順ではありませんので、申請書類に不備がないことを確認したうえで受付期間内に提出ください。"
+    },
+    "notes.0#2": {
+      "url": "https://www.city.seki.lg.jp/0000018621.html",
+      "quote": "※希望する保育園には、事前に見学等をお勧めします。"
+    },
+    "notes.1": {
+      "url": "https://www.city.seki.lg.jp/0000018621.html",
+      "quote": "残念ながら選考で漏れた方には、子ども家庭課より連絡をさせていただきます。選考で漏れた場合、第2希望以降の保育園で利用調整を行います。"
+    },
+    "notes.1#2": {
+      "url": "https://www.city.seki.lg.jp/0000018621.html",
+      "quote": "11～12月中に実施します。"
+    },
+    "notes.2": {
+      "url": "https://www.city.seki.lg.jp/0000018621.html",
+      "quote": "ただし、令和9年3月末までに関市に転入すること（関市に住民票を移すこと）が条件になります。"
+    },
+    "notes.3": {
+      "url": "https://www.city.seki.lg.jp/0000018621.html",
+      "quote": "希望する保育園がある市町村と入所選考・利用調整を行うこととなりますので、市内保育園を希望する場合に比べて、内定決定等遅くなります。"
+    },
+    "notes.4": {
+      "url": "https://www.city.seki.lg.jp/cmsfiles/contents/0000000/985/R9tsuika.pdf",
+      "quote": "来年度（令和９年４月）から、虹ケ丘幼稚園は認定こども園に移行する予定です。"
+    },
+    "notes.4#2": {
+      "url": "https://www.city.seki.lg.jp/0000018621.html",
+      "quote": "一次募集から虹ケ丘幼稚園に保育認定（保育園部分）での入園受付を開始します。"
+    }
+  },
+  "sources": [
+    {
+      "label": "関市「令和9年度4月新規入園」",
+      "url": "https://www.city.seki.lg.jp/0000018621.html"
+    },
+    {
+      "label": "関市「令和9年度5月～3月新規入園」",
+      "url": "https://www.city.seki.lg.jp/0000018622.html"
+    },
+    {
+      "label": "関市「保育施設入園案内」",
+      "url": "https://www.city.seki.lg.jp/0000000985.html"
+    },
+    {
+      "label": "関市「令和9年度保育施設入園案内（追加分）」",
+      "url": "https://www.city.seki.lg.jp/cmsfiles/contents/0000000/985/R9tsuika.pdf"
+    }
+  ]
+}

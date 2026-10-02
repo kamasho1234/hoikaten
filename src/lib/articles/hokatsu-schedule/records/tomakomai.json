@@ -1,0 +1,181 @@
+{
+  "citySlug": "tomakomai",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "苫小牧市「令和８年度保育所等入所申込について」",
+    "url": "https://www.city.tomakomai.hokkaido.jp/kenko/kosodate/kanrenshisetsu/kyokahoikujo/nyusho/reiwa8.html"
+  },
+  "fiscalYear": "R8",
+  "firstApply": "令和7年12月1日（月）〜令和8年1月13日（火）（土・日曜日、祝日を除く）。郵送は締切日必着",
+  "applyMethods": "申込書類を市役所の幼保施設課（本庁舎1階18番窓口）か、とまこまい子育て支援センターに直接出すか、郵送する。郵送は締切日必着（消印日ではない）",
+  "midYearDeadline": "4月以外の入所は、入所希望月の前月15日まで（15日が閉庁日の場合はその前日）",
+  "documents": [
+    "子どものための教育・保育給付認定申請書（兼現況届）",
+    "心身状況票（子どもの生年月日によって様式が違う）",
+    "保育施設入所申込者実態調査書（世帯につき1枚、両面印刷）",
+    "保育が必要な理由の証明書類（両親それぞれにつき1枚。就労の場合は育児休業に関する項目が記載されている就労証明書。4月入所の第一次受付期間に申請する場合は令和7年11月1日以降に取得したもの）",
+    "自営業の場合は就労証明書を自分で作成し、営業許可証・開業届出書・確定申告書などの自営を証明する書類を1点添付する"
+  ],
+  "interview": "申請書類で市が選考し、入所調整後に市から連絡がきたら、希望したいずれかの施設と親子で面接する。面接で児童を安全に保育できると判断された場合のみ入所が決まる",
+  "ikukyu": "育児休業給付金の延長手続きで認定申請書の写しが必要になる場合があるので、提出前に自分でコピーを取っておく。給付金の延長は幼保施設課では判断できないため、勤務先やハローワークに問い合わせる",
+  "notes": [
+    "入所の選考に申込の順番は影響しない",
+    "保育が必要な理由の証明書類を締切日までに出せなかった場合は、入所調整時の優先度が求職活動と同じ扱いになる",
+    "郵送の申請が締切日を過ぎて届いた場合は、次回以降の入所調整での申し込みになる",
+    "令和7年度の申し込みを終えて入所待ちの人も、令和8年度の申し込み手続きが必要",
+    "18〜64歳の同居家族（高校生・大学生・専門学生を除く）がいる場合はその人の保育が必要な理由の証明書類も出す。出さなくても申請できるが、入所調整時の優先度が下がる",
+    "育休中に入所した場合は、入所日から2か月以内に復職する必要がある"
+  ],
+  "evidence": {
+    "page": {
+      "url": "https://www.city.tomakomai.hokkaido.jp/kenko/kosodate/kanrenshisetsu/kyokahoikujo/nyusho/reiwa8.html",
+      "quote": "以下１～３の書類をそろえて、申込期間内に提出してください"
+    },
+    "fiscalYear": {
+      "url": "https://www.city.tomakomai.hokkaido.jp/files/kouhou/pdf/6527_14009862.pdf",
+      "quote": "入 所 日 令和８年４月１日㈬ ※３月中に入所承諾書を送付"
+    },
+    "firstApply": {
+      "url": "https://www.city.tomakomai.hokkaido.jp/kenko/kosodate/kanrenshisetsu/kyokahoikujo/nyusho/reiwa8.html",
+      "quote": "ただし、４月入所の第一次受付期間（令和７年１２月１日（月）から令和８年１月１３日（火）まで）に申請する方は、令和７年１１月１日以降に取得したものを提出してください。"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.tomakomai.hokkaido.jp/files/kouhou/pdf/6527_14009862.pdf",
+      "quote": "子育て支援センターで配布の申込書類を12月1日㈪〜令和8年1月13日㈫（土・日曜日、祝日を除く）に、こども育成課、子育て支援センターに直接または郵送（必着）で"
+    },
+    "applyMethods": {
+      "url": "https://www.city.tomakomai.hokkaido.jp/kenko/kosodate/kanrenshisetsu/kyokahoikujo/nyusho/reiwa8.html",
+      "quote": "苫小牧市こども未来部幼保施設課（市役所本庁舎１階１８番窓口）電話0144-32-6378"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.tomakomai.hokkaido.jp/kenko/kosodate/kanrenshisetsu/kyokahoikujo/nyusho/reiwa8.html",
+      "quote": "とまこまい子育て支援センター（本幸町１丁目２番２１号）電話0144-33-4751"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.tomakomai.hokkaido.jp/kenko/kosodate/kanrenshisetsu/kyokahoikujo/nyusho/reiwa8.html",
+      "quote": "郵送で申請する方は、締切日必着です（消印日ではありません）ので、余裕をもって郵送するようお願いします。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.tomakomai.hokkaido.jp/files/kouhou/pdf/6527_14009862.pdf",
+      "quote": "（土・日曜日、祝日を除く）に、こども育成課、子育て支援センターに直接または郵送（必着）で"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.tomakomai.hokkaido.jp/kenko/kosodate/kanrenshisetsu/kyokahoikujo/yokuaru.html",
+      "quote": "入所希望月の前月15日となっています。（15日が閉庁日の場合は閉庁日の前日となります）"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.tomakomai.hokkaido.jp/kenko/kosodate/kanrenshisetsu/kyokahoikujo/yokuaru.html",
+      "quote": "ただし、４月の入所をご希望される方は別の日程となります。"
+    },
+    "documents.0": {
+      "url": "https://www.city.tomakomai.hokkaido.jp/files/00067800/00067810/20260930151511.pdf",
+      "quote": "① 子どものための教育・保育給付認定申請書（兼現況届）※記載例はガイド７ページ"
+    },
+    "documents.1": {
+      "url": "https://www.city.tomakomai.hokkaido.jp/kenko/kosodate/kanrenshisetsu/kyokahoikujo/nyusho/reiwa8.html",
+      "quote": "※入所申し込み児童の生年月日によって様式が違います。"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.tomakomai.hokkaido.jp/files/00067800/00067810/20260930151511.pdf",
+      "quote": "② 心身状況票 ※記載例はガイド８ページ"
+    },
+    "documents.2": {
+      "url": "https://www.city.tomakomai.hokkaido.jp/files/00067800/00067810/20260930151511.pdf",
+      "quote": "④ 保育施設入所申込者実態調査書 ※記載例はガイド１１ページ"
+    },
+    "documents.2#2": {
+      "url": "https://www.city.tomakomai.hokkaido.jp/kenko/kosodate/kanrenshisetsu/kyokahoikujo/nyusho/reiwa8.html",
+      "quote": "※必ず両面印刷してください。"
+    },
+    "documents.3": {
+      "url": "https://www.city.tomakomai.hokkaido.jp/kenko/kosodate/kanrenshisetsu/kyokahoikujo/nyusho/reiwa8.html",
+      "quote": "※両親世帯の場合は、両親それぞれにつき１枚ずつ提出が必要です。"
+    },
+    "documents.3#2": {
+      "url": "https://www.city.tomakomai.hokkaido.jp/kenko/kosodate/kanrenshisetsu/kyokahoikujo/nyusho/reiwa8.html",
+      "quote": "就労証明書（育児休業に関する項目が記載されている）"
+    },
+    "documents.3#3": {
+      "url": "https://www.city.tomakomai.hokkaido.jp/kenko/kosodate/kanrenshisetsu/kyokahoikujo/nyusho/reiwa8.html",
+      "quote": "ただし、４月入所の第一次受付期間（令和７年１２月１日（月）から令和８年１月１３日（火）まで）に申請する方は、令和７年１１月１日以降に取得したものを提出してください。"
+    },
+    "documents.4": {
+      "url": "https://www.city.tomakomai.hokkaido.jp/kenko/kosodate/kanrenshisetsu/kyokahoikujo/nyusho/reiwa8.html",
+      "quote": "※自営業の場合はご自身で作成してください。なお、自営を証明する書類（営業許可証や開業届出書、登記事項証明書、確定申告書、請負先との委託契約書の写し等）を１点、必ず添付してください。"
+    },
+    "interview": {
+      "url": "https://www.city.tomakomai.hokkaido.jp/files/00067800/00067810/20260930151511.pdf",
+      "quote": "希望したいずれかの施設と親子で面接します"
+    },
+    "interview#2": {
+      "url": "https://www.city.tomakomai.hokkaido.jp/files/00067800/00067810/20260930151511.pdf",
+      "quote": "③ 入所調整後、市役所から連絡がくる"
+    },
+    "interview#3": {
+      "url": "https://www.city.tomakomai.hokkaido.jp/files/00067800/00067810/20251114101430.pdf",
+      "quote": "認可保育施設で行う面接で「児童を安全に保育できる」と判断された場合のみ、入所を決定します。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.tomakomai.hokkaido.jp/kenko/kosodate/kanrenshisetsu/kyokahoikujo/nyusho/reiwa8.html",
+      "quote": "※育児休業給付金の延長手続きの際に申請書の写しが必要となる場合があります。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.tomakomai.hokkaido.jp/kenko/kosodate/kanrenshisetsu/kyokahoikujo/nyusho/reiwa8.html",
+      "quote": "該当する方は、提出前にご自身でコピーをお取りください。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.tomakomai.hokkaido.jp/kenko/kosodate/kanrenshisetsu/kyokahoikujo/yokuaru.html",
+      "quote": "また、育児休業給付金の延長についても幼保施設課では判断致しかねますので、お勤め先の会社等やハローワークにお問い合わせください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.tomakomai.hokkaido.jp/kenko/kosodate/kanrenshisetsu/kyokahoikujo/nyusho/reiwa8.html",
+      "quote": "※入所の選考に申込の順番は影響しません"
+    },
+    "notes.1": {
+      "url": "https://www.city.tomakomai.hokkaido.jp/kenko/kosodate/kanrenshisetsu/kyokahoikujo/nyusho/reiwa8.html",
+      "quote": "「２.保育が必要な理由の証明書類」について、締切日までに提出できなかった場合は、保育の必要性が確認できないため、入所調整時の優先度は求職活動と同様になりますので、ご注意ください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.tomakomai.hokkaido.jp/kenko/kosodate/kanrenshisetsu/kyokahoikujo/nyusho/reiwa8.html",
+      "quote": "締切日を過ぎて到着した分は、次回以降の入所調整での申し込みとしますのでご了承ください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.tomakomai.hokkaido.jp/files/kouhou/pdf/6527_14009862.pdf",
+      "quote": "※令和７年度の申し込み手続きを終えて入所待ちの方も、８年度の申し込み手続きが必要"
+    },
+    "notes.4": {
+      "url": "https://www.city.tomakomai.hokkaido.jp/kenko/kosodate/kanrenshisetsu/kyokahoikujo/nyusho/reiwa8.html",
+      "quote": "※同居家族分については、当該書類の提出がなくても入所申請は可能ですが、入所調整時の優先度は下がります。"
+    },
+    "notes.4#2": {
+      "url": "https://www.city.tomakomai.hokkaido.jp/kenko/kosodate/kanrenshisetsu/kyokahoikujo/nyusho/reiwa8.html",
+      "quote": "⑤同居家族に18～64歳の方がいる（高校生・大学生・専門学生は除く）"
+    },
+    "notes.5": {
+      "url": "https://www.city.tomakomai.hokkaido.jp/kenko/kosodate/kanrenshisetsu/kyokahoikujo/nyusho/reiwa8.html",
+      "quote": "※育休中に入所した場合は、入所日から２か月以内に復職していただきます。"
+    }
+  },
+  "sources": [
+    {
+      "label": "苫小牧市「令和８年度保育所等入所申込について」",
+      "url": "https://www.city.tomakomai.hokkaido.jp/kenko/kosodate/kanrenshisetsu/kyokahoikujo/nyusho/reiwa8.html"
+    },
+    {
+      "label": "苫小牧市「令和８年度苫小牧市入所ガイド」",
+      "url": "https://www.city.tomakomai.hokkaido.jp/files/00067800/00067810/20260930151511.pdf"
+    },
+    {
+      "label": "苫小牧市「申請にあたっての同意事項（重要）」",
+      "url": "https://www.city.tomakomai.hokkaido.jp/files/00067800/00067810/20251114101430.pdf"
+    },
+    {
+      "label": "広報とまこまい 令和7年12月号「令和８年度保育所等入所児童の募集」",
+      "url": "https://www.city.tomakomai.hokkaido.jp/files/kouhou/pdf/6527_14009862.pdf"
+    },
+    {
+      "label": "苫小牧市「認可保育所等に関するＱ＆Ａ」",
+      "url": "https://www.city.tomakomai.hokkaido.jp/kenko/kosodate/kanrenshisetsu/kyokahoikujo/yokuaru.html"
+    }
+  ]
+}

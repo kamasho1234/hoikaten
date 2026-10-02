@@ -1,0 +1,169 @@
+{
+  "citySlug": "takaoka",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "高岡市「手続きから入園まで」",
+    "url": "https://www.city.takaoka.toyama.jp/soshiki/kodomo_kosodateka/2/11/1/2137.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年9月1日（火曜日）〜9月30日（水曜日）に、第一希望の施設で申請書等を配布（平日午前9時〜午後5時）",
+  "firstApply": "令和8年10月1日（木曜日）・10月2日（金曜日）の2日間。受付時間は午前9時〜午後4時",
+  "applyMethods": "第一希望の施設から申請書等を受け取り、受付期間内にその施設へ提出する。複数の施設から申請書を受け取ったり、複数の施設へ同時に提出したりはできない",
+  "firstResult": "2月初旬（一次受付分）に結果を郵送",
+  "secondApply": "令和9年2月1日（月曜日）の1日（午前9時〜午後4時）。二次配布は令和9年1月上旬から、受入れが可能な施設で行う",
+  "secondResult": "2月下旬（二次受付分）に結果を郵送",
+  "midYearDeadline": "入園希望月の前月10日まで（10日が土日祝日の場合は直前の平日）",
+  "documents": [
+    "教育・保育給付認定申請書兼入園申込書（市内の保育園等を希望する場合は各園で配布）",
+    "個人番号（マイナンバー）申告書及び添付書類",
+    "保育料・延長保育料・給食費口座振替納付依頼書（公立園・私立保育園を希望する方のみ）",
+    "保育を必要とする事由の証明書（父母両方の分。就労証明書・各申立書は証明の日付から3か月間有効）",
+    "健康調査票（保育園、認定こども園保育園部、事業所内保育施設を希望する方のみ）",
+    "保育料及び副食費の決定に必要な書類（該当する方のみ）"
+  ],
+  "interview": "受付時に面接を行うので、入園希望の子どもと一緒に入園希望の施設へ行く",
+  "notes": [
+    "申請締切時点で必要な書類が不足している場合は受付されない。締切を過ぎて提出した場合は次期の受付分として扱われる",
+    "申請書受付後に希望施設を変更することはできない",
+    "求職活動の保育要件で4月入園を希望する場合は、三次受付（令和9年3月1日）でのみ受付する",
+    "一次受付で受入数に達した施設は、二次配布・三次配布を行わない",
+    "育児休業から復帰見込みがない方は新規で入園申請できない。入園希望月の翌月15日までに復職が必要",
+    "入園後のミスマッチを防ぐため、利用を希望する施設の見学や方針等の確認が求められている"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.takaoka.toyama.jp/material/files/group/36/R9nyuenannai.pdf",
+      "quote": "令和９年４月１日時点の年齢をお伝えください。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.takaoka.toyama.jp/material/files/group/36/R9nyuenannai.pdf",
+      "quote": "・一次配布：令和８年９月１日（火）から ９月30日（水）まで"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.takaoka.toyama.jp/material/files/group/36/R9nyuenannai.pdf",
+      "quote": "下記の配布期間に第一希望の施設から申請書等を受け取ってください。"
+    },
+    "guideRelease#3": {
+      "url": "https://www.city.takaoka.toyama.jp/soshiki/kodomo_kosodateka/2/11/1/2137.html",
+      "quote": "※申請書の配布はいずれの日も月曜日から金曜日の午前9時から午後5時まで、申請書の受付はいずれも午前9時から午後4時までです。"
+    },
+    "firstApply": {
+      "url": "https://www.city.takaoka.toyama.jp/material/files/group/36/R9nyuenannai.pdf",
+      "quote": "・一次受付：令和８年10月１日（木）及び10月２日（金）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.takaoka.toyama.jp/soshiki/kodomo_kosodateka/2/11/1/2137.html",
+      "quote": "※申請書の配布はいずれの日も月曜日から金曜日の午前9時から午後5時まで、申請書の受付はいずれも午前9時から午後4時までです。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.takaoka.toyama.jp/material/files/group/36/R9nyuenannai.pdf",
+      "quote": "下記の受付期間に、申請書等を受け取った施設へ申請書等を提出してください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.takaoka.toyama.jp/material/files/group/36/R9nyuenannai.pdf",
+      "quote": "・複数の施設からの申請書の受取及び複数の施設へ同時に申請書の提出はできません。"
+    },
+    "firstResult": {
+      "url": "https://www.city.takaoka.toyama.jp/soshiki/kodomo_kosodateka/2/11/1/2137.html",
+      "quote": "一次受付は2月初旬、二次受付は2月下旬、三次受付は3月下旬に結果を郵送します。"
+    },
+    "secondApply": {
+      "url": "https://www.city.takaoka.toyama.jp/material/files/group/36/R9nyuenannai.pdf",
+      "quote": "・二次受付：令和９年２月１日（月） いずれも午前９時から"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.takaoka.toyama.jp/material/files/group/36/R9nyuenannai.pdf",
+      "quote": "・二次配布：令和９年１月上旬から いずれも月曜日から金曜日の"
+    },
+    "secondApply#3": {
+      "url": "https://www.city.takaoka.toyama.jp/material/files/group/36/R9nyuenannai.pdf",
+      "quote": "・二次配布及び三次配布は、一次配布の方の利用施設の決定後に、受入れが可能な施設で行います。"
+    },
+    "secondResult": {
+      "url": "https://www.city.takaoka.toyama.jp/soshiki/kodomo_kosodateka/2/11/1/2137.html",
+      "quote": "一次受付は2月初旬、二次受付は2月下旬、三次受付は3月下旬に結果を郵送します。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.takaoka.toyama.jp/soshiki/kodomo_kosodateka/2/11/1/2137.html",
+      "quote": "入園希望月の前月の10日が締切です（ただし、10日が土曜日・日曜日・祝日の場合は、その直前の平日が締切ですので、ご注意ください）。"
+    },
+    "documents.0": {
+      "url": "https://www.city.takaoka.toyama.jp/soshiki/kodomo_kosodateka/2/11/1/3040.html",
+      "quote": "高岡市内の保育園等に入園を希望する場合：「教育・保育給付認定申請書兼入園申込書」は各園で配布しています。"
+    },
+    "documents.1": {
+      "url": "https://www.city.takaoka.toyama.jp/material/files/group/36/R9nyuenannai.pdf",
+      "quote": "２．個人番号（マイナンバー）申告書及び添付書類（P17、P18）"
+    },
+    "documents.2": {
+      "url": "https://www.city.takaoka.toyama.jp/soshiki/kodomo_kosodateka/2/11/1/3040.html",
+      "quote": "（注意）公立園、私立保育園を希望する方のみ。私立認定こども園を希望する方は不要です。"
+    },
+    "documents.3": {
+      "url": "https://www.city.takaoka.toyama.jp/soshiki/kodomo_kosodateka/2/11/1/3040.html",
+      "quote": "下記の就労証明書及び各申立書は証明の日付より3か月間有効です。"
+    },
+    "documents.3#2": {
+      "url": "https://www.city.takaoka.toyama.jp/soshiki/kodomo_kosodateka/2/11/1/3040.html",
+      "quote": "保育を必要とする事由の証明書（父、母両方の書類が必要）"
+    },
+    "documents.4": {
+      "url": "https://www.city.takaoka.toyama.jp/soshiki/kodomo_kosodateka/2/11/1/3040.html",
+      "quote": "（注意）保育園、認定こども園保育園部又は事業所内保育施設を希望する方のみ。"
+    },
+    "documents.5": {
+      "url": "https://www.city.takaoka.toyama.jp/soshiki/kodomo_kosodateka/2/11/1/3040.html",
+      "quote": "保育料及び副食費の決定に必要な書類（下記「保育料及び副食費の決定に必要な書類を提出する方」に該当する方）"
+    },
+    "interview": {
+      "url": "https://www.city.takaoka.toyama.jp/soshiki/kodomo_kosodateka/2/11/1/2137.html",
+      "quote": "受付時に面接を行いますので、入園希望のお子さまと一緒に入園希望の保育園・認定こども園・事業所内保育施設にお越しください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.takaoka.toyama.jp/soshiki/kodomo_kosodateka/2/11/1/2137.html",
+      "quote": "申請締切時点で申請に必要な書類が不足している場合は、申請を受付できません。申請締切を過ぎて提出された場合は、その翌月の申請分として取り扱います。"
+    },
+    "notes.0#2": {
+      "url": "https://www.city.takaoka.toyama.jp/material/files/group/36/R9nyuenannai.pdf",
+      "quote": "・受付期限後に提出された申請書は、次期受付分として取り扱います。"
+    },
+    "notes.1": {
+      "url": "https://www.city.takaoka.toyama.jp/soshiki/kodomo_kosodateka/2/11/1/2137.html",
+      "quote": "申請書受付後の希望施設の変更はできません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.takaoka.toyama.jp/soshiki/kodomo_kosodateka/2/11/1/2137.html",
+      "quote": "（注意）求職活動の保育要件で入園を希望する場合は、三次受付でのみ受付を行います。"
+    },
+    "notes.2#2": {
+      "url": "https://www.city.takaoka.toyama.jp/material/files/group/36/R9nyuenannai.pdf",
+      "quote": "・三次受付：令和９年３月１日（月） 午後４時まで"
+    },
+    "notes.3": {
+      "url": "https://www.city.takaoka.toyama.jp/material/files/group/36/R9nyuenannai.pdf",
+      "quote": "一次受付で受入数に達した施設は、二次配布及び三次配布は行いません。"
+    },
+    "notes.4": {
+      "url": "https://www.city.takaoka.toyama.jp/material/files/group/36/R9nyuenannai.pdf",
+      "quote": "※４ 育児休業から復帰見込みがない方は新規で入園（転園含む）申請できません。入園には、入園希望月の翌月 15日までに復職してください。"
+    },
+    "notes.5": {
+      "url": "https://www.city.takaoka.toyama.jp/soshiki/kodomo_kosodateka/2/11/1/2137.html",
+      "quote": "入園後のミスマッチを防ぐため、利用希望する施設の見学や方針等の確認をお願いします。"
+    }
+  },
+  "sources": [
+    {
+      "label": "高岡市「手続きから入園まで」",
+      "url": "https://www.city.takaoka.toyama.jp/soshiki/kodomo_kosodateka/2/11/1/2137.html"
+    },
+    {
+      "label": "高岡市「令和9年度入園のご案内」（PDF）",
+      "url": "https://www.city.takaoka.toyama.jp/material/files/group/36/R9nyuenannai.pdf"
+    },
+    {
+      "label": "高岡市「保育園等の入園申請に必要なもの」",
+      "url": "https://www.city.takaoka.toyama.jp/soshiki/kodomo_kosodateka/2/11/1/3040.html"
+    }
+  ]
+}

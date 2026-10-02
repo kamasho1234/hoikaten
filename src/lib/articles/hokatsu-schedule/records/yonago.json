@@ -1,0 +1,194 @@
+{
+  "citySlug": "yonago",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "米子市「令和8年度保育所・認定こども園・小規模・事業所内保育事業所の入所受付（1次申込）」",
+    "url": "https://www.city.yonago.lg.jp/46948.htm"
+  },
+  "fiscalYear": "R8",
+  "guideRelease": "令和7年10月22日に1次申込の案内ページを公開。入所案内はこども支援課（ふれあいの里1階）、市役所本庁・淀江支所で開庁時間内に配布",
+  "firstApply": "令和7年11月1日（土曜日）〜11月30日（日曜日）に電子申請で申し込む。紙による申請は令和7年11月28日（金曜日）17時まで、郵送は令和7年11月28日（金曜日）必着",
+  "applyMethods": "原則は電子申請（市内在住者と市外在住者で電子申請のURLと二次元コードが異なる）。希望すれば紙での申請も受け付ける。受付期間中はこども支援課（ふれあいの里1階）で電子申請のサポートを行う",
+  "firstResult": "令和7年12月22日（月曜日）15時00分頃に、申込時に登録した携帯電話番号へSMS（ショートメッセージサービス）で通知",
+  "secondApply": "令和8年2月1日（日曜日）〜2月16日（月曜日）に電子申請で申し込む。郵送は令和8年2月16日（月曜日）必着、紙による申請は同日17時まで",
+  "secondResult": "令和8年2月27日（金曜日）に、申込時に登録した携帯電話番号へSMSで通知",
+  "documents": [
+    "保育が必要な事由を証明する書類（会社・団体等での勤務者は就労証明書。就労証明書の有効期限は証明日から3か月で、それまでに申し込む）",
+    "自営業者・自営業協力者等は就労証明書（本人が記載）と、本人が業務を行っていることがわかる書類",
+    "出産の準備・静養が必要な人は母子健康手帳のコピー（表紙と分娩予定日の確認できる部分）",
+    "紙で申請する場合は、子どものための教育・保育給付認定申請書兼利用調整申込書（2号・3号用）と、入所申込書の「11健康状況」に有りとした人のみ保育施設等入所に係る健康状態確認票も出す"
+  ],
+  "interview": "内定した人は保育施設等で面接・健康診断等を受ける。健康診断の結果、保育に支障がある場合は入所できないことがある",
+  "ikukyu": "育児休業中でも、入所してから1か月以内に仕事に復帰することを条件に申し込める（職場復帰日の1か月前からならし保育として入所できる）。育児休業給付金の延長手続きで申込内容の写しが必要なときは、保護者が電子申請のページをデータ保存または印刷する（紙で申請する場合は申請前にコピーを取る）",
+  "notes": [
+    "先着順ではなく、受付期間内の申請であれば申請の順番は入所の可否と関係しない",
+    "出産予定でも1次申込はできる。認定証の交付と利用調整結果の通知は住民登録を確認してからになるので、出生届のときに申し出る",
+    "1次申込で入所保留になった場合は、次回の利用調整時に希望施設等を変更できる",
+    "米子市外の保育所に広域入所を希望する場合は、こども支援課に相談する",
+    "申込みが完了すると申込完了通知メールが届く。届かない場合は迷惑メールフォルダ等を確認する"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.yonago.lg.jp/46948.htm",
+      "quote": "転勤等で米子市に転入予定の方も、令和8年4月1日までに転入する場合は申込みが可能です。"
+    },
+    "fiscalYear#2": {
+      "url": "https://www.city.yonago.lg.jp/secure/59859/R8nyusyo.pdf",
+      "quote": "１次、２次申込は、４月１日からの入所を希望される方が対象となります。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.yonago.lg.jp/46948.htm",
+      "quote": "本ページを公開しました（令和7年10月22日～）。"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.yonago.lg.jp/46948.htm",
+      "quote": "入所案内は、こども支援課（ふれあいの里1階）、市役所本庁・淀江支所で市役所の開庁時間内に配布をしています。"
+    },
+    "firstApply": {
+      "url": "https://www.city.yonago.lg.jp/46948.htm",
+      "quote": "令和7年11月1日（土曜日）から11月30日（日曜日）までに、電子申請でのお申込みをお願いします。"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.yonago.lg.jp/46948.htm",
+      "quote": "※令和7年11月29・30日が土曜・日曜日にあたるため、紙による申請の場合は令和7年11月28日(金曜日)の17時00分までの受付となります。"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.yonago.lg.jp/46948.htm",
+      "quote": "※郵送の場合は令和7年11月28日(金曜日)必着です。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.yonago.lg.jp/46948.htm",
+      "quote": "申請時に市内在住者と市外在住者で電子申請のURLと二次元コードが異なりますのでご注意ください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.yonago.lg.jp/46948.htm",
+      "quote": "希望に応じて、紙での申請も受け付けています。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.yonago.lg.jp/secure/59859/R8nyusyo.pdf",
+      "quote": "※受付期間中、こども支援課（ふれあいの里１階）で電子申請のサポートを行います。"
+    },
+    "firstResult": {
+      "url": "https://www.city.yonago.lg.jp/46948.htm",
+      "quote": "利用調整結果通知は、令和7年12月22日（月曜日）15時00分頃にお申込み時にご登録いただいた携帯電話番号へSMS（ショートメッセージサービス）にて通知いたします。"
+    },
+    "secondApply": {
+      "url": "https://www.city.yonago.lg.jp/47542.htm",
+      "quote": "令和8年2月1日（日曜日）から2月16日（月曜日）までに、電子申請でのお申込みをお願いします。"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.yonago.lg.jp/47542.htm",
+      "quote": "※郵送の場合は令和8年2月16日(月曜日)必着です。"
+    },
+    "secondApply#3": {
+      "url": "https://www.city.yonago.lg.jp/47542.htm",
+      "quote": "※紙による申請の場合は令和8年2月16日(月曜日)の17時までの受付となります。"
+    },
+    "secondResult": {
+      "url": "https://www.city.yonago.lg.jp/47542.htm",
+      "quote": "利用調整結果通知は、令和8年2月27日（金曜日）にお申込み時にご登録いただいた携帯電話番号へSMS（ショートメッセージサービス）にて通知いたします。"
+    },
+    "documents.0": {
+      "url": "https://www.city.yonago.lg.jp/secure/59859/R8nyusyo.pdf",
+      "quote": "会社・団体等での勤務者⇒就労証明書"
+    },
+    "documents.0#2": {
+      "url": "https://www.city.yonago.lg.jp/secure/59859/R8nyusyo.pdf",
+      "quote": "※就労証明書の有効期限は、証明日から３か月となりますので、それまでに申込してください。"
+    },
+    "documents.1": {
+      "url": "https://www.city.yonago.lg.jp/secure/59859/R8nyusyo.pdf",
+      "quote": "自営業者及び自営業協力者等⇒就労証明書（本人が記載）と本人が業務を行っていることがわかる書類"
+    },
+    "documents.2": {
+      "url": "https://www.city.yonago.lg.jp/secure/59859/R8nyusyo.pdf",
+      "quote": "出産の準備、静養が必要な方 母子健康手帳のコピー（表紙と分娩予定日の確認できる部分）"
+    },
+    "documents.3": {
+      "url": "https://www.city.yonago.lg.jp/secure/59859/R8nyusyo.pdf",
+      "quote": "希望に応じ、紙での申請も受け付けています。（２）の必要書類に加えて、以下の書類も提出してください。"
+    },
+    "documents.3#2": {
+      "url": "https://www.city.yonago.lg.jp/secure/59859/R8nyusyo.pdf",
+      "quote": "③子どものための教育・保育給付認定申請書兼利用調整申込書（２号・３号用）"
+    },
+    "documents.3#3": {
+      "url": "https://www.city.yonago.lg.jp/secure/59859/R8nyusyo.pdf",
+      "quote": "④保育施設等入所に係る健康状態確認票（入所申込書の「11健康状況」に☑有りとされた方のみ）"
+    },
+    "interview": {
+      "url": "https://www.city.yonago.lg.jp/secure/59859/R8nyusyo.pdf",
+      "quote": "○内定された方には、保育施設等で面接、健康診断等を受けていただきます。"
+    },
+    "interview#2": {
+      "url": "https://www.city.yonago.lg.jp/secure/59859/R8nyusyo.pdf",
+      "quote": "○健康診断の結果、保育に支障がある場合は入所できないことがあります。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.yonago.lg.jp/secure/59859/R8nyusyo.pdf",
+      "quote": "Ａ.入所してから１か月以内に仕事の復帰をしていただくことを条件に申込みができます。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.yonago.lg.jp/secure/59859/R8nyusyo.pdf",
+      "quote": "育児休業終了前に入所を希望される場合は、職場復帰日の１か月前からならし保育として入所できます。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.yonago.lg.jp/47542.htm",
+      "quote": "育児休業給付金の延長手続きを行なわれる際に申し込み内容の写しの提出が必要です。"
+    },
+    "ikukyu#4": {
+      "url": "https://www.city.yonago.lg.jp/47542.htm",
+      "quote": "原則、保護者様自身で電子申請のページをデータ保存または印刷をしていただきます。"
+    },
+    "ikukyu#5": {
+      "url": "https://www.city.yonago.lg.jp/47542.htm",
+      "quote": "紙で申請される場合は、申請前にコピーをお取りください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.yonago.lg.jp/46948.htm",
+      "quote": "先着順ではありません。上記の期間内の申請であれば、入所の可否と申請の順番は全く関係ありません。"
+    },
+    "notes.1": {
+      "url": "https://www.city.yonago.lg.jp/secure/59859/R8nyusyo.pdf",
+      "quote": "Ａ.１次申込については申込みできます。ただし、認定証の交付と利用調整結果の通知は、住民登録を確認してからになります。"
+    },
+    "notes.1#2": {
+      "url": "https://www.city.yonago.lg.jp/secure/59859/R8nyusyo.pdf",
+      "quote": "出生届出時に申し出てください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.yonago.lg.jp/secure/59859/R8nyusyo.pdf",
+      "quote": "○１次申込で入所保留となった場合は、次回の利用調整時に希望施設等を変更できます。"
+    },
+    "notes.3": {
+      "url": "https://www.city.yonago.lg.jp/secure/59859/R8nyusyo.pdf",
+      "quote": "なお、米子市外の保育所に広域入所の希望をされる場合は、こども支援課にご相談ください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.yonago.lg.jp/46948.htm",
+      "quote": "申込みが完了しましたら、申込完了通知メールが届きますので、ご確認ください。"
+    },
+    "notes.4#2": {
+      "url": "https://www.city.yonago.lg.jp/46948.htm",
+      "quote": "万が一、メールが届かない場合は、迷惑メールフォルダやゴミ箱に自動的に振り分けられている可能性がありますので、一度ご確認いただきますようお願いします。"
+    }
+  },
+  "sources": [
+    {
+      "label": "米子市「令和8年度保育所・認定こども園・小規模・事業所内保育事業所の入所受付（1次申込）」",
+      "url": "https://www.city.yonago.lg.jp/46948.htm"
+    },
+    {
+      "label": "米子市「令和8年度保育所・認定こども園・小規模・事業所内保育事業所の入所受付（2次申込）」",
+      "url": "https://www.city.yonago.lg.jp/47542.htm"
+    },
+    {
+      "label": "米子市「令和8年度保育施設等入所案内」（PDF）",
+      "url": "https://www.city.yonago.lg.jp/secure/59859/R8nyusyo.pdf"
+    },
+    {
+      "label": "米子市「保育施設の入所申し込み」",
+      "url": "https://www.city.yonago.lg.jp/7332.htm"
+    }
+  ]
+}

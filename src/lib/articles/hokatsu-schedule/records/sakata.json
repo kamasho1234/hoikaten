@@ -1,0 +1,145 @@
+{
+  "citySlug": "sakata",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "酒田市「令和9年度　認可保育所・認定こども園の利用申し込みについて」",
+    "url": "https://www.city.sakata.lg.jp/kosodate/kosodate/hoikuen/ninkabosyuu.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年10月1日（木曜）〜令和8年10月30日（金曜）。受付時間は平日の午前8時30分〜午後5時15分。不足書類等の再提出は11月9日（月曜）まで",
+  "applyMethods": "保育こども園課（市役所1階15番窓口）か各総合支所市民福祉係に提出する。郵送とオンライン（ぴったりサービス）でも申し込める。1号認定で認定こども園を希望する場合は各施設に直接申し込む",
+  "firstResult": "受付期間内の申し込み分は、1月下旬に利用施設の決定通知を送る予定。第1希望への調整が難しい場合は事前に電話で連絡がある",
+  "secondResult": "受付期間後の申し込み分の利用施設の決定通知は2月下旬以降の予定",
+  "documents": [
+    "支給認定申請書兼入所申込書",
+    "保育を必要とする理由を証明する書類（就労証明書など）",
+    "出産予定の場合は確認書類として母子健康手帳",
+    "就労証明書には、産休・育児休暇中（または取得予定）の場合は取得期間を必ず記載する",
+    "法人化していない自営業・農業の場合は、就労証明書の確認書類として昨年の確定申告書の控えまたは個人住民税申告書の控え"
+  ],
+  "interview": "書類確認と合わせて聞き取りを行うことがあるので、できるだけ保護者が直接窓口に提出する",
+  "notes": [
+    "受付期間内の申し込みは先着順での決定ではない",
+    "受付期間後も申し込めるが、受付期間内に申し込んだ人を優先して調整する",
+    "出産予定や転入予定のある人も申し込める。市外へ転出予定の人は転出先の市町村に相談する",
+    "郵送で提出する場合は、日中連絡がとれる電話番号を必ず書く",
+    "第1希望しか書かないことは優先度に影響せず、希望した園に調整されないこともあるので、第3希望まで書くよう勧められている",
+    "申込書類はホームページからダウンロードできるほか、市役所15番窓口と各総合支所で配布している"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.sakata.lg.jp/kosodate/kosodate/hoikuen/ninkabosyuu.html",
+      "quote": "保護者の就労や病気などの理由により、保育を必要とする小学校就学前の子どもについて、認可保育所及び認定こども園（2号・3号認定）の利用申し込みを受け付けます。"
+    },
+    "fiscalYear#2": {
+      "url": "https://www.city.sakata.lg.jp/kosodate/kosodate/hoikuen/ninkabosyuu.html",
+      "quote": "令和8年10月1日（木曜）から令和8年10月30日（金曜）"
+    },
+    "firstApply": {
+      "url": "https://www.city.sakata.lg.jp/kosodate/kosodate/hoikuen/ninkabosyuu.html",
+      "quote": "令和8年10月1日（木曜）から令和8年10月30日（金曜）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.sakata.lg.jp/kosodate/kosodate/hoikuen/ninkabosyuu.html",
+      "quote": "※受付時間【月曜～金曜（祝日は除く）】午前8時30分～午後5時15分"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.sakata.lg.jp/kosodate/kosodate/hoikuen/ninkabosyuu.html",
+      "quote": "※不足書類等の再提出締切は、11月9日（月曜）まで"
+    },
+    "applyMethods": {
+      "url": "https://www.city.sakata.lg.jp/kosodate/kosodate/hoikuen/ninkabosyuu.html",
+      "quote": "保育こども園課（市役所1階15番窓口）、各総合支所市民福祉係へ"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.sakata.lg.jp/kosodate/kosodate/hoikuen/ninkabosyuu.html",
+      "quote": "※郵送での申し込みも受け付けています。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.sakata.lg.jp/kosodate/kosodate/hoikuen/ninkabosyuu.html",
+      "quote": "オンラインでの申請は「ぴったりサービス」をご利用ください。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.sakata.lg.jp/kosodate/kosodate/hoikuen/ninkabosyuu.html",
+      "quote": "※認定こども園（1号認定）を希望される方は直接各施設へ申し込んでください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.sakata.lg.jp/kosodate/kosodate/hoikuen/ninkabosyuu.html",
+      "quote": "受付期間内の申し込み分の利用施設の決定通知は、来年1月下旬を予定しています。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.sakata.lg.jp/kosodate/kosodate/hoikuen/nyuhsho2025.html",
+      "quote": "第1希望への調整が難しい場合は事前に電話にて連絡しますので、日中に対応できる電話番号を必ず記載してください。"
+    },
+    "secondResult": {
+      "url": "https://www.city.sakata.lg.jp/kosodate/kosodate/hoikuen/ninkabosyuu.html",
+      "quote": "受付期間後の申し込み分の利用施設の決定通知は、来年2月下旬以降を予定しています。"
+    },
+    "documents.0": {
+      "url": "https://www.city.sakata.lg.jp/kosodate/kosodate/hoikuen/ninkabosyuu.html",
+      "quote": "支給認定申請書兼入所申込書"
+    },
+    "documents.1": {
+      "url": "https://www.city.sakata.lg.jp/kosodate/kosodate/hoikuen/ninkabosyuu.html",
+      "quote": "保育を必要とする理由を証明する書類（就労証明書など）"
+    },
+    "documents.2": {
+      "url": "https://www.city.sakata.lg.jp/kosodate/kosodate/hoikuen/ninkabosyuu.html",
+      "quote": "出産予定の方は確認書類として母子健康手帳をご持参ください。"
+    },
+    "documents.3": {
+      "url": "https://www.city.sakata.lg.jp/kosodate/kosodate/hoikuen/hoikujyo-riyou.html",
+      "quote": "産休・育児休暇中（または取得予定）の場合は、必ず取得期間を記載してください。"
+    },
+    "documents.4": {
+      "url": "https://www.city.sakata.lg.jp/kosodate/kosodate/hoikuen/hoikujyo-riyou.html",
+      "quote": "自営業や農業で法人化していない方については、就労証明書の確認書類として昨年の確定申告書の控えまたは個人住民税申告書の控えが必要となります。"
+    },
+    "interview": {
+      "url": "https://www.city.sakata.lg.jp/kosodate/kosodate/hoikuen/nyuhsho2025.html",
+      "quote": "書類確認と合わせて聞き取りを行うことがありますので、可能な限り保護者が直接窓口へお越しくださるようお願いします。"
+    },
+    "notes.0": {
+      "url": "https://www.city.sakata.lg.jp/kosodate/kosodate/hoikuen/ninkabosyuu.html",
+      "quote": "※受付期間内の申し込みについては、先着順での決定ではありません。"
+    },
+    "notes.1": {
+      "url": "https://www.city.sakata.lg.jp/kosodate/kosodate/hoikuen/ninkabosyuu.html",
+      "quote": "※受付期間後も申し込みはできますが、受付期間内に申し込みをした方を優先して調整します。"
+    },
+    "notes.2": {
+      "url": "https://www.city.sakata.lg.jp/kosodate/kosodate/hoikuen/ninkabosyuu.html",
+      "quote": "※出産予定や転入予定のある方も申し込みができます。市外へ転出の予定がある方は、転出先の市町村にご相談ください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.sakata.lg.jp/kosodate/kosodate/hoikuen/ninkabosyuu.html",
+      "quote": "※郵送にて提出される場合は、日中連絡がとれる電話番号を必ず記載してください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.sakata.lg.jp/kosodate/kosodate/hoikuen/nyuhsho2025.html",
+      "quote": "第1希望しか書かないことは優先度に全く影響しないため、希望した園への調整がされないことも考えられます。"
+    },
+    "notes.4#2": {
+      "url": "https://www.city.sakata.lg.jp/kosodate/kosodate/hoikuen/nyuhsho2025.html",
+      "quote": "申し込みまでによく相談し、第3希望まで記入し提出しましょう。"
+    },
+    "notes.5": {
+      "url": "https://www.city.sakata.lg.jp/kosodate/kosodate/hoikuen/nyuhsho2025.html",
+      "quote": "書類はリンク先からもダウンロードできるほか、市役所15番窓口、各総合支所で配布しています。"
+    }
+  },
+  "sources": [
+    {
+      "label": "酒田市「令和9年度　認可保育所・認定こども園の利用申し込みについて」",
+      "url": "https://www.city.sakata.lg.jp/kosodate/kosodate/hoikuen/ninkabosyuu.html"
+    },
+    {
+      "label": "酒田市「来年度入所（入園）申し込みに関するよくある質問」",
+      "url": "https://www.city.sakata.lg.jp/kosodate/kosodate/hoikuen/nyuhsho2025.html"
+    },
+    {
+      "label": "酒田市「利用申し込みに関する様式」",
+      "url": "https://www.city.sakata.lg.jp/kosodate/kosodate/hoikuen/hoikujyo-riyou.html"
+    }
+  ]
+}

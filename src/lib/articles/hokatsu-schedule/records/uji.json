@@ -1,0 +1,195 @@
+{
+  "citySlug": "uji",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "宇治市「保育所等入所のご案内」",
+    "url": "https://www.city.uji.kyoto.jp/site/kosodate/7497.html"
+  },
+  "fiscalYear": "R8",
+  "firstApply": "一斉入所申込みは、保育支援課（宇治市役所）へ提出する場合は令和7年12月1日（月）〜12日（金）（日曜日を除く）。保育所等へ提出する場合は令和7年12月1日（月）〜4日（木）。郵送（宇治市外に住む人のみ）は令和7年12月1日（月）〜12日（金）の消印分まで有効。令和7年12月1日〜令和8年2月2日に生まれた子どもは令和8年2月6日（金）までに市役所2階保育支援課の窓口へ提出",
+  "applyMethods": "一斉入所申込みの提出場所は宇治市役所1階101会議室。保育所等でも書類を預かるが正式な受付けではなく、書類が保育支援課に届いて不備がなければ「受付整理票」が送られ、それで正式な受付けとなる。郵送は宇治市外に住む人のみで、事前に保育支援課へ電話連絡が必要（市内に住む人の郵送は受け付けない）。マイナンバーカードを使った電子申請（ぴったりサービス）でも申し込める",
+  "firstResult": "入所選考結果は2月中旬以降に文書で通知",
+  "secondApply": "4月入所（2次）の申込締切は令和8年3月10日（火）",
+  "midYearDeadline": "年度途中の入所は、入所希望月の2か月前の1日から入所希望月の前月10日まで（10日が市役所閉庁日の場合は前開庁日が締切）",
+  "documents": [
+    "令和8年度 保育所等入所申込書",
+    "保育所等入所申込補助票・児童健康状況票（表裏）",
+    "子どものための教育・保育給付認定申請書（マイナンバーカード、またはマイナンバーの確認できるものと本人確認書類を提示）",
+    "個人情報の取扱いに関する同意書",
+    "保育の必要性の事由を証明する要件書類（就労証明書など。申込日より3か月以内に発行されたもので、宇治市指定の様式）",
+    "育児休業中で、復職予定日が入所希望月の翌月以降の人は、「入所内定時育休短縮可否」欄の「可」にチェックがある就労証明書"
+  ],
+  "interview": "入所決定後に各保育所等で面談を受ける必要がある。保育所等の見学は行事がある場合などを除き随時受け付けており、事前に各保育所等へ電話で確認する",
+  "ikukyu": "育児休業中の人には保育所等の入所資格が無く、入所が決まった場合は入所月中に育児休業を切り上げて復職する必要がある。育児休業給付金の延長手続きに保育所等入所申込書類一式の写しが必要なので、市に提出する前に自分で写しを取って保管する",
+  "notes": [
+    "一斉入所の申込期間中は、各保育所等・年齢ごとの受入枠と第1希望の申込状況を公表しており、保育支援課へ電話で問い合わせる",
+    "第3希望までで入所が決まらない場合は入所保留（待機）となり、希望した保育所等以外の選考は行わない",
+    "締切日までに要件書類等を出さないと、入所選考基準に当てはまる点数があっても採用されない",
+    "入所月より前の慣らし保育は実施していない",
+    "年度内（3月まで）に入所できず次年度4月からも選考を希望する場合は、改めて一斉入所の申込みが必要"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.uji.kyoto.jp/uploaded/attachment/49035.pdf",
+      "quote": "4月入所（２次） 令和8年３月10日（火）"
+    },
+    "fiscalYear#2": {
+      "url": "https://www.city.uji.kyoto.jp/site/kosodate/7497.html",
+      "quote": "こちらは、令和7年度および令和8年度の保育所等入所申込みに関するご案内です。"
+    },
+    "firstApply": {
+      "url": "https://www.city.uji.kyoto.jp/uploaded/attachment/49035.pdf",
+      "quote": "提出期間：令和7年12月1日（月）～12日（金）（日曜日は除きます）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.uji.kyoto.jp/uploaded/attachment/49035.pdf",
+      "quote": "提出期間：令和7年12月1日（月）～4日（木）"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.uji.kyoto.jp/uploaded/attachment/49035.pdf",
+      "quote": "提出期間：令和7年12月1日（月）～12日（金）の消印分まで有効"
+    },
+    "firstApply#4": {
+      "url": "https://www.city.uji.kyoto.jp/uploaded/attachment/49035.pdf",
+      "quote": "※ ただし、令和7年12月1日～令和8年2月2日までに生まれた子どもの申込みについては、令和8年2月6日（金）までに、市役所2階保育支援課の窓口へご提出ください。"
+    },
+    "firstApply#5": {
+      "url": "https://www.city.uji.kyoto.jp/uploaded/attachment/49035.pdf",
+      "quote": "郵送で保育支援課へ提出する場合（宇治市外に居住されている方のみ）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.uji.kyoto.jp/uploaded/attachment/49035.pdf",
+      "quote": "◆ 提出場所：宇治市役所1階101会議室"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.uji.kyoto.jp/uploaded/attachment/49035.pdf",
+      "quote": "注意：保育所等では書類をお預かりするだけで、正式な受付けではありません。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.uji.kyoto.jp/uploaded/attachment/49035.pdf",
+      "quote": "申込みに必要な書類が保育支援課に届き、不備・不足がない場合、「受付整理票」を送付します。この「受付整理票」をもって正式な受付けとします。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.uji.kyoto.jp/uploaded/attachment/49035.pdf",
+      "quote": "注意：郵送での提出を希望される方は、必ず事前に保育支援課へ電話で連絡してください。"
+    },
+    "applyMethods#5": {
+      "url": "https://www.city.uji.kyoto.jp/uploaded/attachment/49035.pdf",
+      "quote": "市内に居住されている方は、郵送で提出されても受付けできません。"
+    },
+    "applyMethods#6": {
+      "url": "https://www.city.uji.kyoto.jp/uploaded/attachment/49035.pdf",
+      "quote": "※ マイナンバーカードを利用した電子申請（ぴったりサービス）でも入所申込を受付けています。"
+    },
+    "firstResult": {
+      "url": "https://www.city.uji.kyoto.jp/uploaded/attachment/49035.pdf",
+      "quote": "入所選考結果は、２月中旬以降に文書で通知します。"
+    },
+    "secondApply": {
+      "url": "https://www.city.uji.kyoto.jp/uploaded/attachment/49035.pdf",
+      "quote": "4月入所（２次） 令和8年３月10日（火）"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.uji.kyoto.jp/uploaded/attachment/49035.pdf",
+      "quote": "提出期間：入所希望月の2か月前の1日～入所希望月の前月の10日（※）"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.uji.kyoto.jp/uploaded/attachment/49035.pdf",
+      "quote": "※ 10日が市役所閉庁日（土曜日・日曜日・祝日）の場合は、前開庁日が申込締切日となります。"
+    },
+    "documents.0": {
+      "url": "https://www.city.uji.kyoto.jp/uploaded/attachment/49035.pdf",
+      "quote": "①令和8年度 保育所等入所申込書"
+    },
+    "documents.1": {
+      "url": "https://www.city.uji.kyoto.jp/uploaded/attachment/49035.pdf",
+      "quote": "②保育所等入所申込補助票・児童健康状況票（表裏）"
+    },
+    "documents.2": {
+      "url": "https://www.city.uji.kyoto.jp/uploaded/attachment/49035.pdf",
+      "quote": "マイナンバーカード、またはマイナンバーの確認できるものと本人確認書類をご提示ください"
+    },
+    "documents.2#2": {
+      "url": "https://www.city.uji.kyoto.jp/uploaded/attachment/49035.pdf",
+      "quote": "③子どものための教育・保育給付認定申請書"
+    },
+    "documents.3": {
+      "url": "https://www.city.uji.kyoto.jp/uploaded/attachment/49035.pdf",
+      "quote": "④個人情報の取扱いに関する同意書"
+    },
+    "documents.4": {
+      "url": "https://www.city.uji.kyoto.jp/uploaded/attachment/49035.pdf",
+      "quote": "※ 各種要件書類は、申込日より3か月以内に発行されたものに限ります。"
+    },
+    "documents.4#2": {
+      "url": "https://www.city.uji.kyoto.jp/uploaded/attachment/49035.pdf",
+      "quote": "※ 各種要件書類については、宇治市指定の様式でご提出ください。"
+    },
+    "documents.5": {
+      "url": "https://www.city.uji.kyoto.jp/uploaded/attachment/49035.pdf",
+      "quote": "育児休業からの復職予定日が、入所希望月の翌月以降の方については、入所申込みの際に、「入所内定時育休短縮可否」欄の「可」に☑がされた就労証明書を提出していただく必要があります。"
+    },
+    "interview": {
+      "url": "https://www.city.uji.kyoto.jp/uploaded/attachment/49035.pdf",
+      "quote": "※ 入所決定後は、各保育所等にて面談を受けていただく必要があります。"
+    },
+    "interview#2": {
+      "url": "https://www.city.uji.kyoto.jp/uploaded/attachment/49035.pdf",
+      "quote": "保育所等では、行事がある場合などを除き、随時見学を受け付けています。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.uji.kyoto.jp/uploaded/attachment/49035.pdf",
+      "quote": "育児休業中の方は保育所等の入所資格はありません。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.uji.kyoto.jp/uploaded/attachment/49035.pdf",
+      "quote": "保育所等の入所が決まった場合、入所月中に育児休業を切り上げて復職する必要があります。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.uji.kyoto.jp/site/kosodate/7497.html",
+      "quote": "支給期間延長手続きの際に保育所等入所申込書類一式の写しの提出が必要となります。"
+    },
+    "ikukyu#4": {
+      "url": "https://www.city.uji.kyoto.jp/site/kosodate/7497.html",
+      "quote": "該当される方は、市に申込書類を提出される前に必ずご自身で申込書類の写しを取って保管していただきますようにお願いします。"
+    },
+    "notes.0": {
+      "url": "https://www.city.uji.kyoto.jp/uploaded/attachment/49035.pdf",
+      "quote": "一斉入所の申込期間中は、各保育所等・年齢ごとの受入枠及び第 1 希望の申込状況を公表しています。お手数ですが、保育支援課へお電話にてお問い合わせください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.uji.kyoto.jp/uploaded/attachment/49035.pdf",
+      "quote": "第３希望までで入所が決定できない場合は、入所保留（待機）となります。"
+    },
+    "notes.1#2": {
+      "url": "https://www.city.uji.kyoto.jp/uploaded/attachment/49035.pdf",
+      "quote": "※ 希望した保育所等以外の選考は行いません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.uji.kyoto.jp/uploaded/attachment/49035.pdf",
+      "quote": "※締切日までに要件書類等の提出がない場合は、たとえ「宇治市保育所等入所選考基準」に当てはまる点数があったとしても点数の採用はできませんので、ご留意ください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.uji.kyoto.jp/uploaded/attachment/49035.pdf",
+      "quote": "なお、入所月より前の慣らし保育は実施しておりません。"
+    },
+    "notes.4": {
+      "url": "https://www.city.uji.kyoto.jp/uploaded/attachment/49035.pdf",
+      "quote": "なお、年度内（３月まで）に入所できなかった場合で、次年度（４月から）も入所選考を希望する場合は、改めて次年度の入所申込みの手続き（一斉入所の申込み）が必要です。"
+    }
+  },
+  "sources": [
+    {
+      "label": "宇治市「保育所等入所のご案内」",
+      "url": "https://www.city.uji.kyoto.jp/site/kosodate/7497.html"
+    },
+    {
+      "label": "宇治市「令和8年度 保育所等入所申込みのしおり」（PDF）",
+      "url": "https://www.city.uji.kyoto.jp/uploaded/attachment/49035.pdf"
+    },
+    {
+      "label": "宇治市「電子申請（ぴったりサービス）による保育所等入所申込について」",
+      "url": "https://www.city.uji.kyoto.jp/site/kosodate/82841.html"
+    }
+  ]
+}

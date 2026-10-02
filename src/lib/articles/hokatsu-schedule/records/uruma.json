@@ -1,0 +1,173 @@
+{
+  "citySlug": "uruma",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "うるま市「令和9年度保育施設等入所案内」",
+    "url": "https://www.city.uruma.lg.jp/1005003000/contents/p000029.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "1次選考は電子申請が令和8年9月24日（木）〜令和8年10月16日（金）（24時間受付）、窓口が令和8年10月2日（金）〜令和8年10月16日（金）（土日祝日除く）。10月9日（金）・10月16日（金）は午後6時〜8時の夜間受付もある。新生児（令和8年10月1日〜11月30日生まれ）は令和8年11月30日まで受付",
+  "applyMethods": "電子申請（スマートフォン・パソコンから24時間）か窓口で申し込む。窓口の会場はうるま市役所本庁舎東棟3階大講堂。個別支援保育・医療的ケアの希望者、企業主導型・事業所内保育所（従業員枠）・市外施設の希望者、メールアドレスのない人は窓口手続きのみ",
+  "firstResult": "2月上旬（予定）に選考結果を発送",
+  "secondApply": "2次選考は窓口・電子申請で令和9年1月4日〜令和9年2月10日。受付場所は保育こども園課（東棟2階8番窓口）",
+  "secondResult": "3月上旬（予定）に選考結果を発送",
+  "midYearDeadline": "年度途中（5月〜翌年3月）の入所は希望月ごとに締切がある（例: 5月入所はR9.4.12まで）。入所決定した人にのみ毎月20日前後に電話で知らせる",
+  "documents": [
+    "令和9年度利用申込書兼教育・保育給付認定申請書",
+    "「保育を必要とする事由」を証明する書類（就労証明書等）。各証明書は申込日から起算して3か月以内に作成されたものが有効",
+    "転入予定や世帯状況（離婚調停中など）に応じた必要書類"
+  ],
+  "interview": "入所決定後、各園で面談・オリエンテーションを行い、入所前面談のときに健康診断書を入所が決まった保育施設へ提出する",
+  "ikukyu": "育児休業給付金の延長には市が発行する「施設利用保留通知書」が必要。発行条件は、子どもが1歳（または1歳6か月）に達する月の申込期限までに申し込んでいること、入所希望日が1歳（または1歳6か月）到達日より前であること、入所選考の対象となり保育施設の利用が実施されていないこと。保留通知書は初回選考時のみ郵送",
+  "notes": [
+    "窓口は混雑を避けるため第1希望施設ごとに受付指定日がある（指定日以外でも期限内なら申込可能）",
+    "令和8年10月19日〜令和8年12月28日は受付を停止する",
+    "令和9年4月入所の対象は令和9年1月1日までに出生した児童",
+    "転入予定の人は、R9年3月15日までにうるま市へ転入手続ができる場合のみ市民と同様に選考される",
+    "公表している希望施設に空きがあっても、選考後の転出や保育士確保などの事情で落選する場合がある"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.uruma.lg.jp/1005003000/contents/p000029.html",
+      "quote": "令和9年度の保育所（園）・認定こども園の入所申し込みについてご案内します。"
+    },
+    "firstApply": {
+      "url": "https://www.city.uruma.lg.jp/documents/10262/3_4.pdf",
+      "quote": "【受付期間】 令和8年10月2日（金）～ 令和8年10月16日（金）※土日祝日は除く"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.uruma.lg.jp/documents/10262/3_4.pdf",
+      "quote": "【電子申請受付期間】 令和8年9月24日（木）～ 令和8年10月16日（金）※24時間受付可能"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.uruma.lg.jp/documents/10262/3_4.pdf",
+      "quote": "♦10月9日（金）・10月16日（金）は、午後６時から午後８時まで夜間受付もあります。"
+    },
+    "firstApply#4": {
+      "url": "https://www.city.uruma.lg.jp/documents/10262/3_4.pdf",
+      "quote": "新生児(令和8年10月1日から令和8年11月30日までの間に生まれた子)は、令和8年11月30日まで受付可能"
+    },
+    "applyMethods": {
+      "url": "https://www.city.uruma.lg.jp/1005003000/contents/p000029.html",
+      "quote": "24時間いつでもスマートフォンやパソコンから申込みが可能ですので、ぜひご活用ください！"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.uruma.lg.jp/documents/10262/3_4.pdf",
+      "quote": "【受付場所】 うるま市役所本庁舎東棟３階 大講堂"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.uruma.lg.jp/1005003000/contents/p000029.html",
+      "quote": "※注意※　下記に該当する方は窓口手続きのみとなります。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.uruma.lg.jp/1005003000/contents/p000029.html",
+      "quote": "・企業主導型保育事業所,事業所内保育所（従業員枠）,うるま市外の保育施設を入所希望の方"
+    },
+    "firstResult": {
+      "url": "https://www.city.uruma.lg.jp/documents/10262/3_4.pdf",
+      "quote": "電子申請受付開始日 新生児(R8.10.1～ ２月上旬予定"
+    },
+    "secondApply": {
+      "url": "https://www.city.uruma.lg.jp/documents/10262/3_4.pdf",
+      "quote": "４月 R9.1.4～R9.2.10 ３月上旬予定"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.uruma.lg.jp/1005003000/contents/p000029.html",
+      "quote": "令和9年4月 【2次選考】 【窓口・電子申請】 令和9年1月4日 令和9年2月10日"
+    },
+    "secondApply#3": {
+      "url": "https://www.city.uruma.lg.jp/1005003000/contents/p000029.html",
+      "quote": "東棟2階　8番窓口"
+    },
+    "secondResult": {
+      "url": "https://www.city.uruma.lg.jp/documents/10262/3_4.pdf",
+      "quote": "４月 R9.1.4～R9.2.10 ３月上旬予定"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.uruma.lg.jp/1005003000/contents/p000029.html",
+      "quote": "年度途中の入所（5月～翌年3月）は、入所決定した方にのみ毎月20日前後にお電話でお知らせします。"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.uruma.lg.jp/documents/10262/3_4.pdf",
+      "quote": "５月 R9.4.12まで ４月末予定"
+    },
+    "documents.0": {
+      "url": "https://www.city.uruma.lg.jp/1005003000/contents/p000029.html",
+      "quote": "1.令和9年度利用申込書兼教育・保育給付認定申請書"
+    },
+    "documents.1": {
+      "url": "https://www.city.uruma.lg.jp/1005003000/contents/p000029.html",
+      "quote": "2.「保育を必要とする事由」を証明する書類（就労証明書等）"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.uruma.lg.jp/documents/10262/5_6_.pdf",
+      "quote": "・各証明書は申込日から起算して3か月以内に作成されたものを有効とします。"
+    },
+    "documents.2": {
+      "url": "https://www.city.uruma.lg.jp/1005003000/contents/p000029.html",
+      "quote": "3.転入予定や世帯状況（離婚調停中など）に応じた必要書類"
+    },
+    "interview": {
+      "url": "https://www.city.uruma.lg.jp/documents/10262/2.pdf",
+      "quote": "各園にて、「面談」や「オリエンテーション」を行います。 健康診断書の結果を持参してください。"
+    },
+    "interview#2": {
+      "url": "https://www.city.uruma.lg.jp/1005003000/contents/p000029.html",
+      "quote": "入所前面談時、入所が決まった保育施設等へご提出ください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.uruma.lg.jp/1005003000/contents/p000029.html",
+      "quote": "1.お子さんが1歳（または1歳6か月）に達する月の申込期限までに入所申込みをしていること。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.uruma.lg.jp/1005003000/contents/p000029.html",
+      "quote": "2.入所希望日が、お子さんの1歳（または1歳6か月）到達日より前であること。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.uruma.lg.jp/1005003000/contents/p000029.html",
+      "quote": "3.入所選考の対象となり、保育施設の利用が実施されていないこと。"
+    },
+    "ikukyu#4": {
+      "url": "https://www.city.uruma.lg.jp/1005003000/contents/p000029.html",
+      "quote": "令和9年度中は毎月入所選考の対象になりますが、施設利用保留通知書は初回選考時のみ郵送します。"
+    },
+    "notes.0": {
+      "url": "https://www.city.uruma.lg.jp/documents/10262/3_4.pdf",
+      "quote": "*混雑を避ける為に受付日を指定していますが、指定日以外に申し込みすることも可能です。"
+    },
+    "notes.1": {
+      "url": "https://www.city.uruma.lg.jp/documents/10262/3_4.pdf",
+      "quote": "令和8年10月19日(月)～令和8年12月28日(月)は受付を停止します。"
+    },
+    "notes.2": {
+      "url": "https://www.city.uruma.lg.jp/documents/10262/3_4.pdf",
+      "quote": "令和9年4月入所(園)は、「令和9年1月1日までに出生のあった児童」が対象となります。"
+    },
+    "notes.3": {
+      "url": "https://www.city.uruma.lg.jp/documents/10262/5_6_.pdf",
+      "quote": "・《R9年4月入所(園)》 R9年3月15日までにうるま市へ転入手続が可能な方のみ、うるま市民と同様に選考いたします。"
+    },
+    "notes.4": {
+      "url": "https://www.city.uruma.lg.jp/1005003000/contents/p000029.html",
+      "quote": "⇒理由として、入所選考後の転出や2号から1号への移行、保育士確保によって空き状況が発生するためです。"
+    }
+  },
+  "sources": [
+    {
+      "label": "うるま市「令和9年度保育施設等入所案内」",
+      "url": "https://www.city.uruma.lg.jp/1005003000/contents/p000029.html"
+    },
+    {
+      "label": "うるま市「令和9年度入所案内パンフレット (P3,P4)令和9年度入所申込み」",
+      "url": "https://www.city.uruma.lg.jp/documents/10262/3_4.pdf"
+    },
+    {
+      "label": "うるま市「令和9年度入所案内パンフレット (P5,P6)申込みに必要な書類」",
+      "url": "https://www.city.uruma.lg.jp/documents/10262/5_6_.pdf"
+    },
+    {
+      "label": "うるま市「令和9年度入所案内パンフレット (P2)利用申込みの流れ」",
+      "url": "https://www.city.uruma.lg.jp/documents/10262/2.pdf"
+    }
+  ]
+}

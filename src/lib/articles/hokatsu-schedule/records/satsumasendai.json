@@ -1,0 +1,148 @@
+{
+  "citySlug": "satsumasendai",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "薩摩川内市「令和8年度保育施設の利用申し込みのご案内」",
+    "url": "https://www.city.satsumasendai.lg.jp/kosodate_kyoiku/kosodate/4/18166.html"
+  },
+  "fiscalYear": "R8",
+  "firstApply": "令和7年11月4日（火曜日）〜11月28日（金曜日）の平日。受付時間は8時30分〜17時15分（12時〜13時を除く）",
+  "applyMethods": "申請書に必要書類を添えて、市役所本庁の子育て支援課、甑島振興局、各支所地域振興課に提出する。直接提出できない場合は郵送でも提出でき、期限内必着",
+  "firstResult": "4月1日利用の教育・保育給付認定と利用調整の結果は、1月下旬頃から順次通知する予定",
+  "midYearDeadline": "5月以降の利用は、原則として利用を開始する月の「前々月の1日から前月の5日」が申込受付期間",
+  "documents": [
+    "子どものための教育・保育給付認定申請書 兼 児童台帳（利用希望の子どもが複数なら子どもごとに必要）",
+    "保育施設利用等に関する確認事項同意書兼誓約書（保護者の父母それぞれが自筆で記入）",
+    "保育を必要とする事由を確認するための資料（就労の場合は就労証明書。復職の場合は復職予定日の記載があるもの）",
+    "該当する場合のみ必要となる資料（障害者手帳の写し、離職票など）"
+  ],
+  "interview": "利用が決まったら施設で入所に関する説明を受ける。子どもの面接などもあるので、必ず子どもと一緒に行く",
+  "notes": [
+    "4月1日利用開始の調整は11月中の申込みから行う。12月1日以降も随時受け付けるが、2次選考以降になる",
+    "利用調整は申込み順ではなく、申込み期限までの申込みを優先度の高い順に調整する",
+    "希望は第5希望まで書ける。利用調整は第1希望から第5希望まで一括で行うので、利用を希望しない施設は書かない",
+    "育児休業中の新規入所はできない",
+    "利用調整で決まらなかった場合は入所保留通知書が郵送される。申請の変更や取り下げをしない限り、年度内は引き続き利用調整の対象になり、改めて申請する必要はない",
+    "期間内に書類が揃わないと教育・保育給付認定ができず、利用調整できない"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.satsumasendai.lg.jp/kosodate_kyoiku/kosodate/4/18166.html",
+      "quote": "このページでは、令和8年4月から令和9年3月までの保育施設等の利用申し込みについてご案内します。"
+    },
+    "firstApply": {
+      "url": "https://www.city.satsumasendai.lg.jp/kosodate_kyoiku/kosodate/4/18166.html",
+      "quote": "【期間】 令和7年11月4日（火曜日）から11月28日（金曜日）の平日"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.satsumasendai.lg.jp/kosodate_kyoiku/kosodate/4/18166.html",
+      "quote": "【時間】 8時30分から17時15分（ただし、12時から13時を除く）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.satsumasendai.lg.jp/material/files/group/20/R8_hoikusiori.pdf",
+      "quote": "市への直接提出が出来ない場合は、郵便による提出も可能です（期限内必着）。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.satsumasendai.lg.jp/material/files/group/20/R8_hoikusiori.pdf",
+      "quote": "市役所本庁子育て支援課（郵送可）"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.satsumasendai.lg.jp/material/files/group/20/R8_hoikusiori.pdf",
+      "quote": "甑島振興局、各支所地域振興課"
+    },
+    "firstResult": {
+      "url": "https://www.city.satsumasendai.lg.jp/material/files/group/20/R8_hoikusiori.pdf",
+      "quote": "４月１日利用の教育・保育給付認定と利用調整の結果は、１月下旬頃から順次通知する予定です。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.satsumasendai.lg.jp/kosodate_kyoiku/kosodate/4/18166.html",
+      "quote": "申込受付期間は、原則として、利用を開始する月の「前々月の1日から前月の5日」です。"
+    },
+    "documents.0": {
+      "url": "https://www.city.satsumasendai.lg.jp/material/files/group/20/R8_hoikusiori.pdf",
+      "quote": "利用希望児童が複数の場合、児童ごとに申請書が必要です。"
+    },
+    "documents.0#2": {
+      "url": "https://www.city.satsumasendai.lg.jp/material/files/group/20/R8_hoikusiori.pdf",
+      "quote": "子どものための教育・保育給付認定申請書 兼 児童台帳 P46～49"
+    },
+    "documents.1": {
+      "url": "https://www.city.satsumasendai.lg.jp/material/files/group/20/R8_hoikusiori.pdf",
+      "quote": "内容をよくご確認のうえ、保護者（父母）それぞれ自筆で記入してください。"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.satsumasendai.lg.jp/material/files/group/20/R8_hoikusiori.pdf",
+      "quote": "保育施設利用等に関する確認事項同意書兼誓約書 P50～51"
+    },
+    "documents.2": {
+      "url": "https://www.city.satsumasendai.lg.jp/material/files/group/20/R8_hoikusiori.pdf",
+      "quote": "保育を必要とする事由を確認するための資料"
+    },
+    "documents.2#2": {
+      "url": "https://www.city.satsumasendai.lg.jp/material/files/group/20/R8_hoikusiori.pdf",
+      "quote": "（復職の場合、復職予定日記載のもの）"
+    },
+    "documents.3": {
+      "url": "https://www.city.satsumasendai.lg.jp/material/files/group/20/R8_hoikusiori.pdf",
+      "quote": "該当する場合のみ必要となる資料"
+    },
+    "documents.3#2": {
+      "url": "https://www.city.satsumasendai.lg.jp/material/files/group/20/R8_hoikusiori.pdf",
+      "quote": "身体障害者手帳、療育手帳、特別児童扶養手当証書などの写し"
+    },
+    "documents.3#3": {
+      "url": "https://www.city.satsumasendai.lg.jp/material/files/group/20/R8_hoikusiori.pdf",
+      "quote": "解雇通知・離職票等"
+    },
+    "interview": {
+      "url": "https://www.city.satsumasendai.lg.jp/material/files/group/20/R8_hoikusiori.pdf",
+      "quote": "施設の利用が決定しましたら、施設で入所に関する説明を受けてください。お子さんの面接などもありますので、必ずお子さんとご同行ください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.satsumasendai.lg.jp/material/files/group/20/R8_hoikusiori.pdf",
+      "quote": "※ただし、４月１日利用開始の調整は、上記期間内（１１月中）にお申し込みのあったものから行います。１２月以降申請受付分は、２次選考以降になります。"
+    },
+    "notes.0#2": {
+      "url": "https://www.city.satsumasendai.lg.jp/kosodate_kyoiku/kosodate/4/18166.html",
+      "quote": "12月1日以降も随時受付しますが、2次選考以降となります。"
+    },
+    "notes.1": {
+      "url": "https://www.city.satsumasendai.lg.jp/kosodate_kyoiku/kosodate/4/18166.html",
+      "quote": "保育施設等の利用調整は、申込み順ではありません。 申込み期限までの申込みを優先度の高い順に調整していきます。"
+    },
+    "notes.2": {
+      "url": "https://www.city.satsumasendai.lg.jp/kosodate_kyoiku/kosodate/4/18166.html",
+      "quote": "また、利用調整は第1希望から第5希望まで一括しておこないますので、利用を希望しない保育施設等は記入しないでください。"
+    },
+    "notes.2#2": {
+      "url": "https://www.city.satsumasendai.lg.jp/material/files/group/20/R8_hoikusiori.pdf",
+      "quote": "複数の施設を希望される場合は第５希望までの施設を申請書へご記入ください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.satsumasendai.lg.jp/material/files/group/20/R8_hoikusiori.pdf",
+      "quote": "※育児休業中の新規入所はできません。"
+    },
+    "notes.4": {
+      "url": "https://www.city.satsumasendai.lg.jp/material/files/group/20/R8_hoikusiori.pdf",
+      "quote": "利用調整の結果、決定できなかった（待機となる）お子さんについては、入所保留通知書を郵送します。"
+    },
+    "notes.4#2": {
+      "url": "https://www.city.satsumasendai.lg.jp/material/files/group/20/R8_hoikusiori.pdf",
+      "quote": "入所保留となった場合は、申請の変更や取り下げなどをされない限り、引き続き年度内の利用希望の意思があるものとして再度利用調整の対象としますので、改めて申請する必要はありません。"
+    },
+    "notes.5": {
+      "url": "https://www.city.satsumasendai.lg.jp/kosodate_kyoiku/kosodate/4/18166.html",
+      "quote": "上記の期間内に書類が揃わない場合、教育・保育給付認定ができず、利用調整することはできません。"
+    }
+  },
+  "sources": [
+    {
+      "label": "薩摩川内市「令和8年度保育施設の利用申し込みのご案内」",
+      "url": "https://www.city.satsumasendai.lg.jp/kosodate_kyoiku/kosodate/4/18166.html"
+    },
+    {
+      "label": "薩摩川内市「令和8年度保育施設利用のしおり」",
+      "url": "https://www.city.satsumasendai.lg.jp/material/files/group/20/R8_hoikusiori.pdf"
+    }
+  ]
+}

@@ -2,7 +2,6 @@ import type { Article } from "./types";
 import { registerArticles } from "./index";
 
 const articles: Article[] = [
-  { slug: "hokatsu-schedule", citySlug: "tsuruoka", title: "鶴岡市の保活スケジュール　令和8年度4月入園の流れ", description: "鶴岡市の認可保育園の申込時期・選考の流れ。", image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop", category: "保活の基本", categoryColor: "green", content: `<h2>鶴岡市の概要</h2><p>鶴岡市は人口約12万人で、山形県庄内地域の中心都市です。</p>`, publishedAt: "2026-04-29", popularity: 45 },
   { slug: "hokatsu-mistakes", citySlug: "tsuruoka", title: "鶴岡市の保活でよくある失敗と対策5選", description: "鶴岡市での失敗パターン。", image: "https://images.unsplash.com/photo-1476703993599-0035a21b17a9?w=800&h=400&fit=crop", category: "保活の基本", categoryColor: "green", content: `<h2>失敗対策</h2><p>鶴岡市での保活で気をつけるべき点。</p>`, publishedAt: "2026-04-29", popularity: 40 },
   { slug: "hokatsu-basics", citySlug: "tsuruoka", title: "鶴岡市での保活、いつから始めるべき？", description: "初心者向けガイド。", image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop", category: "保活の基本", categoryColor: "green", content: `<h2>保活の流れ</h2><p>妊娠中から準備を始めましょう。</p>`, publishedAt: "2026-04-29", popularity: 38 },
   { slug: "point-system", citySlug: "tsuruoka", title: "鶴岡市の基本指数システム　40点満点の仕組み", description: "基本指数の仕組み。", image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop", category: "保活の基本", categoryColor: "green", content: `<h2>基本指数の役割</h2><p>40点満点で選考されます。</p>`, publishedAt: "2026-04-29", popularity: 52 },

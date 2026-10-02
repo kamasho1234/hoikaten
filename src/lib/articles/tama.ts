@@ -3,60 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "tama",
-    title: "多摩市の保活スケジュール　申込から内定までの流れ",
-    description:
-      "多摩市の認可保育園の申込時期・選考の流れをまとめました。令和8年度4月入園の動き方を解説します。",
-    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>多摩市の4月入園スケジュール</h2>
-<p>多摩市の認可保育園は毎年秋に翌年度4月入園の一次申込を受付けます。多摩ニュータウンを中心に約30か所の認可保育園があり、計画的な保活が重要です。</p>
-
-<h3>保活の全体スケジュール</h3>
-<div class="step">
-<div class="step-num">1</div>
-<div class="step-content">
-<strong>4月〜6月：情報収集</strong>
-<p>多摩市子ども青少年部児童青少年課のホームページで保育園の一覧や前年度の入園状況を確認します。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">2</div>
-<div class="step-content">
-<strong>7月〜9月：保育園見学</strong>
-<p>多摩市内の保育園を見学して、通勤経路や多摩センター駅・永山駅との距離を確認しましょう。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">3</div>
-<div class="step-content">
-<strong>9月〜10月：書類準備</strong>
-<p>就労証明書の就労日数・就労時間は正確に記載してもらいましょう。基本指数に直結します。</p>
-</div>
-</div>
-<div class="step">
-<div class="step-num">4</div>
-<div class="step-content">
-<strong>11月：申込書類の提出</strong>
-<p>4月一次の申込期限は例年11月中旬です。期限厳守で提出しましょう。</p>
-</div>
-</div>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>多摩市の基本指数は父母各最大20点（合計40点満点）です。月の就労日数と1日の就労時間で判定されます。</p>
-</div>
-
-<div class="info-box">
-<p><strong>公式情報</strong></p>
-<p>詳しくは<a href="https://www.city.tama.lg.jp/" target="_blank" rel="noopener">多摩市公式サイト</a>の児童青少年課ページをご確認ください。</p>
-</div>`,
-    publishedAt: "2026-04-07",
-    popularity: 60,
-  },
-  {
     slug: "work-points-detail",
     citySlug: "tama",
     title: "多摩市の就労点数を詳しく解説　日数と時間の組み合わせ",

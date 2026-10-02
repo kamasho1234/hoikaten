@@ -1,0 +1,144 @@
+{
+  "citySlug": "yoshikawa",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "吉川市「令和9年4月入所の保育施設の申込について」",
+    "url": "https://www.city.yoshikawa.saitama.jp/index.cfm/25,119017,237,804,html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年9月25日（金）〜10月5日（月）。受付時間は平日9時20分〜12時・14時〜15時40分、土日9時20分〜13時",
+  "applyMethods": "保育幼稚園課窓口で受け付ける。一次利用調整の申込受付は事前予約制で、市ホームページから予約する（原則、電話予約は不可）",
+  "firstResult": "令和9年1月下旬に通知予定（年度初回の結果は郵送で通知）",
+  "secondApply": "令和8年10月6日（火）〜令和9年2月10日（水）。市役所の開庁時間内に保育幼稚園課窓口で受付（予約不要）",
+  "secondResult": "令和9年3月中旬に通知予定",
+  "documents": [
+    "教育・保育給付認定申込書（2号・3号用）兼保育利用申込書と児童調査票（子ども1人につき1枚）",
+    "提出書類確認補助票、個人番号（マイナンバー）記入用紙、保育施設の利用に関する確認書兼同意書（1枚で兄弟をまとめて記入できる）",
+    "保育を必要とする事由を証明する書類（就労証明書など）の原本1部。証明日が原則1か月以内のものが有効"
+  ],
+  "interview": "令和8年11月5日（木）〜8日（日）に吉川市役所本庁舎で面接。日程は書類受付時に調整し、面接当日は子どもと一緒に行く。未出生の場合は出生後に面接",
+  "ikukyu": "育児休業中でも、入所月の翌月1日までに復職することを条件に申込みできる。育児休業の延長が可能な場合でも、入所が決定したら必ず復職が必要",
+  "notes": [
+    "4月入所のみ、出生前でも分娩予定日によっては申込みできる",
+    "定員を超えて待機となった場合、その年度内は引き続き利用調整の対象となり、新たに申請書類を出す必要はない",
+    "申込後に希望施設を変える場合は「保育利用申込内容変更届出書（兼）保育利用申込取下書」を出す。令和9年4月入所一次利用調整の分は令和8年10月30日（金）まで",
+    "内定を辞退すると、その年度内の次回以降の利用調整指数が辞退した月数×1点減点される",
+    "同一住所に住む人の証明書が出せない場合は、未提出の人数分（人数×−2点）減点される"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.yoshikawa.saitama.jp/index.cfm/25,119017,237,804,html",
+      "quote": "保護者の就労などにより保育が必要な方を対象に、令和9年4月からの認可保育施設の利用申込を受け付けます。"
+    },
+    "firstApply": {
+      "url": "https://www.city.yoshikawa.saitama.jp/index.cfm/25,119017,c,html/119017/20260827-114016.pdf",
+      "quote": "【日にち】令和８年９月２５日（金）～１０月５日（月）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.yoshikawa.saitama.jp/index.cfm/25,119017,c,html/119017/20260827-114016.pdf",
+      "quote": "【時 間】平日 ９時２０分～１２時、１４時～１５時４０分 土日 ９時２０分～１３時"
+    },
+    "applyMethods": {
+      "url": "https://www.city.yoshikawa.saitama.jp/index.cfm/25,119017,237,804,html",
+      "quote": "一次利用調整の申込受付は事前予約制となっております。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.yoshikawa.saitama.jp/index.cfm/25,119017,c,html/119017/20260827-114016.pdf",
+      "quote": "市ホームページより予約をお取りください。（原則、電話予約はできません）"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.yoshikawa.saitama.jp/index.cfm/25,119017,c,html/119017/20260827-114016.pdf",
+      "quote": "【場所】保育幼稚園課窓口 【持ち物】申請書類一式（P7～P8 参照）"
+    },
+    "firstResult": {
+      "url": "https://www.city.yoshikawa.saitama.jp/index.cfm/25,119017,c,html/119017/20260827-114016.pdf",
+      "quote": "令和９年４月入所一次利用調整結果：令和９年１月下旬通知予定"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.yoshikawa.saitama.jp/index.cfm/25,119017,c,html/119017/20260827-114016.pdf",
+      "quote": "結果は年度初回のみ郵送で通知します"
+    },
+    "secondApply": {
+      "url": "https://www.city.yoshikawa.saitama.jp/index.cfm/25,119017,c,html/119017/20260827-114016.pdf",
+      "quote": "【日にち】令和８年１０月 ６日（火）～令和９年２月１０日（水） 【時 間】市役所の開庁時間内"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.yoshikawa.saitama.jp/index.cfm/25,119017,c,html/119017/20260827-114016.pdf",
+      "quote": "【時 間】市役所の開庁時間内 【場所】保育幼稚園課窓口 予予約約不不要要"
+    },
+    "secondResult": {
+      "url": "https://www.city.yoshikawa.saitama.jp/index.cfm/25,119017,c,html/119017/20260827-114016.pdf",
+      "quote": "令和９年４月入所二次利用調整結果：令和９年３月中旬通知予定"
+    },
+    "documents.0": {
+      "url": "https://www.city.yoshikawa.saitama.jp/index.cfm/25,119017,237,804,html",
+      "quote": "1（【A】教育・保育給付認定申込書（2号・3号用）兼保育利用申込書)と5（児童調査票）の書類はお子様1人につき1枚提出が必要となります。"
+    },
+    "documents.1": {
+      "url": "https://www.city.yoshikawa.saitama.jp/index.cfm/25,119017,237,804,html",
+      "quote": "2から4の書類(【B】提出書類確認補助票、【C】個人番号（マイナンバー）記入用紙、【D】保育施設の利用に関する確認書兼同意書)は1枚で複数のお子様を記入し提出ができます。"
+    },
+    "documents.2": {
+      "url": "https://www.city.yoshikawa.saitama.jp/index.cfm/25,119017,237,804,html",
+      "quote": "6（保育を必要とする事由を証明する書類）については原本1部を提出してください"
+    },
+    "documents.2#2": {
+      "url": "https://www.city.yoshikawa.saitama.jp/index.cfm/25,119017,c,html/119017/20260827-114016.pdf",
+      "quote": "注意点・原則、証明日が1か月以内のものが有効。"
+    },
+    "interview": {
+      "url": "https://www.city.yoshikawa.saitama.jp/index.cfm/25,119017,c,html/119017/20260827-114016.pdf",
+      "quote": "【日にち】令和８年１１月 ５日（木） ～８日（日） 【場 所】吉川市役所本庁舎 ※書類受付時に日程調整を行います。"
+    },
+    "interview#2": {
+      "url": "https://www.city.yoshikawa.saitama.jp/index.cfm/25,119017,c,html/119017/20260827-114016.pdf",
+      "quote": "・面接当日は、必必ずずおお子子ささんんとと一一緒緒ににおお越越ししくくだだささいい。"
+    },
+    "interview#3": {
+      "url": "https://www.city.yoshikawa.saitama.jp/index.cfm/25,119017,c,html/119017/20260827-114016.pdf",
+      "quote": "・未出生の場合は、出生後に面接を行いますので、出生後1か月以内に保育幼稚園課へ連絡してください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.yoshikawa.saitama.jp/index.cfm/25,119017,c,html/119017/20260827-114016.pdf",
+      "quote": "A１．入所決定後、入所月の翌月１日までに復職することを条件として、申込みは可能です。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.yoshikawa.saitama.jp/index.cfm/25,119017,c,html/119017/20260827-114016.pdf",
+      "quote": "育児休業の延長が可能な場合でも、入所が決定した場合には必ず復職が必要となりますのでご注意ください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.yoshikawa.saitama.jp/index.cfm/25,119017,c,html/119017/20260827-114016.pdf",
+      "quote": "※４月入所のみ、出生前であっても分娩予定日によっては申込み可能です。"
+    },
+    "notes.1": {
+      "url": "https://www.city.yoshikawa.saitama.jp/index.cfm/25,119017,237,804,html",
+      "quote": "この場合、当該年度内については引き続き申込みの意思があるものとみなし、利用調整の対象とするため、新たに申請書類を提出する必要はありません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.yoshikawa.saitama.jp/index.cfm/25,119017,c,html/119017/20260827-114016.pdf",
+      "quote": "A３．各申込期限までに「保育利用申込内容変更届出書（兼）保育利用申込取下書」の提出が必要です。"
+    },
+    "notes.2#2": {
+      "url": "https://www.city.yoshikawa.saitama.jp/index.cfm/25,119017,c,html/119017/20260827-114016.pdf",
+      "quote": "令和９年４月入所一次利用調整：令和８年１０月３０日（金）まで"
+    },
+    "notes.3": {
+      "url": "https://www.city.yoshikawa.saitama.jp/index.cfm/25,119017,c,html/119017/20260827-114016.pdf",
+      "quote": "なお、内定を辞退した場合は、辞退届出日、辞退理由に関わらず、次回以降その年度内の利用調整指数が、辞退した月数×１点減点されるため、慎重にご検討ください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.yoshikawa.saitama.jp/index.cfm/25,119017,c,html/119017/20260827-114016.pdf",
+      "quote": "・同一住所者について証明書が提出できない場合、未提出の人数分減点。（人数×－２点）"
+    }
+  },
+  "sources": [
+    {
+      "label": "吉川市「令和9年4月入所の保育施設の申込について」",
+      "url": "https://www.city.yoshikawa.saitama.jp/index.cfm/25,119017,237,804,html"
+    },
+    {
+      "label": "吉川市「令和9年度保育施設利用のご案内・保育施設紹介ブック」",
+      "url": "https://www.city.yoshikawa.saitama.jp/index.cfm/25,119017,c,html/119017/20260827-114016.pdf"
+    }
+  ]
+}

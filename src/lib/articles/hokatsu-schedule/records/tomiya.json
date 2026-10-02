@@ -1,0 +1,209 @@
+{
+  "citySlug": "tomiya",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "富谷市「令和９年度　市立・認可保育所、認定こども園、地域型保育入所申込のお知らせ」",
+    "url": "https://www.tomiya-city.miyagi.jp/kosodate/hoiku/r9hoikusyo.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年9月1日（火曜日）から配布。配布先は富谷市子育て支援課、各保育施設、とみや子育て支援センターで、市ホームページの資料から申込用紙等をダウンロードできる",
+  "firstApply": "令和8年10月1日（木曜日）〜令和8年10月30日（金曜日）まで（厳守）",
+  "applyMethods": "受付場所は市役所子育て支援課と各保育所・認定こども園（各出張所では受け付けない）。原則として郵便による受付はしていないが、窓口への提出が困難な場合は事前に相談する",
+  "firstResult": "2月に結果通知（入所通知または保留通知）を郵送",
+  "secondApply": "令和8年11月2日（月曜日）〜令和8年12月25日（金曜日）まで（厳守）。二次審査は一次審査後の辞退等で入所可能枠がある保育施設に限り案内対象となり、受付は子育て支援課のみ",
+  "secondResult": "一次審査で入所保留となった場合は自動的に二次審査に移行し、3月上旬頃に結果を通知",
+  "midYearDeadline": "年度途中（6月〜3月）入所は、入所を希望する月の前々月10日から前月10日まで（10日が閉庁日の場合は翌開庁日が締め切り）",
+  "documents": [
+    "教育・保育給付認定・変更申請書",
+    "保育所入所申込書兼家庭状況調査書",
+    "児童発育調査票",
+    "保育が必要な状況を証明する書類（就労証明書など。両親ともに必要。就労証明書は作成から2か月以内のものが有効）",
+    "自営業の場合は就労証明書に加え、申請日から6か月以内の請負契約書、請求書、納品書の写し等、実態が確認できる書類",
+    "令和8年度 市町村民税所得課税（非課税）証明書（該当者のみ）",
+    "認可保育園等保育施設入所に係る同意書",
+    "マイナンバー記入用紙",
+    "申請保護者のマイナンバー確認書類（マイナンバーカード、マイナンバー通知カード等）と身元確認書類（運転免許証、パスポート等）"
+  ],
+  "interview": "新規入所申請者は子どもと一緒に面接を受ける。11月下旬〜12月中旬（平日）に成田市民センターで実施し、日程の通知は例年11月中旬頃。原則として第1希望の保育所の先生と面接する",
+  "ikukyu": "案内された保育園を辞退しても保留通知書は発行できるが、入所を辞退したことが記載される。育児休業を延長できるかは勤務先（またはハローワーク）に確認する。申請した月以降も延長のため保留通知が必要な場合は、希望する月の前月10日までに子育て支援課に連絡する",
+  "notes": [
+    "申請書は提出書類がすべて揃った状態で受付となり、受付期限を過ぎたもの・書類に不足があるものは受け付けない（先着順ではない）",
+    "令和8年度にすでに入所している人や、令和8年度の申込をして待機中の人も、令和9年度の保育施設を希望する場合は新たに申込が必要",
+    "第1〜第3希望以外の保育所に案内する場合がある",
+    "育児休業中でも申請できるが、保育所入所後2か月以内に復職する必要がある",
+    "令和9年1月4日以降の申込は、6月入所希望からの受付となる",
+    "見学の有無で審査点数は変わらないが、年度途中の転園はできないため可能な限り見学する"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.tomiya-city.miyagi.jp/kosodate/hoiku/r9hoikusyo.html",
+      "quote": "令和9年4月・5月の保育所入所希望者募集いたします。"
+    },
+    "guideRelease": {
+      "url": "https://www.tomiya-city.miyagi.jp/kosodate/hoiku/r9hoikusyo.html",
+      "quote": "令和8年9月1日（火曜日から）"
+    },
+    "guideRelease#2": {
+      "url": "https://www.tomiya-city.miyagi.jp/kosodate/hoiku/r9hoikusyo.html",
+      "quote": "富谷市子育て支援課、各保育施設、とみや子育て支援センター"
+    },
+    "guideRelease#3": {
+      "url": "https://www.tomiya-city.miyagi.jp/kosodate/hoiku/r9hoikusyo.html",
+      "quote": "※ページ下部の資料から申込用紙等をダウンロードできます。"
+    },
+    "firstApply": {
+      "url": "https://www.tomiya-city.miyagi.jp/kosodate/hoiku/r9hoikusyo.html",
+      "quote": "令和8年10月1日（木曜日）～令和8年10月30日（金曜日）まで（厳守）"
+    },
+    "applyMethods": {
+      "url": "https://www.tomiya-city.miyagi.jp/uploads/pdf/c670afaf692fa43fdfc7e2b3565375930b0e35d1.pdf",
+      "quote": "受付場所：市役所子育て支援課、各保育所・認定こども園"
+    },
+    "applyMethods#2": {
+      "url": "https://www.tomiya-city.miyagi.jp/uploads/pdf/c670afaf692fa43fdfc7e2b3565375930b0e35d1.pdf",
+      "quote": "原則として郵便による受付はしていませんが、窓口への提出が困難な場合は事前にご相談ください。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.tomiya-city.miyagi.jp/kosodate/hoiku/r9hoikusyo.html",
+      "quote": "※各出張所での受付は行っておりませんのでご注意ください。"
+    },
+    "firstResult": {
+      "url": "https://www.tomiya-city.miyagi.jp/uploads/pdf/c670afaf692fa43fdfc7e2b3565375930b0e35d1.pdf",
+      "quote": "結果通知（入所通知または保留通知） 郵送にてお知らせします。 ２月"
+    },
+    "secondApply": {
+      "url": "https://www.tomiya-city.miyagi.jp/kosodate/hoiku/r9hoikusyo.html",
+      "quote": "令和8年11月2日（月曜日）～令和8年12月25日（金曜日）まで（厳守）"
+    },
+    "secondApply#2": {
+      "url": "https://www.tomiya-city.miyagi.jp/kosodate/hoiku/r9hoikusyo.html",
+      "quote": "※二次審査は、一次審査後辞退等により入所可能枠がある保育施設に限り案内対象となります。"
+    },
+    "secondApply#3": {
+      "url": "https://www.tomiya-city.miyagi.jp/kosodate/hoiku/r9hoikusyo.html",
+      "quote": "・二次審査 子育て支援課 ※各出張所での受付は行っておりませんのでご注意ください。"
+    },
+    "secondResult": {
+      "url": "https://www.tomiya-city.miyagi.jp/uploads/pdf/c670afaf692fa43fdfc7e2b3565375930b0e35d1.pdf",
+      "quote": "入所保留となった場合は、自動的に二次審査に移行し、３月上旬頃に結果を通知します。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.tomiya-city.miyagi.jp/uploads/pdf/c670afaf692fa43fdfc7e2b3565375930b0e35d1.pdf",
+      "quote": "受付期間：入所を希望する月の前々月１０日から前月１０日まで"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.tomiya-city.miyagi.jp/uploads/pdf/c670afaf692fa43fdfc7e2b3565375930b0e35d1.pdf",
+      "quote": "⇒１０日が閉庁日の場合は翌開庁日が締め切りです。"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.tomiya-city.miyagi.jp/uploads/pdf/c670afaf692fa43fdfc7e2b3565375930b0e35d1.pdf",
+      "quote": "◇年度途中（６月～３月）入所を希望する場合"
+    },
+    "documents.0": {
+      "url": "https://www.tomiya-city.miyagi.jp/uploads/pdf/c670afaf692fa43fdfc7e2b3565375930b0e35d1.pdf",
+      "quote": "①教育・保育給付認定・変更申請書"
+    },
+    "documents.1": {
+      "url": "https://www.tomiya-city.miyagi.jp/uploads/pdf/c670afaf692fa43fdfc7e2b3565375930b0e35d1.pdf",
+      "quote": "②保育所入所申込書兼家庭状況調査書"
+    },
+    "documents.2": {
+      "url": "https://www.tomiya-city.miyagi.jp/uploads/pdf/c670afaf692fa43fdfc7e2b3565375930b0e35d1.pdf",
+      "quote": "③児童発育調査票"
+    },
+    "documents.3": {
+      "url": "https://www.tomiya-city.miyagi.jp/uploads/pdf/c670afaf692fa43fdfc7e2b3565375930b0e35d1.pdf",
+      "quote": "下記の状況に応じた書類をご提出ください。両親ともに必要です。"
+    },
+    "documents.3#2": {
+      "url": "https://www.tomiya-city.miyagi.jp/uploads/pdf/05e2279e71b457a5d48619d2b435cb1a949eed56.pdf",
+      "quote": "就労証明書は作成から２か月以内のものが申請で有効となりますので"
+    },
+    "documents.4": {
+      "url": "https://www.tomiya-city.miyagi.jp/kosodate/hoiku/r9hoikusyo.html",
+      "quote": "自営業の方につきましては、令和9年度申請より就労証明書に加え、申請日から6か月以内の請負契約書、請求書、納品書の写し等実態が確認できる書類の添付が必要になります。"
+    },
+    "documents.5": {
+      "url": "https://www.tomiya-city.miyagi.jp/uploads/pdf/c670afaf692fa43fdfc7e2b3565375930b0e35d1.pdf",
+      "quote": "⑤令和８年度 市町村民税所得課税（非課税）証明書（※２）該当者のみ"
+    },
+    "documents.6": {
+      "url": "https://www.tomiya-city.miyagi.jp/uploads/pdf/c670afaf692fa43fdfc7e2b3565375930b0e35d1.pdf",
+      "quote": "⑥認可保育園等保育施設入所に係る同意書"
+    },
+    "documents.7": {
+      "url": "https://www.tomiya-city.miyagi.jp/uploads/pdf/c670afaf692fa43fdfc7e2b3565375930b0e35d1.pdf",
+      "quote": "⑦マイナンバー記入用紙"
+    },
+    "documents.8": {
+      "url": "https://www.tomiya-city.miyagi.jp/uploads/pdf/c670afaf692fa43fdfc7e2b3565375930b0e35d1.pdf",
+      "quote": "⑧申請保護者のマイナンバー確認書類（マイナンバーカード、マイナンバー通知カード等）"
+    },
+    "documents.8#2": {
+      "url": "https://www.tomiya-city.miyagi.jp/uploads/pdf/c670afaf692fa43fdfc7e2b3565375930b0e35d1.pdf",
+      "quote": "⑨申請保護者の身元確認書類（運転免許証、パスポート等）"
+    },
+    "interview": {
+      "url": "https://www.tomiya-city.miyagi.jp/uploads/pdf/c670afaf692fa43fdfc7e2b3565375930b0e35d1.pdf",
+      "quote": "新規入所申請者はお子さんと一緒に面接を行います。１１月下旬～１２月中旬（平日）に成田市民センターにて実施しますので、ご協力をお願いします。"
+    },
+    "interview#2": {
+      "url": "https://www.tomiya-city.miyagi.jp/uploads/pdf/c670afaf692fa43fdfc7e2b3565375930b0e35d1.pdf",
+      "quote": "なお、日程の通知については例年11月中旬頃を目安にお送りしております。"
+    },
+    "interview#3": {
+      "url": "https://www.tomiya-city.miyagi.jp/uploads/pdf/05e2279e71b457a5d48619d2b435cb1a949eed56.pdf",
+      "quote": "原則、第１希望で記載された保育所の先生と面接を行っていただくようになります。"
+    },
+    "ikukyu": {
+      "url": "https://www.tomiya-city.miyagi.jp/uploads/pdf/c670afaf692fa43fdfc7e2b3565375930b0e35d1.pdf",
+      "quote": "保留通知書の発行は可能ですが、保育所入所を辞退したことが記載されます。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.tomiya-city.miyagi.jp/uploads/pdf/05e2279e71b457a5d48619d2b435cb1a949eed56.pdf",
+      "quote": "Aそちらについてはお勤め先（またはハローワーク）へご確認ください。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.tomiya-city.miyagi.jp/uploads/pdf/05e2279e71b457a5d48619d2b435cb1a949eed56.pdf",
+      "quote": "なお、発行を希望される場合は希望する月の前月１０日までに子育て支援課にご連絡願います。"
+    },
+    "notes.0": {
+      "url": "https://www.tomiya-city.miyagi.jp/kosodate/hoiku/r9hoikusyo.html",
+      "quote": "※申請書は提出書類すべて揃った状態で受付となります。受付期限を過ぎたもの、提出書類に不足があるものは受付できませんのでご了承ください。（先着順ではありません。）"
+    },
+    "notes.1": {
+      "url": "https://www.tomiya-city.miyagi.jp/kosodate/hoiku/r9hoikusyo.html",
+      "quote": "・令和8年度時点ですでに入所している方や、令和8年度の入所申込をしている方（待機中の方）も令和9年度保育施設の利用を希望される場合は新たに申込が必要になります。"
+    },
+    "notes.2": {
+      "url": "https://www.tomiya-city.miyagi.jp/kosodate/hoiku/r9hoikusyo.html",
+      "quote": "・第1～第3希望以外の保育所にご案内する場合がございます。"
+    },
+    "notes.3": {
+      "url": "https://www.tomiya-city.miyagi.jp/uploads/pdf/c670afaf692fa43fdfc7e2b3565375930b0e35d1.pdf",
+      "quote": "Ａ 可能です。ただし、保育所入所後２か月以内に復職していただく必要があります。"
+    },
+    "notes.4": {
+      "url": "https://www.tomiya-city.miyagi.jp/uploads/pdf/c670afaf692fa43fdfc7e2b3565375930b0e35d1.pdf",
+      "quote": "令和９年１月４日以降のお申込みは、６月入所希望からの受付となります。"
+    },
+    "notes.5": {
+      "url": "https://www.tomiya-city.miyagi.jp/uploads/pdf/05e2279e71b457a5d48619d2b435cb1a949eed56.pdf",
+      "quote": "A見学の有無によって審査点数は変わりませんが、年度途中の転園はできないため可能な限り見学は行ってください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "富谷市「令和９年度　市立・認可保育所、認定こども園、地域型保育入所申込のお知らせ」",
+      "url": "https://www.tomiya-city.miyagi.jp/kosodate/hoiku/r9hoikusyo.html"
+    },
+    {
+      "label": "富谷市「令和9年度　保育施設入所案内」",
+      "url": "https://www.tomiya-city.miyagi.jp/uploads/pdf/c670afaf692fa43fdfc7e2b3565375930b0e35d1.pdf"
+    },
+    {
+      "label": "富谷市「保育に関するFAQ　よくある質問」（令和9年度申込用）",
+      "url": "https://www.tomiya-city.miyagi.jp/uploads/pdf/05e2279e71b457a5d48619d2b435cb1a949eed56.pdf"
+    }
+  ]
+}

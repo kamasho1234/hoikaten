@@ -3,18 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "tenri",
-    title: "天理市の保活スケジュール　令和8年度4月入園の流れ",
-    description: "天理市の認可保育施設の申込時期・選考の流れ・結果通知の時期をわかりやすく解説。令和8年度4月入園のスケジュールを中心にまとめました。",
-    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>令和8年度4月入園のスケジュール</h2><p>天理市は奈良県北部に位置し、人口約6.5万人の市です。天理教の本部がある宗教都市として知られており、独特の地域文化を持つ地域です。奈良市の南隣で、大阪・京都へのアクセスも良好です。申込先は天理市こども家庭課です。</p><h3>一次利用調整</h3><table><tr><th>項目</th><th>日程</th></tr><tr><td>申込受付期間</td><td>令和7年10月中旬〜11月上旬</td></tr><tr><td>結果通知</td><td>令和8年1月中旬</td></tr></table><h3>二次利用調整</h3><table><tr><th>項目</th><th>日程</th></tr><tr><td>申込受付期間</td><td>令和8年2月上旬〜2月中旬</td></tr><tr><td>結果通知</td><td>令和8年3月上旬</td></tr></table><div class="point-box"><p><strong>ポイント</strong></p><p>天理市は40点制（父母各20点）で選考します。天理教本部を中心とした宗教都市で、独自の文化と緊密な地域コミュニティが特徴です。フルタイム共働きで40点が基本ラインとなります。</p></div>`,
-    publishedAt: "2026-06-01",
-    popularity: 37,
-  },
-  {
     slug: "hokatsu-mistakes",
     citySlug: "tenri",
     title: "天理市の保活でよくある失敗と対策5選",

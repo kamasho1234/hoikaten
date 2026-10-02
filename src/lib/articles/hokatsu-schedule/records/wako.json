@@ -1,0 +1,196 @@
+{
+  "citySlug": "wako",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "和光市「(令和9年度)認定こども園・保育園・小規模保育事業所等　入園・入所案内」",
+    "url": "https://www.city.wako.lg.jp/kosodate/1000009/1009701/1003770/1003771/1014024/1014025.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年10月1日（木曜日）9時から、新年度版の利用案内・施設案内・申請書類一式を市役所4階の保育サポート課窓口で配布",
+  "firstApply": "令和8年10月19日（月曜日）〜令和8年11月6日（金曜日）必着（郵送）。最終日の閉庁時間より後の申請は2次申請として扱う",
+  "applyMethods": "4月1次申込は原則郵送（〒351-0192 和光市広沢1-5 和光市役所 保育サポート課宛）。申込が初めての人や市外の保育施設を併願する人などは、LINEか電話で予約して窓口で申し込める（窓口受付は令和8年10月19日〜10月30日）。受付方法で利用調整の結果に優劣はない",
+  "firstResult": "令和9年2月1日（月曜日）に結果を発送予定（発送日は前後する場合がある）",
+  "secondApply": "令和8年11月9日（月曜日）〜令和9年2月9日（火曜日）の市役所開庁時間内。市役所4階の保育サポート課窓口で受付（郵送不可・予約不可）",
+  "secondResult": "令和9年3月8日（月曜日）に結果を発送予定（発送日は前後する場合がある）",
+  "midYearDeadline": "入所月ごとに申込期間が決まっている（例: 令和9年5月入所は令和9年2月10日〜3月20日、6月入所は3月23日〜4月20日）。令和9年5月以降の申込は窓口提出のみ（予約不要）",
+  "documents": [
+    "教育・保育給付認定（変更）申請書、特定教育・保育施設及び特定地域型保育事業所利用申込書、家庭状況票、確認同意書（必ず提出）",
+    "4月1次入所申込 提出書類・注意事項チェックリスト（4月1次を郵送で申し込む人のみ記入して同封）",
+    "就労（予定）証明書（原則として父母で各1通。有効期間は申請日より3か月以内の証明日のもの）",
+    "シフト勤務の場合は直近3か月分のシフト表（時間・日数が記載されているもの）",
+    "マイナンバー提供書（2026年1月1日現在で他の自治体にいた人のみ。4月1次を郵送で申し込む場合は不要）"
+  ],
+  "interview": "入所が決まった人は、入所施設で子どもの面談・入所説明会への出席や利用契約などを行う",
+  "ikukyu": "育児休業中に申し込んで入所が決まった場合は、入所する月の末日までに育児休業を取得している事業所へ復職する。育児休業給付金を延長する場合は、子どもの1歳の誕生日を含む月の入所申込書と「保育所に入所できなかった旨の通知」が必要で、ハローワーク等での延長手続きには申込書の写しが要るため、申し込む前に自分でコピーを取っておく",
+  "notes": [
+    "窓口に書類を持参しても、受け取りのみでその場での内容確認は行わない",
+    "申請書類の到着から1週間程度で受付済みのお知らせが届き、不足書類があればその中で通知される",
+    "希望する保育所等の数に制限はなく、募集人数の有無にかかわらず通える範囲でなるべく多くの施設を書くよう求められている",
+    "入所申請前に、電子申請でメールアドレスを登録する（紙の提出は不要）",
+    "申込は年度内（3月入所分）まで有効で、不承諾でも毎月申し込む必要はない"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.wako.lg.jp/kosodate/1000009/1009701/1003770/1003771/1014024/1014025.html",
+      "quote": "令和9年度4月保育園入所1次申請の受付期間は、令和8年10月19日（月曜日）から11月6日（金曜日）までです。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.wako.lg.jp/kosodate/1000009/1009701/1003770/1003771/1014024/1014025.html",
+      "quote": "令和9年度版の利用案内・施設案内・申請書類一式は、令和8年10月1日（木曜日）9時より、和光市保育サポート課窓口にて配布いたします。"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.wako.lg.jp/kosodate/1000009/1009701/1003770/1003771/1014024/1014025.html",
+      "quote": "配布場所 市役所4階保育サポート課窓口"
+    },
+    "firstApply": {
+      "url": "https://www.city.wako.lg.jp/kosodate/1000009/1009701/1003770/1003771/1014024/1014025.html",
+      "quote": "受付期間令和8年10月19日（月曜日）～令和8年11月6日（金曜日）　必着"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.wako.lg.jp/kosodate/1000009/1009701/1003770/1003771/1014024/1014025.html",
+      "quote": "最終日の閉庁時間より後の申請は2次申請として取り扱います。原則、4月1次申請は、郵送で承っております。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.wako.lg.jp/kosodate/1000009/1009701/1003770/1003771/1014024/1014025.html",
+      "quote": "郵送先〒351-0192　和光市広沢1-5　和光市役所　保育サポート課　宛"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.wako.lg.jp/kosodate/1000009/1009701/1003770/1003771/1014024/1014025.html",
+      "quote": "申込が初めての方や市外の保育施設を併願して申込む方等を対象に、予約をお取りいただいた上で一部窓口での受付も行いますが、受付方法により、利用調整結果に優劣はありませんので、何卒郵送での受付にご協力をお願いいたします。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.wako.lg.jp/_res/projects/default_project/_page_/001/014/025/r9-uketsukeshousai.pdf",
+      "quote": "４月一次入所申込について窓口での受付を希望される場合、ＬＩＮＥまたは電話"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.wako.lg.jp/_res/projects/default_project/_page_/001/014/025/r9-uketsukeshousai.pdf",
+      "quote": "令和８年１０月１９日（月）～１０月３０日（金）"
+    },
+    "firstResult": {
+      "url": "https://www.city.wako.lg.jp/kosodate/1000009/1009701/1003770/1003771/1014024/1014025.html",
+      "quote": "令和9年2月1日（月曜日）発送予定（発送日は前後する場合があります。）"
+    },
+    "secondApply": {
+      "url": "https://www.city.wako.lg.jp/kosodate/1000009/1009701/1003770/1003771/1014024/1014025.html",
+      "quote": "受付期間令和8年11月9日（月曜日）～令和9年2月9日（火曜日）市役所開庁時間内"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.wako.lg.jp/kosodate/1000009/1009701/1003770/1003771/1014024/1014025.html",
+      "quote": "受付場所市役所4階　保育サポート課窓口（郵送不可・予約不可）"
+    },
+    "secondResult": {
+      "url": "https://www.city.wako.lg.jp/kosodate/1000009/1009701/1003770/1003771/1014024/1014025.html",
+      "quote": "結果発送予定日令和9年3月8日（月曜日）発送予定（発送日は前後する場合はあります。）"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.wako.lg.jp/_res/projects/default_project/_page_/001/014/025/r9-uketsukekikan.pdf",
+      "quote": "令和９年５月 令和９年２月１０日（水） ～ 令和９年３月２０日（土） 令和９年４月中旬"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.wako.lg.jp/_res/projects/default_project/_page_/001/014/025/r9-uketsukekikan.pdf",
+      "quote": "令和９年６月 令和９年３月２３日（火） ～ 令和９年４月２０日（火） 令和９年５月中旬"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.wako.lg.jp/_res/projects/default_project/_page_/001/014/025/r9-uketsukekikan.pdf",
+      "quote": "※令和８年１２月及び令和９年５月以降の申込は従来どおり窓口提出のみです（予約不要）。"
+    },
+    "documents.0": {
+      "url": "https://www.city.wako.lg.jp/kosodate/1000009/1009701/1003770/1003771/1014024/1014026.html",
+      "quote": "次の1.から4.は必ずご提出ください。"
+    },
+    "documents.0#2": {
+      "url": "https://www.city.wako.lg.jp/kosodate/1000009/1009701/1003770/1003771/1014024/1014026.html",
+      "quote": "教育・保育給付認定（変更）申請書 特定教育・保育施設及び特定地域型保育事業所利用申込書 家庭状況票 確認同意書"
+    },
+    "documents.1": {
+      "url": "https://www.city.wako.lg.jp/kosodate/1000009/1009701/1003770/1003771/1014024/1014026.html",
+      "quote": "5.の提出書類・注意事項チェックリストは4月1次の入所申込を郵送で行う方のみ記入し、その他申込書類と一緒に送付してください。"
+    },
+    "documents.2": {
+      "url": "https://www.city.wako.lg.jp/kosodate/1000009/1009701/1003770/1003771/1014024/1014026.html",
+      "quote": "※就労（予定）証明書については、原則としてご両親で各1通ずつ必要になります。"
+    },
+    "documents.2#2": {
+      "url": "https://www.city.wako.lg.jp/_res/projects/default_project/_page_/001/014/025/r9-riyouannai.pdf",
+      "quote": "※就労証明書の有効期間は、申請日より３か月以内の"
+    },
+    "documents.3": {
+      "url": "https://www.city.wako.lg.jp/kosodate/1000009/1009701/1003770/1003771/1014024/1014027.html",
+      "quote": "※シフト勤務の場合、直近3か月分のシフト表（時間・日数が記載されているもの）をあわせてご提出ください。"
+    },
+    "documents.4": {
+      "url": "https://www.city.wako.lg.jp/kosodate/1000009/1009701/1003770/1003771/1014024/1014026.html",
+      "quote": "6.のマイナンバー提供書は2026年1月1日現在で他の自治体にいた方のみ提出ですが、4月1次を郵送で申込む場合は不要です。"
+    },
+    "interview": {
+      "url": "https://www.city.wako.lg.jp/_res/projects/default_project/_page_/001/014/025/r9-riyouannai.pdf",
+      "quote": "その後、入所決定された方は、入所施設でお子様の面談・入所説明会への出席や利用契約等を行っていただく必要があります。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.wako.lg.jp/_res/projects/default_project/_page_/001/014/025/r9-riyouannai.pdf",
+      "quote": "育児休業を取得中の場合、入所決定後、入所する月の末日までに育児休業を取得している事業所へ復職していただくことになります。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.wako.lg.jp/_res/projects/default_project/_page_/001/014/025/r9-riyouannai.pdf",
+      "quote": "含む月の「入所申込書」と「保育所に入所できなかった旨の通知」が必要となります。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.wako.lg.jp/kosodate/1000009/1009701/1003770/1003771/1014024/1014026.html",
+      "quote": "ハローワークやお勤め先で育児休業給付金の支給期間延長の手続きをする際に、保育所等の利用申し込みを行ったときの申込書の写しが必要となります。（市役所の受付印は不要です。）"
+    },
+    "ikukyu#4": {
+      "url": "https://www.city.wako.lg.jp/kosodate/1000009/1009701/1003770/1003771/1014024/1014026.html",
+      "quote": "つきましては、申し込み前にご自身でコピーを取るなどのご対応をお願いいたします。"
+    },
+    "notes.0": {
+      "url": "https://www.city.wako.lg.jp/kosodate/1000009/1009701/1003770/1003771/1014024/1014025.html",
+      "quote": "4階の保育サポート課窓口に書類をお持ちいただいた場合も、申請書類の受け取りのみ行い、その場での内容確認は行いません。"
+    },
+    "notes.1": {
+      "url": "https://www.city.wako.lg.jp/kosodate/1000009/1009701/1003770/1003771/1014024/1014025.html",
+      "quote": "申請書類の到着から1週間程度で、受付済みのお知らせをお送りします。"
+    },
+    "notes.1#2": {
+      "url": "https://www.city.wako.lg.jp/kosodate/1000009/1009701/1003770/1003771/1014024/1014025.html",
+      "quote": "不足書類があった場合も、受付済みのお知らせの中で通知します。"
+    },
+    "notes.2": {
+      "url": "https://www.city.wako.lg.jp/_res/projects/default_project/_page_/001/014/025/r9-riyouannai.pdf",
+      "quote": "希望する保育所等の数に制限はありません。通勤経路や自宅住所を踏まえ、通える範囲で、募集人数の有無にかかわらず、なるべく多くの施設をご記入ください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.wako.lg.jp/kosodate/1000009/1009701/1003770/1003771/1014024/1014026.html",
+      "quote": "7.の保育所等入所手続に伴うメールアドレス登録案内は、紙提出は不要です。入所申請前に、電子申請によってメールアドレスを登録してください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.wako.lg.jp/_res/projects/default_project/_page_/001/014/025/r9-riyouannai.pdf",
+      "quote": "Ａ. 申込は年度内（３月入所分）まで有効です。毎月申込む必要はありません。"
+    }
+  },
+  "sources": [
+    {
+      "label": "和光市「(令和9年度)認定こども園・保育園・小規模保育事業所等　入園・入所案内」",
+      "url": "https://www.city.wako.lg.jp/kosodate/1000009/1009701/1003770/1003771/1014024/1014025.html"
+    },
+    {
+      "label": "和光市「入所申込に必要な書類(これから入所を希望される方)　≪1≫入所申込に必要な書類」",
+      "url": "https://www.city.wako.lg.jp/kosodate/1000009/1009701/1003770/1003771/1014024/1014026.html"
+    },
+    {
+      "label": "和光市「入所申込に必要な書類(これから入所を希望される方)　≪2≫保育を必要とする状況を証明する書類」",
+      "url": "https://www.city.wako.lg.jp/kosodate/1000009/1009701/1003770/1003771/1014024/1014027.html"
+    },
+    {
+      "label": "和光市「令和9年度利用案内」（PDF）",
+      "url": "https://www.city.wako.lg.jp/_res/projects/default_project/_page_/001/014/025/r9-riyouannai.pdf"
+    },
+    {
+      "label": "和光市「令和9年度入所申込受付期間」（PDF）",
+      "url": "https://www.city.wako.lg.jp/_res/projects/default_project/_page_/001/014/025/r9-uketsukekikan.pdf"
+    },
+    {
+      "label": "和光市「4月1次入所申込の受付方法詳細について」（PDF）",
+      "url": "https://www.city.wako.lg.jp/_res/projects/default_project/_page_/001/014/025/r9-uketsukeshousai.pdf"
+    }
+  ]
+}

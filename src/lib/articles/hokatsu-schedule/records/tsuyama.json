@@ -1,0 +1,158 @@
+{
+  "citySlug": "tsuyama",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "津山市「令和9年度 津山市教育・保育施設利用ガイド」",
+    "url": "https://prdurbanostymapp1.blob.core.windows.net/common-article/673afe012f6d4a56ef176b0c/%E4%BB%A4%E5%92%8C9%E5%B9%B4%E5%BA%A6%E3%82%AC%E3%82%A4%E3%83%89.pdf"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年11月2日（月）〜11月13日（金）（土日祝を除く）、午前8時30分〜午後5時15分。11月6日（金）と11月13日（金）はこども保育課のみ午後7時まで受け付ける。郵送は最終日の午後5時15分必着",
+  "applyMethods": "こども保育課か各支所地域振興課に申請する（各園では申請書を受け付けない）。郵送でも申請でき、申請面談期間最終日の午後5時15分必着",
+  "firstResult": "令和9年2月下旬に、支給認定証と入所承諾通知書または入所保留通知書を送付する予定",
+  "midYearDeadline": "令和9年5月以降の入園は令和9年2月1日（月）以降随時受付。締切は入園希望月ごとに異なり、たとえば令和9年5月入園は1次申請の締切が令和9年2月26日（金）、2次申請の締切が令和9年3月31日（水）",
+  "documents": [
+    "令和9年度特定教育・保育施設利用申請書",
+    "子どものための教育・保育給付支給認定申請書",
+    "児童状況票（子どもの心身の状態や発達に気がかりな点がある場合や、健診・医療機関で指摘されたことがある場合は必ず記入）",
+    "入園申請に係る同意書",
+    "保育を必要とする理由の書類（就労なら就労証明書。証明書等は証明日から3か月以内のもの。父母の令和9年4月1日時点の状況を記載したもの）"
+  ],
+  "interview": "申請は申請面談として受け付ける（令和8年11月2日〜11月13日）",
+  "ikukyu": "育児休業中でも入園申請はできるが、入園初日から3か月後の月の末日までに復職する必要がある。入所保留となって育児休業を延長する手続きで申請書類の写しが必要になる場合があるため、申請書類一式のコピーを取ってから申請する",
+  "notes": [
+    "入所保留通知書が届いた人は第1希望園で待機登録となり、令和9年度中は毎月入園調整が行われる",
+    "年度内に市内の園への転園はできない。転園を希望する場合は次年度の4月入園申請時に申し込む",
+    "食物アレルギーや障害、医療的配慮が必要な子どもは、保育環境により入園が難しい場合があるので、入園申請の前に必ずこども保育課に相談する",
+    "市外に住んでいて利用開始日までに転入予定の人は、津山市の受付期間内に津山市の申請書類で申請する",
+    "申請受付後や結果通知後は、認定や入所決定内容に関する問い合わせに対応できないので、質問は申請までにする",
+    "出生前の申請はできない"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://prdurbanostymapp1.blob.core.windows.net/common-article/673afe012f6d4a56ef176b0c/%E4%BB%A4%E5%92%8C9%E5%B9%B4%E5%BA%A6%E3%82%AC%E3%82%A4%E3%83%89.pdf",
+      "quote": "令和9年4月以降の入園希望の募集対象者は次の通りです。"
+    },
+    "firstApply": {
+      "url": "https://prdurbanostymapp1.blob.core.windows.net/common-article/673afe012f6d4a56ef176b0c/%E4%BB%A4%E5%92%8C9%E5%B9%B4%E5%BA%A6%E3%82%AC%E3%82%A4%E3%83%89.pdf",
+      "quote": "申請面談：令和8年11月2日（月） ～ 令和8年11月13日（金）※土日祝を除く。 午前8時30分 ～ 午後5時15分"
+    },
+    "firstApply#2": {
+      "url": "https://prdurbanostymapp1.blob.core.windows.net/common-article/673afe012f6d4a56ef176b0c/%E4%BB%A4%E5%92%8C9%E5%B9%B4%E5%BA%A6%E3%82%AC%E3%82%A4%E3%83%89.pdf",
+      "quote": "※11月6日（金）・11月13日（金）のみ、こども保育課では午後7時まで受付可。"
+    },
+    "firstApply#3": {
+      "url": "https://prdurbanostymapp1.blob.core.windows.net/common-article/673afe012f6d4a56ef176b0c/%E4%BB%A4%E5%92%8C9%E5%B9%B4%E5%BA%A6%E3%82%AC%E3%82%A4%E3%83%89.pdf",
+      "quote": "※郵送による申請の場合、申請面談期間最終日の午後5時15分必着とします。"
+    },
+    "applyMethods": {
+      "url": "https://prdurbanostymapp1.blob.core.windows.net/common-article/673afe012f6d4a56ef176b0c/%E4%BB%A4%E5%92%8C9%E5%B9%B4%E5%BA%A6%E3%82%AC%E3%82%A4%E3%83%89.pdf",
+      "quote": "こども保育課・各支所地域振興課で受付を行います。"
+    },
+    "applyMethods#2": {
+      "url": "https://prdurbanostymapp1.blob.core.windows.net/common-article/673afe012f6d4a56ef176b0c/%E4%BB%A4%E5%92%8C9%E5%B9%B4%E5%BA%A6%E3%82%AC%E3%82%A4%E3%83%89.pdf",
+      "quote": "※各園では申請書の受付はしておりません。"
+    },
+    "applyMethods#3": {
+      "url": "https://prdurbanostymapp1.blob.core.windows.net/common-article/673afe012f6d4a56ef176b0c/%E4%BB%A4%E5%92%8C9%E5%B9%B4%E5%BA%A6%E3%82%AC%E3%82%A4%E3%83%89.pdf",
+      "quote": "※郵送による申請の場合、申請面談期間最終日の午後5時15分必着とします。"
+    },
+    "firstResult": {
+      "url": "https://prdurbanostymapp1.blob.core.windows.net/common-article/673afe012f6d4a56ef176b0c/%E4%BB%A4%E5%92%8C9%E5%B9%B4%E5%BA%A6%E3%82%AC%E3%82%A4%E3%83%89.pdf",
+      "quote": "令和9年2月下旬に送付予定 入園希望月の前月に送付"
+    },
+    "firstResult#2": {
+      "url": "https://prdurbanostymapp1.blob.core.windows.net/common-article/673afe012f6d4a56ef176b0c/%E4%BB%A4%E5%92%8C9%E5%B9%B4%E5%BA%A6%E3%82%AC%E3%82%A4%E3%83%89.pdf",
+      "quote": "支給認定証と入所承諾通知書又は、入所保留通知書（※1）を送付します"
+    },
+    "midYearDeadline": {
+      "url": "https://prdurbanostymapp1.blob.core.windows.net/common-article/673afe012f6d4a56ef176b0c/%E4%BB%A4%E5%92%8C9%E5%B9%B4%E5%BA%A6%E3%82%AC%E3%82%A4%E3%83%89.pdf",
+      "quote": "申請面談：令和9年2月1日（月）以降随時 ※入園希望月ごとに提出の締切日が異なりますのでご注意ください。"
+    },
+    "midYearDeadline#2": {
+      "url": "https://prdurbanostymapp1.blob.core.windows.net/common-article/673afe012f6d4a56ef176b0c/%E4%BB%A4%E5%92%8C9%E5%B9%B4%E5%BA%A6%E3%82%AC%E3%82%A4%E3%83%89.pdf",
+      "quote": "入園希望月 1次申請・締切日 2次申請・締切日 令和9年 5月入園 令和9年2月26日（金） 令和9年3月31日（水）"
+    },
+    "documents.0": {
+      "url": "https://prdurbanostymapp1.blob.core.windows.net/common-article/673afe012f6d4a56ef176b0c/%E4%BB%A4%E5%92%8C9%E5%B9%B4%E5%BA%A6%E3%82%AC%E3%82%A4%E3%83%89.pdf",
+      "quote": "〈すべての方が必要な書類〉 ①令和9年度特定教育・保育施設利用申請書"
+    },
+    "documents.1": {
+      "url": "https://prdurbanostymapp1.blob.core.windows.net/common-article/673afe012f6d4a56ef176b0c/%E4%BB%A4%E5%92%8C9%E5%B9%B4%E5%BA%A6%E3%82%AC%E3%82%A4%E3%83%89.pdf",
+      "quote": "②子どものための教育・保育給付支給認定申請書"
+    },
+    "documents.2": {
+      "url": "https://prdurbanostymapp1.blob.core.windows.net/common-article/673afe012f6d4a56ef176b0c/%E4%BB%A4%E5%92%8C9%E5%B9%B4%E5%BA%A6%E3%82%AC%E3%82%A4%E3%83%89.pdf",
+      "quote": "また、お子さんの心身の状態や発達について気がかりな点がある場合、健診や医療機関の受診で指摘されたことがある場合には、必ず児童状況票にご記入ください。"
+    },
+    "documents.3": {
+      "url": "https://prdurbanostymapp1.blob.core.windows.net/common-article/673afe012f6d4a56ef176b0c/%E4%BB%A4%E5%92%8C9%E5%B9%B4%E5%BA%A6%E3%82%AC%E3%82%A4%E3%83%89.pdf",
+      "quote": "③児童状況票 ④入園申請に係る同意書"
+    },
+    "documents.4": {
+      "url": "https://prdurbanostymapp1.blob.core.windows.net/common-article/673afe012f6d4a56ef176b0c/%E4%BB%A4%E5%92%8C9%E5%B9%B4%E5%BA%A6%E3%82%AC%E3%82%A4%E3%83%89.pdf",
+      "quote": "⑤保育を必要とする理由の書類（証明書等は、証明日から3か月以内のもの）"
+    },
+    "documents.4#2": {
+      "url": "https://prdurbanostymapp1.blob.core.windows.net/common-article/673afe012f6d4a56ef176b0c/%E4%BB%A4%E5%92%8C9%E5%B9%B4%E5%BA%A6%E3%82%AC%E3%82%A4%E3%83%89.pdf",
+      "quote": "※父母の令和9年4月1日時点の状況（年度途中の随時入園の場合は、利用希望月時点の状況）を記載したものを提出してください。"
+    },
+    "documents.4#3": {
+      "url": "https://prdurbanostymapp1.blob.core.windows.net/common-article/673afe012f6d4a56ef176b0c/%E4%BB%A4%E5%92%8C9%E5%B9%B4%E5%BA%A6%E3%82%AC%E3%82%A4%E3%83%89.pdf",
+      "quote": "□自営業・農業等 ・就労証明書（証明日から3か月以内のもの）"
+    },
+    "interview": {
+      "url": "https://prdurbanostymapp1.blob.core.windows.net/common-article/673afe012f6d4a56ef176b0c/%E4%BB%A4%E5%92%8C9%E5%B9%B4%E5%BA%A6%E3%82%AC%E3%82%A4%E3%83%89.pdf",
+      "quote": "申請面談：令和8年11月2日（月） ～ 令和8年11月13日（金）※土日祝を除く。"
+    },
+    "ikukyu": {
+      "url": "https://prdurbanostymapp1.blob.core.windows.net/common-article/673afe012f6d4a56ef176b0c/%E4%BB%A4%E5%92%8C9%E5%B9%B4%E5%BA%A6%E3%82%AC%E3%82%A4%E3%83%89.pdf",
+      "quote": "保護者が育児休業中の場合、入園申請はできますが、入園初日から3か月後の月の末日までに復職する必要があります。"
+    },
+    "ikukyu#2": {
+      "url": "https://prdurbanostymapp1.blob.core.windows.net/common-article/673afe012f6d4a56ef176b0c/%E4%BB%A4%E5%92%8C9%E5%B9%B4%E5%BA%A6%E3%82%AC%E3%82%A4%E3%83%89.pdf",
+      "quote": "入所が保留となり、育児休業を延長される場合の手続きとして申請書類の写しが必要な場合があります。"
+    },
+    "ikukyu#3": {
+      "url": "https://prdurbanostymapp1.blob.core.windows.net/common-article/673afe012f6d4a56ef176b0c/%E4%BB%A4%E5%92%8C9%E5%B9%B4%E5%BA%A6%E3%82%AC%E3%82%A4%E3%83%89.pdf",
+      "quote": "申請される方は、申請書類一式のコピーを取ってからご申請ください。"
+    },
+    "notes.0": {
+      "url": "https://prdurbanostymapp1.blob.core.windows.net/common-article/673afe012f6d4a56ef176b0c/%E4%BB%A4%E5%92%8C9%E5%B9%B4%E5%BA%A6%E3%82%AC%E3%82%A4%E3%83%89.pdf",
+      "quote": "入所保留通知書が届いた方については、第1希望園にて待機登録とし、令和9年度中は毎月入園調整を行います。"
+    },
+    "notes.1": {
+      "url": "https://prdurbanostymapp1.blob.core.windows.net/common-article/673afe012f6d4a56ef176b0c/%E4%BB%A4%E5%92%8C9%E5%B9%B4%E5%BA%A6%E3%82%AC%E3%82%A4%E3%83%89.pdf",
+      "quote": "年度内に市内の園への転園はできません。転園希望の方は、次年度の4月入園申請時にお申し込みください。"
+    },
+    "notes.2": {
+      "url": "https://prdurbanostymapp1.blob.core.windows.net/common-article/673afe012f6d4a56ef176b0c/%E4%BB%A4%E5%92%8C9%E5%B9%B4%E5%BA%A6%E3%82%AC%E3%82%A4%E3%83%89.pdf",
+      "quote": "保育環境により入園が難しい場合があるので、入園申請の前に必ずこども保育課にご相談ください。"
+    },
+    "notes.2#2": {
+      "url": "https://prdurbanostymapp1.blob.core.windows.net/common-article/673afe012f6d4a56ef176b0c/%E4%BB%A4%E5%92%8C9%E5%B9%B4%E5%BA%A6%E3%82%AC%E3%82%A4%E3%83%89.pdf",
+      "quote": "食物アレルギーや障害のあるお子さん、医療的配慮（たん吸引等）を必要とするお子さんなど、特別な支援が必要な場合には、"
+    },
+    "notes.3": {
+      "url": "https://prdurbanostymapp1.blob.core.windows.net/common-article/673afe012f6d4a56ef176b0c/%E4%BB%A4%E5%92%8C9%E5%B9%B4%E5%BA%A6%E3%82%AC%E3%82%A4%E3%83%89.pdf",
+      "quote": "市外にお住まいの方で、利用開始日までに転入予定の方は、津山市の受付期間内に、津山市の申請書類を用いて申請をしてください。"
+    },
+    "notes.4": {
+      "url": "https://prdurbanostymapp1.blob.core.windows.net/common-article/673afe012f6d4a56ef176b0c/%E4%BB%A4%E5%92%8C9%E5%B9%B4%E5%BA%A6%E3%82%AC%E3%82%A4%E3%83%89.pdf",
+      "quote": "ご質問がある場合は申請までに必ずお尋ねいただきますようお願いします。申請受付後や結果通知後に、認定や入所決定内容に関するお問い合わせには対応できません。"
+    },
+    "notes.5": {
+      "url": "https://prdurbanostymapp1.blob.core.windows.net/common-article/673afe012f6d4a56ef176b0c/%E4%BB%A4%E5%92%8C9%E5%B9%B4%E5%BA%A6%E3%82%AC%E3%82%A4%E3%83%89.pdf",
+      "quote": "令和9年4月以降の入園希望の募集対象者は次の通りです。※出生前の申請はできません。"
+    }
+  },
+  "sources": [
+    {
+      "label": "津山市「令和9年度 津山市教育・保育施設利用ガイド」",
+      "url": "https://prdurbanostymapp1.blob.core.windows.net/common-article/673afe012f6d4a56ef176b0c/%E4%BB%A4%E5%92%8C9%E5%B9%B4%E5%BA%A6%E3%82%AC%E3%82%A4%E3%83%89.pdf"
+    },
+    {
+      "label": "津山市「令和9年度の入園希望について」",
+      "url": "https://www.city.tsuyama.lg.jp/article?articleId=673afe012f6d4a56ef176b0c"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "citySlug": "sennan",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "泉南市「令和9年度保育施設等入園の御案内」",
+    "url": "https://www.city.sennan.lg.jp/kakuka/kenkoukodomo/hoikukodomo/hoikushisetu/12597.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年11月2日（月曜日）から入園申込書を配布。配布場所は保育子ども課（平日午前9時〜午後5時30分）と各保育園・認定こども園・小規模保育事業所（在園児の保護者に限る）。同日から市ホームページに入園案内と申請書類を掲載する予定",
+  "firstApply": "令和8年11月16日（月曜日）〜令和8年11月30日（月曜日）。受付時間は平日午前9時〜午後4時で、令和8年11月29日（日曜日）は休日開庁する",
+  "applyMethods": "保育子ども課の窓口で受け付ける。郵送不可",
+  "midYearDeadline": "年度途中（5月〜2月）の入園は、保育認定要件を満たす入園希望月の3か月前から前月15日まで（土日祝の場合は前開庁日）に申し込む。3月入園は行っていない",
+  "notes": [
+    "対象は令和3年4月2日〜令和8年11月30日生まれの子ども（住民登録のある人）。令和8年12月1日以降生まれの子どもは保育子ども課に問い合わせる",
+    "期間内に提出しなかった場合は期間外受付となり、期間内に受付した人が優先される",
+    "令和8年度中に申し込んで入園できていない人も、再度の申込みが必要",
+    "入園歳児は、年度当初・年度途中の入園にかかわらず、その年度の4月1日時点の年齢で決まる",
+    "小規模保育事業所は0歳児〜2歳児（令和6年4月2日以降生まれ）までが申込みでき、認定こども園砂川幼稚園は3歳児〜5歳児が申込みできる"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.sennan.lg.jp/kakuka/kenkoukodomo/hoikukodomo/hoikushisetu/12597.html",
+      "quote": "年度当初（令和9年4月入園）の入園申込み"
+    },
+    "guideRelease": {
+      "url": "https://www.city.sennan.lg.jp/kakuka/kenkoukodomo/hoikukodomo/hoikushisetu/12597.html",
+      "quote": "令和8年11月2日（月曜日）より入園案内と申請書類を掲載する予定です。"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.sennan.lg.jp/kakuka/kenkoukodomo/hoikukodomo/hoikushisetu/12597.html",
+      "quote": "入園申込書配布 令和8年11月2日(月曜日)から ・保育子ども課 平日午前9時～午後5時30分 ・各保育園・認定こども園・小規模保育事業所 開設時間内(在園児の保護者に限ります。)"
+    },
+    "firstApply": {
+      "url": "https://www.city.sennan.lg.jp/kakuka/kenkoukodomo/hoikukodomo/hoikushisetu/12597.html",
+      "quote": "受付期間 令和8年11月16日（月曜日）～令和8年11月30日（月曜日） 令和8年11月29日（日曜日）に、休日開庁します。"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.sennan.lg.jp/kakuka/kenkoukodomo/hoikukodomo/hoikushisetu/12597.html",
+      "quote": "受付時間 平日午前9時～午後4時(休日開庁も同時間)"
+    },
+    "applyMethods": {
+      "url": "https://www.city.sennan.lg.jp/kakuka/kenkoukodomo/hoikukodomo/hoikushisetu/12597.html",
+      "quote": "受付場所 保育子ども課 郵送不可"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.sennan.lg.jp/kakuka/kenkoukodomo/hoikukodomo/hoikushisetu/11344.html",
+      "quote": "保育認定要件を満たす入園希望月の3か月前から前月15日まで(土日祝の場合は、前開庁日)"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.sennan.lg.jp/kakuka/kenkoukodomo/hoikukodomo/hoikushisetu/11344.html",
+      "quote": "年度途中(5月～2月)の入園申込(3月入園は行っておりません)"
+    },
+    "notes.0": {
+      "url": "https://www.city.sennan.lg.jp/kakuka/kenkoukodomo/hoikukodomo/hoikushisetu/12597.html",
+      "quote": "令和3年4月2日～令和8年11月30日生まれの子ども（住民登録のある方） 令和8年12月1日以降生まれの子どもについては、保育子ども課へお問い合わせください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.sennan.lg.jp/kakuka/kenkoukodomo/hoikukodomo/hoikushisetu/12597.html",
+      "quote": "期間内に提出していただけなかった場合、期間外受付となり期間内に受付した方が優先となりますので御注意ください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.sennan.lg.jp/kakuka/kenkoukodomo/hoikukodomo/hoikushisetu/12597.html",
+      "quote": "令和8年度中に申込みをされた方で入園できていない方も再度申込みが必要です。"
+    },
+    "notes.3": {
+      "url": "https://www.city.sennan.lg.jp/kakuka/kenkoukodomo/hoikukodomo/hoikushisetu/12597.html",
+      "quote": "年度当初の入園・年度途中の入園にかかわらず、その年度の4月1日時点の年齢で入園歳児が決定します。"
+    },
+    "notes.4": {
+      "url": "https://www.city.sennan.lg.jp/kakuka/kenkoukodomo/hoikukodomo/hoikushisetu/12597.html",
+      "quote": "小規模保育事業所は、0歳児～2歳児(令和6年4月2日以降生まれ)までが入園申込みできます。"
+    },
+    "notes.4#2": {
+      "url": "https://www.city.sennan.lg.jp/kakuka/kenkoukodomo/hoikukodomo/hoikushisetu/12597.html",
+      "quote": "認定こども園砂川幼稚園は、3歳児～5歳児(令和3年4月2日～令和6年4月1日生まれ)が入園申込みできます。"
+    }
+  },
+  "sources": [
+    {
+      "label": "泉南市「令和9年度保育施設等入園の御案内」",
+      "url": "https://www.city.sennan.lg.jp/kakuka/kenkoukodomo/hoikukodomo/hoikushisetu/12597.html"
+    },
+    {
+      "label": "泉南市「令和8年度保育施設等入園の御案内」",
+      "url": "https://www.city.sennan.lg.jp/kakuka/kenkoukodomo/hoikukodomo/hoikushisetu/11344.html"
+    }
+  ]
+}

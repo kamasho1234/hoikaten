@@ -209,6 +209,7 @@ import okinawa from "./okinawa.json";
 import ome from "./ome.json";
 import omura from "./omura.json";
 import omuta from "./omuta.json";
+import onojo from "./onojo.json";
 import onomichi from "./onomichi.json";
 import osaka from "./osaka.json";
 import osakasayama from "./osakasayama.json";
@@ -219,20 +220,29 @@ import otaGunma from "./ota-gunma.json";
 import otaru from "./otaru.json";
 import otsu from "./otsu.json";
 import oyama from "./oyama.json";
+import ryugasaki from "./ryugasaki.json";
 import saga from "./saga.json";
 import sagamihara from "./sagamihara.json";
 import saitama from "./saitama.json";
+import sakado from "./sakado.json";
 import sakai from "./sakai.json";
+import sakata from "./sakata.json";
 import sakura from "./sakura.json";
+import sanda from "./sanda.json";
 import sano from "./sano.json";
+import sanyoonoda from "./sanyoonoda.json";
 import sapporo from "./sapporo.json";
 import sasebo from "./sasebo.json";
+import satsumasendai from "./satsumasendai.json";
 import sayama from "./sayama.json";
+import seki from "./seki.json";
 import sendai from "./sendai.json";
+import sennan from "./sennan.json";
 import setagaya from "./setagaya.json";
 import settsu from "./settsu.json";
 import shibuya from "./shibuya.json";
 import shijonawate from "./shijonawate.json";
+import shiki from "./shiki.json";
 import shimonoseki from "./shimonoseki.json";
 import shinagawa from "./shinagawa.json";
 import shinjuku from "./shinjuku.json";
@@ -242,19 +252,30 @@ import suginami from "./suginami.json";
 import suita from "./suita.json";
 import sumida from "./sumida.json";
 import suzuka from "./suzuka.json";
+import tagajo from "./tagajo.json";
 import taito from "./taito.json";
+import tajimi from "./tajimi.json";
 import takamatsu from "./takamatsu.json";
+import takaoka from "./takaoka.json";
 import takarazuka from "./takarazuka.json";
 import takasaki from "./takasaki.json";
 import takatsuki from "./takatsuki.json";
+import tama from "./tama.json";
+import tenri from "./tenri.json";
 import tochigiCity from "./tochigi-city.json";
+import toda from "./toda.json";
+import tokai from "./tokai.json";
 import tokorozawa from "./tokorozawa.json";
 import tokushima from "./tokushima.json";
+import tomakomai from "./tomakomai.json";
+import tomigusuku from "./tomigusuku.json";
+import tomiya from "./tomiya.json";
 import tondabayashi from "./tondabayashi.json";
 import toride from "./toride.json";
 import toshima from "./toshima.json";
 import tottori from "./tottori.json";
 import toyama from "./toyama.json";
+import toyoake from "./toyoake.json";
 import toyohashi from "./toyohashi.json";
 import toyokawa from "./toyokawa.json";
 import toyonaka from "./toyonaka.json";
@@ -262,16 +283,31 @@ import toyota from "./toyota.json";
 import tsu from "./tsu.json";
 import tsuchiura from "./tsuchiura.json";
 import tsukuba from "./tsukuba.json";
+import tsuruoka from "./tsuruoka.json";
+import tsuyama from "./tsuyama.json";
+import ueda from "./ueda.json";
+import uji from "./uji.json";
 import urayasu from "./urayasu.json";
+import uruma from "./uruma.json";
+import ushiku from "./ushiku.json";
 import wakayama from "./wakayama.json";
+import wako from "./wako.json";
+import warabi from "./warabi.json";
 import yachiyo from "./yachiyo.json";
+import yaizu from "./yaizu.json";
 import yamagata from "./yamagata.json";
 import yamaguchi from "./yamaguchi.json";
 import yamato from "./yamato.json";
+import yamatokooriyama from "./yamatokooriyama.json";
 import yao from "./yao.json";
+import yashio from "./yashio.json";
+import yatsushiro from "./yatsushiro.json";
 import yokkaichi from "./yokkaichi.json";
 import yokohama from "./yokohama.json";
 import yokosuka from "./yokosuka.json";
+import yonago from "./yonago.json";
+import yoshikawa from "./yoshikawa.json";
+import zama from "./zama.json";
 
 // JSON の文字列は union 型に狭まらないので、ここで型を付ける。
 // 値の検査は scripts/verify-fact-records.py が行う
@@ -484,6 +520,7 @@ export const hokatsuRecords: HokatsuRecord[] = [
   ome as HokatsuRecord,
   omura as HokatsuRecord,
   omuta as HokatsuRecord,
+  onojo as HokatsuRecord,
   onomichi as HokatsuRecord,
   osaka as HokatsuRecord,
   osakasayama as HokatsuRecord,
@@ -494,20 +531,29 @@ export const hokatsuRecords: HokatsuRecord[] = [
   otaru as HokatsuRecord,
   otsu as HokatsuRecord,
   oyama as HokatsuRecord,
+  ryugasaki as HokatsuRecord,
   saga as HokatsuRecord,
   sagamihara as HokatsuRecord,
   saitama as HokatsuRecord,
+  sakado as HokatsuRecord,
   sakai as HokatsuRecord,
+  sakata as HokatsuRecord,
   sakura as HokatsuRecord,
+  sanda as HokatsuRecord,
   sano as HokatsuRecord,
+  sanyoonoda as HokatsuRecord,
   sapporo as HokatsuRecord,
   sasebo as HokatsuRecord,
+  satsumasendai as HokatsuRecord,
   sayama as HokatsuRecord,
+  seki as HokatsuRecord,
   sendai as HokatsuRecord,
+  sennan as HokatsuRecord,
   setagaya as HokatsuRecord,
   settsu as HokatsuRecord,
   shibuya as HokatsuRecord,
   shijonawate as HokatsuRecord,
+  shiki as HokatsuRecord,
   shimonoseki as HokatsuRecord,
   shinagawa as HokatsuRecord,
   shinjuku as HokatsuRecord,
@@ -517,19 +563,30 @@ export const hokatsuRecords: HokatsuRecord[] = [
   suita as HokatsuRecord,
   sumida as HokatsuRecord,
   suzuka as HokatsuRecord,
+  tagajo as HokatsuRecord,
   taito as HokatsuRecord,
+  tajimi as HokatsuRecord,
   takamatsu as HokatsuRecord,
+  takaoka as HokatsuRecord,
   takarazuka as HokatsuRecord,
   takasaki as HokatsuRecord,
   takatsuki as HokatsuRecord,
+  tama as HokatsuRecord,
+  tenri as HokatsuRecord,
   tochigiCity as HokatsuRecord,
+  toda as HokatsuRecord,
+  tokai as HokatsuRecord,
   tokorozawa as HokatsuRecord,
   tokushima as HokatsuRecord,
+  tomakomai as HokatsuRecord,
+  tomigusuku as HokatsuRecord,
+  tomiya as HokatsuRecord,
   tondabayashi as HokatsuRecord,
   toride as HokatsuRecord,
   toshima as HokatsuRecord,
   tottori as HokatsuRecord,
   toyama as HokatsuRecord,
+  toyoake as HokatsuRecord,
   toyohashi as HokatsuRecord,
   toyokawa as HokatsuRecord,
   toyonaka as HokatsuRecord,
@@ -537,14 +594,29 @@ export const hokatsuRecords: HokatsuRecord[] = [
   tsu as HokatsuRecord,
   tsuchiura as HokatsuRecord,
   tsukuba as HokatsuRecord,
+  tsuruoka as HokatsuRecord,
+  tsuyama as HokatsuRecord,
+  ueda as HokatsuRecord,
+  uji as HokatsuRecord,
   urayasu as HokatsuRecord,
+  uruma as HokatsuRecord,
+  ushiku as HokatsuRecord,
   wakayama as HokatsuRecord,
+  wako as HokatsuRecord,
+  warabi as HokatsuRecord,
   yachiyo as HokatsuRecord,
+  yaizu as HokatsuRecord,
   yamagata as HokatsuRecord,
   yamaguchi as HokatsuRecord,
   yamato as HokatsuRecord,
+  yamatokooriyama as HokatsuRecord,
   yao as HokatsuRecord,
+  yashio as HokatsuRecord,
+  yatsushiro as HokatsuRecord,
   yokkaichi as HokatsuRecord,
   yokohama as HokatsuRecord,
   yokosuka as HokatsuRecord,
+  yonago as HokatsuRecord,
+  yoshikawa as HokatsuRecord,
+  zama as HokatsuRecord,
 ];

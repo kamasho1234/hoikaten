@@ -3,18 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "yashio",
-    title: "八潮市の保活スケジュール　令和8年度4月入園の流れ",
-    description: "八潮市の認可保育施設の申込時期・選考の流れ・結果通知の時期をわかりやすく解説。令和8年度4月入園のスケジュールを中心にまとめました。",
-    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    category: "保活の基本",
-    categoryColor: "green",
-    content: `<h2>令和8年度4月入園のスケジュール</h2><p>八潮市は埼玉県南東部に位置し、人口約9万5千人。東京都足立区に隣接し、つくばエクスプレス（TX）八潮駅があり、交通の利便性が高い地域です。共働き世帯が多く保育需要が高い地域です。申込先は八潮市子ども未来部保育課です。</p><h3>一次利用調整</h3><table><tr><th>項目</th><th>日程</th></tr><tr><td>申込受付期間</td><td>令和7年10月中旬〜11月上旬</td></tr><tr><td>結果通知</td><td>令和8年1月中旬</td></tr></table><h3>二次利用調整</h3><table><tr><th>項目</th><th>日程</th></tr><tr><td>申込受付期間</td><td>令和8年2月上旬〜2月中旬</td></tr><tr><td>結果通知</td><td>令和8年3月上旬</td></tr></table><div class="point-box"><p><strong>ポイント</strong></p><p>八潮市の選考指数は父母各20点の合計40点満点です。フルタイム共働きで40点が基本ラインです。</p></div>`,
-    publishedAt: "2026-05-15",
-    popularity: 36,
-  },
-  {
     slug: "hokatsu-mistakes",
     citySlug: "yashio",
     title: "八潮市の保活でよくある失敗と対策5選",

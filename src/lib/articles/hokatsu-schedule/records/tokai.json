@@ -1,0 +1,184 @@
+{
+  "citySlug": "tokai",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "東海市「令和9年度一斉入所の受付」",
+    "url": "https://www.city.tokai.aichi.jp/kosodate/1002180/1010882/1010892/1010901.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "一斉入所の申込書類は9月28日（月曜日）・29日（火曜日）・30日（水曜日）に配布。会場受付・郵送受付で申し込む場合は書類配布への参加が必要",
+  "firstApply": "郵送受付・オンライン受付は10月1日（木曜日）〜19日（月曜日）必着。会場受付は10月20日（火曜日）〜10月22日（木曜日）の午前9時〜午後3時、市役所地下大会議室。仮受付となった場合の不備書類の提出締切は令和8年11月6日（金曜日）",
+  "applyMethods": "会場受付（市役所地下大会議室）、郵送受付（幼児保育課へ送付）、オンライン受付（マイナポータル。マイナンバーカードと読み取り機器が必要）の3通り。受付方法による有利不利は無い",
+  "firstResult": "10月の一斉入所受付分の入所園の決定時期は令和9年2月下旬ごろ",
+  "secondApply": "一斉入所の後は随時入所として11月2日（月曜日）から窓口（幼児保育課）とオンラインで受付。4月入園を希望する場合の提出期限は令和9年3月10日（水曜日）",
+  "midYearDeadline": "5月入園は令和9年3月11日（木曜日）〜4月20日（火曜日）が受付期間。6月以降の入園は入所希望月の前々月の21日から前月の20日までが受付期間",
+  "documents": [
+    "入所申込書（児童1人ごとに1枚）",
+    "受付票（印刷して記入し、書類配布の会場に持参）",
+    "保育の必要な事由に応じた書類（就労・自営は所定様式の就労証明書など）。保護者それぞれの分が必要",
+    "育児休業から復職する予約申込の場合は、ならし保育等申込書（ならし保育を希望しない場合も提出）",
+    "令和9年1月2日以降に東海市に転入した人は、令和8年度・令和9年度の市町村民税課税額を証明する書類か個人番号（マイナンバー）申告書"
+  ],
+  "interview": "入所前に健康診断、入所後に内科健診と歯科検診の受診が必要。公立保育園の一斉入所申込者は受診料不要",
+  "ikukyu": "育児休業期間終了日が令和10年3月30日までなら、育児休業明け予約入所として年度途中の入所を承諾する。2歳児以下のクラスは育児休業中に入園できない。希望施設に空きが無く待機となった場合は入所不承諾通知（入所保留通知）を発行する",
+  "notes": [
+    "求職活動を事由とする人は一斉入所では申し込めず、1月以降の求職活動向けの受付で申し込む",
+    "転入予定の人が一斉入所で応募するには、転入予定日が令和9年3月19日以前であることが必要",
+    "私立認可施設は各年齢の定員を「4月入所枠」と「育児休業上限枠」に分けて選考する（公立保育園は枠を設けない）",
+    "入所決定は先着順ではないので、会場受付の初日に急ぐ必要はない",
+    "令和8年度に申し込んで令和8年9月1日時点で入所が決まっていない児童は、令和9年度の申込が別途必要",
+    "書類配布に参加していない人がオンライン受付を選ぶと、後から会場受付や郵送受付に切り替えられない"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.tokai.aichi.jp/kosodate/1002180/1010882/1010892/1010901.html",
+      "quote": "一斉入所受付での申込は、原則、申込時点で東海市に住民票があり、令和9年4月1日時点で保護者それぞれに「保育の必要な事由」がある方が対象となります。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.tokai.aichi.jp/kosodate/1002180/1010882/1010892/1010901.html",
+      "quote": "会場受付をするには、9月28日(月曜日)・29日(火曜日)・30日(水曜日)の書類配布に参加していただく必要があります。"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.tokai.aichi.jp/kosodate/1002180/1010882/1010892/1010901.html",
+      "quote": "会場受付、郵送受付で受付を行う場合は、書類配布へ参加していただく必要があります。"
+    },
+    "firstApply": {
+      "url": "https://www.city.tokai.aichi.jp/kosodate/1002180/1010882/1010892/1010901.html",
+      "quote": "受付日　10月1日(木曜日)～19日(月曜日)必着"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.tokai.aichi.jp/kosodate/1002180/1010882/1010892/1010901.html",
+      "quote": "受付日　10月20日(火曜日)～10月22日(木曜日) 受付時間　午前9時～午後3時 受付場所　市役所地下大会議室"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.tokai.aichi.jp/kosodate/1002180/1010882/1010892/1010901.html",
+      "quote": "仮受付となった場合は、不備提出締切日(令和8年11月6日(金曜日))までに修正した書類等を提出していただきます。"
+    },
+    "firstApply#4": {
+      "url": "https://www.city.tokai.aichi.jp/kosodate/1002180/1010882/1010892/1010901.html",
+      "quote": "令和9年度中に保育施設の入所を希望される方の受付を10月から開始します。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.tokai.aichi.jp/kosodate/1002180/1010882/1010892/1010901.html",
+      "quote": "オンライン受付とその他の受付方法とで有利不利はありません。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.tokai.aichi.jp/kosodate/1002180/1010882/1010892/1010901.html",
+      "quote": "申請にはマイナンバーカードおよびマイナンバーカードの読み取りができる機器(ICカードリーダライタまたは、マイナポータルアプリがインストールされているスマートフォン)が必要です。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.tokai.aichi.jp/kosodate/1002180/1010882/1010892/1010901.html",
+      "quote": "送付先　幼児保育課 期日を過ぎた場合、受付できませんのでご注意ください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.tokai.aichi.jp/_res/projects/default_project/_page_/001/010/893/r9moushikominituite.pdf",
+      "quote": "入所園の決定時期は、１０月の一斉入所受付分が、令和９年２月下旬ごろとなります。"
+    },
+    "secondApply": {
+      "url": "https://www.city.tokai.aichi.jp/kosodate/1002180/1010882/1010892/1011392.html",
+      "quote": "受付場所　幼児保育課 受付開始日　11月2日(月曜日)～"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.tokai.aichi.jp/kosodate/1002180/1010882/1010892/1011392.html",
+      "quote": "4月入園を希望する方の提出期限は令和9年3月10日(水曜日)です。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.tokai.aichi.jp/kosodate/1002180/1010882/1010892/1011392.html",
+      "quote": "5月入園を希望する場合は令和9年3月11日(木曜日)から令和9年4月20日(火曜日)までが受付期間です。"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.tokai.aichi.jp/kosodate/1002180/1010882/1010892/1011392.html",
+      "quote": "6月以降の入園希望については、入所希望月の前々月の21日(市役所閉庁日の場合は翌営業日)から前月の20日(市役所閉庁日の場合は前営業日)までが受付期間です。"
+    },
+    "documents.0": {
+      "url": "https://www.city.tokai.aichi.jp/_res/projects/default_project/_page_/001/010/893/r9moushikominituite.pdf",
+      "quote": "申込者は、児童１人ごとにそれぞれ１枚の申込書を提出してください。"
+    },
+    "documents.1": {
+      "url": "https://www.city.tokai.aichi.jp/kosodate/1002180/1010882/1010892/1010901.html",
+      "quote": "受付票を印刷し、御記入の上、配布場所へお持ちください。"
+    },
+    "documents.2": {
+      "url": "https://www.city.tokai.aichi.jp/_res/projects/default_project/_page_/001/010/893/r9moushikominituite.pdf",
+      "quote": "保護者ごとに保育の必要性の確認をしますので、保護者それぞれの書類が必要となります。"
+    },
+    "documents.2#2": {
+      "url": "https://www.city.tokai.aichi.jp/kosodate/1002180/1010882/1010892/1009105.html",
+      "quote": "就労証明書は、御自身では記入せず事業所の方に記入の依頼をしていただくようにお願いします。"
+    },
+    "documents.3": {
+      "url": "https://www.city.tokai.aichi.jp/kosodate/1002180/1010882/1010892/1009105.html",
+      "quote": "ならし保育等申込書はならし保育を希望しない場合も提出が必要です。"
+    },
+    "documents.4": {
+      "url": "https://www.city.tokai.aichi.jp/_res/projects/default_project/_page_/001/010/893/r9moushikominituite.pdf",
+      "quote": "令和８年度及び令和９年度市町村民税課税額を証明する書類（市町村民税課税証明書等）又は、個人番号（マイナンバー）申告書が必要となります。"
+    },
+    "documents.4#2": {
+      "url": "https://www.city.tokai.aichi.jp/_res/projects/default_project/_page_/001/010/893/r9moushikominituite.pdf",
+      "quote": "令和９年（２０２７年）１月２日以降に東海市に転入された方"
+    },
+    "interview": {
+      "url": "https://www.city.tokai.aichi.jp/_res/projects/default_project/_page_/001/010/893/r9moushikominituite.pdf",
+      "quote": "保育所等では入所前に健康診断、入所後に内科健診及び歯科検診の受診が必要です。"
+    },
+    "interview#2": {
+      "url": "https://www.city.tokai.aichi.jp/_res/projects/default_project/_page_/001/010/893/r9moushikominituite.pdf",
+      "quote": "なお、公立保育園の場合、一斉入所申込者については、受診料は必要ありません。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.tokai.aichi.jp/_res/projects/default_project/_page_/001/010/893/r9moushikominituite.pdf",
+      "quote": "保育所等では、育児休業期間終了日が令和１０年３月３０日までの方について、育児休業明け予約入所として年度途中での入所の承諾を行います。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.tokai.aichi.jp/kosodate/1002180/1010882/1010892/1009105.html",
+      "quote": "2歳児以下のクラスでは、育児休業中に入園することはできませんが、申込年度中に育児休業から復職する場合に限り、予約申し込みが可能です。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.tokai.aichi.jp/_res/projects/default_project/_page_/001/010/893/r9moushikominituite.pdf",
+      "quote": "希望施設に空きがない場合は、待機となります。その場合は入所不承諾通知（入所保留通知）を発行します。"
+    },
+    "notes.0": {
+      "url": "https://www.city.tokai.aichi.jp/kosodate/1002180/1010882/1010892/1010901.html",
+      "quote": "求職活動の方は1月以降の求職活動の方向けの受付で申し込みをしてください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.tokai.aichi.jp/kosodate/1002180/1010882/1010892/1010901.html",
+      "quote": "なお、一斉入所で応募するには、転入予定日が令和9年3月19日以前であることが必要です。"
+    },
+    "notes.2": {
+      "url": "https://www.city.tokai.aichi.jp/kosodate/1002180/1010882/1010892/1010901.html",
+      "quote": "私立認可保育施設の運営支援のため、市内私立認可施設の各年齢の定員を「4月入所枠」と「育児休業上限枠」に分け、育児休業枠は上限が設定されます。なお、公立保育園は枠の設定は行いません。"
+    },
+    "notes.3": {
+      "url": "https://www.city.tokai.aichi.jp/kosodate/1002180/1010882/1010892/1010901.html",
+      "quote": "入所決定は先着順ではありませんので、お時間に余裕をもってお越しいただくか、他の日時にお越しください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.tokai.aichi.jp/kosodate/1002180/1010882/1010892/1010901.html",
+      "quote": "令和8年度入所申込をしているが、令和8年9月1日時点で入所が決定(育休明けの内定予約も含む)していない児童については令和9年度の申込が別途必要です。"
+    },
+    "notes.5": {
+      "url": "https://www.city.tokai.aichi.jp/kosodate/1002180/1010882/1010892/1010901.html",
+      "quote": "オンライン受付は申請が複雑ですが、書類配布に参加していない場合、後から会場受付や郵送受付に切り替えることができません。"
+    }
+  },
+  "sources": [
+    {
+      "label": "東海市「令和9年度一斉入所の受付」",
+      "url": "https://www.city.tokai.aichi.jp/kosodate/1002180/1010882/1010892/1010901.html"
+    },
+    {
+      "label": "東海市「令和9年度随時入所の受付」",
+      "url": "https://www.city.tokai.aichi.jp/kosodate/1002180/1010882/1010892/1011392.html"
+    },
+    {
+      "label": "東海市「入所申込について（保育所・認定こども園・小規模保育事業）令和9年度」",
+      "url": "https://www.city.tokai.aichi.jp/_res/projects/default_project/_page_/001/010/893/r9moushikominituite.pdf"
+    },
+    {
+      "label": "東海市「保育の必要な事由・必要な書類」",
+      "url": "https://www.city.tokai.aichi.jp/kosodate/1002180/1010882/1010892/1009105.html"
+    }
+  ]
+}

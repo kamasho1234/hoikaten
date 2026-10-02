@@ -1,0 +1,135 @@
+{
+  "citySlug": "tagajo",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "多賀城市「保育所の入所申し込み」",
+    "url": "https://www.city.tagajo.miyagi.jp/hoiku/kosodate/hoikujo/hoikujoshinsei.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "10月6日（火）〜10月28日（水）に入所案内を配布。市ホームページからダウンロードでき、子ども政策課窓口（市役所北庁舎2階）でも配布。窓口で説明も希望する場合は事前予約（配布予約期間は9月14日〜10月27日、市公式LINEの友だち登録が必要）",
+  "firstApply": "10月29日（木）〜11月18日（水）。受付は完全予約制で、申請予約期間は10月15日（木）〜11月17日（火）。受付時間は9時30分〜15時30分",
+  "applyMethods": "子ども政策課（市役所北庁舎2階25番窓口）に、必ず事前に予約したうえで申請する子どもと一緒に来庁して申請する。予約は市公式LINEの友だち登録をして二次元コードから行う",
+  "firstResult": "12月末頃に、申請のあった全世帯へ支給認定証を送付。認可保育所の場合は、面接の結果として入所が可能かどうかを令和9年3月頃に市から通知する",
+  "midYearDeadline": "入所希望日の3か月前から受付し、締切は入所を希望する月の前月10日（10日が土日祝の場合は翌開庁日）",
+  "interview": "入所調整がついた場合、各保育所等で1月中旬頃に個別面接があり、子どもの発達の様子と家庭の状況を確認する。認定こども園・小規模保育事業所等に調整された場合は、園から直接面接日の連絡がある",
+  "notes": [
+    "現在、令和8年度中の入所を待っている場合も、改めて令和9年度の入所申請が必要",
+    "認定こども園の幼稚園部分と事業所内保育事業所の従業員枠を希望する場合は、施設へ直接申し込む",
+    "公立保育所の統廃合に伴い、志引保育所は希望できない",
+    "令和9年度から桜木花園幼稚園が幼保連携型認定こども園に移行し、保育所部分での入所を希望できるようになる",
+    "入所申請は子どもの出生後から受け付ける",
+    "多賀城市への転入が決まっている人（検討中は不可）は転入前でも申請できる"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.tagajo.miyagi.jp/koho/shise/koho/documents/3-202609-nandi.pdf",
+      "quote": "就労などで保育が必要な世帯の未就学児の保護者で、市内の保育所などに令和９年４月１日～６月１日の間に入所を希望する人"
+    },
+    "guideRelease": {
+      "url": "https://www.city.tagajo.miyagi.jp/koho/shise/koho/documents/3-202609-nandi.pdf",
+      "quote": "●入所案内配布期間 10月６日㊋～28日㊌"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.tagajo.miyagi.jp/koho/shise/koho/documents/3-202609-nandi.pdf",
+      "quote": "●配布方法 市HPからダウンロード。子ども政策課窓口（市役所北庁舎２階）でも配布"
+    },
+    "guideRelease#3": {
+      "url": "https://www.city.tagajo.miyagi.jp/koho/shise/koho/documents/3-202609-nandi.pdf",
+      "quote": "＊窓口配布と合わせて説明を希望する場合、事前に予約が必要です。"
+    },
+    "guideRelease#4": {
+      "url": "https://www.city.tagajo.miyagi.jp/koho/shise/koho/documents/3-202609-nandi.pdf",
+      "quote": "（配布予約期間：９月14日㊊～10月27日㊋）"
+    },
+    "firstApply": {
+      "url": "https://www.city.tagajo.miyagi.jp/koho/shise/koho/documents/3-202609-nandi.pdf",
+      "quote": "●入所申請受付期間 10月29日㊍～11月18日㊌"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.tagajo.miyagi.jp/koho/shise/koho/documents/3-202609-nandi.pdf",
+      "quote": "＊入所申請受け付けは完全予約制です。右記のQRコードから予約してください。"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.tagajo.miyagi.jp/koho/shise/koho/documents/3-202609-nandi.pdf",
+      "quote": "（申請予約期間 10月15日㊍～11月17日㊋）"
+    },
+    "firstApply#4": {
+      "url": "https://www.city.tagajo.miyagi.jp/koho/shise/koho/documents/3-202609-nandi.pdf",
+      "quote": "期間：1０月２９日㊍〜１１月１８日㊌ 受付時間 ９時30分〜15時30分（完全予約制）"
+    },
+    "applyMethods": {
+      "url": "https://www.city.tagajo.miyagi.jp/koho/shise/koho/documents/3-202609-nandi.pdf",
+      "quote": "場所：子ども政策課（市役所北庁舎２階２５番窓口） ＊必ず事前に予約の上、申請するお子さんと一緒に来庁してください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.tagajo.miyagi.jp/koho/shise/koho/documents/3-202609-nandi.pdf",
+      "quote": "＊市公式LINEの友だち登録が必要です。"
+    },
+    "firstResult": {
+      "url": "https://www.city.tagajo.miyagi.jp/koho/shise/koho/documents/3-202609-nandi.pdf",
+      "quote": "12月末頃に、申請のあった「全世帯」に送付します（市外在住の世帯は転入後に送付します）。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.tagajo.miyagi.jp/koho/shise/koho/documents/3-202609-nandi.pdf",
+      "quote": "面接の結果、保育所への入所が可能か、"
+    },
+    "firstResult#3": {
+      "url": "https://www.city.tagajo.miyagi.jp/koho/shise/koho/documents/3-202609-nandi.pdf",
+      "quote": "令和9年３月頃に本市から通知します。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.tagajo.miyagi.jp/hoiku/kosodate/hoikujo/hoikujoshinsei.html",
+      "quote": "申請は、入所希望日の3か月前から受付します。申請の締め切りは、入所を希望する日の属する月の前月の10日（10日が土日祝の場合は翌開庁日）です。"
+    },
+    "interview": {
+      "url": "https://www.city.tagajo.miyagi.jp/koho/shise/koho/documents/3-202609-nandi.pdf",
+      "quote": "１月中旬頃に個別面接を実施します。お子さんの発達の様子と家庭の状況を確認します。"
+    },
+    "interview#2": {
+      "url": "https://www.city.tagajo.miyagi.jp/koho/shise/koho/documents/3-202609-nandi.pdf",
+      "quote": "認定こども園・小規模保育事業所等に調整された場合は、"
+    },
+    "interview#3": {
+      "url": "https://www.city.tagajo.miyagi.jp/koho/shise/koho/documents/3-202609-nandi.pdf",
+      "quote": "直接園から面接日を連絡します。"
+    },
+    "notes.0": {
+      "url": "https://www.city.tagajo.miyagi.jp/koho/shise/koho/documents/3-202609-nandi.pdf",
+      "quote": "・現時点で令和８年度中の入所を待っている場合、改めて令和９年度の入所申請が必要です。"
+    },
+    "notes.1": {
+      "url": "https://www.city.tagajo.miyagi.jp/koho/shise/koho/documents/3-202609-nandi.pdf",
+      "quote": "・認定こども園の幼稚園部分および事業所内保育事業所の従業員枠の利用を希望する場合は、施設へ直接申し込んでください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.tagajo.miyagi.jp/hoiku/kosodate/hoikujo/hoikujoshinsei.html",
+      "quote": "公立保育所の統廃合に伴い、志引保育所を希望することはできません。"
+    },
+    "notes.3": {
+      "url": "https://www.city.tagajo.miyagi.jp/hoiku/kosodate/hoikujo/hoikujoshinsei.html",
+      "quote": "令和9年度より、桜木花園幼稚園が幼保連携型認定こども園に移行するため、保育所部分での入所ご希望が可能になります。"
+    },
+    "notes.4": {
+      "url": "https://www.city.tagajo.miyagi.jp/hoiku/kosodate/hoikujo/hoikujoshinsei.html",
+      "quote": "入所申請時に伺ったお子さんの様子などを参考に保育施設での受入れ状況を確認するため、入所申請はお子さんの出生後からの受け付けとさせていただいています。"
+    },
+    "notes.5": {
+      "url": "https://www.city.tagajo.miyagi.jp/hoiku/kosodate/hoikujo/hoikujoshinsei.html",
+      "quote": "多賀城市に転入することが決まっている方（検討中の場合は受け付け不可）は転入前でも申請をすることができます。"
+    }
+  },
+  "sources": [
+    {
+      "label": "多賀城市「保育所の入所申し込み」",
+      "url": "https://www.city.tagajo.miyagi.jp/hoiku/kosodate/hoikujo/hoikujoshinsei.html"
+    },
+    {
+      "label": "広報多賀城 令和8年9月号「市役所からのお知らせ」（令和9年度保育所等入所に関するご案内）",
+      "url": "https://www.city.tagajo.miyagi.jp/koho/shise/koho/documents/3-202609-nandi.pdf"
+    },
+    {
+      "label": "多賀城市「令和9年度保育所等入所案内及び入所申請受付に関するお知らせ」",
+      "url": "https://www.city.tagajo.miyagi.jp/hoiku/kosodate/hoikujo/documents/r9nyuushoannnai_nyuushosinnsei.pdf"
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "citySlug": "yaizu",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "焼津市「令和9年度4月保育所入所申込み」",
+    "url": "https://www.city.yaizu.lg.jp/child-edu/kodomo/mokuteki/day-care/hoiku/nyusho.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "2026年8月26日（水曜日）から、保育所等入所のご案内と申請書類を保育・幼稚園課（市役所本庁舎2階）、大井川市民サービスセンター（市役所大井川庁舎1階）などで配布。市内各認可保育所・認定こども園・地域型保育事業所での配布は2026年8月31日（月曜日）から2026年10月13日（火曜日）まで。市のホームページからもダウンロードできる",
+  "firstApply": "2026年9月7日（月曜日）〜2026年10月13日（火曜日）（窓口は土日・祝日を除く午前8時30分〜午後5時15分）。郵送は2026年10月13日（火曜日）必着（厳守）",
+  "applyMethods": "必要書類を保育・幼稚園課（市役所本庁舎2階）か大井川市民サービスセンター（市役所大井川庁舎1階）の窓口に提出するか、郵送で申請する。郵送の場合は書類発送後に保育・幼稚園課へメールで発送した旨を連絡する。先着順ではない",
+  "firstResult": "2027年1月下旬に郵送で通知",
+  "secondApply": "2026年10月14日（水曜日）〜2027年1月29日（金曜日）（郵送は必着）。二次選考は一次選考後に受入枠がある場合に行い、受入枠がなければ中止",
+  "secondResult": "2027年2月下旬に郵送で通知",
+  "midYearDeadline": "令和9年度5月以降の入所は2027年2月1日（月曜日）以降随時受付。入所希望月の前月の5日（休日の場合は休み明け）までに申請する",
+  "documents": [
+    "令和9年度保育所等入所申請チェック表（1世帯につき1枚）",
+    "子どものための教育・保育給付認定申請書（兼保育利用申込書）（児童1名につき1枚）",
+    "個人番号申告書兼代表保護者届出書（1世帯につき1枚）",
+    "世帯状況等調査票（1世帯につき1枚）",
+    "保育の利用を必要とする事由を証明する書類。就労の場合は就労証明書（申請日から3か月以内の証明日のもの）",
+    "児童の状況調査票（児童1名につき1枚）"
+  ],
+  "interview": "申請者に対し10月下旬から11月上旬にかけて面接（保護者と児童本人が来所、10分程度）を行う。面接日は市が決めて郵送で通知する。既に兄弟姉妹が入園している場合や求職活動、転園希望の申請者は面接対象外",
+  "ikukyu": "選考の結果、保育所等に入れない場合は「保育所利用保留通知書」を発行する。内定を辞退した場合は保留通知書に内定辞退の旨が記載される。育児休業の延長を予定している人は、提出前に記入した利用申込書類（世帯状況等調査票含む）すべての写しをとって保管しておく",
+  "notes": [
+    "出生前の児童の申し込みはできない",
+    "二次選考以降は、受け入れ可能な人数に満たなかった園に申し込んだ人のみ受け付ける",
+    "郵送の場合、発送後1週間以上経っても受付確認メールが届かなければ保育・幼稚園課に連絡する",
+    "書類に不備がある場合は、原則として不備解消後の受付となる",
+    "65歳未満の同居人等も、世帯分離にかかわらず全員分の保育の必要事由を証明する書類が必要（義務教育中の親族等は不要）"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.yaizu.lg.jp/child-edu/kodomo/mokuteki/day-care/hoiku/nyusho.html",
+      "quote": "締め切り日までに保育・幼稚園課に届いたものが令和9年度4月入所の対象となりますので、期日に余裕をもってお申し込みください。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.yaizu.lg.jp/child-edu/kodomo/mokuteki/day-care/hoiku/nyusho.html",
+      "quote": "保育所等入所のご案内と申請書類は、2026年8月26日（水曜日）から、保育・幼稚園課（市役所本庁舎2階）、大井川市民サービスセンター（市役所大井川庁舎1階）"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.yaizu.lg.jp/child-edu/kodomo/mokuteki/day-care/hoiku/nyusho.html",
+      "quote": "なお、市内各認可保育所、認定こども園、地域型保育事業所については2026年8月31日（月曜日）から2026年10月13日（火曜日）までの配布となります。"
+    },
+    "guideRelease#3": {
+      "url": "https://www.city.yaizu.lg.jp/documents/9919/r9hoikujyotounyuusyonogoannnai.pdf",
+      "quote": "また、焼津市のホームページより書類のダウンロードが可能です。"
+    },
+    "firstApply": {
+      "url": "https://www.city.yaizu.lg.jp/child-edu/kodomo/mokuteki/day-care/hoiku/nyusho.html",
+      "quote": "一次選考の受付は2026年9月7日（月曜日）から2026年10月13日（火曜日）まで 必着（厳守） です。"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.yaizu.lg.jp/documents/9919/r9hoikujyotounyuusyonogoannnai.pdf",
+      "quote": "受付期間 令和８年９月７日（月）～10月13日（火）まで（土日・祝日を除く） 午前８時 30 分～午後５時 15 分まで"
+    },
+    "applyMethods": {
+      "url": "https://www.city.yaizu.lg.jp/documents/9919/r9hoikujyotounyuusyonogoannnai.pdf",
+      "quote": "次の書類を保育・幼稚園課または大井川市民サービスセンターに提出してください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.yaizu.lg.jp/child-edu/kodomo/mokuteki/day-care/hoiku/nyusho.html",
+      "quote": "上記窓口のほか、郵送での申請を受け付けます。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.yaizu.lg.jp/child-edu/kodomo/mokuteki/day-care/hoiku/nyusho.html",
+      "quote": "申請書類の発送後、下記メールアドレスまで「申請者（保護者）氏名」、「申請児童氏名」、「申請児童の生年月日」、「申請者の連絡先」を記入の上、申請書類を発送した旨保育・幼稚園課にご連絡ください。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.yaizu.lg.jp/documents/9919/r9hoikujyotounyuusyonogoannnai.pdf",
+      "quote": "申し込み締め切りに間に合うように、必要書類をそろえて提出してください。ただし、先着順ではありません。"
+    },
+    "firstResult": {
+      "url": "https://www.city.yaizu.lg.jp/child-edu/kodomo/mokuteki/day-care/hoiku/nyusho.html",
+      "quote": "結果については、2027年1月下旬に郵送にて通知します。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.yaizu.lg.jp/child-edu/kodomo/mokuteki/day-care/hoiku/nyusho.html",
+      "quote": "2026年10月13日（火曜日）までに申請いただいた方を対象に、一次選考を行います。"
+    },
+    "secondApply": {
+      "url": "https://www.city.yaizu.lg.jp/child-edu/kodomo/mokuteki/day-care/hoiku/nyusho.html",
+      "quote": "二次選考の受付は2026年10月14日（水曜日）から2027年1月29日（金曜日）まで 必着（厳守） です。"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.yaizu.lg.jp/child-edu/kodomo/mokuteki/day-care/hoiku/nyusho.html",
+      "quote": "一次選考後に受入枠がある場合は、一次選考で入所保留となった方及び二次選考申請者を対象に、二次選考を行います。"
+    },
+    "secondApply#3": {
+      "url": "https://www.city.yaizu.lg.jp/child-edu/kodomo/mokuteki/day-care/hoiku/nyusho.html",
+      "quote": "なお、受入枠がない場合は、二次選考は中止します。"
+    },
+    "secondResult": {
+      "url": "https://www.city.yaizu.lg.jp/child-edu/kodomo/mokuteki/day-care/hoiku/nyusho.html",
+      "quote": "二次選考の結果は、2027年2月下旬に郵送にて通知します。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.yaizu.lg.jp/child-edu/kodomo/mokuteki/day-care/hoiku/nyusho.html",
+      "quote": "2027年2月1日（月曜日）以降随時受付 します。入所希望月の前月の5日（休日の場合は休み明け）までに申請をしてください。"
+    },
+    "documents.0": {
+      "url": "https://www.city.yaizu.lg.jp/documents/9919/r9hoikujyotounyuusyonogoannnai.pdf",
+      "quote": "① 令和９年度保育所等入所申請チェック表 １世帯につき１枚（チェックしてご提出ください。）"
+    },
+    "documents.1": {
+      "url": "https://www.city.yaizu.lg.jp/documents/9919/r9hoikujyotounyuusyonogoannnai.pdf",
+      "quote": "② 子どものための教育・保育給付認定申請書（兼保育利用申込書） 児童１名につき１枚"
+    },
+    "documents.2": {
+      "url": "https://www.city.yaizu.lg.jp/documents/9919/r9hoikujyotounyuusyonogoannnai.pdf",
+      "quote": "③ 個人番号申告書兼代表保護者届出書 １世帯につき１枚"
+    },
+    "documents.3": {
+      "url": "https://www.city.yaizu.lg.jp/documents/9919/r9hoikujyotounyuusyonogoannnai.pdf",
+      "quote": "④ 世帯状況等調査票 １世帯につき１枚"
+    },
+    "documents.4": {
+      "url": "https://www.city.yaizu.lg.jp/documents/9919/r9hoikujyotounyuusyonogoannnai.pdf",
+      "quote": "就労 就労証明書（申請日から３か月以内の証明日のもの）"
+    },
+    "documents.5": {
+      "url": "https://www.city.yaizu.lg.jp/documents/9919/r9hoikujyotounyuusyonogoannnai.pdf",
+      "quote": "⑥ 児童の状況調査票 児童１名につき１枚"
+    },
+    "interview": {
+      "url": "https://www.city.yaizu.lg.jp/child-edu/kodomo/mokuteki/day-care/hoiku/nyusho.html",
+      "quote": "上記期間に申請書を提出していただいた方に対し、10月下旬から11月上旬にかけて面接を行います。"
+    },
+    "interview#2": {
+      "url": "https://www.city.yaizu.lg.jp/child-edu/kodomo/mokuteki/day-care/hoiku/nyusho.html",
+      "quote": "保護者と児童本人にお越しいただき、児童及び世帯の状況確認等をさせていただく10分程度の面接です。"
+    },
+    "interview#3": {
+      "url": "https://www.city.yaizu.lg.jp/child-edu/kodomo/mokuteki/day-care/hoiku/nyusho.html",
+      "quote": "既に兄弟姉妹が入園している場合や求職活動、転園希望の申請者は面接対象外とします。"
+    },
+    "interview#4": {
+      "url": "https://www.city.yaizu.lg.jp/child-edu/kodomo/mokuteki/day-care/hoiku/nyusho.html",
+      "quote": "なお、面接日はこちらで決定させていただき、郵送にて通知いたします。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.yaizu.lg.jp/documents/9919/r9hoikujyotounyuusyonogoannnai.pdf",
+      "quote": "選考の結果、保育所等に入れない場合には、「保育所利用保留通知書」を発行します。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.yaizu.lg.jp/documents/9919/r9hoikujyotounyuusyonogoannnai.pdf",
+      "quote": "保育所等への入所が内定したにもかかわらず、辞退した場合には保育所利用保留通知書に内定を辞退した旨を記載することとなりますのでご了承ください。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.yaizu.lg.jp/documents/9919/r9hoikujyotounyuusyonogoannnai.pdf",
+      "quote": "必ず市役所へ提出する前に記入した保育所等の利用申込書類（世帯状況等調査票含む）すべての写しをとって保管しておいてください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.yaizu.lg.jp/child-edu/kodomo/mokuteki/day-care/hoiku/nyusho.html",
+      "quote": "（※）出生前の児童の申し込みはできません。"
+    },
+    "notes.1": {
+      "url": "https://www.city.yaizu.lg.jp/child-edu/kodomo/mokuteki/day-care/hoiku/nyusho.html",
+      "quote": "二次選考以降は受け入れ可能な人数に満たなかった園に申し込んだ方のみ受付をします。"
+    },
+    "notes.2": {
+      "url": "https://www.city.yaizu.lg.jp/child-edu/kodomo/mokuteki/day-care/hoiku/nyusho.html",
+      "quote": "発送後1週間以上経っても受付確認メールが届かない場合は保育・幼稚園課にご連絡ください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.yaizu.lg.jp/child-edu/kodomo/mokuteki/day-care/hoiku/nyusho.html",
+      "quote": "書類に不備がある場合は、原則として不備解消後の受付となりますのでご了承ください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.yaizu.lg.jp/documents/9919/r9hoikujyotounyuusyonogoannnai.pdf",
+      "quote": "児童の父母の書類は必須。世帯分離にかかわらず、65 歳未満（申請締切日時点）の同居人等は全員分提出してください。（ただし、義務教育中の親族等については不要）"
+    }
+  },
+  "sources": [
+    {
+      "label": "焼津市「令和9年度4月保育所入所申込み」",
+      "url": "https://www.city.yaizu.lg.jp/child-edu/kodomo/mokuteki/day-care/hoiku/nyusho.html"
+    },
+    {
+      "label": "焼津市「令和9年度保育所等入所のご案内」",
+      "url": "https://www.city.yaizu.lg.jp/documents/9919/r9hoikujyotounyuusyonogoannnai.pdf"
+    }
+  ]
+}

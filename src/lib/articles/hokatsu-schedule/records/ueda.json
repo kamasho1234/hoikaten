@@ -1,0 +1,145 @@
+{
+  "citySlug": "ueda",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "上田市「保育園等への令和9年度入園の申し込み」",
+    "url": "https://www.city.ueda.nagano.jp/soshiki/hoiku/3509.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年10月1日（木曜日）から入園申込書を配布。配布場所は各園（公立・私立保育園、認定こども園、小規模保育事業所等）、保育課（ひとまちげんき・健康プラザうえだ1階）、丸子・真田・武石地域自治センター市民サービス課、豊殿・塩田・川西地域自治センター",
+  "firstApply": "令和8年11月2日（月曜日）〜11月6日（金曜日）。11月2日（月曜日）・11月4日（水曜日）は正午〜午後6時に入園を希望する園で、11月5日（木曜日）・11月6日（金曜日）は午前9時〜午後7時に保育課と丸子・真田・武石地域自治センター市民サービス課で受付。郵送は申込期間内必着",
+  "applyMethods": "配布場所で入園申込書を受け取り、必要書類をそろえて受付日に入園希望の園等の受付場所へ直接提出する。私立園への入園を検討している場合はなるべく私立園で申し込む。代理人による申請（申請書裏面の委任状が必要）と、上田市保育課宛ての郵送（申込期間内必着、個人番号確認書類・身元確認書類のコピーを同封）もできる",
+  "firstResult": "令和9年2月上旬に認定証・利用決定通知書を発送",
+  "documents": [
+    "入園申込書（教育・保育給付認定申請書兼入園申込書）。入園希望の児童一人につき一部",
+    "保育を必要とする理由を証明する書類（就労証明書など。児童と同一住所の方全員分、ただし66歳以上の方、小・中・高校生、就学前児童は除く）",
+    "児童手当に係る保育料等の徴収等に関する申出書。入園希望の児童一人につき一部",
+    "個人番号確認書類と身元確認書類（代理人が提出する場合は委任状、保護者の個人番号確認書類またはその写し、代理人の身元確認書類）",
+    "未出生児の申請は母子健康手帳"
+  ],
+  "ikukyu": "育児休業の延長に保育園に入園できない旨の通知が必要な場合も入園申込が必要。利用調整の結果入園できず、保護者から申出があれば通知を郵送する。通知には申請書に複数書いた希望園のうち第一希望園しか記載されない",
+  "notes": [
+    "令和9年度途中に育児休業が終了する予定の方や出産予定の方、市外から転入予定の方も、年度途中の入園を希望するなら今回の受付期間中に申し込む必要がある",
+    "すでに保育園等を利用していて令和9年度から転園を希望する場合は申込不要で、例年11月頃に園を通じて行う転園希望の調査で申し出る",
+    "入園説明会は令和9年2月下旬（公立園は2月19日（金曜日）予定）",
+    "特に3歳未満児の入園調整に苦慮しているため、希望園には許容範囲の園をできるだけ書くよう求めている",
+    "利用調整は申請時の情報で行うため、申請期間後に就労証明書を出しても調整の基準には反映されない",
+    "郵送提出書類に不備があり指定期日までに是正されないときは、利用調整で不利に扱う場合がある"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.ueda.nagano.jp/soshiki/hoiku/3509.html",
+      "quote": "令和9年度（令和9年4月1日～令和10年3月31日）中にお子さんを保育園等へ入園させたい方"
+    },
+    "guideRelease": {
+      "url": "https://www.city.ueda.nagano.jp/soshiki/hoiku/3509.html",
+      "quote": "配布開始 令和8年10月1日（木曜日）から 配布場所 各園（公立保育園、私立保育園、認定こども園、小規模保育事業所等） 保育課（ひとまちげんき・健康プラザうえだ1階）"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.ueda.nagano.jp/soshiki/hoiku/3509.html",
+      "quote": "丸子地域自治センター市民サービス課 真田地域自治センター市民サービス課 武石地域自治センター市民サービス課 豊殿地域自治センター 塩田地域自治センター 川西地域自治センター"
+    },
+    "firstApply": {
+      "url": "https://www.city.ueda.nagano.jp/soshiki/hoiku/3509.html",
+      "quote": "令和8年 11月2日（月曜日） から 11月6日（金曜日）まで 新規の認定申請・入園申し込み受付"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.ueda.nagano.jp/soshiki/hoiku/3509.html",
+      "quote": "受付日（令和8年） 受付時間 受付場所 11月2日（月曜日） 11月4日（水曜日） 正午から 午後6時まで 入園を希望する園"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.ueda.nagano.jp/soshiki/hoiku/3509.html",
+      "quote": "11月5日（木曜日） 11月6日（金曜日） 午前9時 から 午後7時まで 園で申し込みをしなかった場合 保育課 丸子地域自治センター市民サービス課 真田地域自治センター市民サービス課 武石地域自治センター市民サービス課"
+    },
+    "firstApply#4": {
+      "url": "https://www.city.ueda.nagano.jp/uploaded/attachment/85233.pdf",
+      "quote": "全てを上田市保育課宛て（注：郵送先等は下記のとおり）、入園申込期間内必着で郵送してください"
+    },
+    "applyMethods": {
+      "url": "https://www.city.ueda.nagano.jp/soshiki/hoiku/3509.html",
+      "quote": "申し込みの「受付日」に入園希望の園等の受付場所へ、用意した書類を直接提出してください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.ueda.nagano.jp/soshiki/hoiku/3509.html",
+      "quote": "※私立の保育園、認定こども園、小規模保育事業所（以下「私立園」という。）への入園を検討されている方は、なるべく私立園で申し込みを行ってください。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.ueda.nagano.jp/uploaded/attachment/85233.pdf",
+      "quote": "代理人による申請も郵送での申請もできます。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.ueda.nagano.jp/uploaded/attachment/85233.pdf",
+      "quote": "また、郵送の場合は、申請書に記入いただいたマイナンバーの確認のため、「個人番号確認書類」「身元確認書類」のコピーを同封してください。"
+    },
+    "applyMethods#5": {
+      "url": "https://www.city.ueda.nagano.jp/uploaded/attachment/85233.pdf",
+      "quote": "代理人による申請の場合は、申請書裏面の委任状に必要事項をご記入いただき"
+    },
+    "firstResult": {
+      "url": "https://www.city.ueda.nagano.jp/soshiki/hoiku/3509.html",
+      "quote": "令和9年2月上旬 認定証・利用決定通知書発送"
+    },
+    "documents.0": {
+      "url": "https://www.city.ueda.nagano.jp/soshiki/hoiku/3509.html",
+      "quote": "入園申込書 （教育・保育給付認定申請書兼入園申込書） 入園希望の児童一人につき一部を御提出ください。"
+    },
+    "documents.1": {
+      "url": "https://www.city.ueda.nagano.jp/soshiki/hoiku/3509.html",
+      "quote": "なお、児童と同一住所の方全員について必要となります。ただし、66歳以上の方、小・中・高校生及び就学前児童は除きます。"
+    },
+    "documents.2": {
+      "url": "https://www.city.ueda.nagano.jp/soshiki/hoiku/3509.html",
+      "quote": "児童手当に係る保育料等の徴収等に関する申出書 入園希望の児童一人につき一部を御提出ください。"
+    },
+    "documents.3": {
+      "url": "https://www.city.ueda.nagano.jp/soshiki/hoiku/3509.html",
+      "quote": "申請を行う保護者以外の方が代理で書類を提出する場合は、(1)保護者本人からの委任状（※）、(2)保護者の個人番号確認書類またはその写し、(3)代理人の身元確認書類が必要です。"
+    },
+    "documents.4": {
+      "url": "https://www.city.ueda.nagano.jp/soshiki/hoiku/3509.html",
+      "quote": "上記の申込書、「保育を必要とする理由」を証明する書類等に加え、母子健康手帳を御持参ください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.ueda.nagano.jp/uploaded/attachment/85233.pdf",
+      "quote": "その際、保護者の方から保育園に入園できない旨の通知が必要であるとの申出を受けた場合に、保育園に入園できない旨の通知を郵送でお送りします。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.ueda.nagano.jp/uploaded/attachment/85233.pdf",
+      "quote": "申請書に希望園を複数記載いただいたとしても、この通知には第一希望園しか記載されません。"
+    },
+    "notes.0": {
+      "url": "https://www.city.ueda.nagano.jp/soshiki/hoiku/3509.html",
+      "quote": "令和9年度途中に育児休業が終了する予定または今後お子さんを出産予定の方など、令和9年度途中から保育園等への入園を希望される場合"
+    },
+    "notes.1": {
+      "url": "https://www.city.ueda.nagano.jp/soshiki/hoiku/3509.html",
+      "quote": "例年、11月頃に園を通じて転園希望の調査を行いますので、その際に御意向を申し出てください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.ueda.nagano.jp/soshiki/hoiku/3509.html",
+      "quote": "令和9年2月下旬 入園説明会（公立園は2月19日（金曜日）を予定しています。）"
+    },
+    "notes.3": {
+      "url": "https://www.city.ueda.nagano.jp/uploaded/attachment/85233.pdf",
+      "quote": "特に３歳未満児の入園調整に大変苦慮している状況ですので、許容範囲の園をできるだけ記入いただけますと助かります。"
+    },
+    "notes.4": {
+      "url": "https://www.city.ueda.nagano.jp/uploaded/attachment/85233.pdf",
+      "quote": "よって、申請期間後に就労証明書の提出があっても調整する際の基準には反映できかねます。"
+    },
+    "notes.5": {
+      "url": "https://www.city.ueda.nagano.jp/uploaded/attachment/85233.pdf",
+      "quote": "郵送提出書類に不備があった場合で、指定する期日までに是正されないときは、利用調整において不利に扱う場合があります"
+    }
+  },
+  "sources": [
+    {
+      "label": "上田市「保育園等への令和9年度入園の申し込み」",
+      "url": "https://www.city.ueda.nagano.jp/soshiki/hoiku/3509.html"
+    },
+    {
+      "label": "上田市「令和9年度入園用FAQ」",
+      "url": "https://www.city.ueda.nagano.jp/uploaded/attachment/85233.pdf"
+    }
+  ]
+}

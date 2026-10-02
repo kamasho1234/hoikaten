@@ -1,0 +1,151 @@
+{
+  "citySlug": "yamatokooriyama",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "大和郡山市「保育園・認定こども園の令和9年度新規入園申込みのお知らせ」",
+    "url": "https://www.city.yamatokoriyama.lg.jp/soshiki/hoikuka/hoikuen_yochien_ninteikodomoen/18008.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年11月16日（月曜日）〜11月30日（月曜日）",
+  "applyMethods": "申込書類等を準備して、期間内に市役所保育支援課（1階3番窓口）へ提出する。受付は9時〜16時30分（土曜日・日曜日・祝日を除く）。認定申請と入所申込は保育支援課で同時に受け付ける",
+  "firstResult": "選考会は令和9年1月12日、入所通知は2月中旬（選考会実施日・入所通知日は変更の可能性あり）。入所内定者には保育支援課からの通知文書と内定園からの電話で連絡する",
+  "midYearDeadline": "年度途中の入所は入所月ごとに申込期限がある（例: 令和9年5月入所は令和9年3月末締切で4月中旬に通知、6月入所は4月末締切で5月中旬に通知）。令和10年1月〜3月の入所は申込期限が11月末と早い",
+  "documents": [
+    "子どものための教育・保育給付 支給認定申請書 兼 施設利用申請書、家庭状況調査書、児童調査書（児童1人につき1部）",
+    "就労証明書（申請日から3ヶ月以内のもの。就業を理由として入園を希望する場合）",
+    "自営業・会社経営の場合は、客観的に証明する書類（確定申告書（第1表・第2表）、開業届、登記簿等）",
+    "出産を理由とする場合は母子健康手帳の写し（表紙と出産予定日が記載のページ）",
+    "求職活動中の場合は就労誓約書とハローワークの受付票",
+    "マイナンバー（個人番号）の届出。申込児童と同居しているすべての人の番号確認と、窓口に来た人の本人確認を行う",
+    "申込にあたっての確認書（すべての人）"
+  ],
+  "interview": "市内各保育所・認定こども園は随時見学を受け付けている。入所内定者には電話連絡の際に面談等の日程を調整する",
+  "notes": [
+    "2次選考は実施しない",
+    "申込期限を過ぎた申請は受け付けない",
+    "希望園の変更は、変更希望月の申込期限までに保育支援課へ電話する",
+    "認定こども園の1号と2号の併願申請はできない",
+    "内定に至らなかった人は次月の選考へ引き継がれる",
+    "育児休業を取得したときの在園児の継続利用は、生まれた子が満1歳に達する日の属する月の末日まで有効。生まれた子の入所が保留となり育児休業を延長した場合は、育児休業取得期間の満了する月の末日まで有効"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.yamatokoriyama.lg.jp/soshiki/hoikuka/hoikuen_yochien_ninteikodomoen/18008.html",
+      "quote": "保育園・認定こども園の令和9年度新規入園の申込については、「令和9年度大和郡山市保育所・認定こども園入園等案内」をご確認の上、申込期間内に必要書類をご提出ください。"
+    },
+    "firstApply": {
+      "url": "https://www.city.yamatokoriyama.lg.jp/soshiki/hoikuka/hoikuen_yochien_ninteikodomoen/18008.html",
+      "quote": "【4月入園】 令和8年11月16日（月曜日）～30日(月曜日)"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.yamatokoriyama.lg.jp/material/files/group/62/R9_nyuuennannnai.pdf",
+      "quote": "令和９年４月 令和８年１１月1６日 令和９年１月１２日 ２月中旬 ～ 令和８年１１月３０日"
+    },
+    "applyMethods": {
+      "url": "https://www.city.yamatokoriyama.lg.jp/soshiki/hoikuka/hoikuen_yochien_ninteikodomoen/18008.html",
+      "quote": "申込書類等をご準備の上、期間内に、市役所保育支援課(1階3番窓口)へ"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.yamatokoriyama.lg.jp/soshiki/hoikuka/hoikuen_yochien_ninteikodomoen/18008.html",
+      "quote": "9時～16時30分 (土曜日、日曜日、祝日除く)"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.yamatokoriyama.lg.jp/material/files/group/62/R9_nyuuennannnai.pdf",
+      "quote": "「認定申請」と「入所申込」は、保育支援課にて同時に受付します。"
+    },
+    "firstResult": {
+      "url": "https://www.city.yamatokoriyama.lg.jp/material/files/group/62/R9_nyuuennannnai.pdf",
+      "quote": "令和９年４月 令和８年１１月1６日 令和９年１月１２日 ２月中旬"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.yamatokoriyama.lg.jp/material/files/group/62/R9_nyuuennannnai.pdf",
+      "quote": "＊選考会実施日及び入所通知日は、変更になる可能性があります。"
+    },
+    "firstResult#3": {
+      "url": "https://www.city.yamatokoriyama.lg.jp/material/files/group/62/R9_nyuuennannnai.pdf",
+      "quote": "入所内定者には、保育支援課からの通知文書及び内定園から直接電話にて連絡いたします。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.yamatokoriyama.lg.jp/soshiki/hoikuka/hoikuen_yochien_ninteikodomoen/18008.html",
+      "quote": "5月入所 令和9年3月末 令和9年4月中旬 6月入所 令和9年4月末 令和9年5月中旬"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.yamatokoriyama.lg.jp/material/files/group/62/R9_nyuuennannnai.pdf",
+      "quote": "＊令和１０年1月から令和１０年３月までに、入所をご希望される場合の申込期限が１１月末と早くなっておりますので、十分ご注意ください。"
+    },
+    "documents.0": {
+      "url": "https://www.city.yamatokoriyama.lg.jp/material/files/group/62/R9_nyuuennannnai.pdf",
+      "quote": "→ 児童１人につき１部必要です。 ■子どものための教育・保育給付 支給認定申請書 兼 施設利用申請書 ■家庭状況調査書 ■児童調査書"
+    },
+    "documents.1": {
+      "url": "https://www.city.yamatokoriyama.lg.jp/material/files/group/62/R9_nyuuennannnai.pdf",
+      "quote": "就労証明書（申請日から３ヶ月以内のもの） 就業を理由として入園を希望する方"
+    },
+    "documents.2": {
+      "url": "https://www.city.yamatokoriyama.lg.jp/material/files/group/62/R9_nyuuennannnai.pdf",
+      "quote": "自営業・会社経営を客観的に証明する書類 自営業・会社経営をされている方 □ →確定申告書（第1表・第2表）、開業届、登記簿等"
+    },
+    "documents.3": {
+      "url": "https://www.city.yamatokoriyama.lg.jp/material/files/group/62/R9_nyuuennannnai.pdf",
+      "quote": "母子健康手帳の写し（表紙と出産予定日が記載のページ） 出産を理由として入園を希望する方"
+    },
+    "documents.4": {
+      "url": "https://www.city.yamatokoriyama.lg.jp/material/files/group/62/R9_nyuuennannnai.pdf",
+      "quote": "６．求職活動を理由とする場合 ■就労誓約書 ■ハローワークの受付票"
+    },
+    "documents.5": {
+      "url": "https://www.city.yamatokoriyama.lg.jp/soshiki/hoikuka/hoikuen_yochien_ninteikodomoen/18008.html",
+      "quote": "申込児童、同居しているすべての方の「番号確認」と、窓口に来られる方の 「本人確認」をさせていただきます。"
+    },
+    "documents.6": {
+      "url": "https://www.city.yamatokoriyama.lg.jp/material/files/group/62/R9_nyuuennannnai.pdf",
+      "quote": "申込にあたっての確認書 すべての方"
+    },
+    "interview": {
+      "url": "https://www.city.yamatokoriyama.lg.jp/material/files/group/62/R9_nyuuennannnai.pdf",
+      "quote": "市内各保育所・認定こども園では、随時見学を受付しています。"
+    },
+    "interview#2": {
+      "url": "https://www.city.yamatokoriyama.lg.jp/material/files/group/62/R9_nyuuennannnai.pdf",
+      "quote": "電話連絡の際、面談等についての日程調整をします。"
+    },
+    "notes.0": {
+      "url": "https://www.city.yamatokoriyama.lg.jp/material/files/group/62/R9_nyuuennannnai.pdf",
+      "quote": "＊2次選考は実施しておりません。"
+    },
+    "notes.1": {
+      "url": "https://www.city.yamatokoriyama.lg.jp/material/files/group/62/R9_nyuuennannnai.pdf",
+      "quote": "＊申込期限を過ぎての申請は、受付を行いません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.yamatokoriyama.lg.jp/material/files/group/62/R9_nyuuennannnai.pdf",
+      "quote": "＊希望園の変更については、変更希望月の申込期限までに保育支援課へお電話ください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.yamatokoriyama.lg.jp/material/files/group/62/R9_nyuuennannnai.pdf",
+      "quote": "＊認定こども園の１号と２号の併願申請はできません。"
+    },
+    "notes.4": {
+      "url": "https://www.city.yamatokoriyama.lg.jp/material/files/group/62/R9_nyuuennannnai.pdf",
+      "quote": "内定に至らなかった方については、次月の選考へと引き継ぎます。"
+    },
+    "notes.5": {
+      "url": "https://www.city.yamatokoriyama.lg.jp/material/files/group/62/R9_nyuuennannnai.pdf",
+      "quote": "⑨ 育児休業を取得した際に、既に市内の保育園で保育を利用している子どもの継続利用 （生まれた子が満１歳に達する日の属する月の末日まで有効。）"
+    },
+    "notes.5#2": {
+      "url": "https://www.city.yamatokoriyama.lg.jp/material/files/group/62/R9_nyuuennannnai.pdf",
+      "quote": "※生まれた子の市内保育所等の入所が保留となり育児休業を延長した場合は、当該育児休業取得期間の満了する月の末日まで有効。"
+    }
+  },
+  "sources": [
+    {
+      "label": "大和郡山市「保育園・認定こども園の令和9年度新規入園申込みのお知らせ」",
+      "url": "https://www.city.yamatokoriyama.lg.jp/soshiki/hoikuka/hoikuen_yochien_ninteikodomoen/18008.html"
+    },
+    {
+      "label": "大和郡山市「令和9年度 大和郡山市保育所・認定こども園 入園等案内」（PDF）",
+      "url": "https://www.city.yamatokoriyama.lg.jp/material/files/group/62/R9_nyuuennannnai.pdf"
+    }
+  ]
+}

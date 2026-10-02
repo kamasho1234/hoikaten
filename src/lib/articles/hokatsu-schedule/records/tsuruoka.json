@@ -1,0 +1,125 @@
+{
+  "citySlug": "tsuruoka",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "鶴岡市「令和9年度の保育園・認定こども園等の入園申込みについて」",
+    "url": "https://www.city.tsuruoka.lg.jp/kyoiku/nyuen/adukeru/nyuuennmousikomi5.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年10月1日（木）〜令和8年10月30日（金）必着（一斉受付期間）。期間後も随時受け付けるが、期間内の申込みから調整する",
+  "applyMethods": "第1希望の園、子育て推進課または各地域庁舎担当課に提出する。第1希望の園に出す場合は書類をすべてそろえ、氏名を書いた封筒に入れて糊付けして施設の担当者に渡す。転入予定の人は子育て推進課か各地域庁舎担当課へ申し込む",
+  "firstResult": "令和9年1月下旬に、4月入園の決定者には「保育所入所承諾書」等を、5月以降の入園予定者には「保育所入所内定書」等を送付",
+  "documents": [
+    "教育・保育給付認定申請書（施設等入園申込書）兼児童台帳兼施設等利用給付認定申請書（子ども1人につき1部。出生予定の子は母子健康手帳の写しを添付）",
+    "家庭での保育が困難であることを証明する書類（父母それぞれの分。会社等勤務は就労証明書、自営業・農業等は就労証明書と確定申告書の写し、求職中は求職活動状況申出書など）",
+    "障害者であることを証明する書類（該当する場合のみ）",
+    "離婚協議中であることを証明する書類（該当する場合のみ）"
+  ],
+  "notes": [
+    "10月30日までの申込みの入所調整は先着順ではない。10月31日以降も申し込めるが、10月30日までに申し込んだ人が優先される",
+    "一斉受付期間外（10月31日以降）の申込みは、入園できる場合のみ令和9年2月以降に随時入園決定して通知する",
+    "希望園は第5希望まで書け、「その他希望」欄に第6希望以降や希望理由を書ける",
+    "申込書に不備がないよう正確に書く。聞き取り等が必要な場合は12月中に連絡がある",
+    "入園から数日間はならし保育があり、利用希望日はならし保育を含んだ日になるので、産後の復職のための入園はその期間を考えて入所希望日を書く"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.tsuruoka.lg.jp/kyoiku/nyuen/adukeru/nyuuennmousikomi5.files/08nyuuennnotebiki.pdf",
+      "quote": "②令和９年１月下旬に、４月入園の決定者には「保育所入所承諾書」等を、５月以降の入園予定者には「保育所入所内定書」等を送付します"
+    },
+    "firstApply": {
+      "url": "https://www.city.tsuruoka.lg.jp/kyoiku/nyuen/adukeru/nyuuennmousikomi5.files/08nyuuennnotebiki.pdf",
+      "quote": "一斉受付期間……令和８年１０月１日(木) ～令和８年１０月３０日(金)必着"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.tsuruoka.lg.jp/kyoiku/nyuen/adukeru/nyuuennmousikomi5.files/08nyuuennnotebiki.pdf",
+      "quote": "上記期間を過ぎても随時受付けますが、期間内にお申込みの方から調整するため、入園のご希望に添えない場合があります。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.tsuruoka.lg.jp/kyoiku/nyuen/adukeru/nyuuennmousikomi5.files/08nyuuennnotebiki.pdf",
+      "quote": "申込み場所……第１希望の園、子育て推進課 または 各地域庁舎担当課"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.tsuruoka.lg.jp/kyoiku/nyuen/adukeru/nyuuennmousikomi5.files/08nyuuennnotebiki.pdf",
+      "quote": "第1希望の園に提出する場合は、申込みに必要な書類をすべてご準備の上、氏名を明記した封筒などに入れて糊付けし、施設の担当者へお渡しください。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.tsuruoka.lg.jp/kyoiku/nyuen/adukeru/nyuuennmousikomi5.files/08nyuuennnotebiki.pdf",
+      "quote": "※転入予定の方は、子育て推進課、または各地域庁舎担当課へお申込みください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.tsuruoka.lg.jp/kyoiku/nyuen/adukeru/nyuuennmousikomi5.files/08nyuuennnotebiki.pdf",
+      "quote": "②令和９年１月下旬に、４月入園の決定者には「保育所入所承諾書」等を、５月以降の入園予定者には「保育所入所内定書」等を送付します"
+    },
+    "documents.0": {
+      "url": "https://www.city.tsuruoka.lg.jp/kyoiku/nyuen/adukeru/nyuuennmousikomi5.files/08nyuuennnotebiki.pdf",
+      "quote": "書類① 教育・保育給付認定申請書(施設等入園申込書)兼児童台帳兼施設等利用給付認定申請書 ・ お子さん１人につき１部提出が必要です。"
+    },
+    "documents.0#2": {
+      "url": "https://www.city.tsuruoka.lg.jp/kyoiku/nyuen/adukeru/nyuuennmousikomi5.files/08nyuuennnotebiki.pdf",
+      "quote": "出生予定のお子さんの場合は、母子健康手帳（母の氏名と出産予定日のわかるページ：１ページと４ページ）の写しの添付が必要です。"
+    },
+    "documents.1": {
+      "url": "https://www.city.tsuruoka.lg.jp/kyoiku/nyuen/adukeru/nyuuennmousikomi5.html",
+      "quote": "農業、漁業、自営業等の方は、ご自身で就労証明を記入し、確定申告の写し（開業間もない場合は、開業届または営業許可証の写し）を添付してください。"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.tsuruoka.lg.jp/kyoiku/nyuen/adukeru/nyuuennmousikomi5.html",
+      "quote": "就労のため保育が必要な方が提出する書類です。会社にお勤めの方は、勤務先に記入を依頼してください。"
+    },
+    "documents.1#3": {
+      "url": "https://www.city.tsuruoka.lg.jp/kyoiku/nyuen/adukeru/nyuuennmousikomi5.html",
+      "quote": "求職活動中やこれから求職活動をされる方が提出する書類です。"
+    },
+    "documents.1#4": {
+      "url": "https://www.city.tsuruoka.lg.jp/kyoiku/nyuen/adukeru/nyuuennmousikomi5.files/08nyuuennnotebiki.pdf",
+      "quote": "父母の分について、次の証明等が必要です。"
+    },
+    "documents.2": {
+      "url": "https://www.city.tsuruoka.lg.jp/kyoiku/nyuen/adukeru/nyuuennmousikomi5.files/08nyuuennnotebiki.pdf",
+      "quote": "同居家族または入園希望のお子さん本人が、身体障害者手帳、療育手帳、特別児童扶養手当受給証明書、精神障害者保健福祉手帳、障害基礎年金証書のいずれかを交付されている場合は、その写しの添付が必要です"
+    },
+    "documents.3": {
+      "url": "https://www.city.tsuruoka.lg.jp/kyoiku/nyuen/adukeru/nyuuennmousikomi5.files/08nyuuennnotebiki.pdf",
+      "quote": "お子さんの父母が離婚協議中で別居している場合は、離婚調停や協議時の通知等の写しを添付する"
+    },
+    "notes.0": {
+      "url": "https://www.city.tsuruoka.lg.jp/kyoiku/nyuen/adukeru/nyuuennmousikomi5.html",
+      "quote": "10月31日以降も申込みはできますが、10月30日までに申込みされた方が優先となります。"
+    },
+    "notes.0#2": {
+      "url": "https://www.city.tsuruoka.lg.jp/kyoiku/nyuen/adukeru/nyuuennmousikomi5.html",
+      "quote": "10月30日までに申込みいただいた方の入所調整は、先着順ではありません。"
+    },
+    "notes.1": {
+      "url": "https://www.city.tsuruoka.lg.jp/kyoiku/nyuen/adukeru/nyuuennmousikomi5.files/08nyuuennnotebiki.pdf",
+      "quote": "入園できる場合のみ、令和９年２月以降に随時入園決定し、通知します。"
+    },
+    "notes.2": {
+      "url": "https://www.city.tsuruoka.lg.jp/kyoiku/nyuen/adukeru/nyuuennmousikomi5.files/08nyuuennnotebiki.pdf",
+      "quote": "希望園は第5希望まで、「その他希望」の欄には第6希望以降や希望理由等を記載できます。"
+    },
+    "notes.3": {
+      "url": "https://www.city.tsuruoka.lg.jp/kyoiku/nyuen/adukeru/nyuuennmousikomi5.files/08nyuuennnotebiki.pdf",
+      "quote": "※ 申込書に不備がないよう正確に記載してください。聞き取り等必要な場合、１２月中に連絡いたします。"
+    },
+    "notes.4": {
+      "url": "https://www.city.tsuruoka.lg.jp/kyoiku/nyuen/adukeru/nyuuennmousikomi5.files/08nyuuennnotebiki.pdf",
+      "quote": "利用を希望する日は、慣らし保育も含んだ日となりますので、産後の復職のために入園を検討する場合は、ならし保育の期間を考慮して入所希望日を記入してください。"
+    },
+    "notes.4#2": {
+      "url": "https://www.city.tsuruoka.lg.jp/kyoiku/nyuen/adukeru/nyuuennmousikomi5.files/08nyuuennnotebiki.pdf",
+      "quote": "お子さんが集団保育に徐々に慣れるために、入園から数日間は短い時間で保育する「ならし保育」を実施しています。"
+    }
+  },
+  "sources": [
+    {
+      "label": "鶴岡市「令和9年度の保育園・認定こども園等の入園申込みについて」",
+      "url": "https://www.city.tsuruoka.lg.jp/kyoiku/nyuen/adukeru/nyuuennmousikomi5.html"
+    },
+    {
+      "label": "鶴岡市「令和9年度入園のてびき」（PDF）",
+      "url": "https://www.city.tsuruoka.lg.jp/kyoiku/nyuen/adukeru/nyuuennmousikomi5.files/08nyuuennnotebiki.pdf"
+    }
+  ]
+}

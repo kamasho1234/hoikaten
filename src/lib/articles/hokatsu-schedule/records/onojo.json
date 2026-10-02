@@ -1,0 +1,157 @@
+{
+  "citySlug": "onojo",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "大野城市「令和8年度の保育所などの入所申込受付」",
+    "url": "https://www.city.onojo.fukuoka.jp/kosodate/kiji0037637/index.html"
+  },
+  "fiscalYear": "R8",
+  "guideRelease": "令和7年11月18日（火曜日）から、各園の概要と申込書類をつづった大野城市保育所ガイドを子育て支援課・各コミュニティセンター・れいわ子ども情報センターで配布。申込書類は市のページからもダウンロードできる",
+  "firstApply": "令和7年11月18日（火曜日）から受付。令和8年4月入所の1期の締切は令和7年12月27日（土曜日）12時半",
+  "applyMethods": "子育て支援課に申し込む",
+  "secondApply": "令和8年4月入所の2期の締切は令和8年2月28日（土曜日）12時半。1期の入所調整後、定員に満たない保育所などがあった場合のみ入所調整を行う",
+  "midYearDeadline": "入所希望月の2カ月前の月末（月末が閉庁日の場合はその直前の開庁日）16時半",
+  "documents": [
+    "教育・保育給付認定申請書 兼 保育所入所申請書（令和8年度用）。「子どもの状況」欄を記入して園見学時に持参し、保育所の確認を受ける（確認がないと受け付けない）",
+    "保育の必要性を証明する書類。会社勤務は就労証明書、自営業は就労証明書と個人事業の開業届または事業内容の分かるもの（チラシ、名刺など）",
+    "育児休業から復職予定の場合は、育児休業期間・復職（予定）年月日を記載した就労証明書",
+    "妊娠・出産は申立書と母子健康手帳の写し、保護者の疾病・障がいは申立書と保育の可否が確認できる診断書、介護・看護は申立書と診断書、就学は在学証明書と受講カリキュラム等、求職活動中は求職活動申立書"
+  ],
+  "interview": "申し込む前に、入所を希望する全ての保育所などを子どもと一緒に見学する（見学の予約は各保育所などへ）",
+  "ikukyu": "申請書の家庭状況欄に「利用調整の結果、希望保育施設に空きがなく保留となった場合に育児休業の延長が可能」として、世帯の状況にかかわらず利用調整の点数を下げることを承諾するチェック欄がある",
+  "notes": [
+    "申込様式は令和8年度のものを使う（令和7年度までの様式は使えない）",
+    "申込書類に不備がある場合や、保育所などの見学が済んでいない場合は受け付けないことがある",
+    "慣らし保育も入所期間に含むため、慣らし保育を含む入所希望月の締切までに申し込む",
+    "育児休業から復職予定の場合、復職予定日の1カ月前からの入所希望ができる",
+    "集団教育や社会性を身につけるため、近所の子が入所しているためなど、福祉に該当しないと思われる理由では入所要件に当たらない"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.onojo.fukuoka.jp/kosodate/kiji0037637/index.html",
+      "quote": "令和8年4月 1期 令和7年12月27日（土曜日）12時半"
+    },
+    "guideRelease": {
+      "url": "https://www.city.onojo.fukuoka.jp/kosodate/kiji0037637/index.html",
+      "quote": "各園の概要や申込書類をつづった「令和8年度大野城市保育所ガイド」を配布します。"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.onojo.fukuoka.jp/kosodate/kiji0037637/index.html",
+      "quote": "配布開始日 令和7年11月18日（火曜日） 配布場所 子育て支援課 各コミュニティセンター れいわ子ども情報センター"
+    },
+    "guideRelease#3": {
+      "url": "https://www.city.onojo.fukuoka.jp/kosodate/kiji0037637/index.html",
+      "quote": "注：当ページ「申込書類」よりダウンロード可能です。"
+    },
+    "firstApply": {
+      "url": "https://www.city.onojo.fukuoka.jp/kosodate/kiji0037637/index.html",
+      "quote": "受付開始 令和7年11月18日（火曜日）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.onojo.fukuoka.jp/kosodate/kiji0037637/index.html",
+      "quote": "令和8年4月 1期 令和7年12月27日（土曜日）12時半"
+    },
+    "secondApply": {
+      "url": "https://www.city.onojo.fukuoka.jp/kosodate/kiji0037637/index.html",
+      "quote": "2期 令和8年2月28日（土曜日）12時半"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.onojo.fukuoka.jp/kosodate/kiji0037637/index.html",
+      "quote": "注：令和8年4月2期受付分については、4月1期受付分の入所調整後、定員に満たない保育所などがあった場合のみ入所調整を行います。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.onojo.fukuoka.jp/kosodate/kiji0037637/index.html",
+      "quote": "入所希望月の2カ月前の月末（月末が閉庁日の場合は、 その直前の開庁日）16時半"
+    },
+    "interview": {
+      "url": "https://www.city.onojo.fukuoka.jp/kosodate/kiji0037637/index.html",
+      "quote": "申し込む前に、入所を希望する全ての保育所などを、子どもと一緒に見学してください。（見学の予約は各保育所などで受付）"
+    },
+    "notes.0": {
+      "url": "https://www.city.onojo.fukuoka.jp/kosodate/kiji0037637/index.html",
+      "quote": "申込様式は令和8年度のものを使用してください。（令和7年度までの様式は使用できません。）"
+    },
+    "notes.1": {
+      "url": "https://www.city.onojo.fukuoka.jp/kosodate/kiji0037637/index.html",
+      "quote": "申込書類に不備がある場合や、保育所などの見学が済んでいない場合には、申し込みを受け付けないこともありますので注意してください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.onojo.fukuoka.jp/kosodate/kiji0037637/index.html",
+      "quote": "慣らし保育（保育環境に慣れるための短時間保育）も入所期間に含むため、慣らし保育を含む入所希望月の締切までに申し込んでください。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.onojo.fukuoka.jp/kosodate/kiji0037637/index.html",
+      "quote": "申込先 子育て支援課"
+    },
+    "documents.0": {
+      "url": "https://www.city.onojo.fukuoka.jp/kiji0035516/3_5516_up_o7ox0ewp.pdf",
+      "quote": "子どもの健康及び発育状況の確認のため、新規入所を申請する児童について、記入・持参の上、申請前に保育所を見学してください。"
+    },
+    "documents.0#2": {
+      "url": "https://www.city.onojo.fukuoka.jp/kiji0035516/3_5516_up_o7ox0ewp.pdf",
+      "quote": "※保育所の確認がない場合、入所受付できません。"
+    },
+    "documents.0#3": {
+      "url": "https://www.city.onojo.fukuoka.jp/kiji0035516/3_5516_up_o7ox0ewp.pdf",
+      "quote": "令和８年度用 児童カナ 入所施設No. 教育・保育給付認定申請書 兼 保育所入所申請書"
+    },
+    "documents.1": {
+      "url": "https://www.city.onojo.fukuoka.jp/kosodate/kiji0037634/index.html",
+      "quote": "月64時間以上就労することを常態としていること。（必要書類：会社勤務の場合　『就労証明書』、自営業の場合　『就労証明書』と『個人事業の開業届』又は『事業内容の分かるもの（チラシ、名刺など）』"
+    },
+    "documents.2": {
+      "url": "https://www.city.onojo.fukuoka.jp/kosodate/kiji0037634/index.html",
+      "quote": "育児休業から復職予定の場合　育児休業期間・復職（予定）年月日を記載した『就労証明書』）"
+    },
+    "documents.3": {
+      "url": "https://www.city.onojo.fukuoka.jp/kosodate/kiji0037634/index.html",
+      "quote": "妊娠中であるか、又は出産後間もないこと。（必要書類：『申立書』と『母子健康手帳の写し』）"
+    },
+    "documents.3#2": {
+      "url": "https://www.city.onojo.fukuoka.jp/kosodate/kiji0037634/index.html",
+      "quote": "医師が作成した診断書等により保護者の疾病もしくは負傷が確認でき、保育が困難な状態であること。（必要書類：『申立書』と『保育の可否が確認できる診断書』）"
+    },
+    "documents.3#3": {
+      "url": "https://www.city.onojo.fukuoka.jp/kosodate/kiji0037634/index.html",
+      "quote": "同居の親族を月64時間以上介護又は看護していること。（必要書類：『申立書』と『介護・看護の必要性が確認できる診断書』）"
+    },
+    "documents.3#4": {
+      "url": "https://www.city.onojo.fukuoka.jp/kosodate/kiji0037634/index.html",
+      "quote": "学校等に在籍し、月64時間以上就学することを常態としていること。（必要書類：『在学証明書』と『受講カリキュラム等』"
+    },
+    "documents.3#5": {
+      "url": "https://www.city.onojo.fukuoka.jp/kosodate/kiji0037634/index.html",
+      "quote": "就労する意志があり、求職活動に専念していること（必要書類：『求職活動申立書』"
+    },
+    "ikukyu": {
+      "url": "https://www.city.onojo.fukuoka.jp/kiji0035516/3_5516_up_o7ox0ewp.pdf",
+      "quote": "利用調整の結果、希望保育施設に空きがなく保留となった場合に育児休業の延長が可能です。つきましては、世帯の状況にかかわらず利用調 □ 整における点数を下げることを承諾します。"
+    },
+    "notes.3": {
+      "url": "https://www.city.onojo.fukuoka.jp/kosodate/kiji0037634/index.html",
+      "quote": "注：育児休業から復職予定の場合、復職予定日の1カ月前からの入所希望が可能です。"
+    },
+    "notes.4": {
+      "url": "https://www.city.onojo.fukuoka.jp/kosodate/kiji0037634/index.html",
+      "quote": "集団教育のため、社会性を身につけるため、就学前教養のため、近所の児童が入所しているためなど、福祉に該当しないと思われる理由の場合、保育所の入所要件に該当しません。"
+    }
+  },
+  "sources": [
+    {
+      "label": "大野城市「令和8年度の保育所などの入所申込受付」",
+      "url": "https://www.city.onojo.fukuoka.jp/kosodate/kiji0037637/index.html"
+    },
+    {
+      "label": "大野城市「大野城市保育所ガイド」",
+      "url": "https://www.city.onojo.fukuoka.jp/kosodate/kiji0037643/index.html"
+    },
+    {
+      "label": "大野城市「保育所入所要件」",
+      "url": "https://www.city.onojo.fukuoka.jp/kosodate/kiji0037634/index.html"
+    },
+    {
+      "label": "大野城市「教育・保育給付認定申請書 兼 保育所入所申請書（令和8年度用）」",
+      "url": "https://www.city.onojo.fukuoka.jp/kiji0035516/3_5516_up_o7ox0ewp.pdf"
+    }
+  ]
+}

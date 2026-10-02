@@ -1,0 +1,142 @@
+{
+  "citySlug": "ryugasaki",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "龍ケ崎市「令和9年度保育施設等利用のご案内」",
+    "url": "https://www.city.ryugasaki.ibaraki.jp/fukushi/kosodate/azukeru/hoiku/R9-hoikumousikomi.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年10月1日（木）から保育課で申請書類を配布",
+  "firstApply": "令和8年11月2日（月）〜11月16日（月）",
+  "applyMethods": "第一希望が保育所（園）・地域型保育事業の場合は市役所の保育課窓口に提出（各出張所・市民窓口ステーションでは受け付けない）。体調の悪い人は事前に電話で相談すれば郵送も可。第一希望が認定こども園の場合は各認定こども園に原本を提出する",
+  "firstResult": "令和9年1月中旬ごろに発送予定。内定した場合は「利用決定通知」と「支給認定証」、保留の場合は「利用保留通知」と「支給認定証」を送付",
+  "secondApply": "令和8年11月17日（火）〜令和9年1月29日（金）",
+  "secondResult": "令和9年2月中旬ごろに発送予定。一次募集で保留となった人も再度利用調整される",
+  "midYearDeadline": "入所希望月の前月10日まで（10日が土日祝日の場合は前開庁日）",
+  "documents": [
+    "教育・保育支給認定申請書兼保育施設利用申込書【2号・3号認定用】",
+    "状況調査票（裏面の「保育施設利用申込に関する確認書」にチェックと署名）",
+    "保育を必要とする事由の証明書（証明日から3か月以内のもの）",
+    "該当する場合は父母の個人住民税課税（非課税）証明書（4〜8月入所は令和8年度、9月以降入所は令和9年度）"
+  ],
+  "interview": "内定後、正式な入所に先立って保護者とともに各施設で面談・健康診断等を受ける。入所説明会・面接・健康診断は令和9年1月〜3月で、日程は施設ごとに異なる",
+  "notes": [
+    "令和9年度4月入所から、就労時間等の下限が「月64時間」から「月48時間」に変わる",
+    "申込前に希望する保育施設の見学に行くことが推奨されている",
+    "先着順ではなく、締切日までに申し込めば同じ条件で選考される。入所保留期間の長さは考慮しない",
+    "締切日時点で提出されている書類を基に選考するので、締切日までに書類をすべて揃えて申し込む",
+    "育児休業明けで申し込む場合は、入所月の翌月15日までの復職が必要"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.ryugasaki.ibaraki.jp/fukushi/kosodate/azukeru/hoiku/R9-hoikumousikomi.html",
+      "quote": "令和9年度4月入所一次申し込みは令和8年11月2日（月曜日）から令和8年11月16日（月曜日）まで"
+    },
+    "guideRelease": {
+      "url": "https://www.city.ryugasaki.ibaraki.jp/fukushi/kosodate/azukeru/hoiku/R9-hoikumousikomi.files/R9riyouannai.pdf",
+      "quote": "令和8年10月１日（木） 保育施設利用の申請書類配布開始（保育課）"
+    },
+    "firstApply": {
+      "url": "https://www.city.ryugasaki.ibaraki.jp/fukushi/kosodate/azukeru/hoiku/R9-hoikumousikomi.html",
+      "quote": "令和9年度4月入所一次申し込みは令和8年11月2日（月曜日）から令和8年11月16日（月曜日）まで"
+    },
+    "applyMethods": {
+      "url": "https://www.city.ryugasaki.ibaraki.jp/fukushi/kosodate/azukeru/hoiku/R9-hoikumousikomi.html",
+      "quote": "市役所・保育課窓口（各出張所・市民窓口ステーションでは受け付けできません）"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.ryugasaki.ibaraki.jp/fukushi/kosodate/azukeru/hoiku/R9-hoikumousikomi.html",
+      "quote": "※体調の悪い方は郵送可（事前にお電話にてご相談ください）"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.ryugasaki.ibaraki.jp/fukushi/kosodate/azukeru/hoiku/R9-hoikumousikomi.files/R9riyouannai.pdf",
+      "quote": "第一希望が認定こども園の方・・・各認定こども園 ※原本を認定こども園へご提出ください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.ryugasaki.ibaraki.jp/fukushi/kosodate/azukeru/hoiku/R9-hoikumousikomi.files/R9riyouannai.pdf",
+      "quote": "★令和９年４月入所 一次募集 ・・・・・・令和9年1月中旬ごろ発送予定"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.ryugasaki.ibaraki.jp/fukushi/kosodate/azukeru/hoiku/R9-hoikumousikomi.files/R9riyouannai.pdf",
+      "quote": "・入所保留の場合、「利用保留通知」「支給認定証」を送付"
+    },
+    "firstResult#3": {
+      "url": "https://www.city.ryugasaki.ibaraki.jp/fukushi/kosodate/azukeru/hoiku/R9-hoikumousikomi.files/R9riyouannai.pdf",
+      "quote": "・入所が内定した場合、「利用決定通知」「支給認定証」を送付"
+    },
+    "secondApply": {
+      "url": "https://www.city.ryugasaki.ibaraki.jp/fukushi/kosodate/azukeru/hoiku/R9-hoikumousikomi.html",
+      "quote": "令和9年度4月入所二次申し込みは令和8年11月17日（火曜日）から令和9年1月29日（金曜日）まで"
+    },
+    "secondResult": {
+      "url": "https://www.city.ryugasaki.ibaraki.jp/fukushi/kosodate/azukeru/hoiku/R9-hoikumousikomi.files/R9riyouannai.pdf",
+      "quote": "二次募集 ・・・・・・令和9年２月中旬ごろ発送予定"
+    },
+    "secondResult#2": {
+      "url": "https://www.city.ryugasaki.ibaraki.jp/fukushi/kosodate/azukeru/hoiku/R9-hoikumousikomi.files/R9riyouannai.pdf",
+      "quote": "一次募集で入所が保留となった方も、再度利用調整されます。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.ryugasaki.ibaraki.jp/fukushi/kosodate/azukeru/hoiku/R9-hoikumousikomi.html",
+      "quote": "申し込み書類の受付期限は、入所希望月の前月10日までとなります（10日が土日祝日の場合は前開庁日）。"
+    },
+    "documents.0": {
+      "url": "https://www.city.ryugasaki.ibaraki.jp/fukushi/kosodate/azukeru/hoiku/R9-hoikumousikomi.files/R9riyouannai.pdf",
+      "quote": "□ 教育・保育支給認定申請書兼保育施設利用申込書【2号・3号認定用】"
+    },
+    "documents.1": {
+      "url": "https://www.city.ryugasaki.ibaraki.jp/fukushi/kosodate/azukeru/hoiku/R9-hoikumousikomi.files/R9riyouannai.pdf",
+      "quote": "□ 状況調査票 ※裏面の「保育施設利用申込に関する確認書」もご確認の上、チェックとご署名をお願いします。"
+    },
+    "documents.2": {
+      "url": "https://www.city.ryugasaki.ibaraki.jp/fukushi/kosodate/azukeru/hoiku/R9-hoikumousikomi.files/R9riyouannai.pdf",
+      "quote": "□ 保育を必要とする事由の証明書（証明日から３か月以内のもの）"
+    },
+    "documents.3": {
+      "url": "https://www.city.ryugasaki.ibaraki.jp/fukushi/kosodate/azukeru/hoiku/R9-hoikumousikomi.files/R9riyouannai.pdf",
+      "quote": "・父母の個人住民税課税（非課税）証明書 ※4～8月入所：令和8年度、9月以降入所：令和9年度"
+    },
+    "interview": {
+      "url": "https://www.city.ryugasaki.ibaraki.jp/fukushi/kosodate/azukeru/hoiku/R9-hoikumousikomi.files/R9riyouannai.pdf",
+      "quote": "正式な入所に先立って、保護者とともに各施設で面談・健康診断等を受けます。"
+    },
+    "interview#2": {
+      "url": "https://www.city.ryugasaki.ibaraki.jp/fukushi/kosodate/azukeru/hoiku/R9-hoikumousikomi.files/R9riyouannai.pdf",
+      "quote": "令和9年１月～３月 入所準備 入所説明会、面接、健康診断（各施設で日程は異なります。）"
+    },
+    "notes.0": {
+      "url": "https://www.city.ryugasaki.ibaraki.jp/fukushi/kosodate/azukeru/hoiku/R9-hoikumousikomi.html",
+      "quote": "【令和9年度4月入所より、保育給付認定等要件における就労時間等の下限値が「月64時間」から「月48時間」へ変更されます。】"
+    },
+    "notes.1": {
+      "url": "https://www.city.ryugasaki.ibaraki.jp/fukushi/kosodate/azukeru/hoiku/R9-hoikumousikomi.html",
+      "quote": "お申込みいただく前に、希望する保育施設の見学に行くことを推奨しています。"
+    },
+    "notes.2": {
+      "url": "https://www.city.ryugasaki.ibaraki.jp/fukushi/kosodate/azukeru/hoiku/R9-hoikumousikomi.files/R9riyouannai.pdf",
+      "quote": "先着順ではありませんので、締切日までにお申込みいただければ、同じ条件で選考いたします。また、入所保留期間の長さは考慮に含めません。"
+    },
+    "notes.3": {
+      "url": "https://www.city.ryugasaki.ibaraki.jp/fukushi/kosodate/azukeru/hoiku/R9-hoikumousikomi.files/R9riyouannai.pdf",
+      "quote": "お申込みの締切日時点で提出されている書類を基に選考を行います。"
+    },
+    "notes.3#2": {
+      "url": "https://www.city.ryugasaki.ibaraki.jp/fukushi/kosodate/azukeru/hoiku/R9-hoikumousikomi.files/R9riyouannai.pdf",
+      "quote": "締切日までにすべて揃えてお申込みください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.ryugasaki.ibaraki.jp/fukushi/kosodate/azukeru/hoiku/R9-hoikumousikomi.files/R9riyouannai.pdf",
+      "quote": "※いずれの場合も、入所月の翌月１５日までの復職が必要となります。"
+    }
+  },
+  "sources": [
+    {
+      "label": "龍ケ崎市「令和9年度保育施設等利用のご案内」",
+      "url": "https://www.city.ryugasaki.ibaraki.jp/fukushi/kosodate/azukeru/hoiku/R9-hoikumousikomi.html"
+    },
+    {
+      "label": "龍ケ崎市「令和9年度 保育所等・幼稚園・認定こども園 利用案内」（PDF）",
+      "url": "https://www.city.ryugasaki.ibaraki.jp/fukushi/kosodate/azukeru/hoiku/R9-hoikumousikomi.files/R9riyouannai.pdf"
+    }
+  ]
+}

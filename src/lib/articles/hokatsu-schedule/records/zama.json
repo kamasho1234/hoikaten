@@ -1,0 +1,222 @@
+{
+  "citySlug": "zama",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "座間市「【令和9年4月】保育所等入所申込み」",
+    "url": "https://www.city.zama.kanagawa.jp/kosodate/hoiku/hoikuen/1010940.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年10月20日（火）〜11月20日（金）。市役所窓口は10月20日〜11月13日と11月18日〜20日が8時30分〜17時15分、11月16日・17日は20時まで、10月24日（土）・11月14日（土）は8時30分〜12時。郵送は令和8年11月20日（金）必着",
+  "applyMethods": "市役所2階の保育・幼稚園課窓口に提出する。市内の保育所等だけを申し込む場合に限り郵送も可（締切日必着）。市外の保育所等を申し込む場合は窓口のみ",
+  "firstResult": "令和9年1月下旬（予定）までに通知",
+  "secondApply": "令和8年11月24日（火）〜令和9年2月10日（水）。郵送は令和9年2月10日（水）必着",
+  "secondResult": "令和9年3月中旬（予定）に通知",
+  "midYearDeadline": "4月入所以外は入所希望月の前月10日まで（土日祝日の場合は前開庁日まで）。入所希望月の前々月の11日から受け付ける",
+  "documents": [
+    "保育所等利用申込書（支給認定申請書）",
+    "保育所等利用申込補助票（1）、（2）、（3）",
+    "特定教育・保育施設、特定地域型保育事業の利用申込みに係る承諾書・利用者負担金納付誓約書",
+    "保育所等利用申込みに係る重要説明事項確認書",
+    "申請保護者（届出者）の身元と個人番号の分かる書類（マイナンバーカード等）",
+    "保育の必要性を証明する書類（原則両親とも）。就労の場合は市指定様式の就労証明書で、証明日から2か月以内のものに限る。育児休業取得中も必要",
+    "育児休業を取得していて、希望園に入れない場合の育休延長を許容する場合は育児休業に関する同意書・申出書"
+  ],
+  "interview": "申込み日までに希望園を見学する（締切日までの見学予約でも可）。見学か予約が済んでいないと申込みを受け付けない。令和9年度入所の見学は原則令和8年8月1日以降のものが有効。入所内定後に施設と面談を行う",
+  "ikukyu": "育児休業中は保育所等を利用できないため、申込時に「入所できた場合は入所月の翌月14日までに復職すること」の同意書を出す。希望園に入れない場合の育休延長を許容する人は、基準点数に関わらず－100点となるが、希望園の定員に空きがあれば内定となる。延長手続き用に申込書の写しを自分で取って保管する",
+  "notes": [
+    "入所申込書類は市役所2階保育・幼稚園課、各出張所、各子育て支援センター、各コミュニティセンター、公設児童ホーム、市内認可保育所等で配布し、ホームページからもダウンロードできる",
+    "保育園の見学は毎年度必要で、令和8年度に見学した保育所も令和9年度に再度見学する",
+    "現在入所保留中の人も、新たに申込みと見学が必要",
+    "先着順ではなく、保育の必要性の高い人から入所となる",
+    "市外の保育施設を座間市を通して申し込む場合は、申込締切日の7開庁日前までに保育・幼稚園課の窓口に直接提出する（郵送不可）",
+    "令和8年10月以降に出産予定で4月入所を申し込む場合は、子どもとの見学をせずに出産前に申し込める（4月1日時点で受入年齢を満たす子に限る）"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.zama.kanagawa.jp/kosodate/hoiku/hoikuen/1010940.html",
+      "quote": "令和9年4月1日から保育所等の入所を希望する方の申込みを、次の通り受け付けます。"
+    },
+    "firstApply": {
+      "url": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/010/940/2027_2goannnai.pdf",
+      "quote": "令和８年１０月２０日(火) ～ 令和８年１１月２０日(金)"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.zama.kanagawa.jp/kosodate/hoiku/hoikuen/1010940.html",
+      "quote": "令和8年10月20日（火曜日）～11月13日（金曜日）、令和8年11月18日（水曜日）～20日（金曜日）8時30分～17時15分"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.zama.kanagawa.jp/kosodate/hoiku/hoikuen/1010940.html",
+      "quote": "令和8年11月16日（月曜日）・17日（火曜日）8時30分～20時"
+    },
+    "firstApply#4": {
+      "url": "https://www.city.zama.kanagawa.jp/kosodate/hoiku/hoikuen/1010940.html",
+      "quote": "令和8年10月24日（土曜日）・11月14日（土曜日）8時30分～12時"
+    },
+    "firstApply#5": {
+      "url": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/010/940/2027_2goannnai.pdf",
+      "quote": "※郵送の場合は令和８年１１月２０日（金）必着"
+    },
+    "applyMethods": {
+      "url": "https://www.city.zama.kanagawa.jp/kosodate/hoiku/hoikuen/1010940.html",
+      "quote": "市役所2階　保育・幼稚園課窓口"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.zama.kanagawa.jp/kosodate/hoiku/hoikuen/1010940.html",
+      "quote": "※市内保育所等のみの申込みに限り郵送可（締切日必着）。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/010/940/2027_2goannnai.pdf",
+      "quote": "〇市外の保育所等をお申込みの場合は、窓口のみの受付になります。"
+    },
+    "firstResult": {
+      "url": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/010/940/2027_2goannnai.pdf",
+      "quote": "結果通知 令和９年１月下旬予定"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.zama.kanagawa.jp/kosodate/hoiku/hoikuen/1010940.html",
+      "quote": "受付終了後、選考会を行い、1次選考の結果は1月下旬までに、2次選考の結果は3月中旬に通知する予定です。"
+    },
+    "secondApply": {
+      "url": "https://www.city.zama.kanagawa.jp/kosodate/hoiku/hoikuen/1010940.html",
+      "quote": "令和8年11月24日（火曜日）～令和9年2月10日（水曜日）8時30分～17時15分"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/010/940/2027_2goannnai.pdf",
+      "quote": "※郵送の場合は令和９年２月１０日（水）必着"
+    },
+    "secondResult": {
+      "url": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/010/940/2027_2goannnai.pdf",
+      "quote": "結果通知 令和９年３月中旬予定"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/010/940/2027_2goannnai.pdf",
+      "quote": "申込み締切：４月入所希望を除き、各月入所月の前月１０日"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/010/940/2027_2goannnai.pdf",
+      "quote": "（土日祝日の場合は、前開庁日まで）"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/010/940/2027_2goannnai.pdf",
+      "quote": "〇入所希望月の前々月の１１日から前月の１０日までの間に御提出ください。"
+    },
+    "documents.0": {
+      "url": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/010/940/2027_2goannnai.pdf",
+      "quote": "保育所等利用申込書（支給認定申請書）"
+    },
+    "documents.1": {
+      "url": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/010/940/2027_2goannnai.pdf",
+      "quote": "保育所等利用申込補助票（１）、（２）、（３）"
+    },
+    "documents.2": {
+      "url": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/010/940/2027_2goannnai.pdf",
+      "quote": "特定教育・保育施設、特定地域型保育事業の利用申込みに係る承諾書・利用者負担金納付誓約書"
+    },
+    "documents.3": {
+      "url": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/010/940/2027_2goannnai.pdf",
+      "quote": "保育所等利用申込みに係る重要説明事項確認書"
+    },
+    "documents.4": {
+      "url": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/010/940/2027_2goannnai.pdf",
+      "quote": "申請保護者（届出者）の身元と個人番号の分かる書類（マイナンバーカード等）"
+    },
+    "documents.5": {
+      "url": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/010/940/2027_2goannnai.pdf",
+      "quote": "保育の必要性を証明する書類 ※原則両親ともにいずれかの書類の提出が必要です。"
+    },
+    "documents.5#2": {
+      "url": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/010/940/2027_2goannnai.pdf",
+      "quote": "〇証明日から２か月以内のものに限ります。"
+    },
+    "documents.5#3": {
+      "url": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/010/940/2027_2goannnai.pdf",
+      "quote": "〇育児休業取得中の場合も必要です。"
+    },
+    "documents.6": {
+      "url": "https://www.city.zama.kanagawa.jp/kosodate/hoiku/hoikuen/1010845.html",
+      "quote": "また、育児休業を取得されている方で、「希望する保育所等に入所できない場合は、育児休業の延長も許容できる。」を了承される場合は、「育児休業に関する同意書・申出書」の項目2の（2）にチェックをして、その他書類と一緒に提出してください。"
+    },
+    "interview": {
+      "url": "https://www.city.zama.kanagawa.jp/kosodate/hoiku/hoikuen/1013727.html",
+      "quote": "お申込み日までに見学または締切日までの見学予約が済んでいない場合は、お申込みの受付ができません。"
+    },
+    "interview#2": {
+      "url": "https://www.city.zama.kanagawa.jp/kosodate/hoiku/hoikuen/1013727.html",
+      "quote": "令和9年度の入所に関わる見学は、原則、令和8年8月1日以降に行ったものが有効となります。"
+    },
+    "interview#3": {
+      "url": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/010/940/2027_2goannnai.pdf",
+      "quote": "〇施設と面談を行います。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.zama.kanagawa.jp/kosodate/hoiku/hoikuen/1010845.html",
+      "quote": "育児休業中は保育を必要とする事由に該当しないため、保育所等の利用はできません。利用申込の際に、「入所できた場合は、入所月の翌月14日までに復職すること」の同意書を提出していただきます。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.zama.kanagawa.jp/kosodate/hoiku/hoikuen/1010845.html",
+      "quote": "※利用調整（選考）にあたっての点数が下がりますが、希望園の定員に空きがある場合は、入所内定となります。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/010/940/2027_2goannnai.pdf",
+      "quote": "・希望する保育所等に入所できない場合、育児休業の延長を許容できる者は、基準点数に関わらず、－１００点とする。"
+    },
+    "ikukyu#4": {
+      "url": "https://www.city.zama.kanagawa.jp/kosodate/hoiku/hoikuen/1010845.html",
+      "quote": "支給期間延長の手続きの際に、保育所等の利用申込を行ったときの申請書の写しが必要となります。申請前にご自身で写しをとって保管してください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.zama.kanagawa.jp/kosodate/hoiku/hoikuen/1010940.html",
+      "quote": "また、入所申込書類は、市役所2階保育・幼稚園課、各出張所、各子育て支援センター、各コミュニティセンター、公設児童ホーム、市内認可保育所等で配布しています（各種書類はホームページからダウンロード可能です。）。"
+    },
+    "notes.1": {
+      "url": "https://www.city.zama.kanagawa.jp/kosodate/hoiku/hoikuen/1013727.html",
+      "quote": "令和8年度見学に行った保育所に関しても、令和9年度再度の見学をお願いしています。"
+    },
+    "notes.1#2": {
+      "url": "https://www.city.zama.kanagawa.jp/kosodate/hoiku/hoikuen/1010940.html",
+      "quote": "保育園の見学は毎年度お願いします。"
+    },
+    "notes.2": {
+      "url": "https://www.city.zama.kanagawa.jp/kosodate/hoiku/hoikuen/1010940.html",
+      "quote": "現在入所保留中の方も、新たに申込みおよび見学が必要です。"
+    },
+    "notes.3": {
+      "url": "https://www.city.zama.kanagawa.jp/kosodate/hoiku/hoikuen/1010940.html",
+      "quote": "先着順ではなく、保育の必要性の高い方から入所となります。"
+    },
+    "notes.4": {
+      "url": "https://www.city.zama.kanagawa.jp/kosodate/hoiku/hoikuen/1010940.html",
+      "quote": "座間市を通してお申込みをされる場合は、申込締切日の7開庁日前までに座間市役所保育・幼稚園課の窓口に直接申請書をご提出ください。"
+    },
+    "notes.4#2": {
+      "url": "https://www.city.zama.kanagawa.jp/kosodate/hoiku/hoikuen/1010940.html",
+      "quote": "市外の保育施設がある場合、郵送での受け付けはできませんのでご注意ください。"
+    },
+    "notes.5": {
+      "url": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/010/940/2027_2goannnai.pdf",
+      "quote": "・令和８年１０月以降に出産予定で４月にお申込みする場合に関しては、お子様との見学をせずにお申込み"
+    },
+    "notes.5#2": {
+      "url": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/010/940/2027_2goannnai.pdf",
+      "quote": "また、出産前にお申込み ができるのは、４月１日時点で受入年齢を満たすお子様に限ります。"
+    }
+  },
+  "sources": [
+    {
+      "label": "座間市「【令和9年4月】保育所等入所申込み」",
+      "url": "https://www.city.zama.kanagawa.jp/kosodate/hoiku/hoikuen/1010940.html"
+    },
+    {
+      "label": "座間市「保育所等利用申込みの御案内（令和9年度用）」",
+      "url": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/010/940/2027_2goannnai.pdf"
+    },
+    {
+      "label": "座間市「令和9年度保育所等入所に関わる見学」",
+      "url": "https://www.city.zama.kanagawa.jp/kosodate/hoiku/hoikuen/1013727.html"
+    },
+    {
+      "label": "座間市「育児休業給付金の延長手続き変更に伴う、令和7年4月入所以降の保育所等利用申込手続きの見直し」",
+      "url": "https://www.city.zama.kanagawa.jp/kosodate/hoiku/hoikuen/1010845.html"
+    }
+  ]
+}

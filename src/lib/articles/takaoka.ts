@@ -3,38 +3,6 @@ import { registerArticles } from "./index";
 
 const articles: Article[] = [
   {
-    slug: "hokatsu-schedule",
-    citySlug: "takaoka",
-    title: "高岡市の保活スケジュール完全ガイド｜令和8年度4月入所の流れ",
-    description: "高岡市で認可保育所・認定こども園への4月入所を目指す保活スケジュールを解説。申込締切・結果通知・必要書類の準備時期をまとめました。",
-    category: "保活の基本",
-    categoryColor: "green",
-    image: "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&h=400&fit=crop",
-    publishedAt: "2025-06-01",
-    content: `<h2>高岡市の保活スケジュール</h2>
-<p>高岡市の認可保育所・認定こども園は毎年11〜12月頃に翌年4月入所の一次申込を受け付けます。早めに動き出すことが保活成功の鍵です。</p>
-
-<table>
-<tr><th>時期</th><th>やること</th></tr>
-<tr><td>4〜6月</td><td>保育所・認定こども園の見学開始</td></tr>
-<tr><td>7〜9月</td><td>点数の確認・就労証明書等の書類収集</td></tr>
-<tr><td>10月</td><td>申込書類の取得・記入開始</td></tr>
-<tr><td>11〜12月</td><td>一次申込締切（例年）</td></tr>
-<tr><td>翌年1月</td><td>一次選考結果通知</td></tr>
-<tr><td>翌年2月</td><td>二次申込・内定承諾</td></tr>
-<tr><td>3月</td><td>入所前健康診断・オリエンテーション</td></tr>
-<tr><td>4月</td><td>入所開始</td></tr>
-</table>
-
-<h2>高岡市の保育施設の種類</h2>
-<p>高岡市内には認可保育所・認定こども園・小規模保育事業（地域型保育）などがあります。いずれも同じ利用調整基準（点数制）で審査されます。</p>
-
-<div class="point-box">
-<p><strong>ポイント</strong></p>
-<p>高岡市は富山県第2の都市で、製造業・商業が盛んな共働き世帯の多いエリアです。希望施設を第5希望以上まで記入しておくことで内定率が上がります。</p>
-</div>`,
-  },
-  {
     slug: "scoring-system-guide",
     citySlug: "takaoka",
     title: "高岡市の保育所入所点数のしくみ｜基本点数・調整点数を徹底解説",

@@ -1,0 +1,182 @@
+{
+  "citySlug": "ushiku",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "牛久市「令和8（2026）年度 保育施設入園申込み」",
+    "url": "https://www.city.ushiku.lg.jp/oyako-kosodate-kyoiku/kosodate/hoikuen/hoikuen-moshikomi-boshu/page014343.html"
+  },
+  "fiscalYear": "R8",
+  "firstApply": "窓口は令和7年11月19日（水）・20日（木）・21日（金）・22日（土）の午前9時〜午後4時。マイナポータルは令和7年11月10日（月）午前9時〜11月22日（土）午後4時。郵送は令和7年11月10日（月）〜11月14日（金）必着",
+  "applyMethods": "窓口（牛久市役所保育課、本庁舎1階）、マイナポータル（ぴったりサービス）の電子申請、郵送（簡易書留・レターパック等の追跡可能な郵便）のいずれかで申し込む",
+  "firstResult": "2月上旬に郵送で通知",
+  "secondApply": "窓口・マイナポータル・郵送とも令和8年2月10日（火）締切（窓口とマイナポータルは午後5時まで、郵送は必着で原則転入予定者のみ）",
+  "secondResult": "2月下旬に郵送で通知",
+  "midYearDeadline": "入園希望月の前月5日（土日祝の場合は直前の平日）",
+  "documents": [
+    "保育を必要とする証明書等（就労証明書など。事由により異なり、保護者それぞれの分が必要。有効期間は申請時において証明日より3ヶ月以内）",
+    "紙で申し込む場合: 教育・保育給付認定申請書（2号認定・3号認定）、保育施設利用申請に係る同意書および申出書、施設入園申込書、児童の健康状況調査票",
+    "電子申請で申し込む場合: 祖父母の状況調査票（電子申請用）"
+  ],
+  "interview": "入園内定通知に記載された期日までに内定施設に電話して日程を調整し、健康診断と面接を受ける（親子で行く）",
+  "ikukyu": "希望する保育所等に入所できない場合に育児休業延長も許容できる人は『育児休業延長の許容による減点同意書』を出し、利用調整の減点に同意する。保留通知は保留となった初回のみ発行し、内定辞退・申込取下をした月は発行しない",
+  "notes": [
+    "令和8年4月入園（1次）の対象は、令和7年12月31日までに生まれる予定の子ども（2次以降は出生後の申込み）",
+    "募集内容は広報うしく11月1日号と牛久市ホームページに掲載される",
+    "受付期間を過ぎた場合は次月申込み（扱い）となる",
+    "利用希望保育施設は第5希望までが選考対象",
+    "児童と同一住所に住む18歳から65歳未満の人にも就労証明書等がある場合は提出する。提出がないと減点の対象",
+    "申込みの前に希望する施設に見学・相談をすることが勧められている"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.ushiku.lg.jp/oyako-kosodate-kyoiku/kosodate/hoikuen/hoikuen-moshikomi-boshu/page014343.html",
+      "quote": "・【令和8（2026）年4月入園（1次）】受付は終了いたしました。"
+    },
+    "firstApply": {
+      "url": "https://www.city.ushiku.lg.jp/data/doc/1768790773_doc_316_0.pdf",
+      "quote": "期間：令和７（2025）年11月19日（水）・20日（木）・21日（金）・22日（土）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.ushiku.lg.jp/data/doc/1768790773_doc_316_0.pdf",
+      "quote": "期間：令和7（2025）年11月１0日（月）午前9時 から 11月2２日（土）午後4時 まで"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.ushiku.lg.jp/data/doc/1768790773_doc_316_0.pdf",
+      "quote": "期間：令和7（2025）年11月10日（月）から11月14日（金）まで ※締切日必着（消印有効ではありません。）"
+    },
+    "firstApply#4": {
+      "url": "https://www.city.ushiku.lg.jp/data/doc/1768790773_doc_316_0.pdf",
+      "quote": "時間：午前9時 から 午後4時 まで"
+    },
+    "applyMethods": {
+      "url": "https://www.city.ushiku.lg.jp/data/doc/1768790773_doc_316_0.pdf",
+      "quote": "場所：牛久市役所保育課（本庁舎1階）"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.ushiku.lg.jp/oyako-kosodate-kyoiku/kosodate/hoikuen/hoikuen-moshikomi-boshu/page014343.html",
+      "quote": "・保育施設入園申請は、メニュー「教育・保育給付認定兼保育施設等の利用申込」をご選択ください。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.ushiku.lg.jp/data/doc/1768790773_doc_316_0.pdf",
+      "quote": "・簡易書留・レターパック等の追跡可能な郵便で送付してください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.ushiku.lg.jp/data/doc/1768790773_doc_316_0.pdf",
+      "quote": "〇審査結果については、2月上旬に郵送で通知いたします。"
+    },
+    "secondApply": {
+      "url": "https://www.city.ushiku.lg.jp/data/doc/1768790773_doc_316_0.pdf",
+      "quote": "締切：令和8（2026）年2月10日（火） 午後5時"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.ushiku.lg.jp/data/doc/1768790773_doc_316_0.pdf",
+      "quote": "期間：令和8年度4月入園（1次）受付期間終了 から 令和８（2026）年2月1０日（火）午後5時 まで"
+    },
+    "secondApply#3": {
+      "url": "https://www.city.ushiku.lg.jp/data/doc/1768790773_doc_316_0.pdf",
+      "quote": "締切：令和8（2026）年2月10日（火） ※締切日必着（消印有効ではありません。）"
+    },
+    "secondApply#4": {
+      "url": "https://www.city.ushiku.lg.jp/data/doc/1768790773_doc_316_0.pdf",
+      "quote": "[郵送受付] ※原則、「転入予定者」のみ。"
+    },
+    "secondResult": {
+      "url": "https://www.city.ushiku.lg.jp/data/doc/1768790773_doc_316_0.pdf",
+      "quote": "〇審査結果については、2月下旬に郵送で通知いたします。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.ushiku.lg.jp/data/doc/1768790773_doc_316_0.pdf",
+      "quote": "●入園希望月の前月５日（土日祝の場合は直前の平日）が申込締切日です。"
+    },
+    "documents.0": {
+      "url": "https://www.city.ushiku.lg.jp/data/doc/1768790773_doc_316_0.pdf",
+      "quote": "保育を必要とする証明書等 …※保育の必要な事由により提出する書類が異なります。保護者それぞれの証明書等が必要です。"
+    },
+    "documents.0#2": {
+      "url": "https://www.city.ushiku.lg.jp/data/doc/1768790773_doc_316_0.pdf",
+      "quote": "【有効期間は、申請時において証明日"
+    },
+    "documents.0#3": {
+      "url": "https://www.city.ushiku.lg.jp/data/doc/1768790773_doc_316_0.pdf",
+      "quote": "より3ヶ月以内】"
+    },
+    "documents.1": {
+      "url": "https://www.city.ushiku.lg.jp/data/doc/1768790773_doc_316_0.pdf",
+      "quote": "・『教育・保育給付認定申請書（2号認定・3号認定）』"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.ushiku.lg.jp/data/doc/1768790773_doc_316_0.pdf",
+      "quote": "・『保育施設利用申請に係る同意書および申出書』"
+    },
+    "documents.1#3": {
+      "url": "https://www.city.ushiku.lg.jp/data/doc/1768790773_doc_316_0.pdf",
+      "quote": "・『施設入園申込書』"
+    },
+    "documents.1#4": {
+      "url": "https://www.city.ushiku.lg.jp/data/doc/1768790773_doc_316_0.pdf",
+      "quote": "・『児童の健康状況調査票』"
+    },
+    "documents.2": {
+      "url": "https://www.city.ushiku.lg.jp/data/doc/1768790773_doc_316_0.pdf",
+      "quote": "・『祖父母の状況調査票（電子申請用）』"
+    },
+    "interview": {
+      "url": "https://www.city.ushiku.lg.jp/data/doc/1768790773_doc_316_0.pdf",
+      "quote": "入園内定通知に記載された期日までに内定施設に電話し、日程調整のうえ、健康診断と面接を受けていただきます。"
+    },
+    "interview#2": {
+      "url": "https://www.city.ushiku.lg.jp/data/doc/1768790773_doc_316_0.pdf",
+      "quote": "４. 健康診断・面接（内定施設には、親子でお越しください。）"
+    },
+    "ikukyu": {
+      "url": "https://www.city.ushiku.lg.jp/data/doc/1768790773_doc_316_0.pdf",
+      "quote": "『育児休業延長の許容による減点同意書』は、対象の入所選考において、希望する保育所等に入所できない場合に育児休業延長も許容できるため利用調整の減点に同意する方が対象です。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.ushiku.lg.jp/data/doc/1768790773_doc_316_0.pdf",
+      "quote": "A 保留通知は、選考の結果、保留となった初回のみ発行いたします。内定辞退および申込取下をされたその月については発行できません。"
+    },
+    "notes.0": {
+      "url": "https://www.city.ushiku.lg.jp/data/doc/1768790773_doc_316_0.pdf",
+      "quote": "◎令和７年12月31日までに生まれる予定のお子さま（2次以降は出生後のお申込みとなります。）"
+    },
+    "notes.1": {
+      "url": "https://www.city.ushiku.lg.jp/data/doc/1768790773_doc_316_0.pdf",
+      "quote": "〇広報うしく11月1日号および牛久市ホームページに募集内容が掲載されます。"
+    },
+    "notes.2": {
+      "url": "https://www.city.ushiku.lg.jp/data/doc/1768790773_doc_316_0.pdf",
+      "quote": "下記の受付期間を過ぎた場合は、次月申込み（扱い）となります。"
+    },
+    "notes.3": {
+      "url": "https://www.city.ushiku.lg.jp/data/doc/1768790773_doc_316_0.pdf",
+      "quote": "・利用希望保育施設は、第５希望までが選考対象です。"
+    },
+    "notes.4": {
+      "url": "https://www.city.ushiku.lg.jp/data/doc/1768790773_doc_316_0.pdf",
+      "quote": "保育に欠ける証明書（就労証明書等）がある場合はご提出ください。提出がない場合は減点の対象となります。"
+    },
+    "notes.4#2": {
+      "url": "https://www.city.ushiku.lg.jp/data/doc/1768790773_doc_316_0.pdf",
+      "quote": "●利用調整（選考）の参考とするために、児童と同一住所に居住する18歳から65歳未満の方（別世帯・別棟含む）も、"
+    },
+    "notes.5": {
+      "url": "https://www.city.ushiku.lg.jp/data/doc/1768790773_doc_316_0.pdf",
+      "quote": "〇申込みをする前に、希望する施設に見学・相談をすることをおすすめいたします。"
+    }
+  },
+  "sources": [
+    {
+      "label": "牛久市「令和8（2026）年度 保育施設入園申込み」",
+      "url": "https://www.city.ushiku.lg.jp/oyako-kosodate-kyoiku/kosodate/hoikuen/hoikuen-moshikomi-boshu/page014343.html"
+    },
+    {
+      "label": "牛久市「令和8（2026）年度牛久市保育施設入園のご案内」（PDF）",
+      "url": "https://www.city.ushiku.lg.jp/data/doc/1768790773_doc_316_0.pdf"
+    },
+    {
+      "label": "牛久市「保育園入園申込み・募集人数」",
+      "url": "https://www.city.ushiku.lg.jp/oyako-kosodate-kyoiku/kosodate/hoikuen/hoikuen-moshikomi-boshu/"
+    }
+  ]
+}

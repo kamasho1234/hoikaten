@@ -1,0 +1,162 @@
+{
+  "citySlug": "sanyoonoda",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "山陽小野田市「令和9年度保育園入園児募集」",
+    "url": "https://www.city.sanyo-onoda.lg.jp/soshiki/20/r9hoikuenn.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年10月1日（木曜日）から申込書を配布。配布場所は市役所子育て支援課とスマイルキッズで、市ホームページからもダウンロードできる",
+  "firstApply": "令和8年11月2日（月曜日）〜11月30日（月曜日）。郵送は期限内必着。締切日が閉庁日の場合は直前の開庁日が締切日",
+  "applyMethods": "申込書に必要事項を記入し、添付書類を添えて市役所子育て支援課に提出する（郵送可・必着）。各支所・保育園等では新規の受付をしない。郵送で書類が不十分な場合は受け付けられない",
+  "firstResult": "1月中旬に一次選考結果を文書で送付",
+  "secondApply": "令和8年12月1日（火曜日）〜令和9年1月29日（金曜日）",
+  "secondResult": "2月中旬に二次選考結果を文書で送付",
+  "midYearDeadline": "随時受付。毎月1日入所は入所希望日の3か月前から前月初日まで、毎月15日入所は入所希望日の3か月前から前月15日まで（1日・15日以外の入所はできない）",
+  "documents": [
+    "施設型給付費・地域型保育給付費等教育・保育給付認定申込書（児童1名につき1部）",
+    "保育を必要とする理由を証明する書類（就労の場合は就労証明書。令和8年10月1日以降に証明された書類）",
+    "就労証明書は事業所が発行したものに限る。自営の場合は自分で作成した就労証明書に加え、開業届の写しや店のホームページなど就労内容を証明できるものを添付する"
+  ],
+  "interview": "入所を検討している園には必ず見学に行くよう求められている。見学は事前に園へ連絡し、可能な限り子どもと一緒に行く",
+  "ikukyu": "育児休業中の人が入所する場合、入所後1か月以内の就労復帰が必要。令和9年度から、復職後2週間以内に復職証明書を提出する",
+  "notes": [
+    "令和8年度入所が待機になっている人や途中入所で申込中の人も、新年度の申込が必要",
+    "年度途中からの入所希望でも一次受付期間に申し込める",
+    "求職活動を要件として一次受付期間に申し込む場合、入所日は4月1日のみで、内定したら4月中に就労開始することを確認できる就労証明書を3月末までに提出する",
+    "65歳未満の祖父母と同居している家庭は、祖父母の書類の提出がないと減点になる",
+    "内定後の辞退は原則できないので、必ず入所を希望する施設のみ記入する"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.sanyo-onoda.lg.jp/uploaded/attachment/77236.pdf",
+      "quote": "令和９年度の保育園等の入所申込受付期間は、次のとおりです。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.sanyo-onoda.lg.jp/soshiki/20/r9hoikuenn.html",
+      "quote": "令和8年10月1日（木曜日）から"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.sanyo-onoda.lg.jp/soshiki/20/r9hoikuenn.html",
+      "quote": "市役所子育て支援課・スマイルキッズ"
+    },
+    "firstApply": {
+      "url": "https://www.city.sanyo-onoda.lg.jp/soshiki/20/r9hoikuenn.html",
+      "quote": "一次受付　　　　　　　　令和8年11月2日（月曜日）から11月30日（月曜日）まで"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.sanyo-onoda.lg.jp/uploaded/attachment/77236.pdf",
+      "quote": "※締切日が閉庁日の場合、直前の開庁日を締切日とします。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.sanyo-onoda.lg.jp/soshiki/20/r9hoikuenn.html",
+      "quote": "申込書に必要事項を記入の上、添付書類を添えて市役所子育て支援課に提出してください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.sanyo-onoda.lg.jp/soshiki/20/r9hoikuenn.html",
+      "quote": "郵送で書類不十分の場合は受付できませんのでご了承ください。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.sanyo-onoda.lg.jp/soshiki/20/r9hoikuenn.html",
+      "quote": "市役所子育て支援課　【郵送可・必着】"
+    },
+    "firstResult": {
+      "url": "https://www.city.sanyo-onoda.lg.jp/uploaded/attachment/77236.pdf",
+      "quote": "一次選考結果は1月中旬、二次選考結果は２月中旬に文書を送付します。"
+    },
+    "secondApply": {
+      "url": "https://www.city.sanyo-onoda.lg.jp/soshiki/20/r9hoikuenn.html",
+      "quote": "二次受付　　　　　　　　令和8年12月1日（火曜日）から令和9年1月29日（金曜日）まで"
+    },
+    "secondResult": {
+      "url": "https://www.city.sanyo-onoda.lg.jp/uploaded/attachment/77236.pdf",
+      "quote": "一次選考結果は1月中旬、二次選考結果は２月中旬に文書を送付します。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.sanyo-onoda.lg.jp/soshiki/20/r9hoikuenn.html",
+      "quote": "随時受付　　　　　　　   毎月1日入所　・・・入所希望日の3か月前から前月初日まで"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.sanyo-onoda.lg.jp/uploaded/attachment/77236.pdf",
+      "quote": "毎月１５日入所…入所希望日3か月前から前月15日まで"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.sanyo-onoda.lg.jp/soshiki/20/r9hoikuenn.html",
+      "quote": "※審査の都合上、1日及び15日以外の入所はできません。"
+    },
+    "documents.0": {
+      "url": "https://www.city.sanyo-onoda.lg.jp/uploaded/attachment/77236.pdf",
+      "quote": "申込書は児童1名につき1部、②の必要書類は1世帯につき1部提出してください。"
+    },
+    "documents.0#2": {
+      "url": "https://www.city.sanyo-onoda.lg.jp/uploaded/attachment/77236.pdf",
+      "quote": "施設型給付費・地域型保育給付費等教育・保育給付認定申込書"
+    },
+    "documents.1": {
+      "url": "https://www.city.sanyo-onoda.lg.jp/uploaded/attachment/77236.pdf",
+      "quote": "※ 証明書は、令和８年１０月１日以降に証明された書類を提出してください。"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.sanyo-onoda.lg.jp/uploaded/attachment/77236.pdf",
+      "quote": "保育を必要とする理由を証明する書類（②必要書類参照）"
+    },
+    "documents.2": {
+      "url": "https://www.city.sanyo-onoda.lg.jp/soshiki/20/r9hoikuenn.html",
+      "quote": "・就労証明書は、事業所が発行したものに限ります。"
+    },
+    "documents.2#2": {
+      "url": "https://www.city.sanyo-onoda.lg.jp/soshiki/20/r9hoikuenn.html",
+      "quote": "・自営の方は、ご自身が作成した就労証明書に加え、就労内容を証明できるもの（開業届の写しやお店のHP等）を添付の上、ご提出ください。"
+    },
+    "interview": {
+      "url": "https://www.city.sanyo-onoda.lg.jp/uploaded/attachment/77236.pdf",
+      "quote": "入所後に、想定と違ったということのないよう、入所を検討している園に必ず見学に行き、園までの送迎時間や園の雰囲気等を確認してください。"
+    },
+    "interview#2": {
+      "url": "https://www.city.sanyo-onoda.lg.jp/uploaded/attachment/77236.pdf",
+      "quote": "また、見学は可能な限りお子様と一緒に行ってください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.sanyo-onoda.lg.jp/uploaded/attachment/77236.pdf",
+      "quote": "現在、育児休業中の方が保育園等に入所する場合、入所後１か月以内の就労復帰が必要です。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.sanyo-onoda.lg.jp/uploaded/attachment/77236.pdf",
+      "quote": "また、令和９年度から、復職後２週間以内に、復職証明書を提出していただきます。"
+    },
+    "notes.0": {
+      "url": "https://www.city.sanyo-onoda.lg.jp/soshiki/20/r9hoikuenn.html",
+      "quote": "※令和8年度入所が待機になっている方、途中入所で申込中の方も新年度の申込が必要です。"
+    },
+    "notes.1": {
+      "url": "https://www.city.sanyo-onoda.lg.jp/uploaded/attachment/77236.pdf",
+      "quote": "◎ 年度途中からの入所希望であっても、一次受付期間に申込できます。"
+    },
+    "notes.2": {
+      "url": "https://www.city.sanyo-onoda.lg.jp/uploaded/attachment/77236.pdf",
+      "quote": "求職活動を要件として一次受付期間に申込する場合、入所日は４月１日のみです。"
+    },
+    "notes.2#2": {
+      "url": "https://www.city.sanyo-onoda.lg.jp/uploaded/attachment/77236.pdf",
+      "quote": "保育園への入所が内定したときは、４月中に就労開始することを確認できる就労証明書を３月末までに提出してください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.sanyo-onoda.lg.jp/uploaded/attachment/77236.pdf",
+      "quote": "※ ６５歳未満の祖父母と同居している家庭は、祖父母の書類の提出がない場合は減点になりますので、ご注意ください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.sanyo-onoda.lg.jp/uploaded/attachment/77236.pdf",
+      "quote": "必ず入所を希望する施設のみ記入してください。"
+    }
+  },
+  "sources": [
+    {
+      "label": "山陽小野田市「令和9年度保育園入園児募集」",
+      "url": "https://www.city.sanyo-onoda.lg.jp/soshiki/20/r9hoikuenn.html"
+    },
+    {
+      "label": "山陽小野田市「令和9年度保育園等利用案内」（PDF）",
+      "url": "https://www.city.sanyo-onoda.lg.jp/uploaded/attachment/77236.pdf"
+    }
+  ]
+}

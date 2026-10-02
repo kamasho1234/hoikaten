@@ -1,0 +1,170 @@
+{
+  "citySlug": "tomigusuku",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "豊見城市「令和8−9年度(2026−2027) 認定こども園・保育園等募集案内について（2・3号認定）」",
+    "url": "https://www.city.tomigusuku.lg.jp/soshiki/4/1021/gyomuannai/1/2/170.html"
+  },
+  "fiscalYear": "R9",
+  "firstApply": "令和8年11月2日（月）〜令和8年11月13日（金）（土・日曜日を除く）。郵送は締切日消印有効",
+  "applyMethods": "郵送・窓口・電子申請のいずれかで提出する。受付場所は豊見城市役所2階の保育こども園課、窓口の受付時間は午前8時30分〜12時・午後1時〜5時15分。令和9年度の電子申請は11月2日から案内を開始する",
+  "firstResult": "1月下旬に1次の内定通知。内定した人には「施設利用内定通知書」と「健康診断書（様式）」、保留の人には「入所保留通知書」を送付する",
+  "secondApply": "令和9年1月18日（月）〜令和9年1月22日（金）。1次で内定しなかった人は自動的に2次の利用調整の対象になり、改めての申込みは不要",
+  "midYearDeadline": "令和9年5月1日入所の申込締切は令和9年3月15日（月）。年度途中の入所は月ごとの締切日（日程表）までに申込書類を提出する。2月・3月入所の募集はない",
+  "documents": [
+    "教育・保育給付認定申請書兼施設利用申込書（記入例を必ず確認する）",
+    "保育を必要とする事由を証明する書類（雇用されている人は就労証明書。育児休業からの復帰を希望する場合は復職日の記載が必要）",
+    "保護者（父母）と19歳以上65歳未満（令和9年4月1日時点）の同居人（祖父母等）全員分の、保育を必要とする事由を確認できる書類",
+    "各種証明書類は申込日（提出日）から3か月以内に発行されたものに限る"
+  ],
+  "interview": "内定後、1月下旬から内定施設で子どもと一緒に面談を受ける。面談や健康診断等の結果、集団保育に適さないと判断された場合は利用できないことがある",
+  "ikukyu": "入所申込書の「希望する園に入園できない場合は、育休延長も許容できる。」にチェックを入れても、保育園等に空きがある場合は内定となる",
+  "notes": [
+    "令和8年度の利用申込みをしている人も、令和9年度の利用を希望する場合は再度申込みが必要",
+    "受付期間以降の提出や、書類に不備・記入漏れがある場合は受付不可",
+    "申込期間のうち11月5日・6日は心理士等を配置し、特別な支援（発達支援保育）の手続きに個別対応する",
+    "令和9年1月2日以降に生まれた子どもは4月入所の対象にならない",
+    "内定を辞退すると、次回の利用調整から点数が3点減点される",
+    "育児休業からの復職を事由に申し込んだ人は、利用開始月の翌月20日までに復職する必要がある"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.tomigusuku.lg.jp/material/files/group/22/R9sinkimousikomi.pdf",
+      "quote": "令和8年度の利用申込みをされている方も、令和9年度の利用を希望する場合は再度お申込みが必要です。"
+    },
+    "firstApply": {
+      "url": "https://www.city.tomigusuku.lg.jp/material/files/group/22/R9sinkimousikomi.pdf",
+      "quote": "○受 付 期 間： 令和8年11月2日(月) ～ 令和8年11月13日(金) ※土・日曜日を除く"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.tomigusuku.lg.jp/material/files/group/22/R9sinkimousikomi.pdf",
+      "quote": "郵送での提出の場合（締切日消印有効）、未着については一切責任を負いかねます。"
+    },
+    "applyMethods": {
+      "url": "https://www.city.tomigusuku.lg.jp/material/files/group/22/R9sinkimousikomi.pdf",
+      "quote": "○受 付 場 所： 豊見城市役所 ２階 保育こども園課 ※郵送、窓口、電子申請のいずれかの方法で提出。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.tomigusuku.lg.jp/material/files/group/22/R9sinkimousikomi.pdf",
+      "quote": "○受 付 時 間： 午前８：30 ～ 午前12：00 / 午後１：00 ～ 午後５：15"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.tomigusuku.lg.jp/soshiki/4/1021/gyomuannai/1/2/170.html",
+      "quote": "令和9年度の電子申請申込みは11月2日より案内を開始いたします。"
+    },
+    "firstResult": {
+      "url": "https://www.city.tomigusuku.lg.jp/material/files/group/22/R9sinkisukeju-ru.pdf",
+      "quote": "(４)内定通知（１次） 《 １月下旬 》"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.tomigusuku.lg.jp/material/files/group/22/R9sinkisukeju-ru.pdf",
+      "quote": "保留の方には｢入所保留通知書｣を送付します。"
+    },
+    "firstResult#3": {
+      "url": "https://www.city.tomigusuku.lg.jp/material/files/group/22/R9sinkisukeju-ru.pdf",
+      "quote": "内定した方には｢施設利用内定通知書｣及び｢健康診"
+    },
+    "secondApply": {
+      "url": "https://www.city.tomigusuku.lg.jp/material/files/group/22/R9sinkimousikomi.pdf",
+      "quote": "令和9年1月18日（月）～令和9年１月22日（金）までの間、二次募集の受付を行います。"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.tomigusuku.lg.jp/material/files/group/22/R9sinkisukeju-ru.pdf",
+      "quote": "※利用調整(１次)で内定しなかった場合は、自動的に利用調整(２次)の対象となります。"
+    },
+    "secondApply#3": {
+      "url": "https://www.city.tomigusuku.lg.jp/material/files/group/22/R9sinkimousikomi.pdf",
+      "quote": "令和8年11月2日～令和8年11月13日に申し込まれた方は、改めてのお申込みは不要です。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.tomigusuku.lg.jp/material/files/group/22/R9totyuunyusyosukeju-ru.pdf",
+      "quote": "令和９(2027)年 ５月 １日 入所 令和９(2027)年 ３月15日 (月)"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.tomigusuku.lg.jp/material/files/group/22/R9totyuunyusyosukeju-ru.pdf",
+      "quote": "下表の申込受付締切日までに、申込書類を保育こども園課へ提出してください。"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.tomigusuku.lg.jp/material/files/group/22/R9totyuunyusyosukeju-ru.pdf",
+      "quote": "※2月及び3月入所の募集はありません。"
+    },
+    "documents.0": {
+      "url": "https://www.city.tomigusuku.lg.jp/material/files/group/22/R9mousikomisyorui.pdf",
+      "quote": "教育・保育給付認定申請書兼施設利用申込書 記入例を必ずご確認ください。"
+    },
+    "documents.1": {
+      "url": "https://www.city.tomigusuku.lg.jp/material/files/group/22/R9mousikomisyorui.pdf",
+      "quote": "※育児休業からの復帰を希望する場合は、復職日の記載が必要"
+    },
+    "documents.2": {
+      "url": "https://www.city.tomigusuku.lg.jp/material/files/group/22/R9mousikomisyorui.pdf",
+      "quote": "※保護者(父母)及び19歳以上65歳未満(令和9年４月１日時点)の同居人(祖父母等)全員分の書類提出が必要となります。"
+    },
+    "documents.3": {
+      "url": "https://www.city.tomigusuku.lg.jp/material/files/group/22/R9mousikomisyorui.pdf",
+      "quote": "○ 各種証明書類は申込日（提出日）から3ヵ月以内に発行されたものに限ります。"
+    },
+    "interview": {
+      "url": "https://www.city.tomigusuku.lg.jp/material/files/group/22/R9sinkisukeju-ru.pdf",
+      "quote": "(５)面 談 《 １月下旬 ～ 》"
+    },
+    "interview#2": {
+      "url": "https://www.city.tomigusuku.lg.jp/material/files/group/22/R9sinkisukeju-ru.pdf",
+      "quote": "内定施設にてお子様と一緒に面談を受けてください。"
+    },
+    "interview#3": {
+      "url": "https://www.city.tomigusuku.lg.jp/material/files/group/22/R9sinkimousikomi.pdf",
+      "quote": "利用施設での面談及び健康診断等の結果により、集団保育"
+    },
+    "ikukyu": {
+      "url": "https://www.city.tomigusuku.lg.jp/material/files/group/22/R9sinkimousikomi.pdf",
+      "quote": "入所申込書において「□希望する園に入園できない場合は、育休延長も許容できる。」にチェックを入れても、保育園等に空きがある場"
+    },
+    "notes.0": {
+      "url": "https://www.city.tomigusuku.lg.jp/material/files/group/22/R9sinkimousikomi.pdf",
+      "quote": "令和8年度の利用申込みをされている方も、令和9年度の利用を希望する場合は再度お申込みが必要です。"
+    },
+    "notes.1": {
+      "url": "https://www.city.tomigusuku.lg.jp/material/files/group/22/R9sinkimousikomi.pdf",
+      "quote": "受付期間以降の提出や、書類に不備・記入漏れがある場合は、受付不可とします。"
+    },
+    "notes.2": {
+      "url": "https://www.city.tomigusuku.lg.jp/material/files/group/22/R9sinkimousikomi.pdf",
+      "quote": "申込期間のうち、11月5日及び6日の二日間、心理士等を配置し、特別な支援（発達支援保育）に関する手続"
+    },
+    "notes.3": {
+      "url": "https://www.city.tomigusuku.lg.jp/material/files/group/22/R9sinkimousikomi.pdf",
+      "quote": "令和9年１月2日以降に生まれたお子さまは４月入所の対象となりませんので、"
+    },
+    "notes.4": {
+      "url": "https://www.city.tomigusuku.lg.jp/material/files/group/22/R9sinkisukeju-ru.pdf",
+      "quote": "※内定を辞退する場合、保育こども園課までご連絡をお願いします。また、次回の利用調整から点数が3点減点となります。"
+    },
+    "notes.5": {
+      "url": "https://www.city.tomigusuku.lg.jp/material/files/group/22/R9sinkimousikomi.pdf",
+      "quote": "育児休業からの復職を事由に申し込んだ方は利用開始月の翌月20日までに復職する必要があります。"
+    }
+  },
+  "sources": [
+    {
+      "label": "豊見城市「令和8−9年度(2026−2027) 認定こども園・保育園等募集案内について（2・3号認定）」",
+      "url": "https://www.city.tomigusuku.lg.jp/soshiki/4/1021/gyomuannai/1/2/170.html"
+    },
+    {
+      "label": "豊見城市「令和9年度 認定こども園・保育園等利用申込みの案内」",
+      "url": "https://www.city.tomigusuku.lg.jp/material/files/group/22/R9sinkimousikomi.pdf"
+    },
+    {
+      "label": "豊見城市「令和9年度4月入所の利用申込みスケジュール」",
+      "url": "https://www.city.tomigusuku.lg.jp/material/files/group/22/R9sinkisukeju-ru.pdf"
+    },
+    {
+      "label": "豊見城市「令和9年度 途中入所の利用申込みスケジュール」",
+      "url": "https://www.city.tomigusuku.lg.jp/material/files/group/22/R9totyuunyusyosukeju-ru.pdf"
+    },
+    {
+      "label": "豊見城市「申込みに必要な書類一覧」",
+      "url": "https://www.city.tomigusuku.lg.jp/material/files/group/22/R9mousikomisyorui.pdf"
+    }
+  ]
+}

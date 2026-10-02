@@ -1,0 +1,183 @@
+{
+  "citySlug": "tajimi",
+  "checkedAt": "2026-10-01",
+  "page": {
+    "label": "多治見市「令和9年度保育園・認定こども園・小規模保育所の入所受付」",
+    "url": "https://www.city.tajimi.lg.jp/kosodate_tajimikko/mokuteki/1006224/1006225/1006257.html"
+  },
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年10月1日（木）から、入所手続きに必要な書類一式を保育園・認定こども園・小規模保育所と保育幼稚園課（駅北庁舎3階36番窓口）で配布",
+  "firstApply": "令和8年10月26日（月）〜11月6日（金）の平日（事前予約制。午前の部9時〜12時、午後の部13時〜16時）",
+  "applyMethods": "事前予約制。10月1日から受付開始のLoGoフォームで受付日時を予約し（予約は1枠のみ。受付日の前日まで）、予約日時に多治見市役所駅北庁舎4階の会場で書類を提出する。予約のない人は申し込めない",
+  "firstResult": "入所調整が終わった人から順に、令和8年11月下旬〜令和9年1月下旬に内定通知をメールで送る。支給認定証・入所承諾書は令和9年2月上旬に送付",
+  "midYearDeadline": "入所希望日の前月の1日〜10日の平日に保育幼稚園課窓口で受付",
+  "documents": [
+    "申請者のマイナンバーカード（または個人番号の通知カード）と運転免許証などの本人確認書類",
+    "施設型給付費・地域型保育給付費等教育・保育給付認定申請書",
+    "保育所等入所申込書・保育児童台帳",
+    "家庭で保育ができないことを証明する書類（就労証明書・各種申立書等）。新年度入所は令和8年10月1日以降の証明日のものが必要",
+    "乳幼児の状況"
+  ],
+  "interview": "申込時に児童の面談はない。内定通知のメールで面談の案内があり、入所内定園で面談を行う。健康診断・入所説明会は令和9年2月〜3月（日程は園によって異なる）",
+  "ikukyu": "保護者が育児休業中の場合は入所できず、入所後4月末日までに育児休業から復帰する必要がある。入所できない旨の証明書類は、申込園への入所不可となり待機申込した人のみ発行し、令和9年3月1日〜10日に保育幼稚園課の窓口で手続きする",
+  "notes": [
+    "児童1人につき申し込めるのは1園だけ（2園以上の申し込みはできない）",
+    "新年度入所の決定は先着順ではなく、保育を必要とする優先順位の高い人から決める",
+    "受付最終日（令和8年11月6日）を過ぎて申し込んだ場合は、期限内の申込者の入所調整後に定員に空きのある園にだけ入所できる",
+    "転園を希望すると申し出た時点で在園中の園の令和8年度末での退園が確定し、希望園に転園できなくても元の園に戻れない可能性がある",
+    "入所希望園に入れない人には、保育幼稚園課からメールでその時点で入所可能な園を順次案内する",
+    "申込時点で多治見市に住民登録が無い人は、令和9年3月31日までに転入手続きをすることを前提に申し込める"
+  ],
+  "evidence": {
+    "fiscalYear": {
+      "url": "https://www.city.tajimi.lg.jp/_res/projects/default_project/_page_/001/006/257/r9nyuushomousikomi.pdf",
+      "quote": "(１) 令和９年４月１日入所（新年度入所）を希望する場合"
+    },
+    "fiscalYear#2": {
+      "url": "https://www.city.tajimi.lg.jp/kosodate_tajimikko/mokuteki/1006224/1006225/1006257.html",
+      "quote": "令和9年度の保育園・認定こども園・小規模保育所の入所受付を下記のとおり実施します。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.tajimi.lg.jp/_res/projects/default_project/_page_/001/006/257/r9nyuushomousikomi.pdf",
+      "quote": "【書類配布】 令和８年１０月１日（木）以降"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.tajimi.lg.jp/kosodate_tajimikko/mokuteki/1006224/1006225/1006257.html",
+      "quote": "入所手続きに必要な書類一式は10月1日（木曜日）から、保育園・認定こども園・小規模保育所または保育幼稚園課（駅北庁舎3階36番窓口）で配布します。"
+    },
+    "firstApply": {
+      "url": "https://www.city.tajimi.lg.jp/_res/projects/default_project/_page_/001/006/257/r9nyuushomousikomi.pdf",
+      "quote": "【受付期間】 令和８年１０月２６日（月）～11月６日（金）の平日"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.tajimi.lg.jp/_res/projects/default_project/_page_/001/006/257/r9nyuushomousikomi.pdf",
+      "quote": "【受付時間】 各日 午前の部： 9時00分～12時00分 午後の部：13時00分～16時00分"
+    },
+    "applyMethods": {
+      "url": "https://www.city.tajimi.lg.jp/kosodate_tajimikko/mokuteki/1006224/1006225/1006257.html",
+      "quote": "LoGoフォームにて受付日時を予約（10月1日から予約受付開始）"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.tajimi.lg.jp/kosodate_tajimikko/mokuteki/1006224/1006225/1006257.html",
+      "quote": "受付日の前日までにLoGoフォームにて受付日時の予約をしてください。 予約可能な枠数は1枠のみです。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.tajimi.lg.jp/kosodate_tajimikko/mokuteki/1006224/1006225/1006257.html",
+      "quote": "受付場所 多治見市役所　駅北庁舎4階"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.tajimi.lg.jp/_res/projects/default_project/_page_/001/006/257/r9nyuushomousikomi.pdf",
+      "quote": "■ 受付日時の予約のない方は、入所申込みができません。"
+    },
+    "firstResult": {
+      "url": "https://www.city.tajimi.lg.jp/_res/projects/default_project/_page_/001/006/257/r9nyuushomousikomi.pdf",
+      "quote": "⑤内定通知・児童の面談 令和８年１１月下旬 ～令和 9 年１月下旬"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.tajimi.lg.jp/_res/projects/default_project/_page_/001/006/257/r9nyuushomousikomi.pdf",
+      "quote": "■入所調整が終わった方から、順に内定通知をメールします。"
+    },
+    "firstResult#3": {
+      "url": "https://www.city.tajimi.lg.jp/_res/projects/default_project/_page_/001/006/257/r9nyuushomousikomi.pdf",
+      "quote": "⑥支給認定証・入所承諾書の送付 令和９年２月上旬"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.tajimi.lg.jp/_res/projects/default_project/_page_/001/006/257/r9nyuushomousikomi.pdf",
+      "quote": "【 受 付 期 間 】 入 所希望日の前月の1日～１０日の平日"
+    },
+    "documents.0": {
+      "url": "https://www.city.tajimi.lg.jp/kosodate_tajimikko/mokuteki/1006224/1006225/1006257.html",
+      "quote": "申請者のマイナンバーカード（個人番号カード）または個人番号の通知カード"
+    },
+    "documents.0#2": {
+      "url": "https://www.city.tajimi.lg.jp/kosodate_tajimikko/mokuteki/1006224/1006225/1006257.html",
+      "quote": "正しく変更手続きがとられているもの）と運転免許証などの本人確認書類"
+    },
+    "documents.1": {
+      "url": "https://www.city.tajimi.lg.jp/kosodate_tajimikko/mokuteki/1006224/1006225/1006257.html",
+      "quote": "施設型給付費・地域型保育給付費等教育・保育給付認定申請書"
+    },
+    "documents.2": {
+      "url": "https://www.city.tajimi.lg.jp/kosodate_tajimikko/mokuteki/1006224/1006225/1006257.html",
+      "quote": "保育所等入所申込書・保育児童台帳"
+    },
+    "documents.3": {
+      "url": "https://www.city.tajimi.lg.jp/kosodate_tajimikko/mokuteki/1006224/1006225/1006257.html",
+      "quote": "家庭で保育ができないことを証明する書類（就労証明書・各種申立書等）"
+    },
+    "documents.3#2": {
+      "url": "https://www.city.tajimi.lg.jp/_res/projects/default_project/_page_/001/006/257/r9nyuushomousikomi.pdf",
+      "quote": "※家庭で保育ができないことを証明する各種書類は、下記の証明日のものが必要です。"
+    },
+    "documents.3#3": {
+      "url": "https://www.city.tajimi.lg.jp/_res/projects/default_project/_page_/001/006/257/r9nyuushomousikomi.pdf",
+      "quote": "■ 新年度入所…令和８年１０月１日以降"
+    },
+    "documents.4": {
+      "url": "https://www.city.tajimi.lg.jp/kosodate_tajimikko/mokuteki/1006224/1006225/1006257.html",
+      "quote": "家庭で保育ができないことを証明する書類（就労証明書・各種申立書等） 乳幼児の状況"
+    },
+    "interview": {
+      "url": "https://www.city.tajimi.lg.jp/kosodate_tajimikko/mokuteki/1006224/1006225/1006257.html",
+      "quote": "申込時に児童の面談はありません。"
+    },
+    "interview#2": {
+      "url": "https://www.city.tajimi.lg.jp/_res/projects/default_project/_page_/001/006/257/r9nyuushomousikomi.pdf",
+      "quote": "■面談は入所内定園で行います。"
+    },
+    "interview#3": {
+      "url": "https://www.city.tajimi.lg.jp/_res/projects/default_project/_page_/001/006/257/r9nyuushomousikomi.pdf",
+      "quote": "➆健康診断・入所説明会 令和 9 年２月～３月"
+    },
+    "ikukyu": {
+      "url": "https://www.city.tajimi.lg.jp/_res/projects/default_project/_page_/001/006/257/r9nyuushomousikomi.pdf",
+      "quote": "保護者が育児休業中の場合、入所はできません。 入所後、４月末日までに育児休業から復帰していた だく必要があります。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.tajimi.lg.jp/_res/projects/default_project/_page_/001/006/257/r9nyuushomousikomi.pdf",
+      "quote": "申込園への入所不可となり待機申込された方のみ 書類を発行します。令和９年３月 1 日～１０日の間に 保育幼稚園課の窓口へお越しください。"
+    },
+    "notes.0": {
+      "url": "https://www.city.tajimi.lg.jp/kosodate_tajimikko/mokuteki/1006224/1006225/1006257.html",
+      "quote": "2園以上の申し込みはできません。"
+    },
+    "notes.1": {
+      "url": "https://www.city.tajimi.lg.jp/kosodate_tajimikko/mokuteki/1006224/1006225/1006257.html",
+      "quote": "募集人員を超えた申し込みとなった場合は、保育を必要とする優先順位の高い方から入所を決定していきます。"
+    },
+    "notes.1#2": {
+      "url": "https://www.city.tajimi.lg.jp/_res/projects/default_project/_page_/001/006/257/r9nyuushomousikomi.pdf",
+      "quote": "■新年度入所の決定は先着順ではありません。"
+    },
+    "notes.2": {
+      "url": "https://www.city.tajimi.lg.jp/kosodate_tajimikko/mokuteki/1006224/1006225/1006257.html",
+      "quote": "新年度入所受付最終日（令和8年11月6日）を過ぎてから入所申込があった場合には、期限内に申し込みがあった方の入所調整後、定員に空きのある園のみ入所可能となります"
+    },
+    "notes.3": {
+      "url": "https://www.city.tajimi.lg.jp/kosodate_tajimikko/mokuteki/1006224/1006225/1006257.html",
+      "quote": "転園を希望していることを申し出た時点で、在園している園の令和8年度末での退園が確定となります。"
+    },
+    "notes.3#2": {
+      "url": "https://www.city.tajimi.lg.jp/kosodate_tajimikko/mokuteki/1006224/1006225/1006257.html",
+      "quote": "令和9年度に希望する園に転園できなかった場合でも、在園している園に戻れない可能性があることをご承知おきください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.tajimi.lg.jp/kosodate_tajimikko/mokuteki/1006224/1006225/1006257.html",
+      "quote": "入所希望園に入所ができない方には、順次、保育幼稚園課からメールにてその時点での入所可能な園をご案内します。"
+    },
+    "notes.5": {
+      "url": "https://www.city.tajimi.lg.jp/_res/projects/default_project/_page_/001/006/257/r9nyuushomousikomi.pdf",
+      "quote": "■申込時点で多治見市に住民登録が無い方は、令和９年３月３１日までに必ず転入の手続きを行っていただくことを前提に申込みができます。"
+    }
+  },
+  "sources": [
+    {
+      "label": "多治見市「令和9年度保育園・認定こども園・小規模保育所の入所受付」",
+      "url": "https://www.city.tajimi.lg.jp/kosodate_tajimikko/mokuteki/1006224/1006225/1006257.html"
+    },
+    {
+      "label": "多治見市「令和9年度保育所等入所申込案内」（PDF）",
+      "url": "https://www.city.tajimi.lg.jp/_res/projects/default_project/_page_/001/006/257/r9nyuushomousikomi.pdf"
+    }
+  ]
+}
