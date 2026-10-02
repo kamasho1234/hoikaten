@@ -78,7 +78,7 @@ export function CitySearch({
               {filtered.map((m) => (
                 <a
                   key={m.slug}
-                  href={`https://${m.slug}.hoikaten.com`}
+                  href={`/${m.slug}`}
                   className="flex items-center gap-3 px-4 py-3 hover:bg-primary/5 transition-colors"
                 >
                   <div className="flex-1">

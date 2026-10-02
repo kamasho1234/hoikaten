@@ -43,6 +43,10 @@ export function buildShurouArticle(r: ShurouRecord): Article {
   if (!info) throw new Error(`${r.citySlug}: 自治体情報がありません`);
   const city = info.name;
   const isOriginal = r.formType !== "standard";
+  // 検索では「◯◯市 就労証明書 記入例」「書き方」のクリック率が高い（Search Console 2026-10-02、13〜30%）。
+  // 公式の記入例・記載要領があれば冒頭に出し、タイトルにも入れる。無いのに「記入例」とは書かない
+  const guideFile = r.formFiles?.find((f) => /記入例|記載例|記載要領|書き方/.test(f.label));
+  const hasExample = guideFile !== undefined && /記入例|記載例/.test(guideFile.label);
 
   const rows: [string, string | undefined][] = [
     ["様式", FORM_LABEL[r.formType]],
@@ -135,7 +139,7 @@ ${r.selfEmployedDocs.map((d) => `<li>${esc(d)}</li>`).join("\n")}
   const content = `
 <p>${lead}</p>
 
-<div class="info-box"><p><strong>様式の入手先</strong>: ${link(r.formPage)}</p>${files}</div>
+<div class="info-box"><p><strong>様式の入手先</strong>: ${link(r.formPage)}</p>${files}${guideFile ? `<p><strong>${city}の${hasExample ? "記入例" : "記載要領"}</strong>: ${link(guideFile)}</p>` : ""}</div>
 
 <h2>${city}の提出ルール</h2>
 <p>${formatDate(r.checkedAt)}に${city}の公式ページで確かめた内容です。空欄は公式ページに書かれていなかった項目で、申込のしおりや窓口で確認してください。</p>
@@ -145,7 +149,7 @@ ${table}
 </tbody>
 </table>
 ${differences}${pointsSection}${notes}
-<h2>書き方の共通ルール</h2>
+<h2>${city}の就労証明書の書き方</h2>
 <p>${isOriginal ? `${city}の様式にも注意書きが付いています。まずそれに従い、国の標準様式の記載要領は考え方の参考にしてください。国の記載要領で勤務先が迷いやすい点は次の3つです。` : "欄ごとの書き方は国の記載要領で決まっています。勤務先に伝えておきたい要点は次の3つです。"}</p>
 <ul>
 <li>就労時間は<strong>雇用契約上の時間</strong>で、休憩を含み残業を除く。週の時間で契約しているなら4倍して月の時間にする</li>
@@ -164,8 +168,8 @@ ${r.sources.map((s) => `<li>${link(s)}</li>`).join("\n")}
   return {
     slug: r.slug ?? "shurou-shoumeisho",
     citySlug: r.citySlug,
-    title: `${city}の就労証明書｜様式の入手先・押印・有効期限・締切【${formatMonth(r.checkedAt)}確認】`,
-    description: `${city}の就労証明書は${FORM_LABEL[r.formType]}。様式の配布ページ、押印の要否、証明日の有効期限、提出締切、電子申請の可否を${formatDate(r.checkedAt)}に公式ページで確認してまとめました。就労時間の刻みと点数も掲載。`,
+    title: `${city}の就労証明書｜書き方・${hasExample ? "記入例・" : ""}様式の入手先・締切【${formatMonth(r.checkedAt)}確認】`,
+    description: `${city}の就労証明書の書き方と様式の入手先。${guideFile ? `${city}公式の${hasExample ? "記入例" : "記載要領"}、` : ""}押印の要否、証明日の有効期限、提出締切、電子申請の可否を${formatDate(r.checkedAt)}に公式ページで確認しました（${FORM_LABEL[r.formType]}）。就労時間の欄と点数の刻みも掲載。`,
     category: "必要書類",
     categoryColor: "blue",
     content,

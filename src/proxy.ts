@@ -27,14 +27,23 @@ export function proxy(request: NextRequest) {
     return NextResponse.next();
   }
 
-  // サブドメインの中のリンクは /setagaya/articles のような絶対パスなので、
-  // たどると setagaya.hoikaten.com/setagaya/articles という二重のURLになる。
-  // 中身は hoikaten.com/setagaya/articles と同じで、検索エンジンのクロールが
-  // そちらに流れてしまうため、正規のURLへ寄せる
   const isSubdomain = getSubdomain(host) !== null;
   const hasCityPath =
     url.pathname === `/${citySlug}` || url.pathname.startsWith(`/${citySlug}/`);
-  if (isSubdomain && hasCityPath) {
+
+  // サブドメイン（setagaya.hoikaten.com）は中身が hoikaten.com/setagaya と同じで、
+  // canonical を正規のURLに向けていても Google は141のサブドメインを別に検索結果へ出していた
+  //（Search Console 2026-10-02。代替 canonical 558件・重複13件がすべてサブドメイン）。
+  // リライトで見せるのをやめて、すべて正規のURLへ301で寄せる
+  if (isSubdomain) {
+    const isCitySection =
+      url.pathname === "/" ||
+      CITY_SECTIONS.some((p) => url.pathname === p || url.pathname.startsWith(`${p}/`));
+    // setagaya.hoikaten.com/ → /setagaya、/articles/x → /setagaya/articles/x
+    // 二重のパス（/setagaya/articles）と共通ページ（/insurance など）はそのまま
+    if (isCitySection && !hasCityPath) {
+      url.pathname = url.pathname === "/" ? `/${citySlug}` : `/${citySlug}${url.pathname}`;
+    }
     return redirectToMain(url);
   }
 
@@ -43,21 +52,7 @@ export function proxy(request: NextRequest) {
     return NextResponse.next();
   }
 
-  // 自治体ごとのページがあるのは トップ・/articles・/vacancy だけ。
-  // /insurance や /documents のようなサイト共通のページは /[city]/ の下に無いので、
-  // サブドメインでリライトすると oita.hoikaten.com/insurance/... が404になっていた
-  //（自治体ページの中のリンクが絶対パスなので、クローラーがそこへたどり着く）。
-  // 共通ページは正規のドメインへ送る
-  const isCitySection =
-    url.pathname === "/" ||
-    CITY_SECTIONS.some((p) => url.pathname === p || url.pathname.startsWith(`${p}/`));
-  if (isSubdomain && !isCitySection) {
-    return redirectToMain(url);
-  }
-
-  // サブドメインがある場合 → /[city]/... にリライト
-  // setagaya.hoikaten.com/ → /setagaya
-  // setagaya.hoikaten.com/articles → /setagaya/articles
+  // 開発時の ?city=xxx → /[city]/... にリライト
   url.pathname = `/${citySlug}${url.pathname}`;
   return NextResponse.rewrite(url);
 }

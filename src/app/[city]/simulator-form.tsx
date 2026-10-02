@@ -759,7 +759,7 @@ function ShareButtons({
   slug: string;
 }) {
   const text = `${municipalityName}の保育園入園点数をシミュレーションしたら${total}点でした！`;
-  const url = `https://${slug}.hoikaten.com`;
+  const url = `https://hoikaten.com/${slug}`;
   const encodedText = encodeURIComponent(text);
   const encodedUrl = encodeURIComponent(url);
 

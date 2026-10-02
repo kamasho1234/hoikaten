@@ -46,7 +46,7 @@ export default function SelectPage() {
         {municipalities.map((m) => (
           <a
             key={m.slug}
-            href={`https://${m.slug}.hoikaten.com`}
+            href={`/${m.slug}`}
             className="px-4 py-2 text-sm rounded-full border border-border/60 bg-card hover:border-primary/40 hover:text-primary hover:shadow-sm transition-all"
           >
             {m.name}

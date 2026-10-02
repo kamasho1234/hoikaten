@@ -101,7 +101,7 @@ export default async function PrefecturePage({
           {municipalitiesWithArticleCount.map((m) => (
             <a
               key={m.slug}
-              href={`https://${m.slug}.hoikaten.com`}
+              href={`/${m.slug}`}
               className="block p-4 rounded-xl border border-border/60 bg-card hover:border-primary/40 hover:shadow-sm transition-all group"
             >
               <p

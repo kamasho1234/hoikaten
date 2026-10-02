@@ -121,7 +121,7 @@ export function VacancyList({ rows }: { rows: VacancyListRow[] }) {
               {list.map((row) => (
                 <a
                   key={row.slug}
-                  href={`https://${row.slug}.hoikaten.com/vacancy`}
+                  href={`/${row.slug}/vacancy`}
                   className="block rounded-xl border border-border/60 bg-card px-4 py-3 hover:border-primary/40 hover:shadow-sm transition-all"
                 >
                   <div className="flex items-baseline justify-between gap-2">

@@ -100,7 +100,7 @@ export function HeaderNav({
                 {grouped[pref].map((m) => (
                   <a
                     key={m.slug}
-                    href={`https://${m.slug}.hoikaten.com`}
+                    href={`/${m.slug}`}
                     className="block px-3 py-2 text-sm rounded-lg hover:bg-primary/5 hover:text-primary transition-colors"
                     onClick={() => setOpen(false)}
                   >
