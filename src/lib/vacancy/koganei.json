@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "koganei",
   "municipalityName": "小金井市",
-  "asOf": "2026-11-01",
-  "fetchedAt": "2026-10-01",
+  "asOf": "2026-10-01",
+  "fetchedAt": "2026-10-05",
   "sourceName": "小金井市「年度途中の認可保育施設の募集状況」",
   "sourceUrl": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoikubosyuujoukyou/hoikuennyusyoketuin.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoikubosyuujoukyou/hoikuennyusyoketuin.files/R8.11.pdf"
+    "vacancy": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoikubosyuujoukyou/hoikuennyusyoketuin.files/R8.11-2.pdf"
   },
   "metrics": [
     "vacancy"
@@ -52,7 +52,7 @@
     {"id":"特定保育施設（私立）-しんあいのぞみ保育園","name":"しんあいのぞみ保育園","w":null,"c":0,"vacancy":[0,0,0,0,0,3]},
     {"id":"特定保育施設（私立）-小金井公園ハイジ保育園","name":"小金井公園ハイジ保育園","w":null,"c":0,"vacancy":[0,0,0,1,0,4]},
     {"id":"特定保育施設（私立）-貫井あおいそら保育園","name":"貫井あおいそら保育園","w":null,"c":0,"vacancy":[0,0,0,0,0,0]},
-    {"id":"特定保育施設（私立）-グローバルキッズ小金井第二","name":"グローバルキッズ小金井第二","w":null,"c":0,"vacancy":[0,0,0,0,0,2]},
+    {"id":"特定保育施設（私立）-グローバルキッズ小金井第二","name":"グローバルキッズ小金井第二","w":null,"c":0,"vacancy":[0,0,0,0,0,3]},
     {"id":"特定保育施設（私立）-小金井なないろ保育園","name":"小金井なないろ保育園","w":null,"c":0,"vacancy":[0,0,0,0,0,0]},
     {"id":"特定保育施設（私立）-上水ハイジ保育園","name":"上水ハイジ保育園","w":null,"c":0,"vacancy":[0,0,0,0,0,0]},
     {"id":"特定保育施設（私立）-武蔵小金井えほん保育園","name":"武蔵小金井えほん保育園","w":null,"c":0,"vacancy":[0,0,0,0,0,0]},

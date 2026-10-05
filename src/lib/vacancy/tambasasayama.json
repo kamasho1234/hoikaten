@@ -2,12 +2,12 @@
   "municipalitySlug": "tambasasayama",
   "municipalityName": "丹波篠山市",
   "prefecture": "兵庫県",
-  "asOf": "2026-10-01",
-  "fetchedAt": "2026-10-04",
+  "asOf": "2026-11-01",
+  "fetchedAt": "2026-10-05",
   "sourceName": "丹波篠山市「受け入れ予定園児数一覧」",
   "sourceUrl": "https://www.city.tambasasayama.lg.jp/soshikikarasagasu/hoiku/2/5168.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.tambasasayama.lg.jp/material/files/group/159/081001ukeire.pdf"
+    "vacancy": "https://www.city.tambasasayama.lg.jp/material/files/group/159/081101ukeire.pdf"
   },
   "metrics": [
     "symbol"
@@ -89,7 +89,7 @@
         "×",
         "×",
         "×",
-        "▲",
+        "×",
         null,
         null
       ]
@@ -111,7 +111,7 @@
         "×",
         "×",
         "×",
-        "▲",
+        "×",
         null,
         null
       ]
