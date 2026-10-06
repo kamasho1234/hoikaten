@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "takatsuki",
   "municipalityName": "高槻市",
-  "asOf": "2026-09-01",
-  "fetchedAt": "2026-10-05",
+  "asOf": "2026-10-01",
+  "fetchedAt": "2026-10-06",
   "sourceName": "高槻市「認可保育施設の空き枠見込み数状況のお知らせ」",
   "sourceUrl": "https://www.city.takatsuki.osaka.jp/soshiki/44/127850.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.takatsuki.osaka.jp/uploaded/attachment/69783.pdf"
+    "vacancy": "https://www.city.takatsuki.osaka.jp/uploaded/attachment/70937.pdf"
   },
   "metrics": [
     "vacancy"
@@ -27,20 +27,6 @@
   ],
   "facilities": [
     {
-      "id": "阿武野保育所",
-      "name": "阿武野保育所",
-      "w": null,
-      "c": 0,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        1
-      ]
-    },
-    {
       "id": "磐手保育所",
       "name": "磐手保育所",
       "w": null,
@@ -52,20 +38,6 @@
         null,
         null,
         2
-      ]
-    },
-    {
-      "id": "春日保育所",
-      "name": "春日保育所",
-      "w": null,
-      "c": 0,
-      "vacancy": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        1
       ]
     },
     {
@@ -120,8 +92,8 @@
         null,
         null,
         null,
-        1,
-        14
+        null,
+        13
       ]
     },
     {
@@ -181,6 +153,20 @@
       ]
     },
     {
+      "id": "桜北町第一保育園",
+      "name": "桜北町第一保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        null,
+        null,
+        1,
+        1,
+        null
+      ]
+    },
+    {
       "id": "認定こども園玉川橋保育園",
       "name": "認定こども園玉川橋保育園",
       "w": null,
@@ -203,7 +189,7 @@
         null,
         null,
         null,
-        2,
+        1,
         null,
         null
       ]
@@ -214,7 +200,7 @@
       "w": null,
       "c": 0,
       "vacancy": [
-        2,
+        null,
         null,
         null,
         1,
@@ -223,10 +209,10 @@
       ]
     },
     {
-      "id": "桜北町第一保育園",
-      "name": "桜北町第一保育園",
+      "id": "桜台認定こども園",
+      "name": "桜台認定こども園",
       "w": null,
-      "c": 0,
+      "c": 1,
       "vacancy": [
         null,
         null,
@@ -265,8 +251,8 @@
       ]
     },
     {
-      "id": "桜北町第二保育園",
-      "name": "桜北町第二保育園",
+      "id": "城北あゆみ保育園",
+      "name": "城北あゆみ保育園",
       "w": null,
       "c": 2,
       "vacancy": [
@@ -279,8 +265,22 @@
       ]
     },
     {
-      "id": "ぽぷらの里高槻保育園",
-      "name": "ぽぷらの里高槻保育園",
+      "id": "認定こども園深沢ガーデン",
+      "name": "認定こども園深沢ガーデン",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        1,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "ほしの保育園",
+      "name": "ほしの保育園",
       "w": null,
       "c": 2,
       "vacancy": [
@@ -293,13 +293,13 @@
       ]
     },
     {
-      "id": "ちびっこランド日吉園",
-      "name": "ちびっこランド日吉園",
+      "id": "ひかり保育園",
+      "name": "ひかり保育園",
       "w": null,
       "c": 2,
       "vacancy": [
-        null,
         1,
+        null,
         null,
         null,
         null,
@@ -307,8 +307,8 @@
       ]
     },
     {
-      "id": "ユメ小規模保育園",
-      "name": "ユメ小規模保育園",
+      "id": "庄所保育園",
+      "name": "庄所保育園",
       "w": null,
       "c": 2,
       "vacancy": [

@@ -1,8 +1,8 @@
 {
   "municipalitySlug": "fukuoka",
   "municipalityName": "福岡市",
-  "asOf": "2026-10-01",
-  "fetchedAt": "2026-10-02",
+  "asOf": "2026-10-06",
+  "fetchedAt": "2026-10-06",
   "sourceName": "福岡市「ふくおか保育所案内板〈空きマップ〉」",
   "sourceUrl": "https://kodomo-hoiku.city.fukuoka.lg.jp/",
   "sourceFiles": {
@@ -495,7 +495,7 @@
     {"id":"433","name":"城の原保育園","w":6,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["◎","◎","○","△","△","△"]},
     {"id":"434","name":"かぼちゃ畑保育園","w":6,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["◎","◎","×","×","×","×"],"site":{"url":"https://www.kabocha.ed.jp/","type":"facility"}},
     {"id":"435","name":"すみわたる保育園","w":6,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["◎","○","◎","△","×","◎"],"site":{"url":"https://asukafukushikai.com/center_childcare/sumiwataru_hoikuen/","type":"facility"}},
-    {"id":"436","name":"いと菜の花保育園","w":6,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["◎","◎","○","○","×","○"],"site":{"url":"https://c-g.jp/nursery/027.html","type":"facility"}},
+    {"id":"436","name":"いと菜の花保育園","w":6,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["◎","◎","◎","○","△","○"],"site":{"url":"https://c-g.jp/nursery/027.html","type":"facility"}},
     {"id":"437","name":"西都保育園","w":6,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["◎","◎","△","×","○","×"],"site":{"url":"https://www.shinwakai.ed.jp/","type":"facility"}},
     {"id":"438","name":"伊都コスモス保育園","w":6,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["◎","◎","◎","◎","◎","○"],"site":{"url":"https://c-g.jp/nursery/020.html","type":"facility"}},
     {"id":"439","name":"にじのはな保育園","w":6,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["◎","○","△","△","◎","○"]},
@@ -503,7 +503,7 @@
     {"id":"441","name":"姪北ちとせ保育園","w":6,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["◎","◎","×","×","×","△"],"site":{"url":"https://www.chitosek.or.jp/preschools/meihoku","type":"facility"}},
     {"id":"442","name":"いとぽっぽ保育園","w":6,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["○","◎","△","○","△","△"],"site":{"url":"https://itopoppo.fukuwel.or.jp","type":"facility"}},
     {"id":"443","name":"りんごの花保育園","w":6,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["◎","○","×","○","×","○"],"site":{"url":"https://www.ringonohana.jp/","type":"facility"}},
-    {"id":"444","name":"さいとみんなの家","w":6,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["○","◎","○","△","△","△"],"site":{"url":"https://www.tsubasa-f.or.jp/saito/","type":"facility"}},
+    {"id":"444","name":"さいとみんなの家","w":6,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["○","◎","○","△","×","△"],"site":{"url":"https://www.tsubasa-f.or.jp/saito/","type":"facility"}},
     {"id":"445","name":"たんぽぽ保育園","w":6,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["◎","◎","×","◎","○","×"],"site":{"url":"https://tanpopo2018.official.ec","type":"facility"}},
     {"id":"446","name":"大塚第一保育園","w":6,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["◎","◎","△","○","○","○"],"site":{"url":"https://otsukadaiichi.seifu-kai.jp/","type":"facility"}},
     {"id":"447","name":"大塚第二保育園","w":6,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["◎","◎","◎","○","○","△"],"site":{"url":"https://otsukadaini.seifu-kai.jp/","type":"facility"}},

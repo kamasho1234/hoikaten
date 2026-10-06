@@ -2,7 +2,7 @@
   "municipalitySlug": "bunkyo",
   "municipalityName": "文京区",
   "asOf": "2026-10-01",
-  "fetchedAt": "2026-10-02",
+  "fetchedAt": "2026-10-06",
   "sourceName": "文京区「募集人数一覧表」",
   "sourceUrl": "https://www.city.bunkyo.lg.jp/b023/p001773.html",
   "sourceFiles": {
@@ -86,7 +86,7 @@
     {"id":"文京白山雲母保育園","name":"文京白山雲母保育園","w":2,"c":1,"vacancy":[null,null,null,3,3,2],"waiting":[5,null,null,null,null,null]},
     {"id":"木下の保育園白山","name":"木下の保育園白山","w":2,"c":1,"vacancy":[null,null,6,9,10,10],"waiting":[5,null,null,null,null,null]},
     {"id":"白山ひかり保育園","name":"白山ひかり保育園","w":2,"c":1,"vacancy":[null,null,1,2,2,3],"waiting":[14,1,null,null,null,null]},
-    {"id":"キッズハーモニー・白山","name":"キッズハーモニー・白山","w":2,"c":1,"vacancy":[null,null,1,3,4,5],"waiting":[null,1,null,null,null,null]},
+    {"id":"キッズハーモニー・白山","name":"キッズハーモニー・白山","w":2,"c":1,"vacancy":[1,null,1,3,4,5],"waiting":[null,1,null,null,null,null]},
     {"id":"ベネッセかごまち保育園","name":"ベネッセかごまち保育園","w":2,"c":1,"vacancy":[null,null,null,3,8,5],"waiting":[12,null,1,null,null,null]},
     {"id":"千石すきっぷ保育園","name":"千石すきっぷ保育園","w":2,"c":1,"vacancy":[null,null,null,3,10,8],"waiting":[2,null,1,null,null,null]},
     {"id":"キッズパートナー文京千石","name":"キッズパートナー文京千石","w":2,"c":1,"vacancy":[null,1,null,16,13,11],"waiting":[null,null,null,null,null,null]},

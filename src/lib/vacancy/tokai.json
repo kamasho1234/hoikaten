@@ -1,19 +1,19 @@
 {
   "municipalitySlug": "tokai",
   "municipalityName": "東海市",
-  "asOf": "2026-08-21",
-  "fetchedAt": "2026-09-03",
+  "asOf": "2026-09-24",
+  "fetchedAt": "2026-10-06",
   "sourceName": "東海市「保育所等空き状況」",
   "sourceUrl": "https://www.city.tokai.aichi.jp/kosodate/1002180/1010882/1010892/1010899.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.tokai.aichi.jp/_res/projects/default_project/_page_/001/010/899/akijoukyou20260821..pdf"
+    "vacancy": "https://www.city.tokai.aichi.jp/_res/projects/default_project/_page_/001/010/899/akijoukyou20260924.pdf"
   },
   "metrics": [
     "symbol"
   ],
-  "subtitle": "2026年10月からの入所ぶんの空き状況",
+  "subtitle": "2026年11月からの入所ぶんの空き状況",
   "notes": [
-    "東海市は空き状況を人数ではなく記号で公表しています。当サイトでも公式の記号のまま載せています。これは2026年10月からの入所ぶんで、2026-08-21時点のものです。",
+    "東海市は空き状況を人数ではなく記号で公表しています。当サイトでも公式の記号のまま載せています。これは2026年11月からの入所ぶんで、2026-09-24時点のものです。",
     "公式の表で「－（保育実施なし）」となっているらんは、当サイトでは「—」にしています。",
     "すべての年齢が「保育実施なし」になっている施設があります（memorytree名和町）。公式の表のとおりに載せています。"
   ],
@@ -40,7 +40,7 @@
     {"id":"一番畑保育園","name":"一番畑保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,"×","○","○","○","×"]},
     {"id":"名和保育園","name":"名和保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","○"]},
     {"id":"名和東保育園","name":"名和東保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,null,null,"○"]},
-    {"id":"渡内保育園","name":"渡内保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","○","○","○","○"]},
+    {"id":"渡内保育園","name":"渡内保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","○","○","○"]},
     {"id":"平洲保育園","name":"平洲保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,"×","×","×","○","○"]},
     {"id":"木庭保育園","name":"木庭保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","○","○","○"]},
     {"id":"みどり保育園","name":"みどり保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","○","○","○"]},
@@ -48,7 +48,7 @@
     {"id":"富木島保育園","name":"富木島保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","○","○"]},
     {"id":"東山保育園","name":"東山保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","○","○","○","○"]},
     {"id":"大田保育園","name":"大田保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","○","×"]},
-    {"id":"高横須賀保育園","name":"高横須賀保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,"×","×","×","○","×"]},
+    {"id":"高横須賀保育園","name":"高横須賀保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,"×","○","×","○","×"]},
     {"id":"横須賀保育園","name":"横須賀保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","○","○","○","○"]},
     {"id":"養父保育園","name":"養父保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","○","○"]},
     {"id":"加木屋保育園","name":"加木屋保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","○","○"]},

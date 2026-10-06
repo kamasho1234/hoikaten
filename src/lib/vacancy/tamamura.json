@@ -2,12 +2,12 @@
   "municipalitySlug": "tamamura",
   "municipalityName": "玉村町",
   "prefecture": "群馬県",
-  "asOf": "2026-09-01",
-  "fetchedAt": "2026-10-05",
+  "asOf": "2026-10-01",
+  "fetchedAt": "2026-10-06",
   "sourceName": "玉村町「保育関係施設（2・3号）空き状況」",
   "sourceUrl": "https://www.town.tamamura.lg.jp/docs/2025082700028/",
   "sourceFiles": {
-    "vacancy": "https://www.town.tamamura.lg.jp/docs/2025082700028/file_contents/r8-10zuijiakijyoukyou.pdf"
+    "vacancy": "https://www.town.tamamura.lg.jp/docs/2025082700028/file_contents/r8-11zuijiakijyoukyou.pdf"
   },
   "metrics": [
     "symbol"
@@ -101,7 +101,7 @@
         "△",
         "△",
         "×",
-        "〇"
+        "△"
       ]
     },
     {
@@ -119,7 +119,7 @@
       ],
       "symbols": [
         "×",
-        "〇",
+        "△",
         "×",
         "〇",
         "〇",
@@ -252,7 +252,7 @@
       "symbols": [
         "×",
         "×",
-        "×",
+        "△",
         "〇",
         "×",
         "△"

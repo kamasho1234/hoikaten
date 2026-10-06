@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "kyotanabe",
   "municipalityName": "京田辺市",
-  "asOf": "2026-09-01",
-  "fetchedAt": "2026-10-05",
+  "asOf": "2026-10-06",
+  "fetchedAt": "2026-10-06",
   "sourceName": "京田辺市「保育所等入所（転所）調整結果」",
   "sourceUrl": "https://www.city.kyotanabe.lg.jp/kosodate/0000023461.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.kyotanabe.lg.jp/kosodate/cmsfiles/contents/0000023/23461/9gatsutyouseikekka.pdf"
+    "vacancy": "https://www.city.kyotanabe.lg.jp/kosodate/cmsfiles/contents/0000023/23461/10gatsutyouseikekka.pdf"
   },
   "metrics": [
     "vacancy"
@@ -44,7 +44,7 @@
       "w": null,
       "c": 1,
       "vacancy": [
-        2,
+        1,
         0,
         0,
         0,
@@ -72,11 +72,11 @@
       "w": null,
       "c": 1,
       "vacancy": [
+        2,
         0,
         0,
         0,
-        0,
-        0,
+        3,
         0
       ]
     },
@@ -89,7 +89,7 @@
         0,
         0,
         0,
-        1,
+        0,
         0,
         0
       ]
@@ -101,7 +101,7 @@
       "c": 1,
       "vacancy": [
         0,
-        1,
+        0,
         0,
         0,
         0,
@@ -114,7 +114,7 @@
       "w": null,
       "c": 2,
       "vacancy": [
-        3,
+        1,
         0,
         0,
         null,
@@ -157,8 +157,8 @@
       "c": 2,
       "vacancy": [
         0,
-        0,
         1,
+        0,
         0,
         0,
         0
@@ -170,8 +170,8 @@
       "w": null,
       "c": 2,
       "vacancy": [
-        5,
-        4,
+        2,
+        3,
         2,
         null,
         null,
@@ -184,8 +184,8 @@
       "w": null,
       "c": 3,
       "vacancy": [
-        1,
-        1,
+        0,
+        0,
         0,
         0,
         0,
