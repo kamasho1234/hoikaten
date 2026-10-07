@@ -2,8 +2,8 @@
   "municipalitySlug": "miyako",
   "municipalityName": "宮古市",
   "prefecture": "岩手県",
-  "asOf": "2026-09-01",
-  "fetchedAt": "2026-10-06",
+  "asOf": "2026-10-01",
+  "fetchedAt": "2026-10-07",
   "sourceName": "宮古市「保育施設の年齢別空き状況」",
   "sourceUrl": "https://www.city.miyako.iwate.jp/gyosei/soshiki/kodomokatei_center/3/4_1/10552.html",
   "sourceFiles": {
@@ -156,7 +156,7 @@
       ],
       "symbols": [
         "×",
-        "×",
+        "△",
         "×",
         "×",
         "×",
@@ -377,7 +377,7 @@
       "symbols": [
         "△",
         "×",
-        "×",
+        "△",
         null,
         null,
         null
@@ -397,9 +397,9 @@
         null
       ],
       "symbols": [
-        "△",
         "×",
-        "○",
+        "×",
+        "×",
         null,
         null,
         null
@@ -420,11 +420,11 @@
       ],
       "symbols": [
         "△",
-        "×",
         "△",
+        "○",
         "×",
         "×",
-        "○"
+        "×"
       ]
     },
     {
@@ -465,10 +465,10 @@
       "symbols": [
         null,
         null,
-        "×",
-        "×",
-        "×",
-        "×"
+        "○",
+        "○",
+        "○",
+        "○"
       ]
     },
     {
@@ -488,9 +488,9 @@
         "△",
         "△",
         "△",
-        "×",
-        "×",
-        "×"
+        "△",
+        "△",
+        "△"
       ]
     },
     {
@@ -552,7 +552,7 @@
       ],
       "symbols": [
         "×",
-        "△",
+        "×",
         "×",
         null,
         null,
@@ -575,7 +575,7 @@
       "symbols": [
         "△",
         "△",
-        "△",
+        "×",
         null,
         null,
         null
@@ -639,9 +639,9 @@
         null
       ],
       "symbols": [
-        "×",
-        "×",
-        "×",
+        "△",
+        "△",
+        "△",
         null,
         null,
         null

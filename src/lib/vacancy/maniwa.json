@@ -2,12 +2,12 @@
   "municipalitySlug": "maniwa",
   "municipalityName": "真庭市",
   "prefecture": "岡山県",
-  "asOf": "2026-09-04",
-  "fetchedAt": "2026-10-01",
+  "asOf": "2026-10-05",
+  "fetchedAt": "2026-10-07",
   "sourceName": "真庭市「保育園・認定こども園の空き状況」",
   "sourceUrl": "https://kodomo.city.maniwa.okayama.jp/112249.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.maniwa.lg.jp/uploaded/attachment/40247.pdf"
+    "vacancy": "https://www.city.maniwa.lg.jp/uploaded/attachment/40492.pdf"
   },
   "metrics": [
     "symbol"

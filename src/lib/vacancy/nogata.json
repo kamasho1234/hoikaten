@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "nogata",
   "municipalityName": "直方市",
-  "asOf": "2026-09-30",
-  "fetchedAt": "2026-10-06",
+  "asOf": "2026-10-07",
+  "fetchedAt": "2026-10-07",
   "sourceName": "直方市「市内認可保育所・認定こども園（保育）空き状況」",
   "sourceUrl": "https://www.city.nogata.fukuoka.jp/kenko/_2051/_2055/_13541.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.nogata.fukuoka.jp/library/data/kenkofukushikosodate/pdf/kosodate/2026.9.30.pdf"
+    "vacancy": "https://www.city.nogata.fukuoka.jp/library/data/kenkofukushikosodate/pdf/kosodate/2026.10.7akijyoukyou.pdf"
   },
   "metrics": [
     "symbol"
@@ -335,8 +335,8 @@
         null
       ],
       "symbols": [
-        "×",
-        "×",
+        "○",
+        "○",
         "○",
         "○",
         "×",

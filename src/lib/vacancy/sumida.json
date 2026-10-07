@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "sumida",
   "municipalityName": "墨田区",
-  "asOf": "2026-10-01",
-  "fetchedAt": "2026-10-01",
+  "asOf": "2026-10-07",
+  "fetchedAt": "2026-10-07",
   "sourceName": "墨田区「募集見込数一覧」",
   "sourceUrl": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoikuen/bosyuusuu/ta80320020180605.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoikuen/bosyuusuu/ta80320020180605.files/R8.11bosyuusu.pdf"
+    "vacancy": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoikuen/bosyuusuu/ta80320020180605.files/R8.11bosyuusu2.pdf"
   },
   "metrics": [
     "vacancy"
@@ -37,7 +37,7 @@
     {"id":"八広保育園","name":"八広保育園","w":null,"c":0,"vacancy":[null,1,null,null,null,null]},
     {"id":"東駒形保育園","name":"東駒形保育園","w":null,"c":0,"vacancy":[null,null,1,null,null,null]},
     {"id":"東あずま保育園","name":"東あずま保育園","w":null,"c":0,"vacancy":[null,null,null,1,2,null]},
-    {"id":"おむらい保育園","name":"おむらい保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null]},
+    {"id":"おむらい保育園","name":"おむらい保育園","w":null,"c":0,"vacancy":[null,null,1,null,null,null]},
     {"id":"太平保育園","name":"太平保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null]},
     {"id":"鐘ヶ淵北保育園","name":"鐘ヶ淵北保育園","w":null,"c":0,"vacancy":[null,null,1,3,10,6]},
     {"id":"梅若保育園","name":"梅若保育園","w":null,"c":0,"vacancy":[null,null,null,2,5,2]},
@@ -46,7 +46,7 @@
     {"id":"寺島保育園","name":"寺島保育園","w":null,"c":0,"vacancy":[null,null,3,2,3,7]},
     {"id":"しらひげ保育園","name":"しらひげ保育園","w":null,"c":0,"vacancy":[null,null,2,2,1,3]},
     {"id":"横川さくら保育園","name":"横川さくら保育園","w":null,"c":1,"note":"区は0歳の受入月齢（57日以上・6か月以上）ごとの見込みをまとめて「合計で1人」と公表しています。0歳の欄はその人数です","vacancy":[1,null,null,null,null,null]},
-    {"id":"横川さくら保育園分園","name":"横川さくら保育園分園","w":null,"c":1,"vacancy":[null,null,3,null,null,null]},
+    {"id":"横川さくら保育園分園","name":"横川さくら保育園分園","w":null,"c":1,"vacancy":[null,1,3,null,null,null]},
     {"id":"押上保育園","name":"押上保育園","w":null,"c":1,"vacancy":[null,null,1,2,null,null]},
     {"id":"きんし保育園","name":"きんし保育園","w":null,"c":1,"vacancy":[null,null,null,5,null,3]},
     {"id":"亀沢保育園","name":"亀沢保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,1]},
@@ -103,7 +103,7 @@
     {"id":"たんぽぽ保育所八広園","name":"たんぽぽ保育所八広園","w":null,"c":2,"vacancy":[null,null,null,7,2,5]},
     {"id":"キッズガーデン業平","name":"キッズガーデン業平","w":null,"c":2,"vacancy":[null,null,null,null,1,null]},
     {"id":"キッズガーデン第二墨田八広","name":"キッズガーデン第二墨田八広","w":null,"c":2,"vacancy":[null,null,null,null,3,1]},
-    {"id":"さくらさくみらい東向島","name":"さくらさくみらい東向島","w":null,"c":2,"vacancy":[null,null,2,2,6,4]},
+    {"id":"さくらさくみらい東向島","name":"さくらさくみらい東向島","w":null,"c":2,"vacancy":[1,null,2,2,6,4]},
     {"id":"AIAI NURSERY 石原","name":"AIAI NURSERY 石原","w":null,"c":2,"vacancy":[null,null,null,null,1,5]},
     {"id":"キッズパートナー菊川","name":"キッズパートナー菊川","w":null,"c":2,"vacancy":[null,null,null,1,4,6]},
     {"id":"にじいろ保育園菊川","name":"にじいろ保育園菊川","w":null,"c":2,"vacancy":[null,null,null,1,7,4]},
