@@ -2,7 +2,7 @@
   "municipalitySlug": "yachiyo",
   "municipalityName": "八千代市",
   "asOf": "2026-10-01",
-  "fetchedAt": "2026-10-01",
+  "fetchedAt": "2026-10-08",
   "sourceName": "八千代市「保育園等空き状況一覧」",
   "sourceUrl": "https://www.city.yachiyo.lg.jp/soshiki/31/3266.html",
   "sourceFiles": {
@@ -50,7 +50,7 @@
     {"id":"八千代台南保育園","name":"八千代台南保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,"×","×",null,null,null]},
     {"id":"村上北保育園","name":"村上北保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","○"]},
     {"id":"睦北保育園","name":"睦北保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","△"]},
-    {"id":"新木戸保育園","name":"新木戸保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","○"]},
+    {"id":"新木戸保育園","name":"新木戸保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
     {"id":"勝田保育園","name":"勝田保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","△"]},
     {"id":"第二勝田保育園","name":"第二勝田保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","△"]},
     {"id":"みつわなかよし保育園","name":"みつわなかよし保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},

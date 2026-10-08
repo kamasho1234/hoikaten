@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "kani",
   "municipalityName": "可児市",
-  "asOf": "2026-09-08",
-  "fetchedAt": "2026-10-07",
+  "asOf": "2026-10-07",
+  "fetchedAt": "2026-10-08",
   "sourceName": "可児市「保育園等の空き状況（入園調整）」",
   "sourceUrl": "https://www.city.kani.lg.jp/18166.htm",
   "sourceFiles": {
-    "vacancy": "https://www.city.kani.lg.jp/secure/19240/tenchose.pdf"
+    "vacancy": "https://www.city.kani.lg.jp/secure/19240/jyuuitichose.pdf"
   },
   "metrics": [
     "symbol"
@@ -53,7 +53,7 @@
       "symbols": [
         "×",
         "×",
-        "△",
+        "○",
         null,
         null,
         null
@@ -121,7 +121,7 @@
         "×",
         "×",
         "△",
-        "×",
+        "△",
         "×"
       ]
     },
@@ -339,7 +339,7 @@
       "symbols": [
         "×",
         "×",
-        "×",
+        "△",
         null,
         null,
         null

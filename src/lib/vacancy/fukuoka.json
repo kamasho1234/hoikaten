@@ -1,8 +1,8 @@
 {
   "municipalitySlug": "fukuoka",
   "municipalityName": "福岡市",
-  "asOf": "2026-10-07",
-  "fetchedAt": "2026-10-07",
+  "asOf": "2026-10-08",
+  "fetchedAt": "2026-10-08",
   "sourceName": "福岡市「ふくおか保育所案内板〈空きマップ〉」",
   "sourceUrl": "https://kodomo-hoiku.city.fukuoka.lg.jp/",
   "sourceFiles": {
@@ -423,7 +423,7 @@
     {"id":"365","name":"ここ葉保育園","w":5,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["◎","◎","×","×","×","×"],"site":{"url":"https://kokohahoikuen.com/","type":"facility"}},
     {"id":"366","name":"飯原保育園","w":5,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["◎","◎","×","○","×","×"],"site":{"url":"http://www.iihara.jp","type":"facility"}},
     {"id":"367","name":"原中央保育園","w":5,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["◎","×","△","×","×","△"],"site":{"url":"https://harachuou-hoikuen.com/","type":"facility"}},
-    {"id":"368","name":"栄光保育園","w":5,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["◎","△","×","×","×","△"]},
+    {"id":"368","name":"栄光保育園","w":5,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["◎","△","×","○","×","△"]},
     {"id":"369","name":"認定こども園ひなたの風","w":5,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["◎","△","△","×","×","×"],"site":{"url":"https://kyoai-fukushikai.or.jp/","type":"facility"}},
     {"id":"370","name":"ニチイキッズ次郎丸保育園","w":5,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["◎","△","△","×","△","△"],"site":{"url":"https://www.nichiikids.net/nursery/jiromaru/","type":"facility"}},
     {"id":"371","name":"室見ガーデン保育園","w":5,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["◎","○","×","○","△","×"]},

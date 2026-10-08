@@ -3,11 +3,11 @@
   "municipalityName": "いの町",
   "prefecture": "高知県",
   "asOf": "2026-10-01",
-  "fetchedAt": "2026-10-07",
+  "fetchedAt": "2026-10-08",
   "sourceName": "いの町「保育施設空き状況」（いの町子育てパーフェクトページ）",
   "sourceUrl": "https://www.town.ino.kochi.jp/sukoyaka/hoiku_situation.html",
   "sourceFiles": {
-    "vacancy": "https://www.town.ino.kochi.jp/sukoyaka/pdf/situation_2610_2.pdf"
+    "vacancy": "https://www.town.ino.kochi.jp/sukoyaka/pdf/situation_2610_3.pdf"
   },
   "metrics": [
     "vacancy",
