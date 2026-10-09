@@ -2,12 +2,12 @@
   "municipalitySlug": "aira",
   "municipalityName": "姶良市",
   "prefecture": "鹿児島県",
-  "asOf": "2026-09-10",
-  "fetchedAt": "2026-10-08",
+  "asOf": "2026-10-09",
+  "fetchedAt": "2026-10-09",
   "sourceName": "姶良市「保育施設空き状況一覧表」",
   "sourceUrl": "https://www.city.aira.lg.jp/kosodate/akizyoukyou.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.aira.lg.jp/kosodate/documents/r8_9airahoikusenkou.pdf"
+    "vacancy": "https://www.city.aira.lg.jp/kosodate/documents/r8nyuusyosennkou10.pdf"
   },
   "metrics": [
     "symbol"
@@ -58,8 +58,8 @@
       ],
       "symbols": [
         "×",
-        "×",
-        "×",
+        "△",
+        "△",
         "×",
         "×",
         "×"
@@ -168,7 +168,7 @@
       ],
       "symbols": [
         "×",
-        "×",
+        "△",
         "×",
         "×",
         "×",
@@ -279,9 +279,9 @@
       "symbols": [
         "×",
         "×",
-        "△",
+        "×",
         "○",
-        "△",
+        "×",
         "×"
       ]
     },
@@ -343,7 +343,7 @@
         null
       ],
       "symbols": [
-        "×",
+        "△",
         "×",
         "×",
         "×",
@@ -524,7 +524,7 @@
         "×",
         "×",
         "×",
-        "×"
+        "△"
       ]
     },
     {

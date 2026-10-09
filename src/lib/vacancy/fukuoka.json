@@ -1,8 +1,8 @@
 {
   "municipalitySlug": "fukuoka",
   "municipalityName": "福岡市",
-  "asOf": "2026-10-08",
-  "fetchedAt": "2026-10-08",
+  "asOf": "2026-10-09",
+  "fetchedAt": "2026-10-09",
   "sourceName": "福岡市「ふくおか保育所案内板〈空きマップ〉」",
   "sourceUrl": "https://kodomo-hoiku.city.fukuoka.lg.jp/",
   "sourceFiles": {
@@ -254,7 +254,7 @@
     {"id":"196","name":"汀幼稚園","w":2,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,"◎","○","○","○"],"site":{"url":"https://migiwa.ed.jp/","type":"facility"}},
     {"id":"197","name":"ニチイキッズ天神保育園","w":2,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","○","×",null,null,null],"site":{"url":"https://www.nichiikids.net/nursery/tenjin/","type":"facility"}},
     {"id":"198","name":"ほっぺるランド赤坂","w":2,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×",null,null,null],"site":{"url":"https://hoppel-land.com/introduces/104-2/","type":"facility"}},
-    {"id":"199","name":"ほっぺるランド舞鶴","w":2,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["○","△","△",null,null,null],"site":{"url":"https://hoppel-land.com/introduces/158-2/","type":"facility"}},
+    {"id":"199","name":"ほっぺるランド舞鶴","w":2,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","△","△",null,null,null],"site":{"url":"https://hoppel-land.com/introduces/158-2/","type":"facility"}},
     {"id":"200","name":"ほっぺるランド大名","w":2,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×",null,null,null],"site":{"url":"https://hoppel-land.com/introduces/99-2/","type":"facility"}},
     {"id":"201","name":"あーす保育園警固","w":2,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["○","×","×",null,null,null],"site":{"url":"https://earth.sou-kidscare.co.jp/kego.html","type":"facility"}},
     {"id":"202","name":"福岡ゆうゆう保育園","w":2,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["○","△","△",null,null,null],"site":{"url":"https://yu-yu-hoikuen.jp/","type":"facility"}},
@@ -443,7 +443,7 @@
     {"id":"385","name":"第二幸福保育園","w":5,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","◎","○",null,null,null]},
     {"id":"386","name":"第２小田部保育園","w":5,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","○","△",null,null,null],"site":{"url":"https://www.haranishi.jp","type":"facility"}},
     {"id":"387","name":"西新保育園こすもす","w":5,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["○","○","×",null,null,null],"site":{"url":"http://www.nishijin-nursery.ed.jp/","type":"facility"}},
-    {"id":"388","name":"藤崎くすくすナーサリー","w":5,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["◎","△","×",null,null,null],"site":{"url":"http://www.fujisaki-kusukusu.com","type":"facility"}},
+    {"id":"388","name":"藤崎くすくすナーサリー","w":5,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["◎","×","×",null,null,null],"site":{"url":"http://www.fujisaki-kusukusu.com","type":"facility"}},
     {"id":"389","name":"ソフィア子どもの家","w":5,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["○","◎","△",null,null,null]},
     {"id":"390","name":"ねいろ保育園","w":5,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["○","◎","×",null,null,null],"site":{"url":"https://neiro-hoiku.info/introduce/index.html","type":"facility"}},
     {"id":"391","name":"いずみキッズ保育園","w":5,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["○","△","×",null,null,null]},

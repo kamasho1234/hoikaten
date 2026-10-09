@@ -1,8 +1,8 @@
 {
   "municipalitySlug": "abiko",
   "municipalityName": "我孫子市",
-  "asOf": "2026-10-06",
-  "fetchedAt": "2026-10-06",
+  "asOf": "2026-10-08",
+  "fetchedAt": "2026-10-09",
   "sourceName": "我孫子市「保育施設の空き状況」",
   "sourceUrl": "https://www.city.abiko.chiba.jp/kosodate/children/preschool/nursery/vacancy/hoikuen_aki.html",
   "sourceFiles": {
@@ -66,7 +66,7 @@
     {"id":"ミルキーホーム天王台園","name":"ミルキーホーム天王台園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
     {"id":"根戸保育園","name":"根戸保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
     {"id":"布佐宝","name":"布佐宝","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
-    {"id":"恵愛こども園","name":"恵愛こども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"恵愛こども園","name":"恵愛こども園","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","×","×"]},
     {"id":"柏鳳","name":"柏鳳","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","×"]},
     {"id":"わかくさ","name":"わかくさ","w":null,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
     {"id":"ぴくしーらんど","name":"ぴくしーらんど","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},

@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "nishio",
   "municipalityName": "西尾市",
-  "asOf": "2026-10-05",
-  "fetchedAt": "2026-10-08",
+  "asOf": "2026-10-09",
+  "fetchedAt": "2026-10-09",
   "sourceName": "西尾市「保育園・認定こども園（保育園コース）の空き状況」",
   "sourceUrl": "https://www.city.nishio.aichi.jp/kosodate/hoikuen/1005131/1002373.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.nishio.aichi.jp/_res/projects/default_project/_page_/001/002/373/r81201aki.pdf"
+    "vacancy": "https://www.city.nishio.aichi.jp/_res/projects/default_project/_page_/001/002/373/r81201.pdf"
   },
   "metrics": [
     "symbol"
@@ -58,11 +58,11 @@
         null
       ],
       "symbols": [
-        "×",
-        "×",
         null,
-        "×",
-        "×",
+        null,
+        null,
+        null,
+        null,
         "△"
       ]
     },
@@ -237,7 +237,7 @@
         "×",
         "×",
         null,
-        "○",
+        null,
         "○",
         "○"
       ]
@@ -652,12 +652,12 @@
         null
       ],
       "symbols": [
-        "×",
-        "×",
-        "×",
         null,
         null,
-        "×"
+        null,
+        null,
+        null,
+        null
       ]
     },
     {
@@ -741,7 +741,7 @@
       ],
       "symbols": [
         null,
-        "×",
+        null,
         "×",
         null,
         null,
