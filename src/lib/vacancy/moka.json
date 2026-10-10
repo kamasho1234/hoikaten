@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "moka",
   "municipalityName": "真岡市",
-  "asOf": "2026-09-04",
-  "fetchedAt": "2026-10-09",
+  "asOf": "2026-10-07",
+  "fetchedAt": "2026-10-10",
   "sourceName": "真岡市「市内保育施設等受け入れ可能状況（空き状況）」",
   "sourceUrl": "https://www.city.moka.lg.jp/kosodate_kyoiku/kosodate/hoikusho_yochien/22151.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.moka.lg.jp/material/files/group/44/R8_11hoiku.pdf"
+    "vacancy": "https://www.city.moka.lg.jp/material/files/group/44/R8_12hoikusyo.pdf"
   },
   "metrics": [
     "symbol"
@@ -118,8 +118,8 @@
       ],
       "symbols": [
         "×",
-        "△",
-        "△",
+        "×",
+        "×",
         "△",
         "×",
         "○"
@@ -162,7 +162,7 @@
       ],
       "symbols": [
         "×",
-        "△",
+        "×",
         "△",
         "×",
         "×",
