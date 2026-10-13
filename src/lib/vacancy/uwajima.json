@@ -2,12 +2,12 @@
   "municipalitySlug": "uwajima",
   "municipalityName": "宇和島市",
   "prefecture": "愛媛県",
-  "asOf": "2026-08-01",
-  "fetchedAt": "2026-10-12",
+  "asOf": "2026-10-01",
+  "fetchedAt": "2026-10-13",
   "sourceName": "宇和島市「受入可能状況（2・3号）」",
   "sourceUrl": "https://www.city.uwajima.ehime.jp/site/hoikunet/hoikunintei2.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.uwajima.ehime.jp/uploaded/attachment/69496.pdf"
+    "vacancy": "https://www.city.uwajima.ehime.jp/uploaded/attachment/70003.pdf"
   },
   "metrics": [
     "symbol"
@@ -106,8 +106,8 @@
       ],
       "symbols": [
         "×",
-        "△",
-        "△",
+        "×",
+        "×",
         "○",
         "○",
         "○"
@@ -284,7 +284,7 @@
         "×",
         "×",
         "×",
-        "×",
+        "○",
         "×",
         "×"
       ]
@@ -347,8 +347,8 @@
         null
       ],
       "symbols": [
-        "○",
-        "△",
+        "×",
+        "×",
         "×",
         "△",
         "×",
@@ -458,7 +458,7 @@
       ],
       "symbols": [
         "×",
-        "×",
+        "△",
         "×",
         "△",
         "△",

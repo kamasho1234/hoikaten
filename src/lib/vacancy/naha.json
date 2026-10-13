@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "naha",
   "municipalityName": "那覇市",
-  "asOf": "2026-10-08",
-  "fetchedAt": "2026-10-09",
+  "asOf": "2026-10-13",
+  "fetchedAt": "2026-10-13",
   "sourceName": "那覇市「保育所等の空き状況」",
   "sourceUrl": "https://www.city.naha.okinawa.jp/child/hoikuen/1002762/1002783/1002790.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.naha.okinawa.jp/_res/projects/default_project/_page_/001/002/790/r8.12gatsuakiwaku1.pdf"
+    "vacancy": "https://www.city.naha.okinawa.jp/_res/projects/default_project/_page_/001/002/790/r8.12gatsuakiwaku2.pdf"
   },
   "metrics": [
     "vacancy",
@@ -97,7 +97,7 @@
     {"id":"小禄-よしたけ保育園","name":"よしたけ保育園","w":2,"c":null,"vacancy":[0,0,2,5,0,0],"waiting":[11,1,0,0,0,0]},
     {"id":"本庁-レイモンドあしびなー保育園","name":"レイモンドあしびなー保育園","w":1,"c":null,"vacancy":[0,1,0,2,0,0],"waiting":[10,0,0,0,1,0]},
     {"id":"本庁-若狭浦保育所","name":"若狭浦保育所","w":1,"c":null,"vacancy":[0,1,0,2,0,null],"waiting":[10,0,1,0,0,null]},
-    {"id":"首里-若杉保育園","name":"若杉保育園","w":3,"c":null,"vacancy":[0,0,0,0,1,null],"waiting":[4,0,2,0,0,null]},
+    {"id":"首里-若杉保育園","name":"若杉保育園","w":3,"c":null,"vacancy":[4,0,0,0,1,null],"waiting":[4,0,2,0,0,null]},
     {"id":"首里-渡保育園","name":"渡保育園","w":3,"c":null,"vacancy":[0,2,1,3,2,1],"waiting":[2,0,0,0,0,0]},
     {"id":"本庁-いずみのもり保育園","name":"いずみのもり保育園","w":1,"c":null,"vacancy":[0,0,null,null,null,null],"waiting":[7,0,0,null,null,null]},
     {"id":"小禄-沖縄産業支援センター内保育園","name":"沖縄産業支援センター内保育園","w":2,"c":null,"vacancy":[0,2,0,null,null,null],"waiting":[4,0,0,null,null,null]},

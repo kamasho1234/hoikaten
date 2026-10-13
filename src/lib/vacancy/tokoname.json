@@ -2,12 +2,12 @@
   "municipalitySlug": "tokoname",
   "municipalityName": "常滑市",
   "prefecture": "愛知県",
-  "asOf": "2026-09-01",
-  "fetchedAt": "2026-10-12",
+  "asOf": "2026-10-01",
+  "fetchedAt": "2026-10-13",
   "sourceName": "常滑市「市内保育所等 空き状況一覧」",
   "sourceUrl": "https://www.city.tokoname.aichi.jp/kurashi/kodomo/1000715/1006642.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.tokoname.aichi.jp/_res/projects/default_project/_page_/001/006/642/0910.pdf"
+    "vacancy": "https://www.city.tokoname.aichi.jp/_res/projects/default_project/_page_/001/006/642/261009.pdf"
   },
   "metrics": [
     "symbol"
@@ -73,7 +73,7 @@
       ],
       "symbols": [
         "×",
-        "△",
+        "×",
         "△",
         "△",
         "×",
@@ -162,10 +162,10 @@
       "symbols": [
         "×",
         "×",
-        "×",
+        "△",
         "〇",
         "〇",
-        "〇"
+        "△"
       ]
     },
     {
@@ -275,7 +275,7 @@
         "×",
         "×",
         "△",
-        "×"
+        "△"
       ]
     },
     {
@@ -316,7 +316,7 @@
       "symbols": [
         "×",
         "×",
-        "×",
+        "△",
         "〇",
         "〇",
         "〇"
@@ -336,7 +336,7 @@
         null
       ],
       "symbols": [
-        "×",
+        "△",
         "×",
         "△",
         "〇",
@@ -447,7 +447,7 @@
       ],
       "symbols": [
         "×",
-        "×",
+        "△",
         "×",
         null,
         null,

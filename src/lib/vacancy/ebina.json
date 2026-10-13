@@ -1,19 +1,19 @@
 {
   "municipalitySlug": "ebina",
   "municipalityName": "海老名市",
-  "asOf": "2026-10-05",
-  "fetchedAt": "2026-10-05",
+  "asOf": "2026-10-09",
+  "fetchedAt": "2026-10-13",
   "sourceName": "海老名市「保育所途中入所における受入予定数」",
   "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/kosodate/hoikuen/1014723.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.ebina.kanagawa.jp/_res/projects/default_project/_page_/001/014/723/20261005.pdf"
+    "vacancy": "https://www.city.ebina.kanagawa.jp/_res/projects/default_project/_page_/001/014/723/20261009.pdf"
   },
   "metrics": [
     "vacancy"
   ],
   "subtitle": "2026年11月入所ぶんの受入予定数",
   "notes": [
-    "海老名市は2026年11月入所ぶんの受入予定数を公表しています。これは2026-10-05時点のものです。",
+    "海老名市は2026年11月入所ぶんの受入予定数を公表しています。これは2026-10-09時点のものです。",
     "掲載内容は、現時点での予定数となります。",
     "在園児童の状況や保育士の配置等により、最終的な受入人数は変動いたします。",
     "保育所入所申込の際の参考としてご活用ください。",
@@ -26,7 +26,7 @@
     {"id":"柏ケ谷保育園","name":"柏ケ谷保育園","w":null,"c":null,"vacancy":[0,0,0,2,2,4]},
     {"id":"門沢橋保育園","name":"門沢橋保育園","w":null,"c":null,"vacancy":[null,null,null,null,1,3]},
     {"id":"中新田保育園","name":"中新田保育園","w":null,"c":null,"vacancy":[0,0,0,0,5,0]},
-    {"id":"上河内保育園","name":"上河内保育園","w":null,"c":null,"vacancy":[0,0,0,0,2,0]},
+    {"id":"上河内保育園","name":"上河内保育園","w":null,"c":null,"vacancy":[0,1,0,0,2,0]},
     {"id":"たちばな保育園","name":"たちばな保育園","w":null,"c":null,"vacancy":[0,0,0,0,0,0]},
     {"id":"海老名たちばな保育園","name":"海老名たちばな保育園","w":null,"c":null,"vacancy":[0,0,0,6,0,0]},
     {"id":"さがみ愛子園","name":"さがみ愛子園","w":null,"c":null,"vacancy":[0,1,0,3,2,1]},

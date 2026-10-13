@@ -2,8 +2,8 @@
   "municipalitySlug": "mine",
   "municipalityName": "美祢市",
   "prefecture": "山口県",
-  "asOf": "2026-07-06",
-  "fetchedAt": "2026-10-12",
+  "asOf": "2026-10-13",
+  "fetchedAt": "2026-10-13",
   "sourceName": "美祢市「保育園・認定こども園 空き状況」（つぼみねっと）",
   "sourceUrl": "https://www.mine-tsubomi.net/childcare_facility/",
   "sourceFiles": {
@@ -60,8 +60,8 @@
       ],
       "symbols": [
         "△",
-        "○",
-        "○",
+        "△",
+        "△",
         "○",
         "○",
         "○"
@@ -81,9 +81,9 @@
         null
       ],
       "symbols": [
-        "△",
-        "△",
         "×",
+        "△",
+        "△",
         "○",
         "○",
         "○"
@@ -125,9 +125,9 @@
         null
       ],
       "symbols": [
-        "○",
-        "○",
-        "○",
+        "×",
+        "△",
+        "△",
         "○",
         "○",
         "○"
@@ -191,7 +191,7 @@
         null
       ],
       "symbols": [
-        "○",
+        "×",
         "○",
         "○",
         "○",
@@ -258,8 +258,8 @@
       ],
       "symbols": [
         "○",
-        "○",
-        "○",
+        "△",
+        "△",
         "○",
         "○",
         "○"

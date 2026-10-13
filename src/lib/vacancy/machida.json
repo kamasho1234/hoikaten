@@ -2,11 +2,11 @@
   "municipalitySlug": "machida",
   "municipalityName": "町田市",
   "asOf": "2026-11-01",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "sourceName": "町田市「入園募集人数一覧」",
   "sourceUrl": "https://kosodate-machida.tokyo.jp/soshiki/4/3/nyuuen/hoiku/202604/14186.html",
   "sourceFiles": {
-    "vacancy": "https://kosodate-machida.tokyo.jp/material/files/group/7/boshu2611.pdf"
+    "vacancy": "https://kosodate-machida.tokyo.jp/material/files/group/7/boshu2610_02.pdf"
   },
   "metrics": [
     "vacancy"
@@ -37,7 +37,7 @@
     {"id":"堺-かえで保育園","name":"かえで保育園","w":0,"c":0,"vacancy":[null,null,null,null,1,null]},
     {"id":"堺-小山保育園","name":"小山保育園","w":0,"c":0,"vacancy":[null,null,null,null,null,null]},
     {"id":"堺-多摩境敬愛保育園","name":"多摩境敬愛保育園","w":0,"c":0,"vacancy":[null,null,null,null,null,null]},
-    {"id":"堺-サンフィール","name":"サンフィール","w":0,"c":0,"vacancy":[null,null,null,null,null,null]},
+    {"id":"堺-サンフィール","name":"サンフィール","w":0,"c":0,"vacancy":[null,null,1,null,null,null]},
     {"id":"堺-保育園","name":"保育園","w":0,"c":0,"vacancy":[null,null,null,null,null,null]},
     {"id":"堺-もみの木保育園","name":"もみの木保育園","w":0,"c":0,"vacancy":[null,null,null,1,null,null]},
     {"id":"堺-敬愛桃の実保育園","name":"敬愛桃の実保育園","w":0,"c":0,"vacancy":[null,null,null,null,null,null]},
