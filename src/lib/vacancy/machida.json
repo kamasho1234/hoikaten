@@ -2,11 +2,11 @@
   "municipalitySlug": "machida",
   "municipalityName": "町田市",
   "asOf": "2026-11-01",
-  "fetchedAt": "2026-10-13",
+  "fetchedAt": "2026-10-14",
   "sourceName": "町田市「入園募集人数一覧」",
   "sourceUrl": "https://kosodate-machida.tokyo.jp/soshiki/4/3/nyuuen/hoiku/202604/14186.html",
   "sourceFiles": {
-    "vacancy": "https://kosodate-machida.tokyo.jp/material/files/group/7/boshu2610_02.pdf"
+    "vacancy": "https://kosodate-machida.tokyo.jp/material/files/group/7/boshu2611_2.pdf"
   },
   "metrics": [
     "vacancy"

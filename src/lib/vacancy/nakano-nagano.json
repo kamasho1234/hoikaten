@@ -2,12 +2,12 @@
   "municipalitySlug": "nakano-nagano",
   "municipalityName": "中野市",
   "prefecture": "長野県",
-  "asOf": "2026-09-10",
-  "fetchedAt": "2026-10-13",
+  "asOf": "2026-10-14",
+  "fetchedAt": "2026-10-14",
   "sourceName": "中野市「中野市認可保育施設 空き状況」",
   "sourceUrl": "https://www.city.nakano.nagano.jp/docs/2025091000027/",
   "sourceFiles": {
-    "vacancy": "https://www.city.nakano.nagano.jp/docs/2025091000027/file_contents/R8_11.pdf"
+    "vacancy": "https://www.city.nakano.nagano.jp/docs/2025091000027/file_contents/R8_12-2.pdf"
   },
   "metrics": [
     "symbol"
@@ -226,7 +226,7 @@
         null
       ],
       "symbols": [
-        "〇",
+        "×",
         "×",
         "×",
         null,
@@ -249,7 +249,7 @@
       ],
       "symbols": [
         "×",
-        "〇",
+        "×",
         "〇",
         null,
         null,
