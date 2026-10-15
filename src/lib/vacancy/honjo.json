@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "honjo",
   "municipalityName": "本庄市",
-  "asOf": "2026-09-29",
-  "fetchedAt": "2026-10-14",
+  "asOf": "2026-10-15",
+  "fetchedAt": "2026-10-15",
   "sourceName": "本庄市「保育所（園）受入人数一覧」",
   "sourceUrl": "https://www.city.honjo.lg.jp/kosodate_kyoiku/kosodate/hoikusho_kodomoen_yochien/1554375865978.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.honjo.lg.jp/material/files/group/50/hoikuen_aki_R8_11_.pdf"
+    "vacancy": "https://www.city.honjo.lg.jp/material/files/group/50/hoikuen_aki_R8_11_2.pdf"
   },
   "metrics": [
     "vacancy"
@@ -179,6 +179,20 @@
       ]
     },
     {
+      "id": "ほほえみ子どもの国保育園",
+      "name": "ほほえみ子どもの国保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
       "id": "藤田保育園",
       "name": "藤田保育園",
       "w": null,
@@ -218,20 +232,6 @@
         0,
         1,
         1
-      ]
-    },
-    {
-      "id": "秋平さくら保育園",
-      "name": "秋平さくら保育園",
-      "w": null,
-      "c": 1,
-      "vacancy": [
-        1,
-        1,
-        0,
-        0,
-        0,
-        0
       ]
     },
     {
@@ -355,6 +355,20 @@
         3,
         3,
         3,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "秋平さくら保育園",
+      "name": "秋平さくら保育園",
+      "w": null,
+      "c": 2,
+      "vacancy": [
+        1,
+        1,
+        0,
         0,
         0,
         0

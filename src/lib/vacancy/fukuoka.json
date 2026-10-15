@@ -1,8 +1,8 @@
 {
   "municipalitySlug": "fukuoka",
   "municipalityName": "福岡市",
-  "asOf": "2026-10-14",
-  "fetchedAt": "2026-10-14",
+  "asOf": "2026-10-15",
+  "fetchedAt": "2026-10-15",
   "sourceName": "福岡市「ふくおか保育所案内板〈空きマップ〉」",
   "sourceUrl": "https://kodomo-hoiku.city.fukuoka.lg.jp/",
   "sourceFiles": {
@@ -464,7 +464,7 @@
     {"id":"402","name":"姪浜保育所","w":6,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["◎","◎","○","×","△","○"]},
     {"id":"403","name":"観音寺保育園","w":6,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["◎","◎","△","×","×","×"],"site":{"url":"https://www.kannonkai.jp/","type":"facility"}},
     {"id":"404","name":"観音寺保育園愛宕浜小学校内分園","w":6,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["○","○","×",null,null,null],"site":{"url":"https://www.kannonkai.jp/","type":"facility"}},
-    {"id":"405","name":"認定こども園いまづシャラ園","w":6,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["◎","◎","△","◎","×","◎"],"site":{"url":"https://imazu-hoikuen.com/","type":"facility"}},
+    {"id":"405","name":"認定こども園いまづシャラ園","w":6,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["◎","◎","×","◎","×","○"],"site":{"url":"https://imazu-hoikuen.com/","type":"facility"}},
     {"id":"406","name":"太郎保育園","w":6,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["◎","◎","◎","◎","◎","△"],"site":{"url":"https://tarohoikuen.com/","type":"facility"}},
     {"id":"407","name":"千里保育園","w":6,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["◎","◎","◎","◎","○","○"]},
     {"id":"408","name":"北崎保育園","w":6,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["◎","◎","◎","◎","◎","◎"],"site":{"url":"http://kitazakihoikuen.ed.jp","type":"facility"}},

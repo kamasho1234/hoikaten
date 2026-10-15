@@ -2,12 +2,12 @@
   "municipalitySlug": "tachiarai",
   "municipalityName": "大刀洗町",
   "prefecture": "福岡県",
-  "asOf": "2026-09-10",
-  "fetchedAt": "2026-10-14",
+  "asOf": "2026-10-14",
+  "fetchedAt": "2026-10-15",
   "sourceName": "大刀洗町「保育園空き状況」",
   "sourceUrl": "https://www.town.tachiarai.fukuoka.jp/kosodate/kiji003353/index.html",
   "sourceFiles": {
-    "vacancy": "https://www.town.tachiarai.fukuoka.jp/kosodate/kiji003353/3_353_4765_up_rorjbvu1.pdf"
+    "vacancy": "https://www.town.tachiarai.fukuoka.jp/kosodate/kiji003353/3_353_5339_up_sbwe1c5i.pdf"
   },
   "metrics": [
     "symbol"

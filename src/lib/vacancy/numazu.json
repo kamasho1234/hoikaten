@@ -2,7 +2,7 @@
   "municipalitySlug": "numazu",
   "municipalityName": "沼津市",
   "asOf": "2026-10-01",
-  "fetchedAt": "2026-10-13",
+  "fetchedAt": "2026-10-15",
   "sourceName": "沼津市子育てポータルサイト「保育園等の募集情報」",
   "sourceUrl": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/azukeru/bosyumap.htm",
   "sourceFiles": {
@@ -44,7 +44,7 @@
     {"id":"大岡保育所","name":"大岡保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["無","若干名","若干名","無","無","無"]},
     {"id":"ときわ保育所","name":"ときわ保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["無","無","無","若干名","若干名","無"]},
     {"id":"永明保育園","name":"永明保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["無","無","若干名","無","若干名","無"]},
-    {"id":"恵愛保育園","name":"恵愛保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["無","無","若干名","無","無","無"]},
+    {"id":"恵愛保育園","name":"恵愛保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["若干名","無","若干名","無","無","無"]},
     {"id":"霊山保育園","name":"霊山保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["無","無","無","無","無","若干名"]},
     {"id":"岳東保育園","name":"岳東保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["無","無","若干名","無","無","無"]},
     {"id":"静浦保育園","name":"静浦保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["若干名","無","若干名","若干名","無","若干名"]},
