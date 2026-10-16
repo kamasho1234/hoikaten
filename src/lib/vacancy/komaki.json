@@ -1,17 +1,17 @@
 {
   "municipalitySlug": "komaki",
   "municipalityName": "小牧市",
-  "asOf": "2026-09-07",
-  "fetchedAt": "2026-09-18",
+  "asOf": "2026-10-06",
+  "fetchedAt": "2026-10-16",
   "sourceName": "小牧市「保育施設等の空き状況」",
   "sourceUrl": "https://www.city.komaki.aichi.jp/admin/soshiki/kodomomirai/youjihoiku/youjihoiku/6636/6667/48425.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.komaki.aichi.jp/material/files/group/35/akijoukyou_080907.pdf"
+    "vacancy": "https://www.city.komaki.aichi.jp/material/files/group/35/akijoukyou_081006.pdf"
   },
   "metrics": [
     "symbol"
   ],
-  "subtitle": "11月入所の空き状況",
+  "subtitle": "12月入所の空き状況",
   "notes": [
     "小牧市は空き状況を人数ではなく記号で公表しています。当サイトでも公式の記号のまま載せています。",
     "入園を辞退された方や退園などの関係で、入園審査時の空き状況と公表内容が一部異なる場合があるため、入園の可否を保証するものではありません。",
@@ -51,9 +51,9 @@
     {"id":"レイモンド小牧保育園","name":"レイモンド小牧保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","×"]},
     {"id":"味岡保育園","name":"味岡保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","○"]},
     {"id":"篠岡保育園","name":"篠岡保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","○","○","○"]},
-    {"id":"村中保育園","name":"村中保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","○"]},
+    {"id":"村中保育園","name":"村中保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","△","○"]},
     {"id":"みなみ保育園","name":"みなみ保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","○"]},
-    {"id":"じょうぶし保育園","name":"じょうぶし保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","○","△"]},
+    {"id":"じょうぶし保育園","name":"じょうぶし保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","△"]},
     {"id":"一色保育園","name":"一色保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
     {"id":"まことままはら保育園","name":"まことままはら保育園","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","○","○"]},
     {"id":"第二保育園","name":"第二保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","○"]},
@@ -62,7 +62,7 @@
     {"id":"さくら保育園","name":"さくら保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","○","○"]},
     {"id":"北里保育園","name":"北里保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["※","×","△","○","△","○"]},
     {"id":"藤島保育園","name":"藤島保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","×","△"]},
-    {"id":"小木保育園","name":"小木保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
+    {"id":"小木保育園","name":"小木保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","×","×"]},
     {"id":"三ツ渕保育園","name":"三ツ渕保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","○","○","○"]},
     {"id":"三ツ渕北保育園","name":"三ツ渕北保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","○","○","○"]},
     {"id":"岩崎保育園","name":"岩崎保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","○","△","○"]},
@@ -90,11 +90,11 @@
     {"id":"つぼみ小規模保育園","name":"つぼみ小規模保育園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
     {"id":"つぼみ小規模保育園岩崎園","name":"つぼみ小規模保育園岩崎園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
     {"id":"めいてつ保育ステーション小牧ぽっぽ園きた","name":"めいてつ保育ステーション小牧ぽっぽ園きた","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
-    {"id":"めいてつ保育ステーション小牧ぽっぽ園みなみ","name":"めいてつ保育ステーション小牧ぽっぽ園みなみ","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"めいてつ保育ステーション小牧ぽっぽ園みなみ","name":"めいてつ保育ステーション小牧ぽっぽ園みなみ","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△",null,null,null]},
     {"id":"はな保育室こまきはら","name":"はな保育室こまきはら","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
     {"id":"めいてつ保育ステーション小牧口ぽっぽ園","name":"めいてつ保育ステーション小牧口ぽっぽ園","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△",null,null,null]},
     {"id":"といろ保育園～小牧園～","name":"といろ保育園～小牧園～","w":null,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△",null,null,null]},
-    {"id":"小規模保育園こすも","name":"小規模保育園こすも","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
+    {"id":"小規模保育園こすも","name":"小規模保育園こすも","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△",null,null,null]},
     {"id":"小規模保育園みらい","name":"小規模保育園みらい","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]}
   ]
 }

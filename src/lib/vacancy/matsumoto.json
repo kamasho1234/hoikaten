@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "matsumoto",
   "municipalityName": "松本市",
-  "asOf": "2026-10-08",
-  "fetchedAt": "2026-10-15",
+  "asOf": "2026-10-15",
+  "fetchedAt": "2026-10-16",
   "sourceName": "松本市「途中入園 空き状況」",
   "sourceUrl": "https://www.city.matsumoto.nagano.jp/site/kosodate/55781.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.matsumoto.nagano.jp/uploaded/attachment/135151.pdf"
+    "vacancy": "https://www.city.matsumoto.nagano.jp/uploaded/attachment/135152.pdf"
   },
   "metrics": [
     "symbol"

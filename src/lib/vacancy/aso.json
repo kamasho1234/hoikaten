@@ -2,12 +2,12 @@
   "municipalitySlug": "aso",
   "municipalityName": "阿蘇市",
   "prefecture": "熊本県",
-  "asOf": "2026-09-01",
-  "fetchedAt": "2026-10-15",
+  "asOf": "2026-10-01",
+  "fetchedAt": "2026-10-16",
   "sourceName": "阿蘇市「保育施設の空き状況」",
   "sourceUrl": "https://www.city.aso.kumamoto.jp/citizens/health_medical_welfare/insurance_of_children/childcare/availability/",
   "sourceFiles": {
-    "vacancy": "https://www.city.aso.kumamoto.jp/files/uploads/2026/09/akizyoukyou11.pdf"
+    "vacancy": "https://www.city.aso.kumamoto.jp/files/uploads/2026/10/akizyoukyou12.pdf"
   },
   "metrics": [
     "vacancy"
@@ -32,7 +32,7 @@
       "vacancy": [
         1,
         1,
-        3,
+        1,
         1,
         1,
         1
@@ -44,8 +44,22 @@
       "w": null,
       "c": 0,
       "vacancy": [
-        2,
+        1,
         null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "りんどう保育園",
+      "name": "りんどう保育園",
+      "w": null,
+      "c": 0,
+      "vacancy": [
+        null,
+        1,
         null,
         null,
         null,
@@ -160,8 +174,8 @@
         null,
         null,
         null,
-        1,
-        null
+        2,
+        1
       ]
     },
     {
@@ -229,8 +243,8 @@
         null,
         null,
         null,
-        2,
-        2,
+        1,
+        1,
         1
       ]
     }

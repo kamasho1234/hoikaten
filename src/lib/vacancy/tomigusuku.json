@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "tomigusuku",
   "municipalityName": "豊見城市",
-  "asOf": "2026-10-13",
-  "fetchedAt": "2026-10-15",
+  "asOf": "2026-10-15",
+  "fetchedAt": "2026-10-16",
   "sourceName": "豊見城市「空き状況及び待ち順」",
   "sourceUrl": "https://www.city.tomigusuku.lg.jp/life_vent/kosodate/3/4742.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.tomigusuku.lg.jp/material/files/group/22/0_matizyun.pdf"
+    "vacancy": "https://www.city.tomigusuku.lg.jp/material/files/group/22/0_1R8_11matizyun.pdf"
   },
   "metrics": [
     "symbol"
@@ -165,7 +165,7 @@
         null
       ],
       "symbols": [
-        "×",
+        "△",
         "△",
         "×",
         "△",
@@ -233,7 +233,7 @@
       "symbols": [
         null,
         null,
-        "△",
+        "×",
         "△",
         "×",
         "×"
