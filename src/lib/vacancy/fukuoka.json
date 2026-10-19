@@ -1,8 +1,8 @@
 {
   "municipalitySlug": "fukuoka",
   "municipalityName": "福岡市",
-  "asOf": "2026-10-16",
-  "fetchedAt": "2026-10-16",
+  "asOf": "2026-10-19",
+  "fetchedAt": "2026-10-19",
   "sourceName": "福岡市「ふくおか保育所案内板〈空きマップ〉」",
   "sourceUrl": "https://kodomo-hoiku.city.fukuoka.lg.jp/",
   "sourceFiles": {
@@ -491,7 +491,7 @@
     {"id":"429","name":"認定こども園あゆみらい保育園","w":6,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["◎","◎","△","×","×","△"],"site":{"url":"https://ayumirai.magokorokai.jp/","type":"facility"}},
     {"id":"430","name":"福岡舞鶴誠和第Ⅰ保育園","w":6,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["◎","◎","◎","○","○","△"]},
     {"id":"431","name":"福岡舞鶴誠和第Ⅱ保育園","w":6,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["○","◎","◎","◎","△","◎"]},
-    {"id":"432","name":"いき保育園","w":6,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["◎","◎","◎","○","△","△"],"site":{"url":"https://keisinkai.net/","type":"facility"}},
+    {"id":"432","name":"いき保育園","w":6,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["◎","◎","◎","△","△","△"],"site":{"url":"https://keisinkai.net/","type":"facility"}},
     {"id":"433","name":"城の原保育園","w":6,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["◎","◎","○","△","△","△"]},
     {"id":"434","name":"かぼちゃ畑保育園","w":6,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["◎","◎","×","×","×","×"],"site":{"url":"https://www.kabocha.ed.jp/","type":"facility"}},
     {"id":"435","name":"すみわたる保育園","w":6,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["◎","○","◎","△","×","◎"],"site":{"url":"https://asukafukushikai.com/center_childcare/sumiwataru_hoikuen/","type":"facility"}},

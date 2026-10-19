@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "ito",
   "municipalityName": "伊東市",
-  "asOf": "2026-09-15",
-  "fetchedAt": "2026-10-18",
+  "asOf": "2026-10-16",
+  "fetchedAt": "2026-10-19",
   "sourceName": "伊東市「保育所等の空き状況」",
   "sourceUrl": "https://www.city.ito.shizuoka.jp/gyosei/soshikikarasagasu/yojikyoikuka/kosodate_kyoiku/2/1/2/hoikunyuen/13334.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.ito.shizuoka.jp/material/files/group/27/R8-11gatu_nyusyojokyo.pdf"
+    "vacancy": "https://www.city.ito.shizuoka.jp/material/files/group/27/R8-12gatu_nyusyojokyo.pdf"
   },
   "metrics": [
     "symbol"
@@ -83,7 +83,7 @@
       ],
       "symbols": [
         "－",
-        "△",
+        "－",
         "－",
         "△",
         "△",
@@ -148,8 +148,8 @@
         null
       ],
       "symbols": [
-        "△",
         "－",
+        "△",
         "－",
         "－",
         "－",
@@ -324,7 +324,7 @@
         null
       ],
       "symbols": [
-        "△",
+        "－",
         "－",
         "－",
         null,

@@ -2,12 +2,12 @@
   "municipalitySlug": "ozu",
   "municipalityName": "大津町",
   "prefecture": "熊本県",
-  "asOf": "2026-10-06",
-  "fetchedAt": "2026-10-18",
+  "asOf": "2026-10-19",
+  "fetchedAt": "2026-10-19",
   "sourceName": "大津町「大津町認可保育施設空き状況一覧」",
   "sourceUrl": "https://www.town.ozu.kumamoto.jp/site/kosodate/14373.html",
   "sourceFiles": {
-    "vacancy": "https://www.town.ozu.kumamoto.jp/uploaded/attachment/20027.pdf"
+    "vacancy": "https://www.town.ozu.kumamoto.jp/uploaded/attachment/20107.pdf"
   },
   "metrics": [
     "symbol"
@@ -98,7 +98,7 @@
         null
       ],
       "symbols": [
-        "〇",
+        "△",
         "△",
         "×",
         "〇",
