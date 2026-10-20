@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "minami-alps",
   "municipalityName": "南アルプス市",
-  "asOf": "2026-09-18",
-  "fetchedAt": "2026-10-19",
+  "asOf": "2026-10-20",
+  "fetchedAt": "2026-10-20",
   "sourceName": "南アルプス市「保育所等募集人員（受付施設一覧表）」",
   "sourceUrl": "https://www.city.minami-alps.yamanashi.jp/docs/13591.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.minami-alps.yamanashi.jp/fs/1/4/6/3/1/9/_/R8_______HP____R8.9.18__.pdf"
+    "vacancy": "https://www.city.minami-alps.yamanashi.jp/fs/1/4/7/0/3/9/_/R8_______HP____R8.10.20__.pdf"
   },
   "metrics": [
     "vacancy"
@@ -139,7 +139,7 @@
       "vacancy": [
         0,
         0,
-        2,
+        1,
         7,
         0,
         14
@@ -193,7 +193,7 @@
       "w": null,
       "c": null,
       "vacancy": [
-        0,
+        1,
         0,
         0,
         0,
@@ -235,7 +235,7 @@
       "w": null,
       "c": null,
       "vacancy": [
-        0,
+        3,
         0,
         0,
         1,

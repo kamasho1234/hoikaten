@@ -2,8 +2,8 @@
   "municipalitySlug": "ami",
   "municipalityName": "阿見町",
   "prefecture": "茨城県",
-  "asOf": "2026-09-18",
-  "fetchedAt": "2026-10-19",
+  "asOf": "2026-10-20",
+  "fetchedAt": "2026-10-20",
   "sourceName": "阿見町「利用可能見込み児童数」",
   "sourceUrl": "https://www.town.ami.lg.jp/0000012056.html",
   "sourceFiles": {
@@ -67,8 +67,8 @@
         0,
         0,
         0,
-        0,
-        0,
+        1,
+        1,
         0
       ]
     },
@@ -95,8 +95,8 @@
         0,
         0,
         0,
-        0,
-        2,
+        1,
+        1,
         0
       ]
     },
@@ -151,9 +151,9 @@
         0,
         0,
         0,
+        3,
         1,
-        5,
-        4
+        1
       ]
     },
     {
@@ -207,7 +207,7 @@
         null,
         null,
         null,
-        2,
+        1,
         0,
         0
       ]

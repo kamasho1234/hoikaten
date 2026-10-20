@@ -2,12 +2,12 @@
   "municipalitySlug": "tochigi-sakura",
   "municipalityName": "さくら市",
   "prefecture": "栃木県",
-  "asOf": "2026-09-17",
-  "fetchedAt": "2026-10-19",
+  "asOf": "2026-10-19",
+  "fetchedAt": "2026-10-20",
   "sourceName": "さくら市「保育施設ごとの空き状況」",
   "sourceUrl": "https://www.city.tochigi-sakura.lg.jp/education/000037/000224/p002352.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.tochigi-sakura.lg.jp/manage/contents/upload/6aacc07c4ee36.pdf"
+    "vacancy": "https://www.city.tochigi-sakura.lg.jp/manage/contents/upload/6ad5aadb3ba29.pdf"
   },
   "metrics": [
     "symbol"
@@ -55,7 +55,7 @@
       "symbols": [
         "×",
         "×",
-        "△",
+        "×",
         "×",
         "△",
         "×"
@@ -120,8 +120,8 @@
       ],
       "symbols": [
         "×",
-        "△",
-        "△",
+        "×",
+        "×",
         null,
         null,
         null
@@ -252,7 +252,7 @@
       ],
       "symbols": [
         "×",
-        "○",
+        "△",
         "○",
         "×",
         "×",
@@ -361,7 +361,7 @@
         null
       ],
       "symbols": [
-        "○",
+        "×",
         "×",
         "○",
         "×",
@@ -408,7 +408,7 @@
         null,
         null,
         null,
-        "△",
+        "×",
         "△",
         "△"
       ]

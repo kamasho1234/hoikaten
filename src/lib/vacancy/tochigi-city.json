@@ -1,19 +1,19 @@
 {
   "municipalitySlug": "tochigi-city",
   "municipalityName": "栃木市",
-  "asOf": "2026-09-18",
-  "fetchedAt": "2026-09-18",
+  "asOf": "2026-10-20",
+  "fetchedAt": "2026-10-20",
   "sourceName": "栃木市「保育園、認定こども園、小規模保育施設の受け入れ可能状況」",
   "sourceUrl": "https://www.city.tochigi.lg.jp/site/kosodatekyouiku/85506.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.tochigi.lg.jp/uploaded/attachment/72064.pdf"
+    "vacancy": "https://www.city.tochigi.lg.jp/uploaded/attachment/72573.pdf"
   },
   "metrics": [
     "symbol"
   ],
-  "subtitle": "2026年11月入園ぶんの受入可能数",
+  "subtitle": "2026年12月入園ぶんの受入可能数",
   "notes": [
-    "栃木市は受け入れの可否を人数ではなく記号で公表しています。これは2026年11月入園ぶんです。",
+    "栃木市は受け入れの可否を人数ではなく記号で公表しています。これは2026年12月入園ぶんです。",
     "公式の表では受け入れがない場合はらんが空になっています（凡例に「空欄：受入なし」と書かれています）。当サイトでは「✕」（受入なし）として表示しています。",
     "栃木市はこの表に基準日を書いていないため、公式サイトでPDFが公開された日を時点として表示しています。"
   ],
@@ -48,19 +48,19 @@
     {"id":"いわふね保育園","name":"いわふね保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","△","△","△","△"]},
     {"id":"さくら第2保育園","name":"さくら第2保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
     {"id":"けやき保育園","name":"けやき保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
-    {"id":"アイ・スマイル","name":"アイ・スマイル","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","△","△"]},
+    {"id":"アイ・スマイル","name":"アイ・スマイル","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","△"]},
     {"id":"大平中央保育園","name":"大平中央保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["✕","△","✕","△","✕","✕"]},
     {"id":"ひかり保育園","name":"ひかり保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","○","○","○","○"]},
     {"id":"フォレストキッズ保育園","name":"フォレストキッズ保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
     {"id":"すみれ保育園","name":"すみれ保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","△","△"]},
     {"id":"アルス幼稚園","name":"アルス幼稚園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
-    {"id":"アルスみなみ幼稚園","name":"アルスみなみ幼稚園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","△","✕","✕","✕"]},
+    {"id":"アルスみなみ幼稚園","name":"アルスみなみ幼稚園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
     {"id":"おおみや幼児教育センター","name":"おおみや幼児教育センター","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
     {"id":"國學院大學栃木二杉幼稚園","name":"國學院大學栃木二杉幼稚園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
     {"id":"こども園さくら","name":"こども園さくら","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
     {"id":"さくら学園SEI","name":"さくら学園SEI","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","△","△","○"]},
     {"id":"栃木幼稚園","name":"栃木幼稚園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
-    {"id":"ひらかわ幼稚園","name":"ひらかわ幼稚園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","△","△","△","✕"]},
+    {"id":"ひらかわ幼稚園","name":"ひらかわ幼稚園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","△","✕","△","✕"]},
     {"id":"吹上幼稚園","name":"吹上幼稚園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["✕","△","△","✕","△","△"]},
     {"id":"若葉幼稚園","name":"若葉幼稚園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
     {"id":"おおひらふじ幼稚園","name":"おおひらふじ幼稚園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
