@@ -2,11 +2,11 @@
   "municipalitySlug": "yamato",
   "municipalityName": "大和市",
   "asOf": "2026-10-01",
-  "fetchedAt": "2026-09-18",
+  "fetchedAt": "2026-10-21",
   "sourceName": "大和市「保育所等受入可能児童数」",
   "sourceUrl": "https://www.city.yamato.lg.jp/section/ehon_no_machi/purpose/O/O00007.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.yamato.lg.jp/section/ehon_no_machi/public/download/ukeirekanou-202610.xlsx"
+    "vacancy": "https://www.city.yamato.lg.jp/section/ehon_no_machi/public/download/ukeirekanou-202611.xlsx"
   },
   "metrics": [
     "vacancy"

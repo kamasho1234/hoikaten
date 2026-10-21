@@ -2,8 +2,8 @@
   "municipalitySlug": "ishikari",
   "municipalityName": "石狩市",
   "prefecture": "北海道",
-  "asOf": "2026-09-16",
-  "fetchedAt": "2026-10-20",
+  "asOf": "2026-10-19",
+  "fetchedAt": "2026-10-21",
   "sourceName": "石狩市「入所に向けた受入予定数」",
   "sourceUrl": "https://www.city.ishikari.hokkaido.jp/kosodate-kyoiku/kosodate/1001878/1006195/1005551.html",
   "sourceFiles": {
@@ -77,7 +77,7 @@
         null
       ],
       "symbols": [
-        "○",
+        "△",
         "△",
         "×",
         "×",
@@ -123,7 +123,7 @@
       "symbols": [
         "○",
         "○",
-        "○",
+        "△",
         "○",
         "×",
         "×"
@@ -319,9 +319,9 @@
         null
       ],
       "symbols": [
-        "○",
+        "△",
         "×",
-        "×",
+        "△",
         "×",
         "○",
         "○"

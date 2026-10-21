@@ -1,8 +1,8 @@
 {
   "municipalitySlug": "fukuoka",
   "municipalityName": "福岡市",
-  "asOf": "2026-10-19",
-  "fetchedAt": "2026-10-19",
+  "asOf": "2026-10-21",
+  "fetchedAt": "2026-10-21",
   "sourceName": "福岡市「ふくおか保育所案内板〈空きマップ〉」",
   "sourceUrl": "https://kodomo-hoiku.city.fukuoka.lg.jp/",
   "sourceFiles": {
@@ -314,7 +314,7 @@
     {"id":"259","name":"大池けいあい保育園","w":3,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["◎","○","×","△","×","×"],"site":{"url":"http://www.sawara-fukushikai.org/hoiku-ooike/","type":"facility"}},
     {"id":"260","name":"こひつじの森保育園","w":3,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["◎","◎","×","×","×","×"],"site":{"url":"https://kohitsujihoikuen.jp/kohitsujinomori/","type":"facility"}},
     {"id":"261","name":"中尾ガーデン保育園","w":3,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["◎","△","×","○","△","△"]},
-    {"id":"262","name":"横手つばさ保育園","w":3,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["◎","◎","△","○","×","×"]},
+    {"id":"262","name":"横手つばさ保育園","w":3,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["◎","◎","△","△","×","×"]},
     {"id":"263","name":"保育所型認定こども園こどもの森保育園こもれびテラス的場","w":3,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["◎","△","○","○","×","×"],"site":{"url":"https://blanco-kodomonomori.com/","type":"facility"}},
     {"id":"264","name":"まことながずみこども園","w":3,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["◎","○","×","△","×","×"],"site":{"url":"http://makoto-hoikuen.jp/nagazumi_top.html","type":"facility"}},
     {"id":"265","name":"いちざきみんなの家","w":3,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["◎","◎","○","×","×","×"]},
@@ -530,7 +530,7 @@
     {"id":"470","name":"ファーストチャイルド","w":6,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","○","×",null,null,null]},
     {"id":"476","name":"福岡いずみ幼稚園","w":6,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["◎","◎","◎","△","×","×"]},
     {"id":"480","name":"認定こども園元岡幼稚園","w":6,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["○","△","◎","◎","◎","◎"]},
-    {"id":"481","name":"周船寺幼稚園","w":6,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":[null,"○","△","○","△","○"]},
+    {"id":"481","name":"周船寺幼稚園","w":6,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":[null,"○","△","○","△","△"]},
     {"id":"486","name":"周船寺第二幼稚園","w":6,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":[null,"○","○","○","◎","○"]}
   ]
 }
