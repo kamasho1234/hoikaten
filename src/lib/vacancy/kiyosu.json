@@ -2,8 +2,8 @@
   "municipalitySlug": "kiyosu",
   "municipalityName": "清須市",
   "prefecture": "愛知県",
-  "asOf": "2026-09-15",
-  "fetchedAt": "2026-10-21",
+  "asOf": "2026-10-15",
+  "fetchedAt": "2026-10-22",
   "sourceName": "清須市「途中入園の空き状況」",
   "sourceUrl": "https://www.city.kiyosu.aichi.jp/kosodate/hoiku/tochunyuen.html",
   "sourceFiles": {
@@ -98,7 +98,7 @@
         "×",
         "×",
         "×",
-        "×",
+        "△",
         "×",
         "×"
       ]
@@ -362,7 +362,7 @@
         "×",
         "×",
         "×",
-        "×",
+        "△",
         "×",
         "×"
       ]
@@ -405,7 +405,7 @@
       "symbols": [
         "×",
         "×",
-        "△",
+        "×",
         null,
         null,
         null
@@ -448,7 +448,7 @@
       ],
       "symbols": [
         "×",
-        "△",
+        "×",
         "×",
         null,
         null,

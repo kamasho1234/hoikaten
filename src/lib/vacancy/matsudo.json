@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "matsudo",
   "municipalityName": "松戸市",
-  "asOf": "2026-10-20",
-  "fetchedAt": "2026-10-21",
+  "asOf": "2026-10-22",
+  "fetchedAt": "2026-10-22",
   "sourceName": "松戸市「保育施設の定員に対する空き状況一覧」",
   "sourceUrl": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuushojoukyou.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuushojoukyou.files/nyuushokaousei_R8.12.pdf"
+    "vacancy": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuushojoukyou.files/.nyuushokaousei_R8.12.pdf"
   },
   "metrics": [
     "symbol"
@@ -358,8 +358,8 @@
       ]
     },
     {
-      "id": "上本郷保育園",
-      "name": "上本郷保育園",
+      "id": "上本九保育園",
+      "name": "上本九保育園",
       "w": null,
       "c": null,
       "vacancy": [
@@ -798,8 +798,8 @@
       ]
     },
     {
-      "id": "野菊野こども国",
-      "name": "野菊野こども国",
+      "id": "野菊野こども園",
+      "name": "野菊野こども園",
       "w": null,
       "c": null,
       "vacancy": [
@@ -842,8 +842,8 @@
       ]
     },
     {
-      "id": "ケヤキッズベビールーム",
-      "name": "ケヤキッズベビールーム",
+      "id": "ケヤキッズベビピールーム",
+      "name": "ケヤキッズベビピールーム",
       "w": null,
       "c": null,
       "vacancy": [
@@ -886,8 +886,8 @@
       ]
     },
     {
-      "id": "へいわオリープ保育室",
-      "name": "へいわオリープ保育室",
+      "id": "和信いわオリーブ保育室",
+      "name": "和信いわオリーブ保育室",
       "w": null,
       "c": null,
       "vacancy": [
@@ -930,8 +930,8 @@
       ]
     },
     {
-      "id": "さわらびこども園北松戸ルーム",
-      "name": "さわらびこども園北松戸ルーム",
+      "id": "さわらびこども國北松戸ルーム",
+      "name": "さわらびこども國北松戸ルーム",
       "w": null,
       "c": null,
       "vacancy": [
@@ -974,8 +974,8 @@
       ]
     },
     {
-      "id": "へいわこばと保育室",
-      "name": "へいわこばと保育室",
+      "id": "人いわこばと保育室",
+      "name": "人いわこばと保育室",
       "w": null,
       "c": null,
       "vacancy": [
@@ -1172,8 +1172,8 @@
       ]
     },
     {
-      "id": "ゆいまーる保育國",
-      "name": "ゆいまーる保育國",
+      "id": "ゆいまーる保育園",
+      "name": "ゆいまーる保育園",
       "w": null,
       "c": null,
       "vacancy": [
@@ -1216,8 +1216,8 @@
       ]
     },
     {
-      "id": "上本郷保育園ひみまわりルーム",
-      "name": "上本郷保育園ひみまわりルーム",
+      "id": "上本紅保育園ひまわりルーム",
+      "name": "上本紅保育園ひまわりルーム",
       "w": null,
       "c": null,
       "vacancy": [
@@ -1304,8 +1304,8 @@
       ]
     },
     {
-      "id": "へいわかしの木保育室",
-      "name": "へいわかしの木保育室",
+      "id": "人いわかしの木保育室",
+      "name": "人いわかしの木保育室",
       "w": null,
       "c": null,
       "vacancy": [
@@ -1436,8 +1436,8 @@
       ]
     },
     {
-      "id": "ゆめいろルーム(野菊野こども固松戸駅西ロルーム)",
-      "name": "ゆめいろルーム(野菊野こども固松戸駅西ロルーム)",
+      "id": "ゆめいろルーム(野菊野こども園松戸駅西ロルーム)",
+      "name": "ゆめいろルーム(野菊野こども園松戸駅西ロルーム)",
       "w": null,
       "c": null,
       "vacancy": [
@@ -1480,8 +1480,8 @@
       ]
     },
     {
-      "id": "ハへいわこえだ保育室",
-      "name": "ハへいわこえだ保育室",
+      "id": "人いわこえだ保育室",
+      "name": "人いわこえだ保育室",
       "w": null,
       "c": null,
       "vacancy": [
@@ -1744,8 +1744,8 @@
       ]
     },
     {
-      "id": "和名ケ谷ひまわり保育園明録台ルーム",
-      "name": "和名ケ谷ひまわり保育園明録台ルーム",
+      "id": "和名ケ谷ひまわり保育園胡録台ルーム",
+      "name": "和名ケ谷ひまわり保育園胡録台ルーム",
       "w": null,
       "c": null,
       "vacancy": [
@@ -1788,8 +1788,8 @@
       ]
     },
     {
-      "id": "みるでく保育園",
-      "name": "みるでく保育園",
+      "id": "みるく保育園",
+      "name": "みるく保育園",
       "w": null,
       "c": null,
       "vacancy": [
@@ -1964,8 +1964,8 @@
       ]
     },
     {
-      "id": "ぶる一る保育園松戸駅前",
-      "name": "ぶる一る保育園松戸駅前",
+      "id": "ふる一る保育園松戸駅前",
+      "name": "ふる一る保育園松戸駅前",
       "w": null,
       "c": null,
       "vacancy": [
@@ -2074,8 +2074,8 @@
       ]
     },
     {
-      "id": "こすもすべビールーム新松岳ゆりのき通り第2ルーム",
-      "name": "こすもすべビールーム新松岳ゆりのき通り第2ルーム",
+      "id": "こすもすベビールーム新松岳ゆりのき通り第2ルーム",
+      "name": "こすもすベビールーム新松岳ゆりのき通り第2ルーム",
       "w": null,
       "c": null,
       "vacancy": [
@@ -2228,8 +2228,8 @@
       ]
     },
     {
-      "id": "エンゼルかるみあ保育園上本孝",
-      "name": "エンゼルかるみあ保育園上本孝",
+      "id": "エンゼルかるみあ保育園上本郷",
+      "name": "エンゼルかるみあ保育園上本郷",
       "w": null,
       "c": null,
       "vacancy": [
@@ -2338,8 +2338,8 @@
       ]
     },
     {
-      "id": "ここりの森保育園新田第二",
-      "name": "ここりの森保育園新田第二",
+      "id": "ここりの礎保育園新田第二",
+      "name": "ここりの礎保育園新田第二",
       "w": null,
       "c": null,
       "vacancy": [

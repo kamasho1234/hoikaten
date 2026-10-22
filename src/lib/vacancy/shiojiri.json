@@ -2,12 +2,12 @@
   "municipalitySlug": "shiojiri",
   "municipalityName": "塩尻市",
   "prefecture": "長野県",
-  "asOf": "2026-09-24",
-  "fetchedAt": "2026-10-21",
+  "asOf": "2026-10-22",
+  "fetchedAt": "2026-10-22",
   "sourceName": "塩尻市「途中入園空き状況一覧表」",
   "sourceUrl": "https://www.city.shiojiri.lg.jp/soshiki/40/53814.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.shiojiri.lg.jp/uploaded/attachment/43317.pdf"
+    "vacancy": "https://www.city.shiojiri.lg.jp/uploaded/attachment/43697.pdf"
   },
   "metrics": [
     "symbol"
@@ -155,7 +155,7 @@
       ],
       "symbols": [
         "×",
-        "×",
+        "○",
         "○",
         "○",
         "○",
@@ -266,7 +266,7 @@
       "symbols": [
         "×",
         "×",
-        "×",
+        "○",
         "○",
         "○",
         "○"
@@ -291,7 +291,7 @@
         "×",
         "○",
         "×",
-        "×"
+        "○"
       ]
     },
     {
@@ -352,8 +352,8 @@
         null
       ],
       "symbols": [
-        "○",
-        "○",
+        "×",
+        null,
         "○",
         "○",
         "○",
@@ -442,7 +442,7 @@
       "symbols": [
         "×",
         null,
-        "×",
+        "○",
         null,
         null,
         null

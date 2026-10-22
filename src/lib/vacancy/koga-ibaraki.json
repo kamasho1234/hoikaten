@@ -2,12 +2,12 @@
   "municipalitySlug": "koga-ibaraki",
   "municipalityName": "古河市",
   "prefecture": "茨城県",
-  "asOf": "2026-09-24",
-  "fetchedAt": "2026-10-21",
+  "asOf": "2026-10-21",
+  "fetchedAt": "2026-10-22",
   "sourceName": "古河市「空き状況一覧表」",
   "sourceUrl": "https://www.city.ibaraki-koga.lg.jp/soshiki/hoiku/2/14130.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.ibaraki-koga.lg.jp/material/files/group/92/R8_11muke.pdf"
+    "vacancy": "https://www.city.ibaraki-koga.lg.jp/material/files/group/92/12muke.pdf"
   },
   "metrics": [
     "symbol"
@@ -166,7 +166,7 @@
       "symbols": [
         "×",
         "×",
-        "△",
+        "×",
         "×",
         "×",
         "×"
@@ -187,8 +187,8 @@
       ],
       "symbols": [
         "×",
-        "×",
         "△",
+        "×",
         "×",
         "×",
         "×"
@@ -233,7 +233,7 @@
         "×",
         "×",
         "×",
-        "△",
+        "×",
         "×",
         "×"
       ]
@@ -340,7 +340,7 @@
         null
       ],
       "symbols": [
-        "△",
+        "×",
         "×",
         "△",
         "×",
@@ -406,10 +406,10 @@
         null
       ],
       "symbols": [
+        "△",
+        "△",
+        "△",
         "×",
-        "△",
-        "△",
-        "△",
         "×",
         "×"
       ]
@@ -475,7 +475,7 @@
         null,
         null,
         null,
-        "△",
+        "×",
         "×",
         "×"
       ]
@@ -497,7 +497,7 @@
         null,
         null,
         null,
-        "△",
+        "×",
         "×",
         "×"
       ]
@@ -560,7 +560,7 @@
         null
       ],
       "symbols": [
-        "×",
+        "△",
         "△",
         "×",
         "×",
@@ -604,7 +604,7 @@
         null
       ],
       "symbols": [
-        "△",
+        "×",
         "〇",
         "△",
         "△",
@@ -650,7 +650,7 @@
       "symbols": [
         "×",
         "△",
-        "〇",
+        "△",
         "△",
         "△",
         "×"
@@ -670,7 +670,7 @@
         null
       ],
       "symbols": [
-        "△",
+        "×",
         "△",
         "△",
         "△",
@@ -692,7 +692,7 @@
         null
       ],
       "symbols": [
-        "×",
+        "△",
         "△",
         "△",
         "△",
@@ -714,12 +714,12 @@
         null
       ],
       "symbols": [
+        "△",
+        "△",
+        "△",
         "〇",
         "△",
-        "△",
-        "△",
-        "△",
-        "×"
+        "△"
       ]
     },
     {
@@ -736,9 +736,9 @@
         null
       ],
       "symbols": [
-        "×",
-        "×",
         "△",
+        "△",
+        "×",
         "×",
         "×",
         "×"
@@ -825,7 +825,7 @@
       ],
       "symbols": [
         "×",
-        "△",
+        "×",
         "△",
         null,
         null,
