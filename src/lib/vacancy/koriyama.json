@@ -1,17 +1,17 @@
 {
   "municipalitySlug": "koriyama",
   "municipalityName": "郡山市",
-  "asOf": "2026-09-24",
-  "fetchedAt": "2026-09-25",
+  "asOf": "2026-10-22",
+  "fetchedAt": "2026-10-23",
   "sourceName": "郡山市「認可保育施設の空き状況」",
   "sourceUrl": "https://www.city.koriyama.lg.jp/site/kosodate/21933.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.koriyama.lg.jp/uploaded/attachment/130720.pdf"
+    "vacancy": "https://www.city.koriyama.lg.jp/uploaded/attachment/132230.pdf"
   },
   "metrics": [
     "symbol"
   ],
-  "subtitle": "11月入所の空き状況",
+  "subtitle": "12月入所の空き状況",
   "notes": [
     "郡山市は空き状況を人数ではなく記号で公表しています。当サイトでも公式の記号のまま載せています。",
     "公式の表で空欄になっているところは「空きなし」という意味なので、当サイトでは「－」で表しています。",
@@ -63,7 +63,7 @@
     {"id":"17","name":"鶴見坦保育所（令和11年度末閉所予定）","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","△","△",null,null,null]},
     {"id":"206","name":"郡山どろんこ保育園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
     {"id":"3","name":"希望ヶ丘保育所","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","△","－","－"]},
-    {"id":"2","name":"赤木保育所","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","△","－","－","－"]},
+    {"id":"2","name":"赤木保育所","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
     {"id":"13","name":"香久池保育所","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
     {"id":"8","name":"緑ケ丘保育園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
     {"id":"78","name":"ドレミの保育園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
@@ -75,7 +75,7 @@
     {"id":"75","name":"大町分園（はなさと保育園）","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
     {"id":"217","name":"ユーパロ中町分園（ユーパロ室ノ木保育園）","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","○","－","○","○"]},
     {"id":"10","name":"芳賀保育所","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,"－","－","－","－","－"]},
-    {"id":"32","name":"うねめ保育所","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,"△","－","－","－","△"]},
+    {"id":"32","name":"うねめ保育所","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,"－","－","－","－","△"]},
     {"id":"14","name":"桃見台保育所（令和11年度末閉所予定）","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,"△","△","－","－","－"]},
     {"id":"30","name":"桑野保育所","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,"－","－","－","－","－"]},
     {"id":"7","name":"梅の木保育園","w":1,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
@@ -88,7 +88,7 @@
     {"id":"203","name":"だいこん畑の保育園","w":1,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
     {"id":"20","name":"成田保育所","w":1,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
     {"id":"28","name":"田村保育所","w":2,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","△","－","－"]},
-    {"id":"209","name":"ケヤキッズかなや保育園","w":2,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","△","△","△","△","△"]},
+    {"id":"209","name":"ケヤキッズかなや保育園","w":2,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","△","△","△","△"]},
     {"id":"29","name":"御代田保育所（令和11年度末閉所予定）","w":2,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,"○","○","○","△","－"]},
     {"id":"25","name":"柳橋保育所","w":3,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","○","○"]},
     {"id":"213","name":"八山田どろんこ保育園","w":4,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
@@ -109,7 +109,7 @@
     {"id":"22","name":"喜久田保育所","w":6,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
     {"id":"27","name":"日和田保育所","w":7,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
     {"id":"26","name":"西田保育所","w":8,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
-    {"id":"34","name":"大成保育所","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,"－","－","△","△","－"]},
+    {"id":"34","name":"大成保育所","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,"－","△","△","－","－"]},
     {"id":"5","name":"ひまわり保育園","w":9,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
     {"id":"72","name":"あさひがおか保育園","w":9,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
     {"id":"73","name":"ユーパロ室ノ木保育園","w":9,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","△","△"]},
