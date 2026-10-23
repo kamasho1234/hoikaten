@@ -37,7 +37,12 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
+          # ランナーに置かれた古い 22.x を使わず、毎回最新の 22.x を取る（2026-10-21 の Node.js セキュリティ修正 22.23.4 以降）
+          check-latest: true
           cache: npm
+
+      - name: Node.js が修正版以上か確かめる
+        run: node -e 'const [a,b,c]=process.versions.node.split(".").map(Number); if (a!==22 || b<23 || (b===23 && c<4)) { console.error("Node.js " + process.version + " は 22.23.4 未満"); process.exit(1) } console.log("Node.js", process.version)'
 
       - name: 依存をインストール
         run: npm ci
@@ -47,6 +52,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
+      # eMudhra/emSign 中間CAの侵害（2026-10-20 Python 公式の案内）への対応。
+      # pip は同梱の証明書を使うため pip 自体を 26.2.2 以上にする。配布物はハッシュで固定する。
+      - name: pip を更新
+        run: |
+          python -m pip install --require-hashes --no-deps -r scripts/requirements-pip.txt
+          python -m pip --version
 
       - name: PDF読み取り用の依存をインストール
         run: pip install -r scripts/requirements.txt

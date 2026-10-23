@@ -1,0 +1,3 @@
+# CI で使う pip 本体。ハッシュは PyPI の pip-26.2.2-py3-none-any.whl（2026-10-20 公開）のもの。
+# Python 公式の案内: https://discuss.python.org/t/information-for-python-users-regarding-emudhra-emsign-ca-certificate-security-incident/109576
+pip==26.2.2     --hash=sha256:fd7f4dfa8190e014013b9f08f3e973f4e4c26ffd179a204895533a7254813a70
