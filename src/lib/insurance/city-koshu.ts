@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 甲州市（山梨県）の子育てのお金の記事。
 //
@@ -44,9 +43,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **甲州市は入院時の食事療養費と補装具も助成対象**にしている（令和5年4月から）。
 // **整骨院・整体は償還払いの対象外になる場合がある**のがいちばん効く注意。
 // **請求期限は療養を受けた日の翌月1日から2年**、**電子申請あり**もセットで書く。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -130,7 +126,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>同じ山梨県内でも、入院時の食事代や補装具を助成に含めるかは市によって違います</strong>。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>同じ山梨県内でも、入院時の食事代や補装具を助成に含めるかは市によって違います</strong>。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -164,10 +160,6 @@ const articles: InsuranceArticle[] = [
         a: "できます。専用フォームから、子どもの健康保険の情報が分かるもの、保護者名義の振込口座がわかるもの、申請者（保護者）の顔写真入りの本人確認書類を添付して申請します。",
       },
     ],
-    cta: {
-      heading: "整骨院に通うことになったとき",
-      body: "甲州市は入院時の食事代まで助成される一方、整骨院や整体は償還払いの対象外になる場合があります。差額ベッド代や自由診療はそもそも助成の外で、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

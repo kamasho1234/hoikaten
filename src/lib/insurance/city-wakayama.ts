@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 和歌山市の子育てのお金の記事。
 //
@@ -34,9 +33,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // - 平成28年8月の対象年齢拡充（中学校卒業まで）以降の制度拡充は**全額和歌山市の財源**による
 //
 // **所得制限には触れない。** ページに所得制限の記載がない。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -124,7 +120,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -158,10 +154,6 @@ const articles: InsuranceArticle[] = [
         a: "お子様の健康保険情報のわかるものができてから、オンライン申請、またはこども医療費受給資格証交付申請書をこども家庭課へ持参・郵送してください。出生や転入による交付申請に限り、サービスセンターを通じて提出することもできます。",
       },
     ],
-    cta: {
-      heading: "食事代が半額になっても残る部分を確かめたいとき",
-      body: "和歌山市は18歳まで入院・通院・調剤・補装具が助成され、入院時の食事療養費も半額まで助成されます。ただし差額ベッド代や食事代の残り半分、付き添いで親が働けない期間の収入は助成の外です。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

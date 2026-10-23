@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 飯田市の子育てのお金の記事。
 //
@@ -51,9 +50,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **「窓口無料」ではなく「1レセプト300円」**という長野県式の仕組みを軸にする。
 // **病院と薬局で別々、入院と外来も別々、医科と歯科も別々**という積み上がり方が実務で効く。
 // **同じ月の再受診は合算される**（200円払ったら次は100円まで）のも具体的。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -133,7 +129,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>窓口0円の自治体から来ると、この300円は見落としやすい部分です</strong>。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>窓口0円の自治体から来ると、この300円は見落としやすい部分です</strong>。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -171,10 +167,6 @@ const articles: InsuranceArticle[] = [
         a: "されません。市民税非課税世帯は各保険者の食事減額制度を利用できます。あらかじめ申請して限度額認定証の交付を受け、医療機関の窓口で提示します。",
       },
     ],
-    cta: {
-      heading: "通院が続いて負担金が積み上がるとき",
-      body: "飯田市は窓口0円ではなく、病院・薬局・入院・外来それぞれに最大300円がかかります。入院時の食事代や差額室料は助成の外で、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

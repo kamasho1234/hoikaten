@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 安城市の子育てのお金の記事。
 //
@@ -41,9 +40,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **通院は受診月の翌月以降、入院は入院月の3か月後以降**という申請開始時期の差を
 // 明示しているのは、ここまでの190市区で初めて。必ず書く。
 // 高額療養費を市が受け取る点は掛川2050と同じだが、**委任が必要**と書いているのは安城が初。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -115,7 +111,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>払い戻しがいつ始まっていつ振り込まれるかは自治体で大きく違います</strong>ので、入院が決まったら早めに窓口で確かめてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>払い戻しがいつ始まっていつ振り込まれるかは自治体で大きく違います</strong>ので、入院が決まったら早めに窓口で確かめてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -149,10 +145,6 @@ const articles: InsuranceArticle[] = [
         a: "令和6年4月1日から医療費助成範囲が拡大しました。令和7年度の高校生世代への医療費助成は「2025年度元気な愛知の市町村づくり補助金」を活用して実施されます。",
       },
     ],
-    cta: {
-      heading: "入院で残る費用を確かめたいとき",
-      body: "安城市は18歳年度末まで入院・通院とも助成されますが、入院時の食事代や差額ベッド代は助成の外にあります。入院分の払い戻し申請は3か月後からで、振込まで数か月かかることもあり、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

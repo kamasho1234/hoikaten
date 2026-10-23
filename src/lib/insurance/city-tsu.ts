@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 津市の子育てのお金の記事。
 //
@@ -48,9 +47,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 //
 // **出生など要件該当は2か月、転入は1か月と期限が違う**のは、
 // ここまでの148市区で初めて見た書き方。必ず書く。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -121,7 +117,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>転入時の申請期限は転居先でも短めに設定されていることが多い</strong>ので、引っ越したらすぐ手続きしてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>転入時の申請期限は転居先でも短めに設定されていることが多い</strong>ので、引っ越したらすぐ手続きしてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -155,10 +151,6 @@ const articles: InsuranceArticle[] = [
         a: "必要です。印鑑（スタンプ印は除く）、医療保険の資格確認書等（子どもの氏名が記載されているもの）、預金通帳またはキャッシュカードなどを持参します。",
       },
     ],
-    cta: {
-      heading: "窓口無料でも残る費用を確かめたいとき",
-      body: "津市は令和8年4月から高校生年代まで窓口無料になりましたが、保険が使えない費用は助成の外に残ります。付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

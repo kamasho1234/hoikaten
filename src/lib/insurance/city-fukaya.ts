@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 深谷市の子育てのお金の記事。
 //
@@ -47,9 +46,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // ここまでの196市区で初めて。必ず書く。
 // **「支給内容についての明細通知等は行っていません」**は高岡2140（振込通知書は送付していない）
 // に次いで2例目。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -135,7 +131,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>払い戻しがいつ振り込まれるかは自治体で大きく違います</strong>ので、入院が決まったら早めに窓口で確かめてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>払い戻しがいつ振り込まれるかは自治体で大きく違います</strong>ので、入院が決まったら早めに窓口で確かめてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -169,10 +165,6 @@ const articles: InsuranceArticle[] = [
         a: "されません。入院時の食事療養標準負担額、入院時の個室代、病衣代、先発医薬品を希望した場合の選定療養の費用なども対象外です。",
       },
     ],
-    cta: {
-      heading: "払い戻しを待つ間の資金繰りを考えるとき",
-      body: "深谷市は高額療養費の確認が必要な場合、振込まで最長1年程度かかることがあります。入院時の食事代や個室代、病衣代は助成の外にあり、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

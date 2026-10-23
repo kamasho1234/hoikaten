@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 朝倉市の子育てのお金の記事。
 //
@@ -65,9 +64,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **出生から30日以内・転入した月内という申請期限**も書く。
 // **21,000円以上は療養費支給証明書が必要（朝倉市国保加入者は不要）**も書く。
 // ※朝倉市は当サイトにシミュレーターも空き状況もないため、市内ページへのリンクは張らない。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -167,7 +163,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いてください。<strong>所得制限限度額を超えても助成されるのは朝倉市が単独で上乗せしているもの</strong>で、転居先では県の基準どおり対象外ということもあります。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いてください。<strong>所得制限限度額を超えても助成されるのは朝倉市が単独で上乗せしているもの</strong>で、転居先では県の基準どおり対象外ということもあります。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -201,10 +197,6 @@ const articles: InsuranceArticle[] = [
         a: "対象です。通常の必要書類に加えて、見積書、請求書、医師が治療に必要と認めるもの（医証・装具の意見書・指示書等）が必要です。療養費支給証明書に代えて保険者からの支給決定通知書でも構いません。",
       },
     ],
-    cta: {
-      heading: "助成の外に残る費用を確かめたいとき",
-      body: "朝倉市は所得制限を超えても中学生まで助成が続きますが、入院中の食事代・部屋代や文書料、予防接種は助成の外にあります。中学卒業後は制度の対象から外れ、県外受診も立て替えになります。付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

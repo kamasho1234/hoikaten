@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 龍ケ崎市の子育てのお金の記事。
 //
@@ -52,9 +51,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **日本スポーツ振興センター災害共済給付の範囲外（1,500円未満、幼稚園・保育所は1,000円未満）なら
 // マル福で助成する**と、ふじみ野2890とは逆方向から同じ基準を書いているのも珍しい。
 // **市役所以外の窓口では小児・妊産婦のみ受付で、即日交付ができない**も初。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -141,7 +137,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>県の制度の穴をどう埋めるかは、同じ県内でも市によって違います</strong>。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>県の制度の穴をどう埋めるかは、同じ県内でも市によって違います</strong>。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -175,10 +171,6 @@ const articles: InsuranceArticle[] = [
         a: "市役所保険年金課なら即日交付できます。東部出張所・市民窓口ステーションは小児と妊産婦のみの受付で、即日交付ができないため後日郵送になります。",
       },
     ],
-    cta: {
-      heading: "県の制度と市の上乗せをまたいで確かめたいとき",
-      body: "龍ケ崎市は県補助事業で中学生以上の外来が外れる分を市単独で補っていますが、入院時の食事代や差額ベッド代は助成の外にあり、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

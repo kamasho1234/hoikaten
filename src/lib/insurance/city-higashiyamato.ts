@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 東大和市の子育てのお金の記事。
 //
@@ -60,9 +59,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // 持っている場合が対象外**という「自己負担のない」限定つきも初。
 // **必要な書類がすべて揃っていなくても申請できるが、指定の日までに出さないと申請却下**も
 // 昭島2870・三原3050・和光3100と同じ側だが「却下」まで書いているのは強い。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -140,7 +136,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>都外の国民健康保険組合の扱いは自治体によって分かれています</strong>ので、引っ越しでも転職でも確かめてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>都外の国民健康保険組合の扱いは自治体によって分かれています</strong>ので、引っ越しでも転職でも確かめてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -174,10 +170,6 @@ const articles: InsuranceArticle[] = [
         a: "市は申請から振り込みまで2か月から3か月程度かかるとしています。受診者の氏名と保険点数が記載された領収書またはレシートの原本が必要で、健康保険組合等に原本を出す場合はコピーで受け付けられます。",
       },
     ],
-    cta: {
-      heading: "加入している保険で扱いが変わると知ったとき",
-      body: "東大和市は都外の国民健康保険組合だと医療証が効かず、毎回立て替えになります。入院時の食事療養費標準負担額や入院室料差額は助成の外にあり、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

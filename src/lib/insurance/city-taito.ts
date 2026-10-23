@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 台東区の子育てのお金の記事。
 //
@@ -43,9 +42,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 //
 // **所得制限には触れない。** このページに所得制限の記載がない。
 // **入院時の食事代には触れない。** このページに記載がない。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -144,7 +140,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>区外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>区外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -182,10 +178,6 @@ const articles: InsuranceArticle[] = [
         a: "不要です。有効期限は毎年9月30日で、10月1日から切り替わり色が変わります。新しい医療証は9月下旬に発送されます。小学校入学時と15歳到達後最初の4月にも切り替わり、切替対象の人には前月末までに新しい医療証が送付されます。",
       },
     ],
-    cta: {
-      heading: "窓口負担がなくても残る部分を確かめたいとき",
-      body: "台東区は18歳年度末まで、医療費の自己負担金が助成されます。ただし差額ベッド代や特定医療機関でかかった初診時の特定療養費は助成の対象外で、付き添いで親が働けない期間の収入も助成の外です。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

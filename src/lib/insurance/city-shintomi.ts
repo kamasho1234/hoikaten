@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 新富町（宮崎県児湯郡）の子育てのお金の記事。
 //
@@ -46,9 +45,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **ただし子ども本人が世帯主になったり婚姻したりすると対象外**という線引きが軸。
 // **申請書は病院ごと・診療科ごと・調剤・月ごとに1枚ずつ**という細かさも実務で効く。
 // **サイトリニューアルでURLが総入れ替えになっている**ことも記録として書いておく。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -118,7 +114,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>町外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>進学で住民票を移したときの扱いは自治体で分かれます</strong>。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>町外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>進学で住民票を移したときの扱いは自治体で分かれます</strong>。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -152,10 +148,6 @@ const articles: InsuranceArticle[] = [
         a: "されません。予防接種、健康診断、入院中の食事代等は保護者の負担です。助成の対象は健康保険が効くものに限られます。",
       },
     ],
-    cta: {
-      heading: "子どもが下宿を始めるとき",
-      body: "新富町は下宿していても保護者が町内なら対象ですが、本人が世帯主になったり就職して被保険者になると外れます。予防接種や入院中の食事代はそもそも助成の外で、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 宗像市の子育てのお金の記事。
 //
@@ -49,9 +48,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **医療証はうぐいす色**（薩摩川内2780の3種類、鹿沼3030のピンク・ベージュと並ぶ色の記載）。
 // 令和7年4月から高校生年代まで拡大＋3歳以上の通院を一律500円/月にしたのが直近の改正。
 // 通院の月上限500円は糸島2980と同じ形。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -130,7 +126,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>転入の申請期限は日数で切る市と月で切る市があります</strong>ので、引っ越したら真っ先に確かめてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>転入の申請期限は日数で切る市と月で切る市があります</strong>ので、引っ越したら真っ先に確かめてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -164,10 +160,6 @@ const articles: InsuranceArticle[] = [
         a: "保護者の住所地（宗像市外）で子ども医療費支給制度やひとり親家庭等医療費支給制度の認定を受けられる人は、宗像市の制度の対象になりません。",
       },
     ],
-    cta: {
-      heading: "引っ越しの時期で期限が変わると知ったとき",
-      body: "宗像市は転入の申請期限が同月内か14日以内の二択で、期限を過ぎると申請月の初日からになります。入院時の食事代や部屋代差額は助成の外にあり、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

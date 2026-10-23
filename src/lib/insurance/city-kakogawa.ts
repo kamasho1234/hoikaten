@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 加古川市の子育てのお金の記事。
 //
@@ -55,9 +54,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **所得制限には触れない。** このページに所得制限の記載がない。
 // なお明石市（city-akashi）でも「令和8年7月1日から小児慢性特定疾病、自立支援医療等と
 // こども医療費助成制度が併用できるようになった」とあり、兵庫県内で同時期の変更が起きている。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -149,7 +145,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。兵庫県内なら受給者証がそのまま使える仕組みは県単位なので、<strong>県外へ出ると立て替えと申請になります</strong>。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。兵庫県内なら受給者証がそのまま使える仕組みは県単位なので、<strong>県外へ出ると立て替えと申請になります</strong>。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -183,10 +179,6 @@ const articles: InsuranceArticle[] = [
         a: "されません。入院の場合の部屋代（差額ベッド代）・食事代（標準負担額）は助成の対象外です。健康診断料、予防接種料、薬のビン代、診断書料、証明書料も対象外になります。",
       },
     ],
-    cta: {
-      heading: "無料でも残る費用を確かめたいとき",
-      body: "加古川市は兵庫県内なら保険診療分の負担がありませんが、入院時の部屋代や食事代、診断書料は助成の外にあります。学校でのけがは災害共済給付が先で、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 野田市の子育てのお金の記事。
 //
@@ -46,9 +45,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // ここまでの262市区で**唯一の「引き下げ」**（撤廃や拡充は多いが、金額を下げた例は初）。
 // 更新日が令和8年8月26日と直近なので、必ずこれを軸にする。
 // **通院6回目・入院11日目以降は無料**という上限つきも初。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -132,7 +128,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>自己負担の金額は市の判断で変わります</strong>ので、いま300円でも将来同じとは限りません。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>自己負担の金額は市の判断で変わります</strong>ので、いま300円でも将来同じとは限りません。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -166,10 +162,6 @@ const articles: InsuranceArticle[] = [
         a: "申請期限は支払った日の翌日から2年以内です。一部負担金が21,000円以上になる場合は健康保険組合の高額療養費等の通知書が必要で、市から健康保険組合に確認する場合は振込まで3か月から4か月かかるとされています。",
       },
     ],
-    cta: {
-      heading: "自己負担が下がった今のうちに整理したいとき",
-      body: "野田市は令和8年8月に高校生の自己負担を300円へ下げましたが、こうした金額は市の判断で変わります。入院時の差額ベッド代や初診時選定療養費は助成の外にあり、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

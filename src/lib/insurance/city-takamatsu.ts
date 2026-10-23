@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 高松市の子育てのお金の記事。
 //
@@ -40,9 +39,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // - 医療費支給申請書はかかった医療機関ごと、診療月ごとに必要
 //
 // **所得制限には触れない。** ページに所得制限の有無や額の記載がない。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -155,7 +151,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -189,10 +185,6 @@ const articles: InsuranceArticle[] = [
         a: "年齢到達により有効期間が満了した医療証（乳幼児医療証から子ども医療証に切り替わった場合など）は返却不要です。ただし転出などで資格を失った後の医療証を使って受診すると、後日、助成した金額の返金を求められる場合があります。",
       },
     ],
-    cta: {
-      heading: "助成されても残る部分を確かめたいとき",
-      body: "高松市は保険診療の自己負担額が助成されますが、差額ベッド代や入院時食事療養費の標準負担額、付き添いで親が働けない期間の収入は対象外です。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

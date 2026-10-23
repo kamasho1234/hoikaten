@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 佐世保市の子育てのお金の記事。
 //
@@ -49,9 +48,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 //   健康保険の被保険者および子どものマイナンバーカード等／来庁者の本人確認書類
 //
 // **所得制限には触れない。** これらのページに所得制限の記載がない。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -157,7 +153,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -199,10 +195,6 @@ const articles: InsuranceArticle[] = [
         a: "健康診断料、予防接種、薬の容器代、入院時の食事代、病衣代や診断書などの保険適用外の自己負担額です。また学校等でのけがなどで日本スポーツ振興センターの「災害共済給付金」を受けたものも助成の対象外です。",
       },
     ],
-    cta: {
-      heading: "上限があっても残る部分を確かめたいとき",
-      body: "佐世保市は18歳になる年度末まで、病院1か所につき月1,600円までの負担で受診でき、院外処方の薬代は全額助成されます。ただし入院時の食事代や病衣代は助成の外で、県外受診や補装具は立て替えが必要になり、付き添いで親が働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

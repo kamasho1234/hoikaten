@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 能美市の子育てのお金の記事。
 //
@@ -43,9 +42,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **整骨・接骨・鍼灸まで窓口無料**（鍼灸を現物給付から外す自治体もある）と、
 // **市内の医療機関に申請書と切手不要の返信用封筒が置いてある**のが能美市の特徴。
 // 払い戻しの**6か月**という期限も書く。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -124,7 +120,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いてください。<strong>整骨・接骨・鍼灸まで窓口無料なのは能美市の制度によるもの</strong>で、転居先では施術所が立て替えになることもあります。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いてください。<strong>整骨・接骨・鍼灸まで窓口無料なのは能美市の制度によるもの</strong>で、転居先では施術所が立て替えになることもあります。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -158,10 +154,6 @@ const articles: InsuranceArticle[] = [
         a: "テーピング等の材料費、健康診断や予防接種、文書代、容器代、入院時の差額ベッド代などの保険外診療の費用、入院時の食事療養費、学校や保育園での負傷で災害共済給付の対象となる場合、交通事故等の第三者行為による診療です。",
       },
     ],
-    cta: {
-      heading: "助成の外に残る費用を確かめたいとき",
-      body: "能美市は18歳年度末まで整骨・鍼灸も含めて窓口無料ですが、入院時の食事代や差額ベッド代、予防接種は助成の外にあります。県外や未対応の医療機関では立て替えになり、払い戻しは6か月以内です。付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

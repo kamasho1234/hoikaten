@@ -54,12 +54,4 @@ export type InsuranceArticle = {
   /** 出典。1つ以上必須 */
   sources: InsuranceSource[];
   faq?: InsuranceFaq[];
-  /**
-   * 記事の終わりに出す相談の案内。記事ごとに文脈に合わせて変える。
-   * 広告であることは CTA 側で必ず出す
-   */
-  cta: {
-    heading: string;
-    body: string;
-  };
 };

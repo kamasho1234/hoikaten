@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 相模原市の子育てのお金の記事。
 //
@@ -38,9 +37,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // - **所得制限をなくす**（現行は中学生までなし・高校生世代あり → 新制度はなし）
 // - **助成内容を「高校生世代まで全額助成」に統一**
 //   （現行は通院が小6まで全額、中学生以上は市民税非課税世帯を除き1回500円を超える額を助成）
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -144,7 +140,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -174,10 +170,6 @@ const articles: InsuranceArticle[] = [
         a: "各区の子育て支援センターでは小学校6年生までのこども医療証を即日交付できます。中学生から高校生世代までは申請の受付のみで、中学生は自己負担上限額を判定した医療証、高校生世代は所得審査の結果が後日郵送されます。他制度からの移行の場合は小学生でも即日交付できず、後日郵送になります。",
       },
     ],
-    cta: {
-      heading: "所得制限が撤廃されるまでの期間に備えたいとき",
-      body: "相模原市の高校生世代の所得制限と通院500円の自己負担は2027年4月になくなりますが、それまでは限度額を超えると助成の対象外です。差額ベッド代や食事代、付き添いで親が働けない期間の収入も助成の外にあります。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

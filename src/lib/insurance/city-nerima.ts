@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 練馬区の子育てのお金の記事。
 //
@@ -47,9 +46,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 //   重複して支給された場合は区が助成した金額を返還する**
 // - 払い戻し申請は**医療費を支払った日の翌日から5年以内**
 // - 区は適正受診も呼びかけている（小児救急電話相談 ♯8000 / 03-5285-8898）
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -169,7 +165,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>区外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>区外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -207,10 +203,6 @@ const articles: InsuranceArticle[] = [
         a: "医療費を支払った日の翌日から5年以内です。都外の医療機関など医療証を取り扱わない医療機関で受診したとき、医療証が届くまでの間に受診したときなどが対象になります。",
       },
     ],
-    cta: {
-      heading: "助成が広くても残る部分を確かめたいとき",
-      body: "練馬区は高校生年代まで所得制限なしで、入院時の食事代や小児慢性疾患等の自己負担限度額まで助成されます。ただし差額ベッド代や選定療養費、付き添いで親が働けない期間の収入は助成の外です。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

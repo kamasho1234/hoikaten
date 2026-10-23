@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 足立区の子育てのお金の記事。
 //
@@ -56,9 +55,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 //   一旦支払い、後で還付（払戻し）請求**
 // - 更新: **毎年10月1日**。新しい医療証は**9月中旬**に郵送。
 //   マル乳→マル子、マル子→マル青の切替の申請は不要。**3月下旬**に送付
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -187,7 +183,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>区外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>区外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -225,10 +221,6 @@ const articles: InsuranceArticle[] = [
         a: "子どもの住民登録が足立区にあれば、保護者の住民登録が足立区になくても対象になります。ただし別に書類の提出が必要です。逆に子どもの住民登録が区外で保護者が区内にある場合、子どもと保護者のいずれも他の自治体の子ども医療費助成制度の対象にならないときは区へ相談してください。",
       },
     ],
-    cta: {
-      heading: "窓口負担がなくても残る部分を確かめたいとき",
-      body: "足立区は18歳年度末まで所得制限なしで保険診療の自己負担分が助成されます。ただし差額ベッド代や紹介状のない大病院の初診料、付き添いで親が働けない期間の収入は助成の外です。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

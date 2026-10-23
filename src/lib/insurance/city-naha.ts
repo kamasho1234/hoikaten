@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 那覇市の子育てのお金の記事。
 //
@@ -58,9 +57,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 //   **三支所での受付は行っていない**
 //
 // **所得制限には触れない。** このページに所得制限の記載がない。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -173,7 +169,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -211,10 +207,6 @@ const articles: InsuranceArticle[] = [
         a: "助成対象の子ども一人では高額療養費に該当しない場合でも、同じ保険に加入している家族が子どもと同じ月にひとつの病院（外来の場合はそこから処方された薬局も含む）で21,000円以上の医療費を支払ったときは、合算高額療養費に該当する場合があります。その場合は合算対象の領収証および支給決定通知書の提出が必要です。",
       },
     ],
-    cta: {
-      heading: "助成が中学生で終わるまでに備えたいとき",
-      body: "那覇市の助成は中学校3年生までで、高校生年代からは健康保険の自己負担が通常どおりかかります。入院時食事療養費や差額ベッド代は助成の外で、付き添いで親が働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 松前町（愛媛県伊予郡）の子育てのお金の記事。
 //
@@ -50,9 +49,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **入院のときは限度額適用認定証も一緒に出す**という指示が松前町の特徴。
 // **学校のけがは災害共済給付で自己負担額と加算額が出るが、対象外になったら町が助成する**という
 // 二段構えも書く。**治療用眼鏡の療養費は9歳未満**も具体的。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -134,7 +130,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>町外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>入院時に限度額適用認定証まで求めるかは自治体で分かれます</strong>。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>町外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>入院時に限度額適用認定証まで求めるかは自治体で分かれます</strong>。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -168,10 +164,6 @@ const articles: InsuranceArticle[] = [
         a: "できます。記入した子ども医療費受給資格登録申請書と、子どもの健康保険の資格情報が分かる書類のコピーを子育て支援課児童福祉係へ郵送します。保険変更のみ、えひめ電子申請システムから電子届出もできます。",
       },
     ],
-    cta: {
-      heading: "入院の準備をしているとき",
-      body: "松前町は入院時に限度額適用認定証まで必要で、保険者への事前申請が要ります。差額ベッド代や文書料はそもそも助成の外で、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

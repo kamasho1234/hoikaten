@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 上尾市の子育てのお金の記事。
 //
@@ -55,9 +54,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 //     こども支援課か支所・出張所へ提出する。後日、口座に振り込まれる
 //
 // **所得制限には触れない。** このページに所得制限の記載がない。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -162,7 +158,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -200,10 +196,6 @@ const articles: InsuranceArticle[] = [
         a: "受診の際にマイナ保険証等を提示して医療費を支払い、受診の翌月以降に「こども医療費支給申請書（償還払い）」と領収書をこども支援課か支所・出張所へ提出してください。後日、口座に振り込まれます。",
       },
     ],
-    cta: {
-      heading: "窓口負担がなくても残る部分を確かめたいとき",
-      body: "上尾市は18歳の年度末まで、埼玉県内なら窓口負担がありません。ただし入院時の食事療養費標準負担額や差額ベッド代、選定療養費は助成の外で、付き添いで親が働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

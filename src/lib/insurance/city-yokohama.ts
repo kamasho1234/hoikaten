@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 横浜市の子育てのお金の記事。
 //
@@ -20,9 +19,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // - 産婦健康診査は産後2週間と1か月の2回まで、1回5,000円
 // - 産後母子ケア事業は訪問型（産後1年未満）・デイケア（産後6か月未満）・
 //   ショートステイ（産後4か月未満）の3類型。**利用料は確認できなかったので書かない**
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -142,7 +138,7 @@ const articles: InsuranceArticle[] = [
 
 <p>特に子ども本人の医療保険は、18歳まで保険診療の自己負担がない環境では優先度が下がります。一方で、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>は自治体の助成では埋まりません。<strong>順番を間違えないこと</strong>が、無駄のない備え方につながります。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -188,10 +184,6 @@ const articles: InsuranceArticle[] = [
         a: "利用料は市が定めており、利用の形によって変わります。金額はお住まいの区の窓口か横浜市の公式ページで確認してください。",
       },
     ],
-    cta: {
-      heading: "公的な支援が手厚いぶん、何が足りないかを見極めたいとき",
-      body: "横浜市は18歳まで医療費が無償で、妊婦健診にも上乗せがあります。公的な支援でカバーされる範囲を確かめると、民間の保険で埋めるべき部分は絞られます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

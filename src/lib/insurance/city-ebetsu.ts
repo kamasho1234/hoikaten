@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 江別市の子育てのお金の記事。
 //
@@ -48,9 +47,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **多数回該当を「過去12か月以内に月額上限に3回以上達した場合、4回目から」**と
 // 定義しているのも初。
 // なお江別市は vacancy JSON がないため、/ebetsu/vacancy へのリンクは張らない。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -135,7 +131,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>江別市は中学生までが対象で、高校生年代の助成はありません</strong>ので、進学のタイミングで確かめてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>江別市は中学生までが対象で、高校生年代の助成はありません</strong>ので、進学のタイミングで確かめてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -169,10 +165,6 @@ const articles: InsuranceArticle[] = [
         a: "できますが、医療機関で受診者名、医療点数、初診の有無を記載してもらう必要があります。払い戻しは受診月の翌月1日から2年以内で、原則申請月の翌月末に口座振込です。",
       },
     ],
-    cta: {
-      heading: "入院前に選択肢を確かめたいとき",
-      body: "江別市は総医療費の1割が自己負担で、入院時は限度額適用認定証のほうが安くなる場合があります。入院時食事・生活療養費負担金やオムツ代は助成の外にあり、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

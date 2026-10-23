@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 石巻市の子育てのお金の記事。
 //
@@ -40,9 +39,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **財源に「特定防衛施設周辺整備調整交付金」**と明記しているのは
 // 岩国1880（再編交付金）に次いで2例目。
 // なお石巻市は vacancy JSON がないため、/ishinomaki/vacancy へのリンクは張らない。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -117,7 +113,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>入院時に何を用意するかは自治体で書き方が違います</strong>ので、転居先の案内を読み直してください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>入院時に何を用意するかは自治体で書き方が違います</strong>ので、転居先の案内を読み直してください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -151,10 +147,6 @@ const articles: InsuranceArticle[] = [
         a: "医療費を支払った日から2年以内です。過ぎると時効となり助成を受けられません。",
       },
     ],
-    cta: {
-      heading: "入院前に確かめておきたいこと",
-      body: "石巻市は所得制限なしで18歳年度末まで助成されますが、入院時に限度額適用認定証がないと高額療養費相当分の自己負担が生じます。差額室料や食事代は助成の外にあり、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 室蘭市の子育てのお金の記事。
 //
@@ -53,9 +52,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // 労災に触れているのも初（高校生のアルバイト等が想定される）。
 // **世帯合算は初回時申請が必要**という点も苫小牧2130との違い。
 // なお室蘭市は vacancy JSON がないため、/muroran/vacancy へのリンクは張らない。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -141,7 +137,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>1割負担が残る自治体では、入院の額がそのまま家計に効きます</strong>ので、転居先の案内を読み直してください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>1割負担が残る自治体では、入院の額がそのまま家計に効きます</strong>ので、転居先の案内を読み直してください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -175,10 +171,6 @@ const articles: InsuranceArticle[] = [
         a: "使えません。受給者証が使えるのは北海道内の保険医療機関及び保険薬局等です。道外で受診した場合は、いったん支払って払戻しの手続きをしてください。レシートでも診療を受けた方の名前・病院名・病院の領収印があれば使えます。",
       },
     ],
-    cta: {
-      heading: "入院前に差額を確かめたいとき",
-      body: "室蘭市は課税世帯だと医療費の1割が自己負担で、限度額認定証との差額は市が補償しません。食事療養や差額ベッド代も助成の外にあり、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

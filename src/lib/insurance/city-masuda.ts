@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 益田市の子育てのお金の記事。
 //
@@ -64,9 +63,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **就労して自分が被保険者でも対象**という点が益田市の特徴（対象外にする自治体が多い）。
 // **鳥取・広島・山口の一部の医療機関でも受給資格証が使える**のも書く。
 // **払い戻しは2年以内**、**健康保険に出す書類は先にコピー**も書く。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -156,7 +152,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いてください。<strong>就労していても対象になることや、隣県の一部で使えることは益田市の制度によるもの</strong>で、転居先では扱いが変わります。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いてください。<strong>就労していても対象になることや、隣県の一部で使えることは益田市の制度によるもの</strong>で、転居先では扱いが変わります。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -194,10 +190,6 @@ const articles: InsuranceArticle[] = [
         a: "入院時の食事代、病衣料、差額ベッド代、診断書料、予防接種、紹介状がない場合の選定療養費、薬の容器代、市販薬の代金、疲労回復等を目的としたマッサージの費用です。",
       },
     ],
-    cta: {
-      heading: "助成の外に残る費用を確かめたいとき",
-      body: "益田市は18歳まで所得制限なしで一部負担金が全額助成されますが、入院時の食事代や差額ベッド代、市販薬は助成の外にあります。県外受診は立て替えと2年以内の申請が必要で、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

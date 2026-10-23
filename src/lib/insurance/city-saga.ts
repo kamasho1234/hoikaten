@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 佐賀市の子育てのお金の記事。
 //
@@ -54,9 +53,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 //   保護者のマイナンバーカード（オンライン申請時）
 //
 // **所得制限には触れない。** このページに所得制限の記載がない。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -175,7 +171,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -209,10 +205,6 @@ const articles: InsuranceArticle[] = [
         a: "現在資格を持っている対象者は申請不要です。対象の子ども（平成22年4月2日から令和2年4月1日生まれ）のいる世帯へ令和8年3月中に新しい受給資格証が送付されます。旧様式の資格証も、有効期間内であれば令和8年4月以降も利用できます。",
       },
     ],
-    cta: {
-      heading: "助成があっても残る部分を確かめたいとき",
-      body: "佐賀市は2026年1月から18歳年度末まで、上限つきの負担で受診できるようになりました。ただし入院時食事療養費や差額ベッド代、おむつ代、紹介状なしで大きな病院を受診したときの初診加算料は助成の外で、付き添いで親が働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

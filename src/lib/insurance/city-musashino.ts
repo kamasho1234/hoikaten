@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 武蔵野市の子育てのお金の記事。
 //
@@ -43,9 +42,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **申請期限が「出生・転入日から2カ月以内」**なのは、ここまでの196市区で最も長い部類
 // （多くは15日以内、高岡2140は出生日から15日以内）。
 // **医療証の発行まで10営業日程度**という具体的な日数とあわせて必ず書く。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -126,7 +122,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>申請の期限は自治体で大きく違い、多くは15日以内です</strong>ので、転出先では同じつもりでいると間に合いません。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>申請の期限は自治体で大きく違い、多くは15日以内です</strong>ので、転出先では同じつもりでいると間に合いません。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -164,10 +160,6 @@ const articles: InsuranceArticle[] = [
         a: "公簿で受給状況等が確認できる方は不要です。有効期限は毎年9月30日で、新しい医療証は9月下旬に一斉送付されます。マル乳からマル子、マル子からマル青への切り替えも手続きは不要です。",
       },
     ],
-    cta: {
-      heading: "医療証が届くまでの空白を埋めたいとき",
-      body: "武蔵野市は申請から医療証の発行まで10営業日程度かかり、その間の受診は立て替えになります。おむつ代や入院時の食事療養費、差額ベッド代は助成の外にあり、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

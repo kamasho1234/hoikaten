@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 松阪市の子育てのお金の記事。
 //
@@ -43,9 +42,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 //
 // **「小学生以上は償還払い、未就学児だけ窓口負担を軽減する制度がある」という二段構えは、
 // ここまでの160市区で初めて見た。** 必ず書く。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -117,7 +113,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>窓口で払うか払わないかは自治体ごとに違い、手元の現金の要り方が変わります</strong>。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>窓口で払うか払わないかは自治体ごとに違い、手元の現金の要り方が変わります</strong>。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -151,10 +147,6 @@ const articles: InsuranceArticle[] = [
         a: "加入の健康保険から交付を受けられた方のみ必要です。ただしマイナ保険証等によりオンライン資格確認できる場合は不要です。",
       },
     ],
-    cta: {
-      heading: "立て替えが続く期間を確かめたいとき",
-      body: "松阪市は償還払いが基本で、窓口負担が軽くなるのは未就学児だけです。小学校に入ると窓口でいったん支払うことになり、保険が使えない費用も助成の外に残ります。付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

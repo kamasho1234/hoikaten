@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 多賀城市の子育てのお金の記事。
 //
@@ -52,9 +51,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **毎年10月1日に更新、1月1日に住民登録があり年末調整・確定申告済みなら自動更新**。
 // **限度額適用認定証を出さずに限度額を超えて助成を受けると後日返還**という注意も具体的。
 // **受診した月に申請すると約3か月後に振込、事前にハガキで金額を知らせる**。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -137,7 +133,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。市も<strong>「子ども医療費助成制度はそれぞれの市町村が条例を定めて実施しているため、これまでお住まいだった市町村とは対象年齢や助成内容などが異なる場合があります」</strong>と案内しています。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。市も<strong>「子ども医療費助成制度はそれぞれの市町村が条例を定めて実施しているため、これまでお住まいだった市町村とは対象年齢や助成内容などが異なる場合があります」</strong>と案内しています。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -171,10 +167,6 @@ const articles: InsuranceArticle[] = [
         a: "受診した月に申請した場合で約3か月後です。診療明細の確認のため3か月以上かかることもあります。自己負担分を支払ってから2年を経過すると申請できなくなります。",
       },
     ],
-    cta: {
-      heading: "毎年の更新を取りこぼさないために",
-      body: "多賀城市は所得制限を撤廃した後も毎年の所得申告が必要で、限度額適用認定証を出さないと返還が発生します。食事代や差額室料は助成の外にあり、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

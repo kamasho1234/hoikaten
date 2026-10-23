@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 日南市の子育てのお金の記事。
 //
@@ -49,9 +48,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **学校の寮などで子どもひとりが市内に住んでいる場合も対象**という条件が珍しいので書く。
 // **出生60日・転入30日と期限が別々**、**間に合わないときは相談してよい**も書く。
 // ※日南市は当サイトにシミュレーターも空き状況もないため、市内ページへのリンクは張らない。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -146,7 +142,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いてください。<strong>対象が中学校修了前までであることは日南市の制度によるもの</strong>で、転居先では18歳まで対象という場合もあります。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いてください。<strong>対象が中学校修了前までであることは日南市の制度によるもの</strong>で、転居先では18歳まで対象という場合もあります。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -180,10 +176,6 @@ const articles: InsuranceArticle[] = [
         a: "まず各保険者から保険給付（総医療費の7または8割）を受けます。振込みの通知が届いたら、医師の診断書、領収証、保険者からの支給決定通知（原本）、印鑑を持参してください。通知がない保険者の場合は、内容がわかる書類の発行を依頼してください。",
       },
     ],
-    cta: {
-      heading: "助成の外に残る費用を確かめたいとき",
-      body: "日南市は中学校修了前まで対象で入院と調剤は無料ですが、入院時の食事代やベッド代、予防接種、薬の容器代は助成の外にあります。中学卒業後は制度の対象から外れ、県外受診も立て替えになります。付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 土浦市の子育てのお金の記事。
 //
@@ -43,9 +42,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // ここまでの202市区で初めて。必ず書く。
 // **災害共済給付の対象外の目安を「完治までの診療点数500点未満など」と数字で示している**のも初。
 // **受診した当月中なら医療機関で返金してもらえる場合がある**は釧路2150に次いで2例目。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -134,7 +130,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>自己負担の額と上限は自治体で大きく違います</strong>ので、通院が続く家庭ほど差が出ます。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>自己負担の額と上限は自治体で大きく違います</strong>ので、通院が続く家庭ほど差が出ます。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -168,10 +164,6 @@ const articles: InsuranceArticle[] = [
         a: "原則使えません。日本スポーツ振興センター災害共済給付制度が優先です。ただし災害共済給付の対象外の場合（完治までの診療点数500点未満など）は、マル福の償還払い申請により適用を受けられます。",
       },
     ],
-    cta: {
-      heading: "自己負担の上限を見ておきたいとき",
-      body: "土浦市は外来1日600円・月2回までなどの自己負担があり、入院時の食事代や差額のベッド代、交通費は助成の外にあります。学校でのけがは災害共済給付が先で、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

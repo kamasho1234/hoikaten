@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 国分寺市の子育てのお金の記事。
 //
@@ -59,9 +58,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // 優先順位の理由まで書いているのは、ここまでの220市区で初めて。必ず書く。
 // **領収書は返却しないが、助成できない費用が含まれる場合は記入のうえコピーを取って返す**という
 // 条件付きの返却も初。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -151,7 +147,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>他の医療証との優先順位は自治体で書き方が違います</strong>ので、複数の医療証を持っている家庭は転居先で確かめてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>他の医療証との優先順位は自治体で書き方が違います</strong>ので、複数の医療証を持っている家庭は転居先で確かめてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -189,10 +185,6 @@ const articles: InsuranceArticle[] = [
         a: "原則としてコピー不可で返却されません。ただし保険診療外など助成ができないものが含まれている場合は、医療費を助成した旨がわかるように記入したうえでコピーを取り、返却されます。",
       },
     ],
-    cta: {
-      heading: "助成の外に残る費用を確かめたいとき",
-      body: "国分寺市は調剤・入院・訪問看護が全額助成ですが、入院時の食事療養標準負担額や文書料は助成の外にあります。都外受診は立て替えが必要で振込まで2か月程度かかり、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 西宮市の子育てのお金の記事。
 //
@@ -36,9 +35,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 //   災害共済給付制度の対象となる場合）
 // - **災害共済給付制度の対象となる場合、医療費の自己負担額＋医療費総額の1割が支給される**。
 //   災害共済給付に加入していない場合や、学校園が契約を締結していない場合は受給者証を使う
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -125,7 +121,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -155,10 +151,6 @@ const articles: InsuranceArticle[] = [
         a: "日本スポーツ振興センターの災害共済給付の対象になる場合は使えません。学校等を通して災害共済給付を申請してください。災害共済給付では医療費の自己負担額に加えて医療費総額の1割が支給されます。災害共済給付制度に加入していない場合や、通っている学校園が契約を締結していない場合は、こども医療費受給者証を使ってください。",
       },
     ],
-    cta: {
-      heading: "無償化されても残る部分を確かめたいとき",
-      body: "西宮市は2026年1月から高校生世代まで外来・入院とも一部負担金がなくなりました。ただし差額ベッド代や入院時の食事代・病衣代、付き添いで親が働けない期間の収入は助成の対象外です。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

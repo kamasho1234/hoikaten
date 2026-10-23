@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 板橋区の子育てのお金の記事。
 //
@@ -47,9 +46,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 //   **毎月第2日曜日 午前9時から午後5時まで**
 //
 // **所得制限には触れない。** このページに所得制限の記載がない。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -176,7 +172,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>区外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>区外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -214,10 +210,6 @@ const articles: InsuranceArticle[] = [
         a: "子育て支援課子どもの手当医療係（区役所北館1階6番窓口）は、平日の午前8時30分から午後5時までに加えて、毎月第2日曜日の午前9時から午後5時までも受付しています。",
       },
     ],
-    cta: {
-      heading: "食事代が対象外の分を確かめたいとき",
-      body: "板橋区は18歳年度末まで、都内の医療機関なら保険診療の自己負担分を払わずに受診できます。ただし入院時の食事療養標準負担額や差額ベッド代は助成の対象外で、付き添いで親が働けない期間の収入も助成の外です。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

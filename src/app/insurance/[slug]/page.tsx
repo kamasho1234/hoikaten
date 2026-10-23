@@ -7,7 +7,6 @@ import {
 } from "@/lib/insurance";
 import { breadcrumbList, faqPage } from "@/lib/jsonld";
 import { ArticleBody } from "@/components/article-body";
-import { BabyPlanetCta } from "@/components/babyplanet-cta";
 
 export function generateStaticParams() {
   return getAllInsuranceArticles().map((a) => ({ slug: a.slug }));
@@ -168,9 +167,6 @@ export default async function InsuranceArticlePage({
       </div>
 
       <ArticleBody html={article.content} />
-
-      {/* 相談の案内。計測用の画像を含むので1ページに1つだけ置く */}
-      <BabyPlanetCta heading={article.cta.heading} body={article.cta.body} />
 
       {/* よくある質問 */}
       {article.faq && article.faq.length > 0 && (

@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 松戸市の子育てのお金の記事。
 //
@@ -30,9 +29,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 //   受けられる場合**／交通事故等、第三者の加害行為による災害で損害賠償等を受けられる場合／
 //   確定申告済みの医療費／他制度より給付が受けられる場合（高額療養費など）
 // - 電子申請に対応（新規申請・受給資格登録変更・不足書類提出・受給券再交付）
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -117,7 +113,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -151,10 +147,6 @@ const articles: InsuranceArticle[] = [
         a: "健康診断、予防接種、薬の容器代、差額ベッド代など健康保険が適用されない費用のほか、2024年10月から後発医薬品のある先発医薬品の選定療養の費用も対象外です。学校等の管理下の災害で災害共済給付が受けられる場合、就学援助認定者で学校保健安全法の医療費補助を受けられる場合、交通事故など第三者の加害行為、確定申告済みの医療費、高額療養費など他制度の給付も対象になりません。",
       },
     ],
-    cta: {
-      heading: "負担が月1,000円で止まっても残る部分を確かめたいとき",
-      body: "松戸市の通院は1医療機関あたり月1,000円、入院は1回2,000円で止まります。ただし差額ベッド代や食事代、付き添いで親が働けない期間の収入は助成の対象外です。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

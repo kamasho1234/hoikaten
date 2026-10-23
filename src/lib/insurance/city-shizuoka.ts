@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 静岡市の子育てのお金の記事。
 //
@@ -39,9 +38,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // - 交通事故など第三者行為によるケガ等の治療で損害賠償に相当する額は対象外
 //
 // **所得制限には触れない。** ページに所得制限の記載がない。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -136,7 +132,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -166,10 +162,6 @@ const articles: InsuranceArticle[] = [
         a: "診断書料や証明書料、健康診査料、おむつ代、病衣服代、ベッド差額料、薬の容器代、予防接種代、選定療養費など保険適用外の費用です。学校等の管理下でのケガでスポーツ振興センター災害共済給付制度が適用される場合と、交通事故など第三者行為による治療で損害賠償に相当する額も対象外です。",
       },
     ],
-    cta: {
-      heading: "助成の外に出る部分を確かめたいとき",
-      body: "静岡市は2026年7月から入院時の食事代まで助成に含まれ、中学生年代までの日中の通院も無料になりました。ただしベッド差額料やおむつ代、付き添いで親が働けない期間の収入は対象外です。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 旭川市の子育てのお金の記事。
 //
@@ -29,9 +28,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 //   （所得額、所得控除額、扶養人数、課税額の記載があるもの）の交付を受ける。
 //   「住民税特別徴収税額の決定通知書」または「住民税納税通知書」でも受付する。
 //   **源泉徴収票では受付できない**
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -105,7 +101,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -139,10 +135,6 @@ const articles: InsuranceArticle[] = [
         a: "受給者証の交付申請は電子申請でもできます。ただし18歳に達する日以降の最初の3月31日を過ぎた人は電子申請できません。対象期間中の医療費の払戻しがある場合のみ、子育て助成課の窓口申請で受け付けられます。",
       },
     ],
-    cta: {
-      heading: "全額助成でも残る部分を確かめたいとき",
-      body: "旭川市は2025年8月から高校生年代まで、公的医療保険適用の自己負担額が全額助成されます。ただし差額ベッド代や入院時の食事療養標準負担額、付き添いで親が働けない期間の収入は助成の対象外です。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

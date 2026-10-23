@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 姶良市の子育てのお金の記事。
 //
@@ -30,9 +29,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 //
 // **中学生までは全世帯、高校生年代は住民税非課税世帯のみ**という二段構えが姶良市の特徴。
 // **申請期限が「診療月の翌月から6か月以内」**とはっきり書かれているので必ず書く。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -100,7 +96,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いてください。<strong>高校生年代が非課税世帯に限られるのは姶良市の制度によるもの</strong>で、転居先では所得を問わず高校生まで対象という場合もあります。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いてください。<strong>高校生年代が非課税世帯に限られるのは姶良市の制度によるもの</strong>で、転居先では所得を問わず高校生まで対象という場合もあります。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -134,10 +130,6 @@ const articles: InsuranceArticle[] = [
         a: "入院などで医療費が21,000円以上になり、健康保険組合から高額療養費や付加給付金が支給される場合は、一部負担金額からその額を差し引いた額が助成されます。",
       },
     ],
-    cta: {
-      heading: "助成の外に残る費用を確かめたいとき",
-      body: "姶良市は中学生まで県内の窓口負担が無償ですが、食事代や診断書料は助成の外にあり、県外受診は立て替えと6か月以内の申請が必要です。付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

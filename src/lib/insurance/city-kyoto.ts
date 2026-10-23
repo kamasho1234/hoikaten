@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 京都市の子育てのお金の記事。
 //
@@ -26,9 +25,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 //
 // **拡充予定は書かない。** 検索には「拡充」「自己負担額引き下げ」のページが出るが
 // すべて404で、2026年7月1日更新の現行ページに拡充の記載はない。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -118,7 +114,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -152,10 +148,6 @@ const articles: InsuranceArticle[] = [
         a: "診療日の翌日から5年以内です。受給者証を提示しなかったとき、京都府外で受診したとき、治療用装具を購入したとき、中学生の通院で1か月の自己負担額の合計が1,500円を超えたときが対象になります。",
       },
     ],
-    cta: {
-      heading: "助成が中学3年生で終わるまでに備えておきたいとき",
-      body: "京都市の子ども医療費支給制度は中学3年生までで、高校生年代からは健康保険の自己負担が通常どおりかかります。差額ベッド代や食事負担額も助成の対象外です。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 加須市の子育てのお金の記事。
 //
@@ -50,9 +49,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **入院時の食事療養標準負担額が支給対象**な点は、
 // 同じ埼玉県内の鴻巣2650（平成27年に助成廃止）と対比になるので必ず書く。
 // なお加須市は vacancy JSON がないため、/kazo/vacancy へのリンクは張らない。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -133,7 +129,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。加須市は入院時の食事代まで支給する手厚いほうなので、<strong>転出すると入院時の負担が出てくる可能性があります</strong>。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。加須市は入院時の食事代まで支給する手厚いほうなので、<strong>転出すると入院時の負担が出てくる可能性があります</strong>。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -167,10 +163,6 @@ const articles: InsuranceArticle[] = [
         a: "申請した日の翌月末（平日）に登録の口座へ振り込まれます。審査に時間を要する場合は遅れます。申請の期限は、一部負担金を支払った日の翌日から5年です。",
       },
     ],
-    cta: {
-      heading: "手厚い助成でも残る費用を確かめたいとき",
-      body: "加須市は入院時の食事代や公費の自己負担分まで支給対象ですが、入院時の室料や特定療養費は助成の外にあります。接骨院や県外受診は立て替えが必要で、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

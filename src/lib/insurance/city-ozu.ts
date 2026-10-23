@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 大洲市の子育てのお金の記事。
 //
@@ -76,9 +75,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **請求期限は診療月の翌月1日から2年間**も書く。
 // **高額療養費は市が委任を受けて受領する（民法703条の不当利得にも言及）**も書く。
 // ※大洲市は当サイトにシミュレーターも空き状況もないため、市内ページへのリンクは張らない。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -171,7 +167,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いてください。<strong>18歳年度末まで対象なのは大洲市の制度によるもの</strong>で、転居先では中学卒業までということもあります。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いてください。<strong>18歳年度末まで対象なのは大洲市の制度によるもの</strong>で、転居先では中学卒業までということもあります。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -205,10 +201,6 @@ const articles: InsuranceArticle[] = [
         a: "大洲市が負担した高額療養費を返すことになります。限度額適用認定証を提示せず受診した場合は、市が被保険者から委任を受けて高額療養費を受領するため、送付される委任状を市民課へ提出します。",
       },
     ],
-    cta: {
-      heading: "助成の外に残る費用を確かめたいとき",
-      body: "大洲市は18歳年度末まで県内の保険診療が窓口無料ですが、入院時の食事代や個室代、予防接種は助成の外にあります。県外受診は立て替えになり、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

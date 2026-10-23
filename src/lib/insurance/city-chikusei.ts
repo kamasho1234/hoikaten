@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 筑西市の子育てのお金の記事。
 //
@@ -59,9 +58,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **川島出張所では申請できません**と特定の窓口を名指しで除外しているのも初。
 // **県内の他市町村へ転出するときは「医療福祉費受給者証交付状況証明書」**は
 // 桐生2950（群馬県）に次いで2例目。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -158,7 +154,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>県の制度と市独自の制度が重なっている自治体では、どちらの窓口に行くかも変わります</strong>。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>県の制度と市独自の制度が重なっている自治体では、どちらの窓口に行くかも変わります</strong>。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -196,10 +192,6 @@ const articles: InsuranceArticle[] = [
         a: "診療月の翌月以降から受診日より5年以内に申請します。支払いは原則診療月の3か月後の末頃で、すでに3か月経過している場合は申請日の翌月末頃です。",
       },
     ],
-    cta: {
-      heading: "県の制度と市の制度をまたいで確かめたいとき",
-      body: "筑西市は県のマル福と市のはぐくみが二段構えで、中学生以上の外来は市の制度が受け持ちます。所得制限や誕生月による判定年の違いもあり、見落としが起きやすい仕組みです。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

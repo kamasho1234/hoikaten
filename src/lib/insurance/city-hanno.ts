@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 飯能市の子育てのお金の記事。
 //
@@ -53,9 +52,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **健康保険組合等への療養費請求の時効は2年で、市の申請時効5年とは別**という
 // 二つの時効の食い違いを注意書きしているのも初。
 // **21,000円未満のみ現物給付**は三郷3610と同じ埼玉県内の形。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -135,7 +131,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>申請の期限は自治体で大きく違います</strong>。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>申請の期限は自治体で大きく違います</strong>。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -169,10 +165,6 @@ const articles: InsuranceArticle[] = [
         a: "原則、申請月の翌月25日に指定口座へ振り込まれます。保険年金課以外への提出や郵送の場合は、申請書が保険年金課に届いた日が受付日になります。",
       },
     ],
-    cta: {
-      heading: "学校でのケガの扱いに迷ったとき",
-      body: "飯能市は災害共済給付の対象にならなかった小さなケガを市の助成で受け止めます。一方で文書料や保険適用外の費用は助成の外にあり、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

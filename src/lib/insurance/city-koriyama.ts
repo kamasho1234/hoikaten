@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 郡山市の子育てのお金の記事。
 //
@@ -28,9 +27,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // - 助成を受けるには「こども医療費受給資格者証」の交付を受ける
 //
 // **所得制限には触れない。** ページに所得制限の記載がない。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -116,7 +112,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -146,10 +142,6 @@ const articles: InsuranceArticle[] = [
         a: "市のページには「郡山市国民健康保険加入の方は入院時の食事代の自己負担額のみ対象」という記載があります。加入している保険によって扱いが変わる可能性がありますが、ページの記載だけでは読み切れないため、郡山市の国民健康保険に加入していて入院の予定がある場合は子育て給付課に確認してください。",
       },
     ],
-    cta: {
-      heading: "窓口が0円でも残る部分を確かめたいとき",
-      body: "郡山市は18歳まで、現物給付に対応している医療機関なら窓口で払う金額がありません。ただし差額ベッド代や、付き添いで親が働けない期間の収入は助成の外です。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

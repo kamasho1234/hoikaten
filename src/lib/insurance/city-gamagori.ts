@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 蒲郡市の子育てのお金の記事。
 //
@@ -52,9 +51,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **14日以内の届け出**、**装具や10割負担は先に健康保険へ（そのときは領収書がコピーで可）**
 // も書く。
 // ※蒲郡市は当サイトに空き状況がある（/gamagori/vacancy）。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -138,7 +134,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いてください。<strong>県内で自己負担の全額が助成されるのは蒲郡市の制度によるもの</strong>で、転居先では定額の自己負担がある場合もあります。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いてください。<strong>県内で自己負担の全額が助成されるのは蒲郡市の制度によるもの</strong>で、転居先では定額の自己負担がある場合もあります。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -172,10 +168,6 @@ const articles: InsuranceArticle[] = [
         a: "就学以後で心身障害者医療費助成制度や母子家庭等医療費助成制度の対象となる方、中学校卒業後で精神障害者医療費助成制度（全疾病）の対象となる方、生活保護を受けている方などです。",
       },
     ],
-    cta: {
-      heading: "助成の外に残る費用を確かめたいとき",
-      body: "蒲郡市は18歳年度末まで県内の自己負担が全額助成されますが、入院時の食事代や容器代は助成の外にあります。保険を切り替えたすき間の受診は実費になり、県外受診も立て替えが必要です。付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

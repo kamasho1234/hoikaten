@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 橿原市の子育てのお金の記事。
 //
@@ -51,9 +50,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // ここまでの172市区で初めて。**（多くの市は「先に高額療養費を申請してください」と
 // 逆のことを求めている）現物給付で市が立て替えているためだが、
 // **利用者から見ると正反対の指示になるので必ず書く。**
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -125,7 +121,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>高額療養費を自分で申請するかどうかは自治体で正反対</strong>なので、転居先の案内を必ず読み直してください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>高額療養費を自分で申請するかどうかは自治体で正反対</strong>なので、転居先の案内を必ず読み直してください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -159,10 +155,6 @@ const articles: InsuranceArticle[] = [
         a: "されません。保険適用外の費用（容器代、診断書料、入院時の室料、ジェネリック医薬品のある先発医薬品の選定療養に係る特別の料金など）と入院時の食事代は助成の対象外です。",
       },
     ],
-    cta: {
-      heading: "窓口無料でも残る費用を確かめたいとき",
-      body: "橿原市は令和6年8月から小学生以上も窓口支払いがなくなりましたが、入院時の食事代や室料、診断書料は助成の外にあります。学校でのけがは災害共済給付が先で、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

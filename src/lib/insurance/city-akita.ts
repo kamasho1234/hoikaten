@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 秋田市の子育てのお金の記事。
 //
@@ -48,9 +47,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **検索結果が示した「令和6年8月から所得制限を撤廃」の記述は、このページには見当たらない。**
 // ページにあるのは「所得制限はありませんが、自己負担額の判定のため、課税状況の確認があります」
 // という現在の状態の記述だけなので、撤廃の時期は書かない（[[feedback_agent_factcheck]]）。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -151,7 +147,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。半額負担と月1,000円上限という組み合わせは秋田市の設計なので、<strong>転出先では負担の出方が変わります</strong>。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。半額負担と月1,000円上限という組み合わせは秋田市の設計なので、<strong>転出先では負担の出方が変わります</strong>。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -185,10 +181,6 @@ const articles: InsuranceArticle[] = [
         a: "医療費の助成を受けられないため、あとから払戻し（償還払い）の申請をします。窓口で受給者証を提示できなかった場合や、治療用装具等を購入した場合も同様です。",
       },
     ],
-    cta: {
-      heading: "1歳からの負担を先に見ておきたいとき",
-      body: "秋田市は0歳のあいだ負担がありませんが、1歳になると課税世帯は自己負担額の半額（1医療機関あたり月1,000円まで）が発生します。付き添いで働けない期間の収入は助成されず、保険が使えない費用も残ります。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

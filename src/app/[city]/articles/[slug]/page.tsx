@@ -2,7 +2,6 @@ import { notFound, permanentRedirect } from "next/navigation";
 import { getArticleCitySlugs } from "@/lib/articles";
 import { getCityInfo } from "@/lib/city-info";
 import { getArticle, getArticlesByCity } from "@/lib/articles";
-import { RandomTextAd } from "@/components/random-text-ad";
 import { ArticleBody } from "@/components/article-body";
 import { breadcrumbList } from "@/lib/jsonld";
 import {
@@ -164,7 +163,7 @@ export default async function ArticlePage({
         {article.description}
       </p>
 
-      {/* 記事本文（中盤にテキスト広告を挿入） */}
+      {/* 記事本文 */}
       <ArticleBody html={article.content} />
 
       {/* CTA。点数の基準が無い自治体ではシミュレーターが無いので出さない */}
@@ -184,9 +183,6 @@ export default async function ArticlePage({
         </a>
       </div>
       )}
-
-      {/* シェア直上のテキスト広告 */}
-      <RandomTextAd />
 
       {/* SNS共有 */}
       <div className="mt-8 space-y-3">

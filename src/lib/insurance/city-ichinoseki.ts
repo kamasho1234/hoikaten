@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 一関市の子育てのお金の記事。
 //
@@ -45,9 +44,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // 並べて、マイナ保険証での実務の書き方として押さえておく。必ず書く。
 // **年齢で4つの助成に分かれる**書き方も初（多くは1つの制度の中で年齢区分を分ける）。
 // なお一関市は vacancy JSON がないため、/ichinoseki/vacancy へのリンクは張らない。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -129,7 +125,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>高額療養費と市の助成の関係は自治体で書き方が分かれます</strong>ので、入院が決まったら早めに窓口で確かめてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>高額療養費と市の助成の関係は自治体で書き方が分かれます</strong>ので、入院が決まったら早めに窓口で確かめてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -163,10 +159,6 @@ const articles: InsuranceArticle[] = [
         a: "医療費助成の対象外となり、助成額を返還していただく場合があります。学校・幼稚園・保育園のケガなどで日本スポーツ振興センター災害給付制度が適用される場合も同じです。",
       },
     ],
-    cta: {
-      heading: "入院前に確かめておきたいこと",
-      body: "一関市は一部負担金の全額が助成されますが、高額療養費が給付されると助成額の返還を求められることがあります。県外受診は立て替えが必要で、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

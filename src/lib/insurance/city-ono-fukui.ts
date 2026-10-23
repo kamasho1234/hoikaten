@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 大野市（福井県）の子育てのお金の記事。
 //
@@ -61,9 +60,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **眼鏡代の上限が40,492円で、市が払うのはその3割（未就学児は2割）**も具体的なので書く。
 // **18歳までは学生でない人・婚姻している人も含む**という珍しい扱いも書く。
 // ※大野市は当サイトにシミュレーターも空き状況もないため、市内ページへのリンクは張らない。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -165,7 +161,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いてください。<strong>20歳年度末まで無料なのは大野市の制度によるもの</strong>で、転居先では18歳年度末で終わるのが一般的です。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いてください。<strong>20歳年度末まで無料なのは大野市の制度によるもの</strong>で、転居先では18歳年度末で終わるのが一般的です。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -199,10 +195,6 @@ const articles: InsuranceArticle[] = [
         a: "眼鏡一式（フレームとレンズ）で40,492円（税込）が上限です。この額に対して市から3割（小学生未満は2割）が支払われ、超えた分は全額自己負担になります。",
       },
     ],
-    cta: {
-      heading: "助成の外に残る費用を確かめたいとき",
-      body: "大野市は20歳年度末まで医療費が無料で入院時の食事代も助成されますが、歯列矯正や差額ベッド代、大病院初診時の特別料金は助成の外にあります。県外受診は立て替えになり、払戻しの期限も3か月と短めです。付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

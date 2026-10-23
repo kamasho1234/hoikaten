@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 北広島市（北海道）の子育てのお金の記事。
 //
@@ -45,9 +44,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // 「総医療費の1割」負担がなくなり、所得制限も撤廃された**という3点同時の改正。
 // **未就学児は市内医療機関なら初診時一部負担金もかからない**（市内限定の上乗せ）。
 // **訪問看護だけは改正後も総医療費の1割**という例外も残っている。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -106,7 +102,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>負担の数え方は地域でまったく違います</strong>。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>負担の数え方は地域でまったく違います</strong>。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -140,10 +136,6 @@ const articles: InsuranceArticle[] = [
         a: "ひとり親家庭等医療費・重度心身障がい者医療助成制度にも引き続き所得制限があり、所得を超過した世帯は子ども医療費助成制度の対象になります。",
       },
     ],
-    cta: {
-      heading: "治療が長引きそうなとき",
-      body: "北広島市は初診時の負担だけになりましたが、訪問看護には1割負担が残ります。付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

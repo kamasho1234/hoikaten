@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 教育費と、相談のしかたの記事。
 //
@@ -10,9 +9,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // - 高等学校等就学支援金がある
 // - 児童手当は2024年10月から拡充（高校生年代まで、第3子以降は増額、所得制限の撤廃）
 // - 学資保険の返戻率や商品の比較は書かない（商品ごと・契約者ごとに変わり確かめられないため）
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -90,7 +86,7 @@ const articles: InsuranceArticle[] = [
 
 <div class="step"><div class="step-num">4</div><div class="step-content"><p><strong>残りをどう用意するか決める</strong>。ここではじめて学資保険・預貯金・その他の方法の比較になります。</p></div></div>
 
-<p>この4段階を自分だけで進めるのは骨が折れます。${link("子育て世帯向けの無料相談")}のような窓口では、公的な支援の確認から必要額の試算まで一緒に進められます。<strong>相談したうえで「うちは預貯金で足りる」という結論になっても構いません</strong>。判断の材料が増えることに意味があります。</p>
+<p>この4段階を自分だけで進めるのは骨が折れます。子育て世帯向けの無料相談のような窓口では、公的な支援の確認から必要額の試算まで一緒に進められます。<strong>相談したうえで「うちは預貯金で足りる」という結論になっても構いません</strong>。判断の材料が増えることに意味があります。</p>
 `,
     sources: [
       {
@@ -124,10 +120,6 @@ const articles: InsuranceArticle[] = [
         a: "親に何かあったときは生活費と住居費のほうが額として大きくなるのが普通です。生活費の不足を埋めてから教育費に進むほうが、順番として無理がありません。",
       },
     ],
-    cta: {
-      heading: "教育費の必要額を出すところでつまずいたとき",
-      body: "公的な支援と児童手当を引いたうえで、自分でいくら用意するのかを出すのが最初の関門です。子育て世帯の相談に慣れた窓口なら、この試算から一緒に進められます。相談したうえで預貯金で足りるという結論でも構いません。相談は無料です。",
-    },
   },
   {
     slug: "hoken-soudan-tsukaikata",
@@ -144,8 +136,6 @@ const articles: InsuranceArticle[] = [
 <h2>なぜ無料なのか</h2>
 
 <p>保険の相談窓口は、相談者からお金を取らない代わりに、<strong>契約が成立したときに保険会社から手数料を受け取る</strong>形で成り立っています。だから相談そのものは無料でも、事業として続けられます。</p>
-
-<div class="info-box"><p>このページを含め、当サイトの保険の記事にも広告が入っています。リンク先で相談の申し込みがあると、当サイトに紹介料が入ります。<strong>ただし記事に書いている制度の内容は公的機関の資料をもとにしており、広告主の意向で変えているものではありません。</strong></p></div>
 
 <h2>その場で決めなくてよい</h2>
 
@@ -188,7 +178,7 @@ const articles: InsuranceArticle[] = [
 
 <p>また、妊娠中・出産直後は保険の選び方に固有の事情があります。妊娠週数による申し込みの制限、帝王切開後の条件の付き方、育休中の家計など、<strong>子育て世帯の事情に慣れているかどうか</strong>で話の通りやすさが変わります。</p>
 
-<p>${link("ママ向けの保険無料相談サービス")}のように、妊娠・出産・育児の相談を前提にしているところは、この点でやりとりが早く済みます。</p>
+<p>ママ向けの保険無料相談サービスのように、妊娠・出産・育児の相談を前提にしているところは、この点でやりとりが早く済みます。</p>
 
 <h2>断り方</h2>
 
@@ -216,10 +206,6 @@ const articles: InsuranceArticle[] = [
 `,
     sources: [
       {
-        label: "消費者庁「ステルスマーケティングに関する景品表示法上の考え方」",
-        url: "https://www.caa.go.jp/policies/policy/representation/fair_labeling/stealth_marketing/",
-      },
-      {
         label: "金融庁「保険会社向けの総合的な監督指針」",
         url: "https://www.fsa.go.jp/common/law/guide/ins/index.html",
       },
@@ -242,10 +228,6 @@ const articles: InsuranceArticle[] = [
         a: "いま入っている保険の証券があると最も効果があります。あわせて、ねんきん定期便、勤務先の福利厚生の資料、住宅ローンの契約書があると、必要な保障額の見当がつけやすくなります。",
       },
     ],
-    cta: {
-      heading: "まず現状の確認だけしたいとき",
-      body: "いまの契約に何が付いているか、公的な保障でいくら出るのかを整理するだけでも相談は使えます。妊娠・出産・育児の事情に慣れた窓口なら、訪問やオンラインでの相談にも対応しています。その場で契約する必要はありません。",
-    },
   },
 ];
 

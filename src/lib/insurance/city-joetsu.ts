@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 上越市の子育てのお金の記事。
 //
@@ -52,9 +51,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // 訪問看護1日250円・調剤なし）は同じだが、
 // **上越には「市民税非課税世帯は申請で無料」「総合病院の同日複数科は530円」という
 // 長岡のページにない記載がある。**
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -151,7 +147,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。入院1日1,200円という負担の出方は自治体ごとに違うので、<strong>入院の可能性がある家庭ほど差が出ます</strong>。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。入院1日1,200円という負担の出方は自治体ごとに違うので、<strong>入院の可能性がある家庭ほど差が出ます</strong>。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -185,10 +181,6 @@ const articles: InsuranceArticle[] = [
         a: "できます。未就学児の方は母子健康手帳を持参しますが、持っていない場合でも申請できます。",
       },
     ],
-    cta: {
-      heading: "小学校入学から始まる負担を見ておきたいとき",
-      body: "上越市は就学前まで一部負担金がありませんが、小学生からは入院1日1,200円・外来1回530円が発生します（非課税世帯は申請で無料）。保険が使えない費用は助成の外にあり、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

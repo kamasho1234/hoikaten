@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 茨城町（茨城県東茨城郡）の子育てのお金の記事。
 //
@@ -58,9 +57,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **未就学児は窓口で払って約3か月後に自動で戻ってくる。通知は来ないので通帳で確認**が軸。
 // **600円未満だと自動振込にならず窓口申請が要る**という例外が実務でいちばん効く。
 // **中学生以上・所得制限内だけ受給者証が2枚**になるのも珍しい。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -153,7 +149,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>町外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>県の制度に町が独自に上乗せしているかどうかで、所得制限の効き方が変わります</strong>。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>町外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>県の制度に町が独自に上乗せしているかどうかで、所得制限の効き方が変わります</strong>。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -187,10 +183,6 @@ const articles: InsuranceArticle[] = [
         a: "1年で、誕生日前日の翌月初日から翌年の誕生日前日の月末までです。小学6年生と高校3年生は3月31日までになります。所得制限内なら期限の3〜4日前までに新しい受給者証が郵送されます。",
       },
     ],
-    cta: {
-      heading: "領収書が手元に溜まってきたとき",
-      body: "茨城町は未就学児の自己負担金が約3か月後に戻りますが、600円未満だと窓口申請が必要です。入院時の食事代はそもそも助成の外で、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

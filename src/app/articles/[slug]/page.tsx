@@ -6,7 +6,6 @@ import {
   CardTitle,
   CardDescription,
 } from "@/components/ui/card";
-import { RandomTextAd } from "@/components/random-text-ad";
 import { ArticleBody } from "@/components/article-body";
 import { breadcrumbList } from "@/lib/jsonld";
 
@@ -133,11 +132,8 @@ export default async function ArticlePage({
         {article.description}
       </p>
 
-      {/* 記事本文（中盤にテキスト広告を挿入） */}
+      {/* 記事本文 */}
       <ArticleBody html={article.content} />
-
-      {/* シェア直上のテキスト広告 */}
-      <RandomTextAd />
 
       {/* SNS共有 */}
       <div className="mt-8 space-y-3">

@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 長岡京市の子育てのお金の記事。
 //
@@ -43,9 +42,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // 中学生は2枚を用途で使い分ける**のも初（京田辺3410も同じ色分けなので京都府内で共通）。
 // **高校生等は入院のみ助成で、しかも証なしの払い戻し**（恵庭3170・筑西3000の県マル福と同じ側）。
 // **資格情報のお知らせは本人確認書類として使用できません**も初。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -124,7 +120,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>高校生年代が外来まで対象かどうかは市によって違います</strong>。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>高校生年代が外来まで対象かどうかは市によって違います</strong>。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -158,10 +154,6 @@ const articles: InsuranceArticle[] = [
         a: "市は資格確認書等が手元に届いてから申請するよう案内しており、出生日に遡って適用されます。なお資格情報のお知らせは本人確認書類としては使えません。",
       },
     ],
-    cta: {
-      heading: "高校生年代の外来が対象外と知ったとき",
-      body: "長岡京市は中学生まで月200円の負担で済みますが、高校生等は入院のみが対象で外来は助成されません。食事療養費や室料差額も助成の外にあり、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

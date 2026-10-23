@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 神戸市の子育てのお金の記事。
 //
@@ -21,9 +20,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 //   1日最大400円を月2回までの負担（3回目以降、自己負担なし）
 // - 対象外は保険のきかない医療費と医療材料、差額ベッド代、健康診断料、予防接種料、証明書料など
 // - 受給者証の更新は2歳（3歳の誕生日の月末）・小学3年生・中学3年生の区切りで発生する
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -111,7 +107,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -141,10 +137,6 @@ const articles: InsuranceArticle[] = [
         a: "2歳のとき（3歳の誕生日の月末）、小学3年生の3月末、中学3年生の3月末の3回です。2歳の区切りは3歳の誕生日の翌月から外来の一部負担金が必要になるため、小学3年生の区切りは受給者番号が変わるためで、一部負担金の変更はありません。",
       },
     ],
-    cta: {
-      heading: "医療費が助成されても残る部分を確かめたいとき",
-      body: "神戸市は入院の自己負担がなく、通院も同じ月の3回目からは無料です。ただし差額ベッド代や食事代、付き添いで親が働けない期間の収入は助成の対象外です。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

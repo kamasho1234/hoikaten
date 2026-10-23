@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 日田市の子育てのお金の記事。
 //
@@ -44,9 +43,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **就職している人、婚姻している人等も含まれる**は袋井3680・袖ケ浦3810と同じ側で、
 // 多賀城3860（婚姻歴がある方は対象外）と正反対。
 // **申請を受け付けた翌月末に振込**、**申請期間は診察の翌月から1年以内**。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -116,7 +112,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>手続きの早さは出し方で変わります</strong>。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>手続きの早さは出し方で変わります</strong>。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -150,10 +146,6 @@ const articles: InsuranceArticle[] = [
         a: "まず加入している健康保険に「療養費」の支給申請をし、支給決定通知が届いてから子ども医療費助成金交付申請をします。",
       },
     ],
-    cta: {
-      heading: "出生や転入の手続きを急ぐとき",
-      body: "日田市は保険診療の自己負担額を全額助成しますが、入院時の食事代や文書作成料は助成の外にあります。付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

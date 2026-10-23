@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 高知市の子育てのお金の記事。
 //
@@ -28,9 +27,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // - 高知県内: 医療機関・保険薬局で(1)マイナ保険証または資格確認書と(2)受給者証を提示
 // - 高知県外: 受給者証は使えない。一旦自己負担で支払い、
 //   **診療月から2年間の間に申請することで払い戻しが受けられる**
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -124,7 +120,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -158,10 +154,6 @@ const articles: InsuranceArticle[] = [
         a: "保護者および世帯員が転入や単身赴任などで住所が高知市外の場合は、マイナンバーを利用した情報連携により地方税関係情報を取得するため「同意書」の提出が必要です。",
       },
     ],
-    cta: {
-      heading: "助成が中学生で終わるまでに備えたいとき",
-      body: "高知市の助成は中学生までで、高校生年代からは健康保険の自己負担が通常どおりかかります。個室代や入院時食事療養費標準負担額、付き添いで親が働けない期間の収入も助成の外です。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

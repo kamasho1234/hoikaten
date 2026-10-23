@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 下野市の子育てのお金の記事。
 //
@@ -52,9 +51,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // 手順も具体的。
 // **支給決定通知書の写しの添付がないと支払いを一時保留**という運用も珍しい。
 // **助成申請書は記入後、コピーに押印したものも可**は三郷3610・真岡3710と同じ発想。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -130,7 +126,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。市も<strong>「市町村によって対象年齢など受給要件が異なります」</strong>と案内しています。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。市も<strong>「市町村によって対象年齢など受給要件が異なります」</strong>と案内しています。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -164,10 +160,6 @@ const articles: InsuranceArticle[] = [
         a: "証明手数料や文書料、健康診断料、予防接種代、薬の容器代、入院時の差額室料、選定療養費等の保険診療外です。災害共済制度に該当するけがや疾病も共済が優先されます。",
       },
     ],
-    cta: {
-      heading: "確定申告で医療費をまとめるとき",
-      body: "下野市は助成を受けた分を医療費控除に使えず、差額室料や文書料は助成の外にあります。付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

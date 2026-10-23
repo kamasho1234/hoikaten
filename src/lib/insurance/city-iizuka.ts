@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 飯塚市の子育てのお金の記事。
 //
@@ -43,9 +42,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // ここまでの220市区で初めて。転入のほうが厳しい（月末の転入なら数日しかない）。必ず書く。
 // **16歳到達の年度初めから18歳到達の年度末までは入院のみ助成で通院は対象外**は
 // 川西2340（高校生は入院のみ無料）と同じ方向で2例目。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -132,7 +128,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>転入後にいつまで申請すればさかのぼれるかは自治体で大きく違います</strong>ので、引っ越したらまず窓口で確かめてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>転入後にいつまで申請すればさかのぼれるかは自治体で大きく違います</strong>ので、引っ越したらまず窓口で確かめてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -166,10 +162,6 @@ const articles: InsuranceArticle[] = [
         a: "加入している医療保険（健康保険、共済組合等）から高額療養費の支給を受けたときは、必ず市に連絡してください。",
       },
     ],
-    cta: {
-      heading: "高校生年代で変わる負担を見ておきたいとき",
-      body: "飯塚市は中学3年生まで通院が月1,200円で済みますが、高校生年代は通院が助成対象外になります。入院時の食事代も助成の外にあり、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

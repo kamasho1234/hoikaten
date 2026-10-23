@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 山口市の子育てのお金の記事。
 //
@@ -37,9 +36,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // - **更新は毎年8月1日。継続して受給できる人は自動更新**
 //
 // **所得制限には触れない。** このページに所得制限の記載がない。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -137,7 +133,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -179,10 +175,6 @@ const articles: InsuranceArticle[] = [
         a: "保険年金課、各総合支所総合サービス課、各地域交流センター（大殿、白石、湯田、小郡、秋穂、阿知須、徳地、阿東を除く）及び分館、大海総合センターです。交付申請は手書き用と電子申請（LoGoフォーム）のいずれかで行えます。",
       },
     ],
-    cta: {
-      heading: "全額助成でも残る部分を確かめたいとき",
-      body: "山口市は高校生世代まで、保険診療による医療費の自己負担分が全額助成されます。ただしお食事代や差額ベッド代など保険給付外のものは助成の外で、付き添いで親が働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

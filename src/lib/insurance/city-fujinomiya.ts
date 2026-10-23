@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 富士宮市の子育てのお金の記事。
 //
@@ -38,9 +37,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // 令和7年度以降は更新がなくなった**点とあわせて必ず書く。
 // **入院は食事療養費標準負担額も助成対象**（藤枝2020・焼津2030と同じ静岡県内の傾向）。
 // なお富士宮市は vacancy JSON がないため、/fujinomiya/vacancy へのリンクは張らない。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -124,7 +120,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。富士宮市は食事代まで助成する手厚いほうなので、<strong>転出すると入院時の負担が出てくる可能性が高い</strong>と考えておくのが現実的です。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。富士宮市は食事代まで助成する手厚いほうなので、<strong>転出すると入院時の負担が出てくる可能性が高い</strong>と考えておくのが現実的です。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -158,10 +154,6 @@ const articles: InsuranceArticle[] = [
         a: "払い戻しの対象になります。助成の対象は静岡県内の医療機関で受診する際にかかる医療費です。",
       },
     ],
-    cta: {
-      heading: "無償化でも残る費用を確かめたいとき",
-      body: "富士宮市は令和6年10月から保険診療分が自己負担なしになり食事代まで助成されますが、入院時の個室利用や特別初診料、証明書の費用は助成の外にあります。県外受診は立て替えが必要で、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

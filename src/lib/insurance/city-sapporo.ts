@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 札幌市の子育てのお金の記事。
 //
@@ -19,9 +18,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // - 対象外は薬の容器代・文書料・入院時の差額ベッド代や食事療養にかかる費用・
 //   ジェネリックがある薬で希望により先発医薬品を利用する場合に別途かかる料金など
 // - 妊婦一般健康診査受診票は14回分。母子健康手帳の交付時に各区保健センターで渡される
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -126,7 +122,7 @@ const articles: InsuranceArticle[] = [
 
 <p>ただし、子どもの医療費より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -160,10 +156,6 @@ const articles: InsuranceArticle[] = [
         a: "別の制度です。児童手当は令和6年10月から所得制限が撤廃されましたが、札幌市の子ども医療費助成には所得制限があります。",
       },
     ],
-    cta: {
-      heading: "所得制限で対象から外れる場合の考え方",
-      body: "所得が限度額を超えると、子どもの医療費は通常どおりの自己負担になります。年間でどのくらいかかりそうかを見積もったうえで、本当に備えが要るのかを判断すると無駄がありません。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

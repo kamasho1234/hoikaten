@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 広島市の子育てのお金の記事。
 //
@@ -39,9 +38,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // - **所得に関わらず全員が補助対象**（所得制限を撤廃）
 // - 通院の一部負担金限度額を初診料算定時500円/日（月4日まで）に引き下げ
 // - 医療証の有効期間の終期が「令和9年3月31日」から「次の誕生日の月末」に変わる
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -161,7 +157,7 @@ const articles: InsuranceArticle[] = [
 
 <p><a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、補助の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -199,10 +195,6 @@ const articles: InsuranceArticle[] = [
         a: "自己負担はありません。ただし食事療養に係る費用や室料差額など、保険診療外のものは対象外です。保険薬局（院外処方に限る）、指定訪問看護、あん摩マッサージ、はり・きゅう、柔道整復、治療用装具も自己負担なしです。",
       },
     ],
-    cta: {
-      heading: "所得制限で対象外の期間に備えを整えたいとき",
-      body: "広島市のこども医療費補助は2026年12月診療分まで所得制限があり、所得制限額以上の家庭はこの期間は補助を受けられません。室料差額や食事療養の費用、付き添いで親が働けない期間の収入も対象外です。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

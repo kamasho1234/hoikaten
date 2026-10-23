@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 呉市の子育てのお金の記事。
 //
@@ -54,9 +53,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 //   こども医療費受給者証／健康保険が確認できるもの／保護者名義の預金通帳／
 //   支給決定通知書（必要な人のみ）
 // - こどもの救急医療電話相談（#8000）受付時間 19時〜翌朝8時
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -166,7 +162,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -204,10 +200,6 @@ const articles: InsuranceArticle[] = [
         a: "健康診断や予防注射、特定診療費（紹介状なしの初診料）、夜間休日診療費の加算額、歯列矯正、薬の容器代など保険適用外のもの、および入院時の食事代です。",
       },
     ],
-    cta: {
-      heading: "上限があっても残る部分を確かめたいとき",
-      body: "呉市は18歳年度末まで所得制限なしで、同一医療機関の1か月の負担は通院2,000円・入院7,000円で止まります。ただし入院時の食事代や紹介状なしの初診料、夜間休日診療費の加算額は助成の外で、付き添いで親が働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

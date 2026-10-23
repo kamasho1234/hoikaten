@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 千代田区の子育てのお金の記事。
 //
@@ -52,9 +51,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 //   こども・高校生等医療証を亡失、汚損、破損等したとき
 //
 // **所得制限には触れない。** このページに所得制限の記載がない。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -159,7 +155,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>区外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>区外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -197,10 +193,6 @@ const articles: InsuranceArticle[] = [
         a: "健康保険が適用されない医療費（健康診断、予防接種、文書料、差額ベッド代、紹介状を持たずに受診した200床以上の病院の初診時選定療養費、長期収載品〈後発医薬品のある先発医薬品〉の選定療養費等）、他の医療費助成制度の適用分、加入保険が支給する医療費（交通事故等の保険）、児童館・学童クラブや学校内のけがで別の給付が受けられる場合です。",
       },
     ],
-    cta: {
-      heading: "食事代が助成されても残る部分を確かめたいとき",
-      body: "千代田区は18歳年度末まで保険診療の自己負担分が助成され、2025年4月からは入院時の食事代も対象になりました。ただし差額ベッド代や紹介状なしの200床以上の病院の初診時選定療養費は助成の外で、付き添いで親が働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

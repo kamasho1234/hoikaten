@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 宇都宮市の子育てのお金の記事。
 //
@@ -45,9 +44,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **窓口はタダなのに窓口で払うお金がある**（長期収載品の「特別の料金」）を軸にする。
 // 金額の作り方まで例つきで書いている市は409市区で初。
 // **即日交付できる地区市民センターが4つだけ名指しされている**のも珍しい。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -143,7 +139,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>現物給付が使える範囲は都道府県で切れます</strong>。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>現物給付が使える範囲は都道府県で切れます</strong>。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -177,10 +173,6 @@ const articles: InsuranceArticle[] = [
         a: "不要です。有効期限の区分は「未就学児〜小学生」「中学生〜18歳の年度末」で、中学1年生になるときに新しい受給資格者証が送付されます（自動更新）。",
       },
     ],
-    cta: {
-      heading: "県外の病院にかかる予定があるとき",
-      body: "宇都宮市は栃木県内なら窓口無料ですが、県外では一度立て替えて1年以内に申請し、振込まで約3か月かかります。入院時の食事代や差額ベッド代は助成の外にあり、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 泉大津市の子育てのお金の記事。
 //
@@ -42,9 +41,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // 牛久3110・守谷3330と並ぶ親切さ。
 // **同じ医療機関でも「医科と歯科」「入院と通院」は別の医療機関扱い**は
 // 富田林2920・糸島2980・宗像3010・交野3280と同じ。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -116,7 +112,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>訪問看護の扱いは自治体ごとにまったく違います</strong>。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>訪問看護の扱いは自治体ごとにまったく違います</strong>。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -150,10 +146,6 @@ const articles: InsuranceArticle[] = [
         a: "別に数えます。市は同じ医療機関でも「医科と歯科」「入院と通院」は別の医療機関扱いとなり、それぞれで一部自己負担金が発生するとしています。",
       },
     ],
-    cta: {
-      heading: "訪問看護や複数の通院先があるとき",
-      body: "泉大津市は訪問看護にも1日500円の負担がつき、医科と歯科、入院と通院も別々に数えます。月2,500円を超えた分は自分で還付申請しないと戻りません。診断書代や個室代は助成の外にあり、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

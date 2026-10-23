@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 越前市の子育てのお金の記事。
 //
@@ -45,9 +44,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // （白山2910＝申請の翌月28日、安曇野2990＝毎月第4水曜日、和光3100＝申請月の翌月15日と並ぶ）。
 // **ポルトガル語版の申請書がある**のも初。
 // **窓口無料に対応していない県内の医療機関がある**と明記しているのも珍しい。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -124,7 +120,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>保険が変わったときの届出は、ほとんどの自治体で必要です</strong>ので、越前市の扱いは他市では通用しません。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>保険が変わったときの届出は、ほとんどの自治体で必要です</strong>ので、越前市の扱いは他市では通用しません。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -158,10 +154,6 @@ const articles: InsuranceArticle[] = [
         a: "できます。子ども医療費受給資格認定申請は24時間いつでも電子申請が可能で、口座変更のみの手続きも電子申請が使えます。",
       },
     ],
-    cta: {
-      heading: "手続きが少ない分、残る実費を確かめたいとき",
-      body: "越前市は自己負担が無料で保険変更の届出も不要ですが、差額ベッド代や薬の容器代は助成の外にあり、付き添いで働けない期間の収入も助成されません。県外受診では立て替えも発生します。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

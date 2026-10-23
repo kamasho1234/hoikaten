@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 恵庭市の子育てのお金の記事。
 //
@@ -54,9 +53,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **令和8年8月1日から北海道の所得制限が廃止された**のが直近の改正。
 // **電子申請フォームが生計維持者の所得情報の所在で分かれる**も初。
 // **払い戻しは診療日の翌月1日から3年以内**（1年・5年が多いなか3年は珍しい）。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -142,7 +138,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>自己負担の上限を世帯で合算できるかどうかは自治体によって真逆です</strong>ので、きょうだいがいる家庭ほど確かめる価値があります。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>自己負担の上限を世帯で合算できるかどうかは自治体によって真逆です</strong>ので、きょうだいがいる家庭ほど確かめる価値があります。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -176,10 +172,6 @@ const articles: InsuranceArticle[] = [
         a: "診療日の翌月1日から3年以内です。窓口は市役所・支所・出張所です。",
       },
     ],
-    cta: {
-      heading: "きょうだいで受診が重なるとき",
-      body: "恵庭市は自己負担を世帯で合算できますが、高校生年代は入院のみが対象で、入院時の食事療養費は助成の外にあります。付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

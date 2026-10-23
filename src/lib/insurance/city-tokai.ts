@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 東海市の子育てのお金の記事。
 //
@@ -57,9 +56,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **0～2歳の子どもにごみ指定袋を1回のみ追加配布**（20リットル用燃えるごみ専用袋）も初。
 // **払い戻しを受けた助成額は医療費控除の「保険金などで補てんされる金額」に当たると明記**も初。
 // **在学証明書は退院後に取得すること・学生証では手続きできない**という指示も具体的。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -127,7 +123,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>大学生年代まで助成する市はごく限られます</strong>。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>大学生年代まで助成する市はごく限られます</strong>。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -165,10 +161,6 @@ const articles: InsuranceArticle[] = [
         a: "払い戻しを受けた医療費助成額は医療費控除の「保険金などで補てんされる金額」に該当するため、元の医療費から差し引いて申告します。提出した領収書は返ってこないので、必要ならコピーを取っておきます。",
       },
     ],
-    cta: {
-      heading: "子どもが大学に進む前に",
-      body: "東海市は大学生等の入院費まで助成しますが、対象は入院だけで、食事代や差額ベッド代は含まれません。付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

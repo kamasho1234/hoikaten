@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 大和市の子育てのお金の記事。
 //
@@ -60,9 +59,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 //   **こども総務課のみでできる手続き**:
 //     子ども医療証の氏名の変更、子ども医療証を使わずに医療費を支払った場合の払い戻しの申請
 //   郵送・電子申請が可能な手続き: 交付申請／健康保険の変更／住所変更（市内転居）／再交付
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -172,7 +168,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -210,10 +206,6 @@ const articles: InsuranceArticle[] = [
         a: "交付申請、再交付申請、住所変更、加入している健康保険の変更、子ども医療証の返却は、こども総務課・市民課・渋谷分室・中央林間分室でできます。ただし子ども医療証の氏名の変更と、医療証を使わずに医療費を支払った場合の払い戻しの申請は、こども総務課のみの受付です。",
       },
     ],
-    cta: {
-      heading: "助成があっても残る部分を確かめたいとき",
-      body: "大和市は18歳の年度末まで所得制限なしで助成が受けられます。ただし差額ベッド代や入院時の食事代は保険診療分ではないため助成の外で、県外受診や補装具は立て替えが必要になり、付き添いで親が働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 福島市の子育てのお金の記事。
 //
@@ -54,9 +53,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 //
 // **所得制限には触れない。** このページに所得制限の記載がない
 // （所得・課税状況の確認は、市外から転入した人の登録手続きの話として書かれている）。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -144,7 +140,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。窓口負担がなくなる範囲が近隣8市町村に限られる作りは福島市の設計なので、<strong>転出先では通える病院の範囲から変わります</strong>。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。窓口負担がなくなる範囲が近隣8市町村に限られる作りは福島市の設計なので、<strong>転出先では通える病院の範囲から変わります</strong>。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -178,10 +174,6 @@ const articles: InsuranceArticle[] = [
         a: "できません。受給資格者名義の金融機関の預金通帳またはキャッシュカードが必要で、子ども・配偶者名義の口座は登録できません。",
       },
     ],
-    cta: {
-      heading: "立て替えになる範囲を確かめたいとき",
-      body: "福島市は入院時の食事代まで助成しますが、窓口負担がなくなるのは加入保険と医療機関の場所で決まる限られた範囲だけです。それ以外は立て替えと申請になり、検診や予防接種、容器代は助成の外に残ります。付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

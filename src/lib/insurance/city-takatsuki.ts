@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 高槻市の子育てのお金の記事。
 //
@@ -36,9 +35,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 //   支給決定通知書の原本を用意する
 //
 // **注意: 高槻市は空き状況データがない。** /takatsuki/vacancy にリンクしないこと。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -140,7 +136,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。高槻市の完全無償化は大阪府内でも手厚いほうなので、<strong>転出すると窓口負担が復活する可能性が高い</strong>と考えておくのが現実的です。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。高槻市の完全無償化は大阪府内でも手厚いほうなので、<strong>転出すると窓口負担が復活する可能性が高い</strong>と考えておくのが現実的です。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -174,10 +170,6 @@ const articles: InsuranceArticle[] = [
         a: "国民健康保険課で子ども医療費助成の申請手続きを同時にできます。子ども医療証を提示して受給者である旨を申し出てください。この場合の支給は、国民健康保険からの支給の翌月末になります。",
       },
     ],
-    cta: {
-      heading: "完全無償でも残る部分を確かめたいとき",
-      body: "高槻市は2025年4月から一部自己負担額も入院時食事療養費も無償化され、18歳年度末まで窓口負担がありません。ただし差額ベッド代や選定療養費、付き添いで親が働けない期間の収入は助成の外です。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

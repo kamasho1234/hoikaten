@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 瑞穂市（岐阜県）の子育てのお金の記事。
 //
@@ -34,9 +33,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 //
 // **30日以内に申請しないと、申請月の初日からしか認定されない**のが瑞穂市で一番効く情報。
 // 出生・転入直後の受診分が自己負担になり得るので、記事の軸にする。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -98,7 +94,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いてください。<strong>30日以内という申請期限は瑞穂市の制度によるもの</strong>で、転居先では出生日にさかのぼる扱いのこともあります。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いてください。<strong>30日以内という申請期限は瑞穂市の制度によるもの</strong>で、転居先では出生日にさかのぼる扱いのこともあります。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -132,10 +128,6 @@ const articles: InsuranceArticle[] = [
         a: "保険診療のときは助成対象となる場合があります。いったん全額を支払い、保険者に申請して払い戻しを受けたうえで、療養費振込通知書・領収書・医師の装着証明書などを持って市に申請します。",
       },
     ],
-    cta: {
-      heading: "助成の外に残る費用を確かめたいとき",
-      body: "瑞穂市は高校生世代まで所得制限なしで助成されますが、保険診療外の費用は自己負担です。県外受診は立て替えと申請が必要で、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

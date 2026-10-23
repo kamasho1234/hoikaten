@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 川越市の子育てのお金の記事。
 //
@@ -56,9 +55,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 //   使用できなくなった受給資格証は速やかに返納する**
 //
 // **所得制限には触れない。** このページに所得制限の記載がない。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -170,7 +166,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -208,10 +204,6 @@ const articles: InsuranceArticle[] = [
         a: "有効期間内であっても川越市から転出した場合などは利用できなくなります。受給資格証を使用して医療機関などを受診した場合、その医療費相当分を後日、川越市へ返還することになります。使用できなくなった受給資格証は速やかに返納してください。",
       },
     ],
-    cta: {
-      heading: "立て替えが必要な分を確かめたいとき",
-      body: "川越市は高校生年代まで保険診療の自己負担金が支給されますが、1つの医療機関で同月中21,000円を超えると窓口でいったん支払うことになります。食事療養標準負担額や差額ベッド代は助成の外で、付き添いで親が働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

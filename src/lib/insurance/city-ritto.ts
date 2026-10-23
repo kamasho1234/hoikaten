@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 栗東市の子育てのお金の記事。
 //
@@ -31,9 +30,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // 子どもには適用されない。混ぜて書かないこと。
 // 記事の軸は**年齢が上がるごとに負担が3段階で変わる**点と、
 // **500円が「1診療報酬明細書当たり」で歯科は別計算**という数え方。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -96,7 +92,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いてください。<strong>「1診療報酬明細書当たり」という数え方は栗東市の制度によるもの</strong>で、転居先では1回ごとの定額や完全無償という場合もあります。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いてください。<strong>「1診療報酬明細書当たり」という数え方は栗東市の制度によるもの</strong>で、転居先では1回ごとの定額や完全無償という場合もあります。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -130,10 +126,6 @@ const articles: InsuranceArticle[] = [
         a: "医療機関で限度額適用認定証を提示すると、窓口で支払う額を一定額にとどめられます。オンライン資格確認を導入した医療機関等でマイナ保険証により確認できる場合は、認定証は不要です。",
       },
     ],
-    cta: {
-      heading: "助成の外に残る費用を確かめたいとき",
-      body: "栗東市は就学前が完全に無料ですが、小学生からは通院に500円、高校生になると入院にも1日1,000円がかかります。保険の利かない費用や、付き添いで働けない期間の収入は助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 弘前市の子育てのお金の記事。
 //
@@ -44,9 +43,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 //
 // 同じ青森県の青森市（order 1410）は「就職などにより保護者から独立して生計を立てている方」も
 // 対象外にしているが、**弘前は婚姻のみを挙げている**。県内でも書き方が違う。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -130,7 +126,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。青森県内なら受給資格証がそのまま使える仕組みは県単位なので、<strong>県外へ出ると立て替えと申請になります</strong>。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。青森県内なら受給資格証がそのまま使える仕組みは県単位なので、<strong>県外へ出ると立て替えと申請になります</strong>。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -164,10 +160,6 @@ const articles: InsuranceArticle[] = [
         a: "されません。入院時の食事療養費は対象外です。医療保険の適用が無い医療費、高額療養費や付加給付に該当する医療費、第三者行為による医療費、学校管理下で災害共済制度の対象となる医療費も対象になりません。",
       },
     ],
-    cta: {
-      heading: "資格証が届くまでの立て替えを確かめたいとき",
-      body: "弘前市は青森県内なら自己負担分が無料ですが、受給資格証が届くまで3～4週間かかり、その間は立て替えになります。入院時の食事療養費や保険が使えない費用は助成の外にあり、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

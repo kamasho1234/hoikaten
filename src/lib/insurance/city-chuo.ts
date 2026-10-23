@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 中央区の子育てのお金の記事。
 //
@@ -57,9 +56,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 //   更新にあたって手続きは不要
 //
 // **遡及できる期間の記載はこのページにない。書かないこと。**
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -194,7 +190,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>区外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>区外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -232,10 +228,6 @@ const articles: InsuranceArticle[] = [
         a: "健康保険が適用されない医療費（検診料、予防接種代、容器代、特例療養費、差額ベッド代等）、高額療養費・附加給付該当分、他の医療費助成制度の適用分、日本スポーツ振興センター給付適用による医療費です。",
       },
     ],
-    cta: {
-      heading: "食事代まで助成されても残る部分を確かめたいとき",
-      body: "中央区は18歳年度末まで所得制限なしで、保険診療の自己負担分と入院時の食事療養標準負担額が助成されます。ただし差額ベッド代は助成の外で、食事代や補装具は立て替えが必要になり、付き添いで親が働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 柏原市の子育てのお金の記事。
 //
@@ -50,9 +49,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **10割負担や治療用装具は時効が異なる場合がある**と但し書きしているのも初。
 // **入院時の食事代・治療用装具の費用・調剤薬局のお薬代は全額助成**は大阪府内では手厚い側
 // （守口2830・泉佐野2710・交野3280・泉大津3310と同じ）。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -129,7 +125,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>領収書が返ってくるかどうかも自治体によって違います</strong>。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>領収書が返ってくるかどうかも自治体によって違います</strong>。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -163,10 +159,6 @@ const articles: InsuranceArticle[] = [
         a: "窓口での申請ではマイナポータルの保険情報が分かる画面を提示し、郵送での申請ではその画面すべてを印刷したものを添付します。",
       },
     ],
-    cta: {
-      heading: "領収書を手元に残しておきたいとき",
-      body: "柏原市は原本とコピーを送れば押印して返してくれます。差額ベッド代や選定療養費は助成の外にあり、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

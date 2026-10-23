@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 杉並区の子育てのお金の記事。
 //
@@ -51,9 +50,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 //   **杉並区外に住所を有する子どもは助成対象外**
 //
 // **所得制限には触れない。** このページに所得制限の記載がない。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -176,7 +172,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>区外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>区外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -214,10 +210,6 @@ const articles: InsuranceArticle[] = [
         a: "原則不要です。医療証は毎年10月1日に更新され、子どもの年齢に応じて4月1日にマル乳からマル子、マル子からマル青へ切り替わります。なお、加入している医療保険によっては医療証に代わり受給資格証明書が交付されます。",
       },
     ],
-    cta: {
-      heading: "食事代が対象外の分を確かめたいとき",
-      body: "杉並区は都内の医療機関なら保険診療の自己負担分を払わずに受診できます。ただし入院時の食事療養標準負担額や差額ベッド代、おむつ代は助成の対象外で、付き添いで親が働けない期間の収入も助成の外です。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

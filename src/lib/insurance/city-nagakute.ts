@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 長久手市の子育てのお金の記事。
 //
@@ -56,9 +55,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // という、他制度との関係が細かく決まっている点も書く。
 // **令和6年10月1日から18歳年度末まで拡大**、**中学生までの旧受給者証は回収BOXへ**も書く。
 // ※長久手市は当サイトにシミュレーターも空き状況もないため、市内ページへのリンクは張らない。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -151,7 +147,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いてください。<strong>他の医療費助成に該当すると6歳で切り替わる扱いは長久手市の制度によるもの</strong>で、転居先では併用の考え方が変わります。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いてください。<strong>他の医療費助成に該当すると6歳で切り替わる扱いは長久手市の制度によるもの</strong>で、転居先では併用の考え方が変わります。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -185,10 +181,6 @@ const articles: InsuranceArticle[] = [
         a: "市役所に来た際に、保険医療課に設置してある回収BOXに返却してください。令和6年9月20日に有効期限を18歳の年度末まで延長した新しい受給者証が送付されています。",
       },
     ],
-    cta: {
-      heading: "助成の外に残る費用を確かめたいとき",
-      body: "長久手市は18歳年度末まで県内の窓口負担がありませんが、入院時の差額ベッド代や食事負担は助成の外にあります。県外受診や補装具は立て替えになり、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

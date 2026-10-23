@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 箕面市の子育てのお金の記事。
 //
@@ -46,9 +45,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **同じ市役所の本館1階でも、窓口によって「即日交付」と「後日郵送」に分かれる**のは、
 // ここまでの220市区で初めて。急ぐ人がどちらへ行けばよいかが分かる情報なので必ず書く。
 // 大阪府方式の「1日500円・月2日限度・月2,500円上限」は和泉2310と同じ。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -128,7 +124,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>自己負担の上限や払い戻しの要不要は自治体で違います</strong>ので、複数の病院にかかる家庭ほど差が出ます。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>自己負担の上限や払い戻しの要不要は自治体で違います</strong>ので、複数の病院にかかる家庭ほど差が出ます。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -162,10 +158,6 @@ const articles: InsuranceArticle[] = [
         a: "使えません。後日、市役所で払い戻しの申請をしてください。",
       },
     ],
-    cta: {
-      heading: "助成の外に残る費用を確かめたいとき",
-      body: "箕面市は所得制限なしで高校卒業年齢まで助成されますが、入院時の食事代や個室代は助成の外にあります。複数の病院にかかった月は自分で払い戻しを申請する必要があり、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

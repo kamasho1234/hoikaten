@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 磐田市の子育てのお金の記事。
 //
@@ -42,9 +41,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **「医療費が高額になる場合は、限度額適用認定証を提示して、こども医療受給者証は使用しない」**は
 // ここまでの208市区で初めての手順（石巻2220は「受給者証と併せて提示する」と真逆）。必ず書く。
 // **払い戻しの期限が受診日・入院日から1年**なのも短い部類（海老名2230と同じ）。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -129,7 +125,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>高額療養費のときに受給者証を使うか使わないかは自治体で正反対に分かれます</strong>ので、転居先の案内を読み直してください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>高額療養費のときに受給者証を使うか使わないかは自治体で正反対に分かれます</strong>ので、転居先の案内を読み直してください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -163,10 +159,6 @@ const articles: InsuranceArticle[] = [
         a: "できますが、委任状が必要です。受給者証の交付・再交付申請、記載事項等変更届、助成申請のいずれも同じです。",
       },
     ],
-    cta: {
-      heading: "入院の手順を間違えないために",
-      body: "磐田市は通院も入院も無料ですが、高額になるときは限度額適用認定証を使い受給者証を出さない手順になります。入院証明書料や特定初診料は助成の外にあり、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

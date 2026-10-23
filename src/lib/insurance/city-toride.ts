@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 取手市の子育てのお金の記事。
 //
@@ -52,9 +51,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // はっきり書かれていて珍しい。
 // **災害共済給付の範囲を「保険診療分の自己負担額が1,500円以上」と金額で示す**のは
 // 土浦2240（診療点数500点未満）に次いで2例目。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -145,7 +141,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>入院と外来で受給者証が分かれる自治体はほとんどありません</strong>ので、転居先の案内を読み直してください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>入院と外来で受給者証が分かれる自治体はほとんどありません</strong>ので、転居先の案内を読み直してください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -179,10 +175,6 @@ const articles: InsuranceArticle[] = [
         a: "申請内容の確認が終わった月の翌月末に口座振込です。受診月の翌月以降に、月単位でまとめて領収書（原本）と口座番号の分かるものを持参してください。振込先は児童手当などの振込先とは別です。",
       },
     ],
-    cta: {
-      heading: "入院前に確かめておきたいこと",
-      body: "取手市は中学生以上だと入院用の受給者証を別に交付してもらう必要があり、県外入院は最初から償還払いです。外来1日600円・入院1日300円の自己負担も残り、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

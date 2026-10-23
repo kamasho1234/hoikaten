@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 金沢市の子育てのお金の記事。
 //
@@ -40,9 +39,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 //
 // **注意: 金沢市は空き状況データ（src/lib/vacancy/kanazawa.json）がない。**
 // 記事から /kanazawa/vacancy にリンクしないこと。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -129,7 +125,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -163,10 +159,6 @@ const articles: InsuranceArticle[] = [
         a: "自費診療分、健康診断の費用、予防接種代、文書料、入院の食事代、差額ベッド代などです。また2024年10月から、後発医薬品がある薬で先発医薬品の処方を希望した場合の特別の料金も対象になりません（医療上の必要があると認められる場合は発生しないことがあります）。",
       },
     ],
-    cta: {
-      heading: "通院の助成が中3で切れるあいだに備えたいとき",
-      body: "金沢市の通院は中学3年生まで（2027年1月から18歳まで拡大）で、それまでの期間は高校生年代の通院が自己負担になります。差額ベッド代や入院の食事代も助成の外です。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

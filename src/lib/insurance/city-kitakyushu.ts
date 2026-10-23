@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 北九州市の子育てのお金の記事。
 //
@@ -27,9 +26,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 //
 // **注意: 北九州市は空き状況データ（src/lib/vacancy/kitakyushu.json）がない。**
 // 記事から /kitakyushu/vacancy にリンクしないこと。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -110,7 +106,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -140,10 +136,6 @@ const articles: InsuranceArticle[] = [
         a: "高額療養費やほかの制度で自己負担額が支給された場合、市の助成金を返還してもらうことがあります。後日給付を受けたときは区役所に連絡してください。",
       },
     ],
-    cta: {
-      heading: "医療費が助成されても残る部分を確かめたいとき",
-      body: "北九州市は入院と薬局の自己負担がなく、通院も年齢ごとの月上限で止まります。ただし入院時の食事代や個室代、付き添いで親が働けない期間の収入は助成の対象外です。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

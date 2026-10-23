@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 市川市の子育てのお金の記事。
 //
@@ -48,9 +47,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 //
 // **千葉県内の医療機関で受給券と健康保険情報がわかるものを提示すると、
 //   保険適用分については自己負担金のみの支払いとなる。**
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -153,7 +149,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -191,10 +187,6 @@ const articles: InsuranceArticle[] = [
         a: "健康保険が適用されないものです。乳幼児健診料・健康診断料・予防接種料・薬の容器代・差額ベッド代・文書料・医療機関への交通費・大学病院等（200床以上）の初診時にかかる保険外の費用（紹介状がない場合にかかる料金）などが該当します。",
       },
     ],
-    cta: {
-      heading: "助成があっても残る部分を確かめたいとき",
-      body: "市川市は高校生相当年齢まで所得制限なしで、通院6回・入院11日目からは自己負担もなくなります。ただし差額ベッド代や紹介状なしで大学病院を受診したときの費用、医療機関への交通費は助成の外で、付き添いで親が働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

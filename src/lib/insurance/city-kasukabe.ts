@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 春日部市の子育てのお金の記事。
 //
@@ -51,9 +50,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 //   受給資格者の個人番号カード等／対象となるこどもの個人番号カードまたは通知カード
 //
 // **所得制限には触れない。** このページに所得制限の記載がない。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -167,7 +163,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -205,10 +201,6 @@ const articles: InsuranceArticle[] = [
         a: "できます。対象となるこどもが加入する健康保険の情報が分かるものについて、こどものものが手元にない場合は保護者のものでも受け付けられます。",
       },
     ],
-    cta: {
-      heading: "窓口払いがなくても残る部分を確かめたいとき",
-      body: "春日部市は18歳の年度末まで、埼玉県内の現物給付対象医療機関と市内の指定施術所なら窓口での支払いがありません。ただし入院時食事療養標準負担額や差額ベッド代、おむつ代は助成の外で、付き添いで親が働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // さいたま市の子育てのお金の記事。
 //
@@ -30,9 +29,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **所得制限には触れない。** 市のページにも「医療費助成まるわかりBOOK」PDFにも
 // 所得制限の記載がない（PDFは画像で本文テキストを持たない）。
 // 記載がないことを「所得制限なし」と書き換えない。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -135,7 +131,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -169,10 +165,6 @@ const articles: InsuranceArticle[] = [
         a: "保育園・幼稚園・学校などの管理下でのケガや病気で日本スポーツ振興センターの災害共済給付の対象になる場合は、受給資格証を使わずにいったん窓口で支払い、災害共済給付を申請してください。対象になるかどうかは学校や保育園に問い合わせてください。",
       },
     ],
-    cta: {
-      heading: "窓口が0円でも残る部分を確かめたいとき",
-      body: "さいたま市は18歳の年度末まで保険診療分が全額助成され、県内なら窓口払いもありません。ただし差額ベッド代や食事療養標準負担額、付き添いで親が働けない期間の収入は助成の対象外です。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

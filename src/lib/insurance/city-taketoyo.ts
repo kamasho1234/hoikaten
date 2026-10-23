@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 武豊町の子育てのお金の記事。
 //
@@ -45,9 +44,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **町から届く高額療養費の委任書類**と、
 // **保険者から自動で高額療養費を受け取ってしまったら返還が必要**という点が武豊町の軸。
 // 知らずに放置すると町から納付書が来るので、記事で先に説明する。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -112,7 +108,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>町外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いてください。<strong>高額療養費を町が保険者へ請求する仕組みは武豊町の運用によるもの</strong>で、転居先では扱いが変わります。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>町外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いてください。<strong>高額療養費を町が保険者へ請求する仕組みは武豊町の運用によるもの</strong>で、転居先では扱いが変わります。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -146,10 +142,6 @@ const articles: InsuranceArticle[] = [
         a: "子どもの医療保険の資格を取得してから申請できます。子どもの資格確認書またはマイナンバーカードと、来庁者の本人確認書類を持参してください。",
       },
     ],
-    cta: {
-      heading: "助成の外に残る費用を確かめたいとき",
-      body: "武豊町は18歳年度末まで県内の窓口負担がありませんが、入院時の食事負担金や差額ベッド代、歯列矯正は助成の外にあります。県外受診は立て替えが必要で、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

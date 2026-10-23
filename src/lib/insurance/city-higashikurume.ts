@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 東久留米市の子育てのお金の記事。
 //
@@ -48,9 +47,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // （200円未満なら200円ではなく実額）。
 // **都外国民健康保険（組合）加入者は医療証を出しても助成が受けられない**は東京都特有の落とし穴。
 // **他人の飼い犬に咬まれた**を第三者行為の例に挙げているのも初。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -135,7 +131,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>通院200円は同じ都内でも撤廃した市とそのままの市に割れています</strong>ので、引っ越したら確かめる価値があります。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>通院200円は同じ都内でも撤廃した市とそのままの市に割れています</strong>ので、引っ越したら確かめる価値があります。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -169,10 +165,6 @@ const articles: InsuranceArticle[] = [
         a: "令和8年4月1日からPMHへの連携が始まり、東京都内のPMH対応可能な医療機関・薬局ではマイナンバーカードの提示だけで資格確認ができます。紙の受給者証も引き続き交付されます。",
       },
     ],
-    cta: {
-      heading: "加入している保険で扱いが変わると知ったとき",
-      body: "東久留米市は都外の国民健康保険だと医療証が効かず、毎回立て替えになります。入院時の食事代や差額ベッド代も助成の外にあり、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

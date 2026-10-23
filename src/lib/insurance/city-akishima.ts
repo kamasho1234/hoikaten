@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 昭島市の子育てのお金の記事。
 //
@@ -52,9 +51,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **必要書類が揃わなくても申請できる**も初。
 // **子どもと申請者の住民票登録地が異なる人だけ6月の現況届が要る**も初。
 // 昭島は令和6年10月からマル子・マル青とも全額助成（通院200円なし）＝**撤廃側**。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -135,7 +131,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>申請の期限は15日の市もあれば30日の市もあります</strong>ので、引っ越したら真っ先に確かめてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>申請の期限は15日の市もあれば30日の市もあります</strong>ので、引っ越したら真っ先に確かめてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -169,10 +165,6 @@ const articles: InsuranceArticle[] = [
         a: "保育園等や学校の管理下における傷病で日本スポーツ振興センター等の給付を受けた場合は対象外です。医療証を使用する場合は、事前に手当医療助成係に連絡するよう案内されています。",
       },
     ],
-    cta: {
-      heading: "全額助成でも残る実費を確かめたいとき",
-      body: "昭島市は保険診療分の自己負担が全額助成されますが、入院時の食事療養費や入院室料差額、文書料は助成の外にあり、付き添いで働けない期間の収入も助成されません。都外受診では毎回立て替えも発生します。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

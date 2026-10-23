@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 倶知安町（北海道虻田郡）の子育てのお金の記事。
 //
@@ -41,9 +40,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **初診時だけ医科580円・歯科510円**という北海道の形が軸。
 // **転入月によって所得課税証明書が2年度分必要になる**のと、**同意書を出せば不要**が実務的。
 // **指定訪問看護基本利用料を町が独自に助成**しているのも書く価値がある。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -115,7 +111,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>町外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>初診時一部負担金という仕組みは、道外から来ると馴染みが薄い部分です</strong>。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>町外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>初診時一部負担金という仕組みは、道外から来ると馴染みが薄い部分です</strong>。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -149,10 +145,6 @@ const articles: InsuranceArticle[] = [
         a: "戻ります。子どもの健康保険資格確認書等、子ども医療費受給者証、領収書（原本）、保護者の銀行口座がわかるもの（コピーでも可）を持って手続きします。",
       },
     ],
-    cta: {
-      heading: "転入の手続きをこれからするとき",
-      body: "倶知安町は転入月によって所得課税証明書が2年度分必要になります。初診時の負担は残り、学校のけがは災害共済給付が先です。付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

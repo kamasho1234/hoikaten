@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 三条市の子育てのお金の記事。
 //
@@ -49,9 +48,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **出生から1歳の誕生月までは、減額認定証を持っている場合に限り入院時の食事代が対象**という
 // 条件付きの食事代助成も初（朝霞2380の「非課税世帯等のみ」に次ぐ2例目の条件付き）。
 // なお三条市は vacancy JSON がないため、/sanjo/vacancy へのリンクは張らない。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -137,7 +133,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>自己負担の額は自治体で大きく違います</strong>ので、通院や入院が続く家庭ほど差が出ます。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>自己負担の額は自治体で大きく違います</strong>ので、通院や入院が続く家庭ほど差が出ます。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -171,10 +167,6 @@ const articles: InsuranceArticle[] = [
         a: "令和6年から年1回の受給者証の送付は行われていません。手元の受給者証を期間終了まで使います。破棄・紛失した場合は窓口またはマイナポータルの電子申請で再交付を申請してください。",
       },
     ],
-    cta: {
-      heading: "入院の負担を見ておきたいとき",
-      body: "三条市は外来が月4回分で頭打ちになる一方、入院は1日1,200円で日数の上限が示されていません。差額ベッド代も助成の外にあり、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

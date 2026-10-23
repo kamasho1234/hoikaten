@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 稲沢市の子育てのお金の記事。
 //
@@ -27,9 +26,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // 掛川2050（市が受領）・小牧2000（市が代わりに請求）・橿原1900（自分で請求しないで）・
 // 各務原2010（先に自分で申請して）に続く5通り目の書き方。
 // **出生の電子申請**に触れているのは、刈谷1990（ぴったりサービス）に次ぐ。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -95,7 +91,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>高額療養費の扱いは自治体ごとに書き方が分かれます</strong>ので、転居先の案内を読み直してください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>高額療養費の扱いは自治体ごとに書き方が分かれます</strong>ので、転居先の案内を読み直してください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -129,10 +125,6 @@ const articles: InsuranceArticle[] = [
         a: "受給者証が使えないため、いったん支払って後から支給申請をします。医師の指示で補装具を作ったときも同じです。",
       },
     ],
-    cta: {
-      heading: "入院で残る費用を確かめたいとき",
-      body: "稲沢市は所得制限なしで18歳年度末まで現物給付ですが、入院時の部屋代や食事代は助成の外にあります。高額療養費や附加給付にあたる分は除いて助成される仕組みで、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

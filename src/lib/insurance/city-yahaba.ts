@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 矢巾町（岩手県紫波郡）の子育てのお金の記事。
 //
@@ -35,9 +34,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // 「1回いくら」ではなく**月いくら**なので、同じ医療機関に何度通っても頭打ちになる。
 // **非課税世帯は0円**という例外もセットで書く。
 // **受給者証の左上の「現物」の字**で自分がどちらの方式か分かるのも実務的。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -108,7 +104,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>町外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>自己負担を1回ごとにするか月ごとにするかで、通院が続く家庭の負担は大きく変わります</strong>。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>町外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>自己負担を1回ごとにするか月ごとにするかで、通院が続く家庭の負担は大きく変わります</strong>。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -142,10 +138,6 @@ const articles: InsuranceArticle[] = [
         a: "受給者証を提示して一部負担金を支払い、「医療費給付申請書」を提出すると、約2〜3か月後に自己負担額を超えた分が支給されます。高校卒業以降はこの方式です。",
       },
     ],
-    cta: {
-      heading: "複数の科にかかる月が増えたとき",
-      body: "矢巾町の自己負担は医療機関ごとの月額なので、かかる医療機関が増えるほど積み上がります。保険適用外の費用はそもそも助成の外で、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

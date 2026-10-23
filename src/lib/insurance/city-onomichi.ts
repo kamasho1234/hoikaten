@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 尾道市の子育てのお金の記事。
 //
@@ -44,9 +43,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **尾道は医科と歯科を別に数えること、訪問看護と施術所をそれぞれ月4日まで数えること、
 // 「入院期間が180日を超えるときの入院料の一部」が対象外であることまで書いている**。
 // この細かさは記事に書く価値がある。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -131,7 +127,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>負担の上限を日数で切る仕組みは広島県内で見かけますが、全国では多くありません</strong>。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>負担の上限を日数で切る仕組みは広島県内で見かけますが、全国では多くありません</strong>。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -165,10 +161,6 @@ const articles: InsuranceArticle[] = [
         a: "入院期間が180日を超えるときの入院料の一部は助成対象外です。入院時の食事・おむつ・差額部屋代も対象になりません。",
       },
     ],
-    cta: {
-      heading: "積み上がる500円と、その外の費用を確かめたいとき",
-      body: "尾道市は1日500円の一部負担金が医療機関ごと・診療科ごとに数えられ、通う先が増えるほど積み上がります。入院時の食事や差額部屋代、180日を超える入院料の一部は助成の外にあり、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

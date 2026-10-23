@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 北見市の子育てのお金の記事。
 //
@@ -50,9 +49,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **財源に物価高騰対応重点支援地方創生臨時交付金**を明記しているのは
 // 岩国1880・石巻2220・入間2370に次いで4例目。
 // なお北見市は vacancy JSON がないため、/kitami/vacancy へのリンクは張らない。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -154,7 +150,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>所得制限の有無は自治体で大きく違います</strong>ので、転居先の案内を読み直してください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>所得制限の有無は自治体で大きく違います</strong>ので、転居先の案内を読み直してください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -188,10 +184,6 @@ const articles: InsuranceArticle[] = [
         a: "医療を受けた日の翌月から2年以内です。受給者証が届く前の受診、道外の医療機関での受診、治療用装具、月額限度額を超えて支払ったときなどが対象です。",
       },
     ],
-    cta: {
-      heading: "自己負担の上限を見ておきたいとき",
-      body: "北見市は初診時の一部負担金だけで済みますが、訪問看護には月額と年間の上限があり、入院時の食事代は助成の外にあります。所得制限もあり、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

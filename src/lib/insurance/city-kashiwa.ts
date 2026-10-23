@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 柏市の子育てのお金の記事。
 //
@@ -39,9 +38,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 //   健康保険の資格確認書等を提示しないで受診した場合
 // - **月額上限の適用を受けたい場合は、同月に受診した分の領収書をまとめて提出する**
 // - 市内転居は手続き不要（自分で受給券の住所欄を訂正。8月の更新時に新住所のものが届く）
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -157,7 +153,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -187,10 +183,6 @@ const articles: InsuranceArticle[] = [
         a: "月額上限の適用を受けたい場合は、同月に受診した分の領収書をまとめて提出してください。1回ずつ提出すると上限の計算ができません。当月診療分の領収書は翌月以降の受付になります。県外の医療機関や委託を受けていない医療機関での受診、受給券が届く前の受診、補装具・弱視眼鏡代などが償還払いの対象です。",
       },
     ],
-    cta: {
-      heading: "上限まで含めても残る部分を確かめたいとき",
-      body: "柏市の通院は1医療機関あたり月1,500円、入院は月3,000円で止まります。ただし差額ベッド料や食事代、付き添いで親が働けない期間の収入は助成の対象外です。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

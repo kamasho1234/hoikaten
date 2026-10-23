@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 桑名市の子育てのお金の記事。
 //
@@ -57,9 +56,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 //
 // **「24,600円を超えると限度額適用認定証がないと現物給付にならない」という金額は、
 // ここまでの166市区で初めて見た具体的な線。** 必ず書く。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -140,7 +136,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>三重県内なら受給者証がそのまま使える仕組みは県単位</strong>なので、県外へ出ると立て替えと申請になります。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>三重県内なら受給者証がそのまま使える仕組みは県単位</strong>なので、県外へ出ると立て替えと申請になります。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -178,10 +174,6 @@ const articles: InsuranceArticle[] = [
         a: "三重県の医療費助成制度（補助金）の所得制限基準を超える方への助成は桑名市が独自に上乗せして実施しているためです。確認は新規申請時と受給資格の更新時期（毎年9月）に行われます。",
       },
     ],
-    cta: {
-      heading: "窓口無料にならない場面を確かめたいとき",
-      body: "桑名市は三重県内なら窓口負担がありませんが、桑名市国保で24,600円を超える入院は限度額適用認定証が必要です。鍼灸院や柔道整復は年齢を問わず立て替えになり、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

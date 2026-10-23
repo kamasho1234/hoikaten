@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 岡崎市の子育てのお金の記事。
 //
@@ -37,9 +36,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 //   重複分は市へ返還することになる
 //
 // **注意: 岡崎市は空き状況データがない。** /okazaki/vacancy にリンクしないこと。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -125,7 +121,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -163,10 +159,6 @@ const articles: InsuranceArticle[] = [
         a: "医師の指示により関節用装具、コルセット等の治療用装具を購入した場合も助成の対象になります。",
       },
     ],
-    cta: {
-      heading: "高校生世代の通院が自己負担になるまでに備えたいとき",
-      body: "岡崎市は中学校卒業までは受給者証で自己負担がありませんが、高校生世代は入院だけが助成され通院は自己負担になります。個室使用料や入院時の食事代、付き添いで親が働けない期間の収入も助成の外です。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

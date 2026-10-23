@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 交野市の子育てのお金の記事。
 //
@@ -57,9 +56,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **交野市で児童手当を受給している場合（公務員以外）は口座欄は申請書にチェックのみで可**も初。
 // **出生届を他市区町村や時間外に提出した場合の窓口が別**（ゆうゆうセンター2階）も初。
 // 入院時食事療養費・訪問看護の利用料も対象なのは大阪府内では守口2830・泉佐野2710と同じ側。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -141,7 +137,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>同じ大阪府内でも、超過分が自動で戻る市と申請が要る市に分かれています</strong>。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>同じ大阪府内でも、超過分が自動で戻る市と申請が要る市に分かれています</strong>。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -175,10 +171,6 @@ const articles: InsuranceArticle[] = [
         a: "ゆうゆうセンター2階の子育て支援課窓口です。時間外に提出した場合も同じです。通常の新規申請は、出生・転入届出時に市役所本庁1階の福祉サービスコーナー窓口で受け付けています。",
       },
     ],
-    cta: {
-      heading: "うっかり忘れても取り戻せる仕組みでも",
-      body: "交野市は当月内なら医療機関で精算できますが、月2,500円を超えた分は自分で申請しないと戻りません。入院時の個室代や文書料は助成の外にあり、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

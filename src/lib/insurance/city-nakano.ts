@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 中野区の子育てのお金の記事。
 //
@@ -54,9 +53,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // - 区は適正受診も呼びかけている（小児救急電話相談）
 //
 // **申請期限（遡及できる期間）の記載はこのページにない。書かないこと。**
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -182,7 +178,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>区外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>区外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -220,10 +216,6 @@ const articles: InsuranceArticle[] = [
         a: "原則として使用できません。ただし区が認めた場合に限り、「第三者行為による傷病届」や「損害賠償請求権の譲渡」の書類等を区に提出することで医療証を使用できます。その後、区が立て替えた医療費を区から加害者に請求することになります。医療証を使用する前に必ず速やかに子ども医療助成係へ連絡してください。",
       },
     ],
-    cta: {
-      heading: "食事代が対象外の分を確かめたいとき",
-      body: "中野区は0歳から18歳まで所得制限なしで、都内の医療機関なら保険診療の自己負担分が助成されます。ただし入院時の食事療養標準負担額や差額ベッド代は助成の対象外で、付き添いで親が働けない期間の収入も助成の外です。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

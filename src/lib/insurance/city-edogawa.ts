@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 江戸川区の子育てのお金の記事。
 //
@@ -44,9 +43,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 //   （小松川・葛西・小岩・東部・鹿骨）
 // - **4月から新小学1年生・新高校1年生相当の年齢になる子どもには、4月1日から有効の
 //   新しい子ども医療証を3月中旬に送付。更新に伴う申請手続きは不要**
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -160,7 +156,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>区外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>区外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -198,10 +194,6 @@ const articles: InsuranceArticle[] = [
         a: "保険診療に該当しないもの（差額ベッド代・薬の容器代・文書料・予防接種代・健診料・選定療養費等）、健康保険組合等から支給される高額療養費や付加給付金に該当するもの、交通事故など第三者行為によるもの、学校・幼稚園・保育園の管理下でのけが（日本スポーツ振興センター法が適用される医療費）、小児慢性疾患など他の医療費助成制度で助成を受けられるものです。",
       },
     ],
-    cta: {
-      heading: "食事代まで助成されても残る部分を確かめたいとき",
-      body: "江戸川区は18歳年度末まで所得制限なしで、入院時の食事代や保険適用の補装具まで助成されます。ただし差額ベッド代や選定療養費、付き添いで親が働けない期間の収入は助成の外です。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

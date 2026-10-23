@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 豊明市の子育てのお金の記事。
 //
@@ -31,9 +30,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **助成対象は保険診療の自己負担分（療養費等が支給された場合はその額を控除した額）**という
 // 控除の書き方は、療養費との二重助成を避ける趣旨。
 // 自己負担額の有無は当ページに記載がないため書かない。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -95,7 +91,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>高校生年代を通院まで対象にするかどうかは自治体で分かれます</strong>。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>高校生年代を通院まで対象にするかどうかは自治体で分かれます</strong>。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -125,10 +121,6 @@ const articles: InsuranceArticle[] = [
         a: "有効期限を18歳到達年度末とした受給者証が令和6年3月15日に発送されました。平成18年4月2日生まれから平成20年4月1日生まれの方には、令和5年12月に交付手続きの案内が発送されています。",
       },
     ],
-    cta: {
-      heading: "高校生年代まで対象が広がったと知ったとき",
-      body: "豊明市は令和6年4月から通院も18歳到達年度末までが対象です。療養費等が支給された分は控除され、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

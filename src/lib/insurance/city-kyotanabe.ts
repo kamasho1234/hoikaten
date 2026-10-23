@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 京田辺市の子育てのお金の記事。
 //
@@ -41,9 +40,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **令和7年12月1日から従来の健康保険証は交付手続きに使えない**と明記しているのは322市区で初。
 // **受給者証の更新は小6の3月末と中3の3月末の2回だけ**（関3070の「小学校入学時と中学校卒業時」と近い）。
 // **4月1日生まれの方は18歳の誕生日の前日まで**は木津川3380・富田林2920・桶川3400と同じ注記。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -112,7 +108,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>県や府の制度に市がどこまで上乗せしているかは、同じ府内でも市によって違います</strong>。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>県や府の制度に市がどこまで上乗せしているかは、同じ府内でも市によって違います</strong>。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -146,10 +142,6 @@ const articles: InsuranceArticle[] = [
         a: "出生から満18歳に達した日以後の最初の3月31日まで（高校生の年齢まで）です。4月1日生まれの方は18歳の誕生日の前日までとされています。令和5年9月1日から高校生の年齢まで拡充されました。",
       },
     ],
-    cta: {
-      heading: "府と市のどちらの制度かを確かめたいとき",
-      body: "京田辺市は受給者証の色で府制度と市単独制度が分かれます。入院時の食事代やベッド代、紹介状なしの初診料は助成の外にあり、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

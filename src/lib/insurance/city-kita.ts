@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 北区の子育てのお金の記事。
 //
@@ -51,9 +50,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 //   代理人が申請する場合は代理人の本人確認書類
 //   **「個人番号通知書」はマイナンバー法上の番号確認書類や身元確認書類としては利用できない**
 //   （「個人番号通知カード」は記載事項が住民票と一致している場合に限り使用できる）
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -158,7 +154,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>区外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>区外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -200,10 +196,6 @@ const articles: InsuranceArticle[] = [
         a: "都外の国民健康保険に加入している場合、医療証は発行されません。一度自己負担額を支払い、北区へ医療費の還付申請をすることになります。都外の医療機関を受診したときも同じです。",
       },
     ],
-    cta: {
-      heading: "食事代が対象外の分を確かめたいとき",
-      body: "北区は高校生相当年齢まで所得制限なしで、都内の医療機関なら自己負担額が助成されます。ただし入院時の食事療養費や差額ベッド代は助成の対象外で、付き添いで親が働けない期間の収入も助成の外です。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

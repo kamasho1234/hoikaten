@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 堺市の子育てのお金の記事。
 //
@@ -35,9 +34,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 //
 // **「月2,500円を超えたら払い戻し」は書かない。** 検索結果には出てくるが
 // 堺市のページ本文で確認できなかった。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -136,7 +132,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -170,10 +166,6 @@ const articles: InsuranceArticle[] = [
         a: "健康保険の自己負担額を支払った後に、還付の申請をしてください。領収書は取っておいてください。大阪府内の医療機関等では窓口で医療証等を提示すれば一部自己負担額の支払いだけで済み、2026年4月からは府内の一部医療機関でマイナ保険証により資格情報を確認できるようになります。",
       },
     ],
-    cta: {
-      heading: "助成の外に出る部分を確かめたいとき",
-      body: "堺市は入院時の食事療養まで助成に含まれ、負担も1医療機関あたり月1,000円で止まります。ただし差額ベッド代や病衣・おむつ代、付き添いで親が働けない期間の収入は対象外です。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

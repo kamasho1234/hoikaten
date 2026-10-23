@@ -1,5 +1,3 @@
-import { RandomTextAd } from "./random-text-ad";
-
 // 記事本文の prose スタイル（記事ページ間で共通）
 const PROSE_CLASS = `
   prose prose-sm sm:prose-base max-w-none
@@ -27,27 +25,10 @@ const PROSE_CLASS = `
   [&_.highlight]:bg-yellow-100 [&_.highlight]:px-1 [&_.highlight]:rounded
 `;
 
-// 本文を中盤の <h2> 見出し境界で2分割する。見出しが少なく分割できない場合は全体を前半に返す。
-function splitAtMiddleHeading(html: string): [string, string] {
-  const parts = html.split(/(?=<h2)/);
-  if (parts.length < 3) return [html, ""];
-  const mid = Math.ceil(parts.length / 2);
-  return [parts.slice(0, mid).join(""), parts.slice(mid).join("")];
-}
-
 export function ArticleBody({ html }: { html: string }) {
-  const [first, second] = splitAtMiddleHeading(html);
-
   return (
     <article>
-      <div className={PROSE_CLASS} dangerouslySetInnerHTML={{ __html: first }} />
-      {second && (
-        <>
-          {/* 記事中盤のテキスト広告 */}
-          <RandomTextAd />
-          <div className={PROSE_CLASS} dangerouslySetInnerHTML={{ __html: second }} />
-        </>
-      )}
+      <div className={PROSE_CLASS} dangerouslySetInnerHTML={{ __html: html }} />
     </article>
   );
 }

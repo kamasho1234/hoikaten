@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 中津市の子育てのお金の記事。
 //
@@ -49,9 +48,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // 中津独自（酒田3020は「婚姻していない方」、三原3050は「保護者の扶養を外れていると対象外の場合がある」）。
 // **おこさんの口座は登録できません**も初。
 // **通院は1医療機関ごとに月に4日目まで500円、5日目以降は無料**は別府2880（月4回まで）と同じ形。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -134,7 +130,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>県外で使える範囲は自治体ごとの取り決め次第です</strong>ので、県境に近い家庭ほど確かめる価値があります。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>県外で使える範囲は自治体ごとの取り決め次第です</strong>ので、県境に近い家庭ほど確かめる価値があります。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -168,10 +164,6 @@ const articles: InsuranceArticle[] = [
         a: "できません。市はおこさんの口座は登録できないとしています。助成金は資格登録時に登録された口座に振り込まれ、変更するときは通帳等を持参します。",
       },
     ],
-    cta: {
-      heading: "県境をまたぐ受診の負担を確かめたいとき",
-      body: "中津市は福岡県の4市町でも受給資格者証が使えますが、それ以外は償還払いです。就職や結婚で対象から外れることもあり、限度額適用認定証を出し忘れると高額な支払いが出ます。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

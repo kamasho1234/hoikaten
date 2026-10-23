@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 相馬市の子育てのお金の記事。
 //
@@ -50,9 +49,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **市国保なら手続きゼロ、社保なら登録と21,000円の壁**という分かれ方が軸。
 // **入院時の食事代まで助成される**のも書く価値がある。
 // **請求できるのは診療月の翌月から5年**、**振込は締切の翌月中旬**も具体的。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -141,7 +137,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>加入している保険で手続きが変わる仕組みは、転職や転居のときに見落としやすい部分です</strong>。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>加入している保険で手続きが変わる仕組みは、転職や転居のときに見落としやすい部分です</strong>。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -175,10 +171,6 @@ const articles: InsuranceArticle[] = [
         a: "先に健康保険へ療養費（8割または7割）を申請します。支給決定通知が届いたら、領収書原本・医師からの意見書（診断書）など・支給決定通知書を添えて、残りの2割または3割分をこども家庭課へ申請します。",
       },
     ],
-    cta: {
-      heading: "社会保険で立て替えが必要になったとき",
-      body: "相馬市は市国保なら手続きが要りませんが、社会保険だと21,000円以上や市外の受診で立て替えが必要です。学校のけがは災害給付が先で、差額室料など保険外は助成の外です。付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

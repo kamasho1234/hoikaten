@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 久喜市の子育てのお金の記事。
 //
@@ -39,9 +38,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // 一部負担額を医療機関の窓口で支払う」**という書き方は、ここまでの196市区で初めて。
 // 新座2120は「21,000円未満であること」までしか書いていない。必ず書く。
 // **入院時食事療養費を全額助成**する点も埼玉県内では手厚い（戸田2210も同じ）。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -125,7 +121,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>入院時の食事代を助成するかどうかは自治体で分かれます</strong>ので、転居先の案内を読み直してください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>入院時の食事代を助成するかどうかは自治体で分かれます</strong>ので、転居先の案内を読み直してください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -159,10 +155,6 @@ const articles: InsuranceArticle[] = [
         a: "できます。お子さんの健康保険の加入手続きが済んでいない場合でも、出生または転入後15日以内に申請書を提出してください。",
       },
     ],
-    cta: {
-      heading: "窓口で無料にならない場面を確かめたいとき",
-      body: "久喜市は入院時の食事代まで全額助成されますが、1医療機関で月21,000円以上になるとその月の最初にさかのぼって窓口払いになります。差額ベッド代や文書代は助成の外にあり、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

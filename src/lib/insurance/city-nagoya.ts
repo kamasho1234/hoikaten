@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 名古屋市の子育てのお金の記事。
 //
@@ -20,9 +19,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // - 県外で受診したときは申請により払い戻し。提出期限（時効）は医療費を支払った日の
 //   翌日から5年間。ただし健康保険への療養費申請は2年
 // - 愛知県外の医療機関で妊産婦健康診査を受けた場合は申請により費用を助成
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -119,7 +115,7 @@ const articles: InsuranceArticle[] = [
 
 <p>特に3つめは自治体の助成の対象外です。<strong>子どもの医療費より、親の保障のほうが家計への影響は大きい</strong>という順番を押さえておくと、無駄のない備え方になります。</p>
 
-<p>県外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>県外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -149,10 +145,6 @@ const articles: InsuranceArticle[] = [
         a: "名古屋市への払い戻し申請は医療費を支払った日の翌日から5年間です。ただし健康保険への療養費申請は2年なので、そちらが先に期限を迎えます。",
       },
     ],
-    cta: {
-      heading: "医療費が無料でも埋まらない部分を確かめたいとき",
-      body: "名古屋市は18歳まで医療費の自己負担がありませんが、子どもの入院に付き添うための収入減や、親に何かあったときの生活費は助成の対象外です。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。相談は無料です。",
-    },
   },
 ];
 

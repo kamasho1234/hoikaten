@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 北上市の子育てのお金の記事。
 //
@@ -55,9 +54,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **年齢要件では全員対象だが、自己負担の有無の判定に所得確認が要るので住民税の申告を**も初。
 // **訪問診療の交通費**を対象外に挙げているのも初。
 // **一度資格喪失した後は再度交付申請が必要**も初。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -142,7 +138,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>住所ではなく加入している保険で線を引く自治体もあります</strong>ので、引っ越したら両方を確かめてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>住所ではなく加入している保険で線を引く自治体もあります</strong>ので、引っ越したら両方を確かめてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -176,10 +172,6 @@ const articles: InsuranceArticle[] = [
         a: "幼稚園・保育所・学校（部活動を含む）での負傷や疾病等で日本スポーツ振興センターの災害給付制度を利用するときは助成されません。入院時の食事代や差額ベッド料、訪問診療の交通費も対象外です。",
       },
     ],
-    cta: {
-      heading: "対象になるかどうかを確かめたいとき",
-      body: "北上市は住所だけでなく加入している国民健康保険でも対象が決まり、住民税の申告がないと受給者証が出ません。入院時の食事代や差額ベッド料は助成の外にあり、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

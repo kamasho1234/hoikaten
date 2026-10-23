@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 奈良市の子育てのお金の記事。
 //
@@ -35,9 +34,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 //   申請後1週間程度で自宅に届く
 // - 対象外: 保険外の医療費（差額ベッド・健康診断・予防注射・薬の容器代等）／**入院時の食事代**／
 //   学校等の管理下でのけが等で災害共済給付制度の対象になるもの／選定療養にかかる特別の料金
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -124,7 +120,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -158,10 +154,6 @@ const articles: InsuranceArticle[] = [
         a: "同月内に同じ医療機関を受診した場合は、それぞれの制度で一部負担金が必要です。市の例では、子ども医療費助成で500円（小学生以上は1,000円）＋ひとり親家庭等医療費助成で500円＝合計1,000円（小学生以上は1,500円）かかります。",
       },
     ],
-    cta: {
-      heading: "負担金に上限があっても残る部分を確かめたいとき",
-      body: "奈良市の負担は1医療機関あたり月1,000円までで止まります。ただし差額ベッド代や入院時の食事代、付き添いで親が働けない期間の収入は助成の対象外です。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

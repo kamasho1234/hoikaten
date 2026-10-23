@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 日立市の子育てのお金の記事。
 //
@@ -51,9 +50,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **同じ茨城のマル福でも、水戸（order 1400）は所得制限で県制度／市制度が分かれ、
 // つくば（1470）は小児に所得制限がなく自己負担はそのまま。
 // 日立は自己負担を市が年4回自動で還付して実質無料にしている。** 三者三様。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -153,7 +149,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。同じ茨城県のマル福でも、<strong>市の上乗せの仕方は市町村ごとに違います</strong>。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。同じ茨城県のマル福でも、<strong>市の上乗せの仕方は市町村ごとに違います</strong>。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -187,10 +183,6 @@ const articles: InsuranceArticle[] = [
         a: "令和2年4月以降の食事代から助成の対象です。ただし支給申請の手続きが必要になります。",
       },
     ],
-    cta: {
-      heading: "戻るまでの立て替えと、その外の費用を確かめたいとき",
-      body: "日立市は市独自の助成で実質無料になりますが、窓口ではいったん支払い、戻るのは年4回です。600円未満の支払いや入院食事代は自分で申請する必要があり、学校でのけがは災害共済給付が先になります。付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

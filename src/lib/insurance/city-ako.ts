@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 赤穂市の子育てのお金の記事。
 //
@@ -62,9 +61,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // という理屈も、朝倉市と同じ構造なのできちんと書く。
 // **限度額適用認定証を用意しておく必要がある（マイナ受付なら原則不要）**も書く。
 // ※赤穂市は当サイトにシミュレーターも空き状況もないため、市内ページへのリンクは張らない。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -137,7 +133,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いてください。<strong>無料なのは赤穂市が県制度に上乗せしているから</strong>で、同じ兵庫県内でも上乗せのない自治体では県制度どおりの負担になります。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いてください。<strong>無料なのは赤穂市が県制度に上乗せしているから</strong>で、同じ兵庫県内でも上乗せのない自治体では県制度どおりの負担になります。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -171,10 +167,6 @@ const articles: InsuranceArticle[] = [
         a: "情報連携には時間を要することがあるため、即日交付ができない場合があります。特に出生の場合は加入健康保険情報が反映されるまでに時間がかかることがあります。",
       },
     ],
-    cta: {
-      heading: "助成の外に残る費用を確かめたいとき",
-      body: "赤穂市は高校3年生世代まで所得制限なしで自己負担が無料ですが、無料になるのは保険診療分です。高校卒業後は制度の対象から外れ、付き添いで働けない期間の収入も助成されません。県制度への上乗せは市の判断によるもので、転居先では負担が生じることもあります。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

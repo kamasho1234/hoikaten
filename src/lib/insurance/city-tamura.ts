@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 田村市の子育てのお金の記事。
 //
@@ -41,9 +40,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **全国の医療機関で窓口負担がない（令和3年2月1日から）**のが田村市の最大の特徴。
 // 県内限定の自治体が多いなかで珍しい。**支給できる期間が5年**も書く。
 // **接骨院・整骨院と補装具は償還払い**という例外も忘れずに。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -122,7 +118,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いてください。<strong>全国の医療機関で窓口負担がないのは田村市の制度によるもの</strong>で、転居先では県内に限られることがほとんどです。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いてください。<strong>全国の医療機関で窓口負担がないのは田村市の制度によるもの</strong>で、転居先では県内に限られることがほとんどです。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -156,10 +152,6 @@ const articles: InsuranceArticle[] = [
         a: "不要です。県外での受診分は、申請書への領収書添付のみで申請できます。県内の医療機関の分は、申請書の医療機関等記入欄に証明を受ける必要があります。",
       },
     ],
-    cta: {
-      heading: "助成の外に残る費用を確かめたいとき",
-      body: "田村市は全国の医療機関で窓口負担がなく入院時の食事代も助成されますが、差額ベッド代や容器代、予防接種は助成の外にあります。接骨院や補装具は立て替えになり、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

@@ -5,7 +5,6 @@ import { getArticlesByCity } from "@/lib/articles";
 import { getInsuranceArticleByCity } from "@/lib/insurance";
 import "@/lib/insurance/register-all";
 import { SimulatorForm } from "./simulator-form";
-import { RandomTextAd } from "@/components/random-text-ad";
 import { breadcrumbList, faqPage, buildCityFaq } from "@/lib/jsonld";
 import { prefectureNameToSlug } from "@/lib/prefecture";
 import { formatJapaneseDate, getVacancyData } from "@/lib/vacancy";
@@ -133,9 +132,6 @@ export default async function CityPage({
           </div>
         );
       })()}
-
-      {/* シェア直上のテキスト広告 */}
-      <RandomTextAd />
 
       <div className="mt-10 space-y-3">
         <p className="text-sm font-medium text-center text-muted-foreground">

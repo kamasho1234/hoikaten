@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 近江八幡市の子育てのお金の記事。
 //
@@ -53,9 +52,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // という条件が近江八幡市の押さえどころ。
 // **令和6年4月から県内の入院も現物給付になった**、**償還払いは5年以内**も書く。
 // ※就学前の「乳幼児福祉医療」は別区分。自己負担額の記載がないので中身は書かない。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -152,7 +148,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いてください。<strong>子どもだけが市外に出ても対象になり得る扱いや5年の期限は近江八幡市の制度によるもの</strong>で、転居先では扱いが変わります。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いてください。<strong>子どもだけが市外に出ても対象になり得る扱いや5年の期限は近江八幡市の制度によるもの</strong>で、転居先では扱いが変わります。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -190,10 +186,6 @@ const articles: InsuranceArticle[] = [
         a: "文書料や差額ベット代などの保険対象外のもの、食事代、交通事故等第三者行為によるもの、他の公費負担分、健康保険から支給される高額療養費や家族療養費・附加給付金などです。",
       },
     ],
-    cta: {
-      heading: "助成の外に残る費用を確かめたいとき",
-      body: "近江八幡市は高校生世代まで所得制限なしで県内の窓口負担がありませんが、食事代や差額ベット代、文書料は助成の外にあります。県外受診は立て替えになり、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

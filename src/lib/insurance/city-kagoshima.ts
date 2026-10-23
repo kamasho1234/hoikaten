@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 鹿児島市の子育てのお金の記事。
 //
@@ -34,9 +33,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 //   マイナンバーカードが必要
 // - 本人・同世帯の代理人・委任状を持った別世帯の代理人の申請は受給者証を窓口で交付。
 //   委任状のない別世帯の人からの申請は郵送交付
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -138,7 +134,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -176,10 +172,6 @@ const articles: InsuranceArticle[] = [
         a: "健康保険の加入が確認できるもの（こどもの名前が記載されているもの）、受給者（保護者）名義の普通預金口座がわかるもの、窓口に来る人の本人確認書類です。市外から転入した市町村民税非課税世帯の人は、申請者と同世帯の人（高校生以下を除く）のマイナンバーカードも必要です。",
       },
     ],
-    cta: {
-      heading: "助成が中学3年生で終わるまでに備えたいとき",
-      body: "鹿児島市の助成は課税世帯なら中学3年生までで、高校生年代からは健康保険の自己負担が通常どおりかかります。ベッド代や食事代、付き添いで親が働けない期間の収入も助成の外です。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

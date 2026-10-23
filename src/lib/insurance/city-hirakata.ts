@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 枚方市の子育てのお金の記事。
 //
@@ -43,9 +42,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // - **助成申請期限は、医療機関等で受診し支払いをした翌日から起算して5年**
 // - 医療証は**医療助成・児童手当課窓口（市役所別館2階）なら即日発行**。
 //   各支所・枚方市駅市民窓口センター・郵送・ぴったりサービスは後日郵送
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -185,7 +181,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -223,10 +219,6 @@ const articles: InsuranceArticle[] = [
         a: "医療助成・児童手当課窓口（市役所別館2階）に必要書類を持参すれば即日発行されます。各支所や枚方市駅市民窓口センター、郵送、国の電子申請サービス（ぴったりサービス）の場合は後日郵送になります。",
       },
     ],
-    cta: {
-      heading: "助成があっても残る部分を確かめたいとき",
-      body: "枚方市は18歳まで医療費の一部と入院時食事療養費が助成され、世帯で月2,500円を超えた分も事前手続きをしておけば自動で返ってきます。ただし差額ベッド料や選定療養費、付き添いで親が働けない期間の収入は助成の外です。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 文京区の子育てのお金の記事。
 //
@@ -63,9 +62,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // - 窓口: 文京シビックセンター5階 こども若者支援課
 //
 // **所得制限には触れない。** このページに所得制限の記載がない。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -194,7 +190,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>区外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>区外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -232,10 +228,6 @@ const articles: InsuranceArticle[] = [
         a: "新規に医療証の交付申請をする必要があります。保護者変更は月替わりにのみ可能です。たとえば10月中旬までに新規申請すると、11月1日から新しい保護者名の医療証が発行されます。",
       },
     ],
-    cta: {
-      heading: "食事代が助成対象になっても残る部分を確かめたいとき",
-      body: "文京区は18歳年度末まで保険診療自己負担分が助成され、2026年4月からは入院時の食事療養標準負担額も対象になりました。ただし差額ベッド代は助成の外で、食事代は立て替えが必要になり、付き添いで親が働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

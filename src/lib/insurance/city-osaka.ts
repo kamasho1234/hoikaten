@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 大阪市の子育てのお金の記事。
 //
@@ -19,9 +18,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 //   多胎16枚（同129,580円）。多胎は単胎より7,560円多い
 // - 市外・府外で受診した場合は償還払い。申請期限は妊娠が終了した日から1年以内
 // - 低所得の妊婦に対する初回産科受診料支援事業がある
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -124,7 +120,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、月2,500円が上限であれば<strong>子ども本人の医療保険の優先度は高くありません</strong>。それより<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが家計への影響は大きくなります。順番を間違えないことが、無駄のない備え方につながります。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -162,10 +158,6 @@ const articles: InsuranceArticle[] = [
         a: "いったん自費で払ってから償還払いの申請をします。申請期限は妊娠が終了した日から1年以内で、領収書の原本が必要です。",
       },
     ],
-    cta: {
-      heading: "自己負担が残る部分をどう考えるか",
-      body: "大阪市は18歳まで医療費助成の対象ですが、ひと月2,500円までの自己負担があります。公的な支援でカバーされる範囲を確かめると、民間の保険で埋めるべき部分が絞られます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

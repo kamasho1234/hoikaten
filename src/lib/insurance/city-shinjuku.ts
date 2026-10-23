@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 新宿区の子育てのお金の記事。
 //
@@ -50,9 +49,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 //   手続きに必要な書類は申請後の提出も可能
 // - 申請先: 児童育成担当課子ども医療・手当係（本庁舎2階15番窓口）または各特別出張所。
 //   郵送またはマイナポータル（ぴったりサービス）からの申請も可能
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -159,7 +155,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>区外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>区外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -197,10 +193,6 @@ const articles: InsuranceArticle[] = [
         a: "不要です。有効期間が9月30日までの医療証は9月中旬ごろに、4月から小学校入学となる学年と3月末で中学校を卒業される学年の子どもには3月中旬ごろに新しい医療証が送られます。18歳に達する日以後の最初の3月31日を迎える子どもは助成終了となり、医療証の更新はありません。",
       },
     ],
-    cta: {
-      heading: "食事代まで助成されても残る部分を確かめたいとき",
-      body: "新宿区は18歳年度末まで所得制限なしで、保険診療の自己負担分と入院時の食事療養費が助成されます。ただし差額ベッド代は助成の対象外で、付き添いで親が働けない期間の収入も助成の外です。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

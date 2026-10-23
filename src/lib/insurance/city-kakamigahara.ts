@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 各務原市の子育てのお金の記事。
 //
@@ -35,9 +34,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **高額療養費について「先に加入している健康保険へ申請が必要」**としており、
 // **橿原1900（自分で請求しないでほしい）・小牧2000（市が代わりに請求する）とは正反対**。
 // この3市の対比は書く価値がある。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -110,7 +106,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>高額療養費を自分で申請するかどうかは自治体によって逆になります</strong>ので、転居先の案内を読み直してください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>高額療養費を自分で申請するかどうかは自治体によって逆になります</strong>ので、転居先の案内を読み直してください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -144,10 +140,6 @@ const articles: InsuranceArticle[] = [
         a: "出生日または転入日から30日以内です。それ以降は申請月の初日からの助成になります。インターネット申請フォームも利用できます。",
       },
     ],
-    cta: {
-      heading: "県外受診の手続きを確かめたいとき",
-      body: "各務原市は岐阜県内なら窓口無料ですが、県外受診では領収書を医療機関別・月別にまとめる手間があり、高額療養費は先に保険者へ申請する必要があります。保険が使えない費用は助成の外にあり、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

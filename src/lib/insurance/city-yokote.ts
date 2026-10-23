@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 横手市の子育てのお金の記事。
 //
@@ -53,9 +52,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // （名取2790・鹿沼3030・大野城2960の即日交付と対比できる）。
 // **本人確認書類は顔写真付きなら1点、それ以外は2点**も初。
 // **振り込みには通常2か月以上**（綾瀬3090は1〜2か月、和光3100は申請月の翌月15日）。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -140,7 +136,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>親子が別々に住んでいるときの扱いは自治体ごとに違います</strong>ので、必ず窓口で確かめてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>親子が別々に住んでいるときの扱いは自治体ごとに違います</strong>ので、必ず窓口で確かめてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -174,10 +170,6 @@ const articles: InsuranceArticle[] = [
         a: "市は通常2か月以上の期間を要するとしています。受給者証、領収書、口座番号がわかるもの、医療保険の資格情報、来庁者の本人確認書類（顔写真付きは1点、それ以外は2点）が必要です。",
       },
     ],
-    cta: {
-      heading: "家族が別々に住んでいるとき",
-      body: "横手市は保護者が県外にいても対象になる場合があり、所得審査の方法で必要書類も変わります。入院時の食事代は助成の外にあり、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

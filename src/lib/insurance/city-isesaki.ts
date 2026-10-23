@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 伊勢崎市の子育てのお金の記事。
 //
@@ -65,9 +64,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 //
 // **所得制限には触れない。** 子どもの資格要件に所得制限の記載がない
 //   （「所得課税状況の確認が必要」とは書かれているが、制限額の記載はない）。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -158,7 +154,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -200,10 +196,6 @@ const articles: InsuranceArticle[] = [
         a: "福祉医療費の支給を受ける場合は被保険者の所得課税状況の確認が必要です。伊勢崎市で被保険者の市町村民税の確認ができない場合でも、マイナンバーを利用することに同意すれば所得課税証明書等の添付を省略できます。受給者本人と別世帯の人が申請する場合は被保険者の同意が必要です。",
       },
     ],
-    cta: {
-      heading: "自己負担なしでも残る部分を確かめたいとき",
-      body: "伊勢崎市は18歳の年度末まで、保険診療の自己負担額が無料になります。ただし差額ベッド代や入院時の食事代は保険診療分ではないため助成の外で、付き添いで親が働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

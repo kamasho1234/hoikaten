@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 倉敷市の子育てのお金の記事。
 //
@@ -30,9 +29,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // - 子ども医療電話相談（#8000）… 岡山県は平日19時〜翌朝8時、休日（土曜含む）18時〜翌朝8時
 // - 市は「適正受診」への協力を呼びかけている
 //   （かかりつけ医を持つ／ジェネリック医薬品を活用する／#8000 を活用する）
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -127,7 +123,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -157,10 +153,6 @@ const articles: InsuranceArticle[] = [
         a: "子ども医療電話相談（#8000）を利用できます。岡山県の実施時間は平日（月〜金）が19時00分〜翌朝8時00分、休日（土曜含む）が18時00分〜翌朝8時00分です。医師や看護師から症状に応じた対処のアドバイスを受けられます。",
       },
     ],
-    cta: {
-      heading: "助成が中学3年生で終わるまでに備えたいとき",
-      body: "倉敷市の助成は中学校3年生までで、高校生年代からは健康保険の自己負担が通常どおりかかります。室料差額や入院時の食事療養費、付き添いで親が働けない期間の収入も助成の外です。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

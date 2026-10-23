@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 岐阜市の子育てのお金の記事。
 //
@@ -33,9 +32,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 //
 // **窓口でいくら払うかは書かない。** ページに「保険適用となる医療費が対象」とはあるが、
 // 自己負担額（1回◯円など）の記載がない。**額を推測して書かない。**
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -142,7 +138,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -176,10 +172,6 @@ const articles: InsuranceArticle[] = [
         a: "6歳未満の受給者証は6歳に達する日以後の最初の3月31日まで、6歳以上は18歳に達する日以後の最初の3月31日までです。小学校に上がるタイミングで新しいものに切り替わります。",
       },
     ],
-    cta: {
-      heading: "助成されても残る部分を確かめたいとき",
-      body: "岐阜市は18歳まで所得制限なしで入院・外来が助成されます。ただし入院時の部屋代や食事代、付き添いで親が働けない期間の収入は助成の対象外です。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

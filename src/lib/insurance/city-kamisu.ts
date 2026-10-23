@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 神栖市の子育てのお金の記事。
 //
@@ -53,9 +52,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // も初。
 // **支給予定日が診療月の3〜4か月後の月末**は筑西3000（診療月の3か月後の末頃）と同じ側。
 // 自己負担は茨城県共通（外来1日600円・月2回まで／入院1日300円・月3,000円まで／薬局なし）。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -136,7 +132,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>申請の期限が日数か月末かも自治体によって違います</strong>。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>申請の期限が日数か月末かも自治体によって違います</strong>。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -170,10 +166,6 @@ const articles: InsuranceArticle[] = [
         a: "社会保険の人は事前に社会保険へ療養費の申請をし、支給決定通知を用意します。国民健康保険や後期高齢者医療保険の人は、マル福の申請と同時に療養費の申請が必要です。",
       },
     ],
-    cta: {
-      heading: "期限を落とさずに手続きしたいとき",
-      body: "神栖市は出生が翌々月末、転入が翌月末と期限が違い、過ぎると申請月1日からになります。食事代や部屋代、文書料は助成の外にあり、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

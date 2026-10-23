@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 小郡市の子育てのお金の記事。
 //
@@ -49,9 +48,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **中学生以下で医療証を持っている人には令和8年3月中に新規医療証を郵送**（手続き不要）。
 // 同じ福岡県内で春日3640は高校生世代まで無料、太宰府3750は高校生世代の通院1,600円、
 // 福津3760・柳川3840は中3まで。小郡3920は令和8年4月から高校生年代の通院1,600円に加わる。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -119,7 +115,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>同じ福岡県内でも高校生年代の扱いは分かれます</strong>。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>同じ福岡県内でも高校生年代の扱いは分かれます</strong>。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -153,10 +149,6 @@ const articles: InsuranceArticle[] = [
         a: "小学生と中学生は月500円（月7日上限）です。3歳未満と3歳以上就学前は自己負担なし、高校生年代は助成そのものがありません。",
       },
     ],
-    cta: {
-      heading: "制度が変わる前に確かめておくとき",
-      body: "小郡市は令和8年4月から入院が全年齢で無料になりますが、それまでは小中学生に入院の負担があり、高校生年代は助成そのものがありません。付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

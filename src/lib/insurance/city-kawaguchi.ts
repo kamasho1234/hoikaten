@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 川口市の子育てのお金の記事。
 //
@@ -42,9 +41,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 //   夜間など通常の診療時間外に受診した場合（医療機関に支払いを求められた場合）／
 //   市外の柔道整復（整骨・接骨）、鍼、灸等の場合／訪問看護にかかる診療を受けた場合
 // - 上記や埼玉県外での受診で自己負担が発生した場合は、後日医療費支給申請書を提出する
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -144,7 +140,7 @@ const articles: InsuranceArticle[] = [
 
 <p><a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -178,10 +174,6 @@ const articles: InsuranceArticle[] = [
         a: "保険外の医療費（健康診断、予防注射代、薬の容器代、入院時の室料差額、診断書料、医薬品の特別の料金など）と入院時の食事代、幼稚園・保育園・小中学校等の災害共済が適用となるもの、交通事故など第三者の行為による傷病の医療費です。付加給付や高額療養費が適用された場合は、その額を控除した額が支給されます。",
       },
     ],
-    cta: {
-      heading: "立て替えが必要になる場面に備えたいとき",
-      body: "川口市は県内なら窓口払いがありませんが、自己負担が月21,000円以上になると月初から支払いが必要になり、一時的な立て替えが発生します。室料差額や食事代、付き添いで親が働けない期間の収入も助成の外です。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

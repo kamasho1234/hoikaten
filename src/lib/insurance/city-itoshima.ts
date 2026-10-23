@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 糸島市の子育てのお金の記事。
 //
@@ -48,9 +47,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // 大野城2960（2万円以上・協会けんぽは不要）・筑紫野2930（2万円以上・市国保は不要）より低い基準。
 // **同月分はまとめて、診療月の翌月に申請**も実務的で初。
 // **令和8年4月1日診療分から高校生世代まで**が直近の拡大。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -127,7 +123,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>自己負担の上限が1日単位か1か月単位かで負担はまったく変わります</strong>ので、引っ越したら確かめる価値があります。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>自己負担の上限が1日単位か1か月単位かで負担はまったく変わります</strong>ので、引っ越したら確かめる価値があります。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -161,10 +157,6 @@ const articles: InsuranceArticle[] = [
         a: "出ます。令和6年10月から、後発医薬品があるお薬で先発医薬品の処方を希望する場合の特別の料金は健康保険が適用されないため、医療費助成の対象になりません。",
       },
     ],
-    cta: {
-      heading: "月ごとの上限でも残る負担を確かめたいとき",
-      body: "糸島市は通院の自己負担が1医療機関あたり月500円までですが、病院が増えればそのぶん増えます。健康保険の適用がない費用は助成の外にあり、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

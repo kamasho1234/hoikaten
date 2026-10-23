@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 小平市の子育てのお金の記事。
 //
@@ -55,9 +54,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **東京都内でも自治体によって本人負担の扱いが違う。**
 // 三鷹市（city-mitaka）は通院・入院とも全額助成で200円の負担がない。
 // 小平市はマル子・マル青に**通院1回200円（上限）**が残っている。この対比は書く価値がある。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -150,7 +146,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。都内でも通院の本人負担があるかどうかは自治体ごとに違います。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。都内でも通院の本人負担があるかどうかは自治体ごとに違います。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -192,10 +188,6 @@ const articles: InsuranceArticle[] = [
         a: "補装具や治療用眼鏡などで健康保険が適用されるものは助成の対象です。入院時の食事療養標準負担額や、健康診断・予防接種・選定療養費・文書料などは対象外になります。",
       },
     ],
-    cta: {
-      heading: "通院のたびにかかる200円と、その外の費用を確かめたいとき",
-      body: "小平市は小学生から通院1回200円の本人負担が残り、入院時の食事療養標準負担額や選定療養費は助成の外にあります。付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

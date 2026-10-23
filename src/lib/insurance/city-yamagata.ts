@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 山形市の子育てのお金の記事。
 //
@@ -41,9 +40,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **「中学校卒業後の医療証は18歳到達の年度末まで有効（3年間分）」＝
 // 高校生年代は1枚の医療証を3年間使う**という運用は、ここまでの154市区で初めて。
 // **医療証が毎年「誕生月の25日頃」に届く**のも珍しい（小田原 order 1610 は誕生月末日が期限）。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -113,7 +109,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>加入している健康保険によって医療証が使えるかどうかが変わる</strong>ので、転職や保険の変更があったときも確かめてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>加入している健康保険によって医療証が使えるかどうかが変わる</strong>ので、転職や保険の変更があったときも確かめてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -147,10 +143,6 @@ const articles: InsuranceArticle[] = [
         a: "9歳未満のお子さんが払い戻しの対象となります。",
       },
     ],
-    cta: {
-      heading: "立て替えになる場面を確かめたいとき",
-      body: "山形市は外来・入院・訪問看護が無料になりますが、県外の組合国保に加入している場合や公費負担医療を受けている場合は医療証を使えず立て替えになります。学校でのけがも対象外で、付き添いで働けない期間の収入は助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // いちき串木野市の子育てのお金の記事。
 //
@@ -50,9 +49,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **持っている受給資格者証のうちどれを出すかで、窓口で払うかどうかが変わる**のが軸。
 // ひとり親や重度心身障害の証を出すと窓口払いが発生する、という注意は他市にあまりない。
 // **就学で市外に住民票を移しても保護者が市内なら対象**、**小児治療用眼鏡は8歳以下**も具体的。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -139,7 +135,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>複数の医療証を持っているときの扱いは自治体で分かれます</strong>。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>複数の医療証を持っているときの扱いは自治体で分かれます</strong>。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -173,10 +169,6 @@ const articles: InsuranceArticle[] = [
         a: "健康保険適用の補装具として、健康保険から7割または8割の払戻しを受けたあと、3割または2割に相当する額が助成されます。ただし小児治療用眼鏡は8歳以下が対象です。",
       },
     ],
-    cta: {
-      heading: "医療証が何枚もあって迷うとき",
-      body: "いちき串木野市では、どの受給資格者証を窓口に出すかで支払いの有無が変わります。入院時の食事代や差額ベッド代はそもそも助成の外で、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

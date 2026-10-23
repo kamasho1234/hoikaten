@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 茅ヶ崎市の子育てのお金の記事。
 //
@@ -64,9 +63,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 //     （保護者およびその配偶者が、所得確認年度の1月1日時点で茅ヶ崎市外に住んでいた場合に必要。
 //     **自署が必要〈代筆不可〉**。
 //     **申請する対象小児が高校生世代のみの場合、同意書は不要**）
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -185,7 +181,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -223,10 +219,6 @@ const articles: InsuranceArticle[] = [
         a: "原則、出生での申請分は月2回（1日、16日前後）、転入での申請分は月曜日（月曜日が祝日の場合は翌開庁日）に発送されます。",
       },
     ],
-    cta: {
-      heading: "全額助成でも残る部分を確かめたいとき",
-      body: "茅ヶ崎市は高校生世代まで所得制限なしで、神奈川県内なら医療費（保険適用分）の全額が助成されます。ただし入院中の食事代や病室差額料は助成の外で、治療用装具は立て替えが必要になり、付き添いで親が働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

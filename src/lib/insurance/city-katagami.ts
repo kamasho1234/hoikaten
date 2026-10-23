@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 潟上市（秋田県）の子育てのお金の記事。
 //
@@ -37,9 +36,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **払い戻しに申請から5〜6か月かかる**のが潟上市のいちばん効く情報。
 // **子どもの区分にも父母の所得判定がある**のは秋田県のマル福の作り。数字は書かれていないので断定しない。
 // **学校のけがでは受給者証を「提示しない」**と行動レベルで書かれているのも実務的。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -110,7 +106,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>払い戻しにかかる期間は自治体によって1か月から半年近くまで幅があります</strong>。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>払い戻しにかかる期間は自治体によって1か月から半年近くまで幅があります</strong>。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -144,10 +140,6 @@ const articles: InsuranceArticle[] = [
         a: "受給者証の再交付申請（紛失・汚損・破損）と、加入する健康保険が変わる場合の医療保険情報登録フォームの2つがLoGoフォームで電子申請できます。",
       },
     ],
-    cta: {
-      heading: "立て替えが半年近く戻らないとき",
-      body: "潟上市は県外受診の払い戻しに5〜6か月かかることがあります。学校のけがは災害共済給付が先で、交通事故は受給者証を使えません。入院時の食事代や差額室料も助成の外で、付き添いで働けない期間の収入は助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 新潟市の子育てのお金の記事。
 //
@@ -32,9 +31,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 //   健康保険組合等の支給決定通知書、治療用装具には医師の証明書も必要
 //
 // **所得制限には触れない。** ページに所得制限の記載がない。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -120,7 +116,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -146,10 +142,6 @@ const articles: InsuranceArticle[] = [
         a: "領収書の原本（診療点数、自己負担額、入院期間などの記載があるもの）、受給者名義の口座情報、こども医療費助成受給者証、支給申請書が必要です。高額療養費に該当する場合や治療用装具・食事療養費の助成を申請する場合は健康保険組合などが発行した支給決定通知書、治療用装具には医師が発行した証明書も必要になります。",
       },
     ],
-    cta: {
-      heading: "入院の負担が積み上がる前に備えを整えたいとき",
-      body: "新潟市の外来は月4回で頭打ちになりますが、入院は1日1,200円が日数ぶん積み上がります。個室代や食事代、付き添いで親が働けない期間の収入も助成の外です。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

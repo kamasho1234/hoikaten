@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 黒石市（青森県）の子育てのお金の記事。
 //
@@ -46,9 +45,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **整骨院は現物給付の外**というのが黒石市の実務で効く点。
 // **毎月10日までの申請なら、その月の最後の週の木曜日に振込**という振込日の書き方が具体的。
 // **資格証は誕生月ごとに自動更新**も書く。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -122,7 +118,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>整骨院や柔道整復を現物給付に含めるかは自治体で分かれます</strong>。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>整骨院や柔道整復を現物給付に含めるかは自治体で分かれます</strong>。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -156,10 +152,6 @@ const articles: InsuranceArticle[] = [
         a: "できます。子育て支援課子育て支援係の窓口への来庁のほか、郵送でも手続きできます。",
       },
     ],
-    cta: {
-      heading: "整骨院や装具で立て替えが出たとき",
-      body: "黒石市は整骨院と治療用装具が償還払いで、申請は6か月で締め切られます。予防接種料や文書料はそもそも助成の外で、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

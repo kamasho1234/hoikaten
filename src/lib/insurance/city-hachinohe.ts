@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 八戸市の子育てのお金の記事。
 //
@@ -36,9 +35,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 //   保険給付とならないもの**
 //   **助成範囲の高校生とは、18歳に到達した年度の年度末までの人を指し、
 //   高校在学の有無を問わない**
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -112,7 +108,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。八戸市の完全無償化は手厚いほうなので、<strong>転出すると窓口負担が発生する可能性が高い</strong>と考えておくのが現実的です。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。八戸市の完全無償化は手厚いほうなので、<strong>転出すると窓口負担が発生する可能性が高い</strong>と考えておくのが現実的です。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -146,10 +142,6 @@ const articles: InsuranceArticle[] = [
         a: "申請書が届かない子どもも対象となる場合があります。市の子育て支援課へ問い合わせてください。",
       },
     ],
-    cta: {
-      heading: "完全無償化でも残る部分を確かめたいとき",
-      body: "八戸市は2024年10月から、所得に関係なく18歳年度末まで入院・通院の保険診療分が無償です。ただし入院の差額ベッド代や食事代、文書料は助成の外で、付き添いで親が働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

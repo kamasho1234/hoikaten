@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 石狩市の子育てのお金の記事。
 //
@@ -68,9 +67,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **訪問看護だけ1割負担で月額上限がある**のも書く。
 // **治療用眼鏡の給付上限額が具体的に示されている**のも珍しいので書く。
 // ※石狩市は当サイトにシミュレーターも空き状況もないため、市内ページへのリンクは張らない。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -179,7 +175,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いてください。<strong>初診時一部負担金だけで済むのは石狩市の制度によるもの</strong>で、転居先では毎回定額がかかることもあります。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いてください。<strong>初診時一部負担金だけで済むのは石狩市の制度によるもの</strong>で、転居先では毎回定額がかかることもあります。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -213,10 +209,6 @@ const articles: InsuranceArticle[] = [
         a: "使えません。日本スポーツ振興センターの災害共済給付制度の医療給付が適用されるため、受給者証を使用しないよう市が案内しています。",
       },
     ],
-    cta: {
-      heading: "助成の外に残る費用を確かめたいとき",
-      body: "石狩市は高校生年齢まで初診時一部負担金だけで受診できますが、訪問看護は1割負担が残り、入院時の食事代や差額ベッド料は助成の外にあります。道外受診は立て替えになり、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

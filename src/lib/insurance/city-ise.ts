@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 伊勢市の子育てのお金の記事。
 //
@@ -70,9 +69,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // ページ冒頭に「窓口負担額が無料化（現物給付）については、全てのお子様が対象となります」と
 // あるので、**現在は現物給付が全員に及んでいる**と読めるが、
 // ページには償還給付の説明も残っている。**どちらの色かで扱いが変わる**という書き方にする。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -172,7 +168,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>資格の年度が9月始まりの自治体は多くありません</strong>ので、引っ越しの時期によっては空白期間ができないか確かめてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>資格の年度が9月始まりの自治体は多くありません</strong>ので、引っ越しの時期によっては空白期間ができないか確かめてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -206,10 +202,6 @@ const articles: InsuranceArticle[] = [
         a: "受給資格証は使用できません。領収書（医療点数が記載され、医療機関の受領印があるもの）の原本と受給資格証を持参して手続きします。郵送も可能ですが、領収書の原本を返送してほしい場合は返送相当分の切手を同封してください。",
       },
     ],
-    cta: {
-      heading: "立て替えになる場面を確かめたいとき",
-      body: "伊勢市は受給資格証の色で窓口の払い方が変わり、償還給付だと戻るまで2〜3か月かかります。入院時の差額ベッド代や食事療養費の標準負担額は助成の外にあり、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 矢板市の子育てのお金の記事。
 //
@@ -63,9 +62,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **医療機関の証明手数料は助成対象にならない**、**証明は翌月10日以降**も書く。
 // **保護者の付き添い入院費用が対象外**と明記されているのも書く。
 // ※矢板市は当サイトにシミュレーターも空き状況もないため、市内ページへのリンクは張らない。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -166,7 +162,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いてください。<strong>領収書のコピーで申請できる運用は矢板市によるもの</strong>で、転居先では原本を回収されることもあります。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いてください。<strong>領収書のコピーで申請できる運用は矢板市によるもの</strong>で、転居先では原本を回収されることもあります。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -200,10 +196,6 @@ const articles: InsuranceArticle[] = [
         a: "まず加入している健康保険組合に申請し、保険適用分の7割（未就学児は8割）の支払いを受けます。療養費支給決定通知書が届いたら、領収書の写しと医師からの作成指示書の写しを添えて市に申請してください。",
       },
     ],
-    cta: {
-      heading: "助成の外に残る費用を確かめたいとき",
-      body: "矢板市は高校3年生相当まで県内の窓口負担がありませんが、保護者の付き添い入院の費用や差額ベッド代、食事代、おむつ代は助成の外にあります。県外受診は立て替えになり、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

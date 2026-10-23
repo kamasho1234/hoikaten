@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 所沢市の子育てのお金の記事。
 //
@@ -65,9 +64,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 //       （記載がない領収書は、医療機関の窓口で必要事項の記入と窓口の人の認め印があれば申請できる）
 //       **健康保険組合から高額療養費や付加給付金等が支給され医療費の決定通知書がある場合は、
 //       決定通知書の写しも添付する**
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -191,7 +187,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -229,10 +225,6 @@ const articles: InsuranceArticle[] = [
         a: "できません。金融機関の通帳またはキャッシュカードは健康保険の被保険者名義のものが必要で、子ども名義の口座は受付できません。",
       },
     ],
-    cta: {
-      heading: "立て替えが必要な分を確かめたいとき",
-      body: "所沢市は所得制限なしで高校生年代まで、保険診療分の一部負担金が助成されます。ただし医療機関・入院・通院ごとに月21,000円以上になると窓口でいったん支払うことになり、入院時の食事代や差額ベッド料は助成の外です。付き添いで親が働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

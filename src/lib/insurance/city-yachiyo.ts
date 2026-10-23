@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 八千代市の子育てのお金の記事。
 //
@@ -85,9 +84,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 //
 // **子ども自身の所得制限には触れない。** 保護者の課税状況で自己負担金の額が変わる
 // （非課税なら0円）という書き方であり、所得で対象から外れるという記載はない。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -210,7 +206,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。月額上限が転出入で通算されない以上、<strong>引っ越す年は負担が読みにくくなります</strong>。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。月額上限が転出入で通算されない以上、<strong>引っ越す年は負担が読みにくくなります</strong>。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -248,10 +244,6 @@ const articles: InsuranceArticle[] = [
         a: "令和5年8月から、ひとり親家庭等医療費助成受給券の交付が優先されるため、子ども医療費助成受給券は交付されません。ただし高校3年生までは子ども医療費助成の月額上限があるため、ひとり親の受給券を利用した後に償還払いで対応できます。詳しくは子ども医療担当へ問い合わせてください。",
       },
     ],
-    cta: {
-      heading: "書類の条件で助成を取り逃さないために",
-      body: "八千代市は18歳年度末まで対象ですが、整骨院の領収書の書式や21,000円を超えたときの追加書類など、申請側の条件が細かく決まっています。差額ベッド代や第三者行為によるけがは助成の外にあり、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

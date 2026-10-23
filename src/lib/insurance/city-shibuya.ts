@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 渋谷区の子育てのお金の記事。
 //
@@ -52,9 +51,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // - 申請に必要なもの: 子ども医療費助成医療証交付申請書／子どもの健康保険証などのコピー
 //   ※**出生直後の場合は、子どもが加入予定の保護者の健康保険証などのコピーを提出し、
 //     後日、子どもの健康保険証などのコピーを提出する**
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -164,7 +160,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>区外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>区外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -202,10 +198,6 @@ const articles: InsuranceArticle[] = [
         a: "不要です。有効期間は毎年9月30日までで、9月下旬頃に保護者宛てに新しい医療証が郵送されます。新小学1年生・新高校1年生相当世代の切り替えも手続き不要で、3月下旬頃に郵送されます。",
       },
     ],
-    cta: {
-      heading: "食事代まで助成されても残る部分を確かめたいとき",
-      body: "渋谷区は18歳年度末まで所得制限なしで、入院時の食事療養費や補装具まで助成の対象です。ただし差額ベッド代は助成の外で、食事代や補装具は立て替えが必要になり、付き添いで親が働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

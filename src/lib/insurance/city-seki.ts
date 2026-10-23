@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 関市の子育てのお金の記事。
 //
@@ -43,9 +42,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // 大野城2960（補装具の同時受付）に次いで2例目。
 // **振込口座は同一世帯の方**という条件も初（他市は保護者名義が多い）。
 // **郵送申請には日中連絡できる電話番号を必ず記入**も初。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -115,7 +111,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>更新の回数やタイミングは自治体ごとに違います</strong>ので、案内が来たら放置しないでください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>更新の回数やタイミングは自治体ごとに違います</strong>ので、案内が来たら放置しないでください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -149,10 +145,6 @@ const articles: InsuranceArticle[] = [
         a: "同一世帯の方の口座です。窓口では領収書、振込口座のわかるもの、福祉医療費受給者証の3点を持参します。郵送で申請する場合は、日中連絡できる電話番号を必ず記入します。",
       },
     ],
-    cta: {
-      heading: "更新の案内を落とさずに整理したいとき",
-      body: "関市は小学校入学時と中学校卒業時の2回だけ更新が必要で、案内を見落とすと手続きが止まります。入院時の部屋代差額や食事療養標準負担額は助成の外にあり、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

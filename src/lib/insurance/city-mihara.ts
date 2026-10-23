@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 三原市の子育てのお金の記事。
 //
@@ -50,9 +49,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **中学卒業後、進学せずに働いている人も対象。ただし保護者の扶養を外れていると対象外の場合がある**は、
 // 宗像3010（学生でない人も対象）と近いが、**扶養を条件にしている**のは初。
 // **出生や転入から14日以内**は286市区で最短（昭島2870・ふじみ野2890・富士見2900は15日）。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -126,7 +122,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>申請の期限は14日の市もあれば30日の市もあります</strong>ので、引っ越したら真っ先に確かめてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>申請の期限は14日の市もあれば30日の市もあります</strong>ので、引っ越したら真っ先に確かめてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -160,10 +156,6 @@ const articles: InsuranceArticle[] = [
         a: "使わないでください。保育所・幼稚園・学校の管理下でのけがなどで治療を受けた場合は、日本スポーツ振興センターから災害共済給付があります。",
       },
     ],
-    cta: {
-      heading: "長い入院や複数の通院先がある家庭で",
-      body: "三原市は1日500円の負担に入院月14日・通院月4日という上限がありますが、訪問看護や施術所にもそれぞれ負担がつきます。入院時の食事負担金や歯列矯正は助成の外にあり、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

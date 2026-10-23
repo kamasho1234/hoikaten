@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 福山市の子育てのお金の記事。
 //
@@ -28,9 +27,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 //   **この説明は他市にはあまりない。記事の軸にする。**
 // - 適正受診の呼びかけ: 救急の場合を除き平日の診療時間内に受診する／
 //   同じ病気で複数の医療機関を受診する「はしご受診」は控える／「かかりつけ医」を持つ
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -127,7 +123,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -157,10 +153,6 @@ const articles: InsuranceArticle[] = [
         a: "国の公費負担制度の受給者証（小児慢性特定疾病医療受給者証、自立支援医療受給者証（育成医療）など）を持っている場合は、対象となる医療を受診する際に、該当する制度の受給者証と子ども医療費受給者証とマイナ保険証等を合わせて提示してください。",
       },
     ],
-    cta: {
-      heading: "助成が中学3年生で終わるまでに備えたいとき",
-      body: "福山市の助成は中学3年生までで、高校生年代からは健康保険の自己負担が通常どおりかかります。個室代や入院中の食事代、付き添いで親が働けない期間の収入も助成の外です。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

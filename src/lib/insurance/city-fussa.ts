@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 福生市の子育てのお金の記事。
 //
@@ -36,9 +35,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **医療証はマル乳・マル子・マル青の3種類**で、年齢に応じて切り替わる。
 // **都外の医療機関を受診した方、都内でも医療証を忘れた方は後日還付が可能**で、
 // 領収書（原本）と振込先が分かるものを市役所1階8番子ども育成課窓口へ。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -99,7 +95,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>同じ東京都内でも200円の負担が残る市があります</strong>。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>同じ東京都内でも200円の負担が残る市があります</strong>。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -137,10 +133,6 @@ const articles: InsuranceArticle[] = [
         a: "医療機関等で受診する際に、資格確認書（マル青は健康保険証）と医療証を一緒に提示します。",
       },
     ],
-    cta: {
-      heading: "窓口負担がゼロになったあとで",
-      body: "福生市は令和7年10月から高校生年代まで自己負担が全額補助になりましたが、健康保険がきかない費用は変わらず自己負担です。付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

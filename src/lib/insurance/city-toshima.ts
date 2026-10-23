@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 豊島区の子育てのお金の記事。
 //
@@ -49,9 +48,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // - 窓口: 子育て支援課児童給付グループ（区役所本庁舎4階）。郵送でも受付
 //   申請書は「児童手当認定請求書 兼 乳幼児・子ども・高校生等医療証交付申請書」
 //   （**児童手当と兼用**）
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -155,7 +151,7 @@ const articles: InsuranceArticle[] = [
 
 <p>とはいえ、<a href="/insurance/kodomo-iryohi-josei">子ども本人の医療保険</a>より<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>のほうが、家計への影響は大きくなります。<strong>順番を押さえたうえで、助成の対象外になる部分を埋める</strong>のが無駄のない考え方です。</p>
 
-<p>区外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。豊島区の助成範囲は広いほうなので、<strong>転出すると使えなくなるものが出てくる</strong>と考えておくのが現実的です。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>区外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。豊島区の助成範囲は広いほうなので、<strong>転出すると使えなくなるものが出てくる</strong>と考えておくのが現実的です。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -197,10 +193,6 @@ const articles: InsuranceArticle[] = [
         a: "保険対象外の診療費、健康診断、予防接種、薬容器代、文書料、差額ベッド代等です。また保育所・幼稚園・学校でのけが等で日本スポーツ振興センター法の適用を受ける場合、第三者行為による診療の場合も対象外です。第三者行為の場合は必ず児童給付グループに連絡してください。",
       },
     ],
-    cta: {
-      heading: "助成が広くても残る部分を確かめたいとき",
-      body: "豊島区は高校生相当年齢まで所得制限なしで、接骨院や補装具、入院時の食事負担金まで助成されます。ただし差額ベッド代や保険対象外の診療費は助成の外で、付き添いで親が働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

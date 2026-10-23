@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 大府市の子育てのお金の記事。
 //
@@ -43,9 +42,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // （総社3350が「1割から無料になった」と過去形で書いているのと対照的に、大府は移行の途中）。
 // **1月あたりで市が負担した医療費が一定の額を超えた場合、高額療養費支給申請書を提出いただく**も
 // 「市が負担した額」を基準にしている点で珍しい。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -118,7 +114,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>受給者証が使える範囲が年齢で変わる自治体はほとんどありません</strong>ので、高校生年代の子どもがいるなら必ず確かめてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>受給者証が使える範囲が年齢で変わる自治体はほとんどありません</strong>ので、高校生年代の子どもがいるなら必ず確かめてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -152,10 +148,6 @@ const articles: InsuranceArticle[] = [
         a: "市内在住の18歳（18歳に達する日以後の最初の3月31日）までの子どもです。保護者などが受給者証の交付申請をして、子ども医療費受給者証の交付を受けることで助成を受けられます。",
       },
     ],
-    cta: {
-      heading: "高校生年代の受診先が市外になりそうなとき",
-      body: "大府市は中学校卒業後の受給者証が市内でしか使えず、市外では立て替えになります（2026年10月から県内へ拡大）。入院時の食事代や選定療養費は助成の外にあり、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

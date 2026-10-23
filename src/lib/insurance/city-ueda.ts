@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 上田市の子育てのお金の記事。
 //
@@ -43,9 +42,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // 上田は18歳までの子どもにもこの500円がかかる点が違う。**
 // **助成期限が「受診の翌月から起算して1年間」と短い**のは、
 // 2年・5年が多い他市と比べて目立つ。必ず書く。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -137,7 +133,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>助成の期限は自治体ごとに大きく違う</strong>ので、引っ越し前後の受診分は早めに申請してください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>助成の期限は自治体ごとに大きく違う</strong>ので、引っ越し前後の受診分は早めに申請してください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -171,10 +167,6 @@ const articles: InsuranceArticle[] = [
         a: "されません。入院時の食事療養費や生活療養費は助成対象外です。高額療養費、附加給付金、交通事故等の第三者行為にかかる医療費、学校保健安全法による医療費、スポーツ災害共済などからの給付も除かれます。",
       },
     ],
-    cta: {
-      heading: "1年の期限を切らさないために",
-      body: "上田市の助成期限は受診の翌月から1年間で、他の自治体より短めです。1レセプトにつき500円の負担が残り、入院時の食事療養費や生活療養費は助成の外にあります。付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 米子市の子育てのお金の記事。
 //
@@ -50,9 +49,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // 同じ鳥取県の鳥取市（order 1700）も入院・通院とも0円で、
 // **県内で足並みがそろっている**（鳥取市のページには「令和6年4月1日から無料」の
 // 記載はなかったが、米子市のページに変更前の金額〈通院等530円/回・入院1,200円/日〉がある）。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -128,7 +124,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>加入している健康保険で対象が変わる制度</strong>なので、引っ越しと保険の切り替えが重なるときは特に確かめてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>加入している健康保険で対象が変わる制度</strong>なので、引っ越しと保険の切り替えが重なるときは特に確かめてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -166,10 +162,6 @@ const articles: InsuranceArticle[] = [
         a: "すでに小児の特別医療費受給資格証を持っている方は手続き不要で新しい資格証が郵送されました。重度心身等の受給資格証を持っている方が「小児」へ切り替える場合は申請手続きが必要です。",
       },
     ],
-    cta: {
-      heading: "無料でも残る費用を確かめたいとき",
-      body: "米子市は令和6年4月から自己負担が無料になりましたが、労災の対象になるけがや学校でのけが、交通事故は助成の外にあります。他市町村の国保に加入していると対象外になり、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 

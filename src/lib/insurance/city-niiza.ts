@@ -1,6 +1,5 @@
 import type { InsuranceArticle } from "./types";
 import { registerInsuranceArticles } from "./index";
-import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 
 // 新座市の子育てのお金の記事。
 //
@@ -49,9 +48,6 @@ import { BABYPLANET_URL } from "@/components/babyplanet-cta";
 // **整骨院等を新座・朝霞・志木・和光の4市に限る**のも珍しい。
 // **「のり、テープ、エコホチキスでは留めないでください」**という具体的な指示も初。
 // なお新座市は vacancy JSON がないため、/niiza/vacancy へのリンクは張らない。
-
-const link = (text: string) =>
-  `<a href="${BABYPLANET_URL}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
 
 const articles: InsuranceArticle[] = [
   {
@@ -145,7 +141,7 @@ const articles: InsuranceArticle[] = [
 
 <p>出産前後には<a href="/insurance/shussan-teate-kin">出産手当金</a>や<a href="/insurance/ninpu-shien-kyufu">妊婦のための支援給付</a>、<a href="/insurance/shussan-hiyou-hoken">出産費用と保険</a>も関わってきます。<a href="/insurance/kodomo-iryohi-josei">子ども医療費助成の全国的な仕組み</a>を押さえたうえで、<a href="/insurance/kodomo-umareta-minaoshi">親に何かあったときの保障</a>を先に確かめる順番が無駄になりません。</p>
 
-<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>窓口で無料になる条件は自治体で違います</strong>ので、転入したら15日以内に登録することを最優先にしてください。判断に迷うときは${link("子育て世帯向けの無料相談")}のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
+<p>市外へ引っ越す可能性がある場合は、<a href="/insurance/hikkoshi-kosodate-okane">転居先で条件が変わる</a>点も頭に置いておいてください。<strong>窓口で無料になる条件は自治体で違います</strong>ので、転入したら15日以内に登録することを最優先にしてください。判断に迷うときは子育て世帯向けの無料相談のような窓口で、公的な保障の確認から整理してもらう手もあります。</p>
 `,
     sources: [
       {
@@ -179,10 +175,6 @@ const articles: InsuranceArticle[] = [
         a: "こども医療費交付申請書下段に、領収証の左端を揃えてホチキス（針のあるもの）で留めます。のり、テープ、エコホチキスは使えません。申請書は月別・医療機関別・入院通院別・こども別に作成します。",
       },
     ],
-    cta: {
-      heading: "窓口で無料にならない場面を確かめたいとき",
-      body: "新座市は1医療機関で同月21,000円未満なら窓口無料ですが、入院で超えると立て替えが必要になります。差額ベッド料や文書料は助成の外にあり、付き添いで働けない期間の収入も助成されません。公的な支援でカバーされる範囲を確かめると、優先すべき備えが見えてきます。子育て世帯の相談に慣れた窓口なら、この整理から一緒に進められます。",
-    },
   },
 ];
 
