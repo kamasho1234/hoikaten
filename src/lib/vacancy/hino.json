@@ -1,17 +1,17 @@
 {
   "municipalitySlug": "hino",
   "municipalityName": "日野市",
-  "asOf": "2026-09-25",
-  "fetchedAt": "2026-09-25",
+  "asOf": "2026-10-25",
+  "fetchedAt": "2026-10-25",
   "sourceName": "日野市「保育施設入所可能人数」",
-  "sourceUrl": "https://www.city.hino.lg.jp/kosodate/1028734/1029177/1029282/1032007.html",
+  "sourceUrl": "https://www.city.hino.lg.jp/kosodate/1028734/1029177/1029282/1032276.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.hino.lg.jp/_res/projects/default_project/_page_/001/032/007/r8.11bosyu.pdf"
+    "vacancy": "https://www.city.hino.lg.jp/_res/projects/default_project/_page_/001/032/276/r8.12bosyu.pdf"
   },
   "metrics": [
     "vacancy"
   ],
-  "subtitle": "2026年11月入所の入所可能人数",
+  "subtitle": "2026年12月入所の入所可能人数",
   "notes": [
     "日野市が公表している入所可能人数です。その後の入退所により変わることがあります。",
     "「—」はそのクラスの受け入れがないことを示します。"
@@ -49,18 +49,18 @@
     {"id":"旭が丘・多摩平・豊田・東豊田・東平山・西平山・神明-ひのめばえ保育園","name":"ひのめばえ保育園","w":0,"c":3,"vacancy":[null,null,null,null,null,null]},
     {"id":"大坂上・新町・日野・日野本町・万願寺・栄町-おおくぼ保育園","name":"おおくぼ保育園","w":1,"c":0,"vacancy":[null,null,null,null,null,3]},
     {"id":"大坂上・新町・日野・日野本町・万願寺・栄町-しんさかした保育園","name":"しんさかした保育園","w":1,"c":0,"vacancy":[null,null,null,null,null,3]},
-    {"id":"大坂上・新町・日野・日野本町・万願寺・栄町-日野保育園","name":"日野保育園","w":1,"c":1,"vacancy":[1,null,null,null,null,null]},
+    {"id":"大坂上・新町・日野・日野本町・万願寺・栄町-日野保育園","name":"日野保育園","w":1,"c":1,"vacancy":[null,null,null,null,null,null]},
     {"id":"大坂上・新町・日野・日野本町・万願寺・栄町-日野第二保育園","name":"日野第二保育園","w":1,"c":1,"vacancy":[null,null,null,null,null,2]},
     {"id":"大坂上・新町・日野・日野本町・万願寺・栄町-至誠第二保育園","name":"至誠第二保育園","w":1,"c":1,"vacancy":[null,null,null,null,null,2]},
-    {"id":"大坂上・新町・日野・日野本町・万願寺・栄町-よつぎ日野保育園","name":"よつぎ日野保育園","w":1,"c":1,"vacancy":[null,null,null,null,4,null]},
+    {"id":"大坂上・新町・日野・日野本町・万願寺・栄町-よつぎ日野保育園","name":"よつぎ日野保育園","w":1,"c":1,"vacancy":[null,null,null,null,5,null]},
     {"id":"大坂上・新町・日野・日野本町・万願寺・栄町-至誠あずま保育園","name":"至誠あずま保育園","w":1,"c":1,"vacancy":[null,null,null,null,null,null]},
     {"id":"大坂上・新町・日野・日野本町・万願寺・栄町-至誠ひの宿保育園","name":"至誠ひの宿保育園","w":1,"c":1,"vacancy":[null,null,null,1,null,null]},
     {"id":"大坂上・新町・日野・日野本町・万願寺・栄町-しせい太陽の子保育園","name":"しせい太陽の子保育園","w":1,"c":1,"vacancy":[null,null,null,null,null,1]},
     {"id":"大坂上・新町・日野・日野本町・万願寺・栄町-日野駅前かわせみ保育園","name":"日野駅前かわせみ保育園","w":1,"c":1,"vacancy":[null,null,null,null,null,null]},
     {"id":"大坂上・新町・日野・日野本町・万願寺・栄町-至誠いしだ保育園","name":"至誠いしだ保育園","w":1,"c":1,"vacancy":[null,null,null,null,null,null]},
     {"id":"大坂上・新町・日野・日野本町・万願寺・栄町-万願寺保育園","name":"万願寺保育園","w":1,"c":1,"vacancy":[null,null,null,null,null,null]},
-    {"id":"大坂上・新町・日野・日野本町・万願寺・栄町-子どもの森あさかわ保育園","name":"子どもの森あさかわ保育園","w":1,"c":1,"vacancy":[null,null,null,null,null,null]},
-    {"id":"新井・高幡・程久保・三沢・百草-あらい保育園","name":"あらい保育園","w":2,"c":0,"vacancy":[null,null,null,null,4,8]},
+    {"id":"大坂上・新町・日野・日野本町・万願寺・栄町-子どもの森あさかわ保育園","name":"子どもの森あさかわ保育園","w":1,"c":1,"vacancy":[null,1,null,1,null,null]},
+    {"id":"新井・高幡・程久保・三沢・百草-あらい保育園","name":"あらい保育園","w":2,"c":0,"vacancy":[null,null,null,null,4,9]},
     {"id":"新井・高幡・程久保・三沢・百草-たかはた台保育園","name":"たかはた台保育園","w":2,"c":0,"vacancy":[null,null,null,null,5,null]},
     {"id":"新井・高幡・程久保・三沢・百草-みさわ保育園","name":"みさわ保育園","w":2,"c":0,"vacancy":[null,null,null,null,null,4]},
     {"id":"新井・高幡・程久保・三沢・百草-もぐさ台保育園","name":"もぐさ台保育園","w":2,"c":0,"vacancy":[null,null,null,3,1,null]},
@@ -69,11 +69,11 @@
     {"id":"新井・高幡・程久保・三沢・百草-日野わかば保育園","name":"日野わかば保育園","w":2,"c":1,"vacancy":[null,null,null,4,7,7]},
     {"id":"新井・高幡・程久保・三沢・百草-百草台幼稚園","name":"百草台幼稚園","w":2,"c":2,"vacancy":[null,null,null,null,null,null]},
     {"id":"新井・高幡・程久保・三沢・百草-マジオたんぽぽ保育園日野ルーム","name":"マジオたんぽぽ保育園日野ルーム","w":2,"c":3,"vacancy":[null,null,null,null,null,null]},
-    {"id":"平山・上田・南平-みなみだいら保育園","name":"みなみだいら保育園","w":3,"c":0,"vacancy":[null,null,null,null,3,null]},
+    {"id":"平山・上田・南平-みなみだいら保育園","name":"みなみだいら保育園","w":3,"c":0,"vacancy":[null,null,null,null,1,null]},
     {"id":"平山・上田・南平-栄光平山台保育園※","name":"栄光平山台保育園※","w":3,"c":1,"vacancy":[null,null,null,2,null,null]},
     {"id":"平山・上田・南平-栄光保育園","name":"栄光保育園","w":3,"c":1,"vacancy":[null,null,null,1,null,null]},
     {"id":"平山・上田・南平-つくしんぼ保育園","name":"つくしんぼ保育園","w":3,"c":1,"vacancy":[null,null,null,null,null,null]},
-    {"id":"平山・上田・南平-上田せせらぎこども園","name":"上田せせらぎこども園","w":3,"c":2,"vacancy":[null,null,null,null,null,null]},
+    {"id":"平山・上田・南平-上田せせらぎこども園","name":"上田せせらぎこども園","w":3,"c":2,"vacancy":[null,null,null,null,1,null]},
     {"id":"平山・上田・南平-栄光ひまわり保育園","name":"栄光ひまわり保育園","w":3,"c":3,"vacancy":[null,null,null,null,null,null]},
     {"id":"平山・上田・南平-ののはな保育園","name":"ののはな保育園","w":3,"c":3,"vacancy":[null,null,null,null,null,null]}
   ]
