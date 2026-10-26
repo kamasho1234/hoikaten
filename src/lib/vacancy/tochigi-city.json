@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "tochigi-city",
   "municipalityName": "栃木市",
-  "asOf": "2026-10-20",
-  "fetchedAt": "2026-10-20",
+  "asOf": "2026-10-26",
+  "fetchedAt": "2026-10-26",
   "sourceName": "栃木市「保育園、認定こども園、小規模保育施設の受け入れ可能状況」",
   "sourceUrl": "https://www.city.tochigi.lg.jp/site/kosodatekyouiku/85506.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.tochigi.lg.jp/uploaded/attachment/72573.pdf"
+    "vacancy": "https://www.city.tochigi.lg.jp/uploaded/attachment/72742.pdf"
   },
   "metrics": [
     "symbol"
@@ -70,7 +70,7 @@
     {"id":"都賀幼稚園","name":"都賀幼稚園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","○","✕","✕","✕"]},
     {"id":"岩舟幼稚園","name":"岩舟幼稚園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","△"]},
     {"id":"しずわでら幼稚園","name":"しずわでら幼稚園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["✕","○","○","○","✕","✕"]},
-    {"id":"ファミーユ保育園（イオン内）","name":"ファミーユ保育園（イオン内）","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
+    {"id":"ファミーユ保育園（イオン内）","name":"ファミーユ保育園（イオン内）","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["✕","△","✕","✕","✕","✕"]},
     {"id":"とちぎメリーランド保育園","name":"とちぎメリーランド保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["✕","△","△","✕","✕","✕"]},
     {"id":"きらら保育園","name":"きらら保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]},
     {"id":"うずま保育園","name":"うずま保育園","w":null,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["✕","✕","✕","✕","✕","✕"]}

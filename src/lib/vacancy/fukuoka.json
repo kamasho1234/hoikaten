@@ -1,8 +1,8 @@
 {
   "municipalitySlug": "fukuoka",
   "municipalityName": "福岡市",
-  "asOf": "2026-10-23",
-  "fetchedAt": "2026-10-24",
+  "asOf": "2026-10-26",
+  "fetchedAt": "2026-10-26",
   "sourceName": "福岡市「ふくおか保育所案内板〈空きマップ〉」",
   "sourceUrl": "https://kodomo-hoiku.city.fukuoka.lg.jp/",
   "sourceFiles": {
@@ -415,7 +415,7 @@
     {"id":"357","name":"アン・シャーリーこども園","w":5,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["◎","◎","△","×","△","○"]},
     {"id":"358","name":"いるべ保育園","w":5,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["◎","×","○","○","×","×"],"site":{"url":"https://joy-irubehoikuen.or.jp","type":"facility"}},
     {"id":"359","name":"認定こども園うちの保育園","w":5,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["◎","◎","◎","◎","◎","◎"],"site":{"url":"http://uchino-hoikuen.com","type":"facility"}},
-    {"id":"360","name":"なごみナーサリー","w":5,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["◎","◎","×","×","×","×"],"site":{"url":"https://nagominursery.com","type":"facility"}},
+    {"id":"360","name":"なごみナーサリー","w":5,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["◎","◎","△","×","×","×"],"site":{"url":"https://nagominursery.com","type":"facility"}},
     {"id":"361","name":"くまのこ保育園","w":5,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["◎","○","◎","△","△","×"]},
     {"id":"362","name":"みんげきこども園","w":5,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["◎","◎","×","×","×","×"],"site":{"url":"https://mingeki.org/","type":"facility"}},
     {"id":"363","name":"認定こども園わきやま保育園","w":5,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["◎","◎","○","×","○","△"]},

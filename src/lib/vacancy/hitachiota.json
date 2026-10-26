@@ -2,12 +2,12 @@
   "municipalitySlug": "hitachiota",
   "municipalityName": "常陸太田市",
   "prefecture": "茨城県",
-  "asOf": "2026-09-17",
-  "fetchedAt": "2026-10-25",
+  "asOf": "2026-10-26",
+  "fetchedAt": "2026-10-26",
   "sourceName": "常陸太田市「保育施設の受入れ状況（見込み）」",
   "sourceUrl": "https://www.city.hitachiota.ibaraki.jp/kosodate/hoikuen-yochien/page001310.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.hitachiota.ibaraki.jp/data/doc/1789611918_doc_66_0.pdf"
+    "vacancy": "https://www.city.hitachiota.ibaraki.jp/data/doc/1792988540_doc_66_0.pdf"
   },
   "metrics": [
     "symbol"
@@ -168,8 +168,8 @@
       ],
       "symbols": [
         "×",
-        "×",
-        "×",
+        "△",
+        "△",
         "×",
         "△",
         "×"
@@ -277,8 +277,8 @@
         null
       ],
       "symbols": [
-        "×",
-        "×",
+        "△",
+        "△",
         "×",
         "×",
         "△",
@@ -321,7 +321,7 @@
         null
       ],
       "symbols": [
-        "△",
+        "×",
         "△",
         "△",
         null,
