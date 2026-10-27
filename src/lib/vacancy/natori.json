@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "natori",
   "municipalityName": "名取市",
-  "asOf": "2026-09-28",
-  "fetchedAt": "2026-10-26",
+  "asOf": "2026-10-26",
+  "fetchedAt": "2026-10-27",
   "sourceName": "名取市「欠員状況表」",
   "sourceUrl": "https://www.city.natori.miyagi.jp/site/kosodate/34918.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.natori.miyagi.jp/uploaded/attachment/26160.pdf"
+    "vacancy": "https://www.city.natori.miyagi.jp/uploaded/attachment/26526.pdf"
   },
   "metrics": [
     "symbol"
@@ -128,7 +128,7 @@
         "×",
         "△",
         "△",
-        "○",
+        "×",
         "×"
       ]
     },
@@ -214,7 +214,7 @@
       "symbols": [
         "×",
         "×",
-        "×",
+        "△",
         "×",
         "×",
         "×"
@@ -369,7 +369,7 @@
         "×",
         "×",
         "×",
-        "○",
+        "△",
         "×",
         "×"
       ]
@@ -454,7 +454,7 @@
         null
       ],
       "symbols": [
-        "△",
+        "×",
         "×",
         "×",
         null,

@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "katsushika",
   "municipalityName": "葛飾区",
-  "asOf": "2026-10-25",
-  "fetchedAt": "2026-10-25",
+  "asOf": "2026-10-26",
+  "fetchedAt": "2026-10-27",
   "sourceName": "葛飾区「認可保育園（認定こども園含む）・保育ママ・小規模保育事業所募集予定人数」",
   "sourceUrl": "https://www.city.katsushika.lg.jp/kosodate/1000056/1030355/1002334/index.html",
   "sourceFiles": {
-    "募集予定人数": "https://www.city.katsushika.lg.jp/_res/projects/default_project/_page_/001/040/175/r812_hoiku.pdf"
+    "募集予定人数": "https://www.city.katsushika.lg.jp/_res/projects/default_project/_page_/001/040/175/r812_hoiku_2.pdf"
   },
   "metrics": [
     "vacancy"
@@ -104,7 +104,7 @@
     {"id":"亀有・白鳥/亀有保育園","name":"亀有保育園","w":4,"c":1,"vacancy":[0,0,0,0,0,1]},
     {"id":"亀有・白鳥/ミアヘルサ保育園ひびき亀有","name":"ミアヘルサ保育園ひびき亀有","w":4,"c":1,"vacancy":[0,0,0,1,1,1]},
     {"id":"亀有・白鳥/葛飾学園","name":"葛飾学園","w":4,"c":1,"vacancy":[0,0,8,5,13,4]},
-    {"id":"亀有・白鳥/にじいろ保育園西亀有","name":"にじいろ保育園西亀有","w":4,"c":1,"vacancy":[0,0,1,2,4,4]},
+    {"id":"亀有・白鳥/にじいろ保育園西亀有","name":"にじいろ保育園西亀有","w":4,"c":1,"vacancy":[0,0,1,2,2,2]},
     {"id":"亀有・白鳥/西亀有三丁目保育園","name":"西亀有三丁目保育園","w":4,"c":1,"vacancy":[0,0,0,0,4,2]},
     {"id":"亀有・白鳥/認定こども園すなはら","name":"認定こども園すなはら","w":4,"c":1,"vacancy":[0,0,0,1,4,0]},
     {"id":"亀有・白鳥/このえ西亀有保育園","name":"このえ西亀有保育園","w":4,"c":1,"vacancy":[0,0,0,1,0,0]},
