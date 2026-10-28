@@ -2,8 +2,8 @@
   "municipalitySlug": "chiryu",
   "municipalityName": "知立市",
   "prefecture": "愛知県",
-  "asOf": "2026-10-01",
-  "fetchedAt": "2026-10-27",
+  "asOf": "2026-10-16",
+  "fetchedAt": "2026-10-28",
   "sourceName": "知立市「保育所等空き状況一覧」",
   "sourceUrl": "https://www.city.chiryu.aichi.jp/kosodate_info/4/15113.html",
   "sourceFiles": {
@@ -98,8 +98,8 @@
         "×",
         "×",
         "×",
-        "△",
         "×",
+        "△",
         "○"
       ]
     },
@@ -252,7 +252,7 @@
         "×",
         "×",
         "△",
-        "○",
+        "×",
         "△",
         "○"
       ]
