@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import { getMunicipalityData, getAllMunicipalities } from "@/lib/data";
 import { getArticlesByCity } from "@/lib/articles";
 import { getInsuranceArticleByCity } from "@/lib/insurance";
@@ -7,7 +7,7 @@ import "@/lib/insurance/register-all";
 import { SimulatorForm } from "./simulator-form";
 import { breadcrumbList, faqPage, buildCityFaq } from "@/lib/jsonld";
 import { prefectureNameToSlug } from "@/lib/prefecture";
-import { formatJapaneseDate, getVacancyData } from "@/lib/vacancy";
+import { formatJapaneseDate, getVacancyData, hasVacancyData } from "@/lib/vacancy";
 import {
   Card,
   CardHeader,
@@ -45,7 +45,14 @@ export default async function CityPage({
 }) {
   const { city } = await params;
   const data = getMunicipalityData(city);
-  if (!data) notFound();
+  if (!data) {
+    // 点数の基準を持たず空き状況・記事だけある市（栗東市など）は、トップが無いので中身のあるページへ寄せる。
+    // サブドメインのトップ（ritto.hoikaten.com/）もここへ301されるので、404にすると行き止まりになる
+    //（Search Console 2026-10-28: ritto・matsubushi・makubetsu のサブドメインが404）
+    if (hasVacancyData(city)) permanentRedirect(`/${city}/vacancy`);
+    if (getArticlesByCity(city).length > 0) permanentRedirect(`/${city}/articles`);
+    notFound();
+  }
 
   const prefName = data.municipality.prefecture;
   const prefSlug = prefectureNameToSlug(prefName);
