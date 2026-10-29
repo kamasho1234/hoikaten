@@ -1,56 +1,88 @@
 {
   "citySlug": "miyazaki",
-  "checkedAt": "2026-09-18",
+  "checkedAt": "2026-10-29",
   "page": {
-    "label": "宮崎市「令和8年度認可保育施設利用申込みのご案内」",
+    "label": "宮崎市「令和9年度 認可保育施設利用申込みのご案内」",
     "url": "https://www.city.miyazaki.miyazaki.jp/education/nursery/access/297861.html"
   },
-  "fiscalYear": "R8",
-  "guideRelease": "令和7年11月17日（月）から配布開始。保育幼稚園課（本庁舎1階）または各総合支所地域市民福祉課市民福祉係で配布。本市ホームページからもダウンロード可能",
-  "firstApply": "令和7年12月1日（月）～12月19日（金）",
-  "applyMethods": "電子申請（ぴったりサービス）で申込むか、窓口で直接申込む場合は市保育幼稚園課（本庁舎1階）または各総合支所地域市民福祉課市民福祉係、郵送の場合も同じ提出先に郵送",
-  "firstResult": "令和8年1月下旬に結果通知予定",
-  "secondApply": "令和8年2月2日（月）～2月10日（火）",
-  "secondResult": "令和8年2月下旬に結果通知予定",
+  "fiscalYear": "R9",
+  "guideRelease": "11月16日（月）から保育幼稚園課（本庁舎1階）または各総合支所地域市民福祉課市民福祉係の窓口で配布開始。本市ホームページからもダウンロード可能",
+  "firstApply": "第1回：令和8年12月1日（火）～12月18日（金）",
+  "applyMethods": "マイナポータル（ぴったりサービス）での電子申請、市保育幼稚園課（本庁舎1階）または各総合支所地域市民福祉課市民福祉係の窓口、または同じ提出先への郵送（各回の締切日必着）",
+  "firstResult": "令和9年1月下旬に結果通知予定。内定時は施設から直接連絡があり、保留の場合は各回で文書通知",
+  "secondApply": "第2回：令和9年2月1日（月）～2月10日（水）",
+  "secondResult": "令和9年2月下旬に結果通知予定",
+  "midYearDeadline": "令和9年5月以降の年度途中の利用は各月の申込締切日まで（例：令和9年5月利用は令和9年4月9日（金）締切）",
   "documents": [
     "子どものための教育・保育給付認定申請書（2号・3号）兼保育施設等利用申込書（児童1人につき1枚）",
     "保育の必要性を証明する書類（全ての世帯・保護者ごとに1部ずつ）",
     "世帯の状況に応じた書類（該当する世帯のみ・世帯につき1部）"
   ],
+  "ikukyu": "育児休業給付金の延長手続きを行う場合は、制度に準じた時期に利用申込みが必要。育児休業中に申込む場合は、利用開始月中に育児休業から復職する必要がある",
   "notes": [
-    "求職活動の方は第2回からの申込みが対象となる",
-    "入所決定は先着順ではなく、保育の必要性の高い人から優先して利用調整を行う",
-    "申込み時点で宮崎市に住民票がなくても申込みは可能だが、4月1日時点には宮崎市に住民票があることが条件",
-    "申込み前に希望する施設への見学が勧められている"
+    "求職活動の方は第2回からの申込みとなる",
+    "第3回の申込期間は令和9年3月1日（月）～3月10日（水）、結果通知予定は令和9年3月中旬",
+    "入所決定は先着順ではない",
+    "申込み時点で宮崎市に住民票がなくても申込みは可能だが、4月1日時点に宮崎市に住民票があることが条件",
+    "申込みまでに希望する施設への事前の見学が求められている",
+    "内定した第2希望・第3希望の施設を「第1希望ではないから」といった理由で辞退すると、次回以降の選考で減点になる"
   ],
   "evidence": {
     "fiscalYear": {
       "url": "https://www.city.miyazaki.miyazaki.jp/education/nursery/access/297861.html",
-      "quote": "宮崎市内の認可保育施設の令和8年4月分の利用申込みについて、以下のとおり、お知らせいたします。"
+      "quote": "宮崎市内の認可保育施設の令和9年4月分の利用申込みについて、以下のとおり、お知らせいたします。"
     },
     "guideRelease": {
       "url": "https://www.city.miyazaki.miyazaki.jp/education/nursery/access/297861.html",
-      "quote": "配布時期：11月17日（月）から配布開始 配布場所：保育幼稚園課（本庁舎1階）または各総合支所地域市民福祉課市民福祉係"
+      "quote": "配布時期：11月16日（月）から配布開始"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.miyazaki.miyazaki.jp/education/nursery/access/297861.html",
+      "quote": "配布場所：保育幼稚園課（本庁舎1階）または各総合支所地域市民福祉課市民福祉係"
+    },
+    "guideRelease#3": {
+      "url": "https://www.city.miyazaki.miyazaki.jp/education/nursery/access/297861.html",
+      "quote": "（1）本市ホームページからダウンロードいただく方法"
     },
     "firstApply": {
       "url": "https://www.city.miyazaki.miyazaki.jp/education/nursery/access/297861.html",
-      "quote": "申込期間：令和7年12月1日(月)～12月19日(金)"
+      "quote": "申込期間：令和8年12月1日(火)～12月18日(金)※求職活動の方は第2回からの申込みとなります。"
     },
     "applyMethods": {
-      "url": "https://www.city.miyazaki.miyazaki.jp/education/nursery/access/262753.html",
-      "quote": "窓口での受付の他、マイナンバーカードを用いた「ぴったりサービス」での受付も行うことができます。また、郵送での受付も可能です。"
+      "url": "https://www.city.miyazaki.miyazaki.jp/education/nursery/access/297861.html",
+      "quote": "各回の締切日までにマイナポータル（ぴったりサービス）から、申込みを行ってください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.miyazaki.miyazaki.jp/education/nursery/access/297861.html",
+      "quote": "各回の締切日までに市保育幼稚園課（本庁舎1階）または各総合支所地域市民福祉課市民福祉係窓口で直接申込みを行ってください。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.miyazaki.miyazaki.jp/education/nursery/access/297861.html",
+      "quote": "市保育幼稚園課または各総合支所地域市民福祉課市民福祉係まで郵送してください。（各回の締切日必着）"
     },
     "firstResult": {
       "url": "https://www.city.miyazaki.miyazaki.jp/education/nursery/access/297861.html",
-      "quote": "結果通知予定時期：令和8年1月下旬"
+      "quote": "結果通知予定時期：令和9年1月下旬"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.miyazaki.miyazaki.jp/fs/8/9/9/3/8/2/_/___9___________________.pdf",
+      "quote": "※結果の通知について、内定時は施設から直接連絡があります。保留の場合、各回で文書通知を行います。"
     },
     "secondApply": {
       "url": "https://www.city.miyazaki.miyazaki.jp/education/nursery/access/297861.html",
-      "quote": "申込期間：令和8年2月2日(月)～2月10日(火)"
+      "quote": "申込期間：令和9年2月1日(月)～2月10日(水)"
     },
     "secondResult": {
       "url": "https://www.city.miyazaki.miyazaki.jp/education/nursery/access/297861.html",
-      "quote": "結果通知予定時期：令和8年2月下旬"
+      "quote": "結果通知予定時期：令和9年2月下旬"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.miyazaki.miyazaki.jp/fs/8/9/9/3/8/2/_/___9___________________.pdf",
+      "quote": "年度途中での利用開始を希望する場合、以下の各申込締切日までに申込みを行ってください。"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.miyazaki.miyazaki.jp/fs/8/9/9/3/8/2/_/___9___________________.pdf",
+      "quote": "令和９年 5月 令和９年 ３月25日頃 令和９年 ４月 ９日（金）"
     },
     "documents.0": {
       "url": "https://www.city.miyazaki.miyazaki.jp/education/nursery/access/297861.html",
@@ -64,31 +96,51 @@
       "url": "https://www.city.miyazaki.miyazaki.jp/education/nursery/access/297861.html",
       "quote": "世帯の状況に応じた書類（該当する世帯のみ・世帯につき1部）"
     },
+    "ikukyu": {
+      "url": "https://www.city.miyazaki.miyazaki.jp/fs/8/9/9/3/8/2/_/___9___________________.pdf",
+      "quote": "育児休業給付金の延長手続きを行う場合は、制度に準じた時期に保育施設等の利用申込みが必要になります。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.miyazaki.miyazaki.jp/fs/8/9/9/3/8/2/_/___9___________________.pdf",
+      "quote": "中に保育所等の申込みを行う場合は、利用開始月中に育児休業から復職する必要があります。"
+    },
     "notes.0": {
       "url": "https://www.city.miyazaki.miyazaki.jp/education/nursery/access/297861.html",
       "quote": "ただし、求職活動の方は第2回からの申込みとなりますので、ご注意ください。"
     },
     "notes.1": {
       "url": "https://www.city.miyazaki.miyazaki.jp/education/nursery/access/297861.html",
-      "quote": "なお入所決定は、先着順ではございませんので、ご注意ください。"
+      "quote": "申込期間：令和9年3月1日(月)～3月10日(水)"
+    },
+    "notes.1#2": {
+      "url": "https://www.city.miyazaki.miyazaki.jp/education/nursery/access/297861.html",
+      "quote": "結果通知予定時期：令和9年3月中旬"
     },
     "notes.2": {
       "url": "https://www.city.miyazaki.miyazaki.jp/education/nursery/access/297861.html",
-      "quote": "申込み時点で宮崎市に住民票がなくても申込みは可能です。ただし、4月1日時点には宮崎市に住民票があることが条件です。"
+      "quote": "なお入所決定は、先着順ではございませんので、ご注意ください。"
     },
     "notes.3": {
       "url": "https://www.city.miyazaki.miyazaki.jp/education/nursery/access/297861.html",
+      "quote": "申込み時点で宮崎市に住民票がなくても申込みは可能です。ただし、4月1日時点には宮崎市に住民票があることが条件です。"
+    },
+    "notes.4": {
+      "url": "https://www.city.miyazaki.miyazaki.jp/education/nursery/access/297861.html",
       "quote": "申込みまでに希望する施設への事前の見学をお願いいたします。"
+    },
+    "notes.5": {
+      "url": "https://www.city.miyazaki.miyazaki.jp/fs/8/9/9/3/8/2/_/___9___________________.pdf",
+      "quote": "の保育施設の利用を辞退されますと、次回以降の選考で減点になります。"
     }
   },
   "sources": [
     {
-      "label": "宮崎市「【詳細情報】保育施設等の利用手続き」",
-      "url": "https://www.city.miyazaki.miyazaki.jp/education/nursery/access/262753.html"
+      "label": "宮崎市「令和9年度 認可保育施設利用申込みのご案内」",
+      "url": "https://www.city.miyazaki.miyazaki.jp/education/nursery/access/297861.html"
     },
     {
-      "label": "宮崎市「令和8年度認可保育施設利用申込みのご案内」",
-      "url": "https://www.city.miyazaki.miyazaki.jp/education/nursery/access/297861.html"
+      "label": "宮崎市「（令和9年度版）宮崎市教育・保育施設利用ガイド」",
+      "url": "https://www.city.miyazaki.miyazaki.jp/fs/8/9/9/3/8/2/_/___9___________________.pdf"
     }
   ]
 }

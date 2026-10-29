@@ -1,146 +1,182 @@
 {
   "citySlug": "tsuchiura",
-  "checkedAt": "2026-09-30",
+  "checkedAt": "2026-10-29",
   "page": {
     "label": "土浦市「保育施設利用案内」",
     "url": "https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/hoiku-gakko/yochien-kodomoen-hoikuen/hoikujo/page006565.html"
   },
-  "fiscalYear": "R8",
-  "guideRelease": "保育利用案内を11月4日から保育課、支所・出張所、保健センター、市内の各保育施設で配布",
-  "firstApply": "令和7年11月26日（水）〜12月10日（水）の市役所開庁日の9時〜17時。土日は11月30日（日）のみ受付。第1次受付は事前予約制",
-  "applyMethods": "市役所ウララ2ビル8階の保育課の窓口で申し込む。保護者と子どもが同伴で来庁する。第1次受付は事前予約制で、予約サイトの予約は令和7年11月7日（金）9時から",
-  "firstResult": "第1次受付分は1月上旬から入所調整を行い、結果等の通知は1月26日に発送予定",
-  "secondApply": "令和7年12月11日（木）〜令和8年2月3日（火）の市役所開庁日の8時30分〜17時15分（土日・祝日・年末年始を除く）",
-  "secondResult": "第2次受付分は空き状況に応じて2月中旬に入所調整を行い、2月下旬に通知予定",
-  "midYearDeadline": "4月以外の入所は、入所を希望する月の前々月の11日から前月の10日まで（10日が土日・祝日の場合は次の開庁日）",
+  "fiscalYear": "R9",
+  "guideRelease": "保育利用案内を11月初頭から保育課、支所・出張所、保健センター、市内の各保育施設で配布予定",
+  "firstApply": "令和8年11月26日（木）〜12月10日（木）の9時〜17時。窓口は市役所開庁日のみで、土日は11月29日（日）のみ受付（要予約）。窓口の第1次受付は事前予約制。電子申請も同じ期間の9時〜17時",
+  "applyMethods": "保育課の窓口受付に加え、令和9年度4月入所申込からマイナポータルによる電子申請ができる。窓口の第1次受付は事前予約制で、予約サイトの予約は令和8年11月6日（金）9時から。医療的ケアが必要な児童、市外の保育施設を希望する人、出生前申込・代理申込などは窓口のみ",
+  "firstResult": "第1次受付分は1月上旬から入所調整を行い、結果等の通知は1月26日頃に発送予定",
+  "secondApply": "窓口は令和8年12月11日（金）〜令和9年2月3日（水）の市役所開庁日の8時30分〜17時15分（土日・祝日・年末年始を除く）。電子申請は第1次受付終了から令和9年2月3日（水）17時15分まで",
+  "secondResult": "第1次受付分の入所調整後の空き状況に応じ、2月中旬に入所調整予定",
+  "midYearDeadline": "4月以外の入所は、窓口では入所を希望する月の前々月の11日から前月の10日まで（10日が土日・祝日の場合は次の開庁日）。電子申請は前月の受付終了から入所希望月の前月10日の17時15分まで",
   "documents": [
-    "保育所入所申込書（乳幼児1人につき1部）",
-    "子ども・子育て支援給付認定申請書（乳幼児1人につき1部）",
-    "心身状況書（乳幼児1人につき1部）",
-    "保育所申請用補助表（乳幼児の人数にかかわらず1部）",
-    "土浦市保育所等入所申込に関する確認書（乳幼児の人数にかかわらず1部）",
-    "保育にあたれない証明書（父母ともに必要）。就労の場合は就労証明書で、証明日から3か月以内のもの",
-    "母子手帳（申込乳幼児のもの）"
+    "保育所入所申込書（児童1人に1部）",
+    "給付認定申請書（児童1人に1部）",
+    "心身状況書（児童1人に1部）",
+    "保育所申請用補助表（児童の人数にかかわらず1部）",
+    "母子手帳（申込児童のもの。新規入所時のみ）",
+    "保育所等入所申込に関する確認表（児童の人数にかかわらず1部）",
+    "保育にあたれない証明書（保護者それぞれ1部）"
   ],
-  "interview": "内定後に各施設で健康診断・面接がある。健康診断等を受けない場合は入所できない。事前見学が必要な保育施設は、子ども同伴で申請受付締切日までに見学する",
-  "ikukyu": "保留希望での申込はできないが、保育所申請用補助表で「育児休業の延長を許容できる」と意思表示すると優先度を下げて入所調整される（内定になる可能性はある）",
+  "interview": "事前見学が必要な保育施設は、申請前に子ども同伴で見学する。令和9年度の入所申込から見学の要否を変更した施設があるため、令和9年度入所申込用の一覧で確認する",
   "notes": [
-    "第3次受付は令和8年2月4日（水）〜3月3日（火）。例年、第2次受付分の調整後は空きがなくなる可能性が高く、できるだけ第1次受付期間に申し込むよう求めている",
+    "第3次受付は窓口が令和9年2月4日（木）〜3月3日（水）、電子申請は第2次受付終了から3月3日（水）17時15分まで。例年、第2次受付分の調整後は空きがなくなる可能性が高く、できるだけ第1次受付期間に申し込むよう求めている",
     "希望順位を上にしても優先度は上がらないので、受入見込数にかかわらず行きたい順番に書く",
     "育児休業の延長手続で入所申込書類一式が必要になることが多く、提出書類は返却されないので申込前に自分でコピーを取っておく",
     "4月入所は入所式の後でないと子どもを預かれない施設があるので、希望する施設に確認する",
-    "同居の親族（祖父母等）が65歳未満の場合、その人の保育にあたれない証明書がないと優先順位が低くなる"
+    "申込時の子ども同伴は令和9年度申込から必須ではなくなる",
+    "電子申請では保育にあたれない証明書などをPDFや写真で添付する（合計7MBまで）。不足書類は申請の受付締切日までに提出しないと利用調整で不利になったり対象外になったりする"
   ],
   "evidence": {
     "fiscalYear": {
-      "url": "https://www.city.tsuchiura.lg.jp/data/doc/1603958747_doc_22_0.pdf",
-      "quote": "（１）令和８年４月入所申込 ① 第１次申込"
+      "url": "https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/hoiku-gakko/yochien-kodomoen-hoikuen/hoikujo/page006565.html",
+      "quote": "令和9年度4月入所申込より、窓口受付に加えてマイナポータルによる申請が可能となります。"
     },
     "guideRelease": {
       "url": "https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/hoiku-gakko/yochien-kodomoen-hoikuen/hoikujo/page006565.html",
-      "quote": "※「令和8年度保育利用案内」は、11月4日より保育課、支所・出張所、保健センター、市内の各保育施設で配布しております。"
+      "quote": "※「令和9年度保育利用案内」は、11月初頭より保育課、支所・出張所、保健センター、市内の各保育施設で配布する予定です。"
     },
     "firstApply": {
       "url": "https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/hoiku-gakko/yochien-kodomoen-hoikuen/hoikujo/page006565.html",
-      "quote": "日時：令和7年11月26日（水）から令和7年12月10日（水）までの市役所開庁日の9時00分～17時00分"
+      "quote": "日時：令和8年11月26日（木）から令和8年12月10日（木）までの市役所開庁日の9時00分～17時00分"
     },
     "firstApply#2": {
       "url": "https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/hoiku-gakko/yochien-kodomoen-hoikuen/hoikujo/page006565.html",
-      "quote": "※土日の受付は、11月30日（日）のみ実施（平日同様、要予約）いたします。"
+      "quote": "※土日の受付は、11月29日（日）のみ実施（平日同様、要予約）いたします。"
     },
     "firstApply#3": {
       "url": "https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/hoiku-gakko/yochien-kodomoen-hoikuen/hoikujo/page006565.html",
       "quote": "※4月の入所《第1次》受付は、「事前予約制」となります。"
     },
+    "firstApply#4": {
+      "url": "https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/hoiku-gakko/yochien-kodomoen-hoikuen/hoikujo/page006565.html",
+      "quote": "日時：令和8年11月26日（木）から令和8年12月10日（木）までの9時00分～17時00分"
+    },
     "applyMethods": {
       "url": "https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/hoiku-gakko/yochien-kodomoen-hoikuen/hoikujo/page006565.html",
-      "quote": "※申込受付は、市役所ウララ2ビル 8階保育課となります。必ず保護者とお子様との同伴でお越しください。"
+      "quote": "令和9年度4月入所申込より、窓口受付に加えてマイナポータルによる申請が可能となります。"
     },
     "applyMethods#2": {
       "url": "https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/hoiku-gakko/yochien-kodomoen-hoikuen/hoikujo/page006565.html",
-      "quote": "※予約は令和7年11月7日（金）9時00分～開始予定です。"
+      "quote": "※予約は令和8年11月6日（金）9時00分～開始予定です。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/hoiku-gakko/yochien-kodomoen-hoikuen/hoikujo/page006565.html",
+      "quote": "・医療的ケアが必要である児童"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/hoiku-gakko/yochien-kodomoen-hoikuen/hoikujo/page006565.html",
+      "quote": "・市外の保育施設（保育部分）を希望する方"
+    },
+    "applyMethods#5": {
+      "url": "https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/hoiku-gakko/yochien-kodomoen-hoikuen/hoikujo/page006565.html",
+      "quote": "・出生前申込を行う方"
+    },
+    "applyMethods#6": {
+      "url": "https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/hoiku-gakko/yochien-kodomoen-hoikuen/hoikujo/page006565.html",
+      "quote": "・代理申込を行なう方"
     },
     "firstResult": {
       "url": "https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/hoiku-gakko/yochien-kodomoen-hoikuen/hoikujo/page006565.html",
-      "quote": "※入所調整は1月上旬から行い、結果等の通知は1月26日に発送を予定しています。"
+      "quote": "※入所調整は1月上旬から行い、結果等の通知は1月26日頃の発送を予定しています。"
     },
     "secondApply": {
       "url": "https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/hoiku-gakko/yochien-kodomoen-hoikuen/hoikujo/page006565.html",
-      "quote": "日時：令和7年12月11日（木）から令和8年2月3日（火）までの市役所開庁日の8時30分～17時15分（土日、祝日、年末年始を除く）"
+      "quote": "日時：令和8年12月11日（金）から令和9年2月3日（水）までの市役所開庁日の8時30分～17時15分（土日、祝日、年末年始を除く）"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/hoiku-gakko/yochien-kodomoen-hoikuen/hoikujo/page006565.html",
+      "quote": "日時：令和9年4月1次入所申込受付終了から令和9年2月3日（水）の17時15分"
     },
     "secondResult": {
       "url": "https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/hoiku-gakko/yochien-kodomoen-hoikuen/hoikujo/page006565.html",
       "quote": "※ 第1次受付分入所調整後の空き状況に応じ、2月中旬に入所調整を予定しています。"
     },
-    "secondResult#2": {
-      "url": "https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/hoiku-gakko/yochien-kodomoen-hoikuen/hoikujo/page006569.html",
-      "quote": "ただし，4月入所に係るものは申請が集中し，審査に時間がかかることから，入所調整の結果とともに一次は1月下旬，二次は2月下旬にご通知する予定です。"
-    },
     "midYearDeadline": {
       "url": "https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/hoiku-gakko/yochien-kodomoen-hoikuen/hoikujo/page006565.html",
-      "quote": "申込期間は、入所を希望する月の前々月の11日から前月の10日までとなります。"
+      "quote": "入所を希望する月の前々月の11日から前月の10日まで（10日が土・日・祝祭日にあたる場合は、その次の開庁日）"
     },
     "midYearDeadline#2": {
       "url": "https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/hoiku-gakko/yochien-kodomoen-hoikuen/hoikujo/page006565.html",
-      "quote": "（10日が土・日・祝祭日にあたる場合は、その次の開庁日）"
+      "quote": "前月受付終了から入所を希望する月の前月の10日の17時15分まで"
     },
     "documents.0": {
-      "url": "https://www.city.tsuchiura.lg.jp/data/doc/1603958747_doc_22_0.pdf",
-      "quote": "(１) 保育所入所申込書（乳幼児１人につき１部）"
+      "url": "https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/hoiku-gakko/yochien-kodomoen-hoikuen/hoikujo/page006569.html",
+      "quote": "1　保育所入所申込書"
+    },
+    "documents.0#2": {
+      "url": "https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/hoiku-gakko/yochien-kodomoen-hoikuen/hoikujo/page006569.html",
+      "quote": "児童1人に1部必要です。"
     },
     "documents.1": {
-      "url": "https://www.city.tsuchiura.lg.jp/data/doc/1603958747_doc_22_0.pdf",
-      "quote": "(２) 子ども・子育て支援給付認定申請書（乳幼児１人につき１部）"
+      "url": "https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/hoiku-gakko/yochien-kodomoen-hoikuen/hoikujo/page006569.html",
+      "quote": "2　給付認定申請書"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/hoiku-gakko/yochien-kodomoen-hoikuen/hoikujo/page006569.html",
+      "quote": "児童1人に1部必要です。"
     },
     "documents.2": {
-      "url": "https://www.city.tsuchiura.lg.jp/data/doc/1603958747_doc_22_0.pdf",
-      "quote": "(３) 心身状況書（乳幼児１人につき１部）"
+      "url": "https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/hoiku-gakko/yochien-kodomoen-hoikuen/hoikujo/page006569.html",
+      "quote": "3　心身状況書"
+    },
+    "documents.2#2": {
+      "url": "https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/hoiku-gakko/yochien-kodomoen-hoikuen/hoikujo/page006569.html",
+      "quote": "児童1人に1部必要です。"
     },
     "documents.3": {
-      "url": "https://www.city.tsuchiura.lg.jp/data/doc/1603958747_doc_22_0.pdf",
-      "quote": "(４) 保育所申請用補助表（乳幼児の人数にかかわらず１部）"
+      "url": "https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/hoiku-gakko/yochien-kodomoen-hoikuen/hoikujo/page006569.html",
+      "quote": "4　保育所申請用補助表"
+    },
+    "documents.3#2": {
+      "url": "https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/hoiku-gakko/yochien-kodomoen-hoikuen/hoikujo/page006569.html",
+      "quote": "児童の人数にかかわらず1部必要です。"
     },
     "documents.4": {
-      "url": "https://www.city.tsuchiura.lg.jp/data/doc/1603958747_doc_22_0.pdf",
-      "quote": "(５) 土浦市保育所等入所申込に関する確認書（乳幼児の人数にかかわらず１部）"
+      "url": "https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/hoiku-gakko/yochien-kodomoen-hoikuen/hoikujo/page006569.html",
+      "quote": "5　母子手帳"
+    },
+    "documents.4#2": {
+      "url": "https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/hoiku-gakko/yochien-kodomoen-hoikuen/hoikujo/page006569.html",
+      "quote": "申込児童のものが必要です。（新規入所時のみ）"
     },
     "documents.5": {
-      "url": "https://www.city.tsuchiura.lg.jp/data/doc/1603958747_doc_22_0.pdf",
-      "quote": "(６) 保育にあたれない証明書（父母ともに必要）"
+      "url": "https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/hoiku-gakko/yochien-kodomoen-hoikuen/hoikujo/page006569.html",
+      "quote": "6　保育所等入所申込に関する確認表"
     },
     "documents.5#2": {
-      "url": "https://www.city.tsuchiura.lg.jp/data/doc/1603958747_doc_22_0.pdf",
-      "quote": "「就労証明書」（証明日から３か月以内のもの。"
+      "url": "https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/hoiku-gakko/yochien-kodomoen-hoikuen/hoikujo/page006569.html",
+      "quote": "児童の人数にかかわらず1部必要です。"
     },
     "documents.6": {
-      "url": "https://www.city.tsuchiura.lg.jp/data/doc/1603958747_doc_22_0.pdf",
-      "quote": "(７) 母子手帳（申込乳幼児のもの）"
+      "url": "https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/hoiku-gakko/yochien-kodomoen-hoikuen/hoikujo/page006569.html",
+      "quote": "7　保育にあたれない証明書"
+    },
+    "documents.6#2": {
+      "url": "https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/hoiku-gakko/yochien-kodomoen-hoikuen/hoikujo/page006569.html",
+      "quote": "保護者それぞれ1部ずつ必要です。"
     },
     "interview": {
-      "url": "https://www.city.tsuchiura.lg.jp/data/doc/1603958747_doc_22_0.pdf",
-      "quote": "※ 内定後の健康診断等を受けない場合や、集団保育が不可能である場合は入所できません。"
+      "url": "https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/hoiku-gakko/yochien-kodomoen-hoikuen/hoikujo/page006565.html",
+      "quote": "※令和9年度の入所申込より、事前の施設見学（児童同伴）の必要性を変更している施設がございます。"
     },
     "interview#2": {
-      "url": "https://www.city.tsuchiura.lg.jp/data/doc/1603958747_doc_22_0.pdf",
-      "quote": "内定の場合 保留の場合 各施設の健診･面接"
-    },
-    "interview#3": {
-      "url": "https://www.city.tsuchiura.lg.jp/data/doc/1603958747_doc_22_0.pdf",
-      "quote": "事前に見学が必要な保育施設に入所を希望される場合は、入所させたいお子様同伴のうえ、入所希望月の申請受付締切日までに、該当の保育施設への見学を実施していただきますようお願いします。"
-    },
-    "ikukyu": {
-      "url": "https://www.city.tsuchiura.lg.jp/data/doc/1603958747_doc_22_0.pdf",
-      "quote": "保育所申請用補助表にて、「育児休業の延長を許容できる」ことの意思表示をしていただいた場合は優先度を下げて入所調整を行います。"
-    },
-    "ikukyu#2": {
-      "url": "https://www.city.tsuchiura.lg.jp/data/doc/1603958747_doc_22_0.pdf",
-      "quote": "あくまでも優先度が下がるだけで、入所調整の対象となりますので、内定になる可能性があることをご了承ください。"
+      "url": "https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/hoiku-gakko/yochien-kodomoen-hoikuen/hoikujo/page006569.html",
+      "quote": "令和9年度の入所申込をご希望の場合、【令和9年度入所申込用】事前見学が必要な保育施設一覧 [PDF形式／134.05KB] をご確認いただき、申請前に希望施設の見学をお願いいたします。"
     },
     "notes.0": {
       "url": "https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/hoiku-gakko/yochien-kodomoen-hoikuen/hoikujo/page006565.html",
-      "quote": "日時：令和8年2月4日（水）から令和8年3月3日（火）までの市役所開庁日の8時30分～17時15分（土日、祝日を除く）"
+      "quote": "日時：令和9年2月4日（木）から令和9年3月3日（水）までの市役所開庁日の8時30分～17時15分（土日、祝日を除く）"
     },
     "notes.0#2": {
+      "url": "https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/hoiku-gakko/yochien-kodomoen-hoikuen/hoikujo/page006565.html",
+      "quote": "日時：令和9年4月2次入所申込受付終了から令和9年3月3日（水）の17時15分"
+    },
+    "notes.0#3": {
       "url": "https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/hoiku-gakko/yochien-kodomoen-hoikuen/hoikujo/page006565.html",
       "quote": "例年、第2次受付分入所調整後は、年齢児にもよりますが、空きがなくなる可能性が高いです。できるだけ第1次受付期間に申込をお願いします。"
     },
@@ -152,13 +188,33 @@
       "url": "https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/hoiku-gakko/yochien-kodomoen-hoikuen/hoikujo/page006565.html",
       "quote": "原則、一度市に提出いただいた書類を返却することはできませんので、入所申込の手続き前にご自身でコピーを取っておくよう、お願いいたします。"
     },
+    "notes.2#2": {
+      "url": "https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/hoiku-gakko/yochien-kodomoen-hoikuen/hoikujo/page006565.html",
+      "quote": "※令和7年度から、育児休業の延長等の手続において、保育所入所申込の際に提出した書類の一式が必要となる場合が多くなっております。"
+    },
     "notes.3": {
       "url": "https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/hoiku-gakko/yochien-kodomoen-hoikuen/hoikujo/page006565.html",
       "quote": "※4月入所については、入所式の後でないとお子様をお預かりできない施設がありますので、希望する施設にご確認をお願いいたします。"
     },
     "notes.4": {
-      "url": "https://www.city.tsuchiura.lg.jp/data/doc/1603958747_doc_22_0.pdf",
-      "quote": "◎同居の親族（祖父母等）が６５歳未満の場合（在学中の子を除く）、当該祖父母等の保育にあたれない証明書がないと優先順位が低くなります。"
+      "url": "https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/hoiku-gakko/yochien-kodomoen-hoikuen/hoikujo/page006569.html",
+      "quote": "※必ずお子様とご一緒にお越しください（令和9年度申込より必須ではなくなります）。"
+    },
+    "notes.5": {
+      "url": "https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/hoiku-gakko/yochien-kodomoen-hoikuen/hoikujo/page006565.html",
+      "quote": "電子申請では、申請フォーム内の必須項目を記入のうえ、保育にあたれない証明書の添付（PDFファイルや書類全体が写っており記載内容が明確に読み取れる写真等）が必要です。"
+    },
+    "notes.5#2": {
+      "url": "https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/hoiku-gakko/yochien-kodomoen-hoikuen/hoikujo/page006565.html",
+      "quote": "※添付できるデータ容量は、合計で7MBまでです。"
+    },
+    "notes.5#3": {
+      "url": "https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/hoiku-gakko/yochien-kodomoen-hoikuen/hoikujo/page006565.html",
+      "quote": "不足書類の提出がない場合や不備が解消されない場合、認定事由に該当しないと判断した場合には、利用調整において不利になったり、利用調整対象外となる場合があります。"
+    },
+    "notes.5#4": {
+      "url": "https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/hoiku-gakko/yochien-kodomoen-hoikuen/hoikujo/page006565.html",
+      "quote": "・不足書類等については、申請の受付締切日までに必ずご提出ください。"
     }
   },
   "sources": [
@@ -169,10 +225,6 @@
     {
       "label": "土浦市「保育所申込に必要な書類」",
       "url": "https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/hoiku-gakko/yochien-kodomoen-hoikuen/hoikujo/page006569.html"
-    },
-    {
-      "label": "土浦市「令和8年度保育利用案内」（PDF）",
-      "url": "https://www.city.tsuchiura.lg.jp/data/doc/1603958747_doc_22_0.pdf"
     }
   ]
 }

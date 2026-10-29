@@ -1,58 +1,73 @@
 {
   "citySlug": "kanazawa",
-  "checkedAt": "2026-09-18",
+  "checkedAt": "2026-10-29",
   "page": {
-    "label": "金沢市「保育所・認定こども園等の利用に係る申請書類」",
+    "label": "金沢市「保育所・認定こども園等の利用に係る申請書類(教育・保育給付認定申請書など)」",
     "url": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/hoikuyochienka/shinseishodownload/8336.html"
   },
-  "fiscalYear": "R8",
-  "guideRelease": "令和7年9月24日（水曜日）から申込書類等を配布。受取場所は市内の各保育所・認定こども園、保育幼稚園課、各市民センター、各福祉健康センター",
-  "firstApply": "令和7年10月1日（水曜日）～令和7年10月22日（水曜日）",
-  "firstResult": "令和8年1月中旬頃、郵送で内定結果を通知",
-  "secondApply": "令和8年1月15日（木曜日）～令和8年1月26日（月曜日）",
-  "secondResult": "令和8年2月中旬頃、郵送で内定結果を通知",
+  "fiscalYear": "R9",
+  "firstApply": "令和8年10月1日（木曜日）～令和8年10月22日（木曜日）（令和9年4月1日～30日に利用開始を希望する方が対象）",
+  "applyMethods": "申込書類と「発達状況表」を第1希望の施設（保育所・認定こども園）に提出",
+  "firstResult": "令和9年1月中旬頃、郵送で内定結果を通知",
+  "secondApply": "令和9年1月14日（木曜日）～令和9年1月25日（月曜日）",
+  "secondResult": "令和9年2月中旬頃、郵送で内定結果を通知",
+  "midYearDeadline": "令和9年5月以降（年度途中）の利用開始は、施設の定員に空きがあれば希望の施設に直接申込",
   "documents": [
-    "教育・保育給付認定申請書（様式1）",
-    "就労証明書（様式2）",
+    "教育・保育給付認定申請書（兼施設利用申込書）（様式1、令和9年度入所用）",
+    "就労証明書（様式2、令和9年度入所用）",
     "利用に係る申立書（様式3）",
     "発達状況表"
   ],
   "notes": [
+    "2次申込は、1次申込受付期間に申込できなかった方や、1次申込で希望施設の利用が内定とならなかった方が対象で、1次申込の結果、定員に空きがある施設のみ申込可",
+    "年度途中の利用で希望の施設に空きがない場合は、保育幼稚園課内の保育利用支援員に相談できる",
     "申込に必要な書類は、認定内容によって異なる",
     "マイナンバー（個人番号）の記入及び本人確認が必要"
   ],
   "evidence": {
     "fiscalYear": {
       "url": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/hoikuyochienka/shinseishodownload/8336.html",
-      "quote": "令和8年4月利用開始の利用申込みについて"
-    },
-    "guideRelease": {
-      "url": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/hoikuyochienka/shinseishodownload/8336.html",
-      "quote": "申込書類は、9月24日（水曜日）から、市内の各保育所・認定こども園、保育幼稚園課、各市民センター、各福祉健康センターなどで配布します"
+      "quote": "令和9年4月1日～30日に利用開始を希望する方は、この期間内にお申込みください。"
     },
     "firstApply": {
       "url": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/hoikuyochienka/shinseishodownload/8336.html",
-      "quote": "1次申込：令和7年10月1日（水曜日）～令和7年10月22日（水曜日）"
+      "quote": "1次申込：令和8年10月1日（木曜日）～令和8年10月22日（木曜日）"
+    },
+    "firstApply#2": {
+      "url": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/hoikuyochienka/shinseishodownload/8336.html",
+      "quote": "令和9年4月1日～30日に利用開始を希望する方は、この期間内にお申込みください。"
+    },
+    "applyMethods": {
+      "url": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/hoikuyochienka/shinseishodownload/8336.html",
+      "quote": "第1希望の施設（保育所・認定こども園）に申込書類と「発達状況表」をご提出ください。"
     },
     "firstResult": {
       "url": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/hoikuyochienka/shinseishodownload/8336.html",
-      "quote": "令和8年1月中旬頃、内定結果を郵送でお知らせします"
+      "quote": "令和9年1月中旬頃、内定結果を郵送でお知らせします。"
     },
     "secondApply": {
       "url": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/hoikuyochienka/shinseishodownload/8336.html",
-      "quote": "2次申込：令和8年1月15日（木曜日）～令和8年1月26日（月曜日）"
+      "quote": "2次申込：令和9年1月14日（木曜日）～令和9年1月25日（月曜日）"
     },
     "secondResult": {
       "url": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/hoikuyochienka/shinseishodownload/8336.html",
-      "quote": "令和8年2月中旬頃、内定結果を郵送でお知らせします"
+      "quote": "令和9年2月中旬頃、内定結果を郵送でお知らせします。"
+    },
+    "midYearDeadline": {
+      "url": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/hoikuyochienka/shinseishodownload/8336.html",
+      "quote": "施設の定員に空きがあれば、利用申込できます。希望の施設に直接お申込みください。"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/hoikuyochienka/shinseishodownload/8336.html",
+      "quote": "令和9年5月以降（年度途中）利用開始の利用申込みについて"
     },
     "documents.0": {
       "url": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/hoikuyochienka/shinseishodownload/8336.html",
-      "quote": "【様式1】教育・保育給付認定申請書（兼施設利用申込書）"
+      "quote": "（令和9年度入所用）【様式1】教育・保育給付認定申請書（兼施設利用申込書）"
     },
     "documents.1": {
       "url": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/hoikuyochienka/shinseishodownload/8336.html",
-      "quote": "【様式2】就労証明書"
+      "quote": "（令和9年度入所用）【様式2】就労証明書"
     },
     "documents.2": {
       "url": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/hoikuyochienka/shinseishodownload/8336.html",
@@ -60,20 +75,28 @@
     },
     "documents.3": {
       "url": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/hoikuyochienka/shinseishodownload/8336.html",
-      "quote": "第1希望の施設（保育所・認定こども園）に申込書類と「発達状況表」をご提出ください"
+      "quote": "第1希望の施設（保育所・認定こども園）に申込書類と「発達状況表」をご提出ください。"
     },
     "notes.0": {
       "url": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/hoikuyochienka/shinseishodownload/8336.html",
-      "quote": "申込に必要な書類は、認定内容によって異なります"
+      "quote": "1次申込受付期間に申込できなかった方や、1次申込で希望施設の利用が内定とならなかった方が対象です（1次申込の結果、定員に空きがある施設のみ申込可）。"
     },
     "notes.1": {
       "url": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/hoikuyochienka/shinseishodownload/8336.html",
-      "quote": "マイナンバー（個人番号）の記入及び本人確認が必要"
+      "quote": "希望の施設に空きがない場合は、保育幼稚園課内の保育利用支援員にご相談ください。"
+    },
+    "notes.2": {
+      "url": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/hoikuyochienka/shinseishodownload/8336.html",
+      "quote": "申込に必要な書類は、認定内容によって異なります"
+    },
+    "notes.3": {
+      "url": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/hoikuyochienka/shinseishodownload/8336.html",
+      "quote": "マイナンバー（個人番号）の記入及び本人確認が必要となりました"
     }
   },
   "sources": [
     {
-      "label": "金沢市「保育所・認定こども園等の利用に係る申請書類」",
+      "label": "金沢市「保育所・認定こども園等の利用に係る申請書類(教育・保育給付認定申請書など)」",
       "url": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/hoikuyochienka/shinseishodownload/8336.html"
     }
   ]

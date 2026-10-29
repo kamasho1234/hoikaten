@@ -4,6 +4,16 @@
 - 本文の「子育て世帯向けの無料相談」などはリンクを外して文字だけ残した。InsuranceArticle の cta と、kyoikuhi の「紹介料が入ります」の開示文・ステマ告示の出典も削除
 - 画像 public/img/bp-consult-1〜5.webp も削除
 
+## 2026-10-29 保活スケジュール R8 → R9 取り直し（92自治体）
+
+一覧 `tasks/hokatsu-schedule/r9-retake.tsv`、指示 `tasks/hokatsu-schedule/RETAKE_PROMPT.md`。R9 未公表なら R8 のまま触らない
+
+- [x] 92体（1体1自治体・Opus）→ R9 に取り直し 71、R9 未公表で R8 のまま 20、保留 1（日進: Incapsula で照合スクリプトが通らない。R9 版は scratchpad の nisshin.r9.hold.json）
+- [x] 受け取り: verify → dump で「値 ← quote」を通読 → ○は git add。直したのは 明石（受付時間・階数・申立書）・筑紫野（受付時間）・廿日市（推し量った令和10年の締切）・泉佐野（書類名）・高知（配布場所）・長岡京（quote に無い年）
+- [x] build（.next に壊れたフォルダがあり、プロジェクト外へ移して解決）
+- [ ] commit → push → 本番200・タイトルが「令和9年4月入園」→ IndexNow
+- [ ] 11月中旬: R8 のまま20自治体を取り直す（r9-retake.tsv の status が「R9未公表」の行。盛岡・富山は11/1、恵庭・新居浜・宇治・牛久は11月上旬に公表予定）
+
 ## 2026-10-02 Search Console（過去3か月）からの対応
 
 元データ: GSC の CSV エクスポート（クエリ・ページ上位1000行）。Chrome 側のレポート md と28日比較 ZIP は保存されていなかった

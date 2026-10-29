@@ -1,64 +1,147 @@
 {
   "citySlug": "matsumoto",
-  "checkedAt": "2026-09-18",
+  "checkedAt": "2026-10-29",
   "page": {
-    "label": "松本市「令和8年度保育園入園のご案内」",
-    "url": "https://www.city.matsumoto.nagano.jp/site/kosodate/2428.html"
+    "label": "松本市「令和9年4月保育施設入園申込の受付・必要書類」",
+    "url": "https://www.city.matsumoto.nagano.jp/site/kosodate/91265.html"
   },
-  "fiscalYear": "R8",
-  "firstApply": "令和7年11月4日（火曜日）〜11月28日（金曜日）",
-  "applyMethods": "電子申請、保育課窓口、または郵送にてご申請ください",
+  "fiscalYear": "R9",
+  "firstApply": "令和8年11月2日（月曜日）0時00分〜令和8年11月27日（金曜日）17時15分（郵送は締切日の消印有効）",
+  "applyMethods": "電子申請（Logoフォーム）。電子申請を利用できない場合は受付期間内に郵送または保育課窓口（松本市役所東庁舎2階）",
+  "midYearDeadline": "途中入園は毎月8日〜15日（土・日・祝の場合はその前の平日）に次月の空き状況を市HPに公開し、入園申請を受付。結果は毎月24日頃までに電話で連絡",
   "documents": [
-    "令和8年度入園申込書（電子申請の場合は不要）",
+    "令和9年度入園申込書（電子申請の場合は不要）",
     "新規入園面接票（3歳以上児用または3歳未満児用）",
-    "保育の必要性を証明する書類（就労証明書等、事由により異なります）"
+    "保育の必要性を証明する書類",
+    "個人番号提供書（松本市以外で課税されている方）",
+    "18歳以上同一生計申告書（4月1日時点で18歳以上かつ生計が同一のきょうだいがいる方）",
+    "きょうだい同時申込希望調査票（2人以上のお子さまの申請を同時に行う方）",
+    "ひとり親世帯調査書（ひとり親世帯の方）",
+    "特別利用保育該当申立書（特別利用保育を申請される方）"
   ],
-  "ikukyu": "令和7年4月入園から、入所保留（不承諾）となることを希望する旨の意思表示が行われた保育園利用申込は受付不可。ただし、利用施設に空きがなく、育児休業を延長せざるを得ない場合は、保育所入所不承諾通知書を交付する",
+  "interview": "3歳以上のお子さんは入園面接あり（申込受付後に保育課または希望園から日程調整の連絡）。3歳未満のお子さんは個別で面接を実施する場合あり",
+  "ikukyu": "入所保留（不承諾）を希望する旨の意思表示がある申込は受付不可。ただし利用施設に空きがなく育児休業を延長せざるを得ない場合は、受付期間内に申請すれば「保育所入所不承諾通知書」を交付する。育児休業給付金の延長手続きには申込内容が分かる書類（申請書のコピー等）が必要",
   "notes": [
-    "公式の令和9年4月入園案内は令和8年9月第4週から10月第1週の間に別途ご案内予定"
+    "令和9年2月1日までに出生予定の方は、受入月齢要件を満たす園に限り出生前に仮申込みができる",
+    "募集しないクラスは希望しても審査の対象外",
+    "「山の子保育園」「ささべ認定こども園」「認定こども園ひなたぼっこ」「インターナショナル・スクール・オブ・長野」を希望する場合は事前の園見学が必須",
+    "二次受付は欠員補充の募集で、受付期間等は12月中旬頃に公開予定の二次受付専用ページで案内される",
+    "申込受付後、書類審査等の結果は保育課からメールまたは電話で連絡される"
   ],
   "evidence": {
     "fiscalYear": {
-      "url": "https://www.city.matsumoto.nagano.jp/site/kosodate/2428.html",
-      "quote": "（参考：令和8年4月入園の一次受付は、令和7年11月4日から11月28日の間に行いました。）"
+      "url": "https://www.city.matsumoto.nagano.jp/site/kosodate/91265.html",
+      "quote": "※上記利用調整基準は、令和9年度4月入園調整より運用します。"
     },
     "firstApply": {
-      "url": "https://www.city.matsumoto.nagano.jp/site/kosodate/2428.html",
-      "quote": "令和8年4月入園の一次受付は、令和7年11月4日から11月28日の間に行いました。"
+      "url": "https://www.city.matsumoto.nagano.jp/site/kosodate/91265.html",
+      "quote": "令和8年11月2日（月曜日）0時00分～令和8年11月27日（金曜日）17時15分"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.matsumoto.nagano.jp/uploaded/attachment/132778.pdf",
+      "quote": "・入園予約、４月入園一次募集 … 締切日の消印有効"
     },
     "applyMethods": {
-      "url": "https://www.city.matsumoto.nagano.jp/site/kosodate/2428.html",
-      "quote": "5月以降の入園（途中入園）・転園 途中入園・・・電子申請、保育課窓口、または郵送にてご申請ください。"
+      "url": "https://www.city.matsumoto.nagano.jp/site/kosodate/91265.html",
+      "quote": "電子申請をご利用いただけない方は、受付期間内に郵送又は保育課窓口にてお申込みください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.matsumoto.nagano.jp/uploaded/attachment/132778.pdf",
+      "quote": "松本市役所 東庁舎２階 保育課"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.matsumoto.nagano.jp/uploaded/attachment/132778.pdf",
+      "quote": "毎月8日～15日（土・日・祝の場合はその前の平日）に、次月の空き状況を市ＨＰに公開し、入園申請を受付"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.matsumoto.nagano.jp/uploaded/attachment/132778.pdf",
+      "quote": "毎月２４日頃までに電話にて結果連絡"
     },
     "documents.0": {
-      "url": "https://www.city.matsumoto.nagano.jp/site/kosodate/2428.html",
-      "quote": "令和8年度入園申込書 [PDFファイル／3.81MB] ※電子申請の場合は不要です。（電子申請で必要な情報を入力していただきます。）"
+      "url": "https://www.city.matsumoto.nagano.jp/site/kosodate/91265.html",
+      "quote": "令和9年度入園申込書 [PDFファイル／3.84MB] ※電子申請の場合は不要です。（電子申請で必要な情報を入力していただきます。）"
     },
     "documents.1": {
-      "url": "https://www.city.matsumoto.nagano.jp/site/kosodate/2428.html",
+      "url": "https://www.city.matsumoto.nagano.jp/site/kosodate/91265.html",
       "quote": "新規入園面接票（3歳以上児用） [PDFファイル／540KB] 新規入園面接票（3歳未満児用） [PDFファイル／491KB]"
     },
     "documents.2": {
-      "url": "https://www.city.matsumoto.nagano.jp/site/kosodate/2428.html",
-      "quote": "保育の必要性を証明する書類"
+      "url": "https://www.city.matsumoto.nagano.jp/site/kosodate/91265.html",
+      "quote": "全員 保育の必要性を証明する書類 松本市以外で課税されている方"
+    },
+    "documents.3": {
+      "url": "https://www.city.matsumoto.nagano.jp/site/kosodate/91265.html",
+      "quote": "松本市以外で課税されている方 個人番号を提供いただける方 個人番号提供書"
+    },
+    "documents.4": {
+      "url": "https://www.city.matsumoto.nagano.jp/site/kosodate/91265.html",
+      "quote": "4月1日時点で、18歳以上かつ 生計が同一のきょうだいがいる方 18歳以上同一生計申告書"
+    },
+    "documents.5": {
+      "url": "https://www.city.matsumoto.nagano.jp/site/kosodate/91265.html",
+      "quote": "2人以上のお子さまの申請を 同時に行う方 きょうだい同時申込希望調査票"
+    },
+    "documents.6": {
+      "url": "https://www.city.matsumoto.nagano.jp/site/kosodate/91265.html",
+      "quote": "ひとり親世帯（離婚成立・死別・未婚）の方 ひとり親世帯調査書"
+    },
+    "documents.7": {
+      "url": "https://www.city.matsumoto.nagano.jp/site/kosodate/91265.html",
+      "quote": "特別利用保育を申請される方 特別利用保育該当申立書"
+    },
+    "interview": {
+      "url": "https://www.city.matsumoto.nagano.jp/site/kosodate/91265.html",
+      "quote": "3歳以上のお子さんは、入園面接を行います。申込受付後に保育課またはご希望された園から日程調整の連絡をしますので、調整した日時・会場へお越しください。"
+    },
+    "interview#2": {
+      "url": "https://www.city.matsumoto.nagano.jp/site/kosodate/91265.html",
+      "quote": "3歳未満のお子さんは、個別で入園面接を実施する場合があります。"
     },
     "ikukyu": {
-      "url": "https://www.city.matsumoto.nagano.jp/site/kosodate/2428.html",
+      "url": "https://www.city.matsumoto.nagano.jp/site/kosodate/91265.html",
       "quote": "令和7年4月入園から、入所保留（不承諾）となることを希望する旨の意思表示が行われた保育園利用申込は受付不可となりましたので、ご注意ください。"
     },
     "ikukyu#2": {
-      "url": "https://www.city.matsumoto.nagano.jp/site/kosodate/2428.html",
+      "url": "https://www.city.matsumoto.nagano.jp/site/kosodate/91265.html",
       "quote": "利用施設に空きがなく、育児休業を延長せざるを得ない場合は、「保育所入所不承諾通知書」を交付しますので、入所申込み期間内に、保育課へ入園申請をしてください。"
     },
+    "ikukyu#3": {
+      "url": "https://www.city.matsumoto.nagano.jp/site/kosodate/91265.html",
+      "quote": "※入園決定出来ず育児休業給付金の延長手続きをされる場合は、申請書のコピー等、申込内容が分かる書類の提出が必要となります。"
+    },
     "notes.0": {
-      "url": "https://www.city.matsumoto.nagano.jp/site/kosodate/2428.html",
-      "quote": "令和9年4月入園の情報は、令和8年9月第4週から10月第1週の間に別途ご案内する予定です。"
+      "url": "https://www.city.matsumoto.nagano.jp/site/kosodate/91265.html",
+      "quote": "令和9年2月1日までに出生予定の方は、出生前に仮申込みすることができます（ただし、受入月齢要件を満たす園のみの受付となります）。"
+    },
+    "notes.1": {
+      "url": "https://www.city.matsumoto.nagano.jp/site/kosodate/91265.html",
+      "quote": "※募集しないクラスはご希望されても審査の対象外となりますため、ご注意ください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.matsumoto.nagano.jp/site/kosodate/91265.html",
+      "quote": "※「山の子保育園」「ささべ認定こども園」「認定こども園ひなたぼっこ」「インターナショナル・スクール・オブ・長野」をご希望される場合は、必ず事前に園見学をしてください。"
+    },
+    "notes.3": {
+      "url": "https://www.city.matsumoto.nagano.jp/site/kosodate/91265.html",
+      "quote": "受付期間等の詳細は、12月中旬頃に公開予定の二次受付専用ページをご確認ください。"
+    },
+    "notes.3#2": {
+      "url": "https://www.city.matsumoto.nagano.jp/site/kosodate/91265.html",
+      "quote": "二次受付は欠員補充の募集となります。"
+    },
+    "notes.4": {
+      "url": "https://www.city.matsumoto.nagano.jp/site/kosodate/91265.html",
+      "quote": "申込受付後、書類審査等の結果について保育課からメールまたは電話でご連絡します。"
     }
   },
   "sources": [
     {
-      "label": "松本市「令和8年度保育園入園のご案内」",
-      "url": "https://www.city.matsumoto.nagano.jp/site/kosodate/2428.html"
+      "label": "松本市「令和9年4月保育施設入園申込の受付・必要書類」",
+      "url": "https://www.city.matsumoto.nagano.jp/site/kosodate/91265.html"
+    },
+    {
+      "label": "松本市「Ｒ9保育園入園のご案内（パソコン版）」",
+      "url": "https://www.city.matsumoto.nagano.jp/uploaded/attachment/132778.pdf"
     }
   ]
 }

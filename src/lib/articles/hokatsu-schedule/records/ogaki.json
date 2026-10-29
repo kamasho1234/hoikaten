@@ -1,80 +1,171 @@
 {
   "citySlug": "ogaki",
-  "checkedAt": "2026-09-18",
+  "checkedAt": "2026-10-29",
   "page": {
-    "label": "大垣市「令和8年4月入園　保育園・認定こども園・幼稚園・小規模保育事業所　入園児を募集します」",
-    "url": "https://www.city.ogaki.lg.jp/0000068587.html"
+    "label": "大垣市「令和9年4月入園　保育園・認定こども園・幼稚園・小規模保育事業所　入園児を募集します」",
+    "url": "https://www.city.ogaki.lg.jp/0000070970.html"
   },
-  "fiscalYear": "R8",
-  "firstApply": "令和7年10月8日（水）・9日（木）・10日（金）の午前9時00分～正午。年齢別に受付日が指定されています（0・1歳児は8日、2・4・5歳児は9日、3歳児は10日）",
-  "applyMethods": "入園を希望する園で支給認定申請書兼入園申込書に必要事項を記入して申し込みます。複数園への申し込みはできません",
-  "secondApply": "令和7年11月25日（火）・26日（水）の午前9時～正午に、定員に空きがある園で入園申し込みを受け付けます",
+  "fiscalYear": "R9",
+  "firstApply": "令和8年10月13日（火）〜10月15日（木）の午前9時〜12時に、入園を希望する園で申し込む。年齢別の受付指定日は13日が0・1歳児、14日が2・4・5歳児、15日が3歳児（ながさわこども園のみ14日・15日は正午〜午後3時）",
+  "applyMethods": "入園を希望する園で支給認定申請書兼入園申込書に必要事項を記入して申し込む。申し込みは1園のみ（複数園への申し込みはできない）",
+  "firstResult": "選考がある場合のみ、11月18日頃に選考結果を郵送で通知（選考が無い場合は通知なし）。選考の有無は令和8年10月27日に市ホームページで公表",
+  "secondApply": "令和8年11月24日（火）〜11月25日（水）の午前9時〜12時に、定員に空きがある園へ申込書と必要書類を提出",
+  "secondResult": "12月上旬頃（予定）に選考結果通知を郵送",
+  "midYearDeadline": "年度途中（5月〜3月）入園は、入園月の前々月21日〜前月20日（土・日・祝日の場合は直前の平日）に市保育課へ申し込む。3月入園は前月10日まで",
   "documents": [
     "支給認定申請書兼入園申込書",
-    "本人の番号確認書類（マイナンバーカード、番号付き住民票など）および本人の写真付き身元確認書類（マイナンバーカード、運転免許証、パスポートなど）、又は本人の写真なし身元確認書類（健康保険証、国民年金手帳など2点）",
-    "就労証明書等の添付書類（令和7年10月29日（水）・30日（木）・31日（金）に園へご提出ください）"
+    "家庭で保育ができない理由を知るために必要な書類（就労証明書、状況証明（申出）書など）と、世帯の状況や利用料の決定に必要な書類。令和8年10月28日（水）〜10月30日（金）の午前9時〜12時に入園を希望する園へ提出",
+    "就労証明書は入園予定月の1日（令和9年4月入園の場合は令和9年4月1日）を基準日として作成する",
+    "本人の番号確認書類（マイナンバーカード、番号付き住民票など）と、本人の写真付き身元確認書類（マイナンバーカード、運転免許証、パスポートなど）",
+    "令和8年1月2日以降に大垣市に転入した場合は、令和8年度 市町村民税所得課税証明書"
   ],
+  "ikukyu": "定員超過で入園できない場合の「保育所等の利用ができない旨の通知」は、4月入園については令和9年2月12日〜令和9年3月19日の期間に市保育課へ申し込む。3歳未満児は保護者が育児休業中の新規入園はできない",
   "notes": [
-    "申込書類は事前にホームページからダウンロードして印刷（A4サイズ）し、必要事項を記入のうえ、園へ提出してください",
-    "年齢別の受付指定日に申し込みをお願いします",
-    "兄弟姉妹の同時申し込みについては、どちらかの指定日でご一緒にお申し込みください",
-    "在園児で、来年度継続児童およびその兄弟姉妹が優先となります",
-    "保育園等の利用申込に個人番号の記載が必要となります"
+    "申込書類は事前にホームページからダウンロードして印刷（A4サイズ）し、必要事項を記入のうえ園へ提出する",
+    "兄弟姉妹の同時申し込みは、どちらかの指定日に一緒に申し込む",
+    "在園児で来年度継続の児童とその兄弟姉妹が優先。受入可能人数を超えた場合は保育の必要性を審査・判定し、優先度の高い家庭から入園となる",
+    "第1次募集で選考外となった人は、第2次募集では選考結果通知に同封される「入園申込書（簡易版）」の提出のみでよい",
+    "第3次募集は令和8年12月14日（月）から市保育課で受け付け、先着順で入園が決まる",
+    "申込書・必要書類の様式は市ホームページからダウンロードできるほか、保育課または各園で配布"
   ],
   "evidence": {
     "fiscalYear": {
-      "url": "https://www.city.ogaki.lg.jp/0000068587.html",
-      "quote": "市などは、令和8年4月入園の保育園・認定こども園・幼稚園・小規模保育事業所の園児を募集します"
+      "url": "https://www.city.ogaki.lg.jp/0000070970.html",
+      "quote": "市は、令和9年4月入園の保育園・認定こども園・幼稚園・小規模保育事業所の園児を募集します。"
     },
     "firstApply": {
-      "url": "https://www.city.ogaki.lg.jp/0000068587.html",
-      "quote": "申込日は、10月8日（水）・9日（木）・10日（金）の午前9時00分～正午です。入園を希望する園で支給認定申請書兼入園申込書に必要事項を記入して申し込んでください"
+      "url": "https://www.city.ogaki.lg.jp/cmsfiles/contents/0000070/70970/R9nyuuenannai.pdf",
+      "quote": "提出期日：令和８年10月１３日（火）～10月1５日（木） 午前 9時～12時"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.ogaki.lg.jp/0000070970.html",
+      "quote": "10月13日：0・1歳児　　14日：2・4・5歳児　　15日：3歳児　（午前9時～正午）"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.ogaki.lg.jp/cmsfiles/contents/0000070/70970/R9nyuuenannai.pdf",
+      "quote": "※ながさわこども園のみ１４日（水）～１５日（木）は、正午から午後３時に受付"
     },
     "applyMethods": {
-      "url": "https://www.city.ogaki.lg.jp/0000068587.html",
+      "url": "https://www.city.ogaki.lg.jp/0000070970.html",
       "quote": "入園を希望する園で支給認定申請書兼入園申込書に必要事項を記入して申し込んでください（複数園への申し込みはできません）"
     },
+    "firstResult": {
+      "url": "https://www.city.ogaki.lg.jp/0000071171.html",
+      "quote": "※選考となった場合の選考結果は、11月18日頃に郵送でお知らせします。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.ogaki.lg.jp/cmsfiles/contents/0000070/70970/R9nyuuenannai.pdf",
+      "quote": "（選考が無の場合、通知等は発送されません。）"
+    },
+    "firstResult#3": {
+      "url": "https://www.city.ogaki.lg.jp/0000071171.html",
+      "quote": "※選考の有無は、令和8年10月27日現在の状況です。"
+    },
     "secondApply": {
-      "url": "https://www.city.ogaki.lg.jp/0000068587.html",
-      "quote": "11月25日（火）・26日（水）の午前9時～正午に、定員に空きがある園で入園申し込みを受け付けます"
+      "url": "https://www.city.ogaki.lg.jp/cmsfiles/contents/0000070/70970/R9nyuuenannai.pdf",
+      "quote": "提出期日：令和８年11月2４日（火）～11月2５日（水） 午前 9時～12時"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.ogaki.lg.jp/0000070970.html",
+      "quote": "11月24日（火）・25日（水）の午前9時～正午に、定員に空きがある園で入園申し込みを受け付けます。"
+    },
+    "secondResult": {
+      "url": "https://www.city.ogaki.lg.jp/cmsfiles/contents/0000070/70970/R9nyuuenannai.pdf",
+      "quote": "12月上旬頃（予定）に選考結果通知を各家庭へ郵送します。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.ogaki.lg.jp/cmsfiles/contents/0000070/70970/R9nyuuenannai.pdf",
+      "quote": "提出期日：入園月の前々月21日～前月 20日（土・日・祝日の場合は直前の平日）"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.ogaki.lg.jp/cmsfiles/contents/0000070/70970/R9nyuuenannai.pdf",
+      "quote": "※ただし、3月入園の受付期間は、前月の 10日までです。"
     },
     "documents.0": {
-      "url": "https://www.city.ogaki.lg.jp/0000068587.html",
-      "quote": "支給認定申請書兼入園申込書"
+      "url": "https://www.city.ogaki.lg.jp/0000070970.html",
+      "quote": "入園を希望する園で支給認定申請書兼入園申込書に必要事項を記入して申し込んでください"
     },
     "documents.1": {
-      "url": "https://www.city.ogaki.lg.jp/0000068587.html",
-      "quote": "申請者本人が申請書等を提出する場合　（1）本人の番号確認書類（マイナンバーカード、番号付き住民票など）　（2）本人の写真付き身元確認書類（マイナンバーカード、運転免許証、パスポートなど）　　　又は本人の写真なし身元確認書類（健康保険証、国民年金手帳など2点）"
+      "url": "https://www.city.ogaki.lg.jp/cmsfiles/contents/0000070/70970/R9nyuuenannai.pdf",
+      "quote": "提出期日：令和８年10月2８日（水）～10月3０日（金） 午前9時～12時"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.ogaki.lg.jp/cmsfiles/contents/0000070/70970/R9nyuuenannai.pdf",
+      "quote": "提出書類：就労証明書、状況証明（申出）書、世帯の状況により必要な書類、利用料（保育料等）の決定に必要な書類"
     },
     "documents.2": {
-      "url": "https://www.city.ogaki.lg.jp/0000068587.html",
-      "quote": "申込書の添付書類（就労証明書等）は、園での受付時に用紙をお渡ししますので、10月29日（水）・30日（木）・31日（金）に園へご提出ください"
+      "url": "https://www.city.ogaki.lg.jp/cmsfiles/contents/0000070/70970/R9nyuuenannai.pdf",
+      "quote": "就労証明書は、入園予定月の１日（令和９年４月入園の場合は令和９年４月1日）を基準日として作成してください。"
+    },
+    "documents.3": {
+      "url": "https://www.city.ogaki.lg.jp/0000070970.html",
+      "quote": "（1）本人の番号確認書類（マイナンバーカード、番号付き住民票など）"
+    },
+    "documents.3#2": {
+      "url": "https://www.city.ogaki.lg.jp/0000070970.html",
+      "quote": "（2）本人の写真付き身元確認書類（マイナンバーカード、運転免許証、パスポートなど）"
+    },
+    "documents.4": {
+      "url": "https://www.city.ogaki.lg.jp/cmsfiles/contents/0000070/70970/R9nyuuenannai.pdf",
+      "quote": "令和８年1月2日以降に、大垣市に転入した場合※ 令和８年度 市町村民税所得課税証明書"
+    },
+    "ikukyu": {
+      "url": "https://www.city.ogaki.lg.jp/cmsfiles/contents/0000070/70970/R9nyuuenannai.pdf",
+      "quote": "（４月入園については令和９年２月12日～令和９年３月19日の期間）"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.ogaki.lg.jp/cmsfiles/contents/0000070/70970/R9nyuuenannai.pdf",
+      "quote": "必要な場合は、入園希望月の受付期間中に、市保育課に申し込みください。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.ogaki.lg.jp/cmsfiles/contents/0000070/70970/R9nyuuenannai.pdf",
+      "quote": "なお、３歳未満児については、保護者が育児休業中の新規入園はできません。"
     },
     "notes.0": {
-      "url": "https://www.city.ogaki.lg.jp/0000068587.html",
+      "url": "https://www.city.ogaki.lg.jp/0000070970.html",
       "quote": "申込書類は事前にホームページからダウンロードして印刷（A4サイズ）し、必要事項を記入のうえ、園へ提出してください"
     },
     "notes.1": {
-      "url": "https://www.city.ogaki.lg.jp/0000068587.html",
-      "quote": "年齢別の受付指定日に申し込みをお願いします"
+      "url": "https://www.city.ogaki.lg.jp/0000070970.html",
+      "quote": "兄弟姉妹の同時申し込みについては、どちらかの指定日でご一緒にお申し込みください。"
     },
     "notes.2": {
-      "url": "https://www.city.ogaki.lg.jp/0000068587.html",
-      "quote": "兄弟姉妹の同時申し込みについては、どちらかの指定日でご一緒にお申し込みください"
+      "url": "https://www.city.ogaki.lg.jp/0000070970.html",
+      "quote": "入園は、在園児で、来年度継続児童およびその兄弟姉妹が優先となり、"
+    },
+    "notes.2#2": {
+      "url": "https://www.city.ogaki.lg.jp/0000070970.html",
+      "quote": "受入可能人数を超えた場合は、家庭における保育の必要性を審査・判定し、優先度の高い家庭から入園となります。"
     },
     "notes.3": {
-      "url": "https://www.city.ogaki.lg.jp/0000068587.html",
-      "quote": "入園は、在園児で、来年度継続児童およびその兄弟姉妹が優先となり"
+      "url": "https://www.city.ogaki.lg.jp/cmsfiles/contents/0000070/70970/R9nyuuenannai.pdf",
+      "quote": "※第１次募集で選考外となった方は、選考結果通知に同封する「入園申込書（簡易版）」の提出のみでかまいません。"
     },
     "notes.4": {
-      "url": "https://www.city.ogaki.lg.jp/0000068587.html",
-      "quote": "保育園等の利用申込に個人番号の記載が必要となります"
+      "url": "https://www.city.ogaki.lg.jp/cmsfiles/contents/0000070/70970/R9nyuuenannai.pdf",
+      "quote": "提出期日：令和８年1２月１４日（月）～ 午前８時30分～午後5時15分"
+    },
+    "notes.4#2": {
+      "url": "https://www.city.ogaki.lg.jp/cmsfiles/contents/0000070/70970/R9nyuuenannai.pdf",
+      "quote": "第１次募集・第２次募集と異なり、先着順で入園が決定します。"
+    },
+    "notes.5": {
+      "url": "https://www.city.ogaki.lg.jp/cmsfiles/contents/0000070/70970/R9nyuuenannai.pdf",
+      "quote": "申込書・その他必要書類の様式については、市ホームページからダウンロードできるほか、保育課または各園で配布しています。"
     }
   },
   "sources": [
     {
-      "label": "大垣市「令和8年4月入園　保育園・認定こども園・幼稚園・小規模保育事業所　入園児を募集します」",
-      "url": "https://www.city.ogaki.lg.jp/0000068587.html"
+      "label": "大垣市「令和9年4月入園　保育園・認定こども園・幼稚園・小規模保育事業所　入園児を募集します」",
+      "url": "https://www.city.ogaki.lg.jp/0000070970.html"
+    },
+    {
+      "label": "大垣市「令和9年度 保育園・認定こども園・小規模保育事業所入園案内」（PDF）",
+      "url": "https://www.city.ogaki.lg.jp/cmsfiles/contents/0000070/70970/R9nyuuenannai.pdf"
+    },
+    {
+      "label": "大垣市「令和9年度　保育園・認定こども園（保育認定）・小規模保育事業所入園申し込みに伴う選考についてお知らせいたします」",
+      "url": "https://www.city.ogaki.lg.jp/0000071171.html"
     }
   ]
 }

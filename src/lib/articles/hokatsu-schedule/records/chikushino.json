@@ -1,96 +1,184 @@
 {
   "citySlug": "chikushino",
-  "checkedAt": "2026-09-18",
+  "checkedAt": "2026-10-29",
   "page": {
     "label": "筑紫野市「保育所（園）入所申し込み」",
     "url": "https://www.city.chikushino.fukuoka.jp/soshiki/49/3327.html"
   },
-  "fiscalYear": "R8",
-  "firstApply": "令和7年12月19日（金）。郵送申込は12月12日（金）必着",
-  "applyMethods": "筑紫野市役所2階こども政策課窓口に提出する。郵送による申込は申込締切日の1週間前必着。ぴったりサービス（マイナポータル）から電子申請も可能",
-  "firstResult": "令和8年2月上旬",
-  "secondApply": "令和7年12月22日（月）〜令和8年1月30日（金）。4月（2期）受付分については、第1期入所決定者の辞退等による空き枠において調整を行う",
-  "secondResult": "令和8年2月下旬",
+  "fiscalYear": "R9",
+  "guideRelease": "0歳児から1歳児までは令和8年11月2日（月曜日）〜11月6日（金曜日）、2歳児から5歳児までは令和8年11月9日（月曜日）〜11月13日（金曜日）。場所は筑紫野市役所2階こども政策課前配布ブース。都合が合わない人には令和8年11月16日（月曜日）以降にこども政策課窓口で配布",
+  "firstApply": "令和8年11月2日（月曜日）〜令和8年12月14日（月曜日）。郵送の場合は令和8年12月7日（月曜日）必着",
+  "applyMethods": "筑紫野市役所2階こども政策課窓口に提出する。郵送も可（締切日の1週間前必着）。ぴったりサービス（マイナポータル）から電子申請も可能",
+  "firstResult": "令和9年2月上旬に書面で通知",
+  "secondApply": "令和8年12月15日（火曜日）以降の提出は4月2期での受付となり、4月1期入所決定者の辞退等による空き枠において入所調整を行う。4月2期の申込は令和9年1月29日（金曜日）まで",
+  "secondResult": "4月（2期）の結果通知時期は2月下旬",
+  "midYearDeadline": "令和9年5月以降の入所希望は、入所申込締切日・結果通知一覧の申込期間内に必要書類を揃えて申し込む。郵送による申込は申込締切日の1週間前必着",
   "documents": [
     "教育・保育給付認定申請書兼保育所等入所申込書",
+    "保育台帳",
     "家庭で保育できないことを証明する書類（就労証明書等。事由により異なる）",
-    "個人番号および本人確認書類の写し"
+    "就労証明書は勤務先の証明が必要で、証明日から1カ月以内に提出する",
+    "個人番号および本人確認書類の写し",
+    "令和9年度保育所入所申込書類確認シート（受付時にも必要なので入所申込書類と一緒に提出する）"
   ],
-  "interview": "保育所により保育内容、雰囲気、諸経費などに違いがあるので、申し込みの際はお子さんと一緒に保育所の見学をお願いしている。お子さんの発育に不安がある場合や保育上のサポートを希望する場合は、見学の際に発育の程度や配慮が必要な点について施設と直接お話しください",
+  "interview": "申し込みの際はお子さんと一緒に保育所の見学をお願いしている。お子さんの発育に不安がある場合や保育上のサポートを希望する場合は、見学の際に発育の程度や配慮が必要な点について施設と直接話した上で市に相談する",
+  "ikukyu": "育児休業の延長を希望する場合は「育児休業についての申立書」を提出する。育児休業給付金の支給期間の延長手続きなどについて市では答えられないので、事前に管轄のハローワークや就労先に確認する。入所決定後に辞退した場合は減点となる上、育児休業給付金の延長ができなくなる可能性がある",
   "notes": [
-    "入所希望日は慣らし保育を開始する日となる。就労開始日から最大3週間前から入所が可能だが、慣らし保育はお子様の状態により異なり、おおむね1週間から2週間の期間を要するので、入所月、入所日を検討する",
+    "入所希望日は慣らし保育を開始する日となる。就労開始日から最大3週間前から入所が可能だが、慣らし保育はおおむね1〜2週間かかることを踏まえて入所月（日）を検討する",
     "5月と6月の2期調整は、1期の入所辞退分の調整を行うのみとし、申込受付は行わない",
-    "事前相談がなく入所決定した場合、入所取消となる場合がある。人数制限を行う場合があるので、事前に見学可能か各保育所に確認が必要",
-    "人数制限を行う場合があるので、事前に見学可能か各保育所に確認が必要"
+    "利用希望施設以外の施設への入所決定は行わない",
+    "事前相談がなく入所決定した場合、入所取消となる場合がある",
+    "見学は人数制限を行う場合があるので、事前に見学可能か各保育所に確認する",
+    "書類の配布期間の初日、2日目は例年大変込み合う"
   ],
   "evidence": {
     "fiscalYear": {
       "url": "https://www.city.chikushino.fukuoka.jp/soshiki/49/3327.html",
-      "quote": "令和8年度の保育所（園）入所手続き"
+      "quote": "令和9年4月入所希望者：令和8年11月2日（月曜日）から令和8年12月14日（月曜日）まで"
+    },
+    "guideRelease": {
+      "url": "https://www.city.chikushino.fukuoka.jp/soshiki/49/3327.html",
+      "quote": "0歳児から1歳児まで　　令和8年11月2日（月曜日）から令和8年11月6日（金曜日）まで"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.chikushino.fukuoka.jp/soshiki/49/3327.html",
+      "quote": "2歳児から5歳児まで　　令和8年11月9日（月曜日）から令和8年11月13日（金曜日）まで"
+    },
+    "guideRelease#3": {
+      "url": "https://www.city.chikushino.fukuoka.jp/soshiki/49/3327.html",
+      "quote": "筑紫野市役所　2階　こども政策課前配布ブース"
+    },
+    "guideRelease#4": {
+      "url": "https://www.city.chikushino.fukuoka.jp/soshiki/49/3327.html",
+      "quote": "※上記の配布期間で都合が合わない人には、令和8年11月16日（月曜日）以降にこども政策課窓口にて書類の配布を行います。"
     },
     "firstApply": {
-      "url": "https://www.city.chikushino.fukuoka.jp/uploaded/attachment/34447.pdf",
-      "quote": "令和７年１２月１９日（金）"
+      "url": "https://www.city.chikushino.fukuoka.jp/soshiki/49/3327.html",
+      "quote": "令和9年4月入所希望者：令和8年11月2日（月曜日）から令和8年12月14日（月曜日）まで"
     },
     "firstApply#2": {
-      "url": "https://www.city.chikushino.fukuoka.jp/uploaded/attachment/34447.pdf",
-      "quote": "※郵送申込は１２月１２日（金）必着"
+      "url": "https://www.city.chikushino.fukuoka.jp/soshiki/49/3327.html",
+      "quote": "※郵送の場合は、令和8年12月7日（月曜日）必着"
     },
     "applyMethods": {
       "url": "https://www.city.chikushino.fukuoka.jp/soshiki/49/3327.html",
-      "quote": "郵送の場合、申込締切日の一週間前必着です。"
+      "quote": "筑紫野市役所　2階　こども政策課窓口"
     },
     "applyMethods#2": {
+      "url": "https://www.city.chikushino.fukuoka.jp/uploaded/attachment/34622.pdf",
+      "quote": "※郵送による申込は申込締切日の１週間前必着です。"
+    },
+    "applyMethods#3": {
       "url": "https://www.city.chikushino.fukuoka.jp/soshiki/49/3327.html",
       "quote": "※ぴったりサービス＜外部リンク＞（マイナポータル）から電子申請もできます。"
     },
     "firstResult": {
-      "url": "https://www.city.chikushino.fukuoka.jp/uploaded/attachment/34447.pdf",
-      "quote": "令和８年２月上旬"
+      "url": "https://www.city.chikushino.fukuoka.jp/uploaded/attachment/34622.pdf",
+      "quote": "令和９年２月上旬"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.chikushino.fukuoka.jp/uploaded/attachment/34584.pdf",
+      "quote": "「申込締切日・結果通知時期一覧」に記載している結果通知時期を目安に申込結果を書面にて通知します。"
     },
     "secondApply": {
-      "url": "https://www.city.chikushino.fukuoka.jp/uploaded/attachment/34447.pdf",
-      "quote": "４月（２期）※ １２月２２日（月）～ １月３０日（金）"
+      "url": "https://www.city.chikushino.fukuoka.jp/soshiki/49/3327.html",
+      "quote": "※書類の提出が令和8年12月15日（火曜日）以降になった人は、4月2期での受付となります。"
     },
     "secondApply#2": {
-      "url": "https://www.city.chikushino.fukuoka.jp/uploaded/attachment/34447.pdf",
-      "quote": "※４月（２期）受付分については、第１期入所決定者の辞退等による空き枠において調整を行います。"
+      "url": "https://www.city.chikushino.fukuoka.jp/soshiki/49/3327.html",
+      "quote": "この場合、4月1期入所決定者の辞退等による空き枠において入所調整を行うことになります。"
+    },
+    "secondApply#3": {
+      "url": "https://www.city.chikushino.fukuoka.jp/soshiki/49/3327.html",
+      "quote": "4月2期の申込は令和9年1月29日（金曜日）までです。"
     },
     "secondResult": {
-      "url": "https://www.city.chikushino.fukuoka.jp/uploaded/attachment/34447.pdf",
-      "quote": "４月（２期）※ １２月２２日（月）～ １月３０日（金） ２月下旬"
+      "url": "https://www.city.chikushino.fukuoka.jp/uploaded/attachment/34622.pdf",
+      "quote": "４月（２期）※ １２月２１日（月）～ １月２９日（金） ２月下旬"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.chikushino.fukuoka.jp/soshiki/49/3327.html",
+      "quote": "※令和9年5月以降に入所希望の人は、次の入所申込締切日・結果通知一覧の申込期間内に必要書類を揃えて申し込んでください。"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.chikushino.fukuoka.jp/uploaded/attachment/34622.pdf",
+      "quote": "※郵送による申込は申込締切日の１週間前必着です。"
     },
     "documents.0": {
-      "url": "https://www.city.chikushino.fukuoka.jp/soshiki/49/45503.html",
-      "quote": "令和8年度教育・保育給付認定申請書兼保育所等入所申込書"
+      "url": "https://www.city.chikushino.fukuoka.jp/uploaded/attachment/34584.pdf",
+      "quote": "１．教育・保育給付認定申請書兼保育所等入所申込書（記入例６，７ページ参照）"
     },
     "documents.1": {
-      "url": "https://www.city.chikushino.fukuoka.jp/soshiki/49/45503.html",
-      "quote": "家庭で保育できないことを証明する書類（表1参照）"
+      "url": "https://www.city.chikushino.fukuoka.jp/uploaded/attachment/34584.pdf",
+      "quote": "２．保育台帳（記入例８，９ページ参照）"
     },
     "documents.2": {
-      "url": "https://www.city.chikushino.fukuoka.jp/soshiki/49/45503.html",
-      "quote": "個人番号および本人確認書類の写し"
+      "url": "https://www.city.chikushino.fukuoka.jp/soshiki/49/53610.html",
+      "quote": "3．家庭で保育できないことを証明する書類（表1参照）"
+    },
+    "documents.3": {
+      "url": "https://www.city.chikushino.fukuoka.jp/soshiki/49/53610.html",
+      "quote": "証明日から1カ月以内にご提出ください。"
+    },
+    "documents.3#2": {
+      "url": "https://www.city.chikushino.fukuoka.jp/soshiki/49/53610.html",
+      "quote": "勤務先の証明が必要。"
+    },
+    "documents.4": {
+      "url": "https://www.city.chikushino.fukuoka.jp/soshiki/49/53610.html",
+      "quote": "5．個人番号および本人確認書類の写し（説明書裏面を参照）"
+    },
+    "documents.5": {
+      "url": "https://www.city.chikushino.fukuoka.jp/soshiki/49/53610.html",
+      "quote": "申込必要書類を確認するためのシートです。受付時にも必要ですので、入所申込書類と一緒に提出してください。"
     },
     "interview": {
       "url": "https://www.city.chikushino.fukuoka.jp/soshiki/49/3327.html",
       "quote": "保育所により、保育内容、雰囲気、諸経費などに違いがありますので、申し込みの際はお子さんと一緒に保育所の見学をお願いしています。"
     },
+    "interview#2": {
+      "url": "https://www.city.chikushino.fukuoka.jp/soshiki/49/3327.html",
+      "quote": "※お子さんの発育に不安がある場合や保育上のサポートを希望する場合は、見学の際に発育の程度や配慮が必要な点について施設と直接お話しの上、市にご相談ください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.chikushino.fukuoka.jp/soshiki/49/53610.html",
+      "quote": "育児休業の延長を希望する場合。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.chikushino.fukuoka.jp/soshiki/49/53610.html",
+      "quote": "育児休業給付金の支給期間の延長手続きなどについて、筑紫野市ではお答えすることができません。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.chikushino.fukuoka.jp/soshiki/49/53610.html",
+      "quote": "事前に管轄のハローワークや就労先にご確認いただいたうえで、ご判断ください。"
+    },
+    "ikukyu#4": {
+      "url": "https://www.city.chikushino.fukuoka.jp/uploaded/attachment/34584.pdf",
+      "quote": "入所決定後に辞退した場合は減点となる上、育児休業給付金の延長ができなくなる可能性があります。"
+    },
     "notes.0": {
-      "url": "https://www.city.chikushino.fukuoka.jp/uploaded/attachment/34447.pdf",
+      "url": "https://www.city.chikushino.fukuoka.jp/uploaded/attachment/34622.pdf",
       "quote": "入所希望日は、慣らし保育を開始する日となります。就労開始日から最大３週間前から入所が可能ですが、慣らし保育はお子様の状態により異なり、おおむね１～２週間の期間を要することを踏まえて入所月（日）をご検討ください。"
     },
     "notes.1": {
-      "url": "https://www.city.chikushino.fukuoka.jp/uploaded/attachment/34447.pdf",
-      "quote": "※５月と６月の２期調整は、 １期の入所辞退分の調整を行うのみとし、 申込受付は行いません。"
+      "url": "https://www.city.chikushino.fukuoka.jp/uploaded/attachment/34622.pdf",
+      "quote": "※５月と６月の２期調整は、１期の入所辞退分の調整を行うのみとし、申込受付は行いません。"
     },
     "notes.2": {
-      "url": "https://www.city.chikushino.fukuoka.jp/soshiki/49/3327.html",
-      "quote": "事前相談がなく入所決定した場合、入所取消となる場合があります。"
+      "url": "https://www.city.chikushino.fukuoka.jp/uploaded/attachment/34584.pdf",
+      "quote": "利用希望施設以外の施設への入所決定は行いません。"
     },
     "notes.3": {
       "url": "https://www.city.chikushino.fukuoka.jp/soshiki/49/3327.html",
-      "quote": "人数制限を行う場合がありますので、事前に見学可能か各保育所に確認してください。"
+      "quote": "事前相談がなく入所決定した場合、入所取消となる場合があります。"
+    },
+    "notes.4": {
+      "url": "https://www.city.chikushino.fukuoka.jp/soshiki/49/3327.html",
+      "quote": "※人数制限を行う場合がありますので、事前に見学可能か各保育所に確認してください。"
+    },
+    "notes.5": {
+      "url": "https://www.city.chikushino.fukuoka.jp/soshiki/49/3327.html",
+      "quote": "※配布期間の初日、2日目は例年大変込み合います。"
     }
   },
   "sources": [
@@ -99,12 +187,16 @@
       "url": "https://www.city.chikushino.fukuoka.jp/soshiki/49/3327.html"
     },
     {
-      "label": "筑紫野市「令和8年度保育所入所申込締切日一覧」",
-      "url": "https://www.city.chikushino.fukuoka.jp/uploaded/attachment/34447.pdf"
+      "label": "筑紫野市「令和9年度保育所入所申込締切日一覧」",
+      "url": "https://www.city.chikushino.fukuoka.jp/uploaded/attachment/34622.pdf"
     },
     {
-      "label": "筑紫野市「令和8年度保育所（園）入所申し込み書類」",
-      "url": "https://www.city.chikushino.fukuoka.jp/soshiki/49/45503.html"
+      "label": "筑紫野市「令和9年度保育所（園）入所申し込み書類」",
+      "url": "https://www.city.chikushino.fukuoka.jp/soshiki/49/53610.html"
+    },
+    {
+      "label": "筑紫野市「令和9年度保育所入所申込説明書」",
+      "url": "https://www.city.chikushino.fukuoka.jp/uploaded/attachment/34584.pdf"
     }
   ]
 }

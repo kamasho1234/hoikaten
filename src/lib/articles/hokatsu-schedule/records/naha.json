@@ -1,38 +1,121 @@
 {
   "citySlug": "naha",
-  "checkedAt": "2026-09-18",
+  "checkedAt": "2026-10-29",
   "page": {
-    "label": "那覇市「令和8年度　認可保育園・私立認定こども園(2号・3号)入園申込みのご案内」",
+    "label": "那覇市「令和9年度　認可保育園・私立認定こども園(2号・3号)入園申込みのご案内」",
     "url": "https://www.city.naha.okinawa.jp/child/hoikuen/1002762/1002783/1002785.html"
   },
-  "fiscalYear": "R8",
-  "firstApply": "令和7年12月1日（月曜）～令和7年12月28日（日曜）",
-  "applyMethods": "オンライン申請、または窓口提出",
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年10月16日以降、紙パンフレット「入園申込みのご案内」を那覇市こどもみらい課、本庁舎1階総合案内、市内の認可保育園・認定こども園、各支所（首里・真和志・小禄）、こども家庭センター那覇（本庁舎2階）で配布",
+  "firstApply": "令和9年4月入所希望：オンライン 令和8年11月24日（火曜）～令和8年12月21日（月曜）、窓口 令和8年12月1日（火曜）～令和8年12月21日（月曜）",
+  "applyMethods": "オンライン申請（ぴったりサービス、終日受付）または窓口提出（那覇市役所こどもみらい課 本庁舎3階49番窓口、平日午前8時30分～午後5時15分）",
+  "documents": [
+    "令和9年度入園申込書（1号/2号・3号）兼教育保育給付認定申請書（様式1）（令和9年4月～令和10年3月入園申込み用）",
+    "就労証明書（様式2）（会社などに勤めている場合。自営業の方も同じ様式）",
+    "看護・介助証明書（様式4）（同居親族を常に看護・介護しているため就労できない場合）",
+    "求職活動等申立書（保育が必要な事由が求職活動中の場合）"
+  ],
+  "interview": "特別な支援（発達支援保育、医療的ケア等）を必要とする児童は事前予約制で、受付時に保育士資格を持つ職員が面接する（親子で来課）。予約開始は令和8年10月14日（水曜）から、令和9年4月入所希望の受付は令和8年10月26日（月曜）～令和8年11月30日（月曜）",
   "notes": [
-    "土曜日・日曜日の受付はない。窓口に来られない方はオンライン申請をご利用ください。"
+    "土曜日・日曜日の受付はない。窓口に来られない方はオンライン申請を利用する",
+    "特別な支援を必要とする児童はこどもみらい課での面接が必要なため、オンラインではなく窓口で申し込む",
+    "オンライン申請のリンクは申込受付期間外は閉鎖されている",
+    "令和9年4月に向けた新規受け入れ児童数の見込みは11月に掲載予定"
   ],
   "evidence": {
     "fiscalYear": {
       "url": "https://www.city.naha.okinawa.jp/child/hoikuen/1002762/1002783/1002785.html",
-      "quote": "令和8年度（2026年）入園の申込み"
+      "quote": "令和9年度（2027年）入園の申込み"
+    },
+    "guideRelease": {
+      "url": "https://www.city.naha.okinawa.jp/child/hoikuen/1002762/1002783/1002785.html",
+      "quote": "紙パンフレット配布場所（令和8年10月16日以降、随時配布開始）"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.naha.okinawa.jp/child/hoikuen/1002762/1002783/1002785.html",
+      "quote": "那覇市こどもみらい課、本庁舎1階総合案内、市内の認可保育園・認定こども園、各支所（首里支所・真和志支所・小禄支所）、こども家庭センター那覇（本庁舎2階）"
     },
     "firstApply": {
       "url": "https://www.city.naha.okinawa.jp/child/hoikuen/1002762/1002783/1002785.html",
-      "quote": "【令和8年4月入所希望申込】令和7年12月1日（月曜）～令和7年12月28日（日曜）"
+      "quote": "【令和9年4月入所希望申込】オンライン：令和8年11月24日（火曜）～令和8年12月21日（月曜）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.naha.okinawa.jp/child/hoikuen/1002762/1002783/1002785.html",
+      "quote": "窓口：令和8年12月1日（火曜）～令和8年12月21日（月曜）"
     },
     "applyMethods": {
       "url": "https://www.city.naha.okinawa.jp/child/hoikuen/1002762/1002783/1002785.html",
-      "quote": "オンライン申請、または窓口提出"
+      "quote": "申込方法オンライン申請、または窓口提出"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.naha.okinawa.jp/child/hoikuen/1002762/1002783/1002785.html",
+      "quote": "オンライン申請：終日窓口受付：平日午前8時30分～午後5時15分"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.naha.okinawa.jp/child/hoikuen/1002762/1002783/1002785.html",
+      "quote": "窓口提出先那覇市役所こどもみらい課（本庁舎3階49番窓口）"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.naha.okinawa.jp/child/hoikuen/1002762/1002783/1002785.html",
+      "quote": "オンライン申請ページ(保育園）ぴったりサービス"
+    },
+    "documents.0": {
+      "url": "https://www.city.naha.okinawa.jp/child/hoikuen/1002762/1002783/1002789.html",
+      "quote": "(令和9年4月～令和10年3月入園申込み用）"
+    },
+    "documents.1": {
+      "url": "https://www.city.naha.okinawa.jp/child/hoikuen/1002762/1002783/1002789.html",
+      "quote": "申請者が会社などに勤めている場合に使用します。（エクセル・PDF同じ様式です。）※自営業の方もこちらの様式をご使用ください。"
+    },
+    "documents.2": {
+      "url": "https://www.city.naha.okinawa.jp/child/hoikuen/1002762/1002783/1002789.html",
+      "quote": "同居親族を常に看護・介護している為に就労ができない場合に使用します。"
+    },
+    "documents.3": {
+      "url": "https://www.city.naha.okinawa.jp/child/hoikuen/1002762/1002783/1002789.html",
+      "quote": "求職活動等申立書は保護者の「保育が必要な事由」が求職活動中の場合に提出します。"
+    },
+    "interview": {
+      "url": "https://www.city.naha.okinawa.jp/child/hoikuen/1002762/1002783/1002785.html",
+      "quote": "受付時に保育士資格を持つ職員が面接を行いますので、親子で来課してください。"
+    },
+    "interview#2": {
+      "url": "https://www.city.naha.okinawa.jp/child/hoikuen/1002762/1002783/1002785.html",
+      "quote": "特別な支援（発達支援保育、医療的ケア等）を必要とする児童の申込みには事前予約が必要です。"
+    },
+    "interview#3": {
+      "url": "https://www.city.naha.okinawa.jp/child/hoikuen/1002762/1002783/1002785.html",
+      "quote": "【予約開始日】令和8年10月14日（水曜）～"
+    },
+    "interview#4": {
+      "url": "https://www.city.naha.okinawa.jp/child/hoikuen/1002762/1002783/1002785.html",
+      "quote": "【令和9年4月入所希望申込】令和8年10月26日（月曜）～令和8年11月30日（月曜）"
     },
     "notes.0": {
       "url": "https://www.city.naha.okinawa.jp/child/hoikuen/1002762/1002783/1002785.html",
-      "quote": "土曜日・日曜日の受付はありません。窓口に来れない方はオンライン申請をご利用ください。"
+      "quote": "※土曜日・日曜日の受付はありません。窓口に来れない方はオンライン申請をご利用ください。"
+    },
+    "notes.1": {
+      "url": "https://www.city.naha.okinawa.jp/child/hoikuen/1002762/1002783/1002785.html",
+      "quote": "(特別な支援を要する児童は、こどもみらい課にて面接が必要となりますので、窓口にて申込みをお願いいたします。)"
+    },
+    "notes.2": {
+      "url": "https://www.city.naha.okinawa.jp/child/hoikuen/1002762/1002783/1002785.html",
+      "quote": "※申込受付期間外はリンク先が閉鎖されています。"
+    },
+    "notes.3": {
+      "url": "https://www.city.naha.okinawa.jp/child/hoikuen/1002762/1002783/1002785.html",
+      "quote": "令和9年4月に向けた新規受け入れ児童数の見込み11月に掲載予定"
     }
   },
   "sources": [
     {
-      "label": "那覇市「令和8年度　認可保育園・私立認定こども園(2号・3号)入園申込みのご案内」",
+      "label": "那覇市「令和9年度　認可保育園・私立認定こども園(2号・3号)入園申込みのご案内」",
       "url": "https://www.city.naha.okinawa.jp/child/hoikuen/1002762/1002783/1002785.html"
+    },
+    {
+      "label": "那覇市「入園（入所）申込み・施設利用継続等で使用する書類」",
+      "url": "https://www.city.naha.okinawa.jp/child/hoikuen/1002762/1002783/1002789.html"
     }
   ]
 }

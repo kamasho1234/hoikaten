@@ -1,138 +1,204 @@
 {
   "citySlug": "kakogawa",
-  "checkedAt": "2026-09-18",
+  "checkedAt": "2026-10-29",
   "page": {
-    "label": "加古川市「令和8年度保育所等利用申込みについて」",
-    "url": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/kodomo/hoikuka/kosodate_kyoiku/48063.html"
+    "label": "加古川市「令和9年度保育所等利用申込みについて」",
+    "url": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/kodomo/hoikuka/kosodate_kyoiku/50870.html"
   },
-  "fiscalYear": "R8",
-  "firstApply": "令和7年10月14日（火）〜令和7年11月7日（金）。受付場所は市役所新館1階ロビー特設会場、市内認可保育所等、各市民センター",
-  "applyMethods": "市役所新館1階ロビー特設会場、市内認可保育所等、各市民センターで受付。ただし市役所本館1階幼児保育課窓口以外での提出は書類の預かりのみで内容の確認はできない",
-  "firstResult": "令和7年12月中旬ごろに子どものための教育・保育給付支給認定証（黄色の通知）を交付、令和7年12月下旬ごろに利用調整結果通知を郵送",
-  "secondApply": "令和7年11月10日（月）〜令和8年1月16日（金）。受付場所は市役所本館1階幼児保育課窓口、市内認可保育所等、各市民センター",
-  "secondResult": "令和8年2月中旬ごろに教育・保育給付支給認定証（黄色の通知）を交付、令和8年3月上旬ごろに利用調整結果通知を郵送（新規申込や変更がある場合のみ通知）",
-  "midYearDeadline": "5月以降の年度途中入所は利用希望月の前月10日頃までに申込。各月の申込期限の詳細はガイドのP.9参照",
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年10月1日から市役所新館9階（10月1日〜11月6日まで）、幼児保育課（11月9日以降）、市内各認可保育施設等で配布。申請書類はホームページでも取得可能",
+  "firstApply": "令和8年10月13日（火）〜令和8年11月6日（金）。修正期間は令和8年11月9日（月）〜11月13日（金）で、市役所本館1階幼児保育課窓口のみ・受付書類の修正のみ可能（希望園の変更は不可）。市役所以外で11月7日（土）・11月8日（日）に提出された書類は4月2次受付の対象",
+  "applyMethods": "受付場所は市役所新館9階（令和8年11月6日まで）、幼児保育課（令和8年11月9日以降）、市内の各認可保育施設、各市民センター。市役所本館1階幼児保育課窓口以外での提出は書類の預かりのみで、内容の確認はできない",
+  "firstResult": "令和8年12月中旬に子どものための教育・保育給付支給認定証（黄色の通知）、令和8年12月末に利用調整結果を文書で通知予定（電話や窓口では回答しない）",
+  "secondApply": "令和8年11月9日（月）〜令和9年1月15日（金）。修正期間は令和9年1月18日（月）〜1月22日（金）",
+  "secondResult": "令和9年3月上旬に利用調整結果を通知予定",
+  "midYearDeadline": "令和9年5月以降の年度途中入所は令和9年2月1日から受付、入所希望月の前月10日まで（市役所以外での受付はその前日まで。締切日が土・日・祝日の場合はその直後の平日まで）",
   "documents": [
-    "子どものための教育・保育給付認定申請書（兼）令和8年度事業所利用（調整）申込書（兼）保育児童台帳（子ども1人につき1枚）",
+    "子どものための教育・保育給付認定申請書（兼）令和9年度事業所利用（調整）申込書（兼）保育児童台帳（子ども1人につき1枚）",
     "就労を事由とする場合は就労証明書、就労以外を事由とする場合は保育を必要とする申立書（証明日から3か月以内有効）",
     "保育所等の利用申込書類預かり書（兼）重要事項確認書",
-    "保育を必要とする事由により異なる追加書類（自営業の場合は確定申告書や営業許可証、育児休業からの復職の場合は復職申立書など詳細はガイドのP.3～4参照）"
+    "保育を必要とする理由に応じた添付書類（例：妊娠・出産は妊婦健康診査費助成券等のコピー、保護者が障害者手帳等を持っている場合は障害者手帳・介護保険被保険者証のコピー）"
   ],
-  "interview": "入所が決定した場合、入所前に決定した保育所等から入所前の準備物、健康診断などの説明を受ける",
-  "ikukyu": "育児休業から復職される場合は入所した月中の復職が必要。入所保留に伴い育児休業を延長された場合、申込の取下げをされない限り毎月利用調整が行われ、最長で令和9年3月までが対象期間となる。育児休業に係る子どもについて5月以降の申込については別途条件がある",
+  "interview": "入所決定した場合は、入所する保育施設の健康診断及び面接を受ける",
+  "ikukyu": "育児休業から復職する場合は入所した月中の復職が必要。入所保留に伴い育児休業を延長した後も、申込を取り下げない限り毎月利用調整が行われる（最長でも令和10年3月まで）。育児休業からの復職に伴う令和9年5月以降の申込み1は令和8年11月9日〜令和9年1月15日（令和9年4月2次受付と一緒に選考）、申込み2は最初に取得する育児休業の開始日が令和9年1月16日以降の方に限り令和9年2月1日〜4月12日",
   "notes": [
-    "保育所等の見学は事前に直接問い合わせ。利用条件（申込可能年齢、保育方針、諸経費、開所時間、送迎バスの有無など）を申込前に確認すること",
-    "就労予定で入所決定された方は、提出いただいた就労時間で入所した月中に勤務を開始する必要があり、就労証明書記載の時間を下回る場合は原則入所の取り消しや退所となる",
-    "3歳児クラス以上の給食は原則保護者負担で、基本的には保育所等が副食（おかず）を用意し、主食（ご飯）は保護者が持参。保育所等によって料金が異なる",
-    "ならし保育の期間や内容は利用される子どもの年齢や保育所等によって異なる",
-    "令和9年3月末に閉園予定で令和8年度は5歳児のみ受入"
+    "見学を勧めている。利用条件が合わないなどの理由で入所内定を辞退すると、以降の利用調整で減点され不利になる",
+    "利用調整は先着順ではない",
+    "就労予定で入所決定された場合は、提出した就労時間で入所した月中に勤務を開始する必要があり、就労証明書記載の時間を下回ると原則入所の取り消しや退所となる",
+    "入所保留中の方の利用調整は当該年度のみ。翌年度以降も入所を希望する場合は新たに申込みが必要",
+    "入所当初はならし保育のため、1〜2週間程度保育時間を短縮することがある",
+    "しかたこども園は老朽化対策のため令和8年度より園運営と並行して工事を実施している"
   ],
   "evidence": {
     "fiscalYear": {
-      "url": "https://www.city.kakogawa.lg.jp/material/files/group/49/20250926.pdf",
-      "quote": "令和８年度入所の変更点と注意点"
+      "url": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/kodomo/hoikuka/kosodate_kyoiku/50870.html",
+      "quote": "令和9年度の保育施設（認可保育所、認定こども園保育園部、地域型保育事業所）の利用申込みについては、下記のとおりお知らせします。"
+    },
+    "fiscalYear#2": {
+      "url": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/kodomo/hoikuka/kosodate_kyoiku/50870.html",
+      "quote": "令和9年4月（1次受付）令和 8年10月13日（火曜日）から"
+    },
+    "guideRelease": {
+      "url": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/kodomo/hoikuka/kosodate_kyoiku/50870.html",
+      "quote": "令和8年10月1日から市役所新館9階（10月1日～11月6日まで）、幼児保育課（11月9日以降）、市内各認可保育施設等で配布"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/kodomo/hoikuka/kosodate_kyoiku/50870.html",
+      "quote": "配布する申請書類等についてはホームページでも取得可能ですので、窓口の混雑緩和にご協力をお願いします。"
     },
     "firstApply": {
-      "url": "https://www.city.kakogawa.lg.jp/material/files/group/49/20250926.pdf",
-      "quote": "受付期間：令和7年１０月１４日（火）～令和7年１１月7日（金） 受付場所：市役所新館１階ロビー特設会場、市内認可保育所等、各市民センター"
+      "url": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/kodomo/hoikuka/kosodate_kyoiku/50870.html",
+      "quote": "令和9年4月（1次受付）令和 8年10月13日（火曜日）から 令和 8年11月 6日（金曜日）まで"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/kodomo/hoikuka/kosodate_kyoiku/50870.html",
+      "quote": "【修正期間】※1 令和 8年11月 9日（月曜日）から 令和 8年11月13日（金曜日）まで"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.kakogawa.lg.jp/material/files/group/49/20260925.pdf",
+      "quote": "令和8年１１月9日（月）～令和8年１１月１3日（金） ※市役所本館１階幼児保育課窓口のみで受け付けます。 ※受付書類の修正のみ可能。希望園の変更はできません。"
+    },
+    "firstApply#4": {
+      "url": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/kodomo/hoikuka/kosodate_kyoiku/50870.html",
+      "quote": "（注意）市役所以外で11月7日（土曜日）、または11月8日（日曜日）に提出された書類については、令和9年4月2次受付の対象となります。"
     },
     "applyMethods": {
-      "url": "https://www.city.kakogawa.lg.jp/material/files/group/49/20250926.pdf",
-      "quote": "※市役所本館１階幼児保育課窓口以外での提出の場合は書類の預かりのみとなり、内容の確認はできません。"
+      "url": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/kodomo/hoikuka/kosodate_kyoiku/50870.html",
+      "quote": "・市役所新館9階（令和 8年11月 6日まで） ・幼児保育課 （令和 8年11月 9日以降） ・市内の各認可保育施設 ・各市民センター"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.kakogawa.lg.jp/material/files/group/49/20260925.pdf",
+      "quote": "ただし、市役所本館１階幼児保育課窓口以外での提出の場合は書類の預かりのみとなり、内容の確認はできません。"
     },
     "firstResult": {
-      "url": "https://www.city.kakogawa.lg.jp/material/files/group/49/20250926.pdf",
-      "quote": "子どものための教育・保育給付支給認定証の交付（黄色の通知） 令和7年１２月中旬ごろ 利用調整結果通知 令和7年１２月下旬ごろ"
+      "url": "https://www.city.kakogawa.lg.jp/material/files/group/49/20260925.pdf",
+      "quote": "（１次受付） 【修正期間】 １２月中旬 １２月末"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/kodomo/hoikuka/kosodate_kyoiku/50870.html",
+      "quote": "令和 8年11月13日（金曜日）まで 令和 8年　　　　　12月末"
+    },
+    "firstResult#3": {
+      "url": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/kodomo/hoikuka/kosodate_kyoiku/50870.html",
+      "quote": "上記結果通知予定時期に文書にて送付予定です。なお、結果については、電話や窓口では回答いたしませんので、通知をご確認ください。"
     },
     "secondApply": {
-      "url": "https://www.city.kakogawa.lg.jp/material/files/group/49/20250926.pdf",
-      "quote": "２ 次 受 付 受付期間：令和7年１１月１0日（月）～令和8年1月１6日（金）"
+      "url": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/kodomo/hoikuka/kosodate_kyoiku/50870.html",
+      "quote": "令和9年4月（2次受付）令和 8年11月 9日（月曜日）から 令和 9年 1月15日（金曜日）まで"
     },
     "secondApply#2": {
-      "url": "https://www.city.kakogawa.lg.jp/material/files/group/49/20250926.pdf",
-      "quote": "受付場所：市役所本館１階幼児保育課窓口、市内認可保育所等、各市民センター"
+      "url": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/kodomo/hoikuka/kosodate_kyoiku/50870.html",
+      "quote": "【修正期間】※1 令和 9年 1月18日（月曜日）から 令和 9年 1月22日（金曜日）まで"
     },
     "secondResult": {
-      "url": "https://www.city.kakogawa.lg.jp/material/files/group/49/20250926.pdf",
-      "quote": "子どものための教育・保育給付支給認定証の交付（黄色の通知） 令和8年2月中旬ごろ"
-    },
-    "secondResult#2": {
-      "url": "https://www.city.kakogawa.lg.jp/material/files/group/49/20250926.pdf",
-      "quote": "利用調整結果通知 令和8年3月上旬ごろ"
+      "url": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/kodomo/hoikuka/kosodate_kyoiku/50870.html",
+      "quote": "令和 9年 1月18日（月曜日）から 令和 9年 1月22日（金曜日）まで 令和 9年　　　　　3月上旬"
     },
     "midYearDeadline": {
-      "url": "https://www.city.kakogawa.lg.jp/material/files/group/49/20250926.pdf",
-      "quote": "令和８年５月以降 利用希望月の前月１０日頃まで"
+      "url": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/kodomo/hoikuka/kosodate_kyoiku/50870.html",
+      "quote": "令和9年5月以降　（年度途中入所申込） 令和 9年 2月 1日（月曜日）から 入所希望月の前月10日まで"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/kodomo/hoikuka/kosodate_kyoiku/50870.html",
+      "quote": "（注意）市役所以外での受付は その前日まで （締切日が土曜日・日曜日・祝日の 場合は、その直後の平日まで）"
     },
     "documents.0": {
-      "url": "https://www.city.kakogawa.lg.jp/material/files/group/49/20250926.pdf",
-      "quote": "「子どものための教育・保育給付認定申請書（兼）令和8年度事業所利用（調整）申込書（兼）保育児童台帳」 ※子ども１人につき１枚必要"
+      "url": "https://www.city.kakogawa.lg.jp/material/files/group/49/20260925.pdf",
+      "quote": "「子どものための教育・保育給付認定申請書（兼）令和9年度事業所利用（調整）申込書（兼）保育児童台帳」 ※子ども１人につき１枚必要"
     },
     "documents.1": {
-      "url": "https://www.city.kakogawa.lg.jp/material/files/group/49/20250926.pdf",
+      "url": "https://www.city.kakogawa.lg.jp/material/files/group/49/20260925.pdf",
       "quote": "就労を事由とする場合は「就労証明書」、 就労以外を事由とする場合は「保育を必要とする申立書」 ※証明日から３か月以内有効"
     },
     "documents.2": {
-      "url": "https://www.city.kakogawa.lg.jp/material/files/group/49/20250926.pdf",
-      "quote": "保育所等の利用申込書類預かり書（兼）重要事項確認書"
+      "url": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/kodomo/hoikuka/kosodate_kyoiku/50870.html",
+      "quote": "保育所等の利用申込書類預かり書（兼）重要事項確認書 （ 複写式のためホームページでは公開しておりません。"
     },
     "documents.3": {
-      "url": "https://www.city.kakogawa.lg.jp/material/files/group/49/20250926.pdf",
-      "quote": "保育を必要とする事由により必要な書類 保育を必要とする事由 事由により追加で必要な添付書類"
+      "url": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/kodomo/hoikuka/kosodate_kyoiku/50870.html",
+      "quote": "4.その他、保育を必要とする理由に応じて必要な添付書類があります。"
+    },
+    "documents.3#2": {
+      "url": "https://www.city.kakogawa.lg.jp/material/files/group/49/20260925.pdf",
+      "quote": "妊娠・出産 妊婦健康診査費助成券等のコピー"
+    },
+    "documents.3#3": {
+      "url": "https://www.city.kakogawa.lg.jp/material/files/group/49/20260925.pdf",
+      "quote": "障害者手帳等を持っている場合 障害者手帳、介護保険被保険者証のコピー"
     },
     "interview": {
-      "url": "https://www.city.kakogawa.lg.jp/material/files/group/49/20250926.pdf",
-      "quote": "入所が決定した保育所等から 入所前の準備物、健康診断などの説明を受けてください。"
+      "url": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/kodomo/hoikuka/kosodate_kyoiku/50870.html",
+      "quote": "入所決定した場合は、入所する保育施設の健康診断及び面接を受けていただきます。"
     },
     "ikukyu": {
-      "url": "https://www.city.kakogawa.lg.jp/material/files/group/49/20250926.pdf",
+      "url": "https://www.city.kakogawa.lg.jp/material/files/group/49/20260925.pdf",
       "quote": "育児休業から復職される場合は、入所した月中の復職が必要です。"
     },
     "ikukyu#2": {
-      "url": "https://www.city.kakogawa.lg.jp/material/files/group/49/20250926.pdf",
+      "url": "https://www.city.kakogawa.lg.jp/material/files/group/49/20260925.pdf",
       "quote": "入所保留に伴い育児休業を延長された後も、利用申込の取下げをされない限り、毎月、利用調整が行われます。"
     },
     "ikukyu#3": {
-      "url": "https://www.city.kakogawa.lg.jp/material/files/group/49/20250926.pdf",
-      "quote": "（利用調整が行われるのは、入所希望月～保育給付認定を受けている期間です。ただし最長でも令和９年３月までとなります。）"
+      "url": "https://www.city.kakogawa.lg.jp/material/files/group/49/20260925.pdf",
+      "quote": "（利用調整が行われるのは、入所希望月～保育給付認定を受けている期間です。ただし最長でも令和 10 年 3 月までとなります。）"
+    },
+    "ikukyu#4": {
+      "url": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/kodomo/hoikuka/kosodate_kyoiku/50870.html",
+      "quote": "令和9年5月以降の申込み1. ※2 令和 8年11月 9日（月曜日）から 令和 9年 1月15日（金曜日）まで"
+    },
+    "ikukyu#5": {
+      "url": "https://www.city.kakogawa.lg.jp/material/files/group/49/20260925.pdf",
+      "quote": "※令和9年４月（２次受付）と一緒に選考します"
+    },
+    "ikukyu#6": {
+      "url": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/kodomo/hoikuka/kosodate_kyoiku/50870.html",
+      "quote": "令和9年5月以降の申込2. ※2,3 令和 9年 2月  1日（月曜日）から 令和 9年 4月12日（月曜日）まで"
+    },
+    "ikukyu#7": {
+      "url": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/kodomo/hoikuka/kosodate_kyoiku/50870.html",
+      "quote": "※3…育児休業に係る子どもについて、父・母等を通じて最初に取得する育児休業の開始日が令和9年1月16日以降の方に限ります。"
     },
     "notes.0": {
-      "url": "https://www.city.kakogawa.lg.jp/material/files/group/49/20250926.pdf",
+      "url": "https://www.city.kakogawa.lg.jp/material/files/group/49/20260925.pdf",
       "quote": "利用申込みに際しては、お子様と一緒にご希望の保育所等を見学していただくことをおすすめします。"
     },
     "notes.0#2": {
-      "url": "https://www.city.kakogawa.lg.jp/material/files/group/49/20250926.pdf",
-      "quote": "申込む前に必ず、申込可能年齢や保育方針、諸経費、開所時間、送迎バスの有無、送り迎えが可能かなどの利用条件を確認してください。"
+      "url": "https://www.city.kakogawa.lg.jp/material/files/group/49/20260925.pdf",
+      "quote": "利用条件が合わないなどの理由により入所内定を辞退された場合、以降の利用調整で減点され不利になります。"
     },
     "notes.1": {
-      "url": "https://www.city.kakogawa.lg.jp/material/files/group/49/20250926.pdf",
-      "quote": "就労予定で利用申込を行い、入所決定された方は、提出いただいた就労時間で入所した月中に勤務を開始する必要があります。"
-    },
-    "notes.1#2": {
-      "url": "https://www.city.kakogawa.lg.jp/material/files/group/49/20250926.pdf",
-      "quote": "利用申込み時に提出された就労証明書記載の時間を下回る場合は、原則入所の取り消しや退所となります。"
+      "url": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/kodomo/hoikuka/kosodate_kyoiku/50870.html",
+      "quote": "利用調整は先着順ではありません。"
     },
     "notes.2": {
-      "url": "https://www.city.kakogawa.lg.jp/material/files/group/49/20250926.pdf",
-      "quote": "保育所等によっては、指定の制服代や体操服代のほか、毎月保育料以外に保育材料費などの諸経費が必要な場合があります。また、３歳児クラス以上の給食は、原則、保護者負担となり、基本的には副食（おかず）のみを保育所等で用意し、主食（ご飯）は持参していただきます。"
+      "url": "https://www.city.kakogawa.lg.jp/material/files/group/49/20260925.pdf",
+      "quote": "就労予定で利用申込を行い、入所決定された方は、提出いただいた就労時間で入所した月中に勤務を開始する必要があります。"
+    },
+    "notes.2#2": {
+      "url": "https://www.city.kakogawa.lg.jp/material/files/group/49/20260925.pdf",
+      "quote": "利用申込み時に提出された就労証明書記載の時間を下回る場合は、原則入所の取り消しや退所となります。"
     },
     "notes.3": {
-      "url": "https://www.city.kakogawa.lg.jp/material/files/group/49/20250926.pdf",
-      "quote": "ならし保育の期間や内容は、利用されるお子様の年齢や保育所等によって異なります。"
+      "url": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/kodomo/hoikuka/kosodate_kyoiku/50870.html",
+      "quote": "入所保留中の方の利用調整は、当該年度のみ行います。翌年度以降も入所を希望される場合は新たに申込みが必要です。"
     },
     "notes.4": {
-      "url": "https://www.city.kakogawa.lg.jp/material/files/group/49/20250926.pdf",
-      "quote": "※令和９年３月末に閉園予定。（令和８年度は５歳児のみ受入れ）"
+      "url": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/kodomo/hoikuka/kosodate_kyoiku/50870.html",
+      "quote": "入所当初は、ならし保育のため、1～2週間程度、保育時間を短縮することがありますので、ご協力ください。"
+    },
+    "notes.5": {
+      "url": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/kodomo/hoikuka/kosodate_kyoiku/50870.html",
+      "quote": "老朽化対策のため令和8 年度より園運営と並行して工事を実施しております。"
     }
   },
   "sources": [
     {
-      "label": "加古川市「令和8年度保育所等利用申込みについて」",
-      "url": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/kodomo/hoikuka/kosodate_kyoiku/48063.html"
+      "label": "加古川市「令和9年度保育所等利用申込みについて」",
+      "url": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/kodomo/hoikuka/kosodate_kyoiku/50870.html"
     },
     {
-      "label": "令和8年度加古川市保育施設利用のしおり（PDF）",
-      "url": "https://www.city.kakogawa.lg.jp/material/files/group/49/20250926.pdf"
+      "label": "令和9年度加古川市保育施設利用のしおり（PDF）",
+      "url": "https://www.city.kakogawa.lg.jp/material/files/group/49/20260925.pdf"
     }
   ]
 }

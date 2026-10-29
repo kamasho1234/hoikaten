@@ -1,108 +1,169 @@
 {
   "citySlug": "mito",
-  "checkedAt": "2026-09-18",
+  "checkedAt": "2026-10-29",
   "page": {
-    "label": "水戸市「【令和８年度】保育利用申し込み（保育所，認定こども園（２・３号），家庭的保育事業，小規模保育事業）」",
-    "url": "https://www.city.mito.lg.jp/site/kosodate/107000.html"
+    "label": "水戸市「【令和９年度】保育利用申し込み（保育所、認定こども園（2・3号）、家庭的保育事業、小規模保育事業）」",
+    "url": "https://www.city.mito.lg.jp/site/kosodate/132131.html"
   },
-  "fiscalYear": "R8",
-  "firstApply": "令和7年10月14日(火)～10月22日(水)【完全予約制】または令和7年10月23日(木)～11月10日(月)【予約優先制】。不足書類の追加受付は令和7年11月10日(月)まで",
-  "applyMethods": "オンライン申請または幼児保育課窓口での申請。窓口受付時間は午前8時30分から午後5時15分まで（水曜日は午後7時まで）。土・日曜日、祝日、年末年始を除く",
-  "firstResult": "令和8年1月中旬頃に郵送で全員に通知",
-  "secondApply": "令和7年11月11日(火)～令和8年2月13日(金)",
-  "secondResult": "令和8年3月中旬頃。内定者のみ電話連絡",
+  "fiscalYear": "R9",
+  "firstApply": "令和8年10月19日(月)午前8時30分～11月10日(火)午後5時15分",
+  "applyMethods": "原則オンライン申請（いばらき電子申請・届出サービス（水戸市））。特別な事情等でオンライン申請が困難な場合や市外の認可保育所等への広域入所は幼児保育課窓口で受付。窓口は土・日曜日、祝日、年末年始を除く午前8時30分から午後5時15分まで（水曜日は午後7時まで）",
+  "firstResult": "令和9年1月中旬頃に全員に郵送で通知",
+  "secondApply": "令和9年1月12日(火)午前8時30分～2月12日(金)午後5時15分",
+  "secondResult": "令和9年3月中旬頃。内定者のみ電話連絡",
+  "midYearDeadline": "4月以外の利用希望は毎月、利用希望月の前月の10日締切（10日が土・日曜日、祝日の場合はその直前の平日）",
   "documents": [
-    "施設型給付費・地域型保育給付費等教育・保育給付認定（変更）申請書",
-    "保育利用申込書",
-    "家庭状況等調べ",
-    "保育利用に関する確認票及び同意書",
-    "保育の必要性を証明する書類（就労証明書等。事由により異なる）",
-    "マイナンバーの番号確認と本人確認に必要な書類"
+    "施設型給付費・地域型保育給付費等 教育・保育給付認定（変更）申請書（窓口で申請する場合）",
+    "保育利用申込書（窓口で申請する場合）",
+    "家庭状況等調べ（窓口で申請する場合）",
+    "確認票及び同意書（窓口で申請する場合）",
+    "申込保護者本人であることを確認する書類（写真表示がある書類は1点、写真表示のない書類は2点以上）",
+    "保育の必要性を証明する書類（就労証明書など。保護者それぞれ事由に応じて必要）。4月一次募集の申込は令和8年9月1日以降に作成されたもの",
+    "満65歳未満の同居祖父母がいる場合はその方の保育の必要性を証明する書類"
   ],
-  "interview": "利用が内定した児童は保護者とともに各施設で面接・健康診断等を受ける",
-  "midYearDeadline": "年度途中利用の場合は毎月、利用希望日の前月の10日締切（10日が土・日曜日、祝日の場合はその直前の平日）",
+  "interview": "利用が内定した場合は利用開始月の前月までに内定施設で面接や健康診断を受ける。受けない場合は内定取消",
+  "ikukyu": "「希望する保育所等に入所できない場合は、育児休業の延長も許容できる」を選択すると選考の優先度が下がり、入所保留や育児休業給付金の支給期間延長は保証されない。内定にならなかった方には初回のみ利用希望月の前月末頃までに保育利用保留通知書を郵送",
   "notes": [
-    "希望施設の追加・順位変更や不足書類は令和7年11月10日(月)までの受付で、11月11日(火)以降に提出された書類は二次選考から反映される",
-    "育児休業からの復職で利用する場合は遅くとも利用開始月の翌月15日までに復職する必要があり、利用開始後に復職証明書を提出する"
+    "一次選考で内定にならなかった方は4月二次選考の対象となる",
+    "締切日までは希望施設の追加・順位の変更や不足書類を受け付け、締切日を過ぎて提出された書類等は翌月分の選考から反映",
+    "育児休業中に申し込む場合は遅くとも利用開始月の翌月15日までに復職する必要があり、利用開始後に復職（予定）証明書を提出する",
+    "令和9年度の入所申込みをしても令和10年度（令和10年4月以降）の入所については選考されず、別途申込みが必要",
+    "出生前の申込みはできない"
   ],
   "evidence": {
     "fiscalYear": {
-      "url": "https://www.city.mito.lg.jp/uploaded/attachment/59189.pdf",
-      "quote": "◇令和８年度４月から利用を希望する場合"
+      "url": "https://www.city.mito.lg.jp/uploaded/attachment/73378.pdf",
+      "quote": "令和９年度の入所申込みをしても令和10年度（令和10年４月以降）の入所については選考されません。"
     },
     "firstApply": {
-      "url": "https://www.city.mito.lg.jp/uploaded/attachment/59189.pdf",
-      "quote": "令和７年10月14日(火)～10月22日(水) 【完全予約制】 ※予約の方のみの受付となります。 令和７年10月23日(木)～11月10日(月) 【予約優先制】 ※予約以外の方も受付けます。"
+      "url": "https://www.city.mito.lg.jp/site/kosodate/132131.html",
+      "quote": "受付期間　令和８年10月19日（月）午前８時30分～11月10日（火）午後５時15分"
     },
     "applyMethods": {
-      "url": "https://www.city.mito.lg.jp/site/kosodate/107000.html",
-      "quote": "午前8時30分から午後5時15分まで（水曜日は午後7時まで）の間にお申し込みください。"
+      "url": "https://www.city.mito.lg.jp/site/kosodate/132131.html",
+      "quote": "原則、オンライン申請でお申込みください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.mito.lg.jp/uploaded/attachment/73378.pdf",
+      "quote": "「いばらき電子申請・届出サービス（水戸市）」からお申込みください。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.mito.lg.jp/site/kosodate/132131.html",
+      "quote": "※特別な事情等（日本語を読むことが困難な場合、端末に問題がある等）によりオンライン申請が困難である場合は、幼児保育課窓口で受け付けます。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.mito.lg.jp/site/kosodate/132131.html",
+      "quote": "※市外の認可保育所等への入所（広域入所）を希望される場合は、オンライン申請は行っておりません。幼児保育課窓口で受け付けます。"
+    },
+    "applyMethods#5": {
+      "url": "https://www.city.mito.lg.jp/site/kosodate/132131.html",
+      "quote": "（土・日曜日、祝日、年末年始を除く。）の午前8時30分から午後5時15分まで（水曜日は午後7時まで）の間にお申し込みください。"
     },
     "firstResult": {
-      "url": "https://www.city.mito.lg.jp/uploaded/attachment/59189.pdf",
-      "quote": "令和８年１月中旬頃 全員に郵送します。"
+      "url": "https://www.city.mito.lg.jp/site/kosodate/132131.html",
+      "quote": "結果連絡予定日　令和９年１月中旬頃　全員に郵送します。"
     },
     "secondApply": {
-      "url": "https://www.city.mito.lg.jp/uploaded/attachment/59189.pdf",
-      "quote": "令和７年11月11日(火)～令和８年２月13日(金)"
+      "url": "https://www.city.mito.lg.jp/site/kosodate/132131.html",
+      "quote": "受付期間　令和９年１月12日（火）午前８時30分～２月12日（金）午後５時15分"
     },
     "secondResult": {
-      "url": "https://www.city.mito.lg.jp/uploaded/attachment/59189.pdf",
-      "quote": "令和８年３月中旬頃 内定者のみ電話連絡します。"
+      "url": "https://www.city.mito.lg.jp/site/kosodate/132131.html",
+      "quote": "結果連絡予定日　令和９年３月中旬頃　内定者のみ電話連絡します。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.mito.lg.jp/site/kosodate/132131.html",
+      "quote": "4月利用希望以外の申込受付は、毎月、利用希望月の前月の10日締切です。"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.mito.lg.jp/site/kosodate/132131.html",
+      "quote": "（10日が土・日曜日、祝日の場合はその直前の平日が締切です。）"
     },
     "documents.0": {
-      "url": "https://www.city.mito.lg.jp/uploaded/attachment/59189.pdf",
-      "quote": "施設型給付費・地域型保育給付費等教育・保育給付認定（変更）申請書"
+      "url": "https://www.city.mito.lg.jp/site/kosodate/132131.html",
+      "quote": "施設型給付費・地域型保育給付費等 教育・保育給付認定（変更）申請書"
     },
     "documents.1": {
-      "url": "https://www.city.mito.lg.jp/uploaded/attachment/59189.pdf",
+      "url": "https://www.city.mito.lg.jp/site/kosodate/132131.html",
       "quote": "保育利用申込書"
     },
     "documents.2": {
-      "url": "https://www.city.mito.lg.jp/uploaded/attachment/59189.pdf",
+      "url": "https://www.city.mito.lg.jp/site/kosodate/132131.html",
       "quote": "家庭状況等調べ"
     },
     "documents.3": {
-      "url": "https://www.city.mito.lg.jp/uploaded/attachment/59189.pdf",
-      "quote": "保育利用に関する確認票及び同意書"
+      "url": "https://www.city.mito.lg.jp/site/kosodate/132131.html",
+      "quote": "確認票及び同意書"
     },
     "documents.4": {
-      "url": "https://www.city.mito.lg.jp/uploaded/attachment/59189.pdf",
-      "quote": "保育の必要性を証明する書類（保護者それぞれ①～⑧のいずれかが必要です。）"
+      "url": "https://www.city.mito.lg.jp/uploaded/attachment/73378.pdf",
+      "quote": "１ 申込保護者本人であることを確認する書類"
+    },
+    "documents.4#2": {
+      "url": "https://www.city.mito.lg.jp/uploaded/attachment/73378.pdf",
+      "quote": "② 写真表示のない書類の場合は２点以上"
     },
     "documents.5": {
-      "url": "https://www.city.mito.lg.jp/uploaded/attachment/59189.pdf",
-      "quote": "６ マイナンバーの「番号の確認」と「本人確認」に必要な書類"
+      "url": "https://www.city.mito.lg.jp/uploaded/attachment/73378.pdf",
+      "quote": "２ 保育の必要性を証明する書類（保護者それぞれ①～⑧のいずれかが必要です。）"
+    },
+    "documents.5#2": {
+      "url": "https://www.city.mito.lg.jp/uploaded/attachment/73378.pdf",
+      "quote": "４月一次募集の申込：令和８年９月１日以降に作成されたものを御提出ください。"
+    },
+    "documents.6": {
+      "url": "https://www.city.mito.lg.jp/uploaded/attachment/73378.pdf",
+      "quote": "満65歳未満※1の同居（敷地内同居の場合も含む｡）祖父母がいる場合は、その方の書類※2"
     },
     "interview": {
-      "url": "https://www.city.mito.lg.jp/uploaded/attachment/59189.pdf",
-      "quote": "⃝利用が内定した児童は，保護者とともに各施設で面接・健康診断等を受けてください。"
+      "url": "https://www.city.mito.lg.jp/uploaded/attachment/73378.pdf",
+      "quote": "利用が内定した場合は、利用開始月の前月までに内定施設と面接や健康診断"
     },
-    "midYearDeadline": {
-      "url": "https://www.city.mito.lg.jp/site/kosodate/107000.html",
-      "quote": "4月1日利用希望以外の申込受付けは、毎月、利用希望日の前月の10日締切 です。（10日が土・日曜日、祝日の場合は その直前の平日 が締切です。）"
+    "interview#2": {
+      "url": "https://www.city.mito.lg.jp/uploaded/attachment/73378.pdf",
+      "quote": "面接・健康診断を受けない場合は内定取消となります。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.mito.lg.jp/uploaded/attachment/73378.pdf",
+      "quote": "選考の際の優先度を下げるものであり、入所保留及び育児休業給付金支給期間延長を保証するもの"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.mito.lg.jp/uploaded/attachment/73378.pdf",
+      "quote": "内定にならなかった方には、初回のみ利用希望月の前月末頃までに保育利用保留通知書を郵送します。"
     },
     "notes.0": {
-      "url": "https://www.city.mito.lg.jp/uploaded/attachment/59189.pdf",
-      "quote": "※希望施設の追加・順位変更や不足書類は令和７年11月10日(月)まで受付けます。不足書類として11月11日(火) 以降に提出された書類は，二次選考から反映します。"
+      "url": "https://www.city.mito.lg.jp/uploaded/attachment/73378.pdf",
+      "quote": "一次選考で内定にならなかった方は、二次選考の対象となります。"
     },
     "notes.1": {
-      "url": "https://www.city.mito.lg.jp/uploaded/attachment/59189.pdf",
-      "quote": "育児休業からの復職で利用の場合は，遅くとも利用開始月の翌月15日までに復職する必要があります。利用開始後，復職（予定）証明書を提出していただきます。"
+      "url": "https://www.city.mito.lg.jp/uploaded/attachment/73378.pdf",
+      "quote": "締切日までは希望施設の追加・順位の変更等や不足書類を受け付けます。締切日を過ぎてから提出された書類等は、翌月分の選考から反映します。"
     },
-    "applyMethods#2": {
-      "url": "https://www.city.mito.lg.jp/site/kosodate/107000.html",
-      "quote": "令和8年6月22日より、 オンライン申請 を開始しました。"
+    "notes.2": {
+      "url": "https://www.city.mito.lg.jp/uploaded/attachment/73378.pdf",
+      "quote": "育児休業中に入所申込みをする場合、遅くとも利用開始月の翌月15日までに復職する必要があります。"
+    },
+    "notes.2#2": {
+      "url": "https://www.city.mito.lg.jp/uploaded/attachment/73378.pdf",
+      "quote": "利用開始後、復職（予定）証明書を提出していただきます。"
+    },
+    "notes.3": {
+      "url": "https://www.city.mito.lg.jp/uploaded/attachment/73378.pdf",
+      "quote": "令和９年度の入所申込みをしても令和10年度（令和10年４月以降）の入所については選考されません。別途申込みが必要です。"
+    },
+    "notes.4": {
+      "url": "https://www.city.mito.lg.jp/uploaded/attachment/73378.pdf",
+      "quote": "※出生前の申込みはできません。"
     }
   },
   "sources": [
     {
-      "label": "水戸市「【令和８年度】保育利用申し込み（保育所，認定こども園（２・３号），家庭的保育事業，小規模保育事業）」",
-      "url": "https://www.city.mito.lg.jp/site/kosodate/107000.html"
+      "label": "水戸市「【令和９年度】保育利用申し込み（保育所、認定こども園（2・3号）、家庭的保育事業、小規模保育事業）」",
+      "url": "https://www.city.mito.lg.jp/site/kosodate/132131.html"
     },
     {
-      "label": "水戸市「幼稚園・認定こども園・保育所・地域型保育 利用の御案内（令和8年度）」",
-      "url": "https://www.city.mito.lg.jp/uploaded/attachment/59189.pdf"
+      "label": "水戸市「幼稚園・認定こども園・保育所・地域型保育 利用の御案内（令和9年度）」",
+      "url": "https://www.city.mito.lg.jp/uploaded/attachment/73378.pdf"
     }
   ]
 }

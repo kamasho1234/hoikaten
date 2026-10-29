@@ -1,115 +1,190 @@
 {
   "citySlug": "ayase",
-  "checkedAt": "2026-09-19",
+  "checkedAt": "2026-10-29",
   "page": {
-    "label": "綾瀬市「令和8年度認可保育所等利用手続きについて」",
-    "url": "https://www.city.ayase.kanagawa.jp/soshiki/hoikuka/kosodateshiensite/2/2/2/1/23844.html"
+    "label": "綾瀬市「令和9年4月1日保育所等利用手続きについて」",
+    "url": "https://www.city.ayase.kanagawa.jp/soshiki/hoikuka/kosodateshiensite/2/2/2/1/25109.html"
   },
-  "fiscalYear": "R8",
-  "firstApply": "令和7年10月14日（火）〜11月13日（木）。2次受付は令和7年11月14日（金）〜令和8年2月10日（火）",
-  "applyMethods": "保育課保育・学童担当窓口に必要書類を提出。窓口、郵送、e-kanagawaを利用した電子申請を受け付けている。提出場所は市役所2階保育課、受付時間は8時30分〜12時15分、13時〜17時（土日祝除く）",
-  "firstResult": "令和8年1月上旬（1次）、令和8年2月下旬（2次）に郵送で通知。4月入園の場合は郵送通知のみ",
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年10月1日（木）から市役所保育課で申込み関係書類を配付。ホームページからもダウンロードできる",
+  "firstApply": "令和8年10月13日（火）〜11月12日（木）、8時30分〜17時（土日祝除く）。郵送は締切日必着",
+  "applyMethods": "必要書類を市役所2階保育課の窓口に提出。窓口に加えて郵送またはe-kanagawaを利用した電子申請でも受け付ける（郵送の締切は窓口と同じで締切日必着）。綾瀬市外の保育所等を希望する場合は郵送申込み不可",
+  "firstResult": "令和9年1月上旬に文書（郵送）で通知",
+  "secondApply": "令和9年1月4日（月）〜2月5日（金）",
+  "secondResult": "令和9年2月下旬。内定は電話、保留は文書で通知（1次から継続して申請している場合は保留通知は発行されない）",
+  "midYearDeadline": "5月以降の入所は希望月の前月10日締切（土日祝の場合は前開庁日）",
   "documents": [
     "保育所等入所申込書（子ども1人につき1枚）",
     "給付認定申請書（子ども1人につき1枚）",
-    "児童の状況（園見学の確認を含む。令和8年4月入所の申請より園見学が必須）",
-    "保育を必要とする事由を確認するための書類（就労証明書等。各種証明書は入所希望月の1日から6か月以内に証明されたもの）",
-    "該当する場合のみ必要となる資料",
-    "マイナンバーカード確認資料（提示のみ）"
+    "児童の状況（1枚で子ども2人まで記載可能。園見学の確認を含む）",
+    "提出書類チェックリスト",
+    "保育所等入所に関する確認書",
+    "就労証明書（利用希望月から起算して6か月以内のものが有効。令和9年4月申請の場合は令和8年10月以降の証明日のもの）",
+    "育休復帰の場合は、法定の育児休業の取得が確認できる書類（育児休業給付金支給決定通知または雇用保険被保険者証、共済加入者は辞令）"
   ],
-  "interview": "内定連絡時に施設との面接についてご案内。入所当初は年齢にかかわらず、必ずならし保育があり期間は児童の状況により各施設が判断（概ね1〜2週間）",
+  "interview": "内定連絡時に施設との面接について案内がある。入所当初は年齢にかかわらず必ずならし保育がある",
+  "ikukyu": "「希望する保育所等に入所できない場合は、育児休業の延長も許容できる場合」は利用調整で-200点。育休復帰で入所した場合は入所月の翌月14日までに必ず就労を開始する",
   "notes": [
-    "園見学は令和8年4月入所の申請より必須。希望するすべての園の見学が必要で、見学がない場合や確認できない場合は減点される",
-    "育休復帰予定で申請して入所が決定した場合、入所月の翌月14日までに復職し、復職後2週間以内に再度就労証明書の提出が必要",
-    "市外の保育所等を希望する場合は希望先市町村の締切日の10日前までに申込みをする必要がある",
-    "入所は原則毎月1日から"
+    "希望するすべての園の見学が必要で、園見学の有無が確認できない場合は減点の指数が付く",
+    "希望園は3園まで記載可能",
+    "4月1次で保留の場合、取り下げの手続きをしない限り自動的に2次選考と5月以降（令和10年3月まで）の選考にかけられ、再申請は不要",
+    "綾瀬市外の保育所等を希望する場合は、希望先市区町村の申込み締切日のおおむね10日前までに綾瀬市役所保育課の窓口に申請する",
+    "「産後育休明けに復職する」の加点を希望する場合は、産前産後・育児休業からの復職に関する誓約書の提出が必要"
   ],
   "evidence": {
     "fiscalYear": {
-      "url": "https://www.city.ayase.kanagawa.jp/soshiki/hoikuka/kosodateshiensite/2/2/2/1/23844.html",
-      "quote": "お申込みに際しては、「令和8年度保育所等利用のご案内」をご覧いただき、内容を御確認の上お申し込みください。"
+      "url": "https://www.city.ayase.kanagawa.jp/soshiki/hoikuka/kosodateshiensite/2/2/2/1/25109.html",
+      "quote": "令和9年4月に入所を希望される方は、次のとおりお申込みください。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.ayase.kanagawa.jp/material/files/group/24/reiwa9nenndosukejuuru.pdf",
+      "quote": "書類配布：申請書類は、令和８年１０月 1 日より配布開始となります。"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.ayase.kanagawa.jp/material/files/group/24/reiwa9nenndosukejuuru.pdf",
+      "quote": "窓口またはホームページからダウンロードいただきご用意ください。"
+    },
+    "guideRelease#3": {
+      "url": "https://www.city.ayase.kanagawa.jp/soshiki/hoikuka/kosodateshiensite/2/2/2/1/25109.html",
+      "quote": "申込み関係書類は保育課で配付しています。"
     },
     "firstApply": {
-      "url": "https://www.city.ayase.kanagawa.jp/material/files/group/24/20240929hoikuzyotouriyounogoannnai2.pdf",
-      "quote": "４月 令和７年１０月１４日（火）〜１１月１３日（木） 令和７年１１月１３日（木）"
+      "url": "https://www.city.ayase.kanagawa.jp/soshiki/hoikuka/kosodateshiensite/2/2/2/1/25109.html",
+      "quote": "令和8年10月13日（火曜日）から11月12日（木曜日）"
     },
     "firstApply#2": {
-      "url": "https://www.city.ayase.kanagawa.jp/material/files/group/24/20240929hoikuzyotouriyounogoannnai2.pdf",
-      "quote": "４月２次受付 令和７年１１月１４日（金）〜令和８年２月１０日（火） 令和８年 ２月１０日（火）"
+      "url": "https://www.city.ayase.kanagawa.jp/material/files/group/24/reiwa9nenndohoikushoriyouannai.pdf",
+      "quote": "４月 令和８年１０月１３日（火）～１１月１２日（木） 令和８年１１月１２日（木）"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.ayase.kanagawa.jp/material/files/group/24/reiwa9nenndohoikushoriyouannai.pdf",
+      "quote": "申込みの締切りは窓口受付と同様です。"
     },
     "applyMethods": {
-      "url": "https://www.city.ayase.kanagawa.jp/soshiki/hoikuka/kosodateshiensite/2/2/2/1/23844.html",
-      "quote": "入所の申込は、保育課保育・学童担当で随時受付けています。"
+      "url": "https://www.city.ayase.kanagawa.jp/material/files/group/24/reiwa9nenndohoikushoriyouannai.pdf",
+      "quote": "窓口での申込みに加えて、郵送または e-kanagawa を利用した電子申請(※１)での申込みも受け付けています。"
     },
     "applyMethods#2": {
-      "url": "https://www.city.ayase.kanagawa.jp/soshiki/hoikuka/kosodateshiensite/2/2/2/1/23844.html",
-      "quote": "受付時間 8時30分から12時15分・13時から17時"
+      "url": "https://www.city.ayase.kanagawa.jp/material/files/group/24/reiwa9nenndosukejuuru.pdf",
+      "quote": "申込みの際は、ご案内Ｐ.６で説明する必要書類を、綾瀬市役所２階保育課の窓口までお持ちください。"
     },
     "applyMethods#3": {
-      "url": "https://www.city.ayase.kanagawa.jp/soshiki/hoikuka/kosodateshiensite/2/2/2/1/23844.html",
-      "quote": "提出場所 市役所2階保育課"
+      "url": "https://www.city.ayase.kanagawa.jp/material/files/group/24/reiwa9nenndohoikushoriyouannai.pdf",
+      "quote": "★綾瀬市外の保育所等に入所を希望する場合 ※郵送申込み不可"
     },
     "firstResult": {
-      "url": "https://www.city.ayase.kanagawa.jp/material/files/group/24/20240929hoikuzyotouriyounogoannnai2.pdf",
-      "quote": "令和８年４月 保留・内定 文書（郵送）※２ 令和８年１月上旬（２次：２月下旬）"
+      "url": "https://www.city.ayase.kanagawa.jp/material/files/group/24/reiwa9nenndosukejuuru.pdf",
+      "quote": "選考結果は、令和９年１月上旬に、文書で通知いたします。"
     },
     "firstResult#2": {
-      "url": "https://www.city.ayase.kanagawa.jp/material/files/group/24/20240929hoikuzyotouriyounogoannnai2.pdf",
-      "quote": "（４月入園の場合は、郵送通知のみ。）"
+      "url": "https://www.city.ayase.kanagawa.jp/material/files/group/24/reiwa9nenndohoikushoriyouannai.pdf",
+      "quote": "令和９年４月 保留・内定 文書（郵送） 令和９年１月上旬（２次：２月下旬）"
+    },
+    "secondApply": {
+      "url": "https://www.city.ayase.kanagawa.jp/material/files/group/24/reiwa9nenndosukejuuru.pdf",
+      "quote": "★２次受付は、令和９年1月４日(月)～令和９年２月５日（金）までです。"
+    },
+    "secondResult": {
+      "url": "https://www.city.ayase.kanagawa.jp/material/files/group/24/reiwa9nenndosukejuuru.pdf",
+      "quote": "なお、２次選考の結果は、２月下旬に内定の場合は電話、保留の場合は文書で通知いたします。"
+    },
+    "secondResult#2": {
+      "url": "https://www.city.ayase.kanagawa.jp/material/files/group/24/reiwa9nenndohoikushoriyouannai.pdf",
+      "quote": "令和９年４月 保留・内定 文書（郵送） 令和９年１月上旬（２次：２月下旬）"
+    },
+    "secondResult#3": {
+      "url": "https://www.city.ayase.kanagawa.jp/material/files/group/24/reiwa9nenndohoikushoriyouannai.pdf",
+      "quote": "※４月２次の内定は電話でご連絡します。１次から継続して申請している場合、保留通知は発行されません。"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.ayase.kanagawa.jp/material/files/group/24/reiwa9nenndohoikushoriyouannai.pdf",
+      "quote": "市役所の開庁日 希望月の前月１０日"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.ayase.kanagawa.jp/material/files/group/24/reiwa9nenndohoikushoriyouannai.pdf",
+      "quote": "(土日祝・１２月２９日～１月３日を除く) （土日祝の場合は前開庁日）"
     },
     "documents.0": {
-      "url": "https://www.city.ayase.kanagawa.jp/soshiki/hoikuka/kosodateshiensite/2/2/2/1/23844.html",
+      "url": "https://www.city.ayase.kanagawa.jp/soshiki/hoikuka/kosodateshiensite/2/2/2/1/25109.html",
       "quote": "保育所等入所申込書（子ども1人につき1枚）"
     },
     "documents.1": {
-      "url": "https://www.city.ayase.kanagawa.jp/soshiki/hoikuka/kosodateshiensite/2/2/2/1/23844.html",
+      "url": "https://www.city.ayase.kanagawa.jp/soshiki/hoikuka/kosodateshiensite/2/2/2/1/25109.html",
       "quote": "給付認定申請書（子ども1人につき1枚）"
     },
     "documents.2": {
-      "url": "https://www.city.ayase.kanagawa.jp/soshiki/hoikuka/kosodateshiensite/2/2/2/1/23844.html",
-      "quote": "児童の状況（1枚で子ども3人まで記載可能）※園見学の確認を含みます。"
+      "url": "https://www.city.ayase.kanagawa.jp/soshiki/hoikuka/kosodateshiensite/2/2/2/1/25109.html",
+      "quote": "児童の状況（1枚で子ども2人まで記載可能）"
+    },
+    "documents.2#2": {
+      "url": "https://www.city.ayase.kanagawa.jp/soshiki/hoikuka/kosodateshiensite/2/2/2/1/25109.html",
+      "quote": "※「児童の状況」の様式は、園見学の確認を含みます。"
     },
     "documents.3": {
-      "url": "https://www.city.ayase.kanagawa.jp/soshiki/hoikuka/kosodateshiensite/2/2/2/1/23844.html",
-      "quote": "保育を必要とする事由を確認するための書類（下記の「保育必要事由の確認書類」をご確認ください。"
+      "url": "https://www.city.ayase.kanagawa.jp/soshiki/hoikuka/kosodateshiensite/2/2/2/1/25109.html",
+      "quote": "提出書類チェックリスト"
     },
     "documents.4": {
-      "url": "https://www.city.ayase.kanagawa.jp/soshiki/hoikuka/kosodateshiensite/2/2/2/1/23844.html",
-      "quote": "該当する場合のみ必要となる資料（下記の「その他必要となる書類」をご確認ください。"
+      "url": "https://www.city.ayase.kanagawa.jp/soshiki/hoikuka/kosodateshiensite/2/2/2/1/25109.html",
+      "quote": "保育所等入所に関する確認書"
     },
     "documents.5": {
-      "url": "https://www.city.ayase.kanagawa.jp/soshiki/hoikuka/kosodateshiensite/2/2/2/1/23844.html",
-      "quote": "※窓口受付の際は、マイナンバーカードの確認資料を提示いただきます。"
+      "url": "https://www.city.ayase.kanagawa.jp/soshiki/hoikuka/kosodateshiensite/2/2/2/1/25109.html",
+      "quote": "（注意）就労証明書は、利用希望月から起算して6か月以内のものが有効です。（令和9年4月申請の場合は、令和8年10月以降の証明日のもの）"
+    },
+    "documents.6": {
+      "url": "https://www.city.ayase.kanagawa.jp/material/files/group/24/reiwa9nenndohoikushoriyouannai.pdf",
+      "quote": "・育児休業給付金支給決定通知または雇用保険被保険者証、共済加入者は辞令"
     },
     "interview": {
-      "url": "https://www.city.ayase.kanagawa.jp/material/files/group/24/20240929hoikuzyotouriyounogoannnai2.pdf",
-      "quote": "入所当初は、年齢にかかわらず、必ずならし保育があります。ならし保育は利用開始日（毎月１日）から始まり、期間は児童の状況により各施設が判断します。"
+      "url": "https://www.city.ayase.kanagawa.jp/material/files/group/24/reiwa9nenndohoikushoriyouannai.pdf",
+      "quote": "内定連絡時に、施設との面接についてご案内します。"
+    },
+    "interview#2": {
+      "url": "https://www.city.ayase.kanagawa.jp/material/files/group/24/reiwa9nenndohoikushoriyouannai.pdf",
+      "quote": "入所当初は、年齢にかかわらず、必ずならし保育があります。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.ayase.kanagawa.jp/material/files/group/24/reiwa9nenndohoikushoriyouannai.pdf",
+      "quote": "希望する保育所等に入所できない場合は、育児休業の延長も許容できる場合 -200"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.ayase.kanagawa.jp/material/files/group/24/reiwa9nenndohoikushoriyouannai.pdf",
+      "quote": "育児休業復帰及び就労予定の場合は、入所月の翌月の１４日までに必ず就労を開始してください。"
     },
     "notes.0": {
-      "url": "https://www.city.ayase.kanagawa.jp/soshiki/hoikuka/kosodateshiensite/2/2/2/1/23844.html",
-      "quote": "令和8年4月入所の申請より園見学を必須としています。"
+      "url": "https://www.city.ayase.kanagawa.jp/soshiki/hoikuka/kosodateshiensite/2/2/2/1/25109.html",
+      "quote": "園見学の有無が確認できない場合は減点の指数が付きます。（希望するすべての園の見学が必要です。）"
     },
     "notes.1": {
-      "url": "https://www.city.ayase.kanagawa.jp/soshiki/hoikuka/kosodateshiensite/2/2/2/1/23844.html",
-      "quote": "なお、育休復帰予定で申請して入所が決定した場合、入所月の翌月14日までに復職し、復職後2週間以内に再度就労証明書の提出が必要です。"
+      "url": "https://www.city.ayase.kanagawa.jp/soshiki/hoikuka/kosodateshiensite/2/2/2/1/25109.html",
+      "quote": "※希望園は3園まで記載可能です。"
     },
     "notes.2": {
-      "url": "https://www.city.ayase.kanagawa.jp/soshiki/hoikuka/kosodateshiensite/2/2/2/1/23844.html",
-      "quote": "申請の手続きは、綾瀬市保育課保育・学童担当の窓口で行います。"
+      "url": "https://www.city.ayase.kanagawa.jp/material/files/group/24/reiwa9nenndosukejuuru.pdf",
+      "quote": "保留の場合、取り下げの手続きがされない限り、自動的に２次選考及び５月以降（令和１０年３月まで）の選考にかけられますので、再度申請をいただく必要はありません。"
     },
     "notes.3": {
-      "url": "https://www.city.ayase.kanagawa.jp/soshiki/hoikuka/kosodateshiensite/2/2/2/1/23844.html",
-      "quote": "入所を希望する月の前月の10日が申込締切となります。"
+      "url": "https://www.city.ayase.kanagawa.jp/material/files/group/24/reiwa9nenndohoikushoriyouannai.pdf",
+      "quote": "必要書類をそろえて、希望先市区町村の申込み締切日のおおむね１０日前※１までに、綾瀬市役所保育課の窓口にお越しください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.ayase.kanagawa.jp/soshiki/hoikuka/kosodateshiensite/2/2/2/1/25109.html",
+      "quote": "2.産前産後・育児休業からの復職に関する誓約書※令和9年度保育所等利用のご案内 P.16「産後育休明けに復職する」の加点を希望する方のみ。"
     }
   },
   "sources": [
     {
-      "label": "綾瀬市「令和8年度認可保育所等利用手続きについて」",
-      "url": "https://www.city.ayase.kanagawa.jp/soshiki/hoikuka/kosodateshiensite/2/2/2/1/23844.html"
+      "label": "綾瀬市「令和9年4月1日保育所等利用手続きについて」",
+      "url": "https://www.city.ayase.kanagawa.jp/soshiki/hoikuka/kosodateshiensite/2/2/2/1/25109.html"
     },
     {
-      "label": "綾瀬市「保育所等利用のご案内」",
-      "url": "https://www.city.ayase.kanagawa.jp/material/files/group/24/20240929hoikuzyotouriyounogoannnai2.pdf"
+      "label": "綾瀬市「令和9年度 4月入所申請のスケジュールについて」",
+      "url": "https://www.city.ayase.kanagawa.jp/material/files/group/24/reiwa9nenndosukejuuru.pdf"
+    },
+    {
+      "label": "綾瀬市「令和9年度保育所等利用のご案内」",
+      "url": "https://www.city.ayase.kanagawa.jp/material/files/group/24/reiwa9nenndohoikushoriyouannai.pdf"
     }
   ]
 }

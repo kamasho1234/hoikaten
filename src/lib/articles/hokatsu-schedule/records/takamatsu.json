@@ -1,52 +1,115 @@
 {
   "citySlug": "takamatsu",
-  "checkedAt": "2026-09-18",
+  "checkedAt": "2026-10-29",
   "page": {
-    "label": "高松市「令和8年4月からの保育施設等の利用について」",
+    "label": "高松市「令和9年4月からの保育施設等の利用について」",
     "url": "https://www.city.takamatsu.kagawa.jp/smph/kurashi/kosodate/youchien_hoiku/kodomoen/hoiku/h29riyou.html"
   },
-  "fiscalYear": "R8",
-  "guideRelease": "令和7年10月17日（金曜日）から利用案内、入所申込書等の配布開始。配布場所は各保育施設等、市役所6階こども保育教育課、各総合センター、各支所",
-  "firstApply": "令和7年11月4日（火曜日）から令和7年11月21日（金曜日）17時まで。第1希望の保育施設等に提出",
-  "applyMethods": "第1希望の保育施設等に提出（一次受付）。二次以降はこども保育教育課、各総合センター、各支所に提出。家庭状況の聞き取りは施設及びこども保育教育課の職員が行う",
-  "firstResult": "令和8年2月10日頃（予定）に郵送で通知",
-  "secondApply": "令和7年11月25日（火曜日）から令和8年1月19日（月曜日）まで",
-  "secondResult": "令和8年3月10日頃（予定）に電話及び書面郵送で通知",
-  "notes": [],
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年10月5日（月曜日）から利用案内、入所申込書等の配布開始。配布場所は保育施設等、市役所6階こども保育教育課、各総合センター、各支所",
+  "firstApply": "令和8年10月26日（月曜日）から令和8年11月13日（金曜日）17時まで。受付場所は第1希望の保育施設等",
+  "applyMethods": "「高松市教育・保育給付認定申請書兼現況届（2号・3号認定）兼入所申込書（2号・3号認定）」とその他必要書類を第1希望の保育施設等に提出する。申込書等は保育施設等、市役所6階こども保育教育課、各総合センター、各支所で配布",
+  "firstResult": "令和9年2月10日（水曜日）頃に郵送で通知",
+  "secondApply": "令和9年1月12日（火曜日）から令和9年1月29日（金曜日）16時半まで。一次受付期間に申込していない方が対象",
+  "secondResult": "二次・三次の結果は令和9年3月10日（水曜日）頃に通知。入所内定は電話で連絡、入所保留（待機）は施設利用保留通知書を郵送",
+  "documents": [
+    "高松市教育・保育給付認定申請書兼現況届（2号・3号認定）兼入所申込書（2号・3号認定）とその他必要書類",
+    "就労証明書（4月入所の場合は証明日を9月1日以降のものにする）",
+    "転入者等の場合は、マイナンバー提供書とは別に所得課税証明書（同点時の優先順位の判定に使う）"
+  ],
+  "notes": [
+    "三次受付は令和9年2月1日（月曜日）から2月24日（水曜日）16時半まで。一次選考で待機になった方と、令和9年4月1日までに転入する方が対象",
+    "証明書類は原則発行日から3か月以内のものが必要で、令和9年4月入所の申込には令和8年9月以降に発行された証明書類が要る",
+    "希望施設は事前に見学して確認し、なるべく多くの施設を希望した方が入所できる可能性が高くなる",
+    "利用内定後の辞退は他の申請者の迷惑になるので、申請前に十分検討する",
+    "同点時の優先順位の判定に必要な書類が未提出だと、ほかの申請者が優先される"
+  ],
   "evidence": {
     "fiscalYear": {
       "url": "https://www.city.takamatsu.kagawa.jp/smph/kurashi/kosodate/youchien_hoiku/kodomoen/hoiku/h29riyou.html",
-      "quote": "令和8年4月から保育施設等を利用するに当たっての手続及び利用者負担額（保育料）等については次のとおりです。"
+      "quote": "令和9年4月から保育施設等を利用するに当たっての手続及び利用者負担額（保育料）等については次のとおりです。"
     },
     "guideRelease": {
       "url": "https://www.city.takamatsu.kagawa.jp/smph/kurashi/kosodate/youchien_hoiku/kodomoen/hoiku/h29riyou.html",
-      "quote": "利用案内、入所申込書等の配布開始 令和7年10月17日（金曜日）から"
+      "quote": "利用案内、入所申込書等の配布開始 令和8年10月5日（月曜日）から"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.takamatsu.kagawa.jp/smph/kurashi/kosodate/youchien_hoiku/kodomoen/hoiku/h29riyou.html",
+      "quote": "■配布場所：保育施設等、市役所6階こども保育教育課、各総合センター、各支所"
     },
     "firstApply": {
       "url": "https://www.city.takamatsu.kagawa.jp/smph/kurashi/kosodate/youchien_hoiku/kodomoen/hoiku/h29riyou.html",
-      "quote": "令和7年11月4日（火曜日）から令和7年11月21日（金曜日）まで"
+      "quote": "＜一次＞受付期間 令和8年10月26日（月曜日）から 令和8年11月13日（金曜日）17時まで"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.takamatsu.kagawa.jp/smph/kurashi/kosodate/youchien_hoiku/kodomoen/hoiku/h29riyou.html",
+      "quote": "■受付場所：第1希望の保育施設等"
     },
     "applyMethods": {
       "url": "https://www.city.takamatsu.kagawa.jp/smph/kurashi/kosodate/youchien_hoiku/kodomoen/hoiku/h29riyou.html",
-      "quote": "受付場所：第1希望の保育施設等"
+      "quote": "「高松市教育・保育給付認定申請書兼現況届（2号・3号認定）兼入所申込書（2号・3号認定）」とその他必要書類を第1希望の保育施設等に提出します。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.takamatsu.kagawa.jp/smph/kurashi/kosodate/youchien_hoiku/kodomoen/hoiku/h29riyou.html",
+      "quote": "■配布場所：保育施設等、市役所6階こども保育教育課、各総合センター、各支所"
     },
     "firstResult": {
       "url": "https://www.city.takamatsu.kagawa.jp/smph/kurashi/kosodate/youchien_hoiku/kodomoen/hoiku/h29riyou.html",
-      "quote": "令和8年2月10日（火曜日）頃※2月17日（火曜日）までに届かない場合はお問い合わせください。"
+      "quote": "＜一次の結果通知＞ 郵送にて通知を発送します。 令和9年2月10日（水曜日）頃"
     },
     "secondApply": {
       "url": "https://www.city.takamatsu.kagawa.jp/smph/kurashi/kosodate/youchien_hoiku/kodomoen/hoiku/h29riyou.html",
-      "quote": "令和7年11月25日（火曜日）から令和8年1月19日（月曜日）まで"
+      "quote": "・「一次受付期間に申込していない方」 令和9年1月12日（火曜日）から 令和9年1月29日（金曜日）16時半まで"
     },
     "secondResult": {
       "url": "https://www.city.takamatsu.kagawa.jp/smph/kurashi/kosodate/youchien_hoiku/kodomoen/hoiku/h29riyou.html",
-      "quote": "令和8年3月10日（火曜日）頃"
+      "quote": "→郵送にて施設利用保留通知書を発送します。 令和9年3月10日（水曜日）頃"
+    },
+    "secondResult#2": {
+      "url": "https://www.city.takamatsu.kagawa.jp/smph/kurashi/kosodate/youchien_hoiku/kodomoen/hoiku/h29riyou.html",
+      "quote": "＜二次・三次の結果通知＞ ・入所内定の場合 →電話にて御連絡いたします。"
+    },
+    "documents.0": {
+      "url": "https://www.city.takamatsu.kagawa.jp/smph/kurashi/kosodate/youchien_hoiku/kodomoen/hoiku/h29riyou.html",
+      "quote": "「高松市教育・保育給付認定申請書兼現況届（2号・3号認定）兼入所申込書（2号・3号認定）」とその他必要書類を第1希望の保育施設等に提出します。"
+    },
+    "documents.1": {
+      "url": "https://www.city.takamatsu.kagawa.jp/smph/kurashi/kosodate/youchien_hoiku/kodomoen/hoiku/hituyou.html",
+      "quote": "※4月入所をお考えの方は、就労証明書の証明日を9月1日以降のものにしてください。"
+    },
+    "documents.2": {
+      "url": "https://www.city.takamatsu.kagawa.jp/smph/kurashi/kosodate/youchien_hoiku/kodomoen/hoiku/h29riyou.html",
+      "quote": "例えば、保護者の経済的状況（合計所得金額等）の判定においては、転入者等の場合は、マイナンバー提供書の提出とは別に、所得課税証明書の提出が必要です。"
+    },
+    "notes.0": {
+      "url": "https://www.city.takamatsu.kagawa.jp/smph/kurashi/kosodate/youchien_hoiku/kodomoen/hoiku/h29riyou.html",
+      "quote": "・「一次選考で待機になった方」・「令和9年4月1日までに転入する方」 令和9年2月1日（月曜日）から 令和9年2月24日（水曜日）16時半まで"
+    },
+    "notes.1": {
+      "url": "https://www.city.takamatsu.kagawa.jp/smph/kurashi/kosodate/youchien_hoiku/kodomoen/hoiku/h29riyou.html",
+      "quote": "・原則、証明書類は、発行日から3か月以内のものが必要です。なお、令和9年4月入所申込手続には、令和8年9月以降に発行された証明書類が必要です。"
+    },
+    "notes.2": {
+      "url": "https://www.city.takamatsu.kagawa.jp/smph/kurashi/kosodate/youchien_hoiku/kodomoen/hoiku/h29riyou.html",
+      "quote": "・利用希望施設については、見学をしていただいて、なるべく多くの施設を希望していただいた方が、入所ができる可能性が高くなります。"
+    },
+    "notes.3": {
+      "url": "https://www.city.takamatsu.kagawa.jp/smph/kurashi/kosodate/youchien_hoiku/kodomoen/hoiku/h29riyou.html",
+      "quote": "利用内定後の辞退は、他の申請者にとって非常に迷惑となりますので、利用申請の際は、十分に御検討いただき、辞退することのないよう御注意ください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.takamatsu.kagawa.jp/smph/kurashi/kosodate/youchien_hoiku/kodomoen/hoiku/h29riyou.html",
+      "quote": "・利用調整において、同点時の優先順位の判定に必要な書類が未提出の場合は、ほかの申請者が優先されます。"
     }
   },
   "sources": [
     {
-      "label": "高松市「令和8年4月からの保育施設等の利用について」",
+      "label": "高松市「令和9年4月からの保育施設等の利用について」",
       "url": "https://www.city.takamatsu.kagawa.jp/smph/kurashi/kosodate/youchien_hoiku/kodomoen/hoiku/h29riyou.html"
+    },
+    {
+      "label": "高松市「教育・保育給付認定申請・利用申込みに必要な書類」",
+      "url": "https://www.city.takamatsu.kagawa.jp/smph/kurashi/kosodate/youchien_hoiku/kodomoen/hoiku/hituyou.html"
     }
   ]
 }

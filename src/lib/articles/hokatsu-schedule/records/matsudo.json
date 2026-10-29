@@ -1,64 +1,124 @@
 {
   "citySlug": "matsudo",
-  "checkedAt": "2026-09-19",
+  "checkedAt": "2026-10-29",
   "page": {
     "label": "松戸市「保育施設（保育所・小規模保育施設・認定こども園）の利用案内」",
     "url": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuusho_annai.html"
   },
-  "fiscalYear": "R8",
-  "firstApply": "窓口及び郵送：令和7年11月28日（金曜）必着。マイナポータル：令和7年11月30日（日曜）。不備・不足書類提出期間は令和7年12月1日（月曜）から12月7日（金曜）まで",
-  "applyMethods": "保育課窓口、郵送（松戸市役所保育課　入所入園担当室）、またはマイナポータルを利用した電子申請。郵送の場合は〒271-8588 松戸市根本387番地の5松戸市役所保育課入所入園担当室に必着",
+  "fiscalYear": "R9",
+  "firstApply": "窓口・郵送（締切日必着、事前のオンライン申請が必要）、マイナポータルの電子申請ともに令和8年11月30日（月曜）締切。不備・不足書類提出期間は令和8年12月1日（火曜）から12月7日（月曜）まで",
+  "applyMethods": "原則マイナポータルを利用した電子申請。窓口・郵送も受け付けるが、松戸市オンライン申請システムで事前申請して取得した申込番号を申込書に書いて保育課窓口に持参するか郵送する。窓口受付は平日9時から16時30分まで",
+  "firstResult": "第1次利用調整の結果を郵送で通知（内定は利用承諾の通知、保留は保留通知）。3・4月入所の入所保留通知書は2月上旬",
+  "midYearDeadline": "原則として入所希望月の前々月末日。1月から4月入所の締切は前年11月末日",
   "documents": [
-    "様式1号～5号をマイナポータルから直接入力して申請、またはダウンロード提出",
-    "保育が必要であることを証する書類（就労証明書等）",
-    "通知カード及び顔写真付の身分証（マイナンバーカード、運転免許証等）のコピー"
+    "マイナンバー等の写し（番号確認書類及び身元確認書類）",
+    "教育・保育給付認定申請書兼利用申込書（様式1）。窓口・郵送の場合は申込番号が必要",
+    "家庭状況調査票（様式2）、児童の健康状況申告書（様式3）",
+    "就労証明書（月あたり実働64時間以上）。有効期間は入所希望月から遡って原則6か月",
+    "自営業の方は就労証明書とともに、自営業を営んでいることを証明する書類（確定申告書・開業届等の写しなど）"
   ],
+  "interview": "入所（園）前に内定した保育所（園）で面談や説明会を行う場合がある",
+  "ikukyu": "育児休業給付金の受給期間延長には市が発行する入所保留通知書が必要で、入所希望月の締切日までに申込みが無いとその月の通知書は発行できない。延長手続きには利用申込書（様式1）の写しも要るので、提出前にコピーを取る",
   "notes": [
-    "年度ごとに申込案内は異なる。次年度も申込みを継続する場合は再申込みが必要",
-    "令和9年4月　医療的ケア児・障害児向けの先行受付は別途案内あり",
-    "窓口及び郵送での申込みは松戸市オンライン申請システムからの事前申請が必要",
-    "兄弟姉妹児同時申込みの場合は児童ごとに申請書の提出が必要"
+    "第2次利用調整は第1次利用調整で保留になった方のみが対象。4月利用申込み締め切り後の提出は5月からの利用調整になる",
+    "不備・不足書類提出期間を過ぎての追加書類の提出は受け付けない",
+    "令和9年4月の申込みに限り出生前の申込みを受け付け、令和9年2月3日までの出生予定の児童が対象",
+    "利用承諾後に内定を辞退すると、以降1年間マイナス40点の減点対象になる",
+    "令和9年1月からの到着分の郵送先は松戸市松戸1307番地1の松戸市役所保育課入所入園担当室",
+    "令和9年4月の医療的ケア児・障害児の先行申込みは受付が終了している"
   ],
   "evidence": {
     "fiscalYear": {
       "url": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuusho_annai.html",
-      "quote": "令和8年度松戸市保育所（園）等利用案内"
+      "quote": "令和9年度の申込受付を開始しています。"
     },
     "firstApply": {
       "url": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuusho_annai.html",
-      "quote": "令和8年4月 令和7年11月28日（金曜）不備・不足書類提出期間　令和7年12月1日（月曜）から12月7日（金曜）まで令和7年11月30日（日曜）不備・不足書類提出期間　令和7年12月1日（月曜）から12月7日（金曜）まで"
+      "quote": "令和9年4月令和8年11月30日（月曜）不備・不足書類提出期間　令和8年12月1日（火曜）から12月7日（月曜）まで"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuusho_annai.html",
+      "quote": "窓口及び郵送での申込みの場合、締切日必着となります。締切日を過ぎて到着した場合は翌月以降の選考となります。"
     },
     "applyMethods": {
-      "url": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuusho_annai.html",
-      "quote": "郵送の場合は、下記住所に送付してください（必着）。〒271-8588 松戸市根本387番地の5 松戸市役所 保育課　入所入園担当室"
+      "url": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuusho_annai.files/R9moushikomiannai.pdf",
+      "quote": "窓口及び郵送による申込みも受付いたしますが、その場合でも松戸市オンライン申請システムからの事前申請（基本情報等の簡易な申請）が必要となります。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuusho_annai.files/R9moushikomiannai.pdf",
+      "quote": "※原則、マイナポータルを利用した電子申請による申込みとします。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuusho_annai.files/R9moushikomiannai.pdf",
+      "quote": "※窓口受付は平日９時から１６時３０分までです。"
+    },
+    "firstResult": {
+      "url": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuusho_annai.files/R9moushikomiannai.pdf",
+      "quote": "・利用調整結果を郵送にて通知します。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuusho_annai.files/R9moushikomiannai.pdf",
+      "quote": "（３、４月入所の方については２月上旬となります。）"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuusho_annai.files/R9moushikomiannai.pdf",
+      "quote": "各月の申込締切日については原則入所（園）希望月の前々月末日となりますが、１月から４月の申込締切日については前年１１月末日となっております。"
     },
     "documents.0": {
-      "url": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuusho_annai.html",
-      "quote": "マイナポータルを利用した電子申請の場合、様式1号～5号まではマイナポータルから直接入力することで申請ができますが、その他必要な書類については、保育所（園）各種申請書からダウンロードして添付してください。"
+      "url": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuusho_annai.files/R9moushikomiannai.pdf",
+      "quote": "① マイナンバー等の写し（番号確認書類及び身元確認書類）※６ページ参照"
     },
-    "documents.1": {
-      "url": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuusho_annai.html",
-      "quote": "必要書類及びお手続等については、就労先またはハローワークへお問い合わせください。"
+    "interview": {
+      "url": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuusho_annai.files/R9moushikomiannai.pdf",
+      "quote": "・入所（園）前に内定した保育所（園）で面談や説明会を行う場合がございます。"
     },
-    "documents.2": {
-      "url": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuusho_annai.html",
-      "quote": "個人番号（マイナンバー）の記載が必要となります。申込の際には、通知カード及び顔写真付の身分証（マイナンバーカード、運転免許証、パスポート等）のコピーを添付してください。"
+    "ikukyu": {
+      "url": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuusho_annai.files/R9moushikomiannai.pdf",
+      "quote": "いかなる理由がある場合も入所（園）希望月の締切日までに申込みがない場合は、当該月についての入所保留通知書を発行することはできません。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuusho_annai.files/R9moushikomiannai.pdf",
+      "quote": "申込書類をご提出される前にコピーをお取りいただくようお願いします。"
     },
     "notes.0": {
-      "url": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuusho_annai.html",
-      "quote": "年度ごとに申込案内は異なります。次年度も申込みを継続する場合は再申込みが必要です。"
+      "url": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuusho_annai.files/R9moushikomiannai.pdf",
+      "quote": "令和９年４月については、２回の利用調整を行いますが、第２次利用調整は第１次利用調整で保留になった方のみが対象です。"
     },
     "notes.1": {
-      "url": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuusho_annai.html",
-      "quote": "医療的ケア児・障害児の4月申込みは、別途案内がございますのでホームページをご確認ください。"
+      "url": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuusho_annai.files/R9moushikomiannai.pdf",
+      "quote": "この期間を過ぎての追加書類の提出は、受付いたしません。"
     },
     "notes.2": {
       "url": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuusho_annai.html",
-      "quote": "窓口及び郵送での申込みの場合、松戸市オンライン申請システムからの事前申請が必要となります。"
+      "quote": "令和9年4月の申込みに限り、出生前の申込みを受付します。"
     },
     "notes.3": {
+      "url": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuusho_annai.files/R9moushikomiannai.pdf",
+      "quote": "・利用承諾後に内定を辞退した場合、選考基準上、以降１年間の減点対象（マイナス４０点）となります。"
+    },
+    "notes.4": {
       "url": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuusho_annai.html",
-      "quote": "保育所（園）等の利用申込については利用希望児童ごとに申請書の提出が必要です。"
+      "quote": "（令和9年1月からの到着）〒271-8588松戸市松戸1307番地1"
+    },
+    "notes.5": {
+      "url": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuusho_annai.html",
+      "quote": "令和9年4月医療的ケア児・障害児の先行申込みは受付が終了しております。"
+    },
+    "documents.1": {
+      "url": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuusho_annai.files/R9moushikomiannai.pdf",
+      "quote": "② 施設型給付・地域型保育給付費等 教育・保育給付認定申請書 兼 利用申込書 ＜様式１＞ ※窓口・郵送の場合「申込番号」が必要です。"
+    },
+    "documents.2": {
+      "url": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuusho_annai.files/R9moushikomiannai.pdf",
+      "quote": "③ 家庭状況調査票 ＜様式２＞ ④ 児童の健康状況申告書 ＜様式３＞"
+    },
+    "documents.3": {
+      "url": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuusho_annai.files/R9moushikomiannai.pdf",
+      "quote": "※本証明書の有効期間は入所希望月から遡って原則６か月です。"
+    },
+    "documents.4": {
+      "url": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuusho_annai.files/R9moushikomiannai.pdf",
+      "quote": "※自営業の方は、就労証明書とともに、自営業を営んでいることを証"
     }
   },
   "sources": [
@@ -67,8 +127,8 @@
       "url": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuusho_annai.html"
     },
     {
-      "label": "松戸市「令和9年4月　医療的ケア児・障害児の保育施設の利用案内」",
-      "url": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuusho_annai_ikea.html"
+      "label": "松戸市「令和9年度 松戸市保育所（園）等利用申込案内」（PDF）",
+      "url": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuusho_annai.files/R9moushikomiannai.pdf"
     }
   ]
 }

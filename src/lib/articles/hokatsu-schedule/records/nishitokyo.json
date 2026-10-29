@@ -1,104 +1,185 @@
 {
   "citySlug": "nishitokyo",
-  "checkedAt": "2026-09-18",
+  "checkedAt": "2026-10-29",
   "page": {
-    "label": "西東京市「令和8年度 保育園等入園申込み等書類について」",
-    "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R8hoikuennnyuuennmousikomi.html"
+    "label": "西東京市「令和9年度 保育園等入園申込み等書類について」",
+    "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R9hoikuennyuuennmousikomi.html"
   },
-  "fiscalYear": "R8",
-  "guideRelease": "令和7年10月20日（月）から郵送受付開始",
-  "firstApply": "窓口受付は令和7年10月31日（金）から令和7年11月14日（金）まで",
-  "applyMethods": "郵送、窓口（田無第二庁舎2階2番窓口）、電子申請",
-  "firstResult": "令和8年2月上旬（予定）に文書にて結果を通知",
-  "secondApply": "令和7年11月17日（月）から令和8年2月13日（金）まで",
-  "secondResult": "3月中旬（予定）に内定者及び二次新規申込者に文書で通知",
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年10月9日（金）から配布（防災センター・保谷保健福祉総合センター1階警備室前は11月13日まで）",
+  "firstApply": "令和8年11月2日（月）から令和8年11月13日（金）まで。郵送・電子申請に限り令和8年10月19日（月）から受付（郵送は受付期間内の消印有効、電子は午後8時送信完了分まで）",
+  "applyMethods": "原則郵送または電子申請。窓口は田無庁舎幼児教育・保育課窓口（田無第二庁舎2階2番窓口）",
+  "firstResult": "令和9年2月上旬（予定）に文書で通知",
+  "secondApply": "令和8年11月16日（月）から令和9年2月12日（金）まで",
+  "secondResult": "3月中旬（予定）に内定者及び二次新規申込者のみ文書で通知",
+  "midYearDeadline": "5月入所以降は原則、入所月の前月の10日（10日が閉庁日の場合は直前の開庁日。2月入所の締切は1月入所と同じ）",
   "documents": [
-    "教育・保育給付認定申請書兼保育利用申込書（書式①）",
-    "確認票（書式②）、就労要件確認票（書式②-２）（就労要件の方のみ）、児童状況調査票（書式③）",
-    "保育が必要であることを証する書類（就労証明書等。事由により異なる。証明日から2か月以内のもの）",
+    "認定申請書兼利用申込書（申込児童1人につき1枚）【書式1】",
+    "確認票【書式2】、就労要件確認票【書式2-2】（就労要件の方のみ）",
+    "児童状況調査票（申込児童1人につき1枚）【書式3】",
+    "保育が必要なことを確認できる書類（保護者の人数分。18歳以上65歳未満の同居人がいる場合は全員分。証明日（発行日）から2か月以内のもの）",
+    "同居者の世帯が別である場合は、そのことが分かる書類",
     "保護者の本人確認書類（公的に氏名、生年月日、住所が確認できるもの）の写し"
   ],
-  "interview": "利用開始前に保育所等で面接を実施。面接前に医療機関にて健康診断を受診し、入園時健康意見書を提出",
+  "interview": "内定者は利用開始前に保育所等で面接。面接の前に医療機関で健康診断を受診し、「入園時健康意見書」を面接時に保育所等へ提出",
+  "ikukyu": "「希望する保育所等に入所できない場合は、育児休業の延長も許容できる」を選択した場合は世帯の指数を適用しない。育児休業給付金の支給期間を延長する可能性がある方は提出前に申込書の写しを取る（電子申請は送信完了メールが写しの代わり）",
   "notes": [
-    "４月利用開始の申込みに限り、出生前の申込みが可能",
-    "希望園を選ぶにあたって見学することをお勧めしています",
-    "育児休業給付金の支給期間を延長する場合は、当市へ提出前に必ず保育所等の利用申込書の写しを取っておいてください",
-    "保護者及び18歳以上65歳未満の同居人がいる場合は全員分の確認書類が必要"
+    "令和9年2月3日までに出産予定の方は出生予定として申請が可能（4月利用開始の申込みに限る）",
+    "令和8年度の入園（転園）申込みをしている方も、令和9年4月からの入園を希望する場合は再度申込みが必要",
+    "希望園を選ぶにあたって見学することを勧めている",
+    "マイナンバーカードは電子申請では添付不可（添付された申請は無効）",
+    "郵送の場合は110円切手を貼付した返信用封筒1枚（長3定形）を同封"
   ],
   "evidence": {
     "fiscalYear": {
-      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R8nyuuenschedule.html",
-      "quote": "令和8年度保育園等入園申込みの日程や申込み方法についてお知らせします。"
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R9nyuuenschedule.html",
+      "quote": "令和9年4月入所の申請について、混雑緩和のため、原則郵送または電子申請をお願いいたします。"
     },
     "guideRelease": {
-      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R8hoikuennnyuuennmousikomi.files/R8nyuusyoannai.pdf",
-      "quote": "郵送受付開始 令和７年10月20日（月）"
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R9hoikuennyuuennmousikomi.html",
+      "quote": "※防災センター・保谷保健福祉総合センター1階　警備室前については、令和8年10月9日（金曜日）から11月13日（金曜日）までの期間のみ配布となります。"
     },
     "firstApply": {
-      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R8hoikuennnyuuennmousikomi.files/R8nyuusyoannai.pdf",
-      "quote": "10月31日（金）～11月14日（金）"
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R9hoikuennyuuennmousikomi.files/R9nyuusyoannai.pdf",
+      "quote": "４月一次 令和 ８ 年 １１ 月 ２ 日 （月） ～ 令和 ８ 年 １１ 月 １３ 日 （金）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R9hoikuennyuuennmousikomi.files/R9nyuusyoannai.pdf",
+      "quote": "郵送・電子申請での申請受付に限り、令和8年10月19日（月）から受付を開始いたします。"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R9hoikuennyuuennmousikomi.files/R9nyuusyoannai.pdf",
+      "quote": "転入予定なしの場合を除き、受付期間内の消印有効です。"
+    },
+    "firstApply#4": {
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R9nyuuenschedule.html",
+      "quote": "電子：午後8時送信完了分"
     },
     "applyMethods": {
-      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R8hoikuennnyuuennmousikomi.html",
-      "quote": "原則郵送か電子申請でお申込みください。"
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R9nyuuenschedule.html",
+      "quote": "窓口混雑を避けるため、原則郵送・電子申請をお願いします。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R9hoikuennyuuennmousikomi.html",
+      "quote": "田無庁舎幼児教育・保育課窓口（田無第二庁舎2階2番窓口）"
     },
     "firstResult": {
-      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R8hoikuennnyuuennmousikomi.files/R8nyuusyoannai.pdf",
-      "quote": "令和８年2月上旬（予定） 結果発表"
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R9hoikuennyuuennmousikomi.files/R9nyuusyoannai.pdf",
+      "quote": "令和９年2月上旬（予定） 結果発表（文書にて通知します）"
     },
     "secondApply": {
-      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R8hoikuennnyuuennmousikomi.files/R8nyuusyoannai.pdf",
-      "quote": "令和7年11月17日（月） 受付開始 令和8年 2月13日（金） 申込み締め切り（二次）"
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R9hoikuennyuuennmousikomi.files/R9nyuusyoannai.pdf",
+      "quote": "４月二次 令和 ８ 年 １１ 月 １６ 日 （月） ～ 令和 ９ 年 ２ 月 １２ 日 （金）"
     },
     "secondResult": {
-      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R8hoikuennnyuuennmousikomi.files/R8nyuusyoannai.pdf",
-      "quote": "3月中旬（予定）"
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R9hoikuennyuuennmousikomi.files/R9nyuusyoannai.pdf",
+      "quote": "（内定者及び二次新規申込者のみ文書で通知します）"
+    },
+    "secondResult#2": {
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R9hoikuennyuuennmousikomi.files/R9nyuusyoannai.pdf",
+      "quote": "結果発表 3月中旬（予定）"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R9hoikuennyuuennmousikomi.files/R9nyuusyoannai.pdf",
+      "quote": "※ ５月入所以降の締め切りは原則、入所月の前月の10日となっております。"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R9hoikuennyuuennmousikomi.files/R9nyuusyoannai.pdf",
+      "quote": "ただし、10日が閉庁日にあたる場合、締め切りは直前の開庁日になります。"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R9hoikuennyuuennmousikomi.files/R9nyuusyoannai.pdf",
+      "quote": "※ ２月入所の締め切りが１月と同じになりますのでご注意ください。"
     },
     "documents.0": {
-      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R8hoikuennnyuuennmousikomi.files/R8nyuusyoannai.pdf",
-      "quote": "教育・保育給付認定申請書兼保育利用申込書【書式①】"
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R9hoikuennyuuennmousikomi.html",
+      "quote": "認定申請書兼利用申込書（申込児童1人につき1枚）【書式1】"
     },
     "documents.1": {
-      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R8hoikuennnyuuennmousikomi.files/R8nyuusyoannai.pdf",
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R9hoikuennyuuennmousikomi.files/R9nyuusyoannai.pdf",
       "quote": "確認票【書式②】就労要件確認票【書式②-２】"
     },
+    "documents.1#2": {
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R9hoikuennyuuennmousikomi.html",
+      "quote": "就労要件確認票（就労要件の保護者につき1枚）【書式2-2】"
+    },
     "documents.2": {
-      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R8hoikuennnyuuennmousikomi.files/R8nyuusyoannai.pdf",
-      "quote": "※各証明書類の提出の際は、証明日（発行日）から２か月以内のものをご使用ください。"
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R9hoikuennyuuennmousikomi.html",
+      "quote": "児童状況調査票（申込児童1人につき1枚）【書式3】"
     },
     "documents.3": {
-      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R8hoikuennnyuuennmousikomi.html",
-      "quote": "本人確認書類"
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R9hoikuennyuuennmousikomi.html",
+      "quote": "保育が必要なことを確認できる書類（保護者の人数分必要です。また、18歳以上65歳未満の同居人がいる場合は保護者同様に全員分の確認書類が必要）"
+    },
+    "documents.3#2": {
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R9hoikuennyuuennmousikomi.files/R9nyuusyoannai.pdf",
+      "quote": "※各証明書類の提出の際は、証明日（発行日）から２か月以内のものをご使用ください。"
+    },
+    "documents.4": {
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R9hoikuennyuuennmousikomi.html",
+      "quote": "同居者の世帯が別である場合は、そのことが分かる書類"
+    },
+    "documents.5": {
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R9hoikuennyuuennmousikomi.html",
+      "quote": "本人確認書類（公的に氏名、生年月日、住所が確認できるもの）の写しを必ず添付してください。"
     },
     "interview": {
-      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R8hoikuennnyuuennmousikomi.files/R8nyuusyoannai.pdf",
-      "quote": "利用開始前に保育所等で面接をしていただきます。"
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R9hoikuennyuuennmousikomi.files/R9nyuusyoannai.pdf",
+      "quote": "者は利用開始前に保育所等で面接をしていただきます。"
+    },
+    "interview#2": {
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R9hoikuennyuuennmousikomi.files/R9nyuusyoannai.pdf",
+      "quote": "面接の前に医療機関にて、健康診断を受診していただき受診後、「入園時健康意見書」の必要事項"
+    },
+    "ikukyu": {
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R9hoikuennyuuennmousikomi.files/R9nyuusyoannai.pdf",
+      "quote": "「希望する保育所等に入所できない場合は、育児休業の延長も許容できる」を選択した場合は、当該世帯の指数を適用しない"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R9hoikuennyuuennmousikomi.html",
+      "quote": "育児休業給付金の支給期間を延長する可能性がある方は当市へ提出前に必ず写しを取っておいてください。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R9hoikuennyuuennmousikomi.html",
+      "quote": "※電子申請の場合は、送信完了メールが、「保育所等の利用申し込みを行ったときの申込書の写し」の代わりとなりますので、大切に保管してください。"
     },
     "notes.0": {
-      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R8hoikuennnyuuennmousikomi.files/R8nyuusyoannai.pdf",
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R9nyuuenschedule.html",
+      "quote": "令和9年2月3日までに出産予定の方は、出生予定として申請が可能です。"
+    },
+    "notes.0#2": {
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R9hoikuennyuuennmousikomi.files/R9nyuusyoannai.pdf",
       "quote": "４月利用開始の申込みに限り、出生前の申込みが可能です。"
     },
     "notes.1": {
-      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R8hoikuennnyuuennmousikomi.files/R8nyuusyoannai.pdf",
-      "quote": "希望園を選ぶにあたって見学することをお勧めしています。"
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R9nyuuenschedule.html",
+      "quote": "令和8年度の入園（転園）申込みをしている方も、令和9年4月からの入園をご希望の場合は、必ず再度申込みをしてください。"
     },
     "notes.2": {
-      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R8hoikuennnyuuennmousikomi.html",
-      "quote": "育児休業給付金の支給期間を延長する可能性がある方は当市へ提出前に必ず写しを取っておいてください。"
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R9hoikuennyuuennmousikomi.files/R9nyuusyoannai.pdf",
+      "quote": "希望園を選ぶにあたって見学することをお勧めしています。"
     },
     "notes.3": {
-      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R8hoikuennnyuuennmousikomi.html",
-      "quote": "同居人がいる場合は保護者同様に全員分の確認書類が必要"
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R9hoikuennyuuennmousikomi.html",
+      "quote": "マイナンバーカードは電子申請では添付不可となります。添付された申請は無効とします。"
+    },
+    "notes.4": {
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R9hoikuennyuuennmousikomi.html",
+      "quote": "受付が完了しましたら受付確認の控えを送付いたしますので、110円切手を貼付した返信用封筒1枚（長3定形）を同封してください。"
     }
   },
   "sources": [
     {
-      "label": "西東京市「令和8年度 保育園等入園申込み等書類について」",
-      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R8hoikuennnyuuennmousikomi.html"
+      "label": "西東京市「令和9年度 保育園等入園申込み等書類について」",
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R9hoikuennyuuennmousikomi.html"
     },
     {
-      "label": "令和８年度 西東京市 保育施設 入園のご案内（PDF）",
-      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R8hoikuennnyuuennmousikomi.files/R8nyuusyoannai.pdf"
+      "label": "西東京市「令和9年度 保育園等入園申込スケジュール」",
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R9nyuuenschedule.html"
+    },
+    {
+      "label": "令和9年度 西東京市 入園のご案内（PDF）",
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R9hoikuennyuuennmousikomi.files/R9nyuusyoannai.pdf"
     }
   ]
 }

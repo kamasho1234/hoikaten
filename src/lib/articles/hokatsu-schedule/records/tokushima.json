@@ -1,93 +1,134 @@
 {
   "citySlug": "tokushima",
-  "checkedAt": "2026-09-18",
+  "checkedAt": "2026-10-29",
   "page": {
-    "label": "徳島市「令和8年度　保育所・認定こども園等（2・3号認定）の利用申込」",
-    "url": "https://www.city.tokushima.tokushima.jp/smph/kosodate/youchien_hoikujo/hoikusho_n-kodomoen/R08_hoiku_moushikomi.html"
+    "label": "徳島市「令和9年度　保育所・認定こども園等（2・3号認定）の利用申込」",
+    "url": "https://www.city.tokushima.tokushima.jp/smph/kosodate/youchien_hoikujo/hoikusho_n-kodomoen/R09_hoiku_moushikomi.html"
   },
-  "fiscalYear": "R8",
-  "firstApply": "令和7年10月20日（月曜日）から11月6日（木曜日）",
-  "applyMethods": "子ども保育課で申し込み（要予約。予約期間は10月16日（木曜日）から11月6日（木曜日）。予約方法は電話（088-621-5193・5292）または子ども保育課窓口）。電子申請でも申し込めるが、その後に子ども保育課での面接と書類提出が必要",
-  "secondApply": "令和7年11月7日（金曜日）から令和8年2月13日（金曜日）",
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年10月16日から窓口・施設で申込に必要な書類の配布開始",
+  "firstApply": "令和8年10月20日（火曜日）から11月5日（木曜日）",
+  "applyMethods": "第1希望施設または子ども保育課で申し込み。子ども保育課での申込受付は要予約（予約期間は10月16日（金曜日）から11月5日（木曜日）。予約方法は電話（088-621-5193・5292）または子ども保育課窓口）。電子申請でも申し込めるが、申込期間内に子ども保育課での面接と書類提出が必要",
+  "firstResult": "令和9年2月2日（火曜）発送予定",
+  "secondApply": "令和8年11月6日（金曜日）から令和9年2月15日（月曜日）",
+  "secondResult": "令和9年3月5日（金曜）発送予定",
+  "midYearDeadline": "令和9年6月以降の入所は利用希望月の前月15日まで（15日が土曜・日曜・祝日の場合は、その直近の開庁日まで）",
   "documents": [
-    "教育・保育給付認定申請書 兼 利用申込書",
-    "児童状況届",
+    "教育・保育給付認定申請書 兼 利用申込書（申請児童1人につき1部）",
+    "児童状況届（申請児童1人につき1部）",
     "個人番号提供書（世帯員全員のマイナンバーを記入）",
-    "保育の必要性認定のための書類（就労証明書等。事由により異なり、就労の場合は証明日が直近3箇月以内のもの）"
+    "保育の必要性の認定のための書類（就労の場合は就労証明書。証明日が直近3箇月以内のもの、育休明けの場合は「育児休業」欄・「復職（予定）年月日」欄への記載が必要）"
   ],
-  "interview": "1次申込は申込と同時に実施（申込児童と一緒に来ること）。別日に第1希望施設で実施（11月下旬から実施）。2次申込は申込と同時に実施",
+  "interview": "子ども保育課で1次申込・2次申込をする場合は申込と同時に面接を実施（申込児童と一緒に来ること）。第1希望施設で1次申込をする場合は申込とは別日に第1希望施設で実施（11月下旬から実施）",
   "notes": [
-    "複数の希望施設を記入することで、利用調整時に加点対象となる（利用可能な施設が複数ある場合は原則3つ以上の記入が勧められている）",
-    "電子申請をした場合は、電話等により子ども保育課へ連絡し、面接の予約等を行う必要があり、面接時に必要書類を持参すること",
-    "保育所等の利用決定後に自己都合で入所辞退された場合は、以後の利用調整において減点の対象となる",
-    "市外施設の利用を希望する場合は別途広域利用の手続きが必要"
+    "利用可能な施設が複数ある場合は、複数施設（原則3つ以上）を希望すると利用調整で大きな加点対象となる",
+    "利用決定後に自己都合で入所辞退した場合は、以後の利用調整で減点の対象となる",
+    "電子申請のみでは申込は完結せず、申込期間内に面接と必要書類の提出を完了しないと電子申請は無効として扱われる",
+    "4月入所の利用申込について、市外居住者分は申込日にかかわらず2次申込分として利用調整される",
+    "徳島市へ転入予定の場合は、利用希望月の1日までに住民票を異動することが条件"
   ],
   "evidence": {
     "fiscalYear": {
-      "url": "https://www.city.tokushima.tokushima.jp/smph/kosodate/youchien_hoikujo/hoikusho_n-kodomoen/R08_hoiku_moushikomi.html",
-      "quote": "このページは、令和8年度　保育所・認定こども園等（2・3号認定）の利用申込に関する情報を掲載しています。"
+      "url": "https://www.city.tokushima.tokushima.jp/smph/kosodate/youchien_hoikujo/hoikusho_n-kodomoen/R09_hoiku_moushikomi.html",
+      "quote": "このページは、令和9年度　保育所・認定こども園等（2・3号認定）の利用申込に関する情報を掲載しています。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.tokushima.tokushima.jp/smph/kosodate/youchien_hoikujo/hoikusho_n-kodomoen/R09_hoiku_moushikomi.html",
+      "quote": "申込に必要なもの（令和8年10月16日から窓口・施設配布開始）"
     },
     "firstApply": {
-      "url": "https://www.city.tokushima.tokushima.jp/smph/kosodate/youchien_hoikujo/hoikusho_n-kodomoen/R08_hoiku_moushikomi.html",
-      "quote": "1次申込　令和7年10月20日(月曜日）から11月6日（木曜日）"
+      "url": "https://www.city.tokushima.tokushima.jp/smph/kosodate/youchien_hoikujo/hoikusho_n-kodomoen/R09_hoiku_moushikomi.html",
+      "quote": "1次申込　令和8年10月20日(火曜日）から11月5日（木曜日）"
     },
     "applyMethods": {
-      "url": "https://www.city.tokushima.tokushima.jp/smph/kosodate/youchien_hoikujo/hoikusho_n-kodomoen/R08_hoiku_moushikomi.html",
-      "quote": "子ども保育課での申込受付には、予約が必要です。（予約は先着順）　予約方法：電話（088-621-5193・5292）または、子ども保育課窓口にて予約　予約期間：10月16日（木曜日）から11月6日（木曜日）午前9時から午後5時まで（土曜、日曜、祝日除く）"
+      "url": "https://www.city.tokushima.tokushima.jp/smph/kosodate/youchien_hoikujo/hoikusho_n-kodomoen/R09_hoiku_moushikomi.html",
+      "quote": "注記：子ども保育課での申込受付には、予約が必要です。（予約は先着順）"
     },
     "applyMethods#2": {
-      "url": "https://www.city.tokushima.tokushima.jp/smph/kosodate/youchien_hoikujo/hoikusho_n-kodomoen/R08_hoiku_moushikomi.html",
-      "quote": "令和8年度　保育所・認定こども園等（2・3号認定）の利用申込は、電子申請でも行うことができます。"
+      "url": "https://www.city.tokushima.tokushima.jp/smph/kosodate/youchien_hoikujo/hoikusho_n-kodomoen/R09_hoiku_moushikomi.html",
+      "quote": "予約期間：10月16日（金曜日）から11月5日（木曜日）午前9時から午後5時まで（土曜、日曜、祝日除く）"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.tokushima.tokushima.jp/smph/kosodate/youchien_hoikujo/hoikusho_n-kodomoen/R09_hoiku_moushikomi.html",
+      "quote": "予約方法：電話（088-621-5193・5292）または、子ども保育課窓口にて予約"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.tokushima.tokushima.jp/smph/kosodate/youchien_hoikujo/hoikusho_n-kodomoen/R09_hoiku_moushikomi.html",
+      "quote": "令和9年度　保育所・認定こども園等（2・3号認定）の利用申込は、電子申請でも行うことができます。"
+    },
+    "applyMethods#5": {
+      "url": "https://www.city.tokushima.tokushima.jp/smph/kosodate/youchien_hoikujo/hoikusho_n-kodomoen/R09_hoiku_moushikomi.html",
+      "quote": "申込の完了には、「申込児童の面接」と「申込に必要な書類（＝児童状況届、個人番号提供書、就労証明書 等）の提出」が必要となります。"
+    },
+    "applyMethods#6": {
+      "url": "https://www.city.tokushima.tokushima.jp/smph/kosodate/youchien_hoikujo/hoikusho_n-kodomoen/R09_hoiku_moushikomi.html",
+      "quote": "申込の際は、次の「利用申込のてびき」を十分にご確認のうえ、「利用申込書」・「児童状況届」・「個人番号提供書」・「保育の必要性認定の書類（家庭で保育できないことを証明する書類）」を、受付期間内に受付場所へ提出してください。"
+    },
+    "firstResult": {
+      "url": "https://www.city.tokushima.tokushima.jp/smph/kosodate/youchien_hoikujo/hoikusho_n-kodomoen/R09_hoiku_moushikomi.html",
+      "quote": "令和9年2月2日（火曜） 発送予定"
     },
     "secondApply": {
-      "url": "https://www.city.tokushima.tokushima.jp/smph/kosodate/youchien_hoikujo/hoikusho_n-kodomoen/R08_hoiku_moushikomi.html",
-      "quote": "2次申込　令和7年11月7日（金曜日）から令和8年2月13日（金曜日）"
+      "url": "https://www.city.tokushima.tokushima.jp/smph/kosodate/youchien_hoikujo/hoikusho_n-kodomoen/R09_hoiku_moushikomi.html",
+      "quote": "2次申込　令和8年11月6日（金曜日）から令和9年2月15日（月曜日）"
+    },
+    "secondResult": {
+      "url": "https://www.city.tokushima.tokushima.jp/smph/kosodate/youchien_hoikujo/hoikusho_n-kodomoen/R09_hoiku_moushikomi.html",
+      "quote": "令和9年3月5日（金曜） 発送予定"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.tokushima.tokushima.jp/smph/kosodate/youchien_hoikujo/hoikusho_n-kodomoen/R09_hoiku_moushikomi.html",
+      "quote": "利用希望月の前月15日まで（15日が土曜・日曜・祝日の場合は、その直近の開庁日まで）"
     },
     "documents.0": {
-      "url": "https://www.city.tokushima.tokushima.jp/smph/kosodate/youchien_hoikujo/hoikusho_n-kodomoen/R08_hoiku_moushikomi.html",
-      "quote": "「利用申込書」・「児童状況届」・「個人番号提供書」・「保育の必要性認定の書類（家庭で保育できないことを証明する書類）」を、受付期間内に受付場所へ提出してください。"
+      "url": "https://www.city.tokushima.tokushima.jp/smph/kosodate/youchien_hoikujo/hoikusho_n-kodomoen/R09_hoiku_moushikomi.html",
+      "quote": "教育・保育給付認定申請書 兼 利用申込書（エクセル：98KB） 申請児童1人につき1部必要です。"
     },
     "documents.1": {
-      "url": "https://www.city.tokushima.tokushima.jp/smph/kosodate/youchien_hoikujo/hoikusho_n-kodomoen/R08_hoiku_moushikomi.html",
-      "quote": "「利用申込書」・「児童状況届」・「個人番号提供書」・「保育の必要性認定の書類"
+      "url": "https://www.city.tokushima.tokushima.jp/smph/kosodate/youchien_hoikujo/hoikusho_n-kodomoen/R09_hoiku_moushikomi.html",
+      "quote": "申請児童1人につき1部必要です。記入例は、こちら（PDF形式：596KB）をご覧ください。"
     },
     "documents.2": {
-      "url": "https://www.city.tokushima.tokushima.jp/smph/kosodate/youchien_hoikujo/hoikusho_n-kodomoen/R08_hoiku_moushikomi.html",
-      "quote": "「利用申込書」・「児童状況届」・「個人番号提供書」・「保育の必要性認定の書類"
+      "url": "https://www.city.tokushima.tokushima.jp/smph/kosodate/youchien_hoikujo/hoikusho_n-kodomoen/R09_hoiku_moushikomi.html",
+      "quote": "世帯員全員のマイナンバーを記入してください。"
     },
     "documents.3": {
-      "url": "https://www.city.tokushima.tokushima.jp/smph/kosodate/youchien_hoikujo/hoikusho_n-kodomoen/R08_hoiku_moushikomi.html",
-      "quote": "保育の必要性の認定のための書類（家庭で保育ができないことを証明する書類）"
+      "url": "https://www.city.tokushima.tokushima.jp/smph/kosodate/youchien_hoikujo/hoikusho_n-kodomoen/R09_hoiku_moushikomi.html",
+      "quote": "（証明日が直近3箇月以内のもの　育休明けの場合は「育児休業」欄、「復職（予定）年月日」欄ヘの記載が必要）"
     },
     "interview": {
-      "url": "https://www.city.tokushima.tokushima.jp/smph/kosodate/youchien_hoikujo/hoikusho_n-kodomoen/R08_hoiku_moushikomi.html",
-      "quote": "申込と同時に実施（必ず申込児童と一緒にお越しください）"
+      "url": "https://www.city.tokushima.tokushima.jp/smph/kosodate/youchien_hoikujo/hoikusho_n-kodomoen/R09_hoiku_moushikomi.html",
+      "quote": "申込と同時に実施 （必ず申込児童と一緒にお越しください）"
     },
     "interview#2": {
-      "url": "https://www.city.tokushima.tokushima.jp/smph/kosodate/youchien_hoikujo/hoikusho_n-kodomoen/R08_hoiku_moushikomi.html",
-      "quote": "申込とは別日に第1希望施設で実施（11月下旬から実施）"
+      "url": "https://www.city.tokushima.tokushima.jp/smph/kosodate/youchien_hoikujo/hoikusho_n-kodomoen/R09_hoiku_moushikomi.html",
+      "quote": "申込とは別日に第1希望施設で実施 （11月下旬から実施）"
     },
     "notes.0": {
-      "url": "https://www.city.tokushima.tokushima.jp/smph/kosodate/youchien_hoikujo/hoikusho_n-kodomoen/R08_hoiku_moushikomi.html",
+      "url": "https://www.city.tokushima.tokushima.jp/smph/kosodate/youchien_hoikujo/hoikusho_n-kodomoen/R09_hoiku_moushikomi.html",
       "quote": "利用可能な施設が複数ある場合は、複数施設（原則3つ以上）をご希望いただくと、利用調整（入所選考）を行う上で、大きな加点対象となります。"
     },
     "notes.1": {
-      "url": "https://www.city.tokushima.tokushima.jp/smph/kosodate/youchien_hoikujo/hoikusho_n-kodomoen/R08_hoiku_moushikomi.html",
-      "quote": "利用決定した後に自己都合で入所辞退された場合は、以後の利用調整（入所選考）において減点の対象となりますので、利用決定後の辞退とならないよう、十分にご検討いただいた上で、希望施設をお選びください。"
+      "url": "https://www.city.tokushima.tokushima.jp/smph/kosodate/youchien_hoikujo/hoikusho_n-kodomoen/R09_hoiku_moushikomi.html",
+      "quote": "ただし、利用決定した後に自己都合で入所辞退された場合は、以後の利用調整（入所選考）において減点の対象となります"
     },
     "notes.2": {
-      "url": "https://www.city.tokushima.tokushima.jp/smph/kosodate/youchien_hoikujo/hoikusho_n-kodomoen/R08_hoiku_moushikomi.html",
-      "quote": "電子申請をされた方は、電子申請を行った旨を電話等により子ども保育課へご連絡いただき、申込児童の面接の予約等を行ってください。"
+      "url": "https://www.city.tokushima.tokushima.jp/smph/kosodate/youchien_hoikujo/hoikusho_n-kodomoen/R09_hoiku_moushikomi.html",
+      "quote": "（次の手続きを上記の申込期間内に完了しない場合は、行った電子申請は無効として取扱いますので、あらかじめご了承ください。）"
     },
     "notes.3": {
-      "url": "https://www.city.tokushima.tokushima.jp/smph/kosodate/youchien_hoikujo/hoikusho_n-kodomoen/R08_hoiku_moushikomi.html",
-      "quote": "広域利用とは、児童のお住まいの市区町村以外の保育所等を利用したい場合に、市区町村間で受託・委託による利用調整を行うことで、希望する保育所などの利用が可能となる制度です。"
+      "url": "https://www.city.tokushima.tokushima.jp/smph/kosodate/youchien_hoikujo/hoikusho_n-kodomoen/R09_hoiku_moushikomi.html",
+      "quote": "4月入所の利用申込については、市外居住者分は申込日にかかわらず2次申込分として利用調整します。"
+    },
+    "notes.4": {
+      "url": "https://www.city.tokushima.tokushima.jp/smph/kosodate/youchien_hoikujo/hoikusho_n-kodomoen/R09_hoiku_moushikomi.html",
+      "quote": "ただし、利用希望月の1日までに徳島市に住民票を異動することが条件となりますので、ご注意ください。"
     }
   },
   "sources": [
     {
-      "label": "徳島市「令和8年度　保育所・認定こども園等（2・3号認定）の利用申込」",
-      "url": "https://www.city.tokushima.tokushima.jp/smph/kosodate/youchien_hoikujo/hoikusho_n-kodomoen/R08_hoiku_moushikomi.html"
+      "label": "徳島市「令和9年度　保育所・認定こども園等（2・3号認定）の利用申込」",
+      "url": "https://www.city.tokushima.tokushima.jp/smph/kosodate/youchien_hoikujo/hoikusho_n-kodomoen/R09_hoiku_moushikomi.html"
     }
   ]
 }

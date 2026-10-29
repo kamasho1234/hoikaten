@@ -1,123 +1,164 @@
 {
   "citySlug": "asahikawa",
-  "checkedAt": "2026-09-29",
+  "checkedAt": "2026-10-29",
   "page": {
-    "label": "旭川市「令和8年度の教育・保育施設の利用手続について（2号・3号認定を受けて保育を利用するとき）」",
-    "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d082185.html"
+    "label": "旭川市「令和9年度の教育・保育施設の利用手続について（2号・3号認定を受けて保育を利用するとき）」",
+    "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d084733.html"
   },
-  "fiscalYear": "R8",
-  "guideRelease": "令和7年11月4日（火）から用紙配布と申込受付を開始。配布場所は旭川市役所こども保育課（総合庁舎3階）と各保育施設",
-  "firstApply": "令和7年11月4日（火）〜令和7年12月5日（金）に申込書を提出した人が一次利用調整の対象。12月6日以降の申込みは二次利用調整から",
-  "applyMethods": "こども保育課の窓口か各保育施設に提出する。産休・育休明けの時期からの利用、転入予定、特別支援保育、広域利用、産前産後期間のみの利用の申込みは各保育施設では受け付けない。郵送は転入予定の人のみ（締切日必着）で、電子メール・FAXでは受け付けない。令和7年11月29日（土）は休日受付あり（午前10時〜午後2時）",
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年11月9日（月）から用紙配布と申込受付を開始（開始日より前の配布・ダウンロード・申込受付は不可）。配布場所は旭川市役所こども保育課（総合庁舎3階）と各保育施設。利用のしおりは令和8年11月9日に更新版を公開",
+  "firstApply": "令和8年11月9日（月）〜令和8年12月4日（金）に申込書を提出した人が一次利用調整の対象。12月5日以降の申込みは二次利用調整から",
+  "applyMethods": "こども保育課の窓口か各保育施設に提出する。電子申請（Logoフォーム）は令和8年11月9日から開始予定。産休明けからの利用・転入予定・産前産後期間のみの利用はこども保育課窓口か電子申請のみ、育休明けの利用・特別支援保育・広域利用はこども保育課窓口のみで受け付ける。郵送は転入予定の人のみ（締切日必着）で、電子メール・FAXでは受け付けない。こども保育課の窓口は平日9時〜17時で、令和8年11月26日（木）のみ午後7時まで延長",
   "firstResult": "2月上旬頃に郵送で通知",
-  "secondApply": "令和8年2月2日（月）までに申込書を提出した人（一次で決定しなかった人を含む）が二次利用調整の対象。4月中の入所を希望する場合はこの日までに申し込む",
+  "secondApply": "令和9年2月2日（火）までに申込書を提出した人（一次で決定しなかった人を含む）が二次利用調整の対象。令和9年4月中の入所を希望する場合はこの日までに申し込む",
   "secondResult": "2月末から3月上旬頃に郵送で通知（一次で通知を受けた人は、二次以降は利用が決定した場合のみ通知）",
-  "midYearDeadline": "令和8年度の年度途中入所は、利用開始月の前月の申込（希望変更）期限までに申し込む（例: 5月1日以降の利用は4月10日（金）が期限）。申込は当該年度内のみ有効",
+  "midYearDeadline": "令和9年2月3日以降の申込みは年度途中（令和9年5月1日以降入所）の利用調整の対象。5月1日以降の利用は令和9年4月9日（金）が申込（希望変更）期限で、結果通知予定日は4月16日（金）。申込は当該年度内のみ有効",
   "documents": [
-    "保育の利用申込書と施設型給付費・地域型保育給付費等支給認定申請書（現況届）（新規で入所を希望する場合は両方）",
-    "保育の必要性を証明する書類（就労証明書など。ひとり親家庭を除き父母両方の提出が必要。証明書類は申込日から3か月以内に証明されたもの）",
-    "自営業者は就労証明書に加えて、開業届・確定申告関係書類等の写し、または民生委員の署名がある保育所入所に係る状況確認願",
+    "保育の利用申込書（令和9年度）と施設型給付費・地域型保育給付費等支給認定申請書（現況届）（新規で入所を希望する場合は両方）",
+    "保育の必要性を証明する書類（ひとり親家庭を除き父母両方の提出が必要。証明書類は令和8年10月1日以降かつ申込日から3か月以内に証明されたもの）",
+    "被雇用者は就労証明書（就労先から証明されたもの）",
+    "自営業者は就労証明書（自営業主が証明したもの）に加えて、開業届・確定申告関係書類等の写し、または民生委員の署名がある保育所入所に係る状況確認願",
     "出産予定の人は母子手帳の写し（母の氏名と分娩予定日がわかるページ）",
-    "育児休業を取得する人は産前産後休暇・育児休業取得証明書（就労証明書に期間の記載がある場合は不要）",
+    "育児休業を取得する人は産前産後休暇・育児休業取得証明書（就労証明書に期間の記載がある場合は不要。入所に伴って育児休業を短縮する場合は短縮申立にチェックがあり保護者が署名したもの）",
     "転入予定の人は転入に係る同意書"
   ],
   "interview": "園見学は必須ではないが、事前の見学がすすめられている。見学は希望する施設に直接問い合わせる",
-  "ikukyu": "利用調整で入所が決定していない場合、最初の選考結果のみ通知書が発行される。2回目以降の選考分の証明書が必要な場合は申請フォームかこども保育課窓口で申請する（発送まで通常1週間程度）",
+  "ikukyu": "利用調整で入所が決定していない場合、最初の選考結果のみ通知書が発行される。2回目以降の選考分の証明書が必要な場合は申請フォームかこども保育課窓口で申請する（発送まで通常2週間程度）",
   "notes": [
-    "入所決定は先着順ではなく、家庭状況・保護者の就労状況等により優先順位をつけて市が調整する",
+    "入所決定は先着順ではなく、家庭状況・保護者の就労状況等により優先順位をつけて市が調整する。利用調整基準表は11月9日に公開",
     "出生前からの申込みも可能だが、母子手帳等が必要",
-    "入所は育児休業の終了日から、ならし保育を含めて2週間前から希望できる",
+    "ならし保育は入所から約2週間で、期間中も保育料が発生する。入所は育児休業の終了日から、ならし保育を含めて2週間前から希望できる",
     "利用希望施設は1か所以上書く（上限はないが、通える保育所等のみ）",
-    "既に認可保育所等を利用していて翌年度も続ける場合は、支給認定現況届を園に提出する"
+    "令和8年度に既に認可保育所等を利用していて翌年度も続ける場合は、支給認定現況届を園に提出する"
   ],
   "evidence": {
     "fiscalYear": {
-      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d082185.html",
-      "quote": "令和8年度中（令和8年4月1日～令和9年3月31日）に2号・3号認定を受けて保育を利用する場合"
+      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d084733.html",
+      "quote": "令和9年度中（令和9年4月1日～令和10年3月31日）に2号・3号認定を受けて保育を利用する場合"
     },
     "guideRelease": {
-      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d082185.html",
-      "quote": "開始時期　令和7年11月4日（火）から用紙配布と申込受付を開始しています。"
+      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d084733.html",
+      "quote": "開始時期　 令和8年11月9日（月）から用紙配布と申込受付を開始しています。"
     },
     "guideRelease#2": {
-      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d082185.html",
-      "quote": "場　　所　旭川市役所こども保育課（旭川市7条通9丁目　総合庁舎3階）及び各保育施設"
+      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d084733.html",
+      "quote": "※開始日より前の配布・ダウンロード・申込受付はできません"
+    },
+    "guideRelease#3": {
+      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d084733.html",
+      "quote": "場　　所　 旭川市役所こども保育課（旭川市7条通9丁目　総合庁舎3階）及び各保育施設"
+    },
+    "guideRelease#4": {
+      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d084733.html",
+      "quote": "※令和8年11月9日（月）に内容を更新したものを公開します。"
     },
     "firstApply": {
-      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d082185.html",
-      "quote": "対象者　　令和7年11月4日（火）から令和7年12月5日（金）までに申込書を提出された方"
+      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d084733.html",
+      "quote": "対象者　　 令和8年11月9日（月）から令和8年12月4日（金）までに申込書を提出された方"
     },
     "firstApply#2": {
-      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d082185.html",
-      "quote": "※令和7年12月6日以降に申し込まれた方は二次利用調整からの対象となりますのでご注意ください。"
+      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d084733.html",
+      "quote": "※令和8年12月5日以降に申し込まれた方は二次利用調整からの対象となりますのでご注意ください。"
     },
     "applyMethods": {
-      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d082185.html",
-      "quote": "※産休・育休明けの時期から利用を希望される方、転入予定・ 特別支援保育 ・広域利用及び産前産後期間のみの利用を希望される方の申込みについては、各保育施設での受付不可。"
+      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d084733.html",
+      "quote": "令和8年11月9日からLogoフォームを利用した電子申請を開始予定です。"
     },
     "applyMethods#2": {
-      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d082185.html",
-      "quote": "※電子メールやFAXによる受付はできません。 ※転入予定の方のみ郵送での提出が可能です（締切日必着）。"
+      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d084733.html",
+      "quote": "※産休明けからの利用を希望される方、転入予定の方及び産前産後期間のみの利用を希望される方の申込みについては、こども保育課窓口または電子申請のみで受付となります。"
     },
     "applyMethods#3": {
-      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d082185.html",
-      "quote": "※令和7年11月29日（土）のみ休日ですが、午前10時から午後2時まで受付します。"
+      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d084733.html",
+      "quote": "育休明けの利用、特別支援保育、広域利用についてはこども保育課窓口のみでの受付となります。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d084733.html",
+      "quote": "※電子メールやFAXによる受付はできません。 ※転入予定の方のみ郵送での提出が可能です（ 締切日必着 ）。"
+    },
+    "applyMethods#5": {
+      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d084733.html",
+      "quote": "日　　時　 ・旭川市こども保育課　開庁時間（平日　9：00～17：00）"
+    },
+    "applyMethods#6": {
+      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d084733.html",
+      "quote": "※令和8年11月26日（木）のみ午後7時まで窓口時間の延長を行います。"
     },
     "firstResult": {
-      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d082185.html",
-      "quote": "結果通知　2月上旬頃に郵送にて通知します。"
+      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d084733.html",
+      "quote": "ご注意ください。 結果通知　2月上旬頃に郵送にて通知します。"
     },
     "secondApply": {
-      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d082185.html",
-      "quote": "対象者　　一次利用調整で利用が決定しなかった方及び令和8年2月2日（月）までに申込書を提出された方"
+      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d084733.html",
+      "quote": "対象者　　 一次利用調整で利用が決定しなかった方及び令和9年2月2日（火）までに 申込書を提出された方"
     },
     "secondApply#2": {
-      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d082185.html",
-      "quote": "※令和8年4月中に入所を希望される場合は令和8年2月2日(月)までに申込みください。"
+      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d084733.html",
+      "quote": "※令和9年4月中に入所を希望される場合は令和9年2月2日(火)までに申込みください。"
     },
     "secondResult": {
-      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d082185.html",
+      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d084733.html",
       "quote": "結果通知　2月末から3月上旬頃に郵送にて通知します。"
     },
     "secondResult#2": {
-      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d082185.html",
+      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d084733.html",
       "quote": "※一次利用調整で一度通知されている方は、二次利用調整以降は利用が決定した場合のみ通知されます。"
     },
     "midYearDeadline": {
-      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d082185.html",
-      "quote": "4月10日(金) 4月17日(金) 5月1日 以降"
+      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d084733.html",
+      "quote": "※令和9年2月3日以降に申し込まれた方は年度途中（令和9年5月1日以降入所）の利用調整から対象となりますのでご注意ください。"
     },
     "midYearDeadline#2": {
-      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d082185.html",
-      "quote": "・申込は当該年度内のみ有効です（入所や転所が決定せずに令和9年度以降も申込みを希望される場合は別途手続きください）。"
+      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d084733.html",
+      "quote": "令和9年4月9日(金) 令和9年4月16日(金) 令和9年5月1日以降"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d084733.html",
+      "quote": "・申込は当該年度内のみ有効です（入所や転所が決定せずに令和10年度以降も申込みを希望される場合 は別途手続きください）。"
     },
     "documents.0": {
-      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d082185.html",
-      "quote": "共通（必須）※新規で入所を希望する場合は、利用の申込書と支給認定申請書の両方を提出してください。"
+      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d084733.html",
+      "quote": "共通（必須）　※新規で入所を希望する場合は、「利用申込書」と「支給認定申請書（現況届）」の両方を提出してください。"
+    },
+    "documents.0#2": {
+      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d084733.html",
+      "quote": "保育の利用申込書（令和9年度） 【記載例】 保育の利用申込書（令和9年度）"
     },
     "documents.1": {
-      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d082185.html",
+      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d084733.html",
       "quote": "保育の必要性を証明する書類（ひとり親家庭を除き父母両方の提出が必要です）"
     },
     "documents.1#2": {
-      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d082185.html",
-      "quote": "・証明書類は申込日から3か月以内に証明されたものを提出してください。"
+      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d084733.html",
+      "quote": "・証明書類は令和8年10月1日以降かつ申込日から3か月以内に証明されたものを提出してください。"
     },
     "documents.2": {
-      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d082185.html",
-      "quote": "・開業届、確定申告関係書類等のいずれかの写し 又は 保育所入所に係る状況確認願(※1)（民生委員の署名が あるもの）"
+      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d084733.html",
+      "quote": "被雇用者 ・就労証明書（就労先から証明されたもの）"
     },
     "documents.3": {
-      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d082185.html",
-      "quote": "出産予定の方（必須） ・母子手帳の写し（母の氏名と分娩予定日がわかるページ）"
+      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d084733.html",
+      "quote": "自営業者 ・就労証明書（自営業主が証明したもの）"
+    },
+    "documents.3#2": {
+      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d084733.html",
+      "quote": "・開業届、確定申告関係書類等のいずれかの写し 又は保育所入所に係る状況確認願(※1)（民生委員の署名が あるもの）"
     },
     "documents.4": {
-      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d082185.html",
-      "quote": "・ 産前産後休暇・育児休業取得証明書 ※就労証明書に期間の記載がある場合は不要"
+      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d084733.html",
+      "quote": "出産予定の方（必須） ・母子手帳の写し（母の氏名と分娩予定日がわかるページ）"
     },
     "documents.5": {
-      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d082185.html",
-      "quote": "転入予定の方（必須） ・ 転入に係る同意書"
+      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d084733.html",
+      "quote": "・産前産後休暇・育児休業取得証明書 ※就労証明書に期間の記載がある場合は不要"
+    },
+    "documents.5#2": {
+      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d084733.html",
+      "quote": "※入所に伴って育児休業を短縮する場合は、 短縮申立にチェックがあり、保護者が同意(署名)しているものが必要"
+    },
+    "documents.6": {
+      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d084733.html",
+      "quote": "転入予定の方（必須） ・転入に係る同意書"
     },
     "interview": {
       "url": "https://www.city.asahikawa.hokkaido.jp/kurashi/218/232/233/d082375.html",
@@ -137,17 +178,29 @@
     },
     "ikukyu#3": {
       "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d081443.html",
-      "quote": "申請を受理してから発送まで通常で1週間程度を要します"
+      "quote": "申請を受理してから発送まで通常で2週間程度を要します"
     },
     "notes.0": {
-      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d082185.html",
+      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d084733.html",
       "quote": "利用希望者数が保育施設等の定員を超える場合、家庭状況・保護者の就労状況等により優先順位をつけ、旭川市で利用についての調整を行います（先着順ではありません）。"
     },
+    "notes.0#2": {
+      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d084733.html",
+      "quote": "利用調整は 利用調整基準表 に基づいて行います（基準表は11月9日に公開します）。"
+    },
     "notes.1": {
-      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d082185.html",
+      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d084733.html",
       "quote": "※出生前からの申込みも可能ですが、母子手帳等が必要になります。"
     },
     "notes.2": {
+      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d084733.html",
+      "quote": "期間は子どもの状況により異なる場合がありますが、入所から約2週間です。"
+    },
+    "notes.2#2": {
+      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d084733.html",
+      "quote": "3　ならし保育期間中も保育料は発生します。"
+    },
+    "notes.2#3": {
       "url": "https://www.city.asahikawa.hokkaido.jp/kurashi/218/232/233/d082375.html",
       "quote": "また、入所は育児休業の終了日からならし保育を含めて2週間前から希望することができます。"
     },
@@ -156,14 +209,18 @@
       "quote": "Ａ．1箇所以上記載してください（上限はありませんが、通うことができる保育所等のみ記載してください）。"
     },
     "notes.4": {
-      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d082185.html",
-      "quote": "施設型給付費・地域型給付費等支給認定現況届を園に提出してください(各園からご案内予定)。"
+      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d084733.html",
+      "quote": "※令和8年度に既に認可保育所等を利用しており、次年度も引き続き利用を希望する場合は"
+    },
+    "notes.4#2": {
+      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d084733.html",
+      "quote": "施設型給付費・地域型給付費等支給認定現況届 を園に提出してください(各園からご案内予定)。"
     }
   },
   "sources": [
     {
-      "label": "旭川市「令和8年度の教育・保育施設の利用手続について（2号・3号認定を受けて保育を利用するとき）」",
-      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d082185.html"
+      "label": "旭川市「令和9年度の教育・保育施設の利用手続について（2号・3号認定を受けて保育を利用するとき）」",
+      "url": "https://www.city.asahikawa.hokkaido.jp/800/810/006/d084733.html"
     },
     {
       "label": "旭川市「認可保育所等利用申込に関するよくあるお問い合わせ」",

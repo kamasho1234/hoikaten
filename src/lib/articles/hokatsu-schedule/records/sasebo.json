@@ -1,47 +1,69 @@
 {
   "citySlug": "sasebo",
-  "checkedAt": "2026-09-19",
+  "checkedAt": "2026-10-29",
   "page": {
-    "label": "佐世保市「令和8年4月の保育所等の利用申込」",
+    "label": "佐世保市「令和9年4月の保育所等の利用申込」",
     "url": "https://www.city.sasebo.lg.jp/kodomomirai/hoyou/0903mousikomi.html"
   },
-  "fiscalYear": "R8",
-  "guideRelease": "令和7年10月1日（水曜日）から申込書類を配布",
-  "firstApply": "一次受付は令和7年11月4日（火曜日）から11月28日（金曜日）まで、二次受付は令和7年12月1日（月曜日）から12月26日（金曜日）まで",
-  "applyMethods": "配付・受付場所は佐世保市役所保育幼稚園課窓口（中央保健福祉センター4階）、宇久行政センター、佐世保市内の各利用希望施設",
-  "firstResult": "11月中に申請された方は令和8年1月中旬頃に、12月中に申請された方は令和8年2月上旬頃に入園内定通知を送付予定",
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年10月1日（木曜日）から申込書類を配布",
+  "firstApply": "一次受付は令和8年11月2日（月曜日）から11月30日（月曜日）まで",
+  "applyMethods": "配付・受付場所は佐世保市役所保育幼稚園課窓口（中央保健福祉センター4階）、宇久行政センター、佐世保市内の各利用希望施設（支所では配付・受付なし）",
+  "firstResult": "11月中に申請した場合、入園内定通知は令和9年1月中旬頃に送付予定。入園が困難な場合は令和8年12月下旬に知らせる",
+  "secondApply": "二次受付は令和8年12月1日（火曜日）から12月28日（月曜日）までの8時30分から17時まで（土曜日、日曜日、祝日は除く）",
+  "secondResult": "12月中に申請した場合、入園内定通知は令和9年2月上旬頃に送付予定。入園が困難な場合は令和9年1月下旬に知らせる",
   "documents": [
     "教育・保育給付認定申請書（兼保育所等利用申込書）",
-    "「保育を必要とする理由」を証明する書類（2号・3号認定のみ。基準日は令和7年10月1日で、同日以降の証明日の証明書のみ受け付ける）"
+    "令和8年1月1日時点で市外在住だった方は、個人番号利用目的同意書兼個人番号提供書または令和8年度(令和7年分)住民税所得課税証明書",
+    "「保育を必要とする理由」を証明する書類（2号・3号認定のみ。基準日は令和8年10月1日で、同日以降の証明日の証明書のみ受け付ける）"
   ],
   "notes": [
-    "事前に希望する施設を見学し、保育内容や送迎等が可能かどうかを確認したうえで申し込むこと",
-    "妊娠中から申し込みができるが、優先入所をお約束するものではない"
+    "現在施設を利用中で来年4月以降も同じ施設を継続利用する場合は、書類の提出は不要",
+    "必ず事前に施設を見学し、保育内容や送迎等が可能かどうか確認したうえで申し込むこと",
+    "妊娠中から申し込みができるが、優先入所を約束するものではない",
+    "令和9年1月以降も随時受付は行うが、できるだけ受付期限までに提出すること",
+    "令和9年3月からのならし保育を希望する場合は、令和8年10月30日（金曜日）までに申請が必要"
   ],
   "evidence": {
     "fiscalYear": {
       "url": "https://www.city.sasebo.lg.jp/kodomomirai/hoyou/0903mousikomi.html",
-      "quote": "令和8年4月の利用希望の場合"
+      "quote": "令和9年4月の利用希望の場合"
     },
     "guideRelease": {
       "url": "https://www.city.sasebo.lg.jp/kodomomirai/hoyou/0903mousikomi.html",
-      "quote": "申込書類配布 令和7年10月1日（水曜日）から"
+      "quote": "申込書類配布 令和8年10月1日（木曜日）から"
     },
     "firstApply": {
       "url": "https://www.city.sasebo.lg.jp/kodomomirai/hoyou/0903mousikomi.html",
-      "quote": "【一次受付】令和7年11月4日（火曜日）から11月28日（金曜日）まで 【二次受付】令和7年12月1日（月曜日）から12月26日（金曜日）まで"
+      "quote": "【一次受付】令和8年11月2日（月曜日）から11月30日（月曜日）まで"
     },
     "applyMethods": {
       "url": "https://www.city.sasebo.lg.jp/kodomomirai/hoyou/0903mousikomi.html",
       "quote": "配付・受付場所 佐世保市役所保育幼稚園課窓口（中央保健福祉センター4階） 宇久行政センター 佐世保市内の各利用希望施設"
     },
+    "applyMethods#2": {
+      "url": "https://www.city.sasebo.lg.jp/kodomomirai/hoyou/0903mousikomi.html",
+      "quote": "支所では配付・受付は行っておりませんので、ご注意ください。"
+    },
     "firstResult": {
       "url": "https://www.city.sasebo.lg.jp/kodomomirai/hoyou/0903mousikomi.html",
-      "quote": "入園内定通知は、「令和8年1月中旬頃」に送付予定です。"
+      "quote": "【11月中に申請された方】 入園内定通知は、「令和9年1月中旬頃」に送付予定です。"
     },
     "firstResult#2": {
       "url": "https://www.city.sasebo.lg.jp/kodomomirai/hoyou/0903mousikomi.html",
-      "quote": "入園内定通知は、「令和8年2月上旬頃」に送付予定です。"
+      "quote": "希望する施設への入園が困難な場合は、「令和8年12月下旬」にお知らせいたします。"
+    },
+    "secondApply": {
+      "url": "https://www.city.sasebo.lg.jp/kodomomirai/hoyou/0903mousikomi.html",
+      "quote": "【二次受付】令和8年12月1日（火曜日）から12月28日（月曜日）までの8時30分から17時まで（土曜日、日曜日、祝日は除く）"
+    },
+    "secondResult": {
+      "url": "https://www.city.sasebo.lg.jp/kodomomirai/hoyou/0903mousikomi.html",
+      "quote": "【12月中に申請された方】 入園内定通知は、「令和9年2月上旬頃」に送付予定です。"
+    },
+    "secondResult#2": {
+      "url": "https://www.city.sasebo.lg.jp/kodomomirai/hoyou/0903mousikomi.html",
+      "quote": "希望する施設への入園が困難な場合は、「令和9年1月下旬」にお知らせいたします。"
     },
     "documents.0": {
       "url": "https://www.city.sasebo.lg.jp/kodomomirai/hoyou/0903mousikomi.html",
@@ -49,24 +71,48 @@
     },
     "documents.1": {
       "url": "https://www.city.sasebo.lg.jp/kodomomirai/hoyou/0903mousikomi.html",
-      "quote": "「保育を必要とする理由」を証明する書類（PDF：459KB）は、利用申込の理由が就労であれば職場からの証明、病気や介護・看護であれば医療機関からの証明が必要となり、それぞれの理由に応じて、第三者からの証明が必要となります。"
+      "quote": "令和8年1月1日時点で市外在住の方（令和8年1月2日以降に佐世保市に転入された方）は、以下の書類のいずれかが別途必要です。"
     },
     "documents.1#2": {
       "url": "https://www.city.sasebo.lg.jp/kodomomirai/hoyou/0903mousikomi.html",
-      "quote": "【基準日】令和7年10月1日 令和7年10月1日以降の証明日の証明書のみ受け付けることができます。"
+      "quote": "個人番号利用目的同意書兼個人番号提供書（PDF：213KB） または令和8年度所得課税証明書"
+    },
+    "documents.2": {
+      "url": "https://www.city.sasebo.lg.jp/kodomomirai/hoyou/0903mousikomi.html",
+      "quote": "令和9年4月1日からの利用にあたっての「保育を必要とする理由」の証明書類の基準日（保護者の就労状況等を判断する時点）は、次のとおりです。"
+    },
+    "documents.2#2": {
+      "url": "https://www.city.sasebo.lg.jp/kodomomirai/hoyou/0903mousikomi.html",
+      "quote": "令和8年10月1日以降の証明日の証明書のみ受け付けることができます。"
+    },
+    "documents.2#3": {
+      "url": "https://www.city.sasebo.lg.jp/kodomomirai/hoyou/0903mousikomi.html",
+      "quote": "【2、3号認定のみ】 「保育を必要とする理由」を証明する書類"
     },
     "notes.0": {
       "url": "https://www.city.sasebo.lg.jp/kodomomirai/hoyou/0903mousikomi.html",
-      "quote": "必ず事前に施設を見学し、保育内容や送迎等が可能かどうか確認をしたうえで、お申込みをしてください。"
+      "quote": "来年4月以降も同じ施設を継続して利用する場合は、書類を提出していただく必要はありません。"
     },
     "notes.1": {
       "url": "https://www.city.sasebo.lg.jp/kodomomirai/hoyou/0903mousikomi.html",
+      "quote": "必ず事前に施設を見学し、保育内容や送迎等が可能かどうか確認をしたうえで、お申込みをしてください。"
+    },
+    "notes.2": {
+      "url": "https://www.city.sasebo.lg.jp/kodomomirai/hoyou/0903mousikomi.html",
       "quote": "妊娠中から保育所、認定こども園（保育園部分）の利用申し込みができます。ただし、優先入所をお約束するものではありません。"
+    },
+    "notes.3": {
+      "url": "https://www.city.sasebo.lg.jp/kodomomirai/hoyou/0903mousikomi.html",
+      "quote": "令和9年1月以降も随時受付は行いますが、できるだけ上記受付期限までに提出してください"
+    },
+    "notes.4": {
+      "url": "https://www.city.sasebo.lg.jp/kodomomirai/hoyou/0903mousikomi.html",
+      "quote": "令和9年3月からのならし保育をご希望される方（例えば令和9年4月1日から就労開始、育休復帰の方は、令和9年3月17日からならし保育可能期間となります）は、令和8年10月30日（金曜日）までに申請が必要となります。"
     }
   },
   "sources": [
     {
-      "label": "佐世保市「令和8年4月の保育所等の利用申込」",
+      "label": "佐世保市「令和9年4月の保育所等の利用申込」",
       "url": "https://www.city.sasebo.lg.jp/kodomomirai/hoyou/0903mousikomi.html"
     }
   ]

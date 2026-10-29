@@ -1,154 +1,235 @@
 {
   "citySlug": "iruma",
-  "checkedAt": "2026-10-01",
+  "checkedAt": "2026-10-29",
   "page": {
-    "label": "入間市「令和8年度 保育施設等の申込み」",
-    "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/13889.html"
+    "label": "入間市「令和9年度 保育施設等の申込み」",
+    "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html"
   },
-  "fiscalYear": "R8",
-  "firstApply": "令和7年11月1日（土）〜11月7日（金）。電子申請と郵送（締切日必着）は11月7日まで、1次受付会場での提出は11月1日〜11月5日（事前の来場予約が必須）",
-  "applyMethods": "電子申請・1次受付会場（入間市健康福祉センター301・302会議室）での提出・郵送のいずれか。郵送は保育幼稚園課あてに簡易書留で送る",
-  "firstResult": "令和8年1月中旬（予定）に1次調整（書面審査）の結果を連絡",
-  "secondApply": "令和7年11月8日（土）〜12月26日（金）。1次受付者の利用調整後、施設に空きがある場合のみ利用調整を行う",
-  "secondResult": "令和8年2月中旬（予定）に2次調整の結果を連絡",
-  "midYearDeadline": "5月以降の入所は希望月ごとの締切日まで（例: 令和8年5月入所は4月10日、6月入所は5月8日）。電子申請は締切日の17時15分まで、郵送は締切日必着",
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年10月1日から、申込書類を入間市役所保育幼稚園課・健康福祉センターに設置（市のページからもダウンロードできる）",
+  "firstApply": "令和8年10月19日（月）〜11月6日（金）。電子申請（24時間受付）と郵送（締切日必着）は10月19日〜11月6日、1次受付会場での提出は11月1日（日）〜11月5日（木）（来場予約必須）",
+  "applyMethods": "電子申請（LoGoフォーム。マイナンバーカード等が必要）・郵送（保育幼稚園課あてに簡易書留）・1次受付会場（入間市健康福祉センター201〜203会議室）での提出のいずれか。1次受付期間中は原則として市役所保育幼稚園課では受け付けない。2次受付は保育幼稚園課（入間市役所C棟2階）の窓口でも提出できる",
+  "firstResult": "令和9年1月上旬から通知を順次発送（内定の人には面接案内通知、保留の人には希望施設再考通知）。2月15日（月）を過ぎてもどちらも届かない場合は保育幼稚園課に連絡する",
+  "secondApply": "電子申請・郵送は令和8年11月7日（土）〜12月25日（金）、保育幼稚園課での提出は11月9日（月）〜12月25日（金）の平日開庁時間内。1次受付者の利用調整後、受け入れに余裕がある場合のみ利用調整を行う",
+  "midYearDeadline": "令和9年5月以降の入所申込みは令和9年3月11日（木）から受付。締切は入所希望月ごと（例: 5月入所は令和9年4月9日、6月入所は令和9年5月10日）。電子申請は締切日の23時59分まで、郵送は締切日必着",
   "documents": [
-    "教育・保育給付認定（変更）申請書兼特定教育・保育施設等利用申込書",
+    "教育・保育給付認定申請書兼特定教育・保育施設等利用申込書",
     "特定教育・保育施設等の利用申込に関する同意書、家庭状況調査票、健康調査票、入所申込確認票",
-    "個人番号届出書（電子申請の場合もオンラインでは出せないので、別途保育幼稚園課に提出）",
-    "保育を必要とする証明書（保護者全員分。保護者の状況によって書類が異なる）"
+    "個人番号届出書（電子申請の場合も、別途保育幼稚園課へ提出する）",
+    "保育を必要とする証明書（保護者全員分）",
+    "郵送の場合は、番号確認書類と身元確認書類の写しを同封する"
   ],
-  "ikukyu": "育児休業の延長手続き等で保育所に入所できていない証明書が必要な場合は、保育所在所証明申請（電子申請）から発行を申請する",
+  "interview": "利用調整で内定した人には令和9年1月上旬から面接案内通知が順次届く。入所を希望する保育施設への事前の見学等が勧められている",
   "notes": [
-    "1次受付会場での申込みは来場予約が必要。予約は令和7年10月15日（水）9時から、受付日の前日15時までできる",
-    "1次調整の結果によっては2次調整が行われないため、1次受付期間中の申込みが勧められている",
-    "4月利用保留となった人は、申込みの取下げがない限り5月以降の利用調整の対象になる",
-    "令和8年度は保育士の確保が難しいため、公立保育所の一部施設の特定年齢（クラス）で新規入所児の受け入れを見送る",
+    "1次受付会場で申し込む場合は来場予約が必要。予約は令和8年10月15日（木）9時から受付日の前日16時まで。電子申請・郵送の場合は予約不要",
+    "令和9年度は公立保育所の一部（藤沢・東金子保育所の0歳児、金子第二・二本木保育所の1・2歳児）で新規入所児の受け入れを制限する可能性があり、対象施設を希望する場合は必ず他の施設も希望する",
     "申請時点で市外に住民登録がある人、市外の施設を希望する人、医療的ケアなど特別な配慮が必要な人は電子申請ができない",
-    "複数の施設を希望したほうが利用調整でより多くの審査を受けられ、入園できる可能性が高くなる"
+    "令和8年度用と令和9年度用で様式が異なるため、令和9年度用の書類で申し込む",
+    "令和9年4月以降の利用調整基準表は利用調整開始までに公開される",
+    "市外在住で転入予定がない人は、入間市立保育所の0〜2歳児クラスには受け入れられない（3〜5歳児は市民の利用調整後に空きがある場合のみ）"
   ],
   "evidence": {
     "fiscalYear": {
-      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/13889.html",
-      "quote": "このページには、令和8年度に保育施設等の利用を希望する方への申込案内・申込書類等を掲載しています。"
+      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html",
+      "quote": "このページには、令和9年度に保育施設等の利用を希望する方への申込案内・申込書類等を掲載しています。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html",
+      "quote": "令和9年度の申込書類は、令和8年10月1日より入間市役所保育幼稚園課・健康福祉センターに設置します。"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html",
+      "quote": "また、申込書類はページ下部にあるリンクからダウンロードが可能です。"
     },
     "firstApply": {
-      "url": "https://www.city.iruma.saitama.jp/material/files/group/34/R8tebiki0311.pdf",
-      "quote": "受付期間：令和７年１１月１日（土）～１１月７日（金）"
+      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html",
+      "quote": "電子申請 令和8年10月19日（月曜日）から11月6日（金曜日） 24時間受付"
     },
     "firstApply#2": {
-      "url": "https://www.city.iruma.saitama.jp/material/files/group/34/R8tebiki0311.pdf",
-      "quote": "②受付会場で提出 １１月１日～１１月５日 事前来場予約必須 ③郵送 １１月1日～１１月７日 締切日必着"
+      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html",
+      "quote": "郵送 令和8年10月19日（月曜日）から11月6日（金曜日） 締切日必着"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html",
+      "quote": "1次受付会場で提出 令和8年11月1日（日曜日）から 11月5日（木曜日） 来場予約必須"
     },
     "applyMethods": {
-      "url": "https://www.city.iruma.saitama.jp/material/files/group/34/R8tebiki0311.pdf",
-      "quote": "申請方法：①電子申請 ②１次受付会場で提出 ③郵送 （いずれかの方法を選んでください）"
+      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html",
+      "quote": "マイナンバーカードとスマートフォンをお持ちの場合は、電子申請サービス（LoGoフォーム）より電子申請ができます。"
     },
     "applyMethods#2": {
-      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/13889.html",
-      "quote": "1次受付会場：入間市健康福祉センター301・302会議室"
+      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html",
+      "quote": "電子申請にはマイナンバーカード等が必要です。"
     },
     "applyMethods#3": {
-      "url": "https://www.city.iruma.saitama.jp/material/files/group/34/R8tebiki0311.pdf",
-      "quote": "郵送で申込みされる場合は、保育幼稚園課宛に簡易書留にて送付してください。"
+      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html",
+      "quote": "また、個人情報を含むため、簡易書留にて郵送ください。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html",
+      "quote": "入間市役所 こども支援部 保育幼稚園課 入所・給付担当 宛"
+    },
+    "applyMethods#5": {
+      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html",
+      "quote": "1次受付会場：入間市健康福祉センター201〜203会議室"
+    },
+    "applyMethods#6": {
+      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html",
+      "quote": "原則、上記期間中は入間市役所保育幼稚園課での受付はしません。"
+    },
+    "applyMethods#7": {
+      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html",
+      "quote": "保育幼稚園課は、入間市役所C棟2階にあります。"
+    },
+    "applyMethods#8": {
+      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html",
+      "quote": "保育幼稚園課での申込みは予約が不要です。"
     },
     "firstResult": {
-      "url": "https://www.city.iruma.saitama.jp/material/files/group/34/R8tebiki0311.pdf",
-      "quote": "利用調整（書面審査）の結果連絡 ＜１次調整＞ 連絡時期：令和８年１月中旬（予定）"
+      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html",
+      "quote": "令和9年1月上旬から、以下の通知を順次発送します。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html",
+      "quote": "利用調整により内定の方：面接案内通知 利用調整により保留の方：希望施設再考通知"
+    },
+    "firstResult#3": {
+      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html",
+      "quote": "2月15日（月曜日）を過ぎてもいずれの通知も届かない場合は保育幼稚園課までご連絡ください。"
     },
     "secondApply": {
-      "url": "https://www.city.iruma.saitama.jp/material/files/group/34/R8tebiki0311.pdf",
-      "quote": "＜２次受付＞※１次受付者の利用調整後、施設に空きがある場合のみ利用調整を行います。"
+      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html",
+      "quote": "電子申請 令和8年11月7日（土曜日）から12月25日（金曜日） 24時間受付"
     },
     "secondApply#2": {
-      "url": "https://www.city.iruma.saitama.jp/material/files/group/34/R8tebiki0311.pdf",
-      "quote": "受付期間：令和７年１１月８日（土）～１２月２６日（金）"
+      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html",
+      "quote": "郵送 令和8年11月7日（土曜日）から12月25日（金曜日） 締切日必着"
     },
-    "secondResult": {
-      "url": "https://www.city.iruma.saitama.jp/material/files/group/34/R8tebiki0311.pdf",
-      "quote": "＜２次調整＞ 連絡時期：令和８年２月中旬（予定）"
+    "secondApply#3": {
+      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html",
+      "quote": "保育幼稚園課で提出 令和8年11月9日（月曜日）から12月25日（金曜日） 平日開庁時間内受付"
+    },
+    "secondApply#4": {
+      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html",
+      "quote": "1次受付期間に申込みをした方の利用調整後、施設の受け入れにまだ余裕がある場合のみ利用調整を行います。"
     },
     "midYearDeadline": {
-      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/13889.html",
-      "quote": "令和8年5月入所（締切日時：令和8年4月10日17時15分）"
+      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html",
+      "quote": "令和9年3月11日（木曜日）から受け付けます。"
     },
     "midYearDeadline#2": {
-      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/13889.html",
-      "quote": "令和8年6月入所（締切日時：令和8年5月8日17時15分）"
+      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html",
+      "quote": "以下の締切日までに必要書類をご提出ください。"
     },
     "midYearDeadline#3": {
-      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/13889.html",
-      "quote": "電子申請の場合の締切は、締切日の17時15分になります。"
+      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html",
+      "quote": "令和9年5月 令和9年4月9日（金曜日）"
     },
     "midYearDeadline#4": {
-      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/13889.html",
-      "quote": "郵送申込の場合は、保育幼稚園課に締切日必着。"
+      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html",
+      "quote": "令和9年6月 令和9年5月10日（月曜日）"
+    },
+    "midYearDeadline#5": {
+      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html",
+      "quote": "電子申請の場合の締切は、締切日の23時59分です。"
+    },
+    "midYearDeadline#6": {
+      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html",
+      "quote": "郵送申込の場合は、保育幼稚園課に締切日必着です。"
     },
     "documents.0": {
-      "url": "https://www.city.iruma.saitama.jp/material/files/group/34/R8tebiki0311.pdf",
-      "quote": "（１）教育・保育給付認定（変更）申請書兼特定教育・保育施設等利用申込書"
+      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html",
+      "quote": "教育・保育給付認定申請書兼特定教育・保育施設等利用申込書"
     },
     "documents.1": {
-      "url": "https://www.city.iruma.saitama.jp/material/files/group/34/R8tebiki0311.pdf",
-      "quote": "（２）特定教育・保育施設等の利用申込に関する同意書 （３）家庭状況調査票 （４）健康調査票 （５）入所申込確認票"
+      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html",
+      "quote": "特定教育・保育施設等の利用申込に関する同意書 家庭状況調査票 健康調査票 入所申込確認票"
     },
     "documents.2": {
-      "url": "https://www.city.iruma.saitama.jp/material/files/group/34/R8tebiki0311.pdf",
-      "quote": "※個人番号届出書はオンラインでの提出が出来ないため、別途、保育幼稚園課に提出する必要があります。"
+      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html",
+      "quote": "電子申請をされる方は、別途「個人番号届出書」を保育幼稚園課へ提出する必要があります。"
     },
     "documents.3": {
-      "url": "https://www.city.iruma.saitama.jp/material/files/group/34/R8tebiki0311.pdf",
-      "quote": "（７）保育を必要とする証明書（保護者全員分）（Ｐ.７参照）"
+      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html",
+      "quote": "保育を必要とする証明書（保護者全員分）"
     },
-    "documents.3#2": {
-      "url": "https://www.city.iruma.saitama.jp/material/files/group/34/R8tebiki0311.pdf",
-      "quote": "保育を必要とする証明書は、保護者の状況によって異なります。"
+    "documents.4": {
+      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html",
+      "quote": "郵送の場合は、必要な申請書類に加え、下記1・2の確認書類の写しを同封してください。"
     },
-    "ikukyu": {
-      "url": "https://www.city.iruma.saitama.jp/material/files/group/34/R8tebiki0311.pdf",
-      "quote": "★育児休業の延長手続き等で、保育所に入所できていない証明書が必要な場合は、保育所在所証明申請（電子申請）から発行申請をしてください。"
+    "documents.4#2": {
+      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html",
+      "quote": "番号確認書類：マイナンバーカード、通知カードなど 身元確認書類：マイナンバーカード、運転免許証、パスポートなど"
+    },
+    "interview": {
+      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html",
+      "quote": "令和9年1月上旬から、以下の通知を順次発送します。"
+    },
+    "interview#2": {
+      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html",
+      "quote": "利用調整により内定の方：面接案内通知"
+    },
+    "interview#3": {
+      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html",
+      "quote": "入所を希望する保育施設へ事前に見学等を行うことをお勧めいたします。"
     },
     "notes.0": {
-      "url": "https://www.city.iruma.saitama.jp/material/files/group/34/R8tebiki0311.pdf",
-      "quote": "※来場予約は、令和７年１０月１５日（水）９：００からできます。"
+      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html",
+      "quote": "1次受付会場で申込みをされる方は、来場予約が必要です。"
     },
     "notes.0#2": {
-      "url": "https://www.city.iruma.saitama.jp/material/files/group/34/R8tebiki0311.pdf",
-      "quote": "※来場予約は、受付日の前日の１５：００までできます。"
+      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html",
+      "quote": "来場予約は、 令和8年10月15日（木曜日）9時から受付日の前日16時まで できます。"
+    },
+    "notes.0#3": {
+      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html",
+      "quote": "電子申請または郵送で申し込まれる方は予約不要です。"
     },
     "notes.1": {
-      "url": "https://www.city.iruma.saitama.jp/material/files/group/34/R8tebiki0311.pdf",
-      "quote": "１次調整の結果によっては２次調整が行われないため、１次受付期間中にお申込みいただくことをお勧めします。"
+      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html",
+      "quote": "下表のとおり一部施設の特定年齢（クラス）で新規入所児の受け入れの制限を行う可能性がございます。"
+    },
+    "notes.1#2": {
+      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html",
+      "quote": "藤沢保育所 0歳児 東金子保育所 0歳児 金子第二保育所 1歳児、2歳児 二本木保育所 1歳児、2歳児"
+    },
+    "notes.1#3": {
+      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html",
+      "quote": "対象施設を希望される場合は、必ずそれ以外の施設も希望してください。"
     },
     "notes.2": {
-      "url": "https://www.city.iruma.saitama.jp/material/files/group/34/R8tebiki0311.pdf",
-      "quote": "○４月利用保留となった方は、申込みの取下げがない限り、５月以降の利用調整の対象者となります。"
+      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html",
+      "quote": "申請時点で入間市外に住民登録がある方 希望施設に入間市外の施設を含む方 医療的ケアなど保育において特別な配慮を必要とする方"
+    },
+    "notes.2#2": {
+      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html",
+      "quote": "次の方は電子申請ができない ため別の方法でお申込みください。"
     },
     "notes.3": {
-      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/13889.html",
-      "quote": "令和8年度における公立保育所の運営におきまして、現時点で十分な保育士の確保が困難となっております。"
-    },
-    "notes.3#2": {
-      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/13889.html",
-      "quote": "令和8年度は、下記表のとおり一部施設の特定年齢（クラス）で新規入所児の受け入れを見送らせていただくこととなりました。"
+      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html",
+      "quote": "令和8年度用と令和9年度用で様式が異なります。令和9年度用の書類をご提出ください。"
     },
     "notes.4": {
-      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/13889.html",
-      "quote": "ただし、次の方は電子申請ができないため別の方法でお申込みください。 申請時点で入間市外に住民登録がある方 希望施設に入間市外の施設を含む方 医療的ケアなど保育において特別な配慮を必要とする方"
+      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html",
+      "quote": "令和9年4月以降の利用調整に用いる利用調整基準表は利用調整開始までに公開します。"
     },
     "notes.5": {
-      "url": "https://www.city.iruma.saitama.jp/material/files/group/34/R8tebiki0311.pdf",
-      "quote": "複数の施設を希望したほうが、利用調整の際により多くの審査を受けられるため、入園できる可能性が高くなります"
+      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html",
+      "quote": "入間市立保育所では、市外在住で転入予定がない方の受け入れを一部制限しています。"
+    },
+    "notes.5#2": {
+      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html",
+      "quote": "（0〜2歳児：受け入れ不可、3〜5歳児：入間市民の利用調整後に施設の空きに余裕がある場合のみ利用調整）"
     }
   },
   "sources": [
     {
-      "label": "入間市「令和8年度 保育施設等の申込み」",
-      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/13889.html"
+      "label": "入間市「令和9年度 保育施設等の申込み」",
+      "url": "https://www.city.iruma.saitama.jp/soshiki/hoikuyochienka/hoikusho_youchien/10530.html"
     },
     {
-      "label": "入間市「令和8年度 入間市保育施設等申込みの手引き」（PDF）",
-      "url": "https://www.city.iruma.saitama.jp/material/files/group/34/R8tebiki0311.pdf"
+      "label": "入間市「令和9年度入間市保育施設等入所申込みの手引き」（PDF）",
+      "url": "https://www.city.iruma.saitama.jp/material/files/group/34/R9tebiki10052.pdf"
     }
   ]
 }

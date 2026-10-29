@@ -1,179 +1,203 @@
 {
   "citySlug": "minato",
-  "checkedAt": "2026-09-29",
+  "checkedAt": "2026-10-29",
   "page": {
     "label": "港区「保育園入園のごあんない」",
-    "url": "https://www.city.minato.tokyo.jp/hoikusien/r8goannnai.html"
+    "url": "https://www.city.minato.tokyo.jp/hoikusien/r9goannnai.html"
   },
-  "fiscalYear": "R8",
-  "firstApply": "郵送・電子申請は令和7年10月30日（木）〜11月21日（金）必着、窓口申請は令和7年10月30日（木）〜12月2日（火）17時",
-  "applyMethods": "住んでいる地区の総合支所区民課保健福祉係へ、郵送・電子申請または窓口持参で提出する。郵送・電子申請は締切日必着で、区は窓口の混雑緩和のため郵送申請か電子申請への協力を求めている",
-  "firstResult": "令和8年1月30日（金）に郵送で発送（通知をもって発表に代える）",
-  "secondApply": "郵送・電子申請は令和8年1月16日（金）〜2月9日（月）必着、窓口申請は令和8年1月29日（木）〜2月9日（月）17時",
-  "secondResult": "令和8年3月3日（火）に発送（通知をもって発表に代える）",
-  "midYearDeadline": "令和8年度の例では、5月入園の締切が4月3日（金）、6月入園が5月7日（木）、12月入園が11月5日（木）",
+  "fiscalYear": "R9",
+  "firstApply": "電子・郵送・窓口申請とも令和8年10月30日（金）〜11月24日（火）。電子申請・郵送申請は締切日必着",
+  "applyMethods": "住んでいる地区の総合支所区民課保健福祉係へ、電子申請・郵送または窓口持参で提出する。窓口は月〜金曜日（祝日・12月29日〜1月3日を除く）8時30分〜17時。区は窓口の混雑緩和のため電子申請か郵送申請への協力を求めている",
+  "firstResult": "令和9年1月26日（火）に郵送で発送（通知をもって発表に代える）。電話での問合せは2月2日（火）以降",
+  "secondApply": "電子・郵送申請は令和9年1月18日（月）〜2月5日（金）、窓口申請は令和9年1月26日（火）〜2月5日（金）",
+  "secondResult": "令和9年3月2日（火）に発送（通知をもって発表に代える）。電話での問合せは3月5日（金）以降",
+  "midYearDeadline": "令和9年度の例では、5月入園の締切が4月2日（金）、6月入園が5月6日（木）、12月入園が11月4日（木）",
   "documents": [
     "子どものための教育・保育給付認定申請書、保育所入所等申込書",
-    "就労証明書（第2号様式（第6条関係））。締切日から3か月以内に発行されたもの。父母と18〜64歳の同居者それぞれについて必要",
-    "令和8年度認可保育園等申込みに関する確認書（各項目の確認欄にチェックし、父母ともに署名）",
+    "就労証明書（第2号様式（第6条関係））。締切日から3か月以内に発行されたもの。父母それぞれについて必要",
+    "令和9年度認可保育園等申込みに関する確認書（各項目の確認欄にチェックし、父母ともに署名）",
     "世帯全員の個人番号確認書類と申請者の本人確認書類（郵送の場合はコピーを提出）"
   ],
   "interview": "内定後に面接・健康診断を受ける。入園月の前月末までに受ける必要があり、4月1次内定の人は2月頃の予定",
-  "ikukyu": "希望する園に入園できない場合に育児休業の延長を許容できる人は、「令和8年度認可保育園等申込みに関する確認書」の所定欄に記入する。内定しなかった人には初回の結果発表日に限り「保育所入所待機通知書」を送付し、4月入園の待機通知書は令和8年3月3日（火）に発送",
+  "ikukyu": "希望する園に入園できない場合に育児休業の延長を許容できる人は、「令和9年度認可保育園等申込みに関する確認書」の所定欄に記入する。内定しなかった人には初回の結果発表日に限り「保育所入所待機通知書」を送付し、4月入園の待機通知書は令和9年3月2日（火）に発送",
   "notes": [
     "4月入園の申込みをした人は「育児休業明け入所予約制度」には申し込めない",
     "4月入園の1次で内定した人は2次の利用調整にはかからない。別の園を希望するなら辞退届の締切日までに1次の内定を辞退する必要がある",
-    "障害・疾病・発育発達に心配がある子の申込みは受付期間が短く、令和7年10月30日（木）〜11月13日（木）17時",
-    "港区外に住み港区に勤務している人の申込みでは、0〜2歳児クラスの4月〜9月入園は申し込めず、3〜5歳児クラスの4月入園は2次から受け付ける",
-    "窓口予約システムは令和7年11月19日〜12月2日の予約を受け付けていない（予約なしの窓口申請は可能）",
-    "申込時に空きが無い園でも利用調整までに空きが出ることがあるので、空き状況にかかわらず利用したい順に希望園を選ぶ"
+    "障害・疾病・発育発達に心配がある子の申込みは受付期間が短く、令和8年10月30日（金）〜11月13日（金）",
+    "令和9年1月〜3月入園（転園）の申込締切日は令和8年12月3日（木）",
+    "港区外に住み港区に勤務している人の申込みでは、0〜2歳児クラスの4月〜9月入園は申し込めず、3〜5歳児クラス以上の4月入園は2次から受け付ける",
+    "窓口予約システムは令和8年11月10日〜11月24日の予約を受け付けていない（予約なしの窓口申請は可能）"
   ],
   "evidence": {
     "fiscalYear": {
-      "url": "https://www.city.minato.tokyo.jp/documents/171277/goannnai08.pdf",
-      "quote": "下記提出書類については、令和8年4月入園の利用調整から適用されます。"
+      "url": "https://www.city.minato.tokyo.jp/documents/181738/goannnai09.pdf",
+      "quote": "下記提出書類については、令和９年4月入園の利用調整から適用されます。"
     },
     "firstApply": {
-      "url": "https://www.city.minato.tokyo.jp/documents/171277/goannnai08.pdf",
-      "quote": "令和7年１0月30日（木） ～ 令和7年１0月30日（木） ～ 令和7年11月21日（金） 必着 令和7年1２月2日（火） 17時"
+      "url": "https://www.city.minato.tokyo.jp/documents/181738/goannnai09.pdf",
+      "quote": "電子・郵送・窓口申請の受付期間 令和８年１0月30日（金）～令和８年11月24日（火）"
     },
     "firstApply#2": {
-      "url": "https://www.city.minato.tokyo.jp/documents/171277/goannnai08.pdf",
-      "quote": "※窓口の混雑緩和のため、郵送申請又は電子申請にご協力ください。 郵送・電子申請の受付期間 窓口申請の受付期間"
+      "url": "https://www.city.minato.tokyo.jp/documents/181738/goannnai09.pdf",
+      "quote": "なお、電子申請又は郵送申請の場合は締切日必着になりますので、注意してください。"
     },
     "applyMethods": {
-      "url": "https://www.city.minato.tokyo.jp/documents/171277/goannnai08.pdf",
-      "quote": "担当支所に提出書類を郵送・電子申請又は持参。"
+      "url": "https://www.city.minato.tokyo.jp/documents/181738/goannnai09.pdf",
+      "quote": "担当支所に提出書類を電子申請・郵送又は持参。"
     },
     "applyMethods#2": {
-      "url": "https://www.city.minato.tokyo.jp/documents/171277/goannnai08.pdf",
-      "quote": "①郵送先は、お住まいの地区の総合支所区民課保健福祉係です（表紙参照）。"
+      "url": "https://www.city.minato.tokyo.jp/documents/181738/goannnai09.pdf",
+      "quote": "⑦郵送先は、お住まいの地区の総合支所区民課保健福祉係です（表紙参照）。"
     },
     "applyMethods#3": {
-      "url": "https://www.city.minato.tokyo.jp/documents/171277/goannnai08.pdf",
-      "quote": "②締切日必着です。申込締切日までには届くように余裕を持って送付してください。"
+      "url": "https://www.city.minato.tokyo.jp/documents/181738/goannnai09.pdf",
+      "quote": "月曜日～金曜日（祝日・12月29日～1月3日を除く）８時30分～17時"
     },
     "applyMethods#4": {
-      "url": "https://www.city.minato.tokyo.jp/documents/171277/goannnai08.pdf",
-      "quote": "窓口の混雑緩和のため、郵送申請又は電子申請にご協力ください。"
+      "url": "https://www.city.minato.tokyo.jp/documents/181738/goannnai09.pdf",
+      "quote": "※窓口の混雑緩和のため、電子申請又は郵送申請にご協力ください。"
     },
     "applyMethods#5": {
-      "url": "https://www.city.minato.tokyo.jp/hoikusien/r8denshi_shinsei.html",
-      "quote": "令和8年4月からの保育園入園の申込みについて、電子申請が可能です。"
+      "url": "https://www.city.minato.tokyo.jp/hoikusien/r9denshi_shinsei.html",
+      "quote": "令和9年4月からの保育園入園の申込みについて、電子申請が可能です。"
     },
     "firstResult": {
-      "url": "https://www.city.minato.tokyo.jp/documents/171277/goannnai08.pdf",
-      "quote": "令和8年1月３0日（金）発送 （通知をもって発表に代えます。）"
+      "url": "https://www.city.minato.tokyo.jp/documents/181738/goannnai09.pdf",
+      "quote": "令和９年1月26日（火）発送 （通知をもって発表に代えます。）"
     },
     "firstResult#2": {
-      "url": "https://www.city.minato.tokyo.jp/documents/171277/goannnai08.pdf",
+      "url": "https://www.city.minato.tokyo.jp/documents/181738/goannnai09.pdf",
       "quote": "○内定した方には電話又は郵送で連絡します。４月入園は郵送で通知します。"
     },
+    "firstResult#3": {
+      "url": "https://www.city.minato.tokyo.jp/documents/181738/goannnai09.pdf",
+      "quote": "電話での問合せについては、2月２日（火）以降に受け付けます。"
+    },
     "secondApply": {
-      "url": "https://www.city.minato.tokyo.jp/documents/171277/goannnai08.pdf",
-      "quote": "令和8年１月16日（金） ～ 令和8年１月29日（木） ～ 令和8年２月9日（月） 必着 令和8年２月9日（月） １７時"
+      "url": "https://www.city.minato.tokyo.jp/documents/181738/goannnai09.pdf",
+      "quote": "令和９年１月18日（月） ～ 令和９年１月26日（火） ～ 令和９年２月５日（金） 令和9年２月５日（金）"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.minato.tokyo.jp/documents/181738/goannnai09.pdf",
+      "quote": "電子・郵送申請の受付期間 窓口申請の受付期間"
     },
     "secondResult": {
-      "url": "https://www.city.minato.tokyo.jp/documents/171277/goannnai08.pdf",
-      "quote": "令和8年3月3日（火）発送 （通知をもって発表に代えます。）"
+      "url": "https://www.city.minato.tokyo.jp/documents/181738/goannnai09.pdf",
+      "quote": "令和９年3月２日（火）発送 （通知をもって発表に代えます。）"
+    },
+    "secondResult#2": {
+      "url": "https://www.city.minato.tokyo.jp/documents/181738/goannnai09.pdf",
+      "quote": "電話での問合せについては、３月５日（金）以降に受け付けます。"
     },
     "midYearDeadline": {
-      "url": "https://www.city.minato.tokyo.jp/documents/171277/goannnai08.pdf",
+      "url": "https://www.city.minato.tokyo.jp/documents/181738/goannnai09.pdf",
       "quote": "入園・転園希望月 申込締切日 結果発表日"
     },
     "midYearDeadline#2": {
-      "url": "https://www.city.minato.tokyo.jp/documents/171277/goannnai08.pdf",
-      "quote": "5月 4月 3日（金） ３月 9日（月） 4月17日（金）"
+      "url": "https://www.city.minato.tokyo.jp/documents/181738/goannnai09.pdf",
+      "quote": "5月 4月 2日（金） ３月 9日（火） 4月19日（月）"
     },
     "midYearDeadline#3": {
-      "url": "https://www.city.minato.tokyo.jp/documents/171277/goannnai08.pdf",
-      "quote": "6月 5月 7日（木） 4月 3日（金） 5月19日（火）"
+      "url": "https://www.city.minato.tokyo.jp/documents/181738/goannnai09.pdf",
+      "quote": "6月 5月 6日（木） 4月 2日（金） 5月18日（火）"
     },
     "midYearDeadline#4": {
-      "url": "https://www.city.minato.tokyo.jp/documents/171277/goannnai08.pdf",
-      "quote": "12月 11月 5日（木） 10月 5日（月） 11月17日（火）"
+      "url": "https://www.city.minato.tokyo.jp/documents/181738/goannnai09.pdf",
+      "quote": "12月 11月 4日（木） 10月 5日（火） 11月17日（水）"
+    },
+    "midYearDeadline#5": {
+      "url": "https://www.city.minato.tokyo.jp/documents/181738/goannnai09.pdf",
+      "quote": "※令和９年12月１日以降に生まれた方の令和10年1月～3月入園の申込みはできません。"
     },
     "documents.0": {
-      "url": "https://www.city.minato.tokyo.jp/documents/171277/goannnai08.pdf",
+      "url": "https://www.city.minato.tokyo.jp/documents/181738/goannnai09.pdf",
       "quote": "（１） 子どものための教育・保育給付認定申請書、保育所入所等申込書〔DL〕"
     },
     "documents.1": {
-      "url": "https://www.city.minato.tokyo.jp/documents/171277/goannnai08.pdf",
+      "url": "https://www.city.minato.tokyo.jp/documents/181738/goannnai09.pdf",
       "quote": "① 就労証明書（第2号様式（第6条関係））〔DL〕 締切日から3か月以内に発行されたもの"
     },
     "documents.1#2": {
-      "url": "https://www.city.minato.tokyo.jp/documents/171277/goannnai08.pdf",
-      "quote": "※父母及び18～64歳の同居者それぞれについて必要です。"
+      "url": "https://www.city.minato.tokyo.jp/documents/181738/goannnai09.pdf",
+      "quote": "※父母それぞれについて必要です。"
     },
     "documents.2": {
-      "url": "https://www.city.minato.tokyo.jp/documents/171277/goannnai08.pdf",
+      "url": "https://www.city.minato.tokyo.jp/documents/181738/goannnai09.pdf",
       "quote": "内容をよくお読みになり、了解のうえ、各項目の確認欄にチェックし、父母ともに署名してください。"
     },
+    "documents.2#2": {
+      "url": "https://www.city.minato.tokyo.jp/documents/181738/goannnai09.pdf",
+      "quote": "（３） 令和９年度認可保育園等申込みに関する確認書〔DL〕"
+    },
     "documents.3": {
-      "url": "https://www.city.minato.tokyo.jp/documents/171277/goannnai08.pdf",
+      "url": "https://www.city.minato.tokyo.jp/documents/181738/goannnai09.pdf",
       "quote": "申請時に世帯全員の個人番号及び申請者の本人確認書類の提示が必要です。（郵送の場合はコピーの提出が必要です。）"
     },
     "interview": {
-      "url": "https://www.city.minato.tokyo.jp/documents/171277/goannnai08.pdf",
+      "url": "https://www.city.minato.tokyo.jp/documents/181738/goannnai09.pdf",
       "quote": "○面接・健康診断は、必ず入園月の前月末までに受けてください。"
     },
     "interview#2": {
-      "url": "https://www.city.minato.tokyo.jp/documents/171277/goannnai08.pdf",
+      "url": "https://www.city.minato.tokyo.jp/documents/181738/goannnai09.pdf",
       "quote": "（4月１次内定の方の面接・健康診断は、２月頃を予定しています。）"
     },
     "ikukyu": {
-      "url": "https://www.city.minato.tokyo.jp/documents/171277/goannnai08.pdf",
-      "quote": "④希望する認可保育園等に入園できない場合に、育児休業の延長を許容できる方は、「令和8年度認可保育園等申込みに関する確認書」の所定欄に記入してください。"
+      "url": "https://www.city.minato.tokyo.jp/documents/181738/goannnai09.pdf",
+      "quote": "④希望する認可保育園等に入園できない場合に、育児休業の延長を許容できる方は、「令和９年度認可保育園等申込みに関する確認書」の所定欄に記入してください。"
     },
     "ikukyu#2": {
-      "url": "https://www.city.minato.tokyo.jp/documents/171277/goannnai08.pdf",
+      "url": "https://www.city.minato.tokyo.jp/documents/181738/goannnai09.pdf",
       "quote": "○内定に至らなかった方には、初回の結果発表日に限り「保育所入所待機通知書」を送付します。"
     },
     "ikukyu#3": {
-      "url": "https://www.city.minato.tokyo.jp/documents/171277/goannnai08.pdf",
-      "quote": "※保育所入所待機通知書・待機児童向け居宅訪問型保育事業の申込みの結果は、令和８年３月３日（火）に"
+      "url": "https://www.city.minato.tokyo.jp/documents/181738/goannnai09.pdf",
+      "quote": "※保育所入所待機通知書・待機児童向け居宅訪問型保育事業の申込みの結果は、令和９年３月２日（火）に"
     },
     "notes.0": {
-      "url": "https://www.city.minato.tokyo.jp/documents/171277/goannnai08.pdf",
+      "url": "https://www.city.minato.tokyo.jp/documents/181738/goannnai09.pdf",
       "quote": "②４月入園の申込みをした方は、「育児休業明け入所予約制度」の申込みはできません。"
     },
     "notes.1": {
-      "url": "https://www.city.minato.tokyo.jp/documents/171277/goannnai08.pdf",
+      "url": "https://www.city.minato.tokyo.jp/documents/181738/goannnai09.pdf",
       "quote": "④４月入園の１次の利用調整の結果内定した方は、２次の利用調整にはかかりません。内定した園と別の園を希望する場合は、辞退届提出の締切日までに１次の内定を辞退する必要があります。"
     },
     "notes.2": {
-      "url": "https://www.city.minato.tokyo.jp/documents/171277/goannnai08.pdf",
-      "quote": "障害・疾病・発育発達に心配があるお子さん（14ページ参照）の郵送・電子・窓口受付期間 令和7年10月30日（木）～令和7年11月13日（木） １７時"
+      "url": "https://www.city.minato.tokyo.jp/documents/181738/goannnai09.pdf",
+      "quote": "障害・疾病・発育発達に心配があるお子さん（14ページ参照）の電子・郵送・窓口申請の受付期間 令和８年10月30日（金）～令和８年11月13日（金）"
     },
     "notes.3": {
-      "url": "https://www.city.minato.tokyo.jp/documents/171277/goannnai08.pdf",
-      "quote": "・０～２歳児クラスの４月～９月入園については申込みはできません。"
-    },
-    "notes.3#2": {
-      "url": "https://www.city.minato.tokyo.jp/documents/171277/goannnai08.pdf",
-      "quote": "・３～5歳児クラスの４月入園については、２次申込みから受け付けます。"
+      "url": "https://www.city.minato.tokyo.jp/documents/181738/goannnai09.pdf",
+      "quote": "※ご注意ください！令和９年１月～３月入園（転園）の申込締切日は令和８年12月３日（木）です。"
     },
     "notes.4": {
-      "url": "https://www.city.minato.tokyo.jp/documents/171277/goannnai08.pdf",
-      "quote": "ただし、令和7年11月19日～12月2日までの予約は受け付けておりません。"
+      "url": "https://www.city.minato.tokyo.jp/documents/181738/goannnai09.pdf",
+      "quote": "・０～２歳児クラスの４月～９月入園については申込みできません。"
+    },
+    "notes.4#2": {
+      "url": "https://www.city.minato.tokyo.jp/documents/181738/goannnai09.pdf",
+      "quote": "・３～5歳児クラス以上の４月入園については、２次申込みから受け付けます。"
     },
     "notes.5": {
-      "url": "https://www.city.minato.tokyo.jp/documents/171277/goannnai08.pdf",
-      "quote": "空き状況に関わらず、利用したい順に希望園を選択してください。"
+      "url": "https://www.city.minato.tokyo.jp/documents/181738/goannnai09.pdf",
+      "quote": "ただし、令和８年11月10日～11月24日までの予約は受け付けておりません。"
+    },
+    "notes.5#2": {
+      "url": "https://www.city.minato.tokyo.jp/documents/181738/goannnai09.pdf",
+      "quote": "※予約なしの窓口申請や相談も、従来どおり行っております。"
     }
   },
   "sources": [
     {
       "label": "港区「保育園入園のごあんない」",
-      "url": "https://www.city.minato.tokyo.jp/hoikusien/r8goannnai.html"
+      "url": "https://www.city.minato.tokyo.jp/hoikusien/r9goannnai.html"
     },
     {
-      "label": "港区「令和8年度保育園入園のごあんない」",
-      "url": "https://www.city.minato.tokyo.jp/documents/171277/goannnai08.pdf"
+      "label": "港区「令和9年度保育園入園のごあんない」",
+      "url": "https://www.city.minato.tokyo.jp/documents/181738/goannnai09.pdf"
     },
     {
-      "label": "港区「保育園入園申込み（令和８年度）の電子申請について」",
-      "url": "https://www.city.minato.tokyo.jp/hoikusien/r8denshi_shinsei.html"
+      "label": "港区「保育園入園申込み（令和9年度）の電子申請について」",
+      "url": "https://www.city.minato.tokyo.jp/hoikusien/r9denshi_shinsei.html"
     },
     {
       "label": "港区「令和9年度入園申込をされる方へのごあんない」",

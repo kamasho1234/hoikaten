@@ -1,102 +1,127 @@
 {
   "citySlug": "fukaya",
-  "checkedAt": "2026-09-18",
+  "checkedAt": "2026-10-29",
   "page": {
     "label": "深谷市「保育園・認定こども園・小規模保育室の入園について」",
     "url": "https://www.city.fukaya.saitama.jp/soshiki/kodomomirai/hoiku/tanto/hoikushisetsu/hoikuen/1391407065674.html"
   },
-  "fiscalYear": "R8",
-  "firstApply": "令和7年11月4日（火）〜11月28日（金）の期間内受付、または令和7年12月1日（月）〜令和8年2月18日（水）の期間外受付",
-  "firstResult": "令和8年2月中旬に内定通知を発送",
-  "midYearDeadline": "入園希望月の前月の10日まで（10日が土曜、日曜または祝日に当たる場合はその翌開庁日）",
+  "fiscalYear": "R9",
+  "firstApply": "令和8年11月2日（月）〜11月30日（月）の期間内受付、または令和8年12月1日（火）〜令和9年2月18日（木）の期間外受付（期間外は期間内申請者の審査終了後に審査。土曜、日曜、祝日を除く）",
+  "firstResult": "令和9年2月中旬に内定通知を発送。入園できなかった場合は令和9年3月上旬に保育園入園保留通知書を送付",
+  "midYearDeadline": "希望する月の前月の10日まで（10日が土曜、日曜または祝日に当たる場合はその翌開庁日）",
   "documents": [
-    "入園申込書（教育・保育給付認定申請書）",
+    "入園申込書（教育・保育給付認定申請書）（入園申込児童1人につき1枚）",
     "保育施設入園児童に関する確認書",
-    "認可保育園等申込みに関する確認書",
-    "保育の必要性の理由により提出していただく書類（保護者または同居人1人につき1枚提出）",
-    "就労の場合は就労証明書（証明日から3か月以内のもの）",
-    "育児休業中に申込をして入園が決定した場合は復職証明書（入園月の翌月10日までに提出）"
+    "認可保育園等申込みに関する確認書（すべての事項を確認してチェックを入れる）",
+    "保育の必要性の理由により提出する書類（保護者または同居人1人につき1枚）",
+    "就労の場合は就労証明書（証明日から3か月以内のもの。内定を得ている場合も含む）",
+    "育児休業中に申込みをして入園が決定した場合は復職証明書（入園月の翌月10日までに提出。提出がない場合は退園）"
   ],
-  "interview": "入園希望施設は、申込書提出前に必ず見学をしてください。保育園によっては見学ができない日もあるため、事前に見学できる日を直接施設へ確認して申込みをしてください。",
-  "ikukyu": "産休・育休明け等の理由で入園を希望するかたは、出生前であっても申込みを受け付けます。育児休業を取得した事業所に復職することを前提に審査を行い入園を決定します。",
+  "interview": "入園希望施設は事前に必ず見学する。見学は直接施設へ申し込み、必ず児童と一緒に行く",
+  "ikukyu": "新入園（4月入園）のみ出生前でも申込みを受け付ける。育児休業を取得した事業所（人事異動可）に復職することを前提に審査する。入園希望の意思がなく保留を希望する旨の相談には応じず、入園保留となってもハローワークで育児休業給付金の延長が認められない場合がある",
   "notes": [
-    "申請期間内（11月4日～28日）に申し込んだ場合は期間内受付として審査され、その期間を過ぎたかたの申し込みは期間外受付として期間内申請者の審査終了後に審査が行われます。",
-    "出産予定月から2か月を迎えた月の末日で退園となります。",
-    "求職活動を事由とする場合、入園月の翌々月10日までに就労証明書を提出してください。提出できない場合は、入園月より3か月の末日で退園となります。",
-    "利用者負担額（保育料）・学童保育料に滞納がある場合は大きく減点となり、納付相談をしていない場合は期間外審査に移行します。"
+    "市内園を希望して希望の保育園に入園できない場合は、審査期間中（令和9年2月中旬まで）に市から電話連絡があり、別の保育園を希望するか、空き待ちか、取り下げかを選ぶ。",
+    "保育料・学童保育料に滞納がある場合は大きく減点となり、納付相談をしていない場合は期間外審査（11月30日までに申請したかたの審査終了後の空き状況による審査）に移行する。",
+    "妊娠・出産が理由の場合は、出産予定月から2か月を迎えた月の末日で退園となる。",
+    "求職活動を理由として入園が決定した場合は、入園月の翌々月10日までに就労証明書を提出する（提出がない場合は退園）。",
+    "保育園入園審査結果について、通知発送前は電話での問い合わせに回答できない。"
   ],
   "evidence": {
     "fiscalYear": {
-      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R8hoikuenntebuki.pdf",
-      "quote": "令和８年度 保育園・認定こども園・小規模保育室 入園手引き"
+      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R9hoikuen_nyuuentebiki.pdf",
+      "quote": "令和９年度 保育園・認定こども園・小規模保育室 入園手引き"
+    },
+    "fiscalYear#2": {
+      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R9hoikuen_nyuuentebiki.pdf",
+      "quote": "４月 入園 期間内 受付 令和８年１１月２日（月） ～ 令和８年１１月３０日（月）"
     },
     "firstApply": {
-      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R8hoikuenntebuki.pdf",
-      "quote": "受付 令和７年１１月４日（火） ～ 令和７年１１月２８日（金）"
+      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R9hoikuen_nyuuentebiki.pdf",
+      "quote": "４月 入園 期間内 受付 令和８年１１月２日（月） ～ 令和８年１１月３０日（月）"
     },
     "firstApply#2": {
-      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R8hoikuenntebuki.pdf",
-      "quote": "令和７年１２月１日（月） ～ 令和８年 ２月１８日（水） （期間内申請者の審査終了後に審査を行います。）"
+      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R9hoikuen_nyuuentebiki.pdf",
+      "quote": "期間外 受付 令和８年１２月１日（火） ～ 令和９年 ２月１８日（木） （期間内申請者の審査終了後に審査を行います。）"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R9hoikuen_nyuuentebiki.pdf",
+      "quote": "申請期間(期限)について※土曜、日曜、祝日を除きます。"
     },
     "firstResult": {
-      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R8hoikuenntebuki.pdf",
-      "quote": "希望の保育園に入園が内定した場合は 、令和８年２月中旬に内定通知を発送します。"
+      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R9hoikuen_nyuuentebiki.pdf",
+      "quote": "希望の保育園に入園が内定した場合は 、令和９年２月中旬に内定通知を発送します。"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R9hoikuen_nyuuentebiki.pdf",
+      "quote": "選考の結果保育園に入園できなかったかたには、保育園入園保留通知書を令和９年３月上旬に送付します。"
     },
     "midYearDeadline": {
-      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R8hoikuenntebuki.pdf",
+      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R9hoikuen_nyuuentebiki.pdf",
       "quote": "途中入園受付 （５月～３月） 希望する月の前月の１０日まで （１０日が土曜、日曜または祝日に当たる場合はその翌開庁日）"
     },
     "documents.0": {
-      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R8hoikuenntebuki.pdf",
+      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R9hoikuen_nyuuentebiki.pdf",
       "quote": "☐ ① 入園申込書（教育・保育給付認定申請書） 入園申込児童 1人につき1枚"
     },
     "documents.1": {
-      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R8hoikuenntebuki.pdf",
+      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R9hoikuen_nyuuentebiki.pdf",
       "quote": "☐ ② 保育施設入園児童に関する確認書"
     },
     "documents.2": {
-      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R8hoikuenntebuki.pdf",
-      "quote": "☐ ③ 認可保育園等申込みに関する確認書は必ずすべての事項を確認したうえで、チェックを入れてお持ちください。"
+      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R9hoikuen_nyuuentebiki.pdf",
+      "quote": "☐ ③ 認可保育園等申込みに関する確認書は必ずすべての事項を確認したうえで、"
     },
     "documents.3": {
-      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R8hoikuenntebuki.pdf",
+      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R9hoikuen_nyuuentebiki.pdf",
       "quote": "保育の必要性の理由により提出していただく書類（保護者または同居人1人につき1枚提出）"
     },
     "documents.4": {
-      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R8hoikuenntebuki.pdf",
-      "quote": "☐ 就労の場合 就労証明書 証明日から3か月以内のもの"
+      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R9hoikuen_nyuuentebiki.pdf",
+      "quote": "☐ 就労の場合 就労証明書 証明日から3か月以内のもの 内定を得ている場合も含む"
     },
     "documents.5": {
-      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R8hoikuenntebuki.pdf",
-      "quote": "☐ 復職証明書 ※育児休業を取得した事業所（人事異動可）に復職することを前提に審査を行い入園を決定します。同一の事業所に入園月の翌月15日までに復職しない場合や、退職又は転職をした場合は退園となります。 入園月の翌月１０日までに提出（提出がない場合は退園）"
+      "url": "https://www.city.fukaya.saitama.jp/soshiki/kodomomirai/hoiku/tanto/hoikushisetsu/hoikuen/1391407065674.html",
+      "quote": "（注意）育児休業明けに入園が決定した場合は、入園後（復職後）に復職証明書を入園月の翌月10日までに提出してください。提出がない場合は、退園となります。"
     },
     "interview": {
-      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R8hoikuenntebuki.pdf",
-      "quote": "入園希望施設は、申込書提出前に必ず見学をしてください。保育園によっては見学ができない日もあるため、事前に見学できる日を直接施設へ確認して申込みをしてください。"
+      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R9hoikuen_nyuuentebiki.pdf",
+      "quote": "入園希望施設は、事前に必ず見学をしてください。見学は直接施設へ申込みを行い、必ず児童と一緒に行ってください。"
     },
     "ikukyu": {
-      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R8hoikuenntebuki.pdf",
-      "quote": "産休・育休明け等の理由で入園を希望するかたは、出生前であっても申込みを受け付けます。"
+      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R9hoikuen_nyuuentebiki.pdf",
+      "quote": "・新入園（４月入園）のみ、出生前であっても申込みを受け付けます。"
     },
     "ikukyu#2": {
-      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R8hoikuenntebuki.pdf",
+      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R9hoikuen_nyuuentebiki.pdf",
       "quote": "※育児休業を取得した事業所（人事異動可）に復職することを前提に審査を行い入園を決定します。"
     },
+    "ikukyu#3": {
+      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R9hoikuen_nyuuentebiki.pdf",
+      "quote": "・実際には入園希望の意思がなく保留を希望している旨の相談には応じられません。"
+    },
+    "ikukyu#4": {
+      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R9hoikuen_nyuuentebiki.pdf",
+      "quote": "・入園保留となった場合でも、ハローワークにおいて育児休業給付金の延長が認められない場合があります。"
+    },
     "notes.0": {
-      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R8hoikuenntebuki.pdf",
-      "quote": "受付 令和７年１１月４日（火） ～ 令和７年１１月２８日（金） 期間外 受付 令和７年１２月１日（月） ～ 令和８年 ２月１８日（水） （期間内申請者の審査終了後に審査を行います。）"
+      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R9hoikuen_nyuuentebiki.pdf",
+      "quote": "望の保育園に入園できない場合は、審査期間中（令和９年２月中旬まで）に電話連絡いたしますので、次のいずれかを選んでいただきます。"
     },
     "notes.1": {
-      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R8hoikuenntebuki.pdf",
-      "quote": "出産予定月から２か月を迎えた月の末日で退園"
+      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R9hoikuen_nyuuentebiki.pdf",
+      "quote": "に滞納がある場合は大きく減点となり、納付相談をしていない場合は期間外審査(１１月３０日までに申請したかたの審査終了後の空き状況による審査)に移行しますのでご注意ください。"
     },
     "notes.2": {
-      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R8hoikuenntebuki.pdf",
-      "quote": "☐ 就労証明書 入園月の翌々月 10日までに提出（ 提出がない場合は退園）"
+      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R9hoikuen_nyuuentebiki.pdf",
+      "quote": "出産予定月から２か月を迎えた月の末日で退園"
     },
     "notes.3": {
-      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R8hoikuenntebuki.pdf",
-      "quote": "利用者負担額(以下「保育料」)・学童保育料に滞納がある場合 は大きく減点となり、納付相談をしていない場合は期間外審査(１１月２８日までに申請したかたの審査終了後の空き状況 によ る審査)に移行しますのでご注意ください。"
+      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R9hoikuen_nyuuentebiki.pdf",
+      "quote": "☐ 就労証明書 入園月の翌々月 １０日までに提出（提出がない場合は退園）"
+    },
+    "notes.4": {
+      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R9hoikuen_nyuuentebiki.pdf",
+      "quote": "・保育園入園審査結果について、通知発送前は電話でのお問い合わせに回答できません。"
     }
   },
   "sources": [
@@ -105,8 +130,8 @@
       "url": "https://www.city.fukaya.saitama.jp/soshiki/kodomomirai/hoiku/tanto/hoikushisetsu/hoikuen/1391407065674.html"
     },
     {
-      "label": "深谷市「令和8年度保育園・認定こども園・小規模保育室 入園手引き」",
-      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R8hoikuenntebuki.pdf"
+      "label": "深谷市「令和9年度保育園・認定こども園・小規模保育室 入園手引き」",
+      "url": "https://www.city.fukaya.saitama.jp/material/files/group/32/R9hoikuen_nyuuentebiki.pdf"
     }
   ]
 }

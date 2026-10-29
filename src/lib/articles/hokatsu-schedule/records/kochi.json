@@ -1,95 +1,83 @@
 {
   "citySlug": "kochi",
-  "checkedAt": "2026-09-18",
+  "checkedAt": "2026-10-29",
   "page": {
-    "label": "高知市「保育施設利用申込について」",
+    "label": "高知市「令和9年度保育施設利用申込について」",
     "url": "https://www.city.kochi.kochi.jp/soshiki/34/hoikusisetsu-moshikomi.html"
   },
-  "fiscalYear": "R8",
-  "guideRelease": "令和7年10月31日（金曜日）から申込書類等を配布",
-  "firstApply": "令和7年12月1日（金曜日）～12月12日（火曜日）",
-  "applyMethods": "保育幼稚園課（本庁舎3階308窓口）のみの受付で、直接提出またはマイナポータルの電子申請",
-  "firstResult": "令和8年1月30日（金曜日）付で自宅宛てに発送",
-  "secondApply": "令和7年12月15日（金曜日）～令和8年2月13日（金曜日）",
-  "secondResult": "令和8年3月2日（月曜日）付で発送予定で令和8年3月4日（水曜日）頃までに配達予定",
-  "documents": [
-    "教育・保育給付認定申請書兼保育施設利用申込書",
-    "保育の必要性を証明する書類（世帯で1部。父母ともに1部ずつ必要）",
-    "マイナンバーカード（全員分。ない場合は個人番号入りの住民票の写し）"
-  ],
-  "interview": "心身において特別な配慮が必要なお子さん、または発育や発達の面で気になることのあるお子さんの場合、保護者の話を聞きながらお子さんの様子を見させていただくので、お子さんとご一緒にご来庁",
+  "fiscalYear": "R9",
+  "guideRelease": "利用申込案内を令和8年11月2日（月曜日）から配布",
+  "firstApply": "令和8年12月1日（火曜日）～令和8年12月14日（月曜日）",
+  "applyMethods": "本庁舎での一次募集の受付はインターネット予約のうえで窓口受付。マイナポータル（ぴったりサービス）の電子申請も可（一次募集は受付期間終了日の23時59分まで）",
+  "secondApply": "令和8年12月15日（火曜日）～令和9年2月12日（金曜日）",
+  "midYearDeadline": "電子申請の締切は原則として入所希望月の前々月末日の23時59分まで",
   "notes": [
-    "申込有効期間は原則申込いただいた年度末（3月末）までで、令和8年度の場合は令和9年3月末まで",
-    "妊娠・出産事由で申込いただいた場合は産後6か月までが有効期間",
-    "書類に不備がある場合は、利用調整（選考）の対象から除外される",
-    "利用開始希望月の前々月（2か月前）の末日（末日が土・日・祝の場合は直前の開庁日）までが、5月以降の利用申込の締切日"
+    "原則として高知市に実際に居住し住民登録をしている世帯が対象。転入予定でも申込できるが、利用開始（希望）月の前月末時点で高知市に住民登録がある方に限る",
+    "4月からの利用に限り、月齢1～3か月で受入可能な保育施設を希望する場合は、母子健康手帳の写しを添付すれば出産予定でも申込できる",
+    "出生前の場合の受入可能な月齢要件は出産予定日で確認し、実際に生まれた月が予定日より後になった場合は利用調整をやり直す（再選考）"
   ],
   "evidence": {
     "fiscalYear": {
       "url": "https://www.city.kochi.kochi.jp/soshiki/34/hoikusisetsu-moshikomi.html",
-      "quote": "クラス年齢は、令和8年4月1日時点での年齢です。"
+      "quote": "令和9年度利用申込案内は、令和8年11月2日（月曜日）より配布を開始いたします。"
     },
     "guideRelease": {
       "url": "https://www.city.kochi.kochi.jp/soshiki/34/hoikusisetsu-moshikomi.html",
-      "quote": "下記の場所にて令和7年10月31日(金曜日)から配布しています。"
+      "quote": "令和9年度利用申込案内は、令和8年11月2日（月曜日）より配布を開始いたします。"
     },
     "firstApply": {
       "url": "https://www.city.kochi.kochi.jp/soshiki/34/hoikusisetsu-moshikomi.html",
-      "quote": "1次募集(令和7年12月1日～令和7年12月12日受付分)"
+      "quote": "令和8年12月1日(火曜日)から令和8年12月14日(月曜日)まで"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.kochi.kochi.jp/soshiki/34/hoikusisetsu-moshikomi.html",
+      "quote": "※令和9年度4月利用一次募集の本庁舎での利用申込受付は混雑の緩和や待ち時間の短縮のため、インターネット予約の上での窓口受付を行います。"
     },
     "applyMethods": {
       "url": "https://www.city.kochi.kochi.jp/soshiki/34/hoikusisetsu-moshikomi.html",
-      "quote": "保育幼稚園課(本庁舎3階308窓口)のみの受付となります。"
+      "quote": "※令和9年度4月利用一次募集の本庁舎での利用申込受付は混雑の緩和や待ち時間の短縮のため、インターネット予約の上での窓口受付を行います。"
     },
-    "firstResult": {
-      "url": "https://www.city.kochi.kochi.jp/soshiki/34/hoikusisetsu-moshikomi.html",
-      "quote": "令和8年1月30日（金曜日）付で文書をご自宅宛てに発送しました。"
+    "applyMethods#2": {
+      "url": "https://www.city.kochi.kochi.jp/soshiki/34/densisinnsei.html",
+      "quote": "※4月入所申込み（一次募集）については、受付期間終了日の23時59分までとなります。"
     },
     "secondApply": {
       "url": "https://www.city.kochi.kochi.jp/soshiki/34/hoikusisetsu-moshikomi.html",
-      "quote": "2次募集(令和7年12月15日～令和8年2月13日受付分)"
+      "quote": "令和8年12月15日(火曜日)から令和9年2月12日(金曜日)まで"
     },
-    "secondResult": {
-      "url": "https://www.city.kochi.kochi.jp/soshiki/34/hoikusisetsu-moshikomi.html",
-      "quote": "令和8年3月2日（月曜日）付で文書をご自宅宛てに発送予定で、令和8年3月4日（水曜日）頃までに届く予定"
-    },
-    "documents.0": {
-      "url": "https://www.city.kochi.kochi.jp/soshiki/34/hoikusisetsu-moshikomi.html",
-      "quote": "教育・保育給付認定申請書兼保育施設利用申込書"
-    },
-    "documents.1": {
-      "url": "https://www.city.kochi.kochi.jp/soshiki/34/hoikusisetsu-moshikomi.html",
-      "quote": "保育の必要性を証明する書類(※注1)世帯で1部（父母ともに1部ずつ必要）"
-    },
-    "documents.2": {
-      "url": "https://www.city.kochi.kochi.jp/soshiki/34/hoikusisetsu-moshikomi.html",
-      "quote": "申込用紙に記載いただいた個人番号が正しいものであるかをマイナンバーカードにて確認する必要がありますので、家族全員分をお持ちください。"
-    },
-    "interview": {
-      "url": "https://www.city.kochi.kochi.jp/soshiki/34/hoikusisetsu-moshikomi.html",
-      "quote": "以下に該当する場合は、保護者の話を聞きながら、お子さんの様子を見させていただきますので、お子さんとご一緒にご来庁ください。"
+    "midYearDeadline": {
+      "url": "https://www.city.kochi.kochi.jp/soshiki/34/densisinnsei.html",
+      "quote": "電子申請の締切りは原則入所希望月の前々月末日の23時59分までとなります。"
     },
     "notes.0": {
       "url": "https://www.city.kochi.kochi.jp/soshiki/34/hoikusisetsu-moshikomi.html",
-      "quote": "原則申込いただいた年度末（3月末）までとなります。（※令和8年度は令和9年3月末まで）"
+      "quote": "なお、転入予定の場合でも申込はできますが、利用開始（希望）月の前月末時点で高知市に住民登録がある方に限ります。"
+    },
+    "notes.0#2": {
+      "url": "https://www.city.kochi.kochi.jp/soshiki/34/hoikusisetsu-moshikomi.html",
+      "quote": "原則として、高知市に実際に居住し住民登録をしている世帯を対象とします。"
     },
     "notes.1": {
       "url": "https://www.city.kochi.kochi.jp/soshiki/34/hoikusisetsu-moshikomi.html",
-      "quote": "ただし、妊娠・出産事由で申込いただいた場合は産後6か月までとなります。"
+      "quote": "4月からの利用に限り、月齢1～3か月での受入可能な保育施設を希望される場合は、母子健康手帳の写しを添付することで、出産予定でも申し込むことができます。"
     },
     "notes.2": {
       "url": "https://www.city.kochi.kochi.jp/soshiki/34/hoikusisetsu-moshikomi.html",
-      "quote": "また、利用調整（選考）は、申込の締切日までに提出された書類で行います。書類に不備がある場合は、利用調整（選考）の対象から除外されます。"
+      "quote": "なお、出生前の場合の受入可能な月齢要件は、出産予定日で確認します。"
     },
-    "notes.3": {
+    "notes.2#2": {
       "url": "https://www.city.kochi.kochi.jp/soshiki/34/hoikusisetsu-moshikomi.html",
-      "quote": "利用開始希望月の前々月（2か月前）の末日（末日が土・日・祝の場合は直前の開庁日）までとなります。"
+      "quote": "（利用決定の場合でも利用調整をやり直します（再選考）。）"
     }
   },
   "sources": [
     {
-      "label": "高知市「保育施設利用申込について」",
+      "label": "高知市「令和9年度保育施設利用申込について」",
       "url": "https://www.city.kochi.kochi.jp/soshiki/34/hoikusisetsu-moshikomi.html"
+    },
+    {
+      "label": "高知市「マイナポータルの子育てワンストップサービスにおける保育施設入所申込の電子申請について」",
+      "url": "https://www.city.kochi.kochi.jp/soshiki/34/densisinnsei.html"
     }
   ]
 }

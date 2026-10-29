@@ -1,72 +1,81 @@
 {
   "citySlug": "meguro",
-  "checkedAt": "2026-09-29",
+  "checkedAt": "2026-10-29",
   "page": {
     "label": "目黒区「保育施設利用のご案内（窓口配布用）」",
     "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/hoikuennado/moushikomiannai.html"
   },
-  "fiscalYear": "R8",
-  "guideRelease": "令和7年10月1日以降、保育施設利用のご案内（窓口配布用の案内冊子）を保育課保育施設利用係と地区サービス事務所で順次配布",
-  "firstApply": "令和7年12月1日（月曜日）午後5時必着（窓口受付の締切）。郵送・オンラインは11月26日（水曜日）必着",
-  "applyMethods": "保育課保育施設利用係（目黒区総合庁舎本館2階）の窓口、郵送またはオンライン（マイナポータルのぴったりサービス）で受け付ける。令和7年11月16日（日曜日）午前10時から午後4時まで（正午から午後1時までを除く）に休日臨時窓口を開設",
-  "firstResult": "令和8年2月2日（月曜日）に結果発表（予定）。結果通知は自宅に郵送",
-  "secondApply": "令和8年2月13日（金曜日）午後5時必着（窓口受付の締切）。郵送・オンラインは2月9日（月曜日）必着",
-  "secondResult": "令和8年3月5日（木曜日）に結果発表（予定）",
-  "midYearDeadline": "毎月8日頃が翌月1日入所の申込みの締切。2月と3月の入所はない",
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年9月30日以降、保育施設利用のご案内（窓口配布用の案内冊子）を保育課保育施設利用係と地区サービス事務所で順次配布",
+  "firstApply": "令和8年12月1日（火曜日）午後5時必着（窓口受付の締切）。郵送・オンラインは11月26日（木曜日）必着",
+  "applyMethods": "目黒区総合庁舎本館2階の保育課保育施設利用係の窓口（月曜日から金曜日、祝日を除く8時30分から17時、予約不要）、郵送またはオンライン（マイナポータルの「ぴったりサービス」）で申し込む。令和8年11月15日（日曜日）午前10時から午後4時まで（正午から午後1時までを除く）に休日臨時窓口を開設",
+  "firstResult": "令和9年2月1日（月曜日）に結果発表（予定）。結果通知は自宅に郵送",
+  "secondApply": "令和9年2月12日（金曜日）午後5時必着（窓口受付の締切）。郵送・オンラインは2月8日（月曜日）必着",
+  "secondResult": "令和9年3月4日（木曜日）に結果発表（予定）",
+  "midYearDeadline": "毎月8日頃が翌月1日入所の申込みの締切（郵送・オンラインは窓口受付締切日の3開庁日前必着）。2月と3月の入所はない",
   "documents": [
-    "教育・保育給付認定申請書",
-    "保護者が保育を必要とすることを証明する書類（就労証明書、病状内容確認書等）。証明書類は証明日が提出月当月、前月又は前々月のものが有効",
-    "世帯の所得状況が確認できる書類",
-    "保育の利用申込書",
-    "その他各家庭の状況に応じて必要な書類（受託証明書等）",
-    "保育所入所申込受付チェックシート兼同意書（郵送の場合のみ）"
+    "教育・保育給付認定申請書（保育の利用申込みと同時に申請する）",
+    "保育を必要とすることの証明書類（就労証明書、病状内容確認書など。父母それぞれ）。証明書類は証明日が提出月当月、前月又は前々月のものが有効",
+    "住民税課税（非課税）証明書（父母）。令和9年4月入所から8月入所は令和8年度（令和7年中の収入分）",
+    "保育の利用申込書（希望園は10園まで記入できる）",
+    "延長保育申込書（公立認可保育園用。公立園で延長保育の利用を希望する場合のみ）",
+    "受託証明書（認可外保育所等に受託している場合）",
+    "保育所入所申込郵送受付チェックシート兼同意書（郵送の場合）"
   ],
   "interview": "内定した保育施設等で面談と健康診断を行う（面談時に支給認定証の提示が必要）。入所日までに面談と健康診断が終わっていないと通所できない",
-  "ikukyu": "利用申込書の家庭状況書にある「希望する保育所等に入所できない場合は、育児休業の延長も許容できる。」にチェックをつけた場合のみ調整指数を▲40するなどして、より保育を必要とする方を優先して選考する。就労証明書に育児休業取得期間が記載され、締切日現在育児休業を取得中の方のみの取り扱い",
+  "ikukyu": "保育の利用申込書の家庭状況書にある「希望する保育所等に入所できない場合は、育児休業の延長も許容できる。」にチェックをつけた場合のみ調整指数を▲40するなどして、より保育を必要とする方を優先して選考する。就労証明書に育児休業取得期間が記載され、締切日現在育児休業を取得中の方のみの取り扱い",
   "notes": [
     "令和9年4月入所から、目黒区外に在住の子ども（転入予定者を除く）の申込受付は3から5歳児クラスのみとなり、0から2歳児クラスは受け付けない",
-    "利用申込書には希望園を10園まで書ける",
+    "経過措置として、令和9年4月から令和10年1月入所は、締切日時点で兄弟姉妹が区内の私立認可保育園または小規模保育施設に在所し入所日時点も在所が続く見込みなら、その施設に限り申し込める",
+    "転入予定の証明書類の提出が締切日時点で間に合わなくても受付できるが、利用調整指数は0点として扱う",
     "利用調整は利用調整基準指数の高い方から順に内定する（先着順・抽選ではない）",
-    "締切日までに書類の提出がない場合や書類に不備がある場合、利用調整で不利になるか選考対象外になる",
-    "2月6日（金）に、4月1次利用調整の内定辞退等を反映させた最新の空き状況をホームページで公開する予定",
-    "八雲保育園の2時間延長保育は令和8年度末（令和9年3月31日）で廃止"
+    "締切日以前に書類の提出がない場合や書類に不備がある場合、利用調整で不利になるか選考対象外になる",
+    "2月5日（金）に、4月1次利用調整の内定辞退等を反映させた最新の空き状況をホームページで公開する予定"
   ],
   "evidence": {
     "fiscalYear": {
       "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/hoikuennado/moushikomiannai.html",
-      "quote": "令和8年4月から令和9年1月入所対象のご案内になります。"
+      "quote": "令和9年4月から令和10年1月入所対象のご案内になります。"
     },
     "guideRelease": {
       "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/hoikuennado/moushikomiannai.html",
-      "quote": "令和7年10月1日以降、順次配布開始します。 保育課保育施設利用係 地区サービス事務所"
+      "quote": "令和8年9月30日以降、順次配布開始します。 保育課保育施設利用係 地区サービス事務所"
     },
     "firstApply": {
       "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/hoikuennado/moushikomiannai.html",
-      "quote": "令和8年4月（1次利用調整） 入所 令和7年12月1日（月曜日） 令和8年2月2日（月曜日）"
+      "quote": "令和9年4月（1次利用調整） 入所 令和8年12月1日（火曜日） 令和9年2月1日（月曜日）"
     },
     "firstApply#2": {
       "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/hoikuennado/moushikomiannai.html",
-      "quote": "郵送・オンライン受付の締切日は下記のとおりです。 4月入所（1次利用調整）11月26日（水曜日）必着"
+      "quote": "郵送・オンライン受付の締切日は下記のとおりです。 4月入所（1次利用調整）11月26日（木曜日）必着"
     },
     "firstApply#3": {
       "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/hoikuennado/moushikomiannai.html",
       "quote": "入所希望月 窓口受付締切日 午後5時必着 結果発表日（予定）"
     },
     "applyMethods": {
-      "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/hoikuennado/nagare.html",
-      "quote": "申込みは、保育課保育施設利用係窓口、郵送又はオンラインで受け付けております。"
+      "url": "https://www.city.meguro.tokyo.jp/documents/3899/riyouannai.pdf",
+      "quote": "月曜日から金曜日（祝日を除く）８：３０～１７：００"
     },
     "applyMethods#2": {
-      "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/hoikuennado/moushikomiannai.html",
-      "quote": "目黒区総合庁舎本館2階　保育課保育施設利用係 日程 令和7年11月16日（日曜日） 時間 午前10時から午後4時まで（正午から午後1時までを除く）"
+      "url": "https://www.city.meguro.tokyo.jp/documents/3899/riyouannai.pdf",
+      "quote": "予約は不要です。必要事項を記入し、受付場所にお越しください。"
     },
     "applyMethods#3": {
-      "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/hoikuennado/online.html",
-      "quote": "オンライン申請は、国が運営するマイナポータルの「ぴったりサービス」から行えます。"
+      "url": "https://www.city.meguro.tokyo.jp/documents/3899/riyouannai.pdf",
+      "quote": "国が運営するマイナポータルの「ぴったりサービス」から行えます。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/hoikuennado/moushikomiannai.html",
+      "quote": "目黒区総合庁舎本館2階　保育課保育施設利用係 日程 令和8年11月15日（日曜日） 時間 午前10時から午後4時まで（正午から午後1時までを除く）"
+    },
+    "applyMethods#5": {
+      "url": "https://www.city.meguro.tokyo.jp/documents/3899/riyouannai.pdf",
+      "quote": "郵送の際は、保育所入所申込郵送受付チェックシート兼同意書とともにお送りください。"
     },
     "firstResult": {
       "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/hoikuennado/moushikomiannai.html",
-      "quote": "令和8年4月（1次利用調整） 入所 令和7年12月1日（月曜日） 令和8年2月2日（月曜日）"
+      "quote": "令和9年4月（1次利用調整） 入所 令和8年12月1日（火曜日） 令和9年2月1日（月曜日）"
     },
     "firstResult#2": {
       "url": "https://www.city.meguro.tokyo.jp/documents/3899/riyouannai.pdf",
@@ -74,51 +83,67 @@
     },
     "secondApply": {
       "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/hoikuennado/moushikomiannai.html",
-      "quote": "令和8年4月（2次利用調整） 入所・延長保育 令和8年2月13日（金曜日） 令和8年3月5日（木曜日）"
+      "quote": "令和9年4月（2次利用調整） 入所・延長保育 令和9年2月12日（金曜日） 令和9年3月4日（木曜日）"
     },
     "secondApply#2": {
       "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/hoikuennado/moushikomiannai.html",
-      "quote": "4月入所（2次利用調整） 2月9日（月曜日）必着"
+      "quote": "4月入所（2次利用調整） 2月8日（月曜日）必着"
     },
     "secondResult": {
       "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/hoikuennado/moushikomiannai.html",
-      "quote": "令和8年4月（2次利用調整） 入所・延長保育 令和8年2月13日（金曜日） 令和8年3月5日（木曜日）"
+      "quote": "令和9年4月（2次利用調整） 入所・延長保育 令和9年2月12日（金曜日） 令和9年3月4日（木曜日）"
     },
     "midYearDeadline": {
       "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/hoikuennado/nagare.html",
       "quote": "毎月8日頃が翌月1日入所の申込みの締切となります。また、2月と3月の入所はありません。"
     },
+    "midYearDeadline#2": {
+      "url": "https://www.city.meguro.tokyo.jp/documents/3899/riyouannai.pdf",
+      "quote": "それ以外の各月も窓口受付締切日の３開庁日前必着"
+    },
     "documents.0": {
-      "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/hoikuennado/nagare.html",
-      "quote": "保育の利用申し込みにあたっては、教育・保育給付認定を受ける必要があります。"
+      "url": "https://www.city.meguro.tokyo.jp/documents/3899/riyouannai.pdf",
+      "quote": "このため、保育の利用申込みと同時に認定の申請を行う必要があります。"
     },
     "documents.0#2": {
-      "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/hoikuennado/nagare.html",
-      "quote": "必要書類 教育・保育給付認定申請書"
+      "url": "https://www.city.meguro.tokyo.jp/documents/3899/riyouannai.pdf",
+      "quote": "「保育の利用申込書兼教育・保育給付認定申請書」は、（１）と（４）を兼ねることができる書類です。"
     },
     "documents.1": {
-      "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/hoikuennado/nagare.html",
-      "quote": "保護者が保育を必要とすることを証明する書類（就労証明書、病状内容確認書等）"
+      "url": "https://www.city.meguro.tokyo.jp/documents/3899/riyouannai.pdf",
+      "quote": "（就労証明書、病状内容確認書など。詳細は９ページをご確認ください。）"
     },
     "documents.1#2": {
+      "url": "https://www.city.meguro.tokyo.jp/documents/3899/riyouannai.pdf",
+      "quote": "なお、父母それぞれの書類が必要です。"
+    },
+    "documents.1#3": {
       "url": "https://www.city.meguro.tokyo.jp/documents/3899/riyouannai.pdf",
       "quote": "証明書類は証明日が提出月当月、前月又は前々月のものが有効です。"
     },
     "documents.2": {
-      "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/hoikuennado/nagare.html",
-      "quote": "世帯の所得状況が確認できる書類 保育の利用申込書"
+      "url": "https://www.city.meguro.tokyo.jp/documents/3899/riyouannai.pdf",
+      "quote": "住民税課税（非課税）証明書（父母）- 記載項目に省略のない物"
+    },
+    "documents.2#2": {
+      "url": "https://www.city.meguro.tokyo.jp/documents/3899/riyouannai.pdf",
+      "quote": "令和９年４月入所～８月入所は令和８年度（令和７年中の収入分）"
     },
     "documents.3": {
-      "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/hoikuennado/nagare.html",
-      "quote": "世帯の所得状況が確認できる書類 保育の利用申込書 その他各家庭の状況に応じて必要な書類（受託証明書等）"
+      "url": "https://www.city.meguro.tokyo.jp/documents/3899/riyouannai.pdf",
+      "quote": "入所を希望する保育園や家庭状況、児童状況等をご記入ください。希望園は１０園までご記入いただけます。"
     },
     "documents.4": {
-      "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/hoikuennado/nagare.html",
-      "quote": "その他各家庭の状況に応じて必要な書類（受託証明書等）"
+      "url": "https://www.city.meguro.tokyo.jp/documents/3899/riyouannai.pdf",
+      "quote": "公立園で延長保育の利用を希望する方のみご提出ください。"
     },
     "documents.5": {
-      "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/hoikuennado/nagare.html",
-      "quote": "保育所入所申込受付チェックシート兼同意書（郵送の場合のみ必要）"
+      "url": "https://www.city.meguro.tokyo.jp/documents/3899/riyouannai.pdf",
+      "quote": "受託証明書●…認可外保育所等に受託している場合"
+    },
+    "documents.6": {
+      "url": "https://www.city.meguro.tokyo.jp/documents/3899/riyouannai.pdf",
+      "quote": "郵送の際は、保育所入所申込郵送受付チェックシート兼同意書とともにお送りください。"
     },
     "interview": {
       "url": "https://www.city.meguro.tokyo.jp/documents/3899/riyouannai.pdf",
@@ -138,31 +163,39 @@
     },
     "ikukyu#3": {
       "url": "https://www.city.meguro.tokyo.jp/documents/3899/riyouannai.pdf",
-      "quote": "「□希望する保育所等に入所できない場合は、育児休業の延長も許容できる。」"
+      "quote": "保育の利用申込書の２ページ 家庭状況書にある育児休業の「□希望する保育所等に入所できない場合は、育児休業の延長も許容できる。」"
     },
     "notes.0": {
       "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/hoikuennado/moushikomiannai.html",
       "quote": "令和9年4月入所から、目黒区外に在住のお子様（転入予定者を除く）の申込受付を、3から5歳児クラスとします。0から2歳児クラスのお申し込みは受付できません。"
     },
     "notes.1": {
-      "url": "https://www.city.meguro.tokyo.jp/documents/3899/riyouannai.pdf",
-      "quote": "希望園は１０園までご記入いただけます。"
+      "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/hoikuennado/moushikomiannai.html",
+      "quote": "令和9年4月から令和10年1月入所について、申し込みの締め切り日時点において、兄弟姉妹が目黒区内の私立認可保育園もしくは小規模保育施設に在所しており"
+    },
+    "notes.1#2": {
+      "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/hoikuennado/moushikomiannai.html",
+      "quote": "かつ入所日時点も在所が継続する見込みである場合は、兄弟姉妹が在所している施設に限り申し込みを受け付けます。"
     },
     "notes.2": {
       "url": "https://www.city.meguro.tokyo.jp/documents/3899/riyouannai.pdf",
-      "quote": "指数の高い方から順に保育施設利用内定となります（先着順、抽選ではありません）。"
+      "quote": "転入予定の証明書類の提出が締切日時点で間に合わない場合でも受付が可能になります。"
+    },
+    "notes.2#2": {
+      "url": "https://www.city.meguro.tokyo.jp/documents/3899/riyouannai.pdf",
+      "quote": "ただし、その場合は利用調整指数を０点として取り扱いますのでご承知おきください。"
     },
     "notes.3": {
       "url": "https://www.city.meguro.tokyo.jp/documents/3899/riyouannai.pdf",
-      "quote": "締切日以前に書類の提出がない場合や書類の内容に不備がある場合、利用調整で不利になるか選考対象外になります。"
+      "quote": "指数の高い方から順に保育施設利用内定となります（先着順、抽選ではありません）。"
     },
     "notes.4": {
       "url": "https://www.city.meguro.tokyo.jp/documents/3899/riyouannai.pdf",
-      "quote": "２月６日（金）にホームページにて、４月１次利用調整の内定辞退等を反映させた最新の空き状況を公開する予定です。"
+      "quote": "締切日以前に書類の提出がない場合や書類の内容に不備がある場合、利用調整で不利になるか選考対象外になります。"
     },
     "notes.5": {
-      "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/hoikuennado/moushikomiannai.html",
-      "quote": "八雲保育園での2時間延長保育については、令和8年度末（令和9年3月31日）をもって廃止します。"
+      "url": "https://www.city.meguro.tokyo.jp/documents/3899/riyouannai.pdf",
+      "quote": "２月５日（金）にホームページにて、４月１次利用調整の内定辞退等を反映させた最新の空き状況を公開する予定です。"
     }
   },
   "sources": [
@@ -171,16 +204,12 @@
       "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/hoikuennado/moushikomiannai.html"
     },
     {
-      "label": "目黒区 令和8年度「保育施設利用のご案内」（PDF）",
+      "label": "目黒区 令和9年度「保育施設利用のご案内」（PDF）",
       "url": "https://www.city.meguro.tokyo.jp/documents/3899/riyouannai.pdf"
     },
     {
       "label": "目黒区「保育施設の申込みから入所までの流れ」",
       "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/hoikuennado/nagare.html"
-    },
-    {
-      "label": "目黒区「保育課保育施設利用係のオンライン申請」",
-      "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/hoikuennado/online.html"
     }
   ]
 }

@@ -1,89 +1,177 @@
 {
   "citySlug": "saga",
-  "checkedAt": "2026-09-18",
+  "checkedAt": "2026-10-29",
   "page": {
     "label": "佐賀市「保育施設等入所申し込み」",
     "url": "https://www.city.saga.lg.jp/kosodate-kyoiku/mokuteki/2/1/2/4554.html"
   },
-  "fiscalYear": "R8",
-  "firstApply": "令和7年11月4日（火）～12月12日（金）（一次）、12月15日（月）～令和8年2月6日（金）（二次）、2月9日（月）～3月6日（金）（三次）",
-  "applyMethods": "佐賀市保育幼稚園課窓口（本庁1階64～66番、営業時間8:30～17:15（火曜のみ19時まで））またはマイナポータル（ぴったりサービス）でのオンライン申込。4月入所申込は郵送不可",
-  "firstResult": "一次結果は令和8年1月下旬、二次結果は2月下旬、三次結果は3月中旬に通知",
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年10月1日（木曜日）から新年度の申請書等を配布。配布場所は保育幼稚園課（本庁1階）、各支所市民サービスグループ、子育て支援センター「ゆめ・ぽけっと」",
+  "firstApply": "令和8年11月2日（月曜日）～令和8年12月14日（月曜日）（4月入所 第1次）。どの申請方法でも受付期間は同じで、オンラインは締切日の午後11時59分までの申請が有効",
+  "applyMethods": "マイナポータルでのオンライン申込（令和9年度新規申請のリンクは11月2日公開予定）か、保育幼稚園課窓口（本庁1階 64～66番窓口、火曜のみ19時まで）への提出。4月入所申込は郵送不可で、各支所での受付もできない",
+  "firstResult": "結果通知の発送予定日は1月下旬（第1次）。調整結果は文書で知らせる",
+  "secondApply": "4月入所 第2次は令和8年12月15日（火曜日）～令和9年2月5日（金曜日）、第3次は令和9年2月8日（月曜日）～令和9年3月5日（金曜日）",
+  "secondResult": "結果通知の発送予定日は第2次が2月下旬、第3次が3月中旬",
   "documents": [
-    "支給認定申請書兼入所申込書（2号・3号認定用）",
-    "保育施設等の利用申込みにかかる確認書",
-    "保護者の本人確認書類及び個人番号確認書類の写し",
-    "保育の必要性を証明する書類（就労証明書など、保育を必要とする事由により異なる。就労証明書は令和7年9月1日以降に取得したものが有効）"
+    "支給認定申請書兼入所申込書【２号・３号認定用】（新規）（オンライン申込の場合は記載不要）",
+    "保育施設等の利用申込みにかかる確認書（オンライン申込の場合は記載不要）",
+    "保育の必要性を証明する書類（保護者（父母等）の分。佐賀市の所定の様式）",
+    "窓口での申請時は本人確認のための書類"
   ],
-  "interview": "入所内定後に保育施設と面接し、園生活に支障がないと判断されれば入所決定となる",
+  "interview": "入所内定となった場合、保育施設と面接し、園生活に支障がないと判断されれば入所決定となる。申し込み前に各保育施設に連絡し、子どもと一緒に見学するよう求められている",
+  "ikukyu": "入所保留で育休を延長する場合、育児休業給付金の延長手続き用に『入所が出来なかった旨を証明する「保育所等への入所に関する証明書」』を別途発行している。各月の申込締切日までに申し込んでいない場合や内定をキャンセルした場合は発行できない",
   "notes": [
-    "申込は先着順ではなく、保育の必要性により優先順位が判断される",
-    "申込書や添付書類に不足や不備がある場合は受理できない",
-    "提出書類が事実と異なる場合は、入所内定を取り消す場合がある",
-    "入所内定後にキャンセルをした場合、次回以降の選考の際の基準点が減点される",
-    "育児休業を延長する場合は申込取下げ届の提出が必要。その場合、「入所が出来なかった旨を証明する保育所等への入所に関する証明書」を別途申請してハローワークへの育児休業給付金延長手続きに使用できる",
-    "4月入所申込は郵送不可で、窓口またはオンラインでの申込のみ"
+    "申込は先着順ではない",
+    "申込書や添付書類に不足や不備（記載漏れ、証明日漏れ、修正インクによる訂正など）がある場合は受理できない",
+    "入所内定後にキャンセルすると、次回以降の選考の際の基準点が減点される（減点は年度内のみ適用）",
+    "提出書類が事実と異なる場合は、入所内定・予定・決定・支給認定を取り消す場合がある",
+    "入所保留となった場合、翌月以降も年度末まで自動的に入所調整を継続する",
+    "取下げ手続きを行うとそれ以降の入所調整は行われなくなるため、育休延長のために毎月調整を受ける必要がある場合は取り下げない"
   ],
   "evidence": {
     "fiscalYear": {
-      "url": "https://www.city.saga.lg.jp/material/files/group/57/p1jkkbvb7l114hdukllkm42m2l4.pdf",
-      "quote": "令和８年度 認可保育所(園)・認定こども園・地域型保育施設 利用申込み支給認定申請（2 号・3 号認定）のてびき"
+      "url": "https://www.city.saga.lg.jp/kosodate-kyoiku/mokuteki/2/1/2/4554.html",
+      "quote": "※令和9年度新規申請のマイナポータルリンクについては、11月2日に公開予定です。"
+    },
+    "guideRelease": {
+      "url": "https://www.city.saga.lg.jp/kosodate-kyoiku/mokuteki/2/1/2/4554.html",
+      "quote": "令和8年10月1日（木曜日）～"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.saga.lg.jp/kosodate-kyoiku/mokuteki/2/1/2/4554.html",
+      "quote": "保育幼稚園課（本庁1階）、各支所市民サービスグループ、子育て支援センター 「ゆめ・ぽけっと」"
     },
     "firstApply": {
-      "url": "https://www.city.saga.lg.jp/material/files/group/57/p1jkkbvb7l114hdukllkm42m2l4.pdf",
-      "quote": "４月入所（第１次） １１月 ４日（火） ～ １２月１２日（金） １月下旬 ４月入所（第２次） １２月１５日（月） ～ ２月 ６日（金） ２月下旬 ４月入所（第３次） ２月 ９日（月） ～ ３月 ６日（金） ３月中旬"
+      "url": "https://www.city.saga.lg.jp/kosodate-kyoiku/mokuteki/2/1/2/4554.html",
+      "quote": "令和8年11月2日（月曜日）～令和8年12月14日（月曜日）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.saga.lg.jp/material/files/group/57/p1jkkbvb7l114hdukllkm0505sdcs.pdf",
+      "quote": "４月入所（第１次） １１月 ２日（月） ～ １２月１４日（月） １月下旬"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.saga.lg.jp/kosodate-kyoiku/mokuteki/2/1/2/4554.html",
+      "quote": "どの申請方法でも受付期間は同一です。"
+    },
+    "firstApply#4": {
+      "url": "https://www.city.saga.lg.jp/kosodate-kyoiku/mokuteki/2/1/2/4554.html",
+      "quote": "申込み締切日の午後11時59分までに申請いただいたものが有効となります。"
     },
     "applyMethods": {
-      "url": "https://www.city.saga.lg.jp/material/files/group/57/p1jkkbvb7l114hdukllkm42m2l4.pdf",
-      "quote": "以下の(ア)～(ウ)のうちいずれかの申込方法にてお申し込みください。"
+      "url": "https://www.city.saga.lg.jp/kosodate-kyoiku/mokuteki/2/1/2/4554.html",
+      "quote": "保育施設の入所手続きを内閣府のマイナポータルを利用して行うことができます。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.saga.lg.jp/kosodate-kyoiku/mokuteki/2/1/2/4554.html",
+      "quote": "※令和9年度新規申請のマイナポータルリンクについては、11月2日に公開予定です。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.saga.lg.jp/material/files/group/57/p1jkkbvb7l114hdukllkm0505sdcs.pdf",
+      "quote": "「（５）申込に必要な書類について」に記載の書類一式を揃えて佐賀市保育幼稚園課窓口（本庁１階 64～66 番窓口）までご提出ください。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.saga.lg.jp/kosodate-kyoiku/mokuteki/2/1/2/4554.html",
+      "quote": "※火曜のみ19時まで。"
+    },
+    "applyMethods#5": {
+      "url": "https://www.city.saga.lg.jp/material/files/group/57/p1jkkbvb7l114hdukllkm0505sdcs.pdf",
+      "quote": "４月入所申込については郵送申込不可となっています。(ア)(イ)のいずれかの手続きで申込をお願いします。"
+    },
+    "applyMethods#6": {
+      "url": "https://www.city.saga.lg.jp/material/files/group/57/p1jkkbvb7l114hdukllkm0505sdcs.pdf",
+      "quote": "※各支所での受付はできません。来庁が難しい場合は(ア)(ウ)の申込方法をご検討ください。"
     },
     "firstResult": {
-      "url": "https://www.city.saga.lg.jp/material/files/group/57/p1jkkbvb7l114hdukllkm42m2l4.pdf",
-      "quote": "４月入所（第１次） １１月 ４日（火） ～ １２月１２日（金） １月下旬 ４月入所（第２次） １２月１５日（月） ～ ２月 ６日（金） ２月下旬 ４月入所（第３次） ２月 ９日（月） ～ ３月 ６日（金） ３月中旬"
+      "url": "https://www.city.saga.lg.jp/material/files/group/57/p1jkkbvb7l114hdukllkm0505sdcs.pdf",
+      "quote": "４月入所（第１次） １１月 ２日（月） ～ １２月１４日（月） １月下旬"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.saga.lg.jp/material/files/group/57/p1jkkbvb7l114hdukllkm0505sdcs.pdf",
+      "quote": "調整結果は文書でお知らせします。"
+    },
+    "secondApply": {
+      "url": "https://www.city.saga.lg.jp/kosodate-kyoiku/mokuteki/2/1/2/4554.html",
+      "quote": "令和8年12月15日（火曜日）～令和9年2月5日（金曜日）"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.saga.lg.jp/kosodate-kyoiku/mokuteki/2/1/2/4554.html",
+      "quote": "令和9年2月8日（月曜日）～令和9年3月5日（金曜日）"
+    },
+    "secondApply#3": {
+      "url": "https://www.city.saga.lg.jp/material/files/group/57/p1jkkbvb7l114hdukllkm0505sdcs.pdf",
+      "quote": "４月入所（第２次） １２月１５日（火） ～ ２月 ５日（金） ２月下旬"
+    },
+    "secondApply#4": {
+      "url": "https://www.city.saga.lg.jp/material/files/group/57/p1jkkbvb7l114hdukllkm0505sdcs.pdf",
+      "quote": "４月入所（第３次） ２月 ８日（月） ～ ３月 ５日（金） ３月中旬"
+    },
+    "secondResult": {
+      "url": "https://www.city.saga.lg.jp/material/files/group/57/p1jkkbvb7l114hdukllkm0505sdcs.pdf",
+      "quote": "４月入所（第２次） １２月１５日（火） ～ ２月 ５日（金） ２月下旬"
+    },
+    "secondResult#2": {
+      "url": "https://www.city.saga.lg.jp/material/files/group/57/p1jkkbvb7l114hdukllkm0505sdcs.pdf",
+      "quote": "４月入所（第３次） ２月 ８日（月） ～ ３月 ５日（金） ３月中旬"
     },
     "documents.0": {
-      "url": "https://www.city.saga.lg.jp/material/files/group/57/p1jkkbvb7l114hdukllkm42m2l4.pdf",
-      "quote": "支給認定申請書兼入所申込書【２号・３号認定用】（新規）"
+      "url": "https://www.city.saga.lg.jp/material/files/group/57/p1jkkbvb7l114hdukllkm0505sdcs.pdf",
+      "quote": "※オンラインでの申込の場合、「支給認定申請書兼入所申込書【２号・３号認定用】（新規）」及び「保育施設等の利用申込みにかかる確認書」の記載は不要です。"
     },
     "documents.1": {
-      "url": "https://www.city.saga.lg.jp/material/files/group/57/p1jkkbvb7l114hdukllkm42m2l4.pdf",
-      "quote": "保育施設等の利用申込みにかかる確認書"
+      "url": "https://www.city.saga.lg.jp/material/files/group/57/p1jkkbvb7l114hdukllkm0505sdcs.pdf",
+      "quote": "※オンラインでの申込の場合、「支給認定申請書兼入所申込書【２号・３号認定用】（新規）」及び「保育施設等の利用申込みにかかる確認書」の記載は不要です。"
     },
     "documents.2": {
-      "url": "https://www.city.saga.lg.jp/material/files/group/57/p1jkkbvb7l114hdukllkm42m2l4.pdf",
-      "quote": "「（５）申込に必要な書類について」に記載の書類一式のほか、保護者の本人確認書類の写し及び個人番号確認書類の写しを同封し"
-    },
-    "documents.3": {
-      "url": "https://www.city.saga.lg.jp/material/files/group/57/p1jkkbvb7l114hdukllkm42m2l4.pdf",
+      "url": "https://www.city.saga.lg.jp/material/files/group/57/p1jkkbvb7l114hdukllkm0505sdcs.pdf",
       "quote": "＜保育の必要性を証明する書類＞ ※保護者（父母等）の分が必要です。佐賀市の所定の様式をご利用ください。"
     },
+    "documents.3": {
+      "url": "https://www.city.saga.lg.jp/material/files/group/57/p1jkkbvb7l114hdukllkm0505sdcs.pdf",
+      "quote": "申請受付時には本人確認をさせていただきます。申請書類と合わせて以下の書類をご持参ください。"
+    },
     "interview": {
-      "url": "https://www.city.saga.lg.jp/material/files/group/57/p1jkkbvb7l114hdukllkm42m2l4.pdf",
+      "url": "https://www.city.saga.lg.jp/material/files/group/57/p1jkkbvb7l114hdukllkm0505sdcs.pdf",
       "quote": "入所内定となった場合、保育施設と面接し、園生活に支障がないと判断されれば入所決定となります。"
+    },
+    "interview#2": {
+      "url": "https://www.city.saga.lg.jp/material/files/group/57/p1jkkbvb7l114hdukllkm0505sdcs.pdf",
+      "quote": "申し込み前に必ず各保育施設に直接連絡し、見学のための日程調整をして、お子様と一緒に見学をしてください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.saga.lg.jp/material/files/group/57/p1jkkbvb7l114hdukllkm0505sdcs.pdf",
+      "quote": "育児休業給付金の延長手続き用として、『入所が出来なかった旨を証明する「保育所等への入所に関する証明書」』（以下、入所に関する証明書）を別途発行しています。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.saga.lg.jp/material/files/group/57/p1jkkbvb7l114hdukllkm0505sdcs.pdf",
+      "quote": "各月の申込締切日までに申込をされていなかった場合、入所に関する証明書は発行できません。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.saga.lg.jp/material/files/group/57/p1jkkbvb7l114hdukllkm0505sdcs.pdf",
+      "quote": "入所内定後、内定キャンセルをされた場合、入所に関する証明書は発行できません。"
     },
     "notes.0": {
       "url": "https://www.city.saga.lg.jp/kosodate-kyoiku/mokuteki/2/1/2/4554.html",
       "quote": "※申込は先着順ではありません。"
     },
     "notes.1": {
-      "url": "https://www.city.saga.lg.jp/material/files/group/57/p1jkkbvb7l114hdukllkm42m2l4.pdf",
+      "url": "https://www.city.saga.lg.jp/material/files/group/57/p1jkkbvb7l114hdukllkm0505sdcs.pdf",
       "quote": "申込書や添付書類に不足や不備（記載漏れ、証明日漏れ、修正インクによる訂正など）がある場合は受理できません。"
     },
     "notes.2": {
-      "url": "https://www.city.saga.lg.jp/material/files/group/57/p1jkkbvb7l114hdukllkm42m2l4.pdf",
-      "quote": "提出書類が事実と異なる場合は、入所内定・予定・決定・支給認定を取り消す場合があります。"
-    },
-    "notes.3": {
-      "url": "https://www.city.saga.lg.jp/material/files/group/57/p1jkkbvb7l114hdukllkm42m2l4.pdf",
+      "url": "https://www.city.saga.lg.jp/material/files/group/57/p1jkkbvb7l114hdukllkm0505sdcs.pdf",
       "quote": "内定後にキャンセルをした場合、次回以降の選考の際の基準点が減点されます。（減点は年度内のみ適用）"
     },
+    "notes.3": {
+      "url": "https://www.city.saga.lg.jp/material/files/group/57/p1jkkbvb7l114hdukllkm0505sdcs.pdf",
+      "quote": "提出書類が事実と異なる場合は、入所内定・予定・決定・支給認定を取り消す場合があります。"
+    },
     "notes.4": {
-      "url": "https://www.city.saga.lg.jp/material/files/group/57/p1jkkbvb7l114hdukllkm42m2l4.pdf",
-      "quote": "入所保留となったために育児休業を延長される場合は、申請を取り下げていただく必要があります。再度の育児休業からの復帰にあわせて、改めてお申込みください。"
+      "url": "https://www.city.saga.lg.jp/material/files/group/57/p1jkkbvb7l114hdukllkm0505sdcs.pdf",
+      "quote": "入所保留となった場合、翌月以降も自動的に入所調整を継続します。（年度末まで）"
     },
     "notes.5": {
-      "url": "https://www.city.saga.lg.jp/material/files/group/57/p1jkkbvb7l114hdukllkm42m2l4.pdf",
-      "quote": "４月入所申込については郵送申込不可となっています。(ア)(ウ)のいずれかの手続きで申込をお願いします。"
+      "url": "https://www.city.saga.lg.jp/kosodate-kyoiku/mokuteki/2/1/2/4554.html",
+      "quote": "育児休業の延長のために毎月調整を受ける必要がある場合は、取下げ手続きを行わないようにしてください。"
     }
   },
   "sources": [
@@ -92,8 +180,8 @@
       "url": "https://www.city.saga.lg.jp/kosodate-kyoiku/mokuteki/2/1/2/4554.html"
     },
     {
-      "label": "佐賀市「令和8年度 認可保育所(園)・認定こども園・地域型保育施設 利用申込み支給認定申請（2号・3号認定）のてびき」",
-      "url": "https://www.city.saga.lg.jp/material/files/group/57/p1jkkbvb7l114hdukllkm42m2l4.pdf"
+      "label": "佐賀市「令和9年度 利用申込支給認定申請（2.3号認定）のてびき」",
+      "url": "https://www.city.saga.lg.jp/material/files/group/57/p1jkkbvb7l114hdukllkm0505sdcs.pdf"
     }
   ]
 }

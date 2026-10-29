@@ -1,84 +1,165 @@
 {
   "citySlug": "kagoshima",
-  "checkedAt": "2026-09-18",
+  "checkedAt": "2026-10-29",
   "page": {
     "label": "鹿児島市「保育所等の申し込み方法」",
     "url": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/h30hoiku/reiwagonendoriyoumousikomiannai.html"
   },
-  "fiscalYear": "R8",
-  "guideRelease": "令和7年10月20日（月曜日）にホームページに掲載、令和7年11月4日（火曜日）から本庁保育幼稚園課、各支所保育担当窓口で配布開始",
-  "firstApply": "第1期：令和7年11月4日（火曜日）～令和7年12月10日（水曜日）、第2期：令和7年12月11日（木曜日）～令和8年1月30日（金曜日）、第3期：令和8年2月2日（月曜日）～令和8年3月3日（火曜日）",
-  "applyMethods": "本庁保育幼稚園課、各支所保育担当窓口、各保育所等、郵送（受付締切日必着）",
-  "firstResult": "第1期：1月下旬、第2期：2月下旬、第3期：3月中旬",
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年10月19日（月曜日）にホームページに掲載、令和8年11月2日（月曜日）から本庁保育幼稚園課、各支所保育担当窓口で配布開始",
+  "firstApply": "第1期：令和8年11月2日（月曜日）～令和8年12月9日（水曜日）、第2期：令和8年12月10日（木曜日）～令和9年1月29日（金曜日）、第3期：令和9年2月1日（月曜日）～令和9年3月2日（火曜日）",
+  "applyMethods": "本庁保育幼稚園課、各支所保育担当窓口（吉野支所を除き書かない窓口を実施）、各保育所・認定こども園・小規模保育事業所、オンライン申請（マイナンバーカード所持者）、郵送（締切日必着）",
+  "firstResult": "第1期：令和9年1月下旬、第2期：令和9年2月下旬、第3期：令和9年3月中旬",
+  "midYearDeadline": "5月以降の各月利用開始分（随時期）は、利用開始希望日が属する月の前々月初日から前々月末日まで",
   "documents": [
-    "子どものための教育・保育給付支給認定申請書（2号・3号認定用）兼利用申込書",
-    "保育を必要とする状態を証明する書類（就労証明書や診断書等。保護者ごとに必要）",
-    "その他に該当する場合に必要な書類（精神障害者保健福祉手帳、保育士等の免許証等）",
-    "マイナンバーの記載及び税情報の閲覧に同意しない場合は税額を証明する書類"
+    "子どものための教育・保育給付支給認定申請書（2号・3号認定用）兼利用申込書（書かない窓口を利用する場合は児童情報カード）",
+    "保育を必要とする状態を証明する書類（就労証明書や診断書等。保護者ごとに必要。証明日が令和8年10月19日以降で、概ね3か月以内に発行されたもの）",
+    "精神障害者保健福祉手帳または療育手帳の写し（所持している場合）",
+    "幼稚園教諭免許状又は保育士証の写し（保護者が保育士・保育教諭・幼稚園教諭として就労している又は就労予定の場合）",
+    "看護師免許証又は准看護師免許証の写し（保護者が看護師・准看護師として就労している又は就労予定の場合）",
+    "税額を証明する書類（マイナンバーの記載及び税情報の閲覧に同意しない方のみ）"
   ],
-  "interview": "内定した場合、利用開始前に内定した施設で面談と健康診断を受ける",
+  "interview": "内定した場合、利用開始前に内定した施設で面談と健康診断を受け、その後に正式な利用決定となる",
+  "ikukyu": "育児休業の延長を許容できる場合は、同意書の④-1にチェックし第1希望のみ記載する。この場合は点数を減点して利用調整を受ける。利用保留通知は希望した全ての施設で利用保留となった場合に発行される",
   "notes": [
-    "申請書等の様式は令和7年10月20日にホームページに掲載されるほか、令和7年11月4日から本庁保育幼稚園課、各支所保育担当窓口で配布される",
-    "保育を必要とする状態を証明する書類は概ね3か月以内に発行されたものに限る",
-    "利用保留になった場合は初回のみ利用保留通知書が送付され、次回以降の利用調整でも保留となった場合は通知されない",
-    "育児休業から復帰するのに併せて利用申込みされる方は通常の調整期よりも前に申し込むことができる"
+    "同じ調整期間内であれば、申し込んだ順は利用調整の結果に影響しない",
+    "育児休業から復帰するのに併せて利用申込みする方は、通常の調整期よりも前に申し込むことができる",
+    "令和8年度に利用保留になっている方が令和9年4月以降の利用を希望する場合は、改めて利用申込みが必要",
+    "利用保留通知は初回のみ発送され、翌月以降の利用調整でも保留となった場合は通知されない",
+    "育児休業期間中は保育所等の利用申込みはできず、育児休業からの復帰にあわせて申込みを行う"
   ],
   "evidence": {
     "fiscalYear": {
-      "url": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/h30hoiku/documents/riyoumousikomiannai2.pdf",
-      "quote": "鹿児島市認可保育所等利用申込案内 令和８年度"
+      "url": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/h30hoiku/reiwagonendoriyoumousikomiannai.html",
+      "quote": "第1期から第3期は、令和9年4月から保育所等を利用したい方が申込の対象です。"
     },
     "guideRelease": {
       "url": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/h30hoiku/reiwagonendoriyoumousikomiannai.html",
-      "quote": "令和7年10月20日（月曜日）にホームページに掲載または、令和7年11月4日（火曜日）から本庁保育幼稚園課、各支所保育担当窓口で配布を開始する"
+      "quote": "令和8年10月19日（月曜日）にホームページに掲載または、令和8年11月2日（月曜日）から本庁保育幼稚園課、各支所保育担当窓口で配布を開始する"
     },
     "firstApply": {
       "url": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/h30hoiku/reiwagonendoriyoumousikomiannai.html",
-      "quote": "第1期 令和7年11月4日（火曜日）～令和7年12月10日（水曜日） 第2期 令和7年12月11日（木曜日）～令和8年1月30日（金曜日） 第3期 令和8年2月2日（月曜日）～令和8年3月3日（火曜日）"
+      "quote": "第1期 令和8年11月2日（月曜日）～令和8年12月9日（水曜日）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/h30hoiku/reiwagonendoriyoumousikomiannai.html",
+      "quote": "第2期 令和8年12月10日（木曜日）～令和9年1月29日（金曜日）"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/h30hoiku/reiwagonendoriyoumousikomiannai.html",
+      "quote": "第3期 令和9年2月1日（月曜日）～令和9年3月2日（火曜日）"
     },
     "applyMethods": {
-      "url": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/h30hoiku/reiwagonendoriyoumousikomiannai.html",
-      "quote": "受付場所 市役所（保育幼稚園課、谷山子育て支援課、各福祉課・保健福祉課へ） 各保育所等 郵送（受付締切日必着）"
+      "url": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/h30hoiku/documents/9mousikomi_1.pdf",
+      "quote": "・本庁保育幼稚園課、各支所保育担当窓口(吉野支所を除き、書かない窓口実施)"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/h30hoiku/documents/9mousikomi_1.pdf",
+      "quote": "◇各保育所・認定こども園・小規模保育事業所"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/h30hoiku/documents/9mousikomi_1.pdf",
+      "quote": "・マイナンバーカードをお持ちの方はオンラインでの申請も可能です。"
+    },
+    "applyMethods#4": {
+      "url": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/h30hoiku/documents/9mousikomi_1.pdf",
+      "quote": "・郵送での申込も受け付けています。※締切日必着"
     },
     "firstResult": {
-      "url": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/h30hoiku/reiwagonendoriyoumousikomiannai.html",
-      "quote": "第1期 1月下旬 第2期 2月下旬 第3期 3月中旬"
+      "url": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/h30hoiku/documents/9mousikomi_1.pdf",
+      "quote": "第１期 令和８年１２月 ９日(水) 令和９年１月下旬"
+    },
+    "firstResult#2": {
+      "url": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/h30hoiku/documents/9mousikomi_1.pdf",
+      "quote": "第２期 令和９年 １月２９日(金) 令和９年２月下旬"
+    },
+    "firstResult#3": {
+      "url": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/h30hoiku/documents/9mousikomi_1.pdf",
+      "quote": "第３期 令和９年 ３月 ２日(火) 令和９年３月中旬"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/h30hoiku/documents/9mousikomi_1.pdf",
+      "quote": "利用開始希望日が属する月の前々月初日から前々月末日"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/h30hoiku/documents/9mousikomi_1.pdf",
+      "quote": "随時期 （５月以降の各月利用開始分）"
     },
     "documents.0": {
-      "url": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/h30hoiku/documents/riyoumousikomiannai2.pdf",
-      "quote": "子どものための教育・保育給付支給認定申請書（２号・３号認定用）兼利用申込書"
+      "url": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/h30hoiku/documents/9mousikomi_1.pdf",
+      "quote": "※窓口で職員が申込書を作成する申込方法をご利用の場合は、利用申込書に代えて「児童情報カード」をご提出いただきます。"
+    },
+    "documents.0#2": {
+      "url": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/h30hoiku/documents/9mousikomi_1.pdf",
+      "quote": "「子どものための教育・保育給付支給認定申請書(２号・３号認定用)兼利用申込書」(以下「利用申込書」といいます。)により、行うことになります。"
     },
     "documents.1": {
-      "url": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/h30hoiku/documents/riyoumousikomiannai2.pdf",
-      "quote": "保護者ごとに保育が必要な理由（就労等）を証明する書類が必要です。"
+      "url": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/h30hoiku/reiwagonendoriyoumousikomiannai.html",
+      "quote": "保育を必要とする事由を証明する書類（就労証明書や診断書等）は、証明日が令和8年10月19日（月曜日）以降のものでなければ受付できません。"
+    },
+    "documents.1#2": {
+      "url": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/h30hoiku/documents/9mousikomi_1.pdf",
+      "quote": "※保護者ごとに保育が必要な理由（就労等）を証明する書類が必要です。"
+    },
+    "documents.1#3": {
+      "url": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/h30hoiku/documents/9mousikomi_1.pdf",
+      "quote": "※保育を必要とする状態を証明する書類は、概ね3か月以内に発行されたものに限ります。"
     },
     "documents.2": {
-      "url": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/h30hoiku/documents/riyoumousikomiannai2.pdf",
-      "quote": "幼稚園教諭免許状又は保育士証の写しを提出してください。"
+      "url": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/h30hoiku/reiwagonendoriyoumousikomiannai.html",
+      "quote": "「障害者手帳等」：精神障害者保健福祉手帳または療育手帳をお持ちの場合"
     },
     "documents.3": {
-      "url": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/h30hoiku/documents/riyoumousikomiannai2.pdf",
-      "quote": "マイナンバーの記載及び税情報の閲覧に同意しない方のみ必要になります。"
+      "url": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/h30hoiku/reiwagonendoriyoumousikomiannai.html",
+      "quote": "保護者が幼稚園教諭、保育教諭、保育士として幼稚園、認可保育所、認定こども園及び認可外保育施設等に就労している又は就労予定の場合"
+    },
+    "documents.4": {
+      "url": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/h30hoiku/reiwagonendoriyoumousikomiannai.html",
+      "quote": "保護者が看護師又は准看護師として幼稚園、認可保育所、認定こども園に就労している又は就労予定の場合"
+    },
+    "documents.5": {
+      "url": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/h30hoiku/documents/9mousikomi_1.pdf",
+      "quote": "・マイナンバーの記載及び税情報の閲覧に同意しない方のみ必要になります。"
     },
     "interview": {
-      "url": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/h30hoiku/reiwagonendoriyoumousikomiannai.html",
-      "quote": "施設での面談と健康診断の日程調整を利用開始前に行っていただきます。"
+      "url": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/h30hoiku/documents/9mousikomi_1.pdf",
+      "quote": "の面談と健康診断の日程調整を利用開始前におこなっていただきます。"
+    },
+    "interview#2": {
+      "url": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/h30hoiku/documents/9mousikomi_1.pdf",
+      "quote": "面談と健康診断を受けていただいた後に、正式な利用決定となります。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/h30hoiku/documents/9mousikomi_1.pdf",
+      "quote": "育児休業の延長を許容できる場合は、同意書の④-1をチェックし、第１希望のみ記載してください。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/h30hoiku/documents/9mousikomi_1.pdf",
+      "quote": "この際、点数を減点して利用調整を受けることになります。"
+    },
+    "ikukyu#3": {
+      "url": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/h30hoiku/documents/9mousikomi_1.pdf",
+      "quote": "・利用保留通知は、希望した全ての施設で利用保留となった場合に発行されます。"
     },
     "notes.0": {
       "url": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/h30hoiku/reiwagonendoriyoumousikomiannai.html",
-      "quote": "令和7年10月20日（月曜日）にホームページに掲載または、令和7年11月4日（火曜日）から本庁保育幼稚園課、各支所保育担当窓口で配布を開始する"
+      "quote": "同じ調整期間内であれば、「申し込んだ順」は利用調整の結果に影響しません。"
     },
     "notes.1": {
-      "url": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/h30hoiku/documents/riyoumousikomiannai2.pdf",
-      "quote": "保育を必要とする状態を証明する書類は、概ね3か月以内に発行されたものに限ります。"
+      "url": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/h30hoiku/documents/9mousikomi_1.pdf",
+      "quote": "※育児休業から復帰するのに併せて利用申込みされる方は通常の調整期よりも前に申し込むことができます。"
     },
     "notes.2": {
-      "url": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/h30hoiku/reiwagonendoriyoumousikomiannai.html",
-      "quote": "利用保留通知は初回のみ発送いたしますので、次回以降の利用調整でも保留となった場合は通知されません。"
+      "url": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/h30hoiku/documents/9mousikomi_1.pdf",
+      "quote": "令和８年度に利用保留になっている方が、令和９年４月以降の利用を希望する場合は、改めて利用申込みが必要です。"
     },
     "notes.3": {
-      "url": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/h30hoiku/reiwagonendoriyoumousikomiannai.html",
-      "quote": "育児休業から復帰するのに併せて利用申込される方は通常の調整期よりも前に申し込むことができます。"
+      "url": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/h30hoiku/documents/9mousikomi_1.pdf",
+      "quote": "利用保留通知は初回のみ発送しますので、翌月以降の利用調整でも保留となった場合は通知されません。"
+    },
+    "notes.4": {
+      "url": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/h30hoiku/documents/9mousikomi_1.pdf",
+      "quote": "⑥育児休業期間中は、ご家庭でお子さんを保育できる状態のため、保育所等の利用申込みはできません。"
     }
   },
   "sources": [
@@ -87,8 +168,8 @@
       "url": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/h30hoiku/reiwagonendoriyoumousikomiannai.html"
     },
     {
-      "label": "鹿児島市認可保育所等利用申込案内（PDF）",
-      "url": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/h30hoiku/documents/riyoumousikomiannai2.pdf"
+      "label": "令和9年度鹿児島市認可保育所等利用申込案内（PDF）",
+      "url": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/h30hoiku/documents/9mousikomi_1.pdf"
     }
   ]
 }

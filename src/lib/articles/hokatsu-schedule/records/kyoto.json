@@ -1,99 +1,160 @@
 {
   "citySlug": "kyoto",
-  "checkedAt": "2026-09-18",
+  "checkedAt": "2026-10-29",
   "page": {
-    "label": "京都市「令和８年度 保育利用申込みの御案内」",
-    "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/R8_annnai.pdf"
+    "label": "京都市「令和9年度保育利用申込みの御案内」",
+    "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000274712.html"
   },
-  "fiscalYear": "R8",
-  "guideRelease": "令和7年10月から申込案内冊子等を保育施設・事業所と各区役所・支所で配布",
-  "firstApply": "令和7年10月1日（水）～11月14日（金）必着。10月1日から10月31日までは第一希望の保育施設に直接提出、11月4日から11月14日までは区役所・支所子育て推進担当に提出",
-  "applyMethods": "保育施設・事業所への直接提出または区役所・支所への提出。第一希望の保育施設が4月開園予定の場合は10月1日から区役所・支所で受け付ける。就労証明書等が間に合わない場合は既に揃っている書類だけでも11月14日までに提出可能。書類提出時に窓口で対面面接実施",
-  "firstResult": "令和8年1月30日（金）に利用調整結果を発送予定",
-  "secondApply": "令和8年2月13日（金）までに必要書類を区役所・支所に提出（一次調整で保留となった方は申込内容に変更がなければ改めての書類提出は不要）",
-  "secondResult": "令和8年2月27日（金）に二次調整結果を発送予定",
+  "fiscalYear": "R9",
+  "firstApply": "令和8年10月1日（木）～10月30日（金）は第一希望の保育施設・事業所に提出。間に合わない場合は令和8年11月13日（金）午後5時まで（必着）に第一希望の施設が所在する地域の区役所・支所（子どもはぐくみ室子育て推進担当）に提出",
+  "applyMethods": "第一希望の保育施設・事業所または区役所・支所への提出。郵送も可（事前に提出先の区役所・支所へ電話連絡）。マイナポータルによる電子申請もあり",
+  "firstResult": "令和9年1月29日（金）に利用調整結果の通知を発送予定",
+  "secondApply": "令和9年2月12日（金）まで（一次調整で申込済みの方は希望園の変更等がなければ再提出不要）",
+  "secondResult": "令和9年2月26日（金）に二次調整結果通知を発送予定",
+  "midYearDeadline": "年度途中は受入枠があれば毎月受入れ。締切は利用開始希望月ごとに指定（令和9年5月利用は令和9年4月9日（金）、6月利用は令和9年5月10日（月）など）",
   "documents": [
-    "教育・保育給付認定申請書兼保育利用申込書",
-    "保育が必要な理由に応じた添付書類",
-    "マイナンバーカードまたはマイナンバー入りの住民票の写し（利用申込児童と保護者）、本人確認書類（窓口に来る人）"
+    "教育・保育給付認定申請書兼保育利用申込書（様式1（1）（2））",
+    "個人番号（マイナンバー）申告書（様式1（3））",
+    "保育が必要な理由書（様式2）",
+    "保育利用申込に係るチェックシート",
+    "保育が必要な理由に応じた添付書類（就労の場合は就労証明書（様式3）、スケジュール申告書（様式4））",
+    "育児休業から復帰予定の方は育児休業復帰に関する誓約書（様式6）"
   ],
-  "interview": "書類提出時に窓口で面接を実施。3歳未満の児童は令和8年4月1日時点で健康診査が必要",
+  "interview": "令和9年4月1日時点で3歳未満の児童は京都市指定の様式による健康診査が必要（別途料金）。希望する保育施設等は事前に児童同伴で全て見学するよう求めている",
+  "ikukyu": "申込書（2/2）の項目4で「育児休業を延長することが可能であり、利用調整において他の利用希望者よりも後の順位付けとなることに不服はありません」と回答した場合、優先順位を下げる取扱い（－70点）",
   "notes": [
-    "希望する保育施設等については、事前に児童同伴で全て見学していただいたうえで、通園可能な保育施設等のみを御記入ください",
-    "11月14日（金）までに提出いただいた申込みのうち、不足書類や不備書類の再提出、希望園の変更等の締切は12月12日（金）までです",
-    "医療的ケアが必要な児童を希望する場合、申込前に事前相談が必要で、4月利用開始希望の方は11月7日までに書類提出が必要",
-    "11月15日（土）以降の申込みは一次調整の対象とはならず、二次調整以降の対象となり結果通知も2月末以降となります"
+    "令和8年11月14日（土）以降の申込みは一次調整の対象とならず、二次調整以降の対象で結果通知も2月末以降",
+    "不足書類・不備書類の再提出、希望園の変更や追加等の届出の締切は令和8年12月11日（金）必着",
+    "医療的ケアが必要な児童で4月利用希望の方は、令和8年11月6日（金）までに区役所・支所に相談",
+    "令和9年2月4日（木）までに出生予定の児童は一次調整の対象。締切日までに書類を提出",
+    "令和8年11月27日（金）に一次調整申込終了時点の申込状況と受入枠を公表"
   ],
   "evidence": {
     "fiscalYear": {
-      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/R8_annnai.pdf",
-      "quote": "令和８年度 保育利用申込みの御案内 令和７年１０月"
-    },
-    "guideRelease": {
-      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/R8_annnai.pdf",
-      "quote": "令和７年１０月１日（水）～１０月３１日（金） 第一希望の保育施設・事業所"
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000274712.html",
+      "quote": "令和9年4月の利用申込みをされる方は、「5　令和9年4月利用開始に関する手続」を御覧ください。"
     },
     "firstApply": {
-      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/R8_annnai.pdf",
-      "quote": "令和７年１０月１日（水）～１０月３１日（金） 第一希望の保育施設・事業所"
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000274712.html",
+      "quote": "令和8年10月1日（木曜日）～10月30日（金曜日）"
     },
     "firstApply#2": {
-      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/R8_annnai.pdf",
-      "quote": "令和７年１１月４日（火）～１１月１４日（金） （子どもはぐくみ室子育て推進担当）"
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000274712.html",
+      "quote": "令和8年11月13日（金曜日）午後5時まで"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/goannnai.pdf",
+      "quote": "令和９年４月保育利用の一次調整の申込締切は令和８年１１月１３日（金）必着です。"
     },
     "applyMethods": {
-      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/R8_annnai.pdf",
-      "quote": "受付期間 提出先 令和７年１０月１日（水）～１０月３１日（金） 第一希望の保育施設・事業所 （上記期間に間に合わない場合） 第一希望の保育施設・事業所が 所在する地域の区役所・支所 令和７年１１月４日（火）～１１月１４日（金）"
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000274712.html",
+      "quote": "保育申込み書類は、郵送でも受け付けを行います。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000274712.html",
+      "quote": "事前に提出先の区役所・支所まで電話でお知らせください。"
+    },
+    "applyMethods#3": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000274712.html",
+      "quote": "マイナポータルを用いた電子申請の詳細については、以下を御覧ください。"
     },
     "firstResult": {
-      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/R8_annnai.pdf",
-      "quote": "令和８年１月３０日（金）に発送予定です。"
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000274712.html",
+      "quote": "4月利用開始希望（一次調整）は令和9年1月29日（金曜日）発送予定です"
     },
     "secondApply": {
-      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/R8_annnai.pdf",
-      "quote": "◆ 二次調整受付 ： ２月１３日（金）まで"
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000274712.html",
+      "quote": "二次調整受付：　　　　　令和9年2月12日（金曜日）まで"
+    },
+    "secondApply#2": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000274712.html",
+      "quote": "希望園の変更等がなければ改めて再度申請書類を出していただく必要はありません"
     },
     "secondResult": {
-      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/R8_annnai.pdf",
-      "quote": "◆ 二次調整結果通知発送： ２月２７日（金）発送予定"
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000274712.html",
+      "quote": "二次調整結果通知発送：　令和9年2月26日（金曜日）発送予定"
+    },
+    "midYearDeadline": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000274712.html",
+      "quote": "年度途中からの保育利用は、受入枠があれば、毎月受入れを行います。"
+    },
+    "midYearDeadline#2": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/goannnai.pdf",
+      "quote": "令和 ９年 ５月 令和９年 ４月 ９日（金） 令和 ９年１１月 令和９年１０月 ８日（金）"
+    },
+    "midYearDeadline#3": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/goannnai.pdf",
+      "quote": "令和 ９年 ６月 令和９年 ５月１０日（月） 令和 ９年１２月 令和９年１１月１０日（水）"
     },
     "documents.0": {
-      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/R8_annnai.pdf",
-      "quote": "教育・保育給付認定申請書兼保育利用申込書"
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/goannnai.pdf",
+      "quote": "① 教育・保育給付認定申請書兼保育利用申込書（様式１（１）（２））"
     },
     "documents.1": {
-      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/R8_annnai.pdf",
-      "quote": "保育が必要な理由に応じた添付書類"
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/goannnai.pdf",
+      "quote": "② 個人番号（マイナンバー）申告書（様式１（３））"
     },
     "documents.2": {
-      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/R8_annnai.pdf",
-      "quote": "窓口で、世帯全員の個人番号の確認書類（個人番号カード等）及び来庁される方の本人確認書類（運転免許証等）を確認します"
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/goannnai.pdf",
+      "quote": "③ 保育が必要な理由書（様式２）"
+    },
+    "documents.3": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/goannnai.pdf",
+      "quote": "④ 保育利用申込に係るチェックシート"
+    },
+    "documents.4": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000274712.html",
+      "quote": "就労証明書（様式3）、スケジュール申告書（様式4、変則勤務の方で就労証明書の「主な就労時間帯・シフト時間帯」欄が空欄の場合は"
+    },
+    "documents.5": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/goannnai.pdf",
+      "quote": "→ 育児休業復帰に関する誓約書（様式６）を提出してください。"
     },
     "interview": {
-      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/R8_annnai.pdf",
-      "quote": "令和８年４月１日時点で３歳未満の児童は、京都市指定の様式により健康診査を受けていただきます（別途料金が必要となります。）。"
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000274712.html",
+      "quote": "令和9年4月1日時点で3歳未満の児童は、京都市指定の様式により健康診査を受けていただきます（別途料金が必要となります。）。"
+    },
+    "interview#2": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/goannnai.pdf",
+      "quote": "希望する保育施設等については、事前に児童同伴で全て見学していただいたうえで、通園可能な保育施設等のみを御記入ください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/goannnai.pdf",
+      "quote": "育児休業を延長することが可能であり、利用調整において他の利用希望者よりも後の順位付けとなることに不服はありません"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/goannnai.pdf",
+      "quote": "優先順位を下げる取扱い（－７０点。２２ページ調整指数項番３２参照）を行っております。"
     },
     "notes.0": {
-      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/R8_annnai.pdf",
-      "quote": "希望園の変更等がある場合には、同封している保育利用申込内容変更届（Ⅰ－１０）に必要事項を御記入いただき、申込先の区役所・支所へ御提出ください。"
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/goannnai.pdf",
+      "quote": "令和８年１１月１４日（土）以降にお申し込みいただいたものは一次調整の対象とはならず、二次調整以降の対象となり、結果通知も２月末以降となります。"
     },
     "notes.1": {
-      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/R8_annnai.pdf",
-      "quote": "１２月１２日（金）までです。"
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/goannnai.pdf",
+      "quote": "不足書類や不備書類の再提出、希望園の変更や追加等の届出の締切は、令和８年１２月１１日（金）必着です。"
     },
     "notes.2": {
-      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/R8_annnai.pdf",
-      "quote": "※ 令和８年度に医療的ケアが必要な児童の保育利用を希望される場合、申込前に事前相談が必要です。４月利用開始希望の方は、事前に区役所・支所まで御相談のうえ、令和７年１１月７日（金）までに医療的ケアに係る書類を御提出ください。"
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000274712.html",
+      "quote": "4月利用希望の方は、令和8年11月6日（金曜日）までに区役所・支所に御相談ください。"
     },
     "notes.3": {
-      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/R8_annnai.pdf",
-      "quote": "● １１月１５日（土）以降にお申込みいただいた分は一次調整の対象とはならず、二次調整以降の対象となり、結果通知も２月末以降となるため御注意ください。"
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000274712.html",
+      "quote": "令和9年2月4日（木曜日）までに出生予定の児童については、一次調整の対象となりますので、締切日までに書類を提出してください。"
+    },
+    "notes.4": {
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000274712.html",
+      "quote": "令和8年11月27日（金曜日）に一次調整申込終了時点の申込状況と受入枠を公表します。"
     }
   },
   "sources": [
     {
-      "label": "京都市「令和８年度 保育利用申込みの御案内」",
-      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/R8_annnai.pdf"
+      "label": "京都市「令和9年度保育利用申込みの御案内」",
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/page/0000274712.html"
+    },
+    {
+      "label": "京都市「令和9年度 保育利用申込みの御案内」（PDF）",
+      "url": "https://www.city.kyoto.lg.jp/hagukumi/cmsfiles/contents/0000274/274712/goannnai.pdf"
     }
   ]
 }

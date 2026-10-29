@@ -1,103 +1,202 @@
 {
   "citySlug": "fukushima",
-  "checkedAt": "2026-09-18",
+  "checkedAt": "2026-10-29",
   "page": {
-    "label": "福島市「保育施設の利用案内」",
-    "url": "https://www.city.fukushima.fukushima.jp/kosodate-portal/mokuteki/azukari/hoikushisetsu/874.html"
+    "label": "福島市「令和9年4月保育施設入所申込(一次募集）」",
+    "url": "https://www.city.fukushima.fukushima.jp/kosodate-portal/mokuteki/azukari/hoikushisetsu/1833.html"
   },
-  "fiscalYear": "R8",
-  "guideRelease": "令和7年10月作成で、申請書や指定様式は幼保企画課および各認可保育施設で配付。市ホームページからもダウンロード可能",
-  "firstApply": "令和7年11月11日（火）～11月27日（木）。受付時間は午前の部9:00～12:00、午後の部13:30～16:30。受付場所は福島市市民センター3階314会議室。事前予約が必要。ただし15日（土）、23日（日・祝）、24日（月）は受付を行わない",
-  "applyMethods": "窓口申請（福島市市民センター）、郵送、オンライン申請（マイナンバーカード必要）",
-  "firstResult": "令和8年1月30日（予定）に郵便で発送。入所保留の結果は初回のみ発送",
-  "secondApply": "令和7年11月28日（金）～令和8年2月13日（金）。受付時間8:30～17:15。受付場所は福島市役所3階幼保企画課。事前予約不要",
-  "secondResult": "令和8年2月27日（発送予定）に郵便で発送",
+  "fiscalYear": "R9",
+  "guideRelease": "令和8年10月23日（金曜日）から翌年度用の申請書類等を配布。配布場所は福島市役所3階幼保企画課（平日8時30分〜17時15分）と各認可保育施設",
+  "firstApply": "令和8年11月10日（火曜日）〜11月26日（木曜日）。14日（土曜日）、22日（日曜日）、23日（月曜日・祝日）は受付なし。受付時間は午前の部9時〜11時30分、午後の部13時30分〜16時30分、受付場所は市民センター3階314会議室。申込日時の予約が必要で、予約期間は令和8年10月23日（金曜日）から申請日前日の正午まで。郵送・オンラインは令和8年11月26日締切（必着）。不足書類の提出は12月4日（金曜日）まで",
+  "applyMethods": "予約した日時に申請書と提出書類を準備して会場へ来場して申し込む。県外在住などで来場が困難な場合は郵送またはオンライン（マイナンバーカードを使いマイナポータルから申請）も可能",
+  "firstResult": "令和9年1月29日発送予定。郵便で入所の成否を知らせる",
+  "midYearDeadline": "5月〜3月入所の申込期限は入所希望月の前月5日（休日の場合は翌平日）",
   "documents": [
-    "教育・保育給付認定申請書兼保育施設等利用申請書（お子さん1名につき1枚）",
-    "家庭状況調査書（世帯につき1枚）",
-    "福島市認可保育施設入所申込に関する確認票（世帯につき1枚）",
-    "保育を必要とする事由の確認書類（就労証明書、出産予定日の記載のある母子健康手帳の写し、障害者手帳等、介護・看護状況申告書など）",
+    "【様式第1号】教育・保育給付認定申請書兼保育施設等利用申請書（児童1名ごとに1枚。令和8年10月から様式変更）",
+    "家庭状況調査書（世帯ごとに1枚。令和7年10月から様式変更）",
+    "福島市認可保育施設入所申込に関する確認票（世帯ごとに1枚）",
+    "委任状（申請者と窓口に来る人が異なる場合）",
+    "就労の場合は月64時間以上の就労が明記された就労証明書",
+    "自営業の場合は確定申告書の写し・営業許可証の写し・開業届の写しのいずれかを併せて提出",
+    "転入者で令和8年1月1日に福島市に住所がない人が令和9年8月までの入所を申し込む場合は令和8年度（令和7年分）課税（非課税）証明書",
     "保護者のマイナンバー確認書類（マイナンバーカードなど）",
     "申請者またはその代理人の本人確認書類（マイナンバーカード、運転免許証など）"
   ],
+  "interview": "郵送・オンラインで申し込んだ場合、市担当者から子どもの普段の様子等について聞き取りをする場合がある。申込前の施設見学が勧められている（見学の際は事前に各保育施設へ問い合わせる）",
+  "ikukyu": "育児休業給付金の支給延長手続きには保育所等の利用申込を行った時の申請書の写しが必要なので、申し込む前に自分で写しをとって保管しておく",
   "notes": [
-    "令和7年度と令和8年4月の入所申請を同時にしている場合、令和7年度の入所が決定すると令和8年4月の申込は自動的に取り下げになる（地域型保育事業の2歳児クラス卒園児を除く）",
-    "入所決定後に辞退する場合は通知に記載された期限までに幼保企画課へ連絡する"
+    "入所決定は申請順ではないので、一次募集の期間内の都合の良い日に申請すればよい",
+    "1件あたりの受付時間は短い場合でも10分〜20分程度かかり、予約時間から30分以上待つ場合もある",
+    "一次募集で入所が決定しなかった人は引き続き二次調整の対象になり、新規の申請は不要",
+    "入所が決まった施設を辞退する場合は令和9年2月10日（水曜日）までに幼保企画課へ連絡する。令和9年度の入所を再度申請した場合、利用調整で不利になる",
+    "一次募集の後、11月27日から令和9年4月入所の二次募集の受付を行う"
   ],
   "evidence": {
     "fiscalYear": {
-      "url": "https://www.city.fukushima.fukushima.jp/material/files/group/55/20260401riyou.pdf",
-      "quote": "令和８年４月１日現在の年齢（対象クラス）は次のとおりです"
+      "url": "https://www.city.fukushima.fukushima.jp/kosodate-portal/mokuteki/azukari/hoikushisetsu/1833.html",
+      "quote": "令和9年4月の認可保育施設入所の申し込みを、以下の日程で受け付けます。"
     },
     "guideRelease": {
-      "url": "https://www.city.fukushima.fukushima.jp/material/files/group/55/20260401riyou.pdf",
-      "quote": "申請書や指定様式は幼保企画課および各認可保育施設で配付します。市ホームページからも取得できます。"
+      "url": "https://www.city.fukushima.fukushima.jp/kosodate-portal/mokuteki/azukari/hoikushisetsu/1833.html",
+      "quote": "令和9年度用の申請書類等は、令和8年10月23日（金曜日）から配布します。"
+    },
+    "guideRelease#2": {
+      "url": "https://www.city.fukushima.fukushima.jp/kosodate-portal/mokuteki/azukari/hoikushisetsu/1833.html",
+      "quote": "福島市役所3階幼保企画課（平日8時30分から17時15分）"
+    },
+    "guideRelease#3": {
+      "url": "https://www.city.fukushima.fukushima.jp/download/kosodate-kyoiku/2698.html",
+      "quote": "なお、申請書などの指定様式は、各認可保育施設および幼保企画課でも配布しています。"
     },
     "firstApply": {
-      "url": "https://www.city.fukushima.fukushima.jp/material/files/group/55/20260401riyou.pdf",
-      "quote": "令和７年１１月１１日(火) ～１１月２７日(木)"
+      "url": "https://www.city.fukushima.fukushima.jp/kosodate-portal/mokuteki/azukari/hoikushisetsu/1833.html",
+      "quote": "令和8年11月10日（火曜日）から11月26日（木曜日）"
+    },
+    "firstApply#2": {
+      "url": "https://www.city.fukushima.fukushima.jp/kosodate-portal/mokuteki/azukari/hoikushisetsu/1833.html",
+      "quote": "うち、14日（土曜日）と22日（日曜日）、23日（月曜日・祝日）は受付を行いません。"
+    },
+    "firstApply#3": {
+      "url": "https://www.city.fukushima.fukushima.jp/kosodate-portal/mokuteki/azukari/hoikushisetsu/1833.html",
+      "quote": "午前の部：9時から11時30分"
+    },
+    "firstApply#4": {
+      "url": "https://www.city.fukushima.fukushima.jp/kosodate-portal/mokuteki/azukari/hoikushisetsu/1833.html",
+      "quote": "午後の部：13時30分から16時30分"
+    },
+    "firstApply#5": {
+      "url": "https://www.city.fukushima.fukushima.jp/kosodate-portal/mokuteki/azukari/hoikushisetsu/1833.html",
+      "quote": "市民センター3階314会議室"
+    },
+    "firstApply#6": {
+      "url": "https://www.city.fukushima.fukushima.jp/kosodate-portal/mokuteki/azukari/hoikushisetsu/1833.html",
+      "quote": "【予約受付期間】令和8年10月23日（金曜日）から申請日前日の正午まで"
+    },
+    "firstApply#7": {
+      "url": "https://www.city.fukushima.fukushima.jp/kosodate-portal/mokuteki/azukari/hoikushisetsu/1833.html",
+      "quote": "一次募集分は令和8年11月26日締切（必着）です。"
+    },
+    "firstApply#8": {
+      "url": "https://www.city.fukushima.fukushima.jp/kosodate-portal/mokuteki/azukari/hoikushisetsu/1833.html",
+      "quote": "不足書類の提出は12月4日（金曜日）まで"
     },
     "applyMethods": {
+      "url": "https://www.city.fukushima.fukushima.jp/kosodate-portal/mokuteki/azukari/hoikushisetsu/1833.html",
+      "quote": "予約期間内に申込日時をご予約のうえ、申請書および提出書類などを準備し、ご来場ください。"
+    },
+    "applyMethods#2": {
+      "url": "https://www.city.fukushima.fukushima.jp/kosodate-portal/mokuteki/azukari/hoikushisetsu/1833.html",
+      "quote": "県外在住などの理由で来場が困難な場合は、郵送またはオンラインによる申し込みも可能です。"
+    },
+    "applyMethods#3": {
       "url": "https://www.city.fukushima.fukushima.jp/kosodate-portal/mokuteki/azukari/hoikushisetsu/874.html",
-      "quote": "入所の申し込みは、申請書の記載内容や提出を要する書類が多いため、窓口にご来所いただいたうえで、説明や聞き取りを通しながら申請いただくことをお勧めしています。しかし、窓口へのご来所による申請が困難な場合は、マイナポータルからの電子申請や、郵送による申請も可能です。"
+      "quote": "マイナンバーカードを使用し、マイナポータルから申請します。"
     },
     "firstResult": {
-      "url": "https://www.city.fukushima.fukushima.jp/material/files/group/55/20260401riyou.pdf",
-      "quote": "令和８年１月３０日（予定） 令和８年４月（令和８年度）"
+      "url": "https://www.city.fukushima.fukushima.jp/kosodate-portal/mokuteki/azukari/hoikushisetsu/1833.html",
+      "quote": "結果の発送（一次募集）＜令和9年1月29日発送予定＞"
     },
-    "secondApply": {
-      "url": "https://www.city.fukushima.fukushima.jp/material/files/group/55/20260401riyou.pdf",
-      "quote": "令和７年１１月２８日(金) ～令和８年２月１３日(金)"
+    "firstResult#2": {
+      "url": "https://www.city.fukushima.fukushima.jp/kosodate-portal/mokuteki/azukari/hoikushisetsu/1833.html",
+      "quote": "郵便で入所の成否についてお知らせします。"
     },
-    "secondResult": {
-      "url": "https://www.city.fukushima.fukushima.jp/kosodate-portal/mokuteki/azukari/hoikushisetsu/1836.html",
-      "quote": "結果の発送（二次募集）＜令和8年2月27日発送予定＞"
+    "midYearDeadline": {
+      "url": "https://www.city.fukushima.fukushima.jp/kosodate-portal/mokuteki/azukari/hoikushisetsu/874.html",
+      "quote": "申込期限は、入所希望月の前月5日（休日の場合は翌平日）です。"
     },
     "documents.0": {
-      "url": "https://www.city.fukushima.fukushima.jp/material/files/group/55/20260401riyou.pdf",
-      "quote": "□ 教育・保育給付認定申請書兼保育施設等利用申請書（お子さん１名につき１枚）"
+      "url": "https://www.city.fukushima.fukushima.jp/download/kosodate-kyoiku/2698.html",
+      "quote": "【様式第1号】教育・保育給付認定申請書兼保育施設等利用申請書（児童1名ごとに1枚必要です)令和8年10月から様式変更しています。"
     },
     "documents.1": {
-      "url": "https://www.city.fukushima.fukushima.jp/material/files/group/55/20260401riyou.pdf",
-      "quote": "□ 家庭状況調査書（世帯につき１枚）"
+      "url": "https://www.city.fukushima.fukushima.jp/download/kosodate-kyoiku/2698.html",
+      "quote": "家庭状況調査書（世帯ごとに1枚必要です）令和7年10月から様式変更しています。"
     },
     "documents.2": {
-      "url": "https://www.city.fukushima.fukushima.jp/material/files/group/55/20260401riyou.pdf",
-      "quote": "□ 福島市認可保育施設入所申込に関する確認票（世帯につき１枚）"
+      "url": "https://www.city.fukushima.fukushima.jp/download/kosodate-kyoiku/2698.html",
+      "quote": "福島市認可保育施設入所申込に関する確認票（世帯ごとに1枚必要です）"
     },
     "documents.3": {
-      "url": "https://www.city.fukushima.fukushima.jp/material/files/group/55/20260401riyou.pdf",
-      "quote": "月６４時間以上の就労をしていることが明記されているもの 就労証明書（指定様式）"
+      "url": "https://www.city.fukushima.fukushima.jp/download/kosodate-kyoiku/2698.html",
+      "quote": "委任状（申請者と窓口に来られるかたが異なる場合に必要です）"
     },
     "documents.4": {
-      "url": "https://www.city.fukushima.fukushima.jp/material/files/group/55/20260401riyou.pdf",
-      "quote": "保護者のマイナンバー確認書類（マイナンバーカードなど）"
+      "url": "https://www.city.fukushima.fukushima.jp/download/kosodate-kyoiku/2698.html",
+      "quote": "月64時間以上の就労をしていることが明記されているものが必要です。"
     },
     "documents.5": {
-      "url": "https://www.city.fukushima.fukushima.jp/material/files/group/55/20260401riyou.pdf",
-      "quote": "申請者またはその代理人の本人確認書類（マイナンバーカードなど）"
+      "url": "https://www.city.fukushima.fukushima.jp/download/kosodate-kyoiku/2698.html",
+      "quote": "自営業の場合、確定申告書の写し/営業許可証の写し/開業届の写しのいずれかを併せて提出してください。"
+    },
+    "documents.6": {
+      "url": "https://www.city.fukushima.fukushima.jp/download/kosodate-kyoiku/2698.html",
+      "quote": "令和8年1月1日に福島市に住所がないかたが令和9年8月までの入所を申し込む場合…令和8年度（令和7年分）課税(非課税)証明書"
+    },
+    "documents.7": {
+      "url": "https://www.city.fukushima.fukushima.jp/kosodate-portal/mokuteki/azukari/hoikushisetsu/874.html",
+      "quote": "保護者のマイナンバー確認書類（マイナンバーカードなど）"
+    },
+    "documents.8": {
+      "url": "https://www.city.fukushima.fukushima.jp/kosodate-portal/mokuteki/azukari/hoikushisetsu/874.html",
+      "quote": "申請者またはその代理人の本人確認書類（マイナンバーカード、運転免許証など）"
+    },
+    "interview": {
+      "url": "https://www.city.fukushima.fukushima.jp/kosodate-portal/mokuteki/azukari/hoikushisetsu/1833.html",
+      "quote": "お子様の安全な受け入れのため、市担当者からお子様の普段の様子等について聞き取りをさせていただく場合がありますので、あらかじめご了承ください。"
+    },
+    "interview#2": {
+      "url": "https://www.city.fukushima.fukushima.jp/kosodate-portal/mokuteki/azukari/hoikushisetsu/1833.html",
+      "quote": "ご家庭の希望に合った施設選びに役立ちますので、申し込み前に施設見学をおすすめします。"
+    },
+    "interview#3": {
+      "url": "https://www.city.fukushima.fukushima.jp/kosodate-portal/mokuteki/azukari/hoikushisetsu/1833.html",
+      "quote": "なお、見学の際は必ず事前に各保育施設へお問い合わせください。"
+    },
+    "ikukyu": {
+      "url": "https://www.city.fukushima.fukushima.jp/kosodate-portal/mokuteki/azukari/hoikushisetsu/1833.html",
+      "quote": "令和7年4月から、育児休業給付金の支給延長手続きの際に、保育所等の利用申込を行った時の申請書の写しが必要となります。"
+    },
+    "ikukyu#2": {
+      "url": "https://www.city.fukushima.fukushima.jp/kosodate-portal/mokuteki/azukari/hoikushisetsu/1833.html",
+      "quote": "申し込む前に、ご自身で写しをとって保管しておいてください。"
     },
     "notes.0": {
-      "url": "https://www.city.fukushima.fukushima.jp/material/files/group/55/20260401riyou.pdf",
-      "quote": "令和７年度と令和８年４月の入所申請を同時にされているかたが、令和７年度の入所が決定した場合は、令和７年度中の入所が優先となり、令和８年４月の入所申込は自動的に取下げとなります。"
+      "url": "https://www.city.fukushima.fukushima.jp/kosodate-portal/mokuteki/azukari/hoikushisetsu/1833.html",
+      "quote": "入所決定は申請順ではありません。ご都合の良い一次募集の期間内に申請してください。"
     },
     "notes.1": {
-      "url": "https://www.city.fukushima.fukushima.jp/material/files/group/55/20260401riyou.pdf",
-      "quote": "入所できた施設を辞退した場合、同じ年度の入所を再度申請した際に不利になる場合がありますので、ご注意ください。"
+      "url": "https://www.city.fukushima.fukushima.jp/kosodate-portal/mokuteki/azukari/hoikushisetsu/1833.html",
+      "quote": "なお、1件あたりの受付時間は、短い場合でも10分～20分程度を要します。"
+    },
+    "notes.1#2": {
+      "url": "https://www.city.fukushima.fukushima.jp/kosodate-portal/mokuteki/azukari/hoikushisetsu/1833.html",
+      "quote": "予約いただいた時間から30分以上の長時間お待ちいただく場合があります。"
+    },
+    "notes.2": {
+      "url": "https://www.city.fukushima.fukushima.jp/kosodate-portal/mokuteki/azukari/hoikushisetsu/1833.html",
+      "quote": "一次募集で入所が決定しなかったかたは、引き続き二次調整を行います。新規の申請は必要ありません。"
+    },
+    "notes.3": {
+      "url": "https://www.city.fukushima.fukushima.jp/kosodate-portal/mokuteki/azukari/hoikushisetsu/1833.html",
+      "quote": "入所が決まった施設を辞退する場合は、令和9年2月10日（水曜日）まで幼保企画課へご連絡ください。なお、令和9年度の入所を再度申請した場合、利用調整で不利になります。"
+    },
+    "notes.4": {
+      "url": "https://www.city.fukushima.fukushima.jp/kosodate-portal/mokuteki/azukari/hoikushisetsu/1833.html",
+      "quote": "11月27日からは令和9年4月保育施設入所申込（二次募集）の受付を行います。"
     }
   },
   "sources": [
     {
-      "label": "福島市「保育施設の利用案内」",
+      "label": "福島市「令和9年4月保育施設入所申込(一次募集）」",
+      "url": "https://www.city.fukushima.fukushima.jp/kosodate-portal/mokuteki/azukari/hoikushisetsu/1833.html"
+    },
+    {
+      "label": "福島市「【認可保育施設を利用したいかた】保育施設の利用案内」",
       "url": "https://www.city.fukushima.fukushima.jp/kosodate-portal/mokuteki/azukari/hoikushisetsu/874.html"
     },
     {
-      "label": "福島市「令和８年度保育施設利用案内」PDF",
-      "url": "https://www.city.fukushima.fukushima.jp/material/files/group/55/20260401riyou.pdf"
-    },
-    {
-      "label": "福島市「【受付終了しました】令和8年4月保育施設入所申込（二次募集）」",
-      "url": "https://www.city.fukushima.fukushima.jp/kosodate-portal/mokuteki/azukari/hoikushisetsu/1836.html"
+      "label": "福島市「【認可保育施設を利用したいかた】認可保育施設の利用申請書」",
+      "url": "https://www.city.fukushima.fukushima.jp/download/kosodate-kyoiku/2698.html"
     }
   ]
 }
