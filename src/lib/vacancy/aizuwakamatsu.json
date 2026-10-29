@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "aizuwakamatsu",
   "municipalityName": "会津若松市",
-  "asOf": "2026-09-29",
-  "fetchedAt": "2026-10-28",
+  "asOf": "2026-10-23",
+  "fetchedAt": "2026-10-29",
   "sourceName": "会津若松市「保育所・認定こども園（保育部分）受入予定数」",
   "sourceUrl": "https://www.city.aizuwakamatsu.fukushima.jp/docs/2024092400010/",
   "sourceFiles": {
-    "vacancy": "https://www.city.aizuwakamatsu.fukushima.jp/docs/2024092400010/file_contents/20260929.pdf"
+    "vacancy": "https://www.city.aizuwakamatsu.fukushima.jp/docs/2024092400010/file_contents/20261023.pdf"
   },
   "metrics": [
     "symbol"
@@ -102,7 +102,7 @@
         null
       ],
       "symbols": [
-        "△",
+        "▲",
         "△",
         "〇",
         "×",
@@ -146,7 +146,7 @@
         null
       ],
       "symbols": [
-        "△",
+        "×",
         "▲",
         "×",
         "×",
@@ -168,8 +168,8 @@
         null
       ],
       "symbols": [
-        "〇",
-        "〇",
+        "▲",
+        "△",
         "△",
         "▲",
         "▲",
@@ -190,8 +190,8 @@
         null
       ],
       "symbols": [
-        "△",
-        "▲",
+        "×",
+        "×",
         "×",
         "×",
         "×",
@@ -304,7 +304,7 @@
         "×",
         "×",
         "×",
-        "▲",
+        "×",
         "×"
       ]
     },
@@ -327,7 +327,7 @@
         "×",
         "▲",
         "△",
-        "▲"
+        "×"
       ]
     },
     {
@@ -388,11 +388,11 @@
         null
       ],
       "symbols": [
+        "▲",
+        "△",
+        "〇",
         "×",
-        "〇",
-        "〇",
-        "▲",
-        "▲",
+        "×",
         "×"
       ]
     },
@@ -410,7 +410,7 @@
         null
       ],
       "symbols": [
-        "〇",
+        "△",
         "×",
         "〇",
         "▲",
@@ -432,7 +432,7 @@
         null
       ],
       "symbols": [
-        "△",
+        "▲",
         "〇",
         "〇",
         "〇",
@@ -543,7 +543,7 @@
       ],
       "symbols": [
         "×",
-        "▲",
+        "×",
         "▲",
         "△",
         "×",
@@ -586,8 +586,8 @@
         null
       ],
       "symbols": [
-        "〇",
-        "▲",
+        "△",
+        "×",
         "▲",
         "▲",
         "×",
@@ -633,7 +633,7 @@
         "×",
         "×",
         "▲",
-        "△",
+        "▲",
         "〇",
         "〇"
       ]
@@ -696,7 +696,7 @@
         null
       ],
       "symbols": [
-        "▲",
+        "△",
         "×",
         "▲",
         null,
@@ -718,7 +718,7 @@
         null
       ],
       "symbols": [
-        "△",
+        "▲",
         "×",
         "×",
         null,
@@ -740,7 +740,7 @@
         null
       ],
       "symbols": [
-        "△",
+        "▲",
         "×",
         "▲",
         null,

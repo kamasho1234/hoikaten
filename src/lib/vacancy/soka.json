@@ -2,7 +2,7 @@
   "municipalitySlug": "soka",
   "municipalityName": "草加市",
   "asOf": "2026-10-26",
-  "fetchedAt": "2026-10-27",
+  "fetchedAt": "2026-10-29",
   "sourceName": "草加市「保育所等 空き状況一覧」",
   "sourceUrl": "https://www.city.soka.saitama.jp/cont/s1603/020/010/010/PAGE000000000000083943.html",
   "sourceFiles": {
@@ -61,7 +61,7 @@
     {"id":"めぇめぇこやぎこども園","name":"めぇめぇこやぎこども園","w":null,"c":1,"vacancy":[0,0,0,1,4,1]},
     {"id":"にっさとの森保育園","name":"にっさとの森保育園","w":null,"c":1,"vacancy":[0,0,0,0,0,1]},
     {"id":"草加にじいろ保育園","name":"草加にじいろ保育園","w":null,"c":1,"vacancy":[0,0,0,0,0,0]},
-    {"id":"じょうえん保育園","name":"じょうえん保育園","w":null,"c":1,"vacancy":[0,1,0,0,0,3]},
+    {"id":"じょうえん保育園","name":"じょうえん保育園","w":null,"c":1,"vacancy":[0,0,1,0,0,3]},
     {"id":"さくらんぼ保育園","name":"さくらんぼ保育園","w":null,"c":1,"vacancy":[null,0,0,0,2,0]},
     {"id":"草加松原どろんこ保育園","name":"草加松原どろんこ保育園","w":null,"c":1,"vacancy":[0,0,0,0,0,0]},
     {"id":"ほっぺるランド草加谷塚","name":"ほっぺるランド草加谷塚","w":null,"c":1,"vacancy":[0,0,0,0,2,2]},
