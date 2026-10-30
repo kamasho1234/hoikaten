@@ -3,11 +3,11 @@
   "municipalityName": "十和田市",
   "prefecture": "青森県",
   "asOf": "2026-09-30",
-  "fetchedAt": "2026-10-29",
+  "fetchedAt": "2026-10-30",
   "sourceName": "十和田市「保育施設空き状況一覧」",
   "sourceUrl": "https://www.city.towada.lg.jp/fukushi/kosodate/jidou/hoiku_riyou.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.towada.lg.jp/fukushi/kosodate/jidou/files/R8.9.30_akijoukyou2.pdf"
+    "vacancy": "https://www.city.towada.lg.jp/fukushi/kosodate/jidou/files/R8.10.30_akijoukyou.pdf"
   },
   "metrics": [
     "symbol"
@@ -52,7 +52,7 @@
         null
       ],
       "symbols": [
-        "○",
+        "－",
         "－",
         "－",
         "－",
@@ -382,7 +382,7 @@
         null
       ],
       "symbols": [
-        "－",
+        "○",
         "○",
         "○",
         "○",
@@ -426,7 +426,7 @@
         null
       ],
       "symbols": [
-        "－",
+        "△",
         "○",
         "○",
         "○",
@@ -514,7 +514,7 @@
         null
       ],
       "symbols": [
-        "－",
+        "○",
         "○",
         "－",
         "○",
@@ -602,12 +602,12 @@
         null
       ],
       "symbols": [
-        "－",
-        "－",
-        "－",
-        "－",
-        "－",
-        "－"
+        "○",
+        "○",
+        "○",
+        "○",
+        "○",
+        "○"
       ]
     }
   ]

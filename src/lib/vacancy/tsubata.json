@@ -2,12 +2,12 @@
   "municipalitySlug": "tsubata",
   "municipalityName": "津幡町",
   "prefecture": "石川県",
-  "asOf": "2026-09-30",
-  "fetchedAt": "2026-10-29",
+  "asOf": "2026-10-30",
+  "fetchedAt": "2026-10-30",
   "sourceName": "津幡町「保育施設等の空き状況表」",
   "sourceUrl": "https://www.town.tsubata.lg.jp/page/10656.html",
   "sourceFiles": {
-    "vacancy": "https://www.town.tsubata.lg.jp/uploaded/attachment/8087.pdf"
+    "vacancy": "https://www.town.tsubata.lg.jp/uploaded/attachment/8224.pdf"
   },
   "metrics": [
     "symbol"
@@ -142,12 +142,12 @@
         null
       ],
       "symbols": [
-        "×",
-        "×",
-        "×",
+        "○",
         "○",
         "△",
-        "△"
+        "○",
+        "○",
+        "○"
       ]
     },
     {
@@ -164,7 +164,7 @@
         null
       ],
       "symbols": [
-        "×",
+        "△",
         "×",
         "×",
         "×",

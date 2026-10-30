@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "urasoe",
   "municipalityName": "浦添市",
-  "asOf": "2026-10-29",
-  "fetchedAt": "2026-10-29",
+  "asOf": "2026-10-30",
+  "fetchedAt": "2026-10-30",
   "sourceName": "浦添市「年度途中の入所受入可能児童数」",
   "sourceUrl": "https://www.city.urasoe.lg.jp/doc/2026032700044/",
   "sourceFiles": {
-    "vacancy": "https://www.city.urasoe.lg.jp/doc/2026032700044/file_contents/file_202610294125452_1.pdf"
+    "vacancy": "https://www.city.urasoe.lg.jp/doc/2026032700044/file_contents/file_20261029420331_1.pdf"
   },
   "metrics": [
     "vacancy",
@@ -15,7 +15,7 @@
   "subtitle": "2026年12月1日入所の受入可能児童数",
   "waitingCaveat": "入所待ち児童数は園ごとの申込数です。複数の園を希望すると希望した園それぞれに数えられるので、合計は実人数より多くなります。園ごとの競争率としては読めません。",
   "notes": [
-    "浦添市が公開しているのは2026年12月1日入所の受入可能児童数と入所待ち児童数で、公式ページが2026-10-29に更新されたものです。2号・3号認定（保育を必要とする枠）の数です。",
+    "浦添市が公開しているのは2026年12月1日入所の受入可能児童数と入所待ち児童数で、公式ページが2026-10-30に更新されたものです。2号・3号認定（保育を必要とする枠）の数です。",
     "受入可能児童数と入所待ち児童数は状況により変動します。あくまでも目安として参考にしてください。",
     "入所待ち児童数とは、前月末までに入所申込みをした児童の人数です。複数の園を希望している場合、",
     "希望園の変更は、受付期間内にこども未来課窓口又はオンラインでの手続きが必要です。",
@@ -62,7 +62,7 @@
     {"id":"ささのは保育園","name":"ささのは保育園","w":null,"c":2,"vacancy":[0,0,0,null,null,null],"waiting":[3,0,0,null,null,null]},
     {"id":"すまいるほいくえん","name":"すまいるほいくえん","w":null,"c":2,"vacancy":[0,0,0,null,null,null],"waiting":[4,1,0,null,null,null]},
     {"id":"えくぼ保育園","name":"えくぼ保育園","w":null,"c":2,"vacancy":[0,0,0,null,null,null],"waiting":[3,2,0,null,null,null]},
-    {"id":"さつき保育園","name":"さつき保育園","w":null,"c":2,"vacancy":[0,0,0,null,null,null],"waiting":[4,1,0,null,null,null]},
+    {"id":"さつき保育園","name":"さつき保育園","w":null,"c":2,"vacancy":[2,0,0,null,null,null],"waiting":[4,1,0,null,null,null]},
     {"id":"サウンドキッズ","name":"サウンドキッズ","w":null,"c":2,"vacancy":[0,1,1,null,null,null],"waiting":[1,0,0,null,null,null]},
     {"id":"ちゅうりっぷ保育園","name":"ちゅうりっぷ保育園","w":null,"c":2,"vacancy":[0,0,0,null,null,null],"waiting":[5,1,0,null,null,null]},
     {"id":"きらきら保育園","name":"きらきら保育園","w":null,"c":2,"vacancy":[0,0,0,null,null,null],"waiting":[4,1,0,null,null,null]},
