@@ -1,8 +1,8 @@
 {
   "municipalitySlug": "mizuho",
   "municipalityName": "瑞穂町",
-  "asOf": "2026-10-01",
-  "fetchedAt": "2026-10-31",
+  "asOf": "2026-11-01",
+  "fetchedAt": "2026-11-01",
   "sourceName": "瑞穂町「保育園の空き状況」",
   "sourceUrl": "https://www.town.mizuho.tokyo.jp/kosodate/004/001/p011207.html",
   "sourceFiles": {
@@ -69,7 +69,7 @@
       "vacancy": [
         0,
         0,
-        3,
+        2,
         5,
         0,
         0

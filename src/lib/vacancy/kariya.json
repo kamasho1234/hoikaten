@@ -1,19 +1,19 @@
 {
   "municipalitySlug": "kariya",
   "municipalityName": "刈谷市",
-  "asOf": "2026-11-01",
-  "fetchedAt": "2026-10-01",
+  "asOf": "2026-12-01",
+  "fetchedAt": "2026-11-01",
   "sourceName": "刈谷市「空き枠情報」",
   "sourceUrl": "https://www.city.kariya.lg.jp/kosodatenavi/1014910/1011895/1015435/1015441.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.kariya.lg.jp/_res/projects/default_project/_page_/001/015/441/r8akiwaku11.pdf"
+    "vacancy": "https://www.city.kariya.lg.jp/_res/projects/default_project/_page_/001/015/441/r8akiwaku12.pdf"
   },
   "metrics": [
     "symbol"
   ],
   "subtitle": "0〜2歳児クラスの空き枠",
   "notes": [
-    "刈谷市は空き枠を人数ではなく記号で公表しています。これは2026-11-01時点のものです。",
+    "刈谷市は空き枠を人数ではなく記号で公表しています。これは2026-12-01時点のものです。",
     "刈谷市が公表しているのは0歳児から2歳児のクラスだけです。3歳児クラス以上は幼児園等が受け持っているため、当サイトでは「—」にしています。",
     "保育士確保状況等により常に変動するため、暫定のものです。入園申請の参考と…",
     "年度後半は空き枠が出にくいです。",

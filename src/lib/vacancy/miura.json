@@ -2,12 +2,12 @@
   "municipalitySlug": "miura",
   "municipalityName": "三浦市",
   "prefecture": "神奈川県",
-  "asOf": "2026-10-01",
-  "fetchedAt": "2026-10-21",
+  "asOf": "2026-11-01",
+  "fetchedAt": "2026-11-01",
   "sourceName": "三浦市「市内保育園の入所状況」",
   "sourceUrl": "https://www.city.miura.kanagawa.jp/soshiki/kodomoka/kodomoka_kodomoshien/hoikuen/93.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.miura.kanagawa.jp/material/files/group/31/20261001nyuushojoukyou.pdf"
+    "vacancy": "https://www.city.miura.kanagawa.jp/material/files/group/31/20261101nyuushojoukyou.pdf"
   },
   "metrics": [
     "symbol"

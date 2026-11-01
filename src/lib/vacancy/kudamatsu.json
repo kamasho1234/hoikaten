@@ -2,12 +2,12 @@
   "municipalitySlug": "kudamatsu",
   "municipalityName": "下松市",
   "prefecture": "山口県",
-  "asOf": "2026-10-01",
-  "fetchedAt": "2026-10-01",
+  "asOf": "2026-11-01",
+  "fetchedAt": "2026-11-01",
   "sourceName": "下松市「市内保育所等入所状況」",
   "sourceUrl": "https://www.city.kudamatsu.lg.jp/kosodateshien/fukushi/jidou/hoiku.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.kudamatsu.lg.jp/kosodateshien/fukushi/jidou/documents/202610nyushojyokyo.pdf"
+    "vacancy": "https://www.city.kudamatsu.lg.jp/kosodateshien/fukushi/jidou/documents/202611nyushojyokyo.pdf"
   },
   "metrics": [
     "vacancy",
@@ -15,7 +15,7 @@
   ],
   "subtitle": "受入可能数と入所児童数の差",
   "notes": [
-    "下松市は空きの数を直接は公表していません。市が出している「受入可能数」から「入所児童数」を引いた数を空きとして載せています（2026-10-01時点）。",
+    "下松市は空きの数を直接は公表していません。市が出している「受入可能数」から「入所児童数」を引いた数を空きとして載せています（2026-11-01時点）。",
     "市の表で空きが無い欄は黄色く塗られています。当サイトでは、その塗りと計算した空きが食い違わないことを確かめたうえで載せています。",
     "入所児童数の括弧内は「うち市外児童」の内数です。当サイトでは括弧の外の数を在籍数として載せています。",
     "設けていないクラスは「—」にしています。"
@@ -29,9 +29,9 @@
     {"id":"平田","name":"平田","w":null,"vacancy":[0,0,0,0,0,0],"enrolled":[1,15,18,20,21,21]},
     {"id":"愛隣","name":"愛隣","w":null,"vacancy":[0,0,0,0,0,0],"enrolled":[2,15,18,20,21,22]},
     {"id":"アイグラン保育園潮音","name":"アイグラン保育園潮音","w":null,"vacancy":[0,0,0,1,1,0],"enrolled":[6,15,17,17,17,18]},
-    {"id":"アイグラン保育園宮前","name":"アイグラン保育園宮前","w":null,"vacancy":[0,0,0,0,4,0],"enrolled":[6,18,20,20,19,23]},
+    {"id":"アイグラン保育園宮前","name":"アイグラン保育園宮前","w":null,"vacancy":[0,0,0,0,4,0],"enrolled":[9,18,20,20,19,23]},
     {"id":"花岡","name":"花岡","w":null,"vacancy":[0,0,0,0,0,0],"enrolled":[6,18,24,30,30,30]},
-    {"id":"ニチイキッズ下松清瀬","name":"ニチイキッズ下松清瀬","w":null,"vacancy":[0,0,0,0,1,1],"enrolled":[7,11,12,16,17,17]},
+    {"id":"ニチイキッズ下松清瀬","name":"ニチイキッズ下松清瀬","w":null,"vacancy":[0,0,0,0,1,1],"enrolled":[7,12,12,16,17,17]},
     {"id":"くぼ","name":"くぼ","w":null,"vacancy":[0,0,0,0,0,0],"enrolled":[6,9,15,20,20,20]},
     {"id":"ひだまり","name":"ひだまり","w":null,"vacancy":[0,0,0,null,null,null],"enrolled":[6,6,7,null,null,null]},
     {"id":"太陽のテラス","name":"太陽のテラス","w":null,"vacancy":[0,0,0,null,null,null],"enrolled":[5,6,8,null,null,null]},

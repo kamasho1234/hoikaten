@@ -2,12 +2,12 @@
   "municipalitySlug": "saitama-ina",
   "municipalityName": "伊奈町",
   "prefecture": "埼玉県",
-  "asOf": "2026-10-01",
-  "fetchedAt": "2026-10-29",
+  "asOf": "2026-11-01",
+  "fetchedAt": "2026-11-01",
   "sourceName": "伊奈町「保育施設 入所可能予定数」",
   "sourceUrl": "https://www.town.saitama-ina.lg.jp/0000008172.html",
   "sourceFiles": {
-    "vacancy": "https://www.town.saitama-ina.lg.jp/cmsfiles/contents/0000008/8172/R8.11.pdf"
+    "vacancy": "https://www.town.saitama-ina.lg.jp/cmsfiles/contents/0000008/8172/R8.12.pdf"
   },
   "metrics": [
     "vacancy"
@@ -73,8 +73,8 @@
         0,
         0,
         2,
-        1,
-        0
+        0,
+        1
       ]
     },
     {
@@ -83,7 +83,7 @@
       "w": null,
       "c": null,
       "vacancy": [
-        3,
+        0,
         0,
         0,
         0,
@@ -114,7 +114,7 @@
         0,
         0,
         0,
-        0,
+        3,
         0,
         2
       ]
@@ -128,7 +128,7 @@
         0,
         0,
         0,
-        2,
+        1,
         2,
         0
       ]
@@ -140,7 +140,7 @@
       "c": null,
       "vacancy": [
         0,
-        2,
+        0,
         0,
         null,
         null,

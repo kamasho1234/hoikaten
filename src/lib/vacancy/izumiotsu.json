@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "izumiotsu",
   "municipalityName": "泉大津市",
-  "asOf": "2026-10-01",
-  "fetchedAt": "2026-10-31",
+  "asOf": "2026-11-01",
+  "fetchedAt": "2026-11-01",
   "sourceName": "泉大津市「受け入れ可能枠一覧表」",
   "sourceUrl": "https://www.city.izumiotsu.lg.jp/lifestage/nyuen/hoikusyo_youtien_ninteikodomoen/16056.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.izumiotsu.lg.jp/material/files/group/21/r8ukeire10.pdf"
+    "vacancy": "https://www.city.izumiotsu.lg.jp/material/files/group/21/r8ukeire11.pdf"
   },
   "metrics": [
     "symbol"
@@ -53,7 +53,7 @@
       ],
       "symbols": [
         "×",
-        "△",
+        "×",
         "×",
         "×",
         "△",
@@ -97,9 +97,9 @@
       ],
       "symbols": [
         "×",
-        "△",
         "×",
-        "△",
+        "×",
+        "×",
         "×",
         "△"
       ]
@@ -206,7 +206,7 @@
         null
       ],
       "symbols": [
-        "×",
+        "△",
         "×",
         "×",
         "×",
@@ -340,7 +340,7 @@
       "symbols": [
         "×",
         "×",
-        "△",
+        "×",
         "〇",
         "△",
         "〇"
@@ -383,8 +383,8 @@
       ],
       "symbols": [
         null,
-        "△",
-        "△",
+        "×",
+        "×",
         null,
         null,
         null

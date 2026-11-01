@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "zama",
   "municipalityName": "座間市",
-  "asOf": "2026-10-01",
-  "fetchedAt": "2026-10-31",
+  "asOf": "2026-11-01",
+  "fetchedAt": "2026-11-01",
   "sourceName": "座間市「保育所等クラス年齢別次回選考可能人数」",
   "sourceUrl": "https://www.city.zama.kanagawa.jp/kosodate/hoiku/hoikuen/1003156.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/003/156/senkou_20261002.pdf"
+    "vacancy": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/003/156/senkou_2026122.pdf"
   },
   "metrics": [
     "vacancy"
@@ -73,7 +73,7 @@
       "vacancy": [
         0,
         0,
-        0,
+        2,
         0,
         0,
         0
@@ -213,7 +213,7 @@
       "vacancy": [
         0,
         0,
-        0,
+        1,
         0,
         0,
         0
@@ -257,7 +257,7 @@
         0,
         0,
         0,
-        1,
+        0,
         0
       ]
     },
@@ -326,7 +326,7 @@
         0,
         0,
         0,
-        1,
+        0,
         0,
         0
       ]
@@ -365,11 +365,11 @@
       "w": null,
       "c": 1,
       "vacancy": [
-        0,
-        1,
         1,
         0,
-        1,
+        2,
+        0,
+        0,
         0
       ]
     },
@@ -384,7 +384,7 @@
         0,
         0,
         0,
-        0
+        1
       ]
     },
     {

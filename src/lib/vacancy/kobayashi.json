@@ -2,12 +2,12 @@
   "municipalitySlug": "kobayashi",
   "municipalityName": "小林市",
   "prefecture": "宮崎県",
-  "asOf": "2026-10-01",
-  "fetchedAt": "2026-10-31",
+  "asOf": "2026-11-01",
+  "fetchedAt": "2026-11-01",
   "sourceName": "小林市「保育所等の空き状況」",
   "sourceUrl": "https://www.city.kobayashi.lg.jp/kosodate_kyoiku/kosodateshisetsu/3540.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.kobayashi.lg.jp/material/files/group/13/akijoukyouR0811.pdf"
+    "vacancy": "https://www.city.kobayashi.lg.jp/material/files/group/13/akijoukyouR0812.pdf"
   },
   "metrics": [
     "symbol"
@@ -55,11 +55,11 @@
         null
       ],
       "symbols": [
-        "△",
+        "×",
         "×",
         "△",
-        "△",
-        "△",
+        "×",
+        "×",
         "△"
       ]
     },
@@ -79,7 +79,7 @@
       "symbols": [
         "△",
         "△",
-        "△",
+        "○",
         "○",
         "○",
         "○"
@@ -126,7 +126,7 @@
         "△",
         "△",
         "△",
-        "×"
+        "△"
       ]
     },
     {
@@ -231,7 +231,7 @@
         null
       ],
       "symbols": [
-        "○",
+        "△",
         "△",
         "△",
         "△",
@@ -258,7 +258,7 @@
         "○",
         "○",
         "×",
-        "△"
+        "×"
       ]
     },
     {
@@ -297,10 +297,10 @@
         null
       ],
       "symbols": [
-        "○",
-        "○",
-        "○",
-        "△",
+        "×",
+        "×",
+        "×",
+        "×",
         "△",
         "△"
       ]
@@ -319,9 +319,9 @@
         null
       ],
       "symbols": [
-        "○",
-        "○",
-        "○",
+        "×",
+        "×",
+        "×",
         "○",
         "○",
         "○"
@@ -412,7 +412,7 @@
         "△",
         "△",
         "○",
-        "△"
+        "○"
       ]
     },
     {
@@ -429,9 +429,9 @@
         null
       ],
       "symbols": [
-        "○",
-        "○",
-        "○",
+        "△",
+        "△",
+        "△",
         null,
         null,
         null
@@ -605,12 +605,12 @@
         null
       ],
       "symbols": [
-        "△",
-        "△",
-        "△",
-        "△",
-        "△",
-        "×"
+        "○",
+        "○",
+        "○",
+        "○",
+        "○",
+        "△"
       ]
     },
     {
@@ -627,12 +627,12 @@
         null
       ],
       "symbols": [
-        "△",
-        "△",
-        "△",
-        "△",
-        "△",
-        "×"
+        "○",
+        "○",
+        "○",
+        "○",
+        "○",
+        "△"
       ]
     }
   ]

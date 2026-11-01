@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "kimitsu",
   "municipalityName": "君津市",
-  "asOf": "2026-10-01",
-  "fetchedAt": "2026-10-31",
+  "asOf": "2026-11-01",
+  "fetchedAt": "2026-11-01",
   "sourceName": "君津市「君津市内保育施設の空き状況」",
   "sourceUrl": "https://www.city.kimitsu.lg.jp/site/kosodate/21446.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.kimitsu.lg.jp/uploaded/attachment/62428.pdf"
+    "vacancy": "https://www.city.kimitsu.lg.jp/uploaded/attachment/62935.pdf"
   },
   "metrics": [
     "symbol"

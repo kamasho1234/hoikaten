@@ -2,12 +2,12 @@
   "municipalitySlug": "yamada-iwate",
   "municipalityName": "山田町",
   "prefecture": "岩手県",
-  "asOf": "2026-09-01",
-  "fetchedAt": "2026-10-21",
+  "asOf": "2026-11-01",
+  "fetchedAt": "2026-11-01",
   "sourceName": "山田町「町内保育施設年齢別空き状況」",
   "sourceUrl": "https://www.town.yamada.iwate.jp/docs/6313.html",
   "sourceFiles": {
-    "vacancy": "https://www.town.yamada.iwate.jp/fs/1/4/1/0/9/9/_/______________R8.9.1___.pdf"
+    "vacancy": "https://www.town.yamada.iwate.jp/fs/1/4/2/0/5/9/_/______________R8.11.1___.pdf"
   },
   "metrics": [
     "vacancy"
@@ -25,26 +25,12 @@
       "w": null,
       "c": 0,
       "vacancy": [
-        1,
-        4,
+        null,
+        null,
         null,
         6,
-        null,
-        6
-      ]
-    },
-    {
-      "id": "山田中央保育園",
-      "name": "山田中央保育園",
-      "w": null,
-      "c": 0,
-      "vacancy": [
         2,
-        6,
-        6,
-        10,
-        10,
-        10
+        6
       ]
     },
     {
@@ -55,7 +41,7 @@
       "vacancy": [
         2,
         2,
-        2,
+        1,
         1,
         1,
         1
@@ -67,7 +53,7 @@
       "w": null,
       "c": 0,
       "vacancy": [
-        1,
+        null,
         null,
         null,
         2,
@@ -81,9 +67,9 @@
       "w": null,
       "c": 1,
       "vacancy": [
-        null,
-        null,
-        null,
+        2,
+        3,
+        4,
         8,
         9,
         10
