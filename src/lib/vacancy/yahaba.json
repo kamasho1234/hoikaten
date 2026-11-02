@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "yahaba",
   "municipalityName": "矢巾町",
-  "asOf": "2026-09-29",
-  "fetchedAt": "2026-10-31",
+  "asOf": "2026-10-30",
+  "fetchedAt": "2026-11-02",
   "sourceName": "矢巾町「町内保育施設 空き状況」",
   "sourceUrl": "https://www.town.yahaba.iwate.jp/soshiki/kodomo/kenkoufukushi/17431403187800/",
   "sourceFiles": {
-    "vacancy": "https://www.town.yahaba.iwate.jp/yahabatown/015_kodomo/hoiku_nyuusyo/hoikuen_aki_R811_2.pdf"
+    "vacancy": "https://www.town.yahaba.iwate.jp/yahabatown/015_kodomo/hoiku_nyuusyo/aki_R8/aki_R812.pdf"
   },
   "metrics": [
     "symbol"
@@ -52,7 +52,7 @@
         null
       ],
       "symbols": [
-        "△",
+        "×",
         "×",
         "〇",
         "×",
@@ -74,12 +74,12 @@
         null
       ],
       "symbols": [
-        "×",
         "△",
         "×",
         "×",
-        "△",
-        "△"
+        "×",
+        "×",
+        "×"
       ]
     },
     {
@@ -118,9 +118,9 @@
         null
       ],
       "symbols": [
+        "×",
         "△",
         "△",
-        "〇",
         "×",
         "×",
         "×"
@@ -162,10 +162,10 @@
         null
       ],
       "symbols": [
-        "△",
-        "〇",
-        "△",
-        "△",
+        "×",
+        "×",
+        "×",
+        "×",
         "×",
         "×"
       ]
@@ -211,7 +211,7 @@
         "×",
         "△",
         "△",
-        "〇"
+        "×"
       ]
     },
     {
@@ -228,7 +228,7 @@
         null
       ],
       "symbols": [
-        "△",
+        "×",
         "×",
         "×",
         "×",
@@ -250,7 +250,7 @@
         null
       ],
       "symbols": [
-        "△",
+        "×",
         "△",
         "〇",
         "×",
@@ -272,9 +272,9 @@
         null
       ],
       "symbols": [
+        "△",
+        "△",
         "〇",
-        "△",
-        "△",
         null,
         null,
         null

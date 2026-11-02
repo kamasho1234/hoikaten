@@ -2,12 +2,12 @@
   "municipalitySlug": "satosho",
   "municipalityName": "里庄町",
   "prefecture": "岡山県",
-  "asOf": "2026-10-01",
-  "fetchedAt": "2026-11-01",
+  "asOf": "2026-11-02",
+  "fetchedAt": "2026-11-02",
   "sourceName": "里庄町「保育所入所可能状況」",
   "sourceUrl": "https://www.town.satosho.okayama.jp/soshiki/7/6607.html",
   "sourceFiles": {
-    "vacancy": "https://www.town.satosho.okayama.jp/uploaded/attachment/11128.pdf"
+    "vacancy": "https://www.town.satosho.okayama.jp/uploaded/attachment/11203.pdf"
   },
   "metrics": [
     "symbol"

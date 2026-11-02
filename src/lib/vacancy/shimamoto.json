@@ -2,12 +2,12 @@
   "municipalitySlug": "shimamoto",
   "municipalityName": "島本町",
   "prefecture": "大阪府",
-  "asOf": "2026-09-11",
-  "fetchedAt": "2026-11-01",
+  "asOf": "2026-10-14",
+  "fetchedAt": "2026-11-02",
   "sourceName": "島本町「保育所等空き状況」",
   "sourceUrl": "https://www.town.shimamoto.lg.jp/site/kosodate/27737.html",
   "sourceFiles": {
-    "vacancy": "https://www.town.shimamoto.lg.jp/uploaded/attachment/17041.pdf"
+    "vacancy": "https://www.town.shimamoto.lg.jp/uploaded/attachment/17297.pdf"
   },
   "metrics": [
     "vacancy"
@@ -68,7 +68,7 @@
       "vacancy": [
         0,
         0,
-        0,
+        1,
         0,
         2,
         1

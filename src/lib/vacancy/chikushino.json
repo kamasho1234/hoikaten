@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "chikushino",
   "municipalityName": "筑紫野市",
-  "asOf": "2026-10-19",
-  "fetchedAt": "2026-11-01",
+  "asOf": "2026-11-02",
+  "fetchedAt": "2026-11-02",
   "sourceName": "筑紫野市「認可保育所・認定こども園（保育部分）空き状況について」",
   "sourceUrl": "https://www.city.chikushino.fukuoka.jp/soshiki/49/3327.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.chikushino.fukuoka.jp/uploaded/attachment/34579.pdf"
+    "vacancy": "https://www.city.chikushino.fukuoka.jp/uploaded/attachment/35026.pdf"
   },
   "metrics": [
     "symbol"
@@ -55,7 +55,7 @@
         "×",
         "×",
         "×",
-        "×"
+        "△"
       ]
     },
     {
@@ -118,7 +118,7 @@
       "symbols": [
         "×",
         "×",
-        "×",
+        "△",
         "×",
         "△",
         "○"
@@ -139,7 +139,7 @@
       ],
       "symbols": [
         "×",
-        "△",
+        "×",
         "×",
         "×",
         "△",
@@ -185,8 +185,8 @@
         "×",
         "×",
         "△",
-        "×",
-        "○",
+        "△",
+        "△",
         "△"
       ]
     },
@@ -204,7 +204,7 @@
         null
       ],
       "symbols": [
-        "△",
+        "×",
         "△",
         null,
         null,
@@ -272,7 +272,7 @@
       "symbols": [
         "×",
         "△",
-        "○",
+        "△",
         "×",
         "△",
         "△"

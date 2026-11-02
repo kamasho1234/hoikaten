@@ -1,8 +1,8 @@
 {
   "municipalitySlug": "tomisato",
   "municipalityName": "富里市",
-  "asOf": "2026-10-01",
-  "fetchedAt": "2026-10-30",
+  "asOf": "2026-11-01",
+  "fetchedAt": "2026-11-02",
   "sourceName": "富里市「保育園・こども園の受入れ状況」",
   "sourceUrl": "https://www.city.tomisato.lg.jp/kosodate/0000011014.html",
   "sourceFiles": {
@@ -140,11 +140,11 @@
       ],
       "symbols": [
         "✖",
-        "△",
         "✖",
         "✖",
         "✖",
-        "✖"
+        "✖",
+        "△"
       ]
     },
     {
@@ -165,7 +165,7 @@
         "✖",
         "✖",
         "✖",
-        "△",
+        "✖",
         "✖"
       ]
     },
@@ -207,7 +207,7 @@
       "symbols": [
         "✖",
         "✖",
-        "△",
+        "✖",
         null,
         null,
         null

@@ -2,12 +2,12 @@
   "municipalitySlug": "aikawa",
   "municipalityName": "愛川町",
   "prefecture": "神奈川県",
-  "asOf": "2026-10-01",
-  "fetchedAt": "2026-10-30",
+  "asOf": "2026-11-02",
+  "fetchedAt": "2026-11-02",
   "sourceName": "愛川町「保育所等施設受入可能人数」",
   "sourceUrl": "https://www.town.aikawa.kanagawa.jp/kosodate_kyoiku/kosodate/nursery_kindergarten/10911.html",
   "sourceFiles": {
-    "vacancy": "https://www.town.aikawa.kanagawa.jp/material/files/group/10/r811gatuaki.pdf"
+    "vacancy": "https://www.town.aikawa.kanagawa.jp/material/files/group/10/r812gatunyusho.pdf"
   },
   "metrics": [
     "vacancy"

@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "sanjo",
   "municipalityName": "三条市",
-  "asOf": "2026-10-01",
-  "fetchedAt": "2026-11-01",
+  "asOf": "2026-11-01",
+  "fetchedAt": "2026-11-02",
   "sourceName": "三条市「保育所・保育園・認定こども園・地域型保育事業実施施設空き状況」",
   "sourceUrl": "https://www.city.sanjo.niigata.jp/kosodate_kyoiku/kosodate/hoikujo_hoikuen_yochien_ninteikodomoen/11455.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.sanjo.niigata.jp/material/files/group/28/akijoukyouR8-10.pdf"
+    "vacancy": "https://www.city.sanjo.niigata.jp/material/files/group/28/akijoukyouR8-11.pdf"
   },
   "metrics": [
     "symbol"
@@ -78,8 +78,8 @@
       ],
       "symbols": [
         "×",
-        "×",
-        "×",
+        "△",
+        "△",
         "△",
         "△",
         "△"
@@ -123,10 +123,10 @@
       "symbols": [
         "×",
         "×",
+        "×",
         "△",
         "△",
-        "△",
-        "△"
+        "×"
       ]
     },
     {
@@ -233,7 +233,7 @@
       "symbols": [
         "×",
         "△",
-        "△",
+        "○",
         "×",
         "○",
         "○"
@@ -275,7 +275,7 @@
         null
       ],
       "symbols": [
-        "×",
+        "△",
         "×",
         "×",
         "×",
@@ -409,7 +409,7 @@
       "symbols": [
         "×",
         "×",
-        "○",
+        "△",
         "○",
         "△",
         "×"
@@ -433,8 +433,8 @@
         "×",
         "×",
         "×",
-        "×",
-        "×"
+        "△",
+        "△"
       ]
     },
     {
@@ -456,7 +456,7 @@
         "×",
         "△",
         "×",
-        "×"
+        "△"
       ]
     },
     {
@@ -473,7 +473,7 @@
         null
       ],
       "symbols": [
-        "△",
+        "×",
         "△",
         "△",
         "×",
@@ -759,8 +759,8 @@
         null
       ],
       "symbols": [
-        "○",
-        "○",
+        "△",
+        "△",
         "○",
         null,
         null,

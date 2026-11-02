@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "uruma",
   "municipalityName": "うるま市",
-  "asOf": "2026-10-01",
-  "fetchedAt": "2026-11-01",
+  "asOf": "2026-11-02",
+  "fetchedAt": "2026-11-02",
   "sourceName": "うるま市「保育所等 空き状況一覧」",
   "sourceUrl": "https://www.city.uruma.lg.jp/1005003000/contents/p000014.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.uruma.lg.jp/documents/8960/hoik1001.pdf"
+    "vacancy": "https://www.city.uruma.lg.jp/documents/8960/akiwaku2.pdf"
   },
   "metrics": [
     "vacancy"
@@ -34,8 +34,8 @@
       "vacancy": [
         0,
         0,
-        0,
         1,
+        2,
         2,
         3
       ]
@@ -62,9 +62,9 @@
       "vacancy": [
         0,
         0,
-        3,
-        3,
         2,
+        3,
+        1,
         0
       ]
     },
@@ -130,11 +130,11 @@
       "w": null,
       "c": 0,
       "vacancy": [
+        0,
+        0,
         1,
-        1,
-        2,
-        5,
         3,
+        4,
         3
       ]
     },
@@ -172,7 +172,7 @@
       "w": null,
       "c": 0,
       "vacancy": [
-        2,
+        0,
         0,
         0,
         0,
@@ -411,8 +411,8 @@
       "c": 1,
       "vacancy": [
         0,
-        1,
         0,
+        1,
         0,
         0,
         0
@@ -439,7 +439,7 @@
       "c": 1,
       "vacancy": [
         2,
-        1,
+        0,
         1,
         0,
         0,
@@ -453,7 +453,7 @@
       "c": 1,
       "vacancy": [
         0,
-        1,
+        0,
         0,
         0,
         0,
@@ -468,7 +468,7 @@
       "vacancy": [
         0,
         0,
-        0,
+        1,
         0,
         0,
         0
@@ -497,7 +497,7 @@
         null,
         null,
         null,
-        2,
+        1,
         1,
         6
       ]
@@ -511,8 +511,8 @@
         null,
         null,
         null,
-        6,
-        8,
+        7,
+        9,
         7
       ]
     },
@@ -525,7 +525,7 @@
         null,
         null,
         null,
-        0,
+        1,
         0,
         3
       ]
@@ -651,9 +651,9 @@
         null,
         null,
         null,
-        1,
-        1,
-        1
+        0,
+        0,
+        0
       ]
     },
     {
@@ -665,8 +665,8 @@
         null,
         null,
         null,
-        7,
-        2,
+        6,
+        1,
         0
       ]
     },
@@ -737,7 +737,7 @@
         null,
         5,
         2,
-        4
+        3
       ]
     },
     {
@@ -791,7 +791,7 @@
         null,
         null,
         null,
-        5,
+        4,
         4,
         4
       ]
@@ -903,7 +903,7 @@
         null,
         null,
         null,
-        2,
+        0,
         2,
         0
       ]
@@ -932,7 +932,7 @@
         null,
         null,
         5,
-        3,
+        2,
         2
       ]
     },
@@ -987,7 +987,7 @@
         null,
         null,
         null,
-        5,
+        4,
         3,
         3
       ]
@@ -1199,7 +1199,7 @@
         null,
         0,
         1,
-        1
+        2
       ]
     }
   ]

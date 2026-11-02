@@ -2,12 +2,12 @@
   "municipalitySlug": "kai",
   "municipalityName": "甲斐市",
   "prefecture": "山梨県",
-  "asOf": "2026-10-13",
-  "fetchedAt": "2026-11-01",
+  "asOf": "2026-10-30",
+  "fetchedAt": "2026-11-02",
   "sourceName": "甲斐市「令和9年4月 保育所等の入園受入れ人数について」",
   "sourceUrl": "https://www.city.kai.yamanashi.jp/site/kosodate/4420.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.kai.yamanashi.jp/uploaded/attachment/10183.pdf"
+    "vacancy": "https://www.city.kai.yamanashi.jp/uploaded/attachment/10362.pdf"
   },
   "metrics": [
     "vacancy"
@@ -335,7 +335,7 @@
       "w": null,
       "c": null,
       "vacancy": [
-        8,
+        7,
         12,
         0,
         0,
@@ -378,7 +378,7 @@
       "c": null,
       "vacancy": [
         3,
-        6,
+        7,
         5,
         2,
         0,
