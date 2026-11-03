@@ -2,12 +2,12 @@
   "municipalitySlug": "hanamaki",
   "municipalityName": "花巻市",
   "prefecture": "岩手県",
-  "asOf": "2026-10-02",
-  "fetchedAt": "2026-11-02",
+  "asOf": "2026-11-03",
+  "fetchedAt": "2026-11-03",
   "sourceName": "花巻市「花巻市内認可保育施設の受入可能人数」",
   "sourceUrl": "https://www.city.hanamaki.iwate.jp/kosodate_kyoiku/kosodate/hoikuen_yochien/shisetsu_nyusho/hoikuen/1017811.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.hanamaki.iwate.jp/_res/projects/default_project/_page_/001/017/811/aki202611.pdf"
+    "vacancy": "https://www.city.hanamaki.iwate.jp/_res/projects/default_project/_page_/001/017/811/r812aki.pdf"
   },
   "metrics": [
     "vacancy"
@@ -31,7 +31,7 @@
       "w": null,
       "c": 0,
       "vacancy": [
-        0,
+        1,
         0,
         0,
         0,
@@ -45,7 +45,7 @@
       "w": null,
       "c": 0,
       "vacancy": [
-        0,
+        1,
         0,
         0,
         0,
@@ -59,7 +59,7 @@
       "w": null,
       "c": 0,
       "vacancy": [
-        0,
+        1,
         0,
         0,
         0,
@@ -87,7 +87,7 @@
       "w": null,
       "c": 0,
       "vacancy": [
-        1,
+        0,
         0,
         0,
         0,
@@ -101,8 +101,8 @@
       "w": null,
       "c": 0,
       "vacancy": [
-        1,
-        1,
+        0,
+        0,
         1,
         0,
         0,
@@ -117,7 +117,7 @@
       "vacancy": [
         null,
         0,
-        0,
+        1,
         0,
         0,
         0
@@ -257,8 +257,8 @@
       "vacancy": [
         0,
         0,
-        2,
-        0,
+        1,
+        1,
         0,
         0
       ]
@@ -283,10 +283,10 @@
       "w": null,
       "c": 1,
       "vacancy": [
+        2,
         0,
         0,
-        0,
-        0,
+        1,
         0,
         0
       ]
@@ -325,11 +325,11 @@
       "w": null,
       "c": 1,
       "vacancy": [
-        1,
         0,
         0,
         0,
-        1,
+        0,
+        0,
         0
       ]
     },
@@ -357,7 +357,7 @@
         0,
         0,
         0,
-        0,
+        1,
         0
       ]
     },
@@ -409,7 +409,7 @@
       "w": null,
       "c": 2,
       "vacancy": [
-        1,
+        0,
         2,
         3,
         null,
@@ -465,7 +465,7 @@
       "w": null,
       "c": 2,
       "vacancy": [
-        1,
+        0,
         0,
         0,
         null,
@@ -479,7 +479,7 @@
       "w": null,
       "c": 3,
       "vacancy": [
-        2,
+        0,
         1,
         0,
         null,
@@ -493,12 +493,12 @@
       "w": null,
       "c": 0,
       "vacancy": [
-        1,
         0,
         0,
         0,
         0,
-        1
+        0,
+        0
       ]
     },
     {
@@ -511,7 +511,7 @@
         0,
         0,
         0,
-        1,
+        0,
         0
       ]
     },
@@ -521,11 +521,11 @@
       "w": null,
       "c": 0,
       "vacancy": [
-        1,
+        0,
         0,
         1,
         2,
-        2,
+        3,
         0
       ]
     },
@@ -535,7 +535,7 @@
       "w": null,
       "c": 0,
       "vacancy": [
-        0,
+        1,
         0,
         0,
         0,
@@ -578,9 +578,9 @@
       "c": 0,
       "vacancy": [
         0,
-        0,
         1,
         1,
+        2,
         1,
         1
       ]
@@ -596,7 +596,7 @@
         0,
         0,
         1,
-        1
+        0
       ]
     }
   ]

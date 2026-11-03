@@ -2,12 +2,12 @@
   "municipalitySlug": "haebaru",
   "municipalityName": "南風原町",
   "prefecture": "沖縄県",
-  "asOf": "2026-09-01",
-  "fetchedAt": "2026-09-29",
+  "asOf": "2026-10-30",
+  "fetchedAt": "2026-11-03",
   "sourceName": "南風原町「入所に向けた空き状況」",
   "sourceUrl": "https://www.town.haebaru.lg.jp/soshiki/11/13031.html",
   "sourceFiles": {
-    "vacancy": "https://www.town.haebaru.lg.jp/uploaded/attachment/15324.pdf"
+    "vacancy": "https://www.town.haebaru.lg.jp/uploaded/attachment/15996.pdf"
   },
   "metrics": [
     "vacancy"
@@ -40,7 +40,7 @@
       "vacancy": [
         0,
         0,
-        0,
+        1,
         0,
         3,
         0
@@ -68,7 +68,7 @@
       "vacancy": [
         0,
         0,
-        2,
+        1,
         0,
         0,
         0
@@ -80,7 +80,7 @@
       "w": null,
       "c": null,
       "vacancy": [
-        0,
+        3,
         0,
         0,
         1,
@@ -109,7 +109,7 @@
       "c": null,
       "vacancy": [
         0,
-        0,
+        1,
         0,
         0,
         0,
@@ -124,7 +124,7 @@
       "vacancy": [
         0,
         0,
-        1,
+        2,
         0,
         3,
         null
@@ -140,7 +140,7 @@
         2,
         0,
         4,
-        1,
+        2,
         0
       ]
     },
@@ -152,9 +152,9 @@
       "vacancy": [
         0,
         0,
+        1,
         0,
-        0,
-        6,
+        7,
         null
       ]
     },
@@ -165,8 +165,8 @@
       "c": null,
       "vacancy": [
         0,
-        2,
-        1,
+        0,
+        0,
         0,
         0,
         0
@@ -180,10 +180,10 @@
       "vacancy": [
         0,
         0,
-        1,
+        0,
         0,
         5,
-        0
+        1
       ]
     },
     {
@@ -196,7 +196,7 @@
         0,
         0,
         0,
-        0,
+        1,
         null
       ]
     },
@@ -208,9 +208,9 @@
       "vacancy": [
         0,
         0,
-        3,
+        2,
         1,
-        3,
+        2,
         null
       ]
     },
@@ -237,7 +237,7 @@
         0,
         0,
         0,
-        1,
+        2,
         1,
         0
       ]
@@ -277,8 +277,8 @@
       "c": null,
       "vacancy": [
         0,
-        1,
-        1,
+        2,
+        0,
         null,
         null,
         null
@@ -291,8 +291,8 @@
       "c": null,
       "vacancy": [
         0,
-        1,
         0,
+        1,
         null,
         null,
         null
@@ -305,7 +305,7 @@
       "c": null,
       "vacancy": [
         0,
-        3,
+        0,
         0,
         null,
         null,
@@ -318,7 +318,7 @@
       "w": null,
       "c": null,
       "vacancy": [
-        1,
+        0,
         3,
         0,
         null,
@@ -336,7 +336,7 @@
         null,
         6,
         6,
-        7,
+        6,
         4
       ]
     }
