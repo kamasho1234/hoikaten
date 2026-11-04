@@ -15,7 +15,8 @@ import { useCallback, useEffect, useRef, useState } from "react";
 // 出てから 3秒は閉じられない。3秒たつと × ボタンが出て、× ・背景クリック・Esc で閉じる。
 //
 // ## 何を出すか
-// public/media/vb108-*.mp4（480×854・24fps・音声なし・各1.4〜2.5MB）を順番に1本ずつ。
+// public/media/vb108-*.mp4（480×854・24fps・音声なし・各1.4〜2.5MB）から毎回ランダムに1本。
+// 直前に出した動画は sessionStorage に持ち、同じ動画が2回続けて出ないようにする。
 // 自動再生はミュートでないとブラウザが止めるので、音声は最初から外してある。
 // **置き場所と名前に ads / banner / popup を入れない**（広告ブロッカーが止める）。
 // 読み込みに失敗したときは閉じる（その回は表示済みとして数える）。
@@ -40,6 +41,7 @@ function dueSeconds(n: number): number {
 
 const STORAGE_START = "hoikaten.vb108.start";
 const STORAGE_SHOWN = "hoikaten.vb108.shown";
+const STORAGE_LAST = "hoikaten.vb108.last";
 
 /** sessionStorage は私的ブラウズなどで例外を投げることがあるので、読めなければ無いものとして扱う */
 function readStorage(key: string): string | null {
@@ -73,6 +75,13 @@ function shownCount(): number {
   return Number.isInteger(n) && n >= 0 ? n : 0;
 }
 
+/** ランダムに1本選ぶ。直前に出した動画は除く */
+function pickVideo(): number {
+  const last = Number(readStorage(STORAGE_LAST));
+  const choices = VIDEOS.map((_, i) => i).filter((i) => i !== last);
+  return choices[Math.floor(Math.random() * choices.length)];
+}
+
 export function Vb108VideoPopup() {
   /** 出している動画の番号。null のときは閉じている */
   const [videoIndex, setVideoIndex] = useState<number | null>(null);
@@ -103,7 +112,9 @@ export function Vb108VideoPopup() {
       while (start + dueSeconds(next) * 1000 <= now) next++;
       writeStorage(STORAGE_SHOWN, String(next));
       setClosable(false);
-      setVideoIndex(index % VIDEOS.length);
+      const picked = pickVideo();
+      writeStorage(STORAGE_LAST, String(picked));
+      setVideoIndex(picked);
     }, Math.max(0, start + dueSeconds(index) * 1000 - Date.now()));
     return () => clearTimeout(timer);
   }, [open]);
