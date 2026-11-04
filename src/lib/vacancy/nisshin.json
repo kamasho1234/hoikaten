@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "nisshin",
   "municipalityName": "日進市",
-  "asOf": "2026-10-28",
-  "fetchedAt": "2026-11-03",
+  "asOf": "2026-11-04",
+  "fetchedAt": "2026-11-04",
   "sourceName": "日進市「保育園等の空き状況」",
   "sourceUrl": "https://www.city.nisshin.lg.jp/department/kenko/hoiku/6/2/2/hoiku/17120.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.nisshin.lg.jp/material/files/group/120/R8_20261028_hoikuen.pdf"
+    "vacancy": "https://www.city.nisshin.lg.jp/material/files/group/120/R8_20261104_hoikuen.pdf"
   },
   "metrics": [
     "symbol"
@@ -630,7 +630,7 @@
       ],
       "symbols": [
         "×",
-        "×",
+        "△",
         "×",
         null,
         null,

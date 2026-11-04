@@ -2,12 +2,12 @@
   "municipalitySlug": "takizawa",
   "municipalityName": "滝沢市",
   "prefecture": "岩手県",
-  "asOf": "2026-10-02",
-  "fetchedAt": "2026-11-03",
+  "asOf": "2026-11-04",
+  "fetchedAt": "2026-11-04",
   "sourceName": "滝沢市「保育施設の空き状況（入所枠）」",
   "sourceUrl": "https://www.city.takizawa.iwate.jp/kurashi/ikuji-kyoiku/hoikuen-yochien/hoikuen-goannai/contents-14844",
   "sourceFiles": {
-    "vacancy": "https://www.city.takizawa.iwate.jp/uploads/public/pages_0000000784_00/%E5%85%A5%E6%89%80%E6%9E%A0%EF%BC%88R8.11%EF%BC%89.pdf"
+    "vacancy": "https://www.city.takizawa.iwate.jp/uploads/public/pages_0000000784_00/%E5%85%A5%E6%89%80%E6%9E%A0%EF%BC%88R8.12%EF%BC%89.pdf"
   },
   "metrics": [
     "vacancy"
@@ -26,7 +26,7 @@
       "w": null,
       "c": null,
       "vacancy": [
-        0,
+        1,
         1,
         0,
         0,
@@ -40,7 +40,7 @@
       "w": null,
       "c": null,
       "vacancy": [
-        1,
+        0,
         1,
         1,
         0,
@@ -54,8 +54,8 @@
       "w": null,
       "c": null,
       "vacancy": [
-        2,
-        2,
+        1,
+        1,
         0,
         0,
         0,
@@ -70,7 +70,7 @@
       "vacancy": [
         2,
         0,
-        0,
+        1,
         0,
         0,
         0
@@ -84,9 +84,9 @@
       "vacancy": [
         4,
         3,
-        6,
+        7,
         2,
-        0,
+        1,
         0
       ]
     },
@@ -110,7 +110,7 @@
       "w": null,
       "c": null,
       "vacancy": [
-        0,
+        2,
         1,
         1,
         0,
@@ -125,10 +125,10 @@
       "c": null,
       "vacancy": [
         1,
-        1,
+        2,
         1,
         0,
-        1,
+        0,
         0
       ]
     },
@@ -166,7 +166,7 @@
       "w": null,
       "c": null,
       "vacancy": [
-        1,
+        0,
         1,
         1,
         1,
@@ -197,7 +197,7 @@
         0,
         2,
         3,
-        4,
+        3,
         5,
         5
       ]
@@ -208,8 +208,8 @@
       "w": null,
       "c": null,
       "vacancy": [
-        0,
         1,
+        0,
         0,
         0,
         0,
@@ -222,9 +222,9 @@
       "w": null,
       "c": null,
       "vacancy": [
-        2,
-        2,
         0,
+        2,
+        2,
         0,
         0,
         0
@@ -241,7 +241,7 @@
         2,
         1,
         1,
-        2
+        1
       ]
     },
     {
@@ -250,8 +250,8 @@
       "w": null,
       "c": null,
       "vacancy": [
-        0,
-        12,
+        1,
+        11,
         9,
         0,
         0,

@@ -1,19 +1,19 @@
 {
   "municipalitySlug": "tosu",
   "municipalityName": "鳥栖市",
-  "asOf": "2026-10-01",
-  "fetchedAt": "2026-10-07",
+  "asOf": "2026-11-04",
+  "fetchedAt": "2026-11-04",
   "sourceName": "鳥栖市「保育所等の空き情報」",
   "sourceUrl": "https://www.city.tosu.lg.jp/soshiki/9/1055.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.tosu.lg.jp/uploaded/attachment/41938.pdf"
+    "vacancy": "https://www.city.tosu.lg.jp/uploaded/attachment/42358.pdf"
   },
   "metrics": [
     "symbol"
   ],
-  "subtitle": "2026年度11月入所分の空き状況",
+  "subtitle": "2026年度12月入所分の空き状況",
   "notes": [
-    "鳥栖市は空き状況を人数ではなく記号で公表しています。これは2026年度11月入所分で、2026-10-01時点のものです。",
+    "鳥栖市は空き状況を人数ではなく記号で公表しています。これは2026年度12月入所分で、2026-11-04時点のものです。",
     "この情報は保育所等の申し込みの参考にしていただくものです。入所をお約束するものではありません。",
     "多くの方が同様に入所申し込みをされるため、優先度の高い児童から入所調整を行います。",
     "保育士の配置状況や在園児の急な退園等により、空き状況は随時変動します。",
@@ -61,8 +61,8 @@
     }
   ],
   "facilities": [
-    {"id":"鳥栖市立保育所鳥栖いづみ園","name":"鳥栖市立保育所鳥栖いづみ園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","○","×","○","○"]},
-    {"id":"鳥栖市立保育所小鳩園","name":"鳥栖市立保育所小鳩園","w":1,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×","×","△"]},
+    {"id":"鳥栖市立保育所鳥栖いづみ園","name":"鳥栖市立保育所鳥栖いづみ園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","○","○"]},
+    {"id":"鳥栖市立保育所小鳩園","name":"鳥栖市立保育所小鳩園","w":1,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","△"]},
     {"id":"虹の子保育園","name":"虹の子保育園","w":1,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
     {"id":"あいりす保育園","name":"あいりす保育園","w":2,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","△","△","△"]},
     {"id":"田代保育園","name":"田代保育園","w":2,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
