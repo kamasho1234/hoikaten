@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "takatsuki",
   "municipalityName": "高槻市",
-  "asOf": "2026-10-01",
-  "fetchedAt": "2026-11-04",
+  "asOf": "2026-11-01",
+  "fetchedAt": "2026-11-05",
   "sourceName": "高槻市「認可保育施設の空き枠見込み数状況のお知らせ」",
   "sourceUrl": "https://www.city.takatsuki.osaka.jp/soshiki/44/127850.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.takatsuki.osaka.jp/uploaded/attachment/70937.pdf"
+    "vacancy": "https://www.city.takatsuki.osaka.jp/uploaded/attachment/71753.pdf"
   },
   "metrics": [
     "vacancy"
@@ -116,12 +116,26 @@
       "w": null,
       "c": 1,
       "vacancy": [
-        null,
+        1,
         null,
         null,
         null,
         null,
         3
+      ]
+    },
+    {
+      "id": "認定こども園ＹＭＣＡたかつきあま保育園",
+      "name": "認定こども園ＹＭＣＡたかつきあま保育園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        1
       ]
     },
     {
@@ -161,8 +175,8 @@
         null,
         null,
         null,
-        1,
-        1,
+        null,
+        2,
         null
       ]
     },
@@ -195,22 +209,8 @@
       ]
     },
     {
-      "id": "南平台保育園",
-      "name": "南平台保育園",
-      "w": null,
-      "c": 0,
-      "vacancy": [
-        null,
-        null,
-        null,
-        1,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "桜台認定こども園",
-      "name": "桜台認定こども園",
+      "id": "高槻認定こども園",
+      "name": "高槻認定こども園",
       "w": null,
       "c": 1,
       "vacancy": [
@@ -228,7 +228,7 @@
       "w": null,
       "c": 1,
       "vacancy": [
-        null,
+        1,
         null,
         null,
         1,
@@ -251,69 +251,41 @@
       ]
     },
     {
-      "id": "城北あゆみ保育園",
-      "name": "城北あゆみ保育園",
-      "w": null,
-      "c": 2,
-      "vacancy": [
-        null,
-        null,
-        1,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "認定こども園深沢ガーデン",
-      "name": "認定こども園深沢ガーデン",
+      "id": "富田認定こども園",
+      "name": "富田認定こども園",
       "w": null,
       "c": 1,
       "vacancy": [
         null,
+        null,
+        null,
         1,
         null,
+        null
+      ]
+    },
+    {
+      "id": "天川こども園",
+      "name": "天川こども園",
+      "w": null,
+      "c": 1,
+      "vacancy": [
+        null,
+        null,
+        1,
         null,
         null,
         null
       ]
     },
     {
-      "id": "ほしの保育園",
-      "name": "ほしの保育園",
+      "id": "みやこ保育園",
+      "name": "みやこ保育園",
       "w": null,
       "c": 2,
       "vacancy": [
         null,
         1,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "ひかり保育園",
-      "name": "ひかり保育園",
-      "w": null,
-      "c": 2,
-      "vacancy": [
-        1,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "庄所保育園",
-      "name": "庄所保育園",
-      "w": null,
-      "c": 2,
-      "vacancy": [
-        1,
-        null,
         null,
         null,
         null,

@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "kushiro",
   "municipalityName": "釧路市",
-  "asOf": "2026-10-01",
-  "fetchedAt": "2026-11-04",
+  "asOf": "2026-11-01",
+  "fetchedAt": "2026-11-05",
   "sourceName": "釧路市「入所状況（空き状況）」",
   "sourceUrl": "https://www.city.kushiro.lg.jp/kosodatekyouiku/kosodate/1008292/1005300/1005308/1005377.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.kushiro.lg.jp/_res/projects/default_project/_page_/001/005/377/r8.10.1.pdf"
+    "vacancy": "https://www.city.kushiro.lg.jp/_res/projects/default_project/_page_/001/005/377/r8.11.1.pdf"
   },
   "metrics": [
     "symbol"
@@ -248,7 +248,7 @@
         null
       ],
       "symbols": [
-        "△",
+        "×",
         "×",
         "○",
         "△",
@@ -315,8 +315,8 @@
       ],
       "symbols": [
         "×",
-        "×",
-        "○",
+        "△",
+        "△",
         "×",
         "×",
         "△"
@@ -446,9 +446,9 @@
         null
       ],
       "symbols": [
-        "△",
-        "△",
-        "△",
+        "×",
+        "×",
+        "○",
         null,
         null,
         null
@@ -670,7 +670,7 @@
         null,
         "×",
         "×",
-        "△",
+        "×",
         "×"
       ]
     },
@@ -779,9 +779,9 @@
         null,
         null,
         "×",
-        "○",
-        "○",
-        "△"
+        "×",
+        "×",
+        "×"
       ]
     },
     {
@@ -934,8 +934,8 @@
         null,
         "×",
         "△",
-        "△",
-        "×"
+        "×",
+        "△"
       ]
     },
     {
@@ -998,7 +998,7 @@
       "symbols": [
         "×",
         "×",
-        "△",
+        "×",
         "△",
         "○",
         "△"
@@ -1042,10 +1042,10 @@
       "symbols": [
         "×",
         "×",
-        "△",
-        "△",
-        "△",
-        "△"
+        "×",
+        "×",
+        "×",
+        "×"
       ]
     },
     {
@@ -1063,11 +1063,11 @@
       ],
       "symbols": [
         "×",
-        "△",
         "×",
-        "△",
         "×",
-        "△"
+        "×",
+        "×",
+        "×"
       ]
     },
     {
@@ -1086,7 +1086,7 @@
       "symbols": [
         "×",
         "△",
-        "△",
+        "×",
         "×",
         "○",
         "△"

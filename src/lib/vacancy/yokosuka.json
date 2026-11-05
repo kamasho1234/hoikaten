@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "yokosuka",
   "municipalityName": "横須賀市",
-  "asOf": "2026-11-01",
-  "fetchedAt": "2026-11-01",
+  "asOf": "2026-11-04",
+  "fetchedAt": "2026-11-05",
   "sourceName": "横須賀市「保育施設等空き状況一覧」",
   "sourceUrl": "https://www.city.yokosuka.kanagawa.jp/2645/hoikuen_aki/index.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.yokosuka.kanagawa.jp/2645/hoikuen_aki/documents/202612akijoukyou_1.pdf"
+    "vacancy": "https://www.city.yokosuka.kanagawa.jp/2645/hoikuen_aki/documents/202612akijoukyou02.pdf"
   },
   "metrics": [
     "vacancy"
@@ -19,7 +19,8 @@
     "※南横須賀幼稚園の２歳児枠については、満３歳児（令和５年12月２日以前に生まれた児童）のみ対象です。",
     "※さくら保育室は、１歳児または２歳児いずれか１名募集します。",
     "※岩波幼稚園の２歳児枠については、満３歳児（令和５年12月２日以前に生まれた児童）のみ対象です。",
-    "※かもいようちえんは、３歳児から５歳児までのうちいずれか１名募集します。"
+    "※かもいようちえんは、３歳児から５歳児までのうちいずれか１名募集します。",
+    "※はすのみ保育室は、１歳児または２歳児いずれか１名募集します。１歳児クラスに内定した場合連携園への進級枠がありません。"
   ],
   "wards": [
     "追浜地区",
@@ -130,6 +131,6 @@
     {"id":"西地区-太田和こども園（私立）","name":"太田和こども園（私立）","w":9,"c":1,"vacancy":[0,0,0,0,0,0]},
     {"id":"西地区-大楠愛児園（私立）","name":"大楠愛児園（私立）","w":9,"c":0,"vacancy":[0,0,1,0,0,0]},
     {"id":"西地区-相武幼稚園（私立）","name":"相武幼稚園（私立）","w":9,"c":1,"vacancy":[0,0,0,0,0,0]},
-    {"id":"西地区-はすのみ保育室（個人）","name":"はすのみ保育室（個人）","w":9,"c":4,"vacancy":[0,0,1,0,0,0]}
+    {"id":"西地区-はすのみ保育室（個人）","name":"はすのみ保育室（個人）","w":9,"c":4,"vacancy":[0,1,0,0,0,0]}
   ]
 }

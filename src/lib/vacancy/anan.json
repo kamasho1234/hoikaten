@@ -2,12 +2,12 @@
   "municipalitySlug": "anan",
   "municipalityName": "阿南市",
   "prefecture": "徳島県",
-  "asOf": "2026-10-05",
-  "fetchedAt": "2026-11-04",
+  "asOf": "2026-11-05",
+  "fetchedAt": "2026-11-05",
   "sourceName": "阿南市「保育施設の空き状況」",
   "sourceUrl": "https://www.city.anan.tokushima.jp/docs/2021122700065/",
   "sourceFiles": {
-    "vacancy": "https://www.city.anan.tokushima.jp/docs/2021122700065/file_contents/0810.pdf"
+    "vacancy": "https://www.city.anan.tokushima.jp/docs/2021122700065/file_contents/0812.pdf"
   },
   "metrics": [
     "symbol"
@@ -54,7 +54,7 @@
       "symbols": [
         null,
         "×",
-        "×",
+        "△",
         "×",
         "○",
         "×"
@@ -207,7 +207,7 @@
       ],
       "symbols": [
         "×",
-        "△",
+        "×",
         "×",
         "○",
         "○",
@@ -252,7 +252,7 @@
       "symbols": [
         null,
         "×",
-        "×",
+        "△",
         "○",
         null,
         null
@@ -274,7 +274,7 @@
       "symbols": [
         null,
         "×",
-        "△",
+        "○",
         "○",
         "○",
         "○"
@@ -361,7 +361,7 @@
       ],
       "symbols": [
         "×",
-        "△",
+        "○",
         "○",
         "○",
         "×",
@@ -405,7 +405,7 @@
       ],
       "symbols": [
         "×",
-        "△",
+        "×",
         "×",
         "○",
         "○",
@@ -492,7 +492,7 @@
         null
       ],
       "symbols": [
-        "×",
+        "△",
         "×",
         "×",
         "×",
@@ -668,11 +668,11 @@
         null
       ],
       "symbols": [
-        "△",
         "×",
         "×",
         "×",
-        "△",
+        "×",
+        "○",
         "×"
       ]
     }
