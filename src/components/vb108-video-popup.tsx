@@ -24,7 +24,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 // ## 広告であることを出す
 // 枠の中に「PR」を出し、リンクには rel="sponsored" を付ける。
 
-const LINK_URL = "https://vulkit.kamacrafy.com/VB108";
+const LINK_URL = "https://vulkit.kamacrafy.com/VB108/t1";
 
 const VIDEOS = [1, 2, 3, 4].map((n) => ({
   src: `/media/vb108-${n}.mp4`,
