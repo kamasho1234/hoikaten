@@ -2,12 +2,12 @@
   "municipalitySlug": "tadaoka",
   "municipalityName": "忠岡町",
   "prefecture": "大阪府",
-  "asOf": "2026-10-01",
-  "fetchedAt": "2026-11-05",
+  "asOf": "2026-11-01",
+  "fetchedAt": "2026-11-06",
   "sourceName": "忠岡町「保育所・認定こども園の受入れ人数」",
   "sourceUrl": "https://www.town.tadaoka.osaka.jp/kosodate/ikuji_misyugaku/youchien_hoiku/2234.html",
   "sourceFiles": {
-    "vacancy": "https://www.town.tadaoka.osaka.jp/material/files/group/24/R8_10akijoukyou.pdf"
+    "vacancy": "https://www.town.tadaoka.osaka.jp/material/files/group/24/R8_11akijoukyou.pdf"
   },
   "metrics": [
     "symbol"
@@ -65,7 +65,7 @@
       ],
       "symbols": [
         "×",
-        "×",
+        "△",
         "○",
         "○",
         "×",
@@ -109,7 +109,7 @@
       ],
       "symbols": [
         "×",
-        "△",
+        "×",
         "○",
         "△",
         "×",

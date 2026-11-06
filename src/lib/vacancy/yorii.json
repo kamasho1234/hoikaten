@@ -2,8 +2,8 @@
   "municipalitySlug": "yorii",
   "municipalityName": "寄居町",
   "prefecture": "埼玉県",
-  "asOf": "2026-10-02",
-  "fetchedAt": "2026-11-05",
+  "asOf": "2026-11-05",
+  "fetchedAt": "2026-11-06",
   "sourceName": "寄居町「保育所（園）等 受入可能状況」",
   "sourceUrl": "https://www.town.yorii.saitama.jp/soshiki/07/ukeiremikomi.html",
   "sourceFiles": {
@@ -32,7 +32,7 @@
         0,
         0,
         0,
-        1,
+        0,
         1,
         1
       ]
@@ -71,11 +71,11 @@
       "w": null,
       "c": 1,
       "vacancy": [
-        2,
-        2,
+        0,
+        0,
         1,
         1,
-        1,
+        0,
         0
       ]
     },
@@ -88,7 +88,7 @@
         0,
         0,
         0,
-        1,
+        0,
         0,
         0
       ]
@@ -127,7 +127,7 @@
       "w": null,
       "c": 2,
       "vacancy": [
-        1,
+        0,
         0,
         0,
         null,

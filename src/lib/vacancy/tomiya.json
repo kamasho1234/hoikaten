@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "tomiya",
   "municipalityName": "富谷市",
-  "asOf": "2026-11-01",
-  "fetchedAt": "2026-11-05",
+  "asOf": "2026-12-01",
+  "fetchedAt": "2026-11-06",
   "sourceName": "富谷市「利用調整前の入所可能数状況」",
   "sourceUrl": "https://www.tomiya-city.miyagi.jp/kosodate/hoiku/65f0ff3e05c1474d96fb7ed92e411c2d90b86257.html",
   "sourceFiles": {
-    "vacancy": "https://www.tomiya-city.miyagi.jp/uploads/pdf/c3ca8e5ea5890d9321053037ce2db5650aa1eee1.pdf"
+    "vacancy": "https://www.tomiya-city.miyagi.jp/uploads/pdf/b7faeac0a7b06ebc4df73aab1137ea363e84ec2d.pdf"
   },
   "metrics": [
     "symbol"
@@ -128,7 +128,7 @@
       "symbols": [
         "×",
         "×",
-        "△",
+        "×",
         "○",
         "○",
         "△"
@@ -214,11 +214,11 @@
         null
       ],
       "symbols": [
-        "△",
         "×",
         "×",
+        "×",
         "△",
-        "○",
+        "×",
         "△"
       ]
     },
@@ -238,7 +238,7 @@
       "symbols": [
         "×",
         "×",
-        "△",
+        "×",
         "△",
         "×",
         "×"
