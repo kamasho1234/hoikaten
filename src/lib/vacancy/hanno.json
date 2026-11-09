@@ -1,8 +1,8 @@
 {
   "municipalitySlug": "hanno",
   "municipalityName": "飯能市",
-  "asOf": "2026-10-01",
-  "fetchedAt": "2026-11-08",
+  "asOf": "2026-11-01",
+  "fetchedAt": "2026-11-09",
   "sourceName": "飯能市「保育所（園）の空き状況」",
   "sourceUrl": "https://www.city.hanno.lg.jp/kosodate_kyoiku/hoikujo_en__ninteikodomoennado/oshirase/joukyou.html",
   "sourceFiles": {
@@ -85,8 +85,8 @@
       ]
     },
     {
-      "id": "飯能元氣保育園(本園・分園)",
-      "name": "飯能元氣保育園(本園・分園)",
+      "id": "飯能元氣保育園（本園・分園）",
+      "name": "飯能元氣保育園（本園・分園）",
       "w": null,
       "c": 0,
       "vacancy": [
@@ -98,9 +98,9 @@
         null
       ],
       "symbols": [
-        "新規受入停止",
-        "新規受入停止",
-        "新規受入停止",
+        "若干名空きあり",
+        "定員に余裕なし",
+        "若干名空きあり",
         null,
         null,
         null

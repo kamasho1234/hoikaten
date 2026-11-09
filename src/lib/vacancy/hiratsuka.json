@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "hiratsuka",
   "municipalityName": "平塚市",
-  "asOf": "2026-11-06",
-  "fetchedAt": "2026-11-07",
+  "asOf": "2026-11-09",
+  "fetchedAt": "2026-11-09",
   "sourceName": "平塚市「受入状況表」",
   "sourceUrl": "https://www.city.hiratsuka.kanagawa.jp/kodomo/page82_00017.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.hiratsuka.kanagawa.jp/common/200211281.pdf"
+    "vacancy": "https://www.city.hiratsuka.kanagawa.jp/common/200211334.pdf"
   },
   "metrics": [
     "symbol"
@@ -95,7 +95,7 @@
     {"id":"HANAI未来愛育園東真土","name":"HANAI未来愛育園東真土","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
     {"id":"ぽとふ平塚","name":"ぽとふ平塚","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
     {"id":"ミルキーホーム平塚園","name":"ミルキーホーム平塚園","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["有","－","有","－","－","－"]},
-    {"id":"ぱぷりか保育園平塚","name":"ぱぷりか保育園平塚","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
+    {"id":"ぱぷりか保育園平塚","name":"ぱぷりか保育園平塚","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["－","有","－","－","－","－"]},
     {"id":"松風・もんもん保育園","name":"松風・もんもん保育園","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
     {"id":"MIRATZ湘南平塚保育園","name":"MIRATZ湘南平塚保育園","w":null,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","有","－","－","－"]}
   ]
