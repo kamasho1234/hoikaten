@@ -1,17 +1,17 @@
 {
   "municipalitySlug": "tsu",
   "municipalityName": "津市",
-  "asOf": "2026-10-01",
-  "fetchedAt": "2026-10-01",
+  "asOf": "2026-11-01",
+  "fetchedAt": "2026-11-10",
   "sourceName": "津市「保育所等の空き状況」",
   "sourceUrl": "https://www.info.city.tsu.mie.jp/kosodateouen/kodomowoazukeru/1002742.html",
   "sourceFiles": {
-    "vacancy": "https://www.info.city.tsu.mie.jp/_res/projects/default_project/_page_/001/002/742/aki10.pdf"
+    "vacancy": "https://www.info.city.tsu.mie.jp/_res/projects/default_project/_page_/001/002/742/aki11.pdf"
   },
   "metrics": [
     "symbol"
   ],
-  "subtitle": "10月1日入所の調整が終わった直後の空き状況",
+  "subtitle": "11月1日入所の調整が終わった直後の空き状況",
   "notes": [
     "津市は空き状況を人数ではなく記号で公表しています。当サイトでも公式の記号のまま載せています。",
     "この表は参考情報であり、保育士等の配置状況などの事情により空き状況が変わることがあります。",
@@ -50,14 +50,14 @@
     }
   ],
   "facilities": [
-    {"id":"白塚愛児園","name":"白塚愛児園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","〇","〇","〇","〇","－"]},
-    {"id":"津愛児園","name":"津愛児園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","〇","〇","－"]},
+    {"id":"白塚愛児園","name":"白塚愛児園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","〇","〇","〇","〇","〇"]},
+    {"id":"津愛児園","name":"津愛児園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","〇","－"]},
     {"id":"清泉愛育園","name":"清泉愛育園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
-    {"id":"三重保育院","name":"三重保育院","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"－","－","－"]},
+    {"id":"三重保育院","name":"三重保育院","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,null,"－","〇","〇"]},
     {"id":"三重保育院乳児保育所","name":"三重保育院乳児保育所","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－",null,null,null]},
-    {"id":"片田保育園","name":"片田保育園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","〇","－","－","－","－"]},
+    {"id":"片田保育園","name":"片田保育園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
     {"id":"つ保育園","name":"つ保育園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","〇","－","－"]},
-    {"id":"泉ヶ丘保育園","name":"泉ヶ丘保育園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","〇","〇","〇"]},
+    {"id":"泉ヶ丘保育園","name":"泉ヶ丘保育園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","〇","－","〇","－"]},
     {"id":"大里保育園","name":"大里保育園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","〇","－"]},
     {"id":"公園西保育園","name":"公園西保育園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
     {"id":"豊野保育園","name":"豊野保育園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","〇","－"]},
@@ -72,7 +72,7 @@
     {"id":"藤認定こども園","name":"藤認定こども園","w":0,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","〇","〇","－"]},
     {"id":"こどもの杜ゆたか園","name":"こどもの杜ゆたか園","w":0,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
     {"id":"津カトリックこども園","name":"津カトリックこども園","w":0,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
-    {"id":"ぼだいじこども園","name":"ぼだいじこども園","w":0,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["－","〇","－","－","－","－"]},
+    {"id":"ぼだいじこども園","name":"ぼだいじこども園","w":0,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
     {"id":"認定子供園清泉幼稚園","name":"認定子供園清泉幼稚園","w":0,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
     {"id":"ルーテル二葉認定こども園","name":"ルーテル二葉認定こども園","w":0,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","〇"]},
     {"id":"藤水認定こども園","name":"藤水認定こども園","w":0,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
@@ -81,22 +81,22 @@
     {"id":"高田保育園","name":"高田保育園","w":0,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
     {"id":"ふたば幼稚園","name":"ふたば幼稚園","w":0,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":[null,"－","〇","－","－","－"]},
     {"id":"風の音認定こども園","name":"風の音認定こども園","w":0,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","〇"]},
-    {"id":"ＮＯＢＥＮＯこども園","name":"ＮＯＢＥＮＯこども園","w":3,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","〇","－","－"]},
+    {"id":"ＮＯＢＥＮＯこども園","name":"ＮＯＢＥＮＯこども園","w":3,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","〇","－","〇"]},
     {"id":"風の丘認定こども園","name":"風の丘認定こども園","w":3,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
     {"id":"幼保連携型認定こども園すぎのこ保育園","name":"幼保連携型認定こども園すぎのこ保育園","w":3,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
     {"id":"ぼだいじＩＲＯＲＩ園","name":"ぼだいじＩＲＯＲＩ園","w":3,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","〇"]},
     {"id":"認定こども園久居保育園","name":"認定こども園久居保育園","w":3,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
-    {"id":"のべの幼稚園","name":"のべの幼稚園","w":3,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","〇","－","－"]},
+    {"id":"のべの幼稚園","name":"のべの幼稚園","w":3,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["－","〇","〇","〇","－","－"]},
     {"id":"杜の街ゆたか園","name":"杜の街ゆたか園","w":1,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
     {"id":"みらいの森ゆたか園","name":"みらいの森ゆたか園","w":1,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
-    {"id":"ゆたか認定こども園","name":"ゆたか認定こども園","w":1,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","〇","－","－"]},
-    {"id":"津市栗真保育園","name":"津市栗真保育園","w":0,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","〇","〇","〇","〇"]},
+    {"id":"ゆたか認定こども園","name":"ゆたか認定こども園","w":1,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
+    {"id":"津市栗真保育園","name":"津市栗真保育園","w":0,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","〇","〇","〇"]},
     {"id":"津市立誠保育園","name":"津市立誠保育園","w":0,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","〇","〇","〇"]},
-    {"id":"津市観音寺保育園","name":"津市観音寺保育園","w":0,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","〇","－","〇"]},
+    {"id":"津市観音寺保育園","name":"津市観音寺保育園","w":0,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","〇","〇","－","〇"]},
     {"id":"津市相愛保育園","name":"津市相愛保育園","w":0,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","〇","〇","〇","〇"]},
     {"id":"津市高洲保育園","name":"津市高洲保育園","w":0,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","〇","〇","〇"]},
     {"id":"津市中央保育園","name":"津市中央保育園","w":0,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","〇","－","〇"]},
-    {"id":"津市乙部保育園","name":"津市乙部保育園","w":0,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["－","〇","〇","〇","〇","〇"]},
+    {"id":"津市乙部保育園","name":"津市乙部保育園","w":0,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","〇","〇","〇"]},
     {"id":"津市橋南保育園","name":"津市橋南保育園","w":0,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","〇","〇","〇"]},
     {"id":"津市雲出保育園","name":"津市雲出保育園","w":0,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["－","〇","－","〇","〇","〇"]},
     {"id":"津市北口保育園","name":"津市北口保育園","w":3,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
@@ -115,6 +115,6 @@
     {"id":"津市立芸濃こども園","name":"津市立芸濃こども園","w":7,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","〇"]},
     {"id":"津市立香良洲浜っ子幼児園","name":"津市立香良洲浜っ子幼児園","w":8,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["－","〇","〇","〇","－","－"]},
     {"id":"津市立一志こども園","name":"津市立一志こども園","w":5,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","〇"]},
-    {"id":"津市立白山こども園","name":"津市立白山こども園","w":9,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["－","〇","－","－","〇","〇"]}
+    {"id":"津市立白山こども園","name":"津市立白山こども園","w":9,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["－","〇","－","－","〇","－"]}
   ]
 }
