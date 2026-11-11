@@ -2,12 +2,12 @@
   "municipalitySlug": "kai",
   "municipalityName": "甲斐市",
   "prefecture": "山梨県",
-  "asOf": "2026-10-30",
-  "fetchedAt": "2026-11-10",
+  "asOf": "2026-11-09",
+  "fetchedAt": "2026-11-11",
   "sourceName": "甲斐市「令和9年4月 保育所等の入園受入れ人数について」",
   "sourceUrl": "https://www.city.kai.yamanashi.jp/site/kosodate/4420.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.kai.yamanashi.jp/uploaded/attachment/10362.pdf"
+    "vacancy": "https://www.city.kai.yamanashi.jp/uploaded/attachment/10430.pdf"
   },
   "metrics": [
     "vacancy"
@@ -22,8 +22,8 @@
   "categories": [],
   "facilities": [
     {
-      "id": "竜王北保育園",
-      "name": "竜王北保育園",
+      "id": "10",
+      "name": "10",
       "w": null,
       "c": null,
       "vacancy": [
@@ -36,8 +36,8 @@
       ]
     },
     {
-      "id": "竜王東保育園",
-      "name": "竜王東保育園",
+      "id": "11",
+      "name": "11",
       "w": null,
       "c": null,
       "vacancy": [
@@ -50,8 +50,8 @@
       ]
     },
     {
-      "id": "竜王西保育園",
-      "name": "竜王西保育園",
+      "id": "12",
+      "name": "12",
       "w": null,
       "c": null,
       "vacancy": [
@@ -64,8 +64,8 @@
       ]
     },
     {
-      "id": "竜王中央保育園",
-      "name": "竜王中央保育園",
+      "id": "13",
+      "name": "13",
       "w": null,
       "c": null,
       "vacancy": [
@@ -78,8 +78,8 @@
       ]
     },
     {
-      "id": "敷島保育園",
-      "name": "敷島保育園",
+      "id": "14",
+      "name": "14",
       "w": null,
       "c": null,
       "vacancy": [
@@ -92,8 +92,8 @@
       ]
     },
     {
-      "id": "双葉西保育園",
-      "name": "双葉西保育園",
+      "id": "15",
+      "name": "15",
       "w": null,
       "c": null,
       "vacancy": [
@@ -106,8 +106,8 @@
       ]
     },
     {
-      "id": "竜王大生園",
-      "name": "竜王大生園",
+      "id": "20",
+      "name": "20",
       "w": null,
       "c": null,
       "vacancy": [
@@ -120,8 +120,8 @@
       ]
     },
     {
-      "id": "玉川保育園",
-      "name": "玉川保育園",
+      "id": "21",
+      "name": "21",
       "w": null,
       "c": null,
       "vacancy": [
@@ -134,8 +134,8 @@
       ]
     },
     {
-      "id": "玉幡保育園",
-      "name": "玉幡保育園",
+      "id": "22",
+      "name": "22",
       "w": null,
       "c": null,
       "vacancy": [
@@ -148,8 +148,8 @@
       ]
     },
     {
-      "id": "万才保育園",
-      "name": "万才保育園",
+      "id": "23",
+      "name": "23",
       "w": null,
       "c": null,
       "vacancy": [
@@ -162,8 +162,8 @@
       ]
     },
     {
-      "id": "吉沢立正保育園",
-      "name": "吉沢立正保育園",
+      "id": "24",
+      "name": "24",
       "w": null,
       "c": null,
       "vacancy": [
@@ -176,22 +176,22 @@
       ]
     },
     {
-      "id": "クローバー保育園",
-      "name": "クローバー保育園",
+      "id": "25",
+      "name": "25",
       "w": null,
       "c": null,
       "vacancy": [
         6,
         0,
-        2,
+        3,
         0,
         1,
         1
       ]
     },
     {
-      "id": "松島さくら保育園",
-      "name": "松島さくら保育園",
+      "id": "26",
+      "name": "26",
       "w": null,
       "c": null,
       "vacancy": [
@@ -204,8 +204,8 @@
       ]
     },
     {
-      "id": "げんきっこ双葉保育園",
-      "name": "げんきっこ双葉保育園",
+      "id": "27",
+      "name": "27",
       "w": null,
       "c": null,
       "vacancy": [
@@ -218,8 +218,8 @@
       ]
     },
     {
-      "id": "甲斐ひよこ保育園",
-      "name": "甲斐ひよこ保育園",
+      "id": "28",
+      "name": "28",
       "w": null,
       "c": null,
       "vacancy": [
@@ -232,8 +232,8 @@
       ]
     },
     {
-      "id": "げんきっこ保育園",
-      "name": "げんきっこ保育園",
+      "id": "40",
+      "name": "40",
       "w": null,
       "c": null,
       "vacancy": [
@@ -246,8 +246,8 @@
       ]
     },
     {
-      "id": "ひよこ保育園",
-      "name": "ひよこ保育園",
+      "id": "41",
+      "name": "41",
       "w": null,
       "c": null,
       "vacancy": [
@@ -260,8 +260,8 @@
       ]
     },
     {
-      "id": "しまの保育園",
-      "name": "しまの保育園",
+      "id": "42",
+      "name": "42",
       "w": null,
       "c": null,
       "vacancy": [
@@ -274,8 +274,8 @@
       ]
     },
     {
-      "id": "ふじざくら保育園",
-      "name": "ふじざくら保育園",
+      "id": "44",
+      "name": "44",
       "w": null,
       "c": null,
       "vacancy": [
@@ -288,8 +288,8 @@
       ]
     },
     {
-      "id": "ChildRoomあん",
-      "name": "ChildRoomあん",
+      "id": "45",
+      "name": "45",
       "w": null,
       "c": null,
       "vacancy": [
@@ -302,8 +302,8 @@
       ]
     },
     {
-      "id": "かおり幼稚園",
-      "name": "かおり幼稚園",
+      "id": "30",
+      "name": "30",
       "w": null,
       "c": null,
       "vacancy": [
@@ -316,8 +316,8 @@
       ]
     },
     {
-      "id": "あおばこども園",
-      "name": "あおばこども園",
+      "id": "31",
+      "name": "31",
       "w": null,
       "c": null,
       "vacancy": [
@@ -330,8 +330,8 @@
       ]
     },
     {
-      "id": "竜王あら川こども園",
-      "name": "竜王あら川こども園",
+      "id": "32",
+      "name": "32",
       "w": null,
       "c": null,
       "vacancy": [
@@ -344,8 +344,8 @@
       ]
     },
     {
-      "id": "あおぞら保育園",
-      "name": "あおぞら保育園",
+      "id": "33",
+      "name": "33",
       "w": null,
       "c": null,
       "vacancy": [
@@ -358,8 +358,8 @@
       ]
     },
     {
-      "id": "光学園",
-      "name": "光学園",
+      "id": "34",
+      "name": "34",
       "w": null,
       "c": null,
       "vacancy": [
@@ -372,8 +372,8 @@
       ]
     },
     {
-      "id": "登美保育園",
-      "name": "登美保育園",
+      "id": "35",
+      "name": "35",
       "w": null,
       "c": null,
       "vacancy": [

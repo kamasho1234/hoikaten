@@ -2,8 +2,8 @@
   "municipalitySlug": "yachiyo-ibaraki",
   "municipalityName": "八千代町",
   "prefecture": "茨城県",
-  "asOf": "2026-10-13",
-  "fetchedAt": "2026-11-10",
+  "asOf": "2026-11-10",
+  "fetchedAt": "2026-11-11",
   "sourceName": "八千代町「町内保育施設の空き状況」",
   "sourceUrl": "https://www.town.ibaraki-yachiyo.lg.jp/page/page010222.html",
   "sourceFiles": {
@@ -58,10 +58,10 @@
       ],
       "symbols": [
         "△",
+        "×",
         "△",
         "△",
-        "△",
-        "△",
+        "×",
         "×"
       ]
     },
@@ -145,8 +145,8 @@
         null
       ],
       "symbols": [
+        "×",
         "△",
-        "○",
         "△",
         "◎",
         "◎",

@@ -3,11 +3,11 @@
   "municipalityName": "五所川原市",
   "prefecture": "青森県",
   "asOf": "2026-11-01",
-  "fetchedAt": "2026-11-09",
+  "fetchedAt": "2026-11-11",
   "sourceName": "五所川原市「保育施設空き状況一覧表」",
   "sourceUrl": "https://www.city.goshogawara.lg.jp/kenkou/fukushi/hoikujoriyouyoyaku.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.goshogawara.lg.jp/kenkou/fukushi/files/R8.11.aki.pdf"
+    "vacancy": "https://www.city.goshogawara.lg.jp/kenkou/fukushi/files/R8.11aki.pdf"
   },
   "metrics": [
     "symbol"
@@ -18,9 +18,13 @@
   ],
   "wards": [],
   "categories": [
-    "保育",
+    "保",
+    "育",
     "所",
-    "認定こども園"
+    "認",
+    "定こ",
+    "ど",
+    "も園"
   ],
   "symbolLegend": [
     {
@@ -71,7 +75,7 @@
       "id": "中川保育園",
       "name": "中川保育園",
       "w": null,
-      "c": 0,
+      "c": 1,
       "vacancy": [
         null,
         null,
@@ -93,7 +97,7 @@
       "id": "七和保育園",
       "name": "七和保育園",
       "w": null,
-      "c": 1,
+      "c": 2,
       "vacancy": [
         null,
         null,
@@ -291,7 +295,7 @@
       "id": "認定こども園第一さつき",
       "name": "認定こども園第一さつき",
       "w": null,
-      "c": 2,
+      "c": 3,
       "vacancy": [
         null,
         null,
@@ -313,7 +317,7 @@
       "id": "認定こども園さくら保育園",
       "name": "認定こども園さくら保育園",
       "w": null,
-      "c": 2,
+      "c": 4,
       "vacancy": [
         null,
         null,
@@ -335,7 +339,7 @@
       "id": "新宮団地こども園",
       "name": "新宮団地こども園",
       "w": null,
-      "c": 2,
+      "c": 5,
       "vacancy": [
         null,
         null,
@@ -357,7 +361,7 @@
       "id": "認定こども園第二さつき",
       "name": "認定こども園第二さつき",
       "w": null,
-      "c": 2,
+      "c": 6,
       "vacancy": [
         null,
         null,
@@ -379,7 +383,7 @@
       "id": "こども園長橋",
       "name": "こども園長橋",
       "w": null,
-      "c": 2,
+      "c": 6,
       "vacancy": [
         null,
         null,
@@ -401,7 +405,7 @@
       "id": "認定こども園なおみ園",
       "name": "認定こども園なおみ園",
       "w": null,
-      "c": 2,
+      "c": 6,
       "vacancy": [
         null,
         null,
@@ -423,7 +427,7 @@
       "id": "みどりの風こども園ひろた",
       "name": "みどりの風こども園ひろた",
       "w": null,
-      "c": 2,
+      "c": 6,
       "vacancy": [
         null,
         null,
@@ -445,7 +449,7 @@
       "id": "みどりの風こども園かなぎ",
       "name": "みどりの風こども園かなぎ",
       "w": null,
-      "c": 2,
+      "c": 6,
       "vacancy": [
         null,
         null,
@@ -467,7 +471,7 @@
       "id": "みどりの風こども園あとむ",
       "name": "みどりの風こども園あとむ",
       "w": null,
-      "c": 2,
+      "c": 6,
       "vacancy": [
         null,
         null,
@@ -489,7 +493,7 @@
       "id": "認定こども園富士幼稚園",
       "name": "認定こども園富士幼稚園",
       "w": null,
-      "c": 2,
+      "c": 6,
       "vacancy": [
         null,
         null,
@@ -511,7 +515,7 @@
       "id": "認定こども園金木幼稚園",
       "name": "認定こども園金木幼稚園",
       "w": null,
-      "c": 2,
+      "c": 6,
       "vacancy": [
         null,
         null,
@@ -533,7 +537,7 @@
       "id": "小規模保育ポッポちゃん",
       "name": "小規模保育ポッポちゃん",
       "w": null,
-      "c": 2,
+      "c": 6,
       "vacancy": [
         null,
         null,
@@ -543,8 +547,8 @@
         null
       ],
       "symbols": [
-        "×",
-        "×",
+        "△",
+        "△",
         "△",
         null,
         null,

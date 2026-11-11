@@ -2,8 +2,8 @@
   "municipalitySlug": "noboribetsu",
   "municipalityName": "登別市",
   "prefecture": "北海道",
-  "asOf": "2026-10-01",
-  "fetchedAt": "2026-11-10",
+  "asOf": "2026-11-01",
+  "fetchedAt": "2026-11-11",
   "sourceName": "登別市「保育所等の空き状況」",
   "sourceUrl": "https://www.city.noboribetsu.lg.jp/article/2023111400062/",
   "sourceFiles": {
@@ -71,7 +71,7 @@
       "symbols": [
         "×",
         "×",
-        "×",
+        "○",
         "○",
         "×",
         "○"
@@ -136,8 +136,8 @@
       ],
       "symbols": [
         "×",
-        "○",
-        "○",
+        "×",
+        "×",
         "○",
         "○",
         "○"

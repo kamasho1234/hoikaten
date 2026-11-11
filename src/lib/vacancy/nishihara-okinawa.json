@@ -2,12 +2,12 @@
   "municipalitySlug": "nishihara-okinawa",
   "municipalityName": "西原町",
   "prefecture": "沖縄県",
-  "asOf": "2026-10-09",
-  "fetchedAt": "2026-11-10",
+  "asOf": "2026-11-10",
+  "fetchedAt": "2026-11-11",
   "sourceName": "西原町「保育所等の空き状況」",
   "sourceUrl": "https://www.town.nishihara.okinawa.jp/soshiki/8/9559.html",
   "sourceFiles": {
-    "vacancy": "https://www.town.nishihara.okinawa.jp/uploaded/life/16359_27775_misc.pdf"
+    "vacancy": "https://www.town.nishihara.okinawa.jp/uploaded/life/16825_28903_misc.pdf"
   },
   "metrics": [
     "vacancy"
@@ -59,7 +59,7 @@
       "c": 1,
       "vacancy": [
         0,
-        1,
+        0,
         0,
         0,
         0,
@@ -171,7 +171,7 @@
       "c": 1,
       "vacancy": [
         0,
-        0,
+        3,
         3,
         0,
         0,
@@ -199,7 +199,7 @@
       "c": 1,
       "vacancy": [
         0,
-        0,
+        1,
         2,
         0,
         0,
@@ -215,9 +215,9 @@
         0,
         0,
         2,
-        1,
         0,
-        0
+        0,
+        1
       ]
     },
     {
@@ -257,8 +257,8 @@
         0,
         0,
         0,
-        2,
-        3,
+        1,
+        0,
         9
       ]
     },
