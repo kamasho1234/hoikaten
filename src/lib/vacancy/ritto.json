@@ -2,12 +2,12 @@
   "municipalitySlug": "ritto",
   "municipalityName": "栗東市",
   "prefecture": "滋賀県",
-  "asOf": "2026-09-10",
-  "fetchedAt": "2026-11-11",
+  "asOf": "2026-11-10",
+  "fetchedAt": "2026-11-12",
   "sourceName": "栗東市「保育園・こども園（保育園籍）空き状況」",
   "sourceUrl": "https://www.city.ritto.lg.jp/soshiki/kodomo_katei/yoji/hoikuen/14609.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.ritto.lg.jp/material/files/group/27/hoikuenakijyoukyou0914.pdf"
+    "vacancy": "https://www.city.ritto.lg.jp/material/files/group/27/hoikuenakijyokyo1110.pdf"
   },
   "metrics": [
     "symbol"

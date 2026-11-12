@@ -2,12 +2,12 @@
   "municipalitySlug": "samukawa",
   "municipalityName": "寒川町",
   "prefecture": "神奈川県",
-  "asOf": "2026-10-14",
-  "fetchedAt": "2026-11-11",
+  "asOf": "2026-11-12",
+  "fetchedAt": "2026-11-12",
   "sourceName": "寒川町「入所審査後の空き状況」",
   "sourceUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/manabi/hoikuyochien/hoikuyochien/info/hoikujyoyoutiennnado/hoikujyonado/13992.html",
   "sourceFiles": {
-    "vacancy": "https://www.town.samukawa.kanagawa.jp/material/files/group/56/R811akijyoukyou.pdf"
+    "vacancy": "https://www.town.samukawa.kanagawa.jp/material/files/group/56/R812_akijyoukyou.pdf"
   },
   "metrics": [
     "symbol"
@@ -98,7 +98,7 @@
         "×",
         "×",
         "×",
-        "○",
+        "×",
         "×",
         "×"
       ]
