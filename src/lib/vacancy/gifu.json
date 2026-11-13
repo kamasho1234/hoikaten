@@ -2,11 +2,11 @@
   "municipalitySlug": "gifu",
   "municipalityName": "岐阜市",
   "asOf": "2026-12-01",
-  "fetchedAt": "2026-11-01",
+  "fetchedAt": "2026-11-13",
   "sourceName": "岐阜市「認可保育施設の空き情報」",
   "sourceUrl": "https://www.city.gifu.lg.jp/kosodate/hoiku/1012359/1012413/1003695.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/003/695/2026012.pdf"
+    "vacancy": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/003/695/2026012ver2.pdf"
   },
   "metrics": [
     "symbol",
@@ -59,7 +59,7 @@
     {"id":"中央地区-認定こども園若葉保育園","name":"認定こども園若葉保育園","w":0,"c":null,"vacancy":[null,null,null,null,null,null],"enrolled":[6,15,21,22,20,22],"symbols":["✖","✖","△","✖","✖","✖"]},
     {"id":"中央地区-領下保育園","name":"領下保育園","w":0,"c":null,"vacancy":[null,null,null,null,null,null],"enrolled":[10,22,22,22,13,20],"symbols":["✖","✖","✖","△","〇","✖"]},
     {"id":"中央地区-ひまわり共同保育所","name":"ひまわり共同保育所","w":0,"c":null,"vacancy":[null,null,null,null,null,null],"enrolled":[3,7,7,null,null,null],"symbols":["✖","✖","✖",null,null,null]},
-    {"id":"中央地区-あかね保育園","name":"あかね保育園","w":0,"c":null,"vacancy":[null,null,null,null,null,null],"enrolled":[0,12,12,17,18,13],"symbols":["✖","✖","△","△","✖","✖"]},
+    {"id":"中央地区-あかね保育園","name":"あかね保育園","w":0,"c":null,"vacancy":[null,null,null,null,null,null],"enrolled":[null,12,12,17,18,13],"symbols":[null,"✖","△","△","✖","✖"]},
     {"id":"中央地区-駅前保育所みっけのおうち","name":"駅前保育所みっけのおうち","w":0,"c":null,"vacancy":[null,null,null,null,null,null],"enrolled":[7,5,6,null,null,null],"symbols":["✖","✖","✖",null,null,null]},
     {"id":"中央地区-認定こども園芽含幼稚園","name":"認定こども園芽含幼稚園","w":0,"c":null,"vacancy":[null,null,null,null,null,null],"enrolled":[null,6,6,7,10,11],"symbols":[null,"✖","✖","〇","✖","✖"]},
     {"id":"中央地区-岐阜幼稚園小規模保育所","name":"岐阜幼稚園小規模保育所","w":0,"c":null,"vacancy":[null,null,null,null,null,null],"enrolled":[null,6,6,null,null,null],"symbols":[null,"✖","✖",null,null,null]},

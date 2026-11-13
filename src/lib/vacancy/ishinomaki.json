@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "ishinomaki",
   "municipalityName": "石巻市",
-  "asOf": "2026-10-10",
-  "fetchedAt": "2026-11-12",
+  "asOf": "2026-11-10",
+  "fetchedAt": "2026-11-13",
   "sourceName": "石巻市「保育施設受入可能枠について」",
   "sourceUrl": "https://www.city.ishinomaki.lg.jp/kosodate/002/2505/ukeirekanouwaku.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.ishinomaki.lg.jp/kosodate/002/2505/20261010.pdf"
+    "vacancy": "https://www.city.ishinomaki.lg.jp/kosodate/002/2505/20261110.pdf"
   },
   "metrics": [
     "symbol"
@@ -52,7 +52,7 @@
       ],
       "symbols": [
         null,
-        "△",
+        "×",
         "×",
         "○",
         "△",
@@ -144,7 +144,7 @@
         "×",
         "×",
         "×",
-        "×"
+        "○"
       ]
     },
     {
@@ -163,7 +163,7 @@
       "symbols": [
         "×",
         "×",
-        "△",
+        "×",
         "×",
         "×",
         "×"
@@ -227,12 +227,12 @@
         null
       ],
       "symbols": [
-        "△",
         "×",
-        "△",
-        "○",
-        "△",
-        "△"
+        "×",
+        "×",
+        "×",
+        "×",
+        "×"
       ]
     },
     {
@@ -408,7 +408,7 @@
         "×",
         "×",
         "△",
-        "△"
+        "×"
       ]
     },
     {
@@ -447,9 +447,9 @@
         null
       ],
       "symbols": [
-        "△",
         "×",
-        "△",
+        "×",
+        "×",
         "×",
         "×",
         "×"
@@ -579,7 +579,7 @@
         null
       ],
       "symbols": [
-        "△",
+        "×",
         "×",
         "×",
         "×",
@@ -667,7 +667,7 @@
         null
       ],
       "symbols": [
-        "△",
+        "×",
         "×",
         "△",
         "×",
@@ -777,7 +777,7 @@
         null
       ],
       "symbols": [
-        "△",
+        "○",
         "×",
         "△",
         "×",
@@ -845,7 +845,7 @@
       "symbols": [
         "×",
         "×",
-        "△",
+        "×",
         "×",
         "×",
         "×"
@@ -933,7 +933,7 @@
       "symbols": [
         "×",
         "×",
-        "△",
+        "×",
         null,
         null,
         null
@@ -998,8 +998,8 @@
       ],
       "symbols": [
         "△",
-        "○",
-        "○",
+        "△",
+        "△",
         null,
         null,
         null

@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "sanda",
   "municipalityName": "三田市",
-  "asOf": "2026-10-20",
-  "fetchedAt": "2026-11-12",
+  "asOf": "2026-11-13",
+  "fetchedAt": "2026-11-13",
   "sourceName": "三田市「入所受入状況」",
   "sourceUrl": "https://www.city.sanda.lg.jp/kosodate_kyoiku/ikuji_mishugakuji/hoikusho_kodomoen_yochien/6/33810.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.sanda.lg.jp/material/files/group/156/r50811.pdf"
+    "vacancy": "https://www.city.sanda.lg.jp/material/files/group/156/r50812.pdf"
   },
   "metrics": [
     "vacancy"
@@ -29,7 +29,7 @@
       "w": null,
       "c": 0,
       "vacancy": [
-        2,
+        0,
         0,
         0,
         0,
@@ -44,7 +44,7 @@
       "c": 0,
       "vacancy": [
         2,
-        0,
+        1,
         0,
         0,
         0,
@@ -57,7 +57,7 @@
       "w": null,
       "c": 0,
       "vacancy": [
-        0,
+        1,
         0,
         0,
         0,
@@ -85,7 +85,7 @@
       "w": null,
       "c": 0,
       "vacancy": [
-        3,
+        2,
         0,
         0,
         null,
@@ -113,7 +113,7 @@
       "w": null,
       "c": 0,
       "vacancy": [
-        1,
+        0,
         0,
         0,
         0,
@@ -158,9 +158,9 @@
         null,
         0,
         0,
-        5,
-        1,
-        1
+        0,
+        0,
+        0
       ]
     },
     {
@@ -171,10 +171,10 @@
       "vacancy": [
         null,
         null,
-        2,
-        2,
+        1,
         0,
-        0
+        1,
+        1
       ]
     },
     {
@@ -184,7 +184,7 @@
       "c": 1,
       "vacancy": [
         null,
-        1,
+        0,
         1,
         1,
         1,
@@ -201,7 +201,7 @@
         0,
         0,
         0,
-        1,
+        0,
         1
       ]
     },
@@ -239,7 +239,7 @@
       "w": null,
       "c": 1,
       "vacancy": [
-        7,
+        5,
         1,
         0,
         0,
@@ -269,7 +269,7 @@
       "vacancy": [
         null,
         null,
-        0,
+        1,
         2,
         2,
         0
@@ -281,11 +281,11 @@
       "w": null,
       "c": 1,
       "vacancy": [
-        4,
-        4,
+        0,
         3,
+        2,
         3,
-        7,
+        6,
         2
       ]
     },
@@ -312,7 +312,7 @@
         null,
         1,
         1,
-        0,
+        1,
         0,
         0
       ]
@@ -323,10 +323,10 @@
       "w": null,
       "c": 1,
       "vacancy": [
-        1,
+        0,
         1,
         0,
-        3,
+        2,
         0,
         0
       ]
@@ -340,8 +340,8 @@
         null,
         null,
         null,
-        1,
-        1,
+        2,
+        0,
         0
       ]
     },
@@ -365,7 +365,7 @@
       "w": null,
       "c": 2,
       "vacancy": [
-        1,
+        0,
         0,
         3,
         null,
@@ -380,8 +380,8 @@
       "c": 2,
       "vacancy": [
         0,
-        1,
-        1,
+        0,
+        2,
         null,
         null,
         null
@@ -393,7 +393,7 @@
       "w": null,
       "c": 2,
       "vacancy": [
-        0,
+        1,
         1,
         0,
         null,

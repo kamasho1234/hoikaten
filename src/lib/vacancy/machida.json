@@ -2,11 +2,11 @@
   "municipalitySlug": "machida",
   "municipalityName": "町田市",
   "asOf": "2026-12-01",
-  "fetchedAt": "2026-11-05",
+  "fetchedAt": "2026-11-13",
   "sourceName": "町田市「入園募集人数一覧」",
   "sourceUrl": "https://kosodate-machida.tokyo.jp/soshiki/4/3/nyuuen/hoiku/202604/14186.html",
   "sourceFiles": {
-    "vacancy": "https://kosodate-machida.tokyo.jp/material/files/group/7/boshu2612_1.pdf"
+    "vacancy": "https://kosodate-machida.tokyo.jp/material/files/group/7/boshu202612_2.pdf"
   },
   "metrics": [
     "vacancy"
@@ -136,7 +136,7 @@
     {"id":"南-成瀬なかよし保育園","name":"成瀬なかよし保育園","w":3,"c":2,"vacancy":[null,null,null,null,null,null]},
     {"id":"南-わかくさのおうち","name":"わかくさのおうち","w":3,"c":2,"vacancy":[null,null,null,null,null,null]},
     {"id":"南-もりのこ第一保育園","name":"もりのこ第一保育園","w":3,"c":2,"vacancy":[null,null,null,null,null,null]},
-    {"id":"南-もりのこ第二保育園","name":"もりのこ第二保育園","w":3,"c":2,"vacancy":[null,null,null,null,null,null]},
+    {"id":"南-もりのこ第二保育園","name":"もりのこ第二保育園","w":3,"c":2,"vacancy":[null,null,1,null,null,null]},
     {"id":"南-もりのおうち保育園","name":"もりのおうち保育園","w":3,"c":2,"vacancy":[null,null,null,null,null,null]},
     {"id":"南-成瀬フェリシア保育園","name":"成瀬フェリシア保育園","w":3,"c":2,"vacancy":[null,null,null,null,null,null]},
     {"id":"南-ＫＢＣほいくえん南町田ＡＬＩＶＥ","name":"ＫＢＣほいくえん南町田ＡＬＩＶＥ","w":3,"c":2,"vacancy":[null,null,null,null,null,null]},
