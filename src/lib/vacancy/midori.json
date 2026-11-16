@@ -2,12 +2,12 @@
   "municipalitySlug": "midori",
   "municipalityName": "みどり市",
   "prefecture": "群馬県",
-  "asOf": "2026-09-03",
-  "fetchedAt": "2026-11-15",
+  "asOf": "2026-11-16",
+  "fetchedAt": "2026-11-16",
   "sourceName": "みどり市「保育施設入所可能数」",
   "sourceUrl": "https://www.city.midori.gunma.jp/kosodate/1001643/1007622.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.midori.gunma.jp/_res/projects/default_project/_page_/001/007/622/nyusyor810.pdf"
+    "vacancy": "https://www.city.midori.gunma.jp/_res/projects/default_project/_page_/001/007/622/nyusyokanousuur8.12.pdf"
   },
   "metrics": [
     "vacancy"
@@ -29,7 +29,7 @@
       "vacancy": [
         0,
         0,
-        3,
+        1,
         0,
         0,
         0
@@ -55,12 +55,12 @@
       "w": null,
       "c": null,
       "vacancy": [
-        0,
-        0,
+        1,
         0,
         0,
         1,
-        0
+        1,
+        1
       ]
     },
     {
@@ -71,7 +71,7 @@
       "vacancy": [
         0,
         0,
-        1,
+        2,
         1,
         1,
         1
@@ -83,10 +83,10 @@
       "w": null,
       "c": null,
       "vacancy": [
-        2,
-        2,
-        2,
-        2,
+        1,
+        1,
+        1,
+        1,
         1,
         1
       ]
@@ -97,8 +97,8 @@
       "w": null,
       "c": null,
       "vacancy": [
-        4,
-        1,
+        0,
+        0,
         0,
         0,
         0,
@@ -125,11 +125,11 @@
       "w": null,
       "c": null,
       "vacancy": [
+        1,
         0,
         0,
         0,
         0,
-        2,
         0
       ]
     },

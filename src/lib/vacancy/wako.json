@@ -2,19 +2,19 @@
   "municipalitySlug": "wako",
   "municipalityName": "和光市",
   "prefecture": "埼玉県",
-  "asOf": "2026-10-07",
-  "fetchedAt": "2026-10-13",
+  "asOf": "2026-11-09",
+  "fetchedAt": "2026-11-16",
   "sourceName": "和光市「保育所等募集人数」",
   "sourceUrl": "https://www.city.wako.lg.jp/kosodate/1000009/1009701/1003770/1003771/1003775.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.wako.lg.jp/_res/projects/default_project/_page_/001/003/775/12gatubosyu.pdf"
+    "vacancy": "https://www.city.wako.lg.jp/_res/projects/default_project/_page_/001/003/775/r8-12gatsuaki.pdf"
   },
   "metrics": [
     "vacancy"
   ],
   "subtitle": "2026年12月選考の募集人数",
   "notes": [
-    "和光市が公表しているのは2026年12月選考の募集人数で、2026-10-07（市が資料を公開した日）時点のものです。「いまの空き」ではなく、その月の選考で受け入れる枠の数です。",
+    "和光市が公表しているのは2026年12月選考の募集人数で、2026-11-09（市が資料を公開した日）時点のものです。「いまの空き」ではなく、その月の選考で受け入れる枠の数です。",
     "市は「募集人数が生じていない保育施設についても、申込後に退所や転所により新たに空きが生じる場合がありますので、募集人数の状況にかかわらず、希望する施設はすべてお申し込みください」としています。",
     "市の資料に載っていない年齢は「—」にしています。その施設がそのクラスを設けていないことを表します。"
   ],

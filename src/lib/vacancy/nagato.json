@@ -2,12 +2,12 @@
   "municipalitySlug": "nagato",
   "municipalityName": "長門市",
   "prefecture": "山口県",
-  "asOf": "2026-09-14",
-  "fetchedAt": "2026-11-15",
+  "asOf": "2026-11-16",
+  "fetchedAt": "2026-11-16",
   "sourceName": "長門市「保育施設入所可能状況」",
   "sourceUrl": "https://www.city.nagato.yamaguchi.jp/site/nagato-kosodatenavi/64993.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.nagato.yamaguchi.jp/uploaded/attachment/39354.pdf"
+    "vacancy": "https://www.city.nagato.yamaguchi.jp/uploaded/attachment/39881.pdf"
   },
   "metrics": [
     "symbol"
@@ -52,8 +52,8 @@
         null
       ],
       "symbols": [
-        "△",
-        "△",
+        "×",
+        "×",
         "○",
         "△",
         "○",
@@ -74,7 +74,7 @@
         null
       ],
       "symbols": [
-        "△",
+        "×",
         "×",
         "△",
         "×",
@@ -96,8 +96,8 @@
         null
       ],
       "symbols": [
-        "△",
-        "△",
+        "×",
+        "×",
         "○",
         "○",
         "○",
