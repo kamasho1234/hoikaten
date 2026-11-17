@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "azumino",
   "municipalityName": "安曇野市",
-  "asOf": "2026-10-08",
-  "fetchedAt": "2026-11-16",
+  "asOf": "2026-11-17",
+  "fetchedAt": "2026-11-17",
   "sourceName": "安曇野市「保育園等の途中入園空き状況」",
   "sourceUrl": "https://www.city.azumino.nagano.jp/site/hoikuen/",
   "sourceFiles": {
-    "vacancy": "https://www.city.azumino.nagano.jp/uploaded/attachment/86110.pdf"
+    "vacancy": "https://www.city.azumino.nagano.jp/uploaded/attachment/86828.pdf"
   },
   "metrics": [
     "symbol"
@@ -126,7 +126,7 @@
       "symbols": [
         "×",
         "×",
-        "×",
+        "△",
         "×",
         "×",
         "△"
@@ -323,7 +323,7 @@
       ],
       "symbols": [
         "×",
-        "×",
+        "△",
         "×",
         "○",
         "○",
@@ -609,7 +609,7 @@
       ],
       "symbols": [
         "×",
-        "×",
+        "△",
         "×",
         null,
         null,
@@ -632,7 +632,7 @@
       "symbols": [
         "×",
         "×",
-        "×",
+        "△",
         null,
         null,
         null

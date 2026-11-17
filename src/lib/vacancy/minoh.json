@@ -2,7 +2,7 @@
   "municipalitySlug": "minoh",
   "municipalityName": "箕面市",
   "asOf": "2026-10-29",
-  "fetchedAt": "2026-10-30",
+  "fetchedAt": "2026-11-17",
   "sourceName": "箕面市「保育施設の空き状況」",
   "sourceUrl": "https://www.city.minoh.lg.jp/infancy/hoikusho/akizyoukyou.html",
   "sourceFiles": {
@@ -71,7 +71,7 @@
     {"id":"さくらさくみらい箕面（民間）","name":"さくらさくみらい箕面（民間）","w":2,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
     {"id":"アートチャイルドケア箕面稲保育園（民間）","name":"アートチャイルドケア箕面稲保育園（民間）","w":2,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","×"]},
     {"id":"保育園みのおのおうち（民間）","name":"保育園みのおのおうち（民間）","w":2,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","△","×"]},
-    {"id":"キューズモール敬愛保育園（民間）","name":"キューズモール敬愛保育園（民間）","w":2,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["△","×","×","×","△","△"]},
+    {"id":"キューズモール敬愛保育園（民間）","name":"キューズモール敬愛保育園（民間）","w":2,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","△","△"]},
     {"id":"つくし保育園（事業所内保育施設）（0歳から2歳のみ）","name":"つくし保育園（事業所内保育施設）（0歳から2歳のみ）","w":2,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
     {"id":"くるーる保育園（事業所内保育施設）（0歳から2歳のみ）","name":"くるーる保育園（事業所内保育施設）（0歳から2歳のみ）","w":2,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":["×","△","×",null,null,null]},
     {"id":"こども園アサンプション国際幼稚園（民間認定こども園）（2歳から）","name":"こども園アサンプション国際幼稚園（民間認定こども園）（2歳から）","w":2,"c":null,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,"×","×","×","×"]},
