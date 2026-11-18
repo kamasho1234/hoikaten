@@ -2,12 +2,12 @@
   "municipalitySlug": "omitama",
   "municipalityName": "小美玉市",
   "prefecture": "茨城県",
-  "asOf": "2026-10-20",
-  "fetchedAt": "2026-11-17",
+  "asOf": "2026-11-18",
+  "fetchedAt": "2026-11-18",
   "sourceName": "小美玉市「保育所・認定こども園等の空き状況」",
   "sourceUrl": "https://www.city.omitama.lg.jp/0023/info-0000001230-0.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.omitama.lg.jp/manage/contents/upload/6ad6f7ea0171e.pdf"
+    "vacancy": "https://www.city.omitama.lg.jp/manage/contents/upload/6afcf32f331aa.pdf"
   },
   "metrics": [
     "symbol"
@@ -76,7 +76,7 @@
       ],
       "symbols": [
         "×",
-        "〇",
+        "△",
         "△",
         "〇",
         "△",
@@ -141,8 +141,8 @@
         null
       ],
       "symbols": [
+        "×",
         "△",
-        "〇",
         "△",
         "×",
         "×",
@@ -339,8 +339,8 @@
         null
       ],
       "symbols": [
-        "×",
-        "〇",
+        "△",
+        "△",
         "△",
         "〇",
         "△",

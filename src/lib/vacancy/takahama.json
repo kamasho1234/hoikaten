@@ -2,12 +2,12 @@
   "municipalitySlug": "takahama",
   "municipalityName": "高浜市",
   "prefecture": "愛知県",
-  "asOf": "2026-10-01",
-  "fetchedAt": "2026-11-17",
+  "asOf": "2026-11-01",
+  "fetchedAt": "2026-11-18",
   "sourceName": "高浜市「保育園・認定こども園（保育所）の空き状況」",
   "sourceUrl": "https://www.city.takahama.lg.jp/site/kodomokosodatesaite/30180.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.takahama.lg.jp/uploaded/attachment/30238.pdf"
+    "vacancy": "https://www.city.takahama.lg.jp/uploaded/attachment/30431.pdf"
   },
   "metrics": [
     "symbol"
@@ -61,8 +61,8 @@
         "×",
         "×",
         "△",
-        "×",
-        "×"
+        "△",
+        "△"
       ]
     },
     {
@@ -148,7 +148,7 @@
         "×",
         "×",
         "×",
-        "×",
+        "△",
         "×",
         "×"
       ]
@@ -214,8 +214,8 @@
         "×",
         "×",
         "×",
-        "△",
-        "△",
+        "×",
+        "×",
         "×"
       ]
     },
@@ -238,7 +238,7 @@
         "×",
         "×",
         "×",
-        "△"
+        "×"
       ]
     },
     {
@@ -258,7 +258,7 @@
         "×",
         "×",
         "×",
-        "△",
+        "×",
         "×",
         "×"
       ]
