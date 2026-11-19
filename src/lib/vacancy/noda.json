@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "noda",
   "municipalityName": "野田市",
-  "asOf": "2026-10-19",
-  "fetchedAt": "2026-11-18",
+  "asOf": "2026-11-19",
+  "fetchedAt": "2026-11-19",
   "sourceName": "野田市「施設別受入れ予想」",
   "sourceUrl": "https://www.city.noda.chiba.jp/kurashi/kosodate/hoiku/1008260.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.noda.chiba.jp/_res/projects/default_project/_page_/001/008/260/12ukeire.pdf"
+    "vacancy": "https://www.city.noda.chiba.jp/_res/projects/default_project/_page_/001/008/260/901ukeire.pdf"
   },
   "metrics": [
     "symbol"
@@ -191,7 +191,7 @@
         "×",
         "×",
         "▲",
-        "▲",
+        "×",
         "×",
         "×"
       ]
@@ -212,8 +212,8 @@
       "symbols": [
         "▲",
         "×",
-        "×",
         "▲",
+        "×",
         "×",
         "×"
       ]
@@ -232,10 +232,10 @@
         null
       ],
       "symbols": [
-        "▲",
         "×",
         "×",
-        null,
+        "×",
+        "×",
         null,
         null
       ]
@@ -280,7 +280,7 @@
         "×",
         "×",
         "×",
-        "×",
+        "▲",
         "○"
       ]
     },
@@ -302,7 +302,7 @@
         "×",
         "×",
         "×",
-        "▲",
+        "×",
         "×"
       ]
     },
@@ -523,7 +523,7 @@
         "×",
         "×",
         "×",
-        "×"
+        "▲"
       ]
     },
     {
