@@ -2,12 +2,12 @@
   "municipalitySlug": "ogi",
   "municipalityName": "小城市",
   "prefecture": "佐賀県",
-  "asOf": "2026-10-23",
-  "fetchedAt": "2026-11-18",
+  "asOf": "2026-11-20",
+  "fetchedAt": "2026-11-20",
   "sourceName": "小城市「受け入れ可能状況」",
   "sourceUrl": "https://www.city.ogi.lg.jp/main/17882.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.ogi.lg.jp/site_files/file/2026/202610/p1k5gs52ro1tre1cs242ma3q1dr94.pdf"
+    "vacancy": "https://www.city.ogi.lg.jp/site_files/file/2026/202611/p1k7p3ciuv1cmtcp21r6fidn1ej4.pdf"
   },
   "metrics": [
     "symbol"
@@ -61,7 +61,7 @@
         "×",
         "×",
         "×",
-        "×"
+        "△"
       ]
     },
     {
@@ -78,7 +78,7 @@
         null
       ],
       "symbols": [
-        "×",
+        "△",
         "×",
         "×",
         "×",
@@ -146,7 +146,7 @@
       "symbols": [
         "×",
         "×",
-        "△",
+        "×",
         null,
         null,
         null
@@ -232,11 +232,11 @@
         null
       ],
       "symbols": [
-        "△",
         "×",
         "×",
         "×",
-        "△",
+        "×",
+        "×",
         "△"
       ]
     },
@@ -257,9 +257,9 @@
         "×",
         "×",
         "×",
-        "△",
         "×",
-        "△"
+        "×",
+        "×"
       ]
     },
     {
@@ -277,7 +277,7 @@
       ],
       "symbols": [
         "×",
-        "△",
+        "×",
         "×",
         null,
         null,
@@ -324,7 +324,7 @@
         "×",
         "×",
         "×",
-        "×",
+        "△",
         "×"
       ]
     },
@@ -386,7 +386,7 @@
         null
       ],
       "symbols": [
-        "○",
+        "△",
         "×",
         "×",
         null,
@@ -408,7 +408,7 @@
         null
       ],
       "symbols": [
-        "△",
+        "×",
         "×",
         "×",
         "△",

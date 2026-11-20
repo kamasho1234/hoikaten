@@ -2,8 +2,8 @@
   "municipalitySlug": "taiwa",
   "municipalityName": "大和町",
   "prefecture": "宮城県",
-  "asOf": "2026-11-05",
-  "fetchedAt": "2026-11-17",
+  "asOf": "2026-11-20",
+  "fetchedAt": "2026-11-20",
   "sourceName": "大和町「保育施設空き枠情報」",
   "sourceUrl": "https://www.town.taiwa.miyagi.jp/soshiki/kodomokatei/hoikushien/4326.html",
   "sourceFiles": {
@@ -75,7 +75,7 @@
         null
       ],
       "symbols": [
-        "×",
+        "△",
         "×",
         "△",
         "×",
@@ -121,7 +121,7 @@
       "symbols": [
         "×",
         "×",
-        "△",
+        "○",
         "×",
         "△",
         "×"
@@ -141,7 +141,7 @@
         null
       ],
       "symbols": [
-        "×",
+        "△",
         "×",
         "×",
         "△",

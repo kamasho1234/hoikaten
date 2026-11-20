@@ -2,12 +2,12 @@
   "municipalitySlug": "koga-ibaraki",
   "municipalityName": "古河市",
   "prefecture": "茨城県",
-  "asOf": "2026-10-21",
-  "fetchedAt": "2026-11-19",
+  "asOf": "2026-11-19",
+  "fetchedAt": "2026-11-20",
   "sourceName": "古河市「空き状況一覧表」",
   "sourceUrl": "https://www.city.ibaraki-koga.lg.jp/soshiki/hoiku/2/14130.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.ibaraki-koga.lg.jp/material/files/group/92/12muke.pdf"
+    "vacancy": "https://www.city.ibaraki-koga.lg.jp/material/files/group/92/1muke.pdf"
   },
   "metrics": [
     "symbol"
@@ -187,7 +187,7 @@
       ],
       "symbols": [
         "×",
-        "△",
+        "×",
         "×",
         "×",
         "×",
@@ -253,7 +253,7 @@
       ],
       "symbols": [
         "×",
-        "×",
+        "△",
         "×",
         "×",
         "×",
@@ -345,7 +345,7 @@
         "△",
         "×",
         "×",
-        "△"
+        "×"
       ]
     },
     {
@@ -363,7 +363,7 @@
       ],
       "symbols": [
         "×",
-        "×",
+        "△",
         "×",
         "×",
         "×",
@@ -406,8 +406,8 @@
         null
       ],
       "symbols": [
-        "△",
-        "△",
+        "×",
+        "×",
         "△",
         "×",
         "×",
@@ -518,7 +518,7 @@
       "symbols": [
         "×",
         "×",
-        "×",
+        "△",
         "×",
         "×",
         "×"
@@ -560,7 +560,7 @@
         null
       ],
       "symbols": [
-        "△",
+        "×",
         "△",
         "×",
         "×",
@@ -608,7 +608,7 @@
         "〇",
         "△",
         "△",
-        "△",
+        "×",
         "×"
       ]
     },
@@ -674,8 +674,8 @@
         "△",
         "△",
         "△",
-        "×",
-        "×"
+        "△",
+        "△"
       ]
     },
     {
@@ -692,9 +692,9 @@
         null
       ],
       "symbols": [
+        "×",
         "△",
-        "△",
-        "△",
+        "×",
         "△",
         "×",
         "×"
@@ -736,9 +736,9 @@
         null
       ],
       "symbols": [
-        "△",
-        "△",
         "×",
+        "△",
+        "△",
         "×",
         "×",
         "×"

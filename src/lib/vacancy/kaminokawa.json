@@ -2,12 +2,12 @@
   "municipalitySlug": "kaminokawa",
   "municipalityName": "上三川町",
   "prefecture": "栃木県",
-  "asOf": "2026-10-20",
-  "fetchedAt": "2026-11-19",
+  "asOf": "2026-11-20",
+  "fetchedAt": "2026-11-20",
   "sourceName": "上三川町「町内保育施設空き状況」",
   "sourceUrl": "https://www.town.kaminokawa.lg.jp/0016/info-0000002368-0.html",
   "sourceFiles": {
-    "vacancy": "https://www.town.kaminokawa.lg.jp/manage/contents/upload/6ad5cbf46cbed.pdf"
+    "vacancy": "https://www.town.kaminokawa.lg.jp/manage/contents/upload/6afd4d2e17b0e.pdf"
   },
   "metrics": [
     "symbol"
@@ -93,7 +93,7 @@
         null
       ],
       "symbols": [
-        "×",
+        "△",
         "×",
         "△",
         "△",
@@ -159,11 +159,11 @@
         null
       ],
       "symbols": [
-        "〇",
+        "△",
+        "×",
         "×",
         "△",
-        "△",
-        "△",
+        "×",
         "×"
       ]
     },
@@ -182,8 +182,8 @@
       ],
       "symbols": [
         "△",
-        "△",
-        "△",
+        "×",
+        "×",
         "×",
         "×",
         "×"
@@ -229,8 +229,8 @@
         "△",
         "×",
         "×",
-        "×",
-        "×"
+        "△",
+        "△"
       ]
     },
     {
@@ -247,7 +247,7 @@
         null
       ],
       "symbols": [
-        "△",
+        "×",
         "△",
         "×",
         null,

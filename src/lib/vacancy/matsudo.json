@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "matsudo",
   "municipalityName": "松戸市",
-  "asOf": "2026-11-01",
-  "fetchedAt": "2026-11-19",
+  "asOf": "2026-11-20",
+  "fetchedAt": "2026-11-20",
   "sourceName": "松戸市「保育施設の定員に対する空き状況一覧」",
   "sourceUrl": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuushojoukyou.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuushojoukyou.files/.nyuushokaousei_R8.12.pdf"
+    "vacancy": "https://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/hoikuenyouchien/nyuushojoukyou.files/nyuushokaousei_R9.1-3.pdf"
   },
   "metrics": [
     "symbol"
@@ -283,7 +283,7 @@
         null
       ],
       "symbols": [
-        "□",
+        "△",
         "□",
         "□",
         "□",
@@ -440,7 +440,7 @@
         "□",
         "□",
         "□",
-        "△",
+        "□",
         "△",
         "△"
       ]
@@ -464,7 +464,7 @@
         "□",
         "□",
         "□",
-        "△"
+        "□"
       ]
     },
     {
@@ -748,7 +748,7 @@
         "□",
         "□",
         "□",
-        "△",
+        "□",
         "△",
         "△"
       ]
@@ -815,7 +815,7 @@
         "□",
         "□",
         "□",
-        "△",
+        "×",
         "×"
       ]
     },
@@ -1164,7 +1164,7 @@
       ],
       "symbols": [
         "□",
-        "□",
+        "△",
         "□",
         "□",
         "□",
@@ -1436,8 +1436,8 @@
       ]
     },
     {
-      "id": "ゆめいろルーム(野菊野こども園松戸駅西ロルーム)",
-      "name": "ゆめいろルーム(野菊野こども園松戸駅西ロルーム)",
+      "id": "ゆめいろルーム",
+      "name": "ゆめいろルーム",
       "w": null,
       "c": null,
       "vacancy": [
@@ -1780,7 +1780,7 @@
       ],
       "symbols": [
         "□",
-        "□",
+        "△",
         "△",
         "□",
         "□",
@@ -1803,7 +1803,7 @@
       "symbols": [
         "□",
         "□",
-        "□",
+        "×",
         "□",
         "□",
         "□"
@@ -1935,7 +1935,7 @@
       "symbols": [
         "□",
         "□",
-        "□",
+        "△",
         "□",
         "□",
         "□"
@@ -2705,7 +2705,7 @@
       "symbols": [
         "△",
         "□",
-        "△",
+        "□",
         "□",
         "□",
         "□"
@@ -2858,7 +2858,7 @@
       ],
       "symbols": [
         "□",
-        "×",
+        "△",
         "□",
         "□",
         "□",
@@ -3123,7 +3123,7 @@
       "symbols": [
         "□",
         "□",
-        "□",
+        "△",
         "□",
         "□",
         "□"
@@ -3147,7 +3147,7 @@
         "□",
         "□",
         "△",
-        "□",
+        "△",
         "△"
       ]
     },
@@ -3583,9 +3583,9 @@
         null
       ],
       "symbols": [
-        "△",
         "□",
-        "△",
+        "□",
+        "□",
         "△",
         "□",
         "△"
@@ -3915,7 +3915,7 @@
       "symbols": [
         "□",
         "△",
-        "□",
+        "△",
         "□",
         "□",
         "□"
@@ -4178,7 +4178,7 @@
       ],
       "symbols": [
         "□",
-        "□",
+        "△",
         "□",
         "□",
         "□",
@@ -4291,7 +4291,7 @@
         "△",
         "□",
         "△",
-        "□",
+        "△",
         "△"
       ]
     },
