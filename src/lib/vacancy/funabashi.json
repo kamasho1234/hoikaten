@@ -2,7 +2,7 @@
   "municipalitySlug": "funabashi",
   "municipalityName": "船橋市",
   "asOf": "2026-11-20",
-  "fetchedAt": "2026-11-20",
+  "fetchedAt": "2026-11-21",
   "sourceName": "船橋市「保育所等の受入れ可能性一覧」",
   "sourceUrl": "https://www.city.funabashi.lg.jp/kodomo/hoiku/002/p060892.html",
   "sourceFiles": {
@@ -156,7 +156,7 @@
     {"id":"船橋法典駅 周辺-AIAI NURSERY 船橋法典","name":"AIAI NURSERY 船橋法典","w":10,"c":1,"vacancy":[6,5,0,3,1,1]},
     {"id":"船橋法典駅 周辺-COSMOS kids campus 船橋（旧：船橋うめのき保育園）","name":"COSMOS kids campus 船橋（旧：船橋うめのき保育園）","w":10,"c":1,"vacancy":[6,2,2,0,1,0]},
     {"id":"前原 周辺-二宮保育園","name":"二宮保育園","w":11,"c":0,"vacancy":[3,20,10,4,1,3]},
-    {"id":"前原 周辺-前原保育園","name":"前原保育園","w":11,"c":1,"vacancy":[3,2,2,0,5,0]},
+    {"id":"前原 周辺-前原保育園","name":"前原保育園","w":11,"c":1,"vacancy":[3,2,2,0,0,0]},
     {"id":"前原 周辺-前原ひまわり保育園","name":"前原ひまわり保育園","w":11,"c":1,"vacancy":[9,8,4,4,0,0]},
     {"id":"前原 周辺-たちばな保育園","name":"たちばな保育園","w":11,"c":1,"vacancy":[9,15,0,0,0,0]},
     {"id":"前原 周辺-船橋ハーモニー保育園","name":"船橋ハーモニー保育園","w":11,"c":1,"vacancy":[9,9,0,3,0,0]},
