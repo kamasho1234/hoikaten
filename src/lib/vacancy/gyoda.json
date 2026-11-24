@@ -1,19 +1,19 @@
 {
   "municipalitySlug": "gyoda",
   "municipalityName": "行田市",
-  "asOf": "2026-10-22",
-  "fetchedAt": "2026-10-23",
+  "asOf": "2026-11-19",
+  "fetchedAt": "2026-11-24",
   "sourceName": "行田市「保育所等の受入可能状況について」",
   "sourceUrl": "https://www.city.gyoda.lg.jp/soshiki/kenkouhukushibu/kodomomirai/gyomu/ikuzi_misyugaku/hoikusho_kodomoen/hoikusho/7906.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.gyoda.lg.jp/material/files/group/22/202612ukeire.pdf"
+    "vacancy": "https://www.city.gyoda.lg.jp/material/files/group/22/202701ukeire.pdf"
   },
   "metrics": [
     "symbol"
   ],
-  "subtitle": "2026年12月入所の受入枠の状況",
+  "subtitle": "2027年1月入所の受入枠の状況",
   "notes": [
-    "行田市は空き状況を人数ではなく「あり」「なし」の記号で公表しています。これは2026年12月入所の受入可能状況の見込みで、2026-10-22時点のものです。",
+    "行田市は空き状況を人数ではなく「あり」「なし」の記号で公表しています。これは2027年1月入所の受入可能状況の見込みで、2026-11-19時点のものです。",
     "受入枠の状況は、園の状況等によって変更になる場合があります。入所の決定に際しては、必",
     "保育の必要性が高い方から入所を決定しますので、ご希望に添えない場合があります。",
     "公式の表で空らんになっている年齢は「—」にしています。その年齢のクラスがないことを表しています。"

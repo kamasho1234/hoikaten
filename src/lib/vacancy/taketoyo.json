@@ -2,8 +2,8 @@
   "municipalitySlug": "taketoyo",
   "municipalityName": "武豊町",
   "prefecture": "愛知県",
-  "asOf": "2026-10-25",
-  "fetchedAt": "2026-11-23",
+  "asOf": "2026-11-24",
+  "fetchedAt": "2026-11-24",
   "sourceName": "武豊町「保育所等空き状況」",
   "sourceUrl": "https://www.town.taketoyo.lg.jp/kosodate/1001514/1001968/1005999.html",
   "sourceFiles": {
@@ -92,9 +92,9 @@
       "symbols": [
         "×",
         "×",
+        "×",
         "○",
-        "○",
-        "○",
+        "×",
         "○"
       ]
     },
@@ -157,7 +157,7 @@
       ],
       "symbols": [
         "×",
-        "×",
+        "○",
         "×",
         "○",
         "×",
@@ -245,8 +245,8 @@
       ],
       "symbols": [
         "×",
-        "○",
-        "○",
+        "×",
+        "×",
         null,
         null,
         null
@@ -267,7 +267,7 @@
       ],
       "symbols": [
         "×",
-        "×",
+        "○",
         "○",
         "×",
         "×",

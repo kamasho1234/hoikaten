@@ -2,11 +2,11 @@
   "municipalitySlug": "meguro",
   "municipalityName": "目黒区",
   "asOf": "2026-11-20",
-  "fetchedAt": "2026-11-23",
+  "fetchedAt": "2026-11-24",
   "sourceName": "目黒区「区内保育施設の空き状況（例月）」",
   "sourceUrl": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/hoikuennado/akijokyo.html",
   "sourceFiles": {
-    "vacancy": "https://data.bodik.jp/ja/dataset/4c8591a5-dff1-4e12-ad9a-420db9a960fe/resource/1138e0f8-5a6a-4b53-a30b-65adb048a698/download/20261120.csv"
+    "vacancy": "https://data.bodik.jp/dataset/4c8591a5-dff1-4e12-ad9a-420db9a960fe/resource/1138e0f8-5a6a-4b53-a30b-65adb048a698/download/20261120.csv"
   },
   "metrics": [
     "vacancy"
