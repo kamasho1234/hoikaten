@@ -2,11 +2,11 @@
   "municipalitySlug": "kumagaya",
   "municipalityName": "熊谷市",
   "asOf": "2026-10-26",
-  "fetchedAt": "2026-10-27",
+  "fetchedAt": "2026-11-25",
   "sourceName": "熊谷市「認定こども園・保育所(園)・地域型保育施設 受入可能状況」",
   "sourceUrl": "https://www.city.kumagaya.lg.jp/kosodate/kodomoshisetsu/hoikunyusyo/hoikuukeire.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.kumagaya.lg.jp/kosodate/kodomoshisetsu/hoikunyusyo/hoikuukeire.files/R8.12ukeirekanoujyoukyou.pdf"
+    "vacancy": "https://www.city.kumagaya.lg.jp/_res/projects/default_project/_page_/001/002/882/r8.12ukeirekanoujyoukyou.pdf"
   },
   "metrics": [
     "symbol"

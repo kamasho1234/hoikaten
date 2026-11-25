@@ -1,17 +1,17 @@
 {
   "municipalitySlug": "koriyama",
   "municipalityName": "郡山市",
-  "asOf": "2026-10-22",
-  "fetchedAt": "2026-10-23",
+  "asOf": "2026-11-24",
+  "fetchedAt": "2026-11-25",
   "sourceName": "郡山市「認可保育施設の空き状況」",
   "sourceUrl": "https://www.city.koriyama.lg.jp/site/kosodate/21933.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.koriyama.lg.jp/uploaded/attachment/132230.pdf"
+    "vacancy": "https://www.city.koriyama.lg.jp/uploaded/attachment/133692.pdf"
   },
   "metrics": [
     "symbol"
   ],
-  "subtitle": "12月入所の空き状況",
+  "subtitle": "1月入所の空き状況",
   "notes": [
     "郡山市は空き状況を人数ではなく記号で公表しています。当サイトでも公式の記号のまま載せています。",
     "公式の表で空欄になっているところは「空きなし」という意味なので、当サイトでは「－」で表しています。",
@@ -62,8 +62,8 @@
     {"id":"77","name":"ひだまり分園（八山田保育園）","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－",null,null,null]},
     {"id":"17","name":"鶴見坦保育所（令和11年度末閉所予定）","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","△","△",null,null,null]},
     {"id":"206","name":"郡山どろんこ保育園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
-    {"id":"3","name":"希望ヶ丘保育所","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","△","－","－"]},
-    {"id":"2","name":"赤木保育所","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
+    {"id":"3","name":"希望ヶ丘保育所","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","△","△","－","－"]},
+    {"id":"2","name":"赤木保育所","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","△","－","△","－"]},
     {"id":"13","name":"香久池保育所","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
     {"id":"8","name":"緑ケ丘保育園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
     {"id":"78","name":"ドレミの保育園","w":0,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
@@ -89,7 +89,7 @@
     {"id":"20","name":"成田保育所","w":1,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
     {"id":"28","name":"田村保育所","w":2,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","△","－","－"]},
     {"id":"209","name":"ケヤキッズかなや保育園","w":2,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","△","△","△","△"]},
-    {"id":"29","name":"御代田保育所（令和11年度末閉所予定）","w":2,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,"○","○","○","△","－"]},
+    {"id":"29","name":"御代田保育所（令和11年度末閉所予定）","w":2,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,"－","△","△","△","△"]},
     {"id":"25","name":"柳橋保育所","w":3,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","○","○"]},
     {"id":"213","name":"八山田どろんこ保育園","w":4,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
     {"id":"79","name":"のびのび学園","w":4,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－","－","－","－"]},
@@ -129,7 +129,7 @@
     {"id":"510","name":"たんぽぽ保育園","w":0,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－",null,null,null]},
     {"id":"517","name":"キッズルームパオ","w":0,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["－","△","－",null,null,null]},
     {"id":"519","name":"キッズ東都学園保育園","w":0,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－",null,null,null]},
-    {"id":"505","name":"プティ保育園","w":0,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－",null,null,null]},
+    {"id":"505","name":"プティ保育園","w":0,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["－","△","－",null,null,null]},
     {"id":"506","name":"こばと保育園","w":0,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－",null,null,null]},
     {"id":"501","name":"中町はなさと保育園","w":0,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－",null,null,null]},
     {"id":"516","name":"なごみ保育園","w":4,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["－","－","－",null,null,null]},

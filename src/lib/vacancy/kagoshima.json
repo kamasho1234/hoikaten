@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "kagoshima",
   "municipalityName": "鹿児島市",
-  "asOf": "2026-11-24",
-  "fetchedAt": "2026-11-24",
+  "asOf": "2026-11-25",
+  "fetchedAt": "2026-11-25",
   "sourceName": "鹿児島市「保育施設空き状況一覧」",
   "sourceUrl": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/hoikusisetuaki.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/documents/u.pdf"
+    "vacancy": "https://www.city.kagoshima.lg.jp/kosodate/hoiku/kosodate/kosodate/hoikusho/hoikusho/documents/ho_1.pdf"
   },
   "metrics": [
     "symbol"
@@ -143,7 +143,7 @@
     {"id":"武・田上-武岡幼稚園","name":"武岡幼稚園","w":3,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
     {"id":"武・田上-武岡みらいえこども園","name":"武岡みらいえこども園","w":3,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
     {"id":"武・田上-エンジェルキッズ保育園","name":"エンジェルキッズ保育園","w":3,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","○","×","○"]},
-    {"id":"武・田上-たがみ台保育園","name":"たがみ台保育園","w":3,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["○","○","○","○","○","×"]},
+    {"id":"武・田上-たがみ台保育園","name":"たがみ台保育園","w":3,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","○","○","×","○"]},
     {"id":"武・田上-たけおか保育園","name":"たけおか保育園","w":3,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["○","○","×","×","○","×"]},
     {"id":"武・田上-あさひこども園","name":"あさひこども園","w":3,"c":4,"vacancy":[null,null,null,null,null,null],"symbols":["○","×","○","×","×","×"]},
     {"id":"武・田上-さつき幼稚園","name":"さつき幼稚園","w":3,"c":2,"vacancy":[null,null,null,null,null,null],"symbols":[null,null,"×","×","×","×"]},
@@ -242,7 +242,7 @@
     {"id":"伊敷-ゆとりななやしろのもり保育園","name":"ゆとりななやしろのもり保育園","w":6,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","○","×","×","×"]},
     {"id":"伊敷-吉野ひかり保育園","name":"吉野ひかり保育園","w":6,"c":3,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×",null,null,null]},
     {"id":"伊敷-こばと・ゆなの木こども園","name":"こばと・ゆなの木こども園","w":6,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
-    {"id":"伊敷-はなぶさ幼稚園","name":"はなぶさ幼稚園","w":6,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["○","○","×","×","×","×"]},
+    {"id":"伊敷-はなぶさ幼稚園","name":"はなぶさ幼稚園","w":6,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
     {"id":"伊敷-錦ヶ丘","name":"錦ヶ丘","w":6,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","○","×","×","×","×"]},
     {"id":"伊敷-錦ヶ丘プラス⁺","name":"錦ヶ丘プラス⁺","w":6,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","○","○","×"]},
     {"id":"吉野-ちはなこども園","name":"ちはなこども園","w":7,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},

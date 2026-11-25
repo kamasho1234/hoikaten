@@ -2,12 +2,12 @@
   "municipalitySlug": "atsuma",
   "municipalityName": "厚真町",
   "prefecture": "北海道",
-  "asOf": "2026-10-27",
-  "fetchedAt": "2026-11-24",
+  "asOf": "2026-11-25",
+  "fetchedAt": "2026-11-25",
   "sourceName": "厚真町「こども園の空き状況」",
   "sourceUrl": "https://www.town.atsuma.lg.jp/page/1030.html",
   "sourceFiles": {
-    "vacancy": "https://www.town.atsuma.lg.jp/uploaded/attachment/5758.pdf"
+    "vacancy": "https://www.town.atsuma.lg.jp/uploaded/attachment/5843.pdf"
   },
   "metrics": [
     "symbol"

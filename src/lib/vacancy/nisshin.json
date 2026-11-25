@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "nisshin",
   "municipalityName": "日進市",
-  "asOf": "2026-11-18",
-  "fetchedAt": "2026-11-24",
+  "asOf": "2026-11-25",
+  "fetchedAt": "2026-11-25",
   "sourceName": "日進市「保育園等の空き状況」",
   "sourceUrl": "https://www.city.nisshin.lg.jp/department/kenko/hoiku/6/2/2/hoiku/17120.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.nisshin.lg.jp/material/files/group/120/R8_20261118_hoikuen.pdf"
+    "vacancy": "https://www.city.nisshin.lg.jp/material/files/group/120/R8_20261125_hoikuen.pdf"
   },
   "metrics": [
     "symbol"
@@ -80,8 +80,8 @@
       ],
       "symbols": [
         "×",
-        "△",
-        "△",
+        "×",
+        "×",
         "×",
         "×",
         "△"
@@ -105,7 +105,7 @@
         "×",
         "×",
         "×",
-        "△",
+        "×",
         "×"
       ]
     },
@@ -124,7 +124,7 @@
       ],
       "symbols": [
         "×",
-        "△",
+        "×",
         "×",
         "×",
         "△",
@@ -255,11 +255,11 @@
         null
       ],
       "symbols": [
+        "△",
         "×",
         "×",
         "×",
-        "×",
-        "×",
+        "△",
         "×"
       ]
     },
@@ -322,7 +322,7 @@
       ],
       "symbols": [
         "×",
-        "△",
+        "×",
         "×",
         "×",
         "○",
@@ -369,7 +369,7 @@
         "×",
         "×",
         "×",
-        "△",
+        "×",
         "○"
       ]
     },
@@ -499,7 +499,7 @@
       "symbols": [
         "×",
         "×",
-        "×",
+        "△",
         null,
         null,
         null
@@ -564,7 +564,7 @@
       ],
       "symbols": [
         "×",
-        "×",
+        "△",
         "×",
         null,
         null,
@@ -586,7 +586,7 @@
       ],
       "symbols": [
         "×",
-        "△",
+        "×",
         "△",
         null,
         null,
@@ -630,7 +630,7 @@
       ],
       "symbols": [
         "×",
-        "△",
+        "×",
         "×",
         null,
         null,
