@@ -2,12 +2,12 @@
   "municipalitySlug": "ureshino",
   "municipalityName": "嬉野市",
   "prefecture": "佐賀県",
-  "asOf": "2026-08-26",
-  "fetchedAt": "2026-11-25",
+  "asOf": "2026-11-26",
+  "fetchedAt": "2026-11-26",
   "sourceName": "嬉野市「市内保育施設の空き状況」",
   "sourceUrl": "https://www.city.ureshino.lg.jp/kosodate/hoikusho/_27905.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.ureshino.lg.jp/var/rev0/0053/4356/12682615217.pdf"
+    "vacancy": "https://www.city.ureshino.lg.jp/var/rev0/0055/0356/126112516328.pdf"
   },
   "metrics": [
     "symbol"
@@ -53,7 +53,7 @@
       ],
       "symbols": [
         "△",
-        "△",
+        "×",
         "〇",
         "△",
         "〇",
@@ -74,7 +74,7 @@
         null
       ],
       "symbols": [
-        "△",
+        "〇",
         "〇",
         "〇",
         "〇",
@@ -118,12 +118,12 @@
         null
       ],
       "symbols": [
-        "〇",
-        "〇",
+        "△",
         "〇",
         "△",
         "△",
-        "△"
+        "△",
+        "×"
       ]
     },
     {
@@ -140,12 +140,12 @@
         null
       ],
       "symbols": [
-        "〇",
-        "〇",
         "△",
         "△",
         "△",
-        "△"
+        "△",
+        "△",
+        "×"
       ]
     },
     {
@@ -210,7 +210,7 @@
         "△",
         "△",
         "△",
-        "△",
+        "×",
         "×"
       ]
     },
@@ -250,7 +250,7 @@
         null
       ],
       "symbols": [
-        "△",
+        "×",
         "△",
         "×",
         null,
@@ -317,9 +317,9 @@
       ],
       "symbols": [
         "×",
+        "×",
         "△",
         "△",
-        "〇",
         "△",
         "△"
       ]
@@ -339,8 +339,8 @@
       ],
       "symbols": [
         "×",
-        "〇",
         "×",
+        "〇",
         "〇",
         "〇",
         "〇"

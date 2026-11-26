@@ -2,12 +2,12 @@
   "municipalitySlug": "misato-saitama",
   "municipalityName": "三郷市",
   "prefecture": "埼玉県",
-  "asOf": "2026-10-27",
-  "fetchedAt": "2026-11-25",
+  "asOf": "2026-11-25",
+  "fetchedAt": "2026-11-26",
   "sourceName": "三郷市「保育所（園）の入所可能人数」",
   "sourceUrl": "https://www.city.misato.lg.jp/soshiki/kodomomirai/sukoyaka/5/12106.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.misato.lg.jp/material/files/group/35/akiwaku-2026-11.pdf"
+    "vacancy": "https://www.city.misato.lg.jp/material/files/group/35/akiwaku-2026-12.pdf"
   },
   "metrics": [
     "symbol"
@@ -191,7 +191,7 @@
       "symbols": [
         "×",
         "×",
-        "▲",
+        "×",
         "×",
         "×",
         "×"
@@ -257,7 +257,7 @@
       "symbols": [
         "×",
         "×",
-        "▲",
+        "×",
         "×",
         "×",
         "×"
@@ -324,7 +324,7 @@
         "×",
         "×",
         "×",
-        "▲",
+        "×",
         "×",
         "▲"
       ]
@@ -368,7 +368,7 @@
         "×",
         "×",
         "×",
-        "▲",
+        "〇",
         "×",
         "▲"
       ]
@@ -390,7 +390,7 @@
         "×",
         "×",
         "×",
-        "▲",
+        "×",
         "×",
         "▲"
       ]
@@ -761,7 +761,7 @@
         null
       ],
       "symbols": [
-        "▲",
+        "×",
         "×",
         "×",
         "×",
@@ -785,7 +785,7 @@
       "symbols": [
         "×",
         "×",
-        "×",
+        "▲",
         "×",
         "×",
         "×"

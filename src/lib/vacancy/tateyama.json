@@ -2,12 +2,12 @@
   "municipalitySlug": "tateyama",
   "municipalityName": "館山市",
   "prefecture": "千葉県",
-  "asOf": "2026-10-26",
-  "fetchedAt": "2026-11-25",
+  "asOf": "2026-11-25",
+  "fetchedAt": "2026-11-26",
   "sourceName": "館山市「保育施設空き状況」",
   "sourceUrl": "https://www.city.tateyama.chiba.jp/kodomo/page100001.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.tateyama.chiba.jp/files/300402740.pdf"
+    "vacancy": "https://www.city.tateyama.chiba.jp/files/300403627.pdf"
   },
   "metrics": [
     "symbol"
@@ -58,7 +58,7 @@
         "×",
         "△",
         "×",
-        "△"
+        "○"
       ]
     },
     {
@@ -119,10 +119,10 @@
         null
       ],
       "symbols": [
-        "×",
-        "×",
-        "×",
         "△",
+        "△",
+        "×",
+        "○",
         "○",
         "○"
       ]
@@ -185,7 +185,7 @@
         null
       ],
       "symbols": [
-        "△",
+        "○",
         "△",
         "○",
         "○",
@@ -231,7 +231,7 @@
       "symbols": [
         null,
         "○",
-        "△",
+        "×",
         "○",
         "×",
         "○"

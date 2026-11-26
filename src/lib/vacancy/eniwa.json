@@ -2,8 +2,8 @@
   "municipalitySlug": "eniwa",
   "municipalityName": "恵庭市",
   "prefecture": "北海道",
-  "asOf": "2026-12-01",
-  "fetchedAt": "2026-11-25",
+  "asOf": "2026-12-16",
+  "fetchedAt": "2026-11-26",
   "sourceName": "恵庭市「保育園等の空き状況」（えにわっこなび）",
   "sourceUrl": "https://eniwakko-navi.com/hoikuaki/",
   "sourceFiles": {
@@ -207,11 +207,11 @@
         null
       ],
       "symbols": [
-        "△",
+        "×",
         "×",
         "△",
         "×",
-        "△",
+        "×",
         "×"
       ]
     },
@@ -365,7 +365,7 @@
         "×",
         "○",
         "×",
-        "△",
+        "×",
         "△"
       ]
     },
@@ -449,7 +449,7 @@
         null
       ],
       "symbols": [
-        "△",
+        "×",
         "×",
         "△",
         null,

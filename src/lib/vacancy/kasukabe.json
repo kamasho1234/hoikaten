@@ -1,17 +1,17 @@
 {
   "municipalitySlug": "kasukabe",
   "municipalityName": "春日部市",
-  "asOf": "2026-10-23",
-  "fetchedAt": "2026-10-27",
+  "asOf": "2026-11-25",
+  "fetchedAt": "2026-11-26",
   "sourceName": "春日部市「保育施設などの空き状況」",
   "sourceUrl": "https://www.city.kasukabe.lg.jp/kosodate_kyoiku_bunka/kasukabecosodateoensite/kodomowoazukeru_hoikushisetsu_jidoclubnado/1/11012.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.kasukabe.lg.jp/material/files/group/27/aki202611.pdf"
+    "vacancy": "https://www.city.kasukabe.lg.jp/material/files/group/27/202612aki.pdf"
   },
   "metrics": [
     "symbol"
   ],
-  "subtitle": "2026年度11月入所の選考後の空き状況",
+  "subtitle": "2026年度12月入所の選考後の空き状況",
   "notes": [
     "春日部市は空きを人数ではなく記号で公表しています。当サイトでも公式の記号のまま載せています。",
     "各施設の保育士配置や入退所の状況により、受け入れ可能数は変わることがあります。",
@@ -53,12 +53,12 @@
     {"id":"公立保育所-庄和第１保育所","name":"庄和第１保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×","×","×"]},
     {"id":"公立保育所-庄和第２保育所","name":"庄和第２保育所","w":null,"c":0,"vacancy":[null,null,null,null,null,null],"symbols":[null,"×","×","×","×","○"]},
     {"id":"私立保育園・認定こども園・地域型保育施設-春日部保育園","name":"春日部保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×",null,"×"]},
-    {"id":"私立保育園・認定こども園・地域型保育施設-三愛保育園","name":"三愛保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","×",null,"×"]},
+    {"id":"私立保育園・認定こども園・地域型保育施設-三愛保育園","name":"三愛保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×",null,"×"]},
     {"id":"私立保育園・認定こども園・地域型保育施設-小鳩保育園","name":"小鳩保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×",null,"×"]},
     {"id":"私立保育園・認定こども園・地域型保育施設-豊春中央保育園","name":"豊春中央保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×",null,"×"]},
     {"id":"私立保育園・認定こども園・地域型保育施設-やなぎ保育園","name":"やなぎ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×",null,"×"]},
     {"id":"私立保育園・認定こども園・地域型保育施設-小渕保育園","name":"小渕保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×",null,"×"]},
-    {"id":"私立保育園・認定こども園・地域型保育施設-やはら保育園","name":"やはら保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△","△",null,"×"]},
+    {"id":"私立保育園・認定こども園・地域型保育施設-やはら保育園","name":"やはら保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×",null,"×"]},
     {"id":"私立保育園・認定こども園・地域型保育施設-一の割自然保育園","name":"一の割自然保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×",null,"×"]},
     {"id":"私立保育園・認定こども園・地域型保育施設-フェアリー・キッズ保育園","name":"フェアリー・キッズ保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","×","×",null,"×"]},
     {"id":"私立保育園・認定こども園・地域型保育施設-うらら保育園","name":"うらら保育園","w":null,"c":1,"vacancy":[null,null,null,null,null,null],"symbols":["×","×","△",null,null,null]},
