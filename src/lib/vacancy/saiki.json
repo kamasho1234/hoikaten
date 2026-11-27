@@ -2,12 +2,12 @@
   "municipalitySlug": "saiki",
   "municipalityName": "佐伯市",
   "prefecture": "大分県",
-  "asOf": "2026-10-23",
-  "fetchedAt": "2026-11-26",
+  "asOf": "2026-11-26",
+  "fetchedAt": "2026-11-27",
   "sourceName": "佐伯市「保育所等受入可能状況一覧」",
   "sourceUrl": "https://www.city.saiki.oita.jp/kosodate/kiji00311831/index.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.saiki.oita.jp/kosodate/kiji00311831/3_11831_up_0p7sv21s.pdf"
+    "vacancy": "https://www.city.saiki.oita.jp/kosodate/kiji00311831/3_11831_up_4aikh4aw.pdf"
   },
   "metrics": [
     "symbol"
@@ -74,11 +74,11 @@
         null
       ],
       "symbols": [
-        "○",
+        "×",
         "×",
         "○",
         "○",
-        "×",
+        "○",
         "○"
       ]
     },
@@ -97,7 +97,7 @@
       ],
       "symbols": [
         "○",
-        "○",
+        "×",
         "×",
         "○",
         "○",
@@ -185,7 +185,7 @@
       ],
       "symbols": [
         "×",
-        "○",
+        "×",
         "×",
         "×",
         "×",
@@ -230,7 +230,7 @@
       "symbols": [
         "○",
         "×",
-        "○",
+        "×",
         "×",
         "×",
         "×"
@@ -316,7 +316,7 @@
         null
       ],
       "symbols": [
-        "×",
+        "○",
         "×",
         "×",
         "×",
@@ -448,8 +448,8 @@
         null
       ],
       "symbols": [
-        "○",
-        "○",
+        "×",
+        "×",
         "○",
         "○",
         "○",

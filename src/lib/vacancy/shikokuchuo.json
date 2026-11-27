@@ -2,12 +2,12 @@
   "municipalitySlug": "shikokuchuo",
   "municipalityName": "四国中央市",
   "prefecture": "愛媛県",
-  "asOf": "2026-11-25",
-  "fetchedAt": "2026-11-26",
+  "asOf": "2026-11-27",
+  "fetchedAt": "2026-11-27",
   "sourceName": "四国中央市「保育所等途中入所受入可能状況」",
   "sourceUrl": "https://www.city.shikokuchuo.ehime.jp/site/kosodate/37124.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.shikokuchuo.ehime.jp/uploaded/attachment/34567.pdf"
+    "vacancy": "https://www.city.shikokuchuo.ehime.jp/uploaded/attachment/34651.pdf"
   },
   "metrics": [
     "symbol"

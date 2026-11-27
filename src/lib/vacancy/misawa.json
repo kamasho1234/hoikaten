@@ -2,12 +2,12 @@
   "municipalitySlug": "misawa",
   "municipalityName": "三沢市",
   "prefecture": "青森県",
-  "asOf": "2026-10-21",
-  "fetchedAt": "2026-11-26",
+  "asOf": "2026-11-26",
+  "fetchedAt": "2026-11-27",
   "sourceName": "三沢市「保育施設の空き状況一覧」",
   "sourceUrl": "https://www.city.misawa.lg.jp/index.cfm/21,60957,106,110,html",
   "sourceFiles": {
-    "vacancy": "https://www.city.misawa.lg.jp/index.cfm/21,60957,c,html/60957/20261022-131106.pdf"
+    "vacancy": "https://www.city.misawa.lg.jp/index.cfm/21,60957,c,html/60957/20261127-085837.pdf"
   },
   "metrics": [
     "symbol"
@@ -54,7 +54,7 @@
         null
       ],
       "symbols": [
-        "×",
+        "△",
         "×",
         "×",
         "△",
@@ -143,8 +143,8 @@
       ],
       "symbols": [
         "△",
-        "○",
-        "○",
+        "△",
+        "×",
         "○",
         "○",
         "○"
@@ -165,7 +165,7 @@
       ],
       "symbols": [
         "△",
-        "△",
+        "×",
         "△",
         "×",
         "×",
@@ -190,8 +190,8 @@
         "△",
         "△",
         "△",
-        "△",
-        "△"
+        "×",
+        "×"
       ]
     },
     {
@@ -232,9 +232,9 @@
       "symbols": [
         "△",
         "△",
-        "△",
+        "○",
         "×",
-        "△",
+        "○",
         "×"
       ]
     },
@@ -341,9 +341,9 @@
       ],
       "symbols": [
         "△",
-        "△",
         "○",
-        "△",
+        "○",
+        "○",
         "△",
         "△"
       ]
@@ -431,7 +431,7 @@
         "×",
         "×",
         "×",
-        "○",
+        "△",
         "×",
         "×"
       ]
@@ -472,8 +472,8 @@
         null
       ],
       "symbols": [
-        "△",
         "×",
+        "○",
         "×",
         null,
         null,

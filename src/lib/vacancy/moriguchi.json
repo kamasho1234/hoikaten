@@ -1,12 +1,12 @@
 {
   "municipalitySlug": "moriguchi",
   "municipalityName": "守口市",
-  "asOf": "2026-10-28",
-  "fetchedAt": "2026-11-26",
+  "asOf": "2026-11-27",
+  "fetchedAt": "2026-11-27",
   "sourceName": "守口市「認定こども園等（2・3号認定）受入可能枠一覧表」",
   "sourceUrl": "https://www.city.moriguchi.osaka.jp/kakukanoannai/kodomobu/hoikuyochienka/ninteikodomoentou/hoikusyonyuen/3052.html",
   "sourceFiles": {
-    "vacancy": "https://www.city.moriguchi.osaka.jp/material/files/group/4/ukeirewaku20261028.pdf"
+    "vacancy": "https://www.city.moriguchi.osaka.jp/material/files/group/4/ukeirewaku20261127.pdf"
   },
   "metrics": [
     "vacancy"
@@ -130,7 +130,7 @@
       "c": 1,
       "vacancy": [
         0,
-        1,
+        0,
         0,
         0,
         0,
@@ -215,7 +215,7 @@
       "vacancy": [
         0,
         0,
-        1,
+        0,
         0,
         0,
         0
@@ -242,7 +242,7 @@
       "c": 1,
       "vacancy": [
         0,
-        1,
+        0,
         0,
         0,
         0,
@@ -273,7 +273,7 @@
         0,
         0,
         0,
-        1,
+        0,
         0
       ]
     },
@@ -339,7 +339,7 @@
       "w": null,
       "c": 1,
       "vacancy": [
-        1,
+        0,
         0,
         0,
         0,
@@ -381,9 +381,9 @@
       "w": null,
       "c": 1,
       "vacancy": [
+        1,
         0,
-        0,
-        0,
+        1,
         0,
         0,
         0
@@ -468,9 +468,9 @@
         0,
         0,
         0,
-        2,
         0,
-        10
+        0,
+        0
       ]
     },
     {
@@ -593,7 +593,7 @@
       "vacancy": [
         0,
         0,
-        0,
+        1,
         null,
         null,
         null
@@ -621,7 +621,7 @@
       "vacancy": [
         0,
         0,
-        1,
+        0,
         null,
         null,
         null
@@ -647,9 +647,9 @@
       "w": null,
       "c": 3,
       "vacancy": [
-        0,
         1,
         0,
+        1,
         null,
         null,
         null
@@ -661,7 +661,7 @@
       "w": null,
       "c": 3,
       "vacancy": [
-        0,
+        1,
         0,
         0,
         null,
@@ -703,7 +703,7 @@
       "w": null,
       "c": 3,
       "vacancy": [
-        1,
+        0,
         0,
         0,
         null,
@@ -717,7 +717,7 @@
       "w": null,
       "c": 3,
       "vacancy": [
-        1,
+        0,
         0,
         0,
         null,
@@ -773,7 +773,7 @@
       "w": null,
       "c": 3,
       "vacancy": [
-        1,
+        0,
         0,
         0,
         null,
@@ -816,7 +816,7 @@
       "c": 3,
       "vacancy": [
         0,
-        1,
+        0,
         0,
         null,
         null,
@@ -858,7 +858,7 @@
       "c": 3,
       "vacancy": [
         0,
-        1,
+        0,
         0,
         null,
         null,
@@ -872,7 +872,7 @@
       "c": 3,
       "vacancy": [
         0,
-        0,
+        1,
         0,
         null,
         null,
